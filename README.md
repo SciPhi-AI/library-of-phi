@@ -226,6 +226,9 @@ We use AI-driven methods, processing openly accessible syllabi from MIT OCW and,
 
 - [Groundwater Hydrology](./gpt_4_full_synth/gpt_4_full_synth_field_environmental_engineering_subfield_hydrology_and_water_resource_systems_course_name_Groundwater_Hydrology.md)
 
+# GPT-3.5-turbo w/ RAG
+
+There are many more textbooks which were generated with GPT-3.5-turbo than GPT-4 (~240 vs 60). These textbooks are not quite of the same quality, but they are much less expensive to produce. Please use them if a GPT-4 based source is not available.
 
 # License
 **MIT OpenCourseWare Materials Citation**:
