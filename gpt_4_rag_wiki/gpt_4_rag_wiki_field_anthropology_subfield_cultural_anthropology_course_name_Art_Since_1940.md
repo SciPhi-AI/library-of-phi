@@ -1,5 +1,6 @@
 # NOTE - THIS TEXTBOOK WAS AI GENERATED
 
+![_de2117a9-0243-44ef-895f-4097b05320c6](https://github.com/emrgnt-cmplxty/library_of_phi/assets/68796651/3a019e21-45e2-4199-b40d-edb17742cf9b)
 
 
 This textbook was generated using AI techniques. While it aims to be factual and accurate, please verify any critical information. The content may contain errors, biases or harmful content despite best efforts. Please report any issues.
