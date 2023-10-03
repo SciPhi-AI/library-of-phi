@@ -1,8 +1,11 @@
 # NOTE - THIS TEXTBOOK WAS AI GENERATED
 
+![_fd2c123e-35c9-4ccd-8805-a3d137f7064c](https://github.com/emrgnt-cmplxty/library_of_phi/assets/68796651/9abd7b6f-0ef5-44a0-866d-05e5ad5d6bb3)
 
 
-This textbook was generated using AI techniques. While it aims to be factual and accurate, please verify any critical information. The content may contain errors, biases or harmful content despite best efforts. Please report any issues.
+
+This textbook was generated using AI techniques. While it aims to be factual ![Uploading _fd2c123e-35c9-4ccd-8805-a3d137f7064c.jpg…]()
+and accurate, please verify any critical information. The content may contain errors, biases or harmful content despite best efforts. Please report any issues.
 
 
 # Table of Contents
