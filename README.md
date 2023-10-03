@@ -1,7 +1,7 @@
 
 # **Library of Phi**
 
-The Library of Phi is a collaborative initiative sponsored by SciPhi and textbook_quality. Our primary mission is to democratize access to high-quality textbooks.
+The Library of Phi is on a mission is to democratize access to high-quality textbooks.
 
 We leverage AI-driven methodologies, processing openly accessible syllabi from MIT OCW, and employ the retrieval-augment-generation (RAG) technique over Wikipedia. All textbooks in this repository have been generated using GPT-4. Approximately 50% were created using RAG, while the others are fully synthetic.
 
@@ -10,6 +10,11 @@ We leverage AI-driven methodologies, processing openly accessible syllabi from M
 - [textbook_quality](https://github.com/VikParuchuri/textbook_quality)
 
 ---
+<p align="center">
+
+<img width="705" alt="Screenshot 2023-10-03 at 3 14 50 PM" src="https://github.com/emrgnt-cmplxty/library_of_phi/assets/68796651/ec1cd6c6-5596-4287-8818-60385a0c5cbc">
+
+</p>
 
 # GPT-4 w/ RAG over WIKI
 
