@@ -3,7 +3,7 @@
 
 The Library of Phi is on a mission to democratize access to high-quality textbooks.
 
-We use AI-driven methods, processing openly accessible syllabi from MIT OCW and, soon, other sources. We then apply retrieval-augmented-generation (RAG) over Wikipedia to ensure the textbooks are factually grounded. All textbooks in this repository are generated using GPT-3.5 and GPT-4.
+We use AI-driven methods, processing openly accessible syllabi from MIT OCW and, soon, other sources. We then apply retrieval-augmented-generation (RAG) over Wikipedia to attempt to ground the textbooks in fact. All textbooks in this repository are generated using GPT-3.5 and GPT-4.
 
 ## Powered By
 - [SciPhi](https://github.com/emrgnt-cmplxty/SciPhi)
