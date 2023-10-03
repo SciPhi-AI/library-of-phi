@@ -1,4 +1,5 @@
 # NOTE - THIS TEXTBOOK WAS AI GENERATED
+![_bad80c4b-e1c8-464e-b458-c21eae9b65c3](https://github.com/emrgnt-cmplxty/library_of_phi/assets/68796651/697083aa-5b60-43f2-8f27-4a3aa97aa6a8)
 
 
 
