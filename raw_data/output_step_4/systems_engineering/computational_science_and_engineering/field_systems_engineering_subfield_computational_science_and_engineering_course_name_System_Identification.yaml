@@ -1,0 +1,227 @@
+textbook:
+  'System Identification: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Review of Linear Systems and Stochastic Processes:':
+        sections:
+        - '- Section: 1.1 Linear Systems:':
+            subsections:
+            - 1.1a Introduction to Linear Systems
+            - 1.1b System Representation
+            - 1.1c System Properties
+            - 1.1d System Response
+        - '- Section: 1.2 Stochastic Processes:':
+            subsections:
+            - 1.2a Introduction to Stochastic Processes
+            - 1.2b Stationary Processes
+            - 1.2c Autocorrelation and Power Spectral Density
+            - 1.2d Gaussian Processes
+            - 1.2e Markov Processes
+    - '- Chapter 2: Defining a General Framework:':
+        sections:
+        - '- Section: 2.1 General Framework:':
+            subsections:
+            - 2.1a System Identification Framework
+            - 2.1b Modeling Assumptions
+            - 2.1c Signal Processing Techniques
+    - '- Chapter 3: Introductory Examples for System Identification:':
+        sections:
+        - '- Section: 3.1 Introductory Examples:':
+            subsections:
+            - '3.1a Example 1: Spring-Mass-Damper System'
+            - '3.1b Example 2: RC Circuit'
+            - '3.1c Example 3: Pendulum System'
+    - '- Chapter 4: Nonparametric Identification:':
+        sections:
+        - '- Section: 4.1 Nonparametric Identification:':
+            subsections:
+            - 4.1a Frequency Domain Methods
+            - 4.1b Time Domain Methods
+            - 4.1c Nonparametric Model Selection
+            - 4.1d Model Validation Techniques
+    - '- Chapter 5: Input Design and Persistence of Excitation:':
+        sections:
+        - '- Section: 5.1 Input Design:':
+            subsections:
+            - 5.1a Excitation Signals
+            - 5.1b Input Design Criteria
+            - 5.1c Optimal Input Design Methods
+        - '- Section: 5.2 Persistence of Excitation:':
+            subsections:
+            - 5.2a Definition and Importance
+            - 5.2b Excitation Conditions
+            - 5.2c Excitation Signals for Parameter Estimation
+    - '- Chapter 6: Pseudo-random Sequences:':
+        sections:
+        - '- Section: 6.1 Pseudo-random Sequences:':
+            subsections:
+            - 6.1a Definition and Properties
+            - 6.1b Generation Methods
+            - 6.1c Spectral Properties
+            - 6.1d Applications in System Identification
+    - '- Chapter 7: Least Squares and Statistical Properties:':
+        sections:
+        - '- Section: 7.1 Least Squares:':
+            subsections:
+            - 7.1a Ordinary Least Squares (OLS)
+            - 7.1b Weighted Least Squares (WLS)
+            - 7.1c Recursive Least Squares (RLS)
+        - '- Section: 7.2 Statistical Properties:':
+            subsections:
+            - 7.2a Consistency
+            - 7.2b Efficiency
+            - 7.2c Bias
+            - 7.2d Robustness
+    - '- Chapter 8: Parametrized Model Structures and One-step Predictor:':
+        sections:
+        - '- Section: 8.1 Parametrized Model Structures:':
+            subsections:
+            - 8.1a ARX Models
+            - 8.1b ARMAX Models
+            - 8.1c Output Error Models
+            - 8.1d State Space Models
+        - '- Section: 8.2 One-step Predictor:':
+            subsections:
+            - 8.2a Definition and Formulation
+            - 8.2b Estimation Methods
+            - 8.2c Prediction Error Analysis
+    - '- Chapter 9: Identifiability:':
+        sections:
+        - '- Section: 9.1 Identifiability:':
+            subsections:
+            - 9.1a Definition and Importance
+            - 9.1b Identifiability Conditions
+            - 9.1c Practical Identifiability Techniques
+    - '- Chapter 10: Parameter Estimation Methods:':
+        sections:
+        - '- Section: 10.1 Parameter Estimation Methods:':
+            subsections:
+            - 10.1a Maximum Likelihood Estimation
+            - 10.1b Bayesian Estimation
+            - 10.1c Instrumental Variable Estimation
+            - 10.1d Subspace Methods
+    - '- Chapter 11: Minimum Prediction Error Paradigm and Maximum Likelihood:':
+        sections:
+        - '- Section: 11.1 Minimum Prediction Error Paradigm:':
+            subsections:
+            - 11.1a MPE Estimation Framework
+            - 11.1b Prediction Error Criterion
+            - 11.1c Properties and Advantages
+        - '- Section: 11.2 Maximum Likelihood:':
+            subsections:
+            - 11.2a ML Estimation Framework
+            - 11.2b Likelihood Function
+            - 11.2c Parameter Estimation Techniques
+    - '- Chapter 12: Convergence and Consistency:':
+        sections:
+        - '- Section: 12.1 Convergence and Consistency:':
+            subsections:
+            - 12.1a Asymptotic Convergence
+            - 12.1b Consistency of Estimators
+            - 12.1c Rate of Convergence
+            - 12.1d Convergence in Probability
+    - '- Chapter 13: Informative Data:':
+        sections:
+        - '- Section: 13.1 Informative Data:':
+            subsections:
+            - 13.1a Definition and Importance
+            - 13.1b Data Transformation Techniques
+            - 13.1c Data Preprocessing Methods
+            - 13.1d Data Quality Assessment
+    - '- Chapter 14: Convergence to the True Parameters:':
+        sections:
+        - '- Section: 14.1 Convergence to the True Parameters:':
+            subsections:
+            - 14.1a Asymptotic Properties of Estimators
+            - 14.1b Consistency of Estimators
+            - 14.1c Rate of Convergence
+            - 14.1d Convergence in Probability
+    - '- Chapter 15: Asymptotic Distribution of PEM:':
+        sections:
+        - '- Section: 15.1 Asymptotic Distribution of PEM:':
+            subsections:
+            - 15.1a Distribution of Prediction Errors
+            - 15.1b Confidence Intervals
+            - 15.1c Hypothesis Testing
+            - 15.1d Goodness-of-fit Measures
+    - '- Chapter 16: Instrumental Variable Methods:':
+        sections:
+        - '- Section: 16.1 Instrumental Variable Methods:':
+            subsections:
+            - 16.1a Definition and Importance
+            - 16.1b Identification Conditions
+            - 16.1c Estimation Techniques
+            - 16.1d Applications and Limitations
+    - '- Chapter 17: Identification in Closed Loop:':
+        sections:
+        - '- Section: 17.1 Identification in Closed Loop:':
+            subsections:
+            - 17.1a Challenges in Closed Loop Identification
+            - 17.1b Open Loop Identification Techniques
+            - 17.1c Closed Loop Identification Techniques
+            - 17.1d Performance Analysis
+    - '- Chapter 18: Asymptotic Results:':
+        sections:
+        - '- Section: 18.1 Asymptotic Results:':
+            subsections:
+            - 18.1a Asymptotic Efficiency
+            - "18.1b Asymptotic Cram\xE9r-Rao Bound"
+            - 18.1c Asymptotic Bias
+            - 18.1d Asymptotic Variance
+    - '- Chapter 19: Computation:':
+        sections:
+        - '- Section: 19.1 Computation:':
+            subsections:
+            - 19.1a Numerical Methods
+            - 19.1b Optimization Techniques
+            - 19.1c Computational Efficiency
+            - 19.1d Software Tools
+    - '- Chapter 20: Levinson Algorithm and Recursive Estimation:':
+        sections:
+        - '- Section: 20.1 Levinson Algorithm:':
+            subsections:
+            - 20.1a Introduction to Levinson Algorithm
+            - 20.1b Levinson Algorithm Steps
+        - '- Section: 20.2 Recursive Estimation:':
+            subsections:
+            - 20.2a Recursive Least Squares (RLS)
+            - 20.2b Recursive Instrumental Variable (RIV)
+            - 20.2c Recursive Maximum Likelihood (RML)
+    - '- Chapter 21: Identification in Practice:':
+        sections:
+        - '- Section: 21.1 Identification in Practice:':
+            subsections:
+            - 21.1a Real-World System Identification Challenges
+            - 21.1b Practical Considerations
+            - 21.1c Case Studies and Examples
+            - 21.1d Best Practices
+    - '- Chapter 22: Error Filtering:':
+        sections:
+        - '- Section: 22.1 Error Filtering:':
+            subsections:
+            - 22.1a Error Detection and Removal Techniques
+            - 22.1b Kalman Filtering
+            - 22.1c Particle Filtering
+            - 22.1d Smoothing Techniques
+    - '- Chapter 23: Order Estimation:':
+        sections:
+        - '- Section: 23.1 Order Estimation:':
+            subsections:
+            - 23.1a Model Order Selection
+            - 23.1b Information Criteria
+            - 23.1c Cross-validation Techniques
+            - 23.1d Residual Analysis
+    - '- Chapter 24: Model Structure Validation:':
+        sections:
+        - '- Section: 24.1 Model Structure Validation:':
+            subsections:
+            - 24.1a Model Adequacy Assessment
+            - 24.1b Model Selection Criteria
+            - 24.1c Model Validation Techniques
+            - 24.1d Overfitting and Underfitting
+    - '- Chapter 25: Examples:':
+        sections:
+        - '- Section: 25.1 Examples:':
+            subsections:
+            - '25.1a Example 1: Identification of a Car Suspension System'
+            - '25.1b Example 2: Identification of a Biomedical Signal'
+            - '25.1c Example 3: Identification of a Power System'

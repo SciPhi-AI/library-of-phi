@@ -1,0 +1,277 @@
+textbook:
+  'Advanced Topics in Cryptography: Concepts and Applications":':
+    chapters:
+    - '- Chapter 1: Interactive Proofs and Zero-Knowledge Proofs:':
+        sections:
+        - '- Section: 1.1 The Notion of Zero-Knowledgeness':
+            subsections: []
+        - '- Section: 1.2 Zero-Knowledge Proofs':
+            subsections: []
+        - '- Section: 1.3 ZK Proofs and Proofs of Knowledge':
+            subsections: []
+        - '- Section: 1.4 ZK Proofs for all of NP':
+            subsections:
+            - 1.4a Introduction to ZK Proofs
+            - 1.4b Applications of ZK Proofs
+            - 1.4c Challenges in ZK Proofs
+        - '- Section: 1.5 Power and Efficiency of ZK':
+            subsections: []
+        - '- Section: 1.6 Variations on ZK':
+            subsections: []
+        - '- Section: 1.7 Communication Efficiency for NP Arguments':
+            subsections: []
+        - '- Section: 1.8 A Bounded NIZK Proof System for a Special Language':
+            subsections: []
+        - '- Section: 1.9 Non-Interactive ZK Proofs for all of NP':
+            subsections: []
+        - '- Section: 1.10 Generalizing Non-Interactive Zero-Knowledge Proofs':
+            subsections:
+            - 1.10a Non-Interactive Zero-Knowledge Proofs in Practice
+            - 1.10b Formal Definitions of Non-Interactive Zero-Knowledge Proofs
+            - 1.10c Challenges in Non-Interactive Zero-Knowledge Proofs
+    - '- Chapter 2: Improved Non-Interactive Zero-Knowledge':
+        sections:
+        - '- Section: 2.1 NIZK and the Lunchtime Attack':
+            subsections: []
+        - '- Section: 2.2 Lunchtime and Chosen Ciphertext Security':
+            subsections: []
+        - '- Section: 2.3 A Practical CCA-2 PK Cryptosystem':
+            subsections: []
+        - '- Section: 2.4 Defining ZK Proofs of Knowledge':
+            subsections:
+            - 2.4a Introduction to ZK Proofs of Knowledge
+            - 2.4b Applications of ZK Proofs of Knowledge
+            - 2.4c Challenges in ZK Proofs of Knowledge
+        - '- Section: 2.5 Mutually Independent Commitments':
+            subsections: []
+        - '- Section: 2.6 Concurrent Zero-Knowledge':
+            subsections: []
+        - '- Section: 2.7 Concurrent Zero-Knowledge in Polylogarithmic Rounds':
+            subsections: []
+        - '- Section: 2.8 Secure Multi-Party Computation in the HBC Model':
+            subsections: []
+        - '- Section: 2.9 Compiling an Honest but Curious Protocol':
+            subsections: []
+        - '- Section: 2.10 Multi-Party Computation with Perfect Channels':
+            subsections:
+            - 2.10a Secure Multi-Party Computation Protocols
+            - 2.10b Perfect Channels and their Applications
+            - 2.10c Challenges in Multi-Party Computation
+    - '- Chapter 3: Post-Quantum Cryptography':
+        sections:
+        - '- Section: 3.1 Introduction to Post-Quantum Cryptography':
+            subsections: []
+        - '- Section: 3.2 Lattice-Based Cryptography':
+            subsections: []
+        - '- Section: 3.3 Code-Based Cryptography':
+            subsections: []
+        - '- Section: 3.4 Multivariate Cryptography':
+            subsections:
+            - 3.4a Introduction to Multivariate Cryptography
+            - 3.4b Applications of Multivariate Cryptography
+            - 3.4c Challenges in Multivariate Cryptography
+        - '- Section: 3.5 Hash-Based Cryptography':
+            subsections: []
+        - '- Section: 3.6 Isogeny-Based Cryptography':
+            subsections:
+            - 3.6a Elliptic Curve Isogeny Cryptography
+            - 3.6b Supersingular Isogeny Diffie-Hellman Key Exchange
+            - 3.6c Challenges in Isogeny-Based Cryptography
+    - '- Chapter 4: Homomorphic Encryption':
+        sections:
+        - '- Section: 4.1 Introduction to Homomorphic Encryption':
+            subsections: []
+        - '- Section: 4.2 Partially Homomorphic Encryption':
+            subsections: []
+        - '- Section: 4.3 Somewhat Homomorphic Encryption':
+            subsections: []
+        - '- Section: 4.4 Fully Homomorphic Encryption':
+            subsections:
+            - 4.4a Introduction to Fully Homomorphic Encryption
+            - 4.4b Applications of Fully Homomorphic Encryption
+            - 4.4c Challenges in Fully Homomorphic Encryption
+        - '- Section: 4.5 Applications of Homomorphic Encryption':
+            subsections:
+            - 4.5a Privacy-Preserving Data Analysis
+            - 4.5b Secure Outsourcing of Computation
+            - 4.5c Challenges in Applications of Homomorphic Encryption
+    - '- Chapter 5: Quantum Cryptography':
+        sections:
+        - '- Section: 5.1 Introduction to Quantum Cryptography':
+            subsections: []
+        - '- Section: 5.2 Quantum Key Distribution':
+            subsections: []
+        - '- Section: 5.3 Quantum Cryptanalysis':
+            subsections: []
+        - '- Section: 5.4 Quantum Secure Multi-Party Computation':
+            subsections:
+            - 5.4a Quantum Oblivious Transfer
+            - 5.4b Quantum Secret Sharing
+            - 5.4c Challenges in Quantum Secure Multi-Party Computation
+    - '- Chapter 6: Blockchain and Cryptocurrencies':
+        sections:
+        - '- Section: 6.1 Introduction to Blockchain Technology':
+            subsections: []
+        - '- Section: 6.2 Cryptocurrencies and Consensus Mechanisms':
+            subsections: []
+        - '- Section: 6.3 Anonymity and Privacy in Blockchain':
+            subsections: []
+        - '- Section: 6.4 Smart Contracts and Decentralized Applications':
+            subsections:
+            - 6.4a Ethereum and Solidity Programming
+            - 6.4b Zero-Knowledge Proofs in Blockchain
+            - 6.4c Challenges in Smart Contracts and Decentralized Applications
+    - '- Chapter 7: Cryptographic Hash Functions':
+        sections:
+        - '- Section: 7.1 Introduction to Cryptographic Hash Functions':
+            subsections: []
+        - '- Section: 7.2 Properties of Cryptographic Hash Functions':
+            subsections: []
+        - '- Section: 7.3 Applications of Cryptographic Hash Functions':
+            subsections:
+            - 7.3a Data Integrity
+            - 7.3b Password Storage
+            - 7.3c Digital Signatures
+    - '- Chapter 8: Digital Signatures':
+        sections:
+        - '- Section: 8.1 Introduction to Digital Signatures':
+            subsections: []
+        - '- Section: 8.2 RSA Digital Signature':
+            subsections: []
+        - '- Section: 8.3 Elliptic Curve Digital Signature Algorithm':
+            subsections:
+            - 8.3a Introduction to Elliptic Curve Digital Signature Algorithm
+            - 8.3b Applications of Elliptic Curve Digital Signature Algorithm
+            - 8.3c Challenges in Elliptic Curve Digital Signature Algorithm
+    - '- Chapter 9: Public Key Infrastructure':
+        sections:
+        - '- Section: 9.1 Introduction to Public Key Infrastructure':
+            subsections: []
+        - '- Section: 9.2 Certificate Authorities':
+            subsections: []
+        - '- Section: 9.3 Public Key Certificates':
+            subsections:
+            - 9.3a Introduction to Public Key Certificates
+            - 9.3b Applications of Public Key Certificates
+            - 9.3c Challenges in Public Key Certificates
+    - '- Chapter 10: Secure Socket Layer/Transport Layer Security':
+        sections:
+        - '- Section: 10.1 Introduction to SSL/TLS':
+            subsections: []
+        - '- Section: 10.2 SSL/TLS Handshake Protocol':
+            subsections: []
+        - '- Section: 10.3 SSL/TLS Record Protocol':
+            subsections:
+            - 10.3a Introduction to SSL/TLS Record Protocol
+            - 10.3b Applications of SSL/TLS Record Protocol
+            - 10.3c Challenges in SSL/TLS Record Protocol
+    - '- Chapter 11: Secure Electronic Transaction':
+        sections:
+        - '- Section: 11.1 Introduction to Secure Electronic Transaction':
+            subsections: []
+        - '- Section: 11.2 SET Transaction Process':
+            subsections: []
+        - '- Section: 11.3 SET Security Features':
+            subsections:
+            - 11.3a Introduction to SET Security Features
+            - 11.3b Applications of SET Security Features
+            - 11.3c Challenges in SET Security Features
+    - '- Chapter 12: Secure Shell':
+        sections:
+        - '- Section: 12.1 Introduction to Secure Shell':
+            subsections: []
+        - '- Section: 12.2 SSH Transport Layer Protocol':
+            subsections: []
+        - '- Section: 12.3 SSH Authentication Protocol':
+            subsections:
+            - 12.3a Introduction to SSH Authentication Protocol
+            - 12.3b Applications of SSH Authentication Protocol
+            - 12.3c Challenges in SSH Authentication Protocol
+    - '- Chapter 13: IP Security':
+        sections:
+        - '- Section: 13.1 Introduction to IP Security':
+            subsections: []
+        - '- Section: 13.2 IP Security Architecture':
+            subsections: []
+        - '- Section: 13.3 IP Security Protocols':
+            subsections:
+            - 13.3a Introduction to IP Security Protocols
+            - 13.3b Applications of IP Security Protocols
+            - 13.3c Challenges in IP Security Protocols
+    - '- Chapter 14: Firewalls':
+        sections:
+        - '- Section: 14.1 Introduction to Firewalls':
+            subsections: []
+        - '- Section: 14.2 Types of Firewalls':
+            subsections: []
+        - '- Section: 14.3 Firewall Configurations':
+            subsections:
+            - 14.3a Introduction to Firewall Configurations
+            - 14.3b Applications of Firewall Configurations
+            - 14.3c Challenges in Firewall Configurations
+    - '- Chapter 15: Intrusion Detection Systems':
+        sections:
+        - '- Section: 15.1 Introduction to Intrusion Detection Systems':
+            subsections: []
+        - '- Section: 15.2 Types of Intrusion Detection Systems':
+            subsections: []
+        - '- Section: 15.3 Intrusion Detection Techniques':
+            subsections:
+            - 15.3a Introduction to Intrusion Detection Techniques
+            - 15.3b Applications of Intrusion Detection Techniques
+            - 15.3c Challenges in Intrusion Detection Techniques
+    - '- Chapter 16: Malware':
+        sections:
+        - '- Section: 16.1 Introduction to Malware':
+            subsections: []
+        - '- Section: 16.2 Types of Malware':
+            subsections: []
+        - '- Section: 16.3 Malware Detection Techniques':
+            subsections:
+            - 16.3a Introduction to Malware Detection Techniques
+            - 16.3b Applications of Malware Detection Techniques
+            - 16.3c Challenges in Malware Detection Techniques
+    - '- Chapter 17: Denial of Service Attacks':
+        sections:
+        - '- Section: 17.1 Introduction to Denial of Service Attacks':
+            subsections: []
+        - '- Section: 17.2 Types of Denial of Service Attacks':
+            subsections: []
+        - '- Section: 17.3 Denial of Service Attack Mitigation Techniques':
+            subsections:
+            - 17.3a Introduction to Denial of Service Attack Mitigation Techniques
+            - 17.3b Applications of Denial of Service Attack Mitigation Techniques
+            - 17.3c Challenges in Denial of Service Attack Mitigation Techniques
+    - '- Chapter 18: Wireless Network Security':
+        sections:
+        - '- Section: 18.1 Introduction to Wireless Network Security':
+            subsections: []
+        - '- Section: 18.2 Wireless Network Threats':
+            subsections: []
+        - '- Section: 18.3 Wireless Network Security Measures':
+            subsections:
+            - 18.3a Introduction to Wireless Network Security Measures
+            - 18.3b Applications of Wireless Network Security Measures
+            - 18.3c Challenges in Wireless Network Security Measures
+    - '- Chapter 19: Cloud Security':
+        sections:
+        - '- Section: 19.1 Introduction to Cloud Security':
+            subsections: []
+        - '- Section: 19.2 Cloud Security Threats':
+            subsections: []
+        - '- Section: 19.3 Cloud Security Measures':
+            subsections:
+            - 19.3a Introduction to Cloud Security Measures
+            - 19.3b Applications of Cloud Security Measures
+            - 19.3c Challenges in Cloud Security Measures
+    - '- Chapter 20: Internet of Things Security':
+        sections:
+        - '- Section: 20.1 Introduction to Internet of Things Security':
+            subsections: []
+        - '- Section: 20.2 IoT Security Threats':
+            subsections: []
+        - '- Section: 20.3 IoT Security Measures':
+            subsections:
+            - 20.3a Introduction to IoT Security Measures
+            - 20.3b Applications of IoT Security Measures
+            - 20.3c Challenges in IoT Security Measures

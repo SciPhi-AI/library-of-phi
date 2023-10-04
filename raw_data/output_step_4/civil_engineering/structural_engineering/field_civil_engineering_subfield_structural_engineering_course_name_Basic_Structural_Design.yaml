@@ -1,0 +1,203 @@
+textbook:
+  'Basic Structural Design: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Shaping Structures:':
+            subsections:
+            - 1.1a Understanding the Importance of Structural Design
+            - 1.1b Basic Principles of Structural Design
+        - '- Section: 1.2 Statics:':
+            subsections:
+            - 1.2a Introduction to Statics and Its Applications in Structural Design
+            - 1.2b Principles of Equilibrium
+    - '- Chapter 2: Compression and Tension Structures:':
+        sections:
+        - '- Section: 2.1 Equilibrium:':
+            subsections:
+            - 2.1a Analysis of Forces in Structures
+            - 2.1b Determining Equilibrium Conditions
+        - '- Section: 2.2 Compression:':
+            subsections:
+            - 2.2a Understanding Compression Forces and Their Effects on Structures
+            - 2.2b Designing Compression Members
+        - '- Section: 2.3 Tension:':
+            subsections:
+            - 2.3a Understanding Tension Forces and Their Effects on Structures
+            - 2.3b Designing Tension Members
+    - '- Chapter 3: Designing for Axial Forces:':
+        sections:
+        - '- Section: 3.1 Axial Forces:':
+            subsections:
+            - 3.1a Introduction to Axial Forces in Structural Design
+            - 3.1b Analyzing Axially Loaded Members
+        - '- Section: 3.2 Equilibrium Homework:':
+            subsections:
+            - 3.2a Practical Exercises on Equilibrium Analysis in Structural Design
+    - '- Chapter 4: Truss Design:':
+        sections:
+        - '- Section: 4.1 Truss:':
+            subsections:
+            - 4.1a Basics of Truss Structures and Their Applications
+            - 4.1b Types of Trusses and their Design Considerations
+        - '- Section: 4.2 Truss Homework:':
+            subsections:
+            - 4.2a Practical Exercises on Truss Design and Analysis
+    - '- Chapter 5: Forces and Forms in Beams:':
+        sections:
+        - '- Section: 5.1 Beams:':
+            subsections:
+            - 5.1a Understanding the Behavior of Beams under Different Loads
+            - 5.1b Analysis of Bending Moments and Shear Forces in Beams
+        - '- Section: 5.2 Beam Homework:':
+            subsections:
+            - 5.2a Practical Exercises on Beam Design and Analysis
+    - '- Chapter 6: Beam Design:':
+        sections:
+        - '- Section: 6.1 Frame:':
+            subsections:
+            - 6.1a Introduction to Frame Structures and Their Components
+            - 6.1b Design Considerations for Frame Structures
+        - '- Section: 6.2 Frame Design:':
+            subsections:
+            - 6.2a Detailed Analysis and Design of Frame Structures
+    - '- Chapter 7: Forces and Forms in Frames:':
+        sections:
+        - '- Section: 7.1 Structural Failures:':
+            subsections:
+            - 7.1a Causes and Prevention of Structural Failures
+            - 7.1b Case Studies and Lessons Learned from Structural Failures
+        - '- Section: 7.2 Loading:':
+            subsections:
+            - 7.2a Types of Loads and Their Effects on Structural Design
+    - '- Chapter 8: Frame Design:':
+        sections:
+        - '- Section: 8.1 Stability and Indeterminancy:':
+            subsections:
+            - 8.1a Understanding Structural Stability and Indeterminate Systems
+            - 8.1b Methods for Analyzing Indeterminate Structures
+        - '- Section: 8.2 Midterm Review:':
+            subsections:
+            - 8.2a Review of Key Concepts for the Midterm Examination
+    - '- Chapter 9: Structural Failures:':
+        sections:
+        - '- Section: 9.1 Midterm Exam:':
+            subsections:
+            - 9.1a Comprehensive Examination covering Topics from the First Half of
+              the Course
+        - '- Section: 9.2 Indeterminate Beams:':
+            subsections:
+            - 9.2a Analysis and Design of Indeterminate Beams
+    - '- Chapter 10: Loading:':
+        sections:
+        - '- Section: 10.1 Indeterminate Beams/Frames:':
+            subsections:
+            - 10.1a Analysis and Design of Indeterminate Beams and Frames
+        - '- Section: 10.2 Indeterminate Frames:':
+            subsections:
+            - 10.2a Analysis and Design of Indeterminate Frame Structures
+    - '- Chapter 11: Stability and Indeterminancy:':
+        sections:
+        - '- Section: 11.1 Lateral Load Systems:':
+            subsections:
+            - 11.1a Introduction to Lateral Load Systems and Their Design Considerations
+            - 11.1b Design of Lateral Load-Resisting Systems
+        - '- Section: 11.2 Timber Design:':
+            subsections:
+            - 11.2a Principles and Design Considerations for Timber Structures
+    - '- Chapter 12: Midterm Review:':
+        sections:
+        - '- Section: 12.1 Steel Design:':
+            subsections:
+            - 12.1a Introduction to Steel Structures and Their Design Considerations
+            - 12.1b Design of Steel Frame Structures
+        - '- Section: 12.2 Reinforced Concrete Design:':
+            subsections:
+            - 12.2a Introduction to Reinforced Concrete Structures and Their Design
+              Considerations
+            - 12.2b Design of Reinforced Concrete Members
+    - '- Chapter 13: Midterm Exam:':
+        sections:
+        - '- Section: 13.1 Connections:':
+            subsections:
+            - 13.1a Design of Structural Connections in Various Materials
+            - 13.1b Types of Connections and Their Design Considerations
+        - '- Section: 13.2 Sustainable Structures:':
+            subsections:
+            - 13.2a Introduction to Sustainable Design Principles in Structural Engineering
+            - 13.2b Design Considerations for Sustainable Structures
+    - '- Chapter 14: Indeterminate Beams:':
+        sections:
+        - '- Section: 14.1 Design for Strength and Serviceability:':
+            subsections:
+            - 14.1a Design Considerations for Strength and Serviceability of Indeterminate
+              Beams
+            - 14.1b Practical Design Examples and Case Studies
+        - '- Section: 14.2 Advanced Topics in Structural Design:':
+            subsections:
+            - 14.2a Introduction to Advanced Topics in Structural Design
+            - 14.2b Special Design Considerations and Case Studies
+    - '- Chapter 15: Indeterminate Beams/Frames:':
+        sections:
+        - '- Section: 15.1 Design Project Presentations:':
+            subsections:
+            - 15.1a Presentations of Design Projects by Students
+            - 15.1b Evaluation and Discussion of Design Solutions
+        - '- Section: 15.2 Review Lecture:':
+            subsections:
+            - 15.2a Review of Key Concepts for the Final Examination
+    - '- Chapter 16: Indeterminate Frames:':
+        sections:
+        - '- Section: 16.1 Cables and Arches:':
+            subsections:
+            - 16.1a Design Considerations for Cable and Arch Structures
+            - 16.1b Analysis and Design of Cable and Arch Systems
+        - '- Section: 16.2 Buckling:':
+            subsections:
+            - 16.2a Introduction to Buckling Phenomenon in Structural Design
+            - 16.2b Methods for Analyzing and Designing Buckling-Resistant Structures
+    - '- Chapter 17: Lateral Load Systems:':
+        sections:
+        - '- Section: 17.1 Truss Design / Column Project:':
+            subsections:
+            - 17.1a Design and Analysis of Truss Structures with Focus on Column Design
+            - 17.1b Practical Exercises on Truss and Column Design
+        - '- Section: 17.2 Column Testing:':
+            subsections:
+            - 17.2a Experimental Testing of Structural Columns
+            - 17.2b Evaluation and Analysis of Test Results
+    - '- Chapter 18: Timber Design:':
+        sections:
+        - '- Section: 18.1 Beams and Frames:':
+            subsections:
+            - 18.1a Design Considerations for Timber Beams and Frames
+            - 18.1b Practical Design Examples and Case Studies
+        - '- Section: 18.2 Review:':
+            subsections:
+            - 18.2a Review of Timber Design Principles and Key Concepts
+    - '- Chapter 19: Steel Design:':
+        sections:
+        - '- Section: 19.1 Frames / Beam Project:':
+            subsections:
+            - 19.1a Design and Analysis of Steel Frame Structures with Focus on Beam
+              Design
+            - 19.1b Practical Exercises on Steel Frame and Beam Design
+        - '- Section: 19.2 Beam Testing:':
+            subsections:
+            - 19.2a Experimental Testing of Steel Beams
+            - 19.2b Evaluation and Analysis of Test Results
+    - '- Chapter 20: Reinforced Concrete Design:':
+        sections:
+        - '- Section: 20.1 Indeterminacy / Design Project:':
+            subsections:
+            - 20.1a Analysis of Indeterminate Reinforced Concrete Structures
+            - 20.1b Design Project on Indeterminate Reinforced Concrete Structures
+        - '- Section: 20.2 Design Project:':
+            subsections:
+            - 20.2a Comprehensive Design Project on Reinforced Concrete Structures
+    - '- Chapter 21: Connections:':
+        sections:
+        - '- Section: 21.1 Design Project:':
+            subsections:
+            - 21.1a Practical Design Project on Structural Connections
+            - 21.1b Evaluation and Analysis of Design Solutions

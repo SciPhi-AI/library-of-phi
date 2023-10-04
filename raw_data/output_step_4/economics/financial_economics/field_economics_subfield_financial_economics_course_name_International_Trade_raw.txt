@@ -1,0 +1,517 @@
+textbook: 
+"International Trade: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Gains from Trade:
+subsections:
+- 1.1a Definition of Trade
+- 1.1b Benefits of Trade
+- 1.1c Trade and Economic Growth
+
+- Section: 1.2 Comparative Advantage:
+subsections:
+- 1.2a Definition of Comparative Advantage
+- 1.2b Determinants of Comparative Advantage
+- 1.2c Comparative Advantage and Trade Patterns
+
+- Section: 1.3 Terms of Trade:
+subsections:
+- 1.3a Definition of Terms of Trade
+- 1.3b Factors Affecting Terms of Trade
+- 1.3c Terms of Trade and Economic Development
+
+- Chapter 2: Technology and Factor Endowments:
+sections:
+- Section: 2.1 Increasing Returns:
+subsections:
+- 2.1a Definition of Increasing Returns
+- 2.1b Causes of Increasing Returns
+- 2.1c Increasing Returns and Trade
+
+- Section: 2.2 Technology Transfer:
+subsections:
+- 2.2a Definition of Technology Transfer
+- 2.2b Mechanisms of Technology Transfer
+- 2.2c Technology Transfer and Economic Development
+
+- Section: 2.3 Factor Endowments:
+subsections:
+- 2.3a Definition of Factor Endowments
+- 2.3b Factor Endowments and Comparative Advantage
+- 2.3c Factor Endowments and Trade Patterns
+
+- Chapter 3: Trade Policy:
+sections:
+- Section: 3.1 Tariffs:
+subsections:
+- 3.1a Definition of Tariffs
+- 3.1b Types of Tariffs
+- 3.1c Effects of Tariffs on Trade
+
+- Section: 3.2 Quotas:
+subsections:
+- 3.2a Definition of Quotas
+- 3.2b Types of Quotas
+- 3.2c Effects of Quotas on Trade
+
+- Section: 3.3 Subsidies:
+subsections:
+- 3.3a Definition of Subsidies
+- 3.3b Types of Subsidies
+- 3.3c Effects of Subsidies on Trade
+
+- Section: 3.4 Trade Agreements:
+subsections:
+- 3.4a Definition of Trade Agreements
+- 3.4b Types of Trade Agreements
+- 3.4c Effects of Trade Agreements on Trade
+
+- Section: 3.5 Protectionism:
+subsections:
+- 3.5a Definition of Protectionism
+- 3.5b Reasons for Protectionism
+- 3.5c Effects of Protectionism on Trade
+
+- Chapter 4: Firms in the Global Economy:
+sections:
+- Section: 4.1 Multinational Corporations:
+subsections:
+- 4.1a Definition of Multinational Corporations
+- 4.1b Role of Multinational Corporations in Trade
+- 4.1c Effects of Multinational Corporations on Host Countries
+
+- Section: 4.2 Offshoring:
+subsections:
+- 4.2a Definition of Offshoring
+- 4.2b Reasons for Offshoring
+- 4.2c Effects of Offshoring on Trade
+
+- Section: 4.3 Foreign Direct Investment:
+subsections:
+- 4.3a Definition of Foreign Direct Investment
+- 4.3b Types of Foreign Direct Investment
+- 4.3c Effects of Foreign Direct Investment on Trade
+
+- Section: 4.4 Global Value Chains:
+subsections:
+- 4.4a Definition of Global Value Chains
+- 4.4b Role of Global Value Chains in Trade
+- 4.4c Effects of Global Value Chains on Trade
+
+- Chapter 5: Trade and Development:
+sections:
+- Section: 5.1 Economic Growth:
+subsections:
+- 5.1a Definition of Economic Growth
+- 5.1b Role of Trade in Economic Growth
+- 5.1c Trade and Economic Development
+
+- Section: 5.2 Poverty Reduction:
+subsections:
+- 5.2a Definition of Poverty
+- 5.2b Role of Trade in Poverty Reduction
+- 5.2c Trade and Income Distribution
+
+- Section: 5.3 Income Inequality:
+subsections:
+- 5.3a Definition of Income Inequality
+- 5.3b Role of Trade in Income Inequality
+- 5.3c Trade and Income Distribution
+
+- Section: 5.4 Sustainable Development:
+subsections:
+- 5.4a Definition of Sustainable Development
+- 5.4b Role of Trade in Sustainable Development
+- 5.4c Trade and Environmental Sustainability
+
+- Chapter 6: Labor Standards and the Environment:
+sections:
+- Section: 6.1 Labor Rights:
+subsections:
+- 6.1a Definition of Labor Rights
+- 6.1b Role of Trade in Labor Rights
+- 6.1c Trade and Labor Standards
+
+- Section: 6.2 Environmental Regulations:
+subsections:
+- 6.2a Definition of Environmental Regulations
+- 6.2b Role of Trade in Environmental Regulations
+- 6.2c Trade and Environmental Sustainability
+
+- Section: 6.3 Corporate Social Responsibility:
+subsections:
+- 6.3a Definition of Corporate Social Responsibility
+- 6.3b Role of Trade in Corporate Social Responsibility
+- 6.3c Trade and Corporate Governance
+
+- Chapter 7: Industrial Policy:
+sections:
+- Section: 7.1 Strategic Trade Policy:
+subsections:
+- 7.1a Definition of Strategic Trade Policy
+- 7.1b Role of Strategic Trade Policy in Trade
+- 7.1c Effects of Strategic Trade Policy on Trade
+
+- Section: 7.2 Infant Industry Protection:
+subsections:
+- 7.2a Definition of Infant Industry Protection
+- 7.2b Role of Infant Industry Protection in Trade
+- 7.2c Effects of Infant Industry Protection on Trade
+
+- Section: 7.3 Export Promotion:
+subsections:
+- 7.3a Definition of Export Promotion
+- 7.3b Role of Export Promotion in Trade
+- 7.3c Effects of Export Promotion on Trade
+
+- Section: 7.4 Industrial Upgrading:
+subsections:
+- 7.4a Definition of Industrial Upgrading
+- 7.4b Role of Industrial Upgrading in Trade
+- 7.4c Effects of Industrial Upgrading on Trade
+
+- Chapter 8: Trade Agreements:
+sections:
+- Section: 8.1 World Trade Organization:
+subsections:
+- 8.1a Definition of World Trade Organization
+- 8.1b Role of World Trade Organization in Trade
+- 8.1c Effects of World Trade Organization on Trade
+
+- Section: 8.2 Regional Trade Agreements:
+subsections:
+- 8.2a Definition of Regional Trade Agreements
+- 8.2b Role of Regional Trade Agreements in Trade
+- 8.2c Effects of Regional Trade Agreements on Trade
+
+- Section: 8.3 Preferential Trade Agreements:
+subsections:
+- 8.3a Definition of Preferential Trade Agreements
+- 8.3b Role of Preferential Trade Agreements in Trade
+- 8.3c Effects of Preferential Trade Agreements on Trade
+
+- Section: 8.4 Trade Facilitation:
+subsections:
+- 8.4a Definition of Trade Facilitation
+- 8.4b Role of Trade Facilitation in Trade
+- 8.4c Effects of Trade Facilitation on Trade
+
+- Section: 8.5 Dispute Settlement Mechanisms:
+subsections:
+- 8.5a Definition of Dispute Settlement Mechanisms
+- 8.5b Role of Dispute Settlement Mechanisms in Trade
+- 8.5c Effects of Dispute Settlement Mechanisms on Trade
+
+- Chapter 9: Trade and Macroeconomics:
+sections:
+- Section: 9.1 Balance of Payments:
+subsections:
+- 9.1a Definition of Balance of Payments
+- 9.1b Role of Trade in Balance of Payments
+- 9.1c Trade and Macroeconomic Stability
+
+- Section: 9.2 Exchange Rates:
+subsections:
+- 9.2a Definition of Exchange Rates
+- 9.2b Role of Trade in Exchange Rates
+- 9.2c Trade and Exchange Rate Volatility
+
+- Section: 9.3 Trade and Inflation:
+subsections:
+- 9.3a Definition of Inflation
+- 9.3b Role of Trade in Inflation
+- 9.3c Trade and Price Stability
+
+- Section: 9.4 Trade and Unemployment:
+subsections:
+- 9.4a Definition of Unemployment
+- 9.4b Role of Trade in Unemployment
+- 9.4c Trade and Labor Market Dynamics
+
+- Chapter 10: Trade and Microeconomics:
+sections:
+- Section: 10.1 Trade and Consumer Surplus:
+subsections:
+- 10.1a Definition of Consumer Surplus
+- 10.1b Role of Trade in Consumer Surplus
+- 10.1c Trade and Consumer Welfare
+
+- Section: 10.2 Trade and Producer Surplus:
+subsections:
+- 10.2a Definition of Producer Surplus
+- 10.2b Role of Trade in Producer Surplus
+- 10.2c Trade and Producer Welfare
+
+- Section: 10.3 Trade and Market Structure:
+subsections:
+- 10.3a Definition of Market Structure
+- 10.3b Role of Trade in Market Structure
+- 10.3c Trade and Market Competition
+
+- Section: 10.4 Trade and Product Variety:
+subsections:
+- 10.4a Definition of Product Variety
+- 10.4b Role of Trade in Product Variety
+- 10.4c Trade and Consumer Choice
+
+- Chapter 11: Trade and Innovation:
+sections:
+- Section: 11.1 Trade and Technological Progress:
+subsections:
+- 11.1a Definition of Technological Progress
+- 11.1b Role of Trade in Technological Progress
+- 11.1c Trade and Innovation
+
+- Section: 11.2 Trade and Intellectual Property Rights:
+subsections:
+- 11.2a Definition of Intellectual Property Rights
+- 11.2b Role of Trade in Intellectual Property Rights
+- 11.2c Trade and Innovation
+
+- Section: 11.3 Trade and Research and Development:
+subsections:
+- 11.3a Definition of Research and Development
+- 11.3b Role of Trade in Research and Development
+- 11.3c Trade and Innovation
+
+- Section: 11.4 Trade and Diffusion of Knowledge:
+subsections:
+- 11.4a Definition of Diffusion of Knowledge
+- 11.4b Role of Trade in Diffusion of Knowledge
+- 11.4c Trade and Innovation
+
+- Chapter 12: Trade and Services:
+sections:
+- Section: 12.1 Trade in Services:
+subsections:
+- 12.1a Definition of Trade in Services
+- 12.1b Role of Trade in Services in Trade
+- 12.1c Trade in Services and Economic Development
+
+- Section: 12.2 Trade in Financial Services:
+subsections:
+- 12.2a Definition of Trade in Financial Services
+- 12.2b Role of Trade in Financial Services in Trade
+- 12.2c Trade in Financial Services and Financial Stability
+
+- Section: 12.3 Trade in Information and Communication Technology Services:
+subsections:
+- 12.3a Definition of Trade in Information and Communication Technology Services
+- 12.3b Role of Trade in Information and Communication Technology Services in Trade
+- 12.3c Trade in Information and Communication Technology Services and Economic Development
+
+- Section: 12.4 Trade in Professional Services:
+subsections:
+- 12.4a Definition of Trade in Professional Services
+- 12.4b Role of Trade in Professional Services in Trade
+- 12.4c Trade in Professional Services and Economic Development
+
+- Chapter 13: Trade and Agriculture:
+sections:
+- Section: 13.1 Trade in Agricultural Products:
+subsections:
+- 13.1a Definition of Trade in Agricultural Products
+- 13.1b Role of Trade in Agricultural Products in Trade
+- 13.1c Trade in Agricultural Products and Food Security
+
+- Section: 13.2 Trade and Agricultural Policies:
+subsections:
+- 13.2a Definition of Agricultural Policies
+- 13.2b Role of Trade in Agricultural Policies
+- 13.2c Trade and Agricultural Development
+
+- Section: 13.3 Trade and Food Security:
+subsections:
+- 13.3a Definition of Food Security
+- 13.3b Role of Trade in Food Security
+- 13.3c Trade and Agricultural Development
+
+- Section: 13.4 Trade and Agricultural Development:
+subsections:
+- 13.4a Definition of Agricultural Development
+- 13.4b Role of Trade in Agricultural Development
+- 13.4c Trade and Rural Development
+
+- Chapter 14: Trade and Energy:
+sections:
+- Section: 14.1 Trade in Energy Products:
+subsections:
+- 14.1a Definition of Trade in Energy Products
+- 14.1b Role of Trade in Energy Products in Trade
+- 14.1c Trade in Energy Products and Energy Security
+
+- Section: 14.2 Trade and Energy Policies:
+subsections:
+- 14.2a Definition of Energy Policies
+- 14.2b Role of Trade in Energy Policies
+- 14.2c Trade and Energy Security
+
+- Section: 14.3 Trade and Energy Security:
+subsections:
+- 14.3a Definition of Energy Security
+- 14.3b Role of Trade in Energy Security
+- 14.3c Trade and Sustainable Energy
+
+- Section: 14.4 Trade and Sustainable Energy:
+subsections:
+- 14.4a Definition of Sustainable Energy
+- 14.4b Role of Trade in Sustainable Energy
+- 14.4c Trade and Climate Change
+
+- Chapter 15: Trade and Climate Change:
+sections:
+- Section: 15.1 Trade and Greenhouse Gas Emissions:
+subsections:
+- 15.1a Definition of Greenhouse Gas Emissions
+- 15.1b Role of Trade in Greenhouse Gas Emissions
+- 15.1c Trade and Climate Change Mitigation
+
+- Section: 15.2 Trade and Climate Change Adaptation:
+subsections:
+- 15.2a Definition of Climate Change Adaptation
+- 15.2b Role of Trade in Climate Change Adaptation
+- 15.2c Trade and Climate Change Resilience
+
+- Section: 15.3 Trade and Climate Change Mitigation:
+subsections:
+- 15.3a Definition of Climate Change Mitigation
+- 15.3b Role of Trade in Climate Change Mitigation
+- 15.3c Trade and Climate Change Resilience
+
+- Section: 15.4 Trade and Climate Change Resilience:
+subsections:
+- 15.4a Definition of Climate Change Resilience
+- 15.4b Role of Trade in Climate Change Resilience
+- 15.4c Trade and Sustainable Development
+
+- Chapter 16: Trade and Gender:
+sections:
+- Section: 16.1 Trade and Women's Empowerment:
+subsections:
+- 16.1a Definition of Women's Empowerment
+- 16.1b Role of Trade in Women's Empowerment
+- 16.1c Trade and Gender Equality
+
+- Section: 16.2 Trade and Gender Equality:
+subsections:
+- 16.2a Definition of Gender Equality
+- 16.2b Role of Trade in Gender Equality
+- 16.2c Trade and Women's Economic Participation
+
+- Section: 16.3 Trade and Women's Economic Participation:
+subsections:
+- 16.3a Definition of Women's Economic Participation
+- 16.3b Role of Trade in Women's Economic Participation
+- 16.3c Trade and Gender Equality
+
+- Section: 16.4 Trade and Women's Entrepreneurship:
+subsections:
+- 16.4a Definition of Women's Entrepreneurship
+- 16.4b Role of Trade in Women's Entrepreneurship
+- 16.4c Trade and Women's Economic Empowerment
+
+- Chapter 17: Trade and Small and Medium-Sized Enterprises:
+sections:
+- Section: 17.1 Trade and Small and Medium-Sized Enterprises:
+subsections:
+- 17.1a Definition of Small and Medium-Sized Enterprises
+- 17.1b Role of Trade in Small and Medium-Sized Enterprises
+- 17.1c Trade and Entrepreneurship
+
+- Section: 17.2 Trade and Entrepreneurship:
+subsections:
+- 17.2a Definition of Entrepreneurship
+- 17.2b Role of Trade in Entrepreneurship
+- 17.2c Trade and Small and Medium-Sized Enterprises
+
+- Section: 17.3 Trade and Business Development:
+subsections:
+- 17.3a Definition of Business Development
+- 17.3b Role of Trade in Business Development
+- 17.3c Trade and Small and Medium-Sized Enterprises
+
+- Section: 17.4 Trade and Business Innovation:
+subsections:
+- 17.4a Definition of Business Innovation
+- 17.4b Role of Trade in Business Innovation
+- 17.4c Trade and Small and Medium-Sized Enterprises
+
+- Chapter 18: Trade and Digital Economy:
+sections:
+- Section: 18.1 Trade and E-Commerce:
+subsections:
+- 18.1a Definition of E-Commerce
+- 18.1b Role of Trade in E-Commerce
+- 18.1c Trade and Digital Economy
+
+- Section: 18.2 Trade and Digital Services:
+subsections:
+- 18.2a Definition of Digital Services
+- 18.2b Role of Trade in Digital Services
+- 18.2c Trade and Digital Economy
+
+- Section: 18.3 Trade and Digital Divide:
+subsections:
+- 18.3a Definition of Digital Divide
+- 18.3b Role of Trade in Digital Divide
+- 18.3c Trade and Digital Economy
+
+- Section: 18.4 Trade and Digital Transformation:
+subsections:
+- 18.4a Definition of Digital Transformation
+- 18.4b Role of Trade in Digital Transformation
+- 18.4c Trade and Digital Economy
+
+- Chapter 19: Trade and Global Health:
+sections:
+- Section: 19.1 Trade and Access to Medicines:
+subsections:
+- 19.1a Definition of Access to Medicines
+- 19.1b Role of Trade in Access to Medicines
+- 19.1c Trade and Global Health
+
+- Section: 19.2 Trade and Health Services:
+subsections:
+- 19.2a Definition of Health Services
+- 19.2b Role of Trade in Health Services
+- 19.2c Trade and Global Health
+
+- Section: 19.3 Trade and Health Technologies:
+subsections:
+- 19.3a Definition of Health Technologies
+- 19.3b Role of Trade in Health Technologies
+- 19.3c Trade and Global Health
+
+- Section: 19.4 Trade and Global Health Governance:
+subsections:
+- 19.4a Definition of Global Health Governance
+- 19.4b Role of Trade in Global Health Governance
+- 19.4c Trade and Global Health
+
+- Chapter 20: Trade and Human Rights:
+sections:
+- Section: 20.1 Trade and Human Rights:
+subsections:
+- 20.1a Definition of Human Rights
+- 20.1b Role of Trade in Human Rights
+- 20.1c Trade and Human Rights Governance
+
+- Section: 20.2 Trade and Labor Rights:
+subsections:
+- 20.2a Definition of Labor Rights
+- 20.2b Role of Trade in Labor Rights
+- 20.2c Trade and Human Rights Governance
+
+- Section: 20.3 Trade and Environmental Rights:
+subsections:
+- 20.3a Definition of Environmental Rights
+- 20.3b Role of Trade in Environmental Rights
+- 20.3c Trade and Human Rights Governance
+
+- Section: 20.4 Trade and Human Rights Governance:
+subsections:
+- 20.4a Definition of Human Rights Governance
+- 20.4b Role of Trade in Human Rights Governance
+- 20.4c Trade and Human Rights Protection

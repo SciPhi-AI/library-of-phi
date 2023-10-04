@@ -1,0 +1,501 @@
+textbook: 
+"Introduction to Transportation Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Transportation Systems Components:
+sections:
+- Section: 1.1 Key Components of Transportation Systems:
+subsections:
+- 1.1a Introduction to Key Components
+- 1.1b Analysis of Key Components
+- 1.1c Case Studies of Key Components
+
+- Section: 1.2 30 Key Points:
+subsections:
+- 1.2a Overview of 30 Key Points
+- 1.2b Detailed Discussion on 30 Key Points
+- 1.2c Implications of 30 Key Points
+
+- Section: 1.3 Class Discussion Based on Article Distributed:
+subsections:
+- 1.3a Introduction to Class Discussion
+- 1.3b Analysis of Article Distributed
+- 1.3c Outcomes of Class Discussion
+
+- Chapter 2: Modeling / Demand / Equilibrium:
+sections:
+- Section: 2.1 Introduction to Modeling in Transportation Systems:
+subsections:
+- 2.1a Basics of Modeling
+- 2.1b Application of Modeling in Transportation Systems
+- 2.1c Case Studies on Modeling
+
+- Section: 2.2 Demand Analysis in Transportation Systems:
+subsections:
+- 2.2a Introduction to Demand Analysis
+- 2.2b Techniques for Demand Analysis
+- 2.2c Case Studies on Demand Analysis
+
+- Section: 2.3 Equilibrium in Transportation Systems:
+subsections:
+- 2.3a Understanding Equilibrium
+- 2.3b Achieving Equilibrium in Transportation Systems
+- 2.3c Case Studies on Equilibrium
+
+- Section: 2.4 Costing and Economic Analysis in Transportation Systems:
+subsections:
+- 2.4a Introduction to Costing
+- 2.4b Economic Analysis Techniques
+- 2.4c Case Studies on Costing and Economic Analysis
+
+- Chapter 3: Traveler Level of Service:
+sections:
+- Section: 3.1 Understanding Traveler Level of Service:
+subsections:
+- 3.1a Basics of Traveler Level of Service
+- 3.1b Factors Affecting Traveler Level of Service
+- 3.1c Case Studies on Traveler Level of Service
+
+- Section: 3.2 Factors Affecting Traveler Level of Service:
+subsections:
+- 3.2a Introduction to Factors Affecting Service Level
+- 3.2b Analysis of Factors Affecting Service Level
+- 3.2c Case Studies on Factors Affecting Service Level
+
+- Section: 3.3 Measuring and Improving Traveler Level of Service:
+subsections:
+- 3.3a Techniques for Measuring Service Level
+- 3.3b Strategies for Improving Service Level
+- 3.3c Case Studies on Improving Service Level
+
+- Chapter 4: Urban Public Transportation:
+sections:
+- Section: 4.1 Overview of Urban Public Transportation Systems:
+subsections:
+- 4.1a Introduction to Urban Public Transportation
+- 4.1b Types of Urban Public Transportation Systems
+- 4.1c Case Studies on Urban Public Transportation
+
+- Section: 4.2 Modes of Urban Public Transportation:
+subsections:
+- 4.2a Understanding Different Modes of Transportation
+- 4.2b Analysis of Different Modes of Transportation
+- 4.2c Case Studies on Different Modes of Transportation
+
+- Section: 4.3 Planning and Designing Urban Public Transportation Systems:
+subsections:
+- 4.3a Basics of Planning and Designing
+- 4.3b Techniques for Planning and Designing
+- 4.3c Case Studies on Planning and Designing
+
+- Section: 4.4 Operations and Management of Urban Public Transportation Systems:
+subsections:
+- 4.4a Introduction to Operations and Management
+- 4.4b Strategies for Effective Operations and Management
+- 4.4c Case Studies on Operations and Management
+
+- Chapter 5: Introduction to Freight / LOS / Logistics:
+sections:
+- Section: 5.1 Introduction to Freight Transportation:
+subsections:
+- 5.1a Basics of Freight Transportation
+- 5.1b Types of Freight Transportation
+- 5.1c Case Studies on Freight Transportation
+
+- Section: 5.2 Understanding Level of Service in Freight Transportation:
+subsections:
+- 5.2a Introduction to Level of Service
+- 5.2b Factors Affecting Level of Service
+- 5.2c Case Studies on Level of Service
+
+- Section: 5.3 Logistics and Supply Chain Management:
+subsections:
+- 5.3a Basics of Logistics and Supply Chain Management
+- 5.3b Techniques for Effective Logistics and Supply Chain Management
+- 5.3c Case Studies on Logistics and Supply Chain Management
+
+- Section: 5.4 Modes of Freight Transportation:
+subsections:
+- 5.4a Understanding Different Modes of Freight Transportation
+- 5.4b Analysis of Different Modes of Freight Transportation
+- 5.4c Case Studies on Different Modes of Freight Transportation
+
+- Section: 5.5 Cost and Service Analysis in Freight Transportation:
+subsections:
+- 5.5a Introduction to Cost and Service Analysis
+- 5.5b Techniques for Cost and Service Analysis
+- 5.5c Case Studies on Cost and Service Analysis
+
+- Section: 5.6 Operational Strategies in Freight Transportation:
+subsections:
+- 5.6a Understanding Operational Strategies
+- 5.6b Implementing Operational Strategies
+- 5.6c Case Studies on Operational Strategies
+
+- Chapter 6: Operations / Operating Plans / Strategic Plans:
+sections:
+- Section: 6.1 Operations Management in Transportation Systems:
+subsections:
+- 6.1a Basics of Operations Management
+- 6.1b Techniques for Effective Operations Management
+- 6.1c Case Studies on Operations Management
+
+- Section: 6.2 Developing Operating Plans in Transportation Systems:
+subsections:
+- 6.2a Introduction to Operating Plans
+- 6.2b Steps for Developing Operating Plans
+- 6.2c Case Studies on Operating Plans
+
+- Section: 6.3 Strategic Planning in Transportation Systems:
+subsections:
+- 6.3a Basics of Strategic Planning
+- 6.3b Techniques for Effective Strategic Planning
+- 6.3c Case Studies on Strategic Planning
+
+- Section: 6.4 Managing Transportation Systems for Efficiency and Effectiveness:
+subsections:
+- 6.4a Understanding Efficiency and Effectiveness
+- 6.4b Strategies for Enhancing Efficiency and Effectiveness
+- 6.4c Case Studies on Efficiency and Effectiveness
+
+- Chapter 7: Freight Intermodalism / International Transportation:
+sections:
+- Section: 7.1 Introduction to Freight Intermodalism:
+subsections:
+- 7.1a Basics of Freight Intermodalism
+- 7.1b Benefits of Freight Intermodalism
+- 7.1c Case Studies on Freight Intermodalism
+
+- Section: 7.2 Intermodal Transportation Systems and Infrastructure:
+subsections:
+- 7.2a Understanding Intermodal Transportation Systems
+- 7.2b Analysis of Intermodal Transportation Infrastructure
+- 7.2c Case Studies on Intermodal Transportation Systems
+
+- Section: 7.3 International Transportation and Trade:
+subsections:
+- 7.3a Introduction to International Transportation
+- 7.3b Role of Trade in International Transportation
+- 7.3c Case Studies on International Transportation
+
+- Section: 7.4 Challenges and Opportunities in International Transportation:
+subsections:
+- 7.4a Understanding Challenges in International Transportation
+- 7.4b Exploring Opportunities in International Transportation
+- 7.4c Case Studies on Challenges and Opportunities
+
+- Chapter 8: Project Evaluation and Finance:
+sections:
+- Section: 8.1 Evaluation of Transportation Projects:
+subsections:
+- 8.1a Basics of Project Evaluation
+- 8.1b Techniques for Project Evaluation
+- 8.1c Case Studies on Project Evaluation
+
+- Section: 8.2 Financial Analysis of Transportation Projects:
+subsections:
+- 8.2a Introduction to Financial Analysis
+- 8.2b Techniques for Financial Analysis
+- 8.2c Case Studies on Financial Analysis
+
+- Section: 8.3 Funding and Financing Transportation Projects:
+subsections:
+- 8.3a Understanding Funding and Financing
+- 8.3b Sources of Funding and Financing
+- 8.3c Case Studies on Funding and Financing
+
+- Section: 8.4 Public-Private Partnership in Transportation Projects:
+subsections:
+- 8.4a Basics of Public-Private Partnership
+- 8.4b Benefits of Public-Private Partnership
+- 8.4c Case Studies on Public-Private Partnership
+
+- Chapter 9: Public Policy Issues - Privatization:
+sections:
+- Section: 9.1 Public Policy and Transportation Systems:
+subsections:
+- 9.1a Understanding Public Policy
+- 9.1b Role of Public Policy in Transportation Systems
+- 9.1c Case Studies on Public Policy
+
+- Section: 9.2 Privatization of Transportation Services:
+subsections:
+- 9.2a Introduction to Privatization
+- 9.2b Benefits of Privatization
+- 9.2c Case Studies on Privatization
+
+- Section: 9.3 Implications of Privatization in Transportation Systems:
+subsections:
+- 9.3a Understanding Implications of Privatization
+- 9.3b Analysis of Implications of Privatization
+- 9.3c Case Studies on Implications of Privatization
+
+- Section: 9.4 Public-Private Collaboration in Transportation Policy Making:
+subsections:
+- 9.4a Basics of Public-Private Collaboration
+- 9.4b Benefits of Public-Private Collaboration
+- 9.4c Case Studies on Public-Private Collaboration
+
+- Chapter 10: Transportation Technologies - Their Role and Limitations:
+sections:
+- Section: 10.1 Overview of Transportation Technologies:
+subsections:
+- 10.1a Introduction to Transportation Technologies
+- 10.1b Analysis of Transportation Technologies
+- 10.1c Case Studies on Transportation Technologies
+
+- Section: 10.2 Intelligent Transportation Systems and their Applications:
+subsections:
+- 10.2a Basics of Intelligent Transportation Systems
+- 10.2b Applications of Intelligent Transportation Systems
+- 10.2c Case Studies on Intelligent Transportation Systems
+
+- Section: 10.3 Emerging Technologies in Transportation Systems:
+subsections:
+- 10.3a Understanding Emerging Technologies
+- 10.3b Analysis of Emerging Technologies
+- 10.3c Case Studies on Emerging Technologies
+
+- Section: 10.4 Assessing the Role and Limitations of Transportation Technologies:
+subsections:
+- 10.4a Understanding Role and Limitations
+- 10.4b Analysis of Role and Limitations
+- 10.4c Case Studies on Role and Limitations
+
+- Chapter 11: Transportation Systems Planning:
+sections:
+- Section: 11.1 Introduction to Transportation Systems Planning:
+subsections:
+- 11.1a Basics of Transportation Systems Planning
+- 11.1b Techniques for Transportation Systems Planning
+- 11.1c Case Studies on Transportation Systems Planning
+
+- Section: 11.2 Transportation Systems Design:
+subsections:
+- 11.2a Introduction to Transportation Systems Design
+- 11.2b Techniques for Transportation Systems Design
+- 11.2c Case Studies on Transportation Systems Design
+
+- Section: 11.3 Transportation Systems Implementation:
+subsections:
+- 11.3a Understanding Transportation Systems Implementation
+- 11.3b Strategies for Transportation Systems Implementation
+- 11.3c Case Studies on Transportation Systems Implementation
+
+- Section: 11.4 Transportation Systems Evaluation:
+subsections:
+- 11.4a Basics of Transportation Systems Evaluation
+- 11.4b Techniques for Transportation Systems Evaluation
+- 11.4c Case Studies on Transportation Systems Evaluation
+
+- Chapter 12: Transportation Systems Management:
+sections:
+- Section: 12.1 Introduction to Transportation Systems Management:
+subsections:
+- 12.1a Basics of Transportation Systems Management
+- 12.1b Techniques for Transportation Systems Management
+- 12.1c Case Studies on Transportation Systems Management
+
+- Section: 12.2 Transportation Systems Operations:
+subsections:
+- 12.2a Understanding Transportation Systems Operations
+- 12.2b Strategies for Transportation Systems Operations
+- 12.2c Case Studies on Transportation Systems Operations
+
+- Section: 12.3 Transportation Systems Maintenance:
+subsections:
+- 12.3a Basics of Transportation Systems Maintenance
+- 12.3b Techniques for Transportation Systems Maintenance
+- 12.3c Case Studies on Transportation Systems Maintenance
+
+- Section: 12.4 Transportation Systems Improvement:
+subsections:
+- 12.4a Understanding Transportation Systems Improvement
+- 12.4b Strategies for Transportation Systems Improvement
+- 12.4c Case Studies on Transportation Systems Improvement
+
+- Chapter 13: Transportation Systems Safety:
+sections:
+- Section: 13.1 Introduction to Transportation Systems Safety:
+subsections:
+- 13.1a Basics of Transportation Systems Safety
+- 13.1b Techniques for Enhancing Transportation Systems Safety
+- 13.1c Case Studies on Transportation Systems Safety
+
+- Section: 13.2 Transportation Systems Security:
+subsections:
+- 13.2a Understanding Transportation Systems Security
+- 13.2b Strategies for Enhancing Transportation Systems Security
+- 13.2c Case Studies on Transportation Systems Security
+
+- Section: 13.3 Transportation Systems Risk Management:
+subsections:
+- 13.3a Introduction to Transportation Systems Risk Management
+- 13.3b Techniques for Transportation Systems Risk Management
+- 13.3c Case Studies on Transportation Systems Risk Management
+
+- Section: 13.4 Transportation Systems Resilience:
+subsections:
+- 13.4a Basics of Transportation Systems Resilience
+- 13.4b Strategies for Enhancing Transportation Systems Resilience
+- 13.4c Case Studies on Transportation Systems Resilience
+
+- Chapter 14: Transportation Systems Sustainability:
+sections:
+- Section: 14.1 Introduction to Transportation Systems Sustainability:
+subsections:
+- 14.1a Basics of Transportation Systems Sustainability
+- 14.1b Techniques for Enhancing Transportation Systems Sustainability
+- 14.1c Case Studies on Transportation Systems Sustainability
+
+- Section: 14.2 Transportation Systems Environmental Impact:
+subsections:
+- 14.2a Understanding Transportation Systems Environmental Impact
+- 14.2b Strategies for Reducing Transportation Systems Environmental Impact
+- 14.2c Case Studies on Transportation Systems Environmental Impact
+
+- Section: 14.3 Transportation Systems Social Impact:
+subsections:
+- 14.3a Introduction to Transportation Systems Social Impact
+- 14.3b Analysis of Transportation Systems Social Impact
+- 14.3c Case Studies on Transportation Systems Social Impact
+
+- Section: 14.4 Transportation Systems Economic Impact:
+subsections:
+- 14.4a Basics of Transportation Systems Economic Impact
+- 14.4b Analysis of Transportation Systems Economic Impact
+- 14.4c Case Studies on Transportation Systems Economic Impact
+
+- Chapter 15: Transportation Systems Innovation:
+sections:
+- Section: 15.1 Introduction to Transportation Systems Innovation:
+subsections:
+- 15.1a Basics of Transportation Systems Innovation
+- 15.1b Techniques for Fostering Transportation Systems Innovation
+- 15.1c Case Studies on Transportation Systems Innovation
+
+- Section: 15.2 Transportation Systems Technology Adoption:
+subsections:
+- 15.2a Understanding Transportation Systems Technology Adoption
+- 15.2b Strategies for Enhancing Transportation Systems Technology Adoption
+- 15.2c Case Studies on Transportation Systems Technology Adoption
+
+- Section: 15.3 Transportation Systems Research and Development:
+subsections:
+- 15.3a Introduction to Transportation Systems Research and Development
+- 15.3b Techniques for Effective Transportation Systems Research and Development
+- 15.3c Case Studies on Transportation Systems Research and Development
+
+- Section: 15.4 Transportation Systems Future Trends:
+subsections:
+- 15.4a Understanding Transportation Systems Future Trends
+- 15.4b Analysis of Transportation Systems Future Trends
+- 15.4c Case Studies on Transportation Systems Future Trends
+
+- Chapter 16: Transportation Systems Regulations:
+sections:
+- Section: 16.1 Introduction to Transportation Systems Regulations:
+subsections:
+- 16.1a Basics of Transportation Systems Regulations
+- 16.1b Analysis of Transportation Systems Regulations
+- 16.1c Case Studies on Transportation Systems Regulations
+
+- Section: 16.2 Transportation Systems Compliance:
+subsections:
+- 16.2a Understanding Transportation Systems Compliance
+- 16.2b Strategies for Ensuring Transportation Systems Compliance
+- 16.2c Case Studies on Transportation Systems Compliance
+
+- Section: 16.3 Transportation Systems Policy Making:
+subsections:
+- 16.3a Introduction to Transportation Systems Policy Making
+- 16.3b Techniques for Effective Transportation Systems Policy Making
+- 16.3c Case Studies on Transportation Systems Policy Making
+
+- Section: 16.4 Transportation Systems Legal Aspects:
+subsections:
+- 16.4a Basics of Transportation Systems Legal Aspects
+- 16.4b Analysis of Transportation Systems Legal Aspects
+- 16.4c Case Studies on Transportation Systems Legal Aspects
+
+- Chapter 17: Transportation Systems Human Factors:
+sections:
+- Section: 17.1 Introduction to Transportation Systems Human Factors:
+subsections:
+- 17.1a Basics of Transportation Systems Human Factors
+- 17.1b Analysis of Transportation Systems Human Factors
+- 17.1c Case Studies on Transportation Systems Human Factors
+
+- Section: 17.2 Transportation Systems User Behavior:
+subsections:
+- 17.2a Understanding Transportation Systems User Behavior
+- 17.2b Strategies for Influencing Transportation Systems User Behavior
+- 17.2c Case Studies on Transportation Systems User Behavior
+
+- Section: 17.3 Transportation Systems User Experience:
+subsections:
+- 17.3a Introduction to Transportation Systems User Experience
+- 17.3b Techniques for Enhancing Transportation Systems User Experience
+- 17.3c Case Studies on Transportation Systems User Experience
+
+- Section: 17.4 Transportation Systems User Satisfaction:
+subsections:
+- 17.4a Basics of Transportation Systems User Satisfaction
+- 17.4b Analysis of Transportation Systems User Satisfaction
+- 17.4c Case Studies on Transportation Systems User Satisfaction
+
+- Chapter 18: Transportation Systems Infrastructure:
+sections:
+- Section: 18.1 Introduction to Transportation Systems Infrastructure:
+subsections:
+- 18.1a Basics of Transportation Systems Infrastructure
+- 18.1b Analysis of Transportation Systems Infrastructure
+- 18.1c Case Studies on Transportation Systems Infrastructure
+
+- Section: 18.2 Transportation Systems Infrastructure Planning:
+subsections:
+- 18.2a Understanding Transportation Systems Infrastructure Planning
+- 18.2b Techniques for Effective Transportation Systems Infrastructure Planning
+- 18.2c Case Studies on Transportation Systems Infrastructure Planning
+
+- Section: 18.3 Transportation Systems Infrastructure Design:
+subsections:
+- 18.3a Introduction to Transportation Systems Infrastructure Design
+- 18.3b Techniques for Effective Transportation Systems Infrastructure Design
+- 18.3c Case Studies on Transportation Systems Infrastructure Design
+
+- Section: 18.4 Transportation Systems Infrastructure Maintenance:
+subsections:
+- 18.4a Basics of Transportation Systems Infrastructure Maintenance
+- 18.4b Strategies for Effective Transportation Systems Infrastructure Maintenance
+- 18.4c Case Studies on Transportation Systems Infrastructure Maintenance
+
+- Chapter 19: Transportation Systems Data:
+sections:
+- Section: 19.1 Introduction to Transportation Systems Data:
+subsections:
+- 19.1a Basics of Transportation Systems Data
+- 19.1b Analysis of Transportation Systems Data
+- 19.1c Case Studies on Transportation Systems Data
+
+- Section: 19.2 Transportation Systems Data Collection:
+subsections:
+- 19.2a Understanding Transportation Systems Data Collection
+- 19.2b Techniques for Effective Transportation Systems Data Collection
+- 19.2c Case Studies on Transportation Systems Data Collection
+
+- Section: 19.3 Transportation Systems Data Analysis:
+subsections:
+- 19.3a Introduction to Transportation Systems Data Analysis
+- 19.3b Techniques for Effective Transportation Systems Data Analysis
+- 19.3c Case Studies on Transportation Systems Data Analysis
+
+- Section: 19.4 Transportation Systems Data Visualization:
+subsections:
+- 19.4a Basics of Transportation Systems Data Visualization
+- 19.4b Techniques for Effective Transportation Systems Data Visualization
+- 19.4c Case Studies on Transportation Systems Data Visualization
+
+- Chapter 20: Transportation Systems Case Studies:
+sections:
+- Section: 20.1 Case Studies on Transportation Systems Planning:

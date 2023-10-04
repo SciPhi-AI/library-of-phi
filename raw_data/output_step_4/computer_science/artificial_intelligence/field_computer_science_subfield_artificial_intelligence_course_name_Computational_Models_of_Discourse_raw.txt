@@ -1,0 +1,211 @@
+textbook: 
+"Computational Models of Discourse: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Discourse: An Overview:
+subsections:
+- 1.1a Definition of Discourse
+- 1.1b Importance of Discourse in Communication
+- 1.1c Discourse Analysis
+
+- Section: 1.2 Computational Perspectives on Discourse and Dialog:
+subsections:
+- 1.2a Role of Computation in Discourse Analysis
+- 1.2b Computational Models for Dialog
+- 1.2c Future Trends in Computational Discourse
+
+- Chapter 2: Topic Segmentation:
+sections:
+- Section: 2.1 Agreement, Evaluation, and Automatic Text Segmentation:
+subsections:
+- 2.1a Understanding Text Segmentation
+- 2.1b Evaluation Methods for Text Segmentation
+- 2.1c Automatic Text Segmentation Techniques
+
+- Section: 2.2 Hierarchical Text Segmentation:
+subsections:
+- 2.2a Basics of Hierarchical Text Segmentation
+- 2.2b Advantages of Hierarchical Text Segmentation
+- 2.2c Applications of Hierarchical Text Segmentation
+
+- Section: 2.3 Meeting Segmentation:
+subsections:
+- 2.3a Importance of Meeting Segmentation
+- 2.3b Techniques for Meeting Segmentation
+- 2.3c Challenges in Meeting Segmentation
+
+- Chapter 3: Cohesion and Local Coherence:
+sections:
+- Section: 3.1 Lexical Chains and Discourse Coherence:
+subsections:
+- 3.1a Understanding Lexical Chains
+- 3.1b Role of Lexical Chains in Discourse Coherence
+- 3.1c Techniques for Identifying Lexical Chains
+
+- Section: 3.2 Centering Theory and Discourse Coherence:
+subsections:
+- 3.2a Introduction to Centering Theory
+- 3.2b Centering Theory in Discourse Coherence
+- 3.2c Applications of Centering Theory
+
+- Section: 3.3 Applications of Cohesion in Automated Essay Scoring:
+subsections:
+- 3.3a Role of Cohesion in Essay Scoring
+- 3.3b Automated Essay Scoring Techniques
+- 3.3c Challenges in Automated Essay Scoring
+
+- Chapter 4: Automatic Reference Resolution:
+sections:
+- Section: 4.1 Introduction to Automatic Reference Resolution:
+subsections:
+- 4.1a Basics of Reference Resolution
+- 4.1b Techniques for Automatic Reference Resolution
+- 4.1c Challenges in Automatic Reference Resolution
+
+- Section: 4.2 Reference Generation in Discourse:
+subsections:
+- 4.2a Understanding Reference Generation
+- 4.2b Techniques for Reference Generation
+- 4.2c Applications of Reference Generation
+
+- Chapter 5: Generation of Referring Expressions:
+sections:
+- Section: 5.1 Introduction to Generation of Referring Expressions:
+subsections:
+- 5.1a Basics of Referring Expressions
+- 5.1b Techniques for Generating Referring Expressions
+- 5.1c Challenges in Generating Referring Expressions
+
+- Chapter 6: Domain-dependent Models of Text Structure:
+sections:
+- Section: 6.1 Introduction to Domain-dependent Models of Text Structure:
+subsections:
+- 6.1a Understanding Domain-dependent Models
+- 6.1b Techniques for Building Domain-dependent Models
+- 6.1c Applications of Domain-dependent Models
+
+- Chapter 7: Rhetorical Structure Theory:
+sections:
+- Section: 7.1 Introduction to Rhetorical Structure Theory:
+subsections:
+- 7.1a Basics of Rhetorical Structure Theory
+- 7.1b Techniques for Applying Rhetorical Structure Theory
+- 7.1c Applications of Rhetorical Structure Theory
+
+- Chapter 8: Discourse Structure in Text Summarization; Alignment:
+sections:
+- Section: 8.1 Discourse Structure in Text Summarization:
+subsections:
+- 8.1a Role of Discourse Structure in Summarization
+- 8.1b Techniques for Text Summarization
+- 8.1c Challenges in Text Summarization
+
+- Section: 8.2 Alignment and Discourse Structure:
+subsections:
+- 8.2a Understanding Alignment in Discourse
+- 8.2b Techniques for Discourse Alignment
+- 8.2c Applications of Discourse Alignment
+
+- Chapter 9: Temporal Ordering in Discourse:
+sections:
+- Section: 9.1 Temporal Ordering in Discourse:
+subsections:
+- 9.1a Understanding Temporal Ordering
+- 9.1b Techniques for Temporal Ordering
+- 9.1c Applications of Temporal Ordering
+
+- Chapter 10: Prosody and Discourse:
+sections:
+- Section: 10.1 Prosody and Discourse:
+subsections:
+- 10.1a Role of Prosody in Discourse
+- 10.1b Techniques for Analyzing Prosody
+- 10.1c Applications of Prosody Analysis
+
+- Chapter 11: Intentions and the Structure of Discourse:
+sections:
+- Section: 11.1 Intentions and the Structure of Discourse:
+subsections:
+- 11.1a Understanding Intentions in Discourse
+- 11.1b Techniques for Analyzing Discourse Structure
+- 11.1c Applications of Discourse Structure Analysis
+
+- Chapter 12: Studies of Dialogues; Taxonomy of Speech Acts:
+sections:
+- Section: 12.1 Studies of Dialogues:
+subsections:
+- 12.1a Importance of Dialogue Studies
+- 12.1b Techniques for Dialogue Analysis
+- 12.1c Applications of Dialogue Studies
+
+- Section: 12.2 Taxonomy of Speech Acts:
+subsections:
+- 12.2a Understanding Speech Acts
+- 12.2b Techniques for Classifying Speech Acts
+- 12.2c Applications of Speech Act Taxonomy
+
+- Chapter 13: Automatic Interpretation of Dialogue Acts:
+sections:
+- Section: 13.1 Automatic Interpretation of Dialogue Acts:
+subsections:
+- 13.1a Basics of Dialogue Act Interpretation
+- 13.1b Techniques for Automatic Interpretation
+- 13.1c Challenges in Automatic Interpretation
+
+- Chapter 14: Learning Dialogue Strategies via Reinforcement Learning:
+sections:
+- Section: 14.1 Learning Dialogue Strategies via Reinforcement Learning:
+subsections:
+- 14.1a Understanding Reinforcement Learning
+- 14.1b Techniques for Learning Dialogue Strategies
+- 14.1c Applications of Reinforcement Learning in Dialogue
+
+- Chapter 15: MIT Dialogue Systems:
+sections:
+- Section: 15.1 Introduction to MIT Dialogue Systems:
+subsections:
+- 15.1a Overview of MIT Dialogue Systems
+- 15.1b Techniques Used in MIT Dialogue Systems
+- 15.1c Applications and Successes of MIT Dialogue Systems
+
+- Chapter 16: Dialogue Systems:
+sections:
+- Section: 16.1 Introduction to Dialogue Systems:
+subsections:
+- 16.1a Basics of Dialogue Systems
+- 16.1b Techniques for Building Dialogue Systems
+- 16.1c Challenges in Dialogue Systems
+
+- Chapter 17: Plan Recognition:
+sections:
+- Section: 17.1 Introduction to Plan Recognition:
+subsections:
+- 17.1a Understanding Plan Recognition
+- 17.1b Techniques for Plan Recognition
+- 17.1c Applications of Plan Recognition
+
+- Chapter 18: Evaluation for Discourse Processing:
+sections:
+- Section: 18.1 Evaluation for Discourse Processing:
+subsections:
+- 18.1a Importance of Evaluation in Discourse Processing
+- 18.1b Techniques for Evaluation
+- 18.1c Challenges in Evaluation
+
+- Chapter 19: Discourse in Psycholinguistics:
+sections:
+- Section: 19.1 Discourse in Psycholinguistics:
+subsections:
+- 19.1a Role of Discourse in Psycholinguistics
+- 19.1b Techniques for Studying Discourse in Psycholinguistics
+- 19.1c Applications of Psycholinguistics in Discourse
+
+- Chapter 20: Project Presentations:
+sections:
+- Section: 20.1 Project Presentations:
+subsections:
+- 20.1a Importance of Project Presentations
+- 20.1b Techniques for Effective Project Presentations
+- 20.1c Evaluating Project Presentations

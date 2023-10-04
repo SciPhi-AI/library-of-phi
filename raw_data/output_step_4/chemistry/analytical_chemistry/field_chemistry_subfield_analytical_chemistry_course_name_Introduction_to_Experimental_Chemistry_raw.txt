@@ -1,0 +1,277 @@
+textbook: 
+"Textbook for Introduction to Experimental Chemistry":
+
+chapters:
+- Chapter 1: Spectroscopy:
+sections:
+- Section: 1.1 Spectroscopy in frequency and time domains:
+subsections:
+- 1.1a Introduction to Spectroscopy
+- 1.1b Frequency Domain Spectroscopy
+- 1.1c Time Domain Spectroscopy
+
+- Section: 1.2 Linear and Nonlinear Spectroscopy:
+subsections:
+- 1.2a Basics of Linear Spectroscopy
+- 1.2b Basics of Nonlinear Spectroscopy
+- 1.2c Applications of Spectroscopy
+
+- Chapter 2: Introduction to Coordination Chemistry:
+sections:
+- Section: 2.1 Practical aspects of FTIR Spectroscopy:
+subsections:
+- 2.1a Introduction to FTIR Spectroscopy
+- 2.1b Practical Aspects of FTIR Spectroscopy
+- 2.1c Applications of FTIR Spectroscopy
+
+- Chapter 3: Analytical Techniques:
+sections:
+- Section: 3.1 Gas Chromatography:
+subsections:
+- 3.1a Introduction to Gas Chromatography
+- 3.1b Practical Aspects of Gas Chromatography
+- 3.1c Applications of Gas Chromatography
+
+- Section: 3.2 Liquid Chromatography:
+subsections:
+- 3.2a Introduction to Liquid Chromatography
+- 3.2b Practical Aspects of Liquid Chromatography
+- 3.2c Applications of Liquid Chromatography
+
+- Chapter 4: Electrochemistry:
+sections:
+- Section: 4.1 Fundamentals of Electrochemistry:
+subsections:
+- 4.1a Introduction to Electrochemistry
+- 4.1b Basic Concepts in Electrochemistry
+- 4.1c Applications of Electrochemistry
+
+- Section: 4.2 Electrochemical Cells and Electrodes:
+subsections:
+- 4.2a Introduction to Electrochemical Cells
+- 4.2b Types of Electrochemical Cells
+- 4.2c Electrodes in Electrochemistry
+
+- Chapter 5: Organic Synthesis:
+sections:
+- Section: 5.1 Basics of Organic Synthesis:
+subsections:
+- 5.1a Introduction to Organic Synthesis
+- 5.1b Basic Techniques in Organic Synthesis
+- 5.1c Applications of Organic Synthesis
+
+- Section: 5.2 Functional Group Transformations:
+subsections:
+- 5.2a Introduction to Functional Group Transformations
+- 5.2b Techniques in Functional Group Transformations
+- 5.2c Applications of Functional Group Transformations
+
+- Chapter 6: Inorganic Synthesis:
+sections:
+- Section: 6.1 Techniques in Inorganic Synthesis:
+subsections:
+- 6.1a Introduction to Inorganic Synthesis
+- 6.1b Basic Techniques in Inorganic Synthesis
+- 6.1c Applications of Inorganic Synthesis
+
+- Section: 6.2 Coordination Complexes and Ligand Synthesis:
+subsections:
+- 6.2a Introduction to Coordination Complexes
+- 6.2b Synthesis of Coordination Complexes
+- 6.2c Synthesis of Ligands
+
+- Chapter 7: Physical Chemistry:
+sections:
+- Section: 7.1 Thermodynamics and Kinetics:
+subsections:
+- 7.1a Introduction to Thermodynamics
+- 7.1b Introduction to Kinetics
+- 7.1c Applications of Thermodynamics and Kinetics
+
+- Section: 7.2 Quantum Mechanics and Spectroscopy:
+subsections:
+- 7.2a Introduction to Quantum Mechanics
+- 7.2b Basic Concepts in Quantum Mechanics
+- 7.2c Applications of Quantum Mechanics in Spectroscopy
+
+- Chapter 8: Materials Chemistry:
+sections:
+- Section: 8.1 Synthesis and Characterization of Materials:
+subsections:
+- 8.1a Introduction to Materials Chemistry
+- 8.1b Techniques in Materials Synthesis
+- 8.1c Characterization of Materials
+
+- Section: 8.2 Nanomaterials and Their Applications:
+subsections:
+- 8.2a Introduction to Nanomaterials
+- 8.2b Synthesis of Nanomaterials
+- 8.2c Applications of Nanomaterials
+
+- Chapter 9: Chemical Kinetics:
+sections:
+- Section: 9.1 Rate of Reaction:
+subsections:
+- 9.1a Introduction to Rate of Reaction
+- 9.1b Factors Affecting Rate of Reaction
+- 9.1c Applications of Rate of Reaction
+
+- Section: 9.2 Reaction Mechanisms:
+subsections:
+- 9.2a Introduction to Reaction Mechanisms
+- 9.2b Determining Reaction Mechanisms
+- 9.2c Applications of Reaction Mechanisms
+
+- Chapter 10: Quantum Chemistry:
+sections:
+- Section: 10.1 Wave-Particle Duality:
+subsections:
+- 10.1a Introduction to Wave-Particle Duality
+- 10.1b Heisenberg Uncertainty Principle
+- 10.1c Applications of Wave-Particle Duality
+
+- Section: 10.2 Quantum Numbers and Atomic Orbitals:
+subsections:
+- 10.2a Introduction to Quantum Numbers
+- 10.2b Atomic Orbitals
+- 10.2c Applications of Quantum Numbers and Atomic Orbitals
+
+- Chapter 11: Chemical Thermodynamics:
+sections:
+- Section: 11.1 Laws of Thermodynamics:
+subsections:
+- 11.1a Introduction to Laws of Thermodynamics
+- 11.1b Applications of Laws of Thermodynamics
+- 11.1c Thermodynamic Systems and Processes
+
+- Section: 11.2 Gibbs Free Energy and Chemical Potential:
+subsections:
+- 11.2a Introduction to Gibbs Free Energy
+- 11.2b Chemical Potential
+- 11.2c Applications of Gibbs Free Energy and Chemical Potential
+
+- Chapter 12: Chemical Equilibrium:
+sections:
+- Section: 12.1 Equilibrium Constant:
+subsections:
+- 12.1a Introduction to Equilibrium Constant
+- 12.1b Calculating Equilibrium Constant
+- 12.1c Applications of Equilibrium Constant
+
+- Section: 12.2 Le Chatelier's Principle:
+subsections:
+- 12.2a Introduction to Le Chatelier's Principle
+- 12.2b Applications of Le Chatelier's Principle
+- 12.2c Factors Affecting Chemical Equilibrium
+
+- Chapter 13: Acid-Base Chemistry:
+sections:
+- Section: 13.1 Acid-Base Theories:
+subsections:
+- 13.1a Introduction to Acid-Base Theories
+- 13.1b Applications of Acid-Base Theories
+- 13.1c Acid-Base Reactions
+
+- Section: 13.2 pH and pOH:
+subsections:
+- 13.2a Introduction to pH and pOH
+- 13.2b Calculating pH and pOH
+- 13.2c Applications of pH and pOH
+
+- Chapter 14: Organic Chemistry:
+sections:
+- Section: 14.1 Hydrocarbons:
+subsections:
+- 14.1a Introduction to Hydrocarbons
+- 14.1b Types of Hydrocarbons
+- 14.1c Applications of Hydrocarbons
+
+- Section: 14.2 Functional Groups:
+subsections:
+- 14.2a Introduction to Functional Groups
+- 14.2b Types of Functional Groups
+- 14.2c Applications of Functional Groups
+
+- Chapter 15: Inorganic Chemistry:
+sections:
+- Section: 15.1 Periodic Table and Periodic Trends:
+subsections:
+- 15.1a Introduction to Periodic Table
+- 15.1b Periodic Trends
+- 15.1c Applications of Periodic Trends
+
+- Section: 15.2 Coordination Compounds:
+subsections:
+- 15.2a Introduction to Coordination Compounds
+- 15.2b Structure and Nomenclature of Coordination Compounds
+- 15.2c Applications of Coordination Compounds
+
+- Chapter 16: Biochemistry:
+sections:
+- Section: 16.1 Biomolecules:
+subsections:
+- 16.1a Introduction to Biomolecules
+- 16.1b Types of Biomolecules
+- 16.1c Applications of Biomolecules
+
+- Section: 16.2 Metabolism:
+subsections:
+- 16.2a Introduction to Metabolism
+- 16.2b Metabolic Pathways
+- 16.2c Applications of Metabolism
+
+- Chapter 17: Environmental Chemistry:
+sections:
+- Section: 17.1 Air Pollution:
+subsections:
+- 17.1a Introduction to Air Pollution
+- 17.1b Causes and Effects of Air Pollution
+- 17.1c Solutions to Air Pollution
+
+- Section: 17.2 Water Pollution:
+subsections:
+- 17.2a Introduction to Water Pollution
+- 17.2b Causes and Effects of Water Pollution
+- 17.2c Solutions to Water Pollution
+
+- Chapter 18: Industrial Chemistry:
+sections:
+- Section: 18.1 Petrochemicals:
+subsections:
+- 18.1a Introduction to Petrochemicals
+- 18.1b Production of Petrochemicals
+- 18.1c Applications of Petrochemicals
+
+- Section: 18.2 Polymers:
+subsections:
+- 18.2a Introduction to Polymers
+- 18.2b Types of Polymers
+- 18.2c Applications of Polymers
+
+- Chapter 19: Nuclear Chemistry:
+sections:
+- Section: 19.1 Radioactivity:
+subsections:
+- 19.1a Introduction to Radioactivity
+- 19.1b Types of Radioactive Decay
+- 19.1c Applications of Radioactivity
+
+- Section: 19.2 Nuclear Reactions:
+subsections:
+- 19.2a Introduction to Nuclear Reactions
+- 19.2b Types of Nuclear Reactions
+- 19.2c Applications of Nuclear Reactions
+
+- Chapter 20: Analytical Chemistry:
+sections:
+- Section: 20.1 Spectroscopic Methods:
+subsections:
+- 20.1a Introduction to Spectroscopic Methods
+- 20.1b Types of Spectroscopic Methods
+- 20.1c Applications of Spectroscopic Methods
+
+- Section: 20.2 Chromatographic Methods:
+subsections:
+- 20.2a Introduction to Chromatographic Methods
+- 20.2b Types of Chromatographic Methods
+- 20.2c Applications of Chromatographic Methods

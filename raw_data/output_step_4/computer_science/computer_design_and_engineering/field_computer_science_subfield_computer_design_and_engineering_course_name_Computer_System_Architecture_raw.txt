@@ -1,0 +1,241 @@
+textbook: 
+"Foundations of Computer System Architecture: From Calculators to Modern Processors":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 History of Calculation and Computer Architecture:
+subsections:
+- 1.1a Influence of Technology and Software on Instruction Sets: Up to the Dawn of IBM 360
+- 1.1b Complex Instruction Set Evolution in the Sixties: Stack and GPR Architectures
+- 1.1c Self-assessment Test and ISA
+
+- Chapter 2: Microprogramming and Instruction Pipelining:
+sections:
+- Section: 2.1 Microprogramming:
+subsections:
+- 2.1a MIPS ISA, Bus-based Implementation, and Microprogramming
+- 2.1b Simple Instruction Pipelining
+- 2.1c Pipeline Hazards
+- 2.1d Microprogramming, Pipelining, and Hazards
+
+- Chapter 3: Memory Hierarchy and Virtual Memory:
+sections:
+- Section: 3.1 Multilevel Memories - Technology:
+subsections:
+- 3.1a Cache
+- 3.1b ISAs, Microprogramming, Simple Pipelining and Hazards
+- Section: 3.2 Virtual Memory Basics:
+subsections:
+- 3.2a Quiz 1, Caches, and Virtual Memory Basics
+- 3.2b Virtual Memory: Part Deux
+
+- Chapter 4: Advanced Pipelining and Superscalar Architectures:
+sections:
+- Section: 4.1 Complex Pipelining:
+subsections:
+- 4.1a Caches, Virtual Memory
+- 4.1b Out of Order Execution and Register Renaming
+- 4.1c Branch Prediction and Speculative Execution
+- Section: 4.2 Advanced Superscalar Architectures:
+subsections:
+- 4.2a Quiz 2, Scoreboarding, Register Renaming, and Branch Prediction
+- 4.2b Microprocessor Evolution: 4004 to Pentium 4
+
+- Chapter 5: Cache Coherence and Memory Models:
+sections:
+- Section: 5.1 Synchronization and Sequential Consistency:
+subsections:
+- 5.1a Cache Coherence
+- 5.1b Snoopy Protocols
+- 5.1c Sequential Consistency, Synchronization, Cache Coherence Protocols
+- Section: 5.2 Relaxed Memory Models:
+subsections:
+- 5.2a SMPs, CC, Synch, Memory Models
+- 5.2b VLIW/EPIC: Statically Scheduled ILP
+
+- Chapter 6: Parallel Architectures and Vector Processors:
+sections:
+- Section: 6.1 Vector Computers:
+subsections:
+- 6.1a Vector Computers
+- 6.1b Quiz 4 and VLIW
+- 6.1c Multithreaded Processors
+
+- Chapter 7: Fault Tolerance and Virtualization:
+sections:
+- Section: 7.1 Reliable Architectures:
+subsections:
+- 7.1a Vector Computers, Multithreading and Reliable Architectures
+- 7.1b Virtual Machines
+- 7.1c VLIW/Vector/Threads
+
+- Chapter 8: Computer Arithmetic:
+sections:
+- Section: 8.1 Binary Arithmetic:
+subsections:
+- 8.1a Binary Addition and Subtraction
+- 8.1b Binary Multiplication and Division
+- 8.1c Floating Point Arithmetic
+- Section: 8.2 Error Detection and Correction:
+subsections:
+- 8.2a Parity Bits
+- 8.2b Error Correction Codes
+- 8.2c Hamming Distance
+
+- Chapter 9: Processor Design:
+sections:
+- Section: 9.1 Instruction Set Architecture:
+subsections:
+- 9.1a Types of Instruction Set Architecture
+- 9.1b RISC vs CISC
+- 9.1c MIPS and ARM Architecture
+- Section: 9.2 Control Unit Design:
+subsections:
+- 9.2a Hardwired Control Units
+- 9.2b Microprogrammed Control Units
+- 9.2c Comparison of Control Unit Designs
+
+- Chapter 10: Memory Systems:
+sections:
+- Section: 10.1 Main Memory:
+subsections:
+- 10.1a RAM and ROM
+- 10.1b DRAM and SRAM
+- 10.1c Memory Hierarchy
+- Section: 10.2 Secondary Memory:
+subsections:
+- 10.2a Magnetic Disk Drives
+- 10.2b Solid State Drives
+- 10.2c Optical Disk Drives
+
+- Chapter 11: Input and Output Systems:
+sections:
+- Section: 11.1 Input Devices:
+subsections:
+- 11.1a Keyboards and Mice
+- 11.1b Scanners and Cameras
+- 11.1c Microphones and Sensors
+- Section: 11.2 Output Devices:
+subsections:
+- 11.2a Monitors and Printers
+- 11.2b Speakers and Actuators
+- 11.2c Plotters and 3D Printers
+
+- Chapter 12: Operating Systems:
+sections:
+- Section: 12.1 Process Management:
+subsections:
+- 12.1a Process Scheduling
+- 12.1b Interprocess Communication
+- 12.1c Deadlocks
+- Section: 12.2 Memory Management:
+subsections:
+- 12.2a Paging and Segmentation
+- 12.2b Virtual Memory
+- 12.2c Memory Allocation
+
+- Chapter 13: Computer Networks:
+sections:
+- Section: 13.1 Network Architecture:
+subsections:
+- 13.1a OSI Model
+- 13.1b TCP/IP Model
+- 13.1c Network Topologies
+- Section: 13.2 Network Protocols:
+subsections:
+- 13.2a IP and ICMP
+- 13.2b TCP and UDP
+- 13.2c HTTP and FTP
+
+- Chapter 14: Database Systems:
+sections:
+- Section: 14.1 Database Models:
+subsections:
+- 14.1a Relational Model
+- 14.1b Hierarchical Model
+- 14.1c Network Model
+- Section: 14.2 SQL:
+subsections:
+- 14.2a DDL and DML
+- 14.2b SQL Queries
+- 14.2c SQL Functions
+
+- Chapter 15: Computer Graphics:
+sections:
+- Section: 15.1 2D Graphics:
+subsections:
+- 15.1a Raster Graphics
+- 15.1b Vector Graphics
+- 15.1c Image Processing
+- Section: 15.2 3D Graphics:
+subsections:
+- 15.2a 3D Modeling
+- 15.2b Rendering
+- 15.2c Animation
+
+- Chapter 16: Artificial Intelligence:
+sections:
+- Section: 16.1 Machine Learning:
+subsections:
+- 16.1a Supervised Learning
+- 16.1b Unsupervised Learning
+- 16.1c Reinforcement Learning
+- Section: 16.2 Neural Networks:
+subsections:
+- 16.2a Perceptrons
+- 16.2b Backpropagation
+- 16.2c Convolutional Neural Networks
+
+- Chapter 17: Computer Security:
+sections:
+- Section: 17.1 Cryptography:
+subsections:
+- 17.1a Symmetric Key Cryptography
+- 17.1b Public Key Cryptography
+- 17.1c Hash Functions
+- Section: 17.2 Network Security:
+subsections:
+- 17.2a Firewalls
+- 17.2b Intrusion Detection Systems
+- 17.2c VPNs
+
+- Chapter 18: Software Engineering:
+sections:
+- Section: 18.1 Software Development Life Cycle:
+subsections:
+- 18.1a Requirements Analysis
+- 18.1b Design
+- 18.1c Implementation
+- 18.1d Testing
+- Section: 18.2 Software Development Models:
+subsections:
+- 18.2a Waterfall Model
+- 18.2b Agile Model
+- 18.2c Spiral Model
+
+- Chapter 19: Web Technologies:
+sections:
+- Section: 19.1 Web Development:
+subsections:
+- 19.1a HTML and CSS
+- 19.1b JavaScript
+- 19.1c PHP and ASP.NET
+- Section: 19.2 Web Services:
+subsections:
+- 19.2a SOAP
+- 19.2b REST
+- 19.2c JSON and XML
+
+- Chapter 20: Quantum Computing:
+sections:
+- Section: 20.1 Quantum Bits:
+subsections:
+- 20.1a Superposition
+- 20.1b Entanglement
+- 20.1c Quantum Gates
+- Section: 20.2 Quantum Algorithms:
+subsections:
+- 20.2a Shor's Algorithm
+- 20.2b Grover's Algorithm
+- 20.2c Quantum Machine Learning

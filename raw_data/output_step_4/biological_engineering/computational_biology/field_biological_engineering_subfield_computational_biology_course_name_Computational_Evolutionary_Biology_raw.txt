@@ -1,0 +1,151 @@
+textbook: 
+"Computational Evolutionary Biology: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Computational Evolutionary Biology:
+sections:
+- Section: 1.1 The Basic Dynamical Systems of Evolution:
+subsections:
+- 1.1a Forces of Evolution I: Complications
+- 1.1b Forces of Evolution II: Optimization
+- 1.1c Forces of Evolution III: Mutation, Migration
+- 1.1d Forces of Evolution IV: Genetic Drift
+
+- Chapter 2: Evolution at The Molecular Level:
+sections:
+- Section: 2.1 Introduction to Evolution at The Molecular Level:
+subsections:
+- 2.1a Evolution at The Molecular Level I
+- 2.1b Evolution at The Molecular Level II
+- 2.1c Evolution at The Molecular Level III
+
+- Chapter 3: The Algebra of Evolution:
+sections:
+- Section: 3.1 Introduction to The Algebra of Evolution:
+subsections:
+- 3.1a The Algebra of Evolution: Price’s Theorem I
+- 3.1b The Algebra of Evolution: Price’s Theorem II
+
+- Chapter 4: Detecting Selection:
+sections:
+- Section: 4.1 Introduction to Detecting Selection:
+subsections:
+- 4.1a Detecting Selection
+- 4.1b Detecting Selection: A Case Study
+
+- Chapter 5: Quantitative Genetics:
+sections:
+- Section: 5.1 Introduction to Quantitative Genetics:
+subsections:
+- 5.1a Quantitative Genetics I
+- 5.1b Quantitative Genetics II
+
+- Chapter 6: Host-parasite Interactions and Disease Models:
+sections:
+- Section: 6.1 Introduction to Host-parasite Interactions and Disease Models:
+subsections:
+- 6.1a Host-parasite Interactions and Disease Models
+
+- Chapter 7: Evolutionary Stable Strategies:
+sections:
+- Section: 7.1 Introduction to Evolutionary Stable Strategies:
+subsections:
+- 7.1a Evolutionary Stable Strategies
+
+- Chapter 8: Developmental Evolution:
+sections:
+- Section: 8.1 Introduction to Developmental Evolution:
+subsections:
+- 8.1a Developmental Evolution
+
+- Chapter 9: Final Project Presentations:
+sections:
+- Section: 9.1 Introduction to Final Project Presentations:
+subsections:
+- 9.1a Final Project Presentations
+
+- Chapter 10: Finale: The Future of Evolution:
+sections:
+- Section: 10.1 Introduction to the Future of Evolution:
+subsections:
+- 10.1a Finale: The Future of Evolution
+
+- Chapter 11: Evolutionary Algorithms:
+sections:
+- Section: 11.1 Introduction to Evolutionary Algorithms:
+subsections:
+- 11.1a Basic Concepts of Evolutionary Algorithms
+- 11.1b Applications of Evolutionary Algorithms
+- 11.1c Challenges in Evolutionary Algorithms
+
+- Chapter 12: Phylogenetic Analysis:
+sections:
+- Section: 12.1 Introduction to Phylogenetic Analysis:
+subsections:
+- 12.1a Basics of Phylogenetic Analysis
+- 12.1b Phylogenetic Tree Construction
+- 12.1c Applications of Phylogenetic Analysis
+
+- Chapter 13: Genomic Evolution:
+sections:
+- Section: 13.1 Introduction to Genomic Evolution:
+subsections:
+- 13.1a Genomic Variation and Evolution
+- 13.1b Comparative Genomics
+- 13.1c Genomic Evolution and Disease
+
+- Chapter 14: Evolutionary Genomics:
+sections:
+- Section: 14.1 Introduction to Evolutionary Genomics:
+subsections:
+- 14.1a Basics of Evolutionary Genomics
+- 14.1b Genomic Data Analysis
+- 14.1c Applications of Evolutionary Genomics
+
+- Chapter 15: Evolutionary Systems Biology:
+sections:
+- Section: 15.1 Introduction to Evolutionary Systems Biology:
+subsections:
+- 15.1a Systems Biology and Evolution
+- 15.1b Network Evolution
+- 15.1c Evolutionary Systems Biology and Disease
+
+- Chapter 16: Evolutionary Game Theory:
+sections:
+- Section: 16.1 Introduction to Evolutionary Game Theory:
+subsections:
+- 16.1a Basics of Evolutionary Game Theory
+- 16.1b Applications of Evolutionary Game Theory
+- 16.1c Challenges in Evolutionary Game Theory
+
+- Chapter 17: Evolutionary Computation:
+sections:
+- Section: 17.1 Introduction to Evolutionary Computation:
+subsections:
+- 17.1a Basics of Evolutionary Computation
+- 17.1b Evolutionary Algorithms in Computation
+- 17.1c Applications of Evolutionary Computation
+
+- Chapter 18: Evolutionary Robotics:
+sections:
+- Section: 18.1 Introduction to Evolutionary Robotics:
+subsections:
+- 18.1a Basics of Evolutionary Robotics
+- 18.1b Evolutionary Algorithms in Robotics
+- 18.1c Applications of Evolutionary Robotics
+
+- Chapter 19: Evolutionary Medicine:
+sections:
+- Section: 19.1 Introduction to Evolutionary Medicine:
+subsections:
+- 19.1a Basics of Evolutionary Medicine
+- 19.1b Evolutionary Perspectives on Disease
+- 19.1c Applications of Evolutionary Medicine
+
+- Chapter 20: Evolutionary Ecology:
+sections:
+- Section: 20.1 Introduction to Evolutionary Ecology:
+subsections:
+- 20.1a Basics of Evolutionary Ecology
+- 20.1b Evolutionary Dynamics in Ecology
+- 20.1c Applications of Evolutionary Ecology

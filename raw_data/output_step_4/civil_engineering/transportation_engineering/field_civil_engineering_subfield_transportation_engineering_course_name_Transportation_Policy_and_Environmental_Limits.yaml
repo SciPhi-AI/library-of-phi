@@ -1,0 +1,313 @@
+textbook:
+  'Transportation Policy and Environmental Limits: Navigating the Path to Sustainable Mobility":':
+    chapters:
+    - '- Chapter 1: Introduction and Overview:':
+        sections:
+        - '- Section: 1.1 The Role of Government in Managing Transportation:':
+            subsections:
+            - 1.1a Role of Federal Government
+            - 1.1b Role of State Government
+            - 1.1c Role of Local Government
+        - '- Section: 1.2 Understanding a Sustainable Transportation System:':
+            subsections:
+            - 1.2a Definition of Sustainable Transportation
+            - 1.2b Key Elements of Sustainable Transportation
+            - 1.2c Challenges in Achieving Sustainable Transportation
+        - '- Section: 1.3 Key Stakeholders in Transportation Policy:':
+            subsections:
+            - 1.3a Government Agencies
+            - 1.3b Private Sector
+            - 1.3c Public and Community Groups
+    - '- Chapter 2: Tragedy of the Concrete Commons:':
+        sections:
+        - '- Section: 2.1 Exploring Common or Pooled Resources in a Free Market:':
+            subsections:
+            - 2.1a Definition of Common Resources
+            - 2.1b Examples of Common Resources in Transportation
+            - 2.1c Impacts of Overuse of Common Resources
+        - '- Section: 2.2 Implications of Overuse and Mismanagement:':
+            subsections:
+            - 2.2a Environmental Impacts
+            - 2.2b Economic Impacts
+            - 2.2c Social Impacts
+    - '- Chapter 3: Managed Conflict: Transportation and Environmental Politics:':
+        sections:
+        - '- Section: 3.1 Different Positions and Policy Justifications:':
+            subsections:
+            - 3.1a Pro-Transportation Development Positions
+            - 3.1b Pro-Environmental Protection Positions
+            - 3.1c Balancing Different Positions
+        - '- Section: 3.2 Case Study: Connecticut''s Super 7 Highway:':
+            subsections:
+            - 3.2a Background of the Case
+            - 3.2b Key Issues and Conflicts
+            - 3.2c Resolution and Lessons Learned
+        - '- Section: 3.3 Balancing Growth and Community/Regional Interests:':
+            subsections:
+            - 3.3a Importance of Balanced Growth
+            - 3.3b Strategies for Balancing Interests
+            - 3.3c Case Studies of Successful Balance
+    - '- Chapter 4: Energy and Clean Air Policy:':
+        sections:
+        - '- Section: 4.1 Regulating Car Emissions and Fuel Efficiency:':
+            subsections:
+            - 4.1a Current Regulations and Standards
+            - 4.1b Impacts of Regulations on Car Industry
+            - 4.1c Future Trends in Regulations
+        - '- Section: 4.2 Driver Behavior and Technological Innovation:':
+            subsections:
+            - 4.2a Impact of Driver Behavior on Emissions
+            - 4.2b Role of Technological Innovation in Reducing Emissions
+            - 4.2c Case Studies of Successful Innovations
+    - '- Chapter 5: Taxing for Change:':
+        sections:
+        - '- Section: 5.1 Pricing as a Policy Alternative:':
+            subsections:
+            - 5.1a Theory of Pricing as a Policy Tool
+            - 5.1b Examples of Pricing Policies in Transportation
+            - 5.1c Evaluation of Pricing Policies
+        - '- Section: 5.2 Challenges and Political Considerations:':
+            subsections:
+            - 5.2a Public Acceptance of Pricing Policies
+            - 5.2b Political Challenges in Implementing Pricing Policies
+            - 5.2c Strategies for Overcoming Challenges
+    - '- Chapter 6: Building the Super 7 Highway Class Simulation:':
+        sections:
+        - '- Section: 6.1 Engaging in a Simulation Exercise:':
+            subsections:
+            - 6.1a Purpose and Objectives of the Simulation
+            - 6.1b Roles and Responsibilities in the Simulation
+            - 6.1c Evaluation of the Simulation
+        - '- Section: 6.2 Understanding the Complexities of Highway Development:':
+            subsections:
+            - 6.2a Key Factors in Highway Development
+            - 6.2b Challenges in Highway Development
+            - 6.2c Strategies for Successful Highway Development
+    - '- Chapter 7: Transportation at the Eye of the Storm:':
+        sections:
+        - '- Section: 7.1 Implications of Transportation in Crisis Situations:':
+            subsections:
+            - 7.1a Role of Transportation in Crisis Response
+            - 7.1b Challenges in Transportation During Crises
+            - 7.1c Case Studies of Transportation in Crises
+        - '- Section: 7.2 Disaster Preparedness and Response:':
+            subsections:
+            - 7.2a Importance of Preparedness in Transportation
+            - 7.2b Key Elements of Disaster Response in Transportation
+            - 7.2c Case Studies of Successful Preparedness and Response
+    - '- Chapter 8: Public Participation and Entrepreneurship:':
+        sections:
+        - '- Section: 8.1 Innovations in Transportation and Environment Management:':
+            subsections:
+            - 8.1a Role of Innovation in Sustainable Transportation
+            - 8.1b Examples of Innovative Practices
+            - 8.1c Evaluation of Innovative Practices
+        - '- Section: 8.2 Engaging the Public in Decision-Making:':
+            subsections:
+            - 8.2a Importance of Public Participation
+            - 8.2b Strategies for Effective Public Engagement
+            - 8.2c Case Studies of Successful Public Engagement
+    - '- Chapter 9: Noise, NIMBY and NOPE: Airport Expansion and its Alternatives:':
+        sections:
+        - '- Section: 9.1 Assessing the Environmental Impact of Airport Expansion:':
+            subsections:
+            - 9.1a Key Environmental Impacts of Airport Expansion
+            - 9.1b Methods for Assessing Environmental Impacts
+            - 9.1c Strategies for Mitigating Environmental Impacts
+        - '- Section: 9.2 Exploring Alternative Solutions to Airport Expansion:':
+            subsections:
+            - 9.2a Need for Alternative Solutions
+            - 9.2b Examples of Alternative Solutions
+            - 9.2c Evaluation of Alternative Solutions
+        - '- Section: 9.3 Addressing Noise Pollution and Public Opposition:':
+            subsections:
+            - 9.3a Impact of Noise Pollution on Communities
+            - 9.3b Strategies for Reducing Noise Pollution
+            - 9.3c Addressing Public Opposition to Airport Expansion
+    - '- Chapter 10: Environmental Justice: The Equitable Distribution of Transportation Costs and Benefits:':
+        sections:
+        - '- Section: 10.1 Understanding the Concepts of Fair Allocation:':
+            subsections:
+            - 10.1a Definition of Fair Allocation
+            - 10.1b Principles of Fair Allocation in Transportation
+            - 10.1c Challenges in Achieving Fair Allocation
+        - '- Section: 10.2 Examining Disparities in Transportation Costs and Benefits:':
+            subsections:
+            - 10.2a Key Disparities in Transportation
+            - 10.2b Causes of Disparities
+            - 10.2c Strategies for Addressing Disparities
+    - '- Chapter 11: CAFE, ZEV and Hydrogen Cars:':
+        sections:
+        - '- Section: 11.1 Discussion of Policy Paper 3:':
+            subsections:
+            - 11.1a Purpose and Objectives of the Policy Paper
+            - 11.1b Key Issues Addressed in the Policy Paper
+            - 11.1c Evaluation of the Policy Paper
+        - '- Section: 11.2 Evaluating Fuel Efficiency Standards:':
+            subsections:
+            - 11.2a Current Fuel Efficiency Standards
+            - 11.2b Impact of Standards on Car Industry
+            - 11.2c Future Trends in Fuel Efficiency Standards
+        - '- Section: 11.3 Exploring Zero-Emission Vehicle Policies:':
+            subsections:
+            - 11.3a Definition of Zero-Emission Vehicles
+            - 11.3b Current Policies on Zero-Emission Vehicles
+            - 11.3c Impact of Policies on Car Industry and Environment
+        - '- Section: 11.4 Assessing the Potential of Hydrogen Cars:':
+            subsections:
+            - 11.4a Basics of Hydrogen Cars
+            - 11.4b Advantages and Disadvantages of Hydrogen Cars
+            - 11.4c Future Prospects of Hydrogen Cars
+    - '- Chapter 12: Global Climate Change and Global Equity Class Simulation:':
+        sections:
+        - '- Section: 12.1 Engaging in a Simulation Exercise:':
+            subsections:
+            - 12.1a Purpose and Objectives of the Simulation
+            - 12.1b Roles and Responsibilities in the Simulation
+            - 12.1c Evaluation of the Simulation
+        - '- Section: 12.2 Analyzing the Impact of Transportation on Climate Change:':
+            subsections:
+            - 12.2a Key Impacts of Transportation on Climate Change
+            - 12.2b Strategies for Reducing Transportation's Climate Impact
+            - 12.2c Case Studies of Successful Climate Impact Reduction
+        - '- Section: 12.3 Addressing Global Equity in Transportation Policies:':
+            subsections:
+            - 12.3a Importance of Global Equity in Transportation
+            - 12.3b Strategies for Achieving Global Equity
+            - 12.3c Case Studies of Successful Equity Policies
+    - '- Chapter 13: Sustainable Transportation in the 21st Century:':
+        sections:
+        - '- Section: 13.1 Examining Current and Future Trends in Transportation:':
+            subsections:
+            - 13.1a Key Current Trends in Transportation
+            - 13.1b Predicted Future Trends in Transportation
+            - 13.1c Impact of Trends on Sustainability
+        - '- Section: 13.2 Innovative Approaches to Achieving Sustainable Mobility:':
+            subsections:
+            - 13.2a Need for Innovative Approaches
+            - 13.2b Examples of Innovative Approaches
+            - 13.2c Evaluation of Innovative Approaches
+        - '- Section: 13.3 Technological Advancements and their Role in Sustainability:':
+            subsections:
+            - 13.3a Role of Technology in Sustainable Transportation
+            - 13.3b Examples of Technological Advancements
+            - 13.3c Evaluation of Technological Advancements
+    - '- Chapter 14: Transportation Policy and Environmental Limits:':
+        sections:
+        - '- Section: 14.1 Understanding Environmental Limits:':
+            subsections:
+            - 14.1a Definition of Environmental Limits
+            - 14.1b Impact of Transportation on Environmental Limits
+            - 14.1c Strategies for Respecting Environmental Limits
+        - '- Section: 14.2 Navigating the Path to Sustainable Mobility:':
+            subsections:
+            - 14.2a Importance of Sustainable Mobility
+            - 14.2b Key Elements of Sustainable Mobility
+            - 14.2c Case Studies of Successful Sustainable Mobility
+        - '- Section: 14.3 Policy Tools for Sustainable Mobility:':
+            subsections:
+            - 14.3a Role of Policy in Sustainable Mobility
+            - 14.3b Examples of Policy Tools
+            - 14.3c Evaluation of Policy Tools
+    - '- Chapter 15: Transportation and Urban Planning:':
+        sections:
+        - '- Section: 15.1 Role of Transportation in Urban Planning:':
+            subsections:
+            - 15.1a Importance of Transportation in Urban Planning
+            - 15.1b Key Considerations in Transportation Planning
+            - 15.1c Case Studies of Successful Transportation Planning
+        - '- Section: 15.2 Sustainable Urban Mobility:':
+            subsections:
+            - 15.2a Definition of Sustainable Urban Mobility
+            - 15.2b Key Elements of Sustainable Urban Mobility
+            - 15.2c Strategies for Achieving Sustainable Urban Mobility
+        - '- Section: 15.3 Urban Transportation and Quality of Life:':
+            subsections:
+            - 15.3a Impact of Transportation on Quality of Life
+            - 15.3b Strategies for Improving Quality of Life through Transportation
+            - 15.3c Case Studies of Successful Quality of Life Improvements
+    - '- Chapter 16: Transportation and Economic Development:':
+        sections:
+        - '- Section: 16.1 Role of Transportation in Economic Development:':
+            subsections:
+            - 16.1a Importance of Transportation in Economic Development
+            - 16.1b Key Considerations in Transportation and Economic Development
+            - 16.1c Case Studies of Successful Economic Development through Transportation
+        - '- Section: 16.2 Sustainable Economic Development through Transportation:':
+            subsections:
+            - 16.2a Definition of Sustainable Economic Development
+            - 16.2b Role of Transportation in Sustainable Economic Development
+            - 16.2c Strategies for Achieving Sustainable Economic Development
+        - '- Section: 16.3 Transportation and Job Creation:':
+            subsections:
+            - 16.3a Impact of Transportation on Job Creation
+            - 16.3b Strategies for Job Creation through Transportation
+            - 16.3c Case Studies of Successful Job Creation
+    - '- Chapter 17: Transportation and Public Health:':
+        sections:
+        - '- Section: 17.1 Impact of Transportation on Public Health:':
+            subsections:
+            - 17.1a Key Health Impacts of Transportation
+            - 17.1b Strategies for Reducing Negative Health Impacts
+            - 17.1c Case Studies of Successful Health Impact Reduction
+        - '- Section: 17.2 Promoting Active Transportation:':
+            subsections:
+            - 17.2a Definition of Active Transportation
+            - 17.2b Benefits of Active Transportation
+            - 17.2c Strategies for Promoting Active Transportation
+        - '- Section: 17.3 Transportation and Air Quality:':
+            subsections:
+            - 17.3a Impact of Transportation on Air Quality
+            - 17.3b Strategies for Improving Air Quality through Transportation
+            - 17.3c Case Studies of Successful Air Quality Improvement
+    - '- Chapter 18: Transportation and Social Equity:':
+        sections:
+        - '- Section: 18.1 Understanding Social Equity in Transportation:':
+            subsections:
+            - 18.1a Definition of Social Equity in Transportation
+            - 18.1b Key Considerations in Social Equity
+            - 18.1c Strategies for Achieving Social Equity
+        - '- Section: 18.2 Transportation and Accessibility:':
+            subsections:
+            - 18.2a Importance of Accessibility in Transportation
+            - 18.2b Strategies for Improving Accessibility
+            - 18.2c Case Studies of Successful Accessibility Improvements
+        - '- Section: 18.3 Transportation and Affordability:':
+            subsections:
+            - 18.3a Impact of Transportation on Affordability
+            - 18.3b Strategies for Improving Affordability through Transportation
+            - 18.3c Case Studies of Successful Affordability Improvements
+    - '- Chapter 19: Transportation and Climate Change:':
+        sections:
+        - '- Section: 19.1 Understanding the Impact of Transportation on Climate Change:':
+            subsections:
+            - 19.1a Key Impacts of Transportation on Climate Change
+            - 19.1b Strategies for Reducing Transportation's Climate Impact
+            - 19.1c Case Studies of Successful Climate Impact Reduction
+        - '- Section: 19.2 Promoting Low-Carbon Transportation:':
+            subsections:
+            - 19.2a Importance of Low-Carbon Transportation
+            - 19.2b Strategies for Promoting Low-Carbon Transportation
+            - 19.2c Case Studies of Successful Low-Carbon Transportation
+        - '- Section: 19.3 Transportation and Carbon Pricing:':
+            subsections:
+            - 19.3a Role of Carbon Pricing in Transportation
+            - 19.3b Strategies for Implementing Carbon Pricing
+            - 19.3c Case Studies of Successful Carbon Pricing
+    - '- Chapter 20: Future of Transportation:':
+        sections:
+        - '- Section: 20.1 Predicting Future Trends in Transportation:':
+            subsections:
+            - 20.1a Key Predicted Trends in Transportation
+            - 20.1b Impact of Trends on Sustainability
+            - 20.1c Strategies for Navigating Future Trends
+        - '- Section: 20.2 Role of Technology in the Future of Transportation:':
+            subsections:
+            - 20.2a Importance of Technology in Transportation
+            - 20.2b Predicted Technological Advancements in Transportation
+            - 20.2c Strategies for Leveraging Technology for Sustainable Transportation
+        - '- Section: 20.3 Preparing for the Future of Transportation:':
+            subsections:
+            - 20.3a Importance of Future Preparedness in Transportation
+            - 20.3b Strategies for Future Preparedness
+            - 20.3c Case Studies of Successful Future Preparedness

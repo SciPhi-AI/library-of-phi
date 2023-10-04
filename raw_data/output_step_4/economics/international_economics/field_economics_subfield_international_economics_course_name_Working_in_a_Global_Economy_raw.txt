@@ -1,0 +1,283 @@
+textbook: 
+"Working in a Global Economy: A Comprehensive Guide to Understanding the New Global Economy":
+
+chapters:
+- Chapter 1: Introduction: What is New in the 'New' Global Economy:
+sections:
+- Section: 1.1 The World is Flat:
+subsections:
+- 1.1a Definition of Globalization
+- 1.1b Historical Context of Globalization
+- 1.1c Impact of Globalization
+
+- Section: 1.2 Sinking Globalization:
+subsections:
+- 1.2a Challenges of Globalization
+- 1.2b Globalization and Inequality
+- 1.2c Future of Globalization
+
+- Chapter 2: Competing Interpretations of Globalization:
+sections:
+- Section: 2.1 The Globalization Perspective:
+subsections:
+- 2.1a Economic Perspective of Globalization
+- 2.1b Political Perspective of Globalization
+- 2.1c Social Perspective of Globalization
+
+- Section: 2.2 The National Perspective:
+subsections:
+- 2.2a Nationalism and Globalization
+- 2.2b Protectionism and Globalization
+- 2.2c National Identity and Globalization
+
+- Chapter 3: Globalization and Technology:
+sections:
+- Section: 3.1 Technological Factors in the International Division of Labor:
+subsections:
+- 3.1a Technology and Global Workforce
+- 3.1b Digital Divide
+- 3.1c Future of Work in Global Economy
+
+- Section: 3.2 Contenders for Different Segments of Work/Production:
+subsections:
+- 3.2a Global Supply Chains
+- 3.2b Outsourcing and Offshoring
+- 3.2c Role of Multinational Corporations
+
+- Chapter 4: Globalization and Culture:
+sections:
+- Section: 4.1 Cultural Factors in the International Division of Labor:
+subsections:
+- 4.1a Cultural Diversity and Globalization
+- 4.1b Cultural Homogenization
+- 4.1c Globalization and Language
+
+- Section: 4.2 Institutional Factors in the International Division of Labor:
+subsections:
+- 4.2a Role of International Institutions
+- 4.2b Global Governance
+- 4.2c Globalization and Legal Systems
+
+- Chapter 5: Globalization and Competition:
+sections:
+- Section: 5.1 Types of Competition in the Global Economy:
+subsections:
+- 5.1a Global Market Competition
+- 5.1b Competitive Advantage in Global Economy
+- 5.1c Globalization and Innovation
+
+- Section: 5.2 Market Forces and Competition:
+subsections:
+- 5.2a Role of Market Forces in Global Economy
+- 5.2b Globalization and Market Regulation
+- 5.2c Globalization and Consumer Behavior
+
+- Chapter 6: Globalization and Labor:
+sections:
+- Section: 6.1 Labor Mobility and Globalization:
+subsections:
+- 6.1a Global Labor Market
+- 6.1b Migration and Globalization
+- 6.1c Globalization and Labor Rights
+
+- Section: 6.2 Labor Market Flexibility:
+subsections:
+- 6.2a Labor Market Flexibility and Globalization
+- 6.2b Globalization and Job Security
+- 6.2c Globalization and Labor Standards
+
+- Chapter 7: Globalization and Trade:
+sections:
+- Section: 7.1 International Trade Patterns:
+subsections:
+- 7.1a Global Trade Flows
+- 7.1b Globalization and Trade Balance
+- 7.1c Globalization and Trade Policies
+
+- Section: 7.2 Trade Agreements and Organizations:
+subsections:
+- 7.2a Role of Trade Agreements in Global Economy
+- 7.2b International Trade Organizations
+- 7.2c Globalization and Trade Disputes
+
+- Chapter 8: Globalization and Finance:
+sections:
+- Section: 8.1 Global Financial Markets:
+subsections:
+- 8.1a Globalization and Financial Integration
+- 8.1b Global Financial Crises
+- 8.1c Globalization and Financial Regulation
+
+- Section: 8.2 International Capital Flows:
+subsections:
+- 8.2a Global Capital Flows
+- 8.2b Globalization and Financial Stability
+- 8.2c Globalization and Financial Inclusion
+
+- Chapter 9: Globalization and Development:
+sections:
+- Section: 9.1 Globalization and Economic Development:
+subsections:
+- 9.1a Globalization and Economic Growth
+- 9.1b Globalization and Poverty Reduction
+- 9.1c Globalization and Sustainable Development
+
+- Section: 9.2 Globalization and Social Development:
+subsections:
+- 9.2a Globalization and Social Inequality
+- 9.2b Globalization and Human Rights
+- 9.2c Globalization and Social Justice
+
+- Chapter 10: Globalization and Environment:
+sections:
+- Section: 10.1 Globalization and Environmental Degradation:
+subsections:
+- 10.1a Globalization and Climate Change
+- 10.1b Globalization and Biodiversity Loss
+- 10.1c Globalization and Resource Depletion
+
+- Section: 10.2 Globalization and Environmental Governance:
+subsections:
+- 10.2a Global Environmental Agreements
+- 10.2b Role of International Organizations in Environmental Governance
+- 10.2c Globalization and Environmental Justice
+
+- Chapter 11: Globalization and Health:
+sections:
+- Section: 11.1 Globalization and Health Inequalities:
+subsections:
+- 11.1a Global Health Disparities
+- 11.1b Globalization and Access to Healthcare
+- 11.1c Globalization and Health Outcomes
+
+- Section: 11.2 Globalization and Health Governance:
+subsections:
+- 11.2a Global Health Governance
+- 11.2b Role of International Organizations in Health Governance
+- 11.2c Globalization and Health Security
+
+- Chapter 12: Globalization and Education:
+sections:
+- Section: 12.1 Globalization and Education Inequalities:
+subsections:
+- 12.1a Global Education Disparities
+- 12.1b Globalization and Access to Education
+- 12.1c Globalization and Quality of Education
+
+- Section: 12.2 Globalization and Education Governance:
+subsections:
+- 12.2a Global Education Governance
+- 12.2b Role of International Organizations in Education Governance
+- 12.2c Globalization and Education Policies
+
+- Chapter 13: Globalization and Gender:
+sections:
+- Section: 13.1 Globalization and Gender Inequalities:
+subsections:
+- 13.1a Global Gender Disparities
+- 13.1b Globalization and Women's Rights
+- 13.1c Globalization and Gender Roles
+
+- Section: 13.2 Globalization and Gender Governance:
+subsections:
+- 13.2a Global Gender Governance
+- 13.2b Role of International Organizations in Gender Governance
+- 13.2c Globalization and Gender Policies
+
+- Chapter 14: Globalization and Conflict:
+sections:
+- Section: 14.1 Globalization and International Conflicts:
+subsections:
+- 14.1a Globalization and War
+- 14.1b Globalization and Terrorism
+- 14.1c Globalization and Peacebuilding
+
+- Section: 14.2 Globalization and Conflict Governance:
+subsections:
+- 14.2a Global Conflict Governance
+- 14.2b Role of International Organizations in Conflict Governance
+- 14.2c Globalization and Conflict Resolution
+
+- Chapter 15: Globalization and Governance:
+sections:
+- Section: 15.1 Globalization and Global Governance:
+subsections:
+- 15.1a Concept of Global Governance
+- 15.1b Global Governance Institutions
+- 15.1c Challenges of Global Governance
+
+- Section: 15.2 Globalization and National Governance:
+subsections:
+- 15.2a Impact of Globalization on National Governance
+- 15.2b Globalization and Sovereignty
+- 15.2c Globalization and Democracy
+
+- Chapter 16: Globalization and Human Rights:
+sections:
+- Section: 16.1 Globalization and Human Rights Violations:
+subsections:
+- 16.1a Global Human Rights Issues
+- 16.1b Globalization and Human Trafficking
+- 16.1c Globalization and Child Labor
+
+- Section: 16.2 Globalization and Human Rights Governance:
+subsections:
+- 16.2a Global Human Rights Governance
+- 16.2b Role of International Organizations in Human Rights Governance
+- 16.2c Globalization and Human Rights Advocacy
+
+- Chapter 17: Globalization and Migration:
+sections:
+- Section: 17.1 Globalization and International Migration:
+subsections:
+- 17.1a Global Migration Patterns
+- 17.1b Globalization and Refugees
+- 17.1c Globalization and Diasporas
+
+- Section: 17.2 Globalization and Migration Governance:
+subsections:
+- 17.2a Global Migration Governance
+- 17.2b Role of International Organizations in Migration Governance
+- 17.2c Globalization and Migration Policies
+
+- Chapter 18: Globalization and Urbanization:
+sections:
+- Section: 18.1 Globalization and Urban Growth:
+subsections:
+- 18.1a Global Urbanization Trends
+- 18.1b Globalization and Megacities
+- 18.1c Globalization and Urban Poverty
+
+- Section: 18.2 Globalization and Urban Governance:
+subsections:
+- 18.2a Global Urban Governance
+- 18.2b Role of International Organizations in Urban Governance
+- 18.2c Globalization and Urban Policies
+
+- Chapter 19: Globalization and Agriculture:
+sections:
+- Section: 19.1 Globalization and Agricultural Trade:
+subsections:
+- 19.1a Global Agricultural Trade Patterns
+- 19.1b Globalization and Food Security
+- 19.1c Globalization and Agricultural Policies
+
+- Section: 19.2 Globalization and Agricultural Governance:
+subsections:
+- 19.2a Global Agricultural Governance
+- 19.2b Role of International Organizations in Agricultural Governance
+- 19.2c Globalization and Agricultural Sustainability
+
+- Chapter 20: Globalization and Future:
+sections:
+- Section: 20.1 Future of Globalization:
+subsections:
+- 20.1a Predictions about Future of Globalization
+- 20.1b Globalization and Future of Work
+- 20.1c Globalization and Future of Environment
+
+- Section: 20.2 Globalization and Future Governance:
+subsections:
+- 20.2a Future of Global Governance
+- 20.2b Role of International Organizations in Future Governance
+- 20.2c Globalization and Future Policies

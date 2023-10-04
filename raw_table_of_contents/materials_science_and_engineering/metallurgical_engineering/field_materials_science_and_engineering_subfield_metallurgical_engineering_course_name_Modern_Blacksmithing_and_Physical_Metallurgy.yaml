@@ -1,0 +1,372 @@
+textbook:
+  'Modern Blacksmithing and Physical Metallurgy: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Blacksmithing:':
+        sections:
+        - '- Section: 1.1 History of Blacksmithing:':
+            subsections:
+            - '1.1a Introduction to Blacksmithing: An Ancient Craft'
+        - '- Section: 1.2 Tools and Equipment:':
+            subsections:
+            - 1.2a Essential Blacksmithing Tools
+        - '- Section: 1.3 Safety Precautions:':
+            subsections:
+            - 1.3a Safety Measures in the Blacksmith Shop
+        - '- Section: 1.4 Types of Forges:':
+            subsections:
+            - 1.4a Types of Forges and their Applications
+        - '- Section: 1.5 Basic Blacksmithing Techniques:':
+            subsections:
+            - 1.5a Mastering Basic Blacksmithing Techniques
+    - '- Chapter 2: Physical Metallurgy:':
+        sections:
+        - '- Section: 2.1 Crystal Structures:':
+            subsections:
+            - 2.1a Understanding Crystal Structures and their Effects on Properties
+        - '- Section: 2.2 Phase Diagrams:':
+            subsections:
+            - 2.2a Exploring Phase Diagrams for Alloy Design
+        - '- Section: 2.3 Alloying Elements:':
+            subsections:
+            - 2.3a Alloying Elements and their Influence on Material Properties
+        - '- Section: 2.4 Heat Treatment:':
+            subsections:
+            - 2.4a Heat Treatment Techniques for Strengthening and Transforming Metals
+        - '- Section: 2.5 Mechanical Properties of Metals:':
+            subsections:
+            - 2.5a Investigating Mechanical Properties of Metals
+        - '- Section: 2.6 Non-Ferrous Metals:':
+            subsections:
+            - 2.6a Exploring the World of Non-Ferrous Metals
+    - '- Chapter 3: Forging Techniques:':
+        sections:
+        - '- Section: 3.1 Types of Forging:':
+            subsections:
+            - 3.1a Traditional and Modern Forging Techniques
+        - '- Section: 3.2 Hammer Forging:':
+            subsections:
+            - 3.2a Mastering Hammer Forging Techniques
+        - '- Section: 3.3 Press Forging:':
+            subsections:
+            - '3.3a Precision and Power: Press Forging Fundamentals'
+        - '- Section: 3.4 Upsetting:':
+            subsections:
+            - '3.4a Upsetting: Forging Techniques for Creating Bulk Material'
+        - '- Section: 3.5 Drawing Out:':
+            subsections:
+            - '3.5a Drawing Out: Extending and Tapering Metal'
+        - '- Section: 3.6 Punching and Drifting:':
+            subsections:
+            - '3.6a Punching and Drifting: Creating Holes and Cavities in Forged Workpieces'
+    - '- Chapter 4: Welding and Joining:':
+        sections:
+        - '- Section: 4.1 Types of Welding:':
+            subsections:
+            - 4.1a Overview of Common Welding Techniques
+        - '- Section: 4.2 Forge Welding:':
+            subsections:
+            - '4.2a Forge Welding: Joining Metals Using Heat and Pressure'
+        - '- Section: 4.3 Gas Welding:':
+            subsections:
+            - '4.3a Gas Welding: Fusion Welding with Flame Heating'
+        - '- Section: 4.4 Arc Welding:':
+            subsections:
+            - '4.4a Arc Welding: Fusion Welding with Electric Arc'
+        - '- Section: 4.5 Brazing and Soldering:':
+            subsections:
+            - '4.5a Brazing and Soldering: Joining Metals with Filler Materials'
+        - '- Section: 4.6 Joining Techniques for Different Metals:':
+            subsections:
+            - 4.6a Joining Techniques for Specific Metal Combinations
+    - '- Chapter 5: Heat Treatment:':
+        sections:
+        - '- Section: 5.1 Annealing:':
+            subsections:
+            - '5.1a Annealing: Restoring Softness and Ductility to Metals'
+        - '- Section: 5.2 Quenching and Tempering:':
+            subsections:
+            - '5.2a Quenching and Tempering: Strengthening and Toughening Metals'
+        - '- Section: 5.3 Case Hardening:':
+            subsections:
+            - '5.3a Case Hardening: Creating a Hard, Wear-Resistant Surface Layer'
+        - '- Section: 5.4 Surface Hardening:':
+            subsections:
+            - '5.4a Surface Hardening: Enhancing Surface Characteristics of Metals'
+        - '- Section: 5.5 Austempering:':
+            subsections:
+            - '5.5a Austempering: Producing Strong and Ductile Bainite Structures'
+        - '- Section: 5.6 Martempering:':
+            subsections:
+            - '5.6a Martempering: Achieving Uniform Hardness and Toughness'
+    - '- Chapter 6: Metalworking Techniques:':
+        sections:
+        - '- Section: 6.1 Cutting and Shaping Metal:':
+            subsections:
+            - 6.1a Techniques for Cutting and Shaping Metal
+        - '- Section: 6.2 Cold Working:':
+            subsections:
+            - '6.2a Cold Working: Deforming Metal at Room Temperature'
+        - '- Section: 6.3 Hot Working:':
+            subsections:
+            - '6.3a Hot Working: Deforming Metal at Elevated Temperatures'
+        - '- Section: 6.4 Rolling:':
+            subsections:
+            - '6.4a Rolling: Reducing Thickness and Changing Shape of Metal'
+        - '- Section: 6.5 Drawing:':
+            subsections:
+            - '6.5a Drawing: Forming Metal into Tubular Shapes'
+        - '- Section: 6.6 Extrusion:':
+            subsections:
+            - '6.6a Extrusion: Creating Complex Cross-Sectional Profiles'
+        - '- Section: 6.7 Sheet Metal Forming:':
+            subsections:
+            - '6.7a Sheet Metal Forming: Bending, Stretching, and Punching Thin Metal
+              Sheets'
+        - '- Section: 6.8 Casting:':
+            subsections:
+            - '6.8a Casting: Transforming Molten Metal into Solid Shapes'
+    - '- Chapter 7: Metallurgical Testing:':
+        sections:
+        - '- Section: 7.1 Metallography:':
+            subsections:
+            - '7.1a Metallography: Studying the Microstructure of Metals'
+        - '- Section: 7.2 Mechanical Testing:':
+            subsections:
+            - '7.2a Mechanical Testing: Evaluating Mechanical Properties of Metals'
+        - '- Section: 7.3 Non-Destructive Testing:':
+            subsections:
+            - '7.3a Non-Destructive Testing: Examining Materials without Causing Damage'
+        - '- Section: 7.4 Chemical Analysis:':
+            subsections:
+            - '7.4a Chemical Analysis: Determining Chemical Composition of Metals'
+        - '- Section: 7.5 Microstructure Examination:':
+            subsections:
+            - '7.5a Microstructure Examination: Analyzing Microscopic Features of
+              Metals'
+        - '- Section: 7.6 Hardness Testing:':
+            subsections:
+            - '7.6a Hardness Testing: Measuring Material Hardness for Quality Control'
+    - '- Chapter 8: Blacksmithing Projects:':
+        sections:
+        - '- Section: 8.1 Bottle Opener:':
+            subsections:
+            - 8.1a Crafting a Unique Bottle Opener
+        - '- Section: 8.2 Three-Legged Table:':
+            subsections:
+            - 8.2a Building a Sturdy Three-Legged Table
+        - '- Section: 8.3 Metal Rose:':
+            subsections:
+            - 8.3a Creating a Lifelike Metal Rose
+        - '- Section: 8.4 Pineapple Twist:':
+            subsections:
+            - 8.4a Mastering the Pineapple Twist Technique
+        - '- Section: 8.5 Iron Heart:':
+            subsections:
+            - 8.5a Forging an Iron Heart Symbol
+        - '- Section: 8.6 Tools:':
+            subsections:
+            - 8.6a Essential Blacksmithing Tools and Their Uses
+    - '- Chapter 9: Advanced Blacksmithing Techniques:':
+        sections:
+        - '- Section: 9.1 Damascus Steel:':
+            subsections:
+            - 9.1a History and Characteristics of Damascus Steel
+            - 9.1b Techniques for Creating Damascus Steel
+            - 9.1c Applications of Damascus Steel
+        - '- Section: 9.2 Mokume Gane:':
+            subsections:
+            - 9.2a Introduction to Mokume Gane
+            - 9.2b Techniques for Creating Mokume Gane
+            - 9.2c Applications of Mokume Gane
+        - '- Section: 9.3 Pattern Welding:':
+            subsections:
+            - 9.3a Introduction to Pattern Welding
+            - 9.3b Techniques for Creating Pattern Welded Pieces
+            - 9.3c Applications of Pattern Welding
+    - '- Chapter 10: Metallurgy for Blacksmiths:':
+        sections:
+        - '- Section: 10.1 Understanding Steel Grades:':
+            subsections:
+            - 10.1a Introduction to Steel Grades
+            - 10.1b Understanding the SAE Steel Grading System
+            - 10.1c Choosing the Right Steel for Your Project
+        - '- Section: 10.2 Heat Treating for Blacksmiths:':
+            subsections:
+            - 10.2a Introduction to Heat Treating
+            - 10.2b Techniques for Heat Treating in the Blacksmith Shop
+            - 10.2c Applications of Heat Treating in Blacksmithing
+        - '- Section: 10.3 Metallurgy for Tool Making:':
+            subsections:
+            - 10.3a Introduction to Metallurgy for Tool Making
+            - 10.3b Choosing the Right Metal for Your Tools
+            - 10.3c Heat Treating for Tool Making
+    - '- Chapter 11: Blacksmithing for Art:':
+        sections:
+        - '- Section: 11.1 Sculptural Blacksmithing:':
+            subsections:
+            - 11.1a Introduction to Sculptural Blacksmithing
+            - 11.1b Techniques for Creating Metal Sculptures
+            - 11.1c Examples of Metal Sculpture
+        - '- Section: 11.2 Decorative Blacksmithing:':
+            subsections:
+            - 11.2a Introduction to Decorative Blacksmithing
+            - 11.2b Techniques for Creating Decorative Metalwork
+            - 11.2c Examples of Decorative Metalwork
+        - '- Section: 11.3 Blacksmithing for Jewelry:':
+            subsections:
+            - 11.3a Introduction to Blacksmithing for Jewelry
+            - 11.3b Techniques for Creating Metal Jewelry
+            - 11.3c Examples of Metal Jewelry
+    - '- Chapter 12: Blacksmithing for Practical Applications:':
+        sections:
+        - '- Section: 12.1 Blacksmithing for Agriculture:':
+            subsections:
+            - 12.1a Introduction to Blacksmithing for Agriculture
+            - 12.1b Techniques for Creating Agricultural Tools
+            - 12.1c Examples of Agricultural Tools
+        - '- Section: 12.2 Blacksmithing for Construction:':
+            subsections:
+            - 12.2a Introduction to Blacksmithing for Construction
+            - 12.2b Techniques for Creating Construction Tools
+            - 12.2c Examples of Construction Tools
+        - '- Section: 12.3 Blacksmithing for the Home:':
+            subsections:
+            - 12.3a Introduction to Blacksmithing for the Home
+            - 12.3b Techniques for Creating Home Goods
+            - 12.3c Examples of Home Goods
+    - '- Chapter 13: Advanced Metallurgy:':
+        sections:
+        - '- Section: 13.1 Advanced Alloying:':
+            subsections:
+            - 13.1a Introduction to Advanced Alloying
+            - 13.1b Techniques for Creating Advanced Alloys
+            - 13.1c Applications of Advanced Alloys
+        - '- Section: 13.2 Advanced Heat Treating:':
+            subsections:
+            - 13.2a Introduction to Advanced Heat Treating
+            - 13.2b Techniques for Advanced Heat Treating
+            - 13.2c Applications of Advanced Heat Treating
+        - '- Section: 13.3 Metallurgy for Advanced Applications:':
+            subsections:
+            - 13.3a Introduction to Metallurgy for Advanced Applications
+            - 13.3b Choosing the Right Metal for Advanced Applications
+            - 13.3c Heat Treating for Advanced Applications
+    - '- Chapter 14: Advanced Metalworking Techniques:':
+        sections:
+        - '- Section: 14.1 Advanced Cutting and Shaping:':
+            subsections:
+            - 14.1a Introduction to Advanced Cutting and Shaping
+            - 14.1b Techniques for Advanced Cutting and Shaping
+            - 14.1c Applications of Advanced Cutting and Shaping
+        - '- Section: 14.2 Advanced Cold Working:':
+            subsections:
+            - 14.2a Introduction to Advanced Cold Working
+            - 14.2b Techniques for Advanced Cold Working
+            - 14.2c Applications of Advanced Cold Working
+        - '- Section: 14.3 Advanced Hot Working:':
+            subsections:
+            - 14.3a Introduction to Advanced Hot Working
+            - 14.3b Techniques for Advanced Hot Working
+            - 14.3c Applications of Advanced Hot Working
+    - '- Chapter 15: Advanced Welding and Joining:':
+        sections:
+        - '- Section: 15.1 Advanced Forge Welding:':
+            subsections:
+            - 15.1a Introduction to Advanced Forge Welding
+            - 15.1b Techniques for Advanced Forge Welding
+            - 15.1c Applications of Advanced Forge Welding
+        - '- Section: 15.2 Advanced Gas Welding:':
+            subsections:
+            - 15.2a Introduction to Advanced Gas Welding
+            - 15.2b Techniques for Advanced Gas Welding
+            - 15.2c Applications of Advanced Gas Welding
+        - '- Section: 15.3 Advanced Arc Welding:':
+            subsections:
+            - 15.3a Introduction to Advanced Arc Welding
+            - 15.3b Techniques for Advanced Arc Welding
+            - 15.3c Applications of Advanced Arc Welding
+    - '- Chapter 16: Advanced Metallurgical Testing:':
+        sections:
+        - '- Section: 16.1 Advanced Metallography:':
+            subsections:
+            - 16.1a Introduction to Advanced Metallography
+            - 16.1b Techniques for Advanced Metallography
+            - 16.1c Applications of Advanced Metallography
+        - '- Section: 16.2 Advanced Mechanical Testing:':
+            subsections:
+            - 16.2a Introduction to Advanced Mechanical Testing
+            - 16.2b Techniques for Advanced Mechanical Testing
+            - 16.2c Applications of Advanced Mechanical Testing
+        - '- Section: 16.3 Advanced Non-Destructive Testing:':
+            subsections:
+            - 16.3a Introduction to Advanced Non-Destructive Testing
+            - 16.3b Techniques for Advanced Non-Destructive Testing
+            - 16.3c Applications of Advanced Non-Destructive Testing
+    - '- Chapter 17: Advanced Blacksmithing Projects:':
+        sections:
+        - '- Section: 17.1 Advanced Bottle Opener:':
+            subsections:
+            - 17.1a Crafting an Advanced Bottle Opener
+        - '- Section: 17.2 Advanced Three-Legged Table:':
+            subsections:
+            - 17.2a Building an Advanced Three-Legged Table
+        - '- Section: 17.3 Advanced Metal Rose:':
+            subsections:
+            - 17.3a Creating an Advanced Metal Rose
+        - '- Section: 17.4 Advanced Pineapple Twist:':
+            subsections:
+            - 17.4a Mastering the Advanced Pineapple Twist Technique
+        - '- Section: 17.5 Advanced Iron Heart:':
+            subsections:
+            - 17.5a Forging an Advanced Iron Heart Symbol
+    - '- Chapter 18: Advanced Metallurgy for Blacksmiths:':
+        sections:
+        - '- Section: 18.1 Advanced Understanding of Steel Grades:':
+            subsections:
+            - 18.1a Advanced Introduction to Steel Grades
+            - 18.1b Understanding the Advanced SAE Steel Grading System
+            - 18.1c Choosing the Right Steel for Your Advanced Project
+        - '- Section: 18.2 Advanced Heat Treating for Blacksmiths:':
+            subsections:
+            - 18.2a Advanced Introduction to Heat Treating
+            - 18.2b Techniques for Advanced Heat Treating in the Blacksmith Shop
+            - 18.2c Applications of Advanced Heat Treating in Blacksmithing
+        - '- Section: 18.3 Advanced Metallurgy for Tool Making:':
+            subsections:
+            - 18.3a Advanced Introduction to Metallurgy for Tool Making
+            - 18.3b Choosing the Right Metal for Your Advanced Tools
+            - 18.3c Advanced Heat Treating for Tool Making
+    - '- Chapter 19: Advanced Blacksmithing for Art:':
+        sections:
+        - '- Section: 19.1 Advanced Sculptural Blacksmithing:':
+            subsections:
+            - 19.1a Advanced Introduction to Sculptural Blacksmithing
+            - 19.1b Techniques for Creating Advanced Metal Sculptures
+            - 19.1c Examples of Advanced Metal Sculpture
+        - '- Section: 19.2 Advanced Decorative Blacksmithing:':
+            subsections:
+            - 19.2a Advanced Introduction to Decorative Blacksmithing
+            - 19.2b Techniques for Creating Advanced Decorative Metalwork
+            - 19.2c Examples of Advanced Decorative Metalwork
+        - '- Section: 19.3 Advanced Blacksmithing for Jewelry:':
+            subsections:
+            - 19.3a Advanced Introduction to Blacksmithing for Jewelry
+            - 19.3b Techniques for Creating Advanced Metal Jewelry
+            - 19.3c Examples of Advanced Metal Jewelry
+    - '- Chapter 20: Advanced Blacksmithing for Practical Applications:':
+        sections:
+        - '- Section: 20.1 Advanced Blacksmithing for Agriculture:':
+            subsections:
+            - 20.1a Advanced Introduction to Blacksmithing for Agriculture
+            - 20.1b Techniques for Creating Advanced Agricultural Tools
+            - 20.1c Examples of Advanced Agricultural Tools
+        - '- Section: 20.2 Advanced Blacksmithing for Construction:':
+            subsections:
+            - 20.2a Advanced Introduction to Blacksmithing for Construction
+            - 20.2b Techniques for Creating Advanced Construction Tools
+            - 20.2c Examples of Advanced Construction Tools
+        - '- Section: 20.3 Advanced Blacksmithing for the Home:':
+            subsections:
+            - 20.3a Advanced Introduction to Blacksmithing for the Home
+            - 20.3b Techniques for Creating Advanced Home Goods
+            - 20.3c Examples of Advanced Home Goods

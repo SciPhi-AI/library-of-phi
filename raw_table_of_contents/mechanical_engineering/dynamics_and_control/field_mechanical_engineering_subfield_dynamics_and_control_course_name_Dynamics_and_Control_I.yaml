@@ -1,0 +1,280 @@
+textbook:
+  'Dynamics and Control I Textbook":':
+    chapters:
+    - '- Chapter 1: Motion of a Single Particle:':
+        sections:
+        - '- Section: 1.1 Frames of Reference and Frame Notation:':
+            subsections:
+            - 1.1a Introduction to Frames of Reference
+            - 1.1b Understanding Frame Notation
+            - 1.1c Applications of Frame Notation
+        - '- Section: 1.2 Kinematics using First Principles:':
+            subsections:
+            - 1.2a Understanding Kinematics
+            - 1.2b Applying First Principles
+            - 1.2c Kinematics Problem Solving
+        - '- Section: 1.3 Pulley Problem:':
+            subsections:
+            - 1.3a Introduction to Pulley Problems
+            - 1.3b Solving Pulley Problems
+            - 1.3c Advanced Pulley Problems
+        - '- Section: 1.4 Angular Velocity:':
+            subsections:
+            - 1.4a Understanding Angular Velocity
+            - 1.4b Calculating Angular Velocity
+            - 1.4c Angular Velocity in Real World Applications
+        - '- Section: 1.5 Magic Formula:':
+            subsections:
+            - 1.5a Introduction to the Magic Formula
+            - 1.5b Applying the Magic Formula
+            - 1.5c Magic Formula Case Studies
+    - "- Chapter 2: Momentum and Newton\u2019s Laws:":
+        sections:
+        - '- Section: 2.1 Impulse:':
+            subsections:
+            - 2.1a Understanding Impulse
+            - 2.1b Calculating Impulse
+            - 2.1c Impulse in Real World Applications
+        - '- Section: 2.2 Skier Separation Problem:':
+            subsections:
+            - 2.2a Introduction to Skier Separation Problems
+            - 2.2b Solving Skier Separation Problems
+            - 2.2c Advanced Skier Separation Problems
+        - '- Section: 2.3 Dumbbell Problem:':
+            subsections:
+            - 2.3a Introduction to Dumbbell Problems
+            - 2.3b Solving Dumbbell Problems
+            - 2.3c Advanced Dumbbell Problems
+        - '- Section: 2.4 Multiple Particle Systems:':
+            subsections:
+            - 2.4a Understanding Multiple Particle Systems
+            - 2.4b Analyzing Multiple Particle Systems
+            - 2.4c Multiple Particle Systems in Real World Applications
+        - '- Section: 2.5 Rigid Bodies:':
+            subsections:
+            - 2.5a Introduction to Rigid Bodies
+            - 2.5b Analyzing Rigid Bodies
+            - 2.5c Rigid Bodies in Real World Applications
+        - '- Section: 2.6 Derivation of Torque = I*alpha:':
+            subsections:
+            - 2.6a Understanding Torque and Angular Acceleration
+            - 2.6b Deriving the Torque Equation
+            - 2.6c Applying the Torque Equation
+    - '- Chapter 3: Work-Energy Principle:':
+        sections:
+        - '- Section: 3.1 Three Cases:':
+            subsections:
+            - 3.1a Understanding the Work-Energy Principle
+            - 3.1b Applying the Work-Energy Principle
+            - 3.1c Work-Energy Principle Case Studies
+        - '- Section: 3.2 Rolling Disc Problem:':
+            subsections:
+            - 3.2a Introduction to Rolling Disc Problems
+            - 3.2b Solving Rolling Disc Problems
+            - 3.2c Advanced Rolling Disc Problems
+        - '- Section: 3.3 Exam 1 Recap:':
+            subsections:
+            - 3.3a Reviewing Key Concepts
+            - 3.3b Practice Problems
+            - 3.3c Exam Tips and Strategies
+        - '- Section: 3.4 Exam 1:':
+            subsections:
+            - 3.4a Exam Format and Expectations
+            - 3.4b Exam Review and Preparation
+            - 3.4c Post-Exam Reflection
+    - '- Chapter 4: Introduction to Lagrangian:':
+        sections:
+        - '- Section: 4.1 Generalized Coordinates:':
+            subsections:
+            - 4.1a Understanding Generalized Coordinates
+            - 4.1b Applying Generalized Coordinates
+            - 4.1c Generalized Coordinates in Real World Applications
+        - '- Section: 4.2 Lagrangian Derivation:':
+            subsections:
+            - 4.2a Understanding the Lagrangian
+            - 4.2b Deriving the Lagrangian
+            - 4.2c Applying the Lagrangian
+        - '- Section: 4.3 Generalized Forces:':
+            subsections:
+            - 4.3a Understanding Generalized Forces
+            - 4.3b Calculating Generalized Forces
+            - 4.3c Generalized Forces in Real World Applications
+        - '- Section: 4.4 Double Pendulum Problem:':
+            subsections:
+            - 4.4a Introduction to Double Pendulum Problems
+            - 4.4b Solving Double Pendulum Problems
+            - 4.4c Advanced Double Pendulum Problems
+    - '- Chapter 5: Helicopter Dynamics:':
+        sections:
+        - '- Section: 5.1 Exam 2:':
+            subsections:
+            - 5.1a Exam Format and Expectations
+            - 5.1b Exam Review and Preparation
+            - 5.1c Post-Exam Reflection
+        - '- Section: 5.2 Single DOF System:':
+            subsections:
+            - 5.2a Understanding Single DOF Systems
+            - 5.2b Analyzing Single DOF Systems
+            - 5.2c Single DOF Systems in Real World Applications
+        - '- Section: 5.3 Equilibrium:':
+            subsections:
+            - 5.3a Understanding Equilibrium
+            - 5.3b Analyzing Equilibrium
+            - 5.3c Equilibrium in Real World Applications
+        - '- Section: 5.4 Linearization:':
+            subsections:
+            - 5.4a Understanding Linearization
+            - 5.4b Applying Linearization
+            - 5.4c Linearization in Real World Applications
+        - '- Section: 5.5 Stability Analysis:':
+            subsections:
+            - 5.5a Understanding Stability
+            - 5.5b Performing Stability Analysis
+            - 5.5c Stability Analysis in Real World Applications
+    - '- Chapter 6: Free Response of a Damped Oscillator:':
+        sections:
+        - '- Section: 6.1 Free Response:':
+            subsections:
+            - 6.1a Understanding Free Response
+            - 6.1b Analyzing Free Response
+            - 6.1c Free Response in Real World Applications
+    - '- Chapter 7: Final Exam Review:':
+        sections:
+        - '- Section: 7.1 Final Exam:':
+            subsections:
+            - 7.1a Exam Format and Expectations
+            - 7.1b Exam Review and Preparation
+            - 7.1c Post-Exam Reflection
+    - '- Chapter 8: Problem Sets:':
+        sections:
+        - '- Section: 8.1 Problem Set 1:':
+            subsections:
+            - 8.1a Problem Set Overview
+            - 8.1b Problem Solving Strategies
+            - 8.1c Problem Set Solutions
+        - '- Section: 8.2 Problem Set 2:':
+            subsections:
+            - 8.2a Problem Set Overview
+            - 8.2b Problem Solving Strategies
+            - 8.2c Problem Set Solutions
+        - '- Section: 8.3 Problem Set 3:':
+            subsections:
+            - 8.3a Problem Set Overview
+            - 8.3b Problem Solving Strategies
+            - 8.3c Problem Set Solutions
+        - '- Section: 8.4 Problem Set 4:':
+            subsections:
+            - 8.4a Problem Set Overview
+            - 8.4b Problem Solving Strategies
+            - 8.4c Problem Set Solutions
+        - '- Section: 8.5 Problem Set 5:':
+            subsections:
+            - 8.5a Problem Set Overview
+            - 8.5b Problem Solving Strategies
+            - 8.5c Problem Set Solutions
+        - '- Section: 8.6 Problem Set 6:':
+            subsections:
+            - 8.6a Problem Set Overview
+            - 8.6b Problem Solving Strategies
+            - 8.6c Problem Set Solutions
+        - '- Section: 8.7 Problem Set 7:':
+            subsections:
+            - 8.7a Problem Set Overview
+            - 8.7b Problem Solving Strategies
+            - 8.7c Problem Set Solutions
+        - '- Section: 8.8 Problem Set 8:':
+            subsections:
+            - 8.8a Problem Set Overview
+            - 8.8b Problem Solving Strategies
+            - 8.8c Problem Set Solutions
+        - '- Section: 8.9 Problem Set 9:':
+            subsections:
+            - 8.9a Problem Set Overview
+            - 8.9b Problem Solving Strategies
+            - 8.9c Problem Set Solutions
+        - '- Section: 8.10 Problem Set 10:':
+            subsections:
+            - 8.10a Problem Set Overview
+            - 8.10b Problem Solving Strategies
+            - 8.10c Problem Set Solutions
+    - '- Chapter 9: Exams:':
+        sections:
+        - '- Section: 9.1 Benevolent Quiz with Prerequisites Check:':
+            subsections:
+            - 9.1a Quiz Format and Expectations
+            - 9.1b Quiz Review and Preparation
+            - 9.1c Post-Quiz Reflection
+        - '- Section: 9.2 Exam 1 from Fall 2006:':
+            subsections:
+            - 9.2a Exam Format and Expectations
+            - 9.2b Exam Review and Preparation
+            - 9.2c Post-Exam Reflection
+        - '- Section: 9.3 Exam 2 from Fall 2006:':
+            subsections:
+            - 9.3a Exam Format and Expectations
+            - 9.3b Exam Review and Preparation
+            - 9.3c Post-Exam Reflection
+        - '- Section: 9.4 Final Exam from Fall 2006:':
+            subsections:
+            - 9.4a Exam Format and Expectations
+            - 9.4b Exam Review and Preparation
+            - 9.4c Post-Exam Reflection
+        - '- Section: 9.5 Exam 1:':
+            subsections:
+            - 9.5a Exam Format and Expectations
+            - 9.5b Exam Review and Preparation
+            - 9.5c Post-Exam Reflection
+        - '- Section: 9.6 Exams 2:':
+            subsections:
+            - 9.6a Exam Format and Expectations
+            - 9.6b Exam Review and Preparation
+            - 9.6c Post-Exam Reflection
+        - '- Section: 9.7 Final Exam:':
+            subsections:
+            - 9.7a Exam Format and Expectations
+            - 9.7b Exam Review and Preparation
+            - 9.7c Post-Exam Reflection
+    - '- Chapter 10: Advanced Topics in Dynamics and Control:':
+        sections:
+        - '- Section: 10.1 Nonlinear Systems:':
+            subsections:
+            - 10.1a Understanding Nonlinear Systems
+            - 10.1b Analyzing Nonlinear Systems
+            - 10.1c Nonlinear Systems in Real World Applications
+        - '- Section: 10.2 Control Systems:':
+            subsections:
+            - 10.2a Introduction to Control Systems
+            - 10.2b Designing Control Systems
+            - 10.2c Control Systems in Real World Applications
+        - '- Section: 10.3 Robotics:':
+            subsections:
+            - 10.3a Introduction to Robotics
+            - 10.3b Dynamics and Control in Robotics
+            - 10.3c Robotics in Real World Applications
+        - '- Section: 10.4 Aerospace Applications:':
+            subsections:
+            - 10.4a Introduction to Aerospace Applications
+            - 10.4b Dynamics and Control in Aerospace
+            - 10.4c Aerospace Applications in Real World Scenarios
+    - '- Chapter 11: Review and Further Study:':
+        sections:
+        - '- Section: 11.1 Course Review:':
+            subsections:
+            - 11.1a Reviewing Key Concepts
+            - 11.1b Practice Problems
+            - 11.1c Exam Tips and Strategies
+        - '- Section: 11.2 Further Study:':
+            subsections:
+            - 11.2a Recommended Reading
+            - 11.2b Online Resources
+            - 11.2c Continuing Education Opportunities
+        - '- Section: 11.3 Career Opportunities:':
+            subsections:
+            - 11.3a Careers in Dynamics and Control
+            - 11.3b Preparing for a Career in Dynamics and Control
+            - 11.3c Real World Applications of Dynamics and Control
+        - '- Section: 11.4 Final Thoughts:':
+            subsections:
+            - 11.4a Reflection on the Course
+            - 11.4b Applying Course Concepts
+            - 11.4c Looking Forward

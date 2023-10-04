@@ -1,0 +1,141 @@
+textbook:
+  'Comprehensive Guide to Organic Chemistry":':
+    chapters:
+    - '- Chapter 1: Introduction to Organic Chemistry:':
+        sections:
+        - '- Section: 1.1 Lewis Bonding:':
+            subsections:
+            - 1.1a Review of Lewis Bonding
+            - 1.1b Resonance
+    - '- Chapter 2: Molecular Structure and Bonding:':
+        sections:
+        - '- Section: 2.1 Molecular Orbital Theory and Hybridization:':
+            subsections:
+            - 2.1a Molecular Orbital Theory
+            - 2.1b Hybridization
+        - '- Section: 2.2 Conformational Analysis:':
+            subsections: []
+    - '- Chapter 3: Alkanes and Alkyl Halides:':
+        sections:
+        - '- Section: 3.1 Acidity:':
+            subsections: []
+        - '- Section: 3.2 Bond Lengths and Strengths:':
+            subsections: []
+        - '- Section: 3.3 Alkanes:':
+            subsections: []
+    - '- Chapter 4: Stereochemistry:':
+        sections:
+        - '- Section: 4.1 Stereochemistry:':
+            subsections: []
+    - '- Chapter 5: Free Radical Reactions and Kinetics:':
+        sections:
+        - '- Section: 5.1 Free Radical Reactions:':
+            subsections: []
+        - '- Section: 5.2 Thermodynamics:':
+            subsections: []
+        - '- Section: 5.3 Kinetics:':
+            subsections: []
+    - '- Chapter 6: Substitution Reactions of Alkyl Halides:':
+        sections:
+        - '- Section: 6.1 Substitution Reactions of Alkyl Halides SN2:':
+            subsections: []
+        - '- Section: 6.2 Substitution Reactions of Alkyl Halides SN1:':
+            subsections: []
+    - '- Chapter 7: Elimination Reactions of Alkyl Halides:':
+        sections:
+        - '- Section: 7.1 Elimination Reactions of Alkyl Halides E1:':
+            subsections: []
+        - '- Section: 7.2 Elimination Reactions of Alkyl Halides E2:':
+            subsections: []
+    - '- Chapter 8: Addition Reactions of Alkenes:':
+        sections:
+        - '- Section: 8.1 The Alkene Double Bond: A Focus of Reactivity:':
+            subsections:
+            - 8.1a Polar Addition Reactions
+            - 8.1b Concerted Addition Reactions
+    - '- Chapter 9: Alkynes:':
+        sections:
+        - '- Section: 9.1 ALKYNES: Structure and Bonding:':
+            subsections: []
+        - '- Section: 9.2 Introduction to the Alkyne Triple Bond:':
+            subsections: []
+    - '- Chapter 10: Aromatic Compounds:':
+        sections:
+        - '- Section: 10.1 Directing Effects in Electrophilic Aromatic Substitution:':
+            subsections: []
+    - '- Chapter 11: Carbonyl Compounds:':
+        sections:
+        - '- Section: 11.1 Carbonyl Reactivity at the Alpha C-H:':
+            subsections: []
+    - '- Chapter 12: Alcohols and Ethers:':
+        sections:
+        - '- Section: 12.1 Structure and Properties of Alcohols:':
+            subsections: []
+        - '- Section: 12.2 Reactions of Alcohols:':
+            subsections: []
+        - '- Section: 12.3 Ethers and Epoxides:':
+            subsections: []
+    - '- Chapter 13: Aldehydes and Ketones:':
+        sections:
+        - '- Section: 13.1 Structure and Properties of Aldehydes and Ketones:':
+            subsections: []
+        - '- Section: 13.2 Reactions of Aldehydes and Ketones:':
+            subsections: []
+        - '- Section: 13.3 Carboxylic Acids and Derivatives:':
+            subsections: []
+    - '- Chapter 14: Amines:':
+        sections:
+        - '- Section: 14.1 Structure and Properties of Amines:':
+            subsections: []
+        - '- Section: 14.2 Reactions of Amines:':
+            subsections: []
+        - '- Section: 14.3 Synthesis of Amines:':
+            subsections: []
+    - '- Chapter 15: Spectroscopy:':
+        sections:
+        - '- Section: 15.1 Introduction to Spectroscopy:':
+            subsections: []
+        - '- Section: 15.2 Infrared Spectroscopy:':
+            subsections: []
+        - '- Section: 15.3 Nuclear Magnetic Resonance Spectroscopy:':
+            subsections: []
+    - '- Chapter 16: Polymers:':
+        sections:
+        - '- Section: 16.1 Introduction to Polymers:':
+            subsections: []
+        - '- Section: 16.2 Polymerization:':
+            subsections: []
+        - '- Section: 16.3 Types of Polymers:':
+            subsections: []
+    - '- Chapter 17: Biochemistry:':
+        sections:
+        - '- Section: 17.1 Carbohydrates:':
+            subsections: []
+        - '- Section: 17.2 Lipids:':
+            subsections: []
+        - '- Section: 17.3 Proteins:':
+            subsections: []
+    - '- Chapter 18: Organic Reactions:':
+        sections:
+        - '- Section: 18.1 Substitution Reactions:':
+            subsections: []
+        - '- Section: 18.2 Addition Reactions:':
+            subsections: []
+        - '- Section: 18.3 Elimination Reactions:':
+            subsections: []
+    - '- Chapter 19: Organic Synthesis:':
+        sections:
+        - '- Section: 19.1 Retrosynthetic Analysis:':
+            subsections: []
+        - '- Section: 19.2 Synthetic Strategies:':
+            subsections: []
+        - '- Section: 19.3 Protecting Groups:':
+            subsections: []
+    - '- Chapter 20: Heterocyclic Compounds:':
+        sections:
+        - '- Section: 20.1 Introduction to Heterocyclic Compounds:':
+            subsections: []
+        - '- Section: 20.2 Reactions of Heterocyclic Compounds:':
+            subsections: []
+        - '- Section: 20.3 Synthesis of Heterocyclic Compounds:':
+            subsections: []

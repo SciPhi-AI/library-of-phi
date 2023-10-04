@@ -1,0 +1,159 @@
+textbook:
+  'Product Design and Development: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course logistics and project descriptions':
+            subsections: []
+    - '- Chapter 2: The Product Development Process: "IDEO":':
+        sections:
+        - '- Section: 2.1 IDEO''s process, organization, and management':
+            subsections: []
+        - '- Section: 2.2 Acceptance of the Visor project':
+            subsections: []
+        - '- Section: 2.3 Negotiating a longer lead time':
+            subsections: []
+        - '- Section: 2.4 IDEO''s success stories and case studies':
+            subsections: []
+    - '- Chapter 3: Project Proposals:':
+        sections:
+        - '- Section: 3.1 50-second presentations':
+            subsections: []
+        - '- Section: 3.2 Writing effective project proposals':
+            subsections: []
+        - '- Section: 3.3 Pitching project ideas to stakeholders':
+            subsections: []
+    - '- Chapter 4: Identifying Customer Needs: "Sweetwater":':
+        sections:
+        - '- Section: 4.1 Analysis of customer needs':
+            subsections: []
+        - '- Section: 4.2 Conducting market research':
+            subsections: []
+        - '- Section: 4.3 Gathering user feedback':
+            subsections: []
+    - '- Chapter 5: Customer Preferences: Conjoint Analysis:':
+        sections:
+        - '- Section: 5.1 Conjoint analysis for understanding customer preferences':
+            subsections: []
+        - '- Section: 5.2 Designing effective surveys for preference analysis':
+            subsections: []
+        - '- Section: 5.3 Analyzing and interpreting conjoint data':
+            subsections: []
+    - '- Chapter 6: Industrial Design:':
+        sections:
+        - '- Section: 6.1 Principles and techniques of industrial design':
+            subsections: []
+        - '- Section: 6.2 Form, function, and aesthetics in product design':
+            subsections: []
+        - '- Section: 6.3 Ergonomics and user-centered design':
+            subsections: []
+    - '- Chapter 7: Product Specifications and Concept Generation:':
+        sections:
+        - '- Section: 7.1 Defining product specifications':
+            subsections: []
+        - '- Section: 7.2 Generating product concepts through brainstorming and ideation':
+            subsections: []
+        - '- Section: 7.3 Applying design thinking to concept development':
+            subsections: []
+        - '- Section: 7.4 Creating user personas for concept creation':
+            subsections: []
+    - '- Chapter 8: Prototyping:':
+        sections:
+        - '- Section: 8.1 Prototyping techniques and methods':
+            subsections: []
+        - '- Section: 8.2 Rapid prototyping and 3D printing':
+            subsections: []
+        - '- Section: 8.3 Usability testing with prototypes':
+            subsections: []
+    - '- Chapter 9: Concept Selection:':
+        sections:
+        - '- Section: 9.1 Criteria and methods for selecting product concepts':
+            subsections: []
+        - '- Section: 9.2 Evaluating and scoring concept alternatives':
+            subsections: []
+        - '- Section: 9.3 Concept testing and validation':
+            subsections: []
+    - '- Chapter 10: Faculty Project Consulting:':
+        sections:
+        - '- Section: 10.1 Consulting with faculty on project development':
+            subsections: []
+        - '- Section: 10.2 Leveraging faculty expertise for project success':
+            subsections: []
+    - '- Chapter 11: Intellectual Property:':
+        sections:
+        - '- Section: 11.1 Overview of intellectual property rights':
+            subsections: []
+        - '- Section: 11.2 Patents, trademarks, and copyrights in product design':
+            subsections: []
+        - '- Section: 11.3 Protecting intellectual property in a global marketplace':
+            subsections: []
+    - '- Chapter 12: Peer Concept Review:':
+        sections:
+        - '- Section: 12.1 Reviewing and providing feedback on peers'' product concepts':
+            subsections: []
+        - '- Section: 12.2 Conducting effective peer evaluations':
+            subsections: []
+        - '- Section: 12.3 Collaborative idea refinement':
+            subsections: []
+    - '- Chapter 13: Product Architecture:':
+        sections:
+        - '- Section: 13.1 Designing product architecture':
+            subsections: []
+        - '- Section: 13.2 Modular and scalable design principles':
+            subsections: []
+        - '- Section: 13.3 Integrating hardware and software components':
+            subsections: []
+    - '- Chapter 14: Forecasting Demand for New Products:':
+        sections:
+        - '- Section: 14.1 Methods for predicting product demand':
+            subsections: []
+        - '- Section: 14.2 Market research and demand forecasting models':
+            subsections: []
+        - '- Section: 14.3 Analyzing market trends and consumer behavior':
+            subsections: []
+    - '- Chapter 15: Global Manufacturing and Costing:':
+        sections:
+        - '- Section: 15.1 Considerations for global manufacturing and costing':
+            subsections: []
+        - '- Section: 15.2 Supply chain management and international logistics':
+            subsections: []
+        - '- Section: 15.3 Cost optimization and value engineering':
+            subsections: []
+    - '- Chapter 16: Design for Manufacturing:':
+        sections:
+        - '- Section: 16.1 Designing products for efficient manufacturing':
+            subsections: []
+        - '- Section: 16.2 Design for assembly and design for maintenance':
+            subsections: []
+        - '- Section: 16.3 Designing for sustainability and life cycle assessment':
+            subsections: []
+    - '- Chapter 17: Trends and Tools in Product Development:':
+        sections:
+        - '- Section: 17.1 Current trends and tools in product development':
+            subsections: []
+        - '- Section: 17.2 Emerging technologies and their impact on product design':
+            subsections: []
+        - '- Section: 17.3 Collaborative design tools and virtual prototyping':
+            subsections: []
+    - '- Chapter 18: Final Meeting Project Presentations:':
+        sections:
+        - '- Section: 18.1 Presenting final project outcomes':
+            subsections: []
+        - '- Section: 18.2 Effective storytelling and visual communication':
+            subsections: []
+        - '- Section: 18.3 Pitching products to investors and stakeholders':
+            subsections: []
+    - '- Chapter 19: Product Design and Development Resources:':
+        sections:
+        - '- Section: 19.1 Recommended books and articles':
+            subsections: []
+        - '- Section: 19.2 Online communities and forums for product designers':
+            subsections: []
+        - '- Section: 19.3 Professional organizations and conferences':
+            subsections: []
+    - '- Chapter 20: Glossary of Product Design Terms:':
+        sections:
+        - '- Section: 20.1 Key terms and definitions in product design and development':
+            subsections: []
+        - '- Section: 20.2 Common acronyms and industry jargon':
+            subsections: []

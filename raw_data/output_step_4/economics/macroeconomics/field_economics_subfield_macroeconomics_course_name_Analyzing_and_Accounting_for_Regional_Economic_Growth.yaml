@@ -1,0 +1,343 @@
+textbook:
+  'Analyzing and Accounting for Regional Economic Growth":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Historical View of Regional Economics:':
+            subsections:
+            - 1.1a Definition of Regional Economics
+            - 1.1b Importance of Regional Economics
+            - 1.1c Historical Perspective
+        - '- Section: 1.2 Neoclassical Regional Growth and Location Theories, Part 1:':
+            subsections:
+            - 1.2a Introduction to Neoclassical Theories
+            - 1.2b Regional Growth Theories
+            - 1.2c Location Theories
+        - '- Section: 1.3 Neoclassical Regional Growth and Location Theories, Part 2:':
+            subsections:
+            - 1.3a Advanced Concepts in Neoclassical Theories
+            - 1.3b Case Studies
+            - 1.3c Critiques and Limitations
+    - '- Chapter 2: Alternative Regional Growth and Location Theories:':
+        sections:
+        - '- Section: 2.1 Alternative Regional Growth Theories:':
+            subsections:
+            - 2.1a Introduction to Alternative Theories
+            - 2.1b Comparative Analysis
+            - 2.1c Case Studies
+        - '- Section: 2.2 Alternative Location Theories:':
+            subsections:
+            - 2.2a Introduction to Alternative Theories
+            - 2.2b Comparative Analysis
+            - 2.2c Case Studies
+        - '- Section: 2.3 Evaluation of Alternative Theories:':
+            subsections:
+            - 2.3a Strengths and Weaknesses
+            - 2.3b Practical Applications
+            - 2.3c Future Directions
+    - '- Chapter 3: Accounting for the Economic Base of a Region:':
+        sections:
+        - '- Section: 3.1 Understanding the Economic Base:':
+            subsections:
+            - 3.1a Definition of Economic Base
+            - 3.1b Components of Economic Base
+            - 3.1c Importance of Economic Base
+        - '- Section: 3.2 Economic Base Analysis:':
+            subsections:
+            - 3.2a Introduction to Economic Base Analysis
+            - 3.2b Methods of Economic Base Analysis
+            - 3.2c Case Studies
+        - '- Section: 3.3 Implications of Economic Base Analysis:':
+            subsections:
+            - 3.3a Economic Development Strategies
+            - 3.3b Policy Implications
+            - 3.3c Limitations and Critiques
+    - '- Chapter 4: Globalization and Factor Mobility:':
+        sections:
+        - '- Section: 4.1 Influence of Globalization on Factor Mobility:':
+            subsections:
+            - 4.1a Definition of Globalization
+            - 4.1b Globalization and Factor Mobility
+            - 4.1c Case Studies
+        - '- Section: 4.2 Globalization and Regional Development:':
+            subsections:
+            - 4.2a Globalization and Economic Growth
+            - 4.2b Globalization and Income Inequality
+            - 4.2c Globalization and Environmental Impact
+        - '- Section: 4.3 Policy Responses to Globalization:':
+            subsections:
+            - 4.3a Trade Policies
+            - 4.3b Labor Market Policies
+            - 4.3c Environmental Policies
+    - '- Chapter 5: Deindustrialization and Restructuring:':
+        sections:
+        - '- Section: 5.1 Understanding Deindustrialization:':
+            subsections:
+            - 5.1a Definition of Deindustrialization
+            - 5.1b Causes of Deindustrialization
+            - 5.1c Impacts of Deindustrialization
+        - '- Section: 5.2 Economic Restructuring:':
+            subsections:
+            - 5.2a Definition of Economic Restructuring
+            - 5.2b Causes of Economic Restructuring
+            - 5.2c Impacts of Economic Restructuring
+        - '- Section: 5.3 Policy Responses to Deindustrialization and Restructuring:':
+            subsections:
+            - 5.3a Industrial Policies
+            - 5.3b Labor Market Policies
+            - 5.3c Regional Development Policies
+    - '- Chapter 6: Agglomeration and Dispersal Economies:':
+        sections:
+        - '- Section: 6.1 Agglomeration Economies, Part 1:':
+            subsections:
+            - 6.1a Definition of Agglomeration Economies
+            - 6.1b Causes of Agglomeration Economies
+            - 6.1c Impacts of Agglomeration Economies
+        - '- Section: 6.2 Agglomeration Economies, Part 2:':
+            subsections:
+            - 6.2a Case Studies
+            - 6.2b Policy Implications
+            - 6.2c Future Directions
+        - '- Section: 6.3 Dispersal Economies:':
+            subsections:
+            - 6.3a Definition of Dispersal Economies
+            - 6.3b Causes of Dispersal Economies
+            - 6.3c Impacts of Dispersal Economies
+    - '- Chapter 7: Spatial Dispersal of Innovation:':
+        sections:
+        - '- Section: 7.1 Spatial Dispersal of Innovation, Part 1:':
+            subsections:
+            - 7.1a Definition of Innovation
+            - 7.1b Spatial Aspects of Innovation
+            - 7.1c Case Studies
+        - '- Section: 7.2 Spatial Dispersal of Innovation, Part 2:':
+            subsections:
+            - 7.2a Innovation Systems
+            - 7.2b Innovation Clusters
+            - 7.2c Innovation and Regional Development
+        - '- Section: 7.3 Spatial Dispersal of Innovation, Part 3:':
+            subsections:
+            - 7.3a Policy Implications
+            - 7.3b Future Directions
+            - 7.3c Limitations and Critiques
+    - '- Chapter 8: Regional Economic Accounting Structures:':
+        sections:
+        - '- Section: 8.1 Overview of Regional Economic Accounting Structures:':
+            subsections:
+            - 8.1a Definition of Economic Accounting
+            - 8.1b Types of Economic Accounting Structures
+            - 8.1c Importance of Economic Accounting
+        - '- Section: 8.2 Economic Accounting and Regional Development:':
+            subsections:
+            - 8.2a Economic Accounting and Economic Growth
+            - 8.2b Economic Accounting and Income Distribution
+            - 8.2c Economic Accounting and Environmental Impact
+        - '- Section: 8.3 Policy Implications of Economic Accounting:':
+            subsections:
+            - 8.3a Economic Policies
+            - 8.3b Social Policies
+            - 8.3c Environmental Policies
+    - '- Chapter 9: Uses of Accounts:':
+        sections:
+        - '- Section: 9.1 Uses of Accounts: Linkage Analyses:':
+            subsections:
+            - 9.1a Definition of Linkage Analysis
+            - 9.1b Methods of Linkage Analysis
+            - 9.1c Case Studies
+        - '- Section: 9.2 Social Accounting Matrices: Environmental and Social Multipliers:':
+            subsections:
+            - 9.2a Definition of Social Accounting Matrices
+            - 9.2b Environmental Multipliers
+            - 9.2c Social Multipliers
+        - '- Section: 9.3 Policy Implications of Linkage Analyses and Social Accounting Matrices:':
+            subsections:
+            - 9.3a Economic Policies
+            - 9.3b Social Policies
+            - 9.3c Environmental Policies
+    - '- Chapter 10: Price Indices:':
+        sections:
+        - '- Section: 10.1 Understanding Price Indices:':
+            subsections:
+            - 10.1a Definition of Price Indices
+            - 10.1b Types of Price Indices
+            - 10.1c Importance of Price Indices
+        - '- Section: 10.2 Price Indices and Regional Development:':
+            subsections:
+            - 10.2a Price Indices and Economic Growth
+            - 10.2b Price Indices and Income Distribution
+            - 10.2c Price Indices and Inflation
+        - '- Section: 10.3 Policy Implications of Price Indices:':
+            subsections:
+            - 10.3a Monetary Policies
+            - 10.3b Fiscal Policies
+            - 10.3c Trade Policies
+    - '- Chapter 11: Shift-share Analyses:':
+        sections:
+        - '- Section: 11.1 Understanding Shift-share Analyses:':
+            subsections:
+            - 11.1a Definition of Shift-share Analysis
+            - 11.1b Methods of Shift-share Analysis
+            - 11.1c Case Studies
+        - '- Section: 11.2 Shift-share Analyses and Regional Development:':
+            subsections:
+            - 11.2a Shift-share Analysis and Economic Growth
+            - 11.2b Shift-share Analysis and Employment
+            - 11.2c Shift-share Analysis and Industry Structure
+        - '- Section: 11.3 Policy Implications of Shift-share Analyses:':
+            subsections:
+            - 11.3a Economic Policies
+            - 11.3b Labor Market Policies
+            - 11.3c Industrial Policies
+    - '- Chapter 12: Determinants of City and Regional Growth:':
+        sections:
+        - '- Section: 12.1 Understanding City and Regional Growth:':
+            subsections:
+            - 12.1a Definition of City and Regional Growth
+            - 12.1b Determinants of City and Regional Growth
+            - 12.1c Case Studies
+        - '- Section: 12.2 City and Regional Growth and Development:':
+            subsections:
+            - 12.2a City and Regional Growth and Economic Development
+            - 12.2b City and Regional Growth and Social Development
+            - 12.2c City and Regional Growth and Environmental Impact
+        - '- Section: 12.3 Policy Implications of City and Regional Growth:':
+            subsections:
+            - 12.3a Economic Policies
+            - 12.3b Social Policies
+            - 12.3c Environmental Policies
+    - '- Chapter 13: Regional Economics and Energy:':
+        sections:
+        - '- Section: 13.1 Understanding Regional Economics and Energy:':
+            subsections:
+            - 13.1a Definition of Energy Economics
+            - 13.1b Regional Aspects of Energy Economics
+            - 13.1c Case Studies
+        - '- Section: 13.2 Regional Economics and Energy Development:':
+            subsections:
+            - 13.2a Energy Development and Economic Growth
+            - 13.2b Energy Development and Social Development
+            - 13.2c Energy Development and Environmental Impact
+        - '- Section: 13.3 Policy Implications of Regional Economics and Energy:':
+            subsections:
+            - 13.3a Energy Policies
+            - 13.3b Economic Policies
+            - 13.3c Environmental Policies
+    - '- Chapter 14: Regional Economics Disasters:':
+        sections:
+        - '- Section: 14.1 Understanding Regional Economics Disasters:':
+            subsections:
+            - 14.1a Definition of Economic Disasters
+            - 14.1b Types of Economic Disasters
+            - 14.1c Case Studies
+        - '- Section: 14.2 Regional Economics Disasters and Development:':
+            subsections:
+            - 14.2a Economic Disasters and Economic Development
+            - 14.2b Economic Disasters and Social Development
+            - 14.2c Economic Disasters and Environmental Impact
+        - '- Section: 14.3 Policy Responses to Regional Economics Disasters:':
+            subsections:
+            - 14.3a Disaster Management Policies
+            - 14.3b Economic Policies
+            - 14.3c Social Policies
+    - '- Chapter 15: Student Presentations:':
+        sections:
+        - '- Section: 15.1 Understanding Student Presentations:':
+            subsections:
+            - 15.1a Definition of Student Presentations
+            - 15.1b Importance of Student Presentations
+            - 15.1c Case Studies
+        - '- Section: 15.2 Student Presentations and Learning:':
+            subsections:
+            - 15.2a Student Presentations and Knowledge Acquisition
+            - 15.2b Student Presentations and Skill Development
+            - 15.2c Student Presentations and Attitude Change
+        - '- Section: 15.3 Policy Implications of Student Presentations:':
+            subsections:
+            - 15.3a Education Policies
+            - 15.3b Assessment Policies
+            - 15.3c Curriculum Policies
+    - '- Chapter 16: Regional Economic Forecasting:':
+        sections:
+        - '- Section: 16.1 Understanding Regional Economic Forecasting:':
+            subsections:
+            - 16.1a Definition of Economic Forecasting
+            - 16.1b Methods of Economic Forecasting
+            - 16.1c Case Studies
+        - '- Section: 16.2 Regional Economic Forecasting and Development:':
+            subsections:
+            - 16.2a Economic Forecasting and Economic Development
+            - 16.2b Economic Forecasting and Social Development
+            - 16.2c Economic Forecasting and Environmental Impact
+        - '- Section: 16.3 Policy Implications of Regional Economic Forecasting:':
+            subsections:
+            - 16.3a Economic Policies
+            - 16.3b Social Policies
+            - 16.3c Environmental Policies
+    - '- Chapter 17: Regional Economic Integration:':
+        sections:
+        - '- Section: 17.1 Understanding Regional Economic Integration:':
+            subsections:
+            - 17.1a Definition of Economic Integration
+            - 17.1b Types of Economic Integration
+            - 17.1c Case Studies
+        - '- Section: 17.2 Regional Economic Integration and Development:':
+            subsections:
+            - 17.2a Economic Integration and Economic Development
+            - 17.2b Economic Integration and Social Development
+            - 17.2c Economic Integration and Environmental Impact
+        - '- Section: 17.3 Policy Implications of Regional Economic Integration:':
+            subsections:
+            - 17.3a Economic Policies
+            - 17.3b Social Policies
+            - 17.3c Environmental Policies
+    - '- Chapter 18: Regional Economic Inequality:':
+        sections:
+        - '- Section: 18.1 Understanding Regional Economic Inequality:':
+            subsections:
+            - 18.1a Definition of Economic Inequality
+            - 18.1b Measures of Economic Inequality
+            - 18.1c Case Studies
+        - '- Section: 18.2 Regional Economic Inequality and Development:':
+            subsections:
+            - 18.2a Economic Inequality and Economic Development
+            - 18.2b Economic Inequality and Social Development
+            - 18.2c Economic Inequality and Environmental Impact
+        - '- Section: 18.3 Policy Responses to Regional Economic Inequality:':
+            subsections:
+            - 18.3a Economic Policies
+            - 18.3b Social Policies
+            - 18.3c Environmental Policies
+    - '- Chapter 19: Regional Economic Resilience:':
+        sections:
+        - '- Section: 19.1 Understanding Regional Economic Resilience:':
+            subsections:
+            - 19.1a Definition of Economic Resilience
+            - 19.1b Factors Influencing Economic Resilience
+            - 19.1c Case Studies
+        - '- Section: 19.2 Regional Economic Resilience and Development:':
+            subsections:
+            - 19.2a Economic Resilience and Economic Development
+            - 19.2b Economic Resilience and Social Development
+            - 19.2c Economic Resilience and Environmental Impact
+        - '- Section: 19.3 Policy Responses to Regional Economic Resilience:':
+            subsections:
+            - 19.3a Economic Policies
+            - 19.3b Social Policies
+            - 19.3c Environmental Policies
+    - '- Chapter 20: Regional Economic Sustainability:':
+        sections:
+        - '- Section: 20.1 Understanding Regional Economic Sustainability:':
+            subsections:
+            - 20.1a Definition of Economic Sustainability
+            - 20.1b Principles of Economic Sustainability
+            - 20.1c Case Studies
+        - '- Section: 20.2 Regional Economic Sustainability and Development:':
+            subsections:
+            - 20.2a Economic Sustainability and Economic Development
+            - 20.2b Economic Sustainability and Social Development
+            - 20.2c Economic Sustainability and Environmental Impact
+        - '- Section: 20.3 Policy Responses to Regional Economic Sustainability:':
+            subsections:
+            - 20.3a Economic Policies
+            - 20.3b Social Policies
+            - 20.3c Environmental Policies

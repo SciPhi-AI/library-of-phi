@@ -1,0 +1,406 @@
+textbook: 
+"Extrasolar Planets: Physics and Detection Techniques":
+
+chapters:
+- Chapter 1: Exoplanet Overview:
+sections:
+- Section: 1.1 Methods of Exoplanet Detection:
+subsections:
+- 1.1a Radial Velocity Method
+- 1.1b Transit Method
+- 1.1c Direct Imaging
+- 1.1d Microlensing Method
+- 1.1e Astrometric Measurements
+- 1.1f Other Detection Methods
+
+- Section: 1.2 Exoplanet Statistics
+
+- Section: 1.3 Formation and Evolution of Exoplanets:
+subsections:
+- 1.3a Protoplanetary Disks
+- 1.3b Core Accretion
+- 1.3c Gravitational Instability
+- 1.3d Planetary Migration
+- 1.3e Planet-Planet Interactions
+
+- Section: 1.4 Exoplanet Habitability:
+subsections:
+- 1.4a Habitable Zone
+- 1.4b Water and Life
+- 1.4c Biosignatures
+- 1.4d Detection Challenges
+
+- Chapter 2: Transiting Planets:
+sections:
+- Section: 2.1 Transit Method:
+subsections:
+- 2.1a Light Curves
+- 2.1b Transit Timing Variations
+- 2.1c Transit Spectroscopy
+
+- Section: 2.2 Exoplanet Atmospheres:
+subsections:
+- 2.2a Atmospheric Composition
+- 2.2b Spectroscopic Observations
+- 2.2c Atmospheric Escape
+- 2.2d Clouds and Hazes
+
+- Section: 2.3 Detection Bias
+
+- Chapter 3: Radial Velocities:
+sections:
+- Section: 3.1 Doppler Shift
+
+- Section: 3.2 Radial Velocity Method:
+subsections:
+- 3.2a Stellar Activity and Noise
+- 3.2b Exoplanet Mass Determination
+
+- Section: 3.3 Stellar Oscillations
+
+- Section: 3.4 Astroseismology
+
+- Chapter 4: Planet Interiors:
+sections:
+- Section: 4.1 Planetary Structure:
+subsections:
+- 4.1a Planetary Layers
+- 4.1b Core Composition
+- 4.1c Atmospheres and Oceans
+
+- Section: 4.2 Interior Models
+
+- Section: 4.3 Core Composition:
+subsections:
+- 4.3a Iron Core
+- 4.3b Silicate Mantle
+- 4.3c Metallic Hydrogen
+- 4.3d Ice Giants and Gas Giants
+
+- Section: 4.4 Tidal Heating
+
+- Chapter 5: Planet Atmospheres:
+sections:
+- Section: 5.1 Atmospheric Composition:
+subsections:
+- 5.1a Primordial Atmospheres
+- 5.1b Secondary Atmospheres
+- 5.1c Volatile Elements
+- 5.1d Greenhouse Effect
+
+- Section: 5.2 Spectroscopic Observations
+
+- Section: 5.3 Atmospheric Escape
+
+- Section: 5.4 Clouds and Hazes
+
+- Chapter 6: Direct Imaging:
+sections:
+- Section: 6.1 High-Contrast Imaging
+
+- Section: 6.2 Adaptive Optics
+
+- Section: 6.3 Planet-to-Star Contrast Ratio
+
+- Section: 6.4 Imaging Young Exoplanets
+
+- Chapter 7: Astrometry and Gravitational Lensing:
+sections:
+- Section: 7.1 Astrometric Measurements
+
+- Section: 7.2 Microlensing Method
+
+- Section: 7.3 Parallax Method
+
+- Section: 7.4 Exoplanet Multiplicity
+
+- Chapter 8: Habitable Planets:
+sections:
+- Section: 8.1 Habitable Zone
+
+- Section: 8.2 Water and Life
+
+- Section: 8.3 Biosignatures
+
+- Section: 8.4 Detection Challenges
+
+- Chapter 9: Planet Formation and Evolution:
+sections:
+- Section: 9.1 Protoplanetary Disks
+
+- Section: 9.2 Planet Migration
+
+- Section: 9.3 Planetary System Architectures
+
+- Section: 9.4 Planet-Planet Interactions
+
+- Chapter 10: Exoplanet Missions:
+sections:
+- Section: 10.1 Kepler Mission
+
+- Section: 10.2 TESS Mission
+
+- Section: 10.3 CHEOPS Mission
+
+- Section: 10.4 JWST Mission
+
+- Chapter 11: Exoplanet Classification:
+sections:
+- Section: 11.1 By Size:
+subsections:
+- 11.1a Gas Giants
+- 11.1b Ice Giants
+- 11.1c Super-Earths
+- 11.1d Earth-like Planets
+
+- Section: 11.2 By Composition:
+subsections:
+- 11.2a Rocky Planets
+- 11.2b Gas Planets
+- 11.2c Ice Planets
+
+- Section: 11.3 By Temperature:
+subsections:
+- 11.3a Hot Jupiters
+- 11.3b Warm Neptunes
+- 11.3c Cold Terrestrials
+
+- Section: 11.4 By Orbital Characteristics:
+subsections:
+- 11.4a Eccentric Orbits
+- 11.4b Circular Orbits
+- 11.4c Inclined Orbits
+
+- Chapter 12: Exoplanet Dynamics:
+sections:
+- Section: 12.1 Orbital Resonances:
+subsections:
+- 12.1a Mean-motion Resonances
+- 12.1b Laplace Resonances
+- 12.1c Secular Resonances
+
+- Section: 12.2 Tidal Interactions:
+subsections:
+- 12.2a Tidal Locking
+- 12.2b Tidal Heating
+- 12.2c Tidal Evolution
+
+- Section: 12.3 Planet-Planet Interactions:
+subsections:
+- 12.3a Orbital Migration
+- 12.3b Orbital Excitation
+- 12.3c Planetary Scattering
+
+- Section: 12.4 Planetary Spin:
+subsections:
+- 12.4a Spin-Orbit Resonances
+- 12.4b Spin Precession
+- 12.4c Spin Evolution
+
+- Chapter 13: Exoplanet Atmospheres:
+sections:
+- Section: 13.1 Atmospheric Composition:
+subsections:
+- 13.1a Molecular Absorption
+- 13.1b Atomic Absorption
+- 13.1c Rayleigh Scattering
+
+- Section: 13.2 Atmospheric Dynamics:
+subsections:
+- 13.2a Wind Patterns
+- 13.2b Jet Streams
+- 13.2c Atmospheric Tides
+
+- Section: 13.3 Atmospheric Escape:
+subsections:
+- 13.3a Hydrodynamic Escape
+- 13.3b Jeans Escape
+- 13.3c Photoevaporation
+
+- Section: 13.4 Climate and Weather:
+subsections:
+- 13.4a Global Circulation Models
+- 13.4b Seasonal Variations
+- 13.4c Storm Systems
+
+- Chapter 14: Exoplanet Habitability:
+sections:
+- Section: 14.1 Habitable Zone:
+subsections:
+- 14.1a Stellar Luminosity
+- 14.1b Planetary Albedo
+- 14.1c Greenhouse Effect
+
+- Section: 14.2 Water and Life:
+subsections:
+- 14.2a Liquid Water
+- 14.2b Biochemical Reactions
+- 14.2c Extremophiles
+
+- Section: 14.3 Biosignatures:
+subsections:
+- 14.3a Spectral Features
+- 14.3b Atmospheric Disequilibrium
+- 14.3c Technosignatures
+
+- Section: 14.4 Detection Challenges:
+subsections:
+- 14.4a False Positives
+- 14.4b Instrumental Noise
+- 14.4c Stellar Activity
+
+- Chapter 15: Exoplanet Detection Techniques:
+sections:
+- Section: 15.1 Radial Velocity Method:
+subsections:
+- 15.1a Doppler Shift
+- 15.1b Stellar Activity
+- 15.1c Mass Determination
+
+- Section: 15.2 Transit Method:
+subsections:
+- 15.2a Light Curves
+- 15.2b Transit Timing Variations
+- 15.2c Transit Spectroscopy
+
+- Section: 15.3 Direct Imaging:
+subsections:
+- 15.3a High-Contrast Imaging
+- 15.3b Adaptive Optics
+- 15.3c Coronagraphy
+
+- Section: 15.4 Astrometry and Microlensing:
+subsections:
+- 15.4a Astrometric Wobble
+- 15.4b Microlensing Events
+- 15.4c Parallax Measurements
+
+- Chapter 16: Exoplanet Missions:
+sections:
+- Section: 16.1 Kepler Mission:
+subsections:
+- 16.1a Kepler Space Telescope
+- 16.1b Kepler's Discoveries
+- 16.1c Kepler's Legacy
+
+- Section: 16.2 TESS Mission:
+subsections:
+- 16.2a TESS Space Telescope
+- 16.2b TESS's Discoveries
+- 16.2c TESS's Future
+
+- Section: 16.3 CHEOPS Mission:
+subsections:
+- 16.3a CHEOPS Space Telescope
+- 16.3b CHEOPS's Discoveries
+- 16.3c CHEOPS's Future
+
+- Section: 16.4 JWST Mission:
+subsections:
+- 16.4a JWST Space Telescope
+- 16.4b JWST's Future
+- 16.4c JWST's Capabilities
+
+- Chapter 17: Future of Exoplanet Research:
+sections:
+- Section: 17.1 Future Missions:
+subsections:
+- 17.1a PLATO Mission
+- 17.1b ARIEL Mission
+- 17.1c LUVOIR Mission
+
+- Section: 17.2 Technological Advances:
+subsections:
+- 17.2a Next-Generation Telescopes
+- 17.2b Advanced Spectrographs
+- 17.2c Improved Data Analysis
+
+- Section: 17.3 Theoretical Advances:
+subsections:
+- 17.3a Planet Formation Theories
+- 17.3b Climate Models
+- 17.3c Habitability Models
+
+- Section: 17.4 Societal Impact:
+subsections:
+- 17.4a Public Interest
+- 17.4b Educational Impact
+- 17.4c Philosophical Implications
+
+- Chapter 18: Exoplanet Data Analysis:
+sections:
+- Section: 18.1 Data Reduction:
+subsections:
+- 18.1a Noise Reduction
+- 18.1b Signal Extraction
+- 18.1c Error Estimation
+
+- Section: 18.2 Data Interpretation:
+subsections:
+- 18.2a Model Fitting
+- 18.2b Parameter Estimation
+- 18.2c Uncertainty Quantification
+
+- Section: 18.3 Data Visualization:
+subsections:
+- 18.3a Light Curve Plots
+- 18.3b Radial Velocity Curves
+- 18.3c Spectral Plots
+
+- Section: 18.4 Data Archiving:
+subsections:
+- 18.4a Data Repositories
+- 18.4b Data Standards
+- 18.4c Data Accessibility
+
+- Chapter 19: Exoplanet Population Studies:
+sections:
+- Section: 19.1 Exoplanet Demographics:
+subsections:
+- 19.1a Size Distribution
+- 19.1b Mass Distribution
+- 19.1c Orbital Distribution
+
+- Section: 19.2 Exoplanet Correlations:
+subsections:
+- 19.2a Mass-Radius Relation
+- 19.2b Period-Mass Relation
+- 19.2c Metallicity-Planet Correlation
+
+- Section: 19.3 Exoplanet Clusters:
+subsections:
+- 19.3a Hot Jupiters
+- 19.3b Super-Earths
+- 19.3c Cold Giants
+
+- Section: 19.4 Exoplanet Evolution:
+subsections:
+- 19.4a Planetary Migration
+- 19.4b Atmospheric Evolution
+- 19.4c Tidal Evolution
+
+- Chapter 20: Exoplanet Host Stars:
+sections:
+- Section: 20.1 Stellar Types:
+subsections:
+- 20.1a M Dwarfs
+- 20.1b G Dwarfs
+- 20.1c F Dwarfs
+
+- Section: 20.2 Stellar Activity:
+subsections:
+- 20.2a Stellar Flares
+- 20.2b Stellar Spots
+- 20.2c Stellar Oscillations
+
+- Section: 20.3 Stellar Metallicity:
+subsections:
+- 20.3a Metal-Rich Stars
+- 20.3b Metal-Poor Stars
+- 20.3c Metallicity-Planet Correlation
+
+- Section: 20.4 Stellar Evolution:
+subsections:
+- 20.4a Main Sequence Stars
+- 20.4b Red Giant Stars
+- 20.4c White Dwarf Stars

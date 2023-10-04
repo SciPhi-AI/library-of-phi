@@ -1,0 +1,298 @@
+textbook:
+  'Textbook for Wavelets, Filter Banks and Applications":':
+    chapters:
+    - '- Chapter 1: Discrete-time Filters:':
+        sections:
+        - '- Section: 1.1 Convolution:':
+            subsections:
+            - 1.1a Introduction to Convolution
+            - 1.1b Convolution Theorems
+            - 1.1c Convolution in Signal Processing
+        - '- Section: 1.2 Fourier Transform:':
+            subsections:
+            - 1.2a Basics of Fourier Transform
+            - 1.2b Properties of Fourier Transform
+            - 1.2c Fourier Transform in Signal Processing
+        - '- Section: 1.3 Lowpass and Highpass Filters:':
+            subsections:
+            - 1.3a Introduction to Filters
+            - 1.3b Design of Lowpass and Highpass Filters
+            - 1.3c Applications of Filters
+    - '- Chapter 2: Sampling Rate Change Operations:':
+        sections:
+        - '- Section: 2.1 Upsampling and Downsampling:':
+            subsections:
+            - 2.1a Basics of Sampling
+            - 2.1b Upsampling Techniques
+            - 2.1c Downsampling Techniques
+        - '- Section: 2.2 Fractional Sampling:':
+            subsections:
+            - 2.2a Introduction to Fractional Sampling
+            - 2.2b Fractional Sampling Techniques
+            - 2.2c Applications of Fractional Sampling
+        - '- Section: 2.3 Interpolation:':
+            subsections:
+            - 2.3a Basics of Interpolation
+            - 2.3b Interpolation Techniques
+            - 2.3c Applications of Interpolation
+    - '- Chapter 3: Filter Banks:':
+        sections:
+        - '- Section: 3.1 Time Domain:':
+            subsections:
+            - 3.1a Introduction to Time Domain
+            - 3.1b Time Domain Analysis
+            - 3.1c Time Domain in Filter Banks
+        - '- Section: 3.2 Modulation and Polyphase Representations:':
+            subsections:
+            - 3.2a Basics of Modulation
+            - 3.2b Polyphase Representations
+            - 3.2c Modulation in Filter Banks
+        - '- Section: 3.3 MATLAB Wavelet Toolbox:':
+            subsections:
+            - 3.3a Introduction to MATLAB Wavelet Toolbox
+            - 3.3b Using MATLAB for Wavelet Analysis
+            - 3.3c Advanced Features of MATLAB Wavelet Toolbox
+    - '- Chapter 4: Orthogonal Filter Banks:':
+        sections:
+        - '- Section: 4.1 Paraunitary Matrices:':
+            subsections:
+            - 4.1a Introduction to Paraunitary Matrices
+            - 4.1b Properties of Paraunitary Matrices
+            - 4.1c Paraunitary Matrices in Filter Banks
+        - '- Section: 4.2 Orthogonality Condition:':
+            subsections:
+            - 4.2a Basics of Orthogonality
+            - 4.2b Orthogonality Condition in Filter Banks
+            - 4.2c Applications of Orthogonality Condition
+    - '- Chapter 5: Maxflat Filters:':
+        sections:
+        - '- Section: 5.1 Daubechies and Meyer Formulas:':
+            subsections:
+            - 5.1a Introduction to Daubechies and Meyer Formulas
+            - 5.1b Properties of Daubechies and Meyer Formulas
+            - 5.1c Applications of Daubechies and Meyer Formulas
+        - '- Section: 5.2 Spectral Factorization:':
+            subsections:
+            - 5.2a Basics of Spectral Factorization
+            - 5.2b Spectral Factorization Techniques
+            - 5.2c Spectral Factorization in Maxflat Filters
+    - '- Chapter 6: Multiresolution Analysis:':
+        sections:
+        - '- Section: 6.1 Refinement Equation:':
+            subsections:
+            - 6.1a Introduction to Refinement Equation
+            - 6.1b Solving Refinement Equation
+            - 6.1c Refinement Equation in Multiresolution Analysis
+        - '- Section: 6.2 Infinite Product Formula:':
+            subsections:
+            - 6.2a Basics of Infinite Product Formula
+            - 6.2b Infinite Product Formula in Multiresolution Analysis
+            - 6.2c Applications of Infinite Product Formula
+        - '- Section: 6.3 Filter Bank Approach for Computing Scaling Functions and Wavelets:':
+            subsections:
+            - 6.3a Introduction to Filter Bank Approach
+            - 6.3b Computing Scaling Functions using Filter Bank Approach
+            - 6.3c Computing Wavelets using Filter Bank Approach
+    - '- Chapter 7: Orthogonal Wavelet Bases:':
+        sections:
+        - '- Section: 7.1 Connection to Orthogonal Filters:':
+            subsections:
+            - 7.1a Introduction to Orthogonal Filters
+            - 7.1b Connection of Orthogonal Wavelet Bases to Orthogonal Filters
+            - 7.1c Applications of Orthogonal Filters
+        - '- Section: 7.2 Orthogonality in the Frequency Domain:':
+            subsections:
+            - 7.2a Basics of Frequency Domain
+            - 7.2b Orthogonality in Frequency Domain
+            - 7.2c Frequency Domain in Orthogonal Wavelet Bases
+        - '- Section: 7.3 Biorthogonal Wavelet Bases:':
+            subsections:
+            - 7.3a Introduction to Biorthogonal Wavelet Bases
+            - 7.3b Properties of Biorthogonal Wavelet Bases
+            - 7.3c Applications of Biorthogonal Wavelet Bases
+    - '- Chapter 8: Mallat Pyramid Algorithm:':
+        sections:
+        - '- Section: 8.1 Accuracy of Wavelet Approximations:':
+            subsections:
+            - 8.1a Introduction to Wavelet Approximations
+            - 8.1b Accuracy of Wavelet Approximations
+            - 8.1c Improving Accuracy of Wavelet Approximations
+        - '- Section: 8.2 Smoothness of Wavelet Bases:':
+            subsections:
+            - 8.2a Basics of Smoothness
+            - 8.2b Smoothness of Wavelet Bases
+            - 8.2c Applications of Smoothness in Wavelet Bases
+    - '- Chapter 9: Signal and Image Processing:':
+        sections:
+        - '- Section: 9.1 Finite Length Signals:':
+            subsections:
+            - 9.1a Introduction to Finite Length Signals
+            - 9.1b Processing Finite Length Signals
+            - 9.1c Finite Length Signals in Signal and Image Processing
+        - '- Section: 9.2 Boundary Filters and Boundary Wavelets:':
+            subsections:
+            - 9.2a Basics of Boundary Filters and Boundary Wavelets
+            - 9.2b Using Boundary Filters and Boundary Wavelets
+            - 9.2c Boundary Filters and Boundary Wavelets in Signal and Image Processing
+        - '- Section: 9.3 Wavelet Compression Algorithms:':
+            subsections:
+            - 9.3a Introduction to Wavelet Compression
+            - 9.3b Wavelet Compression Algorithms
+            - 9.3c Applications of Wavelet Compression
+    - '- Chapter 10: Physical Wavelets and their Sources:':
+        sections:
+        - '- Section: 10.1 Real Physics in Complex Spacetime:':
+            subsections:
+            - 10.1a Introduction to Real Physics in Complex Spacetime
+            - 10.1b Physical Wavelets in Complex Spacetime
+            - 10.1c Sources of Physical Wavelets
+    - '- Chapter 11: Lifting:':
+        sections:
+        - '- Section: 11.1 Ladder Structure for Filter Banks:':
+            subsections:
+            - 11.1a Introduction to Ladder Structure
+            - 11.1b Ladder Structure in Filter Banks
+            - 11.1c Applications of Ladder Structure
+        - '- Section: 11.2 Factorization of Polyphase Matrix into Lifting Steps:':
+            subsections:
+            - 11.2a Basics of Polyphase Matrix
+            - 11.2b Factorization into Lifting Steps
+            - 11.2c Polyphase Matrix in Lifting
+        - '- Section: 11.3 Lifting Form of Refinement Equation:':
+            subsections:
+            - 11.3a Introduction to Lifting Form of Refinement Equation
+            - 11.3b Solving Lifting Form of Refinement Equation
+            - 11.3c Lifting Form of Refinement Equation in Lifting
+    - '- Chapter 12: Wavelets and Subdivision:':
+        sections:
+        - '- Section: 12.1 Nonuniform Grids:':
+            subsections:
+            - 12.1a Introduction to Nonuniform Grids
+            - 12.1b Wavelets on Nonuniform Grids
+            - 12.1c Subdivision on Nonuniform Grids
+        - '- Section: 12.2 Multiresolution for Triangular Meshes:':
+            subsections:
+            - 12.2a Basics of Triangular Meshes
+            - 12.2b Multiresolution on Triangular Meshes
+            - 12.2c Wavelets and Subdivision on Triangular Meshes
+        - '- Section: 12.3 Representation and Compression of Surfaces:':
+            subsections:
+            - 12.3a Introduction to Surface Representation and Compression
+            - 12.3b Techniques for Surface Representation and Compression
+            - 12.3c Surface Representation and Compression in Wavelets and Subdivision
+    - '- Chapter 13: Numerical Solution of PDEs:':
+        sections:
+        - '- Section: 13.1 Galerkin Approximation:':
+            subsections:
+            - 13.1a Introduction to Galerkin Approximation
+            - 13.1b Galerkin Approximation in Numerical Solution of PDEs
+            - 13.1c Applications of Galerkin Approximation
+        - '- Section: 13.2 Wavelet Integrals:':
+            subsections:
+            - 13.2a Basics of Wavelet Integrals
+            - 13.2b Wavelet Integrals in Numerical Solution of PDEs
+            - 13.2c Applications of Wavelet Integrals
+    - '- Chapter 14: M-band Wavelets:':
+        sections:
+        - '- Section: 14.1 DFT Filter Banks and Cosine Modulated Filter Banks:':
+            subsections:
+            - 14.1a Introduction to DFT Filter Banks and Cosine Modulated Filter Banks
+            - 14.1b DFT Filter Banks and Cosine Modulated Filter Banks in M-band Wavelets
+            - 14.1c Applications of DFT Filter Banks and Cosine Modulated Filter Banks
+        - '- Section: 14.2 Multiwavelets:':
+            subsections:
+            - 14.2a Basics of Multiwavelets
+            - 14.2b Multiwavelets in M-band Wavelets
+            - 14.2c Applications of Multiwavelets
+    - '- Chapter 15: Project Presentations:':
+        sections:
+        - '- Section: 15.1 Project Presentations:':
+            subsections:
+            - 15.1a Introduction to Project Presentations
+            - 15.1b Preparing for Project Presentations
+            - 15.1c Conducting Project Presentations
+    - '- Chapter 16: Wavelet Transform:':
+        sections:
+        - '- Section: 16.1 Continuous Wavelet Transform:':
+            subsections:
+            - 16.1a Introduction to Continuous Wavelet Transform
+            - 16.1b Properties of Continuous Wavelet Transform
+            - 16.1c Applications of Continuous Wavelet Transform
+        - '- Section: 16.2 Discrete Wavelet Transform:':
+            subsections:
+            - 16.2a Basics of Discrete Wavelet Transform
+            - 16.2b Properties of Discrete Wavelet Transform
+            - 16.2c Discrete Wavelet Transform in Signal Processing
+        - '- Section: 16.3 Wavelet Transform in Image Processing:':
+            subsections:
+            - 16.3a Introduction to Image Processing
+            - 16.3b Wavelet Transform in Image Compression
+            - 16.3c Wavelet Transform in Image Denoising
+    - '- Chapter 17: Wavelet Packet Transform:':
+        sections:
+        - '- Section: 17.1 Basics of Wavelet Packet Transform:':
+            subsections:
+            - 17.1a Introduction to Wavelet Packet Transform
+            - 17.1b Properties of Wavelet Packet Transform
+            - 17.1c Applications of Wavelet Packet Transform
+        - '- Section: 17.2 Wavelet Packet Decomposition:':
+            subsections:
+            - 17.2a Basics of Wavelet Packet Decomposition
+            - 17.2b Wavelet Packet Decomposition in Signal Analysis
+            - 17.2c Wavelet Packet Decomposition in Image Analysis
+        - '- Section: 17.3 Best Basis Algorithm:':
+            subsections:
+            - 17.3a Introduction to Best Basis Algorithm
+            - 17.3b Best Basis Algorithm in Wavelet Packet Transform
+            - 17.3c Applications of Best Basis Algorithm
+    - '- Chapter 18: Wavelet Applications in Various Fields:':
+        sections:
+        - '- Section: 18.1 Wavelets in Medicine:':
+            subsections:
+            - 18.1a Introduction to Medical Imaging
+            - 18.1b Wavelets in Medical Imaging
+            - 18.1c Wavelets in ECG Signal Analysis
+        - '- Section: 18.2 Wavelets in Telecommunications:':
+            subsections:
+            - 18.2a Basics of Telecommunications
+            - 18.2b Wavelets in Signal Transmission
+            - 18.2c Wavelets in Data Compression
+        - '- Section: 18.3 Wavelets in Geophysics:':
+            subsections:
+            - 18.3a Introduction to Geophysics
+            - 18.3b Wavelets in Seismic Data Analysis
+            - 18.3c Wavelets in Climate Data Analysis
+    - '- Chapter 19: Advanced Topics in Wavelets:':
+        sections:
+        - '- Section: 19.1 Wavelet Thresholding:':
+            subsections:
+            - 19.1a Basics of Wavelet Thresholding
+            - 19.1b Wavelet Thresholding in Noise Reduction
+            - 19.1c Wavelet Thresholding in Image Denoising
+        - '- Section: 19.2 Wavelet Shrinkage:':
+            subsections:
+            - 19.2a Introduction to Wavelet Shrinkage
+            - 19.2b Wavelet Shrinkage in Signal Estimation
+            - 19.2c Wavelet Shrinkage in Image Restoration
+        - '- Section: 19.3 Wavelet Networks:':
+            subsections:
+            - 19.3a Basics of Wavelet Networks
+            - 19.3b Wavelet Networks in Function Approximation
+            - 19.3c Wavelet Networks in Pattern Recognition
+    - '- Chapter 20: Future Directions in Wavelet Research:':
+        sections:
+        - '- Section: 20.1 Wavelets and Machine Learning:':
+            subsections:
+            - 20.1a Introduction to Machine Learning
+            - 20.1b Wavelets in Feature Extraction
+            - 20.1c Wavelets in Neural Networks
+        - '- Section: 20.2 Wavelets and Quantum Computing:':
+            subsections:
+            - 20.2a Basics of Quantum Computing
+            - 20.2b Wavelets in Quantum Information Processing
+            - 20.2c Future Prospects of Wavelets in Quantum Computing
+        - '- Section: 20.3 Wavelets and Big Data:':
+            subsections:
+            - 20.3a Introduction to Big Data
+            - 20.3b Wavelets in Data Mining
+            - 20.3c Wavelets in High-Dimensional Data Analysis

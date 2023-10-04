@@ -1,0 +1,245 @@
+textbook:
+  'Planning, Communications, and Digital Media: A Comprehensive Guide":':
+    chapters:
+    - "- Chapter 1: The Planner\u2019s Toolbox:":
+        sections:
+        - '- Section: 1.1 Introduction to Planning':
+            subsections: []
+        - '- Section: 1.2 The Role of a Planner':
+            subsections: []
+        - '- Section: 1.3 Tools for Planning:':
+            subsections:
+            - "1.3a Lorlene\u2019s Web-based Portfolio"
+    - '- Chapter 2: Introduction to Web Design:':
+        sections:
+        - '- Section: 2.1 Web Design Principles':
+            subsections: []
+        - '- Section: 2.2 Web Style Guide:':
+            subsections:
+            - 2.2a Basic Design Principles
+            - 2.2b Creating Accessible Websites
+    - '- Chapter 3: Planning a Web Site:':
+        sections:
+        - '- Section: 3.1 Understanding User Needs':
+            subsections: []
+        - '- Section: 3.2 Web Style Guide:':
+            subsections:
+            - 3.2a Basic Design Principles
+            - 3.2b Creating Accessible Websites
+        - '- Section: 3.3 Content Strategy and Information Architecture':
+            subsections: []
+        - '- Section: 3.4 Wireframing and Prototyping':
+            subsections: []
+    - '- Chapter 4: The Photographic Essay:':
+        sections:
+        - '- Section: 4.1 Introduction to Photographic Essays':
+            subsections: []
+        - '- Section: 4.2 Visual Storytelling Techniques':
+            subsections: []
+        - '- Section: 4.3 Change Over Time:':
+            subsections:
+            - 4.3a Documenting Urban Development
+            - 4.3b Capturing Natural Transformation
+    - '- Chapter 5: Geographic Information Systems (GIS):':
+        sections:
+        - '- Section: 5.1 Introduction to GIS':
+            subsections: []
+        - '- Section: 5.2 Top Down GIS:':
+            subsections:
+            - 5.2a Understanding Spatial Data
+            - 5.2b Analyzing Geographic Patterns
+        - '- Section: 5.3 Bottom Up GIS':
+            subsections: []
+        - '- Section: 5.4 Web Portfolio Critique':
+            subsections: []
+        - '- Section: 5.5 Spatial Data Acquisition:':
+            subsections:
+            - 5.5a Introduction to MassGIS
+        - '- Section: 5.6 Capturing and Editing Digital Video':
+            subsections: []
+        - "- Section: 5.7 Advanced Photoshop\xAE and Dreamweaver\xAE":
+            subsections: []
+    - '- Chapter 6: Visual Representation and Analysis of Place:':
+        sections:
+        - "- Section: 6.1 The Planner\u2019s Toolbox":
+            subsections: []
+        - '- Section: 6.2 Planning a Web Site':
+            subsections: []
+        - '- Section: 6.3 The Photographic Essay':
+            subsections: []
+        - '- Section: 6.4 Change Over Time':
+            subsections: []
+    - '- Chapter 7: Understanding Population Change:':
+        sections:
+        - '- Section: 7.1 Introduction to Demographics':
+            subsections: []
+        - '- Section: 7.2 Using Excel to Analyze Population Data':
+            subsections: []
+        - "- Section: 7.3 Using ArcGIS\u2122 to Visualize Population Density":
+            subsections: []
+        - '- Section: 7.4 Using Access to Query Multiple Data Sets':
+            subsections: []
+        - '- Section: 7.5 Using GIS Tools to Compare Two Aspects of Central Square':
+            subsections: []
+    - '- Chapter 8: Web-based Planning Portfolio:':
+        sections:
+        - '- Section: 8.1 Introduction to Planning Portfolios':
+            subsections: []
+        - '- Section: 8.2 Exploring, Analyzing, and Describing a Massachusetts Town':
+            subsections: []
+    - '- Chapter 9: Urban Planning and Development:':
+        sections:
+        - '- Section: 9.1 Urban Planning Principles':
+            subsections: []
+        - '- Section: 9.2 Urban Development Models:':
+            subsections:
+            - 9.2a Concentric Zone Model
+            - 9.2b Sector Model
+            - 9.2c Multiple Nuclei Model
+        - '- Section: 9.3 Urban Sprawl and Smart Growth':
+            subsections: []
+        - '- Section: 9.4 Sustainable Urban Development':
+            subsections: []
+    - '- Chapter 10: Transportation Planning:':
+        sections:
+        - '- Section: 10.1 Introduction to Transportation Planning':
+            subsections: []
+        - '- Section: 10.2 Transportation Models:':
+            subsections:
+            - 10.2a Four-Step Model
+            - 10.2b Activity-Based Model
+            - 10.2c Land Use and Transportation Interaction Model
+        - '- Section: 10.3 Public Transportation Planning':
+            subsections: []
+        - '- Section: 10.4 Sustainable Transportation':
+            subsections: []
+    - '- Chapter 11: Environmental Planning:':
+        sections:
+        - '- Section: 11.1 Introduction to Environmental Planning':
+            subsections: []
+        - '- Section: 11.2 Environmental Impact Assessment:':
+            subsections:
+            - 11.2a Scoping
+            - 11.2b Impact Prediction
+            - 11.2c Impact Evaluation
+        - '- Section: 11.3 Climate Change and Planning':
+            subsections: []
+        - '- Section: 11.4 Green Infrastructure Planning':
+            subsections: []
+    - '- Chapter 12: Housing and Community Development:':
+        sections:
+        - '- Section: 12.1 Housing Policy and Planning':
+            subsections: []
+        - '- Section: 12.2 Affordable Housing:':
+            subsections:
+            - 12.2a Definition and Importance of Affordable Housing
+            - 12.2b Strategies for Affordable Housing
+            - 12.2c Case Studies of Affordable Housing
+        - '- Section: 12.3 Community Development':
+            subsections: []
+        - '- Section: 12.4 Gentrification and Displacement':
+            subsections: []
+    - '- Chapter 13: Land Use Planning:':
+        sections:
+        - '- Section: 13.1 Introduction to Land Use Planning':
+            subsections: []
+        - '- Section: 13.2 Zoning:':
+            subsections:
+            - 13.2a Definition and Purpose of Zoning
+            - 13.2b Types of Zoning
+            - 13.2c Zoning Reform
+        - '- Section: 13.3 Comprehensive Planning':
+            subsections: []
+        - '- Section: 13.4 Urban Design':
+            subsections: []
+    - '- Chapter 14: Economic Development Planning:':
+        sections:
+        - '- Section: 14.1 Introduction to Economic Development Planning':
+            subsections: []
+        - '- Section: 14.2 Economic Development Strategies:':
+            subsections:
+            - 14.2a Business Attraction and Retention
+            - 14.2b Workforce Development
+            - 14.2c Entrepreneurship and Innovation
+        - '- Section: 14.3 Economic Resilience':
+            subsections: []
+        - '- Section: 14.4 Economic Development Finance':
+            subsections: []
+    - '- Chapter 15: Public Participation in Planning:':
+        sections:
+        - '- Section: 15.1 Importance of Public Participation':
+            subsections: []
+        - '- Section: 15.2 Public Participation Techniques:':
+            subsections:
+            - 15.2a Public Meetings and Hearings
+            - 15.2b Surveys and Questionnaires
+            - 15.2c Participatory Mapping
+        - '- Section: 15.3 Challenges in Public Participation':
+            subsections: []
+        - '- Section: 15.4 Digital Engagement in Planning':
+            subsections: []
+    - '- Chapter 16: Planning Law and Ethics:':
+        sections:
+        - '- Section: 16.1 Introduction to Planning Law':
+            subsections: []
+        - '- Section: 16.2 Key Legal Cases in Planning:':
+            subsections:
+            - 16.2a Euclid v. Ambler
+            - 16.2b Kelo v. City of New London
+            - 16.2c Nollan v. California Coastal Commission
+        - '- Section: 16.3 Planning Ethics':
+            subsections: []
+        - '- Section: 16.4 Professional Conduct in Planning':
+            subsections: []
+    - '- Chapter 17: Planning Research Methods:':
+        sections:
+        - '- Section: 17.1 Introduction to Planning Research':
+            subsections: []
+        - '- Section: 17.2 Quantitative Methods in Planning:':
+            subsections:
+            - 17.2a Survey Research
+            - 17.2b Statistical Analysis
+            - 17.2c Geographic Information Systems
+        - '- Section: 17.3 Qualitative Methods in Planning':
+            subsections: []
+        - '- Section: 17.4 Mixed Methods in Planning':
+            subsections: []
+    - '- Chapter 18: Planning Theory:':
+        sections:
+        - '- Section: 18.1 Introduction to Planning Theory':
+            subsections: []
+        - '- Section: 18.2 Evolution of Planning Theory:':
+            subsections:
+            - 18.2a Rational Comprehensive Planning
+            - 18.2b Advocacy Planning
+            - 18.2c Communicative Planning
+        - '- Section: 18.3 Critiques of Planning Theory':
+            subsections: []
+        - '- Section: 18.4 Contemporary Trends in Planning Theory':
+            subsections: []
+    - '- Chapter 19: International Planning:':
+        sections:
+        - '- Section: 19.1 Introduction to International Planning':
+            subsections: []
+        - '- Section: 19.2 Comparative Urbanization:':
+            subsections:
+            - 19.2a Urbanization in Developed Countries
+            - 19.2b Urbanization in Developing Countries
+            - 19.2c Global Cities
+        - '- Section: 19.3 International Development Planning':
+            subsections: []
+        - '- Section: 19.4 Planning in the Global South':
+            subsections: []
+    - '- Chapter 20: Future of Planning:':
+        sections:
+        - '- Section: 20.1 Emerging Trends in Planning':
+            subsections: []
+        - '- Section: 20.2 Planning and Technology:':
+            subsections:
+            - 20.2a Smart Cities
+            - 20.2b Big Data in Planning
+            - 20.2c Autonomous Vehicles and Planning
+        - '- Section: 20.3 Planning for Resilience':
+            subsections: []
+        - '- Section: 20.4 Equity and Social Justice in Planning':
+            subsections: []

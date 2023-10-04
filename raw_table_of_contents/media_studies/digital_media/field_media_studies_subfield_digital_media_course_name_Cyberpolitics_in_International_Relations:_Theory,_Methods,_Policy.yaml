@@ -1,0 +1,387 @@
+textbook:
+  'Cyberpolitics in International Relations: Theory, Methods, Policy":':
+    chapters:
+    - '- Chapter 1: Introduction to Cyberspace and International Relations:':
+        sections:
+        - '- Section: 1.1 Evolution of International Relations- Structure, Process, and Levels of Analysis:':
+            subsections:
+            - 1.1a Historical Overview
+            - 1.1b Key Concepts and Theories
+            - 1.1c Role of Cyberspace in International Relations
+        - '- Section: 1.2 The Construction of Cyberspace- Concepts and Complexities:':
+            subsections:
+            - 1.2a Definition and Characteristics of Cyberspace
+            - 1.2b Evolution of Cyberspace
+            - 1.2c Challenges and Complexities in Cyberspace
+        - '- Section: 1.3 Integrating Cyberspace and International Relations:':
+            subsections:
+            - 1.3a Role of Cyberspace in Global Politics
+            - 1.3b Impact of Cyberspace on International Relations Theories
+            - 1.3c Case Studies of Cyberspace in International Relations
+        - '- Section: 1.4 Globalization and Transformation:':
+            subsections:
+            - 1.4a Impact of Globalization on Cyberspace
+            - 1.4b Transformation of International Relations due to Cyberspace
+            - 1.4c Future Trends and Predictions
+    - '- Chapter 2: Expansion of Cyber Access:':
+        sections:
+        - '- Section: 2.1 Evolving Parameters and Power Potentials:':
+            subsections:
+            - 2.1a Technological Advancements and Cyber Access
+            - 2.1b Power Dynamics in Cyberspace
+            - 2.1c Future Trends in Cyber Access
+        - '- Section: 2.2 The Role of Technology in Expanding Cyber Access:':
+            subsections:
+            - 2.2a Role of Different Technologies
+            - 2.2b Impact of Technology on Cyber Access
+            - 2.2c Case Studies of Technology in Expanding Cyber Access
+        - '- Section: 2.3 Impacts of Cyber Access on International Relations:':
+            subsections:
+            - 2.3a Positive Impacts of Cyber Access
+            - 2.3b Negative Impacts of Cyber Access
+            - 2.3c Case Studies of Cyber Access Impact
+        - '- Section: 2.4 Challenges and Opportunities of Increased Cyber Access:':
+            subsections:
+            - 2.4a Challenges in Expanding Cyber Access
+            - 2.4b Opportunities in Expanding Cyber Access
+            - 2.4c Strategies to Overcome Challenges
+    - '- Chapter 3: Cyber Conflicts and Threats to Security:':
+        sections:
+        - '- Section: 3.1 Types & Cases:':
+            subsections:
+            - 3.1a Types of Cyber Conflicts
+            - 3.1b Case Studies of Cyber Conflicts
+            - 3.1c Analysis of Cyber Conflict Cases
+        - '- Section: 3.2 State-Sponsored Cyber Attacks:':
+            subsections:
+            - 3.2a Definition and Types of State-Sponsored Attacks
+            - 3.2b Impact of State-Sponsored Attacks
+            - 3.2c Case Studies of State-Sponsored Attacks
+        - '- Section: 3.3 Non-State Actors in Cyber Conflicts:':
+            subsections:
+            - 3.3a Role of Non-State Actors in Cyber Conflicts
+            - 3.3b Impact of Non-State Actors on Cyber Security
+            - 3.3c Case Studies of Non-State Actors in Cyber Conflicts
+        - '- Section: 3.4 Cyber Espionage and Surveillance:':
+            subsections:
+            - 3.4a Definition and Types of Cyber Espionage
+            - 3.4b Impact of Cyber Espionage on International Relations
+            - 3.4c Case Studies of Cyber Espionage
+    - '- Chapter 4: Cyber Cooperation and Modes of Collaboration:':
+        sections:
+        - '- Section: 4.1 Types & Cases:':
+            subsections:
+            - 4.1a Types of Cyber Cooperation
+            - 4.1b Case Studies of Cyber Cooperation
+            - 4.1c Analysis of Cyber Cooperation Cases
+        - '- Section: 4.2 International Cooperation in Cybersecurity:':
+            subsections:
+            - 4.2a Role of International Cooperation in Cybersecurity
+            - 4.2b Impact of International Cooperation on Cybersecurity
+            - 4.2c Case Studies of International Cooperation in Cybersecurity
+        - '- Section: 4.3 Public-Private Partnerships in Cyberspace:':
+            subsections:
+            - 4.3a Role of Public-Private Partnerships in Cyberspace
+            - 4.3b Impact of Public-Private Partnerships on Cybersecurity
+            - 4.3c Case Studies of Public-Private Partnerships in Cyberspace
+        - '- Section: 4.4 Multilateral Efforts in Cyber Governance:':
+            subsections:
+            - 4.4a Role of Multilateral Efforts in Cyber Governance
+            - 4.4b Impact of Multilateral Efforts on Cybersecurity
+            - 4.4c Case Studies of Multilateral Efforts in Cyber Governance
+    - '- Chapter 5: Comparative Analysis and Cases in Context:':
+        sections:
+        - '- Section: 5.1 International Institutional Challenges Re-Visited- Sovereign States, Private Order, ad hoc Arrangements:':
+            subsections:
+            - 5.1a Role of International Institutions in Cyber Governance
+            - 5.1b Challenges Faced by International Institutions in Cyber Governance
+            - 5.1c Case Studies of International Institutions in Cyber Governance
+        - '- Section: 5.2 Global Agenda- Emergent Accord & New Discord:':
+            subsections:
+            - 5.2a Current Global Agenda in Cyber Politics
+            - 5.2b Emerging Accords and New Discord in Cyber Politics
+            - 5.2c Case Studies of Global Agenda in Cyber Politics
+        - '- Section: 5.3 Alternative Futures- Vision, Principles, Trajectories:':
+            subsections:
+            - 5.3a Future Visions for Cyber Politics
+            - 5.3b Principles for Future Cyber Politics
+            - 5.3c Predicted Trajectories for Cyber Politics
+        - '- Section: 5.4 The Impact of Non-State Actors on International Cyber Politics:':
+            subsections:
+            - 5.4a Role of Non-State Actors in Cyber Politics
+            - 5.4b Impact of Non-State Actors on Cyber Politics
+            - 5.4c Case Studies of Non-State Actors in Cyber Politics
+    - '- Chapter 6: The Evolution of Cyber Norms and Rules:':
+        sections:
+        - '- Section: 6.1 The Role of International Organizations in Cyber Governance:':
+            subsections:
+            - 6.1a Role of International Organizations in Cyber Norms and Rules
+            - 6.1b Impact of International Organizations on Cyber Norms and Rules
+            - 6.1c Case Studies of International Organizations in Cyber Governance
+        - '- Section: 6.2 Case Studies: Cyber Politics in Different Regions of the World:':
+            subsections:
+            - 6.2a Cyber Politics in North America
+            - 6.2b Cyber Politics in Europe
+            - 6.2c Cyber Politics in Asia
+        - '- Section: 6.3 The Evolution of Cyber Norms and Rules:':
+            subsections:
+            - 6.3a Evolution of Cyber Norms
+            - 6.3b Evolution of Cyber Rules
+            - 6.3c Impact of Evolving Cyber Norms and Rules on International Relations
+        - '- Section: 6.4 Challenges in Cyber Governance:':
+            subsections:
+            - 6.4a Current Challenges in Cyber Governance
+            - 6.4b Future Challenges in Cyber Governance
+            - 6.4c Strategies to Overcome Challenges in Cyber Governance
+    - '- Chapter 7: Cyber Security and International Law:':
+        sections:
+        - '- Section: 7.1 The Role of International Law in Cyber Security:':
+            subsections:
+            - 7.1a Role of International Law in Cyber Security
+            - 7.1b Impact of International Law on Cyber Security
+            - 7.1c Case Studies of International Law in Cyber Security
+        - '- Section: 7.2 Challenges in Applying International Law to Cyberspace:':
+            subsections:
+            - 7.2a Current Challenges in Applying International Law to Cyberspace
+            - 7.2b Future Challenges in Applying International Law to Cyberspace
+            - 7.2c Strategies to Overcome Challenges in Applying International Law
+              to Cyberspace
+        - '- Section: 7.3 The Evolution of International Law in Cyberspace:':
+            subsections:
+            - 7.3a Evolution of International Law in Cyberspace
+            - 7.3b Impact of Evolving International Law on Cyber Security
+            - 7.3c Case Studies of International Law in Cyberspace
+        - '- Section: 7.4 The Role of Non-State Actors in International Law and Cyber Security:':
+            subsections:
+            - 7.4a Role of Non-State Actors in International Law and Cyber Security
+            - 7.4b Impact of Non-State Actors on International Law and Cyber Security
+            - 7.4c Case Studies of Non-State Actors in International Law and Cyber
+              Security
+    - '- Chapter 8: Cyber Diplomacy and International Relations:':
+        sections:
+        - '- Section: 8.1 The Role of Cyber Diplomacy in International Relations:':
+            subsections:
+            - 8.1a Role of Cyber Diplomacy in International Relations
+            - 8.1b Impact of Cyber Diplomacy on International Relations
+            - 8.1c Case Studies of Cyber Diplomacy in International Relations
+        - '- Section: 8.2 Challenges in Cyber Diplomacy:':
+            subsections:
+            - 8.2a Current Challenges in Cyber Diplomacy
+            - 8.2b Future Challenges in Cyber Diplomacy
+            - 8.2c Strategies to Overcome Challenges in Cyber Diplomacy
+        - '- Section: 8.3 The Evolution of Cyber Diplomacy:':
+            subsections:
+            - 8.3a Evolution of Cyber Diplomacy
+            - 8.3b Impact of Evolving Cyber Diplomacy on International Relations
+            - 8.3c Case Studies of Cyber Diplomacy
+        - '- Section: 8.4 The Role of Non-State Actors in Cyber Diplomacy:':
+            subsections:
+            - 8.4a Role of Non-State Actors in Cyber Diplomacy
+            - 8.4b Impact of Non-State Actors on Cyber Diplomacy
+            - 8.4c Case Studies of Non-State Actors in Cyber Diplomacy
+    - '- Chapter 9: Cyber Warfare and International Security:':
+        sections:
+        - '- Section: 9.1 The Role of Cyber Warfare in International Security:':
+            subsections:
+            - 9.1a Role of Cyber Warfare in International Security
+            - 9.1b Impact of Cyber Warfare on International Security
+            - 9.1c Case Studies of Cyber Warfare in International Security
+        - '- Section: 9.2 Challenges in Cyber Warfare:':
+            subsections:
+            - 9.2a Current Challenges in Cyber Warfare
+            - 9.2b Future Challenges in Cyber Warfare
+            - 9.2c Strategies to Overcome Challenges in Cyber Warfare
+        - '- Section: 9.3 The Evolution of Cyber Warfare:':
+            subsections:
+            - 9.3a Evolution of Cyber Warfare
+            - 9.3b Impact of Evolving Cyber Warfare on International Security
+            - 9.3c Case Studies of Cyber Warfare
+        - '- Section: 9.4 The Role of Non-State Actors in Cyber Warfare:':
+            subsections:
+            - 9.4a Role of Non-State Actors in Cyber Warfare
+            - 9.4b Impact of Non-State Actors on Cyber Warfare
+            - 9.4c Case Studies of Non-State Actors in Cyber Warfare
+    - '- Chapter 10: Cyber Terrorism and International Security:':
+        sections:
+        - '- Section: 10.1 The Role of Cyber Terrorism in International Security:':
+            subsections:
+            - 10.1a Role of Cyber Terrorism in International Security
+            - 10.1b Impact of Cyber Terrorism on International Security
+            - 10.1c Case Studies of Cyber Terrorism in International Security
+        - '- Section: 10.2 Challenges in Cyber Terrorism:':
+            subsections:
+            - 10.2a Current Challenges in Cyber Terrorism
+            - 10.2b Future Challenges in Cyber Terrorism
+            - 10.2c Strategies to Overcome Challenges in Cyber Terrorism
+        - '- Section: 10.3 The Evolution of Cyber Terrorism:':
+            subsections:
+            - 10.3a Evolution of Cyber Terrorism
+            - 10.3b Impact of Evolving Cyber Terrorism on International Security
+            - 10.3c Case Studies of Cyber Terrorism
+        - '- Section: 10.4 The Role of Non-State Actors in Cyber Terrorism:':
+            subsections:
+            - 10.4a Role of Non-State Actors in Cyber Terrorism
+            - 10.4b Impact of Non-State Actors on Cyber Terrorism
+            - 10.4c Case Studies of Non-State Actors in Cyber Terrorism
+    - '- Chapter 11: Cyber Espionage and International Security:':
+        sections:
+        - '- Section: 11.1 The Role of Cyber Espionage in International Security:':
+            subsections:
+            - 11.1a Role of Cyber Espionage in International Security
+            - 11.1b Impact of Cyber Espionage on International Security
+            - 11.1c Case Studies of Cyber Espionage in International Security
+        - '- Section: 11.2 Challenges in Cyber Espionage:':
+            subsections:
+            - 11.2a Current Challenges in Cyber Espionage
+            - 11.2b Future Challenges in Cyber Espionage
+            - 11.2c Strategies to Overcome Challenges in Cyber Espionage
+        - '- Section: 11.3 The Evolution of Cyber Espionage:':
+            subsections:
+            - 11.3a Evolution of Cyber Espionage
+            - 11.3b Impact of Evolving Cyber Espionage on International Security
+            - 11.3c Case Studies of Cyber Espionage
+        - '- Section: 11.4 The Role of Non-State Actors in Cyber Espionage:':
+            subsections:
+            - 11.4a Role of Non-State Actors in Cyber Espionage
+            - 11.4b Impact of Non-State Actors on Cyber Espionage
+            - 11.4c Case Studies of Non-State Actors in Cyber Espionage
+    - '- Chapter 12: Cyber Crime and International Security:':
+        sections:
+        - '- Section: 12.1 The Role of Cyber Crime in International Security:':
+            subsections:
+            - 12.1a Role of Cyber Crime in International Security
+            - 12.1b Impact of Cyber Crime on International Security
+            - 12.1c Case Studies of Cyber Crime in International Security
+        - '- Section: 12.2 Challenges in Cyber Crime:':
+            subsections:
+            - 12.2a Current Challenges in Cyber Crime
+            - 12.2b Future Challenges in Cyber Crime
+            - 12.2c Strategies to Overcome Challenges in Cyber Crime
+        - '- Section: 12.3 The Evolution of Cyber Crime:':
+            subsections:
+            - 12.3a Evolution of Cyber Crime
+            - 12.3b Impact of Evolving Cyber Crime on International Security
+            - 12.3c Case Studies of Cyber Crime
+        - '- Section: 12.4 The Role of Non-State Actors in Cyber Crime:':
+            subsections:
+            - 12.4a Role of Non-State Actors in Cyber Crime
+            - 12.4b Impact of Non-State Actors on Cyber Crime
+            - 12.4c Case Studies of Non-State Actors in Cyber Crime
+    - '- Chapter 13: Cyber Security and Human Rights:':
+        sections:
+        - '- Section: 13.1 The Role of Cyber Security in Human Rights:':
+            subsections:
+            - 13.1a Role of Cyber Security in Human Rights
+            - 13.1b Impact of Cyber Security on Human Rights
+            - 13.1c Case Studies of Cyber Security in Human Rights
+        - '- Section: 13.2 Challenges in Cyber Security and Human Rights:':
+            subsections:
+            - 13.2a Current Challenges in Cyber Security and Human Rights
+            - 13.2b Future Challenges in Cyber Security and Human Rights
+            - 13.2c Strategies to Overcome Challenges in Cyber Security and Human
+              Rights
+        - '- Section: 13.3 The Evolution of Cyber Security and Human Rights:':
+            subsections:
+            - 13.3a Evolution of Cyber Security and Human Rights
+            - 13.3b Impact of Evolving Cyber Security on Human Rights
+            - 13.3c Case Studies of Cyber Security and Human Rights
+        - '- Section: 13.4 The Role of Non-State Actors in Cyber Security and Human Rights:':
+            subsections:
+            - 13.4a Role of Non-State Actors in Cyber Security and Human Rights
+            - 13.4b Impact of Non-State Actors on Cyber Security and Human Rights
+            - 13.4c Case Studies of Non-State Actors in Cyber Security and Human Rights
+    - '- Chapter 14: Cyber Security and Economic Development:':
+        sections:
+        - '- Section: 14.1 The Role of Cyber Security in Economic Development:':
+            subsections:
+            - 14.1a Role of Cyber Security in Economic Development
+            - 14.1b Impact of Cyber Security on Economic Development
+            - 14.1c Case Studies of Cyber Security in Economic Development
+        - '- Section: 14.2 Challenges in Cyber Security and Economic Development:':
+            subsections:
+            - 14.2a Current Challenges in Cyber Security and Economic Development
+            - 14.2b Future Challenges in Cyber Security and Economic Development
+            - 14.2c Strategies to Overcome Challenges in Cyber Security and Economic
+              Development
+        - '- Section: 14.3 The Evolution of Cyber Security and Economic Development:':
+            subsections:
+            - 14.3a Evolution of Cyber Security and Economic Development
+            - 14.3b Impact of Evolving Cyber Security on Economic Development
+            - 14.3c Case Studies of Cyber Security and Economic Development
+        - '- Section: 14.4 The Role of Non-State Actors in Cyber Security and Economic Development:':
+            subsections:
+            - 14.4a Role of Non-State Actors in Cyber Security and Economic Development
+            - 14.4b Impact of Non-State Actors on Cyber Security and Economic Development
+            - 14.4c Case Studies of Non-State Actors in Cyber Security and Economic
+              Development
+    - '- Chapter 15: Cyber Security and Environmental Sustainability:':
+        sections:
+        - '- Section: 15.1 The Role of Cyber Security in Environmental Sustainability:':
+            subsections:
+            - 15.1a Role of Cyber Security in Environmental Sustainability
+            - 15.1b Impact of Cyber Security on Environmental Sustainability
+            - 15.1c Case Studies of Cyber Security in Environmental Sustainability
+        - '- Section: 15.2 Challenges in Cyber Security and Environmental Sustainability:':
+            subsections:
+            - 15.2a Current Challenges in Cyber Security and Environmental Sustainability
+            - 15.2b Future Challenges in Cyber Security and Environmental Sustainability
+            - 15.2c Strategies to Overcome Challenges in Cyber Security and Environmental
+              Sustainability
+        - '- Section: 15.3 The Evolution of Cyber Security and Environmental Sustainability:':
+            subsections:
+            - 15.3a Evolution of Cyber Security and Environmental Sustainability
+            - 15.3b Impact of Evolving Cyber Security on Environmental Sustainability
+            - 15.3c Case Studies of Cyber Security and Environmental Sustainability
+        - '- Section: 15.4 The Role of Non-State Actors in Cyber Security and Environmental Sustainability:':
+            subsections:
+            - 15.4a Role of Non-State Actors in Cyber Security and Environmental Sustainability
+            - 15.4b Impact of Non-State Actors on Cyber Security and Environmental
+              Sustainability
+            - 15.4c Case Studies of Non-State Actors in Cyber Security and Environmental
+              Sustainability
+    - '- Chapter 16: Cyber Security and Social Development:':
+        sections:
+        - '- Section: 16.1 The Role of Cyber Security in Social Development:':
+            subsections:
+            - 16.1a Role of Cyber Security in Social Development
+            - 16.1b Impact of Cyber Security on Social Development
+            - 16.1c Case Studies of Cyber Security in Social Development
+        - '- Section: 16.2 Challenges in Cyber Security and Social Development:':
+            subsections:
+            - 16.2a Current Challenges in Cyber Security and Social Development
+            - 16.2b Future Challenges in Cyber Security and Social Development
+            - 16.2c Strategies to Overcome Challenges in Cyber Security and Social
+              Development
+        - '- Section: 16.3 The Evolution of Cyber Security and Social Development:':
+            subsections:
+            - 16.3a Evolution of Cyber Security and Social Development
+            - 16.3b Impact of Evolving Cyber Security on Social Development
+            - 16.3c Case Studies of Cyber Security and Social Development
+        - '- Section: 16.4 The Role of Non-State Actors in Cyber Security and Social Development:':
+            subsections:
+            - 16.4a Role of Non-State Actors in Cyber Security and Social Development
+            - 16.4b Impact of Non-State Actors on Cyber Security and Social Development
+            - 16.4c Case Studies of Non-State Actors in Cyber Security and Social
+              Development
+    - '- Chapter 17: Cyber Security and Cultural Development:':
+        sections:
+        - '- Section: 17.1 The Role of Cyber Security in Cultural Development:':
+            subsections:
+            - 17.1a Role of Cyber Security in Cultural Development
+            - 17.1b Impact of Cyber Security on Cultural Development
+            - 17.1c Case Studies of Cyber Security in Cultural Development
+        - '- Section: 17.2 Challenges in Cyber Security and Cultural Development:':
+            subsections:
+            - 17.2a Current Challenges in Cyber Security and Cultural Development
+            - 17.2b Future Challenges in Cyber Security and Cultural Development
+            - 17.2c Strategies to Overcome Challenges in Cyber Security and Cultural
+              Development
+        - '- Section: 17.3 The Evolution of Cyber Security and Cultural Development:':
+            subsections:
+            - 17.3a Evolution of Cyber Security and Cultural Development
+            - 17.3b Impact of Evolving Cyber Security on Cultural Development
+            - 17.3c Case Studies of Cyber Security and Cultural Development
+        - '- Section: 17.4 The Role of Non-State Actors in Cyber Security and Cultural Development:':
+            subsections:
+            - 17.4a Role of Non-State Actors in Cyber Security and Cultural Development
+            - '17.4'

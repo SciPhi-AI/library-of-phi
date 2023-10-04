@@ -1,0 +1,469 @@
+textbook: 
+"Tribology: A Comprehensive Study of Friction, Wear, and Lubrication":
+
+chapters:
+- Chapter 1: Introduction to Tribology:
+sections:
+- Section: 1.1 Chemical and Physical State of the Solid Surface:
+subsections:
+- 1.1a Chemical Composition and Surface Energy of Solids
+- 1.1b Surface Roughness and Its Effect on Friction
+- 1.1c Surface Topography and Its Influence on Friction and Wear
+
+- Section: 1.2 Friction:
+subsections:
+- 1.2a Adhesion and Adhesive Wear
+- 1.2b Measurement Techniques for Friction Coefficients
+- 1.2c Experimental Analysis of Wear Mechanisms
+
+- Section: 1.3 Lab: Friction Measurement:
+subsections:
+- 1.3a Wear Testing Methods and Standards
+- 1.3b Elasto-plastic Behavior of Materials under Load
+- 1.3c Wear of Metallic Materials
+
+- Chapter 2: Analysis of Large Plastic Deformation of Elasto-plastic Solids:
+sections:
+- Section: 2.1 Introduction to Wear:
+subsections:
+- 2.1a Wear of Ceramics and Composites
+- 2.1b Lubricant Film Thickness and Pressure Distribution
+- 2.1c Rheological Properties of Lubricants
+
+- Section: 2.2 Response of Materials to Surface Traction:
+subsections:
+- 2.2a Tribological Aspects in Pin Joint Design
+- 2.2b Electrical Contact Resistance and Wear
+- 2.2c Tool Wear and Cutting Mechanics
+
+- Section: 2.3 Wear Mechanisms:
+subsections:
+- 2.3a Coating Materials and Techniques for Wear Resistance
+- 2.3b Surface Modification Techniques for Wear Resistance
+- 2.3c Tribological Behavior of Nanostructured Materials
+
+- Section: 2.4 Surface Engineering Techniques for Wear Reduction:
+subsections:
+- 2.4a Experimental Techniques in Nano and Micro-tribology
+- 2.4b Polymer Tribology in Automotive and Aerospace Applications
+- 2.4c Heat Transfer in Solution Wear
+
+- Chapter 3: Boundary Lubrication:
+sections:
+- Section: 3.1 Hydrodynamic Lubrication:
+subsections:
+- 3.1a Wear of Materials in Corrosive Environments
+- 3.1b Corrosion Protection and Surface Treatments
+- 3.1c Friction and Wear in Dynamic Sealing Applications
+
+- Section: 3.2 Design of Pin Joints and Electrical Connectors:
+subsections:
+- 3.2a Design Principles for Low Friction Surfaces
+- 3.2b Sealing Mechanisms and Performance
+- 3.2c Wear and Friction of Polymer-based Materials
+
+- Section: 3.3 Design of Cutting Tools:
+subsections:
+- 3.3a Tribological Behavior of Composite Materials
+- 3.3b Wear and Friction of Polymer-based Materials
+- 3.3c Tribological Behavior of Composite Materials
+
+- Section: 3.4 Design Considerations for Boundary Lubrication:
+subsections:
+- 3.4a Design Principles for Low Friction Surfaces
+- 3.4b Friction and Wear in Dynamic Sealing Applications
+- 3.4c Polymer Tribology in Automotive and Aerospace Applications
+
+- Chapter 4: Introduction to Axiomatic Design:
+sections:
+- Section: 4.1 Design of Low Friction Surfaces:
+subsections:
+- 4.1a Design Principles for Low Friction Surfaces
+- 4.1b Sealing Mechanisms and Performance
+- 4.1c Wear and Friction of Polymer-based Materials
+
+- Section: 4.2 Design of Seals:
+subsections:
+- 4.2a Tribological Behavior of Composite Materials
+- 4.2b Wear and Friction of Polymer-based Materials
+- 4.2c Tribological Behavior of Composite Materials
+
+- Section: 4.3 Friction and Wear of Polymers and Composites:
+subsections:
+- 4.3a Design Principles for Low Friction Surfaces
+- 4.3b Friction and Wear in Dynamic Sealing Applications
+- 4.3c Polymer Tribology in Automotive and Aerospace Applications
+
+- Section: 4.4 Introduction to Axiomatic Design Principles:
+subsections:
+- 4.4a Design Principles for Low Friction Surfaces
+- 4.4b Sealing Mechanisms and Performance
+- 4.4c Wear and Friction of Polymer-based Materials
+
+- Chapter 5: Solution Wear:
+sections:
+- Section: 5.1 Temperature Distribution:
+subsections:
+- 5.1a Heat Transfer in Solution Wear
+- 5.1b Wear of Materials in Corrosive Environments
+- 5.1c Corrosion Protection and Surface Treatments
+
+- Section: 5.2 Erosive Wear:
+subsections:
+- 5.2a Surface Modification Techniques for Wear Resistance
+- 5.2b Tribological Behavior of Nanostructured Materials
+- 5.2c Experimental Techniques in Nano and Micro-tribology
+
+- Section: 5.3 Corrosive Wear:
+subsections:
+- 5.3a Polymer Tribology in Automotive and Aerospace Applications
+- 5.3b Heat Transfer in Solution Wear
+- 5.3c Wear of Materials in Corrosive Environments
+
+- Section: 5.4 Prevention and Mitigation of Solution Wear:
+subsections:
+- 5.4a Corrosion Protection and Surface Treatments
+- 5.4b Surface Modification Techniques for Wear Resistance
+- 5.4c Tribological Behavior of Nanostructured Materials
+
+- Chapter 6: Nano and Micro-tribology:
+sections:
+- Section: 6.1 Term Paper Presentations:
+subsections:
+- 6.1a Experimental Techniques in Nano and Micro-tribology
+- 6.1b Polymer Tribology in Automotive and Aerospace Applications
+- 6.1c Heat Transfer in Solution Wear
+
+- Section: 6.2 Surface Characterization Techniques in Nano and Micro-tribology:
+subsections:
+- 6.2a Wear of Materials in Corrosive Environments
+- 6.2b Corrosion Protection and Surface Treatments
+- 6.2c Surface Modification Techniques for Wear Resistance
+
+- Section: 6.3 Nanoscale Wear and Friction:
+subsections:
+- 6.3a Tribological Behavior of Nanostructured Materials
+- 6.3b Experimental Techniques in Nano and Micro-tribology
+- 6.3c Polymer Tribology in Automotive and Aerospace Applications
+
+- Section: 6.4 Microscale Lubrication Mechanisms:
+subsections:
+- 6.4a Heat Transfer in Solution Wear
+- 6.4b Wear of Materials in Corrosive Environments
+- 6.4c Corrosion Protection and Surface Treatments
+
+- Chapter 7: Tribology in Mechanical Systems:
+sections:
+- Section: 7.1 Tribology in Automotive Systems:
+subsections:
+- 7.1a Engine Tribology
+- 7.1b Brake System Tribology
+- 7.1c Transmission Tribology
+
+- Section: 7.2 Tribology in Aerospace Systems:
+subsections:
+- 7.2a Tribology of Aircraft Engines
+- 7.2b Tribology of Landing Gear Systems
+- 7.2c Tribology of Control Systems
+
+- Section: 7.3 Tribology in Industrial Machinery:
+subsections:
+- 7.3a Tribology of Bearings
+- 7.3b Tribology of Gears
+- 7.3c Tribology of Seals
+
+- Section: 7.4 Tribology in Microelectromechanical Systems (MEMS):
+subsections:
+- 7.4a Tribology of Micro-actuators
+- 7.4b Tribology of Micro-sensors
+- 7.4c Tribology of Micro-gears
+
+- Chapter 8: Tribology in Material Processing:
+sections:
+- Section: 8.1 Tribology in Metal Forming:
+subsections:
+- 8.1a Tribology of Rolling
+- 8.1b Tribology of Extrusion
+- 8.1c Tribology of Drawing
+
+- Section: 8.2 Tribology in Machining:
+subsections:
+- 8.2a Tribology of Cutting
+- 8.2b Tribology of Grinding
+- 8.2c Tribology of Polishing
+
+- Section: 8.3 Tribology in Additive Manufacturing:
+subsections:
+- 8.3a Tribology of Fused Deposition Modeling (FDM)
+- 8.3b Tribology of Selective Laser Sintering (SLS)
+- 8.3c Tribology of Stereolithography (SLA)
+
+- Section: 8.4 Tribology in Surface Finishing:
+subsections:
+- 8.4a Tribology of Sandblasting
+- 8.4b Tribology of Shot Peening
+- 8.4c Tribology of Electroplating
+
+- Chapter 9: Tribology in Biomedical Applications:
+sections:
+- Section: 9.1 Tribology of Artificial Joints:
+subsections:
+- 9.1a Tribology of Hip Implants
+- 9.1b Tribology of Knee Implants
+- 9.1c Tribology of Shoulder Implants
+
+- Section: 9.2 Tribology of Dental Implants:
+subsections:
+- 9.2a Tribology of Dental Implants
+- 9.2b Tribology of Dental Braces
+- 9.2c Tribology of Dentures
+
+- Section: 9.3 Tribology of Cardiovascular Devices:
+subsections:
+- 9.3a Tribology of Heart Valves
+- 9.3b Tribology of Stents
+- 9.3c Tribology of Pacemakers
+
+- Section: 9.4 Tribology of Prosthetics:
+subsections:
+- 9.4a Tribology of Prosthetic Limbs
+- 9.4b Tribology of Prosthetic Hands
+- 9.4c Tribology of Prosthetic Feet
+
+- Chapter 10: Tribology in Energy Systems:
+sections:
+- Section: 10.1 Tribology in Wind Turbines:
+subsections:
+- 10.1a Tribology of Wind Turbine Gearboxes
+- 10.1b Tribology of Wind Turbine Bearings
+- 10.1c Tribology of Wind Turbine Blade Pitch Systems
+
+- Section: 10.2 Tribology in Solar Energy Systems:
+subsections:
+- 10.2a Tribology of Solar Panel Tracking Systems
+- 10.2b Tribology of Concentrated Solar Power Systems
+- 10.2c Tribology of Solar Thermal Collectors
+
+- Section: 10.3 Tribology in Hydroelectric Power Systems:
+subsections:
+- 10.3a Tribology of Hydro Turbines
+- 10.3b Tribology of Hydroelectric Generators
+- 10.3c Tribology of Hydroelectric Dam Gates
+
+- Section: 10.4 Tribology in Nuclear Power Systems:
+subsections:
+- 10.4a Tribology of Nuclear Reactor Control Systems
+- 10.4b Tribology of Nuclear Fuel Handling Systems
+- 10.4c Tribology of Nuclear Waste Storage Systems
+
+- Chapter 11: Tribology in Marine Applications:
+sections:
+- Section: 11.1 Tribology of Marine Propulsion Systems:
+subsections:
+- 11.1a Tribology of Marine Diesel Engines
+- 11.1b Tribology of Marine Gas Turbines
+- 11.1c Tribology of Marine Propellers
+
+- Section: 11.2 Tribology of Marine Navigation Systems:
+subsections:
+- 11.2a Tribology of Marine Steering Systems
+- 11.2b Tribology of Marine Radar Systems
+- 11.2c Tribology of Marine Sonar Systems
+
+- Section: 11.3 Tribology of Marine Deck Machinery:
+subsections:
+- 11.3a Tribology of Marine Winches
+- 11.3b Tribology of Marine Cranes
+- 11.3c Tribology of Marine Capstans
+
+- Section: 11.4 Tribology of Marine Safety Systems:
+subsections:
+- 11.4a Tribology of Marine Lifeboat Release Systems
+- 11.4b Tribology of Marine Firefighting Systems
+- 11.4c Tribology of Marine Evacuation Systems
+
+- Chapter 12: Tribology in Space Applications:
+sections:
+- Section: 12.1 Tribology of Spacecraft Propulsion Systems:
+subsections:
+- 12.1a Tribology of Rocket Engines
+- 12.1b Tribology of Spacecraft Thrusters
+- 12.1c Tribology of Spacecraft Reaction Wheels
+
+- Section: 12.2 Tribology of Spacecraft Navigation Systems:
+subsections:
+- 12.2a Tribology of Spacecraft Gyroscopes
+- 12.2b Tribology of Spacecraft Star Trackers
+- 12.2c Tribology of Spacecraft Sun Sensors
+
+- Section: 12.3 Tribology of Spacecraft Docking Systems:
+subsections:
+- 12.3a Tribology of Spacecraft Docking Mechanisms
+- 12.3b Tribology of Spacecraft Berthing Mechanisms
+- 12.3c Tribology of Spacecraft Capture Mechanisms
+
+- Section: 12.4 Tribology of Spacecraft Life Support Systems:
+subsections:
+- 12.4a Tribology of Spacecraft Air Revitalization Systems
+- 12.4b Tribology of Spacecraft Water Recovery Systems
+- 12.4c Tribology of Spacecraft Waste Management Systems
+
+- Chapter 13: Tribology in Agricultural Applications:
+sections:
+- Section: 13.1 Tribology of Agricultural Machinery:
+subsections:
+- 13.1a Tribology of Tractors
+- 13.1b Tribology of Harvesters
+- 13.1c Tribology of Ploughs
+
+- Section: 13.2 Tribology of Agricultural Tools:
+subsections:
+- 13.2a Tribology of Shovels
+- 13.2b Tribology of Hoes
+- 13.2c Tribology of Rakes
+
+- Section: 13.3 Tribology of Agricultural Processing Equipment:
+subsections:
+- 13.3a Tribology of Grain Mills
+- 13.3b Tribology of Threshers
+- 13.3c Tribology of Winnowers
+
+- Section: 13.4 Tribology of Agricultural Irrigation Systems:
+subsections:
+- 13.4a Tribology of Pumps
+- 13.4b Tribology of Valves
+- 13.4c Tribology of Pipes
+
+- Chapter 14: Tribology in Mining Applications:
+sections:
+- Section: 14.1 Tribology of Mining Machinery:
+subsections:
+- 14.1a Tribology of Excavators
+- 14.1b Tribology of Loaders
+- 14.1c Tribology of Drills
+
+- Section: 14.2 Tribology of Mining Tools:
+subsections:
+- 14.2a Tribology of Picks
+- 14.2b Tribology of Shovels
+- 14.2c Tribology of Hammers
+
+- Section: 14.3 Tribology of Mining Processing Equipment:
+subsections:
+- 14.3a Tribology of Crushers
+- 14.3b Tribology of Grinders
+- 14.3c Tribology of Screens
+
+- Section: 14.4 Tribology of Mining Safety Systems:
+subsections:
+- 14.4a Tribology of Brakes
+- 14.4b Tribology of Winches
+- 14.4c Tribology of Safety Locks
+
+- Chapter 15: Tribology in Construction Applications:
+sections:
+- Section: 15.1 Tribology of Construction Machinery:
+subsections:
+- 15.1a Tribology of Cranes
+- 15.1b Tribology of Bulldozers
+- 15.1c Tribology of Concrete Mixers
+
+- Section: 15.2 Tribology of Construction Tools:
+subsections:
+- 15.2a Tribology of Hammers
+- 15.2b Tribology of Saws
+- 15.2c Tribology of Drills
+
+- Section: 15.3 Tribology of Construction Safety Systems:
+subsections:
+- 15.3a Tribology of Safety Harnesses
+- 15.3b Tribology of Safety Nets
+- 15.3c Tribology of Safety Ladders
+
+- Section: 15.4 Tribology of Construction Material Handling Systems:
+subsections:
+- 15.4a Tribology of Conveyors
+- 15.4b Tribology of Hoists
+- 15.4c Tribology of Forklifts
+
+- Chapter 16: Tribology in Manufacturing Applications:
+sections:
+- Section: 16.1 Tribology of Manufacturing Machinery:
+subsections:
+- 16.1a Tribology of Lathes
+- 16.1b Tribology of Milling Machines
+- 16.1c Tribology of Grinding Machines
+
+- Section: 16.2 Tribology of Manufacturing Tools:
+subsections:
+- 16.2a Tribology of Cutting Tools
+- 16.2b Tribology of Forming Tools
+- 16.2c Tribology of Finishing Tools
+
+- Section: 16.3 Tribology of Manufacturing Material Handling Systems:
+subsections:
+- 16.3a Tribology of Conveyors
+- 16.3b Tribology of Hoists
+- 16.3c Tribology of Robots
+
+- Section: 16.4 Tribology of Manufacturing Safety Systems:
+subsections:
+- 16.4a Tribology of Safety Guards
+- 16.4b Tribology of Safety Locks
+- 16.4c Tribology of Safety Interlocks
+
+- Chapter 17: Tribology in Transportation Applications:
+sections:
+- Section: 17.1 Tribology of Road Vehicles:
+subsections:
+- 17.1a Tribology of Engines
+- 17.1b Tribology of Transmissions
+- 17.1c Tribology of Brakes
+
+- Section: 17.2 Tribology of Rail Vehicles:
+subsections:
+- 17.2a Tribology of Wheel-Rail Contact
+- 17.2b Tribology of Brakes
+- 17.2c Tribology of Bearings
+
+- Section: 17.3 Tribology of Marine Vehicles:
+subsections:
+- 17.3a Tribology of Propellers
+- 17.3b Tribology of Engines
+- 17.3c Tribology of Steering Systems
+
+- Section: 17.4 Tribology of Air Vehicles:
+subsections:
+- 17.4a Tribology of Engines
+- 17.4b Tribology of Landing Gear
+- 17.4c Tribology of Control Systems
+
+- Chapter 18: Tribology in Environmental Applications:
+sections:
+- Section: 18.1 Tribology of Water Treatment Systems:
+subsections:
+- 18.1a Tribology of Pumps
+- 18.1b Tribology of Valves
+- 18.1c Tribology of Pipes
+
+- Section: 18.2 Tribology of Waste Management Systems:
+subsections:
+- 18.2a Tribology of Crushers
+- 18.2b Tribology of Conveyors
+- 18.2c Tribology of Incinerators
+
+- Section: 18.3 Tribology of Renewable Energy Systems:
+subsections:
+- 18.3a Tribology of Wind Turbines
+- 18.3b Tribology of Solar Trackers
+- 18.3c Tribology of Hydro Turbines
+
+- Section: 18.4 Tribology of Environmental Monitoring Systems:
+subsections:
+- 18.4a Tribology of Sensors
+- 18.4b Tribology of Samplers
+- 18.4c Tribology of Analyzers
+
+- Chapter 19: Tribology in Sports Applications:
+sections:
+- Section: 

@@ -1,0 +1,146 @@
+textbook:
+  Introduction to Civil Engineering Design: A Comprehensive Guide
+  chapters:
+    - Introduction to Civil Engineering Design:
+        sections:
+        - Design Principles 1:
+            subsections:
+            - Introduction to design principles
+            - Importance of design principles in civil engineering
+            - Application of design principles in civil engineering projects
+        - Sketching:
+            subsections:
+            - Introduction to sketching in civil engineering design
+            - Tools and techniques for sketching
+            - Importance of sketching in the design process
+        - Design Project 1 - Paperweight:
+            subsections:
+            - Design Principles 1:
+                subsubsections:
+                - Introduction to design principles
+                - Importance of design principles in civil engineering
+                - Application of design principles in civil engineering projects
+            - Sketching:
+                subsubsections:
+                - Introduction to sketching in civil engineering design
+                - Tools and techniques for sketching
+                - Importance of sketching in the design process
+            - Complete Paperweight Design:
+                subsubsections:
+                - Design requirements for a paperweight
+                - Material selection for paperweight design
+                - Structural considerations for paperweight design
+    - Computer Aided Design (CAD):
+        sections:
+        - Sketching:
+            subsections:
+            - Introduction to sketching in civil engineering design
+            - Tools and techniques for sketching
+            - Importance of sketching in the design process
+        - Design Principles 2:
+            subsections:
+            - Advanced design principles in civil engineering
+            - Applications of advanced design principles in civil engineering projects
+            - Integrating design principles with CAD software
+        - Prepare Deltagame:
+            subsections:
+            - Introduction to Deltagame preparation
+            - Tools and techniques for preparing Deltagame
+            - Importance of Deltagame in civil engineering design process
+    - Deltagame:
+        sections:
+        - 'Specialists'' Meeting':
+            subsections:
+            - Importance of specialists' meeting in Deltagame
+            - Role of specialists in Deltagame
+            - Collaboration and communication in specialists' meeting
+        - Deltagame:
+            subsections:
+            - Introduction to Deltagame
+            - Rules and objectives of Deltagame
+            - Application of Deltagame in civil engineering design
+    - Design Project 2 - Charles River:
+        sections:
+        - Background, Brainstorm, Conceptualize:
+            subsections:
+            - Understanding the background of Charles River project
+            - Brainstorming ideas for Charles River design
+            - Conceptualizing the design approach for Charles River project
+        - Design Including Co:
+            subsections:
+            - Considerations for coordination in Charles River design
+            - Collaboration with other disciplines in Charles River design
+            - Coordinating design elements in Charles River project
+        - Presentation:
+            subsections:
+            - Effective presentation skills for Charles River design
+            - Visual aids and documentation for Charles River presentation
+            - Engaging the audience during Charles River presentation
+    - Design Project 4 - Green Line:
+        sections:
+        - Intro:
+            subsections:
+            - Introduction to Green Line project
+            - Objectives and challenges of Green Line design
+            - Importance of sustainability in Green Line project
+        - Brainstorm, Conceptualize, Alternatives:
+            subsections:
+            - Brainstorming ideas for Green Line design
+            - Conceptualizing alternative approaches for Green Line project
+            - Evaluating design alternatives for Green Line project
+        - Design:
+            subsections:
+            - Detailed design considerations for Green Line project
+            - Structural analysis and simulations for Green Line design
+            - Incorporating sustainable features in Green Line design
+        - Presentation:
+            subsections:
+            - Effective presentation skills for Green Line design
+            - Visual aids and documentation for Green Line presentation
+            - Engaging the audience during Green Line presentation
+    - Design Project 3 - Coat Stand:
+        sections:
+        - Coat Stand:
+            subsections:
+            - Introduction to coat stand design project
+            - Functional requirements for coat stand design
+            - Material selection and structural considerations for coat stand design
+    - Design Principles 3 and 4:
+        sections:
+        - Design Principles 3 and 4:
+            subsections:
+            - Advanced design principles in civil engineering
+            - Applications of advanced design principles in civil engineering projects
+            - Incorporating design principles 3 and 4 in the design process
+    - Design portfolios:
+        sections:
+        - The Design Process:
+            subsections:
+            - Overview of the design process in civil engineering
+            - Stages and steps involved in the design process
+            - Iterative nature of the design process in civil engineering
+        - Group/Teamwork Design:
+            subsections:
+            - Importance of teamwork in civil engineering design
+            - Effective communication and collaboration in design teams
+            - Strategies for successful group design projects
+        - 'Project 1: Paperweight Design':
+            subsections:
+            - Detailed analysis of the paperweight design project
+            - Design considerations for paperweight materials and structure
+            - Presentation and documentation requirements for paperweight design project
+        - 'Project 2: Charles River Project':
+            subsections:
+            - Detailed analysis of the Charles River design project
+            - Design considerations for Charles River site and infrastructure
+            - Presentation and documentation requirements for Charles River design project
+        - 'Project 4: Green Line':
+            subsections:
+            - Detailed analysis of the Green Line design project
+            - Design considerations for Green Line transportation system
+            - Presentation and documentation requirements for Green Line design project
+        - 'Project 3: Coat Stand':
+            subsections:
+            - Detailed analysis of the coat stand design project
+            - Design considerations for coat stand aesthetics and functionality
+            - Presentation and documentation requirements for coat stand design project

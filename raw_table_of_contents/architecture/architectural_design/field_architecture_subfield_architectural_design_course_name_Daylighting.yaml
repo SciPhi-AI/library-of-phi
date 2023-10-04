@@ -1,0 +1,361 @@
+textbook:
+  'Daylighting: A Comprehensive Guide to Harnessing Natural Light":':
+    chapters:
+    - '- Chapter 1: Introduction to Daylighting:':
+        sections:
+        - '- Section: 1.1 The Importance of Daylighting in Architecture:':
+            subsections:
+            - 1.1a Definition of Daylighting
+            - 1.1b Importance in Modern Architecture
+            - 1.1c Daylighting and Energy Efficiency
+        - '- Section: 1.2 The Benefits of Daylighting:':
+            subsections:
+            - 1.2a Health Benefits
+            - 1.2b Environmental Benefits
+            - 1.2c Economic Benefits
+        - '- Section: 1.3 Historical Overview of Daylighting:':
+            subsections:
+            - 1.3a Daylighting in Ancient Architecture
+            - 1.3b Evolution of Daylighting Techniques
+            - 1.3c Modern Daylighting Practices
+        - '- Section: 1.4 The Role of Daylighting in Sustainable Design:':
+            subsections:
+            - 1.4a Sustainable Design Principles
+            - 1.4b Daylighting and Green Building Certifications
+            - 1.4c Future Trends in Daylighting
+    - '- Chapter 2: Photometry and HDR Workshop:':
+        sections:
+        - '- Section: 2.1 Introduction to Photometry:':
+            subsections:
+            - 2.1a Basics of Photometry
+            - 2.1b Photometric Units and Measurements
+            - 2.1c Photometric Tools and Equipment
+        - '- Section: 2.2 Measurement Units and Standards:':
+            subsections:
+            - 2.2a Common Measurement Units in Photometry
+            - 2.2b International Standards in Photometry
+            - 2.2c Understanding Photometric Data Sheets
+        - '- Section: 2.3 High Dynamic Range Imaging Techniques:':
+            subsections:
+            - 2.3a Basics of High Dynamic Range Imaging
+            - 2.3b HDR Imaging Techniques
+            - 2.3c Applications of HDR in Daylighting
+        - '- Section: 2.4 Glare Analysis and Control Strategies:':
+            subsections:
+            - 2.4a Understanding Glare
+            - 2.4b Glare Analysis Methods
+            - 2.4c Glare Control Strategies
+        - '- Section: 2.5 Daylight Metrics and Performance Evaluation:':
+            subsections:
+            - 2.5a Common Daylight Metrics
+            - 2.5b Daylight Performance Evaluation Methods
+            - 2.5c Case Studies in Daylight Performance Evaluation
+    - '- Chapter 3: Massing Studies:':
+        sections:
+        - '- Section: 3.1 Concept of Massing in Architecture:':
+            subsections:
+            - 3.1a Definition of Architectural Massing
+            - 3.1b Importance of Massing in Daylighting
+            - 3.1c Massing Strategies for Optimal Daylighting
+        - '- Section: 3.2 Massing Analysis and Strategies:':
+            subsections:
+            - 3.2a Tools for Massing Analysis
+            - 3.2b Massing Strategies for Different Building Types
+            - 3.2c Case Studies in Massing Analysis
+        - '- Section: 3.3 Case Studies: Successful Massing Approaches:':
+            subsections:
+            - '3.3a Case Study 1: Massing for Daylight in a High-Rise Building'
+            - '3.3b Case Study 2: Massing for Daylight in a Low-Rise Building'
+            - '3.3c Case Study 3: Massing for Daylight in a Complex Building Form'
+    - '- Chapter 4: Designing with the Sun:':
+        sections:
+        - '- Section: 4.1 Solar Geometry and Principles:':
+            subsections:
+            - 4.1a Understanding Solar Geometry
+            - 4.1b Solar Path Diagrams
+            - 4.1c Solar Angles and Their Importance in Daylighting
+        - '- Section: 4.2 Solar Orientation and Building Layout:':
+            subsections:
+            - 4.2a Importance of Solar Orientation
+            - 4.2b Building Layout for Optimal Solar Access
+            - 4.2c Case Studies in Solar Orientation and Building Layout
+        - '- Section: 4.3 Daylighting Strategies for Different Building Types:':
+            subsections:
+            - 4.3a Daylighting Strategies for Residential Buildings
+            - 4.3b Daylighting Strategies for Commercial Buildings
+            - 4.3c Daylighting Strategies for Institutional Buildings
+        - '- Section: 4.4 Sunlight Analysis Techniques and Tools:':
+            subsections:
+            - 4.4a Sunlight Analysis Techniques
+            - 4.4b Tools for Sunlight Analysis
+            - 4.4c Case Studies in Sunlight Analysis
+    - '- Chapter 5: Physical Model Building:':
+        sections:
+        - '- Section: 5.1 Introduction to Physical Models in Daylighting Design:':
+            subsections:
+            - 5.1a Importance of Physical Models in Daylighting Design
+            - 5.1b Scale and Materials in Physical Models
+            - 5.1c Case Studies in Physical Model Building
+        - '- Section: 5.2 Building Scale Models: Materials, Techniques, and Considerations:':
+            subsections:
+            - 5.2a Choosing the Right Materials for Scale Models
+            - 5.2b Techniques for Building Scale Models
+            - 5.2c Considerations in Building Scale Models
+        - '- Section: 5.3 Light Manipulation Techniques in Physical Models:':
+            subsections:
+            - 5.3a Techniques for Manipulating Light in Scale Models
+            - 5.3b Tools for Light Manipulation in Scale Models
+            - 5.3c Case Studies in Light Manipulation Techniques
+        - '- Section: 5.4 Case Studies: Effective Use of Physical Models in Daylighting Design:':
+            subsections:
+            - '5.4a Case Study 1: Physical Model in a Residential Building Design'
+            - '5.4b Case Study 2: Physical Model in a Commercial Building Design'
+            - '5.4c Case Study 3: Physical Model in a Complex Building Design'
+    - '- Chapter 6: Daylight Simulations:':
+        sections:
+        - '- Section: 6.1 Introduction to Daylight Simulations:':
+            subsections:
+            - 6.1a Importance of Daylight Simulations
+            - 6.1b Basics of Daylight Simulations
+            - 6.1c Tools for Daylight Simulations
+        - '- Section: 6.2 Simulation Techniques and Software Tools:':
+            subsections:
+            - 6.2a Common Simulation Techniques in Daylighting
+            - 6.2b Software Tools for Daylight Simulations
+            - 6.2c Case Studies in Daylight Simulations
+        - '- Section: 6.3 Daylighting Analysis and Performance Evaluation:':
+            subsections:
+            - 6.3a Daylighting Analysis Techniques
+            - 6.3b Daylighting Performance Evaluation Methods
+            - 6.3c Case Studies in Daylighting Analysis and Performance Evaluation
+        - '- Section: 6.4 Case Studies: Successful Daylight Simulations in Real Projects:':
+            subsections:
+            - '6.4a Case Study 1: Daylight Simulation in a Residential Building'
+            - '6.4b Case Study 2: Daylight Simulation in a Commercial Building'
+            - '6.4c Case Study 3: Daylight Simulation in a Complex Building'
+    - '- Chapter 7: Light and Matter:':
+        sections:
+        - '- Section: 7.1 Properties of Light and Vision:':
+            subsections:
+            - 7.1a Basic Properties of Light
+            - 7.1b Human Vision and Perception of Light
+            - 7.1c Color and Light
+        - '- Section: 7.2 Interaction of Light with Different Materials:':
+            subsections:
+            - 7.2a Light and Transparent Materials
+            - 7.2b Light and Opaque Materials
+            - 7.2c Light and Reflective Materials
+        - '- Section: 7.3 Reflection and Refraction in Daylighting Design:':
+            subsections:
+            - 7.3a Basics of Reflection and Refraction
+            - 7.3b Reflection and Refraction in Daylighting Design
+            - 7.3c Case Studies in Reflection and Refraction
+        - '- Section: 7.4 Advanced Materials and Light Manipulation Techniques:':
+            subsections:
+            - 7.4a Advanced Materials in Daylighting Design
+            - 7.4b Light Manipulation Techniques
+            - 7.4c Case Studies in Advanced Materials and Light Manipulation
+    - '- Chapter 8: Circadian Effects of Light:':
+        sections:
+        - '- Section: 8.1 Biological Rhythms and Human Health:':
+            subsections:
+            - 8.1a Understanding Biological Rhythms
+            - 8.1b Light and Human Health
+            - 8.1c Case Studies in Biological Rhythms and Human Health
+        - '- Section: 8.2 Lighting Design for Circadian Well-being:':
+            subsections:
+            - 8.2a Principles of Lighting Design for Circadian Well-being
+            - 8.2b Techniques for Circadian Lighting Design
+            - 8.2c Case Studies in Circadian Lighting Design
+        - '- Section: 8.3 Daylight and Sleep Quality:':
+            subsections:
+            - 8.3a Understanding the Relationship Between Daylight and Sleep
+            - 8.3b Techniques for Improving Sleep Quality with Daylight
+            - 8.3c Case Studies in Daylight and Sleep Quality
+        - '- Section: 8.4 Case Studies: Circadian Lighting in Healthcare and Educational Facilities:':
+            subsections:
+            - '8.4a Case Study 1: Circadian Lighting in a Healthcare Facility'
+            - '8.4b Case Study 2: Circadian Lighting in an Educational Facility'
+            - '8.4c Case Study 3: Circadian Lighting in a Residential Building'
+    - '- Chapter 9: Daylight Availability:':
+        sections:
+        - '- Section: 9.1 Sun Path Diagrams and Analysis:':
+            subsections:
+            - 9.1a Understanding Sun Path Diagrams
+            - 9.1b Techniques for Sun Path Analysis
+            - 9.1c Case Studies in Sun Path Analysis
+        - '- Section: 9.2 Sunlight Intensity and Distribution:':
+            subsections:
+            - 9.2a Understanding Sunlight Intensity and Distribution
+            - 9.2b Techniques for Analyzing Sunlight Intensity and Distribution
+            - 9.2c Case Studies in Sunlight Intensity and Distribution
+        - '- Section: 9.3 Daylight Autonomy and Useful Daylight Illuminance:':
+            subsections:
+            - 9.3a Understanding Daylight Autonomy
+            - 9.3b Understanding Useful Daylight Illuminance
+            - 9.3c Case Studies in Daylight Autonomy and Useful Daylight Illuminance
+        - '- Section: 9.4 Daylighting Strategies for Different Climate Zones:':
+            subsections:
+            - 9.4a Daylighting Strategies for Hot Climates
+            - 9.4b Daylighting Strategies for Cold Climates
+            - 9.4c Daylighting Strategies for Temperate Climates
+    - '- Chapter 10: Visual Comfort & Occupant Behavior:':
+        sections:
+        - '- Section: 10.1 Glare Control Techniques and Strategies:':
+            subsections:
+            - 10.1a Understanding Glare
+            - 10.1b Techniques for Glare Control
+            - 10.1c Case Studies in Glare Control
+        - '- Section: 10.2 Daylighting Comfort and User Satisfaction:':
+            subsections:
+            - 10.2a Understanding Daylighting Comfort
+            - 10.2b Techniques for Improving User Satisfaction with Daylighting
+            - 10.2c Case Studies in Daylighting Comfort and User Satisfaction
+        - '- Section: 10.3 Occupant Behavior and Daylighting Design:':
+            subsections:
+            - 10.3a Understanding Occupant Behavior in Daylighting Design
+            - 10.3b Techniques for Incorporating Occupant Behavior in Daylighting
+              Design
+            - 10.3c Case Studies in Occupant Behavior and Daylighting Design
+        - '- Section: 10.4 Case Studies: User-Centric Daylighting Approaches:':
+            subsections:
+            - '10.4a Case Study 1: User-Centric Daylighting in a Residential Building'
+            - '10.4b Case Study 2: User-Centric Daylighting in a Commercial Building'
+            - '10.4c Case Study 3: User-Centric Daylighting in a Complex Building'
+    - '- Chapter 11: Envelope Design:':
+        sections:
+        - '- Section: 11.1 Window Design for Daylighting:':
+            subsections:
+            - 11.1a Understanding Window Design for Daylighting
+            - 11.1b Techniques for Window Design for Daylighting
+            - 11.1c Case Studies in Window Design for Daylighting
+        - '- Section: 11.2 Shading Systems and Light Control Devices:':
+            subsections:
+            - 11.2a Understanding Shading Systems and Light Control Devices
+            - 11.2b Techniques for Designing Shading Systems and Light Control Devices
+            - 11.2c Case Studies in Shading Systems and Light Control Devices
+        - '- Section: 11.3 Insulation and Thermal Performance in Daylighting Design:':
+            subsections:
+            - 11.3a Understanding Insulation and Thermal Performance in Daylighting
+              Design
+            - 11.3b Techniques for Improving Insulation and Thermal Performance in
+              Daylighting Design
+            - 11.3c Case Studies in Insulation and Thermal Performance in Daylighting
+              Design
+        - '- Section: 11.4 Case Studies: Innovative Envelope Design for Optimal Daylighting:':
+            subsections:
+            - '11.4a Case Study 1: Innovative Envelope Design in a Residential Building'
+            - '11.4b Case Study 2: Innovative Envelope Design in a Commercial Building'
+            - '11.4c Case Study 3: Innovative Envelope Design in a Complex Building'
+    - '- Chapter 12: Electric Lighting:':
+        sections:
+        - '- Section: 12.1 Artificial Lighting Systems and Technologies:':
+            subsections:
+            - 12.1a Understanding Artificial Lighting Systems and Technologies
+            - 12.1b Techniques for Integrating Artificial Lighting with Daylighting
+            - 12.1c Case Studies in Artificial Lighting Systems and Technologies
+        - '- Section: 12.2 Light Fixtures and Controls in Daylighting Design:':
+            subsections:
+            - 12.2a Understanding Light Fixtures and Controls in Daylighting Design
+            - 12.2b Techniques for Designing Light Fixtures and Controls for Daylighting
+            - 12.2c Case Studies in Light Fixtures and Controls in Daylighting Design
+        - '- Section: 12.3 Lighting Design Principles and Strategies:':
+            subsections:
+            - 12.3a Understanding Lighting Design Principles and Strategies
+            - 12.3b Techniques for Lighting Design for Daylighting
+            - 12.3c Case Studies in Lighting Design Principles and Strategies
+        - '- Section: 12.4 Case Studies: Integration of Electric Lighting with Natural Light:':
+            subsections:
+            - '12.4a Case Study 1: Integration of Electric Lighting with Natural Light
+              in a Residential Building'
+            - '12.4b Case Study 2: Integration of Electric Lighting with Natural Light
+              in a Commercial Building'
+            - '12.4c Case Study 3: Integration of Electric Lighting with Natural Light
+              in a Complex Building'
+    - '- Chapter 13: Integrating Electric Lighting & Energy:':
+        sections:
+        - '- Section: 13.1 Daylight and Electric Lighting Integration Strategies:':
+            subsections:
+            - 13.1a Understanding Daylight and Electric Lighting Integration Strategies
+            - 13.1b Techniques for Daylight and Electric Lighting Integration
+            - 13.1c Case Studies in Daylight and Electric Lighting Integration
+        - '- Section: 13.2 Energy Efficiency Strategies in Daylighting Design:':
+            subsections:
+            - 13.2a Understanding Energy Efficiency Strategies in Daylighting Design
+            - 13.2b Techniques for Improving Energy Efficiency in Daylighting Design
+            - 13.2c Case Studies in Energy Efficiency Strategies in Daylighting Design
+        - '- Section: 13.3 Lighting Controls and Automation Systems:':
+            subsections:
+            - 13.3a Understanding Lighting Controls and Automation Systems
+            - 13.3b Techniques for Designing Lighting Controls and Automation Systems
+            - 13.3c Case Studies in Lighting Controls and Automation Systems
+        - '- Section: 13.4 Case Studies: Energy-Efficient Lighting Design Solutions:':
+            subsections:
+            - '13.4a Case Study 1: Energy-Efficient Lighting Design in a Residential
+              Building'
+            - '13.4b Case Study 2: Energy-Efficient Lighting Design in a Commercial
+              Building'
+            - '13.4c Case Study 3: Energy-Efficient Lighting Design in a Complex Building'
+    - '- Chapter 14: Advanced Daylighting Strategies:':
+        sections:
+        - '- Section: 14.1 Advanced Daylighting Design Techniques:':
+            subsections:
+            - 14.1a Advanced Techniques for Daylighting Design
+            - 14.1b Case Studies in Advanced Daylighting Design Techniques
+            - 14.1c Future Trends in Daylighting Design
+        - '- Section: 14.2 Innovative Daylighting Technologies:':
+            subsections:
+            - 14.2a Overview of Innovative Daylighting Technologies
+            - 14.2b Case Studies in Innovative Daylighting Technologies
+            - 14.2c Future Trends in Daylighting Technologies
+        - '- Section: 14.3 Daylighting for Special Building Types:':
+            subsections:
+            - 14.3a Daylighting Strategies for Special Building Types
+            - 14.3b Case Studies in Daylighting for Special Building Types
+            - 14.3c Future Trends in Daylighting for Special Building Types
+        - '- Section: 14.4 Case Studies: Advanced Daylighting Strategies:':
+            subsections:
+            - '14.4a Case Study 1: Advanced Daylighting Strategy in a Residential
+              Building'
+            - '14.4b Case Study 2: Advanced Daylighting Strategy in a Commercial Building'
+            - '14.4c Case Study 3: Advanced Daylighting Strategy in a Complex Building'
+    - '- Chapter 15: Daylighting for Health and Well-being:':
+        sections:
+        - '- Section: 15.1 Daylighting and Human Health:':
+            subsections:
+            - 15.1a Understanding the Impact of Daylighting on Human Health
+            - 15.1b Techniques for Improving Human Health with Daylighting
+            - 15.1c Case Studies in Daylighting and Human Health
+        - '- Section: 15.2 Daylighting for Mental Well-being:':
+            subsections:
+            - 15.2a Understanding the Impact of Daylighting on Mental Well-being
+            - 15.2b Techniques for Improving Mental Well-being with Daylighting
+            - 15.2c Case Studies in Daylighting for Mental Well-being
+        - '- Section: 15.3 Daylighting for Physical Well-being:':
+            subsections:
+            - 15.3a Understanding the Impact of Daylighting on Physical Well-being
+            - 15.3b Techniques for Improving Physical Well-being with Daylighting
+            - 15.3c Case Studies in Daylighting for Physical Well-being
+        - '- Section: 15.4 Case Studies: Daylighting for Health and Well-being:':
+            subsections:
+            - '15.4a Case Study 1: Daylighting for Health and Well-being in a Residential
+              Building'
+            - '15.4b Case Study 2: Daylighting for Health and Well-being in a Commercial
+              Building'
+            - '15.4c Case Study 3: Daylighting for Health and Well-being in a Complex
+              Building'
+    - '- Chapter 16: Daylighting for Productivity and Performance:':
+        sections:
+        - '- Section: 16.1 Daylighting and Productivity:':
+            subsections:
+            - 16.1a Understanding the Impact of Daylighting on Productivity
+            - 16.1b Techniques for Improving Productivity with Daylighting
+            - 16.1c Case Studies in Daylighting and Productivity
+        - '- Section: 16.2 Daylighting and Performance:':
+            subsections:
+            - 16.2a Understanding the Impact of Daylighting on Performance
+            - 16.2b Techniques for Improving Performance with Daylighting
+            - 16.2c Case Studies in Daylighting and Performance
+        - '- Section: 16.3 Daylighting for Learning and Creativity:':
+            subsections:
+            - 16.3a Understanding the Impact of Daylighting on

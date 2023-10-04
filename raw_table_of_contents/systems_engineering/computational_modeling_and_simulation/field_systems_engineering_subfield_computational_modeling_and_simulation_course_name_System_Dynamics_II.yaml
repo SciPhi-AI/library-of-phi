@@ -1,0 +1,165 @@
+textbook:
+  'System Dynamics II: Exploring Dynamic Systems in Business and Beyond":':
+    chapters:
+    - '- Chapter 1: System Dynamics in Action:':
+        sections:
+        - '- Section: 1.1 Re-engineering the Supply Chain in a High-velocity Industry':
+            subsections: []
+        - '- Section: 1.2 Managing Instability Part 1: Formulating and Testing Robust Models of Business Processes':
+            subsections: []
+        - '- Section: 1.3 Managing Instability Part 2: The Supply Line and Supply Chains:':
+            subsections:
+            - 1.3a Modeling Supply Chain Disruptions
+            - 1.3b Analyzing Supplier Relationships in Dynamic Environments
+        - '- Section: 1.4 Managing Instability Part 3: Forecasting and Feedback: Bounded Rationality or Rational Expectations?':
+            subsections: []
+    - '- Chapter 2: Boom and Bust:':
+        sections:
+        - '- Section: 2.1 Real Estate Dynamics: From Boom to Bust':
+            subsections: []
+        - '- Section: 2.2 Shipbuilding Industry: Cycles of Expansion and Contraction':
+            subsections: []
+        - '- Section: 2.3 Commodity Markets: Price Fluctuations and Market Dynamics':
+            subsections: []
+        - '- Section: 2.4 Financial Markets: Understanding Market Volatility and Crashes:':
+            subsections:
+            - 2.4a Systemic Risk and Financial Crises
+            - 2.4b Modeling Investor Behavior in Volatile Markets
+    - '- Chapter 3: Cutting Corners and Working Overtime:':
+        sections:
+        - '- Section: 3.1 Service Quality Management: Balancing Efficiency and Customer Satisfaction:':
+            subsections:
+            - 3.1a Operational Efficiency vs. Service Quality Trade-offs
+            - 3.1b Implementing Service Quality Improvement Initiatives
+    - '- Chapter 4: Service Quality Dynamics:':
+        sections:
+        - '- Section: 4.1 Customer Service at Dell: A Case Study in Quality Improvement:':
+            subsections:
+            - 4.1a Measuring Customer Satisfaction and Loyalty
+            - 4.1b Designing Effective Customer Service Strategies
+    - '- Chapter 5: System Dynamics in Action:':
+        sections:
+        - '- Section: 5.1 Applications of System Dynamics to Environmental Issues:':
+            subsections:
+            - 5.1a System Dynamics and Climate Change
+            - 5.1b Modeling the Impact of Environmental Policies
+        - '- Section: 5.2 Applications of System Dynamics to Public Policy Issues:':
+            subsections:
+            - 5.2a Evaluating the Effects of Tax Policies on Economic Growth
+            - 5.2b Analyzing the Dynamics of Healthcare Systems
+    - '- Chapter 6: Meet LEW: Late, Expensive, and Wrong:':
+        sections:
+        - '- Section: 6.1 The Dynamics of Project Management: Understanding Delays and Cost Overruns:':
+            subsections:
+            - 6.1a Identifying Project Management Risks and Uncertainties
+            - 6.1b Mitigating the Impact of Project Delays
+    - '- Chapter 7: Project Dynamics Modeling in the Real World:':
+        sections:
+        - '- Section: 7.1 Getting Things Done: Firefighting, Capability Traps, and Death Spirals:':
+            subsections:
+            - 7.1a Analyzing the Firefighting Mentality in Project Management
+            - 7.1b Breaking Free from Capability Traps in Complex Projects
+    - '- Chapter 8: System Dynamics in Business Strategy:':
+        sections:
+        - '- Section: 8.1 Strategic Decision Making in Dynamic Environments':
+            subsections: []
+        - '- Section: 8.2 Competitive Dynamics and Market Evolution':
+            subsections: []
+        - '- Section: 8.3 Business Model Innovation and Disruption':
+            subsections: []
+    - '- Chapter 9: System Dynamics in Operations Management:':
+        sections:
+        - '- Section: 9.1 Production and Inventory Management in Dynamic Systems':
+            subsections: []
+        - '- Section: 9.2 Lean Operations and the Dynamics of Waste':
+            subsections: []
+        - '- Section: 9.3 Supply Chain Coordination and Bullwhip Effect':
+            subsections: []
+    - '- Chapter 10: System Dynamics in Marketing:':
+        sections:
+        - '- Section: 10.1 Customer Acquisition, Retention, and Lifetime Value':
+            subsections: []
+        - '- Section: 10.2 Market Segmentation and Targeting in Dynamic Markets':
+            subsections: []
+        - '- Section: 10.3 Product Diffusion and Adoption Dynamics':
+            subsections: []
+    - '- Chapter 11: System Dynamics in Human Resources:':
+        sections:
+        - '- Section: 11.1 Workforce Planning and Talent Management':
+            subsections: []
+        - '- Section: 11.2 Organizational Learning and Capability Development':
+            subsections: []
+        - '- Section: 11.3 Employee Engagement and Turnover Dynamics':
+            subsections: []
+    - '- Chapter 12: System Dynamics in Finance:':
+        sections:
+        - '- Section: 12.1 Financial Planning and Budgeting in Dynamic Systems':
+            subsections: []
+        - '- Section: 12.2 Capital Structure and Dividend Policy Dynamics':
+            subsections: []
+        - '- Section: 12.3 Risk Management and Hedging Strategies':
+            subsections: []
+    - '- Chapter 13: System Dynamics in Sustainability:':
+        sections:
+        - '- Section: 13.1 Sustainability and the Triple Bottom Line':
+            subsections: []
+        - '- Section: 13.2 Circular Economy and Waste Management Dynamics':
+            subsections: []
+        - '- Section: 13.3 Climate Change and Carbon Management Strategies':
+            subsections: []
+    - '- Chapter 14: System Dynamics in Innovation:':
+        sections:
+        - '- Section: 14.1 Innovation Ecosystems and Network Dynamics':
+            subsections: []
+        - '- Section: 14.2 Technology Life Cycles and S-Curves':
+            subsections: []
+        - '- Section: 14.3 Disruptive Innovation and Industry Transformation':
+            subsections: []
+    - '- Chapter 15: System Dynamics in Public Policy:':
+        sections:
+        - '- Section: 15.1 Policy Design and Implementation in Dynamic Systems':
+            subsections: []
+        - '- Section: 15.2 Urban Dynamics and Smart Cities':
+            subsections: []
+        - '- Section: 15.3 Health Policy and Epidemic Dynamics':
+            subsections: []
+    - '- Chapter 16: System Dynamics in Energy:':
+        sections:
+        - '- Section: 16.1 Energy Systems and Transition Dynamics':
+            subsections: []
+        - '- Section: 16.2 Renewable Energy Adoption and Grid Integration':
+            subsections: []
+        - '- Section: 16.3 Oil Market Dynamics and Price Fluctuations':
+            subsections: []
+    - '- Chapter 17: System Dynamics in Agriculture:':
+        sections:
+        - '- Section: 17.1 Agricultural Supply Chains and Food Security':
+            subsections: []
+        - '- Section: 17.2 Land Use Change and Deforestation Dynamics':
+            subsections: []
+        - '- Section: 17.3 Pest and Disease Dynamics in Crop Production':
+            subsections: []
+    - '- Chapter 18: System Dynamics in Transportation:':
+        sections:
+        - '- Section: 18.1 Traffic Flow Dynamics and Congestion Management':
+            subsections: []
+        - '- Section: 18.2 Public Transit and Mobility as a Service':
+            subsections: []
+        - '- Section: 18.3 Airline Revenue Management and Overbooking Strategies':
+            subsections: []
+    - '- Chapter 19: System Dynamics in Education:':
+        sections:
+        - '- Section: 19.1 Education Policy and School Dynamics':
+            subsections: []
+        - '- Section: 19.2 Student Performance and Dropout Dynamics':
+            subsections: []
+        - '- Section: 19.3 University Enrollment and Resource Allocation':
+            subsections: []
+    - '- Chapter 20: System Dynamics in Healthcare:':
+        sections:
+        - '- Section: 20.1 Healthcare Delivery and Patient Flow Dynamics':
+            subsections: []
+        - '- Section: 20.2 Disease Spread and Epidemic Control':
+            subsections: []
+        - '- Section: 20.3 Health Insurance and Cost Dynamics':
+            subsections: []

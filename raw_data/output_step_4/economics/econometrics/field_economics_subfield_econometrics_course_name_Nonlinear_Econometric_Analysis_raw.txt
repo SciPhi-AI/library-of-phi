@@ -1,0 +1,433 @@
+textbook: 
+"Nonlinear Econometric Analysis: Theory and Applications":
+
+chapters:
+- Chapter 1: Methods for Nonlinear Models:
+sections:
+- Section: 1.1 Maximum Likelihood Estimation (MLE):
+subsections:
+- 1.1a Introduction to MLE
+- 1.1b MLE in Nonlinear Models
+- 1.1c Applications of MLE
+
+- Section: 1.2 Generalized Method of Moments (GMM):
+subsections:
+- 1.2a Introduction to GMM
+- 1.2b GMM in Nonlinear Models
+- 1.2c Applications of GMM
+
+- Section: 1.3 Minimum Distance:
+subsections:
+- 1.3a Introduction to Minimum Distance
+- 1.3b Minimum Distance in Nonlinear Models
+- 1.3c Applications of Minimum Distance
+
+- Section: 1.4 Extremum:
+subsections:
+- 1.4a Introduction to Extremum
+- 1.4b Extremum in Nonlinear Models
+- 1.4c Applications of Extremum
+
+- Chapter 2: Large Sample Theory:
+sections:
+- Section: 2.1 Asymptotic Theory:
+subsections:
+- 2.1a Introduction to Asymptotic Theory
+- 2.1b Asymptotic Theory in Nonlinear Models
+- 2.1c Applications of Asymptotic Theory
+
+- Section: 2.2 Discrete Choice:
+subsections:
+- 2.2a Introduction to Discrete Choice
+- 2.2b Discrete Choice in Nonlinear Models
+- 2.2c Applications of Discrete Choice
+
+- Section: 2.3 Censoring:
+subsections:
+- 2.3a Introduction to Censoring
+- 2.3b Censoring in Nonlinear Models
+- 2.3c Applications of Censoring
+
+- Section: 2.4 Sample Selection:
+subsections:
+- 2.4a Introduction to Sample Selection
+- 2.4b Sample Selection in Nonlinear Models
+- 2.4c Applications of Sample Selection
+
+- Chapter 3: Bootstrap, Subsampling, and Finite-Sample Methods:
+sections:
+- Section: 3.1 Bootstrap:
+subsections:
+- 3.1a Introduction to Bootstrap
+- 3.1b Bootstrap in Nonlinear Models
+- 3.1c Applications of Bootstrap
+
+- Section: 3.2 Subsampling:
+subsections:
+- 3.2a Introduction to Subsampling
+- 3.2b Subsampling in Nonlinear Models
+- 3.2c Applications of Subsampling
+
+- Section: 3.3 Finite-Sample Methods:
+subsections:
+- 3.3a Introduction to Finite-Sample Methods
+- 3.3b Finite-Sample Methods in Nonlinear Models
+- 3.3c Applications of Finite-Sample Methods
+
+- Chapter 4: Quantile Regression:
+sections:
+- Section: 4.1 Integral Transformation/Skorohod Representation:
+subsections:
+- 4.1a Introduction to Integral Transformation/Skorohod Representation
+- 4.1b Integral Transformation/Skorohod Representation in Nonlinear Models
+- 4.1c Applications of Integral Transformation/Skorohod Representation
+
+- Section: 4.2 Conditional Means vs. Conditional Quantiles:
+subsections:
+- 4.2a Introduction to Conditional Means vs. Conditional Quantiles
+- 4.2b Conditional Means vs. Conditional Quantiles in Nonlinear Models
+- 4.2c Applications of Conditional Means vs. Conditional Quantiles
+
+- Section: 4.3 Inference for Quantile Regression:
+subsections:
+- 4.3a Introduction to Inference for Quantile Regression
+- 4.3b Inference for Quantile Regression in Nonlinear Models
+- 4.3c Applications of Inference for Quantile Regression
+
+- Section: 4.4 High-Tech Application: Wage Decompositions:
+subsections:
+- 4.4a Introduction to Wage Decompositions
+- 4.4b Wage Decompositions in Nonlinear Models
+- 4.4c Applications of Wage Decompositions
+
+- Chapter 5: Bayesian and Quasi-Bayesian Methods:
+sections:
+- Section: 5.1 Accept-Reject Sampling:
+subsections:
+- 5.1a Introduction to Accept-Reject Sampling
+- 5.1b Accept-Reject Sampling in Nonlinear Models
+- 5.1c Applications of Accept-Reject Sampling
+
+- Section: 5.2 Gibbs Sampler:
+subsections:
+- 5.2a Introduction to Gibbs Sampler
+- 5.2b Gibbs Sampler in Nonlinear Models
+- 5.2c Applications of Gibbs Sampler
+
+- Section: 5.3 Monte Carlo Optimization:
+subsections:
+- 5.3a Introduction to Monte Carlo Optimization
+- 5.3b Monte Carlo Optimization in Nonlinear Models
+- 5.3c Applications of Monte Carlo Optimization
+
+- Chapter 6: Bounds and Partial Identification:
+sections:
+- Section: 6.1 Generalized Method of Moments (GMM): Identification, Estimation, Testing, Bias, Selecting Moments:
+subsections:
+- 6.1a Introduction to GMM
+- 6.1b GMM in Nonlinear Models
+- 6.1c Applications of GMM
+
+- Section: 6.2 Duration Models: Main Concepts, Practical Issues:
+subsections:
+- 6.2a Introduction to Duration Models
+- 6.2b Duration Models in Nonlinear Models
+- 6.2c Applications of Duration Models
+
+- Chapter 7: Weak and Many Instruments:
+sections:
+- Section: 7.1 Nonparametric Estimation:
+subsections:
+- 7.1a Introduction to Nonparametric Estimation
+- 7.1b Nonparametric Estimation in Nonlinear Models
+- 7.1c Applications of Nonparametric Estimation
+
+- Section: 7.2 Nonparametric Regression: Theoretical Bias and Variance of the Nadaraya-Watson Estimator:
+subsections:
+- 7.2a Introduction to Nonparametric Regression
+- 7.2b Nonparametric Regression in Nonlinear Models
+- 7.2c Applications of Nonparametric Regression
+
+- Section: 7.3 Confidence Intervals:
+subsections:
+- 7.3a Introduction to Confidence Intervals
+- 7.3b Confidence Intervals in Nonlinear Models
+- 7.3c Applications of Confidence Intervals
+
+- Section: 7.4 Bandwidth Choice: Cross-Validation in Kernel Regression:
+subsections:
+- 7.4a Introduction to Bandwidth Choice
+- 7.4b Bandwidth Choice in Nonlinear Models
+- 7.4c Applications of Bandwidth Choice
+
+- Chapter 8: Semiparametric Estimation:
+sections:
+- Section: 8.1 Generalized Method of Moments (GMM) with Condition Moment Restriction: Optimal IV vs. Efficient Weighting Matrix:
+subsections:
+- 8.1a Introduction to GMM with Condition Moment Restriction
+- 8.1b GMM with Condition Moment Restriction in Nonlinear Models
+- 8.1c Applications of GMM with Condition Moment Restriction
+
+- Section: 8.2 Nonparametric Regression: Kernel Regression Asymptotics, Local Linear Estimation:
+subsections:
+- 8.2a Introduction to Nonparametric Regression
+- 8.2b Nonparametric Regression in Nonlinear Models
+- 8.2c Applications of Nonparametric Regression
+
+- Section: 8.3 Bandwidth Selection, Generalized Cross-Validation:
+subsections:
+- 8.3a Introduction to Bandwidth Selection
+- 8.3b Bandwidth Selection in Nonlinear Models
+- 8.3c Applications of Bandwidth Selection
+
+- Chapter 9: Treatment Effects:
+sections:
+- Section: 9.1 Nonlinear Models in Panel Data:
+subsections:
+- 9.1a Introduction to Nonlinear Models in Panel Data
+- 9.1b Nonlinear Models in Panel Data: Theory
+- 9.1c Applications of Nonlinear Models in Panel Data
+
+- Section: 9.2 Series Estimation and Discontinuities:
+subsections:
+- 9.2a Introduction to Series Estimation and Discontinuities
+- 9.2b Series Estimation and Discontinuities in Nonlinear Models
+- 9.2c Applications of Series Estimation and Discontinuities
+
+- Section: 9.3 Example for the Partially Linear Model: Semiparametric Selection Models:
+subsections:
+- 9.3a Introduction to Semiparametric Selection Models
+- 9.3b Semiparametric Selection Models in Nonlinear Models
+- 9.3c Applications of Semiparametric Selection Models
+
+- Chapter 10: Economic Modeling and Econometrics:
+sections:
+- Section: 10.1 Nonlinear Panel Data: Incidental Parameters Problem:
+subsections:
+- 10.1a Introduction to Incidental Parameters Problem
+- 10.1b Incidental Parameters Problem in Nonlinear Models
+- 10.1c Applications of Incidental Parameters Problem
+
+- Section: 10.2 Conditional Maximum Likelihood Estimation (MLE): Logit Case:
+subsections:
+- 10.2a Introduction to Conditional MLE
+- 10.2b Conditional MLE in Nonlinear Models
+- 10.2c Applications of Conditional MLE
+
+- Section: 10.3 Method of Simulated Moments:
+subsections:
+- 10.3a Introduction to Method of Simulated Moments
+- 10.3b Method of Simulated Moments in Nonlinear Models
+- 10.3c Applications of Method of Simulated Moments
+
+- Chapter 11: Advanced Topics in Nonlinear Models:
+sections:
+- Section: 11.1 Nonlinear Time Series Models:
+subsections:
+- 11.1a Introduction to Nonlinear Time Series Models
+- 11.1b Nonlinear Time Series Models: Theory
+- 11.1c Applications of Nonlinear Time Series Models
+
+- Section: 11.2 Nonlinear Models in Finance:
+subsections:
+- 11.2a Introduction to Nonlinear Models in Finance
+- 11.2b Nonlinear Models in Finance: Theory
+- 11.2c Applications of Nonlinear Models in Finance
+
+- Section: 11.3 Nonlinear Models in Macroeconomics:
+subsections:
+- 11.3a Introduction to Nonlinear Models in Macroeconomics
+- 11.3b Nonlinear Models in Macroeconomics: Theory
+- 11.3c Applications of Nonlinear Models in Macroeconomics
+
+- Section: 11.4 Nonlinear Models in Microeconomics:
+subsections:
+- 11.4a Introduction to Nonlinear Models in Microeconomics
+- 11.4b Nonlinear Models in Microeconomics: Theory
+- 11.4c Applications of Nonlinear Models in Microeconomics
+
+- Chapter 12: Nonlinear Models in Econometrics:
+sections:
+- Section: 12.1 Nonlinear Models in Econometric Theory:
+subsections:
+- 12.1a Introduction to Nonlinear Models in Econometric Theory
+- 12.1b Nonlinear Models in Econometric Theory: Theory
+- 12.1c Applications of Nonlinear Models in Econometric Theory
+
+- Section: 12.2 Nonlinear Models in Applied Econometrics:
+subsections:
+- 12.2a Introduction to Nonlinear Models in Applied Econometrics
+- 12.2b Nonlinear Models in Applied Econometrics: Theory
+- 12.2c Applications of Nonlinear Models in Applied Econometrics
+
+- Section: 12.3 Nonlinear Models in Econometric Methodology:
+subsections:
+- 12.3a Introduction to Nonlinear Models in Econometric Methodology
+- 12.3b Nonlinear Models in Econometric Methodology: Theory
+- 12.3c Applications of Nonlinear Models in Econometric Methodology
+
+- Section: 12.4 Nonlinear Models in Econometric Practice:
+subsections:
+- 12.4a Introduction to Nonlinear Models in Econometric Practice
+- 12.4b Nonlinear Models in Econometric Practice: Theory
+- 12.4c Applications of Nonlinear Models in Econometric Practice
+
+- Chapter 13: Nonlinear Models in Economic Forecasting:
+sections:
+- Section: 13.1 Nonlinear Models in Economic Forecasting: Theory:
+subsections:
+- 13.1a Introduction to Nonlinear Models in Economic Forecasting
+- 13.1b Nonlinear Models in Economic Forecasting: Theory
+- 13.1c Applications of Nonlinear Models in Economic Forecasting
+
+- Section: 13.2 Nonlinear Models in Economic Forecasting: Methodology:
+subsections:
+- 13.2a Introduction to Nonlinear Models in Economic Forecasting Methodology
+- 13.2b Nonlinear Models in Economic Forecasting Methodology: Theory
+- 13.2c Applications of Nonlinear Models in Economic Forecasting Methodology
+
+- Section: 13.3 Nonlinear Models in Economic Forecasting: Practice:
+subsections:
+- 13.3a Introduction to Nonlinear Models in Economic Forecasting Practice
+- 13.3b Nonlinear Models in Economic Forecasting Practice: Theory
+- 13.3c Applications of Nonlinear Models in Economic Forecasting Practice
+
+- Chapter 14: Nonlinear Models in Economic Policy Analysis:
+sections:
+- Section: 14.1 Nonlinear Models in Economic Policy Analysis: Theory:
+subsections:
+- 14.1a Introduction to Nonlinear Models in Economic Policy Analysis
+- 14.1b Nonlinear Models in Economic Policy Analysis: Theory
+- 14.1c Applications of Nonlinear Models in Economic Policy Analysis
+
+- Section: 14.2 Nonlinear Models in Economic Policy Analysis: Methodology:
+subsections:
+- 14.2a Introduction to Nonlinear Models in Economic Policy Analysis Methodology
+- 14.2b Nonlinear Models in Economic Policy Analysis Methodology: Theory
+- 14.2c Applications of Nonlinear Models in Economic Policy Analysis Methodology
+
+- Section: 14.3 Nonlinear Models in Economic Policy Analysis: Practice:
+subsections:
+- 14.3a Introduction to Nonlinear Models in Economic Policy Analysis Practice
+- 14.3b Nonlinear Models in Economic Policy Analysis Practice: Theory
+- 14.3c Applications of Nonlinear Models in Economic Policy Analysis Practice
+
+- Chapter 15: Nonlinear Models in Economic Decision Making:
+sections:
+- Section: 15.1 Nonlinear Models in Economic Decision Making: Theory:
+subsections:
+- 15.1a Introduction to Nonlinear Models in Economic Decision Making
+- 15.1b Nonlinear Models in Economic Decision Making: Theory
+- 15.1c Applications of Nonlinear Models in Economic Decision Making
+
+- Section: 15.2 Nonlinear Models in Economic Decision Making: Methodology:
+subsections:
+- 15.2a Introduction to Nonlinear Models in Economic Decision Making Methodology
+- 15.2b Nonlinear Models in Economic Decision Making Methodology: Theory
+- 15.2c Applications of Nonlinear Models in Economic Decision Making Methodology
+
+- Section: 15.3 Nonlinear Models in Economic Decision Making: Practice:
+subsections:
+- 15.3a Introduction to Nonlinear Models in Economic Decision Making Practice
+- 15.3b Nonlinear Models in Economic Decision Making Practice: Theory
+- 15.3c Applications of Nonlinear Models in Economic Decision Making Practice
+
+- Chapter 16: Nonlinear Models in Economic Research:
+sections:
+- Section: 16.1 Nonlinear Models in Economic Research: Theory:
+subsections:
+- 16.1a Introduction to Nonlinear Models in Economic Research
+- 16.1b Nonlinear Models in Economic Research: Theory
+- 16.1c Applications of Nonlinear Models in Economic Research
+
+- Section: 16.2 Nonlinear Models in Economic Research: Methodology:
+subsections:
+- 16.2a Introduction to Nonlinear Models in Economic Research Methodology
+- 16.2b Nonlinear Models in Economic Research Methodology: Theory
+- 16.2c Applications of Nonlinear Models in Economic Research Methodology
+
+- Section: 16.3 Nonlinear Models in Economic Research: Practice:
+subsections:
+- 16.3a Introduction to Nonlinear Models in Economic Research Practice
+- 16.3b Nonlinear Models in Economic Research Practice: Theory
+- 16.3c Applications of Nonlinear Models in Economic Research Practice
+
+- Chapter 17: Nonlinear Models in Economic Education:
+sections:
+- Section: 17.1 Nonlinear Models in Economic Education: Theory:
+subsections:
+- 17.1a Introduction to Nonlinear Models in Economic Education
+- 17.1b Nonlinear Models in Economic Education: Theory
+- 17.1c Applications of Nonlinear Models in Economic Education
+
+- Section: 17.2 Nonlinear Models in Economic Education: Methodology:
+subsections:
+- 17.2a Introduction to Nonlinear Models in Economic Education Methodology
+- 17.2b Nonlinear Models in Economic Education Methodology: Theory
+- 17.2c Applications of Nonlinear Models in Economic Education Methodology
+
+- Section: 17.3 Nonlinear Models in Economic Education: Practice:
+subsections:
+- 17.3a Introduction to Nonlinear Models in Economic Education Practice
+- 17.3b Nonlinear Models in Economic Education Practice: Theory
+- 17.3c Applications of Nonlinear Models in Economic Education Practice
+
+- Chapter 18: Nonlinear Models in Economic Development:
+sections:
+- Section: 18.1 Nonlinear Models in Economic Development: Theory:
+subsections:
+- 18.1a Introduction to Nonlinear Models in Economic Development
+- 18.1b Nonlinear Models in Economic Development: Theory
+- 18.1c Applications of Nonlinear Models in Economic Development
+
+- Section: 18.2 Nonlinear Models in Economic Development: Methodology:
+subsections:
+- 18.2a Introduction to Nonlinear Models in Economic Development Methodology
+- 18.2b Nonlinear Models in Economic Development Methodology: Theory
+- 18.2c Applications of Nonlinear Models in Economic Development Methodology
+
+- Section: 18.3 Nonlinear Models in Economic Development: Practice:
+subsections:
+- 18.3a Introduction to Nonlinear Models in Economic Development Practice
+- 18.3b Nonlinear Models in Economic Development Practice: Theory
+- 18.3c Applications of Nonlinear Models in Economic Development Practice
+
+- Chapter 19: Nonlinear Models in Economic Growth:
+sections:
+- Section: 19.1 Nonlinear Models in Economic Growth: Theory:
+subsections:
+- 19.1a Introduction to Nonlinear Models in Economic Growth
+- 19.1b Nonlinear Models in Economic Growth: Theory
+- 19.1c Applications of Nonlinear Models in Economic Growth
+
+- Section: 19.2 Nonlinear Models in Economic Growth: Methodology:
+subsections:
+- 19.2a Introduction to Nonlinear Models in Economic Growth Methodology
+- 19.2b Nonlinear Models in Economic Growth Methodology: Theory
+- 19.2c Applications of Nonlinear Models in Economic Growth Methodology
+
+- Section: 19.3 Nonlinear Models in Economic Growth: Practice:
+subsections:
+- 19.3a Introduction to Nonlinear Models in Economic Growth Practice
+- 19.3b Nonlinear Models in Economic Growth Practice: Theory
+- 19.3c Applications of Nonlinear Models in Economic Growth Practice
+
+- Chapter 20: Nonlinear Models in Economic Sustainability:
+sections:
+- Section: 20.1 Nonlinear Models in Economic Sustainability: Theory:
+subsections:
+- 20.1a Introduction to Nonlinear Models in Economic Sustainability
+- 20.1b Nonlinear Models in Economic Sustainability: Theory
+- 20.1c Applications of Nonlinear Models in Economic Sustainability
+
+- Section: 20.2 Nonlinear Models in Economic Sustainability: Methodology:
+subsections:
+- 20.2a Introduction to Nonlinear Models in Economic Sustainability Methodology
+- 20.2b Nonlinear Models in Economic Sustainability Methodology: Theory
+- 20.2c Applications of Nonlinear Models in Economic Sustainability Methodology
+
+- Section: 20.3 Nonlinear Models in Economic Sustainability: Practice:
+subsections:
+- 20.3a Introduction to Nonlinear Models in Economic Sustainability Practice
+- 20.3b Nonlinear Models in Economic Sustainability Practice: Theory
+- 20.3c Applications of Nonlinear Models in Economic Sustainability Practice

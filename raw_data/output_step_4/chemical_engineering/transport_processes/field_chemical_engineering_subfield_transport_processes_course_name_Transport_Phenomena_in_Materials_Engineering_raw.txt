@@ -1,0 +1,256 @@
+textbook: 
+"Transport Phenomena in Materials Engineering: Fundamentals and Applications":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Introduction to Transport Phenomena:
+subsections:
+- 1.1a Definition and Importance of Transport Phenomena
+- 1.1b Applications in Materials Engineering
+
+- Section: 1.2 Diffusion:
+subsections:
+- 1.2a Fick's Law of Diffusion
+- 1.2b Steady-State Diffusion
+- 1.2c Non-Steady-State Diffusion
+- 1.2d Diffusion in Solids and Gases
+
+- Chapter 2: Steady-State Diffusion:
+sections:
+- Section: 2.1 1-D, Cylindrical Steady-State Diffusion:
+subsections:
+- 2.1a Steady-State with Homogeneous Chemical Reaction
+- 2.1b Steady-State with Heterogeneous Chemical Reaction
+
+- Section: 2.2 Multi-Dimensional Steady-State Diffusion:
+subsections:
+- 2.2a Spherical Steady-State Diffusion
+- 2.2b Cylindrical Steady-State Diffusion
+- 2.2c Planar Steady-State Diffusion
+
+- Chapter 3: Unsteady Diffusion:
+sections:
+- Section: 3.1 Boundary Conditions and Biot Number:
+subsections:
+- 3.1a Boundary Conditions for Diffusion
+- 3.1b Biot Number and its Significance
+
+- Section: 3.2 Transient Diffusion:
+subsections:
+- 3.2a Transient Diffusion in Solids
+- 3.2b Transient Diffusion in Gases
+
+- Chapter 4: Dimensional Analysis:
+sections:
+- Section: 4.1 Heat Conduction:
+subsections:
+- 4.1a Boundary Layers in Heat Conduction
+- 4.1b Multi-Layer Wall Analysis
+
+- Section: 4.2 Energy Conservation:
+subsections:
+- 4.2a Transients in Energy Conservation
+- 4.2b Graphical Analysis of Energy Conservation
+
+- Chapter 5: Finite Differences and the Heat Equation:
+sections:
+- Section: 5.1 Mathematical Quiz:
+subsections:
+- 5.1a Solving Heat Conduction Problems using Finite Differences
+- 5.1b Applications of Finite Differences in Heat Conduction
+
+- Section: 5.2 Heat Conduction in Multilayer Walls:
+subsections:
+- 5.2a Heat Conduction Analysis in Multilayer Walls
+- 5.2b Thermal Resistance and Insulation
+
+- Chapter 6: Moving Body:
+sections:
+- Section: 6.1 Phase Change Heat Transfer:
+subsections:
+- 6.1a Heat Transfer during Phase Change
+- 6.1b Boiling and Condensation Heat Transfer
+
+- Section: 6.2 Thermal Conductivity:
+subsections:
+- 6.2a Definition and Measurement of Thermal Conductivity
+- 6.2b Thermal Conductivity in Solids and Fluids
+
+- Chapter 7: Radiation Heat Transfer:
+sections:
+- Section: 7.1 Test 1: Diffusion and Heat Conduction:
+subsections:
+- 7.1a Exam Preparation for Diffusion and Heat Conduction
+- 7.1b Sample Questions and Solutions
+
+- Section: 7.2 Radiation Heat Transfer Basics:
+subsections:
+- 7.2a Fundamentals of Radiation Heat Transfer
+- 7.2b Radiation Laws and Principles
+
+- Section: 7.3 Heat Transfer in Participating Media:
+subsections:
+- 7.3a Radiation Heat Transfer in Gases
+- 7.3b Radiation Heat Transfer in Solids
+
+- Chapter 8: Viscosity:
+sections:
+- Section: 8.1 Intro to Viscosity:
+subsections:
+- 8.1a Definition and Importance of Viscosity
+- 8.1b Viscosity Measurement Techniques
+
+- Section: 8.2 1-D Laminar Momentum Diffusion:
+subsections:
+- 8.2a Laminar Flow and Viscosity
+- 8.2b Viscous Flow in Pipes and Channels
+
+- Chapter 9: Navier-Stokes Equations:
+sections:
+- Section: 9.1 Introduction to Navier-Stokes Equations:
+subsections:
+- 9.1a Derivation and Significance of Navier-Stokes Equations
+- 9.1b Applications of Navier-Stokes Equations in Fluid Flow
+
+- Section: 9.2 Solving Navier-Stokes Equations:
+subsections:
+- 9.2a Analytical and Numerical Solutions to Navier-Stokes Equations
+- 9.2b Computational Fluid Dynamics (CFD)
+
+- Chapter 10: Drag Coefficient on a Tube, Sphere:
+sections:
+- Section: 10.1 Boundary Layer on a Flat Plate:
+subsections:
+- 10.1a Laminar and Turbulent Boundary Layers
+- 10.1b Boundary Layer Separation and Transition
+
+- Section: 10.2 Drag Coefficient on a Tube:
+subsections:
+- 10.2a Flow around Cylinders and Spheres
+- 10.2b Drag Force and Drag Coefficient Calculation
+
+- Chapter 11: Drag Coefficient on a Flat Plate:
+sections:
+- Section: 11.1 Turbulent Flow Phenomena:
+subsections:
+- 11.1a Turbulent Flow Characteristics
+- 11.1b Turbulent Boundary Layers
+
+- Section: 11.2 Heat and Mass Transfer in Turbulent Boundary Layers:
+subsections:
+- 11.2a Heat Transfer in Turbulent Boundary Layers
+- 11.2b Mass Transfer in Turbulent Boundary Layers
+
+- Chapter 12: Heat/Mass Flat Plate Boundary Layer:
+sections:
+- Section: 12.1 Test 2: Radiation, Fluid Flow:
+subsections:
+- 12.1a Exam Preparation for Radiation and Fluid Flow
+- 12.1b Sample Questions and Solutions
+
+- Section: 12.2 Natural Convection Heat Transfer:
+subsections:
+- 12.2a Heat Transfer due to Natural Convection
+- 12.2b Boundary Layers in Natural Convection
+
+- Section: 12.3 Boundary Layers and Mass Transfer:
+subsections:
+- 12.3a Mass Transfer in Boundary Layers
+- 12.3b Boundary Layer Growth and Thickness
+
+- Chapter 13: Inviscid Flow, Bernoulli Equation:
+sections:
+- Section: 13.1 Batch and Continuous Flow Reactors:
+subsections:
+- 13.1a Design and Analysis of Batch Reactors
+- 13.1b Design and Analysis of Continuous Flow Reactors
+
+- Section: 13.2 Inviscid Flow and Bernoulli Equation:
+subsections:
+- 13.2a Flow without Viscosity
+- 13.2b Bernoulli Equation and its Applications
+
+- Chapter 14: Process Cost Modeling:
+sections:
+- Section: 14.1 Introduction to Process Cost Modeling:
+subsections:
+- 14.1a Importance of Process Cost Modeling
+- 14.1b Cost Estimation Techniques
+
+- Section: 14.2 Case Studies in Process Cost Modeling:
+subsections:
+- 14.2a Real-world Examples of Process Cost Modeling
+- 14.2b Economic Analysis and Optimization
+
+- Chapter 15: Final Exam Period:
+sections:
+- Section: 15.1 Final Exam Preparation:
+subsections:
+- 15.1a Tips and Strategies for Final Exam
+- 15.1b Review of Key Concepts and Formulas
+
+- Section: 15.2 Final Exam:
+subsections:
+- 15.2a Comprehensive Final Exam
+- 15.2b Sample Questions and Solutions
+
+- Chapter 16: Advanced Topics in Transport Phenomena:
+sections:
+- Section: 16.1 Advanced Diffusion Models:
+subsections:
+- 16.1a Multi-Component Diffusion
+- 16.1b Diffusion in Porous Media
+
+- Section: 16.2 Advanced Heat Transfer Models:
+subsections:
+- 16.2a Heat Transfer in Porous Media
+- 16.2b Heat Transfer in Nanofluids
+
+- Chapter 17: Advanced Topics in Fluid Mechanics:
+sections:
+- Section: 17.1 Advanced Fluid Flow Models:
+subsections:
+- 17.1a Non-Newtonian Fluid Flow
+- 17.1b Multiphase Flow
+
+- Section: 17.2 Advanced Fluid Flow Applications:
+subsections:
+- 17.2a Fluid Flow in Microchannels
+- 17.2b Fluid Flow in Porous Media
+
+- Chapter 18: Advanced Topics in Heat Transfer:
+sections:
+- Section: 18.1 Advanced Heat Transfer Models:
+subsections:
+- 18.1a Heat Transfer in Microchannels
+- 18.1b Heat Transfer in Nanofluids
+
+- Section: 18.2 Advanced Heat Transfer Applications:
+subsections:
+- 18.2a Heat Transfer in Electronic Devices
+- 18.2b Heat Transfer in Energy Systems
+
+- Chapter 19: Advanced Topics in Mass Transfer:
+sections:
+- Section: 19.1 Advanced Mass Transfer Models:
+subsections:
+- 19.1a Mass Transfer in Microchannels
+- 19.1b Mass Transfer in Nanofluids
+
+- Section: 19.2 Advanced Mass Transfer Applications:
+subsections:
+- 19.2a Mass Transfer in Electronic Devices
+- 19.2b Mass Transfer in Energy Systems
+
+- Chapter 20: Advanced Topics in Process Cost Modeling:
+sections:
+- Section: 20.1 Advanced Process Cost Modeling Techniques:
+subsections:
+- 20.1a Cost Modeling in Microscale Systems
+- 20.1b Cost Modeling in Nanoscale Systems
+
+- Section: 20.2 Advanced Process Cost Modeling Applications:
+subsections:
+- 20.2a Cost Modeling in Electronic Devices
+- 20.2b Cost Modeling in Energy Systems

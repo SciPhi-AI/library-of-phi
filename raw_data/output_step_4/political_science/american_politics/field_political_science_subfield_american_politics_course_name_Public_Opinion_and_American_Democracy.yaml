@@ -1,0 +1,408 @@
+textbook:
+  'Public Opinion and American Democracy":':
+    chapters:
+    - '- Chapter 1: The Meaning of Public Opinion:':
+        sections:
+        - '- Section: 1.1 Definitions and Concepts:':
+            subsections:
+            - 1.1a Definition of Public Opinion
+            - 1.1b Importance of Public Opinion
+            - 1.1c Factors Shaping Public Opinion
+        - '- Section: 1.2 Historical Perspective:':
+            subsections:
+            - 1.2a Evolution of Public Opinion
+            - 1.2b Role of Public Opinion in Democracy
+            - 1.2c Historical Case Studies
+        - '- Section: 1.3 Theories of Public Opinion:':
+            subsections:
+            - 1.3a Rational Public Theory
+            - 1.3b Spiral of Silence Theory
+            - 1.3c Agenda Setting Theory
+    - '- Chapter 2: Measuring Public Opinion: Sampling and Collecting Data:':
+        sections:
+        - '- Section: 2.1 Random Sampling:':
+            subsections:
+            - 2.1a Definition of Random Sampling
+            - 2.1b Importance of Random Sampling
+            - 2.1c Techniques of Random Sampling
+        - '- Section: 2.2 Survey Methods:':
+            subsections:
+            - 2.2a Types of Surveys
+            - 2.2b Advantages and Disadvantages of Surveys
+            - 2.2c Best Practices in Conducting Surveys
+        - '- Section: 2.3 Questionnaire Design:':
+            subsections:
+            - 2.3a Principles of Questionnaire Design
+            - 2.3b Common Mistakes in Questionnaire Design
+            - 2.3c Case Studies of Effective Questionnaire Design
+        - '- Section: 2.4 Data Collection Techniques:':
+            subsections:
+            - 2.4a Traditional Data Collection Techniques
+            - 2.4b Modern Data Collection Techniques
+            - 2.4c Comparing Data Collection Techniques
+    - '- Chapter 3: The Survey Interview and the Nature of the Survey Response:':
+        sections:
+        - '- Section: 3.1 Interviewing Techniques:':
+            subsections:
+            - 3.1a Face-to-Face Interviews
+            - 3.1b Telephone Interviews
+            - 3.1c Online Interviews
+        - '- Section: 3.2 Response Bias:':
+            subsections:
+            - 3.2a Definition of Response Bias
+            - 3.2b Causes of Response Bias
+            - 3.2c Minimizing Response Bias
+        - '- Section: 3.3 Nonresponse Bias:':
+            subsections:
+            - 3.3a Definition of Nonresponse Bias
+            - 3.3b Causes of Nonresponse Bias
+            - 3.3c Minimizing Nonresponse Bias
+        - '- Section: 3.4 Survey Error and Accuracy:':
+            subsections:
+            - 3.4a Types of Survey Errors
+            - 3.4b Impact of Survey Errors on Results
+            - 3.4c Ensuring Survey Accuracy
+    - '- Chapter 4: Political Knowledge, Sophistication, and Democratic Competence:':
+        sections:
+        - '- Section: 4.1 Levels of Political Knowledge:':
+            subsections:
+            - 4.1a Definition of Political Knowledge
+            - 4.1b Factors Influencing Political Knowledge
+            - 4.1c Impact of Political Knowledge on Public Opinion
+        - '- Section: 4.2 Political Sophistication:':
+            subsections:
+            - 4.2a Definition of Political Sophistication
+            - 4.2b Factors Influencing Political Sophistication
+            - 4.2c Impact of Political Sophistication on Public Opinion
+        - '- Section: 4.3 Democratic Competence:':
+            subsections:
+            - 4.3a Definition of Democratic Competence
+            - 4.3b Factors Influencing Democratic Competence
+            - 4.3c Impact of Democratic Competence on Public Opinion
+        - '- Section: 4.4 Factors Affecting Political Knowledge:':
+            subsections:
+            - 4.4a Education and Political Knowledge
+            - 4.4b Media and Political Knowledge
+            - 4.4c Social Factors and Political Knowledge
+    - '- Chapter 5: Ideology and the Organization of Opinion:':
+        sections:
+        - '- Section: 5.1 Types of Ideologies:':
+            subsections:
+            - 5.1a Definition of Political Ideology
+            - 5.1b Major Political Ideologies
+            - 5.1c Impact of Ideology on Public Opinion
+        - '- Section: 5.2 Political Ideologies in America:':
+            subsections:
+            - 5.2a Conservatism in America
+            - 5.2b Liberalism in America
+            - 5.2c Other Ideologies in America
+        - '- Section: 5.3 Ideological Polarization:':
+            subsections:
+            - 5.3a Definition of Ideological Polarization
+            - 5.3b Causes of Ideological Polarization
+            - 5.3c Impact of Ideological Polarization on Public Opinion
+        - '- Section: 5.4 Organizing Political Opinions:':
+            subsections:
+            - 5.4a Role of Ideology in Organizing Opinions
+            - 5.4b Role of Partisanship in Organizing Opinions
+            - 5.4c Role of Group Identity in Organizing Opinions
+    - '- Chapter 6: Self Interest:':
+        sections:
+        - '- Section: 6.1 The Role of Self Interest:':
+            subsections:
+            - 6.1a Definition of Self Interest
+            - 6.1b Self Interest and Public Opinion
+            - 6.1c Case Studies of Self Interest in Public Opinion
+        - '- Section: 6.2 Economic Self Interest:':
+            subsections:
+            - 6.2a Definition of Economic Self Interest
+            - 6.2b Economic Self Interest and Public Opinion
+            - 6.2c Case Studies of Economic Self Interest in Public Opinion
+        - '- Section: 6.3 Social Self Interest:':
+            subsections:
+            - 6.3a Definition of Social Self Interest
+            - 6.3b Social Self Interest and Public Opinion
+            - 6.3c Case Studies of Social Self Interest in Public Opinion
+        - '- Section: 6.4 Group Identity and Self Interest:':
+            subsections:
+            - 6.4a Definition of Group Identity
+            - 6.4b Group Identity and Public Opinion
+            - 6.4c Case Studies of Group Identity in Public Opinion
+    - '- Chapter 7: Groups in American Politics: Us and Them:':
+        sections:
+        - '- Section: 7.1 Interest Groups:':
+            subsections:
+            - 7.1a Definition of Interest Groups
+            - 7.1b Role of Interest Groups in Public Opinion
+            - 7.1c Case Studies of Interest Groups in Public Opinion
+        - '- Section: 7.2 Political Parties:':
+            subsections:
+            - 7.2a Definition of Political Parties
+            - 7.2b Role of Political Parties in Public Opinion
+            - 7.2c Case Studies of Political Parties in Public Opinion
+        - '- Section: 7.3 Social Movements:':
+            subsections:
+            - 7.3a Definition of Social Movements
+            - 7.3b Role of Social Movements in Public Opinion
+            - 7.3c Case Studies of Social Movements in Public Opinion
+        - '- Section: 7.4 Identity Groups:':
+            subsections:
+            - 7.4a Definition of Identity Groups
+            - 7.4b Role of Identity Groups in Public Opinion
+            - 7.4c Case Studies of Identity Groups in Public Opinion
+    - '- Chapter 8: Core Values:':
+        sections:
+        - '- Section: 8.1 Definition of Core Values:':
+            subsections:
+            - 8.1a Definition of Core Values
+            - 8.1b Importance of Core Values in Public Opinion
+            - 8.1c Case Studies of Core Values in Public Opinion
+        - '- Section: 8.2 Role of Core Values in Opinion Formation:':
+            subsections:
+            - 8.2a How Core Values Shape Opinions
+            - 8.2b Core Values and Political Ideology
+            - 8.2c Core Values and Partisanship
+        - '- Section: 8.3 Value Conflicts and Consensus:':
+            subsections:
+            - 8.3a Definition of Value Conflicts
+            - 8.3b Role of Value Conflicts in Public Opinion
+            - 8.3c Case Studies of Value Conflicts in Public Opinion
+        - '- Section: 8.4 Value Change over Time:':
+            subsections:
+            - 8.4a How Values Change over Time
+            - 8.4b Factors Influencing Value Change
+            - 8.4c Case Studies of Value Change in Public Opinion
+    - '- Chapter 9: Framing, Priming, and Media Effects:':
+        sections:
+        - '- Section: 9.1 Framing Effects:':
+            subsections:
+            - 9.1a Definition of Framing Effects
+            - 9.1b Role of Framing Effects in Public Opinion
+            - 9.1c Case Studies of Framing Effects in Public Opinion
+        - '- Section: 9.2 Priming Effects:':
+            subsections:
+            - 9.2a Definition of Priming Effects
+            - 9.2b Role of Priming Effects in Public Opinion
+            - 9.2c Case Studies of Priming Effects in Public Opinion
+        - '- Section: 9.3 Media Influence on Public Opinion:':
+            subsections:
+            - 9.3a Role of Media in Shaping Public Opinion
+            - 9.3b Media Bias and Public Opinion
+            - 9.3c Case Studies of Media Influence on Public Opinion
+        - '- Section: 9.4 Media Bias and Agenda Setting:':
+            subsections:
+            - 9.4a Definition of Media Bias
+            - 9.4b Role of Media Bias in Public Opinion
+            - 9.4c Case Studies of Media Bias in Public Opinion
+    - '- Chapter 10: Collective Opinion and Representation:':
+        sections:
+        - '- Section: 10.1 Aggregation of Individual Opinions:':
+            subsections:
+            - 10.1a Definition of Opinion Aggregation
+            - 10.1b Role of Opinion Aggregation in Public Opinion
+            - 10.1c Case Studies of Opinion Aggregation in Public Opinion
+        - '- Section: 10.2 Opinion Leaders and Elites:':
+            subsections:
+            - 10.2a Definition of Opinion Leaders and Elites
+            - 10.2b Role of Opinion Leaders and Elites in Public Opinion
+            - 10.2c Case Studies of Opinion Leaders and Elites in Public Opinion
+        - '- Section: 10.3 Public Opinion and Democratic Representation:':
+            subsections:
+            - 10.3a Role of Public Opinion in Democratic Representation
+            - 10.3b Challenges of Representing Public Opinion
+            - 10.3c Case Studies of Public Opinion and Democratic Representation
+        - '- Section: 10.4 Public Opinion and Policy Making:':
+            subsections:
+            - 10.4a Role of Public Opinion in Policy Making
+            - 10.4b Challenges of Incorporating Public Opinion in Policy Making
+            - 10.4c Case Studies of Public Opinion and Policy Making
+    - '- Chapter 11: Public Opinion and Public Policy:':
+        sections:
+        - '- Section: 11.1 Policy Responsiveness to Public Opinion:':
+            subsections:
+            - 11.1a Definition of Policy Responsiveness
+            - 11.1b Factors Influencing Policy Responsiveness
+            - 11.1c Case Studies of Policy Responsiveness to Public Opinion
+        - '- Section: 11.2 Policy Feedback Effects:':
+            subsections:
+            - 11.2a Definition of Policy Feedback Effects
+            - 11.2b Role of Policy Feedback Effects in Public Opinion
+            - 11.2c Case Studies of Policy Feedback Effects in Public Opinion
+        - '- Section: 11.3 Public Opinion and Policy Change:':
+            subsections:
+            - 11.3a Role of Public Opinion in Policy Change
+            - 11.3b Factors Influencing Policy Change
+            - 11.3c Case Studies of Public Opinion and Policy Change
+        - '- Section: 11.4 Influence of Interest Groups on Policy:':
+            subsections:
+            - 11.4a Role of Interest Groups in Policy Making
+            - 11.4b Influence of Interest Groups on Public Opinion
+            - 11.4c Case Studies of Interest Groups and Policy Making
+    - '- Chapter 12: Public Opinion and Foreign Policy:':
+        sections:
+        - '- Section: 12.1 Public Opinion and International Relations:':
+            subsections:
+            - 12.1a Role of Public Opinion in International Relations
+            - 12.1b Factors Influencing Public Opinion on International Relations
+            - 12.1c Case Studies of Public Opinion and International Relations
+        - '- Section: 12.2 Public Opinion and War:':
+            subsections:
+            - 12.2a Role of Public Opinion in War
+            - 12.2b Factors Influencing Public Opinion on War
+            - 12.2c Case Studies of Public Opinion and War
+        - '- Section: 12.3 Public Opinion and Diplomacy:':
+            subsections:
+            - 12.3a Role of Public Opinion in Diplomacy
+            - 12.3b Factors Influencing Public Opinion on Diplomacy
+            - 12.3c Case Studies of Public Opinion and Diplomacy
+        - '- Section: 12.4 Influence of Media on Public Opinion of Foreign Policy:':
+            subsections:
+            - 12.4a Role of Media in Shaping Public Opinion on Foreign Policy
+            - 12.4b Media Bias and Public Opinion on Foreign Policy
+            - 12.4c Case Studies of Media Influence on Public Opinion of Foreign Policy
+    - '- Chapter 13: Conclusion - Public Opinion and American Democracy:':
+        sections:
+        - '- Section: 13.1 Summary of Key Findings:':
+            subsections:
+            - 13.1a Summary of Findings on Public Opinion
+            - 13.1b Summary of Findings on Media Influence
+            - 13.1c Summary of Findings on Policy Making
+        - '- Section: 13.2 Implications for Democracy:':
+            subsections:
+            - 13.2a Role of Public Opinion in Democracy
+            - 13.2b Challenges for Democracy
+            - 13.2c Future Directions for Democracy
+        - '- Section: 13.3 Future Directions of Research:':
+            subsections:
+            - 13.3a Future Research on Public Opinion
+            - 13.3b Future Research on Media Influence
+            - 13.3c Future Research on Policy Making
+    - '- Chapter 14: The Role of Social Media in Public Opinion:':
+        sections:
+        - '- Section: 14.1 Social Media and Public Opinion:':
+            subsections:
+            - 14.1a Role of Social Media in Shaping Public Opinion
+            - 14.1b Social Media and Political Campaigns
+            - 14.1c Case Studies of Social Media Influence on Public Opinion
+        - '- Section: 14.2 Social Media and Political Activism:':
+            subsections:
+            - 14.2a Role of Social Media in Political Activism
+            - 14.2b Social Media and Grassroots Movements
+            - 14.2c Case Studies of Social Media and Political Activism
+        - '- Section: 14.3 Social Media and Political Polarization:':
+            subsections:
+            - 14.3a Role of Social Media in Political Polarization
+            - 14.3b Social Media and Echo Chambers
+            - 14.3c Case Studies of Social Media and Political Polarization
+        - '- Section: 14.4 Social Media and Misinformation:':
+            subsections:
+            - 14.4a Role of Social Media in Spreading Misinformation
+            - 14.4b Impact of Misinformation on Public Opinion
+            - 14.4c Case Studies of Social Media and Misinformation
+    - '- Chapter 15: The Role of Polling in Public Opinion:':
+        sections:
+        - '- Section: 15.1 The History of Polling:':
+            subsections:
+            - 15.1a Early History of Polling
+            - 15.1b Evolution of Polling Techniques
+            - 15.1c Case Studies of Historic Polls
+        - '- Section: 15.2 The Science of Polling:':
+            subsections:
+            - 15.2a Principles of Polling
+            - 15.2b Polling Errors and Accuracy
+            - 15.2c Case Studies of Accurate and Inaccurate Polls
+        - '- Section: 15.3 The Impact of Polling on Public Opinion:':
+            subsections:
+            - 15.3a Role of Polls in Shaping Public Opinion
+            - 15.3b Polls and Election Outcomes
+            - 15.3c Case Studies of Poll Influence on Public Opinion
+        - '- Section: 15.4 The Future of Polling:':
+            subsections:
+            - 15.4a Challenges for Modern Polling
+            - 15.4b Innovations in Polling Techniques
+            - 15.4c Future Directions for Polling
+    - '- Chapter 16: The Role of Political Parties in Public Opinion:':
+        sections:
+        - '- Section: 16.1 The History of Political Parties:':
+            subsections:
+            - 16.1a Early History of Political Parties
+            - 16.1b Evolution of Political Parties
+            - 16.1c Case Studies of Historic Political Parties
+        - '- Section: 16.2 The Impact of Political Parties on Public Opinion:':
+            subsections:
+            - 16.2a Role of Political Parties in Shaping Public Opinion
+            - 16.2b Political Parties and Election Outcomes
+            - 16.2c Case Studies of Party Influence on Public Opinion
+        - '- Section: 16.3 The Future of Political Parties:':
+            subsections:
+            - 16.3a Challenges for Modern Political Parties
+            - 16.3b Innovations in Party Strategies
+            - 16.3c Future Directions for Political Parties
+    - '- Chapter 17: The Role of Interest Groups in Public Opinion:':
+        sections:
+        - '- Section: 17.1 The History of Interest Groups:':
+            subsections:
+            - 17.1a Early History of Interest Groups
+            - 17.1b Evolution of Interest Groups
+            - 17.1c Case Studies of Historic Interest Groups
+        - '- Section: 17.2 The Impact of Interest Groups on Public Opinion:':
+            subsections:
+            - 17.2a Role of Interest Groups in Shaping Public Opinion
+            - 17.2b Interest Groups and Policy Outcomes
+            - 17.2c Case Studies of Interest Group Influence on Public Opinion
+        - '- Section: 17.3 The Future of Interest Groups:':
+            subsections:
+            - 17.3a Challenges for Modern Interest Groups
+            - 17.3b Innovations in Interest Group Strategies
+            - 17.3c Future Directions for Interest Groups
+    - '- Chapter 18: The Role of the Media in Public Opinion:':
+        sections:
+        - '- Section: 18.1 The History of the Media:':
+            subsections:
+            - 18.1a Early History of the Media
+            - 18.1b Evolution of Media Platforms
+            - 18.1c Case Studies of Historic Media Influence
+        - '- Section: 18.2 The Impact of the Media on Public Opinion:':
+            subsections:
+            - 18.2a Role of the Media in Shaping Public Opinion
+            - 18.2b Media and Election Outcomes
+            - 18.2c Case Studies of Media Influence on Public Opinion
+        - '- Section: 18.3 The Future of the Media:':
+            subsections:
+            - 18.3a Challenges for Modern Media
+            - 18.3b Innovations in Media Platforms
+            - 18.3c Future Directions for the Media
+    - '- Chapter 19: The Role of Education in Public Opinion:':
+        sections:
+        - '- Section: 19.1 The History of Education:':
+            subsections:
+            - 19.1a Early History of Education
+            - 19.1b Evolution of Education Systems
+            - 19.1c Case Studies of Historic Education Influence
+        - '- Section: 19.2 The Impact of Education on Public Opinion:':
+            subsections:
+            - 19.2a Role of Education in Shaping Public Opinion
+            - 19.2b Education and Election Outcomes
+            - 19.2c Case Studies of Education Influence on Public Opinion
+        - '- Section: 19.3 The Future of Education:':
+            subsections:
+            - 19.3a Challenges for Modern Education
+            - 19.3b Innovations in Education Systems
+            - 19.3c Future Directions for Education
+    - '- Chapter 20: The Role of Social Movements in Public Opinion:':
+        sections:
+        - '- Section: 20.1 The History of Social Movements:':
+            subsections:
+            - 20.1a Early History of Social Movements
+            - 20.1b Evolution of Social Movements
+            - 20.1c Case Studies of Historic Social Movements
+        - '- Section: 20.2 The Impact of Social Movements on Public Opinion:':
+            subsections:
+            - 20.2a Role of Social Movements in Shaping Public Opinion
+            - 20.2b Social Movements and Policy Outcomes
+            - 20.2c Case Studies of Social Movement Influence on Public Opinion
+        - '- Section: 20.3 The Future of Social Movements:':
+            subsections:
+            - 20.3a Challenges for Modern Social Movements
+            - 20.3b Innovations in Social Movement Strategies
+            - 20.3c Future Directions for Social Movements

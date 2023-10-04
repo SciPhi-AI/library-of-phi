@@ -1,0 +1,360 @@
+textbook:
+  'Protein Folding and Human Disease: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Class:':
+        sections:
+        - '- Section: 1.1 Protein Conformation Review:':
+            subsections:
+            - 1.1a Ramachandran Plot
+            - 1.1b Secondary Structure Elements
+        - "- Section: 1.2 \u03B2-sheet Conformations:":
+            subsections:
+            - "1.2a Parallel \u03B2-sheets"
+            - "1.2b Antiparallel \u03B2-sheets"
+        - '- Section: 1.3 Critical Features of in Vitro Refolding Reactions:':
+            subsections:
+            - 1.3a Denaturation and Renaturation
+            - 1.3b Folding Pathways
+        - '- Section: 1.4 Structure and Function of Double Barrel Chaperonins:':
+            subsections:
+            - 1.4a GroEL and GroES
+            - 1.4b ATP Binding and Hydrolysis
+    - '- Chapter 2: Collagen Folding and Assembly:':
+        sections:
+        - '- Section: 2.1 Hydrogen Exchange and NMR:':
+            subsections:
+            - 2.1a Structural Analysis of Collagen
+            - 2.1b Proline Hydroxylation and Glycosylation
+        - '- Section: 2.2 Conformation of Newly Synthesized Polypeptide Chain:':
+            subsections:
+            - 2.2a Cotranslational Folding
+            - 2.2b Procollagen Processing
+        - '- Section: 2.3 Role of Ribosome in Protein Folding:':
+            subsections:
+            - 2.3a Nascent Chain Folding
+            - 2.3b Ribosome-associated Chaperones
+        - '- Section: 2.4 Roles of Trigger Factor:':
+            subsections:
+            - 2.4a Co-translational Folding Assistance
+            - 2.4b Interaction with Ribosome
+    - '- Chapter 3: Prions and Functional Amyloids:':
+        sections:
+        - '- Section: 3.1 Chaperone Function in Protein Folding:':
+            subsections:
+            - 3.1a Hsp70 and Hsp40 Chaperones
+            - 3.1b Co-chaperones in Prion Folding
+        - '- Section: 3.2 Mechanisms of Chaperone Function:':
+            subsections:
+            - 3.2a ATPase Activity and Substrate Binding
+            - 3.2b Chaperone Cycle and Co-chaperones
+        - '- Section: 3.3 DNA K, DNA J, and Grp E Chaperones:':
+            subsections:
+            - 3.3a Roles in Protein Folding
+            - 3.3b Interactions with Other Chaperones
+        - '- Section: 3.4 Small Heat Shock Chaperones:':
+            subsections:
+            - 3.4a Role in Protein Folding
+            - 3.4b Cellular Stress Response
+    - '- Chapter 4: Membrane Proteins:':
+        sections:
+        - '- Section: 4.1 Structure of Rhodopsin:':
+            subsections:
+            - 4.1a GPCR Structure and Activation
+            - 4.1b Functional Domains of Rhodopsin
+        - '- Section: 4.2 Transmembrane Helix Association:':
+            subsections:
+            - 4.2a Helix-Helix Interactions
+            - 4.2b Translocon-mediated Insertion
+        - '- Section: 4.3 Protein Channels in Membranes:':
+            subsections:
+            - 4.3a Ion Channels and Transporters
+            - 4.3b Structure and Function of Porins
+        - '- Section: 4.4 Intracellular Assembly of Viral Coat Protein:':
+            subsections:
+            - 4.4a Viral Budding and Envelope Formation
+            - 4.4b Capsid Protein Folding and Assembly
+    - '- Chapter 5: Chaperones:':
+        sections:
+        - '- Section: 5.1 Hsp90 Chaperone Machine:':
+            subsections:
+            - 5.1a ATPase Activity and Co-chaperones
+            - 5.1b Substrate Recognition and Folding
+        - '- Section: 5.2 AAA+ ATPases:':
+            subsections:
+            - 5.2a Roles in Protein Degradation
+            - 5.2b Disassembly of Protein Complexes
+        - '- Section: 5.3 Folding and Assembly of Bacterial Organelles:':
+            subsections:
+            - 5.3a Sec-dependent Protein Translocation
+            - 5.3b Organelle-specific Chaperones
+        - '- Section: 5.4 Protein Folding in the ER:':
+            subsections:
+            - 5.4a ER-targeting Signal Sequences
+            - 5.4b Calnexin and Calreticulin-mediated Folding
+    - '- Chapter 6: Student Paper Presentations:':
+        sections:
+        - '- Section: 6.1 Hemoglobin and Anemias:':
+            subsections:
+            - 6.1a Sickle Cell Anemia
+            - 6.1b Thalassemia
+        - '- Section: 6.2 Protein Deposition Diseases:':
+            subsections:
+            - 6.2a Amyloidosis
+            - 6.2b Familial Amyloidotic Polyneuropathy
+        - '- Section: 6.3 Cancer and Protein Folding Defects:':
+            subsections:
+            - 6.3a Oncoproteins and Misfolding
+            - 6.3b Tumor Suppressor Proteins
+        - '- Section: 6.4 Amyloid Diseases:':
+            subsections:
+            - 6.4a Alzheimer's Disease
+            - 6.4b Parkinson's Disease
+            - 6.4c Type 2 Diabetes
+        - '- Section: 6.5 Protein Folding Defects in Lung Damage:':
+            subsections:
+            - 6.5a Cystic Fibrosis
+            - 6.5b Alpha-1 Antitrypsin Deficiency
+        - '- Section: 6.6 Protein Folding Defects in Tumor Formation:':
+            subsections:
+            - 6.6a Proteotoxic Stress and Tumorigenesis
+            - 6.6b Unfolded Protein Response in Cancer
+        - '- Section: 6.7 Prions and Unusual Folding Properties:':
+            subsections:
+            - 6.7a Prion Diseases in Humans
+            - 6.7b Yeast Prions and Protein Aggregation
+        - '- Section: 6.8 Alzheimer''s Disease:':
+            subsections:
+            - 6.8a Amyloid Beta and Tau Proteins
+            - 6.8b Neuroinflammation and Protein Misfolding
+        - '- Section: 6.9 Parkinson''s Disease:':
+            subsections:
+            - 6.9a Alpha-synuclein and Lewy Bodies
+            - 6.9b Mitochondrial Dysfunction and Protein Aggregation
+        - '- Section: 6.10 Huntington''s Disease:':
+            subsections:
+            - 6.10a Polyglutamine Expansion and Aggregation
+            - 6.10b Striatal Neuron Degeneration and Protein Quality Control
+    - '- Chapter 7: Protein Misfolding and Disease:':
+        sections:
+        - '- Section: 7.1 Protein Misfolding and Neurodegenerative Diseases:':
+            subsections:
+            - 7.1a Protein Aggregation in Neurodegeneration
+            - 7.1b Therapeutic Strategies for Protein Misfolding Diseases
+        - '- Section: 7.2 Protein Misfolding and Cardiovascular Diseases:':
+            subsections:
+            - 7.2a Amyloidosis and Heart Disease
+            - 7.2b Protein Misfolding in Atherosclerosis
+        - '- Section: 7.3 Protein Misfolding and Metabolic Diseases:':
+            subsections:
+            - 7.3a Protein Misfolding in Diabetes
+            - 7.3b Protein Misfolding in Obesity
+        - '- Section: 7.4 Protein Misfolding and Cancer:':
+            subsections:
+            - 7.4a Protein Misfolding in Tumorigenesis
+            - 7.4b Protein Homeostasis and Cancer Therapies
+    - '- Chapter 8: Protein Folding and Cellular Stress Responses:':
+        sections:
+        - '- Section: 8.1 Heat Shock Response:':
+            subsections:
+            - 8.1a Heat Shock Proteins and Protein Folding
+            - 8.1b Regulation of Heat Shock Response
+        - '- Section: 8.2 Unfolded Protein Response:':
+            subsections:
+            - 8.2a ER Stress and Protein Folding
+            - 8.2b Regulation of Unfolded Protein Response
+        - '- Section: 8.3 Oxidative Stress and Protein Folding:':
+            subsections:
+            - 8.3a Oxidative Protein Folding in ER
+            - 8.3b Redox Regulation of Protein Folding
+        - '- Section: 8.4 Autophagy and Protein Folding:':
+            subsections:
+            - 8.4a Autophagy in Protein Quality Control
+            - 8.4b Regulation of Autophagy in Protein Misfolding Diseases
+    - '- Chapter 9: Protein Folding and Aging:':
+        sections:
+        - '- Section: 9.1 Protein Homeostasis and Aging:':
+            subsections:
+            - 9.1a Age-related Decline in Protein Homeostasis
+            - 9.1b Therapeutic Strategies for Aging and Protein Misfolding Diseases
+        - '- Section: 9.2 Protein Aggregation and Aging:':
+            subsections:
+            - 9.2a Age-related Increase in Protein Aggregation
+            - 9.2b Strategies to Reduce Protein Aggregation in Aging
+        - '- Section: 9.3 Autophagy and Aging:':
+            subsections:
+            - 9.3a Age-related Decline in Autophagy
+            - 9.3b Autophagy Activation as a Therapeutic Strategy in Aging
+        - '- Section: 9.4 Cellular Senescence and Protein Folding:':
+            subsections:
+            - 9.4a Senescence-associated Secretory Phenotype and Protein Misfolding
+            - 9.4b Therapeutic Strategies to Target Senescence in Protein Misfolding
+              Diseases
+    - '- Chapter 10: Protein Folding and Therapeutic Strategies:':
+        sections:
+        - '- Section: 10.1 Small Molecule Chaperones:':
+            subsections:
+            - 10.1a Pharmacological Chaperones and Protein Misfolding Diseases
+            - 10.1b Development of Small Molecule Chaperones
+        - '- Section: 10.2 Protein Disaggregases:':
+            subsections:
+            - 10.2a Role of Protein Disaggregases in Protein Misfolding Diseases
+            - 10.2b Therapeutic Potential of Protein Disaggregases
+        - '- Section: 10.3 Autophagy Activation:':
+            subsections:
+            - 10.3a Autophagy Activation in Protein Misfolding Diseases
+            - 10.3b Development of Autophagy Activators
+        - '- Section: 10.4 Gene Therapy:':
+            subsections:
+            - 10.4a Gene Therapy for Protein Misfolding Diseases
+            - 10.4b Challenges and Future Directions in Gene Therapy
+    - '- Chapter 11: Protein Folding and Drug Discovery:':
+        sections:
+        - '- Section: 11.1 High-throughput Screening for Protein Folding Modulators:':
+            subsections:
+            - 11.1a High-throughput Screening Strategies
+            - 11.1b Challenges and Future Directions in High-throughput Screening
+        - '- Section: 11.2 Structure-based Drug Design:':
+            subsections:
+            - 11.2a Structure-based Drug Design for Protein Misfolding Diseases
+            - 11.2b Challenges and Future Directions in Structure-based Drug Design
+        - '- Section: 11.3 Phenotypic Screening:':
+            subsections:
+            - 11.3a Phenotypic Screening for Protein Misfolding Modulators
+            - 11.3b Challenges and Future Directions in Phenotypic Screening
+        - '- Section: 11.4 Drug Repurposing:':
+            subsections:
+            - 11.4a Drug Repurposing for Protein Misfolding Diseases
+            - 11.4b Challenges and Future Directions in Drug Repurposing
+    - '- Chapter 12: Protein Folding and Biomarker Discovery:':
+        sections:
+        - '- Section: 12.1 Protein Aggregates as Biomarkers:':
+            subsections:
+            - 12.1a Detection of Protein Aggregates in Biological Fluids
+            - 12.1b Challenges and Future Directions in Protein Aggregate Biomarker
+              Discovery
+        - '- Section: 12.2 Chaperone Proteins as Biomarkers:':
+            subsections:
+            - 12.2a Detection of Chaperone Proteins in Biological Fluids
+            - 12.2b Challenges and Future Directions in Chaperone Biomarker Discovery
+        - '- Section: 12.3 Autophagy Markers:':
+            subsections:
+            - 12.3a Detection of Autophagy Markers in Biological Fluids
+            - 12.3b Challenges and Future Directions in Autophagy Biomarker Discovery
+        - '- Section: 12.4 Proteomics in Biomarker Discovery:':
+            subsections:
+            - 12.4a Proteomics Approaches in Protein Misfolding Diseases
+            - 12.4b Challenges and Future Directions in Proteomics Biomarker Discovery
+    - '- Chapter 13: Protein Folding and Diagnostic Tools:':
+        sections:
+        - '- Section: 13.1 Imaging Protein Aggregates:':
+            subsections:
+            - 13.1a Imaging Techniques for Protein Aggregates
+            - 13.1b Challenges and Future Directions in Protein Aggregate Imaging
+        - '- Section: 13.2 Liquid Biopsy:':
+            subsections:
+            - 13.2a Liquid Biopsy in Protein Misfolding Diseases
+            - 13.2b Challenges and Future Directions in Liquid Biopsy
+        - '- Section: 13.3 Genetic Testing:':
+            subsections:
+            - 13.3a Genetic Testing in Protein Misfolding Diseases
+            - 13.3b Challenges and Future Directions in Genetic Testing
+        - '- Section: 13.4 Proteomics in Diagnosis:':
+            subsections:
+            - 13.4a Proteomics Approaches in Diagnosis of Protein Misfolding Diseases
+            - 13.4b Challenges and Future Directions in Proteomics Diagnosis
+    - '- Chapter 14: Protein Folding and Patient Stratification:':
+        sections:
+        - '- Section: 14.1 Genetic Stratification:':
+            subsections:
+            - 14.1a Genetic Stratification in Protein Misfolding Diseases
+            - 14.1b Challenges and Future Directions in Genetic Stratification
+        - '- Section: 14.2 Biomarker-based Stratification:':
+            subsections:
+            - 14.2a Biomarker-based Stratification in Protein Misfolding Diseases
+            - 14.2b Challenges and Future Directions in Biomarker-based Stratification
+        - '- Section: 14.3 Phenotypic Stratification:':
+            subsections:
+            - 14.3a Phenotypic Stratification in Protein Misfolding Diseases
+            - 14.3b Challenges and Future Directions in Phenotypic Stratification
+        - '- Section: 14.4 Machine Learning in Patient Stratification:':
+            subsections:
+            - 14.4a Machine Learning Approaches in Protein Misfolding Diseases
+            - 14.4b Challenges and Future Directions in Machine Learning Stratification
+    - '- Chapter 15: Protein Folding and Clinical Trials:':
+        sections:
+        - '- Section: 15.1 Clinical Trial Design:':
+            subsections:
+            - 15.1a Clinical Trial Design in Protein Misfolding Diseases
+            - 15.1b Challenges and Future Directions in Clinical Trial Design
+        - '- Section: 15.2 Outcome Measures:':
+            subsections:
+            - 15.2a Outcome Measures in Protein Misfolding Diseases
+            - 15.2b Challenges and Future Directions in Outcome Measures
+        - '- Section: 15.3 Patient Recruitment:':
+            subsections:
+            - 15.3a Patient Recruitment in Protein Misfolding Diseases
+            - 15.3b Challenges and Future Directions in Patient Recruitment
+        - '- Section: 15.4 Data Analysis:':
+            subsections:
+            - 15.4a Data Analysis in Clinical Trials for Protein Misfolding Diseases
+            - 15.4b Challenges and Future Directions in Data Analysis
+    - '- Chapter 16: Protein Folding and Regulatory Affairs:':
+        sections:
+        - '- Section: 16.1 Regulatory Guidelines:':
+            subsections:
+            - 16.1a Regulatory Guidelines for Protein Misfolding Diseases
+            - 16.1b Challenges and Future Directions in Regulatory Affairs
+        - '- Section: 16.2 Orphan Drug Designation:':
+            subsections:
+            - 16.2a Orphan Drug Designation in Protein Misfolding Diseases
+            - 16.2b Challenges and Future Directions in Orphan Drug Designation
+        - '- Section: 16.3 Fast Track Designation:':
+            subsections:
+            - 16.3a Fast Track Designation in Protein Misfolding Diseases
+            - 16.3b Challenges and Future Directions in Fast Track Designation
+        - '- Section: 16.4 Post-marketing Surveillance:':
+            subsections:
+            - 16.4a Post-marketing Surveillance in Protein Misfolding Diseases
+            - 16.4b Challenges and Future Directions in Post-marketing Surveillance
+    - '- Chapter 17: Protein Folding and Patient Advocacy:':
+        sections:
+        - '- Section: 17.1 Patient Advocacy Groups:':
+            subsections:
+            - 17.1a Role of Patient Advocacy Groups in Protein Misfolding Diseases
+            - 17.1b Challenges and Future Directions in Patient Advocacy
+        - '- Section: 17.2 Patient Education:':
+            subsections:
+            - 17.2a Patient Education in Protein Misfolding Diseases
+            - 17.2b Challenges and Future Directions in Patient Education
+        - '- Section: 17.3 Fundraising:':
+            subsections:
+            - 17.3a Fundraising for Protein Misfolding Diseases
+            - 17.3b Challenges and Future Directions in Fundraising
+        - '- Section: 17.4 Policy Advocacy:':
+            subsections:
+            - 17.4a Policy Advocacy in Protein Misfolding Diseases
+            - 17.4b Challenges and Future Directions in Policy Advocacy
+    - '- Chapter 18: Protein Folding and Public Health:':
+        sections:
+        - '- Section: 18.1 Epidemiology:':
+            subsections:
+            - 18.1a Epidemiology of Protein Misfolding Diseases
+            - 18.1b Challenges and Future Directions in Epidemiology
+        - '- Section: 18.2 Health Economics:':
+            subsections:
+            - 18.2a Health Economics of Protein Misfolding Diseases
+            - 18.2b Challenges and Future Directions in Health Economics
+        - '- Section: 18.3 Health Policy:':
+            subsections:
+            - 18.3a Health Policy in Protein Misfolding Diseases
+            - 18.3b Challenges and Future Directions in Health Policy
+        - '- Section: 18.4 Public Awareness:':
+            subsections:
+            - 18.4a Public Awareness of Protein Misfolding Diseases
+            - 18.4b Challenges and Future Directions in Public Awareness
+    - '- Chapter 19: Protein Folding and Future Perspectives:':
+        sections:
+        - '- Section: 19.1 Emerging Therapeutic Strategies:':
+            subsections:
+            - 19.1a Emerging Therapeutic Strategies in Protein Misfolding Diseases
+            - '19.'

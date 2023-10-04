@@ -1,0 +1,152 @@
+textbook:
+  'Experimental Microbial Genetics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Microbial Genetics:':
+        sections:
+        - '- Section: 1.1 History of Microbial Genetics:':
+            subsections:
+            - 1.1a Mendelian Inheritance
+            - 1.1b Discovery of DNA
+            - 1.1c Bacterial Transformation
+            - 1.1d Transposons in Microbes
+        - '- Section: 1.2 Central Dogma of Molecular Biology:':
+            subsections:
+            - 1.2a DNA Replication
+            - 1.2b Transcription
+            - 1.2c Translation
+            - 1.2d Genetic Code
+        - '- Section: 1.3 Genetic Variation in Microorganisms:':
+            subsections:
+            - 1.3a Mutation Types
+            - 1.3b Horizontal Gene Transfer
+            - 1.3c Mobile Genetic Elements
+            - 1.3d Genetic Recombination
+        - '- Section: 1.4 Importance of Microbial Genetics in Research:':
+            subsections:
+            - 1.4a Model Organisms in Genetics
+            - 1.4b Genomic Medicine
+            - 1.4c Microbial Ecology Studies
+            - 1.4d Biotechnological Applications
+    - '- Chapter 2: Techniques in Microbial Genetics:':
+        sections:
+        - '- Section: 2.1 Transformation:':
+            subsections:
+            - 2.1a Natural Competence
+            - 2.1b Electroporation
+            - 2.1c Chemical Transformation
+            - 2.1d DNA Uptake Mechanisms
+        - '- Section: 2.2 Conjugation:':
+            subsections:
+            - 2.2a F Plasmid Transfer
+            - 2.2b Hfr Conjugation
+            - 2.2c Conjugation in Gram-negative Bacteria
+            - 2.2d Conjugation in Gram-positive Bacteria
+        - '- Section: 2.3 Transduction:':
+            subsections:
+            - 2.3a Generalized Transduction
+            - 2.3b Specialized Transduction
+            - 2.3c Bacteriophage Life Cycle
+            - 2.3d Transduction in Eukaryotic Microbes
+        - '- Section: 2.4 Plasmid and Phage Vectors:':
+            subsections:
+            - 2.4a Plasmid Biology
+            - 2.4b Phage Biology
+            - 2.4c Vector Construction Strategies
+            - 2.4d Applications of Vectors in Gene Manipulation
+    - '- Chapter 3: Regulation of Gene Expression in Microorganisms:':
+        sections:
+        - '- Section: 3.1 Transcriptional Regulation:':
+            subsections:
+            - 3.1a Promoter Elements and Transcription Factors
+            - 3.1b Transcriptional Activators and Repressors
+            - 3.1c Sigma Factors and RNA Polymerase Binding
+            - 3.1d Global Transcriptional Regulation Mechanisms
+        - '- Section: 3.2 Translational Regulation:':
+            subsections:
+            - 3.2a Ribosome Binding Sites
+            - 3.2b Translational Repressors and Activators
+            - 3.2c Attenuation and Riboswitches
+            - 3.2d Translational Control in Stress Responses
+        - '- Section: 3.3 Post-translational Modification:':
+            subsections:
+            - 3.3a Protein Phosphorylation
+            - 3.3b Protein Methylation and Acetylation
+            - 3.3c Ubiquitination and SUMOylation
+            - 3.3d Protein Degradation Pathways
+        - '- Section: 3.4 Quorum Sensing:':
+            subsections:
+            - 3.4a Signaling Molecules in Quorum Sensing
+            - 3.4b Quorum Sensing Circuitry
+            - 3.4c Quorum Quenching Strategies
+            - 3.4d Quorum Sensing in Biofilms
+    - '- Chapter 4: Genetic Analysis of Microorganisms:':
+        sections:
+        - '- Section: 4.1 Mutagenesis:':
+            subsections:
+            - 4.1a Chemical Mutagens
+            - 4.1b Radiation-induced Mutagenesis
+            - 4.1c Insertional Mutagenesis Techniques
+            - 4.1d Site-directed Mutagenesis
+        - '- Section: 4.2 Genetic Screens:':
+            subsections:
+            - 4.2a Positive and Negative Selection Screens
+            - 4.2b Insertional Mutant Libraries
+            - 4.2c High-throughput Screening Approaches
+            - 4.2d Synthetic Lethality Screens
+        - '- Section: 4.3 Complementation Assays:':
+            subsections:
+            - 4.3a Complementation of Mutant Phenotypes
+            - 4.3b Complementation Testing Strategies
+            - 4.3c Complementation in Heterologous Systems
+            - 4.3d Applications of Complementation Assays
+        - '- Section: 4.4 Allele Mapping:':
+            subsections:
+            - 4.4a Linkage Analysis
+            - 4.4b Mapping by Recombination Frequencies
+            - 4.4c Physical Mapping Techniques
+            - 4.4d Genome-wide Association Studies
+    - '- Chapter 5: Microbial Genomics and Bioinformatics:':
+        sections:
+        - '- Section: 5.1 Genome Sequencing:':
+            subsections:
+            - 5.1a Sanger Sequencing
+            - 5.1b Next-generation Sequencing
+            - 5.1c Third-generation Sequencing
+            - 5.1d Metagenomic Sequencing Strategies
+        - '- Section: 5.2 Comparative Genomics:':
+            subsections:
+            - 5.2a Orthology and Paralogy Analysis
+            - 5.2b Synteny and Gene Order Conservation
+            - 5.2c Pan-genome Analysis
+            - 5.2d Evolutionary Genomics Approaches
+        - '- Section: 5.3 Metagenomics:':
+            subsections:
+            - 5.3a Metagenomic Library Construction
+            - 5.3b Shotgun and Targeted Metagenomics
+            - 5.3c Metagenomic Data Analysis
+            - 5.3d Functional Metagenomics
+        - '- Section: 5.4 Functional Genomics:':
+            subsections:
+            - 5.4a Transcriptomics
+            - 5.4b Proteomics
+            - 5.4c Metabolomics
+            - 5.4d Phenomics
+    - '- Chapter 6: Horizontal Gene Transfer in Microorganisms:':
+        sections:
+        - '- Section: 6.1 Plasmids and Mobile Genetic Elements:':
+            subsections:
+            - 6.1a Plasmid Replication and Stability
+            - 6.1b Conjugative and Non-conjugative Plasmids
+            - 6.1c Transposons and Insertion Sequences
+            - 6.1d Integrative and Conjugative Elements
+        - '- Section: 6.2 Horizontal Gene Transfer Mechanisms:':
+            subsections:
+            - 6.2a Transformation
+            - 6.2b Conjugation
+            - 6.2c Transduction
+            - 6.2d Gene Transfer Agents
+        - '- Section: 6.3 Antibiotic Resistance Acquisition:':
+            subsections:
+            - 6.3a Resistance Genes and Mechanisms
+            - 6.3b Mobile Genetic Elements in Antibiotic Resistance
+            - 6.3c Antibiotic Resistance Spread in Clinical Settings

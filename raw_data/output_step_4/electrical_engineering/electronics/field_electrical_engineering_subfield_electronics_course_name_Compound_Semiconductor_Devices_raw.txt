@@ -1,0 +1,449 @@
+textbook: 
+"Compound Semiconductor Devices: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Compound Semiconductors:
+sections:
+- Section: 1.1 Families of Compound Semiconductors:
+subsections:
+- 1.1a III-V's
+- 1.1b II-VI's
+- 1.1c IV-VI's
+- 1.1d IV-IV's
+
+- Section: 1.2 Alloys and Band Structures:
+subsections:
+- 1.2a Introduction to Alloys
+- 1.2b Band Structures
+- 1.2c Applications of Alloys
+- 1.2d Future Trends
+
+- Section: 1.3 Crystal Lattices and Electrical Properties:
+subsections:
+- 1.3a Crystal Lattices
+- 1.3b Electrical Properties
+- 1.3c Lattice-Electrical Property Relations
+- 1.3d Case Studies
+
+- Section: 1.4 Optical Properties and Trends:
+subsections:
+- 1.4a Optical Properties
+- 1.4b Current Trends
+- 1.4c Future Predictions
+- 1.4d Applications
+
+- Section: 1.5 Useful Compounds:
+subsections:
+- 1.5a Compound Semiconductors in Electronics
+- 1.5b Compound Semiconductors in Optoelectronics
+- 1.5c Compound Semiconductors in Energy
+- 1.5d Compound Semiconductors in Medicine
+
+- Chapter 2: Metal-Semiconductor Interfaces:
+sections:
+- Section: 2.1 Schottky Barriers:
+subsections:
+- 2.1a Introduction to Schottky Barriers
+- 2.1b Formation of Schottky Barriers
+- 2.1c Applications of Schottky Barriers
+- 2.1d Future Trends
+
+- Section: 2.2 Compound Semiconductor Surface:
+subsections:
+- 2.2a Surface Properties
+- 2.2b Surface Modification Techniques
+- 2.2c Surface-Device Performance Relations
+- 2.2d Case Studies
+
+- Section: 2.3 Fermi Level Pinning:
+subsections:
+- 2.3a Introduction to Fermi Level Pinning
+- 2.3b Mechanisms of Fermi Level Pinning
+- 2.3c Effects on Device Performance
+- 2.3d Overcoming Fermi Level Pinning
+
+- Section: 2.4 Theories of Barrier Formation:
+subsections:
+- 2.4a Schottky-Mott Theory
+- 2.4b Image Force Lowering Theory
+- 2.4c Thermionic Emission Theory
+- 2.4d Tunneling Theory
+
+- Section: 2.5 Current Flow Mechanisms:
+subsections:
+- 2.5a Thermionic Emission
+- 2.5b Tunneling
+- 2.5c Thermionic Field Emission
+- 2.5d Field Emission
+
+- Chapter 3: Heterostructures:
+sections:
+- Section: 3.1 Energy Band Profiles:
+subsections:
+- 3.1a ΔEc
+- 3.1b ΔEv
+- 3.1c Ec
+- 3.1d Band Alignment
+
+- Section: 3.2 Conduction Normal to Junction:
+subsections:
+- 3.2a Introduction to Conduction
+- 3.2b Conduction Mechanisms
+- 3.2c Effects on Device Performance
+- 3.2d Future Trends
+
+- Section: 3.3 I-V Models and Characteristics:
+subsections:
+- 3.3a Introduction to I-V Models
+- 3.3b I-V Characteristics
+- 3.3c Model-Device Performance Relations
+- 3.3d Case Studies
+
+- Section: 3.4 Theory of Graded Layers:
+subsections:
+- 3.4a Introduction to Graded Layers
+- 3.4b Formation of Graded Layers
+- 3.4c Effects on Device Performance
+- 3.4d Future Trends
+
+- Section: 3.5 Creation of Internal Carrier-Specific Fields:
+subsections:
+- 3.5a Introduction to Carrier-Specific Fields
+- 3.5b Creation Mechanisms
+- 3.5c Effects on Device Performance
+- 3.5d Case Studies
+
+- Chapter 4: Quantum Effect Structures:
+sections:
+- Section: 4.1 Quantum Wells:
+subsections:
+- 4.1a Theory of Quantum Wells
+- 4.1b Fabrication of Quantum Wells
+- 4.1c Observation of Quantum Wells
+- 4.1d Applications and Future Trends
+
+- Chapter 5: Epitaxy:
+sections:
+- Section: 5.1 Concerns and Constraints:
+subsections:
+- 5.1a Introduction to Epitaxy
+- 5.1b Concerns in Epitaxy
+- 5.1c Constraints in Epitaxy
+- 5.1d Overcoming Concerns and Constraints
+
+- Section: 5.2 Lattice-Matched Systems:
+subsections:
+- 5.2a Introduction to Lattice-Matched Systems
+- 5.2b Formation of Lattice-Matched Systems
+- 5.2c Effects on Device Performance
+- 5.2d Case Studies
+
+- Section: 5.3 Strained Layers:
+subsections:
+- 5.3a Introduction to Strained Layers
+- 5.3b Formation of Strained Layers
+- 5.3c Effects on Device Performance
+- 5.3d Future Trends
+
+- Chapter 6: MESFETs:
+sections:
+- Section: 6.1 Basic Concepts:
+subsections:
+- 6.1a Introduction to MESFETs
+- 6.1b Operation of MESFETs
+- 6.1c Applications of MESFETs
+- 6.1d Future Trends
+
+- Section: 6.2 Models for Terminal Characteristics:
+subsections:
+- 6.2a Introduction to Terminal Characteristics
+- 6.2b Models for Terminal Characteristics
+- 6.2c Model-Device Performance Relations
+- 6.2d Case Studies
+
+- Section: 6.3 Velocity Saturation:
+subsections:
+- 6.3a Introduction to Velocity Saturation
+- 6.3b Mechanisms of Velocity Saturation
+- 6.3c Effects on Device Performance
+- 6.3d Overcoming Velocity Saturation
+
+- Section: 6.4 Dynamic Models:
+subsections:
+- 6.4a Introduction to Dynamic Models
+- 6.4b Dynamic Models for MESFETs
+- 6.4c Model-Device Performance Relations
+- 6.4d Case Studies
+
+- Section: 6.5 Fabrication Sequences:
+subsections:
+- 6.5a Introduction to Fabrication Sequences
+- 6.5b Fabrication Sequences for MESFETs
+- 6.5c Effects on Device Performance
+- 6.5d Future Trends
+
+- Chapter 7: HFETs:
+sections:
+- Section: 7.1 High Electron Mobility Transistors:
+subsections:
+- 7.1a Introduction to HFETs
+- 7.1b Operation of HFETs
+- 7.1c Applications of HFETs
+- 7.1d Future Trends
+
+- Chapter 8: HBTs:
+sections:
+- Section: 8.1 Emitter Efficiency:
+subsections:
+- 8.1a Introduction to Emitter Efficiency
+- 8.1b Mechanisms of Emitter Efficiency
+- 8.1c Effects on Device Performance
+- 8.1d Improving Emitter Efficiency
+
+- Section: 8.2 Base Transport:
+subsections:
+- 8.2a Introduction to Base Transport
+- 8.2b Mechanisms of Base Transport
+- 8.2c Effects on Device Performance
+- 8.2d Improving Base Transport
+
+- Section: 8.3 Base Resistance:
+subsections:
+- 8.3a Introduction to Base Resistance
+- 8.3b Mechanisms of Base Resistance
+- 8.3c Effects on Device Performance
+- 8.3d Reducing Base Resistance
+
+- Section: 8.4 Junction Capacitance:
+subsections:
+- 8.4a Introduction to Junction Capacitance
+- 8.4b Mechanisms of Junction Capacitance
+- 8.4c Effects on Device Performance
+- 8.4d Reducing Junction Capacitance
+
+- Section: 8.5 Graded Layers Applications:
+subsections:
+- 8.5a Introduction to Graded Layers
+- 8.5b Applications of Graded Layers in HBTs
+- 8.5c Effects on Device Performance
+- 8.5d Future Trends
+
+- Chapter 9: Light Emission and Absorption:
+sections:
+- Section: 9.1 Basic Theory:
+subsections:
+- 9.1a Introduction to Light Emission and Absorption
+- 9.1b Mechanisms of Light Emission and Absorption
+- 9.1c Applications of Light Emission and Absorption
+- 9.1d Future Trends
+
+- Section: 9.2 Direct vs. Indirect Gap:
+subsections:
+- 9.2a Introduction to Direct and Indirect Gap
+- 9.2b Differences Between Direct and Indirect Gap
+- 9.2c Effects on Device Performance
+- 9.2d Case Studies
+
+- Section: 9.3 Band-to-Band and Band-to-Impurity Transitions:
+subsections:
+- 9.3a Introduction to Band-to-Band and Band-to-Impurity Transitions
+- 9.3b Mechanisms of Transitions
+- 9.3c Effects on Device Performance
+- 9.3d Future Trends
+
+- Chapter 10: Dielectric Waveguides and Photonic Crystals:
+sections:
+- Section: 10.1 Basics of Optical Cavities and Waveguides:
+subsections:
+- 10.1a Introduction to Optical Cavities and Waveguides
+- 10.1b Operation of Optical Cavities and Waveguides
+- 10.1c Applications of Optical Cavities and Waveguides
+- 10.1d Future Trends
+
+- Section: 10.2 Photonic Crystal Concepts, Structures, Issues:
+subsections:
+- 10.2a Introduction to Photonic Crystals
+- 10.2b Structures of Photonic Crystals
+- 10.2c Issues with Photonic Crystals
+- 10.2d Future Trends
+
+- Chapter 11: Light Emitting Diodes (LEDs):
+sections:
+- Section: 11.1 Structure, Materials, Characteristics:
+subsections:
+- 11.1a Structure of LEDs
+- 11.1b Materials Used in LEDs
+- 11.1c Characteristics of LEDs
+- 11.1d Future Trends
+
+- Chapter 12: Laser Diodes:
+sections:
+- Section: 12.1 Feedback and Stimulated Emission:
+subsections:
+- 12.1a Introduction to Feedback and Stimulated Emission
+- 12.1b Mechanisms of Feedback and Stimulated Emission
+- 12.1c Effects on Device Performance
+- 12.1d Future Trends
+
+- Section: 12.2 Cavity Design:
+subsections:
+- 12.2a Introduction to Cavity Design
+- 12.2b Techniques in Cavity Design
+- 12.2c Effects on Device Performance
+- 12.2d Future Trends
+
+- Section: 12.3 Quantum Well, Wire, Dot Active Regions:
+subsections:
+- 12.3a Introduction to Quantum Well, Wire, Dot Active Regions
+- 12.3b Formation of Active Regions
+- 12.3c Effects on Device Performance
+- 12.3d Future Trends
+
+- Section: 12.4 Strained Layers:
+subsections:
+- 12.4a Introduction to Strained Layers
+- 12.4b Formation of Strained Layers
+- 12.4c Effects on Device Performance
+- 12.4d Future Trends
+
+- Chapter 13: Detectors:
+sections:
+- Section: 13.1 Structure and Theory of Basic Types:
+subsections:
+- 13.1a Introduction to Detectors
+- 13.1b Structure of Detectors
+- 13.1c Theory of Detectors
+- 13.1d Future Trends
+
+- Chapter 14: Modulators:
+sections:
+- Section: 14.1 Multiple Quantum Well Structures:
+subsections:
+- 14.1a Introduction to Multiple Quantum Well Structures
+- 14.1b Formation of Multiple Quantum Well Structures
+- 14.1c Effects on Device Performance
+- 14.1d Future Trends
+
+- Section: 14.2 Quantum Confined Stark Effect:
+subsections:
+- 14.2a Introduction to Quantum Confined Stark Effect
+- 14.2b Mechanisms of Quantum Confined Stark Effect
+- 14.2c Effects on Device Performance
+- 14.2d Future Trends
+
+- Section: 14.3 Waveguide Couplers, Switches, Modulators:
+subsections:
+- 14.3a Introduction to Waveguide Couplers, Switches, Modulators
+- 14.3b Operation of Waveguide Couplers, Switches, Modulators
+- 14.3c Applications of Waveguide Couplers, Switches, Modulators
+- 14.3d Future Trends
+
+- Chapter 15: OEICs:
+sections:
+- Section: 15.1 Optoelectronic Integrated Circuits:
+subsections:
+- 15.1a Introduction to OEICs
+- 15.1b Operation of OEICs
+- 15.1c Applications of OEICs
+- 15.1d Future Trends
+
+- Chapter 16: Quantum Effect Devices:
+sections:
+- Section: 16.1 Electron Waveguides:
+subsections:
+- 16.1a Introduction to Electron Waveguides
+- 16.1b Operation of Electron Waveguides
+- 16.1c Applications of Electron Waveguides
+- 16.1d Future Trends
+
+- Section: 16.2 Single Electron Transistors:
+subsections:
+- 16.2a Introduction to Single Electron Transistors
+- 16.2b Operation of Single Electron Transistors
+- 16.2c Applications of Single Electron Transistors
+- 16.2d Future Trends
+
+- Chapter 17: Device Research Conference Preview:
+sections:
+- Section: 17.1 What's New and Exciting in Research and the Marketplace?:
+subsections:
+- 17.1a Latest Research Developments
+- 17.1b Exciting New Products in the Marketplace
+- 17.1c Future Predictions
+- 17.1d Case Studies
+
+- Chapter 18: Compound Semiconductor Fabrication:
+sections:
+- Section: 18.1 Fabrication Techniques:
+subsections:
+- 18.1a Introduction to Fabrication Techniques
+- 18.1b Common Fabrication Techniques
+- 18.1c Effects on Device Performance
+- 18.1d Future Trends
+
+- Section: 18.2 Cleanroom Procedures:
+subsections:
+- 18.2a Introduction to Cleanroom Procedures
+- 18.2b Common Cleanroom Procedures
+- 18.2c Effects on Device Performance
+- 18.2d Future Trends
+
+- Section: 18.3 Safety and Handling:
+subsections:
+- 18.3a Introduction to Safety and Handling
+- 18.3b Safety Procedures
+- 18.3c Handling Procedures
+- 18.3d Case Studies
+
+- Chapter 19: Compound Semiconductor Testing:
+sections:
+- Section: 19.1 Testing Techniques:
+subsections:
+- 19.1a Introduction to Testing Techniques
+- 19.1b Common Testing Techniques
+- 19.1c Effects on Device Performance
+- 19.1d Future Trends
+
+- Section: 19.2 Failure Analysis:
+subsections:
+- 19.2a Introduction to Failure Analysis
+- 19.2b Common Failure Modes
+- 19.2c Effects on Device Performance
+- 19.2d Case Studies
+
+- Section: 19.3 Reliability Testing:
+subsections:
+- 19.3a Introduction to Reliability Testing
+- 19.3b Common Reliability Tests
+- 19.3c Effects on Device Performance
+- 19.3d Future Trends
+
+- Chapter 20: Compound Semiconductor Applications:
+sections:
+- Section: 20.1 Electronics:
+subsections:
+- 20.1a Introduction to Electronics Applications
+- 20.1b Common Electronics Applications
+- 20.1c Effects on Device Performance
+- 20.1d Future Trends
+
+- Section: 20.2 Optoelectronics:
+subsections:
+- 20.2a Introduction to Optoelectronics Applications
+- 20.2b Common Optoelectronics Applications
+- 20.2c Effects on Device Performance
+- 20.2d Future Trends
+
+- Section: 20.3 Energy:
+subsections:
+- 20.3a Introduction to Energy Applications
+- 20.3b Common Energy Applications
+- 20.3c Effects on Device Performance
+- 20.3d Future Trends
+
+- Section: 20.4 Medicine:
+subsections:
+- 20.4a Introduction to Medicine Applications
+- 20.4b Common Medicine Applications
+- 20.4c Effects on Device Performance
+- 20.4d Future Trends

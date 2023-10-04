@@ -1,0 +1,183 @@
+textbook: 
+"Stochastic Estimation and Control: Theory and Applications":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Random Signals
+- Section: 1.2 Intuitive Notion of Probability
+- Section: 1.3 Axiomatic Probability
+- Section: 1.4 Joint and Conditional Probability
+
+- Chapter 2: Independence:
+sections:
+- Section: 2.1 Random Variables
+- Section: 2.2 Probability Distribution and Density Functions
+
+- Chapter 3: Expectation, Averages and Characteristic Function:
+sections:
+- Section: 3.1 Normal or Gaussian Random Variables
+- Section: 3.2 Impulsive Probability Density Functions
+- Section: 3.3 Multiple Random Variables
+
+- Chapter 4: Correlation, Covariance, and Orthogonality:
+sections:
+- Section: 4.1 Sum of Independent Random Variables and Tendency Toward Normal Distribution
+- Section: 4.2 Transformation of Random Variables
+
+- Chapter 5: Some Common Distributions:
+sections:
+- Section: 5.1 Exponential Distribution
+- Section: 5.2 Uniform Distribution
+- Section: 5.3 Chi-square Distribution
+- Section: 5.4 Student's t-distribution
+- Section: 5.5 F-distribution
+
+- Chapter 6: More Common Distributions:
+sections:
+- Section: 6.1 Multivariate Normal Distribution
+- Section: 6.2 Multivariate Exponential Distribution
+- Section: 6.3 Multivariate Uniform Distribution
+- Section: 6.4 Multivariate Chi-square Distribution
+- Section: 6.5 Multivariate Student's t-distribution
+- Section: 6.6 Multivariate F-distribution
+
+- Chapter 7: Linearized Error Propagation:
+sections:
+- Section: 7.1 Error Propagation in Linear Systems
+- Section: 7.2 Propagation of Sums and Differences of Random Variables
+- Section: 7.3 Propagation of Products and Quotients of Random Variables
+- Section: 7.4 Propagation of Functions of Random Variables
+
+- Chapter 8: More Linearized Error Propagation:
+sections:
+- Section: 8.1 Error Propagation in Non-linear Systems
+- Section: 8.2 Propagation of Random Variables through Non-linear Functions
+- Section: 8.3 Taylor Series Expansion Method
+- Section: 8.4 Monte Carlo Simulation Method
+
+- Chapter 9: Concept of a Random Process:
+sections:
+- Section: 9.1 Introduction to Random Processes
+- Section: 9.2 Stationary and Non-stationary Processes
+- Section: 9.3 Autocorrelation Function
+- Section: 9.4 Cross-correlation Function
+- Section: 9.5 Power Spectral Density Function
+
+- Chapter 10: Autocorrelation Function:
+sections:
+- Section: 10.1 Definition and Properties
+- Section: 10.2 Calculation Methods
+- Section: 10.3 Autocorrelation of Random Signals
+- Section: 10.4 Autocorrelation of Random Processes
+
+- Chapter 11: Power Spectral Density Function:
+sections:
+- Section: 11.1 Definition and Properties
+- Section: 11.2 Calculation Methods
+- Section: 11.3 Relationship with Autocorrelation Function
+- Section: 11.4 Spectral Representation of Random Processes
+
+- Chapter 12: Gauss-Markov Process:
+sections:
+- Section: 12.1 Definition and Properties
+- Section: 12.2 Linear Least Squares Estimation
+- Section: 12.3 Kalman Filter
+- Section: 12.4 Application Examples
+
+- Chapter 13: Determination of Autocorrelation and Spectral Density Functions from Experimental Data:
+sections:
+- Section: 13.1 Estimation Methods
+- Section: 13.2 Periodogram Method
+- Section: 13.3 Bartlett Method
+- Section: 13.4 Welch Method
+- Section: 13.5 Blackman-Tukey Method
+
+- Chapter 14: Introduction: The Analysis Problem:
+sections:
+- Section: 14.1 Introduction to Estimation and Control Problems
+- Section: 14.2 Formulation of the Analysis Problem
+- Section: 14.3 Performance Measures
+
+- Chapter 15: Pure White Noise and Bandlimited Systems:
+sections:
+- Section: 15.1 Definition and Properties of White Noise
+- Section: 15.2 White Noise Filtering
+- Section: 15.3 Bandlimited Systems
+- Section: 15.4 Frequency Domain Analysis
+
+- Chapter 16: Nonstationary:
+sections:
+- Section: 16.1 Definition and Properties
+- Section: 16.2 Time-varying Systems
+- Section: 16.3 Time-frequency Analysis
+- Section: 16.4 Wavelet Transform
+
+- Chapter 17: The Wiener Filter Problem:
+sections:
+- Section: 17.1 Optimal Filtering Problem
+- Section: 17.2 Wiener Filter Solution
+- Section: 17.3 Wiener Filter Performance
+- Section: 17.4 Adaptive Filtering
+
+- Chapter 18: The Stationary Optimization Problem - Weighting Function Approach:
+sections:
+- Section: 18.1 Weighting Function Approach
+- Section: 18.2 Optimal Filtering Problem with Constraints
+- Section: 18.3 Solution by Convex Optimization
+- Section: 18.4 Application Examples
+
+- Chapter 19: Complementary Filter:
+sections:
+- Section: 19.1 Definition and Properties
+- Section: 19.2 Combination of Multiple Filters
+- Section: 19.3 Sensor Fusion
+- Section: 19.4 Application Examples
+
+- Chapter 20: Estimation:
+sections:
+- Section: 20.1 Estimation of Parameters
+- Section: 20.2 Maximum Likelihood Estimation
+- Section: 20.3 Bayesian Estimation
+- Section: 20.4 Recursive Estimation
+
+- Chapter 21: Markov Processes:
+sections:
+- Section: 21.1 Definition and Properties
+- Section: 21.2 Markov Chains
+- Section: 21.3 Hidden Markov Models
+- Section: 21.4 Markov Decision Processes
+
+- Chapter 22: State Space Description:
+sections:
+- Section: 22.1 State Space Models
+- Section: 22.2 State Estimation
+- Section: 22.3 State Prediction
+- Section: 22.4 Control Systems
+
+- Chapter 23: Monte Carlo Simulation of Discrete-Time Systems:
+sections:
+- Section: 23.1 Discrete-Time Systems
+- Section: 23.2 Monte Carlo Simulation Method
+- Section: 23.3 Random Number Generation
+- Section: 23.4 Application Examples
+
+- Chapter 24: Transition from the Discrete to Continuous Filter Equations:
+sections:
+- Section: 24.1 Discretization Methods
+- Section: 24.2 Euler Method
+- Section: 24.3 Runge-Kutta Methods
+- Section: 24.4 Continuous Filter Equations
+
+- Chapter 25: Divergence Problems:
+sections:
+- Section: 25.1 Stability Analysis
+- Section: 25.2 Divergence Criteria
+- Section: 25.3 Limitations of Estimation and Control Systems
+- Section: 25.4 Application Examples
+
+- Chapter 26: Complementary Filter Methodology:
+sections:
+- Section: 26.1 Design Methodology
+- Section: 26.2 Performance Evaluation
+- Section: 26.3 Application Examples

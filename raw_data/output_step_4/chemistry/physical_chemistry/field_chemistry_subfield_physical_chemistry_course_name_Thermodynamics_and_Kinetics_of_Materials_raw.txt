@@ -1,0 +1,195 @@
+textbook: 
+"Thermodynamics and Kinetics of Materials: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Irreversible Thermodynamics:
+sections:
+- Section: 1.1 Fields and Gradients
+- Section: 1.2 Fluxes
+- Section: 1.3 Continuity Equation
+- Section: 1.4 Entropy Production
+- Section: 1.5 Conjugate Driving Forces and Fluxes
+
+- Chapter 2: Diffusional Transport:
+sections:
+- Section: 2.1 Mass Diffusion in a Continuum
+- Section: 2.2 Diffusion Coefficients
+- Section: 2.3 Solutions to the Diffusion/Heat Equation
+- Section: 2.4 Atomistic Mechanisms of Diffusion
+- Section: 2.5 Diffusion in Ionic Crystals
+- Section: 2.6 Role of Microstructure in Diffusion; Short Circuits
+
+- Chapter 3: Nucleation and Growth:
+sections:
+- Section: 3.1 Homogeneous and Heterogeneous Nucleation
+- Section: 3.2 Diffusional Growth
+- Section: 3.3 The 'Moving Boundary' Problem
+- Section: 3.4 Solidification
+- Section: 3.5 Spinodal Decomposition
+- Section: 3.6 Particle Coarsening
+- Section: 3.7 Sintering
+
+- Chapter 4: Phase Transformations:
+sections:
+- Section: 4.1 Gibbs Phase Rule
+- Section: 4.2 Lever Rule
+- Section: 4.3 Binary Eutectic Systems
+- Section: 4.4 Solid Solutions and Phase Diagrams
+- Section: 4.5 Precipitation Reactions
+- Section: 4.6 Martensitic Transformations
+
+- Chapter 5: Kinetics of Reactions:
+sections:
+- Section: 5.1 Reaction Rates
+- Section: 5.2 Rate Laws
+- Section: 5.3 Reaction Mechanisms
+- Section: 5.4 Activation Energy
+- Section: 5.5 Transition State Theory
+- Section: 5.6 Catalysis
+- Section: 5.7 Enzyme Kinetics
+- Section: 5.8 Surface Reactions
+- Section: 5.9 Diffusion-Controlled Reactions
+
+- Chapter 6: Thermodynamics of Materials:
+sections:
+- Section: 6.1 Energy and Enthalpy
+- Section: 6.2 Entropy and Entropy Generation
+- Section: 6.3 Free Energy and Equilibrium
+- Section: 6.4 Chemical Potential
+- Section: 6.5 Phase Equilibria
+- Section: 6.6 Thermodynamic Properties of Mixtures
+- Section: 6.7 Ideal and Non-ideal Solutions
+- Section: 6.8 Gibbs-Duhem Equation
+- Section: 6.9 Thermodynamics of Surfaces and Interfaces
+- Section: 6.10 Thermodynamics of Polymers
+
+- Chapter 7: Statistical Thermodynamics:
+sections:
+- Section: 7.1 Boltzmann Distribution
+- Section: 7.2 Partition Function
+- Section: 7.3 Microstates and Macrostates
+- Section: 7.4 Ensembles
+- Section: 7.5 Ideal Gas Law
+- Section: 7.6 Maxwell-Boltzmann Distribution
+- Section: 7.7 Fermi-Dirac Distribution
+- Section: 7.8 Bose-Einstein Distribution
+- Section: 7.9 Quantum Statistics
+- Section: 7.10 Phase Transitions and Critical Phenomena
+
+- Chapter 8: Transport Phenomena:
+sections:
+- Section: 8.1 Diffusion
+- Section: 8.2 Heat Conduction
+- Section: 8.3 Mass Transfer
+- Section: 8.4 Fluid Mechanics
+- Section: 8.5 Rheology
+- Section: 8.6 Convective Heat and Mass Transfer
+- Section: 8.7 Boundary Layer Theory
+- Section: 8.8 Turbulent Flow
+- Section: 8.9 Heat and Mass Transfer in Biological Systems
+
+- Chapter 9: Materials Characterization Techniques:
+sections:
+- Section: 9.1 X-ray Diffraction
+- Section: 9.2 Scanning Electron Microscopy
+- Section: 9.3 Transmission Electron Microscopy
+- Section: 9.4 Atomic Force Microscopy
+- Section: 9.5 Spectroscopy Techniques
+- Section: 9.6 Thermal Analysis Techniques
+- Section: 9.7 Electron Microprobe Analysis
+- Section: 9.8 Auger Electron Spectroscopy
+- Section: 9.9 X-ray Photoelectron Spectroscopy
+- Section: 9.10 Secondary Ion Mass Spectrometry
+- Section: 9.11 Surface Science Techniques
+- Section: 9.12 Mechanical Testing Techniques
+- Section: 9.13 Thermal Testing Techniques
+- Section: 9.14 Chemical Analysis Techniques
+
+- Chapter 10: Thermodynamics of Reactions:
+sections:
+- Section: 10.1 Reaction Enthalpy
+- Section: 10.2 Reaction Entropy
+- Section: 10.3 Reaction Free Energy
+- Section: 10.4 Reaction Equilibrium Constant
+- Section: 10.5 Reaction Rate Constant
+- Section: 10.6 Reaction Mechanism
+- Section: 10.7 Reaction Order
+- Section: 10.8 Reaction Molecularity
+
+- Chapter 11: Thermodynamics of Phase Transitions:
+sections:
+- Section: 11.1 Phase Transition Enthalpy
+- Section: 11.2 Phase Transition Entropy
+- Section: 11.3 Phase Transition Free Energy
+- Section: 11.4 Phase Transition Temperature
+- Section: 11.5 Phase Diagrams
+- Section: 11.6 Phase Rule
+
+- Chapter 12: Thermodynamics of Solutions:
+sections:
+- Section: 12.1 Solution Enthalpy
+- Section: 12.2 Solution Entropy
+- Section: 12.3 Solution Free Energy
+- Section: 12.4 Solution Activity
+- Section: 12.5 Solution Activity Coefficient
+- Section: 12.6 Solution Phase Diagrams
+
+- Chapter 13: Thermodynamics of Surfaces and Interfaces:
+sections:
+- Section: 13.1 Surface Tension
+- Section: 13.2 Surface Excess
+- Section: 13.3 Surface Energy
+- Section: 13.4 Surface Thermodynamics
+- Section: 13.5 Interfacial Tension
+- Section: 13.6 Interfacial Energy
+
+- Chapter 14: Thermodynamics of Polymers:
+sections:
+- Section: 14.1 Polymer Solution Thermodynamics
+- Section: 14.2 Polymer Blend Thermodynamics
+- Section: 14.3 Polymer Melting Thermodynamics
+- Section: 14.4 Polymer Glass Transition Thermodynamics
+- Section: 14.5 Polymer Crystallization Thermodynamics
+
+- Chapter 15: Thermodynamics of Biological Systems:
+sections:
+- Section: 15.1 Bioenergetics
+- Section: 15.2 Thermodynamics of Metabolism
+- Section: 15.3 Thermodynamics of Photosynthesis
+- Section: 15.4 Thermodynamics of Protein Folding
+- Section: 15.5 Thermodynamics of Membrane Transport
+
+- Chapter 16: Thermodynamics of Nanomaterials:
+sections:
+- Section: 16.1 Nanoparticle Thermodynamics
+- Section: 16.2 Quantum Size Effect
+- Section: 16.3 Thermodynamics of Self-Assembly
+- Section: 16.4 Thermodynamics of Nanostructured Materials
+
+- Chapter 17: Thermodynamics of Energy Storage:
+sections:
+- Section: 17.1 Thermodynamics of Batteries
+- Section: 17.2 Thermodynamics of Fuel Cells
+- Section: 17.3 Thermodynamics of Supercapacitors
+- Section: 17.4 Thermodynamics of Solar Cells
+
+- Chapter 18: Thermodynamics of Energy Conversion:
+sections:
+- Section: 18.1 Thermodynamics of Heat Engines
+- Section: 18.2 Thermodynamics of Refrigerators
+- Section: 18.3 Thermodynamics of Heat Pumps
+- Section: 18.4 Thermodynamics of Thermoelectric Devices
+
+- Chapter 19: Thermodynamics of Environmental Systems:
+sections:
+- Section: 19.1 Thermodynamics of Air Pollution
+- Section: 19.2 Thermodynamics of Water Pollution
+- Section: 19.3 Thermodynamics of Soil Pollution
+- Section: 19.4 Thermodynamics of Climate Change
+
+- Chapter 20: Thermodynamics of Sustainable Systems:
+sections:
+- Section: 20.1 Thermodynamics of Renewable Energy
+- Section: 20.2 Thermodynamics of Energy Efficiency
+- Section: 20.3 Thermodynamics of Carbon Capture and Storage
+- Section: 20.4 Thermodynamics of Waste-to-Energy Processes

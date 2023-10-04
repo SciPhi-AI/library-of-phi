@@ -1,0 +1,368 @@
+textbook:
+  'Synthesis of Polymers: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Polymer Design and Synthesis:':
+        sections:
+        - '- Section: 1.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 1.1a Basics of Radical Polymerization
+            - 1.1b Applications of Radical Polymerization
+            - 1.1c Challenges in Radical Polymerization
+        - '- Section: 1.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 1.2a Introduction to Emulsion Polymerization
+            - 1.2b Techniques in Emulsion Polymerization
+            - 1.2c Case Studies in Emulsion Polymerization
+        - '- Section: 1.3 Stereoregular Polymerizations:':
+            subsections:
+            - 1.3a Basics of Stereoregular Polymerizations
+            - 1.3b Applications of Stereoregular Polymerizations
+            - 1.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 1.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 1.4a Introduction to Radical Copolymerization
+            - 1.4b Techniques in Radical Copolymerization
+            - 1.4c Case Studies in Radical Copolymerization
+    - '- Chapter 2: Reaction Types and Processes:':
+        sections:
+        - '- Section: 2.1 Step Growth Polymerization:':
+            subsections:
+            - 2.1a Basics of Step Growth Polymerization
+            - 2.1b Techniques in Step Growth Polymerization
+            - 2.1c Applications of Step Growth Polymerization
+        - '- Section: 2.2 Types of Monomers:':
+            subsections:
+            - 2.2a Introduction to Monomers
+            - 2.2b Classification of Monomers
+            - 2.2c Applications of Different Monomers
+        - '- Section: 2.3 Kinetics and Equilibrium:':
+            subsections:
+            - 2.3a Basics of Kinetics in Polymerization
+            - 2.3b Equilibrium in Polymerization
+            - 2.3c Case Studies in Kinetics and Equilibrium
+        - '- Section: 2.4 Molecular Weight (MW) Control:':
+            subsections:
+            - 2.4a Introduction to Molecular Weight Control
+            - 2.4b Techniques in Molecular Weight Control
+            - 2.4c Applications of Molecular Weight Control
+    - '- Chapter 3: Introduction to Step Growth:':
+        sections:
+        - '- Section: 3.1 Sections 1-1 to 1-4. Examples of Common Functional Group:':
+            subsections:
+            - 3.1a Introduction to Functional Groups
+            - 3.1b Classification of Functional Groups
+            - 3.1c Applications of Functional Groups
+    - '- Chapter 4: Polymerization Kinetics:':
+        sections:
+        - '- Section: 4.1 Interchange Reactions: Effects on Processing and Product Application:':
+            subsections:
+            - 4.1a Basics of Interchange Reactions
+            - 4.1b Techniques in Interchange Reactions
+            - 4.1c Applications of Interchange Reactions
+        - '- Section: 4.2 Example: Common Polyesters:':
+            subsections:
+            - 4.2a Introduction to Polyesters
+            - 4.2b Techniques in Polyester Synthesis
+            - 4.2c Applications of Polyesters
+        - '- Section: 4.3 Step Growth Polymerization:':
+            subsections:
+            - 4.3a Basics of Step Growth Polymerization
+            - 4.3b Techniques in Step Growth Polymerization
+            - 4.3c Applications of Step Growth Polymerization
+        - '- Section: 4.4 Kinetics and Equilibrium:':
+            subsections:
+            - 4.4a Basics of Kinetics in Polymerization
+            - 4.4b Equilibrium in Polymerization
+            - 4.4c Case Studies in Kinetics and Equilibrium
+    - '- Chapter 5: Functionalization Case Studies:':
+        sections:
+        - '- Section: 5.1 Biomaterials Systems:':
+            subsections:
+            - 5.1a Introduction to Biomaterials Systems
+            - 5.1b Techniques in Biomaterials Systems
+            - 5.1c Applications of Biomaterials Systems
+        - '- Section: 5.2 Liquid Crystal:':
+            subsections:
+            - 5.2a Introduction to Liquid Crystal
+            - 5.2b Techniques in Liquid Crystal
+            - 5.2c Applications of Liquid Crystal
+    - '- Chapter 6: Inorganic Polymer Synthesis:':
+        sections:
+        - '- Section: 6.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 6.1a Basics of Radical Polymerization
+            - 6.1b Applications of Radical Polymerization
+            - 6.1c Challenges in Radical Polymerization
+        - '- Section: 6.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 6.2a Introduction to Emulsion Polymerization
+            - 6.2b Techniques in Emulsion Polymerization
+            - 6.2c Case Studies in Emulsion Polymerization
+        - '- Section: 6.3 Stereoregular Polymerizations:':
+            subsections:
+            - 6.3a Basics of Stereoregular Polymerizations
+            - 6.3b Applications of Stereoregular Polymerizations
+            - 6.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 6.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 6.4a Introduction to Radical Copolymerization
+            - 6.4b Techniques in Radical Copolymerization
+            - 6.4c Case Studies in Radical Copolymerization
+    - '- Chapter 7: Anionic Block Copolymerization:':
+        sections:
+        - '- Section: 7.1 Basics of Anionic Block Copolymerization:':
+            subsections:
+            - 7.1a Introduction to Anionic Block Copolymerization
+            - 7.1b Techniques in Anionic Block Copolymerization
+            - 7.1c Applications of Anionic Block Copolymerization
+        - '- Section: 7.2 Polysiloxanes, Lactams, etc.:':
+            subsections:
+            - 7.2a Introduction to Polysiloxanes and Lactams
+            - 7.2b Techniques in Polysiloxanes and Lactams Synthesis
+            - 7.2c Applications of Polysiloxanes and Lactams
+        - '- Section: 7.3 Functionalization Case Studies: Biomaterials Systems, Liquid Crystal:':
+            subsections:
+            - 7.3a Introduction to Functionalization Case Studies
+            - 7.3b Techniques in Functionalization
+            - 7.3c Applications of Functionalization
+        - '- Section: 7.4 Inorganic Polymer Synthesis:':
+            subsections:
+            - 7.4a Basics of Inorganic Polymer Synthesis
+            - 7.4b Techniques in Inorganic Polymer Synthesis
+            - 7.4c Applications of Inorganic Polymer Synthesis
+    - '- Chapter 8: Polymer Design and Synthesis:':
+        sections:
+        - '- Section: 8.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 8.1a Basics of Radical Polymerization
+            - 8.1b Applications of Radical Polymerization
+            - 8.1c Challenges in Radical Polymerization
+        - '- Section: 8.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 8.2a Introduction to Emulsion Polymerization
+            - 8.2b Techniques in Emulsion Polymerization
+            - 8.2c Case Studies in Emulsion Polymerization
+        - '- Section: 8.3 Stereoregular Polymerizations:':
+            subsections:
+            - 8.3a Basics of Stereoregular Polymerizations
+            - 8.3b Applications of Stereoregular Polymerizations
+            - 8.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 8.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 8.4a Introduction to Radical Copolymerization
+            - 8.4b Techniques in Radical Copolymerization
+            - 8.4c Case Studies in Radical Copolymerization
+    - '- Chapter 9: Reaction Types and Processes:':
+        sections:
+        - '- Section: 9.1 Step Growth Polymerization:':
+            subsections:
+            - 9.1a Basics of Step Growth Polymerization
+            - 9.1b Techniques in Step Growth Polymerization
+            - 9.1c Applications of Step Growth Polymerization
+        - '- Section: 9.2 Types of Monomers:':
+            subsections:
+            - 9.2a Introduction to Monomers
+            - 9.2b Classification of Monomers
+            - 9.2c Applications of Different Monomers
+        - '- Section: 9.3 Kinetics and Equilibrium:':
+            subsections:
+            - 9.3a Basics of Kinetics in Polymerization
+            - 9.3b Equilibrium in Polymerization
+            - 9.3c Case Studies in Kinetics and Equilibrium
+        - '- Section: 9.4 Molecular Weight (MW) Control:':
+            subsections:
+            - 9.4a Introduction to Molecular Weight Control
+            - 9.4b Techniques in Molecular Weight Control
+            - 9.4c Applications of Molecular Weight Control
+    - '- Chapter 10: Introduction to Step Growth:':
+        sections:
+        - '- Section: 10.1 Sections 1-1 to 1-4. Examples of Common Functional Group:':
+            subsections:
+            - 10.1a Introduction to Functional Groups
+            - 10.1b Classification of Functional Groups
+            - 10.1c Applications of Functional Groups
+    - '- Chapter 11: Polymerization Kinetics:':
+        sections:
+        - '- Section: 11.1 Interchange Reactions: Effects on Processing and Product Application:':
+            subsections:
+            - 11.1a Basics of Interchange Reactions
+            - 11.1b Techniques in Interchange Reactions
+            - 11.1c Applications of Interchange Reactions
+        - '- Section: 11.2 Example: Common Polyesters:':
+            subsections:
+            - 11.2a Introduction to Polyesters
+            - 11.2b Techniques in Polyester Synthesis
+            - 11.2c Applications of Polyesters
+        - '- Section: 11.3 Step Growth Polymerization:':
+            subsections:
+            - 11.3a Basics of Step Growth Polymerization
+            - 11.3b Techniques in Step Growth Polymerization
+            - 11.3c Applications of Step Growth Polymerization
+        - '- Section: 11.4 Kinetics and Equilibrium:':
+            subsections:
+            - 11.4a Basics of Kinetics in Polymerization
+            - 11.4b Equilibrium in Polymerization
+            - 11.4c Case Studies in Kinetics and Equilibrium
+    - '- Chapter 12: Functionalization Case Studies:':
+        sections:
+        - '- Section: 12.1 Biomaterials Systems:':
+            subsections:
+            - 12.1a Introduction to Biomaterials Systems
+            - 12.1b Techniques in Biomaterials Systems
+            - 12.1c Applications of Biomaterials Systems
+        - '- Section: 12.2 Liquid Crystal:':
+            subsections:
+            - 12.2a Introduction to Liquid Crystal
+            - 12.2b Techniques in Liquid Crystal
+            - 12.2c Applications of Liquid Crystal
+    - '- Chapter 13: Inorganic Polymer Synthesis:':
+        sections:
+        - '- Section: 13.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 13.1a Basics of Radical Polymerization
+            - 13.1b Applications of Radical Polymerization
+            - 13.1c Challenges in Radical Polymerization
+        - '- Section: 13.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 13.2a Introduction to Emulsion Polymerization
+            - 13.2b Techniques in Emulsion Polymerization
+            - 13.2c Case Studies in Emulsion Polymerization
+        - '- Section: 13.3 Stereoregular Polymerizations:':
+            subsections:
+            - 13.3a Basics of Stereoregular Polymerizations
+            - 13.3b Applications of Stereoregular Polymerizations
+            - 13.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 13.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 13.4a Introduction to Radical Copolymerization
+            - 13.4b Techniques in Radical Copolymerization
+            - 13.4c Case Studies in Radical Copolymerization
+    - '- Chapter 14: Anionic Block Copolymerization:':
+        sections:
+        - '- Section: 14.1 Basics of Anionic Block Copolymerization:':
+            subsections:
+            - 14.1a Introduction to Anionic Block Copolymerization
+            - 14.1b Techniques in Anionic Block Copolymerization
+            - 14.1c Applications of Anionic Block Copolymerization
+        - '- Section: 14.2 Polysiloxanes, Lactams, etc.:':
+            subsections:
+            - 14.2a Introduction to Polysiloxanes and Lactams
+            - 14.2b Techniques in Polysiloxanes and Lactams Synthesis
+            - 14.2c Applications of Polysiloxanes and Lactams
+        - '- Section: 14.3 Functionalization Case Studies: Biomaterials Systems, Liquid Crystal:':
+            subsections:
+            - 14.3a Introduction to Functionalization Case Studies
+            - 14.3b Techniques in Functionalization
+            - 14.3c Applications of Functionalization
+        - '- Section: 14.4 Inorganic Polymer Synthesis:':
+            subsections:
+            - 14.4a Basics of Inorganic Polymer Synthesis
+            - 14.4b Techniques in Inorganic Polymer Synthesis
+            - 14.4c Applications of Inorganic Polymer Synthesis
+    - '- Chapter 15: Polymer Design and Synthesis:':
+        sections:
+        - '- Section: 15.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 15.1a Basics of Radical Polymerization
+            - 15.1b Applications of Radical Polymerization
+            - 15.1c Challenges in Radical Polymerization
+        - '- Section: 15.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 15.2a Introduction to Emulsion Polymerization
+            - 15.2b Techniques in Emulsion Polymerization
+            - 15.2c Case Studies in Emulsion Polymerization
+        - '- Section: 15.3 Stereoregular Polymerizations:':
+            subsections:
+            - 15.3a Basics of Stereoregular Polymerizations
+            - 15.3b Applications of Stereoregular Polymerizations
+            - 15.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 15.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 15.4a Introduction to Radical Copolymerization
+            - 15.4b Techniques in Radical Copolymerization
+            - 15.4c Case Studies in Radical Copolymerization
+    - '- Chapter 16: Reaction Types and Processes:':
+        sections:
+        - '- Section: 16.1 Step Growth Polymerization:':
+            subsections:
+            - 16.1a Basics of Step Growth Polymerization
+            - 16.1b Techniques in Step Growth Polymerization
+            - 16.1c Applications of Step Growth Polymerization
+        - '- Section: 16.2 Types of Monomers:':
+            subsections:
+            - 16.2a Introduction to Monomers
+            - 16.2b Classification of Monomers
+            - 16.2c Applications of Different Monomers
+        - '- Section: 16.3 Kinetics and Equilibrium:':
+            subsections:
+            - 16.3a Basics of Kinetics in Polymerization
+            - 16.3b Equilibrium in Polymerization
+            - 16.3c Case Studies in Kinetics and Equilibrium
+        - '- Section: 16.4 Molecular Weight (MW) Control:':
+            subsections:
+            - 16.4a Introduction to Molecular Weight Control
+            - 16.4b Techniques in Molecular Weight Control
+            - 16.4c Applications of Molecular Weight Control
+    - '- Chapter 17: Introduction to Step Growth:':
+        sections:
+        - '- Section: 17.1 Sections 1-1 to 1-4. Examples of Common Functional Group:':
+            subsections:
+            - 17.1a Introduction to Functional Groups
+            - 17.1b Classification of Functional Groups
+            - 17.1c Applications of Functional Groups
+    - '- Chapter 18: Polymerization Kinetics:':
+        sections:
+        - '- Section: 18.1 Interchange Reactions: Effects on Processing and Product Application:':
+            subsections:
+            - 18.1a Basics of Interchange Reactions
+            - 18.1b Techniques in Interchange Reactions
+            - 18.1c Applications of Interchange Reactions
+        - '- Section: 18.2 Example: Common Polyesters:':
+            subsections:
+            - 18.2a Introduction to Polyesters
+            - 18.2b Techniques in Polyester Synthesis
+            - 18.2c Applications of Polyesters
+        - '- Section: 18.3 Step Growth Polymerization:':
+            subsections:
+            - 18.3a Basics of Step Growth Polymerization
+            - 18.3b Techniques in Step Growth Polymerization
+            - 18.3c Applications of Step Growth Polymerization
+        - '- Section: 18.4 Kinetics and Equilibrium:':
+            subsections:
+            - 18.4a Basics of Kinetics in Polymerization
+            - 18.4b Equilibrium in Polymerization
+            - 18.4c Case Studies in Kinetics and Equilibrium
+    - '- Chapter 19: Functionalization Case Studies:':
+        sections:
+        - '- Section: 19.1 Biomaterials Systems:':
+            subsections:
+            - 19.1a Introduction to Biomaterials Systems
+            - 19.1b Techniques in Biomaterials Systems
+            - 19.1c Applications of Biomaterials Systems
+        - '- Section: 19.2 Liquid Crystal:':
+            subsections:
+            - 19.2a Introduction to Liquid Crystal
+            - 19.2b Techniques in Liquid Crystal
+            - 19.2c Applications of Liquid Crystal
+    - '- Chapter 20: Inorganic Polymer Synthesis:':
+        sections:
+        - '- Section: 20.1 Introduction to Radical Polymerization:':
+            subsections:
+            - 20.1a Basics of Radical Polymerization
+            - 20.1b Applications of Radical Polymerization
+            - 20.1c Challenges in Radical Polymerization
+        - '- Section: 20.2 Processing Approaches: Emulsion Polymerization Processes:':
+            subsections:
+            - 20.2a Introduction to Emulsion Polymerization
+            - 20.2b Techniques in Emulsion Polymerization
+            - 20.2c Case Studies in Emulsion Polymerization
+        - '- Section: 20.3 Stereoregular Polymerizations:':
+            subsections:
+            - 20.3a Basics of Stereoregular Polymerizations
+            - 20.3b Applications of Stereoregular Polymerizations
+            - 20.3c Challenges in Stereoregular Polymerizations
+        - '- Section: 20.4 Radical Copolymerization: Alternating to Block Copolymers:':
+            subsections:
+            - 20.4a Introduction to Radical Copolymerization
+            - 20.4b Techniques in Radical Copolymerization
+            - 20.4c Case Studies in Radical Copolymerization

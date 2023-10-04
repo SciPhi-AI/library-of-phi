@@ -1,0 +1,78 @@
+textbook:
+  'Mechanics of Material Systems: An Energy Approach - A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Deformation and Strain:':
+        sections:
+        - '- Section: 1.1 Description of Finite Deformation:':
+            subsections:
+            - 1.1a Basic Concepts
+            - 1.1b Mathematical Representation
+            - 1.1c Practical Applications
+        - '- Section: 1.2 Infinitesimal Deformation:':
+            subsections:
+            - 1.2a Definition and Characteristics
+            - 1.2b Mathematical Formulation
+            - 1.2c Real World Examples
+    - '- Chapter 2: Momentum Balance and Stresses:':
+        sections:
+        - '- Section: 2.1 Momentum Balance:':
+            subsections:
+            - 2.1a Fundamental Principles
+            - 2.1b Equations of Motion
+            - 2.1c Applications in Material Systems
+        - '- Section: 2.2 Stress States/Failure Criterion:':
+            subsections:
+            - 2.2a Stress Tensor
+            - 2.2b Failure Theories
+            - 2.2c Case Studies
+    - '- Chapter 3: Elasticity and Elasticity Bounds:':
+        sections:
+        - '- Section: 3.1 Thermoelasticity:':
+            subsections:
+            - 3.1a Basic Concepts
+            - 3.1b Thermoelastic Equations
+            - 3.1c Applications and Limitations
+        - '- Section: 3.2 Variational Methods:':
+            subsections:
+            - 3.2a Introduction to Variational Methods
+            - 3.2b Application in Elasticity
+            - 3.2c Advantages and Challenges
+    - '- Chapter 4: Plasticity and Yield Design:':
+        sections:
+        - '- Section: 4.1 1D-Plasticity - An Energy Approach:':
+            subsections:
+            - 4.1a Basic Principles
+            - 4.1b Energy Formulation
+            - 4.1c Practical Applications
+        - '- Section: 4.2 Plasticity Models:':
+            subsections:
+            - 4.2a Introduction to Plasticity Models
+            - 4.2b Commonly Used Models
+            - 4.2c Model Selection Criteria
+        - '- Section: 4.3 Limit Analysis and Yield Design:':
+            subsections:
+            - 4.3a Basic Concepts
+            - 4.3b Yield Criteria
+            - 4.3c Design Considerations
+    - '- Chapter 5: [Add Additional Topic Here]:':
+        sections:
+        - '- Section: 5.1 [Add Subtopic 1 Here]:':
+            subsections:
+            - 5.1a [Add Subsubsection 1 Here]
+            - 5.1b [Add Subsubsection 2 Here]
+            - 5.1c [Add Subsubsection 3 Here]
+        - '- Section: 5.2 [Add Subtopic 2 Here]:':
+            subsections:
+            - 5.2a [Add Subsubsection 1 Here]
+            - 5.2b [Add Subsubsection 2 Here]
+            - 5.2c [Add Subsubsection 3 Here]
+        - '- Section: 5.3 [Add Subtopic 3 Here]:':
+            subsections:
+            - 5.3a [Add Subsubsection 1 Here]
+            - 5.3b [Add Subsubsection 2 Here]
+            - 5.3c [Add Subsubsection 3 Here]
+        - '- Section: 5.4 [Add Subtopic 4 Here]:':
+            subsections:
+            - 5.4a [Add Subsubsection 1 Here]
+            - 5.4b [Add Subsubsection 2 Here]
+            - 5.4c [Add Subsubsection 3 Here]

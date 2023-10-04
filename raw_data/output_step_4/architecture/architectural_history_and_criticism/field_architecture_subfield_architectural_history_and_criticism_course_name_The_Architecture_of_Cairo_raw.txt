@@ -1,0 +1,435 @@
+textbook: 
+"The Architecture of Cairo: Exploring the Historical Evolution of Egypt's Capital City":
+
+chapters:
+- Chapter 1: Introduction to Egyptian Architecture:
+sections:
+- Section: 1.1 Egypt from Alexander to the Islamic Conquest:
+subsections:
+- 1.1a Alexander's Conquest of Egypt
+- 1.1b The Ptolemaic Dynasty
+- 1.1c The Roman Period
+- 1.1d The Byzantine Period
+
+- Section: 1.2 Foundation of al-Fustat:
+subsections:
+- 1.2a The Founding of al-Fustat
+- 1.2b Early Islamic Architecture in al-Fustat
+- 1.2c The Growth and Development of al-Fustat
+- 1.2d The Decline of al-Fustat
+
+- Chapter 2: Abbasids and Tulunids:
+sections:
+- Section: 2.1 The Foundation of Fatimid al-Qahira:
+subsections:
+- 2.1a The Fatimid Dynasty
+- 2.1b The Founding of al-Qahira
+- 2.1c Fatimid Architecture in al-Qahira
+- 2.1d The Legacy of Fatimid al-Qahira
+
+- Section: 2.2 Fatimid Mosques in Cairo:
+subsections:
+- 2.2a The al-Azhar Mosque
+- 2.2b The al-Hakim Mosque
+- 2.2c The al-Aqmar Mosque
+- 2.2d The Legacy of Fatimid Mosque Architecture
+
+- Section: 2.3 Late Fatimid Period (1074-1171):
+subsections:
+- 2.3a The Decline of the Fatimids
+- 2.3b The Architecture of the Late Fatimid Period
+- 2.3c The End of the Fatimid Dynasty
+- 2.3d The Legacy of the Fatimids
+
+- Chapter 3: The Ayyubid Period:
+sections:
+- Section: 3.1 The City and the Citadel:
+subsections:
+- 3.1a The Ayyubid Dynasty
+- 3.1b The Founding of the Citadel
+- 3.1c Ayyubid Architecture in Cairo
+- 3.1d The Legacy of the Ayyubids
+
+- Section: 3.2 Transforming the Religious Landscape of Cairo in the Ayyubid Period:
+subsections:
+- 3.2a The Ayyubid Religious Policy
+- 3.2b The Construction of Madrasas
+- 3.2c The Transformation of the Religious Landscape
+- 3.2d The Legacy of the Ayyubid Religious Policy
+
+- Chapter 4: Early Mamluk Period:
+sections:
+- Section: 4.1 Early Mamluk Period (1250-90):
+subsections:
+- 4.1a The Mamluk Dynasty
+- 4.1b The Early Mamluk Period
+- 4.1c Mamluk Architecture in Cairo
+- 4.1d The Legacy of the Early Mamluk Period
+
+- Chapter 5: Islamic Architecture in Cairo:
+sections:
+- Section: 5.1 'Behrens-Abouseif, Doris.Islamic Architecture of Cairo: An Introduction.Leiden: Brill, 1989, pp. 3-34 and 47-57.':
+subsections:
+- 5.1a The Introduction to Islamic Architecture in Cairo
+- 5.1b The Development of Islamic Architecture in Cairo
+- 5.1c The Characteristics of Islamic Architecture in Cairo
+- 5.1d The Legacy of Islamic Architecture in Cairo
+
+- Section: 5.2 'Raymond, Andre.Cairo.Cambridge, Mass.: Harvard University Press, 2000, pp. 7-30.':
+subsections:
+- 5.2a The Introduction to Cairo
+- 5.2b The Development of Cairo
+- 5.2c The Characteristics of Cairo
+- 5.2d The Legacy of Cairo
+
+- Section: 5.3 Kaegi, Walter. 'Egypt on the Eve of the Muslim Conquest.' InThe Cambridge History of Egypt.Vol. 1,Is:
+subsections:
+- 5.3a The Introduction to Egypt on the Eve of the Muslim Conquest
+- 5.3b The Development of Egypt on the Eve of the Muslim Conquest
+- 5.3c The Characteristics of Egypt on the Eve of the Muslim Conquest
+- 5.3d The Legacy of Egypt on the Eve of the Muslim Conquest
+
+- Chapter 6: The Ottoman Period:
+sections:
+- Section: 6.1 The Ottoman Conquest of Egypt:
+subsections:
+- 6.1a The Ottoman Empire
+- 6.1b The Ottoman Conquest of Egypt
+- 6.1c The Early Ottoman Period in Egypt
+- 6.1d The Legacy of the Ottoman Conquest
+
+- Section: 6.2 Ottoman Architecture in Cairo:
+subsections:
+- 6.2a The Introduction to Ottoman Architecture in Cairo
+- 6.2b The Development of Ottoman Architecture in Cairo
+- 6.2c The Characteristics of Ottoman Architecture in Cairo
+- 6.2d The Legacy of Ottoman Architecture in Cairo
+
+- Section: 6.3 The Late Ottoman Period in Egypt:
+subsections:
+- 6.3a The Late Ottoman Period
+- 6.3b The Decline of the Ottoman Empire in Egypt
+- 6.3c The End of the Ottoman Rule in Egypt
+- 6.3d The Legacy of the Ottoman Rule in Egypt
+
+- Chapter 7: The British Occupation:
+sections:
+- Section: 7.1 The British Occupation of Egypt:
+subsections:
+- 7.1a The British Empire
+- 7.1b The British Occupation of Egypt
+- 7.1c The Impact of the British Occupation on Cairo
+- 7.1d The Legacy of the British Occupation
+
+- Section: 7.2 British Architecture in Cairo:
+subsections:
+- 7.2a The Introduction to British Architecture in Cairo
+- 7.2b The Development of British Architecture in Cairo
+- 7.2c The Characteristics of British Architecture in Cairo
+- 7.2d The Legacy of British Architecture in Cairo
+
+- Section: 7.3 The End of the British Occupation:
+subsections:
+- 7.3a The End of the British Occupation
+- 7.3b The Impact of the End of the British Occupation on Cairo
+- 7.3c The Post-Occupation Period in Egypt
+- 7.3d The Legacy of the End of the British Occupation
+
+- Chapter 8: The Modern Period:
+sections:
+- Section: 8.1 The Modern Period in Egypt:
+subsections:
+- 8.1a The Introduction to the Modern Period in Egypt
+- 8.1b The Development of the Modern Period in Egypt
+- 8.1c The Characteristics of the Modern Period in Egypt
+- 8.1d The Legacy of the Modern Period in Egypt
+
+- Section: 8.2 Modern Architecture in Cairo:
+subsections:
+- 8.2a The Introduction to Modern Architecture in Cairo
+- 8.2b The Development of Modern Architecture in Cairo
+- 8.2c The Characteristics of Modern Architecture in Cairo
+- 8.2d The Legacy of Modern Architecture in Cairo
+
+- Section: 8.3 The Post-Modern Period in Egypt:
+subsections:
+- 8.3a The Introduction to the Post-Modern Period in Egypt
+- 8.3b The Development of the Post-Modern Period in Egypt
+- 8.3c The Characteristics of the Post-Modern Period in Egypt
+- 8.3d The Legacy of the Post-Modern Period in Egypt
+
+- Chapter 9: The Post-Modern Period:
+sections:
+- Section: 9.1 The Post-Modern Period in Egypt:
+subsections:
+- 9.1a The Introduction to the Post-Modern Period in Egypt
+- 9.1b The Development of the Post-Modern Period in Egypt
+- 9.1c The Characteristics of the Post-Modern Period in Egypt
+- 9.1d The Legacy of the Post-Modern Period in Egypt
+
+- Section: 9.2 Post-Modern Architecture in Cairo:
+subsections:
+- 9.2a The Introduction to Post-Modern Architecture in Cairo
+- 9.2b The Development of Post-Modern Architecture in Cairo
+- 9.2c The Characteristics of Post-Modern Architecture in Cairo
+- 9.2d The Legacy of Post-Modern Architecture in Cairo
+
+- Section: 9.3 The Future of Architecture in Cairo:
+subsections:
+- 9.3a The Introduction to the Future of Architecture in Cairo
+- 9.3b The Potential Development of Architecture in Cairo
+- 9.3c The Potential Characteristics of Future Architecture in Cairo
+- 9.3d The Potential Legacy of Future Architecture in Cairo
+
+- Chapter 10: The Future of Cairo:
+sections:
+- Section: 10.1 The Future of Cairo:
+subsections:
+- 10.1a The Introduction to the Future of Cairo
+- 10.1b The Potential Development of Cairo
+- 10.1c The Potential Characteristics of Future Cairo
+- 10.1d The Potential Legacy of Future Cairo
+
+- Section: 10.2 The Future of Egyptian Architecture:
+subsections:
+- 10.2a The Introduction to the Future of Egyptian Architecture
+- 10.2b The Potential Development of Egyptian Architecture
+- 10.2c The Potential Characteristics of Future Egyptian Architecture
+- 10.2d The Potential Legacy of Future Egyptian Architecture
+
+- Section: 10.3 The Future of Egypt:
+subsections:
+- 10.3a The Introduction to the Future of Egypt
+- 10.3b The Potential Development of Egypt
+- 10.3c The Potential Characteristics of Future Egypt
+- 10.3d The Potential Legacy of Future Egypt
+
+- Chapter 11: The Legacy of Cairo:
+sections:
+- Section: 11.1 The Legacy of Cairo:
+subsections:
+- 11.1a The Introduction to the Legacy of Cairo
+- 11.1b The Development of the Legacy of Cairo
+- 11.1c The Characteristics of the Legacy of Cairo
+- 11.1d The Impact of the Legacy of Cairo
+
+- Section: 11.2 The Legacy of Egyptian Architecture:
+subsections:
+- 11.2a The Introduction to the Legacy of Egyptian Architecture
+- 11.2b The Development of the Legacy of Egyptian Architecture
+- 11.2c The Characteristics of the Legacy of Egyptian Architecture
+- 11.2d The Impact of the Legacy of Egyptian Architecture
+
+- Section: 11.3 The Legacy of Egypt:
+subsections:
+- 11.3a The Introduction to the Legacy of Egypt
+- 11.3b The Development of the Legacy of Egypt
+- 11.3c The Characteristics of the Legacy of Egypt
+- 11.3d The Impact of the Legacy of Egypt
+
+- Chapter 12: The Impact of Cairo:
+sections:
+- Section: 12.1 The Impact of Cairo:
+subsections:
+- 12.1a The Introduction to the Impact of Cairo
+- 12.1b The Development of the Impact of Cairo
+- 12.1c The Characteristics of the Impact of Cairo
+- 12.1d The Legacy of the Impact of Cairo
+
+- Section: 12.2 The Impact of Egyptian Architecture:
+subsections:
+- 12.2a The Introduction to the Impact of Egyptian Architecture
+- 12.2b The Development of the Impact of Egyptian Architecture
+- 12.2c The Characteristics of the Impact of Egyptian Architecture
+- 12.2d The Legacy of the Impact of Egyptian Architecture
+
+- Section: 12.3 The Impact of Egypt:
+subsections:
+- 12.3a The Introduction to the Impact of Egypt
+- 12.3b The Development of the Impact of Egypt
+- 12.3c The Characteristics of the Impact of Egypt
+- 12.3d The Legacy of the Impact of Egypt
+
+- Chapter 13: The Influence of Cairo:
+sections:
+- Section: 13.1 The Influence of Cairo:
+subsections:
+- 13.1a The Introduction to the Influence of Cairo
+- 13.1b The Development of the Influence of Cairo
+- 13.1c The Characteristics of the Influence of Cairo
+- 13.1d The Legacy of the Influence of Cairo
+
+- Section: 13.2 The Influence of Egyptian Architecture:
+subsections:
+- 13.2a The Introduction to the Influence of Egyptian Architecture
+- 13.2b The Development of the Influence of Egyptian Architecture
+- 13.2c The Characteristics of the Influence of Egyptian Architecture
+- 13.2d The Legacy of the Influence of Egyptian Architecture
+
+- Section: 13.3 The Influence of Egypt:
+subsections:
+- 13.3a The Introduction to the Influence of Egypt
+- 13.3b The Development of the Influence of Egypt
+- 13.3c The Characteristics of the Influence of Egypt
+- 13.3d The Legacy of the Influence of Egypt
+
+- Chapter 14: The Significance of Cairo:
+sections:
+- Section: 14.1 The Significance of Cairo:
+subsections:
+- 14.1a The Introduction to the Significance of Cairo
+- 14.1b The Development of the Significance of Cairo
+- 14.1c The Characteristics of the Significance of Cairo
+- 14.1d The Legacy of the Significance of Cairo
+
+- Section: 14.2 The Significance of Egyptian Architecture:
+subsections:
+- 14.2a The Introduction to the Significance of Egyptian Architecture
+- 14.2b The Development of the Significance of Egyptian Architecture
+- 14.2c The Characteristics of the Significance of Egyptian Architecture
+- 14.2d The Legacy of the Significance of Egyptian Architecture
+
+- Section: 14.3 The Significance of Egypt:
+subsections:
+- 14.3a The Introduction to the Significance of Egypt
+- 14.3b The Development of the Significance of Egypt
+- 14.3c The Characteristics of the Significance of Egypt
+- 14.3d The Legacy of the Significance of Egypt
+
+- Chapter 15: The Preservation of Cairo:
+sections:
+- Section: 15.1 The Preservation of Cairo:
+subsections:
+- 15.1a The Introduction to the Preservation of Cairo
+- 15.1b The Development of the Preservation of Cairo
+- 15.1c The Characteristics of the Preservation of Cairo
+- 15.1d The Legacy of the Preservation of Cairo
+
+- Section: 15.2 The Preservation of Egyptian Architecture:
+subsections:
+- 15.2a The Introduction to the Preservation of Egyptian Architecture
+- 15.2b The Development of the Preservation of Egyptian Architecture
+- 15.2c The Characteristics of the Preservation of Egyptian Architecture
+- 15.2d The Legacy of the Preservation of Egyptian Architecture
+
+- Section: 15.3 The Preservation of Egypt:
+subsections:
+- 15.3a The Introduction to the Preservation of Egypt
+- 15.3b The Development of the Preservation of Egypt
+- 15.3c The Characteristics of the Preservation of Egypt
+- 15.3d The Legacy of the Preservation of Egypt
+
+- Chapter 16: The Restoration of Cairo:
+sections:
+- Section: 16.1 The Restoration of Cairo:
+subsections:
+- 16.1a The Introduction to the Restoration of Cairo
+- 16.1b The Development of the Restoration of Cairo
+- 16.1c The Characteristics of the Restoration of Cairo
+- 16.1d The Legacy of the Restoration of Cairo
+
+- Section: 16.2 The Restoration of Egyptian Architecture:
+subsections:
+- 16.2a The Introduction to the Restoration of Egyptian Architecture
+- 16.2b The Development of the Restoration of Egyptian Architecture
+- 16.2c The Characteristics of the Restoration of Egyptian Architecture
+- 16.2d The Legacy of the Restoration of Egyptian Architecture
+
+- Section: 16.3 The Restoration of Egypt:
+subsections:
+- 16.3a The Introduction to the Restoration of Egypt
+- 16.3b The Development of the Restoration of Egypt
+- 16.3c The Characteristics of the Restoration of Egypt
+- 16.3d The Legacy of the Restoration of Egypt
+
+- Chapter 17: The Revitalization of Cairo:
+sections:
+- Section: 17.1 The Revitalization of Cairo:
+subsections:
+- 17.1a The Introduction to the Revitalization of Cairo
+- 17.1b The Development of the Revitalization of Cairo
+- 17.1c The Characteristics of the Revitalization of Cairo
+- 17.1d The Legacy of the Revitalization of Cairo
+
+- Section: 17.2 The Revitalization of Egyptian Architecture:
+subsections:
+- 17.2a The Introduction to the Revitalization of Egyptian Architecture
+- 17.2b The Development of the Revitalization of Egyptian Architecture
+- 17.2c The Characteristics of the Revitalization of Egyptian Architecture
+- 17.2d The Legacy of the Revitalization of Egyptian Architecture
+
+- Section: 17.3 The Revitalization of Egypt:
+subsections:
+- 17.3a The Introduction to the Revitalization of Egypt
+- 17.3b The Development of the Revitalization of Egypt
+- 17.3c The Characteristics of the Revitalization of Egypt
+- 17.3d The Legacy of the Revitalization of Egypt
+
+- Chapter 18: The Reinterpretation of Cairo:
+sections:
+- Section: 18.1 The Reinterpretation of Cairo:
+subsections:
+- 18.1a The Introduction to the Reinterpretation of Cairo
+- 18.1b The Development of the Reinterpretation of Cairo
+- 18.1c The Characteristics of the Reinterpretation of Cairo
+- 18.1d The Legacy of the Reinterpretation of Cairo
+
+- Section: 18.2 The Reinterpretation of Egyptian Architecture:
+subsections:
+- 18.2a The Introduction to the Reinterpretation of Egyptian Architecture
+- 18.2b The Development of the Reinterpretation of Egyptian Architecture
+- 18.2c The Characteristics of the Reinterpretation of Egyptian Architecture
+- 18.2d The Legacy of the Reinterpretation of Egyptian Architecture
+
+- Section: 18.3 The Reinterpretation of Egypt:
+subsections:
+- 18.3a The Introduction to the Reinterpretation of Egypt
+- 18.3b The Development of the Reinterpretation of Egypt
+- 18.3c The Characteristics of the Reinterpretation of Egypt
+- 18.3d The Legacy of the Reinterpretation of Egypt
+
+- Chapter 19: The Reimagining of Cairo:
+sections:
+- Section: 19.1 The Reimagining of Cairo:
+subsections:
+- 19.1a The Introduction to the Reimagining of Cairo
+- 19.1b The Development of the Reimagining of Cairo
+- 19.1c The Characteristics of the Reimagining of Cairo
+- 19.1d The Legacy of the Reimagining of Cairo
+
+- Section: 19.2 The Reimagining of Egyptian Architecture:
+subsections:
+- 19.2a The Introduction to the Reimagining of Egyptian Architecture
+- 19.2b The Development of the Reimagining of Egyptian Architecture
+- 19.2c The Characteristics of the Reimagining of Egyptian Architecture
+- 19.2d The Legacy of the Reimagining of Egyptian Architecture
+
+- Section: 19.3 The Reimagining of Egypt:
+subsections:
+- 19.3a The Introduction to the Reimagining of Egypt
+- 19.3b The Development of the Reimagining of Egypt
+- 19.3c The Characteristics of the Reimagining of Egypt
+- 19.3d The Legacy of the Reimagining of Egypt
+
+- Chapter 20: The Future of Cairo:
+sections:
+- Section: 20.1 The Future of Cairo:
+subsections:
+- 20.1a The Introduction to the Future of Cairo
+- 20.1b The Potential Development of Cairo
+- 20.1c The Potential Characteristics of Future Cairo
+- 20.1d The Potential Legacy of Future Cairo
+
+- Section: 20.2 The Future of Egyptian Architecture:
+subsections:
+- 20.2a The Introduction to the Future of Egyptian Architecture
+- 20.2b The Potential Development of Egyptian Architecture
+- 20.2c The Potential Characteristics of Future Egyptian Architecture
+- 20.2d The Potential Legacy of Future Egyptian Architecture
+
+- Section: 20.3 The Future of Egypt:
+subsections:
+- 20.3a The Introduction to the Future of Egypt
+- 20.3b The Potential Development of Egypt
+- 20.3c The Potential Characteristics of Future Egypt
+- 20.3d The Potential Legacy of Future Egypt

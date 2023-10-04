@@ -1,0 +1,358 @@
+textbook:
+  'Natural Language Processing: A Comprehensive Guide to NLP and Knowledge Representation":':
+    chapters:
+    - '- Chapter 1: Introduction to Natural Language Processing:':
+        sections:
+        - '- Section: 1.1 The NLP Enterprise:':
+            subsections:
+            - 1.1a Definition of NLP
+            - 1.1b History of NLP
+            - 1.1c Current Trends in NLP
+        - '- Section: 1.2 Main Issues in NLP:':
+            subsections:
+            - 1.2a Ambiguity in NLP
+            - 1.2b Complexity in NLP
+            - 1.2c Evaluation in NLP
+    - '- Chapter 2: Word Modeling:':
+        sections:
+        - '- Section: 2.1 Automata and Linguistics:':
+            subsections:
+            - 2.1a Introduction to Automata
+            - 2.1b Automata in Linguistics
+            - 2.1c Automata in NLP
+        - '- Section: 2.2 Phonology and Morphology I:':
+            subsections:
+            - 2.2a Basics of Phonology
+            - 2.2b Basics of Morphology
+            - 2.2c Phonology and Morphology in NLP
+        - '- Section: 2.3 Phonology and Morphology II:':
+            subsections:
+            - 2.3a Advanced Phonology
+            - 2.3b Advanced Morphology
+            - 2.3c Applications in NLP
+    - '- Chapter 3: Part of Speech Tagging:':
+        sections:
+        - '- Section: 3.1 HMM Tagging:':
+            subsections:
+            - 3.1a Introduction to HMM
+            - 3.1b HMM in POS Tagging
+            - 3.1c Applications and Limitations
+        - '- Section: 3.2 Statistical Transformation Rule-Based Tagging:':
+            subsections:
+            - 3.2a Introduction to Statistical Transformation
+            - 3.2b Rule-Based Tagging
+            - 3.2c Comparison with HMM Tagging
+        - '- Section: 3.3 Brill Tagger:':
+            subsections:
+            - 3.3a Introduction to Brill Tagger
+            - 3.3b Working of Brill Tagger
+            - 3.3c Evaluation of Brill Tagger
+    - '- Chapter 4: Parsing:':
+        sections:
+        - '- Section: 4.1 Introduction to Parsing:':
+            subsections:
+            - 4.1a Definition of Parsing
+            - 4.1b Types of Parsing
+            - 4.1c Parsing in NLP
+        - '- Section: 4.2 Syntax & Parsing:':
+            subsections:
+            - 4.2a Introduction to Syntax
+            - 4.2b Syntax in Parsing
+            - 4.2c Syntax in NLP
+        - '- Section: 4.3 Shift-Reduce Parsers in Detail:':
+            subsections:
+            - 4.3a Basics of Shift-Reduce Parsing
+            - 4.3b Working of Shift-Reduce Parsing
+            - 4.3c Applications and Limitations
+        - "- Section: 4.4 Earley\u2019s Algorithm and Chart Parsing:":
+            subsections:
+            - "4.4a Introduction to Earley\u2019s Algorithm"
+            - 4.4b Chart Parsing
+            - 4.4c Comparison with Shift-Reduce Parsing
+        - '- Section: 4.5 Context-Free Parsing and Beyond:':
+            subsections:
+            - 4.5a Basics of Context-Free Parsing
+            - 4.5b Advanced Context-Free Parsing
+            - 4.5c Comparison with Other Parsing Techniques
+        - '- Section: 4.6 Feature-Based Parsing:':
+            subsections:
+            - 4.6a Introduction to Feature-Based Parsing
+            - 4.6b Working of Feature-Based Parsing
+            - 4.6c Applications and Limitations
+        - '- Section: 4.7 Parsing with an Integrated Lexicon:':
+            subsections:
+            - 4.7a Importance of Lexicon in Parsing
+            - 4.7b Techniques for Integrating Lexicon
+            - 4.7c Evaluation of Integrated Lexicon Parsing
+    - '- Chapter 5: Semantic Interpretation:':
+        sections:
+        - '- Section: 5.1 Compositionality:':
+            subsections:
+            - 5.1a Definition of Compositionality
+            - 5.1b Compositionality in NLP
+            - 5.1c Applications and Limitations
+        - '- Section: 5.2 Quantifiers:':
+            subsections:
+            - 5.2a Introduction to Quantifiers
+            - 5.2b Role of Quantifiers in NLP
+            - 5.2c Challenges with Quantifiers
+        - '- Section: 5.3 Lexical Semantics:':
+            subsections:
+            - 5.3a Basics of Lexical Semantics
+            - 5.3b Lexical Semantics in NLP
+            - 5.3c Advanced Topics in Lexical Semantics
+        - '- Section: 5.4 Constraint-Based Systems:':
+            subsections:
+            - 5.4a Introduction to Constraint-Based Systems
+            - 5.4b Role in Semantic Interpretation
+            - 5.4c Evaluation of Constraint-Based Systems
+    - '- Chapter 6: Machine Translation:':
+        sections:
+        - '- Section: 6.1 Machine Translation I:':
+            subsections:
+            - 6.1a Basics of Machine Translation
+            - 6.1b History of Machine Translation
+            - 6.1c Current Trends in Machine Translation
+        - '- Section: 6.2 Machine Translation II:':
+            subsections:
+            - 6.2a Statistical Machine Translation
+            - 6.2b Neural Machine Translation
+            - 6.2c Comparison of Different Approaches
+        - '- Section: 6.3 Machine Translation III:':
+            subsections:
+            - 6.3a Evaluation of Machine Translation
+            - 6.3b Challenges in Machine Translation
+            - 6.3c Future of Machine Translation
+        - '- Section: 6.4 Machine Translation IV:':
+            subsections:
+            - 6.4a Multilingual Machine Translation
+            - 6.4b Low-Resource Machine Translation
+            - 6.4c Recent Advances in Machine Translation
+    - '- Chapter 7: Language Learning:':
+        sections:
+        - '- Section: 7.1 Language Learning I:':
+            subsections:
+            - 7.1a Introduction to Language Learning
+            - 7.1b Supervised Language Learning
+            - 7.1c Unsupervised Language Learning
+        - '- Section: 7.2 Language Learning II:':
+            subsections:
+            - 7.2a Semi-Supervised Language Learning
+            - 7.2b Reinforcement Learning in NLP
+            - 7.2c Evaluation of Language Learning Methods
+    - '- Chapter 8: Computational Models of Language Change:':
+        sections:
+        - '- Section: 8.1 Computational Models of Language Change, I:':
+            subsections:
+            - 8.1a Introduction to Language Change
+            - 8.1b Computational Models for Language Change
+            - 8.1c Evaluation of Computational Models
+        - '- Section: 8.2 The Origins of Language:':
+            subsections:
+            - 8.2a Theories on the Origins of Language
+            - 8.2b Computational Models for Language Origins
+            - 8.2c Evaluation of Theories and Models
+    - '- Chapter 9: Text Classification:':
+        sections:
+        - '- Section: 9.1 Introduction to Text Classification:':
+            subsections:
+            - 9.1a Basics of Text Classification
+            - 9.1b Text Classification Algorithms
+            - 9.1c Evaluation of Text Classification
+        - '- Section: 9.2 Sentiment Analysis:':
+            subsections:
+            - 9.2a Introduction to Sentiment Analysis
+            - 9.2b Techniques for Sentiment Analysis
+            - 9.2c Applications and Limitations
+        - '- Section: 9.3 Topic Modeling:':
+            subsections:
+            - 9.3a Basics of Topic Modeling
+            - 9.3b Topic Modeling Algorithms
+            - 9.3c Evaluation of Topic Modeling
+    - '- Chapter 10: Information Extraction:':
+        sections:
+        - '- Section: 10.1 Named Entity Recognition:':
+            subsections:
+            - 10.1a Introduction to Named Entity Recognition
+            - 10.1b Techniques for Named Entity Recognition
+            - 10.1c Evaluation of Named Entity Recognition
+        - '- Section: 10.2 Relation Extraction:':
+            subsections:
+            - 10.2a Basics of Relation Extraction
+            - 10.2b Techniques for Relation Extraction
+            - 10.2c Evaluation of Relation Extraction
+        - '- Section: 10.3 Event Extraction:':
+            subsections:
+            - 10.3a Introduction to Event Extraction
+            - 10.3b Techniques for Event Extraction
+            - 10.3c Evaluation of Event Extraction
+    - '- Chapter 11: Question Answering:':
+        sections:
+        - '- Section: 11.1 Introduction to Question Answering:':
+            subsections:
+            - 11.1a Basics of Question Answering
+            - 11.1b Techniques for Question Answering
+            - 11.1c Evaluation of Question Answering
+        - '- Section: 11.2 Factoid Question Answering:':
+            subsections:
+            - 11.2a Introduction to Factoid Question Answering
+            - 11.2b Techniques for Factoid Question Answering
+            - 11.2c Evaluation of Factoid Question Answering
+        - '- Section: 11.3 Non-Factoid Question Answering:':
+            subsections:
+            - 11.3a Basics of Non-Factoid Question Answering
+            - 11.3b Techniques for Non-Factoid Question Answering
+            - 11.3c Evaluation of Non-Factoid Question Answering
+    - '- Chapter 12: Text Summarization:':
+        sections:
+        - '- Section: 12.1 Introduction to Text Summarization:':
+            subsections:
+            - 12.1a Basics of Text Summarization
+            - 12.1b Techniques for Text Summarization
+            - 12.1c Evaluation of Text Summarization
+        - '- Section: 12.2 Extractive Summarization:':
+            subsections:
+            - 12.2a Introduction to Extractive Summarization
+            - 12.2b Techniques for Extractive Summarization
+            - 12.2c Evaluation of Extractive Summarization
+        - '- Section: 12.3 Abstractive Summarization:':
+            subsections:
+            - 12.3a Basics of Abstractive Summarization
+            - 12.3b Techniques for Abstractive Summarization
+            - 12.3c Evaluation of Abstractive Summarization
+    - '- Chapter 13: Text Generation:':
+        sections:
+        - '- Section: 13.1 Introduction to Text Generation:':
+            subsections:
+            - 13.1a Basics of Text Generation
+            - 13.1b Techniques for Text Generation
+            - 13.1c Evaluation of Text Generation
+        - '- Section: 13.2 Neural Text Generation:':
+            subsections:
+            - 13.2a Introduction to Neural Text Generation
+            - 13.2b Techniques for Neural Text Generation
+            - 13.2c Evaluation of Neural Text Generation
+        - '- Section: 13.3 Non-Neural Text Generation:':
+            subsections:
+            - 13.3a Basics of Non-Neural Text Generation
+            - 13.3b Techniques for Non-Neural Text Generation
+            - 13.3c Evaluation of Non-Neural Text Generation
+    - '- Chapter 14: Dialogue Systems:':
+        sections:
+        - '- Section: 14.1 Introduction to Dialogue Systems:':
+            subsections:
+            - 14.1a Basics of Dialogue Systems
+            - 14.1b Techniques for Dialogue Systems
+            - 14.1c Evaluation of Dialogue Systems
+        - '- Section: 14.2 Task-Oriented Dialogue Systems:':
+            subsections:
+            - 14.2a Introduction to Task-Oriented Dialogue Systems
+            - 14.2b Techniques for Task-Oriented Dialogue Systems
+            - 14.2c Evaluation of Task-Oriented Dialogue Systems
+        - '- Section: 14.3 Non-Task-Oriented Dialogue Systems:':
+            subsections:
+            - 14.3a Basics of Non-Task-Oriented Dialogue Systems
+            - 14.3b Techniques for Non-Task-Oriented Dialogue Systems
+            - 14.3c Evaluation of Non-Task-Oriented Dialogue Systems
+    - '- Chapter 15: Multimodal NLP:':
+        sections:
+        - '- Section: 15.1 Introduction to Multimodal NLP:':
+            subsections:
+            - 15.1a Basics of Multimodal NLP
+            - 15.1b Techniques for Multimodal NLP
+            - 15.1c Evaluation of Multimodal NLP
+        - '- Section: 15.2 Text and Image:':
+            subsections:
+            - 15.2a Introduction to Text and Image in NLP
+            - 15.2b Techniques for Text and Image in NLP
+            - 15.2c Evaluation of Text and Image in NLP
+        - '- Section: 15.3 Text and Speech:':
+            subsections:
+            - 15.3a Basics of Text and Speech in NLP
+            - 15.3b Techniques for Text and Speech in NLP
+            - 15.3c Evaluation of Text and Speech in NLP
+    - '- Chapter 16: NLP Applications:':
+        sections:
+        - '- Section: 16.1 Social Media Analysis:':
+            subsections:
+            - 16.1a Introduction to Social Media Analysis
+            - 16.1b Techniques for Social Media Analysis
+            - 16.1c Evaluation of Social Media Analysis
+        - '- Section: 16.2 Information Retrieval:':
+            subsections:
+            - 16.2a Basics of Information Retrieval
+            - 16.2b Techniques for Information Retrieval
+            - 16.2c Evaluation of Information Retrieval
+        - '- Section: 16.3 Sentiment Analysis:':
+            subsections:
+            - 16.3a Introduction to Sentiment Analysis
+            - 16.3b Techniques for Sentiment Analysis
+            - 16.3c Evaluation of Sentiment Analysis
+    - '- Chapter 17: NLP in Healthcare:':
+        sections:
+        - '- Section: 17.1 Clinical Text Analysis:':
+            subsections:
+            - 17.1a Introduction to Clinical Text Analysis
+            - 17.1b Techniques for Clinical Text Analysis
+            - 17.1c Evaluation of Clinical Text Analysis
+        - '- Section: 17.2 Patient-Doctor Dialogue Analysis:':
+            subsections:
+            - 17.2a Basics of Patient-Doctor Dialogue Analysis
+            - 17.2b Techniques for Patient-Doctor Dialogue Analysis
+            - 17.2c Evaluation of Patient-Doctor Dialogue Analysis
+        - '- Section: 17.3 Medical Literature Analysis:':
+            subsections:
+            - 17.3a Introduction to Medical Literature Analysis
+            - 17.3b Techniques for Medical Literature Analysis
+            - 17.3c Evaluation of Medical Literature Analysis
+    - '- Chapter 18: NLP in Education:':
+        sections:
+        - '- Section: 18.1 Automated Essay Scoring:':
+            subsections:
+            - 18.1a Basics of Automated Essay Scoring
+            - 18.1b Techniques for Automated Essay Scoring
+            - 18.1c Evaluation of Automated Essay Scoring
+        - '- Section: 18.2 Intelligent Tutoring Systems:':
+            subsections:
+            - 18.2a Introduction to Intelligent Tutoring Systems
+            - 18.2b Techniques for Intelligent Tutoring Systems
+            - 18.2c Evaluation of Intelligent Tutoring Systems
+        - '- Section: 18.3 Language Learning Systems:':
+            subsections:
+            - 18.3a Basics of Language Learning Systems
+            - 18.3b Techniques for Language Learning Systems
+            - 18.3c Evaluation of Language Learning Systems
+    - '- Chapter 19: NLP in Law:':
+        sections:
+        - '- Section: 19.1 Legal Text Analysis:':
+            subsections:
+            - 19.1a Introduction to Legal Text Analysis
+            - 19.1b Techniques for Legal Text Analysis
+            - 19.1c Evaluation of Legal Text Analysis
+        - '- Section: 19.2 Court Proceedings Analysis:':
+            subsections:
+            - 19.2a Basics of Court Proceedings Analysis
+            - 19.2b Techniques for Court Proceedings Analysis
+            - 19.2c Evaluation of Court Proceedings Analysis
+        - '- Section: 19.3 Contract Analysis:':
+            subsections:
+            - 19.3a Introduction to Contract Analysis
+            - 19.3b Techniques for Contract Analysis
+            - 19.3c Evaluation of Contract Analysis
+    - '- Chapter 20: NLP in Business:':
+        sections:
+        - '- Section: 20.1 Customer Reviews Analysis:':
+            subsections:
+            - 20.1a Basics of Customer Reviews Analysis
+            - 20.1b Techniques for Customer Reviews Analysis
+            - 20.1c Evaluation of Customer Reviews Analysis
+        - '- Section: 20.2 Business Intelligence:':
+            subsections:
+            - 20.2a Introduction to Business Intelligence
+            - 20.2b Role of NLP in Business Intelligence
+            - 20.2c Evaluation of NLP in Business Intelligence
+        - '- Section: 20.3 Market Sentiment Analysis:':
+            subsections:
+            - 20.3a Basics of Market Sentiment Analysis
+            - 20.3b Techniques for Market Sentiment Analysis
+            - 20.3c Evaluation of Market Sentiment Analysis

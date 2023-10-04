@@ -1,0 +1,154 @@
+textbook: 
+"Discrete-Time Signal Processing: Theory and Applications":
+
+chapters:
+- Chapter 1: Introduction to Discrete-Time Signal Processing:
+sections:
+- Section: 1.1 Course Overview
+- Section: 1.2 Theoretical Foundations:
+subsections:
+- 1.2a Background Review: Phase, Group Delay, and Generalized Linear Phase
+- 1.2b Introduction to Discrete-Time Signals
+- 1.2c Basic Operations on Signals
+
+- Chapter 2: System Analysis and Design:
+sections:
+- Section: 2.1 Minimum-phase and All-pass Systems
+- Section: 2.2 DT Processing of CT Signals and CT Processing of DT Signals: Fractional Delay
+- Section: 2.3 Sampling Rate Conversion
+- Section: 2.4 Quantization and Oversampled Noise Shaping
+- Section: 2.5 IIR, FIR Filter Structures
+- Section: 2.6 Filter Design: IIR Filters
+- Section: 2.7 Filter Design: FIR Filters
+- Section: 2.8 Multirate Systems and Polyphase Structures
+- Section: 2.9 Linear Prediction and All-pole Modeling
+- Section: 2.10 The Levinson-Durbin Recursion
+
+- Chapter 3: Spectral Analysis and Fourier Transform:
+sections:
+- Section: 3.1 The Discrete Fourier Transform
+- Section: 3.2 Linear Filtering with the DFT
+- Section: 3.3 Spectral Analysis with the DFT
+- Section: 3.4 Periodogram
+- Section: 3.5 FFT Algorithms
+- Section: 3.6 The Goertzel Algorithm and the Chirp Transform
+- Section: 3.7 Short-time Fourier Analysis
+
+- Chapter 4: Modulated Signal Processing:
+sections:
+- Section: 4.1 Modulated Filter Bank
+- Section: 4.2 Modulation Techniques
+- Section: 4.3 Modulation in Communication Systems
+- Section: 4.4 Modulation in Signal Processing
+
+- Chapter 5: Digital Signal Processing:
+sections:
+- Section: 5.1 Introduction to DSP
+- Section: 5.2 DSP in Communication Systems
+- Section: 5.3 DSP in Audio Processing
+- Section: 5.4 DSP in Image Processing
+
+- Chapter 6: Time-Frequency Analysis:
+sections:
+- Section: 6.1 Time-Frequency Duality
+- Section: 6.2 Short-Time Fourier Transform
+- Section: 6.3 Wavelet Transform
+- Section: 6.4 Applications of Time-Frequency Analysis
+
+- Chapter 7: Adaptive Filters:
+sections:
+- Section: 7.1 Introduction to Adaptive Filters
+- Section: 7.2 Least Mean Squares Algorithm
+- Section: 7.3 Recursive Least Squares Algorithm
+- Section: 7.4 Applications of Adaptive Filters
+
+- Chapter 8: Multirate Signal Processing:
+sections:
+- Section: 8.1 Introduction to Multirate Signal Processing
+- Section: 8.2 Decimation and Interpolation
+- Section: 8.3 Polyphase Filters
+- Section: 8.4 Applications of Multirate Signal Processing
+
+- Chapter 9: Statistical Signal Processing:
+sections:
+- Section: 9.1 Introduction to Statistical Signal Processing
+- Section: 9.2 Estimation Theory
+- Section: 9.3 Detection Theory
+- Section: 9.4 Applications of Statistical Signal Processing
+
+- Chapter 10: Digital Audio Signal Processing:
+sections:
+- Section: 10.1 Introduction to Digital Audio Signal Processing
+- Section: 10.2 Audio Coding
+- Section: 10.3 Audio Effects
+- Section: 10.4 Applications of Digital Audio Signal Processing
+
+- Chapter 11: Digital Image Signal Processing:
+sections:
+- Section: 11.1 Introduction to Digital Image Signal Processing
+- Section: 11.2 Image Coding
+- Section: 11.3 Image Enhancement
+- Section: 11.4 Applications of Digital Image Signal Processing
+
+- Chapter 12: Digital Video Signal Processing:
+sections:
+- Section: 12.1 Introduction to Digital Video Signal Processing
+- Section: 12.2 Video Coding
+- Section: 12.3 Video Enhancement
+- Section: 12.4 Applications of Digital Video Signal Processing
+
+- Chapter 13: Speech Signal Processing:
+sections:
+- Section: 13.1 Introduction to Speech Signal Processing
+- Section: 13.2 Speech Coding
+- Section: 13.3 Speech Enhancement
+- Section: 13.4 Applications of Speech Signal Processing
+
+- Chapter 14: Biomedical Signal Processing:
+sections:
+- Section: 14.1 Introduction to Biomedical Signal Processing
+- Section: 14.2 ECG Signal Processing
+- Section: 14.3 EEG Signal Processing
+- Section: 14.4 Applications of Biomedical Signal Processing
+
+- Chapter 15: Radar Signal Processing:
+sections:
+- Section: 15.1 Introduction to Radar Signal Processing
+- Section: 15.2 Radar Detection
+- Section: 15.3 Radar Estimation
+- Section: 15.4 Applications of Radar Signal Processing
+
+- Chapter 16: Sonar Signal Processing:
+sections:
+- Section: 16.1 Introduction to Sonar Signal Processing
+- Section: 16.2 Sonar Detection
+- Section: 16.3 Sonar Estimation
+- Section: 16.4 Applications of Sonar Signal Processing
+
+- Chapter 17: Seismic Signal Processing:
+sections:
+- Section: 17.1 Introduction to Seismic Signal Processing
+- Section: 17.2 Seismic Detection
+- Section: 17.3 Seismic Estimation
+- Section: 17.4 Applications of Seismic Signal Processing
+
+- Chapter 18: Satellite Signal Processing:
+sections:
+- Section: 18.1 Introduction to Satellite Signal Processing
+- Section: 18.2 Satellite Detection
+- Section: 18.3 Satellite Estimation
+- Section: 18.4 Applications of Satellite Signal Processing
+
+- Chapter 19: Wireless Communication Signal Processing:
+sections:
+- Section: 19.1 Introduction to Wireless Communication Signal Processing
+- Section: 19.2 Wireless Communication Detection
+- Section: 19.3 Wireless Communication Estimation
+- Section: 19.4 Applications of Wireless Communication Signal Processing
+
+- Chapter 20: Optical Communication Signal Processing:
+sections:
+- Section: 20.1 Introduction to Optical Communication Signal Processing
+- Section: 20.2 Optical Communication Detection
+- Section: 20.3 Optical Communication Estimation
+- Section: 20.4 Applications of Optical Communication Signal Processing

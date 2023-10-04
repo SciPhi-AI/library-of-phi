@@ -1,0 +1,250 @@
+textbook:
+  'Exploring Object and Face Recognition: From Neurons to Brain Imaging":':
+    chapters:
+    - '- Chapter 1: Basic Visual Development:':
+        sections:
+        - '- Section: 1.1 Neurons and Behavior:':
+            subsections:
+            - 1.1a Introduction to Neurons
+            - 1.1b Neuron Function and Behavior
+            - 1.1c Neurons in Visual Development
+    - '- Chapter 2: Development of Perceptual Organization:':
+        sections:
+        - '- Section: 2.1 Gestalt Laws:':
+            subsections:
+            - 2.1a Introduction to Gestalt Laws
+            - 2.1b Application of Gestalt Laws
+            - 2.1c Gestalt Laws in Visual Perception
+        - '- Section: 2.2 Object Unity I:':
+            subsections:
+            - 2.2a Defining Object Unity
+            - 2.2b Factors Influencing Object Unity
+            - 2.2c Object Unity in Visual Perception
+        - '- Section: 2.3 Object Unity II:':
+            subsections:
+            - 2.3a Advanced Concepts in Object Unity
+            - 2.3b Object Unity and Perceptual Organization
+            - 2.3c Case Studies in Object Unity
+    - '- Chapter 3: Object Perceptual:':
+        sections:
+        - '- Section: 3.1 Eye Tracking:':
+            subsections:
+            - 3.1a Basics of Eye Tracking
+            - 3.1b Eye Tracking in Object Perception
+            - 3.1c Eye Tracking Techniques and Technologies
+        - '- Section: 3.2 Motion Grouping:':
+            subsections:
+            - 3.2a Introduction to Motion Grouping
+            - 3.2b Motion Grouping in Object Perception
+            - 3.2c Advanced Concepts in Motion Grouping
+    - '- Chapter 4: Development and Brain Imaging:':
+        sections:
+        - '- Section: 4.1 Brain Imaging Techniques:':
+            subsections:
+            - 4.1a Overview of Brain Imaging Techniques
+            - 4.1b Brain Imaging in Visual Development
+            - 4.1c Advanced Brain Imaging Techniques
+    - '- Chapter 5: Face Recognition:':
+        sections:
+        - '- Section: 5.1 Basics of Face Recognition:':
+            subsections:
+            - 5.1a Introduction to Face Recognition
+            - 5.1b Face Recognition Techniques
+            - 5.1c Face Recognition in Visual Development
+        - '- Section: 5.2 Advanced Concepts in Face Recognition:':
+            subsections:
+            - 5.2a Neural Networks in Face Recognition
+            - 5.2b Face Recognition and Object Perception
+            - 5.2c Case Studies in Face Recognition
+    - '- Chapter 6: Object Recognition:':
+        sections:
+        - '- Section: 6.1 Basics of Object Recognition:':
+            subsections:
+            - 6.1a Introduction to Object Recognition
+            - 6.1b Object Recognition Techniques
+            - 6.1c Object Recognition in Visual Development
+        - '- Section: 6.2 Advanced Concepts in Object Recognition:':
+            subsections:
+            - 6.2a Neural Networks in Object Recognition
+            - 6.2b Object Recognition and Perceptual Organization
+            - 6.2c Case Studies in Object Recognition
+    - '- Chapter 7: Neurons and Visual Perception:':
+        sections:
+        - '- Section: 7.1 Neuron Function in Visual Perception:':
+            subsections:
+            - 7.1a Role of Neurons in Visual Perception
+            - 7.1b Neuron Function and Object Recognition
+            - 7.1c Neuron Function and Face Recognition
+        - '- Section: 7.2 Advanced Concepts in Neurons and Visual Perception:':
+            subsections:
+            - 7.2a Neural Networks in Visual Perception
+            - 7.2b Neurons and Perceptual Organization
+            - 7.2c Case Studies in Neurons and Visual Perception
+    - '- Chapter 8: Brain Imaging and Visual Perception:':
+        sections:
+        - '- Section: 8.1 Brain Imaging Techniques in Visual Perception:':
+            subsections:
+            - 8.1a Role of Brain Imaging in Visual Perception
+            - 8.1b Brain Imaging and Object Recognition
+            - 8.1c Brain Imaging and Face Recognition
+        - '- Section: 8.2 Advanced Concepts in Brain Imaging and Visual Perception:':
+            subsections:
+            - 8.2a Neural Networks in Brain Imaging
+            - 8.2b Brain Imaging and Perceptual Organization
+            - 8.2c Case Studies in Brain Imaging and Visual Perception
+    - '- Chapter 9: Perceptual Organization and Visual Perception:':
+        sections:
+        - '- Section: 9.1 Basics of Perceptual Organization in Visual Perception:':
+            subsections:
+            - 9.1a Role of Perceptual Organization in Visual Perception
+            - 9.1b Perceptual Organization and Object Recognition
+            - 9.1c Perceptual Organization and Face Recognition
+        - '- Section: 9.2 Advanced Concepts in Perceptual Organization and Visual Perception:':
+            subsections:
+            - 9.2a Neural Networks in Perceptual Organization
+            - 9.2b Perceptual Organization and Brain Imaging
+            - 9.2c Case Studies in Perceptual Organization and Visual Perception
+    - '- Chapter 10: Object Unity and Visual Perception:':
+        sections:
+        - '- Section: 10.1 Basics of Object Unity in Visual Perception:':
+            subsections:
+            - 10.1a Role of Object Unity in Visual Perception
+            - 10.1b Object Unity and Object Recognition
+            - 10.1c Object Unity and Face Recognition
+        - '- Section: 10.2 Advanced Concepts in Object Unity and Visual Perception:':
+            subsections:
+            - 10.2a Neural Networks in Object Unity
+            - 10.2b Object Unity and Brain Imaging
+            - 10.2c Case Studies in Object Unity and Visual Perception
+    - '- Chapter 11: Eye Tracking and Visual Perception:':
+        sections:
+        - '- Section: 11.1 Basics of Eye Tracking in Visual Perception:':
+            subsections:
+            - 11.1a Role of Eye Tracking in Visual Perception
+            - 11.1b Eye Tracking and Object Recognition
+            - 11.1c Eye Tracking and Face Recognition
+        - '- Section: 11.2 Advanced Concepts in Eye Tracking and Visual Perception:':
+            subsections:
+            - 11.2a Neural Networks in Eye Tracking
+            - 11.2b Eye Tracking and Brain Imaging
+            - 11.2c Case Studies in Eye Tracking and Visual Perception
+    - '- Chapter 12: Motion Grouping and Visual Perception:':
+        sections:
+        - '- Section: 12.1 Basics of Motion Grouping in Visual Perception:':
+            subsections:
+            - 12.1a Role of Motion Grouping in Visual Perception
+            - 12.1b Motion Grouping and Object Recognition
+            - 12.1c Motion Grouping and Face Recognition
+        - '- Section: 12.2 Advanced Concepts in Motion Grouping and Visual Perception:':
+            subsections:
+            - 12.2a Neural Networks in Motion Grouping
+            - 12.2b Motion Grouping and Brain Imaging
+            - 12.2c Case Studies in Motion Grouping and Visual Perception
+    - '- Chapter 13: Neural Networks and Visual Perception:':
+        sections:
+        - '- Section: 13.1 Basics of Neural Networks in Visual Perception:':
+            subsections:
+            - 13.1a Role of Neural Networks in Visual Perception
+            - 13.1b Neural Networks and Object Recognition
+            - 13.1c Neural Networks and Face Recognition
+        - '- Section: 13.2 Advanced Concepts in Neural Networks and Visual Perception:':
+            subsections:
+            - 13.2a Neural Networks in Brain Imaging
+            - 13.2b Neural Networks and Perceptual Organization
+            - 13.2c Case Studies in Neural Networks and Visual Perception
+    - '- Chapter 14: Brain Imaging and Object Recognition:':
+        sections:
+        - '- Section: 14.1 Basics of Brain Imaging in Object Recognition:':
+            subsections:
+            - 14.1a Role of Brain Imaging in Object Recognition
+            - 14.1b Brain Imaging Techniques in Object Recognition
+            - 14.1c Brain Imaging and Neural Networks in Object Recognition
+        - '- Section: 14.2 Advanced Concepts in Brain Imaging and Object Recognition:':
+            subsections:
+            - 14.2a Brain Imaging in Perceptual Organization
+            - 14.2b Brain Imaging and Eye Tracking in Object Recognition
+            - 14.2c Case Studies in Brain Imaging and Object Recognition
+    - '- Chapter 15: Brain Imaging and Face Recognition:':
+        sections:
+        - '- Section: 15.1 Basics of Brain Imaging in Face Recognition:':
+            subsections:
+            - 15.1a Role of Brain Imaging in Face Recognition
+            - 15.1b Brain Imaging Techniques in Face Recognition
+            - 15.1c Brain Imaging and Neural Networks in Face Recognition
+        - '- Section: 15.2 Advanced Concepts in Brain Imaging and Face Recognition:':
+            subsections:
+            - 15.2a Brain Imaging in Perceptual Organization
+            - 15.2b Brain Imaging and Eye Tracking in Face Recognition
+            - 15.2c Case Studies in Brain Imaging and Face Recognition
+    - '- Chapter 16: Perceptual Organization and Object Recognition:':
+        sections:
+        - '- Section: 16.1 Basics of Perceptual Organization in Object Recognition:':
+            subsections:
+            - 16.1a Role of Perceptual Organization in Object Recognition
+            - 16.1b Perceptual Organization Techniques in Object Recognition
+            - 16.1c Perceptual Organization and Neural Networks in Object Recognition
+        - '- Section: 16.2 Advanced Concepts in Perceptual Organization and Object Recognition:':
+            subsections:
+            - 16.2a Perceptual Organization in Brain Imaging
+            - 16.2b Perceptual Organization and Eye Tracking in Object Recognition
+            - 16.2c Case Studies in Perceptual Organization and Object Recognition
+    - '- Chapter 17: Perceptual Organization and Face Recognition:':
+        sections:
+        - '- Section: 17.1 Basics of Perceptual Organization in Face Recognition:':
+            subsections:
+            - 17.1a Role of Perceptual Organization in Face Recognition
+            - 17.1b Perceptual Organization Techniques in Face Recognition
+            - 17.1c Perceptual Organization and Neural Networks in Face Recognition
+        - '- Section: 17.2 Advanced Concepts in Perceptual Organization and Face Recognition:':
+            subsections:
+            - 17.2a Perceptual Organization in Brain Imaging
+            - 17.2b Perceptual Organization and Eye Tracking in Face Recognition
+            - 17.2c Case Studies in Perceptual Organization and Face Recognition
+    - '- Chapter 18: Eye Tracking and Object Recognition:':
+        sections:
+        - '- Section: 18.1 Basics of Eye Tracking in Object Recognition:':
+            subsections:
+            - 18.1a Role of Eye Tracking in Object Recognition
+            - 18.1b Eye Tracking Techniques in Object Recognition
+            - 18.1c Eye Tracking and Neural Networks in Object Recognition
+        - '- Section: 18.2 Advanced Concepts in Eye Tracking and Object Recognition:':
+            subsections:
+            - 18.2a Eye Tracking in Brain Imaging
+            - 18.2b Eye Tracking and Perceptual Organization in Object Recognition
+            - 18.2c Case Studies in Eye Tracking and Object Recognition
+    - '- Chapter 19: Eye Tracking and Face Recognition:':
+        sections:
+        - '- Section: 19.1 Basics of Eye Tracking in Face Recognition:':
+            subsections:
+            - 19.1a Role of Eye Tracking in Face Recognition
+            - 19.1b Eye Tracking Techniques in Face Recognition
+            - 19.1c Eye Tracking and Neural Networks in Face Recognition
+        - '- Section: 19.2 Advanced Concepts in Eye Tracking and Face Recognition:':
+            subsections:
+            - 19.2a Eye Tracking in Brain Imaging
+            - 19.2b Eye Tracking and Perceptual Organization in Face Recognition
+            - 19.2c Case Studies in Eye Tracking and Face Recognition
+    - '- Chapter 20: Neural Networks and Object Recognition:':
+        sections:
+        - '- Section: 20.1 Basics of Neural Networks in Object Recognition:':
+            subsections:
+            - 20.1a Role of Neural Networks in Object Recognition
+            - 20.1b Neural Network Techniques in Object Recognition
+            - 20.1c Neural Networks and Brain Imaging in Object Recognition
+        - '- Section: 20.2 Advanced Concepts in Neural Networks and Object Recognition:':
+            subsections:
+            - 20.2a Neural Networks in Perceptual Organization
+            - 20.2b Neural Networks and Eye Tracking in Object Recognition
+            - 20.2c Case Studies in Neural Networks and Object Recognition
+    - '- Chapter 21: Neural Networks and Face Recognition:':
+        sections:
+        - '- Section: 21.1 Basics of Neural Networks in Face Recognition:':
+            subsections:
+            - 21.1a Role of Neural Networks in Face Recognition
+            - 21.1b Neural Network Techniques in Face Recognition
+            - 21.1c Neural Networks and Brain Imaging in Face Recognition
+        - '- Section: 21.2 Advanced Concepts in Neural Networks and Face Recognition:':
+            subsections:
+            - 21.2a Neural Networks in Perceptual Organization
+            - 21.2b Neural Networks and Eye Tracking in Face Recognition
+            - 21.2c Case Studies in Neural Networks and Face Recognition

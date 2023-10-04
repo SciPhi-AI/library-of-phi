@@ -1,0 +1,408 @@
+textbook: 
+"Microeconomic Theory I: A Comprehensive Guide to Choice, Preference, and Utility":
+
+chapters:
+- Chapter 1: Introduction to Microeconomic Theory:
+sections:
+- Section: 1.1 Choice: An Introduction:
+subsections:
+- 1.1a Rational Choice and Decision Making Models
+- 1.1b Behavioral Economics and Bounded Rationality
+
+- Section: 1.2 Preference: Understanding Individual Preferences:
+subsections:
+- 1.2a Indifference Curves and Marginal Rate of Substitution
+- 1.2b Revealed Preference Theory
+
+- Section: 1.3 Utility: Measuring Satisfaction:
+subsections:
+- 1.3a Cardinal and Ordinal Utility
+- 1.3b Utility Functions and Preferences
+
+- Chapter 2: Consumer Theory and its Applications:
+sections:
+- Section: 2.1 Consumer Theory: Maximizing Utility:
+subsections:
+- 2.1a Consumer Demand Theory and Utility Maximization
+- 2.1b Income and Substitution Effects
+
+- Section: 2.2 Applications of Consumer Theory: Demand Analysis and Consumer Welfare:
+subsections:
+- 2.2a Price Elasticity of Demand and Consumer Surplus
+- 2.2b Market Demand and Welfare Analysis
+
+- Chapter 3: Producer Theory and Monotone Methods:
+sections:
+- Section: 3.1 Producer Theory: Profit Maximization and Cost Minimization:
+subsections:
+- 3.1a Production Functions and Isoquants
+- 3.1b Cost Functions and Profit Maximization
+
+- Section: 3.2 Monotone Methods: Understanding Monotonicity in Production:
+subsections:
+- 3.2a Monotone Comparative Statics
+- 3.2b Duality in Production Theory
+
+- Chapter 4: Choice Under Uncertainty:
+sections:
+- Section: 4.1 Choice Under Uncertainty: Risk and Uncertainty in Decision Making:
+subsections:
+- 4.1a Risk Preferences and Utility Functions
+- 4.1b Expected Utility and Risk Aversion
+
+- Section: 4.2 Decision Trees and Expected Utility Theory:
+subsections:
+- 4.2a Decision Trees and Sequential Decision Making
+- 4.2b Uncertainty and Information Economics
+
+- Section: 4.3 Portfolio Theory and Asset Pricing:
+subsections:
+- 4.3a Portfolio Diversification and Efficient Frontier
+- 4.3b Capital Asset Pricing Model
+
+- Chapter 5: Dynamic Choice:
+sections:
+- Section: 5.1 Dynamic Choice: Intertemporal Decision Making:
+subsections:
+- 5.1a Time Preference and Discounting
+- 5.1b Intertemporal Consumption and Savings
+
+- Section: 5.2 Optimal Control Theory and Dynamic Programming:
+subsections:
+- 5.2a Optimal Control Problems and Bellman Equations
+- 5.2b Markov Decision Processes
+
+- Section: 5.3 Game Theory and Strategic Decision Making:
+subsections:
+- 5.3a Nash Equilibrium and Strategic Decision Making
+- 5.3b Bargaining Theory and Cooperative Games
+
+- Chapter 6: Market Structures and Competition:
+sections:
+- Section: 6.1 Perfect Competition:
+subsections:
+- 6.1a Characteristics of Perfect Competition
+- 6.1b Short-Run and Long-Run Equilibrium
+
+- Section: 6.2 Monopoly:
+subsections:
+- 6.2a Characteristics of Monopoly
+- 6.2b Price Discrimination and Monopoly Power
+
+- Section: 6.3 Oligopoly:
+subsections:
+- 6.3a Characteristics of Oligopoly
+- 6.3b Game Theory and Oligopoly
+
+- Section: 6.4 Monopolistic Competition:
+subsections:
+- 6.4a Characteristics of Monopolistic Competition
+- 6.4b Product Differentiation and Advertising
+
+- Chapter 7: Market Failures and Public Goods:
+sections:
+- Section: 7.1 Externalities:
+subsections:
+- 7.1a Negative and Positive Externalities
+- 7.1b Government Intervention and Externalities
+
+- Section: 7.2 Public Goods:
+subsections:
+- 7.2a Characteristics of Public Goods
+- 7.2b Free-Rider Problem and Provision of Public Goods
+
+- Section: 7.3 Asymmetric Information:
+subsections:
+- 7.3a Adverse Selection
+- 7.3b Moral Hazard
+
+- Section: 7.4 Market for Lemons:
+subsections:
+- 7.4a The Lemons Problem
+- 7.4b Solutions to the Lemons Problem
+
+- Chapter 8: Welfare Economics:
+sections:
+- Section: 8.1 Pareto Efficiency:
+subsections:
+- 8.1a Definition of Pareto Efficiency
+- 8.1b Pareto Improvement and Social Welfare
+
+- Section: 8.2 Social Choice Theory:
+subsections:
+- 8.2a Arrow's Impossibility Theorem
+- 8.2b Voting Paradox and Majority Rule
+
+- Section: 8.3 General Equilibrium:
+subsections:
+- 8.3a Walrasian Equilibrium
+- 8.3b Edgeworth Box and Contract Curve
+
+- Section: 8.4 Welfare Theorems:
+subsections:
+- 8.4a First Welfare Theorem
+- 8.4b Second Welfare Theorem
+
+- Chapter 9: Labor Economics:
+sections:
+- Section: 9.1 Labor Supply:
+subsections:
+- 9.1a Income and Substitution Effects on Labor Supply
+- 9.1b Labor-Leisure Trade-off
+
+- Section: 9.2 Labor Demand:
+subsections:
+- 9.2a Marginal Product of Labor
+- 9.2b Labor Demand Curve and Wage Determination
+
+- Section: 9.3 Labor Market Equilibrium:
+subsections:
+- 9.3a Wage Determination in Competitive Labor Markets
+- 9.3b Minimum Wage and Unemployment
+
+- Section: 9.4 Human Capital:
+subsections:
+- 9.4a Investment in Education and Training
+- 9.4b Returns to Education and Skill Premium
+
+- Chapter 10: Income Distribution and Poverty:
+sections:
+- Section: 10.1 Income Inequality:
+subsections:
+- 10.1a Measurement of Income Inequality
+- 10.1b Causes of Income Inequality
+
+- Section: 10.2 Poverty:
+subsections:
+- 10.2a Measurement of Poverty
+- 10.2b Causes of Poverty
+
+- Section: 10.3 Redistribution Policies:
+subsections:
+- 10.3a Progressive Taxation
+- 10.3b Welfare Programs and Social Security
+
+- Section: 10.4 Economic Mobility:
+subsections:
+- 10.4a Intergenerational Mobility
+- 10.4b Education and Economic Mobility
+
+- Chapter 11: Behavioral Economics:
+sections:
+- Section: 11.1 Bounded Rationality:
+subsections:
+- 11.1a Heuristics and Biases
+- 11.1b Prospect Theory and Loss Aversion
+
+- Section: 11.2 Time Inconsistency:
+subsections:
+- 11.2a Present Bias and Hyperbolic Discounting
+- 11.2b Commitment Devices and Self-Control Problems
+
+- Section: 11.3 Social Preferences:
+subsections:
+- 11.3a Altruism and Reciprocity
+- 11.3b Fairness and Inequality Aversion
+
+- Section: 11.4 Nudges and Choice Architecture:
+subsections:
+- 11.4a Default Options and Framing Effects
+- 11.4b Libertarian Paternalism and Policy Implications
+
+- Chapter 12: Experimental Economics:
+sections:
+- Section: 12.1 Laboratory Experiments:
+subsections:
+- 12.1a Design of Laboratory Experiments
+- 12.1b Public Goods Experiments and Dictator Game
+
+- Section: 12.2 Field Experiments:
+subsections:
+- 12.2a Design of Field Experiments
+- 12.2b Randomized Controlled Trials
+
+- Section: 12.3 Neuroeconomics:
+subsections:
+- 12.3a Brain Imaging Techniques
+- 12.3b Decision Making and the Brain
+
+- Section: 12.4 Behavioral Game Theory:
+subsections:
+- 12.4a Ultimatum Game and Fairness
+- 12.4b Trust Game and Reciprocity
+
+- Chapter 13: Market Design:
+sections:
+- Section: 13.1 Auctions:
+subsections:
+- 13.1a Types of Auctions
+- 13.1b Bidding Strategies and Revenue Equivalence
+
+- Section: 13.2 Matching Markets:
+subsections:
+- 13.2a Stable Matching and the Gale-Shapley Algorithm
+- 13.2b School Choice and Kidney Exchange
+
+- Section: 13.3 Marketplaces and Platforms:
+subsections:
+- 13.3a Two-Sided Markets and Network Effects
+- 13.3b Pricing and Competition in Platform Markets
+
+- Section: 13.4 Mechanism Design:
+subsections:
+- 13.4a Revelation Principle and Incentive Compatibility
+- 13.4b Social Choice and Voting Mechanisms
+
+- Chapter 14: Industrial Organization:
+sections:
+- Section: 14.1 Market Power and Pricing Strategies:
+subsections:
+- 14.1a Price Discrimination and Bundling
+- 14.1b Entry Deterrence and Predatory Pricing
+
+- Section: 14.2 Mergers and Acquisitions:
+subsections:
+- 14.2a Horizontal and Vertical Mergers
+- 14.2b Antitrust Policy and Market Concentration
+
+- Section: 14.3 Regulation and Deregulation:
+subsections:
+- 14.3a Natural Monopolies and Price Regulation
+- 14.3b Deregulation and Market Competition
+
+- Section: 14.4 Innovation and Patents:
+subsections:
+- 14.4a Research and Development
+- 14.4b Patent Policy and Innovation Incentives
+
+- Chapter 15: International Trade:
+sections:
+- Section: 15.1 Comparative Advantage:
+subsections:
+- 15.1a Ricardian Model of Trade
+- 15.1b Heckscher-Ohlin Model and Factor Endowments
+
+- Section: 15.2 Trade Policy:
+subsections:
+- 15.2a Tariffs and Quotas
+- 15.2b Free Trade Agreements and Trade Blocs
+
+- Section: 15.3 Exchange Rates:
+subsections:
+- 15.3a Determination of Exchange Rates
+- 15.3b Currency Crises and Monetary Policy
+
+- Section: 15.4 Globalization:
+subsections:
+- 15.4a Trade and Income Inequality
+- 15.4b Offshoring and Global Supply Chains
+
+- Chapter 16: Development Economics:
+sections:
+- Section: 16.1 Economic Growth:
+subsections:
+- 16.1a Solow Growth Model
+- 16.1b Endogenous Growth Theory
+
+- Section: 16.2 Poverty and Inequality:
+subsections:
+- 16.2a Measurement of Poverty and Inequality
+- 16.2b Policies to Reduce Poverty and Inequality
+
+- Section: 16.3 Institutions and Development:
+subsections:
+- 16.3a Role of Institutions in Economic Development
+- 16.3b Corruption and Governance
+
+- Section: 16.4 Microfinance and Entrepreneurship:
+subsections:
+- 16.4a Microcredit and Microsavings
+- 16.4b Impact of Microfinance on Poverty Reduction
+
+- Chapter 17: Environmental Economics:
+sections:
+- Section: 17.1 Externalities and Public Goods:
+subsections:
+- 17.1a Pollution as a Negative Externality
+- 17.1b Public Goods and the Free-Rider Problem
+
+- Section: 17.2 Climate Change:
+subsections:
+- 17.2a Economics of Climate Change
+- 17.2b Carbon Pricing and Cap-and-Trade
+
+- Section: 17.3 Natural Resources:
+subsections:
+- 17.3a Renewable and Nonrenewable Resources
+- 17.3b Sustainable Development
+
+- Section: 17.4 Conservation and Biodiversity:
+subsections:
+- 17.4a Valuation of Ecosystem Services
+- 17.4b Policies for Conservation and Biodiversity
+
+- Chapter 18: Health Economics:
+sections:
+- Section: 18.1 Health Care Demand:
+subsections:
+- 18.1a Moral Hazard and Adverse Selection
+- 18.1b Health Insurance and Risk Pooling
+
+- Section: 18.2 Health Care Supply:
+subsections:
+- 18.2a Physician Behavior and Fee-for-Service
+- 18.2b Hospital Competition and Quality of Care
+
+- Section: 18.3 Health Policy:
+subsections:
+- 18.3a Health Care Reform and Universal Coverage
+- 18.3b Cost-Effectiveness Analysis and Health Technology Assessment
+
+- Section: 18.4 Global Health:
+subsections:
+- 18.4a Health Inequalities and Social Determinants of Health
+- 18.4b Global Health Initiatives and Health Aid
+
+- Chapter 19: Public Economics:
+sections:
+- Section: 19.1 Taxation:
+subsections:
+- 19.1a Tax Incidence and Deadweight Loss
+- 19.1b Optimal Taxation and Tax Reform
+
+- Section: 19.2 Public Expenditure:
+subsections:
+- 19.2a Public Goods and Public Choice
+- 19.2b Cost-Benefit Analysis and Government Investment
+
+- Section: 19.3 Fiscal Policy:
+subsections:
+- 19.3a Government Budget and Fiscal Deficit
+- 19.3b Fiscal Policy and Economic Stabilization
+
+- Section: 19.4 Social Security:
+subsections:
+- 19.4a Pay-As-You-Go and Fully Funded Systems
+- 19.4b Pension Reform and Retirement Savings
+
+- Chapter 20: Macroeconomic Policy:
+sections:
+- Section: 20.1 Monetary Policy:
+subsections:
+- 20.1a Central Banking and Inflation Targeting
+- 20.1b Monetary Policy and Business Cycle
+
+- Section: 20.2 Fiscal Policy:
+subsections:
+- 20.2a Government Spending and Taxation
+- 20.2b Fiscal Policy and Economic Stabilization
+
+- Section: 20.3 Financial Regulation:
+subsections:
+- 20.3a Financial Crises and Regulatory Responses
+- 20.3b Macroprudential Policy and Financial Stability
+
+- Section: 20.4 International Policy Coordination:
+subsections:
+- 20.4a Exchange Rate Policy and Currency Crises
+- 20.4b International Monetary Fund and World Bank

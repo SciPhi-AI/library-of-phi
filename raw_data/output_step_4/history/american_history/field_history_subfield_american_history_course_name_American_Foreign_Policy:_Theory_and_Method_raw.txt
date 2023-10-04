@@ -1,0 +1,456 @@
+textbook: 
+"American Foreign Policy: Theory and Method":
+
+chapters:
+- Chapter 1: Hypotheses, Laws, Theories and Case Studies:
+sections:
+- Section: 1.1 Theories of American Foreign Policy:
+subsections:
+- 1.1a Introduction to Theories
+- 1.1b Realism and Liberalism
+- 1.1c Constructivism and Marxism
+- 1.1d Neoconservatism and Isolationism
+
+- Section: 1.2 Historical Methods:
+subsections:
+- 1.2a Qualitative Analysis
+- 1.2b Quantitative Analysis
+- 1.2c Comparative Analysis
+- 1.2d Case Study Analysis
+
+- Chapter 2: Contending Grand Strategies Past and Present:
+sections:
+- Section: 2.1 The War on Terror:
+subsections:
+- 2.1a Origins of the War on Terror
+- 2.1b Strategies and Tactics
+- 2.1c Impact on Foreign Policy
+- 2.1d Critiques and Controversies
+
+- Section: 2.2 Other Policy Issues and Debates:
+subsections:
+- 2.2a Nuclear Proliferation
+- 2.2b Climate Change and Environmental Policy
+- 2.2c Human Rights and Democracy Promotion
+- 2.2d Trade and Economic Policy
+
+- Chapter 3: American Wars, Crises, and Interventions:
+sections:
+- Section: 3.1 The Filipino-Spanish-American War:
+subsections:
+- 3.1a Causes and Outbreak
+- 3.1b Major Battles and Events
+- 3.1c Impact on American Foreign Policy
+- 3.1d Legacy and Lessons
+
+- Section: 3.2 World War I:
+subsections:
+- 3.2a American Neutrality and Entry
+- 3.2b American Expeditionary Force
+- 3.2c Home Front and War Economy
+- 3.2d Treaty of Versailles and League of Nations
+
+- Section: 3.3 World War II:
+subsections:
+- 3.3a American Isolationism and Lend-Lease
+- 3.3b Pearl Harbor and American Entry
+- 3.3c War in Europe and Pacific
+- 3.3d Atomic Bomb and Post-War Settlement
+
+- Section: 3.4 The Outbreak of the Pacific War, 1941:
+subsections:
+- 3.4a Japanese Expansion and American Embargo
+- 3.4b Pearl Harbor Attack
+- 3.4c American Mobilization
+- 3.4d Pacific Theater Strategy and Tactics
+
+- Chapter 4: The Cold War:
+sections:
+- Section: 4.1 Origins and Early Years:
+subsections:
+- 4.1a Truman Doctrine and Marshall Plan
+- 4.1b Berlin Blockade and NATO
+- 4.1c Korean War and Containment
+- 4.1d McCarthyism and Red Scare
+
+- Section: 4.2 Middle Years and Crises:
+subsections:
+- 4.2a Suez Crisis and Eisenhower Doctrine
+- 4.2b Cuban Missile Crisis and Berlin Wall
+- 4.2c Vietnam War and Detente
+- 4.2d Nixon Doctrine and SALT
+
+- Section: 4.3 End of the Cold War:
+subsections:
+- 4.3a Reagan Doctrine and SDI
+- 4.3b Glasnost and Perestroika
+- 4.3c Fall of the Berlin Wall and German Reunification
+- 4.3d Dissolution of the Soviet Union and End of the Cold War
+
+- Chapter 5: The Korean War:
+sections:
+- Section: 5.1 Origins and Outbreak:
+subsections:
+- 5.1a Division of Korea and Soviet-American Rivalry
+- 5.1b North Korean Invasion and UN Response
+- 5.1c Pusan Perimeter and Inchon Landing
+- 5.1d Chinese Intervention and Stalemate
+
+- Section: 5.2 Major Battles and Events:
+subsections:
+- 5.2a Battle of Chosin Reservoir
+- 5.2b Battle of Heartbreak Ridge
+- 5.2c Battle of Pork Chop Hill
+- 5.2d Armistice and POW Exchange
+
+- Section: 5.3 Impact on American Foreign Policy:
+subsections:
+- 5.3a Truman-MacArthur Controversy
+- 5.3b NSC-68 and Military-Industrial Complex
+- 5.3c Korean War Veterans and Home Front
+- 5.3d Legacy and Lessons
+
+- Chapter 6: The Indochina War, 1945-1975:
+sections:
+- Section: 6.1 French Indochina War:
+subsections:
+- 6.1a Origins and Outbreak
+- 6.1b Major Battles and Events
+- 6.1c Geneva Conference and Partition
+- 6.1d American Involvement and Domino Theory
+
+- Section: 6.2 Vietnam War:
+subsections:
+- 6.2a Gulf of Tonkin and American Escalation
+- 6.2b Tet Offensive and My Lai Massacre
+- 6.2c Vietnamization and Paris Peace Accords
+- 6.2d Fall of Saigon and End of the War
+
+- Section: 6.3 Other U.S. Third World Interventions:
+subsections:
+- 6.3a Iran and Guatemala Coups
+- 6.3b Bay of Pigs and Cuban Missile Crisis
+- 6.3c Dominican Republic and Grenada Interventions
+- 6.3d Iran-Contra Affair and Panama Invasion
+
+- Chapter 7: Current Crises:
+sections:
+- Section: 7.1 Middle East and Terrorism:
+subsections:
+- 7.1a 9/11 Attacks and War on Terror
+- 7.1b Afghanistan War and Iraq War
+- 7.1c Arab Spring and Syrian Civil War
+- 7.1d Iran Nuclear Deal and Israeli-Palestinian Conflict
+
+- Section: 7.2 Russia and China:
+subsections:
+- 7.2a Russia and Post-Soviet Space
+- 7.2b China and South China Sea
+- 7.2c Cybersecurity and Election Interference
+- 7.2d Trade Wars and Human Rights
+
+- Section: 7.3 Climate Change and Global Health:
+subsections:
+- 7.3a Paris Agreement and Climate Diplomacy
+- 7.3b Global Health and Pandemics
+- 7.3c Migration and Refugee Crises
+- 7.3d United Nations and Multilateralism
+
+- Chapter 8: American Diplomacy and Statecraft:
+sections:
+- Section: 8.1 Diplomatic History:
+subsections:
+- 8.1a Early Republic and Monroe Doctrine
+- 8.1b Open Door Policy and Dollar Diplomacy
+- 8.1c Good Neighbor Policy and Marshall Plan
+- 8.1d Detente and New World Order
+
+- Section: 8.2 Diplomatic Institutions:
+subsections:
+- 8.2a Department of State and Foreign Service
+- 8.2b United Nations and International Organizations
+- 8.2c Diplomatic Immunity and Vienna Conventions
+- 8.2d Public Diplomacy and Cultural Exchanges
+
+- Section: 8.3 Diplomatic Strategies and Tactics:
+subsections:
+- 8.3a Negotiation and Mediation
+- 8.3b Sanctions and Coercive Diplomacy
+- 8.3c Soft Power and Smart Power
+- 8.3d Diplomacy in the Digital Age
+
+- Chapter 9: American Defense and Security:
+sections:
+- Section: 9.1 Defense History:
+subsections:
+- 9.1a Early Republic and Civil War
+- 9.1b World Wars and Cold War
+- 9.1c Post-Cold War and War on Terror
+- 9.1d Future Challenges and Defense Innovation
+
+- Section: 9.2 Defense Institutions:
+subsections:
+- 9.2a Department of Defense and Joint Chiefs of Staff
+- 9.2b Intelligence Community and National Security Council
+- 9.2c Defense Contractors and Military-Industrial Complex
+- 9.2d Veterans Affairs and Military Families
+
+- Section: 9.3 Defense Strategies and Tactics:
+subsections:
+- 9.3a Deterrence and Compellence
+- 9.3b Counterinsurgency and Counterterrorism
+- 9.3c Cybersecurity and Space Defense
+- 9.3d Defense Budget and Procurement
+
+- Chapter 10: American Economic Statecraft:
+sections:
+- Section: 10.1 Economic History:
+subsections:
+- 10.1a Early Republic and Industrial Revolution
+- 10.1b Great Depression and New Deal
+- 10.1c Bretton Woods and Cold War
+- 10.1d Globalization and Financial Crises
+
+- Section: 10.2 Economic Institutions:
+subsections:
+- 10.2a Department of Treasury and Federal Reserve
+- 10.2b World Bank and International Monetary Fund
+- 10.2c World Trade Organization and G20
+- 10.2d Multinational Corporations and Non-Governmental Organizations
+
+- Section: 10.3 Economic Strategies and Tactics:
+subsections:
+- 10.3a Trade Policy and Tariffs
+- 10.3b Sanctions and Financial Warfare
+- 10.3c Foreign Aid and Development Assistance
+- 10.3d Economic Diplomacy and Commercial Diplomacy
+
+- Chapter 11: American Ideology and Culture:
+sections:
+- Section: 11.1 Ideological History:
+subsections:
+- 11.1a Enlightenment and American Revolution
+- 11.1b Manifest Destiny and American Exceptionalism
+- 11.1c Progressivism and Civil Rights Movement
+- 11.1d Neoconservatism and Neoliberalism
+
+- Section: 11.2 Ideological Institutions:
+subsections:
+- 11.2a Political Parties and Interest Groups
+- 11.2b Media and Public Opinion
+- 11.2c Education and Research Institutions
+- 11.2d Religion and Civil Society
+
+- Section: 11.3 Ideological Strategies and Tactics:
+subsections:
+- 11.3a Democracy Promotion and Human Rights
+- 11.3b Propaganda and Information Warfare
+- 11.3c Cultural Diplomacy and Exchange Programs
+- 11.3d Ideology in the Digital Age
+
+- Chapter 12: American Law and Ethics:
+sections:
+- Section: 12.1 Legal History:
+subsections:
+- 12.1a Constitution and Bill of Rights
+- 12.1b Civil War and Reconstruction Amendments
+- 12.1c New Deal and Civil Rights Legislation
+- 12.1d War Powers and International Law
+
+- Section: 12.2 Legal Institutions:
+subsections:
+- 12.2a Supreme Court and Judicial Branch
+- 12.2b Congress and Legislative Branch
+- 12.2c Executive Branch and Presidential Powers
+- 12.2d International Court of Justice and International Criminal Court
+
+- Section: 12.3 Legal Strategies and Tactics:
+subsections:
+- 12.3a Treaties and Executive Agreements
+- 12.3b War Crimes and Humanitarian Law
+- 12.3c Immigration Law and Asylum Policy
+- 12.3d Legal Diplomacy and Lawfare
+
+- Chapter 13: American Society and Demographics:
+sections:
+- Section: 13.1 Social History:
+subsections:
+- 13.1a Immigration and Ethnic Diversity
+- 13.1b Slavery and Civil Rights Movement
+- 13.1c Women's Rights and LGBT Rights
+- 13.1d Social Movements and Protests
+
+- Section: 13.2 Social Institutions:
+subsections:
+- 13.2a Education and Healthcare Systems
+- 13.2b Labor Unions and Professional Associations
+- 13.2c Non-Governmental Organizations and Charities
+- 13.2d Media and Social Networks
+
+- Section: 13.3 Social Strategies and Tactics:
+subsections:
+- 13.3a Public Diplomacy and Exchange Programs
+- 13.3b Immigration Policy and Refugee Resettlement
+- 13.3c Humanitarian Assistance and Disaster Relief
+- 13.3d Social Media and Digital Diplomacy
+
+- Chapter 14: American Geography and Environment:
+sections:
+- Section: 14.1 Geographic History:
+subsections:
+- 14.1a Native American Tribes and European Colonization
+- 14.1b Westward Expansion and Manifest Destiny
+- 14.1c Industrialization and Urbanization
+- 14.1d Climate Change and Environmental Movement
+
+- Section: 14.2 Geographic Institutions:
+subsections:
+- 14.2a Department of Interior and National Parks
+- 14.2b Environmental Protection Agency and Clean Air Act
+- 14.2c United Nations Framework Convention on Climate Change
+- 14.2d Non-Governmental Organizations and Environmental Groups
+
+- Section: 14.3 Geographic Strategies and Tactics:
+subsections:
+- 14.3a Climate Diplomacy and Paris Agreement
+- 14.3b Disaster Diplomacy and Humanitarian Assistance
+- 14.3c Arctic Diplomacy and Law of the Sea
+- 14.3d Space Diplomacy and Outer Space Treaty
+
+- Chapter 15: American Science and Technology:
+sections:
+- Section: 15.1 Scientific History:
+subsections:
+- 15.1a Enlightenment and American Revolution
+- 15.1b Industrial Revolution and Civil War
+- 15.1c Atomic Age and Space Age
+- 15.1d Information Age and Digital Revolution
+
+- Section: 15.2 Scientific Institutions:
+subsections:
+- 15.2a Department of Energy and National Laboratories
+- 15.2b National Aeronautics and Space Administration
+- 15.2c National Institutes of Health and Centers for Disease Control
+- 15.2d Universities and Research Institutions
+
+- Section: 15.3 Scientific Strategies and Tactics:
+subsections:
+- 15.3a Science Diplomacy and International Cooperation
+- 15.3b Arms Control and Non-Proliferation
+- 15.3c Health Diplomacy and Global Health Security
+- 15.3d Cybersecurity and Artificial Intelligence
+
+- Chapter 16: American Education and Culture:
+sections:
+- Section: 16.1 Educational History:
+subsections:
+- 16.1a Colonial Era and Early Republic
+- 16.1b Progressive Era and New Deal
+- 16.1c Civil Rights Movement and Higher Education Act
+- 16.1d Globalization and Digital Revolution
+
+- Section: 16.2 Educational Institutions:
+subsections:
+- 16.2a Department of Education and No Child Left Behind
+- 16.2b Public Schools and Private Schools
+- 16.2c Universities and Community Colleges
+- 16.2d Non-Governmental Organizations and Education Groups
+
+- Section: 16.3 Educational Strategies and Tactics:
+subsections:
+- 16.3a Education Diplomacy and Exchange Programs
+- 16.3b Science, Technology, Engineering, and Mathematics (STEM) Education
+- 16.3c Higher Education and International Students
+- 16.3d Digital Learning and Online Education
+
+- Chapter 17: American Religion and Philosophy:
+sections:
+- Section: 17.1 Religious History:
+subsections:
+- 17.1a Puritans and Great Awakening
+- 17.1b Second Great Awakening and Civil War
+- 17.1c Social Gospel and Civil Rights Movement
+- 17.1d Religious Right and Culture Wars
+
+- Section: 17.2 Religious Institutions:
+subsections:
+- 17.2a Churches and Denominations
+- 17.2b Religious Schools and Charities
+- 17.2c Interfaith Groups and Ecumenical Organizations
+- 17.2d Religious Freedom and First Amendment
+
+- Section: 17.3 Religious Strategies and Tactics:
+subsections:
+- 17.3a Religious Diplomacy and Interfaith Dialogue
+- 17.3b Human Rights and Freedom of Religion
+- 17.3c Faith-Based Initiatives and Charitable Giving
+- 17.3d Religion and Conflict Resolution
+
+- Chapter 18: American Politics and Government:
+sections:
+- Section: 18.1 Political History:
+subsections:
+- 18.1a Constitution and Bill of Rights
+- 18.1b Civil War and Reconstruction Amendments
+- 18.1c New Deal and Civil Rights Movement
+- 18.1d Watergate and Post-Cold War Era
+
+- Section: 18.2 Political Institutions:
+subsections:
+- 18.2a Congress and Legislative Branch
+- 18.2b Presidency and Executive Branch
+- 18.2c Supreme Court and Judicial Branch
+- 18.2d Political Parties and Interest Groups
+
+- Section: 18.3 Political Strategies and Tactics:
+subsections:
+- 18.3a Campaigns and Elections
+- 18.3b Lobbying and Interest Groups
+- 18.3c Public Opinion and Polling
+- 18.3d Media and Political Communication
+
+- Chapter 19: American Economy and Society:
+sections:
+- Section: 19.1 Economic History:
+subsections:
+- 19.1a Industrial Revolution and Gilded Age
+- 19.1b Great Depression and New Deal
+- 19.1c Post-War Boom and Reaganomics
+- 19.1d Globalization and Financial Crises
+
+- Section: 19.2 Economic Institutions:
+subsections:
+- 19.2a Federal Reserve and Monetary Policy
+- 19.2b Department of Treasury and Fiscal Policy
+- 19.2c World Bank and International Monetary Fund
+- 19.2d Labor Unions and Business Associations
+
+- Section: 19.3 Economic Strategies and Tactics:
+subsections:
+- 19.3a Trade Policy and Tariffs
+- 19.3b Sanctions and Financial Warfare
+- 19.3c Foreign Aid and Development Assistance
+- 19.3d Economic Diplomacy and Commercial Diplomacy
+
+- Chapter 20: American Future and Prospects:
+sections:
+- Section: 20.1 Future Challenges:
+subsections:
+- 20.1a Climate Change and Environmental Sustainability
+- 20.1b Global Health and Pandemics
+- 20.1c Cybersecurity and Artificial Intelligence
+- 20.1d Migration and Refugee Crises
+
+- Section: 20.2 Future Opportunities:
+subsections:
+- 20.2a Science and Technology Innovation
+- 20.2b Economic Growth and Social Mobility
+- 20.2c Education and Human Capital
+- 20.2d Diplomacy and International Cooperation
+
+- Section: 20.3 Future Prospects:
+subsections:
+- 20.3a American Leadership and Hegemony
+- 20.3b American Values and Soft Power
+- 20.3c American Resilience and Adaptability
+- 20.3d American Dream and National Identity

@@ -1,0 +1,169 @@
+textbook:
+  'Comprehensive Guide to Numerical Computation for Mechanical Engineers":':
+    chapters:
+    - '- Chapter 1: Calculus and Elementary Programming Concepts:':
+        sections:
+        - '- Section: 1.1 Limits and Derivatives:':
+            subsections:
+            - 1.1a Definition of Limits
+            - 1.1b Continuity
+            - 1.1c Differentiation Rules
+            - 1.1d Applications of Derivatives
+        - '- Section: 1.2 Numerical Integration:':
+            subsections:
+            - 1.2a Riemann Sums
+            - 1.2b Trapezoidal Rule
+            - 1.2c Simpson's Rule
+            - 1.2d Romberg Integration
+            - 1.2e Gaussian Quadrature
+            - 1.2f Applications of Numerical Integration
+        - '- Section: 1.3 Taylor Series:':
+            subsections:
+            - 1.3a Taylor Polynomials
+            - 1.3b Taylor Series Expansion
+            - 1.3c Convergence and Error Analysis
+            - 1.3d Applications of Taylor Series
+        - '- Section: 1.4 Introduction to Programming:':
+            subsections:
+            - 1.4a Programming Concepts and Paradigms
+            - 1.4b Programming Languages and Environments
+            - 1.4c Integrated Development Environments (IDEs)
+            - 1.4d Software Development Life Cycle
+            - 1.4e Introduction to Python Programming
+    - '- Chapter 2: Variables and Data Types:':
+        sections:
+        - '- Section: 2.1 Variables and Data Types:':
+            subsections:
+            - 2.1a Variable Declaration and Assignment
+            - 2.1b Primitive Data Types
+            - 2.1c Composite Data Types
+            - 2.1d Type Conversion and Casting
+            - 2.1e Memory Management
+    - '- Chapter 3: Control Structures:':
+        sections:
+        - '- Section: 3.1 Control Structures:':
+            subsections:
+            - 3.1a Conditional Statements
+            - 3.1b Loops and Iteration
+            - 3.1c Boolean Logic and Operators
+            - 3.1d Flow Control
+            - 3.1e Exception Handling
+    - '- Chapter 4: Functions and Procedures:':
+        sections:
+        - '- Section: 4.1 Functions and Procedures:':
+            subsections:
+            - 4.1a Function Definition and Syntax
+            - 4.1b Function Parameters and Arguments
+            - 4.1c Return Values and Variable Scope
+            - 4.1d Recursion
+            - 4.1e Procedures and Subroutines
+            - 4.1f Function Libraries and Modules
+    - '- Chapter 5: Arrays and Matrices:':
+        sections:
+        - '- Section: 5.1 Arrays and Matrices:':
+            subsections:
+            - 5.1a Array Declaration and Initialization
+            - 5.1b Array Indexing and Slicing
+            - 5.1c Array Operations and Manipulation
+            - 5.1d Multi-dimensional Arrays
+            - 5.1e Matrix Representation and Operations
+            - 5.1f Applications of Arrays and Matrices
+    - '- Chapter 6: File Input and Output:':
+        sections:
+        - '- Section: 6.1 File Input and Output:':
+            subsections:
+            - 6.1a File Handling and Modes
+            - 6.1b Reading from Files
+            - 6.1c Writing to Files
+            - 6.1d File Navigation and Pointers
+            - 6.1e File Formats and Parsing
+            - 6.1f Applications of File Input and Output
+    - '- Chapter 7: Monte Carlo Methods:':
+        sections:
+        - '- Section: 7.1 Random Number Generation:':
+            subsections:
+            - 7.1a Pseudo-random Number Generation
+            - 7.1b Random Number Distributions
+            - 7.1c Random Sampling Techniques
+            - 7.1d Randomness Testing and Validation
+            - 7.1e Applications of Random Number Generation
+        - '- Section: 7.2 Monte Carlo Integration:':
+            subsections:
+            - 7.2a Monte Carlo Estimation
+            - 7.2b Importance Sampling
+            - 7.2c Variance Reduction Techniques
+            - 7.2d Confidence Intervals and Error Analysis
+            - 7.2e Applications of Monte Carlo Integration
+        - '- Section: 7.3 Markov Chain Monte Carlo:':
+            subsections:
+            - 7.3a Markov Chains and Random Walks
+            - 7.3b Metropolis-Hastings Algorithm
+            - 7.3c Gibbs Sampling
+            - 7.3d Convergence and Mixing Time
+            - 7.3e Applications of Markov Chain Monte Carlo
+        - '- Section: 7.4 Importance Sampling:':
+            subsections:
+            - 7.4a Sampling Techniques and Weighting
+            - 7.4b Bias and Variance Reduction
+            - 7.4c Adaptive Importance Sampling
+            - 7.4d Applications of Importance Sampling
+        - '- Section: 7.5 Error Estimation:':
+            subsections:
+            - 7.5a Error Propagation and Analysis
+            - 7.5b Error Bounds and Confidence Intervals
+            - 7.5c Monte Carlo Error Estimation
+            - 7.5d Sensitivity Analysis
+            - 7.5e Applications of Error Estimation
+        - '- Section: 7.6 Applications in Mechanical Engineering:':
+            subsections:
+            - 7.6a Reliability Analysis
+            - 7.6b Risk Assessment
+            - 7.6c Design Optimization
+            - 7.6d Uncertainty Quantification
+            - 7.6e Probabilistic Methods
+            - 7.6f Robust Design
+    - '- Chapter 8: Numerical Linear Algebra:':
+        sections:
+        - '- Section: 8.1 Matrix Operations:':
+            subsections:
+            - 8.1a Matrix Addition and Subtraction
+            - 8.1b Matrix Multiplication
+            - 8.1c Matrix Transposition
+            - 8.1d Matrix Inversion
+            - 8.1e Matrix Norms and Condition Numbers
+            - 8.1f Applications of Matrix Operations
+        - '- Section: 8.2 Solving Linear Systems:':
+            subsections:
+            - 8.2a Gaussian Elimination
+            - 8.2b LU Decomposition
+            - 8.2c Cholesky Decomposition
+            - 8.2d Iterative Methods (Jacobi, Gauss-Seidel)
+            - 8.2e Direct Methods (Thomas Algorithm)
+            - 8.2f Applications of Solving Linear Systems
+        - '- Section: 8.3 Eigenvalues and Eigenvectors:':
+            subsections:
+            - 8.3a Eigenvalue Problems
+            - 8.3b Power Iteration Method
+            - 8.3c QR Algorithm
+            - 8.3d Singular Value Decomposition
+            - 8.3e Applications of Eigenvalues and Eigenvectors
+        - '- Section: 8.4 Least Squares Problems:':
+            subsections:
+            - 8.4a Overdetermined Systems
+            - 8.4b Normal Equations
+            - 8.4c QR Decomposition Method
+            - 8.4d Singular Value Decomposition Method
+            - 8.4e Applications of Least Squares Problems
+        - '- Section: 8.5 Applications in Mechanical Engineering:':
+            subsections:
+            - 8.5a Structural Analysis
+            - 8.5b Vibrations and Modal Analysis
+            - 8.5c Control Systems
+            - 8.5d System Identification
+            - 8.5e Data Compression
+            - 8.5f Image Processing
+    - '- Chapter 9: Optimization Methods:':
+        sections:
+        - '- Section: 9.1 Unconstrained Optimization:':
+            subsections:
+            - 9.1a Optimization Problem Formulation

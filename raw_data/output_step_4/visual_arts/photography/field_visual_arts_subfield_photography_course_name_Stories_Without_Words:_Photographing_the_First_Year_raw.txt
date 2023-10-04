@@ -1,0 +1,304 @@
+textbook: 
+"Photographing the First Year: Capturing Stories Without Words":
+
+chapters:
+- Chapter 1: Introduction to Photography:
+sections:
+- Section: 1.1 Camera Basics:
+subsections:
+- 1.1a Understanding DSLR Cameras
+- 1.1b Mastering Camera Controls
+
+- Section: 1.2 Understanding Light:
+subsections:
+- 1.2a Natural vs Artificial Light
+- 1.2b Manipulating Light for Creative Effects
+
+- Chapter 2: Image Viewing and Analysis:
+sections:
+- Section: 2.1 Assignment on Light:
+subsections:
+- 2.1a Exploring Different Lighting Techniques
+- 2.1b Creating Dramatic Lighting
+
+- Section: 2.2 Assignment on Detail:
+subsections:
+- 2.2a Macro Photography
+- 2.2b Capturing Textures and Patterns
+
+- Section: 2.3 Web Design:
+subsections:
+- 2.3a User Experience Design
+- 2.3b Visual Design Principles
+
+- Chapter 3: Museum Visit and Dinner:
+sections:
+- Section: 3.1 Visit to HMNH:
+subsections:
+- 3.1a Composition Techniques in Museum Photography
+- 3.1b Capturing Artifacts and Exhibits
+
+- Section: 3.2 Dinner in Harvard Square:
+subsections:
+- 3.2a Food Photography Tips and Tricks
+- 3.2b Capturing the Atmosphere of a Restaurant
+
+- Chapter 4: In-class Work on Web Site Building:
+sections:
+- Section: 4.1 Building Web Sites:
+subsections:
+- 4.1a HTML and CSS Fundamentals
+- 4.1b Creating Responsive Web Design
+
+- Section: 4.2 Themes and Concepts:
+subsections:
+- 4.2a Designing a Visual Theme for a Website
+- 4.2b Incorporating Interactive Elements
+
+- Chapter 5: Review of Assignments and Projects:
+sections:
+- Section: 5.1 Review of Web Sites and Themes:
+subsections:
+- 5.1a Evaluating Website Usability
+- 5.1b Providing Constructive Feedback
+
+- Section: 5.2 Individual Critiques:
+subsections:
+- 5.2a Analyzing and Discussing Student Projects
+- 5.2b Giving Effective Critiques
+
+- Chapter 6: Optional Class Meeting:
+sections:
+- Section: 6.1 Midterm Exams:
+subsections:
+- 6.1a Reviewing Course Concepts and Materials
+- 6.1b Preparing for the Midterm Exam
+
+- Chapter 7: Image Viewing and Poetics:
+sections:
+- Section: 7.1 Poetics Assignment:
+subsections:
+- 7.1a Exploring the Emotional Impact of Images
+- 7.1b Creating Visual Narratives
+
+- Section: 7.2 Exploring Themes:
+subsections:
+- 7.2a Conceptual Photography
+- 7.2b Telling Stories through Visual Elements
+
+- Chapter 8: Walking Tour of Campus Art and Architecture:
+sections:
+- Section: 8.1 Exploring Campus Art:
+subsections:
+- 8.1a Documenting Public Art Installations
+- 8.1b Capturing Unique Architectural Features
+
+- Section: 8.2 Architectural Photography:
+subsections:
+- 8.2a Understanding Perspective and Composition in Architecture
+- 8.2b Using Light and Shadow to Highlight Architectural Details
+
+- Chapter 9: Working Session in Lab:
+sections:
+- Section: 9.1 Individual Review:
+subsections:
+- 9.1a Assisting Students with Technical Issues
+- 9.1b Providing Feedback on Editing Techniques
+
+- Section: 9.2 Pre-Review:
+subsections:
+- 9.2a Preparing Images for Final Review
+- 9.2b Presenting Work Professionally
+
+- Chapter 10: Final Review and Presentation:
+sections:
+- Section: 10.1 Web Gallery of Images:
+subsections:
+- 10.1a Curating and Organizing an Online Photography Portfolio
+- 10.1b Showcasing Work in a Digital Format
+
+- Section: 10.2 Personal Experiences at MIT:
+subsections:
+- 10.2a Capturing the MIT Campus Environment
+- 10.2b Documenting Student Life and Culture
+
+- Section: 10.3 Theme Exploration:
+subsections:
+- 10.3a Developing a Personal Photography Style
+- 10.3b Exploring a Specific Theme in Depth
+
+- Section: 10.4 Final Presentation and Discussion:
+subsections:
+- 10.4a Presenting Final Projects to the Class
+- 10.4b Engaging in a Meaningful Discussion about Photography
+
+- Chapter 11: Advanced Camera Techniques:
+sections:
+- Section: 11.1 Long Exposure Photography:
+subsections:
+- 11.1a Understanding Shutter Speed
+- 11.1b Techniques for Long Exposure Photography
+
+- Section: 11.2 High Dynamic Range (HDR) Photography:
+subsections:
+- 11.2a Understanding HDR
+- 11.2b Techniques for HDR Photography
+
+- Section: 11.3 Time-Lapse Photography:
+subsections:
+- 11.3a Understanding Time-Lapse
+- 11.3b Techniques for Time-Lapse Photography
+
+- Chapter 12: Post-Processing Techniques:
+sections:
+- Section: 12.1 Introduction to Adobe Lightroom:
+subsections:
+- 12.1a Understanding the Lightroom Interface
+- 12.1b Basic Editing Techniques in Lightroom
+
+- Section: 12.2 Introduction to Adobe Photoshop:
+subsections:
+- 12.2a Understanding the Photoshop Interface
+- 12.2b Basic Editing Techniques in Photoshop
+
+- Section: 12.3 Advanced Editing Techniques:
+subsections:
+- 12.3a Understanding Layers and Masks
+- 12.3b Techniques for Advanced Photo Editing
+
+- Chapter 13: Composition and Framing:
+sections:
+- Section: 13.1 Understanding Composition:
+subsections:
+- 13.1a The Rule of Thirds
+- 13.1b Using Leading Lines in Composition
+
+- Section: 13.2 Understanding Framing:
+subsections:
+- 13.2a The Importance of Framing
+- 13.2b Techniques for Effective Framing
+
+- Section: 13.3 Advanced Composition Techniques:
+subsections:
+- 13.3a Using Negative Space
+- 13.3b Understanding Balance in Composition
+
+- Chapter 14: Understanding Color:
+sections:
+- Section: 14.1 The Color Wheel:
+subsections:
+- 14.1a Understanding the Color Wheel
+- 14.1b Using Color Theory in Photography
+
+- Section: 14.2 Understanding White Balance:
+subsections:
+- 14.2a What is White Balance?
+- 14.2b Techniques for Correcting White Balance
+
+- Section: 14.3 Advanced Color Techniques:
+subsections:
+- 14.3a Using Color Grading in Photography
+- 14.3b Understanding Color Psychology in Photography
+
+- Chapter 15: Understanding Exposure:
+sections:
+- Section: 15.1 The Exposure Triangle:
+subsections:
+- 15.1a Understanding ISO
+- 15.1b Understanding Aperture
+- 15.1c Understanding Shutter Speed
+
+- Section: 15.2 Metering Modes:
+subsections:
+- 15.2a Understanding Metering Modes
+- 15.2b Techniques for Effective Metering
+
+- Section: 15.3 Advanced Exposure Techniques:
+subsections:
+- 15.3a Using Exposure Compensation
+- 15.3b Understanding Bracketing in Photography
+
+- Chapter 16: Understanding Focus:
+sections:
+- Section: 16.1 Understanding Autofocus:
+subsections:
+- 16.1a Understanding Autofocus Points
+- 16.1b Techniques for Effective Autofocus
+
+- Section: 16.2 Understanding Manual Focus:
+subsections:
+- 16.2a When to Use Manual Focus
+- 16.2b Techniques for Effective Manual Focus
+
+- Section: 16.3 Advanced Focus Techniques:
+subsections:
+- 16.3a Understanding Depth of Field
+- 16.3b Techniques for Creative Focus
+
+- Chapter 17: Understanding Lenses:
+sections:
+- Section: 17.1 Understanding Focal Length:
+subsections:
+- 17.1a What is Focal Length?
+- 17.1b Choosing the Right Focal Length
+
+- Section: 17.2 Understanding Lens Types:
+subsections:
+- 17.2a Prime Lenses vs Zoom Lenses
+- 17.2b Specialty Lenses
+
+- Section: 17.3 Advanced Lens Techniques:
+subsections:
+- 17.3a Understanding Lens Distortion
+- 17.3b Techniques for Creative Lens Use
+
+- Chapter 18: Understanding Flash:
+sections:
+- Section: 18.1 Understanding On-Camera Flash:
+subsections:
+- 18.1a When to Use On-Camera Flash
+- 18.1b Techniques for Effective On-Camera Flash
+
+- Section: 18.2 Understanding Off-Camera Flash:
+subsections:
+- 18.2a When to Use Off-Camera Flash
+- 18.2b Techniques for Effective Off-Camera Flash
+
+- Section: 18.3 Advanced Flash Techniques:
+subsections:
+- 18.3a Understanding Flash Sync
+- 18.3b Techniques for Creative Flash Use
+
+- Chapter 19: Understanding Filters:
+sections:
+- Section: 19.1 Understanding Polarizing Filters:
+subsections:
+- 19.1a When to Use a Polarizing Filter
+- 19.1b Techniques for Effective Polarizing Filter Use
+
+- Section: 19.2 Understanding Neutral Density Filters:
+subsections:
+- 19.2a When to Use a Neutral Density Filter
+- 19.2b Techniques for Effective Neutral Density Filter Use
+
+- Section: 19.3 Advanced Filter Techniques:
+subsections:
+- 19.3a Understanding Graduated Neutral Density Filters
+- 19.3b Techniques for Creative Filter Use
+
+- Chapter 20: Understanding Tripods:
+sections:
+- Section: 20.1 When to Use a Tripod:
+subsections:
+- 20.1a Understanding the Benefits of a Tripod
+- 20.1b Choosing the Right Tripod
+
+- Section: 20.2 Understanding Monopods:
+subsections:
+- 20.2a When to Use a Monopod
+- 20.2b Choosing the Right Monopod
+
+- Section: 20.3 Advanced Tripod Techniques:
+subsections:
+- 20.3a Understanding Tripod Heads
+- 20.3b Techniques for Effective Tripod Use

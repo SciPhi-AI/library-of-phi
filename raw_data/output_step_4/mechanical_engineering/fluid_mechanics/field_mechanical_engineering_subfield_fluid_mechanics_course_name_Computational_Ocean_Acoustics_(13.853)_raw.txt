@@ -1,0 +1,379 @@
+textbook: 
+"Computational Ocean Acoustics: Theory and Applications":
+
+chapters:
+- Chapter 1: Fundamentals of Ocean Acoustics:
+sections:
+- Section: 1.1 The Acoustic Wave Equation:
+subsections:
+- 1.1a Introduction to Acoustic Wave Equation
+- 1.1b Derivation of Acoustic Wave Equation
+- 1.1c Applications of Acoustic Wave Equation
+
+- Section: 1.2 Integral Transforms:
+subsections:
+- 1.2a Basics of Integral Transforms
+- 1.2b Fourier and Laplace Transforms
+- 1.2c Applications in Ocean Acoustics
+
+- Section: 1.3 The Helmholtz Equation:
+subsections:
+- 1.3a Introduction to Helmholtz Equation
+- 1.3b Derivation and Solutions
+- 1.3c Applications in Ocean Acoustics
+
+- Chapter 2: Sources in Unbounded and Bounded Media:
+sections:
+- Section: 2.1 Green's Functions:
+subsections:
+- 2.1a Definition and Properties
+- 2.1b Derivation of Green's Functions
+- 2.1c Applications in Ocean Acoustics
+
+- Section: 2.2 Green's Theorem:
+subsections:
+- 2.2a Statement and Proof of Green's Theorem
+- 2.2b Applications in Acoustic Wave Propagation
+- 2.2c Green's Theorem in Bounded Media
+
+- Chapter 3: Reflection and Transmission:
+sections:
+- Section: 3.1 Integral Transform Solution:
+subsections:
+- 3.1a Introduction to Integral Transform Solutions
+- 3.1b Applications in Reflection and Transmission
+- 3.1c Case Studies
+
+- Section: 3.2 Source in Half-spaces:
+subsections:
+- 3.2a Introduction to Half-space Sources
+- 3.2b Mathematical Representation
+- 3.2c Applications in Ocean Acoustics
+
+- Chapter 4: Ideal Waveguides:
+sections:
+- Section: 4.1 The Pekeris Waveguide:
+subsections:
+- 4.1a Introduction to Pekeris Waveguide
+- 4.1b Mathematical Model
+- 4.1c Applications and Case Studies
+
+- Chapter 5: Wavenumber Integration:
+sections:
+- Section: 5.1 Layer Solutions and Interface Conditions:
+subsections:
+- 5.1a Introduction to Layer Solutions
+- 5.1b Derivation of Interface Conditions
+- 5.1c Applications in Wavenumber Integration
+
+- Section: 5.2 Global Matrix Solution:
+subsections:
+- 5.2a Introduction to Global Matrix Solution
+- 5.2b Mathematical Representation
+- 5.2c Applications in Ocean Acoustics
+
+- Section: 5.3 Propagator Matrix and Invariant Embedding Solution:
+subsections:
+- 5.3a Introduction to Propagator Matrix
+- 5.3b Invariant Embedding Solution
+- 5.3c Applications and Case Studies
+
+- Section: 5.4 Numerical Evaluation of Wavenumber Integral:
+subsections:
+- 5.4a Introduction to Numerical Evaluation
+- 5.4b Techniques and Methods
+- 5.4c Challenges and Solutions
+
+- Section: 5.5 Aliasing and Wrap-around:
+subsections:
+- 5.5a Definition and Causes of Aliasing
+- 5.5b Wrap-around in Wavenumber Integration
+- 5.5c Techniques to Minimize Aliasing and Wrap-around
+
+- Section: 5.6 Numerical Methods Used in Wavenumber Integration:
+subsections:
+- 5.6a Introduction to Numerical Methods
+- 5.6b Finite Difference and Finite Element Methods
+- 5.6c Applications and Case Studies
+
+- Chapter 6: Normal Modes:
+sections:
+- Section: 6.1 Mathematical Derivation:
+subsections:
+- 6.1a Introduction to Normal Modes
+- 6.1b Mathematical Derivation of Normal Modes
+- 6.1c Applications in Ocean Acoustics
+
+- Section: 6.2 Model Expansion of the Green's Function:
+subsections:
+- 6.2a Introduction to Model Expansion
+- 6.2b Application of Green's Function in Model Expansion
+- 6.2c Case Studies
+
+- Section: 6.3 Isovelocity Problem:
+subsections:
+- 6.3a Introduction to Isovelocity Problem
+- 6.3b Mathematical Representation
+- 6.3c Solutions and Applications
+
+- Section: 6.4 Generalized Derivation:
+subsections:
+- 6.4a Introduction to Generalized Derivation
+- 6.4b Mathematical Approach
+- 6.4c Applications in Ocean Acoustics
+
+- Section: 6.5 Munk Profile:
+subsections:
+- 6.5a Introduction to Munk Profile
+- 6.5b Mathematical Representation
+- 6.5c Applications and Case Studies
+
+- Section: 6.6 Numerical Approaches:
+subsections:
+- 6.6a Introduction to Numerical Approaches
+- 6.6b Techniques and Methods
+- 6.6c Applications in Ocean Acoustics
+
+- Section: 6.7 Numerical Procedures:
+subsections:
+- 6.7a Introduction to Numerical Procedures
+- 6.7b Steps and Techniques
+- 6.7c Applications and Case Studies
+
+- Section: 6.8 Range-dependent Environment:
+subsections:
+- 6.8a Introduction to Range-dependent Environment
+- 6.8b Mathematical Representation
+- 6.8c Applications in Ocean Acoustics
+
+- Section: 6.9 Coupled Modes:
+subsections:
+- 6.9a Introduction to Coupled Modes
+- 6.9b Mathematical Representation
+- 6.9c Applications and Case Studies
+
+- Section: 6.10 3-D Environment:
+subsections:
+- 6.10a Introduction to 3-D Environment
+- 6.10b Mathematical Representation
+- 6.10c Applications in Ocean Acoustics
+
+- Chapter 7: Parabolic Equation:
+sections:
+- Section: 7.1 Derivation of Parabolic Equations:
+subsections:
+- 7.1a Introduction to Parabolic Equations
+- 7.1b Derivation and Solutions
+- 7.1c Applications in Ocean Acoustics
+
+- Section: 7.2 Starting Fields:
+subsections:
+- 7.2a Introduction to Starting Fields
+- 7.2b Mathematical Representation
+- 7.2c Applications in Ocean Acoustics
+
+- Section: 7.3 Energy Conservation Problem:
+subsections:
+- 7.3a Introduction to Energy Conservation Problem
+- 7.3b Mathematical Representation
+- 7.3c Solutions and Applications
+
+- Section: 7.4 Solutions by FDs FEs:
+subsections:
+- 7.4a Introduction to FDs FEs
+- 7.4b Mathematical Representation
+- 7.4c Applications in Ocean Acoustics
+
+- Chapter 8: Doppler Shift in Waveguide:
+sections:
+- Section: 8.1 Introduction to Doppler Shift:
+subsections:
+- 8.1a Basics of Doppler Shift
+- 8.1b Doppler Shift in Waveguide
+- 8.1c Applications and Case Studies
+
+- Chapter 9: Time Series Simulation:
+sections:
+- Section: 9.1 Signal and Noise:
+subsections:
+- 9.1a Introduction to Signal and Noise
+- 9.1b Mathematical Representation
+- 9.1c Applications in Ocean Acoustics
+
+- Chapter 10: Advanced Topics in Ocean Acoustics:
+sections:
+- Section: 10.1 Acoustic Tomography:
+subsections:
+- 10.1a Introduction to Acoustic Tomography
+- 10.1b Mathematical Representation
+- 10.1c Applications and Case Studies
+
+- Section: 10.2 Ambient Noise in the Ocean:
+subsections:
+- 10.2a Introduction to Ambient Noise
+- 10.2b Causes and Characteristics
+- 10.2c Effects on Acoustic Signal Propagation
+
+- Section: 10.3 Acoustic Scattering:
+subsections:
+- 10.3a Introduction to Acoustic Scattering
+- 10.3b Mathematical Representation
+- 10.3c Applications in Ocean Acoustics
+
+- Section: 10.4 Underwater Acoustic Communication:
+subsections:
+- 10.4a Introduction to Underwater Acoustic Communication
+- 10.4b Challenges and Solutions
+- 10.4c Recent Advances and Developments
+
+- Chapter 11: Mathematical Methods in Ocean Acoustics:
+sections:
+- Section: 11.1 Differential Equations in Ocean Acoustics:
+subsections:
+- 11.1a Introduction to Differential Equations
+- 11.1b Solutions and Applications
+- 11.1c Case Studies
+
+- Section: 11.2 Integral Equations in Ocean Acoustics:
+subsections:
+- 11.2a Introduction to Integral Equations
+- 11.2b Solutions and Applications
+- 11.2c Case Studies
+
+- Section: 11.3 Numerical Methods in Ocean Acoustics:
+subsections:
+- 11.3a Introduction to Numerical Methods
+- 11.3b Techniques and Challenges
+- 11.3c Applications and Case Studies
+
+- Chapter 12: Experimental Techniques in Ocean Acoustics:
+sections:
+- Section: 12.1 Acoustic Measurement Techniques:
+subsections:
+- 12.1a Introduction to Acoustic Measurement Techniques
+- 12.1b Equipment and Procedures
+- 12.1c Applications and Case Studies
+
+- Section: 12.2 Data Analysis Techniques:
+subsections:
+- 12.2a Introduction to Data Analysis Techniques
+- 12.2b Techniques and Tools
+- 12.2c Applications and Case Studies
+
+- Section: 12.3 Experimental Design in Ocean Acoustics:
+subsections:
+- 12.3a Introduction to Experimental Design
+- 12.3b Planning and Execution
+- 12.3c Case Studies
+
+- Chapter 13: Applications of Ocean Acoustics:
+sections:
+- Section: 13.1 Ocean Exploration:
+subsections:
+- 13.1a Introduction to Ocean Exploration
+- 13.1b Role of Acoustics in Ocean Exploration
+- 13.1c Case Studies
+
+- Section: 13.2 Underwater Communication:
+subsections:
+- 13.2a Introduction to Underwater Communication
+- 13.2b Role of Acoustics in Underwater Communication
+- 13.2c Case Studies
+
+- Section: 13.3 Marine Life Studies:
+subsections:
+- 13.3a Introduction to Marine Life Studies
+- 13.3b Role of Acoustics in Marine Life Studies
+- 13.3c Case Studies
+
+- Chapter 14: Future Directions in Ocean Acoustics:
+sections:
+- Section: 14.1 Technological Advances:
+subsections:
+- 14.1a Introduction to Technological Advances
+- 14.1b Impact on Ocean Acoustics
+- 14.1c Future Prospects
+
+- Section: 14.2 Environmental Considerations:
+subsections:
+- 14.2a Introduction to Environmental Considerations
+- 14.2b Impact on Ocean Acoustics
+- 14.2c Future Prospects
+
+- Section: 14.3 Policy and Regulation:
+subsections:
+- 14.3a Introduction to Policy and Regulation
+- 14.3b Impact on Ocean Acoustics
+- 14.3c Future Prospects
+
+- Chapter 15: Review and Summary:
+sections:
+- Section: 15.1 Review of Key Concepts:
+subsections:
+- 15.1a Review of Fundamental Concepts
+- 15.1b Review of Mathematical Methods
+- 15.1c Review of Applications
+
+- Section: 15.2 Summary of Key Findings:
+subsections:
+- 15.2a Summary of Experimental Findings
+- 15.2b Summary of Theoretical Developments
+- 15.2c Summary of Applications
+
+- Section: 15.3 Future Directions:
+subsections:
+- 15.3a Future Research Directions
+- 15.3b Future Technological Developments
+- 15.3c Future Applications
+
+- Chapter 16: Appendices:
+sections:
+- Section: 16.1 Mathematical Appendices:
+subsections:
+- 16.1a Additional Mathematical Concepts
+- 16.1b Mathematical Proofs
+- 16.1c Mathematical Exercises
+
+- Section: 16.2 Experimental Appendices:
+subsections:
+- 16.2a Additional Experimental Techniques
+- 16.2b Experimental Data
+- 16.2c Experimental Exercises
+
+- Section: 16.3 Theoretical Appendices:
+subsections:
+- 16.3a Additional Theoretical Concepts
+- 16.3b Theoretical Proofs
+- 16.3c Theoretical Exercises
+
+- Chapter 17: Glossary:
+sections:
+- Section: 17.1 Glossary of Terms:
+subsections:
+- 17.1a A to G
+- 17.1b H to N
+- 17.1c O to Z
+
+- Chapter 18: Index:
+sections:
+- Section: 18.1 Index of Terms:
+subsections:
+- 18.1a A to G
+- 18.1b H to N
+- 18.1c O to Z
+
+- Chapter 19: References:
+sections:
+- Section: 19.1 References:
+subsections:
+- 19.1a A to G
+- 19.1b H to N
+- 19.1c O to Z
+
+- Chapter 20: About the Authors:
+sections:
+- Section: 20.1 Author Biographies:
+subsections:
+- 20.1a Author 1
+- 20.1b Author 2
+- 20.1c Author 3

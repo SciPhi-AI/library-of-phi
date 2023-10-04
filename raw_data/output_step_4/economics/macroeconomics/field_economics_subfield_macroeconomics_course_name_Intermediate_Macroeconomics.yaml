@@ -1,0 +1,423 @@
+textbook:
+  'Intermediate Macroeconomics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Macroeconomics:':
+        sections:
+        - '- Section: 1.1 Solow Model:':
+            subsections:
+            - 1.1a Basic Principles of Solow Model
+            - 1.1b Application of Solow Model
+            - 1.1c Limitations of Solow Model
+        - '- Section: 1.2 Consumption and Saving:':
+            subsections:
+            - 1.2a Factors Influencing Consumption and Saving
+            - 1.2b Consumption and Saving Models
+            - 1.2c Consumption and Saving in Macroeconomic Analysis
+        - '- Section: 1.3 Labor Supply:':
+            subsections:
+            - 1.3a Determinants of Labor Supply
+            - 1.3b Labor Supply Curve
+            - 1.3c Labor Supply in Macroeconomic Analysis
+        - '- Section: 1.4 The Neoclassical Growth Model:':
+            subsections:
+            - 1.4a Basic Principles of Neoclassical Growth Model
+            - 1.4b Application of Neoclassical Growth Model
+            - 1.4c Limitations of Neoclassical Growth Model
+    - '- Chapter 2: Fiscal Policy and Redistribution:':
+        sections:
+        - '- Section: 2.1 Taxation:':
+            subsections:
+            - 2.1a Types of Taxes
+            - 2.1b Impact of Taxation on Economy
+            - 2.1c Taxation in Macroeconomic Analysis
+        - '- Section: 2.2 Public Debt:':
+            subsections:
+            - 2.2a Causes of Public Debt
+            - 2.2b Impact of Public Debt on Economy
+            - 2.2c Public Debt in Macroeconomic Analysis
+        - '- Section: 2.3 Ricardian Equivalence:':
+            subsections:
+            - 2.3a Basic Principles of Ricardian Equivalence
+            - 2.3b Application of Ricardian Equivalence
+            - 2.3c Limitations of Ricardian Equivalence
+        - '- Section: 2.4 Redistribution:':
+            subsections:
+            - 2.4a Methods of Redistribution
+            - 2.4b Impact of Redistribution on Economy
+            - 2.4c Redistribution in Macroeconomic Analysis
+    - '- Chapter 3: Monetary Policy:':
+        sections:
+        - '- Section: 3.1 Stabilization Policies:':
+            subsections:
+            - 3.1a Types of Stabilization Policies
+            - 3.1b Impact of Stabilization Policies on Economy
+            - 3.1c Stabilization Policies in Macroeconomic Analysis
+        - '- Section: 3.2 Rules vs. Discretion:':
+            subsections:
+            - 3.2a Basic Principles of Rules vs. Discretion
+            - 3.2b Application of Rules vs. Discretion
+            - 3.2c Limitations of Rules vs. Discretion
+        - '- Section: 3.3 Central Banks and Monetary Authorities:':
+            subsections:
+            - 3.3a Role of Central Banks and Monetary Authorities
+            - 3.3b Impact of Central Banks and Monetary Authorities on Economy
+            - 3.3c Central Banks and Monetary Authorities in Macroeconomic Analysis
+        - '- Section: 3.4 Money Supply and Interest Rates:':
+            subsections:
+            - 3.4a Relationship between Money Supply and Interest Rates
+            - 3.4b Impact of Money Supply and Interest Rates on Economy
+            - 3.4c Money Supply and Interest Rates in Macroeconomic Analysis
+    - '- Chapter 4: Financial Crises and Coordination Failures:':
+        sections:
+        - '- Section: 4.1 Causes of Financial Crises:':
+            subsections:
+            - 4.1a Common Causes of Financial Crises
+            - 4.1b Impact of Financial Crises on Economy
+            - 4.1c Financial Crises in Macroeconomic Analysis
+        - '- Section: 4.2 Coordination Failures:':
+            subsections:
+            - 4.2a Basic Principles of Coordination Failures
+            - 4.2b Impact of Coordination Failures on Economy
+            - 4.2c Coordination Failures in Macroeconomic Analysis
+        - '- Section: 4.3 Banking and Financial Institutions:':
+            subsections:
+            - 4.3a Role of Banking and Financial Institutions
+            - 4.3b Impact of Banking and Financial Institutions on Economy
+            - 4.3c Banking and Financial Institutions in Macroeconomic Analysis
+        - '- Section: 4.4 Financial Regulation and Supervision:':
+            subsections:
+            - 4.4a Importance of Financial Regulation and Supervision
+            - 4.4b Impact of Financial Regulation and Supervision on Economy
+            - 4.4c Financial Regulation and Supervision in Macroeconomic Analysis
+    - '- Chapter 5: Macroeconomic Policy Tools:':
+        sections:
+        - '- Section: 5.1 Monetary Policy:':
+            subsections:
+            - 5.1a Basic Principles of Monetary Policy
+            - 5.1b Application of Monetary Policy
+            - 5.1c Limitations of Monetary Policy
+        - '- Section: 5.2 Fiscal Policy:':
+            subsections:
+            - 5.2a Basic Principles of Fiscal Policy
+            - 5.2b Application of Fiscal Policy
+            - 5.2c Limitations of Fiscal Policy
+        - '- Section: 5.3 Exchange Rate Policy:':
+            subsections:
+            - 5.3a Basic Principles of Exchange Rate Policy
+            - 5.3b Application of Exchange Rate Policy
+            - 5.3c Limitations of Exchange Rate Policy
+        - '- Section: 5.4 Open Market Operations:':
+            subsections:
+            - 5.4a Basic Principles of Open Market Operations
+            - 5.4b Application of Open Market Operations
+            - 5.4c Limitations of Open Market Operations
+    - '- Chapter 6: Macroeconomic Policy in Open Economies:':
+        sections:
+        - '- Section: 6.1 Balance of Payments:':
+            subsections:
+            - 6.1a Basic Principles of Balance of Payments
+            - 6.1b Application of Balance of Payments
+            - 6.1c Limitations of Balance of Payments
+        - '- Section: 6.2 International Capital Flows:':
+            subsections:
+            - 6.2a Basic Principles of International Capital Flows
+            - 6.2b Application of International Capital Flows
+            - 6.2c Limitations of International Capital Flows
+        - '- Section: 6.3 Exchange Rates:':
+            subsections:
+            - 6.3a Basic Principles of Exchange Rates
+            - 6.3b Application of Exchange Rates
+            - 6.3c Limitations of Exchange Rates
+        - '- Section: 6.4 Currency Crises:':
+            subsections:
+            - 6.4a Causes of Currency Crises
+            - 6.4b Impact of Currency Crises on Economy
+            - 6.4c Currency Crises in Macroeconomic Analysis
+    - '- Chapter 7: Inflation and Unemployment:':
+        sections:
+        - '- Section: 7.1 Phillips Curve:':
+            subsections:
+            - 7.1a Basic Principles of Phillips Curve
+            - 7.1b Application of Phillips Curve
+            - 7.1c Limitations of Phillips Curve
+        - '- Section: 7.2 Natural Rate of Unemployment:':
+            subsections:
+            - 7.2a Basic Principles of Natural Rate of Unemployment
+            - 7.2b Application of Natural Rate of Unemployment
+            - 7.2c Limitations of Natural Rate of Unemployment
+        - '- Section: 7.3 Inflationary Expectations:':
+            subsections:
+            - 7.3a Basic Principles of Inflationary Expectations
+            - 7.3b Application of Inflationary Expectations
+            - 7.3c Limitations of Inflationary Expectations
+        - '- Section: 7.4 Wage Determination and Labor Markets:':
+            subsections:
+            - 7.4a Basic Principles of Wage Determination
+            - 7.4b Application of Wage Determination
+            - 7.4c Limitations of Wage Determination
+    - '- Chapter 8: Economic Growth and Development:':
+        sections:
+        - '- Section: 8.1 Sources of Economic Growth:':
+            subsections:
+            - 8.1a Basic Principles of Economic Growth
+            - 8.1b Application of Economic Growth
+            - 8.1c Limitations of Economic Growth
+        - '- Section: 8.2 Human Capital:':
+            subsections:
+            - 8.2a Basic Principles of Human Capital
+            - 8.2b Application of Human Capital
+            - 8.2c Limitations of Human Capital
+        - '- Section: 8.3 Technological Progress:':
+            subsections:
+            - 8.3a Basic Principles of Technological Progress
+            - 8.3b Application of Technological Progress
+            - 8.3c Limitations of Technological Progress
+        - '- Section: 8.4 Poverty and Inequality:':
+            subsections:
+            - 8.4a Basic Principles of Poverty and Inequality
+            - 8.4b Application of Poverty and Inequality
+            - 8.4c Limitations of Poverty and Inequality
+    - '- Chapter 9: Macroeconomic Models:':
+        sections:
+        - '- Section: 9.1 Aggregate Demand and Supply:':
+            subsections:
+            - 9.1a Basic Principles of Aggregate Demand and Supply
+            - 9.1b Application of Aggregate Demand and Supply
+            - 9.1c Limitations of Aggregate Demand and Supply
+        - '- Section: 9.2 IS-LM Model:':
+            subsections:
+            - 9.2a Basic Principles of IS-LM Model
+            - 9.2b Application of IS-LM Model
+            - 9.2c Limitations of IS-LM Model
+        - '- Section: 9.3 AD-AS Model:':
+            subsections:
+            - 9.3a Basic Principles of AD-AS Model
+            - 9.3b Application of AD-AS Model
+            - 9.3c Limitations of AD-AS Model
+        - '- Section: 9.4 New Keynesian Model:':
+            subsections:
+            - 9.4a Basic Principles of New Keynesian Model
+            - 9.4b Application of New Keynesian Model
+            - 9.4c Limitations of New Keynesian Model
+    - '- Chapter 10: Macroeconomic Policy Challenges:':
+        sections:
+        - '- Section: 10.1 Trade-off between Inflation and Unemployment:':
+            subsections:
+            - 10.1a Basic Principles of Trade-off
+            - 10.1b Application of Trade-off
+            - 10.1c Limitations of Trade-off
+        - '- Section: 10.2 Financial Stability:':
+            subsections:
+            - 10.2a Basic Principles of Financial Stability
+            - 10.2b Application of Financial Stability
+            - 10.2c Limitations of Financial Stability
+        - '- Section: 10.3 Sustainable Economic Growth:':
+            subsections:
+            - 10.3a Basic Principles of Sustainable Economic Growth
+            - 10.3b Application of Sustainable Economic Growth
+            - 10.3c Limitations of Sustainable Economic Growth
+        - '- Section: 10.4 Income Distribution:':
+            subsections:
+            - 10.4a Basic Principles of Income Distribution
+            - 10.4b Application of Income Distribution
+            - 10.4c Limitations of Income Distribution
+    - '- Chapter 11: Macroeconomic Policy in Open Economies:':
+        sections:
+        - '- Section: 11.1 Balance of Payments:':
+            subsections:
+            - 11.1a Basic Principles of Balance of Payments
+            - 11.1b Application of Balance of Payments
+            - 11.1c Limitations of Balance of Payments
+        - '- Section: 11.2 International Capital Flows:':
+            subsections:
+            - 11.2a Basic Principles of International Capital Flows
+            - 11.2b Application of International Capital Flows
+            - 11.2c Limitations of International Capital Flows
+        - '- Section: 11.3 Exchange Rates:':
+            subsections:
+            - 11.3a Basic Principles of Exchange Rates
+            - 11.3b Application of Exchange Rates
+            - 11.3c Limitations of Exchange Rates
+        - '- Section: 11.4 Currency Crises:':
+            subsections:
+            - 11.4a Causes of Currency Crises
+            - 11.4b Impact of Currency Crises on Economy
+            - 11.4c Currency Crises in Macroeconomic Analysis
+    - '- Chapter 12: Inflation and Unemployment:':
+        sections:
+        - '- Section: 12.1 Phillips Curve:':
+            subsections:
+            - 12.1a Basic Principles of Phillips Curve
+            - 12.1b Application of Phillips Curve
+            - 12.1c Limitations of Phillips Curve
+        - '- Section: 12.2 Natural Rate of Unemployment:':
+            subsections:
+            - 12.2a Basic Principles of Natural Rate of Unemployment
+            - 12.2b Application of Natural Rate of Unemployment
+            - 12.2c Limitations of Natural Rate of Unemployment
+        - '- Section: 12.3 Inflationary Expectations:':
+            subsections:
+            - 12.3a Basic Principles of Inflationary Expectations
+            - 12.3b Application of Inflationary Expectations
+            - 12.3c Limitations of Inflationary Expectations
+        - '- Section: 12.4 Wage Determination and Labor Markets:':
+            subsections:
+            - 12.4a Basic Principles of Wage Determination
+            - 12.4b Application of Wage Determination
+            - 12.4c Limitations of Wage Determination
+    - '- Chapter 13: Economic Growth and Development:':
+        sections:
+        - '- Section: 13.1 Sources of Economic Growth:':
+            subsections:
+            - 13.1a Basic Principles of Economic Growth
+            - 13.1b Application of Economic Growth
+            - 13.1c Limitations of Economic Growth
+        - '- Section: 13.2 Human Capital:':
+            subsections:
+            - 13.2a Basic Principles of Human Capital
+            - 13.2b Application of Human Capital
+            - 13.2c Limitations of Human Capital
+        - '- Section: 13.3 Technological Progress:':
+            subsections:
+            - 13.3a Basic Principles of Technological Progress
+            - 13.3b Application of Technological Progress
+            - 13.3c Limitations of Technological Progress
+        - '- Section: 13.4 Poverty and Inequality:':
+            subsections:
+            - 13.4a Basic Principles of Poverty and Inequality
+            - 13.4b Application of Poverty and Inequality
+            - 13.4c Limitations of Poverty and Inequality
+    - '- Chapter 14: Macroeconomic Models:':
+        sections:
+        - '- Section: 14.1 Aggregate Demand and Supply:':
+            subsections:
+            - 14.1a Basic Principles of Aggregate Demand and Supply
+            - 14.1b Application of Aggregate Demand and Supply
+            - 14.1c Limitations of Aggregate Demand and Supply
+        - '- Section: 14.2 IS-LM Model:':
+            subsections:
+            - 14.2a Basic Principles of IS-LM Model
+            - 14.2b Application of IS-LM Model
+            - 14.2c Limitations of IS-LM Model
+        - '- Section: 14.3 AD-AS Model:':
+            subsections:
+            - 14.3a Basic Principles of AD-AS Model
+            - 14.3b Application of AD-AS Model
+            - 14.3c Limitations of AD-AS Model
+        - '- Section: 14.4 New Keynesian Model:':
+            subsections:
+            - 14.4a Basic Principles of New Keynesian Model
+            - 14.4b Application of New Keynesian Model
+            - 14.4c Limitations of New Keynesian Model
+    - '- Chapter 15: Macroeconomic Policy Challenges:':
+        sections:
+        - '- Section: 15.1 Trade-off between Inflation and Unemployment:':
+            subsections:
+            - 15.1a Basic Principles of Trade-off
+            - 15.1b Application of Trade-off
+            - 15.1c Limitations of Trade-off
+        - '- Section: 15.2 Financial Stability:':
+            subsections:
+            - 15.2a Basic Principles of Financial Stability
+            - 15.2b Application of Financial Stability
+            - 15.2c Limitations of Financial Stability
+        - '- Section: 15.3 Sustainable Economic Growth:':
+            subsections:
+            - 15.3a Basic Principles of Sustainable Economic Growth
+            - 15.3b Application of Sustainable Economic Growth
+            - 15.3c Limitations of Sustainable Economic Growth
+        - '- Section: 15.4 Income Distribution:':
+            subsections:
+            - 15.4a Basic Principles of Income Distribution
+            - 15.4b Application of Income Distribution
+            - 15.4c Limitations of Income Distribution
+    - '- Chapter 16: Macroeconomic Policy in Open Economies:':
+        sections:
+        - '- Section: 16.1 Balance of Payments:':
+            subsections:
+            - 16.1a Basic Principles of Balance of Payments
+            - 16.1b Application of Balance of Payments
+            - 16.1c Limitations of Balance of Payments
+        - '- Section: 16.2 International Capital Flows:':
+            subsections:
+            - 16.2a Basic Principles of International Capital Flows
+            - 16.2b Application of International Capital Flows
+            - 16.2c Limitations of International Capital Flows
+        - '- Section: 16.3 Exchange Rates:':
+            subsections:
+            - 16.3a Basic Principles of Exchange Rates
+            - 16.3b Application of Exchange Rates
+            - 16.3c Limitations of Exchange Rates
+        - '- Section: 16.4 Currency Crises:':
+            subsections:
+            - 16.4a Causes of Currency Crises
+            - 16.4b Impact of Currency Crises on Economy
+            - 16.4c Currency Crises in Macroeconomic Analysis
+    - '- Chapter 17: Inflation and Unemployment:':
+        sections:
+        - '- Section: 17.1 Phillips Curve:':
+            subsections:
+            - 17.1a Basic Principles of Phillips Curve
+            - 17.1b Application of Phillips Curve
+            - 17.1c Limitations of Phillips Curve
+        - '- Section: 17.2 Natural Rate of Unemployment:':
+            subsections:
+            - 17.2a Basic Principles of Natural Rate of Unemployment
+            - 17.2b Application of Natural Rate of Unemployment
+            - 17.2c Limitations of Natural Rate of Unemployment
+        - '- Section: 17.3 Inflationary Expectations:':
+            subsections:
+            - 17.3a Basic Principles of Inflationary Expectations
+            - 17.3b Application of Inflationary Expectations
+            - 17.3c Limitations of Inflationary Expectations
+        - '- Section: 17.4 Wage Determination and Labor Markets:':
+            subsections:
+            - 17.4a Basic Principles of Wage Determination
+            - 17.4b Application of Wage Determination
+            - 17.4c Limitations of Wage Determination
+    - '- Chapter 18: Economic Growth and Development:':
+        sections:
+        - '- Section: 18.1 Sources of Economic Growth:':
+            subsections:
+            - 18.1a Basic Principles of Economic Growth
+            - 18.1b Application of Economic Growth
+            - 18.1c Limitations of Economic Growth
+        - '- Section: 18.2 Human Capital:':
+            subsections:
+            - 18.2a Basic Principles of Human Capital
+            - 18.2b Application of Human Capital
+            - 18.2c Limitations of Human Capital
+        - '- Section: 18.3 Technological Progress:':
+            subsections:
+            - 18.3a Basic Principles of Technological Progress
+            - 18.3b Application of Technological Progress
+            - 18.3c Limitations of Technological Progress
+        - '- Section: 18.4 Poverty and Inequality:':
+            subsections:
+            - 18.4a Basic Principles of Poverty and Inequality
+            - 18.4b Application of Poverty and Inequality
+            - 18.4c Limitations of Poverty and Inequality
+    - '- Chapter 19: Macroeconomic Models:':
+        sections:
+        - '- Section: 19.1 Aggregate Demand and Supply:':
+            subsections:
+            - 19.1a Basic Principles of Aggregate Demand and Supply
+            - 19.1b Application of Aggregate Demand and Supply
+            - 19.1c Limitations of Aggregate Demand and Supply
+        - '- Section: 19.2 IS-LM Model:':
+            subsections:
+            - 19.2a Basic Principles of IS-LM Model
+            - 19.2b Application of IS-LM Model
+            - 19.2c Limitations of IS-LM Model
+        - '- Section: 19.3 AD-AS Model:':
+            subsections:
+            - 19.3a Basic Principles of AD-AS Model
+            - 19.3b Application of AD-AS Model
+            - 19.3c Limitations of AD-AS Model
+        - '- Section: 19.4 New Keynesian Model:':
+            subsections:
+            - 19.4a Basic Principles of New Keynesian Model
+            - 19.4b Application of New Keynesian Model
+            - 19.4c Limitations of New Keynesian Model
+    - '- Chapter 20: Macroeconomic Policy Challenges':
+        sections: []

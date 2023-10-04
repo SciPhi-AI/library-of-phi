@@ -1,0 +1,203 @@
+textbook:
+  'Building Programming Experience: A Lead-In to 6.001":':
+    chapters:
+    - '- Chapter 1: Introduction and Basic Scheme:':
+        sections:
+        - '- Section: 1.1 Macros:':
+            subsections:
+            - 1.1a Introduction to Macros
+            - 1.1b Macros in Scheme
+            - 1.1c Applications of Macros
+        - '- Section: 1.2 Student Notes:':
+            subsections:
+            - 1.2a Understanding Student Notes
+            - 1.2b Importance of Student Notes
+            - 1.2c Solutions to Student Notes
+    - '- Chapter 2: Procedures and Recursion:':
+        sections:
+        - '- Section: 2.1 Understanding Procedures:':
+            subsections:
+            - 2.1a Definition of Procedures
+            - 2.1b Procedures in Scheme
+            - 2.1c Applications of Procedures
+        - '- Section: 2.2 Recursion:':
+            subsections:
+            - 2.2a Introduction to Recursion
+            - 2.2b Recursion in Scheme
+            - 2.2c Applications of Recursion
+    - '- Chapter 3: More Procedures:':
+        sections:
+        - '- Section: 3.1 Advanced Procedures:':
+            subsections:
+            - 3.1a Understanding Advanced Procedures
+            - 3.1b Advanced Procedures in Scheme
+            - 3.1c Applications of Advanced Procedures
+        - '- Section: 3.2 Student Notes:':
+            subsections:
+            - 3.2a Understanding Student Notes
+            - 3.2b Importance of Student Notes
+            - 3.2c Solutions to Student Notes
+    - '- Chapter 4: Sugar, Recursive/Iterative, Basic Lists:':
+        sections:
+        - '- Section: 4.1 Sugar:':
+            subsections:
+            - 4.1a Introduction to Sugar
+            - 4.1b Sugar in Scheme
+            - 4.1c Applications of Sugar
+        - '- Section: 4.2 Recursive/Iterative:':
+            subsections:
+            - 4.2a Understanding Recursive/Iterative
+            - 4.2b Recursive/Iterative in Scheme
+            - 4.2c Applications of Recursive/Iterative
+        - '- Section: 4.3 Basic Lists:':
+            subsections:
+            - 4.3a Introduction to Basic Lists
+            - 4.3b Basic Lists in Scheme
+            - 4.3c Applications of Basic Lists
+    - '- Chapter 5: List Procedures, Data Abstraction:':
+        sections:
+        - '- Section: 5.1 List Procedures:':
+            subsections:
+            - 5.1a Understanding List Procedures
+            - 5.1b List Procedures in Scheme
+            - 5.1c Applications of List Procedures
+        - '- Section: 5.2 Data Abstraction:':
+            subsections:
+            - 5.2a Introduction to Data Abstraction
+            - 5.2b Data Abstraction in Scheme
+            - 5.2c Applications of Data Abstraction
+    - '- Chapter 6: Higher Order Procedures, Types, Nimrod:':
+        sections:
+        - '- Section: 6.1 Higher Order Procedures:':
+            subsections:
+            - 6.1a Understanding Higher Order Procedures
+            - 6.1b Higher Order Procedures in Scheme
+            - 6.1c Applications of Higher Order Procedures
+        - '- Section: 6.2 Types:':
+            subsections:
+            - 6.2a Understanding Types
+            - 6.2b Types in Scheme
+            - 6.2c Applications of Types
+        - '- Section: 6.3 Nimrod:':
+            subsections:
+            - 6.3a Introduction to Nimrod
+            - 6.3b Nimrod in Scheme
+            - 6.3c Applications of Nimrod
+    - '- Chapter 7: Quiz 1:':
+        sections:
+        - '- Section: 7.1 Understanding Quiz 1:':
+            subsections:
+            - 7.1a Introduction to Quiz 1
+            - 7.1b Quiz 1 in Scheme
+            - 7.1c Solutions to Quiz 1
+    - '- Chapter 8: Tags, Association Lists, Trees:':
+        sections:
+        - '- Section: 8.1 Tags:':
+            subsections:
+            - 8.1a Understanding Tags
+            - 8.1b Tags in Scheme
+            - 8.1c Applications of Tags
+        - '- Section: 8.2 Association Lists:':
+            subsections:
+            - 8.2a Understanding Association Lists
+            - 8.2b Association Lists in Scheme
+            - 8.2c Applications of Association Lists
+        - '- Section: 8.3 Trees:':
+            subsections:
+            - 8.3a Introduction to Trees
+            - 8.3b Trees in Scheme
+            - 8.3c Applications of Trees
+    - '- Chapter 9: Henderson Picture Language:':
+        sections:
+        - '- Section: 9.1 Understanding Henderson Picture Language:':
+            subsections:
+            - 9.1a Introduction to Henderson Picture Language
+            - 9.1b Henderson Picture Language in Scheme
+            - 9.1c Applications of Henderson Picture Language
+    - '- Chapter 10: Advanced Scheme:':
+        sections:
+        - '- Section: 10.1 Advanced Macros:':
+            subsections:
+            - 10.1a Understanding Advanced Macros
+            - 10.1b Advanced Macros in Scheme
+            - 10.1c Applications of Advanced Macros
+        - '- Section: 10.2 Advanced Procedures:':
+            subsections:
+            - 10.2a Understanding Advanced Procedures
+            - 10.2b Advanced Procedures in Scheme
+            - 10.2c Applications of Advanced Procedures
+    - '- Chapter 11: Advanced Recursion:':
+        sections:
+        - '- Section: 11.1 Understanding Advanced Recursion:':
+            subsections:
+            - 11.1a Introduction to Advanced Recursion
+            - 11.1b Advanced Recursion in Scheme
+            - 11.1c Applications of Advanced Recursion
+    - '- Chapter 12: Advanced Lists:':
+        sections:
+        - '- Section: 12.1 Advanced List Procedures:':
+            subsections:
+            - 12.1a Understanding Advanced List Procedures
+            - 12.1b Advanced List Procedures in Scheme
+            - 12.1c Applications of Advanced List Procedures
+        - '- Section: 12.2 Advanced Data Abstraction:':
+            subsections:
+            - 12.2a Understanding Advanced Data Abstraction
+            - 12.2b Advanced Data Abstraction in Scheme
+            - 12.2c Applications of Advanced Data Abstraction
+    - '- Chapter 13: Advanced Higher Order Procedures:':
+        sections:
+        - '- Section: 13.1 Understanding Advanced Higher Order Procedures:':
+            subsections:
+            - 13.1a Introduction to Advanced Higher Order Procedures
+            - 13.1b Advanced Higher Order Procedures in Scheme
+            - 13.1c Applications of Advanced Higher Order Procedures
+    - '- Chapter 14: Advanced Types:':
+        sections:
+        - '- Section: 14.1 Understanding Advanced Types:':
+            subsections:
+            - 14.1a Introduction to Advanced Types
+            - 14.1b Advanced Types in Scheme
+            - 14.1c Applications of Advanced Types
+    - '- Chapter 15: Advanced Nimrod:':
+        sections:
+        - '- Section: 15.1 Understanding Advanced Nimrod:':
+            subsections:
+            - 15.1a Introduction to Advanced Nimrod
+            - 15.1b Advanced Nimrod in Scheme
+            - 15.1c Applications of Advanced Nimrod
+    - '- Chapter 16: Quiz 2:':
+        sections:
+        - '- Section: 16.1 Understanding Quiz 2:':
+            subsections:
+            - 16.1a Introduction to Quiz 2
+            - 16.1b Quiz 2 in Scheme
+            - 16.1c Solutions to Quiz 2
+    - '- Chapter 17: Advanced Tags:':
+        sections:
+        - '- Section: 17.1 Understanding Advanced Tags:':
+            subsections:
+            - 17.1a Introduction to Advanced Tags
+            - 17.1b Advanced Tags in Scheme
+            - 17.1c Applications of Advanced Tags
+    - '- Chapter 18: Advanced Association Lists:':
+        sections:
+        - '- Section: 18.1 Understanding Advanced Association Lists:':
+            subsections:
+            - 18.1a Introduction to Advanced Association Lists
+            - 18.1b Advanced Association Lists in Scheme
+            - 18.1c Applications of Advanced Association Lists
+    - '- Chapter 19: Advanced Trees:':
+        sections:
+        - '- Section: 19.1 Understanding Advanced Trees:':
+            subsections:
+            - 19.1a Introduction to Advanced Trees
+            - 19.1b Advanced Trees in Scheme
+            - 19.1c Applications of Advanced Trees
+    - '- Chapter 20: Advanced Henderson Picture Language:':
+        sections:
+        - '- Section: 20.1 Understanding Advanced Henderson Picture Language:':
+            subsections:
+            - 20.1a Introduction to Advanced Henderson Picture Language
+            - 20.1b Advanced Henderson Picture Language in Scheme
+            - 20.1c Applications of Advanced Henderson Picture Language

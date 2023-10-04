@@ -1,0 +1,352 @@
+textbook:
+  'Principles of Digital Communication I: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Digital Communication:':
+        sections:
+        - '- Section: 1.1 A Layered View of Digital Communication:':
+            subsections:
+            - 1.1a Introduction to Layers
+            - 1.1b Importance of Layering
+            - 1.1c Layering in Digital Communication
+    - '- Chapter 2: Discrete Source Encoding:':
+        sections:
+        - '- Section: 2.1 Memory-less Sources:':
+            subsections:
+            - 2.1a Definition of Memory-less Sources
+            - 2.1b Importance of Memory-less Sources
+            - 2.1c Memory-less Sources in Digital Communication
+        - '- Section: 2.2 Prefix Free Codes:':
+            subsections:
+            - 2.2a Definition of Prefix Free Codes
+            - 2.2b Importance of Prefix Free Codes
+            - 2.2c Prefix Free Codes in Digital Communication
+        - '- Section: 2.3 Entropy:':
+            subsections:
+            - 2.3a Definition of Entropy
+            - 2.3b Importance of Entropy
+            - 2.3c Entropy in Digital Communication
+    - '- Chapter 3: Markov Sources and Universal Codes:':
+        sections:
+        - '- Section: 3.1 Markov Sources:':
+            subsections:
+            - 3.1a Definition of Markov Sources
+            - 3.1b Importance of Markov Sources
+            - 3.1c Markov Sources in Digital Communication
+        - '- Section: 3.2 Lempel-Ziv Universal Codes:':
+            subsections:
+            - 3.2a Definition of Lempel-Ziv Universal Codes
+            - 3.2b Importance of Lempel-Ziv Universal Codes
+            - 3.2c Lempel-Ziv Universal Codes in Digital Communication
+    - '- Chapter 4: Quantization and Waveform Encoding:':
+        sections:
+        - '- Section: 4.1 Quantization:':
+            subsections:
+            - 4.1a Definition of Quantization
+            - 4.1b Importance of Quantization
+            - 4.1c Quantization in Digital Communication
+        - '- Section: 4.2 High-rate Quantizers:':
+            subsections:
+            - 4.2a Definition of High-rate Quantizers
+            - 4.2b Importance of High-rate Quantizers
+            - 4.2c High-rate Quantizers in Digital Communication
+        - '- Section: 4.3 Waveform Encoding:':
+            subsections:
+            - 4.3a Definition of Waveform Encoding
+            - 4.3b Importance of Waveform Encoding
+            - 4.3c Waveform Encoding in Digital Communication
+    - '- Chapter 5: Fourier Transforms:':
+        sections:
+        - '- Section: 5.1 Fourier Series:':
+            subsections:
+            - 5.1a Definition of Fourier Series
+            - 5.1b Importance of Fourier Series
+            - 5.1c Fourier Series in Digital Communication
+        - '- Section: 5.2 Fourier Transforms:':
+            subsections:
+            - 5.2a Definition of Fourier Transforms
+            - 5.2b Importance of Fourier Transforms
+            - 5.2c Fourier Transforms in Digital Communication
+    - '- Chapter 6: Discrete-Time Fourier Transforms:':
+        sections:
+        - '- Section: 6.1 Sampling Theorem:':
+            subsections:
+            - 6.1a Definition of Sampling Theorem
+            - 6.1b Importance of Sampling Theorem
+            - 6.1c Sampling Theorem in Digital Communication
+        - '- Section: 6.2 Discrete-time Fourier Transforms:':
+            subsections:
+            - 6.2a Definition of Discrete-time Fourier Transforms
+            - 6.2b Importance of Discrete-time Fourier Transforms
+            - 6.2c Discrete-time Fourier Transforms in Digital Communication
+    - '- Chapter 7: Signal Space and Modulation:':
+        sections:
+        - '- Section: 7.1 Degrees of Freedom:':
+            subsections:
+            - 7.1a Definition of Degrees of Freedom
+            - 7.1b Importance of Degrees of Freedom
+            - 7.1c Degrees of Freedom in Digital Communication
+        - '- Section: 7.2 Orthonormal Expansions:':
+            subsections:
+            - 7.2a Definition of Orthonormal Expansions
+            - 7.2b Importance of Orthonormal Expansions
+            - 7.2c Orthonormal Expansions in Digital Communication
+        - '- Section: 7.3 Signal Space:':
+            subsections:
+            - 7.3a Definition of Signal Space
+            - 7.3b Importance of Signal Space
+            - 7.3c Signal Space in Digital Communication
+        - '- Section: 7.4 Modulation:':
+            subsections:
+            - 7.4a Definition of Modulation
+            - 7.4b Importance of Modulation
+            - 7.4c Modulation in Digital Communication
+    - '- Chapter 8: Random Processes:':
+        sections:
+        - '- Section: 8.1 Jointly Gaussian Random Vectors and Processes:':
+            subsections:
+            - 8.1a Definition of Jointly Gaussian Random Vectors and Processes
+            - 8.1b Importance of Jointly Gaussian Random Vectors and Processes
+            - 8.1c Jointly Gaussian Random Vectors and Processes in Digital Communication
+        - '- Section: 8.2 White Gaussian Noise:':
+            subsections:
+            - 8.2a Definition of White Gaussian Noise
+            - 8.2b Importance of White Gaussian Noise
+            - 8.2c White Gaussian Noise in Digital Communication
+    - '- Chapter 9: Detection and Coding:':
+        sections:
+        - '- Section: 9.1 Linear Functionals:':
+            subsections:
+            - 9.1a Definition of Linear Functionals
+            - 9.1b Importance of Linear Functionals
+            - 9.1c Linear Functionals in Digital Communication
+        - '- Section: 9.2 Filtering of Random Processes:':
+            subsections:
+            - 9.2a Definition of Filtering of Random Processes
+            - 9.2b Importance of Filtering of Random Processes
+            - 9.2c Filtering of Random Processes in Digital Communication
+        - '- Section: 9.3 Detection for Random Vectors and Processes:':
+            subsections:
+            - 9.3a Definition of Detection for Random Vectors and Processes
+            - 9.3b Importance of Detection for Random Vectors and Processes
+            - 9.3c Detection for Random Vectors and Processes in Digital Communication
+        - '- Section: 9.4 Theorem of Irrelevance:':
+            subsections:
+            - 9.4a Definition of Theorem of Irrelevance
+            - 9.4b Importance of Theorem of Irrelevance
+            - 9.4c Theorem of Irrelevance in Digital Communication
+        - '- Section: 9.5 M-ary Detection:':
+            subsections:
+            - 9.5a Definition of M-ary Detection
+            - 9.5b Importance of M-ary Detection
+            - 9.5c M-ary Detection in Digital Communication
+        - '- Section: 9.6 Coding:':
+            subsections:
+            - 9.6a Definition of Coding
+            - 9.6b Importance of Coding
+            - 9.6c Coding in Digital Communication
+    - '- Chapter 10: Wireless Communication:':
+        sections:
+        - '- Section: 10.1 Introduction to Wireless Communication:':
+            subsections:
+            - 10.1a Definition of Wireless Communication
+            - 10.1b Importance of Wireless Communication
+            - 10.1c Wireless Communication in Digital Communication
+        - '- Section: 10.2 Discrete-time Baseband Models for Wireless Channels:':
+            subsections:
+            - 10.2a Definition of Discrete-time Baseband Models for Wireless Channels
+            - 10.2b Importance of Discrete-time Baseband Models for Wireless Channels
+            - 10.2c Discrete-time Baseband Models for Wireless Channels in Digital
+              Communication
+        - '- Section: 10.3 Doppler Spread:':
+            subsections:
+            - 10.3a Definition of Doppler Spread
+            - 10.3b Importance of Doppler Spread
+            - 10.3c Doppler Spread in Digital Communication
+        - '- Section: 10.4 Time Spread:':
+            subsections:
+            - 10.4a Definition of Time Spread
+            - 10.4b Importance of Time Spread
+            - 10.4c Time Spread in Digital Communication
+        - '- Section: 10.5 Coherence Time:':
+            subsections:
+            - 10.5a Definition of Coherence Time
+            - 10.5b Importance of Coherence Time
+            - 10.5c Coherence Time in Digital Communication
+        - '- Section: 10.6 Coherence Frequency:':
+            subsections:
+            - 10.6a Definition of Coherence Frequency
+            - 10.6b Importance of Coherence Frequency
+            - 10.6c Coherence Frequency in Digital Communication
+        - '- Section: 10.7 Detection for Flat Rayleigh Fading and Incoherent Channels:':
+            subsections:
+            - 10.7a Definition of Detection for Flat Rayleigh Fading and Incoherent
+              Channels
+            - 10.7b Importance of Detection for Flat Rayleigh Fading and Incoherent
+              Channels
+            - 10.7c Detection for Flat Rayleigh Fading and Incoherent Channels in
+              Digital Communication
+        - '- Section: 10.8 Rake Receivers:':
+            subsections:
+            - 10.8a Definition of Rake Receivers
+            - 10.8b Importance of Rake Receivers
+            - 10.8c Rake Receivers in Digital Communication
+    - '- Chapter 11: Code Division Multiple Access:':
+        sections:
+        - '- Section: 11.1 Case Study - Code Division Multiple Access:':
+            subsections:
+            - 11.1a Definition of Code Division Multiple Access
+            - 11.1b Importance of Code Division Multiple Access
+            - 11.1c Code Division Multiple Access in Digital Communication
+    - '- Chapter 12: Advanced Coding Techniques:':
+        sections:
+        - '- Section: 12.1 Error Correction Codes:':
+            subsections:
+            - 12.1a Definition of Error Correction Codes
+            - 12.1b Importance of Error Correction Codes
+            - 12.1c Error Correction Codes in Digital Communication
+        - '- Section: 12.2 Convolutional Codes:':
+            subsections:
+            - 12.2a Definition of Convolutional Codes
+            - 12.2b Importance of Convolutional Codes
+            - 12.2c Convolutional Codes in Digital Communication
+        - '- Section: 12.3 Turbo Codes:':
+            subsections:
+            - 12.3a Definition of Turbo Codes
+            - 12.3b Importance of Turbo Codes
+            - 12.3c Turbo Codes in Digital Communication
+    - '- Chapter 13: Advanced Modulation Techniques:':
+        sections:
+        - '- Section: 13.1 Phase Shift Keying:':
+            subsections:
+            - 13.1a Definition of Phase Shift Keying
+            - 13.1b Importance of Phase Shift Keying
+            - 13.1c Phase Shift Keying in Digital Communication
+        - '- Section: 13.2 Quadrature Amplitude Modulation:':
+            subsections:
+            - 13.2a Definition of Quadrature Amplitude Modulation
+            - 13.2b Importance of Quadrature Amplitude Modulation
+            - 13.2c Quadrature Amplitude Modulation in Digital Communication
+        - '- Section: 13.3 Orthogonal Frequency Division Multiplexing:':
+            subsections:
+            - 13.3a Definition of Orthogonal Frequency Division Multiplexing
+            - 13.3b Importance of Orthogonal Frequency Division Multiplexing
+            - 13.3c Orthogonal Frequency Division Multiplexing in Digital Communication
+    - '- Chapter 14: Advanced Wireless Communication Techniques:':
+        sections:
+        - '- Section: 14.1 Multiple Input Multiple Output Systems:':
+            subsections:
+            - 14.1a Definition of Multiple Input Multiple Output Systems
+            - 14.1b Importance of Multiple Input Multiple Output Systems
+            - 14.1c Multiple Input Multiple Output Systems in Digital Communication
+        - '- Section: 14.2 Beamforming:':
+            subsections:
+            - 14.2a Definition of Beamforming
+            - 14.2b Importance of Beamforming
+            - 14.2c Beamforming in Digital Communication
+        - '- Section: 14.3 Space Time Coding:':
+            subsections:
+            - 14.3a Definition of Space Time Coding
+            - 14.3b Importance of Space Time Coding
+            - 14.3c Space Time Coding in Digital Communication
+    - '- Chapter 15: Advanced Source Encoding Techniques:':
+        sections:
+        - '- Section: 15.1 Huffman Coding:':
+            subsections:
+            - 15.1a Definition of Huffman Coding
+            - 15.1b Importance of Huffman Coding
+            - 15.1c Huffman Coding in Digital Communication
+        - '- Section: 15.2 Arithmetic Coding:':
+            subsections:
+            - 15.2a Definition of Arithmetic Coding
+            - 15.2b Importance of Arithmetic Coding
+            - 15.2c Arithmetic Coding in Digital Communication
+        - '- Section: 15.3 Run Length Coding:':
+            subsections:
+            - 15.3a Definition of Run Length Coding
+            - 15.3b Importance of Run Length Coding
+            - 15.3c Run Length Coding in Digital Communication
+    - '- Chapter 16: Advanced Random Processes:':
+        sections:
+        - '- Section: 16.1 Poisson Processes:':
+            subsections:
+            - 16.1a Definition of Poisson Processes
+            - 16.1b Importance of Poisson Processes
+            - 16.1c Poisson Processes in Digital Communication
+        - '- Section: 16.2 Markov Chains:':
+            subsections:
+            - 16.2a Definition of Markov Chains
+            - 16.2b Importance of Markov Chains
+            - 16.2c Markov Chains in Digital Communication
+        - '- Section: 16.3 Wiener Processes:':
+            subsections:
+            - 16.3a Definition of Wiener Processes
+            - 16.3b Importance of Wiener Processes
+            - 16.3c Wiener Processes in Digital Communication
+    - '- Chapter 17: Advanced Fourier Transforms:':
+        sections:
+        - '- Section: 17.1 Laplace Transforms:':
+            subsections:
+            - 17.1a Definition of Laplace Transforms
+            - 17.1b Importance of Laplace Transforms
+            - 17.1c Laplace Transforms in Digital Communication
+        - '- Section: 17.2 Z Transforms:':
+            subsections:
+            - 17.2a Definition of Z Transforms
+            - 17.2b Importance of Z Transforms
+            - 17.2c Z Transforms in Digital Communication
+        - '- Section: 17.3 Wavelet Transforms:':
+            subsections:
+            - 17.3a Definition of Wavelet Transforms
+            - 17.3b Importance of Wavelet Transforms
+            - 17.3c Wavelet Transforms in Digital Communication
+    - '- Chapter 18: Advanced Detection and Coding Techniques:':
+        sections:
+        - '- Section: 18.1 Maximum Likelihood Detection:':
+            subsections:
+            - 18.1a Definition of Maximum Likelihood Detection
+            - 18.1b Importance of Maximum Likelihood Detection
+            - 18.1c Maximum Likelihood Detection in Digital Communication
+        - '- Section: 18.2 Viterbi Algorithm:':
+            subsections:
+            - 18.2a Definition of Viterbi Algorithm
+            - 18.2b Importance of Viterbi Algorithm
+            - 18.2c Viterbi Algorithm in Digital Communication
+        - '- Section: 18.3 Reed Solomon Codes:':
+            subsections:
+            - 18.3a Definition of Reed Solomon Codes
+            - 18.3b Importance of Reed Solomon Codes
+            - 18.3c Reed Solomon Codes in Digital Communication
+    - '- Chapter 19: Advanced Wireless Communication Techniques II:':
+        sections:
+        - '- Section: 19.1 Spread Spectrum Techniques:':
+            subsections:
+            - 19.1a Definition of Spread Spectrum Techniques
+            - 19.1b Importance of Spread Spectrum Techniques
+            - 19.1c Spread Spectrum Techniques in Digital Communication
+        - '- Section: 19.2 Frequency Hopping:':
+            subsections:
+            - 19.2a Definition of Frequency Hopping
+            - 19.2b Importance of Frequency Hopping
+            - 19.2c Frequency Hopping in Digital Communication
+        - '- Section: 19.3 Direct Sequence Spread Spectrum:':
+            subsections:
+            - 19.3a Definition of Direct Sequence Spread Spectrum
+            - 19.3b Importance of Direct Sequence Spread Spectrum
+            - 19.3c Direct Sequence Spread Spectrum in Digital Communication
+    - '- Chapter 20: Advanced Code Division Multiple Access Techniques:':
+        sections:
+        - '- Section: 20.1 Multi-User Detection:':
+            subsections:
+            - 20.1a Definition of Multi-User Detection
+            - 20.1b Importance of Multi-User Detection
+            - 20.1c Multi-User Detection in Digital Communication
+        - '- Section: 20.2 Interference Cancellation:':
+            subsections:
+            - 20.2a Definition of Interference Cancellation
+            - 20.2b Importance of Interference Cancellation
+            - 20.2c Interference Cancellation in Digital Communication
+        - '- Section: 20.3 Power Control:':
+            subsections:
+            - 20.3a Definition of Power Control
+            - 20.3b Importance of Power Control
+            - 20.3c Power Control in Digital Communication

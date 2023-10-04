@@ -1,0 +1,308 @@
+textbook: 
+"Introductory Quantum Mechanics: Concepts and Applications":
+
+chapters:
+- Chapter 1: Experimental Evidence for Quantum Mechanics:
+sections:
+- Section: 1.1 Polarization of Light:
+subsections:
+- 1.1a Introduction to Polarization
+- 1.1b Types of Polarization
+- 1.1c Polarizers and Analyzers
+- 1.1d Applications of Polarization
+
+- Section: 1.2 Single Molecule Fluorescence:
+subsections:
+- 1.2a Fluorescence and Phosphorescence
+- 1.2b Single Molecule Detection Techniques
+- 1.2c Applications in Biophysics and Chemistry
+
+- Chapter 2: The Machinery of Quantum Mechanics:
+sections:
+- Section: 2.1 Hilbert Space:
+subsections:
+- 2.1a Introduction to Hilbert Space
+- 2.1b Inner Product and Norm
+- 2.1c Orthogonality and Completeness
+- 2.1d Basis Vectors and Dimensionality
+
+- Section: 2.2 State Vectors:
+subsections:
+- 2.2a Quantum States and Wavefunctions
+- 2.2b Superposition and Probability Amplitudes
+- 2.2c Measurement and Normalization
+- 2.2d Dirac Notation and Bra-Ket Formalism
+
+- Section: 2.3 Bra-Ket Operators:
+subsections:
+- 2.3a Bra and Ket Vectors
+- 2.3b Hermitian and Unitary Operators
+- 2.3c Eigenstates and Eigenvalues
+- 2.3d Expectation Values and Observables
+
+- Section: 2.4 Eigenvalues:
+subsections:
+- 2.4a Eigenvalue Problem
+- 2.4b Eigenvalue Equation and Solutions
+- 2.4c Degeneracy and Non-Degeneracy
+- 2.4d Time Evolution of Eigenstates
+
+- Chapter 3: Exactly Solvable Problems:
+sections:
+- Section: 3.1 Operators and States in Real Space:
+subsections:
+- 3.1a Position and Momentum Operators
+- 3.1b Wavefunctions in Position Space
+- 3.1c Momentum Space Representation
+- 3.1d Uncertainty Principle
+
+- Section: 3.2 Harmonic Oscillator:
+subsections:
+- 3.2a Classical Harmonic Oscillator
+- 3.2b Quantum Harmonic Oscillator
+- 3.2c Energy Levels and Wavefunctions
+- 3.2d Coherent States and Squeezed States
+
+- Section: 3.3 Position Representation and Wave Mechanics:
+subsections:
+- 3.3a Wavefunctions and Probability Densities
+- 3.3b Wave Packet and Group Velocity
+- 3.3c Time-Independent Schrödinger Equation
+- 3.3d Stationary States and Time Evolution
+
+- Section: 3.4 Piecewise Constant Potentials:
+subsections:
+- 3.4a Step Potential
+- 3.4b Barrier Potential
+- 3.4c Tunneling and Reflection
+- 3.4d Transmission Coefficient and Resonance
+
+- Chapter 4: Matrix Mechanics:
+sections:
+- Section: 4.1 Vector Representation of States:
+subsections:
+- 4.1a State Vector in Matrix Form
+- 4.1b Matrix Representation of Operators
+- 4.1c Transformation and Change of Basis
+- 4.1d Unitary and Hermitian Matrices
+
+- Section: 4.2 Matrices as Operators:
+subsections:
+- 4.2a Matrix Multiplication and Commutation
+- 4.2b Matrix Eigenvalues and Eigenvectors
+- 4.2c Diagonalization and Spectral Decomposition
+- 4.2d Matrix Exponentiation and Time Evolution
+
+- Section: 4.3 Interesting Matrix Properties:
+subsections:
+- 4.3a Hermitian and Unitary Matrices
+- 4.3b Normal and Diagonal Matrices
+- 4.3c Singular and Invertible Matrices
+- 4.3d Trace and Determinant
+
+- Chapter 5: Time Dependence:
+sections:
+- Section: 5.1 Time Evolution:
+subsections:
+- 5.1a Schrödinger Picture and Heisenberg Picture
+- 5.1b Time Evolution Operator
+- 5.1c Time Evolution of Operators
+- 5.1d Time-Dependent Expectation Values
+
+- Section: 5.2 Time-Dependent Schrödinger Equation:
+subsections:
+- 5.2a Time-Dependent Wavefunction
+- 5.2b Time-Dependent Schrödinger Equation
+- 5.2c Separation of Variables
+- 5.2d Time Evolution of Wave Packets
+
+- Section: 5.3 Time-Independent Schrödinger Equation:
+subsections:
+- 5.3a Stationary States and Time-Independent Equation
+- 5.3b Energy Eigenvalues and Eigenstates
+- 5.3c Time-Dependent Superposition
+- 5.3d Time Evolution of Stationary States
+
+- Section: 5.4 Perturbation Theory:
+subsections:
+- 5.4a Introduction to Perturbation Theory
+- 5.4b First-Order Perturbation Theory
+- 5.4c Second-Order Perturbation Theory
+- 5.4d Applications in Atomic Physics and Quantum Chemistry
+
+- Chapter 6: Angular Momentum:
+sections:
+- Section: 6.1 Orbital Angular Momentum:
+subsections:
+- 6.1a Angular Momentum Operators
+- 6.1b Eigenvalues and Eigenstates
+- 6.1c Spherical Harmonics and Hydrogen Atom
+- 6.1d Angular Momentum Addition Rules
+
+- Section: 6.2 Spin Angular Momentum:
+subsections:
+- 6.2a Spin Operators and Spin Matrices
+- 6.2b Spin Eigenvalues and Spin States
+- 6.2c Pauli Spin Matrices
+- 6.2d Spin and Magnetic Resonance
+
+- Section: 6.3 Addition of Angular Momenta:
+subsections:
+- 6.3a Clebsch-Gordan Coefficients
+- 6.3b Total Angular Momentum States
+- 6.3c Addition of Two Angular Momenta
+- 6.3d Addition of Three or More Angular Momenta
+
+- Section: 6.4 Wigner-Eckart Theorem:
+subsections:
+- 6.4a Selection Rules and Matrix Elements
+- 6.4b Wigner-Eckart Theorem and Reduced Matrix Elements
+- 6.4c Applications in Atomic and Nuclear Physics
+
+- Chapter 7: Central Potentials:
+sections:
+- Section: 7.1 Central Potential Problems:
+subsections:
+- 7.1a Spherical Symmetry and Central Potentials
+- 7.1b Radial Wave Equation
+- 7.1c Energy Eigenvalues and Radial Wavefunctions
+- 7.1d Bound States and Scattering States
+
+- Section: 7.2 Spherical Harmonics:
+subsections:
+- 7.2a Angular Wave Equation
+- 7.2b Spherical Harmonics and Angular Momentum
+- 7.2c Magnetic Quantum Number and Orbitals
+- 7.2d Hydrogen Atom Orbitals and Shapes
+
+- Section: 7.3 Hydrogen Atom:
+subsections:
+- 7.3a Energy Levels and Spectroscopic Notations
+- 7.3b Radial and Angular Wavefunctions
+- 7.3c Zeeman Effect and Stark Effect
+- 7.3d Fine Structure and Hyperfine Structure
+
+- Section: 7.4 Energy Levels Diagram:
+subsections:
+- 7.4a Energy Levels of Atoms and Ions
+- 7.4b Spectral Lines and Transitions
+- 7.4c Excited States and Selection Rules
+- 7.4d Applications in Astrophysics and Spectroscopy
+
+- Chapter 8: Perturbation Theory:
+sections:
+- Section: 8.1 First-Order Perturbation Theory:
+subsections:
+- 8.1a Perturbation Hamiltonian and Eigenvalues
+- 8.1b First-Order Correction to Energy
+- 8.1c First-Order Correction to Wavefunction
+- 8.1d Applications in Quantum Chemistry and Solid State Physics
+
+- Section: 8.2 Second-Order Perturbation Theory:
+subsections:
+- 8.2a Second-Order Correction to Energy
+- 8.2b Second-Order Correction to Wavefunction
+- 8.2c Time-Dependent Perturbation Theory
+- 8.2d Applications in Atomic and Molecular Physics
+
+- Section: 8.3 Time-Dependent Perturbation Theory:
+subsections:
+- 8.3a Time-Dependent Perturbation Hamiltonian
+- 8.3b Time-Dependent Perturbation Theory and Transition Rates
+- 8.3c Applications in Optical Spectroscopy and Quantum Optics
+
+- Section: 8.4 Stark Effect:
+subsections:
+- 8.4a Electric Field and Energy Shifts
+- 8.4b Stark Effect in Hydrogen Atom
+- 8.4c Stark Effect in Alkali Atoms
+- 8.4d Applications in Atomic and Molecular Physics
+
+- Chapter 9: Identical Particles:
+sections:
+- Section: 9.1 Symmetric and Antisymmetric Wavefunctions:
+subsections:
+- 9.1a Particle Exchange and Wavefunction Symmetry
+- 9.1b Symmetric and Antisymmetric States
+- 9.1c Slater Determinants and Fermions
+- 9.1d Bosons and Bose-Einstein Condensation
+
+- Section: 9.2 Exchange Symmetry:
+subsections:
+- 9.2a Exchange Operator and Commutation Relations
+- 9.2b Permutation Symmetry and Exchange Statistics
+- 9.2c Symmetrization Postulate and Pauli Principle
+- 9.2d Applications in Quantum Chemistry and Solid State Physics
+
+- Section: 9.3 Pauli Exclusion Principle:
+subsections:
+- 9.3a Spin and Pauli Matrices
+- 9.3b Pauli Exclusion Principle and Electron Configurations
+- 9.3c Hund's Rules and Periodic Table
+- 9.3d Applications in Atomic and Condensed Matter Physics
+
+- Section: 9.4 Spin Statistics Theorem:
+subsections:
+- 9.4a Spin-Statistics Connection
+- 9.4b Fermi-Dirac Statistics and Fermions
+- 9.4c Bose-Einstein Statistics and Bosons
+- 9.4d Applications in Particle Physics and Quantum Field Theory
+
+- Chapter 10: The Born-Oppenheimer Approximation:
+sections:
+- Section: 10.1 Separation of Nuclear and Electronic Motion:
+subsections:
+- 10.1a Born-Oppenheimer Approximation
+- 10.1b Nuclear and Electronic Wavefunctions
+- 10.1c Adiabatic and Diabatic States
+- 10.1d Applications in Molecular Physics and Chemical Reactions
+
+- Section: 10.2 Potential Energy Surfaces:
+subsections:
+- 10.2a Potential Energy and Force Surfaces
+- 10.2b Born-Oppenheimer Potential Energy Curves
+- 10.2c Conical Intersections and Non-Adiabatic Transitions
+- 10.2d Applications in Theoretical Chemistry and Photochemistry
+
+- Section: 10.3 Molecular Vibrations:
+subsections:
+- 10.3a Vibrational Motion and Normal Modes
+- 10.3b Vibrational Energy Levels and Wavefunctions
+- 10.3c Infrared Spectroscopy and Vibrational Selection Rules
+- 10.3d Applications in Molecular Spectroscopy and Quantum Dynamics
+
+- Section: 10.4 Molecular Rotations:
+subsections:
+- 10.4a Rotational Motion and Angular Momentum
+- 10.4b Rotational Energy Levels and Wavefunctions
+- 10.4c Microwave Spectroscopy and Rotational Selection Rules
+- 10.4d Applications in Molecular Spectroscopy and Quantum Dynamics
+
+- Section: 10.5 Electronic Transitions:
+subsections:
+- 10.5a Electronic Structure and Excited States
+- 10.5b Franck-Condon Principle and Vibronic Transitions
+- 10.5c Absorption and Emission Spectroscopy
+- 10.5d Applications in Photochemistry and Materials Science
+
+- Chapter 11: Quantum Mechanics in Crystals:
+sections:
+- Section: 11.1 Crystal Lattice and Reciprocal Lattice:
+subsections:
+- 11.1a Crystal Structure and Lattice Vectors
+- 11.1b Reciprocal Lattice and Brillouin Zone
+- 11.1c X-ray Diffraction and Crystallography
+- 11.1d Applications in Solid State Physics and Materials Science
+
+- Section: 11.2 Bloch's Theorem and Band Structure:
+subsections:
+- 11.2a Bloch's Theorem and Bloch Functions
+- 11.2b Band Structure and Energy Bands
+- 11.2c Band Gaps and Semiconductors
+- 11.2d Applications in Electronics and Optoelectronics
+
+- Section: 11.3 Quantum Wells, Wires, and Dots:
+subsections:
+- 11.3a Quantum Confinement and Dimensionality
+- 11.3b Quantum Wells and Superlattices
+- 11.3c Quantum Wires and Quantum Dots

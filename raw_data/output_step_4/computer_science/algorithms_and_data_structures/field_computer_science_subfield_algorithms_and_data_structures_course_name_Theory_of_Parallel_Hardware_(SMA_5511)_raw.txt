@@ -1,0 +1,215 @@
+textbook: 
+"Quantum Physics I":
+
+chapters:
+- Chapter 1: Basic Features of Quantum Mechanics:
+sections:
+- Section: 1.1 Linearity
+- Section: 1.2 Complex Numbers
+- Section: 1.3 Non-deterministic
+- Section: 1.4 Superposition
+- Section: 1.5 Entanglement
+
+- Chapter 2: Experimental Basis of Quantum Physics:
+sections:
+- Section: 2.1 Two-slit Experiments
+- Section: 2.2 Mach-Zehnder Interferometer
+- Section: 2.3 Elitzur-Vaidman Bombs
+- Section: 2.4 Photoelectric Effect
+- Section: 2.5 Compton Scattering
+- Section: 2.6 de Broglie Wavelength
+
+- Chapter 3: Wave Mechanics:
+sections:
+- Section: 3.1 Galilean Transformation of de Broglie Wavelength
+- Section: 3.2 Wave-packets and Group Velocity
+- Section: 3.3 Matter Wave for a Particle
+- Section: 3.4 Momentum and Position Operators
+- Section: 3.5 Schrödinger Equation
+
+- Chapter 4: Interpretation of the Wavefunction:
+sections:
+- Section: 4.1 Probability Density
+- Section: 4.2 Probability Current
+- Section: 4.3 Current Conservation
+- Section: 4.4 Hermitian Operators
+
+- Chapter 5: Expectation Values and Uncertainty:
+sections:
+- Section: 5.1 Expectation Values of Operators
+- Section: 5.2 Time Evolution of Wave-packets
+- Section: 5.3 Fourier Transforms
+- Section: 5.4 Parseval Theorem
+- Section: 5.5 Uncertainty Relation
+
+- Chapter 6: Quantum Physics in One-dimensional Potentials:
+sections:
+- Section: 6.1 Stationary States
+- Section: 6.2 Boundary Conditions
+- Section: 6.3 Particle on a Circle
+- Section: 6.4 Infinite Square Well
+- Section: 6.5 Finite Square Well
+- Section: 6.6 Semiclassical Approximations
+- Section: 6.7 Numerical Solution by the Shooting Method
+- Section: 6.8 Delta Function Potential
+- Section: 6.9 Simple Harmonic Oscillator
+- Section: 6.10 Reflection and Transmission Coefficients
+- Section: 6.11 Ramsauer Townsend Effect
+- Section: 6.12 1D Scattering and Phase Shifts
+- Section: 6.13 Levinson’s Theorem
+
+- Chapter 7: Angular Momentum and Central Potentials:
+sections:
+- Section: 7.1 Resonances and Breit-Wigner Distribution
+- Section: 7.2 Central Potentials
+- Section: 7.3 Algebra of Angular Momentum
+- Section: 7.4 Legendre Polynomials
+- Section: 7.5 Hydrogen Atom
+- Section: 7.6 Energy Levels Diagram
+- Section: 7.7 Virial Theorem
+- Section: 7.8 Circular Orbits and Eccentricity
+- Section: 7.9 Discovery of Spin
+
+- Chapter 8: Theory of Parallel Hardware (SMA 5511):
+sections:
+- Section: 8.1 Systolic Computation:
+subsections:
+- 8.1a Systolic Arrays and their Applications
+- Section: 8.2 Fast Addition:
+subsections:
+- 8.2a Fast Addition Circuits and Algorithms
+- Section: 8.3 Fast Multiplication:
+subsections:
+- 8.3a Fast Multiplication Circuits and Algorithms
+- Section: 8.4 Fast Division:
+subsections:
+- 8.4a Fast Division Circuits and Algorithms
+- Section: 8.5 Matrix Computations
+- Section: 8.6 Retiming:
+subsections:
+- 8.6a Retiming Techniques for Digital Circuits
+- Section: 8.7 Retiming II:
+subsections:
+- 8.7a Retiming Techniques for Sequential Circuits
+- Section: 8.8 Clock Period:
+subsections:
+- 8.8a Clock Period Estimation and Optimization
+- Section: 8.9 Clock Period II:
+subsections:
+- 8.9a Clock Period Estimation for Pipelined Circuits
+- Section: 8.10 Sorting on 1D and 2D Arrays
+- Section: 8.11 Comparison Networks
+- Section: 8.12 Interconnection Networks:
+subsections:
+- 8.12a Interconnection Networks and their Topologies
+- Section: 8.13 Routing:
+subsections:
+- 8.13a Routing Algorithms in Interconnection Networks
+- Section: 8.14 VLSI:
+subsections:
+- 8.14a VLSI Design Methodologies
+- Section: 8.15 VLSI II:
+subsections:
+- 8.15a VLSI Design Considerations for CMOS Circuits
+- Section: 8.16 VLSI III:
+subsections:
+- 8.16a VLSI Design Considerations for Digital Circuits
+- Section: 8.17 VLSI IV:
+subsections:
+- 8.17a VLSI Design Considerations for Analog Circuits
+- Section: 8.18 VLSI Lowerbounds:
+subsections:
+- 8.18a Lower Bounds for VLSI Circuits
+- Section: 8.19 VLSI Layout:
+subsections:
+- 8.19a VLSI Layout Design Techniques
+- Section: 8.20 VLSI Wrapup:
+subsections:
+- 8.20a Wrapup of VLSI Design Techniques
+- Section: 8.21 Area Universal Networks:
+subsections:
+- 8.21a Universal Networks for VLSI Circuit Design
+
+- Chapter 9: Quantum Physics II:
+sections:
+- Section: 9.1 Quantum Entanglement
+- Section: 9.2 Quantum Teleportation
+- Section: 9.3 Quantum Computing
+- Section: 9.4 Quantum Cryptography
+
+- Chapter 10: Quantum Physics III:
+sections:
+- Section: 10.1 Quantum Field Theory
+- Section: 10.2 Quantum Electrodynamics
+- Section: 10.3 Quantum Chromodynamics
+- Section: 10.4 Quantum Gravity
+
+- Chapter 11: Quantum Physics IV:
+sections:
+- Section: 11.1 Quantum Mechanics of Particles
+- Section: 11.2 Quantum Mechanics of Fields
+- Section: 11.3 Quantum Mechanics of Systems
+- Section: 11.4 Quantum Mechanics of Interactions
+
+- Chapter 12: Quantum Physics V:
+sections:
+- Section: 12.1 Quantum Mechanics in One Dimension
+- Section: 12.2 Quantum Mechanics in Two Dimensions
+- Section: 12.3 Quantum Mechanics in Three Dimensions
+- Section: 12.4 Quantum Mechanics in Four Dimensions
+
+- Chapter 13: Quantum Physics VI:
+sections:
+- Section: 13.1 Quantum Mechanics of Light
+- Section: 13.2 Quantum Mechanics of Matter
+- Section: 13.3 Quantum Mechanics of Energy
+- Section: 13.4 Quantum Mechanics of Time
+
+- Chapter 14: Quantum Physics VII:
+sections:
+- Section: 14.1 Quantum Mechanics of Space
+- Section: 14.2 Quantum Mechanics of Motion
+- Section: 14.3 Quantum Mechanics of Force
+- Section: 14.4 Quantum Mechanics of Power
+
+- Chapter 15: Quantum Physics VIII:
+sections:
+- Section: 15.1 Quantum Mechanics of Heat
+- Section: 15.2 Quantum Mechanics of Sound
+- Section: 15.3 Quantum Mechanics of Electricity
+- Section: 15.4 Quantum Mechanics of Magnetism
+
+- Chapter 16: Quantum Physics IX:
+sections:
+- Section: 16.1 Quantum Mechanics of Atoms
+- Section: 16.2 Quantum Mechanics of Molecules
+- Section: 16.3 Quantum Mechanics of Solids
+- Section: 16.4 Quantum Mechanics of Liquids
+
+- Chapter 17: Quantum Physics X:
+sections:
+- Section: 17.1 Quantum Mechanics of Gases
+- Section: 17.2 Quantum Mechanics of Plasmas
+- Section: 17.3 Quantum Mechanics of Crystals
+- Section: 17.4 Quantum Mechanics of Quasars
+
+- Chapter 18: Quantum Physics XI:
+sections:
+- Section: 18.1 Quantum Mechanics of Stars
+- Section: 18.2 Quantum Mechanics of Galaxies
+- Section: 18.3 Quantum Mechanics of Black Holes
+- Section: 18.4 Quantum Mechanics of the Universe
+
+- Chapter 19: Quantum Physics XII:
+sections:
+- Section: 19.1 Quantum Mechanics of the Big Bang
+- Section: 19.2 Quantum Mechanics of the Big Crunch
+- Section: 19.3 Quantum Mechanics of the Big Bounce
+- Section: 19.4 Quantum Mechanics of the Big Freeze
+
+- Chapter 20: Quantum Physics XIII:
+sections:
+- Section: 20.1 Quantum Mechanics of the Big Rip
+- Section: 20.2 Quantum Mechanics of the Multiverse
+- Section: 20.3 Quantum Mechanics of the Omniverse
+- Section: 20.4 Quantum Mechanics of the Metaverse

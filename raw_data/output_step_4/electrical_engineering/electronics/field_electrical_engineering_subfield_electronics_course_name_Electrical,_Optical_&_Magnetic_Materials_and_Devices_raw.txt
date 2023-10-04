@@ -1,0 +1,379 @@
+textbook: 
+"Electrical, Optical & Magnetic Materials and Devices: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Overview and Carrier Fundamentals:
+sections:
+- Section: 1.1 Introduction to Electrical, Optical & Magnetic Materials and Devices:
+subsections:
+- 1.1a Basic Concepts
+- 1.1b Material Types
+- 1.1c Device Applications
+
+- Section: 1.2 Drift and Diffusion of Carriers:
+subsections:
+- 1.2a Carrier Drift
+- 1.2b Carrier Diffusion
+- 1.2c Drift-Diffusion Equation
+
+- Section: 1.3 Recombination and Generation of Carriers:
+subsections:
+- 1.3a Carrier Recombination
+- 1.3b Carrier Generation
+- 1.3c Recombination-Generation Equilibrium
+
+- Chapter 2: PN Junctions:
+sections:
+- Section: 2.1 PN Junction at Equilibrium:
+subsections:
+- 2.1a Formation of PN Junction
+- 2.1b Depletion Region
+- 2.1c Junction Capacitance
+
+- Section: 2.2 PN Junction Under Bias:
+subsections:
+- 2.2a Forward Bias
+- 2.2b Reverse Bias
+- 2.2c Breakdown Voltage
+
+- Section: 2.3 Ideal Diode Behavior in PN Junctions:
+subsections:
+- 2.3a Diode I-V Characteristics
+- 2.3b Diode Equation
+- 2.3c Non-Ideal Diode Behavior
+
+- Chapter 3: Bipolar Junction Transistor:
+sections:
+- Section: 3.1 Introduction to Bipolar Junction Transistors:
+subsections:
+- 3.1a BJT Structure
+- 3.1b BJT Operation Modes
+- 3.1c BJT I-V Characteristics
+
+- Section: 3.2 Field Effect Transistors (FETs) and Metal-Oxide-Semiconductor (MOS) Devices:
+subsections:
+- 3.2a FET Structure and Operation
+- 3.2b MOSFET Structure and Operation
+- 3.2c FET vs BJT
+
+- Chapter 4: Photodetectors and Photovoltaics:
+sections:
+- Section: 4.1 Introduction to Photodetectors and Photovoltaics:
+subsections:
+- 4.1a Photodetector Principles
+- 4.1b Photovoltaic Principles
+- 4.1c Photodetector vs Photovoltaic Devices
+
+- Section: 4.2 Solar Cells:
+subsections:
+- 4.2a Solar Cell Structure
+- 4.2b Solar Cell Operation
+- 4.2c Solar Cell Efficiency
+
+- Chapter 5: LEDs and Lasers:
+sections:
+- Section: 5.1 Introduction to LEDs:
+subsections:
+- 5.1a LED Structure
+- 5.1b LED Operation
+- 5.1c LED Efficiency and Lifetime
+
+- Section: 5.2 Introduction to Lasers:
+subsections:
+- 5.2a Laser Principles
+- 5.2b Laser Types
+- 5.2c Laser Applications
+
+- Section: 5.3 Heterostructure Lasers:
+subsections:
+- 5.3a Heterostructure Principles
+- 5.3b Heterostructure Laser Design
+- 5.3c Heterostructure Laser Applications
+
+- Chapter 6: Displays:
+sections:
+- Section: 6.1 Introduction to Displays:
+subsections:
+- 6.1a Display Technologies
+- 6.1b Display Operation
+- 6.1c Display Applications
+
+- Section: 6.2 Optical Fibers:
+subsections:
+- 6.2a Optical Fiber Structure
+- 6.2b Optical Fiber Transmission
+- 6.2c Optical Fiber Applications
+
+- Section: 6.3 Photonic Devices:
+subsections:
+- 6.3a Photonic Device Principles
+- 6.3b Photonic Device Types
+- 6.3c Photonic Device Applications
+
+- Chapter 7: Magnetic Fundamentals:
+sections:
+- Section: 7.1 Introduction to Magnetic Fundamentals:
+subsections:
+- 7.1a Magnetic Field and Flux
+- 7.1b Magnetic Materials
+- 7.1c Magnetic Devices
+
+- Section: 7.2 Magnetic Materials:
+subsections:
+- 7.2a Ferromagnetic Materials
+- 7.2b Paramagnetic Materials
+- 7.2c Diamagnetic Materials
+
+- Chapter 8: Transformers and DC Motors:
+sections:
+- Section: 8.1 Introduction to Transformers and DC Motors:
+subsections:
+- 8.1a Transformer Principles
+- 8.1b DC Motor Principles
+- 8.1c Transformer and DC Motor Applications
+
+- Section: 8.2 Magnetic Hard Disks and Tapes:
+subsections:
+- 8.2a Magnetic Storage Principles
+- 8.2b Hard Disk Design
+- 8.2c Magnetic Tape Design
+
+- Section: 8.3 Magnetooptics:
+subsections:
+- 8.3a Magnetooptic Effect
+- 8.3b Magnetooptic Devices
+- 8.3c Magnetooptic Applications
+
+- Section: 8.4 Magnetic Random Access Memories (MRAMs), CDs, and DVDs:
+subsections:
+- 8.4a MRAM Principles
+- 8.4b CD and DVD Design
+- 8.4c MRAM, CD, and DVD Applications
+
+- Chapter 9: Data Storage:
+sections:
+- Section: 9.1 Introduction to Data Storage:
+subsections:
+- 9.1a Data Storage Technologies
+- 9.1b Data Storage Devices
+- 9.1c Data Storage Applications
+
+- Section: 9.2 Review:
+subsections:
+- 9.2a Review of Key Concepts
+- 9.2b Review of Key Devices
+- 9.2c Future Trends in Electrical, Optical & Magnetic Materials and Devices
+
+- Chapter 10: Semiconductor Devices:
+sections:
+- Section: 10.1 Introduction to Semiconductor Devices:
+subsections:
+- 10.1a Basic Concepts of Semiconductors
+- 10.1b Types of Semiconductor Devices
+- 10.1c Applications of Semiconductor Devices
+
+- Section: 10.2 Diodes:
+subsections:
+- 10.2a Diode Structure and Operation
+- 10.2b Diode Types
+- 10.2c Diode Applications
+
+- Section: 10.3 Transistors:
+subsections:
+- 10.3a Transistor Structure and Operation
+- 10.3b Transistor Types
+- 10.3c Transistor Applications
+
+- Chapter 11: Optoelectronic Devices:
+sections:
+- Section: 11.1 Introduction to Optoelectronic Devices:
+subsections:
+- 11.1a Basic Concepts of Optoelectronics
+- 11.1b Types of Optoelectronic Devices
+- 11.1c Applications of Optoelectronic Devices
+
+- Section: 11.2 Photodiodes:
+subsections:
+- 11.2a Photodiode Structure and Operation
+- 11.2b Photodiode Types
+- 11.2c Photodiode Applications
+
+- Section: 11.3 Light Emitting Diodes (LEDs):
+subsections:
+- 11.3a LED Structure and Operation
+- 11.3b LED Types
+- 11.3c LED Applications
+
+- Chapter 12: Magnetic Devices:
+sections:
+- Section: 12.1 Introduction to Magnetic Devices:
+subsections:
+- 12.1a Basic Concepts of Magnetism
+- 12.1b Types of Magnetic Devices
+- 12.1c Applications of Magnetic Devices
+
+- Section: 12.2 Transformers:
+subsections:
+- 12.2a Transformer Structure and Operation
+- 12.2b Transformer Types
+- 12.2c Transformer Applications
+
+- Section: 12.3 Motors:
+subsections:
+- 12.3a Motor Structure and Operation
+- 12.3b Motor Types
+- 12.3c Motor Applications
+
+- Chapter 13: Data Storage Devices:
+sections:
+- Section: 13.1 Introduction to Data Storage Devices:
+subsections:
+- 13.1a Basic Concepts of Data Storage
+- 13.1b Types of Data Storage Devices
+- 13.1c Applications of Data Storage Devices
+
+- Section: 13.2 Hard Disk Drives:
+subsections:
+- 13.2a Hard Disk Drive Structure and Operation
+- 13.2b Hard Disk Drive Types
+- 13.2c Hard Disk Drive Applications
+
+- Section: 13.3 Solid State Drives:
+subsections:
+- 13.3a Solid State Drive Structure and Operation
+- 13.3b Solid State Drive Types
+- 13.3c Solid State Drive Applications
+
+- Chapter 14: Optical Devices:
+sections:
+- Section: 14.1 Introduction to Optical Devices:
+subsections:
+- 14.1a Basic Concepts of Optics
+- 14.1b Types of Optical Devices
+- 14.1c Applications of Optical Devices
+
+- Section: 14.2 Lenses:
+subsections:
+- 14.2a Lens Structure and Operation
+- 14.2b Lens Types
+- 14.2c Lens Applications
+
+- Section: 14.3 Mirrors:
+subsections:
+- 14.3a Mirror Structure and Operation
+- 14.3b Mirror Types
+- 14.3c Mirror Applications
+
+- Chapter 15: Display Technologies:
+sections:
+- Section: 15.1 Introduction to Display Technologies:
+subsections:
+- 15.1a Basic Concepts of Display Technologies
+- 15.1b Types of Display Technologies
+- 15.1c Applications of Display Technologies
+
+- Section: 15.2 Liquid Crystal Displays (LCDs):
+subsections:
+- 15.2a LCD Structure and Operation
+- 15.2b LCD Types
+- 15.2c LCD Applications
+
+- Section: 15.3 Organic Light Emitting Diode (OLED) Displays:
+subsections:
+- 15.3a OLED Structure and Operation
+- 15.3b OLED Types
+- 15.3c OLED Applications
+
+- Chapter 16: Photovoltaic Devices:
+sections:
+- Section: 16.1 Introduction to Photovoltaic Devices:
+subsections:
+- 16.1a Basic Concepts of Photovoltaics
+- 16.1b Types of Photovoltaic Devices
+- 16.1c Applications of Photovoltaic Devices
+
+- Section: 16.2 Solar Cells:
+subsections:
+- 16.2a Solar Cell Structure and Operation
+- 16.2b Solar Cell Types
+- 16.2c Solar Cell Applications
+
+- Section: 16.3 Concentrated Solar Power:
+subsections:
+- 16.3a Concentrated Solar Power Structure and Operation
+- 16.3b Concentrated Solar Power Types
+- 16.3c Concentrated Solar Power Applications
+
+- Chapter 17: Fiber Optic Devices:
+sections:
+- Section: 17.1 Introduction to Fiber Optic Devices:
+subsections:
+- 17.1a Basic Concepts of Fiber Optics
+- 17.1b Types of Fiber Optic Devices
+- 17.1c Applications of Fiber Optic Devices
+
+- Section: 17.2 Optical Fibers:
+subsections:
+- 17.2a Optical Fiber Structure and Operation
+- 17.2b Optical Fiber Types
+- 17.2c Optical Fiber Applications
+
+- Section: 17.3 Fiber Optic Sensors:
+subsections:
+- 17.3a Fiber Optic Sensor Structure and Operation
+- 17.3b Fiber Optic Sensor Types
+- 17.3c Fiber Optic Sensor Applications
+
+- Chapter 18: Lasers:
+sections:
+- Section: 18.1 Introduction to Lasers:
+subsections:
+- 18.1a Basic Concepts of Lasers
+- 18.1b Types of Lasers
+- 18.1c Applications of Lasers
+
+- Section: 18.2 Semiconductor Lasers:
+subsections:
+- 18.2a Semiconductor Laser Structure and Operation
+- 18.2b Semiconductor Laser Types
+- 18.2c Semiconductor Laser Applications
+
+- Section: 18.3 Gas Lasers:
+subsections:
+- 18.3a Gas Laser Structure and Operation
+- 18.3b Gas Laser Types
+- 18.3c Gas Laser Applications
+
+- Chapter 19: Magnetic Materials:
+sections:
+- Section: 19.1 Introduction to Magnetic Materials:
+subsections:
+- 19.1a Basic Concepts of Magnetism
+- 19.1b Types of Magnetic Materials
+- 19.1c Applications of Magnetic Materials
+
+- Section: 19.2 Ferromagnetic Materials:
+subsections:
+- 19.2a Ferromagnetic Material Structure and Properties
+- 19.2b Ferromagnetic Material Types
+- 19.2c Ferromagnetic Material Applications
+
+- Section: 19.3 Paramagnetic Materials:
+subsections:
+- 19.3a Paramagnetic Material Structure and Properties
+- 19.3b Paramagnetic Material Types
+- 19.3c Paramagnetic Material Applications
+
+- Chapter 20: Review and Future Trends:
+sections:
+- Section: 20.1 Review of Key Concepts:
+subsections:
+- 20.1a Review of Electrical, Optical & Magnetic Materials
+- 20.1b Review of Devices
+- 20.1c Review of Applications
+
+- Section: 20.2 Future Trends:
+subsections:
+- 20.2a Future Trends in Materials
+- 20.2b Future Trends in Devices
+- 20.2c Future Trends in Applications

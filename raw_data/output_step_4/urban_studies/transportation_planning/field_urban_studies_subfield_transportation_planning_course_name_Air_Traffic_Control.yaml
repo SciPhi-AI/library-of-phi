@@ -1,0 +1,383 @@
+textbook:
+  'Air Traffic Control: A Comprehensive Guide to Aviation Safety and Efficiency":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course Number:':
+            subsections:
+            - 1.1a Course Overview
+            - 1.1b Course Requirements
+            - 1.1c Course Objectives
+        - '- Section: 1.2 Course Name:':
+            subsections:
+            - 1.2a Course Description
+            - 1.2b Course Syllabus
+            - 1.2c Course Materials
+        - '- Section: 1.3 Resource Level:':
+            subsections:
+            - 1.3a Resource Allocation
+            - 1.3b Resource Management
+            - 1.3c Resource Optimization
+        - '- Section: 1.4 Importance of Air Traffic Control:':
+            subsections:
+            - 1.4a Role of Air Traffic Control
+            - 1.4b Impact of Air Traffic Control
+            - 1.4c Future of Air Traffic Control
+    - '- Chapter 2: Air Traffic Control Systems:':
+        sections:
+        - '- Section: 2.1 Complete and Enforced Architecture:':
+            subsections:
+            - 2.1a System Design
+            - 2.1b System Implementation
+            - 2.1c System Evaluation
+        - '- Section: 2.2 Federal Aviation Administration Systems Modernization:':
+            subsections:
+            - 2.2a Modernization Initiatives
+            - 2.2b Modernization Challenges
+            - 2.2c Modernization Outcomes
+        - '- Section: 2.3 Next Generation Air Transportation System (NGATS):':
+            subsections:
+            - 2.3a NGATS Overview
+            - 2.3b NGATS Features
+            - 2.3c NGATS Impact
+        - '- Section: 2.4 Single European Sky Air Traffic Management Research:':
+            subsections:
+            - 2.4a Research Objectives
+            - 2.4b Research Methodology
+            - 2.4c Research Findings
+    - '- Chapter 3: Communication and Navigation:':
+        sections:
+        - '- Section: 3.1 Radio Spectrum:':
+            subsections:
+            - 3.1a Spectrum Allocation
+            - 3.1b Spectrum Management
+            - 3.1c Spectrum Efficiency
+        - '- Section: 3.2 Communication, Navigation, and Surveillance (CNS):':
+            subsections:
+            - 3.2a CNS Systems
+            - 3.2b CNS Operations
+            - 3.2c CNS Challenges
+        - '- Section: 3.3 Communication Techniques:':
+            subsections:
+            - 3.3a Verbal Communication
+            - 3.3b Non-Verbal Communication
+            - 3.3c Digital Communication
+        - '- Section: 3.4 Navigation Systems:':
+            subsections:
+            - 3.4a Ground-Based Navigation
+            - 3.4b Satellite-Based Navigation
+            - 3.4c Hybrid Navigation
+    - '- Chapter 4: Operational Procedures:':
+        sections:
+        - '- Section: 4.1 Basic Procedures:':
+            subsections:
+            - 4.1a Pre-Flight Procedures
+            - 4.1b In-Flight Procedures
+            - 4.1c Post-Flight Procedures
+        - '- Section: 4.2 Airport Operations:':
+            subsections:
+            - 4.2a Ground Operations
+            - 4.2b Airside Operations
+            - 4.2c Terminal Operations
+        - '- Section: 4.3 Air Traffic Flow Management (ATFM):':
+            subsections:
+            - 4.3a ATFM Principles
+            - 4.3b ATFM Techniques
+            - 4.3c ATFM Challenges
+        - '- Section: 4.4 Oceanic and International ATC:':
+            subsections:
+            - 4.4a Oceanic ATC
+            - 4.4b International ATC
+            - 4.4c Intercontinental ATC
+    - '- Chapter 5: Human Factors in ATC:':
+        sections:
+        - '- Section: 5.1 Air Traffic Control Human Factors:':
+            subsections:
+            - 5.1a Cognitive Factors
+            - 5.1b Physical Factors
+            - 5.1c Emotional Factors
+        - '- Section: 5.2 Terminal Operations:':
+            subsections:
+            - 5.2a Terminal Design
+            - 5.2b Terminal Management
+            - 5.2c Terminal Efficiency
+        - '- Section: 5.3 Enroute Operations and Traffic Flow Management:':
+            subsections:
+            - 5.3a Enroute Navigation
+            - 5.3b Enroute Communication
+            - 5.3c Enroute Surveillance
+        - '- Section: 5.4 Fatigue Management:':
+            subsections:
+            - 5.4a Causes of Fatigue
+            - 5.4b Effects of Fatigue
+            - 5.4c Fatigue Mitigation
+    - '- Chapter 6: Automation and Decision Making:':
+        sections:
+        - '- Section: 6.1 Automation and Decision Aids:':
+            subsections:
+            - 6.1a Automation in ATC
+            - 6.1b Decision Aids in ATC
+            - 6.1c Human-Machine Interaction
+        - '- Section: 6.2 Boeing Perspective on the Future of Air Traffic Management:':
+            subsections:
+            - 6.2a Boeing's Vision
+            - 6.2b Boeing's Strategy
+            - 6.2c Boeing's Implementation
+        - '- Section: 6.3 Artificial Intelligence in ATC:':
+            subsections:
+            - 6.3a AI Applications
+            - 6.3b AI Challenges
+            - 6.3c AI Future
+        - '- Section: 6.4 Machine Learning in ATC:':
+            subsections:
+            - 6.4a ML Techniques
+            - 6.4b ML Applications
+            - 6.4c ML Challenges
+    - '- Chapter 7: Certification and Evaluation:':
+        sections:
+        - '- Section: 7.1 Certification and Software Issues:':
+            subsections:
+            - 7.1a Certification Process
+            - 7.1b Software Standards
+            - 7.1c Software Testing
+        - '- Section: 7.2 Modeling and Evaluation of ATC Systems:':
+            subsections:
+            - 7.2a System Modeling
+            - 7.2b System Evaluation
+            - 7.2c System Improvement
+        - '- Section: 7.3 Safety Assessment and Auditing:':
+            subsections:
+            - 7.3a Safety Metrics
+            - 7.3b Safety Audits
+            - 7.3c Safety Improvements
+        - '- Section: 7.4 Performance Measurement and Metrics:':
+            subsections:
+            - 7.4a Performance Indicators
+            - 7.4b Performance Analysis
+            - 7.4c Performance Improvement
+    - '- Chapter 8: Surveillance and Airspace Management:':
+        sections:
+        - '- Section: 8.1 Automatic Dependent Surveillance-Broadcast (ADS-B) Applications:':
+            subsections:
+            - 8.1a ADS-B Technology
+            - 8.1b ADS-B Implementation
+            - 8.1c ADS-B Benefits
+        - '- Section: 8.2 Controller Training and Labor Issues:':
+            subsections:
+            - 8.2a Training Programs
+            - 8.2b Labor Relations
+            - 8.2c Labor Laws
+        - '- Section: 8.3 Airspace Design and Management:':
+            subsections:
+            - 8.3a Airspace Classification
+            - 8.3b Airspace Usage
+            - 8.3c Airspace Optimization
+        - '- Section: 8.4 Conflict Detection and Resolution:':
+            subsections:
+            - 8.4a Conflict Scenarios
+            - 8.4b Conflict Detection Techniques
+            - 8.4c Conflict Resolution Strategies
+    - '- Chapter 9: System Transition and Considerations:':
+        sections:
+        - '- Section: 9.1 System Transition Issues:':
+            subsections:
+            - 9.1a Transition Planning
+            - 9.1b Transition Execution
+            - 9.1c Transition Evaluation
+        - '- Section: 9.2 Political Considerations:':
+            subsections:
+            - 9.2a Policy Impact
+            - 9.2b Regulatory Impact
+            - 9.2c International Relations
+        - '- Section: 9.3 Cost and Financing:':
+            subsections:
+            - 9.3a Cost Estimation
+            - 9.3b Financing Options
+            - 9.3c Cost-Benefit Analysis
+        - '- Section: 9.4 Stakeholder Management:':
+            subsections:
+            - 9.4a Stakeholder Identification
+            - 9.4b Stakeholder Communication
+            - 9.4c Stakeholder Satisfaction
+    - '- Chapter 10: Final Presentations:':
+        sections:
+        - '- Section: 10.1 Final Presentations:':
+            subsections:
+            - 10.1a Presentation Preparation
+            - 10.1b Presentation Delivery
+            - 10.1c Presentation Evaluation
+        - '- Section: 10.2 Group Projects and Case Studies:':
+            subsections:
+            - 10.2a Project Planning
+            - 10.2b Project Execution
+            - 10.2c Project Evaluation
+    - '- Chapter 11: Air Traffic Control Towers:':
+        sections:
+        - '- Section: 11.1 Tower Design:':
+            subsections:
+            - 11.1a Architectural Considerations
+            - 11.1b Functional Design
+            - 11.1c Safety Considerations
+        - '- Section: 11.2 Tower Operations:':
+            subsections:
+            - 11.2a Operational Procedures
+            - 11.2b Coordination with Other Facilities
+            - 11.2c Emergency Procedures
+        - '- Section: 11.3 Tower Technology:':
+            subsections:
+            - 11.3a Communication Systems
+            - 11.3b Surveillance Systems
+            - 11.3c Navigation Aids
+    - '- Chapter 12: Air Traffic Control Centers:':
+        sections:
+        - '- Section: 12.1 Center Design:':
+            subsections:
+            - 12.1a Architectural Considerations
+            - 12.1b Functional Design
+            - 12.1c Safety Considerations
+        - '- Section: 12.2 Center Operations:':
+            subsections:
+            - 12.2a Operational Procedures
+            - 12.2b Coordination with Other Facilities
+            - 12.2c Emergency Procedures
+        - '- Section: 12.3 Center Technology:':
+            subsections:
+            - 12.3a Communication Systems
+            - 12.3b Surveillance Systems
+            - 12.3c Navigation Aids
+    - '- Chapter 13: Air Traffic Control Training:':
+        sections:
+        - '- Section: 13.1 Training Programs:':
+            subsections:
+            - 13.1a Initial Training
+            - 13.1b Ongoing Training
+            - 13.1c Specialized Training
+        - '- Section: 13.2 Training Methods:':
+            subsections:
+            - 13.2a Classroom Training
+            - 13.2b Simulation Training
+            - 13.2c On-the-Job Training
+        - '- Section: 13.3 Training Evaluation:':
+            subsections:
+            - 13.3a Performance Assessment
+            - 13.3b Feedback and Improvement
+            - 13.3c Certification and Licensing
+    - '- Chapter 14: Air Traffic Control Safety:':
+        sections:
+        - '- Section: 14.1 Safety Management Systems:':
+            subsections:
+            - 14.1a Safety Policy
+            - 14.1b Safety Risk Management
+            - 14.1c Safety Assurance
+        - '- Section: 14.2 Safety Culture:':
+            subsections:
+            - 14.2a Culture Assessment
+            - 14.2b Culture Improvement
+            - 14.2c Culture Maintenance
+        - '- Section: 14.3 Safety Reporting:':
+            subsections:
+            - 14.3a Incident Reporting
+            - 14.3b Investigation and Analysis
+            - 14.3c Lessons Learned and Dissemination
+    - '- Chapter 15: Air Traffic Control Research:':
+        sections:
+        - '- Section: 15.1 Research Methods:':
+            subsections:
+            - 15.1a Quantitative Research
+            - 15.1b Qualitative Research
+            - 15.1c Mixed Methods Research
+        - '- Section: 15.2 Research Topics:':
+            subsections:
+            - 15.2a Human Factors Research
+            - 15.2b Technology Research
+            - 15.2c Operational Research
+        - '- Section: 15.3 Research Dissemination:':
+            subsections:
+            - 15.3a Publication and Presentation
+            - 15.3b Knowledge Transfer
+            - 15.3c Research Impact
+    - '- Chapter 16: Air Traffic Control Future:':
+        sections:
+        - '- Section: 16.1 Future Trends:':
+            subsections:
+            - 16.1a Technology Trends
+            - 16.1b Operational Trends
+            - 16.1c Regulatory Trends
+        - '- Section: 16.2 Future Challenges:':
+            subsections:
+            - 16.2a Capacity Challenges
+            - 16.2b Safety Challenges
+            - 16.2c Environmental Challenges
+        - '- Section: 16.3 Future Opportunities:':
+            subsections:
+            - 16.3a Technology Opportunities
+            - 16.3b Operational Opportunities
+            - 16.3c Regulatory Opportunities
+    - '- Chapter 17: Air Traffic Control History:':
+        sections:
+        - '- Section: 17.1 Early History:':
+            subsections:
+            - 17.1a Pre-Radar Era
+            - 17.1b Radar Era
+            - 17.1c Jet Age
+        - '- Section: 17.2 Modern History:':
+            subsections:
+            - 17.2a Computer Age
+            - 17.2b Satellite Age
+            - 17.2c Digital Age
+        - '- Section: 17.3 Historical Lessons:':
+            subsections:
+            - 17.3a Lessons from Accidents
+            - 17.3b Lessons from Innovations
+            - 17.3c Lessons from Regulations
+    - '- Chapter 18: Air Traffic Control Regulations:':
+        sections:
+        - '- Section: 18.1 Regulatory Bodies:':
+            subsections:
+            - 18.1a International Civil Aviation Organization
+            - 18.1b Federal Aviation Administration
+            - 18.1c European Union Aviation Safety Agency
+        - '- Section: 18.2 Regulatory Standards:':
+            subsections:
+            - 18.2a Safety Standards
+            - 18.2b Operational Standards
+            - 18.2c Technical Standards
+        - '- Section: 18.3 Regulatory Compliance:':
+            subsections:
+            - 18.3a Compliance Monitoring
+            - 18.3b Compliance Enforcement
+            - 18.3c Compliance Improvement
+    - '- Chapter 19: Air Traffic Control Technology:':
+        sections:
+        - '- Section: 19.1 Communication Technology:':
+            subsections:
+            - 19.1a Voice Communication Systems
+            - 19.1b Data Communication Systems
+            - 19.1c Emergency Communication Systems
+        - '- Section: 19.2 Navigation Technology:':
+            subsections:
+            - 19.2a Ground-Based Navigation Systems
+            - 19.2b Satellite-Based Navigation Systems
+            - 19.2c Augmented Navigation Systems
+        - '- Section: 19.3 Surveillance Technology:':
+            subsections:
+            - 19.3a Primary Surveillance Radar
+            - 19.3b Secondary Surveillance Radar
+            - 19.3c Automatic Dependent Surveillance
+    - '- Chapter 20: Air Traffic Control Case Studies:':
+        sections:
+        - '- Section: 20.1 Case Study Method:':
+            subsections:
+            - 20.1a Case Selection
+            - 20.1b Case Analysis
+            - 20.1c Case Discussion
+        - '- Section: 20.2 Case Studies:':
+            subsections:
+            - 20.2a Case Study 1
+            - 20.2b Case Study 2
+            - 20.2c Case Study 3
+        - '- Section: 20.3 Lessons Learned:':
+            subsections:
+            - 20.3a Lessons from Case Study 1
+            - 20.3b Lessons from Case Study 2
+            - 20.3c Lessons from Case Study 3

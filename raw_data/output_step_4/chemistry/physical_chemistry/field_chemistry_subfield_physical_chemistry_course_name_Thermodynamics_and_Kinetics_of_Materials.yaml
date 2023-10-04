@@ -1,0 +1,307 @@
+textbook:
+  'Thermodynamics and Kinetics of Materials: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Irreversible Thermodynamics:':
+        sections:
+        - '- Section: 1.1 Fields and Gradients':
+            subsections: []
+        - '- Section: 1.2 Fluxes':
+            subsections: []
+        - '- Section: 1.3 Continuity Equation':
+            subsections: []
+        - '- Section: 1.4 Entropy Production':
+            subsections: []
+        - '- Section: 1.5 Conjugate Driving Forces and Fluxes':
+            subsections: []
+    - '- Chapter 2: Diffusional Transport:':
+        sections:
+        - '- Section: 2.1 Mass Diffusion in a Continuum':
+            subsections: []
+        - '- Section: 2.2 Diffusion Coefficients':
+            subsections: []
+        - '- Section: 2.3 Solutions to the Diffusion/Heat Equation':
+            subsections: []
+        - '- Section: 2.4 Atomistic Mechanisms of Diffusion':
+            subsections: []
+        - '- Section: 2.5 Diffusion in Ionic Crystals':
+            subsections: []
+        - '- Section: 2.6 Role of Microstructure in Diffusion; Short Circuits':
+            subsections: []
+    - '- Chapter 3: Nucleation and Growth:':
+        sections:
+        - '- Section: 3.1 Homogeneous and Heterogeneous Nucleation':
+            subsections: []
+        - '- Section: 3.2 Diffusional Growth':
+            subsections: []
+        - '- Section: 3.3 The ''Moving Boundary'' Problem':
+            subsections: []
+        - '- Section: 3.4 Solidification':
+            subsections: []
+        - '- Section: 3.5 Spinodal Decomposition':
+            subsections: []
+        - '- Section: 3.6 Particle Coarsening':
+            subsections: []
+        - '- Section: 3.7 Sintering':
+            subsections: []
+    - '- Chapter 4: Phase Transformations:':
+        sections:
+        - '- Section: 4.1 Gibbs Phase Rule':
+            subsections: []
+        - '- Section: 4.2 Lever Rule':
+            subsections: []
+        - '- Section: 4.3 Binary Eutectic Systems':
+            subsections: []
+        - '- Section: 4.4 Solid Solutions and Phase Diagrams':
+            subsections: []
+        - '- Section: 4.5 Precipitation Reactions':
+            subsections: []
+        - '- Section: 4.6 Martensitic Transformations':
+            subsections: []
+    - '- Chapter 5: Kinetics of Reactions:':
+        sections:
+        - '- Section: 5.1 Reaction Rates':
+            subsections: []
+        - '- Section: 5.2 Rate Laws':
+            subsections: []
+        - '- Section: 5.3 Reaction Mechanisms':
+            subsections: []
+        - '- Section: 5.4 Activation Energy':
+            subsections: []
+        - '- Section: 5.5 Transition State Theory':
+            subsections: []
+        - '- Section: 5.6 Catalysis':
+            subsections: []
+        - '- Section: 5.7 Enzyme Kinetics':
+            subsections: []
+        - '- Section: 5.8 Surface Reactions':
+            subsections: []
+        - '- Section: 5.9 Diffusion-Controlled Reactions':
+            subsections: []
+    - '- Chapter 6: Thermodynamics of Materials:':
+        sections:
+        - '- Section: 6.1 Energy and Enthalpy':
+            subsections: []
+        - '- Section: 6.2 Entropy and Entropy Generation':
+            subsections: []
+        - '- Section: 6.3 Free Energy and Equilibrium':
+            subsections: []
+        - '- Section: 6.4 Chemical Potential':
+            subsections: []
+        - '- Section: 6.5 Phase Equilibria':
+            subsections: []
+        - '- Section: 6.6 Thermodynamic Properties of Mixtures':
+            subsections: []
+        - '- Section: 6.7 Ideal and Non-ideal Solutions':
+            subsections: []
+        - '- Section: 6.8 Gibbs-Duhem Equation':
+            subsections: []
+        - '- Section: 6.9 Thermodynamics of Surfaces and Interfaces':
+            subsections: []
+        - '- Section: 6.10 Thermodynamics of Polymers':
+            subsections: []
+    - '- Chapter 7: Statistical Thermodynamics:':
+        sections:
+        - '- Section: 7.1 Boltzmann Distribution':
+            subsections: []
+        - '- Section: 7.2 Partition Function':
+            subsections: []
+        - '- Section: 7.3 Microstates and Macrostates':
+            subsections: []
+        - '- Section: 7.4 Ensembles':
+            subsections: []
+        - '- Section: 7.5 Ideal Gas Law':
+            subsections: []
+        - '- Section: 7.6 Maxwell-Boltzmann Distribution':
+            subsections: []
+        - '- Section: 7.7 Fermi-Dirac Distribution':
+            subsections: []
+        - '- Section: 7.8 Bose-Einstein Distribution':
+            subsections: []
+        - '- Section: 7.9 Quantum Statistics':
+            subsections: []
+        - '- Section: 7.10 Phase Transitions and Critical Phenomena':
+            subsections: []
+    - '- Chapter 8: Transport Phenomena:':
+        sections:
+        - '- Section: 8.1 Diffusion':
+            subsections: []
+        - '- Section: 8.2 Heat Conduction':
+            subsections: []
+        - '- Section: 8.3 Mass Transfer':
+            subsections: []
+        - '- Section: 8.4 Fluid Mechanics':
+            subsections: []
+        - '- Section: 8.5 Rheology':
+            subsections: []
+        - '- Section: 8.6 Convective Heat and Mass Transfer':
+            subsections: []
+        - '- Section: 8.7 Boundary Layer Theory':
+            subsections: []
+        - '- Section: 8.8 Turbulent Flow':
+            subsections: []
+        - '- Section: 8.9 Heat and Mass Transfer in Biological Systems':
+            subsections: []
+    - '- Chapter 9: Materials Characterization Techniques:':
+        sections:
+        - '- Section: 9.1 X-ray Diffraction':
+            subsections: []
+        - '- Section: 9.2 Scanning Electron Microscopy':
+            subsections: []
+        - '- Section: 9.3 Transmission Electron Microscopy':
+            subsections: []
+        - '- Section: 9.4 Atomic Force Microscopy':
+            subsections: []
+        - '- Section: 9.5 Spectroscopy Techniques':
+            subsections: []
+        - '- Section: 9.6 Thermal Analysis Techniques':
+            subsections: []
+        - '- Section: 9.7 Electron Microprobe Analysis':
+            subsections: []
+        - '- Section: 9.8 Auger Electron Spectroscopy':
+            subsections: []
+        - '- Section: 9.9 X-ray Photoelectron Spectroscopy':
+            subsections: []
+        - '- Section: 9.10 Secondary Ion Mass Spectrometry':
+            subsections: []
+        - '- Section: 9.11 Surface Science Techniques':
+            subsections: []
+        - '- Section: 9.12 Mechanical Testing Techniques':
+            subsections: []
+        - '- Section: 9.13 Thermal Testing Techniques':
+            subsections: []
+        - '- Section: 9.14 Chemical Analysis Techniques':
+            subsections: []
+    - '- Chapter 10: Thermodynamics of Reactions:':
+        sections:
+        - '- Section: 10.1 Reaction Enthalpy':
+            subsections: []
+        - '- Section: 10.2 Reaction Entropy':
+            subsections: []
+        - '- Section: 10.3 Reaction Free Energy':
+            subsections: []
+        - '- Section: 10.4 Reaction Equilibrium Constant':
+            subsections: []
+        - '- Section: 10.5 Reaction Rate Constant':
+            subsections: []
+        - '- Section: 10.6 Reaction Mechanism':
+            subsections: []
+        - '- Section: 10.7 Reaction Order':
+            subsections: []
+        - '- Section: 10.8 Reaction Molecularity':
+            subsections: []
+    - '- Chapter 11: Thermodynamics of Phase Transitions:':
+        sections:
+        - '- Section: 11.1 Phase Transition Enthalpy':
+            subsections: []
+        - '- Section: 11.2 Phase Transition Entropy':
+            subsections: []
+        - '- Section: 11.3 Phase Transition Free Energy':
+            subsections: []
+        - '- Section: 11.4 Phase Transition Temperature':
+            subsections: []
+        - '- Section: 11.5 Phase Diagrams':
+            subsections: []
+        - '- Section: 11.6 Phase Rule':
+            subsections: []
+    - '- Chapter 12: Thermodynamics of Solutions:':
+        sections:
+        - '- Section: 12.1 Solution Enthalpy':
+            subsections: []
+        - '- Section: 12.2 Solution Entropy':
+            subsections: []
+        - '- Section: 12.3 Solution Free Energy':
+            subsections: []
+        - '- Section: 12.4 Solution Activity':
+            subsections: []
+        - '- Section: 12.5 Solution Activity Coefficient':
+            subsections: []
+        - '- Section: 12.6 Solution Phase Diagrams':
+            subsections: []
+    - '- Chapter 13: Thermodynamics of Surfaces and Interfaces:':
+        sections:
+        - '- Section: 13.1 Surface Tension':
+            subsections: []
+        - '- Section: 13.2 Surface Excess':
+            subsections: []
+        - '- Section: 13.3 Surface Energy':
+            subsections: []
+        - '- Section: 13.4 Surface Thermodynamics':
+            subsections: []
+        - '- Section: 13.5 Interfacial Tension':
+            subsections: []
+        - '- Section: 13.6 Interfacial Energy':
+            subsections: []
+    - '- Chapter 14: Thermodynamics of Polymers:':
+        sections:
+        - '- Section: 14.1 Polymer Solution Thermodynamics':
+            subsections: []
+        - '- Section: 14.2 Polymer Blend Thermodynamics':
+            subsections: []
+        - '- Section: 14.3 Polymer Melting Thermodynamics':
+            subsections: []
+        - '- Section: 14.4 Polymer Glass Transition Thermodynamics':
+            subsections: []
+        - '- Section: 14.5 Polymer Crystallization Thermodynamics':
+            subsections: []
+    - '- Chapter 15: Thermodynamics of Biological Systems:':
+        sections:
+        - '- Section: 15.1 Bioenergetics':
+            subsections: []
+        - '- Section: 15.2 Thermodynamics of Metabolism':
+            subsections: []
+        - '- Section: 15.3 Thermodynamics of Photosynthesis':
+            subsections: []
+        - '- Section: 15.4 Thermodynamics of Protein Folding':
+            subsections: []
+        - '- Section: 15.5 Thermodynamics of Membrane Transport':
+            subsections: []
+    - '- Chapter 16: Thermodynamics of Nanomaterials:':
+        sections:
+        - '- Section: 16.1 Nanoparticle Thermodynamics':
+            subsections: []
+        - '- Section: 16.2 Quantum Size Effect':
+            subsections: []
+        - '- Section: 16.3 Thermodynamics of Self-Assembly':
+            subsections: []
+        - '- Section: 16.4 Thermodynamics of Nanostructured Materials':
+            subsections: []
+    - '- Chapter 17: Thermodynamics of Energy Storage:':
+        sections:
+        - '- Section: 17.1 Thermodynamics of Batteries':
+            subsections: []
+        - '- Section: 17.2 Thermodynamics of Fuel Cells':
+            subsections: []
+        - '- Section: 17.3 Thermodynamics of Supercapacitors':
+            subsections: []
+        - '- Section: 17.4 Thermodynamics of Solar Cells':
+            subsections: []
+    - '- Chapter 18: Thermodynamics of Energy Conversion:':
+        sections:
+        - '- Section: 18.1 Thermodynamics of Heat Engines':
+            subsections: []
+        - '- Section: 18.2 Thermodynamics of Refrigerators':
+            subsections: []
+        - '- Section: 18.3 Thermodynamics of Heat Pumps':
+            subsections: []
+        - '- Section: 18.4 Thermodynamics of Thermoelectric Devices':
+            subsections: []
+    - '- Chapter 19: Thermodynamics of Environmental Systems:':
+        sections:
+        - '- Section: 19.1 Thermodynamics of Air Pollution':
+            subsections: []
+        - '- Section: 19.2 Thermodynamics of Water Pollution':
+            subsections: []
+        - '- Section: 19.3 Thermodynamics of Soil Pollution':
+            subsections: []
+        - '- Section: 19.4 Thermodynamics of Climate Change':
+            subsections: []
+    - '- Chapter 20: Thermodynamics of Sustainable Systems:':
+        sections:
+        - '- Section: 20.1 Thermodynamics of Renewable Energy':
+            subsections: []
+        - '- Section: 20.2 Thermodynamics of Energy Efficiency':
+            subsections: []
+        - '- Section: 20.3 Thermodynamics of Carbon Capture and Storage':
+            subsections: []
+        - '- Section: 20.4 Thermodynamics of Waste-to-Energy Processes':
+            subsections: []

@@ -1,0 +1,202 @@
+textbook: 
+"Housing and Land Use in Rapidly Urbanizing Regions: Exploring Theory and Practice":
+
+chapters:
+- Chapter 1: Current Lenses on the Phenomenon:
+sections:
+- Section: 1.1 Introduction to Ho Chi Minh City cases: The urban periphery and urban core
+- Section: 1.2 The urban economics lens about urban land and housing
+- Section: 1.3 Political and sociological theory lens about urban land and housing
+- Section: 1.4 Legal theory lens about property rights
+- Section: 1.5 Everyday practices in public space: Way making, street vending
+- Section: 1.6 Critical cartography and the unmasking of spatial relations:
+subsections:
+- 1.6a The construction of new property relations
+- 1.6b SLAB research
+
+- Chapter 2: Land Titling and Regularization:
+sections:
+- Section: 2.1 Land titling and regularization
+- Section: 2.2 Land trusts and affordable housing
+- Section: 2.3 Land Use Planning:
+subsections:
+- 2.3a Urban Planning
+- 2.3b Rural Planning
+- 2.3c Land Use Regulations
+
+- Chapter 3: Guest speaker from Dudley Street Neighborhood Initiative: May Louie:
+sections:
+- Section: 3.1 A community's power of eminent domain
+- Section: 3.2 Community Development:
+subsections:
+- 3.2a Community Engagement
+- 3.2b Community-led Initiatives
+- 3.2c Role of Non-profit Organizations
+
+- Chapter 4: Land Takings and Compensation: How to Make Change, Social Cognition:
+sections:
+- Section: 4.1 Land takings and compensation: How to make change, social cognition
+- Section: 4.2 Social Impact Assessment:
+subsections:
+- 4.2a Social Impact Analysis
+- 4.2b Mitigation Measures
+- 4.2c Community Consultation
+
+- Chapter 5: Final Class: Presentations:
+sections:
+- Section: 5.1 Final Class: Presentations
+- Section: 5.2 Student Feedback:
+subsections:
+- 5.2a Course Evaluation
+- 5.2b Learning Outcomes
+- 5.2c Future Recommendations
+
+- Chapter 6: Urbanization and Land Use:
+sections:
+- Section: 6.1 Urbanization Trends
+- Section: 6.2 Land Use Patterns
+- Section: 6.3 Urban Sprawl:
+subsections:
+- 6.3a Causes of Urban Sprawl
+- 6.3b Impacts of Urban Sprawl
+- 6.3c Urban Sprawl Mitigation Strategies
+
+- Chapter 7: Housing Policies and Regulations:
+sections:
+- Section: 7.1 Housing Policies
+- Section: 7.2 Housing Regulations
+- Section: 7.3 Affordable Housing:
+subsections:
+- 7.3a Affordable Housing Programs
+- 7.3b Challenges in Affordable Housing
+- 7.3c Solutions for Affordable Housing
+
+- Chapter 8: Land Use Planning and Management:
+sections:
+- Section: 8.1 Land Use Planning
+- Section: 8.2 Land Management
+- Section: 8.3 Land Use Conflicts:
+subsections:
+- 8.3a Causes of Land Use Conflicts
+- 8.3b Resolution of Land Use Conflicts
+- 8.3c Case Studies of Land Use Conflicts
+
+- Chapter 9: Urban Design and Public Spaces:
+sections:
+- Section: 9.1 Urban Design Principles
+- Section: 9.2 Public Spaces
+- Section: 9.3 Urban Green Spaces:
+subsections:
+- 9.3a Importance of Urban Green Spaces
+- 9.3b Challenges in Urban Green Spaces
+- 9.3c Urban Green Spaces Management
+
+- Chapter 10: Urban Infrastructure and Services:
+sections:
+- Section: 10.1 Urban Infrastructure
+- Section: 10.2 Urban Services
+- Section: 10.3 Urban Transportation:
+subsections:
+- 10.3a Urban Transportation Systems
+- 10.3b Challenges in Urban Transportation
+- 10.3c Urban Transportation Planning
+
+- Chapter 11: Urban Governance and Participation:
+sections:
+- Section: 11.1 Urban Governance
+- Section: 11.2 Citizen Participation
+- Section: 11.3 Community-led Development:
+subsections:
+- 11.3a Community-led Development Initiatives
+- 11.3b Role of Community in Urban Development
+- 11.3c Case Studies of Community-led Development
+
+- Chapter 12: Urban Environmental Challenges:
+sections:
+- Section: 12.1 Urban Pollution
+- Section: 12.2 Urban Heat Island Effect
+- Section: 12.3 Urban Resilience:
+subsections:
+- 12.3a Urban Resilience Strategies
+- 12.3b Urban Climate Adaptation
+- 12.3c Urban Disaster Risk Reduction
+
+- Chapter 13: Urban Poverty and Inequality:
+sections:
+- Section: 13.1 Urban Poverty
+- Section: 13.2 Urban Inequality
+- Section: 13.3 Slums and Informal Settlements:
+subsections:
+- 13.3a Characteristics of Slums and Informal Settlements
+- 13.3b Challenges in Slums and Informal Settlements
+- 13.3c Slum Upgrading Strategies
+
+- Chapter 14: Urban Migration and Demographics:
+sections:
+- Section: 14.1 Urban Migration
+- Section: 14.2 Urban Demographics
+- Section: 14.3 Urbanization and Aging Population:
+subsections:
+- 14.3a Aging Population in Urban Areas
+- 14.3b Challenges of Aging Population in Urban Areas
+- 14.3c Solutions for Aging Population in Urban Areas
+
+- Chapter 15: Urban Heritage and Culture:
+sections:
+- Section: 15.1 Urban Heritage
+- Section: 15.2 Urban Culture
+- Section: 15.3 Heritage Conservation:
+subsections:
+- 15.3a Heritage Conservation Strategies
+- 15.3b Challenges in Heritage Conservation
+- 15.3c Case Studies of Heritage Conservation
+
+- Chapter 16: Urban Economy and Livelihoods:
+sections:
+- Section: 16.1 Urban Economy
+- Section: 16.2 Urban Livelihoods
+- Section: 16.3 Urban Informal Economy:
+subsections:
+- 16.3a Characteristics of Urban Informal Economy
+- 16.3b Challenges in Urban Informal Economy
+- 16.3c Solutions for Urban Informal Economy
+
+- Chapter 17: Urban Health and Well-being:
+sections:
+- Section: 17.1 Urban Health
+- Section: 17.2 Urban Well-being
+- Section: 17.3 Urban Health Inequalities:
+subsections:
+- 17.3a Causes of Urban Health Inequalities
+- 17.3b Impacts of Urban Health Inequalities
+- 17.3c Solutions for Urban Health Inequalities
+
+- Chapter 18: Urban Education and Skills:
+sections:
+- Section: 18.1 Urban Education
+- Section: 18.2 Urban Skills
+- Section: 18.3 Urban Education Inequalities:
+subsections:
+- 18.3a Causes of Urban Education Inequalities
+- 18.3b Impacts of Urban Education Inequalities
+- 18.3c Solutions for Urban Education Inequalities
+
+- Chapter 19: Urban Crime and Safety:
+sections:
+- Section: 19.1 Urban Crime
+- Section: 19.2 Urban Safety
+- Section: 19.3 Urban Crime Prevention:
+subsections:
+- 19.3a Urban Crime Prevention Strategies
+- 19.3b Role of Community in Crime Prevention
+- 19.3c Case Studies of Urban Crime Prevention
+
+- Chapter 20: Urban Future and Sustainable Development:
+sections:
+- Section: 20.1 Urban Future
+- Section: 20.2 Urban Sustainable Development
+- Section: 20.3 Smart Cities:
+subsections:
+- 20.3a Concept of Smart Cities
+- 20.3b Challenges in Smart Cities
+- 20.3c Case Studies of Smart Cities

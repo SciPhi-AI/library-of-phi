@@ -1,0 +1,187 @@
+textbook: 
+"Risk Aware and Robust Nonlinear Planning: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction and Overview of the Course:
+sections:
+- Section: 1.1 Course Number and Name
+- Section: 1.2 Resource Level
+- Section: 1.3 Page: Readings
+- Section: 1.4 Page: Lecture Notes
+- Section: 1.5 Page: Recitations
+- Section: 1.6 Page: Assignments
+- Section: 1.7 Page: Exams
+- Section: 1.8 Page: Syllabus
+- Section: 1.9 Page: Calendar
+- Section: 1.10 Page: Projects
+
+- Chapter 2: Overview of Nonlinear Optimization:
+sections:
+- Section: 2.1 Optimality Conditions
+- Section: 2.2 Newton's Method
+- Section: 2.3 Interior Point Method
+- Section: 2.4 Dual Optimization
+- Section: 2.5 Convex Optimization
+- Section: 2.6 Linear Program
+- Section: 2.7 Semidefinite Program
+- Section: 2.8 Nonlinear Programming
+
+- Chapter 3: Sum of Squares for Nonlinear Optimization:
+sections:
+- Section: 3.1 Nonnegative Polynomials
+- Section: 3.2 SOS Formulation
+- Section: 3.3 SOS Decomposition
+- Section: 3.4 SOS Hierarchy
+- Section: 3.5 SOS Relaxations
+
+- Chapter 4: Measure and Moments for Nonlinear Optimization:
+sections:
+- Section: 4.1 Theory of Measure and Moments
+- Section: 4.2 Moment Matrices
+- Section: 4.3 Moment Relaxations
+
+- Chapter 5: Duality of SOS and Moment-Based SDPs:
+sections:
+- Section: 5.1 Dual Relationship
+- Section: 5.2 Moment-Based SDPs
+- Section: 5.3 Duality Theorems
+
+- Chapter 6: Modified Sum-of-Squares Relaxations for Large-Scale Optimizations:
+sections:
+- Section: 6.1 Large-Scale Optimizations
+- Section: 6.2 Modified SOS Relaxations
+- Section: 6.3 SDP Hierarchies
+
+- Chapter 7: Nonlinear Chance-Constrained and Chance Optimization:
+sections:
+- Section: 7.1 Chance-Constrained Optimization
+- Section: 7.2 Chance Optimization
+- Section: 7.3 Stochastic Programming
+
+- Chapter 8: Nonlinear Robust and Distributionally Robust Chance-Const:
+sections:
+- Section: 8.1 Robust Chance-Constrained Optimization
+- Section: 8.2 Distributionally Robust Chance-Constrained Optimization
+- Section: 8.3 Robust Optimization
+
+- Chapter 9: Final Research Project:
+sections:
+- Section: 9.1 Description
+- Section: 9.2 Page: Final Project
+subsections:
+- 9.2a Project Proposal
+- 9.2b Literature Review
+- 9.2c Methodology
+- 9.2d Experimental Results
+- 9.2e Conclusion
+- 9.2f References
+
+- Chapter 10: Advanced Nonlinear Optimization Techniques:
+sections:
+- Section: 10.1 Gradient Descent Methods
+- Section: 10.2 Conjugate Gradient Methods
+- Section: 10.3 Quasi-Newton Methods
+subsections:
+- 10.3a Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+- 10.3b Limited-memory BFGS (L-BFGS)
+- 10.3c Symmetric Rank-One (SR1)
+
+- Chapter 11: Global Optimization Techniques:
+sections:
+- Section: 11.1 Simulated Annealing
+- Section: 11.2 Genetic Algorithms
+- Section: 11.3 Particle Swarm Optimization
+subsections:
+- 11.3a Basic Principles
+- 11.3b Variants and Improvements
+- 11.3c Applications in Nonlinear Planning
+
+- Chapter 12: Multi-objective Optimization:
+sections:
+- Section: 12.1 Pareto Optimality
+- Section: 12.2 Multi-objective Evolutionary Algorithms
+- Section: 12.3 Weighted Sum Approach
+subsections:
+- 12.3a Basic Principles
+- 12.3b Limitations and Challenges
+- 12.3c Applications in Nonlinear Planning
+
+- Chapter 13: Constraint Handling in Nonlinear Optimization:
+sections:
+- Section: 13.1 Penalty Function Methods
+- Section: 13.2 Barrier Function Methods
+- Section: 13.3 Sequential Quadratic Programming
+subsections:
+- 13.3a Basic Principles
+- 13.3b Variants and Improvements
+- 13.3c Applications in Nonlinear Planning
+
+- Chapter 14: Uncertainty Quantification in Nonlinear Planning:
+sections:
+- Section: 14.1 Probabilistic Methods
+- Section: 14.2 Interval Analysis
+- Section: 14.3 Fuzzy Set Theory
+subsections:
+- 14.3a Basic Principles
+- 14.3b Fuzzy Optimization
+- 14.3c Applications in Nonlinear Planning
+
+- Chapter 15: Robust Optimization under Uncertainty:
+sections:
+- Section: 15.1 Worst-case Optimization
+- Section: 15.2 Robust Counterpart
+- Section: 15.3 Scenario-based Optimization
+subsections:
+- 15.3a Basic Principles
+- 15.3b Scenario Generation
+- 15.3c Applications in Nonlinear Planning
+
+- Chapter 16: Stochastic Programming:
+sections:
+- Section: 16.1 Two-stage Stochastic Programming
+- Section: 16.2 Multi-stage Stochastic Programming
+- Section: 16.3 Stochastic Dynamic Programming
+subsections:
+- 16.3a Basic Principles
+- 16.3b Variants and Improvements
+- 16.3c Applications in Nonlinear Planning
+
+- Chapter 17: Metaheuristics for Nonlinear Planning:
+sections:
+- Section: 17.1 Tabu Search
+- Section: 17.2 Ant Colony Optimization
+- Section: 17.3 Harmony Search
+subsections:
+- 17.3a Basic Principles
+- 17.3b Variants and Improvements
+- 17.3c Applications in Nonlinear Planning
+
+- Chapter 18: Machine Learning for Nonlinear Planning:
+sections:
+- Section: 18.1 Supervised Learning
+- Section: 18.2 Unsupervised Learning
+- Section: 18.3 Reinforcement Learning
+subsections:
+- 18.3a Basic Principles
+- 18.3b Q-Learning
+- 18.3c Applications in Nonlinear Planning
+
+- Chapter 19: Deep Learning for Nonlinear Planning:
+sections:
+- Section: 19.1 Neural Networks
+- Section: 19.2 Convolutional Neural Networks
+- Section: 19.3 Recurrent Neural Networks
+subsections:
+- 19.3a Basic Principles
+- 19.3b Long Short-Term Memory (LSTM)
+- 19.3c Applications in Nonlinear Planning
+
+- Chapter 20: Case Studies in Nonlinear Planning:
+sections:
+- Section: 20.1 Case Study: Manufacturing Planning
+- Section: 20.2 Case Study: Supply Chain Planning
+- Section: 20.3 Case Study: Energy Planning
+subsections:
+- 20.3a Basic Principles
+- 20.3b Optimization Models
+- 20.3c Results and Discussion

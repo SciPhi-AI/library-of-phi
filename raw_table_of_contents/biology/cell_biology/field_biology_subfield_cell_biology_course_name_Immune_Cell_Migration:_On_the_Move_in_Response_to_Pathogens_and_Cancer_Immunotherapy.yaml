@@ -1,0 +1,363 @@
+textbook:
+  'Immune Cell Migration: A Comprehensive Guide to Pathogen Response and Cancer Immunotherapy":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Importance of immune cell migration:':
+            subsections:
+            - 1.1a Definition and Importance
+            - 1.1b Role in Immune System
+            - 1.1c Mechanisms of Immune Cell Migration
+        - '- Section: 1.2 Role of immune cell migration in response to pathogens:':
+            subsections:
+            - 1.2a Pathogen Recognition
+            - 1.2b Immune Response to Pathogens
+            - 1.2c Immune Cell Migration in Pathogen Response
+        - '- Section: 1.3 Role of immune cell migration in cancer immunotherapy:':
+            subsections:
+            - 1.3a Cancer Immunotherapy Overview
+            - 1.3b Role of Immune Cells in Cancer Immunotherapy
+            - 1.3c Immune Cell Migration in Cancer Immunotherapy
+    - '- Chapter 2: Immune Responses to Cancer:':
+        sections:
+        - '- Section: 2.1 Type, Density, and Location of Immune Cells Within Tumors:':
+            subsections:
+            - 2.1a Immune Cell Types in Tumors
+            - 2.1b Density and Location of Immune Cells in Tumors
+            - 2.1c Impact on Tumor Progression and Treatment
+        - '- Section: 2.2 Clinical Outcome Predictions:':
+            subsections:
+            - 2.2a Role of Immune Cells in Outcome Predictions
+            - 2.2b Predictive Models
+            - 2.2c Clinical Applications
+        - "- Section: 2.3 IFN\u03B3 and Lymphocytes in Tumor Development Prevention:":
+            subsections:
+            - "2.3a Role of IFN\u03B3 in Tumor Prevention"
+            - 2.3b Role of Lymphocytes in Tumor Prevention
+            - "2.3c Interaction of IFN\u03B3 and Lymphocytes in Tumor Prevention"
+        - '- Section: 2.4 Tumor Immunogenicity:':
+            subsections:
+            - 2.4a Definition and Importance of Tumor Immunogenicity
+            - 2.4b Factors Influencing Tumor Immunogenicity
+            - 2.4c Impact on Immune Response and Treatment
+        - '- Section: 2.5 Immune Cell Infiltration in Tumor Microenvironment:':
+            subsections:
+            - 2.5a Mechanisms of Immune Cell Infiltration
+            - 2.5b Role in Tumor Progression and Treatment
+            - 2.5c Therapeutic Strategies Targeting Immune Cell Infiltration
+        - '- Section: 2.6 Immune Checkpoint Inhibitors and Their Effects on Tumor Immunity:':
+            subsections:
+            - 2.6a Overview of Immune Checkpoint Inhibitors
+            - 2.6b Effects on Tumor Immunity
+            - 2.6c Clinical Applications and Challenges
+    - '- Chapter 3: The Physical Basis of Cell Motility I:':
+        sections:
+        - '- Section: 3.1 Cell Motility Mechanisms:':
+            subsections:
+            - 3.1a Overview of Cell Motility Mechanisms
+            - 3.1b Role in Immune Cell Function
+            - 3.1c Impact on Immune Response
+        - '- Section: 3.2 Actin Cytoskeleton:':
+            subsections:
+            - 3.2a Role of Actin Cytoskeleton in Cell Motility
+            - 3.2b Actin Dynamics and Regulation
+            - 3.2c Impact on Immune Cell Migration
+        - '- Section: 3.3 Lamellipodia and Filopodia Formation:':
+            subsections:
+            - 3.3a Mechanisms of Lamellipodia and Filopodia Formation
+            - 3.3b Role in Cell Motility
+            - 3.3c Impact on Immune Cell Migration
+        - '- Section: 3.4 Membrane Protrusion and Cell Migration:':
+            subsections:
+            - 3.4a Mechanisms of Membrane Protrusion
+            - 3.4b Role in Cell Migration
+            - 3.4c Impact on Immune Cell Migration
+    - '- Chapter 4: The Physical Basis of Cell Motility II:':
+        sections:
+        - '- Section: 4.1 Microtubule Dynamics:':
+            subsections:
+            - 4.1a Role of Microtubules in Cell Motility
+            - 4.1b Microtubule Dynamics and Regulation
+            - 4.1c Impact on Immune Cell Migration
+        - '- Section: 4.2 Molecular Motors:':
+            subsections:
+            - 4.2a Overview of Molecular Motors
+            - 4.2b Role in Cell Motility
+            - 4.2c Impact on Immune Cell Migration
+        - '- Section: 4.3 Cell Polarization:':
+            subsections:
+            - 4.3a Mechanisms of Cell Polarization
+            - 4.3b Role in Cell Motility
+            - 4.3c Impact on Immune Cell Migration
+        - '- Section: 4.4 Cell Contractility and Migration:':
+            subsections:
+            - 4.4a Mechanisms of Cell Contractility
+            - 4.4b Role in Cell Migration
+            - 4.4c Impact on Immune Cell Migration
+    - '- Chapter 5: Specialized Adhesions Formed by Immune Cells:':
+        sections:
+        - '- Section: 5.1 Immunological Synapse:':
+            subsections:
+            - 5.1a Overview of Immunological Synapse
+            - 5.1b Role in Immune Cell Function
+            - 5.1c Impact on Immune Response
+        - '- Section: 5.2 Integrins and Adhesion Molecules:':
+            subsections:
+            - 5.2a Role of Integrins and Adhesion Molecules in Immune Cell Adhesion
+            - 5.2b Regulation and Function
+            - 5.2c Impact on Immune Cell Migration
+        - '- Section: 5.3 Cell-Cell and Cell-Extracellular Matrix Interactions:':
+            subsections:
+            - 5.3a Mechanisms of Cell-Cell and Cell-ECM Interactions
+            - 5.3b Role in Immune Cell Adhesion and Migration
+            - 5.3c Impact on Immune Response
+        - '- Section: 5.4 Immune Cell Adhesion and Migration:':
+            subsections:
+            - 5.4a Mechanisms of Immune Cell Adhesion and Migration
+            - 5.4b Role in Immune Response
+            - 5.4c Therapeutic Strategies Targeting Immune Cell Adhesion and Migration
+        - '- Section: 5.5 Immune Cell-Endothelial Cell Interactions:':
+            subsections:
+            - 5.5a Mechanisms of Immune Cell-Endothelial Cell Interactions
+            - 5.5b Role in Immune Cell Migration
+            - 5.5c Impact on Immune Response
+    - '- Chapter 6: Modes of Cell Migration in and out of Confinement:':
+        sections:
+        - '- Section: 6.1 Chemotaxis:':
+            subsections:
+            - 6.1a Mechanisms of Chemotaxis
+            - 6.1b Role in Immune Cell Migration
+            - 6.1c Impact on Immune Response
+        - '- Section: 6.2 Haptotaxis:':
+            subsections:
+            - 6.2a Mechanisms of Haptotaxis
+            - 6.2b Role in Immune Cell Migration
+            - 6.2c Impact on Immune Response
+        - '- Section: 6.3 Transmigration:':
+            subsections:
+            - 6.3a Mechanisms of Transmigration
+            - 6.3b Role in Immune Cell Migration
+            - 6.3c Impact on Immune Response
+        - '- Section: 6.4 Extravasation:':
+            subsections:
+            - 6.4a Mechanisms of Extravasation
+            - 6.4b Role in Immune Cell Migration
+            - 6.4c Impact on Immune Response
+        - '- Section: 6.5 Immune Cell Migration in Lymph Nodes:':
+            subsections:
+            - 6.5a Mechanisms of Immune Cell Migration in Lymph Nodes
+            - 6.5b Role in Immune Response
+            - 6.5c Therapeutic Strategies Targeting Lymph Node Migration
+        - '- Section: 6.6 Immune Cell Migration in Tissues:':
+            subsections:
+            - 6.6a Mechanisms of Immune Cell Migration in Tissues
+            - 6.6b Role in Immune Response
+            - 6.6c Therapeutic Strategies Targeting Tissue Migration
+    - '- Chapter 7: Signals that Guide Immune Cell Motility:':
+        sections:
+        - '- Section: 7.1 Chemokine Signaling:':
+            subsections:
+            - 7.1a Overview of Chemokine Signaling
+            - 7.1b Role in Immune Cell Migration
+            - 7.1c Impact on Immune Response
+        - '- Section: 7.2 Growth Factors and Cytokines:':
+            subsections:
+            - 7.2a Role of Growth Factors and Cytokines in Immune Cell Migration
+            - 7.2b Regulation and Function
+            - 7.2c Impact on Immune Response
+        - '- Section: 7.3 Tumor Microenvironment Signals:':
+            subsections:
+            - 7.3a Overview of Tumor Microenvironment Signals
+            - 7.3b Role in Immune Cell Migration
+            - 7.3c Impact on Tumor Immunity
+        - '- Section: 7.4 Immune Cell Guidance by Soluble Factors:':
+            subsections:
+            - 7.4a Mechanisms of Immune Cell Guidance by Soluble Factors
+            - 7.4b Role in Immune Cell Migration
+            - 7.4c Impact on Immune Response
+        - '- Section: 7.5 Immune Cell Guidance by ECM Components:':
+            subsections:
+            - 7.5a Mechanisms of Immune Cell Guidance by ECM Components
+            - 7.5b Role in Immune Cell Migration
+            - 7.5c Impact on Immune Response
+    - '- Chapter 8: Integrating Start and Stop Signals in Immune Cells:':
+        sections:
+        - '- Section: 8.1 Receptor Signaling:':
+            subsections:
+            - 8.1a Overview of Receptor Signaling in Immune Cells
+            - 8.1b Role in Immune Cell Activation and Migration
+            - 8.1c Impact on Immune Response
+        - '- Section: 8.2 Intracellular Signaling Pathways:':
+            subsections:
+            - 8.2a Overview of Intracellular Signaling Pathways in Immune Cells
+            - 8.2b Role in Immune Cell Activation and Migration
+            - 8.2c Impact on Immune Response
+        - '- Section: 8.3 Immune Cell Activation and Inhibition:':
+            subsections:
+            - 8.3a Mechanisms of Immune Cell Activation and Inhibition
+            - 8.3b Role in Immune Cell Migration
+            - 8.3c Impact on Immune Response
+        - '- Section: 8.4 Immune Cell Migration Regulation:':
+            subsections:
+            - 8.4a Mechanisms of Immune Cell Migration Regulation
+            - 8.4b Role in Immune Response
+            - 8.4c Therapeutic Strategies Targeting Immune Cell Migration Regulation
+    - '- Chapter 9: Making Decisions:':
+        sections:
+        - '- Section: 9.1 Cell Fate Decisions:':
+            subsections:
+            - 9.1a Mechanisms of Cell Fate Decisions
+            - 9.1b Role in Immune Cell Function
+            - 9.1c Impact on Immune Response
+        - '- Section: 9.2 Cell Differentiation:':
+            subsections:
+            - 9.2a Mechanisms of Cell Differentiation
+            - 9.2b Role in Immune Cell Function
+            - 9.2c Impact on Immune Response
+        - '- Section: 9.3 Cell Death:':
+            subsections:
+            - 9.3a Mechanisms of Cell Death
+            - 9.3b Role in Immune Cell Function
+            - 9.3c Impact on Immune Response
+        - '- Section: 9.4 Immune Cell Fate Determination:':
+            subsections:
+            - 9.4a Mechanisms of Immune Cell Fate Determination
+            - 9.4b Role in Immune Response
+            - 9.4c Therapeutic Strategies Targeting Immune Cell Fate Determination
+        - '- Section: 9.5 Immune Cell Differentiation and Polarization:':
+            subsections:
+            - 9.5a Mechanisms of Immune Cell Differentiation and Polarization
+            - 9.5b Role in Immune Response
+            - 9.5c Therapeutic Strategies Targeting Immune Cell Differentiation and
+              Polarization
+    - '- Chapter 10: Migration in Immune and Nonimmune Tissues:':
+        sections:
+        - '- Section: 10.1 Lymphocyte Homing:':
+            subsections:
+            - 10.1a Mechanisms of Lymphocyte Homing
+            - 10.1b Role in Immune Response
+            - 10.1c Therapeutic Strategies Targeting Lymphocyte Homing
+        - '- Section: 10.2 Dendritic Cell Migration:':
+            subsections:
+            - 10.2a Mechanisms of Dendritic Cell Migration
+            - 10.2b Role in Immune Response
+            - 10.2c Therapeutic Strategies Targeting Dendritic Cell Migration
+        - '- Section: 10.3 Fibroblast Migration:':
+            subsections:
+            - 10.3a Mechanisms of Fibroblast Migration
+            - 10.3b Role in Immune Response
+            - 10.3c Therapeutic Strategies Targeting Fibroblast Migration
+        - '- Section: 10.4 Neutrophil Migration:':
+            subsections:
+            - 10.4a Mechanisms of Neutrophil Migration
+            - 10.4b Role in Immune Response
+            - 10.4c Therapeutic Strategies Targeting Neutrophil Migration
+        - '- Section: 10.5 Immune Cell Migration in Inflammation:':
+            subsections:
+            - 10.5a Mechanisms of Immune Cell Migration in Inflammation
+            - 10.5b Role in Immune Response
+            - 10.5c Therapeutic Strategies Targeting Immune Cell Migration in Inflammation
+        - '- Section: 10.6 Immune Cell Migration in Wound Healing:':
+            subsections:
+            - 10.6a Mechanisms of Immune Cell Migration in Wound Healing
+            - 10.6b Role in Immune Response
+            - 10.6c Therapeutic Strategies Targeting Immune Cell Migration in Wound
+              Healing
+    - '- Chapter 11: Cytoskeletal Regulation of Immune Cell Functions:':
+        sections:
+        - '- Section: 11.1 Actin Remodeling and Cell Shape Changes:':
+            subsections:
+            - 11.1a Mechanisms of Actin Remodeling
+            - 11.1b Role in Cell Shape Changes
+            - 11.1c Impact on Immune Cell Functions
+        - '- Section: 11.2 Microtubule Dynamics and Intracellular Transport:':
+            subsections:
+            - 11.2a Role of Microtubule Dynamics in Intracellular Transport
+            - 11.2b Regulation and Function
+            - 11.2c Impact on Immune Cell Functions
+        - '- Section: 11.3 Intermediate Filament Function:':
+            subsections:
+            - 11.3a Role of Intermediate Filaments in Immune Cell Functions
+            - 11.3b Regulation and Function
+            - 11.3c Impact on Immune Cell Functions
+        - '- Section: 11.4 Cytoskeletal Regulation of Immune Cell Activation:':
+            subsections:
+            - 11.4a Mechanisms of Cytoskeletal Regulation of Immune Cell Activation
+            - 11.4b Role in Immune Response
+            - 11.4c Therapeutic Strategies Targeting Cytoskeletal Regulation of Immune
+              Cell Activation
+        - '- Section: 11.5 Cytoskeletal Regulation of Immune Cell Polarization:':
+            subsections:
+            - 11.5a Mechanisms of Cytoskeletal Regulation of Immune Cell Polarization
+            - 11.5b Role in Immune Response
+            - 11.5c Therapeutic Strategies Targeting Cytoskeletal Regulation of Immune
+              Cell Polarization
+    - '- Chapter 12: Immune Cell Migration in Disease:':
+        sections:
+        - '- Section: 12.1 Immune Cell Migration in Infectious Diseases:':
+            subsections:
+            - 12.1a Mechanisms of Immune Cell Migration in Infectious Diseases
+            - 12.1b Role in Immune Response
+            - 12.1c Therapeutic Strategies Targeting Immune Cell Migration in Infectious
+              Diseases
+        - '- Section: 12.2 Immune Cell Migration in Autoimmune Diseases:':
+            subsections:
+            - 12.2a Mechanisms of Immune Cell Migration in Autoimmune Diseases
+            - 12.2b Role in Immune Response
+            - 12.2c Therapeutic Strategies Targeting Immune Cell Migration in Autoimmune
+              Diseases
+        - '- Section: 12.3 Immune Cell Migration in Allergic Reactions:':
+            subsections:
+            - 12.3a Mechanisms of Immune Cell Migration in Allergic Reactions
+            - 12.3b Role in Immune Response
+            - 12.3c Therapeutic Strategies Targeting Immune Cell Migration in Allergic
+              Reactions
+        - '- Section: 12.4 Immune Cell Migration in Immunodeficiency Disorders:':
+            subsections:
+            - 12.4a Mechanisms of Immune Cell Migration in Immunodeficiency Disorders
+            - 12.4b Role in Immune Response
+            - 12.4c Therapeutic Strategies Targeting Immune Cell Migration in Immunodeficiency
+              Disorders
+    - '- Chapter 13: Oral Presentations and Wrap-Up:':
+        sections:
+        - '- Section: 13.1 Student Presentations on Course-related Topics:':
+            subsections:
+            - 13.1a Overview of Student Presentations
+            - 13.1b Evaluation and Feedback
+            - 13.1c Impact on Learning
+        - '- Section: 13.2 Course Summary and Key Takeaways:':
+            subsections:
+            - 13.2a Recap of Course Content
+            - 13.2b Key Takeaways
+            - 13.2c Future Directions in Immune Cell Migration Research
+    - '- Chapter 14: Immune Cell Migration in Aging:':
+        sections:
+        - '- Section: 14.1 Mechanisms of Immune Cell Migration in Aging:':
+            subsections:
+            - 14.1a Overview of Aging and Immune Cell Migration
+            - 14.1b Role in Immune Response
+            - 14.1c Therapeutic Strategies Targeting Immune Cell Migration in Aging
+        - '- Section: 14.2 Aging and Immune Cell Function:':
+            subsections:
+            - 14.2a Impact of Aging on Immune Cell Function
+            - 14.2b Role in Immune Response
+            - 14.2c Therapeutic Strategies Targeting Aging and Immune Cell Function
+        - '- Section: 14.3 Aging and Immune Response:':
+            subsections:
+            - 14.3a Impact of Aging on Immune Response
+            - 14.3b Role in Disease Progression
+            - 14.3c Therapeutic Strategies Targeting Aging and Immune Response
+    - '- Chapter 15: Immune Cell Migration in Pregnancy:':
+        sections:
+        - '- Section: 15.1 Mechanisms of Immune Cell Migration in Pregnancy:':
+            subsections:
+            - 15.1a Overview of Pregnancy and Immune Cell Migration
+            - 15.1b Role in Immune Response
+            - 15.1c Therapeutic Strategies Targeting Immune Cell Migration in Pregnancy
+        - '- Section: 15.2 Pregnancy and Immune Cell Function:':
+            subsections:
+            - 15.2a Impact of Pregnancy on Immune Cell Function
+            - 15.2b Role in Immune Response
+            - 15.2c Therapeutic Strategies Targeting Pregnancy and Immune Cell Function
+        - '- Section: 15.':
+            subsections: []

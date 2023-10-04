@@ -1,0 +1,279 @@
+textbook:
+  'Digital Mock-Up Workshop: A Comprehensive Guide to Digital Fabrication and Design":':
+    chapters:
+    - '- Chapter 1: Systems Engineering for Digital Fabrication:':
+        sections:
+        - '- Section: 1.1 Digital Mock-Ups:':
+            subsections:
+            - 1.1a Introduction to Digital Mock-Ups
+            - 1.1b Applications of Digital Mock-Ups
+            - 1.1c Case Studies in Digital Mock-Ups
+        - '- Section: 1.2 Tall Building Design:':
+            subsections:
+            - 1.2a Design Considerations for Tall Buildings
+            - 1.2b Structural Systems for Tall Buildings
+            - 1.2c Sustainable Design Strategies for Tall Buildings
+    - '- Chapter 2: Research Case - Design Production:':
+        sections:
+        - '- Section: 2.1 Research Case - Design Production:':
+            subsections:
+            - 2.1a Introduction to Design Production
+            - 2.1b Case Studies in Design Production
+            - 2.1c Future Trends in Design Production
+        - '- Section: 2.2 Materials and Assemblies:':
+            subsections:
+            - 2.2a Material Selection and Properties
+            - 2.2b Assembly Techniques for Digital Fabrication
+            - 2.2c Case Studies in Design Production
+    - "- Chapter 3: Fa\xE7ade Design:":
+        sections:
+        - "- Section: 3.1 Fa\xE7ade Design:":
+            subsections:
+            - "3.1a Principles of Fa\xE7ade Design"
+            - "3.1b Fa\xE7ade Design Techniques"
+            - "3.1c Case Studies in Fa\xE7ade Design"
+        - "- Section: 3.2 Fa\xE7ade Redesign:":
+            subsections:
+            - "3.2a Principles of Fa\xE7ade Redesign"
+            - "3.2b Performance Analysis of Fa\xE7ades"
+            - "3.2c Retrofitting Existing Fa\xE7ades"
+    - '- Chapter 4: Field Trip:':
+        sections:
+        - '- Section: 4.1 Field Trip to NYC:':
+            subsections:
+            - 4.1a Architectural Highlights in NYC
+            - 4.1b Reflections on NYC Field Trip
+            - 4.1c Learnings from NYC Field Trip
+        - '- Section: 4.2 Field Trip to London:':
+            subsections:
+            - 4.2a Architectural Highlights in London
+            - 4.2b Reflections on London Field Trip
+            - 4.2c Learnings from London Field Trip
+    - '- Chapter 5: Tower Design:':
+        sections:
+        - '- Section: 5.1 Tower Design 1:':
+            subsections:
+            - 5.1a Introduction to Tower Design
+            - 5.1b Design Principles for Towers
+            - 5.1c Case Studies in Tower Design
+        - '- Section: 5.2 Tower Design 2:':
+            subsections:
+            - 5.2a Advanced Tower Design Techniques
+            - 5.2b Parametric Design Approaches for Towers
+            - 5.2c Case Studies in Advanced Tower Design
+        - '- Section: 5.3 Tower Design 3:':
+            subsections:
+            - 5.3a Innovative Tower Design Concepts
+            - 5.3b Future Trends in Tower Design
+            - 5.3c Case Studies in Innovative Tower Design
+        - '- Section: 5.4 Redesign:':
+            subsections:
+            - 5.4a Principles of Redesigning Existing Towers
+            - 5.4b Case Studies in Tower Redesign
+            - 5.4c Future Trends in Tower Redesign
+    - '- Chapter 6: Final Presentation:':
+        sections:
+        - '- Section: 6.1 Final Presentation:':
+            subsections:
+            - 6.1a Effective Presentation Techniques
+            - 6.1b Visual Communication Strategies
+            - 6.1c Public Speaking Tips
+    - '- Chapter 7: Analysis of a Tower:':
+        sections:
+        - '- Section: 7.1 Module 1: Analysis of existing tower design due:':
+            subsections:
+            - 7.1a Introduction to Tower Analysis
+            - 7.1b Structural Evaluation Methods
+            - 7.1c Case Studies in Tower Analysis
+    - '- Chapter 8: Mockup:':
+        sections:
+        - '- Section: 8.1 Module 2: Mockup due:':
+            subsections:
+            - 8.1a Importance of Mockups in Design Process
+            - 8.1b Mockup Construction Techniques
+            - 8.1c Evaluating Mockup Performance
+    - '- Chapter 9: Engineering Assemblies:':
+        sections:
+        - '- Section: 9.1 Module 3: Engineering Assemblies due:':
+            subsections:
+            - 9.1a Assembly Techniques for Complex Structures
+            - 9.1b Integration of Building Systems
+            - 9.1c Quality Control in Assembly Processes
+    - '- Chapter 10: Midterm Project:':
+        sections:
+        - '- Section: 10.1 Friction Joined Responsive Tower - Daniel Cardoso, Dennis Michaud, and Vincent LeClerc:':
+            subsections:
+            - 10.1a Design Concept and Rationale
+            - 10.1b Fabrication Process and Techniques
+            - 10.1c Performance Evaluation of the Tower
+        - ? "- Section: 10.2 Soft Skin Skyscraper: Digital Design and Fabrication\
+            \ for Tall Building Fa\xE7ade - Jaebum Joo and Kalaya Kovidvisith:"
+          : subsections:
+            - "10.2a Soft Skin Fa\xE7ade Systems"
+            - "10.2b Digital Design Tools for Fa\xE7ade Fabrication"
+            - "10.2c Case Studies in Soft Skin Fa\xE7ades"
+        - '- Section: 10.3 Algorithms and Design Descriptions for Relational Modeling - Taro Narahara and Kenfield Griffith:':
+            subsections:
+            - 10.3a Introduction to Relational Modeling
+            - 10.3b Algorithmic Design Techniques
+            - 10.3c Applications of Relational Modeling in Architecture
+    - '- Chapter 11: Digital Mockup:':
+        sections:
+        - '- Section: 11.1 Digital Mockup: Steps:':
+            subsections:
+            - 11.1a Planning and Preparation for Digital Mockup
+            - 11.1b Digital Tools for Mockup Creation
+            - 11.1c Evaluating Digital Mockup Performance
+    - '- Chapter 12: Advanced Digital Fabrication Techniques:':
+        sections:
+        - '- Section: 12.1 3D Printing in Architecture:':
+            subsections:
+            - 12.1a Introduction to 3D Printing
+            - 12.1b Applications of 3D Printing in Architecture
+            - 12.1c Case Studies in 3D Printing
+        - '- Section: 12.2 CNC Machining in Architecture:':
+            subsections:
+            - 12.2a Introduction to CNC Machining
+            - 12.2b Applications of CNC Machining in Architecture
+            - 12.2c Case Studies in CNC Machining
+        - '- Section: 12.3 Laser Cutting in Architecture:':
+            subsections:
+            - 12.3a Introduction to Laser Cutting
+            - 12.3b Applications of Laser Cutting in Architecture
+            - 12.3c Case Studies in Laser Cutting
+    - '- Chapter 13: Digital Design Tools:':
+        sections:
+        - '- Section: 13.1 CAD Software in Architecture:':
+            subsections:
+            - 13.1a Introduction to CAD Software
+            - 13.1b Applications of CAD Software in Architecture
+            - 13.1c Case Studies in CAD Software
+        - '- Section: 13.2 BIM Software in Architecture:':
+            subsections:
+            - 13.2a Introduction to BIM Software
+            - 13.2b Applications of BIM Software in Architecture
+            - 13.2c Case Studies in BIM Software
+        - '- Section: 13.3 Parametric Design Software in Architecture:':
+            subsections:
+            - 13.3a Introduction to Parametric Design Software
+            - 13.3b Applications of Parametric Design Software in Architecture
+            - 13.3c Case Studies in Parametric Design Software
+    - '- Chapter 14: Sustainable Design Strategies:':
+        sections:
+        - '- Section: 14.1 Energy Efficiency in Architecture:':
+            subsections:
+            - 14.1a Introduction to Energy Efficiency
+            - 14.1b Energy Efficient Design Strategies
+            - 14.1c Case Studies in Energy Efficiency
+        - '- Section: 14.2 Passive Design Strategies in Architecture:':
+            subsections:
+            - 14.2a Introduction to Passive Design Strategies
+            - 14.2b Applications of Passive Design Strategies in Architecture
+            - 14.2c Case Studies in Passive Design Strategies
+        - '- Section: 14.3 Renewable Energy in Architecture:':
+            subsections:
+            - 14.3a Introduction to Renewable Energy
+            - 14.3b Applications of Renewable Energy in Architecture
+            - 14.3c Case Studies in Renewable Energy
+    - '- Chapter 15: Building Systems Integration:':
+        sections:
+        - '- Section: 15.1 HVAC Systems in Architecture:':
+            subsections:
+            - 15.1a Introduction to HVAC Systems
+            - 15.1b Applications of HVAC Systems in Architecture
+            - 15.1c Case Studies in HVAC Systems
+        - '- Section: 15.2 Electrical Systems in Architecture:':
+            subsections:
+            - 15.2a Introduction to Electrical Systems
+            - 15.2b Applications of Electrical Systems in Architecture
+            - 15.2c Case Studies in Electrical Systems
+        - '- Section: 15.3 Plumbing Systems in Architecture:':
+            subsections:
+            - 15.3a Introduction to Plumbing Systems
+            - 15.3b Applications of Plumbing Systems in Architecture
+            - 15.3c Case Studies in Plumbing Systems
+    - '- Chapter 16: Building Codes and Regulations:':
+        sections:
+        - '- Section: 16.1 Building Codes in Architecture:':
+            subsections:
+            - 16.1a Introduction to Building Codes
+            - 16.1b Applications of Building Codes in Architecture
+            - 16.1c Case Studies in Building Codes
+        - '- Section: 16.2 Zoning Regulations in Architecture:':
+            subsections:
+            - 16.2a Introduction to Zoning Regulations
+            - 16.2b Applications of Zoning Regulations in Architecture
+            - 16.2c Case Studies in Zoning Regulations
+        - '- Section: 16.3 Accessibility Standards in Architecture:':
+            subsections:
+            - 16.3a Introduction to Accessibility Standards
+            - 16.3b Applications of Accessibility Standards in Architecture
+            - 16.3c Case Studies in Accessibility Standards
+    - '- Chapter 17: Project Management in Architecture:':
+        sections:
+        - '- Section: 17.1 Project Planning in Architecture:':
+            subsections:
+            - 17.1a Introduction to Project Planning
+            - 17.1b Applications of Project Planning in Architecture
+            - 17.1c Case Studies in Project Planning
+        - '- Section: 17.2 Project Scheduling in Architecture:':
+            subsections:
+            - 17.2a Introduction to Project Scheduling
+            - 17.2b Applications of Project Scheduling in Architecture
+            - 17.2c Case Studies in Project Scheduling
+        - '- Section: 17.3 Project Budgeting in Architecture:':
+            subsections:
+            - 17.3a Introduction to Project Budgeting
+            - 17.3b Applications of Project Budgeting in Architecture
+            - 17.3c Case Studies in Project Budgeting
+    - '- Chapter 18: Professional Practice in Architecture:':
+        sections:
+        - '- Section: 18.1 Architectural Licensing:':
+            subsections:
+            - 18.1a Introduction to Architectural Licensing
+            - 18.1b Process of Architectural Licensing
+            - 18.1c Case Studies in Architectural Licensing
+        - '- Section: 18.2 Architectural Ethics:':
+            subsections:
+            - 18.2a Introduction to Architectural Ethics
+            - 18.2b Applications of Architectural Ethics
+            - 18.2c Case Studies in Architectural Ethics
+        - '- Section: 18.3 Architectural Contracts:':
+            subsections:
+            - 18.3a Introduction to Architectural Contracts
+            - 18.3b Types of Architectural Contracts
+            - 18.3c Case Studies in Architectural Contracts
+    - '- Chapter 19: Architectural History and Theory:':
+        sections:
+        - '- Section: 19.1 Architectural History:':
+            subsections:
+            - 19.1a Introduction to Architectural History
+            - 19.1b Major Movements in Architectural History
+            - 19.1c Case Studies in Architectural History
+        - '- Section: 19.2 Architectural Theory:':
+            subsections:
+            - 19.2a Introduction to Architectural Theory
+            - 19.2b Major Theories in Architecture
+            - 19.2c Case Studies in Architectural Theory
+        - '- Section: 19.3 Architectural Criticism:':
+            subsections:
+            - 19.3a Introduction to Architectural Criticism
+            - 19.3b Applications of Architectural Criticism
+            - 19.3c Case Studies in Architectural Criticism
+    - '- Chapter 20: Future Trends in Architecture:':
+        sections:
+        - '- Section: 20.1 Smart Buildings:':
+            subsections:
+            - 20.1a Introduction to Smart Buildings
+            - 20.1b Applications of Smart Buildings
+            - 20.1c Case Studies in Smart Buildings
+        - '- Section: 20.2 Sustainable Architecture:':
+            subsections:
+            - 20.2a Introduction to Sustainable Architecture
+            - 20.2b Applications of Sustainable Architecture
+            - 20.2c Case Studies in Sustainable Architecture
+        - '- Section: 20.3 Digital Fabrication in Architecture:':
+            subsections:
+            - 20.3a Future Trends in Digital Fabrication
+            - 20.3b Applications of Digital Fabrication in Future Architecture
+            - 20.3c Case Studies in Future Digital Fabrication

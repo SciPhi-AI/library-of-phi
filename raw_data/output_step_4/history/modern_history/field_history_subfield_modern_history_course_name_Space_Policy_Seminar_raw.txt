@@ -1,0 +1,160 @@
+textbook: 
+"Space Policy and History: Exploring the Past and Shaping the Future":
+
+chapters:
+- Chapter 1: Introduction to Space Policy:
+sections:
+- Section: 1.1 What is Policy, why is it important, and why are we in space?:
+subsections:
+- 1.1a Understanding the concept of policy
+- Section: 1.2 Current stakeholders & their missions and roles
+
+- Chapter 2: Space History and Policy in the Fifties:
+sections:
+- Section: 2.1 Overview of space exploration in the 1950s:
+subsections:
+- 2.1a The Space Race and its impact on policy
+- 2.1b Key events and missions in the 1950s
+
+- Chapter 3: Space History and Policy in the Sixties:
+sections:
+- Section: 3.1 Overview of space exploration in the 1960s:
+subsections:
+- 3.1a The Apollo Program and its significance
+- 3.1b Major policy developments in the 1960s
+
+- Chapter 4: Space History and Policy in the Seventies:
+sections:
+- Section: 4.1 Overview of space exploration in the 1970s:
+subsections:
+- 4.1a The Space Shuttle and its impact on policy
+- 4.1b Key policy changes in the 1970s
+
+- Chapter 5: Space History and Policy in the Eighties:
+sections:
+- Section: 5.1 Overview of space exploration in the 1980s:
+subsections:
+- 5.1a The Reagan Era and its influence on space policy
+- 5.1b Major policy initiatives in the 1980s
+
+- Chapter 6: Space History and Policy in the Nineties:
+sections:
+- Section: 6.1 Overview of space exploration in the 1990s:
+subsections:
+- 6.1a International cooperation in space policy
+- 6.1b Key legal frameworks in space policy
+
+- Chapter 7: Special Topics in Space Policy:
+sections:
+- Section: 7.1 Globalstar: A Case Study:
+subsections:
+- 7.1a Understanding the Globalstar satellite system
+- 7.1b Policy implications of Globalstar
+- Section: 7.2 GPS & Galileo: A Comparative Analysis:
+subsections:
+- 7.2a Overview of GPS and Galileo satellite systems
+- 7.2b Policy challenges and opportunities for GPS and Galileo
+- Section: 7.3 Space Launch: Strategies and Considerations:
+subsections:
+- 7.3a Types of space launch vehicles
+- 7.3b Policy considerations for space launch development
+
+- Chapter 8: Student Presentations and Panel Discussion:
+sections:
+- Section: 8.1 Scenarios for the Future: A Panel Discussion:
+subsections:
+- 8.1a Exploring potential future scenarios in space policy
+
+- Chapter 9: Term Project:
+sections:
+- Section: 9.1 Overview of the Term Project:
+subsections:
+- 9.1a Understanding the requirements of the Term Project
+- Section: 9.2 The Shuttle was developed in the late sixties:
+subsections:
+- 9.2a Analyzing the development and impact of the Space Shuttle
+- Section: 9.3 Strategies to develop a new reusable launch vehicle:
+subsections:
+- 9.3a Examining different approaches to developing a reusable launch vehicle
+- 9.3b Policy considerations for the development of a new reusable launch vehicle
+
+- Chapter 10: Space Policy in the 21st Century:
+sections:
+- Section: 10.1 Overview of space exploration in the 21st Century:
+subsections:
+- 10.1a The rise of private space companies
+- 10.1b Policy implications of private space exploration
+- Section: 10.2 The International Space Station:
+subsections:
+- 10.2a The development and purpose of the ISS
+- 10.2b Policy challenges and opportunities for the ISS
+
+- Chapter 11: Space Policy and International Relations:
+sections:
+- Section: 11.1 The role of space in international relations:
+subsections:
+- 11.1a Space as a tool for diplomacy
+- 11.1b The militarization of space and its policy implications
+
+- Chapter 12: Space Policy and the Environment:
+sections:
+- Section: 12.1 The impact of space exploration on the environment:
+subsections:
+- 12.1a Space debris and its policy implications
+- 12.1b The use of space technology for environmental monitoring
+
+- Chapter 13: Space Policy and the Economy:
+sections:
+- Section: 13.1 The economic impact of space exploration:
+subsections:
+- 13.1a The economic benefits of space exploration
+- 13.1b Policy considerations for space and the economy
+
+- Chapter 14: Space Policy and Education:
+sections:
+- Section: 14.1 The role of space in education:
+subsections:
+- 14.1a The use of space to inspire STEM education
+- 14.1b Policy considerations for space and education
+
+- Chapter 15: Space Policy and the Law:
+sections:
+- Section: 15.1 The legal framework for space exploration:
+subsections:
+- 15.1a International law and space
+- 15.1b Policy considerations for space law
+
+- Chapter 16: Space Policy and Ethics:
+sections:
+- Section: 16.1 The ethical considerations of space exploration:
+subsections:
+- 16.1a The ethics of space colonization
+- 16.1b Policy considerations for space ethics
+
+- Chapter 17: Space Policy and Society:
+sections:
+- Section: 17.1 The societal impact of space exploration:
+subsections:
+- 17.1a The cultural impact of space exploration
+- 17.1b Policy considerations for space and society
+
+- Chapter 18: Space Policy and the Future:
+sections:
+- Section: 18.1 The future of space exploration:
+subsections:
+- 18.1a The potential for human colonization of other planets
+- 18.1b Policy considerations for the future of space exploration
+
+- Chapter 19: Space Policy and Research:
+sections:
+- Section: 19.1 The role of research in space policy:
+subsections:
+- 19.1a The importance of scientific research in space policy
+- 19.1b Policy considerations for space research
+
+- Chapter 20: Conclusion:
+sections:
+- Section: 20.1 Review and future directions:
+subsections:
+- 20.1a Review of key concepts in space policy
+- 20.1b Future directions for space policy research

@@ -1,0 +1,316 @@
+textbook: 
+"Advanced Soil Mechanics: A Comprehensive Guide to Soil Behavior and Engineering Applications":
+
+chapters:
+- Chapter 1: Soil Composition, Index Properties, and Soil Classification:
+sections:
+- Section: 1.1 Soil Composition:
+subsections:
+- 1.1a Definition and Types of Soil Composition
+- 1.1b Mineralogy and Particle Size Distribution
+- 1.1c Organic Matter and Soil Structure
+- 1.1d Soil Fabric and Fabric Indices
+
+- Section: 1.2 Index Properties:
+subsections:
+- 1.2a Definition and Significance of Index Properties
+- 1.2b Particle Size Analysis and Soil Classification Systems
+- 1.2c Atterberg Limits and Plasticity Index
+- 1.2d Soil Consistency, Compaction, and Permeability
+
+- Section: 1.3 Soil Classification:
+subsections:
+- 1.3a Classification Systems and Their Applications
+- 1.3b Unified Soil Classification System (USCS)
+- 1.3c AASHTO Soil Classification System
+- 1.3d Soil Behavior and Engineering Properties by Classification
+
+- Chapter 2: Soil Structure and Environmental Effects:
+sections:
+- Section: 2.1 Soil Structure:
+subsections:
+- 2.1a Soil Aggregates and Particle Arrangement
+- 2.1b Soil Mass and Pore Space
+- 2.1c Soil Structure and Engineering Properties
+- 2.1d Soil Structure Modification Techniques
+
+- Section: 2.2 Environmental Effects:
+subsections:
+- 2.2a Climate and Weathering Effects on Soil
+- 2.2b Biological Activity and Soil Degradation
+- 2.2c Soil Erosion and Conservation Practices
+- 2.2d Anthropogenic Impacts on Soil Structure and Composition
+
+- Chapter 3: Dry Soil: Stresses:
+sections:
+- Section: 3.1 Stresses in Dry Soil:
+subsections:
+- 3.1a Stress Types and Distribution in Dry Soil
+- 3.1b Stress Measurement Techniques in Dry Soil
+- 3.1c Stress-Strain Behavior under Different Loading Conditions
+- 3.1d Stress Effects on Soil Strength and Stability
+
+- Chapter 4: Stress-Strain-Strength Properties:
+sections:
+- Section: 4.1 Stress-Strain Relationships in Soil:
+subsections:
+- 4.1a Elastic and Inelastic Deformations in Soil
+- 4.1b Stress-Strain Models and Constitutive Relationships
+- 4.1c Shear Strength and Mohr-Coulomb Failure Criteria
+- 4.1d Stress Path and Critical State Soil Mechanics
+
+- Section: 4.2 Strength Properties of Soil:
+subsections:
+- 4.2a Shear Strength Testing Methods and Interpretation
+- 4.2b Drained and Undrained Shear Strength of Soils
+- 4.2c Factors Affecting Soil Strength and Failure Modes
+- 4.2d Determination of Soil Parameters for Engineering Design
+
+- Chapter 5: Lateral Earth Pressures and Retaining Walls:
+sections:
+- Section: 5.1 Lateral Earth Pressures:
+subsections:
+- 5.1a Earth Pressure Theories and Assumptions
+- 5.1b Rankine and Coulomb Earth Pressure Theories
+- 5.1c Active and Passive Pressure Distribution
+- 5.1d Earth Pressure Coefficients for Different Conditions
+
+- Section: 5.2 Retaining Walls:
+subsections:
+- 5.2a Types and Design Considerations for Retaining Walls
+- 5.2b Stability Analysis and Failure Modes of Retaining Walls
+- 5.2c Earth Pressure Distribution on Retaining Structures
+- 5.2d Reinforcement Techniques for Retaining Walls
+
+- Chapter 6: Shallow Foundations on Sand: Bearing Capacity:
+sections:
+- Section: 6.1 Bearing Capacity of Shallow Foundations on Sand:
+subsections:
+- 6.1a Soil Mechanics Principles for Bearing Capacity Analysis
+- 6.1b Terzaghi's Bearing Capacity Theory and Assumptions
+- 6.1c Factors Affecting the Ultimate Bearing Capacity
+- 6.1d Design Considerations for Shallow Foundations on Sand
+
+- Chapter 7: Effective Stress Principle and Capillarity:
+sections:
+- Section: 7.1 Effective Stress Principle:
+subsections:
+- 7.1a Concept of Effective Stress in Soil
+- 7.1b Effective Stress Calculation and Applications
+- 7.1c Pore Water Pressure and Effective Stress Interaction
+- 7.1d Influence of Effective Stress on Soil Behavior
+
+- Section: 7.2 Capillarity:
+subsections:
+- 7.2a Capillary Rise and Soil Moisture Retention
+- 7.2b Capillary Fringe and Capillary Barrier Effects
+- 7.2c Capillary Pressure and Suction Measurement
+- 7.2d Capillary Effects on Soil Strength and Volume Change
+
+- Chapter 8: Soil Compaction and Improvement Techniques:
+sections:
+- Section: 8.1 Soil Compaction:
+subsections:
+- 8.1a Principles of Soil Compaction
+- 8.1b Compaction Equipment and Methods
+- 8.1c Compaction Control and Specifications
+- 8.1d Effects of Compaction on Soil Properties
+
+- Section: 8.2 Soil Improvement Techniques:
+subsections:
+- 8.2a Ground Improvement Objectives and Methods
+- 8.2b Mechanical Soil Stabilization Techniques
+- 8.2c Chemical Soil Stabilization Techniques
+- 8.2d Geosynthetics and Reinforced Soil Structures
+
+- Chapter 9: Soil Exploration and Sampling:
+sections:
+- Section: 9.1 Soil Exploration:
+subsections:
+- 9.1a Objectives and Methods of Soil Exploration
+- 9.1b Geophysical Exploration Techniques
+- 9.1c Boring and Sampling Methods
+- 9.1d Soil Exploration Reports and Soil Profiles
+
+- Section: 9.2 Soil Sampling:
+subsections:
+- 9.2a Types of Soil Samples and Sampling Techniques
+- 9.2b Sample Disturbance and Preservation
+- 9.2c Laboratory Testing of Soil Samples
+- 9.2d Interpretation and Use of Soil Sampling Data
+
+- Chapter 10: Soil Permeability and Seepage:
+sections:
+- Section: 10.1 Soil Permeability:
+subsections:
+- 10.1a Principles of Soil Permeability
+- 10.1b Laboratory Permeability Testing Methods
+- 10.1c Field Permeability Testing Methods
+- 10.1d Factors Affecting Soil Permeability
+
+- Section: 10.2 Seepage:
+subsections:
+- 10.2a Principles of Seepage in Soils
+- 10.2b Seepage Analysis and Control Measures
+- 10.2c Seepage through Earth Dams and Embankments
+- 10.2d Seepage Monitoring and Mitigation Techniques
+
+- Chapter 11: Soil Consolidation and Settlement:
+sections:
+- Section: 11.1 Soil Consolidation:
+subsections:
+- 11.1a Principles of Soil Consolidation
+- 11.1b Laboratory Consolidation Testing Methods
+- 11.1c Consolidation Parameters and Their Determination
+- 11.1d Time Rate of Consolidation and Secondary Consolidation
+
+- Section: 11.2 Settlement:
+subsections:
+- 11.2a Types of Soil Settlement and Their Causes
+- 11.2b Estimation of Settlement in Soils
+- 11.2c Settlement Control and Mitigation Techniques
+- 11.2d Monitoring and Interpretation of Soil Settlement Data
+
+- Chapter 12: Soil Slope Stability:
+sections:
+- Section: 12.1 Slope Stability Analysis:
+subsections:
+- 12.1a Principles of Slope Stability Analysis
+- 12.1b Methods of Slope Stability Analysis
+- 12.1c Factors Affecting Slope Stability
+- 12.1d Slope Stability Charts and Use of Software
+
+- Section: 12.2 Slope Stabilization Techniques:
+subsections:
+- 12.2a Slope Stabilization Objectives and Methods
+- 12.2b Geotechnical Engineering Solutions for Slope Stabilization
+- 12.2c Bioengineering Solutions for Slope Stabilization
+- 12.2d Monitoring and Maintenance of Stabilized Slopes
+
+- Chapter 13: Soil Dynamics and Earthquake Engineering:
+sections:
+- Section: 13.1 Soil Dynamics:
+subsections:
+- 13.1a Principles of Soil Dynamics
+- 13.1b Dynamic Soil Properties and Their Determination
+- 13.1c Soil Liquefaction and Its Effects
+- 13.1d Ground Improvement Techniques for Liquefaction Mitigation
+
+- Section: 13.2 Earthquake Engineering:
+subsections:
+- 13.2a Principles of Earthquake Engineering
+- 13.2b Seismic Site Response Analysis
+- 13.2c Seismic Design Considerations for Geotechnical Structures
+- 13.2d Post-Earthquake Investigation and Remediation Techniques
+
+- Chapter 14: Geotechnical Design of Foundations:
+sections:
+- Section: 14.1 Shallow Foundations:
+subsections:
+- 14.1a Types of Shallow Foundations and Their Applications
+- 14.1b Bearing Capacity and Settlement Analysis of Shallow Foundations
+- 14.1c Design and Construction Considerations for Shallow Foundations
+- 14.1d Inspection and Maintenance of Shallow Foundations
+
+- Section: 14.2 Deep Foundations:
+subsections:
+- 14.2a Types of Deep Foundations and Their Applications
+- 14.2b Load Carrying Mechanisms of Piles and Drilled Shafts
+- 14.2c Design and Construction Considerations for Deep Foundations
+- 14.2d Inspection and Maintenance of Deep Foundations
+
+- Chapter 15: Geotechnical Design of Retaining Structures:
+sections:
+- Section: 15.1 Gravity and Cantilever Retaining Walls:
+subsections:
+- 15.1a Types and Applications of Gravity and Cantilever Retaining Walls
+- 15.1b Design and Construction Considerations for Gravity and Cantilever Walls
+- 15.1c Stability Analysis of Gravity and Cantilever Walls
+- 15.1d Inspection and Maintenance of Gravity and Cantilever Walls
+
+- Section: 15.2 Mechanically Stabilized Earth Walls and Soil Nailing:
+subsections:
+- 15.2a Types and Applications of MSE Walls and Soil Nailing
+- 15.2b Design and Construction Considerations for MSE Walls and Soil Nailing
+- 15.2c Stability Analysis of MSE Walls and Soil Nailed Structures
+- 15.2d Inspection and Maintenance of MSE Walls and Soil Nailed Structures
+
+- Chapter 16: Geotechnical Design of Earth Dams and Embankments:
+sections:
+- Section: 16.1 Earth Dams:
+subsections:
+- 16.1a Types and Applications of Earth Dams
+- 16.1b Design and Construction Considerations for Earth Dams
+- 16.1c Stability Analysis of Earth Dams
+- 16.1d Inspection and Maintenance of Earth Dams
+
+- Section: 16.2 Embankments:
+subsections:
+- 16.2a Types and Applications of Embankments
+- 16.2b Design and Construction Considerations for Embankments
+- 16.2c Stability Analysis of Embankments
+- 16.2d Inspection and Maintenance of Embankments
+
+- Chapter 17: Geotechnical Design of Tunnels and Underground Structures:
+sections:
+- Section: 17.1 Tunnels:
+subsections:
+- 17.1a Types and Applications of Tunnels
+- 17.1b Design and Construction Considerations for Tunnels
+- 17.1c Stability Analysis of Tunnels
+- 17.1d Inspection and Maintenance of Tunnels
+
+- Section: 17.2 Underground Structures:
+subsections:
+- 17.2a Types and Applications of Underground Structures
+- 17.2b Design and Construction Considerations for Underground Structures
+- 17.2c Stability Analysis of Underground Structures
+- 17.2d Inspection and Maintenance of Underground Structures
+
+- Chapter 18: Geotechnical Design of Pavements and Railways:
+sections:
+- Section: 18.1 Pavements:
+subsections:
+- 18.1a Types and Applications of Pavements
+- 18.1b Design and Construction Considerations for Pavements
+- 18.1c Pavement Materials and Their Properties
+- 18.1d Inspection and Maintenance of Pavements
+
+- Section: 18.2 Railways:
+subsections:
+- 18.2a Types and Applications of Railways
+- 18.2b Design and Construction Considerations for Railways
+- 18.2c Railway Materials and Their Properties
+- 18.2d Inspection and Maintenance of Railways
+
+- Chapter 19: Geotechnical Design of Landfills and Waste Containment Systems:
+sections:
+- Section: 19.1 Landfills:
+subsections:
+- 19.1a Types and Applications of Landfills
+- 19.1b Design and Construction Considerations for Landfills
+- 19.1c Landfill Liners and Cover Systems
+- 19.1d Inspection and Maintenance of Landfills
+
+- Section: 19.2 Waste Containment Systems:
+subsections:
+- 19.2a Types and Applications of Waste Containment Systems
+- 19.2b Design and Construction Considerations for Waste Containment Systems
+- 19.2c Waste Containment Liners and Cover Systems
+- 19.2d Inspection and Maintenance of Waste Containment Systems
+
+- Chapter 20: Geotechnical Design of Marine Structures:
+sections:
+- Section: 20.1 Ports and Harbors:
+subsections:
+- 20.1a Types and Applications of Ports and Harbors
+- 20.1b Design and Construction Considerations for Ports and Harbors
+- 20.1c Stability Analysis of Ports and Harbors
+- 20.1d Inspection and Maintenance of Ports and Harbors
+
+- Section: 20.2 Offshore Structures:
+subsections:
+- 20.2a Types and Applications of Offshore Structures
+- 20.2b Design and Construction Considerations for Offshore Structures
+- 20.2c Stability Analysis of Offshore Structures
+- 20.2d Inspection and Maintenance of Offshore Structures

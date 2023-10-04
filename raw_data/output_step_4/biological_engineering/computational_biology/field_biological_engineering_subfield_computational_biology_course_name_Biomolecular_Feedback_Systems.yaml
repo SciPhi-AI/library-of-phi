@@ -1,0 +1,205 @@
+textbook:
+  'Biomolecular Feedback Systems: A Comprehensive Guide to Modeling and Design":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Overview of the course':
+            subsections: []
+        - '- Section: 1.2 Biology and basic biological processes':
+            subsections: []
+        - '- Section: 1.3 Importance of feedback in biomolecular systems':
+            subsections: []
+        - '- Section: 1.4 Overview of modeling techniques':
+            subsections: []
+    - '- Chapter 2: Modeling of Core Processes:':
+        sections:
+        - '- Section: 2.1 Introduction to modeling techniques':
+            subsections: []
+        - '- Section: 2.2 Chemical reactions and ordinary differential equations (ODEs)':
+            subsections: []
+        - '- Section: 2.3 Reduced order models for common binding reactions':
+            subsections: []
+        - '- Section: 2.4 Modeling enzyme kinetics':
+            subsections: []
+        - '- Section: 2.5 Modeling metabolic pathways':
+            subsections: []
+    - '- Chapter 3: Modeling Transcription and Translation:':
+        sections:
+        - '- Section: 3.1 Chemical reactions and ODEs for transcription and translation':
+            subsections: []
+        - '- Section: 3.2 Full mechanistic models of transcription and translation':
+            subsections: []
+        - '- Section: 3.3 Reduced models for transcription and translation':
+            subsections: []
+        - '- Section: 3.4 Modeling ribosome dynamics':
+            subsections: []
+    - '- Chapter 4: Modeling Transcriptional Regulation:':
+        sections:
+        - '- Section: 4.1 Chemical reactions and ODEs for transcriptional regulation':
+            subsections: []
+        - '- Section: 4.2 Emphasis on reduced models for transcriptional regulation':
+            subsections: []
+        - '- Section: 4.3 Examples of transcriptional regulation models':
+            subsections: []
+        - '- Section: 4.4 Modeling genetic switches and bistability':
+            subsections: []
+    - '- Chapter 5: Modeling Post Transcriptional Regulation:':
+        sections:
+        - '- Section: 5.1 Modeling allosteric modification':
+            subsections: []
+        - '- Section: 5.2 Modeling covalent modification':
+            subsections: []
+        - '- Section: 5.3 Modeling ultrasensitivity':
+            subsections: []
+        - '- Section: 5.4 Modeling mitogen-activated protein kinases (MAPK) pathways':
+            subsections: []
+    - '- Chapter 6: Dynamic Behavior:':
+        sections:
+        - '- Section: 6.1 Stability and analysis near equilibria':
+            subsections: []
+        - '- Section: 6.2 Nullcline analysis and phase plane analysis':
+            subsections: []
+        - '- Section: 6.3 Linearization techniques and linear stability analysis':
+            subsections: []
+        - '- Section: 6.4 Frequency response analysis':
+            subsections: []
+        - '- Section: 6.5 Examples of dynamic behavior analysis':
+            subsections: []
+    - '- Chapter 7: Design Principles for Robustness:':
+        sections:
+        - '- Section: 7.1 Sensitivity analysis to parameter perturbations':
+            subsections: []
+        - '- Section: 7.2 Examples of robustness in biomolecular systems':
+            subsections: []
+        - '- Section: 7.3 Adaptation and disturbance rejection through integral feedback':
+            subsections: []
+        - '- Section: 7.4 Adaptation and disturbance rejection through feedforward loops':
+            subsections: []
+        - '- Section: 7.5 High gain feedback examples and their design principles':
+            subsections: []
+        - '- Section: 7.6 Robustness in genetic circuits':
+            subsections: []
+    - '- Chapter 8: Design Principles for Limit Cycles:':
+        sections:
+        - '- Section: 8.1 Systems in two dimensions and their analysis':
+            subsections: []
+        - '- Section: 8.2 Systems in n-dimensional space and bifurcation analysis':
+            subsections: []
+        - '- Section: 8.3 Examples of limit cycle behavior in biomolecular systems':
+            subsections: []
+    - '- Chapter 9: Model Reduction through Separation of Time Scales:':
+        sections:
+        - '- Section: 9.1 Examples of time scale separation in biomolecular systems':
+            subsections: []
+        - '- Section: 9.2 Reduction techniques for simplifying complex models':
+            subsections: []
+        - '- Section: 9.3 Analysis of reduced models':
+            subsections: []
+    - '- Chapter 10: Stochastic Behavior:':
+        sections:
+        - '- Section: 10.1 Introduction to stochastic modeling in biomolecular systems':
+            subsections: []
+        - '- Section: 10.2 Master equation and its application in modeling stochastic systems':
+            subsections: []
+        - '- Section: 10.3 Stochastic Simulation Algorithm (SSA) and its implementation':
+            subsections: []
+        - '- Section: 10.4 Langevin equation and its use in simulating stochastic systems':
+            subsections: []
+        - '- Section: 10.5 Examples of stochastic behavior in biomolecular systems':
+            subsections: []
+    - '- Chapter 11: Circuit Design:':
+        sections:
+        - '- Section: 11.1 Introduction to circuit design in biomolecular systems':
+            subsections: []
+        - '- Section: 11.2 Modeling autorepressed systems':
+            subsections: []
+        - '- Section: 11.3 Robustness, sensitivity, power spectra, and dynamics in circuit design':
+            subsections: []
+        - '- Section: 11.4 Toggle switches and their design principles':
+            subsections: []
+        - '- Section: 11.5 Engineered memory in genetic circuits':
+            subsections: []
+        - '- Section: 11.6 Repressilator and the realization of loop oscillators':
+            subsections: []
+        - '- Section: 11.7 Activator-repressor clock and its design principles':
+            subsections: []
+        - '- Section: 11.8 Incoherent feedforward motifs for controlling plasmid copy number':
+            subsections: []
+        - '- Section: 11.9 Implementation of adaptation through methylation':
+            subsections: []
+        - '- Section: 11.10 Chemotaxis circuit and its design principles':
+            subsections: []
+    - '- Chapter 12: Interconnecting Circuits:':
+        sections:
+        - '- Section: 12.1 Retroactivity in transcriptional circuits':
+            subsections: []
+        - '- Section: 12.2 Retroactivity in signal transduction circuits':
+            subsections: []
+        - '- Section: 12.3 Examples of interconnecting circuits in biomolecular systems':
+            subsections: []
+    - '- Chapter 13: Gene Circuits:':
+        sections:
+        - '- Section: 13.1 Equivalent input and output retroactivities':
+            subsections: []
+        - "- Section: 13.2 Thevenin\u2019s theorem and its application in gene circuit design":
+            subsections: []
+        - '- Section: 13.3 Insulation devices: Principles of functioning and design based on phosphorylation':
+            subsections: []
+        - '- Section: 13.4 Insulation devices: Designs based on time scale separation':
+            subsections: []
+        - '- Section: 13.5 Insulation devices: Designs based on protease-feedback':
+            subsections: []
+        - '- Section: 13.6 Examples of gene circuits and their design principles':
+            subsections: []
+    - '- Chapter 14: Design Examples:':
+        sections:
+        - '- Section: 14.1 Multi-module circuits and their design principles':
+            subsections: []
+        - '- Section: 14.2 Analysis of input-output impedance in gene circuits':
+            subsections: []
+        - '- Section: 14.3 Competition for gene expression machinery and isocosts':
+            subsections: []
+    - '- Chapter 15: Project Presentations:':
+        sections:
+        - '- Section: 15.1 Information on project presentations':
+            subsections: []
+    - '- Chapter 16: Advanced Topics in Biomolecular Systems:':
+        sections:
+        - '- Section: 16.1 Advanced modeling techniques':
+            subsections: []
+        - '- Section: 16.2 Advanced examples of biomolecular systems':
+            subsections: []
+        - '- Section: 16.3 Future directions in biomolecular systems':
+            subsections: []
+    - '- Chapter 17: Advanced Topics in Circuit Design:':
+        sections:
+        - '- Section: 17.1 Advanced circuit design techniques':
+            subsections: []
+        - '- Section: 17.2 Advanced examples of circuit designs':
+            subsections: []
+        - '- Section: 17.3 Future directions in circuit design':
+            subsections: []
+    - '- Chapter 18: Advanced Topics in Stochastic Behavior:':
+        sections:
+        - '- Section: 18.1 Advanced stochastic modeling techniques':
+            subsections: []
+        - '- Section: 18.2 Advanced examples of stochastic behavior':
+            subsections: []
+        - '- Section: 18.3 Future directions in stochastic behavior':
+            subsections: []
+    - '- Chapter 19: Advanced Topics in Model Reduction:':
+        sections:
+        - '- Section: 19.1 Advanced model reduction techniques':
+            subsections: []
+        - '- Section: 19.2 Advanced examples of model reduction':
+            subsections: []
+        - '- Section: 19.3 Future directions in model reduction':
+            subsections: []
+    - '- Chapter 20: Advanced Topics in Dynamic Behavior:':
+        sections:
+        - '- Section: 20.1 Advanced dynamic behavior analysis techniques':
+            subsections: []
+        - '- Section: 20.2 Advanced examples of dynamic behavior':
+            subsections: []
+        - '- Section: 20.3 Future directions in dynamic behavior':
+            subsections: []

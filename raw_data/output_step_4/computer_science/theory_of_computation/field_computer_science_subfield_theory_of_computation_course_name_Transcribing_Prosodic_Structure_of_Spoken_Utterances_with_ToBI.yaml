@@ -1,0 +1,143 @@
+textbook:
+  'Transcribing Prosodic Structure of Spoken Utterances with ToBI":':
+    chapters:
+    - '- Chapter 1: Introduction to Prosody:':
+        sections:
+        - '- Section: 1.1 Definition of Prosody:':
+            subsections:
+            - 1.1a Understanding Prosody
+            - 1.1b Importance of Prosody
+            - 1.1c Prosodic Features in Speech
+    - '- Chapter 2: ToBI Annotation System:':
+        sections:
+        - '- Section: 2.1 Overview of ToBI:':
+            subsections:
+            - 2.1a Introduction to ToBI
+            - 2.1b ToBI Labels and Symbols
+            - 2.1c ToBI Transcription Guidelines
+    - '- Chapter 3: Disfluencies in Speech:':
+        sections:
+        - '- Section: 3.1 Types of Disfluencies:':
+            subsections:
+            - 3.1a Understanding Disfluencies
+            - 3.1b Disfluency Patterns in Normal Speech
+            - 3.1c Disfluency Patterns in Stuttered Speech
+    - '- Chapter 4: Intonation and Pitch:':
+        sections:
+        - '- Section: 4.1 Role of Intonation in Speech:':
+            subsections:
+            - 4.1a Understanding Intonation
+            - 4.1b Pitch Accents and Boundary Tones
+            - 4.1c Intonational Phrase Structure
+    - '- Chapter 5: Prosodic Structure Analysis:':
+        sections:
+        - '- Section: 5.1 Prosodic Boundaries:':
+            subsections:
+            - 5.1a Understanding Prosodic Boundaries
+            - 5.1b Syllable Structure
+            - 5.1c Word Stress and Accentuation
+    - '- Chapter 6: ToBI Tutorial:':
+        sections:
+        - '- Section: 6.1 Introduction, Overview and Some Basics:':
+            subsections:
+            - 6.1a Introduction to ToBI Tutorial
+            - 6.1b Overview of ToBI Tutorial
+            - 6.1c Basic Concepts in ToBI Tutorial
+    - '- Chapter 7: Annotation Tools and Software:':
+        sections:
+        - '- Section: 7.1 Praat Software for ToBI Transcription:':
+            subsections:
+            - 7.1a Introduction to Praat Software
+            - 7.1b Audio and Textgrid Files for Transcription
+            - 7.1c Using Praat for Prosodic Analysis
+    - '- Chapter 8: Exercises and Practice:':
+        sections:
+        - '- Section: 8.1 Transcribing and Analyzing Sample Speech Data:':
+            subsections:
+            - 8.1a Introduction to Transcribing
+            - 8.1b Analyzing Sample Speech Data
+            - 8.1c Completing ToBI Transcription Exercises
+    - '- Chapter 9: Applications of ToBI:':
+        sections:
+        - '- Section: 9.1 ToBI in Speech Recognition and Synthesis:':
+            subsections:
+            - 9.1a Understanding Speech Recognition
+            - 9.1b Understanding Speech Synthesis
+            - 9.1c Role of ToBI in Speech Recognition and Synthesis
+    - '- Chapter 10: Current Research and Advances:':
+        sections:
+        - '- Section: 10.1 Recent Developments in ToBI Transcription:':
+            subsections:
+            - 10.1a Understanding Recent Developments
+            - 10.1b Prosodic Analysis using Machine Learning Techniques
+            - 10.1c Future Directions in Prosodic Research
+    - '- Chapter 11: Prosody in Different Languages:':
+        sections:
+        - '- Section: 11.1 Prosodic Features in English:':
+            subsections:
+            - 11.1a Understanding Prosody in English
+            - 11.1b Role of Prosody in English Speech
+            - 11.1c ToBI Transcription for English
+    - '- Chapter 12: Prosody in Speech Disorders:':
+        sections:
+        - '- Section: 12.1 Prosody in Stuttering:':
+            subsections:
+            - 12.1a Understanding Stuttering
+            - 12.1b Role of Prosody in Stuttering
+            - 12.1c ToBI Transcription for Stuttering
+    - '- Chapter 13: Prosody in Child Language Acquisition:':
+        sections:
+        - '- Section: 13.1 Prosody in Child Speech:':
+            subsections:
+            - 13.1a Understanding Child Language Acquisition
+            - 13.1b Role of Prosody in Child Speech
+            - 13.1c ToBI Transcription for Child Speech
+    - '- Chapter 14: Prosody in Second Language Acquisition:':
+        sections:
+        - '- Section: 14.1 Prosody in L2 Speech:':
+            subsections:
+            - 14.1a Understanding Second Language Acquisition
+            - 14.1b Role of Prosody in L2 Speech
+            - 14.1c ToBI Transcription for L2 Speech
+    - '- Chapter 15: Prosody in Speech Therapy:':
+        sections:
+        - '- Section: 15.1 Role of Prosody in Speech Therapy:':
+            subsections:
+            - 15.1a Understanding Speech Therapy
+            - 15.1b Role of Prosody in Speech Therapy
+            - 15.1c ToBI Transcription for Speech Therapy
+    - '- Chapter 16: Prosody in Speech Synthesis:':
+        sections:
+        - '- Section: 16.1 Role of Prosody in Speech Synthesis:':
+            subsections:
+            - 16.1a Understanding Speech Synthesis
+            - 16.1b Role of Prosody in Speech Synthesis
+            - 16.1c ToBI Transcription for Speech Synthesis
+    - '- Chapter 17: Prosody in Speech Recognition:':
+        sections:
+        - '- Section: 17.1 Role of Prosody in Speech Recognition:':
+            subsections:
+            - 17.1a Understanding Speech Recognition
+            - 17.1b Role of Prosody in Speech Recognition
+            - 17.1c ToBI Transcription for Speech Recognition
+    - '- Chapter 18: Prosody in Emotion Recognition:':
+        sections:
+        - '- Section: 18.1 Role of Prosody in Emotion Recognition:':
+            subsections:
+            - 18.1a Understanding Emotion Recognition
+            - 18.1b Role of Prosody in Emotion Recognition
+            - 18.1c ToBI Transcription for Emotion Recognition
+    - '- Chapter 19: Prosody in Voice Quality Assessment:':
+        sections:
+        - '- Section: 19.1 Role of Prosody in Voice Quality Assessment:':
+            subsections:
+            - 19.1a Understanding Voice Quality Assessment
+            - 19.1b Role of Prosody in Voice Quality Assessment
+            - 19.1c ToBI Transcription for Voice Quality Assessment
+    - '- Chapter 20: Prosody in Forensic Linguistics:':
+        sections:
+        - '- Section: 20.1 Role of Prosody in Forensic Linguistics:':
+            subsections:
+            - 20.1a Understanding Forensic Linguistics
+            - 20.1b Role of Prosody in Forensic Linguistics
+            - 20.1c ToBI Transcription for Forensic Linguistics

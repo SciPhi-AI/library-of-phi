@@ -1,0 +1,363 @@
+textbook:
+  'Trace-Element Geochemistry Textbook":':
+    chapters:
+    - '- Chapter 1: Beginnings of Geochemistry:':
+        sections:
+        - '- Section: 1.1 Historical Development of Geochemistry:':
+            subsections:
+            - 1.1a Early Pioneers
+            - 1.1b Key Discoveries
+            - 1.1c Modern Geochemistry
+        - '- Section: 1.2 Major Contributions to Trace-Element Geochemistry:':
+            subsections:
+            - 1.2a Notable Researchers
+            - 1.2b Significant Studies
+            - 1.2c Impact on Earth Sciences
+        - '- Section: 1.3 Early Techniques and Methods in Trace-Element Analysis:':
+            subsections:
+            - 1.3a Initial Methodologies
+            - 1.3b Evolution of Techniques
+            - 1.3c Current State of the Art
+    - '- Chapter 2: Thermodynamic Consideration of TE Solid Solutions:':
+        sections:
+        - '- Section: 2.1 Definition and Characteristics of Solid Solutions:':
+            subsections:
+            - 2.1a Basic Concepts
+            - 2.1b Types of Solid Solutions
+            - 2.1c Role in Geochemistry
+        - '- Section: 2.2 Thermodynamic Laws and Principles:':
+            subsections:
+            - 2.2a Fundamental Laws
+            - 2.2b Applications in Geochemistry
+            - 2.2c Thermodynamics of Solid Solutions
+        - '- Section: 2.3 Gibbs Free Energy and Activity:':
+            subsections:
+            - 2.3a Definition and Calculation
+            - 2.3b Role in Phase Equilibrium
+            - 2.3c Gibbs Energy in Solid Solutions
+        - '- Section: 2.4 Phase Diagrams and Binary Systems:':
+            subsections:
+            - 2.4a Understanding Phase Diagrams
+            - 2.4b Binary Systems in Geochemistry
+            - 2.4c Phase Diagrams in Solid Solutions
+    - '- Chapter 3: Partition Coefficient:':
+        sections:
+        - '- Section: 3.1 Definition and Calculation of Partition Coefficient:':
+            subsections:
+            - 3.1a Basic Concepts
+            - 3.1b Calculation Methods
+            - 3.1c Role in Trace Element Distribution
+        - '- Section: 3.2 Factors Affecting Partitioning of Trace Elements:':
+            subsections:
+            - 3.2a Temperature and Pressure Effects
+            - 3.2b Crystal Structure and Composition
+            - 3.2c Role of Fluids
+        - '- Section: 3.3 Equilibrium and Non-Equilibrium Partitioning:':
+            subsections:
+            - 3.3a Definition and Differences
+            - 3.3b Factors Influencing Equilibrium
+            - 3.3c Non-Equilibrium Scenarios in Nature
+        - '- Section: 3.4 Experimental Determination of Partition Coefficients:':
+            subsections:
+            - 3.4a Laboratory Techniques
+            - 3.4b Analytical Challenges
+            - 3.4c Interpretation of Results
+    - '- Chapter 4: Ionic Model for Bonding:':
+        sections:
+        - '- Section: 4.1 Ionic Bonding and Lattice Energy:':
+            subsections:
+            - 4.1a Basics of Ionic Bonding
+            - 4.1b Calculation of Lattice Energy
+            - 4.1c Role in Trace Element Partitioning
+        - '- Section: 4.2 Role of Ionic Radii in Trace-Element Partitioning:':
+            subsections:
+            - 4.2a Ionic Radii and Crystal Structure
+            - 4.2b Ionic Radii and Partition Coefficients
+            - 4.2c Case Studies
+        - '- Section: 4.3 Crystal Field Theory:':
+            subsections:
+            - 4.3a Basic Principles
+            - 4.3b Applications in Geochemistry
+            - 4.3c Crystal Field Theory and Trace Elements
+        - '- Section: 4.4 Ligand Field Theory:':
+            subsections:
+            - 4.4a Introduction to Ligand Field Theory
+            - 4.4b Role in Trace Element Geochemistry
+            - 4.4c Case Studies
+    - '- Chapter 5: Nomenclature for Trace Element Classification:':
+        sections:
+        - '- Section: 5.1 Classification Schemes for Trace Elements:':
+            subsections:
+            - 5.1a Major Classification Schemes
+            - 5.1b Criteria for Classification
+            - 5.1c Impact on Geochemical Studies
+        - '- Section: 5.2 Major and Minor Trace Elements:':
+            subsections:
+            - 5.2a Definition and Examples
+            - 5.2b Role in Geochemical Processes
+            - 5.2c Techniques for Analysis
+        - '- Section: 5.3 Chalcophile, Lithophile, Siderophile, and Atmophile Elements:':
+            subsections:
+            - 5.3a Definitions and Characteristics
+            - 5.3b Role in Earth's Geochemical Cycles
+            - 5.3c Techniques for Analysis
+    - '- Chapter 6: Determination of Partition Coefficients:':
+        sections:
+        - '- Section: 6.1 Experimental Techniques for Partition Coefficient Determination:':
+            subsections:
+            - 6.1a Laboratory Methods
+            - 6.1b Analytical Challenges
+            - 6.1c Interpretation of Results
+        - '- Section: 6.2 X-Ray Fluorescence (XRF) Analysis:':
+            subsections:
+            - 6.2a Basics of XRF
+            - 6.2b Application in Trace Element Analysis
+            - 6.2c Case Studies
+        - '- Section: 6.3 Inductively Coupled Plasma Mass Spectrometry (ICP-MS):':
+            subsections:
+            - 6.3a Introduction to ICP-MS
+            - 6.3b Role in Trace Element Analysis
+            - 6.3c Case Studies
+        - '- Section: 6.4 Laser Ablation Inductively Coupled Plasma Mass Spectrometry (LA-ICP-MS):':
+            subsections:
+            - 6.4a Basics of LA-ICP-MS
+            - 6.4b Application in Trace Element Analysis
+            - 6.4c Case Studies
+    - '- Chapter 7: Trace Element Abundance Variations in Simple Melt-Solid Systems:':
+        sections:
+        - '- Section: 7.1 Melt-Solid Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 7.1a Basic Concepts
+            - 7.1b Role in Trace Element Distribution
+            - 7.1c Case Studies
+        - '- Section: 7.2 Crystal Fractionation and Element Enrichment/Depletion:':
+            subsections:
+            - 7.2a Definition and Mechanisms
+            - 7.2b Role in Geochemical Cycles
+            - 7.2c Case Studies
+        - '- Section: 7.3 Effect of Pressure and Temperature on Trace Element Partitioning:':
+            subsections:
+            - 7.3a Basic Principles
+            - 7.3b Experimental Studies
+            - 7.3c Implications for Geochemical Processes
+    - '- Chapter 8: Fractional Melting:':
+        sections:
+        - '- Section: 8.1 Melting of Heterogeneous Mantle Sources:':
+            subsections:
+            - 8.1a Definition and Mechanisms
+            - 8.1b Role in Trace Element Distribution
+            - 8.1c Case Studies
+        - '- Section: 8.2 Melting Models for Different Mantle Components:':
+            subsections:
+            - 8.2a Major Models
+            - 8.2b Comparison and Evaluation
+            - 8.2c Implications for Geochemical Processes
+        - '- Section: 8.3 Role of Trace Elements in Melting Processes:':
+            subsections:
+            - 8.3a Basic Principles
+            - 8.3b Experimental Studies
+            - 8.3c Case Studies
+    - '- Chapter 9: Complex Melting Models:':
+        sections:
+        - '- Section: 9.1 Melting of Metasomatized Mantle:':
+            subsections:
+            - 9.1a Definition and Mechanisms
+            - 9.1b Role in Trace Element Distribution
+            - 9.1c Case Studies
+        - '- Section: 9.2 Partial Melting of Subducted Oceanic Crust:':
+            subsections:
+            - 9.2a Basic Concepts
+            - 9.2b Role in Trace Element Distribution
+            - 9.2c Case Studies
+        - '- Section: 9.3 Melt Extraction and Migration in Mantle Wedge:':
+            subsections:
+            - 9.3a Definition and Mechanisms
+            - 9.3b Role in Trace Element Distribution
+            - 9.3c Case Studies
+    - '- Chapter 10: Constraints on Melt Models:':
+        sections:
+        - '- Section: 10.1 Disequilibrium and Tracer Elements in Melt Inclusions:':
+            subsections:
+            - 10.1a Basic Concepts
+            - 10.1b Role in Trace Element Analysis
+            - 10.1c Case Studies
+        - '- Section: 10.2 Th-U Decay System and Disequilibrium in Magmatic Systems:':
+            subsections:
+            - 10.2a Basics of Th-U Decay System
+            - 10.2b Role in Trace Element Analysis
+            - 10.2c Case Studies
+        - '- Section: 10.3 Geochemical Signatures of Disequilibrium Processes:':
+            subsections:
+            - 10.3a Definition and Examples
+            - 10.3b Role in Trace Element Analysis
+            - 10.3c Case Studies
+    - '- Chapter 11: Ion Exchange Chromatography:':
+        sections:
+        - '- Section: 11.1 Principles and Mechanisms of Ion Exchange:':
+            subsections:
+            - 11.1a Basic Concepts
+            - 11.1b Role in Trace Element Analysis
+            - 11.1c Case Studies
+        - '- Section: 11.2 Application of Ion Exchange in Trace-Element Analysis:':
+            subsections:
+            - 11.2a Major Applications
+            - 11.2b Analytical Challenges
+            - 11.2c Case Studies
+        - '- Section: 11.3 Advantages and Limitations of Ion Exchange Chromatography:':
+            subsections:
+            - 11.3a Major Advantages
+            - 11.3b Major Limitations
+            - 11.3c Comparison with Other Techniques
+    - '- Chapter 12: Trace Element Abundance Variations in Complex Melt-Solid Systems:':
+        sections:
+        - '- Section: 12.1 Melt-Solid Equilibrium in Complex Systems:':
+            subsections:
+            - 12.1a Basic Concepts
+            - 12.1b Role in Trace Element Distribution
+            - 12.1c Case Studies
+        - '- Section: 12.2 Crystal Fractionation and Element Enrichment/Depletion in Complex Systems:':
+            subsections:
+            - 12.2a Definition and Mechanisms
+            - 12.2b Role in Geochemical Cycles
+            - 12.2c Case Studies
+        - '- Section: 12.3 Effect of Pressure and Temperature on Trace Element Partitioning in Complex Systems:':
+            subsections:
+            - 12.3a Basic Principles
+            - 12.3b Experimental Studies
+            - 12.3c Implications for Geochemical Processes
+    - '- Chapter 13: Trace Element Abundance Variations in Multi-Phase Systems:':
+        sections:
+        - '- Section: 13.1 Multi-Phase Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 13.1a Basic Concepts
+            - 13.1b Role in Trace Element Distribution
+            - 13.1c Case Studies
+        - '- Section: 13.2 Crystal Fractionation and Element Enrichment/Depletion in Multi-Phase Systems:':
+            subsections:
+            - 13.2a Definition and Mechanisms
+            - 13.2b Role in Geochemical Cycles
+            - 13.2c Case Studies
+        - '- Section: 13.3 Effect of Pressure and Temperature on Trace Element Partitioning in Multi-Phase Systems:':
+            subsections:
+            - 13.3a Basic Principles
+            - 13.3b Experimental Studies
+            - 13.3c Implications for Geochemical Processes
+    - '- Chapter 14: Trace Element Abundance Variations in Fluid-Rich Systems:':
+        sections:
+        - '- Section: 14.1 Fluid-Rich Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 14.1a Basic Concepts
+            - 14.1b Role in Trace Element Distribution
+            - 14.1c Case Studies
+        - '- Section: 14.2 Crystal Fractionation and Element Enrichment/Depletion in Fluid-Rich Systems:':
+            subsections:
+            - 14.2a Definition and Mechanisms
+            - 14.2b Role in Geochemical Cycles
+            - 14.2c Case Studies
+        - '- Section: 14.3 Effect of Pressure and Temperature on Trace Element Partitioning in Fluid-Rich Systems:':
+            subsections:
+            - 14.3a Basic Principles
+            - 14.3b Experimental Studies
+            - 14.3c Implications for Geochemical Processes
+    - '- Chapter 15: Trace Element Abundance Variations in Volatile-Rich Systems:':
+        sections:
+        - '- Section: 15.1 Volatile-Rich Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 15.1a Basic Concepts
+            - 15.1b Role in Trace Element Distribution
+            - 15.1c Case Studies
+        - '- Section: 15.2 Crystal Fractionation and Element Enrichment/Depletion in Volatile-Rich Systems:':
+            subsections:
+            - 15.2a Definition and Mechanisms
+            - 15.2b Role in Geochemical Cycles
+            - 15.2c Case Studies
+        - '- Section: 15.3 Effect of Pressure and Temperature on Trace Element Partitioning in Volatile-Rich Systems:':
+            subsections:
+            - 15.3a Basic Principles
+            - 15.3b Experimental Studies
+            - 15.3c Implications for Geochemical Processes
+    - '- Chapter 16: Trace Element Abundance Variations in Magma-Rich Systems:':
+        sections:
+        - '- Section: 16.1 Magma-Rich Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 16.1a Basic Concepts
+            - 16.1b Role in Trace Element Distribution
+            - 16.1c Case Studies
+        - '- Section: 16.2 Crystal Fractionation and Element Enrichment/Depletion in Magma-Rich Systems:':
+            subsections:
+            - 16.2a Definition and Mechanisms
+            - 16.2b Role in Geochemical Cycles
+            - 16.2c Case Studies
+        - '- Section: 16.3 Effect of Pressure and Temperature on Trace Element Partitioning in Magma-Rich Systems:':
+            subsections:
+            - 16.3a Basic Principles
+            - 16.3b Experimental Studies
+            - 16.3c Implications for Geochemical Processes
+    - '- Chapter 17: Trace Element Abundance Variations in Metamorphic Systems:':
+        sections:
+        - '- Section: 17.1 Metamorphic Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 17.1a Basic Concepts
+            - 17.1b Role in Trace Element Distribution
+            - 17.1c Case Studies
+        - '- Section: 17.2 Crystal Fractionation and Element Enrichment/Depletion in Metamorphic Systems:':
+            subsections:
+            - 17.2a Definition and Mechanisms
+            - 17.2b Role in Geochemical Cycles
+            - 17.2c Case Studies
+        - '- Section: 17.3 Effect of Pressure and Temperature on Trace Element Partitioning in Metamorphic Systems:':
+            subsections:
+            - 17.3a Basic Principles
+            - 17.3b Experimental Studies
+            - 17.3c Implications for Geochemical Processes
+    - '- Chapter 18: Trace Element Abundance Variations in Sedimentary Systems:':
+        sections:
+        - '- Section: 18.1 Sedimentary Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 18.1a Basic Concepts
+            - 18.1b Role in Trace Element Distribution
+            - 18.1c Case Studies
+        - '- Section: 18.2 Crystal Fractionation and Element Enrichment/Depletion in Sedimentary Systems:':
+            subsections:
+            - 18.2a Definition and Mechanisms
+            - 18.2b Role in Geochemical Cycles
+            - 18.2c Case Studies
+        - '- Section: 18.3 Effect of Pressure and Temperature on Trace Element Partitioning in Sedimentary Systems:':
+            subsections:
+            - 18.3a Basic Principles
+            - 18.3b Experimental Studies
+            - 18.3c Implications for Geochemical Processes
+    - '- Chapter 19: Trace Element Abundance Variations in Hydrothermal Systems:':
+        sections:
+        - '- Section: 19.1 Hydrothermal Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 19.1a Basic Concepts
+            - 19.1b Role in Trace Element Distribution
+            - 19.1c Case Studies
+        - '- Section: 19.2 Crystal Fractionation and Element Enrichment/Depletion in Hydrothermal Systems:':
+            subsections:
+            - 19.2a Definition and Mechanisms
+            - 19.2b Role in Geochemical Cycles
+            - 19.2c Case Studies
+        - '- Section: 19.3 Effect of Pressure and Temperature on Trace Element Partitioning in Hydrothermal Systems:':
+            subsections:
+            - 19.3a Basic Principles
+            - 19.3b Experimental Studies
+            - 19.3c Implications for Geochemical Processes
+    - '- Chapter 20: Trace Element Abundance Variations in Extraterrestrial Systems:':
+        sections:
+        - '- Section: 20.1 Extraterrestrial Equilibrium and Fractional Crystallization:':
+            subsections:
+            - 20.1a Basic Concepts
+            - 20.1b Role in Trace Element Distribution
+            - 20.1c Case Studies
+        - '- Section: 20.2 Crystal Fractionation and Element Enrichment/Depletion in Extraterrestrial Systems:':
+            subsections:
+            - 20.2a Definition and Mechanisms
+            - 20.2b Role in Geochemical Cycles
+            - 20.2c Case Studies
+        - '- Section: 20.3 Effect of Pressure and Temperature on Trace Element Partitioning in Extraterrestrial Systems:':
+            subsections:
+            - 20.3a Basic Principles
+            - 20.3b Experimental Studies
+            - 20.3c Implications for Geochemical Processes

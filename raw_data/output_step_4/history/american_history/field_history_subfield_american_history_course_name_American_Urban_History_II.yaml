@@ -1,0 +1,202 @@
+textbook:
+  'American Urban History II: Exploring the Growth of American Cities":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Overview of the Course:':
+            subsections:
+            - 1.1a Course Objectives
+            - 1.1b Course Materials
+            - 1.1c Course Schedule
+        - '- Section: 1.2 Importance of Studying Urban History:':
+            subsections:
+            - 1.2a Historical Context
+            - 1.2b Relevance to Modern Urban Issues
+            - 1.2c Future Implications
+    - '- Chapter 2: Parks:':
+        sections:
+        - '- Section: 2.1 Frederick Law Olmsted: Landscape Architecture as Conservative Reform:':
+            subsections:
+            - 2.1a Olmsted's Background
+            - 2.1b Olmsted's Design Philosophy
+            - 2.1c Legacy of Olmsted's Work
+        - '- Section: 2.2 Politics and the Park:':
+            subsections:
+            - 2.2a Political Influence on Park Design
+            - 2.2b Park Funding and Maintenance
+            - 2.2c Parks as Public Spaces
+        - '- Section: 2.3 Forty Years of Landscape Architecture: Central Park:':
+            subsections:
+            - 2.3a History of Central Park
+            - 2.3b Design and Construction of Central Park
+            - 2.3c Central Park's Impact on Urban Design
+        - '- Section: 2.4 Eight Hours For What We Will: Working Conditions in Parks:':
+            subsections:
+            - 2.4a Labor in Park Construction and Maintenance
+            - 2.4b Worker Rights and Park Labor
+            - 2.4c Impact of Labor Movements on Park Development
+    - '- Chapter 3: Amusement Parks:':
+        sections:
+        - '- Section: 3.1 Rise of the Amusement Park Industry:':
+            subsections:
+            - 3.1a Early Amusement Parks
+            - 3.1b Growth and Expansion of the Industry
+            - 3.1c Modern Amusement Parks
+        - '- Section: 3.2 Evolution of Amusement Park Rides and Attractions:':
+            subsections:
+            - 3.2a Early Rides and Attractions
+            - 3.2b Technological Advances in Ride Design
+            - 3.2c Safety Regulations and Standards
+        - '- Section: 3.3 Socioeconomic Impact of Amusement Parks:':
+            subsections:
+            - 3.3a Economic Impact on Local Communities
+            - 3.3b Employment Opportunities in Amusement Parks
+            - 3.3c Amusement Parks as Cultural Landmarks
+    - '- Chapter 4: Suburbs:':
+        sections:
+        - '- Section: 4.1 Origins and Development of Suburbs:':
+            subsections:
+            - 4.1a Early Suburban Development
+            - 4.1b Factors Driving Suburban Growth
+            - 4.1c Modern Suburban Trends
+        - '- Section: 4.2 Suburbanization and the American Dream:':
+            subsections:
+            - 4.2a The American Dream and Homeownership
+            - 4.2b Suburbs and Social Mobility
+            - 4.2c Critiques of Suburbanization
+        - '- Section: 4.3 Suburban Sprawl and its Consequences:':
+            subsections:
+            - 4.3a Definition and Causes of Suburban Sprawl
+            - 4.3b Environmental Impact of Sprawl
+            - 4.3c Social and Economic Consequences of Sprawl
+    - '- Chapter 5: Tenements:':
+        sections:
+        - '- Section: 5.1 Rise of Tenement Housing:':
+            subsections:
+            - 5.1a Early Tenement Buildings
+            - 5.1b Factors Driving Tenement Construction
+            - 5.1c Tenements and Urban Density
+        - '- Section: 5.2 Living Conditions in Tenements:':
+            subsections:
+            - 5.2a Living Conditions in Early Tenements
+            - 5.2b Health and Safety Concerns
+            - 5.2c Tenement Life and Community
+        - '- Section: 5.3 Tenement Reform Movements:':
+            subsections:
+            - 5.3a Early Tenement Reform Efforts
+            - 5.3b Legislation and Policy Changes
+            - 5.3c Impact of Reform Movements
+    - '- Chapter 6: Skyscrapers:':
+        sections:
+        - '- Section: 6.1 Rise of Skyscrapers and the Impact on Urban Landscapes:':
+            subsections:
+            - 6.1a Early Skyscraper Construction
+            - 6.1b Skyscrapers and Urban Density
+            - 6.1c Skyscrapers and City Skylines
+        - '- Section: 6.2 Technological Advances in Skyscraper Construction:':
+            subsections:
+            - 6.2a Advances in Building Materials
+            - 6.2b Elevators and Vertical Transportation
+            - 6.2c Safety Innovations in Skyscraper Design
+        - '- Section: 6.3 Skyscrapers as Symbols of American Progress:':
+            subsections:
+            - 6.3a Skyscrapers and American Exceptionalism
+            - 6.3b Skyscrapers in Popular Culture
+            - 6.3c Skyscrapers and the Future of Urban Design
+    - '- Chapter 7: Department Stores:':
+        sections:
+        - '- Section: 7.1 Emergence of Department Stores in American Cities:':
+            subsections:
+            - 7.1a Early Department Stores
+            - 7.1b Department Stores and Urban Retail Landscapes
+            - 7.1c Department Stores and Consumer Culture
+        - '- Section: 7.2 Impact of Department Stores on Urban Retail Landscapes:':
+            subsections:
+            - 7.2a Department Stores and Downtown Development
+            - 7.2b Department Stores and Urban Planning
+            - 7.2c Department Stores and Public Spaces
+        - '- Section: 7.3 Changing Consumer Culture and the Rise of Mass Merchandising:':
+            subsections:
+            - 7.3a Consumer Culture and Department Stores
+            - 7.3b Mass Merchandising Techniques
+            - 7.3c Department Stores and the Changing Retail Landscape
+    - '- Chapter 8: Supermarkets:':
+        sections:
+        - '- Section: 8.1 Evolution of Supermarkets and the Transformation of Food Retailing:':
+            subsections:
+            - 8.1a Early Supermarkets
+            - 8.1b Supermarkets and the Food Retail Industry
+            - 8.1c Supermarkets and Consumer Behavior
+        - '- Section: 8.2 Supermarkets and Changing Shopping Habits:':
+            subsections:
+            - 8.2a Supermarkets and the Shopping Experience
+            - 8.2b Supermarkets and Consumer Convenience
+            - 8.2c Supermarkets and Food Choices
+        - '- Section: 8.3 Supermarkets'' Impact on Local Food Systems:':
+            subsections:
+            - 8.3a Supermarkets and Local Food Producers
+            - 8.3b Supermarkets and Food Distribution
+            - 8.3c Supermarkets and Food Waste
+    - '- Chapter 9: Public Baths:':
+        sections:
+        - '- Section: 9.1 History of Public Baths and the Sanitary Movement:':
+            subsections:
+            - 9.1a Early Public Baths
+            - 9.1b Public Baths and Public Health
+            - 9.1c Public Baths and Social Reform
+        - '- Section: 9.2 Social and Cultural Significance of Public Baths:':
+            subsections:
+            - 9.2a Public Baths as Social Spaces
+            - 9.2b Public Baths and Community Building
+            - 9.2c Public Baths and Cultural Diversity
+        - '- Section: 9.3 Decline and Revival of Public Bathhouses:':
+            subsections:
+            - 9.3a Decline of Public Baths
+            - 9.3b Revival of Bathhouse Culture
+            - 9.3c Modern Public Baths and Wellness Trends
+    - '- Chapter 10: Zoos:':
+        sections:
+        - '- Section: 10.1 Evolution of Zoos and the Changing Role of Animal Collections:':
+            subsections:
+            - 10.1a Early Zoos and Menageries
+            - 10.1b Zoos and Animal Conservation
+            - 10.1c Zoos and Animal Welfare
+        - '- Section: 10.2 Zoos as Sites of Education and Conservation:':
+            subsections:
+            - 10.2a Zoos and Public Education
+            - 10.2b Zoos and Wildlife Conservation
+            - 10.2c Zoos and Community Engagement
+        - '- Section: 10.3 Ethical Debates Surrounding Zoos and Animal Welfare:':
+            subsections:
+            - 10.3a Critiques of Zoos
+            - 10.3b Animal Welfare in Zoos
+            - 10.3c Future of Zoos and Animal Exhibits
+    - '- Chapter 11: Cemeteries:':
+        sections:
+        - '- Section: 11.1 Evolution of Cemetery Design and Landscape Architecture:':
+            subsections:
+            - 11.1a Early Cemeteries and Burial Grounds
+            - 11.1b Cemeteries and Landscape Design
+            - 11.1c Cemeteries and Urban Green Spaces
+        - '- Section: 11.2 Social and Cultural Significance of Cemeteries:':
+            subsections:
+            - 11.2a Cemeteries as Social Spaces
+            - 11.2b Cemeteries and Cultural Heritage
+            - 11.2c Cemeteries and Community Identity
+        - '- Section: 11.3 Changing Funeral Practices and the Rise of Cremation:':
+            subsections:
+            - 11.3a Traditional Funeral Practices
+            - 11.3b Rise of Cremation
+            - 11.3c Future of Funeral Practices
+    - '- Chapter 12: Conclusion:':
+        sections:
+        - '- Section: 12.1 Reflecting on American Urban History:':
+            subsections:
+            - 12.1a Key Themes in Urban History
+            - 12.1b Lessons Learned from Urban History
+            - 12.1c Future of Urban Studies
+        - '- Section: 12.2 Lessons Learned and Future Challenges:':
+            subsections:
+            - 12.2a Challenges Facing Urban Areas
+            - 12.2b Urban Resilience and Sustainability
+            - 12.2c Future Directions in Urban Studies

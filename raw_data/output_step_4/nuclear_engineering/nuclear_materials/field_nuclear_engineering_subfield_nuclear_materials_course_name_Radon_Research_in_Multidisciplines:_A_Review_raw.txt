@@ -1,0 +1,409 @@
+textbook: 
+"Radon Research in Multidisciplines: A Comprehensive Review":
+
+chapters:
+- Chapter 1: Radon and Radiation Physics Review:
+sections:
+- Section: 1.1 Domestic Radon Risks:
+subsections:
+- 1.1a Radon Detection
+- 1.1b Radon Mitigation
+- 1.1c Radon Legislation
+
+- Section: 1.2 Bystander Effects:
+subsections:
+- 1.2a Definition of Bystander Effects
+- 1.2b Bystander Effects in Radon Exposure
+- 1.2c Mitigation of Bystander Effects
+
+- Section: 1.3 Health Physics:
+subsections:
+- 1.3a Health Physics Principles
+- 1.3b Health Physics in Radon Exposure
+- 1.3c Health Physics Legislation
+
+- Section: 1.4 Radon Progeny Unattached Fraction:
+subsections:
+- 1.4a Definition of Unattached Fraction
+- 1.4b Measurement of Unattached Fraction
+- 1.4c Effects of Unattached Fraction
+
+- Chapter 2: Radon and Geology:
+sections:
+- Section: 2.1 Soil Gases:
+subsections:
+- 2.1a Soil Gas Composition
+- 2.1b Soil Gas and Radon
+- 2.1c Soil Gas Mitigation
+
+- Section: 2.2 Building Foundations:
+subsections:
+- 2.2a Building Materials and Radon
+- 2.2b Foundation Types and Radon
+- 2.2c Foundation Mitigation Techniques
+
+- Section: 2.3 Radon Entry into Buildings:
+subsections:
+- 2.3a Radon Entry Points
+- 2.3b Radon Entry Prevention
+- 2.3c Radon Entry Mitigation
+
+- Chapter 3: Radon and Radiation Biology:
+sections:
+- Section: 3.1 Radiation Biology:
+subsections:
+- 3.1a Basics of Radiation Biology
+- 3.1b Radiation Biology and Radon
+- 3.1c Radiation Biology Research
+
+- Section: 3.2 Radon-induced DNA Damage:
+subsections:
+- 3.2a Mechanisms of DNA Damage
+- 3.2b DNA Repair Mechanisms
+- 3.2c DNA Damage and Cancer
+
+- Section: 3.3 Radon and Cancer:
+subsections:
+- 3.3a Radon and Lung Cancer
+- 3.3b Radon and Other Cancers
+- 3.3c Cancer Prevention and Radon
+
+- Chapter 4: Radon Research In Medicine:
+sections:
+- Section: 4.1 Medicine:
+subsections:
+- 4.1a Radon in Medical Imaging
+- 4.1b Radon in Therapy
+- 4.1c Radon in Medical Research
+
+- Section: 4.2 Radon Therapy:
+subsections:
+- 4.2a Radon Therapy Techniques
+- 4.2b Radon Therapy Efficacy
+- 4.2c Radon Therapy Risks
+
+- Section: 4.3 Radon and Radioisotope Imaging:
+subsections:
+- 4.3a Basics of Radioisotope Imaging
+- 4.3b Radon in Radioisotope Imaging
+- 4.3c Future of Radon in Imaging
+
+- Chapter 5: Student Presentation - Radon Research in Radiation Health Physics and Planetary Science; Summary - Lab Demonstration:
+sections:
+- Section: 5.1 Health Physics:
+subsections:
+- 5.1a Health Physics and Radon
+- 5.1b Health Physics Research
+- 5.1c Health Physics Careers
+
+- Section: 5.2 Planetary Science:
+subsections:
+- 5.2a Radon on Other Planets
+- 5.2b Planetary Science Research
+- 5.2c Planetary Science Careers
+
+- Section: 5.3 Lab Demonstration:
+subsections:
+- 5.3a Lab Safety
+- 5.3b Lab Techniques
+- 5.3c Lab Results
+
+- Chapter 6: Radon in the Environment:
+sections:
+- Section: 6.1 Radon in Soil:
+subsections:
+- 6.1a Soil Composition and Radon
+- 6.1b Soil Testing for Radon
+- 6.1c Soil Remediation for Radon
+
+- Section: 6.2 Radon in Water:
+subsections:
+- 6.2a Water Sources and Radon
+- 6.2b Water Testing for Radon
+- 6.2c Water Treatment for Radon
+
+- Section: 6.3 Radon in Air:
+subsections:
+- 6.3a Air Quality and Radon
+- 6.3b Air Testing for Radon
+- 6.3c Air Purification for Radon
+
+- Chapter 7: Radon and Public Health:
+sections:
+- Section: 7.1 Public Health Risks:
+subsections:
+- 7.1a Radon and Lung Cancer
+- 7.1b Radon and Childhood Leukemia
+- 7.1c Radon and Other Health Risks
+
+- Section: 7.2 Public Health Policy:
+subsections:
+- 7.2a Radon Legislation
+- 7.2b Radon Mitigation Policies
+- 7.2c Radon Education Policies
+
+- Section: 7.3 Public Health Research:
+subsections:
+- 7.3a Epidemiological Studies on Radon
+- 7.3b Public Health Interventions for Radon
+- 7.3c Future Directions in Radon Research
+
+- Chapter 8: Radon and Building Construction:
+sections:
+- Section: 8.1 Building Materials:
+subsections:
+- 8.1a Radon Permeability of Building Materials
+- 8.1b Radon-Resistant Building Materials
+- 8.1c Building Material Testing for Radon
+
+- Section: 8.2 Building Design:
+subsections:
+- 8.2a Radon-Resistant Building Design
+- 8.2b Building Ventilation and Radon
+- 8.2c Building Insulation and Radon
+
+- Section: 8.3 Building Retrofitting:
+subsections:
+- 8.3a Radon Mitigation Techniques for Existing Buildings
+- 8.3b Cost-Benefit Analysis of Radon Retrofitting
+- 8.3c Case Studies of Radon Retrofitting
+
+- Chapter 9: Radon and Occupational Health:
+sections:
+- Section: 9.1 Mining and Radon:
+subsections:
+- 9.1a Radon Exposure in Mining
+- 9.1b Health Risks for Miners
+- 9.1c Mining Safety Regulations for Radon
+
+- Section: 9.2 Construction and Radon:
+subsections:
+- 9.2a Radon Exposure in Construction
+- 9.2b Health Risks for Construction Workers
+- 9.2c Construction Safety Regulations for Radon
+
+- Section: 9.3 Real Estate and Radon:
+subsections:
+- 9.3a Radon Testing in Real Estate
+- 9.3b Radon Disclosure Laws
+- 9.3c Radon Mitigation in Real Estate Transactions
+
+- Chapter 10: Radon and Homeowner Education:
+sections:
+- Section: 10.1 Understanding Radon Risks:
+subsections:
+- 10.1a Basics of Radon
+- 10.1b Health Risks of Radon
+- 10.1c Radon Risk Maps
+
+- Section: 10.2 Testing for Radon:
+subsections:
+- 10.2a Radon Testing Kits
+- 10.2b Professional Radon Testing
+- 10.2c Interpreting Radon Test Results
+
+- Section: 10.3 Mitigating Radon:
+subsections:
+- 10.3a Radon Mitigation Techniques
+- 10.3b Professional Radon Mitigation Services
+- 10.3c Maintaining a Radon-Free Home
+
+- Chapter 11: Radon and Environmental Justice:
+sections:
+- Section: 11.1 Radon and Socioeconomic Status:
+subsections:
+- 11.1a Radon Risks in Low-Income Communities
+- 11.1b Barriers to Radon Mitigation in Low-Income Communities
+- 11.1c Policy Solutions for Radon and Socioeconomic Status
+
+- Section: 11.2 Radon and Racial Disparities:
+subsections:
+- 11.2a Radon Risks in Racially Segregated Communities
+- 11.2b Barriers to Radon Mitigation in Racially Segregated Communities
+- 11.2c Policy Solutions for Radon and Racial Disparities
+
+- Section: 11.3 Radon and Geographic Disparities:
+subsections:
+- 11.3a Radon Risks in Different Geographic Regions
+- 11.3b Barriers to Radon Mitigation in Different Geographic Regions
+- 11.3c Policy Solutions for Radon and Geographic Disparities
+
+- Chapter 12: Radon and Climate Change:
+sections:
+- Section: 12.1 Climate Change and Radon Levels:
+subsections:
+- 12.1a Impact of Climate Change on Radon Levels
+- 12.1b Predicting Future Radon Levels
+- 12.1c Climate Change Mitigation and Radon
+
+- Section: 12.2 Climate Change and Radon Mitigation:
+subsections:
+- 12.2a Impact of Climate Change on Radon Mitigation Techniques
+- 12.2b Adapting Radon Mitigation Techniques for Climate Change
+- 12.2c Climate Change Adaptation and Radon
+
+- Section: 12.3 Climate Change and Radon Policy:
+subsections:
+- 12.3a Impact of Climate Change on Radon Policy
+- 12.3b Adapting Radon Policy for Climate Change
+- 12.3c Climate Change Policy and Radon
+
+- Chapter 13: Radon and Indoor Air Quality:
+sections:
+- Section: 13.1 Indoor Air Quality and Radon:
+subsections:
+- 13.1a Radon and Other Indoor Air Pollutants
+- 13.1b Indoor Air Quality Testing for Radon
+- 13.1c Indoor Air Quality Improvement and Radon
+
+- Section: 13.2 Ventilation and Radon:
+subsections:
+- 13.2a Ventilation Techniques for Radon Mitigation
+- 13.2b Ventilation Standards and Radon
+- 13.2c Ventilation Maintenance and Radon
+
+- Section: 13.3 Indoor Air Quality Policy and Radon:
+subsections:
+- 13.3a Indoor Air Quality Regulations and Radon
+- 13.3b Indoor Air Quality Certification and Radon
+- 13.3c Future Directions in Indoor Air Quality Policy and Radon
+
+- Chapter 14: Radon and Public Perception:
+sections:
+- Section: 14.1 Public Awareness of Radon:
+subsections:
+- 14.1a Public Knowledge of Radon
+- 14.1b Public Perception of Radon Risks
+- 14.1c Public Education Campaigns for Radon
+
+- Section: 14.2 Public Trust in Radon Information:
+subsections:
+- 14.2a Trust in Government Radon Information
+- 14.2b Trust in Industry Radon Information
+- 14.2c Trust in Nonprofit Radon Information
+
+- Section: 14.3 Public Engagement in Radon Policy:
+subsections:
+- 14.3a Public Participation in Radon Policy Making
+- 14.3b Public Advocacy for Radon Policy
+- 14.3c Public Accountability in Radon Policy
+
+- Chapter 15: Radon and the Real Estate Industry:
+sections:
+- Section: 15.1 Radon Disclosure in Real Estate:
+subsections:
+- 15.1a Radon Disclosure Laws
+- 15.1b Impact of Radon Disclosure on Real Estate Transactions
+- 15.1c Future Directions in Radon Disclosure
+
+- Section: 15.2 Radon Mitigation in Real Estate:
+subsections:
+- 15.2a Radon Mitigation Techniques for Real Estate
+- 15.2b Cost of Radon Mitigation in Real Estate
+- 15.2c Impact of Radon Mitigation on Property Value
+
+- Section: 15.3 Radon Education for Real Estate Professionals:
+subsections:
+- 15.3a Radon Training for Real Estate Agents
+- 15.3b Radon Certification for Real Estate Professionals
+- 15.3c Radon Resources for Real Estate Professionals
+
+- Chapter 16: Radon and the Construction Industry:
+sections:
+- Section: 16.1 Radon-Resistant Construction Techniques:
+subsections:
+- 16.1a Basics of Radon-Resistant Construction
+- 16.1b Cost of Radon-Resistant Construction
+- 16.1c Impact of Radon-Resistant Construction on Property Value
+
+- Section: 16.2 Radon Education for Construction Professionals:
+subsections:
+- 16.2a Radon Training for Construction Workers
+- 16.2b Radon Certification for Construction Professionals
+- 16.2c Radon Resources for Construction Professionals
+
+- Section: 16.3 Radon Policy and the Construction Industry:
+subsections:
+- 16.3a Construction Regulations and Radon
+- 16.3b Construction Industry Advocacy for Radon Policy
+- 16.3c Future Directions in Construction Policy and Radon
+
+- Chapter 17: Radon and the Mining Industry:
+sections:
+- Section: 17.1 Radon Exposure in Mining:
+subsections:
+- 17.1a Radon Risks for Miners
+- 17.1b Radon Safety Measures in Mining
+- 17.1c Radon Monitoring in Mining
+
+- Section: 17.2 Radon Education for Mining Professionals:
+subsections:
+- 17.2a Radon Training for Miners
+- 17.2b Radon Certification for Mining Professionals
+- 17.2c Radon Resources for Mining Professionals
+
+- Section: 17.3 Radon Policy and the Mining Industry:
+subsections:
+- 17.3a Mining Regulations and Radon
+- 17.3b Mining Industry Advocacy for Radon Policy
+- 17.3c Future Directions in Mining Policy and Radon
+
+- Chapter 18: Radon and the Medical Industry:
+sections:
+- Section: 18.1 Radon Therapy:
+subsections:
+- 18.1a Basics of Radon Therapy
+- 18.1b Efficacy of Radon Therapy
+- 18.1c Risks of Radon Therapy
+
+- Section: 18.2 Radon Education for Medical Professionals:
+subsections:
+- 18.2a Radon Training for Medical Professionals
+- 18.2b Radon Certification for Medical Professionals
+- 18.2c Radon Resources for Medical Professionals
+
+- Section: 18.3 Radon Policy and the Medical Industry:
+subsections:
+- 18.3a Medical Regulations and Radon
+- 18.3b Medical Industry Advocacy for Radon Policy
+- 18.3c Future Directions in Medical Policy and Radon
+
+- Chapter 19: Radon and the Education Industry:
+sections:
+- Section: 19.1 Radon in Schools:
+subsections:
+- 19.1a Radon Risks in Schools
+- 19.1b Radon Mitigation in Schools
+- 19.1c Radon Policy for Schools
+
+- Section: 19.2 Radon Education for Teachers:
+subsections:
+- 19.2a Radon Training for Teachers
+- 19.2b Radon Resources for Teachers
+- 19.2c Radon Curriculum for Students
+
+- Section: 19.3 Radon Policy and the Education Industry:
+subsections:
+- 19.3a Education Regulations and Radon
+- 19.3b Education Industry Advocacy for Radon Policy
+- 19.3c Future Directions in Education Policy and Radon
+
+- Chapter 20: Radon and the Future:
+sections:
+- Section: 20.1 Future Directions in Radon Research:
+subsections:
+- 20.1a Emerging Topics in Radon Research
+- 20.1b Future Directions in Radon Mitigation
+- 20.1c Future Directions in Radon Policy
+
+- Section: 20.2 Future Directions in Radon Education:
+subsections:
+- 20.2a Emerging Topics in Radon Education
+- 20.2b Future Directions in Radon Training
+- 20.2c Future Directions in Radon Public Awareness
+
+- Section: 20.3 Future Directions in Radon Advocacy:
+subsections:
+- 20.3a Emerging Topics in Radon Advocacy
+- 20.3b Future Directions in Radon Policy Advocacy
+- 20.3c Future Directions in Radon Public Advocacy

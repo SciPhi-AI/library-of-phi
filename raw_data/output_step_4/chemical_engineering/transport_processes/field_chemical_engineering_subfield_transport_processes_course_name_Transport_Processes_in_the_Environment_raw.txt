@@ -1,0 +1,379 @@
+textbook: 
+"Transport Processes in the Environment: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Transport Processes:
+sections:
+- Section: 1.1 Conceptual Model of Diffusion:
+subsections:
+- 1.1a Random Walk Animation
+- 1.1b Problems and Solutions
+
+- Section: 1.2 Conservation of Mass:
+subsections:
+- 1.2a Total Derivative Animations
+- 1.2b Problems and Solutions
+
+- Chapter 2: Diffusion of Substances in the Environment:
+sections:
+- Section: 2.1 Diffusion of an Instantaneous Point Release:
+subsections:
+- 2.1a Animation of Anisotropic Diffusion of a Point Release
+- 2.1b Problems and Solutions
+
+- Section: 2.2 Boundary Conditions:
+subsections:
+- 2.2a Animation Comparing No-Flux and Absorbing Boundaries
+- 2.2b Problems and Solutions
+
+- Section: 2.3 Advection and Diffusion of an Instant:
+subsections:
+- 2.3a Animation Showing Simultaneous Advection and Diffusion
+- 2.3b Animation of a Continuous Source Discharging into a Uniform Flow
+
+- Chapter 3: Uncertainty in Transport Processes:
+sections:
+- Section: 3.1 Sources of Uncertainty:
+subsections:
+- 3.1a Relative Humidity
+- 3.1b Reactor Models
+- 3.1c Residence Time Distribution
+
+- Section: 3.2 Propagation of Error in Velocity Measurements:
+subsections:
+- 3.2a Introduction to Diffusion
+- 3.2b Differential Form of Transport Equation
+
+- Chapter 4: Laboratory Experiments on Transport Processes:
+sections:
+- Section: 4.1 Wetland Circulation Residence Time:
+subsections:
+- 4.1a Lab 3: Nepf Wetland Circulation Residence Time
+
+- Section: 4.2 Dispersion in Soil Column:
+subsections:
+- 4.2a Lab 4: Nepf Dispersion in Soil Column
+
+- Section: 4.3 Flume Tracer Study Diffusivity/Dispersion:
+subsections:
+- 4.3a Lab 6: Nepf Flume Tracer Study Diffusivity/Dispersion
+
+- Chapter 5: Transport Processes in Aquatic Systems:
+sections:
+- Section: 5.1 Hydrodynamics in Aquatic Systems:
+subsections:
+- 5.1a Introduction to Hydrodynamics
+- 5.1b Hydrodynamic Models
+- 5.1c Applications in Aquatic Systems
+
+- Section: 5.2 Sediment Transport:
+subsections:
+- 5.2a Sediment Transport Mechanisms
+- 5.2b Sediment Transport Models
+- 5.2c Applications in Aquatic Systems
+
+- Section: 5.3 Nutrient Transport:
+subsections:
+- 5.3a Nutrient Transport Mechanisms
+- 5.3b Nutrient Transport Models
+- 5.3c Applications in Aquatic Systems
+
+- Chapter 6: Transport Processes in Atmospheric Systems:
+sections:
+- Section: 6.1 Atmospheric Circulation:
+subsections:
+- 6.1a Introduction to Atmospheric Circulation
+- 6.1b Atmospheric Circulation Models
+- 6.1c Applications in Atmospheric Systems
+
+- Section: 6.2 Air Pollution Transport:
+subsections:
+- 6.2a Air Pollution Transport Mechanisms
+- 6.2b Air Pollution Transport Models
+- 6.2c Applications in Atmospheric Systems
+
+- Section: 6.3 Greenhouse Gas Transport:
+subsections:
+- 6.3a Greenhouse Gas Transport Mechanisms
+- 6.3b Greenhouse Gas Transport Models
+- 6.3c Applications in Atmospheric Systems
+
+- Chapter 7: Transport Processes in Terrestrial Systems:
+sections:
+- Section: 7.1 Soil Water Transport:
+subsections:
+- 7.1a Introduction to Soil Water Transport
+- 7.1b Soil Water Transport Models
+- 7.1c Applications in Terrestrial Systems
+
+- Section: 7.2 Nutrient Transport in Soils:
+subsections:
+- 7.2a Nutrient Transport Mechanisms in Soils
+- 7.2b Nutrient Transport Models in Soils
+- 7.2c Applications in Terrestrial Systems
+
+- Section: 7.3 Contaminant Transport in Soils:
+subsections:
+- 7.3a Contaminant Transport Mechanisms in Soils
+- 7.3b Contaminant Transport Models in Soils
+- 7.3c Applications in Terrestrial Systems
+
+- Chapter 8: Transport Processes in Urban Systems:
+sections:
+- Section: 8.1 Urban Heat Island Effect:
+subsections:
+- 8.1a Introduction to Urban Heat Island Effect
+- 8.1b Urban Heat Island Models
+- 8.1c Applications in Urban Systems
+
+- Section: 8.2 Urban Air Pollution Transport:
+subsections:
+- 8.2a Urban Air Pollution Transport Mechanisms
+- 8.2b Urban Air Pollution Transport Models
+- 8.2c Applications in Urban Systems
+
+- Section: 8.3 Urban Water Transport:
+subsections:
+- 8.3a Urban Water Transport Mechanisms
+- 8.3b Urban Water Transport Models
+- 8.3c Applications in Urban Systems
+
+- Chapter 9: Transport Processes in Agricultural Systems:
+sections:
+- Section: 9.1 Irrigation Water Transport:
+subsections:
+- 9.1a Introduction to Irrigation Water Transport
+- 9.1b Irrigation Water Transport Models
+- 9.1c Applications in Agricultural Systems
+
+- Section: 9.2 Nutrient Transport in Agricultural Soils:
+subsections:
+- 9.2a Nutrient Transport Mechanisms in Agricultural Soils
+- 9.2b Nutrient Transport Models in Agricultural Soils
+- 9.2c Applications in Agricultural Systems
+
+- Section: 9.3 Pesticide Transport in Agricultural Soils:
+subsections:
+- 9.3a Pesticide Transport Mechanisms in Agricultural Soils
+- 9.3b Pesticide Transport Models in Agricultural Soils
+- 9.3c Applications in Agricultural Systems
+
+- Chapter 10: Transport Processes in Industrial Systems:
+sections:
+- Section: 10.1 Industrial Wastewater Transport:
+subsections:
+- 10.1a Introduction to Industrial Wastewater Transport
+- 10.1b Industrial Wastewater Transport Models
+- 10.1c Applications in Industrial Systems
+
+- Section: 10.2 Industrial Air Pollution Transport:
+subsections:
+- 10.2a Industrial Air Pollution Transport Mechanisms
+- 10.2b Industrial Air Pollution Transport Models
+- 10.2c Applications in Industrial Systems
+
+- Section: 10.3 Industrial Solid Waste Transport:
+subsections:
+- 10.3a Industrial Solid Waste Transport Mechanisms
+- 10.3b Industrial Solid Waste Transport Models
+- 10.3c Applications in Industrial Systems
+
+- Chapter 11: Transport Processes in Natural Systems:
+sections:
+- Section: 11.1 Transport in Lakes:
+subsections:
+- 11.1a Introduction to Transport in Lakes
+- 11.1b Transport Models in Lakes
+- 11.1c Applications in Natural Systems
+
+- Section: 11.2 Transport in Rivers:
+subsections:
+- 11.2a Introduction to Transport in Rivers
+- 11.2b Transport Models in Rivers
+- 11.2c Applications in Natural Systems
+
+- Section: 11.3 Transport in Oceans:
+subsections:
+- 11.3a Introduction to Transport in Oceans
+- 11.3b Transport Models in Oceans
+- 11.3c Applications in Natural Systems
+
+- Chapter 12: Transport Processes in Biological Systems:
+sections:
+- Section: 12.1 Transport in Cells:
+subsections:
+- 12.1a Introduction to Transport in Cells
+- 12.1b Transport Models in Cells
+- 12.1c Applications in Biological Systems
+
+- Section: 12.2 Transport in Tissues:
+subsections:
+- 12.2a Introduction to Transport in Tissues
+- 12.2b Transport Models in Tissues
+- 12.2c Applications in Biological Systems
+
+- Section: 12.3 Transport in Organisms:
+subsections:
+- 12.3a Introduction to Transport in Organisms
+- 12.3b Transport Models in Organisms
+- 12.3c Applications in Biological Systems
+
+- Chapter 13: Transport Processes in Geological Systems:
+sections:
+- Section: 13.1 Transport in Aquifers:
+subsections:
+- 13.1a Introduction to Transport in Aquifers
+- 13.1b Transport Models in Aquifers
+- 13.1c Applications in Geological Systems
+
+- Section: 13.2 Transport in Oil Reservoirs:
+subsections:
+- 13.2a Introduction to Transport in Oil Reservoirs
+- 13.2b Transport Models in Oil Reservoirs
+- 13.2c Applications in Geological Systems
+
+- Section: 13.3 Transport in Gas Reservoirs:
+subsections:
+- 13.3a Introduction to Transport in Gas Reservoirs
+- 13.3b Transport Models in Gas Reservoirs
+- 13.3c Applications in Geological Systems
+
+- Chapter 14: Transport Processes in Chemical Systems:
+sections:
+- Section: 14.1 Transport in Chemical Reactors:
+subsections:
+- 14.1a Introduction to Transport in Chemical Reactors
+- 14.1b Transport Models in Chemical Reactors
+- 14.1c Applications in Chemical Systems
+
+- Section: 14.2 Transport in Distillation Columns:
+subsections:
+- 14.2a Introduction to Transport in Distillation Columns
+- 14.2b Transport Models in Distillation Columns
+- 14.2c Applications in Chemical Systems
+
+- Section: 14.3 Transport in Absorption Columns:
+subsections:
+- 14.3a Introduction to Transport in Absorption Columns
+- 14.3b Transport Models in Absorption Columns
+- 14.3c Applications in Chemical Systems
+
+- Chapter 15: Transport Processes in Energy Systems:
+sections:
+- Section: 15.1 Transport in Nuclear Reactors:
+subsections:
+- 15.1a Introduction to Transport in Nuclear Reactors
+- 15.1b Transport Models in Nuclear Reactors
+- 15.1c Applications in Energy Systems
+
+- Section: 15.2 Transport in Solar Panels:
+subsections:
+- 15.2a Introduction to Transport in Solar Panels
+- 15.2b Transport Models in Solar Panels
+- 15.2c Applications in Energy Systems
+
+- Section: 15.3 Transport in Wind Turbines:
+subsections:
+- 15.3a Introduction to Transport in Wind Turbines
+- 15.3b Transport Models in Wind Turbines
+- 15.3c Applications in Energy Systems
+
+- Chapter 16: Transport Processes in Climate Systems:
+sections:
+- Section: 16.1 Transport in Climate Models:
+subsections:
+- 16.1a Introduction to Transport in Climate Models
+- 16.1b Transport Models in Climate Models
+- 16.1c Applications in Climate Systems
+
+- Section: 16.2 Transport in Weather Models:
+subsections:
+- 16.2a Introduction to Transport in Weather Models
+- 16.2b Transport Models in Weather Models
+- 16.2c Applications in Climate Systems
+
+- Section: 16.3 Transport in Ocean Models:
+subsections:
+- 16.3a Introduction to Transport in Ocean Models
+- 16.3b Transport Models in Ocean Models
+- 16.3c Applications in Climate Systems
+
+- Chapter 17: Transport Processes in Space Systems:
+sections:
+- Section: 17.1 Transport in Spacecraft:
+subsections:
+- 17.1a Introduction to Transport in Spacecraft
+- 17.1b Transport Models in Spacecraft
+- 17.1c Applications in Space Systems
+
+- Section: 17.2 Transport in Planetary Atmospheres:
+subsections:
+- 17.2a Introduction to Transport in Planetary Atmospheres
+- 17.2b Transport Models in Planetary Atmospheres
+- 17.2c Applications in Space Systems
+
+- Section: 17.3 Transport in Interstellar Medium:
+subsections:
+- 17.3a Introduction to Transport in Interstellar Medium
+- 17.3b Transport Models in Interstellar Medium
+- 17.3c Applications in Space Systems
+
+- Chapter 18: Transport Processes in Microscale Systems:
+sections:
+- Section: 18.1 Transport in Microfluidic Devices:
+subsections:
+- 18.1a Introduction to Transport in Microfluidic Devices
+- 18.1b Transport Models in Microfluidic Devices
+- 18.1c Applications in Microscale Systems
+
+- Section: 18.2 Transport in Nanoscale Systems:
+subsections:
+- 18.2a Introduction to Transport in Nanoscale Systems
+- 18.2b Transport Models in Nanoscale Systems
+- 18.2c Applications in Microscale Systems
+
+- Section: 18.3 Transport in Biological Microscale Systems:
+subsections:
+- 18.3a Introduction to Transport in Biological Microscale Systems
+- 18.3b Transport Models in Biological Microscale Systems
+- 18.3c Applications in Microscale Systems
+
+- Chapter 19: Transport Processes in Macroscale Systems:
+sections:
+- Section: 19.1 Transport in Large Scale Environmental Systems:
+subsections:
+- 19.1a Introduction to Transport in Large Scale Environmental Systems
+- 19.1b Transport Models in Large Scale Environmental Systems
+- 19.1c Applications in Macroscale Systems
+
+- Section: 19.2 Transport in Large Scale Industrial Systems:
+subsections:
+- 19.2a Introduction to Transport in Large Scale Industrial Systems
+- 19.2b Transport Models in Large Scale Industrial Systems
+- 19.2c Applications in Macroscale Systems
+
+- Section: 19.3 Transport in Large Scale Energy Systems:
+subsections:
+- 19.3a Introduction to Transport in Large Scale Energy Systems
+- 19.3b Transport Models in Large Scale Energy Systems
+- 19.3c Applications in Macroscale Systems
+
+- Chapter 20: Transport Processes in Multiscale Systems:
+sections:
+- Section: 20.1 Transport in Multiscale Environmental Systems:
+subsections:
+- 20.1a Introduction to Transport in Multiscale Environmental Systems
+- 20.1b Transport Models in Multiscale Environmental Systems
+- 20.1c Applications in Multiscale Systems
+
+- Section: 20.2 Transport in Multiscale Industrial Systems:
+subsections:
+- 20.2a Introduction to Transport in Multiscale Industrial Systems
+- 20.2b Transport Models in Multiscale Industrial Systems
+- 20.2c Applications in Multiscale Systems
+
+- Section: 20.3 Transport in Multiscale Energy Systems:
+subsections:
+- 20.3a Introduction to Transport in Multiscale Energy Systems
+- 20.3b Transport Models in Multiscale Energy Systems
+- 20.3c Applications in Multiscale Systems

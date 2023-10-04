@@ -1,0 +1,213 @@
+textbook: 
+"Electronics, Signals, and Measurement: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Electronics:
+sections:
+- Section: 1.1 Introduction:
+subsections:
+- 1.1a Basics of Electronics
+- 1.1b History of Electronics
+- 1.1c Importance of Electronics
+
+- Section: 1.2 Learning about the Lab Tools:
+subsections:
+- 1.2a Lab Equipment Overview
+- 1.2b Safe Use of Lab Tools
+- 1.2c Troubleshooting Lab Tools
+
+- Chapter 2: Signals and Systems:
+sections:
+- Section: 2.1 Introduction to Signals:
+subsections:
+- 2.1a Types of Signals
+- 2.1b Signal Processing
+- 2.1c Applications of Signals
+
+- Chapter 3: Fourier Transform and Fourier Series:
+sections:
+- Section: 3.1 Fourier Transform and Fourier Series:
+subsections:
+- 3.1a Introduction to Fourier Transform
+- 3.1b Fourier Series Analysis
+- 3.1c Applications of Fourier Transform and Series
+
+- Chapter 4: Sampling and Aliasing:
+sections:
+- Section: 4.1 Protoboarding Techniques:
+subsections:
+- 4.1a Basics of Protoboarding
+- 4.1b Protoboarding Best Practices
+- 4.1c Troubleshooting Protoboards
+
+- Section: 4.2 Sampling and Aliasing:
+subsections:
+- 4.2a Introduction to Sampling
+- 4.2b Understanding Aliasing
+- 4.2c Preventing Aliasing
+
+- Chapter 5: Numbering System:
+sections:
+- Section: 5.1 Numbering System Basics:
+subsections:
+- 5.1a Decimal System
+- 5.1b Binary System
+- 5.1c Hexadecimal System
+
+- Chapter 6: Circuit Analysis Techniques:
+sections:
+- Section: 6.1 KVL and KCL Analysis:
+subsections:
+- 6.1a Kirchhoff's Voltage Law
+- 6.1b Kirchhoff's Current Law
+- 6.1c Applications of KVL and KCL
+
+- Section: 6.2 Nodal Mesh Analysis:
+subsections:
+- 6.2a Introduction to Nodal Analysis
+- 6.2b Introduction to Mesh Analysis
+- 6.2c Applications of Nodal and Mesh Analysis
+
+- Chapter 7: Circuit Theorems and Methods:
+sections:
+- Section: 7.1 Superposition Method:
+subsections:
+- 7.1a Principle of Superposition
+- 7.1b Superposition in Circuit Analysis
+- 7.1c Applications of Superposition Method
+
+- Section: 7.2 Thevenin Circuits:
+subsections:
+- 7.2a Thevenin's Theorem
+- 7.2b Thevenin Equivalent Circuit
+- 7.2c Applications of Thevenin's Theorem
+
+- Section: 7.3 Circuits:
+subsections:
+- 7.3a Basic Circuit Elements
+- 7.3b Circuit Diagrams
+- 7.3c Circuit Analysis Techniques
+
+- Chapter 8: Norton Equivalent Circuits:
+sections:
+- Section: 8.1 Norton Equivalent Circuits:
+subsections:
+- 8.1a Norton's Theorem
+- 8.1b Norton Equivalent Circuit
+- 8.1c Applications of Norton's Theorem
+
+- Chapter 9: Dependent Sources:
+sections:
+- Section: 9.1 Dependent Sources:
+subsections:
+- 9.1a Introduction to Dependent Sources
+- 9.1b Types of Dependent Sources
+- 9.1c Applications of Dependent Sources
+
+- Chapter 10: Capacitors and Inductors:
+sections:
+- Section: 10.1 Capacitors and Inductors:
+subsections:
+- 10.1a Introduction to Capacitors
+- 10.1b Introduction to Inductors
+- 10.1c Applications of Capacitors and Inductors
+
+- Chapter 11: Impedance Method:
+sections:
+- Section: 11.1 Impedance Method:
+subsections:
+- 11.1a Introduction to Impedance
+- 11.1b Impedance in Circuit Analysis
+- 11.1c Applications of Impedance Method
+
+- Chapter 12: Sinusoidal Steady State:
+sections:
+- Section: 12.1 Sinusoidal Steady State:
+subsections:
+- 12.1a Introduction to Sinusoidal Steady State
+- 12.1b Differential Equation Method
+- 12.1c Impedance Method for Sinusoidal Steady State
+
+- Chapter 13: Frequency Response and Filters:
+sections:
+- Section: 13.1 Frequency Response and Filters:
+subsections:
+- 13.1a Introduction to Frequency Response
+- 13.1b Basics of Filters
+- 13.1c Applications of Filters
+
+- Chapter 14: Transient Response of Circuits:
+sections:
+- Section: 14.1 Transient Response of Circuits:
+subsections:
+- 14.1a Introduction to Transient Response
+- 14.1b Analysis of Transient Response
+- 14.1c Applications of Transient Response
+
+- Section: 14.2 First Order and RL Circuits:
+subsections:
+- 14.2a Introduction to First Order Circuits
+- 14.2b Introduction to RL Circuits
+- 14.2c Analysis of First Order and RL Circuits
+
+- Chapter 15: Circuits with Non-linear Elements:
+sections:
+- Section: 15.1 Circuits with Non-linear Elements:
+subsections:
+- 15.1a Introduction to Non-linear Elements
+- 15.1b Analysis of Circuits with Non-linear Elements
+- 15.1c Applications of Non-linear Elements
+
+- Section: 15.2 Diode:
+subsections:
+- 15.2a Introduction to Diodes
+- 15.2b Diode Circuit Analysis
+- 15.2c Applications of Diodes
+
+- Chapter 16: BJT:
+sections:
+- Section: 16.1 BJT:
+subsections:
+- 16.1a Introduction to BJTs
+- 16.1b BJT Circuit Analysis
+- 16.1c Applications of BJTs
+
+- Chapter 17: Op Amp:
+sections:
+- Section: 17.1 Op Amp:
+subsections:
+- 17.1a Introduction to Op Amps
+- 17.1b Op Amp Circuit Analysis
+- 17.1c Applications of Op Amps
+
+- Chapter 18: Control Fundamentals:
+sections:
+- Section: 18.1 Control Fundamentals:
+subsections:
+- 18.1a Introduction to Control Systems
+- 18.1b Control System Analysis
+- 18.1c Applications of Control Systems
+
+- Chapter 19: Control:
+sections:
+- Section: 19.1 Control:
+subsections:
+- 19.1a Control System Design
+- 19.1b Control System Stability
+- 19.1c Applications of Control Systems
+
+- Chapter 20: Design and Build a Heart Rate Monitor:
+sections:
+- Section: 20.1 Design and Build a Heart Rate Monitor:
+subsections:
+- 20.1a Introduction to Heart Rate Monitors
+- 20.1b Heart Rate Monitor Design
+- 20.1c Building a Heart Rate Monitor
+
+- Chapter 21: Digital Circuits:
+sections:
+- Section: 21.1 Digital Circuits:
+subsections:
+- 21.1a Introduction to Digital Circuits
+- 21.1b Digital Circuit Design
+- 21.1c Applications of Digital Circuits

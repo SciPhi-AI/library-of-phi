@@ -1,0 +1,346 @@
+textbook:
+  'Technology and Cities: Exploring the Impact of ICT on Urban Environments":':
+    chapters:
+    - '- Chapter 1: Introduction to Technology and Cities:':
+        sections:
+        - '- Section: 1.1 ICT and Community:':
+            subsections:
+            - 1.1a Introduction
+            - 1.1b Neighborhood or Community? Community in the Networked Society
+            - '1.1c Community Lost or Saved: Social Impacts of ICTs'
+            - 1.1d Place-Based and IT Mediated Community
+        - '- Section: 1.2 ICT and Planning:':
+            subsections:
+            - 1.2a Modeling Urban Futures
+            - '1.2b Urban Spatial Structure: Understanding, Representing and Visualizing
+              Place'
+            - 1.2c Facilitating Dialogue, Evaluation, and Coordination
+        - '- Section: 1.3 ICT and Place:':
+            subsections:
+            - 1.3a Public Space
+            - 1.3b Private Space
+            - 1.3c Local and Global Development
+            - 1.3d E-government - Beyond Automation
+        - '- Section: 1.4 ICT and Transportation:':
+            subsections:
+            - 1.4a Smart Mobility Solutions
+            - 1.4b Intelligent Transportation Systems
+            - 1.4c Shared Mobility and the Future of Transportation
+    - '- Chapter 2: ICT and Urban Design:':
+        sections:
+        - '- Section: 2.1 The Role of ICT in Urban Design:':
+            subsections:
+            - 2.1a Designing Smart Cities
+            - 2.1b ICT Tools for Urban Design
+            - 2.1c Data-Driven Urban Design
+        - '- Section: 2.2 Sustainable Urban Development and ICT:':
+            subsections:
+            - 2.2a ICT Solutions for Energy Efficiency
+            - 2.2b Smart Grids and Sustainable Energy Management
+            - 2.2c ICT for Waste Management in Cities
+        - '- Section: 2.3 ICT and Urban Infrastructure:':
+            subsections:
+            - 2.3a Smart Buildings and Energy Management
+            - 2.3b Smart Water Management Systems
+            - 2.3c ICT in Urban Transportation Infrastructure
+    - '- Chapter 3: ICT and Urban Governance:':
+        sections:
+        - '- Section: 3.1 E-governance and Citizen Engagement:':
+            subsections:
+            - 3.1a Open Data and Transparency
+            - 3.1b ICT for Citizen Participation
+            - 3.1c Smart Governance Solutions
+        - '- Section: 3.2 ICT and Urban Policy Making:':
+            subsections:
+            - 3.2a ICT in Urban Planning and Policy Formulation
+            - 3.2b Data-Driven Decision Making
+            - 3.2c ICT for Social and Economic Development
+        - '- Section: 3.3 Challenges and Opportunities of ICT in Urban Governance:':
+            subsections:
+            - 3.3a Digital Divide and Inclusivity
+            - 3.3b Privacy and Security Concerns
+            - 3.3c Ethical Considerations in Urban Governance
+    - '- Chapter 4: ICT and Urban Livability:':
+        sections:
+        - '- Section: 4.1 ICT and Quality of Life:':
+            subsections:
+            - 4.1a Improving Accessibility and Mobility
+            - 4.1b Enhancing Health and Well-being
+            - 4.1c ICT for Cultural and Social Integration
+        - '- Section: 4.2 Smart City Services:':
+            subsections:
+            - 4.2a Smart Healthcare Systems
+            - 4.2b Smart Education and Learning
+            - 4.2c Smart Tourism and Leisure
+    - '- Chapter 5: ICT and Urban Sustainability:':
+        sections:
+        - '- Section: 5.1 Smart Energy Management:':
+            subsections:
+            - 5.1a Renewable Energy Integration
+            - 5.1b Energy Monitoring and Optimization
+            - 5.1c ICT Solutions for Carbon Footprint Reduction
+        - '- Section: 5.2 ICT and Sustainable Transportation:':
+            subsections:
+            - 5.2a Intelligent Traffic Management Systems
+            - 5.2b ICT for Electric Vehicle Infrastructure
+            - 5.2c Smart Parking Solutions
+        - '- Section: 5.3 ICT and Environmental Monitoring:':
+            subsections:
+            - 5.3a Air Quality Monitoring and Management
+            - 5.3b Water Resource Management
+            - 5.3c Waste Management Solutions
+    - '- Chapter 6: ICT and Urban Resilience:':
+        sections:
+        - '- Section: 6.1 ICT for Disaster Management:':
+            subsections:
+            - 6.1a Early Warning Systems
+            - 6.1b Emergency Response and Recovery
+            - 6.1c ICT for Resilient Infrastructure
+        - '- Section: 6.2 ICT and Climate Change Adaptation:':
+            subsections:
+            - 6.2a Climate Modeling and Predictive Analytics
+            - 6.2b ICT Solutions for Water Resource Management
+            - 6.2c Smart Agriculture and Food Security
+        - '- Section: 6.3 Building Smart and Resilient Cities:':
+            subsections:
+            - 6.3a ICT for Risk Assessment and Mitigation
+            - 6.3b Resilient Urban Design Principles
+            - 6.3c ICT Solutions for Community Resilience
+    - '- Chapter 7: ICT and Urban Development:':
+        sections:
+        - '- Section: 7.1 ICT and Urban Planning:':
+            subsections:
+            - 7.1a Urban Planning in the Digital Age
+            - 7.1b ICT Tools for Urban Planning
+            - 7.1c Data-Driven Urban Planning
+        - '- Section: 7.2 ICT and Urban Regeneration:':
+            subsections:
+            - 7.2a ICT for Urban Regeneration Projects
+            - 7.2b Smart Urban Regeneration
+            - 7.2c ICT and Community Engagement in Urban Regeneration
+        - '- Section: 7.3 ICT and Urban Economics:':
+            subsections:
+            - 7.3a ICT and Urban Economic Development
+            - 7.3b Smart Economic Development Strategies
+            - 7.3c ICT and Urban Innovation Ecosystems
+    - '- Chapter 8: ICT and Urban Infrastructure:':
+        sections:
+        - '- Section: 8.1 Smart Urban Infrastructure:':
+            subsections:
+            - 8.1a Smart Grids and Energy Infrastructure
+            - 8.1b Smart Water and Waste Management Infrastructure
+            - 8.1c Smart Transportation Infrastructure
+        - '- Section: 8.2 ICT and Urban Services:':
+            subsections:
+            - 8.2a Smart Public Services
+            - 8.2b ICT for Efficient Urban Services
+            - 8.2c ICT and Citizen Engagement in Urban Services
+        - '- Section: 8.3 ICT and Urban Management:':
+            subsections:
+            - 8.3a ICT for Efficient Urban Management
+            - 8.3b Smart Urban Management Systems
+            - 8.3c ICT and Citizen Participation in Urban Management
+    - '- Chapter 9: ICT and Urban Environment:':
+        sections:
+        - '- Section: 9.1 ICT and Urban Environmental Management:':
+            subsections:
+            - 9.1a ICT for Environmental Monitoring and Management
+            - 9.1b Smart Environmental Management Systems
+            - 9.1c ICT and Citizen Engagement in Environmental Management
+        - '- Section: 9.2 ICT and Urban Sustainability:':
+            subsections:
+            - 9.2a ICT for Sustainable Urban Development
+            - 9.2b Smart Sustainability Solutions
+            - 9.2c ICT and Citizen Engagement in Urban Sustainability
+        - '- Section: 9.3 ICT and Urban Resilience:':
+            subsections:
+            - 9.3a ICT for Urban Resilience
+            - 9.3b Smart Resilience Solutions
+            - 9.3c ICT and Citizen Engagement in Urban Resilience
+    - '- Chapter 10: ICT and Urban Society:':
+        sections:
+        - '- Section: 10.1 ICT and Urban Social Inclusion:':
+            subsections:
+            - 10.1a ICT for Social Inclusion
+            - 10.1b Smart Social Inclusion Solutions
+            - 10.1c ICT and Citizen Engagement in Social Inclusion
+        - '- Section: 10.2 ICT and Urban Education:':
+            subsections:
+            - 10.2a ICT for Urban Education
+            - 10.2b Smart Education Solutions
+            - 10.2c ICT and Citizen Engagement in Urban Education
+        - '- Section: 10.3 ICT and Urban Health:':
+            subsections:
+            - 10.3a ICT for Urban Health
+            - 10.3b Smart Health Solutions
+            - 10.3c ICT and Citizen Engagement in Urban Health
+    - '- Chapter 11: ICT and Urban Governance:':
+        sections:
+        - '- Section: 11.1 ICT and Urban Governance:':
+            subsections:
+            - 11.1a ICT for Urban Governance
+            - 11.1b Smart Governance Solutions
+            - 11.1c ICT and Citizen Engagement in Urban Governance
+        - '- Section: 11.2 ICT and Urban Policy:':
+            subsections:
+            - 11.2a ICT for Urban Policy
+            - 11.2b Smart Policy Solutions
+            - 11.2c ICT and Citizen Engagement in Urban Policy
+        - '- Section: 11.3 ICT and Urban Administration:':
+            subsections:
+            - 11.3a ICT for Urban Administration
+            - 11.3b Smart Administration Solutions
+            - 11.3c ICT and Citizen Engagement in Urban Administration
+    - '- Chapter 12: ICT and Urban Innovation:':
+        sections:
+        - '- Section: 12.1 ICT and Urban Innovation:':
+            subsections:
+            - 12.1a ICT for Urban Innovation
+            - 12.1b Smart Innovation Solutions
+            - 12.1c ICT and Citizen Engagement in Urban Innovation
+        - '- Section: 12.2 ICT and Urban Entrepreneurship:':
+            subsections:
+            - 12.2a ICT for Urban Entrepreneurship
+            - 12.2b Smart Entrepreneurship Solutions
+            - 12.2c ICT and Citizen Engagement in Urban Entrepreneurship
+        - '- Section: 12.3 ICT and Urban Creativity:':
+            subsections:
+            - 12.3a ICT for Urban Creativity
+            - 12.3b Smart Creativity Solutions
+            - 12.3c ICT and Citizen Engagement in Urban Creativity
+    - '- Chapter 13: ICT and Urban Culture:':
+        sections:
+        - '- Section: 13.1 ICT and Urban Culture:':
+            subsections:
+            - 13.1a ICT for Urban Culture
+            - 13.1b Smart Culture Solutions
+            - 13.1c ICT and Citizen Engagement in Urban Culture
+        - '- Section: 13.2 ICT and Urban Heritage:':
+            subsections:
+            - 13.2a ICT for Urban Heritage
+            - 13.2b Smart Heritage Solutions
+            - 13.2c ICT and Citizen Engagement in Urban Heritage
+        - '- Section: 13.3 ICT and Urban Arts:':
+            subsections:
+            - 13.3a ICT for Urban Arts
+            - 13.3b Smart Arts Solutions
+            - 13.3c ICT and Citizen Engagement in Urban Arts
+    - '- Chapter 14: ICT and Urban Tourism:':
+        sections:
+        - '- Section: 14.1 ICT and Urban Tourism:':
+            subsections:
+            - 14.1a ICT for Urban Tourism
+            - 14.1b Smart Tourism Solutions
+            - 14.1c ICT and Citizen Engagement in Urban Tourism
+        - '- Section: 14.2 ICT and Urban Hospitality:':
+            subsections:
+            - 14.2a ICT for Urban Hospitality
+            - 14.2b Smart Hospitality Solutions
+            - 14.2c ICT and Citizen Engagement in Urban Hospitality
+        - '- Section: 14.3 ICT and Urban Leisure:':
+            subsections:
+            - 14.3a ICT for Urban Leisure
+            - 14.3b Smart Leisure Solutions
+            - 14.3c ICT and Citizen Engagement in Urban Leisure
+    - '- Chapter 15: ICT and Urban Economy:':
+        sections:
+        - '- Section: 15.1 ICT and Urban Economy:':
+            subsections:
+            - 15.1a ICT for Urban Economy
+            - 15.1b Smart Economy Solutions
+            - 15.1c ICT and Citizen Engagement in Urban Economy
+        - '- Section: 15.2 ICT and Urban Business:':
+            subsections:
+            - 15.2a ICT for Urban Business
+            - 15.2b Smart Business Solutions
+            - 15.2c ICT and Citizen Engagement in Urban Business
+        - '- Section: 15.3 ICT and Urban Industry:':
+            subsections:
+            - 15.3a ICT for Urban Industry
+            - 15.3b Smart Industry Solutions
+            - 15.3c ICT and Citizen Engagement in Urban Industry
+    - '- Chapter 16: ICT and Urban Security:':
+        sections:
+        - '- Section: 16.1 ICT and Urban Security:':
+            subsections:
+            - 16.1a ICT for Urban Security
+            - 16.1b Smart Security Solutions
+            - 16.1c ICT and Citizen Engagement in Urban Security
+        - '- Section: 16.2 ICT and Urban Safety:':
+            subsections:
+            - 16.2a ICT for Urban Safety
+            - 16.2b Smart Safety Solutions
+            - 16.2c ICT and Citizen Engagement in Urban Safety
+        - '- Section: 16.3 ICT and Urban Justice:':
+            subsections:
+            - 16.3a ICT for Urban Justice
+            - 16.3b Smart Justice Solutions
+            - 16.3c ICT and Citizen Engagement in Urban Justice
+    - '- Chapter 17: ICT and Urban Mobility:':
+        sections:
+        - '- Section: 17.1 ICT and Urban Mobility:':
+            subsections:
+            - 17.1a ICT for Urban Mobility
+            - 17.1b Smart Mobility Solutions
+            - 17.1c ICT and Citizen Engagement in Urban Mobility
+        - '- Section: 17.2 ICT and Urban Transportation:':
+            subsections:
+            - 17.2a ICT for Urban Transportation
+            - 17.2b Smart Transportation Solutions
+            - 17.2c ICT and Citizen Engagement in Urban Transportation
+        - '- Section: 17.3 ICT and Urban Logistics:':
+            subsections:
+            - 17.3a ICT for Urban Logistics
+            - 17.3b Smart Logistics Solutions
+            - 17.3c ICT and Citizen Engagement in Urban Logistics
+    - '- Chapter 18: ICT and Urban Housing:':
+        sections:
+        - '- Section: 18.1 ICT and Urban Housing:':
+            subsections:
+            - 18.1a ICT for Urban Housing
+            - 18.1b Smart Housing Solutions
+            - 18.1c ICT and Citizen Engagement in Urban Housing
+        - '- Section: 18.2 ICT and Urban Real Estate:':
+            subsections:
+            - 18.2a ICT for Urban Real Estate
+            - 18.2b Smart Real Estate Solutions
+            - 18.2c ICT and Citizen Engagement in Urban Real Estate
+        - '- Section: 18.3 ICT and Urban Property Management:':
+            subsections:
+            - 18.3a ICT for Urban Property Management
+            - 18.3b Smart Property Management Solutions
+            - 18.3c ICT and Citizen Engagement in Urban Property Management
+    - '- Chapter 19: ICT and Urban Education:':
+        sections:
+        - '- Section: 19.1 ICT and Urban Education:':
+            subsections:
+            - 19.1a ICT for Urban Education
+            - 19.1b Smart Education Solutions
+            - 19.1c ICT and Citizen Engagement in Urban Education
+        - '- Section: 19.2 ICT and Urban Learning:':
+            subsections:
+            - 19.2a ICT for Urban Learning
+            - 19.2b Smart Learning Solutions
+            - 19.2c ICT and Citizen Engagement in Urban Learning
+        - '- Section: 19.3 ICT and Urban Research:':
+            subsections:
+            - 19.3a ICT for Urban Research
+            - 19.3b Smart Research Solutions
+            - 19.3c ICT and Citizen Engagement in Urban Research
+    - '- Chapter 20: ICT and Urban Health:':
+        sections:
+        - '- Section: 20.1 ICT and Urban Health:':
+            subsections:
+            - 20.1a ICT for Urban Health
+            - 20.1b Smart Health Solutions
+            - 20.1c ICT and Citizen Engagement in Urban Health
+        - '- Section: 20.2 ICT and Urban Wellness:':
+            subsections:
+            - 20.2a ICT for Urban Wellness
+            - 20.2b Smart Wellness Solutions
+            - 20.2c ICT and Citizen Engagement in Urban Wellness
+        - '- Section: 20.3 ICT and Urban Healthcare:':
+            subsections:
+            - 20.3a ICT for Urban Healthcare
+            - 20.3b Smart Healthcare Solutions
+            - 20.3c ICT and Citizen Engagement in Urban Healthcare

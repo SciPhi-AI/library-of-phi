@@ -1,0 +1,3 @@
+- Chapter 12: Compressible Flow in Heat Exchangers:
+- Section: 12.4 Compressible Flow in Regenerative Heat Exchangers:
+12.4a Introduction to Compressible Flow in Regenerative Heat Exchangers

@@ -1,0 +1,209 @@
+textbook: 
+"String Theory for Undergraduates: A Comprehensive Introduction":
+
+chapters:
+- Chapter 1: Gravitational Potentials, Compactification, and Large Extra Dimensions:
+sections:
+- Section: 1.1 Compact Dimensions:
+subsections:
+- 1.1a Introduction to Compact Dimensions
+- 1.1b Compactification Schemes
+- 1.1c Kaluza-Klein Theory
+
+- Section: 1.2 Large Extra Dimensions:
+subsections:
+- 1.2a Introduction to Large Extra Dimensions
+- 1.2b The ADD Model
+- 1.2c Phenomenological Implications
+
+- Chapter 2: Nonrelativistic Strings and Lagrangian Mechanics:
+sections:
+- Section: 2.1 Lagrangian Mechanics:
+subsections:
+- 2.1a Principles of Lagrangian Mechanics
+- 2.1b Euler-Lagrange Equations
+- 2.1c Hamiltonian Mechanics
+
+- Section: 2.2 Nonrelativistic Strings:
+subsections:
+- 2.2a Introduction to Nonrelativistic Strings
+- 2.2b String Oscillations
+- 2.2c String Interactions
+
+- Chapter 3: The Relativistic Point Particle: Action, Reparametrizations, and Equations of Motion:
+sections:
+- Section: 3.1 Action:
+subsections:
+- 3.1a Principle of Least Action
+- 3.1b Action for the Point Particle
+- 3.1c Variational Calculus
+
+- Section: 3.2 Reparametrizations:
+subsections:
+- 3.2a Reparametrization Invariance
+- 3.2b Gauge Fixing
+- 3.2c Physical Interpretation
+
+- Section: 3.3 Equations of Motion:
+subsections:
+- 3.3a Euler-Lagrange Equations
+- 3.3b Energy-Momentum Tensor
+- 3.3c Conservation Laws
+
+- Chapter 4: Area Formula for Spatial Surfaces:
+sections:
+- Section: 4.1 Area Formula for Spatial Surfaces:
+subsections:
+- 4.1a Introduction to Area Formula
+- 4.1b Area Formula in Relativistic String Theory
+- 4.1c Applications to Black Hole Physics
+
+- Chapter 5: Change of Variables:
+sections:
+- Section: 5.1 Change of Variables:
+subsections:
+- 5.1a Coordinate Transformations
+- 5.1b Jacobians and Determinants
+- 5.1c Applications in String Theory
+
+- Chapter 6: Relativistic Strings: Nambu-Goto Action, Equations of Motion and Boundary Conditions:
+sections:
+- Section: 6.1 Nambu-Goto Action:
+subsections:
+- 6.1a Introduction to Nambu-Goto Action
+- 6.1b Derivation of Equations of Motion
+- 6.1c Conserved Quantities
+
+- Section: 6.2 Equations of Motion:
+subsections:
+- 6.2a Solutions to Equations of Motion
+- 6.2b Classical String Configurations
+- 6.2c String Interactions
+
+- Section: 6.3 Boundary Conditions:
+subsections:
+- 6.3a Open and Closed Strings
+- 6.3b Dirichlet and Neumann Boundary Conditions
+- 6.3c T-Duality and D-Branes
+
+- Chapter 7: Solution of the Open String Motion in the Light-cone Gauge:
+sections:
+- Section: 7.1 Light-cone Gauge:
+subsections:
+- 7.1a Introduction to Light-cone Gauge
+- 7.1b Light-cone Quantization
+- 7.1c Physical Spectrum of Open Strings
+
+- Section: 7.2 Open Strings:
+subsections:
+- 7.2a Worldsheet Formalism
+- 7.2b Vertex Operators
+- 7.2c Scattering Amplitudes
+
+- Chapter 8: Light-cone Fields and Particles:
+sections:
+- Section: 8.1 Light-cone Fields:
+subsections:
+- 8.1a Quantization of Light-cone Fields
+- 8.1b Light-cone Hamiltonian
+- 8.1c Fock Space Description
+
+- Section: 8.2 Particles:
+subsections:
+- 8.2a Particle Interpretation of String States
+- 8.2b Mass Spectrum
+- 8.2c Decay Processes
+
+- Chapter 9: Closed Strings:
+sections:
+- Section: 9.1 Closed Strings:
+subsections:
+- 9.1a Introduction to Closed Strings
+- 9.1b String Oscillations
+- 9.1c Compactification Schemes
+
+- Chapter 10: Superstrings:
+sections:
+- Section: 10.1 Superstrings:
+subsections:
+- 10.1a Introduction to Superstrings
+- 10.1b Supersymmetry in String Theory
+- 10.1c Type I, Type II, and Heterotic Superstrings
+
+- Chapter 11: Dp-branes:
+sections:
+- Section: 11.1 Dp-branes:
+subsections:
+- 11.1a Introduction to Dp-branes
+- 11.1b Worldvolume Dynamics
+- 11.1c T-Duality and Brane Stacking
+
+- Chapter 12: Final Exam Review:
+sections:
+- Section: 12.1 Final Exam Review:
+subsections:
+- 12.1a Important Concepts and Formulas
+- 12.1b Sample Exam Questions and Solutions
+
+- Chapter 13: Final Exam Week:
+sections:
+- Section: 13.1 Final Exam Week:
+subsections:
+- 13.1a Exam Preparation Strategies
+- 13.1b Time Management Tips
+
+- Chapter 14: Introduction to Quantum Mechanics:
+sections:
+- Section: 14.1 Quantum Mechanics:
+subsections:
+- 14.1a Wave-Particle Duality
+- 14.1b Schrödinger Equation
+- 14.1c Quantum States and Operators
+
+- Chapter 15: Quantum Field Theory:
+sections:
+- Section: 15.1 Quantum Field Theory:
+subsections:
+- 15.1a Introduction to Quantum Field Theory
+- 15.1b Feynman Diagrams
+- 15.1c Quantum Electrodynamics
+
+- Chapter 16: Quantum Gravity:
+sections:
+- Section: 16.1 Quantum Gravity:
+subsections:
+- 16.1a Introduction to Quantum Gravity
+- 16.1b Problems with Quantum Gravity
+- 16.1c String Theory and Quantum Gravity
+
+- Chapter 17: M-Theory:
+sections:
+- Section: 17.1 M-Theory:
+subsections:
+- 17.1a Introduction to M-Theory
+- 17.1b M-Theory and Superstring Theory
+- 17.1c M-Theory and Eleven Dimensions
+
+- Chapter 18: Cosmology and String Theory:
+sections:
+- Section: 18.1 Cosmology and String Theory:
+subsections:
+- 18.1a Introduction to Cosmology
+- 18.1b Big Bang and Inflation
+- 18.1c String Theory and the Early Universe
+
+- Chapter 19: Black Holes and String Theory:
+sections:
+- Section: 19.1 Black Holes and String Theory:
+subsections:
+- 19.1a Introduction to Black Holes
+- 19.1b Hawking Radiation
+- 19.1c String Theory and Black Holes
+
+- Chapter 20: Advanced Topics in String Theory:
+sections:
+- Section: 20.1 Advanced Topics in String Theory:
+subsections:
+- 20.1a Introduction to Advanced Topics
+- 20.1b AdS/CFT Correspondence
+- 20.1c String Theory Landscape

@@ -1,0 +1,325 @@
+textbook:
+  'Functional MRI of High-Level Vision: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to fMRI and High-Level Vision:':
+        sections:
+        - '- Section: 1.1 Scene Perception and the PPA:':
+            subsections:
+            - 1.1a Overview of scene perception in the human brain
+            - 1.1b Role of the Parahippocampal Place Area (PPA) in scene processing
+            - 1.1c Neural mechanisms underlying scene perception
+        - '- Section: 1.2 Face Processing and the FFA:':
+            subsections:
+            - 1.2a Understanding face perception in the brain
+            - 1.2b The Fusiform Face Area (FFA) and its role in face recognition
+            - 1.2c Face processing deficits and disorders
+        - '- Section: 1.3 Visual Attention:':
+            subsections:
+            - 1.3a Mechanisms of visual attention
+            - 1.3b Neural correlates of attentional processes in the brain
+            - 1.3c Disorders of visual attention
+        - '- Section: 1.4 Visual Awareness:':
+            subsections:
+            - 1.4a The relationship between consciousness and visual awareness
+            - 1.4b Neural mechanisms of visual awareness
+            - 1.4c The role of attention in visual awareness
+    - '- Chapter 2: The Dorsal/Parietal Pathway:':
+        sections:
+        - '- Section: 2.1 Functions and anatomy of the dorsal/parietal pathway:':
+            subsections:
+            - 2.1a Role of the dorsal/parietal pathway in visually guided action
+            - 2.1b The involvement of the dorsal/parietal pathway in number processing
+            - 2.1c Attention and response selection in the dorsal/parietal pathway
+    - '- Chapter 3: Functional Organization of the Ventral Visual Pathway:':
+        sections:
+        - '- Section: 3.1 Visual Recognition and Object Shape:':
+            subsections:
+            - 3.1a Overview of visual recognition in the human brain
+            - 3.1b Role of the lateral occipital complex (LOC) in object shape processing
+            - 3.1c Neural mechanisms underlying object recognition
+            - 3.1d Disorders of object recognition
+        - '- Section: 3.2 Visual Attention:':
+            subsections:
+            - 3.2a Mechanisms of visual attention
+            - 3.2b Neural correlates of attentional processes in the brain
+            - 3.2c Disorders of visual attention
+    - '- Chapter 4: Development and Effects of Experience on Visual and Extrastriate Cortex:':
+        sections:
+        - '- Section: 4.1 Student Presentations:':
+            subsections:
+            - 4.1a Role of experience in shaping visual and extrastriate cortex
+            - 4.1b Neural plasticity and its impact on visual processing
+            - 4.1c Developmental changes in high-level vision
+            - 4.1d Effects of sensory deprivation on visual and extrastriate cortex
+    - '- Chapter 5: Introduction to fMRI Techniques:':
+        sections:
+        - '- Section: 5.1 Basic Principles of fMRI:':
+            subsections:
+            - 5.1a Understanding the BOLD signal
+            - 5.1b fMRI data acquisition and preprocessing
+            - 5.1c Statistical analysis of fMRI data
+        - '- Section: 5.2 Advanced fMRI Techniques:':
+            subsections:
+            - 5.2a Multivariate pattern analysis (MVPA)
+            - 5.2b Functional connectivity analysis
+            - 5.2c Decoding and prediction models in fMRI
+        - '- Section: 5.3 Applications of fMRI in Clinical Research:':
+            subsections:
+            - 5.3a fMRI in neurological disorders
+            - 5.3b fMRI in psychiatric disorders
+            - 5.3c fMRI in cognitive neuroscience
+    - '- Chapter 6: High-Level Vision and Perception:':
+        sections:
+        - '- Section: 6.1 Perception of Motion:':
+            subsections:
+            - 6.1a Neural mechanisms of motion perception
+            - 6.1b Role of the MT/V5 in motion processing
+            - 6.1c Disorders of motion perception
+        - '- Section: 6.2 Perception of Color:':
+            subsections:
+            - 6.2a Neural mechanisms of color perception
+            - 6.2b Role of the V4 in color processing
+            - 6.2c Disorders of color perception
+        - '- Section: 6.3 Perception of Depth:':
+            subsections:
+            - 6.3a Neural mechanisms of depth perception
+            - 6.3b Role of the V3 in depth processing
+            - 6.3c Disorders of depth perception
+    - '- Chapter 7: Visual Attention and Awareness:':
+        sections:
+        - '- Section: 7.1 Neural Correlates of Visual Attention:':
+            subsections:
+            - 7.1a Attentional modulation of neural responses
+            - 7.1b Role of the fronto-parietal network in attention
+            - 7.1c Disorders of visual attention
+        - '- Section: 7.2 Neural Correlates of Visual Awareness:':
+            subsections:
+            - 7.2a Neural basis of conscious perception
+            - 7.2b Role of the fronto-parietal network in awareness
+            - 7.2c Disorders of visual awareness
+        - '- Section: 7.3 Interactions between Attention and Awareness:':
+            subsections:
+            - 7.3a Attentional modulation of conscious perception
+            - 7.3b Role of the fronto-parietal network in attention and awareness
+            - 7.3c Disorders of attention and awareness
+    - '- Chapter 8: Visual Recognition and Object Perception:':
+        sections:
+        - '- Section: 8.1 Neural Mechanisms of Object Recognition:':
+            subsections:
+            - 8.1a Role of the ventral visual pathway in object recognition
+            - 8.1b Neural representation of object shape and identity
+            - 8.1c Disorders of object recognition
+        - '- Section: 8.2 Neural Mechanisms of Face Recognition:':
+            subsections:
+            - 8.2a Role of the fusiform face area (FFA) in face recognition
+            - 8.2b Neural representation of face identity and expression
+            - 8.2c Disorders of face recognition
+        - '- Section: 8.3 Neural Mechanisms of Scene Recognition:':
+            subsections:
+            - 8.3a Role of the parahippocampal place area (PPA) in scene recognition
+            - 8.3b Neural representation of scene layout and identity
+            - 8.3c Disorders of scene recognition
+    - '- Chapter 9: Visual Memory and Imagery:':
+        sections:
+        - '- Section: 9.1 Neural Mechanisms of Visual Memory:':
+            subsections:
+            - 9.1a Role of the medial temporal lobe in visual memory
+            - 9.1b Neural representation of remembered visual information
+            - 9.1c Disorders of visual memory
+        - '- Section: 9.2 Neural Mechanisms of Visual Imagery:':
+            subsections:
+            - 9.2a Role of the fronto-parietal network in visual imagery
+            - 9.2b Neural representation of imagined visual information
+            - 9.2c Disorders of visual imagery
+        - '- Section: 9.3 Interactions between Memory and Imagery:':
+            subsections:
+            - 9.3a Neural overlap between memory and imagery processes
+            - 9.3b Role of the fronto-parietal network in memory and imagery
+            - 9.3c Disorders of memory and imagery
+    - '- Chapter 10: Visual Perception and Action:':
+        sections:
+        - '- Section: 10.1 Neural Mechanisms of Visually Guided Action:':
+            subsections:
+            - 10.1a Role of the dorsal visual pathway in action
+            - 10.1b Neural representation of action-relevant visual information
+            - 10.1c Disorders of visually guided action
+        - '- Section: 10.2 Neural Mechanisms of Action Observation:':
+            subsections:
+            - 10.2a Role of the mirror neuron system in action observation
+            - 10.2b Neural representation of observed actions
+            - 10.2c Disorders of action observation
+        - '- Section: 10.3 Interactions between Perception and Action:':
+            subsections:
+            - 10.3a Neural overlap between perception and action processes
+            - 10.3b Role of the fronto-parietal network in perception and action
+            - 10.3c Disorders of perception and action
+    - '- Chapter 11: Visual Perception and Language:':
+        sections:
+        - '- Section: 11.1 Neural Mechanisms of Visual Word Recognition:':
+            subsections:
+            - 11.1a Role of the visual word form area (VWFA) in word recognition
+            - 11.1b Neural representation of written words
+            - 11.1c Disorders of visual word recognition
+        - '- Section: 11.2 Neural Mechanisms of Visual Sentence Processing:':
+            subsections:
+            - 11.2a Role of the left perisylvian network in sentence processing
+            - 11.2b Neural representation of sentence structure and meaning
+            - 11.2c Disorders of visual sentence processing
+        - '- Section: 11.3 Interactions between Vision and Language:':
+            subsections:
+            - 11.3a Neural overlap between visual and language processes
+            - 11.3b Role of the fronto-parietal network in vision and language
+            - 11.3c Disorders of vision and language
+    - '- Chapter 12: Visual Perception and Social Cognition:':
+        sections:
+        - '- Section: 12.1 Neural Mechanisms of Social Perception:':
+            subsections:
+            - 12.1a Role of the superior temporal sulcus (STS) in social perception
+            - 12.1b Neural representation of social cues
+            - 12.1c Disorders of social perception
+        - '- Section: 12.2 Neural Mechanisms of Theory of Mind:':
+            subsections:
+            - 12.2a Role of the medial prefrontal cortex (mPFC) in theory of mind
+            - 12.2b Neural representation of mental states
+            - 12.2c Disorders of theory of mind
+        - '- Section: 12.3 Interactions between Vision and Social Cognition:':
+            subsections:
+            - 12.3a Neural overlap between visual and social cognitive processes
+            - 12.3b Role of the fronto-parietal network in vision and social cognition
+            - 12.3c Disorders of vision and social cognition
+    - '- Chapter 13: Visual Perception and Emotion:':
+        sections:
+        - '- Section: 13.1 Neural Mechanisms of Emotional Perception:':
+            subsections:
+            - 13.1a Role of the amygdala in emotional perception
+            - 13.1b Neural representation of emotional cues
+            - 13.1c Disorders of emotional perception
+        - '- Section: 13.2 Neural Mechanisms of Emotion Regulation:':
+            subsections:
+            - 13.2a Role of the prefrontal cortex in emotion regulation
+            - 13.2b Neural representation of emotion regulation strategies
+            - 13.2c Disorders of emotion regulation
+        - '- Section: 13.3 Interactions between Vision and Emotion:':
+            subsections:
+            - 13.3a Neural overlap between visual and emotional processes
+            - 13.3b Role of the fronto-parietal network in vision and emotion
+            - 13.3c Disorders of vision and emotion
+    - '- Chapter 14: Visual Perception and Decision Making:':
+        sections:
+        - '- Section: 14.1 Neural Mechanisms of Visual Decision Making:':
+            subsections:
+            - 14.1a Role of the fronto-parietal network in decision making
+            - 14.1b Neural representation of decision variables
+            - 14.1c Disorders of visual decision making
+        - '- Section: 14.2 Neural Mechanisms of Reward Processing:':
+            subsections:
+            - 14.2a Role of the ventromedial prefrontal cortex (vmPFC) in reward processing
+            - 14.2b Neural representation of reward value
+            - 14.2c Disorders of reward processing
+        - '- Section: 14.3 Interactions between Vision and Decision Making:':
+            subsections:
+            - 14.3a Neural overlap between visual and decision making processes
+            - 14.3b Role of the fronto-parietal network in vision and decision making
+            - 14.3c Disorders of vision and decision making
+    - '- Chapter 15: Visual Perception and Learning:':
+        sections:
+        - '- Section: 15.1 Neural Mechanisms of Visual Learning:':
+            subsections:
+            - 15.1a Role of the hippocampus in visual learning
+            - 15.1b Neural representation of learned visual information
+            - 15.1c Disorders of visual learning
+        - '- Section: 15.2 Neural Mechanisms of Visual Memory Consolidation:':
+            subsections:
+            - 15.2a Role of the medial temporal lobe in memory consolidation
+            - 15.2b Neural representation of consolidated memories
+            - 15.2c Disorders of memory consolidation
+        - '- Section: 15.3 Interactions between Vision and Learning:':
+            subsections:
+            - 15.3a Neural overlap between visual and learning processes
+            - 15.3b Role of the fronto-parietal network in vision and learning
+            - 15.3c Disorders of vision and learning
+    - '- Chapter 16: Visual Perception and Aging:':
+        sections:
+        - '- Section: 16.1 Neural Mechanisms of Visual Aging:':
+            subsections:
+            - 16.1a Role of the fronto-parietal network in aging
+            - 16.1b Neural representation of age-related changes in vision
+            - 16.1c Disorders of visual aging
+        - '- Section: 16.2 Neural Mechanisms of Cognitive Aging:':
+            subsections:
+            - 16.2a Role of the medial temporal lobe in cognitive aging
+            - 16.2b Neural representation of age-related changes in cognition
+            - 16.2c Disorders of cognitive aging
+        - '- Section: 16.3 Interactions between Vision and Aging:':
+            subsections:
+            - 16.3a Neural overlap between visual and aging processes
+            - 16.3b Role of the fronto-parietal network in vision and aging
+            - 16.3c Disorders of vision and aging
+    - '- Chapter 17: Visual Perception and Neurodegenerative Diseases:':
+        sections:
+        - '- Section: 17.1 Neural Mechanisms of Visual Perception in Alzheimer''s Disease:':
+            subsections:
+            - 17.1a Role of the medial temporal lobe in Alzheimer's disease
+            - 17.1b Neural representation of visual deficits in Alzheimer's disease
+            - 17.1c Disorders of visual perception in Alzheimer's disease
+        - '- Section: 17.2 Neural Mechanisms of Visual Perception in Parkinson''s Disease:':
+            subsections:
+            - 17.2a Role of the basal ganglia in Parkinson's disease
+            - 17.2b Neural representation of visual deficits in Parkinson's disease
+            - 17.2c Disorders of visual perception in Parkinson's disease
+        - '- Section: 17.3 Neural Mechanisms of Visual Perception in Huntington''s Disease:':
+            subsections:
+            - 17.3a Role of the striatum in Huntington's disease
+            - 17.3b Neural representation of visual deficits in Huntington's disease
+            - 17.3c Disorders of visual perception in Huntington's disease
+    - '- Chapter 18: Visual Perception and Psychiatric Disorders:':
+        sections:
+        - '- Section: 18.1 Neural Mechanisms of Visual Perception in Schizophrenia:':
+            subsections:
+            - 18.1a Role of the fronto-parietal network in schizophrenia
+            - 18.1b Neural representation of visual deficits in schizophrenia
+            - 18.1c Disorders of visual perception in schizophrenia
+        - '- Section: 18.2 Neural Mechanisms of Visual Perception in Depression:':
+            subsections:
+            - 18.2a Role of the limbic system in depression
+            - 18.2b Neural representation of visual deficits in depression
+            - 18.2c Disorders of visual perception in depression
+        - '- Section: 18.3 Neural Mechanisms of Visual Perception in Autism:':
+            subsections:
+            - 18.3a Role of the fronto-parietal network in autism
+            - 18.3b Neural representation of visual deficits in autism
+            - 18.3c Disorders of visual perception in autism
+    - '- Chapter 19: Visual Perception and Developmental Disorders:':
+        sections:
+        - '- Section: 19.1 Neural Mechanisms of Visual Perception in Dyslexia:':
+            subsections:
+            - 19.1a Role of the left perisylvian network in dyslexia
+            - 19.1b Neural representation of visual deficits in dyslexia
+            - 19.1c Disorders of visual perception in dyslexia
+        - '- Section: 19.2 Neural Mechanisms of Visual Perception in ADHD:':
+            subsections:
+            - 19.2a Role of the fronto-parietal network in ADHD
+            - 19.2b Neural representation of visual deficits in ADHD
+            - 19.2c Disorders of visual perception in ADHD
+        - '- Section: 19.3 Neural Mechanisms of Visual Perception in Williams Syndrome:':
+            subsections:
+            - 19.3a Role of the ventral visual pathway in Williams syndrome
+            - 19.3b Neural representation of visual deficits in Williams syndrome
+            - 19.3c Disorders of visual perception in Williams syndrome
+    - '- Chapter 20: Visual Perception and Sensory Disorders:':
+        sections:
+        - '- Section: 20.1 Neural Mechanisms of Visual Perception in Amblyopia:':
+            subsections:
+            - 20.1a Role of the primary visual cortex in amblyopia
+            - 20.1b Neural representation of visual deficits in amblyopia
+            - 20.1c Disorders of visual perception in amblyopia
+        - '- Section: 20.2 Neural Mechanisms of Visual Perception in Strabismus:':
+            subsections:
+            - 20.2a Role of the primary visual cortex in strabismus
+            - 20.2b Neural representation of visual deficits in strabismus
+            - 20.2c Disorders of visual perception in strabismus
+        - '- Section: 20.3 Neural Mechanisms of Visual Perception in Color Blindness:':
+            subsections:
+            - 20.3a Role of the V4 in color blindness
+            - 20.3b Neural representation of visual deficits in color blindness
+            - 20.3c Disorders of visual perception in color blindness

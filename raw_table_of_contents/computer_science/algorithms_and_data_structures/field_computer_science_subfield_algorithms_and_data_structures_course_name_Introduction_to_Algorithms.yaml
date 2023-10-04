@@ -1,0 +1,259 @@
+textbook:
+  'Introduction to Algorithms: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course Number:':
+            subsections:
+            - 1.1a What is Computer Science?
+            - 1.1b Why Study Algorithms?
+            - 1.1c Importance of Algorithms in Problem Solving
+    - '- Chapter 2: Data Structures:':
+        sections:
+        - '- Section: 2.1 Lecture 2: Data Structures notes:':
+            subsections:
+            - 2.1a Arrays
+            - 2.1b Linked Lists
+            - 2.1c Stacks
+            - 2.1d Queues
+        - '- Section: 2.2 Trees:':
+            subsections:
+            - 2.2a Binary Trees
+            - 2.2b AVL Trees
+            - 2.2c B-Trees
+            - 2.2d Red-Black Trees
+        - '- Section: 2.3 Graphs:':
+            subsections:
+            - 2.3a Directed Graphs
+            - 2.3b Undirected Graphs
+            - 2.3c Weighted Graphs
+            - 2.3d Graph Traversal
+    - '- Chapter 3: Sorting:':
+        sections:
+        - '- Section: 3.1 Lecture 3: Sorting notes:':
+            subsections:
+            - 3.1a Overview of Sorting Algorithms
+            - 3.1b Bubble Sort
+            - 3.1c Selection Sort
+            - 3.1d Insertion Sort
+        - '- Section: 3.2 Advanced Sorting Algorithms:':
+            subsections:
+            - 3.2a Merge Sort
+            - 3.2b Quick Sort
+            - 3.2c Heap Sort
+            - 3.2d Radix Sort
+    - '- Chapter 4: Hashing:':
+        sections:
+        - '- Section: 4.1 Lecture 4: Hashing notes:':
+            subsections:
+            - 4.1a Introduction to Hashing
+            - 4.1b Hash Functions
+            - 4.1c Collision Resolution Techniques
+            - 4.1d Hash Tables
+        - '- Section: 4.2 Hash Maps:':
+            subsections:
+            - 4.2a Introduction to Hash Maps
+            - 4.2b Hash Map Operations
+            - 4.2c Applications of Hash Maps
+            - 4.2d Hash Map vs Hash Table
+    - '- Chapter 5: Linear Sorting:':
+        sections:
+        - '- Section: 5.1 Lecture 5: Linear Sorting notes:':
+            subsections:
+            - 5.1a Counting Sort
+            - 5.1b Bucket Sort
+            - 5.1c Radix Sort
+    - '- Chapter 6: Binary Trees:':
+        sections:
+        - '- Section: 6.1 Lecture 6: Binary Trees, Part 1 notes:':
+            subsections:
+            - 6.1a Introduction to Binary Trees
+            - 6.1b Binary Tree Traversals
+            - 6.1c Binary Search Trees
+            - 6.1d Balanced Binary Search Trees
+        - '- Section: 6.2 Lecture 7: Binary Trees, Part 2: AVL notes:':
+            subsections:
+            - 6.2a AVL Trees
+            - 6.2b AVL Tree Operations
+            - 6.2c AVL Tree Rotations
+    - '- Chapter 7: Binary Heaps:':
+        sections:
+        - '- Section: 7.1 Lecture 8: Binary Heaps notes:':
+            subsections:
+            - 7.1a Introduction to Binary Heaps
+            - 7.1b Heap Operations
+            - 7.1c Heapify Algorithm
+            - 7.1d Priority Queue Implementation
+    - '- Chapter 8: Breadth-First Search:':
+        sections:
+        - '- Section: 8.1 Lecture 9: Breadth-First Search notes:':
+            subsections:
+            - 8.1a Introduction to Graph Traversal
+            - 8.1b Breadth-First Search Algorithm
+            - 8.1c Applications of Breadth-First Search
+    - '- Chapter 9: Depth-First Search:':
+        sections:
+        - '- Section: 9.1 Lecture 10: Depth-First Search notes:':
+            subsections:
+            - 9.1a Depth-First Search Algorithm
+            - 9.1b Depth-First Search Traversal
+            - 9.1c Applications of Depth-First Search
+    - '- Chapter 10: Weighted Shortest Paths:':
+        sections:
+        - '- Section: 10.1 Lecture 11: Weighted Shortest Paths notes:':
+            subsections:
+            - 10.1a Introduction to Weighted Graphs
+            - 10.1b Dijkstra's Algorithm
+            - 10.1c Bellman-Ford Algorithm
+            - 10.1d Floyd-Warshall Algorithm
+        - '- Section: 10.2 Johnson''s Algorithm:':
+            subsections:
+            - 10.2a Introduction to Johnson's Algorithm
+            - 10.2b Johnson's Algorithm for Sparse Graphs
+            - 10.2c Johnson's Algorithm for Negative Weights
+            - 10.2d Applications of Johnson's Algorithm
+    - '- Chapter 11: Dynamic Programming:':
+        sections:
+        - '- Section: 11.1 Lecture 15: Dynamic Programming, Part 1: SRBOT, Fib, DAGs, Bowling notes:':
+            subsections:
+            - 11.1a Introduction to Dynamic Programming
+            - 11.1b Overlapping Subproblems
+            - 11.1c Optimal Substructure
+            - 11.1d Solving Recurrence Relations
+        - '- Section: 11.2 Fibonacci Numbers and Directed Acyclic Graphs:':
+            subsections:
+            - 11.2a Fibonacci Numbers
+            - 11.2b Directed Acyclic Graphs
+            - 11.2c Bowling Score Calculation
+            - 11.2d Applications of Dynamic Programming
+        - '- Section: 11.3 Lecture 16: Dynamic Programming, Part 2: LCS, LIS, Coins notes:':
+            subsections:
+            - 11.3a Longest Common Subsequence
+            - 11.3b Longest Increasing Subsequence
+            - 11.3c Coin Change Problem
+    - '- Chapter 12: Complexity:':
+        sections:
+        - '- Section: 12.1 Lecture 19: Complexity notes:':
+            subsections:
+            - 12.1a Introduction to Computational Complexity
+            - 12.1b Big O Notation
+            - 12.1c Time Complexity Analysis
+            - 12.1d Space Complexity Analysis
+        - '- Section: 12.2 P vs NP Problem:':
+            subsections:
+            - 12.2a Definition of P and NP
+            - 12.2b P vs NP Problem
+            - 12.2c NP-Complete Problems
+            - 12.2d NP-Hard Problems
+    - '- Chapter 13: Course Review:':
+        sections:
+        - '- Section: 13.1 Lecture 20: Course Review notes:':
+            subsections:
+            - 13.1a Recap of Course Topics
+            - 13.1b Problem-Solving Strategies
+            - 13.1c Exam Preparation Tips
+            - 13.1d Additional Resources and References
+    - '- Chapter 14: Advanced Topics:':
+        sections:
+        - '- Section: 14.1 Advanced Data Structures:':
+            subsections:
+            - 14.1a Trie
+            - 14.1b Segment Tree
+            - 14.1c Fenwick Tree
+            - 14.1d Disjoint Set
+        - '- Section: 14.2 Advanced Algorithms:':
+            subsections:
+            - 14.2a Network Flow
+            - 14.2b Maximum Subarray Problem
+            - 14.2c Knapsack Problem
+            - 14.2d Travelling Salesman Problem
+        - '- Section: 14.3 Advanced Complexity:':
+            subsections:
+            - 14.3a Amortized Analysis
+            - 14.3b Randomized Algorithms
+            - 14.3c Parallel Algorithms
+            - 14.3d Quantum Computing
+    - '- Chapter 15: Problem Solving Strategies:':
+        sections:
+        - '- Section: 15.1 Problem Solving Techniques:':
+            subsections:
+            - 15.1a Divide and Conquer
+            - 15.1b Greedy Algorithms
+            - 15.1c Backtracking
+            - 15.1d Dynamic Programming
+        - '- Section: 15.2 Competitive Programming:':
+            subsections:
+            - 15.2a Introduction to Competitive Programming
+            - 15.2b Problem Solving in Competitive Programming
+            - 15.2c Competitive Programming Platforms
+            - 15.2d Tips for Competitive Programming
+    - '- Chapter 16: Algorithm Design:':
+        sections:
+        - '- Section: 16.1 Algorithm Design Techniques:':
+            subsections:
+            - 16.1a Recursive Algorithms
+            - 16.1b Iterative Algorithms
+            - 16.1c Brute Force Algorithms
+            - 16.1d Heuristic Algorithms
+        - '- Section: 16.2 Algorithm Analysis:':
+            subsections:
+            - 16.2a Worst Case Analysis
+            - 16.2b Average Case Analysis
+            - 16.2c Best Case Analysis
+            - 16.2d Amortized Analysis
+    - '- Chapter 17: Machine Learning Algorithms:':
+        sections:
+        - '- Section: 17.1 Introduction to Machine Learning:':
+            subsections:
+            - 17.1a Supervised Learning
+            - 17.1b Unsupervised Learning
+            - 17.1c Reinforcement Learning
+            - 17.1d Deep Learning
+        - '- Section: 17.2 Machine Learning Algorithms:':
+            subsections:
+            - 17.2a Decision Trees
+            - 17.2b Support Vector Machines
+            - 17.2c K-Nearest Neighbors
+            - 17.2d Neural Networks
+    - '- Chapter 18: Cryptography Algorithms:':
+        sections:
+        - '- Section: 18.1 Introduction to Cryptography:':
+            subsections:
+            - 18.1a Symmetric Key Cryptography
+            - 18.1b Asymmetric Key Cryptography
+            - 18.1c Hash Functions
+            - 18.1d Digital Signatures
+        - '- Section: 18.2 Cryptography Algorithms:':
+            subsections:
+            - 18.2a RSA Algorithm
+            - 18.2b Diffie-Hellman Key Exchange
+            - 18.2c AES Algorithm
+            - 18.2d SHA-256 Algorithm
+    - '- Chapter 19: Graph Algorithms:':
+        sections:
+        - '- Section: 19.1 Graph Traversal Algorithms:':
+            subsections:
+            - 19.1a Depth-First Search
+            - 19.1b Breadth-First Search
+            - 19.1c Topological Sort
+            - 19.1d Strongly Connected Components
+        - '- Section: 19.2 Shortest Path Algorithms:':
+            subsections:
+            - 19.2a Dijkstra's Algorithm
+            - 19.2b Bellman-Ford Algorithm
+            - 19.2c Floyd-Warshall Algorithm
+            - 19.2d A* Search Algorithm
+    - '- Chapter 20: String Algorithms:':
+        sections:
+        - '- Section: 20.1 String Matching Algorithms:':
+            subsections:
+            - 20.1a Naive String Matching
+            - 20.1b Rabin-Karp Algorithm
+            - 20.1c Knuth-Morris-Pratt Algorithm
+            - 20.1d Boyer-Moore Algorithm
+        - '- Section: 20.2 String Processing Algorithms:':
+            subsections:
+            - 20.2a Palindrome Check
+            - 20.2b Longest Common Subsequence
+            - 20.2c Longest Palindromic Subsequence
+            - 20.2d String Permutations

@@ -1,0 +1,263 @@
+textbook: 
+"Soil Behavior Textbook":
+
+chapters:
+- Chapter 1: Overview and Organization:
+sections:
+- Section: 1.1 Soil Composition:
+subsections:
+- 1.1a Soil Types
+- 1.1b Soil Properties
+- 1.1c Soil Classification
+- Section: 1.2 Clay-Water Forces:
+subsections:
+- 1.2a Clay-Water Interaction
+- 1.2b Effects on Soil Behavior
+- 1.2c Measurement Techniques
+
+- Chapter 2: Interparticle Forces and Strength Generation:
+sections:
+- Section: 2.1 Clay-Water Forces:
+subsections:
+- 2.1a Clay Particle Structure
+- 2.1b Water Absorption
+- 2.1c Impact on Soil Strength
+- Section: 2.2 Interparticle Forces:
+subsections:
+- 2.2a Types of Interparticle Forces
+- 2.2b Role in Soil Behavior
+- 2.2c Measurement and Analysis
+
+- Chapter 3: Soil Structure and Basic Strength Principles:
+sections:
+- Section: 3.1 Strength Generation in Soils:
+subsections:
+- 3.1a Soil Cohesion
+- 3.1b Soil Friction
+- 3.1c Factors Affecting Soil Strength
+- Section: 3.2 Soil Structure:
+subsections:
+- 3.2a Soil Particle Arrangement
+- 3.2b Soil Pore Space
+- 3.2c Impact on Soil Properties
+
+- Chapter 4: Simple Clay (Laddite) - NCHomework problem:
+sections:
+- Section: 4.1 Basic Strength Principles:
+subsections:
+- 4.1a Stress-Strain Relationship
+- 4.1b Mohr-Coulomb Failure Criterion
+- 4.1c Soil Testing Methods
+- Section: 4.2 Simple Clay (Laddite) - NCHomework problem:
+subsections:
+- 4.2a Laddite Properties
+- 4.2b Strength Analysis
+- 4.2c Case Study
+
+- Chapter 5: Laddite - OC Hvorslev Parameters, SB Surface:
+sections:
+- Section: 5.1 Laddite - OC Hvorslev Parameters:
+subsections:
+- 5.1a Hvorslev Parameters Definition
+- 5.1b Application in Laddite
+- 5.1c Analysis and Interpretation
+- Section: 5.2 SB Surface:
+subsections:
+- 5.2a SB Surface Definition
+- 5.2b Role in Soil Behavior
+- 5.2c Case Study
+
+- Chapter 6: Plasticity Mechanisms Controlling Compressibility of Clays:
+sections:
+- Section: 6.1 Plasticity Mechanisms:
+subsections:
+- 6.1a Soil Plasticity Definition
+- 6.1b Plasticity Index
+- 6.1c Role in Soil Behavior
+- Section: 6.2 Controlling Compressibility of Clays:
+subsections:
+- 6.2a Soil Compressibility Definition
+- 6.2b Factors Affecting Compressibility
+- 6.2c Measurement and Analysis
+
+- Chapter 7: Soil Compressibility and Consolidation:
+sections:
+- Section: 7.1 Soil Compressibility:
+subsections:
+- 7.1a Compressibility Parameters
+- 7.1b Impact on Soil Behavior
+- 7.1c Case Studies
+- Section: 7.2 Consolidation:
+subsections:
+- 7.2a Consolidation Process
+- 7.2b Consolidation Testing
+- 7.2c Analysis and Interpretation
+
+- Chapter 8: Shear Strength of Clay:
+sections:
+- Section: 8.1 Shear Strength:
+subsections:
+- 8.1a Shear Strength Definition
+- 8.1b Factors Affecting Shear Strength
+- 8.1c Measurement and Analysis
+- Section: 8.2 Clay:
+subsections:
+- 8.2a Clay Properties
+- 8.2b Clay Behavior under Shear
+- 8.2c Case Studies
+
+- Chapter 9: Laboratory Testing of Soils:
+sections:
+- Section: 9.1 Laboratory Testing:
+subsections:
+- 9.1a Soil Sampling
+- 9.1b Laboratory Test Methods
+- 9.1c Data Interpretation
+- Section: 9.2 Soils:
+subsections:
+- 9.2a Soil Classification
+- 9.2b Soil Properties
+- 9.2c Soil Behavior
+
+- Chapter 10: Field Testing of Soils:
+sections:
+- Section: 10.1 Field Testing:
+subsections:
+- 10.1a Field Test Methods
+- 10.1b Data Collection and Analysis
+- 10.1c Case Studies
+- Section: 10.2 Soils:
+subsections:
+- 10.2a Soil Types
+- 10.2b Soil Properties
+- 10.2c Soil Behavior
+
+- Chapter 11: Soil Mechanics Fundamentals:
+sections:
+- Section: 11.1 Soil Formation:
+subsections:
+- 11.1a Weathering Process
+- 11.1b Soil Profile
+- 11.1c Soil Horizons
+- Section: 11.2 Soil Classification:
+subsections:
+- 11.2a Particle Size Distribution
+- 11.2b Atterberg Limits
+- 11.2c Unified Soil Classification System
+
+- Chapter 12: Soil Water and Permeability:
+sections:
+- Section: 12.1 Soil Water:
+subsections:
+- 12.1a Capillary Water
+- 12.1b Gravitational Water
+- 12.1c Hygroscopic Water
+- Section: 12.2 Soil Permeability:
+subsections:
+- 12.2a Darcy's Law
+- 12.2b Factors Affecting Permeability
+- 12.2c Permeability Testing
+
+- Chapter 13: Soil Compaction:
+sections:
+- Section: 13.1 Compaction Process:
+subsections:
+- 13.1a Dry Density
+- 13.1b Optimum Moisture Content
+- 13.1c Compaction Methods
+- Section: 13.2 Effects of Compaction:
+subsections:
+- 13.2a Soil Structure
+- 13.2b Soil Strength
+- 13.2c Soil Permeability
+
+- Chapter 14: Soil Stresses and Strains:
+sections:
+- Section: 14.1 Soil Stresses:
+subsections:
+- 14.1a Vertical Stress
+- 14.1b Horizontal Stress
+- 14.1c Shear Stress
+- Section: 14.2 Soil Strains:
+subsections:
+- 14.2a Elastic Strain
+- 14.2b Plastic Strain
+- 14.2c Strain Measurement
+
+- Chapter 15: Soil Slope Stability:
+sections:
+- Section: 15.1 Slope Failure Mechanisms:
+subsections:
+- 15.1a Rotational Slip
+- 15.1b Translational Slip
+- 15.1c Flow Failure
+- Section: 15.2 Slope Stability Analysis:
+subsections:
+- 15.2a Factor of Safety
+- 15.2b Methods of Slices
+- 15.2c Limit Equilibrium Methods
+
+- Chapter 16: Soil Foundations:
+sections:
+- Section: 16.1 Shallow Foundations:
+subsections:
+- 16.1a Bearing Capacity
+- 16.1b Settlement Analysis
+- 16.1c Foundation Design
+- Section: 16.2 Deep Foundations:
+subsections:
+- 16.2a Pile Foundations
+- 16.2b Drilled Shafts
+- 16.2c Foundation Design
+
+- Chapter 17: Soil Retaining Structures:
+sections:
+- Section: 17.1 Retaining Walls:
+subsections:
+- 17.1a Gravity Walls
+- 17.1b Cantilever Walls
+- 17.1c Sheet Pile Walls
+- Section: 17.2 Earth Pressure Theories:
+subsections:
+- 17.2a Rankine Theory
+- 17.2b Coulomb Theory
+- 17.2c Lateral Earth Pressure
+
+- Chapter 18: Soil Improvement Techniques:
+sections:
+- Section: 18.1 Soil Stabilization:
+subsections:
+- 18.1a Mechanical Stabilization
+- 18.1b Chemical Stabilization
+- 18.1c Thermal Stabilization
+- Section: 18.2 Ground Improvement Techniques:
+subsections:
+- 18.2a Compaction
+- 18.2b Grouting
+- 18.2c Soil Reinforcement
+
+- Chapter 19: Soil Dynamics:
+sections:
+- Section: 19.1 Dynamic Soil Properties:
+subsections:
+- 19.1a Shear Modulus
+- 19.1b Damping Ratio
+- 19.1c Dynamic Soil Testing
+- Section: 19.2 Soil Liquefaction:
+subsections:
+- 19.2a Liquefaction Process
+- 19.2b Liquefaction Potential Evaluation
+- 19.2c Liquefaction Mitigation
+
+- Chapter 20: Soil and Environmental Issues:
+sections:
+- Section: 20.1 Soil Erosion:
+subsections:
+- 20.1a Erosion Process
+- 20.1b Erosion Control Measures
+- 20.1c Impact on Environment
+- Section: 20.2 Soil Contamination:
+subsections:
+- 20.2a Sources of Contamination
+- 20.2b Soil Remediation Techniques
+- 20.2c Environmental Impact Assessment

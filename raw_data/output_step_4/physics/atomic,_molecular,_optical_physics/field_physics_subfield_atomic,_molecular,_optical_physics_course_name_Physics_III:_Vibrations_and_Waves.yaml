@@ -1,0 +1,172 @@
+textbook:
+  'Physics III: Vibrations and Waves Companion":':
+    chapters:
+    - '- Chapter 1: Wave Phenomena:':
+        sections:
+        - '- Section: 1.1 Types of Waves:':
+            subsections:
+            - 1.1a Introduction to Waves
+            - 1.1b Transverse Waves
+            - 1.1c Longitudinal Waves
+            - 1.1d Surface Waves
+        - '- Section: 1.2 Wave Characteristics:':
+            subsections:
+            - 1.2a Amplitude
+            - 1.2b Wavelength
+            - 1.2c Frequency
+            - 1.2d Period
+            - 1.2e Phase
+        - '- Section: 1.3 Wave Equation:':
+            subsections:
+            - 1.3a Derivation of the Wave Equation
+            - 1.3b Wave Equation in One Dimension
+            - 1.3c Wave Equation in Three Dimensions
+        - '- Section: 1.4 Wave Propagation:':
+            subsections:
+            - 1.4a Wavefronts
+            - 1.4b Ray Model of Light
+            - 1.4c Huygens' Principle
+            - 1.4d Wavefront Propagation
+    - '- Chapter 2: Wave Speed and Interference:':
+        sections:
+        - '- Section: 2.1 Wave Speed:':
+            subsections:
+            - 2.1a Wave Speed in Different Media
+            - 2.1b Relationship between Wave Speed and Wave Properties
+            - 2.1c Wave Speed in Elastic Media
+        - '- Section: 2.2 Wave Interference:':
+            subsections:
+            - 2.2a Superposition Principle
+            - 2.2b Constructive Interference
+            - 2.2c Destructive Interference
+            - 2.2d Coherence
+        - '- Section: 2.3 Standing Waves:':
+            subsections:
+            - 2.3a Formation of Standing Waves
+            - 2.3b Nodes and Antinodes in Standing Waves
+            - 2.3c Harmonics in Standing Waves
+            - 2.3d Standing Waves in Musical Instruments
+        - '- Section: 2.4 Doppler Effect:':
+            subsections:
+            - 2.4a Doppler Effect for Sound Waves
+            - 2.4b Doppler Effect for Light Waves
+            - 2.4c Applications of Doppler Effect
+    - '- Chapter 3: Harmonic Oscillators:':
+        sections:
+        - '- Section: 3.1 Simple Harmonic Motion:':
+            subsections:
+            - 3.1a Definition of Simple Harmonic Motion
+            - 3.1b Equations of Simple Harmonic Motion
+            - 3.1c Energy in Simple Harmonic Motion
+        - '- Section: 3.2 Hooke''s Law:':
+            subsections:
+            - 3.2a Definition of Hooke's Law
+            - 3.2b Spring Constant
+            - 3.2c Elastic Potential Energy
+            - 3.2d Hooke's Law and Simple Harmonic Motion
+        - '- Section: 3.3 Mass-Spring Systems:':
+            subsections:
+            - 3.3a Mass-Spring System Equation
+            - 3.3b Period and Frequency of Mass-Spring Systems
+            - 3.3c Energy in Mass-Spring Systems
+            - 3.3d Damped Mass-Spring Systems
+        - '- Section: 3.4 Pendulums:':
+            subsections:
+            - 3.4a Simple Pendulum
+            - 3.4b Physical Pendulum
+            - 3.4c Period of a Pendulum
+            - 3.4d Energy in Pendulums
+    - '- Chapter 4: Damped Oscillations and Forced Oscillations:':
+        sections:
+        - '- Section: 4.1 Damped Oscillations:':
+            subsections:
+            - 4.1a Damping Force
+            - 4.1b Damped Harmonic Motion
+            - 4.1c Quality Factor in Damped Oscillations
+            - 4.1d Critical Damping
+        - '- Section: 4.2 Forced Oscillations:':
+            subsections:
+            - 4.2a Forced Harmonic Motion
+            - 4.2b Resonance in Forced Oscillations
+            - 4.2c Impedance and Resonance
+            - 4.2d Applications of Forced Oscillations
+        - '- Section: 4.3 Resonance:':
+            subsections:
+            - 4.3a Resonant Frequency
+            - 4.3b Quality Factor in Resonance
+            - 4.3c Resonance in Mechanical Systems
+            - 4.3d Resonance in Electrical Circuits
+        - '- Section: 4.4 Quality Factor:':
+            subsections:
+            - 4.4a Definition of Quality Factor
+            - 4.4b Damping and Quality Factor
+            - 4.4c Quality Factor in Oscillating Systems
+            - 4.4d Quality Factor in Resonant Systems
+    - '- Chapter 5: Mechanical Waves:':
+        sections:
+        - '- Section: 5.1 Types of Mechanical Waves:':
+            subsections:
+            - 5.1a Types of Mechanical Waves
+            - 5.1b Wave Motion in Solids
+            - 5.1c Wave Motion in Liquids
+            - 5.1d Wave Motion in Gases
+        - '- Section: 5.2 Wave Propagation:':
+            subsections:
+            - 5.2a Wave Propagation in Different Media
+            - 5.2b Reflection of Mechanical Waves
+            - 5.2c Refraction of Mechanical Waves
+            - 5.2d Diffraction of Mechanical Waves
+        - '- Section: 5.3 Wave Interference:':
+            subsections:
+            - 5.3a Interference of Mechanical Waves
+            - 5.3b Beats and Beat Frequency
+            - 5.3c Applications of Mechanical Wave Interference
+        - '- Section: 5.4 Standing Waves:':
+            subsections:
+            - 5.4a Formation of Standing Mechanical Waves
+            - 5.4b Nodes and Antinodes in Standing Mechanical Waves
+            - 5.4c Harmonics in Standing Mechanical Waves
+            - 5.4d Applications of Standing Mechanical Waves
+    - '- Chapter 6: Sound Waves:':
+        sections:
+        - '- Section: 6.1 Speed of Sound:':
+            subsections:
+            - 6.1a Definition of Speed of Sound
+            - 6.1b Factors Affecting Speed of Sound
+            - 6.1c Measurement of Speed of Sound
+            - 6.1d Ultrasonic and Infrasonic Waves
+        - '- Section: 6.2 Intensity and Amplitude:':
+            subsections:
+            - 6.2a Definition of Intensity
+            - 6.2b Relationship between Intensity and Amplitude
+            - 6.2c Measurement of Intensity
+            - 6.2d Decibel Scale
+        - '- Section: 6.3 Pitch and Frequency:':
+            subsections:
+            - 6.3a Definition of Pitch
+            - 6.3b Relationship between Pitch and Frequency
+            - 6.3c Perception of Pitch
+            - 6.3d Musical Scales
+        - '- Section: 6.4 Sound Waves in Air:':
+            subsections:
+            - 6.4a Wave Propagation in Air
+            - 6.4b Reflection of Sound Waves
+            - 6.4c Refraction of Sound Waves
+            - 6.4d Diffraction of Sound Waves
+    - '- Chapter 7: Sound Wave Interference and Standing Sound Waves:':
+        sections:
+        - '- Section: 7.1 Sound Wave Interference:':
+            subsections:
+            - 7.1a Interference of Sound Waves
+            - 7.1b Beats and Beat Frequency
+            - 7.1c Applications of Sound Wave Interference
+        - '- Section: 7.2 Standing Sound Waves:':
+            subsections:
+            - 7.2a Formation of Standing Sound Waves
+            - 7.2b Nodes and Antinodes in Standing Sound Waves
+            - 7.2c Harmonics in Standing Sound Waves
+            - 7.2d Applications of Standing Sound Waves
+        - '- Section: 7.3 Doppler Effect for Sound:':
+            subsections:
+            - 7.3a Doppler Effect for Moving Sources
+            - 7.3b Doppler Effect for Moving Observers

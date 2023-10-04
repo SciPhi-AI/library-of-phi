@@ -1,0 +1,383 @@
+textbook: 
+"Quantum Mechanics: A Comprehensive Introduction":
+
+chapters:
+- Chapter 1: Fundamental Postulates of Quantum Mechanics:
+sections:
+- Section: 1.1 Hilbert Spaces:
+subsections:
+- 1.1a Definition and Properties of Hilbert Spaces
+- 1.1b Complete and Orthonormal Sets of Functions
+- 1.1c Hilbert Space Basis
+- 1.1d Hilbert Space Dimensionality
+
+- Section: 1.2 Inner Products:
+subsections:
+- 1.2a Definition and Properties of Inner Products
+- 1.2b Inner Product Spaces
+- 1.2c Inner Product Space Examples
+- 1.2d Inner Product Space Dimensionality
+
+- Section: 1.3 Dual Space:
+subsections:
+- 1.3a Definition and Properties of Dual Spaces
+- 1.3b Dual Space Examples
+- 1.3c Dual Space Dimensionality
+- 1.3d Dual Basis
+
+- Section: 1.4 Orthonormal Bases:
+subsections:
+- 1.4a Definition and Properties of Orthonormal Bases
+- 1.4b Orthonormal Basis Examples
+- 1.4c Gram-Schmidt Process
+
+- Section: 1.5 Operators:
+subsections:
+- 1.5a Definition and Properties of Operators
+- 1.5b Linear Operators
+- 1.5c Hermitian Operators
+- 1.5d Unitary Operators
+
+- Section: 1.6 Eigenstates and Eigenvalues:
+subsections:
+- 1.6a Definition and Properties of Eigenstates and Eigenvalues
+- 1.6b Eigenstate Equations
+- 1.6c Eigenstate Examples
+- 1.6d Eigenvalue Spectrum
+
+- Chapter 2: Matrix Representations and Operators:
+sections:
+- Section: 2.1 Operators as Matrices in a Given Basis:
+subsections:
+- 2.1a Matrix Representation of Operators
+- 2.1b Change of Basis
+- 2.1c Matrix Representation Examples
+
+- Section: 2.2 Adjoint Operators:
+subsections:
+- 2.2a Definition and Properties of Adjoint Operators
+- 2.2b Adjoint Operator Examples
+- 2.2c Matrix Representation of Adjoint Operators
+
+- Section: 2.3 Operator Examples:
+subsections:
+- 2.3a Position and Momentum Operators
+- 2.3b Angular Momentum Operators
+- 2.3c Energy Operator
+- 2.3d Spin Operators
+
+- Chapter 3: Quantum Mechanics in One-dimensional Systems:
+sections:
+- Section: 3.1 Stationary States:
+subsections:
+- 3.1a Time-independent Schrödinger Equation
+- 3.1b Solutions of the Schrödinger Equation
+- 3.1c Superposition of Stationary States
+
+- Section: 3.2 Boundary Conditions:
+subsections:
+- 3.2a Definition and Types of Boundary Conditions
+- 3.2b Boundary Conditions Examples
+- 3.2c Boundary Conditions in Infinite Square Well
+- 3.2d Boundary Conditions in Finite Square Well
+
+- Section: 3.3 Infinite Square Well:
+subsections:
+- 3.3a Particle in a Box Model
+- 3.3b Energy Levels and Wavefunctions
+- 3.3c Normalization of Wavefunctions
+- 3.3d Average Position and Momentum
+
+- Section: 3.4 Finite Square Well:
+subsections:
+- 3.4a Potential Energy Profile
+- 3.4b Bound and Scattering States
+- 3.4c Transmission and Reflection Coefficients
+- 3.4d Resonance States
+
+- Section: 3.5 Simple Harmonic Oscillator:
+subsections:
+- 3.5a Harmonic Potential Energy
+- 3.5b Energy Levels and Wavefunctions
+- 3.5c Ladder Operators
+- 3.5d Coherent States
+
+- Section: 3.6 Delta Function Potential:
+subsections:
+- 3.6a Dirac Delta Function
+- 3.6b Delta Function Potential Well
+- 3.6c Scattering States
+- 3.6d Bound States
+
+- Chapter 4: Quantum Mechanics in Three-dimensional Systems:
+sections:
+- Section: 4.1 Central Potentials:
+subsections:
+- 4.1a Spherical Coordinates
+- 4.1b Central Potentials Examples
+- 4.1c Radial Wavefunctions
+
+- Section: 4.2 Angular Momentum:
+subsections:
+- 4.2a Orbital Angular Momentum
+- 4.2b Spherical Harmonics
+- 4.2c Angular Momentum Operators
+- 4.2d Commutation Relations
+
+- Section: 4.3 Hydrogen Atom:
+subsections:
+- 4.3a Hydrogen Atom Model
+- 4.3b Energy Levels and Wavefunctions
+- 4.3c Angular Momentum and Energy Quantization
+- 4.3d Spectroscopic Notation
+
+- Section: 4.4 Energy Levels Diagram:
+subsections:
+- 4.4a Energy Levels and Transitions
+- 4.4b Selection Rules
+- 4.4c Fine Structure
+- 4.4d Hyperfine Structure
+
+- Chapter 5: Quantum Mechanics of Angular Momentum:
+sections:
+- Section: 5.1 Algebra of Angular Momentum:
+subsections:
+- 5.1a Angular Momentum Operators Algebra
+- 5.1b Angular Momentum Addition
+- 5.1c Clebsch-Gordan Coefficients
+
+- Section: 5.2 Legendre Polynomials:
+subsections:
+- 5.2a Legendre Polynomials Definition and Properties
+- 5.2b Associated Legendre Polynomials
+- 5.2c Legendre Polynomials Examples
+
+- Section: 5.3 Circular Orbits and Eccentricity:
+subsections:
+- 5.3a Circular Orbits and Angular Momentum
+- 5.3b Eccentricity and Orbital Shapes
+- 5.3c Elliptical Orbits
+
+- Section: 5.4 Discovery of Spin:
+subsections:
+- 5.4a Stern-Gerlach Experiment
+- 5.4b Electron Spin
+- 5.4c Pauli Matrices
+
+- Chapter 6: Quantum Mechanics in Two-level Systems:
+sections:
+- Section: 6.1 Superposition and Entanglement:
+subsections:
+- 6.1a Quantum Superposition
+- 6.1b Quantum Entanglement
+- 6.1c Bell States
+- 6.1d Quantum Teleportation
+
+- Section: 6.2 Rabi Oscillations:
+subsections:
+- 6.2a Two-level System Model
+- 6.2b Rabi Frequency
+- 6.2c Rabi Oscillations Examples
+- 6.2d Ramsey Interferometry
+
+- Section: 6.3 Bloch Sphere:
+subsections:
+- 6.3a Bloch Sphere Representation
+- 6.3b Bloch Equations
+- 6.3c Bloch Sphere Dynamics
+- 6.3d Geometric Phase
+
+- Section: 6.4 Quantum Gates:
+subsections:
+- 6.4a Quantum Logic Gates
+- 6.4b Single-qubit Gates
+- 6.4c Two-qubit Gates
+- 6.4d Quantum Circuits
+
+- Section: 6.5 Quantum Algorithms:
+subsections:
+- 6.5a Quantum Fourier Transform
+- 6.5b Grover's Algorithm
+- 6.5c Shor's Algorithm
+- 6.5d Quantum Error Correction
+
+- Chapter 7: Time Evolution and Scattering:
+sections:
+- Section: 7.1 Time Evolution of Wave-packets:
+subsections:
+- 7.1a Time-dependent Schrödinger Equation
+- 7.1b Wave-packet Dynamics
+- 7.1c Wave-packet Spreading
+- 7.1d Group Velocity
+
+- Section: 7.2 Scattering Theory:
+subsections:
+- 7.2a Scattering Amplitude
+- 7.2b Scattering Cross Section
+- 7.2c Scattering Phase Shift
+- 7.2d Partial Wave Analysis
+
+- Section: 7.3 Phase Shifts:
+subsections:
+- 7.3a Definition and Properties of Phase Shifts
+- 7.3b Phase Shifts in Scattering Theory
+- 7.3c Phase Shift Analysis
+- 7.3d Resonance and Breit-Wigner Formula
+
+- Chapter 8: Quantum Measurements and Observables:
+sections:
+- Section: 8.1 Probability Density:
+subsections:
+- 8.1a Born's Rule
+- 8.1b Probability Density Interpretation
+- 8.1c Normalization Condition
+- 8.1d Probability Current Density
+
+- Section: 8.2 Expectation Values of Operators:
+subsections:
+- 8.2a Expectation Values Definition and Properties
+- 8.2b Measurement Postulate
+- 8.2c Expectation Values Examples
+- 8.2d Uncertainty Principle and Expectation Values
+
+- Section: 8.3 Uncertainty Relation:
+subsections:
+- 8.3a Heisenberg Uncertainty Principle
+- 8.3b Position-Momentum Uncertainty Relation
+- 8.3c Energy-Time Uncertainty Relation
+- 8.3d Uncertainty Relation Examples
+
+- Chapter 9: Quantum Mechanics of Identical Particles:
+sections:
+- Section: 9.1 Symmetry and Exchange:
+subsections:
+- 9.1a Particle Exchange Symmetry
+- 9.1b Symmetric and Antisymmetric States
+- 9.1c Exchange Operator
+- 9.1d Permutation Group
+
+- Section: 9.2 Pauli Exclusion Principle:
+subsections:
+- 9.2a Pauli Exclusion Principle Definition
+- 9.2b Pauli Matrices and Spin Statistics
+- 9.2c Fermi-Dirac and Bose-Einstein Statistics
+
+- Section: 9.3 Fermions and Bosons:
+subsections:
+- 9.3a Fermions and Fermi-Dirac Statistics
+- 9.3b Bosons and Bose-Einstein Statistics
+- 9.3c Fermi-Dirac and Bose-Einstein Distribution Functions
+- 9.3d Fermi-Dirac and Bose-Einstein Gases
+
+- Section: 9.4 Quantum Statistics:
+subsections:
+- 9.4a Quantum Statistics Definition and Properties
+- 9.4b Maxwell-Boltzmann Distribution
+- 9.4c Quantum Statistics Examples
+- 9.4d Quantum Statistics in Systems of Identical Particles
+
+- Chapter 10: Quantum Mechanics of Spin:
+sections:
+- Section: 10.1 Spin-1/2 Systems:
+subsections:
+- 10.1a Spin-1/2 States
+- 10.1b Spin-1/2 Operators
+- 10.1c Spin-1/2 Measurements
+- 10.1d Spin-1/2 Entanglement
+
+- Section: 10.2 Spin-1 Systems:
+subsections:
+- 10.2a Spin-1 States
+- 10.2b Spin-1 Operators
+- 10.2c Spin-1 Measurements
+- 10.2d Spin-1 Entanglement
+
+- Section: 10.3 Spin-3/2 Systems:
+subsections:
+- 10.3a Spin-3/2 States
+- 10.3b Spin-3/2 Operators
+- 10.3c Spin-3/2 Measurements
+- 10.3d Spin-3/2 Entanglement
+
+- Section: 10.4 Spin in Magnetic Fields:
+subsections:
+- 10.4a Zeeman Effect
+- 10.4b Spin Precession
+- 10.4c Magnetic Resonance
+- 10.4d Spin Relaxation
+
+- Chapter 11: Quantum Mechanics of Multi-particle Systems:
+sections:
+- Section: 11.1 Two-particle Systems:
+subsections:
+- 11.1a Two-particle States
+- 11.1b Two-particle Operators
+- 11.1c Two-particle Measurements
+- 11.1d Two-particle Entanglement
+
+- Section: 11.2 Three-particle Systems:
+subsections:
+- 11.2a Three-particle States
+- 11.2b Three-particle Operators
+- 11.2c Three-particle Measurements
+- 11.2d Three-particle Entanglement
+
+- Section: 11.3 N-particle Systems:
+subsections:
+- 11.3a N-particle States
+- 11.3b N-particle Operators
+- 11.3c N-particle Measurements
+- 11.3d N-particle Entanglement
+
+- Section: 11.4 Multi-particle Scattering:
+subsections:
+- 11.4a Multi-particle Scattering Theory
+- 11.4b Multi-particle Scattering Cross Section
+- 11.4c Multi-particle Scattering Phase Shift
+- 11.4d Multi-particle Scattering Resonances
+
+- Chapter 12: Quantum Mechanics of Systems with Spin-Orbit Coupling:
+sections:
+- Section: 12.1 Spin-Orbit Interaction:
+subsections:
+- 12.1a Spin-Orbit Interaction Hamiltonian
+- 12.1b Spin-Orbit Interaction Energy Levels
+- 12.1c Spin-Orbit Interaction Measurements
+- 12.1d Spin-Orbit Interaction Effects
+
+- Section: 12.2 Fine Structure:
+subsections:
+- 12.2a Fine Structure Splitting
+- 12.2b Fine Structure Transitions
+- 12.2c Fine Structure Measurements
+- 12.2d Fine Structure Effects
+
+- Section: 12.3 Hyperfine Structure:
+subsections:
+- 12.3a Hyperfine Structure Splitting
+- 12.3b Hyperfine Structure Transitions
+- 12.3c Hyperfine Structure Measurements
+- 12.3d Hyperfine Structure Effects
+
+- Section: 12.4 Zeeman Effect:
+subsections:
+- 12.4a Zeeman Effect in Spin-Orbit Coupled Systems
+- 12.4b Zeeman Effect Energy Levels
+- 12.4c Zeeman Effect Measurements
+- 12.4d Zeeman Effect Applications
+
+- Chapter 13: Quantum Mechanics of Systems with Spin-Spin Coupling:
+sections:
+- Section: 13.1 Spin-Spin Interaction:
+subsections:
+- 13.1a Spin-Spin Interaction Hamiltonian
+- 13.1b Spin-Spin Interaction Energy Levels
+- 13.1c Spin-Spin Interaction Measurements
+- 13.1d Spin-Spin Interaction Effects
+
+- Section: 13.2 Nuclear Magnetic Resonance:
+subsections:
+- 13.2a Nuclear Magnetic Resonance Theory
+- 13.2b Nuclear Magnetic Resonance Spectroscopy
+- 13.2c Nuclear Magnetic Resonance Imaging
+- 13.2d Nuclear Magnetic

@@ -1,0 +1,319 @@
+textbook:
+  'Ship Structural Analysis & Design: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Shear and Bending:':
+        sections:
+        - '- Section: 1.1 Characteristics of Thin Walled Sections:':
+            subsections:
+            - 1.1a Introduction to Thin Walled Sections
+            - 1.1b Analysis of Thin Walled Sections
+            - 1.1c Load Distribution in Thin Walled Sections
+        - '- Section: 1.2 Design Approach and Failure Analysis:':
+            subsections:
+            - 1.2a Design Approaches for Shear and Bending
+            - 1.2b Failure Analysis of Shear and Bending
+    - '- Chapter 2: Plate Bending:':
+        sections:
+        - '- Section: 2.1 Panel Bending Failure Analysis:':
+            subsections:
+            - 2.1a Types of Panel Bending
+            - 2.1b Panel Bending Analysis Methods
+        - '- Section: 2.2 Girder Bending Failure Analysis:':
+            subsections:
+            - 2.2a Types of Girder Bending
+            - 2.2b Girder Bending Analysis Methods
+        - '- Section: 2.3 Frame Bending Failure Analysis:':
+            subsections:
+            - 2.3a Types of Frame Bending
+            - 2.3b Frame Bending Analysis Methods
+        - '- Section: 2.4 Buckling and Ultimate Strength of Plates:':
+            subsections:
+            - 2.4a Buckling Analysis of Plates
+            - 2.4b Ultimate Strength Analysis of Plates
+    - '- Chapter 3: Buckling and Ultimate Strength:':
+        sections:
+        - '- Section: 3.1 Buckling and Ultimate Strength of Columns:':
+            subsections:
+            - 3.1a Introduction to Column Buckling
+            - 3.1b Ultimate Strength of Columns
+        - '- Section: 3.2 Buckling of Stiffened Panels:':
+            subsections:
+            - 3.2a Introduction to Stiffened Panels
+            - 3.2b Buckling Analysis of Stiffened Panels
+        - '- Section: 3.3 Ultimate Strength of Stiffened Panels:':
+            subsections:
+            - 3.3a Introduction to Ultimate Strength of Stiffened Panels
+            - 3.3b Analysis of Ultimate Strength of Stiffened Panels
+    - '- Chapter 4: Matrix, Grillage and FEM Analysis:':
+        sections:
+        - '- Section: 4.1 Matrix Analysis:':
+            subsections:
+            - 4.1a Introduction to Matrix Analysis
+            - 4.1b Application of Matrix Analysis in Ship Structures
+        - '- Section: 4.2 Grillage Introduction:':
+            subsections:
+            - 4.2a Introduction to Grillage Analysis
+            - 4.2b Application of Grillage Analysis in Ship Structures
+    - '- Chapter 5: Introduction to Maestro:':
+        sections:
+        - '- Section: 5.1 Maestro Tutorial and Building Model:':
+            subsections:
+            - 5.1a Introduction to Maestro Software
+            - 5.1b Tutorial on Building Ship Models in Maestro
+        - '- Section: 5.2 Barge Optimization:':
+            subsections:
+            - 5.2a Introduction to Barge Optimization
+            - 5.2b Analysis and Optimization of Barge Structures
+    - '- Chapter 6: Projects:':
+        sections:
+        - '- Section: 6.1 Substructure Analysis using Maestro:':
+            subsections:
+            - 6.1a Introduction to Substructure Analysis
+            - 6.1b Application of Maestro in Substructure Analysis
+        - '- Section: 6.2 Modification using Maestro:':
+            subsections:
+            - 6.2a Introduction to Modification of Ship Structures
+            - 6.2b Application of Maestro in Ship Structure Modification
+    - '- Chapter 7: Ship Structural Design:':
+        sections:
+        - '- Section: 7.1 Design Principles:':
+            subsections:
+            - 7.1a Introduction to Ship Structural Design
+            - 7.1b Design Considerations and Constraints
+            - 7.1c Design Process and Methodologies
+        - '- Section: 7.2 Structural Analysis:':
+            subsections:
+            - 7.2a Introduction to Structural Analysis
+            - 7.2b Analysis Techniques and Tools
+            - 7.2c Interpretation of Analysis Results
+        - '- Section: 7.3 Design Optimization:':
+            subsections:
+            - 7.3a Introduction to Design Optimization
+            - 7.3b Optimization Techniques and Tools
+            - 7.3c Case Studies in Design Optimization
+    - '- Chapter 8: Ship Construction:':
+        sections:
+        - '- Section: 8.1 Construction Materials:':
+            subsections:
+            - 8.1a Introduction to Construction Materials
+            - 8.1b Material Properties and Selection
+            - 8.1c Material Handling and Storage
+        - '- Section: 8.2 Construction Techniques:':
+            subsections:
+            - 8.2a Introduction to Construction Techniques
+            - 8.2b Assembly and Joining Techniques
+            - 8.2c Quality Control and Inspection
+        - '- Section: 8.3 Construction Management:':
+            subsections:
+            - 8.3a Introduction to Construction Management
+            - 8.3b Project Planning and Scheduling
+            - 8.3c Cost Estimation and Control
+    - '- Chapter 9: Ship Maintenance and Repair:':
+        sections:
+        - '- Section: 9.1 Maintenance Strategies:':
+            subsections:
+            - 9.1a Introduction to Maintenance Strategies
+            - 9.1b Preventive Maintenance
+            - 9.1c Predictive Maintenance
+        - '- Section: 9.2 Repair Techniques:':
+            subsections:
+            - 9.2a Introduction to Repair Techniques
+            - 9.2b Repair Planning and Execution
+            - 9.2c Quality Control and Inspection in Repairs
+        - '- Section: 9.3 Maintenance and Repair Management:':
+            subsections:
+            - 9.3a Introduction to Maintenance and Repair Management
+            - 9.3b Maintenance Planning and Scheduling
+            - 9.3c Cost Estimation and Control in Maintenance and Repairs
+    - '- Chapter 10: Ship Safety and Regulations:':
+        sections:
+        - '- Section: 10.1 Safety Regulations:':
+            subsections:
+            - 10.1a Introduction to Safety Regulations
+            - 10.1b Compliance with Safety Regulations
+            - 10.1c Safety Management Systems
+        - '- Section: 10.2 Safety Equipment and Systems:':
+            subsections:
+            - 10.2a Introduction to Safety Equipment and Systems
+            - 10.2b Operation and Maintenance of Safety Equipment and Systems
+            - 10.2c Safety Training and Drills
+        - '- Section: 10.3 Accident Investigation and Analysis:':
+            subsections:
+            - 10.3a Introduction to Accident Investigation and Analysis
+            - 10.3b Accident Investigation Techniques
+            - 10.3c Accident Analysis and Reporting
+    - '- Chapter 11: Ship Performance and Efficiency:':
+        sections:
+        - '- Section: 11.1 Performance Evaluation:':
+            subsections:
+            - 11.1a Introduction to Performance Evaluation
+            - 11.1b Performance Metrics and Indicators
+            - 11.1c Performance Monitoring and Reporting
+        - '- Section: 11.2 Efficiency Improvement:':
+            subsections:
+            - 11.2a Introduction to Efficiency Improvement
+            - 11.2b Efficiency Improvement Techniques
+            - 11.2c Efficiency Monitoring and Reporting
+        - '- Section: 11.3 Environmental Impact:':
+            subsections:
+            - 11.3a Introduction to Environmental Impact
+            - 11.3b Environmental Regulations and Compliance
+            - 11.3c Environmental Management Systems
+    - '- Chapter 12: Ship Operations and Management:':
+        sections:
+        - '- Section: 12.1 Operations Management:':
+            subsections:
+            - 12.1a Introduction to Operations Management
+            - 12.1b Operational Planning and Scheduling
+            - 12.1c Operational Cost Estimation and Control
+        - '- Section: 12.2 Crew Management:':
+            subsections:
+            - 12.2a Introduction to Crew Management
+            - 12.2b Crew Training and Development
+            - 12.2c Crew Welfare and Safety
+        - '- Section: 12.3 Risk Management:':
+            subsections:
+            - 12.3a Introduction to Risk Management
+            - 12.3b Risk Assessment Techniques
+            - 12.3c Risk Mitigation Strategies
+    - '- Chapter 13: Ship Design and Innovation:':
+        sections:
+        - '- Section: 13.1 Innovative Design Concepts:':
+            subsections:
+            - 13.1a Introduction to Innovative Design Concepts
+            - 13.1b Case Studies in Innovative Design
+            - 13.1c Challenges and Opportunities in Innovative Design
+        - '- Section: 13.2 Technology Integration:':
+            subsections:
+            - 13.2a Introduction to Technology Integration
+            - 13.2b Case Studies in Technology Integration
+            - 13.2c Challenges and Opportunities in Technology Integration
+        - '- Section: 13.3 Future Trends in Ship Design:':
+            subsections:
+            - 13.3a Introduction to Future Trends in Ship Design
+            - 13.3b Analysis of Future Trends
+            - 13.3c Implications of Future Trends for Ship Design
+    - '- Chapter 14: Ship Decommissioning and Recycling:':
+        sections:
+        - '- Section: 14.1 Decommissioning Planning:':
+            subsections:
+            - 14.1a Introduction to Decommissioning Planning
+            - 14.1b Decommissioning Strategies and Techniques
+            - 14.1c Cost Estimation and Control in Decommissioning
+        - '- Section: 14.2 Ship Recycling:':
+            subsections:
+            - 14.2a Introduction to Ship Recycling
+            - 14.2b Ship Recycling Techniques
+            - 14.2c Environmental and Safety Considerations in Ship Recycling
+        - '- Section: 14.3 Regulatory Compliance in Decommissioning and Recycling:':
+            subsections:
+            - 14.3a Introduction to Regulatory Compliance in Decommissioning and Recycling
+            - 14.3b Compliance with Decommissioning Regulations
+            - 14.3c Compliance with Recycling Regulations
+    - '- Chapter 15: Ship Finance and Economics:':
+        sections:
+        - '- Section: 15.1 Ship Investment Analysis:':
+            subsections:
+            - 15.1a Introduction to Ship Investment Analysis
+            - 15.1b Investment Evaluation Techniques
+            - 15.1c Risk Analysis in Ship Investment
+        - '- Section: 15.2 Ship Financing:':
+            subsections:
+            - 15.2a Introduction to Ship Financing
+            - 15.2b Ship Financing Techniques
+            - 15.2c Risk Management in Ship Financing
+        - '- Section: 15.3 Economic Impact of Shipping:':
+            subsections:
+            - 15.3a Introduction to Economic Impact of Shipping
+            - 15.3b Analysis of Economic Impact
+            - 15.3c Future Trends in Shipping Economics
+    - '- Chapter 16: Ship Marketing and Sales:':
+        sections:
+        - '- Section: 16.1 Ship Marketing Strategies:':
+            subsections:
+            - 16.1a Introduction to Ship Marketing Strategies
+            - 16.1b Market Segmentation and Targeting
+            - 16.1c Marketing Mix Strategies
+        - '- Section: 16.2 Ship Sales:':
+            subsections:
+            - 16.2a Introduction to Ship Sales
+            - 16.2b Sales Techniques and Strategies
+            - 16.2c After-Sales Service and Support
+        - '- Section: 16.3 Market Analysis and Forecasting:':
+            subsections:
+            - 16.3a Introduction to Market Analysis and Forecasting
+            - 16.3b Market Analysis Techniques
+            - 16.3c Market Forecasting Techniques
+    - '- Chapter 17: Ship Insurance and Claims:':
+        sections:
+        - '- Section: 17.1 Ship Insurance:':
+            subsections:
+            - 17.1a Introduction to Ship Insurance
+            - 17.1b Types of Ship Insurance
+            - 17.1c Risk Management in Ship Insurance
+        - '- Section: 17.2 Claims Management:':
+            subsections:
+            - 17.2a Introduction to Claims Management
+            - 17.2b Claims Handling and Settlement
+            - 17.2c Dispute Resolution in Claims Management
+        - '- Section: 17.3 Regulatory Compliance in Insurance and Claims:':
+            subsections:
+            - 17.3a Introduction to Regulatory Compliance in Insurance and Claims
+            - 17.3b Compliance with Insurance Regulations
+            - 17.3c Compliance with Claims Regulations
+    - '- Chapter 18: Ship Chartering and Operations:':
+        sections:
+        - '- Section: 18.1 Ship Chartering:':
+            subsections:
+            - 18.1a Introduction to Ship Chartering
+            - 18.1b Types of Ship Charters
+            - 18.1c Chartering Strategies and Techniques
+        - '- Section: 18.2 Ship Operations:':
+            subsections:
+            - 18.2a Introduction to Ship Operations
+            - 18.2b Operational Planning and Scheduling
+            - 18.2c Operational Cost Estimation and Control
+        - '- Section: 18.3 Regulatory Compliance in Chartering and Operations:':
+            subsections:
+            - 18.3a Introduction to Regulatory Compliance in Chartering and Operations
+            - 18.3b Compliance with Chartering Regulations
+            - 18.3c Compliance with Operations Regulations
+    - '- Chapter 19: Ship Management and Leadership:':
+        sections:
+        - '- Section: 19.1 Ship Management:':
+            subsections:
+            - 19.1a Introduction to Ship Management
+            - 19.1b Management Strategies and Techniques
+            - 19.1c Management Challenges and Opportunities
+        - '- Section: 19.2 Leadership in Shipping:':
+            subsections:
+            - 19.2a Introduction to Leadership in Shipping
+            - 19.2b Leadership Styles and Techniques
+            - 19.2c Leadership Challenges and Opportunities
+        - '- Section: 19.3 Organizational Culture in Shipping:':
+            subsections:
+            - 19.3a Introduction to Organizational Culture in Shipping
+            - 19.3b Analysis of Organizational Culture
+            - 19.3c Culture Change and Development
+    - '- Chapter 20: Ship Human Resource Management:':
+        sections:
+        - '- Section: 20.1 Human Resource Planning:':
+            subsections:
+            - 20.1a Introduction to Human Resource Planning
+            - 20.1b Workforce Planning and Scheduling
+            - 20.1c Succession Planning and Career Development
+        - '- Section: 20.2 Recruitment and Selection:':
+            subsections:
+            - 20.2a Introduction to Recruitment and Selection
+            - 20.2b Recruitment Strategies and Techniques
+            - 20.2c Selection Methods and Decision Making
+        - '- Section: 20.3 Training and Development:':
+            subsections:
+            - 20.3a Introduction to Training and Development
+            - 20.3b Training Needs Analysis and Design
+            - 20.3c Training Delivery and Evaluation
+        - '- Section: 20.4 Performance Management:':
+            subsections:
+            - 20.4a Introduction to Performance Management
+            - 20.4b Performance Appraisal and Feedback
+            - 20.4c Performance Improvement Strategies

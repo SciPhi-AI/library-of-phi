@@ -1,0 +1,89 @@
+textbook:
+  'Development Economics: Macroeconomics - A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to the Course:':
+        sections:
+        - '- Section: 1.1 Growth, Inequality, and Total Factor Productivity (TFP) with Financial Imperfections:':
+            subsections:
+            - 1.1a Introduction to Growth and Inequality
+            - 1.1b Understanding Total Factor Productivity
+            - 1.1c Role of Financial Imperfections
+        - '- Section: 1.2 Other Frictions in Financial Intermediation:':
+            subsections:
+            - 1.2a Understanding Financial Intermediation
+            - 1.2b Growth, TFP, and International Capital Flows
+            - 1.2c Impact of Frictions in Financial Intermediation
+    - '- Chapter 2: Micro-founded Macro Models:':
+        sections:
+        - '- Section: 2.1 Occupational Choice and Limited Commitment:':
+            subsections:
+            - 2.1a Theory of Occupational Choice
+            - 2.1b Role of Limited Commitment
+            - 2.1c Micro Tests and their Implications
+        - '- Section: 2.2 Risk-sharing, Insurance, and Endogenous Financial Deepening:':
+            subsections:
+            - 2.2a Understanding Risk-sharing
+            - 2.2b Role of Insurance in Risk-sharing
+            - 2.2c Concept of Endogenous Financial Deepening
+        - '- Section: 2.3 Model Comparisons:':
+            subsections:
+            - 2.3a Comparing Different Macro Models
+            - 2.3b Strengths and Weaknesses of Different Models
+            - 2.3c Choosing the Right Model for Analysis
+    - '- Chapter 3: Measurement: Financial Accounts, Economic Accounts, NIPA, Balance of Payments:':
+        sections:
+        - '- Section: 3.1 From Households to Village Economies to National Level Flow of Funds:':
+            subsections:
+            - 3.1a Understanding Financial Accounts
+            - 3.1b Role of Economic Accounts
+            - 3.1c Understanding NIPA and Balance of Payments
+        - ? '- Section: 3.2 Insurance: From Village Insurance to Financial Access
+            and Targeting to Risk Instruments in Advanced OECD Countries:'
+          : subsections:
+            - 3.2a Understanding Village Insurance
+            - 3.2b Role of Financial Access and Targeting
+            - 3.2c Use of Risk Instruments in Advanced OECD Countries
+        - '- Section: 3.3 Capital Asset Pricing: Idiosyncratic and Aggregate Risk, Mean Variance Frontiers:':
+            subsections:
+            - 3.3a Understanding Capital Asset Pricing
+            - 3.3b Role of Idiosyncratic and Aggregate Risk
+            - 3.3c Understanding Mean Variance Frontiers
+        - '- Section: 3.4 Links to the Macro Literature: Panel Data and Models of Smoothing:':
+            subsections:
+            - 3.4a Understanding Panel Data
+            - 3.4b Role of Models of Smoothing
+            - 3.4c Linking Micro and Macro Literature
+    - '- Chapter 4: Labor Supply: Intensive and Extensive Margin in Villages to Families, Lotteries, and Elasticities in Macro:':
+        sections:
+        - '- Section: 4.1 Understanding Labor Supply:':
+            subsections:
+            - 4.1a Intensive and Extensive Margin in Villages
+            - 4.1b Role of Families and Lotteries
+            - 4.1c Understanding Elasticities in Macro
+        - '- Section: 4.2 Barriers to Sharing Risk:':
+            subsections:
+            - 4.2a Understanding Risk Sharing
+            - 4.2b Identifying Barriers to Risk Sharing
+            - 4.2c Overcoming Barriers to Risk Sharing
+        - '- Section: 4.3 Program Evaluation: The Thai Million Baht Village Fund:':
+            subsections:
+            - 4.3a Introduction to Program Evaluation
+            - '4.3b Case Study: The Thai Million Baht Village Fund'
+            - 4.3c Impact and Lessons from the Thai Village Fund
+        - '- Section: 4.4 From Reduced-form to Structural Evaluation: Expanding Financial Infrastructure and Impact:':
+            subsections:
+            - 4.4a Understanding Reduced-form Evaluation
+            - 4.4b Role of Structural Evaluation
+            - 4.4c Expanding Financial Infrastructure and its Impact
+    - '- Chapter 5: Discussion and Research Proposals:':
+        sections:
+        - '- Section: 5.1 Discussion on Course Content:':
+            subsections:
+            - 5.1a Review of Key Concepts
+            - 5.1b Discussion on Relevant Topics
+            - 5.1c Future Directions in Development Economics
+        - '- Section: 5.2 Research Proposals:':
+            subsections:
+            - 5.2a Developing a Research Proposal
+            - 5.2b Identifying Research Gaps
+            - 5.2c Proposal Presentation and Feedback

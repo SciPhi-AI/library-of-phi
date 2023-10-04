@@ -1,0 +1,163 @@
+"Classical Mechanics: Exploring the Fundamentals":
+
+chapters:
+- Chapter 1: Introduction to 8.01X, Measurement Standards:
+sections:
+- Section: 1.1 Course Introduction
+- Section: 1.2 Measurement Standards
+
+- Chapter 2: Mechanics Baseline Test I:
+sections:
+- Section: 2.1 Test Overview
+- Section: 2.2 Problem Solving Strategies
+
+- Chapter 3: Units, Dimensions, Fermi Problems, Estimating a Second Experiment Questions:
+sections:
+- Section: 3.1 Units and Dimensions
+- Section: 3.2 Fermi Problems
+- Section: 3.3 Estimating a Second Experiment
+
+- Chapter 4: Kinematics: 1D Motion, Displacement and Velocity:
+sections:
+- Section: 4.1 1D Motion
+- Section: 4.2 Displacement
+- Section: 4.3 Velocity
+
+- Chapter 5: Vectors, Newton’s Laws of Motion, Force, Mass and Acceleration:
+sections:
+- Section: 5.1 Vectors
+- Section: 5.2 Newton’s Laws of Motion
+- Section: 5.3 Force
+- Section: 5.4 Mass and Acceleration
+
+- Chapter 6: Newton’s Laws, Gravitation and Weight, Projectiles:
+sections:
+- Section: 6.1 Newton's Laws
+- Section: 6.2 Gravitation and Weight
+- Section: 6.3 Projectiles
+
+- Chapter 7: Review, Applications of Newton’s Laws:
+sections:
+- Section: 7.1 Review of Newton's Laws
+- Section: 7.2 Applications of Newton's Laws
+
+- Chapter 8: Uniform Circular Motion:
+sections:
+- Section: 8.1 Circular Motion
+- Section: 8.2 Uniform Circular Motion
+
+- Chapter 9: Universal Law of Gravitation, Planetary Orbits:
+sections:
+- Section: 9.1 Universal Law of Gravitation
+- Section: 9.2 Planetary Orbits
+
+- Chapter 10: Levers, Statics and Torque:
+sections:
+- Section: 10.1 Levers
+- Section: 10.2 Statics
+- Section: 10.3 Torque
+
+- Chapter 11: Work, Kinetic Energy:
+sections:
+- Section: 11.1 Work
+- Section: 11.2 Kinetic Energy
+
+- Chapter 12: Conservation Laws, Potential Energy:
+sections:
+- Section: 12.1 Conservation Laws
+- Section: 12.2 Potential Energy
+
+- Chapter 13: Conservation of Mechanical Energy:
+sections:
+- Section: 13.1 Conservation of Mechanical Energy
+
+- Chapter 14: Energy: Universal Gravitation and Planetary Orbits:
+sections:
+- Section: 14.1 Energy
+- Section: 14.2 Universal Gravitation
+- Section: 14.3 Planetary Orbits
+
+- Chapter 15: Energy Transformations, Heat:
+sections:
+- Section: 15.1 Energy Transformations
+- Section: 15.2 Heat
+
+- Chapter 16: Restoring Forces and Harmonic Motion, Pendulum:
+sections:
+- Section: 16.1 Restoring Forces
+- Section: 16.2 Harmonic Motion
+- Section: 16.3 Pendulum
+
+- Chapter 17: Linear Momentum, Impulse, Newton’s 2nd Law:
+sections:
+- Section: 17.1 Linear Momentum
+- Section: 17.2 Impulse
+- Section: 17.3 Newton’s 2nd Law
+
+- Chapter 18: Momentum, Center of Mass:
+sections:
+- Section: 18.1 Momentum
+- Section: 18.2 Center of Mass
+
+- Chapter 19: Collisions, Kinetic Theory:
+sections:
+- Section: 19.1 Collisions
+- Section: 19.2 Kinetic Theory
+
+- Chapter 20: Angular Kinematics, Torque, Rigid Bodies, Moment of Inertia:
+sections:
+- Section: 20.1 Angular Kinematics
+- Section: 20.2 Torque
+- Section: 20.3 Rigid Bodies
+- Section: 20.4 Moment of Inertia
+
+- Chapter 21: Moment of Inertia:
+sections:
+- Section: 21.1 Moment of Inertia
+
+- Chapter 22: Rotational Dynamics:
+sections:
+- Section: 22.1 Rotational Dynamics
+
+- Chapter 23: Angular Dynamics, Translation and Rotation:
+sections:
+- Section: 23.1 Angular Dynamics
+- Section: 23.2 Translation and Rotation
+
+- Chapter 24: Properties of Materials: Solids:
+sections:
+- Section: 24.1 Properties of Materials
+- Section: 24.2 Solids
+
+- Chapter 25: Properties of Materials: Fluids:
+sections:
+- Section: 25.1 Properties of Materials
+- Section: 25.2 Fluids
+
+- Chapter 26: Conservation of Flow, Buoyancy:
+sections:
+- Section: 26.1 Conservation of Flow
+- Section: 26.2 Buoyancy
+
+- Chapter 27: Viscosity:
+sections:
+- Section: 27.1 Viscosity
+
+- Chapter 28: Properties of Materials: Atomic Hypothesis:
+sections:
+- Section: 28.1 Properties of Materials
+- Section: 28.2 Atomic Hypothesis
+
+- Chapter 29: Special Relativity, Inertial Frames:
+sections:
+- Section: 29.1 Special Relativity
+- Section: 29.2 Inertial Frames
+
+- Chapter 30: Final Review:
+sections:
+- Section: 30.1 Review Topics
+
+- Chapter 31: Final Exam:
+sections:
+- Section: 31.1 Exam Format
+- Section: 31.2 Study Tips

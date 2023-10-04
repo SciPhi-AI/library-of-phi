@@ -1,0 +1,200 @@
+```yaml
+textbook: 
+"American Foreign Policy: A Comprehensive Analysis":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Power and Security: Overview of U.S. Foreign Policy Since 1914
+- Section: 1.2 Theories of U.S. Foreign Policy
+- Section: 1.3 U.S. Interests and Grand Strategies
+
+- Chapter 2: World War I and World War II:
+sections:
+- Section: 2.1 Cold War Origins and Conduct; the Korean War
+- Section: 2.2 U.S. National Security Policy, 1945-present
+- Section: 2.3 The U.S. 'War on Terror,' 9/11/01-present
+- Section: 2.4 U.S. Foreign Economic Policy, 1945-present
+
+- Chapter 3: The 1962 Cuban Missile Crisis; Other Cold War Crises:
+sections:
+- Section: 3.1 The Indochina War, 1950-1975
+- Section: 3.2 Current Issues and Crises
+- Section: 3.3 Assessment of Bush 43 and Obama Administration's Foreign Policies
+- Section: 3.4 The Future of American Foreign Policy
+subsections:
+- 3.4a The Role of Diplomacy in American Foreign Policy
+- 3.4b The Impact of Technology on U.S. Foreign Policy
+- 3.4c U.S. Foreign Policy and Human Rights
+- 3.4d U.S. Foreign Policy and International Organizations
+
+- Chapter 4: U.S. Foreign Policy and Climate Change:
+sections:
+- Section: 4.1 Climate Change: An Overview
+- Section: 4.2 U.S. Role in Global Climate Policy
+- Section: 4.3 Climate Change and National Security
+subsections:
+- 4.3a Climate Change as a Threat Multiplier
+- 4.3b Climate Change and Military Readiness
+- 4.3c Climate Change and Migration
+
+- Chapter 5: U.S. Foreign Policy and Globalization:
+sections:
+- Section: 5.1 Globalization: An Overview
+- Section: 5.2 U.S. Role in Global Trade
+- Section: 5.3 Globalization and National Security
+subsections:
+- 5.3a Globalization and Economic Security
+- 5.3b Globalization and Cybersecurity
+- 5.3c Globalization and Terrorism
+
+- Chapter 6: U.S. Foreign Policy and the Middle East:
+sections:
+- Section: 6.1 Historical Overview of U.S. Involvement in the Middle East
+- Section: 6.2 U.S. and the Israeli-Palestinian Conflict
+- Section: 6.3 U.S. and Iran
+subsections:
+- 6.3a The Iran Nuclear Deal
+- 6.3b U.S.-Iran Relations under Trump Administration
+- 6.3c U.S.-Iran Relations under Biden Administration
+
+- Chapter 7: U.S. Foreign Policy and East Asia:
+sections:
+- Section: 7.1 U.S. and China
+- Section: 7.2 U.S. and North Korea
+- Section: 7.3 U.S. and South China Sea Disputes
+subsections:
+- 7.3a U.S. Freedom of Navigation Operations
+- 7.3b U.S. Relations with ASEAN
+- 7.3c U.S. Role in South China Sea Arbitration
+
+- Chapter 8: U.S. Foreign Policy and Latin America:
+sections:
+- Section: 8.1 U.S. and Cuba
+- Section: 8.2 U.S. and Venezuela
+- Section: 8.3 U.S. and Mexico
+subsections:
+- 8.3a NAFTA and USMCA
+- 8.3b U.S.-Mexico Border Security
+- 8.3c U.S. Immigration Policy and Mexico
+
+- Chapter 9: U.S. Foreign Policy and Europe:
+sections:
+- Section: 9.1 U.S. and NATO
+- Section: 9.2 U.S. and EU
+- Section: 9.3 U.S. and Russia
+subsections:
+- 9.3a U.S.-Russia Relations under Trump Administration
+- 9.3b U.S.-Russia Relations under Biden Administration
+- 9.3c U.S. Sanctions on Russia
+
+- Chapter 10: U.S. Foreign Policy and Africa:
+sections:
+- Section: 10.1 U.S. and Sub-Saharan Africa
+- Section: 10.2 U.S. and North Africa
+- Section: 10.3 U.S. and the African Union
+subsections:
+- 10.3a U.S. Role in African Peacekeeping
+- 10.3b U.S. Aid to Africa
+- 10.3c U.S. Trade with Africa
+
+- Chapter 11: U.S. Foreign Policy and South Asia:
+sections:
+- Section: 11.1 U.S. and India
+- Section: 11.2 U.S. and Pakistan
+- Section: 11.3 U.S. and Afghanistan
+subsections:
+- 11.3a U.S. War in Afghanistan
+- 11.3b U.S. Withdrawal from Afghanistan
+- 11.3c U.S. Role in Afghan Peace Process
+
+- Chapter 12: U.S. Foreign Policy and Oceania:
+sections:
+- Section: 12.1 U.S. and Australia
+- Section: 12.2 U.S. and New Zealand
+- Section: 12.3 U.S. and Pacific Islands
+subsections:
+- 12.3a U.S. Role in Pacific Security
+- 12.3b U.S. Aid to Pacific Islands
+- 12.3c U.S. Climate Policy and Pacific Islands
+
+- Chapter 13: U.S. Foreign Policy and Canada:
+sections:
+- Section: 13.1 U.S.-Canada Trade Relations
+- Section: 13.2 U.S.-Canada Security Cooperation
+- Section: 13.3 U.S.-Canada Environmental Cooperation
+subsections:
+- 13.3a U.S.-Canada Cooperation on Climate Change
+- 13.3b U.S.-Canada Cooperation on Water Management
+- 13.3c U.S.-Canada Cooperation on Wildlife Conservation
+
+- Chapter 14: U.S. Foreign Policy and Mexico:
+sections:
+- Section: 14.1 U.S.-Mexico Trade Relations
+- Section: 14.2 U.S.-Mexico Security Cooperation
+- Section: 14.3 U.S.-Mexico Immigration Issues
+subsections:
+- 14.3a U.S. Border Wall and Mexico
+- 14.3b U.S. Deportation Policy and Mexico
+- 14.3c U.S. Asylum Policy and Mexico
+
+- Chapter 15: U.S. Foreign Policy and Russia:
+sections:
+- Section: 15.1 U.S.-Russia Arms Control
+- Section: 15.2 U.S.-Russia Economic Relations
+- Section: 15.3 U.S.-Russia Cybersecurity Issues
+subsections:
+- 15.3a U.S. Sanctions on Russia for Cyber Attacks
+- 15.3b U.S.-Russia Cooperation on Cybersecurity
+- 15.3c U.S.-Russia Conflict in Cyberspace
+
+- Chapter 16: U.S. Foreign Policy and China:
+sections:
+- Section: 16.1 U.S.-China Trade War
+- Section: 16.2 U.S.-China Military Rivalry
+- Section: 16.3 U.S.-China Human Rights Issues
+subsections:
+- 16.3a U.S. Criticism of China's Human Rights Record
+- 16.3b U.S. Sanctions on China for Human Rights Abuses
+- 16.3c U.S.-China Dialogue on Human Rights
+
+- Chapter 17: U.S. Foreign Policy and Japan:
+sections:
+- Section: 17.1 U.S.-Japan Security Alliance
+- Section: 17.2 U.S.-Japan Trade Relations
+- Section: 17.3 U.S.-Japan Cooperation on North Korea
+subsections:
+- 17.3a U.S.-Japan Coordination on North Korea Sanctions
+- 17.3b U.S.-Japan Dialogue on North Korea's Nuclear Program
+- 17.3c U.S.-Japan Efforts to Resolve North Korea Abduction Issue
+
+- Chapter 18: U.S. Foreign Policy and India:
+sections:
+- Section: 18.1 U.S.-India Strategic Partnership
+- Section: 18.2 U.S.-India Trade Relations
+- Section: 18.3 U.S.-India Cooperation on Climate Change
+subsections:
+- 18.3a U.S.-India Dialogue on Renewable Energy
+- 18.3b U.S.-India Cooperation on Climate Resilience
+- 18.3c U.S.-India Partnership on Clean Energy
+
+- Chapter 19: U.S. Foreign Policy and Brazil:
+sections:
+- Section: 19.1 U.S.-Brazil Trade Relations
+- Section: 19.2 U.S.-Brazil Security Cooperation
+- Section: 19.3 U.S.-Brazil Environmental Cooperation
+subsections:
+- 19.3a U.S.-Brazil Dialogue on Amazon Deforestation
+- 19.3b U.S.-Brazil Cooperation on Climate Change
+- 19.3c U.S.-Brazil Partnership on Biodiversity Conservation
+
+- Chapter 20: U.S. Foreign Policy and Nigeria:
+sections:
+- Section: 20.1 U.S.-Nigeria Security Cooperation
+- Section: 20.2 U.S.-Nigeria Trade Relations
+- Section: 20.3 U.S.-Nigeria Human Rights Dialogue
+subsections:
+- 20.3a U.S. Criticism of Nigeria's Human Rights Record
+- 20.3b U.S. Aid to Nigeria for Human Rights Training
+- 20.3c U.S.-Nigeria Dialogue on Religious Freedom
+```

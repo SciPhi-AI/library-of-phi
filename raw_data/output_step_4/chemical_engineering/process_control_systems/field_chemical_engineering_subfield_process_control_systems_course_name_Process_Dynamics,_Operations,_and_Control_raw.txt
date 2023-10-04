@@ -1,0 +1,541 @@
+textbook: 
+"Process Dynamics, Operations, and Control Textbook":
+
+chapters:
+- Chapter 1: Introduction to Processes and Systems:
+sections:
+- Section: 1.1 Systems and Processes:
+subsections:
+- 1.1a Definition of Systems and Processes
+- 1.1b Types of Systems and Processes
+- 1.1c Applications of Systems and Processes
+
+- Section: 1.2 Process Variables:
+subsections:
+- 1.2a Definition of Process Variables
+- 1.2b Types of Process Variables
+- 1.2c Applications of Process Variables
+
+- Section: 1.3 Process Flow Diagrams:
+subsections:
+- 1.3a Introduction to Process Flow Diagrams
+- 1.3b Components of Process Flow Diagrams
+- 1.3c Applications of Process Flow Diagrams
+
+- Section: 1.4 Process Units and Equipment:
+subsections:
+- 1.4a Definition of Process Units and Equipment
+- 1.4b Types of Process Units and Equipment
+- 1.4c Applications of Process Units and Equipment
+
+- Chapter 2: Math Review:
+sections:
+- Section: 2.1 Algebraic Manipulation:
+subsections:
+- 2.1a Basic Algebraic Operations
+- 2.1b Algebraic Equations
+- 2.1c Algebraic Functions
+
+- Section: 2.2 Differential Equations:
+subsections:
+- 2.2a Introduction to Differential Equations
+- 2.2b Solving Differential Equations
+- 2.2c Applications of Differential Equations
+
+- Section: 2.3 Laplace Transforms:
+subsections:
+- 2.3a Definition of Laplace Transforms
+- 2.3b Properties of Laplace Transforms
+- 2.3c Applications of Laplace Transforms
+
+- Section: 2.4 Linear Algebra:
+subsections:
+- 2.4a Introduction to Linear Algebra
+- 2.4b Matrix Operations
+- 2.4c Applications of Linear Algebra
+
+- Chapter 3: The Blending Tank:
+sections:
+- Section: 3.1 Tank Dynamics:
+subsections:
+- 3.1a Introduction to Tank Dynamics
+- 3.1b Fluid Dynamics in Tanks
+- 3.1c Applications of Tank Dynamics
+
+- Section: 3.2 Material Balance:
+subsections:
+- 3.2a Definition of Material Balance
+- 3.2b Material Balance Equations
+- 3.2c Applications of Material Balance
+
+- Section: 3.3 Mixing and Dispersion:
+subsections:
+- 3.3a Introduction to Mixing and Dispersion
+- 3.3b Mixing and Dispersion Models
+- 3.3c Applications of Mixing and Dispersion
+
+- Section: 3.4 Blending Control:
+subsections:
+- 3.4a Definition of Blending Control
+- 3.4b Blending Control Strategies
+- 3.4c Applications of Blending Control
+
+- Chapter 4: Two Tanks in Series:
+sections:
+- Section: 4.1 Series System Analysis:
+subsections:
+- 4.1a Introduction to Series System Analysis
+- 4.1b Series System Models
+- 4.1c Applications of Series System Analysis
+
+- Section: 4.2 Residence Time Distribution:
+subsections:
+- 4.2a Definition of Residence Time Distribution
+- 4.2b Residence Time Distribution Models
+- 4.2c Applications of Residence Time Distribution
+
+- Section: 4.3 CSTRs in Series:
+subsections:
+- 4.3a Introduction to CSTRs in Series
+- 4.3b CSTRs in Series Models
+- 4.3c Applications of CSTRs in Series
+
+- Section: 4.4 Flow and Concentration Profiles:
+subsections:
+- 4.4a Definition of Flow and Concentration Profiles
+- 4.4b Flow and Concentration Profile Models
+- 4.4c Applications of Flow and Concentration Profiles
+
+- Chapter 5: Operability of Processes:
+sections:
+- Section: 5.1 Process Stability:
+subsections:
+- 5.1a Definition of Process Stability
+- 5.1b Process Stability Analysis
+- 5.1c Applications of Process Stability
+
+- Section: 5.2 Steady-State Analysis:
+subsections:
+- 5.2a Introduction to Steady-State Analysis
+- 5.2b Steady-State Analysis Techniques
+- 5.2c Applications of Steady-State Analysis
+
+- Section: 5.3 Sensitivity Analysis:
+subsections:
+- 5.3a Definition of Sensitivity Analysis
+- 5.3b Sensitivity Analysis Techniques
+- 5.3c Applications of Sensitivity Analysis
+
+- Section: 5.4 Control Valve Sizing:
+subsections:
+- 5.4a Introduction to Control Valve Sizing
+- 5.4b Control Valve Sizing Techniques
+- 5.4c Applications of Control Valve Sizing
+
+- Section: 5.5 Process Safety:
+subsections:
+- 5.5a Definition of Process Safety
+- 5.5b Process Safety Measures
+- 5.5c Applications of Process Safety
+
+- Chapter 6: The Heated Tank:
+sections:
+- Section: 6.1 Heat Transfer in Tanks:
+subsections:
+- 6.1a Introduction to Heat Transfer in Tanks
+- 6.1b Heat Transfer Models in Tanks
+- 6.1c Applications of Heat Transfer in Tanks
+
+- Section: 6.2 Energy Balance:
+subsections:
+- 6.2a Definition of Energy Balance
+- 6.2b Energy Balance Equations
+- 6.2c Applications of Energy Balance
+
+- Section: 6.3 Temperature Control:
+subsections:
+- 6.3a Introduction to Temperature Control
+- 6.3b Temperature Control Strategies
+- 6.3c Applications of Temperature Control
+
+- Section: 6.4 Heating and Cooling Systems:
+subsections:
+- 6.4a Definition of Heating and Cooling Systems
+- 6.4b Types of Heating and Cooling Systems
+- 6.4c Applications of Heating and Cooling Systems
+
+- Chapter 7: The Exothermic Reactor:
+sections:
+- Section: 7.1 Reaction Rates and Kinetics:
+subsections:
+- 7.1a Definition of Reaction Rates and Kinetics
+- 7.1b Reaction Rate and Kinetic Models
+- 7.1c Applications of Reaction Rates and Kinetics
+
+- Section: 7.2 Heat of Reaction:
+subsections:
+- 7.2a Definition of Heat of Reaction
+- 7.2b Heat of Reaction Calculations
+- 7.2c Applications of Heat of Reaction
+
+- Section: 7.3 Reactor Design:
+subsections:
+- 7.3a Introduction to Reactor Design
+- 7.3b Reactor Design Strategies
+- 7.3c Applications of Reactor Design
+
+- Section: 7.4 Temperature and Pressure Control:
+subsections:
+- 7.4a Introduction to Temperature and Pressure Control
+- 7.4b Temperature and Pressure Control Strategies
+- 7.4c Applications of Temperature and Pressure Control
+
+- Chapter 8: Higher-order Overdamped Systems:
+sections:
+- Section: 8.1 Higher-order Systems:
+subsections:
+- 8.1a Definition of Higher-order Systems
+- 8.1b Higher-order System Models
+- 8.1c Applications of Higher-order Systems
+
+- Section: 8.2 Transfer Function Models:
+subsections:
+- 8.2a Introduction to Transfer Function Models
+- 8.2b Transfer Function Model Development
+- 8.2c Applications of Transfer Function Models
+
+- Section: 8.3 Stability Analysis:
+subsections:
+- 8.3a Definition of Stability Analysis
+- 8.3b Stability Analysis Techniques
+- 8.3c Applications of Stability Analysis
+
+- Section: 8.4 Frequency Response:
+subsections:
+- 8.4a Introduction to Frequency Response
+- 8.4b Frequency Response Analysis
+- 8.4c Applications of Frequency Response
+
+- Section: 8.5 Feedback Control:
+subsections:
+- 8.5a Definition of Feedback Control
+- 8.5b Feedback Control Strategies
+- 8.5c Applications of Feedback Control
+
+- Chapter 9: Cascade and Feed Forward Control Schemes:
+sections:
+- Section: 9.1 Control Strategies:
+subsections:
+- 9.1a Introduction to Control Strategies
+- 9.1b Types of Control Strategies
+- 9.1c Applications of Control Strategies
+
+- Section: 9.2 Proportional-Integral-Derivative (PID) Control:
+subsections:
+- 9.2a Definition of PID Control
+- 9.2b PID Control Strategies
+- 9.2c Applications of PID Control
+
+- Section: 9.3 Feed Forward Control:
+subsections:
+- 9.3a Definition of Feed Forward Control
+- 9.3b Feed Forward Control Strategies
+- 9.3c Applications of Feed Forward Control
+
+- Section: 9.4 Cascade Control:
+subsections:
+- 9.4a Introduction to Cascade Control
+- 9.4b Cascade Control Strategies
+- 9.4c Applications of Cascade Control
+
+- Section: 9.5 Controller Tuning:
+subsections:
+- 9.5a Definition of Controller Tuning
+- 9.5b Controller Tuning Techniques
+- 9.5c Applications of Controller Tuning
+
+- Chapter 10: Process Optimization:
+sections:
+- Section: 10.1 Introduction to Process Optimization:
+subsections:
+- 10.1a Definition of Process Optimization
+- 10.1b Process Optimization Techniques
+- 10.1c Applications of Process Optimization
+
+- Section: 10.2 Linear Programming:
+subsections:
+- 10.2a Introduction to Linear Programming
+- 10.2b Linear Programming Techniques
+- 10.2c Applications of Linear Programming
+
+- Section: 10.3 Nonlinear Programming:
+subsections:
+- 10.3a Introduction to Nonlinear Programming
+- 10.3b Nonlinear Programming Techniques
+- 10.3c Applications of Nonlinear Programming
+
+- Section: 10.4 Dynamic Programming:
+subsections:
+- 10.4a Definition of Dynamic Programming
+- 10.4b Dynamic Programming Techniques
+- 10.4c Applications of Dynamic Programming
+
+- Chapter 11: Process Control Systems:
+sections:
+- Section: 11.1 Introduction to Process Control Systems:
+subsections:
+- 11.1a Definition of Process Control Systems
+- 11.1b Types of Process Control Systems
+- 11.1c Applications of Process Control Systems
+
+- Section: 11.2 Distributed Control Systems:
+subsections:
+- 11.2a Introduction to Distributed Control Systems
+- 11.2b Distributed Control System Architecture
+- 11.2c Applications of Distributed Control Systems
+
+- Section: 11.3 Programmable Logic Controllers:
+subsections:
+- 11.3a Definition of Programmable Logic Controllers
+- 11.3b Programmable Logic Controller Programming
+- 11.3c Applications of Programmable Logic Controllers
+
+- Section: 11.4 Advanced Process Control:
+subsections:
+- 11.4a Introduction to Advanced Process Control
+- 11.4b Advanced Process Control Techniques
+- 11.4c Applications of Advanced Process Control
+
+- Chapter 12: Process Instrumentation:
+sections:
+- Section: 12.1 Introduction to Process Instrumentation:
+subsections:
+- 12.1a Definition of Process Instrumentation
+- 12.1b Types of Process Instruments
+- 12.1c Applications of Process Instrumentation
+
+- Section: 12.2 Process Sensors:
+subsections:
+- 12.2a Introduction to Process Sensors
+- 12.2b Types of Process Sensors
+- 12.2c Applications of Process Sensors
+
+- Section: 12.3 Process Actuators:
+subsections:
+- 12.3a Definition of Process Actuators
+- 12.3b Types of Process Actuators
+- 12.3c Applications of Process Actuators
+
+- Section: 12.4 Instrumentation Symbols and Diagrams:
+subsections:
+- 12.4a Introduction to Instrumentation Symbols and Diagrams
+- 12.4b Reading and Interpreting Instrumentation Diagrams
+- 12.4c Applications of Instrumentation Symbols and Diagrams
+
+- Chapter 13: Process Safety and Risk Management:
+sections:
+- Section: 13.1 Introduction to Process Safety and Risk Management:
+subsections:
+- 13.1a Definition of Process Safety and Risk Management
+- 13.1b Process Safety and Risk Management Techniques
+- 13.1c Applications of Process Safety and Risk Management
+
+- Section: 13.2 Hazard Identification:
+subsections:
+- 13.2a Introduction to Hazard Identification
+- 13.2b Hazard Identification Techniques
+- 13.2c Applications of Hazard Identification
+
+- Section: 13.3 Risk Assessment:
+subsections:
+- 13.3a Definition of Risk Assessment
+- 13.3b Risk Assessment Techniques
+- 13.3c Applications of Risk Assessment
+
+- Section: 13.4 Safety Instrumented Systems:
+subsections:
+- 13.4a Introduction to Safety Instrumented Systems
+- 13.4b Safety Instrumented System Design
+- 13.4c Applications of Safety Instrumented Systems
+
+- Chapter 14: Process Economics:
+sections:
+- Section: 14.1 Introduction to Process Economics:
+subsections:
+- 14.1a Definition of Process Economics
+- 14.1b Process Economics Principles
+- 14.1c Applications of Process Economics
+
+- Section: 14.2 Cost Estimation:
+subsections:
+- 14.2a Introduction to Cost Estimation
+- 14.2b Cost Estimation Techniques
+- 14.2c Applications of Cost Estimation
+
+- Section: 14.3 Economic Decision Making:
+subsections:
+- 14.3a Definition of Economic Decision Making
+- 14.3b Economic Decision Making Techniques
+- 14.3c Applications of Economic Decision Making
+
+- Section: 14.4 Process Profitability:
+subsections:
+- 14.4a Introduction to Process Profitability
+- 14.4b Process Profitability Analysis
+- 14.4c Applications of Process Profitability
+
+- Chapter 15: Process Sustainability:
+sections:
+- Section: 15.1 Introduction to Process Sustainability:
+subsections:
+- 15.1a Definition of Process Sustainability
+- 15.1b Principles of Process Sustainability
+- 15.1c Applications of Process Sustainability
+
+- Section: 15.2 Sustainable Process Design:
+subsections:
+- 15.2a Introduction to Sustainable Process Design
+- 15.2b Sustainable Process Design Techniques
+- 15.2c Applications of Sustainable Process Design
+
+- Section: 15.3 Life Cycle Assessment:
+subsections:
+- 15.3a Definition of Life Cycle Assessment
+- 15.3b Life Cycle Assessment Techniques
+- 15.3c Applications of Life Cycle Assessment
+
+- Section: 15.4 Green Engineering:
+subsections:
+- 15.4a Introduction to Green Engineering
+- 15.4b Green Engineering Principles
+- 15.4c Applications of Green Engineering
+
+- Chapter 16: Process Simulation:
+sections:
+- Section: 16.1 Introduction to Process Simulation:
+subsections:
+- 16.1a Definition of Process Simulation
+- 16.1b Process Simulation Techniques
+- 16.1c Applications of Process Simulation
+
+- Section: 16.2 Steady-State Simulation:
+subsections:
+- 16.2a Introduction to Steady-State Simulation
+- 16.2b Steady-State Simulation Techniques
+- 16.2c Applications of Steady-State Simulation
+
+- Section: 16.3 Dynamic Simulation:
+subsections:
+- 16.3a Definition of Dynamic Simulation
+- 16.3b Dynamic Simulation Techniques
+- 16.3c Applications of Dynamic Simulation
+
+- Section: 16.4 Simulation Software:
+subsections:
+- 16.4a Introduction to Simulation Software
+- 16.4b Types of Simulation Software
+- 16.4c Applications of Simulation Software
+
+- Chapter 17: Process Design and Project Management:
+sections:
+- Section: 17.1 Introduction to Process Design and Project Management:
+subsections:
+- 17.1a Definition of Process Design and Project Management
+- 17.1b Process Design and Project Management Techniques
+- 17.1c Applications of Process Design and Project Management
+
+- Section: 17.2 Process Synthesis:
+subsections:
+- 17.2a Introduction to Process Synthesis
+- 17.2b Process Synthesis Techniques
+- 17.2c Applications of Process Synthesis
+
+- Section: 17.3 Project Planning and Scheduling:
+subsections:
+- 17.3a Definition of Project Planning and Scheduling
+- 17.3b Project Planning and Scheduling Techniques
+- 17.3c Applications of Project Planning and Scheduling
+
+- Section: 17.4 Project Risk Management:
+subsections:
+- 17.4a Introduction to Project Risk Management
+- 17.4b Project Risk Management Techniques
+- 17.4c Applications of Project Risk Management
+
+- Chapter 18: Process Troubleshooting and Debottlenecking:
+sections:
+- Section: 18.1 Introduction to Process Troubleshooting and Debottlenecking:
+subsections:
+- 18.1a Definition of Process Troubleshooting and Debottlenecking
+- 18.1b Process Troubleshooting and Debottlenecking Techniques
+- 18.1c Applications of Process Troubleshooting and Debottlenecking
+
+- Section: 18.2 Root Cause Analysis:
+subsections:
+- 18.2a Introduction to Root Cause Analysis
+- 18.2b Root Cause Analysis Techniques
+- 18.2c Applications of Root Cause Analysis
+
+- Section: 18.3 Process Monitoring and Control:
+subsections:
+- 18.3a Definition of Process Monitoring and Control
+- 18.3b Process Monitoring and Control Techniques
+- 18.3c Applications of Process Monitoring and Control
+
+- Section: 18.4 Process Optimization:
+subsections:
+- 18.4a Introduction to Process Optimization
+- 18.4b Process Optimization Techniques
+- 18.4c Applications of Process Optimization
+
+- Chapter 19: Process Equipment Design and Selection:
+sections:
+- Section: 19.1 Introduction to Process Equipment Design and Selection:
+subsections:
+- 19.1a Definition of Process Equipment Design and Selection
+- 19.1b Process Equipment Design and Selection Techniques
+- 19.1c Applications of Process Equipment Design and Selection
+
+- Section: 19.2 Equipment Sizing and Specification:
+subsections:
+- 19.2a Introduction to Equipment Sizing and Specification
+- 19.2b Equipment Sizing and Specification Techniques
+- 19.2c Applications of Equipment Sizing and Specification
+
+- Section: 19.3 Equipment Layout and Piping Design:
+subsections:
+- 19.3a Definition of Equipment Layout and Piping Design
+- 19.3b Equipment Layout and Piping Design Techniques
+- 19.3c Applications of Equipment Layout and Piping Design
+
+- Section: 19.4 Equipment Maintenance and Reliability:
+subsections:
+- 19.4a Introduction to Equipment Maintenance and Reliability
+- 19.4b Equipment Maintenance and Reliability Techniques
+- 19.4c Applications of Equipment Maintenance and Reliability
+
+- Chapter 20: Process Commissioning and Startup:
+sections:
+- Section: 20.1 Introduction to Process Commissioning and Startup:
+subsections:
+- 20.1a Definition of Process Commissioning and Startup
+- 20.1b Process Commissioning and Startup Techniques
+- 20.1c Applications of Process Commissioning and Startup
+
+- Section: 20.2 Pre-Startup Safety Review:
+subsections:
+- 20.2a Introduction to Pre-Startup Safety Review
+- 20.2b Pre-Startup Safety Review Techniques
+- 20.2c Applications of Pre-Startup Safety Review
+
+- Section: 20.3 Startup Procedures:
+subsections:
+- 20.3a Definition of Startup Procedures
+- 20.3b Startup Procedure Development
+- 20.3c Applications of Startup Procedures
+
+- Section: 20.4 Process Handover and Operation:
+subsections:
+- 20.4a Introduction to Process Handover and Operation
+- 20.4b Process Handover and Operation Techniques
+- 20.4c Applications of Process Handover and Operation

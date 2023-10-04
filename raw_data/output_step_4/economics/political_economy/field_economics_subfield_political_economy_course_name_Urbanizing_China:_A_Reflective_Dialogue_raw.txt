@@ -1,0 +1,121 @@
+textbook: 
+"Urbanizing China: A Reflective Dialogue Companion":
+
+chapters:
+- Chapter 1: Multiple Interpretations: Urbanization out of Sync:
+sections:
+- Section: 1.1 China's Great Uprooting: Moving 250 Million Into Cities
+- Section: 1.2 Pitfalls Abound in China's Push From Farm to City
+
+- Chapter 2: Is China an Outlier? China's Urbanization in the Historical and International Contexts:
+sections:
+- Section: 2.1 Introduction: Becoming Urban in China
+
+- Chapter 3: Fundamentals: Hukou and Migration:
+sections:
+- Section: 3.1 China's Urban Transition
+
+- Chapter 4: Land-use and Public Finance Institutions in China: An Overview:
+sections:
+- Section: 4.1 De-spatialize Land Transfer
+
+- Chapter 5: Land Quota Market in Chongqing and Chengdu: De-spatialize Land Transfer:
+sections:
+- Section: 5.1 Brownfields in Beijing Chemical Plant: How Cities Recycle Industrial Land
+
+- Chapter 6: Integrating the Proposed Property Tax with the Public Leasehold System:
+sections:
+- Section: 6.1 Module Summary; Student Presentations for Phase 1: Ideas
+- Section: 6.2 Dispersion of Urban Agglomeration through High Speed Rail
+
+- Chapter 7: Module Summary; Student Presentations for Phase 2: Proposals:
+sections:
+- Section: 7.1 Progress in Energy Efficiency: Technology, Policy and Market in China's Automobile Sectors
+- Section: 7.2 Financing Urban Access: Transportation, Form and Land Grabbing
+- Section: 7.3 Understanding and Untangling Complex Urban Issues through Emerging Big Data
+
+- Chapter 8: Module Summary; Student Presentations for Phase 3: Literature:
+sections:
+- Section: 8.1 Drifting and Getting Stuck: Migrants in Chinese Cities
+- Section: 8.2 Urbanization vs. Citizenization: Self-employed Migrants in Wangjingxi Market
+- Section: 8.3 Spatial Justice in Affordable Housing Design in Ningbo
+- Section: 8.4 Preserving Beijing's Spatial Tradition in Rapid Urban Development
+- Section: 8.5 Aging Society: Offering Care to the Elderly in the Confucius Society
+- Section: 8.6 Forging Greater Xi'an: New Regional Strategies and their Urban Outcomes
+- Section: 8.7 Social Housing in China—Explorations, Practices, and Dilemmas
+
+- Chapter 9: Course Summary; Student Presentations for Phase 4: Team Project:
+sections:
+- Section: 9.1 Project title
+- Section: 9.2 Highlights
+- Section: 9.3 Abstract
+- Section: 9.4 Keywords
+- Section: 9.5 Analysis of results and interpretation
+- Section: 9.6 Discussion
+- Section: 9.7 References
+
+- Chapter 10: Urban Planning and Development:
+sections:
+- Section: 10.1 Urban Planning Principles
+- Section: 10.2 Urban Development Strategies
+- Section: 10.3 Case Studies
+
+- Chapter 11: Urban Infrastructure and Public Services:
+sections:
+- Section: 11.1 Infrastructure Planning
+- Section: 11.2 Public Services Management
+- Section: 11.3 Case Studies
+
+- Chapter 12: Urban Environment and Sustainability:
+sections:
+- Section: 12.1 Environmental Challenges in Urban Areas
+- Section: 12.2 Urban Sustainability Strategies
+- Section: 12.3 Case Studies
+
+- Chapter 13: Urban Governance and Policy:
+sections:
+- Section: 13.1 Urban Governance Models
+- Section: 13.2 Urban Policy Formulation and Implementation
+- Section: 13.3 Case Studies
+
+- Chapter 14: Urban Economy and Labor Market:
+sections:
+- Section: 14.1 Urban Economic Development
+- Section: 14.2 Urban Labor Market Dynamics
+- Section: 14.3 Case Studies
+
+- Chapter 15: Urban Social Issues and Inequality:
+sections:
+- Section: 15.1 Social Issues in Urban Areas
+- Section: 15.2 Urban Inequality and Social Stratification
+- Section: 15.3 Case Studies
+
+- Chapter 16: Urban Culture and Lifestyle:
+sections:
+- Section: 16.1 Urban Culture and Identity
+- Section: 16.2 Urban Lifestyle and Consumption Patterns
+- Section: 16.3 Case Studies
+
+- Chapter 17: Urban Housing and Real Estate:
+sections:
+- Section: 17.1 Urban Housing Policies
+- Section: 17.2 Urban Real Estate Market
+- Section: 17.3 Case Studies
+
+- Chapter 18: Urban Transportation and Mobility:
+sections:
+- Section: 18.1 Urban Transportation Planning
+- Section: 18.2 Urban Mobility Patterns
+- Section: 18.3 Case Studies
+
+- Chapter 19: Urban Health and Well-being:
+sections:
+- Section: 19.1 Urban Health Issues
+- Section: 19.2 Urban Well-being and Quality of Life
+- Section: 19.3 Case Studies
+
+- Chapter 20: Future of Urbanization in China:
+sections:
+- Section: 20.1 Emerging Trends in Urbanization
+- Section: 20.2 Future Challenges and Opportunities
+- Section: 20.3 Case Studies

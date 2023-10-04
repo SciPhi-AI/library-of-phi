@@ -1,0 +1,423 @@
+textbook:
+  'Transportation Systems: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction: Context, Concepts, and Characterization:':
+        sections:
+        - '- Section: 1.1 Definition of Transportation Systems:':
+            subsections:
+            - 1.1a Importance of Transportation Systems
+            - 1.1b Types of Transportation Systems
+            - 1.1c Key Components of Transportation Systems
+        - '- Section: 1.2 Historical Evolution of Transportation Systems:':
+            subsections:
+            - 1.2a Early Transportation Systems
+            - 1.2b Modern Transportation Systems
+            - 1.2c Future Trends in Transportation Systems
+        - '- Section: 1.3 Role of Transportation Systems in Society:':
+            subsections:
+            - 1.3a Economic Impact of Transportation Systems
+            - 1.3b Social Impact of Transportation Systems
+            - 1.3c Environmental Impact of Transportation Systems
+        - '- Section: 1.4 Characteristics and Components of Transportation Systems:':
+            subsections:
+            - 1.4a Infrastructure Components
+            - 1.4b Vehicle Components
+            - 1.4c Operational Components
+    - '- Chapter 2: Transportation System Components: An Internal Perspective:':
+        sections:
+        - '- Section: 2.1 Infrastructure Components:':
+            subsections:
+            - 2.1a Road Infrastructure
+            - 2.1b Rail Infrastructure
+            - 2.1c Air and Sea Infrastructure
+        - '- Section: 2.2 Vehicle Components:':
+            subsections:
+            - 2.2a Land Vehicles
+            - 2.2b Air Vehicles
+            - 2.2c Sea Vehicles
+        - '- Section: 2.3 Operations Components:':
+            subsections:
+            - 2.3a Traffic Management
+            - 2.3b Logistics and Supply Chain Management
+            - 2.3c Maintenance and Repair Operations
+        - '- Section: 2.4 Maintenance Components:':
+            subsections:
+            - 2.4a Preventive Maintenance
+            - 2.4b Corrective Maintenance
+            - 2.4c Predictive Maintenance
+    - '- Chapter 3: Transportation System Components: An External Perspective:':
+        sections:
+        - '- Section: 3.1 Economic Factors:':
+            subsections:
+            - 3.1a Impact on Economy
+            - 3.1b Economic Challenges
+            - 3.1c Economic Opportunities
+        - '- Section: 3.2 Social Factors:':
+            subsections:
+            - 3.2a Impact on Society
+            - 3.2b Social Challenges
+            - 3.2c Social Opportunities
+        - '- Section: 3.3 Environmental Factors:':
+            subsections:
+            - 3.3a Impact on Environment
+            - 3.3b Environmental Challenges
+            - 3.3c Environmental Opportunities
+        - '- Section: 3.4 Legal and Regulatory Factors:':
+            subsections:
+            - 3.4a Legal Framework
+            - 3.4b Regulatory Challenges
+            - 3.4c Regulatory Opportunities
+    - '- Chapter 4: The Customer and Level-of-Service:':
+        sections:
+        - '- Section: 4.1 Customer Expectations in Transportation Systems:':
+            subsections:
+            - 4.1a Understanding Customer Needs
+            - 4.1b Meeting Customer Expectations
+            - 4.1c Improving Customer Satisfaction
+        - '- Section: 4.2 Measurement of Level-of-Service:':
+            subsections:
+            - 4.2a Key Performance Indicators
+            - 4.2b Benchmarking
+            - 4.2c Continuous Improvement
+        - '- Section: 4.3 Factors Affecting Level-of-Service:':
+            subsections:
+            - 4.3a Infrastructure Factors
+            - 4.3b Operational Factors
+            - 4.3c External Factors
+        - '- Section: 4.4 Improving Level-of-Service:':
+            subsections:
+            - 4.4a Process Improvement
+            - 4.4b Technology Adoption
+            - 4.4c Staff Training and Development
+    - '- Chapter 5: Models and Frameworks:':
+        sections:
+        - '- Section: 5.1 Transportation System Modeling:':
+            subsections:
+            - 5.1a Types of Models
+            - 5.1b Model Development
+            - 5.1c Model Validation and Verification
+        - '- Section: 5.2 Frameworks for Analyzing Transportation Systems:':
+            subsections:
+            - 5.2a Analytical Frameworks
+            - 5.2b Simulation Frameworks
+            - 5.2c Decision Support Frameworks
+        - '- Section: 5.3 Mathematical Models for Transportation Systems:':
+            subsections:
+            - 5.3a Optimization Models
+            - 5.3b Stochastic Models
+            - 5.3c Dynamic Models
+    - '- Chapter 6: Rail Freight:':
+        sections:
+        - '- Section: 6.1 Role of Rail Freight in Transportation Systems:':
+            subsections:
+            - 6.1a Importance of Rail Freight
+            - 6.1b Advantages of Rail Freight
+            - 6.1c Challenges in Rail Freight
+        - '- Section: 6.2 Rail Freight Infrastructure:':
+            subsections:
+            - 6.2a Rail Tracks
+            - 6.2b Rail Stations
+            - 6.2c Rail Terminals
+        - '- Section: 6.3 Operations and Management of Rail Freight:':
+            subsections:
+            - 6.3a Rail Freight Operations
+            - 6.3b Rail Freight Management
+            - 6.3c Rail Freight Safety and Security
+        - '- Section: 6.4 Challenges and Opportunities in Rail Freight:':
+            subsections:
+            - 6.4a Economic Challenges
+            - 6.4b Technological Challenges
+            - 6.4c Opportunities for Innovation
+    - '- Chapter 7: The Logistics System and Freight Level-of-Service:':
+        sections:
+        - '- Section: 7.1 Supply Chain Management:':
+            subsections:
+            - 7.1a Role of Transportation in Supply Chain
+            - 7.1b Supply Chain Optimization
+            - 7.1c Supply Chain Risk Management
+        - '- Section: 7.2 Freight Transportation in Logistics Systems:':
+            subsections:
+            - 7.2a Types of Freight Transportation
+            - 7.2b Freight Transportation Planning
+            - 7.2c Freight Transportation Execution
+        - '- Section: 7.3 Level-of-Service in Freight Transportation:':
+            subsections:
+            - 7.3a Key Performance Indicators
+            - 7.3b Benchmarking
+            - 7.3c Continuous Improvement
+        - '- Section: 7.4 Improving Freight Level-of-Service:':
+            subsections:
+            - 7.4a Process Improvement
+            - 7.4b Technology Adoption
+            - 7.4c Staff Training and Development
+    - '- Chapter 8: Networks:':
+        sections:
+        - '- Section: 8.1 Transportation Network Design:':
+            subsections:
+            - 8.1a Network Planning
+            - 8.1b Network Design
+            - 8.1c Network Optimization
+        - '- Section: 8.2 Network Topology and Connectivity:':
+            subsections:
+            - 8.2a Network Topology
+            - 8.2b Network Connectivity
+            - 8.2c Network Resilience
+        - '- Section: 8.3 Network Performance Evaluation:':
+            subsections:
+            - 8.3a Performance Metrics
+            - 8.3b Performance Monitoring
+            - 8.3c Performance Improvement
+        - '- Section: 8.4 Optimization of Transportation Networks:':
+            subsections:
+            - 8.4a Network Optimization Techniques
+            - 8.4b Case Studies in Network Optimization
+            - 8.4c Future Trends in Network Optimization
+    - '- Chapter 9: Article for Discussion:':
+        sections:
+        - '- Section: 9.1 Recent Developments in Transportation Systems:':
+            subsections:
+            - 9.1a Technological Developments
+            - 9.1b Policy Developments
+            - 9.1c Market Developments
+        - '- Section: 9.2 Case Studies in Transportation Systems:':
+            subsections:
+            - 9.2a Case Study 1
+            - 9.2b Case Study 2
+            - 9.2c Case Study 3
+        - '- Section: 9.3 Emerging Technologies in Transportation Systems:':
+            subsections:
+            - 9.3a Autonomous Vehicles
+            - 9.3b Drones for Delivery
+            - 9.3c Hyperloop and Other Innovations
+    - '- Chapter 10: Transportation Systems: 30 Key Points:':
+        sections:
+        - '- Section: 10.1 Key Concepts and Principles in Transportation Systems:':
+            subsections:
+            - 10.1a Key Concept 1
+            - 10.1b Key Concept 2
+            - 10.1c Key Concept 3
+        - '- Section: 10.2 Challenges and Solutions in Transportation Systems:':
+            subsections:
+            - 10.2a Challenge 1 and Its Solution
+            - 10.2b Challenge 2 and Its Solution
+            - 10.2c Challenge 3 and Its Solution
+        - '- Section: 10.3 Future Trends in Transportation Systems:':
+            subsections:
+            - 10.3a Trend 1
+            - 10.3b Trend 2
+            - 10.3c Trend 3
+    - '- Chapter 11: Urban Transportation Systems:':
+        sections:
+        - '- Section: 11.1 Urban Transportation Planning:':
+            subsections:
+            - 11.1a Urban Transportation Needs
+            - 11.1b Urban Transportation Planning Process
+            - 11.1c Urban Transportation Policies
+        - '- Section: 11.2 Urban Public Transportation Systems:':
+            subsections:
+            - 11.2a Bus Systems
+            - 11.2b Metro Systems
+            - 11.2c Tram and Light Rail Systems
+        - '- Section: 11.3 Urban Freight Transportation:':
+            subsections:
+            - 11.3a Urban Freight Needs
+            - 11.3b Urban Freight Operations
+            - 11.3c Urban Freight Policies
+        - '- Section: 11.4 Challenges and Opportunities in Urban Transportation:':
+            subsections:
+            - 11.4a Urban Congestion
+            - 11.4b Urban Air Quality
+            - 11.4c Urban Mobility
+    - '- Chapter 12: Intermodal Transportation Systems:':
+        sections:
+        - '- Section: 12.1 Concept of Intermodal Transportation:':
+            subsections:
+            - 12.1a Definition of Intermodal Transportation
+            - 12.1b Benefits of Intermodal Transportation
+            - 12.1c Challenges in Intermodal Transportation
+        - '- Section: 12.2 Intermodal Freight Transportation:':
+            subsections:
+            - 12.2a Intermodal Freight Terminals
+            - 12.2b Intermodal Freight Operations
+            - 12.2c Intermodal Freight Policies
+        - '- Section: 12.3 Intermodal Passenger Transportation:':
+            subsections:
+            - 12.3a Intermodal Passenger Terminals
+            - 12.3b Intermodal Passenger Operations
+            - 12.3c Intermodal Passenger Policies
+        - '- Section: 12.4 Future Trends in Intermodal Transportation:':
+            subsections:
+            - 12.4a Technological Trends
+            - 12.4b Market Trends
+            - 12.4c Policy Trends
+    - '- Chapter 13: Transportation Safety and Security:':
+        sections:
+        - '- Section: 13.1 Transportation Safety:':
+            subsections:
+            - 13.1a Safety Issues in Transportation
+            - 13.1b Safety Measures in Transportation
+            - 13.1c Safety Policies in Transportation
+        - '- Section: 13.2 Transportation Security:':
+            subsections:
+            - 13.2a Security Threats in Transportation
+            - 13.2b Security Measures in Transportation
+            - 13.2c Security Policies in Transportation
+        - '- Section: 13.3 Emergency Response in Transportation:':
+            subsections:
+            - 13.3a Emergency Situations in Transportation
+            - 13.3b Emergency Response Planning
+            - 13.3c Emergency Response Operations
+        - '- Section: 13.4 Future Trends in Transportation Safety and Security:':
+            subsections:
+            - 13.4a Technological Trends
+            - 13.4b Policy Trends
+            - 13.4c Market Trends
+    - '- Chapter 14: Transportation and the Environment:':
+        sections:
+        - '- Section: 14.1 Environmental Impact of Transportation:':
+            subsections:
+            - 14.1a Air Pollution from Transportation
+            - 14.1b Noise Pollution from Transportation
+            - 14.1c Land Use Impact of Transportation
+        - '- Section: 14.2 Sustainable Transportation:':
+            subsections:
+            - 14.2a Concept of Sustainable Transportation
+            - 14.2b Sustainable Transportation Measures
+            - 14.2c Sustainable Transportation Policies
+        - '- Section: 14.3 Green Transportation Technologies:':
+            subsections:
+            - 14.3a Electric Vehicles
+            - 14.3b Biofuels
+            - 14.3c Hydrogen Fuel Cells
+        - '- Section: 14.4 Future Trends in Green Transportation:':
+            subsections:
+            - 14.4a Technological Trends
+            - 14.4b Market Trends
+            - 14.4c Policy Trends
+    - '- Chapter 15: Transportation Economics:':
+        sections:
+        - '- Section: 15.1 Economic Impact of Transportation:':
+            subsections:
+            - 15.1a Transportation and Economic Growth
+            - 15.1b Transportation and Employment
+            - 15.1c Transportation and Trade
+        - '- Section: 15.2 Transportation Pricing:':
+            subsections:
+            - 15.2a Pricing Principles in Transportation
+            - 15.2b Pricing Policies in Transportation
+            - 15.2c Pricing Challenges in Transportation
+        - '- Section: 15.3 Transportation Financing:':
+            subsections:
+            - 15.3a Sources of Transportation Funding
+            - 15.3b Transportation Investment Decision Making
+            - 15.3c Public-Private Partnerships in Transportation
+        - '- Section: 15.4 Future Trends in Transportation Economics:':
+            subsections:
+            - 15.4a Technological Trends
+            - 15.4b Market Trends
+            - 15.4c Policy Trends
+    - '- Chapter 16: Transportation Policy and Regulation:':
+        sections:
+        - '- Section: 16.1 Transportation Policy:':
+            subsections:
+            - 16.1a Role of Policy in Transportation
+            - 16.1b Transportation Policy Making Process
+            - 16.1c Key Transportation Policies
+        - '- Section: 16.2 Transportation Regulation:':
+            subsections:
+            - 16.2a Role of Regulation in Transportation
+            - 16.2b Transportation Regulatory Agencies
+            - 16.2c Key Transportation Regulations
+        - '- Section: 16.3 Transportation Legislation:':
+            subsections:
+            - 16.3a Role of Legislation in Transportation
+            - 16.3b Transportation Legislative Process
+            - 16.3c Key Transportation Laws
+        - '- Section: 16.4 Future Trends in Transportation Policy and Regulation:':
+            subsections:
+            - 16.4a Technological Trends
+            - 16.4b Market Trends
+            - 16.4c Policy Trends
+    - '- Chapter 17: Transportation Technology and Innovation:':
+        sections:
+        - '- Section: 17.1 Role of Technology in Transportation:':
+            subsections:
+            - 17.1a Technological Innovations in Transportation
+            - 17.1b Impact of Technology on Transportation
+            - 17.1c Challenges in Adopting New Technologies
+        - '- Section: 17.2 Intelligent Transportation Systems:':
+            subsections:
+            - 17.2a Concept of Intelligent Transportation Systems
+            - 17.2b Applications of Intelligent Transportation Systems
+            - 17.2c Challenges in Implementing Intelligent Transportation Systems
+        - '- Section: 17.3 Future Transportation Technologies:':
+            subsections:
+            - 17.3a Autonomous Vehicles
+            - 17.3b Drones for Delivery
+            - 17.3c Hyperloop and Other Innovations
+        - '- Section: 17.4 Future Trends in Transportation Technology and Innovation:':
+            subsections:
+            - 17.4a Technological Trends
+            - 17.4b Market Trends
+            - 17.4c Policy Trends
+    - '- Chapter 18: Transportation Management and Operations:':
+        sections:
+        - '- Section: 18.1 Transportation Management:':
+            subsections:
+            - 18.1a Role of Management in Transportation
+            - 18.1b Transportation Management Functions
+            - 18.1c Transportation Management Challenges
+        - '- Section: 18.2 Transportation Operations:':
+            subsections:
+            - 18.2a Role of Operations in Transportation
+            - 18.2b Transportation Operations Functions
+            - 18.2c Transportation Operations Challenges
+        - '- Section: 18.3 Transportation Performance Measurement:':
+            subsections:
+            - 18.3a Role of Performance Measurement in Transportation
+            - 18.3b Key Performance Indicators in Transportation
+            - 18.3c Challenges in Transportation Performance Measurement
+        - '- Section: 18.4 Future Trends in Transportation Management and Operations:':
+            subsections:
+            - 18.4a Technological Trends
+            - 18.4b Market Trends
+            - 18.4c Policy Trends
+    - '- Chapter 19: Transportation Research and Education:':
+        sections:
+        - '- Section: 19.1 Transportation Research:':
+            subsections:
+            - 19.1a Role of Research in Transportation
+            - 19.1b Transportation Research Methods
+            - 19.1c Transportation Research Institutions
+        - '- Section: 19.2 Transportation Education:':
+            subsections:
+            - 19.2a Role of Education in Transportation
+            - 19.2b Transportation Education Programs
+            - 19.2c Transportation Education Challenges
+        - '- Section: 19.3 Future Trends in Transportation Research and Education:':
+            subsections:
+            - 19.3a Technological Trends
+            - 19.3b Market Trends
+            - 19.3c Policy Trends
+    - '- Chapter 20: Conclusion: The Future of Transportation Systems:':
+        sections:
+        - '- Section: 20.1 Key Takeaways:':
+            subsections:
+            - 20.1a Key Takeaway 1
+            - 20.1b Key Takeaway 2
+            - 20.1c Key Takeaway 3
+        - '- Section: 20.2 Future Trends in Transportation Systems:':
+            subsections:
+            - 20.2a Technological Trends
+            - 20.2b Market Trends
+            - 20.2c Policy Trends
+        - '- Section: 20.3 Challenges and Opportunities in Transportation Systems:':
+            subsections:
+            - 20.3a Challenge 1 and Its Opportunity
+            - 20.3b Challenge 2 and Its Opportunity
+            - 20.3c Challenge 3 and Its Opportunity
+        - '- Section: 20.4 Final Thoughts:':
+            subsections:
+            - 20.4a Reflection on the Past and Present of Transportation Systems
+            - 20.4b Vision for the Future of Transportation Systems
+            - 20.4c Call to Action for Transportation Professionals

@@ -1,0 +1,344 @@
+textbook: 
+"Monopoly Pricing and Durable Goods":
+
+chapters:
+- Chapter 1: Monopoly Pricing and Durable Goods:
+sections:
+- Section: 1.1 Monopoly Pricing:
+subsections:
+- 1.1a Definition and Characteristics of Monopoly
+- 1.1b Monopoly Power and Pricing Strategies
+
+- Section: 1.2 Durable Goods:
+subsections:
+- 1.2a Introduction to Durable Goods
+- 1.2b Pricing Strategies for Durable Goods
+- 1.2c Consumer Behavior and Demand for Durable Goods
+
+- Chapter 2: Price Discrimination:
+sections:
+- Section: 2.1 First-degree Price Discrimination:
+subsections:
+- 2.1a Concept and Conditions for First-degree Price Discrimination
+- 2.1b Pricing Strategies and Revenue Maximization in First-degree Price Discrimination
+
+- Section: 2.2 Second-degree Price Discrimination:
+subsections:
+- 2.2a Types and Applications of Second-degree Price Discrimination
+- 2.2b Pricing Strategies and Revenue Maximization in Second-degree Price Discrimination
+
+- Section: 2.3 Third-degree Price Discrimination:
+subsections:
+- 2.3a Types and Examples of Third-degree Price Discrimination
+- 2.3b Pricing Strategies and Revenue Maximization in Third-degree Price Discrimination
+
+- Chapter 3: Static Competition and Models of Differentiation:
+sections:
+- Section: 3.1 Cournot Duopoly:
+subsections:
+- 3.1a Introduction to Cournot Duopoly
+- 3.1b Equilibrium and Output Determination in Cournot Duopoly
+
+- Section: 3.2 Bertrand Duopoly:
+subsections:
+- 3.2a Introduction to Bertrand Duopoly
+- 3.2b Equilibrium and Price Competition in Bertrand Duopoly
+
+- Section: 3.3 Product Differentiation Models:
+subsections:
+- 3.3a Types and Examples of Product Differentiation
+- 3.3b Pricing Strategies and Market Outcomes in Product Differentiation Models
+
+- Chapter 4: Dynamic Competition:
+sections:
+- Section: 4.1 Stackelberg Model:
+subsections:
+- 4.1a Introduction to Stackelberg Model
+- 4.1b Leader-Follower Equilibrium and Output Determination in Stackelberg Model
+
+- Section: 4.2 Investment and Entry Deterrence:
+subsections:
+- 4.2a Strategic Investment and Entry Deterrence Strategies
+- 4.2b Real Options Analysis and Decision-making in Dynamic Competition
+
+- Section: 4.3 Limit Pricing:
+subsections:
+- 4.3a Concept and Application of Limit Pricing
+- 4.3b Pricing Strategies and Market Entry Deterrence through Limit Pricing
+
+- Chapter 5: Search:
+sections:
+- Section: 5.1 Search Theory:
+subsections:
+- 5.1a Introduction to Search Theory
+- 5.1b Equilibrium and Optimal Search Strategies
+
+- Section: 5.2 Consumer Search:
+subsections:
+- 5.2a Consumer Information Search Behavior
+- 5.2b Implications of Consumer Search for Pricing and Market Competition
+
+- Section: 5.3 Job Search:
+subsections:
+- 5.3a Models of Job Search
+- 5.3b Labor Market Outcomes and Policy Implications of Job Search
+
+- Chapter 6: Networks and Two-Sided Markets:
+sections:
+- Section: 6.1 Network Effects:
+subsections:
+- 6.1a Types and Examples of Network Effects
+- 6.1b Pricing Strategies and Market Dynamics in Network Industries
+
+- Section: 6.2 Market Platforms:
+subsections:
+- 6.2a Characteristics and Business Models of Market Platforms
+- 6.2b Pricing and Competitive Strategies in Platform Markets
+
+- Section: 6.3 Multi-sided Markets:
+subsections:
+- 6.3a Structure and Economics of Multi-sided Markets
+- 6.3b Pricing and Market Design in Multi-sided Markets
+
+- Chapter 7: Entry:
+sections:
+- Section: 7.1 Barriers to Entry:
+subsections:
+- 7.1a Types and Examples of Barriers to Entry
+- 7.1b Implications for Market Competition and Entry Strategies
+
+- Section: 7.2 Contestable Markets:
+subsections:
+- 7.2a Theory and Conditions for Contestable Markets
+- 7.2b Pricing Strategies and Market Outcomes in Contestable Markets
+
+- Section: 7.3 Entry Deterrence Strategies:
+subsections:
+- 7.3a Types and Examples of Entry Deterrence Strategies
+- 7.3b Strategic Behavior and Market Entry Prevention
+
+- Section: 7.4 Market Entry and Exit:
+subsections:
+- 7.4a Market Entry Decision-making and Strategic Considerations
+- 7.4b Factors Influencing Market Exit and Firm Survival
+
+- Chapter 8: Strategic Investment:
+sections:
+- Section: 8.1 Real Options:
+subsections:
+- 8.1a Introduction to Real Options Analysis
+- 8.1b Strategic Investment and Decision-making under Uncertainty
+
+- Section: 8.2 Strategic Commitment:
+subsections:
+- 8.2a Types and Examples of Strategic Commitment
+- 8.2b Implications for Market Competition and Firm Strategy
+
+- Section: 8.3 Preemption:
+subsections:
+- 8.3a Preemptive Strategies and First-mover Advantage
+- 8.3b Game-theoretic Models and Preemptive Behavior
+
+- Chapter 9: Predation and Limit Pricing:
+sections:
+- Section: 9.1 Predatory Pricing:
+subsections:
+- 9.1a Definition and Characteristics of Predatory Pricing
+- 9.1b Legal and Economic Perspectives on Predatory Pricing
+
+- Section: 9.2 Limit Pricing:
+subsections:
+- 9.2a Concept and Application of Limit Pricing
+- 9.2b Strategic Pricing and Market Entry Deterrence through Limit Pricing
+
+- Section: 9.3 Strategic Pricing:
+subsections:
+- 9.3a Pricing Strategies and Competitive Behavior in Oligopolistic Markets
+- 9.3b Collusion and Non-price Competition in Strategic Pricing
+
+- Chapter 10: Auctions:
+sections:
+- Section: 10.1 Auction Types:
+subsections:
+- 10.1a Classification and Characteristics of Auctions
+- 10.1b Bidding Strategies and Auction Outcomes
+
+- Section: 10.2 Auction Strategies:
+subsections:
+- 10.2a Types and Examples of Auction Strategies
+- 10.2b Strategic Behavior and Revenue Maximization in Auctions
+
+- Section: 10.3 Auction Design:
+subsections:
+- 10.3a Principles and Considerations in Auction Design
+- 10.3b Efficiency and Market Performance in Auction Markets
+
+- Chapter 11: Bounded Rationality:
+sections:
+- Section: 11.1 Behavioral Economics:
+subsections:
+- 11.1a Introduction to Behavioral Economics
+- 11.1b Decision-making Biases and Heuristics
+
+- Section: 11.2 Bounded Rationality Models:
+subsections:
+- 11.2a Models of Bounded Rationality and Decision-making
+- 11.2b Implications for Market Behavior and Economic Outcomes
+
+- Section: 11.3 Heuristics and Biases:
+subsections:
+- 11.3a Cognitive Heuristics and Biases in Decision-making
+- 11.3b Behavioral Insights and Economic Policy
+
+- Chapter 12: Advertising:
+sections:
+- Section: 12.1 Advertising and Market Power:
+subsections:
+- 12.1a Role and Impact of Advertising on Market Power
+- 12.1b Pricing and Competitive Strategies in Advertising-intensive Industries
+
+- Section: 12.2 Persuasive Advertising:
+subsections:
+- 12.2a Techniques and Effects of Persuasive Advertising
+- 12.2b Consumer Behavior and Response to Persuasive Advertising
+
+- Section: 12.3 Informational Advertising:
+subsections:
+- 12.3a Types and Objectives of Informational Advertising
+- 12.3b Market Information and Consumer Decision-making
+
+- Chapter 13: Patents and Technology Diffusion:
+sections:
+- Section: 13.1 Patent System:
+subsections:
+- 13.1a Introduction to Patent System and Intellectual Property Rights
+- 13.1b Patent Protection and Incentives for Innovation
+
+- Section: 13.2 Innovation and Diffusion:
+subsections:
+- 13.2a Models of Innovation and Technology Diffusion
+- 13.2b Economic Impacts of Innovation and Diffusion
+
+- Section: 13.3 Intellectual Property Rights:
+subsections:
+- 13.3a Types and Enforcement of Intellectual Property Rights
+- 13.3b Policy Considerations and Market Effects of Intellectual Property Rights
+
+- Chapter 14: Market Structure and Competition:
+sections:
+- Section: 14.1 Market Structure:
+subsections:
+- 14.1a Types of Market Structures
+- 14.1b Impact of Market Structure on Pricing and Output
+
+- Section: 14.2 Competitive Behavior:
+subsections:
+- 14.2a Models of Competitive Behavior
+- 14.2b Impact of Competitive Behavior on Market Outcomes
+
+- Section: 14.3 Market Concentration:
+subsections:
+- 14.3a Measures of Market Concentration
+- 14.3b Impact of Market Concentration on Competition and Pricing
+
+- Chapter 15: Game Theory and Strategic Behavior:
+sections:
+- Section: 15.1 Game Theory:
+subsections:
+- 15.1a Introduction to Game Theory
+- 15.1b Applications of Game Theory in Economics
+
+- Section: 15.2 Strategic Behavior:
+subsections:
+- 15.2a Models of Strategic Behavior
+- 15.2b Impact of Strategic Behavior on Market Outcomes
+
+- Section: 15.3 Nash Equilibrium:
+subsections:
+- 15.3a Concept and Calculation of Nash Equilibrium
+- 15.3b Applications of Nash Equilibrium in Economics
+
+- Chapter 16: Market Failure and Government Intervention:
+sections:
+- Section: 16.1 Market Failure:
+subsections:
+- 16.1a Causes and Types of Market Failure
+- 16.1b Economic and Social Consequences of Market Failure
+
+- Section: 16.2 Government Intervention:
+subsections:
+- 16.2a Rationale for Government Intervention in Markets
+- 16.2b Effects of Government Intervention on Market Outcomes
+
+- Section: 16.3 Regulation and Deregulation:
+subsections:
+- 16.3a Role and Impact of Regulation on Market Competition
+- 16.3b Effects of Deregulation on Market Competition and Efficiency
+
+- Chapter 17: International Trade and Competition:
+sections:
+- Section: 17.1 International Trade:
+subsections:
+- 17.1a Theories and Models of International Trade
+- 17.1b Impact of International Trade on Domestic Markets
+
+- Section: 17.2 Trade Policies:
+subsections:
+- 17.2a Types and Effects of Trade Policies
+- 17.2b Impact of Trade Policies on Domestic and International Competition
+
+- Section: 17.3 Globalization and Competition:
+subsections:
+- 17.3a Impact of Globalization on Market Competition
+- 17.3b Strategies for Competing in Global Markets
+
+- Chapter 18: Economic Policy and Market Competition:
+sections:
+- Section: 18.1 Economic Policy:
+subsections:
+- 18.1a Role of Economic Policy in Shaping Market Competition
+- 18.1b Impact of Economic Policy on Market Outcomes
+
+- Section: 18.2 Fiscal and Monetary Policy:
+subsections:
+- 18.2a Role and Impact of Fiscal Policy on Market Competition
+- 18.2b Role and Impact of Monetary Policy on Market Competition
+
+- Section: 18.3 Trade Policy:
+subsections:
+- 18.3a Role and Impact of Trade Policy on Market Competition
+- 18.3b Impact of Trade Policy on Domestic and International Markets
+
+- Chapter 19: Market Power and Antitrust Policy:
+sections:
+- Section: 19.1 Market Power:
+subsections:
+- 19.1a Definition and Measurement of Market Power
+- 19.1b Impact of Market Power on Market Competition and Efficiency
+
+- Section: 19.2 Antitrust Policy:
+subsections:
+- 19.2a Role and Impact of Antitrust Policy on Market Competition
+- 19.2b Major Antitrust Laws and Their Enforcement
+
+- Section: 19.3 Mergers and Acquisitions:
+subsections:
+- 19.3a Role and Impact of Mergers and Acquisitions on Market Competition
+- 19.3b Antitrust Issues in Mergers and Acquisitions
+
+- Chapter 20: Economic Analysis of Law:
+sections:
+- Section: 20.1 Law and Economics:
+subsections:
+- 20.1a Introduction to Law and Economics
+- 20.1b Economic Analysis of Legal Rules and Institutions
+
+- Section: 20.2 Property Rights:
+subsections:
+- 20.2a Economic Analysis of Property Rights
+- 20.2b Impact of Property Rights on Market Competition and Efficiency
+
+- Section: 20.3 Contract Law:
+subsections:
+- 20.3a Economic Analysis of Contract Law
+- 20.3b Impact of Contract Law on Market Transactions and Outcomes

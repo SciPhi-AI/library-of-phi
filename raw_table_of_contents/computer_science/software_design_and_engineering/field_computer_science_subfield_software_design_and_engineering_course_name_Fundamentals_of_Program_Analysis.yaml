@@ -1,0 +1,298 @@
+textbook:
+  'Fundamentals of Program Analysis Textbook":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Introduction to Functional Programming and Types:':
+            subsections:
+            - 1.1a Basics of Functional Programming
+            - 1.1b Types in Functional Programming
+            - 1.1c Type Inference
+        - '- Section: 1.2 Lambda Calculus:':
+            subsections:
+            - 1.2a Introduction to Lambda Calculus
+            - 1.2b Lambda Calculus Expressions
+            - 1.2c Lambda Calculus Evaluation
+        - '- Section: 1.3 Big-Step vs. Small-Step Semantics and the Let Calculus:':
+            subsections:
+            - 1.3a Big-Step Semantics
+            - 1.3b Small-Step Semantics
+            - 1.3c The Let Calculus
+        - '- Section: 1.4 Coq Crash Course:':
+            subsections:
+            - 1.4a Introduction to Coq
+            - 1.4b Coq Syntax and Semantics
+            - 1.4c Proving Theorems in Coq
+    - '- Chapter 2: Type Theory:':
+        sections:
+        - '- Section: 2.1 Introduction to Simple Types:':
+            subsections:
+            - 2.1a Definition of Simple Types
+            - 2.1b Simple Type Inference
+            - 2.1c Simple Type Applications
+        - '- Section: 2.2 Hindley-Milner Type Inference and Polymorphic Types:':
+            subsections:
+            - 2.2a Introduction to Hindley-Milner Type Inference
+            - 2.2b Polymorphic Types
+            - 2.2c Hindley-Milner Type Inference Algorithm
+        - '- Section: 2.3 Algebraic Data Types & Their Ingredients: Product, Sum, and Recursive Types:':
+            subsections:
+            - 2.3a Definition of Algebraic Data Types
+            - 2.3b Product, Sum, and Recursive Types
+            - 2.3c Applications of Algebraic Data Types
+        - '- Section: 2.4 Type Classes and Subtyping:':
+            subsections:
+            - 2.4a Introduction to Type Classes
+            - 2.4b Subtyping
+            - 2.4c Type Classes and Subtyping in Practice
+    - '- Chapter 3: Monads:':
+        sections:
+        - '- Section: 3.1 Typing of Imperative Programs:':
+            subsections:
+            - 3.1a Introduction to Typing in Imperative Programs
+            - 3.1b Type Checking in Imperative Programs
+            - 3.1c Type Inference in Imperative Programs
+        - '- Section: 3.2 Verification of Complex Properties with Types: From Information Flow to Race Detection:':
+            subsections:
+            - 3.2a Introduction to Verification of Complex Properties
+            - 3.2b Information Flow Analysis
+            - 3.2c Race Detection
+    - '- Chapter 4: Axiomatic Semantics:':
+        sections:
+        - '- Section: 4.1 Intro to Axiomatic Semantics:':
+            subsections:
+            - 4.1a Definition of Axiomatic Semantics
+            - 4.1b Axiomatic Semantics in Practice
+            - 4.1c Limitations of Axiomatic Semantics
+        - '- Section: 4.2 Verification Condition Generation:':
+            subsections:
+            - 4.2a Introduction to Verification Condition Generation
+            - 4.2b Verification Condition Generation Techniques
+            - 4.2c Applications of Verification Condition Generation
+        - '- Section: 4.3 Total Correctness and Termination:':
+            subsections:
+            - 4.3a Definition of Total Correctness
+            - 4.3b Termination Analysis
+            - 4.3c Total Correctness and Termination in Practice
+    - '- Chapter 5: Separation Logic:':
+        sections:
+        - '- Section: 5.1 Separation Logic:':
+            subsections:
+            - 5.1a Introduction to Separation Logic
+            - 5.1b Separation Logic in Practice
+            - 5.1c Limitations of Separation Logic
+        - '- Section: 5.2 Axiomatic Semantics for Concurrency: Rely-Guarantee & Concurrent Separation Logic:':
+            subsections:
+            - 5.2a Introduction to Axiomatic Semantics for Concurrency
+            - 5.2b Rely-Guarantee Reasoning
+            - 5.2c Concurrent Separation Logic
+    - '- Chapter 6: Dataflow Analysis and Abstract Interpretation:':
+        sections:
+        - '- Section: 6.1 Dataflow Analysis, Lattices, Fixed Points:':
+            subsections:
+            - 6.1a Introduction to Dataflow Analysis
+            - 6.1b Lattices in Dataflow Analysis
+            - 6.1c Fixed Points in Dataflow Analysis
+        - '- Section: 6.2 Abstract Interpretation, Galois Connections:':
+            subsections:
+            - 6.2a Introduction to Abstract Interpretation
+            - 6.2b Galois Connections in Abstract Interpretation
+            - 6.2c Abstract Interpretation in Practice
+        - '- Section: 6.3 The Heap: Inferring Loop Invariants about Data Structure Shape:':
+            subsections:
+            - 6.3a Introduction to Heap Analysis
+            - 6.3b Inferring Loop Invariants
+            - 6.3c Heap Analysis in Practice
+    - '- Chapter 7: Models and Properties:':
+        sections:
+        - '- Section: 7.1 Intro to Models and Properties:':
+            subsections:
+            - 7.1a Definition of Models and Properties
+            - 7.1b Models and Properties in Practice
+            - 7.1c Limitations of Models and Properties
+        - '- Section: 7.2 Temporal Logic:':
+            subsections:
+            - 7.2a Introduction to Temporal Logic
+            - 7.2b Temporal Logic in Practice
+            - 7.2c Limitations of Temporal Logic
+    - '- Chapter 8: Model Checking:':
+        sections:
+        - '- Section: 8.1 Explicit State Model Checking:':
+            subsections:
+            - 8.1a Introduction to Explicit State Model Checking
+            - 8.1b Explicit State Model Checking in Practice
+            - 8.1c Limitations of Explicit State Model Checking
+        - '- Section: 8.2 Symbolic Model Checking:':
+            subsections:
+            - 8.2a Introduction to Symbolic Model Checking
+            - 8.2b Symbolic Model Checking in Practice
+            - 8.2c Limitations of Symbolic Model Checking
+        - '- Section: 8.3 Software Model Checking with Abstraction Refinement:':
+            subsections:
+            - 8.3a Introduction to Software Model Checking
+            - 8.3b Abstraction Refinement in Software Model Checking
+            - 8.3c Software Model Checking in Practice
+        - '- Section: 8.4 From Model Checking to Synthesis:':
+            subsections:
+            - 8.4a Introduction to Synthesis
+            - 8.4b From Model Checking to Synthesis
+            - 8.4c Synthesis in Practice
+    - '- Chapter 9: Assignments:':
+        sections:
+        - '- Section: 9.1 Problem Sets and Supporting Files:':
+            subsections:
+            - 9.1a Introduction to Problem Sets
+            - 9.1b Supporting Files for Problem Sets
+            - 9.1c Problem Set Submission and Grading
+    - '- Chapter 10: Exams:':
+        sections:
+        - '- Section: 10.1 Midterm Exam:':
+            subsections:
+            - 10.1a Midterm Exam Format
+            - 10.1b Midterm Exam Preparation
+            - 10.1c Midterm Exam Grading
+        - '- Section: 10.2 Final Exam:':
+            subsections:
+            - 10.2a Final Exam Format
+            - 10.2b Final Exam Preparation
+            - 10.2c Final Exam Grading
+    - '- Chapter 11: Syllabus and Grading:':
+        sections:
+        - '- Section: 11.1 Syllabus:':
+            subsections:
+            - 11.1a Course Overview
+            - 11.1b Course Objectives
+            - 11.1c Course Policies
+    - '- Chapter 12: Calendar:':
+        sections:
+        - '- Section: 12.1 Course Calendar:':
+            subsections:
+            - 12.1a Course Schedule
+            - 12.1b Important Dates
+            - 12.1c Course Adjustments
+    - '- Chapter 13: Projects:':
+        sections:
+        - '- Section: 13.1 Course Projects:':
+            subsections:
+            - 13.1a Project Overview
+            - 13.1b Project Guidelines
+            - 13.1c Project Grading
+    - '- Chapter 14: Advanced Topics in Program Analysis:':
+        sections:
+        - '- Section: 14.1 Advanced Type Systems:':
+            subsections:
+            - 14.1a Dependent Types
+            - 14.1b Linear Types
+            - 14.1c Intersection and Union Types
+        - '- Section: 14.2 Advanced Topics in Model Checking:':
+            subsections:
+            - 14.2a Probabilistic Model Checking
+            - 14.2b Timed and Hybrid Systems
+            - 14.2c Parameterized Systems
+        - '- Section: 14.3 Advanced Topics in Abstract Interpretation:':
+            subsections:
+            - 14.3a Widening and Narrowing
+            - 14.3b Abstract Domains
+            - 14.3c Interprocedural Analysis
+    - '- Chapter 15: Program Analysis Tools:':
+        sections:
+        - '- Section: 15.1 Static Analysis Tools:':
+            subsections:
+            - 15.1a Linting Tools
+            - 15.1b Type Checkers
+            - 15.1c Security Scanners
+        - '- Section: 15.2 Dynamic Analysis Tools:':
+            subsections:
+            - 15.2a Profiling Tools
+            - 15.2b Debugging Tools
+            - 15.2c Test Coverage Tools
+        - '- Section: 15.3 Formal Verification Tools:':
+            subsections:
+            - 15.3a Proof Assistants
+            - 15.3b Model Checkers
+            - 15.3c SMT Solvers
+    - '- Chapter 16: Program Analysis in Practice:':
+        sections:
+        - '- Section: 16.1 Program Analysis in Software Development:':
+            subsections:
+            - 16.1a Code Reviews
+            - 16.1b Continuous Integration
+            - 16.1c Test-Driven Development
+        - '- Section: 16.2 Program Analysis in Security:':
+            subsections:
+            - 16.2a Static Application Security Testing
+            - 16.2b Dynamic Application Security Testing
+            - 16.2c Fuzzing
+        - '- Section: 16.3 Program Analysis in Performance Optimization:':
+            subsections:
+            - 16.3a Performance Profiling
+            - 16.3b Memory Profiling
+            - 16.3c Cache Profiling
+    - '- Chapter 17: Program Analysis Research:':
+        sections:
+        - '- Section: 17.1 Current Research Topics in Program Analysis:':
+            subsections:
+            - 17.1a Program Synthesis
+            - 17.1b Machine Learning for Program Analysis
+            - 17.1c Quantum Programming Languages
+        - '- Section: 17.2 Reading Research Papers in Program Analysis:':
+            subsections:
+            - 17.2a How to Read a Research Paper
+            - 17.2b Evaluating Research Papers
+            - 17.2c Writing Research Paper Reviews
+        - '- Section: 17.3 Conducting Research in Program Analysis:':
+            subsections:
+            - 17.3a Identifying Research Problems
+            - 17.3b Developing Research Hypotheses
+            - 17.3c Writing Research Papers
+    - '- Chapter 18: Program Analysis Ethics:':
+        sections:
+        - '- Section: 18.1 Ethical Considerations in Program Analysis:':
+            subsections:
+            - 18.1a Privacy and Confidentiality
+            - 18.1b Intellectual Property
+            - 18.1c Responsible Disclosure
+        - '- Section: 18.2 Ethical Case Studies in Program Analysis:':
+            subsections:
+            - '18.2a Case Study: Heartbleed'
+            - '18.2b Case Study: Spectre and Meltdown'
+            - '18.2c Case Study: Volkswagen Emissions Scandal'
+        - '- Section: 18.3 Ethical Guidelines for Program Analysis:':
+            subsections:
+            - 18.3a ACM Code of Ethics
+            - 18.3b IEEE Code of Ethics
+            - 18.3c Ethical Decision Making
+    - '- Chapter 19: Program Analysis Pedagogy:':
+        sections:
+        - '- Section: 19.1 Teaching Program Analysis:':
+            subsections:
+            - 19.1a Designing a Program Analysis Course
+            - 19.1b Teaching Strategies for Program Analysis
+            - 19.1c Assessment in Program Analysis
+        - '- Section: 19.2 Learning Program Analysis:':
+            subsections:
+            - 19.2a Learning Strategies for Program Analysis
+            - 19.2b Resources for Learning Program Analysis
+            - 19.2c Study Groups and Peer Learning
+        - '- Section: 19.3 Program Analysis Competitions:':
+            subsections:
+            - 19.3a Programming Contests
+            - 19.3b Capture the Flag Competitions
+            - 19.3c Bug Bounty Programs
+    - '- Chapter 20: Future of Program Analysis:':
+        sections:
+        - '- Section: 20.1 Emerging Trends in Program Analysis:':
+            subsections:
+            - 20.1a Program Analysis for Quantum Computing
+            - 20.1b Program Analysis for Machine Learning
+            - 20.1c Program Analysis for Blockchain
+        - '- Section: 20.2 Challenges in Program Analysis:':
+            subsections:
+            - 20.2a Scalability of Program Analysis
+            - 20.2b Handling Uncertainty in Program Analysis
+            - 20.2c Interdisciplinary Program Analysis
+        - '- Section: 20.3 Future Research Directions in Program Analysis:':
+            subsections:
+            - 20.3a Automated Program Repair
+            - 20.3b Program Analysis for Cyber-Physical Systems
+            - 20.3c Program Analysis for Fairness, Accountability, and Transparency

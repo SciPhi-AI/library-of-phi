@@ -1,0 +1,148 @@
+textbook:
+  'Interfacial Phenomena: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Notation:':
+            subsections:
+            - 1.1a Definition of Notation
+            - 1.1b Importance of Notation
+            - 1.1c Application of Notation
+    - '- Chapter 2: Definition and Scaling of Surface Tension:':
+        sections:
+        - '- Section: 2.1 Wetting:':
+            subsections:
+            - 2.1a Introduction to Wetting
+            - 2.1b Wetting Phenomena
+            - 2.1c Wetting Applications
+    - "- Chapter 3: Young\u2019s Law with Applications:":
+        sections:
+        - '- Section: 3.1 Stress Boundary Conditions:':
+            subsections:
+            - 3.1a Definition of Stress Boundary Conditions
+            - 3.1b Application of Stress Boundary Conditions
+            - 3.1c Challenges in Stress Boundary Conditions
+    - '- Chapter 4: More on Fluid Statics:':
+        sections:
+        - '- Section: 4.1 Spinning, Tumbling, and Rolling Drops:':
+            subsections:
+            - 4.1a Introduction to Fluid Motion
+            - 4.1b Fluid Dynamics
+            - 4.1c Fluid Statics Applications
+    - '- Chapter 5: Capillary Rise:':
+        sections:
+        - '- Section: 5.1 Marangoni Flows:':
+            subsections:
+            - 5.1a Introduction to Marangoni Flows
+            - 5.1b Marangoni Flow Phenomena
+            - 5.1c Marangoni Flow Applications
+    - '- Chapter 6: Marangoni Flows II:':
+        sections:
+        - '- Section: 6.1 Fluid Jets:':
+            subsections:
+            - 6.1a Introduction to Fluid Jets
+            - 6.1b Fluid Jet Phenomena
+            - 6.1c Fluid Jet Applications
+    - '- Chapter 7: Instability Dynamics:':
+        sections:
+        - '- Section: 7.1 Fluid Sheets:':
+            subsections:
+            - 7.1a Introduction to Fluid Sheets
+            - 7.1b Fluid Sheet Phenomena
+            - 7.1c Fluid Sheet Applications
+    - '- Chapter 8: Instability of Superposed Fluids:':
+        sections:
+        - '- Section: 8.1 Contact Angle Hysteresis:':
+            subsections:
+            - 8.1a Introduction to Contact Angle Hysteresis
+            - 8.1b Contact Angle Hysteresis Phenomena
+            - 8.1c Contact Angle Hysteresis Applications
+        - '- Section: 8.2 Wetting of Textured Solids:':
+            subsections:
+            - 8.2a Introduction to Wetting of Textured Solids
+            - 8.2b Wetting of Textured Solids Phenomena
+            - 8.2c Wetting of Textured Solids Applications
+    - '- Chapter 9: More Forced Wetting:':
+        sections:
+        - '- Section: 9.1 Coating: Dynamic Contact Lines:':
+            subsections:
+            - 9.1a Introduction to Coating
+            - 9.1b Coating Phenomena
+            - 9.1c Coating Applications
+    - '- Chapter 10: Spreading:':
+        sections:
+        - '- Section: 10.1 Water Waves:':
+            subsections:
+            - 10.1a Introduction to Water Waves
+            - 10.1b Water Wave Phenomena
+            - 10.1c Water Wave Applications
+    - '- Chapter 11: Interfacial Tension:':
+        sections:
+        - '- Section: 11.1 Interfacial Tension Theory:':
+            subsections:
+            - 11.1a Introduction to Interfacial Tension
+            - 11.1b Interfacial Tension Phenomena
+            - 11.1c Interfacial Tension Applications
+    - '- Chapter 12: Surface Forces:':
+        sections:
+        - '- Section: 12.1 Surface Force Theory:':
+            subsections:
+            - 12.1a Introduction to Surface Forces
+            - 12.1b Surface Force Phenomena
+            - 12.1c Surface Force Applications
+    - '- Chapter 13: Capillary Effects:':
+        sections:
+        - '- Section: 13.1 Capillary Effect Theory:':
+            subsections:
+            - 13.1a Introduction to Capillary Effects
+            - 13.1b Capillary Effect Phenomena
+            - 13.1c Capillary Effect Applications
+    - '- Chapter 14: Wetting Dynamics:':
+        sections:
+        - '- Section: 14.1 Wetting Dynamics Theory:':
+            subsections:
+            - 14.1a Introduction to Wetting Dynamics
+            - 14.1b Wetting Dynamics Phenomena
+            - 14.1c Wetting Dynamics Applications
+    - '- Chapter 15: Interfacial Instabilities:':
+        sections:
+        - '- Section: 15.1 Interfacial Instability Theory:':
+            subsections:
+            - 15.1a Introduction to Interfacial Instabilities
+            - 15.1b Interfacial Instability Phenomena
+            - 15.1c Interfacial Instability Applications
+    - '- Chapter 16: Interfacial Rheology:':
+        sections:
+        - '- Section: 16.1 Interfacial Rheology Theory:':
+            subsections:
+            - 16.1a Introduction to Interfacial Rheology
+            - 16.1b Interfacial Rheology Phenomena
+            - 16.1c Interfacial Rheology Applications
+    - '- Chapter 17: Interfacial Transport:':
+        sections:
+        - '- Section: 17.1 Interfacial Transport Theory:':
+            subsections:
+            - 17.1a Introduction to Interfacial Transport
+            - 17.1b Interfacial Transport Phenomena
+            - 17.1c Interfacial Transport Applications
+    - '- Chapter 18: Interfacial Waves:':
+        sections:
+        - '- Section: 18.1 Interfacial Wave Theory:':
+            subsections:
+            - 18.1a Introduction to Interfacial Waves
+            - 18.1b Interfacial Wave Phenomena
+            - 18.1c Interfacial Wave Applications
+    - '- Chapter 19: Interfacial Phenomena in Multiphase Systems:':
+        sections:
+        - '- Section: 19.1 Multiphase System Theory:':
+            subsections:
+            - 19.1a Introduction to Multiphase Systems
+            - 19.1b Multiphase System Phenomena
+            - 19.1c Multiphase System Applications
+    - '- Chapter 20: Interfacial Phenomena in Industrial Applications:':
+        sections:
+        - '- Section: 20.1 Industrial Application Theory:':
+            subsections:
+            - 20.1a Introduction to Industrial Applications
+            - 20.1b Industrial Application Phenomena
+            - 20.1c Industrial Application Case Studies

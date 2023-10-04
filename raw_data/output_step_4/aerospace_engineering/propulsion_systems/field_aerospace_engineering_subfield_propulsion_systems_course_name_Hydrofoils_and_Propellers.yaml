@@ -1,0 +1,363 @@
+textbook:
+  'Hydrofoils and Propellers: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Hydrofoils and Propellers:':
+        sections:
+        - '- Section: 1.1 Definition and Overview:':
+            subsections:
+            - 1.1a Definition of Hydrofoils
+            - 1.1b Definition of Propellers
+            - 1.1c Overview of Hydrofoils and Propellers
+        - '- Section: 1.2 Historical Development:':
+            subsections:
+            - 1.2a History of Hydrofoils
+            - 1.2b History of Propellers
+            - 1.2c Evolution of Hydrofoil and Propeller Technology
+        - '- Section: 1.3 Applications:':
+            subsections:
+            - 1.3a Applications of Hydrofoils
+            - 1.3b Applications of Propellers
+            - 1.3c Future Applications
+    - '- Chapter 2: Hydrofoil Theory:':
+        sections:
+        - '- Section: 2.1 Hydrodynamic Lift and Drag:':
+            subsections:
+            - 2.1a Definition of Lift and Drag
+            - 2.1b Factors Affecting Lift and Drag
+            - 2.1c Lift and Drag Coefficients
+        - '- Section: 2.2 Angle of Attack:':
+            subsections:
+            - 2.2a Definition of Angle of Attack
+            - 2.2b Effects of Angle of Attack on Lift and Drag
+            - 2.2c Optimal Angle of Attack
+        - '- Section: 2.3 Cavitation:':
+            subsections:
+            - 2.3a Definition of Cavitation
+            - 2.3b Causes and Effects of Cavitation
+            - 2.3c Cavitation Prevention Techniques
+    - '- Chapter 3: Propeller Theory:':
+        sections:
+        - '- Section: 3.1 Momentum Theory:':
+            subsections:
+            - 3.1a Definition of Momentum Theory
+            - 3.1b Application of Momentum Theory to Propellers
+            - 3.1c Limitations of Momentum Theory
+        - '- Section: 3.2 Blade Element Theory:':
+            subsections:
+            - 3.2a Definition of Blade Element Theory
+            - 3.2b Application of Blade Element Theory to Propellers
+            - 3.2c Limitations of Blade Element Theory
+        - '- Section: 3.3 Blade Performance Characteristics:':
+            subsections:
+            - 3.3a Definition of Blade Performance Characteristics
+            - 3.3b Factors Affecting Blade Performance
+            - 3.3c Measuring Blade Performance
+    - '- Chapter 4: Hydrofoil Design:':
+        sections:
+        - '- Section: 4.1 Foil Section Shapes:':
+            subsections:
+            - 4.1a Definition of Foil Section Shapes
+            - 4.1b Factors Affecting Foil Section Shape Selection
+            - 4.1c Common Foil Section Shapes
+        - '- Section: 4.2 Hydrodynamic Performance Optimization:':
+            subsections:
+            - 4.2a Definition of Hydrodynamic Performance Optimization
+            - 4.2b Techniques for Hydrodynamic Performance Optimization
+            - 4.2c Case Studies in Hydrodynamic Performance Optimization
+        - '- Section: 4.3 Structural Considerations:':
+            subsections:
+            - 4.3a Definition of Structural Considerations
+            - 4.3b Factors Affecting Structural Design
+            - 4.3c Case Studies in Structural Design
+    - '- Chapter 5: Propeller Design:':
+        sections:
+        - '- Section: 5.1 Number of Blades:':
+            subsections:
+            - 5.1a Definition of Number of Blades
+            - 5.1b Factors Affecting Number of Blades
+            - 5.1c Case Studies in Number of Blades
+        - '- Section: 5.2 Blade Geometry:':
+            subsections:
+            - 5.2a Definition of Blade Geometry
+            - 5.2b Factors Affecting Blade Geometry
+            - 5.2c Case Studies in Blade Geometry
+        - '- Section: 5.3 Diameter and Pitch:':
+            subsections:
+            - 5.3a Definition of Diameter and Pitch
+            - 5.3b Factors Affecting Diameter and Pitch
+            - 5.3c Case Studies in Diameter and Pitch
+        - '- Section: 5.4 Propeller Performance Optimization:':
+            subsections:
+            - 5.4a Definition of Propeller Performance Optimization
+            - 5.4b Techniques for Propeller Performance Optimization
+            - 5.4c Case Studies in Propeller Performance Optimization
+    - '- Chapter 6: Hydrodynamic Interactions:':
+        sections:
+        - '- Section: 6.1 Foil-Propeller Interactions:':
+            subsections:
+            - 6.1a Definition of Foil-Propeller Interactions
+            - 6.1b Factors Affecting Foil-Propeller Interactions
+            - 6.1c Case Studies in Foil-Propeller Interactions
+        - '- Section: 6.2 Hull-Propeller Interactions:':
+            subsections:
+            - 6.2a Definition of Hull-Propeller Interactions
+            - 6.2b Factors Affecting Hull-Propeller Interactions
+            - 6.2c Case Studies in Hull-Propeller Interactions
+        - '- Section: 6.3 Wake Interference:':
+            subsections:
+            - 6.3a Definition of Wake Interference
+            - 6.3b Factors Affecting Wake Interference
+            - 6.3c Case Studies in Wake Interference
+    - '- Chapter 7: Cavitation and Ventilation:':
+        sections:
+        - '- Section: 7.1 Cavitation Phenomenon:':
+            subsections:
+            - 7.1a Definition of Cavitation Phenomenon
+            - 7.1b Causes and Effects of Cavitation Phenomenon
+            - 7.1c Case Studies in Cavitation Phenomenon
+        - '- Section: 7.2 Ventilation Phenomenon:':
+            subsections:
+            - 7.2a Definition of Ventilation Phenomenon
+            - 7.2b Causes and Effects of Ventilation Phenomenon
+            - 7.2c Case Studies in Ventilation Phenomenon
+        - '- Section: 7.3 Cavitation and Ventilation Control:':
+            subsections:
+            - 7.3a Definition of Cavitation and Ventilation Control
+            - 7.3b Techniques for Cavitation and Ventilation Control
+            - 7.3c Case Studies in Cavitation and Ventilation Control
+    - '- Chapter 8: Experimental Methods in Hydrofoils and Propellers:':
+        sections:
+        - '- Section: 8.1 Model Testing:':
+            subsections:
+            - 8.1a Definition of Model Testing
+            - 8.1b Techniques for Model Testing
+            - 8.1c Case Studies in Model Testing
+        - '- Section: 8.2 Flow Visualization Techniques:':
+            subsections:
+            - 8.2a Definition of Flow Visualization Techniques
+            - 8.2b Types of Flow Visualization Techniques
+            - 8.2c Case Studies in Flow Visualization
+        - '- Section: 8.3 Pressure and Force Measurements:':
+            subsections:
+            - 8.3a Definition of Pressure and Force Measurements
+            - 8.3b Techniques for Pressure and Force Measurements
+            - 8.3c Case Studies in Pressure and Force Measurements
+    - '- Chapter 9: Computational Methods in Hydrofoils and Propellers:':
+        sections:
+        - '- Section: 9.1 Computational Fluid Dynamics (CFD):':
+            subsections:
+            - 9.1a Definition of Computational Fluid Dynamics (CFD)
+            - 9.1b Techniques in Computational Fluid Dynamics (CFD)
+            - 9.1c Case Studies in Computational Fluid Dynamics (CFD)
+        - '- Section: 9.2 Numerical Simulation Techniques:':
+            subsections:
+            - 9.2a Definition of Numerical Simulation Techniques
+            - 9.2b Types of Numerical Simulation Techniques
+            - 9.2c Case Studies in Numerical Simulation
+        - '- Section: 9.3 Grid Generation Methods:':
+            subsections:
+            - 9.3a Definition of Grid Generation Methods
+            - 9.3b Techniques for Grid Generation
+            - 9.3c Case Studies in Grid Generation
+        - '- Section: 9.4 Validation and Verification of CFD Models:':
+            subsections:
+            - 9.4a Definition of Validation and Verification
+            - 9.4b Techniques for Validation and Verification
+            - 9.4c Case Studies in Validation and Verification
+    - '- Chapter 10: Propulsion Systems for Hydrofoil Vessels:':
+        sections:
+        - '- Section: 10.1 Diesel Engines:':
+            subsections:
+            - 10.1a Definition of Diesel Engines
+            - 10.1b Advantages and Disadvantages of Diesel Engines
+            - 10.1c Case Studies in Diesel Engines
+        - '- Section: 10.2 Electric Motors:':
+            subsections:
+            - 10.2a Definition of Electric Motors
+            - 10.2b Advantages and Disadvantages of Electric Motors
+            - 10.2c Case Studies in Electric Motors
+        - '- Section: 10.3 Gas Turbines:':
+            subsections:
+            - 10.3a Definition of Gas Turbines
+            - 10.3b Advantages and Disadvantages of Gas Turbines
+            - 10.3c Case Studies in Gas Turbines
+        - '- Section: 10.4 Jet Propulsion:':
+            subsections:
+            - 10.4a Definition of Jet Propulsion
+            - 10.4b Advantages and Disadvantages of Jet Propulsion
+            - 10.4c Case Studies in Jet Propulsion
+    - '- Chapter 11: Hydrofoil Vessel Design:':
+        sections:
+        - '- Section: 11.1 Hull Shapes and Materials:':
+            subsections:
+            - 11.1a Definition of Hull Shapes and Materials
+            - 11.1b Factors Affecting Hull Shapes and Materials
+            - 11.1c Case Studies in Hull Shapes and Materials
+        - '- Section: 11.2 Stability and Control:':
+            subsections:
+            - 11.2a Definition of Stability and Control
+            - 11.2b Factors Affecting Stability and Control
+            - 11.2c Case Studies in Stability and Control
+        - '- Section: 11.3 Seakeeping and Maneuvering:':
+            subsections:
+            - 11.3a Definition of Seakeeping and Maneuvering
+            - 11.3b Factors Affecting Seakeeping and Maneuvering
+            - 11.3c Case Studies in Seakeeping and Maneuvering
+    - '- Chapter 12: Hydrofoil Performance Testing:':
+        sections:
+        - '- Section: 12.1 Speed Trials and Power Measurements:':
+            subsections:
+            - 12.1a Definition of Speed Trials and Power Measurements
+            - 12.1b Techniques for Speed Trials and Power Measurements
+            - 12.1c Case Studies in Speed Trials and Power Measurements
+        - '- Section: 12.2 Resistance and Drag Testing:':
+            subsections:
+            - 12.2a Definition of Resistance and Drag Testing
+            - 12.2b Techniques for Resistance and Drag Testing
+            - 12.2c Case Studies in Resistance and Drag Testing
+        - '- Section: 12.3 Maneuverability Testing:':
+            subsections:
+            - 12.3a Definition of Maneuverability Testing
+            - 12.3b Techniques for Maneuverability Testing
+            - 12.3c Case Studies in Maneuverability Testing
+        - '- Section: 12.4 Seakeeping Performance Evaluation:':
+            subsections:
+            - 12.4a Definition of Seakeeping Performance Evaluation
+            - 12.4b Techniques for Seakeeping Performance Evaluation
+            - 12.4c Case Studies in Seakeeping Performance Evaluation
+    - '- Chapter 13: Propeller Cavitation and Noise:':
+        sections:
+        - '- Section: 13.1 Cavitation Erosion:':
+            subsections:
+            - 13.1a Definition of Cavitation Erosion
+            - 13.1b Causes and Effects of Cavitation Erosion
+            - 13.1c Case Studies in Cavitation Erosion
+        - '- Section: 13.2 Propeller Noise Generation:':
+            subsections:
+            - 13.2a Definition of Propeller Noise Generation
+            - 13.2b Causes and Effects of Propeller Noise Generation
+            - 13.2c Case Studies in Propeller Noise Generation
+        - '- Section: 13.3 Noise Reduction Techniques:':
+            subsections:
+            - 13.3a Definition of Noise Reduction Techniques
+            - 13.3b Types of Noise Reduction Techniques
+            - 13.3c Case Studies in Noise Reduction Techniques
+    - '- Chapter 14: Future Trends in Hydrofoils and Propellers:':
+        sections:
+        - '- Section: 14.1 Advanced Hydrofoil Designs:':
+            subsections:
+            - 14.1a Definition of Advanced Hydrofoil Designs
+            - 14.1b Factors Influencing Advanced Hydrofoil Designs
+            - 14.1c Case Studies in Advanced Hydrofoil Designs
+        - '- Section: 14.2 Alternative Propulsion Technologies:':
+            subsections:
+            - 14.2a Definition of Alternative Propulsion Technologies
+            - 14.2b Types of Alternative Propulsion Technologies
+            - 14.2c Case Studies in Alternative Propulsion Technologies
+        - '- Section: 14.3 Green Technologies in Marine Propulsion:':
+            subsections:
+            - 14.3a Definition of Green Technologies in Marine Propulsion
+            - 14.3b Types of Green Technologies in Marine Propulsion
+            - 14.3c Case Studies in Green Technologies in Marine Propulsion
+    - '- Chapter 15: Hydrofoil and Propeller Materials:':
+        sections:
+        - '- Section: 15.1 Material Selection:':
+            subsections:
+            - 15.1a Factors Influencing Material Selection
+            - 15.1b Common Materials Used in Hydrofoils and Propellers
+            - 15.1c Case Studies in Material Selection
+        - '- Section: 15.2 Material Properties:':
+            subsections:
+            - 15.2a Importance of Material Properties
+            - 15.2b How Material Properties Affect Performance
+            - 15.2c Case Studies in Material Properties
+        - '- Section: 15.3 Material Testing:':
+            subsections:
+            - 15.3a Types of Material Testing
+            - 15.3b Importance of Material Testing
+            - 15.3c Case Studies in Material Testing
+    - '- Chapter 16: Hydrofoil and Propeller Manufacturing:':
+        sections:
+        - '- Section: 16.1 Manufacturing Processes:':
+            subsections:
+            - 16.1a Overview of Manufacturing Processes
+            - 16.1b How Manufacturing Processes Affect Performance
+            - 16.1c Case Studies in Manufacturing Processes
+        - '- Section: 16.2 Quality Control:':
+            subsections:
+            - 16.2a Importance of Quality Control
+            - 16.2b Quality Control Techniques
+            - 16.2c Case Studies in Quality Control
+        - '- Section: 16.3 Future Trends in Manufacturing:':
+            subsections:
+            - 16.3a Emerging Manufacturing Technologies
+            - 16.3b How Future Trends Could Affect Performance
+            - 16.3c Case Studies in Future Trends
+    - '- Chapter 17: Hydrofoil and Propeller Maintenance:':
+        sections:
+        - '- Section: 17.1 Maintenance Procedures:':
+            subsections:
+            - 17.1a Overview of Maintenance Procedures
+            - 17.1b How Maintenance Affects Performance
+            - 17.1c Case Studies in Maintenance Procedures
+        - '- Section: 17.2 Repair Techniques:':
+            subsections:
+            - 17.2a Common Repair Techniques
+            - 17.2b How Repairs Can Affect Performance
+            - 17.2c Case Studies in Repair Techniques
+        - '- Section: 17.3 Future Trends in Maintenance:':
+            subsections:
+            - 17.3a Emerging Maintenance Technologies
+            - 17.3b How Future Trends Could Affect Performance
+            - 17.3c Case Studies in Future Trends
+    - '- Chapter 18: Hydrofoil and Propeller Safety:':
+        sections:
+        - '- Section: 18.1 Safety Regulations:':
+            subsections:
+            - 18.1a Overview of Safety Regulations
+            - 18.1b How Safety Regulations Affect Design and Operation
+            - 18.1c Case Studies in Safety Regulations
+        - '- Section: 18.2 Safety Equipment:':
+            subsections:
+            - 18.2a Common Safety Equipment
+            - 18.2b How Safety Equipment Affects Operation
+            - 18.2c Case Studies in Safety Equipment
+        - '- Section: 18.3 Future Trends in Safety:':
+            subsections:
+            - 18.3a Emerging Safety Technologies
+            - 18.3b How Future Trends Could Affect Safety
+            - 18.3c Case Studies in Future Trends
+    - '- Chapter 19: Hydrofoil and Propeller Training:':
+        sections:
+        - '- Section: 19.1 Training Programs:':
+            subsections:
+            - 19.1a Overview of Training Programs
+            - 19.1b Importance of Training
+            - 19.1c Case Studies in Training Programs
+        - '- Section: 19.2 Training Equipment:':
+            subsections:
+            - 19.2a Common Training Equipment
+            - 19.2b How Training Equipment Affects Learning
+            - 19.2c Case Studies in Training Equipment
+        - '- Section: 19.3 Future Trends in Training:':
+            subsections:
+            - 19.3a Emerging Training Technologies
+            - 19.3b How Future Trends Could Affect Training
+            - 19.3c Case Studies in Future Trends
+    - '- Chapter 20: Hydrofoil and Propeller Case Studies:':
+        sections:
+        - '- Section: 20.1 Case Study 1:':
+            subsections:
+            - 20.1a Overview of Case Study 1
+            - 20.1b Findings from Case Study 1
+            - 20.1c Lessons Learned from Case Study 1
+        - '- Section: 20.2 Case Study 2:':
+            subsections:
+            - 20.2a Overview of Case Study 2
+            - 20.2b Findings from Case Study 2
+            - 20.2c Lessons Learned from Case Study 2
+        - '- Section: 20.3 Case Study 3:':
+            subsections:
+            - 20.3a Overview of Case Study 3
+            - 20.3b Findings from Case Study 3
+            - 20.3c Lessons Learned from Case Study 3

@@ -1,0 +1,171 @@
+textbook:
+  'Aircraft Stability and Control: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Equilibrium States:':
+        sections:
+        - '- Section: 1.1 Aircraft Performance':
+            subsections: []
+        - '- Section: 1.2 Introduction to Basic Terms':
+            subsections: []
+    - '- Chapter 2: Static Stability:':
+        sections:
+        - '- Section: 2.1 Aircraft Static Stability (Longitudinal):':
+            subsections:
+            - 2.1a Wing Contributions to Static Stability
+            - 2.1b Tail Contributions to Static Stability
+    - '- Chapter 3: Coordinate Systems:':
+        sections:
+        - '- Section: 3.1 Euler Angles':
+            subsections: []
+        - '- Section: 3.2 Quaternions':
+            subsections: []
+    - '- Chapter 4: Aircraft Dynamics:':
+        sections:
+        - '- Section: 4.1 Aircraft Dynamics':
+            subsections: []
+        - '- Section: 4.2 Aircraft Dynamics (continued)':
+            subsections: []
+    - '- Chapter 5: Aircraft Longitudinal Dynamics:':
+        sections:
+        - '- Section: 5.1 Aircraft Longitudinal Dynamics':
+            subsections: []
+    - '- Chapter 6: Approximate Longitudinal Dynamics Models:':
+        sections:
+        - '- Section: 6.1 Introduction to Approximate Longitudinal Dynamics Models':
+            subsections: []
+        - '- Section: 6.2 Linearized Longitudinal Dynamics Models':
+            subsections: []
+        - '- Section: 6.3 Nonlinear Longitudinal Dynamics Models':
+            subsections: []
+    - '- Chapter 7: Aircraft Lateral Dynamics:':
+        sections:
+        - '- Section: 7.1 Aircraft Lateral Dynamics':
+            subsections: []
+        - '- Section: 7.2 Spiral Mode in Aircraft Lateral Dynamics':
+            subsections: []
+        - '- Section: 7.3 Roll Mode in Aircraft Lateral Dynamics':
+            subsections: []
+        - '- Section: 7.4 Dutch Roll Mode in Aircraft Lateral Dynamics':
+            subsections: []
+    - '- Chapter 8: Basic Longitudinal Control:':
+        sections:
+        - '- Section: 8.1 Introduction to Basic Longitudinal Control':
+            subsections: []
+        - '- Section: 8.2 Elevator Control in Longitudinal Direction':
+            subsections: []
+        - '- Section: 8.3 Throttle Control in Longitudinal Direction':
+            subsections: []
+    - '- Chapter 9: State Space Control:':
+        sections:
+        - '- Section: 9.1 Introduction to State Space Control':
+            subsections: []
+        - '- Section: 9.2 State Space Control Design':
+            subsections: []
+        - '- Section: 9.3 State Feedback Control':
+            subsections: []
+        - '- Section: 9.4 Observer-based Control':
+            subsections: []
+    - '- Chapter 10: Aircraft Lateral Autopilots:':
+        sections:
+        - '- Section: 10.1 Introduction to Aircraft Lateral Autopilots':
+            subsections: []
+        - '- Section: 10.2 Roll Autopilots':
+            subsections: []
+        - '- Section: 10.3 Yaw Autopilots':
+            subsections: []
+        - '- Section: 10.4 Lateral Autopilot Design':
+            subsections: []
+    - '- Chapter 11: Aircraft Longitudinal Autopilots:':
+        sections:
+        - '- Section: 11.1 Introduction to Aircraft Longitudinal Autopilots':
+            subsections: []
+        - '- Section: 11.2 Pitch Autopilots':
+            subsections: []
+        - '- Section: 11.3 Speed Autopilots':
+            subsections: []
+        - '- Section: 11.4 Longitudinal Autopilot Design':
+            subsections: []
+    - '- Chapter 12: Equations of Motion in a Nonuniform Atmosphere:':
+        sections:
+        - '- Section: 12.1 Introduction to Equations of Motion in a Nonuniform Atmosphere':
+            subsections: []
+        - '- Section: 12.2 Effects of Nonuniform Atmosphere on Aircraft Dynamics':
+            subsections: []
+    - '- Chapter 13: Inertial Sensors:':
+        sections:
+        - '- Section: 13.1 Introduction to Inertial Sensors':
+            subsections: []
+        - '- Section: 13.2 Accelerometers':
+            subsections: []
+        - '- Section: 13.3 Gyroscopes':
+            subsections: []
+        - '- Section: 13.4 Magnetometers':
+            subsections: []
+    - '- Chapter 14: System Identification:':
+        sections:
+        - '- Section: 14.1 Introduction to System Identification':
+            subsections: []
+        - '- Section: 14.2 Parameter Estimation Techniques':
+            subsections: []
+        - '- Section: 14.3 Model Order Selection':
+            subsections: []
+        - '- Section: 14.4 Model Validation Methods':
+            subsections: []
+    - '- Chapter 15: Model Validation:':
+        sections:
+        - '- Section: 15.1 Introduction to Model Validation':
+            subsections: []
+        - '- Section: 15.2 Validation Metrics':
+            subsections: []
+        - '- Section: 15.3 Sensitivity Analysis':
+            subsections: []
+    - '- Chapter 16: Aircraft Stability Analysis:':
+        sections:
+        - '- Section: 16.1 Stability Derivatives':
+            subsections: []
+        - '- Section: 16.2 Longitudinal Static Stability':
+            subsections: []
+        - '- Section: 16.3 Lateral Static Stability':
+            subsections: []
+        - '- Section: 16.4 Dynamic Stability':
+            subsections: []
+    - '- Chapter 17: Flight Control Systems:':
+        sections:
+        - '- Section: 17.1 Introduction to Flight Control Systems':
+            subsections: []
+        - '- Section: 17.2 Primary Flight Control Systems':
+            subsections: []
+        - '- Section: 17.3 Secondary Flight Control Systems':
+            subsections: []
+        - '- Section: 17.4 Automatic Flight Control Systems':
+            subsections: []
+    - '- Chapter 18: Flight Testing:':
+        sections:
+        - '- Section: 18.1 Introduction to Flight Testing':
+            subsections: []
+        - '- Section: 18.2 Flight Test Procedures':
+            subsections: []
+        - '- Section: 18.3 Data Acquisition and Analysis':
+            subsections: []
+        - '- Section: 18.4 Flight Test Safety':
+            subsections: []
+    - '- Chapter 19: Aircraft Stability Augmentation Systems:':
+        sections:
+        - '- Section: 19.1 Introduction to Stability Augmentation Systems':
+            subsections: []
+        - '- Section: 19.2 Longitudinal Stability Augmentation Systems':
+            subsections: []
+        - '- Section: 19.3 Lateral Stability Augmentation Systems':
+            subsections: []
+        - '- Section: 19.4 Yaw Stability Augmentation Systems':
+            subsections: []
+    - '- Chapter 20: Advanced Topics in Aircraft Stability and Control:':
+        sections:
+        - '- Section: 20.1 Nonlinear Control Techniques':
+            subsections: []
+        - '- Section: 20.2 Adaptive Control Techniques':
+            subsections: []
+        - '- Section: 20.3 Robust Control Techniques':
+            subsections: []
+        - '- Section: 20.4 Optimal Control Techniques':
+            subsections: []

@@ -1,0 +1,414 @@
+textbook:
+  'Electrochemical Energy Systems: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Basic Physics of Galvanic Cells:':
+        sections:
+        - '- Section: 1.1 Electrochemical Energy Conversion:':
+            subsections:
+            - 1.1a Introduction to Electrochemical Energy Conversion
+            - 1.1b Principles of Electrochemical Energy Conversion
+            - 1.1c Applications of Electrochemical Energy Conversion
+    - '- Chapter 2: Electrochemical Energy Storage:':
+        sections:
+        - '- Section: 2.1 Equivalent Circuit Dynamics:':
+            subsections:
+            - 2.1a Introduction to Equivalent Circuit Dynamics
+            - 2.1b Principles of Equivalent Circuit Dynamics
+            - 2.1c Applications of Equivalent Circuit Dynamics
+        - '- Section: 2.2 Impedance I:':
+            subsections:
+            - 2.2a Introduction to Impedance
+            - 2.2b Principles of Impedance
+            - 2.2c Applications of Impedance
+        - '- Section: 2.3 Impedance II:':
+            subsections:
+            - 2.3a Advanced Concepts in Impedance
+            - 2.3b Impedance in Complex Systems
+            - 2.3c Impedance in Electrochemical Energy Storage
+        - '- Section: 2.4 Impedance III:':
+            subsections:
+            - 2.4a Impedance Spectroscopy
+            - 2.4b Impedance in Energy Storage Systems
+            - 2.4c Impedance in Battery Technology
+    - '- Chapter 3: Statistical Thermodynamics and Regular Solution Model:':
+        sections:
+        - '- Section: 3.1 Nernst Equation and Open Circuit Voltage:':
+            subsections:
+            - 3.1a Introduction to Nernst Equation
+            - 3.1b Open Circuit Voltage in Electrochemical Cells
+            - 3.1c Applications of Nernst Equation
+        - '- Section: 3.2 Fuel Cells and Batteries:':
+            subsections:
+            - 3.2a Introduction to Fuel Cells
+            - 3.2b Introduction to Batteries
+            - 3.2c Comparison of Fuel Cells and Batteries
+        - '- Section: 3.3 Pourbaix Diagram:':
+            subsections:
+            - 3.3a Introduction to Pourbaix Diagram
+            - 3.3b Reading and Interpreting Pourbaix Diagram
+            - 3.3c Applications of Pourbaix Diagram
+        - '- Section: 3.4 Metal Acid Batteries:':
+            subsections:
+            - 3.4a Introduction to Metal Acid Batteries
+            - 3.4b Working of Metal Acid Batteries
+            - 3.4c Applications of Metal Acid Batteries
+    - '- Chapter 4: Li-ion Batteries and Pseudocapacitance:':
+        sections:
+        - '- Section: 4.1 Ideal Solution Model and Linear Sweep Voltammetry:':
+            subsections:
+            - 4.1a Introduction to Ideal Solution Model
+            - 4.1b Linear Sweep Voltammetry in Electrochemical Analysis
+            - 4.1c Applications of Ideal Solution Model and Linear Sweep Voltammetry
+        - '- Section: 4.2 Regular Solution Model and Phase Separation:':
+            subsections:
+            - 4.2a Introduction to Regular Solution Model
+            - 4.2b Phase Separation in Electrochemical Systems
+            - 4.2c Applications of Regular Solution Model and Phase Separation
+        - '- Section: 4.3 Reactions in Concentrated Solutions:':
+            subsections:
+            - 4.3a Introduction to Reactions in Concentrated Solutions
+            - 4.3b Principles of Reactions in Concentrated Solutions
+            - 4.3c Applications of Reactions in Concentrated Solutions
+        - '- Section: 4.4 Faradaic Reactions:':
+            subsections:
+            - 4.4a Introduction to Faradaic Reactions
+            - 4.4b Principles of Faradaic Reactions
+            - 4.4c Applications of Faradaic Reactions
+    - '- Chapter 5: Electrocatalysis and Electrochemical Phase Transformations:':
+        sections:
+        - '- Section: 5.1 Homogeneous Charge Transfer:':
+            subsections:
+            - 5.1a Introduction to Homogeneous Charge Transfer
+            - 5.1b Principles of Homogeneous Charge Transfer
+            - 5.1c Applications of Homogeneous Charge Transfer
+        - '- Section: 5.2 Heterogeneous Charge Transfer:':
+            subsections:
+            - 5.2a Introduction to Heterogeneous Charge Transfer
+            - 5.2b Principles of Heterogeneous Charge Transfer
+            - 5.2c Applications of Heterogeneous Charge Transfer
+        - '- Section: 5.3 Charge Transfer at Metal Electrodes:':
+            subsections:
+            - 5.3a Introduction to Charge Transfer at Metal Electrodes
+            - 5.3b Principles of Charge Transfer at Metal Electrodes
+            - 5.3c Applications of Charge Transfer at Metal Electrodes
+        - '- Section: 5.4 Concentration Polarization:':
+            subsections:
+            - 5.4a Introduction to Concentration Polarization
+            - 5.4b Principles of Concentration Polarization
+            - 5.4c Applications of Concentration Polarization
+    - '- Chapter 6: Forced Convection and Transport in Solids:':
+        sections:
+        - '- Section: 6.1 Forced Convection I:':
+            subsections:
+            - 6.1a Introduction to Forced Convection
+            - 6.1b Principles of Forced Convection
+            - 6.1c Applications of Forced Convection
+        - '- Section: 6.2 Forced Convection II:':
+            subsections:
+            - 6.2a Advanced Concepts in Forced Convection
+            - 6.2b Forced Convection in Complex Systems
+            - 6.2c Forced Convection in Electrochemical Systems
+        - '- Section: 6.3 Forced Convection III:':
+            subsections:
+            - 6.3a Forced Convection in Energy Storage Systems
+            - 6.3b Forced Convection in Battery Technology
+            - 6.3c Forced Convection in Fuel Cells
+        - '- Section: 6.4 Transport in Solids:':
+            subsections:
+            - 6.4a Introduction to Transport in Solids
+            - 6.4b Principles of Transport in Solids
+            - 6.4c Applications of Transport in Solids
+    - '- Chapter 7: Concentrated Solutions and Homogeneous Reaction-Diffusion:':
+        sections:
+        - '- Section: 7.1 Concentrated Solutions and Bulk Electrolytes:':
+            subsections:
+            - 7.1a Introduction to Concentrated Solutions and Bulk Electrolytes
+            - 7.1b Principles of Concentrated Solutions and Bulk Electrolytes
+            - 7.1c Applications of Concentrated Solutions and Bulk Electrolytes
+        - '- Section: 7.2 Homogeneous Reaction-Diffusion:':
+            subsections:
+            - 7.2a Introduction to Homogeneous Reaction-Diffusion
+            - 7.2b Principles of Homogeneous Reaction-Diffusion
+            - 7.2c Applications of Homogeneous Reaction-Diffusion
+        - '- Section: 7.3 Ion Concentration Polarization:':
+            subsections:
+            - 7.3a Introduction to Ion Concentration Polarization
+            - 7.3b Principles of Ion Concentration Polarization
+            - 7.3c Applications of Ion Concentration Polarization
+    - '- Chapter 8: Double Layers and Transport in Porous Media:':
+        sections:
+        - '- Section: 8.1 Double Layers and Supercapacitors:':
+            subsections:
+            - 8.1a Introduction to Double Layers and Supercapacitors
+            - 8.1b Principles of Double Layers and Supercapacitors
+            - 8.1c Applications of Double Layers and Supercapacitors
+        - '- Section: 8.2 Transport in Porous Media:':
+            subsections:
+            - 8.2a Introduction to Transport in Porous Media
+            - 8.2b Principles of Transport in Porous Media
+            - 8.2c Applications of Transport in Porous Media
+    - '- Chapter 9: Scaling Analysis of Energy Storage and Porous Electrodes:':
+        sections:
+        - '- Section: 9.1 Scaling Analysis of Energy Storage:':
+            subsections:
+            - 9.1a Introduction to Scaling Analysis of Energy Storage
+            - 9.1b Principles of Scaling Analysis of Energy Storage
+            - 9.1c Applications of Scaling Analysis of Energy Storage
+        - '- Section: 9.2 Porous Electrodes:':
+            subsections:
+            - 9.2a Introduction to Porous Electrodes
+            - 9.2b Principles of Porous Electrodes
+            - 9.2c Applications of Porous Electrodes
+    - '- Chapter 10: Advanced Topics in Electrochemical Energy Systems:':
+        sections:
+        - '- Section: 10.1 Advanced Battery Technologies:':
+            subsections:
+            - 10.1a Introduction to Advanced Battery Technologies
+            - 10.1b Principles of Advanced Battery Technologies
+            - 10.1c Applications of Advanced Battery Technologies
+        - '- Section: 10.2 Advanced Fuel Cell Technologies:':
+            subsections:
+            - 10.2a Introduction to Advanced Fuel Cell Technologies
+            - 10.2b Principles of Advanced Fuel Cell Technologies
+            - 10.2c Applications of Advanced Fuel Cell Technologies
+        - '- Section: 10.3 Advanced Supercapacitor Technologies:':
+            subsections:
+            - 10.3a Introduction to Advanced Supercapacitor Technologies
+            - 10.3b Principles of Advanced Supercapacitor Technologies
+            - 10.3c Applications of Advanced Supercapacitor Technologies
+        - '- Section: 10.4 Advanced Topics in Electrochemical Energy Conversion:':
+            subsections:
+            - 10.4a Introduction to Advanced Topics in Electrochemical Energy Conversion
+            - 10.4b Principles of Advanced Topics in Electrochemical Energy Conversion
+            - 10.4c Applications of Advanced Topics in Electrochemical Energy Conversion
+    - '- Chapter 11: Electrochemical Energy Systems in Renewable Energy:':
+        sections:
+        - '- Section: 11.1 Electrochemical Energy Systems in Solar Energy:':
+            subsections:
+            - 11.1a Introduction to Electrochemical Energy Systems in Solar Energy
+            - 11.1b Principles of Electrochemical Energy Systems in Solar Energy
+            - 11.1c Applications of Electrochemical Energy Systems in Solar Energy
+        - '- Section: 11.2 Electrochemical Energy Systems in Wind Energy:':
+            subsections:
+            - 11.2a Introduction to Electrochemical Energy Systems in Wind Energy
+            - 11.2b Principles of Electrochemical Energy Systems in Wind Energy
+            - 11.2c Applications of Electrochemical Energy Systems in Wind Energy
+        - '- Section: 11.3 Electrochemical Energy Systems in Hydro Energy:':
+            subsections:
+            - 11.3a Introduction to Electrochemical Energy Systems in Hydro Energy
+            - 11.3b Principles of Electrochemical Energy Systems in Hydro Energy
+            - 11.3c Applications of Electrochemical Energy Systems in Hydro Energy
+        - '- Section: 11.4 Electrochemical Energy Systems in Geothermal Energy:':
+            subsections:
+            - 11.4a Introduction to Electrochemical Energy Systems in Geothermal Energy
+            - 11.4b Principles of Electrochemical Energy Systems in Geothermal Energy
+            - 11.4c Applications of Electrochemical Energy Systems in Geothermal Energy
+    - '- Chapter 12: Electrochemical Energy Systems in Energy Storage:':
+        sections:
+        - '- Section: 12.1 Electrochemical Energy Systems in Grid Energy Storage:':
+            subsections:
+            - 12.1a Introduction to Electrochemical Energy Systems in Grid Energy
+              Storage
+            - 12.1b Principles of Electrochemical Energy Systems in Grid Energy Storage
+            - 12.1c Applications of Electrochemical Energy Systems in Grid Energy
+              Storage
+        - '- Section: 12.2 Electrochemical Energy Systems in Vehicle Energy Storage:':
+            subsections:
+            - 12.2a Introduction to Electrochemical Energy Systems in Vehicle Energy
+              Storage
+            - 12.2b Principles of Electrochemical Energy Systems in Vehicle Energy
+              Storage
+            - 12.2c Applications of Electrochemical Energy Systems in Vehicle Energy
+              Storage
+        - '- Section: 12.3 Electrochemical Energy Systems in Portable Energy Storage:':
+            subsections:
+            - 12.3a Introduction to Electrochemical Energy Systems in Portable Energy
+              Storage
+            - 12.3b Principles of Electrochemical Energy Systems in Portable Energy
+              Storage
+            - 12.3c Applications of Electrochemical Energy Systems in Portable Energy
+              Storage
+        - '- Section: 12.4 Electrochemical Energy Systems in Stationary Energy Storage:':
+            subsections:
+            - 12.4a Introduction to Electrochemical Energy Systems in Stationary Energy
+              Storage
+            - 12.4b Principles of Electrochemical Energy Systems in Stationary Energy
+              Storage
+            - 12.4c Applications of Electrochemical Energy Systems in Stationary Energy
+              Storage
+    - '- Chapter 13: Electrochemical Energy Systems in Power Generation:':
+        sections:
+        - '- Section: 13.1 Electrochemical Energy Systems in Thermal Power Generation:':
+            subsections:
+            - 13.1a Introduction to Electrochemical Energy Systems in Thermal Power
+              Generation
+            - 13.1b Principles of Electrochemical Energy Systems in Thermal Power
+              Generation
+            - 13.1c Applications of Electrochemical Energy Systems in Thermal Power
+              Generation
+        - '- Section: 13.2 Electrochemical Energy Systems in Nuclear Power Generation:':
+            subsections:
+            - 13.2a Introduction to Electrochemical Energy Systems in Nuclear Power
+              Generation
+            - 13.2b Principles of Electrochemical Energy Systems in Nuclear Power
+              Generation
+            - 13.2c Applications of Electrochemical Energy Systems in Nuclear Power
+              Generation
+        - '- Section: 13.3 Electrochemical Energy Systems in Renewable Power Generation:':
+            subsections:
+            - 13.3a Introduction to Electrochemical Energy Systems in Renewable Power
+              Generation
+            - 13.3b Principles of Electrochemical Energy Systems in Renewable Power
+              Generation
+            - 13.3c Applications of Electrochemical Energy Systems in Renewable Power
+              Generation
+        - '- Section: 13.4 Electrochemical Energy Systems in Distributed Power Generation:':
+            subsections:
+            - 13.4a Introduction to Electrochemical Energy Systems in Distributed
+              Power Generation
+            - 13.4b Principles of Electrochemical Energy Systems in Distributed Power
+              Generation
+            - 13.4c Applications of Electrochemical Energy Systems in Distributed
+              Power Generation
+    - '- Chapter 14: Electrochemical Energy Systems in Power Conversion:':
+        sections:
+        - '- Section: 14.1 Electrochemical Energy Systems in AC-DC Power Conversion:':
+            subsections:
+            - 14.1a Introduction to Electrochemical Energy Systems in AC-DC Power
+              Conversion
+            - 14.1b Principles of Electrochemical Energy Systems in AC-DC Power Conversion
+            - 14.1c Applications of Electrochemical Energy Systems in AC-DC Power
+              Conversion
+        - '- Section: 14.2 Electrochemical Energy Systems in DC-AC Power Conversion:':
+            subsections:
+            - 14.2a Introduction to Electrochemical Energy Systems in DC-AC Power
+              Conversion
+            - 14.2b Principles of Electrochemical Energy Systems in DC-AC Power Conversion
+            - 14.2c Applications of Electrochemical Energy Systems in DC-AC Power
+              Conversion
+        - '- Section: 14.3 Electrochemical Energy Systems in DC-DC Power Conversion:':
+            subsections:
+            - 14.3a Introduction to Electrochemical Energy Systems in DC-DC Power
+              Conversion
+            - 14.3b Principles of Electrochemical Energy Systems in DC-DC Power Conversion
+            - 14.3c Applications of Electrochemical Energy Systems in DC-DC Power
+              Conversion
+        - '- Section: 14.4 Electrochemical Energy Systems in AC-AC Power Conversion:':
+            subsections:
+            - 14.4a Introduction to Electrochemical Energy Systems in AC-AC Power
+              Conversion
+            - 14.4b Principles of Electrochemical Energy Systems in AC-AC Power Conversion
+            - 14.4c Applications of Electrochemical Energy Systems in AC-AC Power
+              Conversion
+    - '- Chapter 15: Electrochemical Energy Systems in Power Distribution:':
+        sections:
+        - '- Section: 15.1 Electrochemical Energy Systems in Grid Power Distribution:':
+            subsections:
+            - 15.1a Introduction to Electrochemical Energy Systems in Grid Power Distribution
+            - 15.1b Principles of Electrochemical Energy Systems in Grid Power Distribution
+            - 15.1c Applications of Electrochemical Energy Systems in Grid Power Distribution
+        - '- Section: 15.2 Electrochemical Energy Systems in Microgrid Power Distribution:':
+            subsections:
+            - 15.2a Introduction to Electrochemical Energy Systems in Microgrid Power
+              Distribution
+            - 15.2b Principles of Electrochemical Energy Systems in Microgrid Power
+              Distribution
+            - 15.2c Applications of Electrochemical Energy Systems in Microgrid Power
+              Distribution
+        - '- Section: 15.3 Electrochemical Energy Systems in Off-grid Power Distribution:':
+            subsections:
+            - 15.3a Introduction to Electrochemical Energy Systems in Off-grid Power
+              Distribution
+            - 15.3b Principles of Electrochemical Energy Systems in Off-grid Power
+              Distribution
+            - 15.3c Applications of Electrochemical Energy Systems in Off-grid Power
+              Distribution
+        - '- Section: 15.4 Electrochemical Energy Systems in Distributed Power Distribution:':
+            subsections:
+            - 15.4a Introduction to Electrochemical Energy Systems in Distributed
+              Power Distribution
+            - 15.4b Principles of Electrochemical Energy Systems in Distributed Power
+              Distribution
+            - 15.4c Applications of Electrochemical Energy Systems in Distributed
+              Power Distribution
+    - '- Chapter 16: Electrochemical Energy Systems in Power Control:':
+        sections:
+        - '- Section: 16.1 Electrochemical Energy Systems in Voltage Control:':
+            subsections:
+            - 16.1a Introduction to Electrochemical Energy Systems in Voltage Control
+            - 16.1b Principles of Electrochemical Energy Systems in Voltage Control
+            - 16.1c Applications of Electrochemical Energy Systems in Voltage Control
+        - '- Section: 16.2 Electrochemical Energy Systems in Frequency Control:':
+            subsections:
+            - 16.2a Introduction to Electrochemical Energy Systems in Frequency Control
+            - 16.2b Principles of Electrochemical Energy Systems in Frequency Control
+            - 16.2c Applications of Electrochemical Energy Systems in Frequency Control
+        - '- Section: 16.3 Electrochemical Energy Systems in Power Factor Control:':
+            subsections:
+            - 16.3a Introduction to Electrochemical Energy Systems in Power Factor
+              Control
+            - 16.3b Principles of Electrochemical Energy Systems in Power Factor Control
+            - 16.3c Applications of Electrochemical Energy Systems in Power Factor
+              Control
+        - '- Section: 16.4 Electrochemical Energy Systems in Load Control:':
+            subsections:
+            - 16.4a Introduction to Electrochemical Energy Systems in Load Control
+            - 16.4b Principles of Electrochemical Energy Systems in Load Control
+            - 16.4c Applications of Electrochemical Energy Systems in Load Control
+    - '- Chapter 17: Electrochemical Energy Systems in Power Quality:':
+        sections:
+        - '- Section: 17.1 Electrochemical Energy Systems in Voltage Quality:':
+            subsections:
+            - 17.1a Introduction to Electrochemical Energy Systems in Voltage Quality
+            - 17.1b Principles of Electrochemical Energy Systems in Voltage Quality
+            - 17.1c Applications of Electrochemical Energy Systems in Voltage Quality
+        - '- Section: 17.2 Electrochemical Energy Systems in Frequency Quality:':
+            subsections:
+            - 17.2a Introduction to Electrochemical Energy Systems in Frequency Quality
+            - 17.2b Principles of Electrochemical Energy Systems in Frequency Quality
+            - 17.2c Applications of Electrochemical Energy Systems in Frequency Quality
+        - '- Section: 17.3 Electrochemical Energy Systems in Power Factor Quality:':
+            subsections:
+            - 17.3a Introduction to Electrochemical Energy Systems in Power Factor
+              Quality
+            - 17.3b Principles of Electrochemical Energy Systems in Power Factor Quality
+            - 17.3c Applications of Electrochemical Energy Systems in Power Factor
+              Quality
+        - '- Section: 17.4 Electrochemical Energy Systems in Load Quality:':
+            subsections:
+            - 17.4a Introduction to Electrochemical Energy Systems in Load Quality
+            - 17.4b Principles of Electrochemical Energy Systems in Load Quality
+            - 17.4c Applications of Electrochemical Energy Systems in Load Quality
+    - '- Chapter 18: Electrochemical Energy Systems in Power Efficiency:':
+        sections:
+        - '- Section: 18.1 Electrochemical Energy Systems in Voltage Efficiency:':
+            subsections:
+            - 18.1a Introduction to Electrochemical Energy Systems in Voltage Efficiency
+            - 18.1b Principles of Electrochemical Energy Systems in Voltage Efficiency
+            - 18.1c Applications of Electrochemical Energy Systems in Voltage Efficiency
+        - '- Section: 18.2 Electrochemical Energy Systems in Frequency Efficiency:':
+            subsections:
+            - 18.2a Introduction to Electrochemical Energy Systems in Frequency Efficiency
+            - 18.2b Principles of Electrochemical Energy Systems in Frequency Efficiency
+            - 18.2c Applications of Electrochemical Energy Systems in Frequency Efficiency
+        - '- Section: 18.3 Electrochemical Energy Systems in Power Factor Efficiency:':
+            subsections:
+            - 18.3a Introduction to Electrochemical Energy Systems in Power Factor
+              Efficiency
+            - 18.3b Principles of Electrochemical Energy Systems in Power Factor Efficiency
+            - 18.3c Applications of Electrochemical Energy Systems in Power Factor
+              Efficiency
+        - '- Section: 18.4 Electrochemical Energy Systems in Load Efficiency:':
+            subsections:
+            - 18.4a Introduction to Electrochemical Energy Systems in Load Efficiency
+            - 18.4b Principles of Electrochemical Energy Systems in Load Efficiency
+            - 18.4c Applications of Electrochemical Energy Systems in Load Efficiency
+    - '- Chapter 19: Electrochemical Energy Systems in Power Reliability:':
+        sections:
+        - '- Section: 19.1 Electrochemical Energy Systems in Voltage Reliability:':
+            subsections:
+            - 19.1a Introduction to Electrochemical Energy Systems in Voltage Reliability
+            - 19.1b Principles of Electrochemical Energy Systems in Voltage Reliability
+            - 19.1c Applications of Electrochemical Energy Systems in Voltage Reliability
+        - '- Section: 19.2 Electrochemical Energy Systems in':
+            subsections: []

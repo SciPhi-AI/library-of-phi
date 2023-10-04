@@ -1,0 +1,130 @@
+textbook:
+  Computing and Data Analysis for Environmental Applications: 
+    chapters:
+      - Course Introduction:
+          sections:
+            - Course Logistics
+            - Repeated Trials
+            - Virtual Experiments
+            - Probability
+            - Statistics
+      - Programming in MATLAB:
+          sections:
+            - Downloading Data
+            - Accessing MATLAB
+            - MATLAB Environment
+            - Variables
+            - Arrays
+            - Scripts
+            - Plotting Data
+      - Descriptive Statistics:
+          sections:
+            - Histograms
+            - Percentiles
+            - Mean
+            - Median
+            - Variance
+            - Characterizing Streamflow Data
+      - Probability:
+          sections:
+            - Experiments
+            - Outcomes
+            - Sample Spaces
+            - Events
+            - Probability
+            - Axioms of Probability
+            - Methods for Assigning Probabilities
+      - MATLAB Operations:
+          sections:
+            - Internal MATLAB Functions
+            - Common MATLAB Operations
+            - Element-wise Computations
+            - Loops
+            - Translating Equations to Programs
+      - Joint Probability, Independence, Repeated Trials:
+          sections:
+            - Joint Probability
+            - Independent Events
+            - Repeated Trials
+      - Combinatorial Methods for Deriving Probabilities:
+          sections:
+            - Counting Rules
+            - Combinatorial Techniques for Evaluating Probabilities
+      - MATLAB Tests and Loops:
+          sections:
+            - Relational and Logical Operations
+            - User-defined Functions
+            - if Tests
+            - Virtual Experiments
+      - Conditional Probability and Bayes Theorem:
+          sections:
+            - Joint Probability
+            - Conditional Probability
+            - Prior & Posterior Probabilities
+            - Bayes Theorem
+            - Engineering Applications
+      - Random Variables and Probability Distributions:
+          sections:
+            - Definition of a Random Variable
+            - Cumulative Distribution Functions
+            - Mass and Density Functions
+            - Using Distributions to Assign Probabilities
+      - Expectation, Functions of a Random Variable:
+          sections:
+            - Expectation
+            - Population Mean and Variance
+            - Defining and Functions of a Single Random Variable
+            - Solving Derived Distribution Problems with Stochastic Simulation
+      - Risk:
+          sections:
+            - Defining and Evaluating Risk
+            - Engineering Applications
+      - Some Common Probability Distributions:
+          sections:
+            - Uniform, Exponential, Normal, and Lognormal Distributions
+            - Special Properties of Normal Random Variables
+            - Fitting Distributions to Data
+      - Multivariate Probability:
+          sections:
+            - Multiple Random Variables
+            - Joint and Conditional Distributions
+            - Independence
+            - Covariance and Correlation
+            - Computing Conditional Probabilities in MATLAB
+      - Functions of Many Random Variables:
+          sections:
+            - Derived distributions for multivariate problems
+            - Moments of linear functions of several random variables
+            - Central Limit Theorem
+      - Time Series and Central Limit Theorem:
+          sections:
+            - Time Series
+            - Central Limit Theorem
+      - Populations and Samples:
+          sections:
+            - Populations
+            - Random Samples
+            - Sample Statistics
+            - Moments of the Sample Mean and Variance
+      - Estimation:
+          sections:
+            - Estimating Distributional Properties
+            - Assessing Estimation Error
+            - Comparing Alternative Estimators
+      - Confidence Intervals:
+          sections:
+            - Basic Concepts
+            - Large Sample Confidence Intervals for the Population Mean
+            - Computing Large Sample Confidence Intervals
+      - Testing Hypotheses about a Single Population:
+          sections:
+            - Formulating Hypothesis Testing Problems
+            - Definitions
+            - Large Sample Tests of Hypotheses about a Single Population
+            - Applications Using MATLAB
+      - Testing Hypotheses about Two Populations:
+          sections:
+            - Independent Samples t-Test
+            - Paired Samples t-Test
+            - Comparing Two Population Proportions
+            - Applications Using MATLAB

@@ -1,0 +1,473 @@
+textbook: 
+"Estimation and Control of Aerospace Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Frequency Response Bode Plot Rules:
+subsections:
+- 1.1a Introduction to Bode Plot Rules
+- 1.1b Application of Bode Plot Rules
+- 1.1c Examples of Bode Plot Rules
+
+- Section: 1.2 Frequency Response:
+subsections:
+- 1.2a Definition of Frequency Response
+- 1.2b Frequency Response Analysis
+- 1.2c Frequency Response in Aerospace Systems
+
+- Section: 1.3 Bode Plot Exercises:
+subsections:
+- 1.3a Introduction to Bode Plot Exercises
+- 1.3b Bode Plot Exercise Solutions
+- 1.3c Advanced Bode Plot Exercises
+
+- Section: 1.4 Bode Plots for Unstable Open - Loop Systems:
+subsections:
+- 1.4a Introduction to Unstable Open-Loop Systems
+- 1.4b Bode Plots for Unstable Systems
+- 1.4c Analysis of Unstable Open-Loop Systems
+
+- Section: 1.5 Root - Locus Review:
+subsections:
+- 1.5a Introduction to Root-Locus
+- 1.5b Root-Locus in Control Systems
+- 1.5c Root-Locus Examples
+
+- Chapter 2: Compensation Design Principles:
+sections:
+- Section: 2.1 Compensation Design Principles:
+subsections:
+- 2.1a Introduction to Compensation Design
+- 2.1b Principles of Compensation Design
+- 2.1c Compensation Design in Aerospace Systems
+
+- Section: 2.2 Proportional Control:
+subsections:
+- 2.2a Definition of Proportional Control
+- 2.2b Proportional Control in Aerospace Systems
+- 2.2c Examples of Proportional Control
+
+- Section: 2.3 Lag and PID Compensation:
+subsections:
+- 2.3a Introduction to Lag and PID Compensation
+- 2.3b Lag and PID Compensation in Control Systems
+- 2.3c Examples of Lag and PID Compensation
+
+- Section: 2.4 Lead and PID Compensation:
+subsections:
+- 2.4a Introduction to Lead and PID Compensation
+- 2.4b Lead and PID Compensation in Control Systems
+- 2.4c Examples of Lead and PID Compensation
+
+- Section: 2.5 Examples:
+subsections:
+- 2.5a Basic Examples of Compensation Design
+- 2.5b Advanced Examples of Compensation Design
+- 2.5c Case Studies of Compensation Design
+
+- Chapter 3: High Frequency Roll-off Notch and Plant Inversion:
+sections:
+- Section: 3.1 High Frequency Roll-off Notch and Plant Inversion:
+subsections:
+- 3.1a Introduction to High Frequency Roll-off Notch
+- 3.1b Plant Inversion in Control Systems
+- 3.1c High Frequency Roll-off Notch in Aerospace Systems
+
+- Section: 3.2 Design Example Lead-Lag Compensation:
+subsections:
+- 3.2a Introduction to Lead-Lag Compensation
+- 3.2b Designing Lead-Lag Compensation
+- 3.2c Examples of Lead-Lag Compensation
+
+- Section: 3.3 Examples:
+subsections:
+- 3.3a Basic Examples of High Frequency Roll-off Notch
+- 3.3b Advanced Examples of Plant Inversion
+- 3.3c Case Studies of High Frequency Roll-off Notch and Plant Inversion
+
+- Section: 3.4 More Examples:
+subsections:
+- 3.4a Additional Examples of High Frequency Roll-off Notch
+- 3.4b Additional Examples of Plant Inversion
+- 3.4c Additional Case Studies of High Frequency Roll-off Notch and Plant Inversion
+
+- Chapter 4: Control of Unstable Plants:
+sections:
+- Section: 4.1 Control of Unstable Plants:
+subsections:
+- 4.1a Introduction to Unstable Plants
+- 4.1b Control Techniques for Unstable Plants
+- 4.1c Examples of Controlling Unstable Plants
+
+- Section: 4.2 Models of Nonlinearities:
+subsections:
+- 4.2a Introduction to Nonlinear Models
+- 4.2b Nonlinear Models in Control Systems
+- 4.2c Examples of Nonlinear Models
+
+- Section: 4.3 Common Effects of Nonlinearities:
+subsections:
+- 4.3a Introduction to Effects of Nonlinearities
+- 4.3b Effects of Nonlinearities in Control Systems
+- 4.3c Examples of Effects of Nonlinearities
+
+- Section: 4.4 Prof. David Trumper’s Lecture:
+subsections:
+- 4.4a Overview of Prof. David Trumper’s Lecture
+- 4.4b Key Takeaways from Prof. David Trumper’s Lecture
+- 4.4c Application of Prof. David Trumper’s Lecture
+
+- Chapter 5: Describing Functions:
+sections:
+- Section: 5.1 Describing Functions Introduction and Motivation:
+subsections:
+- 5.1a Introduction to Describing Functions
+- 5.1b Motivation for Describing Functions
+- 5.1c Describing Functions in Control Systems
+
+- Section: 5.2 Describing Function Analysis:
+subsections:
+- 5.2a Introduction to Describing Function Analysis
+- 5.2b Describing Function Analysis Techniques
+- 5.2c Examples of Describing Function Analysis
+
+- Section: 5.3 Computing DFs:
+subsections:
+- 5.3a Introduction to Computing DFs
+- 5.3b Techniques for Computing DFs
+- 5.3c Examples of Computing DFs
+
+- Section: 5.4 DF Analysis: Example 1, Stability of Boat Autopilot:
+subsections:
+- 5.4a Introduction to Stability of Boat Autopilot
+- 5.4b DF Analysis of Boat Autopilot
+- 5.4c Case Study: Stability of Boat Autopilot
+
+- Section: 5.5 DF Analysis: Example 1:
+subsections:
+- 5.5a Introduction to DF Analysis Example 1
+- 5.5b DF Analysis Example 1 Solution
+- 5.5c Case Study: DF Analysis Example 1
+
+- Section: 5.6 DF Analysis: Limit Cycling:
+subsections:
+- 5.6a Introduction to Limit Cycling
+- 5.6b DF Analysis of Limit Cycling
+- 5.6c Case Study: Limit Cycling
+
+- Section: 5.7 DF Analysis: Jump Resonance:
+subsections:
+- 5.7a Introduction to Jump Resonance
+- 5.7b DF Analysis of Jump Resonance
+- 5.7c Case Study: Jump Resonance
+
+- Section: 5.8 DF-based Compensation Design:
+subsections:
+- 5.8a Introduction to DF-based Compensation Design
+- 5.8b Techniques for DF-based Compensation Design
+- 5.8c Examples of DF-based Compensation Design
+
+- Chapter 6: Phase-Plane Analysis:
+sections:
+- Section: 6.1 Phase-Plane Analysis Introduction and Motivation:
+subsections:
+- 6.1a Introduction to Phase-Plane Analysis
+- 6.1b Motivation for Phase-Plane Analysis
+- 6.1c Phase-Plane Analysis in Control Systems
+
+- Section: 6.2 Phase Plane Drawing Rules:
+subsections:
+- 6.2a Introduction to Phase Plane Drawing Rules
+- 6.2b Phase Plane Drawing Techniques
+- 6.2c Examples of Phase Plane Drawing
+
+- Section: 6.3 Phase - Plane Example I Carry-on Suitcase:
+subsections:
+- 6.3a Introduction to Carry-on Suitcase Example
+- 6.3b Phase-Plane Analysis of Carry-on Suitcase
+- 6.3c Case Study: Carry-on Suitcase
+
+- Section: 6.4 Phase - Plane Example II Satellite System:
+subsections:
+- 6.4a Introduction to Satellite System Example
+- 6.4b Phase-Plane Analysis of Satellite System
+- 6.4c Case Study: Satellite System
+
+- Section: 6.5 Phase - Plane Example III Satellite System:
+subsections:
+- 6.5a Introduction to Satellite System Example III
+- 6.5b Phase-Plane Analysis of Satellite System III
+- 6.5c Case Study: Satellite System III
+
+- Section: 6.6 Phase - Plane and Parameter Dependence of System Dynamics:
+subsections:
+- 6.6a Introduction to Parameter Dependence
+- 6.6b Parameter Dependence in System Dynamics
+- 6.6c Examples of Parameter Dependence
+
+- Chapter 7: Compensation Design Principles II:
+sections:
+- Section: 7.1 Advanced Compensation Design Principles:
+subsections:
+- 7.1a Introduction to Advanced Compensation Design
+- 7.1b Advanced Principles of Compensation Design
+- 7.1c Advanced Compensation Design in Aerospace Systems
+
+- Section: 7.2 Proportional Control II:
+subsections:
+- 7.2a Advanced Proportional Control
+- 7.2b Proportional Control in Advanced Aerospace Systems
+- 7.2c Examples of Advanced Proportional Control
+
+- Section: 7.3 Lag and PID Compensation II:
+subsections:
+- 7.3a Advanced Lag and PID Compensation
+- 7.3b Lag and PID Compensation in Advanced Control Systems
+- 7.3c Examples of Advanced Lag and PID Compensation
+
+- Section: 7.4 Lead and PID Compensation II:
+subsections:
+- 7.4a Advanced Lead and PID Compensation
+- 7.4b Lead and PID Compensation in Advanced Control Systems
+- 7.4c Examples of Advanced Lead and PID Compensation
+
+- Section: 7.5 Examples II:
+subsections:
+- 7.5a Basic Examples of Advanced Compensation Design
+- 7.5b Advanced Examples of Compensation Design
+- 7.5c Case Studies of Advanced Compensation Design
+
+- Chapter 8: High Frequency Roll-off Notch and Plant Inversion II:
+sections:
+- Section: 8.1 Advanced High Frequency Roll-off Notch and Plant Inversion:
+subsections:
+- 8.1a Introduction to Advanced High Frequency Roll-off Notch
+- 8.1b Plant Inversion in Advanced Control Systems
+- 8.1c High Frequency Roll-off Notch in Advanced Aerospace Systems
+
+- Section: 8.2 Design Example Lead-Lag Compensation II:
+subsections:
+- 8.2a Introduction to Advanced Lead-Lag Compensation
+- 8.2b Designing Advanced Lead-Lag Compensation
+- 8.2c Examples of Advanced Lead-Lag Compensation
+
+- Section: 8.3 Examples II:
+subsections:
+- 8.3a Basic Examples of Advanced High Frequency Roll-off Notch
+- 8.3b Advanced Examples of Plant Inversion
+- 8.3c Case Studies of Advanced High Frequency Roll-off Notch and Plant Inversion
+
+- Section: 8.4 More Examples II:
+subsections:
+- 8.4a Additional Examples of Advanced High Frequency Roll-off Notch
+- 8.4b Additional Examples of Plant Inversion
+- 8.4c Additional Case Studies of Advanced High Frequency Roll-off Notch and Plant Inversion
+
+- Chapter 9: Control of Unstable Plants II:
+sections:
+- Section: 9.1 Advanced Control of Unstable Plants:
+subsections:
+- 9.1a Introduction to Advanced Unstable Plants
+- 9.1b Control Techniques for Advanced Unstable Plants
+- 9.1c Examples of Controlling Advanced Unstable Plants
+
+- Section: 9.2 Models of Nonlinearities II:
+subsections:
+- 9.2a Introduction to Advanced Nonlinear Models
+- 9.2b Nonlinear Models in Advanced Control Systems
+- 9.2c Examples of Advanced Nonlinear Models
+
+- Section: 9.3 Common Effects of Nonlinearities II:
+subsections:
+- 9.3a Introduction to Advanced Effects of Nonlinearities
+- 9.3b Effects of Nonlinearities in Advanced Control Systems
+- 9.3c Examples of Advanced Effects of Nonlinearities
+
+- Section: 9.4 Prof. David Trumper’s Lecture II:
+subsections:
+- 9.4a Overview of Prof. David Trumper’s Advanced Lecture
+- 9.4b Key Takeaways from Prof. David Trumper’s Advanced Lecture
+- 9.4c Application of Prof. David Trumper’s Advanced Lecture
+
+- Chapter 10: Describing Functions II:
+sections:
+- Section: 10.1 Advanced Describing Functions Introduction and Motivation:
+subsections:
+- 10.1a Introduction to Advanced Describing Functions
+- 10.1b Motivation for Advanced Describing Functions
+- 10.1c Describing Functions in Advanced Control Systems
+
+- Section: 10.2 Advanced Describing Function Analysis:
+subsections:
+- 10.2a Introduction to Advanced Describing Function Analysis
+- 10.2b Describing Function Analysis Techniques
+- 10.2c Examples of Advanced Describing Function Analysis
+
+- Section: 10.3 Computing DFs II:
+subsections:
+- 10.3a Introduction to Advanced Computing DFs
+- 10.3b Techniques for Advanced Computing DFs
+- 10.3c Examples of Advanced Computing DFs
+
+- Section: 10.4 DF Analysis: Example 1, Stability of Boat Autopilot II:
+subsections:
+- 10.4a Introduction to Advanced Stability of Boat Autopilot
+- 10.4b DF Analysis of Advanced Boat Autopilot
+- 10.4c Case Study: Advanced Stability of Boat Autopilot
+
+- Section: 10.5 DF Analysis: Example 1 II:
+subsections:
+- 10.5a Introduction to Advanced DF Analysis Example 1
+- 10.5b DF Analysis Example 1 Solution
+- 10.5c Case Study: Advanced DF Analysis Example 1
+
+- Section: 10.6 DF Analysis: Limit Cycling II:
+subsections:
+- 10.6a Introduction to Advanced Limit Cycling
+- 10.6b DF Analysis of Advanced Limit Cycling
+- 10.6c Case Study: Advanced Limit Cycling
+
+- Section: 10.7 DF Analysis: Jump Resonance II:
+subsections:
+- 10.7a Introduction to Advanced Jump Resonance
+- 10.7b DF Analysis of Advanced Jump Resonance
+- 10.7c Case Study: Advanced Jump Resonance
+
+- Section: 10.8 DF-based Compensation Design II:
+subsections:
+- 10.8a Introduction to Advanced DF-based Compensation Design
+- 10.8b Techniques for Advanced DF-based Compensation Design
+- 10.8c Examples of Advanced DF-based Compensation Design
+
+- Chapter 11: Phase-Plane Analysis II:
+sections:
+- Section: 11.1 Advanced Phase-Plane Analysis Introduction and Motivation:
+subsections:
+- 11.1a Introduction to Advanced Phase-Plane Analysis
+- 11.1b Motivation for Advanced Phase-Plane Analysis
+- 11.1c Phase-Plane Analysis in Advanced Control Systems
+
+- Section: 11.2 Advanced Phase Plane Drawing Rules:
+subsections:
+- 11.2a Introduction to Advanced Phase Plane Drawing Rules
+- 11.2b Phase Plane Drawing Techniques
+- 11.2c Examples of Advanced Phase Plane Drawing
+
+- Section: 11.3 Phase - Plane Example I Carry-on Suitcase II:
+subsections:
+- 11.3a Introduction to Advanced Carry-on Suitcase Example
+- 11.3b Phase-Plane Analysis of Advanced Carry-on Suitcase
+- 11.3c Case Study: Advanced Carry-on Suitcase
+
+- Section: 11.4 Phase - Plane Example II Satellite System II:
+subsections:
+- 11.4a Introduction to Advanced Satellite System Example
+- 11.4b Phase-Plane Analysis of Advanced Satellite System
+- 11.4c Case Study: Advanced Satellite System
+
+- Section: 11.5 Phase - Plane Example III Satellite System II:
+subsections:
+- 11.5a Introduction to Advanced Satellite System Example III
+- 11.5b Phase-Plane Analysis of Advanced Satellite System III
+- 11.5c Case Study: Advanced Satellite System III
+
+- Section: 11.6 Phase - Plane and Parameter Dependence of System Dynamics II:
+subsections:
+- 11.6a Introduction to Advanced Parameter Dependence
+- 11.6b Parameter Dependence in Advanced System Dynamics
+- 11.6c Examples of Advanced Parameter Dependence
+
+- Chapter 12: Compensation Design Principles III:
+sections:
+- Section: 12.1 Advanced Compensation Design Principles II:
+subsections:
+- 12.1a Introduction to Advanced Compensation Design II
+- 12.1b Principles of Advanced Compensation Design II
+- 12.1c Advanced Compensation Design in Aerospace Systems II
+
+- Section: 12.2 Proportional Control III:
+subsections:
+- 12.2a Advanced Proportional Control II
+- 12.2b Proportional Control in Advanced Aerospace Systems II
+- 12.2c Examples of Advanced Proportional Control II
+
+- Section: 12.3 Lag and PID Compensation III:
+subsections:
+- 12.3a Advanced Lag and PID Compensation II
+- 12.3b Lag and PID Compensation in Advanced Control Systems II
+- 12.3c Examples of Advanced Lag and PID Compensation II
+
+- Section: 12.4 Lead and PID Compensation III:
+subsections:
+- 12.4a Advanced Lead and PID Compensation II
+- 12.4b Lead and PID Compensation in Advanced Control Systems II
+- 12.4c Examples of Advanced Lead and PID Compensation II
+
+- Section: 12.5 Examples III:
+subsections:
+- 12.5a Basic Examples of Advanced Compensation Design II
+- 12.5b Advanced Examples of Compensation Design II
+- 12.5c Case Studies of Advanced Compensation Design II
+
+- Chapter 13: High Frequency Roll-off Notch and Plant Inversion III:
+sections:
+- Section: 13.1 Advanced High Frequency Roll-off Notch and Plant Inversion II:
+subsections:
+- 13.1a Introduction to Advanced High Frequency Roll-off Notch II
+- 13.1b Plant Inversion in Advanced Control Systems II
+- 13.1c High Frequency Roll-off Notch in Advanced Aerospace Systems II
+
+- Section: 13.2 Design Example Lead-Lag Compensation III:
+subsections:
+- 13.2a Introduction to Advanced Lead-Lag Compensation II
+- 13.2b Designing Advanced Lead-Lag Compensation II
+- 13.2c Examples of Advanced Lead-Lag Compensation II
+
+- Section: 13.3 Examples III:
+subsections:
+- 13.3a Basic Examples of Advanced High Frequency Roll-off Notch II
+- 13.3b Advanced Examples of Plant Inversion II
+- 13.3c Case Studies of Advanced High Frequency Roll-off Notch and Plant Inversion II
+
+- Section: 13.4 More Examples III:
+subsections:
+- 13.4a Additional Examples of Advanced High Frequency Roll-off Notch II
+- 13.4b Additional Examples of Plant Inversion II
+- 13.4c Additional Case Studies of Advanced High Frequency Roll-off Notch and Plant Inversion II
+
+- Chapter 14: Control of Unstable Plants III:
+sections:
+- Section: 14.1 Advanced Control of Unstable Plants II:
+subsections:
+- 14.1a Introduction to Advanced Unstable Plants II
+- 14.1b Control Techniques for Advanced Unstable Plants II
+- 14.1c Examples of Controlling Advanced Unstable Plants II
+
+- Section: 14.2 Models of Nonlinearities III:
+subsections:
+- 14.2a Introduction to Advanced Nonlinear Models II
+- 14.2b Nonlinear Models in Advanced Control Systems II
+- 14.2c Examples of Advanced Nonlinear Models II
+
+- Section: 14.3 Common Effects of Nonlinearities III:
+subsections:
+- 14.3a Introduction to Advanced Effects of Nonlinearities II
+- 14.3b Effects of Nonlinearities in Advanced Control Systems II
+- 14.3c Examples of Advanced Effects of Nonlinearities II
+
+- Section: 14.4 Prof. David Trumper’s Lecture III:
+subsections:
+- 14.4a Overview of Prof. David Trumper’s Advanced Lecture II
+- 14.4b Key Takeaways from Prof. David Trumper’s Advanced Lecture II
+- 14.4c Application of Prof. David Trumper’s Advanced Lecture II
+
+- Chapter 15: Describing Functions III:
+sections:
+- Section: 15.1 Advanced Describing Functions Introduction and Motivation II:
+subsections:
+- 15.1a Introduction to Advanced Describing Functions II
+- 15.1b Motivation for Advanced Describing Functions II
+- 15.1c Describing Functions in Advanced Control Systems II
+
+- Section: 15.

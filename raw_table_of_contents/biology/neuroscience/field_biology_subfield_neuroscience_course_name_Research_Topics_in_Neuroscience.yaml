@@ -1,0 +1,122 @@
+textbook:
+  'Research Topics in Neuroscience: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: From Neurons to Neural Networks:':
+        sections:
+        - '- Section: 1.1 Neuron Anatomy and Physiology:':
+            subsections:
+            - 1.1a Structure of Neurons
+            - 1.1b Function of Neurons
+            - 1.1c Neuron Classification
+        - '- Section: 1.2 Neural Circuits and Networks:':
+            subsections:
+            - 1.2a Neural Circuit Formation
+            - 1.2b Neural Network Models
+            - 1.2c Neural Network Functions
+        - '- Section: 1.3 Synaptic Transmission:':
+            subsections:
+            - 1.3a Mechanism of Synaptic Transmission
+            - 1.3b Role in Neural Communication
+            - 1.3c Synaptic Plasticity
+    - '- Chapter 2: Prefrontal Cortex and the Neural Basis of Cognitive Control:':
+        sections:
+        - '- Section: 2.1 Prefrontal Cortex Anatomy and Functions:':
+            subsections:
+            - 2.1a Structure of Prefrontal Cortex
+            - 2.1b Role in Cognitive Functions
+            - 2.1c Disorders Related to Prefrontal Cortex
+        - '- Section: 2.2 Executive Functions:':
+            subsections:
+            - 2.2a Definition and Importance of Executive Functions
+            - 2.2b Role of Prefrontal Cortex in Executive Functions
+            - 2.2c Disorders Affecting Executive Functions
+        - '- Section: 2.3 Working Memory:':
+            subsections:
+            - 2.3a Definition and Importance of Working Memory
+            - 2.3b Role of Prefrontal Cortex in Working Memory
+            - 2.3c Disorders Affecting Working Memory
+    - '- Chapter 3: Hippocampal Memory Formation and the Role of Sleep:':
+        sections:
+        - '- Section: 3.1 Hippocampus Anatomy and Functions:':
+            subsections:
+            - 3.1a Structure of Hippocampus
+            - 3.1b Role in Memory Formation
+            - 3.1c Disorders Related to Hippocampus
+        - '- Section: 3.2 Hippocampal Memory Formation:':
+            subsections:
+            - 3.2a Mechanism of Memory Formation in Hippocampus
+            - 3.2b Role of Long-term Potentiation
+            - 3.2c Role of Sleep in Memory Formation
+        - '- Section: 3.3 Sleep and Memory:':
+            subsections:
+            - 3.3a Sleep Stages and Memory Consolidation
+            - 3.3b Role of REM and Non-REM Sleep in Memory
+            - 3.3c Sleep Disorders and Memory Impairment
+    - '- Chapter 4: The Formation of Internal Modes for Learning Motor Skills:':
+        sections:
+        - '- Section: 4.1 Motor Skill Learning:':
+            subsections:
+            - 4.1a Definition and Importance of Motor Skills
+            - 4.1b Role of Motor Cortex in Skill Learning
+            - 4.1c Role of Basal Ganglia in Skill Learning
+        - '- Section: 4.2 Motor Cortex and Motor Control:':
+            subsections:
+            - 4.2a Structure and Function of Motor Cortex
+            - 4.2b Role in Motor Skill Learning
+            - 4.2c Disorders Affecting Motor Cortex
+        - '- Section: 4.3 Basal Ganglia and Motor Learning:':
+            subsections:
+            - 4.3a Structure and Function of Basal Ganglia
+            - 4.3b Role in Motor Skill Learning
+            - 4.3c Disorders Affecting Basal Ganglia
+    - '- Chapter 5: Look and See: How the Brain Selects Objects and Directs the Eyes:':
+        sections:
+        - '- Section: 5.1 Visual Perception:':
+            subsections:
+            - 5.1a Mechanism of Visual Perception
+            - 5.1b Role of Visual Cortex in Perception
+            - 5.1c Disorders Affecting Visual Perception
+        - '- Section: 5.2 Visual Attention:':
+            subsections:
+            - 5.2a Mechanism of Visual Attention
+            - 5.2b Role of Attention in Object Selection
+            - 5.2c Disorders Affecting Visual Attention
+        - '- Section: 5.3 Eye Movements and Saccades:':
+            subsections:
+            - 5.3a Mechanism of Eye Movements
+            - 5.3b Role of Saccades in Visual Attention
+            - 5.3c Disorders Affecting Eye Movements
+    - '- Chapter 6: How the Brain Wires Itself:':
+        sections:
+        - '- Section: 6.1 Neural Development:':
+            subsections:
+            - 6.1a Stages of Neural Development
+            - 6.1b Role of Genes in Neural Development
+            - 6.1c Disorders Affecting Neural Development
+        - '- Section: 6.2 Axon Guidance and Fasciculation:':
+            subsections:
+            - 6.2a Mechanism of Axon Guidance
+            - 6.2b Role of Growth Cones in Axon Guidance
+            - 6.2c Disorders Affecting Axon Guidance
+        - '- Section: 6.3 Synaptogenesis:':
+            subsections:
+            - 6.3a Mechanism of Synaptogenesis
+            - 6.3b Role of Neurotrophins in Synaptogenesis
+            - 6.3c Disorders Affecting Synaptogenesis
+    - '- Chapter 7: Exam:':
+        sections:
+        - '- Section: 7.1 Exam Preparation:':
+            subsections:
+            - 7.1a Study Techniques
+            - 7.1b Exam Strategies
+            - 7.1c Stress Management
+        - '- Section: 7.2 Exam Content:':
+            subsections:
+            - 7.2a Review of Key Concepts
+            - 7.2b Practice Questions
+            - 7.2c Exam Format
+        - '- Section: 7.3 Post-Exam Review:':
+            subsections:
+            - 7.3a Exam Feedback
+            - 7.3b Understanding Mistakes
+            - 7.3c Improvement Strategies

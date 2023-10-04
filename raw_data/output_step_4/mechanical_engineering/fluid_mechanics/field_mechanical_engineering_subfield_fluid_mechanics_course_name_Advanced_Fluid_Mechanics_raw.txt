@@ -1,0 +1,262 @@
+textbook: 
+"Advanced Fluid Mechanics Textbook":
+
+chapters:
+- Chapter 1: The Continuum Viewpoint and the Equations of Motion:
+sections:
+- Section: 1.1 Introduction to Fluid Mechanics:
+subsections:
+- 1.1a Continuum Hypothesis
+- 1.1b Thermophysical Properties of Fluids
+
+- Section: 1.2 The Material Derivative and Descriptions of Fluid Motion:
+subsections:
+- 1.2a Lagrangian and Eulerian Descriptions
+- 1.2b Kinematics of Deformation
+
+- Section: 1.3 Forces and Stresses in Fluids:
+subsections:
+- 1.3a Forces and Stresses at a Point
+- 1.3b Hydrostatic Pressure Variations
+- 1.3c Rigid Body Motions
+
+- Section: 1.4 Bernoulli's Equation:
+subsections:
+- 1.4a Steady Bernoulli Equation Along Streamlines
+- 1.4b Steady Bernoulli Equation Across Streamlines
+- 1.4c Unsteady and Generalized Forms of the Bernoulli Equation
+
+- Chapter 2: The Reynolds Transport Theorem:
+sections:
+- Section: 2.1 Conservation Laws:
+subsections:
+- 2.1a Conservation of Mass
+- 2.1b Conservation of Energy
+- 2.1c Conservation of Entropy
+
+- Section: 2.2 Conservation of Momentum:
+subsections:
+- 2.2a Linear Momentum
+- 2.2b Angular Momentum
+
+- Chapter 3: The Navier-Stokes Equations and Boundary Conditions:
+sections:
+- Section: 3.1 Constitutive Equation for Newtonian Fluids:
+subsections:
+- 3.1a Conservation of Mass in Differential Form
+- 3.1b Constitutive Equation for Newtonian Fluids
+
+- Section: 3.2 The Navier-Stokes Equations:
+subsections:
+- 3.2a The Navier-Stokes Equation
+- 3.2b Boundary Conditions for Navier-Stokes Equations
+
+- Chapter 4: Full Developed Flows and Stability of Viscous Flows:
+sections:
+- Section: 4.1 Full Developed Flows:
+subsections:
+- 4.1a Couette Flows
+- 4.1b Poiseuille Flows
+
+- Section: 4.2 Stability of Viscous Flows:
+subsections:
+- 4.2a Introduction to Stability Analysis
+- 4.2b Stability of Laminar Flows
+- 4.2c Transition to Turbulence
+
+- Chapter 5: The Buckingham Pi Theorem and Dimensionless Variables:
+sections:
+- Section: 5.1 The Buckingham Pi Theorem:
+subsections:
+- 5.1a Introduction to Dimensional Analysis
+- 5.1b Application of the Buckingham Pi Theorem
+
+- Section: 5.2 Physical Significance of Dimensionless Variables:
+subsections:
+- 5.2a Importance of Dimensionless Variables in Fluid Mechanics
+- 5.2b Examples of Dimensionless Numbers and Their Interpretation
+
+- Chapter 6: Asymptotic Limits and Scaling with Dimensionless Variables:
+sections:
+- Section: 6.1 Asymptotic Limits of the Governing Equations:
+subsections:
+- 6.1a Introduction to Asymptotic Analysis
+- 6.1b Boundary Layer Approximation
+
+- Section: 6.2 Scaling with Dimensionless Variables:
+subsections:
+- 6.2a Importance of Scaling in Fluid Mechanics
+- 6.2b Examples of Scaling Laws in Fluid Flow Problems
+
+- Chapter 7: Start-Up and Transient Flows; Similarity Solutions:
+sections:
+- Section: 7.1 Start-Up and Transient Flows:
+subsections:
+- 7.1a Introduction to Start-Up and Transient Flows
+- 7.1b Analytical and Numerical Methods for Transient Flows
+
+- Section: 7.2 Similarity Solution for a Flat Plate:
+subsections:
+- 7.2a Boundary Layer on a Flat Plate
+- 7.2b Falkner-Skan Solutions for Flow over a Flat Plate
+
+- Chapter 8: Quasi-Fully Developed Flows and Lubrication Analysis:
+sections:
+- Section: 8.1 Quasi-Fully Developed Flows:
+subsections:
+- 8.1a Introduction to Quasi-Fully Developed Flows
+- 8.1b Hagen-Poiseuille Flow
+
+- Section: 8.2 Lubrication Analysis:
+subsections:
+- 8.2a Introduction to Lubrication Theory
+- 8.2b Reynolds Equation and Its Applications
+
+- Chapter 9: Free Surfaces and Lubrication Flows:
+sections:
+- Section: 9.1 Free Surfaces in Fluids:
+subsections:
+- 9.1a Introduction to Free Surface Flows
+- 9.1b Capillary Action and Meniscus Shape
+
+- Section: 9.2 Other Lubrication Flows:
+subsections:
+- 9.2a Squeeze Film Lubrication
+- 9.2b Journal Bearing Lubrication
+
+- Chapter 10: The Velocity Potential and Stream Function; Complex Variable Formulation:
+sections:
+- Section: 10.1 The Velocity Potential and Stream Function:
+subsections:
+- 10.1a Introduction to Potential Flow Theory
+- 10.1b Velocity Potential and Stream Function for Incompressible Flows
+
+- Section: 10.2 Complex Variable Formulation:
+subsections:
+- 10.2a Complex Potential Flow Theory
+- 10.2b Applications of Complex Analysis in Fluid Mechanics
+
+- Chapter 11: Examples of Potential Flow Solutions:
+sections:
+- Section: 11.1 Potential Flow around Simple Geometries:
+subsections:
+- 11.1a Potential Flow over a Cylinder
+- 11.1b Potential Flow over a Sphere
+
+- Section: 11.2 Source-Sink Doublet Solutions:
+subsections:
+- 11.2a Source-Sink Pair in Uniform Flow
+- 11.2b Flow past a Doublet on a Plane Wall
+
+- Chapter 12: Circulation and Inviscid Flow; Rotational and Irrotational Flows:
+sections:
+- Section: 12.1 Definition of Circulation and Vorticity:
+subsections:
+- 12.1a Introduction to Circulation and Vorticity
+- 12.1b Relationship between Circulation and Vorticity
+
+- Section: 12.2 Rotational and Irrotational Flows:
+subsections:
+- 12.2a Conditions for Irrotational Flow
+- 12.2b Calculation of Circulation in Irrotational Flow
+
+- Chapter 13: Kelvin’s Circulation Theorems and Aerodynamics:
+sections:
+- Section: 13.1 Kelvin’s Circulation Theorems:
+subsections:
+- 13.1a Kelvin's Circulation Theorem for Steady Flow
+- 13.1b Kelvin's Circulation Theorem for Unsteady Flow
+
+- Section: 13.2 Aerodynamics:
+subsections:
+- 13.2a Lift and Induced Drag
+- 13.2b Airfoil Theory and Wing Design
+
+- Chapter 14: Motivation and Scaling of the Boundary Layer Equations:
+sections:
+- Section: 14.1 Introduction to Boundary Layers:
+subsections:
+- 14.1a Importance of Boundary Layers in Fluid Mechanics
+- 14.1b Boundary Layer Approximation and its Motivation
+
+- Section: 14.2 Measures of Boundary Layer Thickness:
+subsections:
+- 14.2a Momentum Thickness and Displacement Thickness
+- 14.2b Energy Thickness and Shape Factor
+
+- Chapter 15: Boundary Layer on a Flat Plate and Pressure Gradient Effects:
+sections:
+- Section: 15.1 Boundary Layer on a Flat Plate:
+subsections:
+- 15.1a Laminar Boundary Layer on a Flat Plate
+- 15.1b Transition and Turbulent Boundary Layer on a Flat Plate
+
+- Section: 15.2 Effect of a Pressure Gradient: Falkner-Skan Solutions:
+subsections:
+- 15.2a Falkner-Skan Equation and its Solutions
+- 15.2b Boundary Layer Separation and Reattachment
+
+- Chapter 16: Flow Separation and Turbulent Boundary Layers:
+sections:
+- Section: 16.1 Flow Separation in Fluids:
+subsections:
+- 16.1a Causes and Consequences of Flow Separation
+- 16.1b Control and Prevention of Flow Separation
+
+- Section: 16.2 Turbulent Boundary Layers:
+subsections:
+- 16.2a Characteristics of Turbulent Boundary Layers
+- 16.2b Turbulent Boundary Layer Thickness and Skin Friction
+
+- Chapter 17: Free Surface Force Balance and Capillarity:
+sections:
+- Section: 17.1 Free Surface Force Balance:
+subsections:
+- 17.1a Surface Tension and Capillary Pressure
+- 17.1b Equilibrium of Free Surfaces
+
+- Section: 17.2 Scaling and Dimensional Analysis in Capillarity:
+subsections:
+- 17.2a Capillary Rise and Capillary Length
+- 17.2b Capillary Waves and Capillary Action
+
+- Chapter 18: Examples of Flows Driven by Surface Tension:
+sections:
+- Section: 18.1 Capillary Flow in Microfluidics:
+subsections:
+- 18.1a Capillary Flow in Microchannels
+- 18.1b Droplet Formation and Manipulation
+
+- Section: 18.2 Bubble and Drop Dynamics:
+subsections:
+- 18.2a Growth and Collapse of Bubbles
+- 18.2b Motion and Coalescence of Drops
+
+- Chapter 19: Course Review:
+sections:
+- Section: 19.1 Recap of Key Concepts:
+subsections:
+- 19.1a Summary of Fundamental Fluid Mechanics Principles
+- 19.1b Overview of Advanced Topics Covered in the Course
+
+- Chapter 20: Advanced Topics in Fluid Mechanics:
+sections:
+- Section: 20.1 Computational Fluid Dynamics:
+subsections:
+- 20.1a Introduction to Computational Fluid Dynamics
+- 20.1b Numerical Methods for Fluid Flow Problems
+
+- Section: 20.2 Multiphase Flows:
+subsections:
+- 20.2a Introduction to Multiphase Flows
+- 20.2b Modeling and Simulation of Multiphase Flows
+
+- Section: 20.3 Non-Newtonian Fluids:
+subsections:
+- 20.3a Introduction to Non-Newtonian Fluids
+- 20.3b Rheology and Flow Behavior of Non-Newtonian Fluids
+
+- Section: 20.4 Microfluidics and Nanofluidics:
+subsections:
+- 20.4a Introduction to Microfluidics and Nanofluidics
+- 20.4b Applications and Challenges in Microfluidics and Nanofluidics

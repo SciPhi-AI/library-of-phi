@@ -1,0 +1,146 @@
+textbook:
+  'Organic Optoelectronics: A Comprehensive Guide to Organic Optoelectronics and Its Applications":':
+    chapters:
+    - '- Chapter 1: Introduction to the Class:':
+        sections:
+        - '- Section: 1.1 Course Number:':
+            subsections:
+            - 1.1a Course Code
+            - 1.1b Course Registration
+            - 1.1c Course Prerequisites
+        - '- Section: 1.2 Course Name:':
+            subsections:
+            - 1.2a Course Title
+            - 1.2b Course Description
+            - 1.2c Course Objectives
+        - '- Section: 1.3 Resource Level:':
+            subsections:
+            - 1.3a Textbook Requirements
+            - 1.3b Additional Reading Materials
+            - 1.3c Online Resources
+    - '- Chapter 2: Molecules - Chemistry:':
+        sections:
+        - '- Section: 2.1 Organic Molecules - Structure and Nomenclature:':
+            subsections:
+            - 2.1a Basic Organic Structures
+            - 2.1b Organic Compound Nomenclature
+            - 2.1c Functional Groups and Isomerism
+        - '- Section: 2.2 Organic Molecules - Cyclic and Conjugated Molecules:':
+            subsections:
+            - 2.2a Cyclic Organic Molecules
+            - 2.2b Conjugated Systems and Resonance
+            - "2.2c Aromaticity and H\xFCckel's Rule"
+        - '- Section: 2.3 Organic Molecules - Energy Levels:':
+            subsections:
+            - 2.3a Molecular Orbital Theory
+            - 2.3b Energy Level Diagrams
+            - 2.3c Excitation and Relaxation Processes
+    - '- Chapter 3: Molecules - Energy Structure:':
+        sections:
+        - '- Section: 3.1 From Molecules to Aggregates:':
+            subsections:
+            - 3.1a Molecular Aggregation
+            - 3.1b Intermolecular Forces in Aggregates
+            - 3.1c Aggregate Morphology and Properties
+        - '- Section: 3.2 Excited States of Aggregate Films:':
+            subsections:
+            - 3.2a Exciton Formation
+            - 3.2b Exciton Diffusion and Quenching
+            - 3.2c Photoluminescence in Aggregate Films
+        - '- Section: 3.3 Excitons - Types, Energy Transfer:':
+            subsections:
+            - 3.3a Types of Excitons
+            - 3.3b Exciton Energy Transfer Mechanisms
+            - 3.3c Exciton Dynamics in Organic Materials
+    - '- Chapter 4: From Monomers to Aggregates:':
+        sections:
+        - '- Section: 4.1 Exciton Diffusion:':
+            subsections:
+            - 4.1a Exciton Diffusion Process
+            - 4.1b Factors Affecting Exciton Diffusion
+            - 4.1c Measurement of Exciton Diffusion Length
+        - '- Section: 4.2 Energy Transfer:':
+            subsections:
+            - "4.2a F\xF6rster Resonance Energy Transfer (FRET)"
+            - 4.2b Dexter Energy Transfer
+            - 4.2c Energy Transfer Efficiency
+        - '- Section: 4.3 Growing and Purifying Thin Films/Crystals:':
+            subsections:
+            - 4.3a Thin Film Deposition Techniques
+            - 4.3b Crystal Growth Methods
+            - 4.3c Purification and Characterization Techniques
+    - '- Chapter 5: Photovoltaics and Photodetectors:':
+        sections:
+        - '- Section: 5.1 Interfaces - Metal/Organic, Organic/Organic:':
+            subsections:
+            - 5.1a Metal-Organic Interfaces
+            - 5.1b Organic-Organic Interfaces
+            - 5.1c Interface Engineering for Device Performance
+        - '- Section: 5.2 Xerography:':
+            subsections:
+            - 5.2a Principles of Xerography
+            - 5.2b Xerographic Process in Organic Photoreceptors
+            - 5.2c Xerographic Applications
+        - '- Section: 5.3 Charged Carrier Transport in Molecular Organics:':
+            subsections:
+            - 5.3a Charge Carrier Generation
+            - 5.3b Charge Carrier Mobility
+            - 5.3c Charge Carrier Recombination
+        - '- Section: 5.4 Charged Carrier Transport in Polymers:':
+            subsections:
+            - 5.4a Polymer Electronic Structure
+            - 5.4b Charge Transport Mechanisms in Polymers
+            - 5.4c Polymer-Based Electronic Devices
+    - '- Chapter 6: Light Emitting Devices:':
+        sections:
+        - '- Section: 6.1 Luminescence in a Solid Matrix:':
+            subsections:
+            - 6.1a Photoluminescence and Electroluminescence
+            - 6.1b Luminescent Materials for Organic Light Emitting Diodes (OLEDs)
+            - 6.1c Device Architecture and Operation of OLEDs
+        - '- Section: 6.2 Lasers:':
+            subsections:
+            - 6.2a Principles of Laser Operation
+            - 6.2b Organic Lasers
+            - 6.2c Applications of Organic Lasers
+    - '- Chapter 7: Transistors:':
+        sections:
+        - '- Section: 7.1 Transistors and Their Applications:':
+            subsections:
+            - 7.1a Organic Field-Effect Transistors (OFETs)
+            - 7.1b Device Structure and Operation of OFETs
+            - 7.1c Applications of OFETs
+        - '- Section: 7.2 Non-Linear Optical Materials/Electrochromics:':
+            subsections:
+            - 7.2a Non-Linear Optical Effects in Organic Materials
+            - 7.2b Electrochromic Materials and Devices
+            - 7.2c Applications of Non-Linear Optics and Electrochromics
+        - '- Section: 7.3 Molecular Electronics:':
+            subsections:
+            - 7.3a Principles of Molecular Electronics
+            - 7.3b Single-Molecule Devices
+            - 7.3c Challenges and Future Directions in Molecular Electronics
+    - '- Chapter 8: Student Presentations:':
+        sections:
+        - '- Section: 8.1 Student Presentations:':
+            subsections:
+            - 8.1a Presentation Guidelines
+            - 8.1b Evaluation Criteria
+            - 8.1c Presentation Topics
+    - '- Chapter 9: Final Project:':
+        sections:
+        - '- Section: 9.1 Review of a Published Article:':
+            subsections:
+            - 9.1a Article Selection
+            - 9.1b Article Review Guidelines
+            - 9.1c Article Review Presentation
+        - '- Section: 9.2 Brief Description of the Article:':
+            subsections:
+            - 9.2a Article Summary
+            - 9.2b Article Critique
+            - 9.2c Discussion of Article's Impact
+        - '- Section: 9.3 Significant Findings:':
+            subsections:
+            - 9.3a Key Results of the Article
+            - 9.3b Interpretation of Findings
+            - 9.3c Implications for the Field of Organic Optoelectronics

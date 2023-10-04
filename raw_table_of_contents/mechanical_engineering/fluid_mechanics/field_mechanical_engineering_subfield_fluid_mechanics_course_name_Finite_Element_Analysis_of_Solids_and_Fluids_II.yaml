@@ -1,0 +1,343 @@
+textbook:
+  'Finite Element Analysis of Solids and Fluids II: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Large Displacement Analysis of Solids/Structures:':
+        sections:
+        - '- Section: 1.1 Introduction to Finite Element Analysis:':
+            subsections:
+            - 1.1a Basics of Finite Element Analysis
+            - 1.1b Applications of Finite Element Analysis
+            - 1.1c Limitations of Finite Element Analysis
+        - '- Section: 1.2 Finite Element Displacement Formulation:':
+            subsections:
+            - 1.2a Introduction to Displacement Formulation
+            - 1.2b Displacement Formulation Techniques
+            - 1.2c Applications of Displacement Formulation
+        - '- Section: 1.3 Finite Element Formulation, Example, and Convergence:':
+            subsections:
+            - 1.3a Finite Element Formulation Techniques
+            - 1.3b Examples of Finite Element Formulation
+            - 1.3c Convergence in Finite Element Analysis
+    - '- Chapter 2: Isoparametric Elements:':
+        sections:
+        - '- Section: 2.1 Convergence of Displacement-based FEM:':
+            subsections:
+            - 2.1a Basics of Displacement-based FEM
+            - 2.1b Convergence Criteria in Displacement-based FEM
+            - 2.1c Applications and Examples
+        - '- Section: 2.2 u/p Formulation:':
+            subsections:
+            - 2.2a Introduction to u/p Formulation
+            - 2.2b Techniques in u/p Formulation
+            - 2.2c Applications of u/p Formulation
+        - '- Section: 2.3 Finite Element Large Deformation / General Nonlinear Analysis:':
+            subsections:
+            - 2.3a Basics of Large Deformation Analysis
+            - 2.3b Techniques in Nonlinear Analysis
+            - 2.3c Applications and Examples
+    - '- Chapter 3: Deformation, Strain, and Stress Tensors:':
+        sections:
+        - '- Section: 3.1 Total Lagrangian Formulation:':
+            subsections:
+            - 3.1a Introduction to Total Lagrangian Formulation
+            - 3.1b Techniques in Total Lagrangian Formulation
+            - 3.1c Applications of Total Lagrangian Formulation
+        - '- Section: 3.2 Field Problems in Solids:':
+            subsections:
+            - 3.2a Introduction to Field Problems
+            - 3.2b Techniques in Solving Field Problems
+            - 3.2c Applications and Examples
+        - '- Section: 3.3 Finite Element Analysis of Navier-Stokes Fluids:':
+            subsections:
+            - 3.3a Basics of Navier-Stokes Fluids
+            - 3.3b Finite Element Analysis Techniques
+            - 3.3c Applications and Examples
+    - '- Chapter 4: Incompressible Fluid Flow and Heat Transfer:':
+        sections:
+        - '- Section: 4.1 Solution of Finite Element Equations for Fluid Flow:':
+            subsections:
+            - 4.1a Basics of Fluid Flow Equations
+            - 4.1b Finite Element Solution Techniques
+            - 4.1c Applications and Examples
+        - '- Section: 4.2 Solution of Finite Element Equations for Heat Transfer:':
+            subsections:
+            - 4.2a Basics of Heat Transfer Equations
+            - 4.2b Finite Element Solution Techniques
+            - 4.2c Applications and Examples
+        - '- Section: 4.3 Slender Structures in Fluid Flow and Heat Transfer:':
+            subsections:
+            - 4.3a Introduction to Slender Structures
+            - 4.3b Fluid Flow and Heat Transfer in Slender Structures
+            - 4.3c Applications and Examples
+        - '- Section: 4.4 Beams, Plates, and Shells in Fluid Flow and Heat Transfer:':
+            subsections:
+            - 4.4a Introduction to Beams, Plates, and Shells
+            - 4.4b Fluid Flow and Heat Transfer in Beams, Plates, and Shells
+            - 4.4c Applications and Examples
+    - '- Chapter 5: Plates and Shells:':
+        sections:
+        - '- Section: 5.1 Introduction to Plate and Shell Analysis:':
+            subsections:
+            - 5.1a Basics of Plate and Shell Analysis
+            - 5.1b Techniques in Plate and Shell Analysis
+            - 5.1c Applications and Examples
+        - '- Section: 5.2 Classical Plate and Shell Theories:':
+            subsections:
+            - 5.2a Introduction to Classical Theories
+            - 5.2b Techniques in Classical Theories
+            - 5.2c Applications and Examples
+        - '- Section: 5.3 Finite Element Analysis of Plates and Shells:':
+            subsections:
+            - 5.3a Basics of Finite Element Analysis
+            - 5.3b Techniques in Finite Element Analysis
+            - 5.3c Applications and Examples
+    - '- Chapter 6: Term Project:':
+        sections:
+        - '- Section: 6.1 Project Guidelines:':
+            subsections:
+            - 6.1a Introduction to Project Guidelines
+            - 6.1b Techniques in Project Guidelines
+            - 6.1c Applications and Examples
+        - '- Section: 6.2 Project Examples and Case Studies:':
+            subsections:
+            - 6.2a Introduction to Examples and Case Studies
+            - 6.2b Techniques in Examples and Case Studies
+            - 6.2c Applications and Examples
+    - '- Chapter 7: Advanced Topics in Finite Element Analysis:':
+        sections:
+        - '- Section: 7.1 Nonlinear Finite Element Analysis:':
+            subsections:
+            - 7.1a Introduction to Nonlinear Finite Element Analysis
+            - 7.1b Techniques in Nonlinear Finite Element Analysis
+            - 7.1c Applications and Examples
+        - '- Section: 7.2 Finite Element Analysis in Solid Mechanics:':
+            subsections:
+            - 7.2a Introduction to Solid Mechanics
+            - 7.2b Techniques in Solid Mechanics
+            - 7.2c Applications and Examples
+        - '- Section: 7.3 Finite Element Analysis in Fluid Mechanics:':
+            subsections:
+            - 7.3a Introduction to Fluid Mechanics
+            - 7.3b Techniques in Fluid Mechanics
+            - 7.3c Applications and Examples
+    - '- Chapter 8: Mesh Generation and Refinement:':
+        sections:
+        - '- Section: 8.1 Mesh Generation Techniques:':
+            subsections:
+            - 8.1a Introduction to Mesh Generation
+            - 8.1b Techniques in Mesh Generation
+            - 8.1c Applications and Examples
+        - '- Section: 8.2 Mesh Refinement Techniques:':
+            subsections:
+            - 8.2a Introduction to Mesh Refinement
+            - 8.2b Techniques in Mesh Refinement
+            - 8.2c Applications and Examples
+        - '- Section: 8.3 Mesh Quality and Error Estimation:':
+            subsections:
+            - 8.3a Introduction to Mesh Quality and Error Estimation
+            - 8.3b Techniques in Mesh Quality and Error Estimation
+            - 8.3c Applications and Examples
+    - '- Chapter 9: Finite Element Analysis Software:':
+        sections:
+        - '- Section: 9.1 Introduction to Finite Element Analysis Software:':
+            subsections:
+            - 9.1a Overview of Finite Element Analysis Software
+            - 9.1b Using Finite Element Analysis Software
+            - 9.1c Applications and Examples
+        - '- Section: 9.2 Advanced Features in Finite Element Analysis Software:':
+            subsections:
+            - 9.2a Introduction to Advanced Features
+            - 9.2b Using Advanced Features
+            - 9.2c Applications and Examples
+        - '- Section: 9.3 Customizing Finite Element Analysis Software:':
+            subsections:
+            - 9.3a Introduction to Customizing Software
+            - 9.3b Techniques in Customizing Software
+            - 9.3c Applications and Examples
+    - '- Chapter 10: Finite Element Analysis in Practice:':
+        sections:
+        - '- Section: 10.1 Preprocessing in Finite Element Analysis:':
+            subsections:
+            - 10.1a Introduction to Preprocessing
+            - 10.1b Techniques in Preprocessing
+            - 10.1c Applications and Examples
+        - '- Section: 10.2 Solving in Finite Element Analysis:':
+            subsections:
+            - 10.2a Introduction to Solving
+            - 10.2b Techniques in Solving
+            - 10.2c Applications and Examples
+        - '- Section: 10.3 Postprocessing in Finite Element Analysis:':
+            subsections:
+            - 10.3a Introduction to Postprocessing
+            - 10.3b Techniques in Postprocessing
+            - 10.3c Applications and Examples
+    - '- Chapter 11: Finite Element Analysis in Industry:':
+        sections:
+        - '- Section: 11.1 Finite Element Analysis in Aerospace Industry:':
+            subsections:
+            - 11.1a Introduction to Aerospace Industry
+            - 11.1b Techniques in Aerospace Industry
+            - 11.1c Applications and Examples
+        - '- Section: 11.2 Finite Element Analysis in Automotive Industry:':
+            subsections:
+            - 11.2a Introduction to Automotive Industry
+            - 11.2b Techniques in Automotive Industry
+            - 11.2c Applications and Examples
+        - '- Section: 11.3 Finite Element Analysis in Civil Engineering:':
+            subsections:
+            - 11.3a Introduction to Civil Engineering
+            - 11.3b Techniques in Civil Engineering
+            - 11.3c Applications and Examples
+    - '- Chapter 12: Finite Element Analysis in Research:':
+        sections:
+        - '- Section: 12.1 Finite Element Analysis in Academic Research:':
+            subsections:
+            - 12.1a Introduction to Academic Research
+            - 12.1b Techniques in Academic Research
+            - 12.1c Applications and Examples
+        - '- Section: 12.2 Finite Element Analysis in Industrial Research:':
+            subsections:
+            - 12.2a Introduction to Industrial Research
+            - 12.2b Techniques in Industrial Research
+            - 12.2c Applications and Examples
+        - '- Section: 12.3 Finite Element Analysis in Government Research:':
+            subsections:
+            - 12.3a Introduction to Government Research
+            - 12.3b Techniques in Government Research
+            - 12.3c Applications and Examples
+    - '- Chapter 13: Finite Element Analysis in Education:':
+        sections:
+        - '- Section: 13.1 Teaching Finite Element Analysis:':
+            subsections:
+            - 13.1a Introduction to Teaching Finite Element Analysis
+            - 13.1b Techniques in Teaching Finite Element Analysis
+            - 13.1c Applications and Examples
+        - '- Section: 13.2 Learning Finite Element Analysis:':
+            subsections:
+            - 13.2a Introduction to Learning Finite Element Analysis
+            - 13.2b Techniques in Learning Finite Element Analysis
+            - 13.2c Applications and Examples
+        - '- Section: 13.3 Finite Element Analysis in Online Education:':
+            subsections:
+            - 13.3a Introduction to Online Education
+            - 13.3b Techniques in Online Education
+            - 13.3c Applications and Examples
+    - '- Chapter 14: Finite Element Analysis in the Future:':
+        sections:
+        - '- Section: 14.1 Future Trends in Finite Element Analysis:':
+            subsections:
+            - 14.1a Introduction to Future Trends
+            - 14.1b Predicted Future Trends
+            - 14.1c Applications and Examples
+        - '- Section: 14.2 Future Challenges in Finite Element Analysis:':
+            subsections:
+            - 14.2a Introduction to Future Challenges
+            - 14.2b Predicted Future Challenges
+            - 14.2c Applications and Examples
+        - '- Section: 14.3 Future Opportunities in Finite Element Analysis:':
+            subsections:
+            - 14.3a Introduction to Future Opportunities
+            - 14.3b Predicted Future Opportunities
+            - 14.3c Applications and Examples
+    - '- Chapter 15: Finite Element Analysis and Other Techniques:':
+        sections:
+        - '- Section: 15.1 Finite Element Analysis and Computational Fluid Dynamics:':
+            subsections:
+            - 15.1a Introduction to Computational Fluid Dynamics
+            - 15.1b Techniques in Computational Fluid Dynamics
+            - 15.1c Applications and Examples
+        - '- Section: 15.2 Finite Element Analysis and Machine Learning:':
+            subsections:
+            - 15.2a Introduction to Machine Learning
+            - 15.2b Techniques in Machine Learning
+            - 15.2c Applications and Examples
+        - '- Section: 15.3 Finite Element Analysis and Artificial Intelligence:':
+            subsections:
+            - 15.3a Introduction to Artificial Intelligence
+            - 15.3b Techniques in Artificial Intelligence
+            - 15.3c Applications and Examples
+    - '- Chapter 16: Finite Element Analysis and Society:':
+        sections:
+        - '- Section: 16.1 Finite Element Analysis and the Environment:':
+            subsections:
+            - 16.1a Introduction to the Environment
+            - 16.1b Techniques in Environmental Analysis
+            - 16.1c Applications and Examples
+        - '- Section: 16.2 Finite Element Analysis and the Economy:':
+            subsections:
+            - 16.2a Introduction to the Economy
+            - 16.2b Techniques in Economic Analysis
+            - 16.2c Applications and Examples
+        - '- Section: 16.3 Finite Element Analysis and Public Policy:':
+            subsections:
+            - 16.3a Introduction to Public Policy
+            - 16.3b Techniques in Public Policy Analysis
+            - 16.3c Applications and Examples
+    - '- Chapter 17: Finite Element Analysis and Ethics:':
+        sections:
+        - '- Section: 17.1 Ethical Issues in Finite Element Analysis:':
+            subsections:
+            - 17.1a Introduction to Ethical Issues
+            - 17.1b Techniques in Ethical Analysis
+            - 17.1c Applications and Examples
+        - '- Section: 17.2 Ethical Guidelines in Finite Element Analysis:':
+            subsections:
+            - 17.2a Introduction to Ethical Guidelines
+            - 17.2b Techniques in Ethical Guidelines
+            - 17.2c Applications and Examples
+        - '- Section: 17.3 Ethical Case Studies in Finite Element Analysis:':
+            subsections:
+            - 17.3a Introduction to Ethical Case Studies
+            - 17.3b Techniques in Ethical Case Studies
+            - 17.3c Applications and Examples
+    - '- Chapter 18: Finite Element Analysis and the Law:':
+        sections:
+        - '- Section: 18.1 Legal Issues in Finite Element Analysis:':
+            subsections:
+            - 18.1a Introduction to Legal Issues
+            - 18.1b Techniques in Legal Analysis
+            - 18.1c Applications and Examples
+        - '- Section: 18.2 Legal Guidelines in Finite Element Analysis:':
+            subsections:
+            - 18.2a Introduction to Legal Guidelines
+            - 18.2b Techniques in Legal Guidelines
+            - 18.2c Applications and Examples
+        - '- Section: 18.3 Legal Case Studies in Finite Element Analysis:':
+            subsections:
+            - 18.3a Introduction to Legal Case Studies
+            - 18.3b Techniques in Legal Case Studies
+            - 18.3c Applications and Examples
+    - '- Chapter 19: Finite Element Analysis and Culture:':
+        sections:
+        - '- Section: 19.1 Cultural Issues in Finite Element Analysis:':
+            subsections:
+            - 19.1a Introduction to Cultural Issues
+            - 19.1b Techniques in Cultural Analysis
+            - 19.1c Applications and Examples
+        - '- Section: 19.2 Cultural Guidelines in Finite Element Analysis:':
+            subsections:
+            - 19.2a Introduction to Cultural Guidelines
+            - 19.2b Techniques in Cultural Guidelines
+            - 19.2c Applications and Examples
+        - '- Section: 19.3 Cultural Case Studies in Finite Element Analysis:':
+            subsections:
+            - 19.3a Introduction to Cultural Case Studies
+            - 19.3b Techniques in Cultural Case Studies
+            - 19.3c Applications and Examples
+    - '- Chapter 20: Finite Element Analysis and You:':
+        sections:
+        - '- Section: 20.1 Personal Issues in Finite Element Analysis:':
+            subsections:
+            - 20.1a Introduction to Personal Issues
+            - 20.1b Techniques in Personal Analysis
+            - 20.1c Applications and Examples
+        - '- Section: 20.2 Personal Guidelines in Finite Element Analysis:':
+            subsections:
+            - 20.2a Introduction to Personal Guidelines
+            - 20.2b Techniques in Personal Guidelines
+            - 20.2c Applications and Examples
+        - '- Section: 20.3 Personal Case Studies in Finite Element Analysis:':
+            subsections:
+            - 20.3a Introduction to Personal Case Studies
+            - 20.3b Techniques in Personal Case Studies
+            - 20.3c Applications and Examples

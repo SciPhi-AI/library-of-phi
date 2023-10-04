@@ -1,0 +1,373 @@
+textbook:
+  'Comprehensive Guide to Unified Engineering":':
+    chapters:
+    - '- Chapter 1: Introduction to Engineering:':
+        sections:
+        - '- Section: 1.1 Engineering Disciplines':
+            subsections: []
+        - '- Section: 1.2 Engineering Design Process':
+            subsections: []
+        - '- Section: 1.3 Problem Solving Techniques':
+            subsections: []
+    - '- Chapter 2: Statics and Dynamics:':
+        sections:
+        - '- Section: 2.1 Forces and Moments':
+            subsections: []
+        - '- Section: 2.2 Equilibrium':
+            subsections: []
+        - '- Section: 2.3 Free Body Diagrams':
+            subsections: []
+        - '- Section: 2.4 Newton''s Laws of Motion':
+            subsections: []
+        - '- Section: 2.5 Kinematics':
+            subsections: []
+        - '- Section: 2.6 Energy and Momentum':
+            subsections:
+            - 2.6a Friction and Coefficients
+            - 2.6b Circular Motion
+            - 2.6c Rotational Dynamics
+            - 2.6d Systems of Particles
+            - 2.6e Work and Energy
+    - '- Chapter 3: Materials Science:':
+        sections:
+        - '- Section: 3.1 Atomic Structure':
+            subsections: []
+        - '- Section: 3.2 Crystal Structure':
+            subsections: []
+        - '- Section: 3.3 Mechanical Properties':
+            subsections: []
+        - '- Section: 3.4 Phase Diagrams':
+            subsections: []
+        - '- Section: 3.5 Material Testing':
+            subsections: []
+        - '- Section: 3.6 Failure Analysis':
+            subsections:
+            - 3.6a Elasticity
+            - 3.6b Plasticity
+            - 3.6c Creep and Fatigue
+            - 3.6d Composite Materials
+            - 3.6e Heat Treatment
+    - '- Chapter 4: Thermodynamics:':
+        sections:
+        - '- Section: 4.1 Laws of Thermodynamics':
+            subsections: []
+        - '- Section: 4.2 Heat and Work':
+            subsections: []
+        - '- Section: 4.3 Energy Conversion':
+            subsections: []
+        - '- Section: 4.4 Properties of Substances':
+            subsections: []
+        - '- Section: 4.5 Thermodynamic Processes':
+            subsections: []
+        - '- Section: 4.6 Power Cycles':
+            subsections:
+            - 4.6a Gas Laws
+            - 4.6b Thermodynamic Equilibrium
+            - 4.6c Entropy and Entropy Generation
+            - 4.6d Heat Transfer
+            - 4.6e Refrigeration and Air Conditioning
+    - '- Chapter 5: Fluid Mechanics:':
+        sections:
+        - '- Section: 5.1 Fluid Properties':
+            subsections: []
+        - '- Section: 5.2 Fluid Statics':
+            subsections: []
+        - '- Section: 5.3 Fluid Flow Kinematics':
+            subsections: []
+        - '- Section: 5.4 Conservation Laws':
+            subsections: []
+        - '- Section: 5.5 Bernoulli''s Equation':
+            subsections: []
+        - '- Section: 5.6 Flow in Pipes':
+            subsections:
+            - 5.6a Viscosity and Viscous Flow
+            - 5.6b Drag and Lift
+            - 5.6c Compressible Flow
+            - 5.6d Turbulent Flow
+            - 5.6e Boundary Layer Theory
+    - '- Chapter 6: Circuits and Electronics:':
+        sections:
+        - '- Section: 6.1 Circuit Elements':
+            subsections: []
+        - '- Section: 6.2 Ohm''s Law':
+            subsections: []
+        - '- Section: 6.3 Kirchhoff''s Laws':
+            subsections: []
+        - '- Section: 6.4 DC and AC Circuits':
+            subsections: []
+        - '- Section: 6.5 Transistors':
+            subsections: []
+        - '- Section: 6.6 Amplifiers':
+            subsections:
+            - 6.6a Filters and Signals
+            - 6.6b Diodes and Rectifiers
+            - 6.6c Operational Amplifiers
+            - 6.6d Digital Electronics
+            - 6.6e Power Electronics
+    - '- Chapter 7: Structures and Materials:':
+        sections:
+        - '- Section: 7.1 Structural Analysis':
+            subsections: []
+        - '- Section: 7.2 Stress and Strain':
+            subsections: []
+        - '- Section: 7.3 Beam Theory':
+            subsections: []
+        - '- Section: 7.4 Buckling':
+            subsections: []
+        - '- Section: 7.5 Material Selection':
+            subsections: []
+        - '- Section: 7.6 Composite Materials':
+            subsections:
+            - 7.6a Torsion
+            - 7.6b Bending and Shear Stress
+            - 7.6c Deflection and Stiffness
+            - 7.6d Fatigue and Failure
+            - 7.6e Welding and Joining
+    - '- Chapter 8: Signals and Systems:':
+        sections:
+        - '- Section: 8.1 Signals and Systems Basics':
+            subsections: []
+        - '- Section: 8.2 Fourier Series':
+            subsections: []
+        - '- Section: 8.3 Laplace Transform':
+            subsections: []
+        - '- Section: 8.4 Frequency Response':
+            subsections: []
+        - '- Section: 8.5 Control Systems':
+            subsections: []
+        - '- Section: 8.6 Feedback and Stability':
+            subsections:
+            - 8.6a Discrete-Time Signals and Systems
+            - 8.6b Z-Transform
+            - 8.6c Digital Signal Processing
+            - 8.6d State-Space Analysis
+            - 8.6e Adaptive Control
+    - '- Chapter 9: Aerospace Dynamics:':
+        sections:
+        - '- Section: 9.1 Rigid Body Kinematics':
+            subsections: []
+        - '- Section: 9.2 Aircraft Performance':
+            subsections: []
+        - '- Section: 9.3 Stability and Control':
+            subsections: []
+        - '- Section: 9.4 Orbital Mechanics':
+            subsections: []
+        - '- Section: 9.5 Spacecraft Dynamics':
+            subsections: []
+        - '- Section: 9.6 Rocket Propulsion':
+            subsections:
+            - 9.6a Flight Mechanics
+            - 9.6b Propeller and Jet Propulsion
+            - 9.6c Stability Augmentation
+            - 9.6d Attitude Control
+            - 9.6e Interplanetary Trajectories
+            - 9.6f Rocket Design and Testing
+    - '- Chapter 10: Engineering Mathematics:':
+        sections:
+        - '- Section: 10.1 Differential Equations':
+            subsections: []
+        - '- Section: 10.2 Linear Algebra':
+            subsections: []
+        - '- Section: 10.3 Calculus':
+            subsections: []
+        - '- Section: 10.4 Probability and Statistics':
+            subsections: []
+        - '- Section: 10.5 Numerical Methods':
+            subsections: []
+        - '- Section: 10.6 Optimization Techniques':
+            subsections:
+            - 10.6a Linear Programming
+            - 10.6b Nonlinear Programming
+            - 10.6c Dynamic Programming
+            - 10.6d Genetic Algorithms
+            - 10.6e Neural Networks
+    - '- Chapter 11: Engineering Design:':
+        sections:
+        - '- Section: 11.1 Design Process':
+            subsections: []
+        - '- Section: 11.2 Concept Generation':
+            subsections: []
+        - '- Section: 11.3 Concept Selection':
+            subsections: []
+        - '- Section: 11.4 Detailed Design':
+            subsections: []
+        - '- Section: 11.5 Prototyping and Testing':
+            subsections: []
+        - '- Section: 11.6 Design for Manufacturing':
+            subsections:
+            - 11.6a Design for Assembly
+            - 11.6b Design for Sustainability
+            - 11.6c Design for X
+            - 11.6d Reverse Engineering
+            - 11.6e Computer-Aided Design
+    - '- Chapter 12: Engineering Management:':
+        sections:
+        - '- Section: 12.1 Project Management':
+            subsections: []
+        - '- Section: 12.2 Quality Management':
+            subsections: []
+        - '- Section: 12.3 Risk Management':
+            subsections: []
+        - '- Section: 12.4 Supply Chain Management':
+            subsections: []
+        - '- Section: 12.5 Engineering Economics':
+            subsections: []
+        - '- Section: 12.6 Engineering Ethics':
+            subsections:
+            - 12.6a Professional Responsibility
+            - 12.6b Ethical Dilemmas
+            - 12.6c Codes of Ethics
+            - 12.6d Legal Aspects of Engineering
+            - 12.6e Social and Environmental Responsibility
+    - '- Chapter 13: Engineering Communication:':
+        sections:
+        - '- Section: 13.1 Technical Writing':
+            subsections: []
+        - '- Section: 13.2 Presentation Skills':
+            subsections: []
+        - '- Section: 13.3 Team Communication':
+            subsections: []
+        - '- Section: 13.4 Visual Communication':
+            subsections: []
+        - '- Section: 13.5 Documentation and Reporting':
+            subsections: []
+        - '- Section: 13.6 Communication Ethics':
+            subsections:
+            - 13.6a Plagiarism
+            - 13.6b Confidentiality
+            - 13.6c Intellectual Property
+            - 13.6d Communication in a Global Context
+            - 13.6e Communication Technology
+    - '- Chapter 14: Engineering Safety:':
+        sections:
+        - '- Section: 14.1 Safety Engineering':
+            subsections: []
+        - '- Section: 14.2 Hazard Identification':
+            subsections: []
+        - '- Section: 14.3 Risk Assessment':
+            subsections: []
+        - '- Section: 14.4 Safety Management Systems':
+            subsections: []
+        - '- Section: 14.5 Safety Regulations and Standards':
+            subsections: []
+        - '- Section: 14.6 Safety Culture':
+            subsections:
+            - 14.6a Safety Training
+            - 14.6b Safety Audits
+            - 14.6c Accident Investigation
+            - 14.6d Safety Performance Indicators
+            - 14.6e Safety Leadership
+    - '- Chapter 15: Engineering Sustainability:':
+        sections:
+        - '- Section: 15.1 Sustainable Engineering':
+            subsections: []
+        - '- Section: 15.2 Life Cycle Assessment':
+            subsections: []
+        - '- Section: 15.3 Energy Efficiency':
+            subsections: []
+        - '- Section: 15.4 Renewable Energy':
+            subsections: []
+        - '- Section: 15.5 Waste Management':
+            subsections: []
+        - '- Section: 15.6 Sustainable Design':
+            subsections:
+            - 15.6a Green Building
+            - 15.6b Sustainable Manufacturing
+            - 15.6c Sustainable Transportation
+            - 15.6d Environmental Impact Assessment
+            - 15.6e Sustainability Reporting
+    - '- Chapter 16: Engineering Innovation:':
+        sections:
+        - '- Section: 16.1 Innovation Process':
+            subsections: []
+        - '- Section: 16.2 Creativity Techniques':
+            subsections: []
+        - '- Section: 16.3 Technology Transfer':
+            subsections: []
+        - '- Section: 16.4 Intellectual Property':
+            subsections: []
+        - '- Section: 16.5 Innovation Management':
+            subsections: []
+        - '- Section: 16.6 Innovation Culture':
+            subsections:
+            - 16.6a Innovation Leadership
+            - 16.6b Innovation Metrics
+            - 16.6c Open Innovation
+            - 16.6d Innovation Networks
+            - 16.6e Innovation Strategy
+    - '- Chapter 17: Engineering Systems:':
+        sections:
+        - '- Section: 17.1 Systems Engineering':
+            subsections: []
+        - '- Section: 17.2 System Life Cycle':
+            subsections: []
+        - '- Section: 17.3 System Modeling':
+            subsections: []
+        - '- Section: 17.4 System Integration':
+            subsections: []
+        - '- Section: 17.5 System Validation':
+            subsections: []
+        - '- Section: 17.6 System Optimization':
+            subsections:
+            - 17.6a System Reliability
+            - 17.6b System Maintainability
+            - 17.6c System Usability
+            - 17.6d System Resilience
+            - 17.6e System Security
+    - '- Chapter 18: Engineering Software:':
+        sections:
+        - '- Section: 18.1 Software Engineering':
+            subsections: []
+        - '- Section: 18.2 Software Development Life Cycle':
+            subsections: []
+        - '- Section: 18.3 Software Design':
+            subsections: []
+        - '- Section: 18.4 Software Testing':
+            subsections: []
+        - '- Section: 18.5 Software Maintenance':
+            subsections: []
+        - '- Section: 18.6 Software Project Management':
+            subsections:
+            - 18.6a Software Requirements
+            - 18.6b Software Quality
+            - 18.6c Software Metrics
+            - 18.6d Software Documentation
+            - 18.6e Software Process Improvement
+    - '- Chapter 19: Engineering Research:':
+        sections:
+        - '- Section: 19.1 Research Methods':
+            subsections: []
+        - '- Section: 19.2 Literature Review':
+            subsections: []
+        - '- Section: 19.3 Experimental Design':
+            subsections: []
+        - '- Section: 19.4 Data Analysis':
+            subsections: []
+        - '- Section: 19.5 Research Ethics':
+            subsections: []
+        - '- Section: 19.6 Research Dissemination':
+            subsections:
+            - 19.6a Research Papers
+            - 19.6b Research Proposals
+            - 19.6c Research Presentations
+            - 19.6d Research Collaboration
+            - 19.6e Research Impact
+    - '- Chapter 20: Engineering Education:':
+        sections:
+        - '- Section: 20.1 Engineering Curriculum':
+            subsections: []
+        - '- Section: 20.2 Teaching Methods':
+            subsections: []
+        - '- Section: 20.3 Assessment and Evaluation':
+            subsections: []
+        - '- Section: 20.4 Accreditation':
+            subsections: []
+        - '- Section: 20.5 Lifelong Learning':
+            subsections: []
+        - '- Section: 20.6 Engineering Competencies':
+            subsections:
+            - 20.6a Technical Skills
+            - 20.6b Soft Skills
+            - 20.6c Professional Skills
+            - 20.6d Leadership Skills
+            - 20.6e Global Skills

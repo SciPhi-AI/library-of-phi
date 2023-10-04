@@ -1,0 +1,214 @@
+textbook: 
+"Quantum Mechanics: Exploring the Subatomic World":
+
+chapters:
+- Chapter 1: Basic Features of Quantum Mechanics:
+sections:
+- Section: 1.1 Linearity of the Equations of Motion
+- Section: 1.2 Complex Numbers are Essential
+- Section: 1.3 Loss of Determinism
+- Section: 1.4 Quantum Superpositions
+- Section: 1.5 Entanglement
+
+- Chapter 2: Experiments with Photons:
+sections:
+- Section: 2.1 Mach-Zehder Interferometer
+- Section: 2.2 Elitzur-Vaidman Bombs
+
+- Chapter 3: Particle Nature of Light and Wave Nature of Matter:
+sections:
+- Section: 3.1 Photoelectric Effect
+- Section: 3.2 Compton Scattering
+- Section: 3.3 Matter Waves
+
+- Chapter 4: de Broglie Wavelength and Galilean Transformations:
+sections:
+- Section: 4.1 Phase and Group Velocities
+- Section: 4.2 Choosing the Wavefunction for a Free Particle
+
+- Chapter 5: Equations for a Wavefunction and Interpreting the Wavefunction:
+sections:
+- Section: 5.1 Schrödinger Equation for Particle in a Potential
+- Section: 5.2 Normalization and Time Evolution
+- Section: 5.3 The Wavefunction as a Probability Amplitude
+- Section: 5.4 The Probability Current
+- Section: 5.5 Probability Current in 3D and Current Conservation
+- Section: 5.6 Wavepackets and Uncertainty
+
+- Chapter 6: Expectation Values and Uncertainty:
+sections:
+- Section: 6.1 Wavepacket Shape Changes
+- Section: 6.2 Time Evolution of a Free Wave Packet
+- Section: 6.3 Uncovering Momentum Space
+- Section: 6.4 Expectation Values of Operators
+- Section: 6.5 Time Dependence of Expectation Values
+- Section: 6.6 Observables and Hermitian Operators
+- Section: 6.7 Uncertainty
+
+- Chapter 7: Solving the Time-Independent Schrödinger Equation:
+sections:
+- Section: 7.1 Stationary States
+- Section: 7.2 Solving for Energy Eigenstates
+- Section: 7.3 Free Particle on a Circle
+- Section: 7.4 The Infinite Square Well
+- Section: 7.5 The Finite Square Well
+- Section: 7.6 General Properties
+- Section: 7.7 Bound States in Slowly Varying Potentials
+- Section: 7.8 Sketching Wavefunction Behavior in Different Regions
+- Section: 7.9 Shooting Method
+- Section: 7.10 Delta Function Potential
+- Section: 7.11 The Node Theorem
+- Section: 7.12 Simple Harmonic Oscillator
+- Section: 7.13 Algebraic Approach to the Simple Harmonic Oscillator
+- Section: 7.14 Operator Manipulation and the Spectrum
+- Section: 7.15 Scattering States and the Step Potential
+- Section: 7.16 Resonant Transmission in a Square Well
+- Section: 7.17 The Ramsauer-Townsend Effect
+- Section: 7.18 Scattering in One Dimension
+- Section: 7.19 Time Delay
+- Section: 7.20 Levinson’s Theorem
+- Section: 7.21 Resonances
+- Section: 7.22 Modeling the Resonance
+
+- Chapter 8: Quantum Mechanics in 3D and Central Potentials:
+sections:
+- Section: 8.1 Schrödinger Equation in 3D and Angular Momentum
+- Section: 8.2 The Angular Momentum Operator
+- Section: 8.3 Eigenstates of Angular Momentum
+- Section: 8.4 The Radial Wave Equation
+- Section: 8.5 Hydrogen Atom
+- Section: 8.6 Hydrogen Atom Spectrum
+subsections:
+- 8.6a Spherical Harmonics and Angular Momentum
+- 8.6b Orbital Angular Momentum
+- 8.6c Spin Angular Momentum
+- 8.6d Addition of Angular Momenta
+- 8.6e The Hydrogen Atom Wavefunctions
+- 8.6f The Zeeman Effect
+- 8.6g Fine Structure of Hydrogen
+- 8.6h The Pauli Exclusion Principle
+- 8.6i The Helium Atom
+
+- Chapter 9: Quantum Mechanics in 3D and Central Potentials (Continued):
+sections:
+- Section: 9.1 Quantum Numbers and Atomic Orbitals
+- Section: 9.2 Quantum Tunneling
+- Section: 9.3 Quantum Harmonic Oscillator
+- Section: 9.4 Quantum Angular Momentum
+subsections:
+- 9.4a Quantum Spin
+- 9.4b Quantum Spin-Orbit Interaction
+- 9.4c Quantum Zeeman Effect
+- 9.4d Quantum Fine Structure
+
+- Chapter 10: Quantum Mechanics of Systems with Spin:
+sections:
+- Section: 10.1 Spin-1/2 Systems
+- Section: 10.2 Spin in Magnetic Fields
+- Section: 10.3 Addition of Angular Momentum
+subsections:
+- 10.3a Spin-Spin Interaction
+- 10.3b Spin-Orbit Interaction
+- 10.3c Hyperfine Structure
+- 10.3d Nuclear Magnetic Resonance
+
+- Chapter 11: Quantum Mechanics of Identical Particles:
+sections:
+- Section: 11.1 The Pauli Exclusion Principle
+- Section: 11.2 Fermions and Bosons
+- Section: 11.3 Quantum Statistics
+subsections:
+- 11.3a Fermi-Dirac Statistics
+- 11.3b Bose-Einstein Statistics
+- 11.3c Quantum Condensation
+
+- Chapter 12: Quantum Mechanics of Multi-Particle Systems:
+sections:
+- Section: 12.1 The Two-Particle System
+- Section: 12.2 The Center of Mass and Relative Motion
+- Section: 12.3 The Hydrogen Atom
+subsections:
+- 12.3a The Hydrogen Atom Spectrum
+- 12.3b The Zeeman Effect
+- 12.3c The Stark Effect
+- 12.3d Hyperfine Splitting
+
+- Chapter 13: Quantum Mechanics of Atoms:
+sections:
+- Section: 13.1 The Helium Atom
+- Section: 13.2 The Periodic Table
+- Section: 13.3 Atomic Transitions and Spectra
+subsections:
+- 13.3a Selection Rules
+- 13.3b Absorption and Emission
+- 13.3c Laser Cooling and Trapping
+
+- Chapter 14: Quantum Mechanics of Molecules:
+sections:
+- Section: 14.1 The Hydrogen Molecule Ion
+- Section: 14.2 The Hydrogen Molecule
+- Section: 14.3 Molecular Orbitals
+subsections:
+- 14.3a Bonding and Anti-Bonding Orbitals
+- 14.3b The Hückel Approximation
+- 14.3c The Hartree-Fock Method
+
+- Chapter 15: Quantum Mechanics of Solids:
+sections:
+- Section: 15.1 The Free Electron Gas
+- Section: 15.2 The Nearly Free Electron Model
+- Section: 15.3 The Tight Binding Model
+subsections:
+- 15.3a Band Structure
+- 15.3b Semiconductors
+- 15.3c Superconductivity
+
+- Chapter 16: Quantum Mechanics of Nuclei:
+sections:
+- Section: 16.1 The Liquid Drop Model
+- Section: 16.2 The Shell Model
+- Section: 16.3 Nuclear Reactions
+subsections:
+- 16.3a Fission
+- 16.3b Fusion
+- 16.3c Radioactive Decay
+
+- Chapter 17: Quantum Mechanics of Elementary Particles:
+sections:
+- Section: 17.1 The Dirac Equation
+- Section: 17.2 The Standard Model
+- Section: 17.3 Quantum Field Theory
+subsections:
+- 17.3a The Quantum Electrodynamics
+- 17.3b The Quantum Chromodynamics
+- 17.3c The Higgs Mechanism
+
+- Chapter 18: Quantum Mechanics of Quantum Information:
+sections:
+- Section: 18.1 Quantum Bits and Quantum Gates
+- Section: 18.2 Quantum Algorithms
+- Section: 18.3 Quantum Error Correction
+subsections:
+- 18.3a The Shor's Algorithm
+- 18.3b The Grover's Algorithm
+- 18.3c Quantum Teleportation
+
+- Chapter 19: Quantum Mechanics of Quantum Entanglement:
+sections:
+- Section: 19.1 The EPR Paradox
+- Section: 19.2 Bell's Theorem
+- Section: 19.3 Quantum Nonlocality
+subsections:
+- 19.3a The GHZ State
+- 19.3b The Quantum Cryptography
+- 19.3c The Quantum Key Distribution
+
+- Chapter 20: Quantum Mechanics of Quantum Interpretations:
+sections:
+- Section: 20.1 The Copenhagen Interpretation
+- Section: 20.2 The Many-Worlds Interpretation
+- Section: 20.3 The Bohmian Interpretation
+subsections:
+- 20.3a The Quantum Decoherence
+- 20.3b The Quantum Zeno Effect
+- 20.3c The Quantum Measurement Problem

@@ -1,0 +1,341 @@
+textbook:
+  'Robocraft Programming: From Contest to Championship":':
+    chapters:
+    - '- Chapter 1: Contest Software and Specs:':
+        sections:
+        - '- Section: 1.1 Contest Software Release:':
+            subsections:
+            - 1.1a Understanding the Contest Software
+            - 1.1b Installing the Contest Software
+            - 1.1c Configuring the Contest Software
+        - '- Section: 1.2 Complete Specifications:':
+            subsections:
+            - 1.2a Understanding the Specifications
+            - 1.2b Analyzing the Specifications
+            - 1.2c Implementing the Specifications
+    - '- Chapter 2: Classroom Sessions:':
+        sections:
+        - '- Section: 2.1 Session 1:':
+            subsections:
+            - 2.1a Introduction to Robocraft Programming
+            - 2.1b Overview of the Competition Rules
+            - 2.1c Team Formation and Roles
+        - '- Section: 2.2 Session 2:':
+            subsections:
+            - 2.2a Exploring Robocraft Software Architecture
+            - 2.2b Designing Robot Strategies
+            - 2.2c Implementing Basic Robot Functionality
+    - '- Chapter 3: Seeding Tournament:':
+        sections:
+        - '- Section: 3.1 Player Submission Deadline:':
+            subsections:
+            - 3.1a Preparing and Packaging Robot Code
+            - 3.1b Submitting the Robot Code
+            - 3.1c Testing and Verifying Submissions
+        - '- Section: 3.2 Seeding Tournament Attendance:':
+            subsections:
+            - 3.2a Attending the Seeding Tournament
+            - 3.2b Observing Other Teams' Robots
+            - 3.2c Analyzing Seeding Tournament Results
+    - '- Chapter 4: Final Competition:':
+        sections:
+        - '- Section: 4.1 Final Player Submission Deadline:':
+            subsections:
+            - 4.1a Refining and Optimizing Robot Code
+            - 4.1b Submitting the Final Robot Code
+            - 4.1c Final Testing and Verification
+        - '- Section: 4.2 Final Competition:':
+            subsections:
+            - 4.2a Preparing for the Final Competition
+            - 4.2b Strategies for Success
+            - 4.2c Evaluating and Reflecting on the Competition
+    - '- Chapter 5: Projects:':
+        sections:
+        - '- Section: 5.1 Robocraft Overview:':
+            subsections:
+            - 5.1a Introduction to the Robocraft Platform
+            - 5.1b Understanding the Game Mechanics
+            - 5.1c Exploring the Game Environment
+        - '- Section: 5.2 Robot Functionality:':
+            subsections:
+            - 5.2a Understanding Robot Components and Controls
+            - 5.2b Implementing Movement and Navigation
+            - 5.2c Implementing Sensing and Perception
+        - '- Section: 5.3 Team Communication:':
+            subsections:
+            - 5.3a Effective Communication Strategies
+            - 5.3b Collaborative Tools and Techniques
+            - 5.3c Problem-solving as a Team
+        - '- Section: 5.4 Goals and Collaboration:':
+            subsections:
+            - 5.4a Setting Goals and Objectives
+            - 5.4b Planning and Organizing Team Work
+            - 5.4c Collaborating and Sharing Ideas
+        - '- Section: 5.5 Software and Resources:':
+            subsections:
+            - 5.5a Essential Software Tools for Robocraft Programming
+            - 5.5b Useful Libraries and Frameworks
+            - 5.5c Online Resources and Communities
+    - '- Chapter 6: Advanced Robot Functionality:':
+        sections:
+        - '- Section: 6.1 Advanced Movement and Navigation:':
+            subsections:
+            - 6.1a Implementing Advanced Movement Techniques
+            - 6.1b Pathfinding and Obstacle Avoidance
+            - 6.1c Optimizing Navigation Efficiency
+        - '- Section: 6.2 Advanced Sensing and Perception:':
+            subsections:
+            - 6.2a Implementing Advanced Sensing Techniques
+            - 6.2b Object Recognition and Tracking
+            - 6.2c Optimizing Perception Efficiency
+        - '- Section: 6.3 Advanced Team Communication:':
+            subsections:
+            - 6.3a Implementing Advanced Communication Strategies
+            - 6.3b Collaborative Decision Making
+            - 6.3c Problem-solving as an Advanced Team
+    - '- Chapter 7: Advanced Goals and Collaboration:':
+        sections:
+        - '- Section: 7.1 Setting Advanced Goals and Objectives:':
+            subsections:
+            - 7.1a Setting Long-term Goals
+            - 7.1b Planning and Organizing Complex Tasks
+            - 7.1c Collaborating and Sharing Complex Ideas
+        - '- Section: 7.2 Advanced Software and Resources:':
+            subsections:
+            - 7.2a Advanced Software Tools for Robocraft Programming
+            - 7.2b Advanced Libraries and Frameworks
+            - 7.2c Online Resources and Communities for Advanced Users
+    - '- Chapter 8: Preparing for the Championship:':
+        sections:
+        - '- Section: 8.1 Championship Rules and Regulations:':
+            subsections:
+            - 8.1a Understanding the Championship Rules
+            - 8.1b Preparing for the Championship Regulations
+            - 8.1c Implementing the Championship Rules in the Robot Code
+        - '- Section: 8.2 Championship Strategies:':
+            subsections:
+            - 8.2a Analyzing Previous Championships
+            - 8.2b Formulating Winning Strategies
+            - 8.2c Implementing Championship Strategies in the Robot Code
+        - '- Section: 8.3 Championship Teamwork:':
+            subsections:
+            - 8.3a Formulating Team Strategies for the Championship
+            - 8.3b Implementing Team Strategies in the Robot Code
+            - 8.3c Collaborating as a Team during the Championship
+    - '- Chapter 9: Championship Reflection:':
+        sections:
+        - '- Section: 9.1 Reflecting on the Championship:':
+            subsections:
+            - 9.1a Evaluating the Team's Performance
+            - 9.1b Learning from the Championship Experience
+            - 9.1c Planning for Future Championships
+    - '- Chapter 10: Advanced Robocraft Programming:':
+        sections:
+        - '- Section: 10.1 Advanced Robocraft Programming Techniques:':
+            subsections:
+            - 10.1a Learning Advanced Programming Techniques
+            - 10.1b Implementing Advanced Programming Techniques in the Robot Code
+            - 10.1c Optimizing the Robot Code with Advanced Programming Techniques
+        - '- Section: 10.2 Advanced Robocraft Programming Tools:':
+            subsections:
+            - 10.2a Learning Advanced Programming Tools
+            - 10.2b Implementing Advanced Programming Tools in the Robot Code
+            - 10.2c Optimizing the Robot Code with Advanced Programming Tools
+        - '- Section: 10.3 Advanced Robocraft Programming Strategies:':
+            subsections:
+            - 10.3a Learning Advanced Programming Strategies
+            - 10.3b Implementing Advanced Programming Strategies in the Robot Code
+            - 10.3c Optimizing the Robot Code with Advanced Programming Strategies
+    - '- Chapter 11: Robocraft Programming for Other Competitions:':
+        sections:
+        - '- Section: 11.1 Understanding Other Competitions:':
+            subsections:
+            - 11.1a Learning About Other Competitions
+            - 11.1b Preparing for Other Competitions
+            - 11.1c Implementing Other Competitions' Rules in the Robot Code
+        - '- Section: 11.2 Strategies for Other Competitions:':
+            subsections:
+            - 11.2a Analyzing Other Competitions
+            - 11.2b Formulating Winning Strategies for Other Competitions
+            - 11.2c Implementing Other Competitions' Strategies in the Robot Code
+        - '- Section: 11.3 Teamwork for Other Competitions:':
+            subsections:
+            - 11.3a Formulating Team Strategies for Other Competitions
+            - 11.3b Implementing Team Strategies for Other Competitions in the Robot
+              Code
+            - 11.3c Collaborating as a Team during Other Competitions
+    - '- Chapter 12: Reflection on Other Competitions:':
+        sections:
+        - '- Section: 12.1 Reflecting on Other Competitions:':
+            subsections:
+            - 12.1a Evaluating the Team's Performance in Other Competitions
+            - 12.1b Learning from the Experience of Other Competitions
+            - 12.1c Planning for Future Participation in Other Competitions
+    - '- Chapter 13: Advanced Robocraft Programming for Other Competitions:':
+        sections:
+        - '- Section: 13.1 Advanced Robocraft Programming Techniques for Other Competitions:':
+            subsections:
+            - 13.1a Learning Advanced Programming Techniques for Other Competitions
+            - 13.1b Implementing Advanced Programming Techniques for Other Competitions
+              in the Robot Code
+            - 13.1c Optimizing the Robot Code for Other Competitions with Advanced
+              Programming Techniques
+        - '- Section: 13.2 Advanced Robocraft Programming Tools for Other Competitions:':
+            subsections:
+            - 13.2a Learning Advanced Programming Tools for Other Competitions
+            - 13.2b Implementing Advanced Programming Tools for Other Competitions
+              in the Robot Code
+            - 13.2c Optimizing the Robot Code for Other Competitions with Advanced
+              Programming Tools
+        - '- Section: 13.3 Advanced Robocraft Programming Strategies for Other Competitions:':
+            subsections:
+            - 13.3a Learning Advanced Programming Strategies for Other Competitions
+            - 13.3b Implementing Advanced Programming Strategies for Other Competitions
+              in the Robot Code
+            - 13.3c Optimizing the Robot Code for Other Competitions with Advanced
+              Programming Strategies
+    - '- Chapter 14: Robocraft Programming for Personal Projects:':
+        sections:
+        - '- Section: 14.1 Understanding Personal Projects:':
+            subsections:
+            - 14.1a Learning About Personal Projects
+            - 14.1b Preparing for Personal Projects
+            - 14.1c Implementing Personal Projects' Requirements in the Robot Code
+        - '- Section: 14.2 Strategies for Personal Projects:':
+            subsections:
+            - 14.2a Analyzing Personal Projects
+            - 14.2b Formulating Winning Strategies for Personal Projects
+            - 14.2c Implementing Personal Projects' Strategies in the Robot Code
+        - '- Section: 14.3 Teamwork for Personal Projects:':
+            subsections:
+            - 14.3a Formulating Team Strategies for Personal Projects
+            - 14.3b Implementing Team Strategies for Personal Projects in the Robot
+              Code
+            - 14.3c Collaborating as a Team during Personal Projects
+    - '- Chapter 15: Reflection on Personal Projects:':
+        sections:
+        - '- Section: 15.1 Reflecting on Personal Projects:':
+            subsections:
+            - 15.1a Evaluating the Team's Performance in Personal Projects
+            - 15.1b Learning from the Experience of Personal Projects
+            - 15.1c Planning for Future Participation in Personal Projects
+    - '- Chapter 16: Advanced Robocraft Programming for Personal Projects:':
+        sections:
+        - '- Section: 16.1 Advanced Robocraft Programming Techniques for Personal Projects:':
+            subsections:
+            - 16.1a Learning Advanced Programming Techniques for Personal Projects
+            - 16.1b Implementing Advanced Programming Techniques for Personal Projects
+              in the Robot Code
+            - 16.1c Optimizing the Robot Code for Personal Projects with Advanced
+              Programming Techniques
+        - '- Section: 16.2 Advanced Robocraft Programming Tools for Personal Projects:':
+            subsections:
+            - 16.2a Learning Advanced Programming Tools for Personal Projects
+            - 16.2b Implementing Advanced Programming Tools for Personal Projects
+              in the Robot Code
+            - 16.2c Optimizing the Robot Code for Personal Projects with Advanced
+              Programming Tools
+        - '- Section: 16.3 Advanced Robocraft Programming Strategies for Personal Projects:':
+            subsections:
+            - 16.3a Learning Advanced Programming Strategies for Personal Projects
+            - 16.3b Implementing Advanced Programming Strategies for Personal Projects
+              in the Robot Code
+            - 16.3c Optimizing the Robot Code for Personal Projects with Advanced
+              Programming Strategies
+    - '- Chapter 17: Robocraft Programming for Professional Projects:':
+        sections:
+        - '- Section: 17.1 Understanding Professional Projects:':
+            subsections:
+            - 17.1a Learning About Professional Projects
+            - 17.1b Preparing for Professional Projects
+            - 17.1c Implementing Professional Projects' Requirements in the Robot
+              Code
+        - '- Section: 17.2 Strategies for Professional Projects:':
+            subsections:
+            - 17.2a Analyzing Professional Projects
+            - 17.2b Formulating Winning Strategies for Professional Projects
+            - 17.2c Implementing Professional Projects' Strategies in the Robot Code
+        - '- Section: 17.3 Teamwork for Professional Projects:':
+            subsections:
+            - 17.3a Formulating Team Strategies for Professional Projects
+            - 17.3b Implementing Team Strategies for Professional Projects in the
+              Robot Code
+            - 17.3c Collaborating as a Team during Professional Projects
+    - '- Chapter 18: Reflection on Professional Projects:':
+        sections:
+        - '- Section: 18.1 Reflecting on Professional Projects:':
+            subsections:
+            - 18.1a Evaluating the Team's Performance in Professional Projects
+            - 18.1b Learning from the Experience of Professional Projects
+            - 18.1c Planning for Future Participation in Professional Projects
+    - '- Chapter 19: Advanced Robocraft Programming for Professional Projects:':
+        sections:
+        - '- Section: 19.1 Advanced Robocraft Programming Techniques for Professional Projects:':
+            subsections:
+            - 19.1a Learning Advanced Programming Techniques for Professional Projects
+            - 19.1b Implementing Advanced Programming Techniques for Professional
+              Projects in the Robot Code
+            - 19.1c Optimizing the Robot Code for Professional Projects with Advanced
+              Programming Techniques
+        - '- Section: 19.2 Advanced Robocraft Programming Tools for Professional Projects:':
+            subsections:
+            - 19.2a Learning Advanced Programming Tools for Professional Projects
+            - 19.2b Implementing Advanced Programming Tools for Professional Projects
+              in the Robot Code
+            - 19.2c Optimizing the Robot Code for Professional Projects with Advanced
+              Programming Tools
+        - '- Section: 19.3 Advanced Robocraft Programming Strategies for Professional Projects:':
+            subsections:
+            - 19.3a Learning Advanced Programming Strategies for Professional Projects
+            - 19.3b Implementing Advanced Programming Strategies for Professional
+              Projects in the Robot Code
+            - 19.3c Optimizing the Robot Code for Professional Projects with Advanced
+              Programming Strategies
+    - '- Chapter 20: Robocraft Programming for Future Endeavors:':
+        sections:
+        - '- Section: 20.1 Understanding Future Endeavors:':
+            subsections:
+            - 20.1a Learning About Future Endeavors
+            - 20.1b Preparing for Future Endeavors
+            - 20.1c Implementing Future Endeavors' Requirements in the Robot Code
+        - '- Section: 20.2 Strategies for Future Endeavors:':
+            subsections:
+            - 20.2a Analyzing Future Endeavors
+            - 20.2b Formulating Winning Strategies for Future Endeavors
+            - 20.2c Implementing Future Endeavors' Strategies in the Robot Code
+        - '- Section: 20.3 Teamwork for Future Endeavors:':
+            subsections:
+            - 20.3a Formulating Team Strategies for Future Endeavors
+            - 20.3b Implementing Team Strategies for Future Endeavors in the Robot
+              Code
+            - 20.3c Collaborating as a Team during Future Endeavors
+    - '- Chapter 21: Reflection on Future Endeavors:':
+        sections:
+        - '- Section: 21.1 Reflecting on Future Endeavors:':
+            subsections:
+            - 21.1a Evaluating the Team's Performance in Future Endeavors
+            - 21.1b Learning from the Experience of Future Endeavors
+            - 21.1c Planning for Future Participation in Future Endeavors
+    - '- Chapter 22: Advanced Robocraft Programming for Future Endeavors:':
+        sections:
+        - '- Section: 22.1 Advanced Robocraft Programming Techniques for Future Endeavors:':
+            subsections:
+            - 22.1a Learning Advanced Programming Techniques for Future Endeavors
+            - 22.1b Implementing Advanced Programming Techniques for Future Endeavors
+              in the Robot Code
+            - 22.1c Optimizing the Robot Code for Future Endeavors with Advanced Programming
+              Techniques
+        - '- Section: 22.2 Advanced Robocraft Programming Tools for Future Endeavors:':
+            subsections:
+            - 22.2a Learning Advanced Programming Tools for Future Endeavors
+            - 22.2b Implementing Advanced Programming Tools for Future Endeavors in
+              the Robot Code
+            - 22.2c Optimizing the Robot Code for Future Endeavors with Advanced Programming
+              Tools
+        - '- Section: 22.3 Advanced Robocraft Programming Strategies for Future Endeavors:':
+            subsections:
+            - 22.3a Learning Advanced Programming Strategies for Future Endeavors
+            - 22.3b Implementing Advanced Programming Strategies for Future Endeavors
+              in the Robot Code
+            - 22.3c Optimizing the Robot Code for Future Endeavors with Advanced Programming
+              Strategies

@@ -1,0 +1,143 @@
+textbook: 
+"Introduction to Ocean Science and Engineering: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Ocean Systems and Engineering:
+sections:
+- Section: 1.1 Sea Floor:
+subsections:
+- 1.1a Exploring the Bottom of the Ocean
+- 1.1b Techniques and Instruments
+- 1.1c Sources of Error and Uncertainty
+
+- Chapter 2: Atmospheric Effects on the Ocean:
+sections:
+- Section: 2.1 Wind and Heat:
+subsections:
+- 2.1a Interactions between the Atmosphere and Ocean
+
+- Chapter 3: SeaPerch II ROV:
+sections:
+- Section: 3.1 Introduction to SeaPerch:
+subsections:
+- 3.1a Building and Operating an Underwater Robot
+- 3.1b Designing and Assembling the SeaPerch ROV
+- 3.1c Conducting Experiments with the SeaPerch ROV
+
+- Chapter 4: Ocean Seawater Properties:
+sections:
+- Section: 4.1 Seawater Properties:
+subsections:
+- 4.1a Physical and Chemical Characteristics
+
+- Chapter 5: Light Propagation in the Ocean:
+sections:
+- Section: 5.1 Basics of Light Propagation:
+subsections:
+- 5.1a Absorption, Scattering, and Reflection
+
+- Chapter 6: Sound Propagation in the Ocean:
+sections:
+- Section: 6.1 Basics of Sound Propagation:
+subsections:
+- 6.1a Principles and Mechanisms
+- 6.1b Factors Affecting Sound Speed in Seawater
+- 6.1c Understanding the Deep Sound Channel
+
+- Chapter 7: Acoustics:
+sections:
+- Section: 7.1 Acoustics 1:
+subsections:
+- 7.1a Introduction to Underwater Acoustics
+- 7.1b Sound Generation and Propagation
+- 7.1c Sonar Systems and Applications
+- 7.1d Ocean Acoustic Noise and Interference
+
+- Chapter 8: Introduction to GFD (Geophysical Fluid Dynamics):
+sections:
+- Section: 8.1 Conservation of Mass, Momentum, and Energy:
+subsections:
+- 8.1a Fundamental Principles
+
+- Chapter 9: Turbulence, Scaling, and Boundary Layers:
+sections:
+- Section: 9.1 Turbulence:
+subsections:
+- 9.1a Dynamics and Effects in the Ocean
+- 9.1b Bridging the Gap between Laboratory and Real-World Conditions
+- 9.1c Understanding the Ocean-Atmosphere Interface
+
+- Chapter 10: Ocean Mixing and Stability:
+sections:
+- Section: 10.1 Mixing in the Ocean:
+subsections:
+- 10.1a Processes and Consequences
+- 10.1b Stratification and Vertical Motion
+
+- Chapter 11: Coriolis Force and Ekman Forcing:
+sections:
+- Section: 11.1 Coriolis Force:
+subsections:
+- 11.1a The Influence of Earth's Rotation
+- 11.1b Wind-Driven Circulation in the Surface Ocean
+
+- Chapter 12: Geostrophic Flows:
+sections:
+- Section: 12.1 Geostrophic Flows 1:
+subsections:
+- 12.1a Geostrophy and the Balance of Forces
+- 12.1b Applications and Examples
+
+- Chapter 13: Measuring Currents:
+sections:
+- Section: 13.1 Lagrangian vs. Eulerian Measurements:
+subsections:
+- 13.1a Tracking Water Motion
+
+- Chapter 14: Deep Ocean Circulation:
+sections:
+- Section: 14.1 Circulation Patterns in the Deep Ocean:
+subsections:
+- 14.1a Global Conveyor Belt and Thermohaline Circulation
+
+- Chapter 15: El Nino and La Nina:
+sections:
+- Section: 15.1 El Nino Phenomenon:
+subsections:
+- 15.1a Causes and Impacts
+- 15.1b A Counterpart to El Nino
+
+- Chapter 16: Coastal Processes:
+sections:
+- Section: 16.1 Tsunamis:
+subsections:
+- 16.1a Generation, Propagation, and Coastal Effects
+
+- Chapter 17: Guest Lectures:
+sections:
+- Section: 17.1 Hydrothermal Vents in the Ocean:
+subsections:
+- 17.1a Exploring Submarine Hot Springs
+- 17.1b Monitoring and Analyzing Ocean Chemistry
+
+- Chapter 18: Final Project:
+sections:
+- Section: 18.1 Project Start:
+subsections:
+- 18.1a Choosing a Topic and Developing a Plan
+- 18.1b Conducting Research and Gathering Data
+- 18.1c Analyzing Results and Evaluating Hypotheses
+- 18.1d Presenting Findings and Conclusions
+
+- Chapter 19: Final Presentations:
+sections:
+- Section: 19.1 Presenting Final Projects:
+subsections:
+- 19.1a Effective Communication and Delivery
+
+- Chapter 20: Trip to WHOI:
+sections:
+- Section: 20.1 Launching ROV:
+subsections:
+- 20.1a Field Deployment and Operation of the SeaPerch ROV
+- 20.1b Experiencing Cutting-Edge Ocean Science and Engineering Research

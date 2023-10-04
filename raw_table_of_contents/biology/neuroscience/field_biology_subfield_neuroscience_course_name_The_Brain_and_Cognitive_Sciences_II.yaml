@@ -1,0 +1,312 @@
+textbook:
+  'The Cognitive Brain: A Comprehensive Guide to Brain and Cognitive Sciences II":':
+    chapters:
+    - '- Chapter 1: Foundations of Cognitive Science:':
+        sections:
+        - '- Section: 1.1 Organizational Meeting:':
+            subsections:
+            - 1.1a Introduction to the course and syllabus overview
+            - 1.1b Introduction to cognitive science and its interdisciplinary nature
+        - '- Section: 1.2 Mental representation and computation:':
+            subsections:
+            - 1.2a Introduction to mental representation and its role in cognition
+            - 1.2b Computation and information processing in the brain
+        - '- Section: 1.3 Evolutionary Psychology and Behavioral Genetics:':
+            subsections:
+            - 1.3a Introduction to evolutionary psychology and its relevance to cognitive
+              science
+            - 1.3b Behavioral genetics and its impact on cognitive processes
+    - '- Chapter 2: Midlevel Vision and Attention:':
+        sections:
+        - '- Section: 2.1 Midlevel Vision I:':
+            subsections:
+            - 2.1a Visual perception and the processing of basic visual features
+            - 2.1b Gestalt principles and the organization of visual stimuli
+        - '- Section: 2.2 Midlevel Vision II:':
+            subsections:
+            - 2.2a Visual perception of motion and depth
+            - 2.2b Object recognition and scene perception
+        - '- Section: 2.3 Attention:':
+            subsections:
+            - 2.3a Selective attention and its role in perception and cognition
+            - 2.3b Divided attention and multitasking
+        - '- Section: 2.4 Recitation:':
+            subsections:
+            - 2.4a Discussion and review of Midlevel Vision and Attention topics
+    - '- Chapter 3: Cognitive Neuroscience of Object Recognition:':
+        sections:
+        - '- Section: 3.1 Basic issues, plus behavioral work in normal subjects and neuropsychological cases:':
+            subsections:
+            - 3.1a Overview of object recognition and its importance in cognitive
+              neuroscience
+            - 3.1b Behavioral studies on object recognition in individuals with normal
+              cognition
+            - 3.1c Neuropsychological cases and their contribution to understanding
+              object recognition
+        - '- Section: 3.2 Physiology and Imaging:':
+            subsections:
+            - 3.2a Neural mechanisms underlying object recognition
+            - 3.2b Neuroimaging techniques and their application in studying object
+              recognition
+        - '- Section: 3.3 Faces:':
+            subsections:
+            - 3.3a Face perception and its neural basis
+            - 3.3b Facial recognition and the role of specialized brain regions
+        - '- Section: 3.4 Recitation:':
+            subsections:
+            - 3.4a Discussion and review of Cognitive Neuroscience of Object Recognition
+              topics
+    - '- Chapter 4: Working Memory and Attention:':
+        sections:
+        - '- Section: 4.1 Working Memory and Attention I:':
+            subsections:
+            - 4.1a Introduction to working memory and its role in cognitive processes
+            - 4.1b Models of working memory and their empirical support
+        - '- Section: 4.2 Working Memory and Attention II:':
+            subsections:
+            - 4.2a Attentional control in working memory tasks
+            - 4.2b Interactions between working memory and attention systems
+        - '- Section: 4.3 Working Memory and Attention III:':
+            subsections:
+            - 4.3a Working memory capacity and its relation to cognitive performance
+            - 4.3b The role of attention in working memory updating and manipulation
+        - '- Section: 4.4 Recitation:':
+            subsections:
+            - 4.4a Discussion and review of Working Memory and Attention topics
+    - '- Chapter 5: Cognitive Neuroscience of Memory:':
+        sections:
+        - '- Section: 5.1 Cognitive Neuroscience of Memory I:':
+            subsections:
+            - 5.1a Introduction to memory and its cognitive and neural foundations
+            - 5.1b Types of memory and their neural substrates
+        - '- Section: 5.2 Cognitive Neuroscience of Memory II:':
+            subsections:
+            - 5.2a Encoding processes and their neural correlates
+            - 5.2b Retrieval processes and their neural basis
+        - '- Section: 5.3 Cognitive Neuroscience of Memory III:':
+            subsections:
+            - 5.3a Neural mechanisms of memory consolidation and reconsolidation
+            - 5.3b The role of emotion in memory processing
+        - '- Section: 5.4 Recitation:':
+            subsections:
+            - 5.4a Discussion and review of Cognitive Neuroscience of Memory topics
+    - '- Chapter 6: Similarity, Analogy, and Categorization:':
+        sections:
+        - '- Section: 6.1 Lecture 1: Similarity and generalization:':
+            subsections:
+            - 6.1a Theories and models of similarity and generalization
+            - 6.1b Applications of similarity and generalization in cognitive tasks
+        - '- Section: 6.2 Lecture 2: Learning concepts, categories, and words:':
+            subsections:
+            - 6.2a Concept learning and categorization processes
+            - 6.2b Semantic networks and word representation
+        - '- Section: 6.3 Lecture 3: Reasoning and representativeness:':
+            subsections:
+            - 6.3a Reasoning processes and their relation to cognitive biases
+            - 6.3b Representativeness heuristic and its impact on decision-making
+        - '- Section: 6.4 Recitation: Causal inference and theories:':
+            subsections:
+            - 6.4a Causal inference and its role in cognitive reasoning
+            - 6.4b Theories of causality and their implications for cognitive processes
+    - '- Chapter 7: Language and Thought:':
+        sections:
+        - '- Section: 7.1 Words and Meanings:':
+            subsections:
+            - 7.1a Lexical semantics and the representation of word meanings
+            - 7.1b Ambiguity and polysemy in language comprehension
+        - '- Section: 7.2 Language and Thought:':
+            subsections:
+            - 7.2a The relationship between language and thought
+            - 7.2b Linguistic relativity hypothesis and its impact on cognition
+        - '- Section: 7.3 Recitation:':
+            subsections:
+            - 7.3a Discussion and review of Language and Thought topics
+    - '- Chapter 8: The Computational System of Language:':
+        sections:
+        - '- Section: 8.1 The Computational System of Language, Universal Grammar, Parameters and the Problem of Learnability:':
+            subsections:
+            - 8.1a Introduction to the computational system of language
+            - 8.1b Universal Grammar and its role in language acquisition
+            - 8.1c Parameters and their impact on language variation
+            - 8.1d Learnability problem in language acquisition
+        - '- Section: 8.2 Learning and Development in Early Language:':
+            subsections:
+            - 8.2a Language acquisition in infants and toddlers
+            - 8.2b Developmental milestones in early language learning
+        - '- Section: 8.3 Variability in development, impaired language, evidence for genetic variation:':
+            subsections:
+            - 8.3a Variability in language development and its causes
+            - 8.3b Language impairments and their neural basis
+            - 8.3c Genetic factors influencing language development
+        - ? '- Section: 8.4 Recitation: How to distinguish processing from competence
+            models of language development: The case of null-subjects in English-speaking
+            children:'
+          : subsections:
+            - 8.4a Theoretical models of language processing and competence
+            - 8.4b Null-subject phenomenon in English-speaking children and its implications
+    - '- Chapter 9: Speech and Language Processing:':
+        sections:
+        - '- Section: 9.1 Lecture 1: Speech and speech processing:':
+            subsections:
+            - 9.1a Acoustic properties of speech sounds
+            - 9.1b Speech perception and phonological processing
+        - '- Section: 9.2 Lecture 2: The structure of sentences:':
+            subsections:
+            - 9.2a Syntactic structures and their role in sentence comprehension
+            - 9.2b Parsing mechanisms and sentence processing
+        - '- Section: 9.3 Lecture 3: Sentence and discourse processing:':
+            subsections:
+            - 9.3a Semantic processing in sentence comprehension
+            - 9.3b Discourse coherence and its impact on language understanding
+        - '- Section: 9.4 Recitation:':
+            subsections:
+            - 9.4a Discussion and review of Speech and Language Processing topics
+    - '- Chapter 10: Review:':
+        sections:
+        - '- Section: 10.1 Review:':
+            subsections:
+            - 10.1a Comprehensive review of all course topics
+        - '- Section: 10.2 Final Exam:':
+            subsections:
+            - 10.2a Preparation strategies for the final exam
+            - 10.2b Exam format and question types
+    - '- Chapter 11: Cognitive Development:':
+        sections:
+        - '- Section: 11.1 Cognitive Development in Infancy:':
+            subsections:
+            - 11.1a Sensorimotor stage and object permanence
+            - 11.1b Early language development and babbling
+        - '- Section: 11.2 Cognitive Development in Childhood:':
+            subsections:
+            - 11.2a Preoperational stage and egocentrism
+            - 11.2b Concrete operational stage and conservation
+        - '- Section: 11.3 Cognitive Development in Adolescence:':
+            subsections:
+            - 11.3a Formal operational stage and abstract thinking
+            - 11.3b Cognitive changes and brain development in adolescence
+    - '- Chapter 12: Perception and Cognition:':
+        sections:
+        - '- Section: 12.1 Visual Perception:':
+            subsections:
+            - 12.1a Visual illusions and perception
+            - 12.1b Depth perception and binocular cues
+        - '- Section: 12.2 Auditory Perception:':
+            subsections:
+            - 12.2a Sound localization and auditory scene analysis
+            - 12.2b Pitch perception and auditory illusions
+        - '- Section: 12.3 Multisensory Perception:':
+            subsections:
+            - 12.3a Multisensory integration and perception
+            - 12.3b Crossmodal correspondences and synesthesia
+    - '- Chapter 13: Cognitive Control and Executive Functions:':
+        sections:
+        - '- Section: 13.1 Cognitive Control:':
+            subsections:
+            - 13.1a Cognitive control and goal-directed behavior
+            - 13.1b Cognitive control in decision making and problem solving
+        - '- Section: 13.2 Executive Functions:':
+            subsections:
+            - 13.2a Working memory and cognitive flexibility
+            - 13.2b Inhibitory control and task switching
+        - '- Section: 13.3 Cognitive Control and Executive Functions in Neuropsychological Disorders:':
+            subsections:
+            - 13.3a Cognitive control and executive functions in ADHD
+            - 13.3b Cognitive control and executive functions in schizophrenia
+    - '- Chapter 14: Emotion and Cognition:':
+        sections:
+        - '- Section: 14.1 Emotion-Cognition Interaction:':
+            subsections:
+            - 14.1a Emotion and memory
+            - 14.1b Emotion and decision making
+        - '- Section: 14.2 Emotional Regulation and Cognitive Control:':
+            subsections:
+            - 14.2a Emotional regulation strategies
+            - 14.2b Emotional regulation and cognitive control
+        - '- Section: 14.3 Emotion and Cognition in Neuropsychological Disorders:':
+            subsections:
+            - 14.3a Emotion and cognition in depression
+            - 14.3b Emotion and cognition in anxiety disorders
+    - '- Chapter 15: Social Cognition:':
+        sections:
+        - '- Section: 15.1 Theory of Mind:':
+            subsections:
+            - 15.1a Theory of mind and mental state attribution
+            - 15.1b Theory of mind in autism spectrum disorders
+        - '- Section: 15.2 Social Perception:':
+            subsections:
+            - 15.2a Facial expression recognition
+            - 15.2b Social perception and stereotypes
+        - '- Section: 15.3 Social Cognition and Interpersonal Relationships:':
+            subsections:
+            - 15.3a Empathy and perspective taking
+            - 15.3b Social cognition in interpersonal conflict
+    - '- Chapter 16: Cognitive Aging:':
+        sections:
+        - '- Section: 16.1 Cognitive Changes in Aging:':
+            subsections:
+            - 16.1a Memory changes in aging
+            - 16.1b Cognitive control and executive functions in aging
+        - '- Section: 16.2 Cognitive Reserve and Successful Aging:':
+            subsections:
+            - 16.2a Cognitive reserve and brain plasticity
+            - 16.2b Lifestyle factors and cognitive aging
+        - '- Section: 16.3 Cognitive Aging and Neuropsychological Disorders:':
+            subsections:
+            - 16.3a Cognitive aging and Alzheimer's disease
+            - 16.3b Cognitive aging and Parkinson's disease
+    - '- Chapter 17: Cognitive Neuropsychology:':
+        sections:
+        - '- Section: 17.1 Cognitive Neuropsychology and Brain Lesion Studies:':
+            subsections:
+            - 17.1a Cognitive neuropsychology and single-case studies
+            - 17.1b Cognitive neuropsychology and group studies
+        - '- Section: 17.2 Cognitive Neuropsychology and Neuroimaging:':
+            subsections:
+            - 17.2a Cognitive neuropsychology and functional neuroimaging
+            - 17.2b Cognitive neuropsychology and structural neuroimaging
+        - '- Section: 17.3 Cognitive Neuropsychology and Rehabilitation:':
+            subsections:
+            - 17.3a Cognitive rehabilitation and brain plasticity
+            - 17.3b Cognitive rehabilitation and compensatory strategies
+    - '- Chapter 18: Cognitive Psychopathology:':
+        sections:
+        - '- Section: 18.1 Cognitive Models of Psychopathology:':
+            subsections:
+            - 18.1a Cognitive model of depression
+            - 18.1b Cognitive model of anxiety disorders
+        - '- Section: 18.2 Cognitive-Behavioral Therapy:':
+            subsections:
+            - 18.2a Cognitive restructuring in cognitive-behavioral therapy
+            - 18.2b Behavioral experiments in cognitive-behavioral therapy
+        - '- Section: 18.3 Cognitive Psychopathology and Neuropsychological Disorders:':
+            subsections:
+            - 18.3a Cognitive psychopathology and schizophrenia
+            - 18.3b Cognitive psychopathology and bipolar disorder
+    - '- Chapter 19: Cognitive Enhancement:':
+        sections:
+        - '- Section: 19.1 Cognitive Training:':
+            subsections:
+            - 19.1a Working memory training
+            - 19.1b Attention training
+        - '- Section: 19.2 Neurofeedback:':
+            subsections:
+            - 19.2a Neurofeedback and attention-deficit/hyperactivity disorder
+            - 19.2b Neurofeedback and anxiety disorders
+        - '- Section: 19.3 Pharmacological Cognitive Enhancement:':
+            subsections:
+            - 19.3a Pharmacological cognitive enhancement and stimulant drugs
+            - 19.3b Pharmacological cognitive enhancement and nootropic drugs
+    - '- Chapter 20: Future Directions in Cognitive Science:':
+        sections:
+        - '- Section: 20.1 Cognitive Science and Artificial Intelligence:':
+            subsections:
+            - 20.1a Cognitive science and machine learning
+            - 20.1b Cognitive science and artificial neural networks
+        - '- Section: 20.2 Cognitive Science and Neuroethics:':
+            subsections:
+            - 20.2a Neuroethics and cognitive enhancement
+            - 20.2b Neuroethics and neuroimaging
+        - '- Section: 20.3 Cognitive Science and Translational Research:':
+            subsections:
+            - 20.3a Translational research in cognitive neuropsychology
+            - 20.3b Translational research in cognitive psychopathology

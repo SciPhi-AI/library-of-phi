@@ -1,0 +1,158 @@
+textbook:
+  'Networks: A Comprehensive Guide to Social and Economic Networks":':
+    chapters:
+    - '- Chapter 1: Introduction to Social and Economic Networks:':
+        sections:
+        - '- Section: 1.1 Describing and Measuring Networks:':
+            subsections:
+            - 1.1a Introduction to Network Analysis
+            - 1.1b Types of Networks
+            - 1.1c Network Metrics and Measures
+        - '- Section: 1.2 Eigenvector-based Centrality Measures:':
+            subsections:
+            - 1.2a Centrality Measures and their Applications
+            - 1.2b Eigenvector Centrality
+            - 1.2c PageRank Algorithm
+        - '- Section: 1.3 Production Networks:':
+            subsections:
+            - 1.3a Supply Chain Networks
+            - 1.3b Input-Output Networks
+            - 1.3c Network Analysis in Production Systems
+    - '- Chapter 2: Social Learning on Networks:':
+        sections:
+        - '- Section: 2.1 DeGroot Learning:':
+            subsections:
+            - 2.1a Information Cascade Models
+            - 2.1b DeGroot Model Explained
+            - 2.1c Convergence and Stability Analysis
+    - '- Chapter 3: Random Graphs:':
+        sections:
+        - '- Section: 3.1 Random Graphs (cont.):':
+            subsections:
+            - 3.1a Erdos-Renyi Model
+            - 3.1b Watts-Strogatz Model
+            - 3.1c Barabasi-Albert Model
+    - '- Chapter 4: Diffusion Models:':
+        sections:
+        - '- Section: 4.1 Diffusion Models:':
+            subsections:
+            - 4.1a Threshold Models
+            - 4.1b Linear Threshold Models
+            - 4.1c Cascading Models
+        - '- Section: 4.2 Diffusion Models and the Covid-19 Pandemic:':
+            subsections:
+            - 4.2a Modeling Disease Spread on Networks
+            - 4.2b Impact of Network Structure on Pandemic Spread
+            - 4.2c Strategies for Controlling Pandemics
+    - '- Chapter 5: Strategic Aspects of Diffusion and Cascading Behavior:':
+        sections:
+        - '- Section: 5.1 Strategic Aspects of Diffusion and Cascading Behavior:':
+            subsections:
+            - 5.1a Game-Theoretic Approaches to Diffusion
+            - 5.1b Strategic Behavior in Network Cascades
+            - 5.1c Incentive Design in Diffusion Processes
+    - '- Chapter 6: Network Effects in Markets:':
+        sections:
+        - '- Section: 6.1 Network Effects in Markets:':
+            subsections:
+            - 6.1a Network Externalities in Economics
+            - 6.1b Models of Network Effects
+            - 6.1c Platform Competition and Market Dynamics
+    - '- Chapter 7: Advanced Topics in Network Game Theory:':
+        sections:
+        - '- Section: 7.1 Advanced Topics in Network Game Theory:':
+            subsections:
+            - 7.1a Evolutionary Game Theory on Networks
+            - 7.1b Cooperative Game Theory on Networks
+            - 7.1c Dynamics of Network Games
+    - '- Chapter 8: Social Networks, Misinformation, and Polarization:':
+        sections:
+        - '- Section: 8.1 Social Networks, Misinformation, and Polarization:':
+            subsections:
+            - 8.1a Information Diffusion in Social Networks
+            - 8.1b Spread of Misinformation and Fake News
+            - 8.1c Polarization Dynamics in Online Networks
+    - '- Chapter 9: Projects:':
+        sections:
+        - '- Section: 9.1 Projects:':
+            subsections:
+            - '9.1a Project 1: Network Analysis of a Real-world Dataset'
+            - '9.1b Project 2: Simulating Diffusion Dynamics on Networks'
+            - '9.1c Project 3: Analyzing Network Effects in a Market'
+    - '- Chapter 10: Network Formation:':
+        sections:
+        - '- Section: 10.1 Network Formation Models:':
+            subsections:
+            - 10.1a Random Network Formation
+            - 10.1b Preferential Attachment Model
+            - 10.1c Small-World Model
+    - '- Chapter 11: Network Resilience:':
+        sections:
+        - '- Section: 11.1 Network Resilience and Robustness:':
+            subsections:
+            - 11.1a Network Vulnerability
+            - 11.1b Network Robustness
+            - 11.1c Network Resilience Measures
+    - '- Chapter 12: Network Dynamics:':
+        sections:
+        - '- Section: 12.1 Network Dynamics:':
+            subsections:
+            - 12.1a Network Evolution
+            - 12.1b Network Adaptation
+            - 12.1c Network Growth
+    - '- Chapter 13: Network Visualization:':
+        sections:
+        - '- Section: 13.1 Network Visualization Techniques:':
+            subsections:
+            - 13.1a Graph Drawing
+            - 13.1b Network Layouts
+            - 13.1c Interactive Network Visualization
+    - '- Chapter 14: Network Clustering:':
+        sections:
+        - '- Section: 14.1 Network Clustering Algorithms:':
+            subsections:
+            - 14.1a Hierarchical Clustering
+            - 14.1b Community Detection
+            - 14.1c Modularity Optimization
+    - '- Chapter 15: Network Data Mining:':
+        sections:
+        - '- Section: 15.1 Network Data Mining Techniques:':
+            subsections:
+            - 15.1a Network Classification
+            - 15.1b Network Regression
+            - 15.1c Network Anomaly Detection
+    - '- Chapter 16: Network Privacy:':
+        sections:
+        - '- Section: 16.1 Network Privacy and Anonymity:':
+            subsections:
+            - 16.1a Network Anonymization
+            - 16.1b Privacy-Preserving Network Analysis
+            - 16.1c Differential Privacy in Networks
+    - '- Chapter 17: Network Inference:':
+        sections:
+        - '- Section: 17.1 Network Inference Methods:':
+            subsections:
+            - 17.1a Network Reconstruction
+            - 17.1b Network Estimation
+            - 17.1c Network Prediction
+    - '- Chapter 18: Network Optimization:':
+        sections:
+        - '- Section: 18.1 Network Optimization Problems:':
+            subsections:
+            - 18.1a Network Flow Problems
+            - 18.1b Network Routing Problems
+            - 18.1c Network Design Problems
+    - '- Chapter 19: Network Neuroscience:':
+        sections:
+        - '- Section: 19.1 Network Neuroscience:':
+            subsections:
+            - 19.1a Brain Networks
+            - 19.1b Functional Connectivity
+            - 19.1c Structural Connectivity
+    - '- Chapter 20: Network Ecology:':
+        sections:
+        - '- Section: 20.1 Network Ecology:':
+            subsections:
+            - 20.1a Ecological Networks
+            - 20.1b Food Web Analysis
+            - 20.1c Mutualistic Networks

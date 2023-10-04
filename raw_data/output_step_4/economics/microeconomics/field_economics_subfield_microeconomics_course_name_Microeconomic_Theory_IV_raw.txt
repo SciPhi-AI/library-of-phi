@@ -1,0 +1,330 @@
+textbook: 
+"Microeconomic Theory IV: A Comprehensive Guide to Decision Making and Market Design":
+
+chapters:
+- Chapter 1: Decision Making Under Uncertainty:
+sections:
+- Section: 1.1 Static Principal-Agent Moral Hazard Models:
+subsections:
+- 1.1a Introduction to Principal-Agent Models
+- 1.1b Types of Moral Hazard Problems
+- 1.1c Incentive Compatibility and the Revelation Principle
+
+- Section: 1.2 Extensions: Moral Hazard in Teams:
+subsections:
+- 1.2a Team Production and Incentive Provision
+- 1.2b Incentive Schemes for Team Members
+- 1.2c Risk Sharing in Team Environments
+
+- Section: 1.3 Extensions: A Rationale for Linear Contracts:
+subsections:
+- 1.3a Linear Contracts and Risk Aversion
+- 1.3b Optimal Contract Design
+- 1.3c Linear Contracts in Multi-Agent Environments
+
+- Section: 1.4 Extensions: Multi-Task Incentive Contracts:
+subsections:
+- 1.4a Multi-Task Principal-Agent Models
+- 1.4b Trade-offs and Incentive Provision in Multi-Task Environments
+- 1.4c Optimal Incentive Contracts for Multi-Task Settings
+
+- Chapter 2: Adverse Selection:
+sections:
+- Section: 2.1 Static Principal-Agent Moral Hazard Models (continued):
+subsections:
+- 2.1a Hidden Information and Adverse Selection
+- 2.1b Screening and Self-Selection
+- 2.1c Adverse Selection in Insurance Markets
+
+- Section: 2.2 Extensions: Hidden Characteristics:
+subsections:
+- 2.2a Heterogeneous Types and Hidden Characteristics
+- 2.2b Screening and Sorting with Hidden Characteristics
+- 2.2c Equilibrium Contracts with Hidden Characteristics
+
+- Section: 2.3 Extensions: Hidden Action:
+subsections:
+- 2.3a Hidden Actions and Moral Hazard
+- 2.3b Screening and Incentive Provision with Hidden Actions
+- 2.3c Optimal Contracts with Hidden Actions
+
+- Section: 2.4 Extensions: Signaling:
+subsections:
+- 2.4a Signaling Games and Information Transmission
+- 2.4b Separating Equilibrium and Pooling Equilibrium
+- 2.4c Signaling with Multiple Types
+
+- Chapter 3: Mechanism Design:
+sections:
+- Section: 3.1 Revelation Principle:
+subsections:
+- 3.1a The Revelation Principle and Incentive Compatibility
+- 3.1b Direct Mechanisms with Full Revelation
+- 3.1c Applications of the Revelation Principle
+
+- Section: 3.2 Direct Mechanisms:
+subsections:
+- 3.2a Definition and Properties of Direct Mechanisms
+- 3.2b The Vickrey-Clarke-Groves Mechanism
+- 3.2c Direct Mechanisms for Public Goods Provision
+
+- Section: 3.3 Indirect Mechanisms:
+subsections:
+- 3.3a Indirect Mechanisms and Interim Incentive Compatibility
+- 3.3b The Myerson-Satterthwaite Theorem
+- 3.3c Indirect Mechanisms for Auctions
+
+- Section: 3.4 Bayesian Implementation:
+subsections:
+- 3.4a Bayesian Nash Equilibrium and Implementation
+- 3.4b The Revelation Principle Revisited
+- 3.4c Implementation of Social Choice Functions
+
+- Chapter 4: Incomplete Contracts and Renegotiation:
+sections:
+- Section: 4.1 Incomplete Contracts:
+subsections:
+- 4.1a Incomplete Contracts and Contractual Incompleteness
+- 4.1b Renegotiation-Proofness and Incentive Compatibility
+- 4.1c Applications of Incomplete Contracts Theory
+
+- Section: 4.2 Renegotiation:
+subsections:
+- 4.2a Renegotiation and Contractual Flexibility
+- 4.2b Renegotiation and Incomplete Information
+- 4.2c Renegotiation and Dynamic Contracts
+
+- Section: 4.3 Repeated Games:
+subsections:
+- 4.3a Repeated Games and Sequential Rationality
+- 4.3b Folk Theorems and Repeated Interaction
+- 4.3c Applications of Repeated Games in Economics
+
+- Chapter 5: Information Economics:
+sections:
+- Section: 5.1 Perfect Bayesian Equilibrium:
+subsections:
+- 5.1a Perfect Bayesian Equilibrium and Sequential Rationality
+- 5.1b Information Revelation in Dynamic Games
+- 5.1c Applications of Perfect Bayesian Equilibrium
+
+- Section: 5.2 Signaling Games:
+subsections:
+- 5.2a Signaling Games and Information Transmission
+- 5.2b Pooling Equilibrium and Separating Equilibrium
+- 5.2c Signaling with Multiple Types
+
+- Section: 5.3 Cheap Talk Games:
+subsections:
+- 5.3a Cheap Talk and Information Transmission
+- 5.3b Persuasion and Strategic Communication
+- 5.3c Cheap Talk in Dynamic Settings
+
+- Section: 5.4 Persuasion Games:
+subsections:
+- 5.4a Persuasion Games and Information Transmission
+- 5.4b Strategic Communication in Persuasion Games
+- 5.4c Persuasion Games with Multiple Senders and Receivers
+
+- Chapter 6: Contract Theory:
+sections:
+- Section: 6.1 Contracts as Incomplete Agreements:
+subsections:
+- 6.1a Incomplete Agreements and Contractual Flexibility
+- 6.1b Contract Enforcement and Renegotiation
+- 6.1c Applications of Contracts as Incomplete Agreements
+
+- Section: 6.2 Relational Contracts:
+subsections:
+- 6.2a Relational Contracts and Repeated Interaction
+- 6.2b Relational Contracts and Long-Term Relationships
+- 6.2c Relational Contracts with Incomplete Information
+
+- Section: 6.3 Optimal Incentive Contracts:
+subsections:
+- 6.3a Optimal Incentive Contracts in Static Settings
+- 6.3b Optimal Incentive Contracts in Dynamic Settings
+- 6.3c Optimal Incentive Contracts with Hidden Information
+
+- Chapter 7: Auction Theory:
+sections:
+- Section: 7.1 Single-Item Auctions:
+subsections:
+- 7.1a Auction Formats and Bidding Strategies
+- 7.1b Revenue Equivalence and Efficiency
+- 7.1c Revenue Maximization in Single-Item Auctions
+
+- Section: 7.2 Multi-Item Auctions:
+subsections:
+- 7.2a Combinatorial Auctions and Package Bidding
+- 7.2b Auctions with Interdependent Values
+- 7.2c Optimal Auction Design in Multi-Item Settings
+
+- Section: 7.3 Revenue Equivalence:
+subsections:
+- 7.3a Revenue Equivalence Theorem and Auction Design
+- 7.3b Mechanisms for Revenue Equivalence
+- 7.3c Applications of Revenue Equivalence
+
+- Chapter 8: Market Design and Matching:
+sections:
+- Section: 8.1 Market Design:
+subsections:
+- 8.1a Market Design and Allocation Mechanisms
+- 8.1b Matching Algorithms and Matching Markets
+- 8.1c Market Clearing and Efficiency in Market Design
+
+- Section: 8.2 Two-Sided Matching:
+subsections:
+- 8.2a Two-Sided Matching Markets and Matching Algorithms
+- 8.2b Matching with Preferences and Stability
+- 8.2c Dynamic Matching and Matching with Constraints
+
+- Section: 8.3 School Choice:
+subsections:
+- 8.3a School Choice Mechanisms and Allocation Algorithms
+- 8.3b Efficiency and Fairness in School Choice
+- 8.3c Desirable Properties of School Choice Mechanisms
+
+- Section: 8.4 Kidney Exchange:
+subsections:
+- 8.4a Kidney Exchange and Organ Allocation
+- 8.4b Matching Algorithms for Kidney Exchange
+- 8.4c Efficiency and Welfare in Kidney Exchange
+
+- Chapter 9: Industrial Organization:
+sections:
+- Section: 9.1 Monopoly:
+subsections:
+- 9.1a Monopolistic Pricing and Market Power
+- 9.1b Price Discrimination and Profit Maximization
+- 9.1c Monopoly Regulation and Antitrust Policies
+
+- Section: 9.2 Oligopoly:
+subsections:
+- 9.2a Cournot Model and Strategic Quantity Competition
+- 9.2b Bertrand Model and Strategic Price Competition
+- 9.2c Collusion and Cartel Formation in Oligopoly
+
+- Section: 9.3 Vertical Integration:
+subsections:
+- 9.3a Vertical Integration and Contractual Relationships
+- 9.3b Vertical Foreclosure and Market Power
+- 9.3c Vertical Integration and Antitrust Policies
+
+- Section: 9.4 Product Differentiation:
+subsections:
+- 9.4a Horizontal Product Differentiation Models
+- 9.4b Vertical Product Differentiation Models
+- 9.4c Market Structure and Product Differentiation
+
+- Chapter 10: Price Discrimination:
+sections:
+- Section: 10.1 Price Discrimination Strategies:
+subsections:
+- 10.1a Price Discrimination Strategies and Market Segmentation
+- 10.1b First-Degree Price Discrimination and Welfare Analysis
+- 10.1c Third-Degree Price Discrimination and Market Power
+
+- Section: 10.2 Entry and Exit:
+subsections:
+- 10.2a Entry and Barriers to Entry
+- 10.2b Entry Deterrence and Strategic Entry Accommodation
+- 10.2c Exit and Market Structure
+
+- Section: 10.3 Auctions in Industrial Organization:
+subsections:
+- 10.3a Auctions in Procurement and Sourcing
+- 10.3b Auctions in Sales and Asset Allocation
+- 10.3c Auctions and Market Efficiency
+
+- Section: 10.4 Information and Incentives in Organizations:
+subsections:
+- 10.4a Information Acquisition and Disclosure in Organizations
+- 10.4b Incentive Provision and Performance Evaluation
+- 10.4c Organization Design and Information Economics
+
+- Chapter 11: Behavioral Economics:
+sections:
+- Section: 11.1 Rationality and Bounded Rationality:
+subsections:
+- 11.1a Rational Choice Theory and Economic Behavior
+- 11.1b Bounded Rationality and Heuristics
+- 11.1c Cognitive Biases and Economic Decision Making
+
+- Section: 11.2 Time Inconsistency:
+subsections:
+- 11.2a Time Preferences and Intertemporal Choice
+- 11.2b Hyperbolic Discounting and Self-Control Problems
+- 11.2c Time Inconsistency in Policy Design
+
+- Section: 11.3 Reference-Dependent Preferences:
+subsections:
+- 11.3a Reference Points and Prospect Theory
+- 11.3b Loss Aversion and Endowment Effects
+- 11.3c Reference-Dependent Preferences in Market Outcomes
+
+- Section: 11.4 Social Preferences:
+subsections:
+- 11.4a Altruism and Other-Regarding Preferences
+- 11.4b Fairness and Equity Considerations
+- 11.4c Social Preferences in Economic Interactions
+
+- Chapter 12: Behavioral Game Theory:
+sections:
+- Section: 12.1 Behavioral Deviations in Game-Theoretic Settings:
+subsections:
+- 12.1a Behavioral Deviations in Game-Theoretic Settings
+- 12.1b Learning and Adaptation in Strategic Interactions
+- 12.1c Equilibrium Concepts in Behavioral Game Theory
+
+- Section: 12.2 Behavioral Industrial Organization:
+subsections:
+- 12.2a Behavioral Aspects of Market Competition
+- 12.2b Consumer Biases and Market Outcomes
+- 12.2c Behavioral Perspectives on Market Regulation
+
+- Section: 12.3 Neuroeconomics:
+subsections:
+- 12.3a Neuroscientific Methods in Economics
+- 12.3b Neural Bases of Economic Decision Making
+- 12.3c Applications of Neuroeconomics in Economic Analysis
+
+- Chapter 13: Game Theory and Strategic Behavior:
+sections:
+- Section: 13.1 Basic Concepts of Game Theory:
+subsections:
+- 13.1a Definition and Types of Games
+- 13.1b Nash Equilibrium and Dominant Strategies
+- 13.1c Mixed Strategy and Bayesian Games
+
+- Section: 13.2 Cooperative Games and Bargaining:
+subsections:
+- 13.2a Cooperative Games and Core
+- 13.2b Bargaining Solutions and Nash Bargaining Solution
+- 13.2c Shapley Value and Applications
+
+- Section: 13.3 Evolutionary Game Theory:
+subsections:
+- 13.3a Evolutionary Stable Strategies
+- 13.3b Replicator Dynamics
+- 13.3c Applications of Evolutionary Game Theory
+
+- Section: 13.4 Experimental Game Theory:
+subsections:
+- 13.4a Experimental Designs in Game Theory
+- 13.4b Behavioral Insights from Experiments
+- 13.4c Applications of Experimental Game Theory
+
+- Chapter 14: Market Failures and Externalities:
+sections:
+- Section: 14.1 Public Goods and Free-Rider Problem:
+subsections:
+- 14.1a Definition and Characteristics of Public Goods
+- 14.1b Free-Rider Problem and Provision of Public Goods
+- 14.1c Solutions to the Free-Rider Problem
+
+- Section: 14.2 Externalities and Market Failure:
+subsections:
+- 14.2a Definition and Types of Externalities
+- 14.2b Market Failure due to External

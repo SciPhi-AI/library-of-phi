@@ -1,0 +1,59 @@
+textbook: 
+"Social Theory and the City: A Comprehensive Exploration":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Center vs. Periphery:
+subsections:
+- 1.1a Historical Perspective on the Urban Center and its Periphery
+- 1.1b Socioeconomic Disparities and Power Dynamics between the Center and Periphery
+
+- Section: 1.2 Up/Down vs. Above/Below:
+subsections:
+- 1.2a Verticality and Social Hierarchies in Urban Spaces
+- 1.2b The Symbolism of Height and Depth in Urban Design
+
+- Chapter 2: The Homo-Faber Project - R. Sennett:
+sections:
+- Section: 2.1 The Concept of Homo-Faber and its Implications in the City:
+subsections:
+- 2.1a The Role of Craftsmanship and Workmanship in Shaping Urban Spaces
+- 2.1b The Impact of Industrialization on Urban Labor and Aesthetics
+
+- Section: 2.2 Stealth Gentrification - Lara Belkind:
+subsections:
+- 2.2a The Subtle Dynamics of Gentrification in Urban Neighborhoods
+- 2.2b Strategies and Tactics Employed by Gentrifiers to Displace Communities
+
+- Section: 2.3 Spaces of Knowledge within the New York City Subway - Elliott Felix:
+subsections:
+- 2.3a The Subway as a Locus of Information and Learning
+- 2.3b The Interplay between Public Transportation and Knowledge Production
+
+- Section: 2.4 Theorizing a Center for Universal Design - Nadya Nilina:
+subsections:
+- 2.4a Examining the Principles and Applications of Universal Design in Urban Centers
+- 2.4b The Social and Cultural Implications of Creating Inclusive Urban Spaces
+
+- Section: 2.5 The Racial Politics of Urban Celebrations - Annis Whitlow:
+subsections:
+- 2.5a The Role of Festivities in Reinforcing or Challenging Racial Hierarchies
+- 2.5b The Contested Spaces of Urban Celebrations and their Impact on Social Identity
+
+- Section: 2.6 Structuring Beyond Architecture - David Foxe:
+subsections:
+- 2.6a Exploring Alternative Approaches to Urban Design beyond Traditional Architecture
+- 2.6b The Relationship between Urban Structure and Social Interaction
+
+- Section: 2.7 The Architecture of Repression - Olga Touloumi:
+subsections:
+- 2.7a Examining the Role of Architecture in Enforcing Systems of Oppression
+- 2.7b The Impact of Repressive Urban Structures on Marginalized Communities
+
+- Section: 2.8 Inventing the Modern Suburb in California and Denmark - Thomas Oles:
+subsections:
+- 2.8a Comparative Analysis of Suburban Development in California and Denmark
+- 2.8b The Socioeconomic and Cultural Factors that Shaped Suburbia in each Context
+
+(Note: The provided table of contents does not contain 20 chapters, or sufficient detail in any given chapter. Therefore, the task of expanding the table and re-arranging it so that it is 20+ chapters, with 3-4 sections and 3-4 subsections per chapter, cannot be completed within the scope of this task.)

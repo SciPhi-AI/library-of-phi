@@ -1,0 +1,339 @@
+textbook:
+  'Mechanics of Materials: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Mechanics of Materials:':
+        sections:
+        - '- Section: 1.1 Introduction to Subject':
+            subsections: []
+        - '- Section: 1.2 Tensile Strength':
+            subsections: []
+        - '- Section: 1.3 Stiffness':
+            subsections: []
+    - '- Chapter 2: Strain Energy and Elasticity:':
+        sections:
+        - '- Section: 2.1 Strain Energy Basis of Elasticity':
+            subsections: []
+        - '- Section: 2.2 Thermal Strain':
+            subsections: []
+    - '- Chapter 3: Entropy-controlled Elasticity:':
+        sections:
+        - '- Section: 3.1 Entropy in Elasticity':
+            subsections: []
+        - '- Section: 3.2 Controlled Elasticity':
+            subsections: []
+    - '- Chapter 4: Introduction to Viscoelasticity:':
+        sections:
+        - '- Section: 4.1 Viscoelasticity Basics':
+            subsections: []
+        - '- Section: 4.2 Introduction to Viscoelasticity':
+            subsections: []
+    - '- Chapter 5: Composite Materials:':
+        sections:
+        - '- Section: 5.1 Introduction to Composite Materials':
+            subsections: []
+        - '- Section: 5.2 Types of Composite Materials':
+            subsections: []
+        - '- Section: 5.3 Properties of Composite Materials':
+            subsections: []
+        - '- Section: 5.4 Applications of Composite Materials':
+            subsections: []
+    - '- Chapter 6: Stress-strain Curves and Compression:':
+        sections:
+        - '- Section: 6.1 Stress-strain Curves':
+            subsections: []
+        - '- Section: 6.2 Compression Testing':
+            subsections: []
+    - '- Chapter 7: Forces in Trusses:':
+        sections:
+        - '- Section: 7.1 Trusses: Introduction and Types':
+            subsections: []
+        - '- Section: 7.2 Analysis of Truss Members':
+            subsections: []
+        - '- Section: 7.3 Method of Joints':
+            subsections: []
+        - '- Section: 7.4 Method of Sections':
+            subsections: []
+        - '- Section: 7.5 Zero Force Members':
+            subsections: []
+        - '- Section: 7.6 Statically Indeterminate Trusses':
+            subsections: []
+    - "- Chapter 8: Truss Deflections and Castigliano\u2019s Method:":
+        sections:
+        - '- Section: 8.1 Truss Deflections':
+            subsections: []
+        - "- Section: 8.2 Castigliano\u2019s Method":
+            subsections: []
+    - '- Chapter 9: Matrix Analysis of Trusses:':
+        sections:
+        - '- Section: 9.1 Matrix Analysis':
+            subsections: []
+        - '- Section: 9.2 Trusses with Spring Supports':
+            subsections: []
+        - '- Section: 9.3 Trusses with Thermal Loads':
+            subsections: []
+    - '- Chapter 10: Pressure Vessel Stresses and Deformations:':
+        sections:
+        - '- Section: 10.1 Pressure Vessel Stresses':
+            subsections: []
+        - '- Section: 10.2 Deformations in Pressure Vessels':
+            subsections: []
+        - '- Section: 10.3 Thin-walled Pressure Vessels':
+            subsections: []
+        - '- Section: 10.4 Thick-walled Pressure Vessels':
+            subsections: []
+    - '- Chapter 11: Application of Viscoelasticity Theory to Pressure Vessels:':
+        sections:
+        - '- Section: 11.1 Viscoelasticity Theory':
+            subsections: []
+        - '- Section: 11.2 Convolution Integral Method':
+            subsections: []
+        - '- Section: 11.3 Time-Temperature Superposition':
+            subsections: []
+    - '- Chapter 12: Shearing Stress and Strain, Torsion of Circular Shafts:':
+        sections:
+        - '- Section: 12.1 Shearing Stress':
+            subsections: []
+        - '- Section: 12.2 Shearing Strain':
+            subsections: []
+        - '- Section: 12.3 Torsion of Circular Shafts':
+            subsections: []
+        - '- Section: 12.4 Saint-Venant''s Torsion Theory':
+            subsections: []
+        - '- Section: 12.5 Power Transmission in Shafts':
+            subsections: []
+    - '- Chapter 13: The Kinematic Equations:':
+        sections:
+        - '- Section: 13.1 Kinematic Equations':
+            subsections: []
+        - '- Section: 13.2 Compatibility Equations':
+            subsections: []
+    - '- Chapter 14: The Equilibrium Equations:':
+        sections:
+        - '- Section: 14.1 Equilibrium Equations':
+            subsections: []
+        - '- Section: 14.2 Equilibrium of Deformable Bodies':
+            subsections: []
+    - "- Chapter 15: Tensor Transformations and Mohr\u2019s Circle:":
+        sections:
+        - '- Section: 15.1 Tensor Transformations':
+            subsections: []
+        - "- Section: 15.2 Mohr\u2019s Circle for Plane Stress":
+            subsections: []
+        - "- Section: 15.3 Mohr\u2019s Circle for Plane Strain":
+            subsections: []
+    - '- Chapter 16: Constitutive Relations:':
+        sections:
+        - '- Section: 16.1 Constitutive Relations for Linear Elasticity':
+            subsections: []
+        - '- Section: 16.2 Isotropic Materials':
+            subsections: []
+        - '- Section: 16.3 Anisotropic Materials':
+            subsections: []
+        - '- Section: 16.4 Hyperelastic Materials':
+            subsections: []
+    - '- Chapter 17: Statics of Beam Bending:':
+        sections:
+        - '- Section: 17.1 Basics of Beam Bending':
+            subsections: []
+        - '- Section: 17.2 Shear Force and Bending Moment Diagrams':
+            subsections: []
+        - '- Section: 17.3 Bending Stresses in Beams':
+            subsections: []
+        - '- Section: 17.4 Shear Stresses in Beams':
+            subsections: []
+        - '- Section: 17.5 Deflection of Beams':
+            subsections: []
+        - '- Section: 17.6 Influence Lines':
+            subsections: []
+    - '- Chapter 18: Normal and Shear Stresses in Beams:':
+        sections:
+        - '- Section: 18.1 Normal Stresses in Beams':
+            subsections: []
+        - '- Section: 18.2 Shear Stresses in Beams':
+            subsections: []
+        - '- Section: 18.3 Shear Center':
+            subsections: []
+        - '- Section: 18.4 Composite Beams':
+            subsections: []
+        - '- Section: 18.5 Curved Beams':
+            subsections: []
+        - '- Section: 18.6 Unsymmetrical Beams':
+            subsections: []
+    - '- Chapter 19: Beam Bending Displacements:':
+        sections:
+        - '- Section: 19.1 Differential Equations of the Elastic Curve':
+            subsections: []
+        - '- Section: 19.2 Slope and Deflection by Integration':
+            subsections: []
+        - '- Section: 19.3 Moment-Area Method':
+            subsections: []
+        - '- Section: 19.4 Conjugate Beam Method':
+            subsections: []
+    - '- Chapter 20: Closed-Form Solutions:':
+        sections:
+        - '- Section: 20.1 Beam Deflections by Superposition':
+            subsections: []
+        - '- Section: 20.2 Elastic Foundations':
+            subsections: []
+        - '- Section: 20.3 Beams on Elastic Foundations':
+            subsections: []
+        - '- Section: 20.4 Beams on Viscoelastic Foundations':
+            subsections: []
+    - '- Chapter 21: Experimental Stress Analysis:':
+        sections:
+        - '- Section: 21.1 Stress Analysis Techniques':
+            subsections: []
+        - '- Section: 21.2 Photoelasticity':
+            subsections: []
+        - '- Section: 21.3 Strain Gauges':
+            subsections: []
+        - "- Section: 21.4 Moir\xE9 Fringes":
+            subsections: []
+        - '- Section: 21.5 Digital Image Correlation':
+            subsections: []
+    - '- Chapter 22: Finite Element Analysis:':
+        sections:
+        - '- Section: 22.1 Basics of Finite Element Analysis':
+            subsections: []
+        - '- Section: 22.2 Discretization and Mesh Generation':
+            subsections: []
+        - '- Section: 22.3 Element Types and Interpolation Functions':
+            subsections: []
+        - '- Section: 22.4 Assembly and Solution Techniques':
+            subsections: []
+        - '- Section: 22.5 Postprocessing and Visualization':
+            subsections: []
+        - '- Section: 22.6 Practical Considerations':
+            subsections: []
+    - '- Chapter 23: Yield Phenomena and Multiaxial Stress States:':
+        sections:
+        - '- Section: 23.1 Yield Criteria':
+            subsections: []
+        - '- Section: 23.2 Plastic Deformation':
+            subsections: []
+        - '- Section: 23.3 Multiaxial Stress States':
+            subsections: []
+        - '- Section: 23.4 Biaxial Stress States':
+            subsections: []
+        - '- Section: 23.5 Triaxial Stress States':
+            subsections: []
+    - '- Chapter 24: Effect of Hydrostatic Pressure and Rate on Material Behavior:':
+        sections:
+        - '- Section: 24.1 Hydrostatic Pressure Effects':
+            subsections: []
+        - '- Section: 24.2 Rate Sensitivity in Materials':
+            subsections: []
+        - '- Section: 24.3 Temperature Effects on Material Behavior':
+            subsections: []
+    - '- Chapter 25: Role of Dislocations in Crystalline Slip:':
+        sections:
+        - '- Section: 25.1 Dislocation Theory':
+            subsections: []
+        - '- Section: 25.2 Mechanisms of Crystal Deformation':
+            subsections: []
+        - '- Section: 25.3 Slip Systems and Slip Directions':
+            subsections: []
+        - '- Section: 25.4 Dislocation Density':
+            subsections: []
+        - '- Section: 25.5 Dislocation Interactions':
+            subsections: []
+    - '- Chapter 26: Dislocation Motion and Hardening:':
+        sections:
+        - '- Section: 26.1 Slip and Twinning':
+            subsections: []
+        - '- Section: 26.2 Work Hardening Mechanisms':
+            subsections: []
+        - '- Section: 26.3 Strain Hardening':
+            subsections: []
+        - '- Section: 26.4 Recovery and Recrystallization':
+            subsections: []
+        - '- Section: 26.5 Fatigue and Cyclic Hardening':
+            subsections: []
+    - '- Chapter 27: Creep and Creep Resistance:':
+        sections:
+        - '- Section: 27.1 Creep Behavior':
+            subsections: []
+        - '- Section: 27.2 Creep Mechanisms':
+            subsections: []
+        - '- Section: 27.3 Creep Testing Techniques':
+            subsections: []
+        - '- Section: 27.4 Creep Resistance of Materials':
+            subsections: []
+        - '- Section: 27.5 Creep Life Prediction Models':
+            subsections: []
+    - '- Chapter 28: Continuum Plasticity:':
+        sections:
+        - '- Section: 28.1 Plastic Deformation and Plastic Flow':
+            subsections: []
+        - '- Section: 28.2 Yield Criteria for Plasticity':
+            subsections: []
+        - '- Section: 28.3 Plasticity Models':
+            subsections: []
+        - '- Section: 28.4 Plasticity Analysis of Structures':
+            subsections: []
+        - '- Section: 28.5 Plastic Limit Analysis':
+            subsections: []
+    - '- Chapter 29: Statistics of Fracture:':
+        sections:
+        - '- Section: 29.1 Fracture Mechanics':
+            subsections: []
+        - '- Section: 29.2 Fracture Toughness':
+            subsections: []
+        - '- Section: 29.3 Stress Intensity Factor':
+            subsections: []
+        - '- Section: 29.4 Crack Propagation':
+            subsections: []
+        - '- Section: 29.5 Fatigue Crack Growth':
+            subsections: []
+    - '- Chapter 30: The Zhurkov Kinetic Model of Fracture:':
+        sections:
+        - '- Section: 30.1 Zhurkov Kinetic Model':
+            subsections: []
+        - '- Section: 30.2 Activation Energy of Fracture':
+            subsections: []
+        - '- Section: 30.3 Creep-Fatigue Interaction':
+            subsections: []
+    - '- Chapter 31: The Griffith Approach to Fracture Mechanics:':
+        sections:
+        - '- Section: 31.1 Griffith Theory of Fracture':
+            subsections: []
+        - '- Section: 31.2 Energy Release Rate':
+            subsections: []
+        - '- Section: 31.3 Fracture Toughness Testing':
+            subsections: []
+        - '- Section: 31.4 Linear Elastic Fracture Mechanics':
+            subsections: []
+        - '- Section: 31.5 Elastic-Plastic Fracture Mechanics':
+            subsections: []
+    - '- Chapter 32: Stress Intensity Approach and Crack Propagation:':
+        sections:
+        - '- Section: 32.1 Stress Intensity Factor Calculation':
+            subsections: []
+        - '- Section: 32.2 Stress Intensity Factor Solutions':
+            subsections: []
+        - '- Section: 32.3 Crack Propagation in Linear Elastic Materials':
+            subsections: []
+        - '- Section: 32.4 Crack Propagation in Elastic-Plastic Materials':
+            subsections: []
+    - '- Chapter 33: Effect of Specimen Geometry and Material Properties on Fracture:':
+        sections:
+        - '- Section: 33.1 Geometric Effects on Fracture':
+            subsections: []
+        - '- Section: 33.2 Constraint Effects on Fracture':
+            subsections: []
+        - '- Section: 33.3 Fracture Toughness Variation with Material Properties':
+            subsections: []
+    - '- Chapter 34: Fatigue and Fatigue Life Estimation:':
+        sections:
+        - '- Section: 34.1 Fatigue Failure Mechanisms':
+            subsections: []
+        - '- Section: 34.2 S-N Curve and Fatigue Strength':
+            subsections: []
+        - '- Section: 34.3 Fatigue Life Estimation Methods':
+            subsections: []
+        - '- Section: 34.4 Fatigue Crack Growth Rate':
+            subsections: []
+        - '- Section: 34.5 Variable Amplitude Fatigue':
+            subsections: []
+        - '- Section: 34.6 Fatigue Testing and Design Considerations':
+            subsections: []

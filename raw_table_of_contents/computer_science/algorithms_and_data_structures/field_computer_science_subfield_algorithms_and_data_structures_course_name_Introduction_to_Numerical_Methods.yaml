@@ -1,0 +1,311 @@
+textbook:
+  'Introduction to Numerical Methods: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Course Overview and Root-Finding Methods:':
+        sections:
+        - '- Section: 1.1 Newton''s Method:':
+            subsections:
+            - 1.1a Introduction to Newton's Method
+            - 1.1b Derivation of Newton's Method
+            - 1.1c Convergence Analysis of Newton's Method
+            - 1.1d Newton's Method for Nonlinear Equations
+            - 1.1e Newton's Method for Systems of Equations
+            - 1.1f Applications of Newton's Method
+        - '- Section: 1.2 Bisection Method:':
+            subsections:
+            - 1.2a Introduction to Bisection Method
+            - 1.2b Convergence Analysis of Bisection Method
+            - 1.2c Bisection Method for Nonlinear Equations
+            - 1.2d Bisection Method for Systems of Equations
+            - 1.2e Applications of Bisection Method
+        - '- Section: 1.3 Secant Method:':
+            subsections:
+            - 1.3a Introduction to Secant Method
+            - 1.3b Convergence Analysis of Secant Method
+            - 1.3c Secant Method for Nonlinear Equations
+            - 1.3d Secant Method for Systems of Equations
+            - 1.3e Applications of Secant Method
+    - '- Chapter 2: Floating-Point Arithmetic and Error Analysis:':
+        sections:
+        - '- Section: 2.1 Machine Epsilon:':
+            subsections:
+            - 2.1a Introduction to Machine Epsilon
+            - 2.1b Calculation of Machine Epsilon
+            - 2.1c Significance of Machine Epsilon
+            - 2.1d Floating-Point Arithmetic with Machine Epsilon
+        - '- Section: 2.2 Rounding Error:':
+            subsections:
+            - 2.2a Introduction to Rounding Error
+            - 2.2b Sources of Rounding Error
+            - 2.2c Bounds on Rounding Error
+            - 2.2d Minimizing Rounding Error
+        - '- Section: 2.3 Truncation Error:':
+            subsections:
+            - 2.3a Introduction to Truncation Error
+            - 2.3b Sources of Truncation Error
+            - 2.3c Bounds on Truncation Error
+            - 2.3d Minimizing Truncation Error
+        - '- Section: 2.4 Condition Number:':
+            subsections:
+            - 2.4a Introduction to Condition Number
+            - 2.4b Definition of Condition Number
+            - 2.4c Properties of Condition Number
+            - 2.4d Conditioning and Stability
+    - '- Chapter 3: Numerical Methods for Linear Systems:':
+        sections:
+        - '- Section: 3.1 Gaussian Elimination:':
+            subsections:
+            - 3.1a Introduction to Gaussian Elimination
+            - 3.1b Gaussian Elimination with Partial Pivoting
+            - 3.1c Gaussian Elimination with LU Factorization
+            - 3.1d Numerical Stability of Gaussian Elimination
+        - '- Section: 3.2 LU Factorization:':
+            subsections:
+            - 3.2a Introduction to LU Factorization
+            - 3.2b LU Factorization with Partial Pivoting
+            - 3.2c Numerical Stability of LU Factorization
+        - '- Section: 3.3 Partial Pivoting:':
+            subsections:
+            - 3.3a Introduction to Partial Pivoting
+            - 3.3b Advantages of Partial Pivoting
+            - 3.3c Numerical Stability of Partial Pivoting
+        - '- Section: 3.4 Iterative Methods (Jacobi, Gauss-Seidel):':
+            subsections:
+            - 3.4a Introduction to Iterative Methods
+            - 3.4b Jacobi Iterative Method
+            - 3.4c Gauss-Seidel Iterative Method
+            - 3.4d Convergence Analysis of Iterative Methods
+    - '- Chapter 4: Numerical Methods for Ordinary Differential Equations:':
+        sections:
+        - '- Section: 4.1 Euler''s Method:':
+            subsections:
+            - 4.1a Introduction to Euler's Method
+            - 4.1b Derivation of Euler's Method
+            - 4.1c Convergence Analysis of Euler's Method
+            - 4.1d Stability of Euler's Method
+            - 4.1e Extensions of Euler's Method
+        - '- Section: 4.2 Runge-Kutta Methods:':
+            subsections:
+            - 4.2a Introduction to Runge-Kutta Methods
+            - 4.2b Derivation of Runge-Kutta Methods
+            - 4.2c Convergence Analysis of Runge-Kutta Methods
+            - 4.2d Stability of Runge-Kutta Methods
+            - 4.2e Higher-Order Runge-Kutta Methods
+        - '- Section: 4.3 Multistep Methods:':
+            subsections:
+            - 4.3a Introduction to Multistep Methods
+            - 4.3b Adams-Bashforth Methods
+            - 4.3c Adams-Moulton Methods
+            - 4.3d Convergence Analysis of Multistep Methods
+            - 4.3e Stability of Multistep Methods
+        - '- Section: 4.4 Stiff Systems:':
+            subsections:
+            - 4.4a Introduction to Stiff Systems
+            - 4.4b Definition of Stiff Systems
+            - 4.4c Implicit Methods for Stiff Systems
+            - 4.4d Convergence Analysis of Implicit Methods
+            - 4.4e Stability of Implicit Methods
+    - '- Chapter 5: Numerical Methods for Eigenvalue Problems:':
+        sections:
+        - '- Section: 5.1 Power Method:':
+            subsections:
+            - 5.1a Introduction to Power Method
+            - 5.1b Algorithm for Power Method
+            - 5.1c Convergence Analysis of Power Method
+            - 5.1d Applications of Power Method
+        - '- Section: 5.2 QR Algorithm:':
+            subsections:
+            - 5.2a Introduction to QR Algorithm
+            - 5.2b Algorithm for QR Algorithm
+            - 5.2c Convergence Analysis of QR Algorithm
+            - 5.2d Applications of QR Algorithm
+        - '- Section: 5.3 Lanczos Method:':
+            subsections:
+            - 5.3a Introduction to Lanczos Method
+            - 5.3b Algorithm for Lanczos Method
+            - 5.3c Convergence Analysis of Lanczos Method
+            - 5.3d Applications of Lanczos Method
+        - '- Section: 5.4 Arnoldi Method:':
+            subsections:
+            - 5.4a Introduction to Arnoldi Method
+            - 5.4b Algorithm for Arnoldi Method
+            - 5.4c Convergence Analysis of Arnoldi Method
+            - 5.4d Applications of Arnoldi Method
+    - '- Chapter 6: Optimization Algorithms:':
+        sections:
+        - '- Section: 6.1 Gradient Descent:':
+            subsections:
+            - 6.1a Introduction to Gradient Descent
+            - 6.1b Algorithm for Gradient Descent
+            - 6.1c Convergence Analysis of Gradient Descent
+            - 6.1d Applications of Gradient Descent
+        - '- Section: 6.2 Newton''s Method:':
+            subsections:
+            - 6.2a Introduction to Newton's Method
+            - 6.2b Algorithm for Newton's Method
+            - 6.2c Convergence Analysis of Newton's Method
+            - 6.2d Applications of Newton's Method
+        - '- Section: 6.3 Conjugate Gradient Method:':
+            subsections:
+            - 6.3a Introduction to Conjugate Gradient Method
+            - 6.3b Algorithm for Conjugate Gradient Method
+            - 6.3c Convergence Analysis of Conjugate Gradient Method
+            - 6.3d Applications of Conjugate Gradient Method
+        - '- Section: 6.4 Quasi-Newton Methods:':
+            subsections:
+            - 6.4a Introduction to Quasi-Newton Methods
+            - 6.4b BFGS Method
+            - 6.4c L-BFGS Method
+            - 6.4d Convergence Analysis of Quasi-Newton Methods
+            - 6.4e Applications of Quasi-Newton Methods
+    - '- Chapter 7: Numerical Integration:':
+        sections:
+        - '- Section: 7.1 Trapezoidal Rule:':
+            subsections:
+            - 7.1a Introduction to Trapezoidal Rule
+            - 7.1b Derivation of Trapezoidal Rule
+            - 7.1c Error Analysis of Trapezoidal Rule
+            - 7.1d Improvements to Trapezoidal Rule
+        - '- Section: 7.2 Simpson''s Rule:':
+            subsections:
+            - 7.2a Introduction to Simpson's Rule
+            - 7.2b Derivation of Simpson's Rule
+            - 7.2c Error Analysis of Simpson's Rule
+            - 7.2d Improvements to Simpson's Rule
+        - '- Section: 7.3 Gaussian Quadrature:':
+            subsections:
+            - 7.3a Introduction to Gaussian Quadrature
+            - 7.3b Derivation of Gaussian Quadrature
+            - 7.3c Error Analysis of Gaussian Quadrature
+            - 7.3d Orthogonal Polynomials and Quadrature
+        - '- Section: 7.4 Adaptive Quadrature:':
+            subsections:
+            - 7.4a Introduction to Adaptive Quadrature
+            - 7.4b Algorithm for Adaptive Quadrature
+            - 7.4c Error Analysis of Adaptive Quadrature
+            - 7.4d Applications of Adaptive Quadrature
+    - '- Chapter 8: Fast Fourier Transform:':
+        sections:
+        - '- Section: 8.1 Discrete Fourier Transform:':
+            subsections:
+            - 8.1a Introduction to Discrete Fourier Transform
+            - 8.1b Algorithm for Discrete Fourier Transform
+            - 8.1c Properties of Discrete Fourier Transform
+            - 8.1d Applications of Discrete Fourier Transform
+        - '- Section: 8.2 Fast Fourier Transform Algorithms:':
+            subsections:
+            - 8.2a Introduction to Fast Fourier Transform Algorithms
+            - 8.2b Cooley-Tukey Algorithm
+            - 8.2c Radix-2 FFT Algorithm
+            - 8.2d Split-Radix FFT Algorithm
+            - 8.2e Prime Factor FFT Algorithm
+        - '- Section: 8.3 Cooley-Tukey Algorithm:':
+            subsections:
+            - 8.3a Introduction to Cooley-Tukey Algorithm
+            - 8.3b Algorithm for Cooley-Tukey Algorithm
+            - 8.3c Convergence Analysis of Cooley-Tukey Algorithm
+            - 8.3d Applications of Cooley-Tukey Algorithm
+    - '- Chapter 9: Project:':
+        sections:
+        - '- Section: 9.1 Proposal:':
+            subsections:
+            - 9.1a Writing an Effective Project Proposal
+            - 9.1b Components of a Project Proposal
+            - 9.1c Project Proposal Examples
+            - 9.1d Proposal Evaluation Criteria
+        - '- Section: 9.2 Implementation:':
+            subsections:
+            - 9.2a Planning the Project Implementation
+            - 9.2b Development of the Project
+            - 9.2c Testing and Debugging
+            - 9.2d Documentation and Code Organization
+        - '- Section: 9.3 Evaluation:':
+            subsections:
+            - 9.3a Evaluation Metrics for the Project
+            - 9.3b Evaluation Process and Criteria
+            - 9.3c Project Evaluation Examples
+            - 9.3d Improvements and Future Work
+        - '- Section: 9.4 Presentation:':
+            subsections:
+            - 9.4a Preparing for the Project Presentation
+            - 9.4b Structure and Content of the Presentation
+            - 9.4c Effective Visual Aids
+            - 9.4d Presentation Delivery Techniques
+    - '- Chapter 10: Advanced Topics in Numerical Methods:':
+        sections:
+        - '- Section: 10.1 High-Performance Computing:':
+            subsections:
+            - 10.1a Introduction to High-Performance Computing
+            - 10.1b Parallel Computing
+            - 10.1c Distributed Computing
+            - 10.1d GPU Computing
+        - '- Section: 10.2 Machine Learning and Numerical Methods:':
+            subsections:
+            - 10.2a Introduction to Machine Learning
+            - 10.2b Supervised Learning
+            - 10.2c Unsupervised Learning
+            - 10.2d Reinforcement Learning
+        - '- Section: 10.3 Numerical Methods in Quantum Computing:':
+            subsections:
+            - 10.3a Introduction to Quantum Computing
+            - 10.3b Quantum Algorithms
+            - 10.3c Quantum Error Correction
+            - 10.3d Quantum Simulation
+        - '- Section: 10.4 Numerical Methods in Bioinformatics:':
+            subsections:
+            - 10.4a Introduction to Bioinformatics
+            - 10.4b Sequence Alignment
+            - 10.4c Phylogenetic Analysis
+            - 10.4d Genomic Data Analysis
+    - '- Chapter 11: Numerical Methods in Finance:':
+        sections:
+        - '- Section: 11.1 Option Pricing:':
+            subsections:
+            - 11.1a Introduction to Option Pricing
+            - 11.1b Black-Scholes Model
+            - 11.1c Binomial Tree Model
+            - 11.1d Monte Carlo Simulation
+        - '- Section: 11.2 Portfolio Optimization:':
+            subsections:
+            - 11.2a Introduction to Portfolio Optimization
+            - 11.2b Mean-Variance Optimization
+            - 11.2c Multi-Objective Optimization
+            - 11.2d Risk Management
+        - '- Section: 11.3 Interest Rate Models:':
+            subsections:
+            - 11.3a Introduction to Interest Rate Models
+            - 11.3b Short Rate Models
+            - 11.3c Term Structure Models
+            - 11.3d Calibration of Interest Rate Models
+        - '- Section: 11.4 Credit Risk Modeling:':
+            subsections:
+            - 11.4a Introduction to Credit Risk Modeling
+            - 11.4b Structural Models
+            - 11.4c Reduced Form Models
+            - 11.4d Credit Derivatives
+    - '- Chapter 12: Numerical Methods in Engineering:':
+        sections:
+        - '- Section: 12.1 Finite Element Method:':
+            subsections:
+            - 12.1a Introduction to Finite Element Method
+            - 12.1b Mesh Generation
+            - 12.1c Element Types
+            - 12.1d Applications of Finite Element Method
+        - '- Section: 12.2 Computational Fluid Dynamics:':
+            subsections:
+            - 12.2a Introduction to Computational Fluid Dynamics
+            - 12.2b Navier-Stokes Equations
+            - 12.2c Turbulence Modeling
+            - 12.2d Applications of Computational Fluid Dynamics
+        - '- Section: 12.3 Structural Analysis:':
+            subsections:
+            - 12.3a Introduction to Structural Analysis
+            - 12.3b Linear Elasticity
+            - 12.3c Plasticity
+            - 12.3d Fracture Mechanics
+        - '- Section: 12.4 Heat Transfer:':
+            subsections:
+            - 12.4a Introduction to Heat Transfer
+            - 12.4b Conduction
+            - 12.4c Convection
+            - 12.4d Radiation

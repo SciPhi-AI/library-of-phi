@@ -1,0 +1,163 @@
+textbook: 
+"Development, Planning, and Implementation: The Dialectic of Theory and Practice":
+
+chapters:
+- Chapter 1: Introduction - The Rationale for the Course:
+sections:
+- Section: 1.1 Difference between Conventional Theories and Actual Outcomes:
+subsections:
+- 1.1a Theoretical Frameworks
+- 1.1b Real-world Outcomes
+- 1.1c Case Studies
+
+- Chapter 2: Overview of Conventional Theories of Development, Planning, and Implementation:
+sections:
+- Section: 2.1 One Modernity or Multiple Modernities:
+subsections:
+- 2.1a Definition of Modernity
+- 2.1b Theories of Modernity
+- 2.1c Modernity in Practice
+
+- Chapter 3: Assessment of Development and Planning Efforts:
+sections:
+- Section: 3.1 What has Worked and What has Not:
+subsections:
+- 3.1a Success Stories
+- 3.1b Failures and Lessons Learned
+- 3.1c Comparative Analysis
+
+- Chapter 4: Bottom-up versus Top-down Development:
+sections:
+- Section: 4.1 Comprehensive versus Incremental Planning:
+subsections:
+- 4.1a Definitions and Differences
+- 4.1b Advantages and Disadvantages
+- 4.1c Case Studies
+
+- Chapter 5: Under What Conditions do Public Sector Institutions Perform Well?:
+sections:
+- Section: 5.1 Is Politics a Hindrance to, or Essential for Planning?:
+subsections:
+- 5.1a Role of Politics in Planning
+- 5.1b Political Challenges in Planning
+- 5.1c Case Studies
+
+- Chapter 6: How do Development Professionals Define Ethical Practice?:
+sections:
+- Section: 6.1 Rigidity versus Flexibility:
+subsections:
+- 6.1a Ethical Guidelines
+- 6.1b Ethical Dilemmas
+- 6.1c Case Studies
+
+- Chapter 7: Modes of Evaluation for Practitioners:
+sections:
+- Section: 7.1 What is Useful Knowledge for Practitioners?:
+subsections:
+- 7.1a Defining Useful Knowledge
+- 7.1b Knowledge Acquisition and Application
+- 7.1c Case Studies
+
+- Chapter 8: The Social Construction of Learning Institutions:
+sections:
+- Section: 8.1 Surety of Purpose or Humility of Not Knowing the Answer?:
+subsections:
+- 8.1a Defining Learning Institutions
+- 8.1b Role of Learning Institutions in Development
+- 8.1c Case Studies
+
+- Chapter 9: Implementation Puzzle:
+sections:
+- Section: 9.1 Mid-term Due:
+subsections:
+- 9.1a Understanding the Implementation Puzzle
+- 9.1b Strategies for Implementation
+- 9.1c Case Studies
+
+- Chapter 10: Bottom-up versus Top-down Development:
+sections:
+- Section: 10.1 Comprehensive versus Incremental Planning:
+subsections:
+- 10.1a Definitions and Differences
+- 10.1b Advantages and Disadvantages
+- 10.1c Case Studies
+
+- Chapter 11: The Role of Stakeholders in Development:
+sections:
+- Section: 11.1 Identifying and Engaging Stakeholders:
+subsections:
+- 11.1a Who are Stakeholders?
+- 11.1b Stakeholder Engagement Strategies
+- 11.1c Case Studies
+
+- Chapter 12: The Impact of Globalization on Development:
+sections:
+- Section: 12.1 Globalization and its Effects:
+subsections:
+- 12.1a Defining Globalization
+- 12.1b Globalization and Development
+- 12.1c Case Studies
+
+- Chapter 13: The Role of Technology in Development:
+sections:
+- Section: 13.1 Technology as a Tool for Development:
+subsections:
+- 13.1a Defining Technology
+- 13.1b Technology and Development
+- 13.1c Case Studies
+
+- Chapter 14: The Role of Culture in Development:
+sections:
+- Section: 14.1 Understanding Cultural Context:
+subsections:
+- 14.1a Defining Culture
+- 14.1b Culture and Development
+- 14.1c Case Studies
+
+- Chapter 15: The Role of Education in Development:
+sections:
+- Section: 15.1 Education as a Tool for Development:
+subsections:
+- 15.1a Defining Education
+- 15.1b Education and Development
+- 15.1c Case Studies
+
+- Chapter 16: The Role of Health in Development:
+sections:
+- Section: 16.1 Health as a Tool for Development:
+subsections:
+- 16.1a Defining Health
+- 16.1b Health and Development
+- 16.1c Case Studies
+
+- Chapter 17: The Role of Infrastructure in Development:
+sections:
+- Section: 17.1 Infrastructure as a Tool for Development:
+subsections:
+- 17.1a Defining Infrastructure
+- 17.1b Infrastructure and Development
+- 17.1c Case Studies
+
+- Chapter 18: The Role of Environment in Development:
+sections:
+- Section: 18.1 Environment as a Tool for Development:
+subsections:
+- 18.1a Defining Environment
+- 18.1b Environment and Development
+- 18.1c Case Studies
+
+- Chapter 19: The Role of Gender in Development:
+sections:
+- Section: 19.1 Gender as a Tool for Development:
+subsections:
+- 19.1a Defining Gender
+- 19.1b Gender and Development
+- 19.1c Case Studies
+
+- Chapter 20: The Role of Governance in Development:
+sections:
+- Section: 20.1 Governance as a Tool for Development:
+subsections:
+- 20.1a Defining Governance
+- 20.1b Governance and Development
+- 20.1c Case Studies

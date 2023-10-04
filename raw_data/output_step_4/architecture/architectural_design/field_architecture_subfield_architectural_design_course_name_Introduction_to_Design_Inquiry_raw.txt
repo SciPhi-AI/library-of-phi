@@ -1,0 +1,383 @@
+textbook: 
+"Design Inquiry: Exploring the Intersection of Creativity and Problem Solving":
+
+chapters:
+- Chapter 1: Introduction to Design Inquiry:
+sections:
+- Section: 1.1 The Conduit Metaphor:
+subsections:
+- 1.1a Definition of Conduit Metaphor
+- 1.1b Application in Design
+- 1.1c Case Studies
+- Section: 1.2 Frame Conflict in Language:
+subsections:
+- 1.2a Understanding Frame Conflict
+- 1.2b Frame Conflict in Design
+- 1.2c Resolving Frame Conflict
+
+- Chapter 2: Readings:
+sections:
+- Section: 2.1 The Airtight Cage:
+subsections:
+- 2.1a Introduction to The Airtight Cage
+- 2.1b Key Concepts
+- 2.1c Application in Design
+- Section: 2.2 Death and Life of Great American Cities:
+subsections:
+- 2.2a Overview of the Book
+- 2.2b Key Takeaways
+- 2.2c Influence on Urban Design
+- Section: 2.3 Spirit of Place:
+subsections:
+- 2.3a Understanding Spirit of Place
+- 2.3b Spirit of Place in Design
+- 2.3c Case Studies
+
+- Chapter 3: Lecture Notes:
+sections:
+- Section: 3.1 Introduction - Woodland:
+subsections:
+- 3.1a Understanding Woodland Design
+- 3.1b Key Concepts
+- 3.1c Case Studies
+- Section: 3.2 How to Calculate with Shapes:
+subsections:
+- 3.2a Basics of Shape Calculation
+- 3.2b Application in Design
+- 3.2c Practical Examples
+- Section: 3.3 When is Reasoning Visual?:
+subsections:
+- 3.3a Understanding Visual Reasoning
+- 3.3b Visual Reasoning in Design
+- 3.3c Case Studies
+- Section: 3.4 A Note on Generative Design Technologies:
+subsections:
+- 3.4a Introduction to Generative Design
+- 3.4b Key Concepts
+- 3.4c Application in Design
+- Section: 3.5 Genetic Algorithms:
+subsections:
+- 3.5a Understanding Genetic Algorithms
+- 3.5b Genetic Algorithms in Design
+- 3.5c Practical Examples
+- Section: 3.6 Everything You Wanted to Know About Computers:
+subsections:
+- 3.6a Basics of Computer Science
+- 3.6b Computers in Design
+- 3.6c Case Studies
+
+- Chapter 4: Recitations:
+sections:
+- Section: 4.1 Recitation Techniques:
+subsections:
+- 4.1a Understanding Recitation
+- 4.1b Recitation in Design Education
+- 4.1c Case Studies
+
+- Chapter 5: Assignments:
+sections:
+- Section: 5.1 Assignment List:
+subsections:
+- 5.1a Understanding Assignments
+- 5.1b Assignments in Design Education
+- 5.1c Case Studies
+
+- Chapter 6: Exams:
+sections:
+- Section: 6.1 Exam Preparation:
+subsections:
+- 6.1a Understanding Exams
+- 6.1b Exams in Design Education
+- 6.1c Case Studies
+
+- Chapter 7: Syllabus:
+sections:
+- Section: 7.1 Syllabus Overview:
+subsections:
+- 7.1a Understanding the Syllabus
+- 7.1b Syllabus in Design Education
+- 7.1c Case Studies
+
+- Chapter 8: Calendar:
+sections:
+- Section: 8.1 Introduction / Woodland Cemetery:
+subsections:
+- 8.1a Understanding Woodland Cemetery
+- 8.1b Woodland Cemetery in Design
+- 8.1c Case Studies
+- Section: 8.2 Discuss Objects:
+subsections:
+- 8.2a Understanding Object Discussion
+- 8.2b Object Discussion in Design
+- 8.2c Case Studies
+- Section: 8.3 Tool Maker’s Paradigm:
+subsections:
+- 8.3a Understanding Tool Maker’s Paradigm
+- 8.3b Tool Maker’s Paradigm in Design
+- 8.3c Case Studies
+- Section: 8.4 Characteristics of Design:
+subsections:
+- 8.4a Understanding Design Characteristics
+- 8.4b Design Characteristics in Practice
+- 8.4c Case Studies
+- Section: 8.5 Reading Strategies:
+subsections:
+- 8.5a Understanding Reading Strategies
+- 8.5b Reading Strategies in Design
+- 8.5c Case Studies
+- Section: 8.6 Exeter Library Field Trip:
+subsections:
+- 8.6a Understanding Exeter Library
+- 8.6b Exeter Library in Design
+- 8.6c Case Studies
+- Section: 8.7 Discussion of Field Trip:
+subsections:
+- 8.7a Understanding Field Trip Discussion
+- 8.7b Field Trip Discussion in Design
+- 8.7c Case Studies
+- Section: 8.8 Discussion of Reading a Building: The Exeter Library:
+subsections:
+- 8.8a Understanding Building Reading
+- 8.8b Building Reading in Design
+- 8.8c Case Studies
+- Section: 8.9 Discussion of Part 4 of Reading a Building:
+subsections:
+- 8.9a Understanding Building Reading Part 4
+- 8.9b Building Reading Part 4 in Design
+- 8.9c Case Studies
+- Section: 8.10 Discussion of Type:
+subsections:
+- 8.10a Understanding Type Discussion
+- 8.10b Type Discussion in Design
+- 8.10c Case Studies
+
+- Chapter 9: Projects:
+sections:
+- Section: 9.1 Assignment 1 - A Bottle of Wine:
+subsections:
+- 9.1a Understanding the Assignment
+- 9.1b The Assignment in Design
+- 9.1c Case Studies
+- Section: 9.2 Assignment 2 - The Infinite Corridor:
+subsections:
+- 9.2a Understanding the Assignment
+- 9.2b The Assignment in Design
+- 9.2c Case Studies
+- Section: 9.3 Assignment 3 - MIT Chapel: Form:
+subsections:
+- 9.3a Understanding the Assignment
+- 9.3b The Assignment in Design
+- 9.3c Case Studies
+- Section: 9.4 Assignment 4 - Reading a Building: The Exeter Library:
+subsections:
+- 9.4a Understanding the Assignment
+- 9.4b The Assignment in Design
+- 9.4c Case Studies
+- Section: 9.5 Assignment 7 - Open Experiment:
+subsections:
+- 9.5a Understanding the Assignment
+- 9.5b The Assignment in Design
+- 9.5c Case Studies
+- Section: 9.6 Assignment 10 - Reflection:
+subsections:
+- 9.6a Understanding the Assignment
+- 9.6b The Assignment in Design
+- 9.6c Case Studies
+
+- Chapter 10: Design Principles:
+sections:
+- Section: 10.1 Understanding Design Principles:
+subsections:
+- 10.1a Basic Design Principles
+- 10.1b Application of Design Principles
+- 10.1c Case Studies
+- Section: 10.2 Design Process:
+subsections:
+- 10.2a Understanding the Design Process
+- 10.2b Stages of the Design Process
+- 10.2c Case Studies
+- Section: 10.3 Design Tools:
+subsections:
+- 10.3a Understanding Design Tools
+- 10.3b Application of Design Tools
+- 10.3c Case Studies
+
+- Chapter 11: Design Techniques:
+sections:
+- Section: 11.1 Understanding Design Techniques:
+subsections:
+- 11.1a Basic Design Techniques
+- 11.1b Application of Design Techniques
+- 11.1c Case Studies
+- Section: 11.2 Design Strategies:
+subsections:
+- 11.2a Understanding Design Strategies
+- 11.2b Application of Design Strategies
+- 11.2c Case Studies
+- Section: 11.3 Design Methods:
+subsections:
+- 11.3a Understanding Design Methods
+- 11.3b Application of Design Methods
+- 11.3c Case Studies
+
+- Chapter 12: Design Theory:
+sections:
+- Section: 12.1 Understanding Design Theory:
+subsections:
+- 12.1a Basic Design Theory
+- 12.1b Application of Design Theory
+- 12.1c Case Studies
+- Section: 12.2 Design Concepts:
+subsections:
+- 12.2a Understanding Design Concepts
+- 12.2b Application of Design Concepts
+- 12.2c Case Studies
+- Section: 12.3 Design Models:
+subsections:
+- 12.3a Understanding Design Models
+- 12.3b Application of Design Models
+- 12.3c Case Studies
+
+- Chapter 13: Design Research:
+sections:
+- Section: 13.1 Understanding Design Research:
+subsections:
+- 13.1a Basic Design Research
+- 13.1b Application of Design Research
+- 13.1c Case Studies
+- Section: 13.2 Design Analysis:
+subsections:
+- 13.2a Understanding Design Analysis
+- 13.2b Application of Design Analysis
+- 13.2c Case Studies
+- Section: 13.3 Design Evaluation:
+subsections:
+- 13.3a Understanding Design Evaluation
+- 13.3b Application of Design Evaluation
+- 13.3c Case Studies
+
+- Chapter 14: Design Communication:
+sections:
+- Section: 14.1 Understanding Design Communication:
+subsections:
+- 14.1a Basic Design Communication
+- 14.1b Application of Design Communication
+- 14.1c Case Studies
+- Section: 14.2 Design Presentation:
+subsections:
+- 14.2a Understanding Design Presentation
+- 14.2b Application of Design Presentation
+- 14.2c Case Studies
+- Section: 14.3 Design Documentation:
+subsections:
+- 14.3a Understanding Design Documentation
+- 14.3b Application of Design Documentation
+- 14.3c Case Studies
+
+- Chapter 15: Design Management:
+sections:
+- Section: 15.1 Understanding Design Management:
+subsections:
+- 15.1a Basic Design Management
+- 15.1b Application of Design Management
+- 15.1c Case Studies
+- Section: 15.2 Design Planning:
+subsections:
+- 15.2a Understanding Design Planning
+- 15.2b Application of Design Planning
+- 15.2c Case Studies
+- Section: 15.3 Design Leadership:
+subsections:
+- 15.3a Understanding Design Leadership
+- 15.3b Application of Design Leadership
+- 15.3c Case Studies
+
+- Chapter 16: Design Ethics:
+sections:
+- Section: 16.1 Understanding Design Ethics:
+subsections:
+- 16.1a Basic Design Ethics
+- 16.1b Application of Design Ethics
+- 16.1c Case Studies
+- Section: 16.2 Design Responsibility:
+subsections:
+- 16.2a Understanding Design Responsibility
+- 16.2b Application of Design Responsibility
+- 16.2c Case Studies
+- Section: 16.3 Design Sustainability:
+subsections:
+- 16.3a Understanding Design Sustainability
+- 16.3b Application of Design Sustainability
+- 16.3c Case Studies
+
+- Chapter 17: Design Innovation:
+sections:
+- Section: 17.1 Understanding Design Innovation:
+subsections:
+- 17.1a Basic Design Innovation
+- 17.1b Application of Design Innovation
+- 17.1c Case Studies
+- Section: 17.2 Design Creativity:
+subsections:
+- 17.2a Understanding Design Creativity
+- 17.2b Application of Design Creativity
+- 17.2c Case Studies
+- Section: 17.3 Design Experimentation:
+subsections:
+- 17.3a Understanding Design Experimentation
+- 17.3b Application of Design Experimentation
+- 17.3c Case Studies
+
+- Chapter 18: Design Technology:
+sections:
+- Section: 18.1 Understanding Design Technology:
+subsections:
+- 18.1a Basic Design Technology
+- 18.1b Application of Design Technology
+- 18.1c Case Studies
+- Section: 18.2 Design Software:
+subsections:
+- 18.2a Understanding Design Software
+- 18.2b Application of Design Software
+- 18.2c Case Studies
+- Section: 18.3 Design Hardware:
+subsections:
+- 18.3a Understanding Design Hardware
+- 18.3b Application of Design Hardware
+- 18.3c Case Studies
+
+- Chapter 19: Design Education:
+sections:
+- Section: 19.1 Understanding Design Education:
+subsections:
+- 19.1a Basic Design Education
+- 19.1b Application of Design Education
+- 19.1c Case Studies
+- Section: 19.2 Design Curriculum:
+subsections:
+- 19.2a Understanding Design Curriculum
+- 19.2b Application of Design Curriculum
+- 19.2c Case Studies
+- Section: 19.3 Design Pedagogy:
+subsections:
+- 19.3a Understanding Design Pedagogy
+- 19.3b Application of Design Pedagogy
+- 19.3c Case Studies
+
+- Chapter 20: Design Future:
+sections:
+- Section: 20.1 Understanding Design Future:
+subsections:
+- 20.1a Basic Design Future
+- 20.1b Application of Design Future
+- 20.1c Case Studies
+- Section: 20.2 Design Trends:
+subsections:
+- 20.2a Understanding Design Trends
+- 20.2b Application of Design Trends
+- 20.2c Case Studies
+- Section: 20.3 Design Challenges:
+subsections:
+- 20.3a Understanding Design Challenges
+- 20.3b Application of Design Challenges
+- 20.3c Case Studies

@@ -1,0 +1,418 @@
+textbook:
+  'Introduction to Computers and Engineering Problem Solving: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Course Overview:':
+        sections:
+        - '- Section: 1.1 Introduction to the Course:':
+            subsections:
+            - 1.1a Course Description
+            - 1.1b Course Goals
+            - 1.1c Course Materials
+        - '- Section: 1.2 Course Objectives:':
+            subsections:
+            - 1.2a Learning Outcomes
+            - 1.2b Skills Development
+            - 1.2c Assessment Methods
+        - '- Section: 1.3 Prerequisites:':
+            subsections:
+            - 1.3a Required Knowledge
+            - 1.3b Recommended Courses
+            - 1.3c Skills Assessment
+        - '- Section: 1.4 Course Structure:':
+            subsections:
+            - 1.4a Course Schedule
+            - 1.4b Grading Criteria
+            - 1.4c Course Policies
+    - '- Chapter 2: Introduction to Java:':
+        sections:
+        - '- Section: 2.1 Getting Started with Java:':
+            subsections:
+            - 2.1a Java Installation
+            - 2.1b Java Basics
+            - 2.1c First Java Program
+        - '- Section: 2.2 Setting up the Interactive Development Environment: Eclipse:':
+            subsections:
+            - 2.2a Eclipse Installation
+            - 2.2b Eclipse Basics
+            - 2.2c Creating Projects in Eclipse
+        - '- Section: 2.3 Basic Syntax and Structure:':
+            subsections:
+            - 2.3a Java Syntax
+            - 2.3b Java Structure
+            - 2.3c Java Naming Conventions
+        - '- Section: 2.4 Operators and Expressions:':
+            subsections:
+            - 2.4a Arithmetic Operators
+            - 2.4b Relational Operators
+            - 2.4c Logical Operators
+    - '- Chapter 3: Control Structures and Data Types:':
+        sections:
+        - '- Section: 3.1 Control Structures:':
+            subsections:
+            - 3.1a Conditional Statements
+            - 3.1b Looping Structures
+            - 3.1c Branching Statements
+        - '- Section: 3.2 Data Types:':
+            subsections:
+            - 3.2a Primitive Data Types
+            - 3.2b Non-Primitive Data Types
+            - 3.2c Type Conversion and Casting
+        - '- Section: 3.3 More Operators and Expressions:':
+            subsections:
+            - 3.3a Assignment Operators
+            - 3.3b Bitwise Operators
+            - 3.3c Ternary Operator
+        - '- Section: 3.4 More Data Types:':
+            subsections:
+            - 3.4a Arrays
+            - 3.4b Strings
+            - 3.4c Enumerations
+    - '- Chapter 4: Methods and Overloading:':
+        sections:
+        - '- Section: 4.1 Introduction to Methods:':
+            subsections:
+            - 4.1a Method Definition
+            - 4.1b Method Calling
+            - 4.1c Return Types and Parameters
+        - '- Section: 4.2 Method Overloading:':
+            subsections:
+            - 4.2a Overloading Basics
+            - 4.2b Overloading Rules
+            - 4.2c Overloading Examples
+        - '- Section: 4.3 Method Scope and Access Modifiers:':
+            subsections:
+            - 4.3a Scope of Variables
+            - 4.3b Access Modifiers
+            - 4.3c Encapsulation
+    - '- Chapter 5: Classes and Objects:':
+        sections:
+        - '- Section: 5.1 Introduction to Object-Oriented Programming:':
+            subsections:
+            - 5.1a OOP Concepts
+            - 5.1b OOP Principles
+            - 5.1c OOP Benefits
+        - '- Section: 5.2 Defining Classes:':
+            subsections:
+            - 5.2a Class Definition
+            - 5.2b Class Members
+            - 5.2c Class Constructors
+        - '- Section: 5.3 Creating Objects:':
+            subsections:
+            - 5.3a Object Creation
+            - 5.3b Object Methods
+            - 5.3c Object Destruction
+        - '- Section: 5.4 Constructors and Initialization:':
+            subsections:
+            - 5.4a Constructor Definition
+            - 5.4b Constructor Overloading
+            - 5.4c Initialization Blocks
+    - '- Chapter 6: Advanced OOP Concepts:':
+        sections:
+        - '- Section: 6.1 Class Variables and Methods:':
+            subsections:
+            - 6.1a Static Variables
+            - 6.1b Static Methods
+            - 6.1c Static Blocks
+        - '- Section: 6.2 Access Modifiers:':
+            subsections:
+            - 6.2a Public Modifier
+            - 6.2b Private Modifier
+            - 6.2c Protected Modifier
+        - '- Section: 6.3 Inheritance and Polymorphism:':
+            subsections:
+            - 6.3a Inheritance Basics
+            - 6.3b Method Overriding
+            - 6.3c Polymorphism
+        - '- Section: 6.4 Abstract Classes and Methods:':
+            subsections:
+            - 6.4a Abstract Class Definition
+            - 6.4b Abstract Method Definition
+            - 6.4c Abstract Class Usage
+    - '- Chapter 7: Interfaces and ArrayLists:':
+        sections:
+        - '- Section: 7.1 Interfaces:':
+            subsections:
+            - 7.1a Interface Definition
+            - 7.1b Interface Implementation
+            - 7.1c Interface Inheritance
+        - '- Section: 7.2 Introduction to Arrays:':
+            subsections:
+            - 7.2a Array Definition
+            - 7.2b Array Manipulation
+            - 7.2c Multidimensional Arrays
+        - '- Section: 7.3 Introduction to ArrayLists:':
+            subsections:
+            - 7.3a ArrayList Definition
+            - 7.3b ArrayList Manipulation
+            - 7.3c ArrayList vs Array
+        - '- Section: 7.4 Recursion:':
+            subsections:
+            - 7.4a Recursion Basics
+            - 7.4b Recursive Algorithms
+            - 7.4c Recursion vs Iteration
+    - '- Chapter 8: Inheritance and Interfaces:':
+        sections:
+        - '- Section: 8.1 Inheritance: Subclasses:':
+            subsections:
+            - 8.1a Subclass Definition
+            - 8.1b Superclass Access
+            - 8.1c Inheritance Hierarchies
+        - '- Section: 8.2 Inheritance II: Abstract Classes and Methods:':
+            subsections:
+            - 8.2a Abstract Class Usage
+            - 8.2b Abstract Method Overriding
+            - 8.2c Abstract Class vs Interface
+        - '- Section: 8.3 Inheritance III: Interfaces:':
+            subsections:
+            - 8.3a Interface Inheritance
+            - 8.3b Multiple Interface Implementation
+            - 8.3c Default and Static Interface Methods
+        - '- Section: 8.4 Design Lab I - Inheritance:':
+            subsections:
+            - 8.4a Design Problem
+            - 8.4b Design Solution
+            - 8.4c Design Evaluation
+    - '- Chapter 9: Introduction to Swing:':
+        sections:
+        - '- Section: 9.1 Introduction to Graphical User Interfaces:':
+            subsections:
+            - 9.1a GUI Basics
+            - 9.1b GUI Components
+            - 9.1c Event-Driven Programming
+        - '- Section: 9.2 Introduction to Swing Framework:':
+            subsections:
+            - 9.2a Swing Basics
+            - 9.2b Swing Components
+            - 9.2c Swing Event Handling
+        - '- Section: 9.3 Swing Event Model:':
+            subsections:
+            - 9.3a Event Listeners
+            - 9.3b Event Classes
+            - 9.3c Event Handling
+        - '- Section: 9.4 Inner Classes and Event Handling:':
+            subsections:
+            - 9.4a Inner Class Definition
+            - 9.4b Inner Class Usage
+            - 9.4c Event Handling with Inner Classes
+    - '- Chapter 10: Advanced Swing and 2D Graphics:':
+        sections:
+        - '- Section: 10.1 Layout Managers:':
+            subsections:
+            - 10.1a Layout Manager Types
+            - 10.1b Layout Manager Usage
+            - 10.1c Custom Layouts
+        - '- Section: 10.2 Model-View-Controller Pattern:':
+            subsections:
+            - 10.2a MVC Basics
+            - 10.2b MVC in Swing
+            - 10.2c MVC Benefits
+        - '- Section: 10.3 Timers and Animation:':
+            subsections:
+            - 10.3a Timer Class
+            - 10.3b Timer Events
+            - 10.3c Animation Basics
+        - '- Section: 10.4 2D API and Graphics:':
+            subsections:
+            - 10.4a 2D API Basics
+            - 10.4b Drawing Shapes
+            - 10.4c Painting and Coloring
+    - '- Chapter 11: Streams and Exceptions:':
+        sections:
+        - '- Section: 11.1 Introduction to Input and Output Streams:':
+            subsections:
+            - 11.1a Stream Basics
+            - 11.1b Byte Streams
+            - 11.1c Character Streams
+        - '- Section: 11.2 File Handling:':
+            subsections:
+            - 11.2a File Class
+            - 11.2b Reading and Writing Files
+            - 11.2c File Navigation and Manipulation
+        - '- Section: 11.3 Exception Handling:':
+            subsections:
+            - 11.3a Exception Basics
+            - 11.3b Try-Catch-Finally Blocks
+            - 11.3c Exception Types
+        - '- Section: 11.4 Advanced Stream Manipulation:':
+            subsections:
+            - 11.4a Buffered Streams
+            - 11.4b Data Streams
+            - 11.4c Object Streams
+    - '- Chapter 12: Sensors and Threads:':
+        sections:
+        - '- Section: 12.1 Introduction to Sensors:':
+            subsections:
+            - 12.1a Sensor Basics
+            - 12.1b Sensor Types
+            - 12.1c Sensor Data Acquisition
+        - '- Section: 12.2 Sensors II:':
+            subsections:
+            - 12.2a Sensor Calibration
+            - 12.2b Sensor Data Processing
+            - 12.2c Sensor Applications
+        - '- Section: 12.3 Design Lab III - Sensors:':
+            subsections:
+            - 12.3a Design Problem
+            - 12.3b Design Solution
+            - 12.3c Design Evaluation
+        - '- Section: 12.4 Introduction to Multithreading:':
+            subsections:
+            - 12.4a Thread Basics
+            - 12.4b Creating and Running Threads
+            - 12.4c Thread States and Life Cycle
+    - '- Chapter 13: Advanced Threads and Matrices:':
+        sections:
+        - '- Section: 13.1 Thread Synchronization:':
+            subsections:
+            - 13.1a Synchronization Basics
+            - 13.1b Synchronized Methods
+            - 13.1c Synchronized Blocks
+        - '- Section: 13.2 Inter-thread Communication:':
+            subsections:
+            - 13.2a Wait-Notify Mechanism
+            - 13.2b Deadlock
+            - 13.2c Inter-thread Communication in Practice
+        - '- Section: 13.3 Introduction to Matrices:':
+            subsections:
+            - 13.3a Matrix Basics
+            - 13.3b Matrix Operations
+            - 13.3c Matrix Applications
+        - '- Section: 13.4 Linear Systems:':
+            subsections:
+            - 13.4a Linear System Basics
+            - 13.4b Solving Linear Systems
+            - 13.4c Linear Systems in Practice
+    - '- Chapter 14: Numerical Integration and Root Finding:':
+        sections:
+        - '- Section: 14.1 Numerical Integration:':
+            subsections:
+            - 14.1a Integration Basics
+            - 14.1b Numerical Integration Methods
+            - 14.1c Numerical Integration in Practice
+        - '- Section: 14.2 Introduction to Root Finding Algorithms:':
+            subsections:
+            - 14.2a Root Finding Basics
+            - 14.2b Bisection Method
+            - 14.2c Newton-Raphson Method
+        - '- Section: 14.3 Sorting Algorithms:':
+            subsections:
+            - 14.3a Sorting Basics
+            - 14.3b Bubble Sort
+            - 14.3c Quick Sort
+        - '- Section: 14.4 Stacks and Queues:':
+            subsections:
+            - 14.4a Stack Basics
+            - 14.4b Queue Basics
+            - 14.4c Stack and Queue Applications
+    - '- Chapter 15: Lists and Trees:':
+        sections:
+        - '- Section: 15.1 Introduction to Lists:':
+            subsections:
+            - 15.1a List Basics
+            - 15.1b List Operations
+            - 15.1c List Applications
+        - '- Section: 15.2 Linked Lists:':
+            subsections:
+            - 15.2a Linked List Basics
+            - 15.2b Linked List Operations
+            - 15.2c Linked List Applications
+        - '- Section: 15.3 Doubly Linked Lists:':
+            subsections:
+            - 15.3a Doubly Linked List Basics
+            - 15.3b Doubly Linked List Operations
+            - 15.3c Doubly Linked List Applications
+        - '- Section: 15.4 Storing Data: Trees:':
+            subsections:
+            - 15.4a Tree Basics
+            - 15.4b Tree Operations
+            - 15.4c Tree Applications
+    - '- Chapter 16: Hash Tables and Advanced Data Structures:':
+        sections:
+        - '- Section: 16.1 Storing Data: Hash Tables:':
+            subsections:
+            - 16.1a Hash Table Basics
+            - 16.1b Hash Functions
+            - 16.1c Hash Table Operations
+        - '- Section: 16.2 Circular Linked Lists:':
+            subsections:
+            - 16.2a Circular Linked List Basics
+            - 16.2b Circular Linked List Operations
+            - 16.2c Circular Linked List Applications
+        - '- Section: 16.3 Advanced List Manipulation:':
+            subsections:
+            - 16.3a List Sorting
+            - 16.3b List Searching
+            - 16.3c List Reversal
+        - '- Section: 16.4 Advanced Tree Data Structures:':
+            subsections:
+            - 16.4a Binary Trees
+            - 16.4b Binary Search Trees
+            - 16.4c AVL Trees
+    - '- Chapter 17: Advanced Hash Table Implementation:':
+        sections:
+        - '- Section: 17.1 Advanced Hash Table Techniques:':
+            subsections:
+            - 17.1a Collision Resolution
+            - 17.1b Dynamic Resizing
+            - 17.1c Hash Table Efficiency
+        - '- Section: 17.2 Advanced Root Finding Techniques:':
+            subsections:
+            - 17.2a Secant Method
+            - 17.2b False Position Method
+            - 17.2c Fixed Point Iteration
+        - '- Section: 17.3 Advanced Sorting Algorithms:':
+            subsections:
+            - 17.3a Merge Sort
+            - 17.3b Heap Sort
+            - 17.3c Radix Sort
+        - '- Section: 17.4 Advanced Integration Techniques:':
+            subsections:
+            - 17.4a Trapezoidal Rule
+            - 17.4b Simpson's Rule
+            - 17.4c Gaussian Quadrature
+    - '- Chapter 18: Reynolds Averaging:':
+        sections:
+        - '- Section: 18.1 Prandtl''s Analogy:':
+            subsections:
+            - 18.1a Reynolds-Averaged Navier-Stokes Equations
+            - 18.1b Turbulent Stresses
+            - 18.1c Reynolds Stress Modeling
+    - '- Chapter 19: Turbulent BL Structure:':
+        sections:
+        - '- Section: 19.1 Wake:':
+            subsections:
+            - 19.1a Wake Formation
+            - 19.1b Wake Characteristics
+            - 19.1c Wake Effects on Flow
+        - '- Section: 19.2 Wall Layers:':
+            subsections:
+            - 19.2a Viscous Sublayer
+            - 19.2b Buffer Layer
+            - 19.2c Overlap Layer
+        - '- Section: 19.3 Inner, Outer Variables:':
+            subsections:
+            - 19.3a Velocity and Length Scales
+            - 19.3b Wall Coordinates
+            - 19.3c Outer Variables
+        - '- Section: 19.4 Effects of Roughness:':
+            subsections:
+            - 19.4a Roughness Effects on Boundary Layer
+            - 19.4b Skin Friction and Heat Transfer
+            - 19.4c Roughness Effects on Flow Separation
+    - '- Chapter 20: Equilibrium BL''s:':
+        sections:
+        - '- Section: 20.1 Clauser Hypothesis:':
+            subsections:
+            - 20.1a Equilibrium Boundary Layer Concept
+            - 20.1b Clauser's Equilibrium Assumptions
+            - 20.1c Clauser's Equilibrium Testing
+        - '- Section: 20.2 Dissipation Formulas:':
+            subsections:
+            - 20.2a Turbulent Energy Dissipation
+            - 20.2b Dissipation in Equilibrium Boundary Layers
+            - 20.2c Dissipation Effects on Flow
+        - '- Section: 20.3 Integral Closure:':
+            subsections:
+            - 20.3a Reynolds Stress Closure
+            - 20.3b Eddy Viscosity Models
+            - 20.3c Mixing Length Models

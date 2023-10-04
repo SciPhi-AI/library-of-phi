@@ -1,0 +1,326 @@
+textbook: 
+"Multicore Programming Primer: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Course Number and Name:
+sections:
+- Section: 1.1 Course Number:
+subsections:
+- 1.1a 6.189
+
+- Section: 1.2 Course Name:
+subsections:
+- 1.2a Multicore Programming Primer
+
+- Chapter 2: Resource Level:
+sections:
+- Section: 2.1 Undergraduate:
+subsections:
+- 2.1a Introduction to Multicore Programming for Undergraduates
+
+- Chapter 3: Readings:
+sections:
+- Section: 3.1 Text:
+- Section: 3.2 Information:
+
+- Chapter 4: Lecture Notes:
+sections:
+- Section: 4.1 Text:
+- Section: 4.2 Information:
+
+- Chapter 5: Recitations:
+sections:
+- Section: 5.1 Text:
+- Section: 5.2 Information:
+
+- Chapter 6: Assignments:
+sections:
+- Section: 6.1 Text:
+- Section: 6.2 Information:
+
+- Chapter 7: Exams:
+sections:
+- Section: 7.1 Text:
+- Section: 7.2 Information:
+
+- Chapter 8: Syllabus:
+sections:
+- Section: 8.1 Overview:
+subsections:
+- 8.1a Course Introduction
+
+- Section: 8.2 Introduction to Cell Processor:
+subsections:
+- 8.2a Overview of Cell Processor
+- 8.2b Cell Processor Architecture
+- 8.2c Cell Processor Features
+
+- Section: 8.3 Getting to Know Cell:
+subsections:
+- 8.3a Cell Programming Environment
+- 8.3b Cell Programming Models
+
+- Section: 8.4 Introduction to Parallel Architectures:
+subsections:
+- 8.4a Types of Parallel Architectures
+- 8.4b Parallel Computing Models
+
+- Section: 8.5 Introduction to Concurrent Programming:
+subsections:
+- 8.5a Basics of Concurrent Programming
+- 8.5b Synchronization and Communication Mechanisms
+
+- Section: 8.6 Project Reviews:
+
+- Section: 8.7 Parallel Programming Concepts:
+subsections:
+- 8.7a Parallel Algorithms and Techniques
+- 8.7b Task and Data Parallelism
+
+- Section: 8.8 Design Patterns for Parallel Programming I:
+
+- Section: 8.9 Cell Programming Hands-on:
+
+- Section: 8.10 Design Patterns for Parallel Programming II:
+
+- Section: 8.11 StreamIt Language:
+
+- Section: 8.12 Cell Debugging Tools:
+
+- Section: 8.13 Debugging Parallel Programs:
+
+- Section: 8.14 Performance Monitoring and Optimizations:
+
+- Section: 8.15 Parallelizing Compilers:
+subsections:
+- 8.15a Compiler Techniques for Parallelization
+- 8.15b Parallelizing Compiler Technologies
+
+- Section: 8.16 StreamIt Parallelizing Compiler:
+
+- Section: 8.17 Cell Profiling Tools:
+
+- Section: 8.18 SIMD Programming on Cell:
+
+- Section: 8.19 Star-P:
+
+- Section: 8.20 Synthesizing Parallel Programs:
+
+- Section: 8.21 Cilk:
+
+- Section: 8.22 Introduction to Game Development:
+
+- Section: 8.23 The Raw Experience:
+
+- Section: 8.24 The Future:
+
+- Section: 8.25 Student Project Competition:
+
+- Section: 8.26 Award Ceremony:
+
+- Chapter 9: Calendar:
+sections:
+- Section: 9.1 Text:
+- Section: 9.2 Information:
+
+- Chapter 10: Projects:
+sections:
+- Section: 10.1 Text:
+- Section: 10.2 Information:
+
+- Chapter 11: Introduction to Multithreading:
+sections:
+- Section: 11.1 Basics of Multithreading:
+subsections:
+- 11.1a Thread Creation
+- 11.1b Thread Synchronization
+- 11.1c Thread Safety
+
+- Section: 11.2 Multithreading Models:
+subsections:
+- 11.2a One-to-One Model
+- 11.2b Many-to-One Model
+- 11.2c Many-to-Many Model
+
+- Section: 11.3 Multithreading in Different Programming Languages:
+subsections:
+- 11.3a Multithreading in C++
+- 11.3b Multithreading in Java
+- 11.3c Multithreading in Python
+
+- Chapter 12: Parallel Algorithms:
+sections:
+- Section: 12.1 Sorting Algorithms:
+subsections:
+- 12.1a Parallel Merge Sort
+- 12.1b Parallel Quick Sort
+- 12.1c Parallel Bubble Sort
+
+- Section: 12.2 Searching Algorithms:
+subsections:
+- 12.2a Parallel Binary Search
+- 12.2b Parallel Depth-First Search
+- 12.2c Parallel Breadth-First Search
+
+- Section: 12.3 Graph Algorithms:
+subsections:
+- 12.3a Parallel Dijkstra's Algorithm
+- 12.3b Parallel Floyd-Warshall Algorithm
+- 12.3c Parallel Prim's Algorithm
+
+- Chapter 13: Parallel Data Structures:
+sections:
+- Section: 13.1 Parallel Arrays:
+subsections:
+- 13.1a Parallel Array Operations
+- 13.1b Parallel Array Applications
+
+- Section: 13.2 Parallel Linked Lists:
+subsections:
+- 13.2a Parallel Linked List Operations
+- 13.2b Parallel Linked List Applications
+
+- Section: 13.3 Parallel Trees:
+subsections:
+- 13.3a Parallel Tree Operations
+- 13.3b Parallel Tree Applications
+
+- Chapter 14: Parallel Programming Libraries:
+sections:
+- Section: 14.1 OpenMP:
+subsections:
+- 14.1a OpenMP Directives
+- 14.1b OpenMP Tasks
+- 14.1c OpenMP Synchronization
+
+- Section: 14.2 MPI:
+subsections:
+- 14.2a MPI Communication
+- 14.2b MPI Collective Operations
+- 14.2c MPI Derived Datatypes
+
+- Section: 14.3 Pthreads:
+subsections:
+- 14.3a Pthreads Creation and Termination
+- 14.3b Pthreads Synchronization
+- 14.3c Pthreads Attributes
+
+- Chapter 15: Parallel Programming Paradigms:
+sections:
+- Section: 15.1 Data Parallelism:
+subsections:
+- 15.1a SIMD
+- 15.1b SPMD
+- 15.1c Vectorization
+
+- Section: 15.2 Task Parallelism:
+subsections:
+- 15.2a Task Decomposition
+- 15.2b Task Scheduling
+- 15.2c Task Synchronization
+
+- Section: 15.3 Pipeline Parallelism:
+subsections:
+- 15.3a Pipeline Stages
+- 15.3b Pipeline Scheduling
+- 15.3c Pipeline Synchronization
+
+- Chapter 16: Parallel Programming Challenges:
+sections:
+- Section: 16.1 Load Balancing:
+subsections:
+- 16.1a Static Load Balancing
+- 16.1b Dynamic Load Balancing
+- 16.1c Load Balancing Algorithms
+
+- Section: 16.2 Data Dependency:
+subsections:
+- 16.2a Data Dependency Analysis
+- 16.2b Data Dependency Handling
+- 16.2c Data Dependency in Different Programming Models
+
+- Section: 16.3 Race Conditions:
+subsections:
+- 16.3a Race Condition Detection
+- 16.3b Race Condition Prevention
+- 16.3c Race Condition in Different Programming Models
+
+- Chapter 17: Parallel Programming Performance:
+sections:
+- Section: 17.1 Speedup:
+subsections:
+- 17.1a Amdahl's Law
+- 17.1b Gustafson's Law
+- 17.1c Speedup Measurement
+
+- Section: 17.2 Efficiency:
+subsections:
+- 17.2a Efficiency Measurement
+- 17.2b Efficiency Improvement
+- 17.2c Efficiency in Different Programming Models
+
+- Section: 17.3 Scalability:
+subsections:
+- 17.3a Scalability Measurement
+- 17.3b Scalability Improvement
+- 17.3c Scalability in Different Programming Models
+
+- Chapter 18: Parallel Programming Debugging:
+sections:
+- Section: 18.1 Debugging Tools:
+subsections:
+- 18.1a GDB
+- 18.1b Valgrind
+- 18.1c Intel Inspector
+
+- Section: 18.2 Debugging Techniques:
+subsections:
+- 18.2a Breakpoints
+- 18.2b Watchpoints
+- 18.2c Backtrace
+
+- Section: 18.3 Debugging Challenges:
+subsections:
+- 18.3a Non-determinism
+- 18.3b Deadlocks
+- 18.3c Data Races
+
+- Chapter 19: Parallel Programming Testing:
+sections:
+- Section: 19.1 Testing Tools:
+subsections:
+- 19.1a Google Test
+- 19.1b Catch2
+- 19.1c Boost.Test
+
+- Section: 19.2 Testing Techniques:
+subsections:
+- 19.2a Unit Testing
+- 19.2b Integration Testing
+- 19.2c System Testing
+
+- Section: 19.3 Testing Challenges:
+subsections:
+- 19.3a Non-determinism
+- 19.3b Concurrency
+- 19.3c Performance
+
+- Chapter 20: Parallel Programming Best Practices:
+sections:
+- Section: 20.1 Code Organization:
+subsections:
+- 20.1a Modularity
+- 20.1b Encapsulation
+- 20.1c Cohesion and Coupling
+
+- Section: 20.2 Code Optimization:
+subsections:
+- 20.2a Loop Unrolling
+- 20.2b Prefetching
+- 20.2c Vectorization
+
+- Section: 20.3 Code Documentation:
+subsections:
+- 20.3a Comments
+- 20.3b Docstrings
+- 20.3c API Documentation

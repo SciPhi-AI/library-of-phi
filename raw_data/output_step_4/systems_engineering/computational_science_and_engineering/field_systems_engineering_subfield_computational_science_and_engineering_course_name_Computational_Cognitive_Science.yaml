@@ -1,0 +1,198 @@
+textbook:
+  'Computational Cognitive Science: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction and Organizational Meeting:':
+        sections:
+        - '- Section: 1.1 Course overview':
+            subsections: []
+        - '- Section: 1.2 Administrative details':
+            subsections: []
+        - '- Section: 1.3 Expectations':
+            subsections: []
+    - '- Chapter 2: Tutorial on Probability Theory, Bayesian Inference, Bayes Nets:':
+        sections:
+        - '- Section: 2.1 Basic probability theory':
+            subsections: []
+        - '- Section: 2.2 Bayesian inference':
+            subsections: []
+        - '- Section: 2.3 Bayes nets':
+            subsections: []
+    - '- Chapter 3: Induction:':
+        sections:
+        - '- Section: 3.1 Goodman''s grue problem':
+            subsections: []
+        - '- Section: 3.2 Osherson et al. paper':
+            subsections: []
+        - '- Section: 3.3 Answering the fundamental question about induction':
+            subsections: []
+    - '- Chapter 4: Similarity:':
+        sections:
+        - '- Section: 4.1 Similarity measures':
+            subsections: []
+        - '- Section: 4.2 Cognitive processes in similarity judgment':
+            subsections: []
+        - '- Section: 4.3 Applications in cognitive science':
+            subsections: []
+    - '- Chapter 5: Concepts:':
+        sections:
+        - '- Section: 5.1 Definition of concepts':
+            subsections: []
+        - '- Section: 5.2 Category formation':
+            subsections: []
+        - '- Section: 5.3 Concept learning':
+            subsections:
+            - 5.3a Prototype theory
+            - 5.3b Exemplar theory
+            - 5.3c Theory theory
+        - '- Section: 5.4 Conceptual knowledge representation':
+            subsections: []
+    - '- Chapter 6: Causality and Categorization:':
+        sections:
+        - '- Section: 6.1 Causal relationships in categorization':
+            subsections: []
+        - '- Section: 6.2 Causal induction':
+            subsections: []
+        - '- Section: 6.3 Causal reasoning':
+            subsections:
+            - 6.3a Counterfactual reasoning
+            - 6.3b Causal models
+            - 6.3c Probabilistic causation
+    - '- Chapter 7: Causal Induction:':
+        sections:
+        - '- Section: 7.1 Mechanisms of causal induction':
+            subsections: []
+        - '- Section: 7.2 Experimental studies in causal induction':
+            subsections: []
+        - '- Section: 7.3 Bayesian models of causal induction':
+            subsections: []
+    - '- Chapter 8: Theories:':
+        sections:
+        - '- Section: 8.1 Role of theories in cognitive science':
+            subsections: []
+        - '- Section: 8.2 Theory construction and evaluation':
+            subsections: []
+        - '- Section: 8.3 Neural network theories':
+            subsections:
+            - 8.3a Connectionist models
+            - 8.3b Symbolic models
+    - '- Chapter 9: Inductive Reasoning in Biology:':
+        sections:
+        - '- Section: 9.1 Inductive reasoning in evolutionary biology':
+            subsections: []
+        - '- Section: 9.2 Inductive biases in learning':
+            subsections: []
+        - '- Section: 9.3 Inductive reasoning in animal cognition':
+            subsections: []
+    - '- Chapter 10: Conceptual Change in Biology:':
+        sections:
+        - '- Section: 10.1 Conceptual change in biological knowledge':
+            subsections: []
+        - '- Section: 10.2 Paradigm shifts in biology':
+            subsections: []
+        - '- Section: 10.3 Conceptual change in evolutionary theory':
+            subsections: []
+    - '- Chapter 11: Word Learning:':
+        sections:
+        - '- Section: 11.1 Acquisition of word meanings':
+            subsections: []
+        - '- Section: 11.2 Word learning in infants and children':
+            subsections: []
+        - '- Section: 11.3 Computational models of word learning':
+            subsections: []
+    - '- Chapter 12: ''Intuitive Physics: Objects, Mass/Density'':':
+        sections:
+        - '- Section: 12.1 Perceptual and cognitive aspects of intuitive physics':
+            subsections: []
+        - '- Section: 12.2 Object representation':
+            subsections: []
+        - '- Section: 12.3 Mass and density perception':
+            subsections:
+            - 12.3a Object permanence
+            - 12.3b Gravity perception
+            - 12.3c Weight perception
+    - '- Chapter 13: Theory of Mind:':
+        sections:
+        - '- Section: 13.1 Development of theory of mind':
+            subsections: []
+        - '- Section: 13.2 Mental state attribution':
+            subsections: []
+        - '- Section: 13.3 Neural basis of theory of mind':
+            subsections: []
+    - '- Chapter 14: Number:':
+        sections:
+        - '- Section: 14.1 Numerical cognition':
+            subsections: []
+        - '- Section: 14.2 Development of numerical concepts':
+            subsections: []
+        - '- Section: 14.3 Neural mechanisms of numerical processing':
+            subsections:
+            - 14.3a Counting
+            - 14.3b Arithmetic
+            - 14.3c Magnitude representation
+    - '- Chapter 15: Cognitive Development:':
+        sections:
+        - '- Section: 15.1 Stages of cognitive development':
+            subsections: []
+        - '- Section: 15.2 Cognitive development theories':
+            subsections: []
+        - '- Section: 15.3 Cognitive development in infants':
+            subsections:
+            - 15.3a Sensorimotor stage
+            - 15.3b Preoperational stage
+            - 15.3c Concrete operational stage
+            - 15.3d Formal operational stage
+    - '- Chapter 16: Memory:':
+        sections:
+        - '- Section: 16.1 Types of memory':
+            subsections: []
+        - '- Section: 16.2 Memory processes':
+            subsections: []
+        - '- Section: 16.3 Memory disorders':
+            subsections:
+            - 16.3a Amnesia
+            - 16.3b Alzheimer's disease
+            - 16.3c Dementia
+    - '- Chapter 17: Perception:':
+        sections:
+        - '- Section: 17.1 Visual perception':
+            subsections: []
+        - '- Section: 17.2 Auditory perception':
+            subsections: []
+        - '- Section: 17.3 Perception and cognition':
+            subsections:
+            - 17.3a Perception and attention
+            - 17.3b Perception and memory
+            - 17.3c Perception and language
+    - '- Chapter 18: Language:':
+        sections:
+        - '- Section: 18.1 Language acquisition':
+            subsections: []
+        - '- Section: 18.2 Language and cognition':
+            subsections: []
+        - '- Section: 18.3 Language disorders':
+            subsections:
+            - 18.3a Aphasia
+            - 18.3b Dyslexia
+            - 18.3c Language delay
+    - '- Chapter 19: Decision Making:':
+        sections:
+        - '- Section: 19.1 Decision making theories':
+            subsections: []
+        - '- Section: 19.2 Decision making processes':
+            subsections: []
+        - '- Section: 19.3 Decision making and cognition':
+            subsections:
+            - 19.3a Decision making and memory
+            - 19.3b Decision making and perception
+            - 19.3c Decision making and emotion
+    - '- Chapter 20: Problem Solving:':
+        sections:
+        - '- Section: 20.1 Problem solving strategies':
+            subsections: []
+        - '- Section: 20.2 Problem solving and cognition':
+            subsections: []
+        - '- Section: 20.3 Problem solving in real-world contexts':
+            subsections:
+            - 20.3a Problem solving in education
+            - 20.3b Problem solving in the workplace
+            - 20.3c Problem solving in everyday life

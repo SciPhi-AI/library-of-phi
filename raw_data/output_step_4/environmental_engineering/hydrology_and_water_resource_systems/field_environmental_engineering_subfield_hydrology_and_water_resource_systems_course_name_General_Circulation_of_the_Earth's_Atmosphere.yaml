@@ -1,0 +1,264 @@
+textbook:
+  'General Circulation of the Earth''s Atmosphere: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Overview of Atmospheric Circulation':
+            subsections: []
+        - '- Section: 1.2 Importance of General Circulation':
+            subsections: []
+        - '- Section: 1.3 Historical Development':
+            subsections: []
+        - '- Section: 1.4 Key Concepts in Atmospheric Science:':
+            subsections:
+            - 1.4a Atmosphere Composition
+            - 1.4b Atmospheric Layers
+            - 1.4c Atmospheric Pressure
+            - 1.4d Atmospheric Temperature
+            - 1.4e Atmospheric Humidity
+            - 1.4f Atmospheric Stability
+            - 1.4g Atmospheric Motion
+    - '- Chapter 2: Analysis Techniques:':
+        sections:
+        - '- Section: 2.1 Mathematical Methods in Atmospheric Science':
+            subsections: []
+        - '- Section: 2.2 Data Analysis and Interpretation':
+            subsections: []
+        - '- Section: 2.3 Statistical Techniques':
+            subsections: []
+        - '- Section: 2.4 Numerical Methods':
+            subsections: []
+        - '- Section: 2.5 Remote Sensing Techniques':
+            subsections: []
+        - '- Section: 2.6 Climate Data Visualization':
+            subsections: []
+    - '- Chapter 3: Angular Momentum and Kinetic Energy Budgets:':
+        sections:
+        - '- Section: 3.1 Angular Momentum in Atmospheric Dynamics':
+            subsections: []
+        - '- Section: 3.2 Conservation Laws':
+            subsections: []
+        - '- Section: 3.3 Role of Kinetic Energy in Atmospheric Circulation':
+            subsections: []
+        - '- Section: 3.4 Energy Budget Analysis':
+            subsections: []
+        - '- Section: 3.5 Wind Energy Conversion Technologies':
+            subsections: []
+        - '- Section: 3.6 Climate Change and Energy Budget Imbalance':
+            subsections: []
+    - '- Chapter 4: Water Vapor Budget:':
+        sections:
+        - '- Section: 4.1 Water Vapor in the Atmosphere':
+            subsections: []
+        - '- Section: 4.2 Moisture Transport':
+            subsections: []
+        - '- Section: 4.3 Precipitation Processes':
+            subsections: []
+        - '- Section: 4.4 Water Vapor Feedbacks':
+            subsections: []
+        - '- Section: 4.5 Cloud Formation and Dynamics':
+            subsections: []
+        - '- Section: 4.6 Water Resources and Climate Change':
+            subsections: []
+    - '- Chapter 5: Heat Budget:':
+        sections:
+        - '- Section: 5.1 Solar Radiation and Earth''s Energy Budget':
+            subsections: []
+        - '- Section: 5.2 Atmospheric Heating and Cooling':
+            subsections: []
+        - '- Section: 5.3 Thermodynamic Processes':
+            subsections: []
+        - '- Section: 5.4 Heat Transport Mechanisms':
+            subsections: []
+        - '- Section: 5.5 Urban Heat Island Effect':
+            subsections: []
+        - '- Section: 5.6 Impacts of Climate Change on Heat Budget':
+            subsections: []
+    - '- Chapter 6: Spectral Analysis:':
+        sections:
+        - '- Section: 6.1 Fourier Analysis in Atmospheric Science':
+            subsections: []
+        - '- Section: 6.2 Power Spectra and Spectral Distributions':
+            subsections: []
+        - '- Section: 6.3 Spectral Decomposition Techniques':
+            subsections: []
+        - '- Section: 6.4 Applications in Climate Research':
+            subsections: []
+        - '- Section: 6.5 Climate Variability and Spectral Analysis':
+            subsections: []
+        - '- Section: 6.6 Spectral Analysis in Extreme Weather Events':
+            subsections: []
+    - '- Chapter 7: Forcing of the Zonal Mean Circulations:':
+        sections:
+        - '- Section: 7.1 Zonal Mean Flow in the Atmosphere':
+            subsections: []
+        - '- Section: 7.2 Forcing Mechanisms':
+            subsections: []
+        - '- Section: 7.3 Atmospheric Waves and Teleconnections':
+            subsections: []
+        - '- Section: 7.4 Role of Planetary-Scale Systems':
+            subsections: []
+        - '- Section: 7.5 Stratospheric Circulation and Ozone Depletion':
+            subsections: []
+        - '- Section: 7.6 Climate Change and Zonal Circulation Shifts':
+            subsections: []
+    - '- Chapter 8: Energy Cycle:':
+        sections:
+        - '- Section: 8.1 Energy Transfer in the Atmosphere':
+            subsections: []
+        - '- Section: 8.2 Energy Conversion Processes':
+            subsections: []
+        - '- Section: 8.3 Energy Budget Analysis':
+            subsections: []
+        - '- Section: 8.4 Feedback Mechanisms':
+            subsections: []
+        - '- Section: 8.5 Renewable Energy and Climate Change Mitigation':
+            subsections: []
+        - '- Section: 8.6 Impacts of Climate Change on Energy Cycle':
+            subsections: []
+    - '- Chapter 9: Numerical Models:':
+        sections:
+        - '- Section: 9.1 Atmospheric Models and Simulations':
+            subsections: []
+        - '- Section: 9.2 Numerical Weather Prediction':
+            subsections: []
+        - '- Section: 9.3 Climate Models':
+            subsections: []
+        - '- Section: 9.4 Model Evaluation and Validation':
+            subsections: []
+        - '- Section: 9.5 Uncertainty Analysis in Climate Models':
+            subsections: []
+        - '- Section: 9.6 Future Projections and Model Scenarios':
+            subsections: []
+    - '- Chapter 10: Atmospheric Dynamics:':
+        sections:
+        - '- Section: 10.1 Atmospheric Pressure Systems':
+            subsections: []
+        - '- Section: 10.2 Wind Systems':
+            subsections: []
+        - '- Section: 10.3 Atmospheric Stability and Instability':
+            subsections: []
+        - '- Section: 10.4 Atmospheric Waves and Oscillations':
+            subsections: []
+        - '- Section: 10.5 Atmospheric Turbulence':
+            subsections: []
+    - '- Chapter 11: Atmospheric Thermodynamics:':
+        sections:
+        - '- Section: 11.1 Temperature and Heat':
+            subsections: []
+        - '- Section: 11.2 Moisture and Humidity':
+            subsections: []
+        - '- Section: 11.3 Atmospheric Stability':
+            subsections: []
+        - '- Section: 11.4 Cloud Physics':
+            subsections: []
+        - '- Section: 11.5 Atmospheric Radiation':
+            subsections: []
+    - '- Chapter 12: Atmospheric Chemistry:':
+        sections:
+        - '- Section: 12.1 Composition of the Atmosphere':
+            subsections: []
+        - '- Section: 12.2 Atmospheric Aerosols':
+            subsections: []
+        - '- Section: 12.3 Atmospheric Reactions':
+            subsections: []
+        - '- Section: 12.4 Atmospheric Pollution':
+            subsections: []
+        - '- Section: 12.5 Ozone Depletion and Climate Change':
+            subsections: []
+    - '- Chapter 13: Climate Systems:':
+        sections:
+        - '- Section: 13.1 Climate and Weather':
+            subsections: []
+        - '- Section: 13.2 Climate Zones':
+            subsections: []
+        - '- Section: 13.3 Climate Change and Variability':
+            subsections: []
+        - '- Section: 13.4 Paleoclimatology':
+            subsections: []
+        - '- Section: 13.5 Climate Modeling':
+            subsections: []
+    - '- Chapter 14: Hydrological Cycle:':
+        sections:
+        - '- Section: 14.1 Evaporation and Transpiration':
+            subsections: []
+        - '- Section: 14.2 Condensation and Precipitation':
+            subsections: []
+        - '- Section: 14.3 Surface Runoff and Groundwater':
+            subsections: []
+        - '- Section: 14.4 Global Water Balance':
+            subsections: []
+        - '- Section: 14.5 Water Resources and Climate Change':
+            subsections: []
+    - '- Chapter 15: Atmospheric Boundary Layer:':
+        sections:
+        - '- Section: 15.1 Structure of the Atmospheric Boundary Layer':
+            subsections: []
+        - '- Section: 15.2 Turbulence in the Atmospheric Boundary Layer':
+            subsections: []
+        - '- Section: 15.3 Surface Energy Balance':
+            subsections: []
+        - '- Section: 15.4 Urban Climate and the Urban Heat Island Effect':
+            subsections: []
+        - '- Section: 15.5 Air Pollution and the Atmospheric Boundary Layer':
+            subsections: []
+    - '- Chapter 16: Weather Systems:':
+        sections:
+        - '- Section: 16.1 Weather Fronts and Air Masses':
+            subsections: []
+        - '- Section: 16.2 Cyclones and Anticyclones':
+            subsections: []
+        - '- Section: 16.3 Thunderstorms and Tornadoes':
+            subsections: []
+        - '- Section: 16.4 Hurricanes and Typhoons':
+            subsections: []
+        - '- Section: 16.5 Weather Forecasting':
+            subsections: []
+    - '- Chapter 17: Climate Change:':
+        sections:
+        - '- Section: 17.1 Evidence of Climate Change':
+            subsections: []
+        - '- Section: 17.2 Causes of Climate Change':
+            subsections: []
+        - '- Section: 17.3 Impacts of Climate Change':
+            subsections: []
+        - '- Section: 17.4 Climate Change Mitigation and Adaptation':
+            subsections: []
+        - '- Section: 17.5 Climate Change Policy and Negotiations':
+            subsections: []
+    - '- Chapter 18: Atmospheric Optics:':
+        sections:
+        - '- Section: 18.1 Scattering of Light':
+            subsections: []
+        - '- Section: 18.2 Rainbows and Halos':
+            subsections: []
+        - '- Section: 18.3 Mirages and Green Flashes':
+            subsections: []
+        - '- Section: 18.4 Twilight and the Colors of the Sky':
+            subsections: []
+        - '- Section: 18.5 Atmospheric Visibility':
+            subsections: []
+    - '- Chapter 19: Biogeochemical Cycles:':
+        sections:
+        - '- Section: 19.1 Carbon Cycle':
+            subsections: []
+        - '- Section: 19.2 Nitrogen Cycle':
+            subsections: []
+        - '- Section: 19.3 Oxygen Cycle':
+            subsections: []
+        - '- Section: 19.4 Water Cycle':
+            subsections: []
+        - '- Section: 19.5 Human Impacts on Biogeochemical Cycles':
+            subsections: []
+    - '- Chapter 20: Atmospheric Electricity:':
+        sections:
+        - '- Section: 20.1 Electric Field of the Earth':
+            subsections: []
+        - '- Section: 20.2 Thunderstorms and Lightning':
+            subsections: []
+        - '- Section: 20.3 Sprites, Jets, and Elves':
+            subsections: []
+        - '- Section: 20.4 Solar Wind and the Earth''s Magnetic Field':
+            subsections: []
+        - '- Section: 20.5 Atmospheric Electricity and Climate Change':
+            subsections: []

@@ -1,0 +1,486 @@
+textbook:
+  'Optical Signals, Devices, and Systems: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Basics of Optical Signals:':
+        sections:
+        - '- Section: 1.1 Properties of E&M Waves:':
+            subsections:
+            - 1.1a Wave Propagation
+            - 1.1b Wave Polarization
+            - 1.1c Wave Interference
+        - '- Section: 1.2 Amplitude:':
+            subsections:
+            - 1.2a Amplitude Modulation
+            - 1.2b Amplitude Spectrum
+            - 1.2c Amplitude Stability
+        - '- Section: 1.3 Intensity:':
+            subsections:
+            - 1.3a Intensity Modulation
+            - 1.3b Intensity Distribution
+            - 1.3c Intensity Interference
+        - '- Section: 1.4 Phase:':
+            subsections:
+            - 1.4a Phase Modulation
+            - 1.4b Phase Spectrum
+            - 1.4c Phase Stability
+    - '- Chapter 2: Reflection and Refraction:':
+        sections:
+        - '- Section: 2.1 Snell''s Law:':
+            subsections:
+            - 2.1a Law Definition
+            - 2.1b Law Applications
+            - 2.1c Law Limitations
+        - '- Section: 2.2 Critical Angle:':
+            subsections:
+            - 2.2a Definition of Critical Angle
+            - 2.2b Applications of Critical Angle
+            - 2.2c Limitations of Critical Angle
+        - '- Section: 2.3 Brewster''s Angle:':
+            subsections:
+            - 2.3a Definition of Brewster's Angle
+            - 2.3b Applications of Brewster's Angle
+            - 2.3c Limitations of Brewster's Angle
+        - '- Section: 2.4 Reflection and Transmission Coefficients:':
+            subsections:
+            - 2.4a Definition and Calculation
+            - 2.4b Applications in Optics
+            - 2.4c Limitations and Assumptions
+        - '- Section: 2.5 Polarizers:':
+            subsections:
+            - 2.5a Polarizer Types
+            - 2.5b Polarizer Applications
+            - 2.5c Polarizer Limitations
+        - '- Section: 2.6 Magic Sheet:':
+            subsections:
+            - 2.6a Magic Sheet Concept
+            - 2.6b Magic Sheet Applications
+            - 2.6c Magic Sheet Limitations
+    - '- Chapter 3: Geometric Optics:':
+        sections:
+        - '- Section: 3.1 Ray-matrix Methods:':
+            subsections:
+            - 3.1a Matrix Representation
+            - 3.1b Ray Tracing
+            - 3.1c Applications in Lens Systems
+        - '- Section: 3.2 Microscopes:':
+            subsections:
+            - 3.2a Microscope Optics
+            - 3.2b Microscope Types
+            - 3.2c Microscope Applications
+        - '- Section: 3.3 Telescopes:':
+            subsections:
+            - 3.3a Telescope Optics
+            - 3.3b Telescope Types
+            - 3.3c Telescope Applications
+        - '- Section: 3.4 Lens Waveguide:':
+            subsections:
+            - 3.4a Waveguide Principles
+            - 3.4b Waveguide Types
+            - 3.4c Waveguide Applications
+        - '- Section: 3.5 Telescope:':
+            subsections:
+            - 3.5a Telescope Design
+            - 3.5b Telescope Operation
+            - 3.5c Telescope Applications
+    - '- Chapter 4: Interference and Interferometers:':
+        sections:
+        - '- Section: 4.1 Temporal and Spatial Coherence:':
+            subsections:
+            - 4.1a Coherence Definition
+            - 4.1b Coherence Measurement
+            - 4.1c Coherence Applications
+        - '- Section: 4.2 Two-beam and Multiple-beam Interference:':
+            subsections:
+            - 4.2a Interference Patterns
+            - 4.2b Interference Applications
+            - 4.2c Interference Limitations
+        - '- Section: 4.3 Interferometers:':
+            subsections:
+            - 4.3a Interferometer Types
+            - 4.3b Interferometer Applications
+            - 4.3c Interferometer Limitations
+    - '- Chapter 5: Diffraction and Propagation:':
+        sections:
+        - '- Section: 5.1 Scalar Diffraction Theory:':
+            subsections:
+            - 5.1a Diffraction Gratings
+            - 5.1b Diffraction Limits
+            - 5.1c Diffraction Applications
+        - '- Section: 5.2 Free-space Propagation:':
+            subsections:
+            - 5.2a Propagation Models
+            - 5.2b Propagation Limitations
+            - 5.2c Propagation Applications
+        - '- Section: 5.3 Spatial Frequency:':
+            subsections:
+            - 5.3a Spatial Frequency Definition
+            - 5.3b Spatial Frequency Measurement
+            - 5.3c Spatial Frequency Applications
+    - '- Chapter 6: Optical Fiber Communication:':
+        sections:
+        - '- Section: 6.1 Fiber Optics Basics:':
+            subsections:
+            - 6.1a Fiber Types
+            - 6.1b Fiber Manufacturing
+            - 6.1c Fiber Applications
+        - '- Section: 6.2 Fiber Modes:':
+            subsections:
+            - 6.2a Mode Theory
+            - 6.2b Mode Coupling
+            - 6.2c Mode Applications
+        - '- Section: 6.3 Fiber Losses:':
+            subsections:
+            - 6.3a Loss Mechanisms
+            - 6.3b Loss Measurement
+            - 6.3c Loss Mitigation
+        - '- Section: 6.4 Fiber Dispersion:':
+            subsections:
+            - 6.4a Dispersion Mechanisms
+            - 6.4b Dispersion Measurement
+            - 6.4c Dispersion Compensation
+        - '- Section: 6.5 Fiber Amplifiers:':
+            subsections:
+            - 6.5a Amplifier Types
+            - 6.5b Amplifier Operation
+            - 6.5c Amplifier Applications
+        - '- Section: 6.6 Fiber Couplers:':
+            subsections:
+            - 6.6a Coupler Types
+            - 6.6b Coupler Operation
+            - 6.6c Coupler Applications
+        - '- Section: 6.7 Fiber Optic Sensors:':
+            subsections:
+            - 6.7a Sensor Types
+            - 6.7b Sensor Operation
+            - 6.7c Sensor Applications
+    - '- Chapter 7: Photodetectors and Photodiodes:':
+        sections:
+        - '- Section: 7.1 Photodetection Principles:':
+            subsections:
+            - 7.1a Photodetection Mechanisms
+            - 7.1b Photodetection Efficiency
+            - 7.1c Photodetection Applications
+        - '- Section: 7.2 Photodiode Operation:':
+            subsections:
+            - 7.2a Photodiode Types
+            - 7.2b Photodiode Characteristics
+            - 7.2c Photodiode Applications
+        - '- Section: 7.3 Photodiode Noise:':
+            subsections:
+            - 7.3a Noise Sources
+            - 7.3b Noise Measurement
+            - 7.3c Noise Reduction
+        - '- Section: 7.4 Photodiode Response Time:':
+            subsections:
+            - 7.4a Response Time Measurement
+            - 7.4b Response Time Limitations
+            - 7.4c Response Time Applications
+        - '- Section: 7.5 Photodiode Applications:':
+            subsections:
+            - 7.5a Photodiode in Communication Systems
+            - 7.5b Photodiode in Sensing Systems
+            - 7.5c Photodiode in Imaging Systems
+    - '- Chapter 8: Optical Modulation and Demodulation:':
+        sections:
+        - '- Section: 8.1 Intensity Modulation:':
+            subsections:
+            - 8.1a Modulation Techniques
+            - 8.1b Modulation Efficiency
+            - 8.1c Modulation Applications
+        - '- Section: 8.2 Direct Modulation:':
+            subsections:
+            - 8.2a Direct Modulation Techniques
+            - 8.2b Direct Modulation Efficiency
+            - 8.2c Direct Modulation Applications
+        - '- Section: 8.3 External Modulation:':
+            subsections:
+            - 8.3a External Modulation Techniques
+            - 8.3b External Modulation Efficiency
+            - 8.3c External Modulation Applications
+        - '- Section: 8.4 Optical Demodulation:':
+            subsections:
+            - 8.4a Demodulation Techniques
+            - 8.4b Demodulation Efficiency
+            - 8.4c Demodulation Applications
+        - '- Section: 8.5 Modulation Formats:':
+            subsections:
+            - 8.5a Format Types
+            - 8.5b Format Efficiency
+            - 8.5c Format Applications
+        - '- Section: 8.6 Modulation Error Ratio:':
+            subsections:
+            - 8.6a Error Ratio Measurement
+            - 8.6b Error Ratio Limitations
+            - 8.6c Error Ratio Applications
+    - '- Chapter 9: Optical Amplifiers and Lasers:':
+        sections:
+        - '- Section: 9.1 Optical Amplifiers:':
+            subsections:
+            - 9.1a Amplifier Types
+            - 9.1b Amplifier Operation
+            - 9.1c Amplifier Applications
+        - '- Section: 9.2 Laser Principles:':
+            subsections:
+            - 9.2a Laser Operation
+            - 9.2b Laser Types
+            - 9.2c Laser Applications
+        - '- Section: 9.3 Laser Types:':
+            subsections:
+            - 9.3a Solid-State Lasers
+            - 9.3b Gas Lasers
+            - 9.3c Semiconductor Lasers
+        - '- Section: 9.4 Laser Characteristics:':
+            subsections:
+            - 9.4a Laser Output Power
+            - 9.4b Laser Beam Quality
+            - 9.4c Laser Stability
+        - '- Section: 9.5 Laser Diodes:':
+            subsections:
+            - 9.5a Diode Types
+            - 9.5b Diode Operation
+            - 9.5c Diode Applications
+        - '- Section: 9.6 Semiconductor Lasers:':
+            subsections:
+            - 9.6a Laser Types
+            - 9.6b Laser Operation
+            - 9.6c Laser Applications
+        - '- Section: 9.7 Fiber Lasers:':
+            subsections:
+            - 9.7a Laser Types
+            - 9.7b Laser Operation
+            - 9.7c Laser Applications
+        - '- Section: 9.8 Mode-Locked Lasers:':
+            subsections:
+            - 9.8a Mode-Locking Techniques
+            - 9.8b Mode-Locked Laser Applications
+            - 9.8c Mode-Locked Laser Limitations
+        - '- Section: 9.9 Quantum Cascade Lasers:':
+            subsections:
+            - 9.9a Laser Operation
+            - 9.9b Laser Applications
+            - 9.9c Laser Limitations
+    - '- Chapter 10: Optical Networks and Systems:':
+        sections:
+        - '- Section: 10.1 Network Topologies:':
+            subsections:
+            - 10.1a Topology Types
+            - 10.1b Topology Design
+            - 10.1c Topology Applications
+        - '- Section: 10.2 Wavelength Division Multiplexing:':
+            subsections:
+            - 10.2a Multiplexing Techniques
+            - 10.2b Multiplexing Efficiency
+            - 10.2c Multiplexing Applications
+        - '- Section: 10.3 Optical Cross-connects:':
+            subsections:
+            - 10.3a Cross-connect Types
+            - 10.3b Cross-connect Operation
+            - 10.3c Cross-connect Applications
+        - '- Section: 10.4 Optical Switching Techniques:':
+            subsections:
+            - 10.4a Switching Techniques
+            - 10.4b Switching Efficiency
+            - 10.4c Switching Applications
+        - '- Section: 10.5 Optical Routing Algorithms:':
+            subsections:
+            - 10.5a Routing Algorithm Types
+            - 10.5b Routing Algorithm Efficiency
+            - 10.5c Routing Algorithm Applications
+        - '- Section: 10.6 Optical Performance Monitoring:':
+            subsections:
+            - 10.6a Monitoring Techniques
+            - 10.6b Monitoring Efficiency
+            - 10.6c Monitoring Applications
+        - '- Section: 10.7 Optical Network Security:':
+            subsections:
+            - 10.7a Security Threats
+            - 10.7b Security Measures
+            - 10.7c Security Applications
+        - '- Section: 10.8 Optical Transport Networks:':
+            subsections:
+            - 10.8a Network Design
+            - 10.8b Network Operation
+            - 10.8c Network Applications
+        - '- Section: 10.9 Optical Communication Systems:':
+            subsections:
+            - 10.9a System Design
+            - 10.9b System Operation
+            - 10.9c System Applications
+    - '- Chapter 11: Advanced Optical Devices:':
+        sections:
+        - '- Section: 11.1 Optical Isolators:':
+            subsections:
+            - 11.1a Isolator Operation
+            - 11.1b Isolator Types
+            - 11.1c Isolator Applications
+        - '- Section: 11.2 Optical Circulators:':
+            subsections:
+            - 11.2a Circulator Operation
+            - 11.2b Circulator Types
+            - 11.2c Circulator Applications
+        - '- Section: 11.3 Optical Modulators:':
+            subsections:
+            - 11.3a Modulator Operation
+            - 11.3b Modulator Types
+            - 11.3c Modulator Applications
+        - '- Section: 11.4 Optical Filters:':
+            subsections:
+            - 11.4a Filter Operation
+            - 11.4b Filter Types
+            - 11.4c Filter Applications
+    - '- Chapter 12: Optical Signal Processing:':
+        sections:
+        - '- Section: 12.1 Optical Signal Generation:':
+            subsections:
+            - 12.1a Signal Generation Techniques
+            - 12.1b Signal Generation Devices
+            - 12.1c Signal Generation Applications
+        - '- Section: 12.2 Optical Signal Amplification:':
+            subsections:
+            - 12.2a Amplification Techniques
+            - 12.2b Amplification Devices
+            - 12.2c Amplification Applications
+        - '- Section: 12.3 Optical Signal Transmission:':
+            subsections:
+            - 12.3a Transmission Techniques
+            - 12.3b Transmission Devices
+            - 12.3c Transmission Applications
+        - '- Section: 12.4 Optical Signal Detection:':
+            subsections:
+            - 12.4a Detection Techniques
+            - 12.4b Detection Devices
+            - 12.4c Detection Applications
+    - '- Chapter 13: Optical Materials and Fabrication:':
+        sections:
+        - '- Section: 13.1 Optical Materials:':
+            subsections:
+            - 13.1a Material Types
+            - 13.1b Material Properties
+            - 13.1c Material Applications
+        - '- Section: 13.2 Material Fabrication:':
+            subsections:
+            - 13.2a Fabrication Techniques
+            - 13.2b Fabrication Challenges
+            - 13.2c Fabrication Applications
+        - '- Section: 13.3 Material Characterization:':
+            subsections:
+            - 13.3a Characterization Techniques
+            - 13.3b Characterization Challenges
+            - 13.3c Characterization Applications
+    - '- Chapter 14: Optical Measurement Techniques:':
+        sections:
+        - '- Section: 14.1 Optical Spectroscopy:':
+            subsections:
+            - 14.1a Spectroscopy Techniques
+            - 14.1b Spectroscopy Challenges
+            - 14.1c Spectroscopy Applications
+        - '- Section: 14.2 Optical Microscopy:':
+            subsections:
+            - 14.2a Microscopy Techniques
+            - 14.2b Microscopy Challenges
+            - 14.2c Microscopy Applications
+        - '- Section: 14.3 Optical Metrology:':
+            subsections:
+            - 14.3a Metrology Techniques
+            - 14.3b Metrology Challenges
+            - 14.3c Metrology Applications
+    - '- Chapter 15: Optical Systems Design:':
+        sections:
+        - '- Section: 15.1 System Design Principles:':
+            subsections:
+            - 15.1a Design Methodologies
+            - 15.1b Design Challenges
+            - 15.1c Design Applications
+        - '- Section: 15.2 System Simulation and Modeling:':
+            subsections:
+            - 15.2a Simulation Techniques
+            - 15.2b Modeling Techniques
+            - 15.2c Simulation and Modeling Applications
+        - '- Section: 15.3 System Testing and Evaluation:':
+            subsections:
+            - 15.3a Testing Techniques
+            - 15.3b Evaluation Techniques
+            - 15.3c Testing and Evaluation Applications
+    - '- Chapter 16: Optical Systems Applications:':
+        sections:
+        - '- Section: 16.1 Telecommunications:':
+            subsections:
+            - 16.1a Telecommunication Systems
+            - 16.1b Telecommunication Challenges
+            - 16.1c Telecommunication Future Trends
+        - '- Section: 16.2 Sensing and Imaging:':
+            subsections:
+            - 16.2a Sensing Systems
+            - 16.2b Imaging Systems
+            - 16.2c Sensing and Imaging Challenges
+        - '- Section: 16.3 Medicine and Biology:':
+            subsections:
+            - 16.3a Medical Applications
+            - 16.3b Biological Applications
+            - 16.3c Medical and Biological Challenges
+    - '- Chapter 17: Optical Systems Safety and Standards:':
+        sections:
+        - '- Section: 17.1 Safety Considerations:':
+            subsections:
+            - 17.1a Safety Hazards
+            - 17.1b Safety Measures
+            - 17.1c Safety Regulations
+        - '- Section: 17.2 Standards and Regulations:':
+            subsections:
+            - 17.2a International Standards
+            - 17.2b Compliance Testing
+            - 17.2c Regulation Challenges
+        - '- Section: 17.3 Quality Assurance:':
+            subsections:
+            - 17.3a Quality Assurance Techniques
+            - 17.3b Quality Assurance Challenges
+            - 17.3c Quality Assurance Applications
+    - '- Chapter 18: Future Trends in Optical Systems:':
+        sections:
+        - '- Section: 18.1 Emerging Technologies:':
+            subsections:
+            - 18.1a New Materials
+            - 18.1b New Devices
+            - 18.1c New Applications
+        - '- Section: 18.2 Challenges and Opportunities:':
+            subsections:
+            - 18.2a Technical Challenges
+            - 18.2b Market Opportunities
+            - 18.2c Social Impact
+        - '- Section: 18.3 Future Research Directions:':
+            subsections:
+            - 18.3a Research Trends
+            - 18.3b Research Opportunities
+            - 18.3c Research Challenges
+    - '- Chapter 19: Optical Systems in Space Applications:':
+        sections:
+        - '- Section: 19.1 Space Communication:':
+            subsections:
+            - 19.1a Space Communication Systems
+            - 19.1b Space Communication Challenges
+            - 19.1c Space Communication Future Trends
+        - '- Section: 19.2 Space Sensing and Imaging:':
+            subsections:
+            - 19.2a Space Sensing Systems
+            - 19.2b Space Imaging Systems
+            - 19.2c Space Sensing and Imaging Challenges
+        - '- Section: 19.3 Space Exploration:':
+            subsections:
+            - 19.3a Optical Systems in Space Exploration
+            - 19.3b Space Exploration Challenges
+            - 19.3c Space Exploration Future Trends
+    - '- Chapter 20: Optical Systems in Defense Applications:':
+        sections:
+        - '- Section: 20.1 Defense Communication:':
+            subsections:
+            - 20.1a Defense Communication Systems
+            - 20.1b Defense Communication Challenges
+            - 20.1c Defense Communication Future Trends
+        - '- Section: 20.2 Defense Sensing and Imaging:':
+            subsections:
+            - 20.2a Defense Sensing Systems
+            - 20.2b Defense Imaging Systems
+            - 20.2c Defense Sensing and Imaging Challenges
+        - '- Section: 20.3 Defense and Security:':
+            subsections:
+            - 20.3a Optical Systems

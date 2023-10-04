@@ -1,0 +1,379 @@
+textbook: 
+"Understanding Atmospheric and Ocean Circulations: Dynamics and Phenomena":
+
+chapters:
+- Chapter 1: Shallow Water Gravity Waves:
+sections:
+- Section: 1.1 Surface Motions on Shallow Water:
+subsections:
+- 1.1a Surface Gravity Waves
+- 1.1b Capillary Waves
+- 1.1c Internal Waves
+- 1.1d Surface Currents
+
+- Section: 1.2 Small-amplitude Shallow-water Surface Waves:
+subsections:
+- 1.2a Linear Theory of Shallow-water Waves
+- 1.2b Dispersion Relation
+- 1.2c Energy and Momentum Transport
+- 1.2d Wave Breaking
+
+- Section: 1.3 Background Theory-nondispersive Waves:
+subsections:
+- 1.3a Basic Concepts of Non-dispersive Waves
+- 1.3b Wave Propagation Equations
+- 1.3c Conservation Laws
+
+- Section: 1.4 Oscillations:
+subsections:
+- 1.4a Forced Oscillations
+- 1.4b Free Oscillations
+- 1.4c Resonance
+
+- Chapter 2: Deep Water Gravity Waves:
+sections:
+- Section: 2.1 Wave Generation Mechanism:
+subsections:
+- 2.1a Wave Generation in Deep Water
+- 2.1b Factors Affecting Wave Generation
+- 2.1c Wave Generation Models
+- 2.1d Wave Generation Experiments
+
+- Section: 2.2 Wave Dispersion:
+subsections:
+- 2.2a Dispersion Relation in Deep Water
+- 2.2b Factors Affecting Wave Dispersion
+- 2.2c Dispersion Models
+- 2.2d Dispersion Experiments
+
+- Section: 2.3 Wave Energy and Momentum:
+subsections:
+- 2.3a Energy Transfer in Waves
+- 2.3b Momentum Transfer in Waves
+- 2.3c Energy and Momentum Conservation
+- 2.3d Energy and Momentum Models
+
+- Section: 2.4 Wave Breaking and Dissipation:
+subsections:
+- 2.4a Wave Breaking Mechanisms
+- 2.4b Wave Dissipation Mechanisms
+- 2.4c Wave Breaking and Dissipation Models
+- 2.4d Wave Breaking and Dissipation Experiments
+
+- Chapter 3: Internal Gravity Waves:
+sections:
+- Section: 3.1 Wave Propagation in a Stratified Medium:
+subsections:
+- 3.1a Stratified Medium Properties
+- 3.1b Wave Propagation Models
+- 3.1c Wave Propagation Experiments
+- 3.1d Wave Propagation Applications
+
+- Section: 3.2 Internal Wave Generation Mechanism:
+subsections:
+- 3.2a Internal Wave Generation Theories
+- 3.2b Internal Wave Generation Models
+- 3.2c Internal Wave Generation Experiments
+- 3.2d Internal Wave Generation Applications
+
+- Section: 3.3 Internal Wave Reflection and Refraction:
+subsections:
+- 3.3a Internal Wave Reflection Theories
+- 3.3b Internal Wave Refraction Theories
+- 3.3c Internal Wave Reflection and Refraction Models
+- 3.3d Internal Wave Reflection and Refraction Experiments
+
+- Section: 3.4 Internal Wave Breaking and Mixing:
+subsections:
+- 3.4a Internal Wave Breaking Theories
+- 3.4b Internal Wave Mixing Theories
+- 3.4c Internal Wave Breaking and Mixing Models
+- 3.4d Internal Wave Breaking and Mixing Experiments
+
+- Chapter 4: Mid-Term Quiz 1:
+sections:
+- Section: 4.1 Quiz Preparation:
+subsections:
+- 4.1a Study Tips
+- 4.1b Key Concepts
+- 4.1c Practice Questions
+- 4.1d Review Materials
+
+- Section: 4.2 Quiz Questions and Answers:
+subsections:
+- 4.2a Quiz Questions
+- 4.2b Quiz Answers
+- 4.2c Quiz Explanations
+- 4.2d Quiz Feedback
+
+- Chapter 5: Tides:
+sections:
+- Section: 5.1 Oceanic Tides:
+subsections:
+- 5.1a Oceanic Tide Generation
+- 5.1b Oceanic Tide Characteristics
+- 5.1c Oceanic Tide Models
+- 5.1d Oceanic Tide Experiments
+
+- Section: 5.2 Atmospheric Tides:
+subsections:
+- 5.2a Atmospheric Tide Generation
+- 5.2b Atmospheric Tide Characteristics
+- 5.2c Atmospheric Tide Models
+- 5.2d Atmospheric Tide Experiments
+
+- Section: 5.3 Tidal Forcing Mechanisms:
+subsections:
+- 5.3a Tidal Forcing Theories
+- 5.3b Tidal Forcing Models
+- 5.3c Tidal Forcing Experiments
+- 5.3d Tidal Forcing Applications
+
+- Section: 5.4 Tidal Analysis and Prediction:
+subsections:
+- 5.4a Tidal Analysis Methods
+- 5.4b Tidal Prediction Methods
+- 5.4c Tidal Analysis and Prediction Models
+- 5.4d Tidal Analysis and Prediction Applications
+
+- Chapter 6: Large-scale Motions on a Rotating Earth:
+sections:
+- Section: 6.1 Coriolis Force and Geostrophic Balance:
+subsections:
+- 6.1a Coriolis Force Theories
+- 6.1b Geostrophic Balance Theories
+- 6.1c Coriolis Force and Geostrophic Balance Models
+- 6.1d Coriolis Force and Geostrophic Balance Experiments
+
+- Section: 6.2 Geostrophic Currents:
+subsections:
+- 6.2a Geostrophic Current Theories
+- 6.2b Geostrophic Current Models
+- 6.2c Geostrophic Current Experiments
+- 6.2d Geostrophic Current Applications
+
+- Section: 6.3 Geostrophic Adjustment:
+subsections:
+- 6.3a Geostrophic Adjustment Theories
+- 6.3b Geostrophic Adjustment Models
+- 6.3c Geostrophic Adjustment Experiments
+- 6.3d Geostrophic Adjustment Applications
+
+- Section: 6.4 Ekman Transport and Ekman Pumping:
+subsections:
+- 6.4a Ekman Transport Theories
+- 6.4b Ekman Pumping Theories
+- 6.4c Ekman Transport and Pumping Models
+- 6.4d Ekman Transport and Pumping Experiments
+
+- Chapter 7: Rossby Waves and Planetary Scale Motions:
+sections:
+- Section: 7.1 Rossby Wave Dispersion:
+subsections:
+- 7.1a Rossby Wave Dispersion Theories
+- 7.1b Rossby Wave Dispersion Models
+- 7.1c Rossby Wave Dispersion Experiments
+- 7.1d Rossby Wave Dispersion Applications
+
+- Section: 7.2 Rossby Wave Propagation:
+subsections:
+- 7.2a Rossby Wave Propagation Theories
+- 7.2b Rossby Wave Propagation Models
+- 7.2c Rossby Wave Propagation Experiments
+- 7.2d Rossby Wave Propagation Applications
+
+- Section: 7.3 Planetary Wave Reflection:
+subsections:
+- 7.3a Planetary Wave Reflection Theories
+- 7.3b Planetary Wave Reflection Models
+- 7.3c Planetary Wave Reflection Experiments
+- 7.3d Planetary Wave Reflection Applications
+
+- Section: 7.4 Planetary Wave Interactions:
+subsections:
+- 7.4a Planetary Wave Interaction Theories
+- 7.4b Planetary Wave Interaction Models
+- 7.4c Planetary Wave Interaction Experiments
+- 7.4d Planetary Wave Interaction Applications
+
+- Chapter 8: Mid-Term Quiz 2:
+sections:
+- Section: 8.1 Quiz Preparation:
+subsections:
+- 8.1a Study Tips
+- 8.1b Key Concepts
+- 8.1c Practice Questions
+- 8.1d Review Materials
+
+- Section: 8.2 Quiz Questions and Answers:
+subsections:
+- 8.2a Quiz Questions
+- 8.2b Quiz Answers
+- 8.2c Quiz Explanations
+- 8.2d Quiz Feedback
+
+- Chapter 9: Baroclinic Instability and Midlatitude Storms:
+sections:
+- Section: 9.1 Baroclinic Instability Mechanisms:
+subsections:
+- 9.1a Baroclinic Instability Theories
+- 9.1b Baroclinic Instability Models
+- 9.1c Baroclinic Instability Experiments
+- 9.1d Baroclinic Instability Applications
+
+- Section: 9.2 Eady Waves and Baroclinic Waves:
+subsections:
+- 9.2a Eady Wave Theories
+- 9.2b Baroclinic Wave Theories
+- 9.2c Eady and Baroclinic Wave Models
+- 9.2d Eady and Baroclinic Wave Experiments
+
+- Section: 9.3 Cyclogenesis and Storm Development:
+subsections:
+- 9.3a Cyclogenesis Theories
+- 9.3b Storm Development Theories
+- 9.3c Cyclogenesis and Storm Development Models
+- 9.3d Cyclogenesis and Storm Development Experiments
+
+- Section: 9.4 Frontogenesis and Frontal Structure:
+subsections:
+- 9.4a Frontogenesis Theories
+- 9.4b Frontal Structure Theories
+- 9.4c Frontogenesis and Frontal Structure Models
+- 9.4d Frontogenesis and Frontal Structure Experiments
+
+- Chapter 10: The Equatorial Atmosphere and Ocean:
+sections:
+- Section: 10.1 Equatorial Waves:
+subsections:
+- 10.1a Equatorial Wave Theories
+- 10.1b Equatorial Wave Models
+- 10.1c Equatorial Wave Experiments
+- 10.1d Equatorial Wave Applications
+
+- Section: 10.2 Equatorial Upwelling and Downwelling:
+subsections:
+- 10.2a Equatorial Upwelling Theories
+- 10.2b Equatorial Downwelling Theories
+- 10.2c Equatorial Upwelling and Downwelling Models
+- 10.2d Equatorial Upwelling and Downwelling Experiments
+
+- Section: 10.3 Equatorial Kelvin Waves:
+subsections:
+- 10.3a Equatorial Kelvin Wave Theories
+- 10.3b Equatorial Kelvin Wave Models
+- 10.3c Equatorial Kelvin Wave Experiments
+- 10.3d Equatorial Kelvin Wave Applications
+
+- Section: 10.4 Equatorial Rossby Waves:
+subsections:
+- 10.4a Equatorial Rossby Wave Theories
+- 10.4b Equatorial Rossby Wave Models
+- 10.4c Equatorial Rossby Wave Experiments
+- 10.4d Equatorial Rossby Wave Applications
+
+- Chapter 11: El Niño and the Southern Oscillation:
+sections:
+- Section: 11.1 El Niño and La Niña Phenomena:
+subsections:
+- 11.1a El Niño Theories
+- 11.1b La Niña Theories
+- 11.1c El Niño and La Niña Models
+- 11.1d El Niño and La Niña Experiments
+
+- Section: 11.2 ENSO Teleconnections:
+subsections:
+- 11.2a ENSO Teleconnection Theories
+- 11.2b ENSO Teleconnection Models
+- 11.2c ENSO Teleconnection Experiments
+- 11.2d ENSO Teleconnection Applications
+
+- Section: 11.3 ENSO Climate Impacts:
+subsections:
+- 11.3a ENSO Climate Impact Theories
+- 11.3b ENSO Climate Impact Models
+- 11.3c ENSO Climate Impact Experiments
+- 11.3d ENSO Climate Impact Applications
+
+- Section: 11.4 ENSO Prediction and Forecasting:
+subsections:
+- 11.4a ENSO Prediction Theories
+- 11.4b ENSO Forecasting Theories
+- 11.4c ENSO Prediction and Forecasting Models
+- 11.4d ENSO Prediction and Forecasting Experiments
+
+- Chapter 12: Tropical Cyclones:
+sections:
+- Section: 12.1 Tropical Cyclone Formation:
+subsections:
+- 12.1a Tropical Cyclone Formation Theories
+- 12.1b Tropical Cyclone Formation Models
+- 12.1c Tropical Cyclone Formation Experiments
+- 12.1d Tropical Cyclone Formation Applications
+
+- Section: 12.2 Tropical Cyclone Structure and Dynamics:
+subsections:
+- 12.2a Tropical Cyclone Structure Theories
+- 12.2b Tropical Cyclone Dynamics Theories
+- 12.2c Tropical Cyclone Structure and Dynamics Models
+- 12.2d Tropical Cyclone Structure and Dynamics Experiments
+
+- Section: 12.3 Tropical Cyclone Intensity and Track Prediction:
+subsections:
+- 12.3a Tropical Cyclone Intensity Prediction Theories
+- 12.3b Tropical Cyclone Track Prediction Theories
+- 12.3c Tropical Cyclone Intensity and Track Prediction Models
+- 12.3d Tropical Cyclone Intensity and Track Prediction Experiments
+
+- Section: 12.4 Tropical Cyclone Climatology:
+subsections:
+- 12.4a Tropical Cyclone Climatology Theories
+- 12.4b Tropical Cyclone Climatology Models
+- 12.4c Tropical Cyclone Climatology Experiments
+- 12.4d Tropical Cyclone Climatology Applications
+
+- Chapter 13: Final Exam:
+sections:
+- Section: 13.1 Exam Preparation:
+subsections:
+- 13.1a Study Tips
+- 13.1b Key Concepts
+- 13.1c Practice Questions
+- 13.1d Review Materials
+
+- Section: 13.2 Exam Questions and Answers:
+subsections:
+- 13.2a Exam Questions
+- 13.2b Exam Answers
+- 13.2c Exam Explanations
+- 13.2d Exam Feedback
+
+- Chapter 14: Additional Topics in Atmospheric and Ocean Circulations:
+sections:
+- Section: 14.1 Climate Change and Atmospheric Circulation:
+subsections:
+- 14.1a Climate Change Theories
+- 14.1b Climate Change Models
+- 14.1c Climate Change Experiments
+- 14.1d Climate Change Applications
+
+- Section: 14.2 Ocean Circulation and Global Warming:
+subsections:
+- 14.2a Global Warming Theories
+- 14.2b Global Warming Models
+- 14.2c Global Warming Experiments
+- 14.2d Global Warming Applications
+
+- Section: 14.3 Atmospheric and Ocean Circulation Modelling:
+subsections:
+- 14.3a Circulation Modelling Theories
+- 14.3b Circulation Modelling Techniques
+- 14.3c Circulation Modelling Experiments
+- 14.3d Circulation Modelling Applications
+
+- Section: 14.4 Future Directions in Atmospheric and Ocean Circulations:
+subsections:
+- 14.4a Emerging Research Topics
+- 14.4b Technological Advances
+- 14.4c Policy and Management Implications
+- 14.4d Future Research Needs and Opportunities

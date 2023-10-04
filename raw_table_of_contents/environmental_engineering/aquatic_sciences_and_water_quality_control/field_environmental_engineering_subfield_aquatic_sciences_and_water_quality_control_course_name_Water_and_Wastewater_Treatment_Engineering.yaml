@@ -1,0 +1,241 @@
+textbook:
+  'Comprehensive Guide to Water and Wastewater Treatment Engineering":':
+    chapters:
+    - '- Chapter 1: Introduction to Water Supply and Wastewater:':
+        sections:
+        - '- Section: 1.1 Water Supply and Wastewater Overview:':
+            subsections:
+            - 1.1a Water Supply Systems
+            - 1.1b Wastewater Systems
+            - 1.1c Water and Wastewater Treatment Processes
+        - '- Section: 1.2 Water Quality Parameters and Standards:':
+            subsections:
+            - 1.2a Water Quality Parameters
+            - 1.2b Water Quality Standards
+            - 1.2c Monitoring and Compliance
+    - '- Chapter 2: Reactor Tanks:':
+        sections:
+        - '- Section: 2.1 Mixed Tanks:':
+            subsections:
+            - 2.1a Principles of Mixed Tanks
+            - 2.1b Design and Operation
+            - 2.1c Applications in Water Treatment
+        - '- Section: 2.2 First-order Kinetics:':
+            subsections:
+            - 2.2a Basics of First-order Kinetics
+            - 2.2b Application in Reactor Tanks
+            - 2.2c Kinetic Models
+        - '- Section: 2.3 Plug Flow:':
+            subsections:
+            - 2.3a Principles of Plug Flow
+            - 2.3b Design and Operation
+            - 2.3c Applications in Water Treatment
+        - '- Section: 2.4 Dispersed Flow:':
+            subsections:
+            - 2.4a Principles of Dispersed Flow
+            - 2.4b Design and Operation
+            - 2.4c Applications in Water Treatment
+        - '- Section: 2.5 Tanks-In-Series:':
+            subsections:
+            - 2.5a Principles of Tanks-In-Series
+            - 2.5b Design and Operation
+            - 2.5c Applications in Water Treatment
+        - '- Section: 2.6 Residence Time Distribution:':
+            subsections:
+            - 2.6a Basics of Residence Time Distribution
+            - 2.6b Measurement Techniques
+            - 2.6c Applications in Reactor Tanks
+    - '- Chapter 3: Sedimentation-Flocculation:':
+        sections:
+        - '- Section: 3.1 Sedimentation-Flocculation Part 1:':
+            subsections:
+            - 3.1a Principles of Sedimentation
+            - 3.1b Principles of Flocculation
+            - 3.1c Design and Operation
+        - '- Section: 3.2 Sedimentation-Flocculation Part 2:':
+            subsections:
+            - 3.2a Advanced Sedimentation Techniques
+            - 3.2b Advanced Flocculation Techniques
+            - 3.2c Applications in Water Treatment
+    - '- Chapter 4: Filtration:':
+        sections:
+        - '- Section: 4.1 Filtration Basics:':
+            subsections:
+            - 4.1a Principles of Filtration
+            - 4.1b Types of Filters
+            - 4.1c Design and Operation
+            - 4.1d Applications in Water Treatment
+    - '- Chapter 5: Chemical Treatment:':
+        sections:
+        - '- Section: 5.1 Softening Part 1:':
+            subsections:
+            - 5.1a Principles of Water Softening
+            - 5.1b Chemicals Used in Softening
+            - 5.1c Design and Operation
+        - '- Section: 5.2 Softening Part 2:':
+            subsections:
+            - 5.2a Advanced Softening Techniques
+            - 5.2b Softening Process Control
+            - 5.2c Applications in Water Treatment
+        - '- Section: 5.3 Adsorption and Ion Exchange:':
+            subsections:
+            - 5.3a Principles of Adsorption
+            - 5.3b Principles of Ion Exchange
+            - 5.3c Design and Operation
+            - 5.3d Applications in Water Treatment
+    - '- Chapter 6: Field Trips:':
+        sections:
+        - '- Section: 6.1 City of Cambridge Water Treatment Plant:':
+            subsections:
+            - 6.1a Overview of the Plant
+            - 6.1b Treatment Processes
+            - 6.1c Plant Operation and Maintenance
+        - '- Section: 6.2 Deer Island Wastewater Treatment Plant:':
+            subsections:
+            - 6.2a Overview of the Plant
+            - 6.2b Treatment Processes
+            - 6.2c Plant Operation and Maintenance
+    - '- Chapter 7: Gas Transfer and Air Stripping:':
+        sections:
+        - '- Section: 7.1 Gas Transfer Processes:':
+            subsections:
+            - 7.1a Principles of Gas Transfer
+            - 7.1b Design and Operation
+            - 7.1c Applications in Water Treatment
+        - '- Section: 7.2 Air Stripping Techniques:':
+            subsections:
+            - 7.2a Principles of Air Stripping
+            - 7.2b Design and Operation
+            - 7.2c Applications in Water Treatment
+    - '- Chapter 8: Disinfection:':
+        sections:
+        - '- Section: 8.1 Disinfection Methods:':
+            subsections:
+            - 8.1a Chlorination
+            - 8.1b UV Disinfection
+            - 8.1c Ozonation
+            - 8.1d Advanced Disinfection Techniques
+    - '- Chapter 9: Wastewater Screening and Primary Treatment:':
+        sections:
+        - '- Section: 9.1 Wastewater Screening:':
+            subsections:
+            - 9.1a Principles of Wastewater Screening
+            - 9.1b Types of Screens
+            - 9.1c Design and Operation
+        - '- Section: 9.2 Primary Treatment Processes:':
+            subsections:
+            - 9.2a Principles of Primary Treatment
+            - 9.2b Design and Operation
+            - 9.2c Applications in Wastewater Treatment
+    - '- Chapter 10: Biological Reaction Kinetics:':
+        sections:
+        - '- Section: 10.1 Biological Reaction Kinetics Part 1:':
+            subsections:
+            - 10.1a Basics of Biological Reaction Kinetics
+            - 10.1b Kinetic Models
+            - 10.1c Applications in Wastewater Treatment
+        - '- Section: 10.2 Biological Reaction Kinetics Part 2:':
+            subsections:
+            - 10.2a Advanced Kinetic Models
+            - 10.2b Process Control
+            - 10.2c Applications in Wastewater Treatment
+    - '- Chapter 11: Stabilization Ponds:':
+        sections:
+        - '- Section: 11.1 Stabilization Pond Design:':
+            subsections:
+            - 11.1a Principles of Stabilization Ponds
+            - 11.1b Design and Operation
+            - 11.1c Applications in Wastewater Treatment
+    - '- Chapter 12: Activated Sludge Treatment:':
+        sections:
+        - '- Section: 12.1 Activated Sludge Treatment Part 1:':
+            subsections:
+            - 12.1a Principles of Activated Sludge Treatment
+            - 12.1b Design and Operation
+            - 12.1c Applications in Wastewater Treatment
+        - '- Section: 12.2 Activated Sludge Treatment Part 2:':
+            subsections:
+            - 12.2a Advanced Activated Sludge Techniques
+            - 12.2b Process Control
+            - 12.2c Applications in Wastewater Treatment
+    - '- Chapter 13: Trickling Filters and Biological Contactors:':
+        sections:
+        - '- Section: 13.1 Trickling Filters:':
+            subsections:
+            - 13.1a Principles of Trickling Filters
+            - 13.1b Design and Operation
+            - 13.1c Applications in Wastewater Treatment
+        - '- Section: 13.2 Biological Contactors:':
+            subsections:
+            - 13.2a Principles of Biological Contactors
+            - 13.2b Design and Operation
+            - 13.2c Applications in Wastewater Treatment
+    - '- Chapter 14: Nutrient Removal:':
+        sections:
+        - '- Section: 14.1 Nutrient Removal Methods:':
+            subsections:
+            - 14.1a Nitrogen Removal
+            - 14.1b Phosphorus Removal
+            - 14.1c Advanced Nutrient Removal Techniques
+    - '- Chapter 15: Sludge Handling:':
+        sections:
+        - '- Section: 15.1 Sludge Handling Techniques:':
+            subsections:
+            - 15.1a Sludge Thickening
+            - 15.1b Sludge Dewatering
+            - 15.1c Sludge Disposal
+    - '- Chapter 16: Sludge Digestion:':
+        sections:
+        - '- Section: 16.1 Sludge Digestion Processes:':
+            subsections:
+            - 16.1a Anaerobic Digestion
+            - 16.1b Aerobic Digestion
+            - 16.1c Advanced Digestion Techniques
+    - '- Chapter 17: Advanced Water Treatment Techniques:':
+        sections:
+        - '- Section: 17.1 Membrane Processes:':
+            subsections:
+            - 17.1a Principles of Membrane Processes
+            - 17.1b Types of Membranes
+            - 17.1c Applications in Water Treatment
+        - '- Section: 17.2 Advanced Oxidation Processes:':
+            subsections:
+            - 17.2a Principles of Advanced Oxidation
+            - 17.2b Types of Advanced Oxidation Processes
+            - 17.2c Applications in Water Treatment
+    - '- Chapter 18: Advanced Wastewater Treatment Techniques:':
+        sections:
+        - '- Section: 18.1 Membrane Bioreactors:':
+            subsections:
+            - 18.1a Principles of Membrane Bioreactors
+            - 18.1b Design and Operation
+            - 18.1c Applications in Wastewater Treatment
+        - '- Section: 18.2 Advanced Nutrient Removal Techniques:':
+            subsections:
+            - 18.2a Biological Nutrient Removal
+            - 18.2b Chemical Nutrient Removal
+            - 18.2c Applications in Wastewater Treatment
+    - '- Chapter 19: Water and Wastewater Treatment Plant Operation:':
+        sections:
+        - '- Section: 19.1 Plant Operation Basics:':
+            subsections:
+            - 19.1a Daily Operation Tasks
+            - 19.1b Process Control
+            - 19.1c Maintenance and Troubleshooting
+        - '- Section: 19.2 Plant Safety:':
+            subsections:
+            - 19.2a Safety Regulations
+            - 19.2b Safety Equipment
+            - 19.2c Emergency Response
+    - '- Chapter 20: Water and Wastewater Treatment Plant Design:':
+        sections:
+        - '- Section: 20.1 Design Basics:':
+            subsections:
+            - 20.1a Design Criteria
+            - 20.1b Design Process
+            - 20.1c Cost Estimation
+        - '- Section: 20.2 Advanced Design Techniques:':
+            subsections:
+            - 20.2a Computer-Aided Design
+            - 20.2b Sustainable Design
+            - 20.2c Design for Future Expansion

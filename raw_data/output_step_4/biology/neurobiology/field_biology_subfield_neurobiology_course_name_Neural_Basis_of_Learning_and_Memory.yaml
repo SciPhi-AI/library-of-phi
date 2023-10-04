@@ -1,0 +1,196 @@
+textbook:
+  'Neural Basis of Learning and Memory: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: The Psychology of Learning and Memory:':
+        sections:
+        - '- Section: 1.1 Episodic and Semantic Memory: Memory for Facts and Events':
+            subsections: []
+        - '- Section: 1.2 Skill Memory: Learning by Doing':
+            subsections: []
+        - '- Section: 1.3 Working Memory and Executive Control':
+            subsections:
+            - '1.3a The Components of Working Memory: Phonological Loop, Visuospatial
+              Sketchpad, and Central Executive'
+            - 1.3b Executive Functions and their Role in Learning and Memory
+            - 1.3c Working Memory Training and its Effects on Learning and Memory
+    - '- Chapter 2: The Neuroscience of Learning and Memory:':
+        sections:
+        - '- Section: 2.1 Cells and Synapses':
+            subsections: []
+        - '- Section: 2.2 Neuroimaging Techniques':
+            subsections:
+            - '2.2a Neurons: Structure and Function'
+            - 2.2b Synaptic Plasticity and Long-Term Potentiation
+            - 2.2c Neurotransmitters and their Role in Learning and Memory
+            - '2.2d Neuroimaging Techniques: fMRI, EEG, PET, and DTI'
+            - 2.2e Neural Circuitry of Learning and Memory
+    - '- Chapter 3: Non-associative Learning:':
+        sections:
+        - '- Section: 3.1 Learning about Repeated Events':
+            subsections:
+            - 3.1a Habituation and Sensitization
+            - 3.1b Dishabituation and Sensitization
+            - 3.1c Perceptual Learning
+    - '- Chapter 4: Classical Conditioning:':
+        sections:
+        - '- Section: 4.1 Learning to Predict Important Events':
+            subsections:
+            - '4.1a Pavlovian Conditioning: Acquisition and Extinction'
+            - 4.1b Higher-Order Conditioning
+            - 4.1c Stimulus Generalization and Discrimination
+            - 4.1d Blocking and Overshadowing
+            - 4.1e Latent Inhibition
+    - '- Chapter 5: Instrumental Conditioning:':
+        sections:
+        - '- Section: 5.1 Learning the Consequences of Behavior':
+            subsections:
+            - '5.1a Operant Conditioning: Reinforcement and Punishment'
+            - '5.1b Reinforcement Schedules: Fixed Ratio, Variable Ratio, Fixed Interval,
+              and Variable Interval'
+            - 5.1c Shaping and Chaining
+            - 5.1d Extinction and Spontaneous Recovery
+            - 5.1e Discrimination and Generalization
+    - '- Chapter 6: Generalization, Discrimination, and the Representation of Similarity:':
+        sections:
+        - '- Section: 6.1 Generalization and Discrimination':
+            subsections: []
+        - '- Section: 6.2 Representation of Similarity':
+            subsections:
+            - 6.2a Stimulus Generalization and Gradient of Similarity
+            - 6.2b Discrimination Learning and the Role of Context
+            - 6.2c Prototype Theory and Exemplar Theory
+            - 6.2d Similarity-Based Categorization
+    - '- Chapter 7: Observational Learning:':
+        sections:
+        - '- Section: 7.1 Watching, Listening, and Remembering':
+            subsections:
+            - 7.1a Social Learning and Vicarious Learning
+            - 7.1b Modeling and Imitation
+            - 7.1c Mirror Neurons and their Role in Observational Learning
+            - 7.1d Memory for Observed Actions and Events
+    - '- Chapter 8: Emotional Learning and Memory:':
+        sections:
+        - '- Section: 8.1 Emotional Learning':
+            subsections: []
+        - '- Section: 8.2 Memory':
+            subsections:
+            - 8.2a Fear Conditioning and Extinction
+            - 8.2b Regulation of Emotional Learning and Memory
+            - 8.2c Emotional Memory Consolidation and Retrieval
+            - 8.2d Memory Modulation by Emotion
+    - '- Chapter 9: Learning and Memory Across the Lifespan:':
+        sections:
+        - '- Section: 9.1 Age-related Changes in Learning and Memory':
+            subsections:
+            - 9.1a Cognitive Development and Learning in Infancy and Childhood
+            - 9.1b Learning and Memory in Adolescence
+            - '9.1c Aging and Memory Decline: Normal Aging vs. Alzheimer''s Disease'
+            - 9.1d Factors Influencing Cognitive Aging
+    - '- Chapter 10: Language Learning:':
+        sections:
+        - '- Section: 10.1 Communication and Cognition':
+            subsections:
+            - '10.1a Language Acquisition: Nature vs. Nurture'
+            - 10.1b Theories of Language Development
+            - 10.1c Bilingualism and its Effects on Learning and Memory
+            - 10.1d Language Processing and Memory Encoding
+    - '- Chapter 11: Memory Systems and Processes:':
+        sections:
+        - '- Section: 11.1 Declarative and Nondeclarative Memory':
+            subsections: []
+        - '- Section: 11.2 Encoding, Storage, and Retrieval':
+            subsections:
+            - 11.2a Levels of Processing and Dual-Coding Theory
+            - '11.2b Memory Storage: Sensory, Short-Term, and Long-Term Memory'
+            - 11.2c Retrieval Cues and Retrieval Failure
+            - 11.2d Forgetting and Memory Decay
+    - '- Chapter 12: Memory Disorders and Cognitive Impairments:':
+        sections:
+        - '- Section: 12.1 Amnesia and Dementia':
+            subsections: []
+        - '- Section: 12.2 Learning Disabilities and ADHD':
+            subsections:
+            - 12.2a Anterograde and Retrograde Amnesia
+            - 12.2b Alzheimer's Disease and Other Forms of Dementia
+            - 12.2c Dyslexia and Other Learning Disabilities
+            - 12.2d Attention Deficit Hyperactivity Disorder (ADHD) and Learning
+    - '- Chapter 13: Cognitive Enhancement and Memory Improvement:':
+        sections:
+        - '- Section: 13.1 Cognitive Training and Brain Fitness':
+            subsections: []
+        - '- Section: 13.2 Mnemonic Techniques and Strategies':
+            subsections:
+            - 13.2a Brain Training Programs and Neurofeedback
+            - 13.2b The Method of Loci and the Pegword Method
+            - 13.2c Spaced Repetition and Interleaved Practice
+            - 13.2d Mindfulness and Memory
+    - '- Chapter 14: The Role of Sleep in Learning and Memory:':
+        sections:
+        - '- Section: 14.1 Sleep and Memory Consolidation':
+            subsections: []
+        - '- Section: 14.2 Sleep Deprivation and Cognitive Performance':
+            subsections:
+            - 14.2a REM Sleep and Non-REM Sleep in Memory Processing
+            - 14.2b The Effects of Sleep Deprivation on Learning and Memory
+            - 14.2c Sleep and Memory in Children and Adolescents
+            - 14.2d Sleep Hygiene and Cognitive Performance
+    - '- Chapter 15: The Role of Nutrition in Learning and Memory:':
+        sections:
+        - '- Section: 15.1 Diet and Cognitive Function':
+            subsections: []
+        - '- Section: 15.2 Nutritional Supplements and Cognitive Enhancement':
+            subsections:
+            - 15.2a The Mediterranean Diet and Cognitive Health
+            - 15.2b Omega-3 Fatty Acids and Cognitive Function
+            - 15.2c Antioxidants and Brain Health
+            - 15.2d Caffeine, Ginkgo Biloba, and Other Cognitive Enhancers
+    - '- Chapter 16: The Role of Exercise in Learning and Memory:':
+        sections:
+        - '- Section: 16.1 Physical Activity and Cognitive Function':
+            subsections: []
+        - '- Section: 16.2 Exercise and Brain Health':
+            subsections:
+            - 16.2a Aerobic Exercise and Cognitive Performance
+            - 16.2b Exercise and Neurogenesis
+            - '16.2c Exercise and Aging: Effects on Memory and Cognitive Decline'
+            - 16.2d Exercise Recommendations for Cognitive Health
+    - '- Chapter 17: The Role of Stress in Learning and Memory:':
+        sections:
+        - '- Section: 17.1 Acute Stress and Cognitive Performance':
+            subsections: []
+        - '- Section: 17.2 Chronic Stress and Cognitive Impairment':
+            subsections:
+            - 17.2a The Stress Response and its Effects on Learning and Memory
+            - 17.2b The Effects of Chronic Stress on Brain Structure and Function
+            - 17.2c Stress Management Techniques and Cognitive Performance
+            - 17.2d Stress, Trauma, and Memory
+    - '- Chapter 18: The Role of Emotion in Learning and Memory:':
+        sections:
+        - '- Section: 18.1 Emotional Arousal and Memory Encoding':
+            subsections: []
+        - '- Section: 18.2 Emotion and Memory Retrieval':
+            subsections:
+            - 18.2a The Role of the Amygdala in Emotional Memory
+            - 18.2b Flashbulb Memories and Traumatic Memories
+            - 18.2c Mood-Congruent Memory and State-Dependent Memory
+            - 18.2d Emotion Regulation and Memory
+    - '- Chapter 19: The Role of Attention in Learning and Memory:':
+        sections:
+        - '- Section: 19.1 Selective Attention and Memory Encoding':
+            subsections: []
+        - '- Section: 19.2 Divided Attention and Memory Performance':
+            subsections:
+            - 19.2a The Role of Attention in Memory Encoding
+            - 19.2b The Effects of Multitasking on Learning and Memory
+            - 19.2c Attention Disorders and Memory Impairments
+            - 19.2d Attention Training and Memory Improvement
+    - '- Chapter 20: The Role of Motivation in Learning and Memory:':
+        sections:
+        - '- Section: 20.1 Intrinsic and Extrinsic Motivation':
+            subsections: []
+        - '- Section: 20.2 Motivation and Cognitive Performance':
+            subsections:
+            - 20.2a The Effects of Reward and Punishment on Learning and Memory
+            - 20.2b Goal Setting and Self-Efficacy in Learning
+            - 20.2c Motivation and Academic Performance
+            - 20.2d Motivational Strategies for Learning and Memory Improvement

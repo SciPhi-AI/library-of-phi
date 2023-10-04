@@ -1,0 +1,205 @@
+textbook: 
+"Experimental Projects II: A Comprehensive Guide to Designing and Conducting Experiments":
+
+chapters:
+- Chapter 1: Project Design and Proposal:
+sections:
+- Section: 1.1 Design Proposal in 16.621:
+- Section: 1.2 Setting up and Conducting Experiments:
+- Section: 1.3 Conclusion of Experiments:
+- Section: 1.4 Designing Experiments for Different Research Questions:
+subsections:
+- 1.4a Hypothesis Generation and Experimental Variables
+- 1.4b Sample Size Determination
+- 1.4c Experimental Design Considerations
+- 1.4d Ethical Considerations in Experimental Design
+
+- Chapter 2: Progress Reports:
+sections:
+- Section: 2.1 Formal Mid-term Oral Reports:
+- Section: 2.2 Final Oral Reports:
+- Section: 2.3 Submission of Final Report:
+- Section: 2.4 Samples of Reports:
+subsections:
+- 2.4a Writing Effective Progress Reports
+- 2.4b Analyzing and Presenting Experimental Data
+- 2.4c Formatting and Style Guidelines for Reports
+
+- Chapter 3: Team Meetings:
+sections:
+- Section: 3.1 Sign-up for Team Meetings:
+- Section: 3.2 Informal 15 Minute Team Meetings:
+- Section: 3.3 Status Reports with Course Staff and Advisor:
+subsections:
+- 3.3a Effective Communication in Team Meetings
+- 3.3b Team Collaboration and Conflict Resolution
+- 3.3c Building Effective Relationships with Advisors
+
+- Chapter 4: Communication Class:
+sections:
+- Section: 4.1 Progress Reports:
+- Section: 4.2 Oral Progress Reports:
+- Section: 4.3 Final Report Presentation:
+- Section: 4.4 Final Oral Presentations:
+subsections:
+- 4.4a Effective Presentation Skills
+- 4.4b Visual Aids and Multimedia in Presentations
+- 4.4c Handling Questions and Q&A Sessions
+
+- Chapter 5: Class Schedule and Deadlines:
+sections:
+- Section: 5.1 Key Dates and Deadlines:
+- Section: 5.2 Last Day to Take Data:
+- Section: 5.3 Progress Review:
+subsections:
+- 5.3a Time Management and Planning for Experiments
+- 5.3b Tracking and Monitoring Progress
+
+- Chapter 6: Previous Semesters:
+sections:
+- Section: 6.1 Bennett, Fall 2002:
+- Section: 6.2 de Mierry, Fall 2002:
+- Section: 6.3 Qu, Spring 2003:
+subsections:
+- 6.3a Lessons Learned from Previous Projects
+- 6.3b Case Studies and Best Practices from Previous Semesters
+
+- Chapter 7: Experimental Design and Analysis:
+sections:
+- Section: 7.1 Experimental Design Principles:
+- Section: 7.2 Statistical Analysis of Experimental Data:
+- Section: 7.3 Reporting and Interpreting Results:
+subsections:
+- 7.3a Writing the Results Section
+- 7.3b Interpreting Statistical Results
+- 7.3c Discussing the Implications of the Results
+
+- Chapter 8: Ethics in Experimental Research:
+sections:
+- Section: 8.1 Ethical Considerations in Experimental Design:
+- Section: 8.2 Informed Consent in Experimental Research:
+- Section: 8.3 Dealing with Ethical Dilemmas in Research:
+subsections:
+- 8.3a Recognizing Ethical Dilemmas
+- 8.3b Resolving Ethical Dilemmas
+- 8.3c Ethical Guidelines for Researchers
+
+- Chapter 9: Advanced Experimental Techniques:
+sections:
+- Section: 9.1 Advanced Data Collection Techniques:
+- Section: 9.2 Advanced Data Analysis Techniques:
+- Section: 9.3 Advanced Experimental Design Techniques:
+subsections:
+- 9.3a Factorial Designs
+- 9.3b Repeated Measures Designs
+- 9.3c Mixed Designs
+
+- Chapter 10: Experimental Replication and Generalizability:
+sections:
+- Section: 10.1 The Importance of Replication in Experimental Research:
+- Section: 10.2 Strategies for Increasing the Generalizability of Experimental Results:
+- Section: 10.3 Limitations of Experimental Research:
+subsections:
+- 10.3a Recognizing the Limitations of Your Study
+- 10.3b Discussing the Limitations in the Discussion Section
+- 10.3c Suggestions for Future Research
+
+- Chapter 11: Experimental Research in Different Disciplines:
+sections:
+- Section: 11.1 Experimental Research in the Social Sciences:
+- Section: 11.2 Experimental Research in the Natural Sciences:
+- Section: 11.3 Experimental Research in the Health Sciences:
+subsections:
+- 11.3a Experimental Research in Psychology
+- 11.3b Experimental Research in Biology
+- 11.3c Experimental Research in Medicine
+
+- Chapter 12: Experimental Research in the Field vs. the Laboratory:
+sections:
+- Section: 12.1 Advantages and Disadvantages of Field Experiments:
+- Section: 12.2 Advantages and Disadvantages of Laboratory Experiments:
+- Section: 12.3 Choosing Between Field and Laboratory Experiments:
+subsections:
+- 12.3a Factors to Consider When Choosing Between Field and Laboratory Experiments
+- 12.3b Making the Most of Your Chosen Setting
+- 12.3c Dealing with Challenges in Your Chosen Setting
+
+- Chapter 13: Experimental Research with Human Subjects:
+sections:
+- Section: 13.1 Ethical Considerations When Working with Human Subjects:
+- Section: 13.2 Informed Consent in Research with Human Subjects:
+- Section: 13.3 Dealing with Sensitive Topics in Research with Human Subjects:
+subsections:
+- 13.3a Recognizing Sensitive Topics
+- 13.3b Approaching Sensitive Topics with Care
+- 13.3c Dealing with Emotional Reactions to Sensitive Topics
+
+- Chapter 14: Experimental Research with Animal Subjects:
+sections:
+- Section: 14.1 Ethical Considerations When Working with Animal Subjects:
+- Section: 14.2 Ensuring the Welfare of Animal Subjects:
+- Section: 14.3 Dealing with Controversial Topics in Research with Animal Subjects:
+subsections:
+- 14.3a Recognizing Controversial Topics
+- 14.3b Approaching Controversial Topics with Care
+- 14.3c Dealing with Public Reactions to Controversial Topics
+
+- Chapter 15: Experimental Research in the Digital Age:
+sections:
+- Section: 15.1 Online Experiments:
+- Section: 15.2 Using Social Media in Experimental Research:
+- Section: 15.3 Ethical Considerations in Digital Experimental Research:
+subsections:
+- 15.3a Privacy and Confidentiality in Digital Research
+- 15.3b Informed Consent in Digital Research
+- 15.3c Dealing with Data Security in Digital Research
+
+- Chapter 16: Experimental Research in a Global Context:
+sections:
+- Section: 16.1 Conducting Cross-Cultural Experimental Research:
+- Section: 16.2 Ethical Considerations in Cross-Cultural Experimental Research:
+- Section: 16.3 Dealing with Language and Cultural Barriers in Cross-Cultural Experimental Research:
+subsections:
+- 16.3a Recognizing Language and Cultural Barriers
+- 16.3b Strategies for Overcoming Language and Cultural Barriers
+- 16.3c Ensuring Cultural Sensitivity in Cross-Cultural Experimental Research
+
+- Chapter 17: Experimental Research in a Changing World:
+sections:
+- Section: 17.1 The Impact of Climate Change on Experimental Research:
+- Section: 17.2 The Impact of Technological Advances on Experimental Research:
+- Section: 17.3 The Impact of Social Changes on Experimental Research:
+subsections:
+- 17.3a Recognizing Social Changes That Impact Your Research
+- 17.3b Adapting Your Research to Social Changes
+- 17.3c Future Directions in Experimental Research
+
+- Chapter 18: Experimental Research and Public Policy:
+sections:
+- Section: 18.1 The Role of Experimental Research in Shaping Public Policy:
+- Section: 18.2 Communicating Your Research to Policymakers:
+- Section: 18.3 Dealing with Controversy and Public Debate:
+subsections:
+- 18.3a Recognizing Controversial Topics in Your Research
+- 18.3b Strategies for Dealing with Controversy and Public Debate
+- 18.3c Ensuring the Integrity of Your Research in the Face of Controversy
+
+- Chapter 19: Experimental Research and the Media:
+sections:
+- Section: 19.1 Communicating Your Research to the Media:
+- Section: 19.2 Dealing with Media Misinterpretations of Your Research:
+- Section: 19.3 Ensuring the Accuracy of Media Reports on Your Research:
+subsections:
+- 19.3a Recognizing Media Misinterpretations
+- 19.3b Strategies for Correcting Media Misinterpretations
+- 19.3c Working with the Media to Ensure Accurate Reporting
+
+- Chapter 20: The Future of Experimental Research:
+sections:
+- Section: 20.1 Emerging Trends in Experimental Research:
+- Section: 20.2 The Impact of Technological Advances on the Future of Experimental Research:
+- Section: 20.3 The Role of Experimental Research in Addressing Global Challenges:
+subsections:
+- 20.3a Recognizing Global Challenges That Can Be Addressed Through Experimental Research
+- 20.3b Strategies for Designing Experimental Research to Address Global Challenges
+- 20.3c The Potential Impact of Your Experimental Research on Global Challenges
