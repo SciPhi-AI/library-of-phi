@@ -7,7 +7,6 @@ We use AI-driven methods, processing openly accessible syllabi from MIT OCW and,
 
 ## Powered By
 - [SciPhi](https://github.com/emrgnt-cmplxty/SciPhi)
-- [textbook_quality](https://github.com/VikParuchuri/textbook_quality)
 
 ---
 <p align="center">
