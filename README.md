@@ -5,6 +5,21 @@ The Library of Phi is on a mission to democratize access to high-quality textboo
 
 We use AI-driven methods, processing openly accessible syllabi from MIT OCW and, soon, other sources. We then apply retrieval-augmented-generation (RAG) over Wikipedia to attempt to ground the textbooks in fact. All textbooks in this repository are generated using GPT-3.5 and GPT-4.
 
+
+## **Getting Started & Support**
+  
+- Engage with our active [Discord community](https://discord.gg/j9GxfbxqAe) for discussions, troubleshooting, and collaboration.
+  
+- For specialized support or collaboration inquiries, feel free to [reach out directly](mailto:owen@emergentagi.com).
+
+## **Library of Phi Generation**
+
+1. Scrape MIT OCW Course Webpages.
+2. Extract Syllabi.
+3. Formulate Table of Contents.
+4. Craft Textbooks.
+
+
 ## Powered By
 - [SciPhi](https://github.com/emrgnt-cmplxty/SciPhi)
 
