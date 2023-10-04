@@ -1194,9 +1194,7 @@ Linear systems are governed by linear differential equations. A differential equ
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = A\mathbf{x} + \mathbf{b}
-
 $$
 
 
@@ -1242,9 +1240,7 @@ One of the key properties of linear systems is homogeneity. This means that if t
 
 
 $$
-
 f(ax) = af(x)
-
 $$
 
 
@@ -1262,9 +1258,7 @@ Another important property of linear systems is additivity. This means that the 
 
 
 $$
-
 f(x_1 + x_2) = f(x_1) + f(x_2)
-
 $$
 
 
@@ -1282,9 +1276,7 @@ The principle of superposition is a direct consequence of the homogeneity and ad
 
 
 $$
-
 f(a_1x_1 + a_2x_2) = a_1f(x_1) + a_2f(x_2)
-
 $$
 
 
@@ -1322,9 +1314,7 @@ In contrast to linear systems, nonlinear systems do not exhibit the property of 
 
 
 $$
-
 f(ax) \neq af(x)
-
 $$
 
 
@@ -1342,9 +1332,7 @@ Nonlinear systems also do not exhibit the property of additivity. This means tha
 
 
 $$
-
 f(x_1 + x_2) \neq f(x_1) + f(x_2)
-
 $$
 
 
@@ -1398,9 +1386,7 @@ In the context of nonlinear dynamics, a system is said to be stable if, after a 
 
 
 $$
-
 \lim_{t \to \infty} \| x(t) - x^* \| = 0
-
 $$
 
 
@@ -1422,9 +1408,7 @@ Conversely, a system is said to be unstable if, after a small disturbance, it mo
 
 
 $$
-
 \lim_{t \to \infty} \| x(t) - x^* \| = \infty
-
 $$
 
 
@@ -1606,9 +1590,7 @@ A saddle-node bifurcation, also known as a fold bifurcation, occurs when a stabl
 
 
 $$
-
 \dot{x} = r + x^2
-
 $$
 
 
@@ -1626,9 +1608,7 @@ In a transcritical bifurcation, two equilibrium points exchange their stability.
 
 
 $$
-
 \dot{x} = rx - x^2
-
 $$
 
 
@@ -1646,9 +1626,7 @@ A pitchfork bifurcation is a bifurcation where an equilibrium point either split
 
 
 $$
-
 \dot{x} = rx \pm x^3
-
 $$
 
 
@@ -1666,9 +1644,7 @@ A Hopf bifurcation occurs when a pair of complex conjugate eigenvalues crosses t
 
 
 $$
-
 \dot{x} = r x - x |x|^2
-
 $$
 
 
@@ -1990,9 +1966,7 @@ To understand limit cycles, let's consider a simple example of a nonlinear oscil
 
 
 $$
-
 \frac{d^2x}{dt^2} + f(x) = 0
-
 $$
 
 
@@ -2030,9 +2004,7 @@ This property can be mathematically expressed as follows. Let's consider a syste
 
 
 $$
-
 \frac{dx}{dt} = f(x)
-
 $$
 
 
@@ -2090,17 +2062,13 @@ Mathematically, let's consider a system described by the differential equations:
 
 
 $$
-
 \frac{dx}{dt} = f(x, y)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = g(x, y)
-
 $$
 
 
@@ -2158,17 +2126,13 @@ Mathematically, let's consider a dynamical system described by the differential 
 
 
 $$
-
 \frac{dx}{dt} = f(x, y)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = g(x, y)
-
 $$
 
 
@@ -2178,9 +2142,7 @@ where $x$ and $y$ are the states of the system, and $f(x, y)$ and $g(x, y)$ are 
 
 
 $$
-
 P(x, y) = (x', y')
-
 $$
 
 
@@ -2230,17 +2192,13 @@ For a dynamical system described by the differential equations:
 
 
 $$
-
 \frac{dx}{dt} = f(x, y)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = g(x, y)
-
 $$
 
 
@@ -2250,17 +2208,13 @@ and a Poincaré section $S$, the intersections $(x', y')$ of the system's trajec
 
 
 $$
-
 x' = x + \int_{t}^{t'} f(x, y) dt
-
 $$
 
 
 
 $$
-
 y' = y + \int_{t}^{t'} g(x, y) dt
-
 $$
 
 
@@ -2390,9 +2344,7 @@ One of the simplest models of nonlinear damping is the power-law model. In this 
 
 
 $$
-
 F_d = -b v^n
-
 $$
 
 
@@ -2410,9 +2362,7 @@ The Stribeck friction model is a more complex model of nonlinear damping that is
 
 
 $$
-
 F_d = -b v - c v^2
-
 $$
 
 
@@ -2430,9 +2380,7 @@ The Coulomb friction model is another model of nonlinear damping that is often u
 
 
 $$
-
 F_d = -\mu N \, \text{sgn}(v)
-
 $$
 
 
@@ -2642,9 +2590,7 @@ Mathematically, a strange attractor is a subset of the phase space characterized
 
 
 $$
-
 \lim_{t\to\infty} \frac{1}{t} \ln \| \mathbf{x}(t) - \mathbf{y}(t) \| > 0
-
 $$
 
 
@@ -2694,9 +2640,7 @@ One of the defining properties of strange attractors is the exponential divergen
 
 
 $$
-
 \lim_{t\to\infty} \frac{1}{t} \ln \| \mathbf{x}(t) - \mathbf{y}(t) \| > 0
-
 $$
 
 
@@ -2728,7 +2672,6 @@ One of the most famous examples of strange attractors in nonlinear systems is th
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= \sigma(y - x) \\
@@ -2738,7 +2681,6 @@ $$
 \frac{dz}{dt} &= xy - \beta z
 
 \end{align*}
-
 $$
 
 
@@ -2756,7 +2698,6 @@ Another example of a strange attractor in a nonlinear system is the Rössler att
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= -y - z \\
@@ -2766,7 +2707,6 @@ $$
 \frac{dz}{dt} &= b + z(x - c)
 
 \end{align*}
-
 $$
 
 
@@ -2798,9 +2738,7 @@ For a dynamical system described by a set of differential equations, the $i$-th 
 
 
 $$
-
 \lambda_i = \lim_{t \to \infty} \frac{1}{t} \ln \left| \frac{d\phi^t}{dx_i}(0) \right|
-
 $$
 
 
@@ -3028,7 +2966,6 @@ Let's consider the example of the Lorenz system mentioned in the previous sectio
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= \sigma(y - x) \\
@@ -3038,7 +2975,6 @@ $$
 \frac{dz}{dt} &= xy - \beta z
 
 \end{align*}
-
 $$
 
 
@@ -3100,9 +3036,7 @@ The Lyapunov exponent, denoted by $\lambda$, can be calculated as follows:
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \left| \frac{df(x(t))}{dx(0)} \right|
-
 $$
 
 
@@ -3296,9 +3230,7 @@ The most defining property of a soliton is its stability. This stability arises 
 
 
 $$
-
 \frac{\partial u}{\partial t} + 6u\frac{\partial u}{\partial x} + \frac{\partial^3 u}{\partial x^3} = 0
-
 $$
 
 
@@ -3354,9 +3286,7 @@ One of the most common equations used to describe solitons in nonlinear systems 
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{1}{2}\frac{\partial^2 \psi}{\partial x^2} + |\psi|^2\psi = 0
-
 $$
 
 
@@ -3412,9 +3342,7 @@ Mathematically, the speed of a wave component in a dispersive medium is given by
 
 
 $$
-
 v_p = \frac{\omega}{k}
-
 $$
 
 
@@ -3424,9 +3352,7 @@ and the group velocity $v_g$, which is the speed of the wave packet, is given by
 
 
 $$
-
 v_g = \frac{d\omega}{dk}
-
 $$
 
 
@@ -3464,9 +3390,7 @@ Mathematically, the degree of dispersion can be quantified by the second derivat
 
 
 $$
-
 D = \frac{d^2\omega}{dk^2}
-
 $$
 
 
@@ -3512,9 +3436,7 @@ Mathematically, solitons can be described by nonlinear wave equations, such as t
 
 
 $$
-
 \frac{\partial u}{\partial t} + 6u\frac{\partial u}{\partial x} + \frac{\partial^3 u}{\partial x^3} = 0
-
 $$
 
 
@@ -3536,9 +3458,7 @@ The mathematical description of breathers can be quite complex, often involving 
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + 2|\psi|^2\psi = 0
-
 $$
 
 
@@ -3568,9 +3488,7 @@ The standard form of the NLSE is given by:
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + 2|\psi|^2\psi = 0
-
 $$
 
 
@@ -3604,9 +3522,7 @@ Solitons are localized wave packets that maintain their shape while propagating 
 
 
 $$
-
 \psi(x,t) = \eta \, \text{sech}(\eta(x - v t)) \, e^{i(vx - \frac{v^2}{2}t)}
-
 $$
 
 
@@ -3624,9 +3540,7 @@ Breathers are localized wave packets that oscillate in amplitude while maintaini
 
 
 $$
-
 \psi(x,t) = \eta \, \text{sech}(\eta t) \, e^{i(x - \frac{1}{2}t)}
-
 $$
 
 
@@ -3644,9 +3558,7 @@ The NLSE also admits periodic solutions, which are waveforms that repeat after a
 
 
 $$
-
 \psi(x,t) = \sqrt{2k} \, \text{cn}(\sqrt{2k}(x - v t), k) \, e^{i(vx - \frac{v^2}{2}t)}
-
 $$
 
 
@@ -3964,9 +3876,7 @@ Throughout this chapter, we will make extensive use of mathematical notation and
 
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u + f(u)
-
 $$
 
 
@@ -4000,17 +3910,13 @@ The mathematical model that describes Turing patterns is a system of reaction-di
 
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + R_u(u, v)
-
 $$
 
 
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + R_v(u, v)
-
 $$
 
 
@@ -4128,9 +4034,7 @@ The general form of a reaction-diffusion equation for a single substance $u$ is 
 
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u + R(u)
-
 $$
 
 
@@ -4144,17 +4048,13 @@ In the context of pattern formation, we are often interested in systems with two
 
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + R_u(u, v)
-
 $$
 
 
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + R_v(u, v)
-
 $$
 
 
@@ -4188,9 +4088,7 @@ Finite difference methods approximate the derivatives in the reaction-diffusion 
 
 
 $$
-
 \frac{\partial u}{\partial t} \approx \frac{u(t+\Delta t) - u(t)}{\Delta t}
-
 $$
 
 
@@ -4200,9 +4098,7 @@ and the second spatial derivative as:
 
 
 $$
-
 \nabla^2 u \approx \frac{u(x+\Delta x) - 2u(x) + u(x-\Delta x)}{(\Delta x)^2}
-
 $$
 
 
@@ -4256,17 +4152,13 @@ The Turing mechanism can be described by a system of reaction-diffusion equation
 
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + f(u,v)
-
 $$
 
 
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + g(u,v)
-
 $$
 
 
@@ -4288,9 +4180,7 @@ In these systems, a wave of high concentration of a certain substance propagates
 
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u + f(u)
-
 $$
 
 
@@ -4356,9 +4246,7 @@ The Hamiltonian of the Ising model is given by:
 
 
 $$
-
 H = -J \sum_{<i,j>} s_i s_j - h \sum_i s_i
-
 $$
 
 
@@ -4388,9 +4276,7 @@ One of the most striking examples of self-organization in nonlinear systems is t
 
 
 $$
-
 \frac{\partial u}{\partial t} + 6u\frac{\partial u}{\partial x} + \frac{\partial^3 u}{\partial x^3} = 0
-
 $$
 
 
@@ -4424,9 +4310,7 @@ One of the most well-known examples of spatiotemporal chaos is the **Kuramoto-Si
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + \frac{\partial^2 u}{\partial x^2} + \frac{\partial^4 u}{\partial x^4} = 0
-
 $$
 
 
@@ -5096,9 +4980,7 @@ Given a dynamical system described by the differential equation
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t), t)
-
 $$
 
 
@@ -5108,9 +4990,7 @@ where $x(t)$ is the state of the system, $u(t)$ is the control input, and $f$ is
 
 
 $$
-
 J(u) = \int_{t_0}^{t_f} g(x(t), u(t), t) dt
-
 $$
 
 
@@ -5156,9 +5036,7 @@ The Pontryagin's Minimum Principle provides a necessary condition for an optimal
 
 
 $$
-
 H(x, u, p, t) = g(x, u, t) + p^T f(x, u, t)
-
 $$
 
 
@@ -5168,9 +5046,7 @@ is minimized over all controls $u(t)$ at each time $t$, i.e.,
 
 
 $$
-
 H(x^*(t), u^*(t), p(t), t) \leq H(x^*(t), u(t), p(t), t), \quad \forall u(t)
-
 $$
 
 
@@ -5180,9 +5056,7 @@ The costate $p(t)$ satisfies the adjoint equation
 
 
 $$
-
 -\dot{p}(t) = \frac{\partial H}{\partial x}(x^*(t), u^*(t), p(t), t)
-
 $$
 
 
@@ -5192,9 +5066,7 @@ and the boundary condition
 
 
 $$
-
 p(t_f) = \frac{\partial \phi}{\partial x}(x(t_f), t_f)
-
 $$
 
 
@@ -5248,9 +5120,7 @@ The optimal control problem for a nonlinear system can be formulated as follows.
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t), t)
-
 $$
 
 
@@ -5260,9 +5130,7 @@ where $x(t) \in \mathbb{R}^n$ is the state, $u(t) \in \mathbb{R}^m$ is the contr
 
 
 $$
-
 J(u) = \phi(x(t_f), t_f) + \int_{t_0}^{t_f} g(x(t), u(t), t) dt
-
 $$
 
 
@@ -5458,9 +5326,7 @@ The basic building block of a neural network is the neuron. In a simplified mode
 
 
 $$
-
 y_j(n) = f\left(\sum_{i} w_{ij} x_i(n) + b_j\right)
-
 $$
 
 
@@ -5502,9 +5368,7 @@ The learning process can be represented mathematically as follows:
 
 
 $$
-
 \Delta w_{ij}(n) = \eta \cdot (t_j - y_j(n)) \cdot x_i(n)
-
 $$
 
 
@@ -5746,9 +5610,7 @@ One of the simplest models in ecological dynamics is the logistic growth model, 
 
 
 $$
-
 \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
-
 $$
 
 
@@ -5770,7 +5632,6 @@ Another important aspect of ecological dynamics is the interaction between preda
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= ax - bxy \\
@@ -5778,7 +5639,6 @@ $$
 \frac{dy}{dt} &= -cy + dxy
 
 \end{align*}
-
 $$
 
 
@@ -5800,7 +5660,6 @@ the study of predator-prey interactions. These interactions can be modeled using
 
 
 $$
-
 \begin{align*}
 
 \frac{dN}{dt} &= rN - aNP \\
@@ -5808,7 +5667,6 @@ $$
 \frac{dP}{dt} &= -sP + bNP
 
 \end{align*}
-
 $$
 
 
@@ -5922,7 +5780,6 @@ The SIR model can be described by the following set of nonlinear differential eq
 
 
 $$
-
 \begin{align*}
 
 \frac{dS}{dt} &= -\beta SI, \\
@@ -5932,7 +5789,6 @@ $$
 \frac{dR}{dt} &= \gamma I,
 
 \end{align*}
-
 $$
 
 
@@ -6024,7 +5880,6 @@ The SIR model is a classic example of a nonlinear system in epidemiology. The mo
 
 
 $$
-
 \begin{align*}
 
 \frac{dS}{dt} &= -\beta SI, \\
@@ -6034,7 +5889,6 @@ $$
 \frac{dR}{dt} &= \gamma I,
 
 \end{align*}
-
 $$
 
 
@@ -6348,9 +6202,7 @@ In a linear system, the frequency of vibration is independent of the amplitude o
 
 
 $$
-
 f = f_0 + \alpha A^2
-
 $$
 
 
@@ -6372,9 +6224,7 @@ Mathematically, multi-resonance can be represented as:
 
 
 $$
-
 f = f_0 + \alpha A^2 + \beta A^4 + \gamma A^6 + \ldots
-
 $$
 
 
@@ -6444,9 +6294,7 @@ Mathematically, parametric resonance can be represented as:
 
 
 $$
-
 f = f_0 + \alpha A^2 + \beta A^4 + \gamma A^6 + \ldots
-
 $$
 
 
@@ -6472,9 +6320,7 @@ Mathematically, nonlinear damping can be represented as:
 
 
 $$
-
 f_d = -\beta v - \gamma v^3
-
 $$
 
 
@@ -6508,25 +6354,19 @@ The Navier-Stokes equations are a set of nonlinear partial differential equation
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u} + p\mathbf{I}) = \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho e)}{\partial t} + \nabla \cdot [(\rho e + p)\mathbf{u}] = \mu \nabla \mathbf{u} : \nabla \mathbf{u} + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -6620,9 +6460,7 @@ The nonlinear Navier-Stokes equations are given by:
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 
@@ -6672,9 +6510,7 @@ A simple example of a nonlinear electrical circuit is a diode circuit. The curre
 
 
 $$
-
 I = I_s \left(e^{\frac{V}{nV_T}} - 1\right)
-
 $$
 
 
@@ -6962,9 +6798,7 @@ The mathematical description of nonlinear optics is based on the expansion of th
 
 
 $$
-
 P = \epsilon_0 (\chi^{(1)} E + \chi^{(2)} E^2 + \chi^{(3)} E^3 + \ldots)
-
 $$
 
 
@@ -7102,9 +6936,7 @@ The properties of BECs are governed by the Gross-Pitaevskii equation, a nonlinea
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})+g|\Psi(\mathbf{r},t)|^2\right]\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -7178,9 +7010,7 @@ The behavior of BECs in nonlinear systems can be described by the nonlinear Schr
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}) + g|\Psi(\mathbf{r},t)|^2\right]\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -7764,7 +7594,6 @@ A game can be represented in normal form as a matrix, where the rows represent t
 
 
 $$
-
 \begin{bmatrix}
 
 3, 2 & 1, 1 \\
@@ -7772,7 +7601,6 @@ $$
 0, 0 & 2, 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -8510,9 +8338,7 @@ Mathematically, these properties can be modeled using a system of nonlinear diff
 
 
 $$
-
 \frac{dx_i}{dt} = f(x_i, t) + \sum_{j=1}^{N} g(x_i, x_j, t)
-
 $$
 
 
@@ -8542,9 +8368,7 @@ Mathematically, these collective phenomena can be modeled using the concept of p
 
 
 $$
-
 \frac{d\phi_i}{dt} = \omega_i + \sum_{j=1}^{N} K_{ij} \sin(\phi_j - \phi_i)
-
 $$
 
 
@@ -8562,9 +8386,7 @@ Mathematically, critical transitions can be modeled using the concept of stabili
 
 
 $$
-
 \frac{dx_i}{dt} = f(x_i, \mu) + \sum_{j=1}^{N} g(x_i, x_j, \mu)
-
 $$
 
 
@@ -8610,9 +8432,7 @@ Mathematically, network dynamics can be modeled using systems of differential eq
 
 
 $$
-
 \frac{dI_i}{dt} = \beta \sum_{j=1}^{N} A_{ij} (I_j - I_i)
-
 $$
 
 
@@ -8650,9 +8470,7 @@ Mathematically, these properties can be calculated using various graph-theoretic
 
 
 $$
-
 C_i = \frac{2E_i}{k_i(k_i-1)}
-
 $$
 
 
@@ -8666,9 +8484,7 @@ The average path length in a network can be calculated using the formula:
 
 
 $$
-
 L = \frac{1}{n(n-1)} \sum_{i \neq j} d_{ij}
-
 $$
 
 
@@ -8698,9 +8514,7 @@ For example, consider a simple model of opinion dynamics in a social network, wh
 
 
 $$
-
 \frac{d x_i}{dt} = \sum_{j=1}^{n} a_{ij} (x_j - x_i)
-
 $$
 
 
@@ -8718,9 +8532,7 @@ For example, consider a model of disease spread in a social network, where each 
 
 
 $$
-
 \frac{d S_i}{dt} = -\beta S_i I_i, \quad \frac{d I_i}{dt} = \beta S_i I_i - \gamma I_i
-
 $$
 
 
@@ -9808,7 +9620,6 @@ Mathematically, bifurcations occur when the stability of an equilibrium point ch
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= x(a - by) \\
@@ -9816,7 +9627,6 @@ $$
 \frac{dy}{dt} &= -y(c - dx)
 
 \end{align*}
-
 $$
 
 
@@ -9874,7 +9684,6 @@ The Navier-Stokes equations are the fundamental equations of fluid dynamics, des
 
 
 $$
-
 \begin{align*}
 
 \frac{Du}{Dt} - fv &= -\frac{1}{\rho_0}\frac{\partial p}{\partial x} + \nu \nabla^2 u \\
@@ -9886,7 +9695,6 @@ $$
 \frac{D\rho}{Dt} &= -w \frac{\partial \rho_0}{\partial z}
 
 \end{align*}
-
 $$
 
 
@@ -9932,9 +9740,7 @@ The phase speed of Rossby waves is given by:
 
 
 $$
-
 c = -\frac{\beta}{k^2 + l^2 + (\frac{1}{L_R})^2}
-
 $$
 
 
@@ -9956,9 +9762,7 @@ The turbulence kinetic energy $k$ can be defined as:
 
 
 $$
-
 k = \frac{1}{2}(u'^2 + v'^2 + w'^2)
-
 $$
 
 
@@ -10000,9 +9804,7 @@ The Korteweg-de Vries (KdV) equation is a well-known nonlinear partial different
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + \frac{6\eta}{\partial x}\eta + \frac{\partial^3 \eta}{\partial x^3} = 0
-
 $$
 
 
@@ -10024,9 +9826,7 @@ The Rayleigh-Taylor instability, for instance, occurs when a denser fluid is sit
 
 
 $$
-
 \frac{\partial \rho}{\partial z} g > 0
-
 $$
 
 
@@ -10108,7 +9908,6 @@ The nonlinearity in natural hazards is often described by nonlinear differential
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= \sigma(y - x) \\
@@ -10118,7 +9917,6 @@ $$
 \frac{dz}{dt} &= xy - \beta z
 
 \end{align*}
-
 $$
 
 
@@ -10140,9 +9938,7 @@ The wave-like behavior of natural hazards can be described by wave equations, wh
 
 
 $$
-
 \frac{\partial u}{\partial t} + 6u \frac{\partial u}{\partial x} + \frac{\partial^3 u}{\partial x^3} = 0
-
 $$
 
 
@@ -10352,9 +10148,7 @@ For instance, consider a simple chemical reaction where a reactant A is converte
 
 
 $$
-
 r = k[A]^n
-
 $$
 
 
@@ -10388,9 +10182,7 @@ As previously mentioned, the rate of a chemical reaction is given by the equatio
 
 
 $$
-
 r = k[A]^n
-
 $$
 
 
@@ -10636,9 +10428,7 @@ Mathematically, the speed $c$ of a chemical wave can often be estimated using th
 
 
 $$
-
 c \approx \sqrt{Dk},
-
 $$
 
 
@@ -10688,9 +10478,7 @@ The behavior of chemical waves in nonlinear systems can be described by reaction
 
 
 $$
-
 \frac{\partial u}{\partial t} = D \frac{\partial^2 u}{\partial x^2} + u(1-u),
-
 $$
 
 
@@ -10784,9 +10572,7 @@ The order of a reaction refers to the power dependence of the rate of reaction o
 
 
 $$
-
 r = k[A]^m[B]^n
-
 $$
 
 
@@ -10812,9 +10598,7 @@ In the Arrhenius equation, the rate constant is given by:
 
 
 $$
-
 k = Ae^{-E_a/RT}
-
 $$
 
 
@@ -11038,9 +10822,7 @@ Differential equations come in many forms, but they all share the common feature
 
 
 $$
-
 \frac{dy}{dt} = f(y)
-
 $$
 
 
@@ -11054,9 +10836,7 @@ Differential equations can also be of higher order, involving second, third, or 
 
 
 $$
-
 \frac{d^2y}{dt^2} = f(y, \frac{dy}{dt})
-
 $$
 
 
@@ -11094,9 +10874,7 @@ The theorem states that, given a Lipschitz continuous function $f(y)$, there exi
 
 
 $$
-
 \frac{dy}{dt} = f(y), \quad y(t_0) = y_0
-
 $$
 
 
@@ -11152,7 +10930,6 @@ Mathematically, chaos can be defined as a system that has a dense set of periodi
 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= \sigma(y - x) \\
@@ -11162,7 +10939,6 @@ $$
 \frac{dz}{dt} &= xy - \beta z
 
 \end{align*}
-
 $$
 
 
@@ -11850,9 +11626,7 @@ One of the most significant properties of biomechanics is its inherent nonlinear
 
 
 $$
-
 F = F_{max} \cdot \left(1 - \frac{(L - L_{opt})^2}{(w \cdot L_{opt})^2}\right)
-
 $$
 
 
@@ -11950,9 +11724,7 @@ The Westervelt equation is given by:
 
 
 $$
-
 \frac{\partial^2 p}{\partial t^2} - c_0^2 \nabla^2 p = -\beta c_0^2 \frac{\partial}{\partial t} (\nabla^2 p) - \frac{1}{\rho_0 c_0^2} \frac{\partial p}{\partial t}
-
 $$
 
 
@@ -11990,9 +11762,7 @@ The Beer-Lambert law describes the absorption of X-rays in tissue:
 
 
 $$
-
 I = I_0 e^{-\mu x}
-
 $$
 
 
@@ -12010,9 +11780,7 @@ Magnetic Resonance Imaging (MRI) is another commonly used medical imaging techni
 
 
 $$
-
 \frac{dM}{dt} = \gamma M \times B - \frac{M - M_0}{T}
-
 $$
 
 
@@ -12038,9 +11806,7 @@ The wave equation for ultrasound propagation in tissue can be written as:
 
 
 $$
-
 \frac{\partial^2 p}{\partial t^2} = c^2 \nabla^2 p + \beta \left(\frac{\partial p}{\partial t}\right)^2
-
 $$
 
 
@@ -12066,9 +11832,7 @@ The rate of decay of the radioactive tracer can be described by the equation:
 
 
 $$
-
 \frac{dN}{dt} = -\lambda N
-
 $$
 
 
@@ -12462,9 +12226,7 @@ The equations of motion for a system of $N$ bodies under gravitational interacti
 
 
 $$
-
 \frac{d^2 \vec{r}_i}{dt^2} = G \sum_{j \neq i}^N m_j \frac{\vec{r}_j - \vec{r}_i}{|\vec{r}_j - \vec{r}_i|^3}
-
 $$
 
 
@@ -12490,9 +12252,7 @@ One of the fundamental properties of celestial mechanics is the conservation of 
 
 
 $$
-
 \vec{L} = \sum_{i=1}^N m_i \vec{r}_i \times \vec{v}_i = constant
-
 $$
 
 
@@ -12506,9 +12266,7 @@ Another important property of celestial mechanics is the conservation of energy.
 
 
 $$
-
 E = \sum_{i=1}^N \frac{1}{2} m_i v_i^2 - G \sum_{i \neq j}^N \frac{m_i m_j}{|\vec{r}_i - \vec{r}_j|} = constant
-
 $$
 
 
@@ -12534,9 +12292,7 @@ The equations of motion for celestial bodies are inherently nonlinear. This is d
 
 
 $$
-
 \vec{F} = G \frac{m_1 m_2}{|\vec{r}_1 - \vec{r}_2|^2} \hat{r}_{12}
-
 $$
 
 
@@ -12574,9 +12330,7 @@ The fundamental equation governing stellar dynamics is the collisionless Boltzma
 
 
 $$
-
 \frac{df}{dt} = \frac{\partial f}{\partial t} + \vec{v} \cdot \frac{\partial f}{\partial \vec{r}} - \vec{F} \cdot \frac{\partial f}{\partial \vec{v}} = 0
-
 $$
 
 
@@ -12586,9 +12340,7 @@ where $f(\vec{r}, \vec{v}, t)$ is the distribution function, $\vec{r}$ and $\vec
 
 
 $$
-
 \nabla^2 \Phi = 4\pi G \rho
-
 $$
 
 
@@ -13162,9 +12914,7 @@ The properties of the plates, such as their density and thickness, play a crucia
 
 
 $$
-
 F = \rho_{plate} \cdot g \cdot V - \rho_{astheno} \cdot g \cdot V
-
 $$
 
 
@@ -13186,9 +12936,7 @@ The motion of the plates can be modeled using the principles of nonlinear dynami
 
 
 $$
-
 m \cdot a = F_{grav} + F_{buoy} - F_{res}
-
 $$
 
 
@@ -13222,9 +12970,7 @@ A nonlinear model of this process might take the form:
 
 
 $$
-
 \frac{dV}{dt} = k \cdot (\rho_{plate} - \rho_{astheno}) \cdot g \cdot V
-
 $$
 
 
@@ -13250,9 +12996,7 @@ A simple nonlinear wave equation that might be used to model this behavior is:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \cdot \frac{\partial^2 u}{\partial x^2} + \alpha \cdot u \cdot \left(\frac{\partial u}{\partial x}\right)^2
-
 $$
 
 
@@ -13294,9 +13038,7 @@ A simple model of seismic wave propagation might take the form:
 
 
 $$
-
 \frac{dA}{dt} = k \cdot (\rho_{layer} - \rho_{wave}) \cdot v \cdot A
-
 $$
 
 
@@ -13338,9 +13080,7 @@ For instance, the speed of a seismic wave is given by the equation:
 
 
 $$
-
 v = \sqrt{\frac{K}{\rho}}
-
 $$
 
 
@@ -13358,9 +13098,7 @@ When a seismic wave encounters a boundary between two different layers of the Ea
 
 
 $$
-
 \frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1}{v_2}
-
 $$
 
 
@@ -13378,9 +13116,7 @@ As seismic waves propagate through the Earth, they lose energy due to a process 
 
 
 $$
-
 Q = \frac{2\pi f}{\alpha}
-
 $$
 
 
@@ -13400,9 +13136,7 @@ to various factors such as absorption by the medium, scattering off inhomogeneit
 
 
 $$
-
 Q = \frac{2\pi f}{\alpha v}
-
 $$
 
 
@@ -13432,9 +13166,7 @@ The rupture process can be described by the equation of motion for a crack tip i
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2} + f(u)
-
 $$
 
 
@@ -13456,9 +13188,7 @@ The generation of seismic waves can be described by the elastodynamic wave equat
 
 
 $$
-
 \rho \frac{\partial^2 u}{\partial t^2} = \nabla \cdot \sigma + f
-
 $$
 
 
@@ -13506,9 +13236,7 @@ The basic equation for the motion of the magma in the conduit is:
 
 
 $$
-
 \rho \frac{\partial v}{\partial t} = -\frac{\partial P}{\partial z} - g\rho + \frac{\mu}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right)
-
 $$
 
 
@@ -13582,9 +13310,7 @@ The behavior of magma can be modeled as a nonlinear system due to the interplay 
 
 
 $$
-
 \mu = f(T, P, C, \dot{\gamma})
-
 $$
 
 
@@ -13602,9 +13328,7 @@ The dynamics of the volcanic conduit can also be modeled as a nonlinear system. 
 
 
 $$
-
 P = f(\rho, h, g, \mu, G)
-
 $$
 
 
@@ -13622,9 +13346,7 @@ The behavior of gases in a volcanic system is another example of nonlinear dynam
 
 
 $$
-
 V = f(P, T, dP/dt)
-
 $$
 
 
@@ -13654,9 +13376,7 @@ The evolution of landscapes is a complex process involving the interaction of va
 
 
 $$
-
 z = f(E, U, t)
-
 $$
 
 
@@ -13674,9 +13394,7 @@ River systems are another example where nonlinear dynamics play a crucial role. 
 
 
 $$
-
 Q = f(S, A, n, D)
-
 $$
 
 
@@ -13694,9 +13412,7 @@ Coastal processes, such as beach erosion and sediment transport, are also govern
 
 
 $$
-
 E = f(W, S, C, L)
-
 $$
 
 
@@ -13722,9 +13438,7 @@ Glacial systems are another area where nonlinear dynamics are prevalent. The mov
 
 
 $$
-
 G = f(I, S, B)
-
 $$
 
 
@@ -13742,9 +13456,7 @@ Soil erosion is a complex process that can be modeled using nonlinear dynamics. 
 
 
 $$
-
 E = f(R, K, S)
-
 $$
 
 
@@ -13762,9 +13474,7 @@ Volcanic systems are another example where nonlinear dynamics play a crucial rol
 
 
 $$
-
 V = f(P, V, D, G)
-
 $$
 
 
@@ -13790,9 +13500,7 @@ River systems are a prime example of nonlinear dynamics in geomorphology. The fl
 
 
 $$
-
 F = f(Q, S, R)
-
 $$
 
 
@@ -13810,9 +13518,7 @@ Coastal erosion is another complex process that can be modeled using nonlinear d
 
 
 $$
-
 E = f(W, S, K)
-
 $$
 
 
@@ -13830,9 +13536,7 @@ Mountain building, or orogenesis, is a process that can be modeled using nonline
 
 
 $$
-
 H = f(T, E, R)
-
 $$
 
 
@@ -14008,7 +13712,6 @@ The primitive equations are a set of seven equations that include three momentum
 
 
 $$
-
 \begin{align*}
 
 \frac{Du}{Dt} - fv &= -\frac{1}{\rho}\frac{\partial p}{\partial x} + F_x \\
@@ -14026,7 +13729,6 @@ $$
 \frac{Dq_l}{Dt} &= C - P
 
 \end{align*}
-
 $$
 
 
@@ -14368,9 +14070,7 @@ The water vapor feedback is an example of a positive feedback mechanism in the a
 
 
 $$
-
 \Delta T = \Delta T_0 + \lambda \Delta T
-
 $$
 
 
@@ -14400,9 +14100,7 @@ One example of a nonlinear wave in the atmosphere is the Rossby wave, which is a
 
 
 $$
-
 \frac{\partial \psi}{\partial t} + J(\psi, \nabla^2 \psi) = -\beta \frac{\partial \psi}{\partial x}
-
 $$
 
 
@@ -14428,9 +14126,7 @@ The Rossby wave, as mentioned in the previous section, is a large-scale wave dri
 
 
 $$
-
 \frac{\partial \psi}{\partial t} + J(\psi, \nabla^2 \psi) = -\beta \frac{\partial \psi}{\partial x}
-
 $$
 
 
@@ -14448,17 +14144,13 @@ Atmospheric convection is another area where nonlinear dynamics play a crucial r
 
 
 $$
-
 \frac{\partial u}{\partial t} + u \cdot \nabla u = -\nabla p + \nu \nabla^2 u + g \alpha (T - T_0)
-
 $$
 
 
 
 $$
-
 \frac{\partial T}{\partial t} + u \cdot \nabla T = \kappa \nabla^2 T
-
 $$
 
 
@@ -14476,9 +14168,7 @@ Atmospheric turbulence is a complex, chaotic phenomenon that is inherently nonli
 
 
 $$
-
 \frac{\partial u}{\partial t} + u \cdot \nabla u = -\nabla p + \nu \nabla^2 u
-
 $$
 
 
@@ -14516,25 +14206,19 @@ The equations used in weather forecasting are derived from the fundamental laws 
 
 
 $$
-
 \frac{\partial u}{\partial t} = -u \cdot \nabla u - \frac{1}{\rho} \nabla p + f \times u + g + R
-
 $$
 
 
 
 $$
-
 \frac{\partial T}{\partial t} = -u \cdot \nabla T + Q
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -u \cdot \nabla p + S
-
 $$
 
 
@@ -14842,9 +14526,7 @@ The conservation of mass is a fundamental principle in fluid dynamics that state
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -14862,9 +14544,7 @@ The conservation of momentum is another fundamental principle in fluid dynamics.
 
 
 $$
-
 \frac{D\mathbf{v}}{Dt} = -\frac{1}{\rho}\nabla p + \mathbf{g} - 2\mathbf{\Omega} \times \mathbf{v} + \nu \nabla^2 \mathbf{v}
-
 $$
 
 
@@ -14882,9 +14562,7 @@ The conservation of energy in ocean circulation involves the conversion between 
 
 
 $$
-
 \frac{D}{Dt} \left( \frac{1}{2} v^2 + gz + \frac{p}{\rho} \right) = \mathbf{v} \cdot \left( -\frac{1}{\rho}\nabla p + \mathbf{g} - 2\mathbf{\Omega} \times \mathbf{v} + \nu \nabla^2 \mathbf{v} \right)
-
 $$
 
 
@@ -14902,17 +14580,13 @@ The transport of heat and salt in the ocean is a crucial aspect of ocean circula
 
 
 $$
-
 \frac{D\theta}{Dt} = \kappa_T \nabla^2 \theta
-
 $$
 
 
 
 $$
-
 \frac{DS}{Dt} = \kappa_S \nabla^2 S
-
 $$
 
 
@@ -15232,7 +14906,6 @@ The mathematical representation of these nonlinear systems often involves the us
 
 
 $$
-
 \begin{aligned}
 
 &\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + f v = -g \frac{\partial h}{\partial x} + \nu \nabla^2 u, \\
@@ -15242,7 +14915,6 @@ $$
 &\frac{\partial h}{\partial t} + \frac{\partial (hu)}{\partial x} + \frac{\partial (hv)}{\partial y} = 0,
 
 \end{aligned}
-
 $$
 
 
@@ -15302,7 +14974,6 @@ For example, the Lotka-Volterra equations are commonly used to model the dynamic
 
 
 $$
-
 \begin{aligned}
 
 &\frac{dx}{dt} = ax - bxy, \\
@@ -15310,7 +14981,6 @@ $$
 &\frac{dy}{dt} = cxy - dy,
 
 \end{aligned}
-
 $$
 
 

@@ -191,9 +191,7 @@ In this chapter, we will start by defining what a fluid is and discussing its ba
 - Conservation of mass: 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 where $\rho$ is the fluid density, $t$ is time, $\nabla \cdot$ is the divergence operator, and $\mathbf{v}$ is the fluid velocity.
@@ -203,9 +201,7 @@ where $\rho$ is the fluid density, $t$ is time, $\nabla \cdot$ is the divergence
 - Conservation of momentum:
 
 $$
-
 \frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot (\rho \mathbf{v} \mathbf{v} + p\mathbf{I}) = \mathbf{f}
-
 $$
 
 where $p$ is the fluid pressure, $\mathbf{I}$ is the identity matrix, and $\mathbf{f}$ is the body force per unit volume.
@@ -215,9 +211,7 @@ where $p$ is the fluid pressure, $\mathbf{I}$ is the identity matrix, and $\math
 - Conservation of energy:
 
 $$
-
 \frac{\partial (\rho e)}{\partial t} + \nabla \cdot ((\rho e + p)\mathbf{v}) = \mathbf{v} \cdot \mathbf{f}
-
 $$
 
 where $e$ is the internal energy per unit mass.
@@ -255,9 +249,7 @@ The Eulerian description can be mathematically expressed as follows:
 - Eulerian velocity field:
 
 $$
-
 \mathbf{v}(\mathbf{x}, t) = \frac{d \mathbf{x}}{dt}
-
 $$
 
 where $\mathbf{v}$ is the fluid velocity, $\mathbf{x}$ is the position vector, and $t$ is time.
@@ -275,9 +267,7 @@ The Lagrangian description can be mathematically expressed as follows:
 - Lagrangian velocity field:
 
 $$
-
 \mathbf{v}(\mathbf{X}, t) = \frac{d \mathbf{X}}{dt}
-
 $$
 
 where $\mathbf{v}$ is the fluid velocity, $\mathbf{X}$ is the position vector of the fluid particle, and $t$ is time.
@@ -413,9 +403,7 @@ The strain rate tensor, often denoted as $S_{ij}$, is a key concept in describin
 
 
 $$
-
 S_{ij} = \frac{1}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} \right)
-
 $$
 
 
@@ -449,9 +437,7 @@ Mathematically, vorticity $\mathbf{\omega}$ is defined as the curl of the veloci
 
 
 $$
-
 \mathbf{\omega} = \nabla \times \mathbf{v}
-
 $$
 
 
@@ -465,9 +451,7 @@ In two dimensions, the vorticity is a scalar and the flow can be described by a 
 
 
 $$
-
 u = \frac{\partial \psi}{\partial y}, \quad v = -\frac{\partial \psi}{\partial x}, \quad \omega = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}
-
 $$
 
 
@@ -505,9 +489,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \phi \, dV = \int_{V(t)} \frac{\partial \phi}{\partial t} \, dV + \int_{S(t)} \phi \, (\mathbf{v} \cdot \mathbf{n}) \, dS
-
 $$
 
 
@@ -621,9 +603,7 @@ The total force acting on a fluid element can be obtained by integrating the bod
 
 
 $$
-
 \vec{F} = \int_{V} \vec{f} \, dV + \int_{S} \vec{t} \, dS
-
 $$
 
 
@@ -645,9 +625,7 @@ In a moving fluid, however, the stress tensor is not isotropic due to the additi
 
 
 $$
-
 \sigma = -pI + \tau
-
 $$
 
 
@@ -665,9 +643,7 @@ Cauchy's law provides a relationship between the stress tensor and the forces ac
 
 
 $$
-
 d\vec{F} = \sigma \cdot d\vec{A}
-
 $$
 
 
@@ -680,16 +656,13 @@ In the next section, we will delve into the implications of Cauchy's law and its
 
 
 
-```
 
 acting on a differential fluid element is equal to the surface integral of the stress tensor over the fluid element's surface. Mathematically, this is represented as:
 
 
 
 $$
-
 \vec{F} = \int_{S} \sigma \cdot \vec{n} \, dS
-
 $$
 
 
@@ -732,8 +705,6 @@ Furthermore, environmental flows are often turbulent, which adds another layer o
 
 Despite these challenges, advances in computational fluid dynamics (CFD) and the availability of high-performance computing resources have made it possible to simulate environmental flows with increasing accuracy. These simulations provide valuable insights into the behavior of environmental flows and help in the development of strategies for managing and protecting our water resources.
 
-```
-
 
 
 ### Section: 1.4 Forces in the Fluid, Stresses and Cauchy’s Law:
@@ -757,9 +728,7 @@ Mathematically, Cauchy's law can be expressed as:
 
 
 $$
-
 \sigma = -pI + \mu (\nabla \vec{v} + (\nabla \vec{v})^T)
-
 $$
 
 
@@ -797,9 +766,7 @@ The momentum equation for a fluid in three dimensions is given by:
 
 
 $$
-
 \rho \frac{D \vec{v}}{Dt} = -\nabla p + \mu \nabla^2 \vec{v} + \rho \vec{g}
-
 $$
 
 
@@ -925,7 +892,6 @@ The stress tensor $\sigma$ in a fluid can be represented as:
 
 
 $$
-
 \sigma = 
 
 \begin{bmatrix}
@@ -937,7 +903,6 @@ $$
 \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -955,7 +920,6 @@ Strain, on the other hand, is a measure of deformation representing the displace
 
 
 $$
-
 \epsilon = 
 
 \begin{bmatrix}
@@ -967,7 +931,6 @@ $$
 \epsilon_{zx} & \epsilon_{zy} & \epsilon_{zz} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -997,9 +960,7 @@ The general form of the Navier-Stokes equations can be written as:
 
 
 $$
-
 \frac{\partial \vec{u}}{\partial t} + (\vec{u} \cdot \nabla) \vec{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \vec{u} + \vec{g}
-
 $$
 
 
@@ -1205,9 +1166,7 @@ The vorticity transport theorem for homogeneous fluids, also known as the Helmho
 
 
 $$
-
 \frac{D\mathbf{\omega}}{Dt} = (\mathbf{\omega} \cdot \nabla) \mathbf{v} + \nu \nabla^2 \mathbf{\omega}
-
 $$
 
 
@@ -1249,9 +1208,7 @@ The potential vorticity `$q$` is defined as the product of the relative vorticit
 
 
 $$
-
 q = \mathbf{\omega} \cdot \frac{\partial \rho}{\partial z}
-
 $$
 
 
@@ -1305,9 +1262,7 @@ The generation of vorticity in this problem can be understood by considering the
 
 
 $$
-
 \frac{D\omega}{Dt} = \nu \nabla^2 \omega + (\omega \cdot \nabla) \mathbf{u}
-
 $$
 
 
@@ -1337,9 +1292,7 @@ To understand this, let's consider the vorticity equation again:
 
 
 $$
-
 \frac{D\omega}{Dt} = \nu \nabla^2 \omega + (\omega \cdot \nabla) \mathbf{u}
-
 $$
 
 
@@ -1385,9 +1338,7 @@ The vorticity $\omega$ at the plate surface can be calculated using the formula:
 
 
 $$
-
 \omega = \nabla \times \mathbf{u}
-
 $$
 
 
@@ -1397,9 +1348,7 @@ where $\mathbf{u}$ is the velocity field of the fluid. In this case, $\mathbf{u}
 
 
 $$
-
 \omega = \frac{dU}{dy}
-
 $$
 
 
@@ -1421,9 +1370,7 @@ The vorticity at the plate surface can be calculated as:
 
 
 $$
-
 \omega = \frac{dU}{dy} = U_0 \omega \cos(\omega t)
-
 $$
 
 
@@ -1457,9 +1404,7 @@ For example, the Reynolds number $Re$ is a dimensionless number that represents 
 
 
 $$
-
 Re = \frac{\rho U L}{\mu}
-
 $$
 
 
@@ -1477,9 +1422,7 @@ Another important dimensionless number in fluid dynamics is the Froude number $F
 
 
 $$
-
 Fr = \frac{U}{\sqrt{gL}}
-
 $$
 
 
@@ -1509,9 +1452,7 @@ For instance, in many environmental flows, the vertical scale of motion is much 
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -1597,9 +1538,7 @@ In order to model the slow spreading of a mud layer on an incline, we need to co
 
 
 $$
-
 \frac{\partial h}{\partial t} + \frac{\partial (hu)}{\partial x} = 0
-
 $$
 
 
@@ -1613,9 +1552,7 @@ The conservation of momentum can be expressed as:
 
 
 $$
-
 \frac{\partial (hu)}{\partial t} + \frac{\partial (hu^2 + \frac{1}{2}gh^2)}{\partial x} = gh\sin(\theta) - \mu \frac{hu}{h}
-
 $$
 
 
@@ -1629,9 +1566,7 @@ These equations are coupled and nonlinear, which makes them difficult to solve a
 
 
 $$
-
 \frac{\partial h}{\partial t} = -\frac{\partial (hu)}{\partial x}
-
 $$
 
 
@@ -1641,9 +1576,7 @@ and
 
 
 $$
-
 \frac{\partial u}{\partial t} = g\sin(\theta) - \frac{\mu u}{h}
-
 $$
 
 
@@ -1705,9 +1638,7 @@ The process of selective withdrawal can be described mathematically using the pr
 
 
 $$
-
 Q = \int_{z_0}^{z_0 + h} u(z) dz
-
 $$
 
 
@@ -1745,9 +1676,7 @@ Mathematically, the boundary layer approximation simplifies the Navier-Stokes eq
 
 
 $$
-
 \rho \left(\frac{\partial u}{\partial t} + u \cdot \nabla u\right) = -\nabla p + \mu \nabla^2 u
-
 $$
 
 
@@ -1761,9 +1690,7 @@ Under the boundary layer approximation, the Navier-Stokes equations reduce to:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \nu \frac{\partial^2 u}{\partial z^2}
-
 $$
 
 
@@ -1797,9 +1724,7 @@ Mathematically, the similarity solution is obtained by introducing a similarity 
 
 
 $$
-
 \eta = \frac{z}{\sqrt{\nu t}}
-
 $$
 
 
@@ -1813,9 +1738,7 @@ Substituting these expressions into the boundary layer equation, we obtain the f
 
 
 $$
-
 f''(\eta) + \frac{1}{2} \eta f'(\eta) = 0
-
 $$
 
 
@@ -1829,9 +1752,7 @@ The similarity solution provides valuable insights into the process of selective
 
 
 $$
-
 Q = \int_0^\infty u(z) dz = \sqrt{\nu t} \int_0^\infty f(\eta) d\eta
-
 $$
 
 
@@ -1857,9 +1778,7 @@ Stokes flow, also known as creeping flow or low Reynolds number flow, is a type 
 
 
 $$
-
 Re = \frac{\rho u L}{\mu} << 1
-
 $$
 
 
@@ -1877,9 +1796,7 @@ The problem of Stokes flow past a sphere was first solved by George Gabriel Stok
 
 
 $$
-
 u(r) = \frac{2}{3} U \left(1 - \frac{a^3}{r^3}\right)
-
 $$
 
 
@@ -1893,9 +1810,7 @@ Stokes' solution also allows us to calculate the drag force experienced by the s
 
 
 $$
-
 F_d = 6 \pi \mu a U
-
 $$
 
 
@@ -1917,9 +1832,7 @@ The governing equation for Stokes flow is the Stokes equation, which is a linear
 
 
 $$
-
 -\mu \nabla^2 u + \nabla p = 0
-
 $$
 
 
@@ -1933,9 +1846,7 @@ To solve this equation for the flow past a sphere, we need to impose appropriate
 
 
 $$
-
 u(r=a) = U, \quad u(r \to \infty) = 0
-
 $$
 
 
@@ -1945,9 +1856,7 @@ Solving the Stokes equation with these boundary conditions yields the solution g
 
 
 $$
-
 u(r) = \frac{2}{3} U \left(1 - \frac{a^3}{r^3}\right)
-
 $$
 
 
@@ -1961,9 +1870,7 @@ The drag force on the sphere can be calculated by integrating the stress tensor 
 
 
 $$
-
 \sigma = -pI + \mu (\nabla u + (\nabla u)^T)
-
 $$
 
 
@@ -1973,9 +1880,7 @@ where $I$ is the identity matrix and $T$ denotes the transpose. The drag force i
 
 
 $$
-
 F_d = \int_S \sigma \cdot n \, dS
-
 $$
 
 
@@ -1985,9 +1890,7 @@ where $S$ is the surface of the sphere and $n$ is the outward unit normal vector
 
 
 $$
-
 F_d = 6 \pi \mu a U
-
 $$
 
 
@@ -2017,9 +1920,7 @@ Consider a small spherical particle of radius $a$ and density $\rho_p$ suspended
 
 
 $$
-
 F_g = \frac{4}{3} \pi a^3 (\rho_p - \rho_f) g
-
 $$
 
 
@@ -2029,9 +1930,7 @@ where $g$ is the acceleration due to gravity. According to Stokes' law, the drag
 
 
 $$
-
 F_d = 6 \pi \mu a U
-
 $$
 
 
@@ -2041,9 +1940,7 @@ At terminal velocity, the gravitational force is balanced by the drag force, so 
 
 
 $$
-
 F_g = F_d
-
 $$
 
 
@@ -2053,9 +1950,7 @@ Solving this equation for the terminal velocity $U$ yields:
 
 
 $$
-
 U = \frac{2}{9} \frac{a^2 g (\rho_p - \rho_f)}{\mu}
-
 $$
 
 
@@ -2109,9 +2004,7 @@ The gravitational force on an aerosol particle is given by:
 
 
 $$
-
 F_g = \frac{4}{3} \pi a^3 (\rho_p - \rho_f) g
-
 $$
 
 
@@ -2125,9 +2018,7 @@ The buoyant force on the particle is equal to the weight of the displaced fluid:
 
 
 $$
-
 F_b = \frac{4}{3} \pi a^3 \rho_f g
-
 $$
 
 
@@ -2137,9 +2028,7 @@ The drag force on the particle, according to Stokes' law, is:
 
 
 $$
-
 F_d = 6 \pi \mu a U
-
 $$
 
 
@@ -2153,9 +2042,7 @@ At terminal velocity, the sum of the gravitational and buoyant forces is balance
 
 
 $$
-
 F_g - F_b = F_d
-
 $$
 
 
@@ -2165,9 +2052,7 @@ Solving this equation for the terminal velocity $U$ yields:
 
 
 $$
-
 U = \frac{2}{9} \frac{a^2 g (\rho_p - \rho_f)}{\mu}
-
 $$
 
 
@@ -2180,7 +2065,7 @@ In the next section, we will discuss some of the environmental implications of a
 
 
 
-```
+
 
 #### 2.7b Aerosol Mechanics in Fluid Dynamics
 
@@ -2199,9 +2084,7 @@ The transport of aerosols in a fluid is governed by advection and diffusion. Adv
 
 
 $$
-
 \frac{\partial C}{\partial t} + \nabla \cdot (UC) = 0
-
 $$
 
 
@@ -2215,9 +2098,7 @@ Diffusion, on the other hand, refers to the random motion of aerosols due to col
 
 
 $$
-
 J = -D \nabla C
-
 $$
 
 
@@ -2235,9 +2116,7 @@ The deposition of aerosols onto surfaces is influenced by several factors, inclu
 
 
 $$
-
 V_d = \frac{1}{R_a + R_b + R_c}
-
 $$
 
 
@@ -2248,7 +2127,7 @@ where $R_a$ is the aerodynamic resistance, $R_b$ is the Brownian diffusion resis
 
 In conclusion, the mechanics of aerosols in fluid dynamics involves a complex interplay of forces and processes. Understanding these mechanics can help us predict the behavior of aerosols in the environment, which has important implications for air quality, climate, and human health.
 
-```
+
 
 
 
@@ -2361,17 +2240,13 @@ Assuming the flow is steady, inviscid, irrotational, and incompressible, the vel
 
 
 $$
-
 \phi = U r cos(\theta)
-
 $$
 
 
 
 $$
-
 \psi = U r sin(\theta)
-
 $$
 
 
@@ -2393,9 +2268,7 @@ In the idealized case of inviscid irrotational flow, the lift can be calculated 
 
 
 $$
-
 L' = \rho U \Gamma
-
 $$
 
 
@@ -2425,9 +2298,7 @@ Bernoulli's theorem can be stated as follows: In an inviscid, incompressible flo
 
 
 $$
-
 p + \frac{1}{2}\rho v^2 + \rho gh = constant
-
 $$
 
 
@@ -2513,9 +2384,7 @@ The velocity at the upstream section ($v_1$) and at the throat ($v_2$) are relat
 
 
 $$
-
 A_1v_1 = A_2v_2
-
 $$
 
 
@@ -2529,9 +2398,7 @@ From Bernoulli's theorem, the pressure difference is given by:
 
 
 $$
-
 \Delta P = \frac{1}{2}\rho(v_2^2 - v_1^2)
-
 $$
 
 
@@ -2553,9 +2420,7 @@ The pressure difference between the top and bottom surfaces of the airfoil is gi
 
 
 $$
-
 \Delta P = \frac{1}{2}\rho(v_{top}^2 - v_{bottom}^2)
-
 $$
 
 
@@ -2569,9 +2434,7 @@ Assuming the airfoil shape causes the air on the top surface to travel twice the
 
 
 $$
-
 L = \Delta P \cdot c
-
 $$
 
 
@@ -2625,9 +2488,7 @@ The growth of the boundary layer can be described by the equation:
 
 
 $$
-
 \delta = \sqrt{\frac{2x\nu}{v_0}}
-
 $$
 
 
@@ -2661,9 +2522,7 @@ The velocity profile of a laminar jet is a critical aspect of its behavior. As w
 
 
 $$
-
 u = v_0 \left(1 - \frac{y}{\delta}\right)^{1/2}
-
 $$
 
 

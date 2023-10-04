@@ -707,9 +707,7 @@ Another important concept is the equilibrium constant ($K$), which is a measure 
 
 
 $$
-
 \Delta G = -RT \ln K
-
 $$
 
 
@@ -789,9 +787,7 @@ Mathematically, the First Law of Thermodynamics can be expressed as:
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -825,9 +821,7 @@ Mathematically, the Second Law of Thermodynamics can be expressed as:
 
 
 $$
-
 \Delta S_{total} = \Delta S_{system} + \Delta S_{surroundings} \geq 0
-
 $$
 
 
@@ -865,9 +859,7 @@ Mathematically, the Third Law of Thermodynamics can be expressed as:
 
 
 $$
-
 S(T=0) = 0
-
 $$
 
 
@@ -909,9 +901,7 @@ For instance, the melting of ice into water is an endothermic process, meaning i
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -995,9 +985,7 @@ Calculate the change in Gibbs free energy for a reaction given the following dat
 Use the formula: 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -1073,9 +1061,7 @@ Calculate the change in Gibbs free energy for a reaction given the following dat
 Use the formula: 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -1141,9 +1127,7 @@ Gibbs Free Energy (G) is defined as the energy associated with a chemical reacti
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -1165,9 +1149,7 @@ The change in Gibbs Free Energy ($\Delta G$) for a reaction at constant temperat
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -1203,9 +1185,7 @@ The equilibrium constant is a measure of the ratio of the concentrations of prod
 
 
 $$
-
 aA + bB \rightarrow cC + dD
-
 $$
 
 
@@ -1215,9 +1195,7 @@ The equilibrium constant ($K$) is given by:
 
 
 $$
-
 K = \frac{[C]^c [D]^d}{[A]^a [B]^b}
-
 $$
 
 
@@ -1235,9 +1213,7 @@ The relationship between $\Delta G$ and $K$ is given by the equation:
 
 
 $$
-
 \Delta G = -RT \ln K
-
 $$
 
 
@@ -1275,9 +1251,7 @@ The solubility of a substance in water is determined by the equilibrium between 
 
 
 $$
-
 \text{Solute (solid)} \rightarrow \text{Solute (aqueous)}
-
 $$
 
 
@@ -1287,9 +1261,7 @@ The equilibrium constant ($K_{sp}$), also known as the solubility product, is gi
 
 
 $$
-
 K_{sp} = [\text{Solute (aqueous)}]
-
 $$
 
 
@@ -1299,9 +1271,7 @@ The relationship between $\Delta G$ and $K_{sp}$ is given by the equation:
 
 
 $$
-
 \Delta G = -RT \ln K_{sp}
-
 $$
 
 
@@ -1319,9 +1289,7 @@ Ion speciation refers to the distribution of different forms of an ion in an aqu
 
 
 $$
-
 \text{Ion}_1 \rightarrow \text{Ion}_2
-
 $$
 
 
@@ -1331,9 +1299,7 @@ The equilibrium constant ($K_{spec}$) is given by:
 
 
 $$
-
 K_{spec} = \frac{[\text{Ion}_2]}{[\text{Ion}_1]}
-
 $$
 
 
@@ -1343,9 +1309,7 @@ The relationship between $\Delta G$ and $K_{spec}$ is given by the equation:
 
 
 $$
-
 \Delta G = -RT \ln K_{spec}
-
 $$
 
 
@@ -1363,9 +1327,7 @@ Redox reactions involve the transfer of electrons from one species to another. I
 
 
 $$
-
 \text{Oxidant} + \text{Reductant} \rightarrow \text{Products}
-
 $$
 
 
@@ -1375,9 +1337,7 @@ The equilibrium constant ($K_{redox}$) is given by:
 
 
 $$
-
 K_{redox} = \frac{[\text{Products}]}{[\text{Oxidant}][\text{Reductant}]}
-
 $$
 
 
@@ -1387,9 +1347,7 @@ The relationship between $\Delta G$ and $K_{redox}$ is given by the equation:
 
 
 $$
-
 \Delta G = -RT \ln K_{redox}
-
 $$
 
 
@@ -1415,9 +1373,7 @@ Mathematically, for a system with multiple chemical species, the chemical potent
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial N_i}\right)_{T,P,N_j}
-
 $$
 
 
@@ -1455,9 +1411,7 @@ Mathematically, for a system at equilibrium, the chemical potential of each spec
 
 
 $$
-
 \mu_i = \mu_i^{eq}
-
 $$
 
 
@@ -1471,9 +1425,7 @@ This condition of constant chemical potential at equilibrium leads to the import
 
 
 $$
-
 \mu_{solid} = \mu_{dissolved}
-
 $$
 
 
@@ -1503,9 +1455,7 @@ The chemical potential of a species in an aqueous solution can be expressed as:
 
 
 $$
-
 \mu_i = \mu_i^0 + RT \ln a_i
-
 $$
 
 
@@ -1551,9 +1501,7 @@ The equilibrium constant is typically denoted as $K$ and can be expressed for a 
 
 
 $$
-
 aA + bB \rightleftharpoons cC + dD
-
 $$
 
 
@@ -1563,9 +1511,7 @@ where $A$ and $B$ are the reactants, $C$ and $D$ are the products, and $a$, $b$,
 
 
 $$
-
 K = \frac{[C]^c [D]^d}{[A]^a [B]^b}
-
 $$
 
 
@@ -1595,9 +1541,7 @@ Let's consider a hypothetical reaction:
 
 
 $$
-
 aA + bB \rightleftharpoons cC + dD
-
 $$
 
 
@@ -1607,9 +1551,7 @@ Suppose we know the initial concentrations of $A$ and $B$, denoted as $[A]_0$ an
 
 
 $$
-
 Q = \frac{[C]_0^c [D]_0^d}{[A]_0^a [B]_0^b}
-
 $$
 
 
@@ -1619,27 +1561,19 @@ As the reaction proceeds towards equilibrium, the concentrations of $A$ and $B$ 
 
 
 $$
-
 [A] = [A]_0 - ax
-
 $$
 
 $$
-
 [B] = [B]_0 - bx
-
 $$
 
 $$
-
 [C] = [C]_0 + cx
-
 $$
 
 $$
-
 [D] = [D]_0 + dx
-
 $$
 
 
@@ -1649,9 +1583,7 @@ We can then substitute these expressions into the equilibrium constant expressio
 
 
 $$
-
 K = \frac{([C]_0 + cx)^c ([D]_0 + dx)^d}{([A]_0 - ax)^a ([B]_0 - bx)^b}
-
 $$
 
 
@@ -1677,9 +1609,7 @@ Let's consider an example of a simple acid-base reaction in water:
 
 
 $$
-
 HA \rightleftharpoons H^+ + A^-
-
 $$
 
 
@@ -1689,9 +1619,7 @@ The equilibrium constant for this reaction, known as the acid dissociation const
 
 
 $$
-
 K_a = \frac{[H^+][A^-]}{[HA]}
-
 $$
 
 
@@ -1701,9 +1629,7 @@ In the case of water, the self-ionization reaction is of particular importance:
 
 
 $$
-
 H_2O \rightleftharpoons H^+ + OH^-
-
 $$
 
 
@@ -1713,9 +1639,7 @@ The equilibrium constant for this reaction, known as the water dissociation cons
 
 
 $$
-
 K_w = [H^+][OH^-]
-
 $$
 
 
@@ -1729,9 +1653,7 @@ In the case of solubility equilibria, the equilibrium constant is known as the s
 
 
 $$
-
 AB \rightleftharpoons A^+ + B^-
-
 $$
 
 
@@ -1741,9 +1663,7 @@ The solubility product constant is given by:
 
 
 $$
-
 K_{sp} = [A^+][B^-]
-
 $$
 
 
@@ -1753,9 +1673,7 @@ In complexation reactions, the equilibrium constant is known as the formation co
 
 
 $$
-
 A^+ + B^- \rightleftharpoons AB
-
 $$
 
 
@@ -1765,9 +1683,7 @@ The formation constant is given by:
 
 
 $$
-
 K_f = \frac{[AB]}{[A^+][B^-]}
-
 $$
 
 
@@ -1797,9 +1713,7 @@ For example, consider the acid-base reaction we discussed earlier:
 
 
 $$
-
 HA \rightleftharpoons H^+ + A^-
-
 $$
 
 
@@ -1809,9 +1723,7 @@ The equilibrium constant for this reaction is given by:
 
 
 $$
-
 K_a = \frac{[H^+][A^-]}{[HA]}
-
 $$
 
 
@@ -1821,9 +1733,7 @@ If we assume that the concentration of $HA$ is much larger than the concentratio
 
 
 $$
-
 K_a \approx \frac{[H^+][A^-]}{[HA_0]}
-
 $$
 
 
@@ -1853,9 +1763,7 @@ For example, consider the following equilibrium reaction:
 
 
 $$
-
 AB \rightleftharpoons A^+ + B^-
-
 $$
 
 
@@ -1865,9 +1773,7 @@ The equilibrium constant for this reaction is given by:
 
 
 $$
-
 K = \frac{[A^+][B^-]}{[AB]}
-
 $$
 
 
@@ -1877,9 +1783,7 @@ If we let $x$ represent the change in concentration of $A^+$ and $B^-$, and $[AB
 
 
 $$
-
 K = \frac{(x)(x)}{[AB_0] - x}
-
 $$
 
 
@@ -1889,9 +1793,7 @@ If $x$ is less than 5% of $[AB_0]$, then we can approximate the equilibrium expr
 
 
 $$
-
 K \approx \frac{x^2}{[AB_0]}
-
 $$
 
 
@@ -1905,9 +1807,7 @@ However, it's important to note that this approximation is only valid if the cha
 
 
 $$
-
 \text{Percent change} = \frac{x}{[AB_0]} \times 100\%
-
 $$
 
 
@@ -1937,9 +1837,7 @@ Consider the dissociation of water, a fundamental reaction in aquatic chemistry:
 
 
 $$
-
 H_2O \rightleftharpoons H^+ + OH^-
-
 $$
 
 
@@ -1949,9 +1847,7 @@ The equilibrium constant for this reaction, known as the ion product of water, i
 
 
 $$
-
 K_w = [H^+][OH^-]
-
 $$
 
 
@@ -1961,9 +1857,7 @@ At 25°C, the value of $K_w$ is $1.0 \times 10^{-14}$. If we let $x$ represent t
 
 
 $$
-
 K_w = x^2
-
 $$
 
 
@@ -1985,9 +1879,7 @@ Consider the equilibrium reaction of bicarbonate ion ($HCO_3^-$) in seawater:
 
 
 $$
-
 HCO_3^- \rightleftharpoons H^+ + CO_3^{2-}
-
 $$
 
 
@@ -1997,9 +1889,7 @@ The equilibrium constant for this reaction is given by:
 
 
 $$
-
 K_a = \frac{[H^+][CO_3^{2-}]}{[HCO_3^-]}
-
 $$
 
 
@@ -2009,9 +1899,7 @@ If we let $x$ represent the change in concentration of $H^+$ and $CO_3^{2-}$, an
 
 
 $$
-
 K_a = \frac{x^2}{[HCO_3^-_0] - x}
-
 $$
 
 
@@ -2021,9 +1909,7 @@ In this case, the approximation method can be used to simplify the equilibrium e
 
 
 $$
-
 K_a \approx \frac{x^2}{[HCO_3^-_0]}
-
 $$
 
 
@@ -2061,9 +1947,7 @@ For example, consider the equilibrium reaction of bicarbonate ion ($HCO_3^-$) in
 
 
 $$
-
 HCO_3^- \rightleftharpoons H^+ + CO_3^{2-}
-
 $$
 
 
@@ -2089,9 +1973,7 @@ Let's continue with the example of the bicarbonate ion ($HCO_3^-$) in seawater. 
 
 
 $$
-
 H_2CO_3 \rightleftharpoons H^+ + HCO_3^-
-
 $$
 
 
@@ -2101,9 +1983,7 @@ and
 
 
 $$
-
 HCO_3^- \rightleftharpoons H^+ + CO_3^{2-}
-
 $$
 
 
@@ -2113,25 +1993,19 @@ The equilibrium constants for these reactions are $K_1$ and $K_2$, respectively.
 
 
 $$
-
 [H_2CO_3] = \frac{[H^+][HCO_3^-]}{K_1}
-
 $$
 
 
 
 $$
-
 [HCO_3^-] = \frac{[H^+][CO_3^{2-}]}{K_2}
-
 $$
 
 
 
 $$
-
 [CO_3^{2-}] = \frac{K_2}{[H^+]}
-
 $$
 
 
@@ -2333,9 +2207,7 @@ The relationship between temperature and the equilibrium constant is given by th
 
 
 $$
-
 \frac{d \ln K}{dT} = \frac{\Delta H}{RT^2}
-
 $$
 
 
@@ -2369,9 +2241,7 @@ Let's consider a simple reaction:
 
 
 $$
-
 A \leftrightarrow B
-
 $$
 
 
@@ -2385,9 +2255,7 @@ For example, let's say we have a reaction with $\Delta H = -10 \, kJ/mol$ (an ex
 
 
 $$
-
 \Delta \ln K = \frac{\Delta H}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right)
-
 $$
 
 
@@ -2397,9 +2265,7 @@ Substituting the given values:
 
 
 $$
-
 \Delta \ln K = \frac{-10 \times 10^3 \, J/mol}{8.314 \, J/(mol \cdot K)} \left( \frac{1}{300 \, K} - \frac{1}{310 \, K} \right)
-
 $$
 
 
@@ -2437,9 +2303,7 @@ Temperature can also affect the rates of chemical reactions in water. According 
 
 
 $$
-
 k = A \exp\left(-\frac{E_a}{RT}\right)
-
 $$
 
 
@@ -2481,9 +2345,7 @@ For example, consider the following reaction in an aquatic system:
 
 
 $$
-
 2H_2O(g) \leftrightarrow 2H_2(g) + O_2(g)
-
 $$
 
 
@@ -2509,9 +2371,7 @@ To quantitatively analyze the effects of pressure on equilibrium, we can use the
 
 
 $$
-
 PV = nRT
-
 $$
 
 
@@ -2535,9 +2395,7 @@ From the ideal gas law, we can derive the expression for the reaction quotient, 
 
 
 $$
-
 aA(g) + bB(g) \leftrightarrow cC(g) + dD(g)
-
 $$
 
 
@@ -2547,9 +2405,7 @@ The reaction quotient, Q, is given by:
 
 
 $$
-
 Q = \frac{([C]^c [D]^d)}{([A]^a [B]^b)}
-
 $$
 
 
@@ -2563,9 +2419,7 @@ When a system is at equilibrium, the reaction quotient Q equals the equilibrium 
 
 
 $$
-
 K = \frac{([C]^c_{eq} [D]^d_{eq})}{([A]^a_{eq} [B]^b_{eq})}
-
 $$
 
 
@@ -2591,9 +2445,7 @@ In aquatic systems, the effects of pressure on equilibrium are more complex due 
 
 
 $$
-
 C = kP
-
 $$
 
 
@@ -2617,9 +2469,7 @@ For example, consider the following reaction involving dissolved oxygen (O2) and
 
 
 $$
-
 4Fe^{2+}(aq) + O2(g) + 4H^+(aq) \leftrightarrow 4Fe^{3+}(aq) + 2H2O(l)
-
 $$
 
 
@@ -2633,9 +2483,7 @@ In addition to affecting the solubility of gases, pressure can also influence th
 
 
 $$
-
 a_i = \gamma_i [i]
-
 $$
 
 
@@ -2667,9 +2515,7 @@ Ionic strength is a measure of the total concentration of ions in a solution. It
 
 
 $$
-
 I = \frac{1}{2} \sum_{i=1}^{n} c_i z_i^2
-
 $$
 
 
@@ -2689,9 +2535,7 @@ Ionic strength is an important factor in determining the activity coefficients o
 
 
 $$
-
 a_i = \gamma_i [i]
-
 $$
 
 
@@ -2715,9 +2559,7 @@ Consider the following equilibrium reaction involving the bicarbonate ion (HCO3-
 
 
 $$
-
 HCO3^-(aq) + H^+(aq) \leftrightarrow H2CO3(aq)
-
 $$
 
 
@@ -2739,9 +2581,7 @@ To quantitatively analyze the effects of ionic strength on equilibrium, we can u
 
 
 $$
-
 \log \gamma_i = -0.51 z_i^2 \sqrt{I}
-
 $$
 
 
@@ -2765,9 +2605,7 @@ However, the Debye-Hückel limiting law is only accurate for solutions with low 
 
 
 $$
-
 \log \gamma_i = -0.51 z_i^2 \frac{\sqrt{I}}{1 + a_i \sqrt{I}}
-
 $$
 
 
@@ -2785,9 +2623,7 @@ Let's consider again the equilibrium reaction involving the bicarbonate ion (HCO
 
 
 $$
-
 HCO3^-(aq) + H^+(aq) \leftrightarrow H2CO3(aq)
-
 $$
 
 
@@ -2817,9 +2653,7 @@ For example, consider the solubility equilibrium of calcite (CaCO3) in water:
 
 
 $$
-
 CaCO3(s) \leftrightarrow Ca^{2+}(aq) + CO3^{2-}(aq)
-
 $$
 
 
@@ -2829,9 +2663,7 @@ The solubility product constant ($K_{sp}$) for this reaction is given by:
 
 
 $$
-
 K_{sp} = [Ca^{2+}][CO3^{2-}]
-
 $$
 
 
@@ -3061,9 +2893,7 @@ Water can undergo a process called autoionization or self-ionization, where two 
 
 
 $$
-
 2H_2O \leftrightarrow H_3O^+ + OH^-
-
 $$
 
 
@@ -3081,17 +2911,13 @@ The pH of a solution is a measure of the concentration of hydronium ions, while 
 
 
 $$
-
 pH = -\log[H_3O^+]
-
 $$
 
 
 
 $$
-
 pOH = -\log[OH^-]
-
 $$
 
 
@@ -3249,9 +3075,7 @@ The conductivity of a solution can be measured using a conductivity meter, which
 
 
 $$
-
 \sigma = \frac{I}{V \cdot d}
-
 $$
 
 
@@ -3273,9 +3097,7 @@ For example, the freezing point depression is given by the formula:
 
 
 $$
-
 \Delta T_f = K_f \cdot m
-
 $$
 
 
@@ -3309,9 +3131,7 @@ The strength of these interactions can be quantified using Coulomb's law:
 
 
 $$
-
 F = k \frac{q_1 q_2}{r^2}
-
 $$
 
 
@@ -3361,9 +3181,7 @@ The activity coefficient ($\gamma$) is defined as the ratio of the activity ($a$
 
 
 $$
-
 \gamma = \frac{a}{c}
-
 $$
 
 
@@ -3373,9 +3191,7 @@ The activity of a solute is a measure of its "effective" concentration, taking i
 
 
 $$
-
 a = \gamma c
-
 $$
 
 
@@ -3401,9 +3217,7 @@ The calculation of activity coefficients is a critical aspect of understanding t
 
 
 $$
-
 I = \frac{1}{2} \sum_i c_i z_i^2
-
 $$
 
 
@@ -3413,9 +3227,7 @@ For dilute solutions, the Debye-Hückel theory provides a simple and effective m
 
 
 $$
-
 \log \gamma = -A z^2 \sqrt{I}
-
 $$
 
 
@@ -3453,9 +3265,7 @@ For instance, the activity coefficient is used in the calculation of the equilib
 
 
 $$
-
 K = \frac{[C]^c [D]^d}{[A]^a [B]^b}
-
 $$
 
 
@@ -3465,9 +3275,7 @@ where $[A]$, $[B]$, $[C]$, and $[D]$ are the molar concentrations of the reactan
 
 
 $$
-
 K = \frac{\gamma_C^c [C]^c \gamma_D^d [D]^d}{\gamma_A^a [A]^a \gamma_B^b [B]^b}
-
 $$
 
 
@@ -3481,9 +3289,7 @@ Furthermore, activity coefficients play a crucial role in the calculation of the
 
 
 $$
-
 \Pi = nRTV
-
 $$
 
 
@@ -3493,9 +3299,7 @@ where $n$ is the number of moles of solute, $R$ is the gas constant, $T$ is the 
 
 
 $$
-
 \Pi = \gamma nRTV
-
 $$
 
 
@@ -3653,9 +3457,7 @@ The theory is based on the Poisson-Boltzmann equation for the electric potential
 
 
 $$
-
 \log \gamma_{\pm} = - \frac{z_{+}z_{-}e^{2}}{8.3145T} \left( \frac{I}{\sqrt{1 + a\sqrt{I}}} \right)
-
 $$
 
 
@@ -3681,9 +3483,7 @@ The Debye-Huckel limiting law provides an expression for the mean activity coeff
 
 
 $$
-
 \log \gamma_{\pm} = - \frac{z_{+}z_{-}e^{2}}{8.3145T} \left( \frac{I}{\sqrt{1 + a\sqrt{I}}} \right)
-
 $$
 
 
@@ -3697,9 +3497,7 @@ The Debye-Huckel limiting law allows us to calculate the activity coefficients o
 
 
 $$
-
 a_{i} = [\text{i}]\gamma_{i}
-
 $$
 
 
@@ -3869,9 +3667,7 @@ As we navigate through this chapter, we will use various mathematical equations 
 
 
 $$
-
 CO2 + H2O \leftrightarrow H2CO3 \leftrightarrow HCO3^- + H^+ \leftrightarrow CO3^{2-} + 2H^+
-
 $$
 
 
@@ -3881,9 +3677,7 @@ And the calculation of alkalinity might involve equations like:
 
 
 $$
-
 Alkalinity = [HCO3^-] + 2[CO3^{2-}] + [OH^-] - [H^+]
-
 $$
 
 
@@ -3913,9 +3707,7 @@ The basic reactions of the carbonate system can be represented as follows:
 
 
 $$
-
 CO2(g) \leftrightarrow CO2(aq)
-
 $$
 
 
@@ -3925,9 +3717,7 @@ $$
 
 
 $$
-
 CO2(aq) + H2O \leftrightarrow H2CO3
-
 $$
 
 
@@ -3937,9 +3727,7 @@ $$
 
 
 $$
-
 H2CO3 \leftrightarrow HCO3^- + H^+
-
 $$
 
 
@@ -3949,9 +3737,7 @@ $$
 
 
 $$
-
 HCO3^- \leftrightarrow CO3^{2-} + H^+
-
 $$
 
 
@@ -3985,9 +3771,7 @@ The equilibrium constant for the dissolution of carbon dioxide in water, known a
 
 
 $$
-
 K_H = \frac{[CO2(aq)]}{[CO2(g)]}
-
 $$
 
 
@@ -4001,9 +3785,7 @@ The equilibrium constants for the dissociation of carbonic acid ($K_1$) and bica
 
 
 $$
-
 K_1 = \frac{[HCO3^-][H^+]}{[H2CO3]}
-
 $$
 
 
@@ -4013,9 +3795,7 @@ and
 
 
 $$
-
 K_2 = \frac{[CO3^{2-}][H^+]}{[HCO3^-]}
-
 $$
 
 
@@ -4045,9 +3825,7 @@ In freshwater systems, the carbonate system is primarily influenced by the disso
 
 
 $$
-
 CO2(g) \leftrightarrow CO2(aq) \leftrightarrow H2CO3 \leftrightarrow HCO3^- \leftrightarrow CO3^{2-}
-
 $$
 
 
@@ -4081,25 +3859,19 @@ Alkalinity is primarily contributed by the presence of bicarbonate ($HCO3^-$), c
 
 
 $$
-
 HCO3^- + H^+ \leftrightarrow H2CO3
-
 $$
 
 
 
 $$
-
 CO3^{2-} + H^+ \leftrightarrow HCO3^-
-
 $$
 
 
 
 $$
-
 OH^- + H^+ \leftrightarrow H2O
-
 $$
 
 
@@ -4141,9 +3913,7 @@ The general procedure for measuring alkalinity through titration is as follows:
 
 
 $$
-
 Alkalinity (mg/L as CaCO3) = \frac{(Volume\ of\ acid\ used\ (L) \times Normality\ of\ the\ acid \times 50000)}{Volume\ of\ sample\ (L)}
-
 $$
 
 
@@ -4341,21 +4111,15 @@ Alkalinity, as a buffer, is primarily due to the presence of bicarbonate ($HCO_3
 For an added acid:
 
 $$
-
 HCO_3^- + H^+ \rightarrow H_2CO_3
-
 $$
 
 $$
-
 CO_3^{2-} + H^+ \rightarrow HCO_3^-
-
 $$
 
 $$
-
 OH^- + H^+ \rightarrow H_2O
-
 $$
 
 
@@ -4363,15 +4127,11 @@ $$
 For an added base:
 
 $$
-
 HCO_3^- + OH^- \rightarrow CO_3^{2-} + H_2O
-
 $$
 
 $$
-
 H_2CO_3 + OH^- \rightarrow HCO_3^- + H_2O
-
 $$
 
 
@@ -4697,9 +4457,7 @@ In this chapter, we will explore the mathematical representation of buffer capac
 
 
 $$
-
 \Delta pH = \frac{\Delta n}{C_{buffer}}
-
 $$
 
 
@@ -4729,9 +4487,7 @@ Mathematically, buffer capacity ($\beta$) can be expressed as:
 
 
 $$
-
 \beta = \frac{\Delta n}{\Delta pH}
-
 $$
 
 
@@ -4765,9 +4521,7 @@ The calculation of buffer capacity involves the use of the Henderson-Hasselbalch
 
 
 $$
-
 pH = pKa + log \left(\frac{[A-]}{[HA]}\right)
-
 $$
 
 
@@ -4789,9 +4543,7 @@ The buffer capacity can be calculated by differentiating the Henderson-Hasselbal
 
 
 $$
-
 \beta = 2.303 \times (C \times Ka \times Kb)^\frac{1}{2} \times \frac{1}{(1 + 10^{(pH - pKa)}) \times (1 + 10^{(pKa - pH)})}
-
 $$
 
 
@@ -5007,9 +4759,7 @@ The solubility of a mineral in water can be quantified using the solubility prod
 
 
 $$
-
 AB(s) \leftrightarrow A^{+}(aq) + B^{-}(aq)
-
 $$
 
 
@@ -5019,9 +4769,7 @@ where $AB$ is the mineral, and $A^{+}$ and $B^{-}$ are the ions it dissociates i
 
 
 $$
-
 K_{sp} = [A^{+}][B^{-}]
-
 $$
 
 
@@ -5095,7 +4843,6 @@ The solubility of minerals in aquatic systems is a complex process that is influ
 
 
     $$CaCO_3(s) \leftrightarrow Ca^{2+}(aq) + CO_3^{2-}(aq)$$
-
 
 
     In this reaction, the dissolution of calcite increases the concentration of calcium and carbonate ions in the water. However, if the concentration of these ions exceeds the solubility product constant, $K_{sp}$, of calcite, precipitation will occur, reducing the concentration of these ions and thus the solubility of the mineral.
@@ -5337,13 +5084,11 @@ There are three primary types of chemical weathering: hydrolysis, oxidation, and
 **Hydrolysis** is a chemical reaction where water molecules react with a mineral to form a new mineral and soluble ions. For example, the hydrolysis of potassium feldspar, a common mineral in granite, can be represented by the following equation:
 
 
-
 $$
 
 2KAlSi_3O_8(s) + 2H_2CO_3(aq) + 9H_2O(l) \rightarrow Al_2Si_2O_5(OH)_4(s) + 4H_4SiO_4(aq) + 2K^+(aq) + 2HCO_3^-(aq)
 
 $$
-
 
 
 In this reaction, potassium feldspar (KAlSi_3O_8) reacts with carbonic acid (H_2CO_3) and water to form kaolinite (Al_2Si_2O_5(OH)_4), silicic acid (H_4SiO_4), and ions of potassium (K^+) and bicarbonate (HCO_3^-).
@@ -5353,13 +5098,11 @@ In this reaction, potassium feldspar (KAlSi_3O_8) reacts with carbonic acid (H_2
 **Oxidation** is another type of chemical weathering where a mineral reacts with oxygen to form a new mineral. This process is common in minerals containing iron. For instance, the oxidation of pyrite (FeS_2) can be represented as follows:
 
 
-
 $$
 
 4FeS_2(s) + 15O_2(g) + 14H_2O(l) \rightarrow 4Fe(OH)_3(s) + 8SO_4^{2-}(aq) + 16H^+(aq)
 
 $$
-
 
 
 In this reaction, pyrite reacts with oxygen and water to form iron(III) hydroxide (Fe(OH)_3), sulfate ions (SO_4^{2-}), and hydrogen ions (H^+).
@@ -5369,13 +5112,11 @@ In this reaction, pyrite reacts with oxygen and water to form iron(III) hydroxid
 **Dissolution** is the process where a mineral dissolves in water. This process is common in minerals such as halite (NaCl), which dissolves to form sodium (Na^+) and chloride (Cl^-) ions:
 
 
-
 $$
 
 NaCl(s) \rightarrow Na^+(aq) + Cl^-(aq)
 
 $$
-
 
 
 These chemical weathering processes significantly contribute to the composition of natural water bodies. The ions produced by these reactions are transported by water and can affect the water's pH, hardness, and other chemical properties. Understanding these processes is crucial for predicting and managing water quality. In the following sections, we will delve deeper into these processes and explore how they are influenced by various factors such as climate, biological activity, and human influence.
@@ -5669,13 +5410,11 @@ Complexation is a fundamental process in aquatic chemistry that involves the for
 The process of complexation can be represented by the following general equation:
 
 
-
 $$
 
 M^n+ + xL \rightarrow ML_x^n
 
 $$
-
 
 
 In this equation, $M^n+$ represents the metal ion, $L$ represents the ligand, and $x$ is the number of ligands that are coordinated to the metal ion. The resulting complex ion, $ML_x^n$, has a charge of $n$.
@@ -5829,7 +5568,6 @@ Inorganic complexation refers to the process where trace metals form complexes w
 The formation of inorganic complexes is governed by the principles of chemical equilibrium. For a given metal ion (M^n+) and inorganic ligand (L^m-), the complexation reaction can be represented as:
 
 
-
 $$
 
 M^n+ + mL^m- \leftrightarrow [ML_m]^{n-m}
@@ -5837,9 +5575,7 @@ M^n+ + mL^m- \leftrightarrow [ML_m]^{n-m}
 $$
 
 
-
 The equilibrium constant for this reaction, known as the stability constant ($K_{stab}$), is given by:
-
 
 
 $$
@@ -5847,7 +5583,6 @@ $$
 K_{stab} = \frac{[ML_m]^{n-m}}{[M^n+][L^m-]^m}
 
 $$
-
 
 
 where [M^n+], [L^m-], and [ML_m]^{n-m} are the concentrations of the metal ion, ligand, and complex, respectively. The stability constant provides a measure of the tendency of the metal ion to form a complex with the ligand. A larger stability constant indicates a stronger tendency to form the complex.
@@ -6113,13 +5848,11 @@ In a redox reaction, one species undergoes oxidation, and another undergoes redu
 To illustrate, consider the reaction between hydrogen and fluorine to form hydrogen fluoride:
 
 
-
 $$
 
 H_2 + F_2 \rightarrow 2HF
 
 $$
-
 
 
 In this reaction, hydrogen is oxidized (loses electrons) and fluorine is reduced (gains electrons). Therefore, hydrogen is the reducing agent and fluorine is the oxidizing agent.
@@ -6245,7 +5978,6 @@ In the context of redox reactions in aquatic systems, equilibrium calculations a
 The equilibrium constant, denoted as $K$, is a measure of the ratio of the concentrations of the products to the reactants at equilibrium. For a general redox reaction represented as:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
@@ -6253,9 +5985,7 @@ aA + bB \rightleftharpoons cC + dD
 $$
 
 
-
 where $A$ and $B$ are the reactants, and $C$ and $D$ are the products, the equilibrium constant expression is given by:
-
 
 
 $$
@@ -6263,7 +5993,6 @@ $$
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where $[A]$, $[B]$, $[C]$, and $[D]$ represent the molar concentrations of the respective species at equilibrium, and $a$, $b$, $c$, and $d$ are the stoichiometric coefficients.
@@ -6277,13 +6006,11 @@ where $[A]$, $[B]$, $[C]$, and $[D]$ represent the molar concentrations of the r
 In redox chemistry, the Nernst equation is often used to calculate the equilibrium potential of a redox reaction. The Nernst equation is given by:
 
 
-
 $$
 
 E = E^0 - \frac{RT}{nF} \ln Q
 
 $$
-
 
 
 where $E$ is the cell potential at non-standard conditions, $E^0$ is the standard cell potential, $R$ is the gas constant, $T$ is the temperature in Kelvin, $n$ is the number of moles of electrons transferred in the redox reaction, $F$ is the Faraday constant, and $Q$ is the reaction quotient, which is similar to the equilibrium constant but calculated using the initial concentrations instead of the equilibrium concentrations.
@@ -6313,13 +6040,11 @@ Several factors can influence the equilibrium of redox reactions in aquatic syst
 Temperature is a significant factor that affects the equilibrium of redox reactions. According to the Van't Hoff equation:
 
 
-
 $$
 
 \ln \frac{K_2}{K_1} = -\frac{\Delta H}{R} \left(\frac{1}{T_2} - \frac{1}{T_1}\right)
 
 $$
-
 
 
 where $K_1$ and $K_2$ are the equilibrium constants at temperatures $T_1$ and $T_2$, respectively, $\Delta H$ is the enthalpy change of the reaction, and $R$ is the gas constant. This equation shows that the equilibrium constant, and thus the position of equilibrium, changes with temperature.
@@ -6373,7 +6098,6 @@ For instance, if the concentration of a reactant is increased, the system will t
 The new equilibrium concentrations can be calculated using the equilibrium constant expression. For a general redox reaction:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
@@ -6381,9 +6105,7 @@ aA + bB \rightleftharpoons cC + dD
 $$
 
 
-
 The equilibrium constant expression is given by:
-
 
 
 $$
@@ -6391,7 +6113,6 @@ $$
 K = \frac{[C]^c [D]^d}{[A]^a [B]^b}
 
 $$
-
 
 
 where $[A]$, $[B]$, $[C]$, and $[D]$ are the equilibrium concentrations of the reactants and products, and $a$, $b$, $c$, and $d$ are their stoichiometric coefficients.
@@ -6409,13 +6130,11 @@ If the initial concentrations and the equilibrium constant are known, the new eq
 Consider the redox reaction:
 
 
-
 $$
 
 2Fe^{3+} + Sn^{2+} \rightleftharpoons 2Fe^{2+} + Sn^{4+}
 
 $$
-
 
 
 Suppose the initial concentrations are $[Fe^{3+}] = 0.1$ M, $[Sn^{2+}] = 0.1$ M, $[Fe^{2+}] = 0$ M, and $[Sn^{4+}] = 0$ M, and the equilibrium constant $K$ is $10^6$ at the given temperature.
@@ -6429,13 +6148,11 @@ Let $x$ be the change in concentration. At equilibrium, $[Fe^{3+}] = 0.1 - 2x$ M
 Substituting these into the equilibrium constant expression gives:
 
 
-
 $$
 
 10^6 = \frac{(2x)^2 \cdot x}{(0.1 - 2x)^2 \cdot (0.1 - x)}
 
 $$
-
 
 
 Solving this equation will give the value of $x$, and hence the equilibrium concentrations.
@@ -6617,13 +6334,11 @@ The redox electrode consists of a platinum wire, which acts as the working elect
 The measurement process involves immersing the redox electrode in the solution and allowing it to equilibrate. The potential difference between the working and reference electrodes is then measured using a voltmeter. This potential difference, known as the electrode potential, is related to the redox potential of the system by the Nernst equation:
 
 
-
 $$
 
 Eh = E^0 - \frac{RT}{nF} \ln \left( \frac{[oxidant]}{[reductant]} \right)
 
 $$
-
 
 
 where `$Eh$` is the redox potential, `$E^0$` is the standard redox potential, `R` is the gas constant, `T` is the temperature in Kelvin, `n` is the number of electrons transferred in the redox reaction, `F` is the Faraday constant, and `[oxidant]` and `[reductant]` are the concentrations of the oxidant and reductant, respectively.
@@ -6673,13 +6388,11 @@ In the previous section, we discussed the importance of redox potential in aquat
 The pe-pH diagram, also known as a Pourbaix diagram, is a graphical representation of the thermodynamic stability of different species in an aqueous system at various pH values and redox potentials (pe). The term 'pe' is a measure of electron activity in a system, similar to pH which measures hydrogen ion activity. The 'pe' term is derived from the potential (E) and the number of electrons (n) involved in the redox reaction, and is defined as:
 
 
-
 $$
 
 pe = -log_{10}(e^{-})
 
 $$
-
 
 
 where $e^{-}$ is the activity of electrons in the system.
@@ -6709,13 +6422,11 @@ Constructing a pe-pH diagram involves several steps. First, the redox reactions 
 The equilibrium constant for a redox reaction can be expressed in terms of pe and pH as follows:
 
 
-
 $$
 
 pe = -log_{10}(K) + n \cdot pH
 
 $$
-
 
 
 where $K$ is the equilibrium constant and $n$ is the number of protons involved in the reaction. This equation is derived from the Nernst equation, which describes the relationship between the redox potential, the equilibrium constant, and the activities of the species involved in the reaction.
@@ -7153,13 +6864,11 @@ Complexation is a fundamental process in aquatic chemistry that significantly in
 The formation of complex ions can be represented by the equation:
 
 
-
 $$
 
 [M(H_2O)_n]^{z+} + L \rightleftharpoons [M(H_2O)_{n-1}L]^{(z-1)+} + H_2O
 
 $$
-
 
 
 In this equation, `$M$` is the metal ion, `$L$` is the ligand, and `$n$` is the coordination number. The equilibrium constant for this reaction, `$K_{eq}$`, can be calculated using the concentrations of the reactants and products. The larger the `$K_{eq}$`, the more the reaction favors the formation of the complex ion.
@@ -7169,13 +6878,11 @@ In this equation, `$M$` is the metal ion, `$L$` is the ligand, and `$n$` is the 
 The effect of complexation on redox equilibria can be understood by considering the Nernst equation, which describes the relationship between the reduction potential of a redox couple and the concentrations of the oxidized and reduced species. The Nernst equation is given by:
 
 
-
 $$
 
 E = E^0 - \frac{RT}{nF} \ln \frac{[Red]}{[Ox]}
 
 $$
-
 
 
 Where `$E$` is the cell potential, `$E^0$` is the standard cell potential, `$R$` is the gas constant, `$T$` is the temperature, `$n$` is the number of electrons transferred in the redox reaction, `$F$` is the Faraday constant, and `[Red]` and `[Ox]` are the concentrations of the reduced and oxidized species, respectively.
@@ -7201,7 +6908,6 @@ To quantitatively analyze the effects of complexation on redox equilibria, we ne
 Let's consider a metal ion `$M$` that forms a complex with a ligand `$L$` to produce a complex ion `[ML]`. The equilibrium constant for this reaction can be written as:
 
 
-
 $$
 
 K_{eq} = \frac{[ML]}{[M][L]}
@@ -7209,9 +6915,7 @@ K_{eq} = \frac{[ML]}{[M][L]}
 $$
 
 
-
 When complexation occurs, the concentration of the free metal ion `[M]` decreases, while the concentration of the complex ion `[ML]` increases. This change in concentrations can be incorporated into the Nernst equation as follows:
-
 
 
 $$
@@ -7221,9 +6925,7 @@ E = E^0 - \frac{RT}{nF} \ln \frac{[ML]}{[M][L]}
 $$
 
 
-
 This modified Nernst equation allows us to calculate the new cell potential `$E$` after complexation. The change in cell potential due to complexation, `$\Delta E$`, can then be calculated as:
-
 
 
 $$
@@ -7231,7 +6933,6 @@ $$
 \Delta E = E - E^0 = - \frac{RT}{nF} \ln K_{eq}
 
 $$
-
 
 
 This equation shows that the change in cell potential due to complexation is directly proportional to the logarithm of the equilibrium constant of the complexation reaction. Therefore, the larger the `$K_{eq}$`, the greater the shift in the redox equilibrium and the larger the change in cell potential.
@@ -7253,7 +6954,6 @@ In aquatic systems, complexation can significantly affect the redox equilibria o
 Let's consider a simple example of a redox reaction involving a metal ion `$M$` that can form a complex with a ligand `$L$`. The redox reaction can be represented as:
 
 
-
 $$
 
 M^{n+} + e^- \rightarrow M^{(n-1)+}
@@ -7261,9 +6961,7 @@ M^{n+} + e^- \rightarrow M^{(n-1)+}
 $$
 
 
-
 In the presence of the ligand `$L$`, the metal ion `$M^{n+}$` can form a complex `[ML]^{(n-1)+}`. The overall reaction can then be written as:
-
 
 
 $$
@@ -7273,9 +6971,7 @@ M^{n+} + L + e^- \rightarrow [ML]^{(n-1)+}
 $$
 
 
-
 The equilibrium constant for this reaction, `$K_{eq}$`, can be written as:
-
 
 
 $$
@@ -7285,9 +6981,7 @@ K_{eq} = \frac{[[ML]^{(n-1)+}]}{[M^{n+}][L]}
 $$
 
 
-
 The Nernst equation for this reaction can be modified to incorporate the complexation effect as follows:
-
 
 
 $$
@@ -7297,9 +6991,7 @@ E = E^0 - \frac{RT}{nF} \ln \frac{[[ML]^{(n-1)+}]}{[M^{n+}][L]}
 $$
 
 
-
 This equation allows us to calculate the new cell potential `$E$` after complexation. The change in cell potential due to complexation, `$\Delta E$`, can then be calculated as:
-
 
 
 $$
@@ -7307,7 +6999,6 @@ $$
 \Delta E = E - E^0 = - \frac{RT}{nF} \ln K_{eq}
 
 $$
-
 
 
 This analysis shows that the presence of ligands in aquatic systems can significantly shift the redox equilibria of metal ions through complexation. The extent of this shift depends on the equilibrium constant of the complexation reaction. The larger the `$K_{eq}$`, the greater the shift in the redox equilibrium and the larger the change in cell potential.
@@ -7329,7 +7020,6 @@ Just as complexation can significantly influence the redox equilibria of metal i
 Let's consider a simple example of a redox reaction involving a metal ion `$M$` that can precipitate as a solid `$M_xO_y$`. The redox reaction can be represented as:
 
 
-
 $$
 
 M^{n+} + e^- \rightarrow M^{(n-1)+}
@@ -7337,9 +7027,7 @@ M^{n+} + e^- \rightarrow M^{(n-1)+}
 $$
 
 
-
 In the presence of precipitation, the metal ion `$M^{n+}$` can form a solid `$M_xO_y$`. The overall reaction can then be written as:
-
 
 
 $$
@@ -7349,9 +7037,7 @@ M^{n+} + xO^{2-} + e^- \rightarrow M_xO_y(s)
 $$
 
 
-
 The equilibrium constant for this reaction, `$K_{sp}$`, can be written as:
-
 
 
 $$
@@ -7361,9 +7047,7 @@ K_{sp} = \frac{1}{[M^{n+}]^x[O^{2-}]^y}
 $$
 
 
-
 The Nernst equation for this reaction can be modified to incorporate the precipitation effect as follows:
-
 
 
 $$
@@ -7373,9 +7057,7 @@ E = E^0 - \frac{RT}{nF} \ln \frac{1}{[M^{n+}]^x[O^{2-}]^y}
 $$
 
 
-
 This equation allows us to calculate the new cell potential `$E$` after precipitation. The change in cell potential due to precipitation, `$\Delta E$`, can then be calculated as:
-
 
 
 $$
@@ -7383,7 +7065,6 @@ $$
 \Delta E = E - E^0 = - \frac{RT}{nF} \ln K_{sp}
 
 $$
-
 
 
 This analysis shows that the presence of precipitates in aquatic systems can significantly shift the redox equilibria of metal ions. The extent of this shift depends on the solubility product constant of the precipitation reaction. The larger the `$K_{sp}$`, the greater the shift in the redox equilibrium and the larger the change in cell potential.
@@ -7405,7 +7086,6 @@ To further understand the effects of precipitation on redox equilibria, let's co
 As precipitation occurs, the concentration of `$M^{n+}$` decreases, and the equilibrium of the redox reaction shifts to maintain the cell potential. The new concentration of `$M^{n+}$` after precipitation, `$C$`, can be calculated using the solubility product constant `$K_{sp}$`:
 
 
-
 $$
 
 C = \left(\frac{K_{sp}}{[O^{2-}]^y}\right)^{1/x}
@@ -7413,9 +7093,7 @@ C = \left(\frac{K_{sp}}{[O^{2-}]^y}\right)^{1/x}
 $$
 
 
-
 The change in cell potential due to precipitation, `$\Delta E$`, can then be calculated using the Nernst equation:
-
 
 
 $$
@@ -7425,13 +7103,11 @@ $$
 $$
 
 
-
 This equation shows that the change in cell potential depends on the initial and final concentrations of the metal ion. The larger the decrease in concentration due to precipitation, the larger the change in cell potential.
 
 
 
 Let's consider a specific example. Suppose we have a solution containing `$M^{2+}$` ions with an initial concentration of `$C_0 = 1.0 \times 10^{-3}$` M. The `$M^{2+}$` ions can precipitate as `$M(OH)_2$`, with a solubility product constant of `$K_{sp} = 1.0 \times 10^{-14}$`. If the concentration of `$OH^-$` ions is `$1.0 \times 10^{-7}$` M, the final concentration of `$M^{2+}$` ions after precipitation can be calculated as:
-
 
 
 $$
@@ -7441,9 +7117,7 @@ C = \left(\frac{K_{sp}}{[OH^-]^2}\right)^{1/1} = 1.0 \times 10^{-7} \text{ M}
 $$
 
 
-
 The change in cell potential can then be calculated as:
-
 
 
 $$
@@ -7451,7 +7125,6 @@ $$
 \Delta E = - \frac{RT}{2F} \ln \frac{C}{C_0} = -0.059 \ln \frac{1.0 \times 10^{-7}}{1.0 \times 10^{-3}} = 0.177 \text{ V}
 
 $$
-
 
 
 This example illustrates how precipitation can significantly affect the redox equilibria of metal ions in aquatic systems. In the next section, we will explore how these effects can be used to control the redox conditions in aquatic environments.
@@ -7477,7 +7150,6 @@ The precipitation of `$M^{n+}$` as `$M_xO_y$` decreases the concentration of `$M
 Let's consider a specific example. Suppose we have an aquatic system containing `$M^{2+}$` ions with an initial concentration of `$C_0 = 1.0 \times 10^{-3}$` M. The `$M^{2+}$` ions can precipitate as `$M(OH)_2$`, with a solubility product constant of `$K_{sp} = 1.0 \times 10^{-14}$`. If the concentration of `$OH^-$` ions is `$1.0 \times 10^{-7}$` M, the final concentration of `$M^{2+}$` ions after precipitation can be calculated as:
 
 
-
 $$
 
 C = \left(\frac{K_{sp}}{[OH^-]^2}\right)^{1/1} = 1.0 \times 10^{-7} \text{ M}
@@ -7485,9 +7157,7 @@ C = \left(\frac{K_{sp}}{[OH^-]^2}\right)^{1/1} = 1.0 \times 10^{-7} \text{ M}
 $$
 
 
-
 The change in cell potential can then be calculated as:
-
 
 
 $$
@@ -7495,7 +7165,6 @@ $$
 \Delta E = - \frac{RT}{2F} \ln \frac{C}{C_0} = -0.059 \ln \frac{1.0 \times 10^{-7}}{1.0 \times 10^{-3}} = 0.177 \text{ V}
 
 $$
-
 
 
 However, in an aquatic system, the presence of other ions such as `$SO_4^{2-}$` or `$PO_4^{3-}$` can affect the precipitation process and hence the redox equilibria. These ions can form complexes with `$M^{2+}$`, reducing its availability for precipitation and hence affecting the redox equilibria. Therefore, the effects of precipitation on redox equilibria in aquatic systems can be more complex and require a more detailed analysis.
@@ -7661,13 +7330,11 @@ Oxidation kinetics is a branch of chemical kinetics that focuses on the rates of
 The rate of an oxidation reaction is influenced by several factors, including the concentration of reactants, temperature, and pressure. The rate can be mathematically described by the rate equation, which is typically expressed in the form:
 
 
-
 $$
 
 r = k[A]^m[B]^n
 
 $$
-
 
 
 where $r$ is the rate of reaction, $k$ is the rate constant, $[A]$ and $[B]$ are the concentrations of the reactants, and $m$ and $n$ are the reaction orders with respect to $A$ and $B$, respectively. The rate constant $k$ is a measure of the reaction speed and depends on factors such as temperature and the presence of a catalyst.
@@ -7777,13 +7444,11 @@ The pH of the water can also influence oxidation kinetics. Many oxidation reacti
 For instance, in the oxidation of iron(II) to iron(III) by dissolved oxygen, the reaction is faster in acidic conditions due to the higher concentration of H+ ions:
 
 
-
 $$
 
 4Fe^{2+} + O_2 + 4H^+ \rightarrow 4Fe^{3+} + 2H_2O
 
 $$
-
 
 
 ##### 16.1c(iii) Role of Aquatic Microorganisms
@@ -7821,13 +7486,11 @@ In homogeneous systems, the rate of a chemical reaction is typically determined 
 For example, the rate law for a simple reaction in which a single reactant A is converted into a product B is given by:
 
 
-
 $$
 
 \text{rate} = k[A]
 
 $$
-
 
 
 where $\text{rate}$ is the rate of the reaction, $k$ is the rate constant, and $[A]$ is the concentration of the reactant A. The rate constant $k$ is typically determined experimentally.
@@ -7861,13 +7524,11 @@ In a homogeneous system, the reactants and products are uniformly distributed th
 The rate of a chemical reaction in a homogeneous system is determined by the concentrations of the reactants and the temperature of the system. This is expressed by the rate law, as discussed in the previous section. The rate law for a reaction involving multiple reactants, for example, reactants A and B forming product C, is given by:
 
 
-
 $$
 
 \text{rate} = k[A]^m[B]^n
 
 $$
-
 
 
 where $\text{rate}$ is the rate of the reaction, $k$ is the rate constant, $[A]$ and $[B]$ are the concentrations of the reactants A and B, and $m$ and $n$ are the reaction orders with respect to A and B, respectively. The reaction orders $m$ and $n$ are typically determined experimentally and can be integers, fractions, or zero.
@@ -7881,13 +7542,11 @@ where $\text{rate}$ is the rate of the reaction, $k$ is the rate constant, $[A]$
 The rate of a chemical reaction in a homogeneous system is also dependent on the temperature of the system. This is due to the fact that increasing the temperature increases the kinetic energy of the molecules, leading to more frequent and more energetic collisions between reactant molecules. This is described by the Arrhenius equation:
 
 
-
 $$
 
 k = A \exp\left(-\frac{E_a}{RT}\right)
 
 $$
-
 
 
 where $k$ is the rate constant, $A$ is the pre-exponential factor, $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature in Kelvin.
@@ -7901,7 +7560,6 @@ In the following sections, we will delve deeper into the kinetics of oxidation r
 ```
 
 k = A \exp\left(-\frac{E_a}{RT}\right)
-
 $$
 
 
@@ -8351,9 +8009,7 @@ The formation of a multi-ligand complex can be described by the following genera
 
 
 $$
-
 M^n+ + xL1 + yL2 \rightarrow [ML1_xL2_y]^{n-x-y}
-
 $$
 
 
@@ -8371,9 +8027,7 @@ The stability constant for a multi-ligand complex can be calculated using the fo
 
 
 $$
-
 K = \frac{[ML1_xL2_y]}{[M^n+][L1]^x[L2]^y}
-
 $$
 
 
@@ -8407,9 +8061,7 @@ The general form of the equilibrium equation for the formation of a multi-ligand
 
 
 $$
-
 M^n+ + xL1 + yL2 \rightleftharpoons [ML1_xL2_y]^{n-x-y}
-
 $$
 
 
@@ -8419,9 +8071,7 @@ The equilibrium constant for this reaction, `$K$`, is given by:
 
 
 $$
-
 K = \frac{[ML1_xL2_y]}{[M^n+][L1]^x[L2]^y}
-
 $$
 
 
@@ -8435,9 +8085,7 @@ The mass balance equation for the metal is:
 
 
 $$
-
 [M]_T = [M^n+] + \sum [ML1_xL2_y]
-
 $$
 
 
@@ -8451,17 +8099,13 @@ Similarly, the mass balance equations for the ligands are:
 
 
 $$
-
 [L1]_T = [L1] + \sum [ML1_xL2_y]
-
 $$
 
 
 
 $$
-
 [L2]_T = [L2] + \sum [ML1_xL2_y]
-
 $$
 
 
@@ -8561,9 +8205,7 @@ The redox cycling of iron in seawater can be modeled using the following equatio
 1. Oxidation of Fe(II) to Fe(III):
 
 $$
-
 Fe^{2+} + \frac{1}{4}O_2 + H^+ \rightarrow Fe^{3+} + \frac{1}{2}H_2O
-
 $$
 
 
@@ -8571,9 +8213,7 @@ $$
 2. Reduction of Fe(III) to Fe(II):
 
 $$
-
 Fe^{3+} + e^- \rightarrow Fe^{2+}
-
 $$
 
 
@@ -8621,15 +8261,11 @@ The redox zonation in a stratified lake can be modeled using the following equat
 1. Reduction of Fe(III) and Mn(IV) in the hypolimnion:
 
 $$
-
 Fe^{3+} + e^- \rightarrow Fe^{2+}
-
 $$
 
 $$
-
 MnO_2 + 4H^+ + 2e^- \rightarrow Mn^{2+} + 2H_2O
-
 $$
 
 
@@ -8637,15 +8273,11 @@ $$
 2. Oxidation of Fe(II) and Mn(II) in the epilimnion:
 
 $$
-
 Fe^{2+} + \frac{1}{4}O_2 + H^+ \rightarrow Fe^{3+} + \frac{1}{2}H_2O
-
 $$
 
 $$
-
 Mn^{2+} + \frac{1}{2}O_2 + H_2O \rightarrow MnO_2 + 2H^+
-
 $$
 
 
@@ -8675,9 +8307,7 @@ For instance, in anoxic environments where oxygen is not available, some microor
 
 
 $$
-
 NO_3^- + 5/4 CH_2O + H^+ \rightarrow 1/2 N_2 + 5/4 CO_2 + 5/2 H_2O
-
 $$
 
 
@@ -8687,15 +8317,11 @@ In environments where nitrate is also depleted, other microorganisms can use iro
 
 
 $$
-
 Fe(OH)_3 + H^+ + e^- \rightarrow Fe^{2+} + 3H_2O
-
 $$
 
 $$
-
 MnO_2 + 4H^+ + 2e^- \rightarrow Mn^{2+} + 2H_2O
-
 $$
 
 
@@ -8705,15 +8331,11 @@ Finally, in environments where all other electron acceptors are depleted, some m
 
 
 $$
-
 SO_4^{2-} + 2CH_2O \rightarrow H_2S + 2CO_2 + 2H_2O
-
 $$
 
 $$
-
 CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O
-
 $$
 
 
@@ -8743,9 +8365,7 @@ Consider a simple hypothetical reaction where reactant A is converted to product
 
 
 $$
-
 A \rightarrow I \rightarrow B
-
 $$
 
 
@@ -8755,7 +8375,6 @@ This reaction can be broken down into two elementary steps:
 
 
 1. $$A \rightarrow I$$
-
 2. $$I \rightarrow B$$
 
 
@@ -8791,13 +8410,11 @@ The kinetic isotope effect can be primary or secondary. A primary kinetic isotop
 The kinetic isotope effect is quantified as the ratio of the rate constants for the reactions involving the different isotopes. For a reaction involving hydrogen and deuterium, the KIE is defined as:
 
 
-
 $$
 
 KIE = \frac{k_H}{k_D}
 
 $$
-
 
 
 where $k_H$ and $k_D$ are the rate constants for the reactions involving hydrogen and deuterium, respectively.
@@ -8831,13 +8448,11 @@ In this section, we will delve into some case studies that illustrate the applic
 Temperature plays a crucial role in the rate of chemical reactions. According to the Arrhenius equation, the rate constant ($k$) of a reaction is related to the temperature ($T$) by the equation:
 
 
-
 $$
 
 k = A \exp\left(-\frac{E_a}{RT}\right)
 
 $$
-
 
 
 where $A$ is the pre-exponential factor, $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature in Kelvin. 
@@ -8859,13 +8474,11 @@ The pH of water can also significantly influence the rate of chemical reactions.
 For example, the dissolution of carbon dioxide (CO2) in water to form carbonic acid (H2CO3) is a reaction that is highly pH-dependent. The reaction can be represented as:
 
 
-
 $$
 
 CO2 + H2O \rightleftharpoons H2CO3
 
 $$
-
 
 
 The rate of this reaction is influenced by the concentration of H+ ions in the water, which is determined by the pH. Understanding the kinetics of this reaction is crucial for predicting how changes in atmospheric CO2 levels might affect the acidity of oceans and other bodies of water.
@@ -8883,13 +8496,11 @@ As discussed in the previous section, kinetic isotope effects can provide valuab
 For instance, the reaction between water (H2O) and deuterium oxide (D2O) to form semi-heavy water (HDO) can be studied using kinetic isotope effects. The reaction can be represented as:
 
 
-
 $$
 
 H2O + D2O \rightleftharpoons 2HDO
 
 $$
-
 
 
 By comparing the rate constants for this reaction with those for the reaction between two molecules of H2O or D2O, scientists can gain insights into the reaction mechanism and the effects of isotopic substitution on the reactivity of water molecules.
@@ -9159,7 +8770,6 @@ Ocean acidification is a significant environmental issue that is directly linked
 The chemistry behind ocean acidification is relatively straightforward. When CO2 dissolves in seawater, it reacts with water to form carbonic acid (H2CO3), a weak acid. This reaction can be represented as:
 
 
-
 $$
 
 CO2 + H2O \leftrightarrow H2CO3
@@ -9167,9 +8777,7 @@ CO2 + H2O \leftrightarrow H2CO3
 $$
 
 
-
 The carbonic acid then dissociates to form bicarbonate (HCO3-) and hydrogen ions (H+). This reaction can be represented as:
-
 
 
 $$
@@ -9177,7 +8785,6 @@ $$
 H2CO3 \leftrightarrow HCO3^- + H^+
 
 $$
-
 
 
 The increase in the concentration of hydrogen ions leads to a decrease in the pH of the seawater, making it more acidic. 
@@ -9191,13 +8798,11 @@ The increase in acidity has several implications for marine life, particularly f
 Moreover, the increased concentration of bicarbonate ions can shift the equilibrium of the carbonate system in the ocean, reducing the availability of carbonate ions (CO3^2-), which are essential for the formation of calcium carbonate. This process can be represented as:
 
 
-
 $$
 
 CO3^{2-} + H^+ \leftrightarrow HCO3^-
 
 $$
-
 
 
 This shift in equilibrium can further exacerbate the impacts of ocean acidification on marine organisms.
@@ -9219,13 +8824,11 @@ Redox reactions, short for reduction-oxidation reactions, are chemical reactions
 One of the primary ways in which climate change can affect redox processes in aquatic systems is through changes in temperature. Increased temperatures can enhance the rates of redox reactions, leading to faster cycling of elements. For instance, the rate of denitrification, a microbial process that converts nitrate (NO3-) to nitrogen gas (N2), can increase with rising temperatures. This reaction can be represented as:
 
 
-
 $$
 
 2NO3^- + 10e^- + 12H^+ \rightarrow N2 + 6H2O
 
 $$
-
 
 
 Increased denitrification rates can lead to a decrease in the availability of nitrate, an essential nutrient for phytoplankton growth. This can have significant implications for the productivity of aquatic ecosystems.
@@ -9263,13 +8866,11 @@ The Arctic Ocean is particularly vulnerable to climate change. Rising temperatur
 One of the most significant changes is the increase in the concentration of carbon dioxide (CO2) in the water. As sea ice melts, it exposes the ocean surface to the atmosphere, allowing for greater gas exchange. This can lead to increased dissolution of atmospheric CO2 into the ocean, resulting in ocean acidification. The reaction can be represented as:
 
 
-
 $$
 
 CO2 + H2O \rightarrow H2CO3 \rightarrow H^+ + HCO3^-
 
 $$
-
 
 
 Ocean acidification can have profound impacts on marine life, particularly on organisms that build shells or skeletons out of calcium carbonate (CaCO3), such as corals and shellfish. The increased acidity can dissolve their shells, threatening their survival.
@@ -9319,13 +8920,11 @@ Trace metals that commonly contribute to aquatic pollution include lead (Pb), me
 Once in the aquatic environment, these trace metals can undergo various chemical reactions that can affect their mobility, bioavailability, and toxicity. For instance, mercury can be transformed into methylmercury, a highly toxic form that can bioaccumulate in aquatic organisms, through a process known as methylation:
 
 
-
 $$
 
 Hg^{2+} + CH3^- \rightarrow CH3Hg^+
 
 $$
-
 
 
 This reaction is often facilitated by certain types of bacteria in low-oxygen environments, such as the sediments of lakes and oceans.
@@ -9369,7 +8968,6 @@ Organic pollutants that commonly contribute to aquatic pollution include pestici
 
 
 Once in the aquatic environment, organic pollutants can undergo various chemical reactions that can affect their mobility, bioavailability, and toxicity. For instance, many organic pollutants can be transformed into more toxic forms through a process known as bioactivation:
-
 
 
 $$

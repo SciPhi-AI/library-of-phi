@@ -1956,9 +1956,7 @@ As with any investment, there are risks associated with investing in real estate
 
 
 $$
-
 ROI = \frac{(current\ value\ of\ investment\ if\ not\ exited\ yet\ or\ sold\ price\ of\ investment\ if\ exited + income\ from\ investment - initial\ investment\ and\ other\ expenses)}{initial\ investment\ and\ other\ expenses} \times 100\%
-
 $$
 
 
@@ -1968,9 +1966,7 @@ For example, if an investor bought a share of stock for $100 and paid a buying c
 
 
 $$
-
 ROI = \frac{(200 + 4 - 100 - 5 - 5)}{(100 + 5 + 5)} \times 100\% = 85.45\%
-
 $$
 
 
@@ -13366,9 +13362,7 @@ The formula for the income capitalization approach is as follows:
 
 
 $$
-
 Value = \frac{NOI}{CAP Rate}
-
 $$
 
 
@@ -15900,9 +15894,7 @@ There are various ways to calculate the rate of return, but the most comprehensi
 
 
 $$
-
 ROI = \frac{(current\ value\ of\ investment\ if\ not\ exited\ yet\ or\ sold\ price\ of\ investment\ if\ exited + income\ from\ investment - initial\ investment\ and\ other\ expenses)}{initial\ investment\ and\ other\ expenses} \times 100\%
-
 $$
 
 
@@ -15912,9 +15904,7 @@ For example, if an investor buys a property for $100,000 and spends an additiona
 
 
 $$
-
 ROI = \frac{(150,000 + 10,000 - 110,000)}{110,000} \times 100\% = 36.36\%
-
 $$
 
 
@@ -15982,9 +15972,7 @@ The formula for calculating the cap rate is as follows:
 
 
 $$
-
 \text{Cap Rate} = \frac{\text{Net Operating Income}}{\text{Market Value}}
-
 $$
 
 
@@ -16014,9 +16002,7 @@ The formula for calculating the present value of future cash flows is as follows
 
 
 $$
-
 \text{Present Value} = \frac{\text{Future Cash Flow}}{(1 + \text{Discount Rate})^{\text{Time Period}}}
-
 $$
 
 

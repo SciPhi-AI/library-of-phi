@@ -719,9 +719,7 @@ The derivative of a function $f(x)$ at a point $x=a$ is defined as the limit of 
 
 
 $$
-
 f'(a) = \lim_{{h \to 0}} \frac{f(a+h) - f(a)}{h}
-
 $$
 
 
@@ -775,7 +773,6 @@ The derivatives and their rules discussed in the previous subsection are not jus
 
 
     $$
-
     v(t) = \frac{ds(t)}{dt} \quad \text{and} \quad a(t) = \frac{dv(t)}{dt}
 
     $$
@@ -837,13 +834,11 @@ One of the simplest methods of numerical integration is the Riemann sum. Named a
 Given a function $f(x)$ defined on the interval $[a, b]$, we can divide this interval into $n$ equal subintervals, each of width $\Delta x = \frac{b - a}{n}$. For each subinterval $[x_{i-1}, x_i]$, we can choose a point $c_i$ and form the rectangle with height $f(c_i)$ and width $\Delta x$. The area of this rectangle is $f(c_i) \Delta x$, and the Riemann sum of the function $f(x)$ on the interval $[a, b]$ is given by:
 
 
-
 $$
 
 S_n = \sum_{i=1}^{n} f(c_i) \Delta x
 
 $$
-
 
 
 The choice of the point $c_i$ in each subinterval can vary. If we always choose the left endpoint, we get the left Riemann sum; if we always choose the right endpoint, we get the right Riemann sum; and if we always choose the midpoint, we get the midpoint Riemann sum. Each of these choices will give a slightly different approximation of the integral, but as $n$ increases (and thus $\Delta x$ decreases), all of these approximations will converge to the exact value of the integral.
@@ -869,13 +864,11 @@ The Trapezoidal Rule is based on the idea of approximating the region under the 
 Given a function $f(x)$ defined on the interval $[a, b]$, we can divide this interval into $n$ equal subintervals, each of width $\Delta x = \frac{b - a}{n}$. For each subinterval $[x_{i-1}, x_i]$, we form a trapezoid with bases $f(x_{i-1})$ and $f(x_i)$ and height $\Delta x$. The area of this trapezoid is $\frac{1}{2} (f(x_{i-1}) + f(x_i)) \Delta x$, and the Trapezoidal Rule approximation of the integral of the function $f(x)$ on the interval $[a, b]$ is given by:
 
 
-
 $$
 
 T_n = \frac{\Delta x}{2} \sum_{i=1}^{n} (f(x_{i-1}) + f(x_i))
 
 $$
-
 
 
 The Trapezoidal Rule provides a better approximation of the integral than the Riemann sum because it accounts for the change in the function's value over each subinterval. However, it is still an approximation, and its accuracy depends on the number of subintervals $n$ and the nature of the function. As $n$ increases (and thus $\Delta x$ decreases), the Trapezoidal Rule approximation will converge to the exact value of the integral.
@@ -901,13 +894,11 @@ Simpson's Rule is named after the British mathematician Thomas Simpson, although
 Given a function $f(x)$ defined on the interval $[a, b]$, we can divide this interval into $n$ equal subintervals, each of width $\Delta x = \frac{b - a}{n}$. For Simpson's Rule to be applicable, $n$ must be an even number. Each pair of subintervals forms a slice of width $2\Delta x$. For each slice $[x_{i-2}, x_{i}]$, we form a parabola that passes through the points $(x_{i-2}, f(x_{i-2}))$, $(x_{i-1}, f(x_{i-1}))$, and $(x_{i}, f(x_{i}))$. The area under this parabola is approximated as $\frac{1}{3} \Delta x (f(x_{i-2}) + 4f(x_{i-1}) + f(x_{i}))$, and the Simpson's Rule approximation of the integral of the function $f(x)$ on the interval $[a, b]$ is given by:
 
 
-
 $$
 
 S_n = \frac{\Delta x}{3} \sum_{i=1}^{n/2} (f(x_{2i-2}) + 4f(x_{2i-1}) + f(x_{2i}))
 
 $$
-
 
 
 Simpson's Rule provides a better approximation of the integral than the Trapezoidal Rule because it accounts for the curvature of the function over each slice. However, like the Trapezoidal Rule, it is still an approximation, and its accuracy depends on the number of slices $n$ and the nature of the function. As $n$ increases (and thus $\Delta x$ decreases), the Simpson's Rule approximation will converge to the exact value of the integral.
@@ -939,22 +930,17 @@ The basic idea of Romberg Integration is to compute the Trapezoidal Rule approxi
 Given a function $f(x)$ defined on the interval $[a, b]$, we first compute the Trapezoidal Rule approximation $T(h)$ for a sequence of step sizes $h = \frac{b - a}{2^k}$, where $k$ is a non-negative integer. The first few approximations are:
 
 
-
 $$
 
 T(h) = \frac{h}{2} (f(a) + f(b)) + h \sum_{i=1}^{2^k - 1} f(a + ih)
 
 $$
 
-
-
 $$
 
 T(h/2) = \frac{h}{4} (f(a) + f(b)) + \frac{h}{2} \sum_{i=1}^{2^{k+1} - 1} f(a + ih)
 
 $$
-
-
 
 $$
 
@@ -963,9 +949,7 @@ T(h/4) = \frac{h}{8} (f(a) + f(b)) + \frac{h}{4} \sum_{i=1}^{2^{k+2} - 1} f(a + 
 $$
 
 
-
 and so on. The Romberg Integration approximation of the integral of the function $f(x)$ on the interval $[a, b]$ is then given by:
-
 
 
 $$
@@ -973,7 +957,6 @@ $$
 R_{k,j} = \frac{4^j R_{k,j-1} - R_{k-1,j-1}}{4^j - 1}
 
 $$
-
 
 
 where $R_{k,0} = T(h/2^k)$ and $j$ is a non-negative integer less than or equal to $k$.
@@ -1005,13 +988,11 @@ The basic idea of Gaussian Quadrature is to approximate the integral of a functi
 The Gaussian Quadrature approximation of the integral of the function $f(x)$ on the interval $[a, b]$ is given by:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
 
 $$
-
 
 
 where $x_i$ are the Gauss points and $w_i$ are the corresponding weights. The Gauss points and weights depend on the degree of the polynomial being integrated and are typically looked up in a table or computed using a recursive algorithm.
@@ -1085,7 +1066,6 @@ The Taylor series is a fundamental concept in calculus and numerical computation
 The Taylor series of a function $f(x)$ that is infinitely differentiable at a real or complex number $a$ is the power series:
 
 
-
 $$
 
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
@@ -1093,9 +1073,7 @@ f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 
 $$
 
 
-
 This series can be written more compactly using the summation notation:
-
 
 
 $$
@@ -1105,7 +1083,6 @@ f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 $$
 
 
-
 where $f^{(n)}(a)$ denotes the $n$th derivative of $f$ evaluated at $a$, and $n!$ is the factorial of $n$.
 
 
@@ -1113,13 +1090,11 @@ where $f^{(n)}(a)$ denotes the $n$th derivative of $f$ evaluated at $a$, and $n!
 The $n$th degree Taylor polynomial $P_n(x)$ is the polynomial formed by truncating the Taylor series after the $n$th term:
 
 
-
 $$
 
 P_n(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 Taylor polynomials provide an approximation of the function near the point $a$. The accuracy of the approximation improves as the degree of the polynomial increases. However, the computational cost also increases with the degree of the polynomial.
@@ -1141,7 +1116,6 @@ The Taylor series expansion is a powerful tool that allows us to represent a fun
 The Taylor series expansion of a function $f(x)$ about a point $a$ is given by:
 
 
-
 $$
 
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
@@ -1149,9 +1123,7 @@ f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 
 $$
 
 
-
 This can be written more compactly as:
-
 
 
 $$
@@ -1159,7 +1131,6 @@ $$
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 where $f^{(n)}(a)$ denotes the $n$th derivative of $f$ evaluated at $a$, and $n!$ is the factorial of $n$.
@@ -1177,13 +1148,11 @@ In the context of numerical computation for mechanical engineers, the Taylor ser
 One important aspect of the Taylor series expansion is the remainder term, which gives an estimate of the error in the approximation. The remainder term $R_n(x)$ for the $n$th degree Taylor polynomial is given by:
 
 
-
 $$
 
 R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
 
 $$
-
 
 
 where $c$ is a number between $a$ and $x$. The remainder term goes to zero as $n$ goes to infinity if $f(x)$ is infinitely differentiable on the interval between $a$ and $x$.
@@ -1205,13 +1174,11 @@ The convergence of a Taylor series refers to the conditions under which the seri
 However, in practice, we often use a finite number of terms to approximate the function. This introduces an error, which is given by the remainder term. The error in the Taylor series approximation is therefore:
 
 
-
 $$
 
 E_n(x) = |R_n(x)|
 
 $$
-
 
 
 where $|.|$ denotes the absolute value. The error $E_n(x)$ gives us an upper bound on the difference between the actual value of the function and its Taylor series approximation.
@@ -2299,13 +2266,11 @@ Mathematically, the limit of a function $f(x)$ as $x$ approaches a value $a$ is 
 Formally, we write this as:
 
 
-
 $$
 
 \lim_{x \to a} f(x) = L
 
 $$
-
 
 
 This means that for every number $\epsilon > 0$, there exists a number $\delta > 0$ such that if $0 < |x - a| < \delta$, then $|f(x) - L| < \epsilon$.
@@ -2331,13 +2296,11 @@ In the next subsection, we will explore how the concept of limits is used to def
 Continuity is another fundamental concept in calculus that is closely related to the concept of limits. A function $f(x)$ is said to be continuous at a point $a$ if the limit of the function as $x$ approaches $a$ is equal to the value of the function at $a$. Mathematically, this is expressed as:
 
 
-
 $$
 
 \lim_{x \to a} f(x) = f(a)
 
 $$
-
 
 
 This definition implies three conditions that must be met for a function to be continuous at a point $a$:
@@ -2379,13 +2342,11 @@ The derivative of a function, as mentioned in the previous subsection, is a meas
 The derivative of a function $f(x)$ at a point $x=a$ is defined as:
 
 
-
 $$
 
 f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
 
 $$
-
 
 
 This limit, if it exists, gives us the instantaneous rate of change of the function at the point $x=a$. It can be interpreted as the slope of the tangent line to the function at that point.
@@ -2471,7 +2432,6 @@ The Riemann sum is a certain kind of approximation of an integral by a finite su
 Given a function $f(x)$ defined on a closed interval $[a, b]$, we partition the interval into $n$ subintervals of equal width $\Delta x = \frac{b - a}{n}$. We then choose a point $x_i^*$ in each subinterval $[x_{i-1}, x_i]$ and form the sum:
 
 
-
 $$
 
 S_n = \sum_{i=1}^{n} f(x_i^*) \Delta x
@@ -2479,9 +2439,7 @@ S_n = \sum_{i=1}^{n} f(x_i^*) \Delta x
 $$
 
 
-
 This sum, $S_n$, is called a Riemann sum for $f$ over the interval $[a, b]$. The definite integral of $f$ from $a$ to $b$ is then defined as the limit of the Riemann sums as $n$ approaches infinity, if this limit exists.
-
 
 
 $$
@@ -2489,7 +2447,6 @@ $$
 \int_a^b f(x) dx = \lim_{n \to \infty} S_n
 
 $$
-
 
 
 In practice, we often use Riemann sums to approximate definite integrals when the exact value of the integral is difficult or impossible to compute analytically. The accuracy of the approximation improves as $n$ increases.
@@ -2515,13 +2472,11 @@ After understanding the concept of Riemann sums, let's move on to a more efficie
 The trapezoidal rule works by approximating the region under the graph of the function $f(x)$ as a trapezoid and then calculating its area. It is given by the formula:
 
 
-
 $$
 
 \int_a^b f(x) dx \approx \frac{b - a}{2} [f(a) + f(b)]
 
 $$
-
 
 
 This formula is derived from the area formula for a trapezoid, which is the average of the lengths of the bases (in this case, $f(a)$ and $f(b)$) times the height ($b - a$).
@@ -2531,13 +2486,11 @@ This formula is derived from the area formula for a trapezoid, which is the aver
 The trapezoidal rule provides a better approximation of the integral than a Riemann sum with a single interval. However, similar to Riemann sums, the accuracy of the trapezoidal rule improves as the number of intervals increases. For a function $f(x)$ defined on the interval $[a, b]$, we can partition the interval into $n$ subintervals of equal width $\Delta x = \frac{b - a}{n}$, and apply the trapezoidal rule to each subinterval. The formula for the composite trapezoidal rule is:
 
 
-
 $$
 
 \int_a^b f(x) dx \approx \frac{\Delta x}{2} [f(x_0) + 2f(x_1) + 2f(x_2) + \ldots + 2f(x_{n-1}) + f(x_n)]
 
 $$
-
 
 
 In this formula, $x_0, x_1, \ldots, x_n$ are the endpoints of the subintervals, and $f(x_0), f(x_1), \ldots, f(x_n)$ are the function values at these points.
@@ -2567,13 +2520,11 @@ Simpson's Rule is a more accurate method of numerical integration than the Trape
 The formula for Simpson's Rule is given by:
 
 
-
 $$
 
 \int_a^b f(x) dx \approx \frac{\Delta x}{3} [f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + \ldots + 4f(x_{n-1}) + f(x_n)]
 
 $$
-
 
 
 In this formula, $\Delta x = \frac{b - a}{n}$ is the width of each subinterval, and $x_0, x_1, \ldots, x_n$ are the endpoints of the subintervals. The function values at these points are $f(x_0), f(x_1), \ldots, f(x_n)$. Note that the coefficients of the function values alternate between 4 and 2, starting and ending with 1.
@@ -2607,13 +2558,11 @@ Romberg Integration is a two-dimensional array method that combines the trapezoi
 The formula for Romberg Integration is given by:
 
 
-
 $$
 
 R_{i,j} = \frac{4^{j-1} R_{i+1, j-1} - R_{i, j-1}}{4^{j-1} - 1}
 
 $$
-
 
 
 In this formula, $R_{i,j}$ is the $j$th approximation to the integral on the $i$th level of refinement. The $R_{i, j-1}$ terms are the approximations to the integral on the previous level of refinement, and the factor of $4^{j-1}$ comes from the Richardson extrapolation.
@@ -2647,13 +2596,11 @@ The basic idea of Gaussian Quadrature is to approximate the integral of a functi
 The formula for Gaussian Quadrature is given by:
 
 
-
 $$
 
 \int_{-1}^{1} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
 
 $$
-
 
 
 In this formula, $w_i$ are the weights, $x_i$ are the nodes, and $n$ is the number of nodes. The weights and nodes are determined by the roots of the Legendre polynomials and their derivatives. The Legendre polynomials are orthogonal polynomials that are widely used in numerical analysis and other areas of mathematics.
@@ -2727,7 +2674,6 @@ The Taylor series is a fundamental concept in calculus and numerical computation
 The Taylor series of a function $f(x)$ that is infinitely differentiable at a real or complex number $a$ is given by:
 
 
-
 $$
 
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
@@ -2735,9 +2681,7 @@ f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 
 $$
 
 
-
 This can be written more compactly using the summation notation as:
-
 
 
 $$
@@ -2747,7 +2691,6 @@ f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 $$
 
 
-
 where $f^{(n)}(a)$ denotes the $n$th derivative of $f$ evaluated at $a$, and $n!$ is the factorial of $n$.
 
 
@@ -2755,13 +2698,11 @@ where $f^{(n)}(a)$ denotes the $n$th derivative of $f$ evaluated at $a$, and $n!
 A Taylor polynomial is a finite sum of terms of the Taylor series. The $n$th degree Taylor polynomial $P_n(x)$ of $f(x)$ centered at $a$ is given by:
 
 
-
 $$
 
 P_n(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 Taylor polynomials provide an approximation of the function near the point $a$. The accuracy of the approximation improves as the degree of the polynomial increases. However, the computational cost also increases with the degree of the polynomial, so there is a trade-off between accuracy and computational efficiency.
@@ -2783,13 +2724,11 @@ The Taylor series expansion is a powerful tool that allows us to approximate com
 The Taylor series expansion of a function $f(x)$ around a point $a$ is given by:
 
 
-
 $$
 
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
 
 $$
-
 
 
 This series can be truncated at any point to provide an approximation of the function. The more terms we include in the series, the more accurate our approximation will be. However, as we include more terms, the computational cost of calculating the series also increases.
@@ -2799,13 +2738,11 @@ This series can be truncated at any point to provide an approximation of the fun
 The error in the Taylor series approximation is given by the remainder term $R_n(x)$, which is the difference between the actual function value and the approximation provided by the $n$th degree Taylor polynomial. The Lagrange form of the remainder term is given by:
 
 
-
 $$
 
 R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
 
 $$
-
 
 
 where $c$ is a number between $a$ and $x$.
@@ -2867,7 +2804,6 @@ One of the most common applications of the Taylor series is in the numerical sol
 For example, consider the first-order ODE:
 
 
-
 $$
 
 \frac{dy}{dt} = f(t, y)
@@ -2875,9 +2811,7 @@ $$
 $$
 
 
-
 where $f(t, y)$ is a known function. If we know the initial condition $y(t_0) = y_0$, we can approximate the solution at a later time $t_1$ using the Taylor series:
-
 
 
 $$
@@ -2885,7 +2819,6 @@ $$
 y(t_1) \approx y(t_0) + (t_1 - t_0) f(t_0, y_0)
 
 $$
-
 
 
 This is known as the Euler method, which is a simple and widely used numerical method for solving ODEs. The accuracy of the Euler method can be improved by including more terms in the Taylor series.
@@ -5361,7 +5294,6 @@ One of the most common applications of matrices in mechanical engineering is the
 For example, consider a system of three linear equations:
 
 
-
 $$
 
 \begin{align*}
@@ -5375,7 +5307,6 @@ a_{31}x_1 + a_{32}x_2 + a_{33}x_3 &= b_3 \\
 \end{align*}
 
 $$
-
 
 
 This system can be represented as a matrix equation `Ax = b`, where `A` is a 3x3 matrix, `x` is a 3x1 column vector, and `b` is a 3x1 column vector. In C++, this system can be solved using the Eigen library as follows:
@@ -5469,13 +5400,11 @@ In conclusion, arrays and matrices are indispensable tools in the field of numer
 #### Exercise 1
 
 Given the following matrices:
-
 $$
 
 A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}
 
 $$
-
 Compute the sum and product of $A$ and $B$.
 
 
@@ -5483,7 +5412,6 @@ Compute the sum and product of $A$ and $B$.
 #### Exercise 2
 
 Find the determinant and inverse of the following matrix, if it exists:
-
 $$
 
 C = \begin{bmatrix} 9 & 2 \\ 3 & 4 \end{bmatrix}
@@ -5491,17 +5419,14 @@ C = \begin{bmatrix} 9 & 2 \\ 3 & 4 \end{bmatrix}
 $$
 
 
-
 #### Exercise 3
 
 Consider a system of linear equations represented by the following matrix equation:
-
 $$
 
 \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 6 \\ 8 \end{bmatrix}
 
 $$
-
 Solve for $x$ and $y$.
 
 
@@ -5545,13 +5470,11 @@ In conclusion, arrays and matrices are indispensable tools in the field of numer
 #### Exercise 1
 
 Given the following matrices:
-
 $$
 
 A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}
 
 $$
-
 Compute the sum and product of $A$ and $B$.
 
 
@@ -5559,7 +5482,6 @@ Compute the sum and product of $A$ and $B$.
 #### Exercise 2
 
 Find the determinant and inverse of the following matrix, if it exists:
-
 $$
 
 C = \begin{bmatrix} 9 & 2 \\ 3 & 4 \end{bmatrix}
@@ -5567,17 +5489,14 @@ C = \begin{bmatrix} 9 & 2 \\ 3 & 4 \end{bmatrix}
 $$
 
 
-
 #### Exercise 3
 
 Consider a system of linear equations represented by the following matrix equation:
-
 $$
 
 \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 6 \\ 8 \end{bmatrix}
 
 $$
-
 Solve for $x$ and $y$.
 
 
@@ -6271,13 +6190,11 @@ A pseudo-random number generator (PRNG) starts with an arbitrary starting state,
 The most common type of PRNG is the linear congruential generator (LCG). The LCG generates numbers in a sequence according to the following recurrence relation:
 
 
-
 $$
 
 X_{n+1} = (aX_n + c) \mod m
 
 $$
-
 
 
 where $X_n$ is the nth number in the sequence, $a$, $c$, and $m$ are constants, and the modulus operation ensures that the generated numbers lie within a specified range.
@@ -6315,13 +6232,11 @@ The simplest and most common distribution is the uniform distribution. In a unif
 Mathematically, a uniform distribution on the interval $[a, b]$ is described by the probability density function (PDF):
 
 
-
 $$
 
 f(x) = \frac{1}{b - a} \quad \text{for} \quad a \leq x \leq b
 
 $$
-
 
 
 and $f(x) = 0$ otherwise. The mean and variance of a uniform distribution are $\frac{a + b}{2}$ and $\frac{(b - a)^2}{12}$, respectively.
@@ -6339,13 +6254,11 @@ Another common distribution is the normal or Gaussian distribution. In a normal 
 The PDF of a normal distribution with mean $\mu$ and standard deviation $\sigma$ is given by:
 
 
-
 $$
 
 f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-(x - \mu)^2 / (2\sigma^2)}
 
 $$
-
 
 
 The mean, median, and mode of a normal distribution are all equal to $\mu$, and its variance is $\sigma^2$.
@@ -6465,13 +6378,11 @@ The test works as follows:
 4. Compute the Chi-Square statistic, $\chi^2$, using the formula:
 
 
-
 $$
 
 \chi^2 = \sum_{i=1}^{k} \frac{(O_i - E_i)^2}{E_i}
 
 $$
-
 
 
 5. Compare $\chi^2$ with the critical value from the Chi-Square distribution with $k-1$ degrees of freedom. If $\chi^2$ is greater than the critical value, reject the hypothesis that the sequence is random.
@@ -6495,21 +6406,17 @@ The test works as follows:
 2. Calculate the expected number of runs, $E(R)$, and the standard deviation of the number of runs, $\sigma(R)$, using the formulas:
 
 
-
 $$
 
 E(R) = 2n_1n_2/(n_1 + n_2) + 1
 
 $$
 
-
-
 $$
 
 \sigma(R) = \sqrt{[2n_1n_2(2n_1n_2 - n_1 - n_2)]/[(n_1 + n_2)^2(n_1 + n_2 - 1)]}
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the number of positive and negative numbers in the sequence, respectively.
@@ -6519,13 +6426,11 @@ where $n_1$ and $n_2$ are the number of positive and negative numbers in the seq
 3. Compute the Z-score, $Z$, using the formula:
 
 
-
 $$
 
 Z = (R - E(R))/\sigma(R)
 
 $$
-
 
 
 4. Compare $Z$ with the critical value from the standard normal distribution. If $|Z|$ is greater than the critical value, reject the hypothesis that the sequence is random.
@@ -6603,13 +6508,11 @@ The basic idea behind Monte Carlo estimation is to approximate the integral of a
 Given a function $f(x)$ that we want to integrate over a domain $D$, the Monte Carlo estimate of the integral is given by:
 
 
-
 $$
 
 \int_D f(x) dx \approx \frac{V}{N} \sum_{i=1}^{N} f(x_i)
 
 $$
-
 
 
 where $V$ is the volume of the domain $D$, $N$ is the number of random points, and $x_i$ are the randomly chosen points within the domain.
@@ -6631,13 +6534,11 @@ Consider the function $f(x) = x^2$ and we want to compute the integral over the 
 We can use Monte Carlo estimation to approximate this integral. Let's choose $N = 1000$ random points within the interval $[0, 1]$. For each random point $x_i$, we compute the function value $f(x_i) = x_i^2$. The Monte Carlo estimate of the integral is then given by:
 
 
-
 $$
 
 \int_0^1 x^2 dx \approx \frac{1}{1000} \sum_{i=1}^{1000} x_i^2
 
 $$
-
 
 
 The result will be an approximation of the exact integral value $\frac{1}{3}$.
@@ -6663,13 +6564,11 @@ Importance sampling is a technique used to reduce the variance of the Monte Carl
 Given a function $f(x)$ that we want to integrate over a domain $D$, and a probability density function $p(x)$ that is nonzero wherever $f(x)$ is nonzero, the Monte Carlo estimate with importance sampling is given by:
 
 
-
 $$
 
 \int_D f(x) dx \approx \frac{1}{N} \sum_{i=1}^{N} \frac{f(x_i)}{p(x_i)}
 
 $$
-
 
 
 where $x_i$ are random points chosen according to the probability distribution $p(x)$. The function $p(x)$ is called the importance function.
@@ -6691,13 +6590,11 @@ Consider again the function $f(x) = x^2$ and we want to compute the integral ove
 We choose $N = 1000$ random points according to the distribution $p(x)$. For each random point $x_i$, we compute the function value $f(x_i) = x_i^2$ and the importance weight $\frac{1}{p(x_i)} = \frac{1}{2x_i}$. The Monte Carlo estimate with importance sampling is then given by:
 
 
-
 $$
 
 \int_0^1 x^2 dx \approx \frac{1}{1000} \sum_{i=1}^{1000} \frac{x_i^2}{2x_i} = \frac{1}{1000} \sum_{i=1}^{1000} \frac{x_i}{2}
 
 $$
-
 
 
 The result will be an approximation of the exact integral value $\frac{1}{3}$, but with less variance than the basic Monte Carlo estimate.
@@ -6729,13 +6626,11 @@ Stratified sampling is a method that divides the domain of integration into seve
 Given a function $f(x)$ that we want to integrate over a domain $D$, and a partition of $D$ into $M$ non-overlapping strata $D_1, D_2, ..., D_M$, the Monte Carlo estimate with stratified sampling is given by:
 
 
-
 $$
 
 \int_D f(x) dx \approx \sum_{m=1}^{M} \frac{1}{N_m} \sum_{i=1}^{N_m} f(x_{mi})
 
 $$
-
 
 
 where $x_{mi}$ are random points chosen uniformly from the stratum $D_m$, and $N_m$ is the number of points chosen from $D_m$. The choice of the strata and the number of points per stratum can have a significant impact on the efficiency of the computation.
@@ -6753,13 +6648,11 @@ Antithetic variates is a method that uses the correlation between the function v
 Given a function $f(x)$ that we want to integrate over the interval $[0, 1]$, the Monte Carlo estimate with antithetic variates is given by:
 
 
-
 $$
 
 \int_0^1 f(x) dx \approx \frac{1}{N} \sum_{i=1}^{N} \frac{f(x_i) + f(1 - x_i)}{2}
 
 $$
-
 
 
 where $x_i$ are random points chosen uniformly from the interval $[0, 1]$. This method can be particularly effective when the function $f(x)$ is monotonic or has a single peak or trough in the interval.
@@ -6783,7 +6676,6 @@ After obtaining a Monte Carlo estimate of an integral, it is important to quanti
 Given a set of $N$ independent samples $x_1, x_2, ..., x_N$ from a function $f(x)$, the Monte Carlo estimate of the integral of $f(x)$ over a domain $D$ is given by:
 
 
-
 $$
 
 \hat{I} = \frac{1}{N} \sum_{i=1}^{N} f(x_i)
@@ -6791,9 +6683,7 @@ $$
 $$
 
 
-
 The standard error of this estimate, which measures the average amount that this estimate is expected to deviate from the actual value of the integral, is given by:
-
 
 
 $$
@@ -6803,9 +6693,7 @@ SE = \sqrt{\frac{1}{N(N-1)} \sum_{i=1}^{N} (f(x_i) - \hat{I})^2}
 $$
 
 
-
 A 95% confidence interval for the integral is then given by:
-
 
 
 $$
@@ -6813,7 +6701,6 @@ $$
 CI = \hat{I} \pm 1.96 \times SE
 
 $$
-
 
 
 This means that if we were to repeat the Monte Carlo integration many times, each time computing a new estimate and a new confidence interval, then about 95% of these intervals would contain the true value of the integral.
@@ -6847,13 +6734,11 @@ In structural engineering, the reliability of a structure is often evaluated by 
 For example, consider a simple beam subjected to a random load $P$ and having a random strength $S$. The failure function can be defined as $g(P, S) = S - P$. The beam fails when $g(P, S) < 0$. The probability of failure is then given by:
 
 
-
 $$
 
 P_f = \int_{-\infty}^{\infty} \int_{-\infty}^{0} f_P(P) f_S(S) dP dS
 
 $$
-
 
 
 where $f_P(P)$ and $f_S(S)$ are the probability density functions of $P$ and $S$, respectively. This integral can be estimated using Monte Carlo integration.
@@ -7105,7 +6990,6 @@ The basic idea behind importance sampling is to draw samples from a distribution
 The weighting factor, often referred to as the importance weight, is given by the ratio of the probability density function (pdf) of the distribution of interest to the pdf of the importance distribution. If $f(x)$ is the pdf of the distribution of interest and $g(x)$ is the pdf of the importance distribution, the importance weight $w(x)$ for a sample $x$ is given by:
 
 
-
 $$
 
 w(x) = \frac{f(x)}{g(x)}
@@ -7113,9 +6997,7 @@ w(x) = \frac{f(x)}{g(x)}
 $$
 
 
-
 The estimate of the mean of the distribution of interest is then given by the weighted average of the samples:
-
 
 
 $$
@@ -7123,7 +7005,6 @@ $$
 \hat{\mu} = \frac{\sum_{i=1}^{N} w(x_i) x_i}{\sum_{i=1}^{N} w(x_i)}
 
 $$
-
 
 
 where $N$ is the number of samples, $x_i$ is the $i$-th sample, and $w(x_i)$ is the weight of the $i$-th sample.
@@ -7279,13 +7160,11 @@ The error in a Monte Carlo simulation can be broadly classified into two categor
 Statistical error arises due to the inherent randomness in the Monte Carlo method. It is related to the number of samples used in the simulation. As a general rule, the statistical error decreases as the square root of the number of samples. This relationship can be expressed as:
 
 
-
 $$
 
 \sigma \propto \frac{1}{\sqrt{N}}
 
 $$
-
 
 
 where $\sigma$ is the standard deviation (a measure of statistical error) and $N$ is the number of samples.
@@ -7331,13 +7210,11 @@ Error bounds, also known as error bars, provide an estimate of the uncertainty i
 The error bound can be calculated as:
 
 
-
 $$
 
 E = z \cdot \frac{\sigma}{\sqrt{N}}
 
 $$
-
 
 
 where $E$ is the error bound, $z$ is the z-score (which depends on the desired confidence level), $\sigma$ is the standard deviation, and $N$ is the number of samples.
@@ -7355,13 +7232,11 @@ A confidence interval provides a range of values, derived from the statistical a
 The confidence interval can be calculated as:
 
 
-
 $$
 
 CI = \bar{x} \pm E
 
 $$
-
 
 
 where $\bar{x}$ is the sample mean and $E$ is the error bound.
@@ -7403,13 +7278,11 @@ In the context of Monte Carlo methods, error estimation is a crucial aspect of t
 The standard error in Monte Carlo methods is a measure of the variability of the estimate. It is calculated as the standard deviation of the results from multiple simulations divided by the square root of the number of simulations. The standard error can be calculated as:
 
 
-
 $$
 
 SE = \frac{\sigma}{\sqrt{N}}
 
 $$
-
 
 
 where $SE$ is the standard error, $\sigma$ is the standard deviation, and $N$ is the number of simulations.
@@ -7431,13 +7304,11 @@ In many cases, we are interested in a function of several random variables. In s
 The error propagation can be calculated as:
 
 
-
 $$
 
 Var(f) = E[Var(f|X)] + Var[E(f|X)]
 
 $$
-
 
 
 where $Var(f)$ is the variance of the function $f$, $E[Var(f|X)]$ is the expected value of the variance of $f$ given the random variables $X$, and $Var[E(f|X)]$ is the variance of the expected value of $f$ given the random variables $X$.
@@ -7475,13 +7346,11 @@ Sensitivity analysis is a method used to understand the influence of different i
 Local sensitivity analysis is a technique used to estimate the change in the output of a model due to small changes in the input parameters. This is typically done by calculating the partial derivatives of the output with respect to the input parameters. The sensitivity of the output to the $i$-th input parameter can be calculated as:
 
 
-
 $$
 
 S_i = \frac{\partial f}{\partial x_i}
 
 $$
-
 
 
 where $S_i$ is the sensitivity of the output to the $i$-th input parameter, $f$ is the output of the model, and $x_i$ is the $i$-th input parameter.
@@ -7495,13 +7364,11 @@ where $S_i$ is the sensitivity of the output to the $i$-th input parameter, $f$ 
 While local sensitivity analysis provides information about the influence of small changes in the input parameters, global sensitivity analysis provides information about the overall influence of the input parameters on the output. This is typically done by calculating the variance of the output due to the variance of the input parameters. The global sensitivity of the output to the $i$-th input parameter can be calculated as:
 
 
-
 $$
 
 S_i = \frac{Var[E(f|X_i)]}{Var(f)}
 
 $$
-
 
 
 where $S_i$ is the global sensitivity of the output to the $i$-th input parameter, $f$ is the output of the model, $X_i$ is the $i$-th input parameter, and $Var$ and $E$ denote the variance and expected value, respectively.
@@ -7583,13 +7450,11 @@ In system reliability analysis, Monte Carlo methods can be used to simulate the 
 The reliability of the system can then be estimated as:
 
 
-
 $$
 
 R_s = \frac{N_{\text{success}}}{N_{\text{trials}}}
 
 $$
-
 
 
 where $N_{\text{success}}$ is the number of successful trials and $N_{\text{trials}}$ is the total number of trials.
@@ -7635,13 +7500,11 @@ In system risk assessment, Monte Carlo methods can be used to simulate the perfo
 The risk of the system can then be estimated as:
 
 
-
 $$
 
 R_s = \frac{\sum_{i=1}^{N_{\text{trials}}} c_i}{N_{\text{trials}}}
 
 $$
-
 
 
 where $c_i$ is the cost of failure in the $i$-th trial and $N_{\text{trials}}$ is the total number of trials.
@@ -8007,7 +7870,6 @@ Matrix addition and subtraction are the simplest forms of matrix operations. The
 Let's consider two matrices $A$ and $B$ of the same dimensions $m \times n$. The addition of $A$ and $B$ is a new matrix $C$, also of dimensions $m \times n$, where each element $c_{ij}$ is the sum of the corresponding elements $a_{ij}$ and $b_{ij}$ in $A$ and $B$ respectively. Mathematically, this can be represented as:
 
 
-
 $$
 
 C = A + B \quad \text{where} \quad c_{ij} = a_{ij} + b_{ij}
@@ -8015,9 +7877,7 @@ C = A + B \quad \text{where} \quad c_{ij} = a_{ij} + b_{ij}
 $$
 
 
-
 Similarly, the subtraction of $B$ from $A$ is a new matrix $D$, where each element $d_{ij}$ is the difference of the corresponding elements $a_{ij}$ and $b_{ij}$ in $A$ and $B$ respectively. This can be represented as:
-
 
 
 $$
@@ -8025,7 +7885,6 @@ $$
 D = A - B \quad \text{where} \quad d_{ij} = a_{ij} - b_{ij}
 
 $$
-
 
 
 It's important to note that matrix addition and subtraction are only defined for matrices of the same dimensions. If the matrices $A$ and $B$ do not have the same dimensions, these operations are undefined.
@@ -8061,13 +7920,11 @@ Matrix multiplication is another fundamental operation in numerical linear algeb
 Let's consider two matrices $A$ and $B$. If $A$ is of dimensions $m \times n$ and $B$ is of dimensions $n \times p$, then the product of $A$ and $B$ is a new matrix $C$ of dimensions $m \times p$. Each element $c_{ij}$ of $C$ is the sum of the products of the corresponding elements in the $i$-th row of $A$ and the $j$-th column of $B$. Mathematically, this can be represented as:
 
 
-
 $$
 
 C = AB \quad \text{where} \quad c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
 
 $$
-
 
 
 It's important to note that matrix multiplication is only defined if the number of columns in the first matrix is equal to the number of rows in the second matrix. If this condition is not met, the operation is undefined.
@@ -8167,13 +8024,11 @@ Matrix norms and condition numbers are important concepts in numerical linear al
 A **matrix norm** is a scalar value that gives some measure of the "size" or "magnitude" of a matrix. There are several ways to define a matrix norm, but one common way is the Frobenius norm, defined for an $m \times n$ matrix $A$ as 
 
 
-
 $$
 
 \|A\|_F = \sqrt{\sum_{i=1}^{m}\sum_{j=1}^{n} |a_{ij}|^2}
 
 $$
-
 
 
 where $a_{ij}$ is the element in the $i$-th row and $j$-th column of $A$. The Frobenius norm has the property that $\|A\|_F = \|A^T\|_F$, i.e., the Frobenius norm of a matrix is equal to the Frobenius norm of its transpose.
@@ -8183,13 +8038,11 @@ where $a_{ij}$ is the element in the $i$-th row and $j$-th column of $A$. The Fr
 A **condition number** of a matrix, denoted $\kappa(A)$, is a measure of the sensitivity of the solution of a system of linear equations to changes in the system's parameters. If $\kappa(A)$ is large, the system is said to be ill-conditioned, and the solution may be highly sensitive to changes in the system's parameters. The condition number of a matrix $A$ with respect to the norm $\|\cdot\|$ is defined as 
 
 
-
 $$
 
 \kappa(A) = \|A\|\|A^{-1}\|
 
 $$
-
 
 
 where $A^{-1}$ is the inverse of $A$. Note that the condition number is always greater than or equal to 1, and it is equal to 1 if and only if $A$ is a scalar multiple of the identity matrix.
@@ -8459,21 +8312,17 @@ The Thomas algorithm can be expressed mathematically as follows:
 Given a tridiagonal system of equations represented by the matrix equation $[A][x] = [b]$, where $[A]$ is the coefficient matrix, $[x]$ is the vector of unknowns, and $[b]$ is the right-hand side vector, the forward elimination step can be represented as:
 
 
-
 $$
 
 a_i' = a_i - \frac{b_{i-1}c_{i-1}}{a_{i-1}'}
 
 $$
 
-
-
 $$
 
 d_i' = d_i - \frac{b_{i-1}d_{i-1}'}{a_{i-1}'}
 
 $$
-
 
 
 for $i = 2, 3, ..., n$, where $a_i'$ and $d_i'$ are the modified coefficients, and $a_i$, $b_i$, and $c_i$ are the coefficients of the tridiagonal matrix.
@@ -8483,21 +8332,17 @@ for $i = 2, 3, ..., n$, where $a_i'$ and $d_i'$ are the modified coefficients, a
 The back substitution step can be represented as:
 
 
-
 $$
 
 x_n = \frac{d_n'}{a_n'}
 
 $$
 
-
-
 $$
 
 x_i = \frac{d_i' - c_ix_{i+1}}{a_i'}
 
 $$
-
 
 
 for $i = n-1, n-2, ..., 1$, where $x_i$ are the solutions of the system.
@@ -8563,13 +8408,11 @@ Eigenvalues and eigenvectors are fundamental concepts in linear algebra with wid
 An eigenvalue problem is a type of problem in linear algebra where we are interested in finding the scalar values (eigenvalues) and corresponding vectors (eigenvectors) that satisfy the equation:
 
 
-
 $$
 
 A\vec{v} = \lambda\vec{v}
 
 $$
-
 
 
 where $A$ is a square matrix, $\vec{v}$ is the eigenvector, and $\lambda$ is the eigenvalue. 
@@ -8579,13 +8422,11 @@ where $A$ is a square matrix, $\vec{v}$ is the eigenvector, and $\lambda$ is the
 The eigenvalues of a matrix $A$ are the roots of its characteristic polynomial, which is defined by:
 
 
-
 $$
 
 p(\lambda) = \text{det}(A - \lambda I)
 
 $$
-
 
 
 where $I$ is the identity matrix of the same size as $A$. The eigenvectors are then found by substituting each eigenvalue back into the original equation and solving for $\vec{v}$.
@@ -8629,13 +8470,11 @@ The algorithm can be summarized as follows:
 The corresponding eigenvalue can be found by using the Rayleigh quotient:
 
 
-
 $$
 
 \lambda = \frac{\vec{v}^{(k)T}A\vec{v}^{(k)}}{\vec{v}^{(k)T}\vec{v}^{(k)}}
 
 $$
-
 
 
 where $\vec{v}^{(k)T}$ is the transpose of $\vec{v}^{(k)}$.
@@ -8699,13 +8538,11 @@ Singular Value Decomposition (SVD) is another fundamental concept in numerical l
 Given a matrix $A \in \mathbb{R}^{m \times n}$, the singular value decomposition is given by:
 
 
-
 $$
 
 A = U \Sigma V^T
 
 $$
-
 
 
 where:
@@ -8749,13 +8586,11 @@ Eigenvalues and eigenvectors play a crucial role in many areas of mechanical eng
 In the study of vibrations, eigenvalues and eigenvectors are used to analyze the natural frequencies and modes of a system. Consider a system of $n$ masses connected by springs, described by the equation:
 
 
-
 $$
 
 M\ddot{X} + KX = 0
 
 $$
-
 
 
 where $M$ is the mass matrix, $K$ is the stiffness matrix, and $X$ is the displacement vector. The natural frequencies of the system are given by the square roots of the eigenvalues of the matrix $-M^{-1}K$, and the corresponding eigenvectors give the shapes of the vibration modes.
@@ -8817,7 +8652,6 @@ The system of equations can be represented in matrix form as $Ax = b$, where $A$
 The least squares method provides a solution to the overdetermined system by minimizing the sum of the squares of the residuals, which are the differences between the observed and predicted values. The least squares solution, denoted as $\hat{x}$, minimizes the residual sum of squares (RSS):
 
 
-
 $$
 
 RSS = ||b - A\hat{x}||^2
@@ -8825,9 +8659,7 @@ RSS = ||b - A\hat{x}||^2
 $$
 
 
-
 The least squares solution can be found by solving the normal equations:
-
 
 
 $$
@@ -8835,7 +8667,6 @@ $$
 A^TA\hat{x} = A^Tb
 
 $$
-
 
 
 These equations are derived from setting the gradient of the RSS to zero. The normal equations are a set of linear equations that can be solved using standard techniques of numerical linear algebra.
@@ -8857,7 +8688,6 @@ The normal equations, as mentioned in the previous section, are derived from set
 The normal equations are given by:
 
 
-
 $$
 
 A^TA\hat{x} = A^Tb
@@ -8865,9 +8695,7 @@ A^TA\hat{x} = A^Tb
 $$
 
 
-
 This equation is derived by taking the derivative of the RSS with respect to $\hat{x}$ and setting it to zero. The RSS is given by:
-
 
 
 $$
@@ -8877,9 +8705,7 @@ RSS = ||b - A\hat{x}||^2
 $$
 
 
-
 Taking the derivative of the RSS with respect to $\hat{x}$, we get:
-
 
 
 $$
@@ -8887,7 +8713,6 @@ $$
 \frac{d}{d\hat{x}} RSS = -2A^T(b - A\hat{x})
 
 $$
-
 
 
 Setting this derivative to zero gives us the normal equations. 
@@ -8909,13 +8734,11 @@ In the next section, we will discuss the singular value decomposition method and
 The QR decomposition method is another approach to solving least squares problems. This method involves decomposing the matrix $A$ into the product of an orthogonal matrix $Q$ and an upper triangular matrix $R$. The QR decomposition of a matrix is given by:
 
 
-
 $$
 
 A = QR
 
 $$
-
 
 
 The orthogonal matrix $Q$ has the property that $Q^TQ = I$, where $I$ is the identity matrix. The upper triangular matrix $R$ has all zeros below the main diagonal.
@@ -8925,7 +8748,6 @@ The orthogonal matrix $Q$ has the property that $Q^TQ = I$, where $I$ is the ide
 The least squares problem $A\hat{x} = b$ can be rewritten using the QR decomposition as:
 
 
-
 $$
 
 QR\hat{x} = b
@@ -8933,9 +8755,7 @@ QR\hat{x} = b
 $$
 
 
-
 Multiplying both sides by $Q^T$, we get:
-
 
 
 $$
@@ -8943,7 +8763,6 @@ $$
 R\hat{x} = Q^Tb
 
 $$
-
 
 
 Since $R$ is an upper triangular matrix, this system of equations can be solved easily using back substitution.
@@ -8969,13 +8788,11 @@ In the next section, we will discuss the singular value decomposition method and
 The Singular Value Decomposition (SVD) method is another powerful tool for solving least squares problems, especially when the matrix $A$ does not have full column rank. The SVD of a matrix $A$ is given by:
 
 
-
 $$
 
 A = U\Sigma V^T
 
 $$
-
 
 
 where $U$ and $V$ are orthogonal matrices and $\Sigma$ is a diagonal matrix containing the singular values of $A$. The columns of $U$ are the left singular vectors of $A$, and the columns of $V$ are the right singular vectors of $A$.
@@ -8985,7 +8802,6 @@ where $U$ and $V$ are orthogonal matrices and $\Sigma$ is a diagonal matrix cont
 The least squares problem $A\hat{x} = b$ can be rewritten using the SVD as:
 
 
-
 $$
 
 U\Sigma V^T\hat{x} = b
@@ -8993,9 +8809,7 @@ U\Sigma V^T\hat{x} = b
 $$
 
 
-
 Multiplying both sides by $U^T$, we get:
-
 
 
 $$
@@ -9003,7 +8817,6 @@ $$
 \Sigma V^T\hat{x} = U^Tb
 
 $$
-
 
 
 This equation can be solved for $\hat{x}$ by first solving the system $\Sigma y = U^Tb$ for $y$, and then solving the system $V^T\hat{x} = y$ for $\hat{x}$. Since $\Sigma$ and $V^T$ are both diagonal matrices, these systems can be solved easily.
@@ -9045,13 +8858,11 @@ The least squares method is commonly used in system identification to estimate t
 For example, consider a simple linear system described by the equation:
 
 
-
 $$
 
 y = Ax + b
 
 $$
-
 
 
 where $y$ is the output, $x$ is the input, $A$ is the system matrix, and $b$ is the bias vector. Given a set of input-output pairs $(x_i, y_i)$, the least squares method can be used to estimate the parameters $A$ and $b$ that minimize the sum of the squared differences between the observed outputs $y_i$ and the predicted outputs $Ax_i + b$.
@@ -9093,13 +8904,11 @@ One of the most common applications of numerical linear algebra in structural an
 The governing equations of FEA are a set of linear algebraic equations. For instance, the basic static linear equation in FEA is given by:
 
 
-
 $$
 
 [K][D] = [F]
 
 $$
-
 
 
 where $[K]$ is the global stiffness matrix, $[D]$ is the displacement vector, and $[F]$ is the force vector. The stiffness matrix $[K]$ is a square matrix that relates the displacements and the forces within the system. The displacement vector $[D]$ represents the unknown displacements at the nodes of the elements, and the force vector $[F]$ represents the known external forces acting on the system.
@@ -9121,13 +8930,11 @@ Structural dynamics is another area in mechanical engineering where numerical li
 One of the key problems in structural dynamics is the determination of natural frequencies and mode shapes of a structure, which are solutions to an eigenvalue problem. The standard eigenvalue problem in structural dynamics can be represented as:
 
 
-
 $$
 
 [K][\phi] = \lambda[M][\phi]
 
 $$
-
 
 
 where $[K]$ is the stiffness matrix, $[\phi]$ is the mode shape vector, $\lambda$ is the eigenvalue representing the square of the natural frequency, and $[M]$ is the mass matrix. 
@@ -9163,13 +8970,11 @@ Modal analysis is a process used to determine the inherent vibration characteris
 The mathematical representation of a vibrating system can be expressed as a set of linear differential equations. For a system with $n$ degrees of freedom, the equation of motion can be written as:
 
 
-
 $$
 
 [M]\{\ddot{q}\} + [C]\{\dot{q}\} + [K]\{q\} = \{F(t)\}
 
 $$
-
 
 
 where $[M]$ is the mass matrix, $[C]$ is the damping matrix, $[K]$ is the stiffness matrix, $\{q\}$ is the displacement vector, $\{\dot{q}\}$ is the velocity vector, $\{\ddot{q}\}$ is the acceleration vector, and $\{F(t)\}$ is the external force vector.
@@ -9183,13 +8988,11 @@ where $[M]$ is the mass matrix, $[C]$ is the damping matrix, $[K]$ is the stiffn
 The natural frequencies and mode shapes of a system can be determined by solving an eigenvalue problem. This problem is formulated by setting the external force $\{F(t)\}$ to zero and solving the resulting homogeneous system of equations:
 
 
-
 $$
 
 ([K] - \omega^2[M])\{q\} = 0
 
 $$
-
 
 
 where $\omega$ is the natural frequency of the system. This equation represents a standard eigenvalue problem, where the eigenvalues $\omega^2$ correspond to the squares of the natural frequencies, and the eigenvectors $\{q\}$ correspond to the mode shapes.
@@ -9221,17 +9024,14 @@ Control systems are an integral part of mechanical engineering, and numerical li
 Control systems can be represented mathematically as a set of linear differential equations, similar to the representation of vibrating systems. For a single-input, single-output (SISO) system, the standard form of these equations is:
 
 
-
 $$
 
 \dot{x}(t) = Ax(t) + Bu(t)
 
 $$
-
 $$
 
 y(t) = Cx(t) + Du(t)
-
 $$
 
 
@@ -9281,7 +9081,6 @@ System identification involves determining the system matrices $A$, $B$, $C$, an
 
 
 $$
-
 \begin{aligned}
 
 &\min_{A,B,C,D} \sum_{t=1}^{T} \|y(t) - Cx(t) - Du(t)\|^2 \\
@@ -9289,7 +9088,6 @@ $$
 &\text{subject to } \dot{x}(t) = Ax(t) + Bu(t)
 
 \end{aligned}
-
 $$
 
 
@@ -9339,9 +9137,7 @@ Data compression can be mathematically represented using the singular value deco
 
 
 $$
-
 A = U\Sigma V^T
-
 $$
 
 
@@ -9355,9 +9151,7 @@ Data compression involves keeping only the largest singular values and their cor
 
 
 $$
-
 A_k = U_k\Sigma_k V_k^T
-
 $$
 
 
@@ -9411,9 +9205,7 @@ One common operation in image processing is convolution, which involves applying
 
 
 $$
-
 B = A * F
-
 $$
 
 
@@ -9591,9 +9383,7 @@ Unconstrained optimization problems are a class of optimization problems where t
 
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x)
-
 $$
 
 
@@ -9619,9 +9409,7 @@ In mathematical terms, the optimization problem could be formulated as follows:
 
 
 $$
-
 \min_{l, w, h} \rho lwh
-
 $$
 
 

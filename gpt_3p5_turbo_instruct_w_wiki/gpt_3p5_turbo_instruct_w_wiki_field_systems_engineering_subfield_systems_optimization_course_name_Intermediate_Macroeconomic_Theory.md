@@ -7709,9 +7709,7 @@ Autoregressive (AR) models are based on the idea that the current value of a var
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \epsilon_t
-
 $$
 
 
@@ -7725,9 +7723,7 @@ Moving average (MA) models, on the other hand, are based on the idea that the cu
 
 
 $$
-
 y_t = \alpha + \beta \epsilon_{t-1} + \epsilon_t
-
 $$
 
 
@@ -7741,9 +7737,7 @@ Autoregressive moving average (ARMA) models combine the ideas of AR and MA model
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \gamma \epsilon_{t-1} + \epsilon_t
-
 $$
 
 
@@ -7795,9 +7789,7 @@ Autoregressive (AR) models are based on the idea that the current value of a var
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \epsilon_t
-
 $$
 
 
@@ -7811,9 +7803,7 @@ Moving average (MA) models, on the other hand, are based on the idea that the cu
 
 
 $$
-
 y_t = \alpha + \epsilon_t + \theta \epsilon_{t-1}
-
 $$
 
 
@@ -7827,9 +7817,7 @@ Autoregressive moving average (ARMA) models combine the concepts of AR and MA mo
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \epsilon_t + \theta \epsilon_{t-1}
-
 $$
 
 
@@ -7881,9 +7869,7 @@ Autoregressive (AR) models are based on the idea that the current value of a var
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \epsilon_t
-
 $$
 
 
@@ -7897,9 +7883,7 @@ Moving average (MA) models, on the other hand, are based on the idea that the cu
 
 
 $$
-
 y_t = \alpha + \epsilon_t + \theta \epsilon_{t-1}
-
 $$
 
 
@@ -7913,9 +7897,7 @@ Autoregressive moving average (ARMA) models combine both AR and MA components. T
 
 
 $$
-
 y_t = \alpha + \beta y_{t-1} + \epsilon_t + \theta \epsilon_{t-1}
-
 $$
 
 

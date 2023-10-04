@@ -1011,9 +1011,7 @@ The critical stress intensity factor can be calculated using the following equat
 
 
 $$
-
 K_{Ic} = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1067,9 +1065,7 @@ The critical stress intensity factor can be calculated using the following equat
 
 
 $$
-
 K_{Ic} = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1139,9 +1135,7 @@ The critical stress intensity factor can be calculated using the following equat
 
 
 $$
-
 K_{Ic} = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1341,9 +1335,7 @@ The stress intensity factor is typically denoted by the symbol K and is expresse
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1361,9 +1353,7 @@ The stress intensity factor can also be calculated using the following equation:
 
 
 $$
-
 K = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1421,9 +1411,7 @@ The stress intensity factor can also be calculated using indefinite integrals. F
 
 
 $$
-
 \int \frac{K}{\sqrt{a}} \, da \; = \; \frac{K}{2} \sqrt{a} + C
-
 $$
 
 
@@ -1469,9 +1457,7 @@ The stress intensity factor is typically denoted by the symbol K and is expresse
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1489,9 +1475,7 @@ The stress intensity factor can also be calculated using the following equation:
 
 
 $$
-
 K = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1533,9 +1517,7 @@ The stress concentration factor can be calculated using the following equation:
 
 
 $$
-
 Kt = \frac{\sigma_{max}}{\sigma_{nom}}
-
 $$
 
 
@@ -1575,9 +1557,7 @@ The stress intensity factor is typically denoted by the symbol K and is expresse
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1595,9 +1575,7 @@ The stress intensity factor can also be calculated using the following equation:
 
 
 $$
-
 K = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -2131,9 +2109,7 @@ A direct result of the EASM derivation is a variable formulation of C<sub>μ</su
 
 
 $$
-
 C_{\mu} = A_i \eta_1^{i-1}
-
 $$
 
 
@@ -2159,9 +2135,7 @@ The total strain under creep conditions can be denoted as $\epsilon_t$, where:
 
 
 $$
-
 \epsilon_t = \epsilon_g + \epsilon_{gbs} + \epsilon_{dc}
-
 $$
 
 
@@ -2251,9 +2225,7 @@ A direct result of the EASM derivation is a variable formulation of C<sub>μ</su
 
 
 $$
-
 C_{\mu} = \sum_{i=1}^{n} A_i \eta_i
-
 $$
 
 
@@ -2617,9 +2589,7 @@ The Hall-Petch relationship was first proposed by E.O. Hall and N.J. Petch in th
 
 
 $$
-
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
-
 $$
 
 
@@ -2671,9 +2641,7 @@ The Hall-Petch relationship, proposed by E.O. Hall and N.J. Petch in the 1950s, 
 
 
 $$
-
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
-
 $$
 
 
@@ -2765,9 +2733,7 @@ The Hall-Petch relationship, proposed by E.O. Hall and N.J. Petch in the 1950s, 
 
 
 $$
-
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
-
 $$
 
 
@@ -3133,9 +3099,7 @@ The kinetics of eutectoid decomposition can be described by the Avrami equation,
 
 
 $$
-
 \alpha = 1 - e^{-kt^n}
-
 $$
 
 
@@ -3191,9 +3155,7 @@ The formation of bainite is a type of eutectoid decomposition, where the parent 
 
 
 $$
-
 \alpha = 1 - e^{-kt^n}
-
 $$
 
 
@@ -3527,9 +3489,7 @@ To determine the interlaminar fracture toughness, we can use the compliance meth
 
 
 $$
-
 G = \frac{P^2}{2B}\frac{dC}{da}
-
 $$
 
 
@@ -3547,9 +3507,7 @@ ASTM D5528 specifies the use of the double cantilever beam (DCB) specimen geomet
 
 
 $$
-
 G_{Ic}=\frac{3P_C\delta_C}{2Ba}
-
 $$
 
 
@@ -3601,9 +3559,7 @@ To determine the interlaminar fracture toughness, we can use the compliance meth
 
 
 $$
-
 G = \frac{P^2}{2B}\frac{dC}{da}
-
 $$
 
 
@@ -3621,9 +3577,7 @@ ASTM D5528 specifies the use of the double cantilever beam (DCB) specimen geomet
 
 
 $$
-
 G_{Ic}=\frac{3P_C\delta_C}{2Ba}
-
 $$
 
 
@@ -3641,9 +3595,7 @@ ASTM D7905 specifies the use of the end-notched flexure (ENF) specimen geometry 
 
 
 $$
-
 G_{IIC}=\frac{3P_C\delta_C}{4Ba}
-
 $$
 
 
@@ -3695,9 +3647,7 @@ To determine the interlaminar fracture toughness, we can use the compliance meth
 
 
 $$
-
 G = \frac{P^2}{2B}\frac{dC}{da}
-
 $$
 
 
@@ -4761,9 +4711,7 @@ The TRIP effect is found in partially stabilized zirconia. Partially stabilized 
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{M}\epsilon_M V_f
-
 $$
 
 
@@ -4781,9 +4729,7 @@ When a crack propagates in an irregular path, some grains of each side of main c
 
 
 $$
-
 \Delta G_{C} \cong {1\over 8}\mu\sigma_{R} V_f d
-
 $$
 
 
@@ -4813,9 +4759,7 @@ The increment of toughness caused by martensitic transformation can be expressed
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{M}\epsilon_M V_f
-
 $$
 
 
@@ -4829,9 +4773,7 @@ Another aspect of transformation toughening is crack blunting, which occurs when
 
 
 $$
-
 \Delta G_{C} \cong {1\over 8}\mu\sigma_{R} V_f d
-
 $$
 
 
@@ -8165,9 +8107,7 @@ The increment of toughness caused by transformation toughening can be expressed 
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{M}\epsilon_M V_f
-
 $$
 
 
@@ -8215,9 +8155,7 @@ The increment of toughness caused by microcrack toughening can be expressed by t
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{R}(\Delta\alpha)(\Delta T)V_f
-
 $$
 
 
@@ -8281,9 +8219,7 @@ The effectiveness of fiber reinforcement in improving the toughness of ceramics 
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{R}(\Delta\alpha)(\Delta T)V_f
-
 $$
 
 
@@ -8335,9 +8271,7 @@ The effectiveness of fiber reinforcement in improving the toughness of ceramics 
 
 
 $$
-
 \Delta G_{C} \cong 2r_c\sigma_{R}(\Delta\alpha)(\Delta T)V_f
-
 $$
 
 
@@ -8385,9 +8319,7 @@ The effectiveness of particle reinforcement in improving the toughness of cerami
 
 
 $$
-
 \Delta G_{C} \cong 2r_p\sigma_{R}(\Delta\alpha)(\Delta T)V_p
-
 $$
 
 
@@ -8443,9 +8375,7 @@ The effectiveness of particle reinforcement in improving the toughness of cerami
 
 
 $$
-
 \Delta G_{C} \cong 2r_p\sigma_{R}(\Delta\alpha)(\Delta T)V_p
-
 $$
 
 
@@ -10887,9 +10817,7 @@ The total energy release rate, $G$, for a crack in an interface is the sum of th
 
 
 $$
-
 G = G_I + G_{II} + G_{III}
-
 $$
 
 
@@ -11431,9 +11359,7 @@ One of the most well-known relationships between grain size and mechanical prope
 
 
 $$
-
 \sigma_y = \sigma_0 + k_yd^{-1/2}
-
 $$
 
 

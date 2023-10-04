@@ -1344,9 +1344,7 @@ For example, if we roll a fair six-sided die, the PMF is:
 
 
 $$
-
 P(X=x) = \frac{1}{6}, \quad \text{for } x \in \{1, 2, 3, 4, 5, 6\}
-
 $$
 
 
@@ -1364,9 +1362,7 @@ The expectation, or expected value, of a random variable is a measure of the "ce
 
 
 $$
-
 E[X] = \sum_{x} x P(X=x)
-
 $$
 
 
@@ -1376,9 +1372,7 @@ For a continuous random variable $X$ with PDF $f(x)$, the expectation $E[X]$ is 
 
 
 $$
-
 E[X] = \int_{-\infty}^{\infty} x f(x) dx
-
 $$
 
 
@@ -1404,9 +1398,7 @@ Bayes' theorem is a fundamental theorem in probability theory and statistics tha
 
 
 $$
-
 P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}
-
 $$
 
 
@@ -1706,9 +1698,7 @@ The authors then define the strength of an inductive conclusion as the average s
 
 
 $$
-
 I = \frac{1}{n(n-1)} \sum_{i=1}^{n} \sum_{j=1, j\neq i}^{n} s(i, j)
-
 $$
 
 
@@ -1918,9 +1908,7 @@ One of the simplest and most intuitive measures of similarity is the Euclidean d
 
 
 $$
-
 d(p, q) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}
-
 $$
 
 
@@ -1942,9 +1930,7 @@ The cosine similarity $cos(\theta)$ between two vectors $A$ and $B$ is given by 
 
 
 $$
-
 cos(\theta) = \frac{A \cdot B}{||A|| ||B||} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}
-
 $$
 
 
@@ -1962,9 +1948,7 @@ The Jaccard similarity, also known as the Jaccard coefficient, is a measure of s
 
 
 $$
-
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-
 $$
 
 
@@ -3074,9 +3058,7 @@ Bayes' theorem can be stated as follows:
 
 
 $$
-
 P(H|D) = \frac{P(D|H)P(H)}{P(D)}
-
 $$
 
 
@@ -4180,9 +4162,7 @@ Mathematically, associative learning can be represented as a function $f$ that m
 
 
 $$
-
 w_{wm} = \sum_{i=1}^{N} P(w,m|i)
-
 $$
 
 
@@ -4236,9 +4216,7 @@ Mathematically, cross-situational learning can be represented as a function $f$ 
 
 
 $$
-
 w_{wm} = \sum_{i=1}^{N} P(w,m|i)
-
 $$
 
 
@@ -4292,9 +4270,7 @@ Mathematically, the fast mapping process can be represented as a function $f$ th
 
 
 $$
-
 f(w, c) = m
-
 $$
 
 
@@ -4316,9 +4292,7 @@ Mathematically, the SOM model can be represented as a function $f$ that maps a w
 
 
 $$
-
 \Delta w_{wm} = \eta (m - w_{wm})
-
 $$
 
 
@@ -6882,9 +6856,7 @@ Expected Utility Theory is a fundamental theory in decision making that assumes 
 
 
 $$
-
 EU = \sum_{i=1}^{n} p_i u_i
-
 $$
 
 
@@ -7868,9 +7840,7 @@ The expected value (or mean) of a random variable is a key concept in probabilit
 
 
 $$
-
 E[X] = \sum_{i=1}^{n} x_i P(X = x_i)
-
 $$
 
 
@@ -7884,9 +7854,7 @@ For a continuous random variable, the expected value is given by:
 
 
 $$
-
 E[X] = \int_{-\infty}^{\infty} x f(x) dx
-
 $$
 
 
@@ -7916,9 +7884,7 @@ Bayes' theorem, named after Thomas Bayes, describes the probability of an event,
 
 
 $$
-
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-
 $$
 
 
@@ -8016,9 +7982,7 @@ A Bayes net defines a unique joint probability distribution over all of its vari
 
 
 $$
-
 P(X_1, X_2, ..., X_n) = \prod_{i=1}^{n} P(X_i | parents(X_i))
-
 $$
 
 
@@ -8066,9 +8030,7 @@ Given the following joint probability distribution, compute the marginal probabi
 
 
 $$
-
 P(A, B) = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix}
-
 $$
 
 
@@ -8092,9 +8054,7 @@ Given the following prior and likelihood, use Bayes' theorem to compute the post
 
 
 $$
-
 P(H) = 0.6, P(E|H) = 0.7
-
 $$
 
 
@@ -8132,9 +8092,7 @@ Given the following joint probability distribution, compute the marginal probabi
 
 
 $$
-
 P(A, B) = \begin{bmatrix} 0.1 & 0.2 \\ 0.3 & 0.4 \end{bmatrix}
-
 $$
 
 
@@ -8158,9 +8116,7 @@ Given the following prior and likelihood, use Bayes' theorem to compute the post
 
 
 $$
-
 P(H) = 0.6, P(E|H) = 0.7
-
 $$
 
 
@@ -8444,9 +8400,7 @@ One of the most common measures of similarity is the Euclidean distance. This me
 
 
 $$
-
 d(P, Q) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}
-
 $$
 
 
@@ -8464,9 +8418,7 @@ Another common measure of similarity is the cosine similarity. Unlike the Euclid
 
 
 $$
-
 \cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|}
-
 $$
 
 
@@ -8484,9 +8436,7 @@ The Jaccard index, also known as the Jaccard similarity coefficient, is a measur
 
 
 $$
-
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-
 $$
 
 
@@ -8828,9 +8778,7 @@ Mathematically, if we denote the vector representation of an object as $x$, and 
 
 
 $$
-
 s_i = \text{similarity}(x, e_i)
-
 $$
 
 
@@ -8840,9 +8788,7 @@ The object is then classified into the category of the exemplar with the highest
 
 
 $$
-
 \text{category}(x) = \text{argmax}_i s_i
-
 $$
 
 
@@ -8872,9 +8818,7 @@ Mathematically, if we denote the set of theories as $T = \{t_1, t_2, ..., t_n\}$
 
 
 $$
-
 P(t_i | O) = \frac{P(O | t_i) P(t_i)}{P(O)}
-
 $$
 
 
@@ -8884,9 +8828,7 @@ The theory with the highest posterior probability given the observations is then
 
 
 $$
-
 \text{theory}(O) = \text{argmax}_i P(t_i | O)
-
 $$
 
 
@@ -9556,9 +9498,7 @@ Bayes' theorem can be formally stated as follows:
 
 
 $$
-
 P(H|E) = \frac{P(E|H)P(H)}{P(E)}
-
 $$
 
 
@@ -9860,9 +9800,7 @@ The delta rule, for example, is given by:
 
 
 $$
-
 \Delta w_{ij} = \eta (t_j - y_j) x_i
-
 $$
 
 

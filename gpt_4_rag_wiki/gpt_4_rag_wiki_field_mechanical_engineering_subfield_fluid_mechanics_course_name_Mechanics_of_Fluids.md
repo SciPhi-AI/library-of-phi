@@ -392,9 +392,7 @@ This chapter will also introduce the concept of vorticity, a measure of the loca
 
 
 Throughout this chapter, we will use mathematical equations to describe and explain these concepts. For example, the velocity of a fluid particle is represented as `$v(t)$`, where `$t$` is time. The substantial derivative is represented as `$$
-
 \frac{D}{Dt} = ...
-
 $$`, where `$$\frac{D}{Dt}$$` is the substantial derivative operator. 
 
 
@@ -420,9 +418,7 @@ Mathematically, a streamline can be defined by the differential equation:
 
 
 $$
-
 \frac{dx}{u} = \frac{dy}{v} = \frac{dz}{w}
-
 $$
 
 
@@ -508,9 +504,7 @@ Mathematically, a streamline in a two-dimensional flow is defined by the differe
 
 
 $$
-
 \frac{dx}{u} = \frac{dy}{v}
-
 $$
 
 
@@ -532,17 +526,13 @@ Mathematically, a pathline in a two-dimensional flow is defined by the different
 
 
 $$
-
 \frac{dx}{dt} = u(x, y, t)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = v(x, y, t)
-
 $$
 
 
@@ -576,9 +566,7 @@ In a three-dimensional flow, the velocity field is given by:
 
 
 $$
-
 \mathbf{V}(\mathbf{x}, t) = u(x, y, z, t)\mathbf{i} + v(x, y, z, t)\mathbf{j} + w(x, y, z, t)\mathbf{k}
-
 $$
 
 
@@ -612,9 +600,7 @@ The velocity field is continuous in a fluid that is incompressible and has no in
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} = 0
-
 $$
 
 
@@ -636,9 +622,7 @@ The rate of strain is a measure of the rate at which fluid particles are deformi
 
 
 $$
-
 \mathbf{S} = \frac{1}{2}\left(\nabla\mathbf{V} + (\nabla\mathbf{V})^T\right)
-
 $$
 
 
@@ -648,9 +632,7 @@ The vorticity is a measure of the local spinning motion of the fluid, and is giv
 
 
 $$
-
 \mathbf{\Omega} = \frac{1}{2}\left(\nabla\mathbf{V} - (\nabla\mathbf{V})^T\right)
-
 $$
 
 
@@ -736,9 +718,7 @@ Mathematically, the acceleration field, denoted as $\vec{a}$, is defined as the 
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt}
-
 $$
 
 
@@ -980,9 +960,7 @@ This principle is represented mathematically by the continuity equation, which i
 
 
 $$
-
 \rho_1 A_1 v_1 = \rho_2 A_2 v_2
-
 $$
 
 
@@ -1004,9 +982,7 @@ In the context of fluid mechanics, the conservation of mass implies that the mas
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1072,9 +1048,7 @@ In steady flows, the fluid properties at any given point do not change with time
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1088,9 +1062,7 @@ In unsteady flows, the fluid properties at any given point can change with time.
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) \neq 0
-
 $$
 
 
@@ -1104,9 +1076,7 @@ In uniform flows, the velocity at any given point remains constant along the flo
 
 
 $$
-
 \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1116,9 +1086,7 @@ In non-uniform flows, the velocity at any given point can change along the flow 
 
 
 $$
-
 \nabla \cdot (\rho \mathbf{v}) \neq 0
-
 $$
 
 
@@ -1132,9 +1100,7 @@ In one-dimensional flows, the fluid properties only change in one direction. In 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} + \frac{\partial (\rho w)}{\partial z} = 0
-
 $$
 
 
@@ -1164,9 +1130,7 @@ In fluid mechanics, the linear momentum equation is used to analyze the forces a
 
 
 $$
-
 \rho \frac{D \mathbf{v}}{Dt} = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -1208,9 +1172,7 @@ Consider a pipe with a steady, incompressible flow. The linear momentum equation
 
 
 $$
-
 \int_{\text{control volume}} \rho \frac{Dv_x}{Dt} dV = \int_{\text{control surface}} p \mathbf{n}_x dA + \int_{\text{control volume}} \mathbf{f}_x dV
-
 $$
 
 
@@ -1264,9 +1226,7 @@ Consider a steady, incompressible laminar flow in a pipe. The linear momentum eq
 
 
 $$
-
 \int_{\text{control volume}} \rho \frac{Dv_x}{Dt} dV = \int_{\text{control surface}} p \mathbf{n}_x dA + \int_{\text{control volume}} \mathbf{f}_x dV
-
 $$
 
 
@@ -1288,9 +1248,7 @@ However, the linear momentum equation can still be applied to turbulent flow, al
 
 
 $$
-
 \int_{\text{control volume}} \rho \frac{D\overline{v}_x}{Dt} dV = \int_{\text{control surface}} \overline{p} \mathbf{n}_x dA + \int_{\text{control volume}} \mathbf{f}_x dV
-
 $$
 
 
@@ -1324,9 +1282,7 @@ The angular momentum equation for a control volume can be written as:
 
 
 $$
-
 \int_{\text{control volume}} \rho \mathbf{r} \times \frac{D\mathbf{v}}{Dt} dV = \int_{\text{control surface}} \mathbf{r} \times (p \mathbf{n}) dA + \int_{\text{control volume}} \mathbf{r} \times \mathbf{f} dV
-
 $$
 
 
@@ -1364,9 +1320,7 @@ Consider a cylindrical control volume in a vortex flow. The fluid particles in t
 
 
 $$
-
 \int_{\text{control volume}} \rho \mathbf{r} \times \frac{D\mathbf{v}}{Dt} dV = 0
-
 $$
 
 
@@ -1388,9 +1342,7 @@ Consider a control volume that includes a section of the turbomachine. The fluid
 
 
 $$
-
 \int_{\text{control volume}} \rho \mathbf{r} \times \frac{D\mathbf{v}}{Dt} dV = \mathbf{T} + \int_{\text{control surface}} \mathbf{r} \times (\rho \mathbf{v} \mathbf{n}) dA
-
 $$
 
 
@@ -1424,9 +1376,7 @@ Consider a control volume in a potential flow. The fluid particles in the contro
 
 
 $$
-
 \int_{\text{control volume}} \rho \mathbf{r} \times \frac{D\mathbf{v}}{Dt} dV = 0
-
 $$
 
 
@@ -1448,9 +1398,7 @@ Consider a control volume in a boundary layer flow. The fluid particles in the c
 
 
 $$
-
 \int_{\text{control volume}} \rho \mathbf{r} \times \frac{D\mathbf{v}}{Dt} dV = \tau + \int_{\text{control surface}} \mathbf{r} \times \mathbf{v} \cdot d\mathbf{A}
-
 $$
 
 
@@ -1616,7 +1564,6 @@ In three dimensions, the stress tensor can be written as:
 
 
 $$
-
 \sigma = 
 
 \begin{bmatrix}
@@ -1628,7 +1575,6 @@ $$
 \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -1750,7 +1696,6 @@ Mathematically, the stress tensor $\sigma$ is defined as:
 
 
 $$
-
 \sigma = \begin{bmatrix}
 
 \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\
@@ -1760,7 +1705,6 @@ $$
 \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -1774,9 +1718,7 @@ Cauchy's stress principle states that the force exerted by a fluid element on it
 
 
 $$
-
 \vec{F} = \sigma \cdot \vec{A}
-
 $$
 
 
@@ -1886,9 +1828,7 @@ Newtonian fluids are a class of fluids that obey Newton's law of viscosity. This
 
 
 $$
-
 \tau = \mu \frac{du}{dy}
-
 $$
 
 
@@ -1922,9 +1862,7 @@ The stress tensor for a Newtonian fluid can be expressed as:
 
 
 $$
-
 \tau_{ij} = -p\delta_{ij} + \mu \left(\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i}\right)
-
 $$
 
 
@@ -2190,15 +2128,11 @@ Stokes' flow is named after George Gabriel Stokes, a mathematician and physicist
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} - \nabla p = 0
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -2232,9 +2166,7 @@ One of the most striking characteristics of Stokes' flow is its reversibility. A
 
 
 $$
-
 \mathbf{u}(-t) = -\mathbf{u}(t)
-
 $$
 
 
@@ -2252,9 +2184,7 @@ Another characteristic of Stokes' flow is its irrotationality. The vorticity, or
 
 
 $$
-
 \nabla \times \mathbf{u} = 0
-
 $$
 
 
@@ -2328,9 +2258,7 @@ The Reynolds number, denoted as $Re$, is a dimensionless quantity that provides 
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -2368,9 +2296,7 @@ One of the most notable characteristics of low Reynolds number flows is that the
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} = 0
-
 $$
 
 
@@ -2476,9 +2402,7 @@ The lubrication approximation is expressed mathematically as follows:
 
 
 $$
-
 \frac{\partial p}{\partial x} = \frac{12 \mu U h^2}{d^2}
-
 $$
 
 
@@ -2504,7 +2428,6 @@ The lubrication theory, while a simplification of the more complex Navier-Stokes
 
 
     $$
-
     \frac{\mu \frac{\partial U}{\partial y}}{\rho U^2} \gg 1
 
     $$
@@ -2722,21 +2645,17 @@ The boundary layer equations are a set of simplified Navier-Stokes equations tha
 The boundary layer equations can be written in the following form:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial x} + \nu \frac{\partial^2 u}{\partial y^2}
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} + u \frac{\partial v}{\partial x} + v \frac{\partial v}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial y} + \nu \frac{\partial^2 v}{\partial y^2}
 
 $$
-
 
 
 where $u$ and $v$ are the velocity components in the $x$ and $y$ directions, respectively, $p$ is the pressure, $\rho$ is the fluid density, and $\nu$ is the kinematic viscosity.
@@ -2834,13 +2753,11 @@ The mixing length `$l$` is not a fixed quantity, but varies with the distance fr
 Prandtl proposed that the turbulent shear stress `$\tau_t$` is proportional to the product of the mixing length `$l$`, the fluid density `$\rho$`, and the velocity gradient `$\frac{du}{dy}$`, where `$u$` is the fluid velocity and `$y$` is the distance from the wall. This relationship can be expressed as:
 
 
-
 $$
 
 \tau_t = -\rho l^2 \left(\frac{du}{dy}\right)^2
 
 $$
-
 
 
 This equation forms the basis of Prandtl's Mixing Length Theory and is used to derive the velocity distribution in turbulent boundary layer flows. It is important to note that the mixing length `$l$` is not a physical parameter that can be directly measured, but a theoretical construct that must be determined from experimental data or through the use of empirical correlations.
@@ -2946,13 +2863,11 @@ In the laminar boundary layer, the velocity of the fluid varies from zero at the
 The laminar boundary layer can be characterized by the Reynolds number, which is a dimensionless quantity that describes the ratio of inertial forces to viscous forces in the flow. The Reynolds number is defined as:
 
 
-
 $$
 
 Re = \frac{\rho u L}{\mu}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $u$ is the free stream velocity, $L$ is a characteristic length (typically the length of the solid surface), and $\mu$ is the dynamic viscosity of the fluid.
@@ -2990,13 +2905,11 @@ The velocity profile within the laminar boundary layer is parabolic in nature. A
 The thickness of the laminar boundary layer, denoted by $\delta$, increases with the square root of the distance along the surface. This is due to the balance between the viscous forces, which tend to slow down the fluid near the surface, and the inertial forces, which tend to carry the fluid along with the free stream. Mathematically, the boundary layer thickness can be expressed as:
 
 
-
 $$
 
 \delta = \sqrt{\frac{\nu x}{U}}
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity of the fluid, $x$ is the distance along the surface, and $U$ is the free stream velocity.
@@ -3010,13 +2923,11 @@ where $\nu$ is the kinematic viscosity of the fluid, $x$ is the distance along t
 The shear stress at the wall, or the friction drag, is another important characteristic of the laminar boundary layer. It is a measure of the force exerted by the fluid on the surface due to viscosity. The wall shear stress can be calculated using the following formula:
 
 
-
 $$
 
 \tau_w = \mu \left( \frac{du}{dy} \right)_{y=0}
 
 $$
-
 
 
 where $\mu$ is the dynamic viscosity of the fluid, $u$ is the fluid velocity, and $y$ is the distance normal to the surface.
@@ -3362,13 +3273,11 @@ Rayleigh's criterion, named after the British physicist Lord Rayleigh, is a fund
 The criterion states that a necessary condition for the stability of a stratified fluid flow is that its potential energy must not decrease under any infinitesimal perturbation. In mathematical terms, if $\rho$ represents the fluid density and $z$ the vertical coordinate, then the criterion can be expressed as:
 
 
-
 $$
 
 \frac{d}{dz}(\rho \bar{u}) \geq 0
 
 $$
-
 
 
 where $\bar{u}$ is the mean flow velocity. This equation implies that the fluid density must not increase with height in the fluid for the flow to be stable.
@@ -3460,7 +3369,6 @@ The Orr-Sommerfeld equation is a fundamental equation in the study of fluid mech
 
 
 The Orr-Sommerfeld equation is a fourth-order partial differential equation that describes the evolution of small disturbances in a parallel shear flow. It is given by:
-
 
 
 $$

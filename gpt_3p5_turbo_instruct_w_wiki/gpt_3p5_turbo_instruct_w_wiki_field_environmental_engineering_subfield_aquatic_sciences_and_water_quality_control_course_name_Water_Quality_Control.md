@@ -1250,9 +1250,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 D \propto \sqrt{T}
-
 $$
 
 
@@ -1274,9 +1272,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 D \propto \frac{1}{\eta}
-
 $$
 
 
@@ -1298,9 +1294,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 D \propto \frac{1}{r}
-
 $$
 
 
@@ -1322,9 +1316,7 @@ One of the most commonly used models is the Fick's Law of Diffusion, which state
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -1338,9 +1330,7 @@ Another important model is the Stokes-Einstein equation, which relates the diffu
 
 
 $$
-
 D = \frac{k_B T}{6 \pi \eta r}
-
 $$
 
 
@@ -1380,9 +1370,7 @@ To model random walk processes in the context of water quality control, we defin
 
 
 $$
-
 L_{i,j}=k(x_i,x_j)
-
 $$
 
 
@@ -1396,9 +1384,7 @@ We can then define a new kernel, denoted as <math>L^{(\alpha)}</math>, which tak
 
 
 $$
-
 L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alpha}}
-
 $$
 
 
@@ -1408,9 +1394,7 @@ where <math>d(x_i)</math> is the degree of location <math>x_i</math>, and <math>
 
 
 $$
-
 L^{(\alpha)} = D^{-\alpha} L D^{-\alpha}
-
 $$
 
 
@@ -1420,9 +1404,7 @@ where <math>D</math> is a diagonal matrix with <math>D_{i,i} = \sum_j L_{i,j}</m
 
 
 $$
-
 M=({D}^{(\alpha)})^{-1}L^{(\alpha)}
-
 $$
 
 
@@ -1432,9 +1414,7 @@ This matrix <math>M</math> gives the t-step transition probabilities of the diff
 
 
 $$
-
 p(x_j,t|x_i)=M^t_{i,j}
-
 $$
 
 
@@ -1448,9 +1428,7 @@ The eigendecomposition of the matrix <math>M^t</math> yields:
 
 
 $$
-
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j)
-
 $$
 
 
@@ -1494,9 +1472,7 @@ To model random walk processes in the context of water quality control, we defin
 
 
 $$
-
 L_{i,j}=k(x_i,x_j)
-
 $$
 
 
@@ -1510,9 +1486,7 @@ We can then define a new kernel, denoted as <math>L^{(\alpha)}</math>, which tak
 
 
 $$
-
 L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alpha}}
-
 $$
 
 
@@ -2378,9 +2352,7 @@ Mathematically, longitudinal dispersion can be described by the advection-disper
 
 
 $$
-
 \frac{\partial C}{\partial t} = -u\frac{\partial C}{\partial x} + D\frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -3174,9 +3146,7 @@ The Arrhenius equation, derived by Van't Hoff, relates the temperature of a reac
 
 
 $$
-
 \frac{d \ln k^0_e}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3186,9 +3156,7 @@ where $\Delta U^0$ represents the standard internal energy change. This equation
 
 
 $$
-
 \frac{d\ln k_f}{dT} - \frac{d\ln k_b}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3198,9 +3166,7 @@ where $k_f$ and $k_b$ are the forward and backward reaction rates, respectively.
 
 
 $$
-
 \frac{d\ln k_f}{dT} = \text{constant} + \frac{E_f}{RT^2}
-
 $$
 
 
@@ -3210,9 +3176,7 @@ and
 
 
 $$
-
 \frac{d\ln k_b}{dT} = \text{constant} + \frac{E_b}{RT^2}
-
 $$
 
 
@@ -3226,9 +3190,7 @@ Experimental findings have shown that the constants in the above equations can b
 
 
 $$
-
 k_f = A_fe^{-E_f/RT}
-
 $$
 
 
@@ -3238,9 +3200,7 @@ and
 
 
 $$
-
 k_b = A_be^{-E_b/RT}
-
 $$
 
 
@@ -3296,9 +3256,7 @@ The Law of Mass Action, proposed in 1879, states that the rate of a chemical rea
 
 
 $$
-
 \text{rate} = k [A]^{\alpha}[B]^{\beta}
-
 $$
 
 
@@ -3320,9 +3278,7 @@ The Arrhenius equation, derived by Van't Hoff, relates the temperature of a reac
 
 
 $$
-
 \frac{d \ln k^0_e}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3332,9 +3288,7 @@ where $\Delta U^0$ represents the standard internal energy change. This equation
 
 
 $$
-
 \frac{d\ln k_f}{dT} - \frac{d\ln k_b}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3344,9 +3298,7 @@ where $k_f$ and $k_b$ are the forward and backward reaction rates, respectively.
 
 
 $$
-
 \frac{d\ln k_f}{dT} = \text{constant} + \frac{E_f}{RT^2}
-
 $$
 
 
@@ -3356,9 +3308,7 @@ and
 
 
 $$
-
 \frac{d\ln k_b}{dT} = \text{constant} + \frac{E_b}{RT^2}
-
 $$
 
 
@@ -3372,9 +3322,7 @@ Experimental findings have shown that the constants in the above equations can b
 
 
 $$
-
 k_f = A_fe^{-E_f/RT}
-
 $$
 
 
@@ -3384,9 +3332,7 @@ and
 
 
 $$
-
 k_b = A_be^{-E_b/RT}
-
 $$
 
 
@@ -3446,9 +3392,7 @@ The Arrhenius equation, derived by Van't Hoff, relates the temperature of a reac
 
 
 $$
-
 \frac{d \ln k^0_e}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3458,9 +3402,7 @@ where $\Delta U^0$ represents the standard internal energy change. This equation
 
 
 $$
-
 \frac{d\ln k_f}{dT} - \frac{d\ln k_b}{dT} = \frac{\Delta U^0}{RT^2}
-
 $$
 
 
@@ -3470,9 +3412,7 @@ where $k_f$ and $k_b$ are the forward and backward reaction rates, respectively.
 
 
 $$
-
 \frac{d\ln k_f}{dT} = \text{constant} + \frac{E_f}{RT^2}
-
 $$
 
 
@@ -3482,9 +3422,7 @@ and
 
 
 $$
-
 \frac{d\ln k_b}{dT} = \text{constant} + \frac{E_b}{RT^2}
-
 $$
 
 
@@ -3502,9 +3440,7 @@ Using the Arrhenius equation, we can derive the reaction rate constants for both
 
 
 $$
-
 k_f = A_fe^{-E_f/RT}
-
 $$
 
 
@@ -3514,9 +3450,7 @@ and
 
 
 $$
-
 k_b = A_be^{-E_b/RT}
-
 $$
 
 
@@ -3572,9 +3506,7 @@ Mass balance models can be used to predict the behavior of various substances in
 
 
 $$
-
 \frac{dM}{dt} = I - O
-
 $$
 
 
@@ -3596,9 +3528,7 @@ One important consideration when using mass balance models is the assumption of 
 
 
 $$
-
 M = \frac{I}{O}
-
 $$
 
 

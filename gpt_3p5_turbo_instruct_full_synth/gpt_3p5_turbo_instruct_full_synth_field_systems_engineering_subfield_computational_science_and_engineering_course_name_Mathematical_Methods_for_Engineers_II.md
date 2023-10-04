@@ -1227,9 +1227,7 @@ Accuracy is a crucial aspect of any numerical method, and it is especially impor
 
 
 $$
-
 \Delta y = \frac{y(x+h) - y(x)}{h}
-
 $$
 
 
@@ -1277,9 +1275,7 @@ Accuracy is a crucial aspect of any numerical method, and it is especially impor
 
 
 $$
-
 \Delta y = \frac{y(x+h) - y(x)}{h}
-
 $$
 
 
@@ -1347,9 +1343,7 @@ Accuracy is a crucial aspect of any numerical method, and it is especially impor
 
 
 $$
-
 \Delta y = \frac{y(x+h) - y(x)}{h}
-
 $$
 
 
@@ -1417,9 +1411,7 @@ The wave equation is given by:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1471,9 +1463,7 @@ The wave equation is given by:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1521,9 +1511,7 @@ The wave equation is given by:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1587,9 +1575,7 @@ The heat equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1615,9 +1601,7 @@ The convection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} + \beta \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -1661,9 +1645,7 @@ The heat equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1689,9 +1671,7 @@ The convection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} + \beta \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -1739,9 +1719,7 @@ The heat equation is a fundamental tool for understanding the behavior of heat i
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1767,9 +1745,7 @@ The convection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} + \beta \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -2081,9 +2057,7 @@ To illustrate the use of separation of variables, let us consider the Navier-Sto
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2093,9 +2067,7 @@ where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pre
 
 
 $$
-
 \mathbf{u}(x,y,z,t) = X(x)Y(y)Z(z)T(t)
-
 $$
 
 
@@ -2105,9 +2077,7 @@ Substituting this into the Navier-Stokes equation, we get:
 
 
 $$
-
 \rho \left(X'YTZ + XY'ZT + XYZ'T + XYZT'\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2117,9 +2087,7 @@ where $X' = \frac{dX}{dx}$, $Y' = \frac{dY}{dy}$, and $Z' = \frac{dZ}{dz}$. Rear
 
 
 $$
-
 \frac{X'Y}{X} + \frac{XY'}{Y} + \frac{XZ'}{Z} + \frac{XT'}{T} = -\frac{1}{\rho}\nabla p + \frac{\mu}{\rho}\nabla^2 \mathbf{u} + \frac{\mathbf{f}}{\rho XYZT}
-
 $$
 
 
@@ -2129,25 +2097,19 @@ Since the left-hand side of the equation is a function of different variables, a
 
 
 $$
-
 \frac{X'Y}{X} + \frac{XY'}{Y} = \lambda_1
-
 $$
 
 
 
 $$
-
 \frac{XZ'}{Z} + \frac{XT'}{T} = \lambda_2
-
 $$
 
 
 
 $$
-
 -\frac{1}{\rho}\nabla p + \frac{\mu}{\rho}\nabla^2 \mathbf{u} + \frac{\mathbf{f}}{\rho XYZT} = \lambda_3
-
 $$
 
 
@@ -2199,9 +2161,7 @@ To illustrate the use of separation of variables, let us consider the Navier-Sto
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2211,9 +2171,7 @@ where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pre
 
 
 $$
-
 \mathbf{u}(x,y,z,t) = X(x)Y(y)Z(z)T(t)
-
 $$
 
 
@@ -2223,9 +2181,7 @@ Substituting this into the Navier-Stokes equation, we get:
 
 
 $$
-
 \rho \left(X'YTZ + XY'ZT + XYZ'T + XYZT'\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2235,9 +2191,7 @@ where $X' = \frac{dX}{dx}$, $Y' = \frac{dY}{dy}$, and $Z' = \frac{dZ}{dz}$. Rear
 
 
 $$
-
 \frac{X'Y}{X} + \frac{XY'}{Y} + \frac{XZ'}{Z} + \frac{XT'}{T} = -\frac{1}{\rho}\nabla p + \frac{\mu}{\rho}\nabla^2 \mathbf{u} + \frac{\mathbf{f}}{\rho XYZT}
-
 $$
 
 
@@ -2247,17 +2201,13 @@ Since the left-hand side of the equation is a function of different variables, a
 
 
 $$
-
 \frac{X'Y}{X} + \frac{XY'}{Y} + \frac{XZ'}{Z} + \frac{XT'}{T} = \lambda
-
 $$
 
 
 
 $$
-
 -\frac{1}{\rho}\nabla p + \frac{\mu}{\rho}\nabla^2 \mathbf{u} + \frac{\mathbf{f}}{\rho XYZT} = \lambda
-
 $$
 
 
@@ -2313,9 +2263,7 @@ To illustrate the use of spectral methods, let us consider the Navier-Stokes equ
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2325,17 +2273,13 @@ We can rewrite this equation in terms of the velocity potential $\phi$ and strea
 
 
 $$
-
 \frac{\partial \phi}{\partial t} + \frac{\partial \psi}{\partial x} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \frac{\mu}{\rho}\nabla^2 \psi + \frac{f_x}{\rho}
-
 $$
 
 
 
 $$
-
 \frac{\partial \phi}{\partial t} + \frac{\partial \psi}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial y} + \frac{\mu}{\rho}\nabla^2 \psi + \frac{f_y}{\rho}
-
 $$
 
 
@@ -2395,9 +2339,7 @@ In conclusion, Maxwell's equations and the staggered leapfrog method are powerfu
 Using the staggered leapfrog method, solve the following partial differential equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 where $c$ is a constant and $u(x, t)$ is a function of position and time.
@@ -2409,9 +2351,7 @@ where $c$ is a constant and $u(x, t)$ is a function of position and time.
 Derive the wave equation from Maxwell's equations in vacuum:
 
 $$
-
 \frac{\partial^2 E}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 E}{\partial t^2}
-
 $$
 
 where $E$ is the electric field and $c$ is the speed of light.
@@ -2463,9 +2403,7 @@ In conclusion, Maxwell's equations and the staggered leapfrog method are powerfu
 Using the staggered leapfrog method, solve the following partial differential equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 where $c$ is a constant and $u(x, t)$ is a function of position and time.
@@ -2477,9 +2415,7 @@ where $c$ is a constant and $u(x, t)$ is a function of position and time.
 Derive the wave equation from Maxwell's equations in vacuum:
 
 $$
-
 \frac{\partial^2 E}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 E}{\partial t^2}
-
 $$
 
 where $E$ is the electric field and $c$ is the speed of light.
@@ -2643,7 +2579,6 @@ The process of elimination with reordering involves three main steps: reordering
 
 
 $$
-
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n = b_1 \\
 
 a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n = b_2 \\
@@ -2651,7 +2586,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n = b_2 \\
 ... \\
 
 a_{n1}x_1 + a_{n2}x_2 + ... + a_{nn}x_n = b_n
-
 $$
 
 
@@ -2661,7 +2595,6 @@ The first step is to reorder the equations in a way that simplifies the process 
 
 
 $$
-
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n = b_1 \\
 
 0 + (a_{22} - \frac{a_{21}}{a_{11}}a_{12})x_2 + ... + (a_{2n} - \frac{a_{21}}{a_{11}}a_{1n})x_n = b_2 - \frac{a_{21}}{a_{11}}b_1 \\
@@ -2669,7 +2602,6 @@ a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n = b_1 \\
 ... \\
 
 0 + (a_{n2} - \frac{a_{n1}}{a_{11}}a_{12})x_2 + ... + (a_{nn} - \frac{a_{n1}}{a_{11}}a_{1n})x_n = b_n - \frac{a_{n1}}{a_{11}}b_1
-
 $$
 
 
@@ -3363,17 +3295,13 @@ The Stokes equations can be written in vector form as:
 
 
 $$
-
 \nabla \cdot \boldsymbol{u} = 0
-
 $$
 
 
 
 $$
-
 \nabla \cdot \boldsymbol{\sigma} + \rho \boldsymbol{g} = 0
-
 $$
 
 
@@ -3461,7 +3389,6 @@ In conclusion, this chapter has provided a comprehensive overview of solving lar
 Solve the following linear system using Gaussian elimination:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -3493,7 +3420,6 @@ x_3
 8
 
 \end{bmatrix}
-
 $$
 
 
@@ -3503,7 +3429,6 @@ $$
 Find the LU decomposition of the following matrix:
 
 $$
-
 \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -3513,7 +3438,6 @@ $$
 6 & 12 & 18
 
 \end{bmatrix}
-
 $$
 
 
@@ -3523,7 +3447,6 @@ $$
 Solve the following linear system using the Jacobi method:
 
 $$
-
 \begin{bmatrix}
 
 4 & -1 & 1 \\
@@ -3555,7 +3478,6 @@ x_3
 6
 
 \end{bmatrix}
-
 $$
 
 
@@ -3599,7 +3521,6 @@ In conclusion, this chapter has provided a comprehensive overview of solving lar
 Solve the following linear system using Gaussian elimination:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -3631,7 +3552,6 @@ x_3
 8
 
 \end{bmatrix}
-
 $$
 
 
@@ -3641,7 +3561,6 @@ $$
 Find the LU decomposition of the following matrix:
 
 $$
-
 \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -3651,7 +3570,6 @@ $$
 6 & 12 & 18
 
 \end{bmatrix}
-
 $$
 
 
@@ -3661,7 +3579,6 @@ $$
 Solve the following linear system using the Jacobi method:
 
 $$
-
 \begin{bmatrix}
 
 4 & -1 & 1 \\
@@ -3693,7 +3610,6 @@ x_3
 6
 
 \end{bmatrix}
-
 $$
 
 
@@ -3943,9 +3859,7 @@ Newton's method is an iterative optimization algorithm that uses the gradient an
 
 
 $$
-
 \Delta \mathbf{w} = -\mathbf{H}^{-1}\nabla J(\mathbf{w})
-
 $$
 
 
@@ -4169,9 +4083,7 @@ The process of solving constrained optimization problems can be broken down into
 
 
 $$
-
 L(x, \lambda) = f(x) + \lambda g(x)
-
 $$
 
 
@@ -4221,25 +4133,19 @@ Maximize $f(x,y) = x^2 + y^2$ subject to the constraint $x + y = 1$.
 
 
 $$
-
 \frac{\partial L}{\partial x} = 2x + \lambda = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial L}{\partial y} = 2y + \lambda = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial L}{\partial \lambda} = x + y - 1 = 0
-
 $$
 
 
@@ -4471,9 +4377,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -4499,9 +4403,7 @@ To better understand the principle of linearity in quantum mechanics, let's cons
 
 
 $$
-
 \psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4515,9 +4417,7 @@ If we have two particles in this box, the total wavefunction can be expressed as
 
 
 $$
-
 \psi_{total}(x_1, x_2) = \psi(x_1) \psi(x_2)
-
 $$
 
 
@@ -4549,9 +4449,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -4577,9 +4475,7 @@ To better understand the principle of linearity in quantum mechanics, let's cons
 
 
 $$
-
 \psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4593,9 +4489,7 @@ Now, let's consider a system with two particles in a one-dimensional box. The to
 
 
 $$
-
 \psi_{total}(x_1, x_2) = c_1 \psi_1(x_1) \psi_2(x_2) + c_2 \psi_2(x_1) \psi_1(x_2)
-
 $$
 
 
@@ -4643,9 +4537,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -4683,9 +4575,7 @@ To better understand the principle of linearity in quantum mechanics, let's cons
 
 
 $$
-
 \psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4729,9 +4619,7 @@ Mathematically, the principle of superposition can be expressed as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -4775,9 +4663,7 @@ Mathematically, the principle of superposition can be expressed as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -4799,9 +4685,7 @@ The use of complex numbers in quantum mechanics has many practical applications.
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -4815,9 +4699,7 @@ Another important application of complex numbers in quantum mechanics is in the 
 
 
 $$
-
 P_{i \rightarrow f} = \left| \int \psi_f^* \psi_i dx \right|^2
-
 $$
 
 
@@ -4861,9 +4743,7 @@ Mathematically, the principle of superposition can be expressed as:
 
 
 $$
-
 \psi_{total} = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -5495,9 +5375,7 @@ To understand the behavior of particles in two-slit experiments, we must first i
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -5511,9 +5389,7 @@ In two-slit experiments, particles are sent through two parallel slits, creating
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -5553,9 +5429,7 @@ To understand the behavior of particles in two-slit experiments, we must first i
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -5569,9 +5443,7 @@ In two-slit experiments, particles are sent through two parallel slits, creating
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -5623,9 +5495,7 @@ To understand the behavior of particles in two-slit experiments, we must first i
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -5639,9 +5509,7 @@ In two-slit experiments, particles are sent through two parallel slits, creating
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -5709,9 +5577,7 @@ The interferometer consists of a beam splitter, which splits the incoming beam i
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -5755,9 +5621,7 @@ The interferometer consists of a beam splitter, which splits the incoming beam i
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -5813,9 +5677,7 @@ The interferometer consists of a beam splitter, which splits the incoming beam i
 
 
 $$
-
 I = I_0 \cos^2 \left(\frac{\pi d \sin \theta}{\lambda}\right)
-
 $$
 
 
@@ -6281,9 +6143,7 @@ According to the de Broglie hypothesis, all particles have a wavelength associat
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -6335,9 +6195,7 @@ According to the de Broglie hypothesis, all particles have a wavelength associat
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -6367,9 +6225,7 @@ For example, let's consider an electron with a momentum of $1 \times 10^{-24}$ k
 
 
 $$
-
 \lambda = \frac{6.626 \times 10^{-34} \text{ J s}}{1 \times 10^{-24} \text{ kg m/s}} = 6.626 \times 10^{-10} \text{ m}
-
 $$
 
 
@@ -6413,9 +6269,7 @@ According to the de Broglie hypothesis, all particles have a wavelength associat
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -6613,9 +6467,7 @@ In this section, we will focus on the Galilean transformation of the de Broglie 
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -6629,17 +6481,13 @@ Now, let us consider a particle with mass $m$ and velocity $v$ in a reference fr
 
 
 $$
-
 p' = p + mu
-
 $$
 
 
 
 $$
-
 v' = v + u
-
 $$
 
 
@@ -6649,9 +6497,7 @@ Using these equations, we can derive the Galilean transformation of the de Brogl
 
 
 $$
-
 \lambda' = \frac{h}{p'} = \frac{h}{p + mu} = \frac{h}{p} \cdot \frac{1}{1 + \frac{mu}{p}} = \frac{\lambda}{1 + \frac{mu}{p}}
-
 $$
 
 
@@ -6665,9 +6511,7 @@ Now, let us consider a specific example to better understand the Galilean transf
 
 
 $$
-
 \lambda' = \frac{\lambda}{1 + \frac{mu}{p}} = \frac{10^{-10}}{1 + \frac{(9.11 \times 10^{-31})(10^5)}{(9.11 \times 10^{-31})(10^6)}} = \frac{10^{-10}}{1 + 0.1} = 9.09 \times 10^{-11} \text{ meters}
-
 $$
 
 
@@ -6715,9 +6559,7 @@ As mentioned in the previous section, the de Broglie wavelength is given by the 
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -6731,17 +6573,13 @@ Now, let us consider a particle with mass $m$ and velocity $v$ in a reference fr
 
 
 $$
-
 p' = p + mu
-
 $$
 
 
 
 $$
-
 v' = v + u
-
 $$
 
 
@@ -6751,9 +6589,7 @@ Using these equations, we can derive the Galilean transformation of the de Brogl
 
 
 $$
-
 \lambda' = \frac{h}{p'} = \frac{h}{p + mu} = \frac{h}{p} \cdot \frac{1}{1 + \frac{mu}{p}} = \frac{\lambda}{1 + \frac{mu}{p}}
-
 $$
 
 
@@ -6767,17 +6603,13 @@ To better understand the implications of this equation, let us consider a specif
 
 
 $$
-
 p' = p + mu = (9.11 \times 10^{-31})(2.2 \times 10^6) + (9.11 \times 10^{-31})(1.5 \times 10^6) = 2.2 \times 10^{-25} \text{ kg m/s}
-
 $$
 
 
 
 $$
-
 v' = v + u = 2.2 \times 10^6 + 1.5 \times 10^6 = 3.7 \times 10^6 \text{ m/s}
-
 $$
 
 
@@ -6787,9 +6619,7 @@ Using these values, we can calculate the de Broglie wavelength in $S'$ as:
 
 
 $$
-
 \lambda' = \frac{h}{p'} = \frac{6.63 \times 10^{-34}}{2.2 \times 10^{-25}} = 3.01 \times 10^{-9} \text{ m}
-
 $$
 
 
@@ -6825,9 +6655,7 @@ In the Bohr model of the atom, electrons are assumed to orbit the nucleus in cir
 
 
 $$
-
 E_n = -\frac{Z^2}{n^2} \cdot \frac{m_e e^4}{8 \epsilon_0^2 h^2}
-
 $$
 
 
@@ -6841,9 +6669,7 @@ Now, let us consider an atom in a reference frame $S$ where it is at rest. The d
 
 
 $$
-
 \lambda = \frac{h}{p} = \frac{h}{m_e v}
-
 $$
 
 
@@ -6853,9 +6679,7 @@ where $v$ is the velocity of the electron. However, if we observe the same atom 
 
 
 $$
-
 \lambda' = \frac{\lambda}{1 + \frac{mu}{p}} = \frac{h}{m_e v \left(1 + \frac{mu}{p}\right)}
-
 $$
 
 
@@ -6865,9 +6689,7 @@ Using the relation between momentum and velocity, we can rewrite this equation a
 
 
 $$
-
 \lambda' = \frac{h}{m_e v \left(1 + \frac{mu}{m_e v}\right)} = \frac{h}{m_e v + mu}
-
 $$
 
 
@@ -6881,9 +6703,7 @@ To understand the implications of this, let us consider the hydrogen atom, which
 
 
 $$
-
 E_n = -\frac{m_e e^4}{8 \epsilon_0^2 h^2} \cdot \frac{1}{n^2}
-
 $$
 
 
@@ -6893,9 +6713,7 @@ However, in the moving frame $S'$, the energy levels are given by:
 
 
 $$
-
 E_n' = -\frac{m_e e^4}{8 \epsilon_0^2 h^2} \cdot \frac{1}{\left(n + \frac{mu}{m_e v}\right)^2}
-
 $$
 
 
@@ -6935,9 +6753,7 @@ The group velocity of a wave-packet is the velocity at which the peak of the pac
 
 
 $$
-
 E = \frac{p^2}{2m}
-
 $$
 
 
@@ -6947,9 +6763,7 @@ Taking the derivative with respect to $p$, we get:
 
 
 $$
-
 \frac{dE}{dp} = \frac{p}{m}
-
 $$
 
 
@@ -6989,9 +6803,7 @@ The group velocity of a wave-packet is the velocity at which the peak of the pac
 
 
 $$
-
 E = \frac{p^2}{2m}
-
 $$
 
 
@@ -7001,9 +6813,7 @@ Taking the derivative with respect to $p$, we get:
 
 
 $$
-
 \frac{dE}{dp} = \frac{p}{m}
-
 $$
 
 
@@ -7063,9 +6873,7 @@ The group velocity of a wave-packet is the velocity at which the peak of the pac
 
 
 $$
-
 E = \frac{p^2}{2m}
-
 $$
 
 
@@ -7075,9 +6883,7 @@ Taking the derivative with respect to $p$, we get:
 
 
 $$
-
 \frac{dE}{dp} = \frac{p}{m}
-
 $$
 
 
@@ -7145,9 +6951,7 @@ The de Broglie wavelength, denoted by $\lambda$, is given by:
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7173,9 +6977,7 @@ Moreover, the matter wave for a particle also plays a crucial role in the study 
 
 
 $$
-
 E = \frac{h^2}{2m\lambda^2}
-
 $$
 
 
@@ -7215,9 +7017,7 @@ The de Broglie wavelength, denoted by $\lambda$, is given by:
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7243,9 +7043,7 @@ For example, let's consider an electron with a momentum of 5 kg*m/s. Using the d
 
 
 $$
-
 \lambda = \frac{h}{p} = \frac{6.626 \times 10^{-34} J\cdot s}{5 kg\cdot m/s} = 1.325 \times 10^{-34} m
-
 $$
 
 
@@ -7301,9 +7099,7 @@ The de Broglie wavelength, denoted by $\lambda$, is given by:
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7325,9 +7121,7 @@ Now that we understand the concept of matter waves, let's explore how we can cal
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -7341,9 +7135,7 @@ The Hamiltonian operator, $\hat{H}$, is given by:
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + V(x)
-
 $$
 
 
@@ -7387,9 +7179,7 @@ In classical mechanics, the position and momentum of a particle are described by
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -7399,9 +7189,7 @@ where $\hbar$ is the reduced Planck's constant and $\frac{\partial}{\partial x}$
 
 
 $$
-
 \hat{x} = x
-
 $$
 
 
@@ -7423,9 +7211,7 @@ The commutation relation between the momentum and position operators is given by
 
 
 $$
-
 [\hat{x}, \hat{p}] = i\hbar
-
 $$
 
 
@@ -7469,9 +7255,7 @@ In classical mechanics, the position and momentum of a particle are described by
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -7481,9 +7265,7 @@ where $\hbar$ is the reduced Planck's constant and $\frac{\partial}{\partial x}$
 
 
 $$
-
 \hat{x} = x
-
 $$
 
 
@@ -7505,9 +7287,7 @@ The commutation relation between the momentum and position operators is given by
 
 
 $$
-
 [\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar
-
 $$
 
 
@@ -7525,9 +7305,7 @@ The momentum and position operators are essential tools in solving quantum mecha
 
 
 $$
-
 \langle \hat{p} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{p} \psi(x) dx
-
 $$
 
 
@@ -7537,9 +7315,7 @@ Similarly, the expectation value of the position operator is given by:
 
 
 $$
-
 \langle \hat{x} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{x} \psi(x) dx
-
 $$
 
 
@@ -7575,9 +7351,7 @@ In classical mechanics, the position and momentum of a particle are described by
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -7587,9 +7361,7 @@ where $\hbar$ is the reduced Planck's constant and $\frac{\partial}{\partial x}$
 
 
 $$
-
 \hat{x} = x
-
 $$
 
 
@@ -7611,9 +7383,7 @@ The commutation relation between the momentum and position operators is given by
 
 
 $$
-
 [\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar
-
 $$
 
 
@@ -7631,9 +7401,7 @@ The momentum and position operators have many applications in quantum mechanics.
 
 
 $$
-
 \langle \hat{p} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{p} \psi(x) dx
-
 $$
 
 
@@ -7643,9 +7411,7 @@ where $\psi(x)$ is the wave function of the particle. This integral represents t
 
 
 $$
-
 \langle \hat{x} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{x} \psi(x) dx
-
 $$
 
 
@@ -7659,9 +7425,7 @@ Another important application of the momentum and position operators is in the c
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -7693,9 +7457,7 @@ The Schrödinger equation is a partial differential equation that describes the 
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)
-
 $$
 
 
@@ -7771,9 +7533,7 @@ The Schrödinger equation is a partial differential equation that describes the 
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)
-
 $$
 
 
@@ -7837,9 +7597,7 @@ The Schrödinger equation is a partial differential equation that describes the 
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)
-
 $$
 
 
@@ -8037,9 +7795,7 @@ To better understand the concept of probability density, let us consider the exa
 
 
 $$
-
 \psi(x,t) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)e^{-i\omega_n t}
-
 $$
 
 
@@ -8049,9 +7805,7 @@ where $L$ is the length of the box, $n$ is the quantum number, and $\omega_n$ is
 
 
 $$
-
 |\psi(x,t)|^2 = \frac{2}{L}\sin^2\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -8087,9 +7841,7 @@ To better understand the concept of probability density, let us consider the exa
 
 
 $$
-
 \psi(x,t) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)e^{-i\omega_n t}
-
 $$
 
 
@@ -8099,9 +7851,7 @@ where $L$ is the length of the box, $n$ is the quantum number, and $\omega_n$ is
 
 
 $$
-
 |\psi(x,t)|^2 = \frac{2}{L}\sin^2\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -8153,9 +7903,7 @@ To better understand the concept of probability density, let us consider the exa
 
 
 $$
-
 \psi(x,t) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)e^{-i\omega_n t}
-
 $$
 
 
@@ -8165,9 +7913,7 @@ where $L$ is the length of the box, $n$ is the quantum number, and $\omega_n$ is
 
 
 $$
-
 |\psi(x,t)|^2 = \frac{2}{L}\sin^2\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -8219,9 +7965,7 @@ The probability current is denoted by $J(x,t)$ and is defined as:
 
 
 $$
-
 J(x,t) = \frac{i\hbar}{2m}\left(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x}\right)
-
 $$
 
 
@@ -8239,9 +7983,7 @@ To better understand the concept of probability current, let us consider the exa
 
 
 $$
-
 |\psi(x,t)|^2 = \frac{2}{L}\sin^2\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -8251,9 +7993,7 @@ Taking the derivative of this equation with respect to $x$, we get:
 
 
 $$
-
 \frac{\partial|\psi(x,t)|^2}{\partial x} = \frac{2n\pi}{L}\cos\left(\frac{n\pi x}{L}\right)\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -8263,9 +8003,7 @@ Substituting this into the equation for probability current, we get:
 
 
 $$
-
 J(x,t) = \frac{i\hbar}{2m}\left(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x}\right) = \frac{i\hbar}{2m}\left(\frac{2n\pi}{L}\cos\left(\frac{n\pi x}{L}\right)\sin\left(\frac{n\pi x}{L}\right) - \frac{2n\pi}{L}\cos\left(\frac{n\pi x}{L}\right)\sin\left(\frac{n\pi x}{L}\right)\right) = 0
-
 $$
 
 
@@ -8301,9 +8039,7 @@ As mentioned in the previous section, the probability current is defined as:
 
 
 $$
-
 J(x,t) = \frac{i\hbar}{2m}\left(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x}\right)
-
 $$
 
 
@@ -8367,9 +8103,7 @@ As mentioned in the previous section, the probability current is defined as:
 
 
 $$
-
 J(x,t) = \frac{i\hbar}{2m}\left(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x}\right)
-
 $$
 
 
@@ -8495,9 +8229,7 @@ To prove current conservation mathematically, we can use the continuity equation
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial j}{\partial x} = 0
-
 $$
 
 
@@ -8511,9 +8243,7 @@ Now, let us consider a small region within the quantum system, with boundaries a
 
 
 $$
-
 I_{in} = \int_{x_1}^{x_2} j(x,t) dx
-
 $$
 
 
@@ -8523,9 +8253,7 @@ Similarly, the total probability current flowing out of this region can be writt
 
 
 $$
-
 I_{out} = \int_{x_1}^{x_2} j(x,t) dx
-
 $$
 
 
@@ -8535,9 +8263,7 @@ By applying the continuity equation, we can write:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial j}{\partial x} = 0
-
 $$
 
 
@@ -8547,9 +8273,7 @@ Integrating this equation over the region, we get:
 
 
 $$
-
 \int_{x_1}^{x_2} \frac{\partial \rho}{\partial t} dx + \int_{x_1}^{x_2} \frac{\partial j}{\partial x} dx = 0
-
 $$
 
 
@@ -8559,9 +8283,7 @@ Using the fundamental theorem of calculus, we can rewrite this as:
 
 
 $$
-
 \frac{d}{dt} \int_{x_1}^{x_2} \rho(x,t) dx + j(x_2,t) - j(x_1,t) = 0
-
 $$
 
 
@@ -8571,9 +8293,7 @@ Since the probability density is continuous, the first term on the left-hand sid
 
 
 $$
-
 j(x_2,t) - j(x_1,t) = 0
-
 $$
 
 
@@ -8629,9 +8349,7 @@ The principle of current conservation can also be expressed mathematically throu
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial j}{\partial x} = 0
-
 $$
 
 
@@ -8687,9 +8405,7 @@ A Hermitian operator is defined as an operator that is equal to its own adjoint.
 
 
 $$
-
 \hat{A} = \hat{A}^{\dagger}
-
 $$
 
 
@@ -8733,9 +8449,7 @@ A Hermitian operator is defined as an operator that is equal to its own adjoint.
 
 
 $$
-
 \hat{A} = \hat{A}^{\dagger}
-
 $$
 
 
@@ -8765,9 +8479,7 @@ The expectation value of a measurement is the average value we would expect to o
 
 
 $$
-
 \langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle
-
 $$
 
 
@@ -8781,9 +8493,7 @@ For example, if we want to calculate the expectation value of the position of a 
 
 
 $$
-
 \langle \hat{x} \rangle = \langle \psi | \hat{x} | \psi \rangle
-
 $$
 
 
@@ -8797,9 +8507,7 @@ Another important use of Hermitian operators is in the time evolution of quantum
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} |\psi(t)\rangle = \hat{H} |\psi(t)\rangle
-
 $$
 
 
@@ -8835,9 +8543,7 @@ A Hermitian operator is defined as an operator that is equal to its own adjoint.
 
 
 $$
-
 \hat{A} = \hat{A}^{\dagger}
-
 $$
 
 
@@ -8867,9 +8573,7 @@ In addition to the properties mentioned above, Hermitian operators have several 
 
 
 $$
-
 \hat{A}^{-1} = \hat{A}^{\dagger}
-
 $$
 
 
@@ -8883,9 +8587,7 @@ This property is crucial because it allows us to easily calculate the inverse of
 
 
 $$
-
 [\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = 0
-
 $$
 
 
@@ -9109,9 +8811,7 @@ The expectation value of an operator $\hat{A}$ is denoted by $\langle \hat{A} \r
 
 
 $$
-
 \langle \hat{A} \rangle = \frac{\langle \psi | \hat{A} | \psi \rangle}{\langle \psi | \psi \rangle}
-
 $$
 
 
@@ -9121,9 +8821,7 @@ where $|\psi \rangle$ is the wave function of the quantum system. This equation 
 
 
 $$
-
 \langle \hat{A} \rangle = \int_{-\infty}^{\infty} \psi^* \hat{A} \psi dx
-
 $$
 
 
@@ -9141,9 +8839,7 @@ To better understand the concept of expectation values, let's consider an exampl
 
 
 $$
-
 \psi(x) = \begin{cases} \sqrt{\frac{2}{L}} \sin \left( \frac{n \pi x}{L} \right) & 0 \leq x \leq L \\ 0 & \text{otherwise} \end{cases}
-
 $$
 
 
@@ -9153,9 +8849,7 @@ where $L$ is the length of the box and $n$ is a positive integer. The operator f
 
 
 $$
-
 \langle \hat{x} \rangle = \int_{0}^{L} \psi^* x \psi dx = \frac{L}{2}
-
 $$
 
 
@@ -9213,9 +8907,7 @@ Finally, we will discuss how to calculate expectation values of operators in qua
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -9309,9 +9001,7 @@ Now that we have introduced the concept of operators, we can discuss how to calc
 
 
 $$
-
 \langle \hat{A} \rangle = \int \psi^* \hat{A} \psi dx
-
 $$
 
 
@@ -9477,9 +9167,7 @@ The expectation value of the position of a particle in a wave-packet can be calc
 
 
 $$
-
 \langle x \rangle = \int_{-\infty}^{\infty} x |\psi(x,t)|^2 dx
-
 $$
 
 
@@ -9489,9 +9177,7 @@ Similarly, the expectation value of the momentum can be calculated using the fol
 
 
 $$
-
 \langle p \rangle = \int_{-\infty}^{\infty} p |\psi(x,t)|^2 dx
-
 $$
 
 
@@ -9629,9 +9315,7 @@ The mathematical representation of a Fourier transform is given by the following
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt
-
 $$
 
 
@@ -9705,9 +9389,7 @@ The expectation value of a physical quantity, represented by an operator $\hat{A
 
 
 $$
-
 \langle \hat{A} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{A} \psi(x) dx
-
 $$
 
 
@@ -9717,9 +9399,7 @@ Using the Fourier transform, we can rewrite this formula as:
 
 
 $$
-
 \langle \hat{A} \rangle = \int_{-\infty}^{\infty} \tilde{\psi}^*(k) \hat{A} \tilde{\psi}(k) dk
-
 $$
 
 
@@ -9729,9 +9409,7 @@ This allows us to calculate the expectation value of a physical quantity in term
 
 
 $$
-
 \Delta B = \sqrt{\langle \hat{B}^2 \rangle - \langle \hat{B} \rangle^2}
-
 $$
 
 
@@ -9741,9 +9419,7 @@ Using the Fourier transform, we can rewrite this formula as:
 
 
 $$
-
 \Delta B = \sqrt{\int_{-\infty}^{\infty} \tilde{\psi}^*(k) \hat{B}^2 \tilde{\psi}(k) dk - \left(\int_{-\infty}^{\infty} \tilde{\psi}^*(k) \hat{B} \tilde{\psi}(k) dk\right)^2}
-
 $$
 
 
@@ -9781,9 +9457,7 @@ We will begin by defining expectation values and discussing their significance i
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -9793,9 +9467,7 @@ Next, we will delve into the concept of uncertainty in quantum mechanics. Uncert
 
 
 $$
-
 \Delta A \Delta B \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -9821,9 +9493,7 @@ In this subsection, we will explore some specific applications of Fourier transf
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -9833,9 +9503,7 @@ Using this operator, we can calculate the expectation value of the momentum as:
 
 
 $$
-
 \langle p \rangle = \int \psi^* \hat{p} \psi dx = -i\hbar \int \psi^* \frac{\partial \psi}{\partial x} dx
-
 $$
 
 
@@ -9845,9 +9513,7 @@ This integral can be simplified using integration by parts and the Fourier trans
 
 
 $$
-
 \hat{x} = x
-
 $$
 
 
@@ -9857,9 +9523,7 @@ and the expectation value of the position can be calculated as:
 
 
 $$
-
 \langle x \rangle = \int \psi^* \hat{x} \psi dx = \int \psi^* x \psi dx
-
 $$
 
 
@@ -9905,9 +9569,7 @@ We will begin by defining expectation values and discussing their significance i
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -9917,9 +9579,7 @@ Next, we will delve into the concept of uncertainty in quantum mechanics. Uncert
 
 
 $$
-
 \Delta A \Delta B \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -9945,9 +9605,7 @@ The Parseval theorem states that the integral of the square of a function in the
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -9965,9 +9623,7 @@ To better understand the Parseval theorem, let us consider an example of a quant
 
 
 $$
-
 \langle \hat{x} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{x} \psi(x) dx = \frac{1}{2\pi} \int_{-\infty}^{\infty} |\psi(k)|^2 k dk
-
 $$
 
 
@@ -10013,9 +9669,7 @@ We will begin by defining expectation values and discussing their significance i
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -10025,9 +9679,7 @@ Next, we will delve into the concept of uncertainty in quantum mechanics. Uncert
 
 
 $$
-
 \Delta A \Delta B \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10053,9 +9705,7 @@ The Parseval theorem states that the total energy of a system can be calculated 
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -10073,9 +9723,7 @@ To prove the Parseval theorem, we will use the properties of the Fourier transfo
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt
-
 $$
 
 
@@ -10085,9 +9733,7 @@ Using this, we can express the energy in the frequency domain as:
 
 
 $$
-
 \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt\right) \left(\int_{-\infty}^{\infty} f^*(t)e^{i\omega t} dt\right) d\omega
-
 $$
 
 
@@ -10097,9 +9743,7 @@ Using the Plancherel theorem, we can rewrite this as:
 
 
 $$
-
 \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt\right) \left(\int_{-\infty}^{\infty} f(t)e^{i\omega t} dt\right) d\omega
-
 $$
 
 
@@ -10109,9 +9753,7 @@ Simplifying this, we get:
 
 
 $$
-
 \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} f(t)f^*(t) dt\right) d\omega
-
 $$
 
 
@@ -10121,9 +9763,7 @@ Using the definition of the Fourier transform, we can rewrite this as:
 
 
 $$
-
 \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega = \int_{-\infty}^{\infty} |f(t)|^2 dt
-
 $$
 
 
@@ -10173,9 +9813,7 @@ The Parseval theorem states that the total energy of a signal or wave function c
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -10253,9 +9891,7 @@ The Parseval theorem states that the total energy of a signal or wave function c
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -10289,9 +9925,7 @@ The uncertainty relation is mathematically expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10349,9 +9983,7 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10373,9 +10005,7 @@ The uncertainty relation can be derived from the commutation relation between po
 
 
 $$
-
 [\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar
-
 $$
 
 
@@ -10385,25 +10015,19 @@ Using this relation, we can prove the uncertainty relation by calculating the un
 
 
 $$
-
 \Delta x \Delta p = \sqrt{\langle \hat{x}^2 \rangle \langle \hat{p}^2 \rangle} - \langle \hat{x} \rangle \langle \hat{p} \rangle
-
 $$
 
 
 
 $$
-
 = \sqrt{\langle \hat{x}^2 \rangle \langle \hat{p}^2 \rangle} - \frac{\hbar}{2} \langle \hat{x} \rangle \langle \hat{p} \rangle \frac{\hbar}{2}
-
 $$
 
 
 
 $$
-
 = \frac{1}{2} \sqrt{\langle \hat{x}^2 \rangle \langle \hat{p}^2 \rangle} - \frac{\hbar}{2} \langle \hat{x} \rangle \langle \hat{p} \rangle
-
 $$
 
 
@@ -10413,9 +10037,7 @@ Using the Cauchy-Schwarz inequality, we can show that:
 
 
 $$
-
 \frac{1}{2} \sqrt{\langle \hat{x}^2 \rangle \langle \hat{p}^2 \rangle} \geq \frac{1}{2} \langle \hat{x} \rangle \langle \hat{p} \rangle
-
 $$
 
 
@@ -10425,9 +10047,7 @@ Therefore, we have:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10481,9 +10101,7 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10509,9 +10127,7 @@ The uncertainty relation can be derived from the properties of the wave function
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10525,17 +10141,13 @@ Using the Parseval theorem, we can express the uncertainty in position and momen
 
 
 $$
-
 \Delta x = \sqrt{\int_{-\infty}^{\infty} x^2 |\psi(x)|^2 dx}
-
 $$
 
 
 
 $$
-
 \Delta p = \sqrt{\int_{-\infty}^{\infty} p^2 |\psi(p)|^2 dp}
-
 $$
 
 
@@ -10549,9 +10161,7 @@ Substituting these expressions into the uncertainty principle, we get:
 
 
 $$
-
 \sqrt{\int_{-\infty}^{\infty} x^2 |\psi(x)|^2 dx} \sqrt{\int_{-\infty}^{\infty} p^2 |\psi(p)|^2 dp} \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -10561,9 +10171,7 @@ Squaring both sides and rearranging, we get:
 
 
 $$
-
 \int_{-\infty}^{\infty} x^2 |\psi(x)|^2 dx \int_{-\infty}^{\infty} p^2 |\psi(p)|^2 dp \geq \frac{\hbar^2}{4}
-
 $$
 
 
@@ -10573,9 +10181,7 @@ Using the Parseval theorem, we can rewrite this as:
 
 
 $$
-
 \int_{-\infty}^{\infty} x^2 |\psi(x)|^2 dx \int_{-\infty}^{\infty} p^2 |\psi(p)|^2 dp = \int_{-\infty}^{\infty} |\psi(x)|^2 dx \int_{-\infty}^{\infty} |\psi(p)|^2 dp = \int_{-\infty}^{\infty} |\psi(x)|^2 |\psi(p)|^2 dx dp
-
 $$
 
 
@@ -10585,9 +10191,7 @@ This integral represents the total energy of the system, which is equal to the s
 
 
 $$
-
 \int_{-\infty}^{\infty} |\psi(x)|^2 |\psi(p)|^2 dx dp \geq \frac{\hbar^2}{4}
-
 $$
 
 
@@ -10777,9 +10381,7 @@ In one-dimensional potentials, the Schrödinger equation takes the form:
 
 
 $$
-
 \hat{H}\psi(x,t) = i\hbar\frac{\partial\psi(x,t)}{\partial t}
-
 $$
 
 
@@ -10793,9 +10395,7 @@ One of the key properties of stationary states is that the wave function does no
 
 
 $$
-
 \hat{H}\psi(x,t) = E\psi(x,t)
-
 $$
 
 
@@ -10843,9 +10443,7 @@ In one-dimensional potentials, the Schrödinger equation takes the form:
 
 
 $$
-
 \hat{H}\psi(x,t) = i\hbar\frac{\partial\psi(x,t)}{\partial t}
-
 $$
 
 
@@ -10905,9 +10503,7 @@ In one-dimensional potentials, the Schrödinger equation takes the form:
 
 
 $$
-
 \hat{H}\psi(x,t) = i\hbar\frac{\partial\psi(x,t)}{\partial t}
-
 $$
 
 
@@ -11075,7 +10671,6 @@ Now, let's apply the concept of boundary conditions to one-dimensional potential
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } 0 < x < L \\
@@ -11083,7 +10678,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11093,7 +10687,6 @@ In this case, the boundary conditions are that the wave function must be continu
 
 
 $$
-
 \begin{align}
 
 \psi(0) &= \psi(L) = 0 \\
@@ -11101,7 +10694,6 @@ $$
 \frac{d\psi}{dx}\bigg|_{x=0} &= \frac{d\psi}{dx}\bigg|_{x=L} = 0
 
 \end{align}
-
 $$
 
 
@@ -11145,7 +10737,6 @@ A particle on a circle is a simple yet important example in quantum mechanics. I
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, 2\pi] \\
@@ -11153,7 +10744,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11163,9 +10753,7 @@ This potential is infinite outside of the circular region, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11175,9 +10763,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11187,9 +10773,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11221,7 +10805,6 @@ A particle on a circle is a simple yet important example in quantum mechanics. I
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, 2\pi] \\
@@ -11229,7 +10812,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11239,9 +10821,7 @@ This potential is infinite outside of the circular region, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11251,9 +10831,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11263,9 +10841,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11275,9 +10851,7 @@ where $A$ is a constant that can be determined from normalization conditions. Th
 
 
 $$
-
 k\sin(kx)\bigg|_{x=0}^{x=2\pi} = 0
-
 $$
 
 
@@ -11287,9 +10861,7 @@ which gives us the quantization condition:
 
 
 $$
-
 k = \frac{n}{R}
-
 $$
 
 
@@ -11299,9 +10871,7 @@ where $n$ is an integer and $R$ is the radius of the circle. This means that the
 
 
 $$
-
 E_n = \frac{\hbar^2n^2}{2mR^2}
-
 $$
 
 
@@ -11345,7 +10915,6 @@ A particle on a circle is a simple yet important example in quantum mechanics. I
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, 2\pi] \\
@@ -11353,7 +10922,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11363,9 +10931,7 @@ This potential is infinite outside of the circular region, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11375,9 +10941,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11387,9 +10951,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11407,9 +10969,7 @@ Using the quantization condition, we can determine the allowed energy levels for
 
 
 $$
-
 E_n = \frac{\hbar^2k^2}{2m} = \frac{\hbar^2}{2m}\left(\frac{2\pi n}{L}\right)^2 = \frac{\hbar^2n^2}{2mL^2}
-
 $$
 
 
@@ -11419,9 +10979,7 @@ This shows that the energy levels are quantized and depend on the circumference 
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{L}}e^{i\frac{2\pi n}{L}x}
-
 $$
 
 
@@ -11465,7 +11023,6 @@ The infinite square well potential is a simple yet important example in quantum 
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, L] \\
@@ -11473,7 +11030,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11483,9 +11039,7 @@ This potential is infinite outside of the region $[0, L]$, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11495,9 +11049,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11507,9 +11059,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11519,9 +11069,7 @@ where $A$ is a constant that can be determined from normalization conditions. Th
 
 
 $$
-
 \psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -11531,9 +11079,7 @@ where $n$ is known as the quantum number and represents the different energy lev
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -11565,7 +11111,6 @@ The infinite square well potential is a simple yet important example in quantum 
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, L] \\
@@ -11573,7 +11118,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11583,9 +11127,7 @@ This potential is infinite outside of the region $[0, L]$, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11595,9 +11137,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11607,9 +11147,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11619,9 +11157,7 @@ where $A$ is a constant that can be determined from normalization conditions. Th
 
 
 $$
-
 \psi_n(x) = A\cos\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -11631,9 +11167,7 @@ where $n$ is known as the quantum number and represents the different energy lev
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -11681,7 +11215,6 @@ The infinite square well potential is a simple yet important example in quantum 
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x \in [0, L] \\
@@ -11689,7 +11222,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11699,9 +11231,7 @@ This potential is infinite outside of the region $[0, L]$, meaning that the part
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -11711,9 +11241,7 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -11723,9 +11251,7 @@ where $A$ and $B$ are constants and $k = \sqrt{\frac{2mE}{\hbar^2}}$. However, t
 
 
 $$
-
 \psi(x) = A(e^{ikx} + e^{-ikx}) = 2A\cos(kx)
-
 $$
 
 
@@ -11735,9 +11261,7 @@ where $A$ is a constant that can be determined from normalization conditions. Th
 
 
 $$
-
 \psi_n(x) = 2A\cos\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -11747,9 +11271,7 @@ where $n$ is known as the quantum number and represents the different energy lev
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -11801,7 +11323,6 @@ The finite square well potential is a more realistic representation of a particl
 
 
 $$
-
 V(x) = \begin{cases}
 
 -V_0, & \text{if } x \in [-a, a] \\
@@ -11809,7 +11330,6 @@ V(x) = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11823,9 +11343,7 @@ The Schrödinger equation for this system is given by:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -11835,7 +11353,6 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
@@ -11843,7 +11360,6 @@ Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
 Ce^{qx} + De^{-qx}, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11857,7 +11373,6 @@ Solving these two equations simultaneously, we get the following expression for 
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 A\cos(kx) + B\sin(kx), & \text{if } x \in [-a, a] \\
@@ -11865,7 +11380,6 @@ A\cos(kx) + B\sin(kx), & \text{if } x \in [-a, a] \\
 C\cosh(qx) + D\sinh(qx), & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11875,7 +11389,6 @@ where $A$, $B$, $C$, and $D$ are constants that can be determined from normaliza
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 A\cos(kx) + B\sin(kx), & \text{if } x \in [-a, a] \\
@@ -11883,7 +11396,6 @@ A\cos(kx) + B\sin(kx), & \text{if } x \in [-a, a] \\
 C\cosh(qx), & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11897,9 +11409,7 @@ The energy levels for this system can be determined by solving the Schrödinger 
 
 
 $$
-
 \cot(ka) = -\frac{q}{k}
-
 $$
 
 
@@ -11931,7 +11441,6 @@ The finite square well potential is a more realistic representation of a particl
 
 
 $$
-
 V(x) = \begin{cases}
 
 -V_0, & \text{if } x \in [-a, a] \\
@@ -11939,7 +11448,6 @@ V(x) = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11953,9 +11461,7 @@ The Schrödinger equation for this system is given by:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -11965,7 +11471,6 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
@@ -11973,7 +11478,6 @@ Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
 Ce^{qx} + De^{-qx}, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -11987,7 +11491,6 @@ Solving these two equations simultaneously, we get the following expression for 
 
 
 $$
-
 E_n = \begin{cases}
 
 \frac{\hbar^2k_n^2}{2m} - V_0, & \text{if } n \text{ is even} \\
@@ -11995,7 +11498,6 @@ E_n = \begin{cases}
 \frac{\hbar^2q_n^2}{2m}, & \text{if } n \text{ is odd}
 
 \end{cases}
-
 $$
 
 
@@ -12039,7 +11541,6 @@ The finite square well potential is a more realistic representation of a particl
 
 
 $$
-
 V(x) = \begin{cases}
 
 -V_0, & \text{if } x \in [-a, a] \\
@@ -12047,7 +11548,6 @@ V(x) = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -12061,9 +11561,7 @@ The Schrödinger equation for this system is given by:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -12073,7 +11571,6 @@ where $\psi$ is the wave function and $E$ is the energy of the particle. Solving
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
@@ -12081,7 +11578,6 @@ Ae^{ikx} + Be^{-ikx}, & \text{if } x \in [-a, a] \\
 Ce^{qx} + De^{-qx}, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -12107,9 +11603,7 @@ The energy levels for bound states in the finite square well potential are given
 
 
 $$
-
 E_n = -\frac{\hbar^2k_n^2}{2m} + V_0
-
 $$
 
 
@@ -12123,9 +11617,7 @@ On the other hand, the energy levels for scattering states are given by:
 
 
 $$
-
 E = \frac{\hbar^2q^2}{2m}
-
 $$
 
 
@@ -12181,9 +11673,7 @@ The semiclassical approximation states that the wave function in the classically
 
 
 $$
-
 \psi(x) = Ae^{\pm\kappa x}
-
 $$
 
 
@@ -12197,9 +11687,7 @@ Using the semiclassical approximation, we can also approximate the energy levels
 
 
 $$
-
 ka = \kappa a
-
 $$
 
 
@@ -12209,9 +11697,7 @@ Solving this equation for $E$, we get the allowed energy levels as:
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2ma^2} - V_0
-
 $$
 
 
@@ -12263,9 +11749,7 @@ Now that we have an understanding of the WKB approximation, let us apply it to t
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -12275,9 +11759,7 @@ where $k = \frac{\sqrt{2mE}}{\hbar}$ and $A$ and $B$ are constants determined by
 
 
 $$
-
 \psi(x) = Ce^{-\kappa x}
-
 $$
 
 
@@ -12333,9 +11815,7 @@ To derive the WKB approximation, we start with the time-independent Schrödinger
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12345,9 +11825,7 @@ We can rewrite this equation as:
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12357,9 +11835,7 @@ where $\hat{p}$ is the momentum operator. We can then substitute the classical e
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + \left(V(x) - \frac{1}{2}mv^2\right)\psi(x) = 0
-
 $$
 
 
@@ -12369,9 +11845,7 @@ We can then use the classical turning points to define the classical velocity $v
 
 
 $$
-
 v = \sqrt{\frac{2}{m}\left(E - V(x)\right)}
-
 $$
 
 
@@ -12381,9 +11855,7 @@ Substituting this into the previous equation, we get:
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + \left(V(x) - \frac{1}{2}m\left(\frac{2}{m}\left(E - V(x)\right)\right)\right)\psi(x) = 0
-
 $$
 
 
@@ -12393,9 +11865,7 @@ Simplifying, we get:
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + \left(V(x) - E + V(x)\right)\psi(x) = 0
-
 $$
 
 
@@ -12405,9 +11875,7 @@ Which can be further simplified to:
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + \left(2V(x) - E\right)\psi(x) = 0
-
 $$
 
 
@@ -12417,9 +11885,7 @@ We can then use the WKB approximation to approximate the wave function as:
 
 
 $$
-
 \psi(x) \approx A(x)e^{\frac{i}{\hbar}\int_{x_0}^{x}p(x')dx'}
-
 $$
 
 
@@ -12429,9 +11895,7 @@ Where $A(x)$ is a slowly varying amplitude function and $p(x)$ is the classical 
 
 
 $$
-
 \frac{\hat{p}^2}{2m}A(x)e^{\frac{i}{\hbar}\int_{x_0}^{x}p(x')dx'} + \left(2V(x) - E\right)A(x)e^{\frac{i}{\hbar}\int_{x_0}^{x}p(x')dx'} = 0
-
 $$
 
 
@@ -12441,9 +11905,7 @@ We can then divide both sides by $A(x)e^{\frac{i}{\hbar}\int_{x_0}^{x}p(x')dx'}$
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + \left(2V(x) - E\right) = 0
-
 $$
 
 
@@ -12491,9 +11953,7 @@ To understand the shooting method, let us consider the finite square well potent
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -12503,17 +11963,13 @@ We can rewrite this equation as a set of two first-order differential equations 
 
 
 $$
-
 \frac{dy}{dx} = \frac{2m}{\hbar^2}\left[V(x) - E\right]\psi
-
 $$
 
 
 
 $$
-
 \frac{d\psi}{dx} = y
-
 $$
 
 
@@ -12553,9 +12009,7 @@ To understand the shooting method, let us consider the finite square well potent
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -12565,17 +12019,13 @@ We can rewrite this equation as a set of two first-order differential equations 
 
 
 $$
-
 \frac{dy}{dx} = \frac{2m}{\hbar^2}\left[V(x) - E\right]\psi
-
 $$
 
 
 
 $$
-
 \frac{d\psi}{dx} = y
-
 $$
 
 
@@ -12597,7 +12047,6 @@ Now that we understand the basic concept of the shooting method, let us apply it
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } 0 < x < a \\
@@ -12607,7 +12056,6 @@ V_0, & \text{if } a < x < b \\
 0, & \text{if } b < x < L
 
 \end{cases}
-
 $$
 
 
@@ -12731,9 +12179,7 @@ To understand the delta function potential, we first need to understand the delt
 
 
 $$
-
 \int_{-\infty}^{\infty} f(x)\delta(x)dx = f(0)
-
 $$
 
 
@@ -12747,9 +12193,7 @@ Now, let's consider a particle in a one-dimensional system with a delta function
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12759,9 +12203,7 @@ where $V(x)$ is the potential function and $E$ is the energy of the particle. In
 
 
 $$
-
 V(x) = \alpha\delta(x)
-
 $$
 
 
@@ -12805,9 +12247,7 @@ To understand the delta function potential, we first need to understand the delt
 
 
 $$
-
 \int_{-\infty}^{\infty} f(x)\delta(x)dx = f(0)
-
 $$
 
 
@@ -12821,9 +12261,7 @@ Now, let's consider a particle in a one-dimensional system with a delta function
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12833,9 +12271,7 @@ where $V(x)$ is the potential function and $E$ is the energy of the particle. In
 
 
 $$
-
 V(x) = \alpha\delta(x)
-
 $$
 
 
@@ -12853,9 +12289,7 @@ One approach is to approximate the delta function potential by a narrow and tall
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + \alpha\delta(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12945,9 +12379,7 @@ The simple harmonic oscillator is a system in which a particle is subject to a r
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -12961,9 +12393,7 @@ In quantum physics, the simple harmonic oscillator is described by the Schrödin
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -12973,9 +12403,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wave function, and
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -12989,9 +12417,7 @@ The solutions to the Schrödinger equation for the simple harmonic oscillator ar
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{2^n n!}}\left(\frac{m\omega}{\pi\hbar}\right)^{1/4}e^{-\frac{m\omega x^2}{2\hbar}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)
-
 $$
 
 
@@ -13001,9 +12427,7 @@ where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency and $H_n(x)$ is the
 
 
 $$
-
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -13039,9 +12463,7 @@ The simple harmonic oscillator is a system in which a particle is subject to a r
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -13055,9 +12477,7 @@ In quantum physics, the simple harmonic oscillator is described by the Schrödin
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -13067,9 +12487,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wave function, and
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -13083,9 +12501,7 @@ The solutions to the Schrödinger equation for the simple harmonic oscillator ar
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{2^n n!}}\left(\frac{m\omega}{\pi\hbar}\right)^{1/4}e^{-\frac{m\omega x^2}{2\hbar}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)
-
 $$
 
 
@@ -13095,9 +12511,7 @@ where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency and $H_n(x)$ is the
 
 
 $$
-
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -13153,9 +12567,7 @@ The simple harmonic oscillator is a system in which a particle is subject to a r
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -13169,9 +12581,7 @@ In quantum physics, the simple harmonic oscillator is described by the Schrödin
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -13181,9 +12591,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wave function, and
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -13197,9 +12605,7 @@ The solutions to the Schrödinger equation for the simple harmonic oscillator ar
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{2^n n!}}\left(\frac{m\omega}{\pi\hbar}\right)^{1/4}e^{-\frac{m\omega x^2}{2\hbar}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)
-
 $$
 
 
@@ -13209,9 +12615,7 @@ where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency and $H_n(x)$ is the
 
 
 $$
-
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -13237,9 +12641,7 @@ In the case of an electric field, the potential energy of a particle can be desc
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -13253,9 +12655,7 @@ In the case of a magnetic field, the potential energy of a particle can be descr
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -13307,7 +12707,6 @@ To understand these coefficients, let us consider a one-dimensional potential ba
 
 
 $$
-
 V(x) = \begin{cases}
 
 V_0, & \text{if } x < 0 \\
@@ -13315,7 +12714,6 @@ V_0, & \text{if } x < 0 \\
 0, & \text{if } x \geq 0
 
 \end{cases}
-
 $$
 
 
@@ -13329,9 +12727,7 @@ Now, let us consider a particle with energy $E$ approaching the potential barrie
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -13345,9 +12741,7 @@ Using the boundary conditions, we can determine the values of $A$ and $B$ in ter
 
 
 $$
-
 A + B = C
-
 $$
 
 
@@ -13357,9 +12751,7 @@ where $C$ is the amplitude of the transmitted wave. Similarly, at $x = 0$, the d
 
 
 $$
-
 ik(A - B) = Ck'
-
 $$
 
 
@@ -13373,17 +12765,13 @@ Solving these equations, we get the following expressions for the reflection and
 
 
 $$
-
 R = \left|\frac{B}{A}\right|^2 = \left|\frac{k-k'}{k+k'}\right|^2
-
 $$
 
 
 
 $$
-
 T = \left|\frac{C}{A}\right|^2 = \frac{4kk'}{(k+k')^2}
-
 $$
 
 
@@ -13423,7 +12811,6 @@ To understand these coefficients, let us consider a one-dimensional potential ba
 
 
 $$
-
 V(x) = \begin{cases}
 
 V_0, & \text{if } x < 0 \\
@@ -13431,7 +12818,6 @@ V_0, & \text{if } x < 0 \\
 0, & \text{if } x \geq 0
 
 \end{cases}
-
 $$
 
 
@@ -13445,9 +12831,7 @@ Now, let us consider a particle with energy $E$ approaching the potential barrie
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -13461,9 +12845,7 @@ Using the boundary conditions, we can determine the values of $A$ and $B$ in ter
 
 
 $$
-
 A + B = A + R
-
 $$
 
 
@@ -13473,9 +12855,7 @@ Similarly, at $x = 0$, the derivative of the wave function must also be continuo
 
 
 $$
-
 ikA - ikB = ikA - ikR
-
 $$
 
 
@@ -13485,11 +12865,9 @@ Solving these equations, we get:
 
 
 $$
-
 A = \frac{1}{2}(1 + R) \\
 
 B = \frac{1}{2}(1 - R)
-
 $$
 
 
@@ -13499,9 +12877,7 @@ Substituting these values in the wave function, we get:
 
 
 $$
-
 \psi(x) = \frac{1}{2}(1 + R)e^{ikx} + \frac{1}{2}(1 - R)e^{-ikx}
-
 $$
 
 
@@ -13511,9 +12887,7 @@ Now, let us consider the region where $x > 0$, which is the region beyond the po
 
 
 $$
-
 \psi(x) = Te^{ikx}
-
 $$
 
 
@@ -13527,9 +12901,7 @@ Using the boundary condition at $x = 0$, we can equate the two wave functions an
 
 
 $$
-
 \frac{1}{2}(1 + R)e^{ikx} + \frac{1}{2}(1 - R)e^{-ikx} = Te^{ikx}
-
 $$
 
 
@@ -13539,9 +12911,7 @@ Solving for $T$, we get:
 
 
 $$
-
 T = \frac{1}{2}(1 + R)
-
 $$
 
 
@@ -13551,9 +12921,7 @@ Therefore, we can see that the transmission coefficient is related to the reflec
 
 
 $$
-
 T = \frac{1}{2}(1 + R)
-
 $$
 
 
@@ -13593,7 +12961,6 @@ To understand these coefficients, let us consider a one-dimensional potential ba
 
 
 $$
-
 V(x) = \begin{cases}
 
 V_0, & \text{if } x < 0 \\
@@ -13601,7 +12968,6 @@ V_0, & \text{if } x < 0 \\
 0, & \text{if } x \geq 0
 
 \end{cases}
-
 $$
 
 
@@ -13615,9 +12981,7 @@ Now, let us consider a particle with energy $E$ approaching the potential barrie
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -13631,9 +12995,7 @@ Using the boundary conditions, we can determine the values of $A$ and $B$ in ter
 
 
 $$
-
 A = B + C
-
 $$
 
 
@@ -13643,9 +13005,7 @@ where $C$ is the amplitude of the transmitted wave. At $x = 0$, the derivative o
 
 
 $$
-
 ikA = ikB - ikC
-
 $$
 
 
@@ -13655,9 +13015,7 @@ Solving these equations for $A$ and $B$, we get:
 
 
 $$
-
 A = \frac{B}{1 + R} \quad \text{and} \quad B = \frac{T}{1 + R}
-
 $$
 
 
@@ -13667,9 +13025,7 @@ Substituting these values into the wave function, we get:
 
 
 $$
-
 \psi(x) = \frac{e^{ikx}}{1 + R} + \frac{Re^{-ikx}}{1 + R}
-
 $$
 
 
@@ -13679,9 +13035,7 @@ The probability of finding the particle at a particular point is given by the sq
 
 
 $$
-
 |\psi(x)|^2 = \frac{1}{(1 + R)^2} + \frac{R^2}{(1 + R)^2} = \frac{1 + R^2 + 2R}{(1 + R)^2}
-
 $$
 
 
@@ -13691,9 +13045,7 @@ Since the total probability must be equal to 1, we can write:
 
 
 $$
-
 1 = \frac{1 + R^2 + 2R}{(1 + R)^2}
-
 $$
 
 
@@ -13703,9 +13055,7 @@ Solving for $R$, we get:
 
 
 $$
-
 R = \frac{(1 - T)^2}{(1 + T)^2}
-
 $$
 
 
@@ -13715,9 +13065,7 @@ Similarly, we can find the expression for the transmission coefficient:
 
 
 $$
-
 T = \frac{4}{(1 + R)^2}
-
 $$
 
 
@@ -13765,7 +13113,6 @@ To understand this effect, let us consider a one-dimensional potential barrier w
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x < a \\
@@ -13773,7 +13120,6 @@ V(x) = \begin{cases}
 \infty, & \text{if } x \geq a
 
 \end{cases}
-
 $$
 
 
@@ -13787,9 +13133,7 @@ Now, let us consider an electron with energy $E$ approaching the atom from a dis
 
 
 $$
-
 \psi(r) = \frac{A}{r}sin(kr) + \frac{B}{r}cos(kr)
-
 $$
 
 
@@ -13833,7 +13177,6 @@ To understand this effect, let us consider a one-dimensional potential barrier w
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x < a \\
@@ -13841,7 +13184,6 @@ V(x) = \begin{cases}
 \infty, & \text{if } x \geq a
 
 \end{cases}
-
 $$
 
 
@@ -13855,9 +13197,7 @@ Now, let us consider an electron with energy $E$ approaching the atom from a dis
 
 
 $$
-
 \psi(r) = \frac{A}{r}sin(kr) + \frac{B}{r}cos(kr)
-
 $$
 
 
@@ -13913,7 +13253,6 @@ To understand this effect, let us consider a one-dimensional potential barrier w
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } x < a \\
@@ -13921,7 +13260,6 @@ V(x) = \begin{cases}
 \infty, & \text{if } x \geq a
 
 \end{cases}
-
 $$
 
 
@@ -13935,9 +13273,7 @@ Now, let us consider an electron with energy $E$ approaching the atom from a dis
 
 
 $$
-
 \psi(r) = \frac{A}{r}sin(kr) + \frac{B}{r}cos(kr)
-
 $$
 
 
@@ -14013,9 +13349,7 @@ The phase shift can be calculated using the transmission and reflection coeffici
 
 
 $$
-
 \delta = tan^{-1}\left(\frac{\sqrt{E-V_0}}{\sqrt{V_0}}tan\left(\frac{\sqrt{2m(V_0-E)}}{\hbar}a\right)\right)
-
 $$
 
 
@@ -14029,9 +13363,7 @@ The phase shift is also related to the scattering cross-section, which is a meas
 
 
 $$
-
 \sigma = \frac{4\pi}{k^2}\sin^2(\delta)
-
 $$
 
 
@@ -14079,9 +13411,7 @@ The phase shift can be calculated using the transmission and reflection coeffici
 
 
 $$
-
 \delta = tan^{-1}\left(\frac{\sqrt{E-V_0}}{\sqrt{V_0}}tan\left(\frac{\sqrt{2m(V_0-E)}}{\hbar}a\right)\right)
-
 $$
 
 
@@ -14095,9 +13425,7 @@ The phase shift is also related to the scattering cross-section, which is a meas
 
 
 $$
-
 \sigma = \frac{4\pi}{k^2}\sin^2\delta
-
 $$
 
 
@@ -14157,9 +13485,7 @@ The phase shift can be calculated using the transmission and reflection coeffici
 
 
 $$
-
 \delta = tan^{-1}\left(\frac{\sqrt{E-V_0}}{\sqrt{V_0}}tan\left(\frac{\sqrt{2m(V_0-E)}}{\hbar}a\right)\right)
-
 $$
 
 
@@ -14173,9 +13499,7 @@ The phase shift is also related to the scattering cross-section, which is a meas
 
 
 $$
-
 \sigma = \frac{4\pi}{k^2}\sin^2\delta
-
 $$
 
 
@@ -14289,9 +13613,7 @@ To prove Levinson's theorem, we start with the Schrödinger equation for a one-d
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -14301,9 +13623,7 @@ We can rewrite this equation in terms of the phase shift $\delta$ as:
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = 0
-
 $$
 
 
@@ -14317,9 +13637,7 @@ We can then use the Wronskian method to show that the phase shift changes by $\p
 
 
 $$
-
 W(\psi_1, \psi_2) = \psi_1\frac{d\psi_2}{dx} - \psi_2\frac{d\psi_1}{dx}
-
 $$
 
 
@@ -14375,9 +13693,7 @@ To prove Levinson's theorem, we start with the Schrödinger equation for a one-d
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -14387,9 +13703,7 @@ We can rewrite this equation in terms of the phase shift $\delta$ as:
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = 0
-
 $$
 
 
@@ -14403,9 +13717,7 @@ We can then use the Wronskian method to show that the phase shift $\delta$ satis
 
 
 $$
-
 \frac{d\delta}{dx} = \frac{k}{\psi^2}\frac{d\psi}{dx}
-
 $$
 
 
@@ -14415,9 +13727,7 @@ Integrating both sides of this equation from $x = -\infty$ to $x = \infty$, we g
 
 
 $$
-
 \delta(\infty) - \delta(-\infty) = \int_{-\infty}^{\infty}\frac{k}{\psi^2}\frac{d\psi}{dx}dx
-
 $$
 
 
@@ -14427,9 +13737,7 @@ Using the boundary conditions for a bound state, we can show that $\delta(-\inft
 
 
 $$
-
 n\pi = \int_{-\infty}^{\infty}\frac{k}{\psi^2}\frac{d\psi}{dx}dx
-
 $$
 
 
@@ -14439,9 +13747,7 @@ This integral can be evaluated using the substitution $u = \psi^2$, giving us:
 
 
 $$
-
 n\pi = \int_{0}^{\infty}\frac{k}{u}\frac{du}{dx}dx = \int_{0}^{\infty}\frac{k}{u}\frac{du}{d\psi}\frac{d\psi}{dx}dx = \int_{0}^{\infty}\frac{k}{u}\frac{d\psi}{dx}d\psi = \int_{0}^{\infty}\frac{k}{\psi^2}\frac{d\psi}{dx}d\psi
-
 $$
 
 
@@ -14835,9 +14141,7 @@ One of the most important properties of angular momentum is its quantization. Th
 
 
 $$
-
 L = \sqrt{l(l+1)}\hbar
-
 $$
 
 
@@ -14851,9 +14155,7 @@ Another important property of angular momentum is its addition. When two angular
 
 
 $$
-
 \hat{L} = \hat{L_1} + \hat{L_2}
-
 $$
 
 
@@ -14867,17 +14169,13 @@ The algebra of angular momentum also includes the concept of raising and lowerin
 
 
 $$
-
 \hat{L_+} = \hat{L_x} + i\hat{L_y}
-
 $$
 
 
 
 $$
-
 \hat{L_-} = \hat{L_x} - i\hat{L_y}
-
 $$
 
 
@@ -14917,9 +14215,7 @@ One of the most important properties of angular momentum is its quantization. Th
 
 
 $$
-
 L = \sqrt{l(l+1)}\hbar
-
 $$
 
 
@@ -14933,9 +14229,7 @@ Another important property of angular momentum is its addition. When two angular
 
 
 $$
-
 \hat{L} = \hat{L_1} + \hat{L_2}
-
 $$
 
 
@@ -14995,9 +14289,7 @@ One of the most important properties of angular momentum is its quantization. Th
 
 
 $$
-
 L = \sqrt{l(l+1)}\hbar
-
 $$
 
 
@@ -15011,9 +14303,7 @@ Another important property of angular momentum is its addition. When two angular
 
 
 $$
-
 \hat{L} = \hat{L_1} + \hat{L_2}
-
 $$
 
 
@@ -15031,25 +14321,19 @@ As mentioned earlier, the non-commutativity of the angular momentum operators le
 
 
 $$
-
 [\hat{L_x}, \hat{L_y}] = i\hbar\hat{L_z}
-
 $$
 
 
 
 $$
-
 [\hat{L_y}, \hat{L_z}] = i\hbar\hat{L_x}
-
 $$
 
 
 
 $$
-
 [\hat{L_z}, \hat{L_x}] = i\hbar\hat{L_y}
-
 $$
 
 
@@ -15097,9 +14381,7 @@ Legendre polynomials are a set of orthogonal polynomials that are used to solve 
 
 
 $$
-
 \frac{d}{dx}\left[(1-x^2)\frac{d}{dx}P_l(x)\right]+l(l+1)P_l(x)=0
-
 $$
 
 
@@ -15113,9 +14395,7 @@ One of the most significant properties of Legendre polynomials is their orthogon
 
 
 $$
-
 \int_{-1}^{1} P_l(x)P_m(x)dx = 0 \quad \text{for } l \neq m
-
 $$
 
 
@@ -15129,9 +14409,7 @@ Another important property of Legendre polynomials is their recurrence relation.
 
 
 $$
-
 (l+1)P_{l+1}(x) = (2l+1)xP_l(x) - lP_{l-1}(x)
-
 $$
 
 
@@ -15163,9 +14441,7 @@ Legendre polynomials are a set of orthogonal polynomials that are used to solve 
 
 
 $$
-
 \frac{d}{dx}\left[(1-x^2)\frac{d}{dx}P_l(x)\right]+l(l+1)P_l(x)=0
-
 $$
 
 
@@ -15179,9 +14455,7 @@ One of the most significant properties of Legendre polynomials is their orthogon
 
 
 $$
-
 \int_{-1}^{1} P_l(x)P_m(x)dx = 0 \quad \text{for } l \neq m
-
 $$
 
 
@@ -15195,9 +14469,7 @@ Another important property of Legendre polynomials is their recurrence relation.
 
 
 $$
-
 (l+1)P_{l+1}(x) = (2l+1)xP_l(x) - lP_{l-1}(x)
-
 $$
 
 
@@ -15219,9 +14491,7 @@ The Schrödinger equation for a particle in a central potential can be written a
 
 
 $$
-
 \left[-\frac{\hbar^2}{2m}\nabla^2 + V(r)\right]\psi(r,\theta,\phi) = E\psi(r,\theta,\phi)
-
 $$
 
 
@@ -15231,9 +14501,7 @@ where $V(r)$ is the central potential and $\psi(r,\theta,\phi)$ is the wave func
 
 
 $$
-
 \left[-\frac{\hbar^2}{2m}\left(\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right) + V(r)\right]\psi(r,\theta,\phi) = E\psi(r,\theta,\phi)
-
 $$
 
 
@@ -15265,9 +14533,7 @@ Legendre polynomials are a set of orthogonal polynomials that are used to solve 
 
 
 $$
-
 \frac{d}{dx}\left[(1-x^2)\frac{d}{dx}P_l(x)\right]+l(l+1)P_l(x)=0
-
 $$
 
 
@@ -15281,9 +14547,7 @@ One of the most significant properties of Legendre polynomials is their orthogon
 
 
 $$
-
 \int_{-1}^{1} P_l(x)P_m(x)dx = 0 \quad \text{for } l \neq m
-
 $$
 
 
@@ -15297,9 +14561,7 @@ Another important property of Legendre polynomials is their recurrence relation.
 
 
 $$
-
 (l+1)P_{l+1}(x) = (2l+1)xP_l(x) - lP_{l-1}(x)
-
 $$
 
 
@@ -15371,9 +14633,7 @@ The quantum number $l$ represents the angular momentum of the electron and is re
 
 
 $$
-
 E_n = -\frac{13.6}{n^2} \quad \text{for } n = 1,2,3,...
-
 $$
 
 
@@ -15421,9 +14681,7 @@ The quantum number $l$ represents the angular momentum of the electron and is re
 
 
 $$
-
 E_n = -\frac{13.6}{n^2} \quad \text{for } n = 1,2,3,...
-
 $$
 
 
@@ -15487,9 +14745,7 @@ The quantum number $l$ represents the angular momentum of the electron and is re
 
 
 $$
-
 E_n = -\frac{13.6}{n^2} \quad \text{for } n = 1,2,3,...
-
 $$
 
 
@@ -15507,9 +14763,7 @@ As mentioned earlier, the wavefunction of the electron in the Hydrogen atom can 
 
 
 $$
-
 \Psi(r,\theta,\phi) = R(r)Y(\theta,\phi)
-
 $$
 
 
@@ -15711,9 +14965,7 @@ The Virial Theorem states that for a system in a stable equilibrium, the average
 
 
 $$
-
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
-
 $$
 
 
@@ -15793,9 +15045,7 @@ The Virial Theorem states that for a system in a stable equilibrium, the average
 
 
 $$
-
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
-
 $$
 
 
@@ -15829,9 +15079,7 @@ The Virial Theorem can be derived using the principles of classical mechanics an
 
 
 $$
-
 E = T + V
-
 $$
 
 
@@ -15841,9 +15089,7 @@ Taking the time derivative of this equation, we get:
 
 
 $$
-
 \frac{dE}{dt} = \frac{dT}{dt} + \frac{dV}{dt}
-
 $$
 
 
@@ -15853,17 +15099,13 @@ Using the equations of motion, we can express the time derivatives of kinetic an
 
 
 $$
-
 \frac{dT}{dt} = \dot{\mathbf{p}} \cdot \mathbf{v} = \mathbf{F} \cdot \mathbf{v}
-
 $$
 
 
 
 $$
-
 \frac{dV}{dt} = \mathbf{F} \cdot \mathbf{v}
-
 $$
 
 
@@ -15877,9 +15119,7 @@ Substituting these expressions into the previous equation, we get:
 
 
 $$
-
 \frac{dE}{dt} = 2\mathbf{F} \cdot \mathbf{v}
-
 $$
 
 
@@ -15889,9 +15129,7 @@ Since the system is in equilibrium, the average velocity is zero, and therefore 
 
 
 $$
-
 \frac{d\langle T \rangle}{dt} = 0
-
 $$
 
 
@@ -15901,9 +15139,7 @@ Using the same reasoning, we can also write:
 
 
 $$
-
 \frac{d\langle V \rangle}{dt} = 0
-
 $$
 
 
@@ -15913,9 +15149,7 @@ Therefore, the time derivative of the total energy can be expressed as:
 
 
 $$
-
 \frac{dE}{dt} = \frac{d\langle T \rangle}{dt} + \frac{d\langle V \rangle}{dt} = 0
-
 $$
 
 
@@ -15925,9 +15159,7 @@ This leads to the Virial Theorem:
 
 
 $$
-
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
-
 $$
 
 
@@ -15955,9 +15187,7 @@ The Virial Theorem states that for a system in a stable equilibrium, the average
 
 
 $$
-
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
-
 $$
 
 
@@ -16739,9 +15969,7 @@ In quantum mechanics, spin is described by a quantum number, denoted by s, which
 
 
 $$
-
 S = \sqrt{s(s+1)}\hbar
-
 $$
 
 
@@ -16763,9 +15991,7 @@ In quantum mechanics, the act of measuring a physical quantity, such as spin, is
 
 
 $$
-
 \hat{S}|\psi\rangle = s_z|\psi\rangle
-
 $$
 
 
@@ -16839,9 +16065,7 @@ In quantum mechanics, spin is described by a quantum number, denoted by s, which
 
 
 $$
-
 S = \sqrt{s(s+1)}\hbar
-
 $$
 
 
@@ -16883,9 +16107,7 @@ One important relationship is between spin and magnetic moment, denoted by $\mu$
 
 
 $$
-
 \mu = g\frac{q}{2m}S
-
 $$
 
 
@@ -16899,9 +16121,7 @@ Another important relationship is between spin and energy. In quantum mechanics,
 
 
 $$
-
 E = \frac{\hbar^2}{2I}S(S+1)
-
 $$
 
 
@@ -17091,9 +16311,7 @@ In quantum mechanics, spin is described by a quantum number, denoted by s, which
 
 
 $$
-
 S = \sqrt{s(s+1)}\hbar
-
 $$
 
 
@@ -17119,9 +16337,7 @@ The spin state vector can be represented in terms of basis vectors, denoted by $
 
 
 $$
-
 |\psi\rangle = c_1|1/2,1/2\rangle + c_2|1/2,-1/2\rangle
-
 $$
 
 
@@ -17139,25 +16355,19 @@ The spin operators have eigenvalues, which represent the possible outcomes of a 
 
 
 $$
-
 \hat{S}_x|s,m\rangle = \frac{\hbar}{2}\sqrt{s(s+1)-m(m+1)}|s,m+1\rangle
-
 $$
 
 
 
 $$
-
 \hat{S}_y|s,m\rangle = \frac{\hbar}{2}i\sqrt{s(s+1)-m(m+1)}|s,m+1\rangle
-
 $$
 
 
 
 $$
-
 \hat{S}_z|s,m\rangle = \hbar m|s,m\rangle
-
 $$
 
 
@@ -17405,9 +16615,7 @@ The Schrödinger Equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -17421,9 +16629,7 @@ The wave function $\Psi(\mathbf{r},t)$ is a complex-valued function that describ
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + V(\mathbf{r})
-
 $$
 
 
@@ -17493,9 +16699,7 @@ Throughout this chapter, we will use the Markdown format to present mathematical
 
 
 $$
-
 \Psi(x,y,z) = A\sin(k_xx)\sin(k_yy)\sin(k_zz)
-
 $$
 
 
@@ -17513,9 +16717,7 @@ In this section, we will introduce the three-dimensional Schrödinger equation, 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,y,z,t) = \hat{H}\Psi(x,y,z,t)
-
 $$
 
 
@@ -17537,9 +16739,7 @@ One of the key principles of quantum mechanics is that the state of a system is 
 
 
 $$
-
 \Psi(x,y,z,t) = \sum_n c_n\psi_n(x,y,z)e^{-iE_nt/\hbar}
-
 $$
 
 
@@ -17601,9 +16801,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial \psi(x,y,z,t)}{\partial t} = \hat{H} \psi(x,y,z,t)
-
 $$
 
 
@@ -17669,9 +16867,7 @@ Throughout this chapter, we will use the Markdown format to present mathematical
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -17749,9 +16945,7 @@ In the previous section, we discussed the basics of quantum mechanics in three d
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,y,z,t) = \hat{H} \psi(x,y,z,t)
-
 $$
 
 
@@ -17773,9 +16967,7 @@ The quantization of energy levels is a result of the wave nature of particles in
 
 
 $$
-
 \hat{H} \psi(x,y,z) = E \psi(x,y,z)
-
 $$
 
 
@@ -17789,9 +16981,7 @@ Another important characteristic of three-dimensional quantum systems is the con
 
 
 $$
-
 \hat{L} \psi(x,y,z) = \hbar l(l+1) \psi(x,y,z)
-
 $$
 
 
@@ -17909,9 +17099,7 @@ Throughout this chapter, we will use the Markdown format to present mathematical
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -17929,9 +17117,7 @@ In this section, we will focus on the three-dimensional quantum potentials that 
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + V(x,y,z)
-
 $$
 
 
@@ -17953,9 +17139,7 @@ One of the most commonly used potential energy functions is the harmonic oscilla
 
 
 $$
-
 V(x,y,z) = \frac{1}{2}m\omega^2(x^2+y^2+z^2)
-
 $$
 
 
@@ -17969,9 +17153,7 @@ Another important potential energy function is the Coulomb potential, which is u
 
 
 $$
-
 V(x,y,z) = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-
 $$
 
 
@@ -18021,9 +17203,7 @@ Throughout this chapter, we will use the Markdown format to present mathematical
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)
-
 $$
 
 
@@ -18101,9 +17281,7 @@ Throughout this chapter, we will use the Markdown format to present mathematical
 
 
 $$
-
 \Psi(x,y,z) = A\sin(k_xx)\sin(k_yy)\sin(k_zz)
-
 $$
 
 
@@ -18129,9 +17307,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,y,z,t) = \hat{H}\Psi(x,y,z,t)
-
 $$
 
 
@@ -18149,9 +17325,7 @@ In quantum mechanics, the potential energy of a particle is represented by an op
 
 
 $$
-
 \hat{V} = V(x,y,z)
-
 $$
 
 
@@ -18567,9 +17741,7 @@ The behavior of particles described by Bose-Einstein statistics is governed by t
 
 
 $$
-
 n_i = \frac{1}{e^{\frac{E_i - \mu}{kT}} - 1}
-
 $$
 
 
@@ -18595,9 +17767,7 @@ The behavior of particles described by Fermi-Dirac statistics is governed by the
 
 
 $$
-
 n_i = \frac{1}{e^{\frac{E_i - \mu}{kT}} + 1}
-
 $$
 
 

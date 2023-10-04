@@ -483,9 +483,7 @@ The length scale at which energy is dissipated in a turbulent flow can be determ
 
 
 $$
-
 \eta = \left(\frac{{\nu^3}}{\varepsilon}\right)^{1/4}
-
 $$
 
 
@@ -507,9 +505,7 @@ The Reynolds number (Re) is a dimensionless quantity that plays a pivotal role i
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -531,9 +527,7 @@ The turbulent eddy viscosity in the Spalart–Allmaras model is given by:
 
 
 $$
-
 \frac{\partial \tilde{\nu}}{\partial t} + u_j \frac{\partial \tilde{\nu}}{\partial x_j} = C_{b1} [1 - f_{t2}] \tilde{S} \tilde{\nu} + \frac{1}{\sigma} \{ \nabla \cdot [(\nu + \tilde{\nu}) \nabla \tilde{\nu}] + C_{b2} | \nabla \tilde{\nu} |^2 \} - \left[C_{w1} f_w - \frac{C_{b1}}{\kappa^2} f_{t2}\right] \left( \frac{\tilde{\nu}}{d} \right)^2 + f_{t1} \Delta U^2
-
 $$
 
 
@@ -659,33 +653,25 @@ These statistical measures can be calculated from the turbulence data using the 
 
 
 $$
-
 \mu = \frac{1}{N} \sum_{i=1}^{N} x_i
-
 $$
 
 
 
 $$
-
 \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2
-
 $$
 
 
 
 $$
-
 \gamma_1 = \frac{1}{N} \sum_{i=1}^{N} \left( \frac{x_i - \mu}{\sigma} \right)^3
-
 $$
 
 
 
 $$
-
 \gamma_2 = \frac{1}{N} \sum_{i=1}^{N} \left( \frac{x_i - \mu}{\sigma} \right)^4 - 3
-
 $$
 
 
@@ -715,9 +701,7 @@ The energy spectrum is defined as the Fourier transform of the autocorrelation f
 
 
 $$
-
 R(\tau) = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)(x_{i+\tau} - \mu)
-
 $$
 
 
@@ -731,9 +715,7 @@ The energy spectrum $E(k)$ can then be calculated as the Fourier transform of $R
 
 
 $$
-
 E(k) = \int_{-\infty}^{\infty} R(\tau) e^{-ik\tau} d\tau
-
 $$
 
 
@@ -743,9 +725,7 @@ The energy spectrum provides valuable information about the distribution of ener
 
 
 $$
-
 E(k) \propto k^{-5/3}
-
 $$
 
 
@@ -767,9 +747,7 @@ Turbulence intensity and dissipation rate are two key parameters in the study of
 
 
 $$
-
 I = \frac{\sqrt{\overline{u'^2}}}{\overline{U}}
-
 $$
 
 
@@ -783,9 +761,7 @@ The dissipation rate of turbulence, often denoted as $\epsilon$, is a measure of
 
 
 $$
-
 \epsilon = 2\nu \overline{S_{ij}S_{ij}}
-
 $$
 
 
@@ -937,9 +913,7 @@ The three-dimensional flow velocity is expressed as:
 
 
 $$
-
 \mathbf{v} = v_{1} \mathbf{e}_{1} + v_{2} \mathbf{e}_{2} + v_{3} \mathbf{e}_{3}
-
 $$
 
 
@@ -1009,9 +983,7 @@ The general equation of heat transfer, as derived in Section 49 of L.D. Landau a
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -1077,9 +1049,7 @@ As we have previously discussed, the flow velocity in a 3D system can be express
 
 
 $$
-
 \mathbf{v} = v_{1} \mathbf{e}_{1} + v_{2} \mathbf{e}_{2} + v_{3} \mathbf{e}_{3}
-
 $$
 
 
@@ -1089,9 +1059,7 @@ where $\mathbf{e}_{i}$ are basis vectors, and $v_{i}$ are flow velocity componen
 
 
 $$
-
 \mathbf{v} = v_{1} \mathbf{e}_{1} + v_{2} \mathbf{e}_{2}
-
 $$
 
 
@@ -1101,9 +1069,7 @@ The vector function $\mathbf{\psi}$ is defined via:
 
 
 $$
-
 \mathbf{\psi} = \psi_{1} \mathbf{e}_{1} + \psi_{2} \mathbf{e}_{2} + \psi_{3} \mathbf{e}_{3}
-
 $$
 
 
@@ -1113,9 +1079,7 @@ However, since the flow is assumed 2D, this simplifies to:
 
 
 $$
-
 \mathbf{\psi} = \psi_{1} \mathbf{e}_{1} + \psi_{2} \mathbf{e}_{2}
-
 $$
 
 
@@ -1125,7 +1089,6 @@ In orthogonal coordinates, the curl takes on a simple form, and the equation abo
 
 
 $$
-
 \frac{\mathbf{e}_{1}}{h_{2} h_{3}} 
 
 \left[
@@ -1155,7 +1118,6 @@ $$
 \frac{\partial}{\partial x_{2}} \left( h_{1} \psi_{1} \right)
 
 \right]
-
 $$
 
 
@@ -1165,9 +1127,7 @@ Examining this equation shows that we can set $\psi_{3} = 0$ and retain equality
 
 
 $$
-
 \frac{\mathbf{e}_{1}}{h_{2} h_{3}} \frac{\partial}{\partial x_{2}} \left( h_{3} \psi_{3} \right) = 0
-
 $$
 
 
@@ -1193,17 +1153,13 @@ In the quasi-geostrophic approximation, the horizontal velocity components are g
 
 
 $$
-
 u = \bar{u}+\tilde{u} \quad \text{with} \quad \bar{u}=-\frac{g}{f_0}\frac{\partial \eta}{\partial y}
-
 $$
 
 
 
 $$
-
 v = \bar{v}+\tilde{v} \quad \text{with} \quad \bar{v}=\frac{g}{f_0}\frac{\partial \eta}{\partial x}
-
 $$
 
 
@@ -1217,25 +1173,19 @@ Substituting these expressions into the continuity equation and neglecting terms
 
 
 $$
-
 \tilde{v} = -\frac{g}{f_0^2}\frac{\partial^2 \eta}{\partial y \partial t}
-
 $$
 
 
 
 $$
-
 \tilde{u} = -\frac{g}{f_0^2}\frac{\partial^2 \eta}{\partial x \partial t}
-
 $$
 
 
 
 $$
-
 \frac{\partial \eta}{\partial t}+H_0\left(\frac{\partial \tilde{u}}{\partial x} + \frac{\partial \tilde{v}}{\partial y}\right)+\alpha_0 \frac{g}{f_0}\frac{\partial \eta}{\partial x}=0
-
 $$
 
 
@@ -1261,9 +1211,7 @@ In the previous section, we derived the expressions for the ageostrophic velocit
 
 
 $$
-
 \frac{\partial \eta}{\partial t}+H_0\left(\frac{\partial \tilde{u}}{\partial x} + \frac{\partial \tilde{v}}{\partial y}\right)+\alpha_0 \frac{g}{f_0}\frac{\partial \eta}{\partial x}=0
-
 $$
 
 
@@ -1273,9 +1221,7 @@ Substituting the expressions for $\tilde{u}$ and $\tilde{v}$ into this equation,
 
 
 $$
-
 \frac{\partial \eta}{\partial t}-H_0\left(\frac{g}{f_0^2}\frac{\partial^3 \eta}{\partial x^2 \partial t} + \frac{g}{f_0^2}\frac{\partial^3 \eta}{\partial y^2 \partial t}\right)+\alpha_0 \frac{g}{f_0}\frac{\partial \eta}{\partial x}=0
-
 $$
 
 
@@ -1337,11 +1283,9 @@ The QG approximation is defined as follows:
 
 
 $$
-
 u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-{g \over f_0}{\partial \eta \over \partial y}\\[3pt]
 
 v = \bar{v}+\tilde{v} \qquad \text{with} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},
-
 $$
 
 
@@ -1355,13 +1299,11 @@ Substituting these expressions for $u$ and $v$ in the previously acquired set of
 
 
 $$
-
 -{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{u} \over\partial t}-f_0\tilde{v} = 0\\[3pt]
 
 {g \over f_0}{\partial^2 \eta \over \partial x \partial t}+{\partial \tilde{v} \over\partial t}+f_0\tilde{u} = 0\\[3pt]
 
 {\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}+ \alpha_0\tilde{v}=0.
-
 $$
 
 
@@ -1371,13 +1313,11 @@ Neglecting terms where small component terms ($\tilde{u}, \tilde{v}, {\partial\o
 
 
 $$
-
 \tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
 
 \tilde{u} = -{g \over f_0^2}{\partial^2 \eta \over \partial x \partial t}\\[3pt]
 
 {\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
-
 $$
 
 
@@ -1387,9 +1327,7 @@ Substituting the components of the ageostrophic velocity in the continuity equat
 
 
 $$
-
 {\partial \eta \over\partial t}-R^2{\partial\over\partial t}\nabla^2 \eta + \alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
-
 $$
 
 
@@ -1447,9 +1385,7 @@ The mathematical description of QG turbulence involves the QG potential vorticit
 
 
 $$
-
 \frac{Dq}{Dt} = \frac{\partial q}{\partial t} + \mathbf{u} \cdot \nabla q = 0
-
 $$
 
 
@@ -1491,9 +1427,7 @@ The modified QGPV equation with the eddy viscosity model can be written as:
 
 
 $$
-
 \frac{Dq}{Dt} = \nu \nabla^2 q
-
 $$
 
 
@@ -1617,9 +1551,7 @@ The SQG approximation is a simplification of the quasi-geostrophic approximation
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + J(\eta, \psi) = 0
-
 $$
 
 
@@ -1653,9 +1585,7 @@ The SQG turbulence is governed by the following equation:
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + J(\eta, \psi) = 0
-
 $$
 
 
@@ -1745,9 +1675,7 @@ The effective diffusivity, $D_{eff}$, can be expressed as:
 
 
 $$
-
 D_{eff} = D_m + D_t
-
 $$
 
 
@@ -1825,9 +1753,7 @@ One of the most common approaches to parameterizing effective diffusivity is thr
 
 
 $$
-
 \overline{v'c'} = -K \frac{\partial \overline{c}}{\partial z}
-
 $$
 
 
@@ -1897,9 +1823,7 @@ The basic concept of the TEM can be understood in terms of directional statistic
 
 
 $$
-
 \overline{z}=\frac{1}{N}\sum_{n=1}^N z_n
-
 $$
 
 
@@ -1909,9 +1833,7 @@ which may be expressed as
 
 
 $$
-
 \overline{z} = \overline{C} + i\overline{S}
-
 $$
 
 
@@ -1921,9 +1843,7 @@ where
 
 
 $$
-
 \overline{C} = \frac{1}{N}\sum_{n=1}^N \cos(\theta_n) \text{ and } \overline{S} = \frac{1}{N}\sum_{n=1}^N \sin(\theta_n)
-
 $$
 
 
@@ -1933,9 +1853,7 @@ or, alternatively as:
 
 
 $$
-
 \overline{z} = \overline{R}e^{i\overline{\theta}}
-
 $$
 
 
@@ -1945,9 +1863,7 @@ where
 
 
 $$
-
 \overline{R} = \sqrt{\overline{C}^2+{\overline{S}}^2} \text{ and } \overline{\theta} = \arctan (\overline{S} / \overline{C}).
-
 $$
 
 
@@ -1957,13 +1873,11 @@ The distribution of the mean angle ($\overline{\theta}$) for a circular pdf "P"(
 
 
 $$
-
 P(\overline{C},\overline{S}) \, d\overline{C} \, d\overline{S} =
 
 P(\overline{R},\overline{\theta}) \, d\overline{R} \, d\overline{\theta} = 
 
 \int_\Gamma \cdots \int_\Gamma \prod_{n=1}^N \left[ P(\theta_n) \, d\theta_n \right]
-
 $$
 
 
@@ -1989,9 +1903,7 @@ The TEM in 2D flows can be described using the stream function $\psi$ and the vo
 
 
 $$
-
 \nabla^2 \psi = -\omega
-
 $$
 
 
@@ -2001,9 +1913,7 @@ The vorticity equation in 2D flows can be written as:
 
 
 $$
-
 \frac{\partial \omega}{\partial t} + J(\psi, \omega) = \nu \nabla^2 \omega
-
 $$
 
 
@@ -2017,9 +1927,7 @@ In the presence of waves, the vorticity field can be decomposed into a mean part
 
 
 $$
-
 \frac{\partial \overline{\omega}}{\partial t} + J(\overline{\psi}, \overline{\omega}) = \nu \nabla^2 \overline{\omega} - \overline{J(\psi', \omega')}
-
 $$
 
 
@@ -2049,9 +1957,7 @@ The TEM in 3D flows can be described using the velocity vector $\mathbf{u}$ and 
 
 
 $$
-
 \mathbf{\omega} = \nabla \times \mathbf{u}
-
 $$
 
 
@@ -2061,9 +1967,7 @@ The vorticity equation in 3D flows can be written as:
 
 
 $$
-
 \frac{\partial \mathbf{\omega}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{\omega} = \mathbf{\omega} \cdot \nabla \mathbf{u} + \nu \nabla^2 \mathbf{\omega}
-
 $$
 
 
@@ -2077,9 +1981,7 @@ Similar to the 2D case, the vorticity field can be decomposed into a mean part $
 
 
 $$
-
 \frac{\partial \overline{\mathbf{\omega}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{\omega}} = \overline{\mathbf{\omega}} \cdot \nabla \overline{\mathbf{u}} + \nu \nabla^2 \overline{\mathbf{\omega}} - \overline{\mathbf{u'} \cdot \nabla \mathbf{\omega'}}
-
 $$
 
 
@@ -2137,7 +2039,6 @@ The TEM equations in 3D can be written as follows:
 
 
 $$
-
 \begin{aligned}
 
 \frac{\partial \overline{\mathbf{u}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{u}} &= -\nabla \overline{p} + \nu \nabla^2 \overline{\mathbf{u}} + \overline{\mathbf{u'} \cdot \nabla \mathbf{u'}}, \\
@@ -2145,7 +2046,6 @@ $$
 \frac{\partial \overline{\mathbf{\omega}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{\omega}} &= \nabla \times \left( \overline{\mathbf{u'} \cdot \nabla \mathbf{u'}} \right) + \nu \nabla^2 \overline{\mathbf{\omega}},
 
 \end{aligned}
-
 $$
 
 
@@ -2349,9 +2249,7 @@ Mathematically, the Stokes drift velocity ($V_s$) can be defined as:
 
 
 $$
-
 V_s = \frac{Stokes \, drift}{time \, interval}
-
 $$
 
 
@@ -2393,9 +2291,7 @@ Mathematically, the trajectory of a particle in a turbulent flow can be describe
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = \mathbf{u}(\mathbf{x},t) + \sqrt{2K}\mathbf{W}(t)
-
 $$
 
 
@@ -2421,9 +2317,7 @@ Mathematically, an LCS can be defined as a material surface $\mathcal M(t)$ in t
 
 
 $$
-
 \mathcal M = \{ (x,t) \in \mathcal P \times \mathcal I : x = F^t_{t_0}(x_0) \text{ for some } x_0 \in \mathcal M(t_0) \}
-
 $$
 
 
@@ -2457,9 +2351,7 @@ The Stokes' drift velocity, $U_s$, can be expressed as:
 
 
 $$
-
 U_s = \frac{1}{16} \frac{H^2}{T} \exp \left( \frac{-2kz}{\sinh(2kd)} \right)
-
 $$
 
 
@@ -2509,11 +2401,9 @@ The quasi-geostrophic approximation also allows us to derive the equations for t
 
 
 $$
-
 \tilde{v} = -\frac{g}{f_0^2}\frac{\partial^2 \eta}{\partial y \partial t}\\[3pt]
 
 \tilde{u} = -\frac{g}{f_0^2}\frac{\partial^2 \eta}{\partial x \partial t}
-
 $$
 
 
@@ -2803,13 +2693,11 @@ The Blasius boundary layer, particularly the compressible variant, provides a ma
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0,\\
 
 \rho \left(u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} \right) = \frac{\partial }{\partial y} \left(\mu\frac{\partial u}{\partial y}\right),\\
 
 \rho \left(u \frac{\partial h}{\partial x} + v \frac{\partial h}{\partial y} \right) = \frac{\partial }{\partial y} \left(\frac{\mu}{Pr} \frac{\partial h}{\partial y} \right) + \mu \left( \frac{\partial u}{\partial y}\right)^2
-
 $$
 
 
@@ -2819,7 +2707,6 @@ where $Pr=c_{p_\infty}\mu_\infty/\kappa_\infty$ is the Prandtl number with suffi
 
 
 $$ u = v = h - h_w(x) = 0 \ \text{for} \ y=0,$$
-
 $$ u -U = h - h_\infty =0 \ \text{for} \ y=\infty \ \text{or} \ x=0.$$
 
 
@@ -2827,9 +2714,7 @@ $$ u -U = h - h_\infty =0 \ \text{for} \ y=\infty \ \text{or} \ x=0.$$
 The Howarth transformation introduces self-similar variables, which simplifies the analysis of the boundary layer. The transformation is given by:
 
 
-
 $$\eta = \sqrt{\frac{U}{2\nu_\infty x}} \int_0^y \frac{\rho}{\rho_\infty} dy, \quad f(\eta) = \frac{\psi}{\sqrt{2\nu_\infty U x}}, \quad \tilde h(\eta) = \frac{h}{h_\infty}, \quad \tilde h_w = \frac{h_w}{h_\infty}, \quad \tilde \rho = \frac{\rho}{\rho_\infty},$$
-
 
 
 These mathematical tools provide a foundation for understanding the structure and dynamics of turbulent boundary layers. However, the complexity of these layers, particularly in the context of oceanic and atmospheric turbulence, necessitates further study and research. The interplay between turbulence, particle motion, and boundary layers is a rich area of study with significant implications for our understanding of the natural world.
@@ -2847,13 +2732,11 @@ Turbulent transport in the boundary layer is a complex process that involves the
 The turbulent transport can be mathematically represented by the conservation equation for a passive scalar in the convective boundary layer (CBL). The equation is given by:
 
 
-
 $$
 
 \frac {\partial \bar {c}}{\partial t}=-\frac {\partial \overline {w'c'}}{\partial z}
 
 $$
-
 
 
 where $\bar {c}$ is the mean of quantity $c$, which could be water vapor mixing ratio $q$, potential temperature $\theta$, eastward-moving $u$ and northward-moving $v$ wind speed. $\overline {w'c'}$ is the vertical turbulent flux of $c$.
@@ -2891,13 +2774,11 @@ Convective plumes, as described in the previous context, act as conduits or mixi
 The mixing process can be mathematically represented by the following equation:
 
 
-
 $$
 
 \frac {\partial \bar {c}}{\partial t}=-\frac {\partial \overline {w'c'}}{\partial z} + \frac {\partial \overline {w'c'}}{\partial x}
 
 $$
-
 
 
 where $\bar {c}$ is the mean of quantity $c$, which could be water vapor mixing ratio $q$, potential temperature $\theta$, eastward-moving $u$ and northward-moving $v$ wind speed. $\overline {w'c'}$ is the vertical turbulent flux of $c$, and $\frac {\partial \overline {w'c'}}{\partial x}$ represents the horizontal turbulent flux of $c$.
@@ -2911,13 +2792,11 @@ Entrainment, on the other hand, is the process by which turbulent eddies at the 
 The entrainment rate, $E$, can be defined as:
 
 
-
 $$
 
 E = \frac {d\delta}{dt}
 
 $$
-
 
 
 where $\delta$ is the boundary layer thickness and $t$ is time. This equation represents the rate of increase of the boundary layer thickness due to entrainment.
@@ -2947,13 +2826,11 @@ Satellite observations have been crucial in understanding the horizontal and ver
 Modeling of turbulent boundary layers, on the other hand, involves the use of mathematical equations to represent the various processes occurring within the boundary layer. For instance, the mixing process can be represented by the equation:
 
 
-
 $$
 
 \frac {\partial \bar {c}}{\partial t}=-\frac {\partial \overline {w'c'}}{\partial z} + \frac {\partial \overline {w'c'}}{\partial x}
 
 $$
-
 
 
 where $\bar {c}$ is the mean of quantity $c$, which could be water vapor mixing ratio $q$, potential temperature $\theta$, eastward-moving $u$ and northward-moving $v$ wind speed. $\overline {w'c'}$ is the vertical turbulent flux of $c$, and $\frac {\partial \overline {w'c'}}{\partial x}$ represents the horizontal turbulent flux of $c$.
@@ -2963,13 +2840,11 @@ where $\bar {c}$ is the mean of quantity $c$, which could be water vapor mixing 
 The entrainment rate, $E$, which represents the rate of increase of the boundary layer thickness due to entrainment, can be defined as:
 
 
-
 $$
 
 E = \frac {d\delta}{dt}
 
 $$
-
 
 
 where $\delta$ is the boundary layer thickness and $t$ is time.
@@ -3077,13 +2952,11 @@ Solitary waves are generated when a disturbance in the medium causes a shift fro
 The velocity of a solitary wave is determined by the total water depth under the wave crest, with higher waves traveling faster than lower waves. This is a result of the nonlinear gravity wave effect. The single soliton solution of the Korteweg–de Vries equation, which describes the wave height "H" in water depth "h" far away from the wave crest, travels with the velocity:
 
 
-
 $$
 
 c = \sqrt{g(h + H)}
 
 $$
-
 
 
 where "g" is the acceleration due to gravity. Note that solitary wave solutions only exist for positive values of "H", solitary gravity waves of depression do not exist.
@@ -3093,13 +2966,11 @@ where "g" is the acceleration due to gravity. Note that solitary wave solutions 
 In deep water, the linear dispersion relation – unaffected by wave amplitude – is also correct for nonlinear waves at the second order of the perturbation theory expansion. To the third order, and for deep water, the dispersion relation is:
 
 
-
 $$
 
 \omega = \sqrt{gk \tanh(kh)}
 
 $$
-
 
 
 This implies that large waves travel faster than small ones of the same frequency. This is only noticeable when the wave steepness $ka$ (where "a" is wave amplitude) is large.
@@ -3109,7 +2980,6 @@ This implies that large waves travel faster than small ones of the same frequenc
 When solitary waves are on a mean current, they experience a Doppler shift. The dispersion relation for a non-moving medium is:
 
 
-
 $$
 
 \omega = \sqrt{gk \tanh(kh)}
@@ -3117,9 +2987,7 @@ $$
 $$
 
 
-
 Then for a medium with mean velocity vector V, the dispersion relationship with Doppler shift becomes:
-
 
 
 $$
@@ -3127,7 +2995,6 @@ $$
 \omega - k \cdot V = \sqrt{gk \tanh(kh)}
 
 $$
-
 
 
 where k is the wavenumber vector, related to "k" as: $k = |k|$. The dot product $k \cdot V$ is equal to: $k \cdot V = kV \cos \alpha$, with "V" the length of the mean velocity vector V: $V = |V|$. And "$\alpha$" the angle between the wave propagation direction and the mean flow direction.
@@ -3157,13 +3024,11 @@ The intensity of the turbulence caused by breaking internal waves is primarily d
 The mixing efficiency, denoted by $\gamma$, is defined as the ratio between the total amount of mixing and the total irreversible energy loss. It can be mathematically represented as:
 
 
-
 $$
 
 \gamma = \frac{\Delta V}{E}
 
 $$
-
 
 
 where $\Delta V$ is the change in background potential energy due to mixing and $E$ is the total energy expended. However, since $\Delta V$ and $E$ are not directly observable, different definitions are used in various studies to determine the mixing efficiency.
@@ -3189,13 +3054,11 @@ Solitary waves, as discussed in the context of shallow water, are near-solitons 
 The interaction of solitary waves can be described mathematically by the Korteweg–de Vries (KdV) equation. The KdV equation is a third-order partial differential equation that describes the propagation of waves in shallow water. It is given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} + 6u\frac{\partial u}{\partial x} + \frac{\partial^3 u}{\partial x^3} = 0
 
 $$
-
 
 
 where $u$ is the wave amplitude, $t$ is time, and $x$ is the spatial coordinate. The KdV equation is derived from the conservation of mass and momentum, assuming a weakly nonlinear and weakly dispersive wave.
@@ -3253,13 +3116,11 @@ Topographic waves, also known as topographic Rossby waves, are a type of interna
 The generation of topographic waves is primarily influenced by the interaction between the fluid flow and the underlying topography. When a steady, geostrophic flow encounters a change in the bottom slope, it can give rise to topographic waves. The dispersion relation for these waves is given by:
 
 
-
 $$
 
 \omega = {\alpha_0 g \over f_0}{k_x \over 1+R^2(k_x^2+k_y^2)}
 
 $$
-
 
 
 where $\omega$ is the angular frequency of the wave, $\alpha_0$ is the bottom slope, $g$ is the acceleration due to gravity, $f_0$ is the Coriolis parameter, $k_x$ and $k_y$ are the wavenumbers in the x- and y- direction respectively, and $R$ is the Rossby radius of deformation. 
@@ -3277,13 +3138,11 @@ The propagation of topographic waves is governed by the phase speed of the waves
 The maximum frequency of the topographic Rossby waves is given by:
 
 
-
 $$
 
 \left\vert \omega \right\vert _{max} ={ \left\vert \alpha_0 \right\vert g \over 2\left\vert f_0 \right\vert R }
 
 $$
-
 
 
 which is attained for $k_x = R^{-1}$ and $k_y = 0$. If the forcing creates waves with frequencies above this threshold, no Rossby waves are generated. This situation rarely happens, unless $\alpha_0$ is very small. In all other cases $\left\vert \omega \right\vert_{max}$ exceeds $\left\vert f_0 \right\vert$ and the theory breaks down. 
@@ -3309,7 +3168,6 @@ The generation of internal tides is primarily influenced by the interaction betw
 The dispersion relation for internal tides is given by:
 
 
-
 $$
 
 \omega^2 = N^2 \left( \frac{k_h^2}{k^2} \right)
@@ -3317,9 +3175,7 @@ $$
 $$
 
 
-
 where $\omega$ is the angular frequency of the tide, $N$ is the buoyancy frequency, $k_h$ is the horizontal wavenumber, and $k$ is the total wavenumber. The buoyancy frequency $N$ is a measure of the stratification of the fluid and is defined as:
-
 
 
 $$
@@ -3327,7 +3183,6 @@ $$
 N^2 = -g \frac{\partial \rho}{\partial z} \frac{1}{\rho}
 
 $$
-
 
 
 where $g$ is the acceleration due to gravity, $\rho$ is the density of the fluid, and $z$ is the vertical coordinate.
@@ -3361,13 +3216,11 @@ Topographic waves are generated when a flow encounters a change in the underlyin
 The energy dissipation in wave-topography interactions is a complex process that is influenced by a variety of factors. These include the amplitude and frequency of the incoming wave, the shape and slope of the topography, and the stratification of the fluid. The energy dissipation can be described by the following equation:
 
 
-
 $$
 
 E_d = \frac{1}{2} \rho g A^2 \omega \alpha
 
 $$
-
 
 
 where $E_d$ is the energy dissipation, $\rho$ is the density of the fluid, $g$ is the acceleration due to gravity, $A$ is the amplitude of the wave, $\omega$ is the angular frequency of the wave, and $\alpha$ is the dissipation coefficient.
@@ -3543,13 +3396,11 @@ The primary mechanism for the dissipation of turbulence in the ocean is through 
 The rate of energy dissipation due to turbulence, often denoted by $\epsilon$, is a key parameter in the study of oceanic turbulence. It is typically estimated from measurements of turbulent velocity and temperature fluctuations, using the relation:
 
 
-
 $$
 
 \epsilon = \nu \left( \frac{\partial u}{\partial z} \right)^2
 
 $$
-
 
 
 where $\nu$ is the molecular viscosity, $u$ is the velocity, and $z$ is the vertical coordinate. This equation is derived from the viscous dissipation term in the energy equation for turbulent flows.
@@ -3943,7 +3794,6 @@ The propagation of oceanic internal waves is a dynamic process that is influence
 The ocean's stratification, characterized by layers of water with different densities, plays a crucial role in the propagation of internal waves. The speed at which these waves travel, known as the phase speed, is determined by the buoyancy frequency, which is a measure of the stratification. The buoyancy frequency, $N$, is given by the formula:
 
 
-
 $$
 
 N = \sqrt{-\frac{g}{\rho_0}\frac{d\rho}{dz}}
@@ -3951,9 +3801,7 @@ N = \sqrt{-\frac{g}{\rho_0}\frac{d\rho}{dz}}
 $$
 
 
-
 where $g$ is the acceleration due to gravity, $\rho_0$ is a reference density, $d\rho/dz$ is the vertical gradient of density, and $z$ is the vertical coordinate (positive upwards). The phase speed of an internal wave, $c$, is then given by:
-
 
 
 $$
@@ -3963,7 +3811,6 @@ c = \frac{\omega}{k}
 $$
 
 
-
 where $\omega$ is the frequency of the wave and $k$ is the wavenumber. For a given frequency, the phase speed is inversely proportional to the wavenumber, which means that waves with longer wavelengths (smaller wavenumbers) travel faster than waves with shorter wavelengths (larger wavenumbers).
 
 
@@ -3971,13 +3818,11 @@ where $\omega$ is the frequency of the wave and $k$ is the wavenumber. For a giv
 The Coriolis effect also plays a significant role in the propagation of oceanic internal waves. Due to the Earth's rotation, the motion of these waves is deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This deflection, known as the Coriolis force, can cause the waves to propagate in a direction that is not parallel to the direction of the initial wave generation. The Coriolis parameter, $f$, is given by:
 
 
-
 $$
 
 f = 2\Omega \sin(\phi)
 
 $$
-
 
 
 where $\Omega$ is the Earth's rotation rate and $\phi$ is the latitude. The Coriolis effect becomes more pronounced as the latitude increases, which can lead to significant differences in the propagation of internal waves in different parts of the ocean.
@@ -4003,13 +3848,11 @@ When an internal wave propagates through the ocean, it can encounter regions whe
 The breaking of an internal wave can be described by the wave's Richardson number, $Ri$, which is a dimensionless quantity that compares the wave's buoyancy frequency, $N$, to its vertical shear, $S$. The Richardson number is given by the formula:
 
 
-
 $$
 
 Ri = \frac{N^2}{S^2}
 
 $$
-
 
 
 where $S$ is the vertical shear of the wave, defined as the change in the wave's horizontal velocity with respect to depth. When the Richardson number falls below a critical value, typically around 0.25, the wave is unstable and can break.
@@ -4161,13 +4004,11 @@ Due to the symmetry of the coherence matrix, only $(n^4 + n^2)/2$ elements are i
 The spectral matrix, $S(\omega_k)$, can be written as the matrix product of a matrix, $H(\omega_k)$, and its transpose. That is,
 
 
-
 $$
 
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
 
 $$
-
 
 
 $H(\omega_k)$ is ultimately needed to obtain the complex Fourier coefficients of the Fourier transforms of the time series of the wind speeds at all the points on the surface. Note - if the Fourier transform of a time domain function, $x(t)$, is $X(\omega)$, then the resultant spectrum is $S(\omega) \propto X(\omega)X^*(\omega)$; for multiple time domain functions, the Fourier coefficients can be stored in a matrix, which then means that the above equation is applicable.
@@ -4193,13 +4034,11 @@ The dissipation of atmospheric turbulence is another complex process that is inf
 The rate of turbulence dissipation, often denoted as $\epsilon$, is a key parameter in turbulence modeling. It is typically estimated from measurements of the turbulence kinetic energy and its rate of change. The dissipation rate can be expressed as:
 
 
-
 $$
 
 \epsilon = 2 \nu \sum_{i,j} S_{ij} S_{ij}
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity, and $S_{ij}$ is the rate of strain tensor, which describes the rate at which fluid particles are deforming. The summation is over all spatial dimensions.
@@ -4337,7 +4176,6 @@ The geostrophic components represent the balance between the pressure gradient f
 The equations governing the ageostrophic components are:
 
 
-
 $$
 
 \tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
@@ -4347,7 +4185,6 @@ $$
 {\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
 
 $$
-
 
 
 These equations describe the evolution of the ageostrophic components in response to changes in the atmospheric pressure field $\eta$. They show that the ageostrophic components are driven by the second derivatives of the pressure field with respect to time and space, and they are damped by the Coriolis force and the pressure gradient force.
@@ -4373,13 +4210,11 @@ The dissipation of atmospheric eddies is a critical process in the atmospheric d
 The dissipation of eddies can be described by the following equation:
 
 
-
 $$
 
 \frac{\partial E}{\partial t} = -\nabla \cdot (\vec{u} E) - \nabla \cdot (\vec{u}' E') - \frac{\partial (u'w')}{\partial z} - \epsilon
 
 $$
-
 
 
 where $E$ is the eddy kinetic energy, $\vec{u}$ is the mean wind vector, $\vec{u}'$ is the eddy wind vector, $w'$ is the vertical velocity perturbation, and $\epsilon$ is the dissipation rate of the eddy kinetic energy.
@@ -4393,13 +4228,11 @@ The first term on the right-hand side represents the advection of eddy kinetic e
 The dissipation rate $\epsilon$ can be estimated from the turbulence kinetic energy equation as:
 
 
-
 $$
 
 \epsilon = \nu \left( \frac{\partial u'}{\partial x} \right)^2
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity and $u'$ is the horizontal velocity perturbation.
@@ -4505,21 +4338,17 @@ The dynamics of the ABL can be described mathematically using the primitive equa
 For example, the horizontal momentum equations in the primitive equations can be written as:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} - fv = -\frac{1}{\rho}\frac{\partial p}{\partial x} + F_x
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} + fu = -\frac{1}{\rho}\frac{\partial p}{\partial y} + F_y
 
 $$
-
 
 
 where $u$ and $v$ are the components of the wind velocity in the x and y directions, respectively, $f$ is the Coriolis parameter, $p$ is the pressure, $\rho$ is the air density, and $F_x$ and $F_y$ are the frictional forces in the x and y directions, respectively.
@@ -4541,13 +4370,11 @@ The mixing within the atmospheric boundary layer (ABL) is a crucial process that
 The mathematical representation of the mixing process in the ABL can be described using the conservation equation for a passive scalar in the convective boundary layer (CBL). This equation is given by:
 
 
-
 $$
 
 \frac {\partial \bar {c}}{\partial t}=-\frac {\partial \overline {w'c'}}{\partial z}
 
 $$
-
 
 
 where $\bar {c}$ is the mean of quantity $c$, which could be water vapor mixing ratio $q$, potential temperature $\theta$, eastward-moving $u$ and northward-moving $v$ wind speed. $\overline {w'c'}$ is the vertical turbulent flux of $c$.
@@ -4613,14 +4440,11 @@ The generation of atmospheric internal waves is a complex process that involves 
 The mathematical representation of this process is based on the primitive equations of fluid dynamics, which describe the motion of a fluid on a rotating sphere. These equations are:
 
 
-
 $$
 
 \frac{Du}{Dt} - fv = -\frac{1}{\rho}\frac{\partial p}{\partial x} + F_x
 
 $$
-
-
 
 $$
 
@@ -4628,22 +4452,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{Dw}{Dt} = -\frac{1}{\rho}\frac{\partial p}{\partial z} - g + F_z
 
 $$
 
-
-
 $$
 
 \frac{D\rho}{Dt} = -\rho (\nabla \cdot \vec{V})
 
 $$
-
 
 
 where $D/Dt$ is the material derivative, $f$ is the Coriolis parameter, $u$, $v$, and $w$ are the components of the velocity vector $\vec{V}$ in the $x$, $y$, and $z$ directions, respectively, $p$ is the pressure, $\rho$ is the density, $g$ is the acceleration due to gravity, and $F_x$, $F_y$, and $F_z$ are the components of the external force vector.
@@ -4669,13 +4488,11 @@ The propagation of atmospheric internal waves is a fascinating phenomenon that i
 The propagation of atmospheric internal waves can be described mathematically using the wave equation, which is derived from the primitive equations of fluid dynamics. The wave equation for atmospheric internal waves is given by:
 
 
-
 $$
 
 \frac{\partial^2 \phi}{\partial t^2} = c^2 \nabla^2 \phi
 
 $$
-
 
 
 where $\phi$ is the wave function, $t$ is time, $c$ is the speed of sound in the atmosphere, and $\nabla^2$ is the Laplacian operator.
@@ -4689,13 +4506,11 @@ The solution to this equation gives the wave function as a function of time and 
 The propagation of atmospheric internal waves is also influenced by the Coriolis effect, which is due to the rotation of the Earth. The Coriolis effect causes the wave to veer to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This effect can be incorporated into the wave equation by adding a term proportional to the Coriolis parameter $f$:
 
 
-
 $$
 
 \frac{\partial^2 \phi}{\partial t^2} + f^2 \phi = c^2 \nabla^2 \phi
 
 $$
-
 
 
 Wind shear, which is a change in wind speed or direction with height, can also affect the propagation of atmospheric internal waves. Wind shear can cause the wave to refract, or change direction, as it propagates through the atmosphere. This effect can be modeled by adding a term to the wave equation that represents the wind shear.
@@ -4721,13 +4536,11 @@ Wave breaking typically occurs when the amplitude of the wave increases to a poi
 The breaking of atmospheric internal waves can be described mathematically using the wave breaking criterion, which is derived from the wave equation. The wave breaking criterion for atmospheric internal waves is given by:
 
 
-
 $$
 
 \frac{\partial \phi}{\partial z} > \frac{1}{N}
 
 $$
-
 
 
 where $\phi$ is the wave function, $z$ is the vertical coordinate, and $N$ is the Brunt–Väisälä frequency, which is a measure of the stratification of the atmosphere.
@@ -4875,7 +4688,6 @@ The Reynolds-averaged Navier-Stokes (RANS) equations are a form of the Navier-St
 The RANS equations are derived by decomposing the flow variables into a time-averaged component and a fluctuating component. For instance, for an incompressible, viscous, Newtonian fluid, the continuity and momentum equations can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u_i}}{\partial x_i} = 0,
@@ -4883,9 +4695,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -4895,9 +4705,7 @@ $$
 $$
 
 
-
 After averaging, the continuity and momentum equations become:
-
 
 
 $$
@@ -4907,9 +4715,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -4917,7 +4723,6 @@ $$
 \frac{D \overline{u_i}}{Dt} = -\frac{\partial \bar{p}}{\partial x_i} + \mu \frac{\partial^2 \overline{u_i}}{\partial x_j \partial x_j} - \frac{\partial \left( \rho \overline{u_i' u_j'} \right)}{\partial x_j},
 
 $$
-
 
 
 where $\rho \overline{u_i' u_j'}$ are the Reynolds stresses, which are collected with the viscous normal and shear stress terms, $\mu \frac{\partial \overline{u_i}}{\partial x_j}$.
@@ -4947,13 +4752,11 @@ One of the most widely used eddy viscosity models is the Spalart–Allmaras turb
 The Spalart–Allmaras model is a one-equation model that solves a transport equation for a modified turbulent viscosity, $\tilde{\nu}$. The turbulent eddy viscosity is given by:
 
 
-
 $$
 
 \frac{\partial \tilde{\nu}}{\partial t} + u_j \frac{\partial \tilde{\nu}}{\partial x_j} = C_{b1} [1 - f_{t2}] \tilde{S} \tilde{\nu} + \frac{1}{\sigma} \{ \nabla \cdot [(\nu + \tilde{\nu}) \nabla \tilde{\nu}] + C_{b2} | \nabla \tilde{\nu} |^2 \} - \left[C_{w1} f_w - \frac{C_{b1}}{\kappa^2} f_{t2}\right] \left( \frac{\tilde{\nu}}{d} \right)^2 + f_{t1} \Delta U^2
 
 $$
-
 
 
 where $f_{t1}$ and $f_{t2}$ are damping functions, $\tilde{S}$ is the vorticity magnitude, and $d$ is the distance from the closest surface. The constants in the model are determined from empirical data.
@@ -4995,7 +4798,6 @@ Reynolds Stress Models (RSM) are a class of turbulence closure models that solve
 For an incompressible, viscous, Newtonian fluid, the continuity and momentum equations—the incompressible Navier–Stokes equations—can be written (in a non-conservative form) as:
 
 
-
 $$
 
 \frac{\partial u_i}{\partial x_i} = 0,
@@ -5003,9 +4805,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -5015,13 +4815,11 @@ $$
 $$
 
 
-
 where $D/Dt$ is the Lagrangian derivative or the substantial derivative. 
 
 
 
 Defining the flow variables with a time-averaged component and a fluctuating component, the continuity and momentum equations become:
-
 
 
 $$
@@ -5031,9 +4829,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -5041,7 +4837,6 @@ $$
 \frac{D \left( \overline{u_i} + u_i' \right)}{D t} = -\frac{1}{\rho} \frac{\partial \left( \bar{p} + p' \right) }{\partial x_i} + \nu \frac{\partial^2 \left( \overline{u_i} + u_i' \right)}{\partial x_j \partial x_j}.
 
 $$
-
 
 
 ##### Advantages of RSM
@@ -5131,13 +4926,11 @@ The main advantage of DNS is its accuracy. Since it does not rely on any modelin
 However, the main drawback of DNS is its computational cost. The number of grid points required for DNS scales with the Reynolds number to the power of 9/4, according to the formula:
 
 
-
 $$
 
 N \propto Re^{9/4}
 
 $$
-
 
 
 where $N$ is the number of grid points and $Re$ is the Reynolds number. This means that even for moderate Reynolds numbers, DNS requires a large number of grid points, which in turn requires substantial computational resources.
@@ -5375,13 +5168,11 @@ Reynolds-Averaged Navier-Stokes (RANS) simulations are a class of turbulence mod
 The RANS equations are given by:
 
 
-
 $$
 
 \frac{\partial \overline{u_i}}{\partial t} + \overline{u_j} \frac{\partial \overline{u_i}}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \overline{p}}{\partial x_i} + \nu \frac{\partial^2 \overline{u_i}}{\partial x_j^2} - \frac{\partial \overline{u'_i u'_j}}{\partial x_j}
 
 $$
-
 
 
 where $\overline{u_i}$ and $\overline{u_j}$ are the mean velocity components, $\overline{p}$ is the mean pressure, $\rho$ is the fluid density, $\nu$ is the kinematic viscosity, and $\overline{u'_i u'_j}$ is the Reynolds stress tensor, which represents the effect of the turbulence on the mean flow.
@@ -5411,13 +5202,11 @@ In the simulation of turbulent flows, the Reynolds-Averaged Navier-Stokes (RANS)
 The RANS equations are given by:
 
 
-
 $$
 
 \frac{\partial \overline{u_i}}{\partial t} + \overline{u_j} \frac{\partial \overline{u_i}}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \overline{p}}{\partial x_i} + \nu \frac{\partial^2 \overline{u_i}}{\partial x_j^2} - \frac{\partial \overline{u'_i u'_j}}{\partial x_j}
 
 $$
-
 
 
 where $\overline{u_i}$ and $\overline{u_j}$ are the mean velocity components, $\overline{p}$ is the mean pressure, $\rho$ is the fluid density, $\nu$ is the kinematic viscosity, and $\overline{u'_i u'_j}$ is the Reynolds stress tensor, which represents the effect of the turbulence on the mean flow.
@@ -5459,13 +5248,11 @@ In the context of the RANS simulations, the turbulent boundary layer can be mode
 The wall functions are derived from the law of the wall, which is an empirical law that describes the behavior of the mean velocity in the turbulent boundary layer. The law of the wall states that the mean velocity varies logarithmically with the distance from the wall. This law can be expressed as:
 
 
-
 $$
 
 \overline{u} = \frac{1}{\kappa} \ln \left( \frac{y}{y_0} \right)
 
 $$
-
 
 
 where $\overline{u}$ is the mean velocity, $y$ is the distance from the wall, $y_0$ is the roughness length, and $\kappa$ is the von Karman constant.
@@ -5495,13 +5282,11 @@ In the context of RANS simulations, turbulent convection can be modeled using th
 The Boussinesq approximation can be expressed as:
 
 
-
 $$
 
 \rho = \rho_0 (1 - \beta (T - T_0))
 
 $$
-
 
 
 where $\rho$ is the fluid density, $\rho_0$ is the reference density, $\beta$ is the thermal expansion coefficient, $T$ is the fluid temperature, and $T_0$ is the reference temperature.
@@ -5519,21 +5304,17 @@ In the context of the RANS simulations, the Reynolds stresses and the turbulent 
 The k-epsilon model, for example, can be expressed as:
 
 
-
 $$
 
 \tau_{ij} = -2 \mu_t S_{ij} + \frac{2}{3} k \delta_{ij}
 
 $$
 
-
-
 $$
 
 q_i = - \rho C_p \frac{\mu_t}{\sigma_T} \frac{\partial T}{\partial x_i}
 
 $$
-
 
 
 where $\tau_{ij}$ is the Reynolds stress, $\mu_t$ is the turbulent viscosity, $S_{ij}$ is the mean strain rate, $k$ is the turbulence kinetic energy, $\delta_{ij}$ is the Kronecker delta, $q_i$ is the turbulent heat flux, $\rho$ is the fluid density, $C_p$ is the specific heat at constant pressure, $\sigma_T$ is the turbulent Prandtl number, and $T$ is the fluid temperature.
@@ -5845,41 +5626,29 @@ One of the key advantages of numerical observations is the ability to simulate a
 The models use these parameters to calculate the length scales and turbulence intensities, which determine the shape of the power spectral densities and therefore the quality of the models' fit to spectra of observed turbulence. For example, at low altitude, the length scales are calculated as:
 
 
-
 $$ 2L_w = h $$
 
-
-
 $$ L_u=2L_v=\frac{h}{(0.177+0.000823h)^{1.2}} $$
-
 
 
 And the turbulence intensities are calculated as:
 
 
-
 $$ \sigma_w=0.1W_{20} $$
 
-
-
 $$ \frac{\sigma_u}{\sigma_w}=\frac{\sigma_v}{\sigma_w}=\frac{1}{(0.177+0.000823h)^{0.4}} $$
-
 
 
 At medium and high altitudes, the length scales and turbulence intensities are calculated differently. For the Dryden model, the length scales are calculated as:
 
 
-
 $$ L_u=2L_v=2L_w=1750 \text{ft} $$
-
 
 
 And for the von Kármán model, the length scales are calculated as:
 
 
-
 $$ L_u=2L_v=2L_w=2500 \text{ft} $$
-
 
 
 The turbulence intensities at high altitude are parameterized by the probability of exceedance.
@@ -6049,14 +5818,11 @@ One such model is the Dryden model, which is parameterized by a length scale and
 For example, at low altitudes (between 10 ft AGL and 1000 ft AGL), the Dryden model uses the following equations for length scales and turbulence intensities:
 
 
-
 $$
 
 2L_w = h
 
 $$
-
-
 
 $$
 
@@ -6064,22 +5830,17 @@ L_u=2L_v=\frac{h}{(0.177+0.000823h)^{1.2}}
 
 $$
 
-
-
 $$
 
 \sigma_w=0.1W_{20}
 
 $$
 
-
-
 $$
 
 \frac{\sigma_u}{\sigma_w}=\frac{\sigma_v}{\sigma_w}=\frac{1}{(0.177+0.000823h)^{0.4}}
 
 $$
-
 
 
 where "h" is the altitude AGL and "W"<sub>20</sub> is the wind speed at 20 ft.
@@ -6113,21 +5874,17 @@ In addition to these techniques, computer-aided modeling and programming have be
 One such model is the Kolmogorov model, which describes the energy cascade in turbulent flow. This model is based on the assumption that at high Reynolds numbers, the smallest scales of turbulence are universally similar, regardless of the nature of the larger scales or the flow. The Kolmogorov model uses the following equations for the energy spectrum $E(k)$ and the dissipation rate $\epsilon$:
 
 
-
 $$
 
 E(k) = C \epsilon^{2/3} k^{-5/3}
 
 $$
 
-
-
 $$
 
 \epsilon = 2 \nu \int_0^\infty k^2 E(k) dk
 
 $$
-
 
 
 where $C$ is the Kolmogorov constant, $\nu$ is the kinematic viscosity, and $k$ is the wave number.
@@ -7191,13 +6948,11 @@ The mantle convection process is primarily driven by the thermal gradient betwee
 Turbulence within the mantle convection process can be described using the Navier-Stokes equations, which govern the motion of viscous fluid substances. The equations can be written as:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
 
 $$
-
 
 
 where $\mathbf{u}$ is the velocity field, $t$ is time, $\rho$ is the fluid density, $p$ is the pressure, $\nu$ is the kinematic viscosity, and $\mathbf{g}$ is the gravitational acceleration.
@@ -7647,13 +7402,11 @@ The mixing length theory, while useful, is a crude approximation of the complex 
 The turbulence in stars also influences their luminosity. The luminosity of a star, denoted by "L", is given by the equation:
 
 
-
 $$
 
 L = \left ( \frac{R}{R_{sun}} \right )^2 \left ( \frac{T_{eff}}{T_{sun}} \right )^4
 
 $$
-
 
 
 where "R" is the radius of the star, "T<sub>eff</sub>" is the effective temperature of the star, and "R<sub>sun</sub>" and "T<sub>sun</sub>" are the radius and effective temperature of the sun, respectively. The effective temperature of a star is influenced by the turbulent energy transport within the star, and hence, turbulence indirectly affects the luminosity of the star.
@@ -8767,13 +8520,11 @@ Turbulent blood flow is characterized by chaotic, multidirectional flow patterns
 The Reynolds number (Re) is a dimensionless quantity used to predict the onset of turbulence in fluid flow. It is defined as:
 
 
-
 $$
 
 Re = \frac{{\rho v L}}{{\mu}}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $v$ is the fluid velocity, $L$ is the characteristic length (typically the diameter of the blood vessel), and $\mu$ is the dynamic viscosity of the fluid. When the Reynolds number exceeds a critical value (approximately 2000 for blood flow), the flow becomes turbulent[^6^].
@@ -8921,13 +8672,11 @@ The flow of air in the respiratory system is a complex process that can be influ
 The transition from laminar to turbulent flow in the respiratory system can be described using the Reynolds number (Re), a dimensionless quantity that predicts the onset of turbulence in fluid flow. The Reynolds number is defined as:
 
 
-
 $$
 
 Re = \frac{\rho u d}{\mu}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $u$ is the fluid velocity, $d$ is the hydraulic diameter (characteristic length), and $\mu$ is the dynamic viscosity[^31^]. In the respiratory system, the Reynolds number can be influenced by factors such as the rate of airflow, the diameter of the airways, and the physical properties of the air[^32^].
@@ -9187,7 +8936,6 @@ These methods are based on local Taylor series approximations of the image signa
 The following "brightness constancy constraint" can be given:
 
 
-
 $$
 
 I(x,y,t) = I(x+\Delta x, y+\Delta y, t+\Delta t)
@@ -9195,9 +8943,7 @@ I(x,y,t) = I(x+\Delta x, y+\Delta y, t+\Delta t)
 $$
 
 
-
 Assuming the movement to be small, the image constraint at $I(x,y,t)$ with Taylor series can be developed to get:
-
 
 
 $$
@@ -9207,9 +8953,7 @@ I(x+\Delta x, y+\Delta y, t+\Delta t) = I(x,y,t) + \frac{\partial I}{\partial x}
 $$
 
 
-
 By truncating the higher order terms (which performs a linearization), it follows that:
-
 
 
 $$
@@ -9219,9 +8963,7 @@ $$
 $$
 
 
-
 or, dividing by $\Delta t$,
-
 
 
 $$

@@ -5035,11 +5035,9 @@ The Extended Kalman filter is represented by the following continuous-time model
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -5795,9 +5793,7 @@ The report should be written in a clear and concise manner, with appropriate use
 
 
 $$
-
 \sum F = 0
-
 $$
 
 

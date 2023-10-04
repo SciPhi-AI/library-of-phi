@@ -924,9 +924,7 @@ The wear coefficient is a physical coefficient used to measure, characterize, an
 
 
 $$
-
 K = \frac{V}{F \cdot d}
-
 $$
 
 
@@ -1146,9 +1144,7 @@ The wear coefficient can be defined in several ways, depending on the wear model
 
 
 $$
-
 K = \frac{3 \mu H V}{\mu P L} = 3 \mu \frac{V u}{F L} \approx \frac{V u}{F L} 
-
 $$
 
 
@@ -1202,9 +1198,7 @@ The relationship between the lubricant film thickness $h$ and the pressure distr
 
 
 $$
-
 \frac{\partial}{\partial x} \left( h^3 \frac{\partial p}{\partial x} \right) + \frac{\partial}{\partial y} \left( h^3 \frac{\partial p}{\partial y} \right) = 6 \mu U \frac{\partial h}{\partial x} + 12 \mu \frac{dh}{dt}
-
 $$
 
 
@@ -1234,9 +1228,7 @@ The power law fluid model describes the behavior of non-Newtonian fluids above t
 
 
 $$
-
 \frac{h_0}{h}=\left ( 1+t*\left(\frac{2n+3}{4n+2}\right)*\left(\frac{(4*h_0*L_0)^{n+1}*F*(n+2)}{(2*L_0)^{2n+3}*W*m}\right)^{1/n}\right )^{n/2n+3}
-
 $$
 
 
@@ -1246,9 +1238,7 @@ where $m$ (or $K$) is the "flow consistency index" and $n$ is the dimensionless 
 
 
 $$
-
 m=m_0*exp\left ( \frac{-E_a}{R*T} \right )
-
 $$
 
 
@@ -1656,9 +1646,7 @@ During solution wear, heat is generated due to the exothermic nature of the chem
 
 
 $$
-
 q = \rho \cdot v \cdot h
-
 $$
 
 
@@ -1676,9 +1664,7 @@ The heat generated during solution wear needs to be dissipated to prevent excess
 
 
 $$
-
 q = -k \cdot \nabla T
-
 $$
 
 
@@ -2588,9 +2574,7 @@ The wear behavior of polymer-based materials can be analyzed using the Archard's
 
 
 $$
-
 V = k \cdot L \cdot F/H
-
 $$
 
 
@@ -2604,9 +2588,7 @@ The friction behavior of polymer-based materials can be analyzed using the Amont
 
 
 $$
-
 F_f = \mu \cdot F_n
-
 $$
 
 
@@ -2644,9 +2626,7 @@ The wear behavior of composite materials can be analyzed using a modified versio
 
 
 $$
-
 V = k' \cdot L \cdot F/H'
-
 $$
 
 
@@ -2660,9 +2640,7 @@ The friction behavior of composite materials can be analyzed using a modified ve
 
 
 $$
-
 F_f = \mu' \cdot F_n
-
 $$
 
 
@@ -2950,9 +2928,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -2966,9 +2942,7 @@ The equation for entropy production is also relevant in this context:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3158,9 +3132,7 @@ In the context of tribology, AFM can be used to measure the frictional forces be
 
 
 $$
-
 F = k \cdot \Delta x
-
 $$
 
 
@@ -3182,17 +3154,13 @@ The load-displacement data obtained from nanoindentation can be analyzed using t
 
 
 $$
-
 H = \frac{P_{max}}{A_c}
-
 $$
 
 
 
 $$
-
 E = \frac{1 - \nu^2}{\sqrt{\pi} \cdot \frac{A_c}{h_c} \cdot \frac{dP}{dh}}
-
 $$
 
 
@@ -3238,9 +3206,7 @@ The wear of polymer bearings can be modeled using Archard's law:
 
 
 $$
-
 W = K \cdot L \cdot P
-
 $$
 
 
@@ -3282,9 +3248,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -3298,9 +3262,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3334,9 +3296,7 @@ The rate of tribocorrosion can be modeled using the following equation:
 
 
 $$
-
 R_{tc} = R_{w} + R_{c} + R_{s}
-
 $$
 
 
@@ -3674,9 +3634,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -3726,9 +3684,7 @@ The general equation of tribocorrosion is given by:
 
 
 $$
-
 W_{tc} = W_{m} + W_{c} - W_{i}
-
 $$
 
 
@@ -3946,9 +3902,7 @@ The heat transfer in solution wear can be described by the general equation of h
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -3986,9 +3940,7 @@ The wear of materials in corrosive environments can be described by the general 
 
 
 $$
-
 W = k \cdot L \cdot H \cdot V
-
 $$
 
 
@@ -7250,9 +7202,7 @@ The primary tribological concerns in pipes involve friction, wear, and lubricati
 
 
 $$
-
 h_f = f \frac{L}{D} \frac{v^2}{2g}
-
 $$
 
 
@@ -8026,9 +7976,7 @@ The drill bit is the component that directly interacts with the material being d
 
 
 $$
-
 W = \frac{K \cdot L \cdot P}{H}
-
 $$
 
 
@@ -8074,9 +8022,7 @@ The webbing, made of high-strength synthetic fibers, is the part of the harness 
 
 
 $$
-
 W = \frac{K \cdot L \cdot P}{H}
-
 $$
 
 
@@ -8118,25 +8064,19 @@ The netting material, typically made of high-strength synthetic fibers such as n
 
 
 $$
-
 n = N \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 A_r = \pi R^2 \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 P = \frac{4}{3} E^* R^{1/2} \cdot \int_{-\infty}^{h} (h-z)^{3/2} \phi(z)dz
-
 $$
 
 
@@ -8178,25 +8118,19 @@ The ladder rungs, typically made of steel or aluminum, are subjected to signific
 
 
 $$
-
 n = N \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 A_r = \pi R^2 \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 P = \frac{4}{3} E^* R^{1/2} \cdot \int_{-\infty}^{h} (h-z)^{3/2} \phi(z)dz
-
 $$
 
 
@@ -8234,25 +8168,19 @@ The conveyor belt, typically made of rubber or other high-friction materials, is
 
 
 $$
-
 n = N \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 A_r = \pi R^2 \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 P = \frac{4}{3} E^* R^{1/2} \cdot \int_{-\infty}^{h} (h-z)^{3/2} \phi(z)dz
-
 $$
 
 
@@ -8290,25 +8218,19 @@ The wire rope, typically made of high-strength steel, is subjected to significan
 
 
 $$
-
 n = N \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 A_r = \pi R^2 \cdot \int_{-\infty}^{h} \phi(z)dz
-
 $$
 
 
 
 $$
-
 P = \frac{4}{3} E^* R^{1/2} \cdot \int_{-\infty}^{h} (h-z)^{3/2} \phi(z)dz
-
 $$
 
 
@@ -8342,9 +8264,7 @@ The tires, typically made of solid rubber or polyurethane, are subjected to sign
 
 
 $$
-
 W = K \cdot Q
-
 $$
 
 
@@ -8600,9 +8520,7 @@ The wear of cutting tools can be modeled using the Taylor's tool life equation:
 
 
 $$
-
 VT^n = C
-
 $$
 
 
@@ -8660,9 +8578,7 @@ The wear of forming tools can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -8716,9 +8632,7 @@ The wear of finishing tools can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -8772,9 +8686,7 @@ The wear of conveyors can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -8828,9 +8740,7 @@ The wear of hoists can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -8884,9 +8794,7 @@ The wear of robots can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -8948,9 +8856,7 @@ The wear of safety guards can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -9000,9 +8906,7 @@ The wear of safety locks can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -9056,9 +8960,7 @@ The wear of safety interlocks can be modeled using the Archard's wear equation:
 
 
 $$
-
 W = K \cdot L \cdot H
-
 $$
 
 
@@ -9782,9 +9684,7 @@ The friction factor ($f$) for a given pipe can be calculated using the Darcy-Wei
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -9854,9 +9754,7 @@ The friction factor ($f$) for a given crusher can be calculated using a similar 
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -9918,9 +9816,7 @@ The friction factor ($f$) for a given conveyor can be calculated using a similar
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -9978,9 +9874,7 @@ The friction factor ($f$) for a given incinerator can be calculated using a simi
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10038,9 +9932,7 @@ The friction factor ($f$) for a given wind turbine can be calculated using a sim
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10098,9 +9990,7 @@ The friction factor ($f$) for a given solar tracker can be calculated using a si
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10172,9 +10062,7 @@ The friction factor ($f$) for a given hydro turbine can be calculated using a si
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10236,9 +10124,7 @@ The friction factor ($f$) for a given sensor can be calculated using a similar a
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10292,9 +10178,7 @@ The friction factor ($f$) for a given sampler can be calculated using a similar 
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 
@@ -10356,9 +10240,7 @@ The friction factor ($f$) for a given analyzer can be calculated using a similar
 
 
 $$
-
 f = \frac{{4 \cdot h_L \cdot D}}{{L \cdot V^2/2g}}
-
 $$
 
 

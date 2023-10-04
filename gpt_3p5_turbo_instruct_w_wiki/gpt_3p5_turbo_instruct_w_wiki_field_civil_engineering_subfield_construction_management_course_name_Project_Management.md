@@ -1664,9 +1664,7 @@ Net Present Value (NPV) is a widely used method for evaluating the financial via
 
 
 $$
-
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+r)^t}
-
 $$
 
 
@@ -1688,9 +1686,7 @@ Internal Rate of Return (IRR) is another commonly used method for evaluating the
 
 
 $$
-
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} = 0
-
 $$
 
 
@@ -2046,9 +2042,7 @@ ROI can be calculated in various ways depending on the goal and application. The
 
 
 $$
-
 ROI = \frac{(current\ value\ of\ investment\ if\ not\ exited\ yet\ or\ sold\ price\ of\ investment\ if\ exited + income\ from\ investment - initial\ investment\ and\ other\ expenses)}{initial\ investment\ and\ other\ expenses} \times 100\%
-
 $$
 
 
@@ -2058,9 +2052,7 @@ To better understand this formula, let's consider an example with a share of sto
 
 
 $$
-
 ROI = \frac{(200 + 4 - 100 - 5 - 5)}{(100 + 5 + 5)} \times 100\% = 85.45\%
-
 $$
 
 
@@ -2268,9 +2260,7 @@ The formula for calculating NPV is as follows:
 
 
 $$
-
 NPV = \sum_{t=0}^{n} \frac{C_t}{(1+r)^t} - C_0
-
 $$
 
 
@@ -2354,9 +2344,7 @@ The formula for calculating IRR is as follows:
 
 
 $$
-
 0 = \sum_{t=0}^{n} \frac{C_t}{(1+IRR)^t} - C_0
-
 $$
 
 
@@ -2420,9 +2408,7 @@ The formula for calculating payback period is as follows:
 
 
 $$
-
 Payback\ Period = \frac{Initial\ Investment}{Annual\ Cash\ Flows}
-
 $$
 
 
@@ -3168,33 +3154,25 @@ To perform eigenvalue sensitivity analysis, the following equations can be used:
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{K}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i} \right) = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{M}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i}\right) = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
-
 $$
 
 
@@ -4798,9 +4776,7 @@ The PERT method is a three-point estimating technique that uses a weighted avera
 
 
 $$
-
 PERT = (Best Case + 4 * Most Likely + Worst Case) / 6
-
 $$
 
 
@@ -4818,9 +4794,7 @@ The triangular distribution method is another three-point estimating technique t
 
 
 $$
-
 Triangular Distribution = (Best Case + Most Likely + Worst Case) / 3
-
 $$
 
 
@@ -4886,9 +4860,7 @@ The PERT method is a three-point estimating technique that uses a weighted avera
 
 
 $$
-
 PERT = (Best Case + 4 * Most Likely + Worst Case) / 6
-
 $$
 
 
@@ -4906,9 +4878,7 @@ The triangular distribution method is another three-point estimating technique t
 
 
 $$
-
 Triangular Distribution = (Best Case + Most Likely + Worst Case) / 3
-
 $$
 
 
@@ -6796,9 +6766,7 @@ The Schedule Performance Index (SPI) is a metric used to measure the efficiency 
 
 
 $$
-
 SPI = \frac{EV}{PV}
-
 $$
 
 
@@ -6898,9 +6866,7 @@ The process of calculating schedule variance involves first determining the EV a
 
 
 $$
-
 SV = EV - PV
-
 $$
 
 
@@ -7454,9 +7420,7 @@ The process of three-point estimating involves using the three estimates to calc
 
 
 $$
-
 EV = (O + 4M + P) / 6
-
 $$
 
 
@@ -7528,9 +7492,7 @@ Information gain is a measure of how much information a particular attribute pro
 
 
 $$
-
 IG(T, A) = H(T) - H(T|A)
-
 $$
 
 
@@ -7738,9 +7700,7 @@ For example, let's say a project has three potential outcomes: completing the pr
 
 
 $$
-
 EMV = (0.5 * $100,000) + (0.3 * $50,000) + (0.2 * -$20,000) = $65,000
-
 $$
 
 
@@ -9080,13 +9040,11 @@ The variance for the pendulum example can be calculated using the formula:
 
 
 $$
-
 \sigma _{\hat g}^2 \,\,\, \approx \,\,\,\,
 
 \end{pmatrix}\,=
 
 \,\left( <{\partial \hat g} \over {\partial L}> \right)^2 \sigma _L^2 \,\,\, + \,\,\,\left( <{\partial \hat g} \over {\partial T}> \right)^2 \sigma _T^2 \,\,\, + \,\,\,\left( <{\partial \hat g} \over {\partial \theta }> \right)^2 \sigma _\theta ^2
-
 $$
 
 
@@ -9460,9 +9418,7 @@ To calculate the earned value (EV), the following formula is used:
 
 
 $$
-
 EV = BCWP \times \frac{Actual\;Cost}{Budgeted\;Cost}
-
 $$
 
 
@@ -9476,9 +9432,7 @@ Another important calculation in EVA is the cost variance (CV), which measures t
 
 
 $$
-
 CV = BCWP - ACWP
-
 $$
 
 
@@ -9492,9 +9446,7 @@ Similarly, the schedule variance (SV) measures the difference between the budget
 
 
 $$
-
 SV = BCWP - BCWS
-
 $$
 
 
@@ -9594,9 +9546,7 @@ The PMB is also used to calculate the planned value (PV) of the project. The pla
 
 
 $$
-
 PV = BCWS \times \frac{Time\;Elapsed}{Total\;Time}
-
 $$
 
 
@@ -9636,9 +9586,7 @@ The formula for direct material usage variance is as follows:
 
 
 $$
-
 DMUV = (Standard\;Quantity - Actual\;Quantity) \times Standard\;Cost\;Per\;Unit
-
 $$
 
 
@@ -9672,9 +9620,7 @@ Under these assumptions, the direct material usage variance can be calculated as
 
 
 $$
-
 DMUV = (2.12 kg - 212 kg) \times € 65.00 per kg = € 13,144
-
 $$
 
 
@@ -9684,9 +9630,7 @@ This variance can be reconciled to direct material total variance by way of dire
 
 
 $$
-
 DMUV = DMTV - DMUV = € 13,144 - € 13,144 = € 0
-
 $$
 
 
@@ -9708,9 +9652,7 @@ Labor rate variance is the difference between the standard cost and the actual c
 
 
 $$
-
 LRV = (Standard\;Rate - Actual\;Rate) \times Actual\;Hours
-
 $$
 
 
@@ -9724,9 +9666,7 @@ Labor efficiency variance is the difference between the standard labor hours tha
 
 
 $$
-
 LEV = (Standard\;Hours - Actual\;Hours) \times Standard\;Rate
-
 $$
 
 
@@ -9744,9 +9684,7 @@ Under these assumptions, the labor rate variance can be calculated as:
 
 
 $$
-
 LRV = ($14 - $14) \times 4500 = $0
-
 $$
 
 
@@ -9756,9 +9694,7 @@ The labor efficiency variance can be calculated as:
 
 
 $$
-
 LEV = (2.5 hours - 4500 hours) \times $14 = $0
-
 $$
 
 
@@ -9768,9 +9704,7 @@ The total direct labor cost variance can be calculated as:
 
 
 $$
-
 DLCV = LRV + LEV = $0 + $0 = $0
-
 $$
 
 
@@ -9784,9 +9718,7 @@ Indirect cost variance is the difference between the actual indirect costs incur
 
 
 $$
-
 ICV = Actual\;Indirect\;Costs - Budgeted\;Indirect\;Costs
-
 $$
 
 
@@ -9804,9 +9736,7 @@ Schedule variance (SV) is the difference between the planned value (PV) and the 
 
 
 $$
-
 SV = EV - PV
-
 $$
 
 
@@ -9816,9 +9746,7 @@ Schedule performance index (SPI) is the ratio of the earned value (EV) to the pl
 
 
 $$
-
 SPI = \frac{EV}{PV}
-
 $$
 
 
@@ -9858,9 +9786,7 @@ The cost performance index (CPI) is a measure of cost efficiency on a project. I
 
 
 $$
-
 CPI = \frac{EV}{AC}
-
 $$
 
 
@@ -9878,9 +9804,7 @@ The schedule performance index (SPI) is a measure of schedule efficiency on a pr
 
 
 $$
-
 SPI = \frac{EV}{PV}
-
 $$
 
 
@@ -9898,9 +9822,7 @@ The cost variance (CV) is a measure of the difference between the earned value (
 
 
 $$
-
 CV = EV - AC
-
 $$
 
 
@@ -9918,9 +9840,7 @@ The schedule variance (SV) is a measure of the difference between the earned val
 
 
 $$
-
 SV = EV - PV
-
 $$
 
 
@@ -9938,9 +9858,7 @@ The to-complete performance index (TCPI) is a measure of the cost performance re
 
 
 $$
-
 TCPI = \frac{BAC - EV}{BAC - AC}
-
 $$
 
 
@@ -9958,9 +9876,7 @@ The variance at completion (VAC) is a measure of the difference between the budg
 
 
 $$
-
 VAC = BAC - EAC
-
 $$
 
 
@@ -10120,9 +10036,7 @@ The TCPI is calculated by dividing the remaining work to be completed by the rem
 
 
 $$
-
 TCPI = \frac{Budget at Completion - Earned Value}{Budget at Completion - Actual Cost}
-
 $$
 
 
@@ -10132,9 +10046,7 @@ The TCPI can also be calculated using the following formula:
 
 
 $$
-
 TCPI = \frac{Budget at Completion - Earned Value}{Budget at Completion - Actual Cost + Remaining Work}
-
 $$
 
 

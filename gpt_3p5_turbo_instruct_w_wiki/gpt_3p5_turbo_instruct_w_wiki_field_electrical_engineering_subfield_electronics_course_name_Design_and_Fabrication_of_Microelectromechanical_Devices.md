@@ -1675,9 +1675,7 @@ The minimum feature size that a projection system typically used in photolithogr
 
 
 $$
-
 \Delta = \frac{k_1 \lambda}{NA}
-
 $$
 
 
@@ -1737,9 +1735,7 @@ The minimum feature size that a projection system typically used in photolithogr
 
 
 $$
-
 \Delta = \frac{k_1 \lambda}{NA}
-
 $$
 
 
@@ -1811,9 +1807,7 @@ The minimum feature size that a projection system typically used in photolithogr
 
 
 $$
-
 \Delta = \frac{k_1 \lambda}{NA}
-
 $$
 
 
@@ -3423,9 +3417,7 @@ The distortional part represents the stress that causes deformation, while the v
 
 
 $$
-
 \sigma=\begin{bmatrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{bmatrix}=\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}
-
 $$
 
 
@@ -3439,9 +3431,7 @@ After loading the material with a stress in the z direction, denoted as $\delta\
 
 
 $$
-
 \begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}0&0\\0&\sigma_{z}\ \\\end{bmatrix}
-
 $$
 
 
@@ -3455,13 +3445,11 @@ In the drained state of stress, the material is allowed to deform freely without
 
 
 $$
-
 \begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}0&0\\0&\mathbf{\delta z}\ \\\end{bmatrix}=\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\frac{-{\delta p}_w}{2}\ &0\\0&\sigma_z-\frac&0&0\\0&{\delta p_{w,int}}&0\\0&0&{\delta p_{w,int}}\\\end{bmatrix}+
 
 \begin{bmatrix}{-\delta p_{w,int}}&0&0\\
 
 \end{bmatrix}
-
 $$
 
 
@@ -3595,9 +3583,7 @@ In order to separate the stress state matrix, we can use the Cauchy stress tenso
 
 
 $$
-
 \sigma_{ij} = \frac{F_i}{A_j}
-
 $$
 
 
@@ -3607,9 +3593,7 @@ where $\sigma_{ij}$ is the stress tensor, $F_i$ is the force vector, and $A_j$ i
 
 
 $$
-
 \sigma_{ij} = \sigma_{ij}^d + \sigma_{ij}^v
-
 $$
 
 
@@ -3631,9 +3615,7 @@ In the plane strain state, the elastic modulus can be expressed as:
 
 
 $$
-
 E = \frac{\sigma_{ij}^d}{\epsilon_{ij}^d}
-
 $$
 
 
@@ -4875,9 +4857,7 @@ The EKF is based on a continuous-time model, which is given by:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
@@ -4887,9 +4867,7 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -4913,15 +4891,11 @@ The equations for the predict and update steps are given by:
 Predict:
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -4929,21 +4903,15 @@ $$
 Update:
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)} 
-
 $$
 
 
@@ -5227,7 +5195,6 @@ In order to understand the behavior of thermal energy in MEMS, it is important t
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
 
 \rho dh = \rho Tds + dp
@@ -5239,7 +5206,6 @@ v_{i} {\partial \sigma_{ij}\over{\partial x_{j}}} = {\partial\over{\partial x_{j
 \rho {\partial\varepsilon\over{\partial t}} = \rho T {\partial s\over{\partial t}} - {p\over{\rho}}\nabla\cdot(\rho {\bf v}) \\
 
 \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}} = \mu\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right){\partial v_{i}\over{\partial x_{j}}} + \zeta \delta_{ij}{\partial v_{i}\over{\partial x_{j}}}\nabla\cdot {\bf v} \\
-
 $$
 
 
@@ -5283,7 +5249,6 @@ In order to understand the behavior of thermal energy in MEMS, it is important t
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
 
 \rho dh = \rho Tds + dp
@@ -5295,7 +5260,6 @@ v_{i} {\partial \sigma_{ij}\over{\partial x_{j}}} = {\partial\over{\partial x_{j
 \rho {\partial\varepsilon\over{\partial t}} = \rho T {\partial s\over{\partial t}} - {p\over{\rho}}\nabla\cdot(\rho {\bf v}) \\
 
 \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}} = \mu\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right){\partial v_{i}\over{\partial x_{j}}} + \mu\left( {\partial v_{j}\over{\partial x_{i}}} + {\partial v_{i}\over{\partial x_{j}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right){\partial v_{j}\over{\partial x_{i}}} + \mu\left( {\partial v_{k}\over{\partial x_{k}}} - {2\over{3}}\nabla\cdot {\bf v} \right){\partial v_{i}\over{\partial x_{i}}} \\
-
 $$
 
 

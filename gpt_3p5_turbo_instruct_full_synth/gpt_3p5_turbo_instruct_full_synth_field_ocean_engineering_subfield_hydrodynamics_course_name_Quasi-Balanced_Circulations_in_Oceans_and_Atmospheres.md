@@ -1957,9 +1957,7 @@ The first law of motion, also known as the law of inertia, states that an object
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1973,9 +1971,7 @@ The second law of motion, also known as the law of acceleration, states that the
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -1989,9 +1985,7 @@ The third law of motion, also known as the law of action and reaction, states th
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \nabla \cdot \mathbf{\tau} + \rho \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -2051,17 +2045,13 @@ The Navier-Stokes equations describe the motion of a fluid in terms of its veloc
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -2075,17 +2065,13 @@ The Navier-Stokes equations can be simplified under certain conditions to obtain
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f} + \frac{1}{\rho f}\hat{z} \times \nabla p_h
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -2137,9 +2123,7 @@ The study of quasi-balanced circulations in oceans and atmospheres is based on t
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \rho \mathbf{g} + \mathbf{F} + \mathbf{D}
-
 $$
 
 
@@ -2157,9 +2141,7 @@ In the study of quasi-balanced circulations, the Euler equations play a crucial 
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \rho \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -2173,9 +2155,7 @@ The Euler equations can be further simplified by assuming a steady-state flow, i
 
 
 $$
-
 f \mathbf{k} \times \mathbf{u} = -\nabla p + \rho \mathbf{g}
-
 $$
 
 
@@ -2359,9 +2339,7 @@ Potential vorticity is a fundamental concept in the study of circulation in ocea
 
 
 $$
-
 q = \frac{\partial \zeta}{\partial z} + \frac{f}{H}\frac{\partial \theta}{\partial z}
-
 $$
 
 
@@ -2391,9 +2369,7 @@ Absolute vorticity is a measure of the rotation of a fluid parcel in the absence
 
 
 $$
-
 \zeta = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y} + f
-
 $$
 
 
@@ -2591,9 +2567,7 @@ Invertibility can be defined as the ability to reconstruct the state of a fluid 
 
 
 $$
-
 \mathbf{u}(t_0) = \mathbf{u}(t) + \int_{t}^{t_0} \mathbf{F}(\mathbf{u}(t'), t') dt'
-
 $$
 
 
@@ -2783,17 +2757,13 @@ The shallow water equations can be written as:
 
 
 $$
-
 \frac{\partial h}{\partial t} + \nabla \cdot (h\mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} + f\hat{k} \times \mathbf{u} = -g\nabla h
-
 $$
 
 
@@ -3075,9 +3045,7 @@ Quasi-geostrophic potential vorticity (QGPV) is a fundamental concept in the stu
 
 
 $$
-
 q = \frac{\zeta + f}{\theta}
-
 $$
 
 
@@ -3121,9 +3089,7 @@ Mathematically, the conservation of QGPV can be expressed as:
 
 
 $$
-
 \frac{Dq}{Dt} = 0
-
 $$
 
 
@@ -3441,9 +3407,7 @@ Mathematically, Eady edge waves can be described by the Eady equation, which is 
 
 
 $$
-
 \frac{\partial^2 w}{\partial t^2} + \frac{f_0^2}{N^2}\frac{\partial^2 w}{\partial x^2} + \frac{\partial}{\partial z}\left(\frac{N^2}{f_0}\frac{\partial w}{\partial z}\right) = 0
-
 $$
 
 
@@ -3483,9 +3447,7 @@ Mathematically, Eady edge waves can be described by the Eady equation, which is 
 
 
 $$
-
 \frac{\partial^2 w}{\partial t^2} + \frac{f_0^2}{N^2}\frac{\partial^2 w}{\partial x^2} + \frac{\partial}{\partial z}\left(\frac{N^2}{f_0}\frac{\partial w}{\partial z}\right) = 0
-
 $$
 
 
@@ -3541,9 +3503,7 @@ Mathematically, Eady edge waves can be described by the Eady equation, which is 
 
 
 $$
-
 \frac{\partial^2 w}{\partial t^2} + \frac{f_0^2}{N^2}\frac{\partial^2 w}{\partial x^2} + \frac{\partial}{\partial z}\left(\frac{N^2}{f_0}\frac{\partial w}{\partial z}\right) = 0
-
 $$
 
 
@@ -3607,9 +3567,7 @@ The superposition principle can be mathematically expressed as:
 
 
 $$
-
 y(t) = \sum_{i=1}^{n} y_i(t)
-
 $$
 
 
@@ -3661,9 +3619,7 @@ The superposition principle can be mathematically expressed as:
 
 
 $$
-
 y(t) = \sum_{i=1}^{n} y_i(t)
-
 $$
 
 
@@ -3719,9 +3675,7 @@ The superposition principle can be mathematically expressed as:
 
 
 $$
-
 y(t) = \sum_{i=1}^{n} y_i(t)
-
 $$
 
 
@@ -3789,9 +3743,7 @@ In mathematical terms, the secondary circulation can be expressed as:
 
 
 $$
-
 \vec{v}_s = \vec{v}_p - \vec{v}_r
-
 $$
 
 
@@ -4583,9 +4535,7 @@ The quasi-geostrophic balance is derived by taking the geostrophic balance and a
 
 
 $$
-
 \frac{\partial \zeta}{\partial t} + J(\psi, \zeta) + \tau = -\frac{Q}{f_0}
-
 $$
 
 
@@ -6187,9 +6137,7 @@ To understand geostrophic balance, we can consider the equations of motion for a
 
 
 $$
-
 2m\Omega \times v = -\nabla p
-
 $$
 
 
@@ -6207,9 +6155,7 @@ To understand hydrostatic balance, we can consider the equations of motion for a
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -6263,9 +6209,7 @@ To understand geostrophic balance, we can consider the equations of motion for a
 
 
 $$
-
 F_{cor} = F_{pg}
-
 $$
 
 
@@ -6275,9 +6219,7 @@ This equation can be further simplified to:
 
 
 $$
-
 -2m\Omega \times v = -\nabla p
-
 $$
 
 
@@ -6299,9 +6241,7 @@ To understand hydrostatic balance, we can consider the hydrostatic equation, whi
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -6311,9 +6251,7 @@ In this equation, $p$ is the pressure, $z$ is the vertical coordinate, $\rho$ is
 
 
 $$
-
 0 = -\rho g
-
 $$
 
 
@@ -6367,9 +6305,7 @@ To understand geostrophic balance, we can consider the equations of motion for a
 
 
 $$
-
 F_{cor} = F_{pg}
-
 $$
 
 
@@ -6391,9 +6327,7 @@ To understand hydrostatic balance, we can consider the hydrostatic balance equat
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -6459,9 +6393,7 @@ To understand geostrophic balance, we can consider the equations of motion for a
 
 
 $$
-
 F_{cor} = F_{pg}
-
 $$
 
 
@@ -6471,9 +6403,7 @@ This equation can be further simplified to:
 
 
 $$
-
 2m\Omega \times v = -\nabla p
-
 $$
 
 
@@ -6595,9 +6525,7 @@ To understand geostrophic balance, we considered the equations of motion for a f
 
 
 $$
-
 f \hat{k} \times v = -\nabla p
-
 $$
 
 
@@ -6619,9 +6547,7 @@ To understand hydrostatic balance, we considered the equations of motion for a f
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -6731,9 +6657,7 @@ To understand geostrophic balance, we considered the equations of motion for a f
 
 
 $$
-
 f\hat{k} \times v = -\nabla p
-
 $$
 
 
@@ -6755,9 +6679,7 @@ To understand hydrostatic balance, we considered the equations of motion for a f
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -6883,9 +6805,7 @@ To understand hydrostatic balance, we can consider the hydrostatic equation, whi
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 
@@ -7087,9 +7007,7 @@ To understand geostrophic balance, we considered the equations of motion for a f
 
 
 $$
-
 F_{cor} = F_{pg}
-
 $$
 
 
@@ -7111,9 +7029,7 @@ To understand hydrostatic balance, we must consider the vertical component of th
 
 
 $$
-
 F_{pg} = F_g
-
 $$
 
 
@@ -9015,9 +8931,7 @@ The dynamics of Rossby waves can be described by the Rossby wave equation, which
 
 
 $$
-
 \frac{\partial \zeta}{\partial t} + J(\psi, \zeta) + \beta \frac{\partial \psi}{\partial x} = 0
-
 $$
 
 
@@ -9099,9 +9013,7 @@ The dynamics of mesoscale eddies can be described by the vorticity equation, whi
 
 
 $$
-
 \frac{\partial \zeta}{\partial t} + J(\psi, \zeta) + \beta \frac{\partial \psi}{\partial x} = -\frac{\partial \tau}{\partial z}
-
 $$
 
 
@@ -9967,9 +9879,7 @@ The quasi-geostrophic potential vorticity equation is a fundamental equation in 
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f\frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11155,9 +11065,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11215,9 +11123,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11279,9 +11185,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11339,9 +11243,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11403,9 +11305,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11463,9 +11363,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11523,9 +11421,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11583,9 +11479,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11643,9 +11537,7 @@ One of the key equations used in the quasi-geostrophic theory is the quasi-geost
 
 
 $$
-
 Q = \frac{\partial \zeta}{\partial z} + f \frac{\partial \theta}{\partial p}
-
 $$
 
 
@@ -11825,9 +11717,7 @@ The fundamental equation that governs quasi-balanced circulations is the geostro
 
 
 $$
-
 f\hat{k} \times \vec{u} = -\nabla p
-
 $$
 
 
@@ -11841,9 +11731,7 @@ Another important equation in the study of quasi-balanced circulations is the th
 
 
 $$
-
 \frac{\partial u}{\partial z} = -\frac{g}{f}\frac{\partial \eta}{\partial x}
-
 $$
 
 
@@ -16455,9 +16343,7 @@ To further explore the impact of the Earth's magnetic field on quasi-balanced ci
 
 
 $$
-
 \frac{\partial \vec{u}}{\partial t} + (\vec{u} \cdot \nabla)\vec{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \vec{u} + \frac{1}{\rho}(\vec{J} \times \vec{B}) + \vec{f}
-
 $$
 
 

@@ -433,9 +433,7 @@ The relationship between deformation and strain can be expressed mathematically 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -473,9 +471,7 @@ Stress is another important concept related to deformation and strain. It refers
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -515,9 +511,7 @@ To fully understand the concepts of deformation and strain, it is important to h
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -531,9 +525,7 @@ This equation is known as the engineering strain, which is commonly used in engi
 
 
 $$
-
 \epsilon = ln\frac{L}{L_0}
-
 $$
 
 
@@ -551,9 +543,7 @@ In addition to strain, we also need to consider the concept of stress when study
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -699,9 +689,7 @@ To mathematically describe infinitesimal deformation, we use the concept of stra
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -715,9 +703,7 @@ In the case of infinitesimal deformation, the strain is small enough to be consi
 
 
 $$
-
 \epsilon = \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -731,9 +717,7 @@ Using this relationship, we can also express the infinitesimal deformation in te
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -747,9 +731,7 @@ In the case of infinitesimal deformation, the stress and strain are related by t
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1017,9 +999,7 @@ The fundamental principles of momentum balance in material systems are based on 
 
 
 $$
-
 \sum F = \frac{d(mv)}{dt}
-
 $$
 
 
@@ -1101,9 +1081,7 @@ The equations of motion describe the relationship between the forces acting on a
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -1181,9 +1159,7 @@ The momentum balance equation for a control volume can be written as:
 
 
 $$
-
 \frac{d}{dt}\int_{CV}\rho\vec{v}dV = \int_{CS}\vec{t}\cdot\hat{n}dA + \int_{CV}\rho\vec{g}dV + \int_{CV}\vec{F}_{ext}dV
-
 $$
 
 
@@ -1615,9 +1591,7 @@ One of the key concepts in thermoelasticity is the coefficient of thermal expans
 
 
 $$
-
 \alpha = \frac{1}{L}\frac{\Delta L}{\Delta T}
-
 $$
 
 
@@ -1631,9 +1605,7 @@ Another important concept is the thermal stress, denoted by $\sigma_T$. This is 
 
 
 $$
-
 \sigma_T = E\alpha\Delta T
-
 $$
 
 
@@ -1647,9 +1619,7 @@ Thermoelasticity also takes into account the thermal strain, denoted by $\epsilo
 
 
 $$
-
 \epsilon_T = \alpha\Delta T
-
 $$
 
 
@@ -1715,9 +1685,7 @@ The coefficient of thermal expansion is denoted by $\alpha$ and is defined as:
 
 
 $$
-
 \alpha = \frac{1}{L}\frac{\Delta L}{\Delta T}
-
 $$
 
 
@@ -1731,9 +1699,7 @@ Another important concept in thermoelasticity is thermal stress, which is the st
 
 
 $$
-
 \sigma_T = E\alpha\Delta T
-
 $$
 
 
@@ -1755,9 +1721,7 @@ The thermal strain equation is given by:
 
 
 $$
-
 \epsilon_T = \alpha\Delta T
-
 $$
 
 
@@ -1771,9 +1735,7 @@ The thermal stress-strain relationship is given by:
 
 
 $$
-
 \sigma_T = E\epsilon_T
-
 $$
 
 
@@ -1787,9 +1749,7 @@ Finally, the thermal strain energy equation is given by:
 
 
 $$
-
 U_T = \frac{1}{2}E\epsilon_T^2
-
 $$
 
 
@@ -2071,9 +2031,7 @@ The total potential energy of a material system is the sum of its internal energ
 
 
 $$
-
 \Pi = U + W_{ext}
-
 $$
 
 
@@ -2145,7 +2103,6 @@ Prove that the upper and lower bounds of elasticity are equal for isotropic mate
 #### Exercise 2
 
 Calculate the Poisson's ratio for a material with a strain tensor of $$
-
 \begin{bmatrix}
 
     0.05 & 0.02 & 0 \\
@@ -2155,7 +2112,6 @@ Calculate the Poisson's ratio for a material with a strain tensor of $$
     0 & 0 & 0.04
 
 \end{bmatrix}
-
 $$
 
 
@@ -2209,7 +2165,6 @@ Prove that the upper and lower bounds of elasticity are equal for isotropic mate
 #### Exercise 2
 
 Calculate the Poisson's ratio for a material with a strain tensor of $$
-
 \begin{bmatrix}
 
     0.05 & 0.02 & 0 \\
@@ -2219,7 +2174,6 @@ Calculate the Poisson's ratio for a material with a strain tensor of $$
     0 & 0 & 0.04
 
 \end{bmatrix}
-
 $$
 
 
@@ -3407,9 +3361,7 @@ To model vibrations in material systems, we can use the concept of a simple harm
 
 
 $$
-
 m\frac{d^2x}{dt^2} + kx = 0
-
 $$
 
 
@@ -3431,9 +3383,7 @@ By considering the potential and kinetic energy at different points in the syste
 
 
 $$
-
 E = \frac{1}{2}kx^2 + \frac{1}{2}mv^2
-
 $$
 
 
@@ -3647,9 +3597,7 @@ Viscous damping occurs due to the resistance of a fluid or gas to the motion of 
 
 
 $$
-
 F_d = c\dot{x}
-
 $$
 
 
@@ -3663,9 +3611,7 @@ Hysteretic damping, also known as material damping, occurs due to the internal f
 
 
 $$
-
 F_d = \alpha x
-
 $$
 
 
@@ -3679,9 +3625,7 @@ Structural damping occurs due to the inherent stiffness of a material. It is dep
 
 
 $$
-
 F_d = \beta \dot{x}
-
 $$
 
 
@@ -3827,9 +3771,7 @@ To calculate the natural frequency of a system, we can use the following equatio
 
 
 $$
-
 f_n = \frac{1}{2\pi}\sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -3967,9 +3909,7 @@ Active vibration control has been successfully applied in various industries, su
 
 
 $$
-
 F_{act} = -k_{act}x_{meas}
-
 $$
 
 
@@ -4051,9 +3991,7 @@ The damping force due to viscous damping can be expressed as:
 
 
 $$
-
 F_d = c_v \dot{x}
-
 $$
 
 
@@ -4075,9 +4013,7 @@ The damping force due to hysteretic damping can be expressed as:
 
 
 $$
-
 F_d = c_h x
-
 $$
 
 
@@ -4099,9 +4035,7 @@ The damping force due to structural damping can be expressed as:
 
 
 $$
-
 F_d = c_s \dot{x} + c_s' x
-
 $$
 
 

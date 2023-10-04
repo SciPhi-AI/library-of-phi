@@ -2503,9 +2503,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -2519,9 +2517,7 @@ The Hamiltonian operator is given by:
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + V(x)
-
 $$
 
 
@@ -2539,9 +2535,7 @@ The time evolution of a wavepacket can be described by the time-dependent Schrö
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -2607,9 +2601,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -2623,9 +2615,7 @@ The Hamiltonian operator, $\hat{H}$, represents the total energy of the system a
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -2647,9 +2637,7 @@ One such case is the free particle, where the particle is not subject to any ext
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{T}\psi(x,t)
-
 $$
 
 
@@ -2715,9 +2703,7 @@ Wavepackets are not static entities; they propagate through space and time, exhi
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -2815,9 +2801,7 @@ The Fourier transform is a mathematical operation that converts a signal from th
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt
-
 $$
 
 
@@ -2831,9 +2815,7 @@ The inverse Fourier transform is given by:
 
 
 $$
-
 f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)e^{i\omega t} d\omega
-
 $$
 
 
@@ -2971,9 +2953,7 @@ The Fourier transform of a function $f(x)$ is defined as:
 
 
 $$
-
 F(k) = \int_{-\infty}^{\infty} f(x)e^{-ikx}dx
-
 $$
 
 
@@ -2983,9 +2963,7 @@ where $k$ is the frequency variable and $i$ is the imaginary unit. The inverse F
 
 
 $$
-
 f(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(k)e^{ikx}dk
-
 $$
 
 
@@ -3427,9 +3405,7 @@ In quantum mechanics, momentum is described by the operator $\hat{p}$, which act
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -3451,9 +3427,7 @@ In classical mechanics, the total energy of a particle is the sum of its kinetic
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -3467,9 +3441,7 @@ The kinetic energy operator is related to the momentum operator by the following
 
 
 $$
-
 \hat{T} = \frac{\hat{p}^2}{2m}
-
 $$
 
 
@@ -3491,9 +3463,7 @@ In classical mechanics, momentum is conserved in a closed system, meaning that t
 
 
 $$
-
 \hat{P} = \sum_i \hat{p}_i
-
 $$
 
 
@@ -3529,9 +3499,7 @@ In quantum mechanics, momentum is described by the operator $\hat{p}$, which act
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -3569,9 +3537,7 @@ In classical mechanics, the total energy of a particle is the sum of its kinetic
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -3585,9 +3551,7 @@ The kinetic energy operator is related to the momentum operator by the following
 
 
 $$
-
 \hat{T} = \frac{\hat{p}^2}{2m}
-
 $$
 
 
@@ -3627,9 +3591,7 @@ In quantum mechanics, momentum is described by the operator $\hat{p}$, which act
 
 
 $$
-
 \hat{p} = -i\hbar \frac{\partial}{\partial x}
-
 $$
 
 
@@ -3855,9 +3817,7 @@ Mathematically, the uncertainty principle is expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3905,9 +3865,7 @@ Mathematically, the uncertainty principle is expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3967,9 +3925,7 @@ Mathematically, the uncertainty principle is expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -4151,9 +4107,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -4167,9 +4121,7 @@ The wave function, $\psi(x,t)$, contains all the information about the system an
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -4183,9 +4135,7 @@ The Schrödinger equation is a partial differential equation, and its solutions 
 
 
 $$
-
 \psi(x,t) = \phi(x)\chi(t)
-
 $$
 
 
@@ -4195,9 +4145,7 @@ Substituting this into the Schrödinger equation and rearranging terms, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\chi(t) = \hat{H}\chi(t)
-
 $$
 
 
@@ -4207,9 +4155,7 @@ and
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4239,9 +4185,7 @@ The energy levels of the particle in a box are given by:
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -4255,9 +4199,7 @@ The wave function for the particle in a box is given by:
 
 
 $$
-
 \phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4285,9 +4227,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -4301,9 +4241,7 @@ The wave function, $\psi(x,t)$, contains all the information about the system an
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -4317,9 +4255,7 @@ The Schrödinger equation is a partial differential equation, and its solutions 
 
 
 $$
-
 \psi(x,t) = \phi(x)\chi(t)
-
 $$
 
 
@@ -4329,9 +4265,7 @@ Substituting this into the Schrödinger equation and rearranging terms, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\chi(t) = \hat{H}\chi(t)
-
 $$
 
 
@@ -4341,9 +4275,7 @@ and
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4369,9 +4301,7 @@ The time-dependent Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\chi(t) = \hat{H}\chi(t)
-
 $$
 
 
@@ -4385,9 +4315,7 @@ On the other hand, the time-independent Schrödinger equation is given by:
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4415,9 +4343,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -4431,9 +4357,7 @@ The wave function, $\psi(x,t)$, contains all the information about the system an
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -4447,9 +4371,7 @@ The Schrödinger equation is a partial differential equation, and its solutions 
 
 
 $$
-
 \psi(x,t) = \phi(x)\chi(t)
-
 $$
 
 
@@ -4459,9 +4381,7 @@ Substituting this into the Schrödinger equation and rearranging terms, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\chi(t) = \hat{H}\chi(t)
-
 $$
 
 
@@ -4471,9 +4391,7 @@ and
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4503,9 +4421,7 @@ The most common method for solving the Schrödinger equation is the separation o
 
 
 $$
-
 \psi(x,t) = \phi(x)\chi(t)
-
 $$
 
 
@@ -4515,9 +4431,7 @@ Substituting this into the Schrödinger equation and rearranging terms, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\chi(t) = \hat{H}\chi(t)
-
 $$
 
 
@@ -4527,9 +4441,7 @@ and
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4577,9 +4489,7 @@ To understand the behavior of a particle in a one-dimensional box, we first need
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4589,9 +4499,7 @@ where $\hat{H}$ is the Hamiltonian operator and $E$ is the energy of the system.
 
 
 $$
-
 \hat{H} = \frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-
 $$
 
 
@@ -4601,9 +4509,7 @@ where $m$ is the mass of the particle. Substituting this into the Schrödinger e
 
 
 $$
-
 \frac{-\hbar^2}{2m}\frac{\partial^2\phi(x)}{\partial x^2} = E\phi(x)
-
 $$
 
 
@@ -4613,9 +4519,7 @@ This is a second-order differential equation, and its solutions are given by:
 
 
 $$
-
 \phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4625,9 +4529,7 @@ where $n$ is a positive integer and $L$ is the length of the box. These solution
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -4641,9 +4543,7 @@ The eigenfunctions also have physical significance, as they represent the probab
 
 
 $$
-
 P_n = \int_{0}^{L}|\phi_n(x)|^2dx = \frac{2}{L}
-
 $$
 
 
@@ -4679,9 +4579,7 @@ The time-independent Schrödinger equation for a particle in a one-dimensional b
 
 
 $$
-
 \hat{H}\phi(x) = E\phi(x)
-
 $$
 
 
@@ -4691,9 +4589,7 @@ where $\hat{H}$ is the Hamiltonian operator and $E$ is the energy of the system.
 
 
 $$
-
 \hat{H} = \frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-
 $$
 
 
@@ -4703,9 +4599,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 \frac{-\hbar^2}{2m}\frac{\partial^2\phi(x)}{\partial x^2} = E\phi(x)
-
 $$
 
 
@@ -4715,9 +4609,7 @@ This is a second-order differential equation, and its solutions are given by:
 
 
 $$
-
 \phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4727,9 +4619,7 @@ where $n$ is a positive integer and $L$ is the length of the box. These solution
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -5149,9 +5039,7 @@ The tunneling probability, denoted by $P$, is the probability of a particle pass
 
 
 $$
-
 P = \left|\frac{\psi_{transmitted}}{\psi_{incident}}\right|^2
-
 $$
 
 
@@ -5405,9 +5293,7 @@ The Fermi-Dirac distribution is given by the following equation:
 
 
 $$
-
 f(E) = \frac{1}{e^{\frac{E-E_F}{kT}} + 1}
-
 $$
 
 
@@ -5825,9 +5711,7 @@ The electrical conductivity of insulators can be described by the following equa
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -6167,9 +6051,7 @@ The density of states is defined as the number of energy states per unit volume 
 
 
 $$
-
 D(E) = \frac{dN}{dE}
-
 $$
 
 
@@ -6187,9 +6069,7 @@ The density of states can also be defined as the number of energy states per uni
 
 
 $$
-
 D(E) = \frac{dN}{dE} = \frac{1}{V} \frac{dN}{dE}
-
 $$
 
 
@@ -6263,9 +6143,7 @@ The calculation of density of states in a nanoscale device can be done using the
 
 
 $$
-
 D(E) = \frac{1}{V} \sum_{k} \delta(E - E_k)
-
 $$
 
 
@@ -6335,9 +6213,7 @@ Mathematically, the density of states is defined as:
 
 
 $$
-
 D(E) = \frac{dN}{dE}
-
 $$
 
 
@@ -6351,9 +6227,7 @@ To better understand the concept of density of states in nanostructures, let's c
 
 
 $$
-
 E_n = \frac{n^2h^2}{8mL^2}
-
 $$
 
 
@@ -6363,9 +6237,7 @@ where $n$ is the quantum number, $h$ is Planck's constant, and $m$ is the effect
 
 
 $$
-
 D(E) = \frac{dN}{dE} = \frac{1}{L}\frac{dn}{dE} = \frac{L}{h}\sqrt{\frac{2m}{E}}
-
 $$
 
 
@@ -6507,9 +6379,7 @@ PBC has many applications in quantum mechanics, particularly in the study of ele
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -6531,9 +6401,7 @@ PBC is also used in the calculation of the density of states in a nanoscale devi
 
 
 $$
-
 D(E) = \frac{1}{V}\sum_{n}\delta(E-E_n)
-
 $$
 
 
@@ -6867,9 +6735,7 @@ To mathematically describe the electrostatic behavior of two-terminal molecular 
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon}
-
 $$
 
 
@@ -6921,9 +6787,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \mu_{molecule} = \mu_{electrode}
-
 $$
 
 
@@ -6971,9 +6835,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \mu_{molecule} = \mu_{electrode}
-
 $$
 
 
@@ -7045,9 +6907,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \mu_{molecule} = \mu_{electrode}
-
 $$
 
 
@@ -7237,9 +7097,7 @@ The capacitance of a system can be mathematically expressed as:
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -7261,9 +7119,7 @@ The parallel plate capacitor model is the simplest and most commonly used model 
 
 
 $$
-
 C = \frac{\epsilon_r \epsilon_0 A}{d}
-
 $$
 
 
@@ -7281,9 +7137,7 @@ The cylindrical capacitor model is used to calculate the capacitance of a system
 
 
 $$
-
 C = \frac{2\pi \epsilon_r \epsilon_0 l}{\ln{\frac{r_2}{r_1}}}
-
 $$
 
 
@@ -7301,9 +7155,7 @@ The spherical capacitor model is used to calculate the capacitance of a system c
 
 
 $$
-
 C = 4\pi \epsilon_r \epsilon_0 \frac{r_1 r_2}{r_2 - r_1}
-
 $$
 
 
@@ -7321,9 +7173,7 @@ The interdigitated capacitor model is used to calculate the capacitance of a sys
 
 
 $$
-
 C = \frac{\epsilon_r \epsilon_0 A}{d} + \frac{2\epsilon_r \epsilon_0 l}{\ln{\frac{r_2}{r_1}}}
-
 $$
 
 
@@ -7355,9 +7205,7 @@ The capacitance of a system can be mathematically expressed as:
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -7379,9 +7227,7 @@ The parallel plate capacitor model is the simplest and most commonly used model 
 
 
 $$
-
 C = \frac{\epsilon_r \epsilon_0 A}{d}
-
 $$
 
 
@@ -7399,9 +7245,7 @@ The cylindrical capacitor model is used to calculate the capacitance of a system
 
 
 $$
-
 C = \frac{2\pi\epsilon_r \epsilon_0 L}{\ln{\frac{r_2}{r_1}}}
-
 $$
 
 
@@ -7423,9 +7267,7 @@ The capacitance of molecular devices can be calculated using the following equat
 
 
 $$
-
 C = \frac{\epsilon_r \epsilon_0 A}{d_{eff}}
-
 $$
 
 
@@ -7457,9 +7299,7 @@ The capacitance of a system can be mathematically expressed as:
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -7481,9 +7321,7 @@ The parallel plate capacitor model is the simplest and most commonly used model 
 
 
 $$
-
 C = \frac{\epsilon_r \epsilon_0 A}{d}
-
 $$
 
 
@@ -7501,9 +7339,7 @@ The cylindrical capacitor model is used to calculate the capacitance of a system
 
 
 $$
-
 C = \frac{2\pi\epsilon_r \epsilon_0 L}{\ln{\frac{r_2}{r_1}}}
-
 $$
 
 
@@ -9349,9 +9185,7 @@ The quantization of energy levels in quantum wires has several consequences. Fir
 
 
 $$
-
 m^* = \frac{\hbar^2}{\Delta E}
-
 $$
 
 
@@ -9365,9 +9199,7 @@ Second, the quantization of energy levels also results in a decrease in the band
 
 
 $$
-
 E_g = E_{g0} + \frac{\hbar^2\pi^2}{2m^*L^2}
-
 $$
 
 
@@ -9389,9 +9221,7 @@ Another important property of quantum wires is their size-dependent electrical c
 
 
 $$
-
 \sigma = \frac{e^2}{h}N
-
 $$
 
 
@@ -9431,9 +9261,7 @@ The quantization of energy levels in quantum wires has several consequences. Fir
 
 
 $$
-
 m^* = \frac{\hbar^2}{\Delta E}
-
 $$
 
 
@@ -9447,9 +9275,7 @@ Second, the quantization of energy levels also results in a decrease in the band
 
 
 $$
-
 E_g = E_{g0} + \frac{\hbar^2\pi^2}{2m^*L^2}
-
 $$
 
 
@@ -9505,9 +9331,7 @@ The quantum of conductance, denoted by $G_0$, is the smallest possible value of 
 
 
 $$
-
 G_0 = \frac{2e^2}{h}
-
 $$
 
 
@@ -9555,9 +9379,7 @@ The quantum of conductance, denoted by $G_0$, is the smallest possible value of 
 
 
 $$
-
 G_0 = \frac{2e^2}{h}
-
 $$
 
 
@@ -9605,9 +9427,7 @@ The quantum of conductance, denoted by $G_0$, is the smallest possible value of 
 
 
 $$
-
 G_0 = \frac{2e^2}{h}
-
 $$
 
 
@@ -9797,9 +9617,7 @@ At the heart of quantum transport theory is the Landauer formula, which relates 
 
 
 $$
-
 G = \frac{2e^2}{h}T(E)
-
 $$
 
 
@@ -9839,9 +9657,7 @@ At the heart of quantum transport theory is the Landauer formula, which relates 
 
 
 $$
-
 G = \frac{2e^2}{h}T(E)
-
 $$
 
 
@@ -9897,9 +9713,7 @@ At the heart of quantum transport theory is the Landauer formula, which relates 
 
 
 $$
-
 G = \frac{2e^2}{h}T(E)
-
 $$
 
 
@@ -10211,9 +10025,7 @@ Ohm's Law can be mathematically expressed as:
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -10239,9 +10051,7 @@ The equation for electrical conductivity in the Drude Model is given by:
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -10289,9 +10099,7 @@ Ohm's Law can be mathematically expressed as:
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -10317,9 +10125,7 @@ The equation for electrical conductivity in the Drude Model is given by:
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -10363,9 +10169,7 @@ Ohm's Law can be mathematically expressed as:
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -10391,9 +10195,7 @@ The equation for electrical conductivity in the Drude Model is given by:
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -10441,9 +10243,7 @@ The equation for electrical conductivity in the Drude Model is given by:
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -10495,9 +10295,7 @@ The collisions between the electrons and ions result in a net drift velocity of 
 
 
 $$
-
 v_d = \frac{eE\tau}{m}
-
 $$
 
 
@@ -10549,9 +10347,7 @@ The collisions between the electrons and ions result in a net drift velocity of 
 
 
 $$
-
 v_d = \frac{eE\tau}{m}
-
 $$
 
 
@@ -10569,9 +10365,7 @@ The Drude Model also provides an explanation for the temperature dependence of e
 
 
 $$
-
 \sigma = \frac{ne^2\tau}{m}
-
 $$
 
 
@@ -10811,9 +10605,7 @@ The operation of FETs can be better understood by looking at the mathematical eq
 
 
 $$
-
 I_D = \mu C_{ox} \frac{W}{L} (V_G - V_T)^2
-
 $$
 
 
@@ -10831,9 +10623,7 @@ The operation of FETs can also be affected by the presence of impurities or defe
 
 
 $$
-
 \mu_{eff} = \mu_0 \frac{1}{1 + \frac{N_t}{N_i}}
-
 $$
 
 
@@ -11553,9 +11343,7 @@ Poisson's equation is given by:
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon_0}
-
 $$
 
 
@@ -11569,9 +11357,7 @@ Laplace's equation is a special case of Poisson's equation, where the charge den
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -11621,9 +11407,7 @@ Poisson's equation is given by:
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon_0}
-
 $$
 
 
@@ -11637,9 +11421,7 @@ Laplace's equation is a special case of Poisson's equation, where the charge den
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -11709,9 +11491,7 @@ Poisson's equation is given by:
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon_0}
-
 $$
 
 
@@ -11725,9 +11505,7 @@ Laplace's equation is a special case of Poisson's equation, where the charge den
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -13939,9 +13717,7 @@ The power delay product (PDP) is a metric used to evaluate the performance of a 
 
 
 $$
-
 PDP = P \times t
-
 $$
 
 
@@ -14199,9 +13975,7 @@ The power delay product (PDP) is a metric used to evaluate the performance of a 
 
 
 $$
-
 PDP = P \times T
-
 $$
 
 
@@ -15663,9 +15437,7 @@ The tight binding method is based on the assumption that the electronic states o
 
 
 $$
-
 \Psi = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -15737,9 +15509,7 @@ The tight binding method is based on the assumption that the electronic states o
 
 
 $$
-
 \Psi = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -15811,9 +15581,7 @@ The tight binding method is based on the assumption that the electronic states o
 
 
 $$
-
 \Psi = \sum_{i} c_i \psi_i
-
 $$
 
 

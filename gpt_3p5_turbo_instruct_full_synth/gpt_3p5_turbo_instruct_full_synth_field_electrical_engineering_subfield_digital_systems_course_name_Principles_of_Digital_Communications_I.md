@@ -5421,9 +5421,7 @@ Mathematically, bandwidth can be defined as the difference between the highest a
 
 
 $$
-
 B = f_{max} - f_{min}
-
 $$
 
 
@@ -5437,9 +5435,7 @@ Spectral efficiency, on the other hand, is defined as the ratio of the data rate
 
 
 $$
-
 \eta = \frac{R}{B}
-
 $$
 
 
@@ -6667,9 +6663,7 @@ The formula for channel capacity, also known as Shannon's Theorem, is given by:
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -6755,9 +6749,7 @@ Shannon's theorem states that the channel capacity, denoted by $C$, is equal to 
 
 
 $$
-
 C = B \log_2(1 + SNR)
-
 $$
 
 
@@ -6847,9 +6839,7 @@ In 1948, Claude Shannon published a groundbreaking paper titled "A Mathematical 
 
 
 $$
-
 C = B \log_2(1 + SNR)
-
 $$
 
 
@@ -8645,9 +8635,7 @@ FIR filters are characterized by a finite impulse response, meaning that the out
 
 
 $$
-
 y(n) = \sum_{k=0}^{N-1} b_k x(n-k)
-
 $$
 
 
@@ -8669,9 +8657,7 @@ IIR filters, on the other hand, have an infinite impulse response, meaning that 
 
 
 $$
-
 y(n) = \sum_{k=0}^{N-1} b_k x(n-k) - \sum_{k=1}^{M-1} a_k y(n-k)
-
 $$
 
 
@@ -8809,9 +8795,7 @@ The Fourier Transform is a mathematical operation that converts a signal from th
 
 
 $$
-
 X(f) = \int_{-\infty}^{\infty} x(t)e^{-j2\pi ft} dt
-
 $$
 
 
@@ -8829,9 +8813,7 @@ In digital communication systems, the Fourier Transform is often used in conjunc
 
 
 $$
-
 X[k] = \sum_{n=0}^{N-1} x[n]e^{-j2\pi kn/N}
-
 $$
 
 
@@ -8893,9 +8875,7 @@ The Fourier Transform of a discrete-time signal $x(n)$ is defined as:
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
-
 $$
 
 
@@ -8905,9 +8885,7 @@ where $N$ is the length of the signal and $k$ is the frequency index. The invers
 
 
 $$
-
 x(n) = \frac{1}{N}\sum_{k=0}^{N-1} X(k)e^{j2\pi kn/N}
-
 $$
 
 
@@ -8937,9 +8915,7 @@ The Fourier Transform of a time-shifted signal $x(n-n_0)$ is given by:
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n-n_0)e^{-j2\pi kn/N} = e^{-j2\pi kn_0/N}X(k)
-
 $$
 
 
@@ -8957,9 +8933,7 @@ The Fourier Transform of a frequency-shifted signal $x(n)e^{j2\pi n_0n/N}$ is gi
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{j2\pi n_0n/N}e^{-j2\pi kn/N} = X(k-n_0)
-
 $$
 
 
@@ -8977,9 +8951,7 @@ The Fourier Transform of the convolution of two signals $x_1(n)$ and $x_2(n)$ is
 
 
 $$
-
 X(k) = X_1(k)X_2(k)
-
 $$
 
 
@@ -10473,9 +10445,7 @@ The ASK modulation process can be represented mathematically as:
 
 
 $$
-
 s(t) = A_c \cdot m(t) \cdot \cos(2\pi f_c t)
-
 $$
 
 
@@ -10573,9 +10543,7 @@ The ASK modulation process can be represented mathematically as:
 
 
 $$
-
 s(t) = A_c \cdot m(t) \cdot \cos(2\pi f_c t)
-
 $$
 
 
@@ -10597,9 +10565,7 @@ The ASK demodulation process can be represented mathematically as:
 
 
 $$
-
 r(t) = A_c \cdot m(t) \cdot \cos(2\pi f_c t) \cdot \cos(2\pi f_c t + \phi)
-
 $$
 
 
@@ -13315,7 +13281,6 @@ The values of the redundant bits are calculated using the following equations:
 
 
 $$
-
 r_1 = d_1 + d_2 + d_4 \\
 
 r_2 = d_1 + d_3 + d_4 \\
@@ -13323,7 +13288,6 @@ r_2 = d_1 + d_3 + d_4 \\
 r_3 = d_2 + d_3 + d_4 \\
 
 r_4 = d_1 + d_2 + d_3
-
 $$
 
 
@@ -13387,7 +13351,6 @@ To illustrate this, let's consider a data block of 4 bits: 1011. The parity-chec
 
 
 $$
-
 H = \begin{bmatrix}
 
 1 & 0 & 1 & 1 \\
@@ -13399,7 +13362,6 @@ H = \begin{bmatrix}
 1 & 1 & 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -13409,9 +13371,7 @@ The redundant bits are placed in the first, second, fourth, and eighth positions
 
 
 $$
-
 \textbf{1}1\textbf{0}1\textbf{1}0\textbf{1}1
-
 $$
 
 
@@ -13421,7 +13381,6 @@ If an error occurs during transmission, the receiver can use the parity-check ma
 
 
 $$
-
 S = \begin{bmatrix}
 
 1 & 1 & 0 & 0 & 1 & 0 & 1 & 1
@@ -13445,7 +13404,6 @@ S = \begin{bmatrix}
 0 & 1 & 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -19931,9 +19889,7 @@ Before we can understand how light is used in optical communication, we must fir
 
 
 $$
-
 c = \lambda f
-
 $$
 
 

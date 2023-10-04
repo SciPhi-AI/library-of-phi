@@ -2740,9 +2740,7 @@ Equilibrium rates can be mathematically expressed as:
 
 
 $$
-
 G = R
-
 $$
 
 
@@ -2760,17 +2758,13 @@ To better understand the concept of equilibrium rates, let's consider a simple e
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -2824,9 +2818,7 @@ Equilibrium rates can be mathematically expressed as:
 
 
 $$
-
 G = R
-
 $$
 
 
@@ -2844,17 +2836,13 @@ To better understand the concept of equilibrium rates, let's consider a simple e
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -2924,9 +2912,7 @@ Equilibrium rates can be mathematically expressed as:
 
 
 $$
-
 G = R
-
 $$
 
 
@@ -2944,17 +2930,13 @@ To better understand the concept of equilibrium rates, let's consider a simple e
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -3044,9 +3026,7 @@ Mathematically, rates outside equilibrium can be expressed as:
 
 
 $$
-
 G \neq R
-
 $$
 
 
@@ -3060,17 +3040,13 @@ To better understand the concept of rates outside equilibrium, let's consider th
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -3080,9 +3056,7 @@ However, if we introduce an external electric field, the rate of generation and 
 
 
 $$
-
 G \neq R + \Delta R
-
 $$
 
 
@@ -3132,9 +3106,7 @@ Mathematically, rates outside equilibrium can be expressed as:
 
 
 $$
-
 G \neq R
-
 $$
 
 
@@ -3148,17 +3120,13 @@ To better understand the concept of rates outside equilibrium, let's consider th
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -3220,9 +3188,7 @@ Mathematically, rates outside equilibrium can be expressed as:
 
 
 $$
-
 G \neq R
-
 $$
 
 
@@ -3236,17 +3202,13 @@ To better understand the concept of rates outside equilibrium, let's consider th
 
 
 $$
-
 G = \frac{np}{\tau_n} = \frac{N_A^2}{\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{n_i^2}{\tau_p} = \frac{n_i^2}{\tau_n}
-
 $$
 
 
@@ -3398,17 +3360,13 @@ To calculate the rate of generation and recombination, we can use the following 
 
 
 $$
-
 G = \alpha N_d
-
 $$
 
 
 
 $$
-
 R = \beta n_i
-
 $$
 
 
@@ -3432,9 +3390,7 @@ To calculate the carrier concentration, we can use the following equation:
 
 
 $$
-
 n = \frac{n_i^2}{N_d}
-
 $$
 
 
@@ -3444,25 +3400,19 @@ Substituting the given values into the equations, we get:
 
 
 $$
-
 G = \alpha N_d = \alpha (10^{16} cm^{-3}) = 10^{16} \alpha cm^{-3}
-
 $$
 
 
 
 $$
-
 R = \beta n_i = \beta \sqrt{N_c N_v} e^{-\frac{E_g}{2kT}} = \beta (1.5 \times 10^{10} cm^{-3}) e^{-\frac{1.12 eV}{2(8.62 \times 10^{-5} eV/K)(300K)}} = 1.5 \times 10^{10} \beta cm^{-3}
-
 $$
 
 
 
 $$
-
 n = \frac{n_i^2}{N_d} = \frac{(1.5 \times 10^{10} cm^{-3})^2}{10^{16} cm^{-3}} = 2.25 \times 10^4 cm^{-3}
-
 $$
 
 
@@ -3542,17 +3492,13 @@ To calculate the rate of generation and recombination, we can use the following 
 
 
 $$
-
 G = \alpha N_d
-
 $$
 
 
 
 $$
-
 R = \beta n_i
-
 $$
 
 
@@ -3566,9 +3512,7 @@ To calculate the carrier concentration, we can use the following equation:
 
 
 $$
-
 n = \frac{n_i^2}{N_d}
-
 $$
 
 
@@ -3578,9 +3522,7 @@ First, we need to calculate the intrinsic carrier concentration using the follow
 
 
 $$
-
 n_i = \sqrt{N_c N_v} e^{-\frac{E_g}{2kT}}
-
 $$
 
 
@@ -3594,9 +3536,7 @@ Using the values for silicon, we have:
 
 
 $$
-
 n_i = \sqrt{2.8 \times 10^{19} \times 1.04 \times 10^{19}} e^{-\frac{1.12}{2 \times 8.62 \times 10^{-5} \times 300}} = 1.5 \times 10^{10} \text{cm}^{-3}
-
 $$
 
 
@@ -3606,17 +3546,13 @@ Now, we can calculate the rate of generation and recombination:
 
 
 $$
-
 G = \alpha N_d = 10^{16} \times \alpha \text{cm}^{-3}
-
 $$
 
 
 
 $$
-
 R = \beta n_i = 1.5 \times 10^{10} \times \beta \text{cm}^{-3}
-
 $$
 
 
@@ -3626,17 +3562,13 @@ To maintain equilibrium, $G = R$, so we can set these two equations equal to eac
 
 
 $$
-
 10^{16} \times \alpha = 1.5 \times 10^{10} \times \beta
-
 $$
 
 
 
 $$
-
 \alpha = \frac{1.5 \times 10^{10}}{10^{16}} \beta = 1.5 \times 10^{-6} \beta
-
 $$
 
 
@@ -3646,17 +3578,13 @@ Now, we can substitute this value for $\alpha$ into the equation for $G$ and sol
 
 
 $$
-
 G = 10^{16} \times 1.5 \times 10^{-6} \beta = 1.5 \times 10^{10} \beta
-
 $$
 
 
 
 $$
-
 \beta = \frac{G}{1.5 \times 10^{10}} = \frac{\alpha N_d}{1.5 \times 10^{10}} = \frac{1.5 \times 10^{-6} \beta N_d}{1.5 \times 10^{10}} = 10^{-6} N_d
-
 $$
 
 
@@ -3666,17 +3594,13 @@ Now, we can calculate the rate of generation and recombination:
 
 
 $$
-
 G = 10^{16} \times 10^{-6} \text{cm}^{-3} = 10^{10} \text{cm}^{-3}
-
 $$
 
 
 
 $$
-
 R = 1.5 \times 10^{10} \times 10^{-6} \text{cm}^{-3} = 1.5 \times 10^{4} \text{cm}^{-3}
-
 $$
 
 
@@ -3686,9 +3610,7 @@ Finally, we can calculate the carrier concentration:
 
 
 $$
-
 n = \frac{n_i^2}{N_d} = \frac{(1.5 \times 10^{10})^2}{10^{16}} = 2.25 \times 10^{4} \text{cm}^{-3}
-
 $$
 
 
@@ -4450,9 +4372,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4514,9 +4434,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4598,9 +4516,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4680,9 +4596,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4716,9 +4630,7 @@ Diffusion is the movement of charge carriers in a semiconductor material due to 
 
 
 $$
-
 J_{diffusion} = -D\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -4780,9 +4692,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4816,9 +4726,7 @@ Diffusion is described by Fick's first law, which states that the flux of partic
 
 
 $$
-
 J_{diffusion} = -D\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -4888,9 +4796,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -4924,9 +4830,7 @@ Diffusion is the movement of charge carriers from an area of high concentration 
 
 
 $$
-
 J_{diffusion} = -D\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -4948,9 +4852,7 @@ The movement of charge carriers due to diffusion results in a diffusion current,
 
 
 $$
-
 J_{diffusion} = qD\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -5016,9 +4918,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5052,9 +4952,7 @@ Transit time is defined as the time it takes for a charge carrier to travel from
 
 
 $$
-
 \tau = \frac{L}{v}
-
 $$
 
 
@@ -5112,9 +5010,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5200,9 +5096,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5236,9 +5130,7 @@ The movement of charge carriers from an area of high concentration to an area of
 
 
 $$
-
 J_{diffusion} = -D\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -5348,9 +5240,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5380,9 +5270,7 @@ One common problem in drift is determining the drift velocity of charge carriers
 
 
 $$
-
 v_{drift} = \mu E
-
 $$
 
 
@@ -5396,9 +5284,7 @@ Another problem-solving technique is to use the concept of drift mobility, which
 
 
 $$
-
 \mu_{drift} = \frac{v_{drift}}{E}
-
 $$
 
 
@@ -5412,9 +5298,7 @@ In some cases, it may be necessary to consider the effects of temperature on dri
 
 
 $$
-
 \mu(T) = \mu_0 e^{-\frac{E_a}{kT}}
-
 $$
 
 
@@ -5468,9 +5352,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5504,33 +5386,25 @@ Using the drift current density equation, we can calculate the drift current den
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
 
 $$
-
 = (1.6 \times 10^{-19} C)(1.5 \times 10^{16} cm^{-3})(0.14 \frac{cm^2}{V \cdot s})(100 V/cm) + (1.6 \times 10^{-19} C)(2.5 \times 10^{15} cm^{-3})(0.05 \frac{cm^2}{V \cdot s})(100 V/cm)
-
 $$
 
 
 
 $$
-
 = 3.36 \times 10^{3} A/cm^2 + 2.0 \times 10^{2} A/cm^2
-
 $$
 
 
 
 $$
-
 = 3.56 \times 10^{3} A/cm^2
-
 $$
 
 
@@ -5552,17 +5426,13 @@ Using the drift current density equation, we can calculate the drift current den
 
 
 $$
-
 J_{drift, e} = qn\mu_nE = (1.6 \times 10^{-19} C)(1.5 \times 10^{16} m^{-3})(0.85 \frac{m^2}{V \cdot s})(500 V/cm) = 5.1 \times 10^{3} A/m^2
-
 $$
 
 
 
 $$
-
 J_{drift, h} = qp\mu_pE = (1.6 \times 10^{-19} C)(2.5 \times 10^{15} m^{-3})(0.05 \frac{m^2}{V \cdot s})(500 V/cm) = 2.0 \times 10^{2} A/m^2
-
 $$
 
 
@@ -5572,9 +5442,7 @@ Therefore, the ratio of the drift current densities for electrons and holes is:
 
 
 $$
-
 \frac{J_{drift, e}}{J_{drift, h}} = \frac{5.1 \times 10^{3} A/m^2}{2.0 \times 10^{2} A/m^2} = 25.5
-
 $$
 
 
@@ -5628,9 +5496,7 @@ The movement of charge carriers in a semiconductor material under the influence 
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
@@ -5656,9 +5522,7 @@ The drift velocity, denoted by $v_d$, is the average speed at which charge carri
 
 
 $$
-
 J_{drift} = qnv_d
-
 $$
 
 
@@ -5684,9 +5548,7 @@ Diffusion is described by Fick's first law, which states that the diffusion curr
 
 
 $$
-
 J_{diff} = -D\frac{\partial n}{\partial x}
-
 $$
 
 
@@ -5708,9 +5570,7 @@ The diffusion length, denoted by $L_n$ for electrons and $L_p$ for holes, is a m
 
 
 $$
-
 L_n = \sqrt{\frac{D_n\tau_n}{q}}
-
 $$
 
 
@@ -5744,17 +5604,13 @@ The rate of generation and recombination is described by the following equations
 
 
 $$
-
 G = \frac{dn}{dt} = \frac{p-n}{\tau_p} + \frac{n_i^2}{N_A\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{dp}{dt} = \frac{n-p}{\tau_n} + \frac{n_i^2}{N_D\tau_p}
-
 $$
 
 
@@ -5772,17 +5628,13 @@ The continuity equation is a fundamental equation in the study of carrier dynami
 
 
 $$
-
 \frac{\partial n}{\partial t} + \frac{\partial J_n}{\partial x} = G - R
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} + \frac{\partial J_p}{\partial x} = R - G
-
 $$
 
 
@@ -5816,25 +5668,19 @@ Using the drift current density equation, we have:
 
 
 $$
-
 J_{drift} = qn\mu_nE + qp\mu_pE
-
 $$
 
 
 
 $$
-
 J_{drift} = (1.6\times10^{-19} C)(10^{16} cm^{-3})(1500 cm^2/Vs)(100 V/cm) + (1.6\times10^{-19} C)(10^{17} cm^{-3})(500 cm^2/Vs)(100 V/cm)
-
 $$
 
 
 
 $$
-
 J_{drift} = 2.4\times10^{-3} A/cm^2 + 8\times10^{-3} A/cm^2 = 8.4\times10^{-3} A/cm^2
-
 $$
 
 
@@ -5852,17 +5698,13 @@ Using the equation for diffusion length, we have:
 
 
 $$
-
 L_n = \sqrt{\frac{D_n\tau_n}{q}}
-
 $$
 
 
 
 $$
-
 L_n = \sqrt{\frac{(30 cm^2/s)(10^{-5} s)}{1.6\times10^{-19} C}} = 0.0018 cm
-
 $$
 
 
@@ -5880,33 +5722,25 @@ Using the equations for generation and recombination rates, we have:
 
 
 $$
-
 G = \frac{dn}{dt} = \frac{p-n}{\tau_p} + \frac{n_i^2}{N_A\tau_n}
-
 $$
 
 
 
 $$
-
 R = \frac{dp}{dt} = \frac{n-p}{\tau_n} + \frac{n_i^2}{N_D\tau_p}
-
 $$
 
 
 
 $$
-
 G = \frac{(10^{16} cm^{-3})-(10^{10} cm^{-3})}{10^{-5} s} + \frac{(10^{10} cm^{-3})^2}{(10^{16} cm^{-3})(10^{-5} s)} = 10^{11} cm^{-3}/s
-
 $$
 
 
 
 $$
-
 R = \frac{(10^{10} cm^{-3})-(10^{16} cm^{-3})}{10^{-5} s} + \frac{(10^{10} cm^{-3})^2}{(10^{16} cm^{-3})(10^{-5} s)} = -10^{11} cm^{-3}/s
-
 $$
 
 
@@ -6594,17 +6428,13 @@ The relationship between quasi-Fermi levels and the Fermi level can be expressed
 
 
 $$
-
 E_{F,n} - E_F = kTln\left(\frac{n}{n_i}\right)
-
 $$
 
 
 
 $$
-
 E_{F,p} - E_F = -kTln\left(\frac{p}{n_i}\right)
-
 $$
 
 
@@ -6696,17 +6526,13 @@ The relationship between quasi-Fermi levels and the Fermi level can be expressed
 
 
 $$
-
 E_{F,n} - E_F = kTln\left(\frac{n}{n_i}\right)
-
 $$
 
 
 
 $$
-
 E_{F,p} - E_F = -kTln\left(\frac{p}{n_i}\right)
-
 $$
 
 
@@ -6766,17 +6592,13 @@ The relationship between quasi-Fermi levels and the Fermi level can be expressed
 
 
 $$
-
 E_{F,n} - E_F = kTln\left(\frac{n}{n_i}\right)
-
 $$
 
 
 
 $$
-
 E_{F,p} - E_F = -kTln\left(\frac{p}{n_i}\right)
-
 $$
 
 
@@ -6836,17 +6658,13 @@ The continuity equations, also known as the drift-diffusion equations, describe 
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + G - R
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + G - R
-
 $$
 
 
@@ -6864,17 +6682,13 @@ The continuity equations are closely related to the quasi-Fermi levels. In fact,
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -6906,17 +6720,13 @@ The continuity equations, also known as the drift-diffusion equations, describe 
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + G - R
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + G - R
-
 $$
 
 
@@ -6934,17 +6744,13 @@ The continuity equations are closely related to the quasi-Fermi levels. In fact,
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -6996,17 +6802,13 @@ The continuity equations, also known as the drift-diffusion equations, describe 
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + G - R
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + G - R
-
 $$
 
 
@@ -7024,17 +6826,13 @@ The continuity equations are closely related to the quasi-Fermi levels. In fact,
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7122,17 +6920,13 @@ We can use the continuity equations to solve this problem. The relevant paramete
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7154,17 +6948,13 @@ We can solve the continuity equations by setting the time derivatives to zero an
 
 
 $$
-
 0 = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7174,33 +6964,25 @@ We can then use the boundary conditions to solve for the quasi-Fermi levels and 
 
 
 $$
-
 \phi_n = \frac{kT}{q}\ln\left(\frac{n}{n_i}\right) + \frac{qE}{2}\left(\tau_n + \tau_{np}\right)
-
 $$
 
 
 
 $$
-
 \phi_p = -\frac{kT}{q}\ln\left(\frac{p}{n_i}\right) - \frac{qE}{2}\left(\tau_p + \tau_{pn}\right)
-
 $$
 
 
 
 $$
-
 n = n_i\exp\left(\frac{qE\tau_n}{kT}\right)
-
 $$
 
 
 
 $$
-
 p = n_i\exp\left(-\frac{qE\tau_p}{kT}\right)
-
 $$
 
 
@@ -7256,17 +7038,13 @@ We can use the continuity equations to solve this problem. The relevant paramete
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7288,17 +7066,13 @@ Using the given values and assumptions, we can simplify the continuity equations
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7308,17 +7082,13 @@ Solving for the quasi-Fermi levels, we get:
 
 
 $$
-
 \Delta \phi_n = \frac{kT}{q}\ln\left(\frac{\tau_{np}}{\tau_n}\right)
-
 $$
 
 
 
 $$
-
 \Delta \phi_p = \frac{kT}{q}\ln\left(\frac{\tau_{pn}}{\tau_p}\right)
-
 $$
 
 
@@ -7328,17 +7098,13 @@ Substituting the given values, we get:
 
 
 $$
-
 \Delta \phi_n = \frac{kT}{q}\ln\left(\frac{0.5\mu s}{1\mu s}\right) = -0.026 V
-
 $$
 
 
 
 $$
-
 \Delta \phi_p = \frac{kT}{q}\ln\left(\frac{1\mu s}{0.5\mu s}\right) = 0.026 V
-
 $$
 
 
@@ -7348,17 +7114,13 @@ To calculate the carrier concentrations, we can use the equations:
 
 
 $$
-
 n = n_i e^{\frac{\Delta \phi_n}{kT}}
-
 $$
 
 
 
 $$
-
 p = n_i e^{\frac{\Delta \phi_p}{kT}}
-
 $$
 
 
@@ -7368,17 +7130,13 @@ Substituting the values, we get:
 
 
 $$
-
 n = 10^{16} cm^{-3} e^{-0.026} = 9.74 \times 10^{15} cm^{-3}
-
 $$
 
 
 
 $$
-
 p = 10^{16} cm^{-3} e^{0.026} = 1.03 \times 10^{16} cm^{-3}
-
 $$
 
 
@@ -7404,17 +7162,13 @@ We can use the continuity equations to solve this problem. The relevant paramete
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7436,17 +7190,13 @@ Using the given values and assumptions, we can simplify the continuity equations
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7456,17 +7206,13 @@ Solving for the quasi-Fermi levels, we get:
 
 
 $$
-
 \Delta \phi_n = \frac{kT}{q}\ln\left(\frac{\tau_{np}}{\tau_n}\right)
-
 $$
 
 
 
 $$
-
 \Delta \phi_p = \frac{kT}{q}\ln\left(\frac{\tau_{pn}}{\tau_p}\right)
-
 $$
 
 
@@ -7476,17 +7222,13 @@ Substituting the given values, we get:
 
 
 $$
-
 \Delta \phi_n = \frac{kT}{q}\ln\left(\frac{0.5\mu s}{1\mu s}\right) = -0.026 V
-
 $$
 
 
 
 $$
-
 \Delta \phi_p = \frac{kT}{q}\ln\left(\frac{1\mu s}{0.5\mu s}\right) = 0.026 V
-
 $$
 
 
@@ -7496,17 +7238,13 @@ To calculate the carrier concentrations, we can use the equations:
 
 
 $$
-
 n = n_i e^{\frac{\Delta \phi_n}{kT}}
-
 $$
 
 
 
 $$
-
 p = n_i e^{\frac{\Delta \phi_p}{kT}}
-
 $$
 
 
@@ -7516,17 +7254,13 @@ Substituting the values, we get:
 
 
 $$
-
 n = 10^{16} cm^{-3} e^{-0.026} = 9.74 \times 10^{15} cm^{-3}
-
 $$
 
 
 
 $$
-
 p = 10^{18} cm^{-3} e^{0.026} = 1.03 \times 10^{18} cm^{-3}
-
 $$
 
 
@@ -7570,17 +7304,13 @@ We can use the continuity equations to solve this problem. The relevant paramete
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7602,17 +7332,13 @@ Using the given values and assumptions, we can simplify the continuity equations
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7622,17 +7348,13 @@ Since the material is in steady state, the time derivatives are equal to zero. W
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}} + \frac{n_i-n}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}} + \frac{n_i-p}{\tau_{pn}}
-
 $$
 
 
@@ -7642,17 +7364,13 @@ Solving for $n$ and $p$, we get:
 
 
 $$
-
 n = \frac{n_i}{1+\frac{\tau_n}{\tau_{np}}}
-
 $$
 
 
 
 $$
-
 p = \frac{n_i}{1+\frac{\tau_p}{\tau_{pn}}}
-
 $$
 
 
@@ -7662,17 +7380,13 @@ Substituting the given values, we get:
 
 
 $$
-
 n = \frac{10^{16}}{1+\frac{1}{0.5}} = 6.67 \times 10^{15} cm^{-3}
-
 $$
 
 
 
 $$
-
 p = \frac{10^{16}}{1+\frac{1}{1}} = 5 \times 10^{15} cm^{-3}
-
 $$
 
 
@@ -7682,17 +7396,13 @@ To calculate the quasi-Fermi levels, we can use the equation:
 
 
 $$
-
 E_{Fn} = E_{Fi} + kTln\left(\frac{n}{n_i}\right)
-
 $$
 
 
 
 $$
-
 E_{Fp} = E_{Fi} - kTln\left(\frac{p}{n_i}\right)
-
 $$
 
 
@@ -7702,17 +7412,13 @@ Substituting the calculated values, we get:
 
 
 $$
-
 E_{Fn} = 0.026 + 0.025ln\left(\frac{6.67 \times 10^{15}}{10^{16}}\right) = 0.018 V
-
 $$
 
 
 
 $$
-
 E_{Fp} = 0.026 - 0.025ln\left(\frac{5 \times 10^{15}}{10^{16}}\right) = 0.034 V
-
 $$
 
 
@@ -7738,17 +7444,13 @@ We can use the continuity equations to solve this problem. The relevant paramete
 
 
 $$
-
 \frac{\partial n}{\partial t} = \frac{1}{q}\nabla \cdot (n\vec{v}_n) + \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} = -\frac{1}{q}\nabla \cdot (p\vec{v}_p) + \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}}
-
 $$
 
 
@@ -7770,17 +7472,13 @@ Using the given values and assumptions, we can simplify the continuity equations
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}} + \frac{n_i-n}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}} + \frac{n_i-p}{\tau_{pn}}
-
 $$
 
 
@@ -7790,17 +7488,13 @@ Since the material is in thermal equilibrium, the time derivatives are equal to 
 
 
 $$
-
 0 = \frac{n-n_i}{\tau_n} - \frac{n-n_i}{\tau_{np}} + \frac{n_i-n}{\tau_{np}}
-
 $$
 
 
 
 $$
-
 0 = \frac{p-n_i}{\tau_p} - \frac{p-n_i}{\tau_{pn}} + \frac{n_i-p}{\tau_{pn}}
-
 $$
 
 
@@ -7810,17 +7504,13 @@ Solving for $n$ and $p$, we get:
 
 
 $$
-
 n = \frac{n_i}{1+\frac{\tau_n}{\tau_{np}}}
-
 $$
 
 
 
 $$
-
 p = \frac{n_i}{1+\frac{\tau_p}{\tau_{pn}}}
-
 $$
 
 
@@ -7830,17 +7520,13 @@ Substituting the given values, we get:
 
 
 $$
-
 n = \frac{10^{15}}{1+\frac{1}{0.5}} = 6.67 \times 10^{14} cm^{-3}
-
 $$
 
 
 
 $$
-
 p = \frac{10^{17}}{1+\frac{1}{1}} = 5 \times 10^{16} cm^{-3}
-
 $$
 
 
@@ -7850,17 +7536,13 @@ To calculate the quasi-Fermi levels, we can use the equation:
 
 
 $$
-
 E_{Fn} = E_{Fi} + kTln\left(\frac{n}{n_i}\right)
-
 $$
 
 
 
 $$
-
 E_{Fp} = E_{Fi} - kTln\left(\frac{p}{n_i}\right)
-
 $$
 
 
@@ -7870,17 +7552,13 @@ Substituting the calculated values, we get:
 
 
 $$
-
 E_{Fn} = 0.026 + 0.025ln\left(\frac{6.67 \times 10^{14}}{10^{15}}\right) = 0.018 V
-
 $$
 
 
 
 $$
-
 E_{Fp} = 0.026 - 0.025ln\left(\frac{5 \times 10^{16}}{10^{15}}\right) = 0.034 V
-
 $$
 
 
@@ -8196,9 +7874,7 @@ Depletion capacitance, denoted as $C_{dep}$, is defined as the change in the wid
 
 
 $$
-
 C_{dep} = \frac{dW}{dV}
-
 $$
 
 
@@ -8280,9 +7956,7 @@ Depletion capacitance, denoted as $C_{dep}$, is defined as the change in the wid
 
 
 $$
-
 C_{dep} = \frac{dW}{dV}
-
 $$
 
 
@@ -8356,9 +8030,7 @@ Depletion capacitance, denoted as $C_{dep}$, is defined as the change in the wid
 
 
 $$
-
 C_{dep} = \frac{dW}{dV}
-
 $$
 
 
@@ -8444,9 +8116,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8512,9 +8182,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8584,9 +8252,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8672,9 +8338,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8796,9 +8460,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8868,9 +8530,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -8940,9 +8600,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9012,9 +8670,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9084,9 +8740,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9156,9 +8810,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9228,9 +8880,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9300,9 +8950,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9372,9 +9020,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9444,9 +9090,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9516,9 +9160,7 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 
 
 $$
-
 I = f(V)
-
 $$
 
 
@@ -9696,9 +9338,7 @@ In equilibrium, the Fermi levels of the metal and semiconductor are aligned, res
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon}
-
 $$
 
 
@@ -9742,9 +9382,7 @@ In equilibrium, the Fermi levels of the metal and semiconductor are aligned, res
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon}
-
 $$
 
 
@@ -9804,9 +9442,7 @@ In equilibrium, the Fermi levels of the metal and semiconductor are aligned, res
 
 
 $$
-
 \nabla^2 \phi = -\frac{\rho}{\epsilon}
-
 $$
 
 
@@ -10926,9 +10562,7 @@ For ohmic contacts, we can use the Shockley diode equation:
 
 
 $$
-
 I = I_0(e^{qV/kT} - 1)
-
 $$
 
 
@@ -10958,9 +10592,7 @@ Substituting the given values, we get:
 
 
 $$
-
 I = I_0(e^{0.5*1.6e-19/1.38e-23*300} - 1) = 1.5e-6A
-
 $$
 
 
@@ -11010,9 +10642,7 @@ For Schottky diodes, we can use the Schottky diode equation:
 
 
 $$
-
 I = I_0(e^{qV/kT} - 1)
-
 $$
 
 
@@ -11042,9 +10672,7 @@ Substituting the given values, we get:
 
 
 $$
-
 I = I_0(e^{0.3*1.6e-19/1.38e-23*300} - 1) = 1.2e-6A
-
 $$
 
 
@@ -11130,9 +10758,7 @@ For ohmic contacts, we can use the Shockley diode equation:
 
 
 $$
-
 I = I_0(e^{qV/kT} - 1)
-
 $$
 
 
@@ -11162,9 +10788,7 @@ Substituting the given values, we get:
 
 
 $$
-
 I = I_0(e^{0.5*1.6e-19/1.38e-23*300} - 1) = 1.5e-6A
-
 $$
 
 
@@ -11214,9 +10838,7 @@ For Schottky diodes, we can use the Richardson-Dushman equation:
 
 
 $$
-
 I_0 = A^*T^2e^{-\frac{\phi_b}{kT}}
-
 $$
 
 
@@ -11244,9 +10866,7 @@ Substituting the given values, we get:
 
 
 $$
-
 I_0 = 10A/cm^2*K^2 * 300^2 * e^{-\frac{0.5eV}{1.38e-23 * 300K}} = 1.5e-6A
-
 $$
 
 
@@ -12348,9 +11968,7 @@ The MOS capacitance, denoted as $C_{MOS}$, is defined as the ratio of the change
 
 
 $$
-
 C_{MOS} = \frac{\Delta Q}{\Delta V}
-
 $$
 
 
@@ -12406,9 +12024,7 @@ The MOS capacitance, denoted as $C_{MOS}$, is defined as the ratio of the change
 
 
 $$
-
 C_{MOS} = \frac{\Delta Q}{\Delta V}
-
 $$
 
 
@@ -12480,9 +12096,7 @@ The MOS capacitance, denoted as $C_{MOS}$, is defined as the ratio of the change
 
 
 $$
-
 C_{MOS} = \frac{\Delta Q}{\Delta V}
-
 $$
 
 
@@ -12746,9 +12360,7 @@ The C-V characteristics of a three-terminal MOS structure can be described by th
 
 
 $$
-
 C = \frac{\epsilon_{ox}}{d_{ox}} \sqrt{\frac{2qN_a}{\phi_{F} - V_{g}}}
-
 $$
 
 
@@ -12858,9 +12470,7 @@ To mathematically describe the transport of carriers in the inversion layer, we 
 
 
 $$
-
 \frac{\partial n}{\partial t} = -\frac{\partial J_n}{\partial x} + G_n - R_n
-
 $$
 
 
@@ -12874,17 +12484,13 @@ The drift-diffusion equations describe the movement of carriers in response to a
 
 
 $$
-
 J_n = q\mu_n n E + qD_n \frac{\partial n}{\partial x}
-
 $$
 
 
 
 $$
-
 J_p = -q\mu_p p E - qD_p \frac{\partial p}{\partial x}
-
 $$
 
 
@@ -13236,9 +12842,7 @@ To solve problems in the subthreshold region, we can use the following equation:
 
 
 $$
-
 I_D = I_0e^{\frac{V_G-V_T}{nV_T}}
-
 $$
 
 
@@ -13252,9 +12856,7 @@ In the linear region, the drain current can be calculated using the following eq
 
 
 $$
-
 I_D = \mu_nC_{ox}\frac{W}{L}(V_G-V_T-\frac{V_D}{2})V_D
-
 $$
 
 
@@ -13268,9 +12870,7 @@ Finally, in the saturation region, the drain current can be calculated using the
 
 
 $$
-
 I_D = \frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_G-V_T)^2
-
 $$
 
 
@@ -13330,25 +12930,19 @@ Using the equation for drain current in the saturation region, we can calculate 
 
 
 $$
-
 I_D = \frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_G-V_T)^2
-
 $$
 
 
 
 $$
-
 I_D = \frac{1}{2}(500\text{ cm²/Vs})(3.9\times10^{-6}\text{ F/cm²})(10\text{ μm})\frac{1}{1\text{ μm}}(2\text{ V}-0.5\text{ V})^2
-
 $$
 
 
 
 $$
-
 I_D = 0.975\text{ mA}
-
 $$
 
 
@@ -13386,25 +12980,19 @@ Using the equation for drain current in the subthreshold region, we can calculat
 
 
 $$
-
 I_D = I_0e^{\frac{V_G-V_T}{nV_T}}
-
 $$
 
 
 
 $$
-
 I_D = (10^{-12}\text{ A})e^{\frac{1\text{ V}-0.8\text{ V}}{0.6\text{ V}}}
-
 $$
 
 
 
 $$
-
 I_D = 1.822\times10^{-12}\text{ A}
-
 $$
 
 
@@ -13464,25 +13052,19 @@ Using the equation for drain current in the saturation region, we can calculate 
 
 
 $$
-
 I_D = \frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_G-V_T)^2
-
 $$
 
 
 
 $$
-
 I_D = \frac{1}{2}(500\text{ cm²/Vs})(3.9\times10^{-6}\text{ F/cm²})(10\text{ μm})\frac{1}{1\text{ μm}}(2\text{ V}-0.5\text{ V})^2
-
 $$
 
 
 
 $$
-
 I_D = 0.975\text{ mA}
-
 $$
 
 
@@ -13520,25 +13102,19 @@ Using the equation for drain current in the saturation region, we can calculate 
 
 
 $$
-
 I_D = \frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_G-V_T)^2
-
 $$
 
 
 
 $$
-
 I_D = \frac{1}{2}(400\text{ cm²/Vs})(3.9\times10^{-6}\text{ F/cm²})(5\text{ μm})\frac{1}{2\text{ μm}}(1\text{ V}-0.8\text{ V})^2
-
 $$
 
 
 
 $$
-
 I_D = 0.006\text{ mA}
-
 $$
 
 
@@ -14410,17 +13986,13 @@ The I-V characteristics in forward-active mode can be mathematically described b
 
 
 $$
-
 I_C = I_S \left(e^{\frac{V_{BE}}{V_T}} - 1\right) \approx I_S e^{\frac{V_{BE}}{V_T}}
-
 $$
 
 
 
 $$
-
 I_C = \beta I_B
-
 $$
 
 
@@ -14464,17 +14036,13 @@ The I-V characteristics in forward-active mode can be mathematically described b
 
 
 $$
-
 I_C = I_S \left(e^{\frac{V_{BE}}{V_T}} - 1\right) \approx I_S e^{\frac{V_{BE}}{V_T}}
-
 $$
 
 
 
 $$
-
 I_C = \beta I_B
-
 $$
 
 
@@ -14534,17 +14102,13 @@ The I-V characteristics in forward-active mode can be mathematically described b
 
 
 $$
-
 I_C = I_S \left(e^{\frac{V_{BE}}{V_T}} - 1\right) \approx I_S e^{\frac{V_{BE}}{V_T}}
-
 $$
 
 
 
 $$
-
 I_C = \beta I_B
-
 $$
 
 
@@ -14738,9 +14302,7 @@ The C-V characteristics of a BJT can be described by the equation:
 
 
 $$
-
 C = \frac{dQ}{dV}
-
 $$
 
 
@@ -14780,9 +14342,7 @@ The C-V characteristics of a BJT can be described by the equation:
 
 
 $$
-
 C = \frac{dQ}{dV}
-
 $$
 
 
@@ -14846,9 +14406,7 @@ The C-V characteristics of a BJT can be described by the equation:
 
 
 $$
-
 C = \frac{dQ}{dV}
-
 $$
 
 
@@ -15344,21 +14902,16 @@ Solution:
 $$V_{CC} - I_B R_B - V_{BE} = 0$$
 
 
-
 Solving for $I_B$, we get:
-
 
 
 $$I_B = \frac{V_{CC} - V_{BE}}{R_B}$$
 
 
-
 Using the given values, we can calculate $I_B$ to be 0.5 mA. We can then use Kirchhoff's current law at the collector node to solve for $I_C$:
 
 
-
 $$I_C = I_B + I_E$$
-
 
 
 Since $I_E$ is negligible compared to $I_B$, we can approximate $I_C$ to be equal to $I_B$. Therefore, $I_C = 0.5$ mA.
@@ -15412,25 +14965,19 @@ Solution:
 3. Determine the operating point: To determine the operating point, we need to find the DC biasing conditions. We can use Kirchhoff's laws to solve for the unknown values. Applying Kirchhoff's voltage law to the base-emitter loop, we get:
 
 
-
 $$V_{CC} - I_B R_B - V_{BE} = 0$$
-
 
 
 Solving for $I_B$, we get:
 
 
-
 $$I_B = \frac{V_{CC} - V_{BE}}{R_B}$$
-
 
 
 Using the given values, we can calculate $I_B$ to be 0.5 mA. We can then use Kirchhoff's current law at the collector node to solve for $I_C$:
 
 
-
 $$I_C = I_B + I_E$$
-
 
 
 Since $I_E$ is negligible compared to $I_B$, we can approximate $I_C$ to be equal to $I_B$. Therefore, $I_C = 0.5$ mA.
@@ -15452,17 +14999,13 @@ Since $I_E$ is negligible compared to $I_B$, we can approximate $I_C$ to be equa
 Using the small-signal equivalent circuit, we can calculate the output voltage $v_o$ as:
 
 
-
 $$v_o = -g_m v_{\pi} R_C$$
-
 
 
 Substituting the values, we get:
 
 
-
 $$v_o = -20 \times 10^{-3} \times 5 \times 10^3 \times 2 \text{k}\Omega = -200 \text{mV}$$
-
 
 
 Therefore, the output voltage $v_o$ is -200 mV.
@@ -15528,25 +15071,19 @@ Solution:
 3. Determine the operating point: To determine the operating point, we need to find the DC biasing conditions. We can use Kirchhoff's laws to solve for the unknown values. Applying Kirchhoff's voltage law to the base-emitter loop, we get:
 
 
-
 $$V_{CC} - I_B R_B - V_{BE} = 0$$
-
 
 
 Solving for $I_B$, we get:
 
 
-
 $$I_B = \frac{V_{CC} - V_{BE}}{R_B}$$
-
 
 
 Using the given values, we can calculate $I_B$ to be 0.5 mA. We can then use Kirchhoff's current law at the collector node to solve for $I_C$:
 
 
-
 $$I_C = I_B + I_E$$
-
 
 
 Since $I_E$ is negligible compared to $I_B$, we can approximate $I_C$ to be equal to $I_B$. Therefore, $I_C = 0.5$ mA.
@@ -15596,9 +15133,7 @@ Solution:
 3. Determine the input impedance: To determine the input impedance, we can use the small-signal equivalent circuit model of the BJT. The input impedance is given by:
 
 
-
 $$Z_{in} = r_{\pi} + \frac{\beta}{g_m}$$
-
 
 
 Using the values from the previous example problem, we can calculate the input impedance to be $5 \text{ k}\Omega + 100 \times 20 \times 10^{3} \text{ mho} = 5.2 \text{ k}\Omega$.
@@ -15840,13 +15375,11 @@ Non-ideal effects refer to the deviations from the ideal behavior of BJTs. These
 Leakage currents occur when there is a small amount of current flowing between the base and collector regions, even when there is no input signal applied to the base. This leakage current can cause a decrease in the gain of the BJT and can also lead to thermal effects. This effect is known as base current leakage and is caused by the diffusion of minority carriers from the base to the collector region. It can be modeled using the Shockley diode equation:
 
 
-
 $$
 
 I_B = I_{S} \left(e^{\frac{V_{BE}}{V_T}} - 1\right)
 
 $$
-
 
 
 where $I_B$ is the base current, $I_S$ is the reverse saturation current, $V_{BE}$ is the voltage across the base-emitter junction, and $V_T$ is the thermal voltage.
@@ -15856,7 +15389,6 @@ where $I_B$ is the base current, $I_S$ is the reverse saturation current, $V_{BE
 Thermal effects occur due to the dissipation of heat in the BJT. As the device operates, it generates heat, which can cause changes in the device's electrical properties. This can result in variations in the BJT's performance, leading to non-ideal effects. These thermal effects can be mitigated by proper heat dissipation techniques, such as using heat sinks or thermal pads. The thermal resistance of a BJT can be calculated using the following equation:
 
 
-
 $$
 
 R_{th} = \frac{T_j - T_a}{P_d}
@@ -15864,13 +15396,11 @@ R_{th} = \frac{T_j - T_a}{P_d}
 $$
 
 
-
 where $T_j$ is the junction temperature, $T_a$ is the ambient temperature, and $P_d$ is the power dissipation of the device.
 
 
 
 Parasitic capacitances are inherent in the structure of BJTs and can cause unwanted coupling between different parts of the device. This can result in a decrease in the device's bandwidth and can also lead to signal distortion. These parasitic capacitances can be minimized by careful design and layout of the BJT. The total capacitance of a BJT can be calculated using the following equation:
-
 
 
 $$

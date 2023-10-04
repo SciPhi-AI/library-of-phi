@@ -1056,9 +1056,7 @@ To analyze the stability of a sloop rigged yacht, we can use the ISS-Lyapunov fu
 
 
 $$
-
 V_i(x_i) \geq \max\{\max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -1106,9 +1104,7 @@ To calculate the GM of a sloop rigged yacht, we can use the following formula:
 
 
 $$
-
 GM = I_{w} / V_{d}
-
 $$
 
 
@@ -2902,9 +2898,7 @@ The formula for the displacement method is as follows:
 
 
 $$
-
 W = \rho \times V
-
 $$
 
 
@@ -2930,9 +2924,7 @@ The formula for the hull weight method is as follows:
 
 
 $$
-
 W = W_{hull} + W_{deck} + W_{cockpit} + W_{bulkheads}
-
 $$
 
 
@@ -2962,9 +2954,7 @@ The formula for the rig weight method is as follows:
 
 
 $$
-
 W = W_{mast} + W_{boom} + W_{sails} + W_{hardware}
-
 $$
 
 
@@ -3032,9 +3022,7 @@ To calculate weight distribution and balance, designers can use the following fo
 
 
 $$
-
 W_{bow} = W_{total} \times \frac{L_{bow}}{L_{total}}
-
 $$
 
 
@@ -3436,7 +3424,6 @@ One of the key equations used in calculating displacement is the Archimedes' pri
 $$F_b = \rho Vg$$
 
 
-
 Where:
 
 - $F_b$ is the buoyant force
@@ -3452,9 +3439,7 @@ Where:
 Using this equation, we can calculate the buoyant force acting on the yacht, which is equal to the weight of the water it displaces. To determine the displacement, we must then divide this value by the density of the water, which gives us the volume of water displaced by the yacht.
 
 
-
 $$D = \frac{F_b}{\rho}$$
-
 
 
 Where:
@@ -3508,9 +3493,7 @@ Now, let's apply this concept to a sailing yacht. A yacht is a complex object wi
 To calculate the buoyant force, we can use the equation:
 
 
-
 $$F_b = \rho Vg$$
-
 
 
 Where:
@@ -3574,9 +3557,7 @@ When a yacht is at rest, the forces and moments acting on it are in equilibrium.
 To calculate the righting moment, we can use the equation:
 
 
-
 $$M_{RM} = F_b \cdot GM$$
-
 
 
 Where:
@@ -3626,9 +3607,7 @@ The pressure distribution on the hull also plays a crucial role in determining t
 To calculate the pressure distribution on the hull, we can use the equation:
 
 
-
 $$P = \rho g h$$
-
 
 
 Where:
@@ -3672,9 +3651,7 @@ To calculate the hydrostatic forces and moments on a sailing yacht, we must firs
 To calculate the hydrostatic forces and moments, we must first determine the pressure distribution on the hull. This can be done using the equation:
 
 
-
 $$P = \rho g h$$
-
 
 
 Where:
@@ -3692,9 +3669,7 @@ Where:
 Once we have calculated the pressure distribution on the hull, we can then determine the buoyant force acting on the yacht. As we discussed in the previous subsection, the buoyant force is equal to the weight of the water displaced by the yacht. This can be calculated using the equation:
 
 
-
 $$F_b = \rho g V$$
-
 
 
 Where:
@@ -3712,17 +3687,11 @@ Where:
 The hydrostatic forces and moments can then be calculated using the following equations:
 
 
-
 $$F_x = \int_A P_x dA$$
-
 $$F_y = \int_A P_y dA$$
-
 $$F_z = \int_A P_z dA$$
-
 $$M_x = \int_A yP_z dA$$
-
 $$M_y = \int_A zP_x dA$$
-
 $$M_z = \int_A xP_y dA$$
 
 
@@ -4188,14 +4157,11 @@ Next, we must determine the center of buoyancy (CB) of the yacht. This is the po
 Once we have determined the CG and CB, we can calculate the righting arm (GZ) at various angles of heel. This is done by multiplying the distance between the CG and CB by the sine of the angle of heel. The righting moment (RM) is then calculated by multiplying the righting arm by the displacement of the yacht.
 
 
-
 $$
 
 GZ = GM \cdot sin(\theta)
 
 $$
-
-
 
 $$
 

@@ -1255,9 +1255,7 @@ To understand the mechanical behavior of polymers, we can use the Flory-Huggins 
 
 
 $$
-
 \Delta G = RT\left(\chi_{12}\phi_1\phi_2 + \frac{\phi_1^2}{N_1} + \frac{\phi_2^2}{N_2}\right)
-
 $$
 
 
@@ -1635,9 +1633,7 @@ Strain is a measure of the displacement between particles in a body relative to 
 
 
 $$
-
 \boldsymbol{\varepsilon} \doteq \cfrac{\partial}{\partial\mathbf{X}}\left(\mathbf{x} - \mathbf{X}\right)
-
 $$
 
 
@@ -1927,11 +1923,9 @@ Assuming that <math>\sigma_1 > \sigma_2 > \sigma_3</math>, the normal and shear 
 
 
 $$
-
 \left( T^{(n)} \right)^2 = \sigma_{ij}\sigma_{ik}n_jn_k \\
 
 \sigma_\mathrm{n}^2 + \tau_\mathrm{n}^2 = \sigma_1^2 n_1^2 + \sigma_2^2 n_2^2 + \sigma_3^2 n_3^2
-
 $$
 
 
@@ -1941,13 +1935,11 @@ Using the fact that <math>n_i n_i = n_1^2+n_2^2+n_3^2 = 1</math>, we can solve f
 
 
 $$
-
 n_1^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_2)(\sigma_\mathrm{n} - \sigma_3)}{(\sigma_1 - \sigma_2)(\sigma_1 - \sigma_3)} \ge 0\\
 
 n_2^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_3)(\sigma_\mathrm{n} - \sigma_1)}{(\sigma_2 - \sigma_3)(\sigma_2 - \sigma_1)} \ge 0\\
 
 n_3^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_1)(\sigma_\mathrm{n} - \sigma_2)}{(\sigma_3 - \sigma_1)(\sigma_3 - \sigma_2)} \ge 0.
-
 $$
 
 
@@ -1957,13 +1949,11 @@ Since <math>\sigma_1 > \sigma_2 > \sigma_3</math>, and <math>(n_i)^2</math> is n
 
 
 $$
-
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_2 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_2 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_2) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_2) \right)^2
-
 $$
 
 
@@ -1973,13 +1963,11 @@ These expressions can be rewritten as:
 
 
 $$
-
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_2 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_2 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_2) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_2) \right)^2
-
 $$
 
 
@@ -2027,11 +2015,9 @@ Assuming that <math>\sigma_1 > \sigma_2 > \sigma_3</math>, the normal and shear 
 
 
 $$
-
 \left( T^{(n)} \right)^2 = \sigma_{ij}\sigma_{ik}n_jn_k \\
 
 \sigma_\mathrm{n}^2 + \tau_\mathrm{n}^2 = \sigma_1^2 n_1^2 + \sigma_2^2 n_2^2 + \sigma_3^2 n_3^2
-
 $$
 
 
@@ -2041,13 +2027,11 @@ Using the fact that <math>n_i n_i = n_1^2+n_2^2+n_3^2 = 1</math>, we can solve f
 
 
 $$
-
 n_1^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_2)(\sigma_\mathrm{n} - \sigma_3)}{(\sigma_1 - \sigma_2)(\sigma_1 - \sigma_3)} \ge 0\\
 
 n_2^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_3)(\sigma_\mathrm{n} - \sigma_1)}{(\sigma_2 - \sigma_3)(\sigma_2 - \sigma_1)} \ge 0\\
 
 n_3^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_1)(\sigma_\mathrm{n} - \sigma_2)}{(\sigma_3 - \sigma_1)(\sigma_3 - \sigma_2)} \ge 0.
-
 $$
 
 
@@ -2057,13 +2041,11 @@ Since <math>\sigma_1 > \sigma_2 > \sigma_3</math>, and <math>(n_i)^2</math> is n
 
 
 $$
-
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_2 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_2 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_2) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_2) \right)^2.
-
 $$
 
 
@@ -2073,13 +2055,11 @@ These expressions can be rewritten as:
 
 
 $$
-
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_2 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_2 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_3) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_3) \right)^2 \\
 
 \tau_\mathrm{n}^2 + \left[ \sigma_\mathrm{n}- \tfrac{1}{2} (\sigma_1 + \sigma_2) \right]^2 \ge \left( \tfrac{1}{2}(\sigma_1 - \sigma_2) \right)^2.
-
 $$
 
 
@@ -2143,11 +2123,9 @@ Assuming that <math>\sigma_1 > \sigma_2 > \sigma_3</math>, the normal and shear 
 
 
 $$
-
 \left( T^{(n)} \right)^2 = \sigma_{ij}\sigma_{ik}n_jn_k \\
 
 \sigma_\mathrm{n}^2 + \tau_\mathrm{n}^2 = \sigma_1^2 n_1^2 + \sigma_2^2 n_2^2 + \sigma_3^2 n_3^2
-
 $$
 
 
@@ -2157,13 +2135,11 @@ Using the fact that <math>n_i n_i = n_1^2+n_2^2+n_3^2 = 1</math>, we can solve f
 
 
 $$
-
 n_1^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_2)(\sigma_\mathrm{n} - \sigma_3)}{(\sigma_1 - \sigma_2)(\sigma_1 - \sigma_3)} \ge 0\\
 
 n_2^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_3)(\sigma_\mathrm{n} - \sigma_1)}{(\sigma_2 - \sigma_3)(\sigma_2 - \sigma_1)} \ge 0\\
 
 n_3^2 = \frac{\tau_\mathrm{n}^2+(\sigma_\mathrm{n} - \sigma_1)(\sigma_\mathrm{n} - \sigma_2)}{(\sigma_3 - \sigma_1)(\sigma_3 - \sigma_2)} \ge 0
-
 $$
 
 
@@ -2227,9 +2203,7 @@ Mathematically, Hookean elasticity can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -2277,9 +2251,7 @@ Mathematically, Hookean elasticity can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -2347,9 +2319,7 @@ Mathematically, Hookean elasticity can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -2639,9 +2609,7 @@ The conformational distribution function for a Gaussian chain is given by:
 
 
 $$
-
 \Psi(\left \{ \vec r_n \right \}) = \prod_{n=1}^{N-1} \left(\frac{3}{2\pi b^2}\right)^{\frac{3}{2}} \exp\left(-\frac{3}{2b^2}\left|\vec r_{n+1} - \vec r_n\right|^2\right)
-
 $$
 
 
@@ -3005,9 +2973,7 @@ Calculate the Young's modulus of a polymer sample with a stress-strain curve sho
 
 
 $$
-
 \sigma = 100 MPa, \epsilon = 0.002
-
 $$
 
 
@@ -3523,9 +3489,7 @@ The strain rate can be calculated using the formula:
 
 
 $$
-
 \dot{\epsilon} = \frac{\Delta L}{L_0 \Delta t}
-
 $$
 
 
@@ -3547,9 +3511,7 @@ Substituting the given values, we get:
 
 
 $$
-
 \dot{\epsilon} = \frac{60 mm - 50 mm}{50 mm \times \frac{10 mm}{min}} = 0.2 \frac{1}{min}
-
 $$
 
 
@@ -3591,9 +3553,7 @@ The complex modulus can be calculated using the formula:
 
 
 $$
-
 E^* = E' + iE''
-
 $$
 
 
@@ -3615,9 +3575,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E^* = 200 MPa + i \times 50 MPa = 200 + 50i MPa
-
 $$
 
 
@@ -3631,9 +3589,7 @@ The loss tangent can be calculated using the formula:
 
 
 $$
-
 \tan \delta = \frac{E''}{E'}
-
 $$
 
 
@@ -3653,9 +3609,7 @@ Substituting the given values, we get:
 
 
 $$
-
 \tan \delta = \frac{50 MPa}{200 MPa} = 0.25
-
 $$
 
 
@@ -3699,9 +3653,7 @@ The strain rate can be calculated using the formula:
 
 
 $$
-
 \dot{\epsilon} = \frac{\Delta L}{L_0 \Delta t}
-
 $$
 
 
@@ -3723,9 +3675,7 @@ Substituting the given values, we get:
 
 
 $$
-
 \dot{\epsilon} = \frac{60 mm - 50 mm}{50 mm \times \frac{10 mm}{min}} = 0.2 \frac{1}{min}
-
 $$
 
 
@@ -3797,9 +3747,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -3861,9 +3809,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -3891,9 +3837,7 @@ The Maxwell Model can be extended to specifically study the behavior of polymers
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -3959,9 +3903,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -3989,9 +3931,7 @@ The Maxwell Model can be extended to specifically study the behavior of polymers
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -4065,9 +4005,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -4099,9 +4037,7 @@ The stress-strain relationship for the SLS model for polymers can be expressed a
 
 
 $$
-
 \sigma(t) = \sum_{i=1}^{n} k_i\epsilon(t) + \sum_{i=1}^{n} \eta_i\dot{\epsilon}(t)
-
 $$
 
 
@@ -4157,9 +4093,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -4187,9 +4121,7 @@ The SLS model can be extended to specifically study the behavior of polymers. In
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t) + \eta_p\ddot{\epsilon}(t)
-
 $$
 
 
@@ -4259,9 +4191,7 @@ The spring is characterized by its stiffness, k, while the dashpot is characteri
 
 
 $$
-
 \sigma(t) = k\epsilon(t) + \eta\dot{\epsilon}(t)
-
 $$
 
 
@@ -4357,9 +4287,7 @@ The stress-strain relationship for the Wiechert Solid model can be expressed as:
 
 
 $$
-
 \sigma(t) = \sum_{i=1}^{n} k_i\epsilon(t) + \eta_i\dot{\epsilon}(t)
-
 $$
 
 
@@ -4531,9 +4459,7 @@ One of the most common models used to describe the temperature dependence of pol
 
 
 $$
-
 m = m_0 * exp\left(\frac{-E_a}{R*T}\right)
-
 $$
 
 
@@ -5341,9 +5267,7 @@ For example, the strength of a polymer composite can be estimated using the foll
 
 
 $$
-
 \sigma_c = \sigma_m V_m + \sigma_f V_f
-
 $$
 
 
@@ -5357,9 +5281,7 @@ Similarly, the stiffness of a polymer composite can be estimated using the follo
 
 
 $$
-
 E_c = E_m V_m + E_f V_f
-
 $$
 
 
@@ -5411,9 +5333,7 @@ For example, the strength of a polymer composite can be estimated using the foll
 
 
 $$
-
 \sigma_c = \sigma_m V_m + \sigma_f V_f
-
 $$
 
 
@@ -5427,9 +5347,7 @@ Similarly, the stiffness of a polymer composite can be estimated using the follo
 
 
 $$
-
 E_c = E_m V_m + E_f V_f
-
 $$
 
 
@@ -6069,9 +5987,7 @@ Under these assumptions, we can use the general equation of heat transfer to mod
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
-
 $$
 
 
@@ -6089,9 +6005,7 @@ Using the assumptions listed above, we can simplify the general equation of heat
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -6577,7 +6491,6 @@ The plane stress state of stress can be represented using a stress matrix, as sh
 $$\sigma=\begin{bmatrix}\sigma_{xx}&0&\tau_{xz}\\0&0&0\\\tau_{zx}&0&\sigma_{zz}\\\end{bmatrix}$$
 
 
-
 ### Drained Conditions
 
 
@@ -6597,9 +6510,7 @@ Plane strain refers to the state of stress in which the stress is applied in two
 The plane strain state of stress can be represented using a stress matrix, as shown below:
 
 
-
 $$\sigma=\begin{bmatrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{bmatrix}$$
-
 
 
 To better understand the yield behavior of polymers under drained conditions, we can separate the plane strain stress state matrix into its distortional and volumetric parts.
@@ -6609,25 +6520,19 @@ To better understand the yield behavior of polymers under drained conditions, we
 "Separation of Plane Strain Stress State Matrix into Distortional and Volumetric Parts":
 
 
-
 $$\sigma=\begin{bmatrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{bmatrix}=\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}$$
-
 
 
 Here, the first matrix represents the distortional part, while the second matrix represents the volumetric part. The hydrostatic stress, denoted by $\sigma_{hydrostatic}$, is the average stress acting on the polymer and is given by:
 
 
-
 $$\sigma_{hydrostatic}=p_{mean}=\frac{\sigma_{xx}+\sigma_{zz}}{2}$$
-
 
 
 After $\delta\sigma_z$ loading, the stress state matrix can be represented as:
 
 
-
 $$\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}0&0\\0&\sigma_{z}\ \\\end{bmatrix}$$
-
 
 
 #### Drained State of Stress
@@ -6641,9 +6546,7 @@ In the drained state of stress, the polymer is allowed to deform freely, but the
 The stress state matrix in the drained state can be represented as:
 
 
-
 $$\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}0&0\\0&\mathbf{\delta z}\ \\\end{bmatrix}=\begin{bmatrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{bmatrix}+\begin{bmatrix}\frac{-{\delta p}_w}{2}\ &0\\0&\sigma_z-\frac{\delta p_w}{2}\ \\\end{bmatrix}+\begin{bmatrix}{-\delta p_{w,int}}&0&0\\0&{\delta p_{w,int}}&0\\0&0&{\delta p_{w,int}}\\\end{bmatrix}$$
-
 
 
 Here, $\delta p_w$ represents the external pressure acting on the polymer, while $\delta p_{w,int}$ represents the internal pressure due to the deformation of the polymer.
@@ -7101,13 +7004,11 @@ The Zhurkov model is based on the assumption that the lifetime of a polymer is d
 The model is expressed mathematically as:
 
 
-
 $$
 
 \tau = \frac{A}{\beta}e^{\frac{E_a}{k_BT}}
 
 $$
-
 
 
 where $\tau$ is the lifetime of the polymer, $A$ is a material constant, $\beta$ is the applied stress, $E_a$ is the activation energy, $k_B$ is the Boltzmann constant, and $T$ is the temperature.
@@ -7155,13 +7056,11 @@ The Zhurkov model is based on the assumption that the lifetime of a polymer is d
 The model is expressed mathematically as:
 
 
-
 $$
 
 \tau = \frac{A}{\beta}e^{\frac{E_a}{k_BT}}
 
 $$
-
 
 
 where $\tau$ is the lifetime of the polymer, $A$ is a material constant, $\beta$ is the applied stress, $E_a$ is the activation energy, $k_B$ is the Boltzmann constant, and $T$ is the temperature.
@@ -7259,13 +7158,11 @@ The Griffith model, also known as the Griffith theory or the Griffith criterion,
 The Griffith model is based on the concept of energy balance, where the energy required to create a new fracture surface is compared to the energy released during the fracture process. According to this model, a material will fracture when the energy required to create a new fracture surface is less than the energy released during the fracture process. This energy balance is described by the following equation:
 
 
-
 $$
 
 \gamma_s = \frac{2\gamma_{sf}E}{\pi a}
 
 $$
-
 
 
 where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of the solid-liquid interface, $E$ is the elastic modulus, and $a$ is the crack length.
@@ -7275,13 +7172,11 @@ where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of t
 The Griffith model also takes into account the effect of stress on the fracture behavior of polymers. It states that the critical stress required for fracture, $\sigma_c$, is inversely proportional to the square root of the crack length, $a$. This relationship is described by the following equation:
 
 
-
 $$
 
 \sigma_c = \frac{2\gamma_{sf}}{\sqrt{\pi a}}
 
 $$
-
 
 
 This means that as the crack length increases, the critical stress required for fracture decreases. This is due to the fact that as the crack length increases, the energy required to create a new fracture surface decreases, making it easier for the material to fracture.
@@ -7329,13 +7224,11 @@ The Griffith model, also known as the Griffith theory or the Griffith criterion,
 The Griffith model is based on the concept of energy balance, where the energy required to create a new fracture surface is compared to the energy released during the fracture process. According to this model, a material will fracture when the energy required to create a new fracture surface is less than the energy released during the fracture process. This energy balance is described by the following equation:
 
 
-
 $$
 
 \gamma_s = \frac{2\gamma_{sf}E}{\pi a}
 
 $$
-
 
 
 where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of the solid-liquid interface, $E$ is the elastic modulus, and $a$ is the crack length.
@@ -7345,13 +7238,11 @@ where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of t
 The Griffith model also takes into account the effect of stress on the fracture behavior of polymers. It states that the critical stress required for fracture, $\sigma_c$, is inversely proportional to the square root of the crack length, $a$. This relationship is described by the following equation:
 
 
-
 $$
 
 \sigma_c = \frac{2\gamma_{sf}}{\sqrt{\pi a}}
 
 $$
-
 
 
 This means that as the crack length increases, the critical stress required for fracture decreases. This is due to the fact that as the crack length increases, the energy required to create a new fracture surface decreases, making it easier for the material to fracture.
@@ -7395,13 +7286,11 @@ The Griffith model, also known as the Griffith theory or the Griffith criterion,
 The Griffith model is based on the concept of energy balance, where the energy required to create a new fracture surface is compared to the energy released during the fracture process. According to this model, a material will fracture when the energy required to create a new fracture surface is less than the energy released during the fracture process. This energy balance is described by the following equation:
 
 
-
 $$
 
 \gamma_s = \frac{2\gamma_{sf}E}{\pi a}
 
 $$
-
 
 
 where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of the solid-liquid interface, $E$ is the elastic modulus, and $a$ is the crack length.
@@ -7411,13 +7300,11 @@ where $\gamma_s$ is the surface energy, $\gamma_{sf}$ is the surface energy of t
 The Griffith model also takes into account the effect of stress on the fracture behavior of polymers. It states that the critical stress required for fracture, $\sigma_c$, is inversely proportional to the square root of the crack length, $a$. This relationship is described by the following equation:
 
 
-
 $$
 
 \sigma_c = \frac{2\gamma_{sf}}{\sqrt{\pi a}}
 
 $$
-
 
 
 This means that as the crack length increases, the critical stress required for fracture decreases. This is due to the fact that as the crack length increases, the energy required to create a new fracture surface decreases, making it easier for the material to fracture.
@@ -7477,13 +7364,11 @@ When a crack is present in a material, the stress distribution around the crack 
 The stress intensity factor (K) is a measure of the stress concentration at the crack tip. It is defined as the ratio of the applied stress to the square root of the crack length. Mathematically, it can be expressed as:
 
 
-
 $$
 
 K = \frac{\sigma\sqrt{\pi a}}{\sqrt{2\pi r}}
 
 $$
-
 
 
 where $\sigma$ is the applied stress, $a$ is the crack length, and $r$ is the distance from the crack tip.
@@ -7927,13 +7812,11 @@ The combination of the J-integral and viscoelasticity allows for a more comprehe
 In this subsection, we will delve deeper into the use of the J-integral and viscoelasticity in understanding fracture in polymers. As mentioned earlier, the J-integral is a measure of the energy release rate at the crack tip and is given by the line integral of the strain energy density around the crack tip. This integral is path independent and can be calculated using the following equation:
 
 
-
 $$
 
 J = \int_{\Gamma} \sigma_{ij} \frac{\partial u_i}{\partial x_j} ds
 
 $$
-
 
 
 where $\Gamma$ is a closed path around the crack tip, $\sigma_{ij}$ is the stress tensor, and $u_i$ is the displacement vector. This integral is particularly useful for nonlinear elastic or elastic-plastic materials, where the stress field around the crack tip can be complex.
@@ -7947,13 +7830,11 @@ In addition to the J-integral, viscoelasticity also plays a crucial role in the 
 To incorporate viscoelasticity into fracture analysis, the J-integral can be modified to include a time-dependent term, known as the viscoelastic J-integral. This integral is given by:
 
 
-
 $$
 
 J_v = \int_{\Gamma} \sigma_{ij} \frac{\partial u_i}{\partial x_j} ds + \int_{\Gamma} \sigma_{ij} \frac{\partial u_i}{\partial t} ds
 
 $$
-
 
 
 where the second term accounts for the time-dependent behavior of the material. By considering both the J-integral and the viscoelastic J-integral, we can gain a more comprehensive understanding of fracture in polymers.
@@ -8009,13 +7890,11 @@ The combination of the J-integral and viscoelasticity allows for a more comprehe
 In this subsection, we will delve deeper into the use of the J-integral and viscoelasticity in understanding fracture in polymers. As mentioned earlier, the J-integral is a measure of the energy release rate at the crack tip. This energy release rate is a critical factor in determining the fracture toughness of a material. The J-integral can be calculated using the following equation:
 
 
-
 $$
 
 J = \int_{C} \sigma_{ij} \frac{\partial u_i}{\partial x_j} dA
 
 $$
-
 
 
 where $J$ is the J-integral, $\sigma_{ij}$ is the stress tensor, $u_i$ is the displacement vector, and $dA$ is the differential area around the crack tip.
@@ -8025,13 +7904,11 @@ where $J$ is the J-integral, $\sigma_{ij}$ is the stress tensor, $u_i$ is the di
 In viscoelastic materials, the energy release rate can vary with time due to the time-dependent behavior of the material. This is often seen in polymers, where the rate of loading and the time-dependent response of the material can significantly affect the energy required for crack propagation. The viscoelastic behavior of polymers can be described using the Maxwell model, which consists of a spring and dashpot in series. The spring represents the elastic behavior, while the dashpot represents the viscous behavior. The stress-strain relationship for this model is given by:
 
 
-
 $$
 
 \sigma(t) = E \epsilon(t) + \eta \frac{d\epsilon(t)}{dt}
 
 $$
-
 
 
 where $\sigma(t)$ is the stress at time $t$, $E$ is the elastic modulus, $\epsilon(t)$ is the strain at time $t$, and $\eta$ is the viscosity.
@@ -13431,17 +13308,13 @@ Many polymers exhibit non-Newtonian behavior under deformation, meaning that the
 The power law fluid model is sufficient to describe behaviors above the melting temperature for semicrystalline thermoplastics or the glass transition temperature for amorphous thermoplastics. It takes into account the flow consistency index, $m$, and the flow behavior index, $n$, which can be determined experimentally. The power law fluid model is given by the equation:
 
 
-
 $$\frac{h_0}{h}=\left ( 1+t*(\frac{2n+3}{4n+2})(\frac{(4*h_0*L_0)^{n+1}*F*(n+2)}{(2*L_0)^{2n+3}*W*m})^{1/n}\right )^{n/2n+3}$$
-
 
 
 Where $h_0$ is the initial height of the polymer, $h$ is the final height, $t$ is the time, $L_0$ is the initial length, $F$ is the applied force, and $W$ is the width of the polymer. The flow consistency index, $m$, is given by:
 
 
-
 $$m=m_0*exp\left ( \frac{-E_a}{R*T} \right )$$
-
 
 
 Where $m_0$ is the initial flow consistency index, $E_a$ is the activation energy, $R$ is the universal gas constant, and $T$ is the temperature. During experimentation, it was observed that modeling slow squeeze flow generated inaccurate power law constants ($m$ and $n$) using a standard viscometer, and fast squeeze flow demonstrated that polymers may exhibit better lubrication than current constitutive models will predict. This highlights the need for further research and understanding of polymeric lubrication properties.
@@ -13455,9 +13328,7 @@ Where $m_0$ is the initial flow consistency index, $E_a$ is the activation energ
 The Bingham fluid model is another commonly used model for describing the behavior of polymers under deformation. It takes into account the yield stress, $\tau_y$, and the plastic viscosity, $\mu_p$. The Bingham fluid model is given by the equation:
 
 
-
 $$\tau=\tau_y+\mu_p*\dot{\gamma}$$
-
 
 
 Where $\tau$ is the shear stress, $\dot{\gamma}$ is the shear rate, and $\mu_p$ is the plastic viscosity. Bingham fluids exhibit uncommon characteristics during squeeze flow, as they should fail to move and act as a solid until achieving a yield stress. However, during experimentation, it was observed that polymers may exhibit better lubrication than predicted by the Bingham fluid model. This highlights the need for further research and understanding of polymeric lubrication properties.
@@ -13575,13 +13446,11 @@ One of the most commonly used models in rheology is the power law fluid model. T
 The power law fluid model is given by the equation:
 
 
-
 $$
 
 \frac{h_0}{h} = \left(1 + t\left(\frac{2n+3}{4n+2}\right)\left(\frac{(4h_0L_0)^{n+1}F(n+2)}{(2L_0)^{2n+3}Wm}\right)^{1/n}\right)^{n/2n+3}
 
 $$
-
 
 
 Where $h_0$ is the initial height of the polymer, $h$ is the current height, $t$ is the time, $F$ is the applied force, $L_0$ is the initial length of the polymer, $W$ is the width of the polymer, $m$ (or $K$) is the flow consistency index, and $n$ is the flow behavior index.
@@ -13591,13 +13460,11 @@ Where $h_0$ is the initial height of the polymer, $h$ is the current height, $t$
 The flow consistency index, $m$, is related to the initial flow consistency index, $m_0$, by the equation:
 
 
-
 $$
 
 m = m_0\exp\left(\frac{-E_a}{RT}\right)
 
 $$
-
 
 
 Where $E_a$ is the activation energy, $R$ is the universal gas constant, and $T$ is the temperature.
@@ -13615,13 +13482,11 @@ During experimentation to determine the accuracy of the power law fluid model, i
 The Bingham fluid model is another commonly used rheological model for polymers. This model describes the behavior of materials that exhibit uncommon characteristics during squeeze flow. Unlike the power law fluid model, Bingham fluids behave as solids until they reach a yield stress, after which they begin to flow like a fluid. The Bingham fluid model is given by the equation:
 
 
-
 $$
 
 \tau = \tau_y + \mu\dot{\gamma}
 
 $$
-
 
 
 Where $\tau$ is the shear stress, $\tau_y$ is the yield stress, $\mu$ is the viscosity, and $\dot{\gamma}$ is the shear rate.
@@ -13673,13 +13538,11 @@ One of the most commonly used models in rheology is the power law fluid model. T
 The power law fluid model is given by the equation:
 
 
-
 $$
 
 \frac{h_0}{h} = \left(1 + t\left(\frac{2n+3}{4n+2}\right)\left(\frac{(4h_0L_0)^{n+1}F(n+2)}{(2L_0)^{2n+3}Wm}\right)^{1/n}\right)^{n/2n+3}
 
 $$
-
 
 
 Where $h_0$ is the initial height of the polymer, $h$ is the current height, $t$ is the time, $F$ is the applied force, $L_0$ is the initial length of the polymer, $W$ is the width of the polymer, $m$ (or $K$) is the flow consistency index, and $n$ is the flow behavior index.
@@ -13701,13 +13564,11 @@ The power law fluid model is useful for predicting the behavior of polymers unde
 The Bingham fluid model is another commonly used rheological model for polymers. Unlike the power law fluid model, the Bingham fluid model takes into account the yield stress of the polymer. This yield stress, $\tau_y$, is the minimum stress required for the polymer to start flowing. The Bingham fluid model is given by the equation:
 
 
-
 $$
 
 \tau = \tau_y + \mu\dot{\gamma}
 
 $$
-
 
 
 Where $\tau$ is the shear stress, $\mu$ is the viscosity, and $\dot{\gamma}$ is the shear rate.
@@ -13763,13 +13624,11 @@ One of the most commonly used models in rheology is the power law fluid model. T
 The power law fluid model is given by the equation:
 
 
-
 $$
 
 \frac{h_0}{h} = \left(1 + t\left(\frac{2n+3}{4n+2}\right)\left(\frac{(4h_0L_0)^{n+1}F(n+2)}{(2L_0)^{2n+3}Wm}\right)^{1/n}\right)^{n/2n+3}
 
 $$
-
 
 
 Where $h_0$ is the initial height of the polymer, $h$ is the current height, $t$ is the time, $F$ is the applied force, $L_0$ is the initial length of the polymer, $W$ is the width of the polymer, $m$ (or $m_0$) is the flow consistency index, and $n$ is the flow behavior index. This model is based on the assumption that the polymer behaves as a power law fluid, meaning that the shear stress is directly proportional to the shear rate raised to the power of the flow behavior index. The flow consistency index represents the viscosity of the polymer at a low shear rate, while the flow behavior index describes the degree of non-Newtonian behavior.
@@ -13785,7 +13644,6 @@ The power law fluid model is commonly used to describe the behavior of polymers 
 
 
 Another commonly used rheological model is the Bingham fluid model. This model is used to describe the behavior of materials that exhibit a yield stress, meaning that they require a certain amount of stress to start flowing. The Bingham fluid model is given by the equation:
-
 
 
 $$

@@ -2233,9 +2233,7 @@ To better understand the process of converting bond graphs to block diagrams, le
 
 
 $$
-
 \Delta w = R \cdot i + L \cdot \frac{di}{dt}
-
 $$
 
 
@@ -2403,9 +2401,7 @@ To better understand the process of converting bond graphs to block diagrams, le
 
 
 $$
-
 \Delta w = R \cdot i + L \cdot \frac{di}{dt}
-
 $$
 
 
@@ -2419,9 +2415,7 @@ Using the steps outlined above, we can convert this bond graph into a block diag
 
 
 $$
-
 w = R \cdot i + L \cdot \frac{di}{dt}
-
 $$
 
 
@@ -3551,9 +3545,7 @@ Similar to Kirchhoff's voltage law in electrical circuits, the magnetic equivale
 
 
 $$
-
 \mathcal{F}_\mathrm{T} = \mathcal{F}_1 + \mathcal{F}_2 + \dotsm
-
 $$
 
 
@@ -3567,9 +3559,7 @@ Another important law in magnetic circuits is the Gauss's law for magnetism, whi
 
 
 $$
-
 \Phi_1 + \Phi_2 + \dotsm = 0
-
 $$
 
 
@@ -3667,9 +3657,7 @@ Magnetic flux, denoted by the symbol $\Phi$, is a measure of the total magnetic 
 
 
 $$
-
 \Phi = BA
-
 $$
 
 
@@ -3687,9 +3675,7 @@ The magnetic field strength, denoted by the symbol $B$, is a measure of the inte
 
 
 $$
-
 B = \frac{F}{Il}
-
 $$
 
 
@@ -3707,17 +3693,13 @@ To calculate the magnetic flux and field strength in a simple magnetic circuit, 
 
 
 $$
-
 \Phi = \frac{MMF}{Reluctance}
-
 $$
 
 
 
 $$
-
 B = \frac{MMF}{Length \ of \ Magnetic \ Path}
-
 $$
 
 
@@ -3761,9 +3743,7 @@ Applying the solution to the electric multipole wave equation, we can determine 
 
 
 $$
-
 \mathbf{H}^{(E)}(\mathbf{x})=\sum_{\ell=0}^\infty \sum_{m=-\ell}^\ell a_{\ell m}^{(E)} h_\ell^{(1)}(kr) \mathbf{X}_{\ell m}(\theta, \phi)
-
 $$
 
 
@@ -3781,25 +3761,19 @@ To simplify the formula, we can apply some identities to the integrand. These id
 
 
 $$
-
 \mathbf{L}\cdot\mathbf{V}(\mathbf{x})=i\boldsymbol{\nabla}\cdot(\mathbf{x}\times\mathbf{V}(\mathbf{x}))
-
 $$
 
 
 
 $$
-
 \mathbf{L}\cdot(\boldsymbol{\nabla}\times\mathbf{V}(\mathbf{x}))=i\nabla^2(\mathbf{x}\cdot\mathbf{V}(\mathbf{x}))-\frac{i\partial}{r\partial r}(r^2\boldsymbol{\nabla}\cdot\mathbf{V}(\mathbf{x}))
-
 $$
 
 
 
 $$
-
 \mathbf{L}\cdot\boldsymbol{\nabla}s(\mathbf{x})=0
-
 $$
 
 
@@ -3809,9 +3783,7 @@ By applying these identities, we can manipulate the integrand and simplify the f
 
 
 $$
-
 a_{\ell m}^{(E)}=\frac{-ik^2}{\sqrt{\ell(\ell+1)}} \int d^3\mathbf{x'} j_\ell(kr') Y_{\ell m}^*(\theta', \phi') \left[-ik\boldsymbol{\nabla} \cdot (\mathbf{x'}\times\mathbf{M}(\mathbf{x'}))-\frac{i}{k}\nabla^2(\mathbf{x'} \cdot \mathbf{J}(\mathbf{x'}))-\frac{c\partial}{r'\partial r'}(r'^2\rho(\mathbf{x'}))\right]
-
 $$
 
 
@@ -3825,9 +3797,7 @@ To further simplify the formula, we can use Green's theorem and integration by p
 
 
 $$
-
 a_{\ell m}^{(E)}=\frac{i k}{\sqrt{\ell(\ell+1)}} \int d^3\mathbf{x'} j_\ell(kr') Y_{\ell m}^*(\theta', \phi') \mathbf{L'}\cdot\left[k^2\mathbf{M}(\mathbf{x'})+\boldsymbol{\nabla'}\times\mathbf{J}(\mathbf{x'})+\boldsymbol{\nabla'}(\boldsymbol{\nabla'}\cdot\mathbf{M}(\mathbf{x'}))\right]
-
 $$
 
 
@@ -3871,9 +3841,7 @@ The four Maxwell's equations are:
 
 
 $$
-
 \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{enc}}{\epsilon_0}
-
 $$
 
 
@@ -3887,9 +3855,7 @@ where $\mathbf{E}$ is the electric field, $d\mathbf{A}$ is the differential area
 
 
 $$
-
 \oint \mathbf{B} \cdot d\mathbf{A} = 0
-
 $$
 
 
@@ -3903,9 +3869,7 @@ where $\mathbf{B}$ is the magnetic field and $d\mathbf{A}$ is the differential a
 
 
 $$
-
 \oint \mathbf{E} \cdot d\mathbf{l} = -\frac{\partial}{\partial t} \int \mathbf{B} \cdot d\mathbf{A}
-
 $$
 
 
@@ -3919,9 +3883,7 @@ where $\mathbf{E}$ is the electric field, $d\mathbf{l}$ is the differential leng
 
 
 $$
-
 \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \left( \int \mathbf{J} \cdot d\mathbf{A} + \epsilon_0 \frac{\partial}{\partial t} \int \mathbf{E} \cdot d\mathbf{A} \right)
-
 $$
 
 
@@ -4041,9 +4003,7 @@ To understand the working of solenoids in more detail, let us consider the basic
 
 
 $$
-
 B \propto \frac{I}{r}
-
 $$
 
 
@@ -4129,9 +4089,7 @@ Co-energy, also known as stored energy, is the energy stored in a system due to 
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -4179,9 +4137,7 @@ To begin with, let us revisit the equation for co-energy:
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -10659,9 +10615,7 @@ The first lemma, known as the "divergence of the cross product," states that the
 
 
 $$
-
 \mathbf{L}\cdot\mathbf{V}(\mathbf{x})=i\boldsymbol{\nabla}\cdot(\mathbf{x}\times\mathbf{V}(\mathbf{x}))
-
 $$
 
 
@@ -10675,9 +10629,7 @@ The second lemma, known as the "Laplacian of the dot product," states that the d
 
 
 $$
-
 \mathbf{L}\cdot(\boldsymbol{\nabla}\times\mathbf{V}(\mathbf{x}))=i\nabla^2(\mathbf{x}\cdot\mathbf{V}(\mathbf{x}))-\frac{i\partial}{r\partial r}(r^2\boldsymbol{\nabla}\cdot\mathbf{V}(\mathbf{x}))
-
 $$
 
 
@@ -10691,9 +10643,7 @@ The third lemma, known as the "gradient of a scalar field," states that the dot 
 
 
 $$
-
 \mathbf{L}\cdot\boldsymbol{\nabla}s(\mathbf{x})=0
-
 $$
 
 
@@ -10707,9 +10657,7 @@ By applying these identities to the integrand, we can simplify the solution for 
 
 
 $$
-
 a_{\ell m}^{(E)}=\frac{-ik^2}{\sqrt{\ell(\ell+1)}} \int d^3\mathbf{x} \left[ \frac{1}{r} \frac{\partial}{\partial r} \left( r^2 \mathbf{V}(\mathbf{x}) \right) \cdot \mathbf{Y}_{\ell m}(\theta, \phi) \right]
-
 $$
 
 
@@ -10879,9 +10827,7 @@ Mathematically, self-inductance can be expressed as:
 
 
 $$
-
 L = \frac{\Phi}{I}
-
 $$
 
 
@@ -10899,9 +10845,7 @@ Mathematically, the magnetic field strength can be expressed as:
 
 
 $$
-
 B = \mu_0 \mu_r \frac{N I}{l}
-
 $$
 
 
@@ -10977,9 +10921,7 @@ Mathematically, co-energy can be expressed as:
 
 
 $$
-
 W = \frac{1}{2} L I^2
-
 $$
 
 
@@ -11469,9 +11411,7 @@ To understand the mathematical representation of mechanical impedance control, w
 
 
 $$
-
 \boldsymbol{M}(\boldsymbol{q})\ddot{\boldsymbol{q}} + \boldsymbol{c}(\boldsymbol{q},\dot{\boldsymbol{q}}) + \boldsymbol{g}(\boldsymbol{q}) + \boldsymbol{h}(\boldsymbol{q},\dot{\boldsymbol{q}}) = \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -11485,9 +11425,7 @@ To achieve impedance control, we can propose a control law of the following form
 
 
 $$
-
 \boldsymbol{\tau} = \boldsymbol{K}(\boldsymbol{q}_\mathrm{d}-\boldsymbol{q}) + \boldsymbol{D}(\dot{\boldsymbol{q}}_\mathrm{d}-\dot{\boldsymbol{q}}) + \boldsymbol{M}(\boldsymbol{q})(\ddot{\boldsymbol{q}}_\mathrm{d}-\ddot{\boldsymbol{q}}) + \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -11501,9 +11439,7 @@ Inserting this control law into the dynamics equation of the uncontrolled robot 
 
 
 $$
-
 \boldsymbol{K}(\boldsymbol{q}_\mathrm{d}-\boldsymbol{q}) + \boldsymbol{D}(\dot{\boldsymbol{q}}_\mathrm{d}-\dot{\boldsymbol{q}}) + \boldsymbol{M}(\boldsymbol{q})(\ddot{\boldsymbol{q}}_\mathrm{d}-\ddot{\boldsymbol{q}}) = \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -11513,9 +11449,7 @@ By defining the error as $\boldsymbol{e} = \boldsymbol{q}_\mathrm{d}-\boldsymbol
 
 
 $$
-
 \boldsymbol{K}\boldsymbol{e} + \boldsymbol{D}\dot{\boldsymbol{e}} + \boldsymbol{M}\ddot{\boldsymbol{e}} = \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -14563,9 +14497,7 @@ The most commonly used differential equation in system dynamics is the first-ord
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t))
-
 $$
 
 
@@ -14579,9 +14511,7 @@ Difference equations, on the other hand, are used for discrete-time models and a
 
 
 $$
-
 x_{k+1} = f(x_k, u_k)
-
 $$
 
 
@@ -14647,17 +14577,13 @@ In most cases, physical systems are represented as continuous-time models, while
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t)) + w(t) \quad w(t) \sim \mathcal{N}(0, Q(t))
-
 $$
 
 
 
 $$
-
 z_k = h(x_k) + v_k \quad v_k \sim \mathcal{N}(0, R_k)
-
 $$
 
 
@@ -14697,9 +14623,7 @@ The most commonly used differential equation in system dynamics is the first-ord
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t))
-
 $$
 
 
@@ -14713,9 +14637,7 @@ Difference equations, on the other hand, are used for discrete-time models and a
 
 
 $$
-
 x_{k+1} = f(x_k, u_k)
-
 $$
 
 
@@ -14783,9 +14705,7 @@ The most commonly used differential equation in system dynamics is the first-ord
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t))
-
 $$
 
 
@@ -14799,9 +14719,7 @@ Difference equations, on the other hand, are used for discrete-time models and a
 
 
 $$
-
 x_{k+1} = f(x_k, u_k)
-
 $$
 
 
@@ -14933,17 +14851,13 @@ The CTEKF is based on the following model:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -14961,9 +14875,7 @@ The CTEKF requires an initial estimate of the state vector and its covariance ma
 
 
 $$
-
 \hat{\mathbf{x}}(t_0) = E\bigl[\mathbf{x}(t_0)\bigr] \quad \mathbf{P}(t_0) = Var\bigl[\mathbf{x}(t_0)\bigr]
-
 $$
 
 
@@ -14977,17 +14889,13 @@ The CTEKF has two steps: predict and update. In the predict step, the state vect
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -14997,25 +14905,19 @@ where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the state transitio
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -15037,17 +14939,13 @@ The DTEKF is based on the following model:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -15065,9 +14963,7 @@ The DTEKF also requires an initial estimate of the state vector and its covarian
 
 
 $$
-
 \hat{\mathbf{x}}_{0|0} = E\bigl[\mathbf{x}(t_0)\bigr] \quad \mathbf{P}_{0|0} = Var\bigl[\mathbf{x}(t_0)\bigr]
-
 $$
 
 
@@ -15081,17 +14977,13 @@ The predict and update steps in the DTEKF are similar to the CTEKF, but they are
 
 
 $$
-
 \hat{\mathbf{x}}_{k+1|k} = f\bigl(\hat{\mathbf{x}}_{k|k},\mathbf{u}_k\bigr)+\mathbf{K}_k\Bigl(\mathbf{z}_k-h\bigl(\hat{\mathbf{x}}_{k|k}\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{P}_{k+1|k} = \mathbf{F}_k\mathbf{P}_{k|k}\mathbf{F}_k^{T}-\mathbf{K}_k\mathbf{H}_k\mathbf{P}_{k|k}\mathbf{K}_k^{T}+\mathbf{Q}_k
-
 $$
 
 
@@ -15179,17 +15071,13 @@ The CTEKF is based on the following model:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 

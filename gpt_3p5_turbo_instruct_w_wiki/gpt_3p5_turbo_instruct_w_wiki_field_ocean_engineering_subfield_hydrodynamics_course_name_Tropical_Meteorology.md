@@ -2987,9 +2987,7 @@ The moist adiabatic lapse rate can be mathematically defined as follows:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L_v}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -3041,9 +3039,7 @@ The moist adiabatic lapse rate can be mathematically defined as follows:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L_v}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -3097,9 +3093,7 @@ The moist adiabatic lapse rate can be mathematically defined as follows:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L_v}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -3173,9 +3167,7 @@ The dry adiabatic lapse rate can be mathematically defined as follows:
 
 
 $$
-
 \Gamma_d = \frac{g}{c_p}
-
 $$
 
 
@@ -3229,9 +3221,7 @@ The dry adiabatic lapse rate can be mathematically defined as follows:
 
 
 $$
-
 \Gamma_d = \frac{g}{c_p}
-
 $$
 
 
@@ -3827,9 +3817,7 @@ The moist static energy, denoted by S, is defined as the sum of a parcel's entha
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -3873,9 +3861,7 @@ The moist static energy, denoted by S, is defined as the sum of a parcel's entha
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -3927,9 +3913,7 @@ The moist static energy, denoted by S, is defined as the sum of a parcel's entha
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -4471,9 +4455,7 @@ Calculate the Convective Available Potential Energy (CAPE) for a given atmospher
 
 
 $$
-
 CAPE = \int_{p_{sfc}}^{p_{top}} g \frac{T_{v,p} - T_{v,e}}{T_{v,p}} \frac{dp}{p}
-
 $$
 
 
@@ -4489,9 +4471,7 @@ Given a sounding chart, identify the level of atmospheric instability by calcula
 
 
 $$
-
 LI = T_{v,500} - T_{v,500mb}
-
 $$
 
 
@@ -6657,9 +6637,7 @@ The dispersion relation for equatorial Rossby waves is given by:
 
 
 $$
-
 \omega = -\beta k/(k^2 + (2n + 1)\beta/c)
-
 $$
 
 
@@ -6673,9 +6651,7 @@ For very long waves, as the zonal wavenumber approaches zero, the non-dispersive
 
 
 $$
-
 \omega/k = -c/(2n + 1)
-
 $$
 
 
@@ -6689,9 +6665,7 @@ On the other hand, for very short waves, as the zonal wavenumber increases, the 
 
 
 $$
-
 c_g = -c_p = -\omega/k
-
 $$
 
 
@@ -15995,9 +15969,7 @@ The formula for the moist adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -16059,9 +16031,7 @@ The formula for the moist adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -16139,9 +16109,7 @@ The formula for the moist adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_m = \frac{g}{c_p}\left(1 + \frac{L}{R_vT}\frac{dq}{dp}\right)
-
 $$
 
 
@@ -16219,9 +16187,7 @@ The formula for the dry adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_d = \frac{g}{c_p}
-
 $$
 
 
@@ -16279,9 +16245,7 @@ The formula for the dry adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_d = \frac{g}{c_p}
-
 $$
 
 
@@ -16359,9 +16323,7 @@ The formula for the dry adiabatic lapse rate is given by:
 
 
 $$
-
 \Gamma_d = \frac{g}{c_p}
-
 $$
 
 
@@ -16447,9 +16409,7 @@ The formula for calculating CAPE is given by:
 
 
 $$
-
 CAPE = \int_{z_f}^{z_n} g \left(\frac{T_{v,parcel} - T_{v,env}}{T_{v,env}}\right) \, dz
-
 $$
 
 
@@ -16507,9 +16467,7 @@ The formula for calculating CAPE is given by:
 
 
 $$
-
 CAPE = \int_{z_f}^{z_n} g \left(\frac{T_{v,parcel} - T_{v,env}}{T_{v,env}}\right) \, dz
-
 $$
 
 
@@ -16585,9 +16543,7 @@ The formula for calculating CAPE is given by:
 
 
 $$
-
 CAPE = \int_{z_f}^{z_n} g \left(\frac{T_{v,parcel} - T_{v,env}}{T_{v,env}}\right) \, dz
-
 $$
 
 
@@ -16681,9 +16637,7 @@ CIN is typically measured in joules per kilogram of air (J/kg) and is an indicat
 
 
 $$
-
 CIN = \int_{z_sfc}^{z_LFC} g \left(\frac{T_{v,env} - T_{v,parcel}}{T_{v,env}}\right) \, dz
-
 $$
 
 
@@ -17141,9 +17095,7 @@ The moist static energy, S, can be mathematically described as:
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -17169,9 +17121,7 @@ The mathematical equation for moist static energy, $S$, is:
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -17211,9 +17161,7 @@ The moist static energy, S, can be mathematically described as:
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -17277,9 +17225,7 @@ The moist static energy, S, can be mathematically described as:
 
 
 $$
-
 S = C_pT + gz + L_vq
-
 $$
 
 
@@ -17599,9 +17545,7 @@ The formula for calculating CAPE is as follows:
 
 
 $$
-
 \mathrm{CAPE} = \int_{z_\mathrm{f}}^{z_\mathrm{n}} g \left(\frac{T_\mathrm{v,parcel} - T_\mathrm{v,env}}{T_\mathrm{v,env}}\right) \, dz
-
 $$
 
 
@@ -17901,7 +17845,6 @@ Explain the difference between shallow and deep convection and how they contribu
 #### Exercise 2
 
 Calculate the convective available potential energy (CAPE) for a given atmospheric profile using the formula: $$CAPE = \int_{p_{sfc}}^{p_{top}} g\frac{T_{v_{env}}-T_{v_{parcel}}}{T_{v_{env}}} dp$$
-
 
 
 #### Exercise 3
@@ -20419,21 +20362,17 @@ For very long waves, with a zonal wavenumber approaching zero, the non-dispersiv
 On the other hand, for very short waves, with a zonal wavenumber increasing, the group velocity (energy packet) is eastward and opposite to the phase speed. Both the phase speed and group velocity are given by the following relations:
 
 
-
 $$
 
 c_g = \frac{\partial \omega}{\partial k} = \frac{\beta}{k^2 + (2n+1)\beta/c}
 
 $$
 
-
-
 $$
 
 c_p = \frac{\omega}{k} = -\frac{\beta k}{k^2 + (2n+1)\beta/c}
 
 $$
-
 
 
 Thus, the phase and group speeds are equal in magnitude but opposite in direction. This means that the phase speed is westward, while the group velocity is eastward. It is often useful to use potential vorticity as a tracer for these planetary waves.
@@ -21487,7 +21426,6 @@ In addition to their role in tropical cyclone formation, easterly waves also hav
 The dispersion relation for easterly waves is given by:
 
 
-
 $$
 
 \omega = {\alpha_0 g \over f_0}{k_x \over 1+R^2(k_x^2+k_y^2)},
@@ -21495,13 +21433,11 @@ $$
 $$
 
 
-
 where $\omega$ is the angular frequency, $\alpha_0$ is the bottom slope, $g$ is the acceleration due to gravity, $f_0$ is the Coriolis parameter, and $k_x$ and $k_y$ are the wavenumbers in the x- and y-directions respectively. This relation shows that the phase speed of easterly waves is dependent on the bottom slope and the Coriolis parameter.
 
 
 
 The maximum frequency of easterly waves is given by:
-
 
 
 $$

@@ -1349,7 +1349,6 @@ Linear optimization involves finding the best solution to a problem from a set o
 
 
 $$
-
 \begin{align}
 
 \text{minimize } &c^Tx \\
@@ -1359,7 +1358,6 @@ $$
 &x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1385,7 +1383,6 @@ For example, consider the following linear optimization problem with two decisio
 
 
 $$
-
 \begin{align}
 
 \text{minimize } &c_1x_1 + c_2x_2 \\
@@ -1397,7 +1394,6 @@ $$
 &x_1 \geq 0, x_2 \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1519,7 +1515,6 @@ For example, consider the following linear optimization problem:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -1529,7 +1524,6 @@ $$
 & x \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1551,7 +1545,6 @@ In linear optimization, the dual problem can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & b^Ty \\
@@ -1561,7 +1554,6 @@ $$
 & y \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1707,7 +1699,6 @@ Linear optimization problems involve maximizing or minimizing a linear objective
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & \boldsymbol{c}^{\mathrm{T}}\boldsymbol{x} \\
@@ -1717,7 +1708,6 @@ $$
 & \boldsymbol{x} \geq \boldsymbol{0}
 
 \end{align*}
-
 $$
 
 
@@ -1735,7 +1725,6 @@ To illustrate how the simplex method works, let's consider the following example
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 4x_2 \\
@@ -1747,7 +1736,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1757,7 +1745,6 @@ We can rewrite this problem in standard form as:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & \boldsymbol{c}^{\mathrm{T}}\boldsymbol{x} \\
@@ -1767,7 +1754,6 @@ $$
 & \boldsymbol{x} \geq \boldsymbol{0}
 
 \end{align*}
-
 $$
 
 
@@ -1789,7 +1775,6 @@ We then need to find a leaving variable, which is the variable that will be decr
 
 
 $$
-
 \begin{align*}
 
 \frac{5}{1} &= 5 \\
@@ -1797,7 +1782,6 @@ $$
 \frac{12}{2} &= 6
 
 \end{align*}
-
 $$
 
 
@@ -1861,7 +1845,6 @@ To solve a linear optimization problem using the simplex method, we first need t
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & \boldsymbol{c}^{\mathrm{T}}\boldsymbol{x} \\
@@ -1871,7 +1854,6 @@ $$
 & \boldsymbol{x} \geq \boldsymbol{0}
 
 \end{align*}
-
 $$
 
 
@@ -1889,7 +1871,6 @@ To illustrate how the simplex method works, let's consider the following example
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 4x_2 \\
@@ -1901,7 +1882,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1911,7 +1891,6 @@ We can rewrite this problem in standard form as:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & \boldsymbol{c}^{\mathrm{T}}\boldsymbol{x} \\
@@ -1921,7 +1900,6 @@ $$
 & \boldsymbol{x} \geq \boldsymbol{0}
 
 \end{align*}
-
 $$
 
 
@@ -2017,7 +1995,6 @@ To illustrate how sensitivity analysis works with the simplex method, let's cons
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 4x_2 \\
@@ -2029,7 +2006,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2039,7 +2015,6 @@ Suppose we want to know how changes in the coefficients of the objective functio
 
 
 $$
-
 \begin{align*}
 
 \frac{\partial z}{\partial c_1} &= x_1 \\
@@ -2047,7 +2022,6 @@ $$
 \frac{\partial z}{\partial c_2} &= x_2
 
 \end{align*}
-
 $$
 
 
@@ -2057,7 +2031,6 @@ Similarly, we can compute the partial derivatives of the constraints with respec
 
 
 $$
-
 \begin{align*}
 
 \frac{\partial x_1}{\partial c_1} &= 1 \\
@@ -2069,7 +2042,6 @@ $$
 \frac{\partial x_2}{\partial c_2} &= 1
 
 \end{align*}
-
 $$
 
 
@@ -2145,7 +2117,6 @@ In linear optimization, the primal problem is a maximization or minimization pro
 
 
 $$
-
 \begin{align*}
 
 \text{Primal Problem:} \quad & \text{maximize } c^Tx \\
@@ -2163,7 +2134,6 @@ $$
 & \text{and } y \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2239,7 +2209,6 @@ To formulate a dual linear optimization problem, we first need to define the pri
 
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & c^Tx \\
@@ -2249,7 +2218,6 @@ $$
 & x \geq 0
 
 \end{aligned}
-
 $$
 
 
@@ -2263,9 +2231,7 @@ To formulate the dual problem, we first define the Lagrangian function as:
 
 
 $$
-
 \mathcal{L}(x, \lambda) = c^Tx + \lambda^T(Ax - b)
-
 $$
 
 
@@ -2275,7 +2241,6 @@ where $\lambda$ is a vector of dual variables. We can then formulate the dual pr
 
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & \mathcal{D}(\lambda) = \min_x \mathcal{L}(x, \lambda) \\
@@ -2283,7 +2248,6 @@ $$
 \text{subject to} \quad & \lambda \geq 0
 
 \end{aligned}
-
 $$
 
 
@@ -2317,7 +2281,6 @@ In this approach, the optimization problem is formulated as:
 
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & \|r\|_1 \\
@@ -2325,7 +2288,6 @@ $$
 \text{subject to} \quad & \|X - \mathbf{D}r\|^2_F < \epsilon
 
 \end{aligned}
-
 $$
 
 
@@ -2389,9 +2351,7 @@ The algorithm starts with an initial guess for the dual variables, denoted by $\
 
 
 $$
-
 \lambda^{(k+1)} = \lambda^{(k)} - \alpha_k \nabla \mathcal{D}(\lambda^{(k)})
-
 $$
 
 
@@ -2417,9 +2377,7 @@ Similar to Newton's method, the algorithm starts with an initial guess for the d
 
 
 $$
-
 \lambda^{(k+1)} = \lambda^{(k)} - \alpha_k \mathbf{d}^{(k)}
-
 $$
 
 
@@ -2487,7 +2445,6 @@ The KKT conditions for a linear optimization problem with a primal objective fun
 
 
 $$
-
 \begin{align}
 
 \nabla f(\mathbf{x}^*) + \sum_{i=1}^m \lambda_i^* \nabla g_i(\mathbf{x}^*) &= 0 \\
@@ -2497,7 +2454,6 @@ $$
 \lambda_i^* &\geq 0
 
 \end{align}
-
 $$
 
 
@@ -2527,7 +2483,6 @@ For example, if we have a primal problem with a symmetric matrix $\mathbf{K}$ an
 
 
 $$
-
 \begin{align}
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} &= x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right ) \\
@@ -2539,7 +2494,6 @@ $$
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} &= -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
 
 \end{align}
-
 $$
 
 
@@ -2729,7 +2683,6 @@ Overall, this chapter has provided a solid foundation for understanding and appl
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2741,7 +2694,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Graph the feasible region and label the optimal solution. (b) Solve the problem using the simplex method and verify your solution using the complementary slackness conditions.
@@ -2823,7 +2775,6 @@ Overall, this chapter has provided a solid foundation for understanding and appl
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2835,7 +2786,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Graph the feasible region and label the optimal solution. (b) Solve the problem using the simplex method and verify your solution using the complementary slackness conditions.
@@ -3641,9 +3591,7 @@ In load balancing, the goal is to evenly distribute the flow of resources throug
 
 
 $$
-
 U(u,v) = \frac{\sum_{i=1}^{k} f_i(u,v)}{c(u,v)}
-
 $$
 
 
@@ -3653,9 +3601,7 @@ The problem can be solved by minimizing <math>\sum_{u,v\in V} (U(u,v))^2</math> 
 
 
 $$
-
 U_{max} = \max_{u,v\in V} U(u,v)
-
 $$
 
 
@@ -4445,9 +4391,7 @@ The Lagrangian function is defined as:
 
 
 $$
-
 \mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}\left((X-\mathbf{D}R)^T(X-\mathbf{D}R)\right) + \sum_{j=1}^n\lambda_j \left({\sum_{i=1}^d\mathbf{D}_{ij}^2-c} \right)
-
 $$
 
 
@@ -4461,9 +4405,7 @@ To solve the Lagrangian function, we first minimize it with respect to $\mathbf{
 
 
 $$
-
 \mathcal{D}(\Lambda) = \min_{\mathbf{D}}\mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}(X^TX-XR^T(RR^T+\Lambda)^{-1}(XR^T)^T-c\Lambda)
-
 $$
 
 
@@ -4473,9 +4415,7 @@ The Lagrange dual function can then be solved using optimization methods such as
 
 
 $$
-
 \mathbf{D}^T=(RR^T+\Lambda)^{-1}(XR^T)^T
-
 $$
 
 
@@ -4501,9 +4441,7 @@ To solve this problem, we can use the Lagrangian function with a sparsity constr
 
 
 $$
-
 \mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}\left((X-\mathbf{D}R)^T(X-\mathbf{D}R)\right) + \sum_{j=1}^n\lambda_j \left({\sum_{i=1}^d\mathbf{D}_{ij}^2-c} \right) + \sum_{j=1}^n\mu_j \left({\sum_{i=1}^d|r_{ij}|-\epsilon} \right)
-
 $$
 
 
@@ -4517,9 +4455,7 @@ Another application of Lagrangean methods is in the LASSO (Least Absolute Shrink
 
 
 $$
-
 \min_{r \in \mathbb{R}^n} \,\, \dfrac{1}{2}\,\,\|X-\mathbf{D}r\|^2_F + \lambda \,\,\|r\|_1
-
 $$
 
 
@@ -4529,9 +4465,7 @@ where $\lambda > 0$ controls the trade-off between sparsity and reconstruction e
 
 
 $$
-
 \mathcal{L}(r, \Lambda) = \dfrac{1}{2}\,\,\|X-\mathbf{D}r\|^2_F + \lambda \,\,\|r\|_1 + \Lambda^T(X-\mathbf{D}r)
-
 $$
 
 
@@ -4567,9 +4501,7 @@ The Lagrangian function is defined as:
 
 
 $$
-
 \mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}\left((X-\mathbf{D}R)^T(X-\mathbf{D}R)\right) + \sum_{j=1}^n\lambda_j \left({\sum_{i=1}^d\mathbf{D}_{ij}^2-c} \right)
-
 $$
 
 
@@ -4583,9 +4515,7 @@ To solve the Lagrangian function, we first minimize it with respect to $\mathbf{
 
 
 $$
-
 \mathcal{D}(\Lambda) = \min_{\mathbf{D}}\mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}(X^TX-XR^T(RR^T+\Lambda)^{-1}(XR^T)^T-c\Lambda)
-
 $$
 
 
@@ -4595,9 +4525,7 @@ The Lagrange dual function can then be solved using optimization methods such as
 
 
 $$
-
 \mathbf{D}^T=(RR^T+\Lambda)^{-1}(XR^T)^T
-
 $$
 
 
@@ -4653,9 +4581,7 @@ The Lagrangian function is defined as:
 
 
 $$
-
 \mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}\left((X-\mathbf{D}R)^T(X-\mathbf{D}R)\right) + \sum_{j=1}^n\lambda_j \left({\sum_{i=1}^d\mathbf{D}_{ij}^2-c} \right)
-
 $$
 
 
@@ -4669,9 +4595,7 @@ To solve the Lagrangian function, we first minimize it with respect to $\mathbf{
 
 
 $$
-
 \mathcal{D}(\Lambda) = \min_{\mathbf{D}}\mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}(X^TX-XR^T(RR^T+\Lambda)^{-1}(XR^T)^T-c\Lambda)
-
 $$
 
 
@@ -4681,9 +4605,7 @@ The Lagrange dual function can then be solved using optimization methods such as
 
 
 $$
-
 \mathbf{D}^T=(RR^T+\Lambda)^{-1}(XR^T)^T
-
 $$
 
 
@@ -4727,9 +4649,7 @@ The Lagrangian function is defined as:
 
 
 $$
-
 \mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}\left((X-\mathbf{D}R)^T(X-\mathbf{D}R)\right) + \sum_{j=1}^n\lambda_j \left({\sum_{i=1}^d\mathbf{D}_{ij}^2-c} \right)
-
 $$
 
 
@@ -4743,9 +4663,7 @@ To solve the Lagrangian function, we first minimize it with respect to $\mathbf{
 
 
 $$
-
 \mathcal{D}(\Lambda) = \min_{\mathbf{D}}\mathcal{L}(\mathbf{D}, \Lambda) = \text{tr}(X^TX-XR^T(RR^T+\Lambda)^{-1}(XR^T)^T-c\Lambda)
-
 $$
 
 
@@ -4755,9 +4673,7 @@ The Lagrange dual function can then be solved using optimization methods such as
 
 
 $$
-
 \mathbf{D}^T=(RR^T+\Lambda)^{-1}(XR^T)^T
-
 $$
 
 
@@ -5235,7 +5151,6 @@ To begin, let us consider the general form of an optimization problem:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{\mathbf{x}}{\text{minimize}}
@@ -5247,7 +5162,6 @@ $$
 & & \mathbf{x} \in \mathcal{X}
 
 \end{aligned}
-
 $$
 
 
@@ -5287,7 +5201,6 @@ To begin, let us consider the general form of an optimization problem:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{\mathbf{x}}{\text{minimize}}
@@ -5299,7 +5212,6 @@ $$
 & & \mathbf{x} \in \mathcal{X}
 
 \end{aligned}
-
 $$
 
 
@@ -5355,7 +5267,6 @@ To begin, let us consider the general form of an optimization problem:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{\mathbf{x}}{\text{minimize}}
@@ -5367,7 +5278,6 @@ $$
 & & \mathbf{x} \in \mathcal{X}
 
 \end{aligned}
-
 $$
 
 
@@ -5715,9 +5625,7 @@ The update equation for the gradient method is given by:
 
 
 $$
-
 \boldsymbol{x}_{k+1} = \boldsymbol{x}_k + \alpha_k (-\nabla f(\boldsymbol{x}_k))
-
 $$
 
 
@@ -5773,7 +5681,6 @@ To find the optimal solution, we need to satisfy the necessary conditions for op
 
 
 $$
-
 \begin{align}
 
 \nabla f(\boldsymbol{x}^*) + \sum_{i=1}^m \lambda_i \nabla g_i(\boldsymbol{x}^*) + \sum_{j=1}^p \mu_j \nabla h_j(\boldsymbol{x}^*) &= 0 \\
@@ -5787,7 +5694,6 @@ h_j(\boldsymbol{x}^*) &= 0, \quad j=1,2,...,p \\
 \lambda_i g_i(\boldsymbol{x}^*) &= 0, \quad i=1,2,...,m
 
 \end{align}
-
 $$
 
 
@@ -5889,9 +5795,7 @@ Newton's method is a popular optimization method that uses the second-order deri
 
 
 $$
-
 \boldsymbol{x}_{k+1} = \boldsymbol{x}_k - \boldsymbol{H}_k^{-1} \nabla f(\boldsymbol{x}_k)
-
 $$
 
 
@@ -5983,9 +5887,7 @@ Newton's method is a popular optimization method that uses the second-order deri
 
 
 $$
-
 \boldsymbol{x}_{k+1} = \boldsymbol{x}_k - \boldsymbol{H}_k^{-1} \nabla f(\boldsymbol{x}_k)
-
 $$
 
 
@@ -6101,9 +6003,7 @@ Newton's method is based on the idea of using a quadratic approximation of the o
 
 
 $$
-
 f(\mathbf{x}) \approx f(\mathbf{x}_k) + \nabla f(\mathbf{x}_k)^T(\mathbf{x}-\mathbf{x}_k) + \frac{1}{2}(\mathbf{x}-\mathbf{x}_k)^T\nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k)
-
 $$
 
 
@@ -6113,9 +6013,7 @@ To find the minimum of this quadratic approximation, we take the derivative with
 
 
 $$
-
 \nabla f(\mathbf{x}_k) + \nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k) = 0
-
 $$
 
 
@@ -6125,9 +6023,7 @@ Solving for <math>\mathbf{x}</math>, we get the update equation for Newton's met
 
 
 $$
-
 \mathbf{x}_{k+1} = \mathbf{x}_k - (\nabla^2 f(\mathbf{x}_k))^{-1}\nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -6175,9 +6071,7 @@ Newton's method is based on the idea of using a quadratic approximation of the o
 
 
 $$
-
 f(\mathbf{x}) \approx f(\mathbf{x}_k) + \nabla f(\mathbf{x}_k)^T(\mathbf{x}-\mathbf{x}_k) + \frac{1}{2}(\mathbf{x}-\mathbf{x}_k)^T\nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k)
-
 $$
 
 
@@ -6187,9 +6081,7 @@ To find the minimum of this quadratic approximation, we take the derivative with
 
 
 $$
-
 \nabla f(\mathbf{x}_k) + \nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k) = 0
-
 $$
 
 
@@ -6199,9 +6091,7 @@ Solving for <math>\mathbf{x}</math>, we get the update equation for Newton's met
 
 
 $$
-
 \mathbf{x}_{k+1} = \mathbf{x}_k - (\nabla^2 f(\mathbf{x}_k))^{-1}\nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -6253,9 +6143,7 @@ Newton's method is based on the idea of using a quadratic approximation of the o
 
 
 $$
-
 f(\mathbf{x}) \approx f(\mathbf{x}_k) + \nabla f(\mathbf{x}_k)^T(\mathbf{x}-\mathbf{x}_k) + \frac{1}{2}(\mathbf{x}-\mathbf{x}_k)^T\nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k)
-
 $$
 
 
@@ -6265,9 +6153,7 @@ To find the minimum of this quadratic approximation, we take the derivative with
 
 
 $$
-
 \nabla f(\mathbf{x}_k) + \nabla^2 f(\mathbf{x}_k)(\mathbf{x}-\mathbf{x}_k) = 0
-
 $$
 
 
@@ -6277,9 +6163,7 @@ Solving for <math>\mathbf{x}</math>, we get the update equation for Newton's met
 
 
 $$
-
 \mathbf{x}_{k+1} = \mathbf{x}_k - (\nabla^2 f(\mathbf{x}_k))^{-1}\nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -6339,9 +6223,7 @@ In matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i
-
 $$
 
 
@@ -6351,7 +6233,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -6371,7 +6252,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}
-
 $$
 
 
@@ -6381,7 +6261,6 @@ with
 
 
 $$
-
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{r}_0 & \text{if }j=1\text{,}\\
@@ -6391,7 +6270,6 @@ $$
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -6439,9 +6317,7 @@ In matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i
-
 $$
 
 
@@ -6451,7 +6327,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -6471,7 +6346,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}
-
 $$
 
 
@@ -6481,7 +6355,6 @@ with
 
 
 $$
-
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{r}_0 & \text{if }j=1\text{,}\\
@@ -6491,7 +6364,6 @@ $$
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -6555,9 +6427,7 @@ In matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i
-
 $$
 
 
@@ -6567,7 +6437,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -6587,7 +6456,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}
-
 $$
 
 
@@ -6597,7 +6465,6 @@ with
 
 
 $$
-
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{r}_0 & \text{if }j=1\text{,}\\
@@ -6607,7 +6474,6 @@ $$
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -6625,9 +6491,7 @@ In nonlinear optimization, we are interested in finding the optimal solution to 
 
 
 $$
-
 \min_{\boldsymbol{x}} f(\boldsymbol{x})
-
 $$
 
 
@@ -6699,9 +6563,7 @@ In matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i
-
 $$
 
 
@@ -6711,7 +6573,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -6731,7 +6592,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}
-
 $$
 
 
@@ -6741,7 +6601,6 @@ with
 
 
 $$
-
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{r}_0 & \text{if }j=1\text{,}\\
@@ -6751,7 +6610,6 @@ $$
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -6773,9 +6631,7 @@ The direct Lanczos method can be written as
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T}
-
 $$
 
 
@@ -6785,9 +6641,7 @@ where <math>\boldsymbol{e}_i</math> is the <math>i</math>-th standard basis vect
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T} + h_{i,i+1}\boldsymbol{v}_i\boldsymbol{e}_{i+1}^\mathrm{T}
-
 $$
 
 
@@ -6797,9 +6651,7 @@ Using the symmetry of <math>\boldsymbol{A}</math>, we can rewrite this as
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T} + h_{i,i+1}\boldsymbol{v}_i\boldsymbol{e}_{i+1}^\mathrm{T} + h_{i+1,i}\boldsymbol{v}_i\boldsymbol{e}_i^\mathrm{T} + h_{i,i+1}\boldsymbol{v}_{i+1}\boldsymbol{e}_{i+1}^\mathrm{T}
-
 $$
 
 
@@ -6809,9 +6661,7 @@ This can be simplified to
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}(\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T} + \boldsymbol{v}_i\boldsymbol{e}_{i+1}^\mathrm{T})
-
 $$
 
 
@@ -6821,9 +6671,7 @@ Using the definition of <math>\boldsymbol{H}_i</math>, we can rewrite this as
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}(\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T} + \boldsymbol{v}_i\boldsymbol{e}_{i+1}^\mathrm{T}) + h_{i+1,i}\boldsymbol{v}_i\boldsymbol{e}_i^\mathrm{T}
-
 $$
 
 
@@ -6833,9 +6681,7 @@ This can be further simplified to
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}(\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T} + \boldsymbol{v}_i\boldsymbol{e}_{i+1}^\mathrm{T} + \boldsymbol{v}_i\boldsymbol{e}_i^\mathrm{T})
-
 $$
 
 
@@ -6845,9 +6691,7 @@ Using the fact that <math>\boldsymbol{v}_i</math> is orthogonal to <math>\boldsy
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{V}_i\boldsymbol{H}_i + h_{i+1,i}\boldsymbol{v}_{i+1}\boldsymbol{e}_i^\mathrm{T}
-
 $$
 
 
@@ -7419,23 +7263,17 @@ Overall, this chapter has provided a comprehensive overview of the applications 
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x + y \geq 5
-
 $$
 
 $$
-
 x,y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding optimal value.
@@ -7453,9 +7291,7 @@ A company produces two products, A and B, using two resources, X and Y. The prof
 A manufacturing company wants to optimize the design of a new product. The cost of producing each unit of the product is given by the following function:
 
 $$
-
 C(x) = 100 + 2x + 0.5x^2
-
 $$
 
 where x is the number of units produced. The company wants to minimize the cost by determining the optimal production quantity. Use calculus to find the optimal production quantity and the corresponding minimum cost.
@@ -7473,17 +7309,13 @@ A farmer has 100 acres of land to plant two crops, wheat and corn. The profit pe
 A company wants to invest in two projects, A and B, with a total budget of $500,000. The expected return on investment for project A is given by the following function:
 
 $$
-
 R_A(x) = 100x - 0.1x^2
-
 $$
 
 where x is the amount invested in project A. The expected return on investment for project B is given by the following function:
 
 $$
-
 R_B(y) = 150y - 0.2y^2
-
 $$
 
 where y is the amount invested in project B. The company wants to maximize the total expected return on investment by determining the optimal investment amounts for projects A and B. Formulate this problem as a nonlinear optimization problem and find the optimal investment amounts.
@@ -7513,23 +7345,17 @@ Overall, this chapter has provided a comprehensive overview of the applications 
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x + y \geq 5
-
 $$
 
 $$
-
 x,y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding optimal value.
@@ -7547,9 +7373,7 @@ A company produces two products, A and B, using two resources, X and Y. The prof
 A manufacturing company wants to optimize the design of a new product. The cost of producing each unit of the product is given by the following function:
 
 $$
-
 C(x) = 100 + 2x + 0.5x^2
-
 $$
 
 where x is the number of units produced. The company wants to minimize the cost by determining the optimal production quantity. Use calculus to find the optimal production quantity and the corresponding minimum cost.
@@ -7567,17 +7391,13 @@ A farmer has 100 acres of land to plant two crops, wheat and corn. The profit pe
 A company wants to invest in two projects, A and B, with a total budget of $500,000. The expected return on investment for project A is given by the following function:
 
 $$
-
 R_A(x) = 100x - 0.1x^2
-
 $$
 
 where x is the amount invested in project A. The expected return on investment for project B is given by the following function:
 
 $$
-
 R_B(y) = 150y - 0.2y^2
-
 $$
 
 where y is the amount invested in project B. The company wants to maximize the total expected return on investment by determining the optimal investment amounts for projects A and B. Formulate this problem as a nonlinear optimization problem and find the optimal investment amounts.
@@ -7641,7 +7461,6 @@ The formulation of a semidefinite optimization problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \langle C, X \rangle \\
@@ -7651,7 +7470,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7715,7 +7533,6 @@ The formulation of a semidefinite optimization problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \langle C, X \rangle \\
@@ -7725,7 +7542,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7793,7 +7609,6 @@ The formulation of a semidefinite optimization problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \langle C, X \rangle \\
@@ -7803,7 +7618,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -8045,7 +7859,6 @@ In conclusion, semidefinite optimization is a powerful tool in the field of opti
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8055,13 +7868,11 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8073,7 +7884,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8085,7 +7895,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8097,13 +7906,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8117,7 +7924,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8129,7 +7935,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8141,13 +7946,11 @@ $$
 & X_{11} = 1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8161,7 +7964,6 @@ $$
 & Y_{ij} = 0, \quad i = 1,2,...,n+1, \quad j = 1,2,...,n+1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8173,7 +7975,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8185,13 +7986,11 @@ $$
 & X_{ij} = 0, \quad i = 1,2,...,n, \quad j = n+1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8203,7 +8002,6 @@ $$
 & Y_{ij} = 0, \quad i = 1,2,...,n+1, \quad j = 1,2,...,n+1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8215,7 +8013,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8227,13 +8024,11 @@ $$
 & X_{ij} = 0, \quad i = 1,2,...,n, \quad j = n+1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8247,7 +8042,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8281,7 +8075,6 @@ In conclusion, semidefinite optimization is a powerful tool in the field of opti
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8291,13 +8084,11 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8309,7 +8100,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8321,7 +8111,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8333,13 +8122,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8353,7 +8140,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8365,7 +8151,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8377,13 +8162,11 @@ $$
 & X_{11} = 1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8397,7 +8180,6 @@ $$
 & Y_{ij} = 0, \quad i = 1,2,...,n+1, \quad j = 1,2,...,n+1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8409,7 +8191,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8421,13 +8202,11 @@ $$
 & X_{ij} = 0, \quad i = 1,2,...,n, \quad j = n+1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8439,7 +8218,6 @@ $$
 & Y_{ij} = 0, \quad i = 1,2,...,n+1, \quad j = 1,2,...,n+1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -8451,7 +8229,6 @@ where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -8463,13 +8240,11 @@ $$
 & X_{ij} = 0, \quad i = 1,2,...,n, \quad j = n+1
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -8483,7 +8258,6 @@ $$
 & Y_{11} = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{(n+1) \times (n+1)}$.
@@ -9141,13 +8915,11 @@ As we move forward in this textbook, we will delve deeper into the different opt
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} 3x + 4y \\
 
 \text{subject to } x + y \leq 10 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -9159,7 +8931,6 @@ Find the optimal solution and the corresponding objective value.
 Solve the following linear programming problem using the graphical method:
 
 $$
-
 \max_{x,y} 5x + 3y \\
 
 \text{subject to } 2x + y \leq 10 \\
@@ -9167,7 +8938,6 @@ $$
 x + 3y \leq 12 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -9177,13 +8947,11 @@ $$
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y \geq 5 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -9195,13 +8963,11 @@ Find the optimal solution and the corresponding objective value.
 Solve the following quadratic programming problem using the KKT conditions:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y = 5 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -9211,13 +8977,11 @@ $$
 Consider the following constrained optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x^2 + y^2 \leq 1 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value using the method of Lagrange multipliers.
@@ -9247,13 +9011,11 @@ As we move forward in this textbook, we will delve deeper into the different opt
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} 3x + 4y \\
 
 \text{subject to } x + y \leq 10 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -9265,7 +9027,6 @@ Find the optimal solution and the corresponding objective value.
 Solve the following linear programming problem using the graphical method:
 
 $$
-
 \max_{x,y} 5x + 3y \\
 
 \text{subject to } 2x + y \leq 10 \\
@@ -9273,7 +9034,6 @@ $$
 x + 3y \leq 12 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -9283,13 +9043,11 @@ $$
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y \geq 5 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -9301,13 +9059,11 @@ Find the optimal solution and the corresponding objective value.
 Solve the following quadratic programming problem using the KKT conditions:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y = 5 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -9317,13 +9073,11 @@ $$
 Consider the following constrained optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x^2 + y^2 \leq 1 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value using the method of Lagrange multipliers.

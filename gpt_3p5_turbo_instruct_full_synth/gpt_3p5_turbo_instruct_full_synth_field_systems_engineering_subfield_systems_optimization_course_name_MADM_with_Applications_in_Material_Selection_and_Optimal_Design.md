@@ -2757,9 +2757,7 @@ The mathematical representation of the WSM can be expressed as follows:
 
 
 $$
-
 WSM = \sum_{i=1}^{n} w_i \times x_i
-
 $$
 
 
@@ -7177,9 +7175,7 @@ The SNR is defined as the ratio of the mean of the signal (desired output) to th
 
 
 $$
-
 SNR = \frac{\mu}{\sigma}
-
 $$
 
 
@@ -13047,17 +13043,13 @@ The position and velocity update equations for each particle are given by:
 
 
 $$
-
 v_{ij}(n+1) = wv_{ij}(n) + c_1r_1(p_{ij}(n) - x_{ij}(n)) + c_2r_2(g_{ij}(n) - x_{ij}(n))
-
 $$
 
 
 
 $$
-
 x_{ij}(n+1) = x_{ij}(n) + v_{ij}(n+1)
-
 $$
 
 
@@ -13115,17 +13107,13 @@ The position and velocity update equations for each particle are given by:
 
 
 $$
-
 v_{ij}(n+1) = wv_{ij}(n) + c_1r_1(p_{ij}(n) - x_{ij}(n)) + c_2r_2(g_{ij}(n) - x_{ij}(n))
-
 $$
 
 
 
 $$
-
 x_{ij}(n+1) = x_{ij}(n) + v_{ij}(n+1)
-
 $$
 
 
@@ -13191,17 +13179,13 @@ The position and velocity update equations for each particle are given by:
 
 
 $$
-
 v_{ij}(n+1) = \omega v_{ij}(n) + c_1r_1(p_{ij}(n) - x_{ij}(n)) + c_2r_2(g_{ij}(n) - x_{ij}(n))
-
 $$
 
 
 
 $$
-
 x_{ij}(n+1) = x_{ij}(n) + v_{ij}(n+1)
-
 $$
 
 
@@ -13275,7 +13259,6 @@ The position and pheromone trail update equations for each ant are given by:
 
 
 $$
-
 x_{ij}^{k+1} = \begin{cases}
 
 1, & \text{if } p_{ij}^{k+1} > \tau_{ij}^{k+1} \\
@@ -13283,15 +13266,12 @@ x_{ij}^{k+1} = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 \tau_{ij}^{k+1} = (1 - \rho)\tau_{ij}^{k} + \rho\Delta\tau_{ij}^{k}
-
 $$
 
 
@@ -13341,7 +13321,6 @@ The position and pheromone trail update equations for each ant are given by:
 
 
 $$
-
 x_{ij}^{k+1} = \begin{cases}
 
 1, & \text{if } p_{ij}^{k+1} > \tau_{ij}^{k+1} \\
@@ -13349,15 +13328,12 @@ x_{ij}^{k+1} = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 \tau_{ij}^{k+1} = (1 - \rho)\tau_{ij}^{k} + \rho\Delta\tau
-
 $$
 
 
@@ -13419,7 +13395,6 @@ The position and pheromone trail update equations for each ant are given by:
 
 
 $$
-
 x_{ij}^{k+1} = \begin{cases}
 
 1, & \text{if } p_{ij}^{k+1} > \tau_{ij}^{k+1} \\
@@ -13427,15 +13402,12 @@ x_{ij}^{k+1} = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 \tau_{ij}^{k+1} = (1 - \rho)\tau_{ij}^{k} + \rho\Delta\tau
-
 $$
 
 
@@ -13505,7 +13477,6 @@ The position and pheromone trail update equations for each ant are given by:
 
 
 $$
-
 x_{ij}^{k+1} = \begin{cases}
 
 1, & \text{if } p_{ij}^{k+1} > \tau_{ij}^{k+1} \\
@@ -13513,15 +13484,12 @@ x_{ij}^{k+1} = \begin{cases}
 0, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 \tau_{ij}^{k+1} = (1 - \rho)\tau_{ij}^{k} + \rho\Delta\tau
-
 $$
 
 
@@ -13551,17 +13519,13 @@ The temperature and solution update equations for each iteration are given by:
 
 
 $$
-
 T_{k+1} = \alpha T_k
-
 $$
 
 
 
 $$
-
 x_{k+1} = x_k + \Delta x
-
 $$
 
 
@@ -13615,9 +13579,7 @@ The update equation for the temperature is given by:
 
 
 $$
-
 T_{k+1} = \alpha T_k
-
 $$
 
 

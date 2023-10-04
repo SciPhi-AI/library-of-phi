@@ -1124,7 +1124,6 @@ Internal factors are inherent to the system and play a crucial role in determini
 
 
     $$
-
     L = \left ( \frac{R}{R_{sun}} \right )^2 \left ( \frac{T_{eff}}{T_{sun}} \right )^4
 
     $$
@@ -1780,13 +1779,11 @@ The temperature of the air parcel has a significant impact on the MALR. As the t
 The relationship between temperature and MALR is not linear, but it can be approximated by the following equation:
 
 
-
 $$
 
 MALR = 5 - 0.006(T - 273.15)
 
 $$
-
 
 
 where $T$ is the temperature in Kelvin.
@@ -1804,13 +1801,11 @@ The pressure of the air parcel also affects the MALR. As the pressure decreases 
 The relationship between pressure and MALR is complex and depends on the specific heat capacities of dry air and water vapor, which vary with temperature and pressure. However, it can be approximated by the following equation:
 
 
-
 $$
 
 MALR = 5 + 0.0001(P - 1013.25)
 
 $$
-
 
 
 where $P$ is the pressure in hPa.
@@ -1828,13 +1823,11 @@ The amount of water vapor in the air parcel also influences the MALR. A higher w
 The relationship between water vapor content and MALR is complex and depends on the saturation vapor pressure, which varies with temperature. However, it can be approximated by the following equation:
 
 
-
 $$
 
 MALR = 5 - 0.002(H - 50)
 
 $$
-
 
 
 where $H$ is the relative humidity in percent.
@@ -1900,13 +1893,11 @@ The dry adiabatic lapse rate (DALR) is a measure of the rate at which the temper
 The DALR is typically denoted by $\Gamma_d$ and is given by the equation:
 
 
-
 $$
 
 \Gamma_d = -\frac{dT}{dz}
 
 $$
-
 
 
 where $T$ is the temperature and $z$ is the altitude. The negative sign indicates that the temperature decreases with increasing altitude. 
@@ -2048,13 +2039,11 @@ CAPE exists within the conditionally unstable layer of the troposphere, the free
 The calculation of CAPE involves integrating vertically the local buoyancy of a parcel from the level of free convection (LFC) to the equilibrium level (EL). This can be represented mathematically as:
 
 
-
 $$
 
 \mathrm{CAPE} = \int_{z_\mathrm{f}}^{z_\mathrm{n}} g \left(\frac{T_\mathrm{v,parcel} - T_\mathrm{v,env}}{T_\mathrm{v,env}}\right) \, dz
 
 $$
-
 
 
 Where $z_\mathrm{f}$ is the height of the level of free convection and $z_\mathrm{n}$ is the height of the equilibrium level (neutral buoyancy), $T_\mathrm{v,parcel}$ is the virtual temperature of the specific parcel, $T_\mathrm{v,env}$ is the virtual temperature of the environment (note that temperatures must be in the Kelvin scale), and $g$ is the acceleration due to gravity. This integral is the work done by the buoyant force minus the work done against gravity, hence it's the excess energy that can become kinetic energy.
@@ -2112,13 +2101,11 @@ When an air parcel with high CAPE is lifted, it can ascend freely due to its pos
 The role of CAPE in thunderstorm development can be further understood through the concept of the **Lifted Index (LI)**. The LI is a measure of the stability of the atmosphere and is calculated by subtracting the temperature of an air parcel lifted adiabatically to the 500 hPa level from the actual temperature at that level. A negative LI indicates an unstable atmosphere and a high potential for thunderstorm development. Mathematically, it can be represented as:
 
 
-
 $$
 
 LI = T_{500} - T_{p}
 
 $$
-
 
 
 where $T_{500}$ is the actual temperature at 500 hPa and $T_{p}$ is the temperature of the air parcel lifted to that level.
@@ -2156,13 +2143,11 @@ The negatively buoyant energy is a result of the air parcel being cooler (and th
 Mathematically, CIN can be represented as:
 
 
-
 $$
 
 CIN = \int_{z_{s}}^{z_{LFC}} (T_{v,parcel} - T_{v,env}) \, dz
 
 $$
-
 
 
 where $z_{s}$ is the starting level of the parcel, $z_{LFC}$ is the level of free convection, $T_{v,parcel}$ is the virtual temperature of the parcel, and $T_{v,env}$ is the virtual temperature of the environment. The integral is taken over the layer of the atmosphere where the parcel is cooler than the environment.
@@ -2474,13 +2459,11 @@ The enthalpy of an air parcel is due to its internal energy and the energy requi
 The moist static energy, denoted as `$S$`, can be described mathematically as:
 
 
-
 $$
 
 S = C_pT + gz + L_vq
 
 $$
-
 
 
 where `$C_p$` is the specific heat at constant pressure, `$T$` is the absolute air temperature, `$g$` is the gravitational constant, `$z$` is the geopotential height above sea level, `$L_v$` is the latent heat of vaporization, and `$q$` is the water vapor specific humidity. 
@@ -2706,13 +2689,11 @@ In the context of CISK, the "heavier fluid" can be thought of as the moist air n
 The mathematical representation of CISK can be derived from the Rayleigh–Taylor instability equation:
 
 
-
 $$
 
 c^2=\frac{g}{\alpha}\frac{\rho_L-\rho_G}{\rho_L+\rho_G},\qquad \sigma=0,\,
 
 $$
-
 
 
 where $c$ is the phase speed of the disturbance, $g$ is the acceleration due to gravity, $\alpha$ is the wave number, $\rho_L$ is the density of the lower fluid (moist air), and $\rho_G$ is the density of the upper fluid (drier air). The term $\sigma$ represents the surface tension, which is assumed to be zero in this case.
@@ -2730,13 +2711,11 @@ In the following sections, we will delve deeper into the mechanisms of CISK and 
 The Conditional Instability of the Second Kind (CISK) is influenced by several factors, including the density of the lower and upper fluids, the wave number, and the acceleration due to gravity. These factors are represented in the Rayleigh–Taylor instability equation:
 
 
-
 $$
 
 c^2=\frac{g}{\alpha}\frac{\rho_L-\rho_G}{\rho_L+\rho_G},\qquad \sigma=0,\,
 
 $$
-
 
 
 where $c$ is the phase speed of the disturbance, $g$ is the acceleration due to gravity, $\alpha$ is the wave number, and $\rho_L$ and $\rho_G$ are the densities of the lower and upper fluids, respectively.
@@ -2818,13 +2797,11 @@ CAPE exists within the conditionally unstable layer of the troposphere, the free
 The calculation of CAPE is done by integrating vertically the local buoyancy of a parcel from the level of free convection (LFC) to the equilibrium level (EL). This can be represented mathematically as:
 
 
-
 $$
 
 \mathrm{CAPE} = \int_{z_\mathrm{f}}^{z_\mathrm{n}} g \left(\frac{T_\mathrm{v,parcel} - T_\mathrm{v,env}}{T_\mathrm{v,env}}\right) \, dz
 
 $$
-
 
 
 Where $z_\mathrm{f}$ is the height of the level of free convection and $z_\mathrm{n}$ is the height of the equilibrium level (neutral buoyancy), where $T_\mathrm{v,parcel}$ is the virtual temperature of the specific parcel, where $T_\mathrm{v,env}$ is the virtual temperature of the environment (note that temperatures must be in the Kelvin scale), and where $g$ is the acceleration due to gravity. This integral is the work done by the buoyant force minus the work done against gravity, hence it's the excess energy that can become kinetic energy.
@@ -2882,13 +2859,11 @@ The process begins when an air parcel, heated by the sun, begins to rise due to 
 CAPE is essentially a measure of the maximum potential vertical speed of an updraft, given by the integral over the height of the positive buoyancy. Mathematically, it can be expressed as:
 
 
-
 $$
 
 CAPE = \int_{LFC}^{EL} g \left( \frac{T_{parcel} - T_{environment}}{T_{environment}} \right) dz
 
 $$
-
 
 
 where $g$ is the acceleration due to gravity, $T_{parcel}$ and $T_{environment}$ are the temperatures of the air parcel and the environment respectively, $LFC$ is the level of free convection, and $EL$ is the equilibrium level.
@@ -2926,13 +2901,11 @@ The negatively buoyant energy is a result of the air parcel being cooler (and he
 Mathematically, CIN can be expressed as:
 
 
-
 $$
 
 CIN = \int_{SFC}^{LFC} g \left( \frac{T_{parcel} - T_{environment}}{T_{environment}} \right) dz
 
 $$
-
 
 
 where $g$ is the acceleration due to gravity, $T_{parcel}$ and $T_{environment}$ are the temperatures of the air parcel and the environment respectively, $SFC$ is the surface, and $LFC$ is the level of free convection.
@@ -5036,7 +5009,6 @@ Assuming that the cross-shore velocity "v" is zero at the coast, i.e., "v" = 0, 
 The (linearised) primitive equations for these waves are:
 
 
-
 $$
 
 \begin{align*}
@@ -5052,9 +5024,7 @@ $$
 $$
 
 
-
 If we assume that the Coriolis coefficient "f" is constant along the right boundary conditions and the zonal wind speed is set equal to zero, then the primitive equations become:
-
 
 
 $$
@@ -5068,7 +5038,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 The solution to these equations yields the following phase speed: $c^2 = gH$, which is the same speed as for shallow-water gravity waves without the effect of Earth's rotation.
@@ -5186,7 +5155,6 @@ Mixed Rossby-gravity waves were first observed in the stratosphere as westward-p
 In the context of the quasi-geostrophic approximation, the horizontal wind components can be expressed as:
 
 
-
 $$
 
 u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-{g \over f_0}{\partial \eta \over \partial y}\\[3pt]
@@ -5194,7 +5162,6 @@ u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-{g \over f_0}{\partial 
 v = \bar{v}+\tilde{v} \qquad \text{with} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},\\[3pt]
 
 $$
-
 
 
 where $\bar{u}$ and $\bar{v}$ are the zonal and meridional components of the wind, respectively, $g$ is the acceleration due to gravity, $f_0$ is the Coriolis parameter, and $\eta$ is the geopotential height. The tilde denotes the deviation from the mean state.
@@ -5228,7 +5195,6 @@ The horizontal pressure gradient also plays a significant role. It is one of the
 In the context of the quasi-geostrophic approximation, the horizontal wind components can be expressed as:
 
 
-
 $$
 
 u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-{g \over f_0}{\partial \eta \over \partial y}\\[3pt]
@@ -5236,7 +5202,6 @@ u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-{g \over f_0}{\partial 
 v = \bar{v}+\tilde{v} \qquad \text{with} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},\\[3pt]
 
 $$
-
 
 
 where $\bar{u}$ and $\bar{v}$ are the zonal and meridional components of the wind, respectively, $g$ is the acceleration due to gravity, $f_0$ is the Coriolis parameter, and $\eta$ is the geopotential height. Changes in these parameters can also affect the behavior of mixed Rossby-gravity waves.
@@ -5844,13 +5809,11 @@ The structure of an easterly wave consists of a series of troughs and ridges, wi
 The mathematical representation of an easterly wave can be similar to the dispersion relation for topographic Rossby waves, with the wave represented as:
 
 
-
 $$
 
 \eta = A \cos(k_xx+k_yy-\omega t+\phi),
 
 $$
-
 
 
 where $\eta$ is the wave, $A$ is the amplitude, $k_x$ and $k_y$ are the wavenumber in x- and y- direction respectively, $\omega$ is the angular frequency of the wave, and $\phi$ is a phase factor. 
@@ -6086,13 +6049,11 @@ The defining characteristic of CCKWs is their coupling with convection. This mea
 The mathematical description of CCKWs is based on the same primitive equations used for equatorial Kelvin waves, with the addition of terms representing the effects of convection. The equatorial beta plane approximation is used, which states:
 
 
-
 $$
 
 \beta = \frac{df}{dy}
 
 $$
-
 
 
 where "β" is the variation of the Coriolis parameter with latitude, "f" is the Coriolis parameter, and "y" is the latitude. This approximation requires a geostrophic balance between the eastward velocity and the north–south pressure gradient.
@@ -6214,7 +6175,6 @@ The term "convectively coupled" refers to the interaction between the wave dynam
 The mathematical representation of CCRWs is similar to that of Rossby waves, but with additional terms to account for the effects of convection. Following the quasi-geostrophic approximation as discussed in the previous sections, the equations governing the dynamics of CCRWs can be written as:
 
 
-
 $$
 
 -\frac{g}{f_0}\frac{\partial^2 \eta}{\partial y \partial t}+\frac{\partial \tilde{u}}{\partial t}-f_0\tilde{v} = Q(x,y,t)\\[3pt]
@@ -6224,7 +6184,6 @@ $$
 \frac{\partial \eta}{\partial t}+H_0\left(\frac{\partial \tilde{u}}{\partial x} + \frac{\partial \tilde{v}}{\partial y}\right)+\alpha_0 \frac{g}{f_0}\frac{\partial \eta}{\partial x}+ \alpha_0\tilde{v}=Q(x,y,t).
 
 $$
-
 
 
 where $Q(x,y,t)$ is a heating term that represents the effects of convection. This term is typically parameterized based on observations or derived from convective parameterization schemes in numerical models.
@@ -6254,7 +6213,6 @@ The background state of the atmosphere, including the mean wind field and the ve
 The background state of the atmosphere can be represented in the equations governing the dynamics of CCRWs as:
 
 
-
 $$
 
 -\frac{g}{f_0}\frac{\partial^2 \eta}{\partial y \partial t}+\frac{\partial \tilde{u}}{\partial t}-f_0\tilde{v} = Q(x,y,t) + B(x,y,t)\\[3pt]
@@ -6264,7 +6222,6 @@ $$
 \frac{\partial \eta}{\partial t}+H_0\left(\frac{\partial \tilde{u}}{\partial x} + \frac{\partial \tilde{v}}{\partial y}\right)+\alpha_0 \frac{g}{f_0}\frac{\partial \eta}{\partial x}+ \alpha_0\tilde{v}=Q(x,y,t) + B(x,y,t).
 
 $$
-
 
 
 where $B(x,y,t)$ is a background term that represents the effects of the mean atmospheric state.
@@ -9368,7 +9325,6 @@ Forecast verification is also crucial for assessing the skill of a forecast syst
 
 
 For example, the Heidke Skill Score (HSS) is a commonly used metric for categorical forecasts. It is defined as:
-
 
 
 $$

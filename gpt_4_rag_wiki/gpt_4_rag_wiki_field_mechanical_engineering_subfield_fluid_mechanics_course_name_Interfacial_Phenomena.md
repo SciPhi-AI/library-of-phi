@@ -271,9 +271,7 @@ Let's start with the Young-Laplace equation, a fundamental equation in the study
 
 
 $$
-
 \Delta P = \Gamma \cdot \kappa
-
 $$
 
 
@@ -287,9 +285,7 @@ Another important equation is the Young's equation, which relates the contact an
 
 
 $$
-
 \Gamma_{LV} \cdot cos(\theta) = \Gamma_{SV} - \Gamma_{SL}
-
 $$
 
 
@@ -459,9 +455,7 @@ The degree of wetting can be quantitatively described by the contact angle, $\th
 
 
 $$
-
 \gamma_{sv} - \gamma_{sl} = \gamma_{lv} \cos \theta
-
 $$
 
 
@@ -713,9 +707,7 @@ The stress boundary condition at an interface can be expressed mathematically as
 
 
 $$
-
 \sigma_{ij} n_j = \gamma \kappa n_i
-
 $$
 
 
@@ -991,9 +983,7 @@ The Navier-Stokes equations can be written as:
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
-
 $$
 
 
@@ -1027,9 +1017,7 @@ The forces acting on a fluid drop can be represented by the following equation:
 
 
 $$
-
 \mathbf{F} = \rho \mathbf{a} V
-
 $$
 
 
@@ -1039,9 +1027,7 @@ where $\mathbf{F}$ is the force, $\rho$ is the fluid density, $\mathbf{a}$ is th
 
 
 $$
-
 \mathbf{T} = I \mathbf{\alpha}
-
 $$
 
 
@@ -1087,17 +1073,13 @@ The equilibrium conditions of a fluid drop can be described by the balance of fo
 
 
 $$
-
 \sum \mathbf{F} = 0
-
 $$
 
 
 
 $$
-
 \sum \mathbf{T} = 0
-
 $$
 
 
@@ -1119,9 +1101,7 @@ The pressure inside a fluid drop is also important. Due to the surface tension, 
 
 
 $$
-
 \Delta P = \frac{2 \gamma}{r}
-
 $$
 
 

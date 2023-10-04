@@ -723,9 +723,7 @@ Mathematically, the utility function can be represented as:
 
 
 $$
-
 U(x) = f(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -759,9 +757,7 @@ MAUT is an extension of utility theory that allows for the consideration of mult
 
 
 $$
-
 U(x) = w_1f_1(x_1) + w_2f_2(x_2) + ... + w_nf_n(x_n)
-
 $$
 
 
@@ -799,9 +795,7 @@ Suppose a space agency is designing a new satellite. The agency has identified f
 
 
 $$
-
 U(x) = w_1f_1(x_1) + w_2f_2(x_2) + w_3f_3(x_3) + w_4f_4(x_4)
-
 $$
 
 
@@ -819,9 +813,7 @@ In another scenario, a space mission planner might use utility theory to decide 
 
 
 $$
-
 U(x) = w_1f_1(x_1) + w_2f_2(x_2) + w_3f_3(x_3) + w_4f_4(x_4)
-
 $$
 
 
@@ -927,9 +919,7 @@ For instance, the weighted sum method can be used to convert the multi-objective
 
 
 $$
-
 \min_{x} \sum_{i=1}^{n} w_i f_i(x)
-
 $$
 
 
@@ -2119,9 +2109,7 @@ In the context of mathematical expressions, the architecture of a space system c
 
 
 $$
-
 P = f(A)
-
 $$
 
 

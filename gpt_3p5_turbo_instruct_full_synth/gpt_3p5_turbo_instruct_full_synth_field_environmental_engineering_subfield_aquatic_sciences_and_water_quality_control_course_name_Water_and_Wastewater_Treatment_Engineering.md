@@ -1828,9 +1828,7 @@ Mathematically, the behavior of a mixed tank can be described using the mass bal
 
 
 $$
-
 \frac{dC}{dt} = \frac{F_{in}C_{in} - F_{out}C + Vr}{V}
-
 $$
 
 
@@ -1856,9 +1854,7 @@ This equation shows that the change in concentration over time is dependent on t
 
 
 $$
-
 \frac{dC}{dt} = \frac{C_{in} - C + r}{V}
-
 $$
 
 
@@ -1868,9 +1864,7 @@ The reaction rate, $r$, can be further described using the kinetics of the speci
 
 
 $$
-
 r = kC^n
-
 $$
 
 
@@ -2122,9 +2116,7 @@ The rate of a first-order reaction can be expressed mathematically as:
 
 
 $$
-
 r = kC
-
 $$
 
 
@@ -2328,9 +2320,7 @@ To understand the behavior of mixed tanks, it is essential to apply the principl
 
 
 $$
-
 \frac{dC}{dt} = \frac{Q_{in}C_{in} - Q_{out}C_{out}}{V} + rV
-
 $$
 
 
@@ -2364,9 +2354,7 @@ The most commonly used kinetic model for mixed tanks is the first-order kinetics
 
 
 $$
-
 r = kC
-
 $$
 
 
@@ -2450,9 +2438,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \frac{dC}{dt} = Q_{in}C_{in} - Q_{out}C_{out} + rV
-
 $$
 
 
@@ -2506,9 +2492,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \frac{dC}{dt} = Q_{in}C_{in} - Q_{out}C_{out} + r(x)V
-
 $$
 
 
@@ -2562,9 +2546,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \frac{dC}{dt} = Q_{in}C_{in} - Q_{out}C_{out} + r(x)V
-
 $$
 
 
@@ -4358,9 +4340,7 @@ The ion exchange process can be represented by the following equation:
 
 
 $$
-
 Ca^{2+} + Na_2R \rightarrow Na^{+} + CaR_2
-
 $$
 
 
@@ -7316,9 +7296,7 @@ One such advanced model is the Monod model, which considers the effects of subst
 
 
 $$
-
 r = \frac{\mu S}{K_s + S}
-
 $$
 
 
@@ -7332,9 +7310,7 @@ Another important advanced model is the Contois model, which takes into account 
 
 
 $$
-
 r = \frac{\mu S}{K_s + S + \frac{S^2}{K_i}}
-
 $$
 
 
@@ -7374,9 +7350,7 @@ One such advanced model is the Monod model, which considers the effects of subst
 
 
 $$
-
 r = \frac{\mu S}{K_s + S}
-
 $$
 
 
@@ -7390,9 +7364,7 @@ Another important advanced model is the Contois model, which takes into account 
 
 
 $$
-
 r = \frac{\mu S}{K_s + S + \frac{S^2}{K_i}}
-
 $$
 
 
@@ -7448,9 +7420,7 @@ One such advanced model is the Monod model, which considers the effects of subst
 
 
 $$
-
 r = \frac{\mu S}{K_s + S}
-
 $$
 
 
@@ -7464,9 +7434,7 @@ Another important advanced model is the Contois model, which takes into account 
 
 
 $$
-
 r = \frac{\mu S}{K_s + S + \frac{S^2}{K_i}}
-
 $$
 
 
@@ -9352,9 +9320,7 @@ Research and compare the different nutrient removal technologies used in water a
 Calculate the nutrient removal efficiency of a wastewater treatment plant using the following formula:
 
 $$
-
 Efficiency = \frac{C_{in} - C_{out}}{C_{in}} \times 100\%
-
 $$
 
 Where $C_{in}$ is the influent nutrient concentration and $C_{out}$ is the effluent nutrient concentration.
@@ -9412,9 +9378,7 @@ Research and compare the different nutrient removal technologies used in water a
 Calculate the nutrient removal efficiency of a wastewater treatment plant using the following formula:
 
 $$
-
 Efficiency = \frac{C_{in} - C_{out}}{C_{in}} \times 100\%
-
 $$
 
 Where $C_{in}$ is the influent nutrient concentration and $C_{out}$ is the effluent nutrient concentration.
@@ -11466,9 +11430,7 @@ Calculate the required dosage of a chemical, given the flow rate and desired con
 
 
 $$
-
 D = \frac{Q \times C}{P}
-
 $$
 
 
@@ -11534,9 +11496,7 @@ Calculate the required dosage of a chemical, given the flow rate and desired con
 
 
 $$
-
 D = \frac{Q \times C}{P}
-
 $$
 
 

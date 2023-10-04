@@ -7161,9 +7161,7 @@ Before we dive into the specific techniques for calculating properties, let's fi
 
 
 $$
-
 m_i\frac{d^2\mathbf{r}_i}{dt^2} = \mathbf{F}_i
-
 $$
 
 
@@ -7373,9 +7371,7 @@ The self-diffusion coefficient is a measure of how fast a particle moves through
 
 
 $$
-
 D = \frac{\langle \Delta r^2 \rangle}{6t}
-
 $$
 
 
@@ -7389,9 +7385,7 @@ The shear viscosity, on the other hand, is a measure of the resistance of a flui
 
 
 $$
-
 \eta = \frac{V}{k_BT} \int_0^\infty \langle \sigma_{xy}(t)\sigma_{xy}(0) \rangle dt
-
 $$
 
 

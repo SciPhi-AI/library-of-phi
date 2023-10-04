@@ -720,9 +720,7 @@ In this section, we will discuss the fundamental principle behind the operation 
 
 
 $$
-
 \mathcal{E} = -\frac{d\phi}{dt}
-
 $$
 
 
@@ -828,9 +826,7 @@ The dynamics of synchronous machines are governed by the interaction between the
 
 
 $$
-
 s = \frac{n_s - n}{n_s}
-
 $$
 
 

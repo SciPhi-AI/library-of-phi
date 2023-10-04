@@ -486,9 +486,7 @@ The study of fluid mechanics is crucial in a wide range of fields, including eng
 
 
 The numerical methods used in fluid mechanics are based on the principles of conservation of mass, momentum, and energy. These principles are expressed mathematically through differential equations. For instance, the conservation of mass is represented by the continuity equation, given by `$\nabla \cdot \mathbf{u} = 0$`, where `$\mathbf{u}$` is the velocity field. The conservation of momentum is represented by the Navier-Stokes equations, which can be written in the form `$$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f},
-
 $$` where `$\rho$` is the fluid density, `$p$` is the pressure, `$\mu$` is the dynamic viscosity, and `$\mathbf{f}$` is the body force per unit volume.
 
 
@@ -578,9 +576,7 @@ Finite Difference Methods (FDM) are the most straightforward numerical methods f
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -634,9 +630,7 @@ Mathematically, the truncation error can be expressed as:
 
 
 $$
-
 E_t = f'(x) - \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -894,9 +888,7 @@ The binary number system uses only two digits, 0 and 1, to represent all numbers
 
 
 $$
-
 1*2^2 + 0*2^1 + 1*2^0 = 4 + 0 + 1 = 5
-
 $$
 
 
@@ -926,9 +918,7 @@ The decimal number system, also known as base-10, is the most commonly used numb
 
 
 $$
-
 1*10^2 + 2*10^1 + 3*10^0 = 100 + 20 + 3 = 123
-
 $$
 
 
@@ -970,9 +960,7 @@ For example, the binary number 1101 can be converted to decimal as follows:
 
 
 $$
-
 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 8 + 4 + 0 + 1 = 13
-
 $$
 
 
@@ -1040,9 +1028,7 @@ For example, consider the Taylor series expansion of a function $f(x)$ around a 
 
 
 $$
-
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)(x-a)^2}{2!} + \frac{f'''(a)(x-a)^3}{3!} + \cdots
-
 $$
 
 
@@ -1052,9 +1038,7 @@ If we truncate this series after the first term, we get the linear approximation
 
 
 $$
-
 f(x) \approx f(a) + f'(a)(x-a)
-
 $$
 
 
@@ -1730,9 +1714,7 @@ To understand truncation errors, consider the Taylor series expansion of a funct
 
 
 $$
-
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
-
 $$
 
 
@@ -1742,9 +1724,7 @@ If we truncate this series after the $n$th term, we obtain an approximation of $
 
 
 $$
-
 f(x) \approx f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -1774,9 +1754,7 @@ The truncation error can be quantified by the remainder term in the Taylor serie
 
 
 $$
-
 R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}
-
 $$
 
 
@@ -1786,9 +1764,7 @@ where $\xi$ is a number between $x$ and $a$. The magnitude of the truncation err
 
 
 $$
-
 |f(x) - f_n(x)| \leq |R_n(x)|
-
 $$
 
 
@@ -1846,9 +1822,7 @@ The Taylor series is a mathematical tool that is widely used in numerical method
 
 
 $$
-
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
-
 $$
 
 
@@ -1858,9 +1832,7 @@ where $f'(a)$, $f''(a)$, and $f'''(a)$ are the first, second, and third derivati
 
 
 $$
-
 \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -1878,9 +1850,7 @@ The remainder term $R_n(x)$ in the Taylor series represents the error in the app
 
 
 $$
-
 R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
-
 $$
 
 
@@ -1914,9 +1884,7 @@ Let's consider a numerical approximation of the derivative $f'(a)$ of a function
 
 
 $$
-
 f'(a) \approx \frac{f(a+h) - f(a)}{h}
-
 $$
 
 
@@ -1930,9 +1898,7 @@ Expanding $f(a+h)$ in a Taylor series about $a$, we get:
 
 
 $$
-
 f(a+h) = f(a) + f'(a)h + \frac{f''(a)}{2!}h^2 + \frac{f'''(a)}{3!}h^3 + \cdots
-
 $$
 
 
@@ -1990,9 +1956,7 @@ To understand error propagation, let's consider a simple example. Suppose we hav
 
 
 $$
-
 \epsilon(x) = f_{\text{true}}(x) - f_{\text{approx}}(x).
-
 $$
 
 
@@ -2002,9 +1966,7 @@ Now, suppose we use $f_{\text{approx}}(x)$ as the input to another function $g(x
 
 
 $$
-
 \epsilon_g(x) = g_{\text{true}}(x) - g_{\text{approx}}(x).
-
 $$
 
 
@@ -2038,9 +2000,7 @@ Let's denote the exact solution at a point $x$ as $y_{\text{exact}}(x)$ and the 
 
 
 $$
-
 \tau(x) = y_{\text{exact}}(x) - y_{\text{num}}(x).
-
 $$
 
 
@@ -2062,9 +2022,7 @@ Let's denote the domain of the problem as $D$. The global error, denoted as $E$,
 
 
 $$
-
 E = \int_D \tau(x) dx.
-
 $$
 
 
@@ -2142,9 +2100,7 @@ Mathematically, for a non-linear function $f(x)$, the condition number at a poin
 
 
 $$
-
 K(x) = x \cdot \frac{|f'(x)|}{|f(x)|}
-
 $$
 
 
@@ -2178,9 +2134,7 @@ Once we have the derivative, we can compute the condition number using the formu
 
 
 $$
-
 K(x) = x \cdot \frac{|f'(x)|}{|f(x)|}
-
 $$
 
 
@@ -2560,9 +2514,7 @@ The Navier-Stokes equations are derived from the principles of conservation of m
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 
@@ -2692,9 +2644,7 @@ The conservation of mass, also known as the continuity equation, states that the
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -2712,9 +2662,7 @@ The conservation of momentum, also known as the Navier-Stokes equations, states 
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -2732,9 +2680,7 @@ The conservation of energy, also known as the energy equation, states that the r
 
 
 $$
-
 \frac{\partial (\rho e)}{\partial t} + \nabla \cdot (\rho e \mathbf{u}) = -p \nabla \cdot \mathbf{u} + \Phi
-
 $$
 
 
@@ -2760,9 +2706,7 @@ The material derivative, also known as the substantial derivative, is a derivati
 
 
 $$
-
 \frac{D\phi}{Dt} = \frac{\partial \phi}{\partial t} + \mathbf{u} \cdot \nabla \phi
-
 $$
 
 
@@ -2780,9 +2724,7 @@ The Reynolds Transport Theorem is a fundamental theorem in fluid mechanics that 
 
 
 $$
-
 \frac{d}{dt} \int_{CV} \phi \rho dV = - \int_{CS} \phi \rho \mathbf{u} \cdot d\mathbf{A} + \int_{CV} \frac{\partial (\phi \rho)}{\partial t} dV
-
 $$
 
 
@@ -2804,9 +2746,7 @@ Constitutive equations are mathematical expressions that relate two physical qua
 
 
 $$
-
 \tau = \mu \frac{du}{dy}
-
 $$
 
 
@@ -2836,9 +2776,7 @@ The most common constitutive equation in fluid mechanics is the Newton's law of 
 
 
 $$
-
 \tau = \mu \frac{du}{dy}
-
 $$
 
 
@@ -2864,9 +2802,7 @@ Another important constitutive equation in fluid mechanics is Fourier's law of h
 
 
 $$
-
 \mathbf{q} = -k \nabla T
-
 $$
 
 
@@ -2956,7 +2892,6 @@ Let's say we have the following system of equations:
 
 
 $$
-
 \begin{align*}
 
 3x_1 - x_2 + 2x_3 &= 5 \\
@@ -2966,7 +2901,6 @@ $$
 x_1 + x_2 + 7x_3 &= 10
 
 \end{align*}
-
 $$
 
 
@@ -2988,7 +2922,6 @@ Let's say we have the following system of equations:
 
 
 $$
-
 \begin{align*}
 
 4x_1 - x_2 &= 1 \\
@@ -2998,7 +2931,6 @@ $$
 -x_2 + 4x_3 &= 3
 
 \end{align*}
-
 $$
 
 
@@ -3040,7 +2972,6 @@ Consider the following system of equations:
 
 
 $$
-
 \begin{align*}
 
 2x_1 + 3x_2 - x_3 &= 5 \\
@@ -3050,7 +2981,6 @@ $$
 -2x_1 + 5x_2 + x_3 &= -1
 
 \end{align*}
-
 $$
 
 
@@ -3076,7 +3006,6 @@ The system of equations is:
 
 
 $$
-
 \begin{align*}
 
 2x_1 + 3x_2 - x_3 &= 5 \\
@@ -3086,7 +3015,6 @@ $$
 -2x_1 + 5x_2 + x_3 &= -1
 
 \end{align*}
-
 $$
 
 
@@ -3100,7 +3028,6 @@ Let's start by subtracting twice the first equation from the second equation, an
 
 
 $$
-
 \begin{align*}
 
 2x_1 + 3x_2 - x_3 &= 5 \\
@@ -3110,7 +3037,6 @@ $$
 0x_1 + 8x_2 &= 4
 
 \end{align*}
-
 $$
 
 
@@ -3120,7 +3046,6 @@ Next, we can swap the second and third equations to get:
 
 
 $$
-
 \begin{align*}
 
 2x_1 + 3x_2 - x_3 &= 5 \\
@@ -3130,7 +3055,6 @@ $$
 0x_1 - 7x_2 + 4x_3 &= -7
 
 \end{align*}
-
 $$
 
 
@@ -3140,7 +3064,6 @@ Finally, we can divide the second equation by 8 and the third equation by -7 to 
 
 
 $$
-
 \begin{align*}
 
 2x_1 + 3x_2 - x_3 &= 5 \\
@@ -3150,7 +3073,6 @@ $$
 0x_1 + x_2 - 0.57x_3 &= 1
 
 \end{align*}
-
 $$
 
 
@@ -3188,7 +3110,6 @@ For example, consider a fluid flow problem where we are interested in finding th
 
 
 $$
-
 \begin{align*}
 
 \frac{\partial u}{\partial t} + u \cdot \nabla u - \nu \nabla^2 u + \nabla p &= 0 \\
@@ -3196,7 +3117,6 @@ $$
 \nabla \cdot u &= 0
 
 \end{align*}
-
 $$
 
 
@@ -3214,9 +3134,7 @@ Another application of Gauss Elimination in numerical fluid mechanics is in the 
 
 
 $$
-
 \nabla^2 p' = \nabla \cdot u'
-
 $$
 
 
@@ -3766,7 +3684,6 @@ Given the system of linear equations:
 
 
 $$
-
 \begin{align*}
 
 2x + 3y - z &= 1 \\
@@ -3776,7 +3693,6 @@ $$
 x + y - z &= 2
 
 \end{align*}
-
 $$
 
 
@@ -3792,7 +3708,6 @@ Given the matrix:
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -3802,7 +3717,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 
@@ -3818,7 +3732,6 @@ Given the matrix:
 
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 3 \\
@@ -3826,7 +3739,6 @@ B = \begin{bmatrix}
 4 & 5
 
 \end{bmatrix}
-
 $$
 
 
@@ -3842,7 +3754,6 @@ Given the system of linear equations:
 
 
 $$
-
 \begin{align*}
 
 x + 2y - 3z &= 4 \\
@@ -3852,7 +3763,6 @@ x + 2y - 3z &= 4 \\
 3x + y - 2z &= 3
 
 \end{align*}
-
 $$
 
 
@@ -3868,7 +3778,6 @@ Given the matrix:
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 2 \\
@@ -3876,7 +3785,6 @@ C = \begin{bmatrix}
 3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -3916,7 +3824,6 @@ Given the system of linear equations:
 
 
 $$
-
 \begin{align*}
 
 2x + 3y - z &= 1 \\
@@ -3926,7 +3833,6 @@ $$
 x + y - z &= 2
 
 \end{align*}
-
 $$
 
 
@@ -3942,7 +3848,6 @@ Given the matrix:
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -3952,7 +3857,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 
@@ -3968,7 +3872,6 @@ Given the matrix:
 
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 3 \\
@@ -3976,7 +3879,6 @@ B = \begin{bmatrix}
 4 & 5
 
 \end{bmatrix}
-
 $$
 
 
@@ -3992,7 +3894,6 @@ Given the system of linear equations:
 
 
 $$
-
 \begin{align*}
 
 x + 2y - 3z &= 4 \\
@@ -4002,7 +3903,6 @@ x + 2y - 3z &= 4 \\
 3x + y - 2z &= 3
 
 \end{align*}
-
 $$
 
 
@@ -4018,7 +3918,6 @@ Given the matrix:
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 2 \\
@@ -4026,7 +3925,6 @@ C = \begin{bmatrix}
 3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -4088,9 +3986,7 @@ The Navier-Stokes equations can be written in the following vector form:
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 
@@ -4108,9 +4004,7 @@ These equations are coupled with the continuity equation, which represents the c
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -4196,9 +4090,7 @@ The finite difference method is based on the Taylor series expansion. The Taylor
 
 
 $$
-
 f(x) = f(x_0) + f'(x_0)(x - x_0) + \frac{f''(x_0)}{2!}(x - x_0)^2 + \frac{f'''(x_0)}{3!}(x - x_0)^3 + \cdots
-
 $$
 
 
@@ -4208,9 +4100,7 @@ The finite difference method uses this expansion to approximate the derivatives 
 
 
 $$
-
 f'(x_0) \approx \frac{f(x_0 + h) - f(x_0)}{h}
-
 $$
 
 
@@ -4224,9 +4114,7 @@ Higher order finite difference approximations can be obtained by including more 
 
 
 $$
-
 f'(x_0) \approx \frac{f(x_0 + h) - f(x_0 - h)}{2h}
-
 $$
 
 
@@ -4252,9 +4140,7 @@ Consider a function $f(x)$ and its Taylor series expansion around a point $x_0$:
 
 
 $$
-
 f(x) = f(x_0) + f'(x_0)(x - x_0) + \frac{f''(x_0)}{2!}(x - x_0)^2 + \frac{f'''(x_0)}{3!}(x - x_0)^3 + \cdots
-
 $$
 
 
@@ -4264,17 +4150,13 @@ To derive a higher order finite difference approximation, we can consider additi
 
 
 $$
-
 f(x_0 + h) = f(x_0) + f'(x_0)h + \frac{f''(x_0)}{2!}h^2 + \frac{f'''(x_0)}{3!}h^3 + \cdots
-
 $$
 
 
 
 $$
-
 f(x_0 + 2h) = f(x_0) + 2f'(x_0)h + 2^2\frac{f''(x_0)}{2!}h^2 + 2^3\frac{f'''(x_0)}{3!}h^3 + \cdots
-
 $$
 
 
@@ -4284,9 +4166,7 @@ By combining these two expansions and solving for $f'(x_0)$, we can derive the s
 
 
 $$
-
 f'(x_0) \approx \frac{-3f(x_0) + 4f(x_0 + h) - f(x_0 + 2h)}{2h}
-
 $$
 
 
@@ -4316,9 +4196,7 @@ Consider the one-dimensional advection equation, which describes the motion of a
 
 
 $$
-
 \frac{\partial u}{\partial t} + c\frac{\partial u}{\partial x} = 0
-
 $$
 
 
@@ -4332,9 +4210,7 @@ We can discretize this equation using a second order forward difference approxim
 
 
 $$
-
 \frac{u_i^{n+1} - u_i^n}{\Delta t} + c\frac{-3u_i^n + 4u_{i+1}^n - u_{i+2}^n}{2\Delta x} = 0
-
 $$
 
 
@@ -4356,17 +4232,13 @@ The Navier-Stokes equations describe the motion of viscous fluid. In two dimensi
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
-
 $$
 
 
 
 $$
-
 \frac{\partial v}{\partial t} + u\frac{\partial v}{\partial x} + v\frac{\partial v}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial y} + \nu\left(\frac{\partial^2 v}{\partial x^2} + \frac{\partial^2 v}{\partial y^2}\right)
-
 $$
 
 
@@ -4404,9 +4276,7 @@ For example, consider a function $f(x)$ that is smooth and differentiable. The T
 
 
 $$
-
 f(x) = f(x_0) + f'(x_0)(x - x_0) + \frac{f''(x_0)}{2!}(x - x_0)^2 + \frac{f'''(x_0)}{3!}(x - x_0)^3 + \cdots
-
 $$
 
 
@@ -4420,9 +4290,7 @@ In finite difference methods, we often truncate this series after the first few 
 
 
 $$
-
 f(x) \approx f(x_0) + f'(x_0)(x - x_0) + \frac{f''(x_0)}{2!}(x - x_0)^2
-
 $$
 
 
@@ -4456,9 +4324,7 @@ Let's illustrate this process with an example. Suppose we want to approximate th
 
 
 $$
-
 f(x) \approx 1 + x + \frac{x^2}{2}
-
 $$
 
 
@@ -4520,9 +4386,7 @@ The error in a finite difference approximation can be represented as a Fourier s
 
 
 $$
-
 e_j(n) = \sum_{k=-\infty}^{\infty} \hat{e}_k(n) e^{ijk\Delta x}
-
 $$
 
 
@@ -4540,9 +4404,7 @@ The growth factor can be calculated from the Fourier coefficients of the error a
 
 
 $$
-
 G(k, \Delta t) = \frac{\hat{e}_k(n)}{\hat{e}_k(n-1)}
-
 $$
 
 
@@ -4592,9 +4454,7 @@ The canonical form of a hyperbolic PDE is the wave equation:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -4628,9 +4488,7 @@ The Courant-Friedrichs-Lewy (CFL) condition is a practical criterion for the sta
 
 
 $$
-
 \Delta t \leq \frac{\Delta x}{c}
-
 $$
 
 
@@ -4672,9 +4530,7 @@ Let's consider the one-dimensional wave equation as an example. The CFL conditio
 
 
 $$
-
 \Delta t \leq \frac{\Delta x}{c}
-
 $$
 
 
@@ -4776,9 +4632,7 @@ For example, the conservation law for a scalar quantity $q$ can be written in in
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{V} q \, dV + \int_{S} \mathbf{F} \cdot d\mathbf{S} = \int_{V} S \, dV
-
 $$
 
 
@@ -4788,9 +4642,7 @@ where $V$ is the control volume, $S$ is the surface of the control volume, $\mat
 
 
 $$
-
 \frac{q^{n+1} - q^n}{\Delta t} V + \sum_{f \in S} \mathbf{F} \cdot \mathbf{n}_f \Delta S_f = S^n V
-
 $$
 
 
@@ -4892,9 +4744,7 @@ For example, consider the Navier-Stokes equations for fluid flow. In the finite 
 
 
 $$
-
 \int_{V} \frac{\partial (\rho u_i)}{\partial t} dV + \int_{S} \rho u_i u_j dS = -\int_{V} \frac{\partial p}{\partial x_i} dV + \int_{V} \mu \frac{\partial^2 u_i}{\partial x_j^2} dV
-
 $$
 
 
@@ -4948,9 +4798,7 @@ For example, the discretized form of the Navier-Stokes equations can be written 
 
 
 $$
-
 \frac{\partial (\rho u_i)}{\partial t} \Delta V + \sum_{faces} \rho u_i u_j \Delta S = -\frac{\partial p}{\partial x_i} \Delta V + \mu \sum_{faces} \frac{\partial u_i}{\partial x_j} \Delta S
-
 $$
 
 
@@ -5296,9 +5144,7 @@ Mathematically, an ODE can be represented as:
 
 
 $$
-
 F(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -5340,9 +5186,7 @@ Mathematically, the Euler method can be represented as:
 
 
 $$
-
 y_{n+1} = y_n + h f(x_n, y_n)
-
 $$
 
 
@@ -5368,9 +5212,7 @@ To illustrate, consider the ODE that describes the motion of a fluid particle in
 
 
 $$
-
 \frac{dy}{dt} = v(y, t)
-
 $$
 
 
@@ -5400,21 +5242,15 @@ As we have seen in the previous section, the Euler method can be used to compute
 
 
 $$
-
 \frac{dx}{dt} = u(x, y, z, t)
-
 $$
 
 $$
-
 \frac{dy}{dt} = v(x, y, z, t)
-
 $$
 
 $$
-
 \frac{dz}{dt} = w(x, y, z, t)
-
 $$
 
 
@@ -5432,9 +5268,7 @@ ODEs also play a crucial role in modeling heat transfer in fluids. The temperatu
 
 
 $$
-
 \frac{d^2T}{dx^2} = 0
-
 $$
 
 
@@ -5600,9 +5434,7 @@ Incompressible flow refers to the flow of fluids that are assumed to have a cons
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 
@@ -5616,9 +5448,7 @@ On the other hand, compressible flow involves the flow of fluids that can change
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -5652,7 +5482,6 @@ The pressure-based method can be written as:
 
 
 $$
-
 \begin{aligned}
 
 &\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p' + \nu \nabla^2 \mathbf{u} + \mathbf{g} \\
@@ -5660,7 +5489,6 @@ $$
 &\nabla \cdot \mathbf{u} = 0
 
 \end{aligned}
-
 $$
 
 
@@ -5678,7 +5506,6 @@ The density-based method can be written as:
 
 
 $$
-
 \begin{aligned}
 
 &\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0 \\
@@ -5688,7 +5515,6 @@ $$
 &\frac{\partial (\rho e)}{\partial t} + \nabla \cdot [(\rho e + p)\mathbf{u}] = \mu \nabla \mathbf{u} : \nabla \mathbf{u} - \nabla \cdot (\kappa \nabla T)
 
 \end{aligned}
-
 $$
 
 
@@ -5786,9 +5612,7 @@ The pressure-correction equation can be written as:
 
 
 $$
-
 \nabla^2 p' = \frac{1}{\Delta t} \nabla \cdot \mathbf{u}^*
-
 $$
 
 
@@ -5814,9 +5638,7 @@ The fractional-step method can be summarized as follows:
 
 
 $$
-
 \frac{\mathbf{u}^* - \mathbf{u}^{n}}{\Delta t} = -\nabla \cdot \mathbf{u}^n \mathbf{u}^n + \nu \nabla^2 \mathbf{u}^n
-
 $$
 
 
@@ -5826,9 +5648,7 @@ $$
 
 
 $$
-
 \nabla^2 p^{n+1} = \frac{\rho}{\Delta t} \nabla \cdot \mathbf{u}^*
-
 $$
 
 
@@ -5838,9 +5658,7 @@ $$
 
 
 $$
-
 \mathbf{u}^{n+1} = \mathbf{u}^* - \Delta t \nabla p^{n+1}
-
 $$
 
 
@@ -5878,7 +5696,6 @@ The implementation of the pressure-correction method involves the following step
 
 
     $$
-
     \nabla^2 p' = \frac{1}{\Delta t} \nabla \cdot \mathbf{u}^*
 
     $$
@@ -6034,13 +5851,11 @@ In the following sections, we will delve deeper into these methods, discussing t
 The vorticity method involves solving the vorticity transport equation, which is derived from the Navier-Stokes equations. The vorticity transport equation can be written as:
 
 
-
 $$
 
 \frac{\partial \vec{w}}{\partial t} + (\vec{v} \cdot \nabla) \vec{w} = (\vec{w} \cdot \nabla) \vec{v} + \nu \nabla^2 \vec{w}
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity. This equation can be discretized using finite difference methods and solved iteratively. The velocity field can then be obtained from the vorticity field using the Biot-Savart law.
@@ -6058,21 +5873,17 @@ The vorticity method is particularly useful in simulations involving vortex-domi
 The artificial compressibility method involves introducing a pseudo-time derivative of the pressure into the incompressible Navier-Stokes equations. The modified equations can be written as:
 
 
-
 $$
 
 \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla) \vec{v} = -\nabla p + \nu \nabla^2 \vec{v} + \vec{g}
 
 $$
 
-
-
 $$
 
 \frac{\partial p}{\partial t} + c^2 \nabla \cdot \vec{v} = 0
 
 $$
-
 
 
 where $c$ is the artificial speed of sound, and $\vec{g}$ is the body force per unit mass. These equations can be discretized using finite difference methods and solved iteratively.
@@ -6102,13 +5913,11 @@ Apart from the vorticity and artificial compressibility methods, there are sever
 The finite volume method involves dividing the flow domain into a finite number of control volumes and applying the conservation laws to each control volume. The Navier-Stokes equations can be written in integral form as:
 
 
-
 $$
 
 \frac{\partial}{\partial t} \int_{V} \vec{v} dV + \int_{S} \vec{v} (\vec{v} \cdot \vec{n}) dS = -\int_{V} \nabla p dV + \nu \int_{S} (\nabla \vec{v} \cdot \vec{n}) dS + \int_{V} \vec{g} dV
 
 $$
-
 
 
 where $V$ is the control volume, $S$ is the surface of the control volume, and $\vec{n}$ is the outward unit normal vector. This equation can be discretized using finite difference methods and solved iteratively.
@@ -6126,13 +5935,11 @@ The finite volume method is particularly useful in simulations involving complex
 The spectral method involves representing the velocity and pressure fields as a sum of basis functions and solving the Navier-Stokes equations in the spectral space. The Navier-Stokes equations can be written in spectral form as:
 
 
-
 $$
 
 \frac{\partial \hat{\vec{v}}}{\partial t} + \hat{\vec{v}} \cdot \nabla \hat{\vec{v}} = -\nabla \hat{p} + \nu \nabla^2 \hat{\vec{v}} + \hat{\vec{g}}
 
 $$
-
 
 
 where $\hat{\vec{v}}$, $\hat{p}$, and $\hat{\vec{g}}$ are the spectral representations of the velocity, pressure, and body force per unit mass, respectively. This equation can be solved using spectral methods.
@@ -6586,14 +6393,11 @@ Inviscid flow equations are a fundamental part of fluid dynamics, particularly i
 Inviscid flow equations are derived from the Navier-Stokes equations by neglecting the viscous terms. The resulting equations, known as the Euler equations, are given by:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -6601,14 +6405,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \rho E}{\partial t} + \nabla \cdot ((\rho E + p)\mathbf{u}) = 0
 
 $$
-
 
 
 where $\rho$ is the fluid density, $\mathbf{u}$ is the fluid velocity, $p$ is the pressure, $\mathbf{I}$ is the identity matrix, and $E$ is the total energy per unit mass.
@@ -6850,13 +6651,11 @@ We will then transition into the practical applications of these theories. We wi
 Throughout this chapter, we will use mathematical expressions to describe the concepts. For instance, the Navier-Stokes equations can be written as:
 
 
-
 $$
 
 \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla) \vec{v} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \vec{v}
 
 $$
-
 
 
 Where $\vec{v}$ is the velocity, $t$ is time, $\rho$ is the fluid density, $p$ is the pressure, and $\nu$ is the kinematic viscosity.
@@ -6890,13 +6689,11 @@ One of the most commonly used models is the Reynolds-averaged Navier-Stokes (RAN
 The RANS equations can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{v_i}}{\partial t} + \overline{v_j} \frac{\partial \overline{v_i}}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \overline{p}}{\partial x_i} + \nu \frac{\partial^2 \overline{v_i}}{\partial x_j \partial x_j} - \frac{\partial}{\partial x_j} (\overline{v'_i v'_j})
 
 $$
-
 
 
 Where $\overline{v_i}$ and $\overline{p}$ are the mean velocity and pressure, $v'_i$ and $v'_j$ are the fluctuating velocity components, and the overbar denotes Reynolds averaging.
@@ -6922,14 +6719,11 @@ Implementing numerical simulations for turbulent flows involves solving the RANS
 The k-epsilon model is one of the most widely used turbulence models in computational fluid dynamics (CFD). It introduces two additional transport equations to model the turbulent kinetic energy (k) and its rate of dissipation (epsilon). The model equations can be written as:
 
 
-
 $$
 
 \frac{\partial (\rho k)}{\partial t} + \frac{\partial (\rho k u_j)}{\partial x_j} = \frac{\partial}{\partial x_j} [\mu_t \frac{\partial k}{\partial x_j}] + G_k - \rho \epsilon
 
 $$
-
-
 
 $$
 

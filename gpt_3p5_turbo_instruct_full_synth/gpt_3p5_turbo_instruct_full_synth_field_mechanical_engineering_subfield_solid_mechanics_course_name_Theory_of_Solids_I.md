@@ -383,9 +383,7 @@ Now, let's consider the thermal vibrations of atoms in a crystal lattice. Atoms 
 
 
 $$
-
 W = \frac{\langle u^2 \rangle}{u_0^2}
-
 $$
 
 
@@ -825,9 +823,7 @@ Mathematically, the Bloch theorem can be written as:
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 

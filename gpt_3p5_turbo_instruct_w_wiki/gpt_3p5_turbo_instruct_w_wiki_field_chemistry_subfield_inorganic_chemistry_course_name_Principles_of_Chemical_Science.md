@@ -986,9 +986,7 @@ Each atomic orbital is associated with an angular momentum, denoted by the lette
 
 
 $$
-
 \hat{L}^2 Y_{\ell m} = \hbar^2 \ell(\ell+1) Y_{\ell m}
-
 $$
 
 
@@ -1002,9 +1000,7 @@ The projection of the angular momentum vector onto an arbitrary direction is als
 
 
 $$
-
 \hat{L}_z Y_{\ell m} = \hbar m Y_{\ell m}
-
 $$
 
 
@@ -1488,7 +1484,6 @@ Let's take the example of the carbon atom again, with an electron configuration 
 
 
 $$
-
 \begin{align}
 
 1s: \uparrow \downarrow \\
@@ -1498,7 +1493,6 @@ $$
 2p: \uparrow \downarrow \uparrow \downarrow
 
 \end{align}
-
 $$
 
 
@@ -1512,7 +1506,6 @@ Orbital diagrams can also be used to show the electron configuration of ions. Fo
 
 
 $$
-
 \begin{align}
 
 \sigma: \uparrow \downarrow \\
@@ -1522,7 +1515,6 @@ $$
 \delta: \uparrow \downarrow
 
 \end{align}
-
 $$
 
 
@@ -2668,9 +2660,7 @@ Let's look at an example:
 
 
 $$
-
 Fe + HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2680,9 +2670,7 @@ We can see that there is one iron atom on the left side and one on the right sid
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2692,9 +2680,7 @@ Now, we have three chlorine atoms on both sides, but the number of hydrogen atom
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + 2H_2
-
 $$
 
 
@@ -2738,9 +2724,7 @@ Let's look at an example:
 
 
 $$
-
 Fe + HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2750,9 +2734,7 @@ We can see that there is one iron atom on the left side and one on the right sid
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2762,9 +2744,7 @@ Now, we have three chlorine atoms on both sides. However, we also have three hyd
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + 2H_2
-
 $$
 
 
@@ -2828,9 +2808,7 @@ Let's look at an example:
 
 
 $$
-
 Fe + HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2840,9 +2818,7 @@ We can see that there is one iron atom on the left side and one on the right sid
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2852,9 +2828,7 @@ Now, we have three chlorine atoms on both sides. However, we also have three hyd
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + 2H_2
-
 $$
 
 
@@ -2884,9 +2858,7 @@ For example, in the reaction:
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -2930,9 +2902,7 @@ Let's look at an example:
 
 
 $$
-
 Fe + HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2942,9 +2912,7 @@ We can see that there is one iron atom on the left side and one on the right sid
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -2954,9 +2922,7 @@ Now, we have three chlorine atoms on both sides. However, we also have three hyd
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + 2H_2
-
 $$
 
 
@@ -2990,9 +2956,7 @@ Let's look at the redox reaction between iron (Fe) and copper (Cu):
 
 
 $$
-
 Fe + Cu^{2+} \rightarrow Fe^{3+} + Cu
-
 $$
 
 
@@ -3002,9 +2966,7 @@ We can see that iron is being oxidized from a neutral state to a +3 charge, whil
 
 
 $$
-
 Fe^{0} + Cu^{2+} \rightarrow Fe^{3+} + Cu^{0}
-
 $$
 
 
@@ -3014,9 +2976,7 @@ Next, we balance the number of electrons lost and gained. In this case, iron is 
 
 
 $$
-
 2Fe^{0} + 3Cu^{2+} \rightarrow 2Fe^{3+} + 3Cu^{0}
-
 $$
 
 
@@ -3026,9 +2986,7 @@ Finally, we can balance the number of atoms on each side by adding coefficients:
 
 
 $$
-
 2Fe + 3Cu^{2+} \rightarrow 2Fe^{3+} + 3Cu
-
 $$
 
 
@@ -3068,9 +3026,7 @@ Let's look at an example:
 
 
 $$
-
 Fe + HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -3080,9 +3036,7 @@ We can see that there is one iron atom on the left side and one on the right sid
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + H_2
-
 $$
 
 
@@ -3092,9 +3046,7 @@ Now, we have three chlorine atoms on both sides. However, we also have three hyd
 
 
 $$
-
 Fe + 3HCl \rightarrow FeCl_3 + 2H_2
-
 $$
 
 
@@ -3128,9 +3080,7 @@ Let's look at an example of an acid-base reaction:
 
 
 $$
-
 HCl + NaOH \rightarrow NaCl + H_2O
-
 $$
 
 
@@ -3140,9 +3090,7 @@ We can see that there is one hydrogen atom on the left side and two on the right
 
 
 $$
-
 2HCl + NaOH \rightarrow NaCl + H_2O
-
 $$
 
 
@@ -3152,9 +3100,7 @@ Now, we have two hydrogen atoms on both sides. However, we also have one chlorin
 
 
 $$
-
 2HCl + NaOH \rightarrow 2NaCl + H_2O
-
 $$
 
 
@@ -3194,9 +3140,7 @@ A combination reaction, also known as a synthesis reaction, is a type of chemica
 
 
 $$
-
 A + B \rightarrow AB
-
 $$
 
 
@@ -3210,9 +3154,7 @@ One example of a combination reaction is the synthesis of water from hydrogen an
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -3222,9 +3164,7 @@ In this reaction, the two reactants, hydrogen and oxygen gas, combine to form th
 
 
 $$
-
 2Na + Cl_2 \rightarrow 2NaCl
-
 $$
 
 
@@ -3264,9 +3204,7 @@ A decomposition reaction is a type of chemical reaction where a single compound 
 
 
 $$
-
 AB \rightarrow A + B
-
 $$
 
 
@@ -3280,9 +3218,7 @@ One example of a decomposition reaction is the thermal decomposition of calcium 
 
 
 $$
-
 CaCO_3 \rightarrow CaO + CO_2
-
 $$
 
 
@@ -3292,9 +3228,7 @@ In this reaction, heat is applied to the calcium carbonate, causing it to break 
 
 
 $$
-
 2H_2O \rightarrow 2H_2 + O_2
-
 $$
 
 
@@ -3304,9 +3238,7 @@ In this reaction, an electric current is passed through water, causing it to bre
 
 
 $$
-
 2AgCl \rightarrow 2Ag + Cl_2
-
 $$
 
 
@@ -3342,9 +3274,7 @@ Displacement reactions, also known as replacement reactions, involve the replace
 
 
 $$
-
 AB + C \rightarrow AC + B
-
 $$
 
 
@@ -3358,9 +3288,7 @@ One example of a single displacement reaction is the reaction between zinc metal
 
 
 $$
-
 Zn + 2HCl \rightarrow ZnCl_2 + H_2
-
 $$
 
 
@@ -3370,9 +3298,7 @@ In this reaction, the zinc metal replaces the hydrogen in hydrochloric acid, for
 
 
 $$
-
 CuSO_4 + Fe \rightarrow FeSO_4 + Cu
-
 $$
 
 
@@ -3386,9 +3312,7 @@ Double displacement reactions, on the other hand, involve the exchange of ions b
 
 
 $$
-
 NaCl + AgNO_3 \rightarrow NaNO_3 + AgCl
-
 $$
 
 
@@ -3428,9 +3352,7 @@ Displacement reactions, also known as replacement reactions, involve the replace
 
 
 $$
-
 AB + C \rightarrow AC + B
-
 $$
 
 
@@ -3444,9 +3366,7 @@ One example of a single displacement reaction is the reaction between zinc metal
 
 
 $$
-
 Zn + 2HCl \rightarrow ZnCl_2 + H_2
-
 $$
 
 
@@ -3456,9 +3376,7 @@ In this reaction, the zinc metal replaces the hydrogen in hydrochloric acid, for
 
 
 $$
-
 CuSO_4 + Fe \rightarrow FeSO_4 + Cu
-
 $$
 
 
@@ -3472,9 +3390,7 @@ Double displacement reactions, on the other hand, involve the exchange of ions b
 
 
 $$
-
 NaCl + AgNO_3 \rightarrow NaNO_3 + AgCl
-
 $$
 
 
@@ -3500,9 +3416,7 @@ One example of a redox reaction is the reaction between iron and oxygen to form 
 
 
 $$
-
 4Fe + 3O_2 \rightarrow 2Fe_2O_3
-
 $$
 
 
@@ -3512,9 +3426,7 @@ In this reaction, iron is oxidized from an oxidation state of 0 to +3, while oxy
 
 
 $$
-
 Cu + 2AgNO_3 \rightarrow Cu(NO_3)_2 + 2Ag
-
 $$
 
 
@@ -3532,9 +3444,7 @@ One example of a spontaneous redox reaction is the reaction between zinc and cop
 
 
 $$
-
 Zn + CuSO_4 \rightarrow ZnSO_4 + Cu
-
 $$
 
 
@@ -3548,9 +3458,7 @@ On the other hand, a non-spontaneous redox reaction is the electrolysis of water
 
 
 $$
-
 2H_2O \rightarrow 2H_2 + O_2
-
 $$
 
 
@@ -3586,9 +3494,7 @@ Displacement reactions, also known as replacement reactions, involve the replace
 
 
 $$
-
 AB + C \rightarrow AC + B
-
 $$
 
 
@@ -3602,9 +3508,7 @@ One example of a single displacement reaction is the reaction between zinc metal
 
 
 $$
-
 Zn + 2HCl \rightarrow ZnCl_2 + H_2
-
 $$
 
 
@@ -3614,9 +3518,7 @@ In this reaction, the zinc metal replaces the hydrogen in hydrochloric acid, for
 
 
 $$
-
 CuSO_4 + Fe \rightarrow FeSO_4 + Cu
-
 $$
 
 
@@ -3630,9 +3532,7 @@ Double displacement reactions, on the other hand, involve the exchange of ions b
 
 
 $$
-
 NaCl + AgNO_3 \rightarrow NaNO_3 + AgCl
-
 $$
 
 
@@ -3646,9 +3546,7 @@ Displacement reactions can also occur between acids and bases, known as acid-bas
 
 
 $$
-
 HA + BOH \rightarrow BA + H_2O
-
 $$
 
 
@@ -3658,9 +3556,7 @@ In this type of reaction, the acid (HA) donates a proton to the base (BOH), form
 
 
 $$
-
 HCl + NaOH \rightarrow NaCl + H_2O
-
 $$
 
 
@@ -3674,9 +3570,7 @@ Acid-base reactions can also occur between acids and metal hydroxides, such as t
 
 
 $$
-
 H_2SO_4 + 2KOH \rightarrow K_2SO_4 + 2H_2O
-
 $$
 
 
@@ -3690,9 +3584,7 @@ Another type of acid-base reaction is the neutralization reaction, which occurs 
 
 
 $$
-
 HA + BOH \rightarrow BA + H_2O
-
 $$
 
 
@@ -3702,9 +3594,7 @@ In this type of reaction, the acid (HA) donates a proton to the base (BOH), form
 
 
 $$
-
 HCl + NH_3 \rightarrow NH_4Cl + H_2O
-
 $$
 
 
@@ -3744,9 +3634,7 @@ Precipitation reactions, also known as double displacement reactions, involve th
 
 
 $$
-
 AB + CD \rightarrow AD + CB
-
 $$
 
 
@@ -3760,9 +3648,7 @@ One example of a neutralization reaction is the reaction between sodium hydroxid
 
 
 $$
-
 NaOH + HCl \rightarrow NaCl + H_2O
-
 $$
 
 
@@ -3776,9 +3662,7 @@ Acid-base reactions involve the transfer of a proton (H+) from an acid to a base
 
 
 $$
-
 H_2SO_4 + 2KOH \rightarrow K_2SO_4 + 2H_2O
-
 $$
 
 
@@ -3792,9 +3676,7 @@ Redox reactions, also known as oxidation-reduction reactions, involve the transf
 
 
 $$
-
 2KMnO_4 + 10FeSO_4 + 8H_2SO_4 \rightarrow 5Fe_2(SO_4)_3 + K_2SO_4 + 2MnSO_4 + 8H_2O
-
 $$
 
 
@@ -3838,9 +3720,7 @@ Combustion reactions are a type of chemical reaction that involves the rapid com
 
 
 $$
-
 C_xH_y + O_2 \rightarrow CO_2 + H_2O
-
 $$
 
 
@@ -3854,9 +3734,7 @@ In complete combustion, the fuel is completely oxidized, resulting in the format
 
 
 $$
-
 CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O
-
 $$
 
 
@@ -3870,9 +3748,7 @@ In incomplete combustion, the fuel is not completely oxidized, resulting in the 
 
 
 $$
-
 2C_8H_{18} + 17O_2 \rightarrow 16CO + 18H_2O
-
 $$
 
 
@@ -3932,9 +3808,7 @@ In addition to mole ratios, another important concept in reaction stoichiometry 
 
 
 $$
-
 w_i = \frac{m_i}{m_{total}}
-
 $$
 
 
@@ -3952,9 +3826,7 @@ The molar mixing ratio is another way to express the amount of one substance in 
 
 
 $$
-
 r_n = \frac{n_2}{n_1}
-
 $$
 
 
@@ -3984,9 +3856,7 @@ Mass concentration, also known as density, is another important quantity in reac
 
 
 $$
-
 \rho_i = w_i \cdot \frac{M_{total}}{M_i}
-
 $$
 
 
@@ -4034,9 +3904,7 @@ For example, let's consider the reaction between hydrogen gas (H<sub>2</sub>) an
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -4062,9 +3930,7 @@ For example, let's consider a mixture of 10 grams of hydrogen gas and 20 grams o
 
 
 $$
-
 w_{H_2} = \frac{m_{H_2}}{m_{total}} = \frac{10g}{10g + 20g} = \frac{1}{3}
-
 $$
 
 
@@ -4074,9 +3940,7 @@ This means that the mass fraction of hydrogen gas in the mixture is 1/3. We can 
 
 
 $$
-
 m_{H_2} = w_{H_2} \times m_{total} = \frac{1}{3} \times 30g = 10g
-
 $$
 
 
@@ -4110,9 +3974,7 @@ In addition to mole ratios, another important concept in reaction stoichiometry 
 
 
 $$
-
 w_i = \frac{m_i}{m_{total}}
-
 $$
 
 
@@ -4130,9 +3992,7 @@ The molar mixing ratio is another related quantity that is used in stoichiometri
 
 
 $$
-
 \frac{n_i}{n_j} = \frac{w_i}{w_j} \times \frac{M_j}{M_i}
-
 $$
 
 
@@ -4192,9 +4052,7 @@ For example, let's consider the reaction between hydrogen gas (H<sub>2</sub>) an
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -4270,9 +4128,7 @@ For example, let's consider the reaction between iron (Fe) and sulfur (S) to for
 
 
 $$
-
 Fe + S \rightarrow FeS
-
 $$
 
 
@@ -4286,9 +4142,7 @@ However, after the reaction is complete, we only obtain 8 grams of FeS. This is 
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \times 100\%
-
 $$
 
 
@@ -4298,9 +4152,7 @@ In this case, the percent yield would be:
 
 
 $$
-
 \text{Percent Yield} = \frac{8 \text{ grams}}{10 \text{ grams}} \times 100\% = 80\%
-
 $$
 
 
@@ -4396,9 +4248,7 @@ The percent yield is a measure of the efficiency of a reaction and is calculated
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Experimental Yield}}{\text{Theoretical Yield}} \times 100\% = \frac{8 \text{ grams}}{10 \text{ grams}} \times 100\% = 80\%
-
 $$
 
 
@@ -4442,9 +4292,7 @@ The theoretical yield can be calculated using the mole ratios from the balanced 
 
 
 $$
-
 Fe + S \rightarrow FeS
-
 $$
 
 
@@ -4478,9 +4326,7 @@ For example, in the reaction between Fe and S, if the experimental yield is 8 gr
 
 
 $$
-
 \text{Percent Yield} = \frac{8 \text{ grams}}{10 \text{ grams}} \times 100\% = 80\%
-
 $$
 
 
@@ -4536,9 +4382,7 @@ Let's consider the combustion of benzene, represented by the following chemical 
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 3H_2O
-
 $$
 
 
@@ -4568,9 +4412,7 @@ Let's consider the reaction between iron (Fe) and sulfur (S) to form iron sulfid
 
 
 $$
-
 Fe + S \rightarrow FeS
-
 $$
 
 
@@ -4580,9 +4422,7 @@ If we start with 10 grams of Fe and 10 grams of S, the reaction quotient can be 
 
 
 $$
-
 Q = \frac{10 \text{ g FeS}}{10 \text{ g FeS}} = 1
-
 $$
 
 
@@ -4592,9 +4432,7 @@ Since the reaction quotient is equal to 1, both reactants are present in equal a
 
 
 $$
-
 Q = \frac{10 \text{ g FeS}}{20 \text{ g FeS}} = 0.5
-
 $$
 
 
@@ -4650,9 +4488,7 @@ Let's consider the combustion of benzene, represented by the following chemical 
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 3H_2O
-
 $$
 
 
@@ -4678,9 +4514,7 @@ Let's consider the thermite reaction between iron (III) oxide and aluminum:
 
 
 $$
-
 Fe_2O_3 + 2Al \rightarrow 2Fe + Al_2O_3
-
 $$
 
 
@@ -4760,9 +4594,7 @@ Let's consider the combustion of benzene, represented by the following chemical 
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 3H_2O
-
 $$
 
 
@@ -4788,9 +4620,7 @@ Consider the reaction between iron(III) chloride and hydrogen sulfide to produce
 
 
 $$
-
 2FeCl_3 + 3H_2S \rightarrow 2FeS + 6HCl
-
 $$
 
 
@@ -4808,9 +4638,7 @@ In addition to determining the limiting reagent, it is also important to calcula
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \times 100\%
-
 $$
 
 
@@ -4824,9 +4652,7 @@ Let's revisit the example of roasting lead(II) sulfide (PbS) in oxygen to produc
 
 
 $$
-
 2PbS + 3O_2 \rightarrow 2PbO + 2SO_2
-
 $$
 
 
@@ -4882,9 +4708,7 @@ Let's consider the combustion of benzene, represented by the following chemical 
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 6H_2O
-
 $$
 
 
@@ -4910,9 +4734,7 @@ Let's consider the reaction between iron (Fe) and sulfur (S) to form iron sulfid
 
 
 $$
-
 Fe + S \rightarrow FeS
-
 $$
 
 
@@ -4922,17 +4744,13 @@ If we have 10 moles of iron and 8 moles of sulfur, we can calculate the reaction
 
 
 $$
-
 Q_{Fe} = \frac{10}{1} = 10
-
 $$
 
 
 
 $$
-
 Q_S = \frac{8}{1} = 8
-
 $$
 
 
@@ -4958,9 +4776,7 @@ Using the previous example of the combustion of benzene, we can calculate the th
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 6H_2O
-
 $$
 
 
@@ -4970,9 +4786,7 @@ Since benzene is the limiting reagent, we use its amount to calculate the theore
 
 
 $$
-
 \text{Theoretical yield of CO}_2 = \frac{10 \text{ moles of benzene}}{1} \times \frac{6 \text{ moles of CO}_2}{1 \text{ mole of benzene}} = 60 \text{ moles of CO}_2
-
 $$
 
 
@@ -4986,9 +4800,7 @@ The percentage yield is a measure of the efficiency of a reaction, and it is cal
 
 
 $$
-
 \text{Percentage yield} = \frac{\text{Actual yield}}{\text{Theoretical yield}} \times 100\%
-
 $$
 
 
@@ -5006,9 +4818,7 @@ Continuing with the previous example, let's say that in an experiment, we obtain
 
 
 $$
-
 \text{Percentage yield} = \frac{50 \text{ moles of CO}_2}{60 \text{ moles of CO}_2} \times 100\% = 83.3\%
-
 $$
 
 
@@ -5034,9 +4844,7 @@ In the combustion of benzene, we saw that oxygen was in excess. If we have 150 m
 
 
 $$
-
 \text{Excess oxygen} = 150 \text{ moles of oxygen} - \frac{10 \text{ moles of benzene}}{15} \times \frac{15 \text{ moles of oxygen}}{1 \text{ mole of benzene}} = 140 \text{ moles of oxygen}
-
 $$
 
 
@@ -5096,9 +4904,7 @@ Let's consider the combustion of benzene, represented by the following chemical 
 
 
 $$
-
 C_6H_6 + 15O_2 \rightarrow 6CO_2 + 6H_2O
-
 $$
 
 
@@ -5124,9 +4930,7 @@ Let's consider the reaction between iron and sulfur to form iron(II) sulfide, re
 
 
 $$
-
 Fe + S \rightarrow FeS
-
 $$
 
 
@@ -5164,9 +4968,7 @@ Using the balanced equation, we can determine that the theoretical yield of iron
 
 
 $$
-
 \text{Percentage Yield} = \frac{0.045 \text{ moles}}{0.156 \text{ moles}} \times 100 = 28.8\%
-
 $$
 
 
@@ -5582,9 +5384,7 @@ The equation for specific entropy production is given by:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5598,9 +5398,7 @@ In the absence of thermal conduction and viscous forces, the equation for specif
 
 
 $$
-
 {Ds\over{Dt}} = 0
-
 $$
 
 
@@ -5722,9 +5520,7 @@ The general equation for enthalpy change is:
 
 
 $$
-
 \Delta H = H_{final} - H_{initial}
-
 $$
 
 
@@ -5734,9 +5530,7 @@ Enthalpy change can also be expressed in terms of the change in internal energy 
 
 
 $$
-
 \Delta H = \Delta U + P\Delta V
-
 $$
 
 
@@ -5746,9 +5540,7 @@ In chemical reactions, enthalpy change is often measured at constant pressure, w
 
 
 $$
-
 \Delta H_{rxn} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -5788,9 +5580,7 @@ The general equation for enthalpy change is:
 
 
 $$
-
 \Delta H = H_{final} - H_{initial}
-
 $$
 
 
@@ -5800,9 +5590,7 @@ Enthalpy change can also be expressed in terms of the change in internal energy 
 
 
 $$
-
 \Delta H = \Delta U + P\Delta V
-
 $$
 
 
@@ -5812,9 +5600,7 @@ In chemical reactions, enthalpy change is often measured at constant pressure, w
 
 
 $$
-
 \Delta H_{rxn} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -5836,9 +5622,7 @@ The general equation for enthalpy of formation is:
 
 
 $$
-
 \Delta H_f = H_{products} - H_{reactants}
-
 $$
 
 
@@ -5886,9 +5670,7 @@ The general equation for enthalpy change is:
 
 
 $$
-
 \Delta H = H_{final} - H_{initial}
-
 $$
 
 
@@ -5898,9 +5680,7 @@ Enthalpy change can also be expressed in terms of the change in internal energy 
 
 
 $$
-
 \Delta H = \Delta U + P\Delta V
-
 $$
 
 
@@ -5910,9 +5690,7 @@ In chemical reactions, enthalpy change is often measured at constant pressure, w
 
 
 $$
-
 \Delta H_{rxn} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -5934,9 +5712,7 @@ The enthalpy of formation can be calculated using the following equation:
 
 
 $$
-
 \Delta H_f = \sum_{i} n_i \Delta H_{f,i}
-
 $$
 
 
@@ -5962,9 +5738,7 @@ The enthalpy of combustion can be calculated using the following equation:
 
 
 $$
-
 \Delta H_c = \sum_{i} n_i \Delta H_{c,i}
-
 $$
 
 
@@ -6012,9 +5786,7 @@ The general equation for enthalpy change is:
 
 
 $$
-
 \Delta H = H_{final} - H_{initial}
-
 $$
 
 
@@ -6024,9 +5796,7 @@ Enthalpy change can also be expressed in terms of the change in internal energy 
 
 
 $$
-
 \Delta H = \Delta U + P\Delta V
-
 $$
 
 
@@ -6036,9 +5806,7 @@ In chemical reactions, enthalpy change is often measured at constant pressure, w
 
 
 $$
-
 \Delta H_{rxn} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -6060,9 +5828,7 @@ The general equation for enthalpy of formation is:
 
 
 $$
-
 \Delta H_{f} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -6076,9 +5842,7 @@ Enthalpy of formation can also be calculated using the enthalpy of combustion (�
 
 
 $$
-
 \Delta H_{f} = \Delta H_{c} + \sum_{products} \nu_{i} \Delta H_{f,i} - \sum_{reactants} \nu_{i} \Delta H_{f,i}
-
 $$
 
 
@@ -6122,9 +5886,7 @@ The general equation for enthalpy change is:
 
 
 $$
-
 \Delta H = H_{final} - H_{initial}
-
 $$
 
 
@@ -6134,9 +5896,7 @@ Enthalpy change can also be expressed in terms of the change in internal energy 
 
 
 $$
-
 \Delta H = \Delta U + P\Delta V
-
 $$
 
 
@@ -6146,9 +5906,7 @@ In chemical reactions, enthalpy change is often measured at constant pressure, w
 
 
 $$
-
 \Delta H_{rxn} = H_{products} - H_{reactants}
-
 $$
 
 
@@ -6174,9 +5932,7 @@ The enthalpy of formation can be calculated using the following equation:
 
 
 $$
-
 \Delta H_f = \sum_{i} \nu_i \Delta H_{f,i}
-
 $$
 
 
@@ -6210,9 +5966,7 @@ The general equation for Hess's Law is:
 
 
 $$
-
 \Delta H_{rxn} = \sum_{i} \nu_i \Delta H_{f,i}
-
 $$
 
 
@@ -6272,9 +6026,7 @@ In chemical reactions, entropy plays a crucial role in determining the feasibili
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6392,9 +6144,7 @@ The mathematical basis for the relationship between entropy and disorder is desc
 
 
 $$
-
 S = k_B \ln W
-
 $$
 
 
@@ -6486,9 +6236,7 @@ In chemistry, entropy plays a crucial role in determining the feasibility and di
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -6502,9 +6250,7 @@ The relationship between entropy and Gibbs free energy can be further understood
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6526,9 +6272,7 @@ The equilibrium constant, K, is a measure of the ratio of products to reactants 
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -6546,9 +6290,7 @@ The relationship between Gibbs free energy and entropy can also be seen in the e
 
 
 $$
-
 \mu = \mu^{\ominus} + RTlnA
-
 $$
 
 
@@ -6562,9 +6304,7 @@ At equilibrium, the chemical potential is equal for all species, and the system 
 
 
 $$
-
 \mu = \mu^{\ominus} + RTlnK
-
 $$
 
 
@@ -6624,9 +6364,7 @@ The conditional entropy of Y given X is denoted as H(Y|X) and is calculated by t
 
 
 $$
-
 H(Y|X) = \sum_{x\in\mathcal X} p(x)H(Y|X=x)
-
 $$
 
 
@@ -6640,9 +6378,7 @@ This equation can also be written in terms of the joint probability distribution
 
 
 $$
-
 H(Y|X) = -\sum_{x\in\mathcal X, y\in\mathcal Y} p(x,y) \log_2 \frac{p(x,y)}{p(x)}
-
 $$
 
 
@@ -6690,9 +6426,7 @@ Gibbs free energy is a measure of the energy available to do useful work in a sy
 
 
 $$
-
 \Delta G = G_{products} - G_{reactants}
-
 $$
 
 
@@ -6706,9 +6440,7 @@ The relationship between ΔG and the equilibrium constant (K) of a reaction is g
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -6752,9 +6484,7 @@ Gibbs free energy is a measure of the energy available to do useful work in a sy
 
 
 $$
-
 \Delta G = G_{products} - G_{reactants}
-
 $$
 
 
@@ -6768,9 +6498,7 @@ The relationship between ΔG and the equilibrium constant (K) of a reaction is g
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -6796,9 +6524,7 @@ The standard Gibbs free energy change can be calculated using the following equa
 
 
 $$
-
 \Delta G° = \Delta H° - T\Delta S°
-
 $$
 
 
@@ -6812,9 +6538,7 @@ The standard Gibbs free energy change is also related to the equilibrium constan
 
 
 $$
-
 \Delta G° = -RTlnK
-
 $$
 
 
@@ -6854,9 +6578,7 @@ Gibbs free energy is a measure of the energy available to do useful work in a sy
 
 
 $$
-
 \Delta G = G_{products} - G_{reactants}
-
 $$
 
 
@@ -6870,9 +6592,7 @@ The relationship between ΔG and the equilibrium constant (K) of a reaction is g
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -6898,9 +6618,7 @@ The standard Gibbs free energy change can be calculated using the following equa
 
 
 $$
-
 \Delta G° = \Delta H° - T\Delta S°
-
 $$
 
 
@@ -6926,9 +6644,7 @@ The relationship between ΔG and spontaneity can be further understood by lookin
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6968,9 +6684,7 @@ Gibbs free energy is a measure of the energy available to do useful work in a sy
 
 
 $$
-
 \Delta G = G_{products} - G_{reactants}
-
 $$
 
 
@@ -6984,9 +6698,7 @@ The relationship between ΔG and the equilibrium constant (K) of a reaction is g
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -7012,9 +6724,7 @@ Similar to ΔG, the standard Gibbs free energy change can also be related to the
 
 
 $$
-
 \Delta G° = -RTlnK°
-
 $$
 
 
@@ -7036,9 +6746,7 @@ At equilibrium, the Gibbs free energy of a system is at a minimum. This means th
 
 
 $$
-
 \frac{\partial G}{\partial N_j} = 0
-
 $$
 
 
@@ -7048,9 +6756,7 @@ where N<sub>j</sub> is the amount of molecular species "j" in the system. This c
 
 
 $$
-
 \frac{\partial G}{\partial a_j} = 0
-
 $$
 
 
@@ -7094,9 +6800,7 @@ Gibbs free energy is a measure of the energy available to do useful work in a sy
 
 
 $$
-
 \Delta G = G_{products} - G_{reactants}
-
 $$
 
 
@@ -7110,9 +6814,7 @@ The relationship between ΔG and the equilibrium constant (K) of a reaction is g
 
 
 $$
-
 \Delta G = -RTlnK
-
 $$
 
 
@@ -7138,9 +6840,7 @@ The standard Gibbs free energy change can be calculated using the following equa
 
 
 $$
-
 \Delta G° = \Delta H° - T\Delta S°
-
 $$
 
 
@@ -7174,9 +6874,7 @@ Furthermore, the temperature dependence of ΔG can also be seen in the Van't Hof
 
 
 $$
-
 lnK = -\frac{\Delta H°}{RT} + \frac{\Delta S°}{R}
-
 $$
 
 
@@ -7210,7 +6908,6 @@ Overall, the principles of thermodynamics are essential for understanding and pr
 #### Exercise 1
 
 Calculate the change in enthalpy ($\Delta H$) for the combustion of methane gas ($CH_4$) according to the following reaction: $$CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l)$$
-
 
 
 #### Exercise 2
@@ -7292,13 +6989,11 @@ Le Chatelier's Principle can be summarized as follows: when a chemical system at
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{N2(g) + 3H2(g) <=> 2NH3(g)}
 
 $$
-
 
 
 If more nitrogen gas is added to the system, according to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added nitrogen gas. This will result in an increase in the concentration of ammonia gas, while the concentrations of nitrogen and hydrogen gas will decrease.
@@ -7350,13 +7045,11 @@ Le Chatelier's Principle can be summarized as follows: when a chemical system at
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{N2(g) + 3H2(g) <=> 2NH3(g)}
 
 $$
-
 
 
 If more nitrogen gas is added to the system, according to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added nitrogen gas. This will result in an increase in the concentration of ammonia gas, while the concentrations of nitrogen and hydrogen gas will decrease.
@@ -7382,13 +7075,11 @@ In addition to changes in temperature and pressure, Le Chatelier's Principle als
 This can be illustrated by the equilibrium of carbon monoxide and hydrogen gas, reacting to form methanol. The reaction is as follows:
 
 
-
 $$
 
 \ce{CO(g) + 2H2(g) <=> CH3OH(g)}
 
 $$
-
 
 
 Suppose we were to increase the concentration of CO in the system. According to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added CO. This will result in an increase in the concentration of methanol, while the concentrations of CO and H2 will decrease.
@@ -7436,13 +7127,11 @@ Le Chatelier's Principle can be summarized as follows: when a chemical system at
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{N2(g) + 3H2(g) <=> 2NH3(g)}
 
 $$
-
 
 
 If more nitrogen gas is added to the system, according to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added nitrogen gas. This will result in an increase in the concentration of ammonia gas, while the concentrations of nitrogen and hydrogen gas will decrease.
@@ -7468,13 +7157,11 @@ As mentioned earlier, Le Chatelier's Principle states that a system at equilibri
 Consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{2NO2(g) <=> N2O4(g)}
 
 $$
-
 
 
 If the concentration of NO2 is increased, the equilibrium will shift to the left to consume the added NO2. This will result in a decrease in the concentration of NO2 and an increase in the concentration of N2O4. On the other hand, if the concentration of NO2 is decreased, the equilibrium will shift to the right to produce more NO2, resulting in an increase in its concentration.
@@ -7492,13 +7179,11 @@ Le Chatelier's Principle can also be applied to changes in pressure. In a gaseou
 Consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{2SO2(g) + O2(g) <=> 2SO3(g)}
 
 $$
-
 
 
 If the pressure of the system is increased, the equilibrium will shift to the right to produce fewer moles of gas. This will result in an increase in the concentration of SO3, while the concentrations of SO2 and O2 will decrease. On the other hand, if the pressure is decreased, the equilibrium will shift to the left to produce more moles of gas, resulting in a decrease in the concentration of SO3 and an increase in the concentrations of SO2 and O2.
@@ -7528,13 +7213,11 @@ Catalysts are substances that increase the rate of a chemical reaction without b
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{2HI(g) <=> H2(g) + I2(g)}
 
 $$
-
 
 
 The reaction is slow in the absence of a catalyst, but the addition of a catalyst can speed up the reaction. However, the equilibrium concentrations of the reactants and products will remain the same, as the catalyst does not affect the equilibrium position.
@@ -7578,13 +7261,11 @@ Le Chatelier's Principle can be summarized as follows: when a chemical system at
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{N2(g) + 3H2(g) <=> 2NH3(g)}
 
 $$
-
 
 
 If more nitrogen gas is added to the system, according to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added nitrogen gas. This will result in an increase in the concentration of ammonia gas, while the concentrations of nitrogen and hydrogen gas will decrease.
@@ -7652,13 +7333,11 @@ Le Chatelier's Principle can be summarized as follows: when a chemical system at
 For example, consider the following equilibrium reaction:
 
 
-
 $$
 
 \ce{N2(g) + 3H2(g) <=> 2NH3(g)}
 
 $$
-
 
 
 If more nitrogen gas is added to the system, according to Le Chatelier's Principle, the equilibrium will shift to the right to consume the added nitrogen gas. This will result in an increase in the concentration of ammonia gas, while the concentrations of nitrogen and hydrogen gas will decrease.
@@ -7718,7 +7397,6 @@ Equilibrium constants are essential tools in understanding the behavior of chemi
 The equilibrium constant, denoted by K, is defined as the ratio of the concentrations of products to the concentrations of reactants at equilibrium. For a general chemical reaction,
 
 
-
 $$
 
 \ce{aA + bB <=> cC + dD}
@@ -7726,9 +7404,7 @@ $$
 $$
 
 
-
 the equilibrium constant expression can be written as:
-
 
 
 $$
@@ -7738,7 +7414,6 @@ K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 where [X] represents the concentration of species X at equilibrium and the coefficients a, b, c, and d represent the stoichiometric coefficients of the reactants and products.
 
 
@@ -7746,13 +7421,11 @@ where [X] represents the concentration of species X at equilibrium and the coeff
 The equilibrium constant expression can also be written in terms of partial pressures for gaseous reactions, using the ideal gas law:
 
 
-
 $$
 
 K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
 
 $$
-
 
 
 where P represents the partial pressure of the species at equilibrium.
@@ -7796,7 +7469,6 @@ Equilibrium constants are essential tools in understanding the behavior of chemi
 The equilibrium constant, denoted by K, is defined as the ratio of the concentrations of products to the concentrations of reactants at equilibrium. For a general chemical reaction,
 
 
-
 $$
 
 \ce{aA + bB <=> cC + dD}
@@ -7804,9 +7476,7 @@ $$
 $$
 
 
-
 the equilibrium constant expression can be written as:
-
 
 
 $$
@@ -7816,7 +7486,6 @@ K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 where [X] represents the concentration of species X at equilibrium and the coefficients a, b, c, and d represent the stoichiometric coefficients of the reactants and products.
 
 
@@ -7824,13 +7493,11 @@ where [X] represents the concentration of species X at equilibrium and the coeff
 The equilibrium constant expression can also be written in terms of partial pressures for gaseous reactions, using the ideal gas law:
 
 
-
 $$
 
 K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
 
 $$
-
 
 
 where P represents the partial pressure of the species at equilibrium.
@@ -7890,7 +7557,6 @@ The equilibrium constant expression in terms of partial pressures, Kp, is derive
 To understand the relationship between Kc and Kp, let's consider the general chemical reaction:
 
 
-
 $$
 
 \ce{aA + bB <=> cC + dD}
@@ -7898,9 +7564,7 @@ $$
 $$
 
 
-
 The equilibrium constant expression in terms of concentrations, Kc, can be written as:
-
 
 
 $$
@@ -7910,9 +7574,7 @@ K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 Similarly, the equilibrium constant expression in terms of partial pressures, Kp, can be written as:
-
 
 
 $$
@@ -7922,9 +7584,7 @@ K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
 $$
 
 
-
 Now, let's assume that the reaction is taking place in a closed container at a constant temperature. According to the ideal gas law, the partial pressure of a gas is directly proportional to its concentration. Therefore, we can write:
-
 
 
 $$
@@ -7934,13 +7594,11 @@ P_A = [A]RT \quad P_B = [B]RT \quad P_C = [C]RT \quad P_D = [D]RT
 $$
 
 
-
 where R is the gas constant and T is the temperature in Kelvin.
 
 
 
 Substituting these values in the expression for Kp, we get:
-
 
 
 $$
@@ -7950,9 +7608,7 @@ K_p = \frac{([C]RT)^c([D]RT)^d}{([A]RT)^a([B]RT)^b} = \frac{[C]^c[D]^d}{[A]^a[B]
 $$
 
 
-
 Comparing this with the expression for Kc, we can see that:
-
 
 
 $$
@@ -7960,7 +7616,6 @@ $$
 K_p = K_c \times (RT)^{\Delta n}
 
 $$
-
 
 
 where $\Delta n$ is the difference between the total number of moles of gaseous products and reactants. This relationship between Kc and Kp is known as the van't Hoff equation.
@@ -8012,7 +7667,6 @@ If Q is less than Kc, then the reaction is not at equilibrium and will proceed i
 To better understand this relationship, let's consider the general chemical reaction:
 
 
-
 $$
 
 \ce{aA + bB <=> cC + dD}
@@ -8020,9 +7674,7 @@ $$
 $$
 
 
-
 The equilibrium constant expression in terms of concentrations, Kc, can be written as:
-
 
 
 $$
@@ -8032,9 +7684,7 @@ K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 Similarly, the reaction quotient, Q, can be written as:
-
 
 
 $$
@@ -8042,7 +7692,6 @@ $$
 Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 Comparing these two expressions, we can see that Q is essentially the same as Kc, except that it is calculated using the initial concentrations of the reactants and products. This means that if Q is less than Kc, the reaction will proceed in the forward direction to reach equilibrium, and if Q is greater than Kc, the reaction will proceed in the reverse direction to reach equilibrium.
@@ -8082,13 +7731,11 @@ In the previous section, we discussed the equilibrium constant expression for a 
 The partial pressure of a gas is the pressure that the gas would exert if it were the only gas present in a container. It is directly proportional to the concentration of the gas, and can be calculated using the ideal gas law:
 
 
-
 $$
 
 P = \frac{nRT}{V}
 
 $$
-
 
 
 where "P" is the partial pressure, "n" is the number of moles of the gas, "R" is the gas constant, "T" is the temperature in Kelvin, and "V" is the volume of the container.
@@ -8098,13 +7745,11 @@ where "P" is the partial pressure, "n" is the number of moles of the gas, "R" is
 For a general chemical reaction involving gases, the equilibrium constant expression in terms of partial pressures, Kp, can be written as:
 
 
-
 $$
 
 K_p = \frac{P_C^c P_D^d}{P_A^a P_B^b}
 
 $$
-
 
 
 where "P<sub>j</sub>" represents the partial pressure of gas "j".
@@ -8118,7 +7763,6 @@ Similar to the relationship between Kc and Q, the relationship between Kp and Qp
 To better understand this relationship, let's consider the general chemical reaction:
 
 
-
 $$
 
 \ce{aA + bB <=> cC + dD}
@@ -8126,9 +7770,7 @@ $$
 $$
 
 
-
 The equilibrium constant expression in terms of partial pressures, Kp, can be written as:
-
 
 
 $$
@@ -8138,9 +7780,7 @@ K_p = \frac{(P_C)^c (P_D)^d}{(P_A)^a (P_B)^b}
 $$
 
 
-
 Similarly, the reaction quotient, Qp, can be written as:
-
 
 
 $$
@@ -8148,7 +7788,6 @@ $$
 Q_p = \frac{(P_C)^c (P_D)^d}{(P_A)^a (P_B)^b}
 
 $$
-
 
 
 Comparing these two expressions, we can see that the only difference is the use of partial pressures instead of concentrations. This highlights the fact that the equilibrium constant is independent of the units used to express it, as long as the same units are used for all the partial pressures involved.
@@ -8192,13 +7831,11 @@ The equilibrium constant for an acid-base reaction can be expressed in terms of 
 The Arrhenius equation, derived by Dutch chemist Jacobus Henricus van't Hoff, relates the temperature of a reaction and the standard equilibrium constant. It can be written as:
 
 
-
 $$
 
 \frac{d \ln k^0_e}{dT} = \frac{\Delta U^0}{RT^2}
 
 $$
-
 
 
 where $\Delta U^0$ denotes the standard internal energy change value.
@@ -8208,21 +7845,17 @@ where $\Delta U^0$ denotes the standard internal energy change value.
 Using this equation, we can derive the expressions for the forward and backward reaction rates, $k_f$ and $k_b$, respectively. These can be written as:
 
 
-
 $$
 
 k_f = A_fe^{-E_f/RT}
 
 $$
 
-
-
 $$
 
 k_b = A_be^{-E_b/RT}
 
 $$
-
 
 
 where $A_f$ and $A_b$ are the preexponential factors, and $E_f$ and $E_b$ are the activation energies associated with the forward and backward reactions, respectively.
@@ -8232,21 +7865,17 @@ where $A_f$ and $A_b$ are the preexponential factors, and $E_f$ and $E_b$ are th
 Experimental findings suggest that the constants in these equations can be treated as being equal to zero, resulting in the simplified expressions:
 
 
-
 $$
 
 k_f = A_fe^{-E_f/RT}
 
 $$
 
-
-
 $$
 
 k_b = A_be^{-E_b/RT}
 
 $$
-
 
 
 These equations demonstrate the relationship between the equilibrium constant and the temperature of a reaction, as well as the activation energies associated with the forward and backward reactions.
@@ -8298,13 +7927,11 @@ The strength of an acid is determined by its ability to donate a proton, while t
 The equilibrium constant for an acid-base reaction can then be expressed as:
 
 
-
 $$
 
 K = \frac{[H^+][B^-]}{[HB]}
 
 $$
-
 
 
 where $[H^+]$ represents the concentration of protons, $[B^-]$ represents the concentration of the conjugate base, and $[HB]$ represents the concentration of the acid.
@@ -8372,13 +7999,11 @@ The strength of a Lewis acid is determined by its ability to accept an electron 
 The equilibrium constant for a Lewis acid-base reaction can then be expressed as:
 
 
-
 $$
 
 K = \frac{[A^-][B^+]}{[AB]}
 
 $$
-
 
 
 where $[A^-]$ represents the concentration of the conjugate base, $[B^+]$ represents the concentration of the conjugate acid, and $[AB]$ represents the concentration of the acid-base complex.
@@ -8430,13 +8055,11 @@ One example of a conjugate acid-base pair is the reaction between ammonia (NH3) 
 The equilibrium constant for this reaction can be expressed as:
 
 
-
 $$
 
 K = \frac{[NH4+][OH^-]}{[NH3][H2O]}
 
 $$
-
 
 
 where $[NH4+]$ represents the concentration of the conjugate acid, $[OH^-]$ represents the concentration of the conjugate base, $[NH3]$ represents the concentration of the base, and $[H2O]$ represents the concentration of the acid.
@@ -8450,13 +8073,11 @@ Another example of a conjugate acid-base pair is the reaction between hydrochlor
 The equilibrium constant for this reaction can be expressed as:
 
 
-
 $$
 
 K = \frac{[NH4+][Cl^-]}{[HCl][NH3]}
 
 $$
-
 
 
 where $[NH4+]$ represents the concentration of the conjugate acid, $[Cl^-]$ represents the concentration of the conjugate base, $[HCl]$ represents the concentration of the acid, and $[NH3]$ represents the concentration of the base.
@@ -8500,13 +8121,11 @@ In the previous subsection, we discussed the concept of conjugate acid-base pair
 The acid dissociation constant is a measure of the strength of an acid in aqueous solution. It is defined as the equilibrium constant for the dissociation of an acid into its conjugate base and a hydrogen ion (H<sup>+</sup>). The general equation for this dissociation is:
 
 
-
 $$
 
 HA + H_2O \rightleftharpoons H_3O^+ + A^-
 
 $$
-
 
 
 where HA represents the acid and A<sup>-</sup> represents the conjugate base.
@@ -8516,13 +8135,11 @@ where HA represents the acid and A<sup>-</sup> represents the conjugate base.
 The acid dissociation constant can be expressed as:
 
 
-
 $$
 
 K_a = \frac{[H_3O^+][A^-]}{[HA]}
 
 $$
-
 
 
 where $[H_3O^+]$ represents the concentration of the hydrogen ion, $[A^-]$ represents the concentration of the conjugate base, and $[HA]$ represents the concentration of the acid.
@@ -8544,7 +8161,6 @@ The strength of an acid can also be affected by isotopic substitution. As mentio
 For example, in the reaction between a weak acid (HA) and water, the equilibrium constant can be expressed as:
 
 
-
 $$
 
 K_a = \frac{[H_3O^+][A^-]}{[HA][H_2O]}
@@ -8552,9 +8168,7 @@ K_a = \frac{[H_3O^+][A^-]}{[HA][H_2O]}
 $$
 
 
-
 If hydrogen is replaced by deuterium in the acid (DA), the equilibrium constant becomes:
-
 
 
 $$
@@ -8562,7 +8176,6 @@ $$
 K_a = \frac{[D_3O^+][A^-]}{[DA][D_2O]}
 
 $$
-
 
 
 Due to the decrease in zero-point energy upon deuterium substitution, the equilibrium constant for the reaction involving the deuterated acid (K<sub>D</sub>) will be greater than the equilibrium constant for the reaction involving the non-deuterated acid (K<sub>H</sub>). This is known as the "heavier atom favors the stronger bond" rule.
@@ -8602,13 +8215,11 @@ In the previous subsection, we discussed the concept of conjugate acid-base pair
 The base dissociation constant is a measure of the strength of a base in aqueous solution. It is defined as the equilibrium constant for the dissociation of a base into its conjugate acid and a hydroxide ion (OH<sup>-</sup>). The general equation for this dissociation is:
 
 
-
 $$
 
 B + H_2O \rightleftharpoons BH^+ + OH^-
 
 $$
-
 
 
 where B represents the base and BH<sup>+</sup> represents the conjugate acid.
@@ -8618,13 +8229,11 @@ where B represents the base and BH<sup>+</sup> represents the conjugate acid.
 The base dissociation constant can be expressed as:
 
 
-
 $$
 
 K_b = \frac{[BH^+][OH^-]}{[B]}
 
 $$
-
 
 
 where $[BH^+]$ represents the concentration of the conjugate acid, $[OH^-]$ represents the concentration of the hydroxide ion, and $[B]$ represents the concentration of the base.
@@ -8684,13 +8293,11 @@ pH is a measure of the concentration of hydrogen ions (H+) in a solution. It is 
 The concentration of hydrogen ions in a solution can be calculated using the following equation:
 
 
-
 $$
 
 [H^+] = 10^{-pH}
 
 $$
-
 
 
 This means that as the pH decreases, the concentration of hydrogen ions increases, making the solution more acidic.
@@ -8708,13 +8315,11 @@ pOH is a measure of the concentration of hydroxide ions (OH-) in a solution. It 
 The concentration of hydroxide ions in a solution can be calculated using the following equation:
 
 
-
 $$
 
 [OH^-] = 10^{-pOH}
 
 $$
-
 
 
 Similar to pH, as the pOH decreases, the concentration of hydroxide ions increases, making the solution more basic.
@@ -8732,13 +8337,11 @@ pH and pOH are related to each other through the self-ionization constant of wat
 Using the equation for K<sub>W</sub>, we can derive the following relationship between pH and pOH:
 
 
-
 $$
 
 pH + pOH = 14
 
 $$
-
 
 
 This means that as the pH of a solution decreases, the pOH increases, and vice versa. This relationship is important in understanding acid-base equilibria, as it allows us to easily calculate one value if we know the other.
@@ -8880,7 +8483,6 @@ Similar to acids, the strength of a base is measured by its base dissociation co
 Weak acids and bases are related to each other through the self-ionization constant of water, also known as Kw. This constant represents the equilibrium constant for the reaction:
 
 
-
 $$
 
 H_2O \rightleftharpoons H^+ + OH^-
@@ -8888,9 +8490,7 @@ H_2O \rightleftharpoons H^+ + OH^-
 $$
 
 
-
 At equilibrium, the concentration of H+ and OH- ions in water is equal, and the value of Kw is 1.0 x 10^-14 at 25°C. This means that for a weak acid HA, the equilibrium constant for its dissociation reaction is:
-
 
 
 $$
@@ -8900,9 +8500,7 @@ K_a = \frac{[H^+][A^-]}{[HA]}
 $$
 
 
-
 And for a weak base B, the equilibrium constant for its dissociation reaction is:
-
 
 
 $$
@@ -8912,9 +8510,7 @@ K_b = \frac{[BH^+][OH^-]}{[B]}
 $$
 
 
-
 Since Kw is a constant, we can see that for a conjugate acid-base pair, the product of their respective equilibrium constants is equal to Kw:
-
 
 
 $$
@@ -8924,9 +8520,7 @@ K_a \times K_b = K_w
 $$
 
 
-
 Taking the logarithm of both sides of the equation yields:
-
 
 
 $$
@@ -8936,9 +8530,7 @@ log(K_a \times K_b) = log(K_w)
 $$
 
 
-
 Finally, multiplying both sides by -1, we obtain:
-
 
 
 $$
@@ -8948,9 +8540,7 @@ $$
 $$
 
 
-
 With pOH obtained from the pOH formula given in the context, the pH of the base can then be calculated from:
-
 
 
 $$
@@ -8958,7 +8548,6 @@ $$
 pH = pK_w - pOH
 
 $$
-
 
 
 Where pK_w = 14.00. This relationship between weak acids and bases allows us to easily calculate the pH of a solution containing a weak acid or base, given their respective equilibrium constants. 
@@ -9006,13 +8595,11 @@ The strength of an acid is measured by its acid dissociation constant, also know
 To calculate the equilibrium concentrations of a weak acid, we can use an ICE table (initial, change, equilibrium). Let's take the example of acetic acid (CH3COOH) with an initial concentration of "C"<sub>0</sub>. The equilibrium expression for this acid is:
 
 
-
 $$
 
 K_\text{a} = \frac{[\ce{H+}] [\ce{A-}]}{[\ce{HA}]}
 
 $$
-
 
 
 In the ICE table, the initial concentration of acetic acid is "C"<sub>0</sub>, and the initial concentrations of the products (hydrogen ions and acetate ions) are both zero. The change in concentration for acetic acid is -"x", and the change in concentration for the products is +"x". This follows from the equilibrium expression. The equilibrium concentrations can then be calculated by adding the initial and change values.
@@ -9022,7 +8609,6 @@ In the ICE table, the initial concentration of acetic acid is "C"<sub>0</sub>, a
 To find "x", we can use the formula for the equilibrium constant in terms of concentrations and substitute the values from the ICE table:
 
 
-
 $$
 
 K_\text{a} = \frac{x(x + y)}{C_0 - x}
@@ -9030,9 +8616,7 @@ K_\text{a} = \frac{x(x + y)}{C_0 - x}
 $$
 
 
-
 Simplifying this equation, we get:
-
 
 
 $$
@@ -9040,7 +8624,6 @@ $$
 x^2 + (K_\text{a} + y) x - K_\text{a} C_0 = 0
 
 $$
-
 
 
 With specific values for "C"<sub>0</sub>, "K"<sub>a</sub>, and "y", this equation can be solved for "x". Assuming that pH = -log<sub>10</sub>[H<sup>+</sup>], the pH can be calculated using the equilibrium concentration of hydrogen ions.
@@ -9062,13 +8645,11 @@ Similar to acids, the strength of a base is measured by its base dissociation co
 To calculate the equilibrium concentrations of a weak base, we can use a similar approach as we did for weak acids. Let's take the example of ammonia (NH3) with an initial concentration of "C"<sub>0</sub>. The equilibrium expression for this base is:
 
 
-
 $$
 
 K_\text{b} = \frac{[\ce{OH-}] [\ce{NH4+}]}{[\ce{NH3}]}
 
 $$
-
 
 
 In the ICE table, the initial concentration of ammonia is "C"<sub>0</sub>, and the initial concentrations of the products (hydroxide ions and ammonium ions) are both zero. The change in concentration for ammonia is -"x", and the change in concentration for the products is +"x". This follows from the equilibrium expression. The equilibrium concentrations can then be calculated by adding the initial and change values.
@@ -9078,7 +8659,6 @@ In the ICE table, the initial concentration of ammonia is "C"<sub>0</sub>, and t
 To find "x", we can use the formula for the equilibrium constant in terms of concentrations and substitute the values from the ICE table:
 
 
-
 $$
 
 K_\text{b} = \frac{x(x + y)}{C_0 - x}
@@ -9086,9 +8666,7 @@ K_\text{b} = \frac{x(x + y)}{C_0 - x}
 $$
 
 
-
 Simplifying this equation, we get:
-
 
 
 $$
@@ -9096,7 +8674,6 @@ $$
 x^2 + (K_\text{b} + y) x - K_\text{b} C_0 = 0
 
 $$
-
 
 
 With specific values for "C"<sub>0</sub>, "K"<sub>b</sub>, and "y", this equation can be solved for "x". Assuming that pOH = -log<sub>10</sub>[OH<sup>-</sup>], the pOH can be calculated using the equilibrium concentration of hydroxide ions.
@@ -9110,13 +8687,11 @@ With specific values for "C"<sub>0</sub>, "K"<sub>b</sub>, and "y", this equatio
 Weak acids and bases are related to each other through the self-ionization constant of water, also known as Kw. This constant represents the equilibrium between the dissociation of water into hydrogen ions and hydroxide ions. The equilibrium expression for this reaction is:
 
 
-
 $$
 
 K_\text{w} = [\ce{H+}] [\ce{OH-}]
 
 $$
-
 
 
 At room temperature, the value of Kw is 1.0 x 10^-14. This means that for every hydrogen ion produced, an equal amount of hydroxide ion is produced. This relationship is important in acid-base equilibria calculations, as it allows us to determine the concentration of one ion if we know the concentration of the other.
@@ -9156,13 +8731,11 @@ Solubility equilibrium occurs when the rate of dissolution of a solute is equal 
 The solubility product constant is defined as the product of the concentrations of the ions in a saturated solution of a sparingly soluble salt. It is represented by the following equation:
 
 
-
 $$
 
 K_\text{sp} = [\ce{A+}]^m [\ce{B-}]^n
 
 $$
-
 
 
 Where "A" and "B" represent the ions in the salt and "m" and "n" represent the coefficients of the ions in the balanced chemical equation. The solubility product constant is temperature-dependent and is unique for each salt.
@@ -9172,13 +8745,11 @@ Where "A" and "B" represent the ions in the salt and "m" and "n" represent the c
 To calculate the equilibrium concentrations of the ions in a saturated solution, we can use an ICE table. Let's take the example of silver chloride (AgCl) with an initial concentration of "C"<sub>0</sub>. The equilibrium expression for this salt is:
 
 
-
 $$
 
 K_\text{sp} = [\ce{Ag+}] [\ce{Cl-}]
 
 $$
-
 
 
 In the ICE table, the initial concentration of silver chloride is "C"<sub>0</sub>, and the initial concentrations of the ions are both zero. The change in concentration for silver chloride is -"x", and the change in concentration for the ions is +"x". This follows from the equilibrium expression. The equilibrium concentrations can then be calculated by adding the initial and change values.
@@ -9230,7 +8801,6 @@ In the previous subsection, we discussed the solubility product constant and how
 Hydrogen sulfide (H<sub>2</sub>S) is a weak electrolyte that is partially ionized in aqueous solution. This means that there is an equilibrium between un-ionized molecules and constituent ions in the solution:
 
 
-
 $$
 
 \ce{H2S <=> H+ + HS-}
@@ -9238,9 +8808,7 @@ $$
 $$
 
 
-
 By applying the law of mass action, we can write the equilibrium expression for this reaction as:
-
 
 
 $$
@@ -9250,9 +8818,7 @@ K_\text{a} = \frac{[\ce{H+}][\ce{HS-}]}{[\ce{H2S}]}
 $$
 
 
-
 Hydrochloric acid (HCl) is a strong electrolyte that nearly completely ionizes in solution:
-
 
 
 $$
@@ -9260,7 +8826,6 @@ $$
 \ce{HCl -> H+ + Cl-}
 
 $$
-
 
 
 If HCl is added to the H<sub>2</sub>S solution, the concentration of H<sup>+</sup> ions increases, creating a common ion effect. According to Le Chatelier's principle, this will cause the equilibrium to shift to the left, decreasing the dissociation of H<sub>2</sub>S. As a result, the concentration of un-ionized H<sub>2</sub>S increases, and the concentration of sulfide ions decreases.
@@ -9394,13 +8959,11 @@ The solubility product constant, Ksp, is a measure of the solubility of a substa
 The solubility product constant can be calculated using the following equation:
 
 
-
 $$
 
 K_{sp} = [A^{n+}][B^{m-}]
 
 $$
-
 
 
 Where [A] and [B] are the concentrations of the ions in the saturated solution, and n and m are the coefficients of the ions in the balanced chemical equation.
@@ -9418,7 +8981,6 @@ To calculate the solubility of a substance in a solvent, we must first determine
 Let's take the example of the dissolution of silver chloride (AgCl) in water. The balanced chemical equation for this reaction is:
 
 
-
 $$
 
 AgCl(s) \rightleftharpoons Ag^{+}(aq) + Cl^{-}(aq)
@@ -9426,9 +8988,7 @@ AgCl(s) \rightleftharpoons Ag^{+}(aq) + Cl^{-}(aq)
 $$
 
 
-
 The solubility product constant for silver chloride is given by:
-
 
 
 $$
@@ -9438,9 +8998,7 @@ K_{sp} = [Ag^{+}][Cl^{-}]
 $$
 
 
-
 If we assume that x mol of AgCl dissolves in water, then the concentration of Ag+ and Cl- ions in the saturated solution will also be x mol. Therefore, the solubility product constant can be written as:
-
 
 
 $$
@@ -9450,9 +9008,7 @@ K_{sp} = (x)(x) = x^2
 $$
 
 
-
 To solve for x, we can use the quadratic formula:
-
 
 
 $$
@@ -9460,7 +9016,6 @@ $$
 x = \sqrt{K_{sp}}
 
 $$
-
 
 
 Therefore, the solubility of silver chloride in water is equal to the square root of the solubility product constant.
@@ -9478,7 +9033,6 @@ As we discussed in the previous subsection, the presence of a common ion can aff
 For example, let's consider the dissolution of calcium fluoride (CaF2) in water. The balanced chemical equation for this reaction is:
 
 
-
 $$
 
 CaF2(s) \rightleftharpoons Ca^{2+}(aq) + 2F^{-}(aq)
@@ -9486,9 +9040,7 @@ CaF2(s) \rightleftharpoons Ca^{2+}(aq) + 2F^{-}(aq)
 $$
 
 
-
 The solubility product constant for calcium fluoride is given by:
-
 
 
 $$
@@ -9498,9 +9050,7 @@ K_{sp} = [Ca^{2+}][F^{-}]^2
 $$
 
 
-
 If we assume that x mol of CaF2 dissolves in water, then the concentration of Ca2+ ions in the saturated solution will also be x mol. However, the concentration of F- ions will be 2x mol, since there are two F- ions for every Ca2+ ion. Therefore, the solubility product constant can be written as:
-
 
 
 $$
@@ -9510,9 +9060,7 @@ K_{sp} = (x)(2x)^2 = 4x^3
 $$
 
 
-
 To solve for x, we can use the cubic formula:
-
 
 
 $$
@@ -9522,9 +9070,7 @@ x = \sqrt[3]{\frac{K_{sp}}{4}}
 $$
 
 
-
 However, if we take into account the common ion effect of the F- ion, the concentration of F- ions in the saturated solution will not be 2x mol, but rather (2x + [F-]initial) mol. Therefore, the solubility product constant can be written as:
-
 
 
 $$
@@ -9532,7 +9078,6 @@ $$
 K_{sp} = (x)(2x + [F^{-}]_{initial})^2
 
 $$
-
 
 
 To solve for x, we can use the cubic formula again, but this time we must substitute (2x + [F-]initial) for [F-]initial in the equation.
@@ -9616,13 +9161,11 @@ The solubility product constant, Ksp, is a measure of the solubility of a substa
 The solubility product constant can be calculated using the following equation:
 
 
-
 $$
 
 K_{sp} = [A^{n+}][B^{m-}]
 
 $$
-
 
 
 Where [A] and [B] are the concentrations of the ions in the saturated solution, and n and m are the coefficients of the ions in the balanced chemical equation.
@@ -9640,7 +9183,6 @@ To calculate the solubility of a substance in a solvent, we must first determine
 Let's take the example of the dissolution of silver chloride (AgCl) in water. The balanced chemical equation for this reaction is:
 
 
-
 $$
 
 AgCl(s) \rightleftharpoons Ag^{+}(aq) + Cl^{-}(aq)
@@ -9648,9 +9190,7 @@ AgCl(s) \rightleftharpoons Ag^{+}(aq) + Cl^{-}(aq)
 $$
 
 
-
 The solubility product constant for silver chloride is given by:
-
 
 
 $$
@@ -9660,9 +9200,7 @@ K_{sp} = [Ag^{+}][Cl^{-}]
 $$
 
 
-
 If we assume that x mol of AgCl dissolves in water, then the concentration of Ag+ and Cl- ions in the saturated solution will also be x mol. Therefore, the solubility product constant can be calculated as:
-
 
 
 $$
@@ -9670,7 +9208,6 @@ $$
 K_{sp} = [x][x] = x^2
 
 $$
-
 
 
 Now, if we know the value of Ksp and the concentration of one of the ions, we can calculate the concentration of the other ion and thus determine the solubility of the substance in the solvent.
@@ -9978,7 +9515,6 @@ The chemical affix denotes the type of molecule it is. It is added as a suffix t
 
 
 Using these three components, the IUPAC nomenclature system allows for the systematic naming of any organic compound. For example, the compound shown below can be named as 2-methylbut-2-ene, indicating a methyl group at the second carbon and a double bond at the second carbon.
-
 
 
 $$

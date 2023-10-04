@@ -1040,7 +1040,6 @@ The aggregated production function is a mathematical representation of the relat
 $$Y = F(K,AL)$$
 
 
-
 Where:
 
 - Y represents output
@@ -3786,7 +3785,6 @@ In the Barro model, government spending is seen as a form of investment in the e
 
 
 To better understand the relationship between government spending and economic growth in the Barro model, let's look at the following equation:
-
 
 
 $$

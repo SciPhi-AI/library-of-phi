@@ -1672,9 +1672,7 @@ The addition of two vectors, $\vec{u}$ and $\vec{v}$, is defined as the vector $
 
 
 $$
-
 \vec{w} = \vec{u} + \vec{v} = (u_1 + v_1, u_2 + v_2, ..., u_n + v_n)
-
 $$
 
 
@@ -1706,9 +1704,7 @@ Scalar multiplication involves multiplying a vector by a scalar, which is a real
 
 
 $$
-
 c\vec{u} = (cu_1, cu_2, ..., cu_n)
-
 $$
 
 
@@ -2084,7 +2080,6 @@ The components of a vector can also be represented using a matrix. For example, 
 
 
 $$
-
 \vec{v} = \begin{bmatrix}
 
 v_1 \\
@@ -2092,7 +2087,6 @@ v_1 \\
 v_2
 
 \end{bmatrix}
-
 $$
 
 
@@ -2102,7 +2096,6 @@ Similarly, in a three-dimensional vector space, the vector $\vec{v} = (v_1, v_2,
 
 
 $$
-
 \vec{v} = \begin{bmatrix}
 
 v_1 \\
@@ -2112,7 +2105,6 @@ v_2 \\
 v_3
 
 \end{bmatrix}
-
 $$
 
 
@@ -2480,9 +2472,7 @@ In a vector space, a vector can be represented as a combination of its component
 
 
 $$
-
 \vec{v} = a\vec{i} + b\vec{j}
-
 $$
 
 
@@ -2644,9 +2634,7 @@ In a vector space, a vector can be represented as a combination of its component
 
 
 $$
-
 \vec{v} = a\vec{i} + b\vec{j}
-
 $$
 
 
@@ -2716,15 +2704,11 @@ Find the limit of the function $f(x) = \frac{x^2 - 1}{x - 1}$ as $x$ approaches 
 Solve the system of linear equations:
 
 $$
-
 2x + 3y = 7
-
 $$
 
 $$
-
 4x - 5y = 1
-
 $$
 
 
@@ -2772,15 +2756,11 @@ Find the limit of the function $f(x) = \frac{x^2 - 1}{x - 1}$ as $x$ approaches 
 Solve the system of linear equations:
 
 $$
-
 2x + 3y = 7
-
 $$
 
 $$
-
 4x - 5y = 1
-
 $$
 
 
@@ -2944,9 +2924,7 @@ Vector addition is a mathematical operation that takes two vectors and produces 
 
 
 $$
-
 \vec{v} + \vec{w} = (v_1 + w_1, v_2 + w_2, ..., v_n + w_n)
-
 $$
 
 
@@ -2968,9 +2946,7 @@ Vector subtraction is the inverse operation of vector addition. It is denoted by
 
 
 $$
-
 \vec{v} - \vec{w} = (v_1 - w_1, v_2 - w_2, ..., v_n - w_n)
-
 $$
 
 
@@ -2992,9 +2968,7 @@ Scalar multiplication of vectors is a mathematical operation that takes a scalar
 
 
 $$
-
 c \cdot \vec{v} = (c \cdot v_1, c \cdot v_2, ..., c \cdot v_n)
-
 $$
 
 
@@ -3062,9 +3036,7 @@ Vector addition is a fundamental operation in linear algebra that involves combi
 
 
 $$
-
 \vec{v} + \vec{w} = \vec{u}
-
 $$
 
 
@@ -3090,9 +3062,7 @@ Vector subtraction is the inverse operation of vector addition and is denoted by
 
 
 $$
-
 \vec{v} - \vec{w} = \vec{u}
-
 $$
 
 
@@ -3118,9 +3088,7 @@ Vector multiplication is a mathematical operation that involves multiplying a ve
 
 
 $$
-
 c\vec{v} = \vec{u}
-
 $$
 
 
@@ -3188,9 +3156,7 @@ The dot product, also known as the scalar product, is a mathematical operation t
 
 
 $$
-
 \mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i = a_1 b_1 + a_2 b_2 + ... + a_n b_n
-
 $$
 
 
@@ -3282,9 +3248,7 @@ To understand the projection of vectors, we first need to define the scalar proj
 
 
 $$
-
 \text{scalar projection} = \frac{\vec{a} \cdot \vec{b}}{\lVert \vec{b} \rVert}
-
 $$
 
 
@@ -3294,9 +3258,7 @@ This can also be written as:
 
 
 $$
-
 \text{scalar projection} = \lVert \vec{a} \rVert \cos \theta
-
 $$
 
 
@@ -3310,9 +3272,7 @@ The vector projection of a vector $\vec{a}$ onto another vector $\vec{b}$ is giv
 
 
 $$
-
 \text{vector projection} = \frac{\vec{a} \cdot \vec{b}}{\lVert \vec{b} \rVert^2} \vec{b}
-
 $$
 
 
@@ -3322,9 +3282,7 @@ This can also be written as:
 
 
 $$
-
 \text{vector projection} = \lVert \vec{a} \rVert \cos \theta \hat{b}
-
 $$
 
 
@@ -3354,9 +3312,7 @@ Let's look at an example to better understand the projection of vectors. Conside
 
 
 $$
-
 \text{scalar projection} = \frac{(3, 4) \cdot (1, 2)}{\sqrt{1^2 + 2^2}} = \frac{11}{\sqrt{5}}
-
 $$
 
 
@@ -3366,9 +3322,7 @@ Next, we find the unit vector in the direction of $\vec{b}$:
 
 
 $$
-
 \hat{b} = \frac{(1, 2)}{\sqrt{1^2 + 2^2}} = \frac{1}{\sqrt{5}} (1, 2)
-
 $$
 
 
@@ -3378,9 +3332,7 @@ Finally, we multiply the scalar projection by the unit vector to get the vector 
 
 
 $$
-
 \text{vector projection} = \frac{11}{\sqrt{5}} \cdot \frac{1}{\sqrt{5}} (1, 2) = \frac{11}{5} (1, 2) = (2.2, 4.4)
-
 $$
 
 
@@ -3440,9 +3392,7 @@ The length of a vector, also known as its magnitude or norm, is a measure of its
 
 
 $$
-
 \| \mathbf{v} \| = \sqrt{v_1^2 + v_2^2 + ... + v_n^2}
-
 $$
 
 
@@ -3456,9 +3406,7 @@ The length of a vector can also be computed using the dot product. Recall that t
 
 
 $$
-
 \mathbf{v} \cdot \mathbf{w} = v_1w_1 + v_2w_2 + ... + v_nw_n
-
 $$
 
 
@@ -3468,9 +3416,7 @@ Using this definition, we can write the length of a vector as:
 
 
 $$
-
 \| \mathbf{v} \| = \sqrt{\mathbf{v} \cdot \mathbf{v}}
-
 $$
 
 
@@ -3530,9 +3476,7 @@ In this section, we will focus on the length and distance of vectors. These conc
 
 
 $$
-
 ||v|| = \sqrt{v_1^2 + v_2^2 + ... + v_n^2}
-
 $$
 
 
@@ -3546,9 +3490,7 @@ Next, we will discuss the distance between two vectors. The distance between two
 
 
 $$
-
 d(v,w) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2 + ... + (v_n - w_n)^2}
-
 $$
 
 
@@ -3566,9 +3508,7 @@ In this subsection, we will focus on the distance between vectors in more detail
 
 
 $$
-
 d(v,w) = \sqrt{v \cdot v - 2(v \cdot w) + w \cdot w}
-
 $$
 
 
@@ -3578,9 +3518,7 @@ This formula may seem more complicated, but it is useful in certain situations, 
 
 
 $$
-
 d(v,w) = ||v-w||
-
 $$
 
 
@@ -3632,9 +3570,7 @@ In linear algebra, angles play a significant role in understanding the relations
 
 
 $$
-
 \theta = \cos^{-1} \left(\frac{\mathbf{u} \cdot \mathbf{v}}{\lVert \mathbf{u} \rVert \lVert \mathbf{v} \rVert} \right)
-
 $$
 
 
@@ -3714,9 +3650,7 @@ Let's consider a set of vectors $\mathbf{v_1}, \mathbf{v_2}, ..., \mathbf{v_n}$ 
 
 
 $$
-
 \mathbf{v} = c_1\mathbf{v_1} + c_2\mathbf{v_2} + ... + c_n\mathbf{v_n}
-
 $$
 
 
@@ -3726,9 +3660,7 @@ where $c_1, c_2, ..., c_n$ are scalar coefficients. These coefficients can be fo
 
 
 $$
-
 c_i = \mathbf{v} \cdot \mathbf{v_i}
-
 $$
 
 
@@ -3750,9 +3682,7 @@ To find the angle between two vectors $\mathbf{v}$ and $\mathbf{w}$, we can use 
 
 
 $$
-
 \cos \theta = \frac{\mathbf{v} \cdot \mathbf{w}}{\lVert \mathbf{v} \rVert \lVert \mathbf{w} \rVert}
-
 $$
 
 
@@ -3954,7 +3884,6 @@ Linear transformations can also be represented by matrices. For example, the rot
 
 
 $$
-
 \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -3962,7 +3891,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -3972,7 +3900,6 @@ This matrix can be applied to a vector v = (x, y) by multiplying it with the vec
 
 
 $$
-
 \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -3998,7 +3925,6 @@ x cos\theta - y sin\theta \\
 x sin\theta + y cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4066,7 +3992,6 @@ Linear transformations can also be represented by matrices. For example, the rot
 
 
 $$
-
 \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4074,7 +3999,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4084,7 +4008,6 @@ This matrix can be applied to a vector v = (x, y) by multiplying it with the vec
 
 
 $$
-
 \begin{bmatrix}
 
 x \\
@@ -4092,7 +4015,6 @@ x \\
 y
 
 \end{bmatrix}
-
 $$
 
 
@@ -4180,7 +4102,6 @@ For example, the rotation transformation mentioned above can be represented by t
 
 
 $$
-
 \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4188,7 +4109,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4198,7 +4118,6 @@ Similarly, the scaling transformation with a factor of 2 can be represented by t
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -4206,7 +4125,6 @@ $$
 0 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -4298,7 +4216,6 @@ For example, the rotation transformation mentioned earlier can be represented by
 
 
 $$
-
 A = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4306,7 +4223,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4316,7 +4232,6 @@ Similarly, the scaling transformation can be represented by the following matrix
 
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 0 \\
@@ -4324,7 +4239,6 @@ A = \begin{bmatrix}
 0 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -4358,7 +4272,6 @@ For example, let's find the inverse transformation of the rotation transformatio
 
 
 $$
-
 A = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4366,7 +4279,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4376,7 +4288,6 @@ To find the inverse matrix A^-1, we can use the following formula:
 
 
 $$
-
 A^-1 = \frac{1}{det(A)} \begin{bmatrix}
 
 a_{22} & -a_{12} \\
@@ -4384,7 +4295,6 @@ a_{22} & -a_{12} \\
 -a_{21} & a_{11}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4394,7 +4304,6 @@ where det(A) is the determinant of A and a_ij represents the element in the i-th
 
 
 $$
-
 A^-1 = \begin{bmatrix}
 
 cos\theta & sin\theta \\
@@ -4402,7 +4311,6 @@ cos\theta & sin\theta \\
 -sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4478,7 +4386,6 @@ For example, the rotation transformation mentioned earlier can be represented by
 
 
 $$
-
 A = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4486,7 +4393,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4496,7 +4402,6 @@ Similarly, the scaling transformation can be represented by the following matrix
 
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 0 \\
@@ -4504,7 +4409,6 @@ A = \begin{bmatrix}
 0 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -4576,9 +4480,7 @@ One way to represent an orthogonal transformation is through an orthogonal matri
 
 
 $$
-
 Q^TQ = I
-
 $$
 
 
@@ -4592,7 +4494,6 @@ One example of an orthogonal matrix is a rotation matrix. In two-dimensional spa
 
 
 $$
-
 R = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4600,7 +4501,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4614,7 +4514,6 @@ Another example of an orthogonal matrix is a reflection matrix. In two-dimension
 
 
 $$
-
 F = \begin{bmatrix}
 
 1 & 0 \\
@@ -4622,7 +4521,6 @@ F = \begin{bmatrix}
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4662,9 +4560,7 @@ One way to represent an orthogonal transformation is through an orthogonal matri
 
 
 $$
-
 Q^TQ = I
-
 $$
 
 
@@ -4678,7 +4574,6 @@ One example of an orthogonal matrix is a rotation matrix. In two-dimensional spa
 
 
 $$
-
 R = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4686,7 +4581,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4700,7 +4594,6 @@ Another example of an orthogonal matrix is a reflection matrix. In two-dimension
 
 
 $$
-
 F = \begin{bmatrix}
 
 1 & 0 \\
@@ -4708,7 +4601,6 @@ F = \begin{bmatrix}
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4730,9 +4622,7 @@ Diagonalization is the process of finding a diagonal matrix that is similar to a
 
 
 $$
-
 D = P^{-1}AP
-
 $$
 
 
@@ -4750,7 +4640,6 @@ Let's look at an example. Consider the matrix A:
 
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -4758,7 +4647,6 @@ A = \begin{bmatrix}
 1 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -4768,7 +4656,6 @@ To determine if A is diagonalizable, we need to find its eigenvalues and eigenve
 
 
 $$
-
 det(A-\lambda I) = \begin{vmatrix}
 
 2-\lambda & 1 \\
@@ -4776,7 +4663,6 @@ det(A-\lambda I) = \begin{vmatrix}
 1 & 2-\lambda
 
 \end{vmatrix} = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = 0
-
 $$
 
 
@@ -4786,7 +4672,6 @@ Solving for the roots of this polynomial, we get $\lambda_1 = 1$ and $\lambda_2 
 
 
 $$
-
 (A-\lambda_1 I)\vec{x_1} = \begin{bmatrix}
 
 1 & 1 \\
@@ -4794,7 +4679,6 @@ $$
 1 & 1
 
 \end{bmatrix}\vec{x_1} = \vec{0}
-
 $$
 
 
@@ -4820,7 +4704,6 @@ Now, we can construct the matrix P using these eigenvectors as columns:
 
 
 $$
-
 P = \begin{bmatrix}
 
 -1 & 1 \\
@@ -4828,7 +4711,6 @@ P = \begin{bmatrix}
 1 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4838,7 +4720,6 @@ Finally, we can find the diagonal matrix D:
 
 
 $$
-
 D = P^{-1}AP = \begin{bmatrix}
 
 -1 & 1 \\
@@ -4864,7 +4745,6 @@ D = P^{-1}AP = \begin{bmatrix}
 0 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -4900,9 +4780,7 @@ One way to represent an orthogonal transformation is through an orthogonal matri
 
 
 $$
-
 Q^TQ = I
-
 $$
 
 
@@ -4916,7 +4794,6 @@ One example of an orthogonal matrix is a rotation matrix. In two-dimensional spa
 
 
 $$
-
 R = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -4924,7 +4801,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -4938,7 +4814,6 @@ Another example of an orthogonal matrix is a reflection matrix. In two-dimension
 
 
 $$
-
 F = \begin{bmatrix}
 
 1 & 0 \\
@@ -4946,7 +4821,6 @@ F = \begin{bmatrix}
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4968,9 +4842,7 @@ The spectral theorem states that every real symmetric matrix can be diagonalized
 
 
 $$
-
 A = Q\Lambda Q^T
-
 $$
 
 
@@ -4984,7 +4856,6 @@ To understand the spectral theorem, let's consider an example. Suppose we have a
 
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -4992,7 +4863,6 @@ A = \begin{bmatrix}
 1 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -5002,9 +4872,7 @@ We can find the eigenvalues and eigenvectors of A by solving the characteristic 
 
 
 $$
-
 det(A - \lambda I) = 0
-
 $$
 
 
@@ -5014,7 +4882,6 @@ where I is the identity matrix. Solving this equation, we get the eigenvalues $\
 
 
 $$
-
 v_1 = \begin{bmatrix}
 
 1 \\
@@ -5022,13 +4889,11 @@ v_1 = \begin{bmatrix}
 -1
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 v_2 = \begin{bmatrix}
 
 1 \\
@@ -5036,7 +4901,6 @@ v_2 = \begin{bmatrix}
 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5046,7 +4910,6 @@ We can then construct the orthogonal matrix Q using these eigenvectors:
 
 
 $$
-
 Q = \begin{bmatrix}
 
 1 & 1 \\
@@ -5054,7 +4917,6 @@ Q = \begin{bmatrix}
 -1 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5064,7 +4926,6 @@ Finally, we can write A in diagonal form using the spectral theorem:
 
 
 $$
-
 A = Q\Lambda Q^T = \begin{bmatrix}
 
 1 & 1 \\
@@ -5088,7 +4949,6 @@ A = Q\Lambda Q^T = \begin{bmatrix}
 1 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5124,9 +4984,7 @@ One way to represent an orthogonal transformation is through an orthogonal matri
 
 
 $$
-
 Q^TQ = I
-
 $$
 
 
@@ -5140,7 +4998,6 @@ One example of an orthogonal matrix is a rotation matrix. In two-dimensional spa
 
 
 $$
-
 R = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -5148,7 +5005,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -5162,7 +5018,6 @@ Another example of an orthogonal matrix is a reflection matrix. In two-dimension
 
 
 $$
-
 F = \begin{bmatrix}
 
 1 & 0 \\
@@ -5170,7 +5025,6 @@ F = \begin{bmatrix}
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5196,9 +5050,7 @@ Given an $m \times n$ matrix A, the SVD can be written as:
 
 
 $$
-
 A = U\Sigma V^T
-
 $$
 
 
@@ -5238,9 +5090,7 @@ One way to represent an orthogonal transformation is through an orthogonal matri
 
 
 $$
-
 Q^TQ = I
-
 $$
 
 
@@ -5254,7 +5104,6 @@ One example of an orthogonal matrix is a rotation matrix. In two-dimensional spa
 
 
 $$
-
 R = \begin{bmatrix}
 
 cos\theta & -sin\theta \\
@@ -5262,7 +5111,6 @@ cos\theta & -sin\theta \\
 sin\theta & cos\theta
 
 \end{bmatrix}
-
 $$
 
 
@@ -5276,7 +5124,6 @@ Another example of an orthogonal matrix is a reflection matrix. In two-dimension
 
 
 $$
-
 F = \begin{bmatrix}
 
 1 & 0 \\
@@ -5284,7 +5131,6 @@ F = \begin{bmatrix}
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5362,7 +5208,6 @@ Given a linear transformation $T: \mathbb{R}^2 \rightarrow \mathbb{R}^2$, find t
 Let $T: \mathbb{R}^3 \rightarrow \mathbb{R}^3$ be a linear transformation with the matrix representation
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -5372,7 +5217,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the eigenvalues and eigenvectors of $T$.
@@ -5396,7 +5240,6 @@ Given a linear transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$, show t
 Let $T: \mathbb{R}^2 \rightarrow \mathbb{R}^2$ be a linear transformation with the matrix representation
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 \\
@@ -5404,7 +5247,6 @@ A = \begin{bmatrix}
 3 & 4
 
 \end{bmatrix}
-
 $$
 
 Find the standard matrix representation of $T^{-1}$.
@@ -5440,7 +5282,6 @@ Given a linear transformation $T: \mathbb{R}^2 \rightarrow \mathbb{R}^2$, find t
 Let $T: \mathbb{R}^3 \rightarrow \mathbb{R}^3$ be a linear transformation with the matrix representation
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -5450,7 +5291,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the eigenvalues and eigenvectors of $T$.
@@ -5474,7 +5314,6 @@ Given a linear transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$, show t
 Let $T: \mathbb{R}^2 \rightarrow \mathbb{R}^2$ be a linear transformation with the matrix representation
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 \\
@@ -5482,7 +5321,6 @@ A = \begin{bmatrix}
 3 & 4
 
 \end{bmatrix}
-
 $$
 
 Find the standard matrix representation of $T^{-1}$.
@@ -5558,9 +5396,7 @@ To better understand Cartesian tensors, let's look at some examples. Consider a 
 
 
 $$
-
 \vec{v} = v_x \hat{i} + v_y \hat{j} + v_z \hat{k}
-
 $$
 
 
@@ -5574,7 +5410,6 @@ Another example of a Cartesian tensor is the stress tensor, which is used to des
 
 
 $$
-
 \sigma = \begin{bmatrix}
 
 \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\
@@ -5584,7 +5419,6 @@ $$
 \sigma_{zx} & \sigma_{zy} & \sigma_{zz}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5636,9 +5470,7 @@ One of the most fundamental operations on tensors is tensor addition. Just like 
 
 
 $$
-
 C_{ij} = A_{ij} + B_{ij}
-
 $$
 
 
@@ -5648,9 +5480,7 @@ Another important operation is tensor multiplication. There are two types of ten
 
 
 $$
-
 C_{ij} = A_{ik}B_{kj}
-
 $$
 
 
@@ -5660,9 +5490,7 @@ In tensor-vector multiplication, a tensor is multiplied by a vector to produce a
 
 
 $$
-
 w_i = A_{ij}v_j
-
 $$
 
 
@@ -5714,9 +5542,7 @@ One of the most fundamental operations on tensors is tensor addition. Just like 
 
 
 $$
-
 C_{ij} = A_{ij} + B_{ij}
-
 $$
 
 
@@ -5726,9 +5552,7 @@ Another important operation is tensor multiplication. There are two types of ten
 
 
 $$
-
 C_{ij} = A_{ik}B_{kj}
-
 $$
 
 
@@ -5738,9 +5562,7 @@ In tensor-vector multiplication, a tensor is multiplied by a vector to produce a
 
 
 $$
-
 w_i = A_{ij}v_j
-
 $$
 
 
@@ -5792,7 +5614,6 @@ The tensor product, also known as the outer product, is a way of combining two t
 
 
 $$
-
 A \otimes B = \begin{bmatrix}
 
 a_{11}B & a_{12}B & \dots & a_{1n}B \\
@@ -5804,7 +5625,6 @@ a_{21}B & a_{22}B & \dots & a_{2n}B \\
 a_{m1}B & a_{m2}B & \dots & a_{mn}B
 
 \end{bmatrix}
-
 $$
 
 
@@ -5822,7 +5642,6 @@ Let's look at an example to better understand the tensor product. Suppose we hav
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 \\
@@ -5830,13 +5649,11 @@ A = \begin{bmatrix}
 3 & 4
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 5 & 6 \\
@@ -5844,7 +5661,6 @@ B = \begin{bmatrix}
 7 & 8
 
 \end{bmatrix}
-
 $$
 
 
@@ -5854,7 +5670,6 @@ Their tensor product $A \otimes B$ would be:
 
 
 $$
-
 A \otimes B = \begin{bmatrix}
 
 1B & 2B \\
@@ -5872,7 +5687,6 @@ A \otimes B = \begin{bmatrix}
 21 & 24 & 28 & 32
 
 \end{bmatrix}
-
 $$
 
 
@@ -6266,9 +6080,7 @@ A Cartesian tensor is a tensor that can be expressed in terms of Cartesian coord
 
 
 $$
-
 T_{ij} = T_{ij}(x,y,z)
-
 $$
 
 
@@ -6298,9 +6110,7 @@ For example, the components of a second-order Cartesian tensor will transform ac
 
 
 $$
-
 T'_{ij} = \frac{\partial x_k}{\partial x'_i} \frac{\partial x_l}{\partial x'_j} T_{kl}
-
 $$
 
 
@@ -6326,9 +6136,7 @@ Skew-symmetric tensors are a special type of Cartesian tensor that have some uni
 
 
 $$
-
 T_{ij} = -T_{ji}
-
 $$
 
 
@@ -6416,7 +6224,6 @@ For example, a second-order Cartesian tensor can be written as:
 
 
 $$
-
 A = \begin{bmatrix}
 
 a_{11} & a_{12} & a_{13} \\
@@ -6426,7 +6233,6 @@ a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
 
 \end{bmatrix}
-
 $$
 
 
@@ -6468,9 +6274,7 @@ A skew-symmetric tensor is a Cartesian tensor whose components satisfy the follo
 
 
 $$
-
 a_{ij} = -a_{ji}
-
 $$
 
 
@@ -6488,7 +6292,6 @@ One important application of skew-symmetric tensors is in the calculation of the
 
 
 $$
-
 \vec{a} \times \vec{b} = \begin{vmatrix}
 
 \hat{i} & \hat{j} & \hat{k} \\
@@ -6498,7 +6301,6 @@ a_1 & a_2 & a_3 \\
 b_1 & b_2 & b_3
 
 \end{vmatrix}
-
 $$
 
 
@@ -6574,9 +6376,7 @@ A Cartesian tensor is a tensor that is defined in a Cartesian coordinate system.
 
 
 $$
-
 A = A_{ij}\hat{i}\hat{j}
-
 $$
 
 
@@ -6890,9 +6690,7 @@ For example, the derivative of a rank-2 tensor $A_{ij}$ with respect to a variab
 
 
 $$
-
 \frac{\partial A_{ij}}{\partial x_k} = \frac{\partial A_{ij}}{\partial x_k} + A_{ik}\frac{\partial x_k}{\partial x_k} + A_{kj}\frac{\partial x_k}{\partial x_k}
-
 $$
 
 
@@ -6962,9 +6760,7 @@ For example, the derivative of a rank-3 tensor $A_{ijk}$ with respect to a varia
 
 
 $$
-
 \frac{\partial A_{ijk}}{\partial x_l} = \frac{\partial A_{ijk}}{\partial x_l} + A_{ilk}\frac{\partial x_l}{\partial x_l} + A_{ijl}\frac{\partial x_l}{\partial x_l} + A_{ijl}\frac{\partial x_l}{\partial x_l}
-
 $$
 
 
@@ -7036,9 +6832,7 @@ One of the fundamental operations on tensors is addition. Just like vectors, ten
 
 
 $$
-
 C_{ij} = A_{ij} + B_{ij}
-
 $$
 
 
@@ -7368,9 +7162,7 @@ The Cholesky decomposition can be written as follows:
 
 
 $$
-
 A = LL^T
-
 $$
 
 
@@ -7380,7 +7172,6 @@ where $A$ is a symmetric positive-definite matrix, $L$ is a lower triangular mat
 
 
 $$
-
 l_{ij} = \begin{cases}
 
 \sqrt{a_{ij} - \sum_{k=1}^{i-1} l_{ik}^2} & \text{if } i = j \\
@@ -7388,7 +7179,6 @@ l_{ij} = \begin{cases}
 \frac{1}{l_{jj}} (a_{ij} - \sum_{k=1}^{j-1} l_{ik} l_{jk}) & \text{if } i > j
 
 \end{cases}
-
 $$
 
 
@@ -7486,9 +7276,7 @@ An orthogonal tensor is a tensor that preserves the length and angle of vectors.
 
 
 $$
-
 T\cdot T^T = I
-
 $$
 
 
@@ -7572,9 +7360,7 @@ An orthogonal matrix is a square matrix whose columns and rows are orthogonal un
 
 
 $$
-
 A^T \cdot A = I
-
 $$
 
 
@@ -7654,9 +7440,7 @@ The polar decomposition is a method for decomposing a square matrix $A$ into two
 
 
 $$
-
 A = UP
-
 $$
 
 
@@ -8128,9 +7912,7 @@ To understand the relationship between stress and strain, we can use the Hooke's
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8144,9 +7926,7 @@ To model the behavior of an elastic solid, we can use a system of linear equatio
 
 
 $$
-
 \sigma = K\epsilon
-
 $$
 
 
@@ -8186,9 +7966,7 @@ To understand the relationship between stress and strain, we can use the Hooke's
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8206,9 +7984,7 @@ Hooke's law is a fundamental principle in the mechanics of elastic solids, stati
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8230,9 +8006,7 @@ To model the behavior of an elastic solid, we can use a system of linear equatio
 
 
 $$
-
 \sigma = K\epsilon
-
 $$
 
 
@@ -8268,9 +8042,7 @@ To understand the relationship between stress and strain, we can use the Hooke's
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8288,9 +8060,7 @@ Hooke's law is a fundamental principle in the mechanics of elastic solids, stati
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8316,9 +8086,7 @@ A stress tensor is a mathematical object that describes the stress state of a ma
 
 
 $$
-
 \sigma = C\epsilon
-
 $$
 
 
@@ -8332,9 +8100,7 @@ Using the stress and strain tensors, we can derive the equations of motion for a
 
 
 $$
-
 \rho \ddot{u} = \nabla \cdot \sigma + f
-
 $$
 
 
@@ -8370,9 +8136,7 @@ To understand the relationship between stress and strain, we can use the Hooke's
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8390,9 +8154,7 @@ Hooke's law is a fundamental principle in the mechanics of elastic solids, stati
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8550,9 +8312,7 @@ To understand orthogonal projection, we first need to define the concept of a pr
 
 
 $$
-
 \mathbf{p} = \frac{\langle \mathbf{x}, \mathbf{u}_1 \rangle}{\langle \mathbf{u}_1, \mathbf{u}_1 \rangle} \mathbf{u}_1 + \frac{\langle \mathbf{x}, \mathbf{u}_2 \rangle}{\langle \mathbf{u}_2, \mathbf{u}_2 \rangle} \mathbf{u}_2 + ... + \frac{\langle \mathbf{x}, \mathbf{u}_n \rangle}{\langle \mathbf{u}_n, \mathbf{u}_n \rangle} \mathbf{u}_n
-
 $$
 
 
@@ -8562,9 +8322,7 @@ where $\mathbf{u}_1, \mathbf{u}_2, ..., \mathbf{u}_n$ are the basis vectors of t
 
 
 $$
-
 \mathbf{p} = \langle \mathbf{x}, \mathbf{u}_1 \rangle \mathbf{u}_1 + \langle \mathbf{x}, \mathbf{u}_2 \rangle \mathbf{u}_2 + ... + \langle \mathbf{x}, \mathbf{u}_n \rangle \mathbf{u}_n
-
 $$
 
 
@@ -9456,7 +9214,6 @@ As we conclude this chapter, it is important to note that the topics covered in 
 Consider the following system of equations:
 
 $$
-
 \begin{cases}
 
 x + 2y = 5 \\
@@ -9464,7 +9221,6 @@ x + 2y = 5 \\
 3x - y = 2
 
 \end{cases}
-
 $$
 
 Solve the system using Gaussian elimination.
@@ -9476,7 +9232,6 @@ Solve the system using Gaussian elimination.
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -9484,7 +9239,6 @@ A = \begin{bmatrix}
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -9544,7 +9298,6 @@ As we conclude this chapter, it is important to note that the topics covered in 
 Consider the following system of equations:
 
 $$
-
 \begin{cases}
 
 x + 2y = 5 \\
@@ -9552,7 +9305,6 @@ x + 2y = 5 \\
 3x - y = 2
 
 \end{cases}
-
 $$
 
 Solve the system using Gaussian elimination.
@@ -9564,7 +9316,6 @@ Solve the system using Gaussian elimination.
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -9572,7 +9323,6 @@ A = \begin{bmatrix}
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -9670,9 +9420,7 @@ Let us consider an example to understand matrix addition and subtraction better.
 
 
 $$
-
 A + B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-
 $$
 
 
@@ -9682,9 +9430,7 @@ Similarly, their difference $A - B$ is given by:
 
 
 $$
-
 A - B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} - \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 3 - 7 & 4 - 8 \end{bmatrix} = \begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}
-
 $$
 
 
@@ -9732,9 +9478,7 @@ Let us consider an example to understand matrix addition and subtraction better.
 
 
 $$
-
 A + B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-
 $$
 
 
@@ -9744,9 +9488,7 @@ Similarly, their difference $A - B$ is given by:
 
 
 $$
-
 A - B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} - \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 3 - 7 & 4 - 8 \end{bmatrix} = \begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}
-
 $$
 
 
@@ -9780,9 +9522,7 @@ Let us consider an example to understand matrix multiplication better. Suppose w
 
 
 $$
-
 AB = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
-
 $$
 
 
@@ -9830,9 +9570,7 @@ Let us consider an example to understand matrix addition and subtraction better.
 
 
 $$
-
 A + B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-
 $$
 
 
@@ -9842,9 +9580,7 @@ Similarly, their difference $A - B$ is given by:
 
 
 $$
-
 A - B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} - \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 3 - 7 & 4 - 8 \end{bmatrix} = \begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}
-
 $$
 
 
@@ -9874,9 +9610,7 @@ Let us consider the same example of matrix $A$ from before, and multiply it by a
 
 
 $$
-
 kA = 2 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = \begin{bmatrix} 2 \cdot 1 & 2 \cdot 2 \\ 2 \cdot 3 & 2 \cdot 4 \end{bmatrix} = \begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}
-
 $$
 
 
@@ -9906,9 +9640,7 @@ Let us consider the same matrix $A$ from before, and find its transpose $A^T$:
 
 
 $$
-
 A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}
-
 $$
 
 
@@ -9956,9 +9688,7 @@ Let us consider an example to understand matrix addition and subtraction better.
 
 
 $$
-
 A + B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-
 $$
 
 
@@ -9968,9 +9698,7 @@ Similarly, their difference $A - B$ is given by:
 
 
 $$
-
 A - B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} - \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 3 - 7 & 4 - 8 \end{bmatrix} = \begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}
-
 $$
 
 
@@ -10000,9 +9728,7 @@ Let us consider an example to understand scalar multiplication better. Suppose w
 
 
 $$
-
 kA = 2\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = \begin{bmatrix} 2(1) & 2(2) \\ 2(3) & 2(4) \end{bmatrix} = \begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}
-
 $$
 
 
@@ -10032,9 +9758,7 @@ Let us consider an example to understand matrix multiplication better. Suppose w
 
 
 $$
-
 AB = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} (1)(5) + (2)(7) & (1)(6) + (2)(8) \\ (3)(5) + (4)(7) & (3)(6) + (4)(8) \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
-
 $$
 
 
@@ -10052,9 +9776,7 @@ To find the inverse of a matrix, we use the following formula:
 
 
 $$
-
 A^{-1} = \frac{1}{|A|} \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}^T
-
 $$
 
 
@@ -10068,9 +9790,7 @@ Let us consider an example to understand matrix inverse better. Suppose we have 
 
 
 $$
-
 A^{-1} = \frac{1}{|A|} \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}^T = \frac{1}{(1)(4) - (2)(3)} \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} = \begin{bmatrix} -2 & 1 \\ \frac{3}{2} & -\frac{1}{2} \end{bmatrix}
-
 $$
 
 
@@ -10118,9 +9838,7 @@ Let us consider an example to understand matrix addition and subtraction better.
 
 
 $$
-
 A + B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 + 5 & 2 + 6 \\ 3 + 7 & 4 + 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-
 $$
 
 
@@ -10130,9 +9848,7 @@ Similarly, their difference $A - B$ is given by:
 
 
 $$
-
 A - B = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} - \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 - 5 & 2 - 6 \\ 3 - 7 & 4 - 8 \end{bmatrix} = \begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}
-
 $$
 
 
@@ -10162,9 +9878,7 @@ Let us consider an example to understand scalar multiplication better. Suppose w
 
 
 $$
-
 kA = 2 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = \begin{bmatrix} 2 \cdot 1 & 2 \cdot 2 \\ 2 \cdot 3 & 2 \cdot 4 \end{bmatrix} = \begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}
-
 $$
 
 
@@ -10194,9 +9908,7 @@ Let us consider an example to understand matrix multiplication better. Suppose w
 
 
 $$
-
 AB = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
-
 $$
 
 
@@ -10228,9 +9940,7 @@ Let us consider an example to understand the transpose of a matrix better. Suppo
 
 
 $$
-
 A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}
-
 $$
 
 
@@ -10284,9 +9994,7 @@ A determinant is a scalar value that can be calculated for a square matrix. It i
 
 
 $$
-
 \det(A) = |A| = ad - bc
-
 $$
 
 
@@ -10320,9 +10028,7 @@ Let us consider an example to understand the properties of determinants better. 
 
 
 $$
-
 \det(A) = |A| = 1 \begin{vmatrix} 5 & 6 \\ 8 & 9 \end{vmatrix} - 2 \begin{vmatrix} 4 & 6 \\ 7 & 9 \end{vmatrix} + 3 \begin{vmatrix} 4 & 5 \\ 7 & 8 \end{vmatrix} = 0 - 2(36 - 42) + 3(32 - 35) = 0
-
 $$
 
 
@@ -10358,9 +10064,7 @@ To understand cofactor expansion, let us consider the $3 \times 3$ matrix $A = \
 
 
 $$
-
 \det(A) = |A| = a\begin{vmatrix} e & f \\ h & i \end{vmatrix} - b\begin{vmatrix} d & f \\ g & i \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}
-
 $$
 
 
@@ -10378,9 +10082,7 @@ Now, let us consider an example to understand the cofactor expansion method bett
 
 
 $$
-
 \det(A) = |A| = 1\begin{vmatrix} 6 & 7 & 8 \\ 10 & 11 & 12 \\ 14 & 15 & 16 \end{vmatrix} - 2\begin{vmatrix} 5 & 7 & 8 \\ 9 & 11 & 12 \\ 13 & 15 & 16 \end{vmatrix} + 3\begin{vmatrix} 5 & 6 & 8 \\ 9 & 10 & 12 \\ 13 & 14 & 16 \end{vmatrix} - 4\begin{vmatrix} 5 & 6 & 7 \\ 9 & 10 & 11 \\ 13 & 14 & 15 \end{vmatrix}
-
 $$
 
 
@@ -10390,9 +10092,7 @@ Using the properties of determinants, we can further simplify these submatrices 
 
 
 $$
-
 \det(A) = |A| = 1\begin{vmatrix} 6 & 7 & 8 \\ 10 & 11 & 12 \\ 14 & 15 & 16 \end{vmatrix} - 2\begin{vmatrix} 5 & 0 & 0 \\ 9 & 11 & 12 \\ 13 & 15 & 16 \end{vmatrix} + 3\begin{vmatrix} 5 & 6 & 0 \\ 9 & 10 & 12 \\ 13 & 14 & 16 \end{vmatrix} - 4\begin{vmatrix} 5 & 6 & 7 \\ 9 & 10 & 11 \\ 13 & 14 & 15 \end{vmatrix}
-
 $$
 
 
@@ -10402,9 +10102,7 @@ Finally, we can calculate the determinants of these submatrices using the formul
 
 
 $$
-
 \det(A) = |A| = 1(6\cdot 11\cdot 16 - 6\cdot 12\cdot 15 - 7\cdot 10\cdot 16 + 7\cdot 12\cdot 14 + 8\cdot 10\cdot 15 - 8\cdot 11\cdot 14) - 2(5\cdot 11\cdot 16 - 5\cdot 12\cdot 15 - 0 + 0 + 0 + 0) + 3(5\cdot 10\cdot 16 - 5\cdot 12\cdot 14 - 6\cdot 9\cdot 16 + 6\cdot 12\cdot 13 + 7\cdot 9\cdot 15 - 7\cdot 10\cdot 13) - 4(5\cdot 10\cdot 11 - 5\cdot 11\cdot 10 - 6\cdot 9\cdot 11 + 6\cdot 11\cdot 9 + 7\cdot 9\cdot 10 - 7\cdot 10\cdot 9)
-
 $$
 
 
@@ -10414,9 +10112,7 @@ After simplifying and calculating, we get the final result:
 
 
 $$
-
 \det(A) = |A| = 0
-
 $$
 
 
@@ -10452,9 +10148,7 @@ To understand cofactor expansion, let us consider the $3 \times 3$ matrix $A = \
 
 
 $$
-
 \det(A) = |A| = a\begin{vmatrix} e & f \\ h & i \end{vmatrix} - b\begin{vmatrix} d & f \\ g & i \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}
-
 $$
 
 
@@ -10554,9 +10248,7 @@ To find the eigenvalues and eigenvectors of a matrix, we can use the characteris
 
 
 $$
-
 p(\lambda) = \det(A - \lambda I)
-
 $$
 
 
@@ -10616,9 +10308,7 @@ To find the eigenvalues and eigenvectors of a matrix, we can use the characteris
 
 
 $$
-
 p(\lambda) = \det(A - \lambda I)
-
 $$
 
 
@@ -10682,9 +10372,7 @@ To find the eigenvalues and eigenvectors of a matrix, we can use the characteris
 
 
 $$
-
 p(\lambda) = \det(A - \lambda I)
-
 $$
 
 
@@ -10940,7 +10628,6 @@ A linear transformation is represented by the matrix $D = \begin{bmatrix} 2 & 1 
 A system of linear equations can be represented by the matrix equation $Ax = b$, where $A$ is a coefficient matrix, $x$ is a vector of variables, and $b$ is a vector of constants. Use the concepts learned in this chapter to solve the following system of equations: 
 
 $$
-
 \begin{cases}
 
 2x + 3y = 8 \\
@@ -10948,7 +10635,6 @@ $$
 4x + 5y = 13
 
 \end{cases}
-
 $$
 
 
@@ -10996,7 +10682,6 @@ A linear transformation is represented by the matrix $D = \begin{bmatrix} 2 & 1 
 A system of linear equations can be represented by the matrix equation $Ax = b$, where $A$ is a coefficient matrix, $x$ is a vector of variables, and $b$ is a vector of constants. Use the concepts learned in this chapter to solve the following system of equations: 
 
 $$
-
 \begin{cases}
 
 2x + 3y = 8 \\
@@ -11004,7 +10689,6 @@ $$
 4x + 5y = 13
 
 \end{cases}
-
 $$
 
 
@@ -11058,9 +10742,7 @@ Vector addition is a binary operation that takes two vectors and produces a new 
 
 
 $$
-
 u + v = (u_1 + v_1, u_2 + v_2, ..., u_n + v_n)
-
 $$
 
 
@@ -11096,9 +10778,7 @@ Scalar multiplication is another fundamental operation in vector spaces. It take
 
 
 $$
-
 cu = (cu_1, cu_2, ..., cu_n)
-
 $$
 
 
@@ -11152,9 +10832,7 @@ Vector addition is a binary operation that takes two vectors and produces a new 
 
 
 $$
-
 u + v = (u_1 + v_1, u_2 + v_2, ..., u_n + v_n)
-
 $$
 
 
@@ -11190,9 +10868,7 @@ Scalar multiplication is another fundamental operation in vector spaces. It take
 
 
 $$
-
 cu = (cu_1, cu_2, ..., cu_n)
-
 $$
 
 
@@ -11284,9 +10960,7 @@ Vector addition is a binary operation that takes two vectors and produces a new 
 
 
 $$
-
 u + v = (u_1 + v_1, u_2 + v_2, ..., u_n + v_n)
-
 $$
 
 
@@ -11322,9 +10996,7 @@ Scalar multiplication is another fundamental operation in vector spaces. It take
 
 
 $$
-
 cu = (cu_1, cu_2, ..., cu_n)
-
 $$
 
 
@@ -11402,9 +11074,7 @@ Vector addition is a binary operation that takes two vectors and produces a new 
 
 
 $$
-
 u + v = (u_1 + v_1, u_2 + v_2, ..., u_n + v_n)
-
 $$
 
 
@@ -11440,9 +11110,7 @@ Scalar multiplication is another fundamental operation in vector spaces. It take
 
 
 $$
-
 cu = (cu_1, cu_2, ..., cu_n)
-
 $$
 
 
@@ -11514,9 +11182,7 @@ An inner product is a binary operation that takes two vectors and produces a sca
 
 
 $$
-
 \langle u, v \rangle = u_1v_1 + u_2v_2 + ... + u_nv_n
-
 $$
 
 
@@ -11558,9 +11224,7 @@ In Euclidean space, the distance between two points is defined as the length of 
 
 
 $$
-
 d(u, v) = \sqrt{\langle u - v, u - v \rangle}
-
 $$
 
 
@@ -11600,9 +11264,7 @@ An inner product is a binary operation that takes two vectors and produces a sca
 
 
 $$
-
 \langle u, v \rangle = u_1v_1 + u_2v_2 + ... + u_nv_n
-
 $$
 
 
@@ -11674,9 +11336,7 @@ An inner product is a binary operation that takes two vectors and produces a sca
 
 
 $$
-
 \langle u, v \rangle = u_1v_1 + u_2v_2 + ... + u_nv_n
-
 $$
 
 
@@ -11766,9 +11426,7 @@ An inner product is a binary operation that takes two vectors and produces a sca
 
 
 $$
-
 \langle u, v \rangle = u_1v_1 + u_2v_2 + ... + u_nv_n
-
 $$
 
 
@@ -11852,17 +11510,13 @@ A linear transformation is a function that maps a vector space $V$ to another ve
 
 
 $$
-
 T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})
-
 $$
 
 
 
 $$
-
 T(c\mathbf{x}) = cT(\mathbf{x})
-
 $$
 
 
@@ -11942,17 +11596,13 @@ A linear transformation is a function that maps a vector space $V$ to another ve
 
 
 $$
-
 T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})
-
 $$
 
 
 
 $$
-
 T(c\mathbf{x}) = cT(\mathbf{x})
-
 $$
 
 
@@ -12030,17 +11680,13 @@ A linear transformation is a function that maps a vector space $V$ to another ve
 
 
 $$
-
 T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})
-
 $$
 
 
 
 $$
-
 T(c\mathbf{x}) = cT(\mathbf{x})
-
 $$
 
 
@@ -12082,9 +11728,7 @@ Linear transformations can also be represented by matrices. This is particularly
 
 
 $$
-
 T(\mathbf{x}) = A\mathbf{x}
-
 $$
 
 
@@ -12102,7 +11746,6 @@ As mentioned earlier, rotations in Euclidean space are linear transformations. L
 
 
 $$
-
 T(\mathbf{x}) = \begin{bmatrix}
 
 \cos{\theta} & -\sin{\theta} \\
@@ -12110,7 +11753,6 @@ T(\mathbf{x}) = \begin{bmatrix}
 \sin{\theta} & \cos{\theta}
 
 \end{bmatrix} \mathbf{x}
-
 $$
 
 
@@ -12120,7 +11762,6 @@ This transformation can also be represented by the $2 \times 2$ matrix:
 
 
 $$
-
 A = \begin{bmatrix}
 
 \cos{\theta} & -\sin{\theta} \\
@@ -12128,7 +11769,6 @@ A = \begin{bmatrix}
 \sin{\theta} & \cos{\theta}
 
 \end{bmatrix}
-
 $$
 
 
@@ -12164,17 +11804,13 @@ A linear transformation is a function that maps a vector space $V$ to another ve
 
 
 $$
-
 T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})
-
 $$
 
 
 
 $$
-
 T(c\mathbf{x}) = cT(\mathbf{x})
-
 $$
 
 
@@ -12622,9 +12258,7 @@ A functional is a mathematical expression that takes in a function as its input 
 
 
 $$
-
 J[f] = \int_a^b f(x) dx
-
 $$
 
 
@@ -12638,9 +12272,7 @@ Functionals have certain properties that are important to understand in the cont
 
 
 $$
-
 J[\alpha f + \beta g] = \alpha J[f] + \beta J[g]
-
 $$
 
 
@@ -12662,9 +12294,7 @@ The Euler-Lagrange equation is a fundamental tool in the Calculus of Variations.
 
 
 $$
-
 S[f] = \int_a^b L(x,f,f') dx
-
 $$
 
 
@@ -12674,9 +12304,7 @@ where $L(x,f,f')$ is a function of $x$, $f$, and $f'$, and $f'$ represents the d
 
 
 $$
-
 \frac{\partial L}{\partial f} - \frac{d}{dx}\left(\frac{\partial L}{\partial f'}\right) = 0
-
 $$
 
 
@@ -12864,9 +12492,7 @@ The Lagrangian approach, developed by the Italian mathematician and physicist Jo
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -12880,9 +12506,7 @@ The Hamiltonian approach, on the other hand, was developed by William Rowan Hami
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -12936,9 +12560,7 @@ The Lagrangian approach, developed by the Italian mathematician and physicist Jo
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -12952,9 +12574,7 @@ The Hamiltonian approach, on the other hand, was developed by William Rowan Hami
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -12976,9 +12596,7 @@ To understand Hamilton's Principle, we must first understand the concept of acti
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
-
 $$
 
 
@@ -12988,9 +12606,7 @@ where $q$ represents the position of the system, $\dot{q}$ represents the veloci
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -13040,9 +12656,7 @@ The Lagrangian approach, developed by the Italian mathematician and physicist Jo
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -13056,9 +12670,7 @@ The Hamiltonian approach, on the other hand, was developed by William Rowan Hami
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -13152,9 +12764,7 @@ The Lagrangian approach, developed by the Italian mathematician and physicist Jo
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -13168,9 +12778,7 @@ The Hamiltonian approach, on the other hand, was developed by William Rowan Hami
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -13244,9 +12852,7 @@ To understand Pontryagin's Maximum Principle, we must first introduce the Hamilt
 
 
 $$
-
 H = L + \lambda^T f
-
 $$
 
 
@@ -13312,9 +12918,7 @@ To understand Pontryagin's Maximum Principle, we must first introduce the Hamilt
 
 
 $$
-
 H = L + \lambda^T f
-
 $$
 
 
@@ -13396,9 +13000,7 @@ To understand Pontryagin's Maximum Principle, we must first introduce the Hamilt
 
 
 $$
-
 H = L + \lambda^T f
-
 $$
 
 
@@ -13432,9 +13034,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
-
 $$
 
 
@@ -13448,9 +13048,7 @@ To apply Pontryagin's Maximum Principle to this problem, we must first define th
 
 
 $$
-
 J = \langle \psi | \hat{H} | \psi \rangle
-
 $$
 
 
@@ -13460,9 +13058,7 @@ Next, we define the Hamiltonian function as:
 
 
 $$
-
 H = \langle \psi | \hat{H} | \psi \rangle + \lambda^T \left(i\hbar \frac{\partial \psi}{\partial t} - \hat{H}\psi \right)
-
 $$
 
 
@@ -13484,9 +13080,7 @@ Applying Pontryagin's Maximum Principle, we obtain the following conditions for 
 
 
 $$
-
 \lambda^T \psi = 0
-
 $$
 
 
@@ -13536,9 +13130,7 @@ To understand Pontryagin's Maximum Principle, we must first introduce the Hamilt
 
 
 $$
-
 H = L + \lambda^T f
-
 $$
 
 
@@ -13576,9 +13168,7 @@ In quantum mechanics, the state of a particle is described by a wave function, d
 
 
 $$
-
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
-
 $$
 
 
@@ -13600,9 +13190,7 @@ To apply the variational principle, we must first define a functional, denoted b
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(\psi, \frac{\partial \psi}{\partial t}) dt
-
 $$
 
 
@@ -13616,9 +13204,7 @@ Using the variational principle, we can derive the Schrödinger equation by mini
 
 
 $$
-
 \hat{H}\psi = E\psi
-
 $$
 
 
@@ -13668,9 +13254,7 @@ To understand Pontryagin's Maximum Principle, we must first introduce the Hamilt
 
 
 $$
-
 H = L + \lambda^T f
-
 $$
 
 
@@ -13876,9 +13460,7 @@ First order ODEs are differential equations that involve only the first derivati
 
 
 $$
-
 \frac{dy}{dx} = f(x,y)
-
 $$
 
 
@@ -13896,9 +13478,7 @@ Separable ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} = g(x)h(y)
-
 $$
 
 
@@ -13908,9 +13488,7 @@ where $g(x)$ and $h(y)$ are functions of $x$ and $y$ respectively. These types o
 
 
 $$
-
 \int \frac{dy}{h(y)} = \int g(x) dx + C
-
 $$
 
 
@@ -13928,9 +13506,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = q(x)
-
 $$
 
 
@@ -13940,9 +13516,7 @@ where $p(x)$ and $q(x)$ are functions of $x$. These types of ODEs can be solved 
 
 
 $$
-
 \mu(x) = e^{\int p(x) dx}
-
 $$
 
 
@@ -13952,9 +13526,7 @@ Multiplying both sides of the equation by $\mu(x)$ and using the product rule, w
 
 
 $$
-
 \mu(x)\frac{dy}{dx} + \mu(x)p(x)y = \mu(x)q(x)
-
 $$
 
 
@@ -13964,9 +13536,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{d}{dx}(\mu(x)y) = \mu(x)q(x)
-
 $$
 
 
@@ -13976,9 +13546,7 @@ Integrating both sides and solving for $y$, we get the general solution:
 
 
 $$
-
 y = \frac{1}{\mu(x)}\int \mu(x)q(x) dx + Ce^{-\int p(x) dx}
-
 $$
 
 
@@ -13992,9 +13560,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -14004,9 +13570,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of ODEs ca
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{ and } \frac{\partial \psi}{\partial y} = N(x,y)
-
 $$
 
 
@@ -14016,9 +13580,7 @@ The general solution can then be written as:
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14050,9 +13612,7 @@ First order ODEs are differential equations that involve only the first derivati
 
 
 $$
-
 \frac{dy}{dx} = f(x,y)
-
 $$
 
 
@@ -14070,9 +13630,7 @@ Separable ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} = g(x)h(y)
-
 $$
 
 
@@ -14082,9 +13640,7 @@ where $g(x)$ and $h(y)$ are functions of $x$ and $y$ respectively. These types o
 
 
 $$
-
 \int \frac{dy}{h(y)} = \int g(x) dx + C
-
 $$
 
 
@@ -14102,9 +13658,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = q(x)
-
 $$
 
 
@@ -14114,9 +13668,7 @@ where $p(x)$ and $q(x)$ are functions of $x$. These types of ODEs can be solved 
 
 
 $$
-
 \mu(x) = e^{\int p(x) dx}
-
 $$
 
 
@@ -14126,9 +13678,7 @@ Multiplying both sides of the equation by $\mu(x)$ and using the product rule, w
 
 
 $$
-
 \mu(x)\frac{dy}{dx} + \mu(x)p(x)y = \mu(x)q(x)
-
 $$
 
 
@@ -14138,9 +13688,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{d}{dx}(\mu(x)y) = \mu(x)q(x)
-
 $$
 
 
@@ -14150,9 +13698,7 @@ Integrating both sides and solving for $y$, we get the general solution:
 
 
 $$
-
 y = \frac{1}{\mu(x)}\int \mu(x)q(x) dx + Ce^{-\int p(x) dx}
-
 $$
 
 
@@ -14166,9 +13712,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -14178,9 +13722,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of ODEs ca
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{ and } \frac{\partial \psi}{\partial y} = N(x,y)
-
 $$
 
 
@@ -14190,9 +13732,7 @@ If such a function exists, then the general solution can be written as:
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14210,9 +13750,7 @@ Second order ODEs are differential equations that involve the second derivative 
 
 
 $$
-
 \frac{d^2y}{dx^2} = f(x,y,\frac{dy}{dx})
-
 $$
 
 
@@ -14230,9 +13768,7 @@ Homogeneous ODEs can be written in the form:
 
 
 $$
-
 \frac{d^2y}{dx^2} = f(x,y)
-
 $$
 
 
@@ -14242,9 +13778,7 @@ where $f(x,y)$ is a function of $x$ and $y$. These types of ODEs can be solved b
 
 
 $$
-
 y = \int \frac{1}{v}dv + C_1x + C_2
-
 $$
 
 
@@ -14262,9 +13796,7 @@ Non-homogeneous ODEs can be written in the form:
 
 
 $$
-
 \frac{d^2y}{dx^2} + p(x)\frac{dy}{dx} + q(x)y = r(x)
-
 $$
 
 
@@ -14274,9 +13806,7 @@ where $p(x)$, $q(x)$, and $r(x)$ are functions of $x$. These types of ODEs can b
 
 
 $$
-
 y = y_h + y_p
-
 $$
 
 
@@ -14294,9 +13824,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)\frac{d^2y}{dx^2} + N(x,y)\frac{dy}{dx} + P(x,y) = 0
-
 $$
 
 
@@ -14306,9 +13834,7 @@ where $M(x,y)$, $N(x,y)$, and $P(x,y)$ are functions of $x$ and $y$. These types
 
 
 $$
-
 \frac{\partial^2 \psi}{\partial x^2} = M(x,y) \text{, } \frac{\partial^2 \psi}{\partial x \partial y} = N(x,y) \text{, and } \frac{\partial^2 \psi}{\partial y^2} = P(x,y)
-
 $$
 
 
@@ -14318,9 +13844,7 @@ If such a function exists, then the general solution can be written as:
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14348,9 +13872,7 @@ First order ODEs are differential equations that involve only the first derivati
 
 
 $$
-
 \frac{dy}{dx} = f(x,y)
-
 $$
 
 
@@ -14368,9 +13890,7 @@ Separable ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} = g(x)h(y)
-
 $$
 
 
@@ -14380,9 +13900,7 @@ where $g(x)$ and $h(y)$ are functions of $x$ and $y$ respectively. These types o
 
 
 $$
-
 \int \frac{dy}{h(y)} = \int g(x) dx + C
-
 $$
 
 
@@ -14400,9 +13918,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = q(x)
-
 $$
 
 
@@ -14412,9 +13928,7 @@ where $p(x)$ and $q(x)$ are functions of $x$. These types of ODEs can be solved 
 
 
 $$
-
 \mu(x) = e^{\int p(x) dx}
-
 $$
 
 
@@ -14424,9 +13938,7 @@ Multiplying both sides of the equation by $\mu(x)$ and using the product rule, w
 
 
 $$
-
 \mu(x)\frac{dy}{dx} + \mu(x)p(x)y = \mu(x)q(x)
-
 $$
 
 
@@ -14436,9 +13948,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{d}{dx}(\mu(x)y) = \mu(x)q(x)
-
 $$
 
 
@@ -14448,9 +13958,7 @@ Integrating both sides and solving for $y$, we get the general solution:
 
 
 $$
-
 y = \frac{1}{\mu(x)}\int \mu(x)q(x) dx + Ce^{-\int p(x) dx}
-
 $$
 
 
@@ -14464,9 +13972,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -14476,9 +13982,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of ODEs ca
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{ and } \frac{\partial \psi}{\partial y} = N(x,y)
-
 $$
 
 
@@ -14488,9 +13992,7 @@ This function is known as the integrating factor and can be used to solve the OD
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14508,9 +14010,7 @@ Second order ODEs are differential equations that involve the second derivative 
 
 
 $$
-
 \frac{d^2y}{dx^2} = f(x,y,\frac{dy}{dx})
-
 $$
 
 
@@ -14528,9 +14028,7 @@ Homogeneous ODEs can be written in the form:
 
 
 $$
-
 \frac{d^2y}{dx^2} = f(\frac{dy}{dx},y)
-
 $$
 
 
@@ -14540,9 +14038,7 @@ where $f(\frac{dy}{dx},y)$ is a function of $\frac{dy}{dx}$ and $y$. These types
 
 
 $$
-
 y = \int \frac{du}{f(u,y)} + C
-
 $$
 
 
@@ -14560,9 +14056,7 @@ Non-homogeneous ODEs can be written in the form:
 
 
 $$
-
 \frac{d^2y}{dx^2} = f(x,y,\frac{dy}{dx})
-
 $$
 
 
@@ -14572,9 +14066,7 @@ where $f(x,y,\frac{dy}{dx})$ is a function of $x$, $y$, and $\frac{dy}{dx}$. The
 
 
 $$
-
 y = y_h + y_p
-
 $$
 
 
@@ -14592,9 +14084,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)\frac{d^2y}{dx^2} + N(x,y)\frac{dy}{dx} + P(x,y) = 0
-
 $$
 
 
@@ -14604,9 +14094,7 @@ where $M(x,y)$, $N(x,y)$, and $P(x,y)$ are functions of $x$ and $y$. These types
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{, } \frac{\partial \psi}{\partial y} = N(x,y) \text{, and } \frac{\partial^2 \psi}{\partial x^2} = P(x,y)
-
 $$
 
 
@@ -14616,9 +14104,7 @@ This function is known as the integrating factor and can be used to solve the OD
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14636,9 +14122,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{d^2y}{dx^2} + p(x)\frac{dy}{dx} + q(x)y = r(x)
-
 $$
 
 
@@ -14648,9 +14132,7 @@ where $p(x)$, $q(x)$, and $r(x)$ are functions of $x$. These types of ODEs can b
 
 
 $$
-
 y = y_h + y_p
-
 $$
 
 
@@ -14678,9 +14160,7 @@ First order ODEs are differential equations that involve only the first derivati
 
 
 $$
-
 \frac{dy}{dx} = f(x,y)
-
 $$
 
 
@@ -14698,9 +14178,7 @@ Separable ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} = g(x)h(y)
-
 $$
 
 
@@ -14710,9 +14188,7 @@ where $g(x)$ and $h(y)$ are functions of $x$ and $y$ respectively. These types o
 
 
 $$
-
 \int \frac{dy}{h(y)} = \int g(x) dx + C
-
 $$
 
 
@@ -14730,9 +14206,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = q(x)
-
 $$
 
 
@@ -14742,9 +14216,7 @@ where $p(x)$ and $q(x)$ are functions of $x$. These types of ODEs can be solved 
 
 
 $$
-
 \mu(x) = e^{\int p(x) dx}
-
 $$
 
 
@@ -14754,9 +14226,7 @@ Multiplying both sides of the equation by $\mu(x)$ and using the product rule, w
 
 
 $$
-
 \mu(x)\frac{dy}{dx} + \mu(x)p(x)y = \mu(x)q(x)
-
 $$
 
 
@@ -14766,9 +14236,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{d}{dx}(\mu(x)y) = \mu(x)q(x)
-
 $$
 
 
@@ -14778,9 +14246,7 @@ Integrating both sides and solving for $y$, we get the general solution:
 
 
 $$
-
 y = \frac{1}{\mu(x)}\int \mu(x)q(x) dx + Ce^{-\int p(x) dx}
-
 $$
 
 
@@ -14794,9 +14260,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -14806,9 +14270,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of ODEs ca
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{ and } \frac{\partial \psi}{\partial y} = N(x,y)
-
 $$
 
 
@@ -14818,9 +14280,7 @@ If such a function exists, then the general solution can be written as:
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14830,9 +14290,7 @@ where $C$ is the constant of integration. However, finding such a function can b
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -14850,9 +14308,7 @@ Nonlinear ODEs are differential equations that involve nonlinear functions of th
 
 
 $$
-
 F(x,y,y',y'',...) = 0
-
 $$
 
 
@@ -14866,9 +14322,7 @@ One common type of nonlinear ODE is the Bernoulli equation, which can be written
 
 
 $$
-
 y' + p(x)y = q(x)y^n
-
 $$
 
 
@@ -14878,9 +14332,7 @@ where $p(x)$ and $q(x)$ are functions of $x$ and $n$ is a constant. This type of
 
 
 $$
-
 y' = p(x)y^2 + q(x)y + r(x)
-
 $$
 
 
@@ -14912,9 +14364,7 @@ First order ODEs are differential equations that involve only the first derivati
 
 
 $$
-
 \frac{dy}{dx} = f(x,y)
-
 $$
 
 
@@ -14932,9 +14382,7 @@ Separable ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} = g(x)h(y)
-
 $$
 
 
@@ -14944,9 +14392,7 @@ where $g(x)$ and $h(y)$ are functions of $x$ and $y$ respectively. These types o
 
 
 $$
-
 \int \frac{dy}{h(y)} = \int g(x) dx + C
-
 $$
 
 
@@ -14964,9 +14410,7 @@ Linear ODEs can be written in the form:
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = q(x)
-
 $$
 
 
@@ -14976,9 +14420,7 @@ where $p(x)$ and $q(x)$ are functions of $x$. These types of ODEs can be solved 
 
 
 $$
-
 \mu(x) = e^{\int p(x) dx}
-
 $$
 
 
@@ -14988,9 +14430,7 @@ Multiplying both sides of the equation by $\mu(x)$ and using the product rule, w
 
 
 $$
-
 \mu(x)\frac{dy}{dx} + \mu(x)p(x)y = \mu(x)q(x)
-
 $$
 
 
@@ -15000,9 +14440,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{d}{dx}(\mu(x)y) = \mu(x)q(x)
-
 $$
 
 
@@ -15012,9 +14450,7 @@ Integrating both sides and solving for $y$, we get the general solution:
 
 
 $$
-
 y = \frac{1}{\mu(x)}\int \mu(x)q(x) dx + Ce^{-\int p(x) dx}
-
 $$
 
 
@@ -15028,9 +14464,7 @@ Exact ODEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -15040,9 +14474,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of ODEs ca
 
 
 $$
-
 \frac{\partial \psi}{\partial x} = M(x,y) \text{ and } \frac{\partial \psi}{\partial y} = N(x,y)
-
 $$
 
 
@@ -15052,9 +14484,7 @@ This function is known as the integrating factor and can be used to solve the OD
 
 
 $$
-
 \psi(x,y) = C
-
 $$
 
 
@@ -15102,9 +14532,7 @@ First order PDEs are differential equations that involve only the first partial 
 
 
 $$
-
 \frac{\partial u}{\partial x} = f(x,y,u)
-
 $$
 
 
@@ -15122,9 +14550,7 @@ Separable PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} = g(x)h(y,u)
-
 $$
 
 
@@ -15134,9 +14560,7 @@ where $g(x)$ and $h(y,u)$ are functions of $x$ and $y$ and $u$ respectively. The
 
 
 $$
-
 \int \frac{\partial u}{h(y,u)} = \int g(x) dx + C
-
 $$
 
 
@@ -15154,9 +14578,7 @@ Linear PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} + p(x,y)u = q(x,y)
-
 $$
 
 
@@ -15166,9 +14588,7 @@ where $p(x,y)$ and $q(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \mu(x,y) = e^{\int p(x,y) dx}
-
 $$
 
 
@@ -15178,9 +14598,7 @@ Multiplying both sides of the equation by $\mu(x,y)$ and using the product rule,
 
 
 $$
-
 \mu(x,y)\frac{\partial u}{\partial x} + \mu(x,y)p(x,y)u = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15190,9 +14608,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{\partial}{\partial x}(\mu(x,y)u) = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15202,9 +14618,7 @@ Integrating both sides and solving for $u$, we get the general solution:
 
 
 $$
-
 u = \frac{1}{\mu(x,y)}\int \mu(x,y)q(x,y) dx + Ce^{-\int p(x,y) dx}
-
 $$
 
 
@@ -15218,9 +14632,7 @@ Exact PDEs can be written in the form:
 
 
 $$
-
 M(x,y,u)dx + N(x,y,u)dy = 0
-
 $$
 
 
@@ -15230,9 +14642,7 @@ where $M(x,y,u)$ and $N(x,y,u)$ are functions of $x$, $y$, and $u$. These types 
 
 
 $$
-
 \frac{\partial F}{\partial x} = M(x,y,u)
-
 $$
 
 
@@ -15242,9 +14652,7 @@ and
 
 
 $$
-
 \frac{\partial F}{\partial y} = N(x,y,u)
-
 $$
 
 
@@ -15254,9 +14662,7 @@ The general solution can then be written as:
 
 
 $$
-
 F(x,y,u) = C
-
 $$
 
 
@@ -15284,9 +14690,7 @@ First order PDEs are differential equations that involve only the first partial 
 
 
 $$
-
 \frac{\partial u}{\partial x} = f(x,y,u)
-
 $$
 
 
@@ -15304,9 +14708,7 @@ Separable PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} = g(x)h(y,u)
-
 $$
 
 
@@ -15316,9 +14718,7 @@ where $g(x)$ and $h(y,u)$ are functions of $x$ and $y$ and $u$ respectively. The
 
 
 $$
-
 \int \frac{\partial u}{h(y,u)} = \int g(x) dx + C
-
 $$
 
 
@@ -15336,9 +14736,7 @@ Linear PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} + p(x,y)u = q(x,y)
-
 $$
 
 
@@ -15348,9 +14746,7 @@ where $p(x,y)$ and $q(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \mu(x,y) = e^{\int p(x,y) dx}
-
 $$
 
 
@@ -15360,9 +14756,7 @@ Multiplying both sides of the equation by $\mu(x,y)$ and using the product rule,
 
 
 $$
-
 \mu(x,y)\frac{\partial u}{\partial x} + \mu(x,y)p(x,y)u = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15372,9 +14766,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{\partial}{\partial x}(\mu(x,y)u) = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15384,9 +14776,7 @@ Integrating both sides and solving for $u$, we get the general solution:
 
 
 $$
-
 u = \frac{1}{\mu(x,y)}\int \mu(x,y)q(x,y) dx + Ce^{-\int p(x,y) dx}
-
 $$
 
 
@@ -15400,9 +14790,7 @@ Exact PDEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -15412,9 +14800,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \frac{\partial u}{\partial x} = M(x,y) \text{ and } \frac{\partial u}{\partial y} = N(x,y)
-
 $$
 
 
@@ -15424,9 +14810,7 @@ If such a function exists, then the PDE is exact and can be solved by integratin
 
 
 $$
-
 u(x,y) = \int M(x,y) dx + g(y)
-
 $$
 
 
@@ -15444,9 +14828,7 @@ Second order PDEs are differential equations that involve the second partial der
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} = f(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15464,9 +14846,7 @@ Elliptic PDEs are second order PDEs that have a constant coefficient and are cha
 
 
 $$
-
 a\frac{\partial^2 u}{\partial x^2} + b\frac{\partial^2 u}{\partial x \partial y} + c\frac{\partial^2 u}{\partial y^2} = f(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15484,9 +14864,7 @@ Parabolic PDEs are second order PDEs that have a time-dependent coefficient and 
 
 
 $$
-
 \frac{\partial u}{\partial t} = a\frac{\partial^2 u}{\partial x^2} + b\frac{\partial^2 u}{\partial x \partial y} + c\frac{\partial^2 u}{\partial y^2} + f(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15504,9 +14882,7 @@ Hyperbolic PDEs are second order PDEs that have a time-dependent coefficient and
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = a\frac{\partial^2 u}{\partial x^2} + b\frac{\partial^2 u}{\partial x \partial y} + c\frac{\partial^2 u}{\partial y^2} + f(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15534,9 +14910,7 @@ First order PDEs are differential equations that involve only the first partial 
 
 
 $$
-
 \frac{\partial u}{\partial x} = f(x,y,u)
-
 $$
 
 
@@ -15554,9 +14928,7 @@ Separable PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} = g(x)h(y,u)
-
 $$
 
 
@@ -15566,9 +14938,7 @@ where $g(x)$ and $h(y,u)$ are functions of $x$ and $y$ and $u$ respectively. The
 
 
 $$
-
 \int \frac{\partial u}{h(y,u)} = \int g(x) dx + C
-
 $$
 
 
@@ -15586,9 +14956,7 @@ Linear PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} + p(x,y)u = q(x,y)
-
 $$
 
 
@@ -15598,9 +14966,7 @@ where $p(x,y)$ and $q(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \mu(x,y) = e^{\int p(x,y) dx}
-
 $$
 
 
@@ -15610,9 +14976,7 @@ Multiplying both sides of the equation by $\mu(x,y)$ and using the product rule,
 
 
 $$
-
 \mu(x,y)\frac{\partial u}{\partial x} + \mu(x,y)p(x,y)u = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15622,9 +14986,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{\partial}{\partial x}(\mu(x,y)u) = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15634,9 +14996,7 @@ Integrating both sides and solving for $u$, we get the general solution:
 
 
 $$
-
 u = \frac{1}{\mu(x,y)}\int \mu(x,y)q(x,y) dx + Ce^{-\int p(x,y) dx}
-
 $$
 
 
@@ -15650,9 +15010,7 @@ Exact PDEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -15662,9 +15020,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \frac{\partial u}{\partial x} = M(x,y) \text{ and } \frac{\partial u}{\partial y} = N(x,y)
-
 $$
 
 
@@ -15674,9 +15030,7 @@ If such a function exists, then the PDE is exact and can be solved by integratin
 
 
 $$
-
 u(x,y) = \int M(x,y) dx + g(y)
-
 $$
 
 
@@ -15704,9 +15058,7 @@ First order PDEs are differential equations that involve only the first partial 
 
 
 $$
-
 \frac{\partial u}{\partial x} = f(x,y,u)
-
 $$
 
 
@@ -15724,9 +15076,7 @@ Separable PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} = g(x)h(y,u)
-
 $$
 
 
@@ -15736,9 +15086,7 @@ where $g(x)$ and $h(y,u)$ are functions of $x$ and $y$ and $u$ respectively. The
 
 
 $$
-
 \int \frac{\partial u}{h(y,u)} = \int g(x) dx + C
-
 $$
 
 
@@ -15756,9 +15104,7 @@ Linear PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} + p(x,y)u = q(x,y)
-
 $$
 
 
@@ -15768,9 +15114,7 @@ where $p(x,y)$ and $q(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \mu(x,y) = e^{\int p(x,y) dx}
-
 $$
 
 
@@ -15780,9 +15124,7 @@ Multiplying both sides of the equation by $\mu(x,y)$ and using the product rule,
 
 
 $$
-
 \mu(x,y)\frac{\partial u}{\partial x} + \mu(x,y)p(x,y)u = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15792,9 +15134,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{\partial}{\partial x}(\mu(x,y)u) = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -15804,9 +15144,7 @@ Integrating both sides and solving for $u$, we get the general solution:
 
 
 $$
-
 u = \frac{1}{\mu(x,y)}\int \mu(x,y)q(x,y) dx + Ce^{-\int p(x,y) dx}
-
 $$
 
 
@@ -15820,9 +15158,7 @@ Exact PDEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -15832,9 +15168,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \frac{\partial u}{\partial x} = M(x,y) \text{ and } \frac{\partial u}{\partial y} = N(x,y)
-
 $$
 
 
@@ -15844,9 +15178,7 @@ If such a function exists, then the PDE is exact and can be solved by integratin
 
 
 $$
-
 u(x,y) = \int M(x,y) dx + g(y)
-
 $$
 
 
@@ -15864,9 +15196,7 @@ Second order PDEs involve the second partial derivatives of the dependent variab
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} + C\frac{\partial^2 u}{\partial y^2} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15884,9 +15214,7 @@ Elliptic PDEs are characterized by having a constant value for the discriminant 
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + C\frac{\partial^2 u}{\partial y^2} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15904,9 +15232,7 @@ Parabolic PDEs are characterized by having a zero discriminant $B^2 - 4AC = 0$. 
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15924,9 +15250,7 @@ Hyperbolic PDEs are characterized by having a non-zero discriminant $B^2 - 4AC \
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} + C\frac{\partial^2 u}{\partial y^2} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -15974,9 +15298,7 @@ First order PDEs are differential equations that involve only the first partial 
 
 
 $$
-
 \frac{\partial u}{\partial x} = f(x,y,u)
-
 $$
 
 
@@ -15994,9 +15316,7 @@ Separable PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} = g(x)h(y,u)
-
 $$
 
 
@@ -16006,9 +15326,7 @@ where $g(x)$ and $h(y,u)$ are functions of $x$ and $y$ and $u$ respectively. The
 
 
 $$
-
 \int \frac{\partial u}{h(y,u)} = \int g(x) dx + C
-
 $$
 
 
@@ -16026,9 +15344,7 @@ Linear PDEs can be written in the form:
 
 
 $$
-
 \frac{\partial u}{\partial x} + p(x,y)u = q(x,y)
-
 $$
 
 
@@ -16038,9 +15354,7 @@ where $p(x,y)$ and $q(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \mu(x,y) = e^{\int p(x,y) dx}
-
 $$
 
 
@@ -16050,9 +15364,7 @@ Multiplying both sides of the equation by $\mu(x,y)$ and using the product rule,
 
 
 $$
-
 \mu(x,y)\frac{\partial u}{\partial x} + \mu(x,y)p(x,y)u = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -16062,9 +15374,7 @@ which can be rewritten as:
 
 
 $$
-
 \frac{\partial}{\partial x}(\mu(x,y)u) = \mu(x,y)q(x,y)
-
 $$
 
 
@@ -16074,9 +15384,7 @@ Integrating both sides and solving for $u$, we get the general solution:
 
 
 $$
-
 u = \frac{1}{\mu(x,y)}\int \mu(x,y)q(x,y) dx + Ce^{-\int p(x,y) dx}
-
 $$
 
 
@@ -16090,9 +15398,7 @@ Exact PDEs can be written in the form:
 
 
 $$
-
 M(x,y)dx + N(x,y)dy = 0
-
 $$
 
 
@@ -16102,9 +15408,7 @@ where $M(x,y)$ and $N(x,y)$ are functions of $x$ and $y$. These types of PDEs ca
 
 
 $$
-
 \frac{\partial u}{\partial x} = M(x,y) \text{ and } \frac{\partial u}{\partial y} = N(x,y)
-
 $$
 
 
@@ -16114,9 +15418,7 @@ If such a function exists, then the PDE is exact and can be solved by integratin
 
 
 $$
-
 u(x,y) = \int M(x,y) dx + g(y)
-
 $$
 
 
@@ -16134,9 +15436,7 @@ Second order PDEs involve the second partial derivatives of the dependent variab
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} + C\frac{\partial^2 u}{\partial y^2} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -16154,9 +15454,7 @@ Elliptic PDEs are characterized by having a constant coefficient $B^2 - 4AC < 0$
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + C\frac{\partial^2 u}{\partial y^2} = F(x,y,u,\frac{\partial u}{\partial x},\frac{\partial u}{\partial y})
-
 $$
 
 
@@ -16170,9 +15468,7 @@ Parabolic PDEs have a coefficient $B^2 - 4AC = 0$ and are used to model phenomen
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} + C\frac{\partial^2 u}{\partial y^2} = \frac{\partial u}{\partial t}
-
 $$
 
 
@@ -16190,9 +15486,7 @@ Hyperbolic PDEs have a coefficient $B^2 - 4AC > 0$ and are used to model phenome
 
 
 $$
-
 A\frac{\partial^2 u}{\partial x^2} + B\frac{\partial^2 u}{\partial x \partial y} + C\frac{\partial^2 u}{\partial y^2} = \frac{\partial^2 u}{\partial t^2}
-
 $$
 
 
@@ -16272,9 +15566,7 @@ A boundary value problem can be written in the form:
 
 
 $$
-
 Lu = f(x)
-
 $$
 
 
@@ -16292,9 +15584,7 @@ Consider a metal rod of length $L$ with one end held at a constant temperature $
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} = 0, \quad 0 < x < L
-
 $$
 
 
@@ -16304,9 +15594,7 @@ with boundary conditions:
 
 
 $$
-
 u(0) = T_0, \quad u(L) = 0
-
 $$
 
 
@@ -16316,9 +15604,7 @@ where $u(x)$ represents the temperature at a point $x$ along the rod. This BVP c
 
 
 $$
-
 u(x) = c_1 + c_2x
-
 $$
 
 
@@ -16328,9 +15614,7 @@ Applying the boundary conditions, we get:
 
 
 $$
-
 u(0) = c_1 = T_0, \quad u(L) = c_1 + c_2L = 0
-
 $$
 
 
@@ -16340,9 +15624,7 @@ Solving for $c_1$ and $c_2$, we get the specific solution:
 
 
 $$
-
 u(x) = T_0\left(1 - \frac{x}{L}\right)
-
 $$
 
 
@@ -16360,9 +15642,7 @@ Consider a string of length $L$ fixed at both ends and initially displaced from 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}, \quad 0 < x < L
-
 $$
 
 
@@ -16372,9 +15652,7 @@ with boundary conditions:
 
 
 $$
-
 u(0,t) = u(L,t) = 0
-
 $$
 
 
@@ -16384,9 +15662,7 @@ where $u(x,t)$ represents the displacement of the string at a point $x$ and time
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} A_n\sin\left(\frac{n\pi x}{L}\right)\cos\left(\frac{n\pi ct}{L}\right)
-
 $$
 
 
@@ -16418,9 +15694,7 @@ A boundary value problem can be written in the form:
 
 
 $$
-
 Lu = f(x)
-
 $$
 
 
@@ -16438,9 +15712,7 @@ Consider a metal rod of length $L$ with one end held at a constant temperature $
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} = 0, \quad 0 < x < L
-
 $$
 
 
@@ -16450,9 +15722,7 @@ with boundary conditions:
 
 
 $$
-
 u(0) = T_0, \quad u(L) = 0
-
 $$
 
 
@@ -16462,9 +15732,7 @@ where $u(x)$ represents the temperature at a point $x$ along the rod. This BVP c
 
 
 $$
-
 u(x) = c_1 + c_2x
-
 $$
 
 
@@ -16474,9 +15742,7 @@ Applying the boundary conditions, we get:
 
 
 $$
-
 u(0) = c_1 = T_0, \quad u(L) = c_1 + c_2L = 0
-
 $$
 
 
@@ -16486,9 +15752,7 @@ Solving for $c_1$ and $c_2$, we get the specific solution:
 
 
 $$
-
 u(x) = T_0\left(1 - \frac{x}{L}\right)
-
 $$
 
 
@@ -16506,9 +15770,7 @@ Consider a string of length $L$ fixed at both ends and initially displaced from 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}, \quad 0 < x < L
-
 $$
 
 
@@ -16518,9 +15780,7 @@ with boundary conditions:
 
 
 $$
-
 u(0,t) = u(L,t) = 0
-
 $$
 
 
@@ -16530,9 +15790,7 @@ where $u(x,t)$ represents the displacement of the string at a point $x$ and time
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} A_n\sin\left(\frac{n\pi x}{L}\right)\cos\left(\frac{n\pi ct}{L}\right)
-
 $$
 
 
@@ -16550,9 +15808,7 @@ Sturm-Liouville theory is a powerful tool for solving certain types of BVPs. It 
 
 
 $$
-
 \frac{d}{dx}\left(p(x)\frac{d}{dx}u(x)\right) + q(x)u(x) = \lambda w(x)u(x)
-
 $$
 
 
@@ -16574,9 +15830,7 @@ Consider a particle of mass $m$ moving in a one-dimensional potential well given
 
 
 $$
-
 V(x) = \frac{1}{2}m\omega^2x^2
-
 $$
 
 
@@ -16586,9 +15840,7 @@ The time-independent Schrödinger equation for this system is:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + \frac{1}{2}m\omega^2x^2\psi = E\psi
-
 $$
 
 
@@ -16598,9 +15850,7 @@ where $\psi(x)$ is the wave function and $E$ is the energy of the particle. This
 
 
 $$
-
 p(x) = \frac{\hbar^2}{2m}, \quad q(x) = \frac{1}{2}m\omega^2x^2 - E, \quad w(x) = 1
-
 $$
 
 
@@ -16610,9 +15860,7 @@ The eigenfunctions and eigenvalues of this problem are given by:
 
 
 $$
-
 u_n(x) = H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{m\omega}{2\hbar}x^2}, \quad \lambda_n = \hbar\omega\left(n + \frac{1}{2}\right)
-
 $$
 
 
@@ -16644,9 +15892,7 @@ A boundary value problem can be written in the form:
 
 
 $$
-
 Lu = f(x)
-
 $$
 
 
@@ -16664,9 +15910,7 @@ Consider a metal rod of length $L$ with one end held at a constant temperature $
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} = 0, \quad 0 < x < L
-
 $$
 
 
@@ -16676,9 +15920,7 @@ with boundary conditions:
 
 
 $$
-
 u(0) = T_0, \quad u(L) = 0
-
 $$
 
 
@@ -16688,9 +15930,7 @@ where $u(x)$ represents the temperature at a point $x$ along the rod. This BVP c
 
 
 $$
-
 u(x) = c_1 + c_2x
-
 $$
 
 
@@ -16700,9 +15940,7 @@ Applying the boundary conditions, we get:
 
 
 $$
-
 u(0) = c_1 = T_0, \quad u(L) = c_1 + c_2L = 0
-
 $$
 
 
@@ -16712,9 +15950,7 @@ Solving for $c_1$ and $c_2$, we get the specific solution:
 
 
 $$
-
 u(x) = T_0\left(1 - \frac{x}{L}\right)
-
 $$
 
 
@@ -16732,9 +15968,7 @@ Consider a string of length $L$ fixed at both ends and initially displaced from 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}, \quad 0 < x < L
-
 $$
 
 
@@ -16744,9 +15978,7 @@ with boundary conditions:
 
 
 $$
-
 u(0,t) = u(L,t) = 0, \quad u(x,0) = f(x), \quad \frac{\partial u}{\partial t}(x,0) = g(x)
-
 $$
 
 
@@ -16756,9 +15988,7 @@ where $u(x,t)$ represents the displacement of the string at a point $x$ and time
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} A_n\sin\left(\frac{n\pi x}{L}\right)\cos\left(\frac{n\pi ct}{L}\right)
-
 $$
 
 
@@ -16818,9 +16048,7 @@ Euler's method is a simple and widely used numerical method for solving first-or
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -16834,9 +16062,7 @@ To apply Euler's method, we first divide the interval $[x_0, x]$ into $n$ subint
 
 
 $$
-
 y_{i+1} = y_i + hf(x_i, y_i)
-
 $$
 
 
@@ -16854,9 +16080,7 @@ Consider the following IVP:
 
 
 $$
-
 \frac{dy}{dx} = x + y, \quad y(0) = 1
-
 $$
 
 
@@ -16866,25 +16090,19 @@ Using Euler's method with a step size of $h = 0.1$, we can approximate the solut
 
 
 $$
-
 y_1 = y_0 + hf(x_0, y_0) = 1 + 0.1(0+1) = 1.1
-
 $$
 
 
 
 $$
-
 y_2 = y_1 + hf(x_1, y_1) = 1.1 + 0.1(0.1+1.1) = 1.22
-
 $$
 
 
 
 $$
-
 y_3 = y_2 + hf(x_2, y_2) = 1.22 + 0.1(0.2+1.22) = 1.342
-
 $$
 
 
@@ -16936,9 +16154,7 @@ Euler's method is a simple and widely used numerical method for solving first-or
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -16952,9 +16168,7 @@ To apply Euler's method, we first divide the interval $[x_0, x]$ into $n$ subint
 
 
 $$
-
 y_{i+1} = y_i + hf(x_i, y_i)
-
 $$
 
 
@@ -16972,9 +16186,7 @@ Consider the following IVP:
 
 
 $$
-
 \frac{dy}{dx} = x + y, \quad y(0) = 1
-
 $$
 
 
@@ -16984,25 +16196,19 @@ Using Euler's method with a step size of $h = 0.1$, we can approximate the solut
 
 
 $$
-
 y_1 = y_0 + hf(x_0, y_0) = 1 + 0.1(0+1) = 1.1
-
 $$
 
 
 
 $$
-
 y_2 = y_1 + hf(x_1, y_1) = 1.1 + 0.1(0.1+1.1) = 1.22
-
 $$
 
 
 
 $$
-
 y_3 = y_2 + hf(x_2, y_2) = 1.22 + 0.1(0.2+1.22) = 1.342
-
 $$
 
 
@@ -17028,9 +16234,7 @@ The general formula for RK4 is given by:
 
 
 $$
-
 y_{i+1} = y_i + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -17040,33 +16244,25 @@ where $k_1, k_2, k_3,$ and $k_4$ are defined as:
 
 
 $$
-
 k_1 = hf(x_i, y_i)
-
 $$
 
 
 
 $$
-
 k_2 = hf(x_i + \frac{h}{2}, y_i + \frac{k_1}{2})
-
 $$
 
 
 
 $$
-
 k_3 = hf(x_i + \frac{h}{2}, y_i + \frac{k_2}{2})
-
 $$
 
 
 
 $$
-
 k_4 = hf(x_i + h, y_i + k_3)
-
 $$
 
 
@@ -17080,41 +16276,31 @@ Let us revisit the previous example and solve it using RK4 with a step size of $
 
 
 $$
-
 k_1 = hf(x_0, y_0) = 0.1(0+1) = 0.1
-
 $$
 
 
 
 $$
-
 k_2 = hf(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}) = 0.1(0.05+1.05) = 0.105
-
 $$
 
 
 
 $$
-
 k_3 = hf(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}) = 0.1(0.05+1.0525) = 0.10525
-
 $$
 
 
 
 $$
-
 k_4 = hf(x_0 + h, y_0 + k_3) = 0.1(0.1+1.10525) = 0.110525
-
 $$
 
 
 
 $$
-
 y_1 = y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) = 1 + \frac{1}{6}(0.1 + 2(0.105) + 2(0.10525) + 0.110525) = 1.105
-
 $$
 
 
@@ -17146,9 +16332,7 @@ Euler's method is a simple and widely used numerical method for solving first-or
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -17162,9 +16346,7 @@ To apply Euler's method, we first divide the interval $[x_0, x]$ into $n$ subint
 
 
 $$
-
 y_{i+1} = y_i + hf(x_i, y_i)
-
 $$
 
 
@@ -17182,9 +16364,7 @@ Consider the following IVP:
 
 
 $$
-
 \frac{dy}{dx} = x + y, \quad y(0) = 1
-
 $$
 
 
@@ -17194,25 +16374,19 @@ Using Euler's method with a step size of $h = 0.1$, we can approximate the solut
 
 
 $$
-
 y_1 = y_0 + hf(x_0, y_0) = 1 + 0.1(0+1) = 1.1
-
 $$
 
 
 
 $$
-
 y_2 = y_1 + hf(x_1, y_1) = 1.1 + 0.1(0.1+1.1) = 1.22
-
 $$
 
 
 
 $$
-
 y_3 = y_2 + hf(x_2, y_2) = 1.22 + 0.1(0.2+1.22) = 1.342
-
 $$
 
 
@@ -17234,9 +16408,7 @@ One of the most commonly used Runge-Kutta methods is the fourth-order Runge-Kutt
 
 
 $$
-
 y_{i+1} = y_i + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -17246,33 +16418,25 @@ where
 
 
 $$
-
 k_1 = hf(x_i, y_i)
-
 $$
 
 
 
 $$
-
 k_2 = hf(x_i + \frac{h}{2}, y_i + \frac{k_1}{2})
-
 $$
 
 
 
 $$
-
 k_3 = hf(x_i + \frac{h}{2}, y_i + \frac{k_2}{2})
-
 $$
 
 
 
 $$
-
 k_4 = hf(x_i + h, y_i + k_3)
-
 $$
 
 
@@ -17286,9 +16450,7 @@ Consider the same IVP as in the previous example:
 
 
 $$
-
 \frac{dy}{dx} = x + y, \quad y(0) = 1
-
 $$
 
 
@@ -17298,41 +16460,31 @@ Using the RK4 method with a step size of $h = 0.1$, we can approximate the solut
 
 
 $$
-
 k_1 = hf(x_0, y_0) = 0.1(0+1) = 0.1
-
 $$
 
 
 
 $$
-
 k_2 = hf(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}) = 0.1(0.05+1.05) = 0.105
-
 $$
 
 
 
 $$
-
 k_3 = hf(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}) = 0.1(0.05+1.0525) = 0.10525
-
 $$
 
 
 
 $$
-
 k_4 = hf(x_0 + h, y_0 + k_3) = 0.1(0.1+1.10525) = 0.110525
-
 $$
 
 
 
 $$
-
 y_1 = y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) = 1 + \frac{1}{6}(0.1 + 2(0.105) + 2(0.10525) + 0.110525) = 1.105
-
 $$
 
 
@@ -17354,9 +16506,7 @@ Consider the following one-dimensional heat equation:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -17366,17 +16516,13 @@ where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is 
 
 
 $$
-
 \frac{\partial u}{\partial t} \approx \frac{u(x,t+k) - u(x,t)}{k}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} \approx \frac{u(x+h,t) - 2u(x,t) + u(x-h,t)}{h^2}
-
 $$
 
 
@@ -17386,9 +16532,7 @@ Substituting these approximations into the heat equation, we get:
 
 
 $$
-
 \frac{u(x,t+k) - u(x,t)}{k} = \alpha \frac{u(x+h,t) - 2u(x,t) + u(x-h,t)}{h^2}
-
 $$
 
 
@@ -17398,9 +16542,7 @@ Rearranging this equation, we can solve for $u(x,t+k)$, which gives us the follo
 
 
 $$
-
 u(x,t+k) = u(x,t) + \frac{\alpha k}{h^2}(u(x+h,t) - 2u(x,t) + u(x-h,t))
-
 $$
 
 
@@ -17418,9 +16560,7 @@ Consider the following initial-boundary value problem for the heat equation:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad u(0,t) = u(1,t) = 0, \quad u(x,0) = \sin(\pi x)
-
 $$
 
 
@@ -17430,17 +16570,13 @@ Using the finite difference method with $h = 0.1$ and $k = 0.01$, we can approxi
 
 
 $$
-
 u(0.1,0.01) = u(0,0) + \frac{0.01}{0.1^2}(u(0.2,0) - 2u(0.1,0) + u(0,0)) = 0 + \frac{0.01}{0.01}(0 - 2(0) + 0) = 0
-
 $$
 
 
 
 $$
-
 u(0.2,0.01) = u(0.1,0.01) + \frac{0.01}{0.1^2}(u(0.3,0) - 2u(0.2,0) + u(0.1,0)) = 0 + \frac{0.01}{0.01}(0 - 2(0) + 0) = 0
-
 $$
 
 
@@ -17468,9 +16604,7 @@ Euler's method is a simple and widely used numerical method for solving first-or
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -17484,9 +16618,7 @@ To apply Euler's method, we first divide the interval $[x_0, x]$ into $n$ subint
 
 
 $$
-
 y_{i+1} = y_i + hf(x_i, y_i)
-
 $$
 
 
@@ -17504,9 +16636,7 @@ Consider the following IVP:
 
 
 $$
-
 \frac{dy}{dx} = x + y, \quad y(0) = 1
-
 $$
 
 
@@ -17516,25 +16646,19 @@ Using Euler's method with a step size of $h = 0.1$, we can approximate the solut
 
 
 $$
-
 y_1 = y_0 + hf(x_0, y_0) = 1 + 0.1(0+1) = 1.1
-
 $$
 
 
 
 $$
-
 y_2 = y_1 + hf(x_1, y_1) = 1.1 + 0.1(0.1+1.1) = 1.22
-
 $$
 
 
 
 $$
-
 y_3 = y_2 + hf(x_2, y_2) = 1.22 + 0.1(0.2+1.22) = 1.342
-
 $$
 
 
@@ -17556,9 +16680,7 @@ The RK4 method uses four slope estimates to determine the next point on the curv
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -17568,9 +16690,7 @@ The RK4 method can be written as:
 
 
 $$
-
 y_{i+1} = y_i + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -17580,33 +16700,25 @@ where:
 
 
 $$
-
 k_1 = hf(x_i, y_i)
-
 $$
 
 
 
 $$
-
 k_2 = hf(x_i + \frac{h}{2}, y_i + \frac{k_1}{2})
-
 $$
 
 
 
 $$
-
 k_3 = hf(x_i + \frac{h}{2}, y_i + \frac{k_2}{2})
-
 $$
 
 
 
 $$
-
 k_4 = hf(x_i + h, y_i + k_3)
-
 $$
 
 
@@ -17628,9 +16740,7 @@ The AB4 method uses four previous slope estimates to determine the next point on
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -17640,9 +16750,7 @@ The AB4 method can be written as:
 
 
 $$
-
 y_{i+1} = y_i + \frac{h}{24}(55f(x_i, y_i) - 59f(x_{i-1}, y_{i-1}) + 37f(x_{i-2}, y_{i-2}) - 9f(x_{i-3}, y_{i-3}))
-
 $$
 
 
@@ -17708,15 +16816,11 @@ In conclusion, differential equations are a powerful tool in mathematics and hav
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = 2x + y
-
 $$
 
 $$
-
 \frac{dy}{dt} = -x + 3y
-
 $$
 
 a) Write the system in matrix form. \
@@ -17732,15 +16836,11 @@ c) Use the eigenvalues and eigenvectors to find the general solution of the syst
 Solve the following initial value problem:
 
 $$
-
 \frac{dy}{dx} = 2x + 3y
-
 $$
 
 $$
-
 y(0) = 1
-
 $$
 
 
@@ -17750,9 +16850,7 @@ $$
 Consider the functional:
 
 $$
-
 J[y] = \int_{0}^{1} (x^2 + y^2 + y'^2) dx
-
 $$
 
 Find the extremal of this functional using the Euler-Lagrange equation.
@@ -17764,9 +16862,7 @@ Find the extremal of this functional using the Euler-Lagrange equation.
 Find the general solution of the following differential equation:
 
 $$
-
 \frac{d^2y}{dx^2} + 4y = 0
-
 $$
 
 
@@ -17804,15 +16900,11 @@ In conclusion, differential equations are a powerful tool in mathematics and hav
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = 2x + y
-
 $$
 
 $$
-
 \frac{dy}{dt} = -x + 3y
-
 $$
 
 a) Write the system in matrix form. \
@@ -17828,15 +16920,11 @@ c) Use the eigenvalues and eigenvectors to find the general solution of the syst
 Solve the following initial value problem:
 
 $$
-
 \frac{dy}{dx} = 2x + 3y
-
 $$
 
 $$
-
 y(0) = 1
-
 $$
 
 
@@ -17846,9 +16934,7 @@ $$
 Consider the functional:
 
 $$
-
 J[y] = \int_{0}^{1} (x^2 + y^2 + y'^2) dx
-
 $$
 
 Find the extremal of this functional using the Euler-Lagrange equation.
@@ -17860,9 +16946,7 @@ Find the extremal of this functional using the Euler-Lagrange equation.
 Find the general solution of the following differential equation:
 
 $$
-
 \frac{d^2y}{dx^2} + 4y = 0
-
 $$
 
 
@@ -18168,9 +17252,7 @@ The expectation of a random variable $X$, denoted by $E[X]$, is the average valu
 
 
 $$
-
 E[X] = \sum_{i=1}^n x_i P(X = x_i) = \mathbf{x}^T \mathbf{p}
-
 $$
 
 
@@ -18184,9 +17266,7 @@ The variance of a random variable $X$, denoted by $Var(X)$, measures the spread 
 
 
 $$
-
 Var(X) = \sum_{i=1}^n (x_i - E[X])^2 P(X = x_i) = \mathbf{x}^T \mathbf{Q} \mathbf{x}
-
 $$
 
 
@@ -18308,9 +17388,7 @@ The mean, denoted by $\bar{x}$, is the sum of all the values in a dataset divide
 
 
 $$
-
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
-
 $$
 
 
@@ -18340,9 +17418,7 @@ The variance, denoted by $\sigma^2$, is a measure of how far the data points are
 
 
 $$
-
 \sigma^2 = \frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2 = \frac{1}{n} \mathbf{x}^T \mathbf{x}
-
 $$
 
 
@@ -18352,9 +17428,7 @@ The standard deviation, denoted by $\sigma$, is the square root of the variance.
 
 
 $$
-
 \sigma = \sqrt{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2} = \sqrt{\frac{1}{n} \mathbf{x}^T \mathbf{x}}
-
 $$
 
 
@@ -18394,9 +17468,7 @@ The mean, denoted by $\bar{x}$, is the sum of all the values in a dataset divide
 
 
 $$
-
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
-
 $$
 
 
@@ -18426,9 +17498,7 @@ The variance, denoted by $\sigma^2$, is a measure of how far the data points are
 
 
 $$
-
 \sigma^2 = \frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2 = \frac{1}{n}\mathbf{x}^T\mathbf{C}\mathbf{x}
-
 $$
 
 
@@ -18442,9 +17512,7 @@ The standard deviation, denoted by $\sigma$, is the square root of the variance.
 
 
 $$
-
 \sigma = \sqrt{\frac{1}{n}\mathbf{x}^T\mathbf{C}\mathbf{x}}
-
 $$
 
 
@@ -18520,9 +17588,7 @@ The mean, denoted by $\bar{x}$, is the sum of all the values in a dataset divide
 
 
 $$
-
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
-
 $$
 
 
@@ -18552,9 +17618,7 @@ The variance, denoted by $\sigma^2$, is a measure of how far the data points are
 
 
 $$
-
 \sigma^2 = \frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2 = \frac{1}{n}\mathbf{x}^T\mathbf{x}
-
 $$
 
 
@@ -18564,9 +17628,7 @@ The standard deviation, denoted by $\sigma$, is the square root of the variance.
 
 
 $$
-
 \sigma = \sqrt{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2} = \sqrt{\frac{1}{n}\mathbf{x}^T\mathbf{x}}
-
 $$
 
 
@@ -18592,9 +17654,7 @@ The Bernoulli distribution is used to model a single trial with two possible out
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p \\ 1-p \end{bmatrix}
-
 $$
 
 
@@ -18604,9 +17664,7 @@ The binomial distribution is used to model the number of successes in a fixed nu
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p_0 \\ p_1 \\ \vdots \\ p_n \end{bmatrix}
-
 $$
 
 
@@ -18620,9 +17678,7 @@ The Poisson distribution is used to model the number of events that occur in a f
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p_0 \\ p_1 \\ \vdots \\ p_k \\ \vdots \end{bmatrix}
-
 $$
 
 
@@ -18644,9 +17700,7 @@ The uniform distribution is used to model a random variable that is equally like
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p(a) \\ p(a+\Delta x) \\ \vdots \\ p(x) \\ \vdots \\ p(b-\Delta x) \\ p(b) \end{bmatrix}
-
 $$
 
 
@@ -18660,9 +17714,7 @@ The normal distribution, also known as the Gaussian distribution, is used to mod
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p(x_0) \\ p(x_1) \\ \vdots \\ p(x) \\ \vdots \end{bmatrix}
-
 $$
 
 
@@ -18676,9 +17728,7 @@ The exponential distribution is used to model the time between events in a Poiss
 
 
 $$
-
 \mathbf{p} = \begin{bmatrix} p(t_0) \\ p(t_1) \\ \vdots \\ p(t) \\ \vdots \end{bmatrix}
-
 $$
 
 
@@ -18704,9 +17754,7 @@ The null hypothesis, denoted by $H_0$, is a statement that assumes there is no s
 
 
 $$
-
 H_0 = \begin{bmatrix} p_0 \\ p_1 \\ \vdots \\ p_n \end{bmatrix}, \quad H_a = \begin{bmatrix} q_0 \\ q_1 \\ \vdots \\ q_n \end{bmatrix}
-
 $$
 
 
@@ -18728,9 +17776,7 @@ The t-test is used to compare the means of two groups of data. It is characteriz
 
 
 $$
-
 t = \frac{\mathbf{x}^T\mathbf{w}}{n}
-
 $$
 
 
@@ -18744,9 +17790,7 @@ The chi-square test is used to determine whether there is a significant associat
 
 
 $$
-
 \chi^2 = \mathbf{O}^T\mathbf{E}
-
 $$
 
 
@@ -18760,9 +17804,7 @@ The ANOVA test, also known as the analysis of variance, is used to compare the m
 
 
 $$
-
 F = \frac{\mathbf{x}^T\mathbf{W}\mathbf{x}}{n}
-
 $$
 
 
@@ -18802,9 +17844,7 @@ The mean, denoted by $\bar{x}$, is the sum of all the values in a dataset divide
 
 
 $$
-
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
-
 $$
 
 
@@ -18834,9 +17874,7 @@ The variance, denoted by $\sigma^2$, is a measure of how far the data points are
 
 
 $$
-
 \sigma^2 = \frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2 = \frac{1}{n}\mathbf{x}^T\mathbf{C}\mathbf{x}
-
 $$
 
 
@@ -18850,9 +17888,7 @@ The standard deviation, denoted by $\sigma$, is the square root of the variance.
 
 
 $$
-
 \sigma = \sqrt{\frac{1}{n}\mathbf{x}^T\mathbf{C}\mathbf{x}}
-
 $$
 
 
@@ -18920,9 +17956,7 @@ The mean, denoted by $\bar{x}$, is the sum of all the values in a dataset divide
 
 
 $$
-
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
-
 $$
 
 
@@ -18952,9 +17986,7 @@ The variance, denoted by $\sigma^2$, is a measure of how far the data points are
 
 
 $$
-
 \sigma^2 = \frac{1}{n}\mathbf{x}^T\mathbf{x}
-
 $$
 
 
@@ -18964,9 +17996,7 @@ The standard deviation, denoted by $\sigma$, is the square root of the variance.
 
 
 $$
-
 \sigma = \sqrt{\frac{1}{n}\mathbf{x}^T\mathbf{x}}
-
 $$
 
 
@@ -19282,9 +18312,7 @@ Let $X$ be a random vector with $n$ components, $X = [X_1, X_2, ..., X_n]^T$. Th
 
 
 $$
-
 \Sigma = E[(X - \mu)(X - \mu)^T]
-
 $$
 
 
@@ -19336,9 +18364,7 @@ The first principal component, $Y_1$, is the linear combination of $X$ that capt
 
 
 $$
-
 Y_1 = a_1^TX = \sum_{i=1}^n a_{1i}X_i
-
 $$
 
 
@@ -19378,9 +18404,7 @@ Let $A$ be an $m \times n$ matrix with rank $r$. Then, the SVD of $A$ is given b
 
 
 $$
-
 A = U\Sigma V^T
-
 $$
 
 
@@ -19580,9 +18604,7 @@ Before we dive into the methods used to solve unconstrained optimization problem
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{or} \quad \underset{x}{\text{maximize}} \ f(x)
-
 $$
 
 
@@ -19596,9 +18618,7 @@ To better understand this concept, let's look at some examples. Consider the fun
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -19616,9 +18636,7 @@ Another example is the function $f(x) = \sin(x)$. This function has a maximum va
 
 
 $$
-
 f(x) = \sin(x)
-
 $$
 
 
@@ -19686,9 +18704,7 @@ Before we dive into the methods used to solve unconstrained optimization problem
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{or} \quad \underset{x}{\text{maximize}} \ f(x)
-
 $$
 
 
@@ -19702,9 +18718,7 @@ To better understand this concept, let's look at some examples. Consider the fun
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -19722,9 +18736,7 @@ Another example is the function $f(x) = \sin(x)$. This function has a maximum va
 
 
 $$
-
 f(x) = \sin(x)
-
 $$
 
 
@@ -19768,9 +18780,7 @@ Before we dive into the methods used to solve unconstrained optimization problem
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{or} \quad \underset{x}{\text{maximize}} \ f(x)
-
 $$
 
 
@@ -19784,9 +18794,7 @@ To better understand this concept, let's look at some examples. Consider the fun
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -19804,9 +18812,7 @@ Another example is the function $f(x) = \sin(x)$. This function has a maximum va
 
 
 $$
-
 f(x) = \sin(x)
-
 $$
 
 
@@ -19844,9 +18850,7 @@ The algorithm for Newton's Method can be summarized as follows:
 
 
 $$
-
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-
 $$
 
 
@@ -19882,9 +18886,7 @@ Before we dive into the methods used to solve unconstrained optimization problem
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{or} \quad \underset{x}{\text{maximize}} \ f(x)
-
 $$
 
 
@@ -19898,9 +18900,7 @@ To better understand this concept, let's look at some examples. Consider the fun
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -19918,9 +18918,7 @@ Another example is the function $f(x) = \sin(x)$. This function has a maximum va
 
 
 $$
-
 f(x) = \sin(x)
-
 $$
 
 
@@ -19968,9 +18966,7 @@ Constrained optimization is the process of finding the optimal value of a functi
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g(x) = 0 \quad \text{and} \quad h(x) \leq 0
-
 $$
 
 
@@ -19984,9 +18980,7 @@ To better understand this concept, let's look at an example. Consider the functi
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20004,9 +18998,7 @@ Another example is the function $f(x) = x^2$ subject to the constraint $h(x) = x
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20042,9 +19034,7 @@ Constrained optimization is the process of finding the optimal value of a functi
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g(x) = 0 \quad \text{and} \quad h(x) \leq 0
-
 $$
 
 
@@ -20058,9 +19048,7 @@ To better understand this concept, let's look at an example. Consider the functi
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20078,9 +19066,7 @@ Another example is the function $f(x) = x^2$ subject to the constraint $h(x) = x
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20110,9 +19096,7 @@ To better understand this concept, let's look at an example. Consider the functi
 
 
 $$
-
 \underset{x,y,\lambda}{\text{minimize}} \ f(x,y) + \lambda g(x,y)
-
 $$
 
 
@@ -20122,9 +19106,7 @@ The Lagrangian for this problem is then:
 
 
 $$
-
 L(x,y,\lambda) = x^2 + y^2 + \lambda(x + y - 2)
-
 $$
 
 
@@ -20134,25 +19116,19 @@ To find the optimal values, we take the partial derivatives of the Lagrangian wi
 
 
 $$
-
 \frac{\partial L}{\partial x} = 2x + \lambda = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial L}{\partial y} = 2y + \lambda = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial L}{\partial \lambda} = x + y - 2 = 0
-
 $$
 
 
@@ -20184,9 +19160,7 @@ Constrained optimization is the process of finding the optimal value of a functi
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g(x) = 0 \quad \text{and} \quad h(x) \leq 0
-
 $$
 
 
@@ -20200,9 +19174,7 @@ To better understand this concept, let's look at an example. Consider the functi
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20220,9 +19192,7 @@ Another example is the function $f(x) = x^2$ subject to the constraint $h(x) = x
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20248,11 +19218,9 @@ The system of equations is given by:
 
 
 $$
-
 \nabla f(x) = \lambda \nabla g(x) \\
 
 g(x) = 0
-
 $$
 
 
@@ -20300,11 +19268,9 @@ We can set up the Lagrange multiplier system of equations as:
 
 
 $$
-
 \nabla f(x,y) = \lambda \nabla g(x,y) \\
 
 g(x,y) = 0
-
 $$
 
 
@@ -20314,13 +19280,11 @@ This gives us the following equations:
 
 
 $$
-
 2x = \lambda \\
 
 2y = \lambda \\
 
 x + y - 1 = 0
-
 $$
 
 
@@ -20338,11 +19302,9 @@ We can set up the Lagrange multiplier system of equations as:
 
 
 $$
-
 \nabla f(x,y) = \lambda \nabla h(x,y) \\
 
 h(x,y) = 0
-
 $$
 
 
@@ -20352,13 +19314,11 @@ This gives us the following equations:
 
 
 $$
-
 2x = 2\lambda x \\
 
 2y = 2\lambda y \\
 
 x^2 + y^2 - 1 = 0
-
 $$
 
 
@@ -20386,9 +19346,7 @@ Constrained optimization is the process of finding the optimal value of a functi
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g(x) = 0 \quad \text{and} \quad h(x) \leq 0
-
 $$
 
 
@@ -20402,9 +19360,7 @@ To better understand this concept, let's look at an example. Consider the functi
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20422,9 +19378,7 @@ Another example is the function $f(x) = x^2$ subject to the constraint $h(x) = x
 
 
 $$
-
 f(x) = x^2
-
 $$
 
 
@@ -20454,7 +19408,6 @@ Let's revisit our previous example of $f(x) = x^2$ subject to the constraint $g(
 
 
 $$
-
 \begin{align}
 
 \frac{\partial f}{\partial x} &= 2x = \lambda \frac{\partial g}{\partial x} = \lambda \\
@@ -20462,7 +19415,6 @@ $$
 g(x) &= x - 2 = 0
 
 \end{align}
-
 $$
 
 
@@ -20510,9 +19462,7 @@ Linear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ c^Tx \quad \text{subject to} \quad Ax \leq b
-
 $$
 
 
@@ -20530,9 +19480,7 @@ We can represent this problem using linear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -20546,9 +19494,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 = z
-
 $$
 
 
@@ -20566,9 +19512,7 @@ Another example is the diet problem, where a person wants to minimize their dail
 
 
 $$
-
 \underset{x}{\text{minimize}} \ c^Tx \quad \text{subject to} \quad Ax \geq b
-
 $$
 
 
@@ -20600,9 +19544,7 @@ Linear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ c^Tx \quad \text{subject to} \quad Ax \leq b
-
 $$
 
 
@@ -20620,9 +19562,7 @@ We can represent this problem using linear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -20636,9 +19576,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 = z
-
 $$
 
 
@@ -20690,9 +19628,7 @@ Linear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ c^Tx \quad \text{subject to} \quad Ax \leq b
-
 $$
 
 
@@ -20710,9 +19646,7 @@ We can represent this problem using linear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -20726,9 +19660,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 = z
-
 $$
 
 
@@ -20762,9 +19694,7 @@ The dual problem can be represented mathematically as:
 
 
 $$
-
 \underset{y}{\text{maximize}} \ b^Ty \quad \text{subject to} \quad A^Ty \leq c
-
 $$
 
 
@@ -20822,9 +19752,7 @@ Linear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ c^Tx \quad \text{subject to} \quad Ax \leq b
-
 $$
 
 
@@ -20842,9 +19770,7 @@ We can represent this problem using linear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -20858,9 +19784,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 = z
-
 $$
 
 
@@ -20918,9 +19842,7 @@ Nonlinear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \ i = 1,2,...,m
-
 $$
 
 
@@ -20938,9 +19860,7 @@ We can represent this problem using nonlinear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -20954,9 +19874,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 = z
-
 $$
 
 
@@ -20992,9 +19910,7 @@ Nonlinear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \ i = 1,2,...,m
-
 $$
 
 
@@ -21012,9 +19928,7 @@ We can represent this problem using nonlinear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -21028,9 +19942,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 = z
-
 $$
 
 
@@ -21086,9 +19998,7 @@ Nonlinear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \ i = 1,2,...,m
-
 $$
 
 
@@ -21106,9 +20016,7 @@ We can represent this problem using nonlinear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -21122,9 +20030,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 = z
-
 $$
 
 
@@ -21184,9 +20090,7 @@ Nonlinear programming can be represented mathematically as:
 
 
 $$
-
 \underset{x}{\text{minimize}} \ f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \ i = 1,2,...,m
-
 $$
 
 
@@ -21204,9 +20108,7 @@ We can represent this problem using nonlinear programming as:
 
 
 $$
-
 \underset{x}{\text{maximize}} \ 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 \quad \text{subject to} \quad x_1 + x_2 \leq 100 \quad \text{and} \quad 10x_1 + 20x_2 \leq 1000
-
 $$
 
 
@@ -21220,9 +20122,7 @@ Graphically, this problem can be represented as:
 
 
 $$
-
 10x_1 + 15x_2 - 5x_1^2 - 10x_2^2 = z
-
 $$
 
 
@@ -21278,9 +20178,7 @@ In conclusion, optimization is a crucial aspect of mathematics and has a wide ra
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x^2 + 2x + 1
-
 $$
 
 Find the optimal solution using the calculus of variations.
@@ -21304,9 +20202,7 @@ Explain the difference between convex and non-convex optimization problems, and 
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x_1^2 + x_2^2
-
 $$
 
 Find the optimal solution using gradient descent.
@@ -21342,9 +20238,7 @@ In conclusion, optimization is a crucial aspect of mathematics and has a wide ra
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x^2 + 2x + 1
-
 $$
 
 Find the optimal solution using the calculus of variations.
@@ -21368,9 +20262,7 @@ Explain the difference between convex and non-convex optimization problems, and 
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x_1^2 + x_2^2
-
 $$
 
 Find the optimal solution using gradient descent.
@@ -21436,9 +20328,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 C = A + B = [a_{ij} + b_{ij}]
-
 $$
 
 
@@ -21494,9 +20384,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 C = AB = [c_{ij}] = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -21552,9 +20440,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 C = AB = [c_{ij}] = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -21584,9 +20470,7 @@ To find the inverse of a matrix, we can use the following formula:
 
 
 $$
-
 A^{-1} = \frac{1}{det(A)}adj(A)
-
 $$
 
 
@@ -21630,9 +20514,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 C = AB = [c_{ij}] = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -21708,9 +20590,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 C = AB = [c_{ij}] = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -21728,7 +20608,6 @@ Matrix multiplication has several important properties that make it useful in so
 
 
 $$
-
 I = \begin{bmatrix}
 
 1 & 0 & \cdots & 0 \\
@@ -21740,7 +20619,6 @@ I = \begin{bmatrix}
 0 & 0 & \cdots & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -21762,7 +20640,6 @@ One of the most common applications of numerical matrix operations is in solving
 
 
 $$
-
 \begin{align}
 
 2x + 3y &= 8 \\
@@ -21770,7 +20647,6 @@ $$
 4x - 5y &= 1
 
 \end{align}
-
 $$
 
 
@@ -21780,7 +20656,6 @@ can be represented as:
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 3 \\
@@ -21806,7 +20681,6 @@ y
 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -21866,9 +20740,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{w} = \vec{u} \pm \vec{v} = [w_i] = \sum_{i=1}^{n} u_i \pm v_i
-
 $$
 
 
@@ -21920,9 +20792,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{w} = \vec{u} \pm \vec{v} = [w_i] = \sum_{i=1}^{n} u_i \pm v_i
-
 $$
 
 
@@ -21956,9 +20826,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 k\vec{v} = [kv_i] = \sum_{i=1}^{n} kv_i
-
 $$
 
 
@@ -22010,9 +20878,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{w} = \vec{u} \pm \vec{v} = [w_i] = \sum_{i=1}^{n} u_i \pm v_i
-
 $$
 
 
@@ -22042,9 +20908,7 @@ The dot product of two vectors, $\vec{u}$ and $\vec{v}$, is denoted as $\vec{u} 
 
 
 $$
-
 \vec{u} \cdot \vec{v} = \sum_{i=1}^{n} u_i v_i
-
 $$
 
 
@@ -22054,9 +20918,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{u} \cdot \vec{v} = \vec{u}^T \vec{v}
-
 $$
 
 
@@ -22112,9 +20974,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{w} = \vec{u} \pm \vec{v} = [w_i] = \sum_{i=1}^{n} u_i \pm v_i
-
 $$
 
 
@@ -22144,9 +21004,7 @@ The dot product of two vectors, $\vec{u}$ and $\vec{v}$, is denoted as $\vec{u} 
 
 
 $$
-
 \vec{u} \cdot \vec{v} = \sum_{i=1}^{n} u_i v_i
-
 $$
 
 
@@ -22198,9 +21056,7 @@ This operation can also be represented using the following equation:
 
 
 $$
-
 \vec{w} = \vec{u} \pm \vec{v} = [w_i] = \sum_{i=1}^{n} u_i \pm v_i
-
 $$
 
 
@@ -22226,9 +21082,7 @@ The dot product, also known as the scalar product, is another important operatio
 
 
 $$
-
 \vec{u} \cdot \vec{v} = \sum_{i=1}^{n} u_i v_i
-
 $$
 
 
@@ -22296,7 +21150,6 @@ To perform Gaussian elimination, we first write the system of equations in augme
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -22308,7 +21161,6 @@ a_{21} & a_{22} & \dots & a_{2n} & b_2 \\
 a_{n1} & a_{n2} & \dots & a_{nn} & b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22338,7 +21190,6 @@ To perform LU decomposition, we first write the system of equations in augmented
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -22376,7 +21227,6 @@ b_2 \\
 b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22424,7 +21274,6 @@ To perform Gaussian elimination, we first write the system of equations in augme
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -22436,7 +21285,6 @@ a_{21} & a_{22} & \dots & a_{2n} & b_2 \\
 a_{n1} & a_{n2} & \dots & a_{nn} & b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22462,7 +21310,6 @@ To perform LU decomposition, we first write the system of equations in augmented
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -22500,7 +21347,6 @@ b_2 \\
 b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22510,7 +21356,6 @@ Next, we use elementary row operations to transform the matrix into upper triang
 
 
 $$
-
 \begin{bmatrix}
 
 1 & 0 & \dots & 0 \\
@@ -22548,7 +21393,6 @@ a_{11} & a_{12} & \dots & a_{1n} \\
 0 & 0 & \dots & a_{nn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -22570,9 +21414,7 @@ One commonly used iterative method is the Jacobi method. This method involves sp
 
 
 $$
-
 x^{(k+1)} = D^{-1}(b - Rx^{(k)})
-
 $$
 
 
@@ -22620,7 +21462,6 @@ To perform Gaussian elimination, we first write the system of equations in augme
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -22632,7 +21473,6 @@ a_{21} & a_{22} & \dots & a_{2n} & b_2 \\
 a_{n1} & a_{n2} & \dots & a_{nn} & b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22700,7 +21540,6 @@ To perform Gaussian elimination, we first write the system of equations in augme
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -22712,7 +21551,6 @@ a_{21} & a_{22} & \dots & a_{2n} & b_2 \\
 a_{n1} & a_{n2} & \dots & a_{nn} & b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22738,7 +21576,6 @@ To perform LU decomposition, we first write the system of equations in augmented
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -22750,7 +21587,6 @@ a_{21} & a_{22} & \dots & a_{2n} & b_2 \\
 a_{n1} & a_{n2} & \dots & a_{nn} & b_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -22780,9 +21616,7 @@ The Jacobi method involves splitting the original matrix into a diagonal matrix 
 
 
 $$
-
 x^{(k+1)} = D^{-1}(b - Rx^{(k)})
-
 $$
 
 
@@ -22842,9 +21676,7 @@ To use the power method, we start with an initial guess for the dominant eigenve
 
 
 $$
-
 \mathbf{x}^{(k+1)} = \frac{\mathbf{A}\mathbf{x}^{(k)}}{\|\mathbf{A}\mathbf{x}^{(k)}\|}
-
 $$
 
 
@@ -22888,9 +21720,7 @@ To use the QR algorithm, we start with an initial matrix $\mathbf{A}^{(0)}$, whi
 
 
 $$
-
 \mathbf{A}^{(k+1)} = \mathbf{Q}^{(k)}\mathbf{R}^{(k)}
-
 $$
 
 
@@ -22934,9 +21764,7 @@ To use the Jacobi method, we start with an initial symmetric matrix $\mathbf{A}^
 
 
 $$
-
 \mathbf{A}^{(k+1)} = \mathbf{P}^{(k)T}\mathbf{A}^{(k)}\mathbf{P}^{(k)}
-
 $$
 
 
@@ -23022,7 +21850,6 @@ Overall, this chapter has provided a comprehensive understanding of numerical li
 Consider the following system of linear equations:
 
 $$
-
 \begin{align}
 
 x_1 + 2x_2 + 3x_3 &= 6 \\
@@ -23032,7 +21859,6 @@ x_1 + 2x_2 + 3x_3 &= 6 \\
 3x_1 + 4x_2 + 5x_3 &= 16
 
 \end{align}
-
 $$
 
 Use Gaussian elimination to solve for the values of $x_1$, $x_2$, and $x_3$.
@@ -23056,7 +21882,6 @@ Find the eigenvalues and eigenvectors of the matrix $A = \begin{bmatrix} 2 & 1 \
 Consider the following image:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 & 4 \\
@@ -23068,7 +21893,6 @@ $$
 13 & 14 & 15 & 16
 
 \end{bmatrix}
-
 $$
 
 Perform a singular value decomposition (SVD) on the image matrix to compress it into a lower-dimensional representation.
@@ -23080,9 +21904,7 @@ Perform a singular value decomposition (SVD) on the image matrix to compress it 
 Implement the gradient descent algorithm to solve the following optimization problem:
 
 $$
-
 \min_{w} \sum_{i=1}^{n} (y_i - w^Tx_i)^2
-
 $$
 
 where $w$ is a vector of weights, $x_i$ is a data point, and $y_i$ is the corresponding label.
@@ -23112,7 +21934,6 @@ Overall, this chapter has provided a comprehensive understanding of numerical li
 Consider the following system of linear equations:
 
 $$
-
 \begin{align}
 
 x_1 + 2x_2 + 3x_3 &= 6 \\
@@ -23122,7 +21943,6 @@ x_1 + 2x_2 + 3x_3 &= 6 \\
 3x_1 + 4x_2 + 5x_3 &= 16
 
 \end{align}
-
 $$
 
 Use Gaussian elimination to solve for the values of $x_1$, $x_2$, and $x_3$.
@@ -23146,7 +21966,6 @@ Find the eigenvalues and eigenvectors of the matrix $A = \begin{bmatrix} 2 & 1 \
 Consider the following image:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 & 4 \\
@@ -23158,7 +21977,6 @@ $$
 13 & 14 & 15 & 16
 
 \end{bmatrix}
-
 $$
 
 Perform a singular value decomposition (SVD) on the image matrix to compress it into a lower-dimensional representation.
@@ -23170,9 +21988,7 @@ Perform a singular value decomposition (SVD) on the image matrix to compress it 
 Implement the gradient descent algorithm to solve the following optimization problem:
 
 $$
-
 \min_{w} \sum_{i=1}^{n} (y_i - w^Tx_i)^2
-
 $$
 
 where $w$ is a vector of weights, $x_i$ is a data point, and $y_i$ is the corresponding label.
@@ -24062,7 +22878,6 @@ In conclusion, linear algebra is an essential subject for anyone interested in c
 Consider the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -24072,7 +22887,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the transpose of $A$.
@@ -24090,9 +22904,7 @@ Given the vectors $u = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$ and $v = \begi
 In machine learning, the cost function for linear regression is defined as:
 
 $$
-
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2
-
 $$
 
 where $m$ is the number of training examples, $h_\theta(x)$ is the hypothesis function, and $y$ is the actual output. Write a function in Python to calculate the cost function for a given set of training data and parameters $\theta$.
@@ -24104,7 +22916,6 @@ where $m$ is the number of training examples, $h_\theta(x)$ is the hypothesis fu
 In computer graphics, a 2D rotation matrix is defined as:
 
 $$
-
 R = \begin{bmatrix}
 
 \cos \theta & -\sin \theta \\
@@ -24112,7 +22923,6 @@ R = \begin{bmatrix}
 \sin \theta & \cos \theta
 
 \end{bmatrix}
-
 $$
 
 Write a function in Java to rotate a given point $(x, y)$ by a given angle $\theta$ using this rotation matrix.
@@ -24148,7 +22958,6 @@ In conclusion, linear algebra is an essential subject for anyone interested in c
 Consider the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -24158,7 +22967,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the transpose of $A$.
@@ -24176,9 +22984,7 @@ Given the vectors $u = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$ and $v = \begi
 In machine learning, the cost function for linear regression is defined as:
 
 $$
-
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2
-
 $$
 
 where $m$ is the number of training examples, $h_\theta(x)$ is the hypothesis function, and $y$ is the actual output. Write a function in Python to calculate the cost function for a given set of training data and parameters $\theta$.
@@ -24190,7 +22996,6 @@ where $m$ is the number of training examples, $h_\theta(x)$ is the hypothesis fu
 In computer graphics, a 2D rotation matrix is defined as:
 
 $$
-
 R = \begin{bmatrix}
 
 \cos \theta & -\sin \theta \\
@@ -24198,7 +23003,6 @@ R = \begin{bmatrix}
 \sin \theta & \cos \theta
 
 \end{bmatrix}
-
 $$
 
 Write a function in Java to rotate a given point $(x, y)$ by a given angle $\theta$ using this rotation matrix.
@@ -24264,13 +23068,11 @@ For example, consider a simple circuit with two resistors connected in series, a
 
 
 $$
-
 V_1 = IR_1 \\
 
 V_2 = IR_2 \\
 
 V_1 + V_2 = V_{in}
-
 $$
 
 
@@ -24280,7 +23082,6 @@ where $V_1$ and $V_2$ are the voltages across each resistor, $I$ is the current 
 
 
 $$
-
 \begin{bmatrix}
 
 1 & 0 & -1 \\
@@ -24312,7 +23113,6 @@ I
 V_{in}
 
 \end{bmatrix}
-
 $$
 
 
@@ -24356,9 +23156,7 @@ For example, consider a discrete-time signal $x(n)$, where $n$ represents the ti
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
-
 $$
 
 
@@ -24368,7 +23166,6 @@ where $k$ represents the frequency index and $N$ is the length of the signal. Th
 
 
 $$
-
 \begin{bmatrix}
 
 X(0) \\
@@ -24406,7 +23203,6 @@ x(1) \\
 x(N-1)
 
 \end{bmatrix}
-
 $$
 
 
@@ -24450,17 +23246,13 @@ For example, consider a linear time-invariant system described by the following 
 
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 
 
 $$
-
 y(t) = Cx(t) + Du(t)
-
 $$
 
 
@@ -24504,17 +23296,13 @@ For example, consider a linear time-invariant system described by the following 
 
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 
 
 $$
-
 y(t) = Cx(t) + Du(t)
-
 $$
 
 
@@ -24558,9 +23346,7 @@ One of the key concepts in stress and strain analysis is the Hooke's law, which 
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -24574,17 +23360,13 @@ Another important concept in stress and strain analysis is the principle of supe
 
 
 $$
-
 \sigma_{total} = \sum_{i=1}^{n} \sigma_i
-
 $$
 
 
 
 $$
-
 \epsilon_{total} = \sum_{i=1}^{n} \epsilon_i
-
 $$
 
 
@@ -24620,9 +23402,7 @@ One of the key concepts in vibration analysis is the eigenvalue problem, which a
 
 
 $$
-
 M\ddot{x} + Kx = 0
-
 $$
 
 
@@ -24636,9 +23416,7 @@ Another important concept in vibration analysis is the principle of superpositio
 
 
 $$
-
 x_{total} = \sum_{i=1}^{n} x_i
-
 $$
 
 
@@ -24678,9 +23456,7 @@ The FEM relies heavily on linear algebra, as it involves solving large systems o
 
 
 $$
-
 [K]{x} = {F}
-
 $$
 
 
@@ -25226,7 +24002,6 @@ Consider a system with three inputs and two outputs. Represent this system using
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -25234,7 +24009,6 @@ A = \begin{bmatrix}
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -25244,9 +24018,7 @@ $$
 A control system has the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Determine the poles and zeros of this system and plot them on the complex plane.
@@ -25298,7 +24070,6 @@ Consider a system with three inputs and two outputs. Represent this system using
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 \\
@@ -25306,7 +24077,6 @@ A = \begin{bmatrix}
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -25316,9 +24086,7 @@ $$
 A control system has the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Determine the poles and zeros of this system and plot them on the complex plane.
@@ -25394,9 +24162,7 @@ The second law, also known as the law of acceleration, states that the accelerat
 
 
 $$
-
 \vec{F} = m\vec{a}
-
 $$
 
 
@@ -25448,9 +24214,7 @@ The second law, also known as the law of acceleration, states that the accelerat
 
 
 $$
-
 \vec{F} = m\vec{a}
-
 $$
 
 
@@ -25518,9 +24282,7 @@ The second law, also known as the law of acceleration, states that the accelerat
 
 
 $$
-
 \vec{F} = m\vec{a}
-
 $$
 
 
@@ -25550,9 +24312,7 @@ The Lagrangian is defined as:
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -25570,9 +24330,7 @@ Hamiltonian mechanics is another formulation of classical mechanics that is clos
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -25616,9 +24374,7 @@ The second law, also known as the law of acceleration, states that the accelerat
 
 
 $$
-
 \vec{F} = m\vec{a}
-
 $$
 
 
@@ -25648,9 +24404,7 @@ Linear algebra is used to represent and manipulate these physical quantities as 
 
 
 $$
-
 \vec{p} = m\vec{v}
-
 $$
 
 
@@ -25720,9 +24474,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
-
 $$
 
 
@@ -25736,9 +24488,7 @@ The wave function $\psi(x,t)$ is a complex-valued function that contains all the
 
 
 $$
-
 \psi(x,t) = \hat{U}(t) \psi(x,0)
-
 $$
 
 
@@ -25778,9 +24528,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
-
 $$
 
 
@@ -25794,9 +24542,7 @@ The wave function $\psi(x,t)$ is a complex-valued function that contains all the
 
 
 $$
-
 \psi(x,t) = \hat{U}(t) \psi(x,0)
-
 $$
 
 
@@ -25848,9 +24594,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
-
 $$
 
 
@@ -25864,9 +24608,7 @@ The wave function $\psi(x,t)$ is a complex-valued function that contains all the
 
 
 $$
-
 \psi(x,t) = \hat{U}(t) \psi(x,0)
-
 $$
 
 
@@ -25930,9 +24672,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
-
 $$
 
 
@@ -25946,9 +24686,7 @@ The wave function $\psi(x,t)$ is a complex-valued function that contains all the
 
 
 $$
-
 \psi(x,t) = \hat{U}(t) \psi(x,0)
-
 $$
 
 
@@ -26020,33 +24758,25 @@ Maxwell's equations are a set of four fundamental equations in electrodynamics t
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
@@ -26060,17 +24790,13 @@ The electric and magnetic fields, $\mathbf{E}$ and $\mathbf{B}$, are vector fiel
 
 
 $$
-
 \mathbf{E}(x,y,z,t) = \hat{U}(t) \mathbf{E}(x,y,z,0)
-
 $$
 
 
 
 $$
-
 \mathbf{B}(x,y,z,t) = \hat{U}(t) \mathbf{B}(x,y,z,0)
-
 $$
 
 
@@ -26118,33 +24844,25 @@ Maxwell's equations are a set of four fundamental equations in electrodynamics t
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
@@ -26158,17 +24876,13 @@ The electric and magnetic fields, $\mathbf{E}$ and $\mathbf{B}$, are vector fiel
 
 
 $$
-
 \mathbf{E}(x,y,z,t) = \hat{U}(t) \mathbf{E}(x,y,z,0)
-
 $$
 
 
 
 $$
-
 \mathbf{B}(x,y,z,t) = \hat{U}(t) \mathbf{B}(x,y,z,0)
-
 $$
 
 
@@ -26216,33 +24930,25 @@ Maxwell's equations are a set of four fundamental equations in electrodynamics t
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
@@ -26260,17 +24966,13 @@ The electric and magnetic fields, $\mathbf{E}$ and $\mathbf{B}$, are vector fiel
 
 
 $$
-
 \mathbf{E}(x,y,z,t) = \hat{U}(t) \mathbf{E}(x,y,z,0)
-
 $$
 
 
 
 $$
-
 \mathbf{B}(x,y,z,t) = \hat{U}(t) \mathbf{B}(x,y,z,0)
-
 $$
 
 
@@ -26280,9 +24982,7 @@ where $\mathbf{E}(x,y,z,0)$ and $\mathbf{B}(x,y,z,0)$ are the initial states of 
 
 
 $$
-
 \hat{U}(t) = e^{-i\hat{H}t/\hbar}
-
 $$
 
 
@@ -26330,33 +25030,25 @@ Maxwell's equations are a set of four fundamental equations in electrodynamics t
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
@@ -26374,17 +25066,13 @@ The electric and magnetic fields, $\mathbf{E}$ and $\mathbf{B}$, are vector fiel
 
 
 $$
-
 \mathbf{E}(x,y,z,t) = \hat{U}(t) \mathbf{E}(x,y,z,0)
-
 $$
 
 
 
 $$
-
 \mathbf{B}(x,y,z,t) = \hat{U}(t) \mathbf{B}(x,y,z,0)
-
 $$
 
 
@@ -26402,9 +25090,7 @@ Linear algebra plays a crucial role in solving problems in electrodynamics. One 
 
 
 $$
-
 \nabla^2 \mathbf{E} - \frac{1}{c^2} \frac{\partial^2 \mathbf{E}}{\partial t^2} = 0
-
 $$
 
 
@@ -26448,9 +25134,7 @@ Einstein's field equations are a set of ten partial differential equations that 
 
 
 $$
-
 R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = \frac{8\pi G}{c^4}T_{\mu\nu}
-
 $$
 
 
@@ -26468,9 +25152,7 @@ In general relativity, the metric tensor $g_{\mu\nu}$ is a fundamental object th
 
 
 $$
-
 g_{\mu\nu}(x,y,z,t) = \hat{U}(t) g_{\mu\nu}(x,y,z,0)
-
 $$
 
 
@@ -26518,9 +25200,7 @@ Einstein's field equations are a set of ten partial differential equations that 
 
 
 $$
-
 R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = \frac{8\pi G}{c^4}T_{\mu\nu}
-
 $$
 
 
@@ -26542,9 +25222,7 @@ The metric tensor is a key component in solving Einstein's field equations, as i
 
 
 $$
-
 g_{\mu\nu}(x,y,z,t) = \hat{U}(t) g_{\mu\nu}(x,y,z,0)
-
 $$
 
 
@@ -26576,9 +25254,7 @@ Einstein's field equations are a set of ten partial differential equations that 
 
 
 $$
-
 R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = \frac{8\pi G}{c^4}T_{\mu\nu}
-
 $$
 
 
@@ -26634,9 +25310,7 @@ Einstein's field equations are a set of ten partial differential equations that 
 
 
 $$
-
 R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = \frac{8\pi G}{c^4}T_{\mu\nu}
-
 $$
 
 
@@ -26834,9 +25508,7 @@ At the core of consumer theory is the utility function, which represents an indi
 
 
 $$
-
 U(x,y) = \begin{bmatrix} u(x) \\ u(y) \end{bmatrix}
-
 $$
 
 
@@ -26850,9 +25522,7 @@ Using linear algebra, we can analyze how changes in prices and income affect a c
 
 
 $$
-
 p_x x + p_y y = I
-
 $$
 
 
@@ -26866,9 +25536,7 @@ Linear algebra also allows us to analyze the effects of changes in prices and in
 
 
 $$
-
 \epsilon = \frac{\Delta x / x}{\Delta p / p}
-
 $$
 
 
@@ -26904,9 +25572,7 @@ At the core of consumer theory is the utility function, which represents an indi
 
 
 $$
-
 U(x,y) = \begin{bmatrix} u(x) \\ u(y) \end{bmatrix}
-
 $$
 
 
@@ -26920,9 +25586,7 @@ Using linear algebra, we can analyze how changes in prices and income affect a c
 
 
 $$
-
 p_x x + p_y y = I
-
 $$
 
 
@@ -26944,9 +25608,7 @@ At the core of producer theory is the production function, which represents the 
 
 
 $$
-
 F(L,K) = \begin{bmatrix} f(L) \\ f(K) \end{bmatrix}
-
 $$
 
 
@@ -26960,9 +25622,7 @@ Using linear algebra, we can analyze how changes in input prices and technology 
 
 
 $$
-
 wL + rK = B
-
 $$
 
 
@@ -26998,9 +25658,7 @@ At the core of consumer theory is the utility function, which represents an indi
 
 
 $$
-
 U(x,y) = \begin{bmatrix} u(x) \\ u(y) \end{bmatrix}
-
 $$
 
 
@@ -27014,9 +25672,7 @@ Using linear algebra, we can analyze how changes in prices and income affect a c
 
 
 $$
-
 p_x x + p_y y = I
-
 $$
 
 
@@ -27038,9 +25694,7 @@ The production function, which represents the relationship between inputs and ou
 
 
 $$
-
 F(L,K) = \begin{bmatrix} f(L,K) \end{bmatrix}
-
 $$
 
 
@@ -27054,9 +25708,7 @@ Using linear algebra, we can analyze how changes in input prices and technology 
 
 
 $$
-
 wL + rK = C
-
 $$
 
 
@@ -27078,9 +25730,7 @@ In this market, the demand and supply functions can be represented as vectors in
 
 
 $$
-
 D(p_x,p_y) = \begin{bmatrix} d(p_x,p_y) \end{bmatrix}
-
 $$
 
 
@@ -27090,9 +25740,7 @@ where $d(p_x,p_y)$ represents the quantity demanded of good x and y at given pri
 
 
 $$
-
 S(p_x,p_y) = \begin{bmatrix} s(p_x,p_y) \end{bmatrix}
-
 $$
 
 
@@ -27106,9 +25754,7 @@ The market equilibrium occurs at the intersection of the demand and supply funct
 
 
 $$
-
 D(p_x,p_y) = S(p_x,p_y)
-
 $$
 
 
@@ -27140,9 +25786,7 @@ At the core of consumer theory is the utility function, which represents an indi
 
 
 $$
-
 U(x,y) = \begin{bmatrix} u(x) \\ u(y) \end{bmatrix}
-
 $$
 
 
@@ -27156,9 +25800,7 @@ Using linear algebra, we can analyze how changes in prices and income affect a c
 
 
 $$
-
 p_x x + p_y y = I
-
 $$
 
 
@@ -27180,9 +25822,7 @@ At the core of producer theory is the production function, which represents the 
 
 
 $$
-
 F(L,K) = \begin{bmatrix} f(L) \\ f(K) \end{bmatrix}
-
 $$
 
 
@@ -27196,9 +25836,7 @@ Using linear algebra, we can analyze how changes in input prices and technology 
 
 
 $$
-
 wL + rK = A
-
 $$
 
 
@@ -27250,9 +25888,7 @@ At the core of national income accounting is the national income identity, which
 
 
 $$
-
 Y = C + I + G + NX
-
 $$
 
 
@@ -27296,9 +25932,7 @@ At the core of national income accounting is the national income identity, which
 
 
 $$
-
 Y = C + I + G + NX
-
 $$
 
 
@@ -27362,9 +25996,7 @@ At the core of national income accounting is the national income identity, which
 
 
 $$
-
 Y = C + I + G + NX
-
 $$
 
 
@@ -27444,9 +26076,7 @@ At the core of national income accounting is the national income identity, which
 
 
 $$
-
 Y = C + I + G + NX
-
 $$
 
 
@@ -27514,9 +26144,7 @@ Linear algebra plays a crucial role in regression analysis by providing a framew
 
 
 $$
-
 Y = \beta_0 + \beta_1X + \epsilon
-
 $$
 
 
@@ -27526,7 +26154,6 @@ where $\beta_0$ and $\beta_1$ are the intercept and slope coefficients, respecti
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27574,7 +26201,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -27588,9 +26214,7 @@ Linear algebra also plays a crucial role in multiple regression analysis, where 
 
 
 $$
-
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_kX_k + \epsilon
-
 $$
 
 
@@ -27600,7 +26224,6 @@ where $k$ is the number of independent variables. This equation can be rewritten
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27652,7 +26275,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -27692,9 +26314,7 @@ Linear algebra plays a crucial role in regression analysis by providing a framew
 
 
 $$
-
 Y = \beta_0 + \beta_1X + \epsilon
-
 $$
 
 
@@ -27704,7 +26324,6 @@ where $\beta_0$ and $\beta_1$ are the intercept and slope coefficients, respecti
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27752,7 +26371,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -27766,9 +26384,7 @@ Linear algebra also plays a crucial role in multiple regression analysis, where 
 
 
 $$
-
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_kX_k + \epsilon
-
 $$
 
 
@@ -27778,7 +26394,6 @@ where $k$ is the number of independent variables. This equation can be rewritten
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27830,7 +26445,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -27852,9 +26466,7 @@ Linear algebra plays a crucial role in time series analysis by providing a frame
 
 
 $$
-
 Y = \beta_0 + \beta_1t + \epsilon
-
 $$
 
 
@@ -27864,7 +26476,6 @@ where $\beta_0$ and $\beta_1$ are the intercept and slope coefficients, respecti
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27912,7 +26523,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -27926,9 +26536,7 @@ Linear algebra also plays a crucial role in multiple time series analysis, where
 
 
 $$
-
 Y = \beta_0 + \beta_1t_1 + \beta_2t_2 + ... + \beta_kt_k + \epsilon
-
 $$
 
 
@@ -27938,7 +26546,6 @@ where $k$ is the number of independent variables. This equation can be rewritten
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -27990,7 +26597,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28022,9 +26628,7 @@ Linear algebra plays a crucial role in regression analysis by providing a framew
 
 
 $$
-
 Y = \beta_0 + \beta_1X + \epsilon
-
 $$
 
 
@@ -28034,7 +26638,6 @@ where $\beta_0$ and $\beta_1$ are the intercept and slope coefficients, respecti
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28082,7 +26685,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28096,9 +26698,7 @@ Linear algebra also plays a crucial role in multiple regression analysis, where 
 
 
 $$
-
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_kX_k + \epsilon
-
 $$
 
 
@@ -28108,7 +26708,6 @@ where $k$ is the number of independent variables. This equation can be rewritten
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28160,7 +26759,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28182,9 +26780,7 @@ One common time series model used in economics is the autoregressive (AR) model,
 
 
 $$
-
 Y_t = \beta_0 + \beta_1Y_{t-1} + \beta_2Y_{t-2} + ... + \beta_pY_{t-p} + \epsilon_t
-
 $$
 
 
@@ -28194,7 +26790,6 @@ where $Y_t$ is the value of the variable at time $t$, $\beta_0$ is the intercept
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28246,7 +26841,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28268,9 +26862,7 @@ One common panel data model used in economics is the fixed effects model, which 
 
 
 $$
-
 Y_{it} = \beta_0 + \beta_1X_{it} + \alpha_i + \epsilon_{it}
-
 $$
 
 
@@ -28280,7 +26872,6 @@ where $Y_{it}$ is the value of the dependent variable for individual $i$ at time
 
 
 $$
-
 \begin{bmatrix}
 
 Y_{11} \\
@@ -28414,7 +27005,6 @@ Y_{NT}
 \epsilon_{NT}
 
 \end{bmatrix}
-
 $$
 
 
@@ -28446,9 +27036,7 @@ Linear algebra plays a crucial role in regression analysis by providing a framew
 
 
 $$
-
 Y = \beta_0 + \beta_1X + \epsilon
-
 $$
 
 
@@ -28458,7 +27046,6 @@ where $\beta_0$ and $\beta_1$ are the intercept and slope coefficients, respecti
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28506,7 +27093,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28520,9 +27106,7 @@ Linear algebra also plays a crucial role in multiple regression analysis, where 
 
 
 $$
-
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_kX_k + \epsilon
-
 $$
 
 
@@ -28532,7 +27116,6 @@ where $k$ is the number of independent variables. This equation can be rewritten
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28584,7 +27167,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28618,9 +27200,7 @@ Linear algebra plays a crucial role in time series analysis by providing a frame
 
 
 $$
-
 Y_t = \phi_0 + \phi_1Y_{t-1} + \phi_2Y_{t-2} + ... + \phi_pY_{t-p} + \epsilon_t
-
 $$
 
 
@@ -28630,7 +27210,6 @@ where $Y_t$ is the value of the dependent variable at time $t$, $\phi_0$ is the 
 
 
 $$
-
 \begin{bmatrix}
 
 Y_1 \\
@@ -28682,7 +27261,6 @@ Y_n
 \epsilon_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -28750,7 +27328,6 @@ In this game, the first number in each cell represents the payoff for Player 1, 
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -28758,7 +27335,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -28812,7 +27388,6 @@ In this game, the first number in each cell represents the payoff for Player 1, 
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -28820,7 +27395,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -28886,7 +27460,6 @@ In this game, the first number in each cell represents the payoff for Player 1, 
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -28894,7 +27467,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -28916,7 +27488,6 @@ Let us consider the game from the previous example, where Player 1 has two strat
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -28924,7 +27495,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -28964,7 +27534,6 @@ In this game, both players have two strategies (S1 and S2) and their payoffs are
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -28972,7 +27541,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -28982,9 +27550,7 @@ To find the optimal mixed strategies for each player, we can use the concept of 
 
 
 $$
-
 E_1 = p(2) + (1-p)(1) = 2p + 1 - p = p + 1
-
 $$
 
 
@@ -28994,9 +27560,7 @@ Similarly, for Player 2, their expected payoff can be represented as:
 
 
 $$
-
 E_2 = p(0) + (1-p)(3) = 3 - 3p
-
 $$
 
 
@@ -29046,7 +27610,6 @@ In this game, the first number in each cell represents the payoff for Player 1, 
 
 
 $$
-
 \begin{bmatrix}
 
 2 & 0 \\
@@ -29054,7 +27617,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -29080,7 +27642,6 @@ The Nash equilibrium can then be found by solving the following system of equati
 
 
 $$
-
 \begin{cases}
 
 \frac{\partial u_1}{\partial s_1} = 0 \\
@@ -29088,7 +27649,6 @@ $$
 \frac{\partial u_2}{\partial s_2} = 0
 
 \end{cases}
-
 $$
 
 
@@ -29144,7 +27704,6 @@ In conclusion, linear algebra is a fundamental and indispensable tool in economi
 Consider the following system of linear equations:
 
 $$
-
 \begin{align}
 
 2x + 3y &= 10 \\
@@ -29152,7 +27711,6 @@ $$
 4x - 5y &= 20
 
 \end{align}
-
 $$
 
 Solve for the values of $x$ and $y$.
@@ -29176,7 +27734,6 @@ Suppose a company produces two products, $x$ and $y$, with production costs of $
 Consider the following optimization problem:
 
 $$
-
 \begin{align}
 
 \text{maximize } & 2x + 3y \\
@@ -29188,7 +27745,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 Find the optimal values of $x$ and $y$.
@@ -29228,7 +27784,6 @@ In conclusion, linear algebra is a fundamental and indispensable tool in economi
 Consider the following system of linear equations:
 
 $$
-
 \begin{align}
 
 2x + 3y &= 10 \\
@@ -29236,7 +27791,6 @@ $$
 4x - 5y &= 20
 
 \end{align}
-
 $$
 
 Solve for the values of $x$ and $y$.
@@ -29260,7 +27814,6 @@ Suppose a company produces two products, $x$ and $y$, with production costs of $
 Consider the following optimization problem:
 
 $$
-
 \begin{align}
 
 \text{maximize } & 2x + 3y \\
@@ -29272,7 +27825,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 Find the optimal values of $x$ and $y$.
@@ -29330,9 +27882,7 @@ One of the fundamental concepts in population biology is the population growth m
 
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right)
-
 $$
 
 
@@ -29346,9 +27896,7 @@ To solve this differential equation, we can use linear algebra techniques. First
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29388,9 +27936,7 @@ One of the fundamental concepts in population biology is the population growth m
 
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right)
-
 $$
 
 
@@ -29404,9 +27950,7 @@ To solve this differential equation, we can use linear algebra techniques. First
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29432,9 +27976,7 @@ One of the most well-known predator-prey models is the Lotka-Volterra model, whi
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29470,9 +28012,7 @@ One of the fundamental concepts in population biology is the population growth m
 
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right)
-
 $$
 
 
@@ -29486,9 +28026,7 @@ To solve this differential equation, we can use linear algebra techniques. First
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29514,9 +28052,7 @@ One type of competition model is the Lotka-Volterra model, which describes the d
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29542,9 +28078,7 @@ One commonly used epidemiological model is the SIR model, which divides the popu
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 
@@ -29580,9 +28114,7 @@ One of the fundamental concepts in population biology is the population growth m
 
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right)
-
 $$
 
 
@@ -29596,9 +28128,7 @@ To solve this differential equation, we can use linear algebra techniques. First
 
 
 $$
-
 \frac{d\vec{N}}{dt} = A\vec{N}
-
 $$
 
 

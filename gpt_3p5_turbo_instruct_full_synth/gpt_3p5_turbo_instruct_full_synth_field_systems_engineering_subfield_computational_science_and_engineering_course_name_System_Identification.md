@@ -1205,7 +1205,6 @@ Linear systems are systems that exhibit a linear relationship between their inpu
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
 
 
-
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
 
 
@@ -1221,9 +1220,7 @@ Linear systems can be represented in various ways, depending on the complexity o
 State-space models represent a system in terms of its state variables, inputs, and outputs. The state variables are a set of variables that describe the internal state of the system at a given time. They can be physical quantities, such as position and velocity, or abstract variables, such as the number of customers in a queue. The state-space model can be written as:
 
 
-
 $$\dot{x}(t) = Ax(t) + Bu(t)$$
-
 $$y(t) = Cx(t) + Du(t)$$
 
 
@@ -1235,9 +1232,7 @@ where $x(t)$ is the state vector, $u(t)$ is the input vector, $y(t)$ is the outp
 Transfer function models, on the other hand, represent a system in terms of its input-output relationship. They are commonly used for linear time-invariant systems and can be written as:
 
 
-
 $$H(s) = \frac{Y(s)}{X(s)}$$
-
 
 
 where $H(s)$ is the transfer function, $Y(s)$ is the Laplace transform of the output, and $X(s)$ is the Laplace transform of the input.
@@ -1283,9 +1278,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1371,9 +1364,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1391,9 +1382,7 @@ In this subsection, we will discuss the concept of system response, which is an 
 The response of a linear system can be represented using a mathematical equation, as shown below:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs. The system response can be affected by various factors such as the input signal, the system's properties, and external disturbances.
@@ -1443,9 +1432,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1503,9 +1490,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1527,9 +1512,7 @@ The transfer function is defined as the ratio of the system's output to its inpu
 The response of a linear system can be calculated by convolving the input signal with the system's impulse response. This process is known as the convolution integral and is represented mathematically as:
 
 
-
 $$y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau$$
-
 
 
 where $x(t)$ is the input signal and $h(t)$ is the impulse response of the system.
@@ -1575,9 +1558,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1595,9 +1576,7 @@ In this subsection, we will discuss the concept of system response, which is a f
 The response of a linear system can be represented using a mathematical equation, as shown below:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs. By analyzing this equation, we can determine how the system responds to different inputs and how the coefficients affect the output.
@@ -1647,9 +1626,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1671,9 +1648,7 @@ To understand the system response, we must first understand the concept of impul
 The impulse response of a system can be represented mathematically as:
 
 
-
 $$h(t) = \sum_{i=1}^{N} a_i \delta(t-t_i)$$
-
 
 
 where $h(t)$ is the impulse response, $a_i$ are the coefficients, and $\delta(t-t_i)$ is the Dirac delta function, which is 0 for all values of t except when t=t_i, where it is infinite.
@@ -1683,9 +1658,7 @@ where $h(t)$ is the impulse response, $a_i$ are the coefficients, and $\delta(t-
 The system response can then be obtained by convolving the input signal with the impulse response. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau$$
-
 
 
 where $x(\tau)$ is the input signal and $h(t-\tau)$ is the impulse response shifted by a time $\tau$.
@@ -1731,9 +1704,7 @@ In this chapter, we will review the fundamentals of linear systems and stochasti
 Linear systems are systems that exhibit a linear relationship between their inputs and outputs. This means that the output of the system is a linear combination of its inputs. Mathematically, this can be represented as:
 
 
-
 $$y(t) = \sum_{i=1}^{N} a_i x_i(t)$$
-
 
 
 where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are the coefficients that determine the relationship between the inputs and outputs.
@@ -1747,9 +1718,7 @@ where $y(t)$ is the output of the system, $x_i(t)$ are the inputs, and $a_i$ are
 In this subsection, we will discuss the concept of system response, which is the output of a system when a specific input is applied. The response of a linear system can be determined using the convolution integral:
 
 
-
 $$y(t) = \int_{-\infty}^{\infty} h(t-\tau)x(\tau)d\tau$$
-
 
 
 where $h(t)$ is the impulse response of the system, which represents the output of the system when an impulse input is applied. The impulse response is a fundamental property of linear systems and can be used to characterize the behavior of the system.
@@ -1945,9 +1914,7 @@ In order to accurately identify a system, certain assumptions must be made about
 One of the most common assumptions made in system identification is the linearity assumption. This assumption states that the system being identified can be described by a linear model. A linear model is one in which the output is a linear combination of the inputs and the system's parameters. Mathematically, this can be represented as:
 
 
-
 $$y_j(n) = \sum_{i=1}^{N} w_i x_i(n)$$
-
 
 
 where $y_j(n)$ is the output of the system, $x_i(n)$ is the $i$th input signal, and $w_i$ is the corresponding parameter. This assumption simplifies the problem and allows for the use of well-established techniques for linear systems.
@@ -1961,9 +1928,7 @@ where $y_j(n)$ is the output of the system, $x_i(n)$ is the $i$th input signal, 
 Another common assumption is the time-invariance assumption. This assumption states that the system's behavior does not change over time. In other words, the system's response to a particular input signal will be the same regardless of when it is applied. Mathematically, this can be represented as:
 
 
-
 $$y_j(n) = y_j(n-k)$$
-
 
 
 where $k$ is a constant time delay. This assumption is often used in system identification as it allows for the use of simpler models and estimation algorithms.
@@ -2175,13 +2140,11 @@ Our first example is a classic system in mechanical engineering, the spring-mass
 To model this system, we will use the following differential equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F
 
 $$
-
 
 
 Where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constant, $x$ is the displacement of the mass, and $F$ is the external force applied to the system.
@@ -2235,13 +2198,11 @@ Our first example is a classic system in mechanical engineering, the spring-mass
 To model this system, we will use the following differential equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F
 
 $$
-
 
 
 Where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constant, $x$ is the displacement of the mass, and $F$ is the external force applied to the system.
@@ -2281,13 +2242,11 @@ Our second example is an electrical system, the RC circuit. This circuit consist
 To model this system, we can use the following differential equation:
 
 
-
 $$
 
 RC\dot{V} + V = E
 
 $$
-
 
 
 Where $R$ is the resistance, $C$ is the capacitance, $V$ is the voltage across the capacitor, and $E$ is the applied voltage.
@@ -2333,13 +2292,11 @@ Our third example is a classic system in physics, the pendulum system. This syst
 To model this system, we will use the following differential equation:
 
 
-
 $$
 
 m\ddot{\theta} + c\dot{\theta} + k\theta = 0
 
 $$
-
 
 
 Where $m$ is the mass of the pendulum, $c$ is the damping coefficient, $k$ is the stiffness of the string or rod, and $\theta$ is the angular displacement of the pendulum.
@@ -2383,13 +2340,11 @@ In conclusion, system identification is a powerful tool that allows us to gain i
 #### Exercise 1
 
 Consider a simple linear system with the following transfer function:
-
 $$
 
 H(z) = \frac{1}{1-0.5z^{-1}}
 
 $$
-
 If the input to the system is a unit step function, what is the output of the system after 5 time steps?
 
 
@@ -2439,13 +2394,11 @@ In conclusion, system identification is a powerful tool that allows us to gain i
 #### Exercise 1
 
 Consider a simple linear system with the following transfer function:
-
 $$
 
 H(z) = \frac{1}{1-0.5z^{-1}}
 
 $$
-
 If the input to the system is a unit step function, what is the output of the system after 5 time steps?
 
 
@@ -3063,13 +3016,11 @@ Now, let us discuss the different excitation conditions that must be met for an 
 The first condition is that the input signal must have a non-zero mean. This means that the input signal must have a non-zero average value over a finite time interval. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \frac{1}{N}\sum_{n=1}^{N}u(n) \neq 0
 
 $$
-
 
 
 where $u(n)$ is the input signal and $N$ is the number of samples.
@@ -3079,13 +3030,11 @@ where $u(n)$ is the input signal and $N$ is the number of samples.
 The second condition is that the input signal must have a non-zero variance. This means that the input signal must have a non-zero spread of values over a finite time interval. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \frac{1}{N}\sum_{n=1}^{N}(u(n)-\bar{u})^2 \neq 0
 
 $$
-
 
 
 where $\bar{u}$ is the mean of the input signal.
@@ -3095,13 +3044,11 @@ where $\bar{u}$ is the mean of the input signal.
 The third condition is that the input signal must have a non-zero spectral energy density. This means that the input signal must have a non-zero energy at all frequencies. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \int_{-\pi}^{\pi}|U(e^{j\omega})|^2d\omega \neq 0
 
 $$
-
 
 
 where $U(e^{j\omega})$ is the discrete-time Fourier transform of the input signal.
@@ -3111,13 +3058,11 @@ where $U(e^{j\omega})$ is the discrete-time Fourier transform of the input signa
 The fourth condition is that the input signal must have a non-zero Fisher information matrix. This means that the input signal must have a non-zero sensitivity to the system's parameters. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \int_{-\pi}^{\pi}\frac{1}{\sigma^2}|U(e^{j\omega})|^2\frac{\partial G(e^{j\omega},\theta)}{\partial \theta}\frac{\partial G(e^{j\omega},\theta)}{\partial \theta^T}d\omega \neq 0
 
 $$
-
 
 
 where $\sigma^2$ is the variance of the output noise and $G(e^{j\omega},\theta)$ is the system's frequency response function.
@@ -3803,13 +3748,11 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
 
 $$
-
 
 
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors.
@@ -3819,7 +3762,6 @@ where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actu
 To solve for the optimal values of $\mathbf{w}$, we take the derivative of the above equation with respect to $\mathbf{w}$ and set it equal to zero:
 
 
-
 $$
 
 \frac{\partial}{\partial \mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2 = 0
@@ -3827,9 +3769,7 @@ $$
 $$
 
 
-
 Solving for $\mathbf{w}$, we get:
-
 
 
 $$
@@ -3837,7 +3777,6 @@ $$
 \mathbf{w} = \left(\sum_{n=1}^{N} \mathbf{x}(n) \mathbf{x}^T(n)\right)^{-1} \sum_{n=1}^{N} y(n) \mathbf{x}(n)
 
 $$
-
 
 
 This is known as the closed-form solution for OLS. However, in practice, we often use iterative methods, such as gradient descent, to find the optimal values of $\mathbf{w}$.
@@ -3953,13 +3892,11 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
 
 $$
-
 
 
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the values that make the predicted output closest to the actual output.
@@ -3981,13 +3918,11 @@ WLS takes into account the reliability or importance of each data point by assig
 Mathematically, WLS can be expressed as:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} w(n)\left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
 
 $$
-
 
 
 where $w(n)$ is the weight assigned to data point $n$. By incorporating weights, WLS can provide more accurate parameter estimates compared to OLS, especially in cases where there is a large variation in the error variances of the data points.
@@ -4039,7 +3974,6 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
@@ -4047,9 +3981,7 @@ $$
 $$
 
 
-
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the difference between the predicted output and the actual output. This is achieved by taking the derivative of the above equation with respect to $\mathbf{w}$ and setting it equal to zero, resulting in the following normal equations:
-
 
 
 $$
@@ -4057,7 +3989,6 @@ $$
 \mathbf{w} = \left(\mathbf{X}^T \mathbf{X}\right)^{-1} \mathbf{X}^T \mathbf{y}
 
 $$
-
 
 
 where $\mathbf{X}$ is a matrix of input data and $\mathbf{y}$ is a vector of output data. This equation gives us the optimal values for $\mathbf{w}$ that minimize the sum of squared errors.
@@ -4075,7 +4006,6 @@ In some cases, the assumption of constant variance in the errors may not hold tr
 The WLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} w(n) \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
@@ -4083,9 +4013,7 @@ $$
 $$
 
 
-
 where $w(n)$ is the weight assigned to data point $n$. The optimal values for $\mathbf{w}$ can be found using the same normal equations as in OLS, but with the weighted data matrix $\mathbf{X}_w$ and weighted output vector $\mathbf{y}_w$:
-
 
 
 $$
@@ -4093,7 +4021,6 @@ $$
 \mathbf{w} = \left(\mathbf{X}_w^T \mathbf{X}_w\right)^{-1} \mathbf{X}_w^T \mathbf{y}_w
 
 $$
-
 
 
 #### 7.1c: Recursive Least Squares (RLS)
@@ -4107,7 +4034,6 @@ In some applications, it may be necessary to update the parameter estimates in r
 The RLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \mathbf{w}(n+1) = \mathbf{w}(n) + \mathbf{K}(n+1) \left(y(n+1) - \mathbf{w}^T(n) \mathbf{x}(n+1)\right)
@@ -4115,9 +4041,7 @@ $$
 $$
 
 
-
 where $\mathbf{w}(n)$ is the parameter estimate at time $n$, $\mathbf{K}(n)$ is the Kalman gain, and $y(n+1)$ and $\mathbf{x}(n+1)$ are the new input and output data points, respectively. The Kalman gain is calculated as follows:
-
 
 
 $$
@@ -4125,7 +4049,6 @@ $$
 \mathbf{K}(n+1) = \frac{\mathbf{P}(n) \mathbf{x}(n+1)}{\lambda + \mathbf{x}^T(n+1) \mathbf{P}(n) \mathbf{x}(n+1)}
 
 $$
-
 
 
 where $\mathbf{P}(n)$ is the covariance matrix of the parameter estimates at time $n$ and $\lambda$ is a forgetting factor that controls the influence of past data on the current estimate.
@@ -4177,13 +4100,11 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
 
 $$
-
 
 
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the values that provide the best fit for the data.
@@ -4251,7 +4172,6 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
@@ -4259,9 +4179,7 @@ $$
 $$
 
 
-
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the difference between the predicted output and the actual output. This is achieved by taking the derivative of the above equation with respect to $\mathbf{w}$ and setting it equal to 0:
-
 
 
 $$
@@ -4271,9 +4189,7 @@ $$
 $$
 
 
-
 Solving for $\mathbf{w}$, we get the following expression:
-
 
 
 $$
@@ -4281,7 +4197,6 @@ $$
 \mathbf{w} = \left(\mathbf{X}^T \mathbf{X}\right)^{-1} \mathbf{X}^T \mathbf{y}
 
 $$
-
 
 
 where $\mathbf{X}$ is a matrix of input data and $\mathbf{y}$ is a vector of output data. This is known as the normal equation and it gives us the optimal values for $\mathbf{w}$ that minimize the sum of squared errors.
@@ -4373,7 +4288,6 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
@@ -4381,9 +4295,7 @@ $$
 $$
 
 
-
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the difference between the predicted output and the actual output. This is achieved by taking the derivative of the above equation with respect to $\mathbf{w}$ and setting it equal to zero, resulting in the following normal equations:
-
 
 
 $$
@@ -4391,7 +4303,6 @@ $$
 \mathbf{w} = \left(\mathbf{X}^T \mathbf{X}\right)^{-1} \mathbf{X}^T \mathbf{y}
 
 $$
-
 
 
 where $\mathbf{X}$ is a matrix of input data and $\mathbf{y}$ is a vector of output data. This equation gives us the optimal values for $\mathbf{w}$ that minimize the sum of squared errors.
@@ -4463,13 +4374,11 @@ The most commonly used form of least squares is the Ordinary Least Squares (OLS)
 The OLS method can be expressed mathematically as follows:
 
 
-
 $$
 
 \min_{\mathbf{w}} \sum_{n=1}^{N} \left(y(n) - \mathbf{w}^T \mathbf{x}(n)\right)^2
 
 $$
-
 
 
 where $\mathbf{w}$ is a vector of parameters to be estimated, $y(n)$ is the actual output at time $n$, and $\mathbf{x}(n)$ is a vector of inputs at time $n$. The goal of OLS is to find the values of $\mathbf{w}$ that minimize the sum of squared errors, or in other words, the values that best fit the data.
@@ -4573,13 +4482,11 @@ In conclusion, the least squares method is a powerful tool for system identifica
 #### Exercise 1
 
 Consider a linear system with the following transfer function:
-
 $$
 
 H(z) = \frac{1}{1-0.5z^{-1}}
 
 $$
-
 Use the least squares method to estimate the system parameters from the input-output data.
 
 
@@ -4587,13 +4494,11 @@ Use the least squares method to estimate the system parameters from the input-ou
 #### Exercise 2
 
 Apply the least squares method to identify the parameters of a nonlinear system with the following transfer function:
-
 $$
 
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
 
 $$
-
 
 
 #### Exercise 3
@@ -4605,17 +4510,14 @@ Given a set of input-output data for a system, use the least squares method to e
 #### Exercise 4
 
 Consider a system with the following state-space representation:
-
 $$
 
 \dot{x}(t) = Ax(t) + Bu(t)
 
 $$
-
 $$
 
 y(t) = Cx(t)
-
 $$
 
 Use the least squares method to estimate the system matrices A, B, and C from input-output data.
@@ -4655,9 +4557,7 @@ In conclusion, the least squares method is a powerful tool for system identifica
 Consider a linear system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Use the least squares method to estimate the system parameters from the input-output data.
@@ -4669,9 +4569,7 @@ Use the least squares method to estimate the system parameters from the input-ou
 Apply the least squares method to identify the parameters of a nonlinear system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
-
 $$
 
 
@@ -4687,15 +4585,11 @@ Given a set of input-output data for a system, use the least squares method to e
 Consider a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 Use the least squares method to estimate the system matrices A, B, and C from input-output data.
@@ -4773,9 +4667,7 @@ One type of parametrized model structure is the ARX (AutoRegressive with eXogeno
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) + e(n)
-
 $$
 
 
@@ -4801,9 +4693,7 @@ The one-step predictor is a method used to predict the future behavior of a syst
 
 
 $$
-
 \hat{y}(n+1) = f(y(n), y(n-1), ..., y(n-n_y), u(n), u(n-1), ..., u(n-n_u))
-
 $$
 
 
@@ -4863,9 +4753,7 @@ One type of parametrized model structure is the ARX (AutoRegressive with eXogeno
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) + e(n)
-
 $$
 
 
@@ -4887,9 +4775,7 @@ Another type of parametrized model structure is the ARMAX (AutoRegressive Moving
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) + \sum_{k=1}^{n_c} c_k e(n-k) + e(n)
-
 $$
 
 
@@ -4929,9 +4815,7 @@ ARX (AutoRegressive with eXogenous input) models are a type of linear parametriz
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) + e(n)
-
 $$
 
 
@@ -4953,9 +4837,7 @@ ARMAX (AutoRegressive Moving Average with eXogenous input) models are an extensi
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) - \sum_{k=1}^{n_c} c_k e(n-k) + e(n)
-
 $$
 
 
@@ -4973,9 +4855,7 @@ Output Error (OE) models are a type of nonlinear parametrized model structure th
 
 
 $$
-
 y(n) = f(u(n), \theta) + e(n)
-
 $$
 
 
@@ -5011,9 +4891,7 @@ ARX (AutoRegressive with eXogenous input) models are a type of linear parametriz
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) + e(n)
-
 $$
 
 
@@ -5035,9 +4913,7 @@ ARMAX (AutoRegressive Moving Average with eXogenous input) models are an extensi
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{j=1}^{n_b} b_j u(n-j) - \sum_{k=1}^{n_c} c_k e(n-k) + e(n)
-
 $$
 
 
@@ -5055,9 +4931,7 @@ Output Error (OE) models are a type of nonlinear parametrized model structure th
 
 
 $$
-
 y(n) = f(u(n), y(n-1), ..., y(n-n_a)) + e(n)
-
 $$
 
 
@@ -5075,15 +4949,11 @@ State space models are a type of parametrized model structure that represents a 
 
 
 $$
-
 x(n+1) = Ax(n) + Bu(n)
-
 $$
 
 $$
-
 y(n) = Cx(n) + Du(n)
-
 $$
 
 
@@ -5119,9 +4989,7 @@ The one-step predictor is a tool used in system identification to predict the fu
 
 
 $$
-
 \hat{y}(n+1) = f(y(n), y(n-1), ..., y(n-n_a), u(n), u(n-1), ..., u(n-n_b))
-
 $$
 
 
@@ -5541,9 +5409,7 @@ In conclusion, identifiability is a crucial aspect of system identification that
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1} + b_2z^{-2}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 Determine the number of parameters that need to be estimated for this system to be identifiable.
@@ -5561,7 +5427,6 @@ Given the input-output data of a system, how can we use the rank condition to as
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(k+1) &= Ax(k) + Bu(k) \\
@@ -5569,7 +5434,6 @@ x(k+1) &= Ax(k) + Bu(k) \\
 y(k) &= Cx(k) + Du(k)
 
 \end{align}
-
 $$
 
 Determine the conditions for this system to be identifiable.
@@ -5587,9 +5451,7 @@ Explain how the choice of input signals can affect the identifiability of a syst
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1} + b_2z^{-2}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 If the system is unidentifiable, suggest some modifications to the model structure or input signals to make it identifiable.
@@ -5623,9 +5485,7 @@ In conclusion, identifiability is a crucial aspect of system identification that
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1} + b_2z^{-2}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 Determine the number of parameters that need to be estimated for this system to be identifiable.
@@ -5643,7 +5503,6 @@ Given the input-output data of a system, how can we use the rank condition to as
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(k+1) &= Ax(k) + Bu(k) \\
@@ -5651,7 +5510,6 @@ x(k+1) &= Ax(k) + Bu(k) \\
 y(k) &= Cx(k) + Du(k)
 
 \end{align}
-
 $$
 
 Determine the conditions for this system to be identifiable.
@@ -5669,9 +5527,7 @@ Explain how the choice of input signals can affect the identifiability of a syst
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1} + b_2z^{-2}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 If the system is unidentifiable, suggest some modifications to the model structure or input signals to make it identifiable.
@@ -5747,9 +5603,7 @@ To understand MLE, let us consider a simple linear system with one input and one
 
 
 $$
-
 y(n) = \theta x(n) + e(n)
-
 $$
 
 
@@ -5763,9 +5617,7 @@ The likelihood function is defined as the probability of obtaining the observed 
 
 
 $$
-
 L(\theta) = \prod_{n=1}^{N} p(y(n)|x(n), \theta)
-
 $$
 
 
@@ -5779,9 +5631,7 @@ To find the maximum likelihood estimate of $\theta$, we need to solve the follow
 
 
 $$
-
 \hat{\theta}_{MLE} = \arg\max_{\theta} L(\theta)
-
 $$
 
 
@@ -5829,9 +5679,7 @@ The Bayesian approach to parameter estimation involves using Bayes' theorem, whi
 
 
 $$
-
 P(\theta|D) \propto P(D|\theta)P(\theta)
-
 $$
 
 
@@ -5971,9 +5819,7 @@ Overall, parameter estimation is a crucial step in system identification, and th
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the unknown parameter of the system.
@@ -5985,15 +5831,11 @@ Using the least squares method, estimate the unknown parameter of the system.
 A system has the following state-space representation:
 
 $$
-
 x(k+1) = \begin{bmatrix} 0.8 & 0.2 \\ 0.3 & 0.9 \end{bmatrix} x(k) + \begin{bmatrix} 0.5 \\ 0.2 \end{bmatrix} u(k)
-
 $$
 
 $$
-
 y(k) = \begin{bmatrix} 1 & 0 \end{bmatrix} x(k)
-
 $$
 
 Using the recursive least squares method, estimate the unknown parameters of the system.
@@ -6017,9 +5859,7 @@ Discuss the importance of model validation in parameter estimation.
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Using cross-validation, validate the estimated parameters obtained from the recursive least squares method.
@@ -6045,9 +5885,7 @@ Overall, parameter estimation is a crucial step in system identification, and th
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the unknown parameter of the system.
@@ -6059,15 +5897,11 @@ Using the least squares method, estimate the unknown parameter of the system.
 A system has the following state-space representation:
 
 $$
-
 x(k+1) = \begin{bmatrix} 0.8 & 0.2 \\ 0.3 & 0.9 \end{bmatrix} x(k) + \begin{bmatrix} 0.5 \\ 0.2 \end{bmatrix} u(k)
-
 $$
 
 $$
-
 y(k) = \begin{bmatrix} 1 & 0 \end{bmatrix} x(k)
-
 $$
 
 Using the recursive least squares method, estimate the unknown parameters of the system.
@@ -6091,9 +5925,7 @@ Discuss the importance of model validation in parameter estimation.
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Using cross-validation, validate the estimated parameters obtained from the recursive least squares method.
@@ -6145,9 +5977,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6203,9 +6033,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6265,9 +6093,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6325,9 +6151,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6349,9 +6173,7 @@ The ML estimation framework involves finding the parameters of a model that maxi
 
 
 $$
-
 L(\theta) = p(y(1), y(2), ..., y(N) | \theta)
-
 $$
 
 
@@ -6403,9 +6225,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6435,9 +6255,7 @@ The likelihood function can be expressed as:
 
 
 $$
-
 L(\theta) = p(y_1, y_2, ..., y_N | \theta)
-
 $$
 
 
@@ -6447,9 +6265,7 @@ where $\theta$ represents the model parameters and $y_1, y_2, ..., y_N$ represen
 
 
 $$
-
 L(\theta) = p(y(n) | u(n), \theta)
-
 $$
 
 
@@ -6497,9 +6313,7 @@ The MPE estimation framework involves finding the parameters of a model that min
 
 
 $$
-
 SSE = \sum_{n=1}^{N} (y(n) - \hat{y}(n))^2
-
 $$
 
 
@@ -6521,9 +6335,7 @@ The ML estimation framework involves finding the parameters of a model that maxi
 
 
 $$
-
 L(\theta) = p(y(1), y(2), ..., y(N) | \theta)
-
 $$
 
 
@@ -6541,9 +6353,7 @@ In the case of linear models, the likelihood function can be expressed as:
 
 
 $$
-
 L(\theta) = p(y(1), y(2), ..., y(N) | \theta) = \prod_{n=1}^{N} p(y(n) | \theta)
-
 $$
 
 
@@ -6553,9 +6363,7 @@ where $p(y(n) | \theta)$ represents the probability of observing the output $y(n
 
 
 $$
-
 L(\theta) = \prod_{n=1}^{N} \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(y(n) - \hat{y}(n))^2}{2\sigma^2}}
-
 $$
 
 
@@ -6573,9 +6381,7 @@ The ML method aims to find the set of parameters that maximizes the likelihood f
 
 
 $$
-
 \hat{\theta}_{MLE} = \arg\max_{\theta} \log L(\theta)
-
 $$
 
 
@@ -6619,9 +6425,7 @@ In conclusion, the MPE paradigm and ML method are powerful tools for system iden
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the MPE paradigm, find the parameters of the system using the least squares method.
@@ -6633,9 +6437,7 @@ Using the MPE paradigm, find the parameters of the system using the least square
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + 0.2x(n) + e(n)
-
 $$
 
 where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML method, find the maximum likelihood estimate of the parameters.
@@ -6647,9 +6449,7 @@ where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML meth
 In a control system, the output $y(n)$ is given by:
 
 $$
-
 y(n) = \frac{1}{1+0.5z^{-1}}u(n)
-
 $$
 
 where $u(n)$ is the input. If the measurement noise $e(n)$ is assumed to be Gaussian with zero mean and variance $\sigma^2$, find the ML estimate of the parameter $a$.
@@ -6661,9 +6461,7 @@ where $u(n)$ is the input. If the measurement noise $e(n)$ is assumed to be Gaus
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}}
-
 $$
 
 Using the MPE paradigm, find the parameters of the system using the recursive least squares method.
@@ -6675,9 +6473,7 @@ Using the MPE paradigm, find the parameters of the system using the recursive le
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.8y(n-1) + 0.5x(n) + e(n)
-
 $$
 
 where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML method, find the maximum likelihood estimate of the parameters and the covariance matrix of the estimated parameters.
@@ -6707,9 +6503,7 @@ In conclusion, the MPE paradigm and ML method are powerful tools for system iden
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the MPE paradigm, find the parameters of the system using the least squares method.
@@ -6721,9 +6515,7 @@ Using the MPE paradigm, find the parameters of the system using the least square
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + 0.2x(n) + e(n)
-
 $$
 
 where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML method, find the maximum likelihood estimate of the parameters.
@@ -6735,9 +6527,7 @@ where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML meth
 In a control system, the output $y(n)$ is given by:
 
 $$
-
 y(n) = \frac{1}{1+0.5z^{-1}}u(n)
-
 $$
 
 where $u(n)$ is the input. If the measurement noise $e(n)$ is assumed to be Gaussian with zero mean and variance $\sigma^2$, find the ML estimate of the parameter $a$.
@@ -6749,9 +6539,7 @@ where $u(n)$ is the input. If the measurement noise $e(n)$ is assumed to be Gaus
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}}
-
 $$
 
 Using the MPE paradigm, find the parameters of the system using the recursive least squares method.
@@ -6763,9 +6551,7 @@ Using the MPE paradigm, find the parameters of the system using the recursive le
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.8y(n-1) + 0.5x(n) + e(n)
-
 $$
 
 where $x(n)$ is the input and $e(n)$ is the measurement noise. Using the ML method, find the maximum likelihood estimate of the parameters and the covariance matrix of the estimated parameters.
@@ -6825,9 +6611,7 @@ Mathematically, we can express asymptotic convergence as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -6853,9 +6637,7 @@ Mathematically, we can express consistency as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -6957,9 +6739,7 @@ Mathematically, we can express asymptotic convergence as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -6985,9 +6765,7 @@ Mathematically, we can express consistency as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -7035,9 +6813,7 @@ Mathematically, we can express asymptotic convergence as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -7063,9 +6839,7 @@ Mathematically, we can express consistency as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -7121,9 +6895,7 @@ Mathematically, we can express asymptotic convergence as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -7149,9 +6921,7 @@ Mathematically, we can express consistency as:
 
 
 $$
-
 \lim_{N\to\infty} \hat{\theta}_N = \theta
-
 $$
 
 
@@ -7173,9 +6943,7 @@ Mathematically, we can express convergence in probability as:
 
 
 $$
-
 \lim_{N\to\infty} P(|\hat{\theta}_N - \theta| > \epsilon) = 0
-
 $$
 
 
@@ -7197,9 +6965,7 @@ Mathematically, we can express convergence in distribution as:
 
 
 $$
-
 \lim_{N\to\infty} F_N(\hat{\theta}_N) = F(\theta)
-
 $$
 
 
@@ -7805,9 +7571,7 @@ To understand the consistency property in more detail, let us consider an exampl
 
 
 $$
-
 \hat{\theta} = (X^TX)^{-1}X^Ty
-
 $$
 
 
@@ -7867,9 +7631,7 @@ To illustrate the concept of rate of convergence, let us consider the same examp
 
 
 $$
-
 \hat{\theta} = (X^TX)^{-1}X^Ty
-
 $$
 
 
@@ -7947,9 +7709,7 @@ In conclusion, convergence to the true parameters is a crucial aspect of system 
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 If the true parameters of the system are unknown, how can we use the concept of convergence to estimate them?
@@ -8003,9 +7763,7 @@ In conclusion, convergence to the true parameters is a crucial aspect of system 
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 If the true parameters of the system are unknown, how can we use the concept of convergence to estimate them?
@@ -8163,9 +7921,7 @@ To construct confidence intervals for the parameters estimated using PEM, we nee
 
 
 $$
-
 CI = \hat{\theta} \pm z_{\alpha/2} \cdot SE(\hat{\theta})
-
 $$
 
 
@@ -9413,15 +9169,11 @@ Prove that a system is almost surely efficient if and only if it is asymptotical
 Consider a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the output vector. Show that the system is asymptotically stable if and only if all the eigenvalues of $A$ have negative real parts.
@@ -9433,15 +9185,11 @@ where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the 
 Consider a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the output vector. Show that the system is almost surely efficient if and only if $A$ is a Hurwitz matrix.
@@ -9497,15 +9245,11 @@ Prove that a system is almost surely efficient if and only if it is asymptotical
 Consider a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the output vector. Show that the system is asymptotically stable if and only if all the eigenvalues of $A$ have negative real parts.
@@ -9517,15 +9261,11 @@ where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the 
 Consider a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where $x(t)$ is the state vector, $u(t)$ is the input vector, and $y(t)$ is the output vector. Show that the system is almost surely efficient if and only if $A$ is a Hurwitz matrix.
@@ -9905,9 +9645,7 @@ The Levinson algorithm was first proposed by Norman Levinson in 1947 and has sin
 
 
 $$
-
 \sum_{i=1}^{p} a_i r(k-i) = -r(k), \quad k = 1,2,...,p
-
 $$
 
 
@@ -9931,9 +9669,7 @@ The Levinson algorithm can be broken down into the following steps:
 
 
 $$
-
 k = \frac{r(k) - \sum_{i=1}^{k-1} a_i r(k-i)}{E_{k-1}}
-
 $$
 
 
@@ -9943,9 +9679,7 @@ and update the model parameters as:
 
 
 $$
-
 a_k = k, \quad a_i^{(k)} = a_i^{(k-1)} - k a_{k-i}^{(k-1)}, \quad i = 1,2,...,k-1
-
 $$
 
 
@@ -9955,9 +9689,7 @@ and the forward prediction error as:
 
 
 $$
-
 E_k = E_{k-1}(1-k^2)
-
 $$
 
 
@@ -9967,9 +9699,7 @@ $$
 
 
 $$
-
 k = \frac{r(k) - \sum_{i=1}^{p-k} a_i r(k+i)}{E_{k+1}}
-
 $$
 
 
@@ -9979,9 +9709,7 @@ and update the model parameters as:
 
 
 $$
-
 a_k = k, \quad a_i^{(k)} = a_i^{(k+1)} - k a_{k+i}^{(k+1)}, \quad i = k+1,k+2,...,p
-
 $$
 
 
@@ -9991,9 +9719,7 @@ and the backward prediction error as:
 
 
 $$
-
 E_k = E_{k+1}(1-k^2)
-
 $$
 
 
@@ -10055,9 +9781,7 @@ The Levinson algorithm is based on the Yule-Walker equations, which are given by
 
 
 $$
-
 \mathbf{R}_p \mathbf{a}_p = \mathbf{r}_p
-
 $$
 
 
@@ -10175,9 +9899,7 @@ The Yule-Walker equations are given by:
 
 
 $$
-
 \sum_{i=1}^{p} a_i r(k-i) = -r(k), \quad k = 1,2,...,p
-
 $$
 
 
@@ -10353,9 +10075,7 @@ Overall, the Levinson Algorithm is a powerful and useful tool for system identif
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n)
-
 $$
 
 Use the Levinson Algorithm to estimate the parameters $a_1$, $a_2$, and $b_0$ using a set of input-output data.
@@ -10413,9 +10133,7 @@ Overall, the Levinson Algorithm is a powerful and useful tool for system identif
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n)
-
 $$
 
 Use the Levinson Algorithm to estimate the parameters $a_1$, $a_2$, and $b_0$ using a set of input-output data.
@@ -11029,7 +10747,6 @@ Implement an exponential filter with a forgetting factor of 0.9 to estimate the 
 Apply a Kalman filter to estimate the state variables of a linear time-invariant system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(k+1) &= Ax(k) + Bu(k) \\
@@ -11037,7 +10754,6 @@ x(k+1) &= Ax(k) + Bu(k) \\
 y(k) &= Cx(k) + Du(k)
 
 \end{align}
-
 $$
 
 Use noisy input-output data and compare the results with the true state variables.
@@ -11087,7 +10803,6 @@ Implement an exponential filter with a forgetting factor of 0.9 to estimate the 
 Apply a Kalman filter to estimate the state variables of a linear time-invariant system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(k+1) &= Ax(k) + Bu(k) \\
@@ -11095,7 +10810,6 @@ x(k+1) &= Ax(k) + Bu(k) \\
 y(k) &= Cx(k) + Du(k)
 
 \end{align}
-
 $$
 
 Use noisy input-output data and compare the results with the true state variables.
@@ -11261,9 +10975,7 @@ The Akaike Information Criterion (AIC) was developed by Hirotugu Akaike in 1974 
 
 
 $$
-
 AIC = 2k - 2\ln(\hat{L})
-
 $$
 
 
@@ -11281,9 +10993,7 @@ The Bayesian Information Criterion (BIC) was developed by Gideon E. Schwarz in 1
 
 
 $$
-
 BIC = k\ln(n) - 2\ln(\hat{L})
-
 $$
 
 
@@ -11387,9 +11097,7 @@ The Akaike Information Criterion (AIC) was developed by Hirotugu Akaike in 1974 
 
 
 $$
-
 AIC = 2k - 2\ln(\hat{L})
-
 $$
 
 
@@ -11407,9 +11115,7 @@ The Bayesian Information Criterion (BIC) was developed by Gideon E. Schwarz in 1
 
 
 $$
-
 BIC = k\ln(n) - 2\ln(\hat{L})
-
 $$
 
 
@@ -11965,9 +11671,7 @@ To build the mathematical model, we will use a time-domain approach and assume t
 
 
 $$
-
 m\ddot{y}(t) + c\dot{y}(t) + ky(t) = F(t)
-
 $$
 
 
@@ -12027,9 +11731,7 @@ To build the mathematical model, we will use a time-domain approach and assume t
 
 
 $$
-
 m\ddot{y}(t) + c\dot{y}(t) + ky(t) = F(t)
-
 $$
 
 
@@ -12075,9 +11777,7 @@ To build the mathematical model, we will use a frequency-domain approach and ass
 
 
 $$
-
 Y(s) = G(s)U(s)
-
 $$
 
 
@@ -12133,9 +11833,7 @@ To build the mathematical model, we will use a time-domain approach and assume t
 
 
 $$
-
 m\ddot{y}(t) + c\dot{y}(t) + ky(t) = F(t)
-
 $$
 
 
@@ -12181,9 +11879,7 @@ To build the mathematical model, we will use a frequency-domain approach and ass
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -12229,17 +11925,13 @@ To build the mathematical model, we will use a state-space approach and assume t
 
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 
 
 $$
-
 y(t) = Cx(t) + Du(t)
-
 $$
 
 

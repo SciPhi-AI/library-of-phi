@@ -973,9 +973,7 @@ The concept of energy levels in molecules is rooted in quantum mechanics. Accord
 
 
 $$
-
 E_n = -\frac{{13.6 \, \text{eV}}}{{n^2}}
-
 $$
 
 
@@ -1029,9 +1027,7 @@ Vibrational states in a hydrogen molecule are associated with the oscillatory mo
 
 
 $$
-
 V(r) = \frac{1}{2} k (r - r_0)^2
-
 $$
 
 
@@ -1041,9 +1037,7 @@ where $V(r)$ is the potential energy, $k$ is the force constant, $r$ is the dist
 
 
 $$
-
 E_v = \hbar \omega (v + \frac{1}{2})
-
 $$
 
 
@@ -1061,9 +1055,7 @@ Rotational states in a hydrogen molecule are associated with the rotation of the
 
 
 $$
-
 E_J = \frac{\hbar^2}{2I} J(J + 1)
-
 $$
 
 
@@ -1101,9 +1093,7 @@ The quantum harmonic oscillator model provides a more detailed understanding of 
 
 
 $$
-
 E_v = \hbar \omega (v + \frac{1}{2})
-
 $$
 
 
@@ -1125,9 +1115,7 @@ Vibrational transitions occur when a hydrogen molecule absorbs or emits a photon
 
 
 $$
-
 \Delta E = E_{v'} - E_{v} = \hbar \omega (v' - v)
-
 $$
 
 
@@ -1161,9 +1149,7 @@ The quantum rigid rotor model provides a detailed understanding of the rotationa
 
 
 $$
-
 E_J = \frac{\hbar^2}{2I} J(J + 1)
-
 $$
 
 
@@ -1185,9 +1171,7 @@ Rotational transitions occur when a hydrogen molecule absorbs or emits a photon 
 
 
 $$
-
 \Delta E = E_{J'} - E_{J} = \frac{\hbar^2}{2I} [J'(J' + 1) - J(J + 1)]
-
 $$
 
 
@@ -1229,9 +1213,7 @@ The energy levels of free electrons in a metal are given by the kinetic energy o
 
 
 $$
-
 E_k = \frac{\hbar^2 k^2}{2m}
-
 $$
 
 
@@ -1253,9 +1235,7 @@ The Fermi energy, $E_F$, is a crucial concept in the free electron model. It is 
 
 
 $$
-
 E_F = \frac{\hbar^2}{2m} \left( \frac{3\pi^2N}{V} \right)^{2/3}
-
 $$
 
 
@@ -1349,9 +1329,7 @@ The electrical conductivity ($\sigma$) of a metal can be expressed in terms of t
 
 
 $$
-
 \sigma = n e^2 \tau / m
-
 $$
 
 
@@ -1397,9 +1375,7 @@ The equation of motion for an atom in the lattice can be written as:
 
 
 $$
-
 m \frac{d^2 u}{dt^2} = - \frac{dV}{du}
-
 $$
 
 
@@ -1433,9 +1409,7 @@ In a crystal lattice, the atoms continuously vibrate around their equilibrium po
 
 
 $$
-
 E = h\nu
-
 $$
 
 
@@ -1469,9 +1443,7 @@ The thermal conductivity of a solid, denoted by $\kappa$, is a measure of its ab
 
 
 $$
-
 \kappa = \frac{Q}{A \cdot \Delta T / \Delta x}
-
 $$
 
 
@@ -1501,9 +1473,7 @@ The specific heat of a solid is another important thermal property that is close
 
 
 $$
-
 C = \frac{Q}{m \cdot \Delta T}
-
 $$
 
 
@@ -1525,9 +1495,7 @@ This discrepancy led to the development of the quantum theory of specific heat, 
 
 
 $$
-
 E = h \nu
-
 $$
 
 
@@ -1565,9 +1533,7 @@ The Debye model can be mathematically expressed as:
 
 
 $$
-
 C = 9Nk_B\left(\frac{T}{\Theta_D}\right)^3\int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx
-
 $$
 
 
@@ -1601,9 +1567,7 @@ In the Einstein model, the specific heat of a solid is given by the formula:
 
 
 $$
-
 C = 3Nk_B\left(\frac{\Theta_E}{T}\right)^2 \frac{e^{\Theta_E/T}}{(e^{\Theta_E/T} - 1)^2}
-
 $$
 
 
@@ -1793,9 +1757,7 @@ Consider a 1D monatomic chain of $N$ atoms. We can describe the position of each
 
 
 $$
-
 E = \sum_{n=1}^{N} \frac{1}{2} m \dot{u}_n^2 + \frac{1}{2} K (u_{n+1} - u_n)^2
-
 $$
 
 
@@ -1809,9 +1771,7 @@ The equation of motion for the $n$-th atom can be obtained by applying Newton's 
 
 
 $$
-
 m \ddot{u}_n = K (u_{n+1} - 2u_n + u_{n-1})
-
 $$
 
 
@@ -1825,9 +1785,7 @@ The wave-like nature of the solution becomes apparent when we assume a solution 
 
 
 $$
-
 u_n(t) = U e^{i(kna - \omega t)}
-
 $$
 
 
@@ -1837,9 +1795,7 @@ where $U$ is the amplitude of the wave, $k$ is the wave number, $a$ is the latti
 
 
 $$
-
 \omega^2 = \frac{4K}{m} \sin^2 \left(\frac{ka}{2}\right)
-
 $$
 
 
@@ -1861,9 +1817,7 @@ The dispersion relation, as derived in the previous section, is a fundamental re
 
 
 $$
-
 \omega^2 = \frac{4K}{m} \sin^2 \left(\frac{ka}{2}\right)
-
 $$
 
 
@@ -1881,9 +1835,7 @@ The maximum frequency, or the maximum phonon energy, occurs at $k = \pi/a$, and 
 
 
 $$
-
 \omega_{\text{max}} = 2 \sqrt{\frac{K}{m}}
-
 $$
 
 
@@ -1917,17 +1869,13 @@ Let's denote the masses of the atoms A and B as $m_A$ and $m_B$, respectively, a
 
 
 $$
-
 m_A \frac{d^2 u_A}{dt^2} = K (u_B - u_A)
-
 $$
 
 
 
 $$
-
 m_B \frac{d^2 u_B}{dt^2} = K (u_A - u_B)
-
 $$
 
 
@@ -1953,9 +1901,7 @@ The dispersion relation for a 1D crystal with a diatomic basis can be obtained b
 
 
 $$
-
 \omega^2 = \frac{K}{m_A m_B} (m_A + m_B \pm \sqrt{(m_A - m_B)^2 + 4 m_A m_B \sin^2(k a / 2)})
-
 $$
 
 
@@ -2035,9 +1981,7 @@ In a 1D crystal, each atom has one degree of freedom for motion along the chain.
 
 
 $$
-
 C = \frac{dU}{dT} = Nk_B
-
 $$
 
 
@@ -2103,9 +2047,7 @@ The Debye model predicts that the molar specific heat capacity $C$ of a crystal 
 
 
 $$
-
 C = 9Nk_B\left(\frac{T}{\Theta_D}\right)^3\int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx
-
 $$
 
 
@@ -2119,9 +2061,7 @@ At low temperatures ($T << \Theta_D$), the integral can be approximated as $\int
 
 
 $$
-
 C \approx 9Nk_B\left(\frac{T}{\Theta_D}\right)^3\frac{\pi^4}{15}
-
 $$
 
 
@@ -2287,9 +2227,7 @@ According to Bloch's theorem, the wave function of an electron in a crystal can 
 
 
 $$
-
 \psi_k (r) = e^{ik.r}u_k(r)
-
 $$
 
 
@@ -2515,9 +2453,7 @@ The Fermi energy can be calculated using the following formula:
 
 
 $$
-
 E_F = \frac{\hbar^2}{2m} \left( \frac{3\pi^2N}{V} \right)^{2/3}
-
 $$
 
 
@@ -2535,9 +2471,7 @@ The DOS for a three-dimensional system of non-interacting electrons can be calcu
 
 
 $$
-
 D(E) = \frac{V}{2\pi^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} \sqrt{E}
-
 $$
 
 
@@ -2567,9 +2501,7 @@ The Bloch function, denoted as $\psi_k(r)$, can be expressed as:
 
 
 $$
-
 \psi_k(r) = u_k(r) e^{ik \cdot r}
-
 $$
 
 
@@ -2603,9 +2535,7 @@ The orthogonality of Bloch functions can be expressed as:
 
 
 $$
-
 \int_{cell} \psi_{k'}^*(r) \psi_k(r) dr = \delta_{kk'}
-
 $$
 
 
@@ -2619,9 +2549,7 @@ The completeness of Bloch functions can be expressed as:
 
 
 $$
-
 \sum_k \psi_k^*(r') \psi_k(r) = \delta(r-r')
-
 $$
 
 
@@ -2655,9 +2583,7 @@ Let's consider a one-dimensional lattice with lattice constant $a$. The Bloch fu
 
 
 $$
-
 \psi_k(r) = u_k(r) e^{ikr}
-
 $$
 
 
@@ -2667,9 +2593,7 @@ where $u_k(r)$ is a periodic function with the same periodicity as the lattice, 
 
 
 $$
-
 k = \frac{2\pi n}{a}
-
 $$
 
 
@@ -2683,9 +2607,7 @@ In a two-dimensional square lattice, the Bloch function becomes:
 
 
 $$
-
 \psi_{k_x, k_y}(r) = u_{k_x, k_y}(r) e^{i(k_x x + k_y y)}
-
 $$
 
 
@@ -2695,9 +2617,7 @@ where $k_x$ and $k_y$ are the components of the wave vector in the $x$ and $y$ d
 
 
 $$
-
 k_x = \frac{2\pi n_x}{a}, \quad k_y = \frac{2\pi n_y}{a}
-
 $$
 
 
@@ -2735,9 +2655,7 @@ The dynamics of an electronic wavepacket in a solid can be described by the time
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \Psi(r,t) = \hat{H} \Psi(r,t)
-
 $$
 
 
@@ -2751,9 +2669,7 @@ In a periodic solid, the potential energy is periodic due to the periodic arrang
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m} \nabla^2 + V(r)
-
 $$
 
 
@@ -2767,9 +2683,7 @@ The solution to the time-dependent Schrödinger equation in a periodic solid can
 
 
 $$
-
 \Psi(r,t) = \sum_k c_k(t) \psi_k(r) e^{-iE_kt/\hbar}
-
 $$
 
 
@@ -2799,9 +2713,7 @@ For a wavepacket in a periodic solid, the group velocity $v_g$ is given by the d
 
 
 $$
-
 v_g = \frac{1}{\hbar} \frac{\partial E_k}{\partial k}
-
 $$
 
 
@@ -2819,9 +2731,7 @@ Another important concept is the effective mass $m^*$ of the electrons. The effe
 
 
 $$
-
 \frac{1}{m^*} = \frac{1}{\hbar^2} \frac{\partial^2 E_k}{\partial k^2}
-
 $$
 
 
@@ -2851,9 +2761,7 @@ The uncertainty principle can be expressed mathematically as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -2871,9 +2779,7 @@ The spreading of the wavepacket can be quantified by the second moment of the wa
 
 
 $$
-
 \langle x^2 \rangle = \int x^2 |\psi(x)|^2 dx
-
 $$
 
 
@@ -3025,9 +2931,7 @@ The semi-classical equation of motion for an electron in a crystal is given by:
 
 
 $$
-
 \hbar \frac{d\mathbf{k}}{dt} = -e\mathbf{E} - e\mathbf{v} \times \mathbf{B}
-
 $$
 
 
@@ -3079,9 +2983,7 @@ The dynamics of electrons in a solid can be understood by considering the semi-c
 
 
 $$
-
 m^*_e \frac{d\mathbf{v}}{dt} = -e\mathbf{E} - e\mathbf{v} \times \mathbf{B}
-
 $$
 
 
@@ -3099,9 +3001,7 @@ The dynamics of holes can be understood in a similar way. However, since a hole 
 
 
 $$
-
 m^*_h \frac{d\mathbf{v}}{dt} = e\mathbf{E} + e\mathbf{v} \times \mathbf{B}
-
 $$
 
 
@@ -3123,9 +3023,7 @@ In the presence of an electric field, electrons and holes in a solid-state mater
 
 
 $$
-
 \mathbf{v}_d = -\mu_e \mathbf{E}
-
 $$
 
 
@@ -3135,9 +3033,7 @@ for electrons, and
 
 
 $$
-
 \mathbf{v}_d = \mu_h \mathbf{E}
-
 $$
 
 
@@ -3151,9 +3047,7 @@ The drift current density, $\mathbf{J}_d$, is then given by the product of the c
 
 
 $$
-
 \mathbf{J}_d = -e n \mathbf{v}_d
-
 $$
 
 
@@ -3163,9 +3057,7 @@ for electrons, and
 
 
 $$
-
 \mathbf{J}_d = e p \mathbf{v}_d
-
 $$
 
 
@@ -3179,9 +3071,7 @@ In addition to the drift current, there is also a diffusion current that arises 
 
 
 $$
-
 \mathbf{J}_D = -e D \nabla n
-
 $$
 
 
@@ -3191,9 +3081,7 @@ for electrons, and
 
 
 $$
-
 \mathbf{J}_D = e D \nabla p
-
 $$
 
 
@@ -3207,9 +3095,7 @@ The total current density, $\mathbf{J}$, is the sum of the drift and diffusion c
 
 
 $$
-
 \mathbf{J} = \mathbf{J}_d + \mathbf{J}_D
-
 $$
 
 
@@ -3375,9 +3261,7 @@ The effective mass of an electron in a solid is defined as:
 
 
 $$
-
 m^* = \hbar^2 / (\frac{d^2E}{dk^2})
-
 $$
 
 
@@ -3435,9 +3319,7 @@ The relationship between carrier mobility, effective mass, and the applied elect
 
 
 $$
-
 \mu = \frac{q\tau}{m^*}
-
 $$
 
 
@@ -3479,9 +3361,7 @@ Mathematically, the chemical potential can be defined as the derivative of the t
 
 
 $$
-
 \mu = \left(\frac{\partial E}{\partial N}\right)_{S,V}
-
 $$
 
 
@@ -3511,9 +3391,7 @@ The Fermi-Dirac distribution function is given by:
 
 
 $$
-
 f(E) = \frac{1}{1 + e^{(E-\mu)/kT}}
-
 $$
 
 
@@ -3609,9 +3487,7 @@ The relaxation time approximation is a simplifying assumption used to describe t
 
 
 $$
-
 \frac{\partial f}{\partial t} = -\frac{f - f_{eq}}{τ}
-
 $$
 
 
@@ -3651,9 +3527,7 @@ The BTE for a system of particles in a semiconductor under the influence of an e
 
 
 $$
-
 \frac{\partial f}{\partial t} + \mathbf{v} \cdot \nabla f + \frac{q \mathbf{E}}{\hbar} \cdot \nabla_k f = \left( \frac{\partial f}{\partial t} \right)_{\text{coll}}
-
 $$
 
 
@@ -3699,9 +3573,7 @@ When a carrier gradient is present, carriers will tend to move from regions of h
 
 
 $$
-
 \mathbf{J}_D = -D \nabla n
-
 $$
 
 
@@ -3715,9 +3587,7 @@ The presence of a carrier gradient can also lead to a drift current, due to the 
 
 
 $$
-
 \mathbf{J} = qn\mu\mathbf{E} - D\nabla n
-
 $$
 
 
@@ -3747,9 +3617,7 @@ Diffusion current arises due to the movement of carriers from regions of high co
 
 
 $$
-
 \mathbf{J}_D = -D \nabla n
-
 $$
 
 
@@ -3771,9 +3639,7 @@ In addition to diffusion, carriers in a solid can also experience a force due to
 
 
 $$
-
 \mathbf{J}_D = qn\mu\mathbf{E}
-
 $$
 
 
@@ -3791,9 +3657,7 @@ In many cases, both diffusion and drift currents can be present simultaneously. 
 
 
 $$
-
 \mathbf{J} = qn\mu\mathbf{E} - D\nabla n
-
 $$
 
 
@@ -3811,9 +3675,7 @@ In the previous sections, we discussed the two primary mechanisms of carrier tra
 
 
 $$
-
 \mathbf{J} = \mathbf{J}_D + \mathbf{J}_d
-
 $$
 
 
@@ -3835,9 +3697,7 @@ The rate of recombination `$R$` is proportional to the product of the electron a
 
 
 $$
-
 R = Bnp
-
 $$
 
 
@@ -3863,9 +3723,7 @@ In solid-state physics, the concept of Bloch functions is fundamental to underst
 
 
 $$
-
 \psi_k(r) = e^{ik \cdot r}u_k(r)
-
 $$
 
 
@@ -3919,9 +3777,7 @@ Impurity scattering is a result of the interaction between an electron and the i
 
 
 $$
-
 \frac{1}{\tau_{imp}} = N_i \sigma v
-
 $$
 
 
@@ -3939,9 +3795,7 @@ Lattice scattering, on the other hand, occurs due to the interaction of the elec
 
 
 $$
-
 \frac{1}{\tau_{lat}} = N_{ph} \sigma v
-
 $$
 
 
@@ -3967,9 +3821,7 @@ The total scattering rate, `$\frac{1}{\tau}$`, is the sum of the scattering rate
 
 
 $$
-
 \frac{1}{\tau} = \frac{1}{\tau_{imp}} + \frac{1}{\tau_{lat}}
-
 $$
 
 
@@ -4003,9 +3855,7 @@ The scattering rate due to electron-phonon interactions, `$\frac{1}{\tau_{ep}}$`
 
 
 $$
-
 \frac{1}{\tau_{ep}} = \frac{1}{\tau_{abs}} + \frac{1}{\tau_{em}}
-
 $$
 
 
@@ -4055,9 +3905,7 @@ The scattering rates can be calculated using the Fermi's Golden Rule, which give
 
 
 $$
-
 \frac{1}{\tau_{ep}} = 2\pi \frac{|g|^2}{\hbar} \rho(E) (1 + n_{ph})
-
 $$
 
 
@@ -4087,9 +3935,7 @@ Electrical conductivity, denoted by `$\sigma$`, is a measure of a material's abi
 
 
 $$
-
 \sigma = \frac{1}{\rho}
-
 $$
 
 
@@ -4291,13 +4137,11 @@ In a direct bandgap semiconductor, the maximum of the valence band and the minim
 
 
 $$
-
 \begin{align*}
 
 E_{\text{gap}} &= E_{\text{c}}(k) - E_{\text{v}}(k) \\
 
 \end{align*}
-
 $$
 
 
@@ -4335,7 +4179,6 @@ The energy level of the dopant states with respect to the Fermi level of the sem
 
 
 $$
-
 \begin{align*}
 
 E_{\text{F}} &= E_{\text{c}} - E_{\text{D}} \quad \text{(for n-type)} \\
@@ -4343,7 +4186,6 @@ E_{\text{F}} &= E_{\text{c}} - E_{\text{D}} \quad \text{(for n-type)} \\
 E_{\text{F}} &= E_{\text{V}} + E_{\text{A}} \quad \text{(for p-type)}
 
 \end{align*}
-
 $$
 
 
@@ -4385,9 +4227,7 @@ The dispersion relation for these phonon modes can be represented as:
 
 
 $$
-
 \omega = \sqrt{\frac{4\pi^2c^2}{\lambda^2}}
-
 $$
 
 
@@ -4431,9 +4271,7 @@ The Raman shift, $\Delta \nu$, is given by:
 
 
 $$
-
 \Delta \nu = \nu_i - \nu_s
-
 $$
 
 
@@ -4459,9 +4297,7 @@ The absorption coefficient, $\alpha$, is given by:
 
 
 $$
-
 \alpha = \frac{2\pi \nu}{c} \kappa
-
 $$
 
 
@@ -4517,9 +4353,7 @@ The thermal conductivity can be calculated using the following relation:
 
 
 $$
-
 \kappa = \frac{1}{3} C v l
-
 $$
 
 
@@ -4577,9 +4411,7 @@ The effective mass, $m^*$, is defined by the curvature of the energy band near t
 
 
 $$
-
 m^* = \frac{1}{\frac{1}{\hbar^2} \frac{d^2E}{dk^2}}
-
 $$
 
 
@@ -4617,9 +4449,7 @@ The DOS, $g(E)$, in three dimensions is given by:
 
 
 $$
-
 g(E) = \frac{1}{2\pi^2} \left(\frac{2m^*}{\hbar^2}\right)^{3/2} \sqrt{E}
-
 $$
 
 
@@ -4809,9 +4639,7 @@ The formation of a p-n junction can be mathematically described by the diffusion
 
 
 $$
-
 J = qD(\frac{dn}{dx})
-
 $$
 
 
@@ -4833,9 +4661,7 @@ The depletion region in a p-n junction is a zone where the mobile charge carrier
 
 
 $$
-
 W = \sqrt{\frac{2\epsilon V_{bi}}{q} \left(\frac{N_A + N_D}{N_A N_D}\right)}
-
 $$
 
 
@@ -4849,9 +4675,7 @@ The built-in potential, also known as the junction potential, is the potential d
 
 
 $$
-
 V_{bi} = \frac{kT}{q} \ln\left(\frac{N_A N_D}{n_i^2}\right)
-
 $$
 
 
@@ -4873,9 +4697,7 @@ The current-voltage (I-V) characteristics of a p-n junction describe the relatio
 
 
 $$
-
 I = I_0 \left(e^{\frac{qV}{nkT}} - 1\right)
-
 $$
 
 
@@ -4889,9 +4711,7 @@ The reverse saturation current, $I_0$, is the current that flows through the dio
 
 
 $$
-
 I_0 = qn_i^2 \left(\frac{D_p}{L_pN_A} + \frac{D_n}{L_nN_D}\right)
-
 $$
 
 
@@ -4957,9 +4777,7 @@ In the active region, the base-emitter junction is forward-biased and the base-c
 
 
 $$
-
 I_C = I_S \exp\left(\frac{V_{BE}}{V_T}\right)
-
 $$
 
 
@@ -5013,9 +4831,7 @@ The basic principle of amplification using a BJT is that a small change in the b
 
 
 $$
-
 \beta = \frac{\Delta I_C}{\Delta I_B}
-
 $$
 
 
@@ -5101,9 +4917,7 @@ In the ohmic region, the FET behaves like a voltage-controlled resistor. The cur
 
 
 $$
-
 I_D = \mu C_{ox} \frac{W}{L} ((V_{GS} - V_{th})V_{DS} - \frac{1}{2}V_{DS}^2)
-
 $$
 
 
@@ -5121,9 +4935,7 @@ In the saturation region, the FET acts as a voltage-controlled current source. T
 
 
 $$
-
 I_D = \frac{1}{2} \mu C_{ox} \frac{W}{L} (V_{GS} - V_{th})^2
-
 $$
 
 
@@ -5161,9 +4973,7 @@ The amplification factor or gain of a FET amplifier can be expressed as:
 
 
 $$
-
 A_v = \mu C_{ox} \frac{W}{L} (V_{GS} - V_{th})
-
 $$
 
 
@@ -5219,9 +5029,7 @@ The current-voltage ($I$-$V$) characteristic of a diode can be described by the 
 
 
 $$
-
 I = I_s (e^{(V/nV_T)} - 1)
-
 $$
 
 
@@ -5469,9 +5277,7 @@ The absorption coefficient, $\alpha(\nu)$, describes the extent to which a mater
 
 
 $$
-
 \alpha(\nu) = \frac{2\pi^2 e^2}{m_e c h \nu} g(E) |M_{fi}|^2
-
 $$
 
 
@@ -5509,9 +5315,7 @@ The emission coefficient, $\beta(\nu)$, describes the extent to which a material
 
 
 $$
-
 \beta(\nu) = \frac{2\pi^2 e^2}{m_e c h \nu} g(E) |M_{fi}|^2
-
 $$
 
 
@@ -5545,9 +5349,7 @@ The probability of direct transitions is given by the joint density of states an
 
 
 $$
-
 \alpha(\nu) \propto \sqrt{h\nu - E_g}
-
 $$
 
 
@@ -5573,9 +5375,7 @@ The absorption coefficient for indirect transitions, $\alpha(\nu)$, is proportio
 
 
 $$
-
 \alpha(\nu) \propto (h\nu - E_g)^2
-
 $$
 
 
@@ -5605,9 +5405,7 @@ When a forward bias is applied to the LED, electrons from the n-type region are 
 
 
 $$
-
 E = h\nu = E_g
-
 $$
 
 
@@ -5657,9 +5455,7 @@ The energy of the emitted photons, and hence the color of the light, is determin
 
 
 $$
-
 E = h\nu = E_g
-
 $$
 
 
@@ -5705,9 +5501,7 @@ The sensitivity of a photodetector is determined by its quantum efficiency, $\et
 
 
 $$
-
 \eta = \frac{Number\ of\ electron-hole\ pairs\ generated}{Number\ of\ incident\ photons}
-
 $$
 
 
@@ -5725,9 +5519,7 @@ The efficiency of a solar cell, $\eta_{SC}$, is the ratio of the electrical powe
 
 
 $$
-
 \eta_{SC} = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -5761,9 +5553,7 @@ The absorption coefficient, $\alpha$, is a key parameter in absorption spectrosc
 
 
 $$
-
 \alpha = \frac{I_{in} - I_{out}}{I_{in} \cdot d}
-
 $$
 
 
@@ -5803,9 +5593,7 @@ The intensity of the photoluminescence, $I_{PL}$, is a key parameter in photolum
 
 
 $$
-
 I_{PL} = \frac{N_{em}}{t}
-
 $$
 
 
@@ -5841,9 +5629,7 @@ The intensity of the Raman scattering, $I_{R}$, is a key parameter in Raman spec
 
 
 $$
-
 I_{R} = \frac{N_{sc}}{t}
-
 $$
 
 
@@ -6019,9 +5805,7 @@ The diamagnetic susceptibility, $\chi_d$, of a material can be calculated using 
 
 
 $$
-
 \chi_d = - \frac{ne^2}{6m_e}\langle r^2 \rangle
-
 $$
 
 
@@ -6047,9 +5831,7 @@ The paramagnetic susceptibility, $\chi_p$, is given by the Curie's law:
 
 
 $$
-
 \chi_p = \frac{C}{T}
-
 $$
 
 
@@ -6087,9 +5869,7 @@ The magnetization, $M$, of a ferromagnetic material can be described by the equa
 
 
 $$
-
 M = \frac{N \mu B}{kT} \tanh \left( \frac{B \mu}{kT} \right)
-
 $$
 
 
@@ -6115,9 +5895,7 @@ The exchange interaction energy, $E$, in an antiferromagnetic material can be ca
 
 
 $$
-
 E = -2J \sum_{\langle i,j \rangle} \vec{S}_i \cdot \vec{S}_j
-
 $$
 
 
@@ -6179,9 +5957,7 @@ The hysteresis loop can be mathematically described by the Stoner-Wohlfarth mode
 
 
 $$
-
 M(H) = M_s \left( 1 - \frac{3H_c}{2H} \right) \left( \frac{H}{H_c} \right)^{1/2} \quad \text{for} \quad H \geq H_c
-
 $$
 
 
@@ -6253,9 +6029,7 @@ Hall effect sensors are a common type of magnetic sensor. They are based on the 
 
 
 $$
-
 V_H = \frac{I \cdot B \cdot t}{q \cdot n \cdot A}
-
 $$
 
 
@@ -6311,9 +6085,7 @@ The basic equation for the resonance frequency of a proton in a magnetic field i
 
 
 $$
-
 f = \gamma \cdot B
-
 $$
 
 
@@ -6375,17 +6147,13 @@ When a material becomes superconducting, it will expel all magnetic fields from 
 
 
 $$
-
 \nabla \times \mathbf{J} = - \frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J}
-
 $$
 
 
@@ -6403,9 +6171,7 @@ The other defining property of superconductivity is zero electrical resistance. 
 
 
 $$
-
 \mathbf{J} = \sigma \mathbf{E}
-
 $$
 
 
@@ -6445,9 +6211,7 @@ The mathematical description of Cooper pairs is given by the Cooper pair wave fu
 
 
 $$
-
 \Psi(\mathbf{r}_1, \mathbf{r}_2) = \psi(\mathbf{r}_1) \psi(\mathbf{r}_2) - \psi(\mathbf{r}_2) \psi(\mathbf{r}_1)
-
 $$
 
 
@@ -6465,9 +6229,7 @@ The ground state of a BCS superconductor is a coherent superposition of all poss
 
 
 $$
-
 \Psi_{BCS} = \prod_k (u_k + v_k c^\dagger_{k\uparrow} c^\dagger_{-k\downarrow}) |0\rangle
-
 $$
 
 
@@ -6715,9 +6477,7 @@ The Debye model assumes that all phonons in a solid behave as independent quantu
 
 
 $$
-
 C_v = 9Nk\left(\frac{T}{\Theta_D}\right)^3\int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx
-
 $$
 
 
@@ -6743,9 +6503,7 @@ The Einstein model, like the Debye model, assumes that the atoms in a solid beha
 
 
 $$
-
 C_v = 3Nk\left(\frac{\Theta_E}{T}\right)^2 \frac{e^{\Theta_E/T}}{(e^{\Theta_E/T} - 1)^2}
-
 $$
 
 
@@ -6783,9 +6541,7 @@ Mathematically, Fourier's law can be expressed as:
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -6839,9 +6595,7 @@ The electronic contribution can be described by the Wiedemann-Franz law, which s
 
 
 $$
-
 \frac{k_{e}}{\sigma} = L T
-
 $$
 
 
@@ -6855,9 +6609,7 @@ In summary, the total thermal conductivity $k$ of a solid can be expressed as th
 
 
 $$
-
 k = k_{l} + k_{e}
-
 $$
 
 
@@ -6875,9 +6627,7 @@ Thermal resistance is a measure of a material's resistance to the flow of heat. 
 
 
 $$
-
 R_{th} = \frac{\Delta T}{Q}
-
 $$
 
 
@@ -6899,9 +6649,7 @@ The effectiveness of a TIM is typically characterized by its thermal conductivit
 
 
 $$
-
 R_{th} = \frac{d}{k}
-
 $$
 
 
@@ -6931,9 +6679,7 @@ The Seebeck coefficient can be calculated using the formula:
 
 
 $$
-
 S = -\frac{dV}{dT}
-
 $$
 
 
@@ -6951,9 +6697,7 @@ The voltage $V$ generated by a thermocouple can be calculated using the formula:
 
 
 $$
-
 V = S \cdot \Delta T
-
 $$
 
 
@@ -6987,9 +6731,7 @@ The Peltier coefficient can be calculated using the formula:
 
 
 $$
-
 \Pi = S \cdot T
-
 $$
 
 
@@ -7007,9 +6749,7 @@ The heat $Q$ absorbed or released by a Peltier cooler can be calculated using th
 
 
 $$
-
 Q = \Pi \cdot I
-
 $$
 
 
@@ -7039,9 +6779,7 @@ The voltage $V$ generated by a TEG can be calculated using the formula:
 
 
 $$
-
 V = S \cdot \Delta T
-
 $$
 
 
@@ -7055,9 +6793,7 @@ The power $P$ generated by a TEG can be calculated using the formula:
 
 
 $$
-
 P = I \cdot V
-
 $$
 
 
@@ -7223,9 +6959,7 @@ The total polarization, $P$, of a dielectric material is given by the sum of the
 
 
 $$
-
 P = P_{e} + P_{i} + P_{o}
-
 $$
 
 
@@ -7271,9 +7005,7 @@ Mathematically, the orientation polarization $P_{o}$ can be represented as:
 
 
 $$
-
 P_{o} = N \cdot p \cdot \cos(\theta)
-
 $$
 
 
@@ -7311,9 +7043,7 @@ Mathematically, the frequency dependence of the polarization $P$ can be represen
 
 
 $$
-
 P(\omega) = P_{0} \cdot \frac{1}{1 + (i\omega\tau)}
-
 $$
 
 
@@ -7339,9 +7069,7 @@ The dielectric constant, also known as relative permittivity, is a measure of a 
 
 
 $$
-
 \varepsilon_r = \frac{\varepsilon}{\varepsilon_0}
-
 $$
 
 
@@ -7383,9 +7111,7 @@ The temperature dependence of the dielectric constant can be described by the Cu
 
 
 $$
-
 \varepsilon_r(T) = \frac{C}{T-T_0}
-
 $$
 
 
@@ -7407,9 +7133,7 @@ The frequency dependence of the dielectric constant can be described by the Deby
 
 
 $$
-
 \varepsilon_r(\omega) = \varepsilon_{\infty} + \frac{\varepsilon_s - \varepsilon_{\infty}}{1 + (i\omega\tau)}
-
 $$
 
 
@@ -7727,9 +7451,7 @@ Stress ($\sigma$) is defined as the force ($F$) applied per unit area ($A$) of a
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -7743,9 +7465,7 @@ Strain ($\epsilon$), on the other hand, is a measure of deformation representing
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -7759,9 +7479,7 @@ The relationship between stress and strain in an elastic material is given by Ho
 
 
 $$
-
 \sigma = E \cdot \epsilon
-
 $$
 
 
@@ -7803,9 +7521,7 @@ Young's Modulus, as we have already discussed, is a measure of the stiffness of 
 
 
 $$
-
 E = \frac{\sigma}{\epsilon}
-
 $$
 
 
@@ -7823,9 +7539,7 @@ The Shear Modulus, also known as the modulus of rigidity, is a measure of a mate
 
 
 $$
-
 G = \frac{\tau}{\gamma}
-
 $$
 
 
@@ -7843,9 +7557,7 @@ The Bulk Modulus is a measure of a material's resistance to uniform compression.
 
 
 $$
-
 K = -\frac{p}{\epsilon_v}
-
 $$
 
 
@@ -7875,9 +7587,7 @@ The anisotropy of a crystalline solid can be mathematically represented using a 
 
 
 $$
-
 \sigma_{ij} = C_{ijkl} \epsilon_{kl}
-
 $$
 
 
@@ -7927,9 +7637,7 @@ The stress required to move a dislocation is known as the Peierls stress ($\tau_
 
 
 $$
-
 \tau_p = Gb \exp \left( -\frac{2\pi r_0}{b} \right)
-
 $$
 
 
@@ -7963,9 +7671,7 @@ The Hall-Petch relationship describes how reducing the grain size of a material 
 
 
 $$
-
 \sigma_y = \sigma_0 + k_y d^{-1/2}
-
 $$
 
 
@@ -7991,9 +7697,7 @@ Strain hardening, also known as work hardening, is a process where a metal is de
 
 
 $$
-
 \sigma = \sigma_0 + \alpha Gb \sqrt{\rho}
-
 $$
 
 
@@ -8035,17 +7739,13 @@ The ductility of a material can be quantified by the percent elongation ($\%EL$)
 
 
 $$
-
 \%EL = \frac{L_f - L_0}{L_0} \times 100\%
-
 $$
 
 
 
 $$
-
 \%RA = \frac{A_0 - A_f}{A_0} \times 100\%
-
 $$
 
 
@@ -8099,9 +7799,7 @@ The stress required to propagate the crack in brittle fracture is given by the G
 
 
 $$
-
 \sigma_f = \sqrt{\frac{2E\gamma}{\pi a}}
-
 $$
 
 
@@ -8123,9 +7821,7 @@ The process of ductile fracture involves the nucleation, growth, and coalescence
 
 
 $$
-
 \sigma_f = \sigma_y \left(1 + \sqrt{2.5 \frac{r}{d}}\right)
-
 $$
 
 
@@ -8151,9 +7847,7 @@ The fracture toughness of a material is typically represented by the parameter $
 
 
 $$
-
 K_{IC} = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -8215,9 +7909,7 @@ The rate of creep is a function of the material properties, exposure time, and t
 
 
 $$
-
 \epsilon = A \sigma^n e^{-Q/RT}
-
 $$
 
 
@@ -8395,9 +8087,7 @@ Surface reconstruction can be understood in terms of the concept of surface ener
 
 
 $$
-
 \gamma = \frac{1}{2}N_sE_b
-
 $$
 
 
@@ -8435,9 +8125,7 @@ Surface tension, on the other hand, is a concept that is more commonly associate
 
 
 $$
-
 \sigma = \gamma \cdot d
-
 $$
 
 
@@ -8471,9 +8159,7 @@ One of the most common methods for measuring the surface energy of a solid is th
 
 
 $$
-
 \gamma_{SV} - \gamma_{SL} = \gamma_{LV} \cdot cos(\theta)
-
 $$
 
 
@@ -8535,9 +8221,7 @@ The potential energy of physisorption, $V(r)$, as a function of distance $r$ fro
 
 
 $$
-
 V(r) = 4\epsilon \left[ \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6 \right]
-
 $$
 
 
@@ -8559,9 +8243,7 @@ The potential energy of chemisorption, $V(r)$, can be described by the Morse pot
 
 
 $$
-
 V(r) = D_e \left[1 - \exp(-\beta (r - r_e))\right]^2
-
 $$
 
 
@@ -8595,9 +8277,7 @@ The mathematical expression for the Langmuir isotherm is given by:
 
 
 $$
-
 \frac{x}{m} = \frac{KP}{1+KP}
-
 $$
 
 
@@ -8619,9 +8299,7 @@ The Freundlich isotherm is expressed as:
 
 
 $$
-
 \frac{x}{m} = KP^{1/n}
-
 $$
 
 
@@ -8655,9 +8333,7 @@ Desorption can occur through several mechanisms, depending on the nature of the 
 
 
 $$
-
 k = A \exp\left(-\frac{E_a}{RT}\right)
-
 $$
 
 
@@ -8683,9 +8359,7 @@ The rate of a surface reaction can often be described by a modified form of the 
 
 
 $$
-
 r = k' \theta_A^a \theta_B^b \exp\left(-\frac{E_a'}{RT}\right)
-
 $$
 
 
@@ -8747,9 +8421,7 @@ The mismatch strain, $\epsilon$, can be defined as:
 
 
 $$
-
 \epsilon = \frac{a_f - a_s}{a_s}
-
 $$
 
 
@@ -8803,9 +8475,7 @@ For example, the effective dielectric constant, $\epsilon_{eff}$, of a multilaye
 
 
 $$
-
 \epsilon_{eff} = \frac{1}{d}\sum_{i=1}^{n}d_i\epsilon_i
-
 $$
 
 
@@ -8979,9 +8649,7 @@ The confinement of charge carriers in quantum wells leads to the quantization of
 
 
 $$
-
 -\frac{\hbar^2}{2m^*}\frac{d^2\psi}{dz^2} + V(z)\psi = E\psi
-
 $$
 
 
@@ -9011,9 +8679,7 @@ The number of subbands and their energy levels can be calculated by solving the 
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2m^*d^2}
-
 $$
 
 
@@ -9027,9 +8693,7 @@ The wavefunctions corresponding to these energy levels are sinusoidal functions 
 
 
 $$
-
 \psi_n(z) = \sqrt{\frac{2}{d}}\sin\left(\frac{n\pi z}{d}\right)
-
 $$
 
 
@@ -9063,9 +8727,7 @@ The absorption coefficient $\alpha$ for inter-subband transitions can be calcula
 
 
 $$
-
 \alpha(\omega) = \frac{2\pi e^2}{\hbar c} \sum_{i,j} f_{ij} |\langle \psi_i | z | \psi_j \rangle|^2 \delta(E_j - E_i - \hbar\omega)
-
 $$
 
 
@@ -9127,9 +8789,7 @@ In quantum wires, the confinement in two dimensions leads to the formation of on
 
 
 $$
-
 E = \frac{\hbar^2}{2m^*} (k_x^2 + k_y^2) + E_z
-
 $$
 
 
@@ -9143,9 +8803,7 @@ In quantum dots, the confinement in all three dimensions leads to the formation 
 
 
 $$
-
 E = \frac{\hbar^2}{2m^*} (k_x^2 + k_y^2 + k_z^2)
-
 $$
 
 
@@ -9175,9 +8833,7 @@ In quantum wires, the one-dimensional confinement of electrons leads to the form
 
 
 $$
-
 E_{photon} = E_{final} - E_{initial}
-
 $$
 
 
@@ -9191,9 +8847,7 @@ In quantum dots, the three-dimensional confinement of electrons leads to the for
 
 
 $$
-
 E_{photon} = E_{final} - E_{initial}
-
 $$
 
 
@@ -9547,9 +9201,7 @@ The fundamental principle behind XRD is Bragg's Law, named after the British phy
 
 
 $$
-
 n\lambda = 2d\sin\theta
-
 $$
 
 
@@ -9651,9 +9303,7 @@ The absorption of light in the UV-Vis range can be described by the Beer-Lambert
 
 
 $$
-
 A = \log \left( \frac{I_0}{I} \right) = \varepsilon c l
-
 $$
 
 
@@ -9691,9 +9341,7 @@ The absorption of light in the IR range can be described by the Beer-Lambert law
 
 
 $$
-
 A = \log \left( \frac{I_0}{I} \right) = \alpha l
-
 $$
 
 
@@ -9731,9 +9379,7 @@ The kinetic energy of the ejected electrons can be described by the equation:
 
 
 $$
-
 E_k = h\nu - E_b - \phi
-
 $$
 
 
@@ -9751,9 +9397,7 @@ The kinetic energy of the Auger electron can be described by the equation:
 
 
 $$
-
 E_A = E_i - E_j - E_k
-
 $$
 
 
@@ -10059,9 +9703,7 @@ The operation of a phototransistor can be described by the following equation:
 
 
 $$
-
 I_C = \beta I_{ph}
-
 $$
 
 
@@ -10091,9 +9733,7 @@ The operation of a solar cell can be described by the following equation:
 
 
 $$
-
 P_{out} = I_{ph}V
-
 $$
 
 
@@ -10157,9 +9797,7 @@ The operation of a laser diode can be described by the following equation:
 
 
 $$
-
 P_{out} = I_{th}V
-
 $$
 
 
@@ -10945,9 +10583,7 @@ The refractive index of the core is slightly higher than that of the cladding, w
 
 
 $$
-
 n_1 \sin(\theta_1) = n_2 \sin(\theta_2)
-
 $$
 
 
@@ -11165,9 +10801,7 @@ One of the most intriguing properties of metamaterials is the negative refractiv
 
 
 $$
-
 n_1 \sin(\theta_1) = n_2 \sin(\theta_2)
-
 $$
 
 
@@ -11445,9 +11079,7 @@ The Reynolds number is given by:
 
 
 $$
-
 Re = \frac{\rho v L}{\mu}
-
 $$
 
 
@@ -11469,9 +11101,7 @@ The height to which the liquid rises, $h$, can be calculated using the following
 
 
 $$
-
 h = \frac{2\gamma \cos \theta}{\rho g r}
-
 $$
 
 
@@ -11605,9 +11235,7 @@ Mathematically, the direct piezoelectric effect can be described by the followin
 
 
 $$
-
 P = d \cdot \sigma
-
 $$
 
 
@@ -11621,9 +11249,7 @@ Conversely, when an electric field is applied to a piezoelectric material, it un
 
 
 $$
-
 \sigma = d \cdot E
-
 $$
 
 
@@ -11993,9 +11619,7 @@ The chapter will also cover the mathematical models used to describe the behavio
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \nabla^2 T
-
 $$
 
 
@@ -12025,9 +11649,7 @@ The Seebeck effect is the direct conversion of temperature differences to electr
 
 
 $$
-
 V = -S \Delta T
-
 $$
 
 
@@ -12041,9 +11663,7 @@ The Peltier effect is the presence of heating or cooling at an electrified junct
 
 
 $$
-
 \Pi = TS
-
 $$
 
 
@@ -12077,9 +11697,7 @@ The performance of a thermoelectric device is largely determined by the properti
 
 
 $$
-
 ZT = S^2 \sigma T / \kappa
-
 $$
 
 
@@ -12145,9 +11763,7 @@ The cooling power of a thermoelectric cooler can be calculated using the formula
 
 
 $$
-
 Q_c = I \cdot (S_{hot} - S_{cold}) \cdot T_{cold} - \frac{1}{2} \cdot I^2 \cdot R - K \cdot (T_{hot} - T_{cold})
-
 $$
 
 
@@ -12169,9 +11785,7 @@ The power generated by a thermoelectric generator can be calculated using the fo
 
 
 $$
-
 P = \frac{(S_{hot} - S_{cold})^2 \cdot (T_{hot} - T_{cold})^2}{4 \cdot R + 4 \cdot K \cdot (T_{hot} - T_{cold})}
-
 $$
 
 
@@ -12201,9 +11815,7 @@ The effectiveness of a heat sink is determined by several factors, including the
 
 
 $$
-
 R_{th} = \frac{1}{h \cdot A}
-
 $$
 
 
@@ -12593,9 +12205,7 @@ The amount of energy that a capacitor can store is determined by its capacitance
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -12605,9 +12215,7 @@ The capacitance of a capacitor is also dependent on the physical characteristics
 
 
 $$
-
 C = \varepsilon \frac{A}{d}
-
 $$
 
 
@@ -12617,9 +12225,7 @@ In a dielectric material, the presence of an electric field causes a displacemen
 
 
 $$
-
 C = \varepsilon_0 \varepsilon_r \frac{A}{d}
-
 $$
 
 
@@ -12741,9 +12347,7 @@ The mathematical description of ferroelectricity is often given by the Landau-Gi
 
 
 $$
-
 F = \frac{1}{2}aP^2 + \frac{1}{4}bP^4 - EP + \frac{1}{2}\epsilon_0E^2
-
 $$
 
 
@@ -12857,9 +12461,7 @@ The piezoelectric effect can be mathematically described by the following equati
 
 
 $$
-
 P = d \cdot \sigma
-
 $$
 
 
@@ -12873,9 +12475,7 @@ The converse piezoelectric effect, where an applied electric field induces a mec
 
 
 $$
-
 S = d \cdot E
-
 $$
 
 

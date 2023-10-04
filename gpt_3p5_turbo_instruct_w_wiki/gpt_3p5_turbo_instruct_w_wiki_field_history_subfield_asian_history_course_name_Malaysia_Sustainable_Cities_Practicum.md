@@ -3245,9 +3245,7 @@ In conclusion, energy efficiency is a crucial aspect of creating sustainable cit
 #### Exercise 1: Calculating Energy Savings
 
 Calculate the potential energy savings for a building by implementing energy-efficient practices. Use the formula: $$
-
 Energy Savings = (Energy Consumption without Efficiency - Energy Consumption with Efficiency) \times 100
-
 $$
 
 

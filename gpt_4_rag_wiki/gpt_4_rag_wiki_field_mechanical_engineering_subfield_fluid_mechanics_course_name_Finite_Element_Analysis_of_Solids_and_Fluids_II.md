@@ -1267,9 +1267,7 @@ The stiffness method can be represented mathematically as follows:
 
 
 $$
-
 [K] \{d\} = \{F\}
-
 $$
 
 
@@ -1291,9 +1289,7 @@ The Galerkin method can be represented mathematically as follows:
 
 
 $$
-
 \int_{\Omega} w(x) \cdot f(x) \, dx = 0
-
 $$
 
 
@@ -1327,9 +1323,7 @@ Consider a simple one-dimensional bar subjected to axial loading. The bar is div
 
 
 $$
-
 k = \frac{EA}{L}
-
 $$
 
 
@@ -1339,7 +1333,6 @@ where $E$ is the modulus of elasticity, $A$ is the cross-sectional area, and $L$
 
 
 $$
-
 [K] = k
 
 \begin{bmatrix}
@@ -1349,7 +1342,6 @@ $$
 -1 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -1359,7 +1351,6 @@ The global stiffness matrix is assembled by summing the individual stiffness mat
 
 
 $$
-
 [K_{global}] = 
 
 \begin{bmatrix}
@@ -1371,7 +1362,6 @@ k & -k & 0 \\
 0 & -k & k
 
 \end{bmatrix}
-
 $$
 
 
@@ -1389,9 +1379,7 @@ Consider the one-dimensional heat conduction problem. The governing differential
 
 
 $$
-
 \frac{d}{dx} (k \frac{du}{dx}) = q
-
 $$
 
 
@@ -1401,9 +1389,7 @@ where $k$ is the thermal conductivity, $u$ is the temperature, and $q$ is the he
 
 
 $$
-
 \int_{\Omega} w(x) \cdot \frac{d}{dx} (k \frac{du}{dx}) \, dx = \int_{\Omega} w(x) \cdot q \, dx
-
 $$
 
 
@@ -1633,9 +1619,7 @@ The displacement increment norm is defined as:
 
 
 $$
-
 \Delta u = \sqrt{\sum_{i=1}^{n} \Delta u_i^2}
-
 $$
 
 
@@ -1649,9 +1633,7 @@ The residual norm is defined as:
 
 
 $$
-
 R = \sqrt{\sum_{i=1}^{n} R_i^2}
-
 $$
 
 
@@ -1853,9 +1835,7 @@ In large deformation analysis, the strain is typically measured using nonlinear 
 
 
 $$
-
 E = \frac{1}{2} (F^T F - I)
-
 $$
 
 
@@ -1865,9 +1845,7 @@ where $F$ is the deformation gradient and $I$ is the identity matrix. The Almans
 
 
 $$
-
 e = \frac{1}{2} (I - F^{-T} F^{-1})
-
 $$
 
 
@@ -1917,9 +1895,7 @@ The Newton-Raphson method can be expressed as:
 
 
 $$
-
 \Delta u = -[K]^{-1} {R}
-
 $$
 
 
@@ -1945,9 +1921,7 @@ The incremental loading can be expressed as:
 
 
 $$
-
 {F} = {F}_0 + \Delta {F}
-
 $$
 
 
@@ -2149,9 +2123,7 @@ We will also make extensive use of the TeX and LaTeX style syntax for mathematic
 
 
 $$
-
 T = T_{ij} e_i \otimes e_j
-
 $$
 
 
@@ -2213,9 +2185,7 @@ The deformation of a material body in the TLF is described by the deformation gr
 
 
 $$
-
 F = I + \nabla u
-
 $$
 
 
@@ -2237,9 +2207,7 @@ The strain in a material body in the TLF is described by the Green-Lagrange stra
 
 
 $$
-
 E = \frac{1}{2}(F^T F - I)
-
 $$
 
 
@@ -2261,9 +2229,7 @@ The stress in a material body in the TLF is described by the Piola-Kirchhoff str
 
 
 $$
-
 P = F \cdot S
-
 $$
 
 
@@ -2289,9 +2255,7 @@ The stress in a material body in the TLF is described by the Piola-Kirchhoff str
 
 
 $$
-
 P = J F^{-1} \sigma
-
 $$
 
 
@@ -2429,9 +2393,7 @@ The governing equation for each element can be written as:
 
 
 $$
-
 \mathbf{K} \mathbf{u} = \mathbf{f}
-
 $$
 
 
@@ -2457,9 +2419,7 @@ The governing equation for each element can be written as:
 
 
 $$
-
 \mathbf{K} \mathbf{T} = \mathbf{q}
-
 $$
 
 
@@ -2497,9 +2457,7 @@ The governing equation for each element can be written as:
 
 
 $$
-
 \mathbf{A} \mathbf{v} = \mathbf{g}
-
 $$
 
 
@@ -2549,9 +2507,7 @@ The governing equation for each element can be written as:
 
 
 $$
-
 \mathbf{A} \mathbf{v} = \mathbf{g}
-
 $$
 
 
@@ -2793,9 +2749,7 @@ The continuity equation for an incompressible fluid can be written as:
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -2809,9 +2763,7 @@ The Navier-Stokes equations for an incompressible fluid, on the other hand, can 
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
@@ -2933,9 +2885,7 @@ Heat transfer is a fundamental concept in the study of fluid dynamics and is gov
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \nabla^2 u
-
 $$
 
 
@@ -3001,9 +2951,7 @@ The heat equation for this system is given by:
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2} + q
-
 $$
 
 
@@ -3029,9 +2977,7 @@ The heat equation for this system is given by:
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right) + q
-
 $$
 
 
@@ -3089,9 +3035,7 @@ The conservation of mass, also known as the continuity equation, can be written 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -3105,9 +3049,7 @@ The conservation of momentum, also known as the Navier-Stokes equations, can be 
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -3121,9 +3063,7 @@ The conservation of energy, also known as the energy equation, can be written as
 
 
 $$
-
 \rho c_p \left( \frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T \right) = \nabla \cdot (k \nabla T)
-
 $$
 
 
@@ -3165,9 +3105,7 @@ The governing equation for this problem is the energy equation, which can be sim
 
 
 $$
-
 \rho c_p \frac{\partial T}{\partial t} = k \frac{\partial^2 T}{\partial x^2}
-
 $$
 
 
@@ -3207,9 +3145,7 @@ The governing equation for this problem is the Navier-Stokes equation, which can
 
 
 $$
-
 \rho \frac{\partial u}{\partial t} = -\frac{\partial p}{\partial x} + \mu \frac{\partial^2 u}{\partial r^2}
-
 $$
 
 
@@ -3273,9 +3209,7 @@ The fluid flow around and through these structures can be described by the Navie
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -3289,9 +3223,7 @@ Heat transfer in these structures can be described by the heat conduction equati
 
 
 $$
-
 \rho c_p \frac{\partial T}{\partial t} = \nabla \cdot (k \nabla T) + q
-
 $$
 
 
@@ -3529,9 +3461,7 @@ For plates, the governing equation is the plate equation, which can be written a
 
 
 $$
-
 D \nabla^4 w = q
-
 $$
 
 
@@ -3669,9 +3599,7 @@ In the Kirchhoff-Love plate theory, the main assumption is that the plate is thi
 
 
 $$
-
 D \nabla^4 w = q
-
 $$
 
 
@@ -4377,9 +4305,7 @@ The mathematical representation of this process can be expressed as follows:
 
 
 $$
-
 \mathbf{R}(\mathbf{u}) = \mathbf{f}_{ext} - \mathbf{f}_{int}(\mathbf{u}) = 0
-
 $$
 
 
@@ -4413,9 +4339,7 @@ The Newton-Raphson method is based on the linearization of the residual vector $
 
 
 $$
-
 \mathbf{K}(\mathbf{u}) \Delta \mathbf{u} = -\mathbf{R}(\mathbf{u})
-
 $$
 
 
@@ -4473,9 +4397,7 @@ Consider a rubber material subjected to a uniaxial tensile test. The stress-stra
 
 
 $$
-
 W = \frac{\mu}{2}(I_1 - 3) - \mu \ln(J) + \frac{\lambda}{2}(\ln(J))^2
-
 $$
 
 
@@ -4661,9 +4583,7 @@ The conservation of mass, also known as the continuity equation, states that the
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -4677,9 +4597,7 @@ The conservation of momentum, also known as the Navier-Stokes momentum equation,
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
-
 $$
 
 
@@ -4693,9 +4611,7 @@ The conservation of energy, also known as the energy equation, states that the r
 
 
 $$
-
 \rho \left( \frac{\partial e}{\partial t} + \mathbf{v} \cdot \nabla e \right) = -p \nabla \cdot \mathbf{v} + \mu \nabla \mathbf{v} : \nabla \mathbf{v}
-
 $$
 
 
@@ -4729,9 +4645,7 @@ The Galerkin method involves approximating the solution within each element usin
 
 
 $$
-
 \int_{\Omega} R(\mathbf{x}) \phi_i(\mathbf{x}) d\Omega = 0
-
 $$
 
 
@@ -5177,9 +5091,7 @@ Consider a problem of heat conduction in a long, thin rod. The temperature distr
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-
 $$
 
 
@@ -5201,9 +5113,7 @@ Consider a problem of wave propagation in a fluid. The wave equation in this cas
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u
-
 $$
 
 
@@ -5225,9 +5135,7 @@ Consider a problem of stress analysis in a beam under bending. The governing equ
 
 
 $$
-
 \frac{d^2}{dx^2}\left(EI\frac{d^2 w}{dx^2}\right) = q
-
 $$
 
 
@@ -5381,9 +5289,7 @@ Consider a problem of heat transfer in a solid. The governing equation is the he
 
 
 $$
-
 \frac{\partial u}{\partial t} - \alpha \nabla^2 u = 0
-
 $$
 
 
@@ -5409,9 +5315,7 @@ Consider a problem of fluid flow in a pipe. The governing equation is the Navier
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -8785,9 +8689,7 @@ CFD simulations are based on the Navier-Stokes equations, which describe the mot
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 

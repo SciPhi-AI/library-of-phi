@@ -435,9 +435,7 @@ Given a system with state $x_t$ at time $t$, and a decision variable $u_t$, the 
 
 
 $$
-
 x_{t+1} = f(x_t, u_t)
-
 $$
 
 
@@ -447,9 +445,7 @@ where $f$ is a known function. The objective is to choose a sequence of decision
 
 
 $$
-
 J = \sum_{t=0}^{T-1} g(x_t, u_t)
-
 $$
 
 
@@ -487,9 +483,7 @@ Given a system with state $x_t$ at time $t$, and a decision variable $u_t$, the 
 
 
 $$
-
 x_{t+1} = f(x_t, u_t, w_t)
-
 $$
 
 
@@ -499,9 +493,7 @@ where $f$ is a known function, and $w_t$ is a random variable representing the u
 
 
 $$
-
 J = E\left[\sum_{t=0}^{T-1} g(x_t, u_t)\right]
-
 $$
 
 
@@ -543,9 +535,7 @@ Given a system with state $\mathbf{x}(t)$ at time $t$, and a control variable $\
 
 
 $$
-
 d\mathbf{x}(t) = f(\mathbf{x}(t), \mathbf{u}(t))dt + \sigma(\mathbf{x}(t), \mathbf{u}(t))dW(t)
-
 $$
 
 
@@ -555,9 +545,7 @@ where $f$ and $\sigma$ are known functions, and $dW(t)$ is a Wiener process repr
 
 
 $$
-
 J = E\left[\int_{0}^{T} g(\mathbf{x}(t), \mathbf{u}(t))dt\right]
-
 $$
 
 
@@ -719,9 +707,7 @@ The Bellman equation for a dynamic programming problem can be written as:
 
 
 $$
-
 V(x) = \max_{u} \{ F(x,u) + \beta V(f(x,u)) \}
-
 $$
 
 
@@ -771,9 +757,7 @@ The algorithm of SGD is given by:
 
 
 $$
-
 \mathbf{x}_{k+1} = \mathbf{x}_k - \gamma_k \nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -869,9 +853,7 @@ Given a system of equations $Ax = b$, where $A$ is a square matrix, $x$ is the v
 2. For each $i$ from 1 to $n$, update $x_i$ as follows:
 
 $$
-
 x_i^{(k+1)} = \frac{1}{a_{ii}} \left( b_i - \sum_{j=1}^{i-1} a_{ij}x_j^{(k+1)} - \sum_{j=i+1}^{n} a_{ij}x_j^{(k)} \right)
-
 $$
 
 3. Repeat step 2 until the difference between two successive iterations is less than a predefined tolerance.
@@ -937,9 +919,7 @@ Given a stochastic process $X_t$ and a cost function $C(X_t, u_t)$, where $u_t$ 
 
 
 $$
-
 \min_{\pi} E\left[\int_0^T C(X_t, u_t) dt\right]
-
 $$
 
 
@@ -965,9 +945,7 @@ Given a set of uncertain parameters $\Theta$, and a cost function $C(X_t, u_t, \
 
 
 $$
-
 \min_{\pi} \max_{\theta \in \Theta} \int_0^T C(X_t, u_t, \theta) dt
-
 $$
 
 
@@ -1175,9 +1153,7 @@ The concept of orthogonality extends to subsets of an inner product space. If $C
 
 
 $$
-
 C^\bot = \{x \in H : \langle c, x \rangle = 0 \text{ for all } c \in C\}
-
 $$
 
 
@@ -1187,9 +1163,7 @@ The orthogonal complement of a subset $C$ is always a closed subset of $H$ and s
 
 
 $$
-
 C^\bot = \left\{ x \in H : \|x\| \leq \|x + c\| \text{ for all } c \in C \right\}
-
 $$
 
 
@@ -1199,9 +1173,7 @@ If $C$ is a closed vector subspace of a Hilbert space $H$, then
 
 
 $$
-
 H = C \oplus C^\bot \qquad \text{ and } \qquad (C^\bot)^\bot = C
-
 $$
 
 
@@ -1267,9 +1239,7 @@ To illustrate this principle, consider a dynamic system with state $x(t)$ and co
 
 
 $$
-
 J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt
-
 $$
 
 
@@ -1347,9 +1317,7 @@ A function $f: X \to \R$ is said to be convex if for all $0 \leq t \leq 1$ and a
 
 
 $$
-
 f\left(t x_1 + (1-t) x_2\right) \leq t f\left(x_1\right) + (1-t) f\left(x_2\right)
-
 $$
 
 
@@ -1367,9 +1335,7 @@ Conversely, a function $f: X \to \R$ is said to be concave if for all $0 \leq t 
 
 
 $$
-
 f\left(t x_1 + (1-t) x_2\right) \geq t f\left(x_1\right) + (1-t) f\left(x_2\right)
-
 $$
 
 
@@ -1399,9 +1365,7 @@ A function $f: U \subset \mathbb{R}^n \to \mathbb{R}$ defined on an open set $U$
 
 
 $$
-
 \frac{\partial^\alpha f}{\partial x_1^{\alpha_1} \, \partial x_2^{\alpha_2}\,\cdots\,\partial x_n^{\alpha_n}}(y_1,y_2,\ldots,y_n)
-
 $$
 
 
@@ -1415,9 +1379,7 @@ A function $f:U\subset\mathbb{R}^n\to\mathbb{R}^m$, defined on an open set $U$ o
 
 
 $$
-
 f_i(x_1,x_2,\ldots,x_n)=(\pi_i\circ f)(x_1,x_2,\ldots,x_n)=\pi_i(f(x_1,x_2,\ldots,x_n)) \text{ for } i=1,2,3,\ldots,m
-
 $$
 
 
@@ -1447,9 +1409,7 @@ The first order condition for optimality, also known as the necessary condition,
 
 
 $$
-
 f'(x^*) = 0
-
 $$
 
 
@@ -1463,17 +1423,13 @@ The second order condition for optimality, also known as the sufficient conditio
 
 
 $$
-
 f''(x^*) \leq 0 \quad \text{for a maximum point}
-
 $$
 
 
 
 $$
-
 f''(x^*) \geq 0 \quad \text{for a minimum point}
-
 $$
 
 
@@ -1507,9 +1463,7 @@ The Euler-Lagrange equation is derived from the principle of least action, which
 
 
 $$
-
 S[\boldsymbol q] = \int_a^b L(t,\boldsymbol q(t),\dot{\boldsymbol q}(t))\, dt
-
 $$
 
 
@@ -1523,9 +1477,7 @@ A path $\boldsymbol q$ is a stationary point of $S$ if and only if it satisfies 
 
 
 $$
-
 \frac{\partial L}{\partial \boldsymbol q} - \frac{d}{dt} \frac{\partial L}{\partial \dot{\boldsymbol q}} = 0
-
 $$
 
 
@@ -1559,9 +1511,7 @@ The Euler equation for this problem is given by:
 
 
 $$
-
 u'(c_t) = \beta (1+r) u'(c_{t+1})
-
 $$
 
 
@@ -1583,9 +1533,7 @@ The Euler equation for this problem is given by:
 
 
 $$
-
 u'(c_t) = \beta E_t \left[ (1+r_{f,t+1} + \theta_t r_{m,t+1}) u'(c_{t+1}) \right]
-
 $$
 
 
@@ -1635,9 +1583,7 @@ A simple example of a difference equation is the first-order linear difference e
 
 
 $$
-
 x_{t+1} = a x_t + b
-
 $$
 
 
@@ -1683,9 +1629,7 @@ For a discrete-time dynamic system represented by the difference equation
 
 
 $$
-
 x_{t+1} = f(x_t)
-
 $$
 
 
@@ -1715,9 +1659,7 @@ A classic example of a dynamic system is the logistic map, which is a discrete-t
 
 
 $$
-
 x_{t+1} = r x_t (1 - x_t)
-
 $$
 
 
@@ -1757,9 +1699,7 @@ Consider a discrete-time dynamic system represented by the difference equation
 
 
 $$
-
 x_{t+1} = f(x_t)
-
 $$
 
 
@@ -1769,9 +1709,7 @@ where $f$ is a smooth function. Suppose $x^*$ is an equilibrium point of the sys
 
 
 $$
-
 f(x) \approx f(x^*) + f'(x^*)(x - x^*)
-
 $$
 
 
@@ -1781,9 +1719,7 @@ Substituting this into the difference equation gives
 
 
 $$
-
 x_{t+1} \approx x^* + f'(x^*)(x_t - x^*)
-
 $$
 
 
@@ -1831,9 +1767,7 @@ Let's consider a production function $F(K, L)$, where $K$ and $L$ represent capi
 
 
 $$
-
 F(\lambda K, \lambda L) = \lambda F(K, L)
-
 $$
 
 
@@ -1863,9 +1797,7 @@ Let's consider a firm with a production function $F(K, L)$, where $K$ and $L$ re
 
 
 $$
-
 \pi = pF(K, L) - rK - wL
-
 $$
 
 
@@ -1875,17 +1807,13 @@ The firm maximizes its profit by choosing the optimal levels of $K$ and $L$. Thi
 
 
 $$
-
 \frac{\partial \pi}{\partial K} = p\frac{\partial F(K, L)}{\partial K} - r = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \pi}{\partial L} = p\frac{\partial F(K, L)}{\partial L} - w = 0
-
 $$
 
 
@@ -2161,9 +2089,7 @@ In the context of stochastic control, the Bellman equation takes on a slightly d
 
 
 $$
-
 V_t(x_t) = \max_{u_t} \left\{ r_t(x_t, u_t) + E[V_{t+1}(x_{t+1}) | x_t, u_t] \right\}
-
 $$
 
 
@@ -2245,9 +2171,7 @@ To illustrate, consider a simple stochastic dynamic optimization problem where t
 
 
 $$
-
 E_t \left[ u'(c_{t+1}) \right] = \beta u'(c_t) (1 + r_{t+1} - \delta)
-
 $$
 
 
@@ -2337,7 +2261,6 @@ Following the same approach as in the deterministic case with alterations due to
 
 
 $$
-
 Y^{(0,0)}_t = 0,\\ 
 
 Y^{(1,0)}_t = \int_0^t A^{(j)}_s \, d W^j_s ,\\
@@ -2349,7 +2272,6 @@ Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \big(A^{(j)}_s\big)^2 \, d s + \frac{1}{2} 
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s A^{(j)}_r \, d W_r \Big] \, ds + \frac{1}{2} \int_0^t \Big[ A^{(j)}_s ,\int_0^s B_r \, dr \Big] \, dW^j_s,\\
 
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s B_r \, dr \Big] \, ds.
-
 $$
 
 
@@ -2387,9 +2309,7 @@ Let $f(t, X_t)$ be a function such that $f$, $\frac{\partial f}{\partial t}$, $\
 
 
 $$
-
 dX_t = \mu(t, X_t) dt + \sigma(t, X_t) dW_t,
-
 $$
 
 
@@ -2399,9 +2319,7 @@ where $W_t$ is a Wiener process, then the differential of $f(t, X_t)$ is given b
 
 
 $$
-
 df(t, X_t) = \left(\frac{\partial f}{\partial t} + \mu(t, X_t)\frac{\partial f}{\partial x} + \frac{1}{2}\sigma^2(t, X_t)\frac{\partial^2 f}{\partial x^2}\right) dt + \sigma(t, X_t)\frac{\partial f}{\partial x} dW_t.
-
 $$
 
 
@@ -2589,9 +2507,7 @@ The continuous time model can be written as:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f(\mathbf{x}(t), \mathbf{u}(t)) + \mathbf{w}(t), \quad \mathbf{w}(t) \sim \mathcal{N}(\mathbf{0},\mathbf{Q}(t))
-
 $$
 
 
@@ -2601,9 +2517,7 @@ In addition to the system dynamics, we also have a measurement model, which desc
 
 
 $$
-
 \mathbf{z}(t) = h(\mathbf{x}(t)) + \mathbf{v}(t), \quad \mathbf{v}(t) \sim \mathcal{N}(\mathbf{0},\mathbf{R}(t))
-
 $$
 
 
@@ -2637,17 +2551,13 @@ In the context of the continuous-time extended Kalman filter, the prediction and
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -2701,9 +2611,7 @@ Consider a system described by the differential equation $\dot{\mathbf{x}}(t) = 
 
 
 $$
-
 f(\mathbf{x}) \approx f(\mathbf{x}^*) + \mathbf{J}(\mathbf{x} - \mathbf{x}^*)
-
 $$
 
 
@@ -2745,9 +2653,7 @@ Given a Hamiltonian function $H(\mathbf{q},\mathbf{p},t)$, the Hamilton-Jacobi e
 
 
 $$
-
 H\left(\mathbf{q},\frac{\partial S}{\partial \mathbf{q}},t \right) + \frac{\partial S}{\partial t} = 0
-
 $$
 
 
@@ -2757,9 +2663,7 @@ The Hamiltonian $H(\mathbf{q},\mathbf{p},t)$ is defined as:
 
 
 $$
-
 H(\mathbf{q},\mathbf{p},t) = \mathbf{p}\mathbf{\dot q} - {\cal L}(\mathbf{q},\mathbf{\dot q},t)
-
 $$
 
 
@@ -2797,9 +2701,7 @@ A variational inequality problem is defined as follows: Given a convex, closed s
 
 
 $$
-
 \langle F(x^*), x - x^* \rangle \geq 0, \quad \forall x \in K
-
 $$
 
 
@@ -2817,9 +2719,7 @@ The connection between variational inequalities and optimization problems become
 
 
 $$
-
 \langle \nabla f(x^*), x - x^* \rangle \geq 0, \quad \forall x \in K
-
 $$
 
 
@@ -2901,9 +2801,7 @@ The control $u \in \mathcal{U}$ must be chosen to minimize the objective functio
 
 
 $$
-
 J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt
-
 $$
 
 
@@ -2913,9 +2811,7 @@ The constraints on the system dynamics can be adjoined to the Lagrangian $L$ by 
 
 
 $$
-
 H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))
-
 $$
 
 
@@ -2929,9 +2825,7 @@ Pontryagin's minimum principle states that the optimal state trajectory $x^*$, o
 
 
 $$
-
 H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)
-
 $$
 
 
@@ -2941,17 +2835,13 @@ for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathca
 
 
 $$
-
 -\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))
-
 $$
 
 
 
 $$
-
 \lambda^{\rm T}(T)=\Psi_x(x(T))
-
 $$
 
 
@@ -2981,7 +2871,6 @@ The mathematical formulation of bang-bang control is typically expressed as a pi
 
 
 $$
-
 u(t) = 
 
 \begin{cases} 
@@ -2991,7 +2880,6 @@ u_{\text{max}}, & \text{if } e(t) > 0 \\
 u_{\text{min}}, & \text{if } e(t) < 0 
 
 \end{cases}
-
 $$
 
 
@@ -3029,9 +2917,7 @@ The Merton's portfolio problem is given by:
 
 
 $$
-
 \max_{c(t),\theta(t)} E\left[\int_0^T e^{-\rho t} u(c(t)) dt + e^{-\rho T} V(x(T))\right]
-
 $$
 
 
@@ -3041,9 +2927,7 @@ subject to the wealth dynamics:
 
 
 $$
-
 dx(t) = (r x(t) + \theta(t) (\mu - r) x(t) - c(t)) dt + \theta(t) x(t) \sigma dW(t)
-
 $$
 
 
@@ -3279,9 +3163,7 @@ The steepest descent method can be described by the following iterative formula:
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k \nabla f(x_k)
-
 $$
 
 
@@ -3315,9 +3197,7 @@ The Conjugate Gradient Method can be described by the following iterative formul
 
 
 $$
-
 \boldsymbol{x}_{k+1} = \boldsymbol{x}_k + \alpha_k \boldsymbol{d}_k
-
 $$
 
 
@@ -3327,9 +3207,7 @@ where $\boldsymbol{x}_k$ is the current point, $\boldsymbol{d}_k$ is the search 
 
 
 $$
-
 \boldsymbol{d}_{k+1} = -\nabla f(\boldsymbol{x}_{k+1}) + \beta_k \boldsymbol{d}_k
-
 $$
 
 
@@ -3359,9 +3237,7 @@ The DDP algorithm begins with the backward pass. If $Q$ is the argument of the $
 
 
 $$
-
 Q = -\ell(\mathbf{x},\mathbf{u}) - V(\mathbf{f}(\mathbf{x},\mathbf{u}),i+1)
-
 $$
 
 
@@ -3375,7 +3251,6 @@ Dropping the index $i$ for readability, primes denoting the next time-step $V'\e
 
 
 $$
-
 Q_\mathbf{x} = \ell_\mathbf{x}+ \mathbf{f}_\mathbf{x}^\mathsf{T} V'_\mathbf{x} \\
 
 Q_\mathbf{u} = \ell_\mathbf{u}+ \mathbf{f}_\mathbf{u}^\mathsf{T} V'_\mathbf{x} \\
@@ -3385,7 +3260,6 @@ Q_{\mathbf{x}\mathbf{x}} = \ell_{\mathbf{x}\mathbf{x}} + \mathbf{f}_\mathbf{x}^\
 Q_{\mathbf{u}\mathbf{u}} = \ell_{\mathbf{u}\mathbf{u}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{u}+{V'_\mathbf{x}} \cdot\mathbf{f}_{\mathbf{u} \mathbf{u}}\\
 
 Q_{\mathbf{u}\mathbf{x}} = \ell_{\mathbf{u}\mathbf{x}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{x} + {V'_\mathbf{x}} \cdot \mathbf{f}_{\mathbf{u} \mathbf{x}}.
-
 $$
 
 
@@ -3395,11 +3269,9 @@ The last terms in the last three equations denote contraction of a vector with a
 
 
 $$
-
 \delta\mathbf{u}^* = \operatorname{argmin}\limits_{\delta \mathbf{u}}Q(\delta \mathbf{x},\delta
 
 \mathbf{u})=-Q_{\mathbf{u}}^{-1}Q_{\mathbf{x}}
-
 $$
 
 
@@ -3449,9 +3321,7 @@ The algorithm for Newton's method for unconstrained optimization can be describe
 
 
 $$
-
 x_{k+1} = x_k - H(x_k)^{-1} \nabla f(x_k)
-
 $$
 
 
@@ -3501,7 +3371,6 @@ The algorithm for Newton's method for constrained optimization can be described 
 
 
 $$
-
 \begin{bmatrix}
 
 H(x_k) & J(x_k)^T \\
@@ -3529,7 +3398,6 @@ J(x_k) & 0
 c(x_k)
 
 \end{bmatrix}
-
 $$
 
 
@@ -3543,9 +3411,7 @@ where $\Delta x$ is the step direction, $\lambda$ is the vector of Lagrange mult
 
 
 $$
-
 x_{k+1} = x_k + \Delta x
-
 $$
 
 
@@ -3575,9 +3441,7 @@ Consider the quadratic approximation $Q(\delta \mathbf{x},\delta \mathbf{u})$ ar
 
 
 $$
-
 \delta\mathbf{u}^* = \operatorname{argmin}\limits_{\delta \mathbf{u}}Q(\delta \mathbf{x},\delta \mathbf{u})=-Q_{\mathbf{u}}^{-1}Q_{\mathbf{u}\mathbf{x}}\delta\mathbf{x}
-
 $$
 
 
@@ -3615,9 +3479,7 @@ The algorithm begins at an initial estimate for the optimal value $\mathbf{x}_0$
 
 
 $$
-
 B_k p_k = -\nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -3647,9 +3509,7 @@ The L-BFGS method follows the same general procedure as the BFGS method. It star
 
 
 $$
-
 B_k p_k = -\nabla f(\mathbf{x}_k)
-
 $$
 
 
@@ -3723,9 +3583,7 @@ The method starts with an initial guess $x_0$ and iteratively updates the soluti
 
 
 $$
-
 x_{i+1} = x_i + \alpha_i p_i
-
 $$
 
 
@@ -3751,41 +3609,31 @@ The method starts with an initial guess $x_0$ and computes the residual $r_0 = b
 
 
 $$
-
 \alpha_i = \frac{r_i^Tr_i}{p_i^TAp_i}
-
 $$
 
 
 
 $$
-
 x_{i+1} = x_i + \alpha_i p_i
-
 $$
 
 
 
 $$
-
 r_{i+1} = r_i - \alpha_i Ap_i
-
 $$
 
 
 
 $$
-
 \beta_i = \frac{r_{i+1}^Tr_{i+1}}{r_i^Tr_i}
-
 $$
 
 
 
 $$
-
 p_{i+1} = r_{i+1} + \beta_i p_i
-
 $$
 
 
@@ -3811,7 +3659,6 @@ The PCG method starts with an initial guess $\mathbf x_0$ and computes the preco
 
 
 $$
-
 \begin{align*}
 
 & \alpha_k := \frac{\mathbf r_k^\mathrm{T} \mathbf A \mathbf r_k}{(\mathbf{A p}_k)^\mathrm{T} \mathbf M^{-1} \mathbf{A p}_k} \\
@@ -3827,7 +3674,6 @@ $$
 & \mathbf{A p}_{k + 1} := \mathbf A \mathbf r_{k+1} + \beta_k \mathbf{A p}_k \\
 
 \end{align*}
-
 $$
 
 
@@ -3857,9 +3703,7 @@ Consider the quadratic approximation of the cost function $Q(\delta \mathbf{x},\
 
 
 $$
-
 \delta\mathbf{u}^* = \operatorname{argmin}\limits_{\delta \mathbf{u}}Q(\delta \mathbf{x},\delta \mathbf{u})=-Q_{\mathbf{u}\mathbf{x}}^{-1}Q_\mathbf{u}
-
 $$
 
 
@@ -3917,9 +3761,7 @@ For example, consider the following constrained problem:
 
 
 $$
-
 \min f(\mathbf{x}) \quad \text{subject to} \quad c_i(\mathbf{x}) \leq 0, \quad i = 1, \ldots, m
-
 $$
 
 
@@ -3929,9 +3771,7 @@ This problem can be solved as a series of unconstrained minimization problems:
 
 
 $$
-
 \min f(\mathbf{x}) + \sigma_k \sum_{i=1}^m g(c_i(\mathbf{x}))
-
 $$
 
 
@@ -3961,7 +3801,6 @@ Consider the following nonlinear optimization problem with inequality constraint
 
 
 $$
-
 \begin{aligned}
 
 \operatorname{minimize}\quad & f(x) \\ 
@@ -3975,7 +3814,6 @@ $$
 \text{where}\quad & f : \mathbb{R}^{n} \to \mathbb{R},\ c_i : \mathbb{R}^{n} \to \mathbb{R}.
 
 \end{aligned}\quad (1)
-
 $$
 
 
@@ -3985,9 +3823,7 @@ The primal-dual method solves this problem by converting it into an unconstraine
 
 
 $$
-
 B(x,\mu) = f(x) - \mu \sum_{i=1}^m \ln c_i(x) \quad (2)
-
 $$
 
 
@@ -4001,9 +3837,7 @@ The gradient of the barrier function is:
 
 
 $$
-
 \nabla B(x,\mu) = \nabla f(x) - \mu \sum_{i=1}^m \frac{1}{c_i(x)} \nabla c_i(x) \quad (3)
-
 $$
 
 
@@ -4013,7 +3847,6 @@ In addition to the original ("primal") variable $x$ we introduce a Lagrange mult
 
 
 $$
-
 \begin{aligned}
 
 \nabla B(x,\mu) + \sum_{i=1}^m \lambda_i \nabla c_i(x) = 0, \quad (4) \\
@@ -4021,7 +3854,6 @@ $$
 \lambda_i c_i(x) = \mu \text{ for } i = 1, \ldots, m. \quad (5)
 
 \end{aligned}
-
 $$
 
 
@@ -4051,9 +3883,7 @@ Consider a discrete-time control system described by the state equation:
 
 
 $$
-
 x_{t+1} = f(x_t, u_t) \quad (6)
-
 $$
 
 
@@ -4063,9 +3893,7 @@ where $x_t \in \mathbb{R}^n$ is the state at time $t$, $u_t \in \mathbb{R}^m$ is
 
 
 $$
-
 J(\pi) = \sum_{t=0}^{T} c(x_t, u_t) \quad (7)
-
 $$
 
 
@@ -4079,17 +3907,13 @@ This problem can be solved using the primal-dual interior point method by introd
 
 
 $$
-
 x_{t+1} - f(x_t, u_t) \ge 0 \text{ for } t = 0, \ldots, T-1 \quad (8)
-
 $$
 
 
 
 $$
-
 u_t - \pi(x_t) \ge 0 \text{ for } t = 0, \ldots, T-1 \quad (9)
-
 $$
 
 
@@ -4323,9 +4147,7 @@ A common choice for the cooling schedule is geometric cooling, where the tempera
 
 
 $$
-
 T_{i+1} = \alpha T_i
-
 $$
 
 
@@ -4347,7 +4169,6 @@ The Metropolis criterion can be expressed as:
 
 
 $$
-
 P(\text{accept}) = \begin{cases} 
 
 1 & \text{if } \Delta E \leq 0 \\
@@ -4355,7 +4176,6 @@ P(\text{accept}) = \begin{cases}
 e^{-\Delta E / T} & \text{if } \Delta E > 0 
 
 \end{cases}
-
 $$
 
 
@@ -4445,9 +4265,7 @@ The movement of each particle in the swarm is determined by its velocity. The ve
 
 
 $$
-
 v_{i}(t+1) = w \cdot v_{i}(t) + \phi_{p} \cdot rand() \cdot (p_{i} - x_{i}(t)) + \phi_{g} \cdot rand() \cdot (g - x_{i}(t))
-
 $$
 
 
@@ -4465,9 +4283,7 @@ After the velocity of a particle is updated, its position is updated according t
 
 
 $$
-
 x_{i}(t+1) = x_{i}(t) + v_{i}(t+1)
-
 $$
 
 
@@ -4631,7 +4447,6 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{w}{\text{maximize}}
@@ -4647,7 +4462,6 @@ $$
 &&& w \geq 0,
 
 \end{aligned}
-
 $$
 
 
@@ -4699,9 +4513,7 @@ Mathematically, the CAPM can be expressed as:
 
 
 $$
-
 E(R_i) = R_f + \beta_i (E(R_m) - R_f)
-
 $$
 
 
@@ -4871,9 +4683,7 @@ Formally, the CCAPM can be stated as follows. The expected risk premium on a ris
 
 
 $$
-
 E[R_i - R_f] = \gamma Cov(R_i, \Delta C)
-
 $$
 
 
@@ -4907,9 +4717,7 @@ One of the most well-known equilibrium asset pricing models is the Capital Asset
 
 
 $$
-
 E[R_i] = R_f + \beta_i (E[R_m] - R_f)
-
 $$
 
 
@@ -4927,9 +4735,7 @@ Another important equilibrium asset pricing model is the Arbitrage Pricing Theor
 
 
 $$
-
 E[R_i] = R_f + \beta_{i1} E[F_1] + \beta_{i2} E[F_2] + ... + \beta_{in} E[F_n]
-
 $$
 
 
@@ -4959,9 +4765,7 @@ Another important application of dynamic asset pricing models is in the area of 
 
 
 $$
-
 C(S, t) = S N(d_1) - X e^{-r(T-t)} N(d_2)
-
 $$
 
 
@@ -4971,17 +4775,13 @@ where $S$ is the current price of the underlying asset, $X$ is the strike price 
 
 
 $$
-
 d_1 = \frac{\ln(S/X) + (r + \sigma^2/2)(T-t)}{\sigma \sqrt{T-t}}
-
 $$
 
 
 
 $$
-
 d_2 = d_1 - \sigma \sqrt{T-t}
-
 $$
 
 
@@ -5019,9 +4819,7 @@ The value of a real option, $V$, can be expressed as:
 
 
 $$
-
 V = max[0, S - X]
-
 $$
 
 
@@ -5047,9 +4845,7 @@ One of the key applications of ROA in investment analysis is in the valuation of
 
 
 $$
-
 G = max[0, V - X]
-
 $$
 
 
@@ -5063,9 +4859,7 @@ Another application of ROA in investment analysis is in the valuation of abandon
 
 
 $$
-
 A = max[0, X - V]
-
 $$
 
 
@@ -5091,9 +4885,7 @@ The Solow-Swan model is based on a production function of the form:
 
 
 $$
-
 Y(t) = A(t)F[K(t), L(t)]
-
 $$
 
 
@@ -5107,9 +4899,7 @@ The model assumes that the economy saves a fraction $s$ of its output and invest
 
 
 $$
-
 \dot{K}(t) = sY(t) - \delta K(t)
-
 $$
 
 
@@ -5123,9 +4913,7 @@ The Solow-Swan model also assumes that the labor force grows at a constant rate 
 
 
 $$
-
 \dot{L}(t) = nL(t)
-
 $$
 
 
@@ -5139,9 +4927,7 @@ Finally, the model assumes that technological progress occurs at a constant rate
 
 
 $$
-
 \dot{A}(t) = gA(t)
-
 $$
 
 
@@ -5167,9 +4953,7 @@ The Ramsey-Cass-Koopmans model is based on a representative agent who maximizes 
 
 
 $$
-
 U = \int_{0}^{\infty} e^{-\rho t} u[c(t)] dt
-
 $$
 
 
@@ -5183,9 +4967,7 @@ The representative agent's budget constraint is given by:
 
 
 $$
-
 \dot{K}(t) = f[K(t), L(t)] - c(t) - \delta K(t)
-
 $$
 
 
@@ -5199,9 +4981,7 @@ The Ramsey-Cass-Koopmans model assumes that the labor force grows at a constant 
 
 
 $$
-
 \dot{L}(t) = nL(t)
-
 $$
 
 
@@ -5215,9 +4995,7 @@ The representative agent chooses the path of consumption $c(t)$ to maximize life
 
 
 $$
-
 \dot{c}(t) = \frac{1}{\theta} [f'(K(t)) - \rho - \delta]
-
 $$
 
 
@@ -5435,11 +5213,9 @@ Under these conditions, the government needs to maximize the utility $V_{2} (C_{
 
 
 $$
-
 \mathcal{L} = V_{2} (C_{2} , Y_{2 }) + \lambda_{1 } ( V_{1} (C_{1}, Y_{1}) - V_{1} (C_{2},Y_{2 } ) ) + 
 
 \gamma \left( - (C_{1} - Y_{1}) N_{1} - (C_{2} - Y_{2} ) N_{2} - \overline{R} \right) \; ,
-
 $$
 
 
@@ -5449,17 +5225,13 @@ where $\lambda_{1}$ and $\gamma$ are the Lagrange multipliers. The first order c
 
 
 $$
-
 \gamma N_{1} = 0 \; ,
-
 $$
 
 
 
 $$
-
 \gamma N_{2} = 0 \; .
-
 $$
 
 
@@ -5493,9 +5265,7 @@ The Ramsey rule can be illustrated using the following mathematical model. Suppo
 
 
 $$
-
 \mathcal{L} = \sum_{i=1}^{n} U_i(Q_i(P_i + t_i)) + \lambda (R - \sum_{i=1}^{n} t_i Q_i(P_i + t_i))
-
 $$
 
 
@@ -5541,9 +5311,7 @@ The Lagrange function for this problem is given by:
 
 
 $$
-
 \mathcal{L} = \sum_{t=0}^{\infty} \beta^t U_t(C_t(L_t, t_t), L_t(1-t_t)) + \lambda \left( \sum_{t=0}^{\infty} \beta^t (t_t C_t(L_t, t_t) + g_t) - G \right)
-
 $$
 
 
@@ -5569,9 +5337,7 @@ The Lagrange function for this problem is given by:
 
 
 $$
-
 \mathcal{L} = \sum_{i=1}^{n} \sum_{t=0}^{\infty} \beta^t W_i U_i(C_{it}(L_{it}, t_{it}), L_{it}(1-t_{it})) + \lambda \left( \sum_{i=1}^{n} \sum_{t=0}^{\infty} \beta^t (t_{it} C_{it}(L_{it}, t_{it}) + g_{it}) - G \right)
-
 $$
 
 
@@ -5609,9 +5375,7 @@ The Lagrange function for this problem is given by:
 
 
 $$
-
 \mathcal{L} = \sum_{t=0}^{\infty} \beta^t (CS_t(P_t, Q_t) + PS_t(P_t, Q_t)) + \lambda \left( \sum_{t=0}^{\infty} \beta^t (P_t Q_t - C_t(Q_t)) - \Pi \right)
-
 $$
 
 
@@ -5645,9 +5409,7 @@ The dynamic optimization problem for price regulation can be formulated as follo
 
 
 $$
-
 \max_{P_t} \sum_{t=0}^{\infty} \beta^t (CS_t(P_t, Q_t) + PS_t(P_t, Q_t))
-
 $$
 
 
@@ -5657,9 +5419,7 @@ subject to the constraint:
 
 
 $$
-
 Q_t = Q_t(P_t)
-
 $$
 
 
@@ -5701,9 +5461,7 @@ The optimal regulation problem in this context can be formulated as follows:
 
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t U(x_t, y_t)
-
 $$
 
 
@@ -5713,17 +5471,13 @@ subject to the constraints:
 
 
 $$
-
 y_t = f(x_t, y_{t-1}, \epsilon_t)
-
 $$
 
 
 
 $$
-
 x_t \in X
-
 $$
 
 
@@ -5773,9 +5527,7 @@ The optimal strategy in this context can be formulated as a dynamic game, where 
 
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t \pi(x_t, y_t)
-
 $$
 
 
@@ -5785,17 +5537,13 @@ subject to the constraints:
 
 
 $$
-
 y_t = g(x_t, y_{t-1}, \epsilon_t)
-
 $$
 
 
 
 $$
-
 x_t \in X
-
 $$
 
 
@@ -5821,9 +5569,7 @@ One of the key applications of dynamic games in finance is in the study of asset
 
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t U(x_t, y_t)
-
 $$
 
 
@@ -5833,17 +5579,13 @@ subject to the constraints:
 
 
 $$
-
 y_t = h(x_t, y_{t-1}, \epsilon_t)
-
 $$
 
 
 
 $$
-
 x_t \in X
-
 $$
 
 

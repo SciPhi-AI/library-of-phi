@@ -1354,9 +1354,7 @@ Least-squares can also be viewed as a special case of linear programming, where 
 
 
 $$
-
 \min_{c \in \Reals^{n}}\frac{1}{n}\|\hat{Y}-\hat{K}c\|^{2}_{\Reals^{n}} + \lambda\langle c,\hat{K}c\rangle_{\Reals^{n}}
-
 $$
 
 
@@ -1374,9 +1372,7 @@ To find the optimal solution for a least-squares problem, we can use numerical m
 
 
 $$
-
 -\frac{1}{n}\hat{K}(\hat{Y}-\hat{K}c) + \lambda \hat{K}c = 0
-
 $$
 
 
@@ -1386,9 +1382,7 @@ Solving for $c$, we get:
 
 
 $$
-
 c = (\hat{K}+\lambda n I)^{-1}\hat{K} \hat{Y}
-
 $$
 
 
@@ -1460,9 +1454,7 @@ To solve a least-squares problem using linear programming, we can formulate it a
 
 
 $$
-
 \min_{c \in \Reals^{n}}\frac{1}{n}\|\hat{Y}-\hat{K}c\|^{2}_{\Reals^{n}} + \lambda\langle c,\hat{K}c\rangle_{\Reals^{n}}
-
 $$
 
 
@@ -1572,7 +1564,6 @@ A convex optimization problem can be defined as follows:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{\boldsymbol{x}}{\text{minimize}}
@@ -1586,7 +1577,6 @@ $$
 & & & h_j(\boldsymbol{x}) = 0, \; j = 1, \dots, p \\
 
 \end{aligned}
-
 $$
 
 
@@ -1772,7 +1762,6 @@ Let a function $f(\boldsymbol{x}) \in C^2$ be a function of general non-linear n
 $$L(\boldsymbol{x}) = \sum_{i=1}^n \alpha_i x_i^2 + \sum_{i=1}^n \beta_i x_i + \gamma$$
 
 
-
 $L(\boldsymbol{x})$ is called the alpha-BB underestimator for general functional forms. If all $\alpha_i$ are sufficiently large, the new function $L(\boldsymbol{x})$ is convex everywhere in $X$. Thus, local minimization of $L(\boldsymbol{x})$ yields a rigorous lower bound on the value of $f(\boldsymbol{x})$ in that domain.
 
 
@@ -1866,9 +1855,7 @@ Multi-objective linear programming is a class of problems that involves optimizi
 Let a function $f(\boldsymbol{x}) \in C^2$ be a function of general non-linear non-convex structure, defined in a finite box $X=\{\boldsymbol{x}\in \mathbb{R}^n:\boldsymbol{x}^L\leq\boldsymbol{x}\leq\boldsymbol{x}^U\}$. Then, a convex underestimation (relaxation) $L(\boldsymbol{x})$ of this function can be constructed over $X$ by superposing a sum of univariate quadratics, each of sufficient magnitude to overcome the non-convexity of $f(\boldsymbol{x})$ everywhere in $X$, as follows:
 
 
-
 $$L(\boldsymbol{x}) = \sum_{i=1}^n \alpha_i \left(x_i - \frac{x_i^L + x_i^U}{2}\right)^2 + \sum_{i=1}^n \beta_i \left(x_i - \frac{x_i^L + x_i^U}{2}\right) + \gamma$$
-
 
 
 where $\alpha_i$ is the coefficient of the quadratic term, $\beta_i$ is the coefficient of the linear term, and $\gamma$ is a constant. This function is called the $\alpha \text{BB}$ underestimator for general functional forms. If all $\alpha_i$ are sufficiently large, the new function $L(\boldsymbol{x})$ is convex everywhere in $X$. Thus, the global minimum of $L(\boldsymbol{x})$ is a lower bound on the global minimum of $f(\boldsymbol{x})$. This allows for the Remez algorithm and its variants to efficiently find a rigorous lower bound on the global minimum of nonlinear optimization problems.
@@ -1892,13 +1879,11 @@ Through this chapter, we have laid the foundation for understanding the principl
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad g(x) \leq 0
 
 $$
-
 where $f(x)$ and $g(x)$ are convex functions. Prove that any local minimum of this problem is also a global minimum.
 
 
@@ -1912,13 +1897,11 @@ Prove that the intersection of any number of convex sets is also a convex set.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad Ax = b
 
 $$
-
 where $f(x)$ is a convex function and $A$ is a matrix. Show that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
 
 
@@ -1932,13 +1915,11 @@ Prove that the set of all positive semidefinite matrices is a convex set.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad x \in \mathbb{R}^n, \quad \|x\|_2 \leq 1
 
 $$
-
 where $f(x)$ is a convex function. Show that this problem can be reformulated as a convex optimization problem with no constraints.
 
 
@@ -1960,13 +1941,11 @@ Through this chapter, we have laid the foundation for understanding the principl
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad g(x) \leq 0
 
 $$
-
 where $f(x)$ and $g(x)$ are convex functions. Prove that any local minimum of this problem is also a global minimum.
 
 
@@ -1980,13 +1959,11 @@ Prove that the intersection of any number of convex sets is also a convex set.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad Ax = b
 
 $$
-
 where $f(x)$ is a convex function and $A$ is a matrix. Show that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
 
 
@@ -2000,13 +1977,11 @@ Prove that the set of all positive semidefinite matrices is a convex set.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) \quad \text{subject to} \quad x \in \mathbb{R}^n, \quad \|x\|_2 \leq 1
 
 $$
-
 where $f(x)$ is a convex function. Show that this problem can be reformulated as a convex optimization problem with no constraints.
 
 
@@ -2666,17 +2641,13 @@ Let $X$ be a convex subset of a real vector space and let $f: X \to \R$ be a fun
 
 
 1. For all $0 \leq t \leq 1$ and all $x_1, x_2 \in X$:
-
 $$f\left(t x_1 + (1-t) x_2\right) \leq t f\left(x_1\right) + (1-t) f\left(x_2\right)$$
-
 The right hand side represents the straight line between $\left(x_1, f\left(x_1\right)\right)$ and $\left(x_2, f\left(x_2\right)\right)$ in the graph of $f$ as a function of $t$; increasing $t$ from $0$ to $1$ or decreasing $t$ from $1$ to $0$ sweeps this line. Similarly, the argument of the function $f$ in the left hand side represents the straight line between $x_1$ and $x_2$ in $X$ or the $x$-axis of the graph of $f$. So, this condition requires that the straight line between any pair of points on the curve of $f$ to be above or just meets the graph.
 
 
 
 2. For all $0 < t < 1$ and all $x_1, x_2 \in X$ such that $x_1 \neq x_2$:
-
 $$f\left(t x_1 + (1-t) x_2\right) \leq t f\left(x_1\right) + (1-t) f\left(x_2\right)$$
-
 
 
 The difference of this second condition with respect to the first condition above is that this condition does not include the intersection points (for example, $\left(x_1, f\left(x_1\right)\right)$ and $\left(x_2, f\left(x_2\right)\right)$) between the straight line passing through a pair of points on the curve of $f$ and the curve of $f$; the first condition includes the intersection points as it becomes $f\left(x_1\right) \leq f\left(x_1\right)$ or $f\left(x_2\right) \leq f\left(x_2\right)$.
@@ -2726,17 +2697,13 @@ Let $X$ be a convex subset of a real vector space and let $f: X \to \R$ be a fun
 
 
 1. For all $0 \leq t \leq 1$ and all $x_1, x_2 \in X$:
-
 $$f\left(t x_1 + (1-t) x_2\right) \leq t f\left(x_1\right) + (1-t) f\left(x_2\right)$$
-
 The right hand side represents the straight line between $\left(x_1, f\left(x_1\right)\right)$ and $\left(x_2, f\left(x_2\right)\right)$ in the graph of $f$ as a function of $t$; increasing $t$ from $0$ to $1$ or decreasing $t$ from $1$ to $0$ sweeps this line. Similarly, the argument of the function $f$ in the left hand side represents the straight line between $x_1$ and $x_2$ in $X$ or the $x$-axis of the graph of $f$. So, this condition requires that the straight line between any pair of points on the curve of $f$ to be above or just meets the graph.
 
 
 
 2. For all $0 < t < 1$ and all $x_1, x_2 \in X$ such that $x_1 \neq x_2$:
-
 $$f\left(t x_1 + (1-t) x_2\right) \leq t f\left(x_1\right) + (1-t) f\left(x_2\right)$$
-
 
 
 The difference of this second condition with respect to the first condition above is that this condition does not include the intersection points (for example, $\left(x_1, f\left(x_1\right)\right)$ and $\left(x_2, f\left(x_2\right)\right)$) between the straight line passing through a pair of points on the curve of $f$ and the curve of $f$; the first condition includes the intersection points as it becomes $f\left(x_1\right) \leq f\left(x_1\right)$ or $f\left(x_2\right) \leq f\left(x_2\right)$.
@@ -2800,7 +2767,6 @@ Convexity preserving operations are operations that, when applied to a convex fu
 One example of a convexity preserving operation is the addition of a constant to a convex function. Let $f(x)$ be a convex function. Then, $g(x) = f(x) + c$ is also a convex function, where $c$ is a constant. This can be easily seen by considering the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
 
 
-
 $$
 
 \begin{align*}
@@ -2816,7 +2782,6 @@ g\left(t x_1 + (1-t) x_2\right) &= f\left(t x_1 + (1-t) x_2\right) + c \\
 \end{align*}
 
 $$
-
 
 
 Thus, the addition of a constant to a convex function preserves convexity.
@@ -2864,7 +2829,6 @@ Convexity preserving operations are operations that, when applied to a convex fu
 One example of a convexity preserving operation is the addition of a constant to a convex function. Let $f(x)$ be a convex function. Then, $g(x) = f(x) + c$ is also a convex function, where $c$ is a constant. This can be easily seen by considering the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
 
 
-
 $$
 
 \begin{align*}
@@ -2882,13 +2846,11 @@ g\left(t x_1 + (1-t) x_2\right) &= f\left(t x_1 + (1-t) x_2\right) + c \\
 $$
 
 
-
 Thus, the addition of a constant to a convex function preserves convexity.
 
 
 
 Another example of a convexity preserving operation is the composition of a convex function with an affine function. Let $f(x)$ be a convex function and $h(x)$ be an affine function, i.e. $h(x) = ax + b$ for some constants $a$ and $b$. Then, the composition $g(x) = f(h(x))$ is also a convex function. This can be shown using a similar argument as above:
-
 
 
 $$
@@ -2904,7 +2866,6 @@ g\left(t x_1 + (1-t) x_2\right) &= f\left(h\left(t x_1 + (1-t) x_2\right)\right)
 \end{align*}
 
 $$
-
 
 
 Thus, the composition of a convex function with an affine function also preserves convexity.
@@ -2930,7 +2891,6 @@ In this subsection, we will explore some examples of convexity preserving operat
 One example of a convexity preserving operation is the pointwise maximum of two convex functions. Let $f(x)$ and $g(x)$ be two convex functions. Then, the pointwise maximum $h(x) = \max\{f(x), g(x)\}$ is also a convex function. This can be seen by considering the definition of convexity:
 
 
-
 $$
 
 \begin{align*}
@@ -2948,7 +2908,6 @@ h\left(t x_1 + (1-t) x_2\right) &= \max\{f\left(t x_1 + (1-t) x_2\right), g\left
 $$
 
 
-
 Similarly, the pointwise minimum of two convex functions is also a convex function.
 
 
@@ -2958,7 +2917,6 @@ Similarly, the pointwise minimum of two convex functions is also a convex functi
 
 
 Another convexity preserving operation is multiplication by a positive constant. Let $f(x)$ be a convex function and $c > 0$ be a positive constant. Then, the function $g(x) = c f(x)$ is also a convex function. This can be seen by considering the definition of convexity:
-
 
 
 $$
@@ -2978,7 +2936,6 @@ g\left(t x_1 + (1-t) x_2\right) &= c f\left(t x_1 + (1-t) x_2\right) \\
 $$
 
 
-
 Thus, multiplication by a positive constant preserves convexity.
 
 
@@ -2988,7 +2945,6 @@ Thus, multiplication by a positive constant preserves convexity.
 
 
 Lastly, we will explore the composition of a convex function with a monotone increasing function. Let $f(x)$ be a convex function and $h(x)$ be a monotone increasing function. Then, the composition $g(x) = f(h(x))$ is also a convex function. This can be seen by considering the definition of convexity:
-
 
 
 $$
@@ -3006,7 +2962,6 @@ g\left(t x_1 + (1-t) x_2\right) &= f\left(h\left(t x_1 + (1-t) x_2\right)\right)
 \end{align*}
 
 $$
-
 
 
 Thus, the composition of a convex function with a monotone increasing function also preserves convexity.
@@ -3042,7 +2997,6 @@ Convex functions are important in convex optimization because they have many des
 One of the most well-known examples of a convex function is the quadratic function. A quadratic function is defined as:
 
 
-
 $$
 
 f(x) = ax^2 + bx + c
@@ -3050,9 +3004,7 @@ f(x) = ax^2 + bx + c
 $$
 
 
-
 where $a, b, c$ are constants. This function is convex if $a \geq 0$. To see this, let's consider the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
-
 
 
 $$
@@ -3082,13 +3034,11 @@ f\left(t x_1 + (1-t) x_2\right) &= a\left(t x_1 + (1-t) x_2\right)^2 + b\left(t 
 $$
 
 
-
 where the last inequality follows from the convexity of the function $f(x) = x^2$. Thus, we can see that the quadratic function is convex when $a \geq 0$.
 
 
 
 Another common example of a convex function is the exponential function. The exponential function is defined as:
-
 
 
 $$
@@ -3098,9 +3048,7 @@ f(x) = e^x
 $$
 
 
-
 This function is convex for all $x \in \mathbb{R}$. To see this, let's consider the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
-
 
 
 $$
@@ -3118,7 +3066,6 @@ f\left(t x_1 + (1-t) x_2\right) &= e^{t x_1 + (1-t) x_2} \\
 \end{align*}
 
 $$
-
 
 
 where the inequality follows from the convexity of the function $f(x) = e^x$. Thus, we can see that the exponential function is convex for all $x \in \mathbb{R}$.
@@ -3158,7 +3105,6 @@ Convex functions are important in convex optimization because they have many des
 One of the most well-known examples of a convex function is the quadratic function. A quadratic function is defined as:
 
 
-
 $$
 
 f(x) = ax^2 + bx + c
@@ -3166,9 +3112,7 @@ f(x) = ax^2 + bx + c
 $$
 
 
-
 where $a, b, c$ are constants. This function is convex if $a \geq 0$. To see this, let's consider the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
-
 
 
 $$
@@ -3194,13 +3138,11 @@ f\left(t x_1 + (1-t) x_2\right) &= a\left(t x_1 + (1-t) x_2\right)^2 + b\left(t 
 $$
 
 
-
 where the last inequality follows from the convexity of the function $f(x) = x^2$. Thus, we can see that the quadratic function is convex when $a \geq 0$.
 
 
 
 Another common example of a convex function is the exponential function. The exponential function is defined as:
-
 
 
 $$
@@ -3210,9 +3152,7 @@ f(x) = e^x
 $$
 
 
-
 This function is convex for all values of $x$. To see this, let's consider the definition of convexity. For any $x_1, x_2 \in X$ and $0 \leq t \leq 1$, we have:
-
 
 
 $$
@@ -3230,7 +3170,6 @@ f\left(t x_1 + (1-t) x_2\right) &= e^{t x_1 + (1-t) x_2} \\
 \end{align*}
 
 $$
-
 
 
 where the last inequality follows from the convexity of the function $f(x) = e^x$. Thus, we can see that the exponential function is convex for all values of $x$.
@@ -3638,7 +3577,6 @@ Duality in convex optimization refers to the relationship between a primal probl
 To understand duality in convex optimization, let's consider the following example. Suppose we have a convex optimization problem with the objective function $f(x)$ and the feasible set $S$. The primal problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -3650,9 +3588,7 @@ $$
 $$
 
 
-
 The dual problem for this primal problem can be written as:
-
 
 
 $$
@@ -3666,9 +3602,7 @@ $$
 $$
 
 
-
 where $\mathcal{L}(x, \lambda)$ is the Lagrangian function, defined as:
-
 
 
 $$
@@ -3680,7 +3614,6 @@ $$
 \end{align}
 
 $$
-
 
 
 In this dual problem, $\lambda$ is known as the dual variable, and it forms the diagonal matrix $\Lambda$. The dual problem provides a lower bound on the optimal value of the primal problem, and the optimal value of the dual problem is always less than or equal to the optimal value of the primal problem.
@@ -3720,7 +3653,6 @@ Duality in convex optimization refers to the relationship between a primal probl
 To understand duality in convex optimization, let's consider the following example. Suppose we have a convex optimization problem with the objective function $f(x)$ and the feasible set $S$. The primal problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -3732,9 +3664,7 @@ $$
 $$
 
 
-
 The dual problem for this primal problem can be written as:
-
 
 
 $$
@@ -3748,9 +3678,7 @@ $$
 $$
 
 
-
 where $\mathcal{L}(x, \lambda)$ is the Lagrangian function, defined as:
-
 
 
 $$
@@ -3762,7 +3690,6 @@ $$
 \end{align}
 
 $$
-
 
 
 In this dual problem, $\lambda$ is known as the dual variable, and it forms the diagonal matrix $\Lambda$. The dual problem provides a lower bound on the optimal value of the primal problem, and the optimal value of the dual problem is always less than or equal to the optimal value of the primal problem.
@@ -4136,7 +4063,6 @@ Prove that a convex function is also a continuous function.
 #### Exercise 2
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -4152,7 +4078,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 3
@@ -4192,7 +4117,6 @@ Prove that a convex function is also a continuous function.
 #### Exercise 2
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -4208,7 +4132,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 3
@@ -4292,7 +4215,6 @@ To illustrate the concept of robust optimization, let us consider the following 
 Consider the robust optimization problem
 
 
-
 $$
 
 \begin{aligned}
@@ -4306,13 +4228,11 @@ $$
 $$
 
 
-
 where $g$ is a real-valued function on $X \times U$, and assume that there is no feasible solution to this problem because the robustness constraint $g(x,u) \leq b$ is too demanding.
 
 
 
 To overcome this difficulty, we can introduce a relatively small subset $\mathcal{N}$ of $U$ that represents "normal" values of $u$. This leads us to the following relaxed robust optimization problem:
-
 
 
 $$
@@ -4328,9 +4248,7 @@ $$
 $$
 
 
-
 However, since $\mathcal{N}$ is much smaller than $U$, the optimal solution may not perform well on a large portion of $U$ and may not be robust against the variability of $u$ over $U$. To address this issue, we can relax the constraint $g(x,u) \leq b$ for values of $u$ outside the set $\mathcal{N}$ in a controlled manner. This leads us to the following relaxed robustness constraint:
-
 
 
 $$
@@ -4340,9 +4258,7 @@ g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})
 $$
 
 
-
 where $\beta \geq 0$ is a control parameter and $\text{dist}(u,\mathcal{N})$ denotes the distance of $u$ from $\mathcal{N}$. This yields the following (relaxed) robust optimization problem:
-
 
 
 $$
@@ -4358,7 +4274,6 @@ $$
 $$
 
 
-
 The function $\text{dist}$ is defined in such a manner that $\text{dist}(u,\mathcal{N}) = 0$ if $u \in \mathcal{N}$ and $\text{dist}(u,\mathcal{N}) > 0$ if $u \notin \mathcal{N}$. This ensures that the optimal solution to the relaxed problem satisfies the original constraint $g(x,u) \leq b$ for all values of $u$ in $\mathcal{N}$. It also satisfies the relaxed constraint $g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})$ outside $\mathcal{N}$.
 
 
@@ -4368,7 +4283,6 @@ The function $\text{dist}$ is defined in such a manner that $\text{dist}(u,\math
 
 
 The dominating paradigm in this area of robust optimization is Wald's maximin model, namely
-
 
 
 $$
@@ -4384,7 +4298,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where the $\max$ represents the decision maker. This model aims to find a solution that minimizes the worst-case scenario, where the parameter $u$ takes on its worst possible value. This is a popular approach in robust optimization as it provides a conservative solution that is resilient to uncertainty.
@@ -4428,7 +4341,6 @@ To illustrate the concept of robust optimization, let us consider the following 
 Consider the robust optimization problem
 
 
-
 $$
 
 \begin{aligned}
@@ -4442,13 +4354,11 @@ $$
 $$
 
 
-
 where $g$ is a real-valued function on $X \times U$, and assume that there is no feasible solution to this problem because the robustness constraint $g(x,u) \leq b$ is too demanding.
 
 
 
 To overcome this difficulty, we can introduce a relatively small subset $\mathcal{N}$ of $U$ that represents "normal" values of $u$. This leads us to the following relaxed robust optimization problem:
-
 
 
 $$
@@ -4464,9 +4374,7 @@ $$
 $$
 
 
-
 However, since $\mathcal{N}$ is much smaller than $U$, the optimal solution may not perform well on a large portion of $U$ and may not be robust against the variability of $u$ over $U$. To address this issue, we can relax the constraint $g(x,u) \leq b$ for values of $u$ outside the set $\mathcal{N}$ in a controlled manner. This allows for larger violations as the distance of $u$ from $\mathcal{N}$ increases. This leads us to the following relaxed robustness constraint:
-
 
 
 $$
@@ -4476,13 +4384,11 @@ g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})
 $$
 
 
-
 where $\beta \geq 0$ is a control parameter and $\text{dist}(u,\mathcal{N})$ denotes the distance of $u$ from $\mathcal{N}$. This relaxed constraint allows for a trade-off between robustness and performance, as larger values of $\beta$ allow for more violations of the constraint.
 
 
 
 This yields the following (relaxed) robust optimization problem:
-
 
 
 $$
@@ -4496,7 +4402,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 The function $\text{dist}$ is defined in such a manner that $\text{dist}(u,\mathcal{N}) = 0$ for $u \in \mathcal{N}$ and $\text{dist}(u,\mathcal{N}) > 0$ for $u \notin \mathcal{N}$. This ensures that the optimal solution to the relaxed problem satisfies the original constraint $g(x,u) \leq b$ for all values of $u$ in $\mathcal{N}$, while also satisfying the relaxed constraint $g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})$ for values of $u$ outside $\mathcal{N}$.
@@ -4568,7 +4473,6 @@ In addition to training models, convex optimization is also used in the developm
 Consider the problem of clustering data points into two groups using k-means clustering. This problem can be formulated as the following optimization problem:
 
 
-
 $$
 
 \begin{aligned}
@@ -4582,7 +4486,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where $x_i$ is the $i$th data point, $\mu_j$ is the centroid of the $j$th cluster, and $r_{ij}$ is a binary variable that indicates whether $x_i$ belongs to the $j$th cluster.
@@ -5154,13 +5057,11 @@ The algorithm starts with an initial guess for the solution and iteratively upda
 Proximal methods have a wide range of applications in convex optimization. They can be used to solve problems of the form:
 
 
-
 $$
 
 \operatorname{min}\limits_{x \in \mathbb{R}^N} \sum_{i=1}^n f_i(x)
 
 $$
-
 
 
 where $f_i: \mathbb{R}^N \rightarrow \mathbb{R},\ i = 1, \dots, n$ are possibly non-differentiable convex functions. This includes problems with linear and nonlinear constraints, as well as problems with non-smooth objective functions. Proximal methods are also useful for handling large-scale optimization problems, as they can be easily parallelized.
@@ -5266,7 +5167,6 @@ In conclusion, proximal methods have several important properties that make them
 The Alternating Direction Method of Multipliers (ADMM) is a popular numerical method for solving convex optimization problems. It is a variant of the augmented Lagrangian method that uses partial updates for the dual variables. This method is often applied to solve problems such as
 
 
-
 $$
 
 \min_{x,y} f(x) + g(y) \text{ subject to } Ax + By = c
@@ -5274,9 +5174,7 @@ $$
 $$
 
 
-
 This is equivalent to the constrained problem
-
 
 
 $$
@@ -5284,7 +5182,6 @@ $$
 \min_{x,y} f(x) + g(y) \text{ subject to } x = y
 
 $$
-
 
 
 Though this change may seem trivial, the problem can now be attacked using methods of constrained optimization (in particular, the augmented Lagrangian method), and the objective function is separable in "x" and "y". The dual update requires solving a proximity function in "x" and "y" at the same time; the ADMM technique allows this problem to be solved approximately by first solving for "x" with "y" fixed, and then solving for "y" with "x" fixed. This approach is known as the alternating direction method, as it alternates between updating the primal and dual variables.
@@ -5386,7 +5283,6 @@ Overall, this chapter serves as a comprehensive guide to numerical methods for c
 #### Exercise 1
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5400,7 +5296,6 @@ $$
 \end{align*}
 
 $$
-
 where $f$ is a convex function, $g$ is a convex inequality constraint, and $h$ is a linear equality constraint. Show that the Karush-Kuhn-Tucker (KKT) conditions are necessary and sufficient for optimality.
 
 
@@ -5408,13 +5303,11 @@ where $f$ is a convex function, $g$ is a convex inequality constraint, and $h$ i
 #### Exercise 2
 
 Implement the gradient descent algorithm to solve the following unconstrained convex optimization problem:
-
 $$
 
 \min_{x} \quad f(x) = x^2 + 2x + 1
 
 $$
-
 Use an initial guess of $x_0 = 0$ and a learning rate of $\alpha = 0.1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = -1$.
 
 
@@ -5422,7 +5315,6 @@ Use an initial guess of $x_0 = 0$ and a learning rate of $\alpha = 0.1$. Plot th
 #### Exercise 3
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5436,15 +5328,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the projected gradient descent algorithm to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a learning rate of $\alpha = 0.1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5452,7 +5341,6 @@ where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthan
 #### Exercise 4
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5466,15 +5354,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the augmented Lagrangian method to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a penalty parameter of $\mu = 1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5482,7 +5367,6 @@ where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthan
 #### Exercise 5
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5496,15 +5380,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the barrier method to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a barrier parameter of $\mu = 1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5526,7 +5407,6 @@ Overall, this chapter serves as a comprehensive guide to numerical methods for c
 #### Exercise 1
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5540,7 +5420,6 @@ $$
 \end{align*}
 
 $$
-
 where $f$ is a convex function, $g$ is a convex inequality constraint, and $h$ is a linear equality constraint. Show that the Karush-Kuhn-Tucker (KKT) conditions are necessary and sufficient for optimality.
 
 
@@ -5548,13 +5427,11 @@ where $f$ is a convex function, $g$ is a convex inequality constraint, and $h$ i
 #### Exercise 2
 
 Implement the gradient descent algorithm to solve the following unconstrained convex optimization problem:
-
 $$
 
 \min_{x} \quad f(x) = x^2 + 2x + 1
 
 $$
-
 Use an initial guess of $x_0 = 0$ and a learning rate of $\alpha = 0.1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = -1$.
 
 
@@ -5562,7 +5439,6 @@ Use an initial guess of $x_0 = 0$ and a learning rate of $\alpha = 0.1$. Plot th
 #### Exercise 3
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5576,15 +5452,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the projected gradient descent algorithm to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a learning rate of $\alpha = 0.1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5592,7 +5465,6 @@ where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthan
 #### Exercise 4
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5606,15 +5478,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the augmented Lagrangian method to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a penalty parameter of $\mu = 1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5622,7 +5491,6 @@ where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthan
 #### Exercise 5
 
 Consider the following convex optimization problem:
-
 $$
 
 \begin{align*}
@@ -5636,15 +5504,12 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the problem is equivalent to the following unconstrained problem:
-
 $$
 
 \min_{x} \quad f(x) + I_{\mathbb{R}_+^2}(x)
 
 $$
-
 where $I_{\mathbb{R}_+^2}$ is the indicator function for the non-negative orthant. (b) Use the barrier method to solve the problem with an initial guess of $x_0 = (0, 0)^T$ and a barrier parameter of $\mu = 1$. Plot the convergence of the algorithm and compare it to the exact solution $x^* = (0.5, 0.5)^T$.
 
 
@@ -5766,7 +5631,6 @@ In this example, the inequality constraint is represented by the total cost of s
 Now, let's consider a more general form of constrained optimization problems. In mathematical terms, a constrained optimization problem can be represented as:
 
 
-
 $$
 
 \begin{align*}
@@ -5780,7 +5644,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $f(x)$ is the objective function, $g_i(x)$ are the inequality constraints, and $h_j(x)$ are the equality constraints. The goal is to find the values of $x$ that minimize the objective function while satisfying all the constraints.
@@ -5882,13 +5745,11 @@ To better understand the role of Lagrange multipliers in optimization, let us co
 In this example, the constraints are not easily represented using equations or inequalities. However, by introducing Lagrange multipliers, we can rewrite the objective function as:
 
 
-
 $$
 
 f(x,y,\lambda) = 10x + 15y + \lambda(100-2x-y) + \lambda(80-x-3y)
 
 $$
-
 
 
 where x and y represent the number of units of product A and B respectively, and lambda is the Lagrange multiplier. The first two terms represent the profit from each product, while the last two terms represent the constraints on the available machine hours.
@@ -5898,14 +5759,11 @@ where x and y represent the number of units of product A and B respectively, and
 To find the optimal solution, we take the partial derivatives of the objective function with respect to x, y, and lambda and set them equal to 0:
 
 
-
 $$
 
 \frac{\partial f}{\partial x} = 10 - 2\lambda - \lambda = 0
 
 $$
-
-
 
 $$
 
@@ -5913,14 +5771,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial f}{\partial \lambda} = 100 - 2x - y + 80 - x - 3y = 0
 
 $$
-
 
 
 Solving these equations, we get x = 20, y = 10, and lambda = 5. This means that the company should produce 20 units of product A and 10 units of product B to maximize their profit.
@@ -6110,7 +5965,6 @@ Semidefinite programming (SDP) is a powerful tool in optimization that allows us
 SDP involves optimizing a linear objective function over the intersection of a linear subspace and the cone of positive semidefinite matrices. This can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -6126,13 +5980,11 @@ $$
 $$
 
 
-
 where $X$ is a positive semidefinite matrix, $C$ and $A_i$ are symmetric matrices, and $b_i$ are constants.
 
 
 
 The dual of this SDP can be written as:
-
 
 
 $$
@@ -6148,7 +6000,6 @@ $$
 \end{align}
 
 $$
-
 
 
 The KKT conditions can also be applied to SDP problems to check for optimality. These conditions are similar to those for linear programming, but with the added constraint that the dual variable $y$ must be positive semidefinite.
@@ -6210,7 +6061,6 @@ In other words, a positive semidefinite matrix is a symmetric matrix that has no
 In SDP, the dual problem is defined as:
 
 
-
 $$
 
 \begin{align}
@@ -6224,7 +6074,6 @@ $$
 \end{align}
 
 $$
-
 
 
 One of the key properties of SDP is that the dual problem is always feasible, i.e. there always exists a feasible solution for the dual problem. This is because the constraint $C - \sum_{i=1}^{m} y_i A_i \succeq 0$ can be satisfied by setting $y = 0$, which is always a feasible solution.
@@ -6294,7 +6143,6 @@ Overall, constrained optimization is a crucial topic in the field of convex opti
 #### Exercise 1
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6306,7 +6154,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the Lagrange multiplier method.
 
 
@@ -6320,7 +6167,6 @@ Prove that if a function $f(x)$ is convex and differentiable, then its sublevel 
 #### Exercise 3
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6332,7 +6178,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the penalty method with a quadratic penalty function.
 
 
@@ -6346,7 +6191,6 @@ Prove that if a function $f(x)$ is convex and differentiable, then its gradient 
 #### Exercise 5
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6358,7 +6202,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the barrier method with a logarithmic barrier function.
 
 
@@ -6380,7 +6223,6 @@ Overall, constrained optimization is a crucial topic in the field of convex opti
 #### Exercise 1
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6392,7 +6234,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the Lagrange multiplier method.
 
 
@@ -6406,7 +6247,6 @@ Prove that if a function $f(x)$ is convex and differentiable, then its sublevel 
 #### Exercise 3
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6418,7 +6258,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the penalty method with a quadratic penalty function.
 
 
@@ -6432,7 +6271,6 @@ Prove that if a function $f(x)$ is convex and differentiable, then its gradient 
 #### Exercise 5
 
 Consider the following constrained optimization problem:
-
 $$
 
 \begin{align*}
@@ -6444,7 +6282,6 @@ $$
 \end{align*}
 
 $$
-
 Find the optimal solution using the barrier method with a logarithmic barrier function.
 
 
@@ -7018,13 +6855,11 @@ In this chapter, we have explored the concept of nonconvex optimization and its 
 #### Exercise 1
 
 Consider the following nonconvex optimization problem:
-
 $$
 
 \min_{x} f(x) = x^4 - 2x^2 + 5x + 1
 
 $$
-
 Use gradient descent to find the local minima of this function.
 
 
@@ -7038,13 +6873,11 @@ Explain the difference between convex and nonconvex optimization problems and pr
 #### Exercise 3
 
 Implement Newton's method to solve the following nonconvex optimization problem:
-
 $$
 
 \min_{x} f(x) = x^3 - 2x^2 + 3x + 1
 
 $$
-
 
 
 #### Exercise 4
@@ -7072,13 +6905,11 @@ In this chapter, we have explored the concept of nonconvex optimization and its 
 #### Exercise 1
 
 Consider the following nonconvex optimization problem:
-
 $$
 
 \min_{x} f(x) = x^4 - 2x^2 + 5x + 1
 
 $$
-
 Use gradient descent to find the local minima of this function.
 
 
@@ -7092,13 +6923,11 @@ Explain the difference between convex and nonconvex optimization problems and pr
 #### Exercise 3
 
 Implement Newton's method to solve the following nonconvex optimization problem:
-
 $$
 
 \min_{x} f(x) = x^3 - 2x^2 + 3x + 1
 
 $$
-
 
 
 #### Exercise 4
@@ -7854,7 +7683,6 @@ SOCP involves finding the optimal solution to a problem with second-order cone c
 The general form of a SOCP problem is as follows:
 
 
-
 $$
 
 \begin{align*}
@@ -7868,7 +7696,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $x \in \mathbb{R}^n$ is the optimization variable, $c \in \mathbb{R}^n$ is the linear objective function, $A \in \mathbb{R}^{m \times n}$ and $b \in \mathbb{R}^m$ define the linear constraints, $C \in \mathbb{R}^{p \times n}$ and $d \in \mathbb{R}^p$ define the second-order cone constraints, and $f \in \mathbb{R}^n$ and $g \in \mathbb{R}$ define the linear term in the second-order cone constraint.
@@ -8066,13 +7893,11 @@ To address this issue, we will consider a relatively small subset <math>\mathcal
 The relaxed robustness constraint can be written as:
 
 
-
 $$
 
 g(x,u) \leq b + \beta \cdot dist(u,\mathcal{N})
 
 $$
-
 
 
 where <math>\beta \geq 0</math> is a control parameter and <math>dist(u,\mathcal{N})</math> denotes the distance of <math>u</math> from <math>\mathcal{N}</math>. This constraint reduces back to the original robustness constraint when <math>\beta = 0</math>.
@@ -8090,13 +7915,11 @@ The function <math>dist</math> is defined in such a way that it is equal to 0 wh
 The dominating paradigm in this area of robust optimization is Wald's maximin model, which can be written as:
 
 
-
 $$
 
 \max_{x} \min_{u \in U} g(x,u)
 
 $$
-
 
 
 This model aims to find the best possible solution for the worst-case scenario, where <math>u</math> takes on its most unfavorable value. This approach is useful when the uncertainty set <math>U</math> is known and can be explicitly defined.
@@ -8572,7 +8395,6 @@ Linear programming is a method for optimizing a linear objective function, subje
 More formally, a linear programming problem can be expressed in canonical form as:
 
 
-
 $$
 
 \begin{align}
@@ -8588,7 +8410,6 @@ $$
 \end{align}
 
 $$
-
 
 
 Here, the components of $\mathbf{x}$ are the decision variables to be determined, $\mathbf{c}$ and $\mathbf{b}$ are given vectors, and $A$ is a given matrix. The objective function, $\mathbf{c}^\mathsf{T} \mathbf{x}$, is a real-valued affine function defined on the feasible region. The constraints, $A\mathbf{x} \leq \mathbf{b}$ and $\mathbf{x} \geq \mathbf{0}$, define the boundaries of the feasible region.
@@ -8648,7 +8469,6 @@ Linear programming is a method for optimizing a linear objective function, subje
 More formally, a linear programming problem can be expressed in canonical form as:
 
 
-
 $$
 
 \begin{align}
@@ -8664,7 +8484,6 @@ $$
 \end{align}
 
 $$
-
 
 
 Here, the components of $\mathbf{x}$ are the decision variables to be determined, $\mathbf{c}$ and $\mathbf{b}$ are given vectors, and $A$ is a given matrix. The objective function, $\mathbf{c}^\mathsf{T} \mathbf{x}$, is a real-valued affine function defined on the feasible region. The constraints, $A\mathbf{x} \leq \mathbf{b}$ and $\mathbf{x} \geq \mathbf{0}$, define the boundaries of the feasible region.
@@ -8856,7 +8675,6 @@ The primal problem is the original linear programming problem, where we aim to m
 The relationship between the primal and dual problems can be summarized by the following equations:
 
 
-
 $$
 
 \begin{align}
@@ -8871,8 +8689,6 @@ $$
 
 $$
 
-
-
 $$
 
 \begin{align}
@@ -8886,7 +8702,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\mathbf{x}$ and $\mathbf{y}$ are the primal and dual variables, respectively, and $A$ is the constraint matrix.
@@ -8938,7 +8753,6 @@ The primal problem is the original linear programming problem, where we aim to m
 The relationship between the primal and dual problems can be summarized by the following equations:
 
 
-
 $$
 
 \begin{align}
@@ -8953,8 +8767,6 @@ $$
 
 $$
 
-
-
 $$
 
 \begin{align}
@@ -8968,7 +8780,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\mathbf{x}$ and $\mathbf{y}$ are the primal and dual variables, respectively, and $A$ is the constraint matrix.
@@ -9072,7 +8883,6 @@ To perform sensitivity analysis, we first need to understand the concept of shad
 The sensitivity analysis results for a linear programming problem can be summarized by the following equations:
 
 
-
 $$
 
 \begin{align}
@@ -9084,7 +8894,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $z$ is the optimal objective function value, $b_i$ is the right-hand side of constraint $i$, $c_j$ is the objective function coefficient of variable $j$, and $\mathbf{y}_i$ is the dual variable associated with constraint $i$.
@@ -9128,7 +8937,6 @@ To perform sensitivity analysis, we first need to understand the concept of shad
 The sensitivity analysis results for a linear programming problem can be summarized by the following equations:
 
 
-
 $$
 
 \begin{align}
@@ -9140,7 +8948,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $z$ is the optimal objective function value, $b_i$ is the right-hand side of constraint $i$, $c_j$ is the objective function coefficient of variable $j$, and $\mathbf{y}_i$ is the dual variable associated with constraint $i$.
@@ -9172,7 +8979,6 @@ In this chapter, we have introduced the fundamental concepts of linear programmi
 #### Exercise 1
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -9188,7 +8994,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Graph the feasible region and label the corner points. (b) Use the simplex method to find the optimal solution.
 
 
@@ -9202,7 +9007,6 @@ A company produces two products, A and B, which require two types of resources, 
 #### Exercise 3
 
 Solve the following linear program using the simplex method:
-
 $$
 
 \begin{align*}
@@ -9220,11 +9024,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -9240,7 +9042,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Graph the feasible region and label the corner points. (b) Use the simplex method to find the optimal solution.
 
 
@@ -9264,7 +9065,6 @@ In this chapter, we have introduced the fundamental concepts of linear programmi
 #### Exercise 1
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -9280,7 +9080,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Graph the feasible region and label the corner points. (b) Use the simplex method to find the optimal solution.
 
 
@@ -9294,7 +9093,6 @@ A company produces two products, A and B, which require two types of resources, 
 #### Exercise 3
 
 Solve the following linear program using the simplex method:
-
 $$
 
 \begin{align*}
@@ -9312,11 +9110,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -9332,7 +9128,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Graph the feasible region and label the corner points. (b) Use the simplex method to find the optimal solution.
 
 
@@ -9398,7 +9193,6 @@ Let "n", "m", and "p" be positive integers. Let "X" be a subset of "R<sup>n</sup
 A nonlinear programming problem can be defined as:
 
 
-
 $$
 
 \begin{align}
@@ -9412,7 +9206,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where "x" is a vector of "n" decision variables and "f(x)", "g<sub>i</sub>(x)", and "h<sub>j</sub>(x)" are nonlinear functions.
@@ -9456,7 +9249,6 @@ Let "n", "m", and "p" be positive integers. Let "X" be a subset of "R<sup>n</sup
 A nonlinear programming problem can be defined as:
 
 
-
 $$
 
 \begin{align}
@@ -9470,7 +9262,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where "x" is a vector of "n" decision variables and "f(x)", "g<sub>i</sub>(x)", and "h<sub>j</sub>(x)" are nonlinear functions.
@@ -9562,7 +9353,6 @@ The KKT conditions were first introduced for linear programming problems, but th
 Let us consider a nonlinear programming problem with "n" decision variables, "m" inequality constraints, and "p" equality constraints, defined as:
 
 
-
 $$
 
 \begin{align}
@@ -9578,13 +9368,11 @@ $$
 $$
 
 
-
 where "x" is a vector of decision variables and "f(x)", "g<sub>i</sub>(x)", and "h<sub>j</sub>(x)" are nonlinear functions.
 
 
 
 The KKT conditions for this problem can be written as:
-
 
 
 $$
@@ -9604,7 +9392,6 @@ h_j(x^*) &= 0, \text{ for } j = 1, ..., p \\
 \end{align}
 
 $$
-
 
 
 where "x^*" is the optimal solution, "λ_i^*" and "μ_j^*" are the Lagrange multipliers associated with the inequality and equality constraints, respectively.
@@ -9648,7 +9435,6 @@ The KKT conditions were first introduced for linear programming problems, but th
 Let us consider a nonlinear programming problem with "n" decision variables, "m" inequality constraints, and "p" equality constraints, defined as:
 
 
-
 $$
 
 \begin{align}
@@ -9664,13 +9450,11 @@ $$
 $$
 
 
-
 where "x" is a vector of decision variables and "f(x)", "g<sub>i</sub>(x)", and "h<sub>j</sub>(x)" are nonlinear functions.
 
 
 
 The KKT conditions for this problem can be written as:
-
 
 
 $$
@@ -9690,7 +9474,6 @@ h_j(x^*) &= 0, \text{ for } j = 1, ..., p \\
 \end{align}
 
 $$
-
 
 
 where "x^*" is the optimal solution, "λ_i^*" and "μ_j^*" are the Lagrange multipliers associated with the inequality and equality constraints, respectively.
@@ -9922,7 +9705,6 @@ Nonlinear programming is a vast and complex field, and this chapter only scratch
 #### Exercise 1
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -9936,7 +9718,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -9948,7 +9729,6 @@ $$
 #### Exercise 2
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -9964,7 +9744,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -9976,7 +9755,6 @@ $$
 #### Exercise 3
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -9992,7 +9770,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10004,7 +9781,6 @@ $$
 #### Exercise 4
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10020,7 +9796,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10032,7 +9807,6 @@ $$
 #### Exercise 5
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10048,7 +9822,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10074,7 +9847,6 @@ Nonlinear programming is a vast and complex field, and this chapter only scratch
 #### Exercise 1
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10088,7 +9860,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10100,7 +9871,6 @@ $$
 #### Exercise 2
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10116,7 +9886,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10128,7 +9897,6 @@ $$
 #### Exercise 3
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10144,7 +9912,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10156,7 +9923,6 @@ $$
 #### Exercise 4
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10172,7 +9938,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10184,7 +9949,6 @@ $$
 #### Exercise 5
 
 Consider the following nonlinear programming problem:
-
 $$
 
 \begin{align*}
@@ -10200,7 +9964,6 @@ $$
 \end{align*}
 
 $$
-
 (a) Show that the objective function $f(x)$ is convex. \
 
 (b) Use the method of Lagrange multipliers to find the optimal solution. \
@@ -10256,7 +10019,6 @@ Integer programming is a type of mathematical optimization problem where some or
 An integer program can be defined as follows:
 
 
-
 $$
 
 \begin{align}
@@ -10274,7 +10036,6 @@ $$
 $$
 
 
-
 where $\mathbf{c}\in \mathbb{R}^n, \mathbf{b} \in \mathbb{R}^m$ are vectors and $A \in \mathbb{R}^{m \times n}$ is a matrix. The objective function is a linear function of the decision variables $\mathbf{x}$, and the constraints are linear inequalities. The last constraint, $\mathbf{x} \in \mathbb{Z}^n$, specifies that the decision variables must take on integer values.
 
 
@@ -10288,7 +10049,6 @@ Integer programming is a special case of mixed-integer programming, where some o
 
 
 Consider the following problem:
-
 
 
 $$
@@ -10306,7 +10066,6 @@ $$
 \end{align}
 
 $$
-
 
 
 This is an example of a binary integer program, as both decision variables $x_1$ and $x_2$ are restricted to take on only the values 0 or 1. The objective function is to maximize the total profit, given by $3x_1 + 5x_2$, subject to the constraint that the total weight of the items chosen cannot exceed 10 units. This type of problem is commonly known as a knapsack problem.
@@ -10338,7 +10097,6 @@ Integer programming is a type of mathematical optimization problem where some or
 An integer program can be defined as follows:
 
 
-
 $$
 
 \begin{align}
@@ -10354,7 +10112,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\mathbf{c}\in \mathbb{R}^n, \mathbf{b} \in \mathbb{R}^m$ are vectors and $A \in \mathbb{R}^{m \times n}$ is a matrix. The objective function is a linear function of the decision variables $\mathbf{x}$, and the constraints are linear inequalities. The last constraint, $\mathbf{x} \in \mathbb{Z}^n$, specifies that the decision variables must take on integer values.
@@ -10802,7 +10559,6 @@ In the next chapter, we will explore the concept of stochastic programming, whic
 #### Exercise 1
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -10816,7 +10572,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and bound method to find the optimal solution to this problem.
 
 
@@ -10824,7 +10579,6 @@ Use the branch and bound method to find the optimal solution to this problem.
 #### Exercise 2
 
 Solve the following integer programming problem using the cutting plane method:
-
 $$
 
 \begin{align*}
@@ -10842,11 +10596,9 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider the following knapsack problem:
-
 $$
 
 \begin{align*}
@@ -10860,7 +10612,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and cut method to find the optimal solution to this problem.
 
 
@@ -10898,7 +10649,6 @@ In the next chapter, we will explore the concept of stochastic programming, whic
 #### Exercise 1
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -10912,7 +10662,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and bound method to find the optimal solution to this problem.
 
 
@@ -10920,7 +10669,6 @@ Use the branch and bound method to find the optimal solution to this problem.
 #### Exercise 2
 
 Solve the following integer programming problem using the cutting plane method:
-
 $$
 
 \begin{align*}
@@ -10938,11 +10686,9 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider the following knapsack problem:
-
 $$
 
 \begin{align*}
@@ -10956,7 +10702,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and cut method to find the optimal solution to this problem.
 
 
@@ -11024,7 +10769,6 @@ Stochastic programming is a mathematical framework for solving optimization prob
 The general formulation of a stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11032,9 +10776,7 @@ $$
 $$
 
 
-
 where $x$ is the decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11042,7 +10784,6 @@ $$
 \min_{y} \{ q(y,\xi) \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y$ is the second-stage decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
@@ -11086,7 +10827,6 @@ Stochastic programming is a mathematical framework for solving optimization prob
 The general formulation of a stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11094,9 +10834,7 @@ $$
 $$
 
 
-
 where $x$ is the decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11104,7 +10842,6 @@ $$
 \min_{y} \{ q(y,\xi) \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y$ is the second-stage decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
@@ -11164,7 +10901,6 @@ Two-stage stochastic programming is a widely used framework in stochastic progra
 The general formulation of a two-stage stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11172,9 +10908,7 @@ $$
 $$
 
 
-
 where $x$ is the first-stage decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11184,13 +10918,11 @@ $$
 $$
 
 
-
 where $y$ is the second-stage decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
 
 
 
 The classical two-stage linear stochastic programming problems can be formulated as:
-
 
 
 $$
@@ -11200,9 +10932,7 @@ $$
 $$
 
 
-
 where $x\in \mathbb{R}^n$ is the first-stage decision variable vector, and the second-stage problem is given by:
-
 
 
 $$
@@ -11210,7 +10940,6 @@ $$
 \min_{y\in \mathbb{R}^m} \{ q(y,\xi)^T y \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y\in \mathbb{R}^m$ is the second-stage decision variable vector.
@@ -11228,7 +10957,6 @@ To better understand the concept of two-stage stochastic programming, let's cons
 We can model this problem as a two-stage stochastic programming problem. In the first stage, we make a decision on the production plan, denoted by $x$. In the second stage, we observe the actual demand, denoted by $\xi$, and make a decision on the production quantity, denoted by $y$. The objective is to maximize the expected profit, which is given by:
 
 
-
 $$
 
 E_{\xi}[Q(x,\xi)] = E_{\xi}[p(\xi)y - c(x)y]
@@ -11236,9 +10964,7 @@ E_{\xi}[Q(x,\xi)] = E_{\xi}[p(\xi)y - c(x)y]
 $$
 
 
-
 where $p(\xi)$ is the price of the product and $c(x)$ is the cost of production. The constraints are given by:
-
 
 
 $$
@@ -11246,7 +10972,6 @@ $$
 T(\xi)x + W(\xi)y = h(\xi)
 
 $$
-
 
 
 where $T(\xi)$ represents the production capacity and $W(\xi)$ represents the demand uncertainty. This formulation allows us to find an optimal production plan that takes into account the uncertainty in demand and maximizes our expected profit.
@@ -11278,7 +11003,6 @@ Two-stage stochastic programming is a widely used framework in stochastic progra
 The general formulation of a two-stage stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11286,9 +11010,7 @@ $$
 $$
 
 
-
 where $x$ is the first-stage decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11298,13 +11020,11 @@ $$
 $$
 
 
-
 where $y$ is the second-stage decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
 
 
 
 The classical two-stage linear stochastic programming problems can be formulated as:
-
 
 
 $$
@@ -11314,9 +11034,7 @@ $$
 $$
 
 
-
 where $x\in \mathbb{R}^n$ is the first-stage decision variable vector, and the second-stage problem is given by:
-
 
 
 $$
@@ -11324,7 +11042,6 @@ $$
 \min_{y\in \mathbb{R}^m} \{ q(y,\xi)^T y \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y\in \mathbb{R}^m$ is the second-stage decision variable vector.
@@ -11408,7 +11125,6 @@ Multi-stage stochastic programming is an extension of two-stage stochastic progr
 The general formulation of a multi-stage stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11416,9 +11132,7 @@ $$
 $$
 
 
-
 where $x$ is the decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11428,13 +11142,11 @@ $$
 $$
 
 
-
 where $y$ is the decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
 
 
 
 The classical multi-stage linear stochastic programming problems can be formulated as:
-
 
 
 $$
@@ -11444,9 +11156,7 @@ $$
 $$
 
 
-
 where $x\in \mathbb{R}^n$ is the decision variable vector, and the second-stage problem is given by:
-
 
 
 $$
@@ -11454,7 +11164,6 @@ $$
 \min_{y\in \mathbb{R}^m} \{ q(y,\xi)^T y \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y\in \mathbb{R}^m$ is the decision variable vector.
@@ -11472,7 +11181,6 @@ The main difference between multi-stage stochastic programming and two-stage sto
 The formulation of multi-stage stochastic programming is similar to that of two-stage stochastic programming, with the addition of multiple stages. The general formulation of a multi-stage stochastic programming problem with $K$ stages is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11480,9 +11188,7 @@ $$
 $$
 
 
-
 where $x$ is the decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem at stage $k$ is given by:
-
 
 
 $$
@@ -11490,7 +11196,6 @@ $$
 \min_{y_k} \{ q_k(y_k,\xi_k) \,|\, T_k(\xi_k)x + W_k(\xi_k)y_k = h_k(\xi_k) \}
 
 $$
-
 
 
 where $y_k$ is the decision variable vector at stage $k$, $q_k(y_k,\xi_k)$ is the cost function at stage $k$, and $T_k(\xi_k)x + W_k(\xi_k)y_k = h_k(\xi_k)$ is the constraint set at stage $k$.
@@ -11526,7 +11231,6 @@ Multi-stage stochastic programming is an extension of two-stage stochastic progr
 The general formulation of a multi-stage stochastic programming problem is given by:
 
 
-
 $$
 
 \min_{x} \{ g(x) = c^T x + E_{\xi}[Q(x,\xi)] \,|\, Ax = b \}
@@ -11534,9 +11238,7 @@ $$
 $$
 
 
-
 where $x$ is the decision variable vector, $c$ is the cost vector, $E_{\xi}$ is the expectation operator over the random variable $\xi$, and $Q(x,\xi)$ is the optimal value of the second-stage problem. The second-stage problem is given by:
-
 
 
 $$
@@ -11546,13 +11248,11 @@ $$
 $$
 
 
-
 where $y$ is the decision variable vector, $q(y,\xi)$ is the cost function, and $T(\xi)x + W(\xi)y = h(\xi)$ is the constraint set.
 
 
 
 The classical multi-stage linear stochastic programming problems can be formulated as:
-
 
 
 $$
@@ -11562,9 +11262,7 @@ $$
 $$
 
 
-
 where $x\in \mathbb{R}^n$ is the decision variable vector, and the second-stage problem is given by:
-
 
 
 $$
@@ -11572,7 +11270,6 @@ $$
 \min_{y\in \mathbb{R}^m} \{ q(y,\xi)^T y \,|\, T(\xi)x + W(\xi)y = h(\xi) \}
 
 $$
-
 
 
 where $y\in \mathbb{R}^m$ is the decision variable vector.
@@ -11886,7 +11583,6 @@ Robust optimization is a powerful tool used in convex optimization to handle unc
 Consider the robust optimization problem
 
 
-
 $$
 
 \begin{aligned}
@@ -11900,13 +11596,11 @@ $$
 $$
 
 
-
 where $g$ is a real-valued function on $X \times U$, and assume that there is no feasible solution to this problem because the robustness constraint $g(x,u) \leq b$ is too demanding.
 
 
 
 To overcome this difficulty, let $\mathcal{N}$ be a relatively small subset of $U$ representing "normal" values of $u$ and consider the following robust optimization problem:
-
 
 
 $$
@@ -11922,13 +11616,11 @@ $$
 $$
 
 
-
 Since $\mathcal{N}$ is much smaller than $U$, its optimal solution may not perform well on a large portion of $U$ and therefore may not be robust against the variability of $u$ over $U$.
 
 
 
 One way to fix this difficulty is to relax the constraint $g(x,u) \leq b$ for values of $u$ outside the set $\mathcal{N}$ in a controlled manner so that larger violations are allowed as the distance of $u$ from $\mathcal{N}$ increases. For instance, consider the relaxed robustness constraint
-
 
 
 $$
@@ -11938,9 +11630,7 @@ g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})
 $$
 
 
-
 where $\beta \geq 0$ is a control parameter and $\text{dist}(u,\mathcal{N})$ denotes the distance of $u$ from $\mathcal{N}$. Thus, for $\beta = 0$ the relaxed robustness constraint reduces back to the original robustness constraint. This yields the following (relaxed) robust optimization problem:
-
 
 
 $$
@@ -11956,9 +11646,7 @@ $$
 $$
 
 
-
 The function $\text{dist}$ is defined in such a manner that 
-
 
 
 $$
@@ -11974,9 +11662,7 @@ $$
 $$
 
 
-
 and 
-
 
 
 $$
@@ -11984,7 +11670,6 @@ $$
 \text{dist}(u,\mathcal{N}) \leq \text{dist}(u',\mathcal{N}), \quad \forall u,u' \in U
 
 $$
-
 
 
 and therefore the optimal solution to the relaxed problem satisfies the original constraint $g(x,u) \leq b$ for all values of $u$ in $\mathcal{N}$. It also satisfies the relaxed constraint $g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})$ outside $\mathcal{N}$.
@@ -11996,7 +11681,6 @@ and therefore the optimal solution to the relaxed problem satisfies the original
 
 
 The dominating paradigm in this area of robust optimization is Wald's maximin model, namely
-
 
 
 $$
@@ -12012,7 +11696,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where the $\max$ represents the decision maker, the $\min$ represents the worst-case scenario, and $g(x,u)$ represents the performance of the system under uncertainty. This model aims to find the optimal solution that performs well under the worst-case scenario, ensuring robustness against uncertainties.
@@ -12048,7 +11731,6 @@ Robust optimization is a powerful tool used in convex optimization to handle unc
 Consider the robust optimization problem
 
 
-
 $$
 
 \begin{aligned}
@@ -12062,13 +11744,11 @@ $$
 $$
 
 
-
 where $g$ is a real-valued function on $X \times U$, and assume that there is no feasible solution to this problem because the robustness constraint $g(x,u) \leq b$ is too demanding.
 
 
 
 To overcome this difficulty, let $\mathcal{N}$ be a relatively small subset of $U$ representing "normal" values of $u$ and consider the following robust optimization problem:
-
 
 
 $$
@@ -12084,13 +11764,11 @@ $$
 $$
 
 
-
 Since $\mathcal{N}$ is much smaller than $U$, its optimal solution may not perform well on a large portion of $U$ and therefore may not be robust against the variability of $u$ over $U$.
 
 
 
 One way to fix this difficulty is to relax the constraint $g(x,u) \leq b$ for values of $u$ outside the set $\mathcal{N}$ in a controlled manner so that larger violations are allowed as the distance of $u$ from $\mathcal{N}$ increases. For instance, consider the relaxed robustness constraint
-
 
 
 $$
@@ -12100,9 +11778,7 @@ g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})
 $$
 
 
-
 where $\beta \geq 0$ is a control parameter and $\text{dist}(u,\mathcal{N})$ denotes the distance of $u$ from $\mathcal{N}$. Thus, for $\beta = 0$ the relaxed robustness constraint reduces back to the original robustness constraint. This yields the following (relaxed) robust optimization problem:
-
 
 
 $$
@@ -12118,9 +11794,7 @@ $$
 $$
 
 
-
 The function $\text{dist}$ is defined in such a manner that 
-
 
 
 $$
@@ -12130,9 +11804,7 @@ $$
 $$
 
 
-
 and 
-
 
 
 $$
@@ -12142,9 +11814,7 @@ $$
 $$
 
 
-
 for all $u \in U$ and $v \in \mathcal{N}$. Therefore, the optimal solution to the relaxed problem satisfies the original constraint $g(x,u) \leq b$ for all values of $u$ in $\mathcal{N}$. It also satisfies the relaxed constraint
-
 
 
 $$
@@ -12152,7 +11822,6 @@ $$
 g(x,u) \leq b + \beta \cdot \text{dist}(u,\mathcal{N})
 
 $$
-
 
 
 outside $\mathcal{N}$.
@@ -12480,7 +12149,6 @@ In this chapter, we have introduced the concept of robust optimization, which is
 #### Exercise 1
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12494,7 +12162,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and $\Delta$ is a vector representing the uncertainty in the problem data. Show that this problem can be reformulated as a standard linear optimization problem.
 
 
@@ -12502,7 +12169,6 @@ where $A$ and $b$ are known matrices and vectors, and $\Delta$ is a vector repre
 #### Exercise 2
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12516,7 +12182,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12524,7 +12189,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 3
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12538,7 +12202,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to probabilistic uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12546,7 +12209,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 4
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12560,7 +12222,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to interval uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12568,7 +12229,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 5
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12582,7 +12242,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to parametric uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12600,7 +12259,6 @@ In this chapter, we have introduced the concept of robust optimization, which is
 #### Exercise 1
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12614,7 +12272,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and $\Delta$ is a vector representing the uncertainty in the problem data. Show that this problem can be reformulated as a standard linear optimization problem.
 
 
@@ -12622,7 +12279,6 @@ where $A$ and $b$ are known matrices and vectors, and $\Delta$ is a vector repre
 #### Exercise 2
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12636,7 +12292,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12644,7 +12299,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 3
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12658,7 +12312,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to probabilistic uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12666,7 +12319,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 4
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12680,7 +12332,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to interval uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12688,7 +12339,6 @@ where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$
 #### Exercise 5
 
 Consider the following robust optimization problem:
-
 $$
 
 \begin{align*}
@@ -12702,7 +12352,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ and $b$ are known matrices and vectors, and the entries of $A$ and $b$ are subject to parametric uncertainty. Show that this problem can be reformulated as a linear optimization problem with additional constraints.
 
 
@@ -12742,7 +12391,6 @@ Overall, this chapter will provide a comprehensive introduction to multi-objecti
 Multi-objective optimization is a powerful tool for solving problems with multiple conflicting objectives. It is a type of optimization problem where there are multiple objective functions that need to be simultaneously minimized or maximized. In mathematical terms, a multi-objective optimization problem can be formulated as:
 
 
-
 $$
 
 \min_{x \in X} (f_1(x), f_2(x),\ldots, f_k(x))
@@ -12750,9 +12398,7 @@ $$
 $$
 
 
-
 where $k\geq 2$ is the number of objectives and $X$ is the feasible set of decision vectors. The feasible set is typically defined by some constraint functions. The objective functions are often defined as:
-
 
 
 $$
@@ -12764,9 +12410,7 @@ x \mapsto (f_1(x), f_2(x),\ldots, f_k(x))
 $$
 
 
-
 In multi-objective optimization, there does not typically exist a feasible solution that minimizes all objective functions simultaneously. Therefore, attention is paid to Pareto optimal solutions; that is, solutions that cannot be improved in any of the objectives without degrading at least one of the other objectives. In mathematical terms, a feasible solution $x_1\in X$ is said to (Pareto) dominate another solution $x_2\in X$, if:
-
 
 
 $$
@@ -12774,7 +12418,6 @@ $$
 f_i(x_1) \leq f_i(x_2) \quad \forall i \in \{1,2,\ldots,k\}
 
 $$
-
 
 
 A solution $x^*\in X$ (and the corresponding outcome $f(x^*)$) is called Pareto optimal if there does not exist another solution that dominates it. The set of Pareto optimal outcomes, denoted $X^*$, is often called the Pareto front, Pareto frontier, or Pareto boundary.
@@ -12830,7 +12473,6 @@ In conclusion, multi-objective optimization is a powerful tool for solving probl
 Multi-objective optimization is a powerful tool for solving problems with multiple conflicting objectives. It is a type of optimization problem where there are multiple objective functions that need to be simultaneously minimized or maximized. In mathematical terms, a multi-objective optimization problem can be formulated as:
 
 
-
 $$
 
 \min_{x \in X} (f_1(x), f_2(x),\ldots, f_k(x))
@@ -12838,9 +12480,7 @@ $$
 $$
 
 
-
 where $k\geq 2$ is the number of objectives and $X$ is the feasible set of decision vectors. The feasible set is typically defined by some constraint functions. The objective functions are often defined as:
-
 
 
 $$
@@ -12852,9 +12492,7 @@ x \mapsto (f_1(x), f_2(x),\ldots, f_k(x))
 $$
 
 
-
 In multi-objective optimization, there does not typically exist a feasible solution that minimizes all objective functions simultaneously. Therefore, attention is paid to Pareto optimal solutions; that is, solutions that cannot be improved in any of the objectives without degrading at least one of the other objectives. In mathematical terms, a feasible solution $x_1\in X$ is said to (Pareto) dominate another solution $x_2\in X$, if:
-
 
 
 $$
@@ -12862,7 +12500,6 @@ $$
 f_i(x_1) \leq f_i(x_2) \quad \forall i \in \{1,2,\ldots,k\}
 
 $$
-
 
 
 A solution $x^*\in X$ (and the corresponding outcome $f(x^*)$) is called Pareto optimal if there does not exist another solution that dominates it. The set of Pareto optimal outcomes, denoted $X^*$, is often called the Pareto front, Pareto frontier, or Pareto boundary.
@@ -13050,13 +12687,11 @@ Scalarization methods are based on the idea of assigning weights to each objecti
 Let's consider an example where we have a multi-objective optimization problem with two objectives, $f_1(x)$ and $f_2(x)$, and a feasible set $X$. We can define a scalarization function $F(x)$ as:
 
 
-
 $$
 
 F(x) = \lambda_1 f_1(x) + \lambda_2 f_2(x)
 
 $$
-
 
 
 where $\lambda_1$ and $\lambda_2$ are the weights assigned to each objective. These weights can be adjusted to reflect the importance of each objective. For example, if we want to prioritize one objective over the other, we can assign a higher weight to that objective.
@@ -13100,13 +12735,11 @@ Scalarization methods are based on the idea of assigning weights to each objecti
 Let's consider an example where we have a multi-objective optimization problem with two objectives, $f_1(x)$ and $f_2(x)$, and a feasible set $X$. We can define a scalarization function $F(x)$ as:
 
 
-
 $$
 
 F(x) = \lambda_1 f_1(x) + \lambda_2 f_2(x)
 
 $$
-
 
 
 where $\lambda_1$ and $\lambda_2$ are the weights assigned to each objective. These weights can be adjusted to reflect the importance of each objective. For example, if we want to prioritize one objective over the other, we can assign a higher weight to that objective.
@@ -13250,13 +12883,11 @@ Overall, multi-objective optimization is a powerful tool that allows us to find 
 #### Exercise 1
 
 Consider a multi-objective optimization problem with two objectives, $f_1(x)$ and $f_2(x)$, where $x$ is a vector of decision variables. The Pareto optimal set for this problem is given by the set of solutions that satisfy the following conditions:
-
 $$
 
 f_1(x^*) \leq f_1(x), \quad f_2(x^*) \leq f_2(x), \quad \forall x \in X
 
 $$
-
 where $X$ is the feasible region. Show that any solution that satisfies these conditions is Pareto optimal.
 
 
@@ -13302,13 +12933,11 @@ Overall, multi-objective optimization is a powerful tool that allows us to find 
 #### Exercise 1
 
 Consider a multi-objective optimization problem with two objectives, $f_1(x)$ and $f_2(x)$, where $x$ is a vector of decision variables. The Pareto optimal set for this problem is given by the set of solutions that satisfy the following conditions:
-
 $$
 
 f_1(x^*) \leq f_1(x), \quad f_2(x^*) \leq f_2(x), \quad \forall x \in X
 
 $$
-
 where $X$ is the feasible region. Show that any solution that satisfies these conditions is Pareto optimal.
 
 
@@ -13836,7 +13465,6 @@ Implement the dynamic programming algorithm to find the maximum flow in a networ
 Consider a scheduling problem with 3 tasks and 3 machines. The processing time for each task on each machine is given by the following matrix:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -13850,7 +13478,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 Use the branch and bound method to find the optimal schedule.
@@ -13896,7 +13523,6 @@ Implement the dynamic programming algorithm to find the maximum flow in a networ
 Consider a scheduling problem with 3 tasks and 3 machines. The processing time for each task on each machine is given by the following matrix:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -13910,7 +13536,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 Use the branch and bound method to find the optimal schedule.
@@ -15030,7 +14655,6 @@ In the next chapter, we will delve deeper into the applications of game theory i
 Consider a two-player zero-sum game with the following pay-off matrix:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -15042,7 +14666,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 a) Find the Nash equilibrium for this game.
@@ -15058,7 +14681,6 @@ b) Is this game strictly determined? If yes, what is the value of the game?
 In a non-zero-sum game, the pay-off matrix for two players is given by:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -15072,7 +14694,6 @@ $$
 $$
 
 
-
 a) Find the Nash equilibrium for this game.
 
 
@@ -15084,7 +14705,6 @@ b) Is this game strictly determined? If yes, what is the value of the game?
 #### Exercise 3
 
 Consider a cooperative game with three players, where the pay-off matrix is given by:
-
 
 
 $$
@@ -15102,7 +14722,6 @@ $$
 $$
 
 
-
 a) Find the optimal allocation of resources for the players.
 
 
@@ -15116,21 +14735,17 @@ b) Is this game fair? Justify your answer.
 In a competitive market, the demand and supply functions for a product are given by:
 
 
-
 $$
 
 D(p) = 100 - 2p
 
 $$
 
-
-
 $$
 
 S(p) = 20 + 3p
 
 $$
-
 
 
 a) Find the equilibrium price and quantity for this market.
@@ -15146,7 +14761,6 @@ b) What is the consumer surplus at the equilibrium price?
 Consider a repeated game with two players, where the pay-off matrix for each round is given by:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -15158,7 +14772,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 a) Find the Nash equilibrium for this game.
@@ -15192,7 +14805,6 @@ In the next chapter, we will delve deeper into the applications of game theory i
 Consider a two-player zero-sum game with the following pay-off matrix:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -15204,7 +14816,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 a) Find the Nash equilibrium for this game.
@@ -15220,7 +14831,6 @@ b) Is this game strictly determined? If yes, what is the value of the game?
 In a non-zero-sum game, the pay-off matrix for two players is given by:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -15234,7 +14844,6 @@ $$
 $$
 
 
-
 a) Find the Nash equilibrium for this game.
 
 
@@ -15246,7 +14855,6 @@ b) Is this game strictly determined? If yes, what is the value of the game?
 #### Exercise 3
 
 Consider a cooperative game with three players, where the pay-off matrix is given by:
-
 
 
 $$
@@ -15264,7 +14872,6 @@ $$
 $$
 
 
-
 a) Find the optimal allocation of resources for the players.
 
 
@@ -15278,21 +14885,17 @@ b) Is this game fair? Justify your answer.
 In a competitive market, the demand and supply functions for a product are given by:
 
 
-
 $$
 
 D(p) = 100 - 2p
 
 $$
 
-
-
 $$
 
 S(p) = 20 + 3p
 
 $$
-
 
 
 a) Find the equilibrium price and quantity for this market.
@@ -15306,7 +14909,6 @@ b) What is the consumer surplus at the equilibrium price?
 #### Exercise 5
 
 Consider a repeated game with two players, where the pay-off matrix for each round is given by:
-
 
 
 $$

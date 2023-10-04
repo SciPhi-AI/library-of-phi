@@ -1738,9 +1738,7 @@ The principle of static equilibrium can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a} = 0
-
 $$
 
 
@@ -1754,9 +1752,7 @@ Additionally, the principle of static equilibrium can also be applied to the sum
 
 
 $$
-
 \textbf{M} = I\alpha = 0
-
 $$
 
 
@@ -1804,9 +1800,7 @@ The principle of static equilibrium can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a} = 0
-
 $$
 
 
@@ -1878,9 +1872,7 @@ The principle of static equilibrium can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a} = 0
-
 $$
 
 
@@ -1956,9 +1948,7 @@ The principle of force can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a}
-
 $$
 
 
@@ -2018,9 +2008,7 @@ The principle of force can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a}
-
 $$
 
 
@@ -2076,9 +2064,7 @@ The principle of force can be expressed mathematically as:
 
 
 $$
-
 \textbf{F} = m\textbf{a}
-
 $$
 
 
@@ -2154,9 +2140,7 @@ The principle of moment can be expressed mathematically as:
 
 
 $$
-
 \textbf{M} = \textbf{F} \times \textbf{d}
-
 $$
 
 
@@ -2224,9 +2208,7 @@ The principle of moment can be expressed mathematically as:
 
 
 $$
-
 \textbf{M} = \textbf{F} \times \textbf{d}
-
 $$
 
 
@@ -2264,9 +2246,7 @@ Now that we have a basic understanding of the concept and types of moments, let'
 
 
 $$
-
 \textbf{M} = \textbf{F} \times \textbf{d}
-
 $$
 
 
@@ -2314,9 +2294,7 @@ The principle of moment can be expressed mathematically as:
 
 
 $$
-
 \textbf{M} = \textbf{F} \times \textbf{d}
-
 $$
 
 
@@ -2606,17 +2584,13 @@ To calculate the stress and strain, the following equations can be used:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -2922,9 +2896,7 @@ Consider the truss structure shown below. Use the method of joints to determine 
 
 
 $$
-
 \Delta w = \frac{P}{2} \sqrt{L^2 + h^2}
-
 $$
 
 
@@ -3022,9 +2994,7 @@ The uniaxial tension experiment involves the application of a twisting moment, a
 
 
 $$
-
 \tau = \frac{T}{J}
-
 $$
 
 
@@ -3034,9 +3004,7 @@ Where $\tau$ is the shear stress, $T$ is the applied torque, and $J$ is the pola
 
 
 $$
-
 J = \frac{\pi}{2} \left(\frac{d}{2}\right)^4
-
 $$
 
 
@@ -3050,9 +3018,7 @@ The deformation of the specimen is measured using strain gauges or extensometers
 
 
 $$
-
 \gamma = \frac{\Delta \theta}{L}
-
 $$
 
 
@@ -3404,13 +3370,11 @@ The first condition for equilibrium is force equilibrium, which states that the 
 
 
 $$
-
 \Sigma F_x = 0 \\
 
 \Sigma F_y = 0 \\
 
 \Sigma F_z = 0
-
 $$
 
 
@@ -3428,13 +3392,11 @@ The second condition for equilibrium is moment equilibrium, which states that th
 
 
 $$
-
 \Sigma M_x = 0 \\
 
 \Sigma M_y = 0 \\
 
 \Sigma M_z = 0
-
 $$
 
 
@@ -3452,7 +3414,6 @@ The third condition for equilibrium is compatibility, which states that the disp
 
 
 $$
-
 \Delta u = 0 \\
 
 \Delta v = 0 \\
@@ -3464,7 +3425,6 @@ $$
 \Delta \theta_y = 0 \\
 
 \Delta \theta_z = 0
-
 $$
 
 
@@ -4032,9 +3992,7 @@ One application of matrix analysis is in the field of regularized least squares.
 
 
 $$
-
 \min_{c \in \Reals^{n}}\frac{1}{n}\|\hat{Y}-\hat{K}c\|^{2}_{\Reals^{n}} + \lambda\langle c,\hat{K}c\rangle_{\Reals^{n}} .
-
 $$
 
 
@@ -4044,11 +4002,9 @@ By computing the gradient and setting it to 0, we can obtain the minimum:
 
 
 $$
-
 -\frac{1}{n}\hat{K}(\hat{Y}-\hat{K}c) + \lambda \hat{K}c = 0 \\
 
 \Rightarrow {} \hat{K}(\hat{K}+\lambda n I)c = \hat{K} \hat{Y} \\ 
-
 $$
 
 
@@ -4058,9 +4014,7 @@ The inverse matrix $(\hat{K}+\lambda n I)^{-1}$ can be computed using the Woodbu
 
 
 $$
-
 (\hat{K}+\lambda n I)^{-1} = \frac{1}{\lambda n}\left(I-\hat{K}_{n,q}(\lambda n\hat{K}_{q}+\hat{K}_{n,q}^\text{T} \hat{K}_{n,q})^{-1}\hat{K}_{n,q}^\text{T}\right)
-
 $$
 
 
@@ -4094,9 +4048,7 @@ By using matrix analysis, it is possible to efficiently perform sensitivity anal
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{K}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i} \right) = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
@@ -4424,9 +4376,7 @@ Strain is a measure of the deformation of a material relative to a reference len
 
 
 $$
-
 \varepsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -4494,9 +4444,7 @@ Normal strain, also known as tensile or compressive strain, measures the change 
 
 
 $$
-
 \varepsilon_n = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -4514,9 +4462,7 @@ Shear strain, also known as tangential or distortional strain, measures the chan
 
 
 $$
-
 \varepsilon_s = \frac{\Delta x}{L_0}
-
 $$
 
 
@@ -4534,9 +4480,7 @@ Volumetric strain measures the change in volume of a material due to the applica
 
 
 $$
-
 \varepsilon_v = \frac{\Delta V}{V_0}
-
 $$
 
 
@@ -4596,9 +4540,7 @@ Normal strain, also known as tensile or compressive strain, measures the change 
 
 
 $$
-
 \varepsilon_n = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -4616,9 +4558,7 @@ Shear strain, also known as tangential or distortional strain, measures the chan
 
 
 $$
-
 \varepsilon_s = \frac{\Delta x}{L_0}
-
 $$
 
 
@@ -4636,9 +4576,7 @@ Volumetric strain measures the change in volume of a material due to the applica
 
 
 $$
-
 \varepsilon_v = \frac{\Delta V}{V_0}
-
 $$
 
 
@@ -4722,9 +4660,7 @@ Mathematically, displacement can be defined as the difference between the final 
 
 
 $$
-
 s = x_\textrm{f} - x_\textrm{i} = \Delta{x}
-
 $$
 
 
@@ -4776,9 +4712,7 @@ Mathematically, strain can be expressed as:
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0} = \frac{\Delta V}{V_0}
-
 $$
 
 
@@ -4796,9 +4730,7 @@ Furthermore, displacement and strain are related through the concept of compatib
 
 
 $$
-
 \epsilon_{ij} = \frac{1}{2}\left(\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i}\right)
-
 $$
 
 
@@ -5116,9 +5048,7 @@ For example, let's consider the stress equation for a beam under bending:
 
 
 $$
-
 \sigma = \frac{My}{I}
-
 $$
 
 
@@ -5128,9 +5058,7 @@ where $\sigma$ is the stress, $M$ is the bending moment, $y$ is the distance fro
 
 
 $$
-
 M = \sigma I y
-
 $$
 
 
@@ -5152,9 +5080,7 @@ For example, let's consider the strain equation for a bar under tension:
 
 
 $$
-
 \varepsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -5164,9 +5090,7 @@ where $\varepsilon$ is the strain, $\Delta L$ is the change in length, and $L$ i
 
 
 $$
-
 \Delta L = \varepsilon L
-
 $$
 
 
@@ -5188,9 +5112,7 @@ For example, let's consider a system with multiple beams connected in series. Th
 
 
 $$
-
 M_{total} = \sum_{i=1}^{n} M_i
-
 $$
 
 
@@ -5212,9 +5134,7 @@ For example, let's consider the stress equation for a beam under torsion:
 
 
 $$
-
 \tau = \frac{Tr}{J}
-
 $$
 
 
@@ -5224,9 +5144,7 @@ where $\tau$ is the shear stress, $T$ is the torque, $r$ is the distance from th
 
 
 $$
-
 T = \tau J r
-
 $$
 
 
@@ -5970,9 +5888,7 @@ The shear stress at a point within a shaft can be calculated using the following
 
 
 $$
-
 \tau = \frac{T r}{J}
-
 $$
 
 
@@ -5998,9 +5914,7 @@ The angle of twist, denoted by $\theta$, can be calculated using the following f
 
 
 $$
-
 \theta = \frac{T L}{G J}
-
 $$
 
 
@@ -6026,9 +5940,7 @@ As an example, let's calculate the steam turbine shaft radius for a turboset. We
 
 
 $$
-
 \omega = \frac{2\pi}{T}
-
 $$
 
 
@@ -6042,9 +5954,7 @@ where $T$ is the period of rotation.
 
 
 $$
-
 T_s = \frac{P}{\omega}
-
 $$
 
 
@@ -6058,9 +5968,7 @@ Substituting these values into the formula for the maximal torque, we get:
 
 
 $$
-
 T = \frac{3.1831 \times 10^6}{314.16} = 10140.6 \text{ N·m}
-
 $$
 
 
@@ -6070,9 +5978,7 @@ After substituting the torsion constant, denoted by $J$, and the yield stress, d
 
 
 $$
-
 T = \frac{\sigma_y J}{r}
-
 $$
 
 
@@ -6140,9 +6046,7 @@ The shear stress at a point within a shaft can be calculated using the following
 
 
 $$
-
 \tau = \frac{T r}{J}
-
 $$
 
 
@@ -6176,9 +6080,7 @@ For a circular shaft, the torsion constant can be calculated using the following
 
 
 $$
-
 J = \frac{\pi d^4}{32}
-
 $$
 
 
@@ -6196,9 +6098,7 @@ In addition to calculating the shear stress, it is also important to consider th
 
 
 $$
-
 \theta = \frac{TL}{GJ}
-
 $$
 
 
@@ -6268,9 +6168,7 @@ The shear stress at a point within a shaft can be calculated using the following
 
 
 $$
-
 \tau = \frac{T r}{J}
-
 $$
 
 
@@ -6390,9 +6288,7 @@ The deflection of a beam in bending can be calculated using the following formul
 
 
 $$
-
 \Delta = \frac{FL^3}{3EI}
-
 $$
 
 
@@ -6420,9 +6316,7 @@ In addition to deflection, it is also important to consider the stresses within 
 
 
 $$
-
 \sigma = \frac{My}{I}
-
 $$
 
 
@@ -6490,9 +6384,7 @@ To accurately calculate the deflection of a beam in bending, we can use the foll
 
 
 $$
-
 \Delta = \frac{FL^3}{3EI}
-
 $$
 
 
@@ -6570,9 +6462,7 @@ To accurately calculate the deflection of a beam in bending, we can use the foll
 
 
 $$
-
 \Delta = \frac{FL^3}{3EI}
-
 $$
 
 
@@ -6600,9 +6490,7 @@ In order to accurately calculate the stresses within the beam, we can use the fo
 
 
 $$
-
 \sigma = \frac{My}{I}
-
 $$
 
 
@@ -6682,9 +6570,7 @@ To accurately calculate the shear stress in a beam, we can use the following for
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -6712,9 +6598,7 @@ In addition to calculating the shear stress, it is also important to calculate t
 
 
 $$
-
 \Delta = \frac{Vl}{GA}
-
 $$
 
 
@@ -6784,9 +6668,7 @@ To accurately calculate the shear stress in a beam, we can use the following for
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -6864,9 +6746,7 @@ To accurately calculate the shear stress in a beam, we can use the following for
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -6956,9 +6836,7 @@ To accurately analyze the behavior of composite beams, we can use the following 
 
 
 $$
-
 M = \frac{EI}{k}
-
 $$
 
 
@@ -6984,9 +6862,7 @@ In addition to the bending moment, it is also important to consider the shear st
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -7072,9 +6948,7 @@ To analyze composite beams using the finite element method, we can use the follo
 
 
 $$
-
 M = \frac{EI}{k}
-
 $$
 
 
@@ -7508,9 +7382,7 @@ In addition to the finite element method, there are also analytical equations th
 
 
 $$
-
 P_{cr} = \frac{\pi^2 EI}{(KL)^2}
-
 $$
 
 
@@ -7524,9 +7396,7 @@ Another commonly used equation is Johnson's parabolic formula for columns, which
 
 
 $$
-
 P_{cr} = \frac{\pi^2 EI}{(KL)^2} \left(1 + \frac{1}{2} \left(\frac{KL}{r}\right)^2\right)
-
 $$
 
 
@@ -8578,7 +8448,6 @@ To understand this concept better, let us consider a system consisting of "N" pa
 
 
 $$ \delta \mathbf{r}_i (q_1, q_2, \dots, q_f; t), \quad i = 1, 2, \dots, m ; $$
-
 $$ \delta \phi_j (q_1, q_2, \dots, q_f; t), \quad j = 1, 2, \dots, n . $$
 
 
@@ -8586,9 +8455,7 @@ $$ \delta \phi_j (q_1, q_2, \dots, q_f; t), \quad j = 1, 2, \dots, n . $$
 Using these generalized coordinates, the virtual work can be reparametrized as:
 
 
-
 $$ \delta W = \sum_{k=1}^f \left[ \left( \sum_{i=1}^m \mathbf{F}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_k} + \sum_{j=1}^n \mathbf{M}_j \cdot \frac{\partial \mathbf{\phi}_j}{\partial q_k} \right) \delta q_k \right] = \sum_{k=1}^f Q_k \delta q_k ,$$
-
 
 
 where F<sub>i</sub>" , "i" = 1, 2, ..., "m" and M<sub>j</sub>" , "j" = 1, 2, ..., "n" are the applied forces and applied moments, respectively, and "δr<sub>i</sub>" , "i" = 1, 2, ..., "m" and "δφ<sub>j</sub>", "j" = 1, 2, ..., "n" are the virtual displacements and virtual rotations, respectively.
@@ -8684,13 +8551,11 @@ In the previous section, we discussed the concept of force and its various appli
 Moment, denoted by the symbol $M$, is a measure of the tendency of a force to cause rotation about a specific point or axis. It is defined as the product of the magnitude of the force and the perpendicular distance from the point or axis to the line of action of the force. Mathematically, it can be expressed as:
 
 
-
 $$
 
 M = F \times d
 
 $$
-
 
 
 where $F$ is the magnitude of the force and $d$ is the perpendicular distance from the point or axis to the line of action of the force.
@@ -8758,13 +8623,11 @@ In the previous section, we discussed the concept of force and its various appli
 Moment, denoted by the symbol $M$, is a measure of the tendency of a force to cause rotation about a specific point or axis. It is defined as the product of the magnitude of the force and the perpendicular distance from the point or axis to the line of action of the force. Mathematically, it can be expressed as:
 
 
-
 $$
 
 M = F \times d
 
 $$
-
 
 
 where $F$ is the magnitude of the force and $d$ is the perpendicular distance from the point or axis to the line of action of the force.
@@ -8828,13 +8691,11 @@ In the previous section, we discussed the concept of force and its various appli
 Moment, denoted by the symbol $M$, is a measure of the tendency of a force to cause rotation about a specific point or axis. It is defined as the product of the magnitude of the force and the perpendicular distance from the point or axis to the line of action of the force. Mathematically, it can be expressed as:
 
 
-
 $$
 
 M = F \times d
 
 $$
-
 
 
 where $F$ is the magnitude of the force and $d$ is the perpendicular distance from the point or axis to the line of action of the force.
@@ -8902,21 +8763,17 @@ Internal forces and moments are the forces and moments that act within a structu
 Mathematically, internal forces and moments can be expressed using the principles of statics. The internal force at a point is equal and opposite to the external force acting on that point, and the internal moment at a point is equal and opposite to the external moment acting on that point. This can be represented by the following equations:
 
 
-
 $$
 
 \sum F_{int} = -\sum F_{ext}
 
 $$
 
-
-
 $$
 
 \sum M_{int} = -\sum M_{ext}
 
 $$
-
 
 
 where $F_{int}$ and $M_{int}$ are the internal forces and moments, and $F_{ext}$ and $M_{ext}$ are the external forces and moments.
@@ -8952,21 +8809,17 @@ Internal forces and moments are the forces and moments that act within a structu
 Mathematically, internal forces and moments can be expressed using the principles of statics. The internal force at a point is equal and opposite to the external force acting on that point, and the internal moment at a point is equal and opposite to the external moment acting on that point. This can be represented by the following equations:
 
 
-
 $$
 
 \sum F_{int} = -\sum F_{ext}
 
 $$
 
-
-
 $$
 
 \sum M_{int} = -\sum M_{ext}
 
 $$
-
 
 
 where $F_{int}$ and $M_{int}$ are the internal forces and moments, and $F_{ext}$ and $M_{ext}$ are the external forces and moments.
@@ -9058,21 +8911,17 @@ Internal forces and moments are the forces and moments that act within a structu
 Mathematically, internal forces and moments can be expressed using the principles of statics. The internal force at a point is equal and opposite to the external force acting on that point, and the internal moment at a point is equal and opposite to the external moment acting on that point. This can be represented by the following equations:
 
 
-
 $$
 
 \sum F_{int} = -\sum F_{ext}
 
 $$
 
-
-
 $$
 
 \sum M_{int} = -\sum M_{ext}
 
 $$
-
 
 
 where $F_{int}$ and $M_{int}$ are the internal forces and moments, and $F_{ext}$ and $M_{ext}$ are the external forces and moments.
@@ -9672,13 +9521,11 @@ The behavior of beams can be described using various equations and formulas. Som
 - **Euler-Bernoulli beam equation:** This equation describes the relationship between the bending moment, shear force, and deflection of a beam. It is given by:
 
 
-
 $$
 
 \frac{d^2}{dx^2}\left(EI\frac{d^2w}{dx^2}\right) = q(x)
 
 $$
-
 
 
 where $E$ is the modulus of elasticity, $I$ is the moment of inertia, $w$ is the deflection of the beam, and $q(x)$ is the distributed load along the beam.
@@ -9688,13 +9535,11 @@ where $E$ is the modulus of elasticity, $I$ is the moment of inertia, $w$ is the
 - **Shear force equation:** This equation describes the relationship between the shear force and the distributed load along the beam. It is given by:
 
 
-
 $$
 
 V(x) = \int q(x)dx
 
 $$
-
 
 
 where $V(x)$ is the shear force at a given point along the beam.
@@ -9704,13 +9549,11 @@ where $V(x)$ is the shear force at a given point along the beam.
 - **Bending moment equation:** This equation describes the relationship between the bending moment and the distributed load along the beam. It is given by:
 
 
-
 $$
 
 M(x) = \int V(x)dx
 
 $$
-
 
 
 where $M(x)$ is the bending moment at a given point along the beam.
@@ -9800,13 +9643,11 @@ The following stresses are induced in shafts in torsion:
 - Shear stress: The shear stress at a point within a shaft is given by the formula:
 
 
-
 $$
 
 \tau = \frac{T}{J}
 
 $$
-
 
 
 where $\tau$ is the shear stress, $T$ is the applied torque, and $J$ is the polar moment of inertia of the shaft's cross-section.
@@ -9820,13 +9661,11 @@ where $\tau$ is the shear stress, $T$ is the applied torque, and $J$ is the pola
 - Angle of twist: The angle of twist can be found using the formula:
 
 
-
 $$
 
 \theta = \frac{TL}{GJ}
 
 $$
-
 
 
 where $\theta$ is the angle of twist, $T$ is the applied torque, $L$ is the length of the shaft, $G$ is the shear modulus of the material, and $J$ is the polar moment of inertia of the shaft's cross-section.
@@ -9876,7 +9715,6 @@ Polar moment of inertia, $J = \frac{\pi d^4}{32} = \frac{\pi (0.05)^4}{32} = 1.5
 Using the formula for shear stress, we get:
 
 
-
 $$
 
 \tau = \frac{T}{J} = \frac{500}{1.54 \times 10^{-7}} = 3.25 \times 10^9 \text{ Pa}
@@ -9884,9 +9722,7 @@ $$
 $$
 
 
-
 To find the angle of twist, we use the formula:
-
 
 
 $$
@@ -9894,7 +9730,6 @@ $$
 \theta = \frac{TL}{GJ} = \frac{500 \times 2}{80 \times 10^9 \times 1.54 \times 10^{-7}} = 6.49 \times 10^{-3} \text{ rad}
 
 $$
-
 
 
 Therefore, the shear stress in the shaft is 3.25 GPa and the angle of twist is 6.49 milliradians.
@@ -9938,7 +9773,6 @@ The shear stress distribution in a shaft is not uniform, but rather varies along
 To determine the maximum shear stress in a shaft, we can use the following equation:
 
 
-
 $$
 
 \tau_{max} = \frac{T}{J}
@@ -9946,9 +9780,7 @@ $$
 $$
 
 
-
 Where $\tau_{max}$ is the maximum shear stress, $T$ is the applied torque, and $J$ is the polar moment of inertia of the shaft's cross-section. The polar moment of inertia can be calculated using the following equation:
-
 
 
 $$
@@ -9956,7 +9788,6 @@ $$
 J = \frac{\pi}{2} \left(\frac{d^4}{4} - \frac{(d-t)^4}{4}\right)
 
 $$
-
 
 
 Where $d$ is the diameter of the shaft and $t$ is the thickness of the shaft's wall.
@@ -9970,13 +9801,11 @@ Where $d$ is the diameter of the shaft and $t$ is the thickness of the shaft's w
 The angle of twist, $\theta$, is the amount of rotation experienced by the shaft due to the applied torque. It can be calculated using the following equation:
 
 
-
 $$
 
 \theta = \frac{TL}{GJ}
 
 $$
-
 
 
 Where $L$ is the length of the shaft and $G$ is the shear modulus of the material.
@@ -10492,13 +10321,11 @@ Equilibrium is a fundamental concept in the field of solid mechanics. It is a st
 In solid mechanics, equilibrium is defined as a state in which the sum of all forces acting on a body is equal to zero. This means that the body is not accelerating in any direction and is either at rest or moving at a constant velocity. Mathematically, equilibrium can be represented as:
 
 
-
 $$
 
 \Sigma F = 0
 
 $$
-
 
 
 where $\Sigma F$ represents the sum of all forces acting on the body.
@@ -10508,13 +10335,11 @@ where $\Sigma F$ represents the sum of all forces acting on the body.
 Equilibrium can also be defined in terms of moments, which are the rotational equivalents of forces. In this case, equilibrium is achieved when the sum of all moments acting on a body is equal to zero. This can be represented as:
 
 
-
 $$
 
 \Sigma M = 0
 
 $$
-
 
 
 where $\Sigma M$ represents the sum of all moments acting on the body.
@@ -10566,7 +10391,6 @@ As mentioned before, equilibrium is achieved when the sum of all forces and mome
 The first equilibrium condition is known as the translational equilibrium condition. This condition states that the sum of all forces acting on a body in any given direction must be equal to zero. Mathematically, this can be represented as:
 
 
-
 $$
 
 \Sigma F_x = 0 \\
@@ -10578,13 +10402,11 @@ $$
 $$
 
 
-
 where $\Sigma F_x$, $\Sigma F_y$, and $\Sigma F_z$ represent the sum of forces in the x, y, and z directions respectively.
 
 
 
 The second equilibrium condition is known as the rotational equilibrium condition. This condition states that the sum of all moments acting on a body about any given point must be equal to zero. Mathematically, this can be represented as:
-
 
 
 $$
@@ -10598,13 +10420,11 @@ $$
 $$
 
 
-
 where $\Sigma M_x$, $\Sigma M_y$, and $\Sigma M_z$ represent the sum of moments about the x, y, and z axes respectively.
 
 
 
 In addition to these two conditions, there is also a third condition known as the static equilibrium condition. This condition states that the sum of all forces and moments acting on a body must be equal to zero. Mathematically, this can be represented as:
-
 
 
 $$
@@ -10614,7 +10434,6 @@ $$
 \Sigma M = 0
 
 $$
-
 
 
 where $\Sigma F$ represents the sum of all forces and $\Sigma M$ represents the sum of all moments.
@@ -11430,7 +11249,6 @@ Matrix analysis offers several advantages over traditional methods of solving tr
 To better understand the matrix analysis procedure, let's consider an example of a truss structure with 5 members and 4 unknown forces. The structure can be represented in matrix form as:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -11478,7 +11296,6 @@ f_5
 \end{bmatrix}
 
 $$
-
 
 
 Where $k_i$ represents the stiffness of member $i$ and $f_i$ represents the unknown force in member $i$. By performing matrix operations and solving the equation, we can determine the values of $f_1$, $f_2$, $f_3$, and $f_4$.
@@ -11566,7 +11383,6 @@ Matrix analysis offers several advantages over traditional methods of solving tr
 To better understand the applications of matrix analysis, let's consider an example of a truss structure with 6 members and 5 unknown forces. The structure can be represented in matrix form as:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -11620,7 +11436,6 @@ F_6
 \end{bmatrix}
 
 $$
-
 
 
 By solving this matrix equation, we can determine the values of the unknown forces and analyze the stability and dynamic response of the truss structure.
@@ -11866,13 +11681,11 @@ Strain is a fundamental concept in solid mechanics that describes the deformatio
 The definition of strain can be mathematically expressed as:
 
 
-
 $$
 
 \boldsymbol{\varepsilon} \doteq \cfrac{\partial}{\partial\mathbf{X}}\left(\mathbf{x} - \mathbf{X}\right)
 
 $$
-
 
 
 where $\mathbf{x}$ is the current position of a material point and $\mathbf{X}$ is its reference position. The identity tensor $I$ is used to account for rigid body motions, such as translations and rotations.
@@ -12012,13 +11825,11 @@ In geometry and mechanics, displacement is a vector quantity that describes the 
 Displacement can also be defined as the relative position of a point, resulting from its motion. This means that it is the difference between the final and initial positions of the point. Mathematically, it can be represented as:
 
 
-
 $$
 
 s = x_\textrm{f} - x_\textrm{i} = \Delta{x}
 
 $$
-
 
 
 where $x_\textrm{f}$ is the final position, $x_\textrm{i}$ is the initial position, and $\Delta{x}$ is the change in position.
@@ -12044,13 +11855,11 @@ Consider a simple example of a tensile test, where a material is subjected to a 
 In fact, the strain can be calculated by dividing the displacement by the original length of the material. This relationship is known as Hooke's law and is expressed as:
 
 
-
 $$
 
 \epsilon = \frac{\Delta L}{L_0}
 
 $$
-
 
 
 where $\epsilon$ is the strain, $\Delta L$ is the change in length, and $L_0$ is the original length of the material.
@@ -12134,13 +11943,11 @@ As mentioned earlier, displacement is a measure of the change in position of a p
 Consider the example of a tensile test once again. As the material elongates, the displacement of a point on its surface increases. This increase in displacement is directly proportional to the strain experienced by the material. Mathematically, this relationship can be represented as:
 
 
-
 $$
 
 \epsilon = \frac{\Delta L}{L_0}
 
 $$
-
 
 
 where $\epsilon$ is the strain, $\Delta L$ is the change in length, and $L_0$ is the original length of the material.
@@ -12150,13 +11957,11 @@ where $\epsilon$ is the strain, $\Delta L$ is the change in length, and $L_0$ is
 Furthermore, the relationship between strain and displacement can also be seen in the strain-displacement equation, which relates the strain at a point to the displacement gradient at that point. This equation is given by:
 
 
-
 $$
 
 \epsilon = \frac{1}{2}\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y}\right)
 
 $$
-
 
 
 where $u$ and $v$ are the displacements in the $x$ and $y$ directions, respectively.
@@ -13204,33 +13009,27 @@ Torsion can be defined as the twisting of a structural member due to the applica
 
 
 The torsion form, an alternative characterization of torsion, applies to the frame bundle F"M" of the manifold "M". This principal bundle is equipped with a connection form "ω", a gl("n")-valued one-form which maps vertical vectors to the generators of the right action in gl("n") and equivariantly intertwines the right action of GL("n") on the tangent bundle of F"M" with the adjoint representation on gl("n"). The frame bundle also carries a canonical one-form θ, with values in R<sup>"n"</sup>, defined at a frame <nowrap|"u" ∈ F<sub>x</sub>"M"> (regarded as a linear function <nowrap|"u" : R<sup>"n"</sup> → T<sub>x</sub>"M">) by
-
 $$
 
 \theta(u) = \pi^*(u)
 
 $$
-
 where <nowrap|"π" : F"M" → "M"> is the projection mapping for the principal bundle and <nowrap|"π∗" > is its push-forward. The torsion form is then
-
 $$
 
 \Theta = D\theta
 
 $$
-
 Equivalently, Θ = "Dθ", where "D" is the exterior covariant derivative determined by the connection.
 
 
 
 The torsion form is a (horizontal) tensorial form with values in R<sup>"n"</sup>, meaning that under the right action of <nowrap|"g" ∈ GL("n")> it transforms equivariantly:
-
 $$
 
 \Theta(gu) = g\Theta(u)g^{-1}
 
 $$
-
 where "g" acts on the right-hand side through its adjoint representation on R<sup>"n"</sup>.
 
 
@@ -13248,13 +13047,11 @@ The solder form for the tangent bundle (relative to this frame) is the dual basi
 
 
 In the rightmost expression,
-
 $$
 
 \tau_{ij} = \theta(e_i)(e_j)
 
 $$
-
 are the frame-components of the torsion tensor, as given in the previous definition.
 
 
@@ -13418,13 +13215,11 @@ To calculate the stresses in a beam under bending, we use the well-known Euler-B
 Using the Euler-Bernoulli beam theory, we can derive the bending stress equation for a beam with a rectangular cross-section:
 
 
-
 $$
 
 \sigma = \frac{My}{I}
 
 $$
-
 
 
 Where:
@@ -13564,9 +13359,7 @@ To calculate shear forces in beams, we must first understand the concept of shea
 To calculate the shear force at a specific point along the beam, we can use the shear force equation:
 
 
-
 $$V = \frac{dM}{dx}$$
-
 
 
 Where:
@@ -13982,13 +13775,11 @@ Under its own weight, the column will slightly curve, and this curve can be desc
 Using the principles of mechanics, we can derive the critical load at which the column will buckle. This critical load is known as the Euler buckling load and is given by the equation:
 
 
-
 $$
 
 P_{cr} = \frac{\pi^2 EI}{(kl)^2}
 
 $$
-
 
 
 where $E$ is the modulus of elasticity of the material, $I$ is the moment of inertia of the cross-section, $k$ is a constant that depends on the end conditions of the column, and $l$ is the length of the column.
@@ -14668,7 +14459,6 @@ In this section, we will delve deeper into the topic of stress analysis, buildin
 The tangential stress-strain relation is a fundamental equation in solid mechanics, describing the relationship between stress and strain in a material. In its general form, it can be written as:
 
 
-
 $$
 
 \dot{S}_{ij}^{(m)} = C_{ijkl}^{(m)} \dot{e}_{kl}
@@ -14676,9 +14466,7 @@ $$
 $$
 
 
-
 where $C_{ijkl}^{(m)}$ are the tangential moduli associated with the strain tensor $\epsilon_{ij}^{(m)}$. These moduli are different for different choices of $m$, and are related through the following equation:
-
 
 
 $$
@@ -14686,7 +14474,6 @@ $$
 \left[C_{ijkl}^{(m)} - C_{ijkl}^{(2)} - \frac{1}{4}(2-m)(S_{ik}\delta_{jl} + S_{jk}\delta_{il} + S_{il}\delta_{jk} + S_{jl}\delta_{ik}) \right] v_{k,l} = 0
 
 $$
-
 
 
 where $C_{ijkl}^{(2)}$ are the tangential moduli associated with the Green-Lagrangian strain ($m=2$), $S_{ij}$ is the current Cauchy stress, and $\delta_{ij}$ is the Kronecker delta (or unit tensor).
@@ -14734,7 +14521,6 @@ In the previous section, we discussed the tangential stress-strain relation, whi
 The tangential stress-strain relation can be written in its general form as:
 
 
-
 $$
 
 \dot{S}_{ij}^{(m)} = C_{ijkl}^{(m)} \dot{e}_{kl}
@@ -14742,9 +14528,7 @@ $$
 $$
 
 
-
 where $C_{ijkl}^{(m)}$ are the tangential moduli associated with the strain tensor $\epsilon_{ij}^{(m)}$. These moduli are different for different choices of $m$, and are related through the following equation:
-
 
 
 $$
@@ -14752,7 +14536,6 @@ $$
 \left[C_{ijkl}^{(m)} - C_{ijkl}^{(2)} - \frac{1}{4}(2-m)(S_{ik}\delta_{jl} + S_{jk}\delta_{il} + S_{il}\delta_{jk} + S_{jl}\delta_{ik}) \right] v_{k,l} = 0
 
 $$
-
 
 
 where $C_{ijkl}^{(2)}$ are the tangential moduli associated with the Green-Lagrangian strain ($m=2$), $S_{ij}$ is the current Cauchy stress, and $\delta_{ij}$ is the Kronecker delta (or unit tensor).
@@ -14796,7 +14579,6 @@ In this section, we will delve deeper into the topic of stress analysis, buildin
 In the previous section, we discussed the tangential stress-strain relation, which is a fundamental equation in solid mechanics. We learned that this relation can be written in its general form as:
 
 
-
 $$
 
 \dot{S}_{ij}^{(m)} = C_{ijkl}^{(m)} \dot{e}_{kl}
@@ -14804,9 +14586,7 @@ $$
 $$
 
 
-
 where $C_{ijkl}^{(m)}$ are the tangential moduli associated with the strain tensor $\epsilon_{ij}^{(m)}$. These moduli are different for different choices of $m$, and are related through the following equation:
-
 
 
 $$
@@ -14814,7 +14594,6 @@ $$
 \left[C_{ijkl}^{(m)} - C_{ijkl}^{(2)} - \frac{1}{4}(2-m)(S_{ik}\delta_{jl} + S_{jk}\delta_{il} + S_{il}\delta_{jk} + S_{jl}\delta_{ik}) \right] v_{k,l} = 0
 
 $$
-
 
 
 where $C_{ijkl}^{(2)}$ are the tangential moduli associated with the Green-Lagrangian strain ($m=2$), $S_{ij}$ is the current Cauchy stress, and $\delta_{ij}$ is the Kronecker delta (or unit tensor).
@@ -16378,9 +16157,7 @@ In this section, we will explore the future directions in stress analysis and ho
 One of the key components of stress analysis is the stress-strain relation, which describes the relationship between stress and strain in a material. Traditionally, this relation has been described using the tangential stress-strain relation, which takes the form:
 
 
-
 $$\dot{S}_{ij}^{(m)} = C_{ijkl}^{(m)} \dot{e}_{kl}$$
-
 
 
 where $C_{ijkl}^{(m)}$ are the tangential moduli associated with the strain tensor $\epsilon_{ij}^{(m)}$. However, as materials become more complex and nonlinear, this traditional relation may not accurately capture the behavior of the material.
@@ -16394,9 +16171,7 @@ To address this issue, there has been a growing interest in developing objective
 Furthermore, the tangential moduli can also be transformed to achieve energy consistency. This transformation takes the form:
 
 
-
 $$C_{ijkl}^{(m)} = C_{ijkl}^{(2)} + (2-m)[S_{ik}\delta_{jl}]_{sym}$$
-
 
 
 where $C_{ijkl}^{(2)}$ are the tangential moduli associated with the Green-Lagrangian strain, $S_{ij}$ is the current Cauchy stress, and $\delta_{ij}$ is the Kronecker delta. This transformation allows for the correction of the absence of the term $S_{ij}v_{k,k}$, which is crucial for maintaining the major symmetry of the tangential moduli tensor.
@@ -16444,9 +16219,7 @@ In this section, we will explore the future directions in stress analysis and ho
 One of the key components of stress analysis is the stress-strain relation, which describes the relationship between stress and strain in a material. Traditionally, this relation has been described using the tangential stress-strain relation, which takes the form:
 
 
-
 $$\dot{S}_{ij}^{(m)} = C_{ijkl}^{(m)} \dot{e}_{kl}$$
-
 
 
 where $C_{ijkl}^{(m)}$ are the tangential moduli associated with the strain tensor $\epsilon_{ij}^{(m)}$. However, as materials become more complex and nonlinear, this traditional relation may not accurately capture the behavior of the material.
@@ -16460,9 +16233,7 @@ To address this issue, there has been a growing interest in developing objective
 Furthermore, the tangential moduli can also be transformed to achieve energy consistency. This transformation takes the form:
 
 
-
 $$C_{ijkl}^{(m)} = C_{ijkl}^{(2)} + (2-m)[S_{ik}\delta_{jl}]_{sym}$$
-
 
 
 where $C_{ijkl}^{(2)}$ are the tangential moduli associated with the Green-Lagrangian strain, $S_{ij}$ is the current Cauchy stress tensor, and $m$ is a material parameter. This transformation has been shown to improve the accuracy of stress-strain relations for nonlinear materials, and it is expected to be further developed and refined in the future.
@@ -17040,7 +16811,6 @@ Stress analysis is a fundamental aspect of solid mechanics and is used to unders
 One important concept in stress analysis is the plane stress state. This state occurs when a material is subjected to forces in two dimensions, resulting in stresses in the x and z directions. The stress state matrix for plane stress is given by:
 
 
-
 $$
 
 \sigma=\begin{bmatrix}
@@ -17056,9 +16826,7 @@ $$
 $$
 
 
-
 Another important concept is the drained condition, which occurs when a material is allowed to deform without any change in pore water pressure. In this condition, the plane strain state of stress can be separated into distortional and volumetric parts, as shown below:
-
 
 
 $$
@@ -17086,9 +16854,7 @@ $$
 $$
 
 
-
 The hydrostatic stress, denoted by <math>\sigma_{hydrostatic}</math>, is the average stress acting on the material and is given by:
-
 
 
 $$
@@ -17098,9 +16864,7 @@ $$
 $$
 
 
-
 In the drained state of stress, the hydrostatic stress remains constant, but the stresses in the x and z directions can change due to external forces. For example, after a loading of <math>\delta\sigma_z</math>, the stress state matrix would be:
-
 
 
 $$
@@ -17128,9 +16892,7 @@ $$
 $$
 
 
-
 In the drained state of stress, the stress state matrix can also be affected by changes in pore water pressure. For example, after a loading of <math>\delta p_{w,int}</math>, the stress state matrix would be:
-
 
 
 $$
@@ -17156,7 +16918,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 It is important to understand these concepts in stress analysis and how they can be applied to solve real-world problems. Make sure to review these concepts thoroughly and practice applying them to different scenarios to prepare for the exam.
@@ -19028,13 +18789,11 @@ Structural analysis is a crucial aspect of solid mechanics laboratory techniques
 The finite element method is a powerful numerical technique used to analyze the behavior of structures. It involves dividing a structure into smaller elements, each with its own set of equations, and then combining these equations to obtain the overall behavior of the structure. One important aspect of the finite element method is the system virtual work, which is the sum of the internal virtual work for all elements. This is given by the equation:
 
 
-
 $$
 
 \mbox{System internal virtual work} = \sum_{e} \delta\ \mathbf{r}^T \left( \mathbf{k}^e \mathbf{r} + \mathbf{Q}^{oe} \right) = \delta\ \mathbf{r}^T \left( \sum_{e} \mathbf{k}^e \right)\mathbf{r} + \delta\ \mathbf{r}^T \sum_{e} \mathbf{Q}^{oe}
 
 $$
-
 
 
 where $\delta$ is the virtual displacement vector, $\mathbf{r}$ is the displacement vector, $\mathbf{k}^e$ is the element stiffness matrix, and $\mathbf{Q}^{oe}$ is the element nodal force vector. This equation is important in obtaining the right-hand-side of the overall behavior equation.
@@ -19044,13 +18803,11 @@ where $\delta$ is the virtual displacement vector, $\mathbf{r}$ is the displacem
 On the other hand, the left-hand-side of the overall behavior equation is the system external virtual work, which consists of the work done by the nodal forces and the work done by external forces and body forces. This can be expressed as:
 
 
-
 $$
 
 \mbox{System external virtual work} = \delta\ \mathbf{r}^T \mathbf{R} -\delta\ \mathbf{q}^T \sum_{e} \left(\mathbf{Q}^{te} + \mathbf{Q}^{fe}\right)
 
 $$
-
 
 
 where $\mathbf{R}$ is the nodal force vector, $\mathbf{Q}^{te}$ is the element edge or surface force vector, and $\mathbf{Q}^{fe}$ is the element body force vector. These vectors can be evaluated using numerical integration, making the finite element method a convenient and efficient technique for structural analysis.
@@ -19098,7 +18855,6 @@ Mechanics of materials is a fundamental subject in solid mechanics laboratory te
 The finite element method is a powerful numerical technique used to analyze the behavior of materials. It involves dividing a material into smaller elements, each with its own set of equations, and then combining these equations to obtain the overall behavior of the material. One important aspect of the finite element method is the system virtual work, which is the sum of the internal virtual work for all elements. This is given by the equation:
 
 
-
 $$
 
 \mbox{System internal virtual work} = \sum_{e} \delta\ \mathbf{r}^T \left( \mathbf{k}^e \mathbf{r} + \mathbf{Q}^{oe} \right) = \delta\ \mathbf{r}^T \left( \sum_{e} \mathbf{k}^e \right)\mathbf{r} + \delta\ \mathbf{r}^T \sum_{e} \mathbf{Q}^{oe}
@@ -19106,13 +18862,11 @@ $$
 $$
 
 
-
 where $\delta$ is the virtual displacement vector, $\mathbf{r}$ is the displacement vector, $\mathbf{k}^e$ is the element stiffness matrix, and $\mathbf{Q}^{oe}$ is the element nodal force vector. This equation is important in obtaining the right-hand-side of the overall behavior equation.
 
 
 
 On the other hand, the left-hand-side of the overall behavior equation is the system external virtual work, which consists of the work done by the nodal forces and the work done by external forces on the material. This can be expressed as:
-
 
 
 $$

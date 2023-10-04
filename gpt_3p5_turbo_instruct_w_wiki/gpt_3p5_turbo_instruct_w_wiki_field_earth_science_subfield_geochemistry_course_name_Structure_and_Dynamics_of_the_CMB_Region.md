@@ -2128,9 +2128,7 @@ Deconvolution is achieved by convolving the seismic data with an inverse filter,
 
 
 $$
-
 y(\underline{x},t) = f(\underline{x},t) ** r(\underline{x},t)
-
 $$
 
 
@@ -2140,9 +2138,7 @@ where $f(\underline{x},t)$ represents the source wavelet, $r(\underline{x},t)$ i
 
 
 $$
-
 f_0(\underline{x},t) = \lambda y(\underline{x},t)
-
 $$
 
 
@@ -2152,9 +2148,7 @@ and
 
 
 $$
-
 f_{n+1}(\underline{x},t) = \lambda y(\underline{x},t) + q(x,t) ** f_n(\underline{x},t)
-
 $$
 
 
@@ -2164,9 +2158,7 @@ where
 
 
 $$
-
 q(x,t) = \delta (\underline{x},t) - r(\underline{x},t)
-
 $$
 
 
@@ -2176,9 +2168,7 @@ Taking the Fourier transform of the iterative equation gives:
 
 
 $$
-
 F_{n+1}(\underline{k},\omega) = \lambda Y(\underline{k},\omega) + F_n(\underline{k},\omega) - \lambda F_n(\underline{k},\omega)R(\underline{k},\omega)
-
 $$
 
 
@@ -3414,17 +3404,13 @@ The C<sub>3</sub>H molecule provides the dominant pathway to the production of C
 
 
 $$
-
 C_3H + C \rightarrow C_4H^+ + H
-
 $$
 
 
 
 $$
-
 C_3H + H \rightarrow C_3H_2
-
 $$
 
 
@@ -3434,9 +3420,7 @@ These reactions produce the majority of C<sub>4</sub>H<sup>+</sup>, which is nec
 
 
 $$
-
 C_3H_3^+ + C \rightarrow C_4H_2^+ + H
-
 $$
 
 
@@ -3516,17 +3500,13 @@ The C<sub>3</sub>H molecule provides the dominant pathway to the production of C
 
 
 $$
-
 C_3H + C \rightarrow C_4H^+ + H
-
 $$
 
 
 
 $$
-
 C_3H + H \rightarrow C_3H_2
-
 $$
 
 
@@ -3536,9 +3516,7 @@ These reactions produce the majority of C<sub>4</sub>H<sup>+</sup>, which is nec
 
 
 $$
-
 C_3H_3^+ + C \rightarrow C_4H_2^+ + H
-
 $$
 
 
@@ -3610,17 +3588,13 @@ The C<sub>3</sub>H molecule provides the dominant pathway to the production of C
 
 
 $$
-
 C_3H + C \rightarrow C_4H^+ + H
-
 $$
 
 
 
 $$
-
 C_3H + H \rightarrow C_3H_2
-
 $$
 
 
@@ -3630,9 +3604,7 @@ These reactions produce the majority of C<sub>4</sub>H<sup>+</sup>, which is nec
 
 
 $$
-
 C_3H_3^+ + C \rightarrow C_4H_2^+ + H
-
 $$
 
 
@@ -10320,9 +10292,7 @@ In one dimension, deconvolution is relatively straightforward, with well-known t
 
 
 $$
-
 F_{n+1}(\underline{k},\omega) = \lambda Y(\underline{k},\omega) + F_n(\underline{k},\omega) - \lambda F_n(\underline{k},\omega)R(\underline{k},\omega)
-
 $$
 
 

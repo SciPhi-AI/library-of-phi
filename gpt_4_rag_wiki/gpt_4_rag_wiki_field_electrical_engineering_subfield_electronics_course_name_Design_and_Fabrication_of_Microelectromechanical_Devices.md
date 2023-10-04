@@ -488,9 +488,7 @@ For example, the behavior of a MEMS resonator can be modeled using the equation 
 
 
 $$
-
 m \frac{d^2x}{dt^2} + b \frac{dx}{dt} + kx = F
-
 $$
 
 
@@ -1804,9 +1802,7 @@ Stress and strain are two fundamental concepts in the study of elasticity. Stres
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1820,9 +1816,7 @@ Strain, on the other hand, is a measure of deformation representing the displace
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -1848,9 +1842,7 @@ The elastic modulus, also known as Young's modulus, is a measure of a material's
 
 
 $$
-
 E = \frac{\sigma}{\epsilon}
-
 $$
 
 
@@ -2616,9 +2608,7 @@ The operation of an energy-conserving transducer can be described mathematically
 
 
 $$
-
 E_{in} = E_{out} + \Delta E_{internal}
-
 $$
 
 
@@ -2756,9 +2746,7 @@ For instance, consider a MEMS resonator used in a biosensor. The resonator's mot
 
 
 $$
-
 m\ddot{x} + \beta\dot{x} + kx = F(t)
-
 $$
 
 
@@ -3048,9 +3036,7 @@ Heat conduction in MEMS is described by Fourier's law of heat conduction:
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -3064,9 +3050,7 @@ Heat convection in MEMS is described by Newton's law of cooling:
 
 
 $$
-
 q = hA(T_s - T_f)
-
 $$
 
 
@@ -3080,9 +3064,7 @@ Thermal energy can also be stored and released in MEMS devices. The amount of th
 
 
 $$
-
 Q = mc\Delta T
-
 $$
 
 
@@ -3112,9 +3094,7 @@ The rate of thermal dissipation, $P$, in a system can be described by the equati
 
 
 $$
-
 P = \frac{Q}{t}
-
 $$
 
 
@@ -3160,9 +3140,7 @@ The modeling of thermal effects in MEMS involves solving the heat conduction equ
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \nabla^2 T
-
 $$
 
 
@@ -3200,9 +3178,7 @@ The basic equation for modeling dissipative processes in MEMS is the damping equ
 
 
 $$
-
 m \frac{d^2x}{dt^2} + b \frac{dx}{dt} + kx = F(t)
-
 $$
 
 
@@ -3288,9 +3264,7 @@ The damping equation is a second-order differential equation that describes the 
 
 
 $$
-
 m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = 0
-
 $$
 
 
@@ -3308,9 +3282,7 @@ Heat conduction is another important dissipative process in MEMS devices. It is 
 
 
 $$
-
 q = -k\nabla T
-
 $$
 
 
@@ -3328,9 +3300,7 @@ Heat transfer is the process by which heat is exchanged between different parts 
 
 
 $$
-
 q = hA(T_s - T_\infty)
-
 $$
 
 
@@ -3506,9 +3476,7 @@ One of the key concepts in fluid mechanics is the Reynolds number, a dimensionle
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -3526,9 +3494,7 @@ Another important concept is the capillary number, which describes the relative 
 
 
 $$
-
 Ca = \frac{\mu u}{\sigma}
-
 $$
 
 

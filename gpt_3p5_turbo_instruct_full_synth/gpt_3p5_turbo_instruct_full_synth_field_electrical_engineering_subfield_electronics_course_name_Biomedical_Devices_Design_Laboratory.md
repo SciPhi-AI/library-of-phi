@@ -1571,13 +1571,11 @@ To understand Thevenin's theorem, let's consider a simple circuit consisting of 
 
 
 $$
-
 \begin{equation}
 
 V_{in} \rightarrow R_{in} \rightarrow R_{load} \rightarrow V_{out}
 
 \end{equation}
-
 $$
 
 
@@ -1591,13 +1589,11 @@ According to Thevenin's theorem, this circuit can be simplified to an equivalent
 
 
 $$
-
 \begin{equation}
 
 V_{th} \rightarrow R_{th} \rightarrow R_{load} \rightarrow V_{out}
 
 \end{equation}
-
 $$
 
 
@@ -1611,25 +1607,21 @@ The Thevenin voltage, V_th, is the open-circuit voltage at the load terminals, a
 
 
 $$
-
 \begin{equation}
 
 V_{th} = V_{oc} = \frac{V_{in} \times R_{load}}{R_{in} + R_{load}}
 
 \end{equation}
-
 $$
 
 
 
 $$
-
 \begin{equation}
 
 R_{th} = R_{in} || R_{load} = \frac{R_{in} \times R_{load}}{R_{in} + R_{load}}
 
 \end{equation}
-
 $$
 
 
@@ -1693,7 +1685,6 @@ Let's consider the following circuit with two voltage sources and a load resisto
 
 
 $$
-
 \begin{align}
 
 V_1 &= 10V \\
@@ -1707,7 +1698,6 @@ R_2 &= 4\Omega \\
 R_L &= 8\Omega
 
 \end{align}
-
 $$
 
 
@@ -1717,9 +1707,7 @@ To apply Norton's theorem, we first remove the load resistor and calculate the s
 
 
 $$
-
 I_N = \frac{V_1}{R_1} + \frac{V_2}{R_2} = \frac{10V}{2\Omega} + \frac{5V}{4\Omega} = 7.5A
-
 $$
 
 
@@ -1729,9 +1717,7 @@ Next, we remove all sources from the circuit and calculate the equivalent resist
 
 
 $$
-
 R_N = R_1 || R_2 = \frac{R_1R_2}{R_1 + R_2} = \frac{2\Omega \times 4\Omega}{2\Omega + 4\Omega} = \frac{8}{3}\Omega
-
 $$
 
 
@@ -1741,7 +1727,6 @@ Finally, we can represent the original circuit as an equivalent circuit with a s
 
 
 $$
-
 \begin{align}
 
 I_N &= 7.5A \\
@@ -1749,7 +1734,6 @@ I_N &= 7.5A \\
 R_N &= \frac{8}{3}\Omega
 
 \end{align}
-
 $$
 
 
@@ -1987,25 +1971,21 @@ To analyze the peak detector circuit, we can use the principles of circuit analy
 
 
 $$
-
 \begin{equation}
 
 V_{in} - V_{out} - V_{D} = 0
 
 \end{equation}
-
 $$
 
 
 
 $$
-
 \begin{equation}
 
 V_{out} = \frac{R}{R+Z_{C}}V_{in}
 
 \end{equation}
-
 $$
 
 
@@ -2015,13 +1995,11 @@ Where $V_D$ is the voltage drop across the diode, and $Z_C$ is the impedance of 
 
 
 $$
-
 \begin{equation}
 
 Z_{C} = \frac{1}{j\omega C}
 
 \end{equation}
-
 $$
 
 
@@ -2517,9 +2495,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2577,9 +2553,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2649,9 +2623,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2721,9 +2693,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2777,9 +2747,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2797,9 +2765,7 @@ Switching power supplies are another commonly used type of power supply in biome
 
 
 $$
-
 V_{in} \rightarrow \text{Switching Circuit} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Switching Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2873,9 +2839,7 @@ Linear power supplies work by using a transformer to step down the input voltage
 
 
 $$
-
 V_{in} \rightarrow \text{Transformer} \rightarrow \text{Rectifier} \rightarrow \text{Linear Regulator} \rightarrow V_{out}
-
 $$
 
 
@@ -2901,9 +2865,7 @@ Switching power supplies work by using a high-frequency oscillator to switch the
 
 
 $$
-
 V_{in} \rightarrow \text{High-Frequency Oscillator} \rightarrow \text{Switching Circuit} \rightarrow V_{out}
-
 $$
 
 
@@ -5319,9 +5281,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 V_{total} = \sum_{i=1}^{n} V_i
-
 $$
 
 
@@ -5357,9 +5317,7 @@ First, we turn off $V_2$ and calculate the voltage across $R$ caused by $V_1$ al
 
 
 $$
-
 V_R = V_{R1} + V_{R2}
-
 $$
 
 
@@ -5387,9 +5345,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 Z_L = Z_S^*
-
 $$
 
 
@@ -5443,9 +5399,7 @@ Mathematically, Millman's theorem can be expressed as:
 
 
 $$
-
 V_{eq} = \frac{\sum_{i=1}^{n} \frac{V_i}{R_i}}{\sum_{i=1}^{n} \frac{1}{R_i}}
-
 $$
 
 
@@ -5501,9 +5455,7 @@ Mathematically, complex impedance can be expressed as:
 
 
 $$
-
 Z = R + jX
-
 $$
 
 
@@ -5517,9 +5469,7 @@ To better understand complex impedance, let's consider a simple circuit with a r
 
 
 $$
-
 Z = R + \frac{1}{j\omega C}
-
 $$
 
 
@@ -5533,9 +5483,7 @@ Now, let's consider a circuit with a resistor and an inductor connected in serie
 
 
 $$
-
 Z = R + j\omega L
-
 $$
 
 
@@ -5571,9 +5519,7 @@ Mathematically, complex impedance can be expressed as:
 
 
 $$
-
 Z = R + jX
-
 $$
 
 
@@ -5587,9 +5533,7 @@ To better understand complex impedance, let's consider a simple circuit with a r
 
 
 $$
-
 Z = R + \frac{1}{j\omega C}
-
 $$
 
 
@@ -5603,9 +5547,7 @@ Now, let's consider a circuit with a resistor and an inductor connected in serie
 
 
 $$
-
 Z = R + j\omega L
-
 $$
 
 
@@ -5627,9 +5569,7 @@ To calculate the complex impedance of a circuit, we can use the following formul
 
 
 $$
-
 Z = \sqrt{R^2 + X^2}
-
 $$
 
 
@@ -5647,17 +5587,13 @@ Let's consider the same examples from earlier, a circuit with a resistor and a c
 
 
 $$
-
 Z_{RC} = \sqrt{R^2 + \left(\frac{1}{\omega C}\right)^2}
-
 $$
 
 
 
 $$
-
 Z_{RL} = \sqrt{R^2 + \left(\omega L\right)^2}
-
 $$
 
 
@@ -5689,9 +5625,7 @@ Mathematically, complex impedance can be expressed as:
 
 
 $$
-
 Z = R + jX
-
 $$
 
 
@@ -5705,9 +5639,7 @@ To better understand complex impedance, let's consider a simple circuit with a r
 
 
 $$
-
 Z = R + \frac{1}{j\omega C}
-
 $$
 
 
@@ -5721,9 +5653,7 @@ Now, let's consider a circuit with a resistor and an inductor connected in serie
 
 
 $$
-
 Z = R + j\omega L
-
 $$
 
 
@@ -5993,7 +5923,6 @@ Given the circuit shown below, use Kirchhoff's laws to find the current through 
 
 
 $$
-
 \begin{align}
 
 V_1 &= 5V \\
@@ -6009,7 +5938,6 @@ R_3 &= 10k\Omega \\
 R_4 &= 10k\Omega
 
 \end{align}
-
 $$
 
 
@@ -6027,7 +5955,6 @@ Calculate the transfer function of the circuit shown below and determine its fre
 
 
 $$
-
 \begin{align}
 
 V_{in} &= 5V \\
@@ -6041,7 +5968,6 @@ C_1 &= 1\mu F \\
 C_2 &= 0.1\mu F
 
 \end{align}
-
 $$
 
 
@@ -6091,7 +6017,6 @@ Given the circuit shown below, use Kirchhoff's laws to find the current through 
 
 
 $$
-
 \begin{align}
 
 V_1 &= 5V \\
@@ -6107,7 +6032,6 @@ R_3 &= 10k\Omega \\
 R_4 &= 10k\Omega
 
 \end{align}
-
 $$
 
 
@@ -6125,7 +6049,6 @@ Calculate the transfer function of the circuit shown below and determine its fre
 
 
 $$
-
 \begin{align}
 
 V_{in} &= 5V \\
@@ -6139,7 +6062,6 @@ C_1 &= 1\mu F \\
 C_2 &= 0.1\mu F
 
 \end{align}
-
 $$
 
 
@@ -9675,9 +9597,7 @@ The Fourier transform is a mathematical tool that decomposes a signal into its c
 
 
 $$
-
 X(f) = \int_{-\infty}^{\infty} x(t)e^{-j2\pi ft} dt
-
 $$
 
 
@@ -9687,9 +9607,7 @@ where $X(f)$ is the frequency-domain representation of the signal $x(t)$. The in
 
 
 $$
-
 x(t) = \int_{-\infty}^{\infty} X(f)e^{j2\pi ft} df
-
 $$
 
 

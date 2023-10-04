@@ -1379,9 +1379,7 @@ For two discrete random variables X and Y, we can find the joint probability dis
 
 
 $$
-
 \mathbb{P}(X = x, Y = y) = \mathbb{P}(X = x \mid Y = y) \mathbb{P}(Y = y)
-
 $$
 
 
@@ -1399,9 +1397,7 @@ In the case of finitely many random variables, we can use the chain rule to find
 
 
 $$
-
 \mathbb{P}(X_1 = x_1, \ldots, X_n = x_n) = \mathbb{P}(X_1 = x_1 \mid X_2 = x_2, \ldots, X_n = x_n) \mathbb{P}(X_2 = x_2, \ldots, X_n = x_n)
-
 $$
 
 
@@ -1411,9 +1407,7 @@ Using the chain rule, where we set $A_k := \{X_k = x_k\}$, we can find the joint
 
 
 $$
-
 \mathbb{P}(X_1 = x_1, \ldots, X_n = x_n) = \mathbb{P}(X_1 = x_1) \mathbb{P}(X_2 = x_2 \mid X_1 = x_1) \mathbb{P}(X_3 = x_3 \mid X_1 = x_1, X_2 = x_2) \cdot \ldots \cdot \mathbb{P}(X_n = x_n \mid X_1 = x_1, \dots, X_{n-1} = x_{n-1})
-
 $$
 
 
@@ -1427,9 +1421,7 @@ For $n=3$, i.e. considering three random variables, the chain rule reads:
 
 
 $$
-
 \mathbb{P}_{(X_1,X_2,X_3)}(x_1,x_2,x_3) = \mathbb{P}(X_3=x_3 \mid X_2 = x_2, X_1 = x_1) \mathbb{P}(X_2 = x_2, X_1 = x_1) = \mathbb{P}(X_3=x_3 \mid X_2 = x_2, X_1 = x_1) \mathbb{P}(X_2 = x_2 \mid X_1 = x_1) \mathbb{P}(X_1 = x_1)
-
 $$
 
 
@@ -1519,9 +1511,7 @@ The cumulative distribution function (CDF) is another important concept in proba
 
 
 $$
-
 F(x) = \sum_{k=0}^{x} P(k)
-
 $$
 
 
@@ -1539,9 +1529,7 @@ The mean, or expected value, of a discrete random variable $X$ with PMF $P(x)$ i
 
 
 $$
-
 \mu = \sum_{x} xP(x)
-
 $$
 
 
@@ -1551,9 +1539,7 @@ The variance of $X$ is given by:
 
 
 $$
-
 \sigma^2 = \sum_{x} (x - \mu)^2 P(x)
-
 $$
 
 
@@ -1579,7 +1565,6 @@ The Bernoulli distribution is a discrete probability distribution that models a 
 
 
 $$
-
 P(x) = \begin{cases}
 
 p & \text{if } x = 1 \\
@@ -1587,7 +1572,6 @@ p & \text{if } x = 1 \\
 1-p & \text{if } x = 0
 
 \end{cases}
-
 $$
 
 
@@ -1617,9 +1601,7 @@ The binomial distribution is a discrete probability distribution that models a s
 
 
 $$
-
 P(x) = \binom{n}{x} p^x (1-p)^{n-x}
-
 $$
 
 
@@ -1675,9 +1657,7 @@ The expected value, also known as the mean or average, is a measure of central t
 
 
 $$
-
 E(X) = \sum_{x} xP(x)
-
 $$
 
 
@@ -1691,9 +1671,7 @@ For example, if we have a random variable $X$ that represents the number of head
 
 
 $$
-
 E(X) = (0)(0.25) + (1)(0.5) + (2)(0.25) = 1
-
 $$
 
 
@@ -1711,9 +1689,7 @@ The variance is a measure of the spread or variability of a discrete random vari
 
 
 $$
-
 Var(X) = \sum_{x} (x - \mu)^2 P(x)
-
 $$
 
 
@@ -1727,9 +1703,7 @@ For our previous example of the number of heads in two coin flips, the variance 
 
 
 $$
-
 Var(X) = (0 - 1)^2(0.25) + (1 - 1)^2(0.5) + (2 - 1)^2(0.25) = 0.5
-
 $$
 
 
@@ -1755,9 +1729,7 @@ The expected value has a linear property, which means that it follows the rules 
 
 
 $$
-
 E(aX + b) = aE(X) + b
-
 $$
 
 
@@ -1783,9 +1755,7 @@ The variance of a sum of two random variables is equal to the sum of their varia
 
 
 $$
-
 Var(X + Y) = Var(X) + Var(Y)
-
 $$
 
 
@@ -1825,7 +1795,6 @@ The Bernoulli distribution is a discrete probability distribution that represent
 
 
 $$
-
 P(x) = \begin{cases}
 
 p, & \text{if } x = 1 \\
@@ -1833,7 +1802,6 @@ p, & \text{if } x = 1 \\
 1-p, & \text{if } x = 0
 
 \end{cases}
-
 $$
 
 
@@ -1851,9 +1819,7 @@ The binomial distribution is a discrete probability distribution that represents
 
 
 $$
-
 P(x) = \binom{n}{x} p^x (1-p)^{n-x}
-
 $$
 
 
@@ -1871,9 +1837,7 @@ The geometric distribution is a discrete probability distribution that represent
 
 
 $$
-
 P(x) = (1-p)^{x-1}p
-
 $$
 
 
@@ -1891,9 +1855,7 @@ The Poisson distribution is a discrete probability distribution that represents 
 
 
 $$
-
 P(x) = \frac{\lambda^x e^{-\lambda}}{x!}
-
 $$
 
 
@@ -1969,9 +1931,7 @@ The normal distribution, also known as the Gaussian distribution, is one of the 
 
 
 $$
-
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-
 $$
 
 
@@ -1989,9 +1949,7 @@ The exponential distribution is a continuous probability distribution that is of
 
 
 $$
-
 f(x) = \lambda e^{-\lambda x}
-
 $$
 
 
@@ -2009,9 +1967,7 @@ The uniform distribution is a continuous probability distribution that is often 
 
 
 $$
-
 f(x) = \frac{1}{b-a}
-
 $$
 
 
@@ -2029,9 +1985,7 @@ The beta distribution is a continuous probability distribution that is often use
 
 
 $$
-
 f(x) = \frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha,\beta)}
-
 $$
 
 
@@ -2049,9 +2003,7 @@ The t-distribution, also known as Student's t-distribution, is a continuous prob
 
 
 $$
-
 f(x) = \frac{\Gamma\left(\frac{\nu+1}{2}\right)}{\sqrt{\nu\pi}\Gamma\left(\frac{\nu}{2}\right)}\left(1+\frac{x^2}{\nu}\right)^{-\frac{\nu+1}{2}}
-
 $$
 
 
@@ -2069,9 +2021,7 @@ The chi-squared distribution is a continuous probability distribution that is of
 
 
 $$
-
 f(x) = \frac{1}{2^{\frac{\nu}{2}}\Gamma\left(\frac{\nu}{2}\right)}x^{\frac{\nu}{2}-1}e^{-\frac{x}{2}}
-
 $$
 
 
@@ -2089,9 +2039,7 @@ The F-distribution is a continuous probability distribution that is often used i
 
 
 $$
-
 f(x) = \frac{\sqrt{\frac{(m\nu)^m n^\nu}{(m\nu)^m+n^\nu}}}{xB\left(\frac{m}{2},\frac{n}{2}\right)}\left(1+\frac{m}{n}x\right)^{-\frac{m+n}{2}}
-
 $$
 
 
@@ -2143,9 +2091,7 @@ The normal distribution, also known as the Gaussian distribution, is one of the 
 
 
 $$
-
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-
 $$
 
 
@@ -2163,9 +2109,7 @@ The exponential distribution is a continuous probability distribution that is of
 
 
 $$
-
 f(x) = \lambda e^{-\lambda x}
-
 $$
 
 
@@ -2183,9 +2127,7 @@ The uniform distribution is a continuous probability distribution where all valu
 
 
 $$
-
 f(x) = \frac{1}{b-a}
-
 $$
 
 
@@ -2203,9 +2145,7 @@ The beta distribution is a continuous probability distribution that is commonly 
 
 
 $$
-
 f(x) = \frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha,\beta)}
-
 $$
 
 
@@ -2223,9 +2163,7 @@ The gamma distribution is a continuous probability distribution that is often us
 
 
 $$
-
 f(x) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{-\beta x}
-
 $$
 
 
@@ -2243,9 +2181,7 @@ The Weibull distribution is a continuous probability distribution that is common
 
 
 $$
-
 f(x) = \frac{k}{\lambda} \left(\frac{x}{\lambda}\right)^{k-1} e^{-(x/\lambda)^k}
-
 $$
 
 
@@ -2293,9 +2229,7 @@ The expected value, also known as the mean, is a measure of central tendency in 
 
 
 $$
-
 \mu = \int_{-\infty}^{\infty} x f(x) dx
-
 $$
 
 
@@ -2313,9 +2247,7 @@ The variance is a measure of variability in a continuous probability distributio
 
 
 $$
-
 \sigma^2 = \int_{-\infty}^{\infty} (x - \mu)^2 f(x) dx
-
 $$
 
 
@@ -2333,9 +2265,7 @@ The expected value and variance are closely related in continuous probability di
 
 
 $$
-
 \sigma^2 = \int_{-\infty}^{\infty} x^2 f(x) dx - \mu^2
-
 $$
 
 
@@ -2353,9 +2283,7 @@ Let's consider an example of calculating the expected value and variance for a n
 
 
 $$
-
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-
 $$
 
 
@@ -2369,9 +2297,7 @@ To calculate the expected value, we take the integral of the random variable $x$
 
 
 $$
-
 \mu = \int_{-\infty}^{\infty} x \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} dx
-
 $$
 
 
@@ -2381,9 +2307,7 @@ Using the substitution $u = \frac{x-\mu}{\sigma}$, we can rewrite the integral a
 
 
 $$
-
 \mu = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} (\sigma u + \mu) e^{-\frac{u^2}{2}} du
-
 $$
 
 
@@ -2393,9 +2317,7 @@ Expanding and simplifying, we get:
 
 
 $$
-
 \mu = \frac{1}{\sqrt{2\pi}} \sigma \int_{-\infty}^{\infty} u e^{-\frac{u^2}{2}} du + \frac{1}{\sqrt{2\pi}} \mu \int_{-\infty}^{\infty} e^{-\frac{u^2}{2}} du
-
 $$
 
 
@@ -2405,9 +2327,7 @@ The first integral is equal to 0, since it is an odd function integrated over a 
 
 
 $$
-
 \mu = \mu
-
 $$
 
 
@@ -2425,9 +2345,7 @@ To calculate the variance, we use the relationship between the expected value an
 
 
 $$
-
 \sigma^2 = \int_{-\infty}^{\infty} x^2 \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} dx - \mu^2
-
 $$
 
 
@@ -2437,9 +2355,7 @@ Using the same substitution as before, we can rewrite the integral as:
 
 
 $$
-
 \sigma^2 = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} (\sigma u + \mu)^2 e^{-\frac{u^2}{2}} du - \mu^2
-
 $$
 
 
@@ -2449,9 +2365,7 @@ Expanding and simplifying, we get:
 
 
 $$
-
 \sigma^2 = \frac{1}{\sqrt{2\pi}} \sigma^2 \int_{-\infty}^{\infty} u^2 e^{-\frac{u^2}{2}} du + \frac{1}{\sqrt{2\pi}} 2\mu \sigma \int_{-\infty}^{\infty} u e^{-\frac{u^2}{2}} du + \frac{1}{\sqrt{2\pi}} \mu^2 \int_{-\infty}^{\infty} e^{-\frac{u^2}{2}} du - \mu^2
-
 $$
 
 
@@ -2461,9 +2375,7 @@ Again, the first integral is equal to 0 and the third integral is equal to 1. Th
 
 
 $$
-
 \sigma^2 = \sigma^2 - \mu^2
-
 $$
 
 
@@ -2511,9 +2423,7 @@ The normal distribution, also known as the Gaussian distribution, is one of the 
 
 
 $$
-
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-
 $$
 
 
@@ -2531,9 +2441,7 @@ The exponential distribution is commonly used to model the time between events i
 
 
 $$
-
 f(x) = \lambda e^{-\lambda x}
-
 $$
 
 
@@ -2551,9 +2459,7 @@ The uniform distribution is a simple distribution that assigns equal probability
 
 
 $$
-
 f(x) = \frac{1}{b-a}
-
 $$
 
 
@@ -2601,9 +2507,7 @@ The normal distribution, also known as the Gaussian distribution, is a continuou
 
 
 $$
-
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-
 $$
 
 
@@ -2729,9 +2633,7 @@ The formula for standardization is as follows:
 
 
 $$
-
 z = \frac{x - \mu}{\sigma}
-
 $$
 
 
@@ -3109,9 +3011,7 @@ One common method for generating pseudo-random numbers is the linear congruentia
 
 
 $$
-
 X_{n+1} = (aX_n + c) \mod m
-
 $$
 
 
@@ -3679,9 +3579,7 @@ Simple linear regression is used to model the relationship between a single inde
 
 
 $$
-
 y = \beta_0 + \beta_1x + \epsilon
-
 $$
 
 
@@ -3753,9 +3651,7 @@ Multiple linear regression is a generalization of simple linear regression to th
 
 
 $$
-
 y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_px_p + \epsilon
-
 $$
 
 
@@ -4599,13 +4495,11 @@ Once all the decision variables, objective function, and constraints have been i
 
 
 $$
-
 \text{minimize} \quad \mathbf{c}^\mathrm{T}\mathbf{x} \\
 
 \text{subject to} \quad A\mathbf{x} \leq \mathbf{b} \\
 
 \mathbf{x} \geq \mathbf{0}
-
 $$
 
 
@@ -4737,33 +4631,25 @@ The sensitivity of the eigenvalues and eigenvectors can be calculated using the 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
-
 $$
 
 
@@ -4825,9 +4711,7 @@ The objective function can be written as:
 
 
 $$
-
 \max z = 10x_1 + 15x_2
-
 $$
 
 
@@ -4837,33 +4721,23 @@ subject to the following constraints:
 
 
 $$
-
 3x_1 + 2x_2 \leq 1200
-
 $$
 
 $$
-
 2x_1 + 5x_2 \leq 800
-
 $$
 
 $$
-
 x_1 \leq 100
-
 $$
 
 $$
-
 x_2 \leq 80
-
 $$
 
 $$
-
 x_1, x_2 \geq 0
-
 $$
 
 
@@ -4873,15 +4747,11 @@ Next, we need to convert the constraints into equations by introducing slack var
 
 
 $$
-
 3x_1 + 2x_2 + s_1 = 1200
-
 $$
 
 $$
-
 2x_1 + 5x_2 + s_2 = 800
-
 $$
 
 
@@ -4891,7 +4761,6 @@ We can then write the model in matrix form as:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -4921,7 +4790,6 @@ $$
 800
 
 \end{bmatrix}
-
 $$
 
 
@@ -4931,9 +4799,7 @@ To solve this model using the simplex method, we first need to find a feasible v
 
 
 $$
-
 x_1 = 100, \quad x_2 = 80
-
 $$
 
 
@@ -4943,9 +4809,7 @@ This corresponds to the vertex (100, 80) in the feasible region. Next, we need t
 
 
 $$
-
 \bar{c}_j = c_j - \boldsymbol{\lambda}^{\mathrm{T}}\boldsymbol{A}_j
-
 $$
 
 
@@ -4955,7 +4819,6 @@ where $\boldsymbol{\lambda}$ is the vector of dual variables and $\boldsymbol{A}
 
 
 $$
-
 \boldsymbol{\lambda} =
 
 \begin{bmatrix}
@@ -4985,7 +4848,6 @@ $$
 5
 
 \end{bmatrix}
-
 $$
 
 
@@ -4995,9 +4857,7 @@ Therefore, the reduced costs are:
 
 
 $$
-
 \bar{c}_1 = 10, \quad \bar{c}_2 = 15
-
 $$
 
 
@@ -5007,9 +4867,7 @@ Since both reduced costs are positive, we can select any variable as the enterin
 
 
 $$
-
 \frac{1200}{3} = 400, \quad \frac{800}{2} = 400
-
 $$
 
 
@@ -5023,7 +4881,6 @@ After performing the pivot operation, we get the following updated model:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -5053,7 +4910,6 @@ $$
 800
 
 \end{bmatrix}
-
 $$
 
 
@@ -5063,9 +4919,7 @@ We can then repeat the process of calculating reduced costs and selecting the en
 
 
 $$
-
 x_1 = 200/3, \quad x_2 = 400/3
-
 $$
 
 
@@ -5121,9 +4975,7 @@ We can formulate this problem as a linear optimization model as follows:
 
 
 $$
-
 \max z = 10x_1 + 15x_2
-
 $$
 
 
@@ -5133,33 +4985,23 @@ subject to the following constraints:
 
 
 $$
-
 3x_1 + 2x_2 \leq 1200
-
 $$
 
 $$
-
 2x_1 + 5x_2 \leq 800
-
 $$
 
 $$
-
 x_1 \leq 100
-
 $$
 
 $$
-
 x_2 \leq 80
-
 $$
 
 $$
-
 x_1, x_2 \geq 0
-
 $$
 
 
@@ -5169,9 +5011,7 @@ Next, we can introduce the dual variables $y_1$, $y_2$, $y_3$, and $y_4$ for eac
 
 
 $$
-
 \min w = 1200y_1 + 800y_2 + 100y_3 + 80y_4
-
 $$
 
 
@@ -5181,21 +5021,15 @@ subject to the following constraints:
 
 
 $$
-
 3y_1 + 2y_2 + y_3 \geq 10
-
 $$
 
 $$
-
 2y_1 + 5y_2 + y_4 \geq 15
-
 $$
 
 $$
-
 y_1, y_2, y_3, y_4 \geq 0
-
 $$
 
 
@@ -5225,9 +5059,7 @@ We can formulate this problem as a linear optimization model as follows:
 
 
 $$
-
 \max z = 10x_1 + 15x_2
-
 $$
 
 
@@ -5237,33 +5069,23 @@ subject to the following constraints:
 
 
 $$
-
 3x_1 + 2x_2 \leq 1200
-
 $$
 
 $$
-
 2x_1 + 5x_2 \leq 800
-
 $$
 
 $$
-
 x_1 \leq 100
-
 $$
 
 $$
-
 x_2 \leq 80
-
 $$
 
 $$
-
 x_1, x_2 \geq 0
-
 $$
 
 
@@ -5273,9 +5095,7 @@ Next, we can introduce the dual variables $y_1$, $y_2$, $y_3$, and $y_4$ for eac
 
 
 $$
-
 \min w = 1200y_1 + 800y_2 + 100y_3 + 80y_4
-
 $$
 
 
@@ -5285,21 +5105,15 @@ subject to the following constraints:
 
 
 $$
-
 3y_1 + 2y_2 + y_3 \geq 10
-
 $$
 
 $$
-
 2y_1 + 5y_2 + y_4 \geq 15
-
 $$
 
 $$
-
 y_1, y_2, y_3, y_4 \geq 0
-
 $$
 
 
@@ -5355,9 +5169,7 @@ We can formulate this problem as an ILP model as follows:
 
 
 $$
-
 \max z = 10x_1 + 15x_2 + 20x_3
-
 $$
 
 
@@ -5367,45 +5179,31 @@ subject to the following constraints:
 
 
 $$
-
 10x_1 + 8x_2 + 12x_3 \leq 1200
-
 $$
 
 $$
-
 5x_1 + 10x_2 + 8x_3 \leq 800
-
 $$
 
 $$
-
 x_1 \leq 100
-
 $$
 
 $$
-
 x_2 \leq 80
-
 $$
 
 $$
-
 x_3 \leq 60
-
 $$
 
 $$
-
 x_1, x_2, x_3 \geq 0
-
 $$
 
 $$
-
 x_1, x_2, x_3 \in \mathbb{Z}
-
 $$
 
 
@@ -6141,23 +5939,17 @@ In conclusion, nonlinear optimization is a valuable skill for anyone working wit
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x + y \geq 1
-
 $$
 
 $$
-
 x \geq 0, y \geq 0
-
 $$
 
 Find the optimal solution using the simplex method.
@@ -6169,9 +5961,7 @@ Find the optimal solution using the simplex method.
 A company is trying to maximize its profits by determining the optimal price for a new product. The demand for the product is given by the following equation:
 
 $$
-
 D(p) = 100 - 2p
-
 $$
 
 where $p$ is the price in dollars. The cost of producing each unit is $20$ dollars. Find the optimal price that maximizes the company's profits.
@@ -6183,23 +5973,17 @@ where $p$ is the price in dollars. The cost of producing each unit is $20$ dolla
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x^2 + y^2 \leq 1
-
 $$
 
 $$
-
 x \geq 0, y \geq 0
-
 $$
 
 Find the optimal solution using gradient descent.
@@ -6217,9 +6001,7 @@ A farmer wants to maximize the area of a rectangular field with a fixed perimete
 A company is trying to minimize its production costs by determining the optimal levels of two inputs, $x$ and $y$. The cost function is given by:
 
 $$
-
 C(x,y) = 10x + 5y + 2xy
-
 $$
 
 Find the optimal levels of $x$ and $y$ that minimize the production costs.

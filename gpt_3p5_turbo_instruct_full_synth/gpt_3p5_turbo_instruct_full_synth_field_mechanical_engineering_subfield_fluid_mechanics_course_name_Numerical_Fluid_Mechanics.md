@@ -1190,9 +1190,7 @@ To understand discretization error, let's consider the one-dimensional heat equa
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1202,9 +1200,7 @@ where $u$ is the temperature, $t$ is time, $x$ is position, and $\alpha$ is the 
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{\Delta x^2}
-
 $$
 
 
@@ -1226,9 +1222,7 @@ To understand truncation error, let's consider the one-dimensional advection equ
 
 
 $$
-
 \frac{\partial u}{\partial t} + c\frac{\partial u}{\partial x} = 0
-
 $$
 
 
@@ -1238,9 +1232,7 @@ where $u$ is the velocity, $t$ is time, $x$ is position, and $c$ is the advectio
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} + c\frac{u_j^n - u_{j-1}^n}{\Delta x} = 0
-
 $$
 
 
@@ -1262,9 +1254,7 @@ To understand round-off error, let's consider the following equation:
 
 
 $$
-
 \Delta w = \frac{1}{2}\left(\frac{1}{\Delta x^2} + \frac{1}{\Delta y^2}\right)
-
 $$
 
 
@@ -1612,9 +1602,7 @@ Converting a binary number to a decimal number involves multiplying each digit b
 
 
 $$
-
 (1 \times 2^3) + (0 \times 2^2) + (1 \times 2^1) + (1 \times 2^0) = 11
-
 $$
 
 
@@ -1628,7 +1616,6 @@ Converting a decimal number to a binary number involves repeatedly dividing the 
 
 
 $$
-
 11 \div 2 = 5 \text{ with remainder } 1 \\
 
 5 \div 2 = 2 \text{ with remainder } 1 \\
@@ -1636,7 +1623,6 @@ $$
 2 \div 2 = 1 \text{ with remainder } 0 \\
 
 1 \div 2 = 0 \text{ with remainder } 1
-
 $$
 
 
@@ -1854,9 +1840,7 @@ With the knowledge gained from this chapter, readers should now have a solid und
 Consider the following partial differential equation describing the conservation of mass in a fluid flow:
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 where $\rho$ is the density and $\mathbf{u}$ is the velocity vector. Using the finite difference method, derive an explicit scheme for solving this equation in one dimension.
@@ -1880,9 +1864,7 @@ Compare and contrast the finite difference, finite volume, and finite element me
 Consider a two-dimensional flow problem with the following boundary conditions:
 
 $$
-
 u(0,y) = 0, \quad u(1,y) = 1, \quad u(x,0) = 0, \quad u(x,1) = 0
-
 $$
 
 Using the finite volume method, derive an explicit scheme for solving the Navier-Stokes equations for this problem.
@@ -1914,9 +1896,7 @@ With the knowledge gained from this chapter, readers should now have a solid und
 Consider the following partial differential equation describing the conservation of mass in a fluid flow:
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 where $\rho$ is the density and $\mathbf{u}$ is the velocity vector. Using the finite difference method, derive an explicit scheme for solving this equation in one dimension.
@@ -1940,9 +1920,7 @@ Compare and contrast the finite difference, finite volume, and finite element me
 Consider a two-dimensional flow problem with the following boundary conditions:
 
 $$
-
 u(0,y) = 0, \quad u(1,y) = 1, \quad u(x,0) = 0, \quad u(x,1) = 0
-
 $$
 
 Using the finite volume method, derive an explicit scheme for solving the Navier-Stokes equations for this problem.
@@ -2492,9 +2470,7 @@ To understand truncation errors, let us consider the Taylor series expansion of 
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2508,9 +2484,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2554,9 +2528,7 @@ To understand truncation errors, let us consider the Taylor series expansion of 
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2570,9 +2542,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2636,9 +2606,7 @@ To understand truncation errors, let us consider the Taylor series expansion of 
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2652,9 +2620,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2722,9 +2688,7 @@ Taylor series is a powerful mathematical tool that allows us to approximate a fu
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2738,9 +2702,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2780,9 +2742,7 @@ Taylor series is a powerful mathematical tool that allows us to approximate a fu
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2796,9 +2756,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2828,9 +2786,7 @@ As mentioned earlier, the truncation error in a numerical method can be expresse
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2844,9 +2800,7 @@ For example, let us consider the Taylor series expansion of a function $f(x)$ ar
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2856,9 +2810,7 @@ If we substitute $x = x_0 + h$, where $h$ is a small increment, we get:
 
 
 $$
-
 f(x_0 + h) = f(x_0) + \frac{f'(x_0)}{1!}h + \frac{f''(x_0)}{2!}h^2 + ... + \frac{f^{(n)}(x_0)}{n!}h^n + ...
-
 $$
 
 
@@ -2868,9 +2820,7 @@ Comparing this with the Taylor series expansion of $f(x)$, we can see that the t
 
 
 $$
-
 T_n(x_0 + h) = \frac{f^{(n+1)}(\xi)}{(n+1)!}h^{n+1}
-
 $$
 
 
@@ -2902,9 +2852,7 @@ Taylor series is a powerful mathematical tool that allows us to approximate a fu
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -2918,9 +2866,7 @@ In numerical methods, we often use a finite number of terms in the Taylor series
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2946,9 +2892,7 @@ In this section, we will explore how Taylor series can be used to analyze the er
 
 
 $$
-
 T_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
-
 $$
 
 
@@ -2962,9 +2906,7 @@ For example, if the Taylor series expansion of a function $f(x)$ is given by:
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n + ...
-
 $$
 
 
@@ -3194,9 +3136,7 @@ To illustrate this, let us consider the following non-linear equation:
 
 
 $$
-
 f(x) = x^3 - 2x^2 + 3x - 1 = 0
-
 $$
 
 
@@ -3268,9 +3208,7 @@ To illustrate this, let us consider the following non-linear equation:
 
 
 $$
-
 f(x) = x^3 - 2x^2 + 3x - 1 = 0
-
 $$
 
 
@@ -3330,9 +3268,7 @@ To illustrate this, let us consider the following non-linear equation:
 
 
 $$
-
 f(x) = x^3 - 2x^2 + 3x - 1 = 0
-
 $$
 
 
@@ -3720,17 +3656,13 @@ In this subsection, we will review the Navier-Stokes equations and their approxi
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3924,9 +3856,7 @@ To understand the material derivative, let us consider a fluid element with a ph
 
 
 $$
-
 \frac{DQ}{Dt} = \frac{\partial Q}{\partial t} + (\mathbf{u} \cdot \nabla)Q
-
 $$
 
 
@@ -3948,9 +3878,7 @@ The Reynolds Transport Theorem is another important concept in fluid mechanics t
 
 
 $$
-
 \frac{D}{Dt} \int_{V} Q dV = \int_{V} \frac{\partial Q}{\partial t} dV + \int_{A} (\mathbf{u} \cdot \mathbf{n})Q dA
-
 $$
 
 
@@ -3998,9 +3926,7 @@ One of the most well-known constitutive equations in fluid mechanics is the Navi
 
 
 $$
-
 \tau = \mu \left(\frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\right)
-
 $$
 
 
@@ -4014,9 +3940,7 @@ Another important constitutive equation is the equation of state, which relates 
 
 
 $$
-
 p = \rho R T
-
 $$
 
 
@@ -4068,7 +3992,6 @@ A system of linear equations is a set of equations that can be written in the fo
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4080,7 +4003,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4140,7 +4062,6 @@ A system of linear equations is a set of equations that can be written in the fo
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4152,7 +4073,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4236,7 +4156,6 @@ A system of linear equations is a set of equations that can be written in the fo
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4248,7 +4167,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4290,9 +4208,7 @@ Consider the flow of a fluid in a pipe with a constant cross-sectional area. The
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x}(\rho u) = 0
-
 $$
 
 
@@ -4310,9 +4226,7 @@ In heat transfer problems, the conservation of energy equation is often written 
 
 
 $$
-
 \rho c_p \frac{\partial T}{\partial t} + \rho c_p u \frac{\partial T}{\partial x} = \frac{\partial}{\partial x}(\kappa \frac{\partial T}{\partial x})
-
 $$
 
 
@@ -4376,7 +4290,6 @@ As mentioned in the previous section, a system of linear equations can be writte
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4388,7 +4301,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4398,7 +4310,6 @@ This can also be represented in matrix form as:
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -4436,7 +4347,6 @@ b_2 \\
 b_m
 
 \end{bmatrix}
-
 $$
 
 
@@ -4532,7 +4442,6 @@ As mentioned in the previous section, a system of linear equations can be writte
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4544,7 +4453,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4554,7 +4462,6 @@ This can also be represented in matrix form as:
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -4592,7 +4499,6 @@ b_2 \\
 b_m
 
 \end{bmatrix}
-
 $$
 
 
@@ -4692,7 +4598,6 @@ As mentioned in the previous section, a system of linear equations can be writte
 
 
 $$
-
 \begin{align}
 
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n &= b_1 \\
@@ -4704,7 +4609,6 @@ a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n &= b_2 \\
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n &= b_m
 
 \end{align}
-
 $$
 
 
@@ -4714,7 +4618,6 @@ This can also be represented in matrix form as:
 
 
 $$
-
 \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -4752,7 +4655,6 @@ b_2 \\
 b_m
 
 \end{bmatrix}
-
 $$
 
 
@@ -5450,7 +5352,6 @@ In conclusion, systems of linear equations are a fundamental tool in numerical f
 Consider the following system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -5482,7 +5383,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -5500,7 +5400,6 @@ Solve the system of linear equations from Exercise 1 using LU decomposition.
 Consider the following system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 4 & -1 & 2 \\
@@ -5532,7 +5431,6 @@ x_3
 10
 
 \end{bmatrix}
-
 $$
 
 Use the Jacobi method to solve for the unknowns $x_1$, $x_2$, and $x_3$ with an initial guess of $\mathbf{x}^{(0)} = [0, 0, 0]^T$.
@@ -5550,7 +5448,6 @@ Solve the system of linear equations from Exercise 3 using the Gauss-Seidel meth
 In fluid mechanics, the continuity equation is often written in the form of a system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 \frac{\partial u}{\partial x} & \frac{\partial v}{\partial x} \\
@@ -5576,7 +5473,6 @@ $$
 0
 
 \end{bmatrix}
-
 $$
 
 Use this system to solve for the velocity components $u$ and $v$ in a two-dimensional flow field.
@@ -5610,7 +5506,6 @@ In conclusion, systems of linear equations are a fundamental tool in numerical f
 Consider the following system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -5642,7 +5537,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -5660,7 +5554,6 @@ Solve the system of linear equations from Exercise 1 using LU decomposition.
 Consider the following system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 4 & -1 & 2 \\
@@ -5692,7 +5585,6 @@ x_3
 10
 
 \end{bmatrix}
-
 $$
 
 Use the Jacobi method to solve for the unknowns $x_1$, $x_2$, and $x_3$ with an initial guess of $\mathbf{x}^{(0)} = [0, 0, 0]^T$.
@@ -5710,7 +5602,6 @@ Solve the system of linear equations from Exercise 3 using the Gauss-Seidel meth
 In fluid mechanics, the continuity equation is often written in the form of a system of linear equations:
 
 $$
-
 \begin{bmatrix}
 
 \frac{\partial u}{\partial x} & \frac{\partial v}{\partial x} \\
@@ -5736,7 +5627,6 @@ $$
 0
 
 \end{bmatrix}
-
 $$
 
 Use this system to solve for the velocity components $u$ and $v$ in a two-dimensional flow field.
@@ -5830,17 +5720,13 @@ In this section, we will briefly review the Navier-Stokes equations and their ph
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -5862,9 +5748,7 @@ In this subsection, we will recap the key points of the Navier-Stokes equations 
 
 
 $$
-
 \frac{\partial u_i}{\partial t} + u_j \frac{\partial u_i}{\partial x_j} = -\frac{1}{\rho}\frac{\partial p}{\partial x_i} + \nu \frac{\partial^2 u_i}{\partial x_j \partial x_j} + g_i
-
 $$
 
 
@@ -6166,9 +6050,7 @@ Let us consider a function $f(x)$ and its derivatives at a point $x_0$. The Tayl
 
 
 $$
-
 f(x) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + \frac{f'''(x_0)}{3!}(x-x_0)^3 + ...
-
 $$
 
 
@@ -6178,9 +6060,7 @@ By truncating this series at a certain order, we can obtain a finite difference 
 
 
 $$
-
 f'(x_0) \approx \frac{f(x_0+h) - f(x_0-h)}{2h}
-
 $$
 
 
@@ -6198,9 +6078,7 @@ In some cases, we may require a more accurate approximation of the derivative. T
 
 
 $$
-
 f'(x_0) \approx \frac{-f(x_0+2h) + 8f(x_0+h) - 8f(x_0-h) + f(x_0-2h)}{12h}
-
 $$
 
 
@@ -6394,9 +6272,7 @@ The forward difference approximation is used to approximate the derivative at a 
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -6410,9 +6286,7 @@ The backward difference approximation is similar to the forward difference, but 
 
 
 $$
-
 f'(x) \approx \frac{f(x) - f(x-h)}{h}
-
 $$
 
 
@@ -6422,9 +6296,7 @@ The central difference approximation, on the other hand, uses the function value
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -6886,9 +6758,7 @@ Let us consider the one-dimensional form of the Navier-Stokes equations, which c
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -6902,9 +6772,7 @@ We can discretize this equation in time using the forward difference approximati
 
 
 $$
-
 \frac{\partial u}{\partial t} \approx \frac{u^{n+1} - u^n}{\Delta t}
-
 $$
 
 
@@ -6918,17 +6786,13 @@ Next, we can discretize the equation in space using the central difference appro
 
 
 $$
-
 \frac{\partial u}{\partial x} \approx \frac{u_{i+1} - u_{i-1}}{2\Delta x}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} \approx \frac{u_{i+1} - 2u_i + u_{i-1}}{\Delta x^2}
-
 $$
 
 
@@ -6942,9 +6806,7 @@ Substituting these approximations into the discretized equation, we get:
 
 
 $$
-
 \frac{u^{n+1}_i - u^n_i}{\Delta t} + u^n_i\frac{u^n_{i+1} - u^n_{i-1}}{2\Delta x} = -\frac{1}{\rho}\frac{p^{n+1}_i - p^n_i}{\Delta x} + \nu\frac{u^{n+1}_{i+1} - 2u^{n+1}_i + u^{n+1}_{i-1}}{\Delta x^2}
-
 $$
 
 
@@ -7030,9 +6892,7 @@ To illustrate the concepts discussed in this section, let us consider the advect
 
 
 $$
-
 \frac{\partial u}{\partial t} + c\frac{\partial u}{\partial x} = 0
-
 $$
 
 
@@ -7070,9 +6930,7 @@ To derive the method of characteristics, we first need to transform the hyperbol
 
 
 $$
-
 \xi = x - ct
-
 $$
 
 
@@ -7082,9 +6940,7 @@ Substituting this variable into the advection equation, we get:
 
 
 $$
-
 \frac{\partial u}{\partial t} + c\frac{\partial u}{\partial \xi} = 0
-
 $$
 
 
@@ -7102,9 +6958,7 @@ To illustrate the method of characteristics, let us consider the Burgers' equati
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} = \nu\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -7118,9 +6972,7 @@ Using the characteristic variable, we can transform this equation into a system 
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial \xi} = \nu\frac{\partial^2 u}{\partial \xi^2}
-
 $$
 
 
@@ -7466,9 +7318,7 @@ The finite difference method is based on the Taylor series expansion, which stat
 
 
 $$
-
 f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + \frac{h^3}{6}f'''(x) + \mathcal{O}(h^4)
-
 $$
 
 
@@ -7478,9 +7328,7 @@ where $h$ is the step size. By truncating the series at a certain order, we can 
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -7490,9 +7338,7 @@ Similarly, the backward difference approximation can be obtained by truncating t
 
 
 $$
-
 f'(x) \approx \frac{f(x) - f(x-h)}{h}
-
 $$
 
 
@@ -7502,9 +7348,7 @@ Finally, the central difference approximation can be obtained by truncating the 
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -8068,9 +7912,7 @@ In conclusion, finite differences are a powerful tool in numerical fluid mechani
 Consider the one-dimensional heat equation:
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 Use the central difference formula to derive a finite difference scheme for this equation. What is the order of accuracy of this scheme?
@@ -8082,9 +7924,7 @@ Use the central difference formula to derive a finite difference scheme for this
 Consider the two-dimensional wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
-
 $$
 
 Use the forward and central difference formulas to derive a finite difference scheme for this equation. What is the stability condition for this scheme?
@@ -8096,15 +7936,11 @@ Use the forward and central difference formulas to derive a finite difference sc
 Consider the Navier-Stokes equations for incompressible flow:
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 Use the central difference formula to discretize these equations in space. What is the order of accuracy of this scheme?
@@ -8116,9 +7952,7 @@ Use the central difference formula to discretize these equations in space. What 
 Consider the one-dimensional advection equation:
 
 $$
-
 \frac{\partial u}{\partial t} + c \frac{\partial u}{\partial x} = 0
-
 $$
 
 Use the backward difference formula to derive a finite difference scheme for this equation. What is the stability condition for this scheme?
@@ -8130,9 +7964,7 @@ Use the backward difference formula to derive a finite difference scheme for thi
 Consider the two-dimensional Poisson equation:
 
 $$
-
 \nabla^2 u = f
-
 $$
 
 Use the five-point stencil to discretize this equation using the central difference formula. What is the order of accuracy of this scheme?
@@ -8170,9 +8002,7 @@ In conclusion, finite differences are a powerful tool in numerical fluid mechani
 Consider the one-dimensional heat equation:
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 Use the central difference formula to derive a finite difference scheme for this equation. What is the order of accuracy of this scheme?
@@ -8184,9 +8014,7 @@ Use the central difference formula to derive a finite difference scheme for this
 Consider the two-dimensional wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
-
 $$
 
 Use the forward and central difference formulas to derive a finite difference scheme for this equation. What is the stability condition for this scheme?
@@ -8198,15 +8026,11 @@ Use the forward and central difference formulas to derive a finite difference sc
 Consider the Navier-Stokes equations for incompressible flow:
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 Use the central difference formula to discretize these equations in space. What is the order of accuracy of this scheme?
@@ -8218,9 +8042,7 @@ Use the central difference formula to discretize these equations in space. What 
 Consider the one-dimensional advection equation:
 
 $$
-
 \frac{\partial u}{\partial t} + c \frac{\partial u}{\partial x} = 0
-
 $$
 
 Use the backward difference formula to derive a finite difference scheme for this equation. What is the stability condition for this scheme?
@@ -8232,9 +8054,7 @@ Use the backward difference formula to derive a finite difference scheme for thi
 Consider the two-dimensional Poisson equation:
 
 $$
-
 \nabla^2 u = f
-
 $$
 
 Use the five-point stencil to discretize this equation using the central difference formula. What is the order of accuracy of this scheme?
@@ -8532,7 +8352,6 @@ The RK4 method involves calculating four intermediate steps to approximate the s
 
 
 $$
-
 k_1 = f(t_n, y_n) \\
 
 k_2 = f(t_n + \frac{\Delta t}{2}, y_n + \frac{\Delta t}{2}k_1) \\
@@ -8542,7 +8361,6 @@ k_3 = f(t_n + \frac{\Delta t}{2}, y_n + \frac{\Delta t}{2}k_2) \\
 k_4 = f(t_n + \Delta t, y_n + \Delta t k_3) \\
 
 y_{n+1} = y_n + \frac{\Delta t}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -8560,9 +8378,7 @@ Another commonly used explicit time-marching method is the Adams-Bashforth metho
 
 
 $$
-
 y_{n+1} = y_n + \frac{\Delta t}{2}(3f(t_n, y_n) - f(t_{n-1}, y_{n-1}))
-
 $$
 
 
@@ -8580,9 +8396,7 @@ The Crank-Nicolson method is an example of an implicit time-marching method. Thi
 
 
 $$
-
 y_{n+1} = y_n + \frac{\Delta t}{2}(f(t_n, y_n) + f(t_{n+1}, y_{n+1}))
-
 $$
 
 
@@ -9184,9 +8998,7 @@ The pressure equation can be written as:
 
 
 $$
-
 \nabla^2 p = \frac{\rho}{\Delta t} \nabla \cdot \mathbf{u}^*
-
 $$
 
 
@@ -9200,9 +9012,7 @@ Once the pressure field is corrected, the velocity equation can be solved using 
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}
-
 $$
 
 
@@ -9224,9 +9034,7 @@ The diffusion equation can be written as:
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} = \nu \nabla^2 \mathbf{u}
-
 $$
 
 
@@ -9240,9 +9048,7 @@ Once the diffusion equation is solved, the convection equation can be solved usi
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p
-
 $$
 
 
@@ -10206,9 +10012,7 @@ In BEM, the boundary integral equations for the inviscid flow equations can be w
 
 
 $$
-
 \frac{1}{2}\phi(x_i) + \int_{\Gamma} \phi(x) \frac{\partial G(x,x_i)}{\partial n} ds = \int_{\Gamma} \phi(x) \frac{\partial \phi(x_i)}{\partial n} ds
-
 $$
 
 

@@ -1405,9 +1405,7 @@ To analyze the frequency response of a DT system, we use the discrete-time Fouri
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -1469,9 +1467,7 @@ There are several techniques for analyzing the frequency response of a discrete-
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -1485,9 +1481,7 @@ Another useful technique is the z-transform, which is a generalization of the Fo
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
-
 $$
 
 
@@ -1501,9 +1495,7 @@ The frequency response of a discrete-time system can also be analyzed using the 
 
 
 $$
-
 H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})}
-
 $$
 
 
@@ -1665,9 +1657,7 @@ In this section, we will explore the Discrete Fourier Transform (DFT) and its ef
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
-
 $$
 
 
@@ -1741,9 +1731,7 @@ The DFT is defined as follows:
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
-
 $$
 
 
@@ -1803,9 +1791,7 @@ As we move forward in this book, we will continue to build upon the concepts int
 Consider the following DT system with input $x(n)$ and output $y(n)$:
 
 $$
-
 y(n) = 2x(n) + 3x(n-1) - x(n-2)
-
 $$
 
 Is this system linear? Time-invariant? Causal? Justify your answers.
@@ -1817,9 +1803,7 @@ Is this system linear? Time-invariant? Causal? Justify your answers.
 Given the following DT system:
 
 $$
-
 y(n) = \frac{1}{2}x(n) + \frac{1}{4}x(n-1) + \frac{1}{8}x(n-2)
-
 $$
 
 Determine if the system is stable. If not, suggest a modification to make it stable.
@@ -1837,9 +1821,7 @@ Prove that a DT system is invertible if and only if it has a unique inverse.
 Consider the following DT system with input $x(n)$ and output $y(n)$:
 
 $$
-
 y(n) = x(n) + x(n-1) + x(n-2)
-
 $$
 
 Find the impulse response of the system.
@@ -1851,9 +1833,7 @@ Find the impulse response of the system.
 Given the following DT system:
 
 $$
-
 y(n) = x(n) + 2x(n-1) + 3x(n-2)
-
 $$
 
 Determine the frequency response of the system and plot it for $-\pi \leq \omega \leq \pi$.
@@ -1883,9 +1863,7 @@ As we move forward in this book, we will continue to build upon the concepts int
 Consider the following DT system with input $x(n)$ and output $y(n)$:
 
 $$
-
 y(n) = 2x(n) + 3x(n-1) - x(n-2)
-
 $$
 
 Is this system linear? Time-invariant? Causal? Justify your answers.
@@ -1897,9 +1875,7 @@ Is this system linear? Time-invariant? Causal? Justify your answers.
 Given the following DT system:
 
 $$
-
 y(n) = \frac{1}{2}x(n) + \frac{1}{4}x(n-1) + \frac{1}{8}x(n-2)
-
 $$
 
 Determine if the system is stable. If not, suggest a modification to make it stable.
@@ -1917,9 +1893,7 @@ Prove that a DT system is invertible if and only if it has a unique inverse.
 Consider the following DT system with input $x(n)$ and output $y(n)$:
 
 $$
-
 y(n) = x(n) + x(n-1) + x(n-2)
-
 $$
 
 Find the impulse response of the system.
@@ -1931,9 +1905,7 @@ Find the impulse response of the system.
 Given the following DT system:
 
 $$
-
 y(n) = x(n) + 2x(n-1) + 3x(n-2)
-
 $$
 
 Determine the frequency response of the system and plot it for $-\pi \leq \omega \leq \pi$.
@@ -2563,9 +2535,7 @@ The Laplace transform is a mathematical operation that transforms a function of 
 
 
 $$
-
 F(s) = \int_{0}^{\infty} f(t)e^{-st} dt
-
 $$
 
 
@@ -2633,9 +2603,7 @@ The Laplace transform is a mathematical operation that converts a function of ti
 
 
 $$
-
 \mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} f(t)e^{-st} dt
-
 $$
 
 
@@ -2657,9 +2625,7 @@ The Laplace transform has several important properties that make it a useful too
 
 
 $$
-
 \mathcal{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
-
 $$
 
 
@@ -2669,9 +2635,7 @@ $$
 
 
 $$
-
 \mathcal{L}\{f(t-t_0)\} = e^{-st_0}F(s)
-
 $$
 
 
@@ -2681,9 +2645,7 @@ $$
 
 
 $$
-
 \mathcal{L}\{f(st)\} = \frac{1}{s}F\left(\frac{1}{s}\right)
-
 $$
 
 
@@ -2693,9 +2655,7 @@ $$
 
 
 $$
-
 \mathcal{L}\{\frac{df(t)}{dt}\} = sF(s)
-
 $$
 
 
@@ -2795,9 +2755,7 @@ The Laplace transform is a linear operation, which means that it follows the rul
 
 
 $$
-
 \mathcal{L}\{f(t) + g(t)\} = \mathcal{L}\{f(t)\} + \mathcal{L}\{g(t)\}
-
 $$
 
 
@@ -2815,9 +2773,7 @@ The time shifting property of Laplace transforms states that if a function is sh
 
 
 $$
-
 \mathcal{L}\{f(t-t_0)\} = e^{-st_0}\mathcal{L}\{f(t)\}
-
 $$
 
 
@@ -2835,9 +2791,7 @@ The scaling property of Laplace transforms states that if a function is scaled b
 
 
 $$
-
 \mathcal{L}\{af(t)\} = \frac{1}{a}\mathcal{L}\{f(t)\}
-
 $$
 
 
@@ -2855,9 +2809,7 @@ The differentiation property of Laplace transforms states that the Laplace trans
 
 
 $$
-
 \mathcal{L}\{f'(t)\} = s\mathcal{L}\{f(t)\}
-
 $$
 
 
@@ -3145,9 +3097,7 @@ The Z transform is a mathematical tool used to convert a discrete-time signal in
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -3189,9 +3139,7 @@ Similar to other transforms, the Z transform also has an inverse transform that 
 
 
 $$
-
 x[n] = \frac{1}{2\pi j} \oint_C X(z)z^{n-1}dz
-
 $$
 
 
@@ -3251,9 +3199,7 @@ The Z transform is a mathematical tool used to convert a discrete-time signal in
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -3335,9 +3281,7 @@ The Z transform is a mathematical tool used to convert a discrete-time signal in
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -3403,9 +3347,7 @@ The Z transform is a mathematical tool used to convert a discrete-time signal in
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -3653,9 +3595,7 @@ Convolution is a mathematical operation that combines two signals to produce a t
 
 
 $$
-
 y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
-
 $$
 
 
@@ -3741,9 +3681,7 @@ The convolution of two signals $x(t)$ and $h(t)$ is denoted by $x(t) * h(t)$ and
 
 
 $$
-
 x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
-
 $$
 
 
@@ -3761,9 +3699,7 @@ The convolution theorem states that convolution in the time domain is equivalent
 
 
 $$
-
 x(t) * h(t) \Leftrightarrow X(\omega)H(\omega)
-
 $$
 
 
@@ -3789,9 +3725,7 @@ One of the key properties of convolution is commutativity, which states that the
 
 
 $$
-
 x(t) * h(t) = h(t) * x(t)
-
 $$
 
 
@@ -3809,9 +3743,7 @@ Another important property of convolution is associativity, which states that th
 
 
 $$
-
 (x(t) * h(t)) * g(t) = x(t) * (h(t) * g(t))
-
 $$
 
 
@@ -3829,9 +3761,7 @@ The final property of convolution that we will discuss is distributivity, which 
 
 
 $$
-
 x(t) * (h(t) + g(t)) = x(t) * h(t) + x(t) * g(t)
-
 $$
 
 
@@ -3865,9 +3795,7 @@ To understand convolution in the frequency domain, we first need to understand t
 
 
 $$
-
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
-
 $$
 
 
@@ -3877,9 +3805,7 @@ where $\omega$ is the frequency variable. The inverse Fourier transform is given
 
 
 $$
-
 x(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)e^{j\omega t} d\omega
-
 $$
 
 
@@ -3889,9 +3815,7 @@ Using the Fourier transform, we can represent the convolution of two signals $x(
 
 
 $$
-
 x(t) * h(t) \Leftrightarrow X(\omega)H(\omega)
-
 $$
 
 
@@ -4107,9 +4031,7 @@ The frequency response of a continuous-time (CT) system is typically represented
 
 
 $$
-
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
-
 $$
 
 
@@ -4603,7 +4525,6 @@ A feedback system is a closed-loop system where the output of the system is fed 
 
 
 $$
-
 \begin{align*}
 
 y(n) &= \sum_{j=0}^{N} b_jx(n-j) + \sum_{k=1}^{M} a_ky(n-k) \\
@@ -4845,13 +4766,11 @@ Similar to discrete-time signals, CT signals can also be represented in the freq
 The Fourier series representation of a CT signal $x(t)$ is given by:
 
 
-
 $$
 
 x(t) = \sum_{k=-\infty}^{\infty} c_k e^{j\omega_k t}
 
 $$
-
 
 
 where $c_k$ are the Fourier coefficients and $\omega_k$ are the frequencies at which the signal is composed. These frequencies are known as the harmonic frequencies and are given by $\omega_k = \frac{2\pi k}{T}$, where $T$ is the period of the signal.
@@ -4861,13 +4780,11 @@ where $c_k$ are the Fourier coefficients and $\omega_k$ are the frequencies at w
 The Fourier coefficients $c_k$ can be calculated using the following formula:
 
 
-
 $$
 
 c_k = \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} x(t) e^{-j\omega_k t} dt
 
 $$
-
 
 
 This formula is similar to the one used for discrete-time signals, but instead of a summation, we have an integral due to the continuous nature of the signal.
@@ -4943,13 +4860,11 @@ This technique is particularly useful for signals that are not periodic but have
 Parseval's theorem is a fundamental result in Fourier series analysis that relates the energy of a signal in the time domain to its energy in the frequency domain. It states that the total energy of a signal $x(t)$ can be calculated as the sum of the squared magnitudes of its Fourier coefficients:
 
 
-
 $$
 
 E = \sum_{k=-\infty}^{\infty} |c_k|^2
 
 $$
-
 
 
 This theorem is useful in understanding the energy distribution of a signal in the frequency domain and can also be used to verify the accuracy of the Fourier series representation.
@@ -4985,13 +4900,11 @@ In the previous section, we discussed the Fourier series representation of conti
 The Continuous Fourier Transform (CFT) is a mathematical tool that decomposes a continuous-time signal into its constituent frequency components. It is an extension of the Fourier series representation, which is limited to periodic signals. The CFT is defined as:
 
 
-
 $$
 
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
 
 $$
-
 
 
 where $X(\omega)$ is the frequency domain representation of the signal $x(t)$, and $\omega$ is the frequency variable. The CFT can be thought of as a continuous version of the Discrete Fourier Transform (DFT), which is used to analyze discrete-time signals.
@@ -5099,7 +5012,6 @@ One of the main advantages of the CFT is its ability to analyze signals in the f
 Convolution is a fundamental operation in signal processing that is used to combine two signals to produce a third signal. In the time domain, convolution is represented by the *convolution integral*, which is defined as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
@@ -5107,9 +5019,7 @@ y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 $$
 
 
-
 where $x(t)$ and $h(t)$ are the input and impulse response signals, respectively. In the frequency domain, convolution is represented by the *multiplication property* of the CFT, which states that the CFT of the convolution of two signals is equal to the product of their individual CFTs:
-
 
 
 $$
@@ -5117,7 +5027,6 @@ $$
 Y(\omega) = X(\omega)H(\omega)
 
 $$
-
 
 
 This property is particularly useful in analyzing the effects of linear time-invariant (LTI) systems on signals, as it allows us to easily determine the output of a system given its input and impulse response.
@@ -5151,13 +5060,11 @@ where $u(t)$ is the unit step function and $\delta(\omega)$ is the Dirac delta f
 Parseval's theorem is a fundamental property of the CFT that relates the energy of a signal in the time domain to its energy in the frequency domain. It states that the total energy of a signal $x(t)$ is equal to the integral of the squared magnitude of its CFT:
 
 
-
 $$
 
 E_x = \int_{-\infty}^{\infty} |x(t)|^2 dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |X(\omega)|^2 d\omega
 
 $$
-
 
 
 This theorem is useful in signal processing applications such as power spectral density estimation and signal reconstruction.
@@ -5189,13 +5096,11 @@ Time-frequency analysis is a technique used to analyze signals in both the time 
 One of the main tools used in time-frequency analysis is the Short-Time Fourier Transform (STFT). It is an extension of the CFT that allows us to analyze signals in short time intervals, providing a time-varying representation of the signal's frequency components. The STFT is defined as:
 
 
-
 $$
 
 X(\omega, \tau) = \int_{-\infty}^{\infty} x(t)w(t-\tau)e^{-j\omega t} dt
 
 $$
-
 
 
 where $x(t)$ is the input signal, $w(t)$ is a window function, and $\tau$ is the time shift parameter. The window function is used to isolate a specific time interval of the signal for analysis. Commonly used window functions include the rectangular, Hamming, and Hanning windows.
@@ -5243,13 +5148,11 @@ The Wavelet Transform is a powerful tool for analyzing non-stationary signals in
 The Wavelet Transform is defined as:
 
 
-
 $$
 
 X(a, b) = \int_{-\infty}^{\infty} x(t)\psi^*_{a,b}(t) dt
 
 $$
-
 
 
 where $x(t)$ is the input signal, $\psi_{a,b}(t)$ is the wavelet function scaled by a factor $a$ and translated by $b$, and $a$ and $b$ are scaling and translation parameters, respectively. The wavelet function is chosen based on the characteristics of the signal being analyzed.
@@ -5271,13 +5174,11 @@ The Wigner-Ville Distribution (WVD) is another time-frequency analysis technique
 The WVD is defined as:
 
 
-
 $$
 
 W_x(t, \omega) = \int_{-\infty}^{\infty} x(t+\tau/2)x^*(t-\tau/2)e^{-j\omega\tau} d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal and $x^*(t)$ is its complex conjugate. The WVD produces a two-dimensional representation of the signal, with time on the horizontal axis and frequency on the vertical axis. The magnitude of the WVD at a particular time and frequency represents the strength of the corresponding frequency component in the signal.
@@ -5299,13 +5200,11 @@ The Choi-Williams Distribution (CWD) is a time-frequency analysis technique that
 The CWD is defined as:
 
 
-
 $$
 
 C_x(t, \omega) = \int_{-\infty}^{\infty} x(t+\tau/2)x^*(t-\tau/2)g(\tau)e^{-j\omega\tau} d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal, $x^*(t)$ is its complex conjugate, and $g(\tau)$ is a smoothing function. The CWD produces a two-dimensional representation of the signal, with time on the horizontal axis and frequency on the vertical axis. The magnitude of the CWD at a particular time and frequency represents the strength of the corresponding frequency component in the signal.
@@ -5345,13 +5244,11 @@ The Fourier Transform has several important properties that make it a powerful t
 The Fourier Transform is a linear operation, which means that it follows the rules of linearity. This property states that the Fourier Transform of a linear combination of signals is equal to the same linear combination of the individual Fourier Transforms of those signals. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{a_1x_1(t) + a_2x_2(t)\} = a_1\mathcal{F}\{x_1(t)\} + a_2\mathcal{F}\{x_2(t)\}
 
 $$
-
 
 
 where $a_1$ and $a_2$ are constants and $x_1(t)$ and $x_2(t)$ are signals.
@@ -5369,13 +5266,11 @@ This property is useful in signal processing as it allows us to break down compl
 The time shifting property of the Fourier Transform states that a time shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t-t_0)\} = e^{-j\omega t_0}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $t_0$ is the time shift and $\omega$ is the frequency.
@@ -5393,13 +5288,11 @@ This property is useful in analyzing signals that have been delayed or advanced 
 Similar to time shifting, the frequency shifting property states that a frequency shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t)e^{j\omega_0 t}\} = \mathcal{F}\{x(t)\} * \delta(\omega - \omega_0)
 
 $$
-
 
 
 where $\omega_0$ is the frequency shift and $\delta(\omega - \omega_0)$ is the Dirac delta function.
@@ -5417,13 +5310,11 @@ This property is useful in analyzing signals that have been modulated in frequen
 The time scaling property of the Fourier Transform states that a time scaling in the time domain results in a scaling in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(at)\} = \frac{1}{|a|}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $a$ is the scaling factor.
@@ -5441,13 +5332,11 @@ This property is useful in analyzing signals that have been compressed or expand
 Similar to time scaling, the frequency scaling property states that a frequency scaling in the time domain results in a scaling in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t)e^{j\omega_0 t}\} = \frac{1}{|a|}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $a$ is the scaling factor.
@@ -5491,13 +5380,11 @@ The Fourier Transform has several important properties that make it a powerful t
 The Fourier Transform is a linear operation, which means that it follows the rules of linearity. This property states that the Fourier Transform of a linear combination of signals is equal to the same linear combination of the individual Fourier Transforms of those signals. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{a_1x_1(t) + a_2x_2(t)\} = a_1\mathcal{F}\{x_1(t)\} + a_2\mathcal{F}\{x_2(t)\}
 
 $$
-
 
 
 where $a_1$ and $a_2$ are constants and $x_1(t)$ and $x_2(t)$ are signals.
@@ -5515,13 +5402,11 @@ This property is useful in signal processing as it allows us to break down compl
 The time shifting property of the Fourier Transform states that a time shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t-t_0)\} = e^{-j\omega t_0}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $t_0$ is the time shift and $\omega$ is the frequency.
@@ -5539,13 +5424,11 @@ This property is useful in analyzing signals that have been delayed or advanced 
 Similar to time shifting, the frequency shifting property states that a frequency shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t)e^{j\omega_0 t}\} = \mathcal{F}\{x(t)\} * \delta(\omega - \omega_0)
 
 $$
-
 
 
 where $\omega_0$ is the frequency shift and $\delta(\omega - \omega_0)$ is the Dirac delta function.
@@ -5563,13 +5446,11 @@ This property is useful in analyzing signals that have been shifted in frequency
 The time scaling property of the Fourier Transform states that a time scaling in the time domain results in a compression or expansion in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(at)\} = \frac{1}{|a|}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $a$ is the scaling factor.
@@ -5587,13 +5468,11 @@ This property is useful in analyzing signals that have been compressed or expand
 Similar to time scaling, the frequency scaling property states that a frequency scaling in the time domain results in a compression or expansion in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(t)e^{j\omega_0 t}\} = \frac{1}{|a|}\mathcal{F}\{x(t)\}
 
 $$
-
 
 
 where $a$ is the scaling factor.
@@ -5903,13 +5782,11 @@ In the previous chapters, we have explored the continuous-time Fourier transform
 Before we dive into the details of DT Fourier representations, let's briefly review the concept of periodic signals. A periodic signal is a signal that repeats itself after a certain time interval, known as the period. Mathematically, a discrete-time periodic signal can be represented as:
 
 
-
 $$
 
 x(n) = x(n+N)
 
 $$
-
 
 
 where N is the period of the signal. The DT Fourier series allows us to represent a periodic signal as a sum of sinusoidal components with different frequencies, amplitudes, and phases. This representation is similar to the continuous-time Fourier series, but with some key differences due to the discrete nature of the signal.
@@ -5919,7 +5796,6 @@ where N is the period of the signal. The DT Fourier series allows us to represen
 The DT Fourier series representation of a periodic signal x(n) is given by:
 
 
-
 $$
 
 x(n) = \sum_{k=-\infty}^{\infty} c_k e^{j\frac{2\pi}{N}kn}
@@ -5927,9 +5803,7 @@ x(n) = \sum_{k=-\infty}^{\infty} c_k e^{j\frac{2\pi}{N}kn}
 $$
 
 
-
 where $c_k$ is the complex coefficient of the kth harmonic and is given by:
-
 
 
 $$
@@ -5937,7 +5811,6 @@ $$
 c_k = \frac{1}{N} \sum_{n=0}^{N-1} x(n) e^{-j\frac{2\pi}{N}kn}
 
 $$
-
 
 
 The DT Fourier series representation allows us to decompose a periodic signal into its constituent frequencies, making it easier to analyze and manipulate. It also provides a way to approximate a non-periodic signal by using a finite number of harmonics.
@@ -5989,13 +5862,11 @@ Similarly, the amplitude spectrum is a plot of the amplitude of each harmonic co
 As mentioned in the previous subsection, the complex coefficient $c_k$ represents the amplitude and phase of the kth harmonic component in the DTFS representation. These coefficients can be calculated using the formula:
 
 
-
 $$
 
 c_k = \frac{1}{N} \sum_{n=0}^{N-1} x(n) e^{-j\frac{2\pi}{N}kn}
 
 $$
-
 
 
 In some cases, it may be necessary to manipulate these coefficients to achieve a desired result. For example, we may want to filter out certain frequencies by setting their coefficients to zero. This can be done by multiplying the original coefficients by a filter function in the frequency domain.
@@ -6055,13 +5926,11 @@ The discrete Fourier transform (DFT) is a mathematical tool used to analyze disc
 The DFT is defined as the discrete-time equivalent of the continuous Fourier transform. It is a transformation that converts a discrete-time signal $x(n)$ of length $N$ into a discrete frequency domain representation $X(k)$ of length $N$. The DFT is given by the formula:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n) e^{-j\frac{2\pi}{N}kn}
 
 $$
-
 
 
 where $k$ represents the frequency index and $n$ represents the time index. The resulting frequency domain representation $X(k)$ is a complex-valued sequence, with the magnitude representing the amplitude and the phase representing the phase shift of each frequency component.
@@ -6257,13 +6126,11 @@ In the previous section, we discussed the need for time-frequency analysis in or
 The Short-Time Fourier Transform (STFT) is a time-frequency representation that uses a sliding window to analyze a signal in short segments. This allows us to see how the frequency components of the signal change over time. The STFT is defined as:
 
 
-
 $$
 
 X(\omega, n) = \sum_{k=-\infty}^{\infty} x(k)w(n-k)e^{-j\omega k}
 
 $$
-
 
 
 where $x(k)$ is the discrete-time signal, $w(n)$ is the window function, and $\omega$ is the frequency variable. The window function is typically a finite-length function that is non-zero only for a short period of time. This allows us to analyze the signal in short segments, providing a time-frequency representation of the signal.
@@ -6285,13 +6152,11 @@ The Wavelet Transform is another commonly used time-frequency analysis technique
 The wavelet transform is defined as:
 
 
-
 $$
 
 X(a, b) = \frac{1}{\sqrt{a}}\int_{-\infty}^{\infty}x(t)\psi^*\left(\frac{t-b}{a}\right)dt
 
 $$
-
 
 
 where $x(t)$ is the continuous-time signal, $\psi(t)$ is the wavelet function, $a$ is the scale parameter, and $b$ is the translation parameter. The wavelet function is a finite-length function that is used as a basis function to analyze the signal. The scale and translation parameters allow for the window size to be adjusted, providing better time-frequency resolution.
@@ -6347,13 +6212,11 @@ The Fourier transform is a powerful tool for analyzing signals and systems. It a
 Similar to the continuous-time Fourier transform, the DT Fourier transform is a linear operation. This means that it follows the properties of superposition and scaling. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{a_1x_1(n) + a_2x_2(n)\} = a_1X_1(\omega) + a_2X_2(\omega)
 
 $$
-
 
 
 where $a_1$ and $a_2$ are constants and $x_1(n)$ and $x_2(n)$ are discrete-time signals.
@@ -6367,13 +6230,11 @@ where $a_1$ and $a_2$ are constants and $x_1(n)$ and $x_2(n)$ are discrete-time 
 The time shifting property of the Fourier transform states that a time shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(n-n_0)\} = X(\omega)e^{-j\omega n_0}
 
 $$
-
 
 
 where $n_0$ is the amount of time shift.
@@ -6387,13 +6248,11 @@ where $n_0$ is the amount of time shift.
 Similar to the time shifting property, the frequency shifting property states that a frequency shift in the time domain results in a time shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(n)e^{j\omega_0 n}\} = X(\omega - \omega_0)
 
 $$
-
 
 
 where $\omega_0$ is the amount of frequency shift.
@@ -6407,13 +6266,11 @@ where $\omega_0$ is the amount of frequency shift.
 The time reversal property of the Fourier transform states that a time reversal in the time domain results in a complex conjugation in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(-n)\} = X(-\omega)^*
 
 $$
-
 
 
 where $*$ denotes the complex conjugate.
@@ -6427,13 +6284,11 @@ where $*$ denotes the complex conjugate.
 The convolution property of the Fourier transform states that the Fourier transform of a convolution of two signals is equal to the product of their individual Fourier transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x_1(n)*x_2(n)\} = X_1(\omega)X_2(\omega)
 
 $$
-
 
 
 where $*$ denotes convolution.
@@ -6447,13 +6302,11 @@ where $*$ denotes convolution.
 The differentiation property of the Fourier transform states that the Fourier transform of the derivative of a signal is equal to the product of the Fourier transform and the frequency variable. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{\frac{d}{dn}x(n)\} = j\omega X(\omega)
 
 $$
-
 
 
 where $j$ is the imaginary unit.
@@ -6493,13 +6346,11 @@ The Fourier transform is a powerful tool for analyzing signals and systems. It a
 Similar to the continuous-time Fourier transform, the DT Fourier transform is a linear operation. This means that it follows the properties of superposition and scaling. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{a_1x_1(n) + a_2x_2(n)\} = a_1X_1(\omega) + a_2X_2(\omega)
 
 $$
-
 
 
 where $a_1$ and $a_2$ are constants and $x_1(n)$ and $x_2(n)$ are discrete-time signals.
@@ -6517,13 +6368,11 @@ This property is particularly useful in signal processing applications, as it al
 The time shifting property of the Fourier transform states that a time shift in the time domain results in a phase shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(n-n_0)\} = X(\omega)e^{-j\omega n_0}
 
 $$
-
 
 
 where $n_0$ is the amount of time shift.
@@ -6541,13 +6390,11 @@ This property is important in understanding the effects of time delays on signal
 Similar to the time shifting property, the frequency shifting property states that a frequency shift in the time domain results in a time shift in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(n)e^{j\omega_0 n}\} = X(\omega - \omega_0)
 
 $$
-
 
 
 where $\omega_0$ is the amount of frequency shift.
@@ -6565,13 +6412,11 @@ This property is useful in understanding the effects of frequency shifts on sign
 The time reversal property of the Fourier transform states that a time reversal in the time domain results in a complex conjugation in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}\{x(-n)\} = X^*(\omega)
 
 $$
-
 
 
 where $X^*(\omega)$ represents the complex conjugate of $X(\omega)$.
@@ -6619,13 +6464,11 @@ The frequency response of a linear system is a measure of how the system affects
 Mathematically, the frequency response can be expressed as:
 
 
-
 $$
 
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
 
 $$
-
 
 
 where $X(\omega)$ and $Y(\omega)$ are the DT Fourier transforms of the input and output signals, respectively.
@@ -6643,13 +6486,11 @@ The frequency response of a system can be visualized using a frequency response 
 The convolution theorem states that the convolution of two signals in the time domain is equivalent to the multiplication of their Fourier transforms in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 x(n) * h(n) \longleftrightarrow X(\omega)H(\omega)
 
 $$
-
 
 
 where $x(n)$ and $h(n)$ are discrete-time signals and $X(\omega)$ and $H(\omega)$ are their respective DT Fourier transforms.
@@ -6671,13 +6512,11 @@ One of the most common applications of linear systems is filtering. This involve
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 Y(\omega) = X(\omega)H(\omega)
 
 $$
-
 
 
 where $X(\omega)$ is the Fourier transform of the input signal and $H(\omega)$ is the filter function.
@@ -6729,13 +6568,11 @@ The frequency response of a linear system is a measure of how the system affects
 Mathematically, the frequency response can be expressed as:
 
 
-
 $$
 
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
 
 $$
-
 
 
 where $X(\omega)$ and $Y(\omega)$ are the DT Fourier transforms of the input and output signals, respectively.
@@ -6753,13 +6590,11 @@ The frequency response of a system can be visualized using a frequency response 
 The convolution theorem states that the convolution of two signals in the time domain is equivalent to the multiplication of their Fourier transforms in the frequency domain. Mathematically, this can be expressed as:
 
 
-
 $$
 
 x(n) * h(n) \longleftrightarrow X(\omega) \cdot H(\omega)
 
 $$
-
 
 
 This theorem is particularly useful in analyzing the effects of linear systems on signals. By taking the Fourier transform of the input signal, multiplying it by the transfer function of the system, and then taking the inverse Fourier transform, we can determine the output signal.
@@ -6957,13 +6792,11 @@ In this section, we will explore various techniques for analyzing systems in the
 Before diving into the specific techniques of time-domain analysis, let's first define what we mean by a system in the context of signals and systems. A system is a mathematical model that takes an input signal, denoted as $x(t)$, and produces an output signal, denoted as $y(t)$. This input-output relationship can be represented as:
 
 
-
 $$
 
 y(t) = \mathcal{H}\{x(t)\}
 
 $$
-
 
 
 where $\mathcal{H}$ represents the system. The goal of time-domain analysis is to understand how the system $\mathcal{H}$ behaves over time, given different input signals $x(t)$.
@@ -6973,7 +6806,6 @@ where $\mathcal{H}$ represents the system. The goal of time-domain analysis is t
 One important concept in time-domain analysis is the impulse response of a system. The impulse response, denoted as $h(t)$, is the output of a system when the input signal is an impulse, denoted as $\delta(t)$. Mathematically, we can represent this as:
 
 
-
 $$
 
 h(t) = \mathcal{H}\{\delta(t)\}
@@ -6981,9 +6813,7 @@ h(t) = \mathcal{H}\{\delta(t)\}
 $$
 
 
-
 The impulse response provides valuable information about the behavior of a system, as it can be used to determine the output of the system for any input signal using the convolution operation. The convolution operation, denoted as $*$, is defined as:
-
 
 
 $$
@@ -6993,7 +6823,6 @@ y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 $$
 
 
-
 This operation essentially describes the output of a system as the sum of all the scaled and time-shifted versions of the impulse response, weighted by the input signal $x(t)$.
 
 
@@ -7001,13 +6830,11 @@ This operation essentially describes the output of a system as the sum of all th
 Another important concept in time-domain analysis is the step response of a system. The step response, denoted as $s(t)$, is the output of a system when the input signal is a unit step, denoted as $u(t)$. Mathematically, we can represent this as:
 
 
-
 $$
 
 s(t) = \mathcal{H}\{u(t)\}
 
 $$
-
 
 
 The step response is useful in understanding how a system responds to a sudden change in the input signal, as it is a common type of input signal in real-world systems.
@@ -7043,13 +6870,11 @@ In this section, we will explore various techniques for analyzing systems in the
 Before diving into the specific techniques of time-domain analysis, let's first define what we mean by a system in the context of signals and systems. A system is a mathematical model that takes an input signal, denoted as $x(t)$, and produces an output signal, denoted as $y(t)$. This input-output relationship can be represented as:
 
 
-
 $$
 
 y(t) = \mathcal{H}\{x(t)\}
 
 $$
-
 
 
 where $\mathcal{H}$ represents the system. The goal of time-domain analysis is to understand how the system $\mathcal{H}$ behaves over time, given different input signals $x(t)$.
@@ -7059,7 +6884,6 @@ where $\mathcal{H}$ represents the system. The goal of time-domain analysis is t
 One important concept in time-domain analysis is the impulse response of a system. The impulse response, denoted as $h(t)$, is the output of a system when the input signal is an impulse, denoted as $\delta(t)$. Mathematically, we can represent this as:
 
 
-
 $$
 
 h(t) = \mathcal{H}\{\delta(t)\}
@@ -7067,9 +6891,7 @@ h(t) = \mathcal{H}\{\delta(t)\}
 $$
 
 
-
 The impulse response provides valuable information about the behavior of a system, as it can be used to determine the output of the system for any input signal using the convolution operation. The convolution operation, denoted as $*$, is defined as:
-
 
 
 $$
@@ -7079,13 +6901,11 @@ y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 $$
 
 
-
 This operation essentially describes the output of a system as the sum of all the scaled and time-shifted versions of the impulse response, weighted by the input signal $x(t)$.
 
 
 
 Another important concept in time-domain analysis is the step response of a system. The step response, denoted as $s(t)$, is the output of a system when the input signal is a unit step, denoted as $u(t)$. Mathematically, we can represent this as:
-
 
 
 $$
@@ -7095,9 +6915,7 @@ s(t) = \mathcal{H}\{u(t)\}
 $$
 
 
-
 The step response is closely related to the impulse response, as it can be obtained by integrating the impulse response. This relationship is given by:
-
 
 
 $$
@@ -7105,7 +6923,6 @@ $$
 s(t) = \int_{-\infty}^{t} h(\tau) d\tau
 
 $$
-
 
 
 The step response is useful in understanding how a system responds to a sudden change in the input signal, as it represents the output of the system over time when the input signal is a constant value.
@@ -7141,13 +6958,11 @@ In this section, we will explore various techniques for analyzing systems in the
 Before diving into the specific techniques of frequency-domain analysis, let's first define what we mean by a system in the context of signals and systems. A system is a mathematical model that takes an input signal, denoted as $x(t)$, and produces an output signal, denoted as $y(t)$. This input-output relationship can be represented as:
 
 
-
 $$
 
 y(t) = \mathcal{H}\{x(t)\}
 
 $$
-
 
 
 where $\mathcal{H}$ represents the system. The goal of frequency-domain analysis is to understand how the system $\mathcal{H}$ behaves in terms of its frequency response, given different input signals $x(t)$.
@@ -7157,7 +6972,6 @@ where $\mathcal{H}$ represents the system. The goal of frequency-domain analysis
 One important concept in frequency-domain analysis is the frequency response of a system. The frequency response, denoted as $H(\omega)$, is the output of a system when the input signal is a complex exponential, denoted as $e^{j\omega t}$. Mathematically, we can represent this as:
 
 
-
 $$
 
 H(\omega) = \mathcal{H}\{e^{j\omega t}\}
@@ -7165,9 +6979,7 @@ H(\omega) = \mathcal{H}\{e^{j\omega t}\}
 $$
 
 
-
 The frequency response provides valuable information about the behavior of a system, as it can be used to determine the output of the system for any input signal using the Fourier transform. The Fourier transform, denoted as $\mathcal{F}$, is defined as:
-
 
 
 $$
@@ -7177,7 +6989,6 @@ Y(\omega) = \mathcal{F}\{y(t)\} = \int_{-\infty}^{\infty} y(t)e^{-j\omega t} dt
 $$
 
 
-
 This operation essentially describes the output of a system as the sum of all the scaled and phase-shifted versions of the frequency response, weighted by the input signal $X(\omega)$.
 
 
@@ -7185,13 +6996,11 @@ This operation essentially describes the output of a system as the sum of all th
 Another important concept in frequency-domain analysis is the transfer function of a system. The transfer function, denoted as $H(s)$, is the ratio of the output to the input in the Laplace domain. Mathematically, we can represent this as:
 
 
-
 $$
 
 H(s) = \frac{Y(s)}{X(s)}
 
 $$
-
 
 
 The transfer function provides a convenient way to analyze the behavior of a system in the frequency domain, as it allows us to easily determine the frequency response and other important characteristics of the system.
@@ -7223,13 +7032,11 @@ In this section, we will explore various techniques for analyzing systems in the
 Before diving into the specific techniques of frequency-domain analysis, let's first define what we mean by a system in the context of signals and systems. A system is a mathematical model that takes an input signal, denoted as $x(t)$, and produces an output signal, denoted as $y(t)$. This input-output relationship can be represented as:
 
 
-
 $$
 
 y(t) = \mathcal{H}\{x(t)\}
 
 $$
-
 
 
 where $\mathcal{H}$ represents the system. The goal of frequency-domain analysis is to understand how the system $\mathcal{H}$ behaves in terms of its frequency response, given different input signals $x(t)$.
@@ -7239,7 +7046,6 @@ where $\mathcal{H}$ represents the system. The goal of frequency-domain analysis
 One important concept in frequency-domain analysis is the frequency response of a system. The frequency response, denoted as $H(\omega)$, is the output of a system when the input signal is a complex exponential, denoted as $e^{j\omega t}$. Mathematically, we can represent this as:
 
 
-
 $$
 
 H(\omega) = \mathcal{H}\{e^{j\omega t}\}
@@ -7247,9 +7053,7 @@ H(\omega) = \mathcal{H}\{e^{j\omega t}\}
 $$
 
 
-
 The frequency response provides valuable information about the behavior of a system, as it can be used to determine the output of the system for any input signal using the Fourier transform. The Fourier transform, denoted as $\mathcal{F}$, is defined as:
-
 
 
 $$
@@ -7259,7 +7063,6 @@ Y(\omega) = \mathcal{F}\{y(t)\} = \int_{-\infty}^{\infty} y(t)e^{-j\omega t} dt
 $$
 
 
-
 This operation essentially describes the output of a system as the sum of all the scaled and phase-shifted versions of the frequency response, weighted by the input signal $X(\omega)$.
 
 
@@ -7267,13 +7070,11 @@ This operation essentially describes the output of a system as the sum of all th
 Another important concept in frequency-domain analysis is the transfer function of a system. The transfer function, denoted as $H(\omega)$, is the ratio of the output signal $Y(\omega)$ to the input signal $X(\omega)$, and is defined as:
 
 
-
 $$
 
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
 
 $$
-
 
 
 The transfer function provides a convenient way to analyze the frequency response of a system, as it allows us to directly calculate the output signal for any given input signal without having to perform the Fourier transform. Additionally, the transfer function can also be used to determine the stability and other important properties of a system.
@@ -7305,13 +7106,11 @@ In this section, we will explore various techniques for analyzing systems using 
 Before diving into the specific techniques of Laplace transform analysis, let's first define what we mean by a system in the context of signals and systems. A system is a mathematical model that takes an input signal, denoted as $x(t)$, and produces an output signal, denoted as $y(t)$. This input-output relationship can be represented as:
 
 
-
 $$
 
 y(t) = \mathcal{H}\{x(t)\}
 
 $$
-
 
 
 where $\mathcal{H}$ represents the system. The goal of Laplace transform analysis is to understand how the system $\mathcal{H}$ behaves in terms of its transfer function, given different input signals $x(t)$.
@@ -7321,7 +7120,6 @@ where $\mathcal{H}$ represents the system. The goal of Laplace transform analysi
 One important concept in Laplace transform analysis is the transfer function of a system. The transfer function, denoted as $H(s)$, is the ratio of the Laplace transform of the output signal to the Laplace transform of the input signal. Mathematically, we can represent this as:
 
 
-
 $$
 
 H(s) = \frac{\mathcal{L}\{y(t)\}}{\mathcal{L}\{x(t)\}} = \frac{Y(s)}{X(s)}
@@ -7329,9 +7127,7 @@ H(s) = \frac{\mathcal{L}\{y(t)\}}{\mathcal{L}\{x(t)\}} = \frac{Y(s)}{X(s)}
 $$
 
 
-
 The transfer function provides valuable information about the behavior of a system, as it can be used to determine the output of the system for any input signal using the inverse Laplace transform. The inverse Laplace transform, denoted as $\mathcal{L}^{-1}$, is defined as:
-
 
 
 $$
@@ -7339,7 +7135,6 @@ $$
 y(t) = \mathcal{L}^{-1}\{Y(s)\} = \frac{1}{2\pi j}\int_{\sigma-j\infty}^{\sigma+j\infty} Y(s)e^{st} ds
 
 $$
-
 
 
 This operation essentially describes the output of a system as the sum of all the scaled and phase-shifted versions of the transfer function, weighted by the input signal $x(t)$.
@@ -7525,7 +7320,6 @@ Overall, this chapter has provided a comprehensive guide to system analysis tech
 #### Exercise 1
 
 Determine the stability of the following system using the Routh-Hurwitz stability criterion:
-
 $$
 
 H(s) = \frac{s+2}{s^2+3s+2}
@@ -7533,17 +7327,14 @@ H(s) = \frac{s+2}{s^2+3s+2}
 $$
 
 
-
 #### Exercise 2
 
 Find the impulse response of the following system:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 
 
 #### Exercise 3
@@ -7555,7 +7346,6 @@ Given the transfer function of a system as $H(s) = \frac{s+3}{s^2+4s+3}$, determ
 #### Exercise 4
 
 Using the properties of convolution, simplify the following expression:
-
 $$
 
 \int_{-\infty}^{\infty} x(t-2)h(t+3)dt
@@ -7563,17 +7353,14 @@ $$
 $$
 
 
-
 #### Exercise 5
 
 Find the frequency response of the following system:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 
 
 
@@ -7605,7 +7392,6 @@ Overall, this chapter has provided a comprehensive guide to system analysis tech
 #### Exercise 1
 
 Determine the stability of the following system using the Routh-Hurwitz stability criterion:
-
 $$
 
 H(s) = \frac{s+2}{s^2+3s+2}
@@ -7613,17 +7399,14 @@ H(s) = \frac{s+2}{s^2+3s+2}
 $$
 
 
-
 #### Exercise 2
 
 Find the impulse response of the following system:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 
 
 #### Exercise 3
@@ -7635,7 +7418,6 @@ Given the transfer function of a system as $H(s) = \frac{s+3}{s^2+4s+3}$, determ
 #### Exercise 4
 
 Using the properties of convolution, simplify the following expression:
-
 $$
 
 \int_{-\infty}^{\infty} x(t-2)h(t+3)dt
@@ -7643,17 +7425,14 @@ $$
 $$
 
 
-
 #### Exercise 5
 
 Find the frequency response of the following system:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 
 
 
@@ -7839,13 +7618,11 @@ Decimation is a technique used to reduce the sampling rate of a signal. This is 
 The process of decimation can be mathematically represented as follows:
 
 
-
 $$
 
 y(n) = x(Mn)
 
 $$
-
 
 
 where $x(n)$ is the original signal, $y(n)$ is the decimated signal, and $M$ is the decimation factor. This equation shows that the decimated signal is obtained by taking every $M$th sample from the original signal.
@@ -7863,13 +7640,11 @@ Interpolation is a technique used to increase the sampling rate of a signal. Thi
 The process of interpolation can be mathematically represented as follows:
 
 
-
 $$
 
 y(n) = \sum_{k=0}^{L-1} x(k)h(n-k)
 
 $$
-
 
 
 where $x(n)$ is the original signal, $y(n)$ is the interpolated signal, $L$ is the interpolation factor, and $h(n)$ is the interpolation filter. This equation shows that the interpolated signal is obtained by convolving the original signal with an interpolation filter.
@@ -7933,13 +7708,11 @@ Decimation is a technique used to reduce the sampling rate of a signal. This is 
 The process of decimation can be mathematically represented as follows:
 
 
-
 $$
 
 y(n) = x(Mn)
 
 $$
-
 
 
 where $x(n)$ is the original signal, $y(n)$ is the decimated signal, and $M$ is the decimation factor. This equation shows that the decimated signal is obtained by taking every $M$th sample from the original signal.
@@ -7961,13 +7734,11 @@ Interpolation is a technique used to increase the sampling rate of a signal. Thi
 The process of interpolation can be mathematically represented as follows:
 
 
-
 $$
 
 y(n) = \sum_{k=-\infty}^{\infty} x(k)h(n-k)
 
 $$
-
 
 
 where $x(n)$ is the original signal, $y(n)$ is the interpolated signal, and $h(n)$ is the interpolation filter. This equation shows that the interpolated signal is obtained by summing the original signal multiplied by the interpolation filter at different time indices.
@@ -8031,13 +7802,11 @@ Estimation is a fundamental concept in statistical signal processing. It involve
 The process of estimation can be mathematically represented as follows:
 
 
-
 $$
 
 \hat{\theta} = g(x_1, x_2, ..., x_n)
 
 $$
-
 
 
 where $\hat{\theta}$ is the estimated value of the unknown parameter or variable, $x_1, x_2, ..., x_n$ are the observed values, and $g$ is a function that maps the observed values to the estimated value.
@@ -8059,13 +7828,11 @@ Detection is another important concept in statistical signal processing. It invo
 The process of detection can be mathematically represented as follows:
 
 
-
 $$
 
 \hat{H} = f(x_1, x_2, ..., x_n)
 
 $$
-
 
 
 where $\hat{H}$ is the decision variable, $x_1, x_2, ..., x_n$ are the observed values, and $f$ is a function that maps the observed values to a decision.
@@ -8117,13 +7884,11 @@ Estimation is a fundamental concept in statistical signal processing. It involve
 The process of estimation can be mathematically represented as follows:
 
 
-
 $$
 
 \hat{\theta} = g(x_1, x_2, ..., x_n)
 
 $$
-
 
 
 where $\hat{\theta}$ is the estimated value of the unknown parameter or variable, $x_1, x_2, ..., x_n$ are the observed values, and $g$ is a function that maps the observed values to the estimated value.
@@ -8145,13 +7910,11 @@ Detection is another important aspect of statistical signal processing. It invol
 The process of detection can be mathematically represented as follows:
 
 
-
 $$
 
 \hat{H} = g(x_1, x_2, ..., x_n)
 
 $$
-
 
 
 where $\hat{H}$ is the decision variable, $x_1, x_2, ..., x_n$ are the observed values, and $g$ is a function that maps the observed values to the decision variable. The decision variable is then compared to a threshold to determine the presence or absence of the signal.
@@ -8911,13 +8674,11 @@ In this section, we will explore the fundamentals of nonlinear systems and their
 As mentioned earlier, nonlinear systems do not follow the principle of superposition. This means that the output of the system cannot be determined by simply adding the individual outputs of each input. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) \neq \sum_{i=1}^{n} x_i(t)
 
 $$
-
 
 
 where $y(t)$ is the output of the system, and $x_i(t)$ are the individual inputs.
@@ -8993,7 +8754,6 @@ One approach to analyzing nonlinear systems is to linearize them. This involves 
 For example, let's say we have a nonlinear system described by the following equation:
 
 
-
 $$
 
 y(t) = x(t)^2
@@ -9001,9 +8761,7 @@ y(t) = x(t)^2
 $$
 
 
-
 We can linearize this system around an operating point $x_0$ by taking the first-order Taylor series expansion:
-
 
 
 $$
@@ -9013,9 +8771,7 @@ y(t) \approx y(x_0) + \frac{dy}{dx}\bigg|_{x=x_0}(x(t)-x_0)
 $$
 
 
-
 This results in a linear system with the following equation:
-
 
 
 $$
@@ -9023,7 +8779,6 @@ $$
 y(t) \approx 2x_0x(t) - x_0^2
 
 $$
-
 
 
 Linearization can be a useful technique for analyzing nonlinear systems, but it is important to note that it is only an approximation and may not accurately capture the behavior of the system in all cases.
@@ -9041,21 +8796,17 @@ Another technique for analyzing nonlinear systems is phase plane analysis. This 
 For example, let's consider the Van der Pol oscillator, a common nonlinear system described by the following equations:
 
 
-
 $$
 
 \frac{dx}{dt} = y
 
 $$
 
-
-
 $$
 
 \frac{dy}{dt} = \mu(1-x^2)y - x
 
 $$
-
 
 
 By plotting $x$ against $y$ in the phase plane, we can see the behavior of the system for different values of $\mu$. We can also identify the fixed points of the system, which correspond to the points where the system is at equilibrium.
@@ -9073,13 +8824,11 @@ Bifurcation analysis is another important technique for analyzing nonlinear syst
 For example, let's consider the logistic map, a simple nonlinear system described by the following equation:
 
 
-
 $$
 
 x_{n+1} = rx_n(1-x_n)
 
 $$
-
 
 
 By varying the parameter $r$, we can observe how the behavior of the system changes. We can also identify bifurcation points, where the system undergoes a sudden change in behavior.
@@ -9115,13 +8864,11 @@ In the previous section, we discussed nonlinear systems and their properties. In
 A time-varying system is a system whose behavior changes over time. This means that the input-output relationship of the system is not constant and can vary depending on the time at which the input is applied. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = T[x(t)]
 
 $$
-
 
 
 Where $y(t)$ is the output of the system at time $t$, $x(t)$ is the input at time $t$, and $T$ is the time-varying operator that maps the input to the output.
@@ -9535,13 +9282,11 @@ As we conclude this chapter, it is important to remember that the study of signa
 #### Exercise 1
 
 Consider the nonlinear system described by the following equation:
-
 $$
 
 y(t) = \sin(x(t))
 
 $$
-
 a) Plot the input and output signals for a given time interval.
 
 b) Discuss the behavior of the system and how it differs from a linear system.
@@ -9593,13 +9338,11 @@ As we conclude this chapter, it is important to remember that the study of signa
 #### Exercise 1
 
 Consider the nonlinear system described by the following equation:
-
 $$
 
 y(t) = \sin(x(t))
 
 $$
-
 a) Plot the input and output signals for a given time interval.
 
 b) Discuss the behavior of the system and how it differs from a linear system.
@@ -9951,13 +9694,11 @@ In this subsection, we will delve deeper into the analysis of stochastic signals
 The autocorrelation function is defined as follows:
 
 
-
 $$
 
 R_{xx}(\tau) = E[x(t)x(t+\tau)]
 
 $$
-
 
 
 where $E$ denotes the expected value, $x(t)$ is the stochastic signal, and $\tau$ is the time delay. The autocorrelation function is a measure of how much a signal is correlated with itself at different time delays. If the signal is stationary, the autocorrelation function will only depend on the time difference $\tau$ and not on the absolute time $t$. This is because the statistical properties of a stationary signal do not change over time.
@@ -9967,13 +9708,11 @@ where $E$ denotes the expected value, $x(t)$ is the stochastic signal, and $\tau
 Another important tool for analyzing stochastic signals is the power spectral density (PSD). The PSD provides information about the frequency content of a stochastic signal. It is defined as the Fourier transform of the autocorrelation function:
 
 
-
 $$
 
 S_{xx}(f) = \int_{-\infty}^{\infty} R_{xx}(\tau)e^{-j2\pi f\tau}d\tau
 
 $$
-
 
 
 where $f$ is the frequency. The PSD is a useful tool for identifying the dominant frequencies in a stochastic signal and can help in understanding the underlying processes that generate the signal.
@@ -12859,13 +12598,11 @@ Overall, this chapter has provided a comprehensive overview of advanced topics i
 #### Exercise 1
 
 Consider the system described by the following transfer function:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 a) Find the poles and zeros of this system.
 
 b) Plot the pole-zero diagram for this system.
@@ -12883,13 +12620,11 @@ Given a continuous-time signal $x(t)$ with Fourier transform $X(j\omega)$, deriv
 #### Exercise 3
 
 Consider the system described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + x(n)
 
 $$
-
 a) Find the transfer function of this system.
 
 b) Determine the frequency response of this system.
@@ -12901,13 +12636,11 @@ c) Plot the magnitude and phase response of this system.
 #### Exercise 4
 
 Suppose a system has a frequency response given by:
-
 $$
 
 H(j\omega) = \frac{1}{j\omega + 1}
 
 $$
-
 a) Is this system stable? Justify your answer.
 
 b) Find the impulse response of this system.
@@ -12919,13 +12652,11 @@ c) Determine the output of this system when the input is $x(t) = e^{-t}u(t)$, wh
 #### Exercise 5
 
 Consider a system with a transfer function given by:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+2}
 
 $$
-
 a) Find the poles and zeros of this system.
 
 b) Determine the stability of this system.
@@ -12955,13 +12686,11 @@ Overall, this chapter has provided a comprehensive overview of advanced topics i
 #### Exercise 1
 
 Consider the system described by the following transfer function:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 a) Find the poles and zeros of this system.
 
 b) Plot the pole-zero diagram for this system.
@@ -12979,13 +12708,11 @@ Given a continuous-time signal $x(t)$ with Fourier transform $X(j\omega)$, deriv
 #### Exercise 3
 
 Consider the system described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + x(n)
 
 $$
-
 a) Find the transfer function of this system.
 
 b) Determine the frequency response of this system.
@@ -12997,13 +12724,11 @@ c) Plot the magnitude and phase response of this system.
 #### Exercise 4
 
 Suppose a system has a frequency response given by:
-
 $$
 
 H(j\omega) = \frac{1}{j\omega + 1}
 
 $$
-
 a) Is this system stable? Justify your answer.
 
 b) Find the impulse response of this system.
@@ -13015,7 +12740,6 @@ c) Determine the output of this system when the input is $x(t) = e^{-t}u(t)$, wh
 #### Exercise 5
 
 Consider a system with a transfer function given by:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+2}

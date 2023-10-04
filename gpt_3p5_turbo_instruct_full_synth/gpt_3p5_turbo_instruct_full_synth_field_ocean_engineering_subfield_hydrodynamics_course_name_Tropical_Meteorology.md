@@ -2163,9 +2163,7 @@ The moist adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_m = \frac{g}{C_p + L_v \frac{dq}{dT}}
-
 $$
 
 
@@ -2223,9 +2221,7 @@ The moist adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_m = \frac{g}{C_p + L_v \frac{dq}{dT}}
-
 $$
 
 
@@ -2299,9 +2295,7 @@ The moist adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_m = \frac{g}{C_p + L_v \frac{dq}{dT}}
-
 $$
 
 
@@ -2383,9 +2377,7 @@ The dry adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_d = \frac{g}{C_p}
-
 $$
 
 
@@ -2463,9 +2455,7 @@ The dry adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_d = \frac{g}{C_p}
-
 $$
 
 
@@ -2521,9 +2511,7 @@ The dry adiabatic lapse rate can be calculated using the following equation:
 
 
 $$
-
 \Gamma_d = \frac{g}{C_p}
-
 $$
 
 
@@ -3173,9 +3161,7 @@ Moist static energy is a crucial concept in tropical meteorology that helps us u
 
 
 $$
-
 MSE = C_pT + gz + L_vq
-
 $$
 
 
@@ -3965,9 +3951,7 @@ CIN is typically measured in units of joules per kilogram (J/kg) and can be calc
 
 
 $$
-
 CIN = g \int_{z_{sfc}}^{z_{LFC}} (\theta_{e,p} - \theta_{e,e}) dz
-
 $$
 
 

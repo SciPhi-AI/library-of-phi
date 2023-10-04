@@ -2627,7 +2627,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -2637,7 +2636,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. How do changes in these parameters affect the behavior of the system? Can you find any interesting patterns or behaviors in this system?
@@ -2649,7 +2647,6 @@ where $\sigma$, $\rho$, and $\beta$ are parameters. How do changes in these para
 Investigate the behavior of the Henon map, given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= y_n + 1 - ax_n^2 \\
@@ -2657,7 +2654,6 @@ x_{n+1} &= y_n + 1 - ax_n^2 \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are parameters. How does the behavior of this system change as $a$ and $b$ vary? Can you find any regions of stability or chaos in the parameter space?
@@ -2675,7 +2671,6 @@ Explore the concept of bifurcations in the logistic map. How do changes in the p
 Investigate the behavior of the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -2685,7 +2680,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are parameters. How do changes in these parameters affect the behavior of the system? Can you find any interesting patterns or behaviors in this system?
@@ -2763,7 +2757,6 @@ The logistic map
 $$x_{t+1}=rx_t(1-x_t), \qquad 0 \leq x_t \leq 1, \qquad 0 \leq r \leq 4$$
 
 
-
 exhibits periodicity for various values of the parameter `r`. For `r` between 0 and 1, 0 is the sole periodic point, with period 1 (giving the sequence which attracts all orbits). For `r` between 1 and 3, the value 0 is still periodic but is not attracting, while the value $\frac{r-1}{r}$ is an attracting periodic point of period 1. With `r` greater than 3 but less than $1 + \sqrt 6$, there are a pair of period-2 points which together form an attracting sequence, as well as the non-attracting period-1 points 0 and $\frac{r-1}{r}$. As the value of parameter `r` rises toward 4, there arise groups of periodic points with any positive integer for the period; for some values of `r` one of these repeating sequences is attracting while for others none of them are (with almost all orbits being chaotic).
 
 
@@ -2799,9 +2792,7 @@ Let us begin by finding all finite points left unchanged by one application of `
 Since this is an ordinary quadratic equation in one unknown, we can apply the standard quadratic solution formula:
 
 
-
 $$z = \frac{1 \pm \sqrt{1-4c}}{2}$$
-
 
 
 So for `c \in \mathbb{C} \setminus \{1/4\}`, we have two finite fixed points $\alpha_1$ and $\alpha_2$.
@@ -2865,9 +2856,7 @@ A period-one point is called a fixed point. This means that after one iteration 
 The logistic map 
 
 
-
 $$x_{t+1}=rx_t(1-x_t), \qquad 0 \leq x_t \leq 1, \qquad 0 \leq r \leq 4$$
-
 
 
 exhibits periodicity for various values of the parameter `r`. For `r` between 0 and 1, 0 is the sole periodic point, with period 1 (giving the sequence which attracts all orbits). For `r` between 1 and 3, the value 0 is still periodic but is not attracting, while the value $\frac{r-1}{r}$ is an attracting periodic point of period 1. With `r` greater than 3 but less than $1 + \sqrt 6$, there are a pair of period-2 points which together form an attracting sequence, as well as the non-attracting period-1 points 0 and $\frac{r-1}{r}$. As the value of parameter `r` rises toward 4, there arise groups of period-4, period-8, and so on, with the period doubling cascade. This behavior is known as "period-doubling bifurcation" and is a characteristic of chaotic systems.
@@ -2935,9 +2924,7 @@ A period-one point is called a fixed point. This means that after one iteration 
 The logistic map 
 
 
-
 $$x_{t+1}=rx_t(1-x_t), \qquad 0 \leq x_t \leq 1, \qquad 0 \leq r \leq 4$$
-
 
 
 exhibits periodicity for various values of the parameter `r`. For `r` between 0 and 1, 0 is the sole periodic point, with period 1 (giving the sequence which attracts all orbits). For `r` between 1 and 3, the value 0 is still periodic but is not attracting, while the value $\frac{r-1}{r}$ is an attracting periodic point of period 1. With `r` greater than 3 but less than $1 + \sqrt 6$, there are a pair of period-2 points which together form an attracting sequence, as well as the non-attracting period-1 points 0 and $\frac{r-1}{r}$. As the value of parameter `r` rises toward 4, there arise group of period-4 points, and so on. This behavior is known as period-doubling bifurcation, and it leads to the emergence of chaotic behavior in the logistic map for `r` values greater than 3.57.
@@ -3071,13 +3058,11 @@ Bifurcation points can be classified into different types based on the behavior 
 In the supercritical case, the normal form of the pitchfork bifurcation is given by:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there is an unstable equilibrium at $x=0$ and two stable equilibria at $x=\pm\sqrt{r}$. This can be seen in the bifurcation diagram, where the stable equilibria are represented by solid lines and the unstable equilibrium by a dashed line.
@@ -3087,13 +3072,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there i
 On the other hand, in the subcritical case, the normal form is given by:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 Here, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ becomes unstable. Again, this can be visualized in the bifurcation diagram.
@@ -3133,13 +3116,11 @@ Bifurcation points can be classified into different types based on the behavior 
 In the supercritical case, the normal form of the pitchfork bifurcation is given by:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there is an unstable equilibrium at $x=0$ and two stable equilibria at $x=\pm\sqrt{r}$. This can be seen in the bifurcation diagram, where the stable equilibria are represented by solid lines and the unstable equilibrium by a dashed line.
@@ -3149,13 +3130,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there i
 On the other hand, in the subcritical case, the normal form is given by:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 Here, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ becomes unstable. Again, this can be visualized in the bifurcation diagram.
@@ -3215,13 +3194,11 @@ Bifurcation points can be classified into different types based on the behavior 
 In the supercritical case, the normal form of the pitchfork bifurcation is given by:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there is an unstable equilibrium at $x=0$ and two stable equilibria at $x=\pm\sqrt{r}$. This can be seen in the bifurcation diagram, where the stable equilibria are represented by solid lines and the unstable equilibrium by a dashed line.
@@ -3231,13 +3208,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. However, for $r>0$, there i
 On the other hand, in the subcritical case, the normal form is given by:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 Here, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ becomes unstable. Again, this can be visualized in the bifurcation diagram.
@@ -3305,29 +3280,22 @@ In the context of bifurcations, we are interested in the sensitivity of the eige
 Let us consider a system described by the matrices $\mathbf{K}$ and $\mathbf{M}$, where $\mathbf{K}$ is symmetric. We can compute the sensitivity of the eigenvalues and eigenvectors with respect to changes in the entries of these matrices using the following equations:
 
 
-
 $$
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
 
 $$
-
 $$
 
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
-
 $$
 
 
@@ -3509,17 +3477,13 @@ To better understand this concept, let's consider the Hénon map, which is a two
 
 
 $$
-
 x_{n+1} = y_n + 1 - ax_n^2
-
 $$
 
 
 
 $$
-
 y_{n+1} = bx_n
-
 $$
 
 
@@ -3541,9 +3505,7 @@ To better understand this concept, let's consider the Chialvo map, which is a on
 
 
 $$
-
 x_{n+1} = k - x_n^2 + bx_n
-
 $$
 
 
@@ -3861,9 +3823,7 @@ To understand the significance of these constants, let us consider the logistic 
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -3907,9 +3867,7 @@ To understand the significance of these constants, let us consider the logistic 
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -3969,9 +3927,7 @@ To understand the significance of these constants, let us consider the logistic 
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -4009,9 +3965,7 @@ The Feigenbaum constants also play a crucial role in the study of the quadratic 
 
 
 $$
-
 x_{n+1} = ax_n^2 + bx_n + c
-
 $$
 
 
@@ -4059,9 +4013,7 @@ To better understand this phenomenon, let us consider the logistic map, a simple
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -4121,9 +4073,7 @@ To better understand this phenomenon, let us consider the logistic map, a simple
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -4187,9 +4137,7 @@ To better understand this phenomenon, let us consider the logistic map, a simple
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -4227,9 +4175,7 @@ The period-doubling cascade is particularly interesting in the context of the qu
 
 
 $$
-
 f(x) = ax^2 + bx + c
-
 $$
 
 
@@ -4485,9 +4431,7 @@ To understand the definition of Lyapunov exponents, let us consider a discrete-t
 
 
 $$
-
 \mathbf{x}_{t+1} = \mathbf{f}(\mathbf{x}_t)
-
 $$
 
 
@@ -4497,9 +4441,7 @@ where $\mathbf{x}_t$ is the state of the system at time $t$ and $\mathbf{f}$ is 
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}_t\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4513,9 +4455,7 @@ The Lyapunov exponent can also be calculated for continuous-time dynamical syste
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{A}\mathbf{x}
-
 $$
 
 
@@ -4525,9 +4465,7 @@ where $\mathbf{A}$ is a constant matrix. The Lyapunov exponent for this system i
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4537,9 +4475,7 @@ where $\delta \mathbf{x}(t)$ is the solution to the linearized system:
 
 
 $$
-
 \dot{\delta \mathbf{x}} = \mathbf{A}\delta \mathbf{x}
-
 $$
 
 
@@ -4553,9 +4489,7 @@ Now, let us consider the relationship between the discrete and continuous Lyapun
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{A}\mathbf{x}
-
 $$
 
 
@@ -4565,9 +4499,7 @@ and then discretize it as follows:
 
 
 $$
-
 \mathbf{x}_{t+1} = \mathbf{x}_t + \delta \mathbf{A} \mathbf{x}_t = (\mathbf{I} + \delta\mathbf{A})\mathbf{x}_t = \mathbf{B}\mathbf{x}_t
-
 $$
 
 
@@ -4577,9 +4509,7 @@ where $\delta > 0$ indicates a small forward displacement in time. Substituting 
 
 
 $$
-
 \mathbf{x}_{t+1} = \mathbf{x}_t + \delta \mathbf{A} \mathbf{x}_t = (\mathbf{I} + \delta\mathbf{A})\mathbf{x}_t = \mathbf{B}\mathbf{x}_t
-
 $$
 
 
@@ -4589,9 +4519,7 @@ where we've defined $\mathbf{B} \equiv \mathbf{I} + \delta\mathbf{A}$. Now we ca
 
 
 $$
-
 \mathbf{B}^T\mathbf{M}\mathbf{B} - \mathbf{M} = -\delta\mathbf{Q}
-
 $$
 
 
@@ -4601,9 +4529,7 @@ Plugging in our definition for $\mathbf{B}$, we get:
 
 
 $$
-
 (\mathbf{I} + \delta \mathbf{A})^T\mathbf{M}(\mathbf{I} + \delta \mathbf{A}) - \mathbf{M} = -\delta \mathbf{Q}
-
 $$
 
 
@@ -4613,9 +4539,7 @@ Expanding this expression out yields:
 
 
 $$
-
 (\mathbf{M} + \delta \mathbf{A}^T\mathbf{M}) (\mathbf{I} + \delta \mathbf{A}) - \mathbf{M} = \delta(\mathbf{A}^T\mathbf{M} + \mathbf{M}\mathbf{A}) + \delta^2 \mathbf{A}^T\mathbf{M}\mathbf{A} = -\delta \mathbf{Q}
-
 $$
 
 
@@ -4625,9 +4549,7 @@ Recall that $\delta$ is a small displacement in time. Letting $\delta$ go to zer
 
 
 $$
-
 \mathbf{A}^T\mathbf{M} + \mathbf{M}\mathbf{A} = -\mathbf{Q}
-
 $$
 
 
@@ -4667,9 +4589,7 @@ To understand the definition of Lyapunov exponents, let us consider a discrete-t
 
 
 $$
-
 \mathbf{x}_{t+1} = \mathbf{f}(\mathbf{x}_t)
-
 $$
 
 
@@ -4679,9 +4599,7 @@ where $\mathbf{x}_t$ is the state of the system at time $t$ and $\mathbf{f}$ is 
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}_t\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4695,9 +4613,7 @@ The Lyapunov exponent can also be calculated for continuous-time dynamical syste
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{A}\mathbf{x}
-
 $$
 
 
@@ -4707,9 +4623,7 @@ where $\mathbf{A}$ is a constant matrix. In this case, the Lyapunov exponent is 
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4719,9 +4633,7 @@ where $\delta \mathbf{x}(t)$ is the solution to the linearized system:
 
 
 $$
-
 \dot{\delta \mathbf{x}} = \mathbf{A}\delta \mathbf{x}
-
 $$
 
 
@@ -4777,9 +4689,7 @@ To understand the definition of Lyapunov exponents, let us consider a discrete-t
 
 
 $$
-
 \mathbf{x}_{t+1} = \mathbf{f}(\mathbf{x}_t)
-
 $$
 
 
@@ -4789,9 +4699,7 @@ where $\mathbf{x}_t$ is the state of the system at time $t$ and $\mathbf{f}$ is 
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}_t\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4805,9 +4713,7 @@ The Lyapunov exponent can also be calculated for continuous-time dynamical syste
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{A}\mathbf{x}
-
 $$
 
 
@@ -4817,9 +4723,7 @@ where $\mathbf{A}$ is a constant matrix. In this case, the Lyapunov exponent is 
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}_0\|}
-
 $$
 
 
@@ -4957,7 +4861,6 @@ The Lorenz system, first introduced by Edward Lorenz in 1963, is a set of three 
 
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -4967,7 +4870,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 
@@ -4985,7 +4887,6 @@ Another example of a strange attractor is the Rössler attractor, which was firs
 
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -4995,7 +4896,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 
@@ -5051,21 +4951,15 @@ The Lorenz system is a set of three differential equations that describe the beh
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -6049,9 +5943,7 @@ A nonlinear differential equation is an equation of the form:
 
 
 $$
-
 F(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -6065,9 +5957,7 @@ More generally, an implicit nonlinear differential equation of order $n$ takes t
 
 
 $$
-
 G(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -6471,7 +6361,6 @@ To understand this concept further, let us consider a two-dimensional dynamical 
 $$x'(t) = V(x(t))$$
 
 
-
 where $V: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the above differential equation. A trajectory is considered closed or periodic if it returns to its starting point, meaning there exists some $t_0 > 0$ such that $x(t + t_0) = x(t)$ for all $t \in \mathbb{R}$. The image of a closed trajectory is called a cycle or a closed orbit.
 
 
@@ -6525,9 +6414,7 @@ A limit cycle is a closed trajectory in phase space that exhibits a unique behav
 To understand this concept further, let us consider a two-dimensional dynamical system of the form:
 
 
-
 $$x'(t) = V(x(t))$$
-
 
 
 where $V: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the above differential equation. A trajectory is considered closed or periodic if it returns to its starting point, meaning there exists some $t_0 > 0$ such that $x(t + t_0) = x(t)$ for all $t \in \mathbb{R}$. The image of a closed trajectory is called a cycle or a closed orbit.
@@ -6591,9 +6478,7 @@ A limit cycle is a closed trajectory in phase space that exhibits a unique behav
 To understand this concept further, let us consider a two-dimensional dynamical system of the form:
 
 
-
 $$x'(t) = V(x(t))$$
-
 
 
 where $V: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the above differential equation. A trajectory is considered closed or periodic if it returns to its starting point, meaning there exists some $t_0 > 0$ such that $x(t + t_0) = x(t)$ for all $t \in \mathbb{R}$. The image of a closed trajectory is called a cycle or a closed orbit.
@@ -6661,9 +6546,7 @@ A Poincaré map, also known as a first return map, is a discrete dynamical syste
 To understand the concept of Poincaré maps, let us consider a continuous dynamical system in phase space, described by the equations:
 
 
-
 $$\dot{x} = f(x)$$
-
 
 
 where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth function. A Poincaré map is obtained by taking a cross-section of the phase space at a specific time interval, known as the Poincaré section. This section is usually chosen to be a hyperplane or a hypersurface that intersects the trajectory of the system at regular intervals.
@@ -6673,9 +6556,7 @@ where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth fu
 The Poincaré map is then defined as the mapping that takes a point on the Poincaré section at time $t$ to the point on the Poincaré section at time $t + \tau$, where $\tau$ is the time interval between two consecutive intersections of the trajectory with the Poincaré section. Mathematically, this can be expressed as:
 
 
-
 $$\Psi(x(t)) = x(t + \tau)$$
-
 
 
 The Poincaré map provides a discrete representation of the continuous dynamical system and can be used to study the long-term behavior of the system. It is particularly useful in systems that exhibit periodic behavior, such as limit cycles.
@@ -6727,9 +6608,7 @@ A Poincaré map, also known as a first return map, is a discrete dynamical syste
 To understand the concept of Poincaré maps, let us consider a continuous dynamical system in phase space, described by the equations:
 
 
-
 $$\dot{x} = f(x)$$
-
 
 
 where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth function. A Poincaré map is obtained by taking a cross-section of the phase space at a specific time interval, known as the Poincaré section. This section is usually chosen to be a hyperplane or a hypersurface that intersects the trajectory of the system at regular intervals.
@@ -6739,9 +6618,7 @@ where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth fu
 The Poincaré map is then defined as the mapping that takes a point on the Poincaré section at time $t$ to the point on the Poincaré section at time $t + \tau$, where $\tau$ is the time interval between two consecutive intersections of the trajectory with the Poincaré section. Mathematically, this can be expressed as:
 
 
-
 $$\Psi(x(t)) = x(t + \tau)$$
-
 
 
 The Poincaré map provides a discrete representation of the continuous dynamical system and can be used to study the long-term behavior of the system. It is particularly useful in systems that exhibit periodic behavior, such as limit cycles.
@@ -6797,9 +6674,7 @@ A Poincaré map, also known as a first return map, is a discrete dynamical syste
 To understand the concept of Poincaré maps, let us consider a continuous dynamical system in phase space, described by the equations:
 
 
-
 $$\dot{x} = f(x)$$
-
 
 
 where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth function. A Poincaré map is obtained by taking a cross-section of the phase space at a specific time interval, known as the Poincaré section. This section is usually chosen to be a hyperplane or a hypersurface that intersects the trajectory of the system at regular intervals.
@@ -6809,9 +6684,7 @@ where $x \in \mathbb{R}^n$ and $f: \mathbb{R}^n \to \mathbb{R}^n$ is a smooth fu
 The Poincaré map is then defined as the mapping that takes a point on the Poincaré section at time $t$ to the point on the Poincaré section at time $t + \tau$, where $\tau$ is the time interval between two consecutive intersections of the trajectory with the Poincaré section. Mathematically, this can be expressed as:
 
 
-
 $$\Psi(x(t)) = x(t + \tau)$$
-
 
 
 The Poincaré map provides a discrete representation of the continuous dynamical system and can be used to study the long-term behavior of the system. It is particularly useful in systems that exhibit periodic behavior, such as limit cycles.
@@ -6887,13 +6760,11 @@ Explore the concept of sensitive dependence on initial conditions by simulating 
 #### Exercise 3
 
 Investigate the behavior of the Lorenz system, given by the equations:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase space diagram for different values of these parameters and observe the resulting behavior.
 
 
@@ -7445,7 +7316,6 @@ Explore the concept of bifurcation in the logistic map. Plot the bifurcation dia
 #### Exercise 3
 
 Investigate the famous Lorenz system, given by the equations:
-
 $$
 
 \begin{align}
@@ -7459,7 +7329,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are control parameters. What values of these parameters lead to chaotic behavior? How does the behavior of the system change as these parameters are varied?
 
 
@@ -7979,9 +7848,7 @@ Scale-free networks are characterized by a few highly connected nodes, known as 
 The degree distribution of a scale-free network can be described by a power law function, where the probability of a node having k connections is given by:
 
 
-
 $$P(k) \sim k^{-\gamma}$$
-
 
 
 where $\gamma$ is the degree exponent. This exponent is typically between 2 and 3, with a value of 2 being the most common. This means that the probability of a node having a high degree decreases rapidly as the degree increases.
@@ -8765,13 +8632,11 @@ Nonlinear equations can be classified into two broad categories: autonomous and 
 A nonlinear equation can be written in the form:
 
 
-
 $$
 
 F(x_1, x_2, ..., x_n) = 0
 
 $$
-
 
 
 where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This means that the rate of change of one variable is not directly proportional to the other variables, leading to nonlinear relationships between them.
@@ -8781,21 +8646,17 @@ where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This me
 One example of a nonlinear equation is the Lotka-Volterra equations, which are used to model predator-prey relationships in ecology. These equations are given by:
 
 
-
 $$
 
 \frac{dx}{dt} = ax - bxy
 
 $$
 
-
-
 $$
 
 \frac{dy}{dt} = -cy + dxy
 
 $$
-
 
 
 where $x$ represents the population of prey, $y$ represents the population of predators, and $a, b, c, d$ are constants. These equations exhibit nonlinear behavior, as the rate of change of each population depends on the other population's size.
@@ -8805,13 +8666,11 @@ where $x$ represents the population of prey, $y$ represents the population of pr
 Nonlinear equations can also be represented in the form of differential equations, which describe the rate of change of a variable with respect to time. For example, the nonlinear differential equation:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \sin(x) = 0
 
 $$
-
 
 
 describes the motion of a pendulum, where $x$ represents the angle of the pendulum. The presence of the sine function makes this equation nonlinear, as the rate of change of $x$ is not directly proportional to $x$ itself.
@@ -8847,13 +8706,11 @@ Nonlinear equations can be classified into two broad categories: autonomous and 
 A nonlinear equation can be written in the form:
 
 
-
 $$
 
 F(x_1, x_2, ..., x_n) = 0
 
 $$
-
 
 
 where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This means that the rate of change of one variable is not directly proportional to the other variables, leading to nonlinear relationships between them.
@@ -8863,21 +8720,17 @@ where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This me
 One example of a nonlinear equation is the Lotka-Volterra equations, which are used to model predator-prey relationships in ecology. These equations are given by:
 
 
-
 $$
 
 \frac{dx}{dt} = ax - bxy
 
 $$
 
-
-
 $$
 
 \frac{dy}{dt} = -cy + dxy
 
 $$
-
 
 
 where $x$ represents the population of prey, $y$ represents the population of predators, and $a, b, c, d$ are constants. These equations exhibit nonlinear behavior, as the rate of change of each population depends on the other population's size.
@@ -8887,13 +8740,11 @@ where $x$ represents the population of prey, $y$ represents the population of pr
 Nonlinear equations can also be represented in the form of differential equations, which describe the rate of change of a variable with respect to time. For example, the nonlinear differential equation:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \sin(x) = 0
 
 $$
-
 
 
 describes the motion of a pendulum, where $x$ represents the angle of the pendulum. The presence of the sine function in this equation makes it nonlinear, as the rate of change of the angle depends on the current value of the angle itself.
@@ -8963,13 +8814,11 @@ The Cameron-Martin theorem is a powerful tool for analyzing nonlinear equations.
 One example of a nonlinear equation is the Navier-Stokes equation, which is used to model fluid flow. This equation is given by:
 
 
-
 $$
 
 \rho\left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u}\cdot\nabla\mathbf{u}\right) = -\nabla p + \mu\nabla^2\mathbf{u} + \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity field, $p$ is the pressure, $\mu$ is the viscosity, and $\mathbf{f}$ is an external force. This equation exhibits nonlinear behavior due to the presence of the term $\mathbf{u}\cdot\nabla\mathbf{u}$, which represents the convective acceleration of the fluid.
@@ -8979,13 +8828,11 @@ where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity field, $p
 Another example of a nonlinear equation is the Schrödinger equation, which is used to describe the behavior of quantum systems. This equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial \psi}{\partial t} = \hat{H}\psi
 
 $$
-
 
 
 where $\psi$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant. This equation exhibits nonlinear behavior due to the presence of the term $\hat{H}\psi$, which represents the interaction between the wave function and the Hamiltonian.
@@ -9021,13 +8868,11 @@ Nonlinear equations can be classified into two broad categories: autonomous and 
 A nonlinear equation can be written in the form:
 
 
-
 $$
 
 F(x_1, x_2, ..., x_n) = 0
 
 $$
-
 
 
 where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This means that the rate of change of one variable is not directly proportional to the other variables, leading to nonlinear relationships between them.
@@ -9037,21 +8882,17 @@ where $F$ is a nonlinear function of the variables $x_1, x_2, ..., x_n$. This me
 One example of a nonlinear equation is the Lotka-Volterra equations, which are used to model predator-prey relationships in ecology. These equations are given by:
 
 
-
 $$
 
 \frac{dx}{dt} = ax - bxy
 
 $$
 
-
-
 $$
 
 \frac{dy}{dt} = -cy + dxy
 
 $$
-
 
 
 where $x$ represents the population of prey, $y$ represents the population of predators, and $a, b, c, d$ are constants. These equations exhibit nonlinear behavior, as the rate of change of each population depends on the other population's size.
@@ -9061,13 +8902,11 @@ where $x$ represents the population of prey, $y$ represents the population of pr
 Nonlinear equations can also be represented in the form of differential equations, which describe the rate of change of a variable with respect to time. For example, the nonlinear differential equation:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \sin(x) = 0
 
 $$
-
 
 
 describes the motion of a pendulum, where $x$ represents the angle of the pendulum. The presence of the sine function in this equation makes it nonlinear, as the rate of change of the angle depends on the current value of the angle itself.
@@ -9131,13 +8970,11 @@ Nonlinear oscillations are a type of nonlinear system that exhibit periodic beha
 Nonlinear oscillations can be described by nonlinear differential equations, which relate the rate of change of a variable with respect to time. These equations can take various forms, depending on the specific system being modeled. One common example is the Duffing equation, which is used to model the oscillations of a mass attached to a nonlinear spring and a linear damper. The equation is given by:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \alpha x + \beta x^3 = 0
 
 $$
-
 
 
 where $x$ represents the displacement of the mass, and $\alpha$ and $\beta$ are constants that determine the behavior of the spring.
@@ -9177,13 +9014,11 @@ Nonlinear oscillations are a fundamental concept in the study of nonlinear syste
 Nonlinear oscillations can be described by nonlinear differential equations, which relate the rate of change of a variable with respect to time. These equations can take various forms, depending on the specific system being modeled. One common example is the Duffing equation, which is used to model the oscillations of a mass attached to a nonlinear spring and a linear damper. The equation is given by:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \alpha x + \beta x^3 = 0
 
 $$
-
 
 
 where $x$ represents the displacement of the mass, and $\alpha$ and $\beta$ are constants that determine the behavior of the spring.
@@ -9239,13 +9074,11 @@ Another important property of nonlinear oscillations is their sensitivity to ini
 Nonlinear oscillations can be described by nonlinear differential equations, which relate the rate of change of a variable with respect to time. These equations can take various forms, depending on the specific system being modeled. One common example is the Duffing equation, which is used to model the oscillations of a mass attached to a nonlinear spring and a linear damper. The equation is given by:
 
 
-
 $$
 
 \frac{d^2x}{dt^2} + \alpha x + \beta x^3 = 0
 
 $$
-
 
 
 where $x$ represents the displacement of the mass, and $\alpha$ and $\beta$ are constants that determine the behavior of the spring.
@@ -9499,7 +9332,6 @@ One of the main properties of nonlinear stability is the ability to study the st
 A special type of interconnection that is often studied is the cascade interconnection. In this type of interconnection, the dynamics of each subsystem do not depend on the states of the other subsystems. Formally, a cascade interconnection can be written as:
 
 
-
 $$
 
 \left\{ 
@@ -9513,13 +9345,11 @@ i=1,\ldots,n.
 $$
 
 
-
 If all subsystems in a cascade interconnection are ISS, then the entire system is also ISS. This is a useful property, as it allows us to analyze the stability of a complex system by studying the stability of its individual subsystems.
 
 
 
 However, it is important to note that this property does not hold for all types of systems. In particular, the cascade interconnection of 0-GAS (globally asymptotically stable) systems is not necessarily 0-GAS. This can be seen in the following example:
-
 
 
 $$
@@ -9537,7 +9367,6 @@ $$
 \right.
 
 $$
-
 
 
 Both subsystems of this system are 0-GAS, but the cascade interconnection is not 0-GAS. This highlights the importance of understanding the properties of nonlinear stability and how they apply to different types of systems.
@@ -9573,7 +9402,6 @@ One of the main properties of nonlinear stability is the ability to study the st
 A special type of interconnection that is often studied is the cascade interconnection. In this type of interconnection, the dynamics of each subsystem do not depend on the states of the other subsystems. Formally, a cascade interconnection can be written as:
 
 
-
 $$
 
 \left\{ 
@@ -9587,13 +9415,11 @@ i=1,\ldots,n.
 $$
 
 
-
 If all subsystems in a cascade interconnection are ISS, then the entire system is also ISS. This is a useful property, as it allows us to analyze the stability of a complex system by studying the stability of its individual subsystems.
 
 
 
 However, it is important to note that this property does not hold for all types of systems. In particular, the cascade interconnection of 0-GAS (globally asymptotically stable) systems is not necessarily 0-GAS. This can be seen in the following example:
-
 
 
 $$
@@ -9613,7 +9439,6 @@ $$
 $$
 
 
-
 Both subsystems of this system are 0-GAS, but the cascade interconnection is not 0-GAS. This highlights the importance of understanding the properties of nonlinear stability and how they apply to different types of systems.
 
 
@@ -9623,7 +9448,6 @@ In addition to studying the stability of interconnections, another important pro
 
 
 A smooth function $V_i:\R^{p_i} \to \R_{+}$ is an ISS-Lyapunov function (ISS-LF) for the $i$-th subsystem of the system given by
-
 
 
 $$
@@ -9639,9 +9463,7 @@ i=1,\ldots,n.
 $$
 
 
-
 if there exist functions $\psi_{i1},\psi_{i2}\in\mathcal{K}_{\infty}$, $\chi_{ij},\chi_{i}\in \mathcal{K}$, $j=1,\ldots,n$, $j \neq i$, $\chi_{ii}:=0$ and a positive-definite function $\alpha_{i}$, such that:
-
 
 
 $$
@@ -9655,7 +9477,6 @@ V_i(x_{i}) &\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \\
 \end{align}
 
 $$
-
 
 
 In simpler terms, an ISS-Lyapunov function is a function that decreases along the trajectories of the system and can be used to prove the stability of the system. This property is particularly useful in analyzing the stability of nonlinear systems, as it allows us to use mathematical tools to prove stability rather than relying on simulations.
@@ -9693,7 +9514,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Investigate the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{aligned}
@@ -9707,7 +9527,6 @@ $$
 \end{aligned}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase portrait for different values of these parameters and observe the behavior of the system.
 
 
@@ -9721,7 +9540,6 @@ Explore the Mandelbrot set, a famous fractal generated by the iteration $z_{n+1}
 #### Exercise 4
 
 Investigate the behavior of the Henon map, given by the equations
-
 $$
 
 \begin{aligned}
@@ -9733,7 +9551,6 @@ y_{n+1} &= bx_n
 \end{aligned}
 
 $$
-
 where $a$ and $b$ are parameters. Plot the bifurcation diagram for this map and observe the behavior as $a$ and $b$ vary.
 
 
@@ -9741,7 +9558,6 @@ where $a$ and $b$ are parameters. Plot the bifurcation diagram for this map and 
 #### Exercise 5
 
 Consider the Rössler system, given by the equations
-
 $$
 
 \begin{aligned}
@@ -9755,7 +9571,6 @@ $$
 \end{aligned}
 
 $$
-
 where $a$, $b$, and $c$ are parameters. Investigate the behavior of this system for different values of these parameters and plot the phase portrait.
 
 
@@ -9805,13 +9620,11 @@ Nonlinear systems are of interest to engineers, biologists, physicists, mathemat
 A nonlinear system is a system in which the change of the output is not proportional to the change of the input. In other words, the output of a nonlinear system is not a linear function of its inputs. This can be represented mathematically as:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input, and $f(x)$ is a nonlinear function.
@@ -9859,13 +9672,11 @@ Nonlinear systems are of interest to engineers, biologists, physicists, mathemat
 A nonlinear system is a system in which the change of the output is not proportional to the change of the input. In other words, the output of a nonlinear system is not a linear function of its inputs. This can be represented mathematically as:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input, and $f(x)$ is a nonlinear function.
@@ -9925,13 +9736,11 @@ Nonlinear systems are of interest to engineers, biologists, physicists, mathemat
 A nonlinear system is a system in which the change of the output is not proportional to the change of the input. In other words, the output of a nonlinear system is not a linear function of its inputs. This can be represented mathematically as:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input, and $f(x)$ is a nonlinear function.
@@ -9945,13 +9754,11 @@ Nonlinear systems can be described by a set of simultaneous equations in which t
 Systems can be defined as nonlinear, regardless of whether known linear functions appear in the equations. In particular, a differential equation is "linear" if it is linear in terms of the unknown function and its derivatives. This means that the equation can be written in the form:
 
 
-
 $$
 
 \sum_{i=0}^{n} a_i(x) \frac{d^i y}{dx^i} = b(x)
 
 $$
-
 
 
 where $a_i(x)$ and $b(x)$ are functions of $x$ and $y$ is the unknown function.
@@ -10439,7 +10246,6 @@ A strange attractor is a subset of the phase space of a dynamical system that is
 To better understand the concept of a strange attractor, let us consider the Lorenz system. The Lorenz system is a set of three differential equations that describe the evolution of a simplified weather model. These equations are given by:
 
 
-
 $$
 
 \begin{align}
@@ -10453,7 +10259,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\sigma$, $\rho$, and $\beta$ are parameters that control the behavior of the system. The Lorenz attractor is a strange attractor that emerges from this system for certain values of these parameters.
@@ -10475,7 +10280,6 @@ To visualize the Lorenz attractor, we can plot the values of $x$, $y$, and $z$ o
 The Lorenz system is a set of three nonlinear differential equations that describe the behavior of a simplified weather model. It was first introduced by Edward Lorenz in 1963 and has since become a classic example of a chaotic system. The equations are given by:
 
 
-
 $$
 
 \begin{align}
@@ -10489,7 +10293,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\sigma$, $\rho$, and $\beta$ are parameters that control the behavior of the system. The Lorenz system exhibits a sensitive dependence on initial conditions, meaning that small changes in the initial conditions can lead to vastly different outcomes. This is a defining characteristic of chaotic systems and is known as the butterfly effect.
@@ -10557,7 +10360,6 @@ A strange attractor is a subset of the phase space of a dynamical system that is
 To better understand the concept of a strange attractor, let us consider the Lorenz system. The Lorenz system is a set of three differential equations that describe the evolution of a simplified weather model. These equations are given by:
 
 
-
 $$
 
 \begin{align}
@@ -10571,7 +10373,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\sigma$, $\rho$, and $\beta$ are parameters that control the behavior of the system. The Lorenz attractor is a strange attractor that emerges from this system for certain values of these parameters.
@@ -10609,7 +10410,6 @@ Furthermore, strange attractors are also aperiodic, meaning that they do not hav
 The Lorenz system is a set of three nonlinear differential equations that describe the behavior of a simplified weather model. It was first introduced by Edward Lorenz in the 1960s and has since become a classic example of a chaotic system. The system is defined by the equations:
 
 
-
 $$
 
 \begin{align}
@@ -10623,7 +10423,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $\sigma$, $\rho$, and $\beta$ are parameters that control the behavior of the system. The Lorenz system exhibits chaotic behavior for certain values of these parameters, giving rise to the famous Lorenz attractor. This attractor has been studied extensively and has been shown to exhibit properties of a strange attractor, making it a key example in the field of nonlinear dynamics and chaos.
@@ -10717,7 +10516,6 @@ Explore the concept of bifurcations in the logistic map by plotting the values o
 #### Exercise 3
 
 Investigate the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -10731,7 +10529,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. How do changes in these parameters affect the behavior of the system? Can you identify any bifurcations or strange attractors?
 
 
@@ -11427,13 +11224,11 @@ Overall, this chapter has given us a glimpse into the complex and unpredictable 
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - x + 1
 
 $$
-
 a) Find the fixed points of this system.
 
 b) Determine the stability of each fixed point using the linearization method.
@@ -11445,17 +11240,14 @@ c) Plot the phase portrait of this system.
 #### Exercise 2
 
 Consider the nonlinear system:
-
 $$
 
 \dot{x} = -x + y
 
 $$
-
 $$
 
 \dot{y} = -x^2 + y^2
-
 $$
 
 a) Find the fixed points of this system.
@@ -11471,15 +11263,11 @@ c) Plot the phase portrait of this system.
 Consider the nonlinear system:
 
 $$
-
 \dot{x} = x^2 - y
-
 $$
 
 $$
-
 \dot{y} = -x + y^2
-
 $$
 
 a) Find the fixed points of this system.
@@ -11495,15 +11283,11 @@ c) Plot the phase portrait of this system.
 Consider the nonlinear system:
 
 $$
-
 \dot{x} = x^2 - y
-
 $$
 
 $$
-
 \dot{y} = -x + y^3
-
 $$
 
 a) Find the fixed points of this system.
@@ -11519,15 +11303,11 @@ c) Plot the phase portrait of this system.
 Consider the nonlinear system:
 
 $$
-
 \dot{x} = x^2 - y
-
 $$
 
 $$
-
 \dot{y} = -x + y^3
-
 $$
 
 a) Find the fixed points of this system.
@@ -11591,7 +11371,6 @@ A nonlinear optimization problem can be defined as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &f(x) \\
@@ -11601,7 +11380,6 @@ $$
 &h_j(x) = 0, \text{ for } j = 1, ..., p \\
 
 \end{align*}
-
 $$
 
 
@@ -11813,7 +11591,6 @@ A nonlinear programming problem is an optimization problem of the form:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{x \in X}{\text{minimize}}
@@ -11827,7 +11604,6 @@ $$
 &&& h_j(x) = 0, \; j = 1, \dots, p
 
 \end{aligned}
-
 $$
 
 
@@ -12213,9 +11989,7 @@ The system model for the extended Kalman filter is given by:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
@@ -12225,9 +11999,7 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the control input,
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -12245,9 +12017,7 @@ The Jacobian matrix of the system model, denoted by $\mathbf{F}(t)$, is given by
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
@@ -12257,9 +12027,7 @@ where $\hat{\mathbf{x}}(t)$ is the predicted state estimate. Similarly, the Jaco
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -12269,9 +12037,7 @@ These Jacobian matrices are used to calculate the Kalman gain, denoted by $\math
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
@@ -13175,7 +12941,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the behavior of the Lorenz system, given by the equations:
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -13185,7 +12950,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Investigate how changing these parameters affects the behavior of the system.
@@ -13203,7 +12967,6 @@ Research and discuss the concept of fractals in relation to nonlinear systems. H
 Consider the Henon map given by the equations:
 
 $$
-
 \begin{align}
 
 x_{n+1} &= y_n + 1 - ax_n^2 \\
@@ -13211,7 +12974,6 @@ x_{n+1} &= y_n + 1 - ax_n^2 \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are parameters. Investigate the behavior of this system for different values of $a$ and $b$.
@@ -13859,7 +13621,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -13869,7 +13630,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use a computer simulation to plot the system's trajectory in phase space for different values of these parameters.
@@ -13881,7 +13641,6 @@ where $\sigma$, $\rho$, and $\beta$ are parameters. Use a computer simulation to
 Consider the Henon map given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= 1-ax_n^2+y_n \\
@@ -13889,7 +13648,6 @@ x_{n+1} &= 1-ax_n^2+y_n \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are parameters. Investigate the behavior of this system for different values of $a$ and $b$. What types of behavior do you observe?
@@ -13907,7 +13665,6 @@ Explore the concept of bifurcations in the logistic map. How does the behavior o
 Investigate the behavior of the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -13917,7 +13674,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are parameters. Use a computer simulation to plot the system's trajectory in phase space for different values of these parameters. How does the behavior of the system change as these parameters are varied?
@@ -14099,13 +13855,10 @@ A nonlinear differential equation is an equation of the form:
 $$F(x, y, y', y'', ..., y^{(n)}) = 0$$
 
 
-
 where $F$ is a function of the independent variable $x$, the dependent variable $y$, and its derivatives up to the $n$th order. This is in contrast to a linear differential equation, which can be written in the form:
 
 
-
 $$a_n(x)y^{(n)} + a_{n-1}(x)y^{(n-1)} + ... + a_1(x)y' + a_0(x)y = g(x)$$
-
 
 
 where $a_n(x), a_{n-1}(x), ..., a_1(x), a_0(x)$ are functions of $x$ and $g(x)$ is a known function.
@@ -14577,13 +14330,11 @@ Nonlinear system response is the study of how a nonlinear system behaves in resp
 To understand the response of a nonlinear system, we must first define the input and output variables. The input variable, denoted as $u(t)$, represents the external stimulus or forcing function acting on the system. The output variable, denoted as $y(t)$, represents the response of the system to the input. In general, the output of a nonlinear system can be expressed as a function of the input and the system's internal state variables, denoted as $x(t)$.
 
 
-
 $$
 
 y(t) = f(u(t), x(t))
 
 $$
-
 
 
 The function $f$ is known as the system's response function and is typically nonlinear. This means that the output of the system is not directly proportional to the input, and the system's behavior cannot be easily predicted.
@@ -14763,13 +14514,11 @@ Explore the concept of fractals and their relationship to chaos. Research and di
 #### Exercise 3
 
 Investigate the Lorenz system, given by the equations:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase space and bifurcation diagram for this system and discuss its chaotic behavior.
 
 
@@ -15291,7 +15040,6 @@ To formally define nonlinear optimization design, let us consider a system with 
 The goal of nonlinear optimization design is to find the values for the parameters that will minimize the objective function "f" while satisfying all the constraints "g<sub>i</sub>" and "h<sub>j</sub>". This can be represented mathematically as:
 
 
-
 $$
 
 \min_{x \in X} f(x) \\
@@ -15301,7 +15049,6 @@ $$
 h_j(x) = 0, \forall j \in \{1, ..., p\}
 
 $$
-
 
 
 where "x" represents the vector of parameters and "X" is the feasible set of values for these parameters. The solution to this optimization problem is the set of values for "x" that satisfies all the constraints and minimizes the objective function.
@@ -15395,13 +15142,11 @@ To formally define nonlinear optimization design, let us consider a system with 
 Mathematically, we can express this as:
 
 
-
 $$
 
 x^* = \arg\min_{x \in X} f(x)
 
 $$
-
 
 
 where $x^*$ is the optimal solution that minimizes the objective function "f" over the set of possible values for the parameters.
@@ -15457,13 +15202,11 @@ Overall, this chapter has provided a glimpse into the complex and fascinating wo
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 x_{n+1} = 4x_n(1-x_n)
 
 $$
-
 a) Plot the bifurcation diagram for this system by varying the parameter $x_0$ from 0 to 1.
 
 b) What type of behavior do you observe for different values of $x_0$?
@@ -15481,7 +15224,6 @@ Design a nonlinear system that exhibits chaotic behavior. Explain the design pro
 #### Exercise 3
 
 Investigate the sensitivity to initial conditions in the Lorenz system:
-
 $$
 
 \begin{aligned}
@@ -15495,7 +15237,6 @@ $$
 \end{aligned}
 
 $$
-
 a) Plot the trajectory of the system for two different initial conditions that are very close to each other.
 
 b) How do the trajectories differ over time?
@@ -16251,7 +15992,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Investigate the behavior of the Lorenz system, given by the equations:
-
 $$
 
 \begin{align}
@@ -16265,7 +16005,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase space and discuss the different types of behavior observed for different values of these parameters.
 
 
@@ -16273,13 +16012,11 @@ where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase space and dis
 #### Exercise 3
 
 Explore the concept of fractals by generating the famous Mandelbrot set using the following iteration:
-
 $$
 
 z_{n+1} = z_n^2 + c
 
 $$
-
 where $c$ is a complex number. Plot the resulting set and discuss its properties.
 
 
@@ -16287,7 +16024,6 @@ where $c$ is a complex number. Plot the resulting set and discuss its properties
 #### Exercise 4
 
 Investigate the behavior of the Henon map, given by the equations:
-
 $$
 
 \begin{align}
@@ -16299,7 +16035,6 @@ y_{n+1} &= bx_n
 \end{align}
 
 $$
-
 where $a$ and $b$ are parameters. Plot the bifurcation diagram for this map and discuss the different types of behavior observed for different values of these parameters.
 
 
@@ -17767,7 +17502,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 The Lorenz system is given by the equations:
-
 $$
 
 \begin{aligned}
@@ -17781,7 +17515,6 @@ $$
 \end{aligned}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Investigate the behavior of the system for different values of these parameters. How does the system's behavior change as the parameters are varied?
 
 
@@ -17795,7 +17528,6 @@ The Mandelbrot set is defined as the set of complex numbers $c$ for which the se
 #### Exercise 4
 
 The Hénon map is given by the equations:
-
 $$
 
 \begin{aligned}
@@ -17807,7 +17539,6 @@ y_{n+1} &= bx_n
 \end{aligned}
 
 $$
-
 where $a$ and $b$ are parameters. Investigate the behavior of the system for different values of these parameters. How does the system's behavior change as the parameters are varied? Can you find any values of $a$ and $b$ for which the system exhibits chaotic behavior?
 
 
@@ -17849,7 +17580,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 The Lorenz system is given by the equations:
-
 $$
 
 \begin{aligned}
@@ -17863,7 +17593,6 @@ $$
 \end{aligned}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Investigate the behavior of the system for different values of these parameters. How does the system's behavior change as the parameters are varied?
 
 
@@ -17877,7 +17606,6 @@ The Mandelbrot set is defined as the set of complex numbers $c$ for which the se
 #### Exercise 4
 
 The Hénon map is given by the equations:
-
 $$
 
 \begin{aligned}
@@ -17889,7 +17617,6 @@ y_{n+1} &= bx_n
 \end{aligned}
 
 $$
-
 where $a$ and $b$ are parameters. Investigate the behavior of the system for different values of these parameters. How does the system's behavior change as the parameters are varied? Can you find any values of $a$ and $b$ for which the system exhibits chaotic behavior?
 
 
@@ -18381,14 +18108,11 @@ Using the results of sensitivity analysis, we can efficiently compute the eigenv
 The sensitivity of eigenvalues with respect to the entries of the matrices can be expressed as:
 
 
-
 $$
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
 
 $$
-
-
 
 $$
 
@@ -18397,9 +18121,7 @@ $$
 $$
 
 
-
 Similarly, the sensitivity of eigenvectors can be expressed as:
-
 
 
 $$
@@ -18408,14 +18130,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
 
 $$
-
 
 
 These equations allow us to compute the sensitivity of eigenvalues and eigenvectors with respect to changes in the system's parameters. This information is crucial in identifying bifurcation points and understanding the behavior of chaotic systems.
@@ -18425,7 +18144,6 @@ These equations allow us to compute the sensitivity of eigenvalues and eigenvect
 To illustrate the concept of eigenvalue sensitivity, let us consider a simple case where the matrix K is given by:
 
 
-
 $$
 
 K=\begin{bmatrix} 2 & b \\ b & 0 \end{bmatrix}
@@ -18433,9 +18151,7 @@ K=\begin{bmatrix} 2 & b \\ b & 0 \end{bmatrix}
 $$
 
 
-
 Using online tools or software such as SageMath, we can compute the eigenvalues and eigenvectors of this matrix. We get the smallest eigenvalue as:
-
 
 
 $$
@@ -18445,9 +18161,7 @@ $$
 $$
 
 
-
 And the sensitivity of this eigenvalue with respect to b is given by:
-
 
 
 $$
@@ -18455,7 +18169,6 @@ $$
 \frac{\partial \lambda}{\partial b}=\frac{-x}{\sqrt{x^2+1}}
 
 $$
-
 
 
 This simple example demonstrates how eigenvalue sensitivity can help us understand the behavior of chaotic systems and identify bifurcation points.
@@ -18981,21 +18694,17 @@ The Feigenbaum constants are a set of universal constants that describe the beha
 The Feigenbaum constants are defined as the limiting ratios of the distances between the bifurcation points of the quadratic family. These constants are denoted by the Greek letters alpha and delta, and are given by the following equations:
 
 
-
 $$
 
 \alpha = \lim_{n \to \infty} \frac{\delta_n}{\delta_{n+1}}
 
 $$
 
-
-
 $$
 
 \delta = \lim_{n \to \infty} \frac{\delta_{n+1}}{\delta_n}
 
 $$
-
 
 
 where $\delta_n$ is the distance between the $n$th and $(n+1)$th bifurcation points.
@@ -19035,21 +18744,17 @@ The Feigenbaum constants, discovered by mathematician Mitchell Feigenbaum in the
 The Feigenbaum constants, denoted by the Greek letters alpha and delta, are defined as the limiting ratios of the distances between the bifurcation points of the quadratic family. In other words, they describe the rate at which the system undergoes bifurcations as the parameter $c$ is varied. These constants are given by the following equations:
 
 
-
 $$
 
 \alpha = \lim_{n \to \infty} \frac{\delta_n}{\delta_{n+1}}
 
 $$
 
-
-
 $$
 
 \delta = \lim_{n \to \infty} \frac{\delta_{n+1}}{\delta_n}
 
 $$
-
 
 
 where $\delta_n$ is the distance between the $n$th and $(n+1)$th bifurcation points.
@@ -19089,21 +18794,17 @@ The Feigenbaum constants, discovered by mathematician Mitchell Feigenbaum in the
 The Feigenbaum constants, denoted by the Greek letters alpha and delta, are defined as the limiting ratios of the distances between the bifurcation points of the quadratic family. In other words, they describe the rate at which the system undergoes bifurcations as the parameter $c$ is varied. These constants are given by the following equations:
 
 
-
 $$
 
 \alpha = \lim_{n \to \infty} \frac{\delta_n}{\delta_{n+1}}
 
 $$
 
-
-
 $$
 
 \delta = \lim_{n \to \infty} \frac{\delta_{n+1}}{\delta_n}
 
 $$
-
 
 
 where $\delta_n$ is the distance between the $n$th and $(n+1)$th bifurcation points.
@@ -19609,7 +19310,6 @@ In mathematics, the Lyapunov exponent or Lyapunov characteristic exponent of a d
 To understand this concept better, let us consider a system described by the following set of equations:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \mathbf{f}(\mathbf{x})
@@ -19617,9 +19317,7 @@ $$
 $$
 
 
-
 where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf{f}$ is a function that describes the evolution of the system over time. Now, let us consider two nearby trajectories, $\mathbf{x}_1(t)$ and $\mathbf{x}_2(t)$, with initial conditions $\mathbf{x}_1(0)$ and $\mathbf{x}_2(0)$ respectively. The distance between these two trajectories at time $t$ can be represented as:
-
 
 
 $$
@@ -19629,9 +19327,7 @@ $$
 $$
 
 
-
 The Lyapunov exponent, denoted by $\lambda$, is defined as the limit of the average logarithmic rate of separation of these two trajectories as time goes to infinity:
-
 
 
 $$
@@ -19639,7 +19335,6 @@ $$
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\left\| \Delta \mathbf{x}(t) \right\|}{\left\| \Delta \mathbf{x}(0) \right\|}
 
 $$
-
 
 
 where $\left\| \cdot \right\|$ represents the norm of a vector. This definition can be extended to systems with multiple dimensions, where the Lyapunov exponent is a vector of values representing the rate of separation in each dimension.
@@ -19679,7 +19374,6 @@ In mathematics, the Lyapunov exponent or Lyapunov characteristic exponent of a d
 To understand this concept better, let us consider a system described by the following set of equations:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \mathbf{f}(\mathbf{x})
@@ -19687,9 +19381,7 @@ $$
 $$
 
 
-
 where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf{f}$ is a function that describes the evolution of the system over time. Now, let us consider two nearby trajectories, $\mathbf{x}_1(t)$ and $\mathbf{x}_2(t)$, with initial conditions $\mathbf{x}_1(0)$ and $\mathbf{x}_2(0)$ respectively. The distance between these two trajectories at time $t$ can be represented as:
-
 
 
 $$
@@ -19699,9 +19391,7 @@ $$
 $$
 
 
-
 The Lyapunov exponent, denoted by $\lambda$, is defined as the limit of the average logarithmic rate of separation of these two trajectories as time goes to infinity:
-
 
 
 $$
@@ -19709,7 +19399,6 @@ $$
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\left\| \Delta \mathbf{x}(t) \right\|}{\left\| \Delta \mathbf{x}(0) \right\|}
 
 $$
-
 
 
 where $\left\| \cdot \right\|$ represents the norm of a vector. This definition can be extended to systems with multiple dimensions, where the Lyapunov exponent is a vector of values representing the rate of separation in each dimension.
@@ -19757,7 +19446,6 @@ In mathematics, the Lyapunov exponent or Lyapunov characteristic exponent of a d
 To understand this concept better, let us consider a system described by the following set of equations:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \mathbf{f}(\mathbf{x})
@@ -19765,9 +19453,7 @@ $$
 $$
 
 
-
 where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf{f}$ is a function that describes the evolution of the system over time. Now, let us consider two nearby trajectories, $\mathbf{x}_1(t)$ and $\mathbf{x}_2(t)$, with initial conditions $\mathbf{x}_1(0)$ and $\mathbf{x}_2(0)$ respectively. The distance between these two trajectories at time $t$ can be represented as:
-
 
 
 $$
@@ -19777,9 +19463,7 @@ $$
 $$
 
 
-
 The Lyapunov exponent, denoted by $\lambda$, is defined as the limit of the average logarithmic rate of separation of these two trajectories as time goes to infinity:
-
 
 
 $$
@@ -19787,7 +19471,6 @@ $$
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \frac{\left\| \Delta \mathbf{x}(t) \right\|}{\left\| \Delta \mathbf{x}(0) \right\|}
 
 $$
-
 
 
 where $\left\| \cdot \right\|$ represents the norm of a vector. This definition can be extended to systems with multiple dimensions, where the Lyapunov exponent is a vector of values representing the rate of separation in each dimension.
@@ -20935,17 +20618,13 @@ Nonlinear differential equations are a special type of differential equations wh
 A nonlinear differential equation of order "n" takes the form:
 
 
-
 $$F(x,y,y',...,y^{(n)})=0$$
-
 
 
 where "F" is a function of "x", "y", and its derivatives up to "n"th order. This equation is called an explicit ordinary differential equation of order "n". In contrast, an implicit ordinary differential equation of order "n" takes the form:
 
 
-
 $$G(x,y,y',...,y^{(n)})=0$$
-
 
 
 where "G" is a function of "x", "y", and its derivatives up to "n"th order.
@@ -21071,14 +20750,11 @@ One of the most well-known applications of nonlinear differential equations in d
 The continuous-time Extended Kalman filter is a generalization of the discrete-time Extended Kalman filter, which is commonly used for state estimation in digital processors. The continuous-time model is given by the following equations:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
-
-
 
 $$
 
@@ -21087,9 +20763,7 @@ $$
 $$
 
 
-
 The initial values are given by:
-
 
 
 $$
@@ -21099,9 +20773,7 @@ $$
 $$
 
 
-
 The predict-update steps are given by:
-
 
 
 $$
@@ -21110,15 +20782,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
 
 $$
-
-
 
 $$
 
@@ -21126,22 +20794,17 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
 
 $$
 
-
-
 $$
 
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)} 
 
 $$
-
 
 
 Unlike the discrete-time Extended Kalman filter, the prediction and update steps are coupled in the continuous-time model.
@@ -21485,13 +21148,9 @@ Limit cycles are a fundamental concept in the study of nonlinear dynamics. They 
 
 
 We consider a two-dimensional dynamical system of the form
-
 $$x'(t)=V(x(t))$$
-
 where
-
 $$V : \R^2 \to \R^2$$
-
 is a smooth function. A "trajectory" of this system is some smooth function $$x(t)$$ with values in $$\mathbb{R}^2$$ which satisfies this differential equation. Such a trajectory is called "closed" (or "periodic") if it is not constant but returns to its starting point, i.e. if there exists some $$t_0>0$$ such that $$x(t + t_0) = x(t)$$ for all $$t \in \R$$. An orbit is the image of a trajectory, a subset of $$\R^2$$. A "closed orbit", or "cycle", is the image of a closed trajectory. A "limit cycle" is a cycle which is the limit set of some other trajectory.
 
 
@@ -21543,23 +21202,17 @@ Poincaré maps are a powerful tool in the study of nonlinear dynamics. They allo
 
 
 Consider a two-dimensional dynamical system of the form
-
 $$\dot{x} = f(x)$$
-
 where $x \in \mathbb{R}^2$ and $f: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the differential equation. A Poincaré section is a surface in phase space that intersects the trajectory at regular intervals. The Poincaré map is then defined as the mapping from one intersection point to the next, after a fixed time interval.
 
 
 
 To better understand this concept, let's consider an example. Suppose we have a system described by the following differential equations in polar coordinates:
-
 $$\dot{\theta} = 1$$
-
 $$\dot{r} = (1-r^2)r$$
 
 The flow of this system can be obtained by integrating the equations, giving us the following solutions:
-
 $$\theta(t) = \theta_0 + t$$
-
 $$r(t) = \sqrt{\frac{1}{1+e^{-2t}\left(\frac{1}{r_0^2}-1\right)}}$$
 
 We can choose the positive horizontal axis as our Poincaré section, denoted by $\Sigma$. Every point on this section returns to the section after a time $t=2\pi$, as can be seen from the evolution of the angle $\theta$. Therefore, we can define the Poincaré map as the restriction of the flow to the section $\Sigma$ at the time $2\pi$, denoted by $\Phi_{2\pi}|_{\Sigma}$.
@@ -21567,9 +21220,7 @@ We can choose the positive horizontal axis as our Poincaré section, denoted by 
 
 
 The Poincaré map for this system is given by:
-
 $$\Psi(r) = \sqrt{\frac{1}{1+e^{-4\pi}\left(\frac{1}{r^2}-1\right)}}$$
-
 This map allows us to study the behavior of the system by looking at the intersections of the trajectory with the Poincaré section. This is particularly useful in systems with chaotic behavior, where the trajectory may not have a well-defined limit.
 
 
@@ -21609,23 +21260,17 @@ Poincaré maps are a powerful tool in the study of nonlinear dynamics. They allo
 
 
 Consider a two-dimensional dynamical system of the form
-
 $$\dot{x} = f(x)$$
-
 where $x \in \mathbb{R}^2$ and $f: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the differential equation. A Poincaré section is a surface in phase space that intersects the trajectory at regular intervals. The Poincaré map is then defined as the mapping from one intersection point to the next, after a fixed time interval.
 
 
 
 To better understand this concept, let's consider an example. Suppose we have a system described by the following differential equations in polar coordinates:
-
 $$\dot{\theta} = 1$$
-
 $$\dot{r} = (1-r^2)r$$
 
 The flow of this system can be obtained by integrating the equations, giving us the following solutions:
-
 $$\theta(t) = \theta_0 + t$$
-
 $$r(t) = \sqrt{\frac{1}{1+e^{-2t}\left(\frac{1}{r_0^2}-1\right)}}$$
 
 We can choose the positive horizontal axis as our Poincaré section, denoted by $\Sigma$. Every point on this section returns to the section after a time $t=2\pi$, as can be seen from the evolution of the angle $\theta$. Therefore, we can define the Poincaré map as the restriction of the flow to the section $\Sigma$ at the time $2\pi$, denoted by $\Phi_{2\pi}|_{\Sigma}$.
@@ -21633,9 +21278,7 @@ We can choose the positive horizontal axis as our Poincaré section, denoted by 
 
 
 The Poincaré map for this system is given by:
-
 $$\Psi(r) = \sqrt{\frac{1}{1+e^{-4\pi}\left(\frac{1}{r^2}-1\right)}}$$
-
 This map allows us to study the behavior of the system by looking at the intersections of the trajectory with the Poincaré section. These intersections represent the discrete states of the system, and the Poincaré map describes the evolution of the system from one state to the next.
 
 
@@ -21683,23 +21326,17 @@ Poincaré maps are a powerful tool in the study of nonlinear dynamics. They allo
 
 
 Consider a two-dimensional dynamical system of the form
-
 $$\dot{x} = f(x)$$
-
 where $x \in \mathbb{R}^2$ and $f: \mathbb{R}^2 \to \mathbb{R}^2$ is a smooth function. A trajectory of this system is a smooth function $x(t)$ with values in $\mathbb{R}^2$ that satisfies the differential equation. A Poincaré section is a surface in phase space that intersects the trajectory at regular intervals. The Poincaré map is then defined as the mapping from one intersection point to the next, after a fixed time interval.
 
 
 
 To better understand this concept, let's consider an example. Suppose we have a system described by the following differential equations in polar coordinates:
-
 $$\dot{\theta} = 1$$
-
 $$\dot{r} = (1-r^2)r$$
 
 The flow of this system can be obtained by integrating the equations, giving us the following solutions:
-
 $$\theta(t) = \theta_0 + t$$
-
 $$r(t) = \sqrt{\frac{1}{1+e^{-2t}\left(\frac{1}{r_0^2}-1\right)}}$$
 
 We can choose the positive horizontal axis as our Poincaré section, denoted by $\Sigma$. Every point on this section returns to the section after a time $t=2\pi$, as can be seen from the evolution of the angle $\theta$. Therefore, we can define the Poincaré map as the restriction of the flow to the section $\Sigma$ at the time $2\pi$, denoted by $\Phi_{2\pi}|_{\Sigma}$.
@@ -21707,9 +21344,7 @@ We can choose the positive horizontal axis as our Poincaré section, denoted by 
 
 
 The Poincaré map for this system is given by:
-
 $$\Psi(r) = \sqrt{\frac{1}{1+e^{-4\pi}\left(\frac{1}{r^2}-1\right)}}$$
-
 This map allows us to study the behavior of the system by looking at the intersections of the trajectory with the Poincaré section. By analyzing the properties of the Poincaré map, we can gain insight into the dynamics of the system.
 
 
@@ -23489,7 +23124,6 @@ Nonlinear equations are mathematical models that describe complex and chaotic ph
 Nonlinear equations are mathematical expressions that involve nonlinear terms, meaning that the dependent variable is raised to a power other than one. They can also involve products or ratios of the dependent variable. In contrast, linear equations have only linear terms, where the dependent variable is raised to the first power. Nonlinear equations can be written in the form:
 
 
-
 $$
 
 F(x,y) = 0
@@ -23497,9 +23131,7 @@ F(x,y) = 0
 $$
 
 
-
 where $x$ is the independent variable and $y$ is the dependent variable. Nonlinear equations can also be written in differential form, where the dependent variable is a function of the independent variable and its derivatives. For example:
-
 
 
 $$
@@ -23507,7 +23139,6 @@ $$
 \frac{dy}{dx} = f(x,y)
 
 $$
-
 
 
 Nonlinear equations can be further classified as autonomous or non-autonomous. Autonomous equations do not explicitly depend on the independent variable, while non-autonomous equations do. This distinction is important in the study of nonlinear systems, as it affects the behavior and solutions of the equations.
@@ -23543,7 +23174,6 @@ Nonlinear equations are essential in understanding and modeling complex systems 
 Nonlinear equations are mathematical expressions that involve nonlinear terms, meaning that the dependent variable is raised to a power other than one. They can also involve products or ratios of the dependent variable. In contrast, linear equations have only linear terms, where the dependent variable is raised to the first power. Nonlinear equations can be written in the form:
 
 
-
 $$
 
 F(x,y) = 0
@@ -23551,9 +23181,7 @@ F(x,y) = 0
 $$
 
 
-
 where $x$ is the independent variable and $y$ is the dependent variable. Nonlinear equations can also be written in differential form, where the dependent variable is a function of the independent variable and its derivatives. For example:
-
 
 
 $$
@@ -23561,7 +23189,6 @@ $$
 \frac{dy}{dx} = f(x,y)
 
 $$
-
 
 
 Nonlinear equations can be further classified as autonomous or non-autonomous. Autonomous equations do not explicitly depend on the independent variable, while non-autonomous equations do. This distinction is important in the study of nonlinear systems, as it affects the behavior and solutions of the equations.
@@ -23625,7 +23252,6 @@ Nonlinear equations play a crucial role in understanding and modeling complex sy
 Nonlinear equations are mathematical expressions that involve nonlinear terms, meaning that the dependent variable is raised to a power other than one. They can also involve products or ratios of the dependent variable. In contrast, linear equations have only linear terms, where the dependent variable is raised to the first power. Nonlinear equations can be written in the form:
 
 
-
 $$
 
 F(x,y) = 0
@@ -23633,9 +23259,7 @@ F(x,y) = 0
 $$
 
 
-
 where $x$ is the independent variable and $y$ is the dependent variable. Nonlinear equations can also be written in differential form, where the dependent variable is a function of the independent variable and its derivatives. For example:
-
 
 
 $$
@@ -23643,7 +23267,6 @@ $$
 \frac{dy}{dx} = f(x,y)
 
 $$
-
 
 
 Nonlinear equations can be further classified as autonomous or non-autonomous. Autonomous equations do not explicitly depend on the independent variable, while non-autonomous equations do. This distinction is important in the study of nonlinear systems, as it affects the behavior and solutions of the equations.
@@ -23707,7 +23330,6 @@ Nonlinear oscillations are a type of nonlinear system that exhibit complex and c
 Nonlinear oscillations can be defined as the motion of a system that is governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \ddot{x} + f(x,\dot{x}) = 0
@@ -23715,9 +23337,7 @@ $$
 $$
 
 
-
 where $x$ is the position of the system and $f(x,\dot{x})$ is a nonlinear function that describes the restoring force acting on the system. Nonlinear oscillations can also be described in terms of differential equations, where the position and velocity of the system are functions of time. For example:
-
 
 
 $$
@@ -23725,7 +23345,6 @@ $$
 \ddot{x} = f(x,\dot{x})
 
 $$
-
 
 
 Nonlinear oscillations can exhibit a wide range of behaviors, including periodic, quasiperiodic, and chaotic motion. This is in contrast to linear oscillations, which exhibit only periodic motion. The presence of nonlinear terms in the equations allows for a more complex and diverse range of behaviors, making nonlinear oscillations a rich area of study.
@@ -23777,13 +23396,11 @@ Nonlinear oscillations are a fundamental concept in the study of nonlinear syste
 Nonlinear oscillations can be defined as the motion of a system that is governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \ddot{x} + f(x,\dot{x}) = 0
 
 $$
-
 
 
 where $x$ is the position of the system and $f(x,\dot{x})$ is a nonlinear function that describes the restoring force acting on the system. This definition highlights the key difference between nonlinear and linear oscillations - the presence of nonlinear terms in the equations. These terms introduce a nonlinearity in the system, leading to a wider range of behaviors and solutions.
@@ -23793,13 +23410,11 @@ where $x$ is the position of the system and $f(x,\dot{x})$ is a nonlinear functi
 Nonlinear oscillations can also be described in terms of differential equations, where the position and velocity of the system are functions of time. For example:
 
 
-
 $$
 
 \ddot{x} = f(x,\dot{x})
 
 $$
-
 
 
 This form of the equations allows for a more detailed analysis of the system's behavior and solutions. It also highlights the importance of understanding the relationship between position, velocity, and time in nonlinear oscillations.
@@ -23859,13 +23474,11 @@ Nonlinear oscillations are a fundamental concept in the study of nonlinear syste
 Nonlinear oscillations can be defined as the motion of a system that is governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \ddot{x} + f(x,\dot{x}) = 0
 
 $$
-
 
 
 where $x$ is the position of the system and $f(x,\dot{x})$ is a nonlinear function that describes the restoring force acting on the system. This definition highlights the key difference between nonlinear and linear oscillations - the presence of nonlinear terms in the equations. These terms introduce a nonlinearity in the system, leading to a wider range of behaviors and solutions.
@@ -23875,13 +23488,11 @@ where $x$ is the position of the system and $f(x,\dot{x})$ is a nonlinear functi
 Nonlinear oscillations can also be described in terms of differential equations, where the position and velocity of the system are functions of time. For example:
 
 
-
 $$
 
 \ddot{x} = f(x,\dot{x})
 
 $$
-
 
 
 This form of the equations allows for a more detailed analysis of the system's behavior and solutions. It also highlights the importance of understanding the relationship between position, velocity, and time in nonlinear oscillations.
@@ -23953,13 +23564,11 @@ In the previous section, we explored the concept of nonlinear oscillations and t
 Nonlinear waves can be defined as waves that are governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \frac{\partial^2 \psi}{\partial x^2} - \frac{1}{c^2}\frac{\partial^2 \psi}{\partial t^2} + \kappa |\psi|^2 \psi = 0
 
 $$
-
 
 
 where $\psi$ is the complex field that describes the amplitude and phase of the wave, $c$ is the wave speed, and $\kappa$ is the nonlinearity parameter. This equation is known as the nonlinear Schrödinger equation and is used to describe a wide range of physical phenomena, including water waves, optical waves, and acoustic waves.
@@ -24007,13 +23616,11 @@ In the previous section, we explored the concept of nonlinear oscillations and t
 Nonlinear waves can be defined as waves that are governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \frac{\partial^2 \psi}{\partial x^2} - \frac{1}{c^2}\frac{\partial^2 \psi}{\partial t^2} + \kappa |\psi|^2 \psi = 0
 
 $$
-
 
 
 where $\psi$ is the complex field that describes the amplitude and phase of the wave, $c$ is the wave speed, and $\kappa$ is the nonlinearity parameter. This equation is known as the nonlinear Schrödinger equation and is used to describe a wide range of physical phenomena, including water waves, optical waves, and acoustic waves.
@@ -24061,13 +23668,11 @@ In the previous section, we explored the concept of nonlinear oscillations and t
 Nonlinear waves can be defined as waves that are governed by nonlinear equations. These equations can be written in the form:
 
 
-
 $$
 
 \frac{\partial^2 \psi}{\partial x^2} - \frac{1}{c^2}\frac{\partial^2 \psi}{\partial t^2} + \kappa |\psi|^2 \psi = 0
 
 $$
-
 
 
 where $\psi$ is the complex field that describes the amplitude and phase of the wave, $c$ is the wave speed, and $\kappa$ is the nonlinearity parameter. This equation is known as the nonlinear Schrödinger equation and is used to describe a wide range of physical phenomena, including water waves, optical waves, and acoustic waves.
@@ -24131,7 +23736,6 @@ Using ISS-Lyapunov functions, we can define the concept of nonlinear stability f
 One special case of interconnected systems is the cascade interconnection, where the dynamics of each subsystem do not depend on the states of the previous subsystems. In this case, if all subsystems are ISS, then the whole cascade interconnection is also ISS. However, in contrast to cascades of ISS systems, the cascade interconnection of 0-GAS (globally asymptotically stable) systems is not necessarily 0-GAS. This can be seen in the example of a system given by
 
 
-
 $$
 
 \left\{ 
@@ -24143,7 +23747,6 @@ i=1,\ldots,n.
 \right.
 
 $$
-
 
 
 where both subsystems are 0-GAS, but the cascade interconnection is not 0-GAS.
@@ -25177,7 +24780,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -25191,7 +24793,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase portrait for different values of these parameters and observe the behavior of the system.
 
 
@@ -25245,7 +24846,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -25259,7 +24859,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Plot the phase portrait for different values of these parameters and observe the behavior of the system.
 
 
@@ -26087,7 +25686,6 @@ One of the main features of the ISS framework is the ability to study stability 
 Consider the system given by
 
 
-
 $$
 
 \left\{ 
@@ -26101,7 +25699,6 @@ i=1,\ldots,n.
 $$
 
 
-
 where $u \in L_{\infty}(\R_+,\R^m)$, $x_{i}(t)\in \R^{p_i}$ and $f_i$ are Lipschitz continuous in $x_i$ uniformly with respect to the inputs from the $i$-th subsystem.
 
 
@@ -26111,7 +25708,6 @@ For the $i$-th subsystem of this system, the definition of an ISS-Lyapunov funct
 
 
 A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS-LF) for the $i$-th subsystem, if there exist functions $\psi_{i1},\psi_{i2}\in\mathcal{K}_{\infty}$, $\chi_{ij},\chi_{i}\in \mathcal{K}$, $j=1,\ldots,n$, $j \neq i$, $\chi_{ii}:=0$ and a positive-definite function $\alpha_{i}$, such that:
-
 
 
 $$
@@ -26127,7 +25723,6 @@ V_i(x_{i}) &\geq \max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \\
 $$
 
 
-
 This definition allows us to analyze the stability of interconnected systems by considering the stability of each subsystem and their interconnections.
 
 
@@ -26137,7 +25732,6 @@ This definition allows us to analyze the stability of interconnected systems by 
 
 
 Cascade interconnections are a special type of interconnection, where the dynamics of the $i$-th subsystem does not depend on the states of the subsystems $1,\ldots,i-1$. Formally, the cascade interconnection can be written as
-
 
 
 $$
@@ -26153,13 +25747,11 @@ i=1,\ldots,n.
 $$
 
 
-
 If all subsystems of the above system are ISS, then the whole cascade interconnection is also ISS. This property makes cascade interconnections particularly useful in analyzing the stability of complex systems.
 
 
 
 However, it is important to note that in contrast to cascades of ISS systems, the cascade interconnection of 0-GAS systems is not necessarily 0-GAS. This means that the stability of a cascade interconnection cannot be guaranteed solely by the stability of its individual subsystems. An example of this is a system given by
-
 
 
 $$
@@ -26177,7 +25769,6 @@ $$
 \right.
 
 $$
-
 
 
 Both subsystems of this system are 0-GAS, but the cascade interconnection is not 0-GAS. This highlights the importance of considering the interconnections of subsystems in analyzing the stability of complex systems.
@@ -26213,13 +25804,11 @@ Overall, the study of nonlinear systems and control is a rich and exciting field
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - x + u
 
 $$
-
 where $u$ is the control input. Show that this system has a fixed point at $x = \frac{1}{2}$ and analyze its stability using Lyapunov's direct method.
 
 
@@ -26233,13 +25822,11 @@ Design a feedback control law for the system in Exercise 1 to stabilize the fixe
 #### Exercise 3
 
 Consider the Lorenz system:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 where $\sigma, \rho, \beta$ are positive constants. Investigate the behavior of this system for different values of these parameters and discuss the concept of bifurcations.
 
 
@@ -26281,13 +25868,11 @@ Overall, the study of nonlinear systems and control is a rich and exciting field
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - x + u
 
 $$
-
 where $u$ is the control input. Show that this system has a fixed point at $x = \frac{1}{2}$ and analyze its stability using Lyapunov's direct method.
 
 
@@ -26301,13 +25886,11 @@ Design a feedback control law for the system in Exercise 1 to stabilize the fixe
 #### Exercise 3
 
 Consider the Lorenz system:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 where $\sigma, \rho, \beta$ are positive constants. Investigate the behavior of this system for different values of these parameters and discuss the concept of bifurcations.
 
 
@@ -26455,13 +26038,11 @@ In the previous section, we discussed the definition and characteristics of nonl
 One of the most important properties of nonlinear optimization is convexity. A function is said to be convex if it satisfies the following condition:
 
 
-
 $$
 
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
 
 $$
-
 
 
 for all $x,y$ in the domain of $f$ and for all $\lambda \in [0,1]$. In other words, a function is convex if the line segment connecting any two points on the graph of the function lies above the graph. This property is important because it guarantees that any local minimum of a convex function is also a global minimum. This makes it easier to find the optimal solution to a nonlinear optimization problem, as we only need to search for local minima.
@@ -26579,7 +26160,6 @@ Nonlinear programming is a sub-field of mathematical optimization that deals wit
 The general form of a nonlinear programming problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -26593,7 +26173,6 @@ h_j(x) = 0, \quad j = 1, ..., p
 \end{align}
 
 $$
-
 
 
 where $x$ is a vector of decision variables, $f(x)$ is the objective function, $g_i(x)$ are the inequality constraints, and $h_j(x)$ are the equality constraints. At least one of $f(x)$, $g_i(x)$, or $h_j(x)$ must be nonlinear for the problem to be considered a nonlinear programming problem.
@@ -26637,13 +26216,11 @@ Nonlinear programming problems have several properties that distinguish them fro
 One of the key properties of nonlinear programming problems is convexity. A function is considered convex if it satisfies the following condition:
 
 
-
 $$
 
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
 
 $$
-
 
 
 for all $x, y$ in the domain of $f$ and for all $\lambda \in [0,1]$. In other words, a function is convex if the line segment connecting any two points on the graph of the function lies above or on the graph itself.
@@ -28001,7 +27578,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system given by the equations:
-
 $$
 
 \begin{align}
@@ -28015,7 +27591,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use phase space plots and Lyapunov exponents to analyze the behavior of this system for different values of the parameters.
 
 
@@ -28029,7 +27604,6 @@ Investigate the behavior of the Henon map given by the equations $x_{n+1} = 1-ax
 #### Exercise 4
 
 Explore the concept of chaos in the context of population dynamics. Consider the Lotka-Volterra equations given by:
-
 $$
 
 \begin{align}
@@ -28041,7 +27615,6 @@ $$
 \end{align}
 
 $$
-
 where $x$ and $y$ represent the populations of two interacting species. Investigate the behavior of this system for different values of the parameters and discuss the implications for real-world ecological systems.
 
 
@@ -28049,7 +27622,6 @@ where $x$ and $y$ represent the populations of two interacting species. Investig
 #### Exercise 5
 
 Investigate the behavior of the Rössler system given by the equations:
-
 $$
 
 \begin{align}
@@ -28063,7 +27635,6 @@ $$
 \end{align}
 
 $$
-
 where $a$, $b$, and $c$ are parameters. Use phase space plots and Lyapunov exponents to analyze the behavior of this system for different values of the parameters.
 
 
@@ -28099,7 +27670,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system given by the equations:
-
 $$
 
 \begin{align}
@@ -28113,7 +27683,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use phase space plots and Lyapunov exponents to analyze the behavior of this system for different values of the parameters.
 
 
@@ -28127,7 +27696,6 @@ Investigate the behavior of the Henon map given by the equations $x_{n+1} = 1-ax
 #### Exercise 4
 
 Explore the concept of chaos in the context of population dynamics. Consider the Lotka-Volterra equations given by:
-
 $$
 
 \begin{align}
@@ -28139,7 +27707,6 @@ $$
 \end{align}
 
 $$
-
 where $x$ and $y$ represent the populations of two interacting species. Investigate the behavior of this system for different values of the parameters and discuss the implications for real-world ecological systems.
 
 
@@ -28147,7 +27714,6 @@ where $x$ and $y$ represent the populations of two interacting species. Investig
 #### Exercise 5
 
 Investigate the behavior of the Rössler system given by the equations:
-
 $$
 
 \begin{align}
@@ -28161,7 +27727,6 @@ $$
 \end{align}
 
 $$
-
 where $a$, $b$, and $c$ are parameters. Use phase space plots and Lyapunov exponents to analyze the behavior of this system for different values of the parameters.
 
 
@@ -28783,7 +28348,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -28797,7 +28361,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use a computer simulation to investigate how the behavior of the system changes as these parameters are varied.
 
 
@@ -28851,7 +28414,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 #### Exercise 2
 
 Explore the behavior of the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -28865,7 +28427,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use a computer simulation to investigate how the behavior of the system changes as these parameters are varied.
 
 
@@ -29333,13 +28894,11 @@ Input-to-State Stability (ISS) is a powerful tool in nonlinear stability analysi
 Consider the system given by
 
 
-
 $$
 
 \dot{x} = f(x) + g(x)u
 
 $$
-
 
 
 where $u \in L_{\infty}(\mathbb{R}_+,\mathbb{R}^m)$, $x \in \mathbb{R}^n$, and $f$ and $g$ are Lipschitz continuous functions. In this case, the definition of an ISS-Lyapunov function can be written as follows:
@@ -29349,13 +28908,11 @@ where $u \in L_{\infty}(\mathbb{R}_+,\mathbb{R}^m)$, $x \in \mathbb{R}^n$, and $
 A smooth function $V:\mathbb{R}^n \to \mathbb{R}_{+}$ is an ISS-Lyapunov function (ISS-LF) for the system if there exists a class $\mathcal{K}$ function $\alpha$ and a class $\mathcal{KL}$ function $\beta$ such that for all $x \in \mathbb{R}^n$ and all $u \in L_{\infty}(\mathbb{R}_+,\mathbb{R}^m)$, the following inequality holds:
 
 
-
 $$
 
 \alpha(\|x\|) \leq V(x) \leq \beta(\|x\|) + \int_{0}^{\infty} \alpha(\|u(t)\|) dt
 
 $$
-
 
 
 This definition of ISS-LF allows us to analyze the stability of a system by considering the inputs and the states of the system. It provides a way to determine the stability of a system without explicitly solving the nonlinear differential equations that describe it.
@@ -30325,7 +29882,6 @@ Nonlinear optimization design is the process of finding the best solution to an 
 The general form of a nonlinear optimization problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -30339,7 +29895,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $x \in \mathbb{R}^n$ is the vector of decision variables, $f(x)$ is the objective function, $g_i(x)$ and $h_j(x)$ are the inequality and equality constraints, respectively.
@@ -30391,7 +29946,6 @@ Nonlinear optimization design is the process of finding the best solution to an 
 The general form of a nonlinear optimization problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -30405,7 +29959,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $x \in \mathbb{R}^n$ is the vector of decision variables, $f(x)$ is the objective function, $g_i(x)$ and $h_j(x)$ are the inequality and equality constraints, respectively.
@@ -30457,7 +30010,6 @@ Nonlinear optimization design is the process of finding the best solution to an 
 The general form of a nonlinear optimization problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -30471,7 +30023,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $x \in \mathbb{R}^n$ is the vector of decision variables, $f(x)$ is the objective function, $g_i(x)$ and $h_j(x)$ are the inequality and equality constraints, respectively.
@@ -30531,13 +30082,11 @@ In conclusion, the study of nonlinear systems and their applications in design i
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x(1-x)
 
 $$
-
 a) Find the equilibrium points of the system and determine their stability.
 
 b) Sketch the phase portrait of the system.
@@ -30595,13 +30144,11 @@ In conclusion, the study of nonlinear systems and their applications in design i
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x(1-x)
 
 $$
-
 a) Find the equilibrium points of the system and determine their stability.
 
 b) Sketch the phase portrait of the system.
@@ -31137,7 +30684,6 @@ Nonlinear optimization is the process of finding the optimal solution to a probl
 The general form of a nonlinear optimization problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -31151,7 +30697,6 @@ h_j(x) = 0, \quad j = 1,2,...,p
 \end{align}
 
 $$
-
 
 
 where $x$ is a vector of decision variables, $f(x)$ is the objective function, $g_i(x)$ are the inequality constraints, and $h_j(x)$ are the equality constraints.
@@ -31307,7 +30852,6 @@ Explore the concept of bifurcation in nonlinear systems. How does the behavior o
 #### Exercise 3
 
 Investigate the Lorenz system, given by the equations
-
 $$
 
 \begin{align}
@@ -31321,7 +30865,6 @@ $$
 \end{align}
 
 $$
-
 where $\sigma$, $\rho$, and $\beta$ are parameters. What are the possible behaviors of this system? How do these behaviors change as the parameters are varied?
 
 
@@ -31375,7 +30918,6 @@ Explore the concept of bifurcation in nonlinear systems. How does the behavior o
 #### Exercise 3
 
 Investigate the Lorenz system, given by the equations
-
 $$
 
 \begin{align}

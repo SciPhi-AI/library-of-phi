@@ -5681,9 +5681,7 @@ The continuous-time extended Kalman filter is a generalization of the discrete-t
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
@@ -5697,41 +5695,31 @@ The predict-update step for the continuous-time extended Kalman filter is given 
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -5749,17 +5737,13 @@ In most real-world applications, physical systems are represented as continuous-
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -10295,9 +10279,7 @@ Applying Bayes' rule gives a framework for sequentially updating the location po
 
 
 $$
-
 P(x_t|o_{1:t}, u_{1:t}) = \frac{P(o_t|x_t, o_{1:t-1}, u_{1:t})P(x_t|o_{1:t-1}, u_{1:t})}{P(o_t|o_{1:t-1}, u_{1:t})}
-
 $$
 
 
@@ -10307,9 +10289,7 @@ Similarly, the map can be updated sequentially by:
 
 
 $$
-
 P(m_t|o_{1:t}, u_{1:t}) = \frac{P(o_t|m_t, o_{1:t-1}, u_{1:t})P(m_t|o_{1:t-1}, u_{1:t})}{P(o_t|o_{1:t-1}, u_{1:t})}
-
 $$
 
 
@@ -10361,9 +10341,7 @@ Applying Bayes' rule gives a framework for sequentially updating the location po
 
 
 $$
-
 P(x_t|o_{1:t}, u_{1:t}) = \frac{P(o_t|x_t, o_{1:t-1}, u_{1:t})P(x_t|o_{1:t-1}, u_{1:t})}{P(o_t|o_{1:t-1}, u_{1:t})}
-
 $$
 
 
@@ -10373,9 +10351,7 @@ Similarly, the map can be updated sequentially by:
 
 
 $$
-
 P(m_t|o_{1:t}, u_{1:t}) = \frac{P(o_t|m_t, o_{1:t-1}, u_{1:t})P(m_t|o_{1:t-1}, u_{1:t})}{P(o_t|o_{1:t-1}, u_{1:t})}
-
 $$
 
 

@@ -845,9 +845,7 @@ Mathematically, we can express this as:
 
 
 $$
-
 V_{battery} = V_{resistor} + V_{light bulb}
-
 $$
 
 
@@ -877,25 +875,19 @@ We can write the following equations based on KVL:
 
 
 $$
-
 V_1 - V_R - V_2 = 0
-
 $$
 
 
 
 $$
-
 V_2 - V_L - V_3 = 0
-
 $$
 
 
 
 $$
-
 V_3 - V_C - V_4 = 0
-
 $$
 
 
@@ -947,9 +939,7 @@ Mathematically, we can express this as:
 
 
 $$
-
 I_{in} = I_{out}
-
 $$
 
 
@@ -979,25 +969,19 @@ We can write the following equations based on KCL:
 
 
 $$
-
 I_1 - I_R - I_2 = 0
-
 $$
 
 
 
 $$
-
 I_2 - I_L - I_3 = 0
-
 $$
 
 
 
 $$
-
 I_3 - I_C - I_4 = 0
-
 $$
 
 
@@ -1147,9 +1131,7 @@ Before we can begin analyzing resistive networks, we must first understand Ohm's
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -1171,9 +1153,7 @@ KCL states that the sum of the currents entering a node (or junction) in a circu
 
 
 $$
-
 \sum_{i=1}^{n} I_i = 0
-
 $$
 
 
@@ -1187,9 +1167,7 @@ KVL states that the sum of the voltage drops (or rises) around a closed loop in 
 
 
 $$
-
 \sum_{i=1}^{n} V_i = 0
-
 $$
 
 
@@ -1277,7 +1255,6 @@ We can label the nodes as shown in the diagram and choose the bottom node as our
 
 
 $$
-
 \begin{align}
 
 \frac{V_1 - V_2}{R_1} + \frac{V_1}{R_2} + \frac{V_1 - V_3}{R_3} &= I_1 \\
@@ -1287,7 +1264,6 @@ $$
 \frac{V_3 - V_1}{R_3} + \frac{V_3}{R_2} &= I_3
 
 \end{align}
-
 $$
 
 
@@ -1483,7 +1459,6 @@ Mathematically, KVL can be expressed as:
 $$\sum_{n=1}^{N} V_n = 0$$
 
 
-
 Where $V_n$ represents the voltage across each element in the loop.
 
 
@@ -1499,9 +1474,7 @@ Kirchhoff's Current Law states that the sum of all currents entering and leaving
 Mathematically, KCL can be expressed as:
 
 
-
 $$\sum_{n=1}^{N} I_n = 0$$
-
 
 
 Where $I_n$ represents the current entering or leaving the node.
@@ -1523,17 +1496,13 @@ To better understand KVL and KCL, let's consider the following circuit:
 Using KVL, we can write the following equation:
 
 
-
 $$V_1 + V_2 - V_3 - V_4 = 0$$
-
 
 
 Similarly, using KCL at node A, we can write the following equation:
 
 
-
 $$I_1 - I_2 - I_3 = 0$$
-
 
 
 #### Solving the Circuit
@@ -1543,33 +1512,23 @@ $$I_1 - I_2 - I_3 = 0$$
 To solve the circuit, we can use the equations derived from KVL and KCL. Let's assume that $V_1 = 10V$, $V_2 = 5V$, and $V_3 = 8V$. Using KVL, we can find the value of $V_4$:
 
 
-
 $$10V + 5V - 8V - V_4 = 0$$
 
-
-
 $$V_4 = 7V$$
-
 
 
 Next, we can use KCL to find the value of $I_3$:
 
 
-
 $$I_1 - I_2 - I_3 = 0$$
 
-
-
 $$I_3 = I_1 - I_2$$
-
 
 
 Now, let's assume that $I_1 = 2A$ and $I_2 = 1A$. Substituting these values, we get:
 
 
-
 $$I_3 = 2A - 1A = 1A$$
-
 
 
 Therefore, the current through $R_3$ is 1A.
@@ -1613,9 +1572,7 @@ A circuit is said to be linear if it follows the principle of superposition. Thi
 Mathematically, linearity can be expressed as:
 
 
-
 $$f(ax) = af(x)$$
-
 
 
 Where $f(x)$ represents the output of the circuit and $a$ represents a constant.
@@ -1633,9 +1590,7 @@ Superposition is a powerful tool in circuit analysis that allows us to simplify 
 Mathematically, superposition can be expressed as:
 
 
-
 $$f(x_1 + x_2) = f(x_1) + f(x_2)$$
-
 
 
 Where $f(x_1)$ and $f(x_2)$ represent the individual responses caused by inputs $x_1$ and $x_2$ respectively.
@@ -1677,9 +1632,7 @@ Circuit 2: $$V_2 - V_4 = 0$$
 Solving for the output voltage, we get:
 
 
-
 $$V_{out} = V_3 + V_4 = V_1 + V_2$$
-
 
 
 This shows that the output voltage is directly proportional to the input voltages, confirming that the circuit is linear.
@@ -1723,9 +1676,7 @@ Thevenin's Theorem states that any linear circuit can be replaced by an equivale
 Mathematically, Thevenin's Theorem can be expressed as:
 
 
-
 $$V_{th} = V_{oc}$$
-
 $$R_{th} = \frac{V_{oc}}{I_{sc}}$$
 
 
@@ -1803,9 +1754,7 @@ Using the steps outlined above, we can calculate the Thevenin voltage and resist
 2. Using voltage division, we can calculate the open-circuit voltage as:
 
 
-
 $$V_{oc} = V_{in} \times \frac{R_2}{R_1 + R_2}$$
-
 
 
 3. Replacing the load resistor with a short circuit, we have the following circuit:
@@ -1819,21 +1768,15 @@ $$V_{oc} = V_{in} \times \frac{R_2}{R_1 + R_2}$$
 Using current division, we can calculate the short-circuit current as:
 
 
-
 $$I_{sc} = \frac{V_{in}}{R_1}$$
-
 
 
 4. Finally, using the equations from Thevenin's Theorem, we can calculate the Thevenin voltage and resistance as:
 
 
-
 $$V_{th} = V_{oc} = V_{in} \times \frac{R_2}{R_1 + R_2}$$
 
-
-
 $$R_{th} = \frac{V_{oc}}{I_{sc}} = \frac{V_{in} \times \frac{R_2}{R_1 + R_2}}{\frac{V_{in}}{R_1}} = \frac{R_1 \times R_2}{R_1 + R_2}$$
-
 
 
 #### Conclusion
@@ -1873,9 +1816,7 @@ Norton's Theorem states that any linear circuit can be replaced by an equivalent
 Mathematically, Norton's Theorem can be expressed as:
 
 
-
 $$I_{N} = I_{sc}$$
-
 $$R_{N} = \frac{V_{oc}}{I_{sc}}$$
 
 
@@ -1925,9 +1866,7 @@ To calculate the Norton current and resistance, we can use the following steps:
 4. Calculate the Norton current, $I_{N}$, and resistance, $R_{N}$, using the equations
 
 
-
 $$I_{N} = I_{sc}$$
-
 $$R_{N} = \frac{V_{oc}}{I_{sc}}$$
 
 
@@ -2403,7 +2342,6 @@ The NOT gate, also known as an inverter, is the simplest logic gate and has only
 The circuit diagram for a NOT gate is shown below:
 
 
-
 $$
 
 \begin{align*}
@@ -2413,7 +2351,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 When the input signal is low, the n-type transistor is off and the output is pulled up to VDD through the pull-up resistor. This results in a logic high output. When the input signal is high, the n-type transistor is turned on and the output is pulled down to ground, resulting in a logic low output.
@@ -2431,7 +2368,6 @@ The AND gate has two inputs and one output. It produces a logic high output only
 The circuit diagram for an AND gate is shown below:
 
 
-
 $$
 
 \begin{align*}
@@ -2441,7 +2377,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 When both inputs are low, both transistors are off and the output is pulled up to VDD through the pull-up resistor, resulting in a logic high output. When one or both inputs are high, the corresponding transistor(s) is turned on, pulling the output down to ground and resulting in a logic low output.
@@ -2459,7 +2394,6 @@ The OR gate also has two inputs and one output. It produces a logic high output 
 The circuit diagram for an OR gate is shown below:
 
 
-
 $$
 
 \begin{align*}
@@ -2469,7 +2403,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 When both inputs are low, both transistors are off and the output is pulled up to VDD through the pull-up resistor, resulting in a logic high output. When one or both inputs are high, the corresponding transistor(s) is turned on, pulling the output down to ground and resulting in a logic low output.
@@ -3489,13 +3422,11 @@ To analyze the step response of a first-order system, we can use the Laplace tra
 In the case of a capacitor, the transfer function is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + RCs}
 
 $$
-
 
 
 where R is the resistance in the circuit and C is the capacitance of the capacitor. Using this transfer function, we can determine the step response of the system and analyze its behavior.
@@ -3755,13 +3686,11 @@ An impulse response is the output of a system when an impulse input is applied. 
 Let's consider a simple flip-flop circuit with two inputs, D and CLK, and one output, Q. The flip-flop stores the value of D when the CLK input transitions from 0 to 1. The impulse response of this circuit can be seen in Figure 1.
 
 
-
 $$
 
 Q = D
 
 $$
-
 
 
 Figure 1: Impulse response of a flip-flop
@@ -3779,7 +3708,6 @@ As we can see, the output Q follows the input D after a single clock cycle. This
 A register is a digital circuit that consists of multiple flip-flops and is used to store a sequence of bits. The impulse response of a register can be seen in Figure 2.
 
 
-
 $$
 
 Q_0 = D_0 \\
@@ -3793,7 +3721,6 @@ Q_2 = D_2 \\
 Q_n = D_n
 
 $$
-
 
 
 Figure 2: Impulse response of a register
@@ -3811,7 +3738,6 @@ As we can see, the output of each flip-flop follows the corresponding input afte
 A counter is a digital circuit that counts the number of clock cycles and outputs a binary number. The impulse response of a counter can be seen in Figure 3.
 
 
-
 $$
 
 Q_0 = 0 \\
@@ -3827,7 +3753,6 @@ Q_3 = 1 \\
 Q_n = 1
 
 $$
-
 
 
 Figure 3: Impulse response of a counter
@@ -3989,7 +3914,6 @@ Before we dive into the specifics of second-order systems, let's briefly review 
 Now, let's move on to second-order systems. The general form of a second-order system can be written as:
 
 
-
 $$
 
 a_2\frac{d^2y(t)}{dt^2} + a_1\frac{dy(t)}{dt} + a_0y(t) = b_0x(t)
@@ -3997,9 +3921,7 @@ a_2\frac{d^2y(t)}{dt^2} + a_1\frac{dy(t)}{dt} + a_0y(t) = b_0x(t)
 $$
 
 
-
 where $a_2$, $a_1$, and $a_0$ are constants and $x(t)$ and $y(t)$ are the input and output signals, respectively. The transfer function of a second-order system can be written as:
-
 
 
 $$
@@ -4007,7 +3929,6 @@ $$
 H(s) = \frac{b_0}{a_2s^2 + a_1s + a_0}
 
 $$
-
 
 
 The poles of this transfer function are the roots of the characteristic equation $a_2s^2 + a_1s + a_0 = 0$. The behavior of a second-order system is determined by the location of its poles in the complex plane. Depending on the values of the coefficients $a_2$, $a_1$, and $a_0$, the poles can be real or complex, and they can have different effects on the system's response.
@@ -4093,7 +4014,6 @@ In the previous section, we explored the behavior of second-order systems with d
 The frequency response of a system is a plot of its output amplitude and phase as a function of input frequency. For second-order systems, the frequency response is affected by the damping ratio and natural frequency. Let's consider the general form of a second-order system transfer function:
 
 
-
 $$
 
 H(s) = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}
@@ -4101,9 +4021,7 @@ H(s) = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}
 $$
 
 
-
 where $\omega_n$ is the natural frequency and $\zeta$ is the damping ratio. By substituting $s = j\omega$, we can obtain the frequency response of the system:
-
 
 
 $$
@@ -4113,9 +4031,7 @@ H(j\omega) = \frac{\omega_n^2}{\omega_n^2 - \omega^2 + j2\zeta\omega_n\omega}
 $$
 
 
-
 The magnitude of the frequency response is given by:
-
 
 
 $$
@@ -4125,9 +4041,7 @@ $$
 $$
 
 
-
 and the phase is given by:
-
 
 
 $$
@@ -4135,7 +4049,6 @@ $$
 \angle H(j\omega) = \tan^{-1}\left(\frac{2\zeta\omega_n\omega}{\omega_n^2 - \omega^2}\right)
 
 $$
-
 
 
 From these equations, we can see that the frequency response is affected by both the damping ratio and natural frequency. As the input frequency approaches the natural frequency, the magnitude of the frequency response decreases and the phase approaches -90 degrees for an underdamped system. This phenomenon is known as resonance and can have significant implications for system design.
@@ -4313,13 +4226,11 @@ In electronic circuits, components are often connected in series or parallel. Th
 On the other hand, the impedance of components in parallel can be calculated using the following formula:
 
 
-
 $$
 
 \frac{1}{Z} = \frac{1}{Z_1} + \frac{1}{Z_2}
 
 $$
-
 
 
 where Z1 and Z2 are the individual impedances of the components. This formula can be extended to more than two components in parallel.
@@ -4715,13 +4626,11 @@ As you can see, the input signal is applied to the inverting input of the op-amp
 To analyze the behavior of this circuit, we can use the ideal characteristics of op-amps, such as infinite gain and zero output impedance. This allows us to simplify the circuit and use the following equations to calculate the output voltage:
 
 
-
 $$
 
 V_{out} = -\frac{R_f}{R_{in}}V_{in}
 
 $$
-
 
 
 Where $R_f$ is the feedback resistor and $R_{in}$ is the input resistor.
@@ -4751,13 +4660,11 @@ In this circuit, the input signal is applied to the non-inverting input of the o
 Using the same ideal characteristics of op-amps, we can simplify the circuit and use the following equations to calculate the output voltage:
 
 
-
 $$
 
 V_{out} = \left(1 + \frac{R_f}{R_{in}}\right)V_{in}
 
 $$
-
 
 
 Where $R_f$ is the feedback resistor and $R_{in}$ is the input resistor.
@@ -4979,7 +4886,6 @@ To design op-amp filters, we use the concept of negative feedback. By connecting
 The transfer function of a first order op-amp filter can be expressed as:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + sRC}
@@ -4987,9 +4893,7 @@ H(s) = \frac{1}{1 + sRC}
 $$
 
 
-
 Where $s$ is the complex frequency, $R$ is the feedback resistor, and $C$ is the reactive component (capacitor or inductor). The transfer function of a second order op-amp filter can be expressed as:
-
 
 
 $$
@@ -4997,7 +4901,6 @@ $$
 H(s) = \frac{1}{1 + sRC + s^2LC}
 
 $$
-
 
 
 Where $L$ is the second reactive component.
@@ -5773,21 +5676,17 @@ The behavior of a transmission line can be described by a set of equations known
 The telegrapher's equations are given by:
 
 
-
 $$
 
 \frac{\partial V}{\partial z} = -L \frac{\partial I}{\partial t} - RI
 
 $$
 
-
-
 $$
 
 \frac{\partial I}{\partial z} = -C \frac{\partial V}{\partial t} - GV
 
 $$
-
 
 
 where $V$ is the voltage, $I$ is the current, $L$ is the inductance per unit length, $C$ is the capacitance per unit length, $R$ is the resistance per unit length, and $G$ is the conductance per unit length.
@@ -6177,13 +6076,11 @@ As we conclude this chapter, it is important to remember that the fundamentals o
 Given the circuit shown below, determine the transfer function $H(s)$ and plot its frequency response. 
 
 
-
 $$
 
 \frac{V_{out}(s)}{V_{in}(s)} = \frac{R_2}{R_1 + R_2 + sL}
 
 $$
-
 
 
 #### Exercise 2
@@ -6203,13 +6100,11 @@ Explain the concept of negative feedback and its role in circuit stability. Give
 Given the circuit shown below, determine the transfer function $H(s)$ and plot its frequency response. 
 
 
-
 $$
 
 \frac{V_{out}(s)}{V_{in}(s)} = \frac{R_2}{R_1 + R_2 + \frac{1}{sC}}
 
 $$
-
 
 
 #### Exercise 5
@@ -6237,13 +6132,11 @@ As we conclude this chapter, it is important to remember that the fundamentals o
 Given the circuit shown below, determine the transfer function $H(s)$ and plot its frequency response. 
 
 
-
 $$
 
 \frac{V_{out}(s)}{V_{in}(s)} = \frac{R_2}{R_1 + R_2 + sL}
 
 $$
-
 
 
 #### Exercise 2
@@ -6263,13 +6156,11 @@ Explain the concept of negative feedback and its role in circuit stability. Give
 Given the circuit shown below, determine the transfer function $H(s)$ and plot its frequency response. 
 
 
-
 $$
 
 \frac{V_{out}(s)}{V_{in}(s)} = \frac{R_2}{R_1 + R_2 + \frac{1}{sC}}
 
 $$
-
 
 
 #### Exercise 5
@@ -6885,13 +6776,11 @@ Before we dive into the details of mesh analysis, let's briefly review the basic
 The relationship between voltage, current, and resistance is described by Ohm's law, which states that the voltage across a resistor is equal to the product of the current flowing through it and its resistance. This can be expressed mathematically as:
 
 
-
 $$
 
 V = IR
 
 $$
-
 
 
 Next, we have Kirchhoff's laws, which are fundamental principles that govern the behavior of circuits. Kirchhoff's voltage law (KVL) states that the sum of voltages around a closed loop in a circuit must equal zero. This law is based on the principle of conservation of energy and is essential for understanding the distribution of voltage in a circuit.
@@ -6943,7 +6832,6 @@ Let's take a closer look at how supermesh analysis works. Consider the circuit s
 To apply supermesh analysis, we first identify the meshes that share the current source. In this case, meshes 1 and 2 share the current source, so we will combine them to create a supermesh. Next, we apply KVL to the supermesh, taking into account the shared current source:
 
 
-
 $$
 
 V_1 + V_2 - 10I_1 = 0
@@ -6951,9 +6839,7 @@ V_1 + V_2 - 10I_1 = 0
 $$
 
 
-
 We can then apply KVL to the remaining mesh, which is now independent of the supermesh:
-
 
 
 $$
@@ -6961,7 +6847,6 @@ $$
 -10I_1 + 5I_2 + V_3 = 0
 
 $$
-
 
 
 We now have two equations and two unknown variables, allowing us to solve for the unknown currents $I_1$ and $I_2$. Once we have these values, we can use them to find the voltages in the circuit using Ohm's law.
@@ -7003,7 +6888,6 @@ To apply loop analysis, we first identify the loops in the circuit. In this case
 
 
 Loop 1:
-
 $$
 
 V_1 - V_2 - V_3 = 0
@@ -7011,9 +6895,7 @@ V_1 - V_2 - V_3 = 0
 $$
 
 
-
 Loop 2:
-
 $$
 
 V_2 + V_3 - 10I_1 = 0
@@ -7021,15 +6903,12 @@ V_2 + V_3 - 10I_1 = 0
 $$
 
 
-
 Loop 3:
-
 $$
 
 V_3 - 5I_2 = 0
 
 $$
-
 
 
 We now have three equations and three unknown variables, allowing us to solve for the unknown currents $I_1$ and $I_2$ and the unknown voltage $V_3$. Once we have these values, we can use them to find the voltages in the circuit using Ohm's law.
@@ -7079,7 +6958,6 @@ Let's take a closer look at how the superposition theorem works. Consider the ci
 To apply the superposition theorem, we first turn off one of the voltage sources and solve for the unknown current using nodal analysis. Let's turn off $V_1$ and solve for $I_x$:
 
 
-
 $$
 
 I_x = \frac{V_2}{R_1 + R_2}
@@ -7087,9 +6965,7 @@ I_x = \frac{V_2}{R_1 + R_2}
 $$
 
 
-
 Next, we turn off $V_2$ and solve for $I_x$ again:
-
 
 
 $$
@@ -7099,9 +6975,7 @@ I_x = \frac{V_1}{R_1 + R_2}
 $$
 
 
-
 Finally, we combine the two solutions to find the total current $I_x$:
-
 
 
 $$

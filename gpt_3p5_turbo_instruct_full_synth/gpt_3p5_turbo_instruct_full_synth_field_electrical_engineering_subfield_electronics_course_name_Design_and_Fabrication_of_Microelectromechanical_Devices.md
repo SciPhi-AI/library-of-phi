@@ -2875,9 +2875,7 @@ Mathematically, stress ($\sigma$) and strain ($\epsilon$) are related by the fol
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2925,9 +2923,7 @@ Mathematically, stress ($\sigma$) and strain ($\epsilon$) are related by the fol
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2987,9 +2983,7 @@ Mathematically, stress ($\sigma$) and strain ($\epsilon$) are related by the fol
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 

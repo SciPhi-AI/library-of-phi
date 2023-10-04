@@ -3483,7 +3483,6 @@ To fully understand Markov chains, we need to introduce the concept of a transit
 
 
 $$
-
 Q = \begin{pmatrix}
 
 -q_{11} & q_{12} & \cdots & q_{1n} \\
@@ -3495,7 +3494,6 @@ q_{21} & -q_{22} & \cdots & q_{2n} \\
 q_{n1} & q_{n2} & \cdots & -q_{nn}
 
 \end{pmatrix}
-
 $$
 
 
@@ -3509,9 +3507,7 @@ The transition matrix "Q" is used to calculate the probability of transitioning 
 
 
 $$
-
 P(t) = e^{Qt}
-
 $$
 
 
@@ -3621,9 +3617,7 @@ The Kolmogorov equations are given by:
 
 
 $$
-
 \frac{dP(t)}{dt} = P(t)Q
-
 $$
 
 
@@ -3765,9 +3759,7 @@ To understand the convergence of stochastic processes, we first need to define t
 
 
 $$
-
 \lim_{n \to \infty} \operatorname{E}[f(X_n)] = \operatorname{E}[f(X)]
-
 $$
 
 
@@ -3789,9 +3781,7 @@ Using this definition, we can prove the following theorem:
 
 
 $$
-
 \left|\operatorname{E}\left[f(Y_n)\right] - \operatorname{E}\left [f(X_n) \right] \right| \leq \operatorname{E} \left [\left |f(Y_n) - f(X_n) \right | \right ] = \operatorname{E}\left[ \left |f(Y_n) - f(X_n) \right |\mathbf{1}_{\left \{|Y_n-X_n|<\varepsilon \right \}} \right] + \operatorname{E}\left[ \left |f(Y_n) - f(X_n) \right |\mathbf{1}_{\left \{|Y_n-X_n|\geq\varepsilon \right \}} \right] \leq \operatorname{E}\left[K \left |Y_n - X_n \right |\mathbf{1}_{\left \{|Y_n-X_n|<\varepsilon \right \}}\right] + \operatorname{E}\left[2M\mathbf{1}_{\left \{|Y_n-X_n|\geq\varepsilon \right \}}\right] \leq K \varepsilon \operatorname{Pr} \left (\left |Y_n-X_n \right |<\varepsilon\right) + 2M \operatorname{Pr} \left( \left |Y_n-X_n \right |\geq\varepsilon\right ) \leq K \varepsilon + 2M \operatorname{Pr} \left (\left |Y_n-X_n \right |\geq\varepsilon \right )
-
 $$
 
 
@@ -3801,9 +3791,7 @@ $$
 
 
 $$
-
 \left |\operatorname{E}\left [f(Y_n)\right ] - \operatorname{E}\left [f(X) \right ]\right | \leq \left|\operatorname{E}\left[ f(Y_n) \right ]-\operatorname{E} \left [f(X_n) \right ] \right| + \left|\operatorname{E}\left [f(X_n) \right ]-\operatorname{E}\left [f(X) \right] \right |
-
 $$
 
 
@@ -3813,9 +3801,7 @@ If we take the limit in this expression as n → ∞, the second term on the rig
 
 
 $$
-
 \lim_{n \to \infty} \left |\operatorname{E}\left [f(Y_n)\right ] - \operatorname{E}\left [f(X) \right ]\right | \leq \lim_{n \to \infty} \left|\operatorname{E}\left[ f(Y_n) \right ]-\operatorname{E} \left [f(X_n) \right ] \right| = 0
-
 $$
 
 
@@ -3829,9 +3815,7 @@ Using this theorem, we can now prove the convergence of stochastic processes. Le
 
 
 $$
-
 \lim_{n \to \infty} \operatorname{E}[f(X_n(t))] = \operatorname{E}[f(X(t))]
-
 $$
 
 
@@ -3853,9 +3837,7 @@ Using this definition, we can prove the following theorem:
 
 
 $$
-
 \lim_{n \to \infty} \left |\operatorname{E}\left [f(Y_n(t))\right ] - \operatorname{E}\left [f(X(t)) \right ]\right | \leq \lim_{n \to \infty} \left|\operatorname{E}\left[ f(Y_n(t)) \right ]-\operatorname{E} \left [f(X_n(t)) \right ] \right| = 0
-
 $$
 
 
@@ -4583,9 +4565,7 @@ The HJB equation can be written in various forms depending on the specific probl
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x,u,\frac{\partial V}{\partial x}) = 0
-
 $$
 
 
@@ -4649,9 +4629,7 @@ The HJB equation is given by:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}\bigl(x(t), u(t), \frac{\partial V}{\partial x}(t)\bigr) = 0
-
 $$
 
 
@@ -4699,9 +4677,7 @@ The HJB equation is given by:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}\bigl(x(t), u(t), \frac{\partial V}{\partial x}(t)\bigr) = 0
-
 $$
 
 
@@ -4869,15 +4845,11 @@ The extended Kalman filter is an extension of the traditional Kalman filter, whi
 Most physical systems are represented as continuous-time models while discrete-time measurements are frequently taken for state estimation via a digital processor. Therefore, the system model and measurement model are given by
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 where $\mathbf{x}_k=\mathbf{x}(t_k)$.
@@ -5367,9 +5339,7 @@ A typical specification of the discrete-time stochastic linear quadratic control
 
 
 $$
-
 E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
-
 $$
 
 
@@ -5383,9 +5353,7 @@ In this case, the objective is to minimize the expected value of the sum of the 
 
 
 $$
-
 y_{t+1} = A_t y_t + B_t u_t
-
 $$
 
 
@@ -5635,9 +5603,7 @@ The calculus of variations is based on the concept of variations, which refers t
 
 
 $$
-
 \Delta J[h] = J[y+h] - J[y].
-
 $$
 
 
@@ -5647,9 +5613,7 @@ The first variation of a functional is defined as the linear part of the change 
 
 
 $$
-
 \Delta J[h] = \varphi [h] + \varepsilon \|h\|,
-
 $$
 
 
@@ -5663,9 +5627,7 @@ Similarly, a functional <math>J[y]</math> is said to be twice differentiable if 
 
 
 $$
-
 \Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,
-
 $$
 
 
@@ -5679,9 +5641,7 @@ The second variation <math>\delta^2 J[h]</math> is said to be strongly positive 
 
 
 $$
-
 \delta^2 J[h] > 0 \quad \forall h \neq 0.
-
 $$
 
 
@@ -5729,9 +5689,7 @@ The first variation of a functional is defined as the linear part of the change 
 
 
 $$
-
 \Delta J[h] = \varphi [h] + \varepsilon \|h\|,
-
 $$
 
 
@@ -5745,9 +5703,7 @@ Similarly, a functional <math>J[y]</math> is said to be twice differentiable if 
 
 
 $$
-
 \Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,
-
 $$
 
 
@@ -5795,9 +5751,7 @@ The first variation of a functional is defined as the linear part of the change 
 
 
 $$
-
 \Delta J[h] = \varphi [h] + \varepsilon \|h\|,
-
 $$
 
 
@@ -5811,9 +5765,7 @@ The calculus of variations is used to find the optimal function by setting the f
 
 
 $$
-
 \frac{\partial J}{\partial y} - \frac{d}{dx}\left(\frac{\partial J}{\partial y'}\right) = 0,
-
 $$
 
 
@@ -5885,9 +5837,7 @@ The first variation of a functional is defined as the linear part of the change 
 
 
 $$
-
 \Delta J[h] = \varphi [h] + \varepsilon \|h\|,
-
 $$
 
 
@@ -5901,9 +5851,7 @@ In optimal control theory, the goal is to find the optimal control policy <math>
 
 
 $$
-
 \frac{\partial V}{\partial t} + \min_{u} \biggl\{ \mathcal{L}(x(t), u(t)) + \frac{\partial V}{\partial x} f(x(t), u(t)) \biggr\} = 0,
-
 $$
 
 
@@ -5913,9 +5861,7 @@ where <math>V(x(t), t)</math> is the value function, <math>\mathcal{L}(x(t), u(t
 
 
 $$
-
 u^*(t) = \arg \min_{u} \biggl\{ \mathcal{L}(x(t), u(t)) + \frac{\partial V}{\partial x} f(x(t), u(t)) \biggr\}.
-
 $$
 
 
@@ -7489,17 +7435,13 @@ Finally, we explored the application of these mathematical tools in various econ
 Consider the following optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} f(x(t),t) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = g(x(t),t)
-
 $$
 
 where $x(t)$ is the state variable, $f(x(t),t)$ is the instantaneous payoff function, and $g(x(t),t)$ is the instantaneous rate of change of the state variable. Use the calculus of variations to find the optimal path for $x(t)$.
@@ -7523,9 +7465,7 @@ Consider a dynamic optimization problem with a discrete state variable $x_t$ and
 Solve the following dynamic programming problem:
 
 $$
-
 V(x) = \max_{u} \left\{ u + \beta V(x') \right\}
-
 $$
 
 subject to the constraint $x' = x + u$, where $x$ is the current state and $x'$ is the next period state.
@@ -7537,17 +7477,13 @@ subject to the constraint $x' = x + u$, where $x$ is the current state and $x'$ 
 Apply the dynamic programming method to solve the following resource extraction problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} e^{-\rho t} f(x(t)) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = r(t) - \delta x(t)
-
 $$
 
 where $x(t)$ is the stock of the resource, $f(x(t))$ is the instantaneous payoff function, $r(t)$ is the rate of resource renewal, and $\delta$ is the rate of resource depletion.
@@ -7615,17 +7551,13 @@ The continuous-time Extended Kalman filter is a generalization of the EKF for co
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -7643,17 +7575,13 @@ In many cases, we have a continuous-time model of the system, but we only have a
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -7705,17 +7633,13 @@ The continuous-time Extended Kalman filter is a generalization of the EKF for co
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -8327,7 +8251,6 @@ Let us consider a functional $J[y]$ with the function $y = y(x)$ as its argument
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The first variation of the functional $J[y]$ is defined as the linear part of the change in the functional, and is denoted by $\delta J[h] = \varphi[h].$ It is a linear functional that depends on the function $h(x).$ The first variation is used to determine the necessary conditions for a minimum or maximum of the functional.
 
 
@@ -8399,9 +8322,7 @@ The calculus of variations is concerned with finding the function that minimizes
 Let us consider a functional $J[y]$ with the function $y = y(x)$ as its argument. If there is a small change in the argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is given by:
 
 
-
 $$\Delta J[h] = J[y+h] - J[y].$$
-
 
 
 The first variation of the functional $J[y]$ is defined as the linear part of the change in the functional, and is denoted by $\delta J[h] = \varphi[h].$ It is a linear functional that depends on the function $h(x).$ The first variation is used to determine the necessary conditions for a minimum or maximum of the functional.
@@ -8419,9 +8340,7 @@ The second variation of the functional $J[y]$ is defined as the quadratic part o
 The main goal of the calculus of variations is to find the function $y(x)$ that minimizes or maximizes the functional $J[y].$ This can be formulated as a variational problem, where we seek to find the function $y(x)$ that satisfies the following condition:
 
 
-
 $$\delta J[h] = 0 \quad \text{for all } h(x) \text{ in the function space.}$$
-
 
 
 This condition is known as the Euler-Lagrange equation and is a necessary condition for a minimum or maximum of the functional $J[y].$ It can be derived by setting the first variation of the functional to zero and solving for $y(x).$ The resulting equation is a second-order differential equation that must be satisfied by the optimal function $y(x).$
@@ -8469,17 +8388,13 @@ Optimal control theory is a mathematical framework used to find the optimal cont
 Optimal control theory is concerned with finding the control inputs that minimize or maximize a given objective functional over time. The control inputs are typically denoted as <math>u(t)</math>, and the state of the system is represented by <math>x(t)</math>. The dynamics of the system are described by the differential equation <math>\dot{x}=f(x,u)</math>, where <math>f(x,u)</math> is the system's state transition function. The control inputs <math>u(t)</math> must be chosen for all <math>t \in [0,T]</math> to minimize the objective functional <math>J</math>, which is defined by the application and can be abstracted as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 where <math>\Psi(x(T))</math> is the terminal cost and <math>L(x(t),u(t))</math> is the instantaneous cost. The constraints on the system dynamics can be incorporated into the Lagrangian <math>L</math> by introducing a time-varying Lagrange multiplier vector <math>\lambda(t)</math>, whose elements are called the costates of the system. This motivates the construction of the Hamiltonian <math>H</math>, defined for all <math>t \in [0,T]</math> by:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math>.
@@ -8489,29 +8404,21 @@ where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math
 Pontryagin's maximum principle states that the optimal state trajectory <math>x^*(t)</math>, optimal control <math>u^*(t)</math>, and corresponding Lagrange multiplier vector <math>\lambda^*(t)</math> must minimize the Hamiltonian <math>H</math> so that:
 
 
-
 $$H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)$$
-
 
 
 for all time <math>t \in [0,T]</math> and for all permissible control inputs <math>u \in \mathcal{U}</math>. Additionally, the costate equation and its terminal conditions must be satisfied:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
 
-
-
 $$\lambda^{\rm T}(T)=\Psi_x(x(T))$$
-
 
 
 where <math>f_x(x^*(t),u^*(t))</math> and <math>L_x(x^*(t),u^*(t))</math> are the partial derivatives of <math>f</math> and <math>L</math> with respect to <math>x</math>, evaluated at the optimal state and control. If the final state <math>x(T)</math> is unconstrained, then the costate equation becomes:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
-
 
 
 and the terminal condition is dropped.
@@ -8547,17 +8454,13 @@ Optimal control theory is a mathematical framework used to find the optimal cont
 Optimal control theory is concerned with finding the control inputs that minimize or maximize a given objective functional over time. The control inputs are typically denoted as <math>u(t)</math>, and the state of the system is represented by <math>x(t)</math>. The dynamics of the system are described by the differential equation <math>\dot{x}=f(x,u)</math>, where <math>f(x,u)</math> is the system's state transition function. The control inputs <math>u(t)</math> must be chosen for all <math>t \in [0,T]</math> to minimize the objective functional <math>J</math>, which is defined by the application and can be abstracted as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 where <math>\Psi(x(T))</math> is the terminal cost and <math>L(x(t),u(t))</math> is the instantaneous cost. The constraints on the system dynamics can be incorporated into the Lagrangian <math>L</math> by introducing a time-varying Lagrange multiplier vector <math>\lambda(t)</math>, whose elements are called the costates of the system. This motivates the construction of the Hamiltonian <math>H</math>, defined for all <math>t \in [0,T]</math> by:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math>.
@@ -8567,9 +8470,7 @@ where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math
 Pontryagin's maximum principle states that the optimal state trajectory <math>x^*(t)</math>, optimal control <math>u^*(t)</math>, and corresponding costate vector <math>\lambda^*(t)</math> must minimize the Hamiltonian <math>H</math> such that:
 
 
-
 $$H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)$$
-
 
 
 for all time <math>t \in [0,T]</math> and for all permissible control inputs <math>u \in \mathcal{U}</math>. This principle provides necessary conditions for the optimal control problem and is a powerful tool for solving a wide range of optimization problems in economics.
@@ -8621,17 +8522,13 @@ Optimal control theory is a mathematical framework used to find the optimal cont
 Optimal control theory is concerned with finding the control inputs that minimize or maximize a given objective functional over time. The control inputs are typically denoted as <math>u(t)</math>, and the state of the system is represented by <math>x(t)</math>. The dynamics of the system are described by the differential equation <math>\dot{x}=f(x,u)</math>, where <math>f(x,u)</math> is the system's state transition function. The control inputs <math>u(t)</math> must be chosen for all <math>t \in [0,T]</math> to minimize the objective functional <math>J</math>, which is defined by the application and can be abstracted as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 where <math>\Psi(x(T))</math> is the terminal cost and <math>L(x(t),u(t))</math> is the instantaneous cost. The constraints on the system dynamics can be incorporated into the Lagrangian <math>L</math> by introducing a time-varying Lagrange multiplier vector <math>\lambda(t)</math>, whose elements are called the costates of the system. This motivates the construction of the Hamiltonian <math>H</math>, defined for all <math>t \in [0,T]</math> by:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math>.
@@ -8641,21 +8538,15 @@ where <math>\lambda^{\rm T}(t)</math> is the transpose of <math>\lambda(t)</math
 Pontryagin's maximum principle states that the optimal state trajectory <math>x^*(t)</math> and the optimal control input <math>u^*(t)</math> can be found by solving the following set of equations:
 
 
-
 $$\dot{x}^*(t)=f(x^*(t),u^*(t))$$
-
 $$\dot{\lambda}(t)=-\frac{\partial H}{\partial x}(x^*(t),u^*(t),\lambda(t),t)$$
-
 $$\frac{\partial H}{\partial u}(x^*(t),u^*(t),\lambda(t),t)=0$$
-
 
 
 These equations are known as the state equation, the costate equation, and the transversality condition, respectively. The optimal control input <math>u^*(t)</math> is then given by:
 
 
-
 $$u^*(t)=-\frac{\partial H}{\partial u}(x^*(t),u^*(t),\lambda(t),t)$$
-
 
 
 The Hamiltonian <math>H</math> can be interpreted as the instantaneous rate of change of the objective functional <math>J</math>. Therefore, the optimal control input <math>u^*(t)</math> is chosen to minimize the Hamiltonian, which in turn minimizes the objective functional.
@@ -8833,13 +8724,11 @@ In this chapter, we have explored the mathematical foundations of dynamic optimi
 #### Exercise 1
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t u(x_t)
 
 $$
-
 subject to the constraint $x_{t+1} = f(x_t)$, where $u(\cdot)$ is a utility function and $f(\cdot)$ is a production function. Use the method of undetermined coefficients to solve for the optimal decision rule $x^*(x_t)$.
 
 
@@ -8853,13 +8742,11 @@ Prove the principle of optimality for a discrete-time dynamic optimization probl
 #### Exercise 3
 
 Consider a dynamic optimization problem with a continuous-time horizon:
-
 $$
 
 \max_{x(t)} \int_{0}^{\infty} e^{-\rho t} u(x(t)) dt
 
 $$
-
 subject to the constraint $\dot{x}(t) = f(x(t))$, where $u(\cdot)$ is a utility function, $f(\cdot)$ is a production function, and $\rho$ is the discount rate. Use the Pontryagin's maximum principle to solve for the optimal control $x^*(t)$.
 
 
@@ -8867,13 +8754,11 @@ subject to the constraint $\dot{x}(t) = f(x(t))$, where $u(\cdot)$ is a utility 
 #### Exercise 4
 
 Suppose a firm has the following production function:
-
 $$
 
 f(K,L) = K^{\alpha} L^{1-\alpha}
 
 $$
-
 where $K$ is capital and $L$ is labor. Use the method of undetermined coefficients to solve for the optimal capital accumulation path for the firm.
 
 
@@ -8881,13 +8766,11 @@ where $K$ is capital and $L$ is labor. Use the method of undetermined coefficien
 #### Exercise 5
 
 Consider a dynamic optimization problem with a finite horizon:
-
 $$
 
 \max_{x_t} \sum_{t=0}^{T} \beta^t u(x_t)
 
 $$
-
 subject to the constraint $x_{t+1} = f(x_t)$, where $u(\cdot)$ is a utility function, $f(\cdot)$ is a production function, and $T$ is the time horizon. Use the Bellman equation to solve for the optimal decision rule $x^*(x_t)$ and the optimal value function $V(x_t)$.
 
 
@@ -10005,21 +9888,17 @@ In conclusion, the use of advanced mathematical tools for dynamic optimization i
 #### Exercise 1
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the calculus of variations to derive the Euler-Lagrange equation for this problem.
 
 
@@ -10027,21 +9906,17 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 2
 
 Consider the following optimal control problem:
-
 $$
 
 \max_{u_t} \int_{0}^{\infty} e^{-\rho t} f(x_t, u_t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}_t = g(x_t, u_t)
 
 $$
-
 where $x_t$ is the state variable, $u_t$ is the control variable, $f(x_t, u_t)$ is the instantaneous utility function, $g(x_t, u_t)$ is the instantaneous dynamics, and $\rho$ is the discount rate. Use Pontryagin's maximum principle to derive the necessary conditions for optimality.
 
 
@@ -10049,21 +9924,17 @@ where $x_t$ is the state variable, $u_t$ is the control variable, $f(x_t, u_t)$ 
 #### Exercise 3
 
 Consider a dynamic optimization problem with discrete time:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use dynamic programming to derive the Bellman equation for this problem.
 
 
@@ -10071,21 +9942,17 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 4
 
 Consider a dynamic optimization problem with discrete time and a finite time horizon:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{T} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use dynamic programming to derive the value function and the optimal policy function for this problem.
 
 
@@ -10093,21 +9960,17 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 5
 
 Consider a dynamic optimization problem with continuous time and a finite time horizon:
-
 $$
 
 \max_{u_t} \int_{0}^{T} e^{-\rho t} f(x_t, u_t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}_t = g(x_t, u_t)
 
 $$
-
 where $x_t$ is the state variable, $u_t$ is the control variable, $f(x_t, u_t)$ is the instantaneous utility function, $g(x_t, u_t)$ is the instantaneous dynamics, and $\rho$ is the discount rate. Use the Hamiltonian function and the maximum principle to derive the necessary conditions for optimality.
 
 
@@ -10769,29 +10632,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly convex if $\varphi_2[h] > 0$ for all non-zero $h.$ This condition is important in determining whether a functional has a minimum or not. If the second variation is strongly convex, then the functional has a unique minimum.
@@ -10825,29 +10678,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly convex if $\varphi_2[h] > 0$ for all non-zero $h.$ This condition is important because it guarantees that the functional has a unique minimum. In other words, if the second variation is strongly convex, then the functional has only one minimum value and no other local minima.
@@ -10937,29 +10780,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly convex if $\varphi_2[h] > 0$ for all non-zero $h.$ This condition is important in dynamic optimization as it ensures that the functional has a unique minimum. In other words, the optimal path or trajectory of the system can be found by minimizing the functional using the calculus of variations.
@@ -10975,15 +10808,11 @@ The Euler-Lagrange equation is a fundamental equation in the calculus of variati
 
 
 The Euler-Lagrange equation is derived by setting the first variation of the functional to zero. This means that the linear functional $\varphi[h]$ is equal to zero for all possible variations $h.$ This leads to the following equation:
-
 $$\delta J[h] = \varphi[h] = 0.$$
 
 
-
 Using the definition of the first variation, we can rewrite this equation as:
-
 $$\int_a^b \left(\frac{\partial F}{\partial y} - \frac{d}{dx}\frac{\partial F}{\partial y'}\right)h(x)dx = 0,$$
-
 where $F(y,y')$ is the integrand of the functional $J[y].$
 
 
@@ -11031,37 +10860,27 @@ Optimal control theory is concerned with finding the optimal control inputs for 
 
 
 The optimal control problem can be formulated as follows: given a dynamic system described by the state equation
-
 $$\dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{x}(t)$ is the state vector and $\mathbf{u}(t)$ is the control vector, and a cost function
-
 $$J = \int_{t_0}^{t_f} L\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) dt,$$
-
 where $L$ is the instantaneous cost function, find the optimal control inputs $\mathbf{u}^*(t)$ that minimize the cost function subject to the system dynamics and constraints.
 
 
 
 The optimal control problem can be solved using the Pontryagin's maximum principle, which states that the optimal control inputs can be found by solving the Hamiltonian system
-
 $$\dot{\mathbf{x}}(t) = \frac{\partial H}{\partial \mathbf{p}}, \quad \dot{\mathbf{p}}(t) = -\frac{\partial H}{\partial \mathbf{x}}, \quad \mathbf{p}(t_f) = \frac{\partial \phi}{\partial \mathbf{x}}(t_f),$$
-
 where $H$ is the Hamiltonian function and $\phi$ is the costate vector.
 
 
 
 The Hamiltonian function is defined as
-
 $$H = L + \mathbf{p}^T f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{p}$ is the costate vector.
 
 
 
 The optimal control inputs can then be obtained by solving the Hamiltonian system and using the optimal control law
-
 $$\mathbf{u}^*(t) = \arg \min_{\mathbf{u}} H.$$
-
 
 
 Optimal control theory has a wide range of applications in economics, such as in optimal resource allocation, optimal taxation, and optimal investment decisions. It allows economists to model and optimize the behavior of economic systems over time, taking into account various constraints and objectives. 
@@ -11087,37 +10906,27 @@ Optimal control theory is concerned with finding the optimal control inputs for 
 
 
 The optimal control problem can be formulated as follows: given a dynamic system described by the state equation
-
 $$\dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{x}(t)$ is the state vector and $\mathbf{u}(t)$ is the control vector, and a cost function
-
 $$J = \int_{t_0}^{t_f} L\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) dt,$$
-
 where $L$ is the instantaneous cost function, find the optimal control inputs $\mathbf{u}^*(t)$ that minimize the cost function subject to the system dynamics and constraints.
 
 
 
 The optimal control problem can be solved using the Pontryagin's maximum principle, which states that the optimal control inputs can be found by solving the Hamiltonian system
-
 $$\dot{\mathbf{x}}(t) = \frac{\partial H}{\partial \mathbf{p}}, \quad \dot{\mathbf{p}}(t) = -\frac{\partial H}{\partial \mathbf{x}}, \quad \mathbf{p}(t_f) = \frac{\partial \phi}{\partial \mathbf{x}}(t_f),$$
-
 where $H$ is the Hamiltonian function and $\phi$ is the costate vector.
 
 
 
 The Hamiltonian function is defined as
-
 $$H = L + \mathbf{p}^T f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{p}$ is the costate vector.
 
 
 
 The optimal control inputs can then be obtained by solving the Hamiltonian system and using the optimal control law
-
 $$\mathbf{u}^*(t) = \arg\min_{\mathbf{u}} H\bigl(\mathbf{x}(t), \mathbf{u}(t), \mathbf{p}(t)\bigr).$$
-
 
 
 Optimal control theory has a wide range of applications in economics, including optimal resource allocation, optimal taxation, and optimal investment strategies. It allows us to optimize the behavior of a system over time, taking into account constraints and objectives. In the next section, we will explore some specific applications of optimal control theory in economics.
@@ -11143,37 +10952,27 @@ Optimal control theory is concerned with finding the optimal control inputs for 
 
 
 The optimal control problem can be formulated as follows: given a dynamic system described by the state equation
-
 $$\dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{x}(t)$ is the state vector and $\mathbf{u}(t)$ is the control vector, and a cost function
-
 $$J = \int_{t_0}^{t_f} L\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) dt,$$
-
 where $L$ is the instantaneous cost function, find the optimal control inputs $\mathbf{u}^*(t)$ that minimize the cost function subject to the system dynamics and constraints.
 
 
 
 The optimal control problem can be solved using the Pontryagin's maximum principle, which states that the optimal control inputs can be found by solving the Hamiltonian system
-
 $$\dot{\mathbf{x}}(t) = \frac{\partial H}{\partial \mathbf{p}}, \quad \dot{\mathbf{p}}(t) = -\frac{\partial H}{\partial \mathbf{x}}, \quad \mathbf{p}(t_f) = \frac{\partial \phi}{\partial \mathbf{x}}(t_f),$$
-
 where $H$ is the Hamiltonian function and $\phi$ is the costate vector.
 
 
 
 The Hamiltonian function is defined as
-
 $$H = L + \mathbf{p}^T f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr),$$
-
 where $\mathbf{p}$ is the costate vector.
 
 
 
 The optimal control inputs can then be obtained by solving the Hamiltonian system and using the optimal control law
-
 $$\mathbf{u}^*(t) = \arg\min_{\mathbf{u}} H.$$
-
 
 
 However, solving the Hamiltonian system can be challenging due to the complexity of the equations involved. In this section, we will discuss some of the challenges in optimal control theory and how they can be addressed.
@@ -11379,13 +11178,11 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \max_{x,y} f(x,y) = x^2 + y^2
 
 $$
-
 subject to the constraint $x + y = 10$. Use the method of Lagrange multipliers to find the optimal values of $x$ and $y$.
 
 
@@ -11393,7 +11190,6 @@ subject to the constraint $x + y = 10$. Use the method of Lagrange multipliers t
 #### Exercise 2
 
 Solve the following differential equation using the method of separation of variables:
-
 $$
 
 \frac{dy}{dx} = 2x + 3y
@@ -11401,17 +11197,14 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider the following optimal control problem:
-
 $$
 
 \max_{u(t)} \int_{0}^{T} e^{-rt}u(t)dt
 
 $$
-
 subject to the constraint $\dot{x}(t) = u(t)$ and $x(0) = 0$. Use the Pontryagin's maximum principle to find the optimal control $u^*(t)$.
 
 
@@ -11991,21 +11784,17 @@ The continuous-time extended Kalman filter is used to estimate the state of a dy
 The model for the continuous-time extended Kalman filter is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state of the system at time $t$, $\mathbf{u}(t)$ is the control input, $\mathbf{w}(t)$ and $\mathbf{v}(t)$ are the process and measurement noise, respectively, and $\mathbf{Q}(t)$ and $\mathbf{R}(t)$ are the covariance matrices for the process and measurement noise.
@@ -12509,13 +12298,11 @@ Overall, this chapter has provided a comprehensive guide to advanced mathematica
 #### Exercise 1
 
 Consider a simple optimal control problem with the following dynamics:
-
 $$
 
 \dot{x} = x + u
 
 $$
-
 where $x$ is the state variable and $u$ is the control variable. Using the Pontryagin maximum principle, derive the necessary conditions for optimality.
 
 
@@ -12529,13 +12316,11 @@ In the context of dynamic programming, explain the concept of the value function
 #### Exercise 3
 
 Consider a dynamic optimization problem with the following objective function:
-
 $$
 
 J = \int_{0}^{T} e^{-\rho t}f(x(t), u(t)) dt
 
 $$
-
 where $\rho$ is the discount rate, $x(t)$ is the state variable, and $u(t)$ is the control variable. Using the Hamilton-Jacobi-Bellman equation, derive the optimal control policy.
 
 
@@ -12549,13 +12334,11 @@ Explain the concept of the curse of dimensionality and its implications for solv
 #### Exercise 5
 
 Consider a simple optimal growth model with the following production function:
-
 $$
 
 Y = K^{\alpha}L^{1-\alpha}
 
 $$
-
 where $Y$ is output, $K$ is capital, and $L$ is labor. Using the calculus of variations, derive the optimal capital accumulation path.
 
 
@@ -13035,7 +12818,6 @@ In the discrete-time case with uncertainty about the parameter values in the tra
 A typical specification of the discrete-time stochastic linear quadratic control problem is to minimize
 
 
-
 $$
 
 E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
@@ -13043,9 +12825,7 @@ E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
 $$
 
 
-
 where $E_1$ is the expected value operator conditional on $y_0$, superscript $T$ indicates a matrix transpose, and $S$ is the time horizon, subject to the state equation
-
 
 
 $$
@@ -13053,7 +12833,6 @@ $$
 y_{t+1} = A_t y_t + B_t u_t
 
 $$
-
 
 
 where $y$ is an $n \times 1$ vector of observable state variables, $u$ is a $k \times 1$ vector of control variables, $A_t$ is the time $t$ realization of the stochastic $n \times n$ state transition matrix, $B_t$ is the time $t$ realization of the stochastic $n \times k$ matrix of control multipliers, and $Q$ ($n \times n$) and $R$ ($k \times k$) are known symmetric positive definite matrices.
@@ -13373,13 +13152,11 @@ The principle of optimality was first introduced by Richard Bellman in the 1950s
 The principle of optimality is often expressed in the form of the Bellman equation, named after Richard Bellman. The Bellman equation is a recursive equation that decomposes the optimal policy for a dynamic system into optimal policies for its subproblems. It is given by:
 
 
-
 $$
 
 V^*(x) = \max_{u \in \mathcal{U}} \left\{ L(x,u) + \beta \int_{x'} V^*(x') f(x,u) dx' \right\}
 
 $$
-
 
 
 where $V^*(x)$ is the optimal value function, $L(x,u)$ is the instantaneous cost function, $\beta$ is the discount factor, and $f(x,u)$ is the transition function that describes the evolution of the system over time.
@@ -13677,13 +13454,11 @@ The value function is a convex function, which means that it is always above its
 Moreover, the convexity of the value function also allows us to establish lower bounds on the optimal solution. These lower bounds are important in practice as they can be used as a stopping criterion and provide a measure of the approximation quality in each iteration. The lower bound, denoted as <math>l_k</math>, is given by:
 
 
-
 $$
 
 l_k = f(\mathbf{x}) - \mathbf{x}^T \nabla f(\mathbf{x}) + \min_{\mathbf{y} \in D} \mathbf{y}^T \nabla f(\mathbf{x})
 
 $$
-
 
 
 where <math>f(\mathbf{x})</math> is the linear approximation of the value function at the current iteration and <math>\mathbf{x}</math> is the current decision. The minimization problem in the above equation is solved in each iteration of the Frank-Wolfe algorithm, and the solution <math>\mathbf{s}_k</math> is used to determine the lower bound <math>l_k</math>.
@@ -13727,13 +13502,11 @@ The value function is a convex function, which means that it is always above its
 Moreover, the convexity of the value function also allows us to establish lower bounds on the optimal solution. These lower bounds are important in practice as they can be used as a stopping criterion and provide a measure of the approximation quality in each iteration. The lower bound, denoted as <math>l_k</math>, is given by:
 
 
-
 $$
 
 l_k = f(\mathbf{x}) - \mathbf{x}^T \nabla f(\mathbf{x}) + \min_{\mathbf{y} \in D} \mathbf{y}^T \nabla f(\mathbf{x})
 
 $$
-
 
 
 where <math>f(\mathbf{x})</math> is the linear approximation of the value function at the current iteration and <math>\mathbf{x}</math> is the current decision. The minimization problem in the above equation is solved in each iteration of the Frank-Wolfe algorithm, and the solution <math>\mathbf{s}_k</math> is used to determine the lower bound <math>l_k</math>.
@@ -13793,13 +13566,11 @@ The value function is a convex function, which means that it is always above its
 Moreover, the convexity of the value function also allows us to establish lower bounds on the optimal solution. These lower bounds are important in practice as they can be used as a stopping criterion and provide a measure of the approximation quality in each iteration. The lower bound, denoted as $l_k$, is given by:
 
 
-
 $$
 
 l_k = f(\mathbf{x}) - \mathbf{x}^T \nabla f(\mathbf{x}) + \min_{\mathbf{y} \in D} \mathbf{y}^T \nabla f(\mathbf{x})
 
 $$
-
 
 
 where $f(\mathbf{x})$ is the linear approximation of the value function at the current iteration and $\mathbf{x}$ is the current decision. The minimization problem in the above equation is solved in each iteration of the Frank-Wolfe algorithm, providing a lower bound on the optimal solution.
@@ -14525,17 +14296,14 @@ Overall, this chapter has provided a comprehensive overview of deterministic glo
 #### Exercise 1
 
 Consider the following system of differential equations:
-
 $$
 
 \frac{dx}{dt} = x(1-x) - y
 
 $$
-
 $$
 
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Plot the phase diagram for this system and identify the equilibrium points.
@@ -14563,15 +14331,11 @@ c) Discuss the global and local dynamics of this economic model.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x) - y
-
 $$
 
 $$
-
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Use linearization to determine the stability of the equilibrium points.
@@ -14599,15 +14363,11 @@ c) Suggest ways to optimize the production and pricing of this good based on the
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x) - y
-
 $$
 
 $$
-
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Use numerical methods to simulate the behavior of this system.
@@ -14645,15 +14405,11 @@ Overall, this chapter has provided a comprehensive overview of deterministic glo
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x) - y
-
 $$
 
 $$
-
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Plot the phase diagram for this system and identify the equilibrium points.
@@ -14681,15 +14437,11 @@ c) Discuss the global and local dynamics of this economic model.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x) - y
-
 $$
 
 $$
-
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Use linearization to determine the stability of the equilibrium points.
@@ -14717,15 +14469,11 @@ c) Suggest ways to optimize the production and pricing of this good based on the
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x) - y
-
 $$
 
 $$
-
 \frac{dy}{dt} = 0.5y(1-y) - 0.5x
-
 $$
 
 a) Use numerical methods to simulate the behavior of this system.
@@ -16505,17 +16253,13 @@ In conclusion, continuous-time dynamic programming is a valuable tool for econom
 Consider the following optimal control problem:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}F(x(t),u(t))dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = g(x(t),u(t))
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to derive the necessary conditions for optimality.
@@ -16527,23 +16271,17 @@ with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to d
 Solve the following optimal growth model using the Hamiltonian approach:
 
 $$
-
 \max_{c(t),k(t)} \int_{0}^{\infty} e^{-\rho t}u(c(t))dt
-
 $$
 
 subject to the differential equations:
 
 $$
-
 \dot{k}(t) = f(k(t)) - c(t)
-
 $$
 
 $$
-
 \dot{c}(t) = \frac{c(t)^{-\gamma}}{\gamma} - \delta c(t)
-
 $$
 
 with initial conditions $k(0) = k_0$ and $c(0) = c_0$.
@@ -16555,17 +16293,13 @@ with initial conditions $k(0) = k_0$ and $c(0) = c_0$.
 Consider a simple optimal control problem with the following objective function:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}u(t)dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Hamiltonian approach to derive the necessary conditions for optimality.
@@ -16577,17 +16311,13 @@ with initial condition $x(0) = x_0$. Use the Hamiltonian approach to derive the 
 Solve the following optimal control problem using the Pontryagin's maximum principle:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}F(x(t),u(t))dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with initial condition $x(0) = x_0$.
@@ -16599,17 +16329,13 @@ with initial condition $x(0) = x_0$.
 Consider a simple optimal control problem with the following objective function:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}u(t)dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with final condition $x(T) = x_T$. Use the Hamiltonian approach to derive the necessary conditions for optimality.
@@ -16639,17 +16365,13 @@ In conclusion, continuous-time dynamic programming is a valuable tool for econom
 Consider the following optimal control problem:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}F(x(t),u(t))dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = g(x(t),u(t))
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to derive the necessary conditions for optimality.
@@ -16661,23 +16383,17 @@ with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to d
 Solve the following optimal growth model using the Hamiltonian approach:
 
 $$
-
 \max_{c(t),k(t)} \int_{0}^{\infty} e^{-\rho t}u(c(t))dt
-
 $$
 
 subject to the differential equations:
 
 $$
-
 \dot{k}(t) = f(k(t)) - c(t)
-
 $$
 
 $$
-
 \dot{c}(t) = \frac{c(t)^{-\gamma}}{\gamma} - \delta c(t)
-
 $$
 
 with initial conditions $k(0) = k_0$ and $c(0) = c_0$.
@@ -16689,17 +16405,13 @@ with initial conditions $k(0) = k_0$ and $c(0) = c_0$.
 Consider a simple optimal control problem with the following objective function:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}u(t)dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Hamiltonian approach to derive the necessary conditions for optimality.
@@ -16711,17 +16423,13 @@ with initial condition $x(0) = x_0$. Use the Hamiltonian approach to derive the 
 Solve the following optimal control problem using the Pontryagin's maximum principle:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}F(x(t),u(t))dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with initial condition $x(0) = x_0$.
@@ -16733,17 +16441,13 @@ with initial condition $x(0) = x_0$.
 Consider a simple optimal control problem with the following objective function:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-\rho t}u(t)dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = x(t) + u(t)
-
 $$
 
 with final condition $x(T) = x_T$. Use the Hamiltonian approach to derive the necessary conditions for optimality.
@@ -17215,9 +16919,7 @@ To illustrate the application of stochastic control and optimization, let's cons
 
 
 $$
-
 E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
-
 $$
 
 
@@ -17231,9 +16933,7 @@ The state equation for this problem is given by:
 
 
 $$
-
 y_{t+1} = A_t y_t + B_t u_t
-
 $$
 
 
@@ -17479,25 +17179,16 @@ For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argum
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly concave if $\varphi_2[h]$ is negative definite, meaning that for any non-zero function $h,$ $\varphi_2[h] < 0.$ This condition is important in determining whether a given functional has a minimum or maximum value.
@@ -17925,23 +17616,18 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 #### Exercise 1
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Show that the Bellman equation for this problem is given by:
-
 $$
 
 V(k_t) = \max_{c_t} \left\{ u(c_t) + \beta V(k_{t+1}) \right\}
@@ -17949,25 +17635,20 @@ V(k_t) = \max_{c_t} \left\{ u(c_t) + \beta V(k_{t+1}) \right\}
 $$
 
 
-
 #### Exercise 2
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the maximum principle to derive the optimal control law for this problem.
 
 
@@ -17975,21 +17656,17 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 3
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Show that the optimal control law derived in Exercise 2 is equivalent to the solution obtained using dynamic programming.
 
 
@@ -17997,23 +17674,18 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 4
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Suppose the production function is given by $f(k_t) = k_t^\alpha$, where $\alpha > 0$. Show that the optimal control law is given by:
-
 $$
 
 c_t = (1-\alpha\beta)k_t
@@ -18021,33 +17693,26 @@ c_t = (1-\alpha\beta)k_t
 $$
 
 
-
 #### Exercise 5
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Suppose the utility function is given by $u(c_t) = \ln(c_t)$. Show that the optimal control law is given by:
-
 $$
 
 c_t = \frac{1}{1-\beta} \left( \frac{\alpha}{1-\alpha\beta} \right)^{\frac{1}{1-\alpha}}
 
 $$
-
 
 
 
@@ -18067,23 +17732,18 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 #### Exercise 1
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Show that the Bellman equation for this problem is given by:
-
 $$
 
 V(k_t) = \max_{c_t} \left\{ u(c_t) + \beta V(k_{t+1}) \right\}
@@ -18091,25 +17751,20 @@ V(k_t) = \max_{c_t} \left\{ u(c_t) + \beta V(k_{t+1}) \right\}
 $$
 
 
-
 #### Exercise 2
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the maximum principle to derive the optimal control law for this problem.
 
 
@@ -18117,21 +17772,17 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 3
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Show that the optimal control law derived in Exercise 2 is equivalent to the solution obtained using dynamic programming.
 
 
@@ -18139,23 +17790,18 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 #### Exercise 4
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Suppose the production function is given by $f(k_t) = k_t^\alpha$, where $\alpha > 0$. Show that the optimal control law is given by:
-
 $$
 
 c_t = (1-\alpha\beta)k_t
@@ -18163,33 +17809,26 @@ c_t = (1-\alpha\beta)k_t
 $$
 
 
-
 #### Exercise 5
 
 Consider the following dynamic optimization problem:
-
 $$
 
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
 
 $$
-
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Suppose the utility function is given by $u(c_t) = \ln(c_t)$. Show that the optimal control law is given by:
-
 $$
 
 c_t = \frac{1}{1-\beta} \left( \frac{\alpha}{1-\alpha\beta} \right)^{\frac{1}{1-\alpha}}
 
 $$
-
 
 
 
@@ -18867,13 +18506,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f$ is a function that describes the dynamics of the system. Solving a differential equation involves finding the function $f$ that satisfies the equation and determining the values of $\mathbf{x}$ and $\mathbf{u}$ that lead to a desired outcome.
@@ -18895,13 +18532,11 @@ In many real-world economic problems, we do not have continuous measurements of 
 The discrete-time version of a differential equation can be written as:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = f(\mathbf{x}_k, \mathbf{u}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the state of the system at time $k$ and $\mathbf{u}_k$ is the control variable at time $k$. This equation describes how the state of the system changes from one time period to the next.
@@ -18953,13 +18588,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the relationship between the state and control variables. Solving this differential equation allows us to determine the behavior of the system over time.
@@ -19039,13 +18672,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the dynamics of the system. Solving this differential equation allows us to determine the behavior of the system over time.
@@ -19125,13 +18756,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f$ is a function that describes the relationship between the state and control variables. Solving a differential equation involves finding the function $f$ that satisfies the given equation and initial conditions.
@@ -19231,13 +18860,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f$ is a function that describes the relationship between the two. Solving this differential equation allows us to understand how the state of the system changes over time, given a certain control variable.
@@ -19247,13 +18874,11 @@ where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control varia
 In economics, we often use differential equations to model the behavior of economic variables such as consumption, investment, and output. For example, the Keynesian consumption function can be written as a differential equation:
 
 
-
 $$
 
 \frac{dC}{dt} = c_0 + c_1Y
 
 $$
-
 
 
 where $C$ is consumption, $Y$ is income, and $c_0$ and $c_1$ are parameters that determine the relationship between consumption and income. This differential equation shows how consumption changes over time as income changes.
@@ -19349,13 +18974,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the relationship between the state and control variables. Solving this differential equation allows us to determine the behavior of the system over time.
@@ -19471,13 +19094,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the dynamics of the system. Solving this differential equation allows us to determine the optimal control variable $\mathbf{u}$ that maximizes the objective function.
@@ -19533,13 +19154,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the relationship between the state and control variables. Solving this differential equation allows us to determine the optimal control variable that maximizes the objective function.
@@ -19565,7 +19184,6 @@ Convex optimization is a powerful mathematical tool that is used to solve a wide
 A convex optimization problem can be written as:
 
 
-
 $$
 
 \begin{align*}
@@ -19579,7 +19197,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $f(\mathbf{x})$ is the objective function, $g_i(\mathbf{x})$ are the inequality constraints, and $h_j(\mathbf{x})$ are the equality constraints. The key property of convex optimization is that the objective function and constraints are all convex functions, which allows for efficient and reliable solutions.
@@ -19663,13 +19280,11 @@ A differential equation is an equation that relates the rate of change of a vari
 In general, a differential equation can be written as:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = f(\mathbf{x}, \mathbf{u})
 
 $$
-
 
 
 where $\mathbf{x}$ is the state of the system, $\mathbf{u}$ is the control variable, and $f(\mathbf{x}, \mathbf{u})$ is a function that describes the dynamics of the system. Solving a differential equation involves finding the function $f(\mathbf{x}, \mathbf{u})$ that satisfies the given equation and initial conditions.
@@ -19829,21 +19444,17 @@ In conclusion, the advanced mathematical tools discussed in this chapter are ess
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and $g(x(t), t)$ is the constraint function. Use the calculus of variations to find the optimal path for $x(t)$.
 
 
@@ -19851,21 +19462,17 @@ where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and 
 #### Exercise 2
 
 Find the optimal control path for the following problem using Pontryagin's maximum principle:
-
 $$
 
 \max_{u(t)} \int_{0}^{T} e^{-rt}u(t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = ax(t) + bu(t)
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $a$ and $b$ are constants.
 
 
@@ -19873,13 +19480,11 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the d
 #### Exercise 3
 
 Consider the following dynamic programming problem:
-
 $$
 
 V(x) = \max_{u} \left\{ f(x, u) + \beta V(g(x, u)) \right\}
 
 $$
-
 where $x$ is the state variable, $u$ is the control variable, $f(x, u)$ is the immediate payoff function, $g(x, u)$ is the transition function, and $\beta$ is the discount factor. Use the Bellman equation to find the optimal value function $V(x)$.
 
 
@@ -19925,21 +19530,17 @@ In conclusion, the advanced mathematical tools discussed in this chapter are ess
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and $g(x(t), t)$ is the constraint function. Use the calculus of variations to find the optimal path for $x(t)$.
 
 
@@ -19947,21 +19548,17 @@ where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and 
 #### Exercise 2
 
 Find the optimal control path for the following problem using Pontryagin's maximum principle:
-
 $$
 
 \max_{u(t)} \int_{0}^{T} e^{-rt}u(t) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = ax(t) + bu(t)
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $a$ and $b$ are constants.
 
 
@@ -19969,13 +19566,11 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the d
 #### Exercise 3
 
 Consider the following dynamic programming problem:
-
 $$
 
 V(x) = \max_{u} \left\{ f(x, u) + \beta V(g(x, u)) \right\}
 
 $$
-
 where $x$ is the state variable, $u$ is the control variable, $f(x, u)$ is the immediate payoff function, $g(x, u)$ is the transition function, and $\beta$ is the discount factor. Use the Bellman equation to find the optimal value function $V(x)$.
 
 
@@ -20063,21 +19658,17 @@ The EKF has various applications in economics, such as in state estimation for e
 The continuous-time extended Kalman filter is a generalization of the EKF for continuous-time systems. It is used to estimate the state of a nonlinear system based on continuous-time measurements. The model for the continuous-time EKF is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 The continuous-time EKF follows a similar predict-update framework as the discrete-time EKF. The state estimate is updated based on the current measurement, and the state covariance is updated using the system's dynamics and measurement noise. However, unlike the discrete-time EKF, the prediction and update steps are coupled in the continuous-time EKF.
@@ -20091,21 +19682,17 @@ The continuous-time EKF follows a similar predict-update framework as the discre
 In many economic applications, the system's dynamics are continuous-time, but the measurements are taken at discrete intervals. In such cases, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k = \mathbf{x}(t_k)$ and $t_k$ is the time at which the $k$th measurement is taken.
@@ -20157,21 +19744,17 @@ The EKF has various applications in economics, such as in state estimation for e
 The continuous-time extended Kalman filter is a generalization of the EKF for continuous-time systems. It is used to estimate the state of a nonlinear system based on continuous-time measurements. The model for the continuous-time EKF is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{w}(t)$ is the process noise, and $\mathbf{z}(t)$ is the measurement vector. The process noise and measurement noise are assumed to be normally distributed with zero mean and covariance matrices $\mathbf{Q}(t)$ and $\mathbf{R}(t)$, respectively.
@@ -20181,21 +19764,17 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 The continuous-time EKF has two main steps: the predict step and the update step. In the predict step, the state and covariance of the system are predicted using the system dynamics and the current estimate of the state. The equations for the predict step are:
 
 
-
 $$
 
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
 
 $$
-
 
 
 where $\hat{\mathbf{x}}(t)$ is the predicted state, $\mathbf{P}(t)$ is the predicted covariance, $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the Jacobian matrix of the system dynamics, and $\mathbf{H}(t)$ is the Jacobian matrix of the measurement function.
@@ -20205,14 +19784,11 @@ where $\hat{\mathbf{x}}(t)$ is the predicted state, $\mathbf{P}(t)$ is the predi
 In the update step, the predicted state and covariance are corrected using the actual measurement. The equations for the update step are:
 
 
-
 $$
 
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
 
 $$
-
-
 
 $$
 
@@ -20220,14 +19796,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
 
 $$
-
 
 
 where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the Jacobian matrix of the system dynamics, and $\mathbf{H}(t)$ is the Jacobian matrix of the measurement function.
@@ -20245,21 +19818,17 @@ Unlike the discrete-time extended Kalman filter, the prediction and update steps
 Most physical systems are represented as continuous-time models while discrete-time measurements are frequently taken for state estimation via a digital processor. Therefore, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k=\mathbf{x}(t_k)$ and $t_k$ is the time at which the $k$th measurement is taken.
@@ -20269,14 +19838,11 @@ where $\mathbf{x}_k=\mathbf{x}(t_k)$ and $t_k$ is the time at which the $k$th me
 The discrete-time extended Kalman filter is similar to the continuous-time extended Kalman filter, but the system dynamics and measurement function are evaluated at discrete time steps. The equations for the discrete-time EKF are:
 
 
-
 $$
 
 \hat{\mathbf{x}}_{k+1|k} = f\bigl(\hat{\mathbf{x}}_{k|k},\mathbf{u}_k\bigr)
 
 $$
-
-
 
 $$
 
@@ -20284,15 +19850,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{K}_k = \mathbf{P}_{k|k}\mathbf{H}_k^{T}\bigl(\mathbf{H}_k\mathbf{P}_{k|k}\mathbf{H}_k^{T}+\mathbf{R}_k\bigr)^{-1}
 
 $$
-
-
 
 $$
 
@@ -20300,14 +19862,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{P}_{k+1|k+1} = \bigl(\mathbf{I}-\mathbf{K}_k\mathbf{H}_k\bigr)\mathbf{P}_{k+1|k}
 
 $$
-
 
 
 where $\hat{\mathbf{x}}_{k|k}$ is the predicted state at time $t_k$, $\mathbf{P}_{k|k}$ is the predicted covariance at time $t_k$, $\mathbf{F}_k$ is the Jacobian matrix of the system dynamics at time $t_k$, $\mathbf{H}_k$ is the Jacobian matrix of the measurement function at time $t_k$, and $\mathbf{K}_k$ is the Kalman gain at time $t_k$.
@@ -20355,21 +19914,17 @@ The EKF has various applications in economics, such as in state estimation for e
 The continuous-time extended Kalman filter is a generalization of the EKF for continuous-time systems. It is used to estimate the state of a nonlinear system based on continuous-time measurements. The model for the continuous-time EKF is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{w}(t)$ is the process noise, and $\mathbf{z}(t)$ is the measurement vector. The process noise and measurement noise are assumed to be Gaussian with zero mean and covariance matrices $\mathbf{Q}(t)$ and $\mathbf{R}(t)$, respectively.
@@ -20395,21 +19950,17 @@ In many real-world applications, measurements are taken at discrete time interva
 The model for the discrete-time EKF is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k = \mathbf{x}(t_k)$ and $t_k$ is the discrete time index. The discrete-time EKF follows the same predict-update steps as the continuous-time EKF, but with some modifications to account for the discrete-time measurements.
@@ -20651,7 +20202,6 @@ In cases where there is uncertainty about the parameters in the system, such as 
 A typical specification of the discrete-time stochastic linear quadratic control problem is to minimize
 
 
-
 $$
 
 E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
@@ -20659,9 +20209,7 @@ E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
 $$
 
 
-
 where $E_1$ is the expected value operator conditional on $y_0$, $S$ is the time horizon, and $y_t$ and $u_t$ are the state and control variables, respectively. The objective is subject to the state equation
-
 
 
 $$
@@ -20669,7 +20217,6 @@ $$
 y_{t+1} = A_t y_t + B_t u_t
 
 $$
-
 
 
 where $A_t$ and $B_t$ are the time $t$ realizations of the stochastic state transition and control response matrices, respectively. $Q$ and $R$ are known symmetric positive definite matrices.
@@ -20937,29 +20484,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly concave if $\varphi_2[h]$ is negative definite, meaning that for any non-zero function $h,$ $\varphi_2[h] < 0.$ This property is crucial for finding optimal solutions to dynamic optimization problems, as it ensures that the objective function is maximized.
@@ -20993,29 +20530,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly concave if $\varphi_2[h]$ is negative definite, meaning that for any non-zero function $h,$ $\varphi_2[h] < 0.$ This property is important in determining the nature of the critical points of a functional, as we will see in the next section.
@@ -21067,29 +20594,19 @@ Calculus of variations is concerned with variations of functionals, which are sm
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly concave if $\varphi_2[h]$ is negative definite, meaning that for any non-zero function $h,$ $\varphi_2[h] < 0.$ This property is important in optimization problems, as it ensures that the functional has a unique minimum.
@@ -21105,9 +20622,7 @@ The Euler-Lagrange equation is a fundamental result in calculus of variations th
 
 
 For a functional $J[y],$ the Euler-Lagrange equation is given by,
-
 $$\frac{\partial J}{\partial y} - \frac{d}{dx}\left(\frac{\partial J}{\partial y'}\right) = 0,$$
-
 where $y' = \frac{dy}{dx}.$ This equation is analogous to the first-order condition in traditional optimization problems, where the derivative of the objective function is set equal to zero.
 
 
@@ -21191,7 +20706,6 @@ The necessary conditions for optimality in optimal control theory are derived us
 To understand this concept better, let us consider an application of the Cameron-Martin theorem. Using this theorem, we can establish the necessary conditions for the minimization of a functional. This involves taking the state of the dynamical system, denoted by <math>x</math>, and the input <math>u</math>, such that:
 
 
-
 $$
 
 \dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -21199,9 +20713,7 @@ $$
 $$
 
 
-
 Here, <math>\mathcal{U}</math> represents the set of admissible controls, and <math>T</math> is the terminal time of the system. The control <math>u \in \mathcal{U}</math> must be chosen for all <math>t \in [0,T]</math> to minimize the objective functional <math>J</math>, which is defined by the application and can be abstracted as:
-
 
 
 $$
@@ -21211,9 +20723,7 @@ J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt
 $$
 
 
-
 The constraints on the system dynamics can be incorporated into the Lagrangian <math>L</math> by introducing a time-varying Lagrange multiplier vector <math>\lambda</math>, whose elements are known as the costates of the system. This motivates the construction of the Hamiltonian <math>H</math>, defined for all <math>t \in [0,T]</math> as:
-
 
 
 $$
@@ -21223,9 +20733,7 @@ H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))
 $$
 
 
-
 Here, <math>\lambda^{\rm T}</math> represents the transpose of <math>\lambda</math>. The necessary conditions for optimality, known as Pontryagin's minimum principle, state that the optimal state trajectory <math>x^*</math>, optimal control <math>u^*</math>, and corresponding Lagrange multiplier vector <math>\lambda^*</math> must minimize the Hamiltonian <math>H</math> so that:
-
 
 
 $$
@@ -21235,9 +20743,7 @@ H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)
 $$
 
 
-
 for all time <math>t \in [0,T]</math> and for all permissible control inputs <math>u \in \mathcal{U}</math>. Additionally, the costate equation and its terminal conditions are given by:
-
 
 
 $$
@@ -21245,7 +20751,6 @@ $$
 -\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))
 
 $$
-
 
 
 These conditions ensure that the optimal control inputs and costates are determined in a way that minimizes the Hamiltonian and satisfies the constraints on the system dynamics. In the next section, we will explore some applications of optimal control theory in economics.
@@ -21277,7 +20782,6 @@ The necessary conditions for optimality in optimal control theory are derived us
 To understand this concept better, let us consider an application of the Cameron-Martin theorem. Using this theorem, we can establish the necessary conditions for the minimization of a functional. This involves taking the state of the dynamical system, denoted by <math>x</math>, and the input <math>u</math>, such that:
 
 
-
 $$
 
 \dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -21285,9 +20789,7 @@ $$
 $$
 
 
-
 Here, <math>\mathcal{U}</math> represents the set of admissible controls, and <math>T</math> is the terminal time of the system. The control <math>u(t)</math> is chosen to minimize the cost functional:
-
 
 
 $$
@@ -21297,9 +20799,7 @@ J(u) = \int_0^T L(x(t), u(t), t) dt + \Phi(x(T))
 $$
 
 
-
 where <math>L(x(t), u(t), t)</math> is the Lagrangian, and <math>\Phi(x(T))</math> is the terminal cost. The optimal control problem can be formulated as:
-
 
 
 $$
@@ -21309,9 +20809,7 @@ $$
 $$
 
 
-
 The necessary conditions for optimality can be derived using the Euler-Lagrange equation, which states that the optimal control <math>u^*(t)</math> must satisfy:
-
 
 
 $$
@@ -21321,9 +20819,7 @@ $$
 $$
 
 
-
 In addition to the Euler-Lagrange equation, the optimal control must also satisfy the boundary conditions:
-
 
 
 $$
@@ -21331,7 +20827,6 @@ $$
 x(0) = x_0, \quad x(T) = x_f
 
 $$
-
 
 
 where <math>x_f</math> is the desired final state. These conditions, along with the Euler-Lagrange equation, form the necessary conditions for optimality in optimal control theory.
@@ -21495,9 +20990,7 @@ The mathematical foundations of dynamic programming were first laid out by Richa
 The Bellman equation is a fundamental equation in dynamic programming that expresses the optimal value function in terms of the optimal value functions at subsequent stages. It is given by:
 
 
-
 $$V^*(x) = \max_{u \in U(x)} \left\{ f(x,u) + \beta V^*(g(x,u)) \right\}$$
-
 
 
 where $V^*(x)$ is the optimal value function, $x$ is the state variable, $u$ is the control variable, $f(x,u)$ is the immediate payoff function, $g(x,u)$ is the state transition function, and $\beta$ is the discount factor. This equation essentially states that the optimal value at a given stage is equal to the maximum payoff that can be obtained by choosing the optimal control at that stage and then following the optimal policy from the subsequent stage.
@@ -21561,7 +21054,6 @@ Explain the difference between a static and dynamic optimization problem, using 
 #### Exercise 3
 
 Solve the following dynamic optimization problem using the Hamiltonian method:
-
 $$
 
 \max_{c_t, k_{t+1}} \sum_{t=0}^{\infty} \beta^t u(c_t) \\
@@ -21569,7 +21061,6 @@ $$
 \text{subject to } k_{t+1} = f(k_t) - c_t, \quad k_0 \text{ given}
 
 $$
-
 
 
 #### Exercise 4
@@ -21617,7 +21108,6 @@ Explain the difference between a static and dynamic optimization problem, using 
 #### Exercise 3
 
 Solve the following dynamic optimization problem using the Hamiltonian method:
-
 $$
 
 \max_{c_t, k_{t+1}} \sum_{t=0}^{\infty} \beta^t u(c_t) \\
@@ -21625,7 +21115,6 @@ $$
 \text{subject to } k_{t+1} = f(k_t) - c_t, \quad k_0 \text{ given}
 
 $$
-
 
 
 #### Exercise 4
@@ -22893,13 +22382,11 @@ Overall, this chapter serves as a valuable resource for those looking to deepen 
 #### Exercise 1
 
 Consider the following constrained optimization problem:
-
 $$
 
 \max_{x,y} f(x,y) \text{ subject to } g(x,y) = 0
 
 $$
-
 where $f$ and $g$ are differentiable functions. Use the method of Lagrange multipliers to find the critical points of this problem.
 
 
@@ -22907,13 +22394,11 @@ where $f$ and $g$ are differentiable functions. Use the method of Lagrange multi
 #### Exercise 2
 
 Suppose we have a dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal control $u^*$ satisfies the Hamiltonian maximization condition: $\frac{\partial H}{\partial u}(x^*,u^*) = 0$.
 
 
@@ -22921,13 +22406,11 @@ where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange mul
 #### Exercise 3
 
 Consider a discrete-time dynamic optimization problem with a Bellman equation given by:
-
 $$
 
 V(x) = \max_{u} \{f(x,u) + \beta V(x')\}
 
 $$
-
 where $x'$ is the state variable in the next period and $\beta$ is the discount factor. Show that the optimal control $u^*$ satisfies the first-order condition: $\frac{\partial f}{\partial u}(x^*,u^*) + \beta \frac{\partial V}{\partial x}(x^*) = 0$.
 
 
@@ -22935,13 +22418,11 @@ where $x'$ is the state variable in the next period and $\beta$ is the discount 
 #### Exercise 4
 
 Suppose we have a dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal state trajectory $x^*$ satisfies the Hamiltonian differential equation: $\dot{x}^* = \frac{\partial H}{\partial \lambda}(x^*,u^*)$.
 
 
@@ -22949,13 +22430,11 @@ where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange mul
 #### Exercise 5
 
 Consider a continuous-time dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal control $u^*$ satisfies the Pontryagin's maximum principle: $\frac{\partial H}{\partial u}(x^*,u^*) = 0$ and $\dot{\lambda} = -\frac{\partial H}{\partial x}(x^*,u^*)$.
 
 
@@ -22981,13 +22460,11 @@ Overall, this chapter serves as a valuable resource for those looking to deepen 
 #### Exercise 1
 
 Consider the following constrained optimization problem:
-
 $$
 
 \max_{x,y} f(x,y) \text{ subject to } g(x,y) = 0
 
 $$
-
 where $f$ and $g$ are differentiable functions. Use the method of Lagrange multipliers to find the critical points of this problem.
 
 
@@ -22995,13 +22472,11 @@ where $f$ and $g$ are differentiable functions. Use the method of Lagrange multi
 #### Exercise 2
 
 Suppose we have a dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal control $u^*$ satisfies the Hamiltonian maximization condition: $\frac{\partial H}{\partial u}(x^*,u^*) = 0$.
 
 
@@ -23009,13 +22484,11 @@ where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange mul
 #### Exercise 3
 
 Consider a discrete-time dynamic optimization problem with a Bellman equation given by:
-
 $$
 
 V(x) = \max_{u} \{f(x,u) + \beta V(x')\}
 
 $$
-
 where $x'$ is the state variable in the next period and $\beta$ is the discount factor. Show that the optimal control $u^*$ satisfies the first-order condition: $\frac{\partial f}{\partial u}(x^*,u^*) + \beta \frac{\partial V}{\partial x}(x^*) = 0$.
 
 
@@ -23023,13 +22496,11 @@ where $x'$ is the state variable in the next period and $\beta$ is the discount 
 #### Exercise 4
 
 Suppose we have a dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal state trajectory $x^*$ satisfies the Hamiltonian differential equation: $\dot{x}^* = \frac{\partial H}{\partial \lambda}(x^*,u^*)$.
 
 
@@ -23037,13 +22508,11 @@ where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange mul
 #### Exercise 5
 
 Consider a continuous-time dynamic optimization problem with a Hamiltonian function given by:
-
 $$
 
 H(x,u) = f(x,u) + \lambda g(x,u)
 
 $$
-
 where $f$ and $g$ are differentiable functions and $\lambda$ is the Lagrange multiplier. Show that the optimal control $u^*$ satisfies the Pontryagin's maximum principle: $\frac{\partial H}{\partial u}(x^*,u^*) = 0$ and $\dot{\lambda} = -\frac{\partial H}{\partial x}(x^*,u^*)$.
 
 
@@ -23467,13 +22936,11 @@ The optimal policy in stochastic control and optimization is often represented b
 In the discrete-time case, a typical specification of the stochastic linear quadratic control problem is to minimize
 
 
-
 $$
 
 E_1 \left[ \sum_{t=0}^{S} y_t^T Q y_t + u_t^T R u_t \right]
 
 $$
-
 
 
 where $E_1$ is the expected value operator conditional on $y_0$, $S$ is the time horizon, $y$ is an $n \times 1$ vector of observable state variables, $u$ is a $k \times 1$ vector of control variables, $A_t$ is the time $t$ realization of the stochastic $n \times n$ state transition matrix, $B_t$ is the time $t$ realization of the stochastic $n \times k$ matrix of control multipliers, and $Q$ ($n \times n$) and $R$ ($k \times k$) are known symmetric positive definite matrices.
@@ -23725,29 +23192,19 @@ The calculus of variations is concerned with variations of functionals, which ar
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly concave if $\varphi_2[h]$ is negative definite, which means that for any non-zero function $h,$ $\varphi_2[h] < 0.$ This condition is a sufficient condition for a minimum of the functional $J[y].$ In other words, if the second variation is strongly concave, then the function $y$ that minimizes $J[y]$ is the optimal solution.
@@ -25383,21 +24840,17 @@ In conclusion, this chapter has provided a comprehensive guide to advanced mathe
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t),t)dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t),t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $g(x(t),t)$ is the constraint function. Use the calculus of variations to find the optimal path for $x(t)$.
 
 
@@ -25405,21 +24858,17 @@ where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $
 #### Exercise 2
 
 Find the necessary conditions for an optimal solution using Pontryagin's maximum principle for the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t),t)dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t),t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $g(x(t),t)$ is the constraint function.
 
 
@@ -25427,21 +24876,17 @@ where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $
 #### Exercise 3
 
 Consider a dynamic optimization problem with discrete time:
-
 $$
 
 \max_{x_{t}} \sum_{t=0}^{T} f(x_{t},t)
 
 $$
-
 subject to the difference equation:
-
 $$
 
 x_{t+1} = g(x_{t},t)
 
 $$
-
 where $x_{t}$ is the state variable, $f(x_{t},t)$ is the objective function, and $g(x_{t},t)$ is the constraint function. Use dynamic programming to find the optimal path for $x_{t}$.
 
 
@@ -25455,21 +24900,17 @@ In a simple economic model, the production function is given by $Y = AK^{\alpha}
 #### Exercise 5
 
 Consider a dynamic optimization problem with a discount factor $\beta$:
-
 $$
 
 \max_{c_{t}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t})
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_{t} + k_{t+1} = (1-\delta)k_{t} + f(k_{t})
 
 $$
-
 where $c_{t}$ is consumption, $k_{t}$ is capital, $\delta$ is the depreciation rate, and $f(k_{t})$ is the production function. Use dynamic programming to find the optimal consumption and capital paths.
 
 
@@ -25499,21 +24940,17 @@ In conclusion, this chapter has provided a comprehensive guide to advanced mathe
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t),t)dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t),t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $g(x(t),t)$ is the constraint function. Use the calculus of variations to find the optimal path for $x(t)$.
 
 
@@ -25521,21 +24958,17 @@ where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $
 #### Exercise 2
 
 Find the necessary conditions for an optimal solution using Pontryagin's maximum principle for the following optimization problem:
-
 $$
 
 \max_{x(t)} \int_{0}^{T} f(x(t),t)dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t),t)
 
 $$
-
 where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $g(x(t),t)$ is the constraint function.
 
 
@@ -25543,21 +24976,17 @@ where $x(t)$ is the state variable, $f(x(t),t)$ is the objective function, and $
 #### Exercise 3
 
 Consider a dynamic optimization problem with discrete time:
-
 $$
 
 \max_{x_{t}} \sum_{t=0}^{T} f(x_{t},t)
 
 $$
-
 subject to the difference equation:
-
 $$
 
 x_{t+1} = g(x_{t},t)
 
 $$
-
 where $x_{t}$ is the state variable, $f(x_{t},t)$ is the objective function, and $g(x_{t},t)$ is the constraint function. Use dynamic programming to find the optimal path for $x_{t}$.
 
 
@@ -25571,21 +25000,17 @@ In a simple economic model, the production function is given by $Y = AK^{\alpha}
 #### Exercise 5
 
 Consider a dynamic optimization problem with a discount factor $\beta$:
-
 $$
 
 \max_{c_{t}} \sum_{t=0}^{\infty} \beta^{t} u(c_{t})
 
 $$
-
 subject to the budget constraint:
-
 $$
 
 c_{t} + k_{t+1} = (1-\delta)k_{t} + f(k_{t})
 
 $$
-
 where $c_{t}$ is consumption, $k_{t}$ is capital, $\delta$ is the depreciation rate, and $f(k_{t})$ is the production function. Use dynamic programming to find the optimal consumption and capital paths.
 
 
@@ -25799,13 +25224,11 @@ Multi-objective dynamic optimization is a powerful tool for solving complex opti
 Multi-objective dynamic optimization is an extension of single-objective dynamic optimization, where the goal is to find the optimal solution for a single objective function. In multi-objective optimization, there are multiple objective functions that need to be optimized simultaneously. This can be represented mathematically as:
 
 
-
 $$
 
 \min_{x} \{f_1(x), f_2(x), ..., f_m(x)\}
 
 $$
-
 
 
 where $x$ is the decision variable and $f_i(x)$ represents the $i$th objective function.
@@ -25861,13 +25284,11 @@ Multi-objective dynamic optimization is a powerful tool for solving complex opti
 Multi-objective dynamic optimization is an extension of single-objective dynamic optimization, where the goal is to find the optimal solution for a single objective function. In multi-objective optimization, there are multiple objective functions that need to be optimized simultaneously. This can be represented mathematically as:
 
 
-
 $$
 
 \min_{x} \{f_1(x), f_2(x), ..., f_m(x)\}
 
 $$
-
 
 
 where $x$ is the decision variable and $f_i(x)$ represents the $i$th objective function.
@@ -25919,13 +25340,11 @@ Multi-objective dynamic optimization is a powerful tool for solving complex opti
 Multi-objective dynamic optimization is an extension of single-objective dynamic optimization, where the goal is to find the optimal solution for a single objective function. In multi-objective optimization, there are multiple objective functions that need to be optimized simultaneously. This can be represented mathematically as:
 
 
-
 $$
 
 \min_{x} \{f_1(x), f_2(x), ..., f_m(x)\}
 
 $$
-
 
 
 where $x$ is the decision variable and $f_i(x)$ represents the $i$th objective function.
@@ -25993,13 +25412,11 @@ Stochastic control and optimization is an extension of deterministic control and
 The goal of stochastic control and optimization is to find the optimal control policy that maximizes the expected value of a given objective function. This can be represented mathematically as:
 
 
-
 $$
 
 \max_{u} E\left[\sum_{t=0}^{T}f(y_t,u_t)\right]
 
 $$
-
 
 
 where $u$ is the control variable, $y_t$ is the state variable at time $t$, and $f(y_t,u_t)$ is the objective function at time $t$. The expectation is taken over all possible realizations of the state variable.
@@ -26055,13 +25472,11 @@ Stochastic control and optimization is an extension of deterministic control and
 The goal of stochastic control and optimization is to find the optimal control policy that maximizes the expected value of a given objective function. This can be represented mathematically as:
 
 
-
 $$
 
 \max_{u} E\left[\sum_{t=0}^{T}f(y_t,u_t)\right]
 
 $$
-
 
 
 where $u$ is the control variable, $y_t$ is the state variable at time $t$, and $f(y_t,u_t)$ is the objective function at time $t$. The expectation is taken over all possible realizations of the state variable.
@@ -26111,7 +25526,6 @@ Stochastic control and optimization is an extension of deterministic control and
 
 
 The goal of stochastic control and optimization is to find the optimal control policy that maximizes the expected value of a given objective function. This can be represented mathematically as:
-
 
 
 $$

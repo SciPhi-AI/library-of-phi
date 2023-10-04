@@ -1354,9 +1354,7 @@ The spectral matrix, <math>S(\omega_k)</math>, can be written as the matrix prod
 
 
 $$
-
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
-
 $$
 
 
@@ -1594,9 +1592,7 @@ The 3D flow velocity can be expressed as:
 
 
 $$
-
 \mathbf{u} = u_1\mathbf{e}_1 + u_2\mathbf{e}_2 + u_3\mathbf{e}_3
-
 $$
 
 
@@ -1610,9 +1606,7 @@ Now, suppose that the flow is 2D. This does not necessarily mean that the flow i
 
 
 $$
-
 \mathbf{u} = u_1\mathbf{e}_1 + u_2\mathbf{e}_2
-
 $$
 
 
@@ -1626,9 +1620,7 @@ Using this simplification, the Navier-Stokes equations can be expanded to:
 
 
 $$
-
 \frac{\mathbf{e}_1}{h_2h_3}\left[\frac{\partial}{\partial x_2}(h_3\psi_3) - \frac{\partial}{\partial x_3}(h_2\psi_2)\right] + \frac{\mathbf{e}_2}{h_3h_1}\left[\frac{\partial}{\partial x_3}(h_1\psi_1) - \frac{\partial}{\partial x_1}(h_3\psi_3)\right] + \frac{\mathbf{e}_3}{h_1h_2}\left[\frac{\partial}{\partial x_1}(h_2\psi_2) - \frac{\partial}{\partial x_2}(h_1\psi_1)\right]
-
 $$
 
 
@@ -1638,9 +1630,7 @@ Examining this equation, we can see that we can set $h_1 = h_2 = h_3 = 1$ withou
 
 
 $$
-
 \frac{\mathbf{e}_1}{h_2h_3}\frac{\partial}{\partial x_2}\left[\frac{\partial}{\partial x_3}(h_3\psi_3)\right] + \frac{\mathbf{e}_2}{h_3h_1}\frac{\partial}{\partial x_3}\left[\frac{\partial}{\partial x_1}(h_1\psi_1)\right] + \frac{\mathbf{e}_3}{h_1h_2}\frac{\partial}{\partial x_1}\left[\frac{\partial}{\partial x_2}(h_2\psi_2)\right]
-
 $$
 
 
@@ -1730,9 +1720,7 @@ To understand convective heat transfer, we must first look at the general equati
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
-
 $$
 
 
@@ -1750,9 +1738,7 @@ Another important concept in convective heat transfer is entropy production. Ent
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -1888,7 +1874,6 @@ The 3D flow velocity is expressed as:
 $$\mathbf{u} = u_1\mathbf{e}_1 + u_2\mathbf{e}_2 + u_3\mathbf{e}_3$$
 
 
-
 where $\mathbf{e}_i$ are basis vectors, not necessarily constant and not necessarily normalized, and $u_i$ are flow velocity components. Let the coordinates of space be denoted as $x_i$.
 
 
@@ -1896,49 +1881,37 @@ where $\mathbf{e}_i$ are basis vectors, not necessarily constant and not necessa
 Now, suppose that the flow is 2D. This does not mean the flow is confined to a plane, rather it means that the component of flow velocity in one direction is zero and the remaining components are independent of the same direction. In other words, we have:
 
 
-
 $$u_3 = 0$$
-
 
 
 Substituting this into the equation above, we get:
 
 
-
 $$\mathbf{u} = u_1\mathbf{e}_1 + u_2\mathbf{e}_2$$
-
 
 
 The vector function $\mathbf{u}$ is still defined via:
 
 
-
 $$\mathbf{u} = \frac{\partial \mathbf{r}}{\partial t}$$
-
 
 
 but this must simplify in some way since the flow is assumed 2D. If we assume orthogonal coordinates, the curl takes on a fairly simple form, and the equation above expands to:
 
 
-
 $$\frac{\mathbf{e}_1}{h_2h_3} \left[\frac{\partial}{\partial x_2} \left(h_3\psi_3\right) - \frac{\partial}{\partial x_3} \left(h_2\psi_2\right)\right] + \frac{\mathbf{e}_2}{h_3h_1} \left[\frac{\partial}{\partial x_3} \left(h_1\psi_1\right) - \frac{\partial}{\partial x_1} \left(h_3\psi_3\right)\right] + \frac{\mathbf{e}_3}{h_1h_2} \left[\frac{\partial}{\partial x_1} \left(h_2\psi_2\right) - \frac{\partial}{\partial x_2} \left(h_1\psi_1\right)\right]$$
-
 
 
 Examining this equation shows that we can set $h_1 = h_2 = h_3 = 1$ and retain equality with no loss of generality, so that:
 
 
-
 $$\frac{\mathbf{e}_1}{h_2h_3} \frac{\partial}{\partial x_2} \left(h_3\psi_3\right) = \frac{\mathbf{e}_2}{h_3h_1} \frac{\partial}{\partial x_3} \left(h_1\psi_1\right) = \frac{\mathbf{e}_3}{h_1h_2} \frac{\partial}{\partial x_1} \left(h_2\psi_2\right)$$
-
 
 
 This simplification allows us to express the 2D flow velocity as:
 
 
-
 $$\mathbf{u} = \frac{\partial \psi_1}{\partial x_2}\mathbf{e}_1 + \frac{\partial \psi_2}{\partial x_3}\mathbf{e}_2$$
-
 
 
 where $\psi_1$ and $\psi_2$ are scalar functions. This is known as the stream function formulation, and it is a useful tool for studying 2D fluid motion.
@@ -1998,15 +1971,12 @@ In this subsection, we will explore the unique characteristics of geostrophic tu
 The quasi-geostrophic approximation is made when the Rossby number, Ro, and the Rossby deformation radius, Ro<sub>T</sub>, are both much smaller than 1. This approximation allows us to simplify the Navier-Stokes equations and express the flow velocity as the sum of geostrophic and ageostrophic components:
 
 
-
 $$u = \bar{u}+\tilde{u} \qquad &\text{with} \qquad \bar{u}=-{g \over f_0}{\partial \eta \over \partial y}\\[3pt]
 
 v = \bar{v}+\tilde{v} \qquad &\text{with} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},\\[3pt]$$
 
 
-
 where $\bar{u}$ and $\bar{v}$ are the geostrophic flow components and $\tilde{u}$ and $\tilde{v}$ are the ageostrophic flow components with $\tilde{u}\ll\bar{u}$ and $\tilde{v}\ll\bar{v}$. Substituting these expressions for $u$ and $v$ in the previously acquired set of equations, yields:
-
 
 
 $$&-{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{u} \over\partial t}-f_0\tilde{v} = 0\\[3pt]
@@ -2018,9 +1988,7 @@ $$&-{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{
 \end{align}$$
 
 
-
 Neglecting terms where small component terms ($\tilde{u}, \tilde{v}, {\partial\over\partial t}$ and $\alpha_0$) are multiplied, the expressions obtained are:
-
 
 
 $$&\tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
@@ -2032,13 +2000,10 @@ $$&\tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3
 \end{align}$$
 
 
-
 Substituting the components of the ageostrophic velocity in the continuity equation, we obtain:
 
 
-
 $${\partial \eta \over\partial t}-R^2{\partial\over\partial t}\nabla^2 \eta + \alpha_0\tilde{v}=0.$$
-
 
 
 This equation shows that the ageostrophic flow component, $\tilde{v}$, plays a crucial role in the development of geostrophic turbulence. It is responsible for the transfer of energy from the geostrophic flow to the ageostrophic flow, leading to the formation of eddies and vortices.
@@ -2086,15 +2051,12 @@ In this subsection, we will explore the unique characteristics of quasigeostroph
 The quasi-geostrophic approximation is made when the Rossby number, Ro, and the Rossby deformation radius, Ro<sub>T</sub>, are both much smaller than 1. This approximation allows us to simplify the Navier-Stokes equations and express the flow velocity as the sum of geostrophic and ageostrophic components:
 
 
-
 $$u = \bar{u}+\tilde{u} \qquad &\text{with} \qquad \bar{u}=-{g \over f_0}{\partial \eta \over \partial y}\\[3pt]
 
 v = \bar{v}+\tilde{v} \qquad &\text{with} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},\\[3pt]$$
 
 
-
 where $\bar{u}$ and $\bar{v}$ are the geostrophic flow components and $\tilde{u}$ and $\tilde{v}$ are the ageostrophic flow components with $\tilde{u}\ll\bar{u}$ and $\tilde{v}\ll\bar{v}$. Substituting these expressions for $u$ and $v$ in the previously acquired set of equations, yields:
-
 
 
 $$&-{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{u} \over\partial t}-f_0\tilde{v} = 0\\[3pt]
@@ -2106,9 +2068,7 @@ $$&-{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{
 \end{align}$$
 
 
-
 Neglecting terms where small component terms ($\tilde{u}, \tilde{v}, {\partial\over\partial t}$ and $\alpha_0$) are multiplied, the expressions obtained are:
-
 
 
 $$\tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
@@ -2120,13 +2080,10 @@ $$\tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3p
 \end{align}$$
 
 
-
 Substituting the components of the ageostrophic velocity in the continuity equation, we obtain:
 
 
-
 $${\partial \eta \over\partial t}-R^2{\partial\over\partial t}\nabla^2 \eta + \alpha_0\tilde{v}=0.$$
-
 
 
 This equation shows the important role of quasigeostrophic dynamics in 2D turbulence. The term $R^2{\partial\over\partial t}\nabla^2 \eta$ represents the diffusion of vorticity, which is a key mechanism in the transfer of energy from large to small scales in 2D turbulence. The term $\alpha_0\tilde{v}$ represents the effects of small-scale vorticity on the large-scale flow, highlighting the complex interactions between different scales in 2D turbulence.
@@ -2552,13 +2509,11 @@ Next, we apply the quasi-geostrophic approximation to the continuity equation an
 Substituting these expressions into the continuity equation, we obtain the SQG equation, which describes the evolution of the surface height in terms of the geostrophic flow components and the surface height itself. This equation is a fundamental tool in the study of SQG turbulence and is given by:
 
 
-
 $$
 
 \frac{\partial \eta}{\partial t} + \nabla \cdot (\eta \mathbf{u_g}) = 0
 
 $$
-
 
 
 where $\eta$ is the surface height and $\mathbf{u_g}$ is the geostrophic flow velocity. This equation shows that the surface height evolves in time due to the advection of the geostrophic flow. 
@@ -2568,13 +2523,11 @@ where $\eta$ is the surface height and $\mathbf{u_g}$ is the geostrophic flow ve
 The SQG equation can be further simplified by assuming a steady-state solution, where the time derivative is equal to zero. This leads to the well-known SQG streamfunction-vorticity formulation, given by:
 
 
-
 $$
 
 \nabla^2 \psi = \zeta
 
 $$
-
 
 
 where $\psi$ is the streamfunction and $\zeta$ is the relative vorticity. This formulation is particularly useful for studying the formation and evolution of large-scale vortices and eddies in the ocean and atmosphere.
@@ -2668,13 +2621,11 @@ Next, we apply the quasi-geostrophic approximation to the continuity equation an
 Substituting these expressions into the continuity equation, we obtain the SQG equation, which describes the evolution of the surface height in terms of the geostrophic flow components and the surface height itself. This equation is given by:
 
 
-
 $$
 
 \frac{\partial \eta}{\partial t} + \mathbf{u_g} \cdot \nabla \eta = -\frac{1}{H} \frac{\partial \phi}{\partial x} + \frac{1}{H} \frac{\partial}{\partial x} \left( \frac{1}{f_0} \frac{\partial \eta}{\partial y} \right) + \frac{1}{H} \frac{\partial}{\partial y} \left( \frac{1}{f_0} \frac{\partial \eta}{\partial x} \right) + \frac{1}{H} \frac{\partial}{\partial z} \left( \frac{1}{f_0} \frac{\partial \eta}{\partial z} \right) + \frac{1}{H} \frac{\partial}{\partial z} \left( \frac{1}{f_0} \frac{\partial \phi}{\partial z} \right)
 
 $$
-
 
 
 where $\eta$ is the surface height, $\mathbf{u_g}$ is the geostrophic flow, $\phi$ is the geopotential, $H$ is the depth of the ocean or atmosphere, and $f_0$ is the Coriolis parameter. This equation is valid for both the ocean and atmosphere, with the only difference being the value of $f_0$.
@@ -3152,14 +3103,11 @@ The Transformed Eulerian Mean equations are derived by transforming the equation
 The Transformed Eulerian Mean equations in 3D can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u}}{\partial t} + \overline{u} \cdot \nabla \overline{u} = -\frac{1}{\rho} \nabla \overline{p} + \overline{f} + \overline{F}
 
 $$
-
-
 
 $$
 
@@ -3167,14 +3115,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \overline{w}}{\partial t} + \overline{u} \cdot \nabla \overline{w} = -\frac{1}{\rho} \nabla \overline{p} + \overline{h} + \overline{H}
 
 $$
-
 
 
 Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities in the x, y, and z directions respectively, $\overline{p}$ is the mean pressure, $\rho$ is the density, and $\overline{f}$, $\overline{g}$, and $\overline{h}$ are the mean forces in the x, y, and z directions respectively. The terms $\overline{F}$, $\overline{G}$, and $\overline{H}$ represent the effects of eddies on the mean flow.
@@ -3184,13 +3129,11 @@ Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities
 The Transformed Eulerian Mean equations can also be written in vector form as:
 
 
-
 $$
 
 \frac{\partial \overline{\mathbf{u}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{u}} = -\frac{1}{\rho} \nabla \overline{p} + \overline{\mathbf{f}} + \overline{\mathbf{F}}
 
 $$
-
 
 
 Where $\overline{\mathbf{u}}$ is the mean velocity vector and $\overline{\mathbf{f}}$ and $\overline{\mathbf{F}}$ are the mean force and eddy force vectors respectively.
@@ -3234,14 +3177,11 @@ The Transformed Eulerian Mean equations are derived by transforming the equation
 The Transformed Eulerian Mean equations in 3D can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u}}{\partial t} + \overline{u} \cdot \nabla \overline{u} = -\frac{1}{\rho} \nabla \overline{p} + \overline{f} + \overline{F}
 
 $$
-
-
 
 $$
 
@@ -3249,14 +3189,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \overline{w}}{\partial t} + \overline{u} \cdot \nabla \overline{w} = -\frac{1}{\rho} \nabla \overline{p} + \overline{h} + \overline{H}
 
 $$
-
 
 
 Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities in the x, y, and z directions respectively, $\overline{p}$ is the mean pressure, $\rho$ is the density, and $\overline{f}$, $\overline{g}$, and $\overline{h}$ are the mean forces in the x, y, and z directions respectively. The terms $\overline{F}$, $\overline{G}$, and $\overline{H}$ represent the effects of eddies on the mean flow.
@@ -3266,13 +3203,11 @@ Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities
 The Transformed Eulerian Mean equations can also be written in vector form as:
 
 
-
 $$
 
 \frac{\partial \overline{\mathbf{u}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{u}} = -\frac{1}{\rho} \nabla \overline{p} + \overline{\mathbf{f}} + \overline{\mathbf{F}}
 
 $$
-
 
 
 Where $\overline{\mathbf{u}}$ is the mean velocity vector, $\overline{\mathbf{f}}$ is the mean force vector, and $\overline{\mathbf{F}}$ is the eddy force vector.
@@ -3324,14 +3259,11 @@ The Transformed Eulerian Mean equations are derived by transforming the equation
 The Transformed Eulerian Mean equations in 3D can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u}}{\partial t} + \overline{u} \cdot \nabla \overline{u} = -\frac{1}{\rho} \nabla \overline{p} + \overline{f} + \overline{F}
 
 $$
-
-
 
 $$
 
@@ -3339,14 +3271,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \overline{w}}{\partial t} + \overline{u} \cdot \nabla \overline{w} = -\frac{1}{\rho} \nabla \overline{p} + \overline{h} + \overline{H}
 
 $$
-
 
 
 Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities in the x, y, and z directions respectively, $\overline{p}$ is the mean pressure, $\rho$ is the density, and $\overline{f}$, $\overline{g}$, and $\overline{h}$ are the mean forces in the x, y, and z directions respectively. The terms $\overline{F}$, $\overline{G}$, and $\overline{H}$ represent the effects of eddies on the mean flow.
@@ -3356,13 +3285,11 @@ Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities
 The Transformed Eulerian Mean equations can also be written in vector form as:
 
 
-
 $$
 
 \frac{\partial \overline{\mathbf{u}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{u}} = -\frac{1}{\rho} \nabla \overline{p} + \overline{\mathbf{f}} + \overline{\mathbf{F}}
 
 $$
-
 
 
 Where $\overline{\mathbf{u}}$ is the mean velocity vector, $\overline{\mathbf{f}}$ is the mean force vector, and $\overline{\mathbf{F}}$ is the eddy force vector.
@@ -3430,14 +3357,11 @@ The Transformed Eulerian Mean equations are derived by transforming the equation
 The Transformed Eulerian Mean equations in 3D can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u}}{\partial t} + \overline{u} \cdot \nabla \overline{u} = -\frac{1}{\rho} \nabla \overline{p} + \overline{f} + \overline{F}
 
 $$
-
-
 
 $$
 
@@ -3445,14 +3369,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \overline{w}}{\partial t} + \overline{u} \cdot \nabla \overline{w} = -\frac{1}{\rho} \nabla \overline{p} + \overline{h} + \overline{H}
 
 $$
-
 
 
 Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities in the x, y, and z directions respectively, $\overline{p}$ is the mean pressure, $\rho$ is the density, and $\overline{f}$, $\overline{g}$, and $\overline{h}$ are the mean forces in the x, y, and z directions respectively. The terms $\overline{F}$, $\overline{G}$, and $\overline{H}$ represent the effects of eddies on the mean flow.
@@ -3462,13 +3383,11 @@ Where $\overline{u}$, $\overline{v}$, and $\overline{w}$ are the mean velocities
 The Transformed Eulerian Mean equations can also be written in vector form as:
 
 
-
 $$
 
 \frac{\partial \overline{\mathbf{u}}}{\partial t} + \overline{\mathbf{u}} \cdot \nabla \overline{\mathbf{u}} = -\frac{1}{\rho} \nabla \overline{p} + \overline{\mathbf{f}} + \overline{\mathbf{F}}
 
 $$
-
 
 
 Where $\overline{\mathbf{u}}$ is the mean velocity vector, $\overline{p}$ is the mean pressure, $\rho$ is the density, and $\overline{\mathbf{f}}$ and $\overline{\mathbf{F}}$ represent the mean and eddy forces, respectively.
@@ -3548,13 +3467,11 @@ Overall, the mean-field approximation provides a valuable tool for understanding
 #### Exercise 1
 
 Consider the Navier-Stokes equations for a fluid flow in a pipe:
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \mathbf{u}
 
 $$
-
 Apply the mean-field approximation to this system and discuss the implications for predicting the behavior of the fluid flow.
 
 
@@ -3568,13 +3485,11 @@ Research and discuss a real-world application of the mean-field approximation in
 #### Exercise 3
 
 Consider the Lorenz system:
-
 $$
 
 \frac{dx}{dt} = \sigma(y-x), \quad \frac{dy}{dt} = x(\rho-z)-y, \quad \frac{dz}{dt} = xy-\beta z
 
 $$
-
 Apply the mean-field approximation to this system and discuss the resulting equations.
 
 
@@ -4614,13 +4529,11 @@ Furthermore, we will discuss the current state of research on nonlinear internal
 Amplitude dispersion effects appear for instance in the solitary wave: a single hump of water traveling with constant velocity in shallow water with a horizontal bed. Note that solitary waves are near-solitons, but not exactly – after the interaction of two (colliding or overtaking) solitary waves, they have changed a bit in amplitude and an oscillatory residual is left behind. The single soliton solution of the Korteweg–de Vries equation, of wave height "H" in water depth "h" far away from the wave crest, travels with the velocity:
 
 
-
 $$
 
 c = \sqrt{gh}
 
 $$
-
 
 
 So for this nonlinear gravity wave it is the total water depth under the wave crest that determines the speed, with higher waves traveling faster than lower waves. Note that solitary wave solutions only exist for positive values of "H", solitary gravity waves of depression do not exist.
@@ -4634,13 +4547,11 @@ So for this nonlinear gravity wave it is the total water depth under the wave cr
 The linear dispersion relation – unaffected by wave amplitude – is for nonlinear waves also correct at the second order of the perturbation theory expansion, with the orders in terms of the wave steepness <nowrap|"k a"> (where "a" is wave amplitude). To the third order, and for deep water, the dispersion relation is
 
 
-
 $$
 
 \omega^2 = gk + \frac{1}{2}gk^2a^2
 
 $$
-
 
 
 This implies that large waves travel faster than small ones of the same frequency. This is only noticeable when the wave steepness <nowrap|"k a"> is large.
@@ -4654,7 +4565,6 @@ This implies that large waves travel faster than small ones of the same frequenc
 Water waves on a mean flow (so a wave in a moving medium) experience a Doppler shift. Suppose the dispersion relation for a non-moving medium is:
 
 
-
 $$
 
 \omega = \sqrt{gk}
@@ -4662,9 +4572,7 @@ $$
 $$
 
 
-
 with "k" the wavenumber. Then for a medium with mean velocity vector V, the dispersion relationship with Doppler shift becomes:
-
 
 
 $$
@@ -4672,7 +4580,6 @@ $$
 \omega = \sqrt{gk + kV\cos\alpha}
 
 $$
-
 
 
 where k is the wavenumber vector, related to "k" as: "k" = |k|. The dot product k•V is equal to: k•V" = kV "cos "α", with "V" the length of the mean velocity vector V: "V" = |V|. And "α" the angle between the wave propagation direction and the mean flow direction. For waves and current in t
@@ -4708,13 +4615,11 @@ Solitary waves, also known as solitons, are a type of nonlinear internal wave th
 The single soliton solution of the Korteweg–de Vries equation, which describes the behavior of shallow water waves, can be used to model solitary waves in the ocean and atmosphere. This solution is given by:
 
 
-
 $$
 
 \eta(x,t) = \frac{H}{2}\text{sech}^2\left(\frac{\sqrt{gH}}{2}(x-ct)\right)
 
 $$
-
 
 
 where "H" is the wave height and "c" is the wave speed. It is important to note that solitary wave solutions only exist for positive values of "H", and solitary gravity waves of depression do not exist.
@@ -4916,13 +4821,11 @@ Topographic waves, also known as topographic Rossby waves, are a type of nonline
 Topographic waves are generated when there is a change in the ocean floor topography, such as a seamount or a continental shelf. These changes in topography cause variations in the water depth, which in turn affects the speed of the waves. The dispersion relation for topographic Rossby waves is given by:
 
 
-
 $$
 
 \omega = {\alpha_0 g \over f_0}{k_x \over 1+R^2(k_x^2+k_y^2)},
 
 $$
-
 
 
 where $\omega$ is the angular frequency of the wave, $\alpha_0$ is the topographic slope, $g$ is the acceleration due to gravity, $f_0$ is the Coriolis parameter, and $R$ is the Rossby number. This dispersion relation shows that the frequency of the topographic waves is dependent on the topographic slope and the Rossby number. 
@@ -4932,13 +4835,11 @@ where $\omega$ is the angular frequency of the wave, $\alpha_0$ is the topograph
 The maximum frequency of the topographic Rossby waves is given by:
 
 
-
 $$
 
 \left\vert \omega \right\vert _{max} ={ \left\vert \alpha_0 \right\vert g \over 2\left\vert f_0 \right\vert R },
 
 $$
-
 
 
 which is attained when $k_x = R^{-1}$ and $k_y = 0$. This maximum frequency is important because it determines the threshold for the generation of topographic waves. If the forcing creates waves with frequencies above this threshold, no Rossby waves are generated. However, this situation rarely happens, unless $\alpha_0$ is very small. In most cases, the maximum frequency of the topographic waves exceeds the Coriolis frequency, and the theory breaks down. This is because the assumptions made in the derivation of the dispersion relation are no longer valid.
@@ -4948,13 +4849,11 @@ which is attained when $k_x = R^{-1}$ and $k_y = 0$. This maximum frequency is i
 The phase speed of the topographic waves along the isobaths (lines of equal depth) is given by:
 
 
-
 $$
 
 c = {\omega \over k_x} = {\alpha_0 g \over f_0}{1 \over 1+R^2(k_x^2+k_y^2)}.
 
 $$
-
 
 
 This phase speed is dependent on the topographic slope and the Rossby number, and it determines the direction of propagation of the waves. The phase speed is also affected by the topographic slope, with steeper slopes resulting in faster wave propagation.
@@ -5972,13 +5871,11 @@ The Sandia method, also known as the Epsilon Reticuli method, is a widely used a
 The spectral matrix, $S(\omega_k)$, can be written as the product of a matrix, $H(\omega_k)$, and its transpose, as shown in the equation below:
 
 
-
 $$
 
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
 
 $$
-
 
 
 The matrix $H(\omega_k)$ is crucial in obtaining the complex Fourier coefficients of the Fourier transforms of wind speed time series at all points on the surface. This allows for the calculation of the resultant spectrum, $S(\omega) \propto X(\omega)X^*(\omega)$, where $X(\omega)$ is the Fourier transform of a time domain function. By assuming that $H(\omega_k)$ is a lower triangular matrix, a unique solution can be found through a Cholesky decomposition.
@@ -6014,13 +5911,11 @@ The Sandia method, also known as the Epsilon Reticuli method, is a widely used a
 The spectral matrix, $S(\omega_k)$, can be written as the product of a matrix, $H(\omega_k)$, and its transpose, as shown in the equation below:
 
 
-
 $$
 
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
 
 $$
-
 
 
 The matrix $H(\omega_k)$ is crucial in obtaining the complex Fourier coefficients of the Fourier transforms of wind speed time series at all points on the surface. This allows for the calculation of the resultant spectrum, $S(\omega) \propto X(\omega)X^*(\omega)$, where $X(\omega)$ is the Fourier transform of the wind speed time series. This spectrum is then used to generate the turbulent flow in simulations.
@@ -6038,13 +5933,11 @@ In addition to generation, atmospheric turbulence also undergoes dissipation, wh
 The rate of dissipation, $\epsilon$, can be calculated using the Kolmogorov microscale, $\eta$, which is the smallest scale at which turbulence is present. The equation for $\epsilon$ is given by:
 
 
-
 $$
 
 \epsilon = \frac{15\nu}{\eta^2} \langle (\Delta u)^2 \rangle
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity of the fluid and $\langle (\Delta u)^2 \rangle$ is the mean square velocity difference between two points separated by a distance $\eta$.
@@ -6054,13 +5947,11 @@ where $\nu$ is the kinematic viscosity of the fluid and $\langle (\Delta u)^2 \r
 The dissipation rate is also related to the turbulence intensity, $\sigma_u$, which is a measure of the fluctuations in wind speed. The equation for $\sigma_u$ is given by:
 
 
-
 $$
 
 \sigma_u = \sqrt{\frac{2}{3}\epsilon L_u}
 
 $$
-
 
 
 where $L_u$ is the length scale of the turbulence. This relationship allows for the estimation of turbulence intensity based on the dissipation rate, providing valuable information for studying and predicting atmospheric turbulence.
@@ -6096,13 +5987,11 @@ One widely used approach for generating atmospheric turbulence in simulations is
 The spectral matrix, $S(\omega_k)$, can be written as the product of a matrix, $H(\omega_k)$, and its transpose, as shown in the equation below:
 
 
-
 $$
 
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
 
 $$
-
 
 
 The matrix $H(\omega_k)$ is crucial in obtaining the complex Fourier coefficients of the Fourier transforms of wind speed time series at all points on the surface. This allows for the calculation of the resultant spectrum, $S(\omega) \propto X(\omega)X^*(\omega)$, where $X(\omega)$ is the Fourier transform of the wind speed time series. This spectrum provides information about the energy distribution at different frequencies, which is essential for understanding the behavior of atmospheric turbulence.
@@ -6158,13 +6047,11 @@ One widely used approach for generating atmospheric turbulence in simulations is
 The spectral matrix, $S(\omega_k)$, can be written as the product of a matrix, $H(\omega_k)$, and its transpose, as shown in the equation below:
 
 
-
 $$
 
 S(\omega_k) = H(\omega_k)H(\omega_k)^T
 
 $$
-
 
 
 The matrix $H(\omega_k)$ is crucial in obtaining the complex Fourier coefficients of the Fourier transforms of wind speed time series at all points on the surface. This allows for the calculation of the resultant spectrum, $S(\omega) \propto X(\omega)X^*(\omega)$, where $X(\omega)$ is the Fourier transform of the wind speed time series. This method allows for the simulation of realistic atmospheric turbulence, which is essential for understanding and predicting weather patterns and climate change.
@@ -6250,7 +6137,6 @@ The dynamics of atmospheric eddies are governed by the primitive equations, whic
 The quasi-geostrophic approximation assumes that the Rossby number, Ro, and the Rossby deformation radius, Ro<sub>T</sub>, are both small, such that Ro, Ro<sub>T</sub> $\ll$ 1. This allows us to make the following approximations:
 
 
-
 $$
 
 u = \bar{u}+\tilde{u} \qquad \text{with} \qquad \bar{u}=-\frac{g}{f_0}\frac{\partial \eta}{\partial y}\\[3pt]
@@ -6260,9 +6146,7 @@ v = \bar{v}+\tilde{v} \qquad \text{with} \qquad \bar{v}=\frac{g}{f_0}\frac{\part
 $$
 
 
-
 where $\bar{u}$ and $\bar{v}$ are the geostrophic flow components and $\tilde{u}$ and $\tilde{v}$ are the ageostrophic flow components with $\tilde{u}\ll\bar{u}$ and $\tilde{v}\ll\bar{v}$. Substituting these expressions for $u$ and $v$ in the previously acquired set of equations, yields:
-
 
 
 $$
@@ -6276,9 +6160,7 @@ $$
 $$
 
 
-
 Neglecting terms where small component terms ($\tilde{u}, \tilde{v}, \frac{\partial}{\partial t}$ and $\alpha_0$) are multiplied, the expressions obtained are:
-
 
 
 $$
@@ -6292,9 +6174,7 @@ $$
 $$
 
 
-
 Substituting the components of the ageostrophic velocity, $\tilde{u}$ and $\tilde{v}$, into the last equation, we obtain the quasi-geostrophic potential vorticity equation:
-
 
 
 $$
@@ -6302,7 +6182,6 @@ $$
 \frac{\partial}{\partial t}\left(\frac{\partial \eta}{\partial t}+f_0\tilde{v}\right)+\frac{\partial}{\partial x}\left(H_0\tilde{u}+\alpha_0\tilde{v}\right)+\frac{\partial}{\partial y}\left(H_0\tilde{v}-\alpha_0\tilde{u}\right)=0.
 
 $$
-
 
 
 This equation describes the evolution of potential vorticity, a quantity that is conserved in the absence of friction and diabatic processes. It is a useful tool for understanding the dynamics of atmospheric eddies, as it allows us to track the evolution of these eddies and their impact on the larger-scale flow.
@@ -6464,7 +6343,6 @@ The geostrophic flow is the dominant component of the flow in ABLs and is driven
 Using the quasi-geostrophic approximation, we can derive simplified equations for the geostrophic and ageostrophic flow components. These equations allow us to better understand the dynamics of ABLs and their role in atmospheric turbulence. By neglecting terms where the small component terms are multiplied, we can obtain expressions for the ageostrophic flow components in terms of the geostrophic flow and the surface elevation, η.
 
 
-
 $$
 
 \tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
@@ -6472,7 +6350,6 @@ $$
 \tilde{u} = -{g \over f_0^2}{\partial^2 \eta \over \partial x \partial t}\\[3pt]
 
 $$
-
 
 
 These equations show that the ageostrophic flow is directly related to the surface elevation, which is influenced by the Earth's surface. This highlights the important role that the Earth's surface plays in the dynamics of ABLs and their interaction with the atmosphere.
@@ -6512,13 +6389,11 @@ Turbulence in the ABL is primarily driven by two mechanisms: thermal convection 
 To quantitatively describe the variation of quantities in the ABL, we need to solve the conservation equations. The simplified form of the conservation equation for a passive scalar in a typical ABL is:
 
 
-
 $$
 
 \frac{\partial \bar{c}}{\partial t} = -\frac{\partial \overline{w'c'}}{\partial z}
 
 $$
-
 
 
 where $\bar{c}$ is the mean of quantity $c$, which could be water vapor mixing ratio $q$, potential temperature $\theta$, eastward-moving $u$ and northward-moving $v$ wind speed. $\overline{w'c'}$ is the vertical turbulent flux of $c$.
@@ -6818,13 +6693,11 @@ Turbulence closure models are mathematical models used to simulate and analyze t
 The Reynolds-averaged Navier-Stokes equations are a set of equations that describe the motion of fluids in a non-conservative form. They can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u_i}}{\partial t} + \frac{\partial \overline{u_i u_j}}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \overline{p}}{\partial x_i} + \nu \frac{\partial^2 \overline{u_i}}{\partial x_j \partial x_j} + \frac{\partial \overline{u_i u_j}}{\partial x_j} - \frac{\partial \overline{u_i u_j}}{\partial x_j}
 
 $$
-
 
 
 where $\overline{u_i}$ is the time-averaged velocity component, $\overline{p}$ is the time-averaged pressure, $\rho$ is the density, and $\nu$ is the kinematic viscosity. These equations are derived by averaging the continuity and momentum equations, taking into account the ensemble rules of averaging.
@@ -6864,13 +6737,11 @@ Turbulence closure models are mathematical models used to simulate and analyze t
 The Reynolds-averaged Navier-Stokes equations are a set of equations that describe the motion of fluids in a non-conservative form. They can be written as:
 
 
-
 $$
 
 \frac{\partial \overline{u_i}}{\partial t} + \frac{\partial \overline{u_i u_j}}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \overline{p}}{\partial x_i} + \nu \frac{\partial^2 \overline{u_i}}{\partial x_j \partial x_j} + \frac{\partial \overline{u_i u_j}}{\partial x_j} - \frac{\partial \overline{u_i u_j}}{\partial x_j}
 
 $$
-
 
 
 where $\overline{u_i}$ is the time-averaged velocity component, $\overline{p}$ is the time-averaged pressure, $\rho$ is the density, and $\nu$ is the kinematic viscosity. These equations are derived by averaging the continuity and momentum equations, taking into account the ensemble rules of averaging.
@@ -11372,7 +11243,6 @@ By using the equations of hydrostatic equilibrium, combined with conservation of
 
 
 Using Kramers' opacity law, it is found that the mid-plane temperature and density, $T_c$ and $\rho$ respectively, are related to the accretion rate, $\dot{M}_{16}$, the mass of the central accreting object, $m_1$, and the radius of a point in the disk, $R_{10}$, as follows:
-
 
 
 $$

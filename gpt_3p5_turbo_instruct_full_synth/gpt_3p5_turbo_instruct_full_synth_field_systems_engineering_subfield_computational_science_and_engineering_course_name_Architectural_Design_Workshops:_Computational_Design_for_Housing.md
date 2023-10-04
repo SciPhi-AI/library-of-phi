@@ -3134,9 +3134,7 @@ To practice 3D grammars by hand, we will use a simple example of a house design.
 
 
 $$
-
 LHS: Rectangle \rightarrow RHS: Rectangle + Triangle
-
 $$
 
 
@@ -3150,9 +3148,7 @@ Now, let's say we want to generate a more complex design with multiple levels an
 
 
 $$
-
 LHS: Rectangle + Triangle \rightarrow RHS: Rectangle + Triangle + Square
-
 $$
 
 

@@ -1602,7 +1602,6 @@ In the case of a liquid droplet on a solid surface, the interfacial tensions bet
 $$\cos\theta = \frac{\gamma_{sg} - \gamma_{sl}}{\gamma_{lg}}$$
 
 
-
 Where $\theta$ is the contact angle, $\gamma_{sg}$ is the interfacial tension between the solid and gas phases, $\gamma_{sl}$ is the interfacial tension between the solid and liquid phases, and $\gamma_{lg}$ is the interfacial tension between the liquid and gas phases.
 
 
@@ -1648,9 +1647,7 @@ The stress boundary conditions at the interface between the liquid, solid, and g
 In the case of a liquid droplet on a solid surface, the stress boundary conditions are influenced by the interfacial tensions between the liquid and solid phases, as well as the contact angle. According to Young's Law, the contact angle is directly proportional to the interfacial tensions between the liquid and solid phases, and inversely proportional to the interfacial tension between the liquid and gas phases. This relationship can be expressed mathematically as:
 
 
-
 $$\gamma_{SL} = \gamma_{SG} + \gamma_{LG} \cos\theta$$
-
 
 
 Where:
@@ -1718,9 +1715,7 @@ In the case of a liquid droplet on a solid surface, the stress boundary conditio
 Young's Law states that the contact angle of a liquid droplet on a solid surface is determined by the interfacial tensions between the three phases involved. Mathematically, it can be expressed as:
 
 
-
 $$\gamma_{SL} = \gamma_{SG} + \gamma_{LG} \cos\theta$$
-
 
 
 where $\gamma_{SL}$ is the interfacial tension between the solid and liquid phases, $\gamma_{SG}$ is the interfacial tension between the solid and gas phases, $\gamma_{LG}$ is the interfacial tension between the liquid and gas phases, and $\theta$ is the contact angle.
@@ -2218,7 +2213,6 @@ Marangoni flows are driven by surface tension gradients, which arise due to vari
 The general equation for heat transfer, also known as the Fourier's law, plays a crucial role in understanding Marangoni flows. It describes the transfer of heat through a material due to a temperature gradient. In the case of Marangoni flows, this equation is modified to include the effects of surface tension gradients. This leads to the equation for entropy production, which takes into account the changes in temperature, pressure, and velocity at the interface.
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
@@ -2228,9 +2222,7 @@ $$
 $$
 
 
-
 The Marangoni effect can also be described using the Young-Laplace equation, which relates the surface tension, contact angle, and curvature at the interface. This equation is essential in understanding the behavior of fluids in confined spaces, such as capillary tubes, where the curvature of the interface plays a significant role.
-
 
 
 $$
@@ -2244,7 +2236,6 @@ v_{i} {\partial \sigma_{ij}\over{\partial x_{j}}} = {\partial\over{\partial x_{j
 \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}} = \mu\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right){\partial v_{i}\over{\partial x_{j}}} + \zeta \delta_{ij}{\partial v_{i}\over{\partial x_{j}}}\nabla\cdot {\bf v}
 
 $$
-
 
 
 In the absence of thermal conduction and viscous forces, the equation for entropy production collapses to $Ds/Dt=0$, indicating that ideal fluid flow is isentropic.
@@ -2292,7 +2283,6 @@ Marangoni flows are driven by surface tension gradients, which arise due to vari
 The general equation for heat transfer, also known as the Fourier's law, plays a crucial role in understanding Marangoni flows. It describes the transfer of heat through a material due to a temperature gradient. In the case of Marangoni flows, this equation is modified to include the effects of surface tension gradients. This leads to the equation for entropy production, which takes into account the changes in temperature, pressure, and velocity at the interface.
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
@@ -2302,9 +2292,7 @@ $$
 $$
 
 
-
 The Marangoni effect can also be described using the Young-Laplace equation, which relates the surface tension, contact angle, and curvature at the interface. This equation is essential in understanding the behavior of fluids in confined spaces, such as capillary tubes, where the curvature of the interface plays a significant role.
-
 
 
 $$
@@ -2318,7 +2306,6 @@ v_{i} {\partial \sigma_{ij}\over{\partial x_{j}}} = {\partial\over{\partial x_{j
 \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}} = \mu\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right){\partial v_{i}\over{\partial x_{j}}} + \zeta \delta_{ij}{\partial v_{i}\over{\partial x_{j}}}\nabla\cdot {\bf v} \\
 
 $$
-
 
 
 The Marangoni effect has significant applications in various fields, including fluid dynamics, materials science, and engineering. In fluid dynamics, it is used to study the behavior of fluids in microfluidic devices, where surface tension plays a crucial role. In materials science, it is used to understand the formation of patterns and structures on the surface of materials. In engineering, it is used to design and optimize processes involving liquid-liquid or solid-liquid interfaces, such as in the production of emulsions or coatings.
@@ -2374,7 +2361,6 @@ Marangoni flows are driven by surface tension gradients, which arise due to vari
 The general equation for heat transfer, also known as the Fourier's law, plays a crucial role in understanding Marangoni flows. It describes the transfer of heat through a material due to a temperature gradient. In the case of Marangoni flows, this equation is modified to include the effects of surface tension gradients. This leads to the equation for entropy production, which takes into account the changes in temperature, pressure, and velocity at the interface.
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
@@ -2384,9 +2370,7 @@ $$
 $$
 
 
-
 The Marangoni effect can also be described using the Young-Laplace equation, which relates the surface tension, contact angle, and curvature at the interface. This equation is essential in understanding the behavior of fluids in confined spaces, such as capillary tubes, where the curvature of the interface plays a significant role.
-
 
 
 $$
@@ -2396,7 +2380,6 @@ v_{i} {\partial \sigma_{ij}\over{\partial x_{j}}} = {\partial\over{\partial x_{j
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot\nabla s + \nabla\cdot\left(\rho D\nabla s\right)
 
 $$
-
 
 
 ### Subsection: 5.1b Marangoni Flow Mechanisms
@@ -2846,13 +2829,11 @@ Before delving into the dynamics of fluid sheets, let us first define some key t
 The behavior of fluid sheets is governed by the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations can be simplified for a two-dimensional system, resulting in the thin film equation:
 
 
-
 $$
 
 \rho {\partial h\over{\partial t}} = -\nabla\cdot(\rho h{\bf v})
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $h$ is the thickness of the fluid sheet, and ${\bf v}$ is the velocity of the fluid.
@@ -2904,13 +2885,11 @@ Before delving into the dynamics of fluid sheets, let us first define some key t
 The behavior of fluid sheets is governed by the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations can be simplified for a two-dimensional system, resulting in the thin film equation:
 
 
-
 $$
 
 \rho {\partial h\over{\partial t}} = -\nabla\cdot(\rho h{\bf v})
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $h$ is the thickness of the fluid sheet, and ${\bf v}$ is the velocity of the fluid.
@@ -3002,13 +2981,11 @@ Before delving into the dynamics of fluid sheets, let us first define some key t
 The behavior of fluid sheets is governed by the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations can be simplified for a two-dimensional system, resulting in the thin film equation:
 
 
-
 $$
 
 \rho {\partial h\over{\partial t}} = -\nabla\cdot(\rho h{\bf v})
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $h$ is the thickness of the fluid sheet, and ${\bf v}$ is the velocity of the fluid.
@@ -3454,13 +3431,11 @@ Surface roughness is a common cause of non-ideal surfaces and can significantly 
 In the case of homogeneous roughness, the contact angle is affected by the average roughness of the surface. This can be described by the Wenzel equation:
 
 
-
 $$
 
 \cos\theta_w = r\cos\theta
 
 $$
-
 
 
 Where $\theta_w$ is the contact angle on a rough surface, $\theta$ is the contact angle on a smooth surface, and $r$ is the roughness factor, which is the ratio of the actual surface area to the projected surface area.
@@ -3470,13 +3445,11 @@ Where $\theta_w$ is the contact angle on a rough surface, $\theta$ is the contac
 On the other hand, heterogeneous roughness can lead to contact angle hysteresis due to the presence of different surface energies on the solid surface. This can be described by the Cassie-Baxter equation:
 
 
-
 $$
 
 \cos\theta_c = f_1\cos\theta_1 + f_2\cos\theta_2
 
 $$
-
 
 
 Where $\theta_c$ is the contact angle on a heterogeneous surface, $\theta_1$ and $\theta_2$ are the contact angles on the two different surface regions, and $f_1$ and $f_2$ are the fractional areas of the two regions.
@@ -3490,13 +3463,11 @@ Where $\theta_c$ is the contact angle on a heterogeneous surface, $\theta_1$ and
 Chemical heterogeneity of a solid surface can also affect the wetting behavior of a liquid. This is due to the difference in surface energies of the different chemical regions on the surface. The contact angle on a chemically heterogeneous surface can be described by the Johnson-Kendall-Roberts (JKR) equation:
 
 
-
 $$
 
 \cos\theta_{JKR} = \frac{\gamma_{SL} - \gamma_{SV}}{\gamma_{LV}}
 
 $$
-
 
 
 Where $\gamma_{SL}$, $\gamma_{SV}$, and $\gamma_{LV}$ are the surface energies of the solid-liquid, solid-vapor, and liquid-vapor interfaces, respectively.
@@ -3510,13 +3481,11 @@ Where $\gamma_{SL}$, $\gamma_{SV}$, and $\gamma_{LV}$ are the surface energies o
 The viscoelastic properties of a liquid can also play a role in the wetting behavior on textured solids. In the case of power law fluids, the contact angle can be described by the following equation:
 
 
-
 $$
 
 \cos\theta = \left(1 + \frac{t(2n+3)}{4n+2}\left(\frac{(4h_0L_0)^{n+1}F(n+2)}{(2L_0)^{2n+3}Wm}\right)^{\frac{1}{n}}\right)^{\frac{n}{2n+3}}
 
 $$
-
 
 
 Where $t$ is the time, $n$ is the dimensionless flow behavior index, $h_0$ is the initial film thickness, $L_0$ is the initial contact length, $F$ is the applied force, $W$ is the width of the contact region, and $m$ is the flow consistency index.
@@ -3572,13 +3541,11 @@ Surface roughness is a common cause of non-ideal surfaces and can significantly 
 In the case of homogeneous roughness, the contact angle is affected by the average roughness of the surface. This can be described by the Wenzel equation:
 
 
-
 $$
 
 \cos\theta_w = r\cos\theta
 
 $$
-
 
 
 where $\theta_w$ is the contact angle on a rough surface, $\theta$ is the contact angle on a smooth surface, and $r$ is the roughness factor, defined as the ratio of the actual surface area to the projected surface area.
@@ -3588,13 +3555,11 @@ where $\theta_w$ is the contact angle on a rough surface, $\theta$ is the contac
 On the other hand, heterogeneous roughness can lead to contact angle hysteresis due to the presence of different surface energies on the solid surface. This can be described by the Cassie-Baxter equation:
 
 
-
 $$
 
 \cos\theta_c = f_1\cos\theta_1 + f_2\cos\theta_2
 
 $$
-
 
 
 where $\theta_c$ is the contact angle on a heterogeneous surface, $\theta_1$ and $\theta_2$ are the contact angles on the two different surface regions, and $f_1$ and $f_2$ are the fractional areas of the two regions.
@@ -4384,13 +4349,11 @@ The physical significance of interfacial tension can be understood by considerin
 The Young-Laplace equation is a fundamental equation in the study of interfacial tension. It relates the interfacial tension to the curvature of the interface and is given by:
 
 
-
 $$
 
 \Delta P = \sigma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference across the interface, $R_1$ and $R_2$ are the principal radii of curvature of the interface. This equation shows that the interfacial tension is inversely proportional to the radius of curvature, meaning that the smaller the radius of curvature, the higher the interfacial tension.
@@ -4462,13 +4425,11 @@ Emulsions are mixtures of two immiscible liquids, such as oil and water. The sta
 The Young-Laplace equation is a fundamental equation in the study of interfacial tension. It relates the interfacial tension to the curvature of the interface and is given by:
 
 
-
 $$
 
 \Delta P = \sigma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference across the interface, $\sigma$ is the interfacial tension, and $R_1$ and $R_2$ are the principal radii of curvature of the interface. This equation can be derived from the balance of forces at the interface, taking into account the surface tension forces and the pressure difference.
@@ -4828,13 +4789,11 @@ One of the key factors that contribute to surface forces is the presence of a su
 Surface tension is a material property that represents the fixed amount of energy associated with forming a surface of a given area. It is measured in units of energy per unit area, such as joules per square meter. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \gamma = \frac{\Delta E}{\Delta A}
 
 $$
-
 
 
 where $\gamma$ is the surface tension, $\Delta E$ is the change in energy, and $\Delta A$ is the change in surface area.
@@ -5008,13 +4967,11 @@ Capillary effects, also known as capillary action or capillarity, are the result
 The underlying principle of capillary effects can be described by the Young-Laplace equation, which relates the surface tension, contact angle, and curvature of the interface. This equation is given by:
 
 
-
 $$
 
 \Delta P = \gamma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
 
 $$
-
 
 
 where $\Delta P$ is the capillary pressure, $\gamma$ is the surface tension, and $R_1$ and $R_2$ are the principal radii of curvature of the interface.
@@ -5058,13 +5015,11 @@ Capillary effects, also known as capillary action or capillarity, are the result
 The underlying principle of capillary effects can be described by the Young-Laplace equation, which relates the surface tension, contact angle, and curvature of the interface. This equation is given by:
 
 
-
 $$
 
 \Delta P = \gamma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
 
 $$
-
 
 
 where $\Delta P$ is the capillary pressure, $\gamma$ is the surface tension, and $R_1$ and $R_2$ are the principal radii of curvature of the interface.
@@ -5296,9 +5251,7 @@ There are three main types of wetting: complete wetting, partial wetting, and no
 The wetting behavior of a liquid is determined by the balance between the surface energies of the solid-liquid, solid-gas, and liquid-gas interfaces. This balance is described by the Young-Dupré equation, which states that the contact angle between the liquid and solid surface is related to the surface energies by:
 
 
-
 $$\gamma_{SG} - \gamma_{SL} = \gamma_{LG} \cos\theta$$
-
 
 
 where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{SL}$ is the surface energy of the solid-liquid interface, $\gamma_{LG}$ is the surface energy of the liquid-gas interface, and $\theta$ is the contact angle.
@@ -5312,9 +5265,7 @@ where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{S
 The spreading parameter, denoted by $S$, is a useful parameter for gauging wetting behavior. It is defined as:
 
 
-
 $$S = \gamma_{SG} - \gamma_{SL} - \gamma_{LG}$$
-
 
 
 When $S > 0$, the liquid wets the surface completely (complete wetting). When $S < 0$, partial wetting occurs. The spreading parameter takes into account the surface energies of all three interfaces and provides a more comprehensive understanding of wetting behavior.
@@ -5324,9 +5275,7 @@ When $S > 0$, the liquid wets the surface completely (complete wetting). When $S
 Combining the spreading parameter definition with the Young-Dupré equation yields:
 
 
-
 $$\gamma_{SG} - \gamma_{SL} = \gamma_{LG} \cos\theta = -S$$
-
 
 
 This equation only has physical solutions for $\theta$ when $S < 0$, indicating partial wetting. When $S > 0$, the equation has no physical solutions, indicating complete wetting.
@@ -5382,9 +5331,7 @@ There are three main types of wetting: complete wetting, partial wetting, and no
 The wetting behavior of a liquid is determined by the balance between the surface energies of the solid-liquid, solid-gas, and liquid-gas interfaces. This balance is described by the Young-Dupré equation, which states that the contact angle between the liquid and solid surface is related to the surface energies by:
 
 
-
 $$\gamma_{SG} - \gamma_{SL} = \gamma_{LG} \cos\theta$$
-
 
 
 where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{SL}$ is the surface energy of the solid-liquid interface, $\gamma_{LG}$ is the surface energy of the liquid-gas interface, and $\theta$ is the contact angle.
@@ -5398,9 +5345,7 @@ where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{S
 The spreading parameter, denoted by $S$, is a useful parameter for gauging wetting behavior. It is defined as:
 
 
-
 $$S = \gamma_{SG} - \gamma_{SL} - \gamma_{LG}$$
-
 
 
 When $S > 0$, the liquid will spread over the solid surface, indicating complete wetting. When $S < 0$, the liquid will form droplets on the surface, indicating non-wetting. The magnitude of $S$ also affects the wetting behavior. A larger magnitude of $S$ indicates a stronger tendency for the liquid to spread, while a smaller magnitude indicates a weaker tendency for the liquid to spread.
@@ -5466,9 +5411,7 @@ Since the sum of each row in $L$ is equal to 0, the vector of all ones, denoted 
 This has important implications for the equilibrium behavior of a system. For a given initial condition $c(0)$ for a graph with $N$ vertices, the equilibrium state can be written as:
 
 
-
 $$\lim_{t \to \infty} c(t) = \sum_{j} \phi_j c_j(0)$$
-
 
 
 where $\phi_j$ is the equilibrium state of each vertex $j$ in the graph. In other words, the equilibrium state is determined by the initial condition and the equilibrium state of each individual vertex.
@@ -5512,9 +5455,7 @@ There are three main types of wetting: complete wetting, partial wetting, and no
 The wetting behavior of a liquid is determined by the balance between the surface energies of the solid-liquid, solid-gas, and liquid-gas interfaces. This balance is described by the Young-Dupré equation, which states that the contact angle between the liquid and solid surface is related to the surface energies by:
 
 
-
 $$\gamma_{SG} - \gamma_{SL} = \gamma_{LG} \cos\theta$$
-
 
 
 where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{SL}$ is the surface energy of the solid-liquid interface, $\gamma_{LG}$ is the surface energy of the liquid-gas interface, and $\theta$ is the contact angle.
@@ -5526,7 +5467,6 @@ where $\gamma_{SG}$ is the surface energy of the solid-gas interface, $\gamma_{S
 
 
 The spreading parameter, denoted by $S$, is a useful parameter for gauging wetting behavior. It is defined as:
-
 
 
 $$S = \gamma_{SG} - \gamma_{SL} - \gamma_{LG}$$

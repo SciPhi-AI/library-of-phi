@@ -438,9 +438,7 @@ To estimate the contribution of GBS to the total strain, we can use the followin
 
 
 $$
-
 X = \frac{\epsilon_{gbs}}{\epsilon_{t}}
-
 $$
 
 
@@ -450,9 +448,7 @@ Where $\epsilon_{gbs}$ is the strain due to GBS and $\epsilon_{t}$ is the total 
 
 
 $$
-
 \epsilon_{t} = \epsilon_{g} + \epsilon_{gbs}
-
 $$
 
 
@@ -470,9 +466,7 @@ We can further define the angle at the u-v plane of displacements as $\psi$, and
 
 
 $$
-
 u = v\tan{\psi} + w\tan{\Theta}
-
 $$
 
 
@@ -482,9 +476,7 @@ Another common and practical method for measuring GBS strain is through interfer
 
 
 $$
-
 \epsilon_{gbs} = k''nr\bar{v}
-
 $$
 
 
@@ -578,9 +570,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F}
-
 $$
 
 
@@ -594,9 +584,7 @@ The perturbed Piola stress is given by:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S} = \mathcal{A}^1(\mathbf{S}^0,\mathbf{F}^0)\delta\mathbf{F} + \mathcal{A}^1_0\delta p
-
 $$
 
 
@@ -606,9 +594,7 @@ where $\delta p$ is the increment in pressure and $\mathcal{A}^1$ is the elastic
 
 
 $$
-
 \mathbf{S}^1 = \mathcal{A}^1_0\delta p + \mathcal{A}^1(\mathbf{S}^0,\mathbf{F}^0)\delta\mathbf{F}
-
 $$
 
 
@@ -618,9 +604,7 @@ The incremental governing equations can be derived by expanding the equilibrium 
 
 
 $$
-
 {\rm div}\,\mathbf{S}^0 = \mathbf{0}
-
 $$
 
 
@@ -630,9 +614,7 @@ Since $\mathbf{S}^0$ is the solution to the equation at the zero-order, the incr
 
 
 $$
-
 {\rm div}\,\mathbf{S}^1 = \mathbf{0}
-
 $$
 
 
@@ -642,9 +624,7 @@ The incremental incompressibility constraint reads:
 
 
 $$
-
 {\rm tr}\,\mathbf{F}^1 = 0
-
 $$
 
 
@@ -654,9 +634,7 @@ Expanding this equation around the basic solution, we get:
 
 
 $$
-
 {\rm tr}\,\mathbf{F}^0 + {\rm tr}\,\delta\mathbf{F} = 0
-
 $$
 
 
@@ -704,9 +682,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F}
-
 $$
 
 
@@ -720,9 +696,7 @@ Stresses play a crucial role in progressive deformation, as they are the driving
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S}
-
 $$
 
 
@@ -732,9 +706,7 @@ where $\delta p$ is the increment in pressure and $\mathcal{A}^1$ is known as th
 
 
 $$
-
 \bar{\mathbf{T}} = \mathcal{A}^1_0 \cdot \bar{\mathbf{S}}
-
 $$
 
 
@@ -744,9 +716,7 @@ where $\mathcal{A}^1_0$ is also known as "the tensor of instantaneous moduli", w
 
 
 $$
-
 \mathcal{A}^1_{0ij} = \frac{\partial \bar{S}_{ij}}{\partial F_{kl}}
-
 $$
 
 
@@ -756,9 +726,7 @@ The incremental governing equations for progressive deformation can be derived b
 
 
 $$
-
 {\rm div} \, \bar{\mathbf{T}} = \mathbf{0}
-
 $$
 
 
@@ -768,9 +736,7 @@ where ${\rm div}$ is the divergence operator with respect to the actual configur
 
 
 $$
-
 {\rm div} \, \bar{\mathbf{u}} = \mathbf{0}
-
 $$
 
 
@@ -826,9 +792,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \frac{\partial \bar{\mathbf{x}}}{\partial {\bf x}^0} = \mathbf{\Gamma} = {\rm grad} \,\chi^1({\bf x}^0)
-
 $$
 
 
@@ -846,9 +810,7 @@ The perturbed Piola stress is given by:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathcal{A}^1 \cdot \delta\mathbf{E} + \delta p \cdot \mathcal{A}^1_0
-
 $$
 
 
@@ -858,9 +820,7 @@ where $\delta p$ is the increment in pressure and $\mathcal{A}^1$ is the elastic
 
 
 $$
-
 \bar{\mathbf{T}} = \mathcal{A}^1_0 \cdot \delta\mathbf{E} + \delta p \cdot \mathcal{A}^1_0
-
 $$
 
 
@@ -870,9 +830,7 @@ where $\mathcal{A}^1_0$ is also known as "the tensor of instantaneous moduli", w
 
 
 $$
-
 \mathcal{A}^1_0 = \frac{\partial \mathbf{S}}{\partial \mathbf{E}} + \frac{\partial p}{\partial \mathbf{E}}
-
 $$
 
 
@@ -886,9 +844,7 @@ Expanding the equilibrium equation around the basic solution, we get:
 
 
 $$
-
 {\rm div} \,\bar{\mathbf{T}} = \mathbf{0}
-
 $$
 
 
@@ -898,9 +854,7 @@ Since $\mathbf{S}^0$ is the solution to the equation at the zero-order, the incr
 
 
 $$
-
 {\rm div} \,\bar{\mathbf{T}} + {\rm div} \,\delta\mathbf{T} = \mathbf{0}
-
 $$
 
 
@@ -914,9 +868,7 @@ The incremental incompressibility constraint reads:
 
 
 $$
-
 {\rm tr} \,\bar{\mathbf{E}} = 0
-
 $$
 
 
@@ -926,9 +878,7 @@ Expanding this equation around the basic solution, we get:
 
 
 $$
-
 {\rm tr} \,\bar{\mathbf{E}} + {\rm tr} \,\delta\mathbf{E} = 0
-
 $$
 
 
@@ -946,17 +896,13 @@ Let $\overline{\delta {\bf u}}$ and $\overline{\delta {\bf t}}$ be the prescribe
 
 
 $$
-
 \overline{\delta {\bf u}} = \delta {\bf u} + \bar{\mathbf{F}} \cdot {\bf u}_0^{*}
-
 $$
 
 
 
 $$
-
 \overline{\delta {\bf t}} = \delta {\bf t} + \bar{\mathbf{T}} \cdot {\bf t}_0^{*}
-
 $$
 
 
@@ -986,17 +932,13 @@ Elastic behavior is a fundamental concept in the study of structural geology. It
 In an isotropic material, the elasticity tensor simplifies to:
 
 $$
-
 C^{ijkl} = \lambda \!\left( X \right) g^{ij} g^{kl} + \mu\!\left( X \right) \left(g^{ik} g^{jl} + g^{il} g^{kj} \right)
-
 $$
 
 where $\lambda$ and $\mu$ are scalar functions of the material coordinates $X$, and $\mathbf{g}$ is the metric tensor in the reference frame of the material. In an orthonormal Cartesian coordinate basis, there is no distinction between upper and lower indices, and the metric tensor can be replaced with the Kronecker delta:
 
 $$
-
 C_{ijkl} = \lambda \!\left( X \right) \delta_{ij} \delta_{kl} + \mu\!\left( X \right) \left(\delta_{ik} \delta_{jl} + \delta_{il} \delta_{kj} \right) \quad \text{[Cartesian coordinates]}
-
 $$
 
 
@@ -1004,9 +946,7 @@ $$
 Substituting the first equation into the stress-strain relation and summing over repeated indices gives:
 
 $$
-
 \sigma_{ij} = \lambda \epsilon_{kk} \delta_{ij} + 2\mu \epsilon_{ij}
-
 $$
 
 where $\mathrm{Tr}\, \mathbf{E} \equiv E^i_{\,i}$ is the trace of $\mathbf{E}$. In this form, $\mu$ and $\lambda$ can be identified with the first and second Lamé parameters, respectively.
@@ -1016,17 +956,13 @@ where $\mathrm{Tr}\, \mathbf{E} \equiv E^i_{\,i}$ is the trace of $\mathbf{E}$. 
 An equivalent expression is:
 
 $$
-
 \sigma_{ij} = K \epsilon_{kk} \delta_{ij} + 2\mu \epsilon_{ij}
-
 $$
 
 where $K = \lambda + (2/3) \mu$ is the bulk modulus, and $\mathbf{\Sigma}$ is the shear tensor with components:
 
 $$
-
 \Sigma_{ij} = \mu \left(\epsilon_{ij} + \epsilon_{ji}\right)
-
 $$
 
 
@@ -1034,9 +970,7 @@ $$
 Now, let's consider the elasticity tensor for cubic crystals. It has components:
 
 $$
-
 C^{ijkl} &= \lambda g^{ij} g^{kl} + \mu \left(g^{ik} g^{jl} + g^{il} g^{kj} \right) \\ &+ \alpha \left(a^i a^j a^k a^l + b^i b^j b^k b^l + c^i c^j c^k c^l\right)
-
 $$
 
 where $\mathbf{a}$, $\mathbf{b}$, and $\mathbf{c}$ are unit vectors corresponding to the three mutually perpendicular axes of the crystal unit cell. The coefficients $\lambda$, $\mu$, and $\alpha$ are scalars and intrinsic material constants. This means that they are independent of the coordinate system and describe the material's properties.

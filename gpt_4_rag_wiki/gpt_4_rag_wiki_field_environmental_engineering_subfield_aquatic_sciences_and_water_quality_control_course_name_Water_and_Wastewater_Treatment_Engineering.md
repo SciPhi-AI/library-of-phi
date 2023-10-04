@@ -809,9 +809,7 @@ The mathematical model used to describe the behavior of mixed tanks is the Conti
 
 
 $$
-
 \frac{d(CV)}{dt} = Q_{in}C_{in} - Q_{out}C + rV
-
 $$
 
 
@@ -855,9 +853,7 @@ The volume of the tank ($V$) and the hydraulic retention time (HRT) are interrel
 
 
 $$
-
 HRT = \frac{V}{Q_{in}}
-
 $$
 
 
@@ -939,9 +935,7 @@ The mathematical representation of a first-order reaction is given by the follow
 
 
 $$
-
 \frac{d[A]}{dt} = -k[A]
-
 $$
 
 
@@ -967,9 +961,7 @@ The solution to this differential equation, which gives the concentration of the
 
 
 $$
-
 [A] = [A]_0 e^{-kt}
-
 $$
 
 
@@ -1017,9 +1009,7 @@ Using the equation for first-order reactions:
 
 
 $$
-
 [A] = [A]_0 e^{-kt}
-
 $$
 
 
@@ -1029,9 +1019,7 @@ We can solve for the time $t$ required to achieve the desired pollutant concentr
 
 
 $$
-
 t = \frac{1}{k} \ln \left(\frac{[A]_0}{[A]_f}\right)
-
 $$
 
 
@@ -1065,9 +1053,7 @@ The Monod equation is given by:
 
 
 $$
-
 r = \frac{\mu_{max} [A]}{K_s + [A]}
-
 $$
 
 
@@ -1089,9 +1075,7 @@ The zero-order rate equation is given by:
 
 
 $$
-
 [A] = [A]_0 - kt
-
 $$
 
 
@@ -1121,9 +1105,7 @@ The mathematical representation of plug flow is given by the plug flow reactor (
 
 
 $$
-
 \frac{d[A]}{dt} = -k[A]
-
 $$
 
 
@@ -1153,9 +1135,7 @@ The design of a PFR begins with the determination of the reactor volume. This is
 
 
 $$
-
 V = Q \times \tau
-
 $$
 
 
@@ -1217,9 +1197,7 @@ The degree of mixing in a DFR can be quantified using the dispersion number (D),
 
 
 $$
-
 D = \frac{E}{vL}
-
 $$
 
 
@@ -1313,9 +1291,7 @@ Mathematically, the RTD of a TIS system with $n$ tanks can be represented as:
 
 
 $$
-
 E(t) = \frac{(n t^{n-1})}{\tau^n} e^{-nt/\tau}
-
 $$
 
 
@@ -1357,9 +1333,7 @@ The size of the tanks is another important design parameter. It is usually deter
 
 
 $$
-
 \tau = \frac{V}{Q}
-
 $$
 
 
@@ -1583,7 +1557,6 @@ Discuss the mathematical models used to describe the behavior of substances with
 Given the following parameters, calculate the hydraulic retention time (HRT) for a reactor tank: flow rate = 500 m³/day, tank volume = 2500 m³. Use the formula: $$HRT = \frac{Volume}{Flow Rate}$$
 
 
-
 #### Exercise 5
 
 Design a simple reactor tank for a small community. Discuss the design considerations, the type of reactor tank you would choose, and the reasons for your choices.
@@ -1679,13 +1652,11 @@ Understanding the intricacies of these processes is crucial for engineers and pr
 Sedimentation is a gravity-driven process that separates suspended particles from a liquid medium. The principle behind sedimentation is straightforward: when the gravitational force acting on a particle is greater than the forces of buoyancy and drag, the particle will settle. This can be expressed mathematically using Stokes' Law:
 
 
-
 $$
 
 v = \frac{{d^2(g - 1)\rho}}{18\mu}
 
 $$
-
 
 
 where:
@@ -2389,13 +2360,11 @@ The principle of water softening revolves around the concept of ion exchange. In
 The ion exchange process can be represented by the following equation:
 
 
-
 $$
 
 \text{Resin}-\text{Na} + \text{Ca}^{2+} \rightarrow \text{Resin}-\text{Ca} + 2\text{Na}^{+}
 
 $$
-
 
 
 This equation represents the exchange of sodium ions (Na+) on the resin with calcium ions (Ca2+) in the water. The process is similar for magnesium ions.
@@ -2425,13 +2394,11 @@ In the process of water softening, several chemicals are used to facilitate the 
 Sodium chloride, commonly known as table salt, is the most frequently used chemical in the regeneration of ion exchange resins. The sodium ions in the salt solution displace the hardness-causing calcium and magnesium ions on the resin, recharging it for further use. The chemical reaction can be represented as follows:
 
 
-
 $$
 
 \text{Resin}-\text{Ca} + 2\text{NaCl} \rightarrow \text{Resin}-\text{Na} + \text{CaCl}_2
 
 $$
-
 
 
 ##### Potassium Chloride
@@ -2441,13 +2408,11 @@ $$
 Potassium chloride can be used as an alternative to sodium chloride for those who are concerned about the sodium content in softened water. The potassium ions perform the same function as the sodium ions in the regeneration process. The chemical reaction is similar to that with sodium chloride:
 
 
-
 $$
 
 \text{Resin}-\text{Ca} + 2\text{KCl} \rightarrow \text{Resin}-\text{K} + \text{CaCl}_2
 
 $$
-
 
 
 ##### Lime and Soda Ash
@@ -2461,7 +2426,6 @@ In some cases, especially in industrial applications, lime (calcium hydroxide) a
 For calcium hardness:
 
 
-
 $$
 
 \text{Ca}^{2+} + \text{Ca(OH)}_2 \rightarrow 2\text{CaCO}_3 \downarrow + 2\text{H}_2\text{O}
@@ -2469,9 +2433,7 @@ $$
 $$
 
 
-
 For magnesium hardness:
-
 
 
 $$
@@ -2480,14 +2442,11 @@ $$
 
 $$
 
-
-
 $$
 
 \text{Mg(OH)}_2 + \text{2Na}_2\text{CO}_3 \rightarrow \text{MgCO}_3 \downarrow + 2\text{NaOH} + \text{H}_2\text{O}
 
 $$
-
 
 
 In the next section, we will discuss the design considerations and operational aspects of water softening systems, taking into account the use of these chemicals.
@@ -2533,7 +2492,6 @@ The regeneration process can be represented as follows:
 For sodium chloride or potassium chloride:
 
 
-
 $$
 
 \text{Resin}-\text{Mg/Ca} + 2\text{Na/KCl} \rightarrow \text{Resin}-\text{Na/K} + \text{Mg/CaCl}_2
@@ -2541,9 +2499,7 @@ $$
 $$
 
 
-
 For lime and soda ash:
-
 
 
 $$
@@ -2552,22 +2508,17 @@ $$
 
 $$
 
-
-
 $$
 
 \text{Mg}^{2+} + \text{Ca(OH)}_2 \rightarrow \text{Mg(OH)}_2 \downarrow + \text{Ca}^{2+}
 
 $$
 
-
-
 $$
 
 \text{Mg(OH)}_2 + \text{2Na}_2\text{CO}_3 \rightarrow \text{MgCO}_3 \downarrow + 2\text{NaOH} + \text{H}_2\text{O}
 
 $$
-
 
 
 In the next section, we will delve deeper into the operational considerations of water softening systems, including maintenance and troubleshooting.
@@ -2597,13 +2548,11 @@ Nanotechnology has shown promise in the field of water softening. Nanoscale mate
 For instance, the use of nano-resins can be represented as follows:
 
 
-
 $$
 
 \text{Nano-Resin}-\text{Mg/Ca} + 2\text{Na/KCl} \rightarrow \text{Nano-Resin}-\text{Na/K} + \text{Mg/CaCl}_2
 
 $$
-
 
 
 ##### Membrane Softening
@@ -2761,13 +2710,11 @@ The adsorption process is governed by several factors, including the nature of t
 The Langmuir isotherm assumes that adsorption occurs on a homogeneous surface with a finite number of identical sites. Once a site is filled, no further adsorption can take place at that site. The Langmuir isotherm is represented by the equation:
 
 
-
 $$
 
 q_e = \frac{q_m b C_e}{1 + b C_e}
 
 $$
-
 
 
 where $q_e$ is the amount of adsorbate adsorbed per unit weight of adsorbent at equilibrium, $q_m$ is the maximum amount of adsorbate that can be adsorbed per unit weight of adsorbent, $b$ is the Langmuir constant related to the energy of adsorption, and $C_e$ is the equilibrium concentration of the adsorbate.
@@ -2781,13 +2728,11 @@ where $q_e$ is the amount of adsorbate adsorbed per unit weight of adsorbent at 
 The Freundlich isotherm is an empirical equation that assumes that the surface of the adsorbent is heterogeneous and that the amount of adsorbate adsorbed increases indefinitely with increasing concentration. The Freundlich isotherm is represented by the equation:
 
 
-
 $$
 
 q_e = K_f C_e^{1/n}
 
 $$
-
 
 
 where $K_f$ and $n$ are Freundlich constants related to the adsorption capacity and intensity, respectively.
@@ -2817,13 +2762,11 @@ The ion exchange process is governed by the selectivity of the ion exchanger, wh
 The equilibrium model assumes that the ion exchange process reaches a state of equilibrium where the rate of ion exchange is equal to the rate of ion desorption. The equilibrium model is represented by the equation:
 
 
-
 $$
 
 q_e = K_d C_e
 
 $$
-
 
 
 where $q_e$ is the amount of ion adsorbed per unit weight of ion exchanger at equilibrium, $K_d$ is the distribution coefficient, and $C_e$ is the equilibrium concentration of the ion.
@@ -2837,13 +2780,11 @@ where $q_e$ is the amount of ion adsorbed per unit weight of ion exchanger at eq
 The kinetic model describes the rate of ion exchange. It assumes that the ion exchange process is not instantaneous and that the rate of ion exchange is proportional to the concentration of the ion in the solution. The kinetic model is represented by the equation:
 
 
-
 $$
 
 \frac{dq}{dt} = k (C - q)
 
 $$
-
 
 
 where $\frac{dq}{dt}$ is the rate of ion exchange, $k$ is the rate constant, $C$ is the concentration of the ion in the solution, and $q$ is the amount of ion adsorbed per unit weight of ion exchanger.
@@ -3541,13 +3482,11 @@ The third factor is the temperature and pressure conditions. Higher temperatures
 The principles of gas transfer can be mathematically represented by the two-film theory, which models the gas transfer process as occurring through two stagnant films of water and gas. The rate of gas transfer, $N$, can be expressed as:
 
 
-
 $$
 
 N = k_L \cdot A \cdot (C_L - C_G)
 
 $$
-
 
 
 where $k_L$ is the overall mass transfer coefficient, $A$ is the interfacial area, $C_L$ is the concentration of the gas in the liquid phase, and $C_G$ is the concentration of the gas in the gas phase.
@@ -3577,13 +3516,11 @@ The design of a gas transfer system begins with the selection of the appropriate
 The size and configuration of the equipment are determined based on the required rate of gas transfer. This is calculated using the equation:
 
 
-
 $$
 
 N = k_L \cdot A \cdot (C_L - C_G)
 
 $$
-
 
 
 where $N$ is the rate of gas transfer, $k_L$ is the overall mass transfer coefficient, $A$ is the interfacial area, $C_L$ is the concentration of the gas in the liquid phase, and $C_G$ is the concentration of the gas in the gas phase.
@@ -3633,13 +3570,11 @@ Gas transfer processes play a crucial role in various aspects of water and waste
 One of the most common applications of gas transfer in water treatment is the oxygenation of water. This is particularly important in the treatment of wastewater, where oxygen is needed to support the aerobic bacteria that break down organic pollutants. Oxygenation is typically achieved using diffusers that introduce air into the water, creating a large surface area for gas transfer. The rate of oxygen transfer can be calculated using the equation:
 
 
-
 $$
 
 N = k_L \cdot A \cdot (C_L - C_G)
 
 $$
-
 
 
 where $N$ is the rate of oxygen transfer, $k_L$ is the overall mass transfer coefficient, $A$ is the interfacial area, $C_L$ is the concentration of oxygen in the water, and $C_G$ is the concentration of oxygen in the air.
@@ -3685,13 +3620,11 @@ Air stripping is based on the principle of mass transfer between a gas and a liq
 The rate of mass transfer in air stripping can be described by the following equation:
 
 
-
 $$
 
 N = k_L \cdot A \cdot (C_L - C_G)
 
 $$
-
 
 
 where $N$ is the rate of mass transfer, $k_L$ is the overall mass transfer coefficient, $A$ is the interfacial area, $C_L$ is the concentration of the target gas in the water, and $C_G$ is the concentration of the target gas in the air. The larger the difference between $C_L$ and $C_G$, the greater the driving force for mass transfer and the faster the rate of air stripping.
@@ -3733,13 +3666,11 @@ Packed towers involve the flow of water over a packed bed of material, with air 
 The design of the air stripping system also involves the calculation of the required air and water flow rates, based on the mass transfer equation:
 
 
-
 $$
 
 N = k_L \cdot A \cdot (C_L - C_G)
 
 $$
-
 
 
 ##### Operation
@@ -3949,13 +3880,11 @@ The effectiveness of chlorination depends on several factors, including the conc
 The chlorination process can be represented by the following equation:
 
 
-
 $$
 
 \text{Cl}_2 + \text{H}_2\text{O} \rightarrow \text{HOCl} + \text{H}^+ + \text{Cl}^-
 
 $$
-
 
 
 In this reaction, chlorine gas ($\text{Cl}_2$) reacts with water ($\text{H}_2\text{O}$) to form hypochlorous acid ($\text{HOCl}$), a potent disinfectant. The effectiveness of $\text{HOCl}$ as a disinfectant is influenced by the pH of the water. At lower pH values, more $\text{HOCl}$ is formed, which enhances the disinfection process.
@@ -3985,13 +3914,11 @@ Ultraviolet (UV) disinfection is another widely used method in water and wastewa
 The UV disinfection process involves passing water through a chamber that contains a UV light source. As the water flows past the light source, microorganisms in the water are exposed to UV-C light. The UV-C light penetrates the cell walls of the microorganisms and disrupts their DNA or RNA, preventing them from reproducing. This process is represented by the following equation:
 
 
-
 $$
 
 \text{UV-C light} + \text{Microorganism} \rightarrow \text{Inactivated Microorganism}
 
 $$
-
 
 
 The effectiveness of UV disinfection depends on several factors, including the intensity of the UV light, the exposure time, the clarity of the water, and the type and concentration of microorganisms present. UV disinfection is most effective when the water is clear and free of particles that could shield microorganisms from the UV light.
@@ -4021,13 +3948,11 @@ Ozonation is another effective method of disinfection used in water and wastewat
 The ozonation process involves the generation of ozone gas, typically by passing oxygen or dry air through a high voltage electric field. The generated ozone gas is then bubbled through the water to be treated. As the ozone comes into contact with microorganisms in the water, it oxidizes their cell walls, causing them to rupture and die. This process can be represented by the following equation:
 
 
-
 $$
 
 \text{Ozone} + \text{Microorganism} \rightarrow \text{Inactivated Microorganism} + \text{Oxygen}
 
 $$
-
 
 
 The effectiveness of ozonation depends on several factors, including the concentration of ozone, the contact time, the pH of the water, and the type and concentration of microorganisms present. Ozonation is most effective in water with a neutral or slightly acidic pH, as ozone is more stable and reactive in these conditions.
@@ -4063,7 +3988,6 @@ Advanced Oxidation Processes (AOPs) are a set of chemical treatment procedures d
 
 
 AOPs typically involve the combination of ozone, hydrogen peroxide, or UV light to generate hydroxyl radicals. For example, the combination of UV light and hydrogen peroxide can be represented by the following equation:
-
 
 
 $$

@@ -1232,7 +1232,6 @@ Describe the purpose of a transformer in an electric power system.
 Solve the following circuit using Kirchhoff's laws:
 
 $$
-
 \Delta V = 12V \\
 
 R_1 = 5\Omega \\
@@ -1240,7 +1239,6 @@ R_1 = 5\Omega \\
 R_2 = 10\Omega \\
 
 R_3 = 15\Omega \\
-
 $$
 
 
@@ -1302,9 +1300,7 @@ The relationship between real power and reactive power is described by the power
 
 
 $$
-
 S = \sqrt{P^2 + Q^2}
-
 $$
 
 
@@ -1368,9 +1364,7 @@ Power factor is a crucial concept in electric power systems, as it affects the e
 
 
 $$
-
 S = \sqrt{P^2 + Q^2}
-
 $$
 
 
@@ -1422,9 +1416,7 @@ The power triangle is formed by drawing a right triangle with the hypotenuse rep
 
 
 $$
-
 \theta = \tan^{-1} \left(\frac{Q}{P}\right)
-
 $$
 
 
@@ -1434,9 +1426,7 @@ The length of the hypotenuse (S) is equal to the square root of the sum of the s
 
 
 $$
-
 S^2 = P^2 + Q^2
-
 $$
 
 
@@ -1446,9 +1436,7 @@ The power triangle can be used to calculate the power factor (PF) of a system, w
 
 
 $$
-
 PF = \cos \theta = \frac{P}{S}
-
 $$
 
 
@@ -1484,9 +1472,7 @@ Complex power, denoted by the symbol S, is a mathematical representation of the 
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2}
-
 $$
 
 
@@ -1500,9 +1486,7 @@ To calculate the complex power in a single-phase system, we use the following fo
 
 
 $$
-
 S = VI^* = V \cdot I \cdot \cos \theta + jV \cdot I \cdot \sin \theta
-
 $$
 
 
@@ -1516,9 +1500,7 @@ In a three-phase system, the complex power is calculated using the following for
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^* = \sqrt{3}V_{LL} \cdot I \cdot \cos \theta + j\sqrt{3}V_{LL} \cdot I \cdot \sin \theta
-
 $$
 
 
@@ -1532,9 +1514,7 @@ Another commonly used formulation for complex power is the phasor representation
 
 
 $$
-
 S = \vec{V} \cdot \vec{I}^*
-
 $$
 
 
@@ -1574,9 +1554,7 @@ Let's consider a single-phase system with a voltage of 120V and a current of 5A,
 
 
 $$
-
 S = VI^* = (120V)(5A)^* = (120V)(5A)(\cos 30^\circ + j\sin 30^\circ) = 600\cos 30^\circ + j600\sin 30^\circ = 600 + j300
-
 $$
 
 
@@ -1594,9 +1572,7 @@ Now, let's consider a three-phase system with a line-to-line voltage of 480V and
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^* = \sqrt{3}(480V)(10A)^* = \sqrt{3}(480V)(10A)(\cos 45^\circ + j\sin 45^\circ) = 4800\cos 45^\circ + j4800\sin 45^\circ = 4800 + j4800
-
 $$
 
 
@@ -1622,9 +1598,7 @@ Using the formula for complex power in the phasor representation, we can calcula
 
 
 $$
-
 S = \vec{V} \cdot \vec{I}^* = (120V \angle 30^\circ)(5A \angle 30^\circ)^* = (120V \angle 30^\circ)(5A \angle -30^\circ) = 600V \angle 0^\circ = 600 + j0
-
 $$
 
 
@@ -1642,9 +1616,7 @@ Let's consider a single-phase system with a voltage of 240V and a current of 10A
 
 
 $$
-
 S = VI^* = (240V)(10A)^* = (240V)(10A)(\cos \cos^{-1} 0.8 + j\sin \cos^{-1} 0.8) = 2400\cos \cos^{-1} 0.8 + j2400\sin \cos^{-1} 0.8 = 2400 + j1536
-
 $$
 
 
@@ -1654,9 +1626,7 @@ Therefore, the complex power in this single-phase system is 2400 + j1536 VA. How
 
 
 $$
-
 S = VI^* + V^2C^* = (240V)(10A)^* + (240V)^2(10 \times 10^{-6}F)^* = (240V)(10A)(\cos \cos^{-1} 0.8 + j\sin \cos^{-1} 0.8) + (240V)^2(10 \times 10^{-6}F)(\cos 90^\circ + j\sin 90^\circ) = 2400\cos \cos^{-1} 0.8 + j2400\sin \cos^{-1} 0.8 + 0 + j576
-
 $$
 
 
@@ -1696,9 +1666,7 @@ In the previous section, we discussed the various formulations for calculating c
 
 
 $$
-
 S = VI^* = (240V)(8A)^* = (240V)(8A)(\cos 60^\circ + j\sin 60^\circ) = 1920\cos 60^\circ + j1920\sin 60^\circ = 960 + j1659.4
-
 $$
 
 
@@ -1720,9 +1688,7 @@ Using the formula for complex power in the phasor representation, we can calcula
 
 
 $$
-
 S = \vec{V} \cdot \vec{I}^* = (240V \angle 60^\circ)(8A \angle 60^\circ)^* = (240V \angle 60^\circ)(8A \angle -60^\circ) = 1920V \angle 0^\circ = 1920 + j0
-
 $$
 
 
@@ -1740,9 +1706,7 @@ Therefore, the complex power in this single-phase system is 1920 + j0 VA.
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^* = \sqrt{3}(600V)(12A)^* = \sqrt{3}(600V)(12A)(\cos 30^\circ + j\sin 30^\circ) = 7200\cos 30^\circ + j7200\sin 30^\circ = 6249.8 + j3600
-
 $$
 
 
@@ -1764,9 +1728,7 @@ Using the formula for complex power in the phasor representation, we can calcula
 
 
 $$
-
 S = \vec{V} \cdot \vec{I}^* = (600V \angle 30^\circ)(12A \angle 30^\circ)^* = (600V \angle 30^\circ)(12A \angle -30^\circ) = 7200V \angle 0^\circ = 7200 + j0
-
 $$
 
 
@@ -1788,9 +1750,7 @@ Complex power:
 
 
 $$
-
 S = VI^* = (120V)(10A)^* = (120V)(10A)(\cos \cos^{-1} 0.8 + j\sin \cos^{-1} 0.8) = 960\cos \cos^{-1} 0.8 + j960\sin \cos^{-1} 0.8 = 960 + j306.2
-
 $$
 
 
@@ -1800,9 +1760,7 @@ Apparent power:
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2} = \sqrt{(960)^2 + (306.2)^2} = 1008.6 VA
-
 $$
 
 
@@ -1816,9 +1774,7 @@ Complex power:
 
 
 $$
-
 S = VI^* = (120V)(10A)^* = (120V)(10A)(\cos \cos^{-1} 1 + j\sin \cos^{-1} 1) = 1200\cos \cos^{-1} 1 + j1200\sin \cos^{-1} 1 = 1200 + j0
-
 $$
 
 
@@ -1828,9 +1784,7 @@ Apparent power:
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2} = \sqrt{(1200)^2 + (0)^2} = 1200 VA
-
 $$
 
 
@@ -1874,9 +1828,7 @@ In a three-phase system, the total power is the sum of the power in each phase, 
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^*
-
 $$
 
 
@@ -1940,9 +1892,7 @@ In a three-phase system, the total power is the sum of the power in each phase, 
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^*
-
 $$
 
 
@@ -1984,9 +1934,7 @@ In order to accurately measure the power in a polyphase system, it is important 
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^*
-
 $$
 
 
@@ -2038,9 +1986,7 @@ In a three-phase system, the total power is the sum of the power in each phase, 
 
 
 $$
-
 S = \sqrt{3}V_{LL}I^*
-
 $$
 
 
@@ -2412,33 +2358,25 @@ To calculate the line parameters, we can use the following equations:
 
 
 $$
-
 R = \frac{\rho l}{A}
-
 $$
 
 
 
 $$
-
 L = \frac{\mu l}{2\pi}\ln{\frac{D}{d}}
-
 $$
 
 
 
 $$
-
 C = \frac{2\pi\epsilon}{\ln{\frac{D}{d}}}
-
 $$
 
 
 
 $$
-
 G = \frac{2\pi\sigma}{\ln{\frac{D}{d}}}
-
 $$
 
 
@@ -2514,33 +2452,25 @@ To calculate the line parameters, we can use the following equations:
 
 
 $$
-
 R = \frac{\rho l}{A}
-
 $$
 
 
 
 $$
-
 L = \frac{\mu l}{2\pi}\ln{\frac{D}{d}}
-
 $$
 
 
 
 $$
-
 C = \frac{2\pi\epsilon}{\ln{\frac{D}{d}}}
-
 $$
 
 
 
 $$
-
 G = \frac{2\pi\sigma}{\ln{\frac{D}{d}}}
-
 $$
 
 
@@ -2578,9 +2508,7 @@ To derive the ABCD parameter values for this network, we can apply Kirchhoff's C
 
 
 $$
-
 V_J = \frac{V_S - V_J}{\frac{Z}{2}} = YV_J + \frac{V_J - V_R}{\frac{Z}{2}}
-
 $$
 
 
@@ -2604,9 +2532,7 @@ By rearranging this equation, we can solve for $V_J$:
 
 
 $$
-
 V_J = \frac{2}{YZ+4}(V_S + V_R)
-
 $$
 
 
@@ -2616,9 +2542,7 @@ We can then use this value of $V_J$ to solve for the receiving end current:
 
 
 $$
-
 I_R = \frac{V_J - V_R}{\frac{Z}{2}}
-
 $$
 
 
@@ -2628,9 +2552,7 @@ Substituting the value of $V_J$ into this equation, we get:
 
 
 $$
-
 I_R = \frac{2}{YZ+4}(V_S - V_R)
-
 $$
 
 
@@ -2640,9 +2562,7 @@ Similarly, we can solve for the sending end current by substituting the value of
 
 
 $$
-
 I_S = YV_J + I_R
-
 $$
 
 
@@ -2652,9 +2572,7 @@ Which gives us:
 
 
 $$
-
 I_S = YV_R + \frac{2}{YZ+4}(V_S - V_R)
-
 $$
 
 
@@ -2664,7 +2582,6 @@ These equations can be written in matrix form as:
 
 
 $$
-
 \begin{bmatrix}
 
 V_S \\
@@ -2690,7 +2607,6 @@ V_R \\
 I_R
 
 \end{bmatrix}
-
 $$
 
 
@@ -2700,25 +2616,19 @@ Therefore, the ABCD parameters for the nominal T network are:
 
 
 $$
-
 A = D = 1 + \frac{YZ}{2}
-
 $$
 
 
 
 $$
-
 B = Z(1 + \frac{YZ}{4}) \Omega
-
 $$
 
 
 
 $$
-
 C = Y \mho
-
 $$
 
 
@@ -2762,33 +2672,25 @@ To calculate the line parameters, we can use the following equations:
 
 
 $$
-
 R = \frac{\rho l}{A}
-
 $$
 
 
 
 $$
-
 L = \frac{\mu l}{2\pi}\ln{\frac{D}{d}}
-
 $$
 
 
 
 $$
-
 C = \frac{2\pi\epsilon}{\ln{\frac{D}{d}}}
-
 $$
 
 
 
 $$
-
 G = \frac{2\pi\sigma}{\ln{\frac{D}{d}}}
-
 $$
 
 
@@ -2830,9 +2732,7 @@ To construct a sending end circle diagram, we first need to plot the resistance 
 
 
 $$
-
 X = \omega L - \frac{1}{\omega C}
-
 $$
 
 
@@ -2932,9 +2832,7 @@ In order to calculate the voltage regulation, we can use the following equation:
 
 
 $$
-
 VR = \frac{V_s - V_r}{V_s} \times 100\%
-
 $$
 
 
@@ -2996,9 +2894,7 @@ In order to calculate the voltage regulation, we need to consider the voltage dr
 
 
 $$
-
 \Delta V = IZ_{line}
-
 $$
 
 
@@ -3012,9 +2908,7 @@ The voltage regulation can then be calculated using the following formula:
 
 
 $$
-
 VR = \frac{\Delta V}{V_{sending}} \times 100\%
-
 $$
 
 
@@ -3648,9 +3542,7 @@ The load flow equations can be written in the following general form:
 
 
 $$
-
 \mathbf{YV} = \mathbf{I}
-
 $$
 
 
@@ -3962,9 +3854,7 @@ To solve the load flow problem, it is necessary to first set up the equations th
 
 
 $$
-
 \mathbf{f}(\mathbf{V}) = \mathbf{0}
-
 $$
 
 
@@ -3986,17 +3876,13 @@ Using these laws, the load flow equations can be written for each bus in the sys
 
 
 $$
-
 P_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}})
-
 $$
 
 
@@ -4010,17 +3896,13 @@ Similarly, the equations for a PV bus, which represents a bus with a fixed volta
 
 
 $$
-
 P_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}}) + V_i^2 B_{ii}
-
 $$
 
 
@@ -4030,17 +3912,13 @@ Finally, the equations for a slack bus, which represents the reference bus with 
 
 
 $$
-
 P_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}})
-
 $$
 
 
@@ -4068,9 +3946,7 @@ To solve the load flow problem, it is necessary to first set up the equations th
 
 
 $$
-
 \mathbf{f}(\mathbf{V}) = \mathbf{0}
-
 $$
 
 
@@ -4092,17 +3968,13 @@ Using these laws, the load flow equations can be written for each bus in the sys
 
 
 $$
-
 P_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}})
-
 $$
 
 
@@ -4116,17 +3988,13 @@ Similarly, the equations for a PV bus, which represents a bus with a fixed volta
 
 
 $$
-
 P_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}}) - V_i^2 B_{ii}
-
 $$
 
 
@@ -4174,9 +4042,7 @@ To solve the load flow problem, it is necessary to first set up the equations th
 
 
 $$
-
 \mathbf{f}(\mathbf{V}) = \mathbf{0}
-
 $$
 
 
@@ -4198,17 +4064,13 @@ Using these laws, the load flow equations can be written for each bus in the sys
 
 
 $$
-
 P_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = \sum_{j=1}^{n} V_i V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}})
-
 $$
 
 
@@ -4222,17 +4084,13 @@ Similarly, the equations for a PV bus, which represents a bus with a fixed volta
 
 
 $$
-
 P_i = V_i \sum_{j=1}^{n} V_j (G_{ij} \cos{\theta_{ij}} + B_{ij} \sin{\theta_{ij}})
-
 $$
 
 
 
 $$
-
 Q_i = \sqrt{V_i^2 - P_i^2} \sum_{j=1}^{n} V_j (G_{ij} \sin{\theta_{ij}} - B_{ij} \cos{\theta_{ij}})
-
 $$
 
 
@@ -4280,17 +4138,13 @@ Using the load flow equations, we can write the following equations for each bus
 At bus 1 (slack bus):
 
 $$
-
 P_1 = V_1^2 G_{11} + V_1 V_2 G_{12} \cos{\theta_{12}} + V_1 V_3 G_{13} \cos{\theta_{13}}
-
 $$
 
 
 
 $$
-
 Q_1 = -V_1^2 B_{11} - V_1 V_2 B_{12} \sin{\theta_{12}} - V_1 V_3 B_{13} \sin{\theta_{13}}
-
 $$
 
 
@@ -4298,17 +4152,13 @@ $$
 At bus 2 (PV bus):
 
 $$
-
 P_2 = V_2^2 G_{22} + V_2 V_1 G_{12} \cos{\theta_{12}} + V_2 V_3 G_{23} \cos{\theta_{23}}
-
 $$
 
 
 
 $$
-
 Q_2 = -V_2^2 B_{22} - V_2 V_1 B_{12} \sin{\theta_{12}} - V_2 V_3 B_{23} \sin{\theta_{23}}
-
 $$
 
 
@@ -4316,17 +4166,13 @@ $$
 At bus 3 (PQ bus):
 
 $$
-
 P_3 = V_3^2 G_{33} + V_3 V_1 G_{13} \cos{\theta_{13}} + V_3 V_2 G_{23} \cos{\theta_{23}}
-
 $$
 
 
 
 $$
-
 Q_3 = -V_3^2 B_{33} - V_3 V_1 B_{13} \sin{\theta_{13}} - V_3 V_2 B_{23} \sin{\theta_{23}}
-
 $$
 
 
@@ -4370,7 +4216,6 @@ To better understand these matrices, let's consider a simple two-bus system with
 
 
 $$
-
 \mathbf{Y} = \begin{bmatrix}
 
 Y_{11} & Y_{12} \\
@@ -4378,13 +4223,11 @@ Y_{11} & Y_{12} \\
 Y_{21} & Y_{22}
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 \mathbf{Z} = \begin{bmatrix}
 
 Z_{11} & Z_{12} \\
@@ -4392,7 +4235,6 @@ Z_{11} & Z_{12} \\
 Z_{21} & Z_{22}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4406,7 +4248,6 @@ The elements of these matrices can be calculated using the following equations:
 
 
 $$
-
 Y_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Y_{ik} & \text{if } i = j \\
@@ -4414,13 +4255,11 @@ Y_{ij} = \begin{cases}
 -Y_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 Z_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Z_{ik} & \text{if } i = j \\
@@ -4428,7 +4267,6 @@ Z_{ij} = \begin{cases}
 -Z_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
@@ -4442,7 +4280,6 @@ These matrices can then be used to solve the load flow equations for the two-bus
 
 
 $$
-
 \begin{bmatrix}
 
 P_1 \\
@@ -4468,13 +4305,11 @@ V_1 \\
 V_2
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 \begin{bmatrix}
 
 Q_1 \\
@@ -4500,7 +4335,6 @@ V_1 \\
 V_2
 
 \end{bmatrix}
-
 $$
 
 
@@ -4544,7 +4378,6 @@ To better understand these matrices, let's consider a simple two-bus system with
 
 
 $$
-
 \mathbf{Y} = \begin{bmatrix}
 
 Y_{11} & Y_{12} \\
@@ -4552,13 +4385,11 @@ Y_{11} & Y_{12} \\
 Y_{21} & Y_{22}
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 \mathbf{Z} = \begin{bmatrix}
 
 Z_{11} & Z_{12} \\
@@ -4566,7 +4397,6 @@ Z_{11} & Z_{12} \\
 Z_{21} & Z_{22}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4580,7 +4410,6 @@ The elements of these matrices can be calculated using the following equations:
 
 
 $$
-
 Y_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Y_{ik} & \text{if } i = j \\
@@ -4588,13 +4417,11 @@ Y_{ij} = \begin{cases}
 -Y_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 Z_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Z_{ik} & \text{if } i = j \\
@@ -4602,7 +4429,6 @@ Z_{ij} = \begin{cases}
 -Z_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
@@ -4624,9 +4450,7 @@ In load flow analysis, the system is represented by a set of equations that desc
 
 
 $$
-
 \mathbf{F}(\mathbf{V}) = \mathbf{0}
-
 $$
 
 
@@ -4674,7 +4498,6 @@ To better understand these matrices, let's consider a simple two-bus system with
 
 
 $$
-
 \mathbf{Y} = \begin{bmatrix}
 
 Y_{11} & Y_{12} \\
@@ -4682,13 +4505,11 @@ Y_{11} & Y_{12} \\
 Y_{21} & Y_{22}
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 \mathbf{Z} = \begin{bmatrix}
 
 Z_{11} & Z_{12} \\
@@ -4696,7 +4517,6 @@ Z_{11} & Z_{12} \\
 Z_{21} & Z_{22}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4710,7 +4530,6 @@ The elements of these matrices can be calculated using the following equations:
 
 
 $$
-
 Y_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Y_{ik} & \text{if } i = j \\
@@ -4718,13 +4537,11 @@ Y_{ij} = \begin{cases}
 -Y_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
 
 $$
-
 Z_{ij} = \begin{cases}
 
 \sum_{k=1}^{n} Z_{ik} & \text{if } i = j \\
@@ -4732,7 +4549,6 @@ Z_{ij} = \begin{cases}
 -Z_{ij} & \text{if } i \neq j
 
 \end{cases}
-
 $$
 
 
@@ -4892,9 +4708,7 @@ The Newton Raphson method is based on the principle of power balance, which stat
 
 
 $$
-
 \sum_{i=1}^N P_i = \sum_{i=1}^N P_{Di}
-
 $$
 
 
@@ -4908,9 +4722,7 @@ To solve the power flow equations, the Newton Raphson method uses a Taylor serie
 
 
 $$
-
 J \Delta x = -\Delta P
-
 $$
 
 
@@ -4974,9 +4786,7 @@ The Newton Raphson method is based on the principle of power balance, which stat
 
 
 $$
-
 \sum_{i=1}^N P_i = \sum_{i=1}^N P_{Di}
-
 $$
 
 
@@ -4990,9 +4800,7 @@ To solve the power flow equations, the Newton Raphson method uses a Taylor serie
 
 
 $$
-
 J \Delta x = -\Delta P
-
 $$
 
 
@@ -5018,9 +4826,7 @@ To calculate the Jacobian matrix, we first need to define the mismatch equations
 
 
 $$
-
 \Delta P = P_{actual} - P_{desired}
-
 $$
 
 
@@ -5038,9 +4844,7 @@ Finally, the Jacobian matrix, $J$, is calculated using the following formula:
 
 
 $$
-
 J = \frac{\partial \Delta P}{\partial \Delta x}
-
 $$
 
 
@@ -5080,9 +4884,7 @@ The Newton Raphson method is based on the principle of power balance, which stat
 
 
 $$
-
 \sum_{i=1}^N P_i = \sum_{i=1}^N P_{Di}
-
 $$
 
 
@@ -5096,9 +4898,7 @@ To solve the power flow equations, the Newton Raphson method uses a Taylor serie
 
 
 $$
-
 J \Delta x = -\Delta P
-
 $$
 
 
@@ -5170,17 +4970,13 @@ The decoupled load flow equations can be written as:
 
 
 $$
-
 \Delta V = J_{V}^{-1} \Delta P
-
 $$
 
 
 
 $$
-
 \Delta \theta = J_{\theta}^{-1} \Delta P
-
 $$
 
 
@@ -5236,17 +5032,13 @@ The decoupled load flow equations can be written as:
 
 
 $$
-
 \Delta V = J_{V}^{-1} \Delta P
-
 $$
 
 
 
 $$
-
 \Delta \theta = J_{\theta}^{-1} \Delta P
-
 $$
 
 
@@ -5426,9 +5218,7 @@ The speed of rotation of a synchronous machine is determined by the frequency of
 
 
 $$
-
 N_s = \frac{120f}{P}
-
 $$
 
 
@@ -5480,9 +5270,7 @@ The speed of rotation of a synchronous machine is determined by the frequency of
 
 
 $$
-
 N_s = \frac{120f}{P}
-
 $$
 
 
@@ -5538,9 +5326,7 @@ The speed of rotation of a synchronous machine is determined by the frequency of
 
 
 $$
-
 N_s = \frac{120f}{P}
-
 $$
 
 
@@ -5646,33 +5432,25 @@ The classical model is the simplest representation of a synchronous generator an
 
 
 $$
-
 V_t = E_0\sin(\omega t + \theta_0)
-
 $$
 
 
 
 $$
-
 I_t = I_0\sin(\omega t + \theta_0 - \delta)
-
 $$
 
 
 
 $$
-
 P = \frac{3V_tI_t}{2}\cos\delta
-
 $$
 
 
 
 $$
-
 Q = \frac{3V_tI_t}{2}\sin\delta
-
 $$
 
 
@@ -5686,33 +5464,25 @@ The two-axis model, also known as the salient-pole model, takes into account the
 
 
 $$
-
 V_d = R_dI_d + X_dI_q + E_d
-
 $$
 
 
 
 $$
-
 V_q = R_qI_q + X_qI_d + E_q
-
 $$
 
 
 
 $$
-
 P = V_dI_d + V_qI_q
-
 $$
 
 
 
 $$
-
 Q = V_dI_q - V_qI_d
-
 $$
 
 
@@ -5726,33 +5496,25 @@ Park's model, also known as the synchronous reference frame model, is a more adv
 
 
 $$
-
 V_d = R_dI_d + X_dI_q + E_d
-
 $$
 
 
 
 $$
-
 V_q = R_qI_q + X_qI_d + E_q
-
 $$
 
 
 
 $$
-
 P = V_dI_d + V_qI_q
-
 $$
 
 
 
 $$
-
 Q = V_dI_q - V_qI_d
-
 $$
 
 
@@ -5770,9 +5532,7 @@ Voltage regulation is a measure of the change in terminal voltage of the generat
 
 
 $$
-
 \%VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -5786,9 +5546,7 @@ Efficiency is a measure of how well a generator converts mechanical energy into 
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -5802,9 +5560,7 @@ Power factor is a measure of the ratio of real power to apparent power in a circ
 
 
 $$
-
 PF = \frac{P}{S}
-
 $$
 
 
@@ -5840,33 +5596,25 @@ The classical model is the simplest representation of a synchronous generator an
 
 
 $$
-
 V_t = E_0\sin(\omega t + \theta_0)
-
 $$
 
 
 
 $$
-
 I_t = I_0\sin(\omega t + \theta_0 - \delta)
-
 $$
 
 
 
 $$
-
 P = \frac{3V_tI_t}{2}\cos\delta
-
 $$
 
 
 
 $$
-
 Q = \frac{3V_tI_t}{2}\sin\delta
-
 $$
 
 
@@ -5880,33 +5628,25 @@ The two-axis model, also known as the salient-pole model, takes into account the
 
 
 $$
-
 V_d = R_dI_d + X_dI_q + E_d
-
 $$
 
 
 
 $$
-
 V_q = R_qI_q + X_qI_d + E_q
-
 $$
 
 
 
 $$
-
 P = V_dI_d + V_qI_q
-
 $$
 
 
 
 $$
-
 Q = V_dI_q - V_qI_d
-
 $$
 
 
@@ -5920,33 +5660,25 @@ The Park's model, also known as the synchronous reference frame model, is a tran
 
 
 $$
-
 V_\alpha = V_d\cos\theta + V_q\sin\theta
-
 $$
 
 
 
 $$
-
 V_\beta = -V_d\sin\theta + V_q\cos\theta
-
 $$
 
 
 
 $$
-
 P = V_\alpha I_\alpha + V_\beta I_\beta
-
 $$
 
 
 
 $$
-
 Q = V_\alpha I_\beta - V_\beta I_\alpha
-
 $$
 
 
@@ -6072,7 +5804,6 @@ The steady-state operation of a synchronous machine is characterized by the foll
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6080,7 +5811,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l}
-
 $$
 
 
@@ -6124,7 +5854,6 @@ The transient operation of a synchronous machine is characterized by the followi
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6132,7 +5861,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l} + T_{d}
-
 $$
 
 
@@ -6184,7 +5912,6 @@ The steady-state operation of a synchronous machine is characterized by the foll
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6192,7 +5919,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l}
-
 $$
 
 
@@ -6236,7 +5962,6 @@ During transient conditions, the machine's behavior is described by the followin
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6244,7 +5969,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l} + T_{d}
-
 $$
 
 
@@ -6268,7 +5992,6 @@ Subtransient conditions refer to the initial period of a transient event, where 
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6276,7 +5999,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l} + T_{d} + T_{sd}
-
 $$
 
 
@@ -6300,7 +6022,6 @@ Transient conditions refer to the later period of a transient event, where the m
 
 
 $$
-
 V_{t} = V_{ph} + jX_{d}I_{d} \\
 
 E_{t} = V_{t} + jX_{q}I_{q} \\
@@ -6308,7 +6029,6 @@ E_{t} = V_{t} + jX_{q}I_{q} \\
 P_{m} = P_{e} + P_{l} \\
 
 T_{e} = T_{m} - T_{l} + T_{d} + T_{td}
-
 $$
 
 
@@ -6526,9 +6246,7 @@ The swing equation can be written in the following form:
 
 
 $$
-
 M\frac{d^2\delta}{dt^2} + D\frac{d\delta}{dt} = P_m - P_e
-
 $$
 
 
@@ -7584,9 +7302,7 @@ The economic dispatch problem can be formulated as follows:
 
 
 $$
-
 \min_{P_i} \sum_{i=1}^{n} C_i(P_i)
-
 $$
 
 
@@ -7596,9 +7312,7 @@ subject to:
 
 
 $$
-
 \sum_{i=1}^{n} P_i = P_{demand}
-
 $$
 
 
@@ -7612,9 +7326,7 @@ The cost function $C_i(P_i)$ takes into account the fixed and variable costs ass
 
 
 $$
-
 C_i(P_i) = C_{fixed,i} + C_{var,i}(P_i)
-
 $$
 
 
@@ -7984,9 +7696,7 @@ For a network with buses (nodes), let $g_i$ be the rate of generation and $c_i(g
 
 
 $$
-
 W = \sum_{i=1}^{n} v_i(l_i) - \sum_{i=1}^{n} c_i(g_i)
-
 $$
 
 
@@ -8000,9 +7710,7 @@ The first constraint, which is necessary to interpret the constraints that follo
 
 
 $$
-
 \sum_{i=1}^{n} g_i - \sum_{i=1}^{n} l_i = 0
-
 $$
 
 
@@ -8012,9 +7720,7 @@ The power balance constraint requires that the sum of the net injections at all 
 
 
 $$
-
 \sum_{i=1}^{n} g_i - \sum_{i=1}^{n} l_i = \sum_{j=1}^{m} f_j
-
 $$
 
 
@@ -8028,9 +7734,7 @@ The second constraint involves capacity constraints on the flow on network lines
 
 
 $$
-
 f_j \leq F_{max,j}, \quad j = 1,2,...,m
-
 $$
 
 
@@ -8044,7 +7748,6 @@ In summary, the economic dispatch problem can be formulated as follows:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{g_i, l_i}{\text{maximize}}
@@ -8060,7 +7763,6 @@ $$
 &&& f_j \leq F_{max,j}, \quad j = 1,2,...,m
 
 \end{aligned}
-
 $$
 
 
@@ -8166,9 +7868,7 @@ In order to incorporate transmission constraints into the economic dispatch prob
 
 
 $$
-
 \sum_{i=1}^{N} P_i - \sum_{j=1}^{N} C_j = \sum_{k=1}^{M} L_k
-
 $$
 
 
@@ -8182,9 +7882,7 @@ The second constraint, which involves capacity constraints on the flow on networ
 
 
 $$
-
 F_k = \sum_{i=1}^{N} P_i - \sum_{j=1}^{N} C_j
-
 $$
 
 
@@ -8542,9 +8240,7 @@ The economic dispatch problem can be thought of as maximizing the economic welfa
 
 
 $$
-
 W = \sum_{i=1}^{n} (C_i(G_i) - V_i(L_i))
-
 $$
 
 
@@ -8558,9 +8254,7 @@ The economic dispatch task is to find the combination of rates of production and
 
 
 $$
-
 \sum_{i=1}^{n} G_i - \sum_{i=1}^{n} L_i = 0
-
 $$
 
 
@@ -8570,9 +8264,7 @@ The power balance constraint requires that the sum of the net injections at all 
 
 
 $$
-
 \sum_{i=1}^{n} G_i - \sum_{i=1}^{n} L_i = \sum_{j=1}^{m} P_j
-
 $$
 
 
@@ -8590,9 +8282,7 @@ The second constraint involves capacity constraints on the flow on network lines
 
 
 $$
-
 P_j \leq P_{max,j}
-
 $$
 
 
@@ -8606,9 +8296,7 @@ These equations can now be combined to build the Lagrangian of the optimization 
 
 
 $$
-
 L = \sum_{i=1}^{n} (C_i(G_i) - V_i(L_i)) + \pi \left(\sum_{i=1}^{n} G_i - \sum_{i=1}^{n} L_i\right) + \mu \left(\sum_{i=1}^{n} G_i - \sum_{i=1}^{n} L_i - \sum_{j=1}^{m} P_j\right)
-
 $$
 
 
@@ -8998,9 +8686,7 @@ Using the Y-Δ equations, we can relate this impedance to the positive sequence 
 
 
 $$
-
 R(N_1,N_2) = \frac{R_\text{T}}{3} + \frac{R_1}{3}
-
 $$
 
 
@@ -9010,9 +8696,7 @@ Similarly, we can calculate the negative sequence impedance <math>R_2</math> by 
 
 
 $$
-
 R(N_1,N_3) = \frac{R_\text{T}}{3} + \frac{R_2}{3}
-
 $$
 
 
@@ -9022,9 +8706,7 @@ And for the zero sequence impedance <math>R_0</math>, we disconnect "N"<sub>1</s
 
 
 $$
-
 R(N_2,N_3) = \frac{R_\text{T}}{3} + \frac{R_0}{3}
-
 $$
 
 
@@ -9034,9 +8716,7 @@ By solving these equations simultaneously, we can determine the values of <math>
 
 
 $$
-
 R_1 = R(N_1,N_2) - R(N_2,N_3) + R(N_1,N_3)
-
 $$
 
 
@@ -9392,9 +9072,7 @@ To demonstrate the Y-Δ transform, let us consider a three-phase circuit with im
 
 
 $$
-
 Z(N_1, N_2) = R_a + R_b + R_c
-
 $$
 
 
@@ -9404,9 +9082,7 @@ Now, let us disconnect one of the nodes, say N_3, and calculate the impedance be
 
 
 $$
-
 Z(N_1, N_2) = R_T
-
 $$
 
 
@@ -9420,9 +9096,7 @@ Next, we can convert this delta configuration to a Y configuration by using the 
 
 
 $$
-
 R_1 = \frac{R_aR_b}{R_T}, R_2 = \frac{R_bR_c}{R_T}, R_3 = \frac{R_cR_a}{R_T}
-
 $$
 
 
@@ -11156,9 +10830,7 @@ Load flow analysis, also known as power flow analysis, is the most fundamental a
 
 
 $$
-
 \mathbf{YV} = \mathbf{I}
-
 $$
 
 
@@ -11230,9 +10902,7 @@ Load flow analysis, also known as power flow analysis, is the most fundamental a
 
 
 $$
-
 \mathbf{YV} = \mathbf{I}
-
 $$
 
 
@@ -11316,9 +10986,7 @@ Load flow analysis, also known as power flow analysis, is the most fundamental a
 
 
 $$
-
 \mathbf{YV} = \mathbf{I}
-
 $$
 
 

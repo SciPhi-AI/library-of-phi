@@ -1319,9 +1319,7 @@ Compton scattering can be explained using the principles of quantum mechanics. A
 The change in the photon's wavelength, known as the Compton shift, is directly proportional to the energy and momentum transferred to the electron. This shift can be calculated using the Compton formula:
 
 $$
-
 \Delta \lambda = \frac{h}{m_e c}(1-\cos{\theta}),
-
 $$
 
 where $h$ is Planck's constant, $m_e$ is the mass of the electron, $c$ is the speed of light, and $\theta$ is the angle between the initial and final direction of the photon.
@@ -1359,9 +1357,7 @@ Louis de Broglie's hypothesis that all particles with momentum have a wavelength
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -1491,9 +1487,7 @@ One of the key principles of wave mechanics is the de Broglie wavelength, named 
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -1507,9 +1501,7 @@ To better understand this concept, let us consider a particle traveling in the "
 
 
 $$
-
 \lambda = \frac{2\pi}{k}
-
 $$
 
 
@@ -1519,9 +1511,7 @@ and its momentum is given by:
 
 
 $$
-
 p = \hbar k
-
 $$
 
 
@@ -1539,9 +1529,7 @@ In most cases, the wave packet is taken to have a Gaussian shape, given by the e
 
 
 $$
-
 \psi(x,t) = Ae^{-\frac{(x-x_0)^2}{2\sigma^2}}e^{i(k_0x-\omega_0t)}
-
 $$
 
 
@@ -1581,9 +1569,7 @@ The group velocity of a wave packet is defined as the velocity at which the enti
 
 
 $$
-
 v_g = \nabla \omega(\mathbf{k}) = \frac{\hbar \mathbf{k}}{m} = \frac{\mathbf{p}}{m}
-
 $$
 
 
@@ -1597,9 +1583,7 @@ On the other hand, the phase velocity of a wave packet is defined as the velocit
 
 
 $$
-
 v_p = \frac{\omega}{k} = \frac{\hbar k}{2m} = \frac{p}{2m}
-
 $$
 
 
@@ -1613,9 +1597,7 @@ To better understand this phenomenon, let us consider a wave packet with a Gauss
 
 
 $$
-
 \psi(x,t) = Ae^{-\frac{(x-x_0)^2}{2\sigma^2}}e^{i(k_0x-\omega_0t)}
-
 $$
 
 
@@ -1663,9 +1645,7 @@ The matter wave for a single particle, such as an electron or neutron, can be de
 
 
 $$
-
 \psi (\mathbf{r}) = u(\mathbf{r},\mathbf{k})\exp(i\mathbf{k}\cdot \mathbf{r} - iE(\mathbf{k})t/\hbar)
-
 $$
 
 
@@ -1679,9 +1659,7 @@ To better understand the behavior of the matter wave, we can define an effective
 
 
 $$
-
 {m_{ij}^*}^{-1} = \frac{1}{\hbar^2} \frac{\partial^2 E}{\partial k_i \partial k_j}
-
 $$
 
 
@@ -1729,9 +1707,7 @@ In classical mechanics, momentum is defined as the product of mass and velocity.
 
 
 $$
-
 T(\varepsilon)|\psi\rangle = \int dx T(\varepsilon)|x\rangle\langle x|\psi\rangle
-
 $$
 
 
@@ -1741,9 +1717,7 @@ Expanding this identity for infinitesimal values of $\varepsilon$, we get:
 
 
 $$
-
 \int dx|x+\varepsilon\rangle\langle x|\psi\rangle = \int dx|x\rangle\langle x-\varepsilon|\psi\rangle = \int dx|x\rangle\psi(x-\varepsilon)
-
 $$
 
 
@@ -1753,9 +1727,7 @@ Assuming the wavefunction $\psi$ to be analytic, we can expand it in a Taylor se
 
 
 $$
-
 \psi(x-\varepsilon) = \psi(x) - \varepsilon\frac{d\psi}{dx}
-
 $$
 
 
@@ -1765,9 +1737,7 @@ Substituting this into the previous equation, we get:
 
 
 $$
-
 T(\varepsilon) = 1 - \varepsilon\frac{d}{dx} = 1 - \frac{i}{\hbar}\varepsilon\left(-i\hbar\frac{d}{dx}\right)
-
 $$
 
 
@@ -1777,9 +1747,7 @@ Since momentum is the generator of translation in classical mechanics, we can re
 
 
 $$
-
 T(\varepsilon) = 1 - \frac{i}{\hbar}\varepsilon\hat{p}
-
 $$
 
 
@@ -1789,9 +1757,7 @@ Thus, the momentum operator is given by:
 
 
 $$
-
 \hat{p} = -i\hbar\frac{d}{dx}
-
 $$
 
 
@@ -1805,9 +1771,7 @@ In relativistic quantum field theory, such as the Dirac equation, energy and mom
 
 
 $$
-
 P_\mu = \left(\frac{E}{c},-\mathbf{p}\right)
-
 $$
 
 
@@ -1817,9 +1781,7 @@ Inserting the 3D momentum operator and the energy operator into the 4-momentum, 
 
 
 $$
-
 \hat{P}_\mu = \left(\frac{1}{c}\hat{E},-\mathbf{\hat{p}}\right) = i\hbar\left(\frac{1}{c}\frac{\partial}{\partial t},\nabla\right) = i\hbar\partial_\mu
-
 $$
 
 
@@ -1855,9 +1817,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
-
 $$
 
 
@@ -1871,9 +1831,7 @@ The Schrödinger equation can be used to describe a wide variety of systems, inc
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + \frac{1}{2}m\omega^2x^2
-
 $$
 
 
@@ -1887,9 +1845,7 @@ Another important application of the Schrödinger equation is in the study of th
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2\mu}\nabla^2 - \frac{q^2}{4\pi\varepsilon_0 r}
-
 $$
 
 
@@ -2237,9 +2193,7 @@ An expectation value is the average value of a physical quantity in a given quan
 
 
 $$
-
 \langle x \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{x} \psi(x) dx
-
 $$
 
 
@@ -2257,9 +2211,7 @@ Uncertainty, on the other hand, refers to the inherent unpredictability of certa
 
 
 $$
-
 \Delta A \Delta B \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -2299,9 +2251,7 @@ As we have learned, the state of a quantum system is described by a wave functio
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
-
 $$
 
 
@@ -2319,9 +2269,7 @@ To understand the time evolution of wave-packets, we can use the concept of anal
 
 
 $$
-
 \frac{\partial}{\partial t} \rho = \frac{1}{2} \frac{\partial^2}{\partial x^2} \rho
-
 $$
 
 
@@ -2331,9 +2279,7 @@ where the factor of 2 is only for convenience and can be removed by rescaling ei
 
 
 $$
-
 \rho_t(x) = \frac{1}{\sqrt{2\pi t}} e^{-\frac{x^2}{2t}}
-
 $$
 
 
@@ -2347,9 +2293,7 @@ The spreading Gaussian is the propagation kernel for the diffusion equation and 
 
 
 $$
-
 K_{t+t'} = K_t * K_{t'}
-
 $$
 
 
@@ -2359,9 +2303,7 @@ which allows diffusion to be expressed as a path integral. The propagator is the
 
 
 $$
-
 K_t(x) = e^{-t\hat{H}}
-
 $$
 
 
@@ -2371,9 +2313,7 @@ which is the infinitesimal diffusion operator:
 
 
 $$
-
 \hat{H} = -\frac{\nabla^2}{2}
-
 $$
 
 
@@ -2387,9 +2327,7 @@ In continuous space, a matrix has two indices, which makes it a function of $x$ 
 
 
 $$
-
 K_t(x,x') = K_t(x-x')
-
 $$
 
 
@@ -2425,9 +2363,7 @@ The Fourier transform is a mathematical operation that decomposes a function int
 
 
 $$
-
 \mathcal{F}[f(x)] = \int_{-\infty}^{\infty} f(x) e^{-i\omega x} dx
-
 $$
 
 
@@ -2437,9 +2373,7 @@ where $\omega$ is the frequency variable. The inverse Fourier transform is given
 
 
 $$
-
 \mathcal{F}^{-1}[f(x)] = \frac{1}{2\pi} \int_{-\infty}^{\infty} f(x) e^{i\omega x} d\omega
-
 $$
 
 
@@ -2483,9 +2417,7 @@ The Parseval theorem states that the integral of the square of a function is equ
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(x)|^2 dx = \frac{1}{2\pi} \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -2499,9 +2431,7 @@ One of the key applications of the Parseval theorem is in the calculation of exp
 
 
 $$
-
 \langle A \rangle = \int_{-\infty}^{\infty} \psi^*(x) A \psi(x) dx
-
 $$
 
 
@@ -2511,9 +2441,7 @@ where $\psi(x)$ is the wave function and $A$ is the operator corresponding to th
 
 
 $$
-
 \langle A \rangle = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi^*(x) A \psi(x) dx = \frac{1}{2\pi} \int_{-\infty}^{\infty} \tilde{\psi}^*(\omega) \tilde{A} \tilde{\psi}(\omega) d\omega
-
 $$
 
 
@@ -2527,9 +2455,7 @@ The Parseval theorem also has implications for the uncertainty principle in quan
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -2539,9 +2465,7 @@ where $\Delta x$ and $\Delta p$ are the uncertainties in position and momentum, 
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2} \left| \int_{-\infty}^{\infty} \psi^*(x) \frac{d\psi(x)}{dx} dx \right|
-
 $$
 
 
@@ -2577,9 +2501,7 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 
 
 $$
-
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle|
-
 $$
 
 
@@ -2601,9 +2523,7 @@ For example, let us consider the position and momentum operators, $x$ and $p$, r
 
 
 $$
-
 \Delta x \Delta p \geq \frac{1}{2} |\langle [x,p] \rangle| = \frac{\hbar}{2}
-
 $$
 
 
@@ -2727,9 +2647,7 @@ To better understand stationary states, let's consider a single-particle Hamilto
 Mathematically, stationary states can be described by the time-independent Schrödinger equation:
 
 $$
-
 \hat{H}|\Psi\rangle = E_{\Psi}|\Psi\rangle,
-
 $$
 
 where $\hat{H}$ is a linear operator on a vector space, $|\Psi\rangle$ is an eigenvector of $\hat{H}$, and $E_{\Psi}$ is its corresponding eigenvalue. This is an eigenvalue equation, and its solution gives us the energy eigenstates of the system.
@@ -2739,17 +2657,13 @@ where $\hat{H}$ is a linear operator on a vector space, $|\Psi\rangle$ is an eig
 It is worth noting that if we plug a stationary state $|\Psi\rangle$ into the time-dependent Schrödinger equation, we get:
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\Psi\rangle = E_{\Psi}|\Psi\rangle.
-
 $$
 
 Assuming that the Hamiltonian is time-independent, this equation holds for any time $t$. Therefore, it describes how the state $|\Psi\rangle$ varies in time, and its solution is given by:
 
 $$
-
 |\Psi(t)\rangle = e^{-iE_{\Psi}t/\hbar}|\Psi(0)\rangle,
-
 $$
 
 where $|\Psi(0)\rangle$ is the initial state at time $t=0$.
@@ -2825,9 +2739,7 @@ The particle on a circle is a simple yet important system in quantum mechanics. 
 
 
 $$
-
 V(x) = 0
-
 $$
 
 
@@ -2841,9 +2753,7 @@ To solve for the energy eigenstates of this system, we can use the time-independ
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -2853,9 +2763,7 @@ where $\hat{H}$ is the Hamiltonian operator and $\psi(x)$ is the wavefunction of
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2}
-
 $$
 
 
@@ -2865,9 +2773,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} = E\psi(x)
-
 $$
 
 
@@ -2877,9 +2783,7 @@ This is a second-order differential equation, and its solutions are given by:
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -2889,9 +2793,7 @@ where $A$ and $B$ are constants and $k$ is the wave number. However, since the p
 
 
 $$
-
 \psi(0) = \psi(2\pi)
-
 $$
 
 
@@ -2901,9 +2803,7 @@ Substituting the wavefunction into this boundary condition, we get:
 
 
 $$
-
 A + B = A + Be^{-2\pi ik} \Rightarrow e^{-2\pi ik} = 1
-
 $$
 
 
@@ -2913,9 +2813,7 @@ This condition is satisfied when $k$ takes on discrete values, given by:
 
 
 $$
-
 k = \frac{2\pi n}{L}
-
 $$
 
 
@@ -2925,9 +2823,7 @@ where $n$ is an integer and $L$ is the circumference of the circle. This leads t
 
 
 $$
-
 E_n = \frac{\hbar^2k^2}{2m} = \frac{\hbar^2n^2}{2mL^2}
-
 $$
 
 
@@ -2947,7 +2843,6 @@ In this section, we will explore the behavior of a quantum particle in an infini
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & \text{if } 0 < x < L \\
@@ -2955,7 +2850,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -2969,9 +2863,7 @@ To solve for the energy eigenstates of this system, we can use the time-independ
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -2981,9 +2873,7 @@ where $\hat{H}$ is the Hamiltonian operator and $\psi(x)$ is the wavefunction of
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + V(x)
-
 $$
 
 
@@ -2993,9 +2883,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -3005,9 +2893,7 @@ Since the potential is zero within the well, the equation simplifies to:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} = E\psi(x)
-
 $$
 
 
@@ -3017,9 +2903,7 @@ This is a second-order differential equation, and its solutions are given by:
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -3029,9 +2913,7 @@ where $A$ and $B$ are constants and $k$ is the wave number. However, since the p
 
 
 $$
-
 \psi(0) = \psi(L) = 0
-
 $$
 
 
@@ -3041,9 +2923,7 @@ Substituting the wavefunction into these boundary conditions, we get:
 
 
 $$
-
 A + B = 0 \Rightarrow B = -A
-
 $$
 
 
@@ -3053,9 +2933,7 @@ and
 
 
 $$
-
 Ae^{ikL} + Be^{-ikL} = 0 \Rightarrow A(e^{ikL} - e^{-ikL}) = 0
-
 $$
 
 
@@ -3065,9 +2943,7 @@ This condition is satisfied when $k$ takes on discrete values, given by:
 
 
 $$
-
 k = \frac{n\pi}{L}
-
 $$
 
 
@@ -3077,9 +2953,7 @@ where $n$ is an integer. Substituting this back into the wavefunction, we get:
 
 
 $$
-
 \psi_n(x) = A_n\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -3089,9 +2963,7 @@ where $A_n$ is a normalization constant. The energy eigenvalues are given by:
 
 
 $$
-
 E_n = \frac{\hbar^2k^2}{2m} = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -3101,9 +2973,7 @@ These energy eigenstates form a discrete energy spectrum, with the lowest energy
 
 
 $$
-
 \Delta E = E_{n+1} - E_n = \frac{\hbar^2\pi^2}{2mL^2}
-
 $$
 
 
@@ -3135,7 +3005,6 @@ The finite square well potential is a one-dimensional potential with finite wall
 
 
 $$
-
 V(x) = \begin{cases}
 
 -V_0, & \text{if } 0 < x < a \\
@@ -3145,7 +3014,6 @@ V(x) = \begin{cases}
 \infty, & \text{otherwise}
 
 \end{cases}
-
 $$
 
 
@@ -3159,9 +3027,7 @@ To solve for the energy eigenstates of this system, we can use the time-independ
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -3171,9 +3037,7 @@ where $\hat{H}$ is the Hamiltonian operator and $\psi(x)$ is the wavefunction of
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{d^2}{dx^2} + V(x)
-
 $$
 
 
@@ -3183,9 +3047,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -3195,9 +3057,7 @@ Since the potential is zero within the well, the equation simplifies to:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} = E\psi(x)
-
 $$
 
 
@@ -3207,9 +3067,7 @@ This is a second-order differential equation, and its solutions are given by:
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -3219,9 +3077,7 @@ where $A$ and $B$ are constants and $k$ is the wave number. However, since the p
 
 
 $$
-
 \psi(0) = \psi(a) \Rightarrow A + B = C
-
 $$
 
 
@@ -3231,9 +3087,7 @@ and
 
 
 $$
-
 \frac{d\psi}{dx}\bigg|_{x=0} = \frac{d\psi}{dx}\bigg|_{x=a} \Rightarrow ik(A-B) = ikC
-
 $$
 
 
@@ -3243,9 +3097,7 @@ where $C$ is a constant. Similarly, at $x=L$, the wavefunction must also be cont
 
 
 $$
-
 \psi(L) = \psi(a) \Rightarrow Ae^{ikL} + Be^{-ikL} = C
-
 $$
 
 
@@ -3255,9 +3107,7 @@ and
 
 
 $$
-
 \frac{d\psi}{dx}\bigg|_{x=L} = \frac{d\psi}{dx}\bigg|_{x=a} \Rightarrow ik(Ae^{ikL} - Be^{-ikL}) = ikC
-
 $$
 
 
@@ -3267,9 +3117,7 @@ Solving these equations simultaneously, we get:
 
 
 $$
-
 A = \frac{C}{2}\bigg(1 + \frac{ik}{k-\kappa}\bigg)e^{ik(a-L)}
-
 $$
 
 
@@ -3279,9 +3127,7 @@ and
 
 
 $$
-
 B = \frac{C}{2}\bigg(1 - \frac{ik}{k-\kappa}\bigg)e^{-ik(a-L)}
-
 $$
 
 
@@ -3291,7 +3137,6 @@ where $\kappa = \sqrt{\frac{2mV_0}{\hbar^2}}$. Substituting these solutions back
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 \frac{C}{2}\bigg(1 + \frac{ik}{k-\kappa}\bigg)e^{ikx}, & \text{if } 0 < x < a \\
@@ -3299,7 +3144,6 @@ $$
 \frac{C}{2}\bigg(1 - \frac{ik}{k-\kappa}\bigg)e^{ikx}, & \text{if } a < x < L
 
 \end{cases}
-
 $$
 
 
@@ -3309,9 +3153,7 @@ To determine the energy eigenvalues, we must also consider the normalization con
 
 
 $$
-
 \int_{0}^{L} |\psi(x)|^2 dx = 1
-
 $$
 
 
@@ -3321,9 +3163,7 @@ Solving this integral, we get:
 
 
 $$
-
 C^2 = \frac{2}{L}\bigg(1 + \frac{k^2}{(k-\kappa)^2}\bigg)
-
 $$
 
 
@@ -3333,7 +3173,6 @@ Finally, substituting this back into the wavefunction, we get:
 
 
 $$
-
 \psi(x) = \begin{cases}
 
 \sqrt{\frac{2}{L}}\bigg(1 + \frac{ik}{k-\kappa}\bigg)e^{ikx}, & \text{if } 0 < x < a \\
@@ -3341,7 +3180,6 @@ $$
 \sqrt{\frac{2}{L}}\bigg(1 - \frac{ik}{k-\kappa}\bigg)e^{ikx}, & \text{if } a < x < L
 
 \end{cases}
-
 $$
 
 
@@ -3351,9 +3189,7 @@ The energy eigenvalues can then be determined by solving the transcendental equa
 
 
 $$
-
 \tan(ka) = \frac{k}{\kappa}
-
 $$
 
 
@@ -3363,7 +3199,6 @@ This equation has an infinite number of solutions, each corresponding to a diffe
 
 
 $$
-
 \psi_1(x) = \begin{cases}
 
 \sqrt{\frac{2}{L}}\bigg(1 + \frac{ik}{k-\kappa}\bigg)e^{ikx}, & \text{if } 0 < x < a \\
@@ -3371,7 +3206,6 @@ $$
 0, & \text{if } a < x < L
 
 \end{cases}
-
 $$
 
 
@@ -3483,9 +3317,7 @@ The delta function potential is defined as:
 
 
 $$
-
 V(x) = -q \left[ \delta \left(x + \frac{R}{2}\right) + \lambda\delta \left(x - \frac{R}{2} \right) \right]
-
 $$
 
 
@@ -3499,9 +3331,7 @@ To solve for the energy eigenvalues and corresponding wavefunctions of this pote
 
 
 $$
-
 \psi(x) = A e^{-d \left|x + \frac{R}{2}\right|} + B e^{-d \left|x - \frac{R}{2} \right|}
-
 $$
 
 
@@ -3515,9 +3345,7 @@ For the symmetric homonuclear case, where $q$ and $\lambda$ are equal, the pseud
 
 
 $$
-
 d_\pm = q \left[1 \pm e^{-d_\pm R}\right]
-
 $$
 
 
@@ -3557,9 +3385,7 @@ The potential energy function for a simple harmonic oscillator is given by:
 
 
 $$
-
 U(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -3573,9 +3399,7 @@ The motion of a simple harmonic oscillator is described by the equation of motio
 
 
 $$
-
 m\ddot{x} = -kx
-
 $$
 
 
@@ -3585,9 +3409,7 @@ where $m$ is the mass of the particle. This is a second-order differential equat
 
 
 $$
-
 x(t) = A\cos(\omega t + \phi)
-
 $$
 
 
@@ -3597,9 +3419,7 @@ where $A$ is the amplitude, $\omega$ is the angular frequency, and $\phi$ is the
 
 
 $$
-
 \omega = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -3609,9 +3429,7 @@ The period of oscillation, $T$, is the time taken for one complete cycle and is 
 
 
 $$
-
 T = \frac{2\pi}{\omega}
-
 $$
 
 
@@ -3621,9 +3439,7 @@ The frequency of oscillation, $f$, is the number of cycles per unit time and is 
 
 
 $$
-
 f = \frac{1}{T}
-
 $$
 
 
@@ -3675,9 +3491,7 @@ For s-polarized light, the reflectance is given by:
 
 
 $$
-
 R_s = \left(\frac{Z_1 - Z_2}{Z_1 + Z_2}\right)^2
-
 $$
 
 
@@ -3687,9 +3501,7 @@ where $Z_1$ and $Z_2$ are the wave impedances of media 1 and 2, respectively. Si
 
 
 $$
-
 R_p = \left(\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}\right)^2
-
 $$
 
 
@@ -3703,9 +3515,7 @@ Assuming non-magnetic media, the wave impedances can be simplified to:
 
 
 $$
-
 Z_i = \frac{Z_0}{n_i}
-
 $$
 
 
@@ -3715,9 +3525,7 @@ where $Z_0$ is the impedance of free space. This allows us to rewrite the equati
 
 
 $$
-
 R_s = \left(\frac{n_1 - n_2}{n_1 + n_2}\right)^2
-
 $$
 
 
@@ -3727,9 +3535,7 @@ and
 
 
 $$
-
 R_p = \left(\frac{\sin\theta_i - \sin\theta_t}{\sin\theta_i + \sin\theta_t}\right)^2
-
 $$
 
 
@@ -3739,9 +3545,7 @@ Furthermore, we can use Snell's law and trigonometric identities to eliminate $\
 
 
 $$
-
 R_s = \left(\frac{n_1\cos\theta_i - n_2\sqrt{1 - \left(\frac{n_1}{n_2}\sin\theta_i\right)^2}}{n_1\cos\theta_i + n_2\sqrt{1 - \left(\frac{n_1}{n_2}\sin\theta_i\right)^2}}\right)^2
-
 $$
 
 
@@ -3751,9 +3555,7 @@ and
 
 
 $$
-
 R_p = \left(\frac{\sin\theta_i - \sqrt{1 - \left(\frac{n_1}{n_2}\sin\theta_i\right)^2}}{\sin\theta_i + \sqrt{1 - \left(\frac{n_1}{n_2}\sin\theta_i\right)^2}}\right)^2
-
 $$
 
 
@@ -3763,9 +3565,7 @@ As a consequence of conservation of energy, the transmitted power can be found b
 
 
 $$
-
 T_s = 1 - R_s
-
 $$
 
 
@@ -3775,9 +3575,7 @@ and
 
 
 $$
-
 T_p = 1 - R_p
-
 $$
 
 
@@ -3879,9 +3677,7 @@ To derive the phase shifts, we start with the Schrödinger equation for a one-di
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = 0
-
 $$
 
 
@@ -3891,9 +3687,7 @@ where k is the wave number. We can rewrite this equation in terms of the scatter
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = S\psi
-
 $$
 
 
@@ -3903,9 +3697,7 @@ Solving this equation for the wave function, we get:
 
 
 $$
-
 \psi(x) = e^{ikx} + Se^{-ikx}
-
 $$
 
 
@@ -3915,9 +3707,7 @@ We can then use the boundary conditions to determine the phase shifts. At large 
 
 
 $$
-
 e^{ikx} = Se^{-ikx}
-
 $$
 
 
@@ -3927,9 +3717,7 @@ Solving for S, we get:
 
 
 $$
-
 S = e^{2ikx}
-
 $$
 
 
@@ -3939,9 +3727,7 @@ Using the definition of the scattering matrix, we can write:
 
 
 $$
-
 S = e^{2ikx} = e^{2i\delta}
-
 $$
 
 
@@ -3951,9 +3737,7 @@ where δ is the phase shift. This tells us that the phase shift is related to th
 
 
 $$
-
 \delta = \frac{1}{2}arg(S)
-
 $$
 
 
@@ -4105,9 +3889,7 @@ To derive the phase shifts, we start with the Schrödinger equation for a one-di
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = 0
-
 $$
 
 
@@ -4117,9 +3899,7 @@ where k is the wave number. We can rewrite this equation in terms of the scatter
 
 
 $$
-
 \frac{d^2\psi}{dx^2} + k^2\psi = S\psi
-
 $$
 
 
@@ -4129,9 +3909,7 @@ Solving this equation for the wave function, we get:
 
 
 $$
-
 \psi(x) = e^{ikx} + Se^{-ikx}
-
 $$
 
 
@@ -4141,9 +3919,7 @@ We can then use the boundary conditions to determine the phase shifts. At large 
 
 
 $$
-
 e^{ikx} = Se^{-ikx}
-
 $$
 
 
@@ -4153,9 +3929,7 @@ Solving for S, we get:
 
 
 $$
-
 S = e^{2ikx}
-
 $$
 
 
@@ -4165,9 +3939,7 @@ Using the definition of the scattering matrix, we can write:
 
 
 $$
-
 S = e^{2ikx} = e^{2i\delta}
-
 $$
 
 
@@ -4289,9 +4061,7 @@ The relativistic Breit-Wigner distribution is a continuous probability distribut
 
 
 $$
-
 f(E) = \frac{k}{(E-M)^2 + \frac{\Gamma^2}{4}}
-
 $$
 
 
@@ -4361,9 +4131,7 @@ The orbital angular momentum operator, denoted by $\mathbf{L}$, is a vector oper
 
 
 $$
-
 \left[L_x, L_y\right] = i\hbar L_z, \;\; \left[L_y, L_z\right] = i\hbar L_x, \;\; \left[L_z, L_x\right] = i\hbar L_y,
-
 $$
 
 
@@ -4373,9 +4141,7 @@ where $i$ is the imaginary unit and $\hbar$ is the reduced Planck's constant. Th
 
 
 $$
-
 \left[L_l, L_m\right] = i \hbar \sum_{n=1}^{3} \varepsilon_{lmn} L_n,
-
 $$
 
 
@@ -4385,9 +4151,7 @@ where $l$, $m$, and $n$ are the component indices (1 for $x$, 2 for $y$, 3 for $
 
 
 $$
-
 \mathbf{L} \times \mathbf{L} = i\hbar \mathbf{L}.
-
 $$
 
 
@@ -4401,9 +4165,7 @@ The commutation relations for angular momentum also hold for other types of angu
 
 
 $$
-
 \left[S_l, S_m\right] = i \hbar \sum_{n=1}^{3} \varepsilon_{lmn} S_n,
-
 $$
 
 
@@ -4413,9 +4175,7 @@ and for total angular momentum by:
 
 
 $$
-
 \left[J_l, J_m\right] = i \hbar \sum_{n=1}^{3} \varepsilon_{lmn} J_n.
-
 $$
 
 
@@ -4433,9 +4193,7 @@ Interestingly, there is an analogous relationship in classical physics between t
 
 
 $$
-
 \left\{L_i, L_j\right\} = \varepsilon_{ijk} L_k,
-
 $$
 
 
@@ -4487,9 +4245,7 @@ The Legendre polynomials, denoted by $P_\ell^m(x)$, are defined as solutions to 
 
 
 $$
-
 \frac{d}{dx}\left[(1-x^2)\frac{d}{dx}P_\ell^m(x)\right] + \left[\ell(\ell+1)-\frac{m^2}{1-x^2}\right]P_\ell^m(x) = 0,
-
 $$
 
 
@@ -4499,9 +4255,7 @@ where $\ell$ is a non-negative integer and $m$ is an integer satisfying $|m| \le
 
 
 $$
-
 P_\ell^m(x) = (-1)^m(1-x^2)^{m/2}\frac{d^m}{dx^m}P_\ell(x).
-
 $$
 
 
@@ -4519,9 +4273,7 @@ The Legendre polynomials have several important properties that make them useful
 
 
 $$
-
 \int_{-1}^{1} P_\ell^m(x)P_{\ell'}^{m'}(x)dx = \frac{2}{2\ell+1}\delta_{\ell\ell'}\delta_{mm'},
-
 $$
 
 
@@ -4535,9 +4287,7 @@ where $\delta_{ij}$ is the Kronecker delta.
 
 
 $$
-
 P_\ell^m(-x) = (-1)^{\ell+m}P_\ell^m(x).
-
 $$
 
 
@@ -4547,17 +4297,13 @@ $$
 
 
 $$
-
 (\ell-m-1)(\ell-m)P_\ell^m(x) = -P_\ell^{m+2}(x) + P_{\ell-2}^{m+2}(x) + (\ell+m)(\ell+m-1)P_{\ell-2}^m(x),
-
 $$
 
 
 
 $$
-
 (\ell-m+1)P_{\ell+1}^m(x) = (2\ell+1)xP_\ell^m(x) - (\ell+m)P_{\ell-1}^m(x),
-
 $$
 
 
@@ -4567,9 +4313,7 @@ and
 
 
 $$
-
 2mxP_\ell^m(x) = -\sqrt{1-x^2}\left[P_\ell^{m+1}(x) + (\ell+m)(\ell-m+1)P_\ell^{m-1}(x)\right].
-
 $$
 
 
@@ -4583,57 +4327,43 @@ The first few associated Legendre functions, including those for negative values
 
 
 $$
-
 P_0^0(x) = 1,
-
 $$
 
 
 
 $$
-
 P_1^{-1}(x) = -\frac{1}{2}P_1^1(x),
-
 $$
 
 
 
 $$
-
 P_1^0(x) = x,
-
 $$
 
 
 
 $$
-
 P_2^{-2}(x) = \frac{1}{24}P_2^2(x),
-
 $$
 
 
 
 $$
-
 P_2^{-1}(x) = -\frac{1}{6}P_2^1(x),
-
 $$
 
 
 
 $$
-
 P_2^0(x) = \frac{1}{2}(3x^2-1),
-
 $$
 
 
 
 $$
-
 P_2^1(x) = -3x(1-x^2)^{1/2},
-
 $$
 
 
@@ -4643,9 +4373,7 @@ and
 
 
 $$
-
 P_2^2(x) = 3(1-x^2).
-
 $$
 
 
@@ -4705,9 +4433,7 @@ The energy levels of the hydrogen atom are given by the formula:
 
 
 $$
-
 E_n = -\frac{13.6}{n^2} \text{ eV},
-
 $$
 
 
@@ -4733,9 +4459,7 @@ The product of these two functions gives the complete wavefunction of the hydrog
 
 
 $$
-
 \Psi_{n\ell m}(r, \theta, \phi) = R_{n\ell}(r)Y_{\ell m}(\theta, \phi).
-
 $$
 
 
@@ -4773,9 +4497,7 @@ The energy levels of the hydrogen atom in a magnetic field are given by the form
 
 
 $$
-
 E_{n\ell m} = -\frac{13.6}{n^2} \text{ eV} \pm \mu_B B m,
-
 $$
 
 
@@ -4797,9 +4519,7 @@ The energy levels of the hydrogen atom in an electric field are given by the for
 
 
 $$
-
 E_{n\ell m} = -\frac{13.6}{n^2} \text{ eV} \pm \alpha E n^2,
-
 $$
 
 
@@ -4817,9 +4537,7 @@ The hydrogen atom is an example of a central potential, where the potential ener
 
 
 $$
-
 V(r) = -\frac{e^2}{4\pi\epsilon_0 r},
-
 $$
 
 
@@ -4905,9 +4623,7 @@ In quantum mechanics, the virial theorem is derived using the Heisenberg equatio
 
 
 $$
-
 2\langle T\rangle = \sum_n\left\langle X_n \frac{dV}{dX_n}\right\rangle
-
 $$
 
 
@@ -7107,9 +6823,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -7143,9 +6857,7 @@ For example, a particle in one dimension can exist in a superposition of two sta
 
 
 $$
-
 \psi(x) = c_1\psi_1(x) + c_2\psi_2(x)
-
 $$
 
 
@@ -7163,9 +6875,7 @@ The uncertainty principle is a fundamental principle in quantum mechanics that s
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -7221,9 +6931,7 @@ Similar to one dimension, the Schrödinger equation is a fundamental equation in
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,y,t) = \hat{H}\psi(x,y,t)
-
 $$
 
 
@@ -7291,9 +6999,7 @@ Similar to two dimensions, the Schrödinger equation is a fundamental equation i
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,y,z,t) = \hat{H}\psi(x,y,z,t)
-
 $$
 
 
@@ -7361,9 +7067,7 @@ Similar to three dimensions, the Schrödinger equation is a fundamental equation
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,y,z,t) = \hat{H}\psi(x,y,z,t)
-
 $$
 
 
@@ -7881,9 +7585,7 @@ The Schrödinger equation, which describes the time evolution of a quantum syste
 
 
 $$
-
 P = \langle \psi | \hat{H} | \psi \rangle
-
 $$
 
 
@@ -8007,9 +7709,7 @@ The general equation of heat transfer is a fundamental equation in thermodynamic
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -8027,9 +7727,7 @@ The equation for entropy production is a key concept in thermodynamics that desc
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla\cdot \mathbf{v})^2
-
 $$
 
 
@@ -8091,9 +7789,7 @@ The wave equation is a fundamental equation in classical mechanics that describe
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u
-
 $$
 
 
@@ -8107,9 +7803,7 @@ However, at the atomic and subatomic level, the behavior of sound is better desc
 
 
 $$
-
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
-
 $$
 
 
@@ -8127,9 +7821,7 @@ The quantum harmonic oscillator is a model that is commonly used to describe the
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
-
 $$
 
 
@@ -8181,9 +7873,7 @@ Similar to sound, electricity is a fundamental aspect of our everyday lives. How
 
 
 $$
-
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
-
 $$
 
 
@@ -8201,9 +7891,7 @@ In classical mechanics, the electric potential energy of a system of charges can
 
 
 $$
-
 U_\mathrm{E} = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} + \frac{Q_1 Q_3}{r_{13}} + \frac{Q_2 Q_3}{r_{23}} \right]
-
 $$
 
 
@@ -8221,9 +7909,7 @@ In classical electromagnetism, the electric field is described by the Coulomb's 
 
 
 $$
-
 \Phi(\mathbf{r}_i) = \sum_{j \neq i} \frac{1}{4\pi\varepsilon_0} \frac{Q_j}{r_{ij}}
-
 $$
 
 
@@ -8241,9 +7927,7 @@ Similar to the electric field, the electric potential is also described by the C
 
 
 $$
-
 \Phi(\mathbf{r}_i) = \sum_{j \neq i} \frac{1}{4\pi\varepsilon_0} \frac{Q_j}{r_{ij}}
-
 $$
 
 
@@ -8261,9 +7945,7 @@ In classical mechanics, the electric force between two charges is described by C
 
 
 $$
-
 \mathbf{F} = q\mathbf{E} = q\left(-\nabla \Phi\right)
-
 $$
 
 
@@ -8307,25 +7989,19 @@ The electrostatic potential energy of a system of three charges should not be co
 The electrostatic potential energy stored in the system of three charges is:
 
 $$
-
 U_\mathrm{E} = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} + \frac{Q_1 Q_3}{r_{13}} + \frac{Q_2 Q_3}{r_{23}} \right]
-
 $$
 
 
 
 $$
-
 \Phi(\mathbf{r}_2) = \Phi_1(\mathbf{r}_2) + \Phi_3(\mathbf{r}_2) = \frac{1}{4\pi\varepsilon_0} \frac{Q_1}{r_{21}} + \frac{1}{4\pi\varepsilon_0} \frac{Q_3}{r_{23}}
-
 $$
 
 
 
 $$
-
 \Phi(\mathbf{r}_3) = \Phi_1(\mathbf{r}_3) + \Phi_2(\mathbf{r}_3) = \frac{1}{4\pi\varepsilon_0} \frac{Q_1}{r_{31}} + \frac{1}{4\pi\varepsilon_0} \frac{Q_2}{r_{32}}
-
 $$
 
 
@@ -8335,9 +8011,7 @@ Where $r_{ij}$ is the distance between charge $Q_i$ and $Q_j$. If we add everyth
 
 
 $$
-
 U_\mathrm{E} = \frac{1}{2} \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} + \frac{Q_1 Q_3}{r_{13}} + \frac{Q_2 Q_1}{r_{21}} + \frac{Q_2 Q_3}{r_{23}} + \frac{Q_3 Q_1}{r_{31}} + \frac{Q_3 Q_2}{r_{32}} \right]
-
 $$
 
 
@@ -8369,9 +8043,7 @@ Similar to electricity, magnetism is a fundamental aspect of our everyday lives.
 
 
 $$
-
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
-
 $$
 
 
@@ -8389,9 +8061,7 @@ In classical mechanics, the magnetic potential energy of a system of charges can
 
 
 $$
-
 U_\mathrm{M} = -\frac{\mu_0}{4\pi} \left[ \frac{\mathbf{m}_1 \cdot \mathbf{m}_2}{r_{12}^3} + \frac{\mathbf{m}_1 \cdot \mathbf{m}_3}{r_{13}^3} + \frac{\mathbf{m}_2 \cdot \mathbf{m}_3}{r_{23}^3} \right]
-
 $$
 
 
@@ -8409,9 +8079,7 @@ In classical electromagnetism, the magnetic field is described by the Biot-Savar
 
 
 $$
-
 \mathbf{B} = \frac{\mu_0}{4\pi} \left[ \frac{3(\mathbf{m}_1 \cdot \mathbf{r}_{12})\mathbf{r}_{12} - \mathbf{m}_1}{r_{12}^5} + \frac{3(\mathbf{m}_2 \cdot \mathbf{r}_{23})\mathbf{r}_{23} - \mathbf{m}_2}{r_{23}^5} + \frac{3(\mathbf{m}_3 \cdot \mathbf{r}_{31})\mathbf{r}_{31} - \mathbf{m}_3}{r_{31}^5} \right]
-
 $$
 
 
@@ -8535,9 +8203,7 @@ The Hamiltonian of the helium atom, after separating out the center-of-mass moti
 
 
 $$
-
 H(\mathbf{r}_1,\, \mathbf{r}_2) = \sum_{i=1,2}\left(-\frac{\hbar^2}{2\mu} \nabla^2_{r_i} -\frac{Ze^2}{4\pi\varepsilon_0 r_i}\right) - \frac{\hbar^2}{M} \nabla_{r_1} \cdot \nabla_{r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}
-
 $$
 
 
@@ -8547,9 +8213,7 @@ where $\mu$ is the reduced mass of an electron with respect to the nucleus, $\ma
 
 
 $$
-
 H(\mathbf{r}_1,\, \mathbf{r}_2) = -\frac{\hbar^2}{2m} \nabla^2_{r_1} -\frac{\hbar^2}{2m} \nabla^2_{r_2} -\frac{2e^2}{4\pi\varepsilon_0 r_1} -\frac{2e^2}{4\pi\varepsilon_0 r_2} + \frac{e^2}{4\pi\varepsilon_0 r_{12}}
-
 $$
 
 
@@ -8605,9 +8269,7 @@ The molecular Hamiltonian can be written as:
 
 
 $$
-
 H = \sum_{i=1}^{N}\left(-\frac{\hbar^2}{2m_i} \nabla^2_{r_i} -\frac{Ze^2}{4\pi\varepsilon_0 r_i}\right) + \sum_{i<j}^{N}\frac{e^2}{4\pi\varepsilon_0 r_{ij}}
-
 $$
 
 
@@ -8659,9 +8321,7 @@ The solid-state Hamiltonian can be written as:
 
 
 $$
-
 H = \sum_{i=1}^{N}\left(-\frac{\hbar^2}{2m_i} \nabla^2_{r_i} -\frac{Ze^2}{4\pi\varepsilon_0 r_i}\right) + \sum_{i<j}^{N}\frac{e^2}{4\pi\varepsilon_0 r_{ij}} + \sum_{i=1}^{N}\sum_{j=1}^{N}V_{ij}
-
 $$
 
 
@@ -8717,9 +8377,7 @@ The liquid-state Hamiltonian can be written as:
 
 
 $$
-
 H = \sum_{i=1}^{N}\left(-\frac{\hbar^2}{2m_i} \nabla^2_{r_i} -\frac{Ze^2}{4\pi\varepsilon_0 r_i}\right) + \sum_{i<j}^{N}\frac{e^2}{4\pi\varepsilon_0 r_{ij}} + \sum_{i=1}^{N}\sum_{j=1}^{N}V_{ij}
-
 $$
 
 
@@ -8901,9 +8559,7 @@ The ideal gas law in quantum mechanics takes the form of:
 
 
 $$
-
 PV = NkT
-
 $$
 
 

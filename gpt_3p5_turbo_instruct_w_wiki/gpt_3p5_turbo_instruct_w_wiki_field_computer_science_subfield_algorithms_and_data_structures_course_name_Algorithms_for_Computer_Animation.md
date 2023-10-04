@@ -3753,9 +3753,7 @@ One of the most commonly used geometric constraints is the distance constraint. 
 
 
 $$
-
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
-
 $$
 
 
@@ -3769,9 +3767,7 @@ Another important geometric constraint is the angle constraint. This constraint 
 
 
 $$
-
 \theta = \cos^{-1}\left(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}| |\vec{v}|}\right)
-
 $$
 
 
@@ -3785,9 +3781,7 @@ Geometric constraints can also be used to simulate more complex behaviors, such 
 
 
 $$
-
 \vec{u} \cdot \vec{v} = 0
-
 $$
 
 
@@ -3797,9 +3791,7 @@ for tangency, and
 
 
 $$
-
 \vec{u} \times \vec{v} = 0
-
 $$
 
 
@@ -3867,9 +3859,7 @@ One of the most commonly used geometric constraints is the distance constraint. 
 
 
 $$
-
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
-
 $$
 
 
@@ -3883,9 +3873,7 @@ Another important geometric constraint is the angle constraint. This constraint 
 
 
 $$
-
 \theta = \cos^{-1}\left(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}| |\vec{v}|}\right)
-
 $$
 
 
@@ -5937,7 +5925,6 @@ A PI controller, or proportional-integral controller, is a special case of the P
 $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau$$
 
 
-
 where $e(t)$ is the error or deviation of the actual measured value from the setpoint, $K_p$ is the proportional gain, and $K_i$ is the integral gain.
 
 
@@ -5949,9 +5936,7 @@ PI controllers are often used in systems where the derivative term is not necess
 In software such as Simulink or Xcos, a PI controller can be easily modeled using a "flow chart" box involving Laplace operators:
 
 
-
 $$G(s) = K_p + \frac{K_i}{s}$$
-
 
 
 The value of $K_i$ is typically chosen to balance between decreasing overshoot and increasing settling time.
@@ -8337,7 +8322,6 @@ Verlet integration is a popular numerical integration method used in physics sim
 The Verlet integration method is based on the idea of using the position and velocity of an object at two consecutive time steps to approximate its position at the next time step. This is achieved by using a Taylor expansion of the position vector <math>\mathbf{x}(t \pm \Delta t)</math> in different time directions:
 
 
-
 $$
 
 \mathbf{x}(t + \Delta t) = \mathbf{x}(t) + \mathbf{v}(t)\Delta t + \frac{\mathbf{a}(t)\Delta t^2}{2} + \mathcal{O}(\Delta t^3)\\
@@ -8347,9 +8331,7 @@ $$
 $$
 
 
-
 By adding these two expansions, we can see that the first- and third-order terms cancel out, resulting in a more accurate approximation of the position at the next time step:
-
 
 
 $$
@@ -8357,7 +8339,6 @@ $$
 \mathbf{x}(t + \Delta t) = 2\mathbf{x}(t) - \mathbf{x}(t - \Delta t) + \mathbf{a}(t)\Delta t^2 + \mathcal{O}(\Delta t^3)
 
 $$
-
 
 
 This cancellation of odd-degree terms is what makes Verlet integration a second-order method. However, it should be noted that this cancellation only occurs when the acceleration is computed from the exact solution, <math>\mathbf{a}(t) = \mathbf{A}(\mathbf{x}(t))</math>. In practice, the acceleration is often computed at the central iteration point, <math>\mathbf{a}_n = \mathbf{A}(\mathbf{x}_n)</math>, which can affect the accuracy of the method.
@@ -8413,7 +8394,6 @@ Verlet integration is a popular numerical integration method used in physics sim
 The Verlet integration method is based on the idea of using the position and velocity of an object at two consecutive time steps to estimate its position at the next time step. This is done by using a Taylor expansion of the position vector <math>\mathbf{x}(t \pm \Delta t)</math> in different time directions:
 
 
-
 $$
 
 \mathbf{x}(t + \Delta t) = \mathbf{x}(t) + \mathbf{v}(t)\Delta t + \frac{\mathbf{a}(t)\Delta t^2}{2} + \mathcal{O}(\Delta t^3)\\
@@ -8423,9 +8403,7 @@ $$
 $$
 
 
-
 By adding these two expansions, we can see that the first- and third-order terms cancel out, leaving us with an expression for the position at the next time step that is accurate up to <math>\mathcal{O}(\Delta t^3)</math>:
-
 
 
 $$
@@ -8433,7 +8411,6 @@ $$
 \mathbf{x}(t + \Delta t) = 2\mathbf{x}(t) - \mathbf{x}(t - \Delta t) + \mathbf{a}(t)\Delta t^2 + \mathcal{O}(\Delta t^3)
 
 $$
-
 
 
 This is the basic idea behind Verlet integration. It is a symplectic integrator, meaning that it preserves the symplectic structure of Hamiltonian systems, making it more stable and accurate than other integration methods.
@@ -8455,7 +8432,6 @@ There are two main algorithms for implementing Verlet integration: the position 
 The position Verlet algorithm uses the position and acceleration at two consecutive time steps to estimate the position at the next time step. It is given by the following equations:
 
 
-
 $$
 
 \mathbf{x}(t + \Delta t) = 2\mathbf{x}(t) - \mathbf{x}(t - \Delta t) + \mathbf{a}(t)\Delta t^2 + \mathcal{O}(\Delta t^3)\\
@@ -8463,7 +8439,6 @@ $$
 \mathbf{v}(t + \Delta t) = \frac{\mathbf{x}(t + \Delta t) - \mathbf{x}(t)}{\Delta t} + \mathcal{O}(\Delta t^2)
 
 $$
-
 
 
 The position Verlet algorithm is simple and easy to implement, but it suffers from a numerical drift in the position over time, which can lead to inaccuracies in the simulation.
@@ -8477,7 +8452,6 @@ The position Verlet algorithm is simple and easy to implement, but it suffers fr
 The velocity Verlet algorithm addresses the issue of numerical drift by using the position and velocity at the same time step to estimate the position and velocity at the next time step. It is given by the following equations:
 
 
-
 $$
 
 \mathbf{x}(t + \Delta t) = \mathbf{x}(t) + \mathbf{v}(t)\Delta t + \frac{\mathbf{a}(t)\Delta t^2}{2} + \mathcal{O}(\Delta t^3)\\
@@ -8485,7 +8459,6 @@ $$
 \mathbf{v}(t + \Delta t) = \mathbf{v}(t) + \frac{\mathbf{a}(t) + \mathbf{a}(t + \Delta t)}{2}\Delta t + \mathcal{O}(\Delta t^2)
 
 $$
-
 
 
 The velocity Verlet algorithm is more accurate than the position Verlet algorithm, but it requires the computation of the acceleration at two time steps, which can be computationally expensive.
@@ -8541,7 +8514,6 @@ Verlet integration is a popular numerical integration method used in physics sim
 The Verlet integration method is based on the idea of using the position and velocity of an object at two consecutive time steps to estimate its position at the next time step. This is done by using a Taylor series expansion of the position equation:
 
 
-
 $$
 
 x(t + \Delta t) = x(t) + v(t)\Delta t + \frac{1}{2}a(t)\Delta t^2 + \mathcal{O}(\Delta t^3)
@@ -8549,9 +8521,7 @@ x(t + \Delta t) = x(t) + v(t)\Delta t + \frac{1}{2}a(t)\Delta t^2 + \mathcal{O}(
 $$
 
 
-
 where $x(t)$ is the position of the object at time $t$, $v(t)$ is its velocity, $a(t)$ is its acceleration, and $\Delta t$ is the time step. The Verlet integration method uses this equation to estimate the position at the next time step, but instead of using the velocity at the current time step, it uses the average velocity between the current and previous time steps:
-
 
 
 $$
@@ -8559,7 +8529,6 @@ $$
 x(t + \Delta t) = x(t) + \frac{1}{2}(v(t) + v(t - \Delta t))\Delta t + \mathcal{O}(\Delta t^3)
 
 $$
-
 
 
 This method is more accurate than Euler's method because it takes into account the acceleration at both the current and previous time steps. It also does not require the calculation of the acceleration at the current time step, which can be computationally expensive.
@@ -8643,26 +8612,21 @@ Verlet integration is a popular numerical integration method used in physics sim
 The Verlet integration method is based on the idea of using the positions of an object at two consecutive time steps to estimate its position at the next time step. This is done by using a Taylor series expansion of the position function. Let $x(t)$ be the position of an object at time $t$, then we can write the Taylor series expansion as:
 
 
-
 $$
 
 x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} \ddot{x}(t) + \mathcal{O}(\Delta t^3)
 
 $$
-
 
 
 where $\dot{x}(t)$ and $\ddot{x}(t)$ are the first and second derivatives of $x(t)$ with respect to time. Rearranging this equation, we get:
 
 
-
 $$
 
 x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} \ddot{x}(t) + \mathcal{O}(\Delta t^3)
 
 $$
-
-
 
 $$
 
@@ -8671,9 +8635,7 @@ $$
 $$
 
 
-
 Using the definition of acceleration, $\ddot{x}(t) = \frac{d}{dt} \dot{x}(t)$, we can rewrite this as:
-
 
 
 $$
@@ -8682,14 +8644,11 @@ x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} \ddot{x}(t) 
 
 $$
 
-
-
 $$
 
 \implies x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} a(t) + \mathcal{O}(\Delta t^3)
 
 $$
-
 
 
 where $a(t)$ is the acceleration at time $t$. This is the basic equation for Verlet integration. It can be used to estimate the position of an object at the next time step, given its position and velocity at the current time step, and the acceleration at the current time step.
@@ -8703,7 +8662,6 @@ where $a(t)$ is the acceleration at time $t$. This is the basic equation for Ver
 To implement Verlet integration, we need to know the position and velocity of an object at the current time step, as well as the acceleration at the current time step. Using these values, we can estimate the position at the next time step using the equation:
 
 
-
 $$
 
 x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} a(t)
@@ -8711,9 +8669,7 @@ x(t + \Delta t) = x(t) + \Delta t \dot{x}(t) + \frac{\Delta t^2}{2} a(t)
 $$
 
 
-
 To calculate the velocity at the next time step, we can use the average of the current and next acceleration values:
-
 
 
 $$
@@ -8721,7 +8677,6 @@ $$
 \dot{x}(t + \Delta t) = \dot{x}(t) + \frac{\Delta t}{2} \left(a(t) + a(t + \Delta t)\right)
 
 $$
-
 
 
 This method is more accurate than Euler's method, which only uses the current acceleration value to estimate the velocity at the next time step. However, it still has some limitations, such as being sensitive to small changes in the acceleration values and not being able to handle constraints and collisions.
@@ -8865,21 +8820,17 @@ Verlet integration is a popular numerical integration method used in physics sim
 The Verlet integration method is based on the idea of using the position and velocity of an object at two consecutive time steps to estimate its position at the next time step. This is done by using the following equations:
 
 
-
 $$
 
 \mathbf{x}_{n+1} = \mathbf{x}_n + \mathbf{v}_n \Delta t + \frac{1}{2}\mathbf{a}_n \Delta t^2
 
 $$
 
-
-
 $$
 
 \mathbf{v}_{n+1} = \mathbf{v}_n + \frac{1}{2}(\mathbf{a}_n + \mathbf{a}_{n+1}) \Delta t
 
 $$
-
 
 
 where $\mathbf{x}_n$ and $\mathbf{v}_n$ are the position and velocity of the object at time step $n$, $\mathbf{a}_n$ is the acceleration at time step $n$, and $\Delta t$ is the time step size.
@@ -8893,21 +8844,17 @@ This method is more accurate than Euler's method because it takes into account t
 To address these limitations, we can use a modified version of Verlet integration called the Leapfrog method. This method uses the following equations:
 
 
-
 $$
 
 \mathbf{x}_{n+1} = \mathbf{x}_n + \mathbf{v}_n \Delta t + \frac{1}{2}\mathbf{a}_n \Delta t^2
 
 $$
 
-
-
 $$
 
 \mathbf{v}_{n+1} = \mathbf{v}_n + \mathbf{a}_{n+1} \Delta t
 
 $$
-
 
 
 where the velocity is updated at the midpoint between time steps $n$ and $n+1$. This method is more stable and accurate than the original Verlet method, making it a popular choice for physics simulations.
@@ -8921,13 +8868,11 @@ where the velocity is updated at the midpoint between time steps $n$ and $n+1$. 
 To implement Verlet integration in a physics simulation, we need to first calculate the acceleration of each object at each time step. This can be done by summing the forces acting on the object and dividing by its mass:
 
 
-
 $$
 
 \mathbf{a}_n = \frac{\sum \mathbf{F}_n}{m}
 
 $$
-
 
 
 Once we have the acceleration, we can use the equations mentioned above to update the position and velocity of the object at each time step.
@@ -12619,14 +12564,11 @@ Another popular approach for free surface simulation is the Smoothed Particle Hy
 In order to simulate free surface flows, we must solve the Navier-Stokes equations, which describe the motion of a fluid. These equations are derived from the fundamental laws of conservation of mass, momentum, and energy, and can be written in their most general form as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -12634,14 +12576,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \frac{\partial e}{\partial t} + \rho \mathbf{u} \cdot \nabla e = -p \nabla \cdot \mathbf{u} + \mu \mathbf{u} \cdot \nabla^2 \mathbf{u} + \mathbf{u} \cdot \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{f}$ is the external force, and $e$ is the specific internal energy.
@@ -12709,14 +12648,11 @@ Another popular approach for free surface simulation is the Smoothed Particle Hy
 In order to simulate free surface flows, we must solve the Navier-Stokes equations, which describe the motion of a fluid. These equations are derived from the fundamental laws of conservation of mass, momentum, and energy, and can be written in their most general form as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
 
 $$
-
-
 
 $$
 
@@ -12724,14 +12660,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left( \frac{\partial e}{\partial t} + \mathbf{v} \cdot \nabla e \right) = -p \nabla \cdot \mathbf{v} + \nabla \cdot (\mu \nabla \mathbf{v}) + \mathbf{v} \cdot \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{v}$ is the velocity, $p$ is the pressure, $\mu$ is the dynamic viscosity, $e$ is the specific internal energy, and $\mathbf{f}$ is the external force per unit mass.
@@ -12779,22 +12712,17 @@ Another popular approach for free surface simulation is the Smoothed Particle Hy
 In order to simulate free surface flows, we must solve the Navier-Stokes equations, which describe the motion of a fluid. These equations are derived from the fundamental laws of conservation of mass, momentum, and energy, and can be written in their most general form as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
 
-
-
 $$
 
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
 
 $$
-
-
 
 $$
 

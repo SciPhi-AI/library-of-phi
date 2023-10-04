@@ -1060,9 +1060,7 @@ Simple linear regression is the most basic form of regression analysis, where th
 
 
 $$
-
 y = \beta_0 + \beta_1x + \epsilon
-
 $$
 
 
@@ -1080,9 +1078,7 @@ Simple linear regression can be extended to multiple linear regression, where th
 
 
 $$
-
 y_i = \beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip} + \epsilon_i
-
 $$
 
 
@@ -1130,9 +1126,7 @@ Multiple linear regression is a generalization of simple linear regression to th
 
 
 $$
-
 Y_i = \beta_0 + \beta_1X_{i1} + \beta_2X_{i2} + ... + \beta_pX_{ip} + \epsilon_i
-
 $$
 
 
@@ -1146,9 +1140,7 @@ In the more general multivariate linear regression, there is one equation of the
 
 
 $$
-
 Y_{ij} = \beta_0 + \beta_1X_{i1} + \beta_2X_{i2} + ... + \beta_pX_{ip} + \epsilon_{ij}
-
 $$
 
 
@@ -1200,9 +1192,7 @@ The simplest case of regression analysis is known as simple linear regression. I
 
 
 $$
-
 y_i = \beta_0 + \beta_1x_i + \epsilon_i
-
 $$
 
 
@@ -1220,9 +1210,7 @@ Multiple linear regression is a generalization of simple linear regression to th
 
 
 $$
-
 y_i = \beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip} + \epsilon_i
-
 $$
 
 
@@ -1236,9 +1224,7 @@ In the more general multivariate linear regression, there is one equation of the
 
 
 $$
-
 y_{ij} = \beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip} + \epsilon_{ij}
-
 $$
 
 

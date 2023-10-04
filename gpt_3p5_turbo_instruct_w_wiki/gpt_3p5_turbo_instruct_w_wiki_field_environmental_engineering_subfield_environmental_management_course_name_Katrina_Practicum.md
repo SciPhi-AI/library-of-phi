@@ -2047,9 +2047,7 @@ The de Broglie wavelength, denoted by λ, is given by the equation:
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -2151,9 +2149,7 @@ The Galilean transformation of de Broglie wavelength states that the wavelength 
 
 
 $$
-
 \lambda' = \lambda \left(1 - \frac{v}{c}\right)
-
 $$
 
 
@@ -2339,9 +2335,7 @@ The Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
-
 $$
 
 
@@ -2355,9 +2349,7 @@ The Hamiltonian operator is defined as:
 
 
 $$
-
 \hat{H} = \hat{T} + \hat{V}
-
 $$
 
 
@@ -2379,11 +2371,9 @@ The solutions to the Schrödinger equation are given by the wave function <math>
 
 
 $$
-
 \psi_n(x) = \sqrt{\frac{1}{2^n\,n!}} \ \left(\frac{m\omega}{\pi \hbar}\right)^{1/4} \ e^{
 
 - \frac{m\omega x^2}{2 \hbar}} \ \mathcal{H}_n\left(\sqrt{\frac{m\omega}{\hbar}} x \right)
-
 $$
 
 
@@ -2393,9 +2383,7 @@ where <math>n \in \{0, 1, 2, \ldots \}</math>, and the functions <math> \mathcal
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{n!}} \left( \sqrt{\frac{m \omega}{2 \hbar}} \right)^{n} \left( x - \frac{\hbar}{m \omega} \frac{d}{dx}\right)^n \left( \frac{m \omega}{\pi \hbar} \right)^{\frac{1}{4}} e^{\frac{-m \omega x^2}{2\hbar}}
-
 $$
 
 
@@ -2405,9 +2393,7 @@ The eigenvalues of the Schrödinger equation are given by:
 
 
 $$
-
 E_n = \left(n + \frac{1}{2} \right) \hbar \omega
-
 $$
 
 
@@ -2493,9 +2479,7 @@ The Schrödinger equation is also used to describe the behavior of particles in 
 
 
 $$
-
 V(r) = \frac{1}{2} m_0 \omega^2 r^2
-
 $$
 
 
@@ -2509,9 +2493,7 @@ The energies of an "N"-dimensional isotropic harmonic oscillator are given by:
 
 
 $$
-
 E_n = \hbar \omega\left( n + \frac{N}{2} \right)
-
 $$
 
 
@@ -2551,9 +2533,7 @@ In the previous subsection, we discussed the Schrödinger equation, which descri
 
 
 $$
-
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
-
 $$
 
 
@@ -2575,9 +2555,7 @@ The solutions to the time-independent Schrödinger equation are given by the wav
 
 
 $$
-
 \psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -2625,9 +2603,7 @@ The time-dependent Schrödinger equation is given by:
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
-
 $$
 
 
@@ -2641,9 +2617,7 @@ This equation is a first-order partial differential equation, and its solution g
 
 
 $$
-
 \mathbf{U}(t) = e^{-i\mathbf{H}t/\hbar} = e^{-i \alpha t / \hbar} \left(\cos\left(\frac{\hbar}{t}\right)\sigma_0 - i \sin\left(\frac{\hbar}{t}\right) \hat{r} \cdot \boldsymbol{\sigma}\right)
-
 $$
 
 
@@ -2657,9 +2631,7 @@ To find the time evolution of the wave function, we can use the series expansion
 
 
 $$
-
 \mathbf{c}(t) = e^{-i \mathbf{H} t / \hbar} \mathbf{c}_0 = \mathbf{U}(t) \mathbf{c}_0
-
 $$
 
 
@@ -2673,9 +2645,7 @@ In the case where the Hamiltonian is time-independent, we can use the normal mod
 
 
 $$
-
 \mathbf{c}(t) = e^{-i \mathbf{H} t / \hbar} \mathbf{c}_0 = \mathbf{U}(t) \mathbf{c}_0 = e^{-i E_n t / \hbar} \mathbf{c}_0
-
 $$
 
 
@@ -2873,9 +2843,7 @@ A Hermitian operator is a linear operator that satisfies the condition of Hermit
 
 
 $$
-
 \hat{A} = \hat{A}^\dagger
-
 $$
 
 
@@ -2901,9 +2869,7 @@ Hermitian operators also play a key role in the commutation relations between op
 
 
 $$
-
 [\hat{A}, \hat{B}] = -[\hat{B}, \hat{A}]^\dagger
-
 $$
 
 
@@ -2951,9 +2917,7 @@ In quantum mechanics, an eigenvalue is a number that represents the possible val
 
 
 $$
-
 \hat{A}\psi = a\psi
-
 $$
 
 
@@ -2963,9 +2927,7 @@ where $\hat{A}$ is the operator, $\psi$ is the eigenfunction, and $a$ is the eig
 
 
 $$
-
 \hat{A}\psi = \lambda\psi
-
 $$
 
 
@@ -3177,9 +3139,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3197,9 +3157,7 @@ Now, let's consider a simple example to better understand expectation values. Su
 
 
 $$
-
 \psi(x) = \begin{cases} \sqrt{\frac{2}{L}} \sin \left(\frac{n \pi x}{L}\right) & \text{for } 0 \leq x \leq L \\ 0 & \text{otherwise} \end{cases}
-
 $$
 
 
@@ -3209,9 +3167,7 @@ where $L$ is the length of the box and $n$ is a positive integer. This wave func
 
 
 $$
-
 \langle \hat{x} \rangle = \int_0^L \psi^* \hat{x} \psi dx = \int_0^L \psi^* x \psi dx = \frac{L}{2}
-
 $$
 
 
@@ -3255,9 +3211,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3325,9 +3279,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3353,9 +3305,7 @@ The uncertainty principle states that the more precisely we know the position of
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3381,9 +3331,7 @@ The Fourier transform of a function $f(x)$ is given by the following equation:
 
 
 $$
-
 \mathcal{F}[f(x)] = \int_{-\infty}^{\infty} f(x)e^{-i2\pi\xi x}dx
-
 $$
 
 
@@ -3393,9 +3341,7 @@ where $\xi$ is the frequency domain variable. The inverse Fourier transform is g
 
 
 $$
-
 \mathcal{F}^{-1}[f(\xi)] = \int_{-\infty}^{\infty} f(\xi)e^{i2\pi\xi x}d\xi
-
 $$
 
 
@@ -3467,9 +3413,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3495,9 +3439,7 @@ Mathematically, the Parseval theorem can be expressed as:
 
 
 $$
-
 \sum_{n=0}^{\infty} |c_n|^2 = \int_{-\infty}^{\infty} |\psi(x)|^2 dx
-
 $$
 
 
@@ -3545,9 +3487,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3573,9 +3513,7 @@ The Maccone-Pati uncertainty relations provide stronger bounds on the sum of the
 
 
 $$
-
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle \Psi | [A,B] | \Psi \rangle |^2
-
 $$
 
 
@@ -3589,9 +3527,7 @@ Another non-trivial stronger uncertainty relation is given by:
 
 
 $$
-
 \Delta (A+B)^2 \geq \frac{1}{4} |\langle \Psi | [A,B] | \Psi \rangle |^2
-
 $$
 
 
@@ -3605,9 +3541,7 @@ We can also prove an improved version of the Heisenberg uncertainty relation, wh
 
 
 $$
-
 \Delta A \Delta B \geq \frac{1}{2} |\langle \Psi | [A,B] | \Psi \rangle |
-
 $$
 
 
@@ -3651,9 +3585,7 @@ To calculate the expectation value of a physical quantity, we use the mathematic
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3683,9 +3615,7 @@ Mathematically, the uncertainty principle can be expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3737,9 +3667,7 @@ To understand stationary states, we must first introduce the time-independent Sc
 
 
 $$
-
 \hat{H}|\Psi\rangle = E_\Psi|\Psi\rangle
-
 $$
 
 
@@ -3753,9 +3681,7 @@ If we plug a stationary state $|\Psi\rangle$ into the time-dependent Schrödinge
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t} |\Psi\rangle = E_\Psi|\Psi\rangle
-
 $$
 
 
@@ -3765,9 +3691,7 @@ Assuming that the Hamiltonian $\hat{H}$ is time-independent, this equation holds
 
 
 $$
-
 |\Psi(t)\rangle = e^{-iE_\Psi t/\hbar}|\Psi(0)\rangle
-
 $$
 
 
@@ -3781,9 +3705,7 @@ In one-dimensional potentials, stationary states are particularly useful because
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi dx
-
 $$
 
 
@@ -3793,9 +3715,7 @@ In one-dimensional potentials, the wave function $\psi$ is a function of positio
 
 
 $$
-
 \langle A \rangle = \int \psi^*(x) A \psi(x) dx
-
 $$
 
 
@@ -3889,9 +3809,7 @@ To begin, let us consider the Hamiltonian for a particle on a circle:
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial\theta^2}
-
 $$
 
 
@@ -3901,9 +3819,7 @@ where $\theta$ is the angle along the circle and $m$ is the mass of the particle
 
 
 $$
-
 \psi_n(\theta) = \frac{1}{\sqrt{2\pi}}e^{in\theta}
-
 $$
 
 
@@ -3917,9 +3833,7 @@ Now, let us consider the expectation value of the position operator, $\hat{x}$, 
 
 
 $$
-
 \langle\hat{x}\rangle = \int_0^{2\pi}\psi_n^*(\theta)\hat{x}\psi_n(\theta)d\theta = \frac{1}{2\pi}\int_0^{2\pi}e^{-in\theta}xe^{in\theta}d\theta = \frac{x}{2\pi}\int_0^{2\pi}d\theta = x
-
 $$
 
 
@@ -3933,9 +3847,7 @@ Next, let us consider the expectation value of the momentum operator, $\hat{p}$.
 
 
 $$
-
 \langle\hat{p}\rangle = \int_0^{2\pi}\psi_n^*(\theta)\hat{p}\psi_n(\theta)d\theta = \frac{1}{2\pi}\int_0^{2\pi}e^{-in\theta}\left(-i\hbar\frac{\partial}{\partial\theta}\right)e^{in\theta}d\theta = \frac{-i\hbar n}{2\pi}\int_0^{2\pi}e^{-in\theta}e^{in\theta}d\theta = -i\hbar n
-
 $$
 
 
@@ -3949,17 +3861,13 @@ Finally, let us consider the uncertainty in the position and momentum of a parti
 
 
 $$
-
 \Delta x = \sqrt{\langle\hat{x}^2\rangle - \langle\hat{x}\rangle^2} = \sqrt{\frac{1}{2\pi}\int_0^{2\pi}e^{-in\theta}x^2e^{in\theta}d\theta - x^2} = 0
-
 $$
 
 
 
 $$
-
 \Delta p = \sqrt{\langle\hat{p}^2\rangle - \langle\hat{p}\rangle^2} = \sqrt{\frac{1}{2\pi}\int_0^{2\pi}e^{-in\theta}\left(-i\hbar\frac{\partial}{\partial\theta}\right)^2e^{in\theta}d\theta - \hbar^2n^2} = \hbar|n|
-
 $$
 
 
@@ -4003,9 +3911,7 @@ To begin, let us consider the Hamiltonian for a particle in an infinite square w
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-
 $$
 
 
@@ -4015,9 +3921,7 @@ where $m$ is the mass of the particle. The eigenfunctions of this Hamiltonian ar
 
 
 $$
-
 \psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -4031,9 +3935,7 @@ Now, let us consider the expectation value of the position operator, $\hat{x}$, 
 
 
 $$
-
 \langle\hat{x}\rangle = \int_0^L\psi_n^*(x)\hat{x}\psi_n(x)dx = \frac{2}{L}\int_0^L\sin^2\left(\frac{n\pi x}{L}\right)xdx = \frac{L}{2}
-
 $$
 
 
@@ -4047,9 +3949,7 @@ Next, let us consider the expectation value of the momentum operator, $\hat{p}$,
 
 
 $$
-
 \langle\hat{p}\rangle = \int_0^L\psi_n^*(x)\hat{p}\psi_n(x)dx = \frac{2}{L}\int_0^L\sin^2\left(\frac{n\pi x}{L}\right)\left(-i\hbar\frac{\partial}{\partial x}\right)\sin\left(\frac{n\pi x}{L}\right)dx = 0
-
 $$
 
 
@@ -4063,9 +3963,7 @@ Finally, let us consider the expectation value of the energy operator, $\hat{E}$
 
 
 $$
-
 \langle\hat{E}\rangle = \int_0^L\psi_n^*(x)\hat{E}\psi_n(x)dx = \frac{2}{L}\int_0^L\sin^2\left(\frac{n\pi x}{L}\right)\left(-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\right)\sin\left(\frac{n\pi x}{L}\right)dx = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -4109,9 +4007,7 @@ To begin, let us consider the Hamiltonian for a particle in a finite square well
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)
-
 $$
 
 
@@ -4121,7 +4017,6 @@ where $m$ is the mass of the particle and $V(x)$ is the potential function. In t
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & 0 < x < a \\
@@ -4131,7 +4026,6 @@ V_0, & a < x < b \\
 0, & b < x < L
 
 \end{cases}
-
 $$
 
 
@@ -4141,7 +4035,6 @@ where $a$ and $b$ are the boundaries of the well and $V_0$ is the height of the 
 
 
 $$
-
 \psi_n(x) = \begin{cases}
 
 A\sin\left(\frac{n\pi x}{a}\right), & 0 < x < a \\
@@ -4151,7 +4044,6 @@ B\sin\left(\frac{n\pi x}{b}\right), & a < x < b \\
 0, & b < x < L
 
 \end{cases}
-
 $$
 
 
@@ -4165,9 +4057,7 @@ Now, let us consider the expectation value of the position operator, $\hat{x}$, 
 
 
 $$
-
 \langle\hat{x}\rangle = \int_0^L\psi_n^*(x)\hat{x}\psi_n(x)dx = \int_0^aA^2x\sin^2\left(\frac{n\pi x}{a}\right)dx + \int_a^bB^2x\sin^2\left(\frac{n\pi x}{b}\right)dx
-
 $$
 
 
@@ -4181,9 +4071,7 @@ In addition to expectation values, we can also use the concept of uncertainty to
 
 
 $$
-
 \Delta x = \sqrt{\langle\hat{x}^2\rangle - \langle\hat{x}\rangle^2}
-
 $$
 
 
@@ -4193,9 +4081,7 @@ where $\langle\hat{x}^2\rangle$ is the expectation value of the position squared
 
 
 $$
-
 \langle\hat{x}^2\rangle = \int_0^L\psi_n^*(x)\hat{x}^2\psi_n(x)dx = \int_0^aA^2x^2\sin^2\left(\frac{n\pi x}{a}\right)dx + \int_a^bB^2x^2\sin^2\left(\frac{n\pi x}{b}\right)dx
-
 $$
 
 
@@ -4239,9 +4125,7 @@ To begin, let us consider the Hamiltonian for a particle in a one-dimensional po
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)
-
 $$
 
 
@@ -4251,7 +4135,6 @@ where $m$ is the mass of the particle and $V(x)$ is the potential function. In t
 
 
 $$
-
 V(x) = \begin{cases}
 
 0, & x < 0 \\
@@ -4259,7 +4142,6 @@ V(x) = \begin{cases}
 V_0, & x > 0
 
 \end{cases}
-
 $$
 
 
@@ -4269,7 +4151,6 @@ where $V_0$ is the height of the potential barrier. The eigenfunctions of this H
 
 
 $$
-
 \psi_n(x) = \begin{cases}
 
 Ae^{ikx} + Be^{-ikx}, & x < 0 \\
@@ -4277,7 +4158,6 @@ Ae^{ikx} + Be^{-ikx}, & x < 0 \\
 Ce^{ikx} + De^{-ikx}, & x > 0
 
 \end{cases}
-
 $$
 
 
@@ -4291,9 +4171,7 @@ Now, let us consider the case where the energy of the particle is much smaller t
 
 
 $$
-
 \hat{H} \approx V(x)
-
 $$
 
 
@@ -4303,9 +4181,7 @@ This approximation is known as the semiclassical approximation. Using this appro
 
 
 $$
-
 V(x)\psi_n(x) = E\psi_n(x)
-
 $$
 
 
@@ -4315,9 +4191,7 @@ Solving this equation for $E$, we get:
 
 
 $$
-
 E = V(x)
-
 $$
 
 
@@ -4361,9 +4235,7 @@ To begin, let us consider the one-dimensional Schrödinger equation for a partic
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{\partial^2\psi(x)}{\partial x^2} + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -4377,9 +4249,7 @@ The boundary conditions for a one-dimensional potential are given by:
 
 
 $$
-
 \psi(0) = 0 \quad \text{and} \quad \psi(\infty) = 0
-
 $$
 
 
@@ -4393,9 +4263,7 @@ Once we have the wave function, we can calculate the expectation value of an obs
 
 
 $$
-
 \langle A \rangle = \int_{-\infty}^{\infty} \psi^*(x)A\psi(x)dx
-
 $$
 
 
@@ -4443,9 +4311,7 @@ In this subsection, we will discuss the application of the shooting method to th
 
 
 $$
-
 V(x) = -q \left[ \delta \left(x + \frac{R}{2}\right) + \lambda\delta \left(x - \frac{R}{2} \right) \right]
-
 $$
 
 
@@ -4459,9 +4325,7 @@ To solve the Schrödinger equation for this potential, we can use the shooting m
 
 
 $$
-
 \psi(-\infty) = 0 \quad \text{and} \quad \psi(\infty) = 0
-
 $$
 
 
@@ -4471,9 +4335,7 @@ These conditions ensure that the wave function goes to zero at the boundaries, a
 
 
 $$
-
 \langle A \rangle = \int_{-\infty}^{\infty} \psi^*(x)A\psi(x)dx
-
 $$
 
 
@@ -4517,9 +4379,7 @@ In this subsection, we will discuss the application of the shooting method to th
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -4533,9 +4393,7 @@ To solve the Schrödinger equation for this potential, we can again use the shoo
 
 
 $$
-
 \psi(-\infty) = 0 \quad \text{and} \quad \psi(\infty) = 0
-
 $$
 
 
@@ -4545,9 +4403,7 @@ These conditions ensure that the wave function goes to zero at the boundaries, a
 
 
 $$
-
 \langle A \rangle = \int_{-\infty}^{\infty} \psi^*(x)A\psi(x)dx
-
 $$
 
 
@@ -4561,9 +4417,7 @@ One interesting feature of the simple harmonic oscillator is that its energy lev
 
 
 $$
-
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -4577,9 +4431,7 @@ The simple harmonic oscillator also exhibits periodic motion, with a period $T$ 
 
 
 $$
-
 T = \frac{2\pi}{\omega} \quad \text{and} \quad f = \frac{1}{T}
-
 $$
 
 
@@ -4593,9 +4445,7 @@ In addition to its energy levels, the simple harmonic oscillator also has well-d
 
 
 $$
-
 \psi(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}e^{-\frac{m\omega}{2\hbar}x^2}
-
 $$
 
 
@@ -4605,9 +4455,7 @@ while the momentum state is given by:
 
 
 $$
-
 \psi(p) = \left(\frac{1}{\pi\hbar}\right)^{\frac{1}{4}}e^{-\frac{p^2}{2\hbar m\omega}}
-
 $$
 
 
@@ -4655,9 +4503,7 @@ Using the shooting method, we can solve the Schrödinger equation for this poten
 
 
 $$
-
 R = \frac{|A|^2}{|B|^2} \quad \text{and} \quad T = \frac{|C|^2}{|B|^2}
-
 $$
 
 
@@ -4667,9 +4513,7 @@ where $A$ and $C$ are the amplitudes of the reflected and transmitted waves, and
 
 
 $$
-
 R = \frac{\int_{-\infty}^{0} |\psi(x)|^2 dx}{\int_{0}^{\infty} |\psi(x)|^2 dx} \quad \text{and} \quad T = \frac{\int_{0}^{\infty} |\psi(x)|^2 dx}{\int_{-\infty}^{0} |\psi(x)|^2 dx}
-
 $$
 
 
@@ -5195,9 +5039,7 @@ To understand the Virial Theorem, let us first consider a classical system of pa
 
 
 $$
-
 \langle T \rangle = \frac{1}{2}\langle V \rangle
-
 $$
 
 
@@ -5207,9 +5049,7 @@ In quantum mechanics, we can extend this theorem to relate the expectation value
 
 
 $$
-
 \langle \hat{T} \rangle = \frac{1}{2}\langle \hat{V} \rangle
-
 $$
 
 
@@ -5261,9 +5101,7 @@ To understand the relationship between circular orbits and eccentricity, let us 
 
 
 $$
-
 e = \sqrt{1 - \frac{b^2}{a^2}}
-
 $$
 
 
@@ -5273,9 +5111,7 @@ where $a$ is the length of the semi-major axis and $b$ is the length of the semi
 
 
 $$
-
 e = \sqrt{1 - \frac{\langle \hat{L}^2 \rangle}{\langle \hat{r}^2 \rangle}}
-
 $$
 
 
@@ -5381,9 +5217,7 @@ The total angular momentum of a system is given by the sum of the individual ang
 
 
 $$
-
 \hat{J} = \hat{J}_1 + \hat{J}_2 + ... + \hat{J}_n
-
 $$
 
 
@@ -5397,9 +5231,7 @@ In the case of two particles, we can use the Clebsch-Gordan coefficients to dete
 
 
 $$
-
 J = |j_1 - j_2|, |j_1 - j_2| + 1, ..., j_1 + j_2
-
 $$
 
 
@@ -6341,9 +6173,7 @@ The Schrödinger equation in three dimensions is a partial differential equation
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6357,9 +6187,7 @@ To derive this equation, we start with the time-dependent Schrödinger equation 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -6369,9 +6197,7 @@ where $\psi(x,t)$ is the wavefunction in one dimension and $\hat{H}$ is the Hami
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6385,9 +6211,7 @@ The Hamiltonian operator in three dimensions is given by:
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})
-
 $$
 
 
@@ -6401,9 +6225,7 @@ Substituting the Hamiltonian operator into the Schrödinger equation, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \left(-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right)\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6447,9 +6269,7 @@ The Schrödinger equation in three dimensions is a partial differential equation
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6463,9 +6283,7 @@ To derive this equation, we start with the time-dependent Schrödinger equation 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -6475,9 +6293,7 @@ where $\psi(x,t)$ is the wavefunction in one dimension and $\hat{H}$ is the Hami
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6557,9 +6373,7 @@ The Schrödinger equation in three dimensions is a partial differential equation
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6573,9 +6387,7 @@ To derive this equation, we start with the time-dependent Schrödinger equation 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -6585,9 +6397,7 @@ where $\psi(x,t)$ is the wavefunction in one dimension and $\hat{H}$ is the Hami
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6609,9 +6419,7 @@ In three dimensions, the wavefunction can be written as a product of three one-d
 
 
 $$
-
 \Psi(\mathbf{r},t) = \psi(x,t)\cdot\phi(y,t)\cdot\chi(z,t)
-
 $$
 
 
@@ -6633,9 +6441,7 @@ The radial wavefunction can be obtained by separating the variables in the three
 
 
 $$
-
 \Psi(\mathbf{r},t) = R(r)\cdot Y(\theta,\varphi)\cdot e^{-iEt/\hbar}
-
 $$
 
 
@@ -6645,9 +6451,7 @@ where $Y(\theta,\varphi)$ is the spherical harmonic function and $E$ is the ener
 
 
 $$
-
 \left[-\frac{\hbar^2}{2m}\left(\frac{d^2}{dr^2}+\frac{2}{r}\frac{d}{dr}\right)+V(r)\right]R(r) = ER(r)
-
 $$
 
 
@@ -6703,9 +6507,7 @@ The Schrödinger equation in three dimensions is a partial differential equation
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6719,9 +6521,7 @@ To derive this equation, we start with the time-dependent Schrödinger equation 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
-
 $$
 
 
@@ -6731,9 +6531,7 @@ where $\psi(x,t)$ is the wavefunction in one dimension and $\hat{H}$ is the Hami
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6751,9 +6549,7 @@ The Hamiltonian operator in three dimensions is given by:
 
 
 $$
-
 \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})
-
 $$
 
 
@@ -6817,9 +6613,7 @@ The Schrödinger equation for the electron in a hydrogen atom is given by:
 
 
 $$
-
 E \psi = -\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{q^2}{4\pi\varepsilon_0 r}\psi
-
 $$
 
 
@@ -6841,9 +6635,7 @@ To solve the Schrödinger equation for the hydrogen atom, we use the method of s
 
 
 $$
-
 \psi(r,\theta,\varphi) = R(r)Y_\ell^m(\theta, \varphi) = R(r)\Theta(\theta)\Phi(\varphi)
-
 $$
 
 
@@ -6861,9 +6653,7 @@ The Schrödinger equation for the hydrogen atom has been solved exactly, resulti
 
 
 $$
-
 \psi_{n\ell m}(r,\theta,\varphi) = \sqrt {\left ( \frac{2}{n a_0} \right )^3\frac{(n-\ell-1)!}{2n[(n+\ell)!]} } e^{- r/na_0} \left(\frac{2r}{na_0}\right)^\ell L_{n-\ell-1}^{2\ell+1}\left(\frac{2r}{na_0}\right)Y_\ell^m(\theta, \varphi)
-
 $$
 
 
@@ -6923,9 +6713,7 @@ The Schrödinger equation for the electron in a hydrogen atom is given by:
 
 
 $$
-
 E \psi = -\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{q^2}{4\pi\varepsilon_0 r}\psi
-
 $$
 
 
@@ -6947,9 +6735,7 @@ To solve the Schrödinger equation for the hydrogen atom, we use the method of s
 
 
 $$
-
 \psi(r,\theta,\varphi) = R(r)Y_\ell^m(\theta, \varphi) = R(r)\Theta(\theta)\Phi(\varphi)
-
 $$
 
 
@@ -7033,9 +6819,7 @@ Once the radial, polar, and azimuthal functions have been solved for, the energy
 
 
 $$
-
 E_n = -\frac{\mu q^4}{8\varepsilon_0^2h^2n^2}
-
 $$
 
 
@@ -7045,9 +6829,7 @@ where $n$ is the principal quantum number. The wavefunctions are then given by:
 
 
 $$
-
 \psi_{n\ell m}(r,\theta,\varphi) = R_{n\ell}(r)Y_\ell^m(\theta, \varphi)
-
 $$
 
 
@@ -7095,9 +6877,7 @@ The Schrödinger equation for the electron in a hydrogen atom is given by:
 
 
 $$
-
 E \psi = -\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{q^2}{4\pi\varepsilon_0 r}\psi
-
 $$
 
 
@@ -7119,9 +6899,7 @@ To solve the Schrödinger equation for the hydrogen atom, we use the method of s
 
 
 $$
-
 \psi(r,\theta,\varphi) = R(r)Y_\ell^m(\theta, \varphi) = R(r)\Theta(\theta)\Phi(\varphi)
-
 $$
 
 
@@ -7167,9 +6945,7 @@ The eigenvalues of the square of the angular momentum operator, $\hat{L}^2$, are
 
 
 $$
-
 \hat{L}^2 Y_{\ell m} = \hbar^2 \ell(\ell+1) Y_{\ell m}
-
 $$
 
 
@@ -7183,9 +6959,7 @@ The projection of the angular momentum vector onto an arbitrary direction, denot
 
 
 $$
-
 \hat{L}_z Y_{\ell m} = \hbar m Y_{\ell m}
-
 $$
 
 
@@ -7233,9 +7007,7 @@ The Schrödinger equation for the electron in a hydrogen atom is given by:
 
 
 $$
-
 E \psi = -\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{q^2}{4\pi\varepsilon_0 r}\psi
-
 $$
 
 
@@ -7257,9 +7029,7 @@ To solve the Schrödinger equation for the hydrogen atom, we use the method of s
 
 
 $$
-
 \psi(r,\theta,\varphi) = R(r)Y_\ell^m(\theta, \varphi) = R(r)\Theta(\theta)\Phi(\varphi)
-
 $$
 
 
@@ -7289,9 +7059,7 @@ For "ℓ" = 0, the spherical harmonic is given by:
 
 
 $$
-
 Y_{00} = s = Y_0^0 = \frac{1}{2} \sqrt{\frac{1}{\pi}}
-
 $$
 
 
@@ -7305,9 +7073,7 @@ For "ℓ" = 1, the spherical harmonic is given by:
 
 
 $$
-
 Y_{1,-1} = p_y = i \sqrt{\frac{1}{2}} \left( Y_1^{- 1} + Y_1^1 \right) = \sqrt{\frac{3}{4 \pi}} \cdot \frac{y}{r}
-
 $$
 
 
@@ -7321,7 +7087,6 @@ For "ℓ" = 2, the spherical harmonics are given by:
 
 
 $$
-
 Y_{2,-2} = d_{xy} = i \sqrt{\frac{1}{2}} \left( Y_2^{- 2} - Y_2^2\right) = \frac{1}{2} \sqrt{\frac{15}{\pi}} \cdot \frac{x y}{r^2} \\
 
 Y_{2,-1} = d_{yz} = i \sqrt{\frac{1}{2}} \left( Y_2^{- 1} + Y_2^1 \right) = \frac{1}{2} \sqrt{\frac{15}{\pi}} \cdot \frac{y \cdot z}{r^2} \\
@@ -7329,7 +7094,6 @@ Y_{2,-1} = d_{yz} = i \sqrt{\frac{1}{2}} \left( Y_2^{- 1} + Y_2^1 \right) = \fra
 Y_{2,0} = d_{z^2} = Y_2^0 = \frac{1}{4} \sqrt{\frac{5}{\pi}} \cdot \frac{3z^2 - r^2}{r^2} \\
 
 Y_{2,1} = d_{xz} = \sqrt{\frac{1}{2}} \left( Y_2^{- 1} - Y_2^1 \right) = \frac{1}{2} \sqrt{\frac{15}{\pi}} \cdot \frac{x \cdot z}{r^2}
-
 $$
 
 
@@ -7343,7 +7107,6 @@ For "ℓ" = 3, the spherical harmonics are given by:
 
 
 $$
-
 Y_{3,-3} = f_{y(3x^2-y^2)} = i \sqrt{\frac{1}{2}} \left( Y_3^{- 3} + Y_3^3 \right) = \frac{1}{4} \sqrt{\frac{35}{2 \pi}} \cdot \frac{y \left( 3 x^2 - y^2 \right)}{r^3} \\
 
 Y_{3,-2} = f_{xyz} = i \sqrt{\frac{1}{2}} \left( Y_3^{- 2} - Y_3^2 \right) = \frac{1}{2} \sqrt{\frac{105}{\pi}} \cdot \frac{xy \cdot z}{r^3} \\
@@ -7351,7 +7114,6 @@ Y_{3,-2} = f_{xyz} = i \sqrt{\frac{1}{2}} \left( Y_3^{- 2} - Y_3^2 \right) = \fr
 Y_{3,-1} = f_{yz^2} = i \sqrt{\frac{1}{2}} \left( Y_3^{- 1} + Y_3^1 \right) = \frac{1}{4} \sqrt{\frac{21}{2 \pi}} \cdot \frac{y \cdot (5 z^2 - r^2)}{r^3} \\
 
 Y_{3,0} = f_{z^3} = Y_3^0 = \frac{1}{4} \sqrt{\frac{7}{\pi}} \cdot \frac{5 z^3 - 3 z r^2}{r^3}
-
 $$
 
 
@@ -7391,9 +7153,7 @@ The orbital angular momentum operator is a vector operator, denoted by <math>\ma
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -7479,9 +7239,7 @@ The orbital angular momentum operator is a vector operator, denoted by <math>\ma
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -8213,9 +7971,7 @@ The wavefunction for a two-particle system can be written as a product of two si
 
 
 $$
-
 \Psi(x_1, x_2) = \psi_1(x_1)\psi_2(x_2)
-
 $$
 
 
@@ -8275,9 +8031,7 @@ The wavefunction for a two-particle system can be written as a product of two si
 
 
 $$
-
 \Psi(x_1, x_2) = \psi_1(x_1)\psi_2(x_2)
-
 $$
 
 
@@ -8307,9 +8061,7 @@ To understand this concept better, let's consider the example of two electrons i
 
 
 $$
-
 \Psi(x_1, x_2) = \psi_1(x_1)\psi_2(x_2)
-
 $$
 
 
@@ -8319,9 +8071,7 @@ where $\psi_1$ and $\psi_2$ are the single-particle wavefunctions for the two el
 
 
 $$
-
 \Psi(x_2, x_1) = \psi_1(x_2)\psi_2(x_1)
-
 $$
 
 
@@ -8549,9 +8299,7 @@ The Fermi-Dirac distribution is given by the following equation:
 
 
 $$
-
 f(E) = \frac{1}{e^{\frac{E-\mu}{kT}}+1}
-
 $$
 
 
@@ -8569,9 +8317,7 @@ The Bose-Einstein distribution is given by the following equation:
 
 
 $$
-
 f(E) = \frac{1}{e^{\frac{E-\mu}{kT}}-1}
-
 $$
 
 
@@ -9265,9 +9011,7 @@ Using the time-independent Schrödinger equation, we can write the perturbed ene
 
 
 $$
-
 E_n = E_n^{(0)} + \Delta E_n
-
 $$
 
 
@@ -9277,9 +9021,7 @@ where $E_n^{(0)}$ is the unperturbed energy level and $\Delta E_n$ is the first-
 
 
 $$
-
 \psi_n = \psi_n^{(0)} + \Delta \psi_n
-
 $$
 
 
@@ -9293,9 +9035,7 @@ To find the first-order corrections, we can use the perturbation theory formula:
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9305,9 +9045,7 @@ and
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -9359,9 +9097,7 @@ Using the time-independent Schrödinger equation, we can write the perturbed ene
 
 
 $$
-
 E_n = E_n^{(0)} + \Delta E_n
-
 $$
 
 
@@ -9371,9 +9107,7 @@ where $E_n^{(0)}$ is the unperturbed energy level and $\Delta E_n$ is the first-
 
 
 $$
-
 \psi_n = \psi_n^{(0)} + \Delta \psi_n
-
 $$
 
 
@@ -9387,9 +9121,7 @@ To find the first-order corrections, we can use the perturbation theory formula:
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9399,9 +9131,7 @@ and
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}
-
 $$
 
 
@@ -9415,9 +9145,7 @@ In the case of a time-independent perturbation, the first-order correction to th
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9469,9 +9197,7 @@ Using the time-independent Schrödinger equation, we can write the perturbed ene
 
 
 $$
-
 E_n = E_n^{(0)} + \Delta E_n
-
 $$
 
 
@@ -9481,9 +9207,7 @@ where $E_n^{(0)}$ is the unperturbed energy level and $\Delta E_n$ is the first-
 
 
 $$
-
 \psi_n = \psi_n^{(0)} + \Delta \psi_n
-
 $$
 
 
@@ -9497,9 +9221,7 @@ To find the first-order corrections, we can use the perturbation theory formula:
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9509,9 +9231,7 @@ and
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}}
-
 $$
 
 
@@ -9537,9 +9257,7 @@ The second-order correction to the energy levels can be calculated using the for
 
 
 $$
-
 \Delta E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
-
 $$
 
 
@@ -9549,9 +9267,7 @@ Similarly, the second-order correction to the wavefunction can be calculated usi
 
 
 $$
-
 \Delta \psi_n^{(2)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle \langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{(E_n^{(0)} - E_m^{(0)})^2} \psi_n^{(0)}
-
 $$
 
 
@@ -9573,9 +9289,7 @@ The Stark effect can be understood using the first-order correction formula. In 
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle = -\langle \psi_n^{(0)} | \mathbf{d} \cdot \mathbf{E} | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9623,9 +9337,7 @@ To find the first-order corrections to the energy levels and wavefunctions, we u
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9639,9 +9351,7 @@ Similarly, the first-order correction to the wavefunction can be calculated usin
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -9771,9 +9481,7 @@ To find the first-order corrections to the energy levels and wavefunctions, we u
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9787,9 +9495,7 @@ Similarly, the first-order correction to the wavefunction can be calculated usin
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -9811,9 +9517,7 @@ In some cases, the first-order correction may not be enough to fully describe th
 
 
 $$
-
 \Delta E_n^{(2)} = -\sum_{k \neq n} \frac{\left | \langle k^{(0)} | V | n^{(0)} \rangle \right |^2}{E_n^{(0)} - E_k^{(0)}}
-
 $$
 
 
@@ -9823,9 +9527,7 @@ and
 
 
 $$
-
 \Delta \psi_n^{(2)} = -\sum_{k \neq n} \frac{\langle k^{(0)} | V | n^{(0)} \rangle \langle n^{(0)} | V | k^{(0)} \rangle}{(E_n^{(0)} - E_k^{(0)})^2} \psi_k^{(0)}
-
 $$
 
 
@@ -9885,9 +9587,7 @@ To find the first-order corrections to the energy levels and wavefunctions, we u
 
 
 $$
-
 \Delta E_n = \langle \psi_n^{(0)} | V | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9901,9 +9601,7 @@ Similarly, the first-order correction to the wavefunction can be calculated usin
 
 
 $$
-
 \Delta \psi_n = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -9929,9 +9627,7 @@ To calculate the second-order correction to the energy levels, we use the formul
 
 
 $$
-
 \Delta E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
-
 $$
 
 
@@ -9941,9 +9637,7 @@ Similarly, the second-order correction to the wavefunction can be calculated usi
 
 
 $$
-
 \Delta \psi_n^{(2)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | V | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -9969,9 +9663,7 @@ The first-order correction to the energy levels due to the Zeeman effect is give
 
 
 $$
-
 \Delta E_n = \mu_B B \langle \psi_n^{(0)} | S_z | \psi_n^{(0)} \rangle
-
 $$
 
 
@@ -9985,9 +9677,7 @@ Similarly, the first-order correction to the wavefunction can be calculated usin
 
 
 $$
-
 \Delta \psi_n = \mu_B B \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | S_z | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}
-
 $$
 
 
@@ -10031,9 +9721,7 @@ The variational principle is based on the idea that the ground state energy of a
 
 
 $$
-
 E_T = \langle \psi_T | H | \psi_T \rangle
-
 $$
 
 
@@ -10047,9 +9735,7 @@ To illustrate this, let's consider the 3D isotropic harmonic oscillator, which h
 
 
 $$
-
 V(r) = \mu \omega^2 r^2/2
-
 $$
 
 
@@ -10059,25 +9745,19 @@ We can use the factorization method to manage this potential, which involves fin
 
 
 $$
-
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
-
 $$
 
 
 
 $$
-
 F_l = -(2l+3)\mu \omega \hbar
-
 $$
 
 
 
 $$
-
 G_l = -(2l+1)\mu \omega \hbar
-
 $$
 
 
@@ -10087,9 +9767,7 @@ Using these operators, we can calculate the energy levels for the 3D isotropic h
 
 
 $$
-
 \psi_T = e^{-\alpha r^2}
-
 $$
 
 
@@ -10099,9 +9777,7 @@ where $\alpha$ is a parameter that we can vary. Plugging this into the expectati
 
 
 $$
-
 E_T = \langle \psi_T | H | \psi_T \rangle = \langle e^{-\alpha r^2} | H | e^{-\alpha r^2} \rangle = \frac{3}{2}\hbar \omega - \frac{3}{2}\hbar \omega \alpha^2
-
 $$
 
 
@@ -10111,9 +9787,7 @@ Minimizing this expression with respect to $\alpha$, we get:
 
 
 $$
-
 \frac{dE_T}{d\alpha} = -3\hbar \omega \alpha = 0
-
 $$
 
 
@@ -10153,9 +9827,7 @@ The variational principle is based on the idea that the ground state energy of a
 
 
 $$
-
 E_T = \langle \psi_T | H | \psi_T \rangle
-
 $$
 
 
@@ -10169,9 +9841,7 @@ To illustrate this, let's consider the 3D isotropic harmonic oscillator, which h
 
 
 $$
-
 V(r) = \mu \omega^2 r^2/2
-
 $$
 
 
@@ -10181,25 +9851,19 @@ We can use the factorization method to manage this potential, which involves fin
 
 
 $$
-
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
-
 $$
 
 
 
 $$
-
 F_l = -(2l+3)\mu \omega \hbar
-
 $$
 
 
 
 $$
-
 G_l = -(2l+1)\mu \omega \hbar
-
 $$
 
 
@@ -10209,9 +9873,7 @@ Using these operators, we can calculate the energy levels for the 3D isotropic h
 
 
 $$
-
 \psi_T = e^{-\alpha r^2}
-
 $$
 
 
@@ -10221,9 +9883,7 @@ where $\alpha$ is a parameter that we can vary. Plugging this into the expectati
 
 
 $$
-
 E_T = \frac{\int_0^\infty e^{-2\alpha r^2} \left( -\frac{\hbar^2}{2\mu} \frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2} \right) e^{-2\alpha r^2} dr}{\int_0^\infty e^{-2\alpha r^2} e^{-2\alpha r^2} dr}
-
 $$
 
 
@@ -10233,9 +9893,7 @@ Simplifying this expression, we get:
 
 
 $$
-
 E_T = \frac{\hbar^2 \alpha}{2\mu} - \frac{\hbar^2 \alpha^2}{2\mu} + \frac{\mu \omega^2}{2} \left( \frac{3}{4\alpha} - \frac{\alpha}{2} \right)
-
 $$
 
 
@@ -10245,9 +9903,7 @@ To minimize this expression, we can take the derivative with respect to $\alpha$
 
 
 $$
-
 \frac{dE_T}{d\alpha} = \frac{\hbar^2}{2\mu} - \hbar^2 \alpha + \frac{\mu \omega^2}{2} \left( -\frac{3}{4\alpha^2} - \frac{1}{2} \right) = 0
-
 $$
 
 
@@ -10257,9 +9913,7 @@ Solving for $\alpha$, we get:
 
 
 $$
-
 \alpha = \frac{1}{\sqrt{2}\hbar} \sqrt{\frac{\mu \omega}{2}}
-
 $$
 
 
@@ -10269,9 +9923,7 @@ Plugging this back into the expression for $E_T$, we get:
 
 
 $$
-
 E_T = \frac{3}{4} \hbar \omega
-
 $$
 
 
@@ -10323,9 +9975,7 @@ The variational principle is based on the idea that the ground state energy of a
 
 
 $$
-
 E_T = \langle \psi_T | H | \psi_T \rangle
-
 $$
 
 
@@ -10339,9 +9989,7 @@ To illustrate this, let's consider the 3D isotropic harmonic oscillator, which h
 
 
 $$
-
 V(r) = \mu \omega^2 r^2/2
-
 $$
 
 
@@ -10351,25 +9999,19 @@ We can use the factorization method to manage this potential, which involves fin
 
 
 $$
-
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
-
 $$
 
 
 
 $$
-
 F_l = -(2l+3)\mu \omega \hbar
-
 $$
 
 
 
 $$
-
 G_l = -(2l+1)\mu \omega \hbar
-
 $$
 
 
@@ -10379,9 +10021,7 @@ Using these operators, we can calculate the energy levels for the 3D isotropic h
 
 
 $$
-
 \psi_T = e^{-\alpha r^2}
-
 $$
 
 
@@ -10391,9 +10031,7 @@ where $\alpha$ is a parameter that we can vary. Plugging this into the expectati
 
 
 $$
-
 E_T = \frac{\langle \psi_T | H | \psi_T \rangle}{\langle \psi_T | \psi_T \rangle} = \frac{\int_0^\infty e^{-2\alpha r^2} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right) e^{-2\alpha r^2} dr}{\int_0^\infty e^{-2\alpha r^2} e^{-2\alpha r^2} dr} = \frac{\int_0^\infty e^{-4\alpha r^2} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right) dr}{\int_0^\infty e^{-4\alpha r^2} dr}
-
 $$
 
 
@@ -10403,9 +10041,7 @@ We can simplify this expression by using the fact that the integral of a Gaussia
 
 
 $$
-
 E_T = \frac{\sqrt{\pi/4\alpha} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right) \sqrt{\pi/4\alpha}}{\sqrt{\pi/4\alpha}} = \frac{\pi}{4\alpha} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right)
-
 $$
 
 
@@ -10415,9 +10051,7 @@ We can now minimize this expression with respect to $\alpha$ to find the best ap
 
 
 $$
-
 \frac{dE_T}{d\alpha} = -\frac{\pi}{4\alpha^2} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right) = 0
-
 $$
 
 
@@ -10427,9 +10061,7 @@ Solving for $\alpha$, we get:
 
 
 $$
-
 \alpha = \frac{\mu \omega}{2\hbar}
-
 $$
 
 
@@ -10439,9 +10071,7 @@ Substituting this value back into the expression for $E_T$, we get:
 
 
 $$
-
 E_T = \frac{\pi}{4} \left(-\frac{\hbar^2}{2\mu}\frac{d^2}{dr^2} + \frac{\mu \omega^2 r^2}{2}\right) \frac{2\hbar}{\mu \omega} = \frac{\pi \hbar \omega}{2}
-
 $$
 
 
@@ -10465,9 +10095,7 @@ To derive the WKB approximation, we will start with the time-independent Schröd
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10477,9 +10105,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wavefunction, and 
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10489,9 +10115,7 @@ where $\hat{p}$ is the momentum operator and $V(x)$ is the potential energy. We 
 
 
 $$
-
 \psi(x) = A(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10501,9 +10125,7 @@ where $A(x)$ is the amplitude and $S(x)$ is the action. Substituting this into t
 
 
 $$
-
 \frac{\hat{p}^2}{2m}A(x)e^{iS(x)/\hbar} + V(x)A(x)e^{iS(x)/\hbar} = EA(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10513,9 +10135,7 @@ We can then divide both sides by $A(x)e^{iS(x)/\hbar}$ and rearrange to get:
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = \frac{\hbar}{i}\frac{\partial}{\partial x}\left(\frac{1}{A(x)}\frac{\partial A(x)}{\partial x}\right)
-
 $$
 
 
@@ -10525,9 +10145,7 @@ We can then make the assumption that the amplitude $A(x)$ varies slowly compared
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = 0
-
 $$
 
 
@@ -10537,9 +10155,7 @@ This is known as the eikonal equation, and it can be solved using the method of 
 
 
 $$
-
 S(x) = \pm \int^x \sqrt{2m(E-V(x'))}dx'
-
 $$
 
 
@@ -10549,9 +10165,7 @@ We can then use this solution to approximate the wavefunction by plugging it bac
 
 
 $$
-
 \psi(x) \approx A(x)e^{\pm i\int^x \sqrt{2m(E-V(x'))}dx'/\hbar}
-
 $$
 
 
@@ -10575,9 +10189,7 @@ To derive the WKB approximation, we will start with the time-independent Schröd
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10587,9 +10199,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wavefunction, and 
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10599,9 +10209,7 @@ where $\hat{p}$ is the momentum operator and $V(x)$ is the potential energy. We 
 
 
 $$
-
 \psi(x) = A(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10611,9 +10219,7 @@ where $A(x)$ is the amplitude and $S(x)$ is the action. Substituting this into t
 
 
 $$
-
 \frac{\hat{p}^2}{2m}A(x)e^{iS(x)/\hbar} + V(x)A(x)e^{iS(x)/\hbar} = EA(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10623,9 +10229,7 @@ We can then divide both sides by $A(x)e^{iS(x)/\hbar}$ and rearrange to get:
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = \frac{\hbar}{i}\frac{\partial}{\partial x}\left(\frac{1}{A(x)}\frac{\partial A(x)}{\partial x}\right)
-
 $$
 
 
@@ -10635,9 +10239,7 @@ We can then make the assumption that the amplitude $A(x)$ varies slowly compared
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = 0
-
 $$
 
 
@@ -10647,9 +10249,7 @@ This is known as the eikonal equation, and it can be solved using the method of 
 
 
 $$
-
 S(x) = \pm \int^x \sqrt{2m(E-V(x'))}dx'
-
 $$
 
 
@@ -10659,9 +10259,7 @@ We can then use this solution to approximate the wavefunction by plugging it bac
 
 
 $$
-
 \psi(x) \approx A(x)e^{\pm i\int^x \sqrt{2m(E-V(x'))}dx'/\hbar}
-
 $$
 
 
@@ -10683,9 +10281,7 @@ Let's consider a potential with a step function at $x=a$, where the potential ch
 
 
 $$
-
 \psi(x) = A_1(x)e^{\pm i\int^x \sqrt{2m(E-V_1(x'))}dx'/\hbar}
-
 $$
 
 
@@ -10695,9 +10291,7 @@ and in the region $x>a$, the WKB solution is given by:
 
 
 $$
-
 \psi(x) = A_2(x)e^{\pm i\int^x \sqrt{2m(E-V_2(x'))}dx'/\hbar}
-
 $$
 
 
@@ -10707,17 +10301,13 @@ To connect these solutions, we must ensure that the wavefunction and its derivat
 
 
 $$
-
 A_2(a) = A_1(a)e^{i\phi}
-
 $$
 
 
 
 $$
-
 \frac{dA_2}{dx}\bigg|_{x=a} = \frac{dA_1}{dx}\bigg|_{x=a}e^{i\phi} + \frac{A_1(a)}{\hbar}\sqrt{2m(V_2-V_1)}e^{i\phi}
-
 $$
 
 
@@ -10749,9 +10339,7 @@ To derive the WKB approximation, we will start with the time-independent Schröd
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10761,9 +10349,7 @@ where $\hat{H}$ is the Hamiltonian operator, $\psi(x)$ is the wavefunction, and 
 
 
 $$
-
 \frac{\hat{p}^2}{2m}\psi(x) + V(x)\psi(x) = E\psi(x)
-
 $$
 
 
@@ -10773,9 +10359,7 @@ where $\hat{p}$ is the momentum operator and $V(x)$ is the potential energy. We 
 
 
 $$
-
 \psi(x) = A(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10785,9 +10369,7 @@ where $A(x)$ is the amplitude and $S(x)$ is the action. Substituting this into t
 
 
 $$
-
 \frac{\hat{p}^2}{2m}A(x)e^{iS(x)/\hbar} + V(x)A(x)e^{iS(x)/\hbar} = EA(x)e^{iS(x)/\hbar}
-
 $$
 
 
@@ -10797,9 +10379,7 @@ We can then divide both sides by $A(x)e^{iS(x)/\hbar}$ and rearrange to get:
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = \frac{\hbar}{i}\frac{\partial}{\partial x}\left(\frac{1}{A(x)}\frac{\partial A(x)}{\partial x}\right)
-
 $$
 
 
@@ -10809,9 +10389,7 @@ We can then make the assumption that the amplitude $A(x)$ varies slowly compared
 
 
 $$
-
 \frac{\hat{p}^2}{2m} + V(x) - E = 0
-
 $$
 
 
@@ -10821,9 +10399,7 @@ This is known as the eikonal equation, and it can be solved using the method of 
 
 
 $$
-
 S(x) = \pm \int^x \sqrt{2m(E-V(x'))}dx'
-
 $$
 
 
@@ -10833,9 +10409,7 @@ We can then use this solution to approximate the wavefunction by plugging it bac
 
 
 $$
-
 \psi(x) \approx A(x)e^{\pm i\int^x \sqrt{2m(E-V(x'))}dx'/\hbar}
-
 $$
 
 
@@ -10857,9 +10431,7 @@ One example of the WKB approximation in action is in the study of the quantum ha
 
 
 $$
-
 E_n \approx \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -10881,9 +10453,7 @@ The WKB approximation allows us to calculate the probability of a particle tunne
 
 
 $$
-
 P \approx e^{-2\gamma}
-
 $$
 
 
@@ -10893,9 +10463,7 @@ where $\gamma$ is known as the tunneling exponent and is given by:
 
 
 $$
-
 \gamma = \frac{1}{\hbar}\int_{x_1}^{x_2}\sqrt{2m(V(x)-E)}dx
-
 $$
 
 
@@ -11033,17 +10601,13 @@ The interaction picture operators and states are denoted by a subscript "I" and 
 
 
 $$
-
 A_I(t) = e^{iH_0t/\hbar}A_Se^{-iH_0t/\hbar}
-
 $$
 
 
 
 $$
-
 |\psi_I(t)\rangle = e^{iH_0t/\hbar}|\psi_S(t)\rangle
-
 $$
 
 
@@ -11057,17 +10621,13 @@ In the interaction picture, the time evolution of operators and states is given 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}A_I(t) = [A_I(t), H_I(t)]
-
 $$
 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi_I(t)\rangle = H_I(t)|\psi_I(t)\rangle
-
 $$
 
 
@@ -11077,9 +10637,7 @@ where $H_I(t)$ is the interaction picture Hamiltonian, given by:
 
 
 $$
-
 H_I(t) = e^{iH_0t/\hbar}H_Se^{-iH_0t/\hbar}
-
 $$
 
 
@@ -11123,17 +10681,13 @@ The interaction picture operators and states are denoted by a subscript "I" and 
 
 
 $$
-
 A_I(t) = e^{iH_0t/\hbar}A_Se^{-iH_0t/\hbar}
-
 $$
 
 
 
 $$
-
 |\psi_I(t)\rangle = e^{iH_0t/\hbar}|\psi_S(t)\rangle
-
 $$
 
 
@@ -11147,17 +10701,13 @@ In the interaction picture, the time evolution of operators and states is given 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}A_I(t) = [A_I(t), H_I(t)]
-
 $$
 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi_I(t)\rangle = H_I(t)|\psi_I(t)\rangle
-
 $$
 
 
@@ -11167,9 +10717,7 @@ where $H_I(t)$ is the interaction picture Hamiltonian, given by:
 
 
 $$
-
 H_I(t) = e^{iH_0t/\hbar}H_Se^{-iH_0t/\hbar}
-
 $$
 
 
@@ -11191,9 +10739,7 @@ The interaction picture Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi_I(t)\rangle = H_I(t)|\psi_I(t)\rangle
-
 $$
 
 
@@ -11241,17 +10787,13 @@ The interaction picture operators and states are denoted by a subscript "I" and 
 
 
 $$
-
 A_I(t) = e^{iH_0t/\hbar}A_Se^{-iH_0t/\hbar}
-
 $$
 
 
 
 $$
-
 |\psi_I(t)\rangle = e^{iH_0t/\hbar}|\psi_S(t)\rangle
-
 $$
 
 
@@ -11265,17 +10807,13 @@ In the interaction picture, the time evolution of operators and states is given 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}A_I(t) = [A_I(t), H_I(t)]
-
 $$
 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi_I(t)\rangle = H_I(t)|\psi_I(t)\rangle
-
 $$
 
 
@@ -11285,9 +10823,7 @@ where $H_I(t)$ is the interaction picture Hamiltonian, given by:
 
 
 $$
-
 H_I(t) = e^{iH_0t/\hbar}H_Se^{-iH_0t/\hbar}
-
 $$
 
 
@@ -11309,9 +10845,7 @@ The time-dependent perturbation theory is based on the Dyson series, which is a 
 
 
 $$
-
 U(t) = T\left[e^{-\frac{i}{\hbar}\int_0^t V(t')dt'}\right] = \sum_{n=0}^{\infty}\frac{(-i)^n}{\hbar^n}\int_0^t dt_1\int_0^{t_1} dt_2...\int_0^{t_{n-1}}dt_n V(t_1)V(t_2)...V(t_n)
-
 $$
 
 
@@ -11321,9 +10855,7 @@ where $T$ is the time-ordering operator. This series can be simplified by using 
 
 
 $$
-
 U_I(t) = T\left[e^{-\frac{i}{\hbar}\int_0^t H_I(t')dt'}\right] = e^{-\frac{i}{\hbar}\int_0^t H_I(t')dt'}
-
 $$
 
 
@@ -11333,9 +10865,7 @@ Substituting this into the Dyson series, we get:
 
 
 $$
-
 U_I(t) = 1 - \frac{i}{\hbar}\int_0^t H_I(t')dt' - \frac{1}{\hbar^2}\int_0^t dt_1\int_0^{t_1} dt_2 H_I(t_1)H_I(t_2) + ...
-
 $$
 
 
@@ -11345,9 +10875,7 @@ This series can be further simplified by using the time-dependent Schrödinger e
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}U_I(t) = H_I(t)U_I(t)
-
 $$
 
 
@@ -11357,9 +10885,7 @@ which can be solved to give:
 
 
 $$
-
 U_I(t) = 1 - \frac{i}{\hbar}\int_0^t H_I(t')dt'
-
 $$
 
 
@@ -11369,9 +10895,7 @@ Substituting this back into the Dyson series, we get:
 
 
 $$
-
 U_I(t) = 1 - \frac{i}{\hbar}\int_0^t H_I(t')dt' + \frac{1}{\hbar^2}\int_0^t dt_1\int_0^{t_1} dt_2 H_I(t_1)H_I(t_2) - ...
-
 $$
 
 
@@ -11403,9 +10927,7 @@ To understand Fermi's golden rule, we must first introduce the concept of time-d
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = (H_0 + H')|\psi(t)\rangle
-
 $$
 
 
@@ -11415,17 +10937,13 @@ To solve this equation, we introduce the interaction picture, where the operator
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}A_I(t) = [A_I(t), H_I(t)]
-
 $$
 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi_I(t)\rangle = H_I(t)|\psi_I(t)\rangle
-
 $$
 
 
@@ -11435,9 +10953,7 @@ where <math>H_I(t)</math> is the interaction picture Hamiltonian, given by:
 
 
 $$
-
 H_I(t) = e^{iH_0t/\hbar}H'e^{-iH_0t/\hbar}
-
 $$
 
 
@@ -11451,9 +10967,7 @@ Now, let us consider a perturbing Hamiltonian <math>H'</math> that is time-indep
 
 
 $$
-
 \Gamma_{i \to f} = \frac{2 \pi}{\hbar} \left| \langle f|H'|i \rangle \right|^2 \rho(E_f)
-
 $$
 
 
@@ -11467,9 +10981,7 @@ In the case of a harmonic perturbation, where <math>H'</math> is oscillating sin
 
 
 $$
-
 \Gamma_{i \to f} = \frac{2 \pi}{\hbar} \left| \langle f|H'|i \rangle \right|^2 \rho(E_i + \hbar\omega)
-
 $$
 
 
@@ -11483,9 +10995,7 @@ The standard way to derive Fermi's golden rule is to start with time-dependent p
 
 
 $$
-
 \Gamma_{i \to f} = \frac{2 \pi}{\hbar} \left| \langle f|H'|i \rangle \right|^2 \rho(E_f)
-
 $$
 
 
@@ -11521,9 +11031,7 @@ Transition rates refer to the probability of a system transitioning from an init
 
 
 $$
-
 W_{i\rightarrow f} = \frac{2\pi}{\hbar}|\langle f|H'|i\rangle|^2\rho(E_f)
-
 $$
 
 
@@ -11575,9 +11083,7 @@ To understand the rate at which spontaneous emission occurs, we can use the rate
 
 
 $$
-
 \frac{dN}{dt} = -A_{21}N(t)
-
 $$
 
 
@@ -11587,9 +11093,7 @@ where <math>N(t)</math> is the number of light sources in the excited state at t
 
 
 $$
-
 N(t) = N(0)e^{-\Gamma_{\text{rad}}t}
-
 $$
 
 
@@ -11637,9 +11141,7 @@ To understand the adiabatic theorem, we can use the time-dependent Schrödinger 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(t) = \hat{H}(t)\psi(t)
-
 $$
 
 
@@ -11649,9 +11151,7 @@ where <math>\psi(t)</math> is the wavefunction of the system at time <math>t</ma
 
 
 $$
-
 \psi(t) = \sum_{n}c_n(t)\phi_n(t)
-
 $$
 
 
@@ -11661,9 +11161,7 @@ where <math>c_n(t)</math> is the time-dependent coefficient and <math>\phi_n(t)<
 
 
 $$
-
 i\hbar\sum_{n}\dot{c}_n(t)\phi_n(t) = \hat{H}(t)\sum_{n}c_n(t)\phi_n(t)
-
 $$
 
 
@@ -11673,9 +11171,7 @@ Multiplying both sides by <math>\phi_m^*(t)</math> and integrating over all spac
 
 
 $$
-
 i\hbar\dot{c}_m(t) = \sum_{n}c_n(t)\langle\phi_m(t)|\hat{H}(t)|\phi_n(t)\rangle
-
 $$
 
 
@@ -11723,9 +11219,7 @@ To understand the Berry phase, let us consider a system with a time-dependent Ha
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(t) = \hat{H}(t)\psi(t)
-
 $$
 
 
@@ -11735,9 +11229,7 @@ If we assume that the system is initially in an eigenstate of the Hamiltonian, t
 
 
 $$
-
 \psi(t) = \sum_{n}c_n(t)\phi_n(t)
-
 $$
 
 
@@ -11747,9 +11239,7 @@ where <math>c_n(t)</math> is the time-dependent coefficient and <math>\phi_n(t)<
 
 
 $$
-
 i\hbar\sum_{n}\dot{c}_n(t)\phi_n(t) = \hat{H}(t)\sum_{n}c_n(t)\phi_n(t)
-
 $$
 
 
@@ -11759,9 +11249,7 @@ Multiplying both sides by <math>\phi_m^*(t)</math> and integrating over all spac
 
 
 $$
-
 i\hbar\dot{c}_m(t) = \sum_{n}c_n(t)\langle\phi_m(t)|\hat{H}(t)|\phi_n(t)\rangle
-
 $$
 
 
@@ -11771,9 +11259,7 @@ This equation shows that the time evolution of the coefficient <math>c_m(t)</mat
 
 
 $$
-
 \hat{H}(t) = \hat{H}_0(t) + \hat{H}_B(t)
-
 $$
 
 
@@ -11783,9 +11269,7 @@ where <math>\hat{H}_0(t)</math> is the diagonal part of the Hamiltonian and <mat
 
 
 $$
-
 i\hbar\dot{c}_m(t) = \sum_{n}c_n(t)\langle\phi_m(t)|\hat{H}_0(t)|\phi_n(t)\rangle + \sum_{n}c_n(t)\langle\phi_m(t)|\hat{H}_B(t)|\phi_n(t)\rangle
-
 $$
 
 
@@ -11795,9 +11279,7 @@ The second term in this equation is responsible for the Berry phase. It can be w
 
 
 $$
-
 \sum_{n}c_n(t)\langle\phi_m(t)|\hat{H}_B(t)|\phi_n(t)\rangle = i\hbar\sum_{n}c_n(t)\langle\phi_m(t)|\nabla_{\lambda}\phi_n(t)\rangle\dot{\lambda}(t)
-
 $$
 
 
@@ -11807,9 +11289,7 @@ where <math>\nabla_{\lambda}\phi_n(t)</math> is the gradient of the instantaneou
 
 
 $$
-
 A_m(t) = i\hbar\sum_{n}c_n(t)\langle\phi_m(t)|\nabla_{\lambda}\phi_n(t)\rangle
-
 $$
 
 
@@ -11819,9 +11299,7 @@ The total phase acquired by the system is then given by:
 
 
 $$
-
 \gamma(t) = \int_{0}^{t}A_m(t')\dot{\lambda}(t')dt'
-
 $$
 
 
@@ -11865,9 +11343,7 @@ To understand the sudden approximation, let us consider a system with a time-dep
 
 
 $$
-
 \hat{H}(t) = \hat{H}_0 + \hat{V}(t)
-
 $$
 
 
@@ -11877,9 +11353,7 @@ If the system is initially in an eigenstate of <math>\hat{H}_0</math>, then the 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(t) = \hat{H}_0\psi(t) + \hat{V}(t)\psi(t)
-
 $$
 
 
@@ -11889,9 +11363,7 @@ Since the perturbation is applied instantaneously, we can assume that <math>\hat
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(t) = \hat{V}(t)\psi(t)
-
 $$
 
 
@@ -12147,9 +11619,7 @@ The scattering amplitude is a fundamental quantity in scattering theory that des
 
 
 $$
-
 f(\theta) = -\frac{m}{2\pi\hbar^2}\int e^{i\vec{k}\cdot\vec{r}}V(\vec{r})d\vec{r}
-
 $$
 
 
@@ -12163,9 +11633,7 @@ The scattering amplitude can also be expressed in terms of the scattering matrix
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12175,9 +11643,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12191,9 +11657,7 @@ The scattering amplitude is a complex quantity, and its magnitude squared gives 
 
 
 $$
-
 \sigma = |f(\theta)|^2
-
 $$
 
 
@@ -12229,9 +11693,7 @@ The scattering amplitude is a fundamental quantity in scattering theory that des
 
 
 $$
-
 f(\theta) = -\frac{m}{2\pi\hbar^2}\int e^{i\vec{k}\cdot\vec{r}}V(\vec{r})d\vec{r}
-
 $$
 
 
@@ -12245,9 +11707,7 @@ The scattering amplitude can also be expressed in terms of the scattering matrix
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12257,9 +11717,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12285,9 +11743,7 @@ The differential cross section, denoted by $d\sigma/d\Omega$, is the change in c
 
 
 $$
-
 \frac{d\sigma}{d\Omega} = |f(\theta)|^2
-
 $$
 
 
@@ -12327,9 +11783,7 @@ The scattering amplitude is a fundamental quantity in scattering theory that des
 
 
 $$
-
 f(\theta) = -\frac{m}{2\pi\hbar^2}\int e^{i\vec{k}\cdot\vec{r}}V(\vec{r})d\vec{r}
-
 $$
 
 
@@ -12343,9 +11797,7 @@ The scattering amplitude can also be expressed in terms of the scattering matrix
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12355,9 +11807,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12379,9 +11829,7 @@ The differential cross section is a measure of the probability of a particle sca
 
 
 $$
-
 \frac{d\sigma}{d\Omega} = |f(\theta)|^2
-
 $$
 
 
@@ -12399,9 +11847,7 @@ The total cross section, denoted by $\sigma_{tot}$, is the sum of the differenti
 
 
 $$
-
 \sigma_{tot} = \int |f(\theta)|^2 d\Omega
-
 $$
 
 
@@ -12437,9 +11883,7 @@ The Born approximation can be derived by iterating the Lippmann-Schwinger equati
 
 
 $$
-
 |\psi\rangle = |\phi\rangle + G_0V|\psi\rangle
-
 $$
 
 
@@ -12449,9 +11893,7 @@ where $G_0$ is the free particle Green's operator. The first iteration of this e
 
 
 $$
-
 |\psi^{(1)}\rangle = |\phi\rangle + G_0V|\phi\rangle
-
 $$
 
 
@@ -12465,9 +11907,7 @@ The second iteration of the Lippmann-Schwinger equation gives us the second Born
 
 
 $$
-
 |\psi^{(2)}\rangle = |\phi\rangle + G_0V|\phi\rangle + G_0VG_0V|\phi\rangle
-
 $$
 
 
@@ -12481,9 +11921,7 @@ The Born approximation can also be expressed in terms of the scattering matrix $
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12493,9 +11931,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12531,9 +11967,7 @@ The Born approximation can be derived by iterating the Lippmann-Schwinger equati
 
 
 $$
-
 |\psi\rangle = |\phi\rangle + G_0V|\psi\rangle
-
 $$
 
 
@@ -12543,9 +11977,7 @@ where $G_0$ is the free particle Green's operator. The first iteration of this e
 
 
 $$
-
 |\psi^{(1)}\rangle = |\phi\rangle + G_0V|\phi\rangle
-
 $$
 
 
@@ -12559,9 +11991,7 @@ The second iteration of the Lippmann-Schwinger equation gives us the second Born
 
 
 $$
-
 |\psi^{(2)}\rangle = |\phi\rangle + G_0V|\phi\rangle + G_0VG_0V|\phi\rangle
-
 $$
 
 
@@ -12575,9 +12005,7 @@ The Born approximation can also be expressed in terms of the scattering matrix $
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12587,9 +12015,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12611,9 +12037,7 @@ In the case of scattering from a central potential, the potential can be written
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|V(r)|\psi_{in}\rangle
-
 $$
 
 
@@ -12627,9 +12051,7 @@ Using this basis, we can evaluate the energies by noting that:
 
 
 $$
-
 \left\langle \frac{1}{r^3} \right\rangle = \frac{2}{a^3 n^3\; \ell (\ell + 1) (2\ell + 1)}
-
 $$
 
 
@@ -12639,9 +12061,7 @@ for hydrogenic wavefunctions, where $a = \hbar / (Z \alpha m_\text{e} c)$ is the
 
 
 $$
-
 \left\langle \mathbf{L} \cdot \mathbf{S} \right\rangle = \frac{1}{2} \big(\langle \mathbf{J}^2 \rangle - \langle \mathbf{L}^2 \rangle - \langle \mathbf{S}^2 \rangle\big) = \frac{\hbar^2}{2} \big(j (j + 1) - \ell (\ell + 1) - s (s + 1)\big)
-
 $$
 
 
@@ -12673,9 +12093,7 @@ The Born approximation can be derived by iterating the Lippmann-Schwinger equati
 
 
 $$
-
 |\psi\rangle = |\phi\rangle + G_0V|\psi\rangle
-
 $$
 
 
@@ -12685,9 +12103,7 @@ where $G_0$ is the free particle Green's operator. The first iteration of this e
 
 
 $$
-
 |\psi^{(1)}\rangle = |\phi\rangle + G_0V|\phi\rangle
-
 $$
 
 
@@ -12701,9 +12117,7 @@ The second iteration of the Lippmann-Schwinger equation gives us the second Born
 
 
 $$
-
 |\psi^{(2)}\rangle = |\phi\rangle + G_0V|\phi\rangle + G_0VG_0V|\phi\rangle
-
 $$
 
 
@@ -12717,9 +12131,7 @@ The Born approximation can also be expressed in terms of the scattering matrix $
 
 
 $$
-
 S = \mathbb{I} + 2\pi i\delta(E-E')T
-
 $$
 
 
@@ -12729,9 +12141,7 @@ where $\mathbb{I}$ is the identity matrix, $E$ and $E'$ are the initial and fina
 
 
 $$
-
 f(\theta) = \frac{m}{2\pi\hbar^2}\langle\psi_{out}|T|\psi_{in}\rangle
-
 $$
 
 
@@ -12791,9 +12201,7 @@ To understand the concept of partial wave analysis, let us consider a potential 
 
 
 $$
-
 V(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} V_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -12803,9 +12211,7 @@ where $V_{lm}(r)$ are the radial components of the potential and $Y_{lm}(\theta,
 
 
 $$
-
 Y_{lm}(\theta,\phi) = \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(\cos\theta)e^{im\phi}
-
 $$
 
 
@@ -12819,9 +12225,7 @@ Solving these equations allows us to express the full scattering solution as a s
 
 
 $$
-
 \psi(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} \psi_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -12873,9 +12277,7 @@ To understand the concept of partial wave analysis, let us consider a potential 
 
 
 $$
-
 V(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} V_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -12885,9 +12287,7 @@ where $V_{lm}(r)$ are the radial components of the potential and $Y_{lm}(\theta,
 
 
 $$
-
 Y_{lm}(\theta,\phi) = \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(\cos\theta)e^{im\phi}
-
 $$
 
 
@@ -12901,9 +12301,7 @@ Solving these equations allows us to express the full scattering solution as a s
 
 
 $$
-
 \psi(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} \psi_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -12921,9 +12319,7 @@ One of the key quantities that can be extracted from the partial wave expansion 
 
 
 $$
-
 f(\theta) = \frac{1}{k}\sum_{l=0}^{\infty}(2l+1)e^{i\delta_l}\sin\delta_lP_l(\cos\theta)
-
 $$
 
 
@@ -12971,9 +12367,7 @@ To understand the concept of partial wave analysis, let us consider a potential 
 
 
 $$
-
 V(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} V_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -12983,9 +12377,7 @@ where $V_{lm}(r)$ are the radial components of the potential and $Y_{lm}(\theta,
 
 
 $$
-
 Y_{lm}(\theta,\phi) = \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(\cos\theta)e^{im\phi}
-
 $$
 
 
@@ -12999,9 +12391,7 @@ Solving these equations allows us to express the full scattering solution as a s
 
 
 $$
-
 \psi(r,\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} \psi_{lm}(r)Y_{lm}(\theta,\phi)
-
 $$
 
 
@@ -13019,9 +12409,7 @@ Using the partial wave expansion, we can calculate the scattering amplitude for 
 
 
 $$
-
 f(\theta) = \frac{1}{k}\sum_{l=0}^{\infty}(2l+1)e^{i\delta_l}\sin\delta_lP_l(\cos\theta)
-
 $$
 
 
@@ -13081,9 +12469,7 @@ To understand the concept of symmetrization, let us consider a scattering proces
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle
-
 $$
 
 
@@ -13093,9 +12479,7 @@ where $\mathbf{k_1}$ and $\mathbf{k_2}$ are the initial momenta of the particles
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \frac{1}{2} \left( \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle + \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_2}, \mathbf{p_1} \rangle \right)
-
 $$
 
 
@@ -13155,9 +12539,7 @@ To understand the concept of symmetrization, let us consider a scattering proces
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle
-
 $$
 
 
@@ -13167,9 +12549,7 @@ where $\mathbf{k_1}$ and $\mathbf{k_2}$ are the initial momenta of the particles
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \frac{1}{2} \left( \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle + \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_2}, \mathbf{p_1} \rangle \right)
-
 $$
 
 
@@ -13229,9 +12609,7 @@ To understand the concept of symmetrization, let us consider a scattering proces
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle
-
 $$
 
 
@@ -13241,9 +12619,7 @@ where $\mathbf{k_1}$ and $\mathbf{k_2}$ are the initial momenta of the particles
 
 
 $$
-
 f(\mathbf{k_1}, \mathbf{k_2}) = \frac{1}{2} \left( \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_1}, \mathbf{p_2} \rangle + \langle \mathbf{k_1}, \mathbf{k_2} | V | \mathbf{p_2}, \mathbf{p_1} \rangle \right)
-
 $$
 
 
@@ -13637,9 +13013,7 @@ Spin-1 states are quantum states that describe the spin of a particle with spin-
 
 
 $$
-
 \left| \psi \right> = \begin{pmatrix} \psi_1 \\ \psi_0 \\ \psi_{-1} \end{pmatrix}
-
 $$
 
 
@@ -13699,9 +13073,7 @@ In cubic crystals, the axis parameters of the unit cell are of the same length, 
 
 
 $$
-
 E_{M,M'} = \frac{1}{2} \omega_Q (3M^2 - M'^2)
-
 $$
 
 
@@ -13947,9 +13319,7 @@ The Dirac equation can be written as:
 
 
 $$
-
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
-
 $$
 
 
@@ -13959,9 +13329,7 @@ where $\psi$ is the wave function of the particle, $m$ is its mass, and $\gamma^
 
 
 $$
-
 \{\gamma^\mu, \gamma^\nu\} = 2g^{\mu\nu}
-
 $$
 
 
@@ -13975,9 +13343,7 @@ The Dirac equation can be used to describe the behavior of electrons in an exter
 
 
 $$
-
 (i\hbar\gamma^\mu D_\mu - mc)\psi = 0
-
 $$
 
 
@@ -14011,15 +13377,11 @@ Gauging proceeds similarly to the abelian $U(1)$ case, with a few differences. U
 
 
 $$
-
 \psi(x) \mapsto U(x)\psi(x)
-
 $$
 
 $$
-
 \bar\psi(x)\mapsto \bar\psi(x)U^\dagger(x)
-
 $$
 
 
@@ -14029,9 +13391,7 @@ The matrix-valued gauge field $A_\mu$ or $SU(N)$ connection transforms as:
 
 
 $$
-
 A_\mu(x) \mapsto U(x)A_\mu(x)U(x)^{-1} + \frac{1}{g}(\partial_\mu U(x))U(x)^{-1}
-
 $$
 
 
@@ -14041,9 +13401,7 @@ and the covariant derivatives are defined as:
 
 
 $$
-
 D_\mu\psi = \partial_\mu \psi + igA_\mu\psi
-
 $$
 
 
@@ -14237,17 +13595,13 @@ To derive the Klein-Gordon equation, we start with the nonhomogeneous electromag
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14257,17 +13611,13 @@ We can rewrite these equations in terms of the retarded time $t_r$, which is the
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t_r^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14277,17 +13627,13 @@ Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ wi
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
@@ -14297,17 +13643,13 @@ Substituting these derivatives into our equations, we get:
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14317,17 +13659,13 @@ Finally, we use the delta function to pick out $t' = t_r$, giving us the Liénar
 
 
 $$
-
 \varphi(\mathbf{r}, t) = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
 
 $$
-
 \mathbf{A}(\mathbf{r}, t) = \frac{\mu_0}{4\pi} \int \frac{\mathbf{J}(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
@@ -14337,9 +13675,7 @@ Now, we can use these potentials to derive the Klein-Gordon equation. We start b
 
 
 $$
-
 \frac{\partial \varphi}{\partial t} = \frac{1}{4\pi\epsilon_0} \int \frac{\partial \rho}{\partial t_r} \frac{\partial t_r}{\partial t} \frac{1}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
@@ -14349,9 +13685,7 @@ Using the chain rule, we can rewrite this as:
 
 
 $$
-
 \frac{\partial \varphi}{\partial t} = \frac{1}{4\pi\epsilon_0} \int \frac{\partial \rho}{\partial t_r} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) \frac{1}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
@@ -14361,9 +13695,7 @@ Similarly, we can take the spatial derivative of the scalar potential:
 
 
 $$
-
 \nabla \varphi = \frac{1}{4\pi\epsilon_0} \int \frac{\partial \rho}{\partial t_r} \frac{\mathbf{r} - \mathbf{r}'}{|\mathbf{r} - \mathbf{r}'|^3} d^3\mathbf{r}'
-
 $$
 
 
@@ -14373,9 +13705,7 @@ Using these derivatives, we can rewrite the nonhomogeneous electromagnetic wave 
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = \frac{1}{4\pi\epsilon_0} \int \frac{\partial^2 \rho}{\partial t_r^2} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) \frac{1}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
@@ -14385,9 +13715,7 @@ Next, we use the continuity equation $\frac{\partial \rho}{\partial t} + \nabla 
 
 
 $$
-
 \frac{\partial \rho}{\partial t_r} = -\nabla \cdot \mathbf{J} - \frac{\partial \mathbf{J}}{\partial t_r}
-
 $$
 
 
@@ -14397,9 +13725,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = \frac{1}{4\pi\epsilon_0} \int \left(-\nabla \cdot \mathbf{J} - \frac{\partial \mathbf{J}}{\partial t_r}\right) \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) \frac{1}{|\mathbf{r} - \mathbf{r}'|} d^3\mathbf{r}'
-
 $$
 
 
@@ -14409,9 +13735,7 @@ Using the identity $\nabla \cdot \left(\frac{\mathbf{r} - \mathbf{r}'}{|\mathbf{
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \int \frac{\partial \mathbf{J}}{\partial t_r} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) d^3\mathbf{r}'
-
 $$
 
 
@@ -14421,9 +13745,7 @@ Similarly, we can derive the equation for the vector potential:
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \int \frac{\partial \mathbf{J}}{\partial t_r} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) d^3\mathbf{r}'
-
 $$
 
 
@@ -14433,17 +13755,13 @@ Finally, we can combine these equations to get the Klein-Gordon equation:
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{1}{c^2} \frac{\partial^2}{\partial t_r^2}\right) \varphi = \frac{1}{\epsilon_0 c^2} \int \frac{\partial \mathbf{J}}{\partial t_r} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) d^3\mathbf{r}'
-
 $$
 
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{1}{c^2} \frac{\partial^2}{\partial t_r^2}\right) \mathbf{A} = -\mu_0 \int \frac{\partial \mathbf{J}}{\partial t_r} \left(1 - \frac{\mathbf{v}_s \cdot (\mathbf{r} - \mathbf{r}')}{c|\mathbf{r} - \mathbf{r}'|}\right) d^3\mathbf{r}'
-
 $$
 
 
@@ -14475,17 +13793,13 @@ To derive the Klein-Gordon equation, we start with the nonhomogeneous electromag
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14495,17 +13809,13 @@ We can rewrite these equations in terms of the retarded time $t_r$, which is the
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t_r^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14515,17 +13825,13 @@ Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ wi
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
@@ -14535,17 +13841,13 @@ Substituting these derivatives into our equations, we get:
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14555,17 +13857,13 @@ We can then combine these equations into a single equation by taking the diverge
 
 
 $$
-
 \nabla \cdot \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi\right) = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \nabla \cdot \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A}\right) = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14575,17 +13873,13 @@ Using the vector identity $\nabla \cdot (\nabla \times \mathbf{A}) = 0$, we can 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla \cdot \varphi - c^2 \nabla^2 \nabla \cdot \varphi = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla \cdot \mathbf{A} - c^2 \nabla^2 \nabla \cdot \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14595,17 +13889,13 @@ We can then use the vector identity $\nabla \cdot (\nabla f) = \nabla^2 f$ to fu
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^4 \varphi = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^4 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14615,9 +13905,7 @@ Next, we can use the Lorentz gauge condition $\nabla \cdot \mathbf{A} + \frac{1}
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^4 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14627,9 +13915,7 @@ We can then use the vector identity $\nabla \times (\nabla \times \mathbf{A}) = 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla(\nabla \cdot \mathbf{A}) + c^2 \nabla^2 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14639,9 +13925,7 @@ Using the Lorentz gauge condition again, we can eliminate the term $\nabla(\nabl
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14651,9 +13935,7 @@ Finally, we can use the vector identity $\nabla \times (\nabla \times \mathbf{A}
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14685,17 +13967,13 @@ To derive the Klein-Gordon equation, we start with the nonhomogeneous electromag
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14705,17 +13983,13 @@ We can rewrite these equations in terms of the retarded time $t_r$, which is the
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t_r^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14725,17 +13999,13 @@ Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ wi
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
 
 $$
-
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
-
 $$
 
 
@@ -14745,17 +14015,13 @@ Substituting these derivatives into our equations, we get:
 
 
 $$
-
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
-
 $$
 
 
@@ -14765,17 +14031,13 @@ We can then combine these equations into a single equation by taking the diverge
 
 
 $$
-
 \nabla \cdot \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi\right) = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \nabla \cdot \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A}\right) = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14785,17 +14047,13 @@ Using the vector identity $\nabla \cdot (\nabla \times \mathbf{A}) = 0$, we can 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla \cdot \varphi - c^2 \nabla^2 \nabla \cdot \varphi = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla \cdot \mathbf{A} - c^2 \nabla^2 \nabla \cdot \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14805,17 +14063,13 @@ We can then use the vector identity $\nabla \cdot (\nabla \cdot \mathbf{A}) = \n
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \nabla \cdot \rho
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = -\mu_0 \nabla \cdot \mathbf{J}
-
 $$
 
 
@@ -14825,17 +14079,13 @@ We can now substitute in the definitions of the scalar and vector potentials in 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \nabla \cdot \left(-\frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = -\mu_0 \nabla \cdot \left(-\frac{\partial \mathbf{B}}{\partial t}\right)
-
 $$
 
 
@@ -14845,17 +14095,13 @@ Using the vector identity $\nabla \cdot \left(\frac{\partial \mathbf{E}}{\partia
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = \frac{1}{\epsilon_0} \frac{\partial}{\partial t} \nabla \cdot \mathbf{B}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = -\frac{1}{\mu_0} \frac{\partial}{\partial t} \nabla \cdot \mathbf{E}
-
 $$
 
 
@@ -14865,17 +14111,13 @@ We can then use the vector identity $\nabla \times \mathbf{E} = -\frac{\partial 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \nabla \times \left(\nabla \times \mathbf{E}\right)
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = \mu_0 \nabla \times \mathbf{J}
-
 $$
 
 
@@ -14885,17 +14127,13 @@ Finally, we can use the vector identity $\nabla \times (\nabla \times \mathbf{E}
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = \frac{1}{\epsilon_0} \nabla^2 \mathbf{E}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = \mu_0 \nabla \times \mathbf{J}
-
 $$
 
 
@@ -14905,17 +14143,13 @@ We can now substitute in the definitions of the electric and magnetic fields in 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = \frac{1}{\epsilon_0} \nabla^2 \left(-\frac{\partial \varphi}{\partial t} - \nabla \cdot \mathbf{A}\right)
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = \mu_0 \nabla \times \left(-\frac{\partial \mathbf{A}}{\partial t} + \nabla \varphi\right)
-
 $$
 
 
@@ -14925,17 +14159,13 @@ We can then simplify these equations to:
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \varphi - c^2 \nabla^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \frac{\partial^2 \varphi}{\partial t^2} + \frac{1}{\epsilon_0} \nabla^2 \nabla \cdot \mathbf{A}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2}{\partial t^2} \nabla^2 \mathbf{A} - c^2 \nabla^2 \nabla^2 \mathbf{A} = -\frac{1}{\mu_0} \frac{\partial^2 \mathbf{A}}{\partial t^2} + \frac{1}{\mu_0} \nabla^2 \nabla \cdot \mathbf{A}
-
 $$
 
 
@@ -14945,17 +14175,13 @@ We can then combine these equations into a single equation:
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2\right) \left(\nabla^2 \varphi - \frac{1}{\epsilon_0} \nabla \cdot \mathbf{A}\right) = 0
-
 $$
 
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2\right) \left(\nabla^2 \mathbf{A} + \frac{1}{\mu_0} \nabla \cdot \mathbf{A}\right) = 0
-
 $$
 
 
@@ -14965,15 +14191,12 @@ We can then use the vector identity $\nabla \cdot (\nabla \times \mathbf{A}) = 0
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2\right) \left(\nabla^2 \varphi - \frac{1}{\epsilon_0} \nabla \cdot \mathbf{A}\right) = 0
-
 $$
 
 
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2\right) \left(\nabla^2 \mathbf
 
 
@@ -15003,14 +14226,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 To derive the Dirac equation, we start with the nonhomogeneous electromagnetic wave equation, which relates the scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ to the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$:
 
 
-
 $$
 
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
 
 $$
-
-
 
 $$
 
@@ -15019,9 +14239,7 @@ $$
 $$
 
 
-
 We can rewrite these equations in terms of the retarded time $t_r$, which is the solution of the equation $t_r = t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t_r)|$. This gives us:
-
 
 
 $$
@@ -15030,8 +14248,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15039,29 +14255,23 @@ $$
 $$
 
 
-
 Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ with $\mathbf{v} = \mathbf{x}'$ to calculate the derivatives of the retarded time:
 
 
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
 
-
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
-
 
 
 Substituting these derivatives into our equations, we get:
-
 
 
 $$
@@ -15070,8 +14280,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15079,9 +14287,7 @@ $$
 $$
 
 
-
 We can now introduce the four-vector potential $A^\mu = (\varphi, \mathbf{A})$ and the four-current density $J^\mu = (\rho, \mathbf{J})$. Using the Minkowski metric $\eta^{\mu\nu} = diag(1,-1,-1,-1)$, we can rewrite the equations as:
-
 
 
 $$
@@ -15091,9 +14297,7 @@ $$
 $$
 
 
-
 Next, we introduce the Dirac matrices $\gamma^\mu$, which are defined as:
-
 
 
 $$
@@ -15103,9 +14307,7 @@ $$
 $$
 
 
-
 where $I$ is the 2x2 identity matrix and $\sigma^i$ are the Pauli matrices. These matrices satisfy the anticommutation relation $\{\gamma^\mu, \gamma^\nu\} = 2\eta^{\mu\nu}$. Using these matrices, we can rewrite the four-vector potential as:
-
 
 
 $$
@@ -15115,9 +14317,7 @@ A^\mu = \begin{pmatrix} \varphi & \mathbf{A} \\ \mathbf{A} & -\varphi \end{pmatr
 $$
 
 
-
 Similarly, we can rewrite the four-current density as:
-
 
 
 $$
@@ -15127,9 +14327,7 @@ J^\mu = \begin{pmatrix} \rho & \mathbf{J} \\ \mathbf{J} & -\rho \end{pmatrix} = 
 $$
 
 
-
 Substituting these expressions into our equations, we get:
-
 
 
 $$
@@ -15139,9 +14337,7 @@ $$
 $$
 
 
-
 Using the identity $\partial_\mu \partial^\mu = \partial^2 - \frac{\partial^2}{\partial t^2}$, we can rewrite this as:
-
 
 
 $$
@@ -15151,9 +14347,7 @@ $$
 $$
 
 
-
 Next, we introduce the four-spinor $\psi = \begin{pmatrix} \phi \\ \chi \end{pmatrix}$, where $\phi$ and $\chi$ are two-component spinors. This allows us to rewrite the equation as:
-
 
 
 $$
@@ -15163,9 +14357,7 @@ $$
 $$
 
 
-
 Finally, we can use the Dirac equation for a free particle, which states that:
-
 
 
 $$
@@ -15173,19 +14365,16 @@ $$
 \left(\partial^2 - \frac{\partial^2}{\partial t^2}\right) \psi = -\mu_0 \gamma^\nu \begin{pmatrix} \rho \\ \mathbf{J} \end{pmatrix}
 
 $$
-
 
 
 Combining these equations, we get the Dirac equation:
 
 
-
 $$
 
 \left(\partial^2 - \frac{\partial^2}{\partial t^2}\right) \psi = -\mu_0 \gamma^\nu \begin{pmatrix} \rho \\ \mathbf{J} \end{pmatrix}
 
 $$
-
 
 
 This equation describes the behavior of spin-1/2 particles in a relativistic framework and has been crucial in understanding the behavior of particles such as electrons. It has also played a significant role in the development of quantum field theory.
@@ -15217,14 +14406,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 To derive the Dirac equation, we start with the nonhomogeneous electromagnetic wave equation, which relates the scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ to the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$:
 
 
-
 $$
 
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
 
 $$
-
-
 
 $$
 
@@ -15233,9 +14419,7 @@ $$
 $$
 
 
-
 We can rewrite these equations in terms of the retarded time $t_r$, which is the solution of the equation $t_r = t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t_r)|$. This gives us:
-
 
 
 $$
@@ -15244,8 +14428,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15253,29 +14435,23 @@ $$
 $$
 
 
-
 Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ with $\mathbf{v} = \mathbf{x}'$ to calculate the derivatives of the retarded time:
 
 
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
 
-
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
-
 
 
 Substituting these derivatives into our equations, we get:
-
 
 
 $$
@@ -15284,8 +14460,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15293,9 +14467,7 @@ $$
 $$
 
 
-
 We can now introduce the wave function $\psi(\mathbf{r}, t)$, which is a four-component spinor that describes the state of a spin-1/2 particle. Using the Dirac matrices $\gamma^{\mu}$, we can rewrite the equations in terms of the wave function:
-
 
 
 $$
@@ -15303,7 +14475,6 @@ $$
 (i\gamma^{\mu}\partial_{\mu} - m)\psi = 0
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\partial_{\mu}$ is the four-gradient operator. This is the Dirac equation, which describes the behavior of spin-1/2 particles in a relativistic framework.
@@ -15355,14 +14526,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 To derive the Dirac equation, we start with the nonhomogeneous electromagnetic wave equation, which relates the scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ to the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$:
 
 
-
 $$
 
 \frac{\partial^2 \varphi}{\partial t^2} - c^2 \nabla^2 \varphi = -\frac{1}{\epsilon_0} \rho
 
 $$
-
-
 
 $$
 
@@ -15371,9 +14539,7 @@ $$
 $$
 
 
-
 We can rewrite these equations in terms of the retarded time $t_r$, which is the solution of the equation $t_r = t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t_r)|$. This gives us:
-
 
 
 $$
@@ -15382,8 +14548,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t_r^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15391,29 +14555,23 @@ $$
 $$
 
 
-
 Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ with $\mathbf{v} = \mathbf{x}'$ to calculate the derivatives of the retarded time:
 
 
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
 
-
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c}\frac{d t_r}{d t}\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}= 1
 
 $$
-
 
 
 Substituting these derivatives into our equations, we get:
-
 
 
 $$
@@ -15422,8 +14580,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}
@@ -15431,9 +14587,7 @@ $$
 $$
 
 
-
 We can now introduce the wave function $\psi$ for a spin-1/2 particle, which is a four-component complex vector. The components of $\psi$ are denoted by $\psi_1, \psi_2, \psi_3, \psi_4$, and they represent the probability amplitudes for the particle to be in a particular spin state. Using the wave function, we can rewrite the equations as:
-
 
 
 $$
@@ -15442,8 +14596,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi = -\mu_0 \mathbf{J}
@@ -15451,9 +14603,7 @@ $$
 $$
 
 
-
 We can now combine these equations into a single equation by introducing the Dirac matrices $\gamma^\mu$, where $\mu$ represents the space-time index. These matrices are defined as:
-
 
 
 $$
@@ -15463,9 +14613,7 @@ $$
 $$
 
 
-
 where $I$ is the identity matrix and $\sigma^i$ are the Pauli matrices. Using these matrices, we can write the Dirac equation as:
-
 
 
 $$
@@ -15473,7 +14621,6 @@ $$
 (i\gamma^\mu \partial_\mu - m)\psi = 0
 
 $$
-
 
 
 where $m$ is the mass of the particle. This equation is known as the Dirac equation and it describes the behavior of spin-1/2 particles in a relativistic framework.
@@ -16249,7 +15396,6 @@ In the previous section, we explored the basics of spin-1/2 systems and their ma
 Spin-1 systems are characterized by three possible spin states: +1, 0, and -1. These states can be represented by a set of three matrices, known as the spin-1 matrices. These matrices are defined as follows:
 
 
-
 $$
 
 S_x = \begin{pmatrix}
@@ -16285,9 +15431,7 @@ S_z = \begin{pmatrix}
 $$
 
 
-
 These matrices satisfy the commutation relations:
-
 
 
 $$
@@ -16297,13 +15441,11 @@ $$
 $$
 
 
-
 Similar to spin-1/2 systems, spin-1 systems also have a spinor representation. In three dimensions, the Clifford algebra Cℓ<sub>3,0</sub>(<math>\Reals</math>) is built up from a basis of one unit scalar, 1, three orthogonal unit vectors, "σ"<sub>1</sub>, "σ"<sub>2</sub> and "σ"<sub>3</sub>, the three unit bivectors "σ"<sub>1</sub>"σ"<sub>2</sub>, "σ"<sub>2</sub>"σ"<sub>3</sub>, "σ"<sub>3</sub>"σ"<sub>1</sub> and the pseudoscalar. These elements form the basis for the algebra of even-graded elements, which is made up of scalar dilations and vector rotations.
 
 
 
 The sub-algebra of even-graded elements is made up of scalar dilations,
-
 
 
 $$
@@ -16313,9 +15455,7 @@ u' = \rho^{\left(\frac{1}{2}\right)} u \rho^{\left(\frac{1}{2}\right)} = \rho u,
 $$
 
 
-
 and vector rotations,
-
 
 
 $$
@@ -16325,7 +15465,6 @@ u' = \gamma u\gamma^*,
 $$
 
 
-
 where <math>\rho</math> corresponds to a scalar dilation and <math>\gamma</math> corresponds to a vector rotation through an angle <math>\theta</math> about an axis defined by a unit vector <math>\vec{a}</math>.
 
 
@@ -16333,13 +15472,11 @@ where <math>\rho</math> corresponds to a scalar dilation and <math>\gamma</math>
 As a special case, it is easy to see that, if <math>\vec{a} = \hat{z}</math>, this reproduces the "σ"<sub>1</sub>"σ"<sub>2</sub> rotation considered in the previous section; and that such rotation leaves the coefficients of vectors in the "σ"<sub>3</sub> direction invariant, since
 
 
-
 $$
 
 \gamma \sigma_3 \gamma^* = \cos\theta \sigma_3 + \sin\theta \sigma_1 \sigma_2 \sigma_3 \sigma_1 \sigma_2 = \cos\theta \sigma_3 + \sin\theta \sigma_3 = \sigma_3
 
 $$
-
 
 
 The bivectors "σ"<sub>2</sub>"σ"<sub>3</sub>, "σ"<sub>3</sub>"σ"<sub>1</sub>, and "σ"<sub>1</sub>"σ"<sub>2</sub> correspond to the spin-1 matrices <math>S_x</math>, <math>S_y</math>, and <math>S_z</math>, respectively. These matrices can be used to represent the spin states of a spin-1 system and to calculate the evolution of the system under various operations, such as rotations and coupling interactions.
@@ -16375,7 +15512,6 @@ In the previous section, we explored the basics of spin-1/2 systems and their ma
 Spin-1 systems are characterized by three possible spin states: +1, 0, and -1. These states can be represented by a set of three matrices, known as the spin-1 matrices. These matrices are defined as follows:
 
 
-
 $$
 
 S_x = \begin{pmatrix}
@@ -16411,9 +15547,7 @@ S_z = \begin{pmatrix}
 $$
 
 
-
 These matrices satisfy the commutation relations:
-
 
 
 $$
@@ -16423,13 +15557,11 @@ $$
 $$
 
 
-
 Similar to spin-1/2 systems, spin-1 systems also have a spinor representation. In three dimensions, the Clifford algebra Cℓ<sub>3,0</sub>(<math>\Reals</math>) is built up from a basis of one unit scalar, 1, three orthogonal unit vectors, "σ"<sub>1</sub>, "σ"<sub>2</sub> and "σ"<sub>3</sub>, the three unit bivectors "σ"<sub>1</sub>"σ"<sub>2</sub>, "σ"<sub>2</sub>"σ"<sub>3</sub>, "σ"<sub>3</sub>"σ"<sub>1</sub> and the pseudoscalar. These elements form the basis for the algebra of even-graded elements, which is made up of scalar dilations and vector rotations.
 
 
 
 The sub-algebra of even-graded elements is made up of scalar dilations,
-
 
 
 $$
@@ -16439,9 +15571,7 @@ u' = \rho^{\left(\frac{1}{2}\right)} u \rho^{\left(\frac{1}{2}\right)} = \rho u,
 $$
 
 
-
 and vector rotations,
-
 
 
 $$
@@ -16451,9 +15581,7 @@ u' = \gamma u\gamma^*,
 $$
 
 
-
 where <math>\rho</math> corresponds to a scalar dilation and <math>\gamma</math> corresponds to a vector rotation through an angle <math>\theta</math> about an axis defined by a unit vector <math>\hat{n}</math>. In the case of spin-1 systems, the spinor representation is given by the following matrices:
-
 
 
 $$
@@ -16491,9 +15619,7 @@ i & 0 & -i \\
 $$
 
 
-
 These matrices satisfy the commutation relations:
-
 
 
 $$
@@ -16501,7 +15627,6 @@ $$
 [\sigma_1, \sigma_2] = 2i\sigma_3, \quad [\sigma_2, \sigma_3] = 2i\sigma_1, \quad [\sigma_3, \sigma_1] = 2i\sigma_2
 
 $$
-
 
 
 #### 11.2b: Spin-1 States
@@ -16515,13 +15640,11 @@ Now that we have established the mathematical representation of spin-1 systems, 
 More rigorously,
 
 
-
 $$
 
 \left|\frac{1}{2},m_1\right\rangle\left|\frac{1}{2},m_2\right\rangle,
 
 $$
-
 
 
 where <math>m_1</math> and <math>m_2</math> are the projections of the spins of the two particles onto the z axis. Since for spin-1/2 particles, the <math display="inline">\left|\frac{1}{2},m\right\rangle</math> basis states span a 2-dimensional space, the <math display="inline">\left|\frac{1}{2},m_1\right\rangle\left|\frac{1}{2},m_2\right\rangle</math> basis states span a 4-dimensional space.
@@ -16531,7 +15654,6 @@ where <math>m_1</math> and <math>m_2</math> are the projections of the spins of 
 Using the rules for adding angular momentum in quantum mechanics, we can compute the total spin and its projection onto a given axis. This is done using the Clebsch–Gordan coefficients, and in general, we have:
 
 
-
 $$
 
 \left|\frac{1}{2},m_1\right\rangle\left|\frac{1}{2},m_2\right\rangle = \sum_{m_1',m_2'} C_{\frac{1}{2},m_1;\frac{1}{2},m_2}^{\frac{1}{2},m_1';\frac{1}{2},m_2'} \left|\frac{1}{2},m_1'\right\rangle\left|\frac{1}{2},m_2'\right\rangle
@@ -16539,9 +15661,7 @@ $$
 $$
 
 
-
 Substituting in the four basis states, we get the possible values for total spin and their representation in the <math display="inline">\left|\frac{1}{2},m_1\right\rangle\left|\frac{1}{2},m_2\right\rangle</math> basis. There are three states with total spin angular momentum 1:
-
 
 
 $$
@@ -16551,9 +15671,7 @@ $$
 $$
 
 
-
 which are symmetric, and a fourth state with total spin angular momentum 0:
-
 
 
 $$
@@ -16561,7 +15679,6 @@ $$
 \left|\frac{1}{2},\frac{1}{2}\right\rangle\left|\frac{1}{2},-\frac{1}{2}\right\rangle - \left|\frac{1}{2},-\frac{1}{2}\right\rangle\left|\frac{1}{2},\frac{1}{2}\right\rangle
 
 $$
-
 
 
 which is antisymmetric. This result shows that a combination of two spin-1/2 particles can carry a total spin of 1 or 0, depending on whether they occupy a triplet or singlet state. This is an important concept in quantum mechanics and has many applications in various fields, such as quantum computing and nuclear physics.
@@ -16605,7 +15722,6 @@ In the previous section, we explored the basics of spin-1/2 systems and their ma
 Spin-1 systems are characterized by three possible spin states: +1, 0, and -1. These states can be represented by a set of three matrices, known as the spin-1 matrices. These matrices are defined as follows:
 
 
-
 $$
 
 S_x = \begin{pmatrix}
@@ -16641,9 +15757,7 @@ S_z = \begin{pmatrix}
 $$
 
 
-
 These matrices satisfy the commutation relations:
-
 
 
 $$
@@ -16653,13 +15767,11 @@ $$
 $$
 
 
-
 Similar to spin-1/2 systems, spin-1 systems also have a spinor representation. In three dimensions, the Clifford algebra Cℓ<sub>3,0</sub>(<math>\Reals</math>) is built up from a basis of one unit scalar, 1, three orthogonal unit vectors, "σ"<sub>1</sub>, "σ"<sub>2</sub> and "σ"<sub>3</sub>, the three unit bivectors "σ"<sub>1</sub>"σ"<sub>2</sub>, "σ"<sub>2</sub>"σ"<sub>3</sub>, "σ"<sub>3</sub>"σ"<sub>1</sub> and the pseudoscalar. These elements form the basis for the algebra of even-graded elements, which is made up of scalar dilations and vector rotations.
 
 
 
 The sub-algebra of even-graded elements is made up of scalar dilations,
-
 
 
 $$
@@ -16669,9 +15781,7 @@ u' = \rho^{\left(\frac{1}{2}\right)} u \rho^{\left(\frac{1}{2}\right)} = \rho u,
 $$
 
 
-
 and vector rotations,
-
 
 
 $$
@@ -16681,9 +15791,7 @@ u' = \gamma u\gamma^*,
 $$
 
 
-
 where <math>\rho</math> corresponds to a scalar dilation and <math>\gamma</math> corresponds to a vector rotation through an angle <math>\theta</math> about an axis defined by a unit vector <math>\hat{n}</math>. These transformations can be represented by the following matrices:
-
 
 
 $$
@@ -16709,7 +15817,6 @@ n_zn_x(1-\cos\theta) - n_y\sin\theta & n_zn_y(1-\cos\theta) + n_x\sin\theta & \c
 \end{pmatrix}
 
 $$
-
 
 
 #### 11.2b: Spin-1/2 and Spin-1 Systems
@@ -16769,7 +15876,6 @@ In quantum mechanics, the addition of angular momenta is a fundamental concept t
 The Clebsch-Gordan coefficients for SU(3) are particularly important, as they allow us to understand the symmetry properties of the product representation. One such property is that if an irreducible representation <math>{\scriptstyle{\mu}_{\gamma}}</math> appears in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_1\otimes{\mu}_2}</math>, then it must also appear in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_2\otimes{\mu}_1}</math>. This implies that the Clebsch-Gordan coefficients are symmetric, as shown by the following equation:
 
 
-
 $$
 
 C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
@@ -16777,9 +15883,7 @@ C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
 $$
 
 
-
 Furthermore, since the Clebsch-Gordan coefficients are all real, we can deduce the following symmetry property:
-
 
 
 $$
@@ -16789,7 +15893,6 @@ C_{\mu_1,\mu_2}^{\mu} = \xi_1 \xi_2 C_{\mu_2,\mu_1}^{\mu}
 $$
 
 
-
 Where <math>\xi_1=\xi_1(\mu_1,\mu_2,\gamma)=\pm1</math> and <math>\xi_2=\xi_2(\mu_1, \mu_2, \gamma)=\pm 1</math>. This symmetry property is crucial in understanding the behavior of composite systems and is a direct result of the properties of the Clebsch-Gordan coefficients.
 
 
@@ -16797,13 +15900,11 @@ Where <math>\xi_1=\xi_1(\mu_1,\mu_2,\gamma)=\pm1</math> and <math>\xi_2=\xi_2(\m
 In the case of the irreducible representation <tmath|D(P,Q)>, the states of the direct product representation can be completely represented by a set of operators, as shown in the previous section. However, an alternate set of commuting operators can also be found for the direct product representation, as shown by the following equation:
 
 
-
 $$
 
 \hat{\mathbb{C}}_1=\hat{C}_1(1)+\hat{C}_1(2), \quad \hat{\mathbb{C}}_2=\hat{C}_2(1)+\hat{C}_2(2), \quad \hat{\mathbb{I}}^2=\hat{I}^2(1)+\hat{I}^2(2)
 
 $$
-
 
 
 These operators provide a different perspective on the states of the direct product representation and can be useful in certain situations.
@@ -16843,7 +15944,6 @@ In quantum mechanics, the addition of angular momenta is a fundamental concept t
 The Clebsch-Gordan coefficients for SU(3) are particularly important, as they allow us to understand the symmetry properties of the product representation. One such property is that if an irreducible representation <math>{\scriptstyle{\mu}_{\gamma}}</math> appears in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_1\otimes{\mu}_2}</math>, then it must also appear in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_2\otimes{\mu}_1}</math>. This implies that the Clebsch-Gordan coefficients are symmetric, as shown by the following equation:
 
 
-
 $$
 
 C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
@@ -16851,9 +15951,7 @@ C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
 $$
 
 
-
 Furthermore, since the Clebsch-Gordan coefficients are all real, we can deduce the following symmetry property:
-
 
 
 $$
@@ -16861,7 +15959,6 @@ $$
 C_{\mu_1,\mu_2}^{\mu} = \xi_1 \xi_2 C_{\mu_2,\mu_1}^{\mu}
 
 $$
-
 
 
 Where <math>\xi_1=\xi_1(\mu_1,\mu_2,\gamma)=\pm1</math> and <math>\xi_2=\xi_2(\mu_1, \mu_2, \gamma)=\pm 1</math>. This symmetry property is crucial in understanding the behavior of composite systems and is a direct result of the properties of the Clebsch-Gordan coefficients.
@@ -16895,7 +15992,6 @@ The Wigner-Eckart theorem also states that the ratios of the Clebsch-Gordan coef
 The Wigner D-matrix is a complex conjugate of the D-matrix that satisfies a number of differential properties. These properties can be formulated concisely by introducing the following operators:
 
 
-
 $$
 
 \hat{\mathcal{J}}_1 = i \left( \cos \alpha \cot \beta \frac{\partial}{\partial \alpha} + \sin \alpha {\partial \over \partial \beta} - {\cos \alpha \over \sin \beta} {\partial \over \partial \gamma} \right) \\
@@ -16903,7 +15999,6 @@ $$
 \hat{\mathcal{J}}_2 = i \left( \sin \alpha \cot \beta {\partial \over \partial \alpha} - \cos \alpha {\partial \over \partial \beta} - {\sin \alpha \over \sin \beta} {\partial \over \partial \gamma} \right)
 
 $$
-
 
 
 These operators allow us to express the states of the direct product representation in terms of a set of operators, as shown in the previous section. The Wigner D-matrix also has a number of properties that are important in understanding the behavior of composite systems. For example, the Wigner D-matrix is unitary, meaning that its inverse is equal to its conjugate transpose. This property is crucial in calculating the matrix elements of a spherical tensor operator between states of different angular momenta.
@@ -16943,7 +16038,6 @@ In quantum mechanics, the addition of angular momenta is a fundamental concept t
 The Clebsch-Gordan coefficients for SU(3) are particularly important, as they allow us to understand the symmetry properties of the product representation. One such property is that if an irreducible representation <math>{\scriptstyle{\mu}_{\gamma}}</math> appears in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_1\otimes{\mu}_2}</math>, then it must also appear in the Clebsch-Gordan series of <math>{\scriptstyle{\mu}_2\otimes{\mu}_1}</math>. This implies that the Clebsch-Gordan coefficients are symmetric, as shown by the following equation:
 
 
-
 $$
 
 C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
@@ -16951,9 +16045,7 @@ C_{\mu_1,\mu_2}^{\mu} = C_{\mu_2,\mu_1}^{\mu}
 $$
 
 
-
 Furthermore, since the Clebsch-Gordan coefficients are all real, we can deduce the following symmetry property:
-
 
 
 $$
@@ -16961,7 +16053,6 @@ $$
 C_{\mu_1,\mu_2}^{\mu} = \xi_1 \xi_2 C_{\mu_2,\mu_1}^{\mu}
 
 $$
-
 
 
 Where <math>\xi_1=\xi_1(\mu_1,\mu_2,\gamma)=\pm1</math> and <math>\xi_2=\xi_2(\mu_1, \mu_2, \gamma)=\pm 1</math>. This symmetry property is crucial in understanding the behavior of composite systems and is a direct result of the properties of the Clebsch-Gordan coefficients.
@@ -17045,7 +16136,6 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 The Dirac equation can be derived from the principles of special relativity and quantum mechanics. It is a first-order differential equation that describes the time evolution of a particle's wave function in space and time. The equation is given by:
 
 
-
 $$
 
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
@@ -17053,9 +16143,7 @@ $$
 $$
 
 
-
 Where <math>\psi</math> is the wave function, <math>m</math> is the mass of the particle, <math>c</math> is the speed of light, and <math>\gamma^\mu</math> are the Dirac matrices. These matrices are defined as:
-
 
 
 $$
@@ -17063,7 +16151,6 @@ $$
 \gamma^0 = \begin{pmatrix} I & 0 \\ 0 & -I \end{pmatrix}, \gamma^i = \begin{pmatrix} 0 & \sigma^i \\ -\sigma^i & 0 \end{pmatrix}
 
 $$
-
 
 
 Where <math>I</math> is the identity matrix and <math>\sigma^i</math> are the Pauli matrices. The Dirac equation is a four-component equation, which means that the wave function has four components. These components correspond to the spin-up and spin-down states of the electron.
@@ -17107,13 +16194,11 @@ In this section, we will delve into the quantum mechanics of the electron, a fun
 The electron has an intrinsic property known as spin, which is a form of angular momentum. This spin is responsible for the electron's magnetic moment, which is a measure of its ability to interact with magnetic fields. The spin magnetic moment of the electron is given by the equation:
 
 
-
 $$
 
 \boldsymbol{\mu}_\text{s} = -g_\text{s}\,\mu_\text{B}\,\frac{~\mathbf{S}~}{\hbar}
 
 $$
-
 
 
 Where <math>g_\text{s}</math> is the spin g-factor, <math>\mu_\text{B}</math> is the Bohr magneton, <math>\mathbf{S}</math> is the electron's spin angular momentum, and <math>\hbar</math> is the reduced Planck's constant. The spin g-factor for the electron is approximately two, indicating that the electron is twice as effective in producing a magnetic moment as a charged body with identical mass and charge distributions.
@@ -17281,14 +16366,11 @@ The Klein-Gordon equation is a relativistic wave equation that describes the beh
 To derive the Klein-Gordon equation, we start with the nonhomogeneous electromagnetic wave equation, which describes the behavior of electromagnetic fields in the presence of sources. The scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ satisfy this equation, where the sources are expressed with the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$.
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
-
-
 
 $$
 
@@ -17297,9 +16379,7 @@ $$
 $$
 
 
-
 Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c} \frac{\partial \varphi}{\partial t} = 0$, we can rewrite these equations as:
-
 
 
 $$
@@ -17308,8 +16388,6 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J} + \frac{1}{c} \frac{\partial}{\partial t} \nabla \varphi
@@ -17317,9 +16395,7 @@ $$
 $$
 
 
-
 Next, we use the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ with $\mathbf{v} = \mathbf{x}'$ to calculate the derivatives of the retarded time $t_r$, which is defined as the solution of the equation $t_r = t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t_r)|$. Taking the derivatives of both sides of this equation, we get:
-
 
 
 $$
@@ -17328,8 +16404,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{d t_r}{d t} + \frac{1}{c} \frac{d t_r}{d t} \frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \mathbf{r}_s|} \cdot \mathbf{v}_s = 1
@@ -17337,9 +16411,7 @@ $$
 $$
 
 
-
 where $\mathbf{v}_s = \frac{d \mathbf{r}_s}{d t_r}$ is evaluated at the retarded time $t_r$. Finally, we use the delta function to pick out $t' = t_r$, and we get:
-
 
 
 $$
@@ -17349,9 +16421,7 @@ $$
 $$
 
 
-
 Substituting this into the equations for the potentials, we get the Liénard–Wiechert potentials:
-
 
 
 $$
@@ -17360,14 +16430,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{A}(\mathbf{r}, t) = \frac{\mu_0}{4\pi} \int \frac{\mathbf{J}(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d^3 \mathbf{r}'
 
 $$
-
 
 
 where $\boldsymbol{\beta}_s = \mathbf{v}_s/c$ and $\mathbf{r}_s$ are evaluated at the retarded time $t_r$.
@@ -17377,7 +16444,6 @@ where $\boldsymbol{\beta}_s = \mathbf{v}_s/c$ and $\mathbf{r}_s$ are evaluated a
 Now, we can use these potentials to derive the Klein-Gordon equation. We start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2 c^2 + m^2 c^4
@@ -17385,9 +16451,7 @@ E^2 = p^2 c^2 + m^2 c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $m$ is the mass of the particle. We can rewrite this in terms of the potentials as:
-
 
 
 $$
@@ -17397,9 +16461,7 @@ $$
 $$
 
 
-
 Expanding this equation and using the Lorenz gauge, we get:
-
 
 
 $$
@@ -17409,9 +16471,7 @@ $$
 $$
 
 
-
 Using the Lorenz gauge again, we can simplify this equation to:
-
 
 
 $$
@@ -17419,31 +16479,25 @@ $$
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2}\right) \varphi - \nabla^2 \mathbf{A} = -\frac{4\pi}{c^2} \rho
 
 $$
-
 
 
 Next, we use the wave equation for the potentials and the continuity equation for charge and current densities, and we get:
 
 
-
 $$
 
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2}\right) \varphi - \nabla^2 \mathbf{A} = -\frac{4\pi}{c^2} \rho
 
 $$
 
-
-
 $$
 
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2}\right) \varphi - \nabla^2 \mathbf{A} = -\frac{4\pi}{c^2} \rho
 
 $$
-
 
 
 Finally, we can combine these equations and use the definition of the potentials to get the Klein-Gordon equation:
-
 
 
 $$
@@ -17451,7 +16505,6 @@ $$
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{m^2 c^4}{\hbar^2}\right) \varphi = 0
 
 $$
-
 
 
 This equation describes the behavior of spinless particles in quantum mechanics of relativistic systems. It is a fundamental equation that has been used to make predictions and explain phenomena in various fields, such as particle physics and cosmology. Its derivation highlights the importance of combining quantum mechanics and special relativity to gain a deeper understanding of the fundamental laws of nature.
@@ -17483,34 +16536,27 @@ The Klein-Gordon equation is a relativistic wave equation that describes the beh
 To derive the Klein-Gordon equation, we start with the nonhomogeneous electromagnetic wave equation, which describes the behavior of electromagnetic fields in the presence of sources. The scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ satisfy this equation, where the sources are expressed with the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$.
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
 
-
-
 $$
 
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
 
 $$
-
 
 
 Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c} \frac{\partial \varphi}{\partial t} = 0$, we can rewrite these equations as:
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
-
-
 
 $$
 
@@ -17519,9 +16565,7 @@ $$
 $$
 
 
-
 Substituting the scalar potential $\varphi$ with the wave function $\psi$ and the vector potential $\mathbf{A}$ with the momentum operator $\hat{\mathbf{p}}$, we get:
-
 
 
 $$
@@ -17530,27 +16574,21 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla^2 \hat{\mathbf{p}} - \frac{1}{c^2} \frac{\partial^2 \hat{\mathbf{p}}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
 
 $$
-
 
 
 We can then use the de Broglie relation $E = \hbar \omega$ and $p = \hbar k$ to rewrite these equations in terms of energy and momentum:
 
 
-
 $$
 
 \nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
-
-
 
 $$
 
@@ -17559,9 +16597,7 @@ $$
 $$
 
 
-
 Finally, using the relativistic energy-momentum relation $E^2 = (pc)^2 + (mc^2)^2$, we can obtain the Klein-Gordon equation:
-
 
 
 $$
@@ -17569,7 +16605,6 @@ $$
 \left(\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{m^2 c^4}{\hbar^2}\right) \psi = 0
 
 $$
-
 
 
 This equation describes the behavior of spinless particles in a relativistic system and has important applications in fields such as particle physics and cosmology. 
@@ -17601,34 +16636,27 @@ The Klein-Gordon equation is a relativistic wave equation that describes the beh
 To derive the Klein-Gordon equation, we start with the nonhomogeneous electromagnetic wave equation, which describes the behavior of electromagnetic fields in the presence of sources. The scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ satisfy this equation, where the sources are expressed with the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$.
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
 
-
-
 $$
 
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
 
 $$
-
 
 
 Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c} \frac{\partial \varphi}{\partial t} = 0$, we can rewrite these equations as:
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
-
-
 
 $$
 
@@ -17637,9 +16665,7 @@ $$
 $$
 
 
-
 We can then combine these equations to obtain the wave equation for the electromagnetic potential:
-
 
 
 $$
@@ -17649,9 +16675,7 @@ $$
 $$
 
 
-
 This equation can be further simplified by introducing the four-vector potential $A^\mu = (\varphi, \mathbf{A})$ and the four-current density $J^\mu = (\rho, \mathbf{J})$. Using these definitions, we can rewrite the wave equation as:
-
 
 
 $$
@@ -17661,13 +16685,11 @@ $$
 $$
 
 
-
 where $\partial_\mu = \frac{\partial}{\partial x^\mu}$ and $\partial^\mu = \frac{\partial}{\partial x_\mu}$. This equation is known as the covariant wave equation.
 
 
 
 To obtain the Klein-Gordon equation, we make the assumption that the four-vector potential $A^\mu$ is proportional to the four-momentum $p^\mu = (E, \mathbf{p})$ of a particle. This leads to the following equation:
-
 
 
 $$
@@ -17677,9 +16699,7 @@ $$
 $$
 
 
-
 where $m$ is the mass of the particle and $\mathbf{x}_0$ is the position of the particle. Using the definition of the four-vector potential, we can rewrite this equation as:
-
 
 
 $$
@@ -17689,9 +16709,7 @@ $$
 $$
 
 
-
 where $x^0 = ct$ and $x_0^0 = ct_0$. This equation can be further simplified by using the identity $\partial_\mu \partial^\mu = \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2$. This leads to the final form of the Klein-Gordon equation:
-
 
 
 $$
@@ -17699,7 +16717,6 @@ $$
 \left(\frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2}\right) A^\nu = -\frac{4\pi}{c} \frac{p^\nu}{m} \delta(x^0 - x_0^0) \delta(\mathbf{x} - \mathbf{x}_0)
 
 $$
-
 
 
 This equation describes the behavior of a spinless particle with mass $m$ and energy $E = \sqrt{p^2 c^2 + m^2 c^4}$ in a relativistic system. It is a second-order partial differential equation and can be used to study the behavior of particles in various physical systems, such as the electromagnetic field.
@@ -17717,7 +16734,6 @@ The Klein-Gordon equation has both positive and negative energy solutions. The p
 The positive energy solutions of the Klein-Gordon equation can be written as:
 
 
-
 $$
 
 A^\nu(\mathbf{x}, t) = A^\nu_+(\mathbf{x}) e^{-i(Et - \mathbf{p} \cdot \mathbf{x})/\hbar}
@@ -17725,9 +16741,7 @@ A^\nu(\mathbf{x}, t) = A^\nu_+(\mathbf{x}) e^{-i(Et - \mathbf{p} \cdot \mathbf{x
 $$
 
 
-
 where $A^\nu_+(\mathbf{x})$ is a complex-valued function and $E = \sqrt{p^2 c^2 + m^2 c^4}$. Similarly, the negative energy solutions can be written as:
-
 
 
 $$
@@ -17735,7 +16749,6 @@ $$
 A^\nu(\mathbf{x}, t) = A^\nu_-(\mathbf{x}) e^{i(Et - \mathbf{p} \cdot \mathbf{x})/\hbar}
 
 $$
-
 
 
 where $A^\nu_-(\mathbf{x})$ is also a complex-valued function and $E = -\sqrt{p^2 c^2 + m^2 c^4}$. These solutions represent the wave-like behavior of particles and antiparticles in a relativistic system.
@@ -17787,41 +16800,33 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 To derive the Dirac equation, we start with the nonhomogeneous electromagnetic wave equation, which describes the behavior of electromagnetic fields in the presence of sources. The scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ satisfy this equation, where the sources are expressed with the charge and current densities $\rho(\mathbf{r}, t)$ and $\mathbf{J}(\mathbf{r}, t)$.
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
 
-
-
 $$
 
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
 
 $$
-
 
 
 Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c} \frac{\partial \varphi}{\partial t} = 0$, we can rewrite these equations as:
 
 
-
 $$
 
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
 
 $$
 
-
-
 $$
 
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
 
 $$
-
 
 
 Next, we introduce the concept of spinors, which are mathematical objects that describe the spin of particles. In order to incorporate spin into the wave equation, we need to use the Dirac matrices $\alpha$ and $\beta$, which are 4x4 matrices that satisfy the anticommutation relation $\{\alpha_i, \alpha_j\} = 2\delta_{ij}$ and $\{\alpha_i, \beta\} = 0$. These matrices are representation-dependent, and for the purposes of this chapter, we will use the Dirac representation.
@@ -17831,7 +16836,6 @@ Next, we introduce the concept of spinors, which are mathematical objects that d
 We then look for solutions of the form:
 
 
-
 $$
 
 \psi = \omega e^{-i p \cdot x} = \omega e^{ -i \left(E t - \vec{p} \cdot \vec{x}\right) },
@@ -17839,9 +16843,7 @@ $$
 $$
 
 
-
 where $\omega$ is a four-spinor given by:
-
 
 
 $$
@@ -17851,9 +16853,7 @@ $$
 $$
 
 
-
 Plugging this into the Dirac equation, we get:
-
 
 
 $$
@@ -17862,15 +16862,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \omega e^{-i p \cdot x} = i \frac{\partial \omega}{\partial t} e^{-i p \cdot x}
 
 $$
-
-
 
 $$
 
@@ -17879,9 +16875,7 @@ $$
 $$
 
 
-
 This matrix equation can be split into two coupled equations:
-
 
 
 $$
@@ -17890,8 +16884,6 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \chi = i \frac{\partial \phi}{\partial t}
@@ -17899,9 +16891,7 @@ $$
 $$
 
 
-
 Solving the second equation for $\chi$, we get:
-
 
 
 $$
@@ -17911,9 +16901,7 @@ $$
 $$
 
 
-
 Substituting this back into the first equation, we get:
-
 
 
 $$
@@ -17922,35 +16910,27 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \frac{\partial \phi}{\partial t}
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(-i \frac{\partial E}{\partial t} + i \vec{p} \cdot \frac{\partial \vec{p}}{\partial t} \right) \phi
 
 $$
-
 
 
 Using the energy-momentum relation $E = \sqrt{\vec{p}^2 + m^2}$, we can simplify this to:
 
 
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(-i \frac{\partial E}{\partial t} + i \vec{p} \cdot \frac{\partial \vec{p}}{\partial t} \right) \phi
 
 $$
-
-
 
 $$
 
@@ -17958,15 +16938,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(-i \frac{\vec{p}}{\sqrt{\vec{p}^2 + m^2}} \cdot \frac{\partial \vec{p}}{\partial t} + i \vec{p} \cdot \frac{\partial \vec{p}}{\partial t} \right) \phi
 
 $$
-
-
 
 $$
 
@@ -17974,15 +16950,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(\frac{i \vec{p}^2 + m^2 - m^2}{\sqrt{\vec{p}^2 + m^2}} \right) \phi
 
 $$
-
-
 
 $$
 
@@ -17990,7 +16962,11 @@ $$
 
 $$
 
+$$
 
+\left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(\frac{E + m}{\sqrt{\vec{p}^2 + m^2}} \right) \left(\frac{E - m}{\sqrt{\vec{p}^2 + m^2}} \right) \phi
+
+$$
 
 $$
 
@@ -17998,31 +16974,17 @@ $$
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(\frac{E + m}{\sqrt{\vec{p}^2 + m^2}} \right) \left(\frac{E - m}{\sqrt{\vec{p}^2 + m^2}} \right) \phi
 
 $$
 
-
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(\frac{E + m}{\sqrt{\vec{p}^2 + m^2}} \right) \left(\frac{E - m}{\sqrt{\vec{p}^2 + m^2}} \right) \phi
 
 $$
-
-
-
-$$
-
-\left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = \frac{i}{E + m} \left(-i \vec{\alpha} \cdot \vec{p} + m \beta \right) \left(\frac{E + m}{\sqrt{\vec{p}^2 + m^2}} \right) \left(\frac{E - m}{\sqrt{\vec{p}^2 + m^2}} \right) \phi
-
-$$
-
-
 
 $$
 
@@ -18061,17 +17023,13 @@ To derive the Dirac equation, we start with the nonhomogeneous electromagnetic w
 
 
 $$
-
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
-
 $$
 
 
 
 $$
-
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
-
 $$
 
 
@@ -18081,17 +17039,13 @@ Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c}
 
 
 $$
-
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho - \frac{1}{c} \frac{\partial}{\partial t} \left(\nabla \cdot \mathbf{A}\right)
-
 $$
 
 
 
 $$
-
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J} + 4\pi \nabla \rho
-
 $$
 
 
@@ -18101,17 +17055,13 @@ Next, we introduce the wave function $\psi(\mathbf{r}, t)$, which describes the 
 
 
 $$
-
 \varphi = \frac{1}{c} \frac{\partial \psi}{\partial t}
-
 $$
 
 
 
 $$
-
 \mathbf{A} = \frac{\hbar}{mc} \nabla \psi
-
 $$
 
 
@@ -18121,17 +17071,13 @@ Substituting these definitions into the equations above, we get:
 
 
 $$
-
 \nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\frac{4\pi}{c^2} \rho - \frac{\hbar}{mc} \frac{\partial}{\partial t} \left(\nabla \cdot \psi\right)
-
 $$
 
 
 
 $$
-
 \nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J} + 4\pi \nabla \rho + \frac{\hbar}{mc} \nabla^2 \psi
-
 $$
 
 
@@ -18141,9 +17087,7 @@ We can simplify these equations by dividing by $c$ and taking the nonrelativisti
 
 
 $$
-
 \nabla^2 \psi - \frac{1}{c^2} \frac{\partial^2 \psi}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J} + 4\pi \nabla \rho
-
 $$
 
 
@@ -18153,9 +17097,7 @@ However, this equation does not accurately describe the behavior of spin-1/2 par
 
 
 $$
-
 \left(i\hbar \gamma^\mu \partial_\mu - mc\right) \psi = 0
-
 $$
 
 
@@ -18195,17 +17137,13 @@ To derive the Dirac equation, we start with the nonhomogeneous electromagnetic w
 
 
 $$
-
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
-
 $$
 
 
 
 $$
-
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
-
 $$
 
 
@@ -18215,17 +17153,13 @@ Using the Lorenz gauge, which states that $\nabla \cdot \mathbf{A} + \frac{1}{c}
 
 
 $$
-
 \nabla^2 \varphi - \frac{1}{c^2} \frac{\partial^2 \varphi}{\partial t^2} = -\frac{4\pi}{c^2} \rho
-
 $$
 
 
 
 $$
-
 \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} = -\frac{4\pi}{c} \mathbf{J}
-
 $$
 
 
@@ -18235,9 +17169,7 @@ Next, we introduce the wave function $\psi$ for a spin-1/2 particle, which is a 
 
 
 $$
-
 \left( i\hbar \gamma^\mu \partial_\mu - mc \right) \psi = 0
-
 $$
 
 
@@ -18255,9 +17187,7 @@ The solutions to the Dirac equation can be written as a linear combination of po
 
 
 $$
-
 \psi(x) = \sum_{s} \int \frac{d^3p}{(2\pi)^3} \left( u_s(\mathbf{p}) a_s(\mathbf{p}) e^{-ipx/\hbar} + v_s(\mathbf{p}) b_s^\dagger(\mathbf{p}) e^{ipx/\hbar} \right)
-
 $$
 
 
@@ -18761,9 +17691,7 @@ The spin state of a particle can be described by a linear combination of these b
 
 
 $$
-
 |\psi\rangle = \alpha|+\frac{1}{2}\rangle + \beta|-\frac{1}{2}\rangle
-
 $$
 
 
@@ -18823,9 +17751,7 @@ The Pauli matrices are defined as follows:
 
 
 $$
-
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-
 $$
 
 
@@ -18909,9 +17835,7 @@ Using this basis, we can evaluate the energy shift, denoted as $\Delta E$, by ca
 
 
 $$
-
 \Delta E = \frac{\beta}{2} \big(j(j+1) - \ell(\ell+1) - s(s+1)\big)
-
 $$
 
 
@@ -18955,7 +17879,6 @@ The spin matrices for spin-1 systems are 3x3 matrices, and they are defined as f
 
 
 $$
-
 S_x = \frac{\hbar}{\sqrt{2}}\begin{bmatrix}
 
 0 & 1 & 0 \\
@@ -18985,7 +17908,6 @@ S_z = \hbar\begin{bmatrix}
 0 & 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -18995,9 +17917,7 @@ These matrices have some interesting properties, such as being Hermitian and sat
 
 
 $$
-
 [S_x, S_y] = i\hbar S_z, \quad [S_y, S_z] = i\hbar S_x, \quad [S_z, S_x] = i\hbar S_y
-
 $$
 
 
@@ -19041,7 +17961,6 @@ The spin matrices for spin-1 systems are 3x3 matrices, and they are defined as f
 
 
 $$
-
 S_x = \frac{\hbar}{\sqrt{2}}\begin{bmatrix}
 
 0 & 1 & 0 \\
@@ -19071,7 +17990,6 @@ S_z = \hbar\begin{bmatrix}
 0 & 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -19081,9 +17999,7 @@ These matrices have some interesting properties, such as being Hermitian and sat
 
 
 $$
-
 [S_x, S_y] = i\hbar S_z, \quad [S_y, S_z] = i\hbar S_x, \quad [S_z, S_x] = i\hbar S_y
-
 $$
 
 
@@ -19113,9 +18029,7 @@ More rigorously,
 
 
 $$
-
 \left|\frac{1}{2},m_1\right\rangle\left|\frac{1}{2},m_2\right\rangle
-
 $$
 
 
@@ -19129,9 +18043,7 @@ Now, let's consider the total spin and its projection onto the previously define
 
 
 $$
-
 \left|\frac{1}{2},\frac{1}{2}\right\rangle\left|\frac{1}{2},\frac{1}{2}\right\rangle, \quad \left|\frac{1}{2},\frac{1}{2}\right\rangle\left|\frac{1}{2},-\frac{1}{2}\right\rangle, \quad \left|\frac{1}{2},-\frac{1}{2}\right\rangle\left|\frac{1}{2},\frac{1}{2}\right\rangle
-
 $$
 
 
@@ -19141,9 +18053,7 @@ which are symmetric, and a fourth state with total spin angular momentum 0:
 
 
 $$
-
 \left|\frac{1}{2},\frac{1}{2}\right\rangle\left|\frac{1}{2},-\frac{1}{2}\right\rangle - \left|\frac{1}{2},-\frac{1}{2}\right\rangle\left|\frac{1}{2},\frac{1}{2}\right\rangle
-
 $$
 
 
@@ -19187,7 +18097,6 @@ The spin matrices for spin-1 systems are 3x3 matrices, and they are defined as f
 
 
 $$
-
 S_x = \frac{\hbar}{\sqrt{2}}\begin{bmatrix}
 
 0 & 1 & 0 \\
@@ -19217,7 +18126,6 @@ S_z = \hbar\begin{bmatrix}
 0 & 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -19227,9 +18135,7 @@ These matrices have some interesting properties, such as being Hermitian and sat
 
 
 $$
-
 [S_x, S_y] = i\hbar S_z, \quad [S_y, S_z] = i\hbar S_x, \quad [S_z, S_x] = i\hbar S_y
-
 $$
 
 
@@ -19321,17 +18227,13 @@ The Clebsch-Gordan coefficients are related to the Wigner 3-j symbols, which are
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1-j_2+m}C_{j_2, j_1, j}^{m_2, m_1, m}
-
 $$
 
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1+j_2-j}C_{j_1, j_2, j}^{-m_1, -m_2, -m}
-
 $$
 
 
@@ -19345,9 +18247,7 @@ In the context of SU(3) symmetry, the Clebsch-Gordan coefficients have additiona
 
 
 $$
-
 C_{\mu_1, \mu_2, \gamma} = \xi_1C_{\mu_2, \mu_1, \gamma}
-
 $$
 
 
@@ -19357,9 +18257,7 @@ Where <math>\xi_1=\xi_1(\mu_1,\mu_2,\gamma)=\pm1</math>. Additionally, since the
 
 
 $$
-
 C_{\mu_1, \mu_2, \gamma} = \xi_2C_{\mu_1, \mu_2, \gamma}
-
 $$
 
 
@@ -19407,17 +18305,13 @@ The Clebsch-Gordan coefficients are related to the Wigner 3-j symbols, which are
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1-j_2+m}C_{j_2, j_1, j}^{m_2, m_1, m}
-
 $$
 
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1+j_2-j}C_{j_1, j_2, j}^{-m_1, -m_2, -m}
-
 $$
 
 
@@ -19447,9 +18341,7 @@ The theorem states that the matrix elements of a tensor operator <math{T^{(k)}}<
 
 
 $$
-
 \langle j \, m | T^{(k)}_q | j' \, m' \rangle = \hbar \sqrt{(j \mp m) (j \pm m + 1)} \, \langle j \, (m \mp 1) | T^{(k)}_q | j' \, m' \rangle
-
 $$
 
 
@@ -19501,17 +18393,13 @@ The Clebsch-Gordan coefficients are related to the Wigner 3-j symbols, which are
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1-j_2+m}C_{j_2, j_1, j}^{m_2, m_1, m}
-
 $$
 
 
 
 $$
-
 C_{j_1, j_2, j}^{m_1, m_2, m} = (-1)^{j_1+j_2-j}C_{j_1, j_2, j}^{-m_1, -m_2, -m}
-
 $$
 
 
@@ -19639,9 +18527,7 @@ The Dirac equation takes the form:
 
 
 $$
-
 i \bar{\partial} \Psi\mathbf{e}_3 + e \bar{A} \Psi = m \bar{\Psi}^\dagger
-
 $$
 
 
@@ -19659,9 +18545,7 @@ The Dirac equation also has a classical spinor solution, which is consistent wit
 
 
 $$
-
 \frac{d \Lambda}{ d \tau} = \frac{e}{2mc} F \Lambda
-
 $$
 
 
@@ -19675,9 +18559,7 @@ The proper velocity of the electron can then be calculated as the Lorentz transf
 
 
 $$
-
 u = \Lambda \Lambda^\dagger
-
 $$
 
 
@@ -19687,9 +18569,7 @@ This can be integrated to find the space-time trajectory of the electron, with t
 
 
 $$
-
 \frac{d x}{ d \tau} = u
-
 $$
 
 
@@ -19699,9 +18579,7 @@ The Dirac equation also has a covariant eigenvalue equation for internal motion,
 
 
 $$
-
 \mathcal{H} = \sqrt{P^4 + 2P^2(m_1^2 + m_2^2) + (m_1^2 - m_2^2)^2} + \lambda_1[-\varepsilon_1^2 + m_1^2 + p_1^2 + \Phi(x_\perp)] + \lambda_2[-\varepsilon_2^2 + m_2^2 + p_2^2 + \Phi(x_\perp)]\}\Psi
-
 $$
 
 
@@ -19715,9 +18593,7 @@ Using this equation, one can obtain the eigenvalue equation:
 
 
 $$
-
 \mathcal{H}\Psi = \sqrt{P^4 + 2P^2(m_1^2 + m_2^2) + (m_1^2 - m_2^2)^2}\Psi
-
 $$
 
 
@@ -19757,9 +18633,7 @@ The Dirac equation, developed by Paul Dirac in 1928, is a fundamental equation i
 
 
 $$
-
 i \bar{\partial} \Psi\mathbf{e}_3 + e \bar{A} \Psi = m \bar{\Psi}^\dagger
-
 $$
 
 
@@ -19777,9 +18651,7 @@ The Dirac equation also has a classical spinor solution, which is consistent wit
 
 
 $$
-
 \frac{d \Lambda}{ d \tau} = \frac{e}{2mc} F \Lambda
-
 $$
 
 
@@ -19793,9 +18665,7 @@ The proper velocity of the electron can then be calculated as the Lorentz transf
 
 
 $$
-
 u = \Lambda \Lambda^\dagger
-
 $$
 
 
@@ -19805,9 +18675,7 @@ This can be integrated to find the space-time trajectory of the electron, with t
 
 
 $$
-
 \frac{d x}{ d \tau} = u
-
 $$
 
 
@@ -19825,9 +18693,7 @@ The electron has an intrinsic spin angular momentum, which is described by the s
 
 
 $$
-
 \boldsymbol{\mu}_\text{s} = -g_\text{s}\,\mu_\text{B}\,\frac{~\mathbf{S}~}{\hbar}
-
 $$
 
 
@@ -19841,9 +18707,7 @@ The $z$ component of the electron's magnetic moment is given by:
 
 
 $$
-
 (\boldsymbol{\mu}_\text{s})_z = -g_\text{s}\,\mu_\text{B}\,m_\text{s}
-
 $$
 
 
@@ -19887,9 +18751,7 @@ The Dirac equation, developed by Paul Dirac in 1928, is a fundamental equation i
 
 
 $$
-
 i \bar{\partial} \Psi\mathbf{e}_3 + e \bar{A} \Psi = m \bar{\Psi}^\dagger
-
 $$
 
 
@@ -19907,9 +18769,7 @@ The Dirac equation also has a classical spinor solution, which is consistent wit
 
 
 $$
-
 \frac{d \Lambda}{ d \tau} = \frac{e}{2mc} F \Lambda
-
 $$
 
 
@@ -19923,9 +18783,7 @@ The proper velocity of the electron can then be calculated as the Lorentz transf
 
 
 $$
-
 u = \Lambda \Lambda^\dagger
-
 $$
 
 
@@ -19935,9 +18793,7 @@ This can be integrated to find the space-time trajectory of the electron, with t
 
 
 $$
-
 \frac{d x}{ d \tau} = u
-
 $$
 
 
@@ -20069,105 +18925,79 @@ In this section, we will explore the Klein-Gordon equation, which is a relativis
 To derive the Klein-Gordon equation, we will start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, $m$ is the mass, and $c$ is the speed of light. We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the Compton wavelength, and it represents the wavelength of a particle with mass $m$. Next, we will use the de Broglie relation again to substitute for $\lambda$:
 
 $$
-
 p = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 Finally, we can substitute this expression for $p$ into the energy-momentum relation to get:
 
 $$
-
 E^2 = \left(\frac{hc}{\sqrt{h^2 + m^2c^2}}\right)^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{h^2c^2}{h^2 + m^2c^2} + m^2c^4
-
 $$
 
 Next, we will use the identity $h^2 = E^2/c^2 - p^2$ to substitute for $h^2$:
 
 $$
-
 E^2 = \frac{E^2c^2 - p^2c^2}{1 + m^2c^2/E^2} + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{E^2 - p^2c^2}{1 + m^2c^2/E^2} + m^2c^4
-
 $$
 
 Next, we will multiply both sides by $(1 + m^2c^2/E^2)$:
 
 $$
-
 E^2 + m^2c^2 = E^2 - p^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 p^2c^2 = E^2 - m^2c^4
-
 $$
 
 Finally, we can substitute this expression for $p^2c^2$ into the energy-momentum relation to get the Klein-Gordon equation:
 
 $$
-
 \left(\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2c^2}{\hbar^2}\right)\psi = 0
-
 $$
 
 where $\psi$ is the wave function of the particle. This equation describes the behavior of spinless particles in relativistic systems and has been used to study particles such as the Higgs boson and pions.
@@ -20199,9 +19029,7 @@ In this section, we will explore the Klein-Gordon equation, which is a relativis
 To derive the Klein-Gordon equation, we will start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, $m$ is the mass, and $c$ is the speed of light. This equation describes the relationship between energy and momentum for a particle with mass $m$.
@@ -20211,9 +19039,7 @@ where $E$ is the energy, $p$ is the momentum, $m$ is the mass, and $c$ is the sp
 Next, we will use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 E^2 = \left(\frac{hc}{\lambda}\right)^2 + m^2c^4
-
 $$
 
 where $h$ is the Planck constant and $\lambda$ is the de Broglie wavelength. This equation relates the energy of a particle to its wavelength and mass.
@@ -20223,105 +19049,79 @@ where $h$ is the Planck constant and $\lambda$ is the de Broglie wavelength. Thi
 We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the Compton wavelength, and it represents the wavelength of a particle with mass $m$. Next, we will use the de Broglie relation again to substitute for $\lambda$:
 
 $$
-
 p = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 Finally, we can substitute this expression for $p$ into the energy-momentum relation to get:
 
 $$
-
 E^2 = \left(\frac{hc}{\sqrt{h^2 + m^2c^2}}\right)^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{h^2c^2}{h^2 + m^2c^2} + m^2c^4
-
 $$
 
 Next, we will use the identity $h^2 = E^2/c^2 - p^2$ to substitute for $h^2$:
 
 $$
-
 E^2 = \frac{E^2c^2 - p^2c^2}{1 + m^2c^2/E^2} + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{E^2 - p^2c^2}{1 + m^2c^2/E^2} + m^2c^4
-
 $$
 
 Next, we will multiply both sides by $(1 + m^2c^2/E^2)$:
 
 $$
-
 E^2 + m^2c^2 = E^2 - p^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 p^2c^2 = E^2 - m^2c^4
-
 $$
 
 Finally, we can substitute this expression for $p^2c^2$ into the energy-momentum relation to get:
 
 $$
-
 E^2 = E^2 - m^2c^4 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = E^2
-
 $$
 
 This equation is true for all values of $E$ and $m$, which means that the energy-momentum relation is satisfied for all particles. This is the basis for the Klein-Gordon equation.
@@ -20339,17 +19139,13 @@ The Klein-Gordon equation can be solved for various potentials, which represent 
 One example is the solution for a free particle, which has no external forces acting on it. In this case, the Klein-Gordon equation reduces to:
 
 $$
-
 \frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \frac{m^2c^4}{\hbar^2} \psi = 0
-
 $$
 
 This equation has plane wave solutions of the form:
 
 $$
-
 \psi(x,t) = Ae^{i(kx - \omega t)}
-
 $$
 
 where $A$ is a constant, $k$ is the wave vector, and $\omega$ is the angular frequency. These solutions represent particles with definite momentum and energy.
@@ -20359,9 +19155,7 @@ where $A$ is a constant, $k$ is the wave vector, and $\omega$ is the angular fre
 Another example is the solution for a particle in a potential well, which represents a confined particle. In this case, the Klein-Gordon equation becomes:
 
 $$
-
 \frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \frac{m^2c^4}{\hbar^2} \psi = V(x)\psi
-
 $$
 
 where $V(x)$ is the potential function. This equation has solutions that describe the behavior of particles in a confined space, such as an electron in an atom.
@@ -20397,9 +19191,7 @@ In this section, we will explore the Klein-Gordon equation, which is a relativis
 To derive the Klein-Gordon equation, we will start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, $m$ is the mass, and $c$ is the speed of light. This equation describes the relationship between energy and momentum for a particle with mass $m$.
@@ -20409,9 +19201,7 @@ where $E$ is the energy, $p$ is the momentum, $m$ is the mass, and $c$ is the sp
 Next, we will use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 E^2 = \left(\frac{hc}{\lambda}\right)^2 + m^2c^4
-
 $$
 
 where $h$ is the Planck constant and $\lambda$ is the de Broglie wavelength. This equation relates the energy of a particle to its wavelength and mass.
@@ -20421,57 +19211,43 @@ where $h$ is the Planck constant and $\lambda$ is the de Broglie wavelength. Thi
 We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the Compton wavelength, and it represents the wavelength of a particle with mass $m$. Next, we will use the de Broglie relation again to substitute for $\lambda$:
 
 $$
-
 p = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 Finally, we can substitute this expression for $p$ into the energy-momentum relation to get:
 
 $$
-
 E^2 = \left(\frac{hc}{\sqrt{h^2 + m^2c^2}}\right)^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{h^2c^2}{h^2 + m^2c^2}
-
 $$
 
 This equation is known as the Klein-Gordon equation and it describes the behavior of spinless particles in a relativistic framework. It is a second-order partial differential equation, and it is often used in quantum field theory to describe the behavior of scalar fields.
@@ -20489,9 +19265,7 @@ The Klein-Gordon equation has two types of solutions: positive energy solutions 
 Positive energy solutions are given by:
 
 $$
-
 \psi(x,t) = Ae^{i(px-Et)/\hbar}
-
 $$
 
 where $A$ is a constant and $p$ and $E$ are the momentum and energy of the particle, respectively.
@@ -20501,9 +19275,7 @@ where $A$ is a constant and $p$ and $E$ are the momentum and energy of the parti
 Negative energy solutions are given by:
 
 $$
-
 \psi(x,t) = Be^{-i(px+Et)/\hbar}
-
 $$
 
 where $B$ is a constant and $p$ and $E$ are the momentum and energy of the particle, respectively.
@@ -20561,9 +19333,7 @@ The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativisti
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -20575,73 +19345,55 @@ where $\psi$ is the wave function, $\vec{\alpha}$ and $\beta$ are matrices, and 
 We start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. Next, we use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 E^2 = \left(\frac{hc}{\lambda}\right)^2 + m^2c^4
-
 $$
 
 We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation again to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the Compton wavelength, and it represents the wavelength of a particle with mass $m$. Next, we use the de Broglie relation again to substitute for $\lambda$:
 
 $$
-
 p = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 Finally, we can substitute this expression for $p$ into the energy-momentum relation to get:
 
 $$
-
 E^2 = \left(\frac{hc}{\sqrt{h^2 + m^2c^2}}\right)^2c^2 + m^2c^4
-
 $$
 
 Simplifying, we get:
 
 $$
-
 E^2 = \frac{h^2c^2}{h^2 + m^2c^2}
-
 $$
 
 
@@ -20649,47 +19401,35 @@ $$
 Now, we can use this equation to derive the Dirac equation. We start by considering solutions of the form:
 
 $$
-
 \psi = \omega e^{-i p \cdot x} = \omega e^{ -i \left(E t - \vec{p} \cdot \vec{x}\right) }
-
 $$
 
 where $\omega$ is a four-spinor and $p$ is the four-momentum. We can split $\omega$ into two two-spinors:
 
 $$
-
 \omega = \begin{bmatrix} \phi \\ \chi \end{bmatrix}
-
 $$
 
 Next, we substitute this expression for $\psi$ into the Dirac equation and use the energy-momentum relation we derived earlier:
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \begin{bmatrix} \phi \\ \chi \end{bmatrix} = i \frac{\partial}{\partial t} \begin{bmatrix} \phi \\ \chi \end{bmatrix} = i \begin{bmatrix} E\phi \\ E\chi \end{bmatrix}
-
 $$
 
 This matrix equation can be split into two coupled equations:
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi = E\chi
-
 $$
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \chi = E\phi
-
 $$
 
 Solving the second equation for $\chi$, we get:
 
 $$
-
 \chi = \frac{1}{E - \vec{\alpha} \cdot \vec{p} + \beta m} \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi
-
 $$
 
 Note that this solution is only valid when $E = +\sqrt{\vec{p}^2 + m^2}$, which corresponds to a particle with zero momentum. This is known as the positive energy solution.
@@ -20699,41 +19439,31 @@ Note that this solution is only valid when $E = +\sqrt{\vec{p}^2 + m^2}$, which 
 To derive the negative energy solution, we consider the term $\frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi$. Using the energy-momentum relation, we can rewrite this term as:
 
 $$
-
 \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi = \frac{\vec{\sigma} \cdot \vec{p}}{\sqrt{\vec{p}^2 + m^2} + m} \phi
-
 $$
 
 We can then use the identity $\frac{\vec{\sigma} \cdot \vec{p}}{\sqrt{\vec{p}^2 + m^2}} = \frac{\vec{\sigma} \cdot \vec{p}}{E}$ to rewrite this term as:
 
 $$
-
 \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi = \frac{\vec{\sigma} \cdot \vec{p}}{E} \frac{1}{1 + \frac{m}{E}} \phi
-
 $$
 
 Using the binomial expansion, we can approximate $\frac{1}{1 + \frac{m}{E}}$ as:
 
 $$
-
 \frac{1}{1 + \frac{m}{E}} \approx 1 - \frac{m}{E}
-
 $$
 
 Substituting this into the previous equation, we get:
 
 $$
-
 \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi \approx \frac{\vec{\sigma} \cdot \vec{p}}{E} \left(1 - \frac{m}{E}\right) \phi = \left(\vec{\sigma} \cdot \vec{p} - m\right) \phi
-
 $$
 
 Therefore, the negative energy solution is given by:
 
 $$
-
 \chi = \frac{1}{E + \vec{\alpha} \cdot \vec{p} - \beta m} \left(\vec{\sigma} \cdot \vec{p} - m\right) \phi
-
 $$
 
 Note that this solution is only valid when $E = -\sqrt{\vec{p}^2 + m^2}$, which corresponds to a particle with non-zero momentum. This is known as the negative energy solution.
@@ -20743,17 +19473,13 @@ Note that this solution is only valid when $E = -\sqrt{\vec{p}^2 + m^2}$, which 
 Combining the positive and negative energy solutions, we get the full solution to the Dirac equation:
 
 $$
-
 \psi = \begin{bmatrix} \phi \\ \chi \end{bmatrix} e^{-i p \cdot x} = \begin{bmatrix} \phi \\ \frac{1}{E - \vec{\alpha} \cdot \vec{p} + \beta m} \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi \end{bmatrix} e^{-i p \cdot x}
-
 $$
 
 This solution is conventionally written as:
 
 $$
-
 \psi = \begin{bmatrix} \phi \\ \frac{1}{E - \vec{\alpha} \cdot \vec{p} + \beta m} \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \phi \end{bmatrix} e^{-i p \cdot x}
-
 $$
 
 where the normalization factor $\sqrt{\frac{E+m}{2m}}$ is introduced to ensure that the probability density is conserved. This factor is derived in the next section.
@@ -20791,9 +19517,7 @@ The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativisti
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -20805,49 +19529,37 @@ where $\psi$ is the wave function, $\vec{\alpha}$ and $\beta$ are matrices, and 
 We start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. Next, we use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 E^2 = \left(\frac{hc}{\lambda}\right)^2 + m^2c^4
-
 $$
 
 We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation again to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the de Broglie wavelength for a relativistic particle. However, this equation only describes the behavior of spinless particles. In order to account for spin, we need to introduce the concept of spinors.
@@ -20867,9 +19579,7 @@ The spin matrices, denoted by $\vec{\sigma}$, are a set of three 2x2 matrices th
 
 
 $$
-
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-
 $$
 
 
@@ -20879,9 +19589,7 @@ Using these spin matrices, we can rewrite the Dirac equation as:
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -20937,9 +19645,7 @@ The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativisti
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -20951,49 +19657,37 @@ where $\psi$ is the wave function, $\vec{\alpha}$ and $\beta$ are matrices, and 
 We start with the relativistic energy-momentum relation:
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. Next, we use the de Broglie relation $p = \frac{h}{\lambda}$ to substitute for $p$:
 
 $$
-
 E^2 = \left(\frac{hc}{\lambda}\right)^2 + m^2c^4
-
 $$
 
 We can rewrite this equation in terms of the de Broglie wavelength $\lambda$ and the Planck constant $h$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{p^2c^2 + m^2c^4}
-
 $$
 
 Next, we will use the de Broglie relation again to substitute for $p$:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{\left(\frac{hc}{\lambda}\right)^2c^2 + m^2c^4}
-
 $$
 
 Simplifying, we get:
 
 $$
-
 \frac{hc}{\lambda} = \sqrt{h^2c^2 + m^2c^4}
-
 $$
 
 Now, we can rearrange this equation to solve for $\lambda$:
 
 $$
-
 \lambda = \frac{h}{\sqrt{h^2 + m^2c^2}}
-
 $$
 
 This is known as the de Broglie wavelength for a relativistic particle. 
@@ -21263,7 +19957,6 @@ In second quantization, we use creation and annihilation operators to describe t
 
 
 $$a^{\dagger}(k,t) = U^{-1}(t)a^{\dagger}_{i}(k)U(t)$$
-
 $$a(k,t) = U^{-1}(t)a_{i}(k)U(t)$$
 
 
@@ -21271,25 +19964,19 @@ $$a(k,t) = U^{-1}(t)a_{i}(k)U(t)$$
 where $a^{\dagger}_{i}(k)$ and $a_{i}(k)$ are the creation and annihilation operators in the initial state, respectively. Similarly, the fields can be expressed in terms of the evolution operator as:
 
 
-
 $$\phi_{f} = U^{-1}(\infty)\phi_{i}U(\infty) = S^{-1}\phi_{i}S$$
-
 
 
 where $S$ is the S-matrix and $\phi_{i}$ and $\phi_{f}$ are the fields in the initial and final states, respectively. The phase difference $e^{i\alpha}$ is introduced to account for the possibility of a phase shift in the S-matrix, and it is given by:
 
 
-
 $$e^{i\alpha} = \langle 0|U(\infty)|0\rangle^{-1}$$
-
 
 
 where $|0\rangle$ represents the vacuum state. This phase difference ensures that the S-matrix is unitary, as $S|0\rangle = |0\rangle$. The S-matrix can then be expressed as:
 
 
-
 $$S = \frac{1}{\langle 0|U(\infty)|0\rangle}\mathcal{T}e^{-i\int{d\tau H_{int}(\tau)}}$$
-
 
 
 where $\mathcal{T}$ is the time ordering operator and $H_{int}$ is the interaction part of the Hamiltonian.
@@ -21299,9 +19986,7 @@ where $\mathcal{T}$ is the time ordering operator and $H_{int}$ is the interacti
 The Dyson series is a widely used expression for the S-matrix, which expresses it as a series of integrals over the interaction Hamiltonian. It is given by:
 
 
-
 $$S = \sum_{n=0}^{\infty}\frac{(-i)^n}{n!}\int...\int d^4x_1d^4x_2...d^4x_n\mathcal{T}[\mathcal{H}_{int}(x_1)\mathcal{H}_{int}(x_2)...\mathcal{H}_{int}(x_n)]$$
-
 
 
 where $\mathcal{H}_{int}$ is the interaction Hamiltonian.
@@ -21519,7 +20204,6 @@ The sub-algebra of even-graded elements in Cℓ<sub>3,0</sub>(<math>\Reals</math
 The Pauli matrices, named after physicist Wolfgang Pauli, are a set of three 2x2 matrices that are used to represent spin-1/2 systems. These matrices are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
@@ -21527,9 +20211,7 @@ $$
 $$
 
 
-
 These matrices have several important properties that make them useful in quantum mechanics. First, they are Hermitian, meaning that they are equal to their own conjugate transpose. This property is important in quantum mechanics because it ensures that the eigenvalues of these matrices are real, which is necessary for physical observables. Second, they are traceless, meaning that the sum of the diagonal elements is equal to zero. This property is important in quantum mechanics because it allows us to calculate the expectation value of an observable using the trace of the product of the observable and the density matrix. Finally, the Pauli matrices satisfy the commutation relations:
-
 
 
 $$
@@ -21537,7 +20219,6 @@ $$
 [\sigma_i, \sigma_j] = 2i\epsilon_{ijk}\sigma_k
 
 $$
-
 
 
 where <math>\epsilon_{ijk}</math> is the Levi-Civita symbol. These commutation relations are important in understanding the behavior of spin-1/2 systems, as they allow us to calculate the uncertainty in the measurement of two different spin components.
@@ -21963,13 +20644,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 The Dirac equation is an extension of the Schrödinger equation, which describes the behavior of non-relativistic particles. It takes into account the effects of special relativity and predicts the existence of antiparticles. The equation is given by:
 
 
-
 $$
 
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
 
 $$
-
 
 
 where <math>\psi</math> is the wave function of the particle, <math>m</math> is the mass of the particle, <math>c</math> is the speed of light, and <math>\gamma^\mu</math> are the Dirac matrices.
@@ -22053,13 +20732,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 The Dirac equation is an extension of the Schrödinger equation, which describes the behavior of non-relativistic particles. It takes into account the effects of special relativity and predicts the existence of antiparticles. The equation is given by:
 
 
-
 $$
 
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
 
 $$
-
 
 
 where <math>\psi</math> is the wave function of the particle, <math>m</math> is the mass of the particle, <math>c</math> is the speed of light, and <math>\gamma^\mu</math> are the Dirac matrices.
@@ -22077,13 +20754,11 @@ The Dirac equation can be used to describe the behavior of the electron in an ex
 The spin magnetic moment is intrinsic for an electron. It is given by the equation:
 
 
-
 $$
 
 \boldsymbol{\mu}_\text{s} = -g_\text{s}\,\mu_\text{B}\,\frac{~\mathbf{S}~}{\hbar}
 
 $$
-
 
 
 where <math>g_\text{s}</math> is the spin g-factor, <math>\mu_\text{B}</math> is the Bohr magneton, and <math>\mathbf{S}</math> is the electron spin angular momentum. The spin g-factor is approximately two: <math>g_\text{s} \approx 2</math>. This factor of two indicates that the electron appears to be twice as effective in producing a magnetic moment as a charged body for which the mass and charge distributions are identical.
@@ -22093,7 +20768,6 @@ where <math>g_\text{s}</math> is the spin g-factor, <math>\mu_\text{B}</math> is
 The spin magnetic dipole moment is approximately one <math>\mu_\text{B}</math> because <math>g_\text{s} \approx 2</math> and the electron is a spin-<frac|1|2> particle (<nowrap| >):
 
 
-
 $$
 
 \boldsymbol{\mu}_\text{s} \approx \mu_\text{B}
@@ -22101,9 +20775,7 @@ $$
 $$
 
 
-
 The <math>z</math> component of the electron magnetic moment is given by:
-
 
 
 $$
@@ -22111,7 +20783,6 @@ $$
 (\boldsymbol{\mu}_\text{s})_z = -g_\text{s}\,\mu_\text{B}\,m_\text{s}
 
 $$
-
 
 
 where <math>m_\text{s}</math> is the spin quantum number. Note that this is a "negative" constant multiplied by the spin, so the magnetic moment is "antiparallel" to the spin angular momentum.
@@ -22125,13 +20796,11 @@ The spin g-factor <nowrap|<sub>s</sub> 2> comes from the Dirac equation, a funda
 For the electron spin, the most accurate value for the spin g-factor has been experimentally determined to have the value:
 
 
-
 $$
 
 g_\text{s} = 2.00231930436182
 
 $$
-
 
 
 Note that this differs only marginally from the value from the Dirac equation. The small correction is known as the anomalous magnetic dipole moment of the electron; it arises from the electron's interaction with virtual photons in quantum electrodynamics. A triumph of the quantum electrodynamics theory is the accurate prediction of this value.
@@ -22167,13 +20836,11 @@ The Dirac equation is a relativistic wave equation that describes the behavior o
 The Dirac equation is an extension of the Schrödinger equation, which describes the behavior of non-relativistic particles. It takes into account the effects of special relativity and predicts the existence of antiparticles. The equation is given by:
 
 
-
 $$
 
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
 
 $$
-
 
 
 where <math>\psi</math> is the wave function of the particle, <math>m</math> is the mass of the particle, <math>c</math> is the speed of light, and <math>\gamma^\mu</math> are the Dirac matrices.
@@ -22191,13 +20858,11 @@ The Dirac equation can be used to describe the behavior of the electron in an ex
 The spin magnetic moment is intrinsic for an electron. It is given by the equation:
 
 
-
 $$
 
 \boldsymbol{\mu}_\text{s} = -g_\text{s}\,\mu_\text{B}\,\frac{~\mathbf{S}~}{\hbar}
 
 $$
-
 
 
 where <math>g_\text{s}</math> is the spin g-factor, <math>\mu_\text{B}</math> is the Bohr magneton, and <math>\mathbf{S}</math> is the electron spin angular momentum. The spin g-factor is approximately two: <math>g_\text{s} \approx 2</math>. This value has been experimentally confirmed and is a fundamental constant in quantum mechanics.
@@ -22315,7 +20980,6 @@ In this section, we will explore the Klein-Gordon equation, which is a relativis
 To derive the Klein-Gordon equation, we will start with the nonhomogeneous electromagnetic wave equation, which describes the behavior of electromagnetic waves in the presence of sources. The scalar potential $\varphi(\mathbf{r}, t)$ and vector potential $\mathbf{A}(\mathbf{r}, t)$ satisfy this equation, where the sources are expressed in terms of the charge density $\rho(\mathbf{r}, t)$ and current density $\mathbf{J}(\mathbf{r}, t)$.
 
 
-
 $$
 
 \varphi(\mathbf{r}, t) = \frac{\delta(t' - t_r)}{\frac{\partial}{\partial t'}(t' - (t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t')|))|_{t' = t_r}} \\
@@ -22327,13 +20991,11 @@ $$
 $$
 
 
-
 Here, $\boldsymbol{\beta}_s = \mathbf{v}_s/c$ and $\mathbf{r}_s$ are evaluated at the retarded time $t_r$, and we have used the identity $|\mathbf{x}|' = \hat{\mathbf{x}} \cdot \mathbf{v}$ with $\mathbf{v} = \mathbf{x}'$. The retarded time $t_r$ is the solution of the equation $t_r = t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t_r)|$. Finally, the delta function picks out $t' = t_r$, and we get the Liénard–Wiechert potentials.
 
 
 
 Next, we will consider the Lorenz gauge, which is a gauge condition that simplifies the equations of electromagnetism. In this gauge, the scalar and vector potentials satisfy the following equations:
-
 
 
 $$
@@ -22345,9 +21007,7 @@ $$
 $$
 
 
-
 In order to calculate the derivatives of $\varphi$ and $\mathbf{A}$, it is convenient to first compute the derivatives of the retarded time. Taking the derivatives of both sides of its defining equation (remembering that $\mathbf{r_s} = \mathbf{r_s}(t_r)$), we get:
-
 
 
 $$
@@ -22361,9 +21021,7 @@ t_r + \frac{1}{c} |\mathbf{r}-\mathbf{r_s}|= t \\
 $$
 
 
-
 Using the chain rule, we can simplify the second term on the left-hand side:
-
 
 
 $$
@@ -22377,9 +21035,7 @@ $$
 $$
 
 
-
 Now, we can use the fact that $\mathbf{r_s} = \mathbf{r_s}(t_r)$ to simplify the second term on the right-hand side:
-
 
 
 $$
@@ -22393,9 +21049,7 @@ $$
 $$
 
 
-
 Finally, we can use the fact that $|\mathbf{r}-\mathbf{r_s}(t_r)| = c(t-t_r)$ to simplify the second term on the right-hand side:
-
 
 
 $$
@@ -22409,9 +21063,7 @@ $$
 $$
 
 
-
 Using the fact that $c$ is a constant, we can simplify the second term on the left-hand side:
-
 
 
 $$
@@ -22425,9 +21077,7 @@ $$
 $$
 
 
-
 Now, we can use the fact that $\frac{d (t-t_r)}{d t_r} = -1$ to simplify the second term on the right-hand side:
-
 
 
 $$
@@ -22443,9 +21093,7 @@ $$
 $$
 
 
-
 This is a contradiction, so our assumption that $\frac{d (t-t_r)}{d t_r} = -1$ must be incorrect. Instead, we can use the fact that $\frac{d (t-t_r)}{d t_r} = 1$ to simplify the second term on the right-hand side:
-
 
 
 $$
@@ -22463,9 +21111,7 @@ $$
 $$
 
 
-
 Now, we can substitute this into our original equation and solve for $\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}$:
-
 
 
 $$
@@ -22481,9 +21127,7 @@ $$
 $$
 
 
-
 Now, we can substitute this into our original equation and solve for $\frac{d t_r}{d t}$:
-
 
 
 $$
@@ -22501,9 +21145,7 @@ $$
 $$
 
 
-
 Finally, we can substitute this into our original equation and solve for $\frac{d |\mathbf{r}-\mathbf{r_s}|}{d t_r}$:
-
 
 
 $$
@@ -22519,11 +21161,9 @@ $$
 $$
 
 
-
 Now, we can substitute these values into the Lorenz gauge equations and solve for $\frac{\partial \varphi}{\partial t}$ and $\frac{\partial \mathbf{A}}{\partial t}$:
 
 
-
 $$
 
 \frac{\partial \varphi}{\partial t} + \boldsymbol{\nabla} \cdot \mathbf{A} = -\frac{\rho}{\epsilon_0} \\
@@ -22532,8 +21172,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \varphi}{\partial t} + \boldsymbol{\nabla} \cdot \mathbf{A} = -\frac{\rho}{\epsilon_0} \\
@@ -22541,8 +21179,6 @@ $$
 \frac{\partial \mathbf{A}}{\partial t} - c^2 \boldsymbol{\nabla} \varphi = -\mu_0 \mathbf{J}
 
 $$
-
-
 
 $$
 
@@ -22575,13 +21211,11 @@ To derive the Klein-Gordon equation, we will start with the nonhomogeneous elect
 
 
 $$
-
 \varphi(\mathbf{r}, t) = \frac{\delta(t' - t_r)}{\frac{\partial}{\partial t'}(t' - (t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t')|))|_{t' = t_r}} \\
 
 = \frac{\delta(t' - t_r)}{1 + \frac{1}{c} (\mathbf{r} - \mathbf{r}_s(t'))/|\mathbf{r} - \mathbf{r}_s(t')|\cdot (-\mathbf{v}_s(t')) |_{t' = t_r}}\\
 
 = \frac{\delta(t' - t_r)}{1 - \boldsymbol{\beta}_s \cdot (\mathbf{r}-\mathbf{r}_s)/|\mathbf{r}-\mathbf{r}_s|}\end{align}
-
 $$
 
 
@@ -22595,11 +21229,9 @@ Next, we will consider the Lorenz gauge, which is a gauge condition that simplif
 
 
 $$
-
 \frac{\partial \varphi}{\partial t} + \boldsymbol{\nabla} \cdot \mathbf{A} = -\frac{1}{c} \rho \\
 
 \frac{\partial \mathbf{A}}{\partial t} - \boldsymbol{\nabla} \varphi = -\frac{1}{c} \mathbf{J}
-
 $$
 
 
@@ -22609,9 +21241,7 @@ Using these equations, we can derive the Klein-Gordon equation by considering th
 
 
 $$
-
 E^2 = (pc)^2 + (mc^2)^2
-
 $$
 
 
@@ -22621,9 +21251,7 @@ where $E$ is the energy, $p$ is the momentum, and $m$ is the mass of the particl
 
 
 $$
-
 \omega^2 = (ck)^2 + (mc^2)^2
-
 $$
 
 
@@ -22633,9 +21261,7 @@ Now, we can use the de Broglie relations $E = \hbar \omega$ and $p = \hbar \math
 
 
 $$
-
 \frac{\hbar^2}{c^2} \frac{\partial^2 \psi}{\partial t^2} = \left(\boldsymbol{\nabla}^2 + \frac{m^2c^2}{\hbar^2}\right) \psi
-
 $$
 
 
@@ -22653,9 +21279,7 @@ The Klein-Gordon equation can be solved for various potentials, allowing us to s
 
 
 $$
-
 \frac{\partial^2 \psi}{\partial t^2} = c^2 \boldsymbol{\nabla}^2 \psi
-
 $$
 
 
@@ -22669,9 +21293,7 @@ In the case of a particle in a potential, we can use the Klein-Gordon equation t
 
 
 $$
-
 \frac{\partial^2 \psi}{\partial t^2} = c^2 \left(\boldsymbol{\nabla}^2 + \frac{m^2c^2}{\hbar^2} + \frac{m\omega^2}{\hbar}\right) \psi
-
 $$
 
 
@@ -22707,13 +21329,11 @@ To derive the Klein-Gordon equation, we will start with the nonhomogeneous elect
 
 
 $$
-
 \varphi(\mathbf{r}, t) = \frac{\delta(t' - t_r)}{\frac{\partial}{\partial t'}(t' - (t - \frac{1}{c} |\mathbf{r} - \mathbf{r}_s(t')|))|_{t' = t_r}} \\
 
 = \frac{\delta(t' - t_r)}{1 + \frac{1}{c} (\mathbf{r} - \mathbf{r}_s(t'))/|\mathbf{r} - \mathbf{r}_s(t')|\cdot (-\mathbf{v}_s(t')) |_{t' = t_r}}\\
 
 = \frac{\delta(t' - t_r)}{1 - \boldsymbol{\beta}_s \cdot (\mathbf{r}-\mathbf{r}_s)/|\mathbf{r}-\mathbf{r}_s|}\end{align}
-
 $$
 
 
@@ -22727,11 +21347,9 @@ Next, we will consider the Lorenz gauge, which is a gauge condition that simplif
 
 
 $$
-
 \frac{\partial \varphi}{\partial t} + \boldsymbol{\nabla} \cdot \mathbf{A} = -\frac{4\pi}{c} \rho \\
 
 \frac{\partial \mathbf{A}}{\partial t} - \boldsymbol{\nabla} \varphi = -\frac{4\pi}{c} \mathbf{J}
-
 $$
 
 
@@ -22741,9 +21359,7 @@ Using these equations, we can derive the Klein-Gordon equation by considering th
 
 
 $$
-
 E^2 = p^2c^2 + m^2c^4
-
 $$
 
 
@@ -22753,9 +21369,7 @@ We can rewrite this equation in terms of the scalar potential and vector potenti
 
 
 $$
-
 \left(\frac{\partial \varphi}{\partial t}\right)^2 - c^2 \left(\boldsymbol{\nabla} \cdot \mathbf{A}\right)^2 = c^2m^2c^4
-
 $$
 
 
@@ -22765,9 +21379,7 @@ Substituting in the Lorenz gauge equations, we get:
 
 
 $$
-
 \left(\frac{\partial \varphi}{\partial t}\right)^2 - c^2 \left(\frac{\partial \mathbf{A}}{\partial t}\right)^2 = c^2m^2c^4 + \frac{8\pi}{c} \left(\frac{\partial \varphi}{\partial t}\rho + \mathbf{A} \cdot \mathbf{J}\right)
-
 $$
 
 
@@ -22777,11 +21389,9 @@ We can then use the wave equation for the scalar potential and vector potential:
 
 
 $$
-
 \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \varphi\right) = -\frac{4\pi}{c} \rho \\
 
 \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \mathbf{A}\right) = -\frac{4\pi}{c} \mathbf{J}
-
 $$
 
 
@@ -22791,9 +21401,7 @@ Substituting these equations into the previous equation, we get:
 
 
 $$
-
 \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \varphi\right)^2 - c^2 \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \mathbf{A}\right)^2 = c^2m^2c^4 + \frac{8\pi}{c} \left(\frac{\partial \varphi}{\partial t}\rho + \mathbf{A} \cdot \mathbf{J}\right)
-
 $$
 
 
@@ -22803,9 +21411,7 @@ We can then use the identities $\boldsymbol{\nabla} \cdot \left(\boldsymbol{\nab
 
 
 $$
-
 \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \varphi\right)^2 - c^2 \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \mathbf{A}\right)^2 = c^2m^2c^4 + \frac{8\pi}{c} \left(\frac{\partial \varphi}{\partial t}\rho + \mathbf{A} \cdot \mathbf{J}\right)
-
 $$
 
 
@@ -22815,9 +21421,7 @@ Finally, we can use the Lorenz gauge equations to simplify the equation further:
 
 
 $$
-
 \left(\frac{\partial^2 \varphi}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \varphi\right)^2 - c^2 \left(\frac{\partial^2 \mathbf{A}}{\partial t^2} - c^2 \boldsymbol{\nabla}^2 \mathbf{A}\right)^2 = c^2m^2c^4 + \frac{8\pi}{c} \left(\frac{\partial \varphi}{\partial t}\rho + \mathbf{A} \cdot \mathbf{J}\right)
-
 $$
 
 
@@ -22849,9 +21453,7 @@ The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativisti
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -22861,9 +21463,7 @@ where $\vec{\alpha}$ and $\beta$ are matrices that are representation-dependent.
 
 
 $$
-
 \vec{\alpha} = \begin{pmatrix} 0 & \vec{\sigma} \\ \vec{\sigma} & 0 \end{pmatrix}, \quad \beta = \begin{pmatrix} \mathbb{I} & 0 \\ 0 & -\mathbb{I} \end{pmatrix}
-
 $$
 
 
@@ -22873,9 +21473,7 @@ where $\vec{\sigma}$ are the Pauli matrices and $\mathbb{I}$ is the identity mat
 
 
 $$
-
 \{\alpha_i, \alpha_j\} = 2\delta_{ij}, \quad \{\alpha_i, \beta\} = 0, \quad \{\beta, \beta\} = 2\mathbb{I}
-
 $$
 
 
@@ -22885,9 +21483,7 @@ To derive the Dirac equation, we will start with the Klein-Gordon equation and l
 
 
 $$
-
 \psi = \omega e^{-i p \cdot x} = \omega e^{ -i \left(E t - \vec{p} \cdot \vec{x}\right) }
-
 $$
 
 
@@ -22897,9 +21493,7 @@ where $\omega$ is a four-spinor given by:
 
 
 $$
-
 \omega = \begin{pmatrix} \phi \\ \chi \end{pmatrix}
-
 $$
 
 
@@ -22909,9 +21503,7 @@ Substituting this into the Klein-Gordon equation and using the Dirac representat
 
 
 $$
-
 \begin{pmatrix} m & \vec{\sigma} \cdot \vec{p} \\ \vec{\sigma} \cdot \vec{p} & -m \end{pmatrix} \begin{pmatrix} \phi \\ \chi \end{pmatrix} = E \begin{pmatrix} \phi \\ \chi \end{pmatrix}
-
 $$
 
 
@@ -22921,9 +21513,7 @@ This matrix equation can be split into two coupled equations:
 
 
 $$
-
 m\phi + \vec{\sigma} \cdot \vec{p} \chi = E\phi, \quad \vec{\sigma} \cdot \vec{p} \phi - m\chi = E\chi
-
 $$
 
 
@@ -22933,9 +21523,7 @@ Solving the second equation for $\chi$, we get:
 
 
 $$
-
 \chi = \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi
-
 $$
 
 
@@ -22945,9 +21533,7 @@ However, this solution is only valid when $E = +\sqrt{\vec{p}^2 + m^2}$, which i
 
 
 $$
-
 \frac{\vec{\sigma} \cdot \vec{p}}{E + m} = \frac{\vec{\sigma} \cdot \vec{p}}{\sqrt{\vec{p}^2 + m^2}} = \frac{\vec{\sigma} \cdot \vec{p}}{|\vec{p}|} = \hat{\vec{p}} \cdot \vec{\sigma}
-
 $$
 
 
@@ -22957,9 +21543,7 @@ where $\hat{\vec{p}} = \frac{\vec{p}}{|\vec{p}|}$. This leads to the following s
 
 
 $$
-
 \chi = \hat{\vec{p}} \cdot \vec{\sigma} \phi
-
 $$
 
 
@@ -22969,9 +21553,7 @@ However, this solution is not consistent with the Pauli exclusion principle, whi
 
 
 $$
-
 \chi = \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi
-
 $$
 
 
@@ -22981,9 +21563,7 @@ Finally, the full positive energy solution is conventionally written as:
 
 
 $$
-
 \psi = \begin{pmatrix} \phi \\ \frac{\vec{\sigma} \cdot \vec{p}}{E + m} \phi \end{pmatrix} e^{-i p \cdot x}
-
 $$
 
 
@@ -23019,9 +21599,7 @@ The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativisti
 
 
 $$
-
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
-
 $$
 
 
@@ -23031,9 +21609,7 @@ where $\vec{\alpha}$ and $\beta$ are matrices that are representation-dependent.
 
 
 $$
-
 \vec{\alpha} = \begin{pmatrix} 0 & \vec{\sigma} \\ \vec{\sigma} & 0 \end{pmatrix}, \quad \beta = \begin{pmatrix} \mathbb{I} & 0 \\ 0 & -\mathbb{I} \end{pmatrix}
-
 $$
 
 
@@ -23043,9 +21619,7 @@ where $\vec{\sigma}$ are the Pauli matrices and $\mathbb{I}$ is the identity mat
 
 
 $$
-
 \{\alpha_i, \alpha_j\} = 2\delta_{ij}, \quad \{\alpha_i, \beta\} = 0, \quad \{\beta, \beta\} = 2\mathbb{I}
-
 $$
 
 
@@ -23055,9 +21629,7 @@ To derive the Dirac equation, we will start with the Klein-Gordon equation and l
 
 
 $$
-
 \psi = \omega e^{-i p \cdot x} = \omega e^{ -i \left(E t - \vec{p} \cdot \vec{x}\right) }
-
 $$
 
 
@@ -23067,9 +21639,7 @@ where $\omega$ is a four-spinor given by:
 
 
 $$
-
 \omega = \begin{pmatrix} \phi \\ \chi \end{pmatrix}
-
 $$
 
 
@@ -23079,9 +21649,7 @@ Substituting this into the Klein-Gordon equation and using the Dirac representat
 
 
 $$
-
 \begin{pmatrix} m & \vec{\sigma} \cdot \vec{p} \\ \vec{\sigma} \cdot \vec{p} & -m \end{pmatrix} \begin{pmatrix} \phi \\ \chi \end{pmatrix} = \begin{pmatrix} E & -i \vec{\sigma} \cdot \vec{p} \\ i \vec{\sigma} \cdot \vec{p} & -E \end{pmatrix} \begin{pmatrix} \phi \\ \chi \end{pmatrix}
-
 $$
 
 
@@ -23091,9 +21659,7 @@ This can be rewritten as:
 
 
 $$
-
 \begin{pmatrix} m\phi + \vec{\sigma} \cdot \vec{p} \chi \\ \vec{\sigma} \cdot \vec{p} \phi - m\chi \end{pmatrix} = \begin{pmatrix} E\phi - i \vec{\sigma} \cdot \vec{p} \chi \\ i \vec{\sigma} \cdot \vec{p} \phi - E\chi \end{pmatrix}
-
 $$
 
 
@@ -23103,17 +21669,13 @@ Equating the components on both sides, we get the following two equations:
 
 
 $$
-
 m\phi + \vec{\sigma} \cdot \vec{p} \chi = E\phi - i \vec{\sigma} \cdot \vec{p} \chi
-
 $$
 
 
 
 $$
-
 \vec{\sigma} \cdot \vec{p} \phi - m\chi = i \vec{\sigma} \cdot \vec{p} \phi - E\chi
-
 $$
 
 
@@ -23123,17 +21685,13 @@ Rearranging these equations, we get:
 
 
 $$
-
 (E-m)\phi = i \vec{\sigma} \cdot \vec{p} \chi
-
 $$
 
 
 
 $$
-
 (E+m)\chi = i \vec{\sigma} \cdot \vec{p} \phi
-
 $$
 
 
@@ -23143,17 +21701,13 @@ Substituting these equations into the original Klein-Gordon equation, we get:
 
 
 $$
-
 \left(E^2 - m^2\right)\phi = \left(\vec{p}^2 + m^2\right)\phi
-
 $$
 
 
 
 $$
-
 \left(E^2 - m^2\right)\chi = \left(\vec{p}^2 + m^2\right)\chi
-
 $$
 
 
@@ -23163,17 +21717,13 @@ These equations can be simplified to:
 
 
 $$
-
 \left(E^2 - \vec{p}^2 - m^2\right)\phi = 0
-
 $$
 
 
 
 $$
-
 \left(E^2 - \vec{p}^2 - m^2\right)\chi = 0
-
 $$
 
 
@@ -23183,17 +21733,13 @@ Since we are looking for non-trivial solutions, we can divide both equations by 
 
 
 $$
-
 \phi = 0
-
 $$
 
 
 
 $$
-
 \chi = 0
-
 $$
 
 
@@ -23203,9 +21749,7 @@ This means that the only solution to the Klein-Gordon equation is the trivial so
 
 
 $$
-
 \left(i \gamma^\mu \partial_\mu - m\right)\psi = 0
-
 $$
 
 
@@ -23215,9 +21759,7 @@ where $\gamma^\mu$ are the Dirac matrices, which are given by:
 
 
 $$
-
 \gamma^0 = \begin{pmatrix} \mathbb{I} & 0 \\ 0 & -\mathbb{I} \end{pmatrix}, \quad \gamma^i = \begin{pmatrix} 0 & \sigma^i \\ -\sigma^i & 0 \end{pmatrix}
-
 $$
 
 
@@ -23227,9 +21769,7 @@ These matrices satisfy the anticommutation relations:
 
 
 $$
-
 \{\gamma^\mu, \gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}
-
 $$
 
 
@@ -23239,9 +21779,7 @@ where $g^{\mu\nu}$ is the Minkowski metric. The Dirac equation can also be writt
 
 
 $$
-
 \left(i \gamma^\mu \partial_\mu - m\right)\psi = \left(i \gamma^0 \partial_0 - i \gamma^i \partial_i - m\right)\psi = 0
-
 $$
 
 
@@ -23263,9 +21801,7 @@ For the Coulomb potential, the Dirac equation can be written as:
 
 
 $$
-
 \left(i \gamma^\mu \partial_\mu - m\right)\psi = \left(i \gamma^0 \partial_0 - i \gamma^i \partial_i - V(r)\right)\psi = 0
-
 $$
 
 
@@ -23275,9 +21811,7 @@ where $V(r) = -\frac{\alpha}{r}$ is the Coulomb potential. This equation can be 
 
 
 $$
-
 \psi_{E,m}(\vec{r}) = \begin{pmatrix} \frac{1}{\sqrt{E+m}} \begin{pmatrix} \sqrt{E+m} \chi_{m-1/2}(\vec{r}) \\ i \sqrt{E-m} \chi_{m+1/2}(\vec{r}) \end{pmatrix} \\ \frac{1}{\sqrt{E+m}} \begin{pmatrix} i \sqrt{E-m} \chi_{m-1/2}(\vec{r}) \\ \sqrt{E+m} \chi_{m+1/2}(\vec{r}) \end{pmatrix} \end{pmatrix}
-
 $$
 
 
@@ -23291,9 +21825,7 @@ For the harmonic oscillator potential, the Dirac equation can be written as:
 
 
 $$
-
 \left(i \gamma^\mu \partial_\mu - m\right)\psi = \left(i \gamma^0 \partial_0 - i \gamma^i \partial_i - \frac{1}{2}m\omega^2r^2\right)\psi = 0
-
 $$
 
 
@@ -23303,9 +21835,7 @@ where $\omega$ is the frequency of the oscillator. This equation can also be sol
 
 
 $$
-
 \psi_{E,n,m}(\vec{r}) = \begin{pmatrix} \frac{1}{\sqrt{E+m}} \begin{pmatrix} \sqrt{E+m} \chi_{n,m-1/2}(\vec{r}) \\ i \sqrt{E-m} \chi_{n,m+1/2}(\vec{r}) \end{pmatrix} \\ \frac{1}{\sqrt{E+m}} \begin{pmatrix} i \sqrt{E-m} \chi_{n,m-1/2}(\vec{r}) \\ \sqrt{E+m} \chi_{n,m+1/2}(\vec{r}) \end{pmatrix} \end{pmatrix}
-
 $$
 
 
@@ -23319,9 +21849,7 @@ For the delta function potential, the Dirac equation can be written as:
 
 
 $$
-
 \left(i \gamma^\mu \partial_\mu - m\right)\psi = \left(i \gamma^0 \partial_0 - i \gamma^i \partial_i - \lambda\delta(\vec{r})\right)\psi = 0
-
 $$
 
 
@@ -23331,7 +21859,6 @@ where $\lambda$ is a constant. This equation can be solved using the Fourier tra
 
 
 $$
-
 \psi_{E,m}(\vec{r}) = \begin{pmatrix} \frac{1}{\sqrt{E+m}} \begin{pmatrix} \sqrt{E+m} \chi_{m-1/2}(\vec{r}) \\ i \sqrt{E-m} \chi_{m+1/2}(\vec{r}) \end{pmatrix} \\ \frac{1}{\sqrt{E+m}} \begin{pmatrix} i \sqrt{E-m} \chi_{m-1/2}(\vec{r}) \\ \sqrt{E+m} \chi_{m+1/2}(\vec{r}) \end{pmatrix} \end{pm
 
 
@@ -23357,7 +21884,6 @@ In the previous section, we explored the Klein-Gordon equation, which describes 
 The Dirac equation was first proposed by Paul Dirac in 1928 and is a relativistic wave equation that describes the behavior of spin-1/2 particles, such as electrons. It is given by the following equation:
 
 
-
 $$
 
 \left(-i \vec{\alpha} \cdot \vec{\nabla} + \beta m \right) \psi = i \frac{\partial \psi}{\partial t}
@@ -23365,9 +21891,7 @@ $$
 $$
 
 
-
 where $\vec{\alpha}$ and $\beta$ are matrices that are representation-dependent. In the Dirac representation, these matrices are given by:
-
 
 
 $$
@@ -23377,9 +21901,7 @@ $$
 $$
 
 
-
 where $\vec{\sigma}$ are the Pauli matrices and $\mathbb{I}$ is the identity matrix. These matrices satisfy the anticommutation relations:
-
 
 
 $$
@@ -23389,9 +21911,7 @@ $$
 $$
 
 
-
 To derive the Dirac equation, we will start with the Klein-Gordon equation and look for solutions of the form:
-
 
 
 $$
@@ -23401,9 +21921,7 @@ $$
 $$
 
 
-
 where $\omega$ is a four-spinor given by:
-
 
 
 $$
@@ -23413,9 +21931,7 @@ $$
 $$
 
 
-
 Substituting this into the Klein-Gordon equation and using the Dirac representation for the matrices, we get:
-
 
 
 $$
@@ -23425,9 +21941,7 @@ $$
 $$
 
 
-
 This can be rewritten as two equations:
-
 
 
 $$
@@ -23436,8 +21950,6 @@ $$
 
 $$
 
-
-
 $$
 
 \vec{\sigma} \cdot \vec{p} \phi + (E + m) \chi = 0
@@ -23445,9 +21957,7 @@ $$
 $$
 
 
-
 We can then solve for $\chi$ in terms of $\phi$:
-
 
 
 $$
@@ -23457,9 +21967,7 @@ $$
 $$
 
 
-
 Substituting this back into the first equation, we get:
-
 
 
 $$
@@ -23469,9 +21977,7 @@ $$
 $$
 
 
-
 Simplifying, we get:
-
 
 
 $$
@@ -23481,9 +21987,7 @@ $$
 $$
 
 
-
 Using the identity $\vec{\sigma} \cdot \vec{p} \vec{\sigma} \cdot \vec{p} = p^2 \mathbb{I}$, we can rewrite this as:
-
 
 
 $$
@@ -23493,9 +21997,7 @@ $$
 $$
 
 
-
 This is the same as the Klein-Gordon equation, but with an additional term. To eliminate this term, we can multiply both sides by $(E + m)$:
-
 
 
 $$
@@ -23503,13 +22005,11 @@ $$
 (E^2 - m^2)(E + m)\phi + p^2 \phi = 0
 
 $$
-
 
 
 Simplifying, we get:
 
 
-
 $$
 
 (E^2 - m^2)(E + m)\phi + p^2 \phi = 0
@@ -23517,9 +22017,7 @@ $$
 $$
 
 
-
 This is the Dirac equation in momentum space. To obtain the position space equation, we can use the Fourier transform:
-
 
 
 $$
@@ -23529,9 +22027,7 @@ $$
 $$
 
 
-
 where $a_p$ and $b_p^\dagger$ are creation and annihilation operators, and $u_p$ and $v_p$ are four-spinors given by:
-
 
 
 $$
@@ -23541,9 +22037,7 @@ u_p = \begin{pmatrix} \sqrt{E_p + m} \\ \sqrt{E_p + m} \frac{\vec{\sigma} \cdot 
 $$
 
 
-
 Substituting this into the Dirac equation, we get:
-
 
 
 $$
@@ -23553,9 +22047,7 @@ $$
 $$
 
 
-
 Using the anticommutation relations for $\alpha$ and $\beta$, we can simplify this to:
-
 
 
 $$
@@ -23565,9 +22057,7 @@ $$
 $$
 
 
-
 We can then use the identities $\vec{\alpha} \cdot \vec{p} u_p = E_p u_p$ and $\vec{\alpha} \cdot \vec{p} v_p = -E_p v_p$ to simplify this further:
-
 
 
 $$
@@ -23577,9 +22067,7 @@ $$
 $$
 
 
-
 We can then rearrange this to get:
-
 
 
 $$
@@ -23589,9 +22077,7 @@ $$
 $$
 
 
-
 Using the definitions of $u_p$ and $v_p$, we can rewrite this as:
-
 
 
 $$
@@ -23601,9 +22087,7 @@ $$
 $$
 
 
-
 Simplifying, we get:
-
 
 
 $$
@@ -23881,7 +22365,6 @@ The (bosonic) CCR algebra over $H$ is the algebra-with-conjugation-operator (cal
 $$[a(f), a^\dagger(g)] = \langle f, g \rangle$$
 
 
-
 in bra–ket notation.
 
 
@@ -23897,9 +22380,7 @@ In general, the CCR algebra is infinite dimensional. If we take a Banach space c
 For fermions, the (fermionic) CAR algebra over $H$ is constructed similarly, but using anticommutator relations instead, namely
 
 
-
 $$\{a(f), a^\dagger(g)\} = \langle f, g \rangle$$
-
 
 
 The CAR algebra is finite dimensional only if $H$ is finite dimensional. If we take a Banach space completion (only necessary in the infinite dimensional case), it becomes a $C^*$ algebra. The CAR algebra is closely related, but not identical to, a Clifford algebra.
@@ -24133,13 +22614,11 @@ The bivectors "σ"<sub>2</sub>"σ"<sub>3</sub>, "σ"<sub>3</sub>"σ"<sub>1</sub>
 In such a representation, the Pauli matrices can be written as:
 
 
-
 $$
 
 \sigma_1 = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \sigma_2 = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \sigma_3 = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices are used to describe the spin state of a spin-1/2 particle. They have the following properties:
@@ -24171,13 +22650,11 @@ The Pauli matrices can be generalized to higher spin systems, such as spin-1 par
 One example of a generalized Pauli matrix is the spin-1 matrix:
 
 
-
 $$
 
 \sigma_1 = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \sigma_2 = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, \sigma_3 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices can be used to describe the spin state of a spin-1 particle, and they have similar properties to the Pauli matrices. However, they are more complex and require a higher-dimensional representation.
@@ -24259,13 +22736,11 @@ In this section, we will extend our understanding of spin-1/2 systems to spin-1 
 To describe the behavior of spin-1 systems in quantum mechanics, we will use the product operator formalism. This formalism allows us to represent the spin state of a particle using matrices. In three dimensions, the matrices used to describe spin-1 systems are the Pauli matrices, which are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilon_{ijk}\sigma_k$, where $\delta_{ij}$ is the Kronecker delta and $\epsilon_{ijk}$ is the Levi-Civita symbol. They also have the property that $\sigma_i^2 = \mathbf{1}$, where $\mathbf{1}$ is the identity matrix.
@@ -24275,13 +22750,11 @@ These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilo
 Using these matrices, we can construct the spin operators $S_x$, $S_y$, and $S_z$ for spin-1 systems. These operators are defined as:
 
 
-
 $$
 
 S_x = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, S_y = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, S_z = \hbar\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These operators have the same commutation relations as the Pauli matrices, and they also have the property that $S_i^2 = \hbar^2$, making them suitable for describing spin-1 systems.
@@ -24291,13 +22764,11 @@ These operators have the same commutation relations as the Pauli matrices, and t
 Using the product operator formalism, we can also describe the evolution of spin-1 systems under the influence of a magnetic field. The Hamiltonian for a spin-1 system in a magnetic field is given by:
 
 
-
 $$
 
 H = -\boldsymbol{\mu} \cdot \mathbf{B} = -\gamma S_z B_z - \gamma S_x B_x - \gamma S_y B_y
 
 $$
-
 
 
 where $\boldsymbol{\mu}$ is the magnetic moment of the particle, $\mathbf{B}$ is the magnetic field, and $\gamma$ is the gyromagnetic ratio. This Hamiltonian can be used to calculate the evolution of the spin state of a particle in a magnetic field.
@@ -24333,13 +22804,11 @@ In this section, we will continue our exploration of spin systems by extending o
 To describe the behavior of spin-1 systems in quantum mechanics, we will use the product operator formalism. This formalism allows us to represent the spin state of a particle using matrices. In three dimensions, the matrices used to describe spin-1 systems are the Pauli matrices, which are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilon_{ijk}\sigma_k$, where $\delta_{ij}$ is the Kronecker delta and $\epsilon_{ijk}$ is the Levi-Civita symbol. They also have the property that $\sigma_i^2 = \mathbf{1}$, where $\mathbf{1}$ is the identity matrix.
@@ -24349,13 +22818,11 @@ These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilo
 Using these matrices, we can construct the spin operators $S_x$, $S_y$, and $S_z$ for spin-1 systems. These operators are defined as:
 
 
-
 $$
 
 S_x = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, S_y = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, S_z = \hbar\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These operators have the same commutation relations as the Pauli matrices, and they also have the property that $S_i^2 = \hbar^2$, making them suitable for describing spin-1 systems.
@@ -24373,7 +22840,6 @@ Now that we have established the necessary mathematical framework for spin-1 sys
 For a spin-1 system, the possible values of $s$ are 1, 0, and -1, while the possible values of $m_s$ are 1, 0, and -1. This means that there are a total of 9 possible spin-1 states, which can be written as:
 
 
-
 $$
 
 |1,1\rangle, |1,0\rangle, |1,-1\rangle, |0,1\rangle, |0,0\rangle, |0,-1\rangle, |-1,1\rangle, |-1,0\rangle, |-1,-1\rangle
@@ -24381,9 +22847,7 @@ $$
 $$
 
 
-
 These states can also be represented using the product operator formalism, where the spin operators act on the spin states as follows:
-
 
 
 $$
@@ -24392,22 +22856,17 @@ S_x|s,m_s\rangle = \frac{\hbar}{\sqrt{2}}\left(\sqrt{s(s+1)-m_s(m_s+1)}|s,m_s+1\
 
 $$
 
-
-
 $$
 
 S_y|s,m_s\rangle = \frac{\hbar}{\sqrt{2}i}\left(\sqrt{s(s+1)-m_s(m_s+1)}|s,m_s+1\rangle - \sqrt{s(s+1)-m_s(m_s-1)}|s,m_s-1\rangle\right)
 
 $$
 
-
-
 $$
 
 S_z|s,m_s\rangle = \hbar m_s|s,m_s\rangle
 
 $$
-
 
 
 These equations show that the spin operators change the spin state by changing the value of $m_s$ by 1 or -1, while keeping the value of $s$ constant. This is similar to how the Pauli matrices act on spin-1/2 states.
@@ -24443,13 +22902,11 @@ In this section, we will continue our exploration of spin systems by extending o
 To describe the behavior of spin-1 systems in quantum mechanics, we will use the product operator formalism. This formalism allows us to represent the spin state of a particle using matrices. In three dimensions, the matrices used to describe spin-1 systems are the Pauli matrices, which are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilon_{ijk}\sigma_k$, where $\delta_{ij}$ is the Kronecker delta and $\epsilon_{ijk}$ is the Levi-Civita symbol. They also have the property that $\sigma_i^2 = \mathbf{1}$, where $\mathbf{1}$ is the identity matrix.
@@ -24459,13 +22916,11 @@ These matrices satisfy the relations $\sigma_i \sigma_j = \delta_{ij} + i\epsilo
 Using these matrices, we can construct the spin operators $S_x$, $S_y$, and $S_z$ for spin-1 systems. These operators are defined as:
 
 
-
 $$
 
 S_x = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, S_y = \frac{\hbar}{\sqrt{2}}\begin{pmatrix} 0 & -i & 0 \\ i & 0 & -i \\ 0 & i & 0 \end{pmatrix}, S_z = \hbar\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These operators have the same commutation relations as the Pauli matrices, and they also have the property that $S_i^2 = \hbar^2$, making them suitable for describing spin-1 systems.
@@ -24483,13 +22938,11 @@ Now that we have established the spin operators for spin-1 systems, we can use t
 Using the spin operators, we can also define the raising and lowering operators $S_+$ and $S_-$, which change the spin state of a particle by one unit. These operators are defined as:
 
 
-
 $$
 
 S_+ = S_x + iS_y = \hbar\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}, S_- = S_x - iS_y = \hbar\begin{pmatrix} 0 & 0 & 0 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix}
 
 $$
-
 
 
 Using these operators, we can see that $S_+|+1\rangle = 0$, $S_+|0\rangle = \sqrt{2}\hbar|+1\rangle$, and $S_+|-1\rangle = \sqrt{2}\hbar|0\rangle$. Similarly, $S_-|+1\rangle = \sqrt{2}\hbar|0\rangle$, $S_-|0\rangle = \sqrt{2}\hbar|-1\rangle$, and $S_-|-1\rangle = 0$. This shows that the raising and lowering operators change the spin state of a particle by one unit, and they are also related to the spin operators by $S_+ = \frac{1}{\sqrt{2}}(S_x + iS_y)$ and $S_- = \frac{1}{\sqrt{2}}(S_x - iS_y)$.
@@ -24507,13 +22960,11 @@ In addition to the spin operators, there is another important interaction that c
 In cubic crystals, the electric field gradient is defined with the largest proportion $V_{zz}$ and a parameter $\eta$ that ranges from 0 to 1. In axially symmetric systems, $\eta$ is equal to 0, and the energy of the substates is given by:
 
 
-
 $$
 
 E_{M,M'} = \frac{1}{2}\hbar\omega_Q(M^2 - M'^2)
 
 $$
-
 
 
 where $\omega_Q$ is the quadrupole frequency. This energy difference between two substates can be measured using perturbed angular correlation (PAC) techniques.
@@ -24771,13 +23222,11 @@ Before discussing the Dirac equation, let us first understand the concept of spi
 The Dirac equation is a first-order differential equation that describes the evolution of a spin-1/2 particle in space and time. It is given by:
 
 
-
 $$
 
 (i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
 
 $$
-
 
 
 where <math>\psi</math> is the wavefunction of the particle, <math>m</math> is its mass, and <math>\gamma^\mu</math> are the Dirac matrices. These matrices are 4x4 matrices that satisfy the anticommutation relation <math>\{\gamma^\mu, \gamma^\nu\} = 2g^{\mu\nu}</math>, where <math>g^{\mu\nu}</math> is the Minkowski metric.
@@ -24829,13 +23278,11 @@ The electron's spin is an intrinsic property that cannot be explained in terms o
 The spin magnetic dipole moment is another intrinsic property of the electron. It is given by the equation:
 
 
-
 $$
 
 \boldsymbol{\mu}_s = -g_s\mu_B\frac{\mathbf{S}}{\hbar}
 
 $$
-
 
 
 where <math>g_s</math> is the spin g-factor, <math>\mu_B</math> is the Bohr magneton, and <math>\mathbf{S}</math> is the electron's spin angular momentum. The spin g-factor is approximately equal to 2, indicating that the electron is twice as effective in producing a magnetic moment as a charged body with identical mass and charge distributions.
@@ -24845,13 +23292,11 @@ where <math>g_s</math> is the spin g-factor, <math>\mu_B</math> is the Bohr magn
 The z-component of the electron's magnetic moment is given by:
 
 
-
 $$
 
 (\boldsymbol{\mu}_s)_z = -g_s\mu_Bm_s
 
 $$
-
 
 
 where <math>m_s</math> is the spin quantum number. Note that the negative sign indicates that the magnetic moment is antiparallel to the spin angular momentum.
@@ -25007,13 +23452,11 @@ In this chapter, we will explore the fascinating world of quantum mechanics of r
 The Klein-Gordon equation is a relativistic wave equation that describes the behavior of spinless particles, such as mesons. It was first proposed by Oskar Klein and Walter Gordon in 1926, and it is a precursor to the more well-known Dirac equation. The Klein-Gordon equation is given by:
 
 
-
 $$
 
 (\partial_\mu \partial^\mu + m^2) \psi = 0
 
 $$
-
 
 
 where $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the four-gradient operator, $m$ is the mass of the particle, and $\psi$ is the wave function.
@@ -25027,7 +23470,6 @@ where $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the four-gradient oper
 To derive the Klein-Gordon equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25035,9 +23477,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25047,9 +23487,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25059,9 +23497,7 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. Finally, we can use the relativistic energy-momentum relation again to eliminate $\omega$ and obtain the Klein-Gordon equation:
-
 
 
 $$
@@ -25069,7 +23505,6 @@ $$
 (\partial_\mu \partial^\mu + m^2) \psi = 0
 
 $$
-
 
 
 This derivation highlights the importance of special relativity in the formulation of the Klein-Gordon equation.
@@ -25097,13 +23532,11 @@ In this chapter, we will explore the fascinating world of quantum mechanics of r
 The Klein-Gordon equation is a relativistic wave equation that describes the behavior of spinless particles, such as mesons. It was first proposed by Oskar Klein and Walter Gordon in 1926, and it is a precursor to the more well-known Dirac equation. The Klein-Gordon equation is given by:
 
 
-
 $$
 
 (\partial_\mu \partial^\mu + m^2) \psi = 0
 
 $$
-
 
 
 where $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the four-gradient operator, $m$ is the mass of the particle, and $\psi$ is the wave function.
@@ -25117,7 +23550,6 @@ where $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the four-gradient oper
 To derive the Klein-Gordon equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25125,9 +23557,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25137,9 +23567,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25149,9 +23577,7 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. Finally, we can use the relativistic energy-momentum relation again to eliminate $\omega$ and obtain the Klein-Gordon equation:
-
 
 
 $$
@@ -25159,7 +23585,6 @@ $$
 (\partial_\mu \partial^\mu + m^2) \psi = 0
 
 $$
-
 
 
 This derivation highlights the importance of special relativity in the formulation of the Klein-Gordon equation.
@@ -25173,7 +23598,6 @@ This derivation highlights the importance of special relativity in the formulati
 The Klein-Gordon equation can be solved for various potentials, providing insight into the behavior of particles in different environments. One common potential is the harmonic oscillator potential, which can be described by the equation:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
@@ -25181,9 +23605,7 @@ V(x) = \frac{1}{2}m\omega^2x^2
 $$
 
 
-
 where $m$ is the mass of the particle and $\omega$ is the angular frequency. By substituting this potential into the Klein-Gordon equation, we can obtain the following solution:
-
 
 
 $$
@@ -25193,7 +23615,6 @@ $$
 $$
 
 
-
 where $A$ and $B$ are constants determined by the boundary conditions. This solution shows that the wave function oscillates with a frequency determined by the energy of the particle and the potential.
 
 
@@ -25201,13 +23622,11 @@ where $A$ and $B$ are constants determined by the boundary conditions. This solu
 Another important potential is the Coulomb potential, which describes the interaction between charged particles. By substituting this potential into the Klein-Gordon equation, we can obtain the following solution:
 
 
-
 $$
 
 \psi(r,t) = \frac{1}{r} e^{-iEt/\hbar} e^{i\sqrt{\frac{m}{2\hbar^2}}\frac{Ze^2}{r}}
 
 $$
-
 
 
 where $Z$ is the atomic number of the nucleus. This solution shows that the wave function decays exponentially as the distance from the nucleus increases, reflecting the attractive nature of the Coulomb potential.
@@ -25235,7 +23654,6 @@ The Klein-Gordon equation is a fundamental equation in quantum mechanics of rela
 To derive the Klein-Gordon equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25243,9 +23661,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25255,9 +23671,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25267,9 +23681,7 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. Finally, we can use the relativistic energy-momentum relation again to eliminate $\omega$ and obtain the Klein-Gordon equation:
-
 
 
 $$
@@ -25277,7 +23689,6 @@ $$
 (\partial_\mu \partial^\mu + m^2) \psi = 0
 
 $$
-
 
 
 This derivation highlights the importance of special relativity in the formulation of the Klein-Gordon equation.
@@ -25337,7 +23748,6 @@ The Dirac equation is a fundamental equation in quantum mechanics of relativisti
 To derive the Dirac equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25345,9 +23755,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25357,9 +23765,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25369,13 +23775,11 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. However, this equation does not fully describe the behavior of spin-1/2 particles. In order to account for spin, we must introduce the Dirac matrices $\alpha$ and $\beta$.
 
 
 
 The Dirac matrices are 4x4 matrices that are representation-dependent. In the Dirac representation, they take the form:
-
 
 
 $$
@@ -25385,9 +23789,7 @@ $$
 $$
 
 
-
 where $\sigma_i$ are the Pauli matrices and $I$ is the 2x2 identity matrix. These matrices satisfy the anticommutation relations:
-
 
 
 $$
@@ -25397,9 +23799,7 @@ $$
 $$
 
 
-
 Using these matrices, we can rewrite the Dirac equation as:
-
 
 
 $$
@@ -25407,7 +23807,6 @@ $$
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
 
 $$
-
 
 
 This equation is known as the Dirac equation and it fully describes the behavior of spin-1/2 particles.
@@ -25433,7 +23832,6 @@ In the case of a particle in a potential well, the solution is a superposition o
 Using all of the above information to plug into the Dirac equation results in:
 
 
-
 $$
 
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
@@ -25441,9 +23839,7 @@ $$
 $$
 
 
-
 This matrix equation is really two coupled equations:
-
 
 
 $$
@@ -25453,9 +23849,7 @@ $$
 $$
 
 
-
 Solving the second equation for $\chi$ and substituting it back into the first equation, we obtain:
-
 
 
 $$
@@ -25465,13 +23859,11 @@ $$
 $$
 
 
-
 Note that this solution needs to have $E = +\sqrt{\vec{p}^2 + m^2}$ in order for the solution to be valid in a frame where the particle has $\vec{p} = \vec{0}$.
 
 
 
 Derivation of the sign of the energy in this case. We consider the potentially problematic term:
-
 
 
 $$
@@ -25481,9 +23873,7 @@ $$
 $$
 
 
-
 We can rewrite this as:
-
 
 
 $$
@@ -25493,7 +23883,6 @@ $$
 $$
 
 
-
 Hence, the negative solution clearly has to be omitted, and $E = +\sqrt{\vec{p}^2 + m^2}$. This is known as the positive energy solution.
 
 
@@ -25501,13 +23890,11 @@ Hence, the negative solution clearly has to be omitted, and $E = +\sqrt{\vec{p}^
 Assembling these pieces, the full positive energy solution is conventionally written as:
 
 
-
 $$
 
 \begin{pmatrix} \phi \\ \chi \end{pmatrix} e^{-i(Et - \vec{p} \cdot \vec{x})}
 
 $$
-
 
 
 The above introduces a normalization factor $\sqrt{\frac{E + mc^2}{2mc^2}}$, derived in the next section.
@@ -25557,7 +23944,6 @@ The Dirac equation is a fundamental equation in quantum mechanics of relativisti
 To derive the Dirac equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25565,9 +23951,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25577,9 +23961,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25589,13 +23971,11 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. However, this equation does not fully describe the behavior of spin-1/2 particles. In order to account for spin, we must introduce the Dirac matrices $\alpha$ and $\beta$.
 
 
 
 The Dirac matrices are 4x4 matrices that are representation-dependent. In the Dirac representation, they take the form:
-
 
 
 $$
@@ -25605,9 +23985,7 @@ $$
 $$
 
 
-
 where $\sigma_i$ are the Pauli matrices and $I$ is the 2x2 identity matrix. These matrices satisfy the anticommutation relations:
-
 
 
 $$
@@ -25617,9 +23995,7 @@ $$
 $$
 
 
-
 Using these matrices, we can rewrite the Dirac equation as:
-
 
 
 $$
@@ -25627,7 +24003,6 @@ $$
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
 
 $$
-
 
 
 This equation is known as the Dirac equation and it describes the behavior of spin-1/2 particles in a relativistic framework. It is a more accurate and complete version of the Klein-Gordon equation, which does not account for spin.
@@ -25645,13 +24020,11 @@ The Dirac equation can be solved for various potentials, providing insight into 
 The free particle solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s
 
 $$
-
 
 
 where $u_s$ is the spinor, representing the spin state of the particle. This solution describes a particle with no external forces acting on it, moving freely through space.
@@ -25661,13 +24034,11 @@ where $u_s$ is the spinor, representing the spin state of the particle. This sol
 The potential well solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s + e^{-i(kx - \omega t)}v_s
 
 $$
-
 
 
 where $u_s$ and $v_s$ are spinors representing the particle and antiparticle states, respectively. This solution describes a particle in a potential well, where it can be trapped and oscillate between the particle and antiparticle states.
@@ -25677,13 +24048,11 @@ where $u_s$ and $v_s$ are spinors representing the particle and antiparticle sta
 The harmonic oscillator solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s + e^{-i(kx - \omega t)}v_s
 
 $$
-
 
 
 where $u_s$ and $v_s$ are spinors representing the particle and antiparticle states, respectively. This solution describes a particle in a harmonic oscillator potential, where it can oscillate between the particle and antiparticle states with a specific frequency.
@@ -25721,7 +24090,6 @@ The Dirac equation is a fundamental equation in quantum mechanics of relativisti
 To derive the Dirac equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25729,9 +24097,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25741,9 +24107,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25753,13 +24117,11 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. However, this equation does not fully describe the behavior of spin-1/2 particles. In order to account for spin, we must introduce the Dirac matrices $\alpha$ and $\beta$.
 
 
 
 The Dirac matrices are 4x4 matrices that are representation-dependent. In the Dirac representation, they take the form:
-
 
 
 $$
@@ -25769,9 +24131,7 @@ $$
 $$
 
 
-
 where $\sigma_i$ are the Pauli matrices and $I$ is the 2x2 identity matrix. These matrices satisfy the anticommutation relations:
-
 
 
 $$
@@ -25781,9 +24141,7 @@ $$
 $$
 
 
-
 Using these matrices, we can rewrite the Dirac equation as:
-
 
 
 $$
@@ -25791,7 +24149,6 @@ $$
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
 
 $$
-
 
 
 This equation is known as the Dirac equation and it describes the behavior of spin-1/2 particles in a relativistic framework. It is a more accurate and complete version of the Klein-Gordon equation, which does not account for spin.
@@ -25809,13 +24166,11 @@ The Dirac equation can be solved for various potentials, providing insight into 
 The free particle solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s
 
 $$
-
 
 
 where $u_s$ is the spinor, representing the spin state of the particle. This solution describes a particle with no external forces acting on it, moving freely through space.
@@ -25825,13 +24180,11 @@ where $u_s$ is the spinor, representing the spin state of the particle. This sol
 The potential well solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s + e^{-i(kx - \omega t)}v_s
 
 $$
-
 
 
 where $u_s$ and $v_s$ are spinors representing the particle and antiparticle states, respectively. This solution describes a particle in a potential well, where it can be trapped and oscillate between the particle and antiparticle states.
@@ -25841,13 +24194,11 @@ where $u_s$ and $v_s$ are spinors representing the particle and antiparticle sta
 The harmonic oscillator solution is given by:
 
 
-
 $$
 
 \psi(x,t) = e^{i(kx - \omega t)}u_s + e^{-i(kx - \omega t)}v_s
 
 $$
-
 
 
 where $u_s$ and $v_s$ are spinors representing the particle and antiparticle states, respectively. This solution describes a particle in a harmonic oscillator potential, where it can oscillate between the particle and antiparticle states with a specific frequency.
@@ -25883,7 +24234,6 @@ The Dirac equation is a fundamental equation in quantum mechanics of relativisti
 To derive the Dirac equation, we start with the relativistic energy-momentum relation:
 
 
-
 $$
 
 E^2 = p^2c^2 + m^2c^4
@@ -25891,9 +24241,7 @@ E^2 = p^2c^2 + m^2c^4
 $$
 
 
-
 where $E$ is the energy, $p$ is the momentum, and $c$ is the speed of light. We can express this relation in terms of the four-momentum $p^\mu = (E/c, \vec{p})$ as:
-
 
 
 $$
@@ -25903,9 +24251,7 @@ p^\mu p_\mu = m^2c^2
 $$
 
 
-
 where $p_\mu = (E/c, -\vec{p})$ is the four-momentum conjugate to $p^\mu$. We can then use the de Broglie relation $p = \hbar k$ to write this as:
-
 
 
 $$
@@ -25915,13 +24261,11 @@ $$
 $$
 
 
-
 where $\psi = e^{i(kx - \omega t)}$ is the plane wave solution. However, this equation does not fully describe the behavior of spin-1/2 particles. In order to account for spin, we must introduce the Dirac matrices $\alpha$ and $\beta$.
 
 
 
 The Dirac matrices are 4x4 matrices that are representation-dependent. In the Dirac representation, they take the form:
-
 
 
 $$
@@ -25931,9 +24275,7 @@ $$
 $$
 
 
-
 where $\sigma_i$ are the Pauli matrices and $I$ is the 2x2 identity matrix. These matrices satisfy the anticommutation relations:
-
 
 
 $$
@@ -25943,9 +24285,7 @@ $$
 $$
 
 
-
 Using these matrices, we can rewrite the Dirac equation as:
-
 
 
 $$
@@ -25953,7 +24293,6 @@ $$
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
 
 $$
-
 
 
 This equation is known as the Dirac equation and it describes the behavior of spin-1/2 particles in a relativistic framework. It is a more complete and accurate version of the Klein-Gordon equation, which does not account for spin. The Dirac equation also predicts the existence of antiparticles, such as the positron, which were later experimentally discovered.
@@ -26021,7 +24360,6 @@ In the previous section, we derived the Dirac equation and discussed its signifi
 Let us first consider the case of a free particle, where there is no external potential acting on the particle. In this case, the Dirac equation reduces to:
 
 
-
 $$
 
 (i\hbar \alpha_i \partial_i + \beta mc)\psi = i\hbar \frac{\partial \psi}{\partial t}
@@ -26029,9 +24367,7 @@ $$
 $$
 
 
-
 We can solve this equation by separating it into two equations for the time and spatial components:
-
 
 
 $$
@@ -26040,8 +24376,6 @@ $$
 
 $$
 
-
-
 $$
 
 (i\hbar \alpha_i \frac{\partial}{\partial x_i})\psi = i\hbar \frac{\partial \psi}{\partial t}
@@ -26049,9 +24383,7 @@ $$
 $$
 
 
-
 The first equation has the solution:
-
 
 
 $$
@@ -26061,13 +24393,11 @@ $$
 $$
 
 
-
 where $\omega = \frac{mc^2}{\hbar}$.
 
 
 
 Substituting this into the second equation, we get:
-
 
 
 $$
@@ -26077,9 +24407,7 @@ $$
 $$
 
 
-
 This equation has the solution:
-
 
 
 $$
@@ -26089,13 +24417,11 @@ $$
 $$
 
 
-
 where $k = \frac{p}{\hbar}$.
 
 
 
 Combining these solutions, we get the general solution for a free particle:
-
 
 
 $$
@@ -26105,13 +24431,11 @@ $$
 $$
 
 
-
 #### Subsection 18.3b: Solutions for a Particle in a Uniform Electric Field
 
 
 
 Now, let us consider the case of a particle in a uniform electric field. In this case, the Dirac equation becomes:
-
 
 
 $$
@@ -26121,13 +24445,11 @@ $$
 $$
 
 
-
 where $\phi$ is the electric potential.
 
 
 
 We can solve this equation by using the method of separation of variables. Let us assume that the solution can be written as:
-
 
 
 $$
@@ -26137,9 +24459,7 @@ $$
 $$
 
 
-
 Substituting this into the Dirac equation, we get:
-
 
 
 $$
@@ -26149,9 +24469,7 @@ $$
 $$
 
 
-
 Dividing both sides by $\psi_1(x)\psi_2(t)$, we get:
-
 
 
 $$
@@ -26161,9 +24479,7 @@ $$
 $$
 
 
-
 Since the left side of the equation is only dependent on $x$ and the right side is only dependent on $t$, both sides must be equal to a constant, which we will call $E$. This gives us two equations:
-
 
 
 $$
@@ -26172,8 +24488,6 @@ $$
 
 $$
 
-
-
 $$
 
 i\hbar \frac{\partial \psi_2}{\partial t} = (E - e\phi)\psi_2(t)
@@ -26181,9 +24495,7 @@ i\hbar \frac{\partial \psi_2}{\partial t} = (E - e\phi)\psi_2(t)
 $$
 
 
-
 The second equation has the solution:
-
 
 
 $$
@@ -26193,13 +24505,11 @@ $$
 $$
 
 
-
 where $\omega = \frac{E - e\phi}{\hbar}$.
 
 
 
 Substituting this into the first equation, we get:
-
 
 
 $$
@@ -26209,9 +24519,7 @@ $$
 $$
 
 
-
 This equation has the solution:
-
 
 
 $$
@@ -26221,13 +24529,11 @@ $$
 $$
 
 
-
 where $k = \frac{\sqrt{E^2 - m^2c^4}}{\hbar}$.
 
 
 
 Combining these solutions, we get the general solution for a particle in a uniform electric field:
-
 
 
 $$

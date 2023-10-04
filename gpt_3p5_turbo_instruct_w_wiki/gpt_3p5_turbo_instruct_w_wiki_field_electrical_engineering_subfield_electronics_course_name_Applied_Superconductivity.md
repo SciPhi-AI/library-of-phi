@@ -1311,57 +1311,43 @@ One of the most striking phenomena in superconductors is the expulsion of magnet
 To understand this phenomenon, let us consider the Ampere-Maxwell law in the absence of displacement currents:
 
 $$
-
 \nabla\times\vec{B} = \mu_0 \vec{J}
-
 $$
 
 Since the displacement current can be neglected, we can write this equation as:
 
 $$
-
 \nabla\times\vec{B} = \mu_0 \sigma \vec{E}
-
 $$
 
 where $\sigma$ is the conductivity of the superconductor. Using the generalized Ohm's law, we can express the electric field in terms of the magnetic field and the velocity of the superconductor:
 
 $$
-
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
-
 $$
 
 Taking the curl of this equation and substituting it into Faraday's law, we get:
 
 $$
-
 \nabla\times\vec{E} = \nabla\times\left(\frac{1}{\mu_0 \sigma}\nabla\times\vec{B} - \vec{v}\times\vec{B}\right) = -\frac{\partial \vec{B}}{\partial t}
-
 $$
 
 Using the identity $\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-\delta_{im}\delta_{jl}$ and recalling $\partial_j B_j = 0$, we can simplify this equation to:
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
-
 $$
 
 Since the superconductor is in a state of equilibrium, the magnetic field and velocity are constant, and the time derivative is zero. This simplifies the equation to:
 
 $$
-
 \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) = 0
-
 $$
 
 This equation can be further simplified by using the fact that the magnetic field is divergence-free, i.e. $\partial_j B_j = 0$. This leaves us with:
 
 $$
-
 \partial_i\partial_j B_j = 0
-
 $$
 
 This equation is known as the magnetic diffusion equation and describes the behavior of magnetic fields in superconductors. It shows that the magnetic field is constant in time and decays exponentially in space, with a characteristic length scale given by $\sqrt{\mu_0 \sigma}$. This explains why the magnetic field is expelled from the interior of a superconductor, as the screening current creates a magnetic field that cancels out the external field.
@@ -1401,25 +1387,19 @@ Flux quantization refers to the fact that the magnetic flux through a supercondu
 To understand this phenomenon, let us consider a superconducting loop with a current flowing through it. According to Faraday's law, the induced electromotive force (emf) in the loop is given by:
 
 $$
-
 \mathcal{E} = -\frac{d\Phi}{dt}
-
 $$
 
 where $\Phi$ is the magnetic flux through the loop. In a superconductor, the magnetic flux is quantized, so we can write:
 
 $$
-
 \Phi = n\Phi_0
-
 $$
 
 where $n$ is an integer. Substituting this into the equation for the emf, we get:
 
 $$
-
 \mathcal{E} = -n\frac{d\Phi_0}{dt} = -n\frac{h}{2e}\frac{d}{dt}\left(\frac{1}{2e}\right) = -\frac{nh}{2e^2}\frac{de}{dt}
-
 $$
 
 Since the current in a superconductor is constant, the rate of change of the current is zero, and therefore the emf is also zero. This means that the magnetic flux through a superconducting loop remains constant, even in the presence of an external magnetic field.
@@ -1973,7 +1953,6 @@ London's equation is a set of two coupled differential equations that relate the
 
 
 $$
-
 \begin{align}
 
 \frac{\partial \mathbf{B}}{\partial t} &= \nabla \times \mathbf{E} \\
@@ -1981,7 +1960,6 @@ $$
 \mathbf{J}_s &= -\frac{n_s e^2}{m} \mathbf{A}
 
 \end{align}
-
 $$
 
 
@@ -2029,7 +2007,6 @@ London's equation is a set of two coupled differential equations that relate the
 
 
 $$
-
 \begin{align}
 
 \frac{\partial \mathbf{B}}{\partial t} &= \nabla \times \mathbf{E} \\
@@ -2037,7 +2014,6 @@ $$
 \mathbf{J}_s &= -\frac{n_s e^2}{m} \mathbf{A}
 
 \end{align}
-
 $$
 
 
@@ -2105,7 +2081,6 @@ London's equation is a set of two coupled differential equations that relate the
 
 
 $$
-
 \begin{align}
 
 \frac{\partial \mathbf{B}}{\partial t} &= \nabla \times \mathbf{E} \\
@@ -2113,7 +2088,6 @@ $$
 \mathbf{J}_s &= -\frac{n_s e^2}{m} \mathbf{A}
 
 \end{align}
-
 $$
 
 
@@ -2193,9 +2167,7 @@ The Ginzburg-Landau functional, denoted by $\mathcal{F}$, is a mathematical expr
 
 
 $$
-
 \mathcal{F} = \int \left[ \alpha \vert \psi \vert^2 + \frac{\beta}{2} \vert \psi \vert^4 + \frac{1}{2m} \vert (\nabla - \frac{ie}{\hbar c} \mathbf{A}) \psi \vert^2 + \frac{1}{2\mu_0} \vert \nabla \times \mathbf{B} \vert^2 \right] dV
-
 $$
 
 
@@ -2251,9 +2223,7 @@ The Ginzburg-Landau functional, denoted by $\mathcal{F}$, is a mathematical expr
 
 
 $$
-
 \mathcal{F} = \int \left[ \alpha \vert \psi \vert^2 + \frac{\beta}{2} \vert \psi \vert^4 + \frac{1}{2m} \vert (\nabla - \frac{ie}{\hbar c} \mathbf{A}) \psi \vert^2 + \frac{1}{2\mu_0} \vert \nabla \times \mathbf{B} \vert^2 \right] dV
-
 $$
 
 
@@ -2271,17 +2241,13 @@ Using this functional, we can derive the Ginzburg-Landau equations, which descri
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -i\alpha \psi + \frac{\beta}{2} \vert \psi \vert^2 \psi + \frac{1}{2m} (\nabla - \frac{ie}{\hbar c} \mathbf{A})^2 \psi
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{j}_s
-
 $$
 
 
@@ -2299,9 +2265,7 @@ In addition to the Ginzburg-Landau theory, there are two important parameters th
 
 
 $$
-
 \xi = \frac{\hbar}{\sqrt{2m\alpha}}
-
 $$
 
 
@@ -2311,9 +2275,7 @@ The penetration depth, denoted by $\lambda$, is a measure of how far a magnetic 
 
 
 $$
-
 \lambda = \frac{\lambda_L}{\sqrt{1-\kappa^2}}
-
 $$
 
 
@@ -2361,9 +2323,7 @@ The Ginzburg-Landau functional, denoted by $\mathcal{F}$, is a mathematical expr
 
 
 $$
-
 \mathcal{F} = \int \left[ \alpha \vert \psi \vert^2 + \frac{\beta}{2} \vert \psi \vert^4 + \frac{1}{2m} \vert (\nabla - \frac{ie}{\hbar c} \mathbf{A}) \psi \vert^2 + \frac{1}{2\mu_0} \vert \nabla \times \mathbf{B} \vert^2 \right] dV
-
 $$
 
 
@@ -2385,9 +2345,7 @@ The macroscopic wave function, denoted by $\Psi$, is a key concept in the Ginzbu
 
 
 $$
-
 \Psi = \sqrt{\frac{m}{2\hbar^2}} \psi
-
 $$
 
 
@@ -2409,9 +2367,7 @@ In the macroscopic quantum model, the macroscopic wave function is described by 
 
 
 $$
-
 \Psi = \sqrt{\frac{m}{2\hbar^2}} \psi = \sqrt{\frac{m}{2\hbar^2}} \vert \psi \vert e^{i\theta}
-
 $$
 
 
@@ -2513,9 +2469,7 @@ The AC Josephson effect is a crucial phenomenon in superconductivity and has man
 
 
 $$
-
 I = I_c \sin(\varphi)
-
 $$
 
 
@@ -2579,9 +2533,7 @@ The AC Josephson effect is a crucial phenomenon in superconductivity and has man
 
 
 $$
-
 I = I_c \sin(\varphi)
-
 $$
 
 
@@ -2645,9 +2597,7 @@ Josephson junctions are formed by two superconducting materials separated by a t
 
 
 $$
-
 I = I_c \sin(\varphi)
-
 $$
 
 
@@ -2661,9 +2611,7 @@ When two Josephson junctions are connected in series, the equivalent conductance
 
 
 $$
-
 G_\text{eq} = \frac{G_1 G_2}{G_1 + G_2}
-
 $$
 
 
@@ -2707,9 +2655,7 @@ Josephson junctions are formed by two superconducting materials separated by a t
 
 
 $$
-
 I = I_c \sin(\varphi)
-
 $$
 
 
@@ -2723,9 +2669,7 @@ When two Josephson junctions are connected in series, the equivalent conductance
 
 
 $$
-
 G_\text{eq} = \frac{G_1 G_2}{G_1 + G_2}
-
 $$
 
 
@@ -2769,9 +2713,7 @@ Josephson junctions are formed by two superconducting materials separated by a t
 
 
 $$
-
 I = I_c \sin(\varphi)
-
 $$
 
 
@@ -2785,9 +2727,7 @@ When two Josephson junctions are connected in series, the equivalent conductance
 
 
 $$
-
 G_\text{eq} = \frac{G_1 G_2}{G_1 + G_2}
-
 $$
 
 
@@ -3225,9 +3165,7 @@ The inverse AC Josephson effect is the phenomenon where microwave radiation of a
 
 
 $$
-
 V(t) = \frac{\hbar}{2e} \omega (n + a \cos(\omega t)), \text{ and } I(t) = I_c \sum_{m=-\infty}^{\infty} J_m (a) \sin(\varphi_0 + (n+m)\omega t),
-
 $$
 
 
@@ -3237,9 +3175,7 @@ where $J_m$ is the Bessel function of the first kind. The DC components of the v
 
 
 $$
-
 V_{DC} = n \frac{\hbar}{2e} \omega, \text{ and } I_{DC} = I_c J_{-n} (a) \sin \varphi_0.
-
 $$
 
 
@@ -3307,9 +3243,7 @@ The inverse AC Josephson effect is the phenomenon where microwave radiation of a
 
 
 $$
-
 V(t) = \frac{\hbar}{2e} \omega (n + a \cos(\omega t)), \text{ and } I(t) = I_c \sin(\varphi(t))
-
 $$
 
 
@@ -3365,9 +3299,7 @@ Josephson voltage standards are devices that use the AC Josephson effect to accu
 
 
 $$
-
 V = \frac{hf}{2e}
-
 $$
 
 
@@ -3873,17 +3805,13 @@ The Ginzburg-Landau theory introduces two key equations, known as the Ginzburg-L
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = \alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^*
-
 $$
 
 
@@ -3927,17 +3855,13 @@ The Ginzburg-Landau theory introduces two key equations, known as the Ginzburg-L
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = \alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^*
-
 $$
 
 
@@ -3971,9 +3895,7 @@ The relationship between the order parameter and the coherence length is given b
 
 
 $$
-
 \xi = \frac{\hbar v_F}{\pi \Delta_0}
-
 $$
 
 
@@ -4013,17 +3935,13 @@ The Ginzburg-Landau theory introduces two key equations, known as the Ginzburg-L
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = \alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^*
-
 $$
 
 
@@ -11255,7 +11173,6 @@ For a particle bunch with charge "q", a length much shorter than the wavelength 
 $$V_{wake} = \frac{q}{C} \cdot \frac{R}{Q_0} \cdot e^{-\frac{t}{\tau}}$$
 
 
-
 where:
 
 
@@ -11275,9 +11192,7 @@ where:
 The shunt impedance "R" can be calculated from the solution of the electromagnetic fields of a mode, typically by a computer program that solves for the fields. In the equation for "V<sub>wake</sub>", the ratio "R"/"Q_0" serves as a good comparative measure of wakefield amplitude for various cavity shapes, since the other terms are typically dictated by the application and are fixed. Mathematically, this can be expressed as:
 
 
-
 $$\frac{R}{Q_0} = \frac{\omega \cdot \mu_0 \cdot \sigma}{2 \cdot \pi \cdot c} \cdot \frac{E_{max}}{B_{max}}$$
-
 
 
 where:
@@ -11391,7 +11306,6 @@ The wakefields are simply superimposed upon the externally driven accelerating f
 
 
 For a particle bunch with charge "q", a length much shorter than the wavelength of a given cavity mode, and traversing the cavity at time "t"=0, the amplitude of the wakefield voltage left behind in the cavity "in a given mode" can be expressed as:
-
 
 
 $$

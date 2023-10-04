@@ -713,9 +713,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -777,9 +775,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -861,9 +857,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -897,9 +891,7 @@ Strain is the resulting deformation of a material due to stress. It is a measure
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -921,9 +913,7 @@ Elasticity is the ability of a material to return to its original shape after be
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -981,9 +971,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1021,9 +1009,7 @@ Mathematically, strain can be expressed as:
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0}
-
 $$
 
 
@@ -1093,9 +1079,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1133,9 +1117,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \epsilon = \frac{\sigma}{E}
-
 $$
 
 
@@ -1213,9 +1195,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1253,9 +1233,7 @@ Mathematically, Newton's Second Law can be expressed as:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -1377,9 +1355,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1417,9 +1393,7 @@ Mathematically, strain can be expressed as:
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -1445,9 +1419,7 @@ Mathematically, the equation of motion can be expressed as:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -1477,9 +1449,7 @@ Mathematically, damping can be expressed as:
 
 
 $$
-
 \frac{d^2x}{dt^2} + 2\zeta\omega_n\frac{dx}{dt} + \omega_n^2x = 0
-
 $$
 
 
@@ -1537,9 +1507,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1581,9 +1549,7 @@ Mathematically, Newton's second law can be expressed as:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -1609,9 +1575,7 @@ Mathematically, Hooke's Law can be expressed as:
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1669,9 +1633,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1709,9 +1671,7 @@ The equation of motion can be derived by considering a small element of material
 
 
 $$
-
 F = \sigma A + \rho Vg
-
 $$
 
 
@@ -1725,9 +1685,7 @@ Using the definition of stress from the previous section, we can rewrite this eq
 
 
 $$
-
 F = \frac{\sigma}{A} A + \rho Vg
-
 $$
 
 
@@ -1737,9 +1695,7 @@ Simplifying, we get:
 
 
 $$
-
 F = \sigma + \rho Vg
-
 $$
 
 
@@ -1749,9 +1705,7 @@ Applying Newton's second law, we get:
 
 
 $$
-
 ma = \sigma + \rho Vg
-
 $$
 
 
@@ -1761,9 +1715,7 @@ where $a$ is the acceleration of the element. Dividing both sides by $m$, we get
 
 
 $$
-
 a = \frac{\sigma}{m} + \frac{\rho Vg}{m}
-
 $$
 
 
@@ -1781,9 +1733,7 @@ The equation of motion can be further simplified for elastic materials by consid
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1797,9 +1747,7 @@ Substituting this into the equation of motion, we get:
 
 
 $$
-
 a = \frac{E\epsilon}{m} + \frac{\rho Vg}{m}
-
 $$
 
 
@@ -1885,9 +1833,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -1925,9 +1871,7 @@ Hooke's Law is a fundamental principle in elasticity that states that the stress
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1965,9 +1909,7 @@ The wave equation can be derived from Hooke's Law and the equation of motion for
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -2025,9 +1967,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2065,9 +2005,7 @@ Hooke's Law is a fundamental principle in elasticity that states that the stress
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2097,9 +2035,7 @@ The wave equation is a fundamental equation in seismology that describes the pro
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -2175,9 +2111,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2219,9 +2153,7 @@ Hooke's Law is a fundamental principle in elasticity that states that the strain
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2263,9 +2195,7 @@ The wave equation can be derived from Hooke's Law and Newton's Second Law of Mot
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2 u}{\partial t^2}
-
 $$
 
 
@@ -2331,9 +2261,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2407,9 +2335,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2443,9 +2369,7 @@ In seismology, the relationship between stress and strain is described by Hooke'
 
 
 $$
-
 \epsilon = \frac{\sigma}{E}
-
 $$
 
 
@@ -2515,9 +2439,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2559,9 +2481,7 @@ Hooke's Law is a fundamental principle in elasticity that states that the amount
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2715,9 +2635,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2807,9 +2725,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2847,9 +2763,7 @@ Mathematically, Hooke's Law can be expressed as:
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -3087,9 +3001,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -3183,9 +3095,7 @@ Mathematically, stress can be expressed as:
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -3219,9 +3129,7 @@ As mentioned earlier, stress is the cause and strain is the effect. In other wor
 
 
 $$
-
 \epsilon = \frac{\sigma}{E}
-
 $$
 
 
@@ -3391,9 +3299,7 @@ Snell's Law can be mathematically expressed as:
 
 
 $$
-
 \frac{\sin{\theta_1}}{\sin{\theta_2}} = \frac{v_1}{v_2}
-
 $$
 
 
@@ -3445,9 +3351,7 @@ Snell's Law can be mathematically expressed as:
 
 
 $$
-
 \frac{\sin{\theta_1}}{\sin{\theta_2}} = \frac{v_1}{v_2}
-
 $$
 
 
@@ -3523,9 +3427,7 @@ The critical angle, denoted as $\theta_c$, is the angle of incidence at which cr
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{v_2}{v_1}\right)
-
 $$
 
 
@@ -3583,9 +3485,7 @@ The critical angle, denoted as $\theta_c$, is the angle of incidence at which cr
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{v_2}{v_1}\right)
-
 $$
 
 
@@ -3615,9 +3515,7 @@ The angle of incidence at which post-critical reflection occurs is greater than 
 
 
 $$
-
 \theta_{pc} = \sin^{-1}\left(\frac{v_2}{v_1}\right)
-
 $$
 
 
@@ -3667,9 +3565,7 @@ The critical angle, denoted as $\theta_c$, is the angle of incidence at which cr
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{v_2}{v_1}\right)
-
 $$
 
 

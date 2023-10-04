@@ -1529,9 +1529,7 @@ The system virtual work principle is a fundamental concept in the design of mech
 
 
 $$
-
 \delta W = \delta U
-
 $$
 
 
@@ -2701,9 +2699,7 @@ The Young's Modulus is a measure of the stiffness of a material. It is defined a
 
 
 $$
-
 E = E_{b} + \frac{E_{s} - E_{b}}{1 + (2r_{s}/D)}
-
 $$
 
 
@@ -2837,9 +2833,7 @@ For a (2D + "t")-dimensional case, a voxel at location $(x,y,t)$ with intensity 
 
 
 $$
-
 I(x,y,t) = I(x+\Delta x, y+\Delta y, t+\Delta t)
-
 $$
 
 
@@ -2849,9 +2843,7 @@ Assuming the movement to be small, the image constraint at $I(x,y,t)$ with Taylo
 
 
 $$
-
 I(x+\Delta x, y+\Delta y, t+\Delta t) = I(x,y,t) + \frac{\partial I}{\partial x}\Delta x + \frac{\partial I}{\partial y}\Delta y + \frac{\partial I}{\partial t}\Delta t
-
 $$
 
 
@@ -2861,9 +2853,7 @@ By truncating the higher order terms (which performs a linearization), it follow
 
 
 $$
-
 \frac{\partial I}{\partial x}\Delta x + \frac{\partial I}{\partial y}\Delta y + \frac{\partial I}{\partial t}\Delta t = 0
-
 $$
 
 
@@ -2873,9 +2863,7 @@ or, dividing by $\Delta t$,
 
 
 $$
-
 \frac{\partial I}{\partial x}V_x + \frac{\partial I}{\partial y}V_y + \frac{\partial I}{\partial t} = 0
-
 $$
 
 
@@ -3359,9 +3347,7 @@ Mathematically, the flow of fluids in porous media can be described by the Darcy
 
 
 $$
-
 Q = -\frac{kA}{\mu} \frac{\Delta P}{L}
-
 $$
 
 
@@ -3571,7 +3557,6 @@ For example, consider a system with three integrators, described by the followin
 
 
 $$
-
 \begin{cases}
 
 \dot{\mathbf{x}} = f_x(\mathbf{x}) + g_x(\mathbf{x}) z_1\\
@@ -3583,7 +3568,6 @@ $$
 \dot{z}_3 = u_3
 
 \end{cases}
-
 $$
 
 

@@ -1031,25 +1031,19 @@ To describe the motion of a particle in a frame of reference, we use frame notat
 
 
 $$
-
 \vec{r} = x\hat{i} + y\hat{j} + z\hat{k}
-
 $$
 
 
 
 $$
-
 \vec{v} = \dot{x}\hat{i} + \dot{y}\hat{j} + \dot{z}\hat{k}
-
 $$
 
 
 
 $$
-
 \vec{a} = \ddot{x}\hat{i} + \ddot{y}\hat{j} + \ddot{z}\hat{k}
-
 $$
 
 
@@ -1385,9 +1379,7 @@ Next, we write the equations for each pulley and rope:
 For the block:
 
 $$
-
 \sum F = ma = T - mg
-
 $$
 
 
@@ -1395,9 +1387,7 @@ $$
 For the pulley:
 
 $$
-
 \sum F = Ma = TR - Mg
-
 $$
 
 
@@ -1405,9 +1395,7 @@ $$
 For the rope:
 
 $$
-
 \sum F = 2T - Mg = 0
-
 $$
 
 
@@ -1415,27 +1403,19 @@ $$
 We can then apply the conservation of energy:
 
 $$
-
 E_i = E_f
-
 $$
 
 $$
-
 mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 + \frac{1}{2}Mv^2 + \frac{1}{2}I\omega^2
-
 $$
 
 $$
-
 mgh = \frac{1}{2}mv^2 + \frac{1}{2}MR^2\omega^2 + \frac{1}{2}Mv^2 + \frac{1}{2}MR^2\omega^2
-
 $$
 
 $$
-
 mgh = \frac{1}{2}mv^2 + \frac{1}{2}Mv^2 + \frac{1}{2}MR^2\omega^2
-
 $$
 
 
@@ -1443,15 +1423,11 @@ $$
 Solving the equations simultaneously, we get:
 
 $$
-
 a = \frac{g}{1 + \frac{m}{M}}
-
 $$
 
 $$
-
 T = \frac{mg}{1 + \frac{m}{M}}
-
 $$
 
 
@@ -1641,9 +1617,7 @@ Angular velocity is a measure of how fast an object is rotating around a fixed a
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -1665,9 +1639,7 @@ To calculate the angular velocity of a particle, we need to know its angular dis
 
 
 $$
-
 \omega = \frac{\theta}{\Delta t}
-
 $$
 
 
@@ -1965,9 +1937,7 @@ The Magic Formula, also known as the Fundamental Theorem of Dynamics, is a formu
 
 
 $$
-
 a = \frac{dv}{dt} = \frac{d^2x}{dt^2}
-
 $$
 
 
@@ -1993,9 +1963,7 @@ In this scenario, we have a particle that is dropped from a height h above the g
 
 
 $$
-
 a = \frac{dv}{dt} = \frac{d^2x}{dt^2} = -g
-
 $$
 
 
@@ -2005,9 +1973,7 @@ Integrating this equation with respect to time, we get:
 
 
 $$
-
 v = -gt + C_1
-
 $$
 
 
@@ -2017,9 +1983,7 @@ Where C1 is the constant of integration. We can then integrate again to find the
 
 
 $$
-
 x = -\frac{1}{2}gt^2 + C_1t + C_2
-
 $$
 
 
@@ -2029,17 +1993,13 @@ Where C2 is another constant of integration. By applying initial conditions, we 
 
 
 $$
-
 v = -gt + v_0
-
 $$
 
 
 
 $$
-
 x = -\frac{1}{2}gt^2 + v_0t + x_0
-
 $$
 
 
@@ -2061,9 +2021,7 @@ We know that the acceleration of the particle is given by:
 
 
 $$
-
 a = -\frac{k}{m}x
-
 $$
 
 
@@ -2073,9 +2031,7 @@ Where k is the spring constant and m is the mass of the particle. Substituting t
 
 
 $$
-
 -\frac{k}{m}x = \frac{d^2x}{dt^2}
-
 $$
 
 
@@ -2085,9 +2041,7 @@ Solving this differential equation, we get the equation for displacement as a fu
 
 
 $$
-
 x = A\sin(\omega t + \phi)
-
 $$
 
 
@@ -2101,17 +2055,13 @@ By taking the first and second derivatives of this equation, we can also find th
 
 
 $$
-
 v = A\omega\cos(\omega t + \phi)
-
 $$
 
 
 
 $$
-
 a = -A\omega^2\sin(\omega t + \phi)
-
 $$
 
 
@@ -2265,9 +2215,7 @@ Impulse is defined as the change in momentum of an object over a specific period
 
 
 $$
-
 J = \Delta p = m\Delta v
-
 $$
 
 
@@ -2277,9 +2225,7 @@ where $m$ is the mass of the object and $\Delta v$ is the change in velocity. In
 
 
 $$
-
 J = F\Delta t
-
 $$
 
 
@@ -2309,9 +2255,7 @@ In the previous section, we discussed the principle of conservation of momentum,
 
 
 $$
-
 \sum J = \Delta \sum p
-
 $$
 
 
@@ -2347,9 +2291,7 @@ Impulse is defined as the change in momentum of an object over a specific period
 
 
 $$
-
 J = \Delta p = m\Delta v
-
 $$
 
 
@@ -2359,9 +2301,7 @@ where $m$ is the mass of the object and $\Delta v$ is the change in velocity. In
 
 
 $$
-
 J = F\Delta t
-
 $$
 
 
@@ -2379,9 +2319,7 @@ To calculate the impulse applied to an object, we can use the equation $J = F\De
 
 
 $$
-
 J = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -2433,9 +2371,7 @@ Impulse is defined as the change in momentum of an object over a specific period
 
 
 $$
-
 J = \Delta p = m\Delta v
-
 $$
 
 
@@ -2445,9 +2381,7 @@ where $m$ is the mass of the object and $\Delta v$ is the change in velocity. In
 
 
 $$
-
 J = F\Delta t
-
 $$
 
 
@@ -2465,9 +2399,7 @@ To calculate the impulse applied to an object, we can use the equation $J = F\De
 
 
 $$
-
 J = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -2523,9 +2455,7 @@ To understand this problem, let's consider two skiers, one with a mass of $m_1$ 
 
 
 $$
-
 J = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -2569,9 +2499,7 @@ To understand this problem, let's consider two skiers, one with a mass of $m_1$ 
 
 
 $$
-
 J = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -2597,9 +2525,7 @@ In the case of the two skiers, the initial momentum of the system can be calcula
 
 
 $$
-
 p_i = m_1v_1 + m_2v_2
-
 $$
 
 
@@ -2609,9 +2535,7 @@ where $m_1$ and $m_2$ are the masses of the two skiers, and $v_1$ and $v_2$ are 
 
 
 $$
-
 p_f = (m_1 + m_2)v_f
-
 $$
 
 
@@ -2621,17 +2545,13 @@ where $v_f$ is the final velocity of the combined skiers. Since momentum is cons
 
 
 $$
-
 m_1v_1 + m_2v_2 = (m_1 + m_2)v_f
-
 $$
 
 
 
 $$
-
 v_f = \frac{m_1v_1 + m_2v_2}{m_1 + m_2}
-
 $$
 
 
@@ -2671,9 +2591,7 @@ To understand this problem, let's consider two skiers, one with a mass of $m_1$ 
 
 
 $$
-
 J = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -2745,9 +2663,7 @@ To solve the Dumbbell Problem, we can use the principles of momentum and Newton'
 
 
 $$
-
 p = m_1v_1 + m_2v_2
-
 $$
 
 
@@ -2761,9 +2677,7 @@ Next, we can apply Newton's Second Law to each mass separately. For mass $m_1$, 
 
 
 $$
-
 F = m_1a_1
-
 $$
 
 
@@ -2773,9 +2687,7 @@ And for mass $m_2$, we have:
 
 
 $$
-
 -m_2a_2 = F
-
 $$
 
 
@@ -2823,9 +2735,7 @@ To solve the Dumbbell Problem, we can use the principles of momentum and Newton'
 
 
 $$
-
 p = m_1v_1 + m_2v_2
-
 $$
 
 
@@ -2839,9 +2749,7 @@ Next, we can apply Newton's Second Law to each mass separately. For mass $m_1$, 
 
 
 $$
-
 F = m_1a_1
-
 $$
 
 
@@ -2851,9 +2759,7 @@ And for mass $m_2$, we have:
 
 
 $$
-
 -F = m_2a_2
-
 $$
 
 
@@ -2863,17 +2769,13 @@ Since the rod is rigid, the accelerations of both masses are equal in magnitude 
 
 
 $$
-
 F = m_1a
-
 $$
 
 
 
 $$
-
 F = -m_2a
-
 $$
 
 
@@ -2883,9 +2785,7 @@ where $a$ is the common acceleration of both masses. Solving for $a$, we get:
 
 
 $$
-
 a = \frac{F}{m_1 + m_2}
-
 $$
 
 
@@ -2895,9 +2795,7 @@ Now, we can use this value of $a$ to find the velocities of each mass. From the 
 
 
 $$
-
 a = \frac{dv}{dt}
-
 $$
 
 
@@ -2907,17 +2805,13 @@ Integrating both sides with respect to time, we get:
 
 
 $$
-
 \int_{0}^{v_1} dv = \int_{0}^{t} \frac{F}{m_1 + m_2} dt
-
 $$
 
 
 
 $$
-
 v_1 = \frac{F}{m_1 + m_2}t
-
 $$
 
 
@@ -2927,9 +2821,7 @@ Similarly, for mass $m_2$, we have:
 
 
 $$
-
 v_2 = -\frac{F}{m_1 + m_2}t
-
 $$
 
 
@@ -2939,17 +2831,13 @@ Therefore, the final velocities of the masses are given by:
 
 
 $$
-
 v_1 = \frac{F}{m_1 + m_2}t
-
 $$
 
 
 
 $$
-
 v_2 = -\frac{F}{m_1 + m_2}t
-
 $$
 
 
@@ -2959,9 +2847,7 @@ Finally, we can use these equations to find the position of each mass at any giv
 
 
 $$
-
 v = \frac{dx}{dt}
-
 $$
 
 
@@ -2971,17 +2857,13 @@ Integrating both sides with respect to time, we get:
 
 
 $$
-
 \int_{0}^{x_1} dx = \int_{0}^{t} \frac{F}{m_1 + m_2}t dt
-
 $$
 
 
 
 $$
-
 x_1 = \frac{1}{2}\frac{F}{m_1 + m_2}t^2
-
 $$
 
 
@@ -2991,9 +2873,7 @@ Similarly, for mass $m_2$, we have:
 
 
 $$
-
 x_2 = -\frac{1}{2}\frac{F}{m_1 + m_2}t^2
-
 $$
 
 
@@ -3003,17 +2883,13 @@ Therefore, the final positions of the masses are given by:
 
 
 $$
-
 x_1 = \frac{1}{2}\frac{F}{m_1 + m_2}t^2
-
 $$
 
 
 
 $$
-
 x_2 = -\frac{1}{2}\frac{F}{m_1 + m_2}t^2
-
 $$
 
 
@@ -3041,9 +2917,7 @@ One variation of the Dumbbell Problem involves a dumbbell with a variable mass. 
 
 
 $$
-
 m_1(t) = m_{10} + \Delta m(t)
-
 $$
 
 
@@ -3057,9 +2931,7 @@ To solve this problem, we can still apply the principle of momentum conservation
 
 
 $$
-
 p = (m_{10} + \Delta m(t))v_1 + m_2v_2
-
 $$
 
 
@@ -3069,9 +2941,7 @@ where $v_1$ and $v_2$ are the velocities of $m_1$ and $m_2$, respectively. By ta
 
 
 $$
-
 \frac{dp}{dt} = \frac{d}{dt}[(m_{10} + \Delta m(t))v_1] + \frac{d}{dt}(m_2v_2)
-
 $$
 
 
@@ -3081,9 +2951,7 @@ Using the product rule and the fact that the mass of $m_2$ is constant, we can s
 
 
 $$
-
 \frac{dp}{dt} = \Delta m(t)\frac{dv_1}{dt} + m_2\frac{dv_2}{dt}
-
 $$
 
 
@@ -3093,9 +2961,7 @@ Next, we can apply Newton's Second Law to each mass separately. For mass $m_1$, 
 
 
 $$
-
 F_1 = (m_{10} + \Delta m(t))a_1
-
 $$
 
 
@@ -3105,9 +2971,7 @@ where $F_1$ is the net force acting on $m_1$ and $a_1$ is its acceleration. Simi
 
 
 $$
-
 F_2 = m_2a_2
-
 $$
 
 
@@ -3117,9 +2981,7 @@ where $F_2$ is the net force acting on $m_2$ and $a_2$ is its acceleration. By s
 
 
 $$
-
 \Delta m(t)\frac{dv_1}{dt} + m_2\frac{dv_2}{dt} = F_1 + F_2
-
 $$
 
 
@@ -3137,9 +2999,7 @@ Another variation of the Dumbbell Problem involves the addition of external torq
 
 
 $$
-
 \tau = \tau_1 + \tau_2
-
 $$
 
 
@@ -3153,9 +3013,7 @@ To solve this problem, we can apply the principle of angular momentum conservati
 
 
 $$
-
 L = I_1\omega_1 + I_2\omega_2
-
 $$
 
 
@@ -3169,9 +3027,7 @@ Next, we can apply Newton's Second Law for rotational motion to each mass separa
 
 
 $$
-
 \tau_1 = I_1\alpha_1
-
 $$
 
 
@@ -3181,9 +3037,7 @@ where $\tau_1$ is the external torque acting on $m_1$ and $\alpha_1$ is its angu
 
 
 $$
-
 \tau_2 = I_2\alpha_2
-
 $$
 
 
@@ -3193,9 +3047,7 @@ where $\tau_2$ is the external torque acting on $m_2$ and $\alpha_2$ is its angu
 
 
 $$
-
 I_1\alpha_1 + I_2\alpha_2 = \tau_1 + \tau_2
-
 $$
 
 
@@ -3217,9 +3069,7 @@ To account for friction, we can modify the equations for momentum and angular mo
 
 
 $$
-
 \Delta m(t)\frac{dv_1}{dt} + m_2\frac{dv_2}{dt} = F_1 + F_2 - F_{friction}
-
 $$
 
 
@@ -3229,9 +3079,7 @@ where $F_{friction}$ is the frictional force acting on the dumbbell. Similarly, 
 
 
 $$
-
 I_1\alpha_1 + I_2\alpha_2 = \tau_1 + \tau_2 - \tau_{friction}
-
 $$
 
 
@@ -3267,9 +3115,7 @@ To better understand this concept, let's consider an example of two particles, $
 
 
 $$
-
 p = m_1v_1 + m_2v_2
-
 $$
 
 
@@ -3279,9 +3125,7 @@ If we apply an external force on one of the particles, say $m_1$, the momentum o
 
 
 $$
-
 \Delta p = m_1\Delta v_1 + m_2\Delta v_2
-
 $$
 
 
@@ -3303,9 +3147,7 @@ Let's consider an example of two particles, $m_1$ and $m_2$, moving towards each
 
 
 $$
-
 p_{i} = m_1v_{1i} + m_2v_{2i} = m_1v_{1f} + m_2v_{2f} = p_{f}
-
 $$
 
 
@@ -3315,17 +3157,13 @@ By solving for the final velocities, we can obtain the following expressions:
 
 
 $$
-
 v_{1f} = \frac{p_{i} - m_2v_{2i}}{m_1}
-
 $$
 
 
 
 $$
-
 v_{2f} = \frac{p_{i} - m_1v_{1i}}{m_2}
-
 $$
 
 
@@ -3347,9 +3185,7 @@ To solve this problem, we can first calculate the initial momentum of the system
 
 
 $$
-
 p_{i} = m_1v_{1i} + m_2v_{2i} = (m_1 + m_2)v_{f}
-
 $$
 
 
@@ -3359,9 +3195,7 @@ Since the particles stick together after the collision, their final velocity wil
 
 
 $$
-
 p_{f} = (m_1 + m_2)v_{f}
-
 $$
 
 
@@ -3371,9 +3205,7 @@ By equating these two expressions, we can solve for the final velocity:
 
 
 $$
-
 v_{f} = \frac{m_1v_{1i} + m_2v_{2i}}{m_1 + m_2} = \frac{(5)(5) + (3)(-3)}{5 + 3} = \frac{16}{8} = 2 \text{ m/s}
-
 $$
 
 
@@ -3409,25 +3241,19 @@ To better understand this concept, let's consider an example of three particles,
 
 
 $$
-
 F_{net,1} = m_1a_1 = -k_1x_1 + k_2(x_2-x_1)
-
 $$
 
 
 
 $$
-
 F_{net,2} = m_2a_2 = -k_2(x_2-x_1) + k_3(x_3-x_2)
-
 $$
 
 
 
 $$
-
 F_{net,3} = m_3a_3 = -k_3(x_3-x_2)
-
 $$
 
 
@@ -3483,9 +3309,7 @@ To better understand this concept, let's consider an example of two particles, $
 
 
 $$
-
 m_1v_{1i} + m_2v_{2i} = m_1v_{1f} + m_2v_{2f}
-
 $$
 
 
@@ -3495,17 +3319,13 @@ Solving this equation for the final velocities, we get:
 
 
 $$
-
 v_{1f} = \frac{m_1v_{1i} + m_2v_{2i} - m_2v_{1i}}{m_1 + m_2}
-
 $$
 
 
 
 $$
-
 v_{2f} = \frac{m_1v_{1i} + m_2v_{2i} - m_1v_{2i}}{m_1 + m_2}
-
 $$
 
 
@@ -3573,9 +3393,7 @@ To better understand this concept, let's consider an example of a rigid body of 
 
 
 $$
-
 Mv = constant
-
 $$
 
 
@@ -3585,9 +3403,7 @@ If an external force $F$ is applied to the body, its momentum will change accord
 
 
 $$
-
 F = Ma
-
 $$
 
 
@@ -3609,9 +3425,7 @@ To better understand this concept, let's consider an example of a rigid body rot
 
 
 $$
-
 I\omega = constant
-
 $$
 
 
@@ -3621,9 +3435,7 @@ where $I$ is the moment of inertia of the body. If an external torque $\tau$ is 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -3679,9 +3491,7 @@ To better understand this concept, let's consider an example of a rigid body of 
 
 
 $$
-
 Mv = constant
-
 $$
 
 
@@ -3691,9 +3501,7 @@ If an external force $F$ is applied to the body, its momentum will change accord
 
 
 $$
-
 F = Ma
-
 $$
 
 
@@ -3715,9 +3523,7 @@ To better understand this concept, let's consider an example of a rigid body rot
 
 
 $$
-
 I\omega = constant
-
 $$
 
 
@@ -3727,9 +3533,7 @@ where $I$ is the moment of inertia of the body. If an external torque $\tau$ is 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -3759,9 +3563,7 @@ The position of the center of mass can be calculated using the following equatio
 
 
 $$
-
 \vec{r}_{cm} = \frac{\sum_{i=1}^{n}m_i\vec{r}_i}{\sum_{i=1}^{n}m_i}
-
 $$
 
 
@@ -3833,9 +3635,7 @@ To better understand this concept, let's consider an example of a rigid body of 
 
 
 $$
-
 Mv = constant
-
 $$
 
 
@@ -3845,9 +3645,7 @@ If an external force $F$ is applied to the body, its momentum will change accord
 
 
 $$
-
 F = Ma
-
 $$
 
 
@@ -3869,9 +3667,7 @@ To understand rotational motion, we must first introduce the concept of torque, 
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -3885,9 +3681,7 @@ Similar to translational motion, the rotational motion of a rigid body can be de
 
 
 $$
-
 I\omega = constant
-
 $$
 
 
@@ -3939,9 +3733,7 @@ Torque is a measure of the rotational force acting on a body. It is defined as t
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -3955,9 +3747,7 @@ Angular acceleration, on the other hand, is a measure of how quickly the angular
 
 
 $$
-
 \alpha = \frac{d\omega}{dt}
-
 $$
 
 
@@ -3971,9 +3761,7 @@ To derive the equation for torque, we will use the principles of Newton's Laws a
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -3987,9 +3775,7 @@ To better understand this concept, let's consider an example of a spinning top. 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4007,9 +3793,7 @@ The moment of inertia, denoted by $I$, is a measure of an object's resistance to
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -4041,9 +3825,7 @@ Torque is a measure of the rotational force acting on a body. It is defined as t
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -4057,9 +3839,7 @@ Angular acceleration, on the other hand, is a measure of how quickly the angular
 
 
 $$
-
 \alpha = \frac{d\omega}{dt}
-
 $$
 
 
@@ -4073,9 +3853,7 @@ To derive the equation for torque, we will use the principles of Newton's Laws a
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4089,9 +3867,7 @@ To better understand this concept, let's consider an example of a spinning top. 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4109,9 +3885,7 @@ Now, let's take a closer look at how we can derive the equation for torque. As m
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -4121,9 +3895,7 @@ However, this equation does not take into account the direction of the force and
 
 
 $$
-
 \tau = F \times d
-
 $$
 
 
@@ -4137,9 +3909,7 @@ Now, let's consider a rigid body rotating about an axis with an angular velocity
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -4149,9 +3919,7 @@ However, this torque will also cause the body to experience an angular accelerat
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4161,9 +3929,7 @@ Combining these two equations, we get:
 
 
 $$
-
 F \times r = I\alpha
-
 $$
 
 
@@ -4173,9 +3939,7 @@ Rearranging this equation, we get the final form of the torque equation:
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4207,9 +3971,7 @@ Torque is a measure of the rotational force acting on a body. It is defined as t
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -4223,9 +3985,7 @@ Angular acceleration, on the other hand, is a measure of how quickly the angular
 
 
 $$
-
 \alpha = \frac{d\omega}{dt}
-
 $$
 
 
@@ -4239,9 +3999,7 @@ To derive the equation for torque, we will use the principles of Newton's Laws a
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4259,9 +4017,7 @@ To understand how this equation is derived, let's consider a rigid body rotating
 
 
 $$
-
 \tau = \frac{dL}{dt}
-
 $$
 
 
@@ -4271,9 +4027,7 @@ where $L$ is the angular momentum of the body. Using the definition of angular m
 
 
 $$
-
 \tau = \frac{d(I\omega)}{dt}
-
 $$
 
 
@@ -4283,9 +4037,7 @@ Applying the product rule, we get:
 
 
 $$
-
 \tau = I\frac{d\omega}{dt} + \omega\frac{dI}{dt}
-
 $$
 
 
@@ -4295,9 +4047,7 @@ Since the moment of inertia $I$ is a constant for a rigid body, the second term 
 
 
 $$
-
 \tau = I\frac{d\omega}{dt}
-
 $$
 
 
@@ -4307,9 +4057,7 @@ which can be rewritten as:
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -4463,9 +4211,7 @@ Before we dive into the three cases, let's first understand the work-energy prin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -4487,9 +4233,7 @@ The first case is when a constant force is applied to a system. In this case, th
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4507,9 +4251,7 @@ The second case is when a variable force is applied to a system. In this case, w
 
 
 $$
-
 W = \int_{x_1}^{x_2} F(x) dx
-
 $$
 
 
@@ -4527,9 +4269,7 @@ The third case is when non-conservative forces, such as friction or air resistan
 
 
 $$
-
 W = \Delta K + W_{nc}
-
 $$
 
 
@@ -4561,9 +4301,7 @@ Before we dive into the three cases, let's first understand the work-energy prin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -4585,9 +4323,7 @@ The first case is when a constant force is applied to a system. In this case, th
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4605,9 +4341,7 @@ The second case is when a variable force is applied to a system. In this case, w
 
 
 $$
-
 W = \int_{x_1}^{x_2} F(x) dx
-
 $$
 
 
@@ -4625,9 +4359,7 @@ The third case is when non-conservative forces, such as friction or air resistan
 
 
 $$
-
 W_{nc} = \int_{x_1}^{x_2} F_{nc}(x) dx
-
 $$
 
 
@@ -4663,9 +4395,7 @@ Before we dive into the three cases, let's first understand the work-energy prin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -4687,9 +4417,7 @@ The first case is when a constant force is applied to a system. In this case, th
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4707,9 +4435,7 @@ The second case is when a variable force is applied to a system. In this case, w
 
 
 $$
-
 W = \int_{x_1}^{x_2} F(x) dx
-
 $$
 
 
@@ -4739,9 +4465,7 @@ During the fall, the work done on the ball can be calculated as:
 
 
 $$
-
 W = Fd = mgd
-
 $$
 
 
@@ -4755,9 +4479,7 @@ During the bounce, the work done on the ball can be calculated using the concept
 
 
 $$
-
 W = \int_{x_1}^{x_2} F(x) dx = \int_{x_1}^{x_2} kx dx
-
 $$
 
 
@@ -4779,9 +4501,7 @@ Another common scenario where the work-energy principle can be applied is in the
 
 
 $$
-
 W = \int_{x_1}^{x_2} F(x) dx = \int_{x_1}^{x_2} \mu mg dx
-
 $$
 
 
@@ -4833,9 +4553,7 @@ Now, let's apply the work-energy principle to this problem. Since the disc is ro
 
 
 $$
-
 K = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -4849,9 +4567,7 @@ Next, we need to calculate the work done on the disc. Since the only force actin
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4865,17 +4581,13 @@ Putting it all together, we can express the work-energy principle for the rollin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{1}{2}mR^2\right)\omega^2
-
 $$
 
 
@@ -4885,17 +4597,13 @@ Simplifying this equation, we get:
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{4}mv^2
-
 $$
 
 
 
 $$
-
 mgR\theta = \frac{3}{4}mv^2
-
 $$
 
 
@@ -4905,9 +4613,7 @@ Finally, we can solve for the velocity of the disc as:
 
 
 $$
-
 v = \sqrt{\frac{4}{3}gR\theta}
-
 $$
 
 
@@ -4947,9 +4653,7 @@ Now, let's apply the work-energy principle to this problem. Since the disc is ro
 
 
 $$
-
 K = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -4963,9 +4667,7 @@ Next, we need to calculate the work done on the disc. Since the only force actin
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4979,17 +4681,13 @@ Putting it all together, we can express the work-energy principle for the rollin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{1}{2}mR^2\right)\omega^2
-
 $$
 
 
@@ -4999,9 +4697,7 @@ Simplifying this equation, we get:
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{4}mR^2\omega^2
-
 $$
 
 
@@ -5011,17 +4707,13 @@ Now, let's consider the conservation of energy in this system. At the top of the
 
 
 $$
-
 mgh = \frac{1}{2}mv^2 + \frac{1}{4}mR^2\omega^2
-
 $$
 
 
 
 $$
-
 v = \sqrt{\frac{2}{3}gh + \frac{1}{6}R^2\omega^2}
-
 $$
 
 
@@ -5031,9 +4723,7 @@ This equation gives us the final velocity of the disc at the bottom of the plane
 
 
 $$
-
 t = \frac{d}{v} = \frac{R\theta}{\sqrt{\frac{2}{3}gh + \frac{1}{6}R^2\omega^2}}
-
 $$
 
 
@@ -5069,9 +4759,7 @@ Now, let's apply the work-energy principle to this problem. Since the disc is ro
 
 
 $$
-
 K = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -5085,9 +4773,7 @@ Next, we need to calculate the work done on the disc. Since the only force actin
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -5101,17 +4787,13 @@ Putting it all together, we can express the work-energy principle for the rollin
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{1}{2}mR^2\right)\omega^2
-
 $$
 
 
@@ -5121,9 +4803,7 @@ Simplifying this equation, we get:
 
 
 $$
-
 mgR\theta = \frac{1}{2}mv^2 + \frac{1}{4}mR^2\omega^2
-
 $$
 
 
@@ -5145,9 +4825,7 @@ One common variation of the rolling disc problem is when the disc is released fr
 
 
 $$
-
 W = \Delta K + \Delta U
-
 $$
 
 
@@ -5161,9 +4839,7 @@ Another interesting variation is when the disc is rolling on a rough surface ins
 
 
 $$
-
 W = \Delta K + \Delta U + \Delta W_f
-
 $$
 
 
@@ -5919,9 +5595,7 @@ To understand the derivation of the Lagrangian, let's consider a simple example 
 
 
 $$
-
 L = T - V = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
-
 $$
 
 
@@ -5935,9 +5609,7 @@ The Lagrangian formulation allows us to write the equations of motion for the sy
 
 
 $$
-
 m\ddot{x} + kx = 0
-
 $$
 
 
@@ -5977,9 +5649,7 @@ To understand the derivation of the Lagrangian, let's consider a simple example 
 
 
 $$
-
 L = T - V = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
-
 $$
 
 
@@ -5993,9 +5663,7 @@ The Lagrangian formulation allows us to write the equations of motion for the sy
 
 
 $$
-
 m\ddot{x} + kx = 0
-
 $$
 
 
@@ -6051,9 +5719,7 @@ To understand the derivation of the Lagrangian, let's consider a simple example 
 
 
 $$
-
 L = T - V = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
-
 $$
 
 
@@ -6067,9 +5733,7 @@ The Lagrangian formulation allows us to write the equations of motion for the sy
 
 
 $$
-
 m\ddot{x} + kx = 0
-
 $$
 
 
@@ -6091,9 +5755,7 @@ To derive the Lagrange equations, we start with the principle of least action, w
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -6107,9 +5769,7 @@ Using the principle of least action, we can derive the Lagrange equations, which
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -6165,9 +5825,7 @@ To better understand this concept, let's revisit our example of the mass-spring 
 
 
 $$
-
 Q = \frac{\partial L}{\partial x} = -kx
-
 $$
 
 
@@ -6177,9 +5835,7 @@ This allows us to rewrite the equation of motion as:
 
 
 $$
-
 m\ddot{x} + Q = 0
-
 $$
 
 
@@ -6223,9 +5879,7 @@ To better understand this concept, let's revisit our example of the mass-spring 
 
 
 $$
-
 Q = \frac{\partial L}{\partial x} = -kx
-
 $$
 
 
@@ -6235,9 +5889,7 @@ This allows us to rewrite the equation of motion as:
 
 
 $$
-
 m\ddot{x} + Q = 0
-
 $$
 
 
@@ -6259,9 +5911,7 @@ Now that we understand the concept of generalized forces, let's explore how we c
 
 
 $$
-
 Q_i = \frac{\partial L}{\partial q_i}
-
 $$
 
 
@@ -6271,9 +5921,7 @@ To illustrate this, let's consider a simple pendulum system with a mass $m$ atta
 
 
 $$
-
 L = T - V = \frac{1}{2}ml^2\dot{\theta}^2 - mgl(1-\cos\theta)
-
 $$
 
 
@@ -6283,9 +5931,7 @@ To calculate the generalized force $Q_\theta$, we take the partial derivative of
 
 
 $$
-
 Q_\theta = \frac{\partial L}{\partial \theta} = mgl\sin\theta
-
 $$
 
 
@@ -6325,9 +5971,7 @@ To better understand this concept, let's revisit our example of the mass-spring 
 
 
 $$
-
 Q = \frac{\partial L}{\partial x} = -kx
-
 $$
 
 
@@ -6337,9 +5981,7 @@ This allows us to rewrite the equation of motion as:
 
 
 $$
-
 m\ddot{x} + Q = 0
-
 $$
 
 
@@ -6361,9 +6003,7 @@ Now that we understand the concept of generalized forces, let's explore how we c
 
 
 $$
-
 Q_i = \frac{\partial L}{\partial q_i}
-
 $$
 
 
@@ -6473,9 +6113,7 @@ One way to simplify the process is to use the principle of virtual work. This pr
 
 
 $$
-
 Q_i = \sum_{j=1}^{n} F_j \frac{\partial q_j}{\partial q_i}
-
 $$
 
 
@@ -6879,9 +6517,7 @@ To describe the motion of a single DOF system, we use a mathematical model known
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -6941,9 +6577,7 @@ Now that we have a basic understanding of single DOF systems, let's take a close
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -6965,9 +6599,7 @@ The natural frequency of a single DOF system can be calculated using the equatio
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -6985,9 +6617,7 @@ The damping ratio can be calculated using the equation:
 
 
 $$
-
 \zeta = \frac{c}{c_c}
-
 $$
 
 
@@ -7681,9 +7311,7 @@ The mathematical representation of a damped oscillator is given by the following
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -7701,9 +7329,7 @@ The natural frequency of a damped oscillator is defined as the frequency at whic
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -7721,9 +7347,7 @@ Critical damping is a special case in which the damping coefficient is equal to 
 
 
 $$
-
 c_c = 2\sqrt{km}
-
 $$
 
 
@@ -7737,9 +7361,7 @@ The logarithmic decrement is a measure of the damping ratio of a system and is g
 
 
 $$
-
 \delta = \frac{1}{n}\ln\left(\frac{x_n}{x_{n+1}}\right)
-
 $$
 
 
@@ -7775,9 +7397,7 @@ The mathematical representation of a damped oscillator is given by the following
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -7795,9 +7415,7 @@ The natural frequency of a damped oscillator is defined as the frequency at whic
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -7849,9 +7467,7 @@ The mathematical representation of a damped oscillator is given by the following
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -7869,9 +7485,7 @@ The natural frequency of a damped oscillator is defined as the frequency at whic
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -7889,9 +7503,7 @@ To analyze the free response of a damped oscillator, we can use the Laplace tran
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -8217,9 +7829,7 @@ Consider a simple pendulum with a length of $L = 1$ m and mass of $m = 0.5$ kg. 
 A DC motor is modeled by the following differential equation:
 
 $$
-
 J\ddot{\theta} + b\dot{\theta} = K_t u
-
 $$
 
 where $J$ is the moment of inertia, $b$ is the viscous friction coefficient, $K_t$ is the torque constant, and $u$ is the input voltage. If the motor has a moment of inertia of $J = 0.1$ kgm$^2$, viscous friction coefficient of $b = 0.01$ Nms/rad, and torque constant of $K_t = 0.05$ Nm/A, find the input voltage $u(t)$ required to achieve an angular velocity of $\dot{\theta}(t) = 10$ rad/s.
@@ -8231,9 +7841,7 @@ where $J$ is the moment of inertia, $b$ is the viscous friction coefficient, $K_
 A feedback control system is designed to regulate the temperature of a room. The system is modeled by the following differential equation:
 
 $$
-
 \dot{T}(t) = k(T_{set} - T(t))
-
 $$
 
 where $T_{set}$ is the desired temperature and $k$ is the system gain. If the system has a gain of $k = 0.1$ s$^{-1}$ and the desired temperature is $T_{set} = 25$ degrees Celsius, find the temperature $T(t)$ at time $t = 10$ minutes.
@@ -8277,9 +7885,7 @@ Consider a simple pendulum with a length of $L = 1$ m and mass of $m = 0.5$ kg. 
 A DC motor is modeled by the following differential equation:
 
 $$
-
 J\ddot{\theta} + b\dot{\theta} = K_t u
-
 $$
 
 where $J$ is the moment of inertia, $b$ is the viscous friction coefficient, $K_t$ is the torque constant, and $u$ is the input voltage. If the motor has a moment of inertia of $J = 0.1$ kgm$^2$, viscous friction coefficient of $b = 0.01$ Nms/rad, and torque constant of $K_t = 0.05$ Nm/A, find the input voltage $u(t)$ required to achieve an angular velocity of $\dot{\theta}(t) = 10$ rad/s.
@@ -8291,9 +7897,7 @@ where $J$ is the moment of inertia, $b$ is the viscous friction coefficient, $K_
 A feedback control system is designed to regulate the temperature of a room. The system is modeled by the following differential equation:
 
 $$
-
 \dot{T}(t) = k(T_{set} - T(t))
-
 $$
 
 where $T_{set}$ is the desired temperature and $k$ is the system gain. If the system has a gain of $k = 0.1$ s$^{-1}$ and the desired temperature is $T_{set} = 25$ degrees Celsius, find the temperature $T(t)$ at time $t = 10$ minutes.
@@ -8457,9 +8061,7 @@ The equation of motion for a mass-spring-damper system can be written as:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
@@ -8477,25 +8079,19 @@ Substituting the given values into the equation of motion, we get:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
 
 $$
-
 \ddot{x} + \frac{c}{m}\dot{x} + \frac{k}{m}x = 0
-
 $$
 
 
@@ -8553,9 +8149,7 @@ The equation of motion for a pendulum can be written as:
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
-
 $$
 
 
@@ -8573,17 +8167,13 @@ Substituting the given values into the equation of motion, we get:
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
-
 $$
 
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\theta = 0
-
 $$
 
 
@@ -8767,17 +8357,13 @@ Given a system with the following state-space representation:
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx
-
 $$
 
 
@@ -8787,7 +8373,6 @@ where
 
 
 $$
-
 A = \begin{bmatrix}
 
 -2 & 1 \\
@@ -8795,13 +8380,11 @@ A = \begin{bmatrix}
 -1 & -3
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -8809,19 +8392,16 @@ B = \begin{bmatrix}
 0
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -8891,9 +8471,7 @@ The eigenvalues of the matrix A are given by the roots of the characteristic equ
 
 
 $$
-
 det(\lambda I - A) = 0
-
 $$
 
 
@@ -8903,7 +8481,6 @@ Substituting the values of A, we get:
 
 
 $$
-
 det(\lambda I - A) = det\begin{bmatrix}
 
 \lambda + 2 & -1 \\
@@ -8911,7 +8488,6 @@ det(\lambda I - A) = det\begin{bmatrix}
 1 & \lambda + 3
 
 \end{bmatrix} = \lambda^{2} + 5\lambda + 5 = 0
-
 $$
 
 
@@ -8921,9 +8497,7 @@ Solving for the roots, we get:
 
 
 $$
-
 \lambda_{1} = -2 + i, \lambda_{2} = -2 - i
-
 $$
 
 
@@ -8941,7 +8515,6 @@ The controllability matrix is given by:
 
 
 $$
-
 C_{c} = \begin{bmatrix}
 
 B & AB
@@ -8953,7 +8526,6 @@ B & AB
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -8971,7 +8543,6 @@ The observability matrix is given by:
 
 
 $$
-
 C_{o} = \begin{bmatrix}
 
 C \\
@@ -8985,7 +8556,6 @@ CA
 -2 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -9011,17 +8581,13 @@ Given a system with the following state-space representation:
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx
-
 $$
 
 
@@ -9031,7 +8597,6 @@ where
 
 
 $$
-
 A = \begin{bmatrix}
 
 -1 & 1 \\
@@ -9039,13 +8604,11 @@ A = \begin{bmatrix}
 -1 & -2
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -9053,19 +8616,16 @@ B = \begin{bmatrix}
 0
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -9135,9 +8695,7 @@ The eigenvalues of the matrix A are given by the roots of the characteristic equ
 
 
 $$
-
 det(\lambda I - A) = 0
-
 $$
 
 
@@ -9147,7 +8705,6 @@ Substituting the values of A, we get:
 
 
 $$
-
 det(\lambda I - A) = det\begin{bmatrix}
 
 \lambda + 1 & -1 \\
@@ -9155,7 +8712,6 @@ det(\lambda I - A) = det\begin{bmatrix}
 1 & \lambda + 2
 
 \end{bmatrix} = \lambda^{2} + 3\lambda + 2 = 0
-
 $$
 
 
@@ -9165,9 +8721,7 @@ Solving for the roots, we get:
 
 
 $$
-
 \lambda_{1} = -1, \lambda_{2} = -2
-
 $$
 
 
@@ -9185,7 +8739,6 @@ The controllability matrix is given by:
 
 
 $$
-
 C_{c} = \begin{bmatrix}
 
 B & AB
@@ -9197,7 +8750,6 @@ B & AB
 0 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -9215,7 +8767,6 @@ The observability matrix is given by:
 
 
 $$
-
 C_{o} = \begin{bmatrix}
 
 C \\
@@ -9229,7 +8780,6 @@ CA
 -1 & -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -9309,17 +8859,13 @@ Given a system with the following state-space representation:
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx
-
 $$
 
 
@@ -9329,7 +8875,6 @@ where
 
 
 $$
-
 A = \begin{bmatrix}
 
 -2 & 1 \\
@@ -9337,13 +8882,11 @@ A = \begin{bmatrix}
 -1 & -3
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -9351,19 +8894,16 @@ B = \begin{bmatrix}
 0
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -9381,17 +8921,13 @@ Given a system with the following state-space representation:
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx
-
 $$
 
 
@@ -9401,7 +8937,6 @@ where
 
 
 $$
-
 A = \begin{bmatrix}
 
 -1 & 2 \\
@@ -9409,13 +8944,11 @@ A = \begin{bmatrix}
 -2 & -3
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 0 \\
@@ -9423,19 +8956,16 @@ B = \begin{bmatrix}
 1
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -9453,17 +8983,13 @@ Given a system with the following state-space representation:
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx
-
 $$
 
 
@@ -9473,7 +8999,6 @@ where
 
 
 $$
-
 A = \begin{bmatrix}
 
 -1 & 1 \\
@@ -9481,13 +9006,11 @@ A = \begin{bmatrix}
 -1 & -2
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -9495,19 +9018,16 @@ B = \begin{bmatrix}
 1
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -9617,9 +9137,7 @@ a. The problem states that a car is traveling at a constant speed of $v = 60$ km
 
 
 $$
-
 60 = \frac{d}{2}
-
 $$
 
 
@@ -9633,9 +9151,7 @@ b. The problem states that a ball is thrown with an initial velocity of $v_0 = 2
 
 
 $$
-
 0 = (20 \sin 30^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -9653,9 +9169,7 @@ a. The problem states that a block of mass $m = 2$ kg is placed on a frictionles
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -9669,9 +9183,7 @@ b. The problem states that a mass $m = 0.5$ kg is attached to a spring with a sp
 
 
 $$
-
 F = -(100)(0.2) = -20 \text{ N}
-
 $$
 
 
@@ -9707,9 +9219,7 @@ a. The problem states that a car is traveling at a constant speed of $v = 80$ km
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -9723,9 +9233,7 @@ b. The problem states that a ball is thrown with an initial velocity of $v_0 = 3
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -9743,9 +9251,7 @@ a. The problem states that a block of mass $m = 3$ kg is placed on a frictionles
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -9759,9 +9265,7 @@ b. The problem states that a mass $m = 1$ kg is attached to a spring with a spri
 
 
 $$
-
 F = -(2)(0.5) = -1 \text{ N}
-
 $$
 
 
@@ -9771,9 +9275,7 @@ Therefore, the spring exerts a force of 1 N on the mass. Using the equation $F =
 
 
 $$
-
 1 = (1)a
-
 $$
 
 
@@ -9805,9 +9307,7 @@ a. The problem states that a car is traveling at a constant speed of $v = 80$ km
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -9821,9 +9321,7 @@ b. The problem states that a ball is thrown with an initial velocity of $v_0 = 3
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -9841,9 +9339,7 @@ a. The problem states that a block of mass $m = 3$ kg is placed on a frictionles
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -9857,9 +9353,7 @@ b. The problem states that a mass $m = 1$ kg is attached to a spring with a spri
 
 
 $$
-
 F = -(10)(0.2) = -2 \text{ N}
-
 $$
 
 
@@ -9891,9 +9385,7 @@ a. The problem states that a car is traveling at a constant speed of $v = 80$ km
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -9907,9 +9399,7 @@ b. The problem states that a ball is thrown with an initial velocity of $v_0 = 3
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -9927,9 +9417,7 @@ a. The problem states that a block of mass $m = 3$ kg is placed on a frictionles
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -9943,9 +9431,7 @@ b. The problem states that a mass $m = 1$ kg is attached to a spring with a spri
 
 
 $$
-
 T = 2\pi \sqrt{\frac{1}{10}} = 2\pi \sqrt{0.1} \approx 1.99 \text{ s}
-
 $$
 
 
@@ -9977,9 +9463,7 @@ a. The problem states that a car is traveling at a constant speed of $v = 80$ km
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -9993,9 +9477,7 @@ b. The problem states that a ball is thrown with an initial velocity of $v_0 = 3
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -10013,9 +9495,7 @@ a. The problem states that a block of mass $m = 3$ kg is placed on a frictionles
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -10029,9 +9509,7 @@ b. The problem states that a mass $m = 1$ kg is attached to a spring with a spri
 
 
 $$
-
 -\frac{k}{m}x = -kx
-
 $$
 
 
@@ -10063,9 +9541,7 @@ a. The first problem in this set involves a car traveling at a constant speed of
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -10079,9 +9555,7 @@ b. The second problem in this set involves a ball being thrown with an initial v
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -10099,9 +9573,7 @@ a. The first problem in this set involves a block of mass $m = 3$ kg placed on a
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -10115,9 +9587,7 @@ b. The second problem in this set involves a mass $m = 1$ kg attached to a sprin
 
 
 $$
-
 T = 2\pi \sqrt{\frac{1}{10}} = 2\pi \sqrt{\frac{1}{10}} = 0.63 \text{ s}
-
 $$
 
 
@@ -10149,9 +9619,7 @@ a. The first problem in this set involves a car traveling at a constant speed of
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -10165,9 +9633,7 @@ b. The second problem in this set involves a ball being thrown with an initial v
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -10185,9 +9651,7 @@ a. The first problem in this set involves a block of mass $m = 3$ kg placed on a
 
 
 $$
-
 mg \sin \theta = ma
-
 $$
 
 
@@ -10201,9 +9665,7 @@ b. The second problem in this set involves a block of mass $m = 3$ kg attached t
 
 
 $$
-
 A = \frac{(3)(9.8) - (0.2)(100)A}{100}
-
 $$
 
 
@@ -10235,9 +9697,7 @@ a. The first problem in this set involves a car traveling at a constant speed of
 
 
 $$
-
 80 = \frac{d}{3}
-
 $$
 
 
@@ -10251,9 +9711,7 @@ b. The second problem in this set involves a ball being thrown with an initial v
 
 
 $$
-
 0 = (30 \sin 45^\circ)^2 + 2(-9.8)d
-
 $$
 
 
@@ -10271,9 +9729,7 @@ a. The first problem in this set involves a block of mass $m = 3$ kg placed on a
 
 
 $$
-
 mg \sin \theta = 3(9.8) \sin 45^\circ = 14.7 \text{ N}
-
 $$
 
 
@@ -10283,9 +9739,7 @@ Since there is no friction, the net force is equal to the force of gravity, so w
 
 
 $$
-
 a = \frac{F}{m} = \frac{14.7}{3} = 4.9 \text{ m/s}^2
-
 $$
 
 
@@ -10719,17 +10173,13 @@ Solution:
 
 
 $$
-
 \sum F_x = ma_x = mg\sin\theta
-
 $$
 
 
 
 $$
-
 \sum F_y = ma_y = mg\cos\theta - N = 0
-
 $$
 
 
@@ -10739,9 +10189,7 @@ Solving for the acceleration, we get:
 
 
 $$
-
 a = \frac{mg\sin\theta}{m} = g\sin\theta
-
 $$
 
 
@@ -10751,9 +10199,7 @@ $$
 
 
 $$
-
 mgh = \frac{1}{2}mv^2
-
 $$
 
 
@@ -10763,9 +10209,7 @@ Solving for the velocity, we get:
 
 
 $$
-
 v = \sqrt{2gh}
-
 $$
 
 
@@ -10775,9 +10219,7 @@ Plugging in the value for acceleration we found earlier, we get:
 
 
 $$
-
 v = \sqrt{2g\sin\theta}
-
 $$
 
 
@@ -10945,9 +10387,7 @@ The equation of motion for the block can be derived using Newton's Second Law, w
 
 
 $$
-
 ma = -kx
-
 $$
 
 
@@ -10957,9 +10397,7 @@ Where $m$ is the mass of the block, $a$ is its acceleration, and $x$ is the disp
 
 
 $$
-
 a = -\frac{k}{m}x
-
 $$
 
 
@@ -10969,9 +10407,7 @@ This is a second-order differential equation, which can be solved using standard
 
 
 $$
-
 x(t) = A\cos(\omega t + \phi)
-
 $$
 
 
@@ -10989,9 +10425,7 @@ The equation of motion for the pendulum can be derived using Newton's Second Law
 
 
 $$
-
 ma = -mg\sin\theta + T\cos\theta
-
 $$
 
 
@@ -11001,9 +10435,7 @@ Where $m$ is the mass of the pendulum, $a$ is its acceleration, $g$ is the accel
 
 
 $$
-
 a = -\frac{g}{L}\sin\theta
-
 $$
 
 
@@ -11013,9 +10445,7 @@ This is also a second-order differential equation, which can be solved using sta
 
 
 $$
-
 \theta(t) = A\cos(\omega t + \phi)
-
 $$
 
 
@@ -11033,9 +10463,7 @@ The equation of motion for the rocket can be derived using Newton's Second Law, 
 
 
 $$
-
 ma = -mg + F_{thrust}
-
 $$
 
 
@@ -11045,9 +10473,7 @@ Where $m$ is the mass of the rocket, $a$ is its acceleration, $g$ is the acceler
 
 
 $$
-
 a = -g + \frac{F_{thrust}}{m}
-
 $$
 
 
@@ -11065,9 +10491,7 @@ The equation of motion for the car can be derived using Newton's Second Law, tak
 
 
 $$
-
 ma = \frac{mv^2}{r} + F_{increase}
-
 $$
 
 
@@ -11077,9 +10501,7 @@ Where $m$ is the mass of the car, $a$ is its acceleration, $v$ is its speed, $r$
 
 
 $$
-
 a = \frac{v^2}{r} + \frac{F_{increase}}{m}
-
 $$
 
 
@@ -11097,9 +10519,7 @@ The equation of motion for the block can be derived using Newton's Second Law, t
 
 
 $$
-
 ma = -kx - F_f
-
 $$
 
 
@@ -11109,9 +10529,7 @@ Where $m$ is the mass of the block, $a$ is its acceleration, $x$ is the displace
 
 
 $$
-
 a = -\frac{k}{m}x - \frac{F_f}{m}
-
 $$
 
 
@@ -11129,9 +10547,7 @@ The equation of motion for the block can be derived using Newton's Second Law, t
 
 
 $$
-
 ma = -kx - F_d
-
 $$
 
 
@@ -11141,9 +10557,7 @@ Where $m$ is the mass of the block, $a$ is its acceleration, $x$ is the displace
 
 
 $$
-
 a = -\frac{k}{m}x - \frac{\beta}{m}v
-
 $$
 
 
@@ -11403,9 +10817,7 @@ Using Newton's Second Law, we can write the equation of motion for the block:
 
 
 $$
-
 F = ma = -kx
-
 $$
 
 
@@ -11419,9 +10831,7 @@ We can use the equation for simple harmonic motion to solve for the period of os
 
 
 $$
-
 T = 2\pi\sqrt{\frac{m}{k}}
-
 $$
 
 
@@ -11435,9 +10845,7 @@ The units for mass are in kilograms (kg) and the units for spring constant are i
 
 
 $$
-
 [T] = \sqrt{\frac{[m]}{[k]}} = \sqrt{\frac{kg}{N/m}} = \sqrt{\frac{kg}{kg/s^2}} = \sqrt{s^2} = s
-
 $$
 
 
@@ -11463,7 +10871,6 @@ Since we have all the necessary information, we can plug in the values for mass 
 
 
 $$
-
 T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{m}{k}} = 
 
 
@@ -12985,13 +12392,11 @@ Nonlinear systems are systems in which the output is not directly proportional t
 To understand nonlinear systems, we must first understand the concept of linearity. A system is considered linear if it follows the principle of superposition, meaning that the output is directly proportional to the input. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = \alpha x(t) + \beta z(t)
 
 $$
-
 
 
 where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $\beta$ are constants.
@@ -13001,13 +12406,11 @@ where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $
 On the other hand, a nonlinear system does not follow this principle and can be represented as:
 
 
-
 $$
 
 y(t) = f(x(t), z(t))
 
 $$
-
 
 
 where $f$ is a nonlinear function. This means that the output is a function of both inputs, rather than a simple sum.
@@ -13043,13 +12446,11 @@ Nonlinear systems are systems in which the output is not directly proportional t
 To understand nonlinear systems, we must first understand the concept of linearity. A system is considered linear if it follows the principle of superposition, meaning that the output is directly proportional to the input. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = \alpha x(t) + \beta z(t)
 
 $$
-
 
 
 where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $\beta$ are constants.
@@ -13059,13 +12460,11 @@ where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $
 On the other hand, a nonlinear system does not follow this principle and can be represented as:
 
 
-
 $$
 
 y(t) = f(x(t), z(t))
 
 $$
-
 
 
 where $f$ is a nonlinear function. This means that the output is a function of both inputs, rather than a simple sum.
@@ -13129,13 +12528,11 @@ Nonlinear systems are systems in which the output is not directly proportional t
 To understand nonlinear systems, we must first understand the concept of linearity. A system is considered linear if it follows the principle of superposition, meaning that the output is directly proportional to the input. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = \alpha x(t) + \beta z(t)
 
 $$
-
 
 
 where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $\beta$ are constants.
@@ -13145,13 +12542,11 @@ where $y(t)$ is the output, $x(t)$ and $z(t)$ are the inputs, and $\alpha$ and $
 On the other hand, a nonlinear system does not follow this principle and can be represented as:
 
 
-
 $$
 
 y(t) = f(x(t), z(t))
 
 $$
-
 
 
 where $f$ is a nonlinear function. This means that the output is a function of both inputs, rather than a simple sum.
@@ -14175,13 +13570,11 @@ In conclusion, this chapter has provided a comprehensive overview of advanced to
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 + u
 
 $$
-
 Design a control strategy that stabilizes the system at the origin.
 
 
@@ -14189,7 +13582,6 @@ Design a control strategy that stabilizes the system at the origin.
 #### Exercise 2
 
 In optimal control, the cost function is often defined as a weighted sum of the control inputs and the system states. Derive the optimal control law for a system with the following cost function:
-
 $$
 
 J = \int_0^T (x^2 + u^2) dt
@@ -14197,17 +13589,14 @@ J = \int_0^T (x^2 + u^2) dt
 $$
 
 
-
 #### Exercise 3
 
 Adaptive control is often used in systems with uncertainties or changing dynamics. Design an adaptive control strategy for the following system:
-
 $$
 
 \dot{x} = -x + u + d
 
 $$
-
 where $d$ is an unknown disturbance.
 
 
@@ -14215,13 +13604,11 @@ where $d$ is an unknown disturbance.
 #### Exercise 4
 
 In some cases, it may be necessary to design a control strategy that minimizes a specific performance metric, such as energy consumption or time to reach a desired state. Design an optimal control strategy for a system with the following cost function:
-
 $$
 
 J = \int_0^T (x^2 + u^2 + \lambda t) dt
 
 $$
-
 where $\lambda$ is a constant.
 
 
@@ -14257,13 +13644,11 @@ In conclusion, this chapter has provided a comprehensive overview of advanced to
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 + u
 
 $$
-
 Design a control strategy that stabilizes the system at the origin.
 
 
@@ -14271,7 +13656,6 @@ Design a control strategy that stabilizes the system at the origin.
 #### Exercise 2
 
 In optimal control, the cost function is often defined as a weighted sum of the control inputs and the system states. Derive the optimal control law for a system with the following cost function:
-
 $$
 
 J = \int_0^T (x^2 + u^2) dt
@@ -14279,17 +13663,14 @@ J = \int_0^T (x^2 + u^2) dt
 $$
 
 
-
 #### Exercise 3
 
 Adaptive control is often used in systems with uncertainties or changing dynamics. Design an adaptive control strategy for the following system:
-
 $$
 
 \dot{x} = -x + u + d
 
 $$
-
 where $d$ is an unknown disturbance.
 
 
@@ -14297,7 +13678,6 @@ where $d$ is an unknown disturbance.
 #### Exercise 4
 
 In some cases, it may be necessary to design a control strategy that minimizes a specific performance metric, such as energy consumption or time to reach a desired state. Design an optimal control strategy for a system with the following cost function:
-
 $$
 
 J = \int_0^T (x^2 + u^2 + \lambda t) dt

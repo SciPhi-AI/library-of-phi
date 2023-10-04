@@ -4274,9 +4274,7 @@ To understand Brownian motion, we can use the Langevin equation, which describes
 
 
 $$
-
 m\frac{d^2x}{dt^2} = -\gamma\frac{dx}{dt} + F(t)
-
 $$
 
 
@@ -4286,9 +4284,7 @@ where $m$ is the mass of the particle, $\gamma$ is the friction coefficient, and
 
 
 $$
-
 MSD = \frac{k_BT}{\gamma}t
-
 $$
 
 
@@ -4302,9 +4298,7 @@ However, in some cases, the MSD may not follow this linear relationship, indicat
 
 
 $$
-
 MSD \propto t^{\alpha}
-
 $$
 
 
@@ -4352,9 +4346,7 @@ To better understand Brownian motion in environmental systems, we can use the La
 
 
 $$
-
 m\frac{d^2x}{dt^2} = -\gamma\frac{dx}{dt} + F(t)
-
 $$
 
 
@@ -4364,9 +4356,7 @@ where $m$ is the mass of the particle, $\gamma$ is the friction coefficient, and
 
 
 $$
-
 MSD = \frac{k_BT}{\gamma}t
-
 $$
 
 
@@ -4422,9 +4412,7 @@ To better understand and model Brownian motion in environmental systems, we can 
 
 
 $$
-
 m\frac{d^2x}{dt^2} = -\gamma\frac{dx}{dt} + F(t) + F_{obstacles} + F_{heterogeneity} + F_{interactions}
-
 $$
 
 
@@ -4438,9 +4426,7 @@ Solving the Langevin equation allows us to obtain the mean squared displacement 
 
 
 $$
-
 MSD = \frac{k_BT}{\gamma}t + \frac{F_{obstacles}}{\gamma}t^2 + \frac{F_{heterogeneity}}{\gamma}t^2 + \frac{F_{interactions}}{\gamma}t^2
-
 $$
 
 
@@ -4584,9 +4570,7 @@ To model Levy flights, we can use the Lévy flight model, which is based on the 
 
 
 $$
-
 x_{n+1} = x_n + \lambda \Delta x_n
-
 $$
 
 
@@ -5410,9 +5394,7 @@ The cluster size distribution, denoted by $n_s$, is defined as the number of clu
 
 
 $$
-
 n_s = \frac{sP_s}{N}
-
 $$
 
 
@@ -5490,9 +5472,7 @@ The cluster size distribution refers to the frequency of clusters of different s
 
 
 $$
-
 P(s) \sim s^{-\tau}
-
 $$
 
 
@@ -6120,9 +6100,7 @@ Mathematically, we can represent this process as follows:
 
 
 $$
-
 P(k_i) = \frac{k_i}{\sum_{j} k_j}
-
 $$
 
 
@@ -6256,9 +6234,7 @@ To model preferential attachment, we can use the Barabási-Albert model, which i
 
 
 $$
-
 P(k_i) = \frac{k_i}{\sum_{j} k_j}
-
 $$
 
 

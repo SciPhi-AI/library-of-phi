@@ -547,9 +547,7 @@ Each atomic orbital is associated with an angular momentum, $L$. The square of t
 
 
 $$
-
 \hat{L}^2 Y_{\ell m} = \hbar^2 \ell(\ell+1) Y_{\ell m}
-
 $$
 
 
@@ -559,9 +557,7 @@ and
 
 
 $$
-
 \hat{L}_z Y_{\ell m} = \hbar m Y_{\ell m},
-
 $$
 
 
@@ -831,9 +827,7 @@ Mathematically, the total spin $S$ is given by the sum of individual spins $s_i$
 
 
 $$
-
 S = \sum s_i
-
 $$
 
 
@@ -1095,9 +1089,7 @@ The ionization energy of an atom can be calculated using the equation:
 
 
 $$
-
 E = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} \right]
-
 $$
 
 
@@ -1151,9 +1143,7 @@ The electron affinity of an atom or molecule can be calculated using the equatio
 
 
 $$
-
 E = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} \right]
-
 $$
 
 
@@ -1187,9 +1177,7 @@ Another scale of electronegativity is the Allen scale, proposed by Leland C. All
 
 
 $$
-
 \chi = \frac{n_{\rm s}\varepsilon_{\rm s} + n_{\rm p}\varepsilon_{\rm p}}{n_{\rm s} + n_{\rm p}}
-
 $$
 
 
@@ -1471,9 +1459,7 @@ The formal charge of an atom in a molecule or ion can be calculated using the fo
 
 
 $$
-
 \text{Formal Charge} = \text{Valence Electrons} - \text{Non-bonding Electrons} - \frac{1}{2}\text{Bonding Electrons}
-
 $$
 
 
@@ -1643,9 +1629,7 @@ The difference in electronegativity between atoms A and B is given by:
 
 
 $$
-
 |\chi_{\rm A} - \chi_{\rm B}| = ({\rm eV})^{-1/2} \sqrt{E_{\rm d}({\rm AB}) - \frac{E_{\rm d}({\rm AA}) + E_{\rm d}({\rm BB})} 2}
-
 $$
 
 
@@ -1695,9 +1679,7 @@ In a polar covalent bond, the electrons are shared unequally between the two ato
 
 
 $$
-
 \mu = Q \cdot d
-
 $$
 
 
@@ -1809,9 +1791,7 @@ In this chapter, we will explore the different types of chemical reactions, incl
 
 
 $$
-
 \sum_{\text{{reactants}}} m = \sum_{\text{{products}}} m
-
 $$
 
 
@@ -1849,9 +1829,7 @@ A balanced chemical equation accurately describes the quantities and types of at
 
 
 $$
-
 \text{{Reactants}} \rightarrow \text{{Products}}
-
 $$
 
 
@@ -1869,9 +1847,7 @@ For example, consider the reaction of hydrogen gas with oxygen gas to form water
 
 
 $$
-
 H_2 + O_2 \rightarrow H_2O
-
 $$
 
 
@@ -1881,9 +1857,7 @@ This equation is not balanced because there are two oxygen atoms on the left sid
 
 
 $$
-
 H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -1893,9 +1867,7 @@ Now, there are two oxygen atoms on both sides, but the number of hydrogen atoms 
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -1929,9 +1901,7 @@ To illustrate this, let's consider the combustion of methane ($CH_4$), which is 
 
 
 $$
-
 CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O
-
 $$
 
 
@@ -1977,9 +1947,7 @@ The stoichiometric coefficients in a balanced chemical equation indicate the mol
 
 
 $$
-
 CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O
-
 $$
 
 
@@ -2139,9 +2107,7 @@ Acid-base reactions, also known as neutralization reactions, are a type of chemi
 
 
 $$
-
 \text{Acid} + \text{Base} \rightarrow \text{Salt} + \text{Water}
-
 $$
 
 
@@ -2175,9 +2141,7 @@ First, we balance the potassium atoms by placing a coefficient of 2 in front of 
 
 
 $$
-
 H_2SO_4 + 2KOH \rightarrow K_2SO_4 + H_2O
-
 $$
 
 
@@ -2187,9 +2151,7 @@ Next, we balance the hydrogen and oxygen atoms by placing a coefficient of 2 in 
 
 
 $$
-
 H_2SO_4 + 2KOH \rightarrow K_2SO_4 + 2H_2O
-
 $$
 
 
@@ -2215,9 +2177,7 @@ Combination reactions, also known as synthesis reactions, are a type of chemical
 
 
 $$
-
 \text{A} + \text{B} \rightarrow \text{AB}
-
 $$
 
 
@@ -2239,9 +2199,7 @@ To balance this equation, we first balance the nitrogen atoms by placing a coeff
 
 
 $$
-
 N_2 + H_2 \rightarrow 2NH_3
-
 $$
 
 
@@ -2251,9 +2209,7 @@ Next, we balance the hydrogen atoms by placing a coefficient of 3 in front of $H
 
 
 $$
-
 N_2 + 3H_2 \rightarrow 2NH_3
-
 $$
 
 
@@ -2275,9 +2231,7 @@ To balance this equation, we first balance the hydrogen atoms by placing a coeff
 
 
 $$
-
 H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -2287,9 +2241,7 @@ Next, we balance the oxygen atoms by placing a coefficient of 1/2 in front of $O
 
 
 $$
-
 H_2 + \frac{1}{2}O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -2299,9 +2251,7 @@ However, it is more common to avoid fractional coefficients by multiplying all c
 
 
 $$
-
 2H_2 + O_2 \rightarrow 2H_2O
-
 $$
 
 
@@ -2319,9 +2269,7 @@ Decomposition reactions are the opposite of combination reactions. In a decompos
 
 
 $$
-
 \text{AB} \rightarrow \text{A} + \text{B}
-
 $$
 
 
@@ -2343,9 +2291,7 @@ To balance this equation, we first balance the hydrogen atoms by placing a coeff
 
 
 $$
-
 2H_2O \rightarrow H_2 + O_2
-
 $$
 
 
@@ -2355,9 +2301,7 @@ Next, we balance the oxygen atoms by placing a coefficient of 2 in front of $O_2
 
 
 $$
-
 2H_2O \rightarrow 2H_2 + O_2
-
 $$
 
 
@@ -2379,9 +2323,7 @@ To balance this equation, we first balance the silicon atoms by placing a coeffi
 
 
 $$
-
 Sb(CH<sub>3</sub>)<sub>5</sub> + SiO<sub>2</sub> \rightarrow Si-O-Sb(CH<sub>3</sub>)<sub>4</sub> + CH<sub>3</sub>
-
 $$
 
 
@@ -2391,9 +2333,7 @@ Next, we balance the antimony atoms by placing a coefficient of 1 in front of Sb
 
 
 $$
-
 Sb(CH<sub>3</sub>)<sub>5</sub> + SiO<sub>2</sub> \rightarrow Si-O-Sb(CH<sub>3</sub>)<sub>4</sub> + CH<sub>3</sub>
-
 $$
 
 
@@ -2403,9 +2343,7 @@ Finally, we balance the hydrogen and carbon atoms by placing a coefficient of 5 
 
 
 $$
-
 Sb(CH<sub>3</sub>)<sub>5</sub> + SiO<sub>2</sub> \rightarrow Si-O-Sb(CH<sub>3</sub>)<sub>4</sub> + 5CH<sub>3</sub>
-
 $$
 
 
@@ -2423,9 +2361,7 @@ Displacement reactions, also known as substitution reactions, are a type of chem
 
 
 $$
-
 \text{AB} + \text{C} \rightarrow \text{AC} + \text{B}
-
 $$
 
 
@@ -2447,9 +2383,7 @@ To balance this equation, we first balance the potassium atoms by placing a coef
 
 
 $$
-
 2KI + Cl_2 \rightarrow 2KCl + I_2
-
 $$
 
 
@@ -2459,9 +2393,7 @@ Next, we balance the iodine atoms by placing a coefficient of 2 in front of $I_2
 
 
 $$
-
 2KI + Cl_2 \rightarrow 2KCl + 2I_2
-
 $$
 
 
@@ -2483,9 +2415,7 @@ To balance this equation, we first balance the carbon atoms by placing a coeffic
 
 
 $$
-
 C<sub>3</sub>O + (NH<sub>2</sub>)<sub>2</sub>CO \rightarrow C<sub>3</sub>H<sub>2</sub>N<sub>4</sub>O<sub>2</sub> + C<sub>3</sub>H<sub>5</sub>NO
-
 $$
 
 
@@ -2495,9 +2425,7 @@ Next, we balance the nitrogen atoms by placing a coefficient of 1 in front of (N
 
 
 $$
-
 C<sub>3</sub>O + (NH<sub>2</sub>)<sub>2</sub>CO \rightarrow C<sub>3</sub>H<sub>2</sub>N<sub>4</sub>O<sub>2</sub> + C<sub>3</sub>H<sub>5</sub>NO
-
 $$
 
 
@@ -2507,9 +2435,7 @@ Finally, we balance the oxygen atoms by placing a coefficient of 1 in front of C
 
 
 $$
-
 C<sub>3</sub>O + (NH<sub>2</sub>)<sub>2</sub>CO \rightarrow C<sub>3</sub>H<sub>2</sub>N<sub>4</sub>O<sub>2</sub> + C<sub>3</sub>H<sub>5</sub>NO
-
 $$
 
 
@@ -2531,9 +2457,7 @@ The general form of a redox reaction is:
 
 
 $$
-
 \text{A} + \text{B} \rightarrow \text{A}^+ + \text{B}^-
-
 $$
 
 
@@ -2563,9 +2487,7 @@ Acid-base reactions, also known as proton transfer reactions, are a type of chem
 
 
 $$
-
 \text{HA} + \text{B} \rightarrow \text{A}^- + \text{HB}^+
-
 $$
 
 
@@ -2583,9 +2505,7 @@ The general form of this reaction is:
 
 
 $$
-
 \text{Sb(CH}_3\text{)}_5 + \text{HX} \rightarrow \text{[Sb(CH}_3\text{)}_4\text{H][X]} + \text{CH}_4
-
 $$
 
 
@@ -2611,9 +2531,7 @@ A common example of a precipitation reaction is the formation of silver chloride
 
 
 $$
-
 \text{AgNO}_3 + \text{KCl} \rightarrow \text{AgCl} + \text{KNO}_3
-
 $$
 
 
@@ -2627,9 +2545,7 @@ The ionic equation for this reaction, which shows the ions involved, is:
 
 
 $$
-
 \text{Ag}^{+} + \text{Cl}^{-} \rightarrow \text{AgCl}
-
 $$
 
 
@@ -2667,9 +2583,7 @@ The general form of a combustion reaction can be written as follows:
 
 
 $$
-
 \text{Fuel} + \text{O}_2 \rightarrow \text{Combustion Products} + \text{Heat}
-
 $$
 
 
@@ -2679,9 +2593,7 @@ In the case of hydrocarbons, which are compounds composed of hydrogen and carbon
 
 
 $$
-
 \text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}
-
 $$
 
 
@@ -2695,9 +2607,7 @@ In the context of engines, combustion reactions are used to convert the chemical
 
 
 $$
-
 \text{C}_3\text{H}_8 + 5\text{O}_2 \rightarrow 3\text{CO}_2 + 4\text{H}_2\text{O}
-
 $$
 
 
@@ -2731,9 +2641,7 @@ For example, consider the combustion reaction of methane (CH<sub>4</sub>) that w
 
 
 $$
-
 \text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}
-
 $$
 
 
@@ -2779,9 +2687,7 @@ Let's continue with our example of the combustion of methane:
 
 
 $$
-
 \text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}
-
 $$
 
 
@@ -2799,9 +2705,7 @@ To convert this amount from moles to grams, we need to use the molar mass of wat
 
 
 $$
-
 \text{Mass of H}_2\text{O} = \text{Moles of H}_2\text{O} \times \text{Molar mass of H}_2\text{O} = 6 \, \text{moles} \times 18 \, \text{g/mol} = 108 \, \text{g}
-
 $$
 
 
@@ -2811,9 +2715,7 @@ Stoichiometric calculations can also be used to determine the amount of a reacta
 
 
 $$
-
 \text{Moles of CO}_2 = \frac{\text{Mass of CO}_2}{\text{Molar mass of CO}_2} = \frac{44 \, \text{g}}{44 \, \text{g/mol}} = 1 \, \text{mole}
-
 $$
 
 
@@ -2839,9 +2741,7 @@ Let's consider a simple reaction where hydrogen gas reacts with oxygen gas to fo
 
 
 $$
-
 2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}
-
 $$
 
 
@@ -2879,9 +2779,7 @@ The percent yield is calculated using the following formula:
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \times 100\%
-
 $$
 
 
@@ -2891,9 +2789,7 @@ Let's continue with the previous example where hydrogen gas reacts with oxygen g
 
 
 $$
-
 2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}
-
 $$
 
 
@@ -2907,9 +2803,7 @@ If the actual yield of water obtained in the experiment was 1.8 moles, the perce
 
 
 $$
-
 \text{Percent Yield} = \frac{1.8\text{ moles}}{2\text{ moles}} \times 100\% = 90\%
-
 $$
 
 
@@ -2947,9 +2841,7 @@ For example, consider the reaction:
 
 
 $$
-
 2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}
-
 $$
 
 
@@ -3007,9 +2899,7 @@ For example, consider the combustion of methane:
 
 
 $$
-
 \text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}
-
 $$
 
 
@@ -3035,9 +2925,7 @@ For example, the unbalanced equation for the combustion of methane is:
 
 
 $$
-
 \text{CH}_4 + \text{O}_2 \rightarrow \text{CO}_2 + \text{H}_2\text{O}
-
 $$
 
 
@@ -3047,9 +2935,7 @@ To balance this equation, we adjust the coefficients as follows:
 
 
 $$
-
 \text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}
-
 $$
 
 
@@ -3099,9 +2985,7 @@ Consider the combustion of benzene, represented by the following chemical equati
 
 
 $$
-
 2\text{C}_6\text{H}_6 + 15\text{O}_2 \rightarrow 12\text{CO}_2 + 6\text{H}_2\text{O}
-
 $$
 
 
@@ -3115,9 +2999,7 @@ The amount of oxygen required for other quantities of benzene can be calculated 
 
 
 $$
-
 \frac{1.5\text{ mol C}_6\text{H}_6}{2\text{ mol C}_6\text{H}_6} = \frac{x\text{ mol O}_2}{15\text{ mol O}_2}
-
 $$
 
 
@@ -3155,17 +3037,13 @@ The number of moles of Fe<sub>2</sub>O<sub>3</sub> and Al can be calculated as f
 
 
 $$
-
 \text{mol Fe}_2\text{O}_3 = \frac{\text{grams Fe}_2\text{O}_3}{\text{g/mol Fe}_2\text{O}_3}
-
 $$
 
 
 
 $$
-
 \text{mol Al} = \frac{\text{grams Al}}{\text{g/mol Al}}
-
 $$
 
 
@@ -3183,9 +3061,7 @@ A shortcut can be derived from the example above. The amount of product (Fe) for
 
 
 $$
-
 \frac{\text{Moles of Reagent X}}{\text{Stoichiometric Coefficient of Reagent X}}
-
 $$
 
 
@@ -3227,17 +3103,13 @@ First, convert the mass of the reactants to moles:
 
 
 $$
-
 \text{mol PbS} = \frac{\text{200.0 g PbS}}{\text{239.3 g/mol PbS}} = 0.835 \text{ mol PbS}
-
 $$
 
 
 
 $$
-
 \text{mol O}_2 = \frac{\text{200.0 g O}_2}{\text{32.0 g/mol O}_2} = 6.25 \text{ mol O}_2
-
 $$
 
 
@@ -3247,17 +3119,13 @@ Then, use the stoichiometry of the reaction to calculate the maximum amount of P
 
 
 $$
-
 \text{mol PbO from PbS} = \text{0.835 mol PbS} \times \frac{\text{1 mol PbO}}{\text{1 mol PbS}} = 0.835 \text{ mol PbO}
-
 $$
 
 
 
 $$
-
 \text{mol PbO from O}_2 = \text{6.25 mol O}_2 \times \frac{\text{1 mol PbO}}{\text{1 mol O}_2} = 6.25 \text{ mol PbO}
-
 $$
 
 
@@ -3287,9 +3155,7 @@ The percent yield of a reaction is the ratio of the actual yield to the theoreti
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \times 100\%
-
 $$
 
 
@@ -3299,9 +3165,7 @@ In the example above, the percent yield of PbO would be calculated as follows:
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{170.0 g PbO}}{\text{200.0 g PbO}} \times 100\% = 85\%
-
 $$
 
 
@@ -3347,9 +3211,7 @@ First, we calculate how much O<sub>2</sub> is needed to react with all the PbS:
 
 
 $$
-
 \text{mol O}_2 \text{ needed} = \text{0.835 mol PbS} \times \frac{\text{1 mol O}_2}{\text{1 mol PbS}} = 0.835 \text{ mol O}_2
-
 $$
 
 
@@ -3359,9 +3221,7 @@ Then, we subtract this from the initial amount of O<sub>2</sub> to find the amou
 
 
 $$
-
 \text{mol O}_2 \text{ left over} = \text{6.25 mol O}_2 - \text{0.835 mol O}_2 = 5.415 \text{ mol O}_2
-
 $$
 
 
@@ -3371,9 +3231,7 @@ This can be converted back to grams using the molar mass of O<sub>2</sub>:
 
 
 $$
-
 \text{g O}_2 \text{ left over} = \text{5.415 mol O}_2 \times \frac{\text{32.0 g/mol O}_2}{\text{1 mol O}_2} = 173.3 \text{ g O}_2
-
 $$
 
 
@@ -3423,9 +3281,7 @@ The theoretical yield of PbO can be calculated from the stoichiometry of the rea
 
 
 $$
-
 \text{mol PbO theoretical yield} = \text{0.835 mol PbS} \times \frac{\text{1 mol PbO}}{\text{1 mol PbS}} = 0.835 \text{ mol PbO}
-
 $$
 
 
@@ -3435,9 +3291,7 @@ This can be converted to grams using the molar mass of PbO:
 
 
 $$
-
 \text{g PbO theoretical yield} = \text{0.835 mol PbO} \times \frac{\text{223.2 g/mol PbO}}{\text{1 mol PbO}} = 186.4 \text{ g PbO}
-
 $$
 
 
@@ -3471,9 +3325,7 @@ In our example, the percent yield of PbO can be calculated as follows:
 
 
 $$
-
 \text{Percent Yield} = \frac{\text{Experimental Yield}}{\text{Theoretical Yield}} \times 100\%
-
 $$
 
 
@@ -3483,9 +3335,7 @@ Substituting the values:
 
 
 $$
-
 \text{Percent Yield} = \frac{150 \text{ g}}{186.4 \text{ g}} \times 100\% = 80.4\%
-
 $$
 
 
@@ -3531,7 +3381,6 @@ In conclusion, chemical reactions are a fundamental aspect of chemistry, and und
 Classify the following reactions as synthesis, decomposition, single replacement, double replacement, or combustion: 
 
 1. $$2H_2 + O_2 \rightarrow 2H_2O$$
-
 2. $$2KClO_3 \rightarrow 2KCl + 3O_2$$
 
 3. $$Zn + 2HCl \rightarrow ZnCl_2 + H_2$$
@@ -3617,13 +3466,11 @@ Energy is a fundamental concept in thermodynamics. It is a property of objects, 
 Kinetic energy is the energy of motion. It is defined as the work needed to accelerate a body of a given mass from rest to its stated velocity. The kinetic energy of an object can be calculated using the equation:
 
 
-
 $$
 
 KE = \frac{1}{2}mv^2
 
 $$
-
 
 
 where $m$ is the mass of the object and $v$ is its velocity.
@@ -3637,13 +3484,11 @@ where $m$ is the mass of the object and $v$ is its velocity.
 Potential energy is the energy held by an object because of its position relative to other objects, stresses within itself, its electric charge, or other factors. The potential energy of an object can be calculated using the equation:
 
 
-
 $$
 
 PE = mgh
 
 $$
-
 
 
 where $m$ is the mass of the object, $g$ is the acceleration due to gravity, and $h$ is the height of the object above the ground.
@@ -3657,13 +3502,11 @@ where $m$ is the mass of the object, $g$ is the acceleration due to gravity, and
 Thermal energy is the internal energy of an object due to the kinetic energy of its atoms and/or molecules. It is related to the temperature of the object. The thermal energy of an object can be calculated using the equation:
 
 
-
 $$
 
 Q = mc\Delta T
 
 $$
-
 
 
 where $m$ is the mass of the object, $c$ is the specific heat capacity of the material, and $\Delta T$ is the change in temperature.
@@ -3725,13 +3568,11 @@ Temperature, on the other hand, is a measure of the average kinetic energy of th
 The relationship between heat and temperature can be expressed by the equation:
 
 
-
 $$
 
 Q = mc\Delta T
 
 $$
-
 
 
 where $Q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the specific heat capacity of the substance, and $\Delta T$ is the change in temperature.
@@ -3761,13 +3602,11 @@ Energy is a fundamental concept in physics and chemistry. It is the capacity to 
 One Joule is defined as the amount of energy transferred when a force of one Newton moves an object through a distance of one meter. Mathematically, it can be represented as:
 
 
-
 $$
 
 1 J = 1 N \cdot m
 
 $$
-
 
 
 where $N$ is the Newton, the SI unit of force, and $m$ is meter, the SI unit of distance.
@@ -3785,13 +3624,11 @@ As we discussed earlier, heat is a form of energy transfer among particles in a 
 One calorie is defined as the amount of heat required to raise the temperature of one gram of water by one degree Celsius at a pressure of one atmosphere. It is equivalent to approximately 4.184 Joules. Mathematically, it can be represented as:
 
 
-
 $$
 
 1 cal = 4.184 J
 
 $$
-
 
 
 It's important to note that the calorie used in nutrition is actually a kilocalorie (kcal), which is 1000 times larger than the calorie used in physics and chemistry.
@@ -3825,13 +3662,11 @@ Heat transfer is a fundamental concept in thermodynamics that describes how ther
 Conduction is the process of heat transfer through direct contact of particles. In solids, it occurs as energetic particles vibrate and collide with their neighbors, transferring their kinetic energy. The mathematical description of heat conduction is given by Fourier's law:
 
 
-
 $$
 
 q = -k \nabla T
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, $\nabla T$ is the temperature gradient. The negative sign indicates that heat flows from regions of higher temperature to regions of lower temperature.
@@ -3845,13 +3680,11 @@ where $q$ is the heat flux, $k$ is the thermal conductivity, $\nabla T$ is the t
 Convection is the process of heat transfer in fluids (liquids and gases) through the bulk movement of matter. It involves the transport of heat and mass due to density differences resulting from temperature variations in the fluid. The mathematical description of convective heat transfer is often given by Newton's law of cooling:
 
 
-
 $$
 
 q = hA(T_{\text{surface}} - T_{\text{fluid}})
 
 $$
-
 
 
 where $q$ is the heat transfer rate, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_{\text{surface}}$ is the temperature of the surface, and $T_{\text{fluid}}$ is the temperature of the fluid.
@@ -3865,13 +3698,11 @@ where $q$ is the heat transfer rate, $h$ is the convective heat transfer coeffic
 Radiation is the process of heat transfer through electromagnetic waves, primarily infrared radiation. Unlike conduction and convection, radiation can occur in a vacuum. The mathematical description of radiative heat transfer is given by the Stefan-Boltzmann law:
 
 
-
 $$
 
 q = \sigma \varepsilon A (T_{\text{hot}}^4 - T_{\text{cold}}^4)
 
 $$
-
 
 
 where $q$ is the heat transfer rate, $\sigma$ is the Stefan-Boltzmann constant, $\varepsilon$ is the emissivity of the material, $A$ is the surface area, $T_{\text{hot}}$ is the temperature of the hot body, and $T_{\text{cold}}$ is the temperature of the cold body.
@@ -3897,13 +3728,11 @@ Specific heat and heat capacity are two fundamental concepts in thermodynamics t
 Specific heat ($c$) is the amount of heat per unit mass required to raise the temperature of a substance by one degree Celsius. The specific heat of a substance depends on the substance itself and its state (solid, liquid, or gas). The mathematical description of specific heat is given by:
 
 
-
 $$
 
 q = mc\Delta T
 
 $$
-
 
 
 where $q$ is the heat added or removed, $m$ is the mass of the substance, $c$ is the specific heat, and $\Delta T$ is the change in temperature. 
@@ -3917,13 +3746,11 @@ where $q$ is the heat added or removed, $m$ is the mass of the substance, $c$ is
 Heat capacity ($C$) is a property of an object, defined as the amount of heat to be supplied to a given mass of a material to produce a unit change in its temperature. It is the product of the specific heat and the mass of the object:
 
 
-
 $$
 
 C = mc
 
 $$
-
 
 
 where $C$ is the heat capacity, $m$ is the mass of the object, and $c$ is the specific heat. 
@@ -3953,13 +3780,11 @@ In the next section, we will explore the concept of latent heat and phase change
 Enthalpy ($H$) is a fundamental concept in thermodynamics that describes the total energy of a system. It is a state function, meaning its value depends only on the current state of the system and not on the path taken to reach that state. The enthalpy of a system is defined as the sum of its internal energy ($U$) and the product of its pressure ($P$) and volume ($V$):
 
 
-
 $$
 
 H = U + PV
 
 $$
-
 
 
 where $H$ is the enthalpy, $U$ is the internal energy, $P$ is the pressure, and $V$ is the volume. 
@@ -3973,13 +3798,11 @@ where $H$ is the enthalpy, $U$ is the internal energy, $P$ is the pressure, and 
 The change in enthalpy ($\Delta H$) of a system is defined as the heat absorbed or released by the system at constant pressure. It is given by the difference in enthalpy between the final and initial states of the system:
 
 
-
 $$
 
 \Delta H = H_{final} - H_{initial}
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy, $H_{final}$ is the enthalpy of the final state, and $H_{initial}$ is the enthalpy of the initial state. 
@@ -4013,13 +3836,11 @@ The enthalpy of formation, or heat of formation, is a specific type of enthalpy 
 The enthalpy of formation is denoted as $\Delta H_f^{\circ}$, where the superscript circle indicates standard conditions. For an element in its standard state, the enthalpy of formation is defined as zero. For a compound, it is given by the following equation:
 
 
-
 $$
 
 \Delta H_f^{\circ} = H_{compound}^{\circ} - \sum H_{elements}^{\circ}
 
 $$
-
 
 
 where $\Delta H_f^{\circ}$ is the enthalpy of formation, $H_{compound}^{\circ}$ is the enthalpy of the compound in its standard state, and $\sum H_{elements}^{\circ}$ is the sum of the enthalpies of the constituent elements in their standard states.
@@ -4057,13 +3878,11 @@ The standard conditions, as mentioned in the previous section, refer to a pressu
 The general equation for the enthalpy of combustion is given by:
 
 
-
 $$
 
 \Delta H_c^{\circ} = \sum H_{products}^{\circ} - H_{reactant}^{\circ}
 
 $$
-
 
 
 where $\Delta H_c^{\circ}$ is the enthalpy of combustion, $\sum H_{products}^{\circ}$ is the sum of the enthalpies of the products in their standard states, and $H_{reactant}^{\circ}$ is the enthalpy of the reactant in its standard state.
@@ -4097,13 +3916,11 @@ The standard conditions, as mentioned in the previous sections, refer to a press
 The general equation for the enthalpy of reaction is given by:
 
 
-
 $$
 
 \Delta H_r^{\circ} = \sum H_{products}^{\circ} - \sum H_{reactants}^{\circ}
 
 $$
-
 
 
 where $\Delta H_r^{\circ}$ is the enthalpy of reaction, $\sum H_{products}^{\circ}$ is the sum of the enthalpies of the products in their standard states, and $\sum H_{reactants}^{\circ}$ is the sum of the enthalpies of the reactants in their standard states.
@@ -4141,13 +3958,11 @@ This principle is based on the fact that enthalpy is a state function, which mea
 Mathematically, Hess's Law can be expressed as:
 
 
-
 $$
 
 \Delta H_{total} = \sum \Delta H_{steps}
 
 $$
-
 
 
 where $\Delta H_{total}$ is the total enthalpy change for the reaction, and $\Delta H_{steps}$ is the enthalpy change for each step in the reaction.
@@ -4193,13 +4008,11 @@ Consider a gas in a container. If all the gas molecules are in one corner of the
 Mathematically, the entropy $S$ of a system can be defined using Boltzmann's entropy formula:
 
 
-
 $$
 
 S = k \ln W
 
 $$
-
 
 
 where $k$ is Boltzmann's constant and $W$ is the number of microstates corresponding to the macrostate of the system. A microstate is a specific arrangement of particles, while a macrostate is defined by macroscopic properties like pressure and temperature. The more microstates a macrostate has, the higher its entropy.
@@ -4225,13 +4038,11 @@ Entropy change in reactions, often denoted as $\Delta S$, is a crucial concept i
 The entropy change of a reaction can be calculated using the formula:
 
 
-
 $$
 
 \Delta S = S_{\text{products}} - S_{\text{reactants}}
 
 $$
-
 
 
 where $S_{\text{products}}$ is the total entropy of the products and $S_{\text{reactants}}$ is the total entropy of the reactants. If $\Delta S$ is positive, the reaction may be spontaneous at constant temperature and pressure. However, a positive $\Delta S$ does not guarantee spontaneity, as the reaction's enthalpy change and temperature also play a role.
@@ -4241,13 +4052,11 @@ where $S_{\text{products}}$ is the total entropy of the products and $S_{\text{r
 The entropy change in a reaction is also related to the heat transferred during the reaction. For a reversible process at constant temperature, the entropy change can be calculated from the heat transferred ($q_{\text{rev}}$) and the temperature ($T$) using the formula:
 
 
-
 $$
 
 \Delta S = \frac{q_{\text{rev}}}{T}
 
 $$
-
 
 
 This equation shows that the entropy change is directly proportional to the heat transferred and inversely proportional to the temperature.
@@ -4273,13 +4082,11 @@ Standard entropy, often denoted as $S^{\circ}$, is a measure of the entropy of a
 The standard entropy of a substance can be determined experimentally by measuring the heat capacity at constant pressure ($C_p$) and integrating over the temperature range from absolute zero to the standard temperature (298 K). The formula for this is:
 
 
-
 $$
 
 S^{\circ} = \int_0^{298} \frac{C_p}{T} dT
 
 $$
-
 
 
 where $T$ is the temperature and $d$ denotes a small change in the variable. This equation shows that the standard entropy is directly proportional to the heat capacity and inversely proportional to the temperature.
@@ -4289,13 +4096,11 @@ where $T$ is the temperature and $d$ denotes a small change in the variable. Thi
 The standard entropy of a reaction, denoted as $\Delta S^{\circ}$, is the difference in standard entropy between the products and the reactants. It can be calculated using the formula:
 
 
-
 $$
 
 \Delta S^{\circ} = \sum S^{\circ}_{\text{products}} - \sum S^{\circ}_{\text{reactants}}
 
 $$
-
 
 
 where $\sum S^{\circ}_{\text{products}}$ is the total standard entropy of the products and $\sum S^{\circ}_{\text{reactants}}$ is the total standard entropy of the reactants. If $\Delta S^{\circ}$ is positive, the reaction may be spontaneous at standard conditions. However, a positive $\Delta S^{\circ}$ does not guarantee spontaneity, as the reaction's enthalpy change and temperature also play a role.
@@ -4317,13 +4122,11 @@ The Gibbs free energy, denoted as $G$, is a thermodynamic potential that measure
 The Gibbs free energy is defined as:
 
 
-
 $$
 
 G = H - TS
 
 $$
-
 
 
 where $H$ is the enthalpy, $T$ is the absolute temperature, and $S$ is the entropy of the system. This equation shows that the Gibbs free energy is a balance between the system's enthalpy, which tends to decrease $G$, and its entropy, which tends to increase $G$.
@@ -4333,13 +4136,11 @@ where $H$ is the enthalpy, $T$ is the absolute temperature, and $S$ is the entro
 The change in Gibbs free energy, denoted as $\Delta G$, is a measure of the maximum work that can be done by a system during a process at constant temperature and pressure. It is given by:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy and $\Delta S$ is the change in entropy. This equation shows that a process will be spontaneous (i.e., it will occur without the need for external work) if and only if $\Delta G$ is negative.
@@ -4349,13 +4150,11 @@ where $\Delta H$ is the change in enthalpy and $\Delta S$ is the change in entro
 The Gibbs free energy is also related to the chemical potential $\mu$ of a substance, which is a measure of the energy change when a small amount of the substance is added to a system. At equilibrium, the Gibbs free energy is minimized, and the chemical potential is given by:
 
 
-
 $$
 
 \mu = \frac{\partial G}{\partial N}
 
 $$
-
 
 
 where $N$ is the number of particles of the substance in the system. This equation shows that the chemical potential is the rate of change of the Gibbs free energy with respect to the number of particles.
@@ -4381,13 +4180,11 @@ The concept of entropy is also closely related to the concept of spontaneity in 
 The change in entropy, denoted as $\Delta S$, is given by:
 
 
-
 $$
 
 \Delta S = S_{\text{final}} - S_{\text{initial}}
 
 $$
-
 
 
 where $S_{\text{final}}$ is the entropy of the system at the end of the process, and $S_{\text{initial}}$ is the entropy of the system at the beginning of the process. This equation shows that a process will be spontaneous if and only if $\Delta S$ is positive.
@@ -4397,13 +4194,11 @@ where $S_{\text{final}}$ is the entropy of the system at the end of the process,
 However, in real-world applications, we often deal with systems that are not isolated. In such cases, we need to consider not only the entropy change of the system, but also the entropy change of the surroundings. The total entropy change, denoted as $\Delta S_{\text{total}}$, is given by:
 
 
-
 $$
 
 \Delta S_{\text{total}} = \Delta S_{\text{system}} + \Delta S_{\text{surroundings}}
 
 $$
-
 
 
 where $\Delta S_{\text{system}}$ is the entropy change of the system, and $\Delta S_{\text{surroundings}}$ is the entropy change of the surroundings. A process will be spontaneous if and only if $\Delta S_{\text{total}}$ is positive.
@@ -4425,13 +4220,11 @@ The Gibbs free energy, denoted as $G$, is a thermodynamic potential that measure
 The Gibbs free energy is defined as:
 
 
-
 $$
 
 G = H - TS
 
 $$
-
 
 
 where $H$ is the enthalpy of the system, $T$ is the absolute temperature, and $S$ is the entropy of the system. This equation shows that the Gibbs free energy is a balance between the system's tendency to increase its entropy (which would increase $G$) and its tendency to decrease its enthalpy (which would decrease $G$).
@@ -4445,13 +4238,11 @@ where $H$ is the enthalpy of the system, $T$ is the absolute temperature, and $S
 The change in Gibbs free energy, denoted as $\Delta G$, is a key factor in determining whether a process will be spontaneous. It is given by:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy, and $\Delta S$ is the change in entropy. This equation shows that a process will be spontaneous if and only if $\Delta G$ is negative.
@@ -4481,13 +4272,11 @@ The standard Gibbs free energy change, denoted as $\Delta G^{\circ}$, is the cha
 The standard Gibbs free energy change is given by:
 
 
-
 $$
 
 \Delta G^{\circ} = \Delta H^{\circ} - T\Delta S^{\circ}
 
 $$
-
 
 
 where $\Delta H^{\circ}$ is the standard enthalpy change, and $\Delta S^{\circ}$ is the standard entropy change. 
@@ -4501,13 +4290,11 @@ The standard Gibbs free energy change is particularly useful for predicting the 
 The standard Gibbs free energy change can also be related to the equilibrium constant of a reaction. The relationship is given by the equation:
 
 
-
 $$
 
 \Delta G^{\circ} = -RT \ln K
 
 $$
-
 
 
 where $R$ is the gas constant, $T$ is the absolute temperature, and $K$ is the equilibrium constant. This equation shows that a reaction with a large positive equilibrium constant (indicating that the products are favored at equilibrium) will have a large negative standard Gibbs free energy change, and vice versa.
@@ -4533,13 +4320,11 @@ The spontaneity of a chemical reaction can be predicted by the sign of the Gibbs
 The Gibbs free energy change for a reaction is given by:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the enthalpy change, $T$ is the absolute temperature, and $\Delta S$ is the entropy change. 
@@ -4585,13 +4370,11 @@ In the previous section, we discussed how the Gibbs free energy change, $\Delta 
 At equilibrium, the Gibbs free energy of the system is at its minimum. This is because the system has reached a state where it is most stable, and any further changes would require an input of energy. This can be mathematically represented as:
 
 
-
 $$
 
 G = \sum_{j} \mu_{j} N_{j}
 
 $$
-
 
 
 where $\mu_{j}$ is the chemical potential of molecular species "j", and $N_{j}$ is the amount of molecular species "j". 
@@ -4601,13 +4384,11 @@ where $\mu_{j}$ is the chemical potential of molecular species "j", and $N_{j}$ 
 The chemical potential can be expressed in terms of thermodynamic activity as:
 
 
-
 $$
 
 \mu_{j} = \mu_{j}^{\ominus} + RT \ln A_{j}
 
 $$
-
 
 
 where $\mu_{j}^{\ominus}$ is the chemical potential in the standard state, "R" is the gas constant, "T" is the absolute temperature, and "A_{j}$" is the activity.
@@ -4617,13 +4398,11 @@ where $\mu_{j}^{\ominus}$ is the chemical potential in the standard state, "R" i
 In a closed system, the total number of atoms of each element remains constant, even though they may combine in different ways. This leads to the constraints:
 
 
-
 $$
 
 \sum_{j} a_{ij} N_{j} = b_{i}
 
 $$
-
 
 
 where $a_{ij}$ is the number of atoms of element "i" in molecule "j" and $b_{i}$ is the total number of atoms of element "i". 
@@ -4633,13 +4412,11 @@ where $a_{ij}$ is the number of atoms of element "i" in molecule "j" and $b_{i}$
 This constrained minimization problem can be solved using the method of Lagrange multipliers. We define:
 
 
-
 $$
 
 L = G - \sum_{i} \lambda_{i} (\sum_{j} a_{ij} N_{j} - b_{i})
 
 $$
-
 
 
 where the $\lambda_{i}$ are the Lagrange multipliers, one for each element. 
@@ -4649,7 +4426,6 @@ where the $\lambda_{i}$ are the Lagrange multipliers, one for each element.
 The equilibrium condition is then given by:
 
 
-
 $$
 
 \frac{\partial L}{\partial N_{j}} = 0
@@ -4657,9 +4433,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -4667,7 +4441,6 @@ $$
 \frac{\partial L}{\partial \lambda_{i}} = 0
 
 $$
-
 
 
 These equations can be solved to find the equilibrium concentrations $N_{j}$, provided the chemical activities are known. 
@@ -4689,13 +4462,11 @@ In the previous sections, we have discussed the Gibbs free energy and its relati
 The Gibbs free energy ($G$) is defined as:
 
 
-
 $$
 
 G = H - TS
 
 $$
-
 
 
 where $H$ is the enthalpy, $T$ is the absolute temperature, and $S$ is the entropy of the system. 
@@ -4709,13 +4480,11 @@ From this equation, we can see that the Gibbs free energy is dependent on temper
 The temperature dependence of the Gibbs free energy can be further understood by considering the Gibbs-Helmholtz equation:
 
 
-
 $$
 
 \left(\frac{\partial (G/T)}{\partial T}\right)_P = -\frac{H}{T^2}
 
 $$
-
 
 
 This equation shows that the rate of change of $G/T$ with respect to temperature at constant pressure is equal to the negative enthalpy divided by the square of the temperature. 
@@ -4725,13 +4494,11 @@ This equation shows that the rate of change of $G/T$ with respect to temperature
 The Gibbs-Helmholtz equation is particularly useful in understanding the temperature dependence of equilibrium constants. The equilibrium constant $K$ for a reaction is related to the standard Gibbs free energy change $\Delta G^{\ominus}$ by the equation:
 
 
-
 $$
 
 \Delta G^{\ominus} = -RT \ln K
 
 $$
-
 
 
 where $R$ is the gas constant. 
@@ -4741,13 +4508,11 @@ where $R$ is the gas constant.
 By combining this equation with the Gibbs-Helmholtz equation, we can derive the van 't Hoff equation, which describes the temperature dependence of the equilibrium constant:
 
 
-
 $$
 
 \frac{d \ln K}{dT} = \frac{\Delta H^{\ominus}}{RT^2}
 
 $$
-
 
 
 This equation shows that the rate of change of the natural logarithm of the equilibrium constant with respect to temperature is equal to the standard enthalpy change divided by the product of the gas constant and the square of the temperature. 
@@ -4863,13 +4628,11 @@ Le Chatelier's Principle states that if a dynamic equilibrium is disturbed by ch
 Let's consider a general reaction at equilibrium:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
 
 $$
-
 
 
 where $A$ and $B$ are reactants, $C$ and $D$ are products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients.
@@ -4907,13 +4670,11 @@ As we have discussed in the previous section, changes in concentration can signi
 Let's consider the following reaction at equilibrium:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
 
 $$
-
 
 
 where $A$ and $B$ are reactants, $C$ and $D$ are products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients.
@@ -4931,13 +4692,11 @@ Conversely, if the concentration of a product (say $C$) is increased, the system
 This can be illustrated by the equilibrium of carbon monoxide (CO) and hydrogen gas (H2), reacting to form methanol (CH3OH):
 
 
-
 $$
 
 CO(g) + 2H2(g) \rightleftharpoons CH3OH(g)
 
 $$
-
 
 
 Suppose we were to increase the concentration of CO in the system. Using Le Chatelier's principle, we can predict that the concentration of methanol will increase, decreasing the total change in CO. This is because the system will shift the equilibrium to the right to counteract the increase in CO, resulting in the formation of more methanol.
@@ -4963,13 +4722,11 @@ The effect of pressure changes on equilibrium is most noticeable in gaseous syst
 Consider the following general reaction involving gases at equilibrium:
 
 
-
 $$
 
 aA(g) + bB(g) \rightleftharpoons cC(g) + dD(g)
 
 $$
-
 
 
 where $A$ and $B$ are reactants, $C$ and $D$ are products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients.
@@ -4983,13 +4740,11 @@ If the pressure of the system is increased, the system will respond by shifting 
 For example, consider the synthesis of ammonia from nitrogen and hydrogen:
 
 
-
 $$
 
 N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)
 
 $$
-
 
 
 In this reaction, the total number of gas molecules decreases from 4 on the reactant side to 2 on the product side. Therefore, if the pressure is increased, the equilibrium will shift to the right, towards the ammonia, in order to decrease the total number of gas molecules and thus counteract the increase in pressure.
@@ -5019,13 +4774,11 @@ The effect of temperature changes on equilibrium is most noticeable in exothermi
 Consider the following general reaction at equilibrium:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD + \Delta H
 
 $$
-
 
 
 where $A$ and $B$ are reactants, $C$ and $D$ are products, $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients, and $\Delta H$ is the heat of the reaction.
@@ -5043,13 +4796,11 @@ On the other hand, if the reaction is endothermic ($\Delta H > 0$), heat is abso
 For example, consider the synthesis of ammonia from nitrogen and hydrogen:
 
 
-
 $$
 
 N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g) + \Delta H
 
 $$
-
 
 
 In this reaction, the heat of the reaction is negative, indicating that it is exothermic. Therefore, if the temperature is increased, the equilibrium will shift to the left, towards the nitrogen and hydrogen, in order to absorb the excess heat. Conversely, if the temperature is decreased, the equilibrium will shift to the right, towards the ammonia, in order to release heat and counteract the decrease in temperature.
@@ -5071,13 +4822,11 @@ Catalysts play a crucial role in chemical reactions, including those at equilibr
 Consider a general reaction at equilibrium:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
 
 $$
-
 
 
 where $A$ and $B$ are reactants, $C$ and $D$ are products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients.
@@ -5091,13 +4840,11 @@ The addition of a catalyst does not change the concentrations of the reactants o
 For example, consider the synthesis of ammonia from nitrogen and hydrogen:
 
 
-
 $$
 
 N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)
 
 $$
-
 
 
 In this reaction, the use of an iron catalyst significantly increases the rate of reaction, allowing the system to reach equilibrium more quickly. However, the concentrations of nitrogen, hydrogen, and ammonia at equilibrium remain the same whether the catalyst is present or not.
@@ -5131,7 +4878,6 @@ The equilibrium constant, denoted as $K$, is a measure of the ratio of the conce
 Consider a general chemical reaction at equilibrium:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
@@ -5139,9 +4885,7 @@ aA + bB \rightleftharpoons cC + dD
 $$
 
 
-
 where $A$ and $B$ are reactants, $C$ and $D$ are products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients. The equilibrium constant expression for this reaction is given by:
-
 
 
 $$
@@ -5149,7 +4893,6 @@ $$
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where the square brackets denote the molar concentrations of the species at equilibrium. 
@@ -5179,7 +4922,6 @@ In the previous section, we introduced the concept of the equilibrium constant, 
 The reaction quotient, $Q$, is a measure of the ratio of the concentrations of products to reactants at any point in time during a reaction, not just at equilibrium. It is calculated in the same way as the equilibrium constant, $K$. For a general reaction:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
@@ -5187,9 +4929,7 @@ aA + bB \rightleftharpoons cC + dD
 $$
 
 
-
 The reaction quotient is given by:
-
 
 
 $$
@@ -5199,7 +4939,6 @@ Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 The value of $Q$ can be compared to the equilibrium constant, $K$, to predict the direction in which a reaction will proceed. If $Q < K$, the reaction will proceed in the forward direction to reach equilibrium, as there are more reactants than required. Conversely, if $Q > K$, the reaction will proceed in the reverse direction, as there are more products than required.
 
 
@@ -5207,13 +4946,11 @@ The value of $Q$ can be compared to the equilibrium constant, $K$, to predict th
 The relationship between the equilibrium constant, $K$, and the reaction quotient, $Q$, is also related to the Gibbs free energy change, $\Delta G$. The standard Gibbs free energy change, $\Delta G^o$, can be related to the equilibrium constant by the equation:
 
 
-
 $$
 
 \Delta G^o = -RT \ln K
 
 $$
-
 
 
 where $R$ is the gas constant and $T$ is the temperature. This equation shows that the equilibrium constant can be determined from the standard Gibbs free energy change for the reaction.
@@ -5239,7 +4976,6 @@ The equilibrium constant can be expressed in terms of either the concentrations 
 For a general reaction involving gases:
 
 
-
 $$
 
 aA(g) + bB(g) \rightleftharpoons cC(g) + dD(g)
@@ -5247,9 +4983,7 @@ aA(g) + bB(g) \rightleftharpoons cC(g) + dD(g)
 $$
 
 
-
 The equilibrium constant in terms of concentration, $K_c$, is given by:
-
 
 
 $$
@@ -5259,9 +4993,7 @@ K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 $$
 
 
-
 And the equilibrium constant in terms of pressure, $K_p$, is given by:
-
 
 
 $$
@@ -5271,7 +5003,6 @@ K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
 $$
 
 
-
 where $P_i$ is the partial pressure of substance $i$.
 
 
@@ -5279,13 +5010,11 @@ where $P_i$ is the partial pressure of substance $i$.
 The relationship between $K_c$ and $K_p$ is given by the equation:
 
 
-
 $$
 
 K_p = K_c(RT)^{\Delta n}
 
 $$
-
 
 
 where $R$ is the ideal gas constant, $T$ is the temperature in Kelvin, and $\Delta n$ is the change in moles of gas in the reaction, calculated as $\Delta n = (c + d) - (a + b)$.
@@ -5315,7 +5044,6 @@ The reaction quotient, $Q$, is a measure of the relative amounts of products and
 For a general reaction:
 
 
-
 $$
 
 aA + bB \rightleftharpoons cC + dD
@@ -5323,9 +5051,7 @@ aA + bB \rightleftharpoons cC + dD
 $$
 
 
-
 The reaction quotient, $Q$, is given by:
-
 
 
 $$
@@ -5333,7 +5059,6 @@ $$
 Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where the square brackets denote the molar concentrations of the substances at a particular point in time.
@@ -5359,7 +5084,6 @@ In the previous sections, we have discussed the equilibrium constants in terms o
 The equilibrium constant, $K_p$, is used when dealing with gases and is defined in terms of the partial pressures of the reactants and products. For a general reaction:
 
 
-
 $$
 
 aA(g) + bB(g) \rightleftharpoons cC(g) + dD(g)
@@ -5367,9 +5091,7 @@ aA(g) + bB(g) \rightleftharpoons cC(g) + dD(g)
 $$
 
 
-
 The equilibrium constant, $K_p$, is given by:
-
 
 
 $$
@@ -5379,7 +5101,6 @@ K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
 $$
 
 
-
 where $P_i$ denotes the partial pressure of substance $i$ at equilibrium.
 
 
@@ -5387,13 +5108,11 @@ where $P_i$ denotes the partial pressure of substance $i$ at equilibrium.
 The relationship between $K_p$ and $K_c$ is given by the equation:
 
 
-
 $$
 
 K_p = K_c(RT)^{\Delta n}
 
 $$
-
 
 
 where $R$ is the ideal gas constant, $T$ is the absolute temperature in Kelvin, and $\Delta n$ is the change in moles of gas in the balanced chemical equation (calculated as moles of gaseous products minus moles of gaseous reactants).
@@ -5423,21 +5142,17 @@ The Arrhenius theory, proposed by Svante Arrhenius in the late 19th century, pro
 Mathematically, for an acid (HA) and a base (BOH), the reactions can be represented as:
 
 
-
 $$
 
 HA \rightarrow H^+ + A^-
 
 $$
 
-
-
 $$
 
 BOH \rightarrow B^+ + OH^-
 
 $$
-
 
 
 The strength of an acid or a base, according to Arrhenius, is determined by the degree of ionization or dissociation in water. A strong acid or base completely ionizes or dissociates in water, while a weak acid or base only partially ionizes or dissociates.
@@ -5463,13 +5178,11 @@ The Bronsted-Lowry theory, proposed by Johannes Nicolaus Brønsted and Thomas Ma
 Mathematically, for an acid (HA) and a base (B), the reactions can be represented as:
 
 
-
 $$
 
 HA + B \rightarrow A^- + HB^+
 
 $$
-
 
 
 In this reaction, HA donates a proton to become its conjugate base $A^-$, and B accepts a proton to become its conjugate acid $HB^+$. This theory allows us to understand the behavior of substances like ammonia ($NH_3$), which can accept a proton to become ammonium ($NH_4^+$), thus acting as a base even though it does not contain hydroxide ions.
@@ -5499,13 +5212,11 @@ The Lewis theory of acids and bases, proposed by Gilbert N. Lewis in 1923, provi
 Mathematically, for a Lewis acid (A) and a Lewis base (B), the reactions can be represented as:
 
 
-
 $$
 
 A + :B \rightarrow A:B
 
 $$
-
 
 
 In this reaction, A accepts an electron pair from B to form a coordinate covalent bond, represented by the colon in the equation. This theory allows us to understand the behavior of substances like BF<sub>3</sub>, which can accept an electron pair to form BF<sub>4</sub><sup>-</sup>, thus acting as a Lewis acid even though it does not accept a proton.
@@ -5539,13 +5250,11 @@ In the context of acid-base reactions, the concept of conjugate acid-base pairs 
 Mathematically, for a Bronsted-Lowry acid (HA) and a Bronsted-Lowry base (B), the reactions can be represented as:
 
 
-
 $$
 
 HA + B \rightarrow A^- + HB^+
 
 $$
-
 
 
 In this reaction, HA donates a proton to B, forming its conjugate base, $A^-$, and the conjugate acid of B, $HB^+$. The reverse reaction also holds true, where $A^-$ can accept a proton from $HB^+$, regenerating the original acid and base. 
@@ -5571,7 +5280,6 @@ In the next section, we will delve into the quantitative aspects of acid-base eq
 The acid dissociation constant, often denoted as $K_a$, is a measure of the strength of an acid in solution. It is the equilibrium constant for the dissociation of a Bronsted-Lowry acid in water. For a general acid dissociation of a monoprotic acid, HA, the reaction can be represented as:
 
 
-
 $$
 
 HA \rightleftharpoons H^+ + A^-
@@ -5579,9 +5287,7 @@ HA \rightleftharpoons H^+ + A^-
 $$
 
 
-
 The $K_a$ for this reaction is given by:
-
 
 
 $$
@@ -5589,7 +5295,6 @@ $$
 K_a = \frac{[H^+][A^-]}{[HA]}
 
 $$
-
 
 
 where $[H^+]$, $[A^-]$, and $[HA]$ represent the molar concentrations of the ions and the undissociated acid at equilibrium. 
@@ -5615,21 +5320,17 @@ Isotopic substitution can lead to changes in the values of acid dissociation con
 For example, consider the acid dissociation of a weak aqueous acid and its deuterated counterpart:
 
 
-
 $$
 
 HA + H_2O \rightleftharpoons H_3O^+ + A^-
 
 $$
 
-
-
 $$
 
 DA + D_2O \rightleftharpoons D_3O^+ + A^-
 
 $$
-
 
 
 The deuterated acid is studied in heavy water, since if it were dissolved in ordinary water the deuterium would rapidly exchange with hydrogen in the solvent. The decrease in zero-point energy due to deuterium substitution will be more important for the O–H bond in water than for the H–A bond in the acid, and $D_3O^+$ will be stabilized more than $H_3O^+$, so that the equilibrium constant $K_D$ for the deuterated reaction is greater than $K_H$ for the non-deuterated reaction. 
@@ -5651,7 +5352,6 @@ In the next section, we will discuss the concept of pH and its relationship with
 Just as acids have an acid dissociation constant, bases have a base dissociation constant, often denoted as $K_b$. This constant is a measure of the strength of a base in solution. It is the equilibrium constant for the dissociation of a Bronsted-Lowry base in water. For a general base dissociation of a monoprotic base, BOH, the reaction can be represented as:
 
 
-
 $$
 
 BOH \rightleftharpoons B^+ + OH^-
@@ -5659,9 +5359,7 @@ BOH \rightleftharpoons B^+ + OH^-
 $$
 
 
-
 The $K_b$ for this reaction is given by:
-
 
 
 $$
@@ -5669,7 +5367,6 @@ $$
 K_b = \frac{[B^+][OH^-]}{[BOH]}
 
 $$
-
 
 
 where $[B^+]$, $[OH^-]$, and $[BOH]$ represent the molar concentrations of the ions and the undissociated base at equilibrium. 
@@ -5691,13 +5388,11 @@ Just like $K_a$, the $K_b$ value is also temperature-dependent and is typically 
 The acid dissociation constant ($K_a$) and the base dissociation constant ($K_b$) are related to the ion product of water ($K_w$). At 25 degrees Celsius, $K_w$ is $1.0 \times 10^{-14}$. The relationship between these constants is given by:
 
 
-
 $$
 
 K_a \times K_b = K_w
 
 $$
-
 
 
 This relationship is useful in calculating the $K_a$ of a conjugate acid if the $K_b$ of the base is known, and vice versa. 
@@ -5715,21 +5410,17 @@ Just as isotopic substitution can affect acid dissociation constants, it can als
 Consider the base dissociation of a weak aqueous base and its deuterated counterpart:
 
 
-
 $$
 
 BOH + H_2O \rightleftharpoons B^+ + OH^- + H_2O
 
 $$
 
-
-
 $$
 
 BOD + D_2O \rightleftharpoons B^+ + OD^- + D_2O
 
 $$
-
 
 
 The deuterated base is studied in heavy water, since if it were dissolved in ordinary water the deuterium would rapidly exchange with hydrogen in the solvent. The decrease in zero-point energy due to deuterium substitution will be more important for the O–H bond in water than for the H–B bond in the base, and $OD^-$ will be stabilized more than $OH^-$, so that the equilibrium constant $K_D$ for the deuterated reaction is greater than $K_H$ for the non-deuterated reaction. 
@@ -5747,7 +5438,6 @@ This is summarized in the rule "the heavier atom favors the stronger bond", whic
 The pH and pOH of a solution are measures of the acidity and basicity of the solution, respectively. The pH is defined as the negative logarithm (base 10) of the concentration of hydrogen ions, $[H^+]$, in a solution. Mathematically, this is represented as:
 
 
-
 $$
 
 pH = -\log[H^+]
@@ -5755,9 +5445,7 @@ pH = -\log[H^+]
 $$
 
 
-
 Similarly, the pOH is defined as the negative logarithm of the concentration of hydroxide ions, $[OH^-]$, in a solution:
-
 
 
 $$
@@ -5767,9 +5455,7 @@ pOH = -\log[OH^-]
 $$
 
 
-
 At 25 degrees Celsius, the sum of the pH and pOH of a solution is always equal to 14. This is due to the ion product of water, $K_w$, which is $1.0 \times 10^{-14}$ at this temperature. The relationship between pH, pOH, and $K_w$ is given by:
-
 
 
 $$
@@ -5777,7 +5463,6 @@ $$
 pH + pOH = -\log[H^+] - \log[OH^-] = -\log(K_w) = 14
 
 $$
-
 
 
 This relationship allows us to calculate the pH of a solution if the pOH is known, and vice versa.
@@ -5791,7 +5476,6 @@ This relationship allows us to calculate the pH of a solution if the pOH is know
 In acid-base equilibria, the pH and pOH play crucial roles. For instance, in the dissociation of a weak acid, HA, the reaction can be represented as:
 
 
-
 $$
 
 HA \rightleftharpoons H^+ + A^-
@@ -5799,9 +5483,7 @@ HA \rightleftharpoons H^+ + A^-
 $$
 
 
-
 The acid dissociation constant, $K_a$, for this reaction is given by:
-
 
 
 $$
@@ -5811,9 +5493,7 @@ K_a = \frac{[H^+][A^-]}{[HA]}
 $$
 
 
-
 Taking the negative logarithm of both sides, we get:
-
 
 
 $$
@@ -5823,13 +5503,11 @@ $$
 $$
 
 
-
 This equation is known as the Henderson-Hasselbalch equation, which relates the pH of a solution to the pKa of the acid and the ratio of the concentrations of the conjugate base and the acid.
 
 
 
 Similarly, for the dissociation of a weak base, BOH, the reaction can be represented as:
-
 
 
 $$
@@ -5839,9 +5517,7 @@ BOH \rightleftharpoons B^+ + OH^-
 $$
 
 
-
 The base dissociation constant, $K_b$, for this reaction is given by:
-
 
 
 $$
@@ -5851,9 +5527,7 @@ K_b = \frac{[B^+][OH^-]}{[BOH]}
 $$
 
 
-
 Taking the negative logarithm of both sides, we get:
-
 
 
 $$
@@ -5861,7 +5535,6 @@ $$
 -\log(K_b) = -\log\left(\frac{[B^+][OH^-]}{[BOH]}\right) = pOH + \log\left(\frac{[B^+]}{[BOH]}\right)
 
 $$
-
 
 
 This equation is the base analogue of the Henderson-Hasselbalch equation, which relates the pOH of a solution to the pKb of the base and the ratio of the concentrations of the conjugate acid and the base. 
@@ -5879,13 +5552,11 @@ Phosphate buffer systems are commonly used in biological and chemical research d
 The pH of a phosphate buffer system can be calculated using the Henderson-Hasselbalch equation. For example, for the buffer system involving $H_2PO_4^-$ and $HPO_4^{2-}$, the equation is:
 
 
-
 $$
 
 pH = pK_a + \log\left(\frac{[HPO_4^{2-}]}{[H_2PO_4^-]}\right)
 
 $$
-
 
 
 where $pK_a$ is the acid dissociation constant for $H_2PO_4^-$. 
@@ -5895,13 +5566,11 @@ where $pK_a$ is the acid dissociation constant for $H_2PO_4^-$.
 Similarly, the pOH of a phosphate buffer system can be calculated using the base analogue of the Henderson-Hasselbalch equation. For example, for the buffer system involving $HPO_4^{2-}$ and $PO_4^{3-}$, the equation is:
 
 
-
 $$
 
 pOH = pK_b + \log\left(\frac{[PO_4^{3-}]}{[HPO_4^{2-}]}\right)
 
 $$
-
 
 
 where $pK_b$ is the base dissociation constant for $HPO_4^{2-}$. 
@@ -5927,13 +5596,11 @@ Strong acids and bases are substances that completely dissociate into their ions
 Strong acids are characterized by their ability to donate protons (H<sup>+</sup>) completely in an aqueous solution. Examples of strong acids include hydrochloric acid (HCl), nitric acid (HNO<sub>3</sub>), and sulfuric acid (H<sub>2</sub>SO<sub>4</sub>). These acids ionize completely in water, as shown in the general reaction below:
 
 
-
 $$
 
 HA \rightarrow H^+ + A^-
 
 $$
-
 
 
 In the context of superacids, triflidic acid (Tf<sub>3</sub>CH) and fluoroantimonic acid (HSbF<sub>6</sub>) are notable examples. Triflidic acid is one of the strongest known carbon acids and is among the strongest Brønsted acids in general, with an acidity exceeded only by the carborane acids[^1^]. Fluoroantimonic acid is the strongest superacid based on the measured value of its Hammett acidity function (H<sub>0</sub>)[^2^].
@@ -5947,13 +5614,11 @@ In the context of superacids, triflidic acid (Tf<sub>3</sub>CH) and fluoroantimo
 Strong bases, on the other hand, are substances that completely ionize in water to yield hydroxide ions (OH<sup>-</sup>). Examples of strong bases include sodium hydroxide (NaOH), potassium hydroxide (KOH), and barium hydroxide (Ba(OH)<sub>2</sub>). These bases dissociate completely in water, as shown in the general reaction below:
 
 
-
 $$
 
 BOH \rightarrow B^+ + OH^-
 
 $$
-
 
 
 The strength of acids and bases is often quantified in terms of the acid dissociation constant (K<sub>a</sub>) for acids, and the base dissociation constant (K<sub>b</sub>) for bases. For strong acids and bases, these values are large, indicating that the ionization reaction proceeds almost to completion.
@@ -5981,7 +5646,6 @@ In the next section, we will explore the concept of acid-base titrations, which 
 Weak acids are substances that do not completely ionize in water. They partially donate protons (H<sup>+</sup>) in an aqueous solution, resulting in an equilibrium between the undissociated acid molecules and the ions. The general reaction for a weak acid (HA) in water can be represented as:
 
 
-
 $$
 
 HA \rightleftharpoons H^+ + A^-
@@ -5989,9 +5653,7 @@ HA \rightleftharpoons H^+ + A^-
 $$
 
 
-
 The equilibrium constant for this reaction is known as the acid dissociation constant, or $K_a$, and is given by:
-
 
 
 $$
@@ -5999,7 +5661,6 @@ $$
 K_a = \frac{[H^+][A^-]}{[HA]}
 
 $$
-
 
 
 Examples of weak acids include acetic acid (CH<sub>3</sub>COOH), carbonic acid (H<sub>2</sub>CO<sub>3</sub>), and phosphoric acid (H<sub>3</sub>PO<sub>4</sub>). These acids only partially ionize in water, resulting in a mixture of ions and undissociated acid molecules.
@@ -6013,7 +5674,6 @@ Examples of weak acids include acetic acid (CH<sub>3</sub>COOH), carbonic acid (
 A weak base, similar to a weak acid, does not completely dissociate in water. Instead, it partially accepts protons (H<sup>+</sup>) from water, resulting in an equilibrium between the undissociated base molecules and the ions. The general reaction for a weak base (B) in water can be represented as:
 
 
-
 $$
 
 B + H_2O \rightleftharpoons BH^+ + OH^-
@@ -6021,9 +5681,7 @@ B + H_2O \rightleftharpoons BH^+ + OH^-
 $$
 
 
-
 The equilibrium constant for this reaction is known as the base dissociation constant, or $K_b$, and is given by:
-
 
 
 $$
@@ -6031,7 +5689,6 @@ $$
 K_b = \frac{[BH^+][OH^-]}{[B]}
 
 $$
-
 
 
 Examples of weak bases include ammonia (NH<sub>3</sub>), methylamine (CH<sub>3</sub>NH<sub>2</sub>), and pyridine (C<sub>5</sub>H<sub>5</sub>N). These bases only partially ionize in water, resulting in a mixture of ions and undissociated base molecules.
@@ -6065,13 +5722,11 @@ To calculate the equilibrium concentrations of a weak acid or base, we can use a
 Let's consider a weak acid, HA, which partially ionizes in water according to the equation:
 
 
-
 $$
 
 HA \rightleftharpoons H^+ + A^-
 
 $$
-
 
 
 The ICE table for this reaction would look like this:
@@ -6097,7 +5752,6 @@ Here, C<sub>0</sub> is the initial concentration of the acid, x is the change in
 The equilibrium constant expression for this reaction is:
 
 
-
 $$
 
 K_a = \frac{[H^+][A^-]}{[HA]}
@@ -6105,9 +5759,7 @@ K_a = \frac{[H^+][A^-]}{[HA]}
 $$
 
 
-
 Substituting the equilibrium concentrations from the ICE table into this expression gives:
-
 
 
 $$
@@ -6115,7 +5767,6 @@ $$
 K_a = \frac{x \cdot x}{C_0 - x}
 
 $$
-
 
 
 Solving this equation for x will give us the equilibrium concentrations of H<sup>+</sup> and A<sup>-</sup>.
@@ -6129,13 +5780,11 @@ Solving this equation for x will give us the equilibrium concentrations of H<sup
 Once we have the equilibrium concentration of H<sup>+</sup>, we can calculate the pH of the solution using the formula:
 
 
-
 $$
 
 pH = -\log[H^+]
 
 $$
-
 
 
 This calculation is straightforward for a solution of a weak acid. However, for a solution of a weak base, we first need to calculate the concentration of OH<sup>-</sup> ions at equilibrium, and then use the relationship between pH, pOH, and the ion product of water to find the pH.
@@ -6161,7 +5810,6 @@ Solubility equilibria refers to the balance between the dissolved and undissolve
 The solubility product constant, $K_{sp}$, is a special case of the equilibrium constant. It is defined for a substance dissolving in an aqueous solution and forming its constituent ions. For example, consider a generic salt, AB, dissolving in water:
 
 
-
 $$
 
 AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
@@ -6169,9 +5817,7 @@ AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
 $$
 
 
-
 The equilibrium constant expression for this reaction is:
-
 
 
 $$
@@ -6179,7 +5825,6 @@ $$
 K_{sp} = [A^{+}][B^{-}]
 
 $$
-
 
 
 Here, $[A^{+}]$ and $[B^{-}]$ are the molar concentrations of the ions at equilibrium. Note that the concentration of the solid, AB, does not appear in the expression because its concentration is constant.
@@ -6221,13 +5866,11 @@ To calculate the solubility of a substance from its $K_{sp}$, we can set up an I
 Here, s is the solubility of AB in mol/L. Substituting the equilibrium concentrations into the $K_{sp}$ expression gives:
 
 
-
 $$
 
 K_{sp} = s \cdot s = s^2
 
 $$
-
 
 
 Solving this equation for s gives the solubility of AB in the solution. 
@@ -6249,13 +5892,11 @@ The common-ion effect is a phenomenon that occurs in solutions when two substanc
 Consider a generic salt, AB, that dissolves in water to form ions A<sup>+</sup> and B<sup>-</sup>:
 
 
-
 $$
 
 AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
 
 $$
-
 
 
 If we add another salt, AC, that shares a common ion, A<sup>+</sup>, with AB, the equilibrium will shift to the left to reduce the increase in A<sup>+</sup> concentration. This results in the precipitation of AB, thus decreasing its solubility.
@@ -6269,7 +5910,6 @@ If we add another salt, AC, that shares a common ion, A<sup>+</sup>, with AB, th
 Hydrogen sulfide (H<sub>2</sub>S) is a weak electrolyte that partially ionizes in aqueous solution:
 
 
-
 $$
 
 H_{2}S_{(aq)} \rightleftharpoons 2H^{+}_{(aq)} + S^{2-}_{(aq)}
@@ -6277,9 +5917,7 @@ H_{2}S_{(aq)} \rightleftharpoons 2H^{+}_{(aq)} + S^{2-}_{(aq)}
 $$
 
 
-
 The equilibrium constant for this reaction is given by:
-
 
 
 $$
@@ -6289,9 +5927,7 @@ K_{a} = \frac{[H^{+}]^{2}[S^{2-}]}{[H_{2}S]}
 $$
 
 
-
 If we add hydrochloric acid (HCl), a strong electrolyte that completely ionizes to produce H<sup>+</sup> ions:
-
 
 
 $$
@@ -6299,7 +5935,6 @@ $$
 HCl_{(aq)} \rightarrow H^{+}_{(aq)} + Cl^{-}_{(aq)}
 
 $$
-
 
 
 The increase in H<sup>+</sup> concentration from the added HCl shifts the equilibrium of the H<sub>2</sub>S dissociation to the left, reducing the concentration of S<sup>2-</sup> ions and thus decreasing the solubility of H<sub>2</sub>S.
@@ -6313,7 +5948,6 @@ The increase in H<sup>+</sup> concentration from the added HCl shifts the equili
 Barium iodate (Ba(IO<sub>3</sub>)<sub>2</sub>) is a salt that dissolves in water to form Ba<sup>2+</sup> and IO<sub>3</sub><sup>-</sup> ions:
 
 
-
 $$
 
 Ba(IO_{3})_{2(s)} \rightleftharpoons Ba^{2+}_{(aq)} + 2IO_{3}^{-}_{(aq)}
@@ -6321,9 +5955,7 @@ Ba(IO_{3})_{2(s)} \rightleftharpoons Ba^{2+}_{(aq)} + 2IO_{3}^{-}_{(aq)}
 $$
 
 
-
 The solubility product constant for this reaction is given by:
-
 
 
 $$
@@ -6333,9 +5965,7 @@ K_{sp} = [Ba^{2+}][IO_{3}^{-}]^{2} = 1.57 \times 10^{-9}
 $$
 
 
-
 If we add barium nitrate (Ba(NO<sub>3</sub>)<sub>2</sub>), a salt that also produces Ba<sup>2+</sup> ions when dissolved:
-
 
 
 $$
@@ -6343,7 +5973,6 @@ $$
 Ba(NO_{3})_{2(s)} \rightarrow Ba^{2+}_{(aq)} + 2NO_{3}^{-}_{(aq)}
 
 $$
-
 
 
 The increase in Ba<sup>2+</sup> concentration from the added Ba(NO<sub>3</sub>)<sub>2</sub> shifts the equilibrium of the Ba(IO<sub>3</sub>)<sub>2</sub> dissolution to the left, reducing the concentration of IO<sub>3</sub><sup>-</sup> ions and thus decreasing the solubility of Ba(IO<sub>3</sub>)<sub>2</sub>.
@@ -6369,13 +5998,11 @@ Precipitation and dissolution reactions are two key processes that govern the so
 A precipitation reaction occurs when two soluble salts in solution mix and form an insoluble salt, or precipitate. This can be represented by the following general equation:
 
 
-
 $$
 
 A_{(aq)}^{+} + B_{(aq)}^{-} \rightleftharpoons AB_{(s)}
 
 $$
-
 
 
 The formation of the precipitate (AB) decreases the concentrations of the ions (A<sup>+</sup> and B<sup>-</sup>) in the solution, driving the reaction to the right. The reaction continues until the product of the ion concentrations equals the solubility product constant ($K_{sp}$) for the precipitate at that temperature.
@@ -6389,13 +6016,11 @@ The formation of the precipitate (AB) decreases the concentrations of the ions (
 Dissolution reactions are the reverse of precipitation reactions. A solid dissolves in a solvent to form a solution. This can be represented by the following general equation:
 
 
-
 $$
 
 AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
 
 $$
-
 
 
 The dissolution of the solid (AB) increases the concentrations of the ions (A<sup>+</sup> and B<sup>-</sup>) in the solution, driving the reaction to the left. The reaction continues until the product of the ion concentrations equals the solubility product constant ($K_{sp}$) for the solid at that temperature.
@@ -6445,7 +6070,6 @@ The solubility product constant, $K_{sp}$, is a measure of the extent of solubil
 For a general dissolution reaction of a sparingly soluble salt:
 
 
-
 $$
 
 AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
@@ -6453,9 +6077,7 @@ AB_{(s)} \rightleftharpoons A_{(aq)}^{+} + B_{(aq)}^{-}
 $$
 
 
-
 The $K_{sp}$ expression is given by:
-
 
 
 $$
@@ -6463,7 +6085,6 @@ $$
 K_{sp} = [A^{+}][B^{-}]
 
 $$
-
 
 
 where [A<sup>+</sup>] and [B<sup>-</sup>] are the molar concentrations of the ions in the saturated solution.
@@ -6493,14 +6114,11 @@ Consider a solution prepared by mixing 50.0 mL of 0.0010 M AgNO<sub>3</sub> and 
 First, calculate the initial concentrations of Ag<sup>+</sup> and Cl<sup>-</sup>:
 
 
-
 $$
 
 [Ag^{+}] = \frac{(0.0010 \, mol/L)(50.0 \, mL)}{100.0 \, mL} = 0.00050 \, M
 
 $$
-
-
 
 $$
 
@@ -6509,9 +6127,7 @@ $$
 $$
 
 
-
 Then, calculate the reaction quotient, $Q$:
-
 
 
 $$

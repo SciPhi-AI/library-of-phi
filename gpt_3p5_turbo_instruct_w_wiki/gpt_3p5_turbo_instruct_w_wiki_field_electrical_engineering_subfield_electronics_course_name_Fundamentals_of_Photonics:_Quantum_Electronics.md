@@ -1372,9 +1372,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r},t) = \hat{H} \psi(\mathbf{r},t)
-
 $$
 
 
@@ -1396,9 +1394,7 @@ For periodic solids with one atom per unit cell, the calculation of stationary s
 
 
 $$
-
 \psi_{\mathbf{k}}(\mathbf{r}+\mathbf{R}_i) = e^{i\mathbf{k}\cdot\mathbf{R}_i} \psi_{\mathbf{k}}(\mathbf{r})
-
 $$
 
 
@@ -1412,9 +1408,7 @@ To solve the Schrödinger equation for periodic solids, it is more convenient to
 
 
 $$
-
 c_{l'm'}^j = e^{-i\mathbf{k}\cdot\mathbf{R}_j} c_{l'm'}(E,\mathbf{k})
-
 $$
 
 
@@ -1424,9 +1418,7 @@ where $c_{l'm'}(E,\mathbf{k})$ satisfies the set of linear equations:
 
 
 $$
-
 \sum_{j,l'm'} M_{lm,l'm'}^{ij} c_{l'm'}^j = 0
-
 $$
 
 
@@ -1436,9 +1428,7 @@ with the elements of the matrix $\mathbf{M}$ being:
 
 
 $$
-
 M_{lm,l'm'}^{ij} = m_{lm,l'm'}^i - A_{lm,l'm'}(E,\mathbf{k})
-
 $$
 
 
@@ -1452,9 +1442,7 @@ The coefficients $c_{l'm'}(E,\mathbf{k})$ satisfy the homogeneous equations:
 
 
 $$
-
 \sum_{l'm'} M_{lm,l'm'}(E,\mathbf{k}) c_{l'm'}(E,\mathbf{k}) = 0
-
 $$
 
 
@@ -1464,9 +1452,7 @@ where $M_{lm,l'm'}(E,\mathbf{k}) = m_{lm,l'm'}(E) - A_{lm,l'm'}(E,\mathbf{k})$ a
 
 
 $$
-
 A_{lm,l'm'}(E,\mathbf{k}) = \sum_j e^{i\mathbf{k}\cdot\mathbf{R}_{ij}} g_{lm,l'm'}(E,\mathbf{R}_{ij})
-
 $$
 
 
@@ -1548,9 +1534,7 @@ In this subsection, we will focus on the time-independent Schrödinger equation,
 
 
 $$
-
 \hat{H}\psi(\mathbf{r},t) = i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t)
-
 $$
 
 
@@ -1564,9 +1548,7 @@ The time-independent Schrödinger equation is a special case of the general Schr
 
 
 $$
-
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
-
 $$
 
 
@@ -1580,9 +1562,7 @@ To solve this equation, we use the method of separation of variables, where we a
 
 
 $$
-
 \psi(\mathbf{r},t) = \psi(\mathbf{r})\tau(t)
-
 $$
 
 
@@ -1592,9 +1572,7 @@ Substituting this expression into the time-dependent left-hand side of the equat
 
 
 $$
-
 \psi(\mathbf{r},t) = \psi(\mathbf{r})e^{-iEt/\hbar}
-
 $$
 
 
@@ -1608,9 +1586,7 @@ The spatial part of the wavefunction satisfies the time-independent Schrödinger
 
 
 $$
-
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
-
 $$
 
 
@@ -1662,9 +1638,7 @@ In the Dirac formalism, the action of the <math>S^{\mu\nu}</math> matrices on a 
 
 
 $$
-
 S^{\mu\nu}\psi = i\hbar\frac{\partial}{\partial x^\mu}\psi
-
 $$
 
 
@@ -1674,9 +1648,7 @@ This equation describes the infinitesimal transformation of a spinor under a Lor
 
 
 $$
-
 \psi(x) \rightarrow \psi'(x) = e^{-\frac{i}{\hbar}\omega_{\mu\nu}S^{\mu\nu}}\psi(x)
-
 $$
 
 
@@ -1690,9 +1662,7 @@ Another important concept in the Dirac formalism is the quartic power, which is 
 
 
 $$
-
 \gamma^5 = i\gamma^0\gamma^1\gamma^2\gamma^3
-
 $$
 
 
@@ -2076,9 +2046,7 @@ The Rabi frequency, denoted by $\Omega$, is a fundamental quantity in the study 
 
 
 $$
-
 \Omega = \mu E
-
 $$
 
 
@@ -2096,7 +2064,6 @@ Rabi-oscillations occur when the Rabi frequency is close to the energy differenc
 
 
 $$
-
 \frac{d}{dt}
 
 \begin{pmatrix}
@@ -2136,7 +2103,6 @@ $$
 \rho_{21}
 
 \end{pmatrix}
-
 $$
 
 
@@ -2570,7 +2536,6 @@ To assist in understanding these equations, we will introduce the concept of a R
 
 
 $$
-
 \Psi^{+}(\mathbf{r},t) = \begin{bmatrix}
 
 -F_x^{+} + iF_y^{+} \\
@@ -2590,7 +2555,6 @@ F_z^{-} \\
 F_z^{-} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2600,7 +2564,6 @@ where $F_x^{+}$, $F_y^{+}$, $F_z^{+}$, $F_x^{-}$, $F_y^{-}$, and $F_z^{-}$ are t
 
 
 $$
-
 W^{+} = \begin{bmatrix}
 
 \frac{1}{\sqrt{2\epsilon}}(-J_x + iJ_y) \\
@@ -2624,7 +2587,6 @@ J_z + v\rho \\
 J_x - iJ_y \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2634,11 +2596,9 @@ where $J_x$, $J_y$, $J_z$, and $\rho$ are the components of the source vector. T
 
 
 $$
-
 E = -vW^{+}, \quad
 
 H = -vW^{-}
-
 $$
 
 
@@ -2652,7 +2612,6 @@ Next, we introduce the triplet vector $M = [M_x, M_y, M_z]$, where each componen
 
 
 $$
-
 M_x = \begin{bmatrix}
 
 0 & 0 & 1 & 0 \\
@@ -2688,7 +2647,6 @@ M_z = \begin{bmatrix}
 0 & 0 & 0 & -1 \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2702,7 +2660,6 @@ Finally, we can combine all of these elements to obtain a single matrix equation
 
 
 $$
-
 \Delta w = \begin{bmatrix}
 
 \Omega & 0 \\
@@ -2722,7 +2679,6 @@ E \\
 H \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2762,7 +2718,6 @@ To assist in understanding these equations, we will introduce the concept of a R
 
 
 $$
-
 \Psi^{+}(\mathbf{r},t) = \begin{bmatrix}
 
 -F_x^{+} + iF_y^{+} \\
@@ -2782,7 +2737,6 @@ F_z^{-} \\
 F_z^{-} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2792,7 +2746,6 @@ where $F_x^{+}$, $F_y^{+}$, $F_z^{+}$, $F_x^{-}$, $F_y^{-}$, and $F_z^{-}$ are t
 
 
 $$
-
 W^{+} = \begin{bmatrix}
 
 \frac{1}{\sqrt{2\epsilon}}(-J_x + iJ_y) \\
@@ -2816,7 +2769,6 @@ M_z + v\rho \\
 M_x + iM_y \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2834,11 +2786,9 @@ In this subsection, we will explore the relationship between electromagnetic fie
 
 
 $$
-
 \nabla \times \Psi^{+} = i\omega\mu_0 W^{+}, \quad
 
 \nabla \times \Psi^{-} = -i\omega\epsilon_0 W^{-}
-
 $$
 
 
@@ -2852,7 +2802,6 @@ In addition to these equations, we also have the familiar Maxwell's equations, w
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}, \quad
 
 \nabla \cdot \mathbf{B} = 0, \quad
@@ -2860,7 +2809,6 @@ $$
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad
 
 \nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\epsilon_0\frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 
@@ -2904,7 +2852,6 @@ To assist in understanding these equations, we will introduce the concept of a R
 
 
 $$
-
 \Psi^{+}(\mathbf{r},t) = \begin{bmatrix}
 
 -F_x^{+} + iF_y^{+} \\
@@ -2924,7 +2871,6 @@ F_z^{-} \\
 F_z^{-} \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2934,7 +2880,6 @@ where $F_x^{+}$, $F_y^{+}$, $F_z^{+}$, $F_x^{-}$, $F_y^{-}$, and $F_z^{-}$ are t
 
 
 $$
-
 W^{+} = \begin{bmatrix}
 
 \frac{1}{\sqrt{2\epsilon}}(-J_x + iJ_y) \\
@@ -2958,7 +2903,6 @@ J_z + v\rho \\
 J_x + iJ_y \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -2980,17 +2924,13 @@ The time-dependent Maxwell's equations are derived from the static equations by 
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}, \quad \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t_r}, \quad \nabla \times \mathbf{B} = \mu_0\left(\mathbf{J} + \epsilon_0\frac{\partial \mathbf{E}}{\partial t_r}\right)
-
 $$
 
 
@@ -3012,9 +2952,7 @@ The Lorenz gauge is defined as:
 
 
 $$
-
 \nabla \cdot \mathbf{A} + \frac{1}{c^2}\frac{\partial \varphi}{\partial t} = 0
-
 $$
 
 
@@ -3028,9 +2966,7 @@ Using the Lorenz gauge, we can derive the electric and magnetic fields from the 
 
 
 $$
-
 \mathbf{E} = -\nabla \varphi - \frac{\partial \mathbf{A}}{\partial t}
-
 $$
 
 
@@ -3040,9 +2976,7 @@ and the magnetic field is given by:
 
 
 $$
-
 \mathbf{B} = \nabla \times \mathbf{A}
-
 $$
 
 
@@ -3086,33 +3020,25 @@ At an interface between two media, the electric and magnetic fields must satisfy
 
 
 $$
-
 -\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}+\frac{\partial T_{o}}{\partial x}^{TE}= -\frac{k_{z}}{\omega \varepsilon _{o}\varepsilon _{r}}\frac{\partial T_{\varepsilon } }{\partial y}^{TM}+\frac{\partial T_{\varepsilon }}{\partial x}^{TE}
-
 $$
 
 
 
 $$
-
 \frac{k_{o}^{2}-k_{z}^{2}}{j\omega \varepsilon _{o}} \ T_{o}^{TM} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \varepsilon _{r}\varepsilon _{o}} T_{\varepsilon }^{TM}
-
 $$
 
 
 
 $$
-
 -\frac{\partial T_{o}}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{o}}{\partial y}^{TE}= -\frac{\partial T_{\varepsilon }}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{\varepsilon } }{\partial y}^{TE}
-
 $$
 
 
 
 $$
-
 \frac{k_{o}^{2}-k_{z}^{2}}{j\omega \mu} \ T_{o}^{TE} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \mu }^{TE}
-
 $$
 
 
@@ -3164,25 +3090,19 @@ At an interface between two media, the electric and magnetic fields must satisfy
 
 
 $$
-
 -\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}+\frac{\partial T_{o}}{\partial x}^{TE}= -\frac{k_{z}}{\omega \varepsilon _{o}\varepsilon _{r}}\frac{\partial T_{\varepsilon } }{\partial y}^{TM}+\frac{\partial T_{\varepsilon }}{\partial x}^{TE}
-
 $$
 
 
 
 $$
-
 \frac{k_{o}^{2}-k_{z}^{2}}{j\omega \varepsilon _{o}} \ T_{o}^{TM} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \varepsilon _{r}\varepsilon _{o}} T_{\varepsilon }^{TM}
-
 $$
 
 
 
 $$
-
 -\frac{\partial T_{o}}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{o}}{\partial y}^{TE}= -\frac{\partial T_{\varepsilon }}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu \mu _{r}}\frac{\partial T_{\varepsilon }}{\partial y}^{TE}
-
 $$
 
 
@@ -3196,25 +3116,19 @@ To solve these equations, we may assume a Bloch wave expansion for all currents,
 
 
 $$
-
 \mathbf{J}(x,y,z) = \sum_{mnp} \mathbf{J}(\alpha_{m},\beta_{n},\gamma_{p}) e^{j(\alpha_{m}x + \beta_{n}y + \gamma_{p}z)}
-
 $$
 
 
 
 $$
-
 \mathbf{E}(x,y,z) = \sum_{mnp} \mathbf{E}(\alpha_{m},\beta_{n},\gamma_{p}) e^{j(\alpha_{m}x + \beta_{n}y + \gamma_{p}z)}
-
 $$
 
 
 
 $$
-
 \mathbf{A}(x,y,z) = \sum_{mnp} \mathbf{A}(\alpha_{m},\beta_{n},\gamma_{p}) e^{j(\alpha_{m}x + \beta_{n}y + \gamma_{p}z)}
-
 $$
 
 
@@ -3228,25 +3142,19 @@ Assuming an orthogonal lattice, we can simplify the equations to:
 
 
 $$
-
 \alpha_{m} = k_{0} \sin \theta_{0} \cos \phi_{0} + \frac{2m\pi}{l_{x}}
-
 $$
 
 
 
 $$
-
 \beta_{n} = k_{0} \sin \theta_{0} \sin \phi_{0} + \frac{2n\pi}{l_{y}}
-
 $$
 
 
 
 $$
-
 \gamma_{p} = k_{0} \cos \theta_{0} + \frac{2p\pi}{l_{z}}
-
 $$
 
 
@@ -3294,9 +3202,7 @@ The reflection coefficient, denoted as $\Gamma$, is defined as the ratio of the 
 
 
 $$
-
 \Gamma = \frac{E_{r}}{E_{i}}
-
 $$
 
 
@@ -3310,9 +3216,7 @@ Similarly, the transmission coefficient, denoted as $T$, is defined as the ratio
 
 
 $$
-
 T = \frac{E_{t}}{E_{i}}
-
 $$
 
 
@@ -3326,23 +3230,18 @@ The reflection and transmission coefficients can be calculated using the continu
 
 
 $$
-
 -\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}+\frac{\partial T_{o}}{\partial x}^{TE}= -\frac{k_{z}}{\omega \varepsilon _{o}\varepsilon _{r}}\frac{\partial T_{\varepsilon } }{\partial y}^{TM}+\frac{\partial T_{\varepsilon }}{\partial x}^{TE}
-
 $$
 
 
 
 $$
-
 \frac{k_{o}^{2}-k_{z}^{2}}{j\omega \varepsilon _{o}} \ T_{o}^{TM} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \varepsilon _{r}\varepsilon _{o}} T_{\varepsilon }^{TM}
-
 $$
 
 
 
 $$
-
 -\frac{\partial T_{o}}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{o}}{\partial y}^{TE}= -\frac{\partial T_{\va
 
 ```
@@ -3356,13 +3255,11 @@ The continuity conditions for the tangential components of the fields ensure tha
 In the case of a two-ray ground-reflection model, where the signal is narrow band relative to the inverse delay spread, the power equation can be simplified to:
 
 
-
 $$
 
 P_{r} = P_{t} \left( {\frac{\lambda}{4\pi}} \right) ^2 \times \left| \frac{\sqrt{G_{los}}} {l} + \Gamma(\theta) \sqrt{G_{gr}} \frac{e^{-j \Delta \phi}}{x+x'} \right|^2 
 
 $$
-
 
 
 where $P_{r}$ is the received power, $P_{t}$ is the transmitted power, $\lambda$ is the wavelength, $G_{los}$ and $G_{gr}$ are the antenna gains for the line-of-sight and ground-reflected paths, $l$ is the distance between the antennas, $\Gamma(\theta)$ is the reflection coefficient, and $\Delta \phi$ is the phase difference between the two paths.
@@ -3372,13 +3269,11 @@ where $P_{r}$ is the received power, $P_{t}$ is the transmitted power, $\lambda$
 In the far field region, where $\Delta \phi \ll 1$, the reflection coefficient can be approximated as $\Gamma(\theta) \approx -1$. This simplifies the power equation to:
 
 
-
 $$
 
 P_{r} \approx P_{t} \left( {\frac{\lambda \sqrt{G}}{4\pi d}} \right) ^2 \times \Delta \phi^2 
 
 $$
-
 
 
 where $d$ is the distance between the antennas and $G$ is the combined antenna gain.
@@ -3514,7 +3409,6 @@ First, let us consider the case of a plane wave incident on an interface between
 Using Maxwell's equations, we can derive the equations governing the behavior of these fields at the interface. These equations are known as the Fresnel equations and are given by:
 
 
-
 $$
 
 \begin{align}
@@ -3532,13 +3426,11 @@ H_t &= \frac{2H_i \cos \theta_i}{H_i \cos \theta_t + H_t \cos \theta_i}
 $$
 
 
-
 where "θ<sub>i</sub>" and "θ<sub>t</sub>" are the angles of incidence and transmission, respectively.
 
 
 
 One important phenomenon that occurs at interfaces is the Brewster's angle. This is the angle of incidence at which the reflected wave is completely polarized perpendicular to the plane of incidence, meaning that "E<sub>r</sub>" = 0. This angle is given by:
-
 
 
 $$
@@ -3548,7 +3440,6 @@ $$
 $$
 
 
-
 where "n<sub>1</sub>" and "n<sub>2</sub>" are the refractive indices of the two media.
 
 
@@ -3556,13 +3447,11 @@ where "n<sub>1</sub>" and "n<sub>2</sub>" are the refractive indices of the two 
 In the case of an absorbing reflecting surface, we also have the concept of pseudo-Brewster's angle. This is the angle of incidence at which the reflectivity at parallel polarization ("p") goes through a non-zero minimum. This angle is given by:
 
 
-
 $$
 
 \theta_{PB} = \tan^{-1} \left( \frac{\sqrt{n_2^2 - k_2^2}}{\sqrt{n_1^2 - k_1^2}} \right)
 
 $$
-
 
 
 where "k<sub>1</sub>" and "k<sub>2</sub>" are the absorption coefficients of the two media.
@@ -3574,7 +3463,6 @@ In addition to reflection and refraction, another important phenomenon at interf
 
 
 The Bloch wave expansion is a mathematical tool that allows us to solve Maxwell's equations within an infinite periodic volume. It assumes a Bloch wave expansion for all currents, fields, and potentials, given by:
-
 
 
 $$
@@ -3592,9 +3480,7 @@ $$
 $$
 
 
-
 where "m", "n", and "p" are integers representing the different modes, and "α", "β", and "γ" are the propagation constants in the "x", "y", and "z" directions, respectively. These constants are given by:
-
 
 
 $$
@@ -3610,7 +3496,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where "k<sub>0</sub>" is the free space propagation constant, "l<sub>x</sub>", "l<sub>y</sub>", and "l<sub>z</sub>" are the unit cell dimensions in the "x", "y", and "z" directions, respectively, and "θ<sub>0</sub>" and "φ<sub>0</sub>" are the directions of propagation in spherical coordinates.
@@ -4044,13 +3929,11 @@ The paraxial Helmholtz equation is a simplified form of the wave equation that d
 The factors for the x and y dependence are given by:
 
 
-
 $$
 
 u_J(x,z) = \left(\frac{\sqrt{2/\pi}}{ 2^J \, J! \; w_0}\right)^{\!\!1/2} \!\! \left( \frac{w(z)}\right)^{\! |l|} \exp\! \left(\! -\frac{r^2}{w^2(z)}\right)L_p^ \! \left(\frac{2r^2}{w^2(z)}\right)
 
 $$
-
 
 
 where $J$ refers to the mode number in the x-direction and $l$ refers to the mode number in the y-direction. These factors are multiplied together to give the electric field amplitude of the Gaussian beam. The first factor represents the Gaussian profile of the beam, while the second factor takes into account the variation of the beam width along the propagation direction.
@@ -4060,13 +3943,11 @@ where $J$ refers to the mode number in the x-direction and $l$ refers to the mod
 The paraxial wave equation can be derived from Maxwell's equations by assuming a slowly varying envelope approximation. This approximation allows us to neglect the higher order derivatives in the wave equation, resulting in a simpler equation that describes the propagation of the electric field amplitude. The paraxial wave equation is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + 2ik\frac{\partial u}{\partial z} = 0
 
 $$
-
 
 
 where $k$ is the wavenumber of the electromagnetic wave. This equation can be solved using various techniques, such as the Fourier transform method or the ABCD matrix method, to obtain the electric field amplitude at any point along the propagation direction.
@@ -4080,7 +3961,6 @@ where $k$ is the wavenumber of the electromagnetic wave. This equation can be so
 The ABCD matrix method is a powerful tool for analyzing the propagation of Gaussian beams through optical systems. It allows us to calculate the electric field amplitude at any point along the propagation direction by simply multiplying the ABCD matrices of each optical element in the system. The ABCD matrix for a thin lens, for example, is given by:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -4092,7 +3972,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 where $f$ is the focal length of the lens. By multiplying this matrix with the electric field amplitude of the incident Gaussian beam, we can obtain the electric field amplitude at the focal plane of the lens. This method can be extended to more complex optical systems, such as multiple lenses or prisms, by simply multiplying the ABCD matrices of each element in the system.
@@ -4110,7 +3989,6 @@ The ABCD matrix method is particularly useful for designing optical systems that
 The paraxial wave equation and the ABCD matrix method are closely related. In fact, the ABCD matrices can be derived from the paraxial wave equation by considering the propagation of the electric field amplitude through an infinitesimal distance. This results in the following equations:
 
 
-
 $$
 
 \begin{align}
@@ -4126,9 +4004,7 @@ u(x+\Delta x,z+\Delta z) &= u(x,z) + \frac{\partial u}{\partial x}\Delta x + \fr
 $$
 
 
-
 By rearranging these equations, we can obtain the ABCD matrices for the x and y directions:
-
 
 
 $$
@@ -4148,9 +4024,7 @@ D &= 1
 $$
 
 
-
 and
-
 
 
 $$
@@ -4168,7 +4042,6 @@ D &= 1
 \end{align}
 
 $$
-
 
 
 These matrices can then be multiplied together to obtain the overall ABCD matrix for the optical system. This shows the close relationship between the paraxial wave equation and the ABCD matrix method, and how they can be used together to analyze and design optical systems that manipulate Gaussian beams.
@@ -4286,13 +4159,11 @@ The law of reflection states that the angle of incidence is equal to the angle o
 The law of refraction, also known as Snell's law, describes how light bends when it passes through a boundary between two different media. It states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is equal to the ratio of the velocities of light in the two media. This can be expressed mathematically as:
 
 
-
 $$
 
 \frac{\sin{\theta_1}}{\sin{\theta_2}} = \frac{v_1}{v_2}
 
 $$
-
 
 
 where $\theta_1$ is the angle of incidence, $\theta_2$ is the angle of refraction, $v_1$ is the velocity of light in the first medium, and $v_2$ is the velocity of light in the second medium.
@@ -4640,13 +4511,11 @@ The number of modes that can exist within a resonator is determined by its size 
 The mode spacing, denoted by Δν, is the frequency difference between adjacent resonator modes. It is directly related to the size and geometry of the resonator and can be calculated using the following equation:
 
 
-
 $$
 
 \Delta\nu = \frac{c}{2nd}
 
 $$
-
 
 
 where c is the speed of light, n is the refractive index of the resonator material, and d is the distance between the mirrors.
@@ -5256,13 +5125,11 @@ One way to visualize the anisotropy of crystals is through the use of the index 
 The index ellipsoid is defined by the equation:
 
 
-
 $$
 
 \frac{x^2}{n_x^2} + \frac{y^2}{n_y^2} + \frac{z^2}{n_z^2} = 1
 
 $$
-
 
 
 where $n_x$, $n_y$, and $n_z$ are the refractive indices for the crystal axes. The shape of the index ellipsoid can vary depending on the crystal symmetry, with some crystals having spherical, ellipsoidal, or even hyperboloidal index ellipsoids.
@@ -5642,13 +5509,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the system, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -5662,13 +5527,11 @@ One of the key features of the Schrödinger equation is that it allows us to cal
 In the case of stationary states, the wave function does not change with time, and the Schrödinger equation reduces to a simpler form:
 
 
-
 $$
 
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
 
 $$
-
 
 
 where $E$ is the energy of the system. This equation is known as the time-independent Schrödinger equation and is used to calculate the energy eigenvalues and eigenfunctions of a quantum system.
@@ -5678,13 +5541,11 @@ where $E$ is the energy of the system. This equation is known as the time-indepe
 For periodic solids with one atom per unit cell, the calculation of stationary states is simplified considerably. This is because all of the potentials, $v_i(\mathbf{r}_i)$, are the same, and the nuclear positions, $\mathbf{R}_i$, form a periodic array. This allows us to use Bloch's theorem, which states that the solutions of the Schrödinger equation can be written as a Bloch wave:
 
 
-
 $$
 
 \psi_{\mathbf{k}}(\mathbf{r}+\mathbf{R}_i) = e^{i\mathbf{k}\cdot\mathbf{R}_i}\psi_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\mathbf{k}$ is the wave vector.
@@ -5694,7 +5555,6 @@ where $\mathbf{k}$ is the wave vector.
 To simplify the calculation further, we can use a symmetric matrix for the coefficients, which can be achieved by defining:
 
 
-
 $$
 
 c_{l'm'}^j = e^{-i\mathbf{k}\cdot\mathbf{R}_j}c_{l'm'}(E,\mathbf{k})
@@ -5702,9 +5562,7 @@ c_{l'm'}^j = e^{-i\mathbf{k}\cdot\mathbf{R}_j}c_{l'm'}(E,\mathbf{k})
 $$
 
 
-
 These coefficients satisfy a set of linear equations:
-
 
 
 $$
@@ -5714,9 +5572,7 @@ $$
 $$
 
 
-
 where the elements of the matrix $\mathbf{M}$ are given by:
-
 
 
 $$
@@ -5726,7 +5582,6 @@ M_{lm,l'm'}^{ij} = m_{lm,l'm'}^i - A_{lm,l'm'}(E,\mathbf{k})
 $$
 
 
-
 and the $m_{lm,l'm'}^i$ are the elements of the inverse of the t-matrix.
 
 
@@ -5734,13 +5589,11 @@ and the $m_{lm,l'm'}^i$ are the elements of the inverse of the t-matrix.
 The coefficients $c_{l'm'}(E,\mathbf{k})$ satisfy the homogeneous equations:
 
 
-
 $$
 
 \sum_{l'm'}M_{lm,l'm'}(E,\mathbf{k})c_{l'm'}(E,\mathbf{k}) = 0
 
 $$
-
 
 
 where $M_{lm,l'm'}(E,\mathbf{k}) = m_{lm,l'm'}(E) - A_{lm,l'm'}(E,\mathbf{k})$ and $A_{lm,l'm'}(E,\mathbf{k}) = \sum_j e^{i\mathbf{k}\cdot\mathbf{R}_{ij}}g_{lm,l'm'}(E,\mathbf{R}_{ij})$.
@@ -5784,13 +5637,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the system, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -5804,13 +5655,11 @@ One of the key features of the Schrödinger equation is that it allows us to cal
 In the case of stationary states, the wave function does not change with time, and the Schrödinger equation reduces to a simpler form:
 
 
-
 $$
 
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
 
 $$
-
 
 
 where $E$ is the energy of the system. This equation is known as the time-independent Schrödinger equation and is used to calculate the energy eigenvalues and eigenfunctions of a quantum system.
@@ -5820,7 +5669,6 @@ where $E$ is the energy of the system. This equation is known as the time-indepe
 For periodic solids with one atom per unit cell, the calculation of stationary states is simplified considerably. This is because all of the potentials, $v_i(\mathbf{r}_i)$, are the same, and the nuclear positions, $\mathbf{R}_i$, form a regular lattice. In this case, the Hamiltonian operator can be written as:
 
 
-
 $$
 
 \hat{H} = \sum_{i=1}^{N} \frac{\hat{p}_i^2}{2m} + \sum_{i=1}^{N} v(\mathbf{r}_i)
@@ -5828,9 +5676,7 @@ $$
 $$
 
 
-
 where $\hat{p}_i$ is the momentum operator for the $i$th particle and $v(\mathbf{r}_i)$ is the potential energy at the position of the $i$th particle. This simplification allows us to solve the time-independent Schrödinger equation using the Bloch theorem, which states that the wave function can be written as a product of a periodic function and a plane wave:
-
 
 
 $$
@@ -5840,7 +5686,6 @@ $$
 $$
 
 
-
 where $u(\mathbf{r})$ is the periodic function and $\mathbf{k}$ is the wave vector. This leads to the concept of energy bands and band structure in solids, which will be discussed in more detail in later chapters.
 
 
@@ -5848,13 +5693,11 @@ where $u(\mathbf{r})$ is the periodic function and $\mathbf{k}$ is the wave vect
 In addition to stationary states, the Schrödinger equation also allows us to calculate the time evolution of a quantum system. This is done using the time evolution operator, $\mathbf{U}(t)$, which is defined as:
 
 
-
 $$
 
 \mathbf{U}(t) = e^{-i\mathbf{H}t/\hbar}
 
 $$
-
 
 
 This operator describes how the wave function evolves over time and is unitary, meaning that $\mathbf{U}^\dagger \mathbf{U} = 1$. The time evolution operator can also be written in terms of the Hamiltonian and the time evolution matrix, $\mathbf{U}(t) = \mathbf{U}(t) \mathbf{c}_0$, where $\mathbf{c}_0$ is the state vector at $t=0$.
@@ -5894,13 +5737,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the system, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -5914,13 +5755,11 @@ One of the key features of the Schrödinger equation is that it allows us to cal
 In the case of stationary states, the wave function does not change with time, and the Schrödinger equation reduces to a simpler form:
 
 
-
 $$
 
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
 
 $$
-
 
 
 where $E$ is the energy of the system. This equation is known as the time-independent Schrödinger equation and is used to calculate the energy eigenvalues and eigenfunctions of a quantum system.
@@ -5942,7 +5781,6 @@ The quantum harmonic oscillator is a fundamental model in quantum mechanics that
 In the quantum harmonic oscillator, the potential energy is given by:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
@@ -5950,9 +5788,7 @@ V(x) = \frac{1}{2}m\omega^2x^2
 $$
 
 
-
 where $m$ is the mass of the particle and $\omega$ is the angular frequency of the oscillator. The Hamiltonian operator for this system is given by:
-
 
 
 $$
@@ -5962,13 +5798,11 @@ $$
 $$
 
 
-
 where $\hat{p}$ is the momentum operator and $\hat{x}$ is the position operator.
 
 
 
 Using the time-independent Schrödinger equation, we can solve for the energy eigenvalues and eigenfunctions of the quantum harmonic oscillator. The energy eigenvalues are given by:
-
 
 
 $$
@@ -5978,9 +5812,7 @@ E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 $$
 
 
-
 where $n$ is a non-negative integer. The corresponding eigenfunctions are given by:
-
 
 
 $$
@@ -5988,7 +5820,6 @@ $$
 \psi_n(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{1/4}\frac{1}{\sqrt{2^n n!}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{m\omega}{2\hbar}x^2}
 
 $$
-
 
 
 where $H_n(x)$ is the Hermite polynomial of degree $n$.
@@ -6006,13 +5837,11 @@ The quantum harmonic oscillator has many applications in physics, including in t
 The hydrogen atom is another important example of a stationary state in quantum mechanics. It consists of a single proton (nucleus) and a single electron orbiting around it. The potential energy of the hydrogen atom is given by:
 
 
-
 $$
 
 V(r) = -\frac{e^2}{4\pi\epsilon_0 r}
 
 $$
-
 
 
 where $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free space, and $r$ is the distance between the proton and the electron.
@@ -6022,7 +5851,6 @@ where $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free spa
 Using the time-independent Schrödinger equation, we can solve for the energy eigenvalues and eigenfunctions of the hydrogen atom. The energy eigenvalues are given by:
 
 
-
 $$
 
 E_n = -\frac{me^4}{8\pi^2\epsilon_0^2\hbar^2n^2}
@@ -6030,9 +5858,7 @@ E_n = -\frac{me^4}{8\pi^2\epsilon_0^2\hbar^2n^2}
 $$
 
 
-
 where $n$ is a positive integer known as the principal quantum number. The corresponding eigenfunctions are given by:
-
 
 
 $$
@@ -6040,7 +5866,6 @@ $$
 \psi_{nlm}(r,\theta,\phi) = R_{nl}(r)Y_{lm}(\theta,\phi)
 
 $$
-
 
 
 where $R_{nl}(r)$ is the radial wave function and $Y_{lm}(\theta,\phi)$ is the spherical harmonic function.
@@ -6088,13 +5913,11 @@ The quantum harmonic oscillator is a model that describes the behavior of a part
 The Hamiltonian operator for the quantum harmonic oscillator is given by:
 
 
-
 $$
 
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
 
 $$
-
 
 
 where $\hat{p}$ is the momentum operator, $m$ is the mass of the particle, $\omega$ is the angular frequency of the oscillator, and $\hat{x}$ is the position operator.
@@ -6104,7 +5927,6 @@ where $\hat{p}$ is the momentum operator, $m$ is the mass of the particle, $\ome
 Using the time-independent Schrödinger equation, we can solve for the energy eigenvalues and eigenfunctions of the quantum harmonic oscillator. The energy eigenvalues are given by:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
@@ -6112,9 +5934,7 @@ E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 $$
 
 
-
 where $n$ is a non-negative integer. The corresponding eigenfunctions are given by:
-
 
 
 $$
@@ -6122,7 +5942,6 @@ $$
 \psi_n(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}\frac{1}{\sqrt{2^n n!}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{-\frac{m\omega x^2}{2\hbar}}
 
 $$
-
 
 
 where $H_n(x)$ is the Hermite polynomial of degree $n$.
@@ -6144,13 +5963,11 @@ The hydrogen atom is the simplest example of a system with a single electron bou
 The Hamiltonian operator for the hydrogen atom is given by:
 
 
-
 $$
 
 \hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\epsilon_0r}
 
 $$
-
 
 
 where $m_e$ is the mass of the electron, $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free space, and $r$ is the distance between the electron and the nucleus.
@@ -6160,7 +5977,6 @@ where $m_e$ is the mass of the electron, $e$ is the elementary charge, $\epsilon
 Using the time-independent Schrödinger equation, we can solve for the energy eigenvalues and eigenfunctions of the hydrogen atom. The energy eigenvalues are given by:
 
 
-
 $$
 
 E_n = -\frac{me^4}{32\pi^2\epsilon_0^2\hbar^2n^2}
@@ -6168,9 +5984,7 @@ E_n = -\frac{me^4}{32\pi^2\epsilon_0^2\hbar^2n^2}
 $$
 
 
-
 where $n$ is a positive integer known as the principal quantum number. The corresponding eigenfunctions are given by:
-
 
 
 $$
@@ -6178,7 +5992,6 @@ $$
 \psi_{nlm}(r,\theta,\phi) = R_{nl}(r)Y_{lm}(\theta,\phi)
 
 $$
-
 
 
 where $R_{nl}(r)$ is the radial wave function and $Y_{lm}(\theta,\phi)$ is the spherical harmonic function.
@@ -6222,13 +6035,11 @@ In the previous subsection, we introduced the concept of the quantum harmonic os
 As mentioned in the previous subsection, the energy eigenvalues of the quantum harmonic oscillator are given by:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 
 $$
-
 
 
 where $n$ is a non-negative integer. This means that the energy levels of the quantum harmonic oscillator are equally spaced, with a difference of $\hbar\omega$ between each level. This is in contrast to the classical harmonic oscillator, where the energy levels are continuous.
@@ -6246,7 +6057,6 @@ To solve the Schrödinger equation for the quantum harmonic oscillator, we can u
 A suitable factorization for the quantum harmonic oscillator is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -6254,9 +6064,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -6266,9 +6074,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -6278,9 +6084,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can solve for the energy eigenvalues and eigenfunctions of the quantum harmonic oscillator. The energy eigenvalues are given by:
-
 
 
 $$
@@ -6290,9 +6094,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we get:
-
 
 
 $$
@@ -6306,7 +6108,6 @@ E_{l+3}^{n'} = E_l^n - 3\omega \hbar \\
 $$
 
 
-
 This means that the energy levels of the quantum harmonic oscillator decrease by $\omega\hbar$ with each successive level.
 
 
@@ -6318,7 +6119,6 @@ This means that the energy levels of the quantum harmonic oscillator decrease by
 One interesting aspect of the quantum harmonic oscillator is that the energy levels must terminate at some point. This can be seen from the fact that the Hamiltonian only has positive energy levels, as shown by the following equation:
 
 
-
 $$
 
 \langle \psi|2\mu H_l|\psi\rangle = \langle \psi|C_l^*C_l|\psi\rangle + \langle \psi|(2l+3)\mu \omega \hbar|\psi\rangle
@@ -6326,9 +6126,7 @@ $$
 $$
 
 
-
 This means that for some value of $l$, the series must terminate with:
-
 
 
 $$
@@ -6338,9 +6136,7 @@ C_{l_{max}} |nl_{max}\rangle = 0
 $$
 
 
-
 and then:
-
 
 
 $$
@@ -6350,9 +6146,7 @@ E^n_{l_{max}} = -F_{l_{max}}/ (2 \mu) = (l_{max} + 3/2) \omega\hbar
 $$
 
 
-
 This is the lowest possible energy level for the quantum harmonic oscillator, and it is decreasing in energy by $\omega\hbar$ unless for some value of $l$, $C_l|nl\rangle = 0$. Identifying this value as $n$ gives:
-
 
 
 $$
@@ -6362,13 +6156,11 @@ E_l^n = -F_l = (n + 3/2) \omega \hbar
 $$
 
 
-
 #### Recursion Relation and Degeneracy
 
 
 
 Using the factorization method, we can also find a recursion relation for the quantum harmonic oscillator. This relation involves the lowering operator $C^*$ and the eigenvalue $\lambda$ and has the solution:
-
 
 
 $$
@@ -6378,9 +6170,7 @@ $$
 $$
 
 
-
 This recursion relation also reveals the degeneracy of the quantum harmonic oscillator. In addition to the degeneracy caused by angular momentum, there is also additional degeneracy caused by the oscillator potential. This can be seen by considering the states:
-
 
 
 $$
@@ -6390,9 +6180,7 @@ $$
 $$
 
 
-
 and applying the lowering operators $C^*$:
-
 
 
 $$
@@ -6400,7 +6188,6 @@ $$
 C^*_{n-2}|n-1 \, n-1\rangle, C^*_{n-4}C^*_{n-3}|n-2 \, n-2\rangle, \dots
 
 $$
-
 
 
 This reveals that there is a degeneracy of $n$ for each energy level, caused by the oscillator potential. This degeneracy is important in understanding the behavior of atoms and molecules, as it can lead to the splitting of spectral lines in spectroscopy.
@@ -6440,13 +6227,11 @@ In the previous subsection, we discussed the quantum harmonic oscillator and its
 The hydrogen atom is a simple system consisting of a single proton and a single electron. In the Bohr model of the atom, the electron orbits the proton in circular orbits, with the energy levels given by:
 
 
-
 $$
 
 E_n = -\frac{me^4}{8\epsilon_0^2h^2n^2}
 
 $$
-
 
 
 where $m$ is the mass of the electron, $e$ is the charge of the electron, $\epsilon_0$ is the permittivity of free space, and $h$ is Planck's constant. This equation is similar to the energy levels of the quantum harmonic oscillator, with the only difference being the negative sign.
@@ -6542,13 +6327,11 @@ One way to understand the wave equation is through numerical methods. By approxi
 In this discrete formulation, the vertical motion of each mass point is described by the following equation:
 
 
-
 $$
 
 \ddot u_i = \left(\frac{f}{\rho(\Delta x)^2}\right) (u_{i+1} + u_{i-1} - 2u_i)
 
 $$
-
 
 
 where $\ddot u_i$ is the second derivative of the vertical position of the $i$th mass point, $f$ is the tension of the string, $\rho$ is the mass density, and $\Delta x$ is the separation between the mass points.
@@ -6562,13 +6345,11 @@ where $\ddot u_i$ is the second derivative of the vertical position of the $i$th
 In the continuous form, the wave equation takes the form:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 
 
 where $u$ is a continuous function of two variables, $t$ and $x$, and $c$ is the speed of the wave.
@@ -6582,13 +6363,11 @@ where $u$ is a continuous function of two variables, $t$ and $x$, and $c$ is the
 In order to solve the wave equation, we must also consider boundary conditions. For a string with fixed endpoints, the boundary conditions are given by:
 
 
-
 $$
 
 u(0,t) = u(L,t) = 0
 
 $$
-
 
 
 where $L$ is the length of the string. These boundary conditions ensure that the string remains fixed at its endpoints.
@@ -6644,13 +6423,11 @@ In quantum mechanics, wave packets are used to describe the behavior of particle
 The group velocity of a wave packet is defined as the velocity at which the entire wave packet propagates. It is different from the phase velocity, which is the velocity at which the individual peaks within the wave packet move. The group velocity is given by the formula:
 
 
-
 $$
 
 v_g = \frac{\partial \omega}{\partial k}
 
 $$
-
 
 
 where $\omega$ is the angular frequency and $k$ is the wave vector. This formula is similar to the classical formula for velocity, $v = \frac{d}{dt}x$, where $x$ is the position and $t$ is time.
@@ -6664,13 +6441,11 @@ where $\omega$ is the angular frequency and $k$ is the wave vector. This formula
 The group velocity and phase velocity are related by the dispersion relation, which describes how the frequency of a wave depends on its wave vector. In the case of a free particle, the dispersion relation is given by:
 
 
-
 $$
 
 \omega(k) = \frac{\hbar k^2}{2m}
 
 $$
-
 
 
 where $\hbar$ is the reduced Planck's constant and $m$ is the mass of the particle. Using this dispersion relation, we can see that the group velocity and phase velocity are equal, as the derivative of $\omega$ with respect to $k$ is simply $\frac{\hbar k}{m}$, which is the same as the classical velocity of the particle.
@@ -6730,13 +6505,11 @@ Scattering is a fundamental process in quantum mechanics where a particle intera
 In the case of a single particle scattering off a potential, the Schrödinger equation can be written as:
 
 
-
 $$
 
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi
 
 $$
-
 
 
 where $\psi$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant. The Hamiltonian operator can be written as the sum of the kinetic energy operator and the potential energy operator, $\hat{H} = \hat{T} + \hat{V}$.
@@ -7422,13 +7195,11 @@ Absorption is the process by which a photon is absorbed by an atom, causing it t
 In the case of a two-level atom, the absorption process can be described by the following equation:
 
 
-
 $$
 
 P_{abs} = \frac{I}{\hbar\omega}\sigma_{abs}N_1
 
 $$
-
 
 
 where $P_{abs}$ is the probability of absorption, $I$ is the intensity of the incident light, $\hbar\omega$ is the energy of the photon, $\sigma_{abs}$ is the absorption cross-section, and $N_1$ is the number of atoms in the excited state.
@@ -7446,13 +7217,11 @@ Emission is the process by which an atom in an excited state releases a photon a
 In the case of a two-level atom, the emission process can be described by the following equation:
 
 
-
 $$
 
 P_{em} = \frac{I}{\hbar\omega}\sigma_{em}N_2
 
 $$
-
 
 
 where $P_{em}$ is the probability of emission, $I$ is the intensity of the emitted light, $\hbar\omega$ is the energy of the emitted photon, $\sigma_{em}$ is the emission cross-section, and $N_2$ is the number of atoms in the excited state.
@@ -7536,13 +7305,11 @@ The transition probability, denoted by $P_{if}$, is a measure of the likelihood 
 In the case of a two-level atom, the transition probability can be described by the following equation:
 
 
-
 $$
 
 P_{if} = \frac{I}{\hbar\omega}\sigma_{if}N_i
 
 $$
-
 
 
 where $I$ is the intensity of the incident light, $\hbar\omega$ is the energy of the photon, $\sigma_{if}$ is the transition cross-section, and $N_i$ is the number of atoms or molecules in the initial state.
@@ -7606,7 +7373,6 @@ There is a clear analogy between these equations and those that defined the evol
 These equations can also be expressed in matrix form:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -7640,7 +7406,6 @@ w \\
 \end{bmatrix}
 
 $$
-
 
 
 where $\delta$ is the detuning from resonance and $\kappa E$ is the Rabi frequency, which is proportional to the strength of the electric field.
@@ -7808,17 +7573,13 @@ The density matrix is particularly useful in understanding the relaxation proces
 To understand the density matrix and its role in energy and phase relaxation, we must first introduce the concept of spectral representation. In a quantum system, the spectral decomposition of the density matrix is given by:
 
 
-
 $$ \rho = \sum_{i=1}^n p_i |\psi_i\rangle \langle \psi_i| $$
-
 
 
 where $p_i$ represents the probability of the system being in the state $|\psi_i\rangle$. This decomposition allows us to calculate the expectation value of any observable in the system, given by:
 
 
-
 $$ \langle A \rangle = \text{Tr}(\rho A) = \sum_{i=1}^n p_i \langle \psi_i|A|\psi_i\rangle $$
-
 
 
 where $A$ is the observable and $\text{Tr}$ represents the trace operation.
@@ -7870,9 +7631,7 @@ The density matrix, denoted by $\rho$, is a mathematical representation of the q
 The density matrix formalism is particularly useful in understanding the relaxation processes of energy and phase in a quantum system. To understand this, we must first introduce the concept of the Liouville equation, which describes the time evolution of the density matrix. In its most general form, the Liouville equation is given by:
 
 
-
 $$ \frac{d\rho}{dt} = \frac{1}{i\hbar}[H,\rho] + \mathcal{L}(\rho) $$
-
 
 
 where $H$ is the Hamiltonian of the system and $\mathcal{L}(\rho)$ is the Lindblad operator, which accounts for the dissipative processes in the system.
@@ -8056,13 +7815,11 @@ Rate equations are a powerful tool for understanding the behavior of electrons i
 The rate equations for a three-level system can be written as:
 
 
-
 $$
 
 \frac{dn_i}{dt} = \sum_{f \neq i} \frac{n_f}{\tau_{if}} - \frac{n_i}{\tau_{fi}}
 
 $$
-
 
 
 where <math>n_i</math> is the population of electrons in subband <math>i</math>, <math>f</math> is the final subband index, and <math>\tau_{if}</math> is the lifetime of electrons scattering from subband <math>i</math> to subband <math>f</math>.
@@ -9162,13 +8919,11 @@ Electro-optic modulation is based on the electro-optic effect, which is the chan
 The change in refractive index, $\Delta n$, is proportional to the applied electric field, $E$, and the electro-optic coefficient, $r_{\mathrm{E}}$, of the material. This can be expressed as:
 
 
-
 $$
 
 \Delta n = r_{\mathrm{E}} E
 
 $$
-
 
 
 By applying an electric field to a material, the refractive index can be changed, resulting in a change in the phase of an optical wave passing through it. This change in phase can be used to modulate the intensity or frequency of the wave.
@@ -9190,13 +8945,11 @@ The acousto-optic effect is the change in the refractive index of a material due
 Similar to the electro-optic effect, the change in refractive index, $\Delta n$, is proportional to the applied acoustic field, $A$, and the acousto-optic coefficient, $r_{\mathrm{A}}$, of the material. This can be expressed as:
 
 
-
 $$
 
 \Delta n = r_{\mathrm{A}} A
 
 $$
-
 
 
 By varying the parameters of the acoustic wave, such as its amplitude, phase, frequency, and polarization, the properties of an optical wave passing through the material can be modulated. This makes it possible to modulate the optical beam by both temporal and spatial modulation.
@@ -11758,13 +11511,11 @@ The applications of quantum sensing are vast and diverse. In microscopy, quantum
 A basic task of quantum sensing is estimating the parameter $\theta$ of the unitary dynamics
 
 
-
 $$
 
 \varrho(\theta)=\exp(-iH\theta)\varrho_0\exp(+iH\theta),
 
 $$
-
 
 
 where $\varrho_0$ is the initial state of the system and $H$ is the Hamiltonian of the system. $\theta$ is estimated based on measurements on $\varrho(\theta)$.
@@ -11774,7 +11525,6 @@ where $\varrho_0$ is the initial state of the system and $H$ is the Hamiltonian 
 Typically, the system is composed of many particles, and the Hamiltonian is a sum of single-particle terms
 
 
-
 $$
 
 H=\sum_k H_k,
@@ -11782,13 +11532,11 @@ H=\sum_k H_k,
 $$
 
 
-
 where $H_k$ acts on the kth particle. In this case, there is no interaction between the particles, and we talk about linear interferometers.
 
 
 
 The achievable precision is bounded from below by the quantum Cramér-Rao bound as
-
 
 
 $$

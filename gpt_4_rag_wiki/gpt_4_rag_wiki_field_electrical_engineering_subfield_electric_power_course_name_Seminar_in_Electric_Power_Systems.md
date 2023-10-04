@@ -1143,9 +1143,7 @@ The power triangle is derived from the Pythagorean theorem, which states that in
 
 
 $$
-
 |S|^2 = P^2 + Q^2
-
 $$
 
 
@@ -1159,9 +1157,7 @@ The angle $\theta$ between the real power axis and the apparent power axis is kn
 
 
 $$
-
 pf = cos(\theta) = \frac{P}{|S|}
-
 $$
 
 
@@ -1199,9 +1195,7 @@ The complex power can be expressed in rectangular form as:
 
 
 $$
-
 S = P + jQ
-
 $$
 
 
@@ -1215,9 +1209,7 @@ Alternatively, the complex power can also be expressed in polar form as:
 
 
 $$
-
 S = |S|e^{j\theta}
-
 $$
 
 
@@ -1231,9 +1223,7 @@ The magnitude of the complex power $|S|$ can be calculated using the Pythagorean
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2}
-
 $$
 
 
@@ -1243,9 +1233,7 @@ The phase angle $\theta$ can be calculated using the arctangent function:
 
 
 $$
-
 \theta = arctan\left(\frac{Q}{P}\right)
-
 $$
 
 
@@ -1275,9 +1263,7 @@ Consider a single-phase AC circuit with a real power of $P = 100W$ and a reactiv
 
 
 $$
-
 S = P + jQ = 100 + j50
-
 $$
 
 
@@ -1287,9 +1273,7 @@ The magnitude of the complex power $|S|$ can be calculated using the Pythagorean
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2} = \sqrt{100^2 + 50^2} = 111.8VA
-
 $$
 
 
@@ -1299,9 +1283,7 @@ The phase angle $\theta$ can be calculated using the arctangent function:
 
 
 $$
-
 \theta = arctan\left(\frac{Q}{P}\right) = arctan\left(\frac{50}{100}\right) = 26.57^{\circ}
-
 $$
 
 
@@ -1323,9 +1305,7 @@ Consider a three-phase system with a real power of $P = 300W$ and a reactive pow
 
 
 $$
-
 S_{phase} = P + jQ = 300 + j150
-
 $$
 
 
@@ -1335,9 +1315,7 @@ The total complex power for the system is three times the complex power of each 
 
 
 $$
-
 S_{total} = 3S_{phase} = 3(300 + j150) = 900 + j450
-
 $$
 
 
@@ -1347,9 +1325,7 @@ The magnitude of the total complex power $|S_{total}|$ is:
 
 
 $$
-
 |S_{total}| = \sqrt{P_{total}^2 + Q_{total}^2} = \sqrt{900^2 + 450^2} = 1000VA
-
 $$
 
 
@@ -1359,9 +1335,7 @@ The phase angle $\theta_{total}$ is:
 
 
 $$
-
 \theta_{total} = arctan\left(\frac{Q_{total}}{P_{total}}\right) = arctan\left(\frac{450}{900}\right) = 26.57^{\circ}
-
 $$
 
 
@@ -1399,9 +1373,7 @@ The complex power $S$ in rectangular form is:
 
 
 $$
-
 S = P + jQ = 150 + j75
-
 $$
 
 
@@ -1411,9 +1383,7 @@ The magnitude of the complex power $|S|$ is:
 
 
 $$
-
 |S| = \sqrt{P^2 + Q^2} = \sqrt{150^2 + 75^2} = 169.7VA
-
 $$
 
 
@@ -1423,9 +1393,7 @@ The phase angle $\theta$ is:
 
 
 $$
-
 \theta = arctan\left(\frac{Q}{P}\right) = arctan\left(\frac{75}{150}\right) = 26.57^{\circ}
-
 $$
 
 
@@ -1451,9 +1419,7 @@ The complex power for each phase is:
 
 
 $$
-
 S_{phase} = P + jQ = 200 + j100
-
 $$
 
 
@@ -1463,9 +1429,7 @@ The total complex power for the system is three times the complex power of each 
 
 
 $$
-
 S_{total} = 3S_{phase} = 3(200 + j100) = 600 + j300
-
 $$
 
 
@@ -1475,9 +1439,7 @@ The magnitude of the total complex power $|S_{total}|$ is:
 
 
 $$
-
 |S_{total}| = \sqrt{P_{total}^2 + Q_{total}^2} = \sqrt{600^2 + 300^2} = 670.8VA
-
 $$
 
 
@@ -1487,9 +1449,7 @@ The phase angle $\theta_{total}$ is:
 
 
 $$
-
 \theta_{total} = arctan\left(\frac{Q_{total}}{P_{total}}\right) = arctan\left(\frac{300}{600}\right) = 26.57^{\circ}
-
 $$
 
 
@@ -1567,9 +1527,7 @@ Each wattmeter measures the power in one phase with respect to the reference pha
 
 
 $$
-
 P_{total} = P_{1} + P_{2}
-
 $$
 
 
@@ -1591,9 +1549,7 @@ For a balanced three-phase system with a power factor of $\cos \phi$, the total 
 
 
 $$
-
 P_{total} = \sqrt{3} \cdot V_{L} \cdot I_{L} \cdot \cos \phi
-
 $$
 
 
@@ -1611,9 +1567,7 @@ The power factor in a three-phase system is a crucial parameter as it affects th
 
 
 $$
-
 \cos \phi = \frac{P}{S}
-
 $$
 
 
@@ -1829,9 +1783,7 @@ The voltage and current relationship in the short line model can be represented 
 
 
 $$
-
 V_R = V_S - I_S Z
-
 $$
 
 
@@ -1893,17 +1845,13 @@ The telegrapher's equations are given by:
 
 
 $$
-
 \frac{\partial V(x,t)}{\partial x} = -L \frac{\partial I(x,t)}{\partial t} - RI(x,t)
-
 $$
 
 
 
 $$
-
 \frac{\partial I(x,t)}{\partial x} = -C \frac{\partial V(x,t)}{\partial t} - GV(x,t)
-
 $$
 
 
@@ -1945,17 +1893,13 @@ The line parameters can be calculated using the following equations:
 
 
 $$
-
 Z = R + j\omega L
-
 $$
 
 
 
 $$
-
 Y = G + j\omega C
-
 $$
 
 
@@ -1993,17 +1937,13 @@ The sending end voltage, $V_S$, and current, $I_S$, are given by:
 
 
 $$
-
 V_S = (1 + \frac{YZ}{2})V_R + Z(1 + \frac{YZ}{4})I_R
-
 $$
 
 
 
 $$
-
 I_S = YV_R + (1 + \frac{YZ}{2})I_R
-
 $$
 
 
@@ -2049,25 +1989,19 @@ Consider a transmission line with a simple resistive load at the receiving end. 
 
 
 $$
-
 A = D = 1
-
 $$
 
 
 
 $$
-
 B = Z
-
 $$
 
 
 
 $$
-
 C = Y
-
 $$
 
 
@@ -2081,17 +2015,13 @@ The sending end voltage and current are then given by:
 
 
 $$
-
 V_S = (1 + \frac{YZ}{2})V_R + Z(1 + \frac{YZ}{4})I_R
-
 $$
 
 
 
 $$
-
 I_S = YV_R + (1 + \frac{YZ}{2})I_R
-
 $$
 
 
@@ -2109,25 +2039,19 @@ Now consider a transmission line with a complex load at the receiving end. The A
 
 
 $$
-
 A = D = 1
-
 $$
 
 
 
 $$
-
 B = Z
-
 $$
 
 
 
 $$
-
 C = Y
-
 $$
 
 
@@ -2141,17 +2065,13 @@ The sending end voltage and current are then given by:
 
 
 $$
-
 V_S = (1 + \frac{YZ}{2})V_R + Z(1 + \frac{YZ}{4})I_R
-
 $$
 
 
 
 $$
-
 I_S = YV_R + (1 + \frac{YZ}{2})I_R
-
 $$
 
 
@@ -2185,25 +2105,19 @@ The ABCD parameters for a transmission line are given by:
 
 
 $$
-
 A = D = 1
-
 $$
 
 
 
 $$
-
 B = Z
-
 $$
 
 
 
 $$
-
 C = Y
-
 $$
 
 
@@ -2217,17 +2131,13 @@ The receiving end voltage and current are then given by:
 
 
 $$
-
 V_R = (1 - \frac{YZ}{2})V_S - Z(1 - \frac{YZ}{4})I_S
-
 $$
 
 
 
 $$
-
 I_R = -YV_S + (1 - \frac{YZ}{2})I_S
-
 $$
 
 
@@ -2257,17 +2167,13 @@ Let's start with the basic equations for the receiving end voltage and current:
 
 
 $$
-
 V_R = (1 - \frac{YZ}{2})V_S - Z(1 - \frac{YZ}{4})I_S
-
 $$
 
 
 
 $$
-
 I_R = -YV_S + (1 - \frac{YZ}{2})I_S
-
 $$
 
 
@@ -2459,9 +2365,7 @@ The operation of a transformer is based on Faraday's law of electromagnetic indu
 
 
 $$
-
 e = -N \frac{d\Phi}{dt}
-
 $$
 
 
@@ -2481,9 +2385,7 @@ The voltage transformation ratio of a transformer is given by the ratio of the n
 
 
 $$
-
 \frac{V_s}{V_p} = \frac{N_s}{N_p}
-
 $$
 
 
@@ -2581,7 +2483,6 @@ An ideal transformer is a theoretical transformer that has no losses, meaning it
 
 
 $$
-
 \begin{align*}
 
 V_1 &= j\omega L_1 I_1 \\
@@ -2589,7 +2490,6 @@ V_1 &= j\omega L_1 I_1 \\
 V_2 &= j\omega L_2 I_2 \\
 
 \end{align*}
-
 $$
 
 
@@ -2615,7 +2515,6 @@ The equivalent circuit can be represented as follows:
 
 
 $$
-
 \begin{align*}
 
 V_1 &= I_1 (R_1 + jX_1) + V_2' \\
@@ -2627,7 +2526,6 @@ I_0 &= \frac{V_1}{R_c + jX_m} \\
 I_1 &= I_2' + I_0 \\
 
 \end{align*}
-
 $$
 
 
@@ -2665,9 +2563,7 @@ In a delta configuration, the ends of the three windings are connected to form a
 
 
 $$
-
 I_L = \sqrt{3} I_{ph}
-
 $$
 
 
@@ -2685,9 +2581,7 @@ In a wye configuration, one end of each winding is connected to a common point, 
 
 
 $$
-
 V_L = \sqrt{3} V_{ph}
-
 $$
 
 
@@ -2841,9 +2735,7 @@ The load flow problem is essentially a system of nonlinear algebraic equations. 
 
 
 $$
-
 f(x) = 0
-
 $$
 
 
@@ -3031,17 +2923,13 @@ The power flow equations can be written as:
 
 
 $$
-
 \Delta P_{i} = -P_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\cos\theta_{ik}-B_{ik}\sin\theta_{ik})
-
 $$
 
 
 
 $$
-
 \Delta Q_{i} = -Q_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\sin\theta_{ik}-B_{ik}\cos\theta_{ik})
-
 $$
 
 
@@ -3055,9 +2943,7 @@ The power flow equations are solved iteratively using numerical methods such as 
 
 
 $$
-
 J\Delta x = -\Delta P
-
 $$
 
 
@@ -3067,9 +2953,7 @@ where $J$ is a matrix of partial derivatives known as a Jacobian:
 
 
 $$
-
 J=\begin{bmatrix} \dfrac{\partial \Delta P}{\partial\theta} & \dfrac{\partial \Delta P}{\partial |V|} \\ \dfrac{\partial \Delta Q}{\partial \theta}& \dfrac{\partial \Delta Q}{\partial |V|}\end{bmatrix}
-
 $$
 
 
@@ -3115,17 +2999,13 @@ In the context of the power flow equations discussed in the previous subsection,
 
 
 $$
-
 \Delta P_{i} = -P_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\cos\theta_{ik}-B_{ik}\sin\theta_{ik})
-
 $$
 
 
 
 $$
-
 \Delta Q_{i} = -Q_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\sin\theta_{ik}-B_{ik}\cos\theta_{ik})
-
 $$
 
 
@@ -3135,17 +3015,13 @@ $$
 
 
 $$
-
 \Delta P_{i} = -P_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\cos\theta_{ik}-B_{ik}\sin\theta_{ik})
-
 $$
 
 
 
 $$
-
 \Delta |V_i| = -|V_i| + V_{i,spec}
-
 $$
 
 
@@ -3211,9 +3087,7 @@ The load flow equations are derived from the power balance equations at each bus
 
 
 $$
-
 P_{i} + jQ_{i} = V_{i} \sum_{k=1}^{N} V_{k} Y_{ik} e^{j\theta_{ik}}
-
 $$
 
 
@@ -3227,17 +3101,13 @@ The real and imaginary parts of the power balance equation give the active and r
 
 
 $$
-
 P_{i} = V_{i} \sum_{k=1}^{N} V_{k} Y_{ik} \cos(\theta_{ik})
-
 $$
 
 
 
 $$
-
 Q_{i} = V_{i} \sum_{k=1}^{N} V_{k} Y_{ik} \sin(\theta_{ik})
-
 $$
 
 
@@ -3251,7 +3121,6 @@ The load flow equations can be written in matrix form as:
 
 
 $$
-
 \begin{bmatrix}
 
 P \\
@@ -3269,7 +3138,6 @@ V \cdot (Y \cos(\Theta) \cdot V) \\
 V \cdot (Y \sin(\Theta) \cdot V)
 
 \end{bmatrix}
-
 $$
 
 
@@ -3299,9 +3167,7 @@ The Gauss-Seidel method is an iterative technique that starts with an initial gu
 
 
 $$
-
 V_{i}^{(k+1)} = \frac{1}{Y_{ii}} \left( P_{i} - jQ_{i} - \sum_{k \neq i} Y_{ik} V_{k}^{(k)} \right)
-
 $$
 
 
@@ -3319,7 +3185,6 @@ The Newton-Raphson method is a more sophisticated technique that uses the Jacobi
 
 
 $$
-
 \begin{bmatrix}
 
 \Delta V \\
@@ -3337,7 +3202,6 @@ $$
 \Delta Q
 
 \end{bmatrix}
-
 $$
 
 
@@ -3379,17 +3243,13 @@ The load flow equations for this system are:
 
 
 $$
-
 P_2 = V_1 V_2 |Y_{12}| \cos(\theta_1 - \theta_2 - \arg(Y_{12}))
-
 $$
 
 
 
 $$
-
 Q_2 = V_1 V_2 |Y_{12}| \sin(\theta_1 - \theta_2 - \arg(Y_{12}))
-
 $$
 
 
@@ -3459,9 +3319,7 @@ The bus admittance matrix and the bus impedance matrix are used in the formulati
 
 
 $$
-
 P_i = V_i \sum_{j=1}^N V_j |Y_{ij}| \cos(\theta_i - \theta_j - \arg(Y_{ij}))
-
 $$
 
 
@@ -3471,9 +3329,7 @@ and the reactive power injection at bus $i$ can be expressed as:
 
 
 $$
-
 Q_i = V_i \sum_{j=1}^N V_j |Y_{ij}| \sin(\theta_i - \theta_j - \arg(Y_{ij}))
-
 $$
 
 
@@ -3507,17 +3363,13 @@ The power injection matrices are related to the bus voltages and the bus admitta
 
 
 $$
-
 P = V \cdot \Re(Y_{bus} \cdot V^*)
-
 $$
 
 
 
 $$
-
 Q = -V \cdot \Im(Y_{bus} \cdot V^*)
-
 $$
 
 
@@ -3539,9 +3391,7 @@ The voltage matrix is related to the power injections and the bus impedance matr
 
 
 $$
-
 V = Z_{bus} \cdot (P + jQ)
-
 $$
 
 
@@ -3559,7 +3409,6 @@ The load flow equations can be written in a matrix form as follows:
 
 
 $$
-
 \begin{bmatrix}
 
 P \\
@@ -3577,7 +3426,6 @@ Q
 -\Im(Y_{bus} \cdot V^*)
 
 \end{bmatrix}
-
 $$
 
 
@@ -3587,9 +3435,7 @@ and
 
 
 $$
-
 V = Z_{bus} \cdot (P + jQ)
-
 $$
 
 
@@ -3619,9 +3465,7 @@ The update equation for the Gauss-Seidel method is given by:
 
 
 $$
-
 V_i^{(k+1)} = \frac{1}{Y_{ii}} \left( P_i - \sum_{j \neq i} Y_{ij} V_j^{(k)} \right)
-
 $$
 
 
@@ -3643,9 +3487,7 @@ The update equation for the Newton-Raphson method is given by:
 
 
 $$
-
 \Delta V^{(k)} = -J^{-1} \cdot \Delta P^{(k)}
-
 $$
 
 
@@ -3667,9 +3509,7 @@ The update equations for the FDLF method are given by:
 
 
 $$
-
 \Delta \theta^{(k)} = -B^{-1} \cdot \Delta P^{(k)}
-
 $$
 
 
@@ -3679,9 +3519,7 @@ and
 
 
 $$
-
 \Delta |V|^{(k)} = -B'^{-1} \cdot \Delta Q^{(k)}
-
 $$
 
 
@@ -3793,9 +3631,7 @@ The algorithm begins with an initial guess of all unknown variables, which are t
 
 
 $$
-
 \begin{bmatrix} \Delta P \\ \Delta Q \end{bmatrix} = -J^{-1} \begin{bmatrix} P_{m} - P_{c} \\ Q_{m} - Q_{c} \end{bmatrix}
-
 $$
 
 
@@ -3809,17 +3645,13 @@ The mismatch equations are given by:
 
 
 $$
-
 \Delta P_{i} = -P_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\cos\theta_{ik}-B_{ik}\sin\theta_{ik})
-
 $$
 
 
 
 $$
-
 \Delta Q_{i} = -Q_{i} + \sum_{k=1}^N |V_i||V_k|(G_{ik}\sin\theta_{ik}-B_{ik}\cos\theta_{ik})
-
 $$
 
 
@@ -3829,9 +3661,7 @@ The Jacobian matrix is a matrix of partial derivatives and is given by:
 
 
 $$
-
 J=\begin{bmatrix} \dfrac{\partial \Delta P}{\partial\theta} & \dfrac{\partial \Delta P}{\partial |V|} \\ \dfrac{\partial \Delta Q}{\partial \theta}& \dfrac{\partial \Delta Q}{\partial |V|}\end{bmatrix}
-
 $$
 
 
@@ -3853,9 +3683,7 @@ The Jacobian matrix, denoted as $J$, is a crucial component in the Newton Raphso
 
 
 $$
-
 J=\begin{bmatrix} H & N \\ M & L \end{bmatrix}
-
 $$
 
 
@@ -3869,9 +3697,7 @@ The elements of these sub-matrices are given by the following equations:
 
 
 $$
-
 H_{ij} = \frac{\partial \Delta P_i}{\partial \theta_j} = |V_i||V_j|(G_{ij}\sin(\theta_i - \theta_j) - B_{ij}\cos(\theta_i - \theta_j))
-
 $$
 
 
@@ -3881,9 +3707,7 @@ $$
 
 
 $$
-
 N_{ij} = \frac{\partial \Delta P_i}{\partial |V_j|} = |V_i|(G_{ij}\cos(\theta_i - \theta_j) + B_{ij}\sin(\theta_i - \theta_j))
-
 $$
 
 
@@ -3893,9 +3717,7 @@ $$
 
 
 $$
-
 M_{ij} = \frac{\partial \Delta Q_i}{\partial \theta_j} = -|V_i||V_j|(G_{ij}\cos(\theta_i - \theta_j) + B_{ij}\sin(\theta_i - \theta_j))
-
 $$
 
 
@@ -3905,9 +3727,7 @@ $$
 
 
 $$
-
 L_{ij} = \frac{\partial \Delta Q_i}{\partial |V_j|} = |V_i|(G_{ij}\sin(\theta_i - \theta_j) - B_{ij}\cos(\theta_i - \theta_j))
-
 $$
 
 
@@ -3933,17 +3753,13 @@ The power mismatches, denoted as $\Delta P$ and $\Delta Q$, are calculated as fo
 
 
 $$
-
 \Delta P_i = P_{i,spec} - P_i(V, \theta)
-
 $$
 
 
 
 $$
-
 \Delta Q_i = Q_{i,spec} - Q_i(V, \theta)
-
 $$
 
 
@@ -3957,17 +3773,13 @@ The convergence criterion is typically defined as the maximum absolute power mis
 
 
 $$
-
 \max_i |\Delta P_i| < \epsilon_P
-
 $$
 
 
 
 $$
-
 \max_i |\Delta Q_i| < \epsilon_Q
-
 $$
 
 
@@ -4005,17 +3817,13 @@ The decoupled load flow analysis begins with the same initial guess for voltage 
 
 
 $$
-
 \Delta P_i = P_{i,spec} - P_i(V, \theta)
-
 $$
 
 
 
 $$
-
 \Delta Q_i = Q_{i,spec} - Q_i(V, \theta)
-
 $$
 
 
@@ -4025,17 +3833,13 @@ The decoupled load flow equations are then:
 
 
 $$
-
 \Delta \theta = [B']^{-1} \Delta P
-
 $$
 
 
 
 $$
-
 \Delta V = [B'']^{-1} \Delta Q
-
 $$
 
 
@@ -4247,9 +4051,7 @@ The operation of a synchronous machine can be represented mathematically by the 
 
 
 $$
-
 V_{ph} = E_{ph} - I_{a} (R_{a} + jX_{s})
-
 $$
 
 
@@ -4275,9 +4077,7 @@ The equivalent circuit of a synchronous machine can be derived from the machine'
 
 
 $$
-
 V_{ph} = E_{ph} - I_{a} (R_{a} + jX_{s})
-
 $$
 
 
@@ -4287,9 +4087,7 @@ This equation can be rearranged to give:
 
 
 $$
-
 E_{ph} = V_{ph} + I_{a} (R_{a} + jX_{s})
-
 $$
 
 
@@ -4307,9 +4105,7 @@ The equivalent circuit can be further simplified by neglecting the resistance $R
 
 
 $$
-
 E_{ph} = V_{ph} + jI_{a}X_{s}
-
 $$
 
 
@@ -4339,7 +4135,6 @@ The main parameters of a synchronous machine are:
 
 
     $$
-
     N_s = \frac{120f}{p}
 
     $$
@@ -4639,13 +4434,11 @@ When a synchronous machine is operating under overload condition, it is supplyin
 The synchronous speed of a synchronous machine is determined by the number of poles on the machine and the frequency of the supply. It is given by the formula:
 
 
-
 $$
 
 N_s = \frac{120f}{p}
 
 $$
-
 
 
 where $N_s$ is the synchronous speed in revolutions per minute (rpm), $f$ is the frequency of the supply in Hertz (Hz), and $p$ is the number of poles on the machine.
@@ -4675,13 +4468,11 @@ The power-angle characteristic is a fundamental concept in the operation of sync
 The power-angle curve of a synchronous machine is a plot of the real power output of the machine against the power angle. The shape of the power-angle curve depends on the machine parameters and operating conditions. However, for a given machine and operating condition, the power-angle curve can be approximated by a sinusoidal function:
 
 
-
 $$
 
 P = P_m \sin \delta
 
 $$
-
 
 
 where $P$ is the real power output, $P_m$ is the maximum power output, and $\delta$ is the power angle.
@@ -4731,13 +4522,11 @@ The stability of a synchronous machine is a crucial aspect of its operation. It 
 The dynamics of a synchronous machine can be described by the swing equation, which is a second-order differential equation that relates the rotor angle to the net power input. The swing equation is given by:
 
 
-
 $$
 
 \frac{d^2\delta}{dt^2} = \frac{P_m - P_e}{2H}
 
 $$
-
 
 
 where $\delta$ is the rotor angle, $P_m$ is the mechanical input power, $P_e$ is the electrical output power, and $H$ is the inertia constant of the machine.
@@ -4759,13 +4548,11 @@ The stability of a synchronous machine can be analyzed by studying the roots of 
 Damping is a factor that can affect the stability of a synchronous machine. Damping refers to the dissipation of energy in the machine due to friction and electrical losses. The effect of damping can be included in the swing equation by adding a damping term:
 
 
-
 $$
 
 \frac{d^2\delta}{dt^2} + 2D\frac{d\delta}{dt} = \frac{P_m - P_e}{2H}
 
 $$
-
 
 
 where $D$ is the damping coefficient. The damping term helps to stabilize the machine by reducing the oscillations in the rotor angle.
@@ -4815,13 +4602,11 @@ The coupling of mechanical vibrations of the drive system with the electrical vi
 In synchronous machines, electromechanical oscillations can be described by the swing equation, which relates the rotor angle to the net power input. The swing equation is given by:
 
 
-
 $$
 
 \frac{d^2\delta}{dt^2} = \frac{P_m - P_e}{2H}
 
 $$
-
 
 
 where $\delta$ is the rotor angle, $P_m$ is the mechanical input power, $P_e$ is the electrical output power, and $H$ is the inertia constant of the machine.
@@ -4839,13 +4624,11 @@ The stability of a synchronous machine can be analyzed by studying the roots of 
 Damping is a critical factor in the stability of electromechanical systems. It refers to the dissipation of energy in the system due to friction and electrical losses. The effect of damping can be included in the swing equation by adding a damping term:
 
 
-
 $$
 
 \frac{d^2\delta}{dt^2} + 2D\frac{d\delta}{dt} = \frac{P_m - P_e}{2H}
 
 $$
-
 
 
 where $D$ is the damping coefficient. The damping term helps to stabilize the system by reducing the oscillations in the rotor angle.
@@ -4867,13 +4650,11 @@ The swing equation, also known as the equation of motion, is a second-order diff
 The swing equation is given by:
 
 
-
 $$
 
 \frac{d^2\delta}{dt^2} = \frac{P_m - P_e}{2H}
 
 $$
-
 
 
 where $\delta$ is the rotor angle, $P_m$ is the mechanical power input, $P_e$ is the electrical power output, and $H$ is the inertia constant of the machine.
@@ -5421,13 +5202,11 @@ The first step in small signal stability analysis is to linearize the system equ
 The linearized system equations can be written in the form:
 
 
-
 $$
 
 \Delta \dot{x} = A \Delta x + B \Delta u
 
 $$
-
 
 
 where $\Delta x$ is the state deviation vector, $\Delta u$ is the input deviation vector, $A$ is the system matrix, and $B$ is the input matrix. The system matrix $A$ is the Jacobian matrix of the system equations, evaluated at the operating point.
@@ -5453,14 +5232,11 @@ Eigenvalue analysis is a powerful tool in the study of small signal stability. I
 Eigenvalue perturbation refers to the changes in the eigenvalues of a system's Jacobian matrix due to small changes in the system parameters. The sensitivity of the eigenvalues to these changes can be computed using the following equations:
 
 
-
 $$
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
 
 $$
-
-
 
 $$
 
@@ -5469,9 +5245,7 @@ $$
 $$
 
 
-
 Similarly, the sensitivity of the eigenvectors can be computed as:
-
 
 
 $$
@@ -5480,14 +5254,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
 
 $$
-
 
 
 These equations allow us to compute the changes in the eigenvalues and eigenvectors due to small changes in the system parameters, providing insights into the system's dynamic behavior.
@@ -5501,7 +5272,6 @@ These equations allow us to compute the changes in the eigenvalues and eigenvect
 To illustrate the concept of eigenvalue sensitivity, consider a simple case where the matrix $K$ is given by:
 
 
-
 $$
 
 K=\begin{bmatrix} 2 & b \\ b & 0 \end{bmatrix}
@@ -5509,9 +5279,7 @@ K=\begin{bmatrix} 2 & b \\ b & 0 \end{bmatrix}
 $$
 
 
-
 The smallest eigenvalue of this matrix can be computed as:
-
 
 
 $$
@@ -5521,9 +5289,7 @@ $$
 $$
 
 
-
 The sensitivity of this eigenvalue with respect to $b$ can be computed as:
-
 
 
 $$
@@ -5533,9 +5299,7 @@ $$
 $$
 
 
-
 An associated eigenvector is given by:
-
 
 
 $$
@@ -5543,7 +5307,6 @@ $$
 \tilde x_0=[b, 1]
 
 $$
-
 
 
 This example illustrates how eigenvalue analysis can be used to study the sensitivity of the system's dynamic behavior to changes in its parameters. In the next section, we will discuss how these concepts can be applied to the analysis of small signal stability in power systems.
@@ -5613,13 +5376,11 @@ Small signal models are essential tools in the analysis of power systems. They p
 An inductor can be modeled as a series combination of an ideal inductor and a resistor, representing the inherent resistance of the inductor's wire. The impedance of this model is given by:
 
 
-
 $$
 
 Z(ω) = R + jωL
 
 $$
-
 
 
 where $R$ is the resistance, $ω$ is the angular frequency, and $L$ is the inductance. The resistance $R$ is often small and can be neglected in many applications. However, at high frequencies or under high current conditions, the resistance can become significant and must be included in the model.
@@ -5633,13 +5394,11 @@ where $R$ is the resistance, $ω$ is the angular frequency, and $L$ is the induc
 Similar to inductors, capacitors can also be modeled as a series combination of an ideal capacitor and a resistor, representing the equivalent series resistance (ESR). The impedance of this model is given by:
 
 
-
 $$
 
 Z(ω) = R - \frac{j}{ωC}
 
 $$
-
 
 
 where $R$ is the ESR, $ω$ is the angular frequency, and $C$ is the capacitance. The ESR is often small and can be neglected in many applications. However, at high frequencies or under high current conditions, the ESR can become significant and must be included in the model.
@@ -5891,13 +5650,11 @@ Economic dispatch is a critical aspect of power system operation and control. It
 The cost function of a generator is typically represented as a quadratic function of the form:
 
 
-
 $$
 
 C_i(P_i) = a_i + b_iP_i + c_iP_i^2
 
 $$
-
 
 
 where $C_i(P_i)$ is the cost of generation for the $i^{th}$ generator, $P_i$ is the power output of the $i^{th}$ generator, and $a_i$, $b_i$, and $c_i$ are the cost coefficients. These coefficients are determined based on the generator's fuel cost, efficiency, and other operational characteristics.
@@ -5911,7 +5668,6 @@ where $C_i(P_i)$ is the cost of generation for the $i^{th}$ generator, $P_i$ is 
 The objective of economic dispatch is to minimize the total cost of generation. This can be represented as the following optimization problem:
 
 
-
 $$
 
 \min \sum_{i=1}^{N} C_i(P_i)
@@ -5919,9 +5675,7 @@ $$
 $$
 
 
-
 subject to the constraints:
-
 
 
 $$
@@ -5930,14 +5684,11 @@ $$
 
 $$
 
-
-
 $$
 
 P_{min,i} \leq P_i \leq P_{max,i}
 
 $$
-
 
 
 where $N$ is the number of generators, $P_{demand}$ is the total power demand, and $P_{min,i}$ and $P_{max,i}$ are the minimum and maximum power output of the $i^{th}$ generator, respectively.
@@ -6245,13 +5996,11 @@ Economic dispatch is a fundamental concept in the operation of electric power sy
 The economic dispatch problem can be thought of as maximizing the economic welfare of a power network while meeting system constraints. For a network with buses (nodes), suppose that `$P_i$` is the rate of generation, and `$D_i$` is the rate of consumption at bus `$i$`. Suppose, further, that `$C_i(P_i)$` is the cost function of producing power (i.e., the rate at which the generator incurs costs when producing at rate `$P_i$`), and `$V_i(D_i)$` is the rate at which the load receives value or benefits (expressed in currency units) when consuming at rate `$D_i$`. The total welfare is then
 
 
-
 $$
 
 W = \sum_{i=1}^{N} V_i(D_i) - C_i(P_i)
 
 $$
-
 
 
 The economic dispatch task is to find the combination of rates of production and consumption (`$P_i$` and `$D_i$`) which maximize this expression subject to a number of constraints.
@@ -6261,7 +6010,6 @@ The economic dispatch task is to find the combination of rates of production and
 The first constraint, which is necessary to interpret the constraints that follow, is that the net injection at each bus is equal to the total production at that bus less the total consumption:
 
 
-
 $$
 
 P_i - D_i = I_i
@@ -6269,9 +6017,7 @@ P_i - D_i = I_i
 $$
 
 
-
 The power balance constraint requires that the sum of the net injections at all buses must be equal to the power losses in the branches of the network:
-
 
 
 $$
@@ -6281,7 +6027,6 @@ $$
 $$
 
 
-
 The power losses depend on the flows in the branches and thus on the net injections as shown in the above equation. However, it cannot depend on the injections on all the buses as this would give an over-determined system. Thus one bus is chosen as the Slack bus and is omitted from the variables of the function `$L(I)$`. The choice of Slack bus is entirely arbitrary, here bus `$N$` is chosen.
 
 
@@ -6289,13 +6034,11 @@ The power losses depend on the flows in the branches and thus on the net injecti
 The second constraint involves capacity constraints on the flow on network lines. For a system with lines this constraint is modeled as:
 
 
-
 $$
 
 |F_k(I)| \leq F_{k,max}
 
 $$
-
 
 
 where `$F_k(I)$` is the flow on branch `$k$`, and `$F_{k,max}$` is the maximum value that this flow is allowed to take. Note that the net injection at the slack bus is not included in the constraints.
@@ -6361,13 +6104,11 @@ Including these constraints in the economic dispatch problem adds another layer 
 The transmission constraints can be represented mathematically as follows:
 
 
-
 $$
 
 F_{ij} \leq F_{max_{ij}}, \quad \forall (i, j) \in L
 
 $$
-
 
 
 where $F_{ij}$ is the power flow on line $(i, j)$, and $L$ is the set of all lines in the network.
@@ -6377,13 +6118,11 @@ where $F_{ij}$ is the power flow on line $(i, j)$, and $L$ is the set of all lin
 The Lagrangian of the optimization problem, including the transmission constraints, can now be written as:
 
 
-
 $$
 
 L = \sum_{i \in N} (C_i(G_i) - V_i(D_i)) + \pi \left( \sum_{i \in N} (G_i - D_i) - \sum_{(i, j) \in L} F_{ij} \right) + \sum_{(i, j) \in L} \mu_{ij} (F_{ij} - F_{max_{ij}})
 
 $$
-
 
 
 where $\mu_{ij}$ is the Lagrange multiplier associated with the transmission constraint on line $(i, j)$.
@@ -6655,13 +6394,11 @@ The optimal dispatch problem can be mathematically formulated as follows:
 Let's consider a network with $n$ buses (nodes). Let $g_i$ be the rate of generation and $d_i$ be the rate of consumption at bus $i$. Let $c(g_i)$ be the cost function of producing power at rate $g_i$, and $v(d_i)$ be the rate at which the load receives value or benefits when consuming at rate $d_i$. The total welfare, $W$, is then given by:
 
 
-
 $$
 
 W = \sum_{i=1}^{n} v(d_i) - c(g_i)
 
 $$
-
 
 
 The objective of the optimal dispatch problem is to find the combination of rates of production and consumption ($g_i$ and $d_i$) which maximize this expression subject to a number of constraints.
@@ -6671,13 +6408,11 @@ The objective of the optimal dispatch problem is to find the combination of rate
 The first constraint is that the net injection at each bus is equal to the total production at that bus less the total consumption:
 
 
-
 $$
 
 g_i - d_i = \sum_{j=1}^{n} p_{ij}
 
 $$
-
 
 
 where $p_{ij}$ is the power flow from bus $i$ to bus $j$.
@@ -6687,13 +6422,11 @@ where $p_{ij}$ is the power flow from bus $i$ to bus $j$.
 The power balance constraint requires that the sum of the net injections at all buses must be equal to the power losses in the branches of the network:
 
 
-
 $$
 
 \sum_{i=1}^{n} (g_i - d_i) = \sum_{i=1}^{n} \sum_{j=1}^{n} p_{ij}
 
 $$
-
 
 
 The power losses depend on the flows in the branches and thus on the net injections as shown in the above equation. However, it cannot depend on the injections on all the buses as this would give an over-determined system. Thus one bus is chosen as the Slack bus and is omitted from the variables of the function. The choice of Slack bus is entirely arbitrary, here bus $n$ is chosen.
@@ -6703,13 +6436,11 @@ The power losses depend on the flows in the branches and thus on the net injecti
 The second constraint involves capacity constraints on the flow on network lines. For a system with $m$ lines this constraint is modeled as:
 
 
-
 $$
 
 |p_{ij}| \leq p_{ij}^{max}
 
 $$
-
 
 
 where $p_{ij}$ is the flow on branch $i$ to $j$, and $p_{ij}^{max}$ is the maximum value that this flow is allowed to take. Note that the net injection at the slack bus is not included in this equation for the same reasons as above.
@@ -6719,13 +6450,11 @@ where $p_{ij}$ is the flow on branch $i$ to $j$, and $p_{ij}^{max}$ is the maxim
 These equations can now be combined to build the Lagrangian of the optimization problem:
 
 
-
 $$
 
 L = \sum_{i=1}^{n} v(d_i) - c(g_i) + \pi \left( \sum_{i=1}^{n} (g_i - d_i) - \sum_{i=1}^{n} \sum_{j=1}^{n} p_{ij} \right) + \sum_{i=1}^{n} \sum_{j=1}^{n} \mu_{ij} (|p_{ij}| - p_{ij}^{max})
 
 $$
-
 
 
 where $\pi$ and $\mu_{ij}$ are the Lagrange multipliers associated with the power balance and line flow constraints, respectively.
@@ -6787,7 +6516,6 @@ In the context of electric power systems, security constraints are critical cons
 Security constraints in the optimal dispatch problem typically involve limits on the generation and demand variables $g_i$ and $d_i$, as well as constraints on the system's operating conditions. For instance, the generation of each unit $g_i$ must be within its minimum and maximum limits, $g_{i,min}$ and $g_{i,max}$, respectively:
 
 
-
 $$
 
 g_{i,min} \leq g_i \leq g_{i,max}
@@ -6795,9 +6523,7 @@ g_{i,min} \leq g_i \leq g_{i,max}
 $$
 
 
-
 Similarly, the demand $d_i$ must be within its feasible range, $d_{i,min}$ and $d_{i,max}$:
-
 
 
 $$
@@ -6805,7 +6531,6 @@ $$
 d_{i,min} \leq d_i \leq d_{i,max}
 
 $$
-
 
 
 In addition to these, there may be constraints on the transmission lines' power flows, voltage levels at different buses, and the system's frequency. These constraints ensure that the system operates within its technical limits and maintains its stability and reliability.
@@ -7065,7 +6790,6 @@ The symmetrical components transformation, also known as the Fortescue transform
 The transformation is represented as `$F_{abc}$`, where `$a$`, `$b$`, and `$c$` represent the three phases of the power system. The transformation is defined as follows:
 
 
-
 $$
 
 F_{abc} = \frac{1}{3} \left[ I_a + aI_b + a^2I_c \right]
@@ -7073,13 +6797,11 @@ F_{abc} = \frac{1}{3} \left[ I_a + aI_b + a^2I_c \right]
 $$
 
 
-
 where `$I_a$`, `$I_b$`, and `$I_c$` are the phase currents, and `$a$` is a complex operator defined as `$a = e^{j120^\circ}$`. 
 
 
 
 The inverse transformation, which converts the symmetrical components back into phase quantities, is given by:
-
 
 
 $$
@@ -7091,7 +6813,6 @@ I_b = a^2I_1 + aI_2 + I_0 \\
 I_c = aI_1 + a^2I_2 + I_0 \\
 
 $$
-
 
 
 where `$I_1$`, `$I_2$`, and `$I_0$` are the positive, negative, and zero sequence components, respectively.
@@ -7121,14 +6842,11 @@ Sequence impedances are the impedances of the positive, negative, and zero seque
 The sequence impedances can be calculated using the following formulas:
 
 
-
 $$
 
 Z_1 = Z_{line} + Z_{trans} + Z_{load}
 
 $$
-
-
 
 $$
 
@@ -7136,14 +6854,11 @@ Z_2 = Z_{line} + Z_{trans} + Z_{load}
 
 $$
 
-
-
 $$
 
 Z_0 = 3Z_{line} + Z_{trans} + 3Z_{load}
 
 $$
-
 
 
 where `$Z_{line}$`, `$Z_{trans}$`, and `$Z_{load}$` are the line, transformer, and load impedances, respectively. Note that the zero sequence impedance is three times the line and load impedances due to the three-phase nature of the power system.
@@ -7193,13 +6908,11 @@ Fault analysis using symmetrical components involves the following steps:
 Let's illustrate these steps with an example. Consider a single line to ground fault at a point in the power system. The sequence networks for this type of fault are connected in series. The fault current `$I_f$` can be calculated using the following formula:
 
 
-
 $$
 
 I_f = \frac{V_{pre-fault}}{Z_1 + Z_2 + Z_0}
 
 $$
-
 
 
 where `$V_{pre-fault}$` is the pre-fault voltage at the fault point, and `$Z_1$`, `$Z_2$`, and `$Z_0$` are the positive, negative, and zero sequence impedances, respectively.
@@ -7467,13 +7180,11 @@ In symmetrical faults, all three phases are involved equally, and the system rem
 Let's denote the source impedance as $Z_s$ and the faulted line's impedance as $Z_f$. The total fault impedance $Z_{total}$ can be calculated as:
 
 
-
 $$
 
 Z_{total} = Z_s + Z_f
 
 $$
-
 
 
 ##### Fault Impedance in Asymmetrical Faults
@@ -7491,13 +7202,11 @@ The positive, negative, and zero sequence networks are used to represent the sys
 Let's denote the positive, negative, and zero sequence impedances as $Z_1$, $Z_2$, and $Z_0$ respectively. The total fault impedance $Z_{total}$ can be calculated as:
 
 
-
 $$
 
 Z_{total} = Z_1 + Z_2 + Z_0
 
 $$
-
 
 
 It's important to note that the sequence impedances depend on the type of the fault. For example, in a single-line-to-ground fault, the zero sequence impedance plays a significant role, while in a line-to-line fault, it does not.
@@ -7543,13 +7252,11 @@ Short circuit analysis is another important technique used in fault analysis. It
 The short circuit current $I_{sc}$ can be calculated using Ohm's law as:
 
 
-
 $$
 
 I_{sc} = \frac{V_{source}}{Z_{total}}
 
 $$
-
 
 
 where $V_{source}$ is the source voltage and $Z_{total}$ is the total fault impedance.
@@ -8163,13 +7870,11 @@ The slack bus is defined as the bus in a power system that balances the power eq
 Mathematically, the power balance equation can be expressed as:
 
 
-
 $$
 
 P_{gen} - P_{load} - P_{loss} = 0
 
 $$
-
 
 
 where $P_{gen}$ is the total power generated, $P_{load}$ is the total power consumed by the loads, and $P_{loss}$ is the total power loss in the system. The slack bus ensures that this equation holds true by adjusting its power output.
@@ -8207,7 +7912,6 @@ Load flow studies are essential for power systems engineers as they provide insi
 The power balance at each bus $i$ can be expressed as:
 
 
-
 $$
 
 P_i=P_{Gi}-P_{Li}
@@ -8215,9 +7919,7 @@ P_i=P_{Gi}-P_{Li}
 $$
 
 
-
 where $P_{Gi}$ is the power generated at bus $i$ and $P_{Li}$ is the power load at bus $i$. The difference between the actual and calculated power at each bus $i$ can be expressed as:
-
 
 
 $$
@@ -8227,9 +7929,7 @@ $$
 $$
 
 
-
 Similarly, the difference between the actual and calculated reactive power at each bus $i$ can be expressed as:
-
 
 
 $$
@@ -8237,7 +7937,6 @@ $$
 \Delta Q_i=Q_i-Q_{i,calc}
 
 $$
-
 
 
 The slack bus is responsible for absorbing these differences, thereby ensuring that the power balance equation holds true for the entire system.
@@ -8275,7 +7974,6 @@ The control and optimization of the slack bus in power systems is a critical asp
 Advanced algorithms can be used to optimize the control of the slack bus. These algorithms can be designed to minimize the difference between the actual and calculated power at each bus $i$, as expressed by the equations:
 
 
-
 $$
 
 \Delta P_i=P_i-P_{i,calc}
@@ -8283,9 +7981,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -8293,7 +7989,6 @@ $$
 \Delta Q_i=Q_i-Q_{i,calc}
 
 $$
-
 
 
 These algorithms can also be designed to handle uncertainties in the input variables, which is a common challenge in slack bus control. By incorporating these uncertainties directly into the algorithm, it is possible to maintain a stable and efficient power system even in the face of moderate amounts of uncertainty.
@@ -8351,7 +8046,6 @@ The analysis of the slack bus in power systems is a crucial aspect of maintainin
 Advanced algorithms can be used to analyze the slack bus in power systems. These algorithms can be designed to calculate the power flow in the system and identify any discrepancies between the actual and calculated power at each bus $i$, as expressed by the equations:
 
 
-
 $$
 
 \Delta P_i=P_i-P_{i,calc}
@@ -8359,9 +8053,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -8369,7 +8061,6 @@ $$
 \Delta Q_i=Q_i-Q_{i,calc}
 
 $$
-
 
 
 These algorithms can also be designed to handle uncertainties in the input variables, which is a common challenge in slack bus analysis. By incorporating these uncertainties directly into the algorithm, it is possible to maintain a stable and efficient power system even in the face of moderate amounts of uncertainty.
@@ -9003,13 +8694,11 @@ Classical methods include load flow analysis and fault analysis.
 - **Load Flow Analysis**: The load-flow calculation is one of the most fundamental components in the analysis of power systems. It is the cornerstone for almost all other tools used in power system simulation and management. The load-flow equations can be written in the following general form:
 
 
-
 $$
 
 Y_{bus}V = I_{sh} + S_{bus}^*/V^*
 
 $$
-
 
 
 where the given (complex) parameters are the admittance matrix $Y_{bus}$, the bus shunt admittances $I_{sh}$, and the bus power injections $S_{bus}$ representing constant-power loads and generators.
@@ -9431,7 +9120,6 @@ The Holomorphic Embedding Load-flow method (HELM) is a novel approach to solving
 
 
 The load-flow calculation is one of the most fundamental components in the analysis of power systems. The load-flow equations can be written in the following general form:
-
 
 
 $$

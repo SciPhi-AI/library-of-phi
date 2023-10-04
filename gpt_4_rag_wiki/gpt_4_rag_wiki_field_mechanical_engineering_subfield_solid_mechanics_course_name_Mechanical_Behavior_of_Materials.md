@@ -467,9 +467,7 @@ The internal virtual work in the system can be represented as:
 
 
 $$
-
 \mbox{System internal virtual work} = \sum_{e} \delta\ \mathbf{r}^T \left( \mathbf{k}^e \mathbf{r} + \mathbf{Q}^{oe} \right) = \delta\ \mathbf{r}^T \left( \sum_{e} \mathbf{k}^e \right)\mathbf{r} + \delta\ \mathbf{r}^T \sum_{e} \mathbf{Q}^{oe}
-
 $$
 
 
@@ -483,9 +481,7 @@ The internal force distribution is also influenced by the external forces acting
 
 
 $$
-
 -\delta\ \mathbf{r}^T \sum_{e} \left(\mathbf{Q}^{te} + \mathbf{Q}^{fe}\right)
-
 $$
 
 
@@ -499,9 +495,7 @@ In the context of soil mechanics, the internal force distribution can be represe
 
 
 $$
-
 \sigma=\left[\begin{matrix}\sigma_{xx}&0&\tau_{xz}\\0&0&0\\\tau_{zx}&0&\sigma_{zz}\\\end{matrix}\right] =\left[\begin{matrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{matrix}\right]
-
 $$
 
 
@@ -527,9 +521,7 @@ Nodal forces, denoted as $\mathbf{R}$, are the forces applied at specific points
 
 
 $$
-
 \delta\ \mathbf{r}^T \mathbf{R}
-
 $$
 
 
@@ -543,9 +535,7 @@ Surface forces, denoted as $\mathbf{T}^e$, are the forces applied on the surface
 
 
 $$
-
 \mathbf{Q}^{te} = -\int_{S^e} \mathbf{N}^T \mathbf{T}^e \, dS^e
-
 $$
 
 
@@ -559,9 +549,7 @@ Body forces, denoted as $\mathbf{f}^e$, are the forces that act throughout the v
 
 
 $$
-
 \mathbf{Q}^{fe} = -\int_{V^e} \mathbf{N}^T \mathbf{f}^e \, dV^e
-
 $$
 
 
@@ -575,9 +563,7 @@ The total work done by the external forces can be represented as:
 
 
 $$
-
 -\delta\ \mathbf{r}^T \sum_{e} \left(\mathbf{Q}^{te} + \mathbf{Q}^{fe}\right)
-
 $$
 
 
@@ -603,9 +589,7 @@ Elastic deformation is a type of deformation in which the material returns to it
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -623,9 +607,7 @@ The strain, on the other hand, is a measure of the deformation of the material. 
 
 
 $$
-
 \epsilon = \frac{\delta l}{l_0}
-
 $$
 
 
@@ -639,9 +621,7 @@ In the context of incremental deformations, the perturbed position $\bar{\bf x}$
 
 
 $$
-
 \bar{\bf x} = {\bf x}^0 + \delta{\bf x}
-
 $$
 
 
@@ -655,9 +635,7 @@ The perturbed deformation gradient, which gives the rate of change of the deform
 
 
 $$
-
 \bar{\bf F} = {\bf F}^0 + \mathbf{\Gamma}
-
 $$
 
 
@@ -671,9 +649,7 @@ The perturbed Piola stress, which gives the force per unit area in the reference
 
 
 $$
-
 \bar{\bf P} = {\bf P}^0 + \delta p \mathcal{A}^1
-
 $$
 
 
@@ -703,9 +679,7 @@ In the context of incremental deformations, the perturbed Piola stress, which gi
 
 
 $$
-
 \bar{\bf P} = {\bf P}^0 + \delta p \mathbf{F}^0 + \mathcal{A}^1 \mathbf{\Gamma}
-
 $$
 
 
@@ -719,9 +693,7 @@ The incremental governing equations, which describe the equilibrium of forces in
 
 
 $$
-
 \delta {\bf S} = \mathcal{A}^1_0 \delta {\bf E}
-
 $$
 
 
@@ -735,9 +707,7 @@ The incremental incompressibility constraint, which ensures that the volume of t
 
 
 $$
-
 \delta p = - \mathcal{A}^1_0 : \delta {\bf E}
-
 $$
 
 
@@ -767,9 +737,7 @@ In the context of incremental deformations, the perturbed Piola stress in viscoe
 
 
 $$
-
 \bar{\bf P} = {\bf P}^0 + \delta p \mathbf{F}^0 + \mathcal{A}^1 \mathbf{\Gamma} + \mathcal{V}^1 \delta \mathbf{E}
-
 $$
 
 
@@ -783,9 +751,7 @@ The incremental governing equations for viscoelastic materials can be written as
 
 
 $$
-
 \delta {\bf S} = \mathcal{A}^1_0 \delta {\bf E} + \mathcal{V}^1 \delta \dot{\bf E}
-
 $$
 
 
@@ -799,9 +765,7 @@ The incremental incompressibility constraint for viscoelastic materials can be w
 
 
 $$
-
 \delta p = - \mathcal{A}^1_0 : \delta {\bf E} - \mathcal{V}^1 : \delta \dot{\bf E}
-
 $$
 
 
@@ -929,7 +893,6 @@ There are several types of stress distributions that can occur in materials, dep
 
 
     $$
-
     \sigma_{hydrostatic}=p_{mean}=\frac{\sigma_{xx}+\sigma_{zz}}{2}
 
     $$
@@ -1015,13 +978,11 @@ Strain, denoted by $\epsilon$, is a measure of deformation representing the disp
 The relationship between stress and strain can be expressed as:
 
 
-
 $$
 
 \sigma = E \cdot \epsilon
 
 $$
-
 
 
 where $E$ is the modulus of elasticity, also known as Young's modulus. This equation is known as Hooke's law and it states that the strain in a material is proportional to the applied stress within the elastic limit of that material.
@@ -1031,7 +992,6 @@ where $E$ is the modulus of elasticity, also known as Young's modulus. This equa
 In the context of plane stress and plane strain states, the relationship between stress and strain becomes more complex due to the multidimensional nature of the stress and strain. For instance, in the plane stress state, the stress matrix is given by:
 
 
-
 $$
 
 \sigma=\left[\begin{matrix}\sigma_{xx}&0&\tau_{xz}\\0&0&0\\\tau_{zx}&0&\sigma_{zz}\\\end{matrix}\right] =\left[\begin{matrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{matrix}\right]
@@ -1039,9 +999,7 @@ $$
 $$
 
 
-
 The corresponding strain matrix, assuming a linear elastic material behavior and using the generalized Hooke's law, can be expressed as:
-
 
 
 $$
@@ -1049,7 +1007,6 @@ $$
 \epsilon=\left[\begin{matrix}\epsilon_{xx}&\gamma_{xz}\\\gamma_{zx}&\epsilon_{zz}\\\end{matrix}\right]
 
 $$
-
 
 
 where $\epsilon_{xx}$ and $\epsilon_{zz}$ are the normal strains in the x and z directions, respectively, and $\gamma_{xz}$ is the shear strain. The relationship between the stress and strain matrices is then given by the constitutive equations of the material.
@@ -1075,13 +1032,11 @@ The stress-strain curve is typically divided into several regions: the elastic r
 In the **elastic region**, the material returns to its original shape after the stress is removed. This behavior is described by Hooke's law, which states that the stress is proportional to the strain:
 
 
-
 $$
 
 \sigma = E \cdot \epsilon
 
 $$
-
 
 
 where $\sigma$ is the stress, $E$ is the modulus of elasticity or Young's modulus, and $\epsilon$ is the strain. 
@@ -1099,7 +1054,6 @@ The **fracture point** is where the material breaks under the applied stress.
 In the context of plane stress and plane strain states, the stress-strain relationship becomes more complex due to the multidimensional nature of the stress and strain. For instance, the stress matrix in the plane stress state is given by:
 
 
-
 $$
 
 \sigma=\left[\begin{matrix}\sigma_{xx}&0&\tau_{xz}\\0&0&0\\\tau_{zx}&0&\sigma_{zz}\\\end{matrix}\right] =\left[\begin{matrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{matrix}\right]
@@ -1107,9 +1061,7 @@ $$
 $$
 
 
-
 The corresponding strain matrix, assuming a linear elastic material behavior and using the generalized Hooke's law, can be expressed as:
-
 
 
 $$
@@ -1117,7 +1069,6 @@ $$
 \epsilon=\left[\begin{matrix}\epsilon_{xx}&\gamma_{xz}\\\gamma_{zx}&\epsilon_{zz}\\\end{matrix}\right]
 
 $$
-
 
 
 where $\epsilon_{xx}$ and $\epsilon_{zz}$ are the normal strains in the x and z directions, respectively, and $\gamma_{xz}$ is the shear strain. The relationship between the stress and strain matrices is then given by the constitutive equations of the material.
@@ -1441,13 +1392,11 @@ The transformation of stress components from one coordinate system to another is
 The transformation matrix, often denoted as $[T]$, is a square matrix that contains the direction cosines of the new coordinate system with respect to the old one. The transformed stress tensor, denoted as $[\sigma']$, can be obtained by pre-multiplying the original stress tensor, $[\sigma]$, with the transformation matrix and its transpose:
 
 
-
 $$
 
 [\sigma'] = [T][\sigma][T]^T
 
 $$
-
 
 
 #### 4.1c Principal Stresses and Maximum Shear Stress
@@ -1461,13 +1410,11 @@ Principal stresses are the maximum and minimum normal stresses that occur at a p
 The maximum shear stress is another key concept in stress transformations. It is the maximum value of shear stress that occurs at a point in a material. The maximum shear stress can be found from the principal stresses using the following equation:
 
 
-
 $$
 
 \tau_{max} = \frac{\sigma_{max} - \sigma_{min}}{2}
 
 $$
-
 
 
 where $\sigma_{max}$ and $\sigma_{min}$ are the maximum and minimum principal stresses, respectively.
@@ -1497,7 +1444,6 @@ In two-dimensional stress transformations, we consider the stresses acting on a 
 The 2D stress matrix is given by:
 
 
-
 $$
 
 \sigma=\left[\begin{matrix}\sigma_{xx}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}\\\end{matrix}\right]
@@ -1505,9 +1451,7 @@ $$
 $$
 
 
-
 The transformation of this stress matrix from one coordinate system to another is achieved through the use of transformation equations and matrices, similar to the process described in the previous sections. The transformed stress matrix, denoted as $[\sigma']$, can be obtained by pre-multiplying the original stress matrix, $[\sigma]$, with the transformation matrix and its transpose:
-
 
 
 $$
@@ -1517,9 +1461,7 @@ $$
 $$
 
 
-
 In the context of plane stress, the hydrostatic stress, $\sigma_{hydrostatic}$, is defined as the average of the normal stresses:
-
 
 
 $$
@@ -1539,11 +1481,9 @@ After loading, the stress state can be represented as:
 
 
 $$
-
 \left[\begin{matrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xz}\\\tau_{zx}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{matrix}\right]+\left[\begin{matrix}\sigma_{hydrostatic}&0\\0&\sigma_{hydrostatic}\\\end{matrix}\right]
 
 +\left[\begin{matrix}0&0\\0&\sigma_{z}\ \\\end{matrix}\right]
-
 $$
 
 
@@ -1565,9 +1505,7 @@ The 3D stress matrix is given by:
 
 
 $$
-
 \sigma=\left[\begin{matrix}\sigma_{xx}&\tau_{xy}&\tau_{xz}\\\tau_{yx}&\sigma_{yy}&\tau_{yz}\\\tau_{zx}&\tau_{zy}&\sigma_{zz}\\\end{matrix}\right]
-
 $$
 
 
@@ -1577,9 +1515,7 @@ Similar to the 2D case, the transformation of this stress matrix from one coordi
 
 
 $$
-
 [\sigma'] = [T][\sigma][T]^T
-
 $$
 
 
@@ -1589,9 +1525,7 @@ In the context of three-dimensional stress, the hydrostatic stress, $\sigma_{hyd
 
 
 $$
-
 \sigma_{hydrostatic}=p_{mean}=\frac{\sigma_{xx}+\sigma_{yy}+\sigma_{zz}}{3}
-
 $$ 
 
 
@@ -1605,9 +1539,7 @@ After loading, the stress state can be represented as:
 
 
 $$
-
 \left[\begin{matrix}\sigma_{xx}-\sigma_{hydrostatic}&\tau_{xy}&\tau_{xz}\\\tau_{yx}&\sigma_{yy}-\sigma_{hydrostatic}&\tau_{yz}\\\tau_{zx}&\tau_{zy}&\sigma_{zz}-\sigma_{hydrostatic}\\\end{matrix}\right]+\left[\begin{matrix}\sigma_{hydrostatic}&0&0\\0&\sigma_{hydrostatic}&0\\0&0&\sigma_{hydrostatic}\\\end{matrix}\right]
-
 $$
 
 
@@ -1715,9 +1647,7 @@ Hooke's law is a fundamental principle in the field of continuum linear elastici
 
 
 $$
-
 F = kx
-
 $$
 
 
@@ -1743,9 +1673,7 @@ In the context of continuum linear elasticity, Hooke's law can be generalized to
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1775,9 +1703,7 @@ The elastic modulus is typically denoted by the symbol `E` and is defined as the
 
 
 $$
-
 E = \frac{σ}{ε}
-
 $$
 
 
@@ -1815,9 +1741,7 @@ Mathematically, Poisson's ratio is defined as:
 
 
 $$
-
 ν = -\frac{ε_{lateral}}{ε_{axial}}
-
 $$
 
 
@@ -1871,9 +1795,7 @@ In direct tensor form that is independent of the choice of coordinate system, th
 
 
 $$
-
 \boldsymbol{\sigma} = \mathsf{C}:\boldsymbol{\varepsilon}, \quad \boldsymbol{\varepsilon} = \frac{1}{2}(\nabla \mathbf{u} + (\nabla \mathbf{u})^\mathrm{T}), \quad \rho \ddot{\mathbf{u}} = \nabla \cdot \boldsymbol{\sigma} + \mathbf{F}
-
 $$
 
 
@@ -1903,17 +1825,13 @@ The Navier-Stokes equations for an incompressible, isotropic, and homogeneous fl
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{F}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -1927,9 +1845,7 @@ In the context of viscoelastic fluids, the stress tensor $\boldsymbol{\sigma}$ i
 
 
 $$
-
 \boldsymbol{\sigma} + \lambda_1 \frac{\partial \boldsymbol{\sigma}}{\partial t} = 2\eta_0 \left( \boldsymbol{\varepsilon} + \lambda_2 \frac{\partial \boldsymbol{\varepsilon}}{\partial t} \right)
-
 $$
 
 
@@ -2053,9 +1969,7 @@ The superelastic behavior can be represented mathematically using the finite str
 
 
 $$
-
 \mathbf{C} = \sum_{i=1}^3 \lambda_i^2 \mathbf{N}_i \otimes \mathbf{N}_i \qquad \text{and} \qquad \mathbf{B} = \sum_{i=1}^3 \lambda_i^2 \mathbf{n}_i \otimes \mathbf{n}_i
-
 $$
 
 
@@ -2065,9 +1979,7 @@ Here, $\mathbf{C}$ and $\mathbf{B}$ are the right and left Cauchy-Green deformat
 
 
 $$
-
 \mathbf{F}~\mathbf{N}_i = \lambda_i~(\mathbf{R}~\mathbf{N}_i) = \lambda_i~\mathbf{n}_i
-
 $$
 
 
@@ -2243,9 +2155,7 @@ Mathematically, the elastic limit ($\sigma_{el}$) can be represented as:
 
 
 $$
-
 \sigma_{el} = E \cdot \epsilon_{el}
-
 $$
 
 
@@ -2263,9 +2173,7 @@ The yield stress ($\sigma_y$) can be defined as:
 
 
 $$
-
 \sigma_y = E \cdot \epsilon_y
-
 $$
 
 
@@ -2389,9 +2297,7 @@ One of the most common models used to describe the viscoelastic behavior of poly
 
 
 $$
-
 \sigma(t) = E \epsilon(t) + \eta \frac{d\epsilon(t)}{dt}
-
 $$
 
 
@@ -2405,9 +2311,7 @@ Another common model is the Kelvin-Voigt model, which represents a viscoelastic 
 
 
 $$
-
 \sigma(t) = E \epsilon(t) + \eta \frac{d\sigma(t)}{dt}
-
 $$
 
 
@@ -2433,9 +2337,7 @@ The creep behavior of viscoelastic materials can be described mathematically usi
 
 
 $$
-
 \epsilon(t) = \epsilon_0 + \epsilon_\infty \left(1 - e^{-t/\tau}\right)
-
 $$
 
 
@@ -2571,9 +2473,7 @@ Because the kinks are in thermal equilibrium, the probability that a kink reside
 
 
 $$
-
 S = k \ln \Omega
-
 $$
 
 
@@ -2671,9 +2571,7 @@ Using the affine model, calculate the elastic modulus of a rubber sample given t
 
 
 $$
-
 E = nkT
-
 $$
 
 
@@ -2789,9 +2687,7 @@ The plastic flow of a material can be described mathematically using the flow ru
 
 
 $$
-
 \dot{\epsilon}_{p} = \dot{\lambda} \frac{\partial f}{\partial \sigma}
-
 $$
 
 
@@ -2813,9 +2709,7 @@ Strain hardening can be described using the hardening law, which relates the yie
 
 
 $$
-
 \sigma_{y} = \sigma_{0} + K \epsilon_{p}^{n}
-
 $$
 
 
@@ -2939,9 +2833,7 @@ The mathematical description of dislocation movement is complex and involves sev
 
 
 $$
-
 v = v_0 e^{-\frac{Q}{kT}}
-
 $$
 
 
@@ -2955,9 +2847,7 @@ The strain produced by the movement of a single dislocation, `$\epsilon$`, can b
 
 
 $$
-
 \epsilon = \frac{b}{L}
-
 $$
 
 
@@ -3051,9 +2941,7 @@ The power law fluid model is given by:
 
 
 $$
-
 \frac{h_0}{h}=\left ( 1+t*(\frac{2n+3}{4n+2})(\frac{(4*h_0*L_0)^{n+1}*F*(n+2)}{(2*L_0)^{2n+3}*W*m})^{1/n}\right )^{n/2n+3}
-
 $$
 
 
@@ -3063,9 +2951,7 @@ Where $m$ (or $K$) is the "flow consistency index" and $n$ is the dimensionless 
 
 
 $$
-
 m=m_0*exp\left ( \frac{-E_a}{R*T} \right )
-
 $$
 
 
@@ -3591,9 +3477,7 @@ The total strain under creep conditions can be denoted as $\epsilon_t$, where:
 
 
 $$
-
 \epsilon_t = \epsilon_g + \epsilon_{gbs} + \epsilon_{dc}
-
 $$
 
 
@@ -3607,9 +3491,7 @@ In practice, experiments are usually performed under conditions where creep is n
 
 
 $$
-
 \epsilon_t = \epsilon_g + \epsilon_{gbs}
-
 $$
 
 
@@ -3619,9 +3501,7 @@ The contribution of GBS to the total strain can then be denoted as:
 
 
 $$
-
 \eta = \epsilon_{gbs} / \epsilon_t
-
 $$
 
 
@@ -3631,9 +3511,7 @@ The sliding contribution can be estimated by individual measurements of $\epsilo
 
 
 $$
-
 \epsilon_{gbs} = k''nr vr
-
 $$
 
 
@@ -3753,9 +3631,7 @@ Brittle fracture occurs without any significant deformation and is characterized
 
 
 $$
-
 K = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -3769,9 +3645,7 @@ Ductile fracture, on the other hand, involves significant plastic deformation be
 
 
 $$
-
 K_{IC} = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -3801,9 +3675,7 @@ The critical stress intensity factor, also known as the fracture toughness, is a
 
 
 $$
-
 K_{IC} = Y \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -3845,9 +3717,7 @@ The resolved normal stress, $\sigma_n$, on a plane with a normal vector $\vec{n}
 
 
 $$
-
 \sigma_n = \vec{n} \cdot \vec{\sigma} \cdot \vec{n}
-
 $$
 
 
@@ -3893,9 +3763,7 @@ The ductile fracture behavior of polycrystalline materials can be described math
 
 
 $$
-
 \frac{dV}{d\epsilon} = f(1 - f)
-
 $$
 
 
@@ -3941,9 +3809,7 @@ The fracture behavior of glasses can be described mathematically using the Griff
 
 
 $$
-
 \sigma = \sqrt{\frac{2E\gamma}{\pi a}}
-
 $$
 
 
@@ -3973,7 +3839,6 @@ The Griffith's law, which is used to predict the amount of energy needed to crea
 
 
 $$\sigma = \sqrt{\frac{2 \gamma E}{\pi a}}$$
-
 
 
 where $\sigma$ is the fracture stress, $\gamma$ is the surface free energy per area, $E$ is the Young's modulus of the material, and $a$ is the crack length.
@@ -4093,9 +3958,7 @@ The initiation stage of fatigue failure is where a microscopic crack or defect f
 The initiation of fatigue cracks can be described by the Coffin-Manson relation, which relates the strain amplitude to the number of cycles to failure:
 
 
-
 $$ \Delta \epsilon / 2 = \epsilon_f' (2N_f)^b $$
-
 
 
 where $\Delta \epsilon$ is the strain range, $\epsilon_f'$ and $b$ are material constants, and $N_f$ is the number of cycles to failure.
@@ -4109,9 +3972,7 @@ where $\Delta \epsilon$ is the strain range, $\epsilon_f'$ and $b$ are material 
 Once a crack has initiated, it begins to propagate through the material under the influence of the cyclic loading. The rate of crack propagation is a function of the stress intensity factor range, $\Delta K$, which is a measure of the stress state near the crack tip. The Paris law describes the crack growth rate:
 
 
-
 $$ \frac{da}{dN} = C (\Delta K)^m $$
-
 
 
 where $a$ is the crack length, $N$ is the number of cycles, and $C$ and $m$ are material constants.
@@ -4153,9 +4014,7 @@ The prediction of fatigue life is often based on the S-N curve (Stress vs Number
 The Basquin's law, also known as the power law, is often used to describe the S-N curve in the high cycle region:
 
 
-
 $$ \sigma_a = \sigma'f (2N_f)^b $$
-
 
 
 where $\sigma_a$ is the stress amplitude, $\sigma'f$ and $b$ are material constants, and $N_f$ is the number of cycles to failure.
@@ -4513,13 +4372,11 @@ The Elastic Modulus, also known as Young's Modulus, is a fundamental mechanical 
 The Elastic Modulus is defined as the ratio of stress ($\sigma$) to strain ($\epsilon$) in the linear elastic region of a material's stress-strain curve, and is given by the formula:
 
 
-
 $$
 
 E = \frac{\sigma}{\epsilon}
 
 $$
-
 
 
 where:
@@ -4567,13 +4424,11 @@ The thermal expansion of a material is quantified by its coefficient of thermal 
 The linear coefficient of thermal expansion ($\alpha_L$) is given by the formula:
 
 
-
 $$
 
 \alpha_L = \frac{1}{L} \frac{dL}{dT}
 
 $$
-
 
 
 where:
@@ -4589,13 +4444,11 @@ where:
 Similarly, the volumetric coefficient of thermal expansion ($\alpha_V$) is given by the formula:
 
 
-
 $$
 
 \alpha_V = \frac{1}{V} \frac{dV}{dT}
 
 $$
-
 
 
 where:
@@ -4627,13 +4480,11 @@ In the next subsection, we will discuss another important thermal property - the
 Thermal conductivity is another essential thermal property of materials. It quantifies the ability of a material to conduct heat and is denoted by the symbol $k$. The thermal conductivity of a material is defined as the amount of heat (in watts) transferred through a square meter of material, one meter thick, per degree of temperature gradient (in Kelvin), which can be mathematically represented as:
 
 
-
 $$
 
 k = \frac{Q}{A \cdot \Delta T / d}
 
 $$
-
 
 
 where:
@@ -4677,13 +4528,11 @@ In the next section, we will explore the relationship between thermal conductivi
 Specific heat capacity, often simply referred to as specific heat, is a measure of the amount of heat energy required to raise the temperature of a specific amount of a substance by a certain degree. It is denoted by the symbol $c$ and is defined mathematically as:
 
 
-
 $$
 
 c = \frac{Q}{m \cdot \Delta T}
 
 $$
-
 
 
 where:
@@ -4873,13 +4722,11 @@ There are several types of hardness tests, each with its unique method and scale
 1. **Brinell Hardness Test:** This test involves applying a known load to a hardened steel or carbide ball of known diameter. The diameter of the resulting indentation in the test material is then measured. The Brinell hardness number (BHN) is calculated using the formula:
 
 
-
 $$
 
 BHN = \frac{2P}{\pi D(D - \sqrt{D^2 - d^2})}
 
 $$
-
 
 
 where $P$ is the applied load in kilograms, $D$ is the diameter of the indenter in millimeters, and $d$ is the diameter of the indentation in millimeters.
@@ -5645,7 +5492,6 @@ After identifying the failure mode and investigating the failure mechanism, the 
 
 
 The risk associated with a failure can be quantified as the product of the probability of the failure occurring, the severity of the consequences if the failure occurs, and the detectability of the failure. This can be expressed mathematically as:
-
 
 
 $$

@@ -2821,9 +2821,7 @@ In this subsection, we will focus on the internal noise sources in receivers tha
 
 
 $$
-
 N = k_B T \Delta f
-
 $$
 
 
@@ -2963,9 +2961,7 @@ The power spectrum of thermal noise is described by the Johnson-Nyquist equation
 
 
 $$
-
 N_0 = k_B T \Delta f
-
 $$
 
 
@@ -3093,9 +3089,7 @@ The noise figure is typically expressed in decibels (dB) and is calculated using
 
 
 $$
-
 \text{Noise Figure (NF)} = 10 \log_{10} \left(\frac{\text{Output Noise Power}}{\text{Input Noise Power}}\right)
-
 $$
 
 
@@ -3117,9 +3111,7 @@ The noise temperature is related to the noise figure by the following formula:
 
 
 $$
-
 \text{Noise Figure (NF)} = 1 + \frac{\text{Noise Temperature (T)}}{290 \text{ K}}
-
 $$
 
 
@@ -3155,9 +3147,7 @@ As mentioned before, the noise figure is a measure of the amount of noise added 
 
 
 $$
-
 \text{Noise Figure (NF)} = 10 \log_{10} \left(\frac{\text{Output Noise Power}}{\text{Input Noise Power}}\right)
-
 $$
 
 
@@ -3183,9 +3173,7 @@ The noise temperature is related to the noise figure by the following formula:
 
 
 $$
-
 T_{\text{noise}} = T_0 \left(10^{\frac{\text{Noise Figure (NF)}}{10}} - 1\right)
-
 $$
 
 
@@ -3225,9 +3213,7 @@ The noise temperature is related to the noise figure by the following formula:
 
 
 $$
-
 T_{\text{noise}} = T_0 \left(10^{\frac{\text{Noise Figure (NF)}}{10}} - 1\right)
-
 $$
 
 
@@ -3321,9 +3307,7 @@ The noise figure of an amplifier is typically expressed in decibels (dB) and is 
 
 
 $$
-
 F = \frac{SNR_{in}}{SNR_{out}}
-
 $$
 
 
@@ -3535,9 +3519,7 @@ The MDS of a receiver is dependent on various factors such as the type of detect
 
 
 $$
-
 \text{Noise floor}_\textrm{dBm} = 10\ \log_{10}(k T_0\times BW / 1\,\textrm{mW})\ \textrm{dBm} + NF
-
 $$
 
 
@@ -3581,9 +3563,7 @@ The MDS of a receiver is dependent on various factors such as the type of detect
 
 
 $$
-
 \text{Noise floor}_\textrm{dBm} = 10\ \log_{10}(k T_0\times BW / 1\,\textrm{mW})\ \textrm{dBm} + NF
-
 $$
 
 
@@ -3597,9 +3577,7 @@ Once the noise floor is established, the MDS can be calculated by adding a certa
 
 
 $$
-
 \text{MDS}_\textrm{dBm} = \text{Noise floor}_\textrm{dBm} + 10\ \log_{10}(10) = \text{Noise floor}_\textrm{dBm} + 10\ \textrm{dB}
-
 $$
 
 
@@ -3663,9 +3641,7 @@ The MDS of a receiver is dependent on various factors such as the type of detect
 
 
 $$
-
 \text{Noise floor}_\textrm{dBm} = 10\ \log_{10}(k T_0\times BW / 1\,\textrm{mW})\ \textrm{dBm} + NF
-
 $$
 
 
@@ -3679,9 +3655,7 @@ Once the noise floor is established, the MDS can be calculated by adding a certa
 
 
 $$
-
 \text{MDS}_\textrm{dBm} = \text{Noise floor}_\textrm{dBm} + 10\ \log_{10}(10) = \text{Noise floor}_\textrm{dBm} + 10\ \textrm{dB}
-
 $$
 
 
@@ -3745,9 +3719,7 @@ Signal-to-noise ratio is a measure of the quality of a signal, and it is defined
 
 
 $$
-
 \mathrm{SNR_{dB}} = 10 \log_{10} \left ( \mathrm{SNR} \right ).
-
 $$
 
 
@@ -3761,9 +3733,7 @@ The SNR can be calculated for both constant and random signals. For a constant s
 
 
 $$
-
 \mathrm{SNR} = \frac{P_\mathrm{signal}}{P_\mathrm{noise}},
-
 $$
 
 
@@ -3773,9 +3743,7 @@ where $P_\mathrm{signal}$ is the power of the signal and $P_\mathrm{noise}$ is t
 
 
 $$
-
 \mathrm{SNR} = \frac{E[S^2]}{E[N^2]},
-
 $$
 
 
@@ -3811,9 +3779,7 @@ Signal-to-noise ratio is a measure of the quality of a signal, and it is defined
 
 
 $$
-
 \mathrm{SNR_{dB}} = 10 \log_{10} \left ( \mathrm{SNR} \right ).
-
 $$
 
 
@@ -3827,9 +3793,7 @@ The SNR can be calculated for both constant and random signals. For a constant s
 
 
 $$
-
 \mathrm{SNR} = \frac{P_\mathrm{signal}}{P_\mathrm{noise}},
-
 $$
 
 
@@ -3839,9 +3803,7 @@ where $P_\mathrm{signal}$ is the power of the signal and $P_\mathrm{noise}$ is t
 
 
 $$
-
 \mathrm{SNR} = \frac{E[S^2]}{E[N^2]},
-
 $$
 
 
@@ -3897,9 +3859,7 @@ Signal-to-noise ratio is a measure of the quality of a signal, and it is defined
 
 
 $$
-
 \mathrm{SNR_{dB}} = 10 \log_{10} \left ( \mathrm{SNR} \right ).
-
 $$
 
 
@@ -3913,9 +3873,7 @@ The SNR can be calculated for both constant and random signals. For a constant s
 
 
 $$
-
 \mathrm{SNR} = \frac{P_\mathrm{signal}}{P_\mathrm{noise}},
-
 $$
 
 
@@ -3925,9 +3883,7 @@ where $P_\mathrm{signal}$ is the power of the signal and $P_\mathrm{noise}$ is t
 
 
 $$
-
 \mathrm{SNR} = \frac{E[S^2]}{E[N^2]},
-
 $$
 
 
@@ -4075,9 +4031,7 @@ The sensitivity of a receiver can be calculated using the following formula:
 
 
 $$
-
 S = P_{min} + NF - SNR_{min}
-
 $$
 
 
@@ -4567,9 +4521,7 @@ The gain of a receiver can be calculated using the following formula:
 
 
 $$
-
 Gain = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right) \text{dB}
-
 $$
 
 
@@ -4583,9 +4535,7 @@ In order to accurately calculate the gain of a receiver, it is important to cons
 
 
 $$
-
 F = \frac{S_{out}}{S_{in}} = \frac{P_{out} + N_{out}}{P_{in} + N_{in}}
-
 $$
 
 
@@ -4625,9 +4575,7 @@ As mentioned in the related context, the cumulative gain, Gcum<sub>n</sub> after
 
 
 $$
-
 Gcum_n = Gcum_{n-1} \times G_n
-
 $$
 
 
@@ -4641,9 +4589,7 @@ The cumulative noise factor, Fcum<sub>n</sub>, after n stages of the overall cas
 
 
 $$
-
 Fcum_n = \frac{Fcum_{n-1} + F_n - 1}{Gcum_{n-1} + \frac{F_n - 1}{G_n}}
-
 $$
 
 
@@ -4653,9 +4599,7 @@ Similarly, the cumulative 1 dB compression point, Pcum<sub>n</sub>, can be calcu
 
 
 $$
-
 Pcum_n = Pcum_{n-1} + \frac{P_n - 1}{Gcum_{n-1} + \frac{P_n - 1}{G_n}}
-
 $$
 
 
@@ -5317,7 +5261,6 @@ When two-ports are connected in a series-series configuration, as shown in figur
 
 
 $$
-
 \begin{bmatrix}
 
 z_{11} & z_{12} \\
@@ -5341,7 +5284,6 @@ z_{11}^{(2)} & z_{12}^{(2)} \\
 z_{21}^{(2)} & z_{22}^{(2)}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5409,7 +5351,6 @@ To find the `z`-parameters of the combined network, we can use matrix addition o
 
 
 $$
-
 \begin{bmatrix}
 
 z_{11} & z_{12} \\
@@ -5433,7 +5374,6 @@ z_{11}^{(2)} & z_{12}^{(2)} \\
 z_{21}^{(2)} & z_{22}^{(2)}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5447,9 +5387,7 @@ To simplify the analysis of multiport networks, we can use the concept of scatte
 
 
 $$
-
 S_{ij} = \frac{b_i}{a_j}
-
 $$
 
 
@@ -5463,33 +5401,25 @@ Using S-parameters, we can easily analyze the behavior of multiport networks. Fo
 
 
 $$
-
 S_{11} = \frac{z_{11}}{z_{11} + z_{12} + z_{21} + z_{22}}
-
 $$
 
 
 
 $$
-
 S_{12} = \frac{z_{12}}{z_{11} + z_{12} + z_{21} + z_{22}}
-
 $$
 
 
 
 $$
-
 S_{21} = \frac{z_{21}}{z_{11} + z_{12} + z_{21} + z_{22}}
-
 $$
 
 
 
 $$
-
 S_{22} = \frac{z_{22}}{z_{11} + z_{12} + z_{21} + z_{22}}
-
 $$
 
 
@@ -5599,9 +5529,7 @@ The cumulative gain, Gcum<sub>n</sub> after n stages, is given by:
 
 
 $$
-
 G_{cum,n} = G_{cum,n-1} \times G_n
-
 $$
 
 
@@ -5611,9 +5539,7 @@ and Gcum<sub>n</sub>(dB) is given by:
 
 
 $$
-
 G_{cum,n}(dB) = G_{cum,n-1}(dB) + G_n(dB)
-
 $$
 
 
@@ -5627,17 +5553,13 @@ To convert between dBs and linear terms, we can use the following equations:
 
 
 $$
-
 dB = 10 \log_{10}(linear)
-
 $$
 
 
 
 $$
-
 linear = 10^{dB/10}
-
 $$
 
 
@@ -5647,9 +5569,7 @@ The cumulative noise factor, after n stages of the overall cascade, Fcum<sub>n</
 
 
 $$
-
 F_{cum,n} = \frac{F_{cum,n-1} + F_n - 1}{G_{cum,n}}
-
 $$
 
 
@@ -5663,9 +5583,7 @@ The cumulative noise figure is then given by:
 
 
 $$
-
 NF_{cum,n} = 10 \log_{10}(F_{cum,n})
-
 $$
 
 
@@ -5675,9 +5593,7 @@ For spreadsheet purposes, it is convenient to refer the 1 dB compression point t
 
 
 $$
-
 P_{1dB,in} = P_{1dB,out} + G_{cum,n}(dB)
-
 $$
 
 
@@ -5725,9 +5641,7 @@ To understand the impact of noise figure on multiport receiver performance, let 
 
 
 $$
-
 F_{cum,n} = \frac{F_{cum,n-1} + F_n - 1}{G_{cum,n}}
-
 $$
 
 
@@ -6329,9 +6243,7 @@ The amount of current generated by a photodiode is directly proportional to the 
 
 
 $$
-
 I_{ph} = \eta P_{in}
-
 $$
 
 
@@ -8073,9 +7985,7 @@ To calculate the radiation resistance of a loop antenna, we can use the followin
 
 
 $$
-
 R_{rad} = \frac{80\pi^2}{3}\left(\frac{I}{\lambda}\right)^2
-
 $$
 
 
@@ -8507,7 +8417,6 @@ The aperture efficiency is defined as the ratio of the effective aperture $A_e$ 
 $$e_a = \frac{A_e}{A_{phys}}$$
 
 
-
 In general, the aperture efficiency of an antenna is less than 100%, as there will always be some loss of power due to various factors. However, for practical purposes, a high aperture efficiency is desirable as it indicates that the antenna is able to effectively capture and convert the incoming electromagnetic waves into electrical power.
 
 
@@ -8729,14 +8638,11 @@ The aperture size of a horn antenna is determined by its flare angle, which is t
 The dimensions for an optimum pyramidal horn are given by:
 
 
-
 $$
 
 L = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
-
 
 $$
 
@@ -8744,14 +8650,11 @@ W = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
 
-
-
 $$
 
 H = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
 
 
 where $\lambda$ is the wavelength, $\theta_m$ is the flare angle in the E-field direction, and $\theta_n$ is the flare angle in the H-field direction.
@@ -8761,21 +8664,17 @@ where $\lambda$ is the wavelength, $\theta_m$ is the flare angle in the E-field 
 Similarly, for a conical horn, the dimensions for an optimum horn are given by:
 
 
-
 $$
 
 L = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
 
-
-
 $$
 
 R = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
 
 
 where $R$ is the radius of the circular aperture.
@@ -8863,14 +8762,11 @@ The design of a horn antenna is based on the principle of aperture antennas, whe
 To design a pyramidal horn, the dimensions for an optimum horn are given by:
 
 
-
 $$
 
 L = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
-
 
 $$
 
@@ -8878,14 +8774,11 @@ W = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
 
-
-
 $$
 
 H = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
 
 
 where $\lambda$ is the wavelength, $\theta_m$ is the flare angle in the E-field direction, and $\theta_n$ is the flare angle in the H-field direction.
@@ -8895,21 +8788,17 @@ where $\lambda$ is the wavelength, $\theta_m$ is the flare angle in the E-field 
 Similarly, for a conical horn, the dimensions for an optimum horn are given by:
 
 
-
 $$
 
 L = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
 
-
-
 $$
 
 R = \frac{\lambda}{2} \sqrt{\frac{1}{\tan \theta_m \tan \theta_n}}
 
 $$
-
 
 
 where $R$ is the radius of the circular aperture.
@@ -8931,13 +8820,11 @@ To analyze the performance of a horn antenna, we can use the concept of aperture
 The aperture efficiency of a horn antenna can be calculated using the following formula:
 
 
-
 $$
 
 \eta_a = \frac{4}{\pi} \frac{A_e}{A_p}
 
 $$
-
 
 
 where $A_e$ is the effective aperture area and $A_p$ is the physical aperture area.
@@ -8947,13 +8834,11 @@ where $A_e$ is the effective aperture area and $A_p$ is the physical aperture ar
 The gain of a horn antenna can also be calculated using the following formula:
 
 
-
 $$
 
 G = \frac{4 \pi A_e}{\lambda^2}
 
 $$
-
 
 
 where $A_e$ is the effective aperture area and $\lambda$ is the wavelength.
@@ -9967,13 +9852,11 @@ As mentioned in the previous section, polarization mismatch loss occurs when the
 Polarization efficiency is a measure of how well an antenna can receive a signal with a specific polarization. It is defined as the ratio of the received power when the antenna is aligned with the polarization of the signal to the received power when the antenna is perpendicular to the polarization of the signal. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \eta = \frac{P_{parallel}}{P_{perpendicular}}
 
 $$
-
 
 
 where $P_{parallel}$ is the received power when the antenna is aligned with the polarization of the signal and $P_{perpendicular}$ is the received power when the antenna is perpendicular to the polarization of the signal.
@@ -9987,7 +9870,6 @@ A perfect antenna would have a polarization efficiency of 1, meaning it can rece
 To analyze the polarization mismatch loss, we can use the concept of polarization mismatch factor, which is defined as the ratio of the received power when the polarization of the signal is perpendicular to the antenna's polarization to the received power when the polarization of the signal is parallel to the antenna's polarization. Mathematically, it can be expressed as:
 
 
-
 $$
 
 M = \frac{P_{perpendicular}}{P_{parallel}}
@@ -9995,9 +9877,7 @@ M = \frac{P_{perpendicular}}{P_{parallel}}
 $$
 
 
-
 The polarization mismatch factor can also be expressed in terms of polarization efficiency as:
-
 
 
 $$
@@ -10005,7 +9885,6 @@ $$
 M = \frac{1}{\eta}
 
 $$
-
 
 
 From this, we can see that a lower polarization efficiency results in a higher polarization mismatch factor, leading to a greater loss in received power and a decrease in system performance.
@@ -10023,13 +9902,11 @@ Crosstalk and interference occur when the polarization of the received signal is
 Polarization isolation is a measure of how well an antenna can reject signals with different polarizations. It is defined as the ratio of the power received from a signal with the same polarization as the antenna to the power received from a signal with a different polarization. Mathematically, it can be expressed as:
 
 
-
 $$
 
 I = \frac{P_{same}}{P_{different}}
 
 $$
-
 
 
 where $P_{same}$ is the received power from a signal with the same polarization as the antenna and $P_{different}$ is the received power from a signal with a different polarization.
@@ -10051,13 +9928,11 @@ Polarization diversity is a technique used to improve receiver performance by ut
 Diversity gain is a measure of the improvement in signal quality achieved by using multiple antennas. It is defined as the ratio of the received signal-to-noise ratio (SNR) with diversity to the received SNR without diversity. Mathematically, it can be expressed as:
 
 
-
 $$
 
 G_d = \frac{SNR_{diversity}}{SNR_{no diversity}}
 
 $$
-
 
 
 where $SNR_{diversity}$ is the received SNR with diversity and $SNR_{no diversity}$ is the received SNR without diversity.
@@ -10843,9 +10718,7 @@ Channel capacity, denoted by C, is a measure of the maximum rate at which inform
 Mathematically, channel capacity can be defined as:
 
 
-
 $$C = \max_{p(x)} I(X;Y)$$
-
 
 
 where p(x) is the input distribution and I(X;Y) is the mutual information between the input and output of the channel. This definition implies that the channel capacity is dependent on the input distribution, and the maximum capacity is achieved when the input distribution is optimized.
@@ -10859,9 +10732,7 @@ where p(x) is the input distribution and I(X;Y) is the mutual information betwee
 In 1948, Claude Shannon proved a fundamental theorem that provides a limit on the maximum achievable channel capacity. This theorem, known as Shannon's theorem, states that the channel capacity C is equal to the maximum mutual information between the input and output of the channel, and it is given by:
 
 
-
 $$C = \max_{p(x)} I(X;Y) = \max_{p(x)} \sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}$$
-
 
 
 This theorem implies that the maximum achievable channel capacity is determined by the channel itself and is independent of the input distribution. It also provides a way to calculate the maximum achievable capacity for a given channel.
@@ -10875,9 +10746,7 @@ This theorem implies that the maximum achievable channel capacity is determined 
 One of the key properties of channel capacity is its additivity over independent channels. This means that the combined capacity of two independent channels is equal to the sum of their individual capacities. Mathematically, this can be expressed as:
 
 
-
 $$C(p_1 \times p_2) = C(p_1) + C(p_2)$$
-
 
 
 where p1 and p2 are two independent channels.
@@ -10933,9 +10802,7 @@ In the previous section, we discussed the definition of channel capacity and how
 In 1948, Claude Shannon proved a fundamental theorem that provides a limit on the maximum achievable channel capacity. This theorem, known as Shannon's theorem, states that the channel capacity C is equal to the maximum mutual information between the input and output of the channel, and it is given by:
 
 
-
 $$C = \max_{p(x)} I(X;Y) = \max_{p(x)} \sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}$$
-
 
 
 This theorem implies that the maximum achievable channel capacity is determined by the channel itself and is independent of the input distribution. It also provides a way to calculate the maximum achievable capacity for a given channel.
@@ -10949,9 +10816,7 @@ This theorem implies that the maximum achievable channel capacity is determined 
 To prove Shannon's theorem, we first need to define the concept of mutual information. Mutual information, denoted by I(X;Y), measures the amount of information that is shared between two random variables X and Y. It is given by:
 
 
-
 $$I(X;Y) = \sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}$$
-
 
 
 where p(x,y) is the joint probability distribution of X and Y, and p(x) and p(y) are the marginal probability distributions of X and Y, respectively.
@@ -10961,9 +10826,7 @@ where p(x,y) is the joint probability distribution of X and Y, and p(x) and p(y)
 Now, let us consider a communication channel with input X and output Y. According to Shannon's theorem, the channel capacity C is equal to the maximum mutual information between X and Y, which can be written as:
 
 
-
 $$C = \max_{p(x)} I(X;Y)$$
-
 
 
 To prove this, we need to show that for any rate R greater than the channel capacity C, there exists an encoder and decoder that can transmit information over the channel with an arbitrarily small probability of error.
@@ -11035,17 +10898,13 @@ One of the most common applications of Shannon's theorem is in determining the c
 Using Shannon's theorem, we can calculate the capacity of a BSC as:
 
 
-
 $$C = 1 - H(p)$$
-
 
 
 where H(p) is the binary entropy function, given by:
 
 
-
 $$H(p) = -p\log_2p - (1-p)\log_2(1-p)$$
-
 
 
 This result shows that the capacity of a BSC is determined solely by the error probability p and is independent of the input distribution.
@@ -11063,9 +10922,7 @@ Another important application of Shannon's theorem is in determining the capacit
 Using Shannon's theorem, we can calculate the capacity of a Gaussian channel as:
 
 
-
 $$C = \frac{1}{2}\log_2(1+\frac{P}{\sigma^2})$$
-
 
 
 where P is the average power of the input signal. This result shows that the capacity of a Gaussian channel is determined by the signal-to-noise ratio (SNR) and is independent of the input distribution.
@@ -12039,13 +11896,11 @@ Amplitude modulation (AM) is a type of analog modulation where the amplitude of 
 In AM, the modulating signal "m(t)" is multiplied with the carrier signal "c(t)" to produce the modulated signal "s(t)". This can be represented mathematically as:
 
 
-
 $$
 
 s(t) = (1 + m(t))c(t)
 
 $$
-
 
 
 The resulting signal "s(t)" consists of the original carrier signal "c(t)" and two sidebands at frequencies "f<sub>c</sub> + f<sub>m</sub>" and "f<sub>c</sub> - f<sub>m</sub>", where "f<sub>c</sub>" is the carrier frequency and "f<sub>m</sub>" is the frequency of the modulating signal. These sidebands are known as the upper and lower sidebands, respectively.
@@ -12089,7 +11944,6 @@ In the previous section, we discussed the basics of amplitude modulation (AM) an
 As mentioned before, AM involves multiplying the modulating signal "m(t)" with the carrier signal "c(t)" to produce the modulated signal "s(t)". This can be represented mathematically as:
 
 
-
 $$
 
 s(t) = (1 + m(t))c(t)
@@ -12097,9 +11951,7 @@ s(t) = (1 + m(t))c(t)
 $$
 
 
-
 where "s(t)" is the modulated signal, "m(t)" is the modulating signal, and "c(t)" is the carrier signal. This equation can also be written in terms of frequency as:
-
 
 
 $$
@@ -12107,7 +11959,6 @@ $$
 s(t) = A_c[1 + m(t)]\cos(2\pi f_ct)
 
 $$
-
 
 
 where "A_c" is the amplitude of the carrier signal and "f_c" is the carrier frequency.
@@ -12125,13 +11976,11 @@ The spectrum of the modulated signal "s(t)" can be visualized as a plot of frequ
 The spectrum of AM can be represented mathematically as:
 
 
-
 $$
 
 S(f) = \frac{A_c}{2}[M(f-f_c) + M(f+f_c)]
 
 $$
-
 
 
 where "S(f)" is the spectrum of the modulated signal, "M(f)" is the spectrum of the modulating signal, and "f_c" is the carrier frequency.
@@ -12145,13 +11994,11 @@ where "S(f)" is the spectrum of the modulated signal, "M(f)" is the spectrum of 
 To retrieve the original modulating signal "m(t)" from the modulated signal "s(t)", we need to demodulate the signal. This can be done by multiplying the modulated signal with a local oscillator signal at the carrier frequency "f_c" and then passing it through a low-pass filter. Mathematically, this can be represented as:
 
 
-
 $$
 
 s_{demod}(t) = s(t)\cos(2\pi f_ct)
 
 $$
-
 
 
 where "s_{demod}(t)" is the demodulated signal.
@@ -12249,13 +12096,11 @@ Frequency modulation is a form of angle modulation, where the frequency of the c
 The process of frequency modulation can be mathematically represented as:
 
 
-
 $$
 
 FM(t) = A\sin\left(\omega_c t + \beta\sin(\omega_m t)\right)
 
 $$
-
 
 
 where $A$ is the amplitude of the carrier signal, $\omega_c$ is the angular frequency of the carrier, $\beta$ is the frequency modulation index, and $\omega_m$ is the angular frequency of the modulating signal.
@@ -12371,13 +12216,11 @@ Frequency modulation is a form of angle modulation, where the frequency of the c
 The process of frequency modulation can be mathematically represented as:
 
 
-
 $$
 
 FM(t) = A\sin\left(\omega_c t + \beta\sin(\omega_m t)\right)
 
 $$
-
 
 
 where $A$ is the amplitude of the carrier signal, $\omega_c$ is the angular frequency of the carrier, $\beta$ is the frequency modulation index, and $\omega_m$ is the angular frequency of the modulating signal.
@@ -12415,7 +12258,6 @@ To better understand the characteristics of frequency modulation, let us analyze
 The spectrum of a single operator FM signal can be expressed as:
 
 
-
 $$
 
 FM(t) = A\sin\left(\int_0^t \left(\omega_c + B\sin(\omega_m\tau)\right)d\tau\right)
@@ -12423,9 +12265,7 @@ FM(t) = A\sin\left(\int_0^t \left(\omega_c + B\sin(\omega_m\tau)\right)d\tau\rig
 $$
 
 
-
 If we ignore the constant phase terms on the carrier and modulator, we can simplify this expression to:
-
 
 
 $$
@@ -12435,13 +12275,11 @@ FM(t) \approx A\sin\left(\omega_c t + \beta\sin(\omega_m t)\right)
 $$
 
 
-
 where $\omega_c$ and $\omega_m$ are the angular frequencies of the carrier and modulator, respectively, and $\beta = \frac{B}{\omega_m}$ is the frequency modulation index.
 
 
 
 Now, let us consider the case of two operators, where the spectrum is generated by FM synthesis with one modulator. The spectrum can be expressed as:
-
 
 
 $$
@@ -12451,7 +12289,6 @@ FM(t) = A\sin\left(\int_0^t \left(\omega_c + B_1\sin(\omega_{m1}\tau) + B_2\sin(
 $$
 
 
-
 where $B_1$ and $B_2$ are the amplitudes of the two modulating signals, and $\omega_{m1}$ and $\omega_{m2}$ are their respective angular frequencies.
 
 
@@ -12459,13 +12296,11 @@ where $B_1$ and $B_2$ are the amplitudes of the two modulating signals, and $\om
 If we assume that the two modulating signals are in phase, we can simplify this expression to:
 
 
-
 $$
 
 FM(t) \approx A\sin\left(\omega_c t + \beta_1\sin(\omega_{m1}t) + \beta_2\sin(\omega_{m2}t)\right)
 
 $$
-
 
 
 where $\beta_1 = \frac{B_1}{\omega_{m1}}$ and $\beta_2 = \frac{B_2}{\omega_{m2}}$ are the frequency modulation indices of the two modulating signals.
@@ -12505,13 +12340,11 @@ Frequency modulation is a form of angle modulation, where the frequency of the c
 The process of frequency modulation can be mathematically represented as:
 
 
-
 $$
 
 FM(t) = A\sin\left(\omega_c t + \beta\sin(\omega_m t)\right)
 
 $$
-
 
 
 where $A$ is the amplitude of the carrier signal, $\omega_c$ is the angular frequency of the carrier, $\beta$ is the frequency modulation index, and $\omega_m$ is the angular frequency of the modulating signal.
@@ -13615,7 +13448,6 @@ In the previous section, we discussed the fundamental principles of free space p
 As mentioned before, the behavior of electromagnetic waves in free space is described by Maxwell's equations. These equations can be used to derive the wave equation, which describes the propagation of electromagnetic waves in free space. The wave equation is given by:
 
 
-
 $$
 
 \nabla^2 \mathbf{E} - \mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2} = 0
@@ -13623,9 +13455,7 @@ $$
 $$
 
 
-
 where $\mathbf{E}$ is the electric field, $\mu_0$ is the permeability of free space, and $\epsilon_0$ is the permittivity of free space. This equation can also be written in terms of the magnetic field $\mathbf{H}$ as:
-
 
 
 $$
@@ -13635,9 +13465,7 @@ $$
 $$
 
 
-
 These equations can be solved using the method of separation of variables, which involves assuming a solution of the form:
-
 
 
 $$
@@ -13647,9 +13475,7 @@ $$
 $$
 
 
-
 where $\mathbf{E}_0$ is the amplitude of the electric field, $\mathbf{k}$ is the wave vector, and $\omega$ is the angular frequency. Similarly, for the magnetic field, we have:
-
 
 
 $$
@@ -13659,9 +13485,7 @@ $$
 $$
 
 
-
 Substituting these solutions into the wave equation, we can obtain the following expressions for the wave vector and angular frequency:
-
 
 
 $$
@@ -13670,14 +13494,11 @@ $$
 
 $$
 
-
-
 $$
 
 \omega = ck
 
 $$
-
 
 
 where $c$ is the speed of light. These equations show that the wave vector and angular frequency are directly proportional to each other, with the speed of light acting as the proportionality constant.
@@ -13687,13 +13508,11 @@ where $c$ is the speed of light. These equations show that the wave vector and a
 Using these solutions, we can also derive the wave equation in its more familiar form:
 
 
-
 $$
 
 \frac{\partial^2 \mathbf{E}}{\partial x^2} + \frac{\partial^2 \mathbf{E}}{\partial y^2} + \frac{\partial^2 \mathbf{E}}{\partial z^2} - \mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2} = 0
 
 $$
-
 
 
 This equation shows that the electric field is a function of both space and time, and its behavior is governed by the permittivity and permeability of free space.
@@ -14581,7 +14400,6 @@ Least squares estimation is a widely used linear estimation technique that invol
 To understand the concept of least squares estimation, let's consider a simple linear model:
 
 
-
 $$
 
 y = mx + b + \epsilon
@@ -14589,9 +14407,7 @@ y = mx + b + \epsilon
 $$
 
 
-
 where $y$ is the observed data, $m$ and $b$ are the unknown parameters, and $\epsilon$ is the error term. The goal of least squares estimation is to find the values of $m$ and $b$ that minimize the sum of squared errors between the observed data and the estimated values. This can be represented mathematically as:
-
 
 
 $$
@@ -14599,7 +14415,6 @@ $$
 \min_{m,b} \sum_{i=1}^{n} (y_i - (mx_i + b))^2
 
 $$
-
 
 
 where $n$ is the number of data points.
@@ -14941,21 +14756,17 @@ As mentioned before, the Kalman Filter uses a two-step process, known as the pre
 In the prediction step, the Kalman Filter uses the system's dynamics model to predict the state at the next time step. This prediction is based on the previous state estimate and the control input, if applicable. The equations involved in this step are:
 
 
-
 $$
 
 \hat{\mathbf{x}}(t) = f(\hat{\mathbf{x}}(t), \mathbf{u}(t))
 
 $$
 
-
-
 $$
 
 \mathbf{P}(t) = \mathbf{F}(t)\mathbf{P}(t)\mathbf{F}(t)^T + \mathbf{Q}(t)
 
 $$
-
 
 
 where $\hat{\mathbf{x}}(t)$ is the predicted state, $\mathbf{u}(t)$ is the control input, $\mathbf{F}(t)$ is the state transition matrix, and $\mathbf{Q}(t)$ is the process noise covariance matrix.
@@ -14969,14 +14780,11 @@ where $\hat{\mathbf{x}}(t)$ is the predicted state, $\mathbf{u}(t)$ is the contr
 In the update step, the Kalman Filter combines the prediction with the latest measurement to obtain a more accurate estimate of the state. This is done by calculating the Kalman gain, which determines the weight given to the prediction and measurement. The equations involved in this step are:
 
 
-
 $$
 
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^T(\mathbf{H}(t)\mathbf{P}(t)\mathbf{H}(t)^T + \mathbf{R}(t))^{-1}
 
 $$
-
-
 
 $$
 
@@ -14984,14 +14792,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{P}(t) = (\mathbf{I} - \mathbf{K}(t)\mathbf{H}(t))\mathbf{P}(t)
 
 $$
-
 
 
 where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{H}(t)$ is the measurement matrix, and $\mathbf{R}(t)$ is the measurement noise covariance matrix.
@@ -15005,21 +14810,17 @@ where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{H}(t)$ is the measurement mat
 In most practical applications, the system is modeled in continuous-time, but measurements are taken at discrete time intervals. In such cases, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f(\mathbf{x}(t), \mathbf{u}(t)) + \mathbf{w}(t)
 
 $$
 
-
-
 $$
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k
 
 $$
-
 
 
 where $\mathbf{x}_k = \mathbf{x}(t_k)$ and $\mathbf{z}_k$ is the measurement at time $t_k$. The Kalman Filter can still be applied in this scenario by discretizing the continuous-time equations using techniques such as the Euler method or Runge-Kutta methods.
@@ -16551,13 +16352,11 @@ In addition to these metrics, other factors such as power consumption, cost, and
 As mentioned earlier, SNR is a commonly used metric for evaluating receiver performance. It is defined as the ratio of the signal power to the noise power, expressed in decibels (dB). Mathematically, it can be represented as:
 
 
-
 $$
 
 SNR = 10\log_{10}\left(\frac{P_{signal}}{P_{noise}}\right)
 
 $$
-
 
 
 where $P_{signal}$ is the power of the desired signal and $P_{noise}$ is the power of the background noise.
@@ -16575,13 +16374,11 @@ A higher SNR indicates a stronger signal and better receiver performance. Howeve
 BER is another important metric for evaluating receiver performance, especially in applications where data accuracy is critical. It measures the accuracy of the received data compared to the transmitted data and is typically expressed as a percentage or in logarithmic form. Mathematically, it can be represented as:
 
 
-
 $$
 
 BER = \frac{N_{errors}}{N_{bits}}
 
 $$
-
 
 
 where $N_{errors}$ is the number of bit errors and $N_{bits}$ is the total number of bits transmitted.
@@ -17389,7 +17186,6 @@ The antenna noise temperature, denoted by "T_ant", is not the physical temperatu
 
 
 For an antenna with a radiation pattern given by "G(θ, φ)", the noise temperature is mathematically defined as:
-
 
 
 $$

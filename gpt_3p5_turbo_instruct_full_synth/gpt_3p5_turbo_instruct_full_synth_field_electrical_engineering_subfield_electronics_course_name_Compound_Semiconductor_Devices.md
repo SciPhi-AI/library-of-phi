@@ -3600,9 +3600,7 @@ The height of the Schottky barrier, denoted as $\Phi_B$, is an important paramet
 
 
 $$
-
 \Phi_B = \Phi_M - \chi
-
 $$
 
 
@@ -4520,9 +4518,7 @@ The thermionic emission theory can be mathematically described by the Richardson
 
 
 $$
-
 J = AT^2e^{-\frac{\phi_b}{kT}}
-
 $$
 
 
@@ -4918,9 +4914,7 @@ The valence band offset can be calculated using the following equation:
 
 
 $$
-
 \Delta E_v = E_{v1} - E_{v2}
-
 $$
 
 
@@ -6418,9 +6412,7 @@ In the case of a quantum well, the electrons are confined in the two-dimensional
 
 
 $$
-
 E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2}
-
 $$
 
 
@@ -6498,9 +6490,7 @@ In the case of a quantum well, the electrons are confined in the two-dimensional
 
 
 $$
-
 E_n = \frac{n^2h^2}{8m^*L^2}
-
 $$
 
 
@@ -7726,9 +7716,7 @@ The width of the depletion region is determined by the gate voltage and the dopi
 
 
 $$
-
 W_d = \sqrt{\frac{2\epsilon_s\epsilon_0}{qN_A}(V_G-V_T)}
-
 $$
 
 
@@ -9590,9 +9578,7 @@ Emitter efficiency is an important parameter in HBTs that measures the effective
 
 
 $$
-
 \eta_E = \frac{I_{E,min}}{I_{E,min} + I_{E,other}}
-
 $$
 
 
@@ -9762,9 +9748,7 @@ The emitter efficiency, $\eta$, is defined as the ratio of the collector current
 
 
 $$
-
 \eta = \frac{I_C}{I_E}
-
 $$
 
 
@@ -10002,9 +9986,7 @@ The total current in the base region is the sum of the diffusion and drift curre
 
 
 $$
-
 I_b = I_{diff} + I_{drift}
-
 $$
 
 
@@ -10214,9 +10196,7 @@ The base resistance can be calculated using the following equation:
 
 
 $$
-
 R_{B} = \frac{L_{B}}{\mu_{B}qA_{B}}
-
 $$
 
 
@@ -10634,9 +10614,7 @@ The base resistance can be calculated using the following equation:
 
 
 $$
-
 R_{B} = \frac{\rho_{B}L_{B}}{A_{B}}
-
 $$
 
 
@@ -14932,9 +14910,7 @@ This shift in energy levels is due to the change in the potential energy of the 
 
 
 $$
-
 V(z) = \frac{eFz}{2}
-
 $$
 
 
@@ -14994,9 +14970,7 @@ This shift in energy levels is due to the change in the potential energy of the 
 
 
 $$
-
 V(z) = \frac{eFz}{2}
-
 $$
 
 

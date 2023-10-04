@@ -1749,9 +1749,7 @@ Young's Law states that the contact angle, $\theta$, between a liquid droplet an
 
 
 $$
-
 \gamma_{SV} - \gamma_{SL} = \gamma_{LV} \cos{\theta}
-
 $$
 
 
@@ -1809,9 +1807,7 @@ Young's Law states that the contact angle, $\theta$, between a liquid droplet an
 
 
 $$
-
 \gamma_{SV} - \gamma_{SL} = \gamma_{LV} 
-
 $$
 
 
@@ -4899,9 +4895,7 @@ In this section, we will delve deeper into the theory behind capillary effects. 
 
 
 $$
-
 \Delta P = \frac{2\gamma \cos\theta}{r}
-
 $$
 
 
@@ -4915,9 +4909,7 @@ Another important concept in capillary effect theory is the concept of capillary
 
 
 $$
-
 L_c = \frac{\gamma}{\rho g}
-
 $$
 
 
@@ -4977,9 +4969,7 @@ In this section, we will delve deeper into the theory behind capillary effects. 
 
 
 $$
-
 \Delta P = \frac{2\gamma \cos\theta}{r}
-
 $$
 
 
@@ -5795,9 +5785,7 @@ Interfacial tension, also known as surface tension, is the force per unit length
 
 
 $$
-
 \gamma = \frac{\partial \sigma}{\partial A}
-
 $$
 
 
@@ -5815,9 +5803,7 @@ Interfacial elasticity refers to the ability of an interface to resist deformati
 
 
 $$
-
 \tau = \mu \frac{\partial \gamma}{\partial x}
-
 $$
 
 
@@ -5835,9 +5821,7 @@ Interfacial viscosity is a measure of the resistance to flow at the interface be
 
 
 $$
-
 \eta = \frac{\tau}{\frac{\partial u}{\partial y}}
-
 $$
 
 
@@ -5895,9 +5879,7 @@ Interfacial tension, also known as surface tension, is the force per unit length
 
 
 $$
-
 \gamma = \frac{F}{L}
-
 $$
 
 
@@ -5915,9 +5897,7 @@ Interfacial elasticity refers to the ability of an interface to resist deformati
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -6155,9 +6135,7 @@ There are three main types of interfacial transport: diffusion, convection, and 
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -6171,25 +6149,19 @@ Convection, on the other hand, involves the bulk movement of fluids due to diffe
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mathbf{u} \cdot \mathbf{\tau}) + \nabla \cdot (\mathbf{q} + \mathbf{u} \cdot \mathbf{q})
-
 $$
 
 
@@ -6203,9 +6175,7 @@ Interfacial tension is the force that exists at the interface between two immisc
 
 
 $$
-
 \Delta P = \gamma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
-
 $$
 
 
@@ -6249,9 +6219,7 @@ There are three main types of interfacial transport: diffusion, convection, and 
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -6265,25 +6233,19 @@ Convection, on the other hand, involves the bulk movement of fluids due to diffe
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \rho \left( \frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e \right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mathbf{u} \cdot \mathbf{\tau}) + \mathbf{u} \cdot \mathbf{f} + \nabla \cdot \mathbf{q}
-
 $$
 
 
@@ -6297,9 +6259,7 @@ Lastly, interfacial tension is the force per unit length acting at the interface
 
 
 $$
-
 \Delta p = \gamma \left( \frac{1}{R_1} + \frac{1}{R_2} \right)
-
 $$
 
 
@@ -7111,9 +7071,7 @@ The interfacial tension between two immiscible liquids can be calculated using t
 
 
 $$
-
 \Delta P = \frac{2\gamma}{R}
-
 $$
 
 
@@ -7225,9 +7183,7 @@ The interfacial tension between two immiscible liquids can be calculated using t
 
 
 $$
-
 \Delta P = \frac{2\gamma}{R}
-
 $$
 
 

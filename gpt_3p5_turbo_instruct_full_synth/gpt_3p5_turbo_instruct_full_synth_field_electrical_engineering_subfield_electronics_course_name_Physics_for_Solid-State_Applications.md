@@ -2258,9 +2258,7 @@ The quantum theory of specific heat is based on the idea that the lattice vibrat
 
 
 $$
-
 E = \hbar \omega
-
 $$
 
 
@@ -2274,9 +2272,7 @@ The specific heat of a solid can be calculated using the quantum theory of speci
 
 
 $$
-
 C_V = \frac{\partial U}{\partial T}
-
 $$
 
 
@@ -2286,9 +2282,7 @@ where $U$ is the internal energy of the solid and $T$ is the temperature. Using 
 
 
 $$
-
 U = \sum_{j} \frac{\hbar \omega_j}{e^{\frac{\hbar \omega_j}{k_B T}} - 1}
-
 $$
 
 
@@ -2302,9 +2296,7 @@ At higher temperatures, the Debye model of specific heat is used, which takes in
 
 
 $$
-
 C_V = 9Nk_B \left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx
-
 $$
 
 
@@ -2350,9 +2342,7 @@ The quantum theory of specific heat is based on the idea that the lattice vibrat
 
 
 $$
-
 E = \hbar \omega
-
 $$
 
 
@@ -2366,9 +2356,7 @@ The specific heat of a solid can be calculated using the quantum theory of speci
 
 
 $$
-
 C_V = \frac{\partial U}{\partial T}
-
 $$
 
 
@@ -2378,9 +2366,7 @@ where $U$ is the internal energy of the solid and $T$ is the temperature. Using 
 
 
 $$
-
 U = \sum_{j} \frac{\hbar \omega_j}{e^{\frac{\hbar \omega_j}{k_B T}} - 1}
-
 $$
 
 
@@ -2438,9 +2424,7 @@ The quantum theory of specific heat is based on the idea that the lattice vibrat
 
 
 $$
-
 E = \hbar \omega
-
 $$
 
 
@@ -2454,9 +2438,7 @@ The specific heat of a solid can be calculated using the quantum theory of speci
 
 
 $$
-
 C_V = \frac{\partial U}{\partial T}
-
 $$
 
 
@@ -2466,9 +2448,7 @@ where $U$ is the internal energy of the solid and $T$ is the temperature. Using 
 
 
 $$
-
 U = \sum_{j} \frac{\hbar \omega_j}{e^{\frac{\hbar \omega_j}{k_B T}} - 1}
-
 $$
 
 
@@ -2490,9 +2470,7 @@ The Debye model considers the phonon modes as a continuous distribution, rather 
 
 
 $$
-
 C_V = 9Nk_B \left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4e^x}{(e^x - 1)^2} dx
-
 $$
 
 
@@ -2514,9 +2492,7 @@ The specific heat at constant volume, $C_V$, can be calculated using the Einstei
 
 
 $$
-
 C_V = 3Nk_B \left(\frac{\hbar \omega_E}{k_B T}\right)^2 \frac{e^{\frac{\hbar \omega_E}{k_B T}}}{(e^{\frac{\hbar \omega_E}{k_B T}} - 1)^2}
-
 $$
 
 
@@ -2690,9 +2666,7 @@ The behavior of lattice waves is governed by the interatomic forces between neig
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -2706,9 +2680,7 @@ Using this potential energy, we can derive the equation of motion for a lattice 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = \frac{k}{m}\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -2764,9 +2736,7 @@ The behavior of lattice waves is governed by the interatomic forces between neig
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -2780,9 +2750,7 @@ Using this potential, we can derive the equation of motion for an atom in the cr
 
 
 $$
-
 m\frac{d^2x}{dt^2} = -kx
-
 $$
 
 
@@ -2792,9 +2760,7 @@ This equation describes simple harmonic motion, with the frequency of oscillatio
 
 
 $$
-
 \omega = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -2808,9 +2774,7 @@ Now, let's consider the propagation of lattice waves in the crystal lattice. As 
 
 
 $$
-
 v = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -2862,9 +2826,7 @@ The behavior of lattice waves is governed by the interatomic forces between neig
 
 
 $$
-
 V(x) = \frac{1}{2}kx^2
-
 $$
 
 
@@ -2878,9 +2840,7 @@ The motion of the atoms in the crystal lattice can be described using the wave e
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -2902,9 +2862,7 @@ In a 1D monatomic crystal, the dispersion relation can be derived by solving the
 
 
 $$
-
 \omega = 2c \sin \left(\frac{k}{2}\right)
-
 $$
 
 
@@ -3218,9 +3176,7 @@ At low temperatures, the heat capacity of a diatomic crystal can be approximated
 
 
 $$
-
 C_V = 2Nk_B\left(\frac{\hbar\omega_E}{k_B T}\right)^2\frac{e^{\hbar\omega_E/k_B T}}{\left(e^{\hbar\omega_E/k_B T}-1\right)^2}
-
 $$
 
 
@@ -3234,9 +3190,7 @@ However, as the temperature increases, the Debye model becomes a better approxim
 
 
 $$
-
 C_V = 3Nk_B\left(\frac{T}{\Theta_D}\right)^3\int_0^{\Theta_D/T}\frac{x^4e^x}{\left(e^x-1\right)^2}dx
-
 $$
 
 
@@ -3404,9 +3358,7 @@ Mathematically, Bloch's theorem can be expressed as:
 
 
 $$
-
 \psi_{k}(x+a) = e^{ika}\psi_{k}(x)
-
 $$
 
 
@@ -3464,9 +3416,7 @@ Mathematically, Bloch's theorem can be expressed as:
 
 
 $$
-
 \psi_{k}(x+a) = e^{ika}\psi_{k}(x)
-
 $$
 
 
@@ -3556,9 +3506,7 @@ Mathematically, Bloch's theorem can be expressed as:
 
 
 $$
-
 \psi_{k}(x+a) = e^{ika}\psi_{k}(x)
-
 $$
 
 
@@ -3652,9 +3600,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -3744,9 +3690,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -3848,9 +3792,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -3960,9 +3902,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -4080,9 +4020,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -4196,9 +4134,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -4320,9 +4256,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -4460,9 +4394,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -4600,9 +4532,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = u_{k}(x)e^{ikx}
-
 $$
 
 
@@ -4748,9 +4678,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -5056,9 +4984,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(x) = e^{ikx}u_{k}(x)
-
 $$
 
 
@@ -5156,9 +5082,7 @@ One of the fundamental principles of electron behavior in periodic solids is Blo
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -5288,17 +5212,13 @@ The semi-classical equations of motion for electrons and holes in periodic solid
 
 
 $$
-
 m_e\frac{d^2\vec{r_e}}{dt^2} = -e\vec{E} - \nabla U(\vec{r_e})
-
 $$
 
 
 
 $$
-
 m_h\frac{d^2\vec{r_h}}{dt^2} = e\vec{E} - \nabla U(\vec{r_h})
-
 $$
 
 
@@ -5368,17 +5288,13 @@ The semi-classical equations of motion describe the motion of electrons and hole
 
 
 $$
-
 m_e \frac{d^2 \vec{r_e}}{dt^2} = -e \vec{E} - m_e \nu_e \frac{d \vec{r_e}}{dt}
-
 $$
 
 
 
 $$
-
 m_h \frac{d^2 \vec{r_h}}{dt^2} = e \vec{E} - m_h \nu_h \frac{d \vec{r_h}}{dt}
-
 $$
 
 
@@ -5404,9 +5320,7 @@ The Bloch function is given by:
 
 
 $$
-
 \psi_{n\vec{k}}(\vec{r}) = u_{n\vec{k}}(\vec{r})e^{i\vec{k}\cdot\vec{r}}
-
 $$
 
 
@@ -5420,9 +5334,7 @@ Using the Bloch function, we can describe the energy levels of electrons and hol
 
 
 $$
-
 E_{n\vec{k}} = \frac{\hbar^2 k^2}{2m} + E_{n0}
-
 $$
 
 
@@ -5444,9 +5356,7 @@ The drift current is the net flow of charge due to the motion of particles in an
 
 
 $$
-
 J_{drift} = -ne\mu_e\vec{E} + pe\mu_h\vec{E}
-
 $$
 
 
@@ -5460,9 +5370,7 @@ The diffusion current, on the other hand, is the net flow of charge due to the c
 
 
 $$
-
 J_{diffusion} = -eD_e\nabla n + eD_h\nabla p
-
 $$
 
 
@@ -5658,9 +5566,7 @@ The effective mass, denoted as $m^*$, is related to the mass of a free electron,
 
 
 $$
-
 m^* = \frac{\hbar^2}{\frac{\partial^2 E}{\partial k^2}}
-
 $$
 
 
@@ -5678,9 +5584,7 @@ The effective mass can also be expressed in terms of the density of states, $D(E
 
 
 $$
-
 m^* = \frac{\hbar^2}{D(E)}
-
 $$
 
 
@@ -5930,9 +5834,7 @@ As mentioned earlier, chemical potential is a measure of the energy required to 
 
 
 $$
-
 \mu = \left(\frac{\partial U}{\partial N}\right)_{T,V}
-
 $$
 
 
@@ -5998,9 +5900,7 @@ In a solid-state system, the chemical potential of electrons plays a crucial rol
 
 
 $$
-
 f(E) = \frac{1}{1 + e^{\frac{E - \mu}{k_B T}}}
-
 $$
 
 
@@ -6026,9 +5926,7 @@ The Fermi energy, $E_F$, is a key parameter in the Fermi-Dirac distribution and 
 
 
 $$
-
 E_F = \mu - \frac{k_B T}{2}
-
 $$
 
 
@@ -6514,9 +6412,7 @@ The continuity equation is given by:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = -qR
-
 $$
 
 
@@ -6670,9 +6566,7 @@ The effect of impurity scattering on the effective mass can be quantified using 
 
 
 $$
-
 \frac{1}{\tau_{imp}} = \frac{1}{\tau_{imp}^0} + \frac{1}{\tau_{imp}^1} + \frac{1}{\tau_{imp}^2} + ...
-
 $$
 
 
@@ -6682,9 +6576,7 @@ where $\tau_{imp}^0$ is the scattering rate due to elastic scattering, $\tau_{im
 
 
 $$
-
 \frac{1}{m^*} = \frac{1}{m_0} + \frac{1}{m_1} + \frac{1}{m_2} + ...
-
 $$
 
 
@@ -6706,9 +6598,7 @@ The effect of lattice scattering on the effective mass can also be quantified us
 
 
 $$
-
 \frac{1}{\tau_{lat}} = \frac{1}{\tau_{lat}^0} + \frac{1}{\tau_{lat}^1} + \frac{1}{\tau_{lat}^2} + ...
-
 $$
 
 
@@ -6918,9 +6808,7 @@ The scattering rate due to electron-phonon interactions is given by the followin
 
 
 $$
-
 \frac{1}{\tau_{ep}} = \frac{2\pi}{\hbar} \sum_{\mathbf{k}, \mathbf{q}} |M_{\mathbf{k}, \mathbf{q}}|^2 \delta(\epsilon_{\mathbf{k}} - \epsilon_{\mathbf{k}+\mathbf{q}})
-
 $$
 
 
@@ -7968,9 +7856,7 @@ The built-in potential can be calculated using the following equation:
 
 
 $$
-
 V_{bi} = \frac{kT}{q} \ln \left( \frac{N_A N_D}{n_i^2} \right)
-
 $$
 
 
@@ -8034,9 +7920,7 @@ The I-V characteristics of a P-N junction can be described by the Shockley diode
 
 
 $$
-
 I = I_0(e^{\frac{V}{nV_T}} - 1)
-
 $$
 
 
@@ -8110,9 +7994,7 @@ When a BJT is in its active region, it behaves like a current-controlled current
 
 
 $$
-
 I_C = \beta I_B
-
 $$
 
 
@@ -8164,9 +8046,7 @@ When a BJT is in its active region, it behaves like a current-controlled current
 
 
 $$
-
 I_C = \beta I_B
-
 $$
 
 
@@ -8312,9 +8192,7 @@ The current-voltage characteristics of FETs are crucial in understanding their b
 
 
 $$
-
 I_D = I_{DSS} \left(1 - \frac{V_{GS}}{V_P}\right)^2
-
 $$
 
 
@@ -11078,9 +10956,7 @@ The dielectric constant of a material can be measured using various techniques, 
 
 
 $$
-
 \epsilon_r = \frac{C}{C_0}
-
 $$
 
 
@@ -11128,9 +11004,7 @@ The dielectric constant of a material can be measured using various techniques, 
 
 
 $$
-
 \epsilon_r = \frac{C}{C_0}
-
 $$
 
 
@@ -11168,9 +11042,7 @@ The temperature and frequency dependence of dielectric constant can be described
 
 
 $$
-
 \epsilon_r = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + (i\omega\tau)^{1-\alpha}}
-
 $$
 
 
@@ -11210,9 +11082,7 @@ The dielectric constant of a material can be measured using various techniques, 
 
 
 $$
-
 \epsilon_r = \frac{C}{C_0}
-
 $$
 
 
@@ -11584,9 +11454,7 @@ The relationship between stress and strain is described by Hooke's Law, which st
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -11638,9 +11506,7 @@ The relationship between stress and strain is described by Hooke's Law, which st
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -12356,9 +12222,7 @@ One commonly used adsorption isotherm is the Langmuir isotherm, which assumes th
 
 
 $$
-
 \theta = \frac{Kp}{1+Kp}
-
 $$
 
 
@@ -12372,9 +12236,7 @@ Another commonly used isotherm is the BET isotherm, which takes into account the
 
 
 $$
-
 \frac{p}{(p_0-p)} = \frac{C-1}{C} \frac{1}{(1-\theta)^n}
-
 $$
 
 
@@ -16704,9 +16566,7 @@ The efficiency of a thermoelectric device is determined by the figure of merit, 
 
 
 $$
-
 ZT = \frac{\sigma S^2 T}{\kappa}
-
 $$
 
 
@@ -16758,9 +16618,7 @@ The efficiency of a thermoelectric device is determined by the figure of merit, 
 
 
 $$
-
 ZT = \frac{\sigma S^2 T}{\kappa}
-
 $$
 
 
@@ -16832,9 +16690,7 @@ The efficiency of a thermoelectric device is determined by the figure of merit, 
 
 
 $$
-
 ZT = \frac{\sigma S^2 T}{\kappa}
-
 $$
 
 
@@ -16894,9 +16750,7 @@ The efficiency of a heat sink is determined by its thermal resistance, which is 
 
 
 $$
-
 R_{th} = \frac{\Delta T}{P}
-
 $$
 
 
@@ -16944,9 +16798,7 @@ The efficiency of a heat sink is determined by its thermal resistance, which is 
 
 
 $$
-
 R_{th} = \frac{\Delta T}{P}
-
 $$
 
 
@@ -17018,9 +16870,7 @@ The efficiency of a heat sink is determined by its thermal resistance, which is 
 
 
 $$
-
 R_{th} = \frac{\Delta T}{P}
-
 $$
 
 
@@ -17382,9 +17232,7 @@ The capacitance of a capacitor, denoted by C, is a measure of its ability to sto
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -17398,9 +17246,7 @@ Dielectric materials are used in capacitors to increase their capacitance. This 
 
 
 $$
-
 \epsilon = \frac{C}{C_0}
-
 $$
 
 
@@ -17452,9 +17298,7 @@ The capacitance of a capacitor, denoted by C, is a measure of its ability to sto
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -17468,9 +17312,7 @@ Dielectric materials are used in capacitors to increase their capacitance. This 
 
 
 $$
-
 \epsilon = \frac{C}{C_0}
-
 $$
 
 
@@ -17562,9 +17404,7 @@ The capacitance of a capacitor, denoted by C, is a measure of its ability to sto
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -17578,9 +17418,7 @@ Dielectric materials are used in capacitors to increase their capacitance. This 
 
 
 $$
-
 \epsilon = \frac{C}{C_0}
-
 $$
 
 

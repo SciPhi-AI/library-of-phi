@@ -925,9 +925,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -941,9 +939,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -999,9 +995,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1015,9 +1009,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -1081,9 +1073,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1097,9 +1087,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -1133,9 +1121,7 @@ The internal energy equation, also known as the first law of thermodynamics, rel
 
 
 $$
-
 \frac{\partial e}{\partial t} + \nabla \cdot (e \mathbf{u}) = \dot{q} - \dot{w}
-
 $$
 
 
@@ -1149,9 +1135,7 @@ The kinetic energy equation relates the changes in kinetic energy of the fluid t
 
 
 $$
-
 \frac{\partial k}{\partial t} + \nabla \cdot (k \mathbf{u}) = \mathbf{u} \cdot \nabla p
-
 $$
 
 
@@ -1165,9 +1149,7 @@ The potential energy equation relates the changes in potential energy of the flu
 
 
 $$
-
 \frac{\partial p}{\partial t} + \nabla \cdot (p \mathbf{u}) = \rho g \frac{\partial z}{\partial t}
-
 $$
 
 
@@ -1217,9 +1199,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1233,9 +1213,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -1305,9 +1283,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1321,9 +1297,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -1345,25 +1319,19 @@ The Navier-Stokes equations are a set of partial differential equations that des
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma} - \nabla p + \rho \mathbf{f}
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho E)}{\partial t} + \nabla \cdot (\rho \mathbf{u} E + p \mathbf{u}) = \rho \mathbf{u} \cdot \mathbf{g} + \nabla \cdot (\mathbf{u} \cdot \mathbf{\sigma}) + \rho \mathbf{u} \cdot \mathbf{f} + \nabla \cdot (\mathbf{q} - \mathbf{u} \cdot \mathbf{\tau})
-
 $$
 
 
@@ -1389,25 +1357,19 @@ The resulting equations are known as the Euler equations and can be written as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + u \frac{\partial \rho}{\partial x} + \rho \frac{\partial u}{\partial x} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + \frac{1}{\rho} \frac{\partial p}{\partial x} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial t} + u \frac{\partial p}{\partial x} + \gamma p \frac{\partial u}{\partial x} = 0
-
 $$
 
 
@@ -1461,9 +1423,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -1477,9 +1437,7 @@ The momentum equation, also known as the conservation of momentum equation, stat
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\sigma}
-
 $$
 
 
@@ -2181,9 +2139,7 @@ The conservation of mass equation states that the rate of change of mass within 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -2197,9 +2153,7 @@ The conservation of momentum equation states that the net force acting on a cont
 
 
 $$
-
 \rho \frac{D \mathbf{u}}{Dt} = -\nabla p + \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
@@ -2213,9 +2167,7 @@ The conservation of energy equation states that the rate of change of energy wit
 
 
 $$
-
 \rho \frac{D e}{Dt} = -p \nabla \cdot \mathbf{u} + \nabla \cdot \mathbf{q} + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -2401,9 +2353,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2417,9 +2367,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2433,9 +2381,7 @@ Pressure disturbances are caused by changes in the pressure of the fluid. These 
 
 
 $$
-
 \Delta p = \int_{A_1}^{A_2} \rho u^2 dA
-
 $$
 
 
@@ -2485,9 +2431,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2501,9 +2445,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2517,9 +2459,7 @@ Pressure disturbances, on the other hand, are caused by changes in the pressure 
 
 
 $$
-
 \Delta p = \int_{V_1}^{V_2} \frac{1}{V} \frac{\partial u}{\partial V} dV
-
 $$
 
 
@@ -2577,9 +2517,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2593,9 +2531,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2609,9 +2545,7 @@ Pressure disturbances, on the other hand, are caused by changes in the pressure 
 
 
 $$
-
 \Delta p = \int_{V_1}^{V_2} \frac{1}{V} \frac{\partial u}{\partial V} dV
-
 $$
 
 
@@ -2681,9 +2615,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2697,9 +2629,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2713,9 +2643,7 @@ Pressure disturbances, on the other hand, are caused by changes in the pressure 
 
 
 $$
-
 \Delta p = \int_{V_1}^{V_2} \frac{1}{V} \frac{\partial u}{\partial V} dV
-
 $$
 
 
@@ -2765,9 +2693,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2781,9 +2707,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2797,9 +2721,7 @@ Pressure disturbances, on the other hand, are caused by changes in the pressure 
 
 
 $$
-
 \Delta p = \int_{V_1}^{V_2} \frac{1}{V} \frac{\partial p}{\partial V} dV
-
 $$
 
 
@@ -2849,9 +2771,7 @@ Entropy disturbances are caused by changes in temperature in the flow. These cha
 
 
 $$
-
 \Delta s = \int_{T_1}^{T_2} \frac{C_p}{T} dT
-
 $$
 
 
@@ -2865,9 +2785,7 @@ Vorticity disturbances, on the other hand, are caused by changes in the rotation
 
 
 $$
-
 \Delta \omega = \int_{\theta_1}^{\theta_2} \frac{1}{r} \frac{\partial u}{\partial r} dr
-
 $$
 
 
@@ -2881,9 +2799,7 @@ Pressure disturbances, on the other hand, are caused by changes in the pressure 
 
 
 $$
-
 \Delta p = \int_{V_1}^{V_2} \frac{1}{V} \frac{\partial p}{\partial V} dV
-
 $$
 
 
@@ -2933,9 +2849,7 @@ Shock waves are characterized by a sudden increase in pressure and temperature, 
 
 
 $$
-
 \frac{d\rho}{\rho} = \frac{dV}{V} = \frac{dP}{P}
-
 $$
 
 
@@ -2949,9 +2863,7 @@ Expansion waves, on the other hand, are characterized by a sudden decrease in pr
 
 
 $$
-
 \frac{d\rho}{\rho} = -\frac{dV}{V} = -\frac{dP}{P}
-
 $$
 
 
@@ -2965,9 +2877,7 @@ Contact discontinuities occur when there is a sudden change in the properties of
 
 
 $$
-
 \frac{d\rho}{\rho} = \frac{dT}{T} = 0
-
 $$
 
 
@@ -3017,9 +2927,7 @@ Shock waves are characterized by a sudden increase in pressure and temperature, 
 
 
 $$
-
 \frac{d\rho}{\rho} = \frac{dV}{V} = \frac{dP}{P}
-
 $$
 
 
@@ -3033,9 +2941,7 @@ Expansion waves, on the other hand, are characterized by a sudden decrease in pr
 
 
 $$
-
 \frac{d\rho}{\rho} = -\frac{dV}{V} 
-
 $$
 
 
@@ -3045,9 +2951,7 @@ Contact discontinuities, also known as shear layers, occur when there is a sharp
 
 
 $$
-
 \frac{dV}{V} = 0
-
 $$
 
 
@@ -3061,9 +2965,7 @@ To analyze constant entropy flows, we will use the one-dimensional, steady, isen
 
 
 $$
-
 \frac{d\rho}{\rho} = -\frac{dV}{V} = \frac{dP}{P} = \frac{dA}{A}
-
 $$
 
 
@@ -3113,25 +3015,19 @@ Mathematically, two-dimensional, compressible, linear flows can be described by 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + P)}{\partial x} + \frac{\partial (\rho uv)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho uv)}{\partial x} + \frac{\partial (\rho v^2 + P)}{\partial y} = 0
-
 $$
 
 
@@ -3153,17 +3049,13 @@ Mathematically, slender, axially symmetric flows can be described by the followi
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial (r\rho u)}{\partial r} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial t} + \frac{1}{r}\frac{\partial (r\rho u^2 + P)}{\partial r} = 0
-
 $$
 
 
@@ -3217,25 +3109,19 @@ Mathematically, these flows can be described by the Euler equations, which are a
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + P)}{\partial x} + \frac{\partial (\rho uv)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho uv)}{\partial x} + \frac{\partial (\rho v^2 + P)}{\partial y} = 0
-
 $$
 
 
@@ -3301,25 +3187,19 @@ Mathematically, these flows can be described by the Euler equations, which are a
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + P)}{\partial x} + \frac{\partial (\rho uv)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho uv)}{\partial x} + \frac{\partial (\rho v^2 + P)}{\partial y} = 0
-
 $$
 
 
@@ -3345,33 +3225,25 @@ Mathematically, these flows can be described by the Navier-Stokes equations, whi
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} + \frac{\partial (\rho w)}{\partial z} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + P)}{\partial x} + \frac{\partial (\rho uv)}{\partial y} + \frac{\partial (\rho uw)}{\partial z} = \frac{\partial \tau_{xx}}{\partial x} + \frac{\partial \tau_{xy}}{\partial y} + \frac{\partial \tau_{xz}}{\partial z}
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho uv)}{\partial x} + \frac{\partial (\rho v^2 + P)}{\partial y} + \frac{\partial (\rho vw)}{\partial z} = \frac{\partial \tau_{yx}}{\partial x} + \frac{\partial \tau_{yy}}{\partial y} + \frac{\partial \tau_{yz}}{\partial z}
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho w)}{\partial t} + \frac{\partial (\rho uw)}{\partial x} + \frac{\partial (\rho vw)}{\partial y} + \frac{\partial (\rho w^2 + P)}{\partial z} = \frac{\partial \tau_{zx}}{\partial x} + \frac{\partial \tau_{zy}}{\partial y} + \frac{\partial \tau_{zz}}{\partial z}
-
 $$
 
 
@@ -3525,9 +3397,7 @@ The working principle of the Pitot-Static Probe is based on the Bernoulli's equa
 
 
 $$
-
 P_{total} = P_{static} + \frac{1}{2}\rho v^2
-
 $$
 
 
@@ -3541,9 +3411,7 @@ In the case of compressible flow, the equation becomes:
 
 
 $$
-
 P_{total} = P_{static} + \frac{1}{2}\rho v^2 + \frac{1}{\gamma - 1} \frac{P_{static}}{\rho}
-
 $$
 
 
@@ -3595,9 +3463,7 @@ The working principle of the Pitot-Static Probe is based on the Bernoulli's equa
 
 
 $$
-
 P_{total} = P_{static} + \frac{1}{2}\rho v^2
-
 $$
 
 
@@ -3611,9 +3477,7 @@ In the case of compressible flow, the equation becomes:
 
 
 $$
-
 P_{total} = P_{static} + \frac{1}{2}\rho v^2 + \frac{1}{\gamma - 1} \frac{P_{static}}{\rho}
-
 $$
 
 
@@ -3673,9 +3537,7 @@ The convective heat transfer equation can be written as:
 
 
 $$
-
 q = hA(T_w - T_\infty)
-
 $$
 
 
@@ -3689,9 +3551,7 @@ By measuring the change in temperature of the wire, the velocity of the fluid ca
 
 
 $$
-
 v = \sqrt{\frac{2q}{\rho c_p(T_w - T_\infty)}}
-
 $$
 
 
@@ -3739,9 +3599,7 @@ The convective heat transfer equation can be written as:
 
 
 $$
-
 q = hA(T_w - T_\infty)
-
 $$
 
 
@@ -3755,9 +3613,7 @@ By measuring the change in temperature of the wire, the velocity of the fluid ca
 
 
 $$
-
 v = \sqrt{\frac{2q}{\rho c_p(T_w - T_\infty)}}
-
 $$
 
 
@@ -3805,9 +3661,7 @@ The working principle of LDA is based on the Doppler shift equation, which relat
 
 
 $$
-
 \Delta f = \frac{2v}{\lambda}
-
 $$
 
 
@@ -3821,9 +3675,7 @@ By measuring the frequency shift, the velocity of the particles can be calculate
 
 
 $$
-
 v = \frac{\Delta f \lambda}{2}
-
 $$
 
 
@@ -3867,9 +3719,7 @@ The working principle of LDA is based on the Doppler shift equation, which relat
 
 
 $$
-
 \Delta f = \frac{2v}{\lambda}
-
 $$
 
 
@@ -3883,9 +3733,7 @@ By measuring the frequency shift, the velocity of the particles can be calculate
 
 
 $$
-
 v = \frac{\Delta f \lambda}{2}
-
 $$
 
 
@@ -3941,9 +3789,7 @@ The working principle of PSP is based on the Stern-Volmer equation, which relate
 
 
 $$
-
 I_0/I = 1 + K_{SV} \tau_0 [O_2]
-
 $$
 
 
@@ -3957,9 +3803,7 @@ By measuring the luminescence intensity, the surface pressure distribution can b
 
 
 $$
-
 P = P_0 + \frac{1}{2} \rho U^2 \left( \frac{I_0}{I} - 1 \right)
-
 $$
 
 
@@ -4007,9 +3851,7 @@ The working principle of PSP is based on the Stern-Volmer equation, which relate
 
 
 $$
-
 I_0/I = 1 + K_{SV} \tau_0 [O_2]
-
 $$
 
 
@@ -4023,9 +3865,7 @@ By measuring the luminescence intensity, the surface pressure distribution can b
 
 
 $$
-
 P = P_0 + \frac{1}{2} \rho U^2 \left( \frac{I_0}{I} - 1 \right)
-
 $$
 
 
@@ -4279,25 +4119,19 @@ The governing equations for isentropic flow in nozzles are the continuity equati
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = -\nabla p
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho E)}{\partial t} + \nabla \cdot (\rho \mathbf{u} E) = -\nabla \cdot (p \mathbf{u})
-
 $$
 
 
@@ -7113,25 +6947,19 @@ In this section, we will discuss the equations used to analyze compressible flow
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \rho \mathbf{u}}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = -\nabla p
-
 $$
 
 
 
 $$
-
 \frac{\partial \rho E}{\partial t} + \nabla \cdot (\rho E \mathbf{u}) = -\nabla \cdot (p \mathbf{u}) + \nabla \cdot (\mathbf{q} + \mathbf{u} \cdot \mathbf{\tau})
-
 $$
 
 
@@ -7145,9 +6973,7 @@ To analyze heat transfer in compressible flow, we must also consider the energy 
 
 
 $$
-
 \frac{\partial \rho E}{\partial t} + \nabla \cdot (\rho E \mathbf{u}) = -\nabla \cdot (p \mathbf{u}) + \nabla \cdot (\mathbf{q} + \mathbf{u} \cdot \mathbf{\tau}) + \rho \dot{q}
-
 $$
 
 
@@ -7313,25 +7139,19 @@ The Navier-Stokes equations describe the conservation of mass, momentum, and ene
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial e}{\partial t} + \rho \mathbf{u} \cdot \nabla e = -p \nabla \cdot \mathbf{u} + \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -7345,25 +7165,19 @@ To simplify these equations for compressible flow, we will make two assumptions:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial e}{\partial t} + \rho \mathbf{u} \cdot \nabla e = -p \nabla \cdot \mathbf{u} + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -7377,9 +7191,7 @@ To incorporate heat transfer into the compressible flow equations, we need to in
 
 
 $$
-
 \rho \frac{\partial e}{\partial t} + \rho \mathbf{u} \cdot \nabla e = -p \nabla \cdot \mathbf{u} + \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -7397,25 +7209,19 @@ By combining the simplified Euler equations with the energy equation, we obtain 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \rho \frac{\partial e}{\partial t} + \rho \mathbf{u} \cdot \nabla e = -p \nabla \cdot \mathbf{u} + \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -8437,25 +8243,19 @@ The governing equations of compressible flow are the Navier-Stokes equations, wh
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = -\nabla p + \nabla \cdot \tau + \rho \mathbf{g}
-
 $$
 
 
 
 $$
-
 \frac{\partial (\rho E)}{\partial t} + \nabla \cdot (\rho \mathbf{u} E) = -\nabla \cdot (p \mathbf{u}) + \nabla \cdot (\mathbf{u} \cdot \tau) + \rho \mathbf{u} \cdot \mathbf{g} + \dot{q}
-
 $$
 
 

@@ -1710,9 +1710,7 @@ As mentioned earlier, the internal energy of a system is the sum of all forms of
 
 
 $$
-
 U = \sum_{i=1}^{N} \frac{1}{2}m_i v_i^2 + \sum_{j=1}^{M} \frac{1}{2}k_j x_j^2
-
 $$
 
 
@@ -1764,9 +1762,7 @@ As mentioned earlier, the internal energy of a system is the sum of all forms of
 
 
 $$
-
 U = \sum_{i=1}^{N} \frac{1}{2}m_i v_i^2 + \sum_{j=1}^{M} \frac{1}{2}k_j x_j^2
-
 $$
 
 
@@ -1834,9 +1830,7 @@ As mentioned earlier, the internal energy of a system is the sum of all forms of
 
 
 $$
-
 U = \sum_{i=1}^{N} \frac{1}{2}m_i v_i^2 + \sum_{j=1}^{M} \frac{1}{2}k_j x_j^2
-
 $$
 
 
@@ -1866,9 +1860,7 @@ The first law of thermodynamics states that the change in internal energy of a s
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1912,9 +1904,7 @@ Expansion work, denoted by $W_{exp}$, is defined as the work done by a system as
 
 
 $$
-
 W_{exp} = -P_{ext}\Delta V
-
 $$
 
 
@@ -2164,9 +2154,7 @@ Adiabatic changes can be defined as changes that occur in a system without any h
 
 
 $$
-
 \Delta Q = 0
-
 $$
 
 
@@ -2230,9 +2218,7 @@ The Jarzynski equality is a fundamental result in statistical mechanics that rel
 
 
 $$
-
 \langle e^{-\beta W} \rangle = e^{-\beta \Delta F}
-
 $$
 
 
@@ -2246,9 +2232,7 @@ This equality has important implications for adiabatic changes, as it allows us 
 
 
 $$
-
 \langle e^{-\beta W} \rangle = 1
-
 $$
 
 
@@ -2292,9 +2276,7 @@ Adiabatic changes can be defined as changes that occur in a system without any h
 
 
 $$
-
 \Delta Q = 0
-
 $$
 
 
@@ -2324,9 +2306,7 @@ The First Law of Thermodynamics states that the change in internal energy of a s
 
 
 $$
-
 \Delta U = W
-
 $$
 
 
@@ -2344,9 +2324,7 @@ The Second Law of Thermodynamics states that the total entropy of a closed syste
 
 
 $$
-
 \Delta S = \frac{Q}{T} = 0
-
 $$
 
 
@@ -2400,9 +2378,7 @@ Adiabatic changes can be defined as changes that occur in a system without any h
 
 
 $$
-
 \Delta Q = 0
-
 $$
 
 
@@ -2432,9 +2408,7 @@ The First Law of Thermodynamics states that the change in internal energy of a s
 
 
 $$
-
 \Delta U = W
-
 $$
 
 
@@ -2494,9 +2468,7 @@ In the context of thermochemistry, the First Law can be expressed as:
 
 
 $$
-
 \Delta U = q + w
-
 $$
 
 
@@ -2514,9 +2486,7 @@ Enthalpy is a thermodynamic property that represents the total energy of a syste
 
 
 $$
-
 H = U + PV
-
 $$
 
 
@@ -2530,9 +2500,7 @@ The change in enthalpy, denoted as $\Delta H$, is defined as the difference betw
 
 
 $$
-
 \Delta H = H_{products} - H_{reactants}
-
 $$
 
 
@@ -2550,9 +2518,7 @@ The heat of reaction can be calculated using the following equation:
 
 
 $$
-
 \Delta H_{rxn} = \sum \Delta H_{products} - \sum \Delta H_{reactants}
-
 $$
 
 
@@ -2782,9 +2748,7 @@ The bomb calorimeter is a type of calorimeter used to measure the heat of combus
 
 
 $$
-
 \Delta U = -C_{cal}\Delta T
-
 $$
 
 
@@ -2990,9 +2954,7 @@ The general equation for entropy production is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -3002,9 +2964,7 @@ This equation shows that entropy production is a result of both thermal and mech
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -3018,9 +2978,7 @@ The concept of entropy is closely related to the concept of disorder or randomne
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -3064,9 +3022,7 @@ The general equation for entropy production is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -3076,9 +3032,7 @@ This equation shows that entropy production is a result of both thermal and mech
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -3088,9 +3042,7 @@ This equation shows that specific entropy production is a result of thermal cond
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = 0
-
 $$
 
 
@@ -3108,9 +3060,7 @@ The Clausius inequality is a way of expressing the second law of thermodynamics 
 
 
 $$
-
 \int_{t_1}^{t_2} \frac{dS}{dt} dt \geq 0
-
 $$
 
 
@@ -3124,9 +3074,7 @@ In terms of the specific entropy, the Clausius inequality can be written as:
 
 
 $$
-
 \int_{t_1}^{t_2} \rho T \frac{Ds}{Dt} dt \geq 0
-
 $$
 
 
@@ -3170,9 +3118,7 @@ The general equation for entropy production is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -3182,9 +3128,7 @@ This equation shows that entropy production is a result of both thermal and mech
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -3194,9 +3138,7 @@ This equation shows that specific entropy production is a result of thermal cond
 
 
 $$
-
 \frac{Ds}{Dt} = 0
-
 $$
 
 
@@ -3214,9 +3156,7 @@ The Clausius inequality is a mathematical expression of the second law of thermo
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -3532,9 +3472,7 @@ The fundamental equation of thermodynamics, also known as the Gibbs-Helmholtz eq
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -3796,9 +3734,7 @@ In a multicomponent system, the chemical potential of each component is a crucia
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_j}
-
 $$
 
 
@@ -3846,9 +3782,7 @@ The chemical potential, denoted by μ, can be expressed in terms of thermodynami
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln A_j
-
 $$
 
 
@@ -3862,9 +3796,7 @@ For a closed system, the total number of atoms of each element remains constant.
 
 
 $$
-
 \sum_{j=1}^{n} a_{ij}N_j = b_i
-
 $$
 
 
@@ -3908,9 +3840,7 @@ The chemical potential, denoted by μ, can be expressed in terms of thermodynami
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln A_j
-
 $$
 
 
@@ -3924,9 +3854,7 @@ For a closed system, the total number of atoms of each element remains constant.
 
 
 $$
-
 \sum_{j=1}^{n} a_{ij}N_j = b_i
-
 $$
 
 
@@ -3970,9 +3898,7 @@ The equilibrium constant, "K", can be calculated using the standard Gibbs free e
 
 
 $$
-
 K = e^{-\frac{\Delta G^{\ominus}}{RT}}
-
 $$
 
 
@@ -3986,9 +3912,7 @@ Chemical potential, as discussed in the previous section, also plays a crucial r
 
 
 $$
-
 \mu_i = \mu_j \quad \text{and} \quad \left(\frac{\partial G}{\partial N_i}\right)_{T,P,N_j} = 0
-
 $$
 
 
@@ -4014,9 +3938,7 @@ The equilibrium constant, "K", can be calculated using the standard Gibbs free e
 
 
 $$
-
 K = e^{-\frac{\Delta G^{\ominus}}{RT}}
-
 $$
 
 
@@ -4056,9 +3978,7 @@ The equilibrium constant, "K", can be calculated using the standard Gibbs free e
 
 
 $$
-
 K = e^{-\frac{\Delta G^{\ominus}}{RT}}
-
 $$
 
 
@@ -4072,9 +3992,7 @@ Chemical potential, as discussed in the previous section, also plays a crucial r
 
 
 $$
-
 \mu_i = \mu_j \quad \text{and} \quad \left(\frac{\partial G}{\partial N_i}\right)_{T,P,N_j} = 0
-
 $$
 
 
@@ -4104,9 +4022,7 @@ Temperature has a significant impact on chemical equilibrium. According to the V
 
 
 $$
-
 \frac{d\ln K}{dT} = \frac{\Delta H^{\ominus}}{RT^2}
-
 $$
 
 
@@ -4132,9 +4048,7 @@ The concentrations of reactants and products also play a crucial role in chemica
 
 
 $$
-
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
-
 $$
 
 
@@ -4178,9 +4092,7 @@ The equilibrium constant, "K", is a measure of the ratio of products to reactant
 
 
 $$
-
 K = e^{-\frac{\Delta G^{\ominus}}{RT}}
-
 $$
 
 
@@ -4194,9 +4106,7 @@ At equilibrium, the chemical potential of each species is equal, and the chemica
 
 
 $$
-
 \mu_i = \mu_j \quad \text{and} \quad \left(\frac{\partial G}{\partial N_i}\right)_{T,P,N_j} = 0
-
 $$
 
 
@@ -4268,9 +4178,7 @@ Temperature is a state function, meaning it is independent of the path taken to 
 
 
 $$
-
 E = k_{B}T
-
 $$
 
 
@@ -4288,9 +4196,7 @@ The relationship between temperature and entropy is described by the equation:
 
 
 $$
-
 \Delta S = \frac{\Delta Q}{T}
-
 $$
 
 
@@ -4308,9 +4214,7 @@ The relationship between temperature and the equilibrium constant is described b
 
 
 $$
-
 \ln K = -\frac{\Delta H^{\ominus}}{RT} + \frac{\Delta S^{\ominus}}{R}
-
 $$
 
 
@@ -4350,9 +4254,7 @@ Pressure is also a state function, meaning it is independent of the path taken t
 
 
 $$
-
 P = \frac{F}{A}
-
 $$
 
 
@@ -4366,9 +4268,7 @@ In thermodynamics, pressure is closely related to volume and temperature through
 
 
 $$
-
 PV = nRT
-
 $$
 
 
@@ -4386,9 +4286,7 @@ The relationship between pressure and entropy is described by the equation:
 
 
 $$
-
 \Delta S = \frac{\Delta Q}{T}
-
 $$
 
 
@@ -4428,9 +4326,7 @@ Kp, also known as the equilibrium constant in terms of partial pressures, is a m
 
 
 $$
-
 Kp = \frac{P_{products}^m}{P_{reactants}^n}
-
 $$
 
 
@@ -4448,9 +4344,7 @@ In thermodynamics, Kp is closely related to the Gibbs free energy, which we disc
 
 
 $$
-
 \Delta G = -RTlnKp
-
 $$
 
 
@@ -4538,9 +4432,7 @@ Kp, also known as the equilibrium constant in terms of partial pressures, is a m
 
 
 $$
-
 Kp = \frac{P_{products}^m}{P_{reactants}^n}
-
 $$
 
 
@@ -4558,9 +4450,7 @@ In thermodynamics, Kp is closely related to the Gibbs free energy, which we disc
 
 
 $$
-
 \Delta G = -RTlnKp
-
 $$
 
 
@@ -4678,9 +4568,7 @@ One of the most common applications of equilibrium in drug design is in understa
 
 
 $$
-
 K_d = \frac{k_{off}}{k_{on}}
-
 $$
 
 
@@ -4698,9 +4586,7 @@ In addition to drug-receptor binding, equilibrium also plays a significant role 
 
 
 $$
-
 K_i = \frac{k_{off}}{k_i}
-
 $$
 
 
@@ -4718,9 +4604,7 @@ In addition to binding to receptors and enzymes, drugs can also interact with tr
 
 
 $$
-
 K_t = \frac{k_{off}}{k_t}
-
 $$
 
 
@@ -4828,7 +4712,6 @@ The equation is derived from the general equation of heat transfer and the equat
 $$\frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}$$
 
 
-
 where $\Delta H_{vap}$ is the enthalpy of vaporization, $T$ is the temperature, and $\Delta V_{vap}$ is the change in volume upon vaporization.
 
 
@@ -4886,9 +4769,7 @@ The Clausius-Clapeyron equation is a fundamental equation in thermodynamics that
 The equation is derived from the general equation of heat transfer and the equation for entropy production. It takes into account the effects of thermal conduction and viscous forces, making it applicable to a wide range of systems. The equation is given by:
 
 
-
 $$\frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}$$
-
 
 
 where $\Delta H_{vap}$ is the enthalpy of vaporization, $T$ is the temperature, and $\Delta V_{vap}$ is the change in volume upon vaporization.
@@ -4952,9 +4833,7 @@ The Clausius-Clapeyron equation is a fundamental equation in thermodynamics that
 The equation is derived from the general equation of heat transfer and the equation for entropy production. It takes into account the effects of thermal conduction and viscous forces, making it applicable to a wide range of systems. The equation is given by:
 
 
-
 $$\frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}$$
-
 
 
 where $\Delta H_{vap}$ is the enthalpy of vaporization, $T$ is the temperature, and $\Delta V_{vap}$ is the change in volume upon vaporization.
@@ -5088,9 +4967,7 @@ Overall, this chapter will provide a comprehensive guide to phase equilibria for
 Ideal solutions are an important concept in the study of phase equilibria. They are defined as solutions in which each component obeys Raoult's law, which states that the vapor pressure of a component in a solution is equal to the product of its mole fraction and the vapor pressure of the pure substance at the same temperature. Mathematically, this can be expressed as:
 
 
-
 $$p_i = x_i p_i^*$$
-
 
 
 where $p_i$ is the vapor pressure of component $i$, $x_i$ is its mole fraction, and $p_i^*$ is the vapor pressure of the pure substance $i$ at the same temperature.
@@ -5104,9 +4981,7 @@ This definition is based on the directly measurable property of vapor pressure, 
 Substituting the value of $p_i$ from Raoult's law into the equation for chemical potential, we can obtain an alternate definition for an ideal solution:
 
 
-
 $$\mu_i = \mu_i^* + RT\ln x_i$$
-
 
 
 where $\mu_i$ is the chemical potential of component $i$, $\mu_i^*$ is the chemical potential of the pure substance $i$, $R$ is the gas constant, and $T$ is the temperature.
@@ -5116,17 +4991,13 @@ where $\mu_i$ is the chemical potential of component $i$, $\mu_i^*$ is the chemi
 However, in some cases, the vapor above the solution may not behave as a mixture of ideal gases. In these situations, an alternative definition of an ideal solution is used, where each component obeys the fugacity analogue of Raoult's law:
 
 
-
 $$f_i = x_i f_i^*$$
-
 
 
 Here, $f_i$ is the fugacity of component $i$ in solution and $f_i^*$ is the fugacity of $i$ as a pure substance. The fugacity is defined by the equation:
 
 
-
 $$f_i = p_i\gamma_i$$
-
 
 
 where $\gamma_i$ is the fugacity coefficient, which takes into account the deviation from ideal behavior.
@@ -5752,13 +5623,11 @@ The partition function is a fundamental concept in statistical mechanics that pl
 The partition function is denoted by "Z" and is defined as the sum of the Boltzmann factors of all possible microstates of a system:
 
 
-
 $$
 
 Z = \sum_{i} e^{-\beta E_i}
 
 $$
-
 
 
 where "i" represents each microstate, "E_i" is the energy of that microstate, and "β" is the inverse of the Boltzmann constant multiplied by the temperature.
@@ -5784,13 +5653,11 @@ The partition function can be thought of as a measure of the number of ways a sy
 In thermodynamics, the partition function is used to calculate the average energy of a system, which is given by:
 
 
-
 $$
 
 \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta}
 
 $$
-
 
 
 This equation shows that the partition function is closely related to the internal energy of a system, which is a key thermodynamic quantity.
@@ -5808,13 +5675,11 @@ The partition function has many practical applications in various fields of scie
 One example of the use of the partition function is in the calculation of the heat capacity of a system. The heat capacity is a measure of the amount of heat required to raise the temperature of a system by a certain amount. It is given by:
 
 
-
 $$
 
 C_V = \frac{\partial \langle E \rangle}{\partial T}
 
 $$
-
 
 
 By using the partition function, we can calculate the heat capacity of a system at different temperatures and gain insight into its thermodynamic behavior.
@@ -5832,13 +5697,11 @@ The Lambert W function, also known as the omega function, is a special function 
 In the context of the partition function, the Lambert W function can be used to solve integrals involving the partition function. For example, the indefinite integral of "W(x)/x" can be expressed in terms of the Lambert W function:
 
 
-
 $$
 
 \int \frac{W(x)}{x} \, dx = \frac{W(x)^2}{2} + W(x) + C
 
 $$
-
 
 
 This relationship between the partition function and the Lambert W function allows for the calculation of thermodynamic quantities in a more efficient and elegant manner.
@@ -5874,13 +5737,11 @@ The partition function is a fundamental concept in statistical mechanics that pl
 The partition function is denoted by "Z" and is defined as the sum of the Boltzmann factors of all possible microstates of a system:
 
 
-
 $$
 
 Z = \sum_{i} e^{-\beta E_i}
 
 $$
-
 
 
 where "i" represents each microstate, "E_i" is the energy of that microstate, and "β" is the inverse of the Boltzmann constant multiplied by the temperature.
@@ -5906,13 +5767,11 @@ The partition function can be thought of as a measure of the number of ways a sy
 In thermodynamics, the partition function is used to calculate the average energy of a system, which is given by:
 
 
-
 $$
 
 \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta}
 
 $$
-
 
 
 This equation shows that the partition function is closely related to the internal energy of a system, which is a key thermodynamic quantity.
@@ -5930,13 +5789,11 @@ The partition function is a crucial tool in statistical mechanics, as it allows 
 One of the key applications of the partition function is in the calculation of the Helmholtz free energy, which is given by:
 
 
-
 $$
 
 F = -k_BT \ln Z
 
 $$
-
 
 
 where "k_B" is the Boltzmann constant and "T" is the temperature. This equation shows that the partition function is directly related to the free energy of a system, which is a measure of its ability to do work.
@@ -5946,13 +5803,11 @@ where "k_B" is the Boltzmann constant and "T" is the temperature. This equation 
 The partition function is also used to calculate the entropy of a system, which is given by:
 
 
-
 $$
 
 S = k_B \ln Z + \frac{U}{T}
 
 $$
-
 
 
 where "U" is the internal energy of the system. This equation shows that the partition function is a key factor in determining the entropy of a system, which is a measure of its disorder.
@@ -5984,13 +5839,11 @@ The partition function is a fundamental concept in statistical mechanics that pl
 The partition function is denoted by "Z" and is defined as the sum of the Boltzmann factors of all possible microstates of a system:
 
 
-
 $$
 
 Z = \sum_{i} e^{-\beta E_i}
 
 $$
-
 
 
 where "i" represents each microstate, "E_i" is the energy of that microstate, and "β" is the inverse of the Boltzmann constant multiplied by the temperature.
@@ -6016,13 +5869,11 @@ The partition function can be thought of as a measure of the number of ways a sy
 In thermodynamics, the partition function is used to calculate the average energy of a system, which is given by:
 
 
-
 $$
 
 \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta}
 
 $$
-
 
 
 This equation shows that the partition function is closely related to the internal energy of a system, which is a key thermodynamic quantity.
@@ -6040,13 +5891,11 @@ The partition function is a crucial tool in statistical mechanics, as it allows 
 One of the key applications of the partition function is in the calculation of the Helmholtz free energy, which is given by:
 
 
-
 $$
 
 F = -k_BT \ln Z
 
 $$
-
 
 
 where "k_B" is the Boltzmann constant and "T" is the temperature. The Helmholtz free energy is a measure of the amount of work that can be extracted from a system at constant temperature and volume. It is also used to determine the equilibrium conditions of a system.
@@ -6056,13 +5905,11 @@ where "k_B" is the Boltzmann constant and "T" is the temperature. The Helmholtz 
 The partition function also plays a crucial role in the calculation of entropy, which is a measure of the disorder or randomness of a system. The entropy of a system can be calculated using the partition function as:
 
 
-
 $$
 
 S = k_B \ln Z + k_B T \frac{\partial \ln Z}{\partial T}
 
 $$
-
 
 
 This equation shows that the partition function is directly related to the entropy of a system, providing a link between the microscopic and macroscopic properties of a system.
@@ -6466,7 +6313,6 @@ Chemical equilibrium is a state in which the rates of forward and reverse reacti
 At equilibrium, the Gibbs free energy "G" is at a minimum, subject to the constraints of constant temperature and pressure. This can be expressed mathematically as:
 
 
-
 $$
 
 \Delta G = \sum_{j} \mu_j N_j = 0
@@ -6474,9 +6320,7 @@ $$
 $$
 
 
-
 where μ<sub>j</sub> is the chemical potential of molecular species "j", and "N<sub>j</sub>" is the amount of molecular species "j". This equation can be further simplified by introducing the concept of thermodynamic activity, "a<sub>j</sub>", which is defined as:
-
 
 
 $$
@@ -6486,9 +6330,7 @@ a_j = \frac{\mu_j}{\mu_j^{\ominus}} = \frac{N_j}{N_j^{\ominus}}
 $$
 
 
-
 where <math>\mu_j^{\ominus}</math> is the chemical potential in the standard state, "R" is the gas constant, "T" is the absolute temperature, and "N<sub>j</sub>" is the activity. This allows us to rewrite the equilibrium condition as:
-
 
 
 $$
@@ -6498,9 +6340,7 @@ $$
 $$
 
 
-
 In a closed system, the total number of atoms of each element remains constant. This means that the minimization of Gibbs free energy must also be subjected to the constraints of constant number of atoms, which can be expressed as:
-
 
 
 $$
@@ -6508,7 +6348,6 @@ $$
 \sum_{j} a_j \Delta N_j = 0
 
 $$
-
 
 
 where "a<sub>j</sub>" is the number of atoms of element "i" in molecule "j" and "b"<su|b="i"|p=0> is the total number of atoms of element "i", which is a constant. This leads to a set of ("m" + "k") equations in ("m" + "k") unknowns, which can be solved using the method of Lagrange multipliers.
@@ -6556,7 +6395,6 @@ Chemical equilibrium is a state in which the rates of forward and reverse reacti
 At equilibrium, the Gibbs free energy "G" is at a minimum, subject to the constraints of constant temperature and pressure. This can be expressed mathematically as:
 
 
-
 $$
 
 \Delta G = \sum_{j} \mu_j N_j = 0
@@ -6564,9 +6402,7 @@ $$
 $$
 
 
-
 where μ<sub>j</sub> is the chemical potential of molecular species "j", and "N<sub>j</sub>" is the amount of molecular species "j". This equation can be further simplified by introducing the concept of thermodynamic activity, "a<sub>j</sub>", which is defined as:
-
 
 
 $$
@@ -6576,9 +6412,7 @@ a_j = \frac{\mu_j}{\mu_j^{\ominus}} = \frac{N_j}{N_j^{\ominus}}
 $$
 
 
-
 where <math>\mu_j^{\ominus}</math> is the chemical potential in the standard state, "R" is the gas constant, "T" is the absolute temperature, and "N<sub>j</sub>" is the activity. This allows us to rewrite the equilibrium condition as:
-
 
 
 $$
@@ -6588,9 +6422,7 @@ $$
 $$
 
 
-
 In a closed system, the total number of atoms of each element remains constant. This means that the minimization of Gibbs free energy must also be subjected to the constraints of constant number of atoms, which can be expressed as:
-
 
 
 $$
@@ -6598,7 +6430,6 @@ $$
 \sum_{j} a_j \Delta N_j = 0
 
 $$
-
 
 
 where "a<sub>j</sub>" is the number of atoms of element "i" in molecule "j" and "b"<su|b="i"|p=0> is the total number of atoms of element "i", which is a constant. This leads to a set of ("m" + "k") equations in ("m" + "k") unknowns, which can be solved using statistical mechanics.
@@ -6612,13 +6443,11 @@ Statistical mechanics provides a framework for understanding the behavior of a l
 In the case of chemical equilibrium, statistical mechanics can be used to determine the equilibrium constant, "K", which is a measure of the ratio of products to reactants at equilibrium. This is given by the expression:
 
 
-
 $$
 
 K = \frac{\prod_{j} a_j^{\nu_j}}{\prod_{i} a_i^{\nu_i}}
 
 $$
-
 
 
 where "a<sub>j</sub>" and "a<sub>i</sub>" are the activities of the products and reactants, respectively, and "ν<sub>j</sub>" and "ν<sub>i</sub>" are the stoichiometric coefficients of the products and reactants. This equation can be derived using statistical mechanics and is known as the Boltzmann distribution.
@@ -6904,13 +6733,11 @@ The steady-state approximation is a mathematical technique used to simplify the 
 Mathematically, the steady-state approximation can be expressed as:
 
 
-
 $$
 
 \frac{d[X]}{dt} = 0
 
 $$
-
 
 
 where [X] represents the concentration of the intermediate species. This equation states that the rate of change of the concentration of intermediates is equal to zero, indicating that the concentration remains constant over time.
@@ -6950,13 +6777,11 @@ The steady-state approximation is a mathematical technique used to simplify the 
 Mathematically, the steady-state approximation can be expressed as:
 
 
-
 $$
 
 \frac{d[X]}{dt} = 0
 
 $$
-
 
 
 where [X] represents the concentration of the intermediate species. This equation states that the rate of change of the concentration of intermediates is equal to zero, indicating that the concentration remains constant over time.
@@ -6982,13 +6807,11 @@ The equilibrium approximation is another mathematical technique used to simplify
 Mathematically, the equilibrium approximation can be expressed as:
 
 
-
 $$
 
 \frac{d[X]}{dt} = 0
 
 $$
-
 
 
 where [X] represents the concentration of the species at equilibrium. This equation states that the rate of change of the concentration of species is equal to zero, indicating that the concentration remains constant at equilibrium.
@@ -7024,13 +6847,11 @@ The steady-state approximation is a mathematical technique used to simplify the 
 Mathematically, the steady-state approximation can be expressed as:
 
 
-
 $$
 
 \frac{d[X]}{dt} = 0
 
 $$
-
 
 
 where [X] represents the concentration of the intermediate species. This equation states that the rate of change of the concentration of intermediates is equal to zero, indicating that the concentration remains constant over time.
@@ -7056,13 +6877,11 @@ The equilibrium approximation is another mathematical technique used to simplify
 Mathematically, the equilibrium approximation can be expressed as:
 
 
-
 $$
 
 \frac{d[X]}{dt} = 0
 
 $$
-
 
 
 where [X] represents the concentration of the species at equilibrium. This equation states that the rate of change of the concentration of species is equal to zero, indicating that the concentration remains constant over time.
@@ -7396,13 +7215,11 @@ Enzyme catalysis is a crucial aspect of reaction kinetics, as it plays a signifi
 Enzymes play a crucial role in thermodynamics by providing an alternative pathway for a reaction to occur, which requires less energy. This results in a decrease in the overall energy of the system, making it more thermodynamically favorable. The energy and entropy changes associated with enzyme catalysis can be described by the Gibbs free energy equation:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy, $\Delta S$ is the change in entropy, and $T$ is the temperature. Enzymes lower the activation energy required for a reaction to occur, resulting in a decrease in $\Delta H$ and an increase in $\Delta S$. This leads to a more negative value for $\Delta G$, making the reaction more thermodynamically favorable.
@@ -7838,13 +7655,11 @@ In thermodynamics, a closed system can exchange energy (as heat or work) but not
 For a simple system with only one type of particle, a closed system amounts to a constant number of particles. However, for systems undergoing a chemical reaction, the total number of each elemental atom is conserved, regardless of the type of molecule it may be a part of. This is expressed mathematically as:
 
 
-
 $$
 
 \sum_{j} N_j = constant
 
 $$
-
 
 
 where $N_j$ is the number of j-type molecules and $a_{ij}$ is the number of atoms of element $i$ in the molecule $j$.
@@ -7892,13 +7707,11 @@ In thermodynamics, a closed system can exchange energy (as heat or work) but not
 For a simple system with only one type of particle, a closed system amounts to a constant number of particles. However, for systems undergoing a chemical reaction, the total number of each elemental atom is conserved, regardless of the type of molecule it may be a part of. This is expressed mathematically as:
 
 
-
 $$
 
 \sum_{j} N_j = constant
 
 $$
-
 
 
 This equation, known as the conservation of mass, is a fundamental principle in closed systems. It states that the total mass of a closed system remains constant over time, even as energy is exchanged with the surroundings.
@@ -7942,13 +7755,11 @@ Closed systems play a crucial role in the study of thermodynamics. They allow us
 One of the key characteristics of closed systems is the conservation of mass. This principle states that the total mass of a closed system remains constant over time, even as energy is exchanged with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \sum_{j} N_j = constant
 
 $$
-
 
 
 This equation is a fundamental principle in closed systems and is used to understand and analyze various thermodynamic processes. It allows us to track the total mass of a system and understand how it changes over time.
@@ -8000,13 +7811,11 @@ Isolated systems are a special type of closed system where there is no exchange 
 One of the key characteristics of isolated systems is the conservation of energy. This principle states that the total energy of an isolated system remains constant over time, even as work or heat is exchanged with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta U = 0
 
 $$
-
 
 
 where $\Delta U$ represents the change in internal energy of the system. This equation is a fundamental principle in isolated systems and is used to understand and analyze various thermodynamic processes. It allows us to track the total energy of a system and understand how it changes over time.
@@ -8016,13 +7825,11 @@ where $\Delta U$ represents the change in internal energy of the system. This eq
 Another important aspect of isolated systems is the concept of entropy. Entropy is a measure of the disorder or randomness of a system. In isolated systems, the total entropy remains constant over time, as there is no exchange of matter or energy with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta S = 0
 
 $$
-
 
 
 where $\Delta S$ represents the change in entropy of the system. This equation is a fundamental principle in isolated systems and is used to understand the direction of energy flow and the efficiency of energy conversion processes.
@@ -8066,13 +7873,11 @@ Isolated systems are a special type of closed system where there is no exchange 
 One of the key characteristics of isolated systems is the conservation of energy. This principle states that the total energy of an isolated system remains constant over time, even as work or heat is exchanged with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta U = 0
 
 $$
-
 
 
 where $\Delta U$ represents the change in internal energy of the system. This equation is a fundamental principle in isolated systems and is used to understand and analyze various thermodynamic processes. It allows us to track the total energy of a system and understand how it changes over time.
@@ -8082,13 +7887,11 @@ where $\Delta U$ represents the change in internal energy of the system. This eq
 Another important aspect of isolated systems is the concept of entropy. Entropy is a measure of the disorder or randomness of a system. In isolated systems, the total entropy remains constant over time, as there is no exchange of matter or energy with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta S = 0
 
 $$
-
 
 
 where $\Delta S$ represents the change in entropy of the system. This equation is a fundamental principle in isolated systems and is used to understand the direction of energy flow and the efficiency of energy conversion processes.
@@ -8140,13 +7943,11 @@ Isolated systems play a crucial role in the study of thermodynamics as they allo
 One of the key characteristics of isolated systems is the conservation of energy. This principle states that the total energy of an isolated system remains constant over time, even as work or heat is exchanged with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta U = 0
 
 $$
-
 
 
 where $\Delta U$ represents the change in internal energy of the system. This equation is a fundamental principle in isolated systems and is used to understand and analyze various thermodynamic processes. It allows us to track the total energy of a system and understand how it changes over time.
@@ -8156,13 +7957,11 @@ where $\Delta U$ represents the change in internal energy of the system. This eq
 Another important aspect of isolated systems is the concept of entropy. Entropy is a measure of the disorder or randomness of a system. In isolated systems, the total entropy remains constant over time, as there is no exchange of matter or energy with the surroundings. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta S = 0
 
 $$
-
 
 
 where $\Delta S$ represents the change in entropy of the system. This equation is a fundamental principle in isolated systems and is used to understand the direction of energy flow and the efficiency of energy conversion processes.
@@ -8304,13 +8103,11 @@ An isothermal process is defined as a thermodynamic process in which the tempera
 Mathematically, an isothermal process can be represented by the equation:
 
 
-
 $$
 
 \Delta T = 0
 
 $$
-
 
 
 This equation shows that the change in temperature is equal to zero, indicating that the temperature remains constant throughout the process. This is a fundamental property of an isothermal process and is essential in understanding its behavior.
@@ -8502,13 +8299,11 @@ The term "adiabatic" comes from the Greek word "adiábatos", meaning "impassable
 In an adiabatic process, the change in internal energy is solely dependent on the work done by the system, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W = 0
 
 $$
-
 
 
 Since there is no heat transfer, the work done by the system is equal to the change in internal energy. This means that the work done is solely responsible for any change in the system's energy.
@@ -8522,7 +8317,6 @@ Since there is no heat transfer, the work done by the system is equal to the cha
 To further understand the behavior of an adiabatic process, we can derive the "P"-"V" relation for adiabatic heating and cooling. Starting with the first law of thermodynamics:
 
 
-
 $$
 
 dU + \delta W = \delta Q = 0
@@ -8530,9 +8324,7 @@ dU + \delta W = \delta Q = 0
 $$
 
 
-
 We can substitute the expression for work done by the system, $\delta W = P \, dV$, to get:
-
 
 
 $$
@@ -8542,9 +8334,7 @@ dU + P \, dV = 0
 $$
 
 
-
 Since the internal energy is a function of temperature and volume, we can express it as $dU = \left(\frac{\partial U}{\partial T}\right)_V dT + \left(\frac{\partial U}{\partial V}\right)_T dV$. Substituting this into the previous equation, we get:
-
 
 
 $$
@@ -8554,9 +8344,7 @@ $$
 $$
 
 
-
 Rearranging and simplifying, we get:
-
 
 
 $$
@@ -8566,9 +8354,7 @@ $$
 $$
 
 
-
 Since the process is adiabatic, the change in internal energy is equal to zero, $\Delta U = 0$. This means that $\left(\frac{\partial U}{\partial T}\right)_V = 0$. Substituting this into the previous equation, we get:
-
 
 
 $$
@@ -8578,9 +8364,7 @@ $$
 $$
 
 
-
 Solving for pressure, we get:
-
 
 
 $$
@@ -8588,7 +8372,6 @@ $$
 P = -\left(\frac{\partial U}{\partial V}\right)_T
 
 $$
-
 
 
 This is known as the "P"-"V" relation for adiabatic processes. It shows that the pressure is solely dependent on the change in internal energy with respect to volume at constant temperature.
@@ -8664,13 +8447,11 @@ The term "adiabatic" comes from the Greek word "adiábatos", meaning "impassable
 In an adiabatic process, the change in internal energy is solely dependent on the work done by the system, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W = 0
 
 $$
-
 
 
 Since there is no heat transfer, the work done by the system is equal to the change in internal energy. This means that the work done is solely responsible for any change in the system's energy.
@@ -8730,13 +8511,11 @@ The term "adiabatic" comes from the Greek word "adiábatos", meaning "impassable
 In an adiabatic process, the change in internal energy is solely dependent on the work done by the system, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W = 0
 
 $$
-
 
 
 Since there is no heat transfer, the work done by the system is equal to the change in internal energy. This means that the work done is solely responsible for any change in the system's energy.
@@ -8810,7 +8589,6 @@ The term "isobaric" comes from the Greek words "isos" meaning "equal" and "baros
 In an isobaric process, the change in internal energy, denoted as $\Delta U$, is dependent on both the heat transfer, denoted as $\delta Q$, and the work done, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W
@@ -8818,9 +8596,7 @@ $$
 $$
 
 
-
 Since the pressure remains constant, the work done by the system can be expressed as:
-
 
 
 $$
@@ -8830,9 +8606,7 @@ $$
 $$
 
 
-
 where $P$ is the constant pressure and $\Delta V$ is the change in volume. Substituting this into the first law of thermodynamics equation, we get:
-
 
 
 $$
@@ -8840,7 +8614,6 @@ $$
 \Delta U = \delta Q + P\Delta V
 
 $$
-
 
 
 ### Subsection 12.3b: Characteristics of Isobaric Process
@@ -8890,7 +8663,6 @@ The term "isobaric" comes from the Greek words "isos" meaning "equal" and "baros
 In an isobaric process, the change in internal energy, denoted as $\Delta U$, is dependent on both the heat transfer, denoted as $\delta Q$, and the work done, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W
@@ -8898,9 +8670,7 @@ $$
 $$
 
 
-
 Since the pressure remains constant, the work done by the system can be expressed as:
-
 
 
 $$
@@ -8910,9 +8680,7 @@ $$
 $$
 
 
-
 where $P$ is the constant pressure and $\Delta V$ is the change in volume. Substituting this into the first law of thermodynamics equation, we get:
-
 
 
 $$
@@ -8920,7 +8688,6 @@ $$
 \Delta U = \delta Q + P\Delta V
 
 $$
-
 
 
 ### Subsection 12.3b: Characteristics of Isobaric Process
@@ -8974,7 +8741,6 @@ The term "isobaric" comes from the Greek words "isos" meaning "equal" and "baros
 In an isobaric process, the change in internal energy, denoted as $\Delta U$, is dependent on both the heat transfer, denoted as $\delta Q$, and the work done, denoted as $\delta W$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q + \delta W
@@ -8982,9 +8748,7 @@ $$
 $$
 
 
-
 Since the pressure remains constant, the work done by the system can be expressed as:
-
 
 
 $$
@@ -8994,9 +8758,7 @@ $$
 $$
 
 
-
 where $P$ is the constant pressure and $\Delta V$ is the change in volume. Substituting this into the first law of thermodynamics equation, we get:
-
 
 
 $$
@@ -9004,7 +8766,6 @@ $$
 \Delta U = \delta Q + P\Delta V
 
 $$
-
 
 
 ### Subsection 12.3b: Characteristics of Isobaric Process
@@ -9054,7 +8815,6 @@ The term "isochoric" comes from the Greek words "isos" meaning "equal" and "kh�
 In an isochoric process, the change in internal energy, denoted as $\Delta U$, is solely dependent on the heat transfer, denoted as $\delta Q$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q
@@ -9062,9 +8822,7 @@ $$
 $$
 
 
-
 Since the volume remains constant, the work done by the system is equal to zero, as there is no change in volume to perform work on. This means that the first law of thermodynamics can be simplified to:
-
 
 
 $$
@@ -9072,7 +8830,6 @@ $$
 \Delta U = \delta Q + 0
 
 $$
-
 
 
 ### Subsection 12.4b: Characteristics of Isochoric Process
@@ -9122,7 +8879,6 @@ The term "isochoric" comes from the Greek words "isos" meaning "equal" and "kh�
 In an isochoric process, the change in internal energy, denoted as $\Delta U$, is solely dependent on the heat transfer, denoted as $\delta Q$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q
@@ -9130,9 +8886,7 @@ $$
 $$
 
 
-
 Since the volume remains constant, the work done by the system is equal to zero, as there is no change in volume to perform work on. This means that the first law of thermodynamics can be simplified to:
-
 
 
 $$
@@ -9140,7 +8894,6 @@ $$
 \Delta U = \delta Q + 0
 
 $$
-
 
 
 ### Subsection 12.4b: Characteristics of Isochoric Process
@@ -9194,7 +8947,6 @@ The term "isochoric" comes from the Greek words "isos" meaning "equal" and "kh�
 In an isochoric process, the change in internal energy, denoted as $\Delta U$, is solely dependent on the heat transfer, denoted as $\delta Q$. This can be expressed using the first law of thermodynamics as:
 
 
-
 $$
 
 \Delta U = \delta Q
@@ -9202,9 +8954,7 @@ $$
 $$
 
 
-
 Since the volume remains constant, the work done by the system is equal to zero, as there is no change in volume to perform work on. This means that the first law of thermodynamics can be simplified to:
-
 
 
 $$
@@ -9212,7 +8962,6 @@ $$
 \Delta U = \delta Q + 0
 
 $$
-
 
 
 ### Subsection 12.4b: Characteristics of Isochoric Process
@@ -9340,13 +9089,11 @@ The Carnot cycle consists of four reversible processes: isothermal expansion, ad
 During the isothermal expansion, the system absorbs heat from a high-temperature reservoir and expands, doing work on its surroundings. This process is represented by the line AB on the P-V diagram. The amount of heat transferred during this process is given by the equation:
 
 
-
 $$
 
 Q_H = T_H \Delta S_H
 
 $$
-
 
 
 where $Q_H$ is the heat transferred, $T_H$ is the temperature of the high-temperature reservoir, and $\Delta S_H$ is the change in entropy of the system.
@@ -9360,13 +9107,11 @@ Next, the system undergoes an adiabatic expansion, represented by the line BC on
 The isothermal compression follows, represented by the line CD on the P-V diagram. In this process, the system releases heat to a low-temperature reservoir and compresses, doing work on its surroundings. The amount of heat released during this process is given by the equation:
 
 
-
 $$
 
 Q_C = T_C \Delta S_C
 
 $$
-
 
 
 where $Q_C$ is the heat released, $T_C$ is the temperature of the low-temperature reservoir, and $\Delta S_C$ is the change in entropy of the system.
@@ -9380,7 +9125,6 @@ Finally, the system undergoes an adiabatic compression, represented by the line 
 Due to the conservation of energy, the net heat transferred during the Carnot cycle is equal to the work done by the system:
 
 
-
 $$
 
 Q = W = Q_H + Q_C
@@ -9388,9 +9132,7 @@ Q = W = Q_H + Q_C
 $$
 
 
-
 The efficiency of the Carnot cycle, denoted by $\eta$, is defined as the ratio of the work done by the system to the heat received from the high-temperature reservoir:
-
 
 
 $$
@@ -9398,7 +9140,6 @@ $$
 \eta = \frac{W}{Q_H} = 1 - \frac{T_C}{T_H}
 
 $$
-
 
 
 This expression can be derived from the equations for heat transfer and entropy, as shown above. It represents the maximum possible efficiency for any heat engine operating between two temperatures.
@@ -9416,13 +9157,11 @@ The Carnot cycle can also be reversed, resulting in the Carnot heat pump and ref
 The efficiency of the reversed Carnot cycle is given by the same equation as the Carnot cycle, but with the temperatures reversed:
 
 
-
 $$
 
 \eta = \frac{W}{Q_C} = 1 - \frac{T_H}{T_C}
 
 $$
-
 
 
 This cycle is also a benchmark for the maximum possible coefficient of performance for a heat pump or refrigerator operating between two temperatures.
@@ -9466,13 +9205,11 @@ The Carnot cycle consists of four reversible processes: isothermal expansion, ad
 During the isothermal expansion, the system absorbs heat from a high-temperature reservoir and expands, doing work on its surroundings. This process is represented by the line AB on the P-V diagram. The amount of heat transferred during this process is given by the equation:
 
 
-
 $$
 
 Q_H = T_H \Delta S_H
 
 $$
-
 
 
 where $Q_H$ is the heat transferred, $T_H$ is the temperature of the high-temperature reservoir, and $\Delta S_H$ is the change in entropy of the system.
@@ -9486,13 +9223,11 @@ Next, the system undergoes an adiabatic expansion, represented by the line BC on
 The isothermal compression follows, represented by the line CD on the P-V diagram. During this process, the system releases heat to a low-temperature reservoir and compresses, doing work on its surroundings. The amount of heat released during this process is given by the equation:
 
 
-
 $$
 
 Q_C = T_C \Delta S_C
 
 $$
-
 
 
 where $Q_C$ is the heat released, $T_C$ is the temperature of the low-temperature reservoir, and $\Delta S_C$ is the change in entropy of the system.
@@ -9510,13 +9245,11 @@ The Carnot cycle is a reversible cycle, meaning that it can be run in reverse to
 The efficiency of the Carnot cycle is given by the equation:
 
 
-
 $$
 
 \eta = 1 - \frac{T_C}{T_H}
 
 $$
-
 
 
 where $T_C$ is the temperature of the low-temperature reservoir and $T_H$ is the temperature of the high-temperature reservoir. This equation shows that the efficiency of the Carnot cycle is dependent only on the temperatures of the reservoirs and not on the working substance or the specific processes used.
@@ -9564,13 +9297,11 @@ The Carnot cycle consists of four reversible processes: isothermal expansion, ad
 During the isothermal expansion, the system absorbs heat from a high-temperature reservoir and expands, doing work on its surroundings. This process is represented by the line AB on the P-V diagram. The amount of heat transferred during this process is given by the equation:
 
 
-
 $$
 
 Q_H = T_H \Delta S_H
 
 $$
-
 
 
 where $Q_H$ is the heat transferred, $T_H$ is the temperature of the high-temperature reservoir, and $\Delta S_H$ is the change in entropy of the system.
@@ -9584,13 +9315,11 @@ Next, the system undergoes an adiabatic expansion, represented by the line BC on
 The isothermal compression follows, represented by the line CD on the P-V diagram. During this process, the system releases heat to a low-temperature reservoir and compresses, doing work on its surroundings. The amount of heat released during this process is given by the equation:
 
 
-
 $$
 
 Q_L = T_L \Delta S_L
 
 $$
-
 
 
 where $Q_L$ is the heat released, $T_L$ is the temperature of the low-temperature reservoir, and $\Delta S_L$ is the change in entropy of the system.
@@ -9612,7 +9341,6 @@ The Carnot cycle is a reversible cycle, meaning that it can be run in reverse to
 The efficiency of the Carnot cycle is given by the ratio of the work done by the system to the heat absorbed from the high-temperature reservoir:
 
 
-
 $$
 
 \eta = \frac{W}{Q_H}
@@ -9620,9 +9348,7 @@ $$
 $$
 
 
-
 Using the equations for heat transfer during the isothermal processes, we can rewrite this as:
-
 
 
 $$
@@ -9632,9 +9358,7 @@ $$
 $$
 
 
-
 Since the Carnot cycle is a reversible cycle, the entropy change of the system is zero, meaning that $\Delta S_H = \Delta S_L = 0$. This results in an efficiency of:
-
 
 
 $$
@@ -9642,7 +9366,6 @@ $$
 \eta = 1 - \frac{T_L}{T_H}
 
 $$
-
 
 
 This equation shows that the efficiency of the Carnot cycle is solely dependent on the temperatures of the high-temperature and low-temperature reservoirs. It also shows that the efficiency of the Carnot cycle approaches 100% as the temperature difference between the two reservoirs approaches zero.
@@ -9698,13 +9421,11 @@ The Otto cycle consists of four processes: isentropic compression, constant volu
 During the isentropic compression, the system compresses the air-fuel mixture adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -9714,13 +9435,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant volume heat addition, represented by the line BC on the P-V diagram. During this process, the air-fuel mixture is ignited, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_v(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v$ is the specific heat at constant volume, and $T_3$ and $T_2$ are the final and initial temperatures.
@@ -9730,13 +9449,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v
 The isentropic expansion follows, represented by the line CD on the P-V diagram. During this process, the system expands adiabatically, doing work on the surroundings. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = -P_3V_3\ln\frac{V_4}{V_3}
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and volume, and $V_4$ is the final volume.
@@ -9746,13 +9463,11 @@ where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and v
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the exhaust gases are expelled, and the system returns to its initial state. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{reject} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{reject}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v$ is the specific heat at constant volume, and $T_4$ and $T_1$ are the final and initial temperatures.
@@ -9762,13 +9477,11 @@ where $Q_{reject}$ is the heat rejected, $m$ is the mass of the exhaust gases, $
 The efficiency of the Otto cycle is given by the equation:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{\gamma - 1}}
 
 $$
-
 
 
 where $r$ is the compression ratio and $\gamma$ is the ratio of specific heats.
@@ -9812,13 +9525,11 @@ The Otto cycle consists of four processes: isentropic compression, constant volu
 During the isentropic compression, the system compresses the air-fuel mixture adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -9828,13 +9539,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant volume heat addition, represented by the line BC on the P-V diagram. During this process, the air-fuel mixture is ignited, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_v(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v$ is the specific heat at constant volume, $T_3$ is the final temperature, and $T_2$ is the initial temperature.
@@ -9844,13 +9553,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v
 After the heat addition, the system undergoes an isentropic expansion, represented by the line CD on the P-V diagram. During this process, the system expands adiabatically, decreasing its temperature and pressure. The work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = -P_3V_3\ln\frac{V_4}{V_3}
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and volume, and $V_4$ is the final volume.
@@ -9860,13 +9567,11 @@ where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and v
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the system releases heat to the surroundings, causing a decrease in temperature and pressure. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{reject} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{reject}$ is the heat rejected, $m$ is the mass of the air-fuel mixture, $C_v$ is the specific heat at constant volume, $T_4$ is the final temperature, and $T_1$ is the initial temperature.
@@ -9876,7 +9581,6 @@ where $Q_{reject}$ is the heat rejected, $m$ is the mass of the air-fuel mixture
 The net work done by the system during the Otto cycle is given by the difference between the work done during the compression and expansion processes:
 
 
-
 $$
 
 W_{net} = W_{comp} + W_{exp} = -P_1V_1\ln\frac{V_2}{V_1} - P_3V_3\ln\frac{V_4}{V_3}
@@ -9884,9 +9588,7 @@ W_{net} = W_{comp} + W_{exp} = -P_1V_1\ln\frac{V_2}{V_1} - P_3V_3\ln\frac{V_4}{V
 $$
 
 
-
 The efficiency of the Otto cycle is given by the ratio of the net work done to the heat added:
-
 
 
 $$
@@ -9894,7 +9596,6 @@ $$
 \eta = \frac{W_{net}}{Q_{add}} = \frac{-P_1V_1\ln\frac{V_2}{V_1} - P_3V_3\ln\frac{V_4}{V_3}}{mC_v(T_3 - T_2)}
 
 $$
-
 
 
 In real engines, the efficiency of the Otto cycle is limited by factors such as friction, heat loss, and incomplete combustion. However, the Otto cycle serves as a useful theoretical model for understanding the principles of spark-ignition engines and their performance. 
@@ -9934,13 +9635,11 @@ The Otto cycle consists of four processes: isentropic compression, constant volu
 During the isentropic compression, the system compresses the air-fuel mixture adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -9950,13 +9649,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant volume heat addition, represented by the line BC on the P-V diagram. During this process, the air-fuel mixture is ignited, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_v(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v$ is the specific heat at constant volume, and $T_3$ and $T_2$ are the final and initial temperatures, respectively.
@@ -9966,13 +9663,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_v
 After the heat addition, the system undergoes an isentropic expansion, represented by the line CD on the P-V diagram. During this process, the hot gases expand, doing work on the piston and decreasing their temperature and pressure. The work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = -P_3V_3\ln\frac{V_4}{V_3}
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the final pressure and volume, and $V_4$ is the initial volume.
@@ -9982,13 +9677,11 @@ where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the final pressure and vol
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the exhaust gases are expelled, and the system returns to its initial state. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v$ is the specific heat at constant volume, and $T_4$ and $T_1$ are the final and initial temperatures, respectively.
@@ -9998,13 +9691,11 @@ where $Q_{rej}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v
 The efficiency of the Otto cycle can be calculated using the following equation:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{\gamma - 1}}
 
 $$
-
 
 
 where $r$ is the compression ratio and $\gamma$ is the ratio of specific heats.
@@ -10064,13 +9755,11 @@ The Diesel cycle consists of four processes: isentropic compression, constant pr
 During the isentropic compression, the system compresses the air adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10080,13 +9769,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant pressure heat addition, represented by the line BC on the P-V diagram. During this process, fuel is injected into the compressed air, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_p(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p$ is the specific heat at constant pressure, and $T_3$ and $T_2$ are the final and initial temperatures, respectively.
@@ -10096,13 +9783,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p
 After the heat addition, the system undergoes an isentropic expansion, represented by the line CD on the P-V diagram. During this process, the high-pressure and high-temperature gases expand, doing work on the piston and producing power. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = P_3(V_3 - V_4)
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ is the final pressure, and $V_3$ and $V_4$ are the final and initial volumes, respectively.
@@ -10112,13 +9797,11 @@ where $W_{exp}$ is the work done, $P_3$ is the final pressure, and $V_3$ and $V_
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the exhaust gases are expelled from the cylinder, and the remaining heat is rejected to the surroundings. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v$ is the specific heat at constant volume, and $T_4$ and $T_1$ are the final and initial temperatures, respectively.
@@ -10162,13 +9845,11 @@ The Diesel cycle consists of four processes: isentropic compression, constant pr
 During the isentropic compression, the system compresses the air adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10178,13 +9859,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant pressure heat addition, represented by the line BC on the P-V diagram. During this process, fuel is injected into the compressed air, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_p(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p$ is the specific heat at constant pressure, $T_3$ is the final temperature, and $T_2$ is the initial temperature.
@@ -10194,13 +9873,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p
 After the heat addition, the system undergoes an isentropic expansion, represented by the line CD on the P-V diagram. During this process, the expanding gases do work on the piston, causing a decrease in pressure and temperature. The work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = P_3(V_3 - V_4)
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ is the final pressure, $V_3$ is the final volume, and $V_4$ is the initial volume.
@@ -10210,13 +9887,11 @@ where $W_{exp}$ is the work done, $P_3$ is the final pressure, $V_3$ is the fina
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the hot gases are expelled from the cylinder, and the remaining gases are cooled down. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the remaining gases, $C_v$ is the specific heat at constant volume, $T_4$ is the final temperature, and $T_1$ is the initial temperature.
@@ -10260,13 +9935,11 @@ The Diesel cycle consists of four processes: isentropic compression, constant pr
 During the isentropic compression, the system compresses the air adiabatically, increasing its temperature and pressure. This process is represented by the line AB on the P-V diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10276,13 +9949,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the system undergoes a constant pressure heat addition, represented by the line BC on the P-V diagram. During this process, fuel is injected into the compressed air, causing a rapid increase in pressure and temperature. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_p(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p$ is the specific heat at constant pressure, $T_3$ is the final temperature, and $T_2$ is the initial temperature.
@@ -10292,13 +9963,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the air-fuel mixture, $C_p
 After the heat addition, the system undergoes an isentropic expansion, represented by the line CD on the P-V diagram. During this process, the hot and high-pressure gas expands, doing work on the piston and producing useful work. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = P_3V_3\ln\frac{V_4}{V_3}
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the final pressure and volume, and $V_4$ is the initial volume.
@@ -10308,13 +9977,11 @@ where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the final pressure and vol
 Finally, the system undergoes a constant volume heat rejection, represented by the line DA on the P-V diagram. During this process, the exhaust gases are expelled, and the system returns to its initial state. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = mC_v(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v$ is the specific heat at constant volume, $T_4$ is the final temperature, and $T_1$ is the initial temperature.
@@ -10328,7 +9995,6 @@ where $Q_{rej}$ is the heat rejected, $m$ is the mass of the exhaust gases, $C_v
 The efficiency of the Diesel cycle can be calculated using the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system. In the case of the Diesel cycle, this can be written as:
 
 
-
 $$
 
 \Delta U = Q_{add} - W_{comp} - W_{exp} - Q_{rej}
@@ -10336,9 +10002,7 @@ $$
 $$
 
 
-
 Since the cycle returns to its initial state, the change in internal energy is zero, and we can rearrange the equation to solve for the efficiency:
-
 
 
 $$
@@ -10348,9 +10012,7 @@ $$
 $$
 
 
-
 Substituting the equations for work and heat, we get:
-
 
 
 $$
@@ -10358,7 +10020,6 @@ $$
 \eta = 1 - \frac{P_1V_1\ln\frac{V_2}{V_1} + P_3V_3\ln\frac{V_4}{V_3}}{mC_p(T_3 - T_2)}
 
 $$
-
 
 
 This equation shows that the efficiency of the Diesel cycle depends on the compression ratio, the specific heat at constant pressure, and the temperatures at the beginning and end of the constant pressure heat addition process. It also shows that the efficiency can be improved by increasing the compression ratio or by increasing the temperature at the end of the constant pressure heat addition process.
@@ -10406,13 +10067,11 @@ The Rankine cycle is a closed-loop cycle that operates on a working fluid, typic
 During the isentropic compression, the working fluid is pumped from a low pressure to a high pressure, increasing its temperature and pressure. This process is represented by the line AB on the T-s diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10422,13 +10081,11 @@ where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and 
 Next, the working fluid undergoes a constant pressure heat addition, represented by the line BC on the T-s diagram. During this process, the working fluid is heated in a boiler, causing a rapid increase in temperature and pressure. The heat added during this process is given by the equation:
 
 
-
 $$
 
 Q_{add} = mC_p(T_3 - T_2)
 
 $$
-
 
 
 where $Q_{add}$ is the heat added, $m$ is the mass of the working fluid, $C_p$ is the specific heat at constant pressure, and $T_3$ and $T_2$ are the final and initial temperatures, respectively.
@@ -10438,13 +10095,11 @@ where $Q_{add}$ is the heat added, $m$ is the mass of the working fluid, $C_p$ i
 After the heat addition process, the working fluid undergoes an isentropic expansion, represented by the line CD on the T-s diagram. This process involves the expansion of the working fluid through a turbine, converting the thermal energy into mechanical work. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{exp} = -P_3V_3\ln\frac{V_4}{V_3}
 
 $$
-
 
 
 where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and volume, and $V_4$ is the final volume.
@@ -10454,13 +10109,11 @@ where $W_{exp}$ is the work done, $P_3$ and $V_3$ are the initial pressure and v
 Finally, the working fluid undergoes a constant pressure heat rejection, represented by the line DA on the T-s diagram. During this process, the working fluid is cooled in a condenser, converting the remaining thermal energy into waste heat that is rejected to the environment. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = mC_p(T_4 - T_1)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the working fluid, $C_p$ is the specific heat at constant pressure, and $T_4$ and $T_1$ are the final and initial temperatures, respectively.
@@ -10504,13 +10157,11 @@ The Rankine cycle is a closed-loop cycle that operates on a working fluid, typic
 During the isentropic compression, the working fluid is pumped from a low pressure to a high pressure, increasing its temperature and pressure. This process is represented by the line AB on the T-s diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10588,13 +10239,11 @@ The Rankine cycle is a closed-loop cycle that operates on a working fluid, typic
 During the isentropic compression, the working fluid is pumped from a low pressure to a high pressure, increasing its temperature and pressure. This process is represented by the line AB on the T-s diagram. The amount of work done during this process is given by the equation:
 
 
-
 $$
 
 W_{comp} = -P_1V_1\ln\frac{V_2}{V_1}
 
 $$
-
 
 
 where $W_{comp}$ is the work done, $P_1$ and $V_1$ are the initial pressure and volume, and $V_2$ is the final volume.
@@ -10608,13 +10257,11 @@ Next, the working fluid undergoes a constant pressure heat addition, represented
 After the expansion, the working fluid enters a condenser, where it is cooled and condensed back into a liquid state. This process is represented by the line DA on the T-s diagram. The heat rejected during this process is given by the equation:
 
 
-
 $$
 
 Q_{rej} = m(h_3 - h_4)
 
 $$
-
 
 
 where $Q_{rej}$ is the heat rejected, $m$ is the mass of the working fluid, and $h_3$ and $h_4$ are the enthalpies at points 3 and 4 on the T-s diagram.
@@ -10740,13 +10387,11 @@ Enthalpy is a thermodynamic property that is defined as the sum of the internal 
 The definition of enthalpy can be mathematically expressed as:
 
 
-
 $$
 
 H = U + PV
 
 $$
-
 
 
 where:
@@ -10772,7 +10417,6 @@ Enthalpy is a state function, which means that its value depends only on the cur
 Enthalpy is closely related to the concept of bond energy, which is the average energy required to break a specific type of bond in a molecule. The bond energy is also known as bond dissociation energy (BDE) and is denoted by Dº(R-X). It is defined as the standard enthalpy change of the following fission:
 
 
-
 $$
 
 R-X \rightarrow R + X
@@ -10780,9 +10424,7 @@ R-X \rightarrow R + X
 $$
 
 
-
 The bond energy is usually derived from the thermochemical equation:
-
 
 
 $$
@@ -10790,7 +10432,6 @@ $$
 D^\circ(R-X) = \Delta H^\circ_f(R) + \Delta H^\circ_f(X) - \Delta H^\circ_f(RX)
 
 $$
-
 
 
 where:
@@ -10956,25 +10597,21 @@ Entropy, denoted by the Greek capital letter eta ($\Eta$), was first defined by 
 
 
 The most common way to calculate entropy is by using the formula:
-
 $$
 
 \Eta = -\sum_{i=1}^{n} p_i \log_b p_i
 
 $$
-
 where $p_i$ is the probability of a system being in a particular state $i$ and $b$ is the base of the logarithm used. Common values of $b$ are 2, Euler's number, and 10, and the corresponding units of entropy are bits, nats, and bans, respectively.
 
 
 
 It is important to note that if the probability of a system being in a particular state is 0, the corresponding summand is taken to be 0, which is consistent with the limit:
-
 $$
 
 \lim_{p\to0^+}p\log (p) = 0.
 
 $$
-
 
 
 ### Subsection: 14.2b Role in Thermodynamics
@@ -11030,13 +10667,11 @@ Entropy is a state function, meaning it only depends on the initial and final st
 The physicist Ludwig Boltzmann first defined entropy in the late 19th century as a measure of the disorder or randomness in a system. He derived the formula for entropy using statistical mechanics, which relates the microscopic behavior of individual particles to the macroscopic properties of a system. Boltzmann's formula for entropy is given by:
 
 
-
 $$
 
 S = k_B \log W
 
 $$
-
 
 
 where $k_B$ is the Boltzmann constant and $W$ is the number of microstates corresponding to a given macrostate. This formula is often referred to as the Boltzmann entropy formula.
@@ -11050,13 +10685,11 @@ where $k_B$ is the Boltzmann constant and $W$ is the number of microstates corre
 In the field of information theory, Claude Shannon formalized the concept of entropy in the mid-20th century. Shannon's definition of entropy is based on the idea of information content and is given by:
 
 
-
 $$
 
 H = -\sum_{i=1}^{n} p_i \log_b p_i
 
 $$
-
 
 
 where $p_i$ is the probability of a system being in a particular state $i$ and $b$ is the base of the logarithm used. Common values of $b$ are 2, Euler's number, and 10, and the corresponding units of entropy are bits, nats, and bans, respectively.
@@ -11326,13 +10959,11 @@ In the previous sections, we have discussed the concept of Gibbs free energy and
 Gibbs free energy is a fundamental concept in thermodynamics, as it provides a measure of the maximum amount of work that can be extracted from a system at constant temperature and pressure. This is known as the maximum non-expansion work, and it is represented by the symbol W<sub>max</sub>. The relationship between Gibbs free energy and W<sub>max</sub> is given by the equation:
 
 
-
 $$
 
 W_{max} = \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where ΔH is the change in enthalpy, T is the temperature in Kelvin, and ΔS is the change in entropy. This equation is known as the Gibbs-Helmholtz equation and it is used to calculate the maximum non-expansion work for a given system.
@@ -11358,13 +10989,11 @@ At equilibrium, the Gibbs free energy is at its minimum value, denoted as ΔG = 
 The concept of Gibbs free energy is particularly useful in understanding chemical equilibrium. In a closed system at constant temperature and pressure, the reaction will proceed in the direction that minimizes the Gibbs free energy. This means that at equilibrium, the Gibbs free energy of the reactants and products will be equal. This is represented by the equation:
 
 
-
 $$
 
 \Delta G = \sum_{i} \nu_i \mu_i = 0
 
 $$
-
 
 
 where ν<sub>i</sub> is the stoichiometric coefficient and μ<sub>i</sub> is the chemical potential of each species. This equation is known as the equilibrium condition and it allows us to calculate the equilibrium constant for a given reaction.
@@ -11412,13 +11041,11 @@ The internal energy of a thermodynamic system is the total energy contained with
 The internal energy of a system can be changed through various processes, such as the transfer of matter or energy (heat or work) into or out of the system. These processes are measured by changes in other thermodynamic properties, such as temperature, entropy, volume, and electric polarization. The first law of thermodynamics states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where ΔU is the change in internal energy, Q is the heat added to the system, and W is the work done by the system.
@@ -11432,13 +11059,11 @@ where ΔU is the change in internal energy, Q is the heat added to the system, a
 The internal energy of a system is related to other thermodynamic properties through various equations. For example, the change in internal energy can be calculated using the first law of thermodynamics, as shown above. It is also related to the enthalpy (H) and the entropy (S) through the equation:
 
 
-
 $$
 
 \Delta U = \Delta H - T\Delta S
 
 $$
-
 
 
 where T is the temperature in Kelvin. This equation is known as the fundamental thermodynamic relation and is used to calculate the change in internal energy for a given process.
@@ -11510,13 +11135,11 @@ As mentioned earlier, the internal energy of a system is related to other thermo
 Another important relationship is between internal energy and specific heat capacity. The specific heat capacity of a substance is the amount of heat required to raise the temperature of one unit mass of the substance by one degree. It is related to the internal energy through the equation:
 
 
-
 $$
 
 U = mc\Delta T
 
 $$
-
 
 
 where U is the internal energy, m is the mass of the substance, c is the specific heat capacity, and ΔT is the change in temperature.
@@ -11858,13 +11481,11 @@ The First Law also has implications for the measurement of energy. It allows us 
 The First Law of Thermodynamics can be mathematically expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done on the system. This equation shows that the change in internal energy of a system is equal to the heat added to the system minus the work done on the system.
@@ -11874,7 +11495,6 @@ where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the 
 This equation can also be written in terms of enthalpy, which is defined as:
 
 
-
 $$
 
 H = U + PV
@@ -11882,9 +11502,7 @@ H = U + PV
 $$
 
 
-
 where $H$ is enthalpy, $U$ is internal energy, $P$ is pressure, and $V$ is volume. Using this definition, the First Law can be written as:
-
 
 
 $$
@@ -11892,7 +11510,6 @@ $$
 \Delta H = Q + W
 
 $$
-
 
 
 This equation shows that the change in enthalpy of a system is equal to the heat added to the system plus the work done on the system.
@@ -12412,13 +12029,11 @@ The laws of thermodynamics play a crucial role in understanding the behavior of 
 In order to mathematically describe thermodynamic equilibrium, we can use the concept of chemical potential. Chemical potential is a measure of the energy required to add one molecule of a substance to a system. At equilibrium, the chemical potential of each component in the system is equal, resulting in a balanced distribution of energy. This can be expressed using the equation:
 
 
-
 $$
 
 \mu_j = \mu_j^{\ominus} + RT\ln A_j
 
 $$
-
 
 
 where $\mu_j$ is the chemical potential of molecular species "j", $\mu_j^{\ominus}$ is the chemical potential in the standard state, $R$ is the gas constant, $T$ is the absolute temperature, and $A_j$ is the activity of the species.
@@ -12500,13 +12115,11 @@ The concept of phase equilibrium is based on the phase rule, which states that t
 Mathematically, the phase rule can be expressed as:
 
 
-
 $$
 
 F = (C-1)P + 2 - C(P-1) = C-P+2
 
 $$
-
 
 
 Where F is the number of degrees of freedom, C is the number of components, and P is the number of phases. This equation shows that the number of degrees of freedom decreases as the number of phases increases, highlighting the importance of phase equilibrium in determining the behavior of a system.
@@ -12638,9 +12251,7 @@ Chemical equilibrium is a dynamic state in which the concentrations of reactants
 The equilibrium constant, "K", is defined as the ratio of the concentrations of products to the concentrations of reactants at equilibrium. It is given by the following equation:
 
 
-
 $$K = \frac{[P]^m}{[R]^n}$$
-
 
 
 Where "[P]" and "[R]" represent the concentrations of products and reactants, respectively, and "m" and "n" are the stoichiometric coefficients of the products and reactants in the equilibrium equation. The value of "K" is a function of the chemical potentials of all species involved in the reaction.
@@ -12650,17 +12261,13 @@ Where "[P]" and "[R]" represent the concentrations of products and reactants, re
 Chemical potential, "μ<sub>i</sub>", is the partial molar free energy of the "i"th species in a chemical reaction. It is defined as the partial derivative of the free energy with respect to the number of moles of that species, "N<sub>i</sub>". The chemical potential of a species can be calculated in terms of its activity, "a<sub>i</sub>", using the following equation:
 
 
-
 $$\mu_i = \mu_i^o + RT\ln a_i$$
-
 
 
 Where "μ<sub>i</sub><sup>o</sup>" is the standard chemical potential of the species, "R" is the gas constant, and "T" is the temperature. At equilibrium, the chemical potentials of all species are equal, and the equilibrium constant, "K", can be expressed in terms of the standard Gibbs free energy change, Δ"G"<sup>o</sup>, as follows:
 
 
-
 $$K = e^{-\frac{\Delta G^o}{RT}}$$
-
 
 
 This relationship allows us to characterize any equilibrium in terms of either the standard free energy change or the equilibrium constant. In practice, concentrations are more useful than activities, but activities can be calculated from concentrations if the activity coefficients are known. If not, the activity coefficients can be subsumed into the equilibrium constant, which becomes a concentration quotient.
@@ -12700,9 +12307,7 @@ Chemical equilibrium is a dynamic state in which the concentrations of reactants
 The equilibrium constant, "K", is defined as the ratio of the concentrations of products to the concentrations of reactants at equilibrium. It is given by the following equation:
 
 
-
 $$K = \frac{[P]^m}{[R]^n}$$
-
 
 
 Where "[P]" and "[R]" represent the concentrations of products and reactants, respectively, and "m" and "n" are the stoichiometric coefficients of the products and reactants in the equilibrium equation. The value of "K" is a function of the chemical potentials of all species involved in the reaction.
@@ -12712,9 +12317,7 @@ Where "[P]" and "[R]" represent the concentrations of products and reactants, re
 Chemical potential, "μ<sub>i</sub>", is the partial molar free energy of the "i"th species in a chemical reaction. It is defined as the partial derivative of the free energy with respect to the number of moles of that species, "N<sub>i</sub>". The chemical potential of a species can be calculated in terms of its activity, "a<sub>i</sub>", using the following equation:
 
 
-
 $$\mu_i = \mu_i^o + RT\ln a_i$$
-
 
 
 Where "μ<sub>i</sub><sup>o</sup>" is the standard chemical potential of the species, "R" is the gas constant, "T" is the absolute temperature, and "a<sub>i</sub>" is the activity of the species. The activity of a species is a measure of its effective concentration in a solution, taking into account any deviations from ideal behavior.
@@ -12782,9 +12385,7 @@ Chemical equilibrium is a dynamic state in which the concentrations of reactants
 The equilibrium constant, "K", is defined as the ratio of the concentrations of products to the concentrations of reactants at equilibrium. It is given by the following equation:
 
 
-
 $$K = \frac{[P]^m}{[R]^n}$$
-
 
 
 Where "[P]" and "[R]" represent the concentrations of products and reactants, respectively, and "m" and "n" are the stoichiometric coefficients of the products and reactants in the equilibrium equation. The value of "K" is a function of the chemical potentials of all species involved in the reaction.
@@ -12794,9 +12395,7 @@ Where "[P]" and "[R]" represent the concentrations of products and reactants, re
 Chemical potential, "μ<sub>i</sub>", is the partial molar free energy of the "i"th species in a chemical reaction. It is defined as the partial derivative of the free energy with respect to the number of moles of that species, "N<sub>i</sub>". The chemical potential of a species can be calculated in terms of its activity, "a<sub>i</sub>", using the following equation:
 
 
-
 $$\mu_i = \mu_i^o + RT\ln a_i$$
-
 
 
 Where "μ<sub>i</sub><sup>o</sup>" is the standard chemical potential of the species, "R" is the gas constant, and "T" is the temperature. This equation shows that the chemical potential is dependent on the temperature and the activity of the species, which is a measure of its effective concentration.
@@ -12810,9 +12409,7 @@ Where "μ<sub>i</sub><sup>o</sup>" is the standard chemical potential of the spe
 Chemical equilibrium plays a crucial role in thermodynamics, as it allows us to predict the direction of a chemical reaction and the amount of energy released or absorbed. At equilibrium, the Gibbs free energy, "G", is at its minimum value, indicating that the system is in a stable state. This is described by the following equation:
 
 
-
 $$\Delta G = \Delta G^o + RT\ln Q$$
-
 
 
 Where "ΔG<sup>o</sup>" is the standard Gibbs free energy change, "R" is the gas constant, "T" is the temperature, and "Q" is the reaction quotient. At equilibrium, "Q" is equal to the equilibrium constant, "K", and "ΔG" is equal to zero. This means that at equilibrium, the system has reached a state of minimum energy and is no longer able to do work.
@@ -14302,9 +13899,7 @@ There are two types of work: mechanical work and non-mechanical work. Mechanical
 In thermodynamics, work is often represented by the symbol W. The work done on a system can be calculated by multiplying the force applied to the system by the distance over which the force is applied. Mathematically, this can be represented as:
 
 
-
 $$W = F \cdot d$$
-
 
 
 where W is the work done, F is the force applied, and d is the distance over which the force is applied.
@@ -14344,9 +13939,7 @@ In the previous section, we discussed the concept of thermodynamic work and its 
 Mechanical work is the work done by a force acting on a system, resulting in a change in the system's energy. This type of work is commonly seen in everyday life, such as pushing a box or lifting a weight. In thermodynamics, mechanical work is often represented by the symbol W_m. It can be calculated by multiplying the force applied to the system by the distance over which the force is applied, as shown in the equation below:
 
 
-
 $$W_m = F \cdot d$$
-
 
 
 #### Non-Mechanical Work
@@ -14356,9 +13949,7 @@ $$W_m = F \cdot d$$
 Non-mechanical work, also known as virtual work, is the work done by a force that is not directly related to the motion of the system. This type of work can occur in various forms, such as electrical work, chemical work, and thermal work. Non-mechanical work is often represented by the symbol W_nm. It can be calculated by multiplying the generalized force applied to the system by the generalized displacement, as shown in the equation below:
 
 
-
 $$W_{nm} = Q \cdot dx$$
-
 
 
 #### Electrical Work
@@ -14368,9 +13959,7 @@ $$W_{nm} = Q \cdot dx$$
 Electrical work is the work done by an electric current on a system. This type of work is commonly seen in electrical circuits, where the flow of electrons results in the transfer of energy. In thermodynamics, electrical work is often represented by the symbol W_e. It can be calculated by multiplying the electric potential difference (voltage) by the electric charge, as shown in the equation below:
 
 
-
 $$W_e = V \cdot Q$$
-
 
 
 #### Chemical Work
@@ -14380,9 +13969,7 @@ $$W_e = V \cdot Q$$
 Chemical work is the work done by a chemical reaction on a system. This type of work is commonly seen in chemical reactions, where the rearrangement of atoms results in the transfer of energy. In thermodynamics, chemical work is often represented by the symbol W_c. It can be calculated by multiplying the change in the number of moles of a substance by the molar free energy, as shown in the equation below:
 
 
-
 $$W_c = \Delta n \cdot \Delta G$$
-
 
 
 #### Thermal Work
@@ -14392,9 +13979,7 @@ $$W_c = \Delta n \cdot \Delta G$$
 Thermal work is the work done by a temperature difference on a system. This type of work is commonly seen in heat transfer processes, where the transfer of thermal energy results in a change in the system's energy. In thermodynamics, thermal work is often represented by the symbol W_t. It can be calculated by multiplying the change in temperature by the heat capacity, as shown in the equation below:
 
 
-
 $$W_t = \Delta T \cdot C$$
-
 
 
 In the next section, we will explore the relationship between thermodynamic work and heat, and how they contribute to the overall energy of a system.
@@ -14430,9 +14015,7 @@ Thermodynamic work is a crucial concept in thermodynamics as it allows us to und
 The general equation for thermodynamic work is given by:
 
 
-
 $$W = F \cdot d$$
-
 
 
 where W is the work done, F is the force applied, and d is the distance over which the force is applied. This equation is applicable for mechanical work, where the force is directly related to the motion of the system.
@@ -14442,9 +14025,7 @@ where W is the work done, F is the force applied, and d is the distance over whi
 However, in non-mechanical work, the force applied is not directly related to the motion of the system. This type of work can occur in various forms, such as electrical work, chemical work, and thermal work. Non-mechanical work is often represented by the symbol W_nm and can be calculated by multiplying the generalized force applied to the system by the generalized displacement, as shown in the equation below:
 
 
-
 $$W_{nm} = Q \cdot dx$$
-
 
 
 In the case of electrical work, the force is the electric potential difference (voltage) and the displacement is the electric charge. Similarly, in chemical work, the force is the chemical reaction and the displacement is the change in the number of moles of the reactants or products. In thermal work, the force is the temperature difference and the displacement is the change in entropy.
@@ -14480,9 +14061,7 @@ In the previous section, we discussed the concept of thermodynamic work and its 
 Thermodynamic heat is the energy transferred between a system and its surroundings due to a temperature difference. It is a form of energy that is transferred solely due to a temperature gradient and does not involve any mechanical work. The general equation for thermodynamic heat is given by:
 
 
-
 $$Q = mC\Delta T$$
-
 
 
 where Q is the heat transferred, m is the mass of the system, C is the specific heat capacity, and ΔT is the change in temperature.
@@ -14530,9 +14109,7 @@ In the previous section, we discussed the concept of thermodynamic work and its 
 Thermodynamic heat is the energy transferred between a system and its surroundings due to a temperature difference. It is a form of energy that is transferred solely due to a temperature gradient and does not involve any mechanical work. The general equation for thermodynamic heat is given by:
 
 
-
 $$Q = mC\Delta T$$
-
 
 
 where Q is the heat transferred, m is the mass of the system, C is the specific heat capacity, and ΔT is the change in temperature.
@@ -14584,9 +14161,7 @@ In the previous section, we discussed the concept of thermodynamic work and its 
 Thermodynamic heat is the energy transferred between a system and its surroundings due to a temperature difference. It is a form of energy that is transferred solely due to a temperature gradient and does not involve any mechanical work. The general equation for thermodynamic heat is given by:
 
 
-
 $$Q = mC\Delta T$$
-
 
 
 where Q is the heat transferred, m is the mass of the system, C is the specific heat capacity, and ΔT is the change in temperature.
@@ -14658,9 +14233,7 @@ As mentioned in the previous section, work and heat are both forms of energy tra
 In thermodynamics, the first law states that the change in internal energy of a system is equal to the sum of the work done on the system and the heat transferred to the system. This can be represented by the equation:
 
 
-
 $$\Delta U = Q + W$$
-
 
 
 where $\Delta U$ is the change in internal energy, Q is the heat transferred, and W is the work done on the system.
@@ -14708,9 +14281,7 @@ As mentioned in the previous section, work and heat are both forms of energy tra
 In thermodynamics, the first law states that the change in internal energy of a system is equal to the sum of the work done on the system and the heat transferred to the system. This can be represented by the equation:
 
 
-
 $$\Delta U = Q + W$$
-
 
 
 where $\Delta U$ is the change in internal energy, Q is the heat transferred, and W is the work done on the system.
@@ -14782,9 +14353,7 @@ As mentioned in the previous section, work and heat are both forms of energy tra
 In thermodynamics, the first law states that the change in internal energy of a system is equal to the sum of the work done on the system and the heat transferred to the system. This can be represented by the equation:
 
 
-
 $$\Delta U = Q + W$$
-
 
 
 where $\Delta U$ is the change in internal energy, Q is the heat transferred, and W is the work done on the system.
@@ -15012,13 +14581,11 @@ In order to measure the thermodynamic efficiency of a system, we need to first d
 One common way to measure thermodynamic efficiency is through the use of the Carnot cycle. This is a theoretical cycle that represents the most efficient way to convert heat into work. The efficiency of the Carnot cycle is given by the Carnot efficiency formula:
 
 
-
 $$
 
 \eta = 1 - \frac{T_{low}}{T_{high}}
 
 $$
-
 
 
 where $T_{low}$ is the temperature of the cold reservoir and $T_{high}$ is the temperature of the hot reservoir. This formula shows that the efficiency of a system increases as the temperature difference between the two reservoirs increases.
@@ -15234,7 +14801,6 @@ Thermodynamic cycles are closed systems that undergo a series of processes and r
 The efficiency of a thermodynamic cycle is defined as the ratio of the work output to the heat input. In other words, it is a measure of how much of the input energy is converted into useful work. This efficiency is denoted by the symbol <math>\eta</math> and is given by the equation:
 
 
-
 $$
 
 \eta = \frac{\text{Work Output}}{\text{Heat Input}}
@@ -15242,9 +14808,7 @@ $$
 $$
 
 
-
 For a heat engine, the efficiency is given by:
-
 
 
 $$
@@ -15254,13 +14818,11 @@ $$
 $$
 
 
-
 where <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_a</math> is the heat removed at ambient temperature <math>T_a</math>. This equation shows that the efficiency of a heat engine is dependent on the temperatures at which heat is added and removed.
 
 
 
 Similarly, for a refrigerator, the efficiency is given by:
-
 
 
 $$
@@ -15270,7 +14832,6 @@ $$
 $$
 
 
-
 where <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T_L</math>, and <math>\dot{W}</math> is the power supplied to produce the cooling effect. This equation shows that the efficiency of a refrigerator is dependent on the ratio of the cooling power to the work input.
 
 
@@ -15278,13 +14839,11 @@ where <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T
 If we assume that the entropy production rate <math>\dot{S}_i</math> is zero, the efficiency of a thermodynamic cycle is at its maximum and is equal to the Carnot efficiency. The Carnot efficiency is given by:
 
 
-
 $$
 
 \eta_{Carnot} = 1 - \frac{T_a}{T_H}
 
 $$
-
 
 
 where <math>T_a</math> is the ambient temperature and <math>T_H</math> is the high temperature.
@@ -15298,7 +14857,6 @@ where <math>T_a</math> is the ambient temperature and <math>T_H</math> is the hi
 The power of a thermodynamic cycle is defined as the rate at which work is done or energy is converted. In other words, it is a measure of how fast the system can convert energy into work. The power is denoted by the symbol <math>P</math> and is given by the equation:
 
 
-
 $$
 
 P = \frac{\text{Work Done}}{\text{Time}}
@@ -15306,9 +14864,7 @@ P = \frac{\text{Work Done}}{\text{Time}}
 $$
 
 
-
 For a heat engine, the power is given by:
-
 
 
 $$
@@ -15318,7 +14874,6 @@ P = \frac{\dot{Q}_H - \dot{Q}_a}{t} = \frac{\dot{Q}_H}{t} - \frac{\dot{Q}_a}{t}
 $$
 
 
-
 where <math>t</math> is the time taken for one cycle. This equation shows that the power of a heat engine is dependent on the heat input and the heat removed.
 
 
@@ -15326,13 +14881,11 @@ where <math>t</math> is the time taken for one cycle. This equation shows that t
 Similarly, for a refrigerator, the power is given by:
 
 
-
 $$
 
 P = \frac{\dot{Q}_L}{t}
 
 $$
-
 
 
 where <math>t</math> is the time taken for one cycle. This equation shows that the power of a refrigerator is dependent on the cooling power.
@@ -15384,7 +14937,6 @@ Thermodynamic cycles are closed systems that undergo a series of processes and r
 The efficiency of a thermodynamic cycle is defined as the ratio of the work output to the heat input. In other words, it is a measure of how much of the input energy is converted into useful work. This efficiency is denoted by the symbol <math>\eta</math> and is given by the equation:
 
 
-
 $$
 
 \eta = \frac{\text{Work Output}}{\text{Heat Input}}
@@ -15392,9 +14944,7 @@ $$
 $$
 
 
-
 For a heat engine, the efficiency is given by:
-
 
 
 $$
@@ -15404,7 +14954,6 @@ $$
 $$
 
 
-
 where <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_a</math> is the heat removed at ambient temperature <math>T_a</math>. This equation shows that the efficiency of a heat engine is dependent on the temperatures at which heat is added and removed.
 
 
@@ -15412,13 +14961,11 @@ where <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>
 Similarly, for a refrigerator, the efficiency is given by:
 
 
-
 $$
 
 \eta = \frac{\dot{Q}_L}{\dot{W}} = \frac{\dot{Q}_L}{\dot{Q}_H - \dot{Q}_L}
 
 $$
-
 
 
 where <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T_L</math>, and <math>\dot{W}</math> is the power supplied to produce the cooling effect. This equation shows that the efficiency of a refrigerator is dependent on the ratio of the cooling power to the work input.
@@ -15436,13 +14983,11 @@ In addition to efficiency, power is another important aspect of thermodynamic cy
 For a heat engine, the power output is given by:
 
 
-
 $$
 
 P = \dot{Q}_H - \dot{Q}_a
 
 $$
-
 
 
 where <math>P</math> is the power output, <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_a</math> is the heat removed at ambient temperature <math>T_a</math>. This equation shows that the power output of a heat engine is dependent on the difference between the heat supplied and removed.
@@ -15452,13 +14997,11 @@ where <math>P</math> is the power output, <math>\dot{Q}_H</math> is the heat sup
 Similarly, for a refrigerator, the power input is given by:
 
 
-
 $$
 
 P = \dot{Q}_H - \dot{Q}_L
 
 $$
-
 
 
 where <math>P</math> is the power input, <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T_L</math>. This equation shows that the power input of a refrigerator is dependent on the difference between the heat supplied and the cooling power.
@@ -15472,13 +15015,11 @@ where <math>P</math> is the power input, <math>\dot{Q}_H</math> is the heat supp
 The efficiency and power of a thermodynamic cycle are closely related. In fact, the efficiency of a cycle can be expressed in terms of the power output and input:
 
 
-
 $$
 
 \eta = \frac{P}{\dot{Q}_H}
 
 $$
-
 
 
 This equation shows that the efficiency of a cycle is directly proportional to the power output and inversely proportional to the heat input. This means that in order to increase the efficiency of a cycle, we must either increase the power output or decrease the heat input.
@@ -15488,13 +15029,11 @@ This equation shows that the efficiency of a cycle is directly proportional to t
 Similarly, the power output of a cycle can be expressed in terms of the efficiency and heat input:
 
 
-
 $$
 
 P = \eta \dot{Q}_H
 
 $$
-
 
 
 This equation shows that the power output of a cycle is directly proportional to the efficiency and heat input. This means that in order to increase the power output of a cycle, we must either increase the efficiency or increase the heat input.
@@ -15512,13 +15051,11 @@ In thermodynamic cycles, there is always a contribution to the system's performa
 For a heat engine, the power dissipation is given by:
 
 
-
 $$
 
 P_\text{dis} = T_a \dot{S}_i
 
 $$
-
 
 
 where <math>P_\text{dis}</math> is the power dissipation, <math>T_a</math> is the ambient temperature, and <math>\dot{S}_i</math> is the average entropy production rate. This equation shows that the power dissipation is directly proportional to the ambient temperature and the entropy production rate.
@@ -15528,13 +15065,11 @@ where <math>P_\text{dis}</math> is the power dissipation, <math>T_a</math> is th
 Similarly, for a refrigerator, the power dissipation is given by:
 
 
-
 $$
 
 P_\text{dis} = T_a \dot{S}_i
 
 $$
-
 
 
 where <math>P_\text{dis}</math> is the power dissipation, <math>T_a</math> is the ambient temperature, and <math>\dot{S}_i</math> is the average entropy production rate. This equation shows that the power dissipation is directly proportional to the ambient temperature and the entropy production rate.
@@ -15574,7 +15109,6 @@ Thermodynamic cycles are closed systems that undergo a series of processes and r
 The efficiency of a thermodynamic cycle is defined as the ratio of the work output to the heat input. In other words, it is a measure of how much of the input energy is converted into useful work. This efficiency is denoted by the symbol <math>\eta</math> and is given by the equation:
 
 
-
 $$
 
 \eta = \frac{\text{Work Output}}{\text{Heat Input}}
@@ -15582,9 +15116,7 @@ $$
 $$
 
 
-
 For a heat engine, the efficiency is given by:
-
 
 
 $$
@@ -15594,7 +15126,6 @@ $$
 $$
 
 
-
 where <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_a</math> is the heat removed at ambient temperature <math>T_a</math>. This equation shows that the efficiency of a heat engine is dependent on the temperatures at which heat is added and removed.
 
 
@@ -15602,13 +15133,11 @@ where <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>
 Similarly, for a refrigerator, the efficiency is given by:
 
 
-
 $$
 
 \eta = \frac{\dot{Q}_L}{\dot{W}} = \frac{\dot{Q}_L}{\dot{Q}_H - \dot{Q}_L}
 
 $$
-
 
 
 where <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T_L</math>, and <math>\dot{W}</math> is the power supplied to produce the cooling effect. This equation shows that the efficiency of a refrigerator is dependent on the ratio of the cooling power to the work input.
@@ -15626,13 +15155,11 @@ In addition to efficiency, power is another important aspect of thermodynamic cy
 For a heat engine, the power output is given by:
 
 
-
 $$
 
 \dot{W} = \eta \dot{Q}_H
 
 $$
-
 
 
 where <math>\dot{W}</math> is the power output and <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>. This equation shows that the power output of a heat engine is directly proportional to its efficiency.
@@ -15642,13 +15169,11 @@ where <math>\dot{W}</math> is the power output and <math>\dot{Q}_H</math> is the
 Similarly, for a refrigerator, the power input is given by:
 
 
-
 $$
 
 \dot{W} = \dot{Q}_H - \dot{Q}_L
 
 $$
-
 
 
 where <math>\dot{W}</math> is the power input, <math>\dot{Q}_H</math> is the heat supplied at the high temperature <math>T_H</math>, and <math>\dot{Q}_L</math> is the cooling power at the low temperature <math>T_L</math>. This equation shows that the power input of a refrigerator is dependent on the difference between the heat supplied and the cooling power.
@@ -15666,13 +15191,11 @@ The concepts of efficiency and power play a crucial role in thermodynamics. They
 In the case of heat engines, the Carnot efficiency sets the upper limit for the efficiency of any heat engine operating between two temperatures. This efficiency is given by:
 
 
-
 $$
 
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
 
 $$
-
 
 
 where <math>T_L</math> is the low temperature and <math>T_H</math> is the high temperature. This equation shows that the efficiency of a heat engine can never be 100%, as it is limited by the temperatures at which heat is added and removed.
@@ -15682,7 +15205,6 @@ where <math>T_L</math> is the low temperature and <math>T_H</math> is the high t
 Similarly, for refrigerators, the coefficient of performance (COP) is used to measure the efficiency of the cooling process. The COP is defined as the ratio of the cooling power to the work input and is given by:
 
 
-
 $$
 
 COP = \frac{\dot{Q}_L}{\dot{W}}
@@ -15690,9 +15212,7 @@ COP = \frac{\dot{Q}_L}{\dot{W}}
 $$
 
 
-
 The COP of a refrigerator is always greater than 1, indicating that it is possible to produce more cooling power than the work input. However, the COP is limited by the Carnot COP, which is given by:
-
 
 
 $$

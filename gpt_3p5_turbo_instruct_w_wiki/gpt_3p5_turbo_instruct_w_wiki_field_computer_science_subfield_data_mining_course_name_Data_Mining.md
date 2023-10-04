@@ -1825,9 +1825,7 @@ The formula for calculating the Gini index is as follows:
 
 
 $$
-
 Gini = 1 - \sum_{i=1}^{n} p_i^2
-
 $$
 
 
@@ -2385,9 +2383,7 @@ The logistic regression model is parameterized by Î¸ and is defined as:
 
 
 $$
-
 h_\theta(X) = \frac{1}{1 + e^{-\theta^TX}} = \Pr(Y=1 \mid X; \theta)
-
 $$
 
 
@@ -2397,9 +2393,7 @@ This function outputs the probability of Y being 1 given the input variables X a
 
 
 $$
-
 \Pr(y \mid X; \theta) = h_\theta(X)^y(1 - h_\theta(X))^{(1-y)}
-
 $$
 
 
@@ -2409,9 +2403,7 @@ To build a logistic regression model, we need to estimate the model parameters Î
 
 
 $$
-
 N^{-1} \log L(\theta \mid y; x) = N^{-1} \sum_{i=1}^N \log \Pr(y_i \mid x_i; \theta)
-
 $$
 
 
@@ -3271,9 +3263,7 @@ Precision can be calculated as:
 
 
 $$
-
 Precision = \frac{TP}{TP + FP}
-
 $$
 
 
@@ -3283,9 +3273,7 @@ Recall can be calculated as:
 
 
 $$
-
 Recall = \frac{TP}{TP + FN}
-
 $$
 
 
@@ -3367,9 +3355,7 @@ There are several performance metrics that can be calculated from the confusion 
 
 
 $$
-
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-
 $$
 
 
@@ -3379,9 +3365,7 @@ $$
 
 
 $$
-
 Precision = \frac{TP}{TP + FP}
-
 $$
 
 
@@ -3391,9 +3375,7 @@ $$
 
 
 $$
-
 Recall = \frac{TP}{TP + FN}
-
 $$
 
 
@@ -3403,9 +3385,7 @@ $$
 
 
 $$
-
 F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
-
 $$
 
 
@@ -3423,9 +3403,7 @@ The ROC (Receiver Operating Characteristic) curve is a plot of the true positive
 
 
 $$
-
 FPR = \frac{FP}{FP + TN}
-
 $$
 
 
@@ -4601,7 +4579,6 @@ Consider the following dataset: $X = \{x_1, x_2, ..., x_n\}$, where $x_i \in \ma
 Given the following distance matrix:
 
 $$
-
 D = \begin{bmatrix}
 
 0 & 2 & 3 & 4 \\
@@ -4613,7 +4590,6 @@ D = \begin{bmatrix}
 4 & 6 & 7 & 0
 
 \end{bmatrix}
-
 $$
 
 Apply the single linkage method to perform Hierarchical Clustering on this dataset.

@@ -658,11 +658,9 @@ Heat flow can be described by the general equation of heat transfer, which takes
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho \\
 
 \rho dh = \rho Tds + dp
-
 $$
 
 
@@ -676,9 +674,7 @@ Entropy production is an important concept in heat flow, as it represents the ir
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3082,9 +3078,7 @@ To understand the thermal aspects of building technology, it is essential to hav
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -3098,9 +3092,7 @@ Another important equation in the context of thermal aspects is the equation for
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla \cdot \mathbf{v})^2
-
 $$
 
 

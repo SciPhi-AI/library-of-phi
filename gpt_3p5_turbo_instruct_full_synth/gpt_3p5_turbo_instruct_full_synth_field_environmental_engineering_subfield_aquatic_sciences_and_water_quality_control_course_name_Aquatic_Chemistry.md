@@ -1167,9 +1167,7 @@ Now that we have reviewed the basic principles of thermodynamics, let's apply th
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -1337,9 +1335,7 @@ Mathematically, the first law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1365,9 +1361,7 @@ Mathematically, the second law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -1393,9 +1387,7 @@ Mathematically, the third law of thermodynamics can be expressed as:
 
 
 $$
-
 S(T=0) = 0
-
 $$
 
 
@@ -1475,9 +1467,7 @@ Mathematically, the first law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1503,9 +1493,7 @@ Mathematically, the second law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -1553,9 +1541,7 @@ Mathematically, the first law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1581,9 +1567,7 @@ Mathematically, the second law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -1609,9 +1593,7 @@ Mathematically, the third law of thermodynamics can be expressed as:
 
 
 $$
-
 S = 0 \text{ as } T \rightarrow 0
-
 $$
 
 
@@ -1655,9 +1637,7 @@ Mathematically, the first law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1683,9 +1663,7 @@ Mathematically, the second law of thermodynamics can be expressed as:
 
 
 $$
-
 \Delta S \geq 0
-
 $$
 
 
@@ -1711,9 +1689,7 @@ Mathematically, the third law of thermodynamics can be expressed as:
 
 
 $$
-
 S(T=0) = 0
-
 $$
 
 
@@ -1863,9 +1839,7 @@ Gibbs free energy is defined as the difference between the enthalpy ($H$) and th
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -1887,9 +1861,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 G = G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -1907,9 +1879,7 @@ Gibbs free energy can be calculated using the equation:
 
 
 $$
-
 \Delta G = \Delta G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -1961,9 +1931,7 @@ Gibbs free energy is defined as the difference between the enthalpy ($H$) and th
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -1985,9 +1953,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 G = G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -2005,9 +1971,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 G = G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -2025,9 +1989,7 @@ Gibbs free energy can be calculated using the equation:
 
 
 $$
-
 \Delta G = \Delta G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -2041,9 +2003,7 @@ Calculating $\Delta G$ also allows us to determine the equilibrium constant ($K$
 
 
 $$
-
 K = e^{-\frac{\Delta G^{\circ}}{RT}}
-
 $$
 
 
@@ -2079,9 +2039,7 @@ Gibbs free energy is defined as the difference between the enthalpy ($H$) and th
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -2103,9 +2061,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 G = G^{\circ} + RT\ln Q
-
 $$
 
 
@@ -2127,9 +2083,7 @@ One example of this is in the dissolution of a solute in water. The Gibbs free e
 
 
 $$
-
 \Delta G_{diss} = \Delta H_{diss} - T\Delta S_{diss}
-
 $$
 
 
@@ -2143,9 +2097,7 @@ In aquatic systems, the Gibbs free energy also plays a crucial role in determini
 
 
 $$
-
 K_{sp} = e^{-\frac{\Delta G^{\circ}}{RT}}
-
 $$
 
 
@@ -2181,9 +2133,7 @@ Chemical potential, denoted as $\mu$, is defined as the partial molar Gibbs free
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_j}
-
 $$
 
 
@@ -2197,9 +2147,7 @@ The chemical potential of a component can also be expressed in terms of its acti
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i
-
 $$
 
 
@@ -2217,9 +2165,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i = \mu_i^{\circ} + RT\ln K_i
-
 $$
 
 
@@ -2259,9 +2205,7 @@ Chemical potential, denoted as $\mu$, is defined as the partial molar Gibbs free
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_j}
-
 $$
 
 
@@ -2275,9 +2219,7 @@ The chemical potential of a component can also be expressed in terms of its acti
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i
-
 $$
 
 
@@ -2295,9 +2237,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i = \mu_i^{\circ} + RT\ln K_i
-
 $$
 
 
@@ -2349,9 +2289,7 @@ Chemical potential, denoted as $\mu$, is defined as the partial molar Gibbs free
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_j}
-
 $$
 
 
@@ -2365,9 +2303,7 @@ The chemical potential of a component can also be expressed in terms of its acti
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i
-
 $$
 
 
@@ -2385,9 +2321,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i = \mu_i^{\circ} + RT\ln K_i
-
 $$
 
 
@@ -2443,9 +2377,7 @@ Equilibrium constants, denoted as $K$, are defined as the ratio of the concentra
 
 
 $$
-
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
-
 $$
 
 
@@ -2459,9 +2391,7 @@ Equilibrium constants can also be expressed in terms of activities ($a$) and sta
 
 
 $$
-
 K = \frac{a_C^c a_D^d}{a_A^a a_B^b} = K^{\circ} \left(\frac{a_C^c a_D^d}{a_A^a a_B^b}\right)
-
 $$
 
 
@@ -2479,9 +2409,7 @@ In aquatic systems, chemical reactions are constantly occurring and reaching equ
 
 
 $$
-
 \mu_i = \mu_i^{\circ} + RT\ln a_i = \mu_i^{\circ} + RT\ln K_i
-
 $$
 
 
@@ -2529,9 +2457,7 @@ Thermodynamic data, such as standard enthalpy and entropy values, can be used to
 
 
 $$
-
 K^{\circ} = e^{-\frac{\Delta G^{\circ}}{RT}}
-
 $$
 
 
@@ -2545,9 +2471,7 @@ Once the standard equilibrium constant is known, the equilibrium constant at any
 
 
 $$
-
 \ln K = \frac{-\Delta H^{\circ}}{RT} + \frac{\Delta S^{\circ}}{R}
-
 $$
 
 
@@ -2729,9 +2653,7 @@ One of the most common applications of the linearization method in aquatic chemi
 
 
 $$
-
 HA + H_2O \rightleftharpoons A^- + H_3O^+
-
 $$
 
 
@@ -2741,9 +2663,7 @@ To determine the equilibrium constant ($K_a$) for this reaction, we can use the 
 
 
 $$
-
 \log K_a = \log \frac{[A^-][H_3O^+]}{[HA][H_2O]}
-
 $$
 
 
@@ -2761,9 +2681,7 @@ The small perturbation method is commonly used in redox reactions to estimate th
 
 
 $$
-
 Fe^{3+} + e^- \rightleftharpoons Fe^{2+}
-
 $$
 
 
@@ -2781,9 +2699,7 @@ The graphical method is often used in equilibrium calculations to estimate the v
 
 
 $$
-
 2A + B \rightleftharpoons C
-
 $$
 
 
@@ -2801,9 +2717,7 @@ The successive approximation method is commonly used in solving complex equilibr
 
 
 $$
-
 A + B \rightleftharpoons C + D
-
 $$
 
 
@@ -3151,9 +3065,7 @@ The relationship between temperature and chemical reactions in water is governed
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -3167,9 +3079,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3209,9 +3119,7 @@ The relationship between temperature and chemical reactions in water is governed
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -3225,9 +3133,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3249,9 +3155,7 @@ To quantitatively analyze the effects of temperature on equilibrium, we can use 
 
 
 $$
-
 \frac{d\ln K}{dT} = \frac{\Delta H}{RT^2}
-
 $$
 
 
@@ -3283,9 +3187,7 @@ The relationship between temperature and chemical reactions in water is governed
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -3299,9 +3201,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3369,9 +3269,7 @@ The Gibbs free energy equation can be modified to include the effect of pressure
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + V\Delta P
-
 $$
 
 
@@ -3385,9 +3283,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3431,9 +3327,7 @@ The Gibbs free energy equation can be modified to include the effect of pressure
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + V\Delta P
-
 $$
 
 
@@ -3447,9 +3341,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3471,9 +3363,7 @@ Now that we have discussed the basic principles of pressure effects on equilibri
 
 
 $$
-
 \ln K = -\frac{\Delta H}{RT} + \frac{\Delta V}{RT}\Delta P
-
 $$
 
 
@@ -3513,9 +3403,7 @@ The Gibbs free energy equation can be modified to include the effect of pressure
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + V\Delta P
-
 $$
 
 
@@ -3529,9 +3417,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3595,9 +3481,7 @@ The Gibbs free energy equation can be modified to include the effect of ionic st
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + \mu_i\Delta n_i
-
 $$
 
 
@@ -3611,9 +3495,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3653,9 +3535,7 @@ The Gibbs free energy equation can be modified to include the effect of ionic st
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + \mu_i\Delta n_i
-
 $$
 
 
@@ -3669,9 +3549,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3685,9 +3563,7 @@ The effect of ionic strength on equilibrium can be quantitatively analyzed using
 
 
 $$
-
 \log \gamma_i = -\frac{1}{2}z_i^2I^{1/2}
-
 $$
 
 
@@ -3727,9 +3603,7 @@ The Gibbs free energy equation can be modified to include the effect of ionic st
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S + \mu_i\Delta n_i
-
 $$
 
 
@@ -3743,9 +3617,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and there is no net chang
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -3767,9 +3639,7 @@ One of the most important applications of ionic strength effects on equilibrium 
 
 
 $$
-
 pH = pK_a + log\frac{[A^-]}{[HA]}
-
 $$
 
 
@@ -4271,9 +4141,7 @@ The activity coefficient, denoted by $\gamma$, is defined as the ratio of the ac
 
 
 $$
-
 \gamma = \frac{c}{c^*}
-
 $$
 
 
@@ -4313,9 +4181,7 @@ The activity coefficient, denoted by $\gamma$, is defined as the ratio of the ac
 
 
 $$
-
 \gamma = \frac{c}{c^*}
-
 $$
 
 
@@ -4345,9 +4211,7 @@ The Debye-Hückel theory assumes that the interactions between ions in a solutio
 
 
 $$
-
 \log \gamma = -\frac{A z^2 \sqrt{I}}{1 + B \sqrt{I}}
-
 $$
 
 
@@ -4357,9 +4221,7 @@ where $A$ and $B$ are constants, $z$ is the charge of the ion, and $I$ is the io
 
 
 $$
-
 I = \frac{1}{2} \sum_i c_i z_i^2
-
 $$
 
 
@@ -4399,9 +4261,7 @@ Mathematically, the activity coefficient can be expressed as:
 
 
 $$
-
 \gamma = \frac{c}{c^*}
-
 $$
 
 
@@ -4587,9 +4447,7 @@ The Debye-Huckel equation is the cornerstone of this theory, and it relates the 
 
 
 $$
-
 \log \gamma_{\pm} = -A\sqrt{I}
-
 $$
 
 
@@ -4647,9 +4505,7 @@ The Debye-Huckel equation is the cornerstone of this theory, and it relates the 
 
 
 $$
-
 \log \gamma_{\pm} = -A\sqrt{I}
-
 $$
 
 
@@ -4713,9 +4569,7 @@ The Debye-Huckel equation is the cornerstone of this theory, and it relates the 
 
 
 $$
-
 \log \gamma_{\pm} = -A\sqrt{I}
-
 $$
 
 
@@ -4903,17 +4757,13 @@ The carbonate system is a dynamic equilibrium between the three forms of carbon 
 
 
 $$
-
 CO2 + H2O \rightleftharpoons H2CO3 \rightleftharpoons HCO3- + H+
-
 $$
 
 
 
 $$
-
 HCO3- \rightleftharpoons CO32- + H+
-
 $$
 
 
@@ -4957,17 +4807,13 @@ The carbonate system is a dynamic equilibrium between the three forms of carbon 
 
 
 $$
-
 CO2 + H2O \rightleftharpoons H2CO3 \rightleftharpoons HCO3- + H+
-
 $$
 
 
 
 $$
-
 HCO3- \rightleftharpoons CO32- + H+
-
 $$
 
 
@@ -5031,17 +4877,13 @@ The carbonate system is a dynamic equilibrium between the three forms of carbon 
 
 
 $$
-
 CO2 + H2O \rightleftharpoons H2CO3 \rightleftharpoons HCO3- + H+
-
 $$
 
 
 
 $$
-
 HCO3- \rightleftharpoons CO32- + H+
-
 $$
 
 
@@ -5967,9 +5809,7 @@ The buffer capacity of a solution can be calculated using the Henderson-Hasselba
 
 
 $$
-
 \beta = \frac{[A^-]}{[HA]} = \frac{[base]}{[acid]}
-
 $$
 
 
@@ -6013,9 +5853,7 @@ The buffer capacity of a solution can be calculated using the Henderson-Hasselba
 
 
 $$
-
 \beta = \frac{[A^-]}{[HA]} = \frac{[base]}{[acid]}
-
 $$
 
 
@@ -6085,9 +5923,7 @@ The buffer capacity of a solution can be calculated using the Henderson-Hasselba
 
 
 $$
-
 \beta = \frac{[A^-]}{[HA]} = \frac{[base]}{[acid]}
-
 $$
 
 
@@ -6253,9 +6089,7 @@ The solubility of a mineral is determined by its thermodynamic stability, which 
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6269,9 +6103,7 @@ The solubility of a mineral also depends on the concentration of the mineral in 
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -6317,9 +6149,7 @@ Mineral solubility is the ability of a mineral to dissolve in water. It is deter
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6333,9 +6163,7 @@ The solubility of a mineral also depends on its concentration in the water. This
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -6405,9 +6233,7 @@ Mineral solubility is the ability of a mineral to dissolve in water. It is deter
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6421,9 +6247,7 @@ The solubility of a mineral also depends on its concentration in the water. This
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -6493,9 +6317,7 @@ Mineral solubility is the ability of a mineral to dissolve in water. It is deter
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6509,9 +6331,7 @@ The solubility of a mineral also depends on its concentration in the water. This
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -6581,9 +6401,7 @@ Mineral solubility is the ability of a mineral to dissolve in water. It is deter
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6597,9 +6415,7 @@ The solubility of a mineral also depends on its concentration in the water. This
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -6677,9 +6493,7 @@ Mineral solubility is the ability of a mineral to dissolve in water. It is deter
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -6693,9 +6507,7 @@ The solubility of a mineral also depends on its concentration in the water. This
 
 
 $$
-
 K_{sp} = [A^{m+}]^m[B^{n-}]^n
-
 $$
 
 
@@ -7953,9 +7765,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8013,9 +7823,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8081,9 +7889,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8153,9 +7959,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8229,9 +8033,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8297,9 +8099,7 @@ To understand redox reactions, we must first understand the concept of oxidation
 
 
 $$
-
 Fe^{2+} \rightarrow Fe^{3+} + e^-
-
 $$
 
 
@@ -8337,9 +8137,7 @@ The Nernst equation is a fundamental equation in redox chemistry that relates th
 
 
 $$
-
 E = E^o - \frac{RT}{nF}lnQ
-
 $$
 
 
@@ -8401,9 +8199,7 @@ In conclusion, redox chemistry and equilibrium calculations are essential tools 
 Calculate the equilibrium constant for the following redox reaction:
 
 $$
-
 2Fe^{3+} + Sn^{2+} \rightarrow 2Fe^{2+} + Sn^{4+}
-
 $$
 
 
@@ -8413,9 +8209,7 @@ $$
 Using the Nernst equation, calculate the equilibrium potential for the following reaction at 25°C:
 
 $$
-
 2H^+ + 2e^- \rightarrow H_2
-
 $$
 
 
@@ -8465,9 +8259,7 @@ In conclusion, redox chemistry and equilibrium calculations are essential tools 
 Calculate the equilibrium constant for the following redox reaction:
 
 $$
-
 2Fe^{3+} + Sn^{2+} \rightarrow 2Fe^{2+} + Sn^{4+}
-
 $$
 
 
@@ -8477,9 +8269,7 @@ $$
 Using the Nernst equation, calculate the equilibrium potential for the following reaction at 25°C:
 
 $$
-
 2H^+ + 2e^- \rightarrow H_2
-
 $$
 
 
@@ -9321,9 +9111,7 @@ To understand the quantitative effects of complexation on redox equilibria, we m
 
 
 $$
-
 K = \frac{[ML_n]}{[M][L]^n}
-
 $$
 
 
@@ -9341,9 +9129,7 @@ To quantitatively analyze the effects of complexation on redox equilibria, we ca
 
 
 $$
-
 E = E^{\circ} + \frac{RT}{nF}ln\frac{[ox]}{[red]} + \frac{RT}{nF}lnK
-
 $$
 
 
@@ -9713,9 +9499,7 @@ To understand oxidation kinetics, we must first understand the basic principles 
 
 
 $$
-
 4Fe + 3O_2 \rightarrow 2Fe_2O_3
-
 $$
 
 
@@ -9725,9 +9509,7 @@ In indirect oxidation, a substance is oxidized by a different substance, such as
 
 
 $$
-
 H_2O_2 + 2Fe^{2+} + 2H^+ \rightarrow 2Fe^{3+} + 2H_2O
-
 $$
 
 
@@ -9771,9 +9553,7 @@ To understand oxidation kinetics, we must first understand the basic principles 
 
 
 $$
-
 4Fe + 3O_2 \rightarrow 2Fe_2O_3
-
 $$
 
 
@@ -9783,9 +9563,7 @@ In indirect oxidation, a substance is oxidized by a different substance, such as
 
 
 $$
-
 H_2O_2 + 2Fe^{2+} + 2H^+ \rightarrow 2Fe^{3+} + 2H_2O
-
 $$
 
 
@@ -9845,9 +9623,7 @@ To understand oxidation kinetics, we must first understand the basic principles 
 
 
 $$
-
 4Fe + 3O_2 \rightarrow 2Fe_2O_3
-
 $$
 
 
@@ -9857,9 +9633,7 @@ In indirect oxidation, a substance is oxidized by a different substance, such as
 
 
 $$
-
 H_2O_2 + 2Fe^{2+} + 2H^+ \rightarrow 2Fe^{3+} + 2H_2O
-
 $$
 
 
@@ -10513,9 +10287,7 @@ To understand the behavior of multi-ligand complexes, we can use equilibrium equ
 
 
 $$
-
 M + L1 + L2 \rightleftharpoons ML1L2
-
 $$
 
 
@@ -10525,9 +10297,7 @@ The equilibrium constant for this reaction is given by:
 
 
 $$
-
 K = \frac{[ML1L2]}{[M][L1][L2]}
-
 $$
 
 
@@ -10673,9 +10443,7 @@ The formation constant can be calculated using the following equation:
 
 
 $$
-
 K_f = \frac{[ML_n]}{[M][L]^n}
-
 $$
 
 
@@ -10697,9 +10465,7 @@ The rate of a complexation reaction can be described by the following equation:
 
 
 $$
-
 r = k[M][L]
-
 $$
 
 
@@ -10997,9 +10763,7 @@ The rate of a multi-step reaction can be determined by the slowest step, known a
 
 
 $$
-
 r = k[A]^m[B]^n
-
 $$
 
 

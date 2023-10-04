@@ -992,7 +992,6 @@ The diet problem can be formulated as follows:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{x}{\text{minimize}}
@@ -1006,7 +1005,6 @@ $$
 & & & x \geq 0
 
 \end{aligned}
-
 $$
 
 
@@ -1046,7 +1044,6 @@ The diet problem can be formulated as follows:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{x}{\text{minimize}}
@@ -1060,7 +1057,6 @@ $$
 & & & x \geq 0
 
 \end{aligned}
-
 $$
 
 
@@ -1138,9 +1134,7 @@ The objective function in the diet problem is to minimize the cost of the chosen
 
 
 $$
-
 \underset{x}{\text{minimize}} \quad c^Tx
-
 $$
 
 
@@ -1156,9 +1150,7 @@ The constraints in the diet problem ensure that the nutritional requirements are
 
 
 $$
-
 Ax \geq b
-
 $$
 
 
@@ -1200,9 +1192,7 @@ Let us consider a scenario where the cost of one of the food items, say $x_i$, i
 
 
 $$
-
 \underset{x}{\text{minimize}} \quad (c + \Delta c)^Tx
-
 $$
 
 
@@ -1212,9 +1202,7 @@ Expanding the above equation, we get:
 
 
 $$
-
 \underset{x}{\text{minimize}} \quad c^Tx + \Delta c^Tx
-
 $$
 
 
@@ -1234,9 +1222,7 @@ Now, let us consider a scenario where the minimum nutritional requirement for a 
 
 
 $$
-
 Ax \geq b + \Delta b
-
 $$
 
 
@@ -1246,9 +1232,7 @@ Expanding the above equation, we get:
 
 
 $$
-
 Ax \geq b + \Delta b
-
 $$
 
 
@@ -1298,11 +1282,9 @@ Formulate a linear program to minimize the cost of production while meeting a gi
 Solve the following non-linear program using the KKT conditions:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y = 1
-
 $$
 
 
@@ -1358,11 +1340,9 @@ Formulate a linear program to minimize the cost of production while meeting a gi
 Solve the following non-linear program using the KKT conditions:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x + y = 1
-
 $$
 
 
@@ -1600,7 +1580,6 @@ In the next chapter, we will build upon the concepts learned in this chapter and
 Consider the following linear program in standard form:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -1612,7 +1591,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1628,7 +1606,6 @@ c) Convert the problem to canonical form and solve using the simplex method.
 Consider the following linear program in canonical form:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -1640,7 +1617,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1656,7 +1632,6 @@ c) Convert the problem to standard form and solve using the simplex method.
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -1668,7 +1643,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1684,7 +1658,6 @@ c) What is the dual problem for this linear program? Solve it using the simplex 
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -1696,7 +1669,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1712,7 +1684,6 @@ c) What is the dual problem for this linear program? Solve it using the simplex 
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 5x_1 + 4x_2 \\
@@ -1724,7 +1695,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1758,7 +1728,6 @@ In the next chapter, we will build upon the concepts learned in this chapter and
 Consider the following linear program in standard form:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -1770,7 +1739,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1786,7 +1754,6 @@ c) Convert the problem to canonical form and solve using the simplex method.
 Consider the following linear program in canonical form:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -1798,7 +1765,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1814,7 +1780,6 @@ c) Convert the problem to standard form and solve using the simplex method.
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -1826,7 +1791,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1842,7 +1806,6 @@ c) What is the dual problem for this linear program? Solve it using the simplex 
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -1854,7 +1817,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1870,7 +1832,6 @@ c) What is the dual problem for this linear program? Solve it using the simplex 
 Consider the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 5x_1 + 4x_2 \\
@@ -1882,7 +1843,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Plot the feasible region and label the corner points. \
@@ -1950,9 +1910,7 @@ The objective function is a linear function of the decision variables that we wa
 
 
 $$
-
 z = c_1x_1 + c_2x_2 + ... + c_nx_n
-
 $$
 
 
@@ -1966,33 +1924,25 @@ Constraints are the limitations or restrictions on the decision variables that m
 
 
 $$
-
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n \leq b_1
-
 $$
 
 
 
 $$
-
 a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n \leq b_2
-
 $$
 
 
 
 $$
-
 ...
-
 $$
 
 
 
 $$
-
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n \leq b_m
-
 $$
 
 
@@ -2066,9 +2016,7 @@ The objective function is a linear function of the decision variables that we wa
 
 
 $$
-
 z = c_1x_1 + c_2x_2 + ... + c_nx_n
-
 $$
 
 
@@ -2082,33 +2030,25 @@ Constraints are the limitations or restrictions on the decision variables that m
 
 
 $$
-
 a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n \leq b_1
-
 $$
 
 
 
 $$
-
 a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n \leq b_2
-
 $$
 
 
 
 $$
-
 ...
-
 $$
 
 
 
 $$
-
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n \leq b_m
-
 $$
 
 
@@ -2216,9 +2156,7 @@ The objective function is a linear function of the decision variables that we wa
 
 
 $$
-
 z = c_1x_1 + c_2x_2 + ... + c_nx_n
-
 $$
 
 
@@ -2232,9 +2170,7 @@ Constraints are the limitations or restrictions on the decision variables that m
 
 
 $$
-
 a_1x_1 + a_2x_2 + ... + a_nx_n \leq b
-
 $$
 
 
@@ -2316,9 +2252,7 @@ The objective function is a linear function of the decision variables that we wa
 
 
 $$
-
 z = c_1x_1 + c_2x_2 + ... + c_nx_n
-
 $$
 
 
@@ -2382,7 +2316,6 @@ In conclusion, the simplex method is a fundamental optimization technique that e
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2394,7 +2327,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Apply the simplex method to find the optimal solution.
@@ -2406,7 +2338,6 @@ Apply the simplex method to find the optimal solution.
 Solve the following linear programming problem using the simplex method:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -2418,7 +2349,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2428,7 +2358,6 @@ $$
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -2440,7 +2369,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 What is the optimal solution and the optimal value of the objective function?
@@ -2482,7 +2410,6 @@ In conclusion, the simplex method is a fundamental optimization technique that e
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2494,7 +2421,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Apply the simplex method to find the optimal solution.
@@ -2506,7 +2432,6 @@ Apply the simplex method to find the optimal solution.
 Solve the following linear programming problem using the simplex method:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -2518,7 +2443,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2528,7 +2452,6 @@ $$
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -2540,7 +2463,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 What is the optimal solution and the optimal value of the objective function?
@@ -2636,7 +2558,6 @@ To illustrate this concept, let us consider a simple linear programming problem 
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x + 4y \\
@@ -2648,7 +2569,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2724,7 +2644,6 @@ To better understand the concept of shadow prices, let's consider an example. Su
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x + 4y \\
@@ -2734,7 +2653,6 @@ $$
 & 4x + 2y \leq 8
 
 \end{align*}
-
 $$
 
 
@@ -2748,9 +2666,7 @@ To answer this question, we can use sensitivity analysis and calculate the shado
 
 
 $$
-
 \text{Shadow price} = \frac{\text{Change in objective function value}}{\text{Change in right-hand side value}}
-
 $$
 
 
@@ -2794,7 +2710,6 @@ To understand the concept of allowable ranges, let us consider a simple linear p
 
 
 $$
-
 \begin{align*}
 
 x_1 + x_2 &\leq 10 \\
@@ -2804,7 +2719,6 @@ x_1 + x_2 &\leq 10 \\
 x_1, x_2 &\geq 0
 
 \end{align*}
-
 $$
 
 
@@ -2856,7 +2770,6 @@ In conclusion, the simplex method is a valuable addition to the toolkit of manag
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x_1 + 2x_2 \\
@@ -2868,7 +2781,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Use the simplex method to find the optimal solution and interpret the results.
@@ -2892,7 +2804,6 @@ Discuss the limitations of the simplex method and provide an example of a proble
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 5x_1 + 3x_2 \\
@@ -2904,7 +2815,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Use the simplex method to find the optimal solution and perform sensitivity analysis to determine the range of values for the objective function coefficients that would not change the optimal solution.
@@ -2940,7 +2850,6 @@ In conclusion, the simplex method is a valuable addition to the toolkit of manag
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x_1 + 2x_2 \\
@@ -2952,7 +2861,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Use the simplex method to find the optimal solution and interpret the results.
@@ -2976,7 +2884,6 @@ Discuss the limitations of the simplex method and provide an example of a proble
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 5x_1 + 3x_2 \\
@@ -2988,7 +2895,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 Use the simplex method to find the optimal solution and perform sensitivity analysis to determine the range of values for the objective function coefficients that would not change the optimal solution.
@@ -3476,9 +3382,7 @@ The constraints in an integer programming problem can be represented by a set of
 
 
 $$
-
 a_1x_1 + a_2x_2 \leq b
-
 $$
 
 
@@ -3926,7 +3830,6 @@ Overall, the branch and bound method is a valuable tool for solving complex inte
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 3x_1 + 5x_2 \\
@@ -3940,7 +3843,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Apply the branch and bound method to find the optimal solution.
@@ -3958,7 +3860,6 @@ Discuss the advantages and disadvantages of using the branch and bound method co
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 2x_1 + 4x_2 \\
@@ -3972,7 +3873,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Use the branch and bound method with the minimum ratio rule to find the optimal solution.
@@ -3990,7 +3890,6 @@ Explain how the branch and bound method can be extended to handle mixed integer 
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 4x_1 + 3x_2 \\
@@ -4004,7 +3903,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Apply the branch and bound method with the most constrained variable rule to find the optimal solution.
@@ -4030,7 +3928,6 @@ Overall, the branch and bound method is a valuable tool for solving complex inte
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 3x_1 + 5x_2 \\
@@ -4044,7 +3941,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Apply the branch and bound method to find the optimal solution.
@@ -4062,7 +3958,6 @@ Discuss the advantages and disadvantages of using the branch and bound method co
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 2x_1 + 4x_2 \\
@@ -4076,7 +3971,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Use the branch and bound method with the minimum ratio rule to find the optimal solution.
@@ -4094,7 +3988,6 @@ Explain how the branch and bound method can be extended to handle mixed integer 
 Consider the following integer programming problem:
 
 $$
-
 \begin{aligned}
 
 \text{maximize} \quad & 4x_1 + 3x_2 \\
@@ -4108,7 +4001,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{aligned}
-
 $$
 
 Apply the branch and bound method with the most constrained variable rule to find the optimal solution.
@@ -4550,9 +4442,7 @@ Next, we can formulate the objective function as the sum of the distances of all
 
 
 $$
-
 \text{minimize} \sum_{i=1}^{n} \sum_{j=1}^{n} c_{ij}x_{ij}
-
 $$
 
 
@@ -4566,41 +4456,31 @@ We also need to include constraints to ensure that each city is visited exactly 
 
 
 $$
-
 \sum_{j=1}^{n} x_{ij} = 1, \forall i \in \{1,2,...,n\}
-
 $$
 
 
 
 $$
-
 \sum_{i=1}^{n} x_{ij} = 1, \forall j \in \{1,2,...,n\}
-
 $$
 
 
 
 $$
-
 u_i - u_j + nx_{ij} \leq n-1, \forall i,j \in \{2,3,...,n\}
-
 $$
 
 
 
 $$
-
 u_i \in \{1,2,...,n\}, \forall i \in \{1,2,...,n\}
-
 $$
 
 
 
 $$
-
 x_{ij} \in \{0,1\}, \forall i,j \in \{1,2,...,n\}
-
 $$
 
 
@@ -4660,9 +4540,7 @@ Next, we can formulate the objective function as the sum of the distances of all
 
 
 $$
-
 \text{minimize} \sum_{i=1}^{n} \sum_{j=1}^{n} c_{ij}x_{ij}
-
 $$
 
 
@@ -4676,33 +4554,25 @@ We also need to include constraints to ensure that each city is visited exactly 
 
 
 $$
-
 \sum_{j=1}^{n} x_{ij} = 1, \forall i \in \{1,2,...,n\}
-
 $$
 
 
 
 $$
-
 \sum_{i=1}^{n} x_{ij} = 1, \forall j \in \{1,2,...,n\}
-
 $$
 
 
 
 $$
-
 \sum_{i=1}^{n} u_i = n
-
 $$
 
 
 
 $$
-
 u_i - u_j + nx_{ij} \leq n-1, \forall i,j \in \{2,3,...,n\}
-
 $$
 
 
@@ -5602,7 +5472,6 @@ In conclusion, the advanced linear programming techniques discussed in this chap
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x_1 + 4x_2 \\
@@ -5614,7 +5483,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Write the dual problem for this linear programming problem. \
@@ -5630,7 +5498,6 @@ c) Interpret the dual variables and their significance in the context of the pro
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 5x_1 + 3x_2 \\
@@ -5642,7 +5509,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Use sensitivity analysis to determine the range of values for the objective function coefficients that would not change the optimal solution. \
@@ -5658,7 +5524,6 @@ c) What is the interpretation of the dual variable for the first constraint in t
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 2x_1 + 3x_2 \\
@@ -5672,7 +5537,6 @@ $$
 & x_1, x_2 \text{ integer}
 
 \end{align*}
-
 $$
 
 a) Solve the linear programming relaxation of this problem. \
@@ -5688,7 +5552,6 @@ c) Compare the optimal solutions of the linear programming relaxation and the in
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 4x_1 + 5x_2 \\
@@ -5702,7 +5565,6 @@ $$
 & x_1, x_2 \text{ integer}
 
 \end{align*}
-
 $$
 
 a) Use the cutting plane method to solve this integer programming problem. \
@@ -5740,7 +5602,6 @@ In conclusion, the advanced linear programming techniques discussed in this chap
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 3x_1 + 4x_2 \\
@@ -5752,7 +5613,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Write the dual problem for this linear programming problem. \
@@ -5768,7 +5628,6 @@ c) Interpret the dual variables and their significance in the context of the pro
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 5x_1 + 3x_2 \\
@@ -5780,7 +5639,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 a) Use sensitivity analysis to determine the range of values for the objective function coefficients that would not change the optimal solution. \
@@ -5796,7 +5654,6 @@ c) What is the interpretation of the dual variable for the first constraint in t
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 2x_1 + 3x_2 \\
@@ -5810,7 +5667,6 @@ $$
 & x_1, x_2 \text{ integer}
 
 \end{align*}
-
 $$
 
 a) Solve the linear programming relaxation of this problem. \
@@ -5826,7 +5682,6 @@ c) Compare the optimal solutions of the linear programming relaxation and the in
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & 4x_1 + 5x_2 \\
@@ -5840,7 +5695,6 @@ $$
 & x_1, x_2 \text{ integer}
 
 \end{align*}
-
 $$
 
 a) Use the cutting plane method to solve this integer programming problem. \
@@ -6054,9 +5908,7 @@ Newton's method starts with an initial guess for the optimal solution and then i
 
 
 $$
-
 x_{n+1} = x_n - \frac{f'(x_n)}{f''(x_n)}
-
 $$
 
 
@@ -6104,7 +5956,6 @@ In conclusion, nonlinear programming is a valuable tool for solving complex opti
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & f(x,y) = x^2 + y^2 \\
@@ -6114,7 +5965,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 Use the gradient descent method to find the optimal solution.
@@ -6202,7 +6052,6 @@ In conclusion, nonlinear programming is a valuable tool for solving complex opti
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & f(x,y) = x^2 + y^2 \\
@@ -6212,7 +6061,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 Use the gradient descent method to find the optimal solution.
@@ -6338,9 +6186,7 @@ To apply the Lagrange multiplier method, we introduce a new variable $\lambda$, 
 
 
 $$
-
 L(x_1, x_2, ..., x_n, \lambda) = f(x_1, x_2, ..., x_n) + \lambda \sum_{i=1}^{m} g_i(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -6402,9 +6248,7 @@ To apply the Lagrange multiplier method, we first introduce a new variable $\lam
 
 
 $$
-
 L(x_1, x_2, ..., x_n, \lambda) = f(x_1, x_2, ..., x_n) + \lambda \sum_{i=1}^{m} g_i(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -6470,9 +6314,7 @@ To apply the Lagrange multiplier method, we first introduce a new variable $\lam
 
 
 $$
-
 L(x_1, x_2, ..., x_n, \lambda) = f(x_1, x_2, ..., x_n) + \lambda \sum_{i=1}^{m} g_i(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -6678,9 +6520,7 @@ Mathematically, the Bellman equation can be written as:
 
 
 $$
-
 V^*(s) = \max_{a \in A(s)} \left\{ r(s,a) + \gamma \sum_{s' \in S} p(s'|s,a) V^*(s') \right\}
-
 $$
 
 
@@ -6740,9 +6580,7 @@ The Bellman equation is based on the principle of optimality and is defined as f
 
 
 $$
-
 V^*(s) = \max_{a \in A(s)} \left\{ r(s,a) + \gamma \sum_{s' \in S} p(s'|s,a) V^*(s') \right\}
-
 $$
 
 
@@ -6812,9 +6650,7 @@ The Bellman equation is defined as follows:
 
 
 $$
-
 V^*(s) = \max_{a \in A(s)} \left\{ r(s,a) + \gamma \sum_{s' \in S} P(s'|s,a) V^*(s') \right\}
-
 $$
 
 
@@ -7064,9 +6900,7 @@ The two-stage stochastic programming model can be represented mathematically as 
 
 
 $$
-
 \max_{x,y} \sum_{i=1}^{n} p_i \sum_{j=1}^{m} q_j(x,y) f_{ij}(x,y)
-
 $$
 
 
@@ -7076,17 +6910,13 @@ subject to:
 
 
 $$
-
 \sum_{j=1}^{m} q_j(x,y) \leq b
-
 $$
 
 
 
 $$
-
 x \in X, y \in Y
-
 $$
 
 
@@ -7554,7 +7384,6 @@ Explain the difference between the weighted sum method and the epsilon-constrain
 Solve the following multi-objective optimization problem using the Pareto optimality approach:
 
 $$
-
 \begin{align*}
 
 & \text{Maximize} \quad f_1(x) = x_1 + 2x_2 \\
@@ -7566,7 +7395,6 @@ $$
 & \quad \quad \quad \quad x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -7622,7 +7450,6 @@ Explain the difference between the weighted sum method and the epsilon-constrain
 Solve the following multi-objective optimization problem using the Pareto optimality approach:
 
 $$
-
 \begin{align*}
 
 & \text{Maximize} \quad f_1(x) = x_1 + 2x_2 \\
@@ -7634,7 +7461,6 @@ $$
 & \quad \quad \quad \quad x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8126,9 +7952,7 @@ One of the most commonly used cooling schedules is the Boltzmann schedule, which
 
 
 $$
-
 T_{k+1} = \frac{T_k}{1 + \alpha T_k}
-
 $$
 
 
@@ -8142,9 +7966,7 @@ Another popular cooling schedule is the Cauchy schedule, which is given by the f
 
 
 $$
-
 T_{k+1} = \frac{T_k}{1 + \alpha k}
-
 $$
 
 

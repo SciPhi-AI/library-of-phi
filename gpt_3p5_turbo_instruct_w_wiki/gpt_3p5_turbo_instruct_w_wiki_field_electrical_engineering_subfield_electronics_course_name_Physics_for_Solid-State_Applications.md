@@ -1691,9 +1691,7 @@ The energy levels of the vibrational states can be calculated using the Schrödi
 
 
 $$
-
 E_v = \left(v + \frac{1}{2}\right) \hbar \omega
-
 $$
 
 
@@ -1715,9 +1713,7 @@ The energy levels of the rotational states can be calculated using the equation:
 
 
 $$
-
 E_J = \frac{\hbar^2}{2I}J(J+1)
-
 $$
 
 
@@ -1975,9 +1971,7 @@ The potential energy of a solid-state material can be described by a potential e
 
 
 $$
-
 U = \frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}V(r_{ij})
-
 $$
 
 
@@ -1999,9 +1993,7 @@ Similar to how the energy levels of electrons in the free electron model form a 
 
 
 $$
-
 \omega = \sqrt{\frac{2K}{m}}\left|\sin\left(\frac{ka}{2}\right)\right|
-
 $$
 
 
@@ -2049,9 +2041,7 @@ The potential energy of a solid-state material can be described by a potential e
 
 
 $$
-
 U = \frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}V(r_{ij})
-
 $$
 
 
@@ -2081,9 +2071,7 @@ Using the equations from the previous section, we can calculate the scattering r
 
 
 $$
-
 \frac{1}{\tau} = \sum_{k'} S_{k'k}^{Ac}=\sum_{k} S_{k\pm q ,k}^{Ac} =\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{kT}{2V\rho c^{2}} V \times g(E)
-
 $$
 
 
@@ -2097,9 +2085,7 @@ The scattering rate for phonons can also be expressed in terms of the Debye-Wall
 
 
 $$
-
 W = \exp\left(-\frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}\langle u_{i}u_{j}\rangle\right)
-
 $$
 
 
@@ -2143,9 +2129,7 @@ The potential energy of a solid-state material can be described by a potential e
 
 
 $$
-
 U = \frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}V(r_{ij})
-
 $$
 
 
@@ -2175,9 +2159,7 @@ In the case of solid nitrogen, the thermal conductivity is 0.7 W m<sup>-1</sup> 
 
 
 $$
-
 k = 0.1802 \times T^{0.1041} \text{ W m}^{-1} \text{ K}^{-1}
-
 $$
 
 
@@ -2191,9 +2173,7 @@ Another important thermal property of solids is specific heat, which is the amou
 
 
 $$
-
 C = 926.91 \times e^{0.0093T} \text{ J kg}^{-1} \text{ K}^{-1}
-
 $$
 
 
@@ -2207,9 +2187,7 @@ The thermal properties of solids are also affected by their density, which is th
 
 
 $$
-
 \rho = 0.0134T^2 - 0.6981T + 1038.1 \text{ kg m}^{-3}
-
 $$
 
 
@@ -2223,9 +2201,7 @@ In addition to density, the volume coefficient of expansion is another important
 
 
 $$
-
 \alpha = 2 \times 10^{-6}T^2 - 0.0002T + 0.006 \text{ K}^{-1}
-
 $$
 
 
@@ -2269,9 +2245,7 @@ The quantum theory of specific heat was first developed by Albert Einstein in 19
 
 
 $$
-
 C = \sum_{i} \frac{1}{e^{\frac{h\nu_{i}}{k_{B}T}} - 1}
-
 $$
 
 
@@ -2289,9 +2263,7 @@ The Debye model states that the number of phonon modes in a solid is proportiona
 
 
 $$
-
 C = 9Nk_{B}\left(\frac{T}{\Theta_{D}}\right)^{3}\int_{0}^{\frac{\Theta_{D}}{T}} \frac{x^{4}e^{x}}{(e^{x}-1)^{2}}dx
-
 $$
 
 
@@ -2339,9 +2311,7 @@ The quantum theory of specific heat was first developed by Albert Einstein in 19
 
 
 $$
-
 C = \sum_{i} \frac{1}{e^{\frac{h\nu_{i}}{k_{B}T}} - 1}
-
 $$
 
 
@@ -2363,9 +2333,7 @@ The Debye model states that the number of phonon modes in a solid is proportiona
 
 
 $$
-
 C = 9Nk_{B}\left(\frac{T}{\Theta_{D}}\right)^{3}\int_{0}^{\frac{\Theta_{D}}{T}} \frac{x^{4}e^{x}}{(e^{x}-1)^{2}}dx
-
 $$
 
 
@@ -2421,9 +2389,7 @@ The quantum theory of specific heat was first developed by Albert Einstein in 19
 
 
 $$
-
 C = \sum_{i} \frac{1}{e^{\frac{h\nu_{i}}{k_{B}T}} - 1}
-
 $$
 
 
@@ -2449,9 +2415,7 @@ The Debye model states that the number of phonon modes in a solid is proportiona
 
 
 $$
-
 C = 9Nk_{B}\left(\frac{T}{\Theta_{D}}\right)^{3}\int_{0}^{\frac{\Theta_{D}}{T}} \frac{x^{4}e^{x}}{(e^{x}-1)^{2}}dx
-
 $$
 
 
@@ -2763,9 +2727,7 @@ Using Newton's second law, we can write the equation of motion for an atom in th
 
 
 $$
-
 m\frac{d^2u}{dt^2} = -k(u_{i+1} - 2u_i + u_{i-1})
-
 $$
 
 
@@ -2775,9 +2737,7 @@ where m is the mass of the atom, k is the spring constant, and u is the displace
 
 
 $$
-
 u_i(t) = A\sin(kia)\cos(\omega t)
-
 $$
 
 
@@ -2791,9 +2751,7 @@ Substituting this solution into the equation of motion, we can obtain the disper
 
 
 $$
-
 \omega = \sqrt{\frac{4k}{m}}\sin\left(\frac{ka}{2}\right)
-
 $$
 
 
@@ -2841,9 +2799,7 @@ Using the concept of normal modes, we can derive the dispersion relation for lat
 
 
 $$
-
 \omega = 2\sqrt{\frac{k}{m}} \left| \sin \left( \frac{ka}{2} \right) \right|
-
 $$
 
 
@@ -2895,9 +2851,7 @@ Using the concept of normal modes, we can derive the dispersion relation for lat
 
 
 $$
-
 \omega = 2\sqrt{\frac{k}{m}} \left| \sin \left( \frac{ka}{2} \right) \right|
-
 $$
 
 
@@ -2969,9 +2923,7 @@ Using the concept of normal modes, we can derive the dispersion relation for lat
 
 
 $$
-
 \omega = 2\sqrt{\frac{k}{m}} \left| \sin \left( \frac{ka}{2} \right) \right|
-
 $$
 
 
@@ -2997,9 +2949,7 @@ Using Fermi's golden rule, we can approximate the scattering rate for low energy
 
 
 $$
-
 |<k'|\widehat{H}_{int}|k>|^{2}=Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (N_{q}+\frac{1}{2}\pm \frac{1}{2})\delta _{k', k \pm q} \; \; (15)
-
 $$
 
 
@@ -3009,9 +2959,7 @@ where Z<sub>DP</sub> is the deformation potential, ω<sub>q</sub> is the phonon 
 
 
 $$
-
 S_{k'k}^{Ac}=\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (N_{q}+\frac{1}{2}\pm \frac{1}{2})\delta _{k', k \pm q}\delta [E(k')-E(k) \pm \hbar \omega _{q}] \; \; (16)
-
 $$
 
 
@@ -3021,9 +2969,7 @@ With the assumptions that N<sub>q</sub> >> 1, ħω << kT, and g(E') ~ g(E), we c
 
 
 $$
-
 \frac{1}{\tau} = \sum_{k'} S_{k'k}^{Ac}=\sum_{k} S_{k\pm q ,k}^{Ac} =\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (\frac{kT}{\hbar \omega _{q}}) \sum_{k} \delta _{k', k \pm q}\delta [E(k')-E(k) \pm \hbar \omega _{q}] =\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{kT}{2V\rho c^{2}} V \times g(E) =\frac{\sqrt 2}{\pi}\frac{Z_{DP}^{2} m^{*\frac{3}{2}}kT}{\rho \hbar ^{4}c^{2}} \sqrt{E-E_{CB}} \; \; (17)
-
 $$
 
 
@@ -3071,9 +3017,7 @@ The heat capacity at constant volume, denoted as C<sub>V</sub>, is defined as th
 
 
 $$
-
 C_V = \frac{dU}{dT}
-
 $$
 
 
@@ -3083,9 +3027,7 @@ To find the internal energy, we must first calculate the entropy of the system. 
 
 
 $$
-
 \Delta E = \hbar \omega = \frac{h}{2\pi} \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -3099,9 +3041,7 @@ Next, we must compute the multiplicity of the system, which is the number of way
 
 
 $$
-
 \Omega = \frac{(q+N-1)!}{q!(N-1)!}
-
 $$
 
 
@@ -3111,9 +3051,7 @@ However, in a solid, the atoms are indistinguishable and the energy levels are e
 
 
 $$
-
 \Omega_{eq} = \frac{\Omega}{N!q!}
-
 $$
 
 
@@ -3123,9 +3061,7 @@ Finally, we can calculate the entropy of the system using Boltzmann's formula:
 
 
 $$
-
 S = k_B \ln \Omega_{eq}
-
 $$
 
 
@@ -3139,9 +3075,7 @@ Now, we can find the internal energy by taking the derivative of the entropy wit
 
 
 $$
-
 U = \frac{\partial (TS)}{\partial T} = k_B T^2 \frac{\partial}{\partial T} \left( \frac{1}{T} \ln \Omega_{eq} \right)
-
 $$
 
 
@@ -3151,9 +3085,7 @@ Using the expression for entropy and simplifying, we arrive at the following exp
 
 
 $$
-
 U = \frac{3}{2} N k_B T
-
 $$
 
 
@@ -3163,9 +3095,7 @@ Finally, we can calculate the heat capacity at constant volume by taking the der
 
 
 $$
-
 C_V = \frac{dU}{dT} = \frac{3}{2} N k_B
-
 $$
 
 
@@ -3213,9 +3143,7 @@ The heat capacity at constant volume, denoted as C<sub>V</sub>, is defined as th
 
 
 $$
-
 C_V = \frac{dU}{dT}
-
 $$
 
 
@@ -3225,9 +3153,7 @@ To find the internal energy, we must first calculate the entropy of the system. 
 
 
 $$
-
 \Delta E = \hbar \omega = \frac{h}{2\pi} \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -3241,9 +3167,7 @@ Next, we must compute the multiplicity of the system, which is the number of way
 
 
 $$
-
 \Omega = \frac{(q+N-1)!}{q!(N-1)!}
-
 $$
 
 
@@ -3253,9 +3177,7 @@ However, in a solid, the atoms are indistinguishable, so we must divide by N! to
 
 
 $$
-
 \Omega = \frac{(q+N-1)!}{q!(N-1)!N!}
-
 $$
 
 
@@ -3265,9 +3187,7 @@ Using the Boltzmann entropy formula, we can now calculate the entropy of the sys
 
 
 $$
-
 S = k_B \ln \Omega = k_B \ln \left(\frac{(q+N-1)!}{q!(N-1)!N!}\right)
-
 $$
 
 
@@ -3277,9 +3197,7 @@ where k<sub>B</sub> is the Boltzmann constant. To find the internal energy, we c
 
 
 $$
-
 U = TS - PV
-
 $$
 
 
@@ -3289,9 +3207,7 @@ Since we are considering a fixed volume, the PV term is zero, and we can rewrite
 
 
 $$
-
 U = TS = k_B T \ln \left(\frac{(q+N-1)!}{q!(N-1)!N!}\right)
-
 $$
 
 
@@ -3301,9 +3217,7 @@ Taking the derivative with respect to temperature, we get:
 
 
 $$
-
 \frac{dU}{dT} = k_B \ln \left(\frac{(q+N-1)!}{q!(N-1)!N!}\right) + k_B T \frac{d}{dT} \ln \left(\frac{(q+N-1)!}{q!(N-1)!N!}\right)
-
 $$
 
 
@@ -3313,351 +3227,264 @@ Using the Stirling approximation, we can simplify the first term as:
 
 
 $$
-
 k_B \ln \left(\frac{(q+N-1)!}{q!(N-1)!N!}\right) \approx k_B \ln \left(\frac{(q+N-1)^{q+N-1} e^{-q-N+1}}{q^q e^{-q} (N-1)^{N-1} e^{-(N-1)}}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q (N-1)^{N-1}}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B \ln \left(\frac{(q+N-1)^{q+N-1}}{q^q N^N}\right)
-
 $$
 
 
 
 $$
-
 = k_B
 
 
@@ -3695,7 +3522,6 @@ To calculate the heat capacity of a discrete lattice, we will use the microcanon
 The heat capacity at constant volume, denoted as C<sub>V</sub>, is defined as the change in internal energy with respect to temperature:
 
 
-
 $$
 
 C_V = \frac{dU}{dT}
@@ -3703,9 +3529,7 @@ C_V = \frac{dU}{dT}
 $$
 
 
-
 To find the internal energy, we must first calculate the entropy of the system. In a solid made of N atoms, each with 3 degrees of freedom, there are a total of 3N quantum harmonic oscillators (SHOs). The possible energies of an SHO are evenly spaced, with a quantum of energy given by:
-
 
 
 $$
@@ -3715,13 +3539,11 @@ $$
 $$
 
 
-
 where h is Planck's constant, ω is the frequency of the SHO, k is the spring constant, and m is the mass of the atom.
 
 
 
 Next, we must compute the multiplicity of the system, which is the number of ways to distribute q quanta of energy among N SHOs. This can be thought of as arranging q pebbles and N-1 partitions, with each arrangement representing a different energy state. The number of possible arrangements is given by:
-
 
 
 $$
@@ -3731,9 +3553,7 @@ $$
 $$
 
 
-
 However, in a solid, the atoms are indistinguishable, so we must divide by N! to account for this. This gives us the multiplicity of a single energy level:
-
 
 
 $$
@@ -3743,9 +3563,7 @@ $$
 $$
 
 
-
 To find the total multiplicity of the system, we must consider all possible energy levels. This can be done by summing over all possible values of q:
-
 
 
 $$
@@ -3755,9 +3573,7 @@ $$
 $$
 
 
-
 Now, we can use the Boltzmann distribution to find the probability of a system being in a particular energy state:
-
 
 
 $$
@@ -3767,9 +3583,7 @@ P(q) = \frac{\omega(q)}{\Omega} = \frac{1}{\Omega} \frac{(q+N-1)!}{q!(N-1)!N!} =
 $$
 
 
-
 The average energy of the system can then be calculated as:
-
 
 
 $$
@@ -3779,9 +3593,7 @@ $$
 $$
 
 
-
 where E(q) is the energy of a system in the qth energy state. In the case of a diatomic crystal, this can be calculated using the equipartition theorem:
-
 
 
 $$
@@ -3791,9 +3603,7 @@ E(q) = \frac{1}{2}Nq\Delta E = \frac{1}{2}Nq\hbar\omega = \frac{1}{2}Nq\frac{h}{
 $$
 
 
-
 Substituting this into the equation for average energy, we get:
-
 
 
 $$
@@ -3803,9 +3613,7 @@ $$
 $$
 
 
-
 Using the Stirling approximation, we can simplify this expression to:
-
 
 
 $$
@@ -3815,9 +3623,7 @@ $$
 $$
 
 
-
 This integral can be solved using the method of residues, giving us the average energy as:
-
 
 
 $$
@@ -3827,9 +3633,7 @@ $$
 $$
 
 
-
 Finally, we can use this expression to find the internal energy of the system:
-
 
 
 $$
@@ -3839,9 +3643,7 @@ U = N\langle E \rangle = \frac{1}{2}N^2\hbar\omega \left( \frac{1}{e^{\frac{\hba
 $$
 
 
-
 And the heat capacity at constant volume can be calculated as:
-
 
 
 $$
@@ -3849,7 +3651,6 @@ $$
 C_V = \frac{dU}{dT} = \frac{1}{2}N^2\hbar\omega \left( \frac{\frac{\hbar\omega}{kT^2}e^{\frac{\hbar\omega}{kT}}}{(e^{\frac{\hbar\omega}{kT}} - 1)^2} \right)
 
 $$
-
 
 
 This expression for the heat capacity of a discrete lattice is known as the Debye model, and it accurately predicts the heat capacity of solids at low temperatures. However, at higher temperatures, it deviates from experimental data due to the assumption of a fixed number of normal modes. This can be corrected by considering the anharmonicity of the lattice vibrations, which leads to the Einstein model of heat capacity.
@@ -4153,13 +3954,11 @@ The nearly free electron model is a modification of the free electron model, whe
 Mathematically, the nearly free electron model can be described by the following equation:
 
 
-
 $$
 
 (\lambda_{\mathbf{k}} - \varepsilon_{\mathbf{k}})u_{\mathbf{k}}(\mathbf{r}) = \frac{\hbar^2}{2m}\left(-i\nabla + \frac{e}{\hbar}\mathbf{A}(\mathbf{r})\right)^2u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\lambda_{\mathbf{k}}$ is the energy of the electron, $\varepsilon_{\mathbf{k}}$ is the energy of the unperturbed electron, $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function, and $\mathbf{A}(\mathbf{r})$ is the vector potential.
@@ -4203,13 +4002,11 @@ The nearly free electron model is a modification of the free electron model, whe
 Mathematically, the nearly free electron model can be described by the following equation:
 
 
-
 $$
 
 (\lambda_{\mathbf{k}} - \varepsilon_{\mathbf{k}})u_{\mathbf{k}}(\mathbf{r}) = \frac{\hbar^2}{2m}\left(-i\nabla + \frac{e}{\hbar}\mathbf{A}(\mathbf{r})\right)^2u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\lambda_{\mathbf{k}}$ is the energy of the electron, $\varepsilon_{\mathbf{k}}$ is the energy of the unperturbed electron, $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function, and $\mathbf{A}(\mathbf{r})$ is the vector potential.
@@ -4227,13 +4024,11 @@ One important concept in the nearly free electron model is the effective mass of
 The effective mass can be calculated using the following equation:
 
 
-
 $$
 
 m^* = \hbar^2 \left(\frac{\partial^2 \varepsilon}{\partial k^2}\right)^{-1}
 
 $$
-
 
 
 where $m^*$ is the effective mass, $\hbar$ is the reduced Planck's constant, and $\varepsilon$ is the energy of the electron.
@@ -4285,13 +4080,11 @@ The nearly free electron model is a modification of the free electron model, whe
 Mathematically, the nearly free electron model can be described by the following equation:
 
 
-
 $$
 
 (\lambda_{\mathbf{k}} - \varepsilon_{\mathbf{k}})u_{\mathbf{k}}(\mathbf{r}) = \frac{\hbar^2}{2m}\left(-i\nabla + \frac{e}{\hbar}\mathbf{A}(\mathbf{r})\right)^2u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\lambda_{\mathbf{k}}$ is the energy of the electron, $\varepsilon_{\mathbf{k}}$ is the energy of the unperturbed electron, $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function, and $\mathbf{A}(\mathbf{r})$ is the vector potential.
@@ -4305,13 +4098,11 @@ The nearly free electron model allows us to understand and calculate the electro
 One important concept in the nearly free electron model is the effective mass of an electron. The effective mass is a measure of how an electron behaves in a solid material compared to its behavior in a vacuum. In the nearly free electron model, the effective mass is given by:
 
 
-
 $$
 
 m^* = \frac{\hbar^2}{\left(\frac{\partial^2 \varepsilon}{\partial k^2}\right)}
 
 $$
-
 
 
 where $\varepsilon$ is the energy of the electron and $k$ is the wave vector. The effective mass can vary depending on the direction of the wave vector, as well as the crystal structure of the material.
@@ -4325,13 +4116,11 @@ Now, let's discuss the Fermi energy and density of states in the nearly free ele
 The Fermi energy for a non-interacting ensemble of identical spin-<frac|1|2> fermions in a three-dimensional system is given by:
 
 
-
 $$
 
 E_F = \frac{\hbar^2}{2m_0} \left( \frac{3 \pi^2 N}{V} \right)^{2/3}
 
 $$
-
 
 
 where $N$ is the number of particles, $m_0$ is the rest mass of each fermion, and $V$ is the volume of the system. This equation shows that the Fermi energy is directly proportional to the number of particles and inversely proportional to the volume of the system.
@@ -4349,13 +4138,11 @@ On the other hand, in white dwarfs, which have high densities due to their small
 The Fermi energy can also be used to calculate other related quantities, such as the Fermi temperature, which is defined as:
 
 
-
 $$
 
 T_F = \frac{E_F}{k_B}
 
 $$
-
 
 
 where $k_B$ is the Boltzmann constant. The Fermi temperature can be thought of as the temperature at which thermal effects are comparable to quantum effects associated with Fermi statistics. In metals, the Fermi temperature is a couple of orders of magnitude above room temperature.
@@ -4387,13 +4174,11 @@ In the previous section, we discussed the nearly free electron model, which take
 Bloch functions are periodic functions that satisfy Bloch's theorem, which states that the wave function of an electron in a periodic potential can be written as a product of a plane wave and a periodic function. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \psi_{\mathbf{k}}(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}}u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\psi_{\mathbf{k}}(\mathbf{r})$ is the wave function, $\mathbf{k}$ is the crystal momentum, and $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function.
@@ -4441,13 +4226,11 @@ In the previous section, we discussed the nearly free electron model, which take
 Bloch functions are periodic functions that satisfy Bloch's theorem, which states that the wave function of an electron in a periodic potential can be written as a product of a plane wave and a periodic function. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \psi_{\mathbf{k}}(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}}u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\psi_{\mathbf{k}}(\mathbf{r})$ is the wave function, $\mathbf{k}$ is the crystal momentum, and $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function.
@@ -4495,13 +4278,11 @@ In the previous section, we discussed the nearly free electron model, which take
 Bloch functions are periodic functions that satisfy Bloch's theorem, which states that the wave function of an electron in a periodic potential can be written as a product of a plane wave and a periodic function. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \psi_{\mathbf{k}}(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}}u_{\mathbf{k}}(\mathbf{r})
 
 $$
-
 
 
 where $\psi_{\mathbf{k}}(\mathbf{r})$ is the wave function, $\mathbf{k}$ is the crystal momentum, and $u_{\mathbf{k}}(\mathbf{r})$ is the periodic function.
@@ -4557,13 +4338,11 @@ Electronic wavepackets are localized wave-like disturbances in the electron dens
 The dynamics of electronic wavepackets in solids can be described by the time-dependent Schrödinger equation:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -4573,13 +4352,11 @@ where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is th
 One important concept in the motion of electronic wavepackets is the group velocity, which describes the velocity at which the wavepacket propagates through the solid. In a periodic solid, the group velocity can be calculated using the energy-momentum relation:
 
 
-
 $$
 
 \mathbf{v}_g = \frac{1}{\hbar}\nabla_{\mathbf{k}}\varepsilon(\mathbf{k})
 
 $$
-
 
 
 where $\mathbf{v}_g$ is the group velocity, $\nabla_{\mathbf{k}}$ is the gradient with respect to the crystal momentum, and $\varepsilon(\mathbf{k})$ is the energy of the electron.
@@ -4627,13 +4404,11 @@ Electronic wavepackets are localized wave-like disturbances in the electron dens
 The dynamics of electronic wavepackets in solids can be described by the time-dependent Schrödinger equation:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -4643,13 +4418,11 @@ where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is th
 One important concept in the motion of electronic wavepackets is the group velocity, which describes the velocity at which the wavepacket propagates through the solid. In a periodic solid, the group velocity can be calculated using the energy-momentum relation:
 
 
-
 $$
 
 \mathbf{v}_g = \frac{1}{\hbar}\nabla_{\mathbf{k}}\varepsilon(\mathbf{k})
 
 $$
-
 
 
 where $\mathbf{v}_g$ is the group velocity, $\nabla_{\mathbf{k}}$ is the gradient with respect to the crystal momentum, and $\varepsilon(\mathbf{k})$ is the energy of the electron.
@@ -4667,13 +4440,11 @@ Another important concept in the motion of electronic wavepackets is the scatter
 To understand the scattering of electrons by phonons, we can use the concept of effective mass. In most cases, the effective mass of an electron in a solid is different from its free electron mass. This is due to the influence of the periodic potential and the interactions with other electrons and phonons. The effective mass can be calculated using the curvature of the energy-momentum relation:
 
 
-
 $$
 
 m^* = \hbar^2\left(\frac{\partial^2\varepsilon}{\partial k^2}\right)^{-1}
 
 $$
-
 
 
 where $m^*$ is the effective mass and $\varepsilon$ is the energy of the electron.
@@ -4687,13 +4458,11 @@ The effective mass can be thought of as the mass of a free electron that would h
 In the case of a thermal distribution, where the particle mass is unity in solar mass unit, the effective mass can be simplified to:
 
 
-
 $$
 
 m^* = \frac{\hbar^2}{\sigma_1^2}
 
 $$
-
 
 
 where $\sigma_1$ is the width of the velocity Maxwell distribution. This shows that the effective mass is inversely proportional to the width of the distribution, which is related to the temperature of the solid. This means that as the temperature increases, the effective mass decreases, leading to a higher group velocity and potentially higher conductivity.
@@ -4729,13 +4498,11 @@ Electronic wavepackets are localized wave-like disturbances in the electron dens
 The dynamics of electronic wavepackets in solids can be described by the time-dependent Schrödinger equation:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(\mathbf{r},t) = \hat{H}\psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -4745,13 +4512,11 @@ where $\psi(\mathbf{r},t)$ is the wave function of the electron, $\hat{H}$ is th
 One important concept in the motion of electronic wavepackets is the group velocity, which describes the velocity at which the wavepacket propagates through the solid. In a periodic solid, the group velocity can be calculated using the energy-momentum relation:
 
 
-
 $$
 
 \mathbf{v}_g = \frac{1}{\hbar}\nabla_{\mathbf{k}}\varepsilon(\mathbf{k})
 
 $$
-
 
 
 where $\mathbf{v}_g$ is the group velocity, $\nabla_{\mathbf{k}}$ is the gradient with respect to the crystal momentum, and $\varepsilon(\mathbf{k})$ is the energy of the electron.
@@ -4769,13 +4534,11 @@ Another important concept in the motion of electronic wavepackets is the scatter
 The scattering of electrons by phonons can be described by the Fermi's golden rule, which gives the transition probability per unit time from an initial state to a final state:
 
 
-
 $$
 
 W_{i\rightarrow f} = \frac{2\pi}{\hbar}\left|\langle f|\hat{H}_{int}|i\rangle\right|^2\delta(E_f-E_i)
 
 $$
-
 
 
 where $W_{i\rightarrow f}$ is the transition rate, $\hat{H}_{int}$ is the interaction Hamiltonian, and $\delta(E_f-E_i)$ is the energy conservation delta function.
@@ -5113,13 +4876,11 @@ The semi-classical approximation assumes that the potential energy landscape is 
 The semi-classical equations of motion for electrons and holes in a periodic solid can be derived from the Schrödinger equation. For an electron, the equation of motion is given by:
 
 
-
 $$
 
 m_e \frac{d^2 \vec{r}}{dt^2} = -e \vec{E} - \nabla V(\vec{r})
 
 $$
-
 
 
 where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ is the charge of the electron, $\vec{E}$ is the electric field, and $V(\vec{r})$ is the potential energy landscape.
@@ -5129,13 +4890,11 @@ where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ i
 Similarly, for a hole, the equation of motion is given by:
 
 
-
 $$
 
 m_h \frac{d^2 \vec{r}}{dt^2} = e \vec{E} + \nabla V(\vec{r})
 
 $$
-
 
 
 where $m_h$ is the effective mass of the hole.
@@ -5203,13 +4962,11 @@ The semi-classical approximation assumes that the potential energy landscape is 
 The semi-classical equations of motion for electrons and holes in a periodic solid can be derived from the Schrödinger equation. For an electron, the equation of motion is given by:
 
 
-
 $$
 
 m_e \frac{d^2 \vec{r}}{dt^2} = -e \vec{E} - \nabla V(\vec{r})
 
 $$
-
 
 
 where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ is the charge of the electron, $\vec{E}$ is the electric field, and $V(\vec{r})$ is the potential energy landscape.
@@ -5219,7 +4976,6 @@ where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ i
 Similarly, for a hole, the equation of motion is given by:
 
 
-
 $$
 
 m_h \frac{d^2 \vec{r}}{dt^2} = e \vec{E} + \nabla V(\vec{r})
@@ -5227,9 +4983,7 @@ m_h \frac{d^2 \vec{r}}{dt^2} = e \vec{E} + \nabla V(\vec{r})
 $$
 
 
-
 where $m_h$ is the effective mass of the hole. These equations of motion can also be written in terms of the momentum of the particles, $\vec{p} = m\vec{v}$, as:
-
 
 
 $$
@@ -5239,9 +4993,7 @@ $$
 $$
 
 
-
 for electrons and
-
 
 
 $$
@@ -5249,7 +5001,6 @@ $$
 \frac{d\vec{p}}{dt} = e\vec{E} + \nabla V(\vec{r})
 
 $$
-
 
 
 for holes.
@@ -5267,7 +5018,6 @@ The semi-classical equations of motion for electrons and holes can be used to st
 One important aspect of carrier dynamics is the scattering of carriers due to interactions with other particles or defects in the material. This scattering can lead to a decrease in the carrier mobility and an increase in resistivity. The semi-classical equations of motion can be modified to include scattering effects, resulting in the following equations:
 
 
-
 $$
 
 m_e \frac{d^2 \vec{r}}{dt^2} = -e \vec{E} - \nabla V(\vec{r}) + \vec{F}_{\mathrm{scatter}}
@@ -5275,9 +5025,7 @@ m_e \frac{d^2 \vec{r}}{dt^2} = -e \vec{E} - \nabla V(\vec{r}) + \vec{F}_{\mathrm
 $$
 
 
-
 for electrons and
-
 
 
 $$
@@ -5285,7 +5033,6 @@ $$
 m_h \frac{d^2 \vec{r}}{dt^2} = e \vec{E} + \nabla V(\vec{r}) + \vec{F}_{\mathrm{scatter}}
 
 $$
-
 
 
 for holes, where $\vec{F}_{\mathrm{scatter}}$ represents the force due to scattering.
@@ -5341,13 +5088,11 @@ The semi-classical approximation assumes that the potential energy landscape is 
 The semi-classical equations of motion for electrons and holes in a periodic solid can be derived from the Schrödinger equation. For an electron, the equation of motion is given by:
 
 
-
 $$
 
 m_e \frac{d^2 \vec{r}}{dt^2} = -e \vec{E} - \nabla V(\vec{r})
 
 $$
-
 
 
 where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ is the charge of the electron, $\vec{E}$ is the electric field, and $V(\vec{r})$ is the potential energy landscape.
@@ -5357,13 +5102,11 @@ where $m_e$ is the mass of the electron, $\vec{r}$ is its position vector, $e$ i
 Similarly, for a hole, the equation of motion is given by:
 
 
-
 $$
 
 m_h \frac{d^2 \vec{r}}{dt^2} = e \vec{E} + \nabla V(\vec{r})
 
 $$
-
 
 
 where $m_h$ is the effective mass of the hole. This equation is similar to that of an electron, except for the sign of the electric field term and the potential energy landscape term. This is because a hole is essentially a positively charged particle with the opposite charge of an electron.
@@ -5385,7 +5128,6 @@ Using the equations of motion for electrons and holes, we can derive the drift a
 The drift current for electrons can be expressed as:
 
 
-
 $$
 
 J_{d,e} = -n_e e \mu_e \vec{E}
@@ -5393,9 +5135,7 @@ J_{d,e} = -n_e e \mu_e \vec{E}
 $$
 
 
-
 where $n_e$ is the electron concentration, $e$ is the charge of an electron, and $\mu_e$ is the electron mobility. Similarly, the drift current for holes can be expressed as:
-
 
 
 $$
@@ -5403,7 +5143,6 @@ $$
 J_{d,h} = p_h e \mu_h \vec{E}
 
 $$
-
 
 
 where $p_h$ is the hole concentration and $\mu_h$ is the hole mobility.
@@ -5417,7 +5156,6 @@ where $p_h$ is the hole concentration and $\mu_h$ is the hole mobility.
 The diffusion current for electrons can be expressed as:
 
 
-
 $$
 
 J_{diff,e} = -D_e \nabla n_e
@@ -5425,9 +5163,7 @@ J_{diff,e} = -D_e \nabla n_e
 $$
 
 
-
 where $D_e$ is the electron diffusion coefficient. Similarly, the diffusion current for holes can be expressed as:
-
 
 
 $$
@@ -5435,7 +5171,6 @@ $$
 J_{diff,h} = D_h \nabla p_h
 
 $$
-
 
 
 where $D_h$ is the hole diffusion coefficient.
@@ -5453,7 +5188,6 @@ Combining the drift and diffusion currents, we can derive the continuity equatio
 For electrons, the continuity equation can be expressed as:
 
 
-
 $$
 
 \frac{\partial n_e}{\partial t} = -\nabla \cdot J_{d,e} - \nabla \cdot J_{diff,e}
@@ -5461,9 +5195,7 @@ $$
 $$
 
 
-
 Similarly, for holes, the continuity equation can be expressed as:
-
 
 
 $$
@@ -5471,7 +5203,6 @@ $$
 \frac{\partial p_h}{\partial t} = -\nabla \cdot J_{d,h} - \nabla \cdot J_{diff,h}
 
 $$
-
 
 
 ## Conclusion
@@ -5775,13 +5506,11 @@ In solid-state physics, the chemical potential is often referred to as the inter
 The internal chemical potential is related to the total chemical potential, which also includes the contributions from external force fields such as electric potential and gravitational potential. This can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the external chemical potential, which can be further broken down into the contributions from electric potential, gravitational potential, and other external fields.
@@ -5829,13 +5558,11 @@ In solid-state physics, the chemical potential is often referred to as the inter
 The internal chemical potential is related to the total chemical potential, which also includes the contributions from external force fields such as electric potential and gravitational potential. This can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the external chemical potential, which can be further broken down into the contributions from electric potential, gravitational potential, and other external fields.
@@ -5907,13 +5634,11 @@ In solid-state physics, the chemical potential is often referred to as the inter
 The internal chemical potential is related to the total chemical potential, which also includes the contributions from external force fields such as electric potential and gravitational potential. This can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the external chemical potential, which can be further broken down into the contributions from electric potential, gravitational potential, and other external fields.
@@ -5943,13 +5668,11 @@ As temperature increases, the internal energy of a system also increases, leadin
 However, the temperature dependence of chemical potential is not linear. In fact, it follows a logarithmic relationship, as shown by the following equation:
 
 
-
 $$
 
 \mu(T) = \mu_0 + kT\ln\left(\frac{T}{T_0}\right)
 
 $$
-
 
 
 where $\mu_0$ is the chemical potential at a reference temperature $T_0$, and $k$ is the Boltzmann constant.
@@ -6145,13 +5868,11 @@ To accurately describe the behavior of particles in a non-equilibrium state, we 
 The BTE is a partial differential equation that describes the evolution of the distribution function, $f(\mathbf{r}, \mathbf{k}, t)$, which represents the probability of finding a particle at position $\mathbf{r}$ with momentum $\mathbf{k}$ at time $t$. It takes into account the effects of external forces, collisions, and changes in the chemical potential.
 
 
-
 $$
 
 {\partial f\over{\partial t}} + \mathbf{v}\cdot\nabla_{\mathbf{r}}f + \mathbf{F}\cdot\nabla_{\mathbf{k}}f = \left({\partial f\over{\partial t}}\right)_{coll}
 
 $$
-
 
 
 The first term on the left-hand side represents the change in the distribution function due to the motion of particles, while the second term represents the change due to external forces. The right-hand side represents the effects of collisions, which can cause particles to scatter and change their momentum.
@@ -6283,13 +6004,11 @@ In the previous section, we discussed the effects of carrier gradients in inhomo
 The continuity equation is a fundamental equation in solid-state physics that describes the conservation of charge in a material. It states that the rate of change of charge density in a given region is equal to the net current flowing into or out of that region. In mathematical terms, it can be written as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
 
 $$
-
 
 
 where $\rho$ is the charge density and $\mathbf{J}$ is the current density.
@@ -6361,7 +6080,6 @@ Another important scattering mechanism is carrier-phonon scattering, where elect
 Using Fermi's golden rule, the scattering rate for low energy acoustic phonons can be approximated. The interaction matrix for these phonons is given by:
 
 
-
 $$
 
 |<k'|\widehat{H}_{int}|k>|^{2}=Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (N_{q}+\frac{1}{2}\pm \frac{1}{2})\delta _{k', k \pm q} \; \; (15)
@@ -6369,9 +6087,7 @@ $$
 $$
 
 
-
 where $\omega_{q}$ is the phonon angular frequency, V is the volume of the solid, $\rho$ is the solid density, and c is the phonon group velocity. Plugging this into Eq. 6 gives:
-
 
 
 $$
@@ -6381,9 +6097,7 @@ S_{k'k}^{Ac}=\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}}
 $$
 
 
-
 With the assumptions that $N_{q} \gg 1$, $\hbar \omega \ll kT$, and $g(E') \sim g(E)$, which generally holds for 3D crystals since conduction electron energies are much greater than $\hbar \omega$ and $g(E)$ lacks any van Hove singularity, the scattering rate can be simplified to:
-
 
 
 $$
@@ -6391,7 +6105,6 @@ $$
 \frac{1}{\tau} = \sum_{k'} S_{k'k}^{Ac}=\sum_{k} S_{k\pm q ,k}^{Ac} =\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (\frac{kT}{\hbar \omega _{q}}) \sum_{k} \delta _{k', k \pm q}\delta [E(k')-E(k) \pm \hbar \omega _{q}] =\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{kT}{2V\rho c^{2}} V \times g(E) =\frac{\sqrt 2}{\pi}\frac{Z_{DP}^{2} m^{*\frac{3}{2}}kT}{\rho \hbar ^{4}c^{2}} \sqrt{E-E_{CB}} \; \; (17)
 
 $$
-
 
 
 where $g(E)$ is the electronic density of states, for which the 3-dimensional solution with parabolic dispersion was used to obtain the final answer.
@@ -6459,7 +6172,6 @@ However, this assumption is not always valid. In some cases, the scattering mech
 Using Fermi's golden rule, the scattering rate for low energy acoustic phonons can be approximated. The interaction matrix for these phonons is given by:
 
 
-
 $$
 
 |<k'|\widehat{H}_{int}|k>|^{2}=Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}} (N_{q}+\frac{1}{2}\pm \frac{1}{2})\delta _{k', k \pm q} \; \; (15)
@@ -6467,9 +6179,7 @@ $$
 $$
 
 
-
 where $\omega_{q}$ is the phonon angular frequency, V is the volume of the solid, $\rho$ is the solid density, and c is the phonon group velocity. Plugging this into Eq. 6 gives:
-
 
 
 $$
@@ -6479,7 +6189,6 @@ S_{k'k}^{Ac}=\frac{2\pi}{\hbar} Z_{DP}^{2}\frac{\hbar \omega _{q}}{2V\rho c^{2}}
 $$
 
 
-
 where $S_{k'k}^{Ac}$ is the scattering rate for acoustic phonons. This equation shows that the scattering rate is proportional to the phonon density of states and the square of the electron-phonon coupling strength.
 
 
@@ -6487,13 +6196,11 @@ where $S_{k'k}^{Ac}$ is the scattering rate for acoustic phonons. This equation 
 In general, the scattering rate for phonons can be written as:
 
 
-
 $$
 
 S_{k'k}^{ph}=\frac{2\pi}{\hbar} \sum_{q} |<k'|\widehat{H}_{int}|k>|^{2} (N_{q}+\frac{1}{2}\pm \frac{1}{2})\delta _{k', k \pm q} \; \; (17)
 
 $$
-
 
 
 where the sum is taken over all phonon modes. This equation shows that the scattering rate for phonons is dependent on the electron-phonon coupling strength and the phonon occupation number.
@@ -6557,13 +6264,11 @@ The total scattering rate in a solid can be described by the Matthiessen's rule,
 The scattering rate, denoted by <math>\Gamma</math>, is a measure of how often an electron is scattered by a particular mechanism. It is defined as the inverse of the average time between scattering events. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \Gamma = \frac{1}{\tau}
 
 $$
-
 
 
 where <math>\tau</math> is the average time between scattering events, also known as the relaxation time. The relaxation time is an important parameter in solid-state physics as it determines the mobility of carriers and the electrical conductivity of the material.
@@ -6573,13 +6278,11 @@ where <math>\tau</math> is the average time between scattering events, also know
 The relaxation time can be calculated using the scattering rate and the density of states, <math>D(E)</math>, which represents the number of available states at a particular energy level. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \tau = \frac{1}{\Gamma} = \frac{1}{2\pi\hbar} \int_{-\infty}^{\infty} D(E) \left|V_{if}\right|^2 \delta(E-E_f) \delta(E-E_i) dE
 
 $$
-
 
 
 where <math>V_{if}</math> is the interaction matrix element between the initial and final states, and <math>E_i</math> and <math>E_f</math> are the initial and final energy levels, respectively.
@@ -7279,9 +6982,7 @@ The Fermi level, which is the energy level at which there is a 50% probability o
 In the simple case of a parabolic, isotropic dispersion relation, the band structure of semiconductors can be approximated as:
 
 
-
 $$E = E_0 + \frac{\hbar^2k^2}{2m^*}$$
-
 
 
 where $E$ is the energy of an electron at wavevector $k$, $E_0$ is a constant giving the edge of energy of that band, and $m^*$ is a constant known as the effective mass. This effective mass represents the mass of an electron in the semiconductor, taking into account the influence of the crystal lattice.
@@ -7629,13 +7330,11 @@ The depletion region acts as an insulator, preventing the flow of current in rev
 The current-voltage (I-V) characteristics of a p-n junction can be described by the Shockley diode equation:
 
 
-
 $$
 
 I = I_0 \left( e^{\frac{V}{nV_T}} - 1 \right)
 
 $$
-
 
 
 where $I_0$ is the reverse saturation current, $V$ is the applied voltage, $n$ is the ideality factor, and $V_T$ is the thermal voltage. This equation shows that the current through a p-n junction is exponentially dependent on the applied voltage, with a small increase in voltage leading to a large increase in current.
@@ -7903,7 +7602,6 @@ In this subsection, we will explore the current-voltage characteristics of FETs 
 The current-voltage characteristics of a FET can be described by the following equations:
 
 
-
 $$
 
 i_{DS} = \begin{cases}
@@ -7918,8 +7616,6 @@ i_{DS} = \begin{cases}
 
 $$
 
-
-
 $$
 
 i_{GS} = \begin{cases}
@@ -7933,7 +7629,6 @@ i_{GS} = \begin{cases}
 \end{cases}
 
 $$
-
 
 
 Where $i_{DS}$ is the drain-source current, $i_{GS}$ is the gate-source current, $v_{GS}$ is the gate-source voltage, $v_{DS}$ is the drain-source voltage, $v_{th}$ is the threshold voltage, and $\beta$ and $\lambda$ are device parameters.
@@ -8005,7 +7700,6 @@ In this subsection, we will explore the current-voltage characteristics of FETs 
 The current-voltage characteristics of a FET can be described by the following equations:
 
 
-
 $$
 
 i_{DS} = \begin{cases}
@@ -8019,7 +7713,6 @@ k_n(v_{GS} - v_{th})(v_{DS} - \frac{1}{2}(v_{GS} - v_{th})), & \text{if } v_{GS}
 \end{cases}
 
 $$
-
 
 
 Where $i_{DS}$ is the drain current, $v_{GS}$ is the gate-source voltage, $v_{th}$ is the threshold voltage, $v_{DS}$ is the drain-source voltage, and $k_n$ is a constant related to the device's physical properties.
@@ -8083,7 +7776,6 @@ The depletion region acts as a barrier to the flow of current in the reverse dir
 The current-voltage characteristics of a diode can be described by the following equations:
 
 
-
 $$
 
 i_{D} = \begin{cases}
@@ -8095,7 +7787,6 @@ I_{S}(e^{\frac{v_{D}}{nV_{T}}} - 1), & \text{if } v_{D} \geq 0
 \end{cases}
 
 $$
-
 
 
 where $i_{D}$ is the diode current, $v_{D}$ is the diode voltage, $I_{S}$ is the reverse saturation current, $n$ is the ideality factor, and $V_{T}$ is the thermal voltage.
@@ -8129,7 +7820,6 @@ Another important application of diodes is in light-emitting diodes (LEDs), wher
 To analyze and design circuits using diodes, it is important to have a mathematical model that accurately describes their behavior. One such model is the Shockley diode equation, which is an empirical equation that relates the diode current to the diode voltage.
 
 
-
 $$
 
 i_{D} = I_{S}(e^{\frac{v_{D}}{nV_{T}}} - 1)
@@ -8137,9 +7827,7 @@ i_{D} = I_{S}(e^{\frac{v_{D}}{nV_{T}}} - 1)
 $$
 
 
-
 However, this equation does not have an explicit solution for the diode voltage, making it difficult to use in circuit analysis. An alternative approach is to use the Lambert "W"-function, also known as the Omega function, to obtain an explicit solution for the diode current in terms of the diode voltage.
-
 
 
 $$
@@ -8147,7 +7835,6 @@ $$
 v_{D} = nV_{T}W(\frac{i_{D}}{I_{S}}e^{\frac{v_{D}}{nV_{T}}})
 
 $$
-
 
 
 This solution can be used to analyze circuits with diodes and to determine the diode voltage and current for a given set of parameters. It is important to note that this solution is only valid for certain ranges of parameters, and for more accurate results, an iterative solution may be necessary.
@@ -8191,7 +7878,6 @@ The depletion region acts as a barrier to the flow of current in the reverse dir
 The current-voltage characteristics of a diode can be described by the following equations:
 
 
-
 $$
 
 i_{D} = \begin{cases}
@@ -8203,7 +7889,6 @@ I_{S}(e^{\frac{v_{D}}{nV_{T}}} - 1), & \text{if } v_{D} \geq 0
 \end{cases}
 
 $$
-
 
 
 where $i_{D}$ is the diode current, $v_{D}$ is the diode voltage, $I_{S}$ is the reverse saturation current, $n$ is the ideality factor, and $V_{T}$ is the thermal voltage.
@@ -8307,7 +7992,6 @@ The depletion region acts as a barrier to the flow of current in the reverse dir
 The current-voltage characteristics of a diode can be described by the following equations:
 
 
-
 $$
 
 i_{D} = \begin{cases}
@@ -8319,7 +8003,6 @@ I_{S}(e^{\frac{v_{D}}{nV_{T}}} - 1), & \text{if } v_{D} \geq 0
 \end{cases}
 
 $$
-
 
 
 where $i_{D}$ is the diode current, $v_{D}$ is the diode voltage, $I_{S}$ is the reverse saturation current, $n$ is the ideality factor, and $V_{T}$ is the thermal voltage.
@@ -9891,25 +9574,19 @@ To understand this, let's consider a solid made up of N atoms, each with 3 degre
 To find the entropy of the system, we must first compute the multiplicity, which is the number of ways to distribute q quanta of energy among N' SHOs. This can be visualized as distributing q pebbles over N' boxes, separating stacks of pebbles with N'-1 partitions, or arranging q pebbles and N'-1 partitions. The number of possible arrangements is given by $(q+N'-1)!$. However, to obtain the number of "distinguishable" arrangements, we must divide by the number of "indistinguishable" arrangements, which is $q!(N'-1)!$. Therefore, the multiplicity of the system is given by:
 
 
-
 $$\Omega = \frac{(q+N'-1)!}{q!(N'-1)!}$$
-
 
 
 Using statistical mechanics, we can then calculate the entropy of the system as:
 
 
-
 $$S = k_B \ln \Omega$$
-
 
 
 where $k_B$ is the Boltzmann constant. From the entropy, we can then derive the heat capacity of the solid using the relation:
 
 
-
 $$C_V = T \left(\frac{\partial S}{\partial T}\right)_V$$
-
 
 
 At low temperatures, the entropy and heat capacity predicted by the quantum theory of heat capacity decrease as the temperature approaches absolute zero. This is in contrast to the classical theory, which predicts a constant heat capacity at all temperatures.
@@ -10011,13 +9688,11 @@ The most fundamental equation governing heat transfer in solids is known as Four
 This can be expressed mathematically as:
 
 
-
 $$
 
 Q = -kA\frac{\partial T}{\partial x}
 
 $$
-
 
 
 where Q is the rate of heat transfer, k is the thermal conductivity of the material, A is the cross-sectional area, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -10089,13 +9764,11 @@ The most fundamental equation governing heat transfer in solids is known as Four
 This can be expressed mathematically as:
 
 
-
 $$
 
 Q = -kA\frac{\partial T}{\partial x}
 
 $$
-
 
 
 where Q is the rate of heat transfer, k is the thermal conductivity of the material, A is the cross-sectional area, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -10171,13 +9844,11 @@ The most fundamental equation governing heat transfer in solids is known as Four
 This can be expressed mathematically as:
 
 
-
 $$
 
 Q = -kA\frac{\partial T}{\partial x}
 
 $$
-
 
 
 where Q is the rate of heat transfer, k is the thermal conductivity of the material, A is the cross-sectional area, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -10601,13 +10272,11 @@ The dielectric constant, also known as the relative permittivity, is a measure o
 The dielectric constant is closely related to the dielectric polarization. As the polarization of a material increases, so does its dielectric constant. This relationship is described by the Clausius-Mossotti equation:
 
 
-
 $$
 
 \frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}
 
 $$
-
 
 
 where $\epsilon_r$ is the dielectric constant, $N$ is the number density of dipoles, $\alpha$ is the polarizability of the dipoles, and $\epsilon_0$ is the permittivity of free space.
@@ -10771,13 +10440,11 @@ The dielectric constant, also known as the relative permittivity, is a fundament
 The dielectric constant is typically denoted as $\epsilon_r$ (sometimes $\kappa$, lowercase kappa) and is defined as:
 
 
-
 $$
 
 \epsilon_r = \frac{\epsilon(\omega)}{\epsilon_0}
 
 $$
-
 
 
 where $\epsilon(\omega)$ is the complex frequency-dependent permittivity of the material and $\epsilon_0$ is the vacuum permittivity. Since the dielectric constant is a dimensionless number, it is often expressed in terms of its real and imaginary parts, denoted as $\epsilon_r'(\omega)$ and $\epsilon_r''(\omega)$ respectively.
@@ -10795,13 +10462,11 @@ The dielectric constant is a crucial parameter in the design and development of 
 The dielectric constant can be measured using various techniques, such as the parallel plate capacitor method, the transmission line method, and the cavity resonator method. In all these methods, the dielectric material is placed between two electrodes, and the capacitance is measured. The dielectric constant can then be calculated using the formula:
 
 
-
 $$
 
 \epsilon_r = \frac{C}{C_0}
 
 $$
-
 
 
 where $C$ is the capacitance with the dielectric material and $C_0$ is the capacitance without the dielectric material.
@@ -10831,13 +10496,11 @@ The term "dielectric constant" is still commonly used, but it has been deprecate
 The relative permittivity is also sometimes referred to as the "dielectric susceptibility" $\chi_e$. This is because the relative permittivity is related to the electric susceptibility by the formula:
 
 
-
 $$
 
 \epsilon_r = 1 + \chi_e
 
 $$
-
 
 
 In chemistry, the term "dielectric constant" is still commonly used to refer to the relative permittivity. However, in engineering and physics, the term "dielectric constant" is now considered deprecated and is no longer used. 
@@ -10861,13 +10524,11 @@ The dielectric constant, also known as the relative permittivity, is a fundament
 The dielectric constant is typically denoted as $\epsilon_r$ (sometimes $\kappa$, lowercase kappa) and is defined as:
 
 
-
 $$
 
 \epsilon_r = \frac{\epsilon(\omega)}{\epsilon_0}
 
 $$
-
 
 
 where $\epsilon(\omega)$ is the complex frequency-dependent permittivity of the material and $\epsilon_0$ is the vacuum permittivity. Since the dielectric constant is a dimensionless number, it is often expressed in terms of its real and imaginary parts, denoted as $\epsilon_r'(\omega)$ and $\epsilon_r''(\omega)$ respectively.
@@ -10885,13 +10546,11 @@ The dielectric constant is a crucial parameter in the design and development of 
 The dielectric constant can be measured using various techniques, such as the parallel plate capacitor method, the transmission line method, and the cavity resonator method. In all these methods, the dielectric material is placed between two electrodes, and the capacitance is measured. The dielectric constant can then be calculated using the formula:
 
 
-
 $$
 
 \epsilon_r = \frac{C}{C_0}
 
 $$
-
 
 
 where $C$ is the capacitance with the dielectric material and $C_0$ is the capacitance without the dielectric material.
@@ -10913,13 +10572,11 @@ In addition to its dependence on frequency, the dielectric constant also exhibit
 The temperature dependence of the dielectric constant can be described by the Curie-Weiss law, which states that the dielectric constant is inversely proportional to the temperature:
 
 
-
 $$
 
 \epsilon_r \propto \frac{1}{T}
 
 $$
-
 
 
 where $T$ is the temperature in Kelvin.
@@ -10929,13 +10586,11 @@ where $T$ is the temperature in Kelvin.
 The frequency and temperature dependence of the dielectric constant can also be combined into a single equation known as the Debye equation:
 
 
-
 $$
 
 \epsilon_r(\omega, T) = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + (i\omega\tau)^{1-\alpha}}
 
 $$
-
 
 
 where $\epsilon_\infty$ is the high-frequency dielectric constant, $\epsilon_s$ is the static dielectric constant, $\tau$ is the relaxation time, and $\alpha$ is the dielectric relaxation exponent.
@@ -10963,13 +10618,11 @@ The dielectric constant, also known as the relative permittivity, is a fundament
 The dielectric constant is typically denoted as $\epsilon_r$ (sometimes $\kappa$, lowercase kappa) and is defined as:
 
 
-
 $$
 
 \epsilon_r = \frac{\epsilon(\omega)}{\epsilon_0}
 
 $$
-
 
 
 where $\epsilon(\omega)$ is the complex frequency-dependent permittivity of the material and $\epsilon_0$ is the vacuum permittivity. Since the dielectric constant is a dimensionless number, it is often expressed in terms of its real and imaginary parts, denoted as $\epsilon_r'(\omega)$ and $\epsilon_r''(\omega)$ respectively.
@@ -10987,13 +10640,11 @@ The dielectric constant is a crucial parameter in the design and development of 
 The dielectric constant can be measured using various techniques, such as the parallel plate capacitor method, the transmission line method, and the cavity resonator method. In all these methods, the dielectric material is placed between two electrodes, and the capacitance is measured. The dielectric constant can then be calculated using the formula:
 
 
-
 $$
 
 \epsilon_r = \frac{C}{C_0}
 
 $$
-
 
 
 where $C$ is the capacitance with the dielectric material and $C_0$ is the capacitance without the dielectric material.
@@ -11333,9 +10984,7 @@ Stress is defined as the force per unit area applied to a material. It is repres
 The relationship between stress and strain is described by Hooke's law, which states that the strain of a material is directly proportional to the stress applied to it, as long as the material remains within its elastic limit. This can be expressed mathematically as:
 
 
-
 $$\sigma = E\epsilon$$
-
 
 
 where $E$ is the elastic modulus, a material property that describes its stiffness or resistance to deformation.
@@ -11347,7 +10996,6 @@ There are different types of stress and strain, depending on the direction and n
 
 
 In the context of critical state soil mechanics, we can apply these concepts to understand the behavior of soils under different conditions. For example, in a plane stress state, the stress matrix can be represented as:
-
 
 
 $$\sigma = \begin{bmatrix}
@@ -11367,9 +11015,7 @@ $$\sigma = \begin{bmatrix}
 \end{bmatrix}$$
 
 
-
 In drained conditions, the plane strain state of stress can be separated into distortional and volumetric parts, as shown below:
-
 
 
 $$\sigma = \begin{bmatrix}
@@ -11395,13 +11041,11 @@ $$\sigma = \begin{bmatrix}
 \end{bmatrix}$$
 
 
-
 where $\sigma_{hydrostatic}$ is the mean stress, or the average of the normal stresses in the $x$ and $z$ directions.
 
 
 
 In a drained state of stress, we can also consider the effect of loading on the stress matrix. For example, after a loading of $\delta\sigma_z$, the stress matrix can be represented as:
-
 
 
 $$\begin{bmatrix}
@@ -11423,7 +11067,6 @@ $$\begin{bmatrix}
 0 & \sigma_z
 
 \end{bmatrix}$$
-
 
 
 where $\sigma_z$ is the additional stress applied in the $z$ direction.
@@ -11467,9 +11110,7 @@ Stress is defined as the force per unit area applied to a material. It is repres
 The relationship between stress and strain is described by Hooke's law, which states that the strain of a material is directly proportional to the stress applied to it, as long as the material remains within its elastic limit. This can be expressed mathematically as:
 
 
-
 $$\sigma = E\epsilon$$
-
 
 
 where $E$ is the elastic modulus, a material property that describes its stiffness or resistance to deformation.
@@ -11533,9 +11174,7 @@ Stress is defined as the force per unit area applied to a material. It is repres
 The relationship between stress and strain is described by Hooke's law, which states that the strain of a material is directly proportional to the stress applied to it, as long as the material remains within its elastic limit. This can be expressed mathematically as:
 
 
-
 $$\sigma = E\epsilon$$
-
 
 
 where $E$ is the elastic modulus, a material property that describes its stiffness or resistance to deformation.
@@ -12121,13 +11760,11 @@ The surface tensions of common liquids occupy a relatively narrow range of value
 The free surface of a liquid is disturbed by gravity, resulting in a flatness that can be described by the Young-Laplace equation:
 
 
-
 $$
 
 \Delta P = \frac{\gamma}{R}
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference across the surface, $\gamma$ is the surface tension, and $R$ is the radius of curvature of the surface. This equation is essential for understanding the behavior of liquids in confined spaces, such as in microfluidic devices.
@@ -12529,13 +12166,11 @@ One of the key factors in epitaxial growth is the concept of mismatch strain. Th
 The misfit parameter (f) is a measure of the mismatch strain and is given by the equation:
 
 
-
 $$
 
 f = \frac{a_e - a_s}{a_s}
 
 $$
-
 
 
 where a_e is the lattice parameter of the epitaxial film and a_s is the lattice parameter of the substrate. A high value of f indicates a large mismatch strain, while a low value indicates a smaller strain.
@@ -12549,13 +12184,11 @@ When the mismatch strain is too high, it can lead to the formation of defects su
 The critical thickness (h_c) is another important parameter in epitaxial growth. It refers to the thickness at which the film becomes energetically favorable to relieve some of the mismatch strain through the formation of defects. The critical thickness can be calculated using the equation:
 
 
-
 $$
 
 h_c = \frac{b}{2\pi}\sqrt{\frac{1-\nu}{\alpha\lambda}}
 
 $$
-
 
 
 where b is the length of the Burgers vector, ν is the Poisson ratio, α is the angle between the Burgers vector and the misfit dislocation line, and λ is the angle between the Burgers vector and the vector normal to the dislocation's glide plane.
@@ -12603,13 +12236,11 @@ In the GaAs/AlAs system, the lattice mismatch and thermal expansion coefficient 
 The properties of multilayers and superlattices are highly dependent on the materials used and the layer thicknesses. The misfit parameter (f) is a measure of the mismatch strain between the layers and is given by the equation:
 
 
-
 $$
 
 f = \frac{a_e - a_s}{a_s}
 
 $$
-
 
 
 where a_e is the lattice parameter of the epitaxial film and a_s is the lattice parameter of the substrate. A high value of f indicates a large mismatch strain, while a low value indicates a smaller strain. This mismatch strain can have a significant impact on the properties of the multilayer, and it can be either beneficial or detrimental depending on the application.
@@ -13529,13 +13160,11 @@ X-ray diffraction is a powerful technique for studying the crystal structure of 
 Bragg's law is given by the equation:
 
 
-
 $$
 
 n\lambda = 2d\sin\theta
 
 $$
-
 
 
 where $n$ is the order of the diffraction, $\lambda$ is the wavelength of the X-rays, $d$ is the spacing between crystal planes, and $\theta$ is the angle of incidence. This equation allows us to determine the spacing between crystal planes, which is a crucial factor in determining the crystal structure of a material.
@@ -13583,13 +13212,11 @@ X-ray diffraction is a powerful technique for studying the crystal structure of 
 Bragg's law is given by the equation:
 
 
-
 $$
 
 n\lambda = 2d\sin\theta
 
 $$
-
 
 
 where $n$ is the order of the diffraction, $\lambda$ is the wavelength of the X-rays, $d$ is the spacing between crystal planes, and $\theta$ is the angle of incidence. This equation allows us to determine the spacing between crystal planes, which is a crucial factor in determining the crystal structure of a material.
@@ -13645,13 +13272,11 @@ X-ray diffraction is a powerful technique for studying the crystal structure of 
 Bragg's law is given by the equation:
 
 
-
 $$
 
 n\lambda = 2d\sin\theta
 
 $$
-
 
 
 where $n$ is the order of the diffraction, $\lambda$ is the wavelength of the X-rays, $d$ is the spacing between crystal planes, and $\theta$ is the angle of incidence. This equation allows us to determine the spacing between crystal planes, which is a crucial factor in determining the crystal structure of a material.
@@ -16517,13 +16142,11 @@ In order to fully understand the principles of piezoelectricity, it is important
 The piezoelectric effect can be mathematically described by the following equation:
 
 
-
 $$
 
 \Delta V = d_{ij}T_{ij}
 
 $$
-
 
 
 where $\Delta V$ is the change in voltage, $d_{ij}$ is the piezoelectric coefficient, and $T_{ij}$ is the applied stress. This equation shows that the change in voltage is directly proportional to the piezoelectric coefficient and the applied stress. This relationship is known as the direct piezoelectric effect.
@@ -16533,13 +16156,11 @@ where $\Delta V$ is the change in voltage, $d_{ij}$ is the piezoelectric coeffic
 Conversely, the inverse piezoelectric effect describes the generation of mechanical strain in response to an applied electric field. This effect can be described by the following equation:
 
 
-
 $$
 
 \Delta L = d_{ij}E_{ij}
 
 $$
-
 
 
 where $\Delta L$ is the change in length, $d_{ij}$ is the piezoelectric coefficient, and $E_{ij}$ is the applied electric field. This effect is the basis for the operation of piezoelectric actuators, which are used in various mechanical devices for precise control and movement.
@@ -16579,13 +16200,11 @@ To fully understand the principles of piezoelectricity, it is important to first
 The piezoelectric effect can be mathematically described by the following equation:
 
 
-
 $$
 
 \Delta V = d_{ij}T_{ij}
 
 $$
-
 
 
 where $\Delta V$ is the change in voltage, $d_{ij}$ is the piezoelectric coefficient, and $T_{ij}$ is the applied stress. This equation shows that the change in voltage is directly proportional to the piezoelectric coefficient and the applied stress. Therefore, by controlling the stress applied to a piezoelectric material, we can control the amount of electric charge generated.
@@ -16641,13 +16260,11 @@ To fully understand the principles of piezoelectricity, it is important to first
 The piezoelectric effect can be mathematically described by the following equation:
 
 
-
 $$
 
 \Delta V = d_{ij}T_{ij}
 
 $$
-
 
 
 where $\Delta V$ is the change in voltage, $d_{ij}$ is the piezoelectric coefficient, and $T_{ij}$ is the applied stress. This equation shows that the change in voltage is directly proportional to the piezoelectric coefficient and the applied stress. Therefore, by controlling the stress applied to a piezoelectric material, we can control the amount of electric charge generated.
@@ -17171,9 +16788,7 @@ A recent study in 2019 tested the viability of TEG active cooling on a Raspberry
 The power generation of TEG is given by the equation:
 
 
-
 $$P_{TEG}\rightarrow \frac{fan\ air\ flow}{fan\ power}\rightarrow\sum R_{thermal}\rightarrow\bigtriangleup T_{TEG}\rightarrow P_{TEG}$$
-
 
 
 where $P_{TEG}$ is the power generated by TEG, $R_{thermal}$ is the thermal resistance, and $T_{TEG}$ is the temperature from TEG. This equation highlights the importance of minimizing thermal resistance and maximizing temperature difference for efficient power generation in TEGs.
@@ -17605,13 +17220,11 @@ In this section, we will discuss the principles of capacitors and other dielectr
 A capacitor is a device that stores electric charge by creating an electric field between two conductive plates separated by a dielectric material. The amount of charge stored in a capacitor is directly proportional to the voltage applied across it, and inversely proportional to the distance between the plates. This relationship is described by the equation:
 
 
-
 $$
 
 Q = CV
 
 $$
-
 
 
 where Q is the charge stored, C is the capacitance, and V is the voltage.
@@ -17663,13 +17276,11 @@ In this section, we will discuss the principles of capacitors and other dielectr
 A capacitor is a device that stores electric charge by creating an electric field between two conductive plates separated by a dielectric material. The amount of charge stored in a capacitor is directly proportional to the voltage applied across it, and inversely proportional to the distance between the plates. This relationship is described by the equation:
 
 
-
 $$
 
 Q = CV
 
 $$
-
 
 
 where Q is the charge stored, C is the capacitance, and V is the voltage.
@@ -17791,7 +17402,6 @@ The behavior of ferroelectric materials can be described by Landau theory, which
 The free energy of a ferroelectric material can be written as:
 
 
-
 $$
 
 \Delta E= \frac{1}{2}\alpha_0\left(T-T_0\right)\left(P_x^2+P_y^2+P_z^2\right)+
@@ -17809,7 +17419,6 @@ $$
 +\frac{1}{2}\alpha_{123}P_x^2P_y^2P_z^2
 
 $$
-
 
 
 where "T" represents the temperature, "T<sub>0</sub>" is the Curie temperature, and the coefficients, <math>\alpha_i, \alpha_{ij}, \alpha_{ijk}</math>, must be consistent with the crystal symmetry. The first term in the free energy equation represents the contribution from temperature, while the remaining terms represent the contributions from the different orders of the polarization vector.
@@ -17969,7 +17578,6 @@ Conversely, when an electric field is applied to these materials, the atoms are 
 The mathematical description of piezoelectricity is given by the piezoelectric tensor, denoted by <math>\mathfrak{d}</math>. This tensor relates the stress and strain components to the electric field and charge components, respectively. In matrix form, this can be expressed as:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -18025,7 +17633,6 @@ E_3 \\
 $$
 
 
-
 where <math>\sigma</math> represents the stress components, <math>E</math> represents the electric field components, and <math>d</math> represents the piezoelectric coefficients.
 
 
@@ -18069,7 +17676,6 @@ Conversely, when an electric field is applied to these materials, the atoms are 
 
 
 The mathematical description of piezoelectricity is given by the piezoelectric tensor, denoted by <math>\mathfrak{d}</math>. This tensor relates the stress and strain components to the electric field and charge components, respectively. In matrix form, this can be expressed as:
-
 
 
 $$

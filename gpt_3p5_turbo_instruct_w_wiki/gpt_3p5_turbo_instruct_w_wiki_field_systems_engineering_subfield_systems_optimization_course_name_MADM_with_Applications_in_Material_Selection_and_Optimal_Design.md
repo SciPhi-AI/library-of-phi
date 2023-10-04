@@ -2005,9 +2005,7 @@ Once the weights are assigned, the next step is to calculate a weighted sum for 
 
 
 $$
-
 WS_A = (0.4 * 100) + (0.2 * 50,000) + (0.2 * 8) = 40 + 10,000 + 1.6 = 10,041.6
-
 $$
 
 
@@ -5673,9 +5671,7 @@ The SNR is typically expressed as a ratio, but it can also be expressed in decib
 
 
 $$
-
 \mathrm{SNR_{dB}} = 10 \log_{10} \left ( \mathrm{SNR} \right ).
-
 $$
 
 
@@ -5693,9 +5689,7 @@ It is also worth noting that the SNR is affected by the type of signal being mea
 
 
 $$
-
 \mathrm{SNR} = \frac{s^2}{E[N^2]},
-
 $$
 
 
@@ -5705,9 +5699,7 @@ where E refers to the expected value, or mean square, of the noise. On the other
 
 
 $$
-
 \mathrm{SNR} = \frac{E[S^2]}{E[N^2]}.
-
 $$
 
 
@@ -5759,9 +5751,7 @@ It is worth noting that the SNR is affected by the type of signal being measured
 
 
 $$
-
 \mathrm{SNR} = \frac{s^2}{E[N^2]},
-
 $$
 
 
@@ -5771,9 +5761,7 @@ where E refers to the expected value, or mean square, of the noise. On the other
 
 
 $$
-
 \mathrm{SNR} = \frac{E[S^2]}{E[N^2]}.
-
 $$
 
 
@@ -10165,17 +10153,13 @@ Let $S$ be the number of particles in the swarm, each having a position $x_i \in
 
 
 $$
-
 v_i(n+1) = wv_i(n) + \phi_p r_p (p_i(n) - x_i(n)) + \phi_g r_g (g(n) - x_i(n))
-
 $$
 
 
 
 $$
-
 x_i(n+1) = x_i(n) + v_i(n+1)
-
 $$
 
 

@@ -1377,17 +1377,13 @@ One example of a continuous time dynamic optimization problem is the extended Ka
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -1401,41 +1397,31 @@ The goal of the extended Kalman filter is to estimate the state of the system, $
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -1495,17 +1481,13 @@ One example of a continuous time dynamic optimization problem is the extended Ka
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -1519,17 +1501,13 @@ The goal of the extended Kalman filter is to estimate the state of the system, $
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -2003,17 +1981,13 @@ One example of a continuous time dynamic optimization problem is the extended Ka
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -2039,17 +2013,13 @@ Most physical systems are represented as continuous-time models while discrete-t
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -2169,13 +2139,11 @@ Consider a production planning problem where a company needs to determine the op
 Solve the following dynamic optimization problem using dynamic programming:
 
 $$
-
 \max_{x_1, x_2} \sum_{t=1}^T (x_1(t) + x_2(t)) \\
 
 \text{subject to } x_1(t+1) = x_1(t) + 2x_2(t), \quad x_2(t+1) = x_2(t) + 3x_1(t) \\
 
 x_1(0) = 1, \quad x_2(0) = 2
-
 $$
 
 
@@ -2191,11 +2159,9 @@ Consider a portfolio optimization problem where an investor needs to determine t
 Solve the following dynamic optimization problem using the calculus of variations:
 
 $$
-
 \min_{y(t)} \int_0^T (y(t)^2 + y'(t)^2) dt \\
 
 \text{subject to } y(0) = 1, \quad y(T) = 2
-
 $$
 
 
@@ -2523,9 +2489,7 @@ To understand this principle, let us consider a discrete-time deterministic mode
 
 
 $$
-
 J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt
-
 $$
 
 
@@ -2539,9 +2503,7 @@ The Principle of Optimality states that the optimal state trajectory $x^*$, opti
 
 
 $$
-
 H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)
-
 $$
 
 
@@ -2551,17 +2513,13 @@ for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathca
 
 
 $$
-
 \dot{\lambda}(t) = -\frac{\partial H}{\partial x}(x^*(t),u^*(t),\lambda^*(t),t)
-
 $$
 
 
 
 $$
-
 \lambda(T) = \frac{\partial \Psi}{\partial x}(x(T))
-
 $$
 
 
@@ -2667,9 +2625,7 @@ Before we dive into the specifics of concavity and differentiability, let us fir
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2679,9 +2635,7 @@ for all $0 \leq t \leq 1$ and all $x_1, x_2 \in X$. In other words, the graph of
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2757,9 +2711,7 @@ Before we dive into the specifics of concavity and differentiability, let us fir
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2769,9 +2721,7 @@ for all $0 \leq t \leq 1$ and all $x_1, x_2 \in X$. In other words, the graph of
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2827,9 +2777,7 @@ Before we dive into the specifics of concavity and differentiability, let us fir
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2839,9 +2787,7 @@ for all $0 \leq t \leq 1$ and all $x_1, x_2 \in X$. In other words, the graph of
 
 
 $$
-
 f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
-
 $$
 
 
@@ -2867,9 +2813,7 @@ To better understand the differentiability of the value function, let us conside
 
 
 $$
-
 f(y) \geq f(x) + g^T(y-x)
-
 $$
 
 
@@ -2929,9 +2873,7 @@ The Euler-Lagrange equation is a fundamental tool in the field of calculus of va
 
 
 $$
-
 \frac{\partial L}{\partial \boldsymbol q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{\boldsymbol q_i}} = 0, \quad i = 1, \dots, n
-
 $$
 
 
@@ -2941,9 +2883,7 @@ where $L$ is the Lagrangian, a smooth real-valued function defined on the tangen
 
 
 $$
-
 \dot{\boldsymbol q_i} = \frac{\partial H}{\partial \boldsymbol p_i}, \quad \dot{\boldsymbol p_i} = -\frac{\partial H}{\partial \boldsymbol q_i}, \quad i = 1, \dots, n
-
 $$
 
 
@@ -2957,9 +2897,7 @@ The Euler-Lagrange equation is a powerful tool in solving dynamic optimization p
 
 
 $$
-
 \eta(a) = \eta(b) = 0
-
 $$
 
 
@@ -2995,9 +2933,7 @@ The Euler-Lagrange equation is a fundamental tool in the field of calculus of va
 
 
 $$
-
 \frac{\partial L}{\partial \boldsymbol q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{\boldsymbol q_i}} = 0, \quad i = 1, \dots, n
-
 $$
 
 
@@ -3007,9 +2943,7 @@ where $L$ is the Lagrangian, a smooth real-valued function defined on the tangen
 
 
 $$
-
 \dot{\boldsymbol q_i} = \frac{\partial H}{\partial \boldsymbol p_i}, \quad \dot{\boldsymbol p_i} = -\frac{\partial H}{\partial \boldsymbol q_i}, \quad i = 1, \dots, n
-
 $$
 
 
@@ -3243,9 +3177,7 @@ Mathematically, a production function with constant returns to scale can be repr
 
 
 $$
-
 Y = F(K,L)
-
 $$
 
 
@@ -3263,9 +3195,7 @@ In dynamic optimization, the constant returns to scale production function plays
 
 
 $$
-
 \frac{\partial F}{\partial K} = \frac{\partial F}{\partial L} = \lambda
-
 $$
 
 
@@ -3305,9 +3235,7 @@ Mathematically, a production function with constant returns to scale can be repr
 
 
 $$
-
 Y = F(K,L)
-
 $$
 
 
@@ -3325,9 +3253,7 @@ In dynamic optimization, the constant returns to scale production function plays
 
 
 $$
-
 \frac{\partial F}{\partial K} = \frac{\partial F}{\partial L} = \lambda
-
 $$
 
 
@@ -3353,11 +3279,9 @@ To find the optimal input and output levels, we can use the MRTS to set up an op
 
 
 $$
-
 \max_{K,L} F(K,L) \\
 
 \text{subject to } \frac{\partial F}{\partial K} = \frac{\partial F}{\partial L} = \lambda
-
 $$
 
 
@@ -3401,9 +3325,7 @@ Mathematically, a production function with constant returns to scale can be repr
 
 
 $$
-
 Y = F(K,L)
-
 $$
 
 
@@ -3421,9 +3343,7 @@ In dynamic optimization, the constant returns to scale production function plays
 
 
 $$
-
 \frac{\partial F}{\partial K} = \frac{\partial F}{\partial L} = \lambda
-
 $$
 
 
@@ -3483,9 +3403,7 @@ In nonstationary models, the parameters of the system are not constant and may c
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t), \boldsymbol{\theta}(t)\bigr)
-
 $$
 
 
@@ -3533,9 +3451,7 @@ In nonstationary models, the parameters of the system are not constant and may c
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t), \boldsymbol{\theta}(t)\bigr)
-
 $$
 
 
@@ -3623,9 +3539,7 @@ In nonstationary models, the parameters of the system are not constant and may c
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t), \boldsymbol{\theta}(t)\bigr)
-
 $$
 
 
@@ -3689,9 +3603,7 @@ Overall, this chapter serves as a solid foundation for understanding discrete ti
 Consider a discrete time deterministic model with the following state equation:
 
 $$
-
 x_{n+1} = ax_n + bu_n
-
 $$
 
 where $x_n$ is the state at time $n$, $u_n$ is the control input, and $a$ and $b$ are constants. Derive the optimal control policy using dynamic programming.
@@ -3703,9 +3615,7 @@ where $x_n$ is the state at time $n$, $u_n$ is the control input, and $a$ and $b
 In a manufacturing process, the production rate at time $n$ is given by the following equation:
 
 $$
-
 p_n = \frac{1}{2}p_{n-1} + 10u_n
-
 $$
 
 where $p_n$ is the production rate at time $n$ and $u_n$ is the control input. If the initial production rate is $p_0 = 100$, find the optimal control policy that maximizes the total production over a period of $N$ time steps.
@@ -3717,9 +3627,7 @@ where $p_n$ is the production rate at time $n$ and $u_n$ is the control input. I
 Consider a discrete time deterministic model with the following state equation:
 
 $$
-
 x_{n+1} = x_n^2 + u_n
-
 $$
 
 where $x_n$ is the state at time $n$ and $u_n$ is the control input. Show that this model is nonlinear and discuss its potential applications.
@@ -3731,9 +3639,7 @@ where $x_n$ is the state at time $n$ and $u_n$ is the control input. Show that t
 In a population dynamics model, the population at time $n$ is given by the following equation:
 
 $$
-
 p_n = p_{n-1} + rp_{n-1}(1-\frac{p_{n-1}}{K})
-
 $$
 
 where $p_n$ is the population at time $n$, $r$ is the growth rate, and $K$ is the carrying capacity. If the initial population is $p_0 = 100$, find the optimal control policy that maximizes the total population over a period of $N$ time steps.
@@ -3857,9 +3763,7 @@ The Bellman equation for stochastic control can be written as follows:
 
 
 $$
-
 V(x) = \max_{u} \Bigl\{ f(x,u) + \int_{\Omega} V(x')p(x'|x,u)dx' \Bigr\}
-
 $$
 
 
@@ -3953,9 +3857,7 @@ Stochastic Euler equations are a type of stochastic differential equation that c
 
 
 $$
-
 dX_t = b(X_t)dt + \sigma(X_t)dW_t
-
 $$
 
 
@@ -3969,17 +3871,13 @@ To solve this equation, we can use the Magnus expansion, which is a method for s
 
 
 $$
-
 Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}
-
 $$
 
 
 
 $$
-
 Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}
-
 $$
 
 
@@ -3989,49 +3887,37 @@ where $Y_t^{(1)}$ and $Y_t^{(2)}$ are the first and second order expansions of t
 
 
 $$
-
 Y^{(0,0)}_t = 0
-
 $$
 
 
 
 $$
-
 Y^{(1,0)}_t = \int_0^t b(X_s)ds
-
 $$
 
 
 
 $$
-
 Y^{(0,1)}_t = \int_0^t \sigma(X_s)dW_s
-
 $$
 
 
 
 $$
-
 Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \sigma^2(X_s)ds + \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] dW_s
-
 $$
 
 
 
 $$
-
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s b(X_r)ds \Big] \, ds + \frac{1}{2} \int_0^t \Big[ b(X_s) ,\int_0^s \sigma(X_r)dW_r \Big] \, dW_s
-
 $$
 
 
 
 $$
-
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] \, ds
-
 $$
 
 
@@ -4083,9 +3969,7 @@ Stochastic Euler equations are a type of stochastic differential equation that c
 
 
 $$
-
 dX_t = b(X_t)dt + \sigma(X_t)dW_t
-
 $$
 
 
@@ -4099,17 +3983,13 @@ To solve this equation, we can use the Magnus expansion, which is a method for s
 
 
 $$
-
 Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}
-
 $$
 
 
 
 $$
-
 Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}
-
 $$
 
 
@@ -4119,49 +3999,37 @@ where $Y_t^{(1)}$ and $Y_t^{(2)}$ are the first and second order expansions of t
 
 
 $$
-
 Y^{(0,0)}_t = 0
-
 $$
 
 
 
 $$
-
 Y^{(1,0)}_t = \int_0^t b(X_s)ds
-
 $$
 
 
 
 $$
-
 Y^{(0,1)}_t = \int_0^t \sigma(X_s)dW_s
-
 $$
 
 
 
 $$
-
 Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \sigma^2(X_s)ds + \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] dW_s
-
 $$
 
 
 
 $$
-
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s b(X_r)ds \Big] \, ds + \frac{1}{2} \int_0^t \Big[ b(X_s) ,\int_0^s \sigma(X_r)dW_r \Big] \, dW_s
-
 $$
 
 
 
 $$
-
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] \, ds
-
 $$
 
 
@@ -4229,9 +4097,7 @@ Stochastic differential equations (SDEs) are a type of differential equation tha
 
 
 $$
-
 dX_t = b(X_t)dt + \sigma(X_t)dW_t
-
 $$
 
 
@@ -4245,17 +4111,13 @@ To solve this equation, we can use the Magnus expansion, which is a method for s
 
 
 $$
-
 Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}
-
 $$
 
 
 
 $$
-
 Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}
-
 $$
 
 
@@ -4265,49 +4127,37 @@ where $Y_t^{(1)}$ and $Y_t^{(2)}$ are the first and second order expansions of t
 
 
 $$
-
 Y^{(0,0)}_t = 0
-
 $$
 
 
 
 $$
-
 Y^{(1,0)}_t = \int_0^t b(X_s)ds
-
 $$
 
 
 
 $$
-
 Y^{(0,1)}_t = \int_0^t \sigma(X_s)dW_s
-
 $$
 
 
 
 $$
-
 Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \sigma^2(X_s)ds + \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] dW_s
-
 $$
 
 
 
 $$
-
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s b(X_r)ds \Big] \, ds + \frac{1}{2} \int_0^t \Big[ b(X_s) ,\int_0^s \sigma(X_r)dW_r \Big] \, dW_s
-
 $$
 
 
 
 $$
-
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] \, ds
-
 $$
 
 
@@ -4347,9 +4197,7 @@ Stochastic differential equations (SDEs) are a type of differential equation tha
 
 
 $$
-
 dX_t = b(X_t)dt + \sigma(X_t)dW_t
-
 $$
 
 
@@ -4363,17 +4211,13 @@ To solve this equation, we can use the Magnus expansion, which is a method for s
 
 
 $$
-
 Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}
-
 $$
 
 
 
 $$
-
 Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}
-
 $$
 
 
@@ -4383,49 +4227,37 @@ where $Y_t^{(1)}$ and $Y_t^{(2)}$ are the first and second order expansions of t
 
 
 $$
-
 Y^{(0,0)}_t = 0
-
 $$
 
 
 
 $$
-
 Y^{(1,0)}_t = \int_0^t b(X_s)ds
-
 $$
 
 
 
 $$
-
 Y^{(0,1)}_t = \int_0^t \sigma(X_s)dW_s
-
 $$
 
 
 
 $$
-
 Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \sigma^2(X_s)ds + \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] dW_s
-
 $$
 
 
 
 $$
-
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s b(X_r)ds \Big] \, ds + \frac{1}{2} \int_0^t \Big[ b(X_s) ,\int_0^s \sigma(X_r)dW_r \Big] \, dW_s
-
 $$
 
 
 
 $$
-
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] \, ds
-
 $$
 
 
@@ -4447,9 +4279,7 @@ Ito's Lemma can be stated as follows:
 
 
 $$
-
 df(X_t) = \Big( \frac{\partial f}{\partial t} + b(X_t)\frac{\partial f}{\partial x} + \frac{1}{2}\sigma^2(X_t)\frac{\partial^2 f}{\partial x^2} \Big)dt + \sigma(X_t)\frac{\partial f}{\partial x}dW_t
-
 $$
 
 
@@ -4493,9 +4323,7 @@ Stochastic differential equations (SDEs) are a type of differential equation tha
 
 
 $$
-
 dX_t = b(X_t)dt + \sigma(X_t)dW_t
-
 $$
 
 
@@ -4509,17 +4337,13 @@ To solve this equation, we can use the Magnus expansion, which is a method for s
 
 
 $$
-
 Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}
-
 $$
 
 
 
 $$
-
 Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}
-
 $$
 
 
@@ -4529,49 +4353,37 @@ where $Y_t^{(1)}$ and $Y_t^{(2)}$ are the first and second order expansions of t
 
 
 $$
-
 Y^{(0,0)}_t = 0
-
 $$
 
 
 
 $$
-
 Y^{(1,0)}_t = \int_0^t b(X_s)ds
-
 $$
 
 
 
 $$
-
 Y^{(0,1)}_t = \int_0^t \sigma(X_s)dW_s
-
 $$
 
 
 
 $$
-
 Y^{(2,0)}_t = - \frac{1}{2} \int_0^t \sigma^2(X_s)ds + \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] dW_s
-
 $$
 
 
 
 $$
-
 Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s b(X_r)ds \Big] \, ds + \frac{1}{2} \int_0^t \Big[ b(X_s) ,\int_0^s \sigma(X_r)dW_r \Big] \, dW_s
-
 $$
 
 
 
 $$
-
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ \sigma(X_s) , \int_0^s \sigma(X_r)dW_r \Big] \, ds
-
 $$
 
 
@@ -4733,9 +4545,7 @@ The general form of a continuous time model can be written as:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -4757,17 +4567,13 @@ State-space models are a popular representation for continuous time models. They
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) + \mathbf{w}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = \mathbf{C}\mathbf{x}(t) + \mathbf{D}\mathbf{u}(t) + \mathbf{v}(t)
-
 $$
 
 
@@ -4781,9 +4587,7 @@ Transfer function models, on the other hand, are a representation that is common
 
 
 $$
-
 G(s) = \frac{\mathbf{Y}(s)}{\mathbf{U}(s)}
-
 $$
 
 
@@ -4797,17 +4601,13 @@ Differential equation models are the most general representation of continuous t
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{f}\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = \mathbf{h}\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -4871,9 +4671,7 @@ The general form of a continuous time model can be written as:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -4895,9 +4693,7 @@ State-space models are a popular representation for continuous time models. They
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{A}(t)\mathbf{x}(t) + \mathbf{B}(t)\mathbf{u}(t) + \mathbf{w}(t)
-
 $$
 
 
@@ -4927,9 +4723,7 @@ An equilibrium point of a dynamic system is a state at which the system's behavi
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{0}
-
 $$
 
 
@@ -4973,9 +4767,7 @@ The general form of a continuous time model can be written as:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -4997,9 +4789,7 @@ State-space models are a popular representation for continuous time models. They
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) + \mathbf{w}(t)
-
 $$
 
 
@@ -5087,9 +4877,7 @@ The general form of a dynamic programming problem can be written as:
 
 
 $$
-
 V(x,t) = \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial t}(x,t) + \frac{\partial V}{\partial x}(x,t) \cdot g(x,u(t),t) \biggr\}
-
 $$
 
 
@@ -5111,9 +4899,7 @@ The HJB equation can be written as:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial x} \cdot g(x,u(t),t) \biggr\} = 0
-
 $$
 
 
@@ -5139,9 +4925,7 @@ The HJB equation can be written as:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial x} \cdot g(x,u(t),t) \biggr\} = 0
-
 $$
 
 
@@ -5189,9 +4973,7 @@ The general form of a dynamic programming problem can be written as:
 
 
 $$
-
 V(x,t) = \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial t}(x,t) + \frac{\partial V}{\partial x}(x,t) \cdot g(x,u(t),t) \biggr\}
-
 $$
 
 
@@ -5213,9 +4995,7 @@ The HJB equation can be written as:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial x} \cdot g(x,u(t),t) \biggr\} = 0
-
 $$
 
 
@@ -5237,9 +5017,7 @@ The variational inequality approach involves finding a solution to the HJB equat
 
 
 $$
-
 \frac{\partial V}{\partial t} + \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial x} \cdot g(x,u(t),t) \biggr\} \geq 0
-
 $$
 
 
@@ -5283,9 +5061,7 @@ The general form of a dynamic programming problem can be written as:
 
 
 $$
-
 V(x,t) = \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial t}(x,t) + \frac{\partial V}{\partial x}(x,t) \cdot g(x,u(t),t) \biggr\}
-
 $$
 
 
@@ -5307,9 +5083,7 @@ The HJB equation can be written as:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \max_{u(t)} \biggl\{ f(x,u(t),t) + \frac{\partial V}{\partial x}(x,t) \cdot g(x,u(t),t) \biggr\} = 0
-
 $$
 
 
@@ -5647,13 +5421,10 @@ Given a dynamical system with state variable $x$ and control variable $u$, the o
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
 
 
-
 subject to the system dynamics:
 
 
-
 $$\dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]$$
-
 
 
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system.
@@ -5667,21 +5438,15 @@ where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal ti
 Pontryagin's maximum principle is a necessary condition for the minimization of the cost functional in the optimal control problem. It states that the optimal state trajectory $x^*(t)$, optimal control $u^*(t)$, and corresponding Lagrange multiplier vector $\lambda^*(t)$ must minimize the Hamiltonian $H$ defined as:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$. Additionally, the costate equation and its terminal conditions must be satisfied:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
 
-
-
 $$\lambda^{\rm T}(T)=\Psi_x(x(T))$$
-
 
 
 where $\Psi_x(x(T))$ is the derivative of the terminal cost function with respect to the state variable $x$ at the terminal time $T$.
@@ -5749,17 +5514,13 @@ The maximum principle is a fundamental tool in optimal control theory that is us
 To understand the maximum principle, let us consider a dynamical system with state variable $x$ and control variable $u$. The objective is to find the optimal control policy $u^*(t)$ that minimizes the cost functional $J$ defined as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 subject to the system dynamics:
 
 
-
 $$\dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]$$
-
 
 
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system.
@@ -5769,21 +5530,15 @@ where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal ti
 According to the maximum principle, the optimal state trajectory $x^*(t)$, optimal control $u^*(t)$, and corresponding Lagrange multiplier vector $\lambda^*(t)$ must minimize the Hamiltonian $H$ defined as:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$. Additionally, the costate equation and its terminal conditions must be satisfied:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
 
-
-
 $$\lambda^{\rm T}(T)=\Psi_x(x(T))$$
-
 
 
 where $\Psi_x(x(T))$ is the derivative of the terminal cost function with respect to the state variable $x$ at the terminal time $T$.
@@ -5843,17 +5598,13 @@ The maximum principle is a fundamental tool in optimal control theory that is us
 To understand the maximum principle, let us consider a dynamical system with state variable $x$ and control variable $u$. The objective is to find the optimal control policy $u^*(t)$ that minimizes the cost functional $J$ defined as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 subject to the system dynamics:
 
 
-
 $$\dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]$$
-
 
 
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system.
@@ -5863,21 +5614,15 @@ where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal ti
 According to the maximum principle, the optimal state trajectory $x^*(t)$, optimal control $u^*(t)$, and corresponding Lagrange multiplier vector $\lambda^*(t)$ must minimize the Hamiltonian $H$ defined as:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$. Additionally, the costate equation and its terminal conditions must be satisfied:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
 
-
-
 $$\lambda^{\rm T}(T)=\Psi_x(x(T))$$
-
 
 
 where $\Psi_x(x(T))$ is the derivative of the terminal cost function with respect to the state $x$ at the final time $T$. This condition ensures that the optimal control policy not only minimizes the cost functional $J$, but also satisfies the system dynamics and the terminal conditions.
@@ -5941,17 +5686,13 @@ The maximum principle is a fundamental tool in optimal control theory that is us
 To understand the maximum principle, let us consider a dynamical system with state variable $x$ and control variable $u$. The objective is to find the optimal control policy $u^*(t)$ that minimizes the cost functional $J$ defined as:
 
 
-
 $$J=\Psi(x(T))+\int^T_0 L(x(t),u(t)) \,dt$$
-
 
 
 subject to the system dynamics:
 
 
-
 $$\dot{x}=f(x,u), \quad x(0)=x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]$$
-
 
 
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system.
@@ -5961,21 +5702,15 @@ where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal ti
 According to the maximum principle, the optimal state trajectory $x^*(t)$, optimal control $u^*(t)$, and corresponding Lagrange multiplier vector $\lambda^*(t)$ must minimize the Hamiltonian $H$ defined as:
 
 
-
 $$H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))$$
-
 
 
 for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$. Additionally, the costate equation and its terminal conditions must be satisfied:
 
 
-
 $$-\dot{\lambda}^{\rm T}(t)=H_x(x^*(t),u^*(t),\lambda(t),t)=\lambda^{\rm T}(t)f_x(x^*(t),u^*(t))+L_x(x^*(t),u^*(t))$$
 
-
-
 $$\lambda^{\rm T}(T)=\Psi_x(x(T))$$
-
 
 
 where $\Psi_x(x(T))$ is the derivative of the terminal cost function with respect to the state variable $x$ at the terminal time $T$.
@@ -6043,13 +5778,11 @@ Overall, this chapter has provided a comprehensive overview of continuous time m
 #### Exercise 1
 
 Consider the following continuous time model:
-
 $$
 
 \dot{x} = f(x,u)
 
 $$
-
 where $x$ is the state vector and $u$ is the control input. Derive the Euler-Lagrange equation for this model.
 
 
@@ -6057,15 +5790,12 @@ where $x$ is the state vector and $u$ is the control input. Derive the Euler-Lag
 #### Exercise 2
 
 Solve the following optimal control problem using the Pontryagin's maximum principle:
-
 $$
 
 \min_u \int_{t_0}^{t_f} L(x,u,t) dt
 
 $$
-
 subject to
-
 $$
 
 \dot{x} = f(x,u,t), \quad x(t_0) = x_0, \quad x(t_f) = x_f
@@ -6073,17 +5803,14 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider a simple pendulum system with the following dynamics:
-
 $$
 
 \ddot{\theta} = -\frac{g}{l}\sin\theta + u
 
 $$
-
 where $\theta$ is the angle of the pendulum, $g$ is the gravitational constant, $l$ is the length of the pendulum, and $u$ is the control input. Use the Euler-Lagrange equation to derive the optimal control law for stabilizing the pendulum at the upright position.
 
 
@@ -6155,13 +5882,11 @@ The steepest descent method, also known as the gradient descent method, is a sim
 The steepest descent method can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size or learning rate, and $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$. The step size is a crucial parameter in this method, as it determines the size of the update and can greatly affect the convergence of the algorithm.
@@ -6205,13 +5930,11 @@ The steepest descent method, also known as the gradient descent method, is a sim
 The steepest descent method can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size or learning rate, and $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$. The step size is a crucial parameter in this method, as it determines the size of the update and can greatly affect the convergence of the algorithm.
@@ -6237,7 +5960,6 @@ The conjugate gradient method is another popular gradient-based optimization alg
 The conjugate gradient method can be seen as a variant of the Arnoldi/Lanczos iteration applied to solving linear systems. In the Arnoldi iteration, one starts with a vector $\mathbf{r}_0$ and gradually builds an orthonormal basis $\{\mathbf{v}_1,\mathbf{v}_2,\mathbf{v}_3,\ldots\}$ of the Krylov subspace by defining $\mathbf{v}_i=\mathbf{w}_i/\lVert\mathbf{w}_i\rVert_2$ where
 
 
-
 $$
 
 \mathbf{w}_i = \begin{cases}
@@ -6251,13 +5973,11 @@ $$
 $$
 
 
-
 In other words, for $i>1$, $\mathbf{v}_i$ is found by Gram-Schmidt orthogonalizing $\mathbf{Av}_{i-1}$ against $\{\mathbf{v}_1,\mathbf{v}_2,\ldots,\mathbf{v}_{i-1}\}$ followed by normalization.
 
 
 
 Put in matrix form, the iteration is captured by the equation
-
 
 
 $$
@@ -6267,9 +5987,7 @@ $$
 $$
 
 
-
 where
-
 
 
 $$
@@ -6297,9 +6015,7 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 $$
 
 
-
 with
-
 
 
 $$
@@ -6315,7 +6031,6 @@ $$
 $$
 
 
-
 When applying the Arnoldi iteration to solving linear systems, one starts with $\mathbf{r}_0=\mathbf{b}-\mathbf{Ax}_0$, the residual corresponding to an initial guess $\mathbf{x}_0$. After each step of iteration, one computes $\mathbf{y}_i=\mathbf{H}_i^{-1}(\lVert\mathbf{r}_0\rVert_2\mathbf{e}_1)$ and the new iterate $\mathbf{x}_i=\mathbf{x}_0+\mathbf{V}_i\mathbf{y}_i$.
 
 
@@ -6327,13 +6042,11 @@ When applying the Arnoldi iteration to solving linear systems, one starts with $
 For the rest of discussion, we assume that $\mathbf{A}$ is a symmetric positive definite matrix. In this case, the Arnoldi iteration can be simplified to the Lanczos iteration, which is a more direct method for solving linear systems. The Lanczos iteration is given by
 
 
-
 $$
 
 \mathbf{AV}_i = \mathbf{V}_i\mathbf{H}_i + h_{i+1,i}\mathbf{v}_{i+1}\mathbf{e}_i^\mathrm{T}
 
 $$
-
 
 
 where $\mathbf{V}_i$ and $\mathbf{H}_i$ are defined as before, and $h_{i+1,i}=\lVert\mathbf{w}_{i+1}\rVert_2$. This iteration is more efficient than the Arnoldi iteration as it avoids the computation of the residual vector $\mathbf{w}_{i+1}$.
@@ -6377,13 +6090,11 @@ The steepest descent method, also known as the gradient descent method, is a sim
 The steepest descent method can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size or learning rate, and $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$. The step size is a crucial parameter in this method, as it determines the size of the update and can greatly affect the convergence of the algorithm.
@@ -6405,13 +6116,11 @@ Another popular gradient-based method is Newton's method, which is an iterative 
 The update equation for Newton's method is given by:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k \left(\nabla^2 f(\mathbf{x}_k)\right)^{-1} \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\nabla^2 f(\mathbf{x}_k)$ is the Hessian matrix of the objective function evaluated at $\mathbf{x}_k$. The step size, $\alpha_k$, is determined using a line search method to ensure that the update does not overshoot the optimal solution.
@@ -6459,13 +6168,11 @@ Newton's method is a popular optimization algorithm that is based on the Newton-
 Newton's method for unconstrained optimization can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k (\nabla^2 f(\mathbf{x}_k))^{-1} \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$, and $\nabla^2 f(\mathbf{x}_k)$ is the Hessian matrix of the objective function evaluated at $\mathbf{x}_k$. The Hessian matrix represents the second derivative of the objective function and provides information about the curvature of the function at a given point.
@@ -6509,13 +6216,11 @@ Newton's method is a popular optimization algorithm that is based on the Newton-
 Newton's method for unconstrained optimization can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k (\nabla^2 f(\mathbf{x}_k))^{-1} \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$, and $\nabla^2 f(\mathbf{x}_k)$ is the Hessian matrix of the objective function evaluated at $\mathbf{x}_k$. The Hessian matrix represents the second derivative of the objective function and provides information about the curvature of the function at a given point.
@@ -6545,13 +6250,11 @@ The constrained Newton's method is similar to the unconstrained version, but wit
 The mathematical representation of Newton's method for constrained optimization is as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k (\nabla^2 f(\mathbf{x}_k) + \lambda_k \nabla^2 g(\mathbf{x}_k))^{-1} (\nabla f(\mathbf{x}_k) + \lambda_k \nabla g(\mathbf{x}_k))
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$, $\nabla^2 f(\mathbf{x}_k)$ is the Hessian matrix of the objective function evaluated at $\mathbf{x}_k$, $\lambda_k$ is the Lagrange multiplier, $\nabla g(\mathbf{x}_k)$ is the gradient of the constraint function evaluated at $\mathbf{x}_k$, and $\nabla^2 g(\mathbf{x}_k)$ is the Hessian matrix of the constraint function evaluated at $\mathbf{x}_k$.
@@ -6591,13 +6294,11 @@ Newton's method is a popular optimization algorithm that is based on the Newton-
 Newton's method for unconstrained optimization can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k (\nabla^2 f(\mathbf{x}_k))^{-1} \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$, and $\nabla^2 f(\mathbf{x}_k)$ is the Hessian matrix of the objective function evaluated at $\mathbf{x}_k$. The Hessian matrix represents the second derivative of the objective function and provides information about the curvature of the function at a given point.
@@ -6661,13 +6362,11 @@ The Broyden-Fletcher-Goldfarb-Shanno (BFGS) method is a popular quasi-Newton met
 The BFGS method can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k (\mathbf{B}_k)^{-1} \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\mathbf{B}_k$ is the approximation of the Hessian matrix at iteration $k$, and $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$.
@@ -6715,13 +6414,11 @@ The Limited Memory BFGS (L-BFGS) method is a variant of the Broyden-Fletcher-Gol
 The L-BFGS method can be mathematically represented as follows:
 
 
-
 $$
 
 \mathbf{x}_{k+1} = \mathbf{x}_k - \alpha_k \mathbf{H}_k \nabla f(\mathbf{x}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k$ is the current estimate of the decision variables, $\alpha_k$ is the step size, $\mathbf{H}_k$ is the limited memory approximation of the Hessian matrix at iteration $k$, and $\nabla f(\mathbf{x}_k)$ is the gradient of the objective function evaluated at $\mathbf{x}_k$.
@@ -6811,7 +6508,6 @@ The conjugate direction method is a specific implementation of the conjugate gra
 To understand the conjugate direction method, we first need to understand the Arnoldi/Lanczos iteration. In this iteration, we start with a vector $\boldsymbol{r}_0$ and gradually build an orthonormal basis $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\boldsymbol{v}_3,\ldots\}$ of the Krylov subspace. This is done by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$, where
 
 
-
 $$
 
 \boldsymbol{w}_i = \begin{cases}
@@ -6825,13 +6521,11 @@ $$
 $$
 
 
-
 and $\beta_{i-1}=\lVert\boldsymbol{w}_i\rVert_2$. In other words, for $i>1$, $\boldsymbol{v}_i$ is found by Gram-Schmidt orthogonalizing $\boldsymbol{Av}_{i-1}$ against $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\ldots,\boldsymbol{v}_{i-1}\}$ followed by normalization.
 
 
 
 Put in matrix form, the iteration is captured by the equation
-
 
 
 $$
@@ -6841,9 +6535,7 @@ $$
 $$
 
 
-
 where
-
 
 
 $$
@@ -6879,9 +6571,7 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 $$
 
 
-
 with
-
 
 
 $$
@@ -6895,7 +6585,6 @@ h_{ij} = \begin{cases}
 \end{cases}
 
 $$
-
 
 
 and $\boldsymbol{e}_i$ is the $i$th standard basis vector.
@@ -6951,7 +6640,6 @@ The conjugate direction method is a specific implementation of the conjugate gra
 To understand the conjugate direction method, we first need to understand the Arnoldi/Lanczos iteration. In this iteration, we start with a vector $\boldsymbol{r}_0$ and gradually build an orthonormal basis $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\boldsymbol{v}_3,\ldots\}$ of the Krylov subspace. This is done by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$, where
 
 
-
 $$
 
 \boldsymbol{w}_i = \begin{cases}
@@ -6965,13 +6653,11 @@ $$
 $$
 
 
-
 and $\beta_{i-1}=\lVert\boldsymbol{w}_i\rVert_2$. In other words, for $i>1$, $\boldsymbol{v}_i$ is found by Gram-Schmidt orthogonalizing $\boldsymbol{Av}_{i-1}$ against $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\ldots,\boldsymbol{v}_{i-1}\}$.
 
 
 
 Now, let us consider the conjugate gradient method. It is a variant of the Arnoldi/Lanczos iteration, where the residual vector is updated in a specific way. In the conjugate gradient method, we start with an initial guess $\mathbf{x}_0$ and compute the residual vector $\mathbf{r}_0 = \mathbf{b} - \mathbf{Ax}_0$. Then, we define the conjugate direction $\mathbf{p}_0 = \mathbf{r}_0$ and iterate as follows:
-
 
 
 $$
@@ -6995,7 +6681,6 @@ k &= k + 1
 $$
 
 
-
 This process is repeated until a convergence criterion is met. The conjugate gradient method is particularly useful for large-scale problems, as it only requires matrix-vector multiplications and does not require the computation of the Hessian matrix.
 
 
@@ -7013,7 +6698,6 @@ To understand the preconditioned conjugate gradient method, we first need to und
 
 
 The preconditioned conjugate gradient method is derived in a similar way as the conjugate gradient method, with a few substitutions and variable changes. The algorithm is as follows:
-
 
 
 $$
@@ -7045,7 +6729,6 @@ k &= k + 1
 \end{align}
 
 $$
-
 
 
 The preconditioner $\mathbf{M}^{-1}$ must be symmetric positive definite for this algorithm to work. It is important to note that the residual vector in this algorithm is different from the residual vector in the conjugate gradient method without preconditioning.
@@ -7085,7 +6768,6 @@ The conjugate direction method is a specific implementation of the conjugate gra
 To understand the conjugate direction method, we first need to understand the Arnoldi/Lanczos iteration. In this iteration, we start with a vector $\boldsymbol{r}_0$ and gradually build an orthonormal basis $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\boldsymbol{v}_3,\ldots\}$ of the Krylov subspace. This is done by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$, where
 
 
-
 $$
 
 \boldsymbol{w}_i = \begin{cases}
@@ -7097,7 +6779,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 and $\beta_{i-1}=\lVert\boldsymbol{w}_i\rVert_2$. In other words, for $i>1$, $\boldsymbol{v}_i$ is found by Gram-Schmidt orthogonalizing $\boldsymbol{Av}_{i-1}$ against $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\ldots,\boldsymbol{v}_{i-1}\}$. This process continues until the Krylov subspace is fully constructed, which is when $\boldsymbol{w}_i=0$ for some $i$. The resulting orthonormal basis is then used to construct the Hessenberg matrix $\boldsymbol{H}_i$ of size $(i+1)\times i$.
@@ -7177,7 +6858,6 @@ Both barrier and penalty methods have their advantages and disadvantages. Barrie
 To better understand these methods, let's consider an example of a constrained optimization problem:
 
 
-
 $$
 
 \begin{align}
@@ -7191,7 +6871,6 @@ $$
 \end{align}
 
 $$
-
 
 
 This problem can be solved using a series of unconstrained minimization problems, where the constraints are incorporated into the objective function using a penalty or barrier term. In each iteration of the algorithm, the penalty or barrier parameter is increased, and the unconstrained problem is solved again. This process continues until the algorithm converges to a solution that satisfies all constraints.
@@ -7255,7 +6934,6 @@ Primal-dual interior point methods are a type of interior point method that comb
 The primal-dual method's idea is easy to demonstrate for constrained nonlinear optimization. For simplicity, consider the following nonlinear optimization problem with inequality constraints:
 
 
-
 $$
 
 \operatorname{minimize}\quad & f(x) \\ 
@@ -7271,9 +6949,7 @@ $$
 $$
 
 
-
 This inequality-constrained optimization problem is solved by converting it into an unconstrained objective function whose minimum we hope to find efficiently. Specifically, the logarithmic barrier function associated with this problem is:
-
 
 
 $$
@@ -7283,13 +6959,11 @@ B(x,\mu) = f(x) + \mu \sum_{i=1}^{m} \ln(c_i(x)),
 $$
 
 
-
 where $\mu$ is a small positive scalar, sometimes called the "barrier parameter". As $\mu$ converges to zero, the minimum of $B(x,\mu)$ should converge to a solution of the original problem.
 
 
 
 The gradient of a differentiable function $h : \mathbb{R}^n \to \mathbb{R}$ is denoted $\nabla h$. The gradient of the barrier function is:
-
 
 
 $$
@@ -7299,9 +6973,7 @@ $$
 $$
 
 
-
 In addition to the original ("primal") variable $x$, we introduce a Lagrange multiplier-inspired variable $\lambda \in \mathbb{R} ^m$. The algorithm then iteratively updates both $x$ and $\lambda$ using the following equations:
-
 
 
 $$
@@ -7310,8 +6982,6 @@ x^{k+1} = x^k - \alpha \nabla B(x^k,\mu),
 
 $$
 
-
-
 $$
 
 \lambda^{k+1} = \lambda^k + \alpha \nabla c(x^k),
@@ -7319,9 +6989,7 @@ $$
 $$
 
 
-
 where $\alpha$ is a step size parameter. These updates are repeated until a solution is found that satisfies the "perturbed complementarity" condition:
-
 
 
 $$
@@ -7329,7 +6997,6 @@ $$
 \lambda_i^{k+1} c_i(x^{k+1}) = \mu,
 
 $$
-
 
 
 for $i = 1, \ldots, m$. This condition ensures that the constraints are satisfied, and the algorithm has converged to a solution.
@@ -8007,22 +7674,17 @@ Formally, let $f: \mathbb{R}^n \rightarrow \mathbb{R}$ be the cost function whic
 Let $S$ be the number of particles in the swarm, each having a position $x_i \in \mathbb{R}^n$ in the search-space and a velocity $v_i \in \mathbb{R}^n$. Let $p_i$ be the best known position of particle $i$ and let $g$ be the best known position of the entire swarm. A basic PSO algorithm to minimize the cost function is then:
 
 
-
 $$
 
 v_i(n+1) = wv_i(n) + \phi_p r_p (p_i(n) - x_i(n)) + \phi_g r_g (g(n) - x_i(n))
 
 $$
 
-
-
 $$
 
 x_i(n+1) = x_i(n) + v_i(n+1)
 
 $$
-
-
 
 $$
 
@@ -8036,8 +7698,6 @@ x_i(n+1) & \text{otherwise}
 
 $$
 
-
-
 $$
 
 g(n+1) = \begin{cases}
@@ -8049,7 +7709,6 @@ p_i(n+1) & \text{otherwise}
 \end{cases}
 
 $$
-
 
 
 The values $b_{lo}$ and $b_{up}$ represent the lower and upper boundaries of the search-space respectively. The $w$ parameter is the inertia weight. The parameters $\phi_p$ and $\phi_g$ are often called cognitive coefficient and social coefficient.
@@ -8121,21 +7780,17 @@ Formally, let $f: \mathbb{R}^n \rightarrow \mathbb{R}$ be the cost function whic
 Let $S$ be the search-space, which is a subset of $\mathbb{R}^n$. The swarm of particles in PSO is initialized with random positions within the search-space. Each particle has a position vector $x_i$ and a velocity vector $v_i$, where $i$ represents the particle's index. The position and velocity of each particle are updated at each iteration according to the following equations:
 
 
-
 $$
 
 v_i(n+1) = wv_i(n) + c_1r_1(x_{pbest,i}(n) - x_i(n)) + c_2r_2(x_{gbest}(n) - x_i(n))
 
 $$
 
-
-
 $$
 
 x_i(n+1) = x_i(n) + v_i(n+1)
 
 $$
-
 
 
 where $n$ is the current iteration, $w$ is the inertia weight, $c_1$ and $c_2$ are acceleration coefficients, $r_1$ and $r_2$ are random numbers between 0 and 1, $x_{pbest,i}$ is the personal best position of particle $i$, and $x_{gbest}$ is the global best position of the entire swarm.
@@ -8211,21 +7866,17 @@ Formally, let $f: \mathbb{R}^n \rightarrow \mathbb{R}$ be the cost function whic
 Let $S$ be the search-space, and $N$ be the number of particles in the swarm. Each particle $i$ is represented by a position vector $\mathbf{x}_i$ and a velocity vector $\mathbf{v}_i$. The position vector represents the candidate solution, and the velocity vector represents the direction and magnitude of the particle's movement in the search-space. The position and velocity of each particle are updated at each iteration according to the following equations:
 
 
-
 $$
 
 \mathbf{v}_i^{t+1} = \omega \mathbf{v}_i^t + c_1 r_1 (\mathbf{p}_i^t - \mathbf{x}_i^t) + c_2 r_2 (\mathbf{g}^t - \mathbf{x}_i^t)
 
 $$
 
-
-
 $$
 
 \mathbf{x}_i^{t+1} = \mathbf{x}_i^t + \mathbf{v}_i^{t+1}
 
 $$
-
 
 
 where $t$ is the current iteration, $\omega$ is the inertia weight, $c_1$ and $c_2$ are the acceleration coefficients, $r_1$ and $r_2$ are random numbers between 0 and 1, $\mathbf{p}_i^t$ is the best-known position of particle $i$ at iteration $t$, and $\mathbf{g}^t$ is the best-known position of the entire swarm at iteration $t$.
@@ -8363,13 +8014,11 @@ One of the most well-known applications of dynamic optimization in finance is th
 The mean-variance portfolio selection problem can be formulated as follows:
 
 
-
 $$
 
 \max_{w} E[R_p] - \lambda Var[R_p]
 
 $$
-
 
 
 where $w$ is the vector of portfolio weights, $E[R_p]$ is the expected portfolio return, $Var[R_p]$ is the portfolio variance, and $\lambda$ is the investor's risk aversion parameter.
@@ -8429,13 +8078,11 @@ One of the most well-known applications of dynamic optimization in finance is th
 The mean-variance portfolio selection problem can be formulated as follows:
 
 
-
 $$
 
 \max_{w} E[R_p] - \lambda Var[R_p]
 
 $$
-
 
 
 where $w$ is the vector of portfolio weights, $E[R_p]$ is the expected portfolio return, $Var[R_p]$ is the portfolio variance, and $\lambda$ is the investor's risk aversion parameter.
@@ -8465,13 +8112,11 @@ Another important consideration in portfolio optimization is the estimation of e
 The Capital Asset Pricing Model (CAPM) is another widely used model in finance for determining the expected return of an asset. It is based on the principle that an asset's expected return is a function of its risk, as measured by its beta coefficient, and the expected return of the market. The CAPM can be expressed as follows:
 
 
-
 $$
 
 E[R_i] = R_f + \beta_i(E[R_m] - R_f)
 
 $$
-
 
 
 where $E[R_i]$ is the expected return of asset $i$, $R_f$ is the risk-free rate, $\beta_i$ is the asset's beta coefficient, and $E[R_m]$ is the expected return of the market.
@@ -8519,13 +8164,11 @@ One of the most well-known applications of dynamic optimization in finance is th
 The mean-variance portfolio selection problem can be formulated as follows:
 
 
-
 $$
 
 \max_{w} E[R_p] - \lambda Var[R_p]
 
 $$
-
 
 
 where $w$ is the vector of portfolio weights, $E[R_p]$ is the expected portfolio return, $Var[R_p]$ is the portfolio variance, and $\lambda$ is the investor's risk aversion parameter.
@@ -9049,13 +8692,11 @@ The Solow-Swan model is a dynamic optimization model that focuses on the accumul
 The model is based on the production function, which relates the output of an economy to the inputs of labor and capital. In the Solow-Swan model, the production function is assumed to have constant returns to scale, meaning that doubling the inputs will double the output. This production function is represented as:
 
 
-
 $$
 
 Y = F(K,AL)
 
 $$
-
 
 
 Where Y is output, K is capital, L is labor, and A is a measure of technology. The model also assumes that capital depreciates at a constant rate, δ, and that the economy has a constant savings rate, s.
@@ -9069,7 +8710,6 @@ The Solow-Swan model uses the dynamic optimization technique to determine the op
 The optimization problem can be represented as:
 
 
-
 $$
 
 \max_{C,L} \int_{0}^{\infty} e^{-\rho t} U(C(t),L(t)) dt
@@ -9077,9 +8717,7 @@ $$
 $$
 
 
-
 Subject to the production function and the capital accumulation equation:
-
 
 
 $$
@@ -9087,7 +8725,6 @@ $$
 \dot{K} = sY - \delta K
 
 $$
-
 
 
 Where ρ is the discount rate and U is the utility function. The solution to this optimization problem yields the optimal level of capital, labor, and consumption that maximizes the individual's lifetime utility.
@@ -9131,7 +8768,6 @@ The RCK model builds upon the Solow-Swan model by introducing a representative a
 The optimization problem can be represented as:
 
 
-
 $$
 
 \max_{C,L} \int_{0}^{\infty} e^{-\rho t} U(C(t),L(t)) dt
@@ -9139,9 +8775,7 @@ $$
 $$
 
 
-
 Subject to the production function and the capital accumulation equation:
-
 
 
 $$
@@ -9149,7 +8783,6 @@ $$
 \dot{K} = sF(K(t),AL(t)) - \delta K(t)
 
 $$
-
 
 
 Where K is the capital stock, s is the savings rate, and δ is the depreciation rate. The production function is assumed to have constant returns to scale, and the economy is assumed to be in a steady state.
@@ -9163,13 +8796,11 @@ The RCK model also introduces the concept of a social planner, who seeks to maxi
 The optimization problem for the social planner can be represented as:
 
 
-
 $$
 
 \max_{C,L} \int_{0}^{\infty} \beta^t U(C(t),L(t)) dt
 
 $$
-
 
 
 Subject to the production function and the capital accumulation equation.
@@ -9385,21 +9016,17 @@ Optimal taxation is a crucial topic in economics and finance, as it deals with t
 One of the key concepts in optimal taxation is the Atkinson-Stiglitz theorem, which provides a theoretical framework for understanding the trade-offs between equity and efficiency in tax design. This theorem states that in order to achieve Pareto efficiency, a government must impose two conditions: first, the utility of the less able individuals must be equal to or greater than a given level, and second, the government revenue must be equal to or greater than a given amount. These conditions can be expressed mathematically as follows:
 
 
-
 $$
 
 V_1(C_1, Y_1) \geq V_1(C_2, Y_2)
 
 $$
 
-
-
 $$
 
 R \geq \overline{R}
 
 $$
-
 
 
 where $V_1$ represents the utility of the less able individuals, $C_1$ and $C_2$ represent their consumption levels, $Y_1$ and $Y_2$ represent their income levels, and $R$ and $\overline{R}$ represent the government revenue and revenue requirement, respectively.
@@ -9409,7 +9036,6 @@ where $V_1$ represents the utility of the less able individuals, $C_1$ and $C_2$
 To maximize social welfare, the government must then maximize the utility of the more able individuals, $V_2(C_2, Y_2)$. This can be achieved by solving the following optimization problem:
 
 
-
 $$
 
 \max_{C_1, C_2, Y_1, Y_2} V_2(C_2, Y_2)
@@ -9417,9 +9043,7 @@ $$
 $$
 
 
-
 subject to the constraints:
-
 
 
 $$
@@ -9428,22 +9052,17 @@ V_1(C_1, Y_1) \geq V_1(C_2, Y_2)
 
 $$
 
-
-
 $$
 
 R \geq \overline{R}
 
 $$
 
-
-
 $$
 
 N_1C_1 + N_2C_2 = N_1Y_1 + N_2Y_2 + R
 
 $$
-
 
 
 where $N_1$ and $N_2$ represent the number of individuals in each category.
@@ -9453,13 +9072,11 @@ where $N_1$ and $N_2$ represent the number of individuals in each category.
 The Lagrange function for this problem can be written as:
 
 
-
 $$
 
 \mathcal{L} = V_2(C_2, Y_2) + \lambda_1(V_1(C_1, Y_1) - V_1(C_2, Y_2)) + \gamma(N_1Y_1 + N_2Y_2 + R - N_1C_1 - N_2C_2 - \overline{R})
 
 $$
-
 
 
 where $\lambda_1$ and $\gamma$ are the Lagrange multipliers.
@@ -9469,14 +9086,11 @@ where $\lambda_1$ and $\gamma$ are the Lagrange multipliers.
 The first-order conditions for this problem are:
 
 
-
 $$
 
 \frac{\partial \mathcal{L}}{\partial C_1} = 0 \implies \lambda_1 = 0
 
 $$
-
-
 
 $$
 
@@ -9484,22 +9098,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \mathcal{L}}{\partial Y_1} = 0 \implies \gamma = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial \mathcal{L}}{\partial Y_2} = 0 \implies \gamma = 0
 
 $$
-
 
 
 These conditions show that when $\lambda_1 = 0$ and $\gamma = 0$, the government can achieve a lump-sum taxation. On the other hand, when $\lambda_1 = 0$ and $\gamma > 0$, the marginal tax rate for the more able individuals is zero. This highlights the trade-off between equity and efficiency in tax design, as a higher marginal tax rate for the more able individuals would decrease their incentive to work and invest, leading to a decrease in efficiency.
@@ -10689,21 +10298,17 @@ Consider a simple dynamic optimization problem where a company wants to maximize
 #### Exercise 2
 
 Solve the following deterministic dynamic optimization problem using the Pontryagin's maximum principle:
-
 $$
 
 \max_{u(t)} \int_{0}^{T} e^{-rt}u(t)dt
 
 $$
-
 subject to
-
 $$
 
 \dot{x}(t) = x(t) + u(t), \quad x(0) = 1, \quad x(T) = 0
 
 $$
-
 
 
 #### Exercise 3
@@ -10755,21 +10360,17 @@ Consider a simple dynamic optimization problem where a company wants to maximize
 #### Exercise 2
 
 Solve the following deterministic dynamic optimization problem using the Pontryagin's maximum principle:
-
 $$
 
 \max_{u(t)} \int_{0}^{T} e^{-rt}u(t)dt
 
 $$
-
 subject to
-
 $$
 
 \dot{x}(t) = x(t) + u(t), \quad x(0) = 1, \quad x(T) = 0
 
 $$
-
 
 
 #### Exercise 3
@@ -11087,13 +10688,11 @@ This means that the optimal solution to a larger problem can be obtained by solv
 To understand this principle better, let us consider a discrete-time deterministic model with a finite time horizon. The state of the system at time $t$ is denoted by $x(t)$ and the control input at time $t$ is denoted by $u(t)$. The dynamics of the system are given by the function $f(x,u)$, and the initial state is $x(0)=x_0$. The objective is to minimize the cost functional $J$ defined as:
 
 
-
 $$
 
 J = \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) dt
 
 $$
-
 
 
 where $\Psi(x(T))$ is the terminal cost and $L(x(t),u(t))$ is the running cost. The control input $u(t)$ is chosen from the set of admissible controls $\mathcal{U}$ for all $t \in [0,T]$.
@@ -11107,13 +10706,11 @@ The principle of optimality can be applied to this problem by breaking it down i
 This can be mathematically expressed as:
 
 
-
 $$
 
 J^*(t) = \min_{u(t) \in \mathcal{U}} \left\{ L(x(t),u(t)) + J^*(t+1) \right\}
 
 $$
-
 
 
 where $J^*(t+1)$ is the optimal cost for the subproblem at time $t+1$. This recursive relationship allows us to solve the larger problem by solving smaller subproblems, making the optimization process more efficient.
@@ -11123,21 +10720,17 @@ where $J^*(t+1)$ is the optimal cost for the subproblem at time $t+1$. This recu
 In addition to this, the principle of optimality also provides necessary conditions for the optimal solution. These conditions are known as the Bellman equations and are given by:
 
 
-
 $$
 
 J^*(t) = \min_{u(t) \in \mathcal{U}} \left\{ L(x(t),u(t)) + J^*(t+1) \right\}
 
 $$
 
-
-
 $$
 
 u^*(t) = \arg\min_{u(t) \in \mathcal{U}} \left\{ L(x(t),u(t)) + J^*(t+1) \right\}
 
 $$
-
 
 
 These equations can be solved recursively starting from the final time $T$ to obtain the optimal control input and cost for each subproblem, ultimately leading to the optimal solution for the larger problem.
@@ -11181,13 +10774,11 @@ This means that the optimal solution to a larger problem can be obtained by solv
 To understand this principle better, let us consider a discrete-time deterministic model with a finite time horizon. The state of the system at time $t$ is denoted by $x(t)$ and the control input at time $t$ is denoted by $u(t)$. The dynamics of the system are given by the function $f(x,u)$, and the initial state is $x(0)=x_0$. The objective is to minimize the cost functional $J$ defined as:
 
 
-
 $$
 
 J = \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) dt
 
 $$
-
 
 
 where $\Psi(x(T))$ is the terminal cost and $L(x(t),u(t))$ is the running cost. The control input $u(t)$ is chosen from the set of admissible controls $\mathcal{U}$ for all $t \in [0,T]$.
@@ -11197,13 +10788,11 @@ where $\Psi(x(T))$ is the terminal cost and $L(x(t),u(t))$ is the running cost. 
 The principle of optimality can be applied to this problem by breaking it down into smaller subproblems. Let us consider a subproblem at time $t$ with the state $x(t)$ and the remaining time horizon $[t,T]$. The optimal control input for this subproblem is denoted by $u^*(t)$ and the corresponding optimal state is denoted by $x^*(t)$. According to the principle of optimality, the optimal control input $u^*(t)$ for this subproblem must also be optimal for the remaining subproblems with the state $x^*(t)$ and the time horizon $[t+1,T]$. This can be expressed mathematically as:
 
 
-
 $$
 
 u^*(t) = \arg\min_{u(t) \in \mathcal{U}} \left\{ L(x(t),u(t)) + J^*(x^*(t+1)) \right\}
 
 $$
-
 
 
 where $J^*(x^*(t+1))$ is the optimal cost for the remaining subproblems. This recursive relationship allows us to solve the original problem by solving smaller subproblems, which can be more computationally efficient.
@@ -11239,7 +10828,6 @@ In the previous section, we discussed the principle of optimality and how it can
 Before we dive into the concavity and differentiability of the value function, let us first define the terms "concave" and "convex" functions. A function is said to be concave if it satisfies the following condition:
 
 
-
 $$
 
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
@@ -11247,9 +10835,7 @@ f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$, where $X$ is a convex subset of a real vector space. This condition essentially means that the function lies below the line connecting any two points on its graph. Similarly, a function is said to be convex if it satisfies the following condition:
-
 
 
 $$
@@ -11259,13 +10845,11 @@ f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$. This condition means that the function lies above the line connecting any two points on its graph.
 
 
 
 Now, let us consider the value function $V(x)$ in a discrete-time deterministic model with a finite time horizon. The value function is defined as the minimum cost that can be achieved starting from a given state $x$ and following an optimal control policy. In other words, it is the optimal value of the cost functional $J$ defined in the previous section. The value function can be written as:
-
 
 
 $$
@@ -11275,13 +10859,11 @@ V(x) = \min_{u \in \mathcal{U}} \left\{ \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) d
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls. 
 
 
 
 Now, let us consider two points $x_1$ and $x_2$ in the state space $X$. If the value function is concave, then we have:
-
 
 
 $$
@@ -11291,9 +10873,7 @@ V(tx_1 + (1-t)x_2) \geq tV(x_1) + (1-t)V(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$. This means that the value function lies below the line connecting the points $(x_1, V(x_1))$ and $(x_2, V(x_2))$ on its graph. Similarly, if the value function is convex, then we have:
-
 
 
 $$
@@ -11301,7 +10881,6 @@ $$
 V(tx_1 + (1-t)x_2) \leq tV(x_1) + (1-t)V(x_2)
 
 $$
-
 
 
 for all $0 \leq t \leq 1$. This means that the value function lies above the line connecting the points $(x_1, V(x_1))$ and $(x_2, V(x_2))$ on its graph.
@@ -11337,7 +10916,6 @@ In the previous section, we discussed the principle of optimality and how it can
 Before we dive into the concavity and differentiability of the value function, let us first define the terms "concave" and "convex" functions. A function is said to be concave if it satisfies the following condition:
 
 
-
 $$
 
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
@@ -11345,9 +10923,7 @@ f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$, where $X$ is a convex subset of a real vector space. This condition essentially means that the function lies below the line connecting any two points on its graph. Similarly, a function is said to be convex if it satisfies the following condition:
-
 
 
 $$
@@ -11357,13 +10933,11 @@ f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$. This condition means that the function lies above the line connecting any two points on its graph.
 
 
 
 Now, let us consider the value function $V(x)$ in a discrete-time deterministic model with a finite time horizon. The value function is defined as the minimum cost that can be achieved starting from a given state $x$ and following an optimal control policy. In other words, it is the optimal value of the cost functional $J$ defined in the previous section. The value function can be written as:
-
 
 
 $$
@@ -11373,13 +10947,11 @@ V(x) = \min_{u \in \mathcal{U}} \left\{ \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) d
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls. 
 
 
 
 Now, let us consider two points $x_1$ and $x_2$ in the state space $X$. If the value function is concave, then we have:
-
 
 
 $$
@@ -11389,9 +10961,7 @@ V(tx_1 + (1-t)x_2) \geq tV(x_1) + (1-t)V(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$. This means that the value function is a concave function of the state variable $x$. Similarly, if the value function is convex, then we have:
-
 
 
 $$
@@ -11399,7 +10969,6 @@ $$
 V(tx_1 + (1-t)x_2) \leq tV(x_1) + (1-t)V(x_2)
 
 $$
-
 
 
 for all $0 \leq t \leq 1$, which means that the value function is a convex function of the state variable $x$. 
@@ -11421,13 +10990,11 @@ In addition to being concave or convex, the value function is also expected to b
 To understand the differentiability and continuity of the value function, let us consider a function $f: U \subset \mathbb{R}^n \to \mathbb{R}$, defined on an open set $U$ of $\mathbb{R}^n$. The function $f$ is said to be of class $C^k$ on $U$, for a positive integer $k$, if all partial derivatives 
 
 
-
 $$
 
 \frac{\partial^\alpha f}{\partial x_1^{\alpha_1} \, \partial x_2^{\alpha_2}\,\cdots\,\partial x_n^{\alpha_n}}(y_1,y_2,\ldots,y_n)
 
 $$
-
 
 
 exist and are continuous, for every $\alpha_1,\alpha_2,\ldots,\alpha_n$ non-negative integers, such that $\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\leq k$, and every $(y_1,y_2,\ldots,y_n)\in U$. Equivalently, $f$ is of class $C^k$ on $U$ if the $k$-th order Fréchet derivative of $f$ exists and is continuous at every point of $U$. The function $f$ is said to be of class $C$ or $C^0$ if it is continuous on $U$. Functions of class $C^1$ are also said to be "continuously differentiable".
@@ -11437,13 +11004,11 @@ exist and are continuous, for every $\alpha_1,\alpha_2,\ldots,\alpha_n$ non-nega
 Similarly, for a function $f: U \subset \mathbb{R}^n \to \mathbb{R}^m$, defined on an open set $U$ of $\mathbb{R}^n$, the function $f$ is said to be of class $C^k$ on $U$, for a positive integer $k$, if all of its components 
 
 
-
 $$
 
 f_i(x_1,x_2,\ldots,x_n)=(\pi_i\circ f)(x_1,x_2,\ldots,x_n)=\pi_i(f(x_1,x_2,\ldots,x_n)) \text{ for } i=1,2,3,\ldots,m
 
 $$
-
 
 
 are of class $C^k$, where $\pi_i$ are the natural projections $\pi_i:\mathbb{R}^m\to\mathbb{R}$ defined by $\pi_i(x_1,x_2,\ldots,x_m)=x_i$. It is said to be of class $C$ or $C^0$ if it is continuous, or equivalently, if all components $f_i$ are of class $C^0$.
@@ -11479,7 +11044,6 @@ In the previous section, we discussed the principle of optimality and how it can
 Before we dive into the concavity and differentiability of the value function, let us first define the terms "concave" and "convex" functions. A function is said to be concave if it satisfies the following condition:
 
 
-
 $$
 
 f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
@@ -11487,9 +11051,7 @@ f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$, where $X$ is a convex subset of a real vector space. This condition essentially means that the function lies below the line connecting any two points on its graph. Similarly, a function is said to be convex if it satisfies the following condition:
-
 
 
 $$
@@ -11499,13 +11061,11 @@ f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
 $$
 
 
-
 for all $0 \leq t \leq 1$ and $x_1, x_2 \in X$. This condition means that the function lies above the line connecting any two points on its graph.
 
 
 
 Now, let us consider the value function $V(x)$ in a discrete-time deterministic model with a finite time horizon. The value function is defined as the minimum cost that can be achieved starting from a given state $x$ and following an optimal control policy. In other words, it is the optimal value of the cost functional $J$ defined in the previous section. The value function can be written as:
-
 
 
 $$
@@ -11515,7 +11075,6 @@ V(x) = \min_{u \in \mathcal{U}} \left\{ \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) d
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls. 
 
 
@@ -11523,13 +11082,11 @@ where $\mathcal{U}$ is the set of admissible controls.
 Now, let us consider two points $x_1$ and $x_2$ in the state space $X$. If the value function is concave, then we have:
 
 
-
 $$
 
 V(tx_1 + (1-t)x_2) \geq tV(x_1) + (1-t)V(x_2)
 
 $$
-
 
 
 for all $0 \leq t \leq 1$. This means that the value function is always below the line connecting the points $V(x_1)$ and $V(x_2)$, as shown in the figure below.
@@ -11543,13 +11100,11 @@ for all $0 \leq t \leq 1$. This means that the value function is always below th
 Similarly, if the value function is convex, then we have:
 
 
-
 $$
 
 V(tx_1 + (1-t)x_2) \leq tV(x_1) + (1-t)V(x_2)
 
 $$
-
 
 
 for all $0 \leq t \leq 1$. This means that the value function is always above the line connecting the points $V(x_1)$ and $V(x_2)$.
@@ -11571,13 +11126,11 @@ However, in some cases, the cost functional may not be differentiable with respe
 Using the concept of subdifferentials, we can define the value function as:
 
 
-
 $$
 
 V(x) = \min_{u \in \mathcal{U}} \left\{ \Psi(x(T)) + \int_{0}^{T} L(x(t),u(t)) dt \right\}
 
 $$
-
 
 
 where $\mathcal{U}$ is the set of admissible controls, and the subdifferential of the cost functional $J$ is used instead of its derivative. This allows us to define the value function even when the cost functional is not differentiable.
@@ -11591,13 +11144,11 @@ where $\mathcal{U}$ is the set of admissible controls, and the subdifferential o
 Now, let us consider the first and second order conditions for optimality in dynamic optimization problems. These conditions are necessary for a point to be a local minimum of the value function. The first order condition states that the gradient of the value function must be equal to zero at the optimal point. In other words, the optimal control policy must satisfy the following condition:
 
 
-
 $$
 
 \nabla V(x^*) = 0
 
 $$
-
 
 
 where $x^*$ is the optimal state. This condition ensures that the optimal control policy is a stationary point of the value function.
@@ -11607,13 +11158,11 @@ where $x^*$ is the optimal state. This condition ensures that the optimal contro
 The second order condition states that the Hessian matrix of the value function must be positive semi-definite at the optimal point. In other words, the optimal control policy must satisfy the following condition:
 
 
-
 $$
 
 \nabla^2 V(x^*) \geq 0
 
 $$
-
 
 
 where $x^*$ is the optimal state. This condition ensures that the optimal control policy is a local minimum of the value function.
@@ -11653,7 +11202,6 @@ The Euler-Lagrange equation is a necessary condition for a path to be a stationa
 Let P(a,b,x_a,x_b) be the set of smooth paths q:[a,b]→X for which q(a)=x_a and q(b)=x_b. The action functional S:P(a,b,x_a,x_b)→R is defined as:
 
 
-
 $$
 
 S[q] = \int_a^b L(t,q(t),\dot{q}(t)) dt.
@@ -11661,9 +11209,7 @@ S[q] = \int_a^b L(t,q(t),\dot{q}(t)) dt.
 $$
 
 
-
 A path q∈P(a,b,x_a,x_b) is a stationary point of S if and only if:
-
 
 
 $$
@@ -11671,7 +11217,6 @@ $$
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} = 0, \quad i = 1, \dots, n.
 
 $$
-
 
 
 Here, $\dot{q}(t)$ is the time derivative of q(t). This means that the path q is a stationary point of S with respect to any small perturbation in q. This condition is known as the Euler-Lagrange equation.
@@ -11681,7 +11226,6 @@ Here, $\dot{q}(t)$ is the time derivative of q(t). This means that the path q is
 To derive the Euler-Lagrange equation, we start by considering the variation of the action functional S. Let $\eta$ be a smooth function defined on [a,b] with $\eta(a)=\eta(b)=0$. Then, the variation of S is given by:
 
 
-
 $$
 
 \delta S = \int_a^b \left[ \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} \right] \eta(t) dt.
@@ -11689,9 +11233,7 @@ $$
 $$
 
 
-
 Since $\eta(a)=\eta(b)=0$, we can apply the fundamental lemma of calculus of variations to obtain:
-
 
 
 $$
@@ -11701,9 +11243,7 @@ $$
 $$
 
 
-
 Since this holds for any smooth function $\eta$, we can conclude that:
-
 
 
 $$
@@ -11711,7 +11251,6 @@ $$
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} = 0, \quad i = 1, \dots, n.
 
 $$
-
 
 
 This is the Euler-Lagrange equation, which is a necessary condition for a path to be a stationary point of the action functional S. It is important to note that this condition only guarantees a stationary point, not necessarily a minimum or maximum. Further analysis is needed to determine the nature of the stationary point.
@@ -11939,13 +11478,11 @@ A production function is a mathematical representation of the relationship betwe
 Mathematically, a production function with constant returns to scale can be represented as:
 
 
-
 $$
 
 F(\lambda K, \lambda L) = \lambda F(K, L)
 
 $$
-
 
 
 Where $F$ is the production function, $K$ is the capital input, $L$ is the labor input, and $\lambda$ is a scaling factor.
@@ -11993,13 +11530,11 @@ In the previous section, we discussed the concept of constant returns to scale p
 In order to determine the optimal input and output levels for a firm, we must first define the objective function. The objective function represents the goal of the firm, which is typically to maximize profits. In the case of a firm operating under a constant returns to scale production function, the objective function can be written as:
 
 
-
 $$
 
 \max_{K,L} \pi = pF(K,L) - wK - rL
 
 $$
-
 
 
 Where $\pi$ represents profits, $p$ is the price of the output, $w$ is the wage rate, and $r$ is the rental rate for capital.
@@ -12009,14 +11544,11 @@ Where $\pi$ represents profits, $p$ is the price of the output, $w$ is the wage 
 To find the optimal input and output levels, we must take the partial derivatives of the objective function with respect to both inputs, set them equal to zero, and solve for $K$ and $L$. This will give us the input and output levels that maximize profits.
 
 
-
 $$
 
 \frac{\partial \pi}{\partial K} = p\frac{\partial F(K,L)}{\partial K} - w = 0
 
 $$
-
-
 
 $$
 
@@ -12025,9 +11557,7 @@ $$
 $$
 
 
-
 Solving for $K$ and $L$ gives us the following optimal input and output levels:
-
 
 
 $$
@@ -12036,14 +11566,11 @@ K^* = \frac{w}{p}\frac{\partial F(K,L)}{\partial K}
 
 $$
 
-
-
 $$
 
 L^* = \frac{r}{p}\frac{\partial F(K,L)}{\partial L}
 
 $$
-
 
 
 These equations show that the optimal input and output levels are directly proportional to the marginal products of labor and capital, respectively. This means that the firm should allocate its inputs in such a way that the marginal product of each input is equal to its respective input price.
@@ -12355,7 +11882,6 @@ Discuss the impact of choosing a smaller time step size on the accuracy and effi
 #### Exercise 4
 
 Solve the following discrete time deterministic model using the dynamic programming approach:
-
 $$
 
 \max_{u(n)} \sum_{n=0}^{N} x(n)u(n) \\
@@ -12363,7 +11889,6 @@ $$
 \text{subject to } x(n+1) = x(n) + u(n), \quad x(0) = 0, \quad u(n) \in \{0,1\}
 
 $$
-
 
 
 #### Exercise 5
@@ -12419,7 +11944,6 @@ Discuss the impact of choosing a smaller time step size on the accuracy and effi
 #### Exercise 4
 
 Solve the following discrete time deterministic model using the dynamic programming approach:
-
 $$
 
 \max_{u(n)} \sum_{n=0}^{N} x(n)u(n) \\
@@ -12427,7 +11951,6 @@ $$
 \text{subject to } x(n+1) = x(n) + u(n), \quad x(0) = 0, \quad u(n) \in \{0,1\}
 
 $$
-
 
 
 #### Exercise 5
@@ -12557,9 +12080,7 @@ First, we define a state variable, which in this case is the amount of land allo
 Next, we define a value function, which represents the expected profits that the farmer can achieve by choosing a particular allocation of land. The value function is recursive and can be written as:
 
 
-
 $$V(x) = \max_{u} \bigl\{ f(x,u) + \mathbb{E}[V(x')] \bigr\}$$
-
 
 
 where $x$ is the state variable, $u$ is the control variable, $f(x,u)$ is the immediate reward or cost function, and $x'$ is the next state variable.
@@ -12573,9 +12094,7 @@ The Bellman equation states that the optimal policy is to choose the control var
 In the case of the farmer, the value function can be written as:
 
 
-
 $$V(x) = \max_{u} \bigl\{ p_c x + p_s (1-x) + \mathbb{E}[V(x')] \bigr\}$$
-
 
 
 where $p_c$ and $p_s$ are the prices of corn and soybeans, respectively, and $x'$ is the next state variable, which depends on the yield of each crop.
@@ -12673,7 +12192,6 @@ The Euler equations with stochastic shocks are a set of equations that describe 
 To understand the stochastic Euler equations, let us consider a linear matrix-valued stochastic Itô differential equation with a finite time horizon <math display="inline">T>0</math> and natural filtration. This equation can be written as:
 
 
-
 $$
 
 dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW_t
@@ -12681,13 +12199,11 @@ dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW
 $$
 
 
-
 where <math display="inline">B_{\cdot},A_{\cdot}^{(1)},\dots,A_{\cdot}^{(j)}</math> are progressively measurable <math display="inline">d\times d</math>-valued bounded stochastic processes and <math display="inline">W_t</math> is a <math display="inline">\mathbb{R}^q</math>-dimensional Brownian motion.
 
 
 
 Following the same approach as in the deterministic case, we can expand the matrix logarithm of the solution <math display="inline">Y_t</math> as an Itô-process, with the first two expansion orders given by <math display="inline">Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}</math> and <math display="inline">Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}</math>. These expansions are given by:
-
 
 
 $$
@@ -12705,7 +12221,6 @@ Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s A^{(j)}_r \, d W_r \Big]
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s B_r \, dr \Big] \, ds.
 
 $$
-
 
 
 These equations show the impact of the stochastic shocks on the evolution of the system. The first order terms <math display="inline">Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}</math> represent the linear effects of the stochastic shocks, while the second order terms <math display="inline">Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}</math> capture the nonlinear effects.
@@ -12757,7 +12272,6 @@ The Euler equations with stochastic shocks are a set of equations that describe 
 To understand the stochastic Euler equations, let us consider a linear matrix-valued stochastic Itô differential equation with a finite time horizon <math display="inline">T>0</math> and natural filtration. This equation can be written as:
 
 
-
 $$
 
 dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW_t
@@ -12765,13 +12279,11 @@ dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW
 $$
 
 
-
 where <math display="inline">B_{\cdot},A_{\cdot}^{(1)},\dots,A_{\cdot}^{(j)}</math> are progressively measurable <math display="inline">d\times d</math>-valued bounded stochastic processes and <math display="inline">W_t</math> is a <math display="inline">\mathbb{R}^q</math>-dimensional Brownian motion.
 
 
 
 Following the same approach as in the deterministic case, we can expand the matrix logarithm of the solution <math display="inline">Y_t</math> as an Itô-process, with the first two expansion orders given by <math display="inline">Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}</math> and <math display="inline">Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}</math>. These expansions are given by:
-
 
 
 $$
@@ -12791,9 +12303,7 @@ Y^{(0,2)}_t = \frac{1}{2} \int_0^t \big(B_s\big)^2 \, d s.
 $$
 
 
-
 These expansions can be used to derive the stochastic Euler equations, which are given by:
-
 
 
 $$
@@ -12801,7 +12311,6 @@ $$
 \frac{\partial Y_t}{\partial t} = A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t + B_{\cdot}dW_t.
 
 $$
-
 
 
 These equations are used to find the optimal control for a given system under the influence of random disturbances. They are particularly useful in economics and finance, where market forces can be modeled as stochastic shocks. In the next subsection, we will explore some applications of the stochastic Euler equations in these fields.
@@ -12865,7 +12374,6 @@ Stochastic differential equations (SDEs) are a type of differential equation tha
 To understand SDEs, let us consider a linear matrix-valued stochastic Itô differential equation with a finite time horizon <math display="inline">T>0</math> and natural filtration. This equation can be written as:
 
 
-
 $$
 
 dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW_t
@@ -12873,13 +12381,11 @@ dY_t = \Big(A_{\cdot}^{(1)}Y_t + \dots + A_{\cdot}^{(j)}Y_t\Big)dt + B_{\cdot}dW
 $$
 
 
-
 where <math display="inline">B_{\cdot},A_{\cdot}^{(1)},\dots,A_{\cdot}^{(j)}</math> are progressively measurable <math display="inline">d\times d</math>-valued bounded stochastic processes and <math display="inline">W_t</math> is a <math display="inline">\mathbb{R}^q</math>-dimensional Brownian motion.
 
 
 
 Following the same approach as in the deterministic case, we can expand the matrix logarithm of the solution <math display="inline">Y_t</math> as an Itô-process, with the first two expansion orders given by <math display="inline">Y_t^{(1)}=Y_t^{(1,0)}+Y_t^{(0,1)}</math> and <math display="inline">Y_t^{(2)}=Y_t^{(2,0)}+Y_t^{(1,1)}+Y_t^{(0,2)}</math>. These expansions are given by:
-
 
 
 $$
@@ -12897,7 +12403,6 @@ Y^{(1,1)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s A^{(j)}_r \, d W_r \Big]
 Y^{(0,2)}_t = \frac{1}{2} \int_0^t \Big[ B_s , \int_0^s B_r \, dr \Big] \, ds.
 
 $$
-
 
 
 These expansions provide a way to approximate the solution of the SDE, with the first order expansion <math display="inline">Y_t^{(1)}</math> being the most commonly used. However, the convergence of these expansions is subject to a stopping time <math display="inline">\tau</math>, which is a random time at which the solution is no longer valid. The convergence of the expansions can be analyzed using the theory of stochastic calculus and martingales.
@@ -12937,7 +12442,6 @@ Ito's Lemma is a fundamental result in stochastic calculus that allows us to sol
 To understand Ito's Lemma, let us consider a stochastic differential equation of the form:
 
 
-
 $$
 
 dX_t = \mu(X_t,t)dt + \sigma(X_t,t)dW_t
@@ -12945,9 +12449,7 @@ dX_t = \mu(X_t,t)dt + \sigma(X_t,t)dW_t
 $$
 
 
-
 where <math display="inline">\mu(X_t,t)</math> and <math display="inline">\sigma(X_t,t)</math> are functions of <math display="inline">X_t</math> and <math display="inline">t</math>, and <math display="inline">W_t</math> is a Brownian motion. Ito's Lemma states that the solution to this SDE can be written as:
-
 
 
 $$
@@ -12957,13 +12459,11 @@ X_t = X_0 + \int_0^t \mu(X_s,s)ds + \int_0^t \sigma(X_s,s)dW_s
 $$
 
 
-
 This result is particularly useful because it allows us to solve SDEs by breaking them down into simpler integrals. It also provides a way to calculate the expected value and variance of the solution, which is essential in many applications.
 
 
 
 To illustrate the power of Ito's Lemma, let us consider an application in finance. Suppose we have a stock price process given by the SDE:
-
 
 
 $$
@@ -12973,9 +12473,7 @@ dS_t = \mu S_t dt + \sigma S_t dW_t
 $$
 
 
-
 where <math display="inline">\mu</math> and <math display="inline">\sigma</math> are constants representing the expected return and volatility of the stock, respectively. Using Ito's Lemma, we can solve this SDE and obtain the solution:
-
 
 
 $$
@@ -12983,7 +12481,6 @@ $$
 S_t = S_0 e^{(\mu - \frac{1}{2}\sigma^2)t + \sigma W_t}
 
 $$
-
 
 
 This solution is known as the geometric Brownian motion and is widely used in financial modeling and option pricing.
@@ -13421,13 +12918,11 @@ The Hamilton-Jacobi-Bellman equation is a partial differential equation that des
 The HJB equation is given by:
 
 
-
 $$
 
 \frac{\partial V}{\partial t} + \min_{u} \left\{H(\mathbf{x}, u, t) + \frac{\partial V}{\partial \mathbf{x}} \cdot f(\mathbf{x}, u, t)\right\} = 0
 
 $$
-
 
 
 where $V$ is the optimal value function, $H$ is the Hamiltonian, $\mathbf{x}$ is the state vector, $u$ is the control vector, and $f$ is the system dynamics.
@@ -13487,13 +12982,11 @@ A variational inequality is a mathematical problem that involves finding the min
 The variational inequality is given by:
 
 
-
 $$
 
 \min_{u} \left\{F(u) \geq 0, \forall u \in U\right\}
 
 $$
-
 
 
 where $F(u)$ is the functional to be minimized and $U$ is the set of admissible control functions.
@@ -13507,13 +13000,11 @@ where $F(u)$ is the functional to be minimized and $U$ is the set of admissible 
 The proof of the variational inequality can be done using the method of Lagrangian multipliers. This method involves introducing a Lagrange multiplier, $\lambda$, and solving the following optimization problem:
 
 
-
 $$
 
 \min_{u} \left\{F(u) + \lambda G(u)\right\}
 
 $$
-
 
 
 where $G(u)$ is a constraint function that ensures the admissibility of the control function $u$.
@@ -13619,7 +13110,6 @@ Optimal control theory is a powerful tool for solving optimization problems in c
 Pontryagin's maximum principle provides necessary conditions for the minimization of a functional in a continuous time system. Consider a dynamical system with state variable $x$ and input $u$, described by the differential equation:
 
 
-
 $$
 
 \dot{x} = f(x,u), \quad x(0) = x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -13627,9 +13117,7 @@ $$
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system. The objective functional $J$ is defined as:
-
 
 
 $$
@@ -13639,13 +13127,11 @@ J = \Psi(x(T)) + \int_0^T L(x(t),u(t)) \, dt
 $$
 
 
-
 where $\Psi$ is the terminal cost function and $L$ is the running cost function. The goal is to find the optimal control $u^*$ that minimizes $J$.
 
 
 
 To find the necessary conditions for the optimal control, we introduce the time-varying Lagrange multiplier vector $\lambda$, whose elements are called the costates of the system. This allows us to construct the Hamiltonian $H$ as:
-
 
 
 $$
@@ -13655,13 +13141,11 @@ H(x(t),u(t),\lambda(t),t) = \lambda^T(t)f(x(t),u(t)) + L(x(t),u(t))
 $$
 
 
-
 where $\lambda^T$ is the transpose of $\lambda$. The Hamiltonian is defined for all $t \in [0,T]$ and must be minimized by the optimal state trajectory $x^*$, optimal control $u^*$, and corresponding costate vector $\lambda^*$.
 
 
 
 Pontryagin's maximum principle states that the optimal state trajectory, control, and costate vector must satisfy the following conditions:
-
 
 
 $$
@@ -13671,9 +13155,7 @@ H(x^*(t),u^*(t),\lambda^*(t),t) \leq H(x(t),u,\lambda(t),t)
 $$
 
 
-
 for all $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$. Additionally, the costate equation and its terminal conditions must be satisfied:
-
 
 
 $$
@@ -13682,14 +13164,11 @@ $$
 
 $$
 
-
-
 $$
 
 \lambda^T(T) = \Psi_x(x(T))
 
 $$
-
 
 
 where $H_x$ and $L_x$ denote the partial derivatives of $H$ and $L$ with respect to $x$, respectively.
@@ -13725,7 +13204,6 @@ Optimal control theory is a powerful tool for solving optimization problems in c
 Pontryagin's maximum principle provides necessary conditions for the minimization of a functional in a continuous time system. Consider a dynamical system with state variable $x$ and input $u$, described by the differential equation:
 
 
-
 $$
 
 \dot{x} = f(x,u), \quad x(0) = x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -13733,9 +13211,7 @@ $$
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system. The objective functional $J$ is defined as:
-
 
 
 $$
@@ -13745,13 +13221,11 @@ J = \Psi(x(T)) + \int_0^T L(x(t),u(t)) \, dt
 $$
 
 
-
 where $\Psi$ is the terminal cost function and $L$ is the running cost function. The goal is to find the optimal control $u^*$ that minimizes $J$.
 
 
 
 To find the necessary conditions for the optimal control, we introduce the time-varying Lagrange multiplier vector $\lambda$, whose elements are called the costates of the system. This allows us to construct the Hamiltonian $H$ as:
-
 
 
 $$
@@ -13761,13 +13235,11 @@ H(x(t),u(t),\lambda(t),t) = \lambda^T(t)f(x(t),u(t)) + L(x(t),u(t))
 $$
 
 
-
 where $\lambda^T$ is the transpose of $\lambda$. The Hamiltonian is defined for all $t \in [0,T]$ and must be minimized by the optimal state trajectory $x^*$, optimal control $u^*$, and corresponding costate vector $\lambda^*$.
 
 
 
 Pontryagin's maximum principle states that the optimal state trajectory, control, and costate vector must satisfy the following conditions:
-
 
 
 $$
@@ -13777,13 +13249,11 @@ H(x^*(t),u^*(t),\lambda^*(t),t) \leq H(x(t),u,\lambda(t),t)
 $$
 
 
-
 for all $t \in [0,T]$ and for all permissible controls $u$. This means that the Hamiltonian evaluated at the optimal state, control, and costate must be less than or equal to the Hamiltonian evaluated at any other state, control, and costate. This condition ensures that the optimal control is indeed the one that minimizes the objective functional.
 
 
 
 In addition to this condition, Pontryagin's maximum principle also provides a set of differential equations, known as the Hamiltonian equations, that must be satisfied by the optimal state, control, and costate. These equations are given by:
-
 
 
 $$
@@ -13795,7 +13265,6 @@ $$
 \frac{\partial H}{\partial u} = 0
 
 $$
-
 
 
 These equations, along with the condition on the Hamiltonian, form a set of necessary conditions for the optimal control problem. They can be used to solve for the optimal state, control, and costate trajectories, and ultimately find the optimal control that minimizes the objective functional.
@@ -13831,7 +13300,6 @@ Optimal control theory is a powerful tool for solving optimization problems in c
 Pontryagin's maximum principle provides necessary conditions for the minimization of a functional in a continuous time system. Consider a dynamical system with state variable $x$ and input $u$, described by the differential equation:
 
 
-
 $$
 
 \dot{x} = f(x,u), \quad x(0) = x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -13839,9 +13307,7 @@ $$
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system. The objective functional $J$ is defined as:
-
 
 
 $$
@@ -13851,13 +13317,11 @@ J = \Psi(x(T)) + \int_0^T L(x(t),u(t)) \, dt
 $$
 
 
-
 where $\Psi$ is the terminal cost function and $L$ is the running cost function. The goal is to find the optimal control $u^*$ that minimizes $J$.
 
 
 
 To find the necessary conditions for the optimal control, we introduce the time-varying Lagrange multiplier vector $\lambda$, whose elements are called the costates of the system. This allows us to construct the Hamiltonian $H$ as:
-
 
 
 $$
@@ -13867,13 +13331,11 @@ H(x(t),u(t),\lambda(t),t) = \lambda^T(t)f(x(t),u(t)) + L(x(t),u(t))
 $$
 
 
-
 where $\lambda^T$ is the transpose of $\lambda$. The Hamiltonian is defined for all $t \in [0,T]$ and must be minimized by the optimal state trajectory $x^*$, optimal control $u^*$, and corresponding costate vector $\lambda^*$.
 
 
 
 Pontryagin's maximum principle states that the optimal state trajectory, control, and costate vector must satisfy the following conditions:
-
 
 
 $$
@@ -13883,7 +13345,6 @@ H(x^*(t),u^*(t),\lambda^*(t),t) \leq H(x(t),u,\lambda(t),t)
 $$
 
 
-
 for all $t \in [0,T]$ and for all permissible controls $u$. This condition ensures that the optimal control $u^*$ is the one that minimizes the Hamiltonian at each time step. In other words, the optimal control is the one that maximizes the rate of decrease of the objective functional $J$.
 
 
@@ -13891,13 +13352,11 @@ for all $t \in [0,T]$ and for all permissible controls $u$. This condition ensur
 Furthermore, the costate vector $\lambda^*$ must satisfy the following differential equation, known as the costate equation:
 
 
-
 $$
 
 \dot{\lambda} = -\frac{\partial H}{\partial x}
 
 $$
-
 
 
 with the terminal condition $\lambda(T) = \frac{\partial \Psi}{\partial x}(x(T))$. This equation represents the sensitivity of the Hamiltonian to changes in the state variable $x$. The costate equation, along with the Hamiltonian minimization condition, allows us to solve for the optimal control and state trajectory.
@@ -13977,7 +13436,6 @@ To prove the existence and uniqueness of optimal solutions, we will use the maxi
 Let us consider a dynamical system with state variable $x$ and input $u$, described by the differential equation:
 
 
-
 $$
 
 \dot{x} = f(x,u), \quad x(0) = x_0, \quad u(t) \in \mathcal{U}, \quad t \in [0,T]
@@ -13985,9 +13443,7 @@ $$
 $$
 
 
-
 where $\mathcal{U}$ is the set of admissible controls and $T$ is the terminal time of the system. The objective functional $J$ is defined as:
-
 
 
 $$
@@ -13997,13 +13453,11 @@ J = \Psi(x(T)) + \int_0^T L(x(t),u(t)) \, dt
 $$
 
 
-
 where $\Psi$ is the terminal cost function and $L$ is the running cost function. Our goal is to find the optimal control $u^*$ that minimizes $J$.
 
 
 
 We begin by constructing the Hamiltonian $H$ as:
-
 
 
 $$
@@ -14013,7 +13467,6 @@ H(x(t),u(t),\lambda(t),t) = \lambda^T(t)f(x(t),u(t)) + L(x(t),u(t))
 $$
 
 
-
 where $\lambda^T$ is the transpose of $\lambda$. The Hamiltonian is defined for all $t \in [0,T]$ and must be minimized by the optimal state trajectory $x^*$, optimal control $u^*$, and corresponding costate vector $\lambda^*$.
 
 
@@ -14021,13 +13474,11 @@ where $\lambda^T$ is the transpose of $\lambda$. The Hamiltonian is defined for 
 Using the maximum principle, we know that the optimal state trajectory, control, and costate vector must satisfy the following conditions:
 
 
-
 $$
 
 H(x^*(t),u^*(t),\lambda^*(t),t) \leq H(x(t),u,\lambda(t),t)
 
 $$
-
 
 
 for all $t \in [0,T]$ and for all permissible controls $u$. This condition ensures that the optimal solution is found by minimizing the Hamiltonian.
@@ -14241,21 +13692,17 @@ In conclusion, continuous time models are a powerful tool for solving optimizati
 #### Exercise 1
 
 Consider the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and $g$ are continuous functions. Use the Euler-Lagrange equation to find the optimal control $u^*(t)$.
 
 
@@ -14263,21 +13710,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and 
 #### Exercise 2
 
 Solve the following continuous time optimization problem using the Bellman equation:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $f$ and $g$ are continuous functions.
 
 
@@ -14285,21 +13728,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the d
 #### Exercise 3
 
 Consider the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and $g$ are continuous functions. Use the Hamilton-Jacobi-Bellman equation to find the optimal control $u^*(t)$.
 
 
@@ -14307,21 +13746,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and 
 #### Exercise 4
 
 Apply the Runge-Kutta method to solve the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $f$ and $g$ are continuous functions.
 
 
@@ -14357,21 +13792,17 @@ In conclusion, continuous time models are a powerful tool for solving optimizati
 #### Exercise 1
 
 Consider the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and $g$ are continuous functions. Use the Euler-Lagrange equation to find the optimal control $u^*(t)$.
 
 
@@ -14379,21 +13810,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and 
 #### Exercise 2
 
 Solve the following continuous time optimization problem using the Bellman equation:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $f$ and $g$ are continuous functions.
 
 
@@ -14401,21 +13828,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the d
 #### Exercise 3
 
 Consider the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and $g$ are continuous functions. Use the Hamilton-Jacobi-Bellman equation to find the optimal control $u^*(t)$.
 
 
@@ -14423,21 +13846,17 @@ where $x(t)$ is the state variable, $u(t)$ is the control variable, and $f$ and 
 #### Exercise 4
 
 Apply the Runge-Kutta method to solve the following continuous time optimization problem:
-
 $$
 
 \max_{x(t)} \int_{t_0}^{t_1} e^{-rt} f(x(t), u(t)) dt
 
 $$
-
 subject to the differential equation:
-
 $$
 
 \dot{x}(t) = g(x(t), u(t))
 
 $$
-
 where $x(t)$ is the state variable, $u(t)$ is the control variable, $r$ is the discount rate, and $f$ and $g$ are continuous functions.
 
 
@@ -14503,13 +13922,11 @@ The steepest descent method starts with an initial guess for the decision variab
 The update rule for the steepest descent method can be written as:
 
 
-
 $$
 
 x_{k+1} = x_k - \alpha_k \nabla f(x_k)
 
 $$
-
 
 
 where $x_k$ is the decision variable at iteration $k$, $\alpha_k$ is the step size or learning rate, and $\nabla f(x_k)$ is the gradient of the objective function at $x_k$.
@@ -14561,7 +13978,6 @@ The conjugate gradient method can be derived from the Arnoldi/Lanczos iteration,
 The general Arnoldi method starts with a vector $\boldsymbol{r}_0$ and builds an orthonormal basis $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\boldsymbol{v}_3,\ldots\}$ of the Krylov subspace by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$, where
 
 
-
 $$
 
 \boldsymbol{w}_i = \begin{cases}
@@ -14575,9 +13991,7 @@ $$
 $$
 
 
-
 In other words, for $i>1$, $\boldsymbol{v}_i$ is found by Gram-Schmidt orthogonalizing $\boldsymbol{Av}_{i-1}$ against $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\ldots,\boldsymbol{v}_{i-1}\}$ followed by normalization. This iteration can be captured by the equation
-
 
 
 $$
@@ -14587,9 +14001,7 @@ $$
 $$
 
 
-
 with
-
 
 
 $$
@@ -14611,9 +14023,7 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 $$
 
 
-
 where
-
 
 
 $$
@@ -14629,7 +14039,6 @@ h_{ij} = \begin{cases}
 $$
 
 
-
 When applying the Arnoldi iteration to solving linear systems, one starts with $\boldsymbol{r}_0=\boldsymbol{b}-\boldsymbol{Ax}_0$, the residual corresponding to an initial guess $\boldsymbol{x}_0$. After each step of iteration, one computes $\boldsymbol{y}_i=\boldsymbol{H}_i^{-1}(\lVert\boldsymbol{r}_0\rVert_2\boldsymbol{e}_1)$ and the new iterate $\boldsymbol{x}_i=\boldsymbol{x}_0+\boldsymbol{V}_i\boldsymbol{y}_i$.
 
 
@@ -14641,7 +14050,6 @@ The conjugate gradient method is a direct Lanczos method, which means that it us
 To apply the conjugate gradient method to optimization problems, one starts with an initial guess for the decision variables and then iteratively updates the variables in the direction of the conjugate gradient descent direction. The update rule for the conjugate gradient method can be written as:
 
 
-
 $$
 
 x_{k+1} = x_k + \alpha_k p_k
@@ -14649,9 +14057,7 @@ x_{k+1} = x_k + \alpha_k p_k
 $$
 
 
-
 where $p_k$ is the conjugate gradient descent direction and $\alpha_k$ is the step size or learning rate. The conjugate gradient descent direction is given by:
-
 
 
 $$
@@ -14659,7 +14065,6 @@ $$
 p_k = -\nabla f(x_k) + \beta_k p_{k-1}
 
 $$
-
 
 
 where $\beta_k$ is a scalar that ensures conjugacy between successive descent directions. The step size, $\alpha_k$, is chosen to minimize the objective function along the descent direction, and the scalar $\beta_k$ is chosen to ensure conjugacy.
@@ -14707,7 +14112,6 @@ One popular gradient-based method is the conjugate gradient method, which is com
 The general Arnoldi method starts with a vector $\boldsymbol{r}_0$ and builds an orthonormal basis $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\boldsymbol{v}_3,\ldots\}$ of the Krylov subspace by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$, where
 
 
-
 $$
 
 \boldsymbol{w}_i = \begin{cases}
@@ -14721,9 +14125,7 @@ $$
 $$
 
 
-
 In other words, for $i>1$, $\boldsymbol{v}_i$ is found by Gram-Schmidt orthogonalizing $\boldsymbol{Av}_{i-1}$ against $\{\boldsymbol{v}_1,\boldsymbol{v}_2,\ldots,\boldsymbol{v}_{i-1}\}$ followed by normalization. This iteration can be captured by the equation
-
 
 
 $$
@@ -14731,7 +14133,6 @@ $$
 \boldsymbol{Av}_i = \boldsymbol{v}_i\boldsymbol{H}_i + \boldsymbol{h}_{i+1,i}\boldsymbol{v}_{i+1},
 
 $$
-
 
 
 where $\boldsymbol{H}_i$ is an upper Hessenberg matrix and $\boldsymbol{h}_{i+1,i}$ is a scalar. The conjugate gradient method uses this iteration to find the optimal solution by minimizing the quadratic approximation of the objective function.
@@ -14787,13 +14188,11 @@ To calculate <math>d_k</math>, we first define <math>\rho_k = \frac{1}{y^{\top}_
 The algorithm then uses the BFGS recursion for the inverse Hessian, which is defined as:
 
 
-
 $$
 
 H_{k+1} = (I-\rho_k y_k s_k^\top)H_k(I-\rho_k s_k y_k^\top) + \rho_k y_k y_k^\top
 
 $$
-
 
 
 For a fixed `k`, we define a sequence of vectors <math>q_{k-m},\ldots,q_k</math> as <math>q_k:=g_k</math> and <math>q_i:=(I-\rho_i y_i s_i^\top)q_{i+1}</math>. Then, a recursive algorithm for calculating <math>q_i</math> from <math>q_{i+1}</math> is to define <math>\alpha_i := \rho_i s_i^\top q_{i+1}</math> and <math>q_i=q_{i+1}-\alpha_i y_i</math>. We also define another sequence <math>r_i</math> as <math>r_i = H_i q_i</math>.
@@ -14915,9 +14314,7 @@ Newton's method shares many features with other gradient-based methods, but it d
 To calculate <math>d_k</math>, we first define <math>\rho_k = \frac{1}{y^{\top}_k s_k} </math>, where <math>y_k</math> and <math>s_k</math> are vectors that represent the changes in the gradient and decision variables, respectively. Then, we use the following formula to compute the Newton's direction:
 
 
-
 $$d_k = -H_k g_k = -\left(\frac{1}{\rho_k}I - \frac{s_k y_k^{\top}}{\rho_k^2}\right)g_k$$
-
 
 
 This approach is known as the "two loop recursion" because it involves two loops: an inner loop that updates the Hessian approximation and an outer loop that updates the decision variables. The advantage of this approach is that it avoids the expensive computation of the Hessian matrix, which can be computationally intensive for large problems.
@@ -15193,7 +14590,6 @@ The preconditioned conjugate gradient method is a variant of the conjugate gradi
 To derive the preconditioned conjugate gradient method, we make a few substitutions and variable changes to the original conjugate gradient method. We define the initial guess as $\mathbf{x}_0$, the residual as $\mathbf{r}_0$, and the search direction as $\mathbf{p}_0$. Then, we iterate with $k$ starting at 0, using the following equations:
 
 
-
 $$
 
 \alpha_k := \frac{\mathbf{r}_k^\mathrm{T} \mathbf{A} \mathbf{r}_k}{(\mathbf{A p}_k)^\mathrm{T} \mathbf{M}^{-1} \mathbf{A p}_k} \\
@@ -15213,7 +14609,6 @@ k := k + 1
 $$
 
 
-
 The preconditioner $\mathbf{M}^{-1}$ must be symmetric positive definite for this method to work effectively. It is important to note that the residual vector in this method is different from the residual vector without preconditioning.
 
 
@@ -15229,7 +14624,6 @@ The conjugate gradient method can also be seen as a variant of the Arnoldi/Lancz
 In the Arnoldi iteration, one starts with a vector $\mathbf{r}_0$ and gradually builds an orthonormal basis $\{\mathbf{v}_1,\mathbf{v}_2,\mathbf{v}_3,\ldots\}$ of the Krylov subspace by defining $\mathbf{v}_i=\mathbf{w}_i/\lVert\mathbf{w}_i\rVert_2$ where
 
 
-
 $$
 
 \mathbf{w}_i = \begin{cases}
@@ -15241,7 +14635,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 In other words, for $i>1$, $\mathbf{v}_i$ is found by Gram-Schmidt orthogonalizing $\mathbf{A} \mathbf{v}_{i-1}$ against the previous basis vectors. This process is repeated until the desired number of basis vectors is obtained, and these vectors can then be used to solve the linear system $\mathbf{A} \mathbf{x} = \mathbf{b}$.
@@ -15417,7 +14810,6 @@ Primal-dual interior point methods are a type of interior point method that is p
 To better understand the primal-dual interior point method, let us consider the following nonlinear optimization problem with inequality constraints:
 
 
-
 $$
 
 \operatorname{minimize}\quad f(x) \\ 
@@ -15433,9 +14825,7 @@ c_i(x) \ge 0 \text{ for } i = 1, \ldots, m,\\
 $$
 
 
-
 This problem can be solved by converting it into an unconstrained objective function whose minimum we hope to find efficiently. Specifically, the logarithmic barrier function associated with this problem is:
-
 
 
 $$
@@ -15443,7 +14833,6 @@ $$
 B(x,\mu) = f(x) - \mu \sum_{i=1}^{m} \ln(c_i(x)),
 
 $$
-
 
 
 where $\mu$ is a small positive scalar, sometimes called the "barrier parameter". As $\mu$ converges to zero, the minimum of $B(x,\mu)$ should converge to a solution of the original problem.
@@ -15457,13 +14846,11 @@ where $\mu$ is a small positive scalar, sometimes called the "barrier parameter"
 The primal-dual method's idea is to introduce a Lagrange multiplier-inspired variable $\lambda \in \mathbb{R} ^m$ in addition to the original ("primal") variable $x$. This allows for the formulation of a perturbed complementarity condition, which is given by:
 
 
-
 $$
 
 \lambda_i c_i(x) = \mu \text{ for } i = 1, \ldots, m.
 
 $$
-
 
 
 This condition is sometimes called the "perturbed complementarity" condition, for its resemblance to the original complementarity condition in optimization theory.
@@ -15877,13 +15264,11 @@ The temperature schedule is a crucial aspect of the SA algorithm. It determines 
 The acceptance probability is another important parameter in the SA algorithm. It determines the probability of accepting a worse solution at a given temperature. The most commonly used acceptance probability function is the Boltzmann probability function, which is given by:
 
 
-
 $$
 
 P(\Delta E) = e^{-\Delta E/T}
 
 $$
-
 
 
 where $\Delta E$ is the difference in energy between the current solution and the new solution, and $T$ is the current temperature.
@@ -15939,13 +15324,11 @@ The success of the simulated annealing algorithm depends heavily on the choice o
 The cooling schedule determines how quickly the temperature decreases and how long the algorithm runs. A common temperature schedule is to start with a high temperature and decrease it by a constant factor at each iteration. This is known as the geometric cooling schedule and is given by the equation:
 
 
-
 $$
 
 T_{k+1} = \alpha T_k
 
 $$
-
 
 
 where $T_k$ is the temperature at iteration $k$ and $\alpha$ is the cooling rate. The cooling rate is typically chosen to be between 0.8 and 0.99, with smaller values resulting in a slower decrease in temperature.
@@ -15955,13 +15338,11 @@ where $T_k$ is the temperature at iteration $k$ and $\alpha$ is the cooling rate
 Another popular cooling schedule is the logarithmic cooling schedule, which decreases the temperature logarithmically at each iteration. This is given by the equation:
 
 
-
 $$
 
 T_{k+1} = \frac{T_0}{\log(k+1)}
 
 $$
-
 
 
 where $T_0$ is the initial temperature. This schedule allows for a faster decrease in temperature in the beginning and a slower decrease as the algorithm progresses.
@@ -15973,7 +15354,6 @@ where $T_0$ is the initial temperature. This schedule allows for a faster decrea
 
 
 The acceptance criteria determine whether a new solution generated by the algorithm is accepted or rejected. The most commonly used acceptance criteria is the Metropolis criterion, which is given by the equation:
-
 
 
 $$
@@ -15989,7 +15369,6 @@ e^{-\frac{\Delta E}{T_k}}, & \text{if } \Delta E \geq 0
 $$
 
 
-
 where $\Delta E$ is the change in energy between the current solution and the new solution, and $T_k$ is the current temperature. This criterion allows for worse solutions to be accepted with a certain probability, which decreases as the temperature decreases.
 
 
@@ -15997,13 +15376,11 @@ where $\Delta E$ is the change in energy between the current solution and the ne
 Another acceptance criterion is the Boltzmann criterion, which is similar to the Metropolis criterion but uses a different temperature schedule. It is given by the equation:
 
 
-
 $$
 
 P(\Delta E) = e^{-\frac{\Delta E}{T_k}}
 
 $$
-
 
 
 This criterion is more sensitive to changes in temperature and may result in a faster decrease in temperature compared to the Metropolis criterion.
@@ -16051,13 +15428,11 @@ The success of the simulated annealing algorithm depends heavily on the choice o
 The cooling schedule determines how quickly the temperature decreases and how long the algorithm runs. A common temperature schedule is to start with a high temperature and decrease it by a constant factor at each iteration. This is known as the geometric cooling schedule and is given by the equation:
 
 
-
 $$
 
 T_{k+1} = \alpha T_k
 
 $$
-
 
 
 where $T_k$ is the temperature at iteration $k$ and $\alpha$ is the cooling rate. The cooling rate is typically chosen to be between 0.8 and 0.99, with smaller values resulting in a slower decrease in temperature.
@@ -16067,13 +15442,11 @@ where $T_k$ is the temperature at iteration $k$ and $\alpha$ is the cooling rate
 Another popular cooling schedule is the logarithmic cooling schedule, which decreases the temperature logarithmically at each iteration. This is given by the equation:
 
 
-
 $$
 
 T_{k+1} = \frac{T_0}{\log(k+1)}
 
 $$
-
 
 
 where $T_0$ is the initial temperature. This schedule allows for a faster decrease in temperature in the beginning and a slower decrease as the algorithm progresses.
@@ -16087,7 +15460,6 @@ where $T_0$ is the initial temperature. This schedule allows for a faster decrea
 The acceptance criteria determine whether a new solution should be accepted or rejected. In SA, a new solution is always accepted if it improves the objective function. However, if the new solution is worse than the current solution, it may still be accepted with a certain probability. This probability is determined by the Metropolis criterion, which is given by the equation:
 
 
-
 $$
 
 P(\Delta E) = \begin{cases}
@@ -16099,7 +15471,6 @@ e^{-\frac{\Delta E}{T}}, & \text{if } \Delta E \geq 0
 \end{cases}
 
 $$
-
 
 
 where $\Delta E$ is the change in the objective function and $T$ is the current temperature. This criterion ensures that the algorithm has a higher chance of accepting worse solutions at higher temperatures, allowing it to escape local optima.
@@ -16155,21 +15526,17 @@ Formally, let "f": ℝ<sup>"n"</sup> → ℝ be the cost function which must b
 Let "S" be the number of particles in the swarm, each having a position x<sub>i</sub> ∈ ℝ<sup>"n"</sup> in the search-space and a velocity v<sub>i</sub> ∈ ℝ<sup>"n"</sup>. Let p<sub>i</sub> be the best known position of particle "i" and let g be the best known position of the entire swarm. A basic PSO algorithm to minimize the cost function is then:
 
 
-
 $$
 
 v_{i}(k+1) = wv_{i}(k) + \phi_{p}r_{p}(p_{i}(k) - x_{i}(k)) + \phi_{g}r_{g}(g(k) - x_{i}(k))
 
 $$
 
-
-
 $$
 
 x_{i}(k+1) = x_{i}(k) + v_{i}(k+1)
 
 $$
-
 
 
 where $w$ is the inertia weight, $\phi_{p}$ and $\phi_{g}$ are the cognitive and social coefficients, and $r_{p}$ and $r_{g}$ are random numbers between 0 and 1. The values b<sub>lo</sub> and b<sub>up</sub> represent the lower and upper boundaries of the search-space respectively.
@@ -16249,21 +15616,17 @@ Formally, let $f: \mathbb{R}^n \rightarrow \mathbb{R}$ be the cost function whic
 Let $S$ be the number of particles in the swarm, each having a position $x_i$ and a velocity $v_i$ in the search-space. The position and velocity of each particle are updated at each iteration according to the following equations:
 
 
-
 $$
 
 v_i(n+1) = \omega v_i(n) + c_1 r_1 (p_i(n) - x_i(n)) + c_2 r_2 (p_g(n) - x_i(n))
 
 $$
 
-
-
 $$
 
 x_i(n+1) = x_i(n) + v_i(n+1)
 
 $$
-
 
 
 where $n$ is the current iteration, $\omega$ is the inertia weight, $c_1$ and $c_2$ are the acceleration coefficients, $r_1$ and $r_2$ are random numbers between 0 and 1, $p_i(n)$ is the best-known position of particle $i$ at iteration $n$, and $p_g(n)$ is the best-known position of the entire swarm at iteration $n$.
@@ -16329,21 +15692,17 @@ The basic PSO algorithm can be summarized as follows:
 4. Update the velocity and position of each particle using the following equations:
 
 
-
 $$
 
 \mathbf{v}_i(t+1) = \omega \mathbf{v}_i(t) + c_1 r_1 (\mathbf{p}_i(t) - \mathbf{x}_i(t)) + c_2 r_2 (\mathbf{g}(t) - \mathbf{x}_i(t))
 
 $$
 
-
-
 $$
 
 \mathbf{x}_i(t+1) = \mathbf{x}_i(t) + \mathbf{v}_i(t+1)
 
 $$
-
 
 
 where $\omega$ is the inertia weight, $c_1$ and $c_2$ are the acceleration coefficients, and $r_1$ and $r_2$ are random numbers between 0 and 1.
@@ -16431,13 +15790,11 @@ In conclusion, optimization algorithms are powerful tools for solving dynamic op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = x^2 + 2x + 1
 
 $$
-
 Use gradient descent to find the minimum value of $f(x)$.
 
 
@@ -16445,13 +15802,11 @@ Use gradient descent to find the minimum value of $f(x)$.
 #### Exercise 2
 
 Implement Newton's method to solve the following optimization problem:
-
 $$
 
 \min_{x} f(x) = \frac{1}{2}x^2 + 3x + 5
 
 $$
-
 Compare the results with those obtained using gradient descent.
 
 
@@ -16465,13 +15820,11 @@ Discuss the advantages and disadvantages of using the conjugate gradient method 
 #### Exercise 4
 
 Consider a constrained optimization problem:
-
 $$
 
 \min_{x} f(x) \text{ subject to } g(x) \leq 0
 
 $$
-
 Explain how the gradient descent algorithm can be modified to handle this type of problem.
 
 
@@ -16507,13 +15860,11 @@ In conclusion, optimization algorithms are powerful tools for solving dynamic op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = x^2 + 2x + 1
 
 $$
-
 Use gradient descent to find the minimum value of $f(x)$.
 
 
@@ -16521,13 +15872,11 @@ Use gradient descent to find the minimum value of $f(x)$.
 #### Exercise 2
 
 Implement Newton's method to solve the following optimization problem:
-
 $$
 
 \min_{x} f(x) = \frac{1}{2}x^2 + 3x + 5
 
 $$
-
 Compare the results with those obtained using gradient descent.
 
 
@@ -16541,13 +15890,11 @@ Discuss the advantages and disadvantages of using the conjugate gradient method 
 #### Exercise 4
 
 Consider a constrained optimization problem:
-
 $$
 
 \min_{x} f(x) \text{ subject to } g(x) \leq 0
 
 $$
-
 Explain how the gradient descent algorithm can be modified to handle this type of problem.
 
 
@@ -16693,7 +16040,6 @@ The CAPM assumes that all investors hold a combination of the market portfolio a
 
 
 The CAPM formula for expected return is as follows:
-
 
 
 $$

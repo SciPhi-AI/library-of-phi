@@ -1206,9 +1206,7 @@ Nonlinear spectroscopy is a powerful tool that allows us to study the properties
 
 
 $$
-
 \overrightarrow{P} = \epsilon_0 \left(\chi^{(1)} \overrightarrow{E} + \chi^{(2)} \overrightarrow{E}^2 + \chi^{(3)} \overrightarrow{E}^3 + ... + \chi^{(n)} \overrightarrow{E}^n \right)
-
 $$
 
 
@@ -3500,9 +3498,7 @@ The relationship between heat, work, and internal energy is described by the fir
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -3520,9 +3516,7 @@ Enthalpy ($H$) is a thermodynamic quantity that takes into account both the inte
 
 
 $$
-
 H = U + PV
-
 $$
 
 
@@ -3536,9 +3530,7 @@ Entropy ($S$) is a measure of the disorder or randomness of a system. It is defi
 
 
 $$
-
 S = \frac{Q_{rev}}{T}
-
 $$
 
 
@@ -3556,9 +3548,7 @@ Free energy ($G$) is a thermodynamic quantity that combines the concepts of enth
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -3610,9 +3600,7 @@ The general form of a rate law is:
 
 
 $$
-
 rate = k[A]^m[B]^n
-
 $$
 
 
@@ -3706,9 +3694,7 @@ The general equation of heat transfer, also known as the first law of thermodyna
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -3730,9 +3716,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -3754,9 +3738,7 @@ The rate law can be written as:
 
 
 $$
-
 rate = k[A]^m[B]^n
-
 $$
 
 
@@ -5074,9 +5056,7 @@ The uncertainty principle states that it is impossible to simultaneously know th
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -5592,9 +5572,7 @@ Gibbs free energy, denoted as "G", is a thermodynamic potential that measures th
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -5616,9 +5594,7 @@ Chemical potential, denoted as μ<sub>j</sub>, is a measure of the energy that i
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{a_j}
-
 $$
 
 
@@ -5636,9 +5612,7 @@ At equilibrium, the Gibbs free energy is at a minimum, and the chemical potentia
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{a_j} = \mu_j^{\ominus} + RT\ln{\frac{N_j}{N_j^{\ominus}}}
-
 $$
 
 
@@ -5652,9 +5626,7 @@ Using the definition of chemical potential, we can rewrite this equation as:
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{\frac{N_j}{N_j^{\ominus}}} = \mu_j^{\ominus} + RT\ln{\frac{a_j}{a_j^{\ominus}}}
-
 $$
 
 
@@ -5664,9 +5636,7 @@ Since the chemical potential is equal at equilibrium, we can set the two equatio
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{\frac{a_j}{a_j^{\ominus}}} = \mu_j^{\ominus} + RT\ln{\frac{N_j}{N_j^{\ominus}}} = \mu_j^{\ominus} + RT\ln{\frac{a_j}{a_j^{\ominus}}} = \mu_j^{\ominus} + RT\ln{\frac{K}{1}} = \mu_j^{\ominus} + RT\ln{K}
-
 $$
 
 
@@ -5718,9 +5688,7 @@ The chemical potential of a substance can be thought of as the driving force for
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{a_j}
-
 $$
 
 
@@ -5738,9 +5706,7 @@ At equilibrium, the chemical potential of each substance in the system is equal.
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT\ln{a_j} = \mu_j^{\ominus} + RT\ln{\frac{N_j}{N_j^{\ominus}}}
-
 $$
 
 
@@ -5758,9 +5724,7 @@ Chemical potential also plays a crucial role in understanding thermodynamic proc
 
 
 $$
-
 \Delta \mu_j = RT\ln{\frac{a_j}{a_j^{\ominus}}}
-
 $$
 
 
@@ -5812,9 +5776,7 @@ One of the most useful applications of Gibbs free energy is in predicting the sp
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S < 0
-
 $$
 
 
@@ -5828,9 +5790,7 @@ Using the concept of chemical potential, we can rewrite this equation as:
 
 
 $$
-
 \Delta G = \Delta G^{\ominus} + RT\ln{Q}
-
 $$
 
 
@@ -5848,9 +5808,7 @@ Chemical potential also plays a crucial role in predicting the equilibrium const
 
 
 $$
-
 K_c = \frac{a_{products}}{a_{reactants}}
-
 $$
 
 
@@ -5860,9 +5818,7 @@ where a<sub>products</sub> and a<sub>reactants</sub> are the activities of the p
 
 
 $$
-
 K_c = \frac{e^{\Delta G^{\ominus}/RT}}{e^{\Delta G^{\ominus}/RT}}
-
 $$
 
 
@@ -5984,9 +5940,7 @@ The equilibrium constant, denoted by "K<sub>c</sub>", is defined as the ratio of
 
 
 $$
-
 K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
-
 $$
 
 
@@ -6038,9 +5992,7 @@ To determine the concentrations at equilibrium, we can use the equilibrium expre
 
 
 $$
-
 aA + bB \rightleftharpoons cC + dD
-
 $$
 
 
@@ -6050,9 +6002,7 @@ the equilibrium expression is given by:
 
 
 $$
-
 K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
-
 $$
 
 
@@ -6070,9 +6020,7 @@ Let's consider the following example:
 
 
 $$
-
 2NO_2(g) \rightleftharpoons N_2O_4(g)
-
 $$
 
 
@@ -6082,9 +6030,7 @@ If we start with an initial concentration of 0.5 M for "NO<sub>2</sub>", and the
 
 
 $$
-
 K_c = \frac{[N_2O_4]}{[NO_2]^2} = \frac{0.3}{(0.5)^2} = 1.2
-
 $$
 
 
@@ -6344,9 +6290,7 @@ In conclusion, the study of chemical equilibrium is a fundamental aspect of expe
 Calculate the equilibrium constant, K, for the following reaction at 25°C:
 
 $$
-
 2NO_2(g) \rightleftharpoons N_2O_4(g)
-
 $$
 
 Given that the initial concentrations of NO2 and N2O4 are 0.2 M and 0.1 M, respectively, and the equilibrium concentrations of NO2 and N2O4 are 0.15 M and 0.15 M, respectively.
@@ -6554,9 +6498,7 @@ The most common type of acid-base reaction is a proton transfer reaction, where 
 
 
 $$
-
 \text{Acid} + \text{Base} \rightleftharpoons \text{Conjugate Acid} + \text{Conjugate Base}
-
 $$
 
 
@@ -6574,9 +6516,7 @@ In addition to proton transfer reactions, acid-base reactions can also involve t
 
 
 $$
-
 \text{Acid} + \text{Base} \rightarrow \text{Adduct}
-
 $$
 
 
@@ -6594,17 +6534,13 @@ Hydrolysis reactions involve the reaction of an acid or a base with water. These
 
 
 $$
-
 \text{Acid} + \text{Water} \rightleftharpoons \text{Conjugate Acid} + \text{Hydroxide Ion}
-
 $$
 
 
 
 $$
-
 \text{Base} + \text{Water} \rightleftharpoons \text{Conjugate Base} + \text{Hydronium Ion}
-
 $$
 
 
@@ -6622,9 +6558,7 @@ Neutralization reactions involve the reaction of an acid with a base to form a s
 
 
 $$
-
 \text{Acid} + \text{Base} \rightarrow \text{Salt} + \text{Water}
-
 $$
 
 
@@ -6660,17 +6594,13 @@ pH and pOH are logarithmic measures of the acidity and basicity of a solution, r
 
 
 $$
-
 \text{pH} = -\log[\text{H}^+]
-
 $$
 
 
 
 $$
-
 \text{pOH} = -\log[\text{OH}^-]
-
 $$
 
 
@@ -6704,9 +6634,7 @@ pH and pOH are related by the following equation:
 
 
 $$
-
 \text{pH} + \text{pOH} = 14
-
 $$
 
 
@@ -6750,9 +6678,7 @@ To calculate the pH of a solution, we first need to know the concentration of hy
 
 
 $$
-
 [\text{H}^+] = 10^{-\text{pH}}
-
 $$
 
 
@@ -6762,9 +6688,7 @@ For example, if a solution has a pH of 3, the concentration of hydrogen ions wou
 
 
 $$
-
 [\text{H}^+] = 10^{-3} = 0.001 \text{ M}
-
 $$
 
 
@@ -6778,9 +6702,7 @@ Similarly, to calculate the pOH of a solution, we need to know the concentration
 
 
 $$
-
 [\text{OH}^-] = 10^{-\text{pOH}}
-
 $$
 
 
@@ -6790,9 +6712,7 @@ For instance, if a solution has a pOH of 5, the concentration of hydroxide ions 
 
 
 $$
-
 [\text{OH}^-] = 10^{-5} = 0.00001 \text{ M}
-
 $$
 
 
@@ -6806,9 +6726,7 @@ As mentioned in the previous section, pH and pOH are related by the equation:
 
 
 $$
-
 \text{pH} + \text{pOH} = 14
-
 $$
 
 
@@ -9274,9 +9192,7 @@ The relationship between the types of decay can be further examined through the 
 
 
 $$
-
 ^{238}_{92}U \rightarrow ^{234}_{90}Th + ^4_2He
-
 $$
 
 
@@ -9286,9 +9202,7 @@ This equation shows that uranium-238 decays into thorium-234 and emits an alpha 
 
 
 $$
-
 ^{14}_6C \rightarrow ^{14}_7N + ^0_{-1}e
-
 $$
 
 
@@ -9664,9 +9578,7 @@ The electromagnetic spectrum is the range of all possible frequencies of electro
 
 
 $$
-
 E = h\nu = \frac{hc}{\lambda}
-
 $$
 
 
@@ -9684,9 +9596,7 @@ When light interacts with matter, it can be absorbed, transmitted, or scattered.
 
 
 $$
-
 A = \epsilon lc
-
 $$
 
 
@@ -9754,9 +9664,7 @@ The electromagnetic spectrum is the range of all possible frequencies of electro
 
 
 $$
-
 E = h\nu = \frac{hc}{\lambda}
-
 $$
 
 
@@ -9774,9 +9682,7 @@ When light interacts with matter, it can be absorbed, transmitted, or scattered.
 
 
 $$
-
 A = \epsilon lc
-
 $$
 
 
@@ -9834,9 +9740,7 @@ The electromagnetic spectrum is the range of all possible frequencies of electro
 
 
 $$
-
 E = h\nu = \frac{hc}{\lambda}
-
 $$
 
 
@@ -9854,9 +9758,7 @@ When light interacts with matter, it can be absorbed, transmitted, or scattered.
 
 
 $$
-
 A = \epsilon lc
-
 $$
 
 

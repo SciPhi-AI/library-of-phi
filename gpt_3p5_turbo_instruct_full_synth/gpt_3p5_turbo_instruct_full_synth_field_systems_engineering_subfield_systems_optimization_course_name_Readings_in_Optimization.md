@@ -634,7 +634,6 @@ The basic form of an SDP problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -642,7 +641,6 @@ $$
 \text{subject to} \quad & A_0 + \sum_{i=1}^n x_iA_i \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -706,7 +704,6 @@ The SDP formulation of the MAXCUT problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & \frac{1}{4} \sum_{i,j=1}^n w_{ij} (1 - x_i^Tx_j) \\
@@ -714,7 +711,6 @@ $$
 \text{subject to} \quad & x_i^Tx_i = 1, \quad \forall i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 
@@ -758,7 +754,6 @@ The SDP formulation of the MAXCUT problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & \frac{1}{4} \sum_{i,j=1}^n w_{ij} (1 - x_i^Tx_j) \\
@@ -766,7 +761,6 @@ $$
 \text{subject to} \quad & x_i^Tx_i = 1, \quad \forall i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 
@@ -2102,11 +2096,8 @@ Overall, this chapter provides a valuable resource for anyone interested in opti
 #### Exercise 1
 
 Consider the following optimization problem: $$\min_{x,y} 3x + 4y$$
-
 $$\text{subject to } x + y \geq 5$$
-
 $$x, y \geq 0$$
-
 a) What type of optimization problem is this?
 
 b) What is the objective function?
@@ -2132,9 +2123,7 @@ Research and compare the performance of gradient descent and Newton's method for
 #### Exercise 4
 
 Consider the following integer programming problem: $$\max_{x,y} 2x + 3y$$
-
 $$\text{subject to } x + y \leq 10$$
-
 $$x, y \in \mathbb{Z}$$
 
 a) What is the objective function?
@@ -2172,9 +2161,7 @@ Overall, this chapter provides a valuable resource for anyone interested in opti
 #### Exercise 1
 
 Consider the following optimization problem: $$\min_{x,y} 3x + 4y$$
-
 $$\text{subject to } x + y \geq 5$$
-
 $$x, y \geq 0$$
 
 a) What type of optimization problem is this?
@@ -2202,9 +2189,7 @@ Research and compare the performance of gradient descent and Newton's method for
 #### Exercise 4
 
 Consider the following integer programming problem: $$\max_{x,y} 2x + 3y$$
-
 $$\text{subject to } x + y \leq 10$$
-
 $$x, y \in \mathbb{Z}$$
 
 a) What is the objective function?
@@ -2970,7 +2955,6 @@ Overall, the Bertsimas and Vempala paper and the Zabinsky, Smith, etc. paper ser
 #### Exercise 1
 
 Consider the linear programming problem:
-
 $$
 
 \begin{align*}
@@ -2984,7 +2968,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Show that the optimal solution to this problem can be found using a random walk algorithm.
 
 
@@ -2998,7 +2981,6 @@ In the Zabinsky, Smith, etc. paper, the authors propose a cutting-plane algorith
 #### Exercise 3
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -3012,7 +2994,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Show that this problem can be formulated as a binary quadratic program.
 
 
@@ -3026,7 +3007,6 @@ In the Bertsimas and Vempala paper, the authors propose a random walk algorithm 
 #### Exercise 5
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -3040,7 +3020,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Develop a cutting-plane algorithm for solving this problem and compare its performance to other existing algorithms.
 
 
@@ -3066,7 +3045,6 @@ Overall, the Bertsimas and Vempala paper and the Zabinsky, Smith, etc. paper ser
 #### Exercise 1
 
 Consider the linear programming problem:
-
 $$
 
 \begin{align*}
@@ -3080,7 +3058,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Show that the optimal solution to this problem can be found using a random walk algorithm.
 
 
@@ -3094,7 +3071,6 @@ In the Zabinsky, Smith, etc. paper, the authors propose a cutting-plane algorith
 #### Exercise 3
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -3108,7 +3084,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Show that this problem can be formulated as a binary quadratic program.
 
 
@@ -3122,7 +3097,6 @@ In the Bertsimas and Vempala paper, the authors propose a random walk algorithm 
 #### Exercise 5
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -3136,7 +3110,6 @@ $$
 \end{align*}
 
 $$
-
 where $A$ is an $m \times n$ matrix, $b$ is an $m$-dimensional vector, and $c$ is an $n$-dimensional vector. Develop a cutting-plane algorithm for solving this problem and compare its performance to other existing algorithms.
 
 
@@ -3598,21 +3571,17 @@ In conclusion, this chapter has provided a comprehensive overview of advanced op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x,y} x^2 + y^2
 
 $$
-
 subject to
-
 $$
 
 x + y = 1
 
 $$
-
 Use the method of Lagrange multipliers to find the optimal solution.
 
 
@@ -3632,21 +3601,17 @@ Implement the gradient descent algorithm to find the minimum of the function $f(
 #### Exercise 4
 
 Consider the following nonlinear optimization problem:
-
 $$
 
 \min_{x,y} x^2 + y^2
 
 $$
-
 subject to
-
 $$
 
 x^2 + y^2 = 1
 
 $$
-
 Use the Newton's method to find the optimal solution.
 
 
@@ -3678,21 +3643,17 @@ In conclusion, this chapter has provided a comprehensive overview of advanced op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x,y} x^2 + y^2
 
 $$
-
 subject to
-
 $$
 
 x + y = 1
 
 $$
-
 Use the method of Lagrange multipliers to find the optimal solution.
 
 
@@ -3712,21 +3673,17 @@ Implement the gradient descent algorithm to find the minimum of the function $f(
 #### Exercise 4
 
 Consider the following nonlinear optimization problem:
-
 $$
 
 \min_{x,y} x^2 + y^2
 
 $$
-
 subject to
-
 $$
 
 x^2 + y^2 = 1
 
 $$
-
 Use the Newton's method to find the optimal solution.
 
 
@@ -3796,13 +3753,11 @@ In the context of machine learning, the function we are trying to minimize is th
 The algorithm starts with an initial guess for the parameters, denoted by $w_0$. It then iteratively updates the parameters using the following equation:
 
 
-
 $$
 
 w_{t+1} = w_t - \alpha \nabla J(w_t)
 
 $$
-
 
 
 where $w_t$ represents the parameters at iteration $t$, $\alpha$ is the learning rate, and $\nabla J(w_t)$ is the gradient of the cost function at $w_t$. The learning rate controls the size of the steps taken in the direction of the gradient. A larger learning rate can result in faster convergence, but it may also cause the algorithm to overshoot the minimum. On the other hand, a smaller learning rate may take longer to converge, but it can result in a more precise solution.
@@ -3846,13 +3801,11 @@ In the context of machine learning, the function we are trying to minimize is th
 The algorithm starts with an initial guess for the parameters, denoted by $w_0$. It then iteratively updates the parameters using the following equation:
 
 
-
 $$
 
 w_{t+1} = w_t - \alpha \nabla J(w_t)
 
 $$
-
 
 
 where $w_t$ represents the parameters at iteration $t$, $\alpha$ is the learning rate, and $\nabla J(w_t)$ is the gradient of the cost function at $w_t$. The learning rate controls the size of the steps taken in the direction of the gradient. A larger learning rate can result in faster convergence, but it may also cause the algorithm to overshoot the minimum. On the other hand, a smaller learning rate may take longer to converge, but it can result in a more precise solution.
@@ -3912,13 +3865,11 @@ In the context of machine learning, the function we are trying to minimize is th
 The algorithm starts with an initial guess for the parameters, denoted by $w_0$. It then iteratively updates the parameters using the following equation:
 
 
-
 $$
 
 w_{t+1} = w_t - \alpha \nabla J(w_t)
 
 $$
-
 
 
 where $w_t$ represents the parameters at iteration $t$, $\alpha$ is the learning rate, and $\nabla J(w_t)$ is the gradient of the cost function at $w_t$. The learning rate controls the size of the steps taken in the direction of the gradient. A larger learning rate can result in faster convergence, but it may also cause the algorithm to overshoot the minimum. On the other hand, a smaller learning rate may take longer to converge, but it can result in a more precise solution.
@@ -4096,7 +4047,6 @@ The basic components of a linear programming problem include decision variables,
 The general form of a linear programming problem can be expressed as:
 
 
-
 $$
 
 \begin{align*}
@@ -4116,7 +4066,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c_1, c_2, ..., c_n$ are the coefficients of the objective function, $a_{ij}$ are the coefficients of the constraints, and $b_1, b_2, ..., b_m$ are the right-hand side values of the constraints.
@@ -4160,7 +4109,6 @@ The basic components of a linear programming problem include decision variables,
 The general form of a linear programming problem can be expressed as:
 
 
-
 $$
 
 \begin{align*}
@@ -4180,7 +4128,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c_1, c_2, ..., c_n$ are the coefficients of the objective function, $a_{ij}$ are the coefficients of the constraints, and $b_1, b_2, ..., b_m$ are the right-hand side values of the constraints. The objective function is typically a linear combination of the decision variables, and the constraints represent the limitations or restrictions on the values of the decision variables.
@@ -4232,7 +4179,6 @@ The basic components of a linear programming problem include decision variables,
 The general form of a linear programming problem can be expressed as:
 
 
-
 $$
 
 \begin{align*}
@@ -4252,7 +4198,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c_1, c_2, ..., c_n$ are the coefficients of the objective function, $a_{ij}$ are the coefficients of the constraints, and $b_1, b_2, ..., b_m$ are the right-hand side values of the constraints. The objective function is typically a linear combination of the decision variables, with the coefficients representing the contribution of each variable to the overall objective.
@@ -4982,7 +4927,6 @@ Inventory management is a critical aspect of supply chain management, as it invo
 
 
 One of the main techniques used in inventory optimization is the Economic Order Quantity (EOQ) model. This model helps determine the optimal order quantity that minimizes the total cost of ordering and holding inventory. The formula for EOQ is given by:
-
 
 
 $$

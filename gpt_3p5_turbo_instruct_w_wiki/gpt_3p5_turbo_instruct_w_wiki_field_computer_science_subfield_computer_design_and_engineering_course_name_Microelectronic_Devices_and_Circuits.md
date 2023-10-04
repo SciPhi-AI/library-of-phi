@@ -1327,7 +1327,6 @@ The carrier concentration has a significant impact on the electrical properties 
 $$\mu = \mu_o + \frac{\mu_1}{1 + \left(\frac{N}{N_\text{ref}}\right)^\alpha}$$
 
 
-
 where $\mu$ is the carrier mobility, $N$ is the doping concentration, and $N_\text{ref}$ and $\alpha$ are fitting parameters. This equation applies to noncompensated materials, meaning there is no counter doping present.
 
 
@@ -1337,17 +1336,13 @@ At room temperature, the above equation can be simplified to:
 
 
 Majority carriers: 
-
 $$\mu_n(N_D) = 65 + \frac{1265}{1+ \left(\frac{N_D}{8.5\times10^{16}}\right)^{0.72}}$$
-
 $$\mu_p(N_A) = 48 + \frac{447}{1+ \left(\frac{N_A}{6.3\times10^{16}}\right)^{0.76}}$$
 
 
 
 Minority carriers: 
-
 $$\mu_n(N_A) = 232 + \frac{1180}{1+ \left(\frac{N_A}{8\times10^{16}}\right)^{0.9}}$$
-
 $$\mu_p(N_D) = 130 + \frac{370}{1+ \left(\frac{N_D}{8\times10^{17}}\right)^{1.25}}$$
 
 
@@ -1599,13 +1594,11 @@ Thermal equilibrium refers to a state where there is no net flow of heat between
 To understand thermal equilibrium in semiconductors, we must first look at the general equation of heat transfer. This equation, also known as the Fourier's law, describes the flow of heat through a material. It states that the rate of change of thermal energy with respect to time is equal to the sum of the rate of heat conduction and the rate of entropy production. This equation can be written as:
 
 
-
 $$
 
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} + \frac{p}{\rho} \frac{d\rho}{dt}
 
 $$
-
 
 
 where $\rho$ is the density of the material, $\varepsilon$ is the thermal energy, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure.
@@ -1615,13 +1608,11 @@ where $\rho$ is the density of the material, $\varepsilon$ is the thermal energy
 From this equation, we can derive the equation for entropy production, which is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity.
@@ -1631,13 +1622,11 @@ where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and 
 This equation shows that the rate of entropy production is dependent on the temperature gradient, velocity gradient, and the material's properties. In the case of thermal equilibrium, where there is no heat transfer, the equation simplifies to:
 
 
-
 $$
 
 \frac{Ds}{Dt} = 0
 
 $$
-
 
 
 This means that in thermal equilibrium, the specific entropy remains constant, and there is no change in the material's properties. This is an essential concept in the study of semiconductors, as it allows us to assume that the material is in a steady state and analyze its behavior using simplified equations.
@@ -1969,13 +1958,11 @@ To understand the depletion approximation, we must first define some key paramet
 Using these parameters, we can derive the depletion approximation equation:
 
 
-
 $$
 
 E = \frac{V_0}{W} = \frac{q(N_D - N_A)}{\epsilon_s}
 
 $$
-
 
 
 This equation shows that the electric field is directly proportional to the potential difference and the difference in charge densities between the two sides of the junction. It is also inversely proportional to the width of the depletion region and the permittivity of the material.
@@ -2015,13 +2002,11 @@ To understand the depletion approximation, we must first define some key paramet
 Using these parameters, we can derive the depletion approximation equation:
 
 
-
 $$
 
 E = \frac{V_0}{W} = \frac{q(N_D - N_A)}{\epsilon_s}
 
 $$
-
 
 
 This equation shows that the electric field is directly proportional to the potential difference and the difference in charge densities between the two sides of the junction. It is also inversely proportional to the width of the depletion region and the permittivity of the semiconductor material. This approximation is valid when the width of the depletion region is much smaller than the diffusion length of the minority carriers, which is typically the case in most P-N junctions and diodes.
@@ -2039,13 +2024,11 @@ In P-N junctions, the depletion region is formed at the interface between the p-
 To better understand the behavior of the depletion region in P-N junctions, we can look at the governing equations that describe its size. By applying Poisson's equation, we can see that the charge density in the depletion region is directly related to the potential difference across it. This relationship is given by the equation:
 
 
-
 $$
 
 \Delta V = \frac{C_A C_D}{C_A + C_D} \frac{q}{2\epsilon}(d_p + d_n)^2
 
 $$
-
 
 
 where $C_A$ and $C_D$ are the concentrations of acceptor and donor atoms, respectively, and $d_p$ and $d_n$ are the widths of the depletion region on the p-side and n-side, respectively. This equation shows that the potential difference is directly proportional to the product of the acceptor and donor concentrations and the square of the total width of the depletion region.
@@ -2055,13 +2038,11 @@ where $C_A$ and $C_D$ are the concentrations of acceptor and donor atoms, respec
 Using this equation, we can also derive the total width of the depletion region, denoted by $d$. This is given by the equation:
 
 
-
 $$
 
 d = \sqrt{\frac{2\epsilon}{q} \frac{C_A + C_D}{C_A C_D} \Delta V}
 
 $$
-
 
 
 This equation shows that the total width of the depletion region is directly proportional to the square root of the potential difference and the inverse of the product of the acceptor and donor concentrations. This relationship is important in understanding the behavior of P-N junctions and diodes, as it allows us to predict the size of the depletion region based on the applied voltage and the doping concentrations.
@@ -2101,13 +2082,11 @@ To understand the depletion approximation, we must first define some key paramet
 Using these parameters, we can derive the depletion approximation equation:
 
 
-
 $$
 
 E = \frac{V_0}{W} = \frac{q(N_D - N_A)}{\epsilon_s}
 
 $$
-
 
 
 This equation shows that the electric field is directly proportional to the potential difference and the difference in charge densities between the two sides of the junction. It is also inversely proportional to the width of the depletion region and the permittivity of the semiconductor material. This simplification allows us to analyze the behavior of P-N junctions and diodes using basic principles of electrostatics, making the analysis more manageable and intuitive.
@@ -2121,13 +2100,11 @@ This equation shows that the electric field is directly proportional to the pote
 As mentioned earlier, the depletion approximation is valid when the width of the depletion region is much smaller than the diffusion length of the minority carriers. This condition can be expressed mathematically as:
 
 
-
 $$
 
 W \ll L_n, L_p
 
 $$
-
 
 
 where $L_n$ and $L_p$ are the diffusion lengths of the minority carriers in the n-type and p-type regions, respectively. This condition ensures that the electric field within the depletion region is indeed constant and that the depletion approximation is a valid simplification.
@@ -2357,13 +2334,11 @@ Minority carrier injection refers to the process of injecting excess minority ca
 The injection of minority carriers into a semiconductor material can be described by the following equation:
 
 
-
 $$
 
 n = n_0 + \Delta n
 
 $$
-
 
 
 Where $n$ is the total number of electrons, $n_0$ is the equilibrium concentration of electrons, and $\Delta n$ is the excess carriers injected into the material. This equation is similar to the one used to describe reverse bias, but in this case, we are specifically looking at the injection of minority carriers.
@@ -2373,13 +2348,11 @@ Where $n$ is the total number of electrons, $n_0$ is the equilibrium concentrati
 It is important to note that for every minority carrier injected, a corresponding hole is also created in order to maintain charge balance. This can be represented by the following equation:
 
 
-
 $$
 
 p = p_0 + \Delta p
 
 $$
-
 
 
 Where $p$ is the total number of holes, $p_0$ is the equilibrium concentration of holes, and $\Delta p$ is the excess holes created due to minority carrier injection.
@@ -2389,13 +2362,11 @@ Where $p$ is the total number of holes, $p_0$ is the equilibrium concentration o
 In low-level injection conditions, the number of minority carriers injected is small compared to the majority carriers in the material. This results in a linear relationship between the minority carrier recombination rates and the excess carriers injected. This can be expressed by the following equation:
 
 
-
 $$
 
 R = \alpha \Delta n
 
 $$
-
 
 
 Where $R$ is the minority carrier recombination rate and $\alpha$ is a constant.
@@ -2405,13 +2376,11 @@ Where $R$ is the minority carrier recombination rate and $\alpha$ is a constant.
 In contrast, high-level injection conditions occur when the number of minority carriers injected is large compared to the background doping density of the material. In this case, the minority carrier recombination rates are proportional to the square of the excess carriers injected. This can be represented by the following equation:
 
 
-
 $$
 
 R = \beta (\Delta n)^2
 
 $$
-
 
 
 Where $\beta$ is a constant.
@@ -2463,13 +2432,11 @@ The amount of minority carrier injection in a P-N junction is dependent on the a
 In low-level injection conditions, the number of minority carriers injected is small compared to the majority carriers in the material. This results in a linear relationship between the minority carrier recombination rates and the excess carriers injected, as described by the equation:
 
 
-
 $$
 
 R = \alpha \Delta n
 
 $$
-
 
 
 Where $R$ is the minority carrier recombination rate and $\alpha$ is a constant.
@@ -2697,9 +2664,7 @@ Diode modeling is the process of creating mathematical models that approximate t
 The most commonly used diode model is the single-exponential Shockley diode law. This model is based on the relationship between the diode current and voltage, known as the diode "I-V characteristic". It is given by:
 
 
-
 $$I = I_S(e^{\frac{V_D}{nV_T}} - 1)$$
-
 
 
 Where $I_S$ is the saturation current or scale current of the diode, $V_T$ is the thermal voltage (approximately 26 mV at normal temperatures), and $n$ is the diode ideality factor (typically between 1 and 2 for silicon diodes).
@@ -2709,9 +2674,7 @@ Where $I_S$ is the saturation current or scale current of the diode, $V_T$ is th
 In the case of large diode voltages ($V_D \gg nV_T$), the Shockley diode equation can be simplified to:
 
 
-
 $$I \approx I_Se^{\frac{V_D}{nV_T}}$$
-
 
 
 However, this is still an approximation of the more complex I-V characteristic and may not be accurate for all diode types.
@@ -2737,9 +2700,7 @@ The Shockley diode model is based on the single-exponential Shockley diode law d
 The Shockley diode equation relates the diode current $I$ to the diode voltage $V_D$ and is given by:
 
 
-
 $$I = I_S(e^{\frac{V_D}{nV_T}} - 1)$$
-
 
 
 Where $I_S$ is the saturation current or scale current of the diode, $V_T$ is the thermal voltage (approximately 26 mV at normal temperatures), and $n$ is the diode ideality factor (typically between 1 and 2 for silicon diodes).
@@ -2749,9 +2710,7 @@ Where $I_S$ is the saturation current or scale current of the diode, $V_T$ is th
 In the case of large diode voltages ($V_D \gg nV_T$), the Shockley diode equation can be simplified to:
 
 
-
 $$I \approx I_Se^{\frac{V_D}{nV_T}}$$
-
 
 
 This model is widely used in circuit analysis and design, as it provides a good approximation of the diode behavior.
@@ -2773,9 +2732,7 @@ In some cases, it is necessary to analyze the behavior of a diode in small-signa
 The small-signal diode model is based on the linearization of the diode I-V characteristic around a certain operating point. It is given by:
 
 
-
 $$I = I_D + \frac{V_D}{r_d}$$
-
 
 
 Where $I_D$ is the DC current through the diode, $V_D$ is the small-signal voltage, and $r_d$ is the small-signal resistance of the diode. This model is only accurate for small-signal conditions and may not be suitable for all diode types.
@@ -2863,9 +2820,7 @@ In addition to large-signal modeling, it is also important to have a model for t
 One commonly used small-signal model for diodes is the incremental resistance model. This model assumes that the diode can be represented by a small-signal resistance in parallel with the diode. This resistance is known as the incremental resistance and is given by:
 
 
-
 $$r_d = \frac{nV_T}{I_S}$$
-
 
 
 where $n$ is the diode ideality factor and $V_T$ is the thermal voltage.
@@ -4785,13 +4740,11 @@ In the linear region, the MOSFET operates as a voltage-controlled resistor. This
 The output characteristics in the linear region can be described by the following equation:
 
 
-
 $$
 
 I_{DS} = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{th})V_{DS}
 
 $$
-
 
 
 Where:
@@ -4823,13 +4776,11 @@ In the saturation region, the MOSFET operates as a voltage-controlled current so
 The output characteristics in the saturation region can be described by the following equation:
 
 
-
 $$
 
 I_{DS} = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{th})^2
 
 $$
-
 
 
 Where all the variables are the same as in the linear region equation.
@@ -5643,25 +5594,19 @@ The transfer characteristics of a CMOS inverter can be divided into three region
 To better understand the transfer characteristics of CMOS inverters, let's take a closer look at the equations that govern their behavior. In the cutoff region, both MOSFETs are turned off, and the output voltage is given by:
 
 
-
 $$V_{out} = V_{DD}$$
-
 
 
 where $V_{DD}$ is the supply voltage. In the saturation region, both MOSFETs are turned on, and the output voltage is given by:
 
 
-
 $$V_{out} = 0$$
-
 
 
 In the linear region, one MOSFET is turned on and the other is turned off. The output voltage can be calculated using the following equation:
 
 
-
 $$V_{out} = \frac{1}{2}V_{DD} + \frac{1}{2}V_{in}$$
-
 
 
 where $V_{in}$ is the input voltage. This equation shows that the output voltage in the linear region is a linear function of the input voltage, with a slope of 1/2.
@@ -5679,17 +5624,13 @@ The transfer characteristics of CMOS inverters have several important applicatio
 The noise margin can be calculated using the transfer characteristics of a CMOS inverter. In the cutoff region, the noise margin for a logic 0 is given by:
 
 
-
 $$NM_{L} = V_{IL} - V_{OL}$$
-
 
 
 where $V_{IL}$ is the maximum input voltage that can be interpreted as a logic 0, and $V_{OL}$ is the output voltage in the cutoff region. Similarly, in the saturation region, the noise margin for a logic 1 is given by:
 
 
-
 $$NM_{H} = V_{OH} - V_{IH}$$
-
 
 
 where $V_{OH}$ is the output voltage in the saturation region, and $V_{IH}$ is the minimum input voltage that can be interpreted as a logic 1.
@@ -5699,9 +5640,7 @@ where $V_{OH}$ is the output voltage in the saturation region, and $V_{IH}$ is t
 By analyzing the transfer characteristics of CMOS inverters, we can also determine the power consumption of a circuit. In the linear region, the power consumption is given by:
 
 
-
 $$P = \frac{1}{2}C_{L}V_{DD}^{2}f$$
-
 
 
 where $C_{L}$ is the load capacitance, $V_{DD}$ is the supply voltage, and $f$ is the frequency of operation. This equation shows that the power consumption is directly proportional to the supply voltage and the frequency of operation, and inversely proportional to the load capacitance.
@@ -6815,13 +6754,11 @@ In this section, we will discuss the various performance metrics used in the ana
 Gain is a fundamental performance metric that measures the amplification of a signal by an amplifier. It is defined as the ratio of the output signal amplitude to the input signal amplitude and is typically expressed in decibels (dB). Mathematically, gain can be represented as:
 
 
-
 $$
 
 Gain = 20log_{10}(\frac{V_{out}}{V_{in}})
 
 $$
-
 
 
 where $V_{out}$ is the output signal amplitude and $V_{in}$ is the input signal amplitude.
@@ -6839,13 +6776,11 @@ A higher gain indicates a larger amplification of the input signal, while a lowe
 Bandwidth is another crucial performance metric that measures the range of frequencies over which an amplifier can amplify a signal without significant distortion. It is typically expressed in hertz (Hz) and is determined by the amplifier's internal circuitry and components. Mathematically, bandwidth can be represented as:
 
 
-
 $$
 
 Bandwidth = f_{high} - f_{low}
 
 $$
-
 
 
 where $f_{high}$ is the highest frequency that can be amplified without significant distortion and $f_{low}$ is the lowest frequency that can be amplified without significant distortion.
@@ -6863,13 +6798,11 @@ A wider bandwidth indicates a larger range of frequencies that can be amplified,
 Linearity is a measure of how well an amplifier preserves the shape of the input signal at the output. A linear amplifier will amplify the input signal without distorting its shape, while a non-linear amplifier will introduce distortion. Linearity is typically expressed as a percentage, with a higher percentage indicating a more linear amplifier. Mathematically, linearity can be represented as:
 
 
-
 $$
 
 Linearity = \frac{V_{out}}{V_{in}} * 100\%
 
 $$
-
 
 
 where $V_{out}$ is the output signal amplitude and $V_{in}$ is the input signal amplitude.
@@ -6887,13 +6820,11 @@ In linear amplifiers, it is crucial to maintain high linearity to avoid distorti
 Noise is an unwanted signal that is present in all electronic systems, including amplifiers. It can be caused by various factors, such as thermal noise, shot noise, and flicker noise. Noise is typically expressed in decibels relative to a reference signal and is an important performance metric in low-noise applications, such as in communication systems. Mathematically, noise can be represented as:
 
 
-
 $$
 
 Noise = 10log_{10}(\frac{P_{signal}}{P_{noise}})
 
 $$
-
 
 
 where $P_{signal}$ is the power of the signal and $P_{noise}$ is the power of the noise.
@@ -7821,7 +7752,6 @@ The basic cascode amplifier configuration consists of two transistors, one conne
 The cascode amplifier can be represented by the following circuit diagram:
 
 
-
 $$
 
 \begin{align}
@@ -7835,7 +7765,6 @@ V_{in} &\rightarrow &T_1 &\rightarrow &T_2 &\rightarrow V_{out} \\
 \end{align}
 
 $$
-
 
 
 Where $V_{in}$ is the input voltage, $V_{out}$ is the output voltage, $T_1$ is the common-emitter transistor, $T_2$ is the common-base transistor, $I_{C1}$ is the collector current of $T_1$, and $I_{C2}$ is the collector current of $T_2$.
@@ -7853,13 +7782,11 @@ Cascode amplifiers offer several advantages over other amplifier configurations.
 - High gain: The cascaded effect of the two transistors results in a higher overall gain compared to a single-stage amplifier. The gain of the cascode amplifier can be calculated as:
 
 
-
 $$
 
 A_{v} = A_{v1} \times A_{v2}
 
 $$
-
 
 
 Where $A_{v1}$ is the voltage gain of $T_1$ and $A_{v2}$ is the voltage gain of $T_2$.
@@ -7869,13 +7796,11 @@ Where $A_{v1}$ is the voltage gain of $T_1$ and $A_{v2}$ is the voltage gain of 
 - High input impedance: The common-base transistor provides a high input impedance, which reduces the loading effect on the input signal. The input impedance of the cascode amplifier can be calculated as:
 
 
-
 $$
 
 Z_{in} = \frac{r_{\pi 1} + \beta_1 r_{o1}}{1 + \beta_1}
 
 $$
-
 
 
 Where $r_{\pi 1}$ is the input resistance of $T_1$, $\beta_1$ is the current gain of $T_1$, and $r_{o1}$ is the output resistance of $T_1$.
@@ -7885,13 +7810,11 @@ Where $r_{\pi 1}$ is the input resistance of $T_1$, $\beta_1$ is the current gai
 - Low output impedance: The common-emitter transistor provides a low output impedance, which allows for better matching with the load. The output impedance of the cascode amplifier can be calculated as:
 
 
-
 $$
 
 Z_{out} = \frac{r_{o2}}{1 + \beta_2}
 
 $$
-
 
 
 Where $r_{o2}$ is the output resistance of $T_2$ and $\beta_2$ is the current gain of $T_2$.
@@ -7901,13 +7824,11 @@ Where $r_{o2}$ is the output resistance of $T_2$ and $\beta_2$ is the current ga
 - Wide bandwidth: The high gain and low output impedance of cascode amplifiers make them suitable for high-frequency applications. The bandwidth of the cascode amplifier can be calculated as:
 
 
-
 $$
 
 BW = \frac{f_T}{A_{v1} \times A_{v2}}
 
 $$
-
 
 
 Where $f_T$ is the transition frequency of the transistors.
@@ -8101,13 +8022,11 @@ The common-source configuration is one of the most commonly used single-transist
 The common-source configuration is a type of amplifier that uses a FET as its active device. It is called "common-source" because the source terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the gate terminal, and the output signal is taken from the drain terminal. The common-source configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-source configuration
@@ -8121,13 +8040,11 @@ The common-source configuration has a high input impedance, which means that it 
 The small-signal model of the common-source configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-source configuration
@@ -8137,7 +8054,6 @@ Figure 2: Small-signal model of the common-source configuration
 The gain of the common-source configuration is given by the ratio of the output voltage to the input voltage, and it is typically denoted by the symbol A. The gain can be expressed as:
 
 
-
 $$
 
 A = \frac{v_{out}}{v_{in}}
@@ -8145,9 +8061,7 @@ A = \frac{v_{out}}{v_{in}}
 $$
 
 
-
 The input impedance of the common-source configuration is given by the ratio of the input voltage to the input current, and it is typically denoted by the symbol Zin. The input impedance can be expressed as:
-
 
 
 $$
@@ -8157,9 +8071,7 @@ Z_{in} = \frac{v_{in}}{i_{in}}
 $$
 
 
-
 The output impedance of the common-source configuration is given by the ratio of the output voltage to the output current, and it is typically denoted by the symbol Zout. The output impedance can be expressed as:
-
 
 
 $$
@@ -8167,7 +8079,6 @@ $$
 Z_{out} = \frac{v_{out}}{i_{out}}
 
 $$
-
 
 
 The common-source configuration has a wide range of applications in electronic circuits. It is commonly used as an amplifier, where it can amplify small signals to a larger magnitude. It is also used in oscillators, where it can generate a periodic output signal. Additionally, the common-source configuration is used in filters, where it can selectively pass or reject certain frequencies.
@@ -8199,13 +8110,11 @@ The common-source configuration is one of the most commonly used single-transist
 The common-source configuration is a type of amplifier that uses a FET as its active device. It is called "common-source" because the source terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the gate terminal, and the output signal is taken from the drain terminal. The common-source configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-source configuration
@@ -8219,13 +8128,11 @@ The common-source configuration has a high input impedance, which means that it 
 The small-signal model of the common-source configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-source configuration
@@ -8281,13 +8188,11 @@ The common-source configuration is one of the most commonly used single-transist
 The common-source configuration is a type of amplifier that uses a FET as its active device. It is called "common-source" because the source terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the gate terminal, and the output signal is taken from the drain terminal. The common-source configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-source configuration
@@ -8301,13 +8206,11 @@ The common-source configuration has a high input impedance, which means that it 
 The small-signal model of the common-source configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-source configuration
@@ -8367,13 +8270,11 @@ The common-gate configuration is another commonly used single-transistor buildin
 The common-gate configuration is a type of amplifier that uses a FET as its active device. It is called "common-gate" because the gate terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the source terminal, and the output signal is taken from the drain terminal. The common-gate configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-gate configuration
@@ -8387,13 +8288,11 @@ The common-gate configuration has a low input impedance, which means that it dra
 The small-signal model of the common-gate configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-gate configuration
@@ -8429,13 +8328,11 @@ The common-gate configuration is a widely used single-transistor building block 
 The common-gate configuration is an essential component in single-transistor building block stages. It is a type of amplifier that uses a FET as its active device. The gate terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the source terminal, and the output signal is taken from the drain terminal. The common-gate configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-gate configuration
@@ -8449,13 +8346,11 @@ The common-gate configuration has a low input impedance, which means that it dra
 The small-signal model of the common-gate configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-gate configuration
@@ -8495,13 +8390,11 @@ The common-gate configuration is a widely used single-transistor building block 
 The common-gate configuration is an essential component in single-transistor building block stages. It is a type of amplifier that uses a FET as its active device. The gate terminal of the FET is connected to the ground, which is a common reference point in electronic circuits. The input signal is applied to the source terminal, and the output signal is taken from the drain terminal. The common-gate configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-gate configuration
@@ -8515,13 +8408,11 @@ The common-gate configuration has a low input impedance, which means that it dra
 The small-signal model of the common-gate configuration is shown in Figure 2. It consists of a voltage-controlled current source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-gate configuration
@@ -8565,13 +8456,11 @@ The common-drain configuration, also known as the source follower, is another im
 The common-drain configuration is a type of amplifier that is commonly used in electronic circuits. It is a voltage buffer, which means that it has a high input impedance and a low output impedance. This makes it suitable for use in applications where the input signal source has a high output impedance and needs to be isolated from the load. The common-drain configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-drain configuration
@@ -8585,13 +8474,11 @@ The common-drain configuration has a low input impedance, which means that it dr
 The small-signal model of the common-drain configuration is shown in Figure 2. It consists of a voltage-controlled voltage source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-drain configuration
@@ -8627,13 +8514,11 @@ The common-drain configuration, also known as the source follower, is another im
 The common-drain configuration is a type of amplifier that is commonly used in electronic circuits. It is a voltage buffer, which means that it has a high input impedance and a low output impedance. This makes it suitable for use in applications where the input signal source has a high output impedance and needs to be isolated from the load. The common-drain configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-drain configuration
@@ -8647,13 +8532,11 @@ The common-drain configuration has a low input impedance, which means that it dr
 The small-signal model of the common-drain configuration is shown in Figure 2. It consists of a voltage-controlled voltage source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-drain configuration
@@ -8701,13 +8584,11 @@ The common-drain configuration, also known as the source follower, is another im
 The common-drain configuration is a type of amplifier that is commonly used in electronic circuits. It is a voltage buffer, which means that it has a high input impedance and a low output impedance. This makes it suitable for use in applications where the input signal source has a high output impedance and needs to be isolated from the load. The common-drain configuration is shown in Figure 1.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
 
 $$
-
 
 
 Figure 1: Common-drain configuration
@@ -8721,13 +8602,11 @@ The common-drain configuration has a low input impedance, which means that it dr
 The small-signal model of the common-drain configuration is shown in Figure 2. It consists of a voltage-controlled voltage source, representing the FET, and a load resistor, representing the output impedance of the circuit. The small-signal model is used to analyze the behavior of the circuit and determine its gain, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Small-signal model of the common-drain configuration
@@ -8803,7 +8682,6 @@ The source-follower and emitter-follower are two important single-transistor bui
 The source-follower and emitter-follower configurations are both types of voltage buffer amplifiers, similar to the common-drain configuration discussed in the previous section. They are commonly used in electronic circuits to isolate a high output impedance signal source from a low impedance load. The source-follower and emitter-follower configurations are shown in Figures 1 and 2, respectively.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
@@ -8811,9 +8689,7 @@ $$
 $$
 
 
-
 Figure 1: Source-follower configuration
-
 
 
 $$
@@ -8821,7 +8697,6 @@ $$
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Emitter-follower configuration
@@ -8831,25 +8706,21 @@ Figure 2: Emitter-follower configuration
 The small-signal models of the source-follower and emitter-follower configurations are shown in Figures 3 and 4, respectively. They consist of a voltage-controlled voltage source, representing the transistor, and a load resistor, representing the output impedance of the circuit. The small-signal models are used to analyze the behavior of the circuits and determine their gains, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 3: Small-signal model of the source-follower configuration
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 4: Small-signal model of the emitter-follower configuration
@@ -8867,13 +8738,11 @@ The gain of the source-follower and emitter-follower configurations is slightly 
 In terms of impedance transformation, the source-follower and emitter-follower configurations have different effects. Using the small-signal circuit in Figure 5, the impedance seen looking into the circuit is increased by a factor of (β + 1) due to the added "r<sub>π</sub>". This is because the FET and BJT have different characteristics, with the FET having a higher input impedance and the BJT having a lower input impedance. As a result, the source-follower has a larger impedance transformation compared to the emitter-follower.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 5: Small-signal model of the MOSFET voltage follower
@@ -8905,7 +8774,6 @@ In the previous section, we discussed the common-drain configuration, which is a
 The source-follower and emitter-follower configurations are both types of voltage buffer amplifiers, similar to the common-drain configuration. They are commonly used in electronic circuits to isolate a high output impedance signal source from a low impedance load. The source-follower and emitter-follower configurations are shown in Figures 1 and 2, respectively.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
@@ -8913,9 +8781,7 @@ $$
 $$
 
 
-
 Figure 1: Source-follower configuration
-
 
 
 $$
@@ -8923,7 +8789,6 @@ $$
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Emitter-follower configuration
@@ -8933,25 +8798,21 @@ Figure 2: Emitter-follower configuration
 The small-signal models of the source-follower and emitter-follower configurations are shown in Figures 3 and 4, respectively. They consist of a voltage-controlled voltage source, representing the transistor, and a load resistor, representing the output impedance of the circuit. The small-signal models are used to analyze the behavior of the circuits and determine their gains, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 3: Small-signal model of the source-follower configuration
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 4: Small-signal model of the emitter-follower configuration
@@ -9003,7 +8864,6 @@ In the previous section, we discussed the common-drain configuration, which is a
 The source-follower and emitter-follower configurations are both types of voltage buffer amplifiers, similar to the common-drain configuration. They are commonly used in electronic circuits to isolate a high output impedance signal source from a low impedance load. The source-follower and emitter-follower configurations are shown in Figures 1 and 2, respectively.
 
 
-
 $$
 
 \Delta w = \eta \cdot x_j(n) \cdot y_j(n)
@@ -9011,9 +8871,7 @@ $$
 $$
 
 
-
 Figure 1: Source-follower configuration
-
 
 
 $$
@@ -9021,7 +8879,6 @@ $$
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 2: Emitter-follower configuration
@@ -9031,25 +8888,21 @@ Figure 2: Emitter-follower configuration
 The small-signal models of the source-follower and emitter-follower configurations are shown in Figures 3 and 4, respectively. They consist of a voltage-controlled voltage source, representing the transistor, and a load resistor, representing the output impedance of the circuit. The small-signal models are used to analyze the behavior of the circuits and determine their gains, input and output impedances, and other characteristics.
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 3: Small-signal model of the source-follower configuration
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N} w_{ji}(n) \cdot x_i(n)
 
 $$
-
 
 
 Figure 4: Small-signal model of the emitter-follower configuration
@@ -9931,13 +9784,11 @@ Once the active load is selected, the next step is to analyze the circuit using 
 The voltage gain of an active load differential amplifier can be expressed as:
 
 
-
 $$
 
 A_v = \frac{R_{out}}{R_{in}} \cdot g_m \cdot R_L
 
 $$
-
 
 
 Where $R_{out}$ is the output resistance of the active load, $R_{in}$ is the input resistance of the differential pair, $g_m$ is the transconductance of the input transistors, and $R_L$ is the load resistance.
@@ -11383,13 +11234,11 @@ Maximum gain biasing is a technique used to bias the transistors in a multi-stag
 In order to understand the concept of maximum gain biasing, it is important to first understand the concept of transconductance. Transconductance is the measure of how much the output current of a transistor changes in response to a change in the input voltage. It is represented by the symbol "gm" and is given by the equation:
 
 
-
 $$
 
 gm = \frac{I_C}{V_T}
 
 $$
-
 
 
 where $I_C$ is the collector current and $V_T$ is the thermal voltage.
@@ -11451,13 +11300,11 @@ Step 3: Calculate the required bias voltage for each stage.
 The bias voltage is the voltage applied to the base of the transistor to achieve the desired DC bias current. This voltage can be calculated using the following equation:
 
 
-
 $$
 
 V_{bias} = V_{BE} + I_{bias} \times R_{bias}
 
 $$
-
 
 
 where $V_{BE}$ is the base-emitter voltage, $I_{bias}$ is the desired DC bias current, and $R_{bias}$ is the bias resistor.
@@ -15765,7 +15612,6 @@ However, this positive feedback can also lead to instability in the oscillator. 
 
 
 The stability of an oscillator can be determined by analyzing the loop gain, which is the overall gain of the feedback loop. The loop gain must be equal to or less than 1 for the oscillator to be stable. This can be expressed mathematically as:
-
 
 
 $$

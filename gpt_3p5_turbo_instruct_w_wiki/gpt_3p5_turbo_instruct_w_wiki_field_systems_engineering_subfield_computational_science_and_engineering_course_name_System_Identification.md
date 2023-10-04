@@ -1263,9 +1263,7 @@ Differential equations are commonly used to represent continuous-time linear sys
 
 
 $$
-
 \frac{dy(t)}{dt} = a_0 + a_1u(t)
-
 $$
 
 
@@ -1283,9 +1281,7 @@ Difference equations are used to represent discrete-time linear systems. They de
 
 
 $$
-
 y(n+1) = a_0 + a_1u(n)
-
 $$
 
 
@@ -1303,9 +1299,7 @@ Transfer functions provide a convenient way to represent linear systems using al
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)} = \frac{a_0}{s+a_1}
-
 $$
 
 
@@ -1947,9 +1941,7 @@ Through this chapter, we have laid the foundation for understanding system ident
 Consider a discrete-time linear system described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. Is this system linear? Is it time-invariant? Justify your answers.
@@ -1967,9 +1959,7 @@ Given a discrete-time stochastic process $x(n)$ with mean $\mu = 2$ and variance
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.8y(n-1) + 0.2x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. Determine the impulse response of this system.
@@ -1987,9 +1977,7 @@ Consider a non-stationary stochastic process $x(n)$ with mean $\mu = n$ and vari
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. If the input $x(n)$ is a unit step function, what is the steady-state output $y(n)$?
@@ -2015,9 +2003,7 @@ Through this chapter, we have laid the foundation for understanding system ident
 Consider a discrete-time linear system described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. Is this system linear? Is it time-invariant? Justify your answers.
@@ -2035,9 +2021,7 @@ Given a discrete-time stochastic process $x(n)$ with mean $\mu = 2$ and variance
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.8y(n-1) + 0.2x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. Determine the impulse response of this system.
@@ -2055,9 +2039,7 @@ Consider a non-stationary stochastic process $x(n)$ with mean $\mu = n$ and vari
 A system is described by the following difference equation:
 
 $$
-
 y(n) = 0.5y(n-1) + x(n)
-
 $$
 
 where $x(n)$ is the input and $y(n)$ is the output. If the input $x(n)$ is a unit step function, what is the steady-state output $y(n)$?
@@ -2427,9 +2409,7 @@ The equation of motion for this system can be written as:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -2485,9 +2465,7 @@ The equation of motion for this system can be written as:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -2543,9 +2521,7 @@ The equation of motion for this system can be written as:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -2591,9 +2567,7 @@ The equation of motion for this system can be written as:
 
 
 $$
-
 (M+m)\ddot{x} + ml\ddot{\theta} + b\dot{x} + mg\sin\theta = F(t)
-
 $$
 
 
@@ -2637,9 +2611,7 @@ In the next chapter, we will delve deeper into the theory and methods of system 
 Consider a simple mass-spring-damper system with the following equation of motion:
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constant, and $F(t)$ is the external force. Using system identification techniques, create a model for this system and validate it using experimental data.
@@ -2663,9 +2635,7 @@ In biological systems, system identification is used to understand the dynamics 
 Consider a control system with the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Using system identification techniques, estimate the parameters of this system and validate the model using simulation data.
@@ -2701,9 +2671,7 @@ In the next chapter, we will delve deeper into the theory and methods of system 
 Consider a simple mass-spring-damper system with the following equation of motion:
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constant, and $F(t)$ is the external force. Using system identification techniques, create a model for this system and validate it using experimental data.
@@ -2727,9 +2695,7 @@ In biological systems, system identification is used to understand the dynamics 
 Consider a control system with the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Using system identification techniques, estimate the parameters of this system and validate the model using simulation data.
@@ -3449,9 +3415,7 @@ In this chapter, we have discussed the importance of input design and persistenc
 Consider a system with the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Design a random binary input signal with a length of 100 samples and use it to identify the system parameters.
@@ -3463,9 +3427,7 @@ Design a random binary input signal with a length of 100 samples and use it to i
 Design a pseudo-random binary input signal with a length of 50 samples and use it to identify the system parameters of a second-order system with a transfer function of:
 
 $$
-
 G(s) = \frac{1}{s^2 + 3s + 2}
-
 $$
 
 
@@ -3475,9 +3437,7 @@ $$
 Generate a multisine input signal with 10 harmonics and a frequency range of 0 to 10 Hz. Use this signal to identify the parameters of a third-order system with a transfer function of:
 
 $$
-
 G(s) = \frac{1}{s^3 + 4s^2 + 5s + 2}
-
 $$
 
 
@@ -3487,21 +3447,16 @@ $$
 Calculate the Fisher information matrix for a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where:
 
 $$
-
 A = \begin{bmatrix}
 
 -1 & 0 \\
@@ -3509,11 +3464,9 @@ A = \begin{bmatrix}
 0 & -2
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -3521,17 +3474,14 @@ B = \begin{bmatrix}
 1
 
 \end{bmatrix}
-
 $$
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -3541,7 +3491,6 @@ $$
 Consider a system with the following observability matrix:
 
 $$
-
 \mathcal{O} = \begin{bmatrix}
 
 1 & 0 \\
@@ -3551,7 +3500,6 @@ $$
 1 & 1
 
 \end{bmatrix}
-
 $$
 
 Determine if this system is persistently excited. If not, suggest a modification to the observability matrix to ensure persistence of excitation.
@@ -3573,9 +3521,7 @@ In this chapter, we have discussed the importance of input design and persistenc
 Consider a system with the following transfer function:
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 Design a random binary input signal with a length of 100 samples and use it to identify the system parameters.
@@ -3587,9 +3533,7 @@ Design a random binary input signal with a length of 100 samples and use it to i
 Design a pseudo-random binary input signal with a length of 50 samples and use it to identify the system parameters of a second-order system with a transfer function of:
 
 $$
-
 G(s) = \frac{1}{s^2 + 3s + 2}
-
 $$
 
 
@@ -3599,9 +3543,7 @@ $$
 Generate a multisine input signal with 10 harmonics and a frequency range of 0 to 10 Hz. Use this signal to identify the parameters of a third-order system with a transfer function of:
 
 $$
-
 G(s) = \frac{1}{s^3 + 4s^2 + 5s + 2}
-
 $$
 
 
@@ -3611,21 +3553,16 @@ $$
 Calculate the Fisher information matrix for a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t)
-
 $$
 
 where:
 
 $$
-
 A = \begin{bmatrix}
 
 -1 & 0 \\
@@ -3633,11 +3570,9 @@ A = \begin{bmatrix}
 0 & -2
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 1 \\
@@ -3645,17 +3580,14 @@ B = \begin{bmatrix}
 1
 
 \end{bmatrix}
-
 $$
 
 $$
-
 C = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -3665,7 +3597,6 @@ $$
 Consider a system with the following observability matrix:
 
 $$
-
 \mathcal{O} = \begin{bmatrix}
 
 1 & 0 \\
@@ -3675,7 +3606,6 @@ $$
 1 & 1
 
 \end{bmatrix}
-
 $$
 
 Determine if this system is persistently excited. If not, suggest a modification to the observability matrix to ensure persistence of excitation.
@@ -4081,9 +4011,7 @@ Mathematically, OLS can be represented as follows:
 
 
 $$
-
 \min_{\beta} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -4179,9 +4107,7 @@ Mathematically, OLS can be represented as follows:
 
 
 $$
-
 \min_{\beta} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -4211,9 +4137,7 @@ Mathematically, WLS can be represented as follows:
 
 
 $$
-
 \min_{\beta} \sum_{i=1}^{N} w_i(y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -4293,9 +4217,7 @@ Mathematically, OLS can be represented as follows:
 
 
 $$
-
 \min_{\beta} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -4325,9 +4247,7 @@ Mathematically, WLS can be represented as follows:
 
 
 $$
-
 \min_{\beta} \sum_{i=1}^{N} w_i(y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -4353,9 +4273,7 @@ Mathematically, RLS can be represented as follows:
 
 
 $$
-
 \beta_i = \beta_{i-1} + \Gamma_i x_i (y_i - x_i^T \beta_{i-1})
-
 $$
 
 
@@ -4403,9 +4321,7 @@ Mathematically, consistency can be represented as follows:
 
 
 $$
-
 \lim_{N \to \infty} \hat{\beta} = \beta
-
 $$
 
 
@@ -4457,9 +4373,7 @@ Mathematically, consistency can be represented as follows:
 
 
 $$
-
 \lim_{N \to \infty} \hat{\beta} = \beta
-
 $$
 
 
@@ -4489,9 +4403,7 @@ Mathematically, efficiency can be represented as follows:
 
 
 $$
-
 \text{Efficiency} = \frac{\text{Variance of estimated parameters}}{\text{Variance of true parameters}}
-
 $$
 
 
@@ -4543,9 +4455,7 @@ Mathematically, bias can be represented as follows:
 
 
 $$
-
 Bias(\hat{\beta}) = E[\hat{\beta}] - \beta
-
 $$
 
 
@@ -4635,9 +4545,7 @@ Overall, the least squares method is a powerful tool in system identification, p
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Use the least squares method to estimate the system parameters from a set of input-output data.
@@ -4661,9 +4569,7 @@ Prove that the least squares estimates are unbiased and consistent under the ass
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Generate a set of input-output data and use the least squares method to estimate the system parameters. Compare the results with the true parameters.
@@ -4699,9 +4605,7 @@ Overall, the least squares method is a powerful tool in system identification, p
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Use the least squares method to estimate the system parameters from a set of input-output data.
@@ -4725,9 +4629,7 @@ Prove that the least squares estimates are unbiased and consistent under the ass
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Generate a set of input-output data and use the least squares method to estimate the system parameters. Compare the results with the true parameters.
@@ -4797,9 +4699,7 @@ The ARX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) + e(n)
-
 $$
 
 
@@ -4837,9 +4737,7 @@ The one-step predictor is defined as follows:
 
 
 $$
-
 \hat{y}(n+1) = -\sum_{i=1}^{n_a} a_i y(n-i+1) + \sum_{i=0}^{n_b} b_i u(n-i+1)
-
 $$
 
 
@@ -4873,9 +4771,7 @@ The system is described by the following equation:
 
 
 $$
-
 m\ddot{x}(t) + c\dot{x}(t) + kx(t) = u(t)
-
 $$
 
 
@@ -4923,9 +4819,7 @@ The ARX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) + e(n)
-
 $$
 
 
@@ -4959,9 +4853,7 @@ The ARMAX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) - \sum_{i=1}^{n_c} c_i e(n-i) + e(n)
-
 $$
 
 
@@ -4995,9 +4887,7 @@ The one-step predictor is defined as follows:
 
 
 $$
-
 \hat{y}(n+1) = -\sum_{i=1}^{n_a} a_i y(n-i+1) + \sum_{i=0}^{n_b} b_i u(n-i+1)
-
 $$
 
 
@@ -5041,9 +4931,7 @@ The ARX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) + e(n)
-
 $$
 
 
@@ -5077,9 +4965,7 @@ The ARMAX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) - \sum_{i=1}^{n_c} c_i e(n-i) + e(n)
-
 $$
 
 
@@ -5109,9 +4995,7 @@ The OE model is defined as follows:
 
 
 $$
-
 y(n) = \sum_{i=1}^{n_a} a_i e(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) + e(n)
-
 $$
 
 
@@ -5159,9 +5043,7 @@ The ARX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) + e(n)
-
 $$
 
 
@@ -5195,9 +5077,7 @@ The ARMAX model is defined as follows:
 
 
 $$
-
 y(n) = -\sum_{i=1}^{n_a} a_i y(n-i) + \sum_{i=0}^{n_b} b_i u(n-i) - \sum_{i=1}^{n_c} c_i e(n-i) + e(n)
-
 $$
 
 
@@ -5227,17 +5107,13 @@ The state space model is defined as follows:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{A}(t)\mathbf{x}(t) + \mathbf{B}(t)\mathbf{u}(t) + \mathbf{w}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = \mathbf{C}(t)\mathbf{x}(t) + \mathbf{v}(t)
-
 $$
 
 
@@ -5263,17 +5139,13 @@ The one-step prediction state space model is defined as follows:
 
 
 $$
-
 \hat{\mathbf{x}}(t+1) = \mathbf{A}(t)\mathbf{x}(t) + \mathbf{B}(t)\mathbf{u}(t)
-
 $$
 
 
 
 $$
-
 \hat{\mathbf{z}}(t+1) = \mathbf{C}(t)\mathbf{x}(t) + \mathbf{D}(t)\mathbf{u}(t)
-
 $$
 
 
@@ -5317,9 +5189,7 @@ The one-step predictor can be formulated as follows:
 
 
 $$
-
 \hat{y}(n+1|n) = -\sum_{i=1}^{n_a} a_i y(n-i+1|n) + \sum_{i=0}^{n_b} b_i u(n-i+1|n)
-
 $$
 
 
@@ -5371,9 +5241,7 @@ The one-step predictor can be formulated as follows:
 
 
 $$
-
 \hat{y}(n+1|n) = -\sum_{i=1}^{n_a} a_i y(n-i+1|n) + \sum_{i=0}^{n_b} b_i u(n-i+1|n)
-
 $$
 
 
@@ -5457,9 +5325,7 @@ The one-step predictor can be formulated as follows:
 
 
 $$
-
 \hat{y}(n+1|n) = -\sum_{i=1}^{n_a} a_i y(n-i+1|n) + \sum_{i=0}^{n_b} b_i u(n-i+1|n)
-
 $$
 
 
@@ -5563,9 +5429,7 @@ Overall, the use of parametrized model structures and one-step predictors can gr
 Consider a system with the following transfer function:
 
 $$
-
 G(z) = \frac{1}{z^2 + 0.5z + 0.25}
-
 $$
 
 Using the ARX model structure, determine the parameters of the model that best fit this system.
@@ -5583,9 +5447,7 @@ Explain the difference between parametric and non-parametric model structures in
 Using the ARMAX model structure, estimate the parameters of a system with the following transfer function:
 
 $$
-
 G(z) = \frac{1}{z^2 + 0.5z + 0.25}
-
 $$
 
 
@@ -5629,9 +5491,7 @@ Overall, the use of parametrized model structures and one-step predictors can gr
 Consider a system with the following transfer function:
 
 $$
-
 G(z) = \frac{1}{z^2 + 0.5z + 0.25}
-
 $$
 
 Using the ARX model structure, determine the parameters of the model that best fit this system.
@@ -5649,9 +5509,7 @@ Explain the difference between parametric and non-parametric model structures in
 Using the ARMAX model structure, estimate the parameters of a system with the following transfer function:
 
 $$
-
 G(z) = \frac{1}{z^2 + 0.5z + 0.25}
-
 $$
 
 
@@ -6273,23 +6131,17 @@ In conclusion, parameter estimation is a crucial aspect of system identification
 Consider a linear system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the parameter of the system using the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6299,23 +6151,17 @@ $$
 Implement the recursive least squares method to estimate the parameters of a second-order system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.1z^{-2}}
-
 $$
 
 Use the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6325,23 +6171,17 @@ $$
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the maximum likelihood method, estimate the parameter of the system using the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6351,23 +6191,17 @@ $$
 Implement the Kalman filter to estimate the parameters of a third-order system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.1z^{-2}-0.05z^{-3}}
-
 $$
 
 Use the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6377,29 +6211,21 @@ $$
 Consider a nonlinear system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = x(t)^2 + u(t)
-
 $$
 
 $$
-
 y(t) = x(t)
-
 $$
 
 Using the extended Kalman filter, estimate the parameters of the system using the following input and output data:
 
 $$
-
 u(t) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(t) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6427,23 +6253,17 @@ In conclusion, parameter estimation is a crucial aspect of system identification
 Consider a linear system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the parameter of the system using the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6453,23 +6273,17 @@ $$
 Implement the recursive least squares method to estimate the parameters of a second-order system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.1z^{-2}}
-
 $$
 
 Use the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6479,23 +6293,17 @@ $$
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the maximum likelihood method, estimate the parameter of the system using the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6505,23 +6313,17 @@ $$
 Implement the Kalman filter to estimate the parameters of a third-order system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.1z^{-2}-0.05z^{-3}}
-
 $$
 
 Use the following input and output data:
 
 $$
-
 u(n) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(n) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6531,29 +6333,21 @@ $$
 Consider a nonlinear system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = x(t)^2 + u(t)
-
 $$
 
 $$
-
 y(t) = x(t)
-
 $$
 
 Using the extended Kalman filter, estimate the parameters of the system using the following input and output data:
 
 $$
-
 u(t) = [1, 2, 3, 4, 5]^T
-
 $$
 
 $$
-
 y(t) = [1.5, 2.5, 3.5, 4.5, 5.5]^T
-
 $$
 
 
@@ -6605,9 +6399,7 @@ The MPE method is based on the concept of minimizing the sum of squared predicti
 
 
 $$
-
 J = \sum_{k=1}^{N} \left(z_k - \hat{z}_k\right)^2
-
 $$
 
 
@@ -6687,9 +6479,7 @@ The MPE method is based on the concept of minimizing the sum of squared predicti
 
 
 $$
-
 J = \sum_{k=1}^{N} \left(z_k - \hat{z}_k\right)^2
-
 $$
 
 
@@ -6723,9 +6513,7 @@ The coding cost is a measure of the complexity of a model and is defined as the 
 
 
 $$
-
 C = -\sum_{k=1}^{N} \left(y_k \log_2 P(y_k) + (1-y_k) \log_2 (1-P(y_k))\right)
-
 $$
 
 
@@ -6743,9 +6531,7 @@ After each prediction, the model is updated by adjusting the weights to minimize
 
 
 $$
-
 w_i = w_i + \eta (y - P(1))
-
 $$
 
 
@@ -6797,9 +6583,7 @@ The MPE method is based on the concept of minimizing the sum of squared predicti
 
 
 $$
-
 J = \sum_{k=1}^{N} \left(z_k - \hat{z}_k\right)^2
-
 $$
 
 
@@ -6895,9 +6679,7 @@ The Maximum Likelihood (ML) method is based on the principle of finding the para
 
 
 $$
-
 L(\theta) = \prod_{k=1}^{N} p(z_k | \theta)
-
 $$
 
 
@@ -6965,9 +6747,7 @@ The Maximum Likelihood (ML) method is based on the principle of finding the para
 
 
 $$
-
 L(\theta) = \prod_{k=1}^{N} p(z_k | \theta)
-
 $$
 
 
@@ -6993,9 +6773,7 @@ The likelihood function, as mentioned earlier, is the product of the probabiliti
 
 
 $$
-
 L(\theta) = \prod_{i=1}^{N} p(y_i | \mathbf{x}_i, \theta)
-
 $$
 
 
@@ -7005,9 +6783,7 @@ where $y_i$ is the observed output, $\mathbf{x}_i$ is the input vector, and $\th
 
 
 $$
-
 L(\theta) = \prod_{i=1}^{N} p(\epsilon_i | \mathbf{x}_i, \theta)
-
 $$
 
 
@@ -7063,9 +6839,7 @@ The Maximum Likelihood (ML) method is based on the principle of finding the para
 
 
 $$
-
 L(\theta) = \prod_{k=1}^{N} p(z_k | \theta)
-
 $$
 
 
@@ -7103,9 +6877,7 @@ To perform MLE, we first need to define the likelihood function, which is given 
 
 
 $$
-
 L(\theta) = \prod_{k=1}^{N} p(z_k | \theta)
-
 $$
 
 
@@ -7119,9 +6891,7 @@ Next, we take the natural logarithm of the likelihood function to simplify the c
 
 
 $$
-
 \ln L(\theta) = \sum_{k=1}^{N} \ln p(z_k | \theta)
-
 $$
 
 
@@ -7173,9 +6943,7 @@ In conclusion, the MPE and ML methods are powerful tools for system identificati
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the MPE method, find the optimal model parameters that minimize the prediction error.
@@ -7187,9 +6955,7 @@ Using the MPE method, find the optimal model parameters that minimize the predic
 A researcher is trying to identify a system using the ML method. The system has a transfer function given by:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 The researcher has collected a set of input-output data and wants to find the optimal model parameters. What is the likelihood function that the researcher needs to maximize?
@@ -7207,9 +6973,7 @@ Explain the difference between the MPE and ML methods in terms of their approach
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
-
 $$
 
 Using the MPE method, find the optimal model parameters that minimize the prediction error.
@@ -7221,9 +6985,7 @@ Using the MPE method, find the optimal model parameters that minimize the predic
 A control system is being designed using a model identified using the MPE method. The system has a transfer function given by:
 
 $$
-
 H(z) = \frac{1}{1-0.6z^{-1}+0.3z^{-2}}
-
 $$
 
 If the model parameters are estimated to be $a_1 = 0.5$ and $a_2 = 0.2$, what is the predicted output for an input signal $x(n) = 2$ at time $n = 5$?
@@ -7257,9 +7019,7 @@ In conclusion, the MPE and ML methods are powerful tools for system identificati
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the MPE method, find the optimal model parameters that minimize the prediction error.
@@ -7271,9 +7031,7 @@ Using the MPE method, find the optimal model parameters that minimize the predic
 A researcher is trying to identify a system using the ML method. The system has a transfer function given by:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 The researcher has collected a set of input-output data and wants to find the optimal model parameters. What is the likelihood function that the researcher needs to maximize?
@@ -7291,9 +7049,7 @@ Explain the difference between the MPE and ML methods in terms of their approach
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
-
 $$
 
 Using the MPE method, find the optimal model parameters that minimize the prediction error.
@@ -7305,9 +7061,7 @@ Using the MPE method, find the optimal model parameters that minimize the predic
 A control system is being designed using a model identified using the MPE method. The system has a transfer function given by:
 
 $$
-
 H(z) = \frac{1}{1-0.6z^{-1}+0.3z^{-2}}
-
 $$
 
 If the model parameters are estimated to be $a_1 = 0.5$ and $a_2 = 0.2$, what is the predicted output for an input signal $x(n) = 2$ at time $n = 5$?
@@ -8455,17 +8209,13 @@ In the optimal bandwidth selection section, we introduced the Mean Integrated Sq
 
 
 $$
-
 E[\hat{f}(x)] = \int \hat{f}(x)dx
-
 $$
 
 
 
 $$
-
 Var[\hat{f}(x)] = E[(\hat{f}(x) - E[\hat{f}(x)])^2]
-
 $$
 
 
@@ -8491,9 +8241,7 @@ For the data-based bandwidth selectors considered, the target is the Asymptotic 
 
 
 $$
-
 \lim_{n \to \infty} \frac{Var[\hat{f}(x)]}{Var[\hat{f}_{AMISE}(x)]} = 0
-
 $$
 
 
@@ -8533,17 +8281,13 @@ In the optimal bandwidth selection section, we introduced the Mean Integrated Sq
 
 
 $$
-
 E[\hat{f}(x)] = \int \hat{f}(x)dx
-
 $$
 
 
 
 $$
-
 Var[\hat{f}(x)] = E[(\hat{f}(x) - E[\hat{f}(x)])^2]
-
 $$
 
 
@@ -8611,17 +8355,13 @@ In the optimal bandwidth selection section, we introduced the Mean Integrated Sq
 
 
 $$
-
 E[\hat{f}(x)] = \int \hat{f}(x)dx
-
 $$
 
 
 
 $$
-
 Var[\hat{f}(x)] = E[(\hat{f}(x) - E[\hat{f}(x)])^2]
-
 $$
 
 
@@ -8693,17 +8433,13 @@ In the optimal bandwidth selection section, we introduced the Mean Integrated Sq
 
 
 $$
-
 E[\hat{f}(x)] = \int \hat{f}(x)dx
-
 $$
 
 
 
 $$
-
 Var[\hat{f}(x)] = E[(\hat{f}(x) - E[\hat{f}(x)])^2]
-
 $$
 
 
@@ -8733,9 +8469,7 @@ Formally, we say that an estimator "θ<sub>n</sub>" converges in probability to 
 
 
 $$
-
 \lim_{n \to \infty} P(|\theta_n - \theta_0| > \epsilon) = 0
-
 $$
 
 
@@ -8757,9 +8491,7 @@ Formally, we say that an estimator "θ<sub>n</sub>" converges in distribution to
 
 
 $$
-
 \lim_{n \to \infty} F_{\theta_n}(x) = F_{\theta_0}(x)
-
 $$
 
 
@@ -8937,9 +8669,7 @@ To understand the asymptotic distribution of PEM, we first need to understand th
 
 
 $$
-
 e(n) = y(n) - y_m(n)
-
 $$
 
 
@@ -9027,9 +8757,7 @@ To understand the asymptotic distribution of PEM, we first need to understand th
 
 
 $$
-
 e(n) = y(n) - y_m(n)
-
 $$
 
 
@@ -9051,9 +8779,7 @@ The confidence intervals for the estimated parameters can be calculated using th
 
 
 $$
-
 \Delta w = \frac{z}{\sqrt{n}} \approx \frac{1}{n} \left[ a^2 \sigma_1^2 + b^2 \sigma_2^2 + 2ab \sigma_{1,2} \right]
-
 $$
 
 
@@ -9117,9 +8843,7 @@ To understand the asymptotic distribution of PEM, we first need to understand th
 
 
 $$
-
 e(n) = y(n) - y_m(n)
-
 $$
 
 
@@ -9199,9 +8923,7 @@ To understand the asymptotic distribution of PEM, we first need to understand th
 
 
 $$
-
 e(n) = y(n) - y_m(n)
-
 $$
 
 
@@ -9587,9 +9309,7 @@ Overall, instrumental variable methods offer a powerful tool for system identifi
 Consider a system described by the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n) + b_1u(n-1) + e(n)
-
 $$
 
 where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumental variable methods to estimate the parameters $a_1$, $a_2$, $b_0$, and $b_1$.
@@ -9601,9 +9321,7 @@ where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumen
 Suppose we have a system described by the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 where $a_1$, $a_2$, $b_0$, and $b_1$ are unknown parameters. Use instrumental variable methods to estimate the parameters of this system.
@@ -9615,7 +9333,6 @@ where $a_1$, $a_2$, $b_0$, and $b_1$ are unknown parameters. Use instrumental va
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(n+1) &= Ax(n) + Bu(n) + w(n) \\
@@ -9623,7 +9340,6 @@ x(n+1) &= Ax(n) + Bu(n) + w(n) \\
 y(n) &= Cx(n) + v(n)
 
 \end{align}
-
 $$
 
 where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ and $\sigma_v^2$, respectively. Use instrumental variable methods to estimate the parameters $A$, $B$, and $C$.
@@ -9635,9 +9351,7 @@ where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ an
 Suppose we have a system described by the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n) + b_1u(n-1) + e(n)
-
 $$
 
 where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumental variable methods to estimate the parameters $a_1$, $a_2$, $b_0$, and $b_1$ when the input signal $u(n)$ is correlated with the noise.
@@ -9649,7 +9363,6 @@ where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumen
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(n+1) &= Ax(n) + Bu(n) + w(n) \\
@@ -9657,7 +9370,6 @@ x(n+1) &= Ax(n) + Bu(n) + w(n) \\
 y(n) &= Cx(n) + v(n)
 
 \end{align}
-
 $$
 
 where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ and $\sigma_v^2$, respectively. Use instrumental variable methods to estimate the parameters $A$, $B$, and $C$ when the input signal $u(n)$ is correlated with the noise.
@@ -9683,9 +9395,7 @@ Overall, instrumental variable methods offer a powerful tool for system identifi
 Consider a system described by the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n) + b_1u(n-1) + e(n)
-
 $$
 
 where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumental variable methods to estimate the parameters $a_1$, $a_2$, $b_0$, and $b_1$.
@@ -9697,9 +9407,7 @@ where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumen
 Suppose we have a system described by the following transfer function:
 
 $$
-
 H(z) = \frac{b_0 + b_1z^{-1}}{1 + a_1z^{-1} + a_2z^{-2}}
-
 $$
 
 where $a_1$, $a_2$, $b_0$, and $b_1$ are unknown parameters. Use instrumental variable methods to estimate the parameters of this system.
@@ -9711,7 +9419,6 @@ where $a_1$, $a_2$, $b_0$, and $b_1$ are unknown parameters. Use instrumental va
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(n+1) &= Ax(n) + Bu(n) + w(n) \\
@@ -9719,7 +9426,6 @@ x(n+1) &= Ax(n) + Bu(n) + w(n) \\
 y(n) &= Cx(n) + v(n)
 
 \end{align}
-
 $$
 
 where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ and $\sigma_v^2$, respectively. Use instrumental variable methods to estimate the parameters $A$, $B$, and $C$.
@@ -9731,9 +9437,7 @@ where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ an
 Suppose we have a system described by the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0u(n) + b_1u(n-1) + e(n)
-
 $$
 
 where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumental variable methods to estimate the parameters $a_1$, $a_2$, $b_0$, and $b_1$ when the input signal $u(n)$ is correlated with the noise.
@@ -9745,7 +9449,6 @@ where $e(n)$ is a white noise sequence with variance $\sigma_e^2$. Use instrumen
 Consider a system with the following state-space representation:
 
 $$
-
 \begin{align}
 
 x(n+1) &= Ax(n) + Bu(n) + w(n) \\
@@ -9753,7 +9456,6 @@ x(n+1) &= Ax(n) + Bu(n) + w(n) \\
 y(n) &= Cx(n) + v(n)
 
 \end{align}
-
 $$
 
 where $w(n)$ and $v(n)$ are white noise sequences with variances $\sigma_w^2$ and $\sigma_v^2$, respectively. Use instrumental variable methods to estimate the parameters $A$, $B$, and $C$ when the input signal $u(n)$ is correlated with the noise.
@@ -11051,9 +10753,7 @@ Overall, this chapter has provided a comprehensive overview of the various compu
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the parameters of this system using the input-output data.
@@ -11065,9 +10765,7 @@ Using the least squares method, estimate the parameters of this system using the
 Implement the recursive least squares algorithm to estimate the parameters of a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Use a forgetting factor of 0.9 and an initial estimate of 0 for the parameters.
@@ -11115,9 +10813,7 @@ Overall, this chapter has provided a comprehensive overview of the various compu
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}}
-
 $$
 
 Using the least squares method, estimate the parameters of this system using the input-output data.
@@ -11129,9 +10825,7 @@ Using the least squares method, estimate the parameters of this system using the
 Implement the recursive least squares algorithm to estimate the parameters of a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.2z^{-2}}
-
 $$
 
 Use a forgetting factor of 0.9 and an initial estimate of 0 for the parameters.
@@ -11285,17 +10979,13 @@ The RLS algorithm can be derived by initializing the weight vector <math> \texts
 
 
 $$
-
 w_i = w_{i-1} + \Gamma_{i-1}x_i(y_i - x_i^Tw_{i-1})
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Gamma_{i-1} - \frac{\Gamma_{i-1}x_ix_i^T\Gamma_{i-1}}{1 + x_i^T\Gamma_{i-1}x_i}
-
 $$
 
 
@@ -11313,17 +11003,13 @@ The RLS algorithm has a time complexity of <math>O(nd^2)</math>, which is signif
 
 
 $$
-
 w_i = w_{i-1} + \Gamma_{i-1}x_i(y_i - x_i^Tw_{i-1}) - \lambda w_{i-1}
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Gamma_{i-1} - \frac{\Gamma_{i-1}x_ix_i^T\Gamma_{i-1}}{1 + x_i^T\Gamma_{i-1}x_i + \lambda}
-
 $$
 
 
@@ -11367,17 +11053,13 @@ The RIV method can be derived by initializing the weight vector <math> \textstyl
 
 
 $$
-
 w_i = w_{i-1} + \Gamma_{i-1}x_i(y_i - x_i^Tw_{i-1})
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Gamma_{i-1} - \frac{\Gamma_{i-1}x_ix_i^T\Gamma_{i-1}}{1 + x_i^T\Gamma_{i-1}x_i}
-
 $$
 
 
@@ -11425,17 +11107,13 @@ The RML method can be derived by initializing the weight vector <math> \textstyl
 
 
 $$
-
 w_i = w_{i-1} + \Gamma_{i-1}x_i(y_i - x_i^Tw_{i-1})
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Gamma_{i-1} - \frac{\Gamma_{i-1}x_ix_i^T\Gamma_{i-1}}{1 + x_i^T\Gamma_{i-1}x_i}
-
 $$
 
 
@@ -11483,9 +11161,7 @@ In conclusion, the Levinson algorithm is a powerful tool in system identificatio
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0x(n)
-
 $$
 
 Use the Levinson algorithm to recursively estimate the parameters $a_1$ and $a_2$ based on a set of input-output data.
@@ -11503,9 +11179,7 @@ Discuss the limitations of the Levinson algorithm in the context of a non-linear
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0x(n)
-
 $$
 
 Assuming that the system is time-invariant, use the Levinson algorithm to estimate the parameters $a_1$ and $a_2$ based on a set of input-output data.
@@ -11547,9 +11221,7 @@ In conclusion, the Levinson algorithm is a powerful tool in system identificatio
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0x(n)
-
 $$
 
 Use the Levinson algorithm to recursively estimate the parameters $a_1$ and $a_2$ based on a set of input-output data.
@@ -11567,9 +11239,7 @@ Discuss the limitations of the Levinson algorithm in the context of a non-linear
 Consider a system with the following difference equation:
 
 $$
-
 y(n) = a_1y(n-1) + a_2y(n-2) + b_0x(n)
-
 $$
 
 Assuming that the system is time-invariant, use the Levinson algorithm to estimate the parameters $a_1$ and $a_2$ based on a set of input-output data.
@@ -12293,9 +11963,7 @@ The Akaike Information Criterion (AIC) is a statistical measure that evaluates t
 
 
 $$
-
 AIC = 2k - 2ln(\hat{L})
-
 $$
 
 
@@ -12309,9 +11977,7 @@ The Minimum Description Length (MDL) principle is another approach to model orde
 
 
 $$
-
 MDL = -ln(\hat{L}) + \frac{k}{2}ln(N)
-
 $$
 
 
@@ -12601,9 +12267,7 @@ In conclusion, order estimation is a crucial step in system identification and s
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
-
 $$
 
 Use the AIC, BIC, and MDL methods to estimate the order of this system.
@@ -12615,9 +12279,7 @@ Use the AIC, BIC, and MDL methods to estimate the order of this system.
 Generate a random input signal and simulate the output of a second-order system with the transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.6z^{-2}}
-
 $$
 
 Use the simulated data to estimate the order of the system using the AIC, BIC, and MDL methods.
@@ -12629,15 +12291,11 @@ Use the simulated data to estimate the order of the system using the AIC, BIC, a
 Consider a system with the following state-space representation:
 
 $$
-
 x(k+1) = \begin{bmatrix} 0.5 & 0 \\ 0 & 0.2 \end{bmatrix}x(k) + \begin{bmatrix} 1 \\ 0 \end{bmatrix}u(k)
-
 $$
 
 $$
-
 y(k) = \begin{bmatrix} 1 & 0 \end{bmatrix}x(k)
-
 $$
 
 Use the AIC, BIC, and MDL methods to estimate the order of this system.
@@ -12679,9 +12337,7 @@ In conclusion, order estimation is a crucial step in system identification and s
 Consider a system with the following transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.5z^{-1}+0.2z^{-2}}
-
 $$
 
 Use the AIC, BIC, and MDL methods to estimate the order of this system.
@@ -12693,9 +12349,7 @@ Use the AIC, BIC, and MDL methods to estimate the order of this system.
 Generate a random input signal and simulate the output of a second-order system with the transfer function:
 
 $$
-
 H(z) = \frac{1}{1-0.8z^{-1}+0.6z^{-2}}
-
 $$
 
 Use the simulated data to estimate the order of the system using the AIC, BIC, and MDL methods.
@@ -12707,15 +12361,11 @@ Use the simulated data to estimate the order of the system using the AIC, BIC, a
 Consider a system with the following state-space representation:
 
 $$
-
 x(k+1) = \begin{bmatrix} 0.5 & 0 \\ 0 & 0.2 \end{bmatrix}x(k) + \begin{bmatrix} 1 \\ 0 \end{bmatrix}u(k)
-
 $$
 
 $$
-
 y(k) = \begin{bmatrix} 1 & 0 \end{bmatrix}x(k)
-
 $$
 
 Use the AIC, BIC, and MDL methods to estimate the order of this system.
@@ -12853,9 +12503,7 @@ The Akaike Information Criterion (AIC) is a widely used model selection criterio
 
 
 $$
-
 AIC = 2k - 2\ln(L)
-
 $$
 
 
@@ -12873,9 +12521,7 @@ The Bayesian Information Criterion (BIC) is another popular model selection crit
 
 
 $$
-
 BIC = k\ln(n) - 2\ln(L)
-
 $$
 
 

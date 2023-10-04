@@ -1084,9 +1084,7 @@ The relationship between displacement and strain can be described by the strain-
 
 
 $$
-
 \epsilon = \frac{\Delta u}{L}
-
 $$
 
 
@@ -1468,9 +1466,7 @@ The initial portion of the stress-strain curve is known as the elastic region. I
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1546,9 +1542,7 @@ Elastic deformation occurs in the initial portion of the stress-strain curve, al
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1684,9 +1678,7 @@ A material has a stress-strain curve as shown in the figure below. Determine the
 
 
 $$
-
 \Delta w = \frac{F}{AE}
-
 $$
 
 
@@ -1740,9 +1732,7 @@ A material has a stress-strain curve as shown in the figure below. Determine the
 
 
 $$
-
 \Delta w = \frac{F}{AE}
-
 $$
 
 
@@ -1804,9 +1794,7 @@ The relationship between the applied force and the resulting deformation is desc
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1854,9 +1842,7 @@ The relationship between the applied force and the resulting deformation is desc
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1916,9 +1902,7 @@ The relationship between the applied force and the resulting deformation is desc
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -2154,9 +2138,7 @@ To analyze buckling, we can use the Euler buckling equation, which relates the c
 
 
 $$
-
 P_{cr} = \frac{\pi^2 EI}{(KL)^2}
-
 $$
 
 
@@ -2182,9 +2164,7 @@ To analyze vibration, we can use the principles of dynamics and the concept of n
 
 
 $$
-
 f_n = \frac{1}{2\pi}\sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -2394,7 +2374,6 @@ The strain-displacement relations describe the relationship between the strain a
 
 
 $$
-
 \epsilon_{xx} = \frac{\partial u}{\partial x} \\
 
 \epsilon_{yy} = \frac{\partial v}{\partial y} \\
@@ -2408,7 +2387,6 @@ $$
 \gamma_{xz} = \frac{\partial u}{\partial z} + \frac{\partial w}{\partial x} \\
 
 \epsilon_{th} = \alpha \Delta T
-
 $$
 
 
@@ -2484,9 +2462,7 @@ At the same time, the element will also experience mechanical stresses due to th
 
 
 $$
-
 \epsilon_{total} = \epsilon_{thermal} + \epsilon_{mechanical}
-
 $$
 
 
@@ -2496,9 +2472,7 @@ Similarly, the total stress in the material is the sum of thermal and mechanical
 
 
 $$
-
 \sigma_{total} = \sigma_{thermal} + \sigma_{mechanical}
-
 $$
 
 
@@ -2508,9 +2482,7 @@ The stress-strain-temperature relations can be expressed mathematically as:
 
 
 $$
-
 \sigma_{total} = E \epsilon_{total} + \alpha \Delta T
-
 $$
 
 
@@ -2578,9 +2550,7 @@ In 3-D linear thermo-elasticity, strain is defined as the change in length per u
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -2594,9 +2564,7 @@ Displacement, on the other hand, is the change in position of a material point d
 
 
 $$
-
 u = \frac{\Delta x}{L}
-
 $$
 
 
@@ -2610,9 +2578,7 @@ The relationship between strain and displacement is given by the strain-displace
 
 
 $$
-
 \epsilon = \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -2630,9 +2596,7 @@ In 3-D linear thermo-elasticity, stress is defined as the force per unit area of
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -2646,9 +2610,7 @@ Strain and stress are related through the stress-strain equation:
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2662,9 +2624,7 @@ Temperature also plays a role in the stress-strain relationship in thermo-elasti
 
 
 $$
-
 \sigma = E\epsilon + \alpha E \Delta T
-
 $$
 
 
@@ -2682,9 +2642,7 @@ In 3-D linear thermo-elasticity, stress equilibrium is an important concept in t
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
@@ -3510,9 +3468,7 @@ In addition to the bending moment, the bending stress is another important facto
 
 
 $$
-
 \sigma = \frac{M}{I}y
-
 $$
 
 
@@ -4572,9 +4528,7 @@ The stress intensity factor can be calculated using the following equation:
 
 
 $$
-
 K_I = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -4588,9 +4542,7 @@ For more complex loading conditions, the stress intensity factor can be calculat
 
 
 $$
-
 K_I = \sigma \sqrt{\pi a} \left(1.12 - 0.23\left(\frac{a}{W}\right) + 10.55\left(\frac{a}{W}\right)^2 - 21.71\left(\frac{a}{W}\right)^3 + 30.82\left(\frac{a}{W}\right)^4\right)
-
 $$
 
 
@@ -4654,9 +4606,7 @@ One of the most widely used methods for measuring fracture toughness is the J-in
 
 
 $$
-
 J = \int_{C} \sigma_{ij} \frac{\partial u_i}{\partial x_j} dA
-
 $$
 
 
@@ -4670,9 +4620,7 @@ Another commonly used method for measuring fracture toughness is the stress inte
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -7738,9 +7686,7 @@ To analyze the stress and strain in aerospace structures, we use the principles 
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -7800,9 +7746,7 @@ To analyze the stress and strain in aerospace structures, we use the principles 
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -9362,25 +9306,19 @@ The behavior of fluids is governed by the Navier-Stokes equations, which describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \textbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \textbf{u}}{\partial t} + \textbf{u} \cdot \nabla \textbf{u}\right) = -\nabla p + \mu \nabla^2 \textbf{u} + \rho \textbf{g}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \textbf{u} \cdot \nabla e\right) = -p \nabla \cdot \textbf{u} + \nabla \cdot (k \nabla T) + \rho \textbf{u} \cdot \textbf{g} + \dot{q}
-
 $$
 
 
@@ -9436,25 +9374,19 @@ The behavior of fluids is governed by the Navier-Stokes equations, which describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \textbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \textbf{u}}{\partial t} + \textbf{u} \cdot \nabla \textbf{u}\right) = -\nabla p + \mu \nabla^2 \textbf{u} + \rho \textbf{g}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \textbf{u} \cdot \nabla e\right) = -p \nabla \cdot \textbf{u} + \nabla \cdot (k \nabla T) + \rho \textbf{u} \cdot \textbf{g} + \dot{q}
-
 $$
 
 
@@ -9526,25 +9458,19 @@ The behavior of fluids is governed by the Navier-Stokes equations, which describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \textbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \textbf{u}}{\partial t} + \textbf{u} \cdot \nabla \textbf{u}\right) = -\nabla p + \mu \nabla^2 \textbf{u} + \rho \textbf{g}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \textbf{u} \cdot \nabla e\right) = -p \nabla \cdot \textbf{u} + \nabla \cdot (k \nabla T) + \rho \textbf{u} \cdot \textbf{g} + \dot{q}
-
 $$
 
 
@@ -9644,9 +9570,7 @@ The motion of bodies in a multibody system is governed by Newton's laws of motio
 
 
 $$
-
 \sum \textbf{F}_i = m_i \textbf{a}_i
-
 $$
 
 
@@ -9714,9 +9638,7 @@ The motion of bodies in a multibody system is governed by Newton's laws of motio
 
 
 $$
-
 \sum \textbf{F}_i = m_i \textbf{a}_i
-
 $$
 
 
@@ -9784,9 +9706,7 @@ The motion of bodies in a multibody system is governed by Newton's laws of motio
 
 
 $$
-
 \sum \textbf{F}_i = m_i \textbf{a}_i
-
 $$
 
 
@@ -10784,9 +10704,7 @@ To understand the nonlinear stress-strain relationship, we must first define the
 
 
 $$
-
 \sigma = f(\epsilon)
-
 $$
 
 

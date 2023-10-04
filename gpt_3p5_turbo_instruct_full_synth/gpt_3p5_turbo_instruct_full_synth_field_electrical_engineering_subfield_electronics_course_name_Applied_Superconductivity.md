@@ -1813,9 +1813,7 @@ The first of London's equations states that the supercurrent density, J, is prop
 
 
 $$
-
 J = -\frac{n_se^2}{m}A
-
 $$
 
 
@@ -1829,9 +1827,7 @@ The second of London's equations states that the supercurrent density is also pr
 
 
 $$
-
 J = -\frac{n_se^2}{m}\nabla\phi
-
 $$
 
 
@@ -1853,9 +1849,7 @@ The quantization of fluxoids is described by the equation:
 
 
 $$
-
 \oint_C A \cdot dl = \frac{h}{2e}n
-
 $$
 
 
@@ -1945,9 +1939,7 @@ The first of London's equations, known as the London equation, describes the rel
 
 
 $$
-
 \vec{E} = -\frac{m}{n_se^2}\vec{j}
-
 $$
 
 
@@ -1961,9 +1953,7 @@ The second of London's equations, known as the London penetration depth equation
 
 
 $$
-
 \lambda_L^2 = \frac{m}{n_se^2}\frac{1}{\mu_0}
-
 $$
 
 
@@ -2277,9 +2267,7 @@ The critical current density can be calculated using the following equation:
 
 
 $$
-
 J_c = \frac{I_c}{A}
-
 $$
 
 
@@ -2527,9 +2515,7 @@ The equation is given by:
 
 
 $$
-
 \vec{J} = -\frac{n_se^2}{m}\vec{A}
-
 $$
 
 
@@ -2547,9 +2533,7 @@ London's equation also provides a way to calculate the penetration depth, $\lamb
 
 
 $$
-
 \lambda = \sqrt{\frac{m}{\mu_0n_se^2}}
-
 $$
 
 
@@ -2593,9 +2577,7 @@ The equation is given by:
 
 
 $$
-
 \vec{J} = -\frac{n_se^2}{m}\vec{A}
-
 $$
 
 
@@ -2613,9 +2595,7 @@ London's equation also provides a way to calculate the penetration depth, $\lamb
 
 
 $$
-
 \lambda = \sqrt{\frac{m}{\mu_0n_se^2}}
-
 $$
 
 
@@ -2675,9 +2655,7 @@ The equation is given by:
 
 
 $$
-
 \vec{J} = -\frac{n_se^2}{m}\vec{A}
-
 $$
 
 
@@ -2695,9 +2673,7 @@ London's equation also provides a way to calculate the penetration depth, $\lamb
 
 
 $$
-
 \lambda = \sqrt{\frac{m}{\mu_0n_se^2}}
-
 $$
 
 
@@ -2911,9 +2887,7 @@ The supercurrent in a Josephson junction is described by the Josephson equation,
 
 
 $$
-
 I = I_c \sin(\delta)
-
 $$
 
 
@@ -2931,9 +2905,7 @@ In addition to the Josephson effect, the supercurrent equation also describes th
 
 
 $$
-
 \vec{J_s} = -\frac{n_s e^*}{m^*}\vec{A}
-
 $$
 
 
@@ -2977,9 +2949,7 @@ The supercurrent in an AC Josephson junction is described by the AC Josephson eq
 
 
 $$
-
 I = I_c \sin(\delta + \omega t)
-
 $$
 
 
@@ -2997,9 +2967,7 @@ In addition to the AC Josephson effect, the supercurrent equation also describes
 
 
 $$
-
 \vec{J_s} = -\frac{n_s e^*}{m^*}\vec{A}
-
 $$
 
 
@@ -3077,9 +3045,7 @@ Josephson junctions are formed by two superconducting electrodes separated by a 
 
 
 $$
-
 I = I_c \sin(\delta)
-
 $$
 
 
@@ -3093,9 +3059,7 @@ When multiple Josephson junctions are connected in series, the total supercurren
 
 
 $$
-
 I_{total} = \sum_{i=1}^{n} I_{c,i} \sin(\delta_i)
-
 $$
 
 
@@ -3139,9 +3103,7 @@ Josephson junctions are formed by two superconducting electrodes separated by a 
 
 
 $$
-
 I = I_c \sin(\delta)
-
 $$
 
 
@@ -3155,9 +3117,7 @@ When multiple Josephson junctions are connected in series, the total supercurren
 
 
 $$
-
 I_{total} = \sum_{i=1}^{n} I_{c,i} \sin(\delta_i)
-
 $$
 
 
@@ -3183,9 +3143,7 @@ In addition to being connected in series, Josephson junctions can also be connec
 
 
 $$
-
 I_{total} = I_c \sin(\delta_{total})
-
 $$
 
 
@@ -3225,9 +3183,7 @@ Josephson junctions are formed by two superconducting electrodes separated by a 
 
 
 $$
-
 I = I_c \sin(\delta)
-
 $$
 
 
@@ -3241,9 +3197,7 @@ When multiple Josephson junctions are connected in series, the total supercurren
 
 
 $$
-
 I_{total} = \sum_{i=1}^{n} I_{c,i} \sin(\delta_i)
-
 $$
 
 
@@ -3269,9 +3223,7 @@ In addition to being connected in series, Josephson junctions can also be connec
 
 
 $$
-
 I_{total} = \max_{i=1}^{n} I_{c,i} \sin(\delta_i)
-
 $$
 
 
@@ -3297,9 +3249,7 @@ The Shapiro steps can be described by the following equation:
 
 
 $$
-
 V = \frac{nhf}{2e}
-
 $$
 
 
@@ -4155,17 +4105,13 @@ The Ginzburg-Landau theory is described by two coupled nonlinear partial differe
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -i\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi + \eta
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = i\alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^* + \eta^*
-
 $$
 
 
@@ -4209,17 +4155,13 @@ The Ginzburg-Landau theory is described by two coupled nonlinear partial differe
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -i\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi + \eta
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = i\alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^* + \eta^*
-
 $$
 
 
@@ -4275,17 +4217,13 @@ The Ginzburg-Landau theory is described by two coupled nonlinear partial differe
 
 
 $$
-
 \frac{\partial \psi}{\partial t} = -i\alpha \psi + \beta |\psi|^2 \psi + \gamma \nabla^2 \psi + \eta
-
 $$
 
 
 
 $$
-
 \frac{\partial \psi^*}{\partial t} = i\alpha \psi^* + \beta |\psi|^2 \psi^* + \gamma \nabla^2 \psi^* + \eta^*
-
 $$
 
 
@@ -4621,9 +4559,7 @@ The behavior of quasiparticles in superconductors is crucial for understanding t
 
 
 $$
-
 E_{qp} = \sqrt{\xi^2 + \Delta^2}
-
 $$
 
 
@@ -4667,9 +4603,7 @@ The behavior of quasiparticles in superconductors is crucial for understanding t
 
 
 $$
-
 E_{qp} = \sqrt{\xi^2 + \Delta^2}
-
 $$
 
 
@@ -4691,9 +4625,7 @@ The density of states (DOS) is a fundamental concept in solid state physics, and
 
 
 $$
-
 N(E) = \frac{1}{V} \sum_{\mathbf{k}} \delta(E - E_{\mathbf{k}})
-
 $$
 
 
@@ -4711,9 +4643,7 @@ The DOS also plays a crucial role in understanding the specific heat of supercon
 
 
 $$
-
 C = \gamma T + \beta T^3
-
 $$
 
 
@@ -4753,9 +4683,7 @@ The behavior of quasiparticles in superconductors is crucial for understanding t
 
 
 $$
-
 E_{qp} = \sqrt{\xi^2 + \Delta^2}
-
 $$
 
 
@@ -10705,9 +10633,7 @@ The most common type of superconducting magnet is the solenoid, which consists o
 
 
 $$
-
 B = \mu_0 n I
-
 $$
 
 
@@ -10759,9 +10685,7 @@ The most common type of superconducting magnet is the solenoid, which consists o
 
 
 $$
-
 B = \mu_0 n I
-
 $$
 
 
@@ -10809,9 +10733,7 @@ The most common type of superconducting magnet is the solenoid, which consists o
 
 
 $$
-
 B = \mu_0 n I
-
 $$
 
 

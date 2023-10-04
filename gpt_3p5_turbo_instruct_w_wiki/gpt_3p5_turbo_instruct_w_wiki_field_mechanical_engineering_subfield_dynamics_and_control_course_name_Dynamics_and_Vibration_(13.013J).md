@@ -3414,9 +3414,7 @@ The first kinematic equation relates the displacement, initial velocity, final v
 
 
 $$
-
 \Delta x = v_0t + \frac{1}{2}at^2
-
 $$
 
 
@@ -3430,9 +3428,7 @@ The second kinematic equation relates the final velocity, initial velocity, acce
 
 
 $$
-
 v^2 = v_0^2 + 2a\Delta x
-
 $$
 
 
@@ -3442,9 +3438,7 @@ The third kinematic equation relates the final velocity, initial velocity, accel
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
@@ -3454,9 +3448,7 @@ Finally, the fourth kinematic equation relates the displacement, initial velocit
 
 
 $$
-
 \Delta x = \frac{1}{2}(v_0 + v)t
-
 $$
 
 
@@ -3722,9 +3714,7 @@ In terms of dual quaternions and the homogeneous coordinates of a point $\textbf
 
 
 $$
-
 \tilde{\textbf{P}} = \textbf{Q}\textbf{P}\textbf{Q}^\ast + P_4 [(\textbf{Q}^0)\textbf{Q}^\ast - \textbf{Q}(\textbf{Q}^0)^\ast],
-
 $$
 
 
@@ -3738,9 +3728,7 @@ Given a set of unit dual quaternions and dual weights $\hat{\textbf{Q}}_i$ and $
 
 
 $$
-
 \hat{\textbf{Q}}(t) = \sum\limits_{i=0}^n B_i^n(t)\hat{\textbf{Q}}_i = \sum\limits_{i=0}^n B_i^n(t)(\textbf{Q}_i + \varepsilon \textbf{Q}_i^0) = \sum\limits_{i=0}^n B_i^n(t)\textbf{Q}_i + \varepsilon \sum\limits_{i=0}^n B_i^n(t)\textbf{Q}_i^0,
-
 $$
 
 
@@ -3754,9 +3742,7 @@ Similarly, a B-spline dual quaternion curve, which defines a NURBS motion of deg
 
 
 $$
-
 \sum\limits_{i=0}^n N_{i,p}(t)\hat{\textbf{Q}}_i = \sum\limits_{i=0}^n N_{i,p}(t)(\textbf{Q}_i + \varepsilon \textbf{Q}_i^0) = \sum\limits_{i=0}^n N_{i,p}(t)\textbf{Q}_i + \varepsilon \sum\limits_{i=0}^n N_{i,p}(t)\textbf{Q}_i^0,
-
 $$
 
 
@@ -3816,9 +3802,7 @@ The equations for displacement, velocity, and acceleration in polar coordinates 
 
 
 $$
-
 \Delta r = \sqrt{\Delta x^2 + \Delta y^2}
-
 $$
 
 
@@ -3828,9 +3812,7 @@ Whereas in Cartesian coordinates, it is simply:
 
 
 $$
-
 \Delta s = \sqrt{\Delta x^2 + \Delta y^2}
-
 $$
 
 
@@ -3910,9 +3892,7 @@ The equations for displacement, velocity, and acceleration in polar coordinates 
 
 
 $$
-
 \Delta r = \sqrt{\Delta x^2 + \Delta y^2}
-
 $$
 
 
@@ -3922,9 +3902,7 @@ where Δx and Δy are the changes in the x and y coordinates, respectively. The 
 
 
 $$
-
 v = \sqrt{\dot{r}^2 + r^2\dot{\theta}^2}
-
 $$
 
 
@@ -3934,9 +3912,7 @@ where r is the distance from the origin and θ is the angle from the reference d
 
 
 $$
-
 a = \sqrt{\ddot{r}^2 + r^2\dot{\theta}^2 + 2r\dot{r}\dot{\theta} + r^2\ddot{\theta}^2}
-
 $$
 
 
@@ -3992,9 +3968,7 @@ Angular displacement is a measure of the change in an object's orientation as it
 
 
 $$
-
 \Delta \theta = \theta_f - \theta_i
-
 $$
 
 
@@ -4016,9 +3990,7 @@ Angular velocity is a measure of the rate of change of angular displacement over
 
 
 $$
-
 \omega = \frac{\Delta \theta}{\Delta t}
-
 $$
 
 
@@ -4036,9 +4008,7 @@ Angular acceleration is a measure of the rate of change of angular velocity over
 
 
 $$
-
 \alpha = \frac{\Delta \omega}{\Delta t}
-
 $$
 
 
@@ -4086,9 +4056,7 @@ Angular velocity is a measure of the rate of change of angular displacement over
 
 
 $$
-
 \omega = \frac{\Delta \theta}{\Delta t}
-
 $$
 
 
@@ -4102,9 +4070,7 @@ Angular acceleration, on the other hand, is a measure of the rate of change of a
 
 
 $$
-
 \alpha = \frac{\Delta \omega}{\Delta t}
-
 $$
 
 
@@ -4166,7 +4132,6 @@ which holds even if "A"("t") does not rotate uniformly. Therefore the angular ve
 
 
 $$
-
 W = \begin{bmatrix} 
 
 0 & -\omega_z & \omega_y \\
@@ -4176,7 +4141,6 @@ W = \begin{bmatrix}
 -\omega_y & \omega_x & 0 \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -4194,7 +4158,6 @@ The angular velocity vector <math>\boldsymbol\omega=(\omega_x,\omega_y,\omega_z)
 
 
 $$
-
 W =
 
 \begin{pmatrix}
@@ -4206,7 +4169,6 @@ W =
 -\omega_y & \omega_x & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -4216,9 +4178,7 @@ This is an infinitesimal rotation matrix. The linear mapping "W" acts as <math>(
 
 
 $$
-
 (\boldsymbol\omega \times) = W
-
 $$
 
 
@@ -4262,9 +4222,7 @@ Angular displacement is a measure of the change in an object's orientation as it
 
 
 $$
-
 \Delta \theta = \theta_f - \theta_i
-
 $$
 
 
@@ -4278,9 +4236,7 @@ Angular velocity is a measure of the rate of change of angular displacement over
 
 
 $$
-
 \omega = \frac{\Delta \theta}{\Delta t}
-
 $$
 
 
@@ -4298,9 +4254,7 @@ Angular acceleration is a measure of the rate of change of angular velocity over
 
 
 $$
-
 \alpha = \frac{\Delta \omega}{\Delta t}
-
 $$
 
 
@@ -4322,7 +4276,6 @@ The angular velocity tensor is a 3x3 matrix that relates the angular velocity ve
 
 
 $$
-
 \Omega = \begin{bmatrix}
 
 0 & -\omega_z & \omega_y \\
@@ -4332,7 +4285,6 @@ $$
 -\omega_y & \omega_x & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4412,9 +4364,7 @@ The relationship between linear and angular velocity can be described by the equ
 
 
 $$
-
 \vec{v} = \vec{\omega} \times \vec{r}
-
 $$
 
 
@@ -4436,9 +4386,7 @@ The relationship between linear and angular acceleration can be described by the
 
 
 $$
-
 \vec{a} = \vec{\alpha} \times \vec{r} + \vec{\omega} \times (\vec{\omega} \times \vec{r})
-
 $$
 
 
@@ -4518,9 +4466,7 @@ The relationship between linear and angular velocities is given by the following
 
 
 $$
-
 \vec{v} = \vec{\omega} \times \vec{r}
-
 $$
 
 
@@ -4724,17 +4670,13 @@ Next, we can use the HEOM method to derive the equations of motion for this syst
 
 
 $$
-
 \dot{x} = -r\omega\sin\theta
-
 $$
 
 
 
 $$
-
 \dot{y} = r\omega\cos\theta
-
 $$
 
 
@@ -4744,17 +4686,13 @@ And for the mass, we have:
 
 
 $$
-
 \dot{x} = r\omega\cos\theta + \dot{r}\cos\theta - r\omega\sin\theta\dot{\theta}
-
 $$
 
 
 
 $$
-
 \dot{y} = r\omega\sin\theta + \dot{r}\sin\theta + r\omega\cos\theta\dot{\theta}
-
 $$
 
 
@@ -4764,17 +4702,13 @@ Next, we can use these equations to derive the equations of motion for the syste
 
 
 $$
-
 m\ddot{x} = -mg\sin\theta - m\omega^2r\cos\theta
-
 $$
 
 
 
 $$
-
 m\ddot{y} = mg\cos\theta - m\omega^2r\sin\theta
-
 $$
 
 
@@ -4784,17 +4718,13 @@ Finally, we can solve these equations to determine the motion of the mass and th
 
 
 $$
-
 \ddot{x} = -\frac{g}{r}\sin\theta - \omega^2\cos\theta
-
 $$
 
 
 
 $$
-
 \ddot{y} = \frac{g}{r}\cos\theta - \omega^2\sin\theta
-
 $$
 
 
@@ -4942,9 +4872,7 @@ The equation for linear momentum is given by:
 
 
 $$
-
 \mathbf{p} = m \mathbf{v}
-
 $$
 
 
@@ -4958,9 +4886,7 @@ One of the fundamental principles of classical mechanics is Newton's second law 
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = \mathbf{F_{net}}
-
 $$
 
 
@@ -4978,9 +4904,7 @@ In classical mechanics, momentum is a conserved quantity, meaning that in a clos
 
 
 $$
-
 \sum \mathbf{p_i} = \sum \mathbf{p_f}
-
 $$
 
 
@@ -4994,9 +4918,7 @@ The principle of impulse and momentum is another important concept in the study 
 
 
 $$
-
 \Delta \mathbf{p} = \mathbf{J}
-
 $$
 
 
@@ -5010,9 +4932,7 @@ The concept of center of mass is also closely related to momentum. The center of
 
 
 $$
-
 \mathbf{p_{tot}} = M\mathbf{v_{cm}}
-
 $$
 
 
@@ -5048,9 +4968,7 @@ The equation for linear momentum is given by:
 
 
 $$
-
 \mathbf{p} = m \mathbf{v}
-
 $$
 
 
@@ -5064,9 +4982,7 @@ One of the fundamental principles of classical mechanics is Newton's second law 
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = \mathbf{F_{net}}
-
 $$
 
 
@@ -5084,9 +5000,7 @@ In classical mechanics, momentum is a conserved quantity, meaning that in a clos
 
 
 $$
-
 \sum \mathbf{p_i} = \sum \mathbf{p_f}
-
 $$
 
 
@@ -5100,9 +5014,7 @@ The principle of impulse and momentum is another important concept in classical 
 
 
 $$
-
 \Delta \mathbf{p} = \mathbf{J} = \int_{t_1}^{t_2} \mathbf{F_{net}} dt
-
 $$
 
 
@@ -5116,9 +5028,7 @@ Now, let's explore the conservation of momentum in more detail. In a system of p
 
 
 $$
-
 \mathbf{P} = \sum m_i \mathbf{v_i}
-
 $$
 
 
@@ -5128,9 +5038,7 @@ where $m_i$ is the mass of the $i$th particle and $\mathbf{v_i}$ is its velocity
 
 
 $$
-
 \frac{d\mathbf{P}}{dt} = \sum m_i \frac{d\mathbf{v_i}}{dt} = \sum \mathbf{F_{net}} = 0
-
 $$
 
 
@@ -5144,9 +5052,7 @@ Now, let's consider the case of a moving load, where a force is applied to a sys
 
 
 $$
-
 \frac{d}{dt}\left[\delta(x-vt)m\frac{d\omega(vt,t)}{dt}\right]=-\delta'(x-vt)mv\frac{d\omega(vt,t)}{dt}+\delta(x-vt)m\frac{d^2\omega(vt,t)}{dt^2}
-
 $$
 
 
@@ -5160,9 +5066,7 @@ Another important concept related to momentum is the Laplace–Runge–Lenz vect
 
 
 $$
-
 \mathbf{A} = \mathbf{p} \times \mathbf{L} - m k \frac{\mathbf{r}}{r}
-
 $$
 
 
@@ -5176,9 +5080,7 @@ To prove that the Laplace–Runge–Lenz vector is conserved, we can use a direc
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -5188,9 +5090,7 @@ we can take the time derivative to get:
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \frac{d\mathbf{r}}{dt} \times \mathbf{p} + \mathbf{r} \times \frac{d\mathbf{p}}{dt}
-
 $$
 
 
@@ -5200,9 +5100,7 @@ Using Newton's second law, we can substitute $\mathbf{F_{net}}$ for $\frac{d\mat
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \frac{d\mathbf{r}}{dt} \times \mathbf{p} + \mathbf{r} \times \mathbf{F_{net}}
-
 $$
 
 
@@ -5212,9 +5110,7 @@ Next, we can use the triple cross product identity to simplify the equation:
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \left( \mathbf{p} \times \mathbf{F_{net}} \right) + \mathbf{r} \times \mathbf{F_{net}}
-
 $$
 
 
@@ -5224,9 +5120,7 @@ Finally, we can use the definition of the Laplace–Runge–Lenz vector to rewri
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \left( \mathbf{p} \times \mathbf{F_{net}} \right) + m k \frac{\mathbf{r}}{r} \times \mathbf{F_{net}}
-
 $$
 
 
@@ -5236,9 +5130,7 @@ Since the cross product of two vectors is equal to zero when the vectors are par
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = m k \frac{\mathbf{r}}{r} \times \mathbf{F_{net}}
-
 $$
 
 
@@ -5274,9 +5166,7 @@ The equation for linear momentum is given by:
 
 
 $$
-
 \mathbf{p} = m \mathbf{v}
-
 $$
 
 
@@ -5290,9 +5180,7 @@ One of the fundamental principles of classical mechanics is Newton's second law 
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = \mathbf{F_{net}}
-
 $$
 
 
@@ -5310,9 +5198,7 @@ In classical mechanics, momentum is a conserved quantity, meaning that in a clos
 
 
 $$
-
 \sum \mathbf{p_i} = \sum \mathbf{p_f}
-
 $$
 
 
@@ -5326,9 +5212,7 @@ The principle of impulse and momentum is another important concept in dynamics. 
 
 
 $$
-
 \mathbf{J} = \int_{t_1}^{t_2} \mathbf{F}(t) dt = \Delta \mathbf{p}
-
 $$
 
 
@@ -5380,9 +5264,7 @@ Angular momentum is defined as the rotational equivalent of linear momentum. It 
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -5396,9 +5278,7 @@ Similar to linear momentum, angular momentum is also a conserved quantity in a c
 
 
 $$
-
 \sum \mathbf{L_i} = \sum \mathbf{L_f}
-
 $$
 
 
@@ -5412,9 +5292,7 @@ Now, let us define the torque as the rotational equivalent of force. It is the m
 
 
 $$
-
 \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -5428,9 +5306,7 @@ We can now prove the equivalence of the definitions of torque and angular moment
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \frac{d}{dt}(\mathbf{r} \times \mathbf{p}) = \mathbf{r} \times \frac{d\mathbf{p}}{dt} + \frac{d\mathbf{r}}{dt} \times \mathbf{p}
-
 $$
 
 
@@ -5440,9 +5316,7 @@ Using the definition of force, $\mathbf{F} = \frac{d\mathbf{p}}{dt}$, and the de
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F} + \mathbf{v} \times \mathbf{p}
-
 $$
 
 
@@ -5452,9 +5326,7 @@ Since the cross product of momentum, $\mathbf{p}$, with its associated velocity,
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F} = \boldsymbol{\tau}
-
 $$
 
 
@@ -5494,9 +5366,7 @@ Angular momentum is defined as the rotational equivalent of linear momentum. It 
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -5510,9 +5380,7 @@ Similar to linear momentum, angular momentum is also a conserved quantity in a c
 
 
 $$
-
 \sum \mathbf{L_i} = \sum \mathbf{L_f}
-
 $$
 
 
@@ -5526,9 +5394,7 @@ Now, let us define the torque as the rotational equivalent of force. It is the m
 
 
 $$
-
 \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -5542,9 +5408,7 @@ We can now prove the equivalence of the definitions of torque and angular moment
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \frac{d}{dt}(\mathbf{r} \times \mathbf{p}) = \frac{d\mathbf{r}}{dt} \times \mathbf{p} + \mathbf{r} \times \frac{d\mathbf{p}}{dt}
-
 $$
 
 
@@ -5554,9 +5418,7 @@ Using the definition of linear momentum, we can rewrite this as:
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{v} \times \mathbf{p} + \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -5604,9 +5466,7 @@ Angular momentum is defined as the rotational equivalent of linear momentum. It 
 
 
 $$
-
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
-
 $$
 
 
@@ -5620,9 +5480,7 @@ Similar to linear momentum, angular momentum is also a conserved quantity in a c
 
 
 $$
-
 \sum \mathbf{L_i} = \sum \mathbf{L_f}
-
 $$
 
 
@@ -5636,9 +5494,7 @@ Now, let us define the torque as the rotational equivalent of force. It is the m
 
 
 $$
-
 \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -5652,9 +5508,7 @@ We can now prove the equivalence of the definitions of torque and angular moment
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \frac{d}{dt}(\mathbf{r} \times \mathbf{p}) = \frac{d\mathbf{r}}{dt} \times \mathbf{p} + \mathbf{r} \times \frac{d\mathbf{p}}{dt}
-
 $$
 
 
@@ -5664,9 +5518,7 @@ Using the definition of linear momentum, we can rewrite this as:
 
 
 $$
-
 \frac{d\mathbf{L}}{dt} = \mathbf{v} \times \mathbf{p} + \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -5718,9 +5570,7 @@ To understand this concept better, let us consider a system of particles with ma
 
 
 $$
-
 \mathbf{p} = m_1\mathbf{v_1} + m_2\mathbf{v_2} + ... + m_n\mathbf{v_n}
-
 $$
 
 
@@ -5730,9 +5580,7 @@ If there are no external forces acting on this system, the total momentum remain
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = 0
-
 $$
 
 
@@ -5746,9 +5594,7 @@ Now, let us consider a system of particles with masses $m_1, m_2, ..., m_n$ and 
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -5796,9 +5642,7 @@ To understand this concept better, let us consider a system of particles with ma
 
 
 $$
-
 \mathbf{p} = m_1\mathbf{v_1} + m_2\mathbf{v_2} + ... + m_n\mathbf{v_n}
-
 $$
 
 
@@ -5808,9 +5652,7 @@ If there are no external forces acting on this system, the total momentum remain
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = 0
-
 $$
 
 
@@ -5824,9 +5666,7 @@ Now, let us consider a system of particles with masses $m_1, m_2, ..., m_n$ and 
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -5844,9 +5684,7 @@ The impulse-momentum theorem is a useful tool in analyzing the motion of systems
 
 
 $$
-
 \Delta \mathbf{p} = \int_{t_1}^{t_2} \mathbf{F}(t) dt
-
 $$
 
 
@@ -5910,9 +5748,7 @@ To understand this concept better, let us consider a system of particles with ma
 
 
 $$
-
 \mathbf{p} = m_1\mathbf{v_1} + m_2\mathbf{v_2} + ... + m_n\mathbf{v_n}
-
 $$
 
 
@@ -5922,9 +5758,7 @@ If there are no external forces acting on this system, the total momentum remain
 
 
 $$
-
 \frac{d\mathbf{p}}{dt} = 0
-
 $$
 
 
@@ -5938,9 +5772,7 @@ Now, let us consider a system of particles with masses $m_1, m_2, ..., m_n$ and 
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -5962,9 +5794,7 @@ Let us consider a simple one-dimensional collision between two objects with mass
 
 
 $$
-
 m_1v_1 + m_2v_2 = m_1v_{1f} + m_2v_{2f}
-
 $$
 
 
@@ -5978,9 +5808,7 @@ Another important concept in collision problems is the coefficient of restitutio
 
 
 $$
-
 e = \frac{v_{2f} - v_{1f}}{v_1 - v_2}
-
 $$
 
 
@@ -6036,17 +5864,13 @@ Mathematically, impact can be defined as the change in momentum of an object bef
 
 
 $$
-
 \text{Impact} = \Delta \mathbf{p} = \mathbf{p_f} - \mathbf{p_i}
-
 $$
 
 
 
 $$
-
 \text{Impulse} = \mathbf{J} = \int_{t_i}^{t_f} \mathbf{F}(t) dt
-
 $$
 
 
@@ -6068,9 +5892,7 @@ As we have seen in the previous section, the conservation of momentum is a funda
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -6126,17 +5948,13 @@ Mathematically, impact can be defined as the change in momentum of an object bef
 
 
 $$
-
 \text{Impact} = \Delta \mathbf{p} = \mathbf{p_f} - \mathbf{p_i}
-
 $$
 
 
 
 $$
-
 \text{Impulse} = \mathbf{J} = \int_{t_i}^{t_f} \mathbf{F}(t) dt
-
 $$
 
 
@@ -6158,9 +5976,7 @@ As we have seen in the previous section, the conservation of momentum is a funda
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -6174,9 +5990,7 @@ The conservation of momentum can also be applied to systems with multiple object
 
 
 $$
-
 \mathbf{p_{total}} = \sum_{i=1}^{n} \mathbf{p_i}
-
 $$
 
 
@@ -6210,9 +6024,7 @@ The impulse-momentum principle is a fundamental concept in classical mechanics t
 
 
 $$
-
 \mathbf{J} = \Delta \mathbf{p}
-
 $$
 
 
@@ -6238,9 +6050,7 @@ To derive the Cauchy momentum equation, we will start by applying Newton's secon
 
 
 $$
-
 m \mathbf{a} = \mathbf{F}
-
 $$
 
 
@@ -6258,9 +6068,7 @@ Next, we will use the Reynolds transport theorem to express the material derivat
 
 
 $$
-
 \int_{\Omega} \rho \frac{D \mathbf{u}}{D t} dV = \int_{\Omega} \nabla_j \sigma_i^j dV + \int_{\Omega} \rho \mathbf{f} dV
-
 $$
 
 
@@ -6278,9 +6086,7 @@ To simplify the equation, we will divide both sides by the volume of the control
 
 
 $$
-
 \frac{D \mathbf{u}}{D t} = \frac{1}{\rho} \nabla_j \sigma_i^j + \mathbf{f}
-
 $$
 
 
@@ -6328,17 +6134,13 @@ Mathematically, impact can be defined as the change in momentum of an object bef
 
 
 $$
-
 \text{Impact} = \Delta \mathbf{p} = \mathbf{p_f} - \mathbf{p_i}
-
 $$
 
 
 
 $$
-
 \text{Impulse} = \mathbf{J} = \int_{t_i}^{t_f} \mathbf{F}(t) dt
-
 $$
 
 
@@ -6360,9 +6162,7 @@ As we have seen in the previous section, the conservation of momentum is a funda
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -6418,9 +6218,7 @@ To understand the linear momentum of a rigid body, we must first define the cent
 
 
 $$
-
 \mathbf{R} = \frac{\sum_{i=1}^n m_i \mathbf{r}_i}{\sum_{i=1}^n m_i}
-
 $$
 
 
@@ -6434,9 +6232,7 @@ Using the concept of center of mass, we can now define the linear momentum of a 
 
 
 $$
-
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
-
 $$
 
 
@@ -6450,9 +6246,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{p} = M\mathbf{V}
-
 $$
 
 
@@ -6470,9 +6264,7 @@ Similar to linear momentum, we can also define the angular momentum of a rigid b
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right)
-
 $$
 
 
@@ -6482,9 +6274,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \mathbf{V}
-
 $$
 
 
@@ -6502,9 +6292,7 @@ Just like for systems of particles, the conservation of momentum also applies to
 
 
 $$
-
 \mathbf{p_i} = \mathbf{p_f}
-
 $$
 
 
@@ -6552,9 +6340,7 @@ To understand the linear momentum of a rigid body, we must first define the cent
 
 
 $$
-
 \mathbf{R} = \frac{\sum_{i=1}^n m_i \mathbf{r}_i}{\sum_{i=1}^n m_i}
-
 $$
 
 
@@ -6568,9 +6354,7 @@ Using the concept of center of mass, we can now define the linear momentum of a 
 
 
 $$
-
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
-
 $$
 
 
@@ -6584,9 +6368,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{p} = M\mathbf{V}
-
 $$
 
 
@@ -6604,9 +6386,7 @@ Similar to linear momentum, we can also define the angular momentum of a rigid b
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right)
-
 $$
 
 
@@ -6616,9 +6396,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \mathbf{V}
-
 $$
 
 
@@ -6640,9 +6418,7 @@ The moment of inertia, denoted as $I$, is a measure of an object's resistance to
 
 
 $$
-
 I = \sum_{i=1}^n m_i (\mathbf{r}_i - \mathbf{R})^2
-
 $$
 
 
@@ -6664,9 +6440,7 @@ The parallel axis theorem states that the moment of inertia of a rigid body abou
 
 
 $$
-
 I = I_{cm} + Md^2
-
 $$
 
 
@@ -6722,9 +6496,7 @@ To understand the linear momentum of a rigid body, we must first define the cent
 
 
 $$
-
 \mathbf{R} = \frac{\sum_{i=1}^n m_i \mathbf{r}_i}{\sum_{i=1}^n m_i}
-
 $$
 
 
@@ -6738,9 +6510,7 @@ Using the concept of center of mass, we can now define the linear momentum of a 
 
 
 $$
-
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
-
 $$
 
 
@@ -6754,9 +6524,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{p} = M\mathbf{V}
-
 $$
 
 
@@ -6774,9 +6542,7 @@ Similar to linear momentum, we can also define the angular momentum of a rigid b
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right)
-
 $$
 
 
@@ -6786,9 +6552,7 @@ If we choose the center of mass as our reference point, the equation simplifies 
 
 
 $$
-
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \mathbf{V}
-
 $$
 
 
@@ -6872,9 +6636,7 @@ To find the linear momentum, we first need to calculate the center of mass of th
 
 
 $$
-
 \mathbf{R} = \frac{2(1,2,3) + 3(2,3,4) + 4(3,4,5)}{2+3+4} = (2.5, 3.5, 4.5) \text{ m}
-
 $$
 
 
@@ -6884,9 +6646,7 @@ Now, using the simplified equation for linear momentum, we get:
 
 
 $$
-
 \mathbf{p} = (2+3+4)\mathbf{V} = (9,9,9) \text{ kg m/s}
-
 $$
 
 
@@ -6896,9 +6656,7 @@ To find the angular momentum, we use the simplified equation given in Section 2.
 
 
 $$
-
 \mathbf{L} = 2(1,2,3) \times (1,1,1) + 3(2,3,4) \times (1,1,1) + 4(3,4,5) \times (1,1,1) = (0,0,0) \text{ kg m$^2$/s}
-
 $$
 
 
@@ -6962,9 +6720,7 @@ To find the linear momentum, we first need to calculate the center of mass of th
 
 
 $$
-
 \mathbf{R} = \frac{2(1,2,3) + 3(2,3,4) + 4(3,4,5)}{2+3+4} = (2.5, 3.5, 4.5) \text{ m}
-
 $$
 
 
@@ -6974,9 +6730,7 @@ Now, using the simplified equation for linear momentum, we get:
 
 
 $$
-
 \mathbf{p} = (2+3+4)\mathbf{V} = (9,9,9) \text{ kg m/s}
-
 $$
 
 
@@ -6986,9 +6740,7 @@ To find the angular momentum, we use the simplified equation given in Section 2.
 
 
 $$
-
 \mathbf{L} = 2(1,2,3) \times (1,1,1) + 3(2,3,4) \times (1,1,1) + 4(3,4,5) \times (1,1,1) = (0,0,0) \text{ kg m^2/s}
-
 $$
 
 
@@ -7022,9 +6774,7 @@ To find the linear momentum, we first need to calculate the center of mass of th
 
 
 $$
-
 \mathbf{R} = \frac{1(1,1,1) + 2(2,2,2) + 3(3,3,3) + 4(4,4,4)}{1+2+3+4} = (2.5, 2.5, 2.5) \text{ m}
-
 $$
 
 
@@ -7034,9 +6784,7 @@ Now, using the simplified equation for linear momentum, we get:
 
 
 $$
-
 \mathbf{p} = (1+2+3+4)\mathbf{\omega} \times \mathbf{R} = (0,0,30) \text{ kg m/s}
-
 $$
 
 
@@ -7046,9 +6794,7 @@ To find the angular momentum, we use the simplified equation given in Section 2.
 
 
 $$
-
 \mathbf{L} = 1(1,1,1) \times (0,0,1) + 2(2,2,2) \times (0,0,1) + 3(3,3,3) \times (0,0,1) + 4(4,4,4) \times (0,0,1) = (0,0,0) \text{ kg m^2/s}
-
 $$
 
 
@@ -7120,9 +6866,7 @@ To find the linear momentum, we first need to calculate the center of mass of th
 
 
 $$
-
 \mathbf{R} = \frac{2(1,2,3) + 3(2,3,4) + 4(3,4,5)}{2+3+4} = (2.5, 3.5, 4.5) \text{ m}
-
 $$
 
 
@@ -7132,9 +6876,7 @@ Now, using the simplified equation for linear momentum, we get:
 
 
 $$
-
 \mathbf{p} = (2+3+4)\mathbf{V} = (9,9,9) \text{ kg m/s}
-
 $$
 
 
@@ -7144,9 +6886,7 @@ To find the angular momentum, we use the simplified equation given in Section 2.
 
 
 $$
-
 \mathbf{L} = 2(1,2,3) \times (1,1,1) + 3(2,3,4) \times (1,1,1) + 4(3,4,5) \times (1,1,1) = (0,0,0) \text{ kg m^2/s}
-
 $$
 
 
@@ -7268,9 +7008,7 @@ The principle of least action can be expressed mathematically as follows:
 
 
 $$
-
 \delta S = \delta \int_{t_1}^{t_2} L(q, \dot{q}, t) dt = 0
-
 $$
 
 
@@ -7322,9 +7060,7 @@ The principle of least action can be expressed mathematically as follows:
 
 
 $$
-
 \delta S = \delta \int_{t_1}^{t_2} L(q, \dot{q}, t) dt = 0
-
 $$
 
 
@@ -7346,9 +7082,7 @@ To derive the principle of least action, we start with the fundamental principle
 
 
 $$
-
 \sum_{i=1}^{N} \mathbf{F}_i = m_i \mathbf{a}_i
-
 $$
 
 
@@ -7362,9 +7096,7 @@ Next, we define the Lagrangian of the system as:
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -7374,9 +7106,7 @@ where $T$ is the kinetic energy and $V$ is the potential energy of the system. W
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -7390,9 +7120,7 @@ To minimize the action, we take the variation of $S$ with respect to the general
 
 
 $$
-
 \delta S = \delta \int_{t_1}^{t_2} L(q, \dot{q}, t) dt = 0
-
 $$
 
 
@@ -7402,9 +7130,7 @@ Using the Euler-Lagrange equations, we can show that this variation is equivalen
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0
-
 $$
 
 
@@ -7448,9 +7174,7 @@ The principle of least action can be expressed mathematically as follows:
 
 
 $$
-
 \delta S = \delta \int_{t_1}^{t_2} L(q, \dot{q}, t) dt = 0
-
 $$
 
 
@@ -7472,9 +7196,7 @@ To derive the equations of motion using the principle of least action, we start 
 
 
 $$
-
 L(q_1, q_2, ..., q_N, \dot{q_1}, \dot{q_2}, ..., \dot{q_N}, t) = T - V
-
 $$
 
 
@@ -7484,9 +7206,7 @@ where $T$ is the total kinetic energy of the system and $V$ is the total potenti
 
 
 $$
-
 \delta S = \delta \int_{t_1}^{t_2} L(q_1, q_2, ..., q_N, \dot{q_1}, \dot{q_2}, ..., \dot{q_N}, t) dt = 0
-
 $$
 
 
@@ -7496,9 +7216,7 @@ Using the Euler-Lagrange equations, we can obtain the equations of motion for ea
 
 
 $$
-
 \frac{d}{dt}\Bigg(\frac{\partial L}{\partial \dot{q_i}}\Bigg) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -7554,9 +7272,7 @@ The Hamiltonian can be expressed mathematically as follows:
 
 
 $$
-
 H(q, p, t) = \sum_{i=1}^{N} \frac{p_i^2}{2m_i} + V(q, t)
-
 $$
 
 
@@ -7608,9 +7324,7 @@ The Hamiltonian can be expressed mathematically as follows:
 
 
 $$
-
 H(q, p, t) = \sum_{i=1}^{N} \frac{p_i^2}{2m_i} + V(q, t)
-
 $$
 
 
@@ -7636,9 +7350,7 @@ To derive Hamilton's Principle, we start with the Lagrangian formulation of mech
 
 
 $$
-
 \mathcal{L} = T - V
-
 $$
 
 
@@ -7648,9 +7360,7 @@ where $T$ is the kinetic energy and $V$ is the potential energy. The equations o
 
 
 $$
-
 S = \int_{t_1}^{t_2} \mathcal{L} dt
-
 $$
 
 
@@ -7660,9 +7370,7 @@ To derive Hamilton's Principle, we introduce the Hamiltonian, denoted as $H$, wh
 
 
 $$
-
 H = \sum_{i=1}^{N} p_i \dot{q_i} - \mathcal{L}
-
 $$
 
 
@@ -7672,9 +7380,7 @@ where $p_i$ and $\dot{q_i}$ are the generalized momenta and velocities, respecti
 
 
 $$
-
 H = \sum_{i=1}^{N} p_i \dot{q_i} - (T - V)
-
 $$
 
 
@@ -7684,9 +7390,7 @@ We can then use the Euler-Lagrange equations to obtain the equations of motion f
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial \dot{q_i}} \right) - \frac{\partial \mathcal{L}}{\partial q_i} = 0
-
 $$
 
 
@@ -7696,9 +7400,7 @@ By substituting the definition of the Lagrangian and rearranging terms, we can o
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial H}{\partial p_i} \right) - \frac{\partial H}{\partial q_i} = 0
-
 $$
 
 
@@ -7742,9 +7444,7 @@ The Hamiltonian can be expressed mathematically as follows:
 
 
 $$
-
 H(q, p, t) = \sum_{i=1}^{N} \frac{p_i^2}{2m_i} + V(q, t)
-
 $$
 
 
@@ -7774,9 +7474,7 @@ The Lagrangian can be expressed mathematically as follows:
 
 
 $$
-
 L(q, \dot{q}, t) = T(q, \dot{q}, t) - V(q, t)
-
 $$
 
 
@@ -7832,9 +7530,7 @@ Using this concept, Lagrange's Equations can be derived by considering the virtu
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = Q_i
-
 $$
 
 
@@ -7886,9 +7582,7 @@ Using this concept, Lagrange's Equations can be derived by considering the virtu
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = Q_i
-
 $$
 
 
@@ -7910,9 +7604,7 @@ To derive Lagrange's Equations, we start by considering a system of $n$ particle
 
 
 $$
-
 T = \sum_{i=1}^{n} \frac{1}{2} m_i \dot{q_i}^2
-
 $$
 
 
@@ -7926,9 +7618,7 @@ Similarly, the potential energy of the system can be expressed as:
 
 
 $$
-
 V = \sum_{i=1}^{n} V_i(q_1, q_2, ..., q_n)
-
 $$
 
 
@@ -7942,9 +7632,7 @@ Using the principle of virtual work, we can write the virtual work done by the f
 
 
 $$
-
 \delta W = \sum_{i=1}^{n} Q_i \delta q_i
-
 $$
 
 
@@ -7958,9 +7646,7 @@ Now, using the definition of virtual work, we can write:
 
 
 $$
-
 \delta W = \sum_{i=1}^{n} \left(\frac{\partial V_i}{\partial q_i} - \frac{d}{dt}\frac{\partial V_i}{\partial \dot{q_i}}\right) \delta q_i
-
 $$
 
 
@@ -7970,9 +7656,7 @@ Equating this to the change in kinetic energy, we get:
 
 
 $$
-
 \delta W = \sum_{i=1}^{n} \left(\frac{\partial T}{\partial \dot{q_i}} - \frac{d}{dt}\frac{\partial T}{\partial \dot{q_i}}\right) \delta q_i
-
 $$
 
 
@@ -7982,9 +7666,7 @@ Using the product rule for differentiation, we can simplify this to:
 
 
 $$
-
 \delta W = \sum_{i=1}^{n} \left(\frac{d}{dt}\frac{\partial T}{\partial \dot{q_i}} - \frac{\partial T}{\partial q_i}\right) \delta q_i
-
 $$
 
 
@@ -7994,9 +7676,7 @@ Since this must hold for any virtual displacement $\delta q_i$, we can equate th
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) - \frac{\partial T}{\partial q_i} = \frac{\partial V_i}{\partial q_i} - Q_i
-
 $$
 
 
@@ -8006,9 +7686,7 @@ Summing over all particles, we get Lagrange's Equations:
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) - \frac{\partial T}{\partial q_i} = \sum_{i=1}^{n} \left(\frac{\partial V_i}{\partial q_i} - Q_i\right)
-
 $$
 
 
@@ -8018,9 +7696,7 @@ which can be written in a more compact form as:
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = Q_i
-
 $$
 
 
@@ -8068,9 +7744,7 @@ Using this concept, Lagrange's Equations can be derived by considering the virtu
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = Q_i
-
 $$
 
 
@@ -8092,9 +7766,7 @@ To derive Lagrange's Equations, we start by considering a system of $N$ particle
 
 
 $$
-
 T = \sum_{i=1}^{N} \frac{1}{2}m_i\dot{q_i}^2
-
 $$
 
 
@@ -8104,9 +7776,7 @@ where $m_i$ is the mass of the $i$th particle. The potential energy of the syste
 
 
 $$
-
 V = \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -8120,9 +7790,7 @@ The Lagrangian, $L$, is defined as the difference between the kinetic and potent
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -8132,9 +7800,7 @@ Using the principle of virtual work, we can express the virtual work done by the
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} \mathbf{F_i} \cdot \delta \mathbf{r_i}
-
 $$
 
 
@@ -8148,9 +7814,7 @@ We can then express the virtual displacement of the $i$th particle as:
 
 
 $$
-
 \delta \mathbf{r_i} = \sum_{j=1}^{N} \frac{\partial \mathbf{r_i}}{\partial q_j} \delta q_j
-
 $$
 
 
@@ -8164,9 +7828,7 @@ Substituting this into the expression for virtual work, we get:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} \mathbf{F_i} \cdot \sum_{j=1}^{N} \frac{\partial \mathbf{r_i}}{\partial q_j} \delta q_j
-
 $$
 
 
@@ -8176,9 +7838,7 @@ Using the definition of the generalized forces, $Q_i$, we can rewrite this as:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} Q_i \delta q_i
-
 $$
 
 
@@ -8188,9 +7848,7 @@ Now, using the definition of the Lagrangian, we can express the virtual work as:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} \left(\frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}}\right) \delta q_i
-
 $$
 
 
@@ -8200,9 +7858,7 @@ Since the virtual displacement, $\delta q_i$, is arbitrary, we can equate the co
 
 
 $$
-
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} = Q_i
-
 $$
 
 
@@ -8286,9 +7942,7 @@ Using this concept, D'Alembert's Principle can be expressed mathematically as fo
 
 
 $$
-
 \sum_{i=1}^{n} \left(\mathbf{F_i} - m_i\mathbf{\ddot{r_i}}\right) \cdot \delta \mathbf{r_i} = 0
-
 $$
 
 
@@ -8340,9 +7994,7 @@ Using this concept, D'Alembert's Principle can be expressed mathematically as fo
 
 
 $$
-
 \sum_{i=1}^{n} \left(\mathbf{F_i} - m_i\mathbf{\ddot{r_i}}\right) \cdot \delta \mathbf{r_i} = 0
-
 $$
 
 
@@ -8364,9 +8016,7 @@ To derive D'Alembert's Principle, we will start with the equations of motion for
 
 
 $$
-
 \sum_{i=1}^{n} \mathbf{F_i} = m_i\mathbf{\ddot{r_i}}
-
 $$
 
 
@@ -8380,9 +8030,7 @@ Next, we will consider a virtual displacement of the system, denoted by $\delta 
 
 
 $$
-
 \sum_{i=1}^{n} \mathbf{F_i} \cdot \delta \mathbf{r_i}
-
 $$
 
 
@@ -8392,9 +8040,7 @@ Using the principle of virtual work, we know that this work is equal to the chan
 
 
 $$
-
 \sum_{i=1}^{n} \mathbf{F_i} \cdot \delta \mathbf{r_i} = \Delta U
-
 $$
 
 
@@ -8408,9 +8054,7 @@ Now, we can substitute the equations of motion into this equation to get:
 
 
 $$
-
 \sum_{i=1}^{n} \left(m_i\mathbf{\ddot{r_i}}\right) \cdot \delta \mathbf{r_i} = \Delta U
-
 $$
 
 
@@ -8420,9 +8064,7 @@ Rearranging this equation, we get:
 
 
 $$
-
 \sum_{i=1}^{n} \left(\mathbf{F_i} - m_i\mathbf{\ddot{r_i}}\right) \cdot \delta \mathbf{r_i} = 0
-
 $$
 
 
@@ -8470,9 +8112,7 @@ Using this concept, D'Alembert's Principle can be expressed mathematically as fo
 
 
 $$
-
 \sum_{i=1}^{n} \left(\mathbf{F_i} - m_i\mathbf{\ddot{r_i}}\right) \cdot \delta \mathbf{r_i} = 0
-
 $$
 
 
@@ -8556,9 +8196,7 @@ Mathematically, the variational formulation for rigid bodies can be expressed as
 
 
 $$
-
 \delta W = \delta T - \delta U = 0
-
 $$
 
 
@@ -8610,9 +8248,7 @@ Mathematically, the variational formulation for rigid bodies can be expressed as
 
 
 $$
-
 \delta W = \delta T - \delta U = 0
-
 $$
 
 
@@ -8634,9 +8270,7 @@ To derive the variational formulation for rigid bodies, we start with the princi
 
 
 $$
-
 \delta W = \delta T - \delta U = 0
-
 $$
 
 
@@ -8646,9 +8280,7 @@ We can express the virtual work done by the external forces as:
 
 
 $$
-
 \delta W = \int_{t_1}^{t_2} \delta \mathbf{F} \cdot \mathbf{v} \, dt
-
 $$
 
 
@@ -8658,9 +8290,7 @@ where $\delta \mathbf{F}$ is the virtual force and $\mathbf{v}$ is the virtual v
 
 
 $$
-
 \delta T = \int_{t_1}^{t_2} \delta \mathbf{v} \cdot \mathbf{M} \, dt
-
 $$
 
 
@@ -8670,9 +8300,7 @@ where $\delta \mathbf{v}$ is the virtual velocity and $\mathbf{M}$ is the virtua
 
 
 $$
-
 \delta U = \int_{t_1}^{t_2} \delta \mathbf{v} \cdot \mathbf{F} \, dt
-
 $$
 
 
@@ -8686,9 +8314,7 @@ Substituting these expressions into the principle of virtual work, we get:
 
 
 $$
-
 \int_{t_1}^{t_2} \delta \mathbf{F} \cdot \mathbf{v} \, dt = \int_{t_1}^{t_2} \delta \mathbf{v} \cdot \mathbf{M} \, dt - \int_{t_1}^{t_2} \delta \mathbf{v} \cdot \mathbf{F} \, dt
-
 $$
 
 
@@ -8698,9 +8324,7 @@ Rearranging and simplifying, we get:
 
 
 $$
-
 \int_{t_1}^{t_2} \delta \mathbf{v} \cdot (\mathbf{M} - \mathbf{F}) \, dt = 0
-
 $$
 
 
@@ -8710,9 +8334,7 @@ Since this equation must hold for all virtual velocities, we can equate the inte
 
 
 $$
-
 \mathbf{M} - \mathbf{F} = 0
-
 $$
 
 
@@ -8760,9 +8382,7 @@ Mathematically, the variational formulation for rigid bodies can be expressed as
 
 
 $$
-
 \delta W = \delta T - \delta U = 0
-
 $$
 
 
@@ -8784,9 +8404,7 @@ To derive the variational formulation for rigid bodies, we start with the princi
 
 
 $$
-
 \delta W = \delta T - \delta U = 0
-
 $$
 
 
@@ -8800,9 +8418,7 @@ Next, we need to express the virtual kinetic and potential energies in terms of 
 
 
 $$
-
 L = T - U
-
 $$
 
 
@@ -8816,9 +8432,7 @@ For a rigid body, the kinetic energy can be expressed as:
 
 
 $$
-
 T = \frac{1}{2} \sum_{i=1}^{N} m_i v_i^2
-
 $$
 
 
@@ -8828,9 +8442,7 @@ where $m_i$ is the mass of the $i$th particle and $v_i$ is its velocity. Using t
 
 
 $$
-
 \delta T = \sum_{i=1}^{N} m_i v_i \cdot \delta v_i
-
 $$
 
 
@@ -8840,9 +8452,7 @@ Similarly, the virtual potential energy can be expressed as:
 
 
 $$
-
 \delta U = \sum_{i=1}^{N} m_i g_i \cdot \delta h_i
-
 $$
 
 
@@ -8856,9 +8466,7 @@ Substituting these expressions into the principle of virtual work, we get:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} m_i v_i \cdot \delta v_i - \sum_{i=1}^{N} m_i g_i \cdot \delta h_i = 0
-
 $$
 
 
@@ -8868,9 +8476,7 @@ Using the definition of the dot product, we can rewrite this as:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} \left( m_i v_i \cdot \delta v_i - m_i g_i \cdot \delta h_i \right) = 0
-
 $$
 
 
@@ -8880,9 +8486,7 @@ Finally, we can express the virtual work done by the external forces as:
 
 
 $$
-
 \delta W = \sum_{i=1}^{N} \left( F_i \cdot \delta r_i \right) = 0
-
 $$
 
 
@@ -8896,9 +8500,7 @@ Combining these equations, we get:
 
 
 $$
-
 \sum_{i=1}^{N} \left( m_i v_i \cdot \delta v_i - m_i g_i \cdot \delta h_i - F_i \cdot \delta r_i \right) = 0
-
 $$
 
 
@@ -9040,9 +8642,7 @@ Solution: We can use D'Alembert's Principle to solve this problem. The virtual w
 
 
 $$
-
 \delta W = F\delta x_1
-
 $$
 
 
@@ -9052,9 +8652,7 @@ where $\delta x_1$ is the virtual displacement of the first particle. The virtua
 
 
 $$
-
 \delta W = k(\delta x_2 - \delta x_1)
-
 $$
 
 
@@ -9064,9 +8662,7 @@ where $\delta x_2$ is the virtual displacement of the second particle. Since the
 
 
 $$
-
 F\delta x_1 + k(\delta x_2 - \delta x_1) = 0
-
 $$
 
 
@@ -9076,9 +8672,7 @@ We can rewrite this equation in terms of the virtual displacements of the two pa
 
 
 $$
-
 (F+k)\delta x_1 - k\delta x_2 = 0
-
 $$
 
 
@@ -9088,17 +8682,13 @@ Since the virtual displacements are arbitrary, we can equate the coefficients of
 
 
 $$
-
 (F+k)x_1 - kx_2 = 0
-
 $$
 
 
 
 $$
-
 -kx_1 + kx_2 = 0
-
 $$
 
 
@@ -9120,9 +8710,7 @@ Solution: We can use the same approach as in Problem 1 to solve this problem. Th
 
 
 $$
-
 \delta W = F\delta x_1
-
 $$
 
 
@@ -9132,9 +8720,7 @@ where $\delta x_1$ is the virtual displacement of the first particle. The virtua
 
 
 $$
-
 \delta W = k_1(\delta x_2 - \delta x_1) + k_2(\delta x_3 - \delta x_2) + k_3(\delta x_3 - \delta x_1)
-
 $$
 
 
@@ -9144,9 +8730,7 @@ where $\delta x_2$ and $\delta x_3$ are the virtual displacements of the second 
 
 
 $$
-
 F\delta x_1 + k_1(\delta x_2 - \delta x_1) + k_2(\delta x_3 - \delta x_2) + k_3(\delta x_3 - \delta x_1) = 0
-
 $$
 
 
@@ -9156,25 +8740,19 @@ Simplifying this equation and equating the coefficients of the virtual displacem
 
 
 $$
-
 (F+k_1+k_3)x_1 - k_1x_2 - k_3x_3 = 0
-
 $$
 
 
 
 $$
-
 -k_1x_1 + (k_1+k_2)x_2 - k_2x_3 = 0
-
 $$
 
 
 
 $$
-
 -k_3x_1 - k_2x_2 + (k_2+k_3)x_3 = 0
-
 $$
 
 
@@ -9396,9 +8974,7 @@ Newton's second law states that the net force acting on an object is equal to th
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9412,9 +8988,7 @@ This equation can also be written in terms of angular quantities, using the conc
 
 
 $$
-
 \vec{\tau} = \vec{r} \times \vec{F}
-
 $$
 
 
@@ -9428,9 +9002,7 @@ Using this equation, we can rewrite Newton's second law for a rigid body as:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -9470,9 +9042,7 @@ Newton's second law states that the net force acting on an object is equal to th
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9486,9 +9056,7 @@ This equation can also be written in terms of angular quantities, using the conc
 
 
 $$
-
 \vec{\tau} = \vec{r} \times \vec{F}
-
 $$
 
 
@@ -9502,9 +9070,7 @@ Using this equation, we can rewrite Newton's second law for a rigid body as:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -9530,9 +9096,7 @@ Euler's equations of motion are given by:
 
 
 $$
-
 \vec{\tau} = I\vec{\alpha} + \vec{\omega} \times (I\vec{\omega})
-
 $$
 
 
@@ -9576,9 +9140,7 @@ Newton's second law states that the net force acting on an object is equal to th
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9592,9 +9154,7 @@ This equation can also be written in terms of angular quantities, using the conc
 
 
 $$
-
 \vec{\tau} = \vec{r} \times \vec{F}
-
 $$
 
 
@@ -9608,9 +9168,7 @@ Using this equation, we can rewrite Newton's second law for a rigid body as:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -9636,25 +9194,19 @@ Euler's equations of motion are a set of three differential equations that relat
 
 
 $$
-
 I_1\dot{\omega_1} + (I_3 - I_2)\omega_2\omega_3 = \tau_1
-
 $$
 
 
 
 $$
-
 I_2\dot{\omega_2} + (I_1 - I_3)\omega_3\omega_1 = \tau_2
-
 $$
 
 
 
 $$
-
 I_3\dot{\omega_3} + (I_2 - I_1)\omega_1\omega_2 = \tau_3
-
 $$
 
 
@@ -9730,9 +9282,7 @@ The translational equation of motion is given by:
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9746,9 +9296,7 @@ The rotational equation of motion is given by:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -9796,9 +9344,7 @@ The translational equation of motion is given by:
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9812,9 +9358,7 @@ The rotational equation of motion is given by:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -9844,9 +9388,7 @@ One way to express the kinetic energy of a rigid body is in terms of its angular
 
 
 $$
-
 T = \frac{1}{2}I\boldsymbol{\omega}^T\boldsymbol{\omega}
-
 $$
 
 
@@ -9864,9 +9406,7 @@ Another way to express the kinetic energy of a rigid body is in terms of its Eul
 
 
 $$
-
 T = \frac{1}{2}I_1\dot{\alpha}^2 + \frac{1}{2}I_2\dot{\beta}^2 + \frac{1}{2}I_3\dot{\gamma}^2
-
 $$
 
 
@@ -9884,9 +9424,7 @@ The third way to express the kinetic energy of a rigid body is in terms of its i
 
 
 $$
-
 T = \frac{1}{2}\boldsymbol{\omega}^T\mathbf{I}\boldsymbol{\omega}
-
 $$
 
 
@@ -9934,9 +9472,7 @@ The translational equation of motion is given by:
 
 
 $$
-
 \sum \vec{F} = m\vec{a}
-
 $$
 
 
@@ -9950,9 +9486,7 @@ The rotational equation of motion is given by:
 
 
 $$
-
 \sum \vec{\tau} = I\vec{\alpha}
-
 $$
 
 
@@ -10082,9 +9616,7 @@ Using the principles of rotational motion, we can write the equations of motion 
 
 
 $$
-
 I\dot{\omega} + \omega \times (I\omega) = T
-
 $$
 
 
@@ -10094,9 +9626,7 @@ Where $\dot{\omega}$ is the angular acceleration and $\omega \times (I\omega)$ i
 
 
 $$
-
 I\dot{\omega} = T - \omega \times (I\omega)
-
 $$
 
 
@@ -10156,9 +9686,7 @@ To analyze the behavior of gyroscopic systems, we must first derive the equation
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -10168,9 +9696,7 @@ Since the axis of rotation is also rotating, the angular velocity of the body re
 
 
 $$
-
 \omega_r = \omega - \Omega
-
 $$
 
 
@@ -10180,9 +9706,7 @@ Where $\Omega$ is the angular velocity of the rotating axis. The torque acting o
 
 
 $$
-
 \tau = I\dot{\omega_r}
-
 $$
 
 
@@ -10192,9 +9716,7 @@ Using the equation of motion for a rigid body, we can express this torque as:
 
 
 $$
-
 \tau = I\dot{\omega_r} = I\frac{d}{dt}(\omega - \Omega) = I\dot{\omega} - I\dot{\Omega}
-
 $$
 
 
@@ -10204,9 +9726,7 @@ Since the angular momentum of the body is conserved, we can express this torque 
 
 
 $$
-
 \tau = \frac{dL}{dt} = I\dot{\omega}
-
 $$
 
 
@@ -10216,9 +9736,7 @@ Combining these equations, we get the equation of motion for gyroscopic systems:
 
 
 $$
-
 I\dot{\omega} = I\dot{\omega_r} + I\dot{\Omega}
-
 $$
 
 
@@ -10898,9 +10416,7 @@ To understand free vibration, we must first understand the equations of motion f
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} 0\\ 0\end{Bmatrix}.
-
 $$
 
 
@@ -10910,9 +10426,7 @@ This equation can be solved by assuming a solution of the form:
 
 
 $$
-
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
-
 $$
 
 
@@ -10960,9 +10474,7 @@ To understand free vibration, we must first understand the equations of motion f
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} 0\\ 0\end{Bmatrix}.
-
 $$
 
 
@@ -10972,9 +10484,7 @@ This equation can be solved by assuming a solution of the form:
 
 
 $$
-
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
-
 $$
 
 
@@ -11046,9 +10556,7 @@ To understand free vibration, we must first understand the equations of motion f
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} 0\\ 0\end{Bmatrix}.
-
 $$
 
 
@@ -11058,9 +10566,7 @@ This equation can be solved by assuming a solution of the form:
 
 
 $$
-
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
-
 $$
 
 
@@ -11116,9 +10622,7 @@ To understand forced vibration, we must first understand the equations of motion
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} F_1\\ F_2\end{Bmatrix}.
-
 $$
 
 
@@ -11170,9 +10674,7 @@ To understand forced vibration, we must first understand the equations of motion
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} F_1\\ F_2\end{Bmatrix}.
-
 $$
 
 
@@ -11244,9 +10746,7 @@ To understand forced vibration, we must first understand the equations of motion
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} F_1\\ F_2\end{Bmatrix}.
-
 $$
 
 
@@ -11268,9 +10768,7 @@ The frequency response function (FRF) is a transfer function that relates the in
 
 
 $$
-
 H(\omega) = \frac{X(\omega)}{F(\omega)}
-
 $$
 
 
@@ -11284,9 +10782,7 @@ The FRF can be represented in both magnitude and phase form, as shown below:
 
 
 $$
-
 H(\omega) = |H(\omega)|e^{j\phi(\omega)}
-
 $$
 
 
@@ -11342,9 +10838,7 @@ A single degree of freedom system is a system that has only one independent coor
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -11358,9 +10852,7 @@ The solution to this equation of motion can be found by assuming a harmonic solu
 
 
 $$
-
 x(t) = X\cos(\omega t + \phi)
-
 $$
 
 
@@ -11370,9 +10862,7 @@ where X is the amplitude, ω is the angular frequency, and φ is the phase angle
 
 
 $$
-
 X = \frac{F_0}{\sqrt{(k-m\omega^2)^2 + (c\omega)^2}}
-
 $$
 
 
@@ -11412,9 +10902,7 @@ A single degree of freedom system is a system that has only one independent coor
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -11428,9 +10916,7 @@ The solution to this equation of motion can be found by assuming a harmonic solu
 
 
 $$
-
 x(t) = X\cos(\omega t + \phi)
-
 $$
 
 
@@ -11440,9 +10926,7 @@ where X is the amplitude, ω is the angular frequency, and φ is the phase angle
 
 
 $$
-
 X = \frac{F_0}{\sqrt{(k-m\omega^2)^2 + (c\omega)^2}}
-
 $$
 
 
@@ -11464,9 +10948,7 @@ To fully understand the behavior of SDOF systems, we must first derive the equat
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -11476,9 +10958,7 @@ where m, c, and k are the mass, damping coefficient, and spring constant respect
 
 
 $$
-
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2x = \frac{F(t)}{m}
-
 $$
 
 
@@ -11526,9 +11006,7 @@ A single degree of freedom system is a system that has only one independent coor
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -11542,9 +11020,7 @@ The solution to this equation of motion can be found by assuming a harmonic solu
 
 
 $$
-
 x(t) = X\cos(\omega t + \phi)
-
 $$
 
 
@@ -11554,9 +11030,7 @@ where X is the amplitude, ω is the angular frequency, and φ is the phase angle
 
 
 $$
-
 X = \frac{F_0}{\sqrt{(k-m\omega^2)^2 + (c\omega)^2}}
-
 $$
 
 
@@ -11578,9 +11052,7 @@ To fully understand the behavior of SDOF systems, we must first derive the equat
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -11590,9 +11062,7 @@ where m, c, and k are the mass, damping coefficient, and spring constant respect
 
 
 $$
-
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2x = \frac{F(t)}{m}
-
 $$
 
 
@@ -11660,17 +11130,13 @@ The equations of motion of the 2DOF system are found to be:
 
 
 $$
-
 m_1 \ddot{x_1} + (c_1+c_2) \dot{x_1} - c_2 \dot{x_2}+ (k_1+k_2) x_1 - k_2 x_2= f_1,
-
 $$
 
 
 
 $$
-
 m_2 \ddot{x_2} - c_2 \dot{x_1}+ (c_2+c_3) \dot{x_2} - k_2 x_1+ (k_2+k_3) x_2 = f_2.
-
 $$
 
 
@@ -11680,9 +11146,7 @@ This can be rewritten in matrix format:
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} f_1\\ f_2\end{Bmatrix}.
-
 $$
 
 
@@ -11692,9 +11156,7 @@ A more compact form of this matrix equation can be written as:
 
 
 $$
-
 M\ddot{x} + C\dot{x} + Kx = F(t)
-
 $$
 
 
@@ -11712,9 +11174,7 @@ This differential equation can be solved by assuming the following type of solut
 
 
 $$
-
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
-
 $$
 
 
@@ -11758,17 +11218,13 @@ The equations of motion of the 2DOF system are found to be:
 
 
 $$
-
 m_1 \ddot{x_1} + (c_1+c_2) \dot{x_1} - c_2 \dot{x_2}+ (k_1+k_2) x_1 - k_2 x_2= f_1,
-
 $$
 
 
 
 $$
-
 m_2 \ddot{x_2} - c_2 \dot{x_1}+ (c_2+c_3) \dot{x_2} - k_2 x_1+ (k_2+k_3) x_2 = f_2.
-
 $$
 
 
@@ -11778,9 +11234,7 @@ This can be rewritten in matrix format:
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} f_1\\ f_2\end{Bmatrix}.
-
 $$
 
 
@@ -11790,9 +11244,7 @@ A more compact form of this matrix equation can be written as:
 
 
 $$
-
 M\ddot{x} + C\dot{x} + Kx = F(t)
-
 $$
 
 
@@ -11818,9 +11270,7 @@ Using this principle, we can derive the equations of motion for a MDOF system as
 
 
 $$
-
 M\ddot{x} + C\dot{x} + Kx = F(t)
-
 $$
 
 
@@ -11868,17 +11318,13 @@ The equations of motion of the 2DOF system are found to be:
 
 
 $$
-
 m_1 \ddot{x_1} + (c_1+c_2) \dot{x_1} - c_2 \dot{x_2}+ (k_1+k_2) x_1 - k_2 x_2= f_1,
-
 $$
 
 
 
 $$
-
 m_2 \ddot{x_2} - c_2 \dot{x_1}+ (c_2+c_3) \dot{x_2} - k_2 x_1+ (k_2+k_3) x_2 = f_2.
-
 $$
 
 
@@ -11888,9 +11334,7 @@ This can be rewritten in matrix format:
 
 
 $$
-
 \begin{bmatrix}m_1 & 0\\ 0 & m_2\end{bmatrix}\begin{Bmatrix}\ddot{x_1}\\ \ddot{x_2} \end{Bmatrix} + \begin{bmatrix} c_1+c_2 & -c_2\\ -c_2 & c_2+c_3\end{bmatrix}\begin{Bmatrix}\dot{x_1}\\ \dot{x_2}\end{Bmatrix}+\begin{bmatrix}k_1+k_2 & -k_2\\ -k_2 & k_2+k_3\end{bmatrix}\begin{Bmatrix} x_1\\ x_2\end{Bmatrix}=\begin{Bmatrix} f_1\\ f_2\end{Bmatrix}.
-
 $$
 
 
@@ -11900,9 +11344,7 @@ A more compact form of this matrix equation can be written as:
 
 
 $$
-
 M\ddot{x} + C\dot{x} + Kx = F(t)
-
 $$
 
 
@@ -11916,9 +11358,7 @@ The following analysis involves the case where there is no damping and no applie
 
 
 $$
-
 Kx = \lambda Mx
-
 $$
 
 
@@ -11928,9 +11368,7 @@ where $\lambda$ is the eigenvalue and $x$ is the eigenvector. The eigenvalues an
 
 
 $$
-
 \omega_n = \sqrt{\frac{\lambda}{m}}
-
 $$
 
 
@@ -11994,9 +11432,7 @@ Consider a string of length $L$ with a constant mass per unit length $\rho$ and 
 
 
 $$
-
 \rho A \frac{\partial^2 u}{\partial t^2} = T \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -12006,9 +11442,7 @@ where $A$ is the cross-sectional area of the string. This equation can be solved
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} \bigl[A_n \sin(\omega_n t) + B_n \cos(\omega_n t)\bigr] \sin\bigl(\frac{n \pi x}{L}\bigr)
-
 $$
 
 
@@ -12056,9 +11490,7 @@ Consider a string of length $L$ with a constant mass per unit length $\rho$ and 
 
 
 $$
-
 \rho A \frac{\partial^2 u}{\partial t^2} = T \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -12068,9 +11500,7 @@ where $A$ is the cross-sectional area of the string. This equation can be solved
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} \bigl[A_n \sin(\omega_n t) + B_n \cos(\omega_n t)\bigr] \sin\bigl(\frac{n \pi x}{L}\bigr)
-
 $$
 
 
@@ -12092,9 +11522,7 @@ The equation of motion for continuous systems, as seen in the continuous string 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -12112,9 +11540,7 @@ In the case of no external forces or disturbances, the wave equation reduces to 
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2} = 0
-
 $$
 
 
@@ -12158,9 +11584,7 @@ Consider a string of length $L$ with a constant mass per unit length $\rho$ and 
 
 
 $$
-
 \rho A \frac{\partial^2 u}{\partial t^2} = T \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -12170,9 +11594,7 @@ where $A$ is the cross-sectional area of the string. This equation can be solved
 
 
 $$
-
 u(x,t) = \sum_{n=1}^{\infty} \bigl[A_n \sin(\omega_n t) + B_n \cos(\omega_n t)\bigr] \sin\bigl(\frac{n \pi x}{L}\bigr)
-
 $$
 
 
@@ -12294,9 +11716,7 @@ Now, let's review some key concepts related to the vibration of these systems:
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -12308,9 +11728,7 @@ where $\omega_n$ is the natural frequency, $k$ is the stiffness of the system, a
 
 
 $$
-
 y_j(n) = A_j\sin(\omega_n t + \phi_j)
-
 $$
 
 
@@ -12322,9 +11740,7 @@ where $y_j(n)$ is the displacement of the $j$th mass at time $t$, $A_j$ is the a
 
 
 $$
-
 \omega_e = \omega_n
-
 $$
 
 
@@ -12336,9 +11752,7 @@ where $\omega_e$ is the excitation frequency and $\omega_n$ is the natural frequ
 
 
 $$
-
 \zeta = \frac{c}{c_c}
-
 $$
 
 
@@ -12350,9 +11764,7 @@ where $\zeta$ is the damping ratio, $c$ is the damping coefficient, and $c_c$ is
 
 
 $$
-
 m\ddot{y}(t) + c\dot{y}(t) + ky(t) = F(t)
-
 $$
 
 
@@ -12364,9 +11776,7 @@ where $m$ is the mass, $c$ is the damping coefficient, $k$ is the stiffness, $y(
 
 
 $$
-
 y(t) = y_0 + \dot{y}_0t + \frac{F_0}{k}(1-e^{-\zeta\omega_n t})\sin(\omega_d t + \phi)
-
 $$
 
 
@@ -12412,9 +11822,7 @@ Now, let's review some key concepts related to the vibration of these systems:
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -12426,9 +11834,7 @@ where $\omega_n$ is the natural frequency, $k$ is the stiffness of the system, a
 
 
 $$
-
 y_j(n) = A_j\sin(\omega_n t + \phi_j)
-
 $$
 
 
@@ -12780,31 +12186,22 @@ To analyze the vibrations in continuous systems, we can use the Rayleigh's quoti
 The eigenvalue problem for a general system of the form
 
 $$M\,\ddot{\textbf{q}}(t) + C\,\dot{\textbf{q}}(t) + K\,\textbf{q}(t) = \textbf{Q}(t)$$
-
 in the absence of damping and external forces reduces to
-
 $$M\,\ddot{\textbf{q}}(t) + K\,\textbf{q}(t) = 0$$
 
 
-
 This equation can also be written as:
-
 $$K\,\textbf{u} = \lambda\,M\,\textbf{u}$$
-
 where $\lambda=\omega^2$, and $\omega$ represents the natural frequency. In this equation, $M$ and $K$ are the real positive symmetric mass and stiffness matrices, respectively.
 
 
 
 For an "n"-degree-of-freedom system, the equation has "n" solutions $\lambda_m$, $\textbf{u}_m$ that satisfy the equation:
-
 $$K\,\textbf{u}_m = \lambda_m\,M\,\textbf{u}_m$$
 
 
-
 By multiplying both sides of the equation by $\textbf{u}_{m}^{T}$ and dividing by the scalar $\textbf{u}_m^T\,M\,\textbf{u}_m$, we can express the eigenvalue problem as follows:
-
 $$\lambda_m = \omega_m^2 = \frac{\textbf{u}_m^T\,K\,\textbf{u}_m}{\textbf{u}_m^T\,M\,\textbf{u}_m}$$
-
 
 
 In this equation, the numerator is proportional to the potential energy, while the denominator depicts a measure of the kinetic energy. This equation allows us to calculate the natural frequency only if the eigenvector (as well as any other displacement vector) $\textbf{u}_{m}$ is known. In cases where the modal vectors are not known, we can repeat the same process but with $\lambda = \omega^2$ and $\textbf{u}_{m}$ as unknowns.
@@ -12856,13 +12253,11 @@ To analyze vibrations in continuous systems, we can use the wave equation. This 
 The wave equation is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 
 
 where $u$ represents the displacement of the string at a given point, $t$ represents time, $x$ represents the position along the string, and $c$ is the wave speed.
@@ -13046,13 +12441,11 @@ In the previous section, we discussed the concept of wave propagation in continu
 Wave speed, also known as phase velocity, is the speed at which a wave propagates through a medium. It is determined by the properties of the medium, such as its density and elasticity. The wavelength, on the other hand, is the distance between two consecutive points on a wave that are in phase with each other. It is related to the wave speed by the equation:
 
 
-
 $$
 
 v = \lambda f
 
 $$
-
 
 
 where v is the wave speed, λ is the wavelength, and f is the frequency of the wave.
@@ -13414,13 +12807,11 @@ In the previous section, we introduced the concept of nonlinear dynamics and its
 The equations of motion for a continuous system can be written as:
 
 
-
 $$
 
 \mathbf{M}\ddot{\mathbf{q}} + \mathbf{C}\dot{\mathbf{q}} + \mathbf{K}\mathbf{q} = \mathbf{F}
 
 $$
-
 
 
 where $\mathbf{M}$ is the mass matrix, $\mathbf{C}$ is the damping matrix, $\mathbf{K}$ is the stiffness matrix, $\mathbf{q}$ is the vector of generalized coordinates, and $\mathbf{F}$ is the vector of external forces. In the case of linear systems, these matrices are constant and the equations of motion can be solved using standard techniques. However, in the case of nonlinear systems, these matrices are functions of the generalized coordinates and velocities, making the equations of motion highly nonlinear.
@@ -13826,13 +13217,11 @@ In this section, we will introduce the fundamental concepts of nonlinear dynamic
 A nonlinear system can be defined as one in which the output is not proportional to the input. In mathematics, this can be represented by the equation:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input. If $f(x)$ is a linear function, then the system is linear. However, if $f(x)$ is a nonlinear function, then the system is nonlinear.
@@ -13884,13 +13273,11 @@ In this section, we will introduce the fundamental concepts of nonlinear dynamic
 A nonlinear system can be defined as one in which the output is not proportional to the input. In mathematics, this can be represented by the equation:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input. If $f(x)$ is a linear function, then the system is linear. However, if $f(x)$ is a nonlinear function, then the system is nonlinear.
@@ -13966,13 +13353,11 @@ In this section, we will introduce the fundamental concepts of nonlinear dynamic
 A nonlinear system can be defined as one in which the output is not proportional to the input. In mathematics, this can be represented by the equation:
 
 
-
 $$
 
 y = f(x)
 
 $$
-
 
 
 where $y$ is the output and $x$ is the input. If $f(x)$ is a linear function, then the system is linear. However, if $f(x)$ is a nonlinear function, then the system is nonlinear.
@@ -14056,13 +13441,11 @@ In this section, we will explore the concept of nonlinear oscillations, which ar
 Nonlinear oscillations can be described by the following equation:
 
 
-
 $$
 
 \ddot{x} + f(x)\dot{x} + g(x) = 0
 
 $$
-
 
 
 where $x$ is the displacement of the oscillator, $f(x)$ is the damping function, and $g(x)$ is the restoring force. This equation is known as the nonlinear differential equation of motion for an oscillator.
@@ -14110,13 +13493,11 @@ In this section, we will explore the concept of nonlinear oscillations, which ar
 Nonlinear oscillations can be described by the following equation:
 
 
-
 $$
 
 \ddot{x} + f(x)\dot{x} + g(x) = 0
 
 $$
-
 
 
 where $x$ is the displacement of the oscillator, $f(x)$ is the damping function, and $g(x)$ is the restoring force. This equation is known as the nonlinear differential equation of motion for an oscillator.
@@ -14214,13 +13595,11 @@ One type of bifurcation is the pitchfork bifurcation, which is a particular type
 The normal form of the supercritical pitchfork bifurcation is:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unstable equilibrium at $x=0$, and two stable equilibria at $x=\pm\sqrt{r}$.
@@ -14234,13 +13613,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unst
 The normal form for the subcritical case is:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ is unstable.
@@ -14254,7 +13631,6 @@ In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two u
 An ODE:
 
 
-
 $$
 
 \dot{x} = f(x, r)
@@ -14262,9 +13638,7 @@ $$
 $$
 
 
-
 described by a one-parameter function $f(x, r)$ with $r\in\mathbb{R}$ satisfies the following conditions for a pitchfork bifurcation to occur at $(x, r)=(0, r_0)$:
-
 
 
 $$
@@ -14273,23 +13647,17 @@ f(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial f}{\partial x}(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 f}{\partial x^2}(0, r_0) = 0
 
 $$
-
-
 
 $$
 
@@ -14298,9 +13666,7 @@ $$
 $$
 
 
-
 The form of the pitchfork is given by the sign of the third derivative:
-
 
 
 $$
@@ -14309,14 +13675,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial^3 f}{\partial x^3}(0, r_0) < 0 \text{ (subcritical)}
 
 $$
-
 
 
 Note that the terms "supercritical" and "subcritical" describe the stability of the outer lines of the pitchfork (dashed or solid, respectively) and are not dependent on which direction the pitchfork faces. For example, the negative of the first ODE above, $\dot{x} = x^3 - rx$, faces the same direction as the first picture but reverses the stability.
@@ -14384,13 +13747,11 @@ One type of bifurcation is the pitchfork bifurcation, which is a particular type
 The normal form of the supercritical pitchfork bifurcation is:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unstable equilibrium at $x=0$, and two stable equilibria at $x=\pm\sqrt{r}$.
@@ -14404,13 +13765,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unst
 The normal form for the subcritical case is:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ is unstable.
@@ -14424,7 +13783,6 @@ In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two u
 An ODE:
 
 
-
 $$
 
 \dot{x} = f(x, r)
@@ -14432,9 +13790,7 @@ $$
 $$
 
 
-
 described by a one-parameter function $f(x, r)$ with $r\in\mathbb{R}$ satisfies the following conditions for a pitchfork bifurcation to occur at $(x, r)=(0, r_0)$:
-
 
 
 $$
@@ -14443,23 +13799,17 @@ f(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial f}{\partial x}(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 f}{\partial x^2}(0, r_0) = 0
 
 $$
-
-
 
 $$
 
@@ -14468,9 +13818,7 @@ $$
 $$
 
 
-
 The form of the pitchfork is given by the sign of the third derivative:
-
 
 
 $$
@@ -14484,7 +13832,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 Note that subcritical and supercritical describe the stability of the outer lines of the pitchfork (dashed or solid, respectively) and are not dependent on which direction the pitchfork faces. For example, the negative of the first ODE above, $\dot{x} = -rx + x^3$, faces the same direction as the first picture but reverses the stability.
@@ -14576,13 +13923,11 @@ One type of bifurcation is the pitchfork bifurcation, which is a particular type
 The normal form of the supercritical pitchfork bifurcation is:
 
 
-
 $$
 
 \dot{x} = rx - x^3
 
 $$
-
 
 
 For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unstable equilibrium at $x=0$, and two stable equilibria at $x=\pm\sqrt{r}$.
@@ -14596,13 +13941,11 @@ For $r<0$, there is one stable equilibrium at $x=0$. For $r>0$, there is an unst
 The normal form for the subcritical case is:
 
 
-
 $$
 
 \dot{x} = rx + x^3
 
 $$
-
 
 
 In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two unstable equilibria at $x=\pm\sqrt{-r}$. For $r>0$, the equilibrium at $x=0$ is unstable.
@@ -14616,7 +13959,6 @@ In this case, for $r<0$, the equilibrium at $x=0$ is stable, and there are two u
 An ODE:
 
 
-
 $$
 
 \dot{x} = f(x, r)
@@ -14624,9 +13966,7 @@ $$
 $$
 
 
-
 described by a one-parameter function $f(x, r)$ with $r\in\mathbb{R}$ satisfies the following conditions for a pitchfork bifurcation to occur at $(x, r)=(0, r_0)$:
-
 
 
 $$
@@ -14635,22 +13975,17 @@ f(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial f}{\partial x}(0, r_0) = 0
 
 $$
 
-
-
 $$
 
 \frac{\partial^2 f}{\partial x^2}(0, r_0) \neq 0
 
 $$
-
 
 
 This means that at the bifurcation point, the function $f(x, r)$ has a critical point at $x=0$ and the second derivative with respect to $x$ is non-zero. This results in a change in the stability of the equilibrium point at $x=0$ as the parameter $r$ is varied.
@@ -14668,14 +14003,11 @@ Chaos is a phenomenon that occurs in nonlinear systems where small changes in in
 One of the most famous examples of chaos is the Lorenz system, which was first studied by Edward Lorenz in the 1960s. The Lorenz system is a set of three nonlinear differential equations that describe the behavior of a simplified model of atmospheric convection. The equations are:
 
 
-
 $$
 
 \dot{x} = \sigma(y-x)
 
 $$
-
-
 
 $$
 
@@ -14683,14 +14015,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{z} = xy - bz
 
 $$
-
 
 
 where $\sigma$, $r$, and $b$ are parameters. The Lorenz system exhibits chaotic behavior for certain values of these parameters, known as the chaotic regime. This system is an example of a strange attractor, which is a type of attractor that has a fractal structure and is sensitive to initial conditions.
@@ -14708,14 +14037,11 @@ In order to understand the chaotic behavior of the Lorenz system, we must first 
 The Lorenz system exhibits chaotic behavior for certain values of the parameters $\sigma$, $r$, and $b$. This was first discovered by Edward Lorenz in the 1960s when he was studying a simplified model of atmospheric convection. The equations for the Lorenz system are:
 
 
-
 $$
 
 \dot{x} = \sigma(y-x)
 
 $$
-
-
 
 $$
 
@@ -14723,14 +14049,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{z} = xy - bz
 
 $$
-
 
 
 where $\sigma$, $r$, and $b$ are parameters. The chaotic behavior of the Lorenz system is a result of the system's sensitivity to initial conditions, also known as the butterfly effect. This means that even small changes in the initial conditions can lead to drastically different outcomes, making the system unpredictable.
@@ -14946,21 +14269,17 @@ The EKF is used to estimate the state of a nonlinear system by incorporating non
 The EKF is based on the following model equations:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \text{, } \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \text{, } \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 The EKF also requires an initial estimate of the state and its covariance matrix, which are denoted as $\hat{\mathbf{x}}(t_0)$ and $\mathbf{P}(t_0)$, respectively.
@@ -15072,13 +14391,11 @@ In this subsection, we will apply the concepts of nonlinear dynamics to solve pr
 One example problem we can consider is the behavior of a simple pendulum with a nonlinear restoring force. The equation of motion for this system can be written as:
 
 
-
 $$
 
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = \frac{F_0}{ml}\sin(\omega t)
 
 $$
-
 
 
 where $\theta$ is the angle of the pendulum, $g$ is the acceleration due to gravity, $l$ is the length of the pendulum, $m$ is the mass of the pendulum, $F_0$ is the amplitude of the driving force, and $\omega$ is the frequency of the driving force.
@@ -16450,13 +15767,11 @@ Forward kinematics is the process of determining the position, orientation, and 
 The forward kinematics equation can be represented as:
 
 
-
 $$
 
 p = f(q)
 
 $$
-
 
 
 where $p$ is the position of the end-effector, $q$ is the vector of joint angles, and $f$ is the forward kinematics function. This function is typically defined using the Denavit-Hartenberg (DH) parameters, which describe the relationship between adjacent links and joints in a kinematic chain.
@@ -16490,7 +15805,6 @@ Let $m$ be the number of variables that govern the forward kinematics equation, 
 For small $\Delta x$-vectors, the series expansion of the position function gives:
 
 
-
 $$
 
 p(x_0 + \Delta x) = p(x_0) + J_p(x_0)\Delta x + O(\Delta x^2)
@@ -16498,9 +15812,7 @@ p(x_0 + \Delta x) = p(x_0) + J_p(x_0)\Delta x + O(\Delta x^2)
 $$
 
 
-
 where $J_p(x_0)$ is the (3 × m) Jacobian matrix of the position function at $x_0$. The (i, k)-th entry of the Jacobian matrix can be approximated numerically as:
-
 
 
 $$
@@ -16510,7 +15822,6 @@ J_{ik} = \frac{p_i(x_0 + h) - p_i(x_0)}{h}
 $$
 
 
-
 where $p_i(x)$ gives the i-th component of the position function, $x_{0,k} + h$ is simply $x_0$ with a small delta added to its k-th component, and $h$ is a reasonably small positive value.
 
 
@@ -16518,13 +15829,11 @@ where $p_i(x)$ gives the i-th component of the position function, $x_{0,k} + h$ 
 Taking the Moore-Penrose pseudoinverse of the Jacobian (computable using a singular value decomposition) and rearranging terms results in:
 
 
-
 $$
 
 \Delta x_{estimate} = J_p^{\dagger}(x_0)(p_1 - p(x_0))
 
 $$
-
 
 
 where $J_p^{\dagger}(x_0)$ is the pseudoinverse of the Jacobian matrix at $x_0$.
@@ -16720,13 +16029,11 @@ As mentioned before, the dynamics of a robot can be described by its motion, for
 The equations of motion for a rigid body can be derived using principles of Newtonian mechanics. These principles state that the sum of all forces acting on a body is equal to its mass times its acceleration. In the case of a rigid body, this can be expressed as:
 
 
-
 $$
 
 \sum \mathbf{F} = m\mathbf{a}
 
 $$
-
 
 
 where $\mathbf{F}$ is the sum of all external forces acting on the body, $m$ is the mass of the body, and $\mathbf{a}$ is its acceleration.
@@ -16880,13 +16187,11 @@ One approach to robot control is impedance control. This method involves control
 In order to control a robot, it is essential to have a mathematical model of the robot's dynamics. This is typically represented in joint space, where the robot's motion is described by its joint angles and velocities. The equations of motion for a robot can be expressed in Lagrangian formulation as:
 
 
-
 $$
 
 \boldsymbol{M}(\boldsymbol{q})\ddot{\boldsymbol{q}} + \boldsymbol{c}(\boldsymbol{q}, \dot{\boldsymbol{q}}) + \boldsymbol{g}(\boldsymbol{q}) + \boldsymbol{h}(\boldsymbol{q}, \dot{\boldsymbol{q}}) = \boldsymbol{\tau}_{\mathrm{ext}}
 
 $$
-
 
 
 where $\boldsymbol{q}$ denotes the joint angular position, $\boldsymbol{M}$ is the symmetric and positive-definite inertia matrix, $\boldsymbol{c}$ is the Coriolis and centrifugal torque, $\boldsymbol{g}$ is the gravitational torque, $\boldsymbol{h}$ includes further torques from inherent stiffness, friction, etc., and $\boldsymbol{\tau}_{\mathrm{ext}}$ summarizes all external torques acting on the robot.
@@ -17930,13 +17235,11 @@ One notable publication in the field of control of mechatronic systems is "Imped
 To understand the control of mechatronic systems, it is essential to have a basic understanding of joint space. In joint space, an uncontrolled robot can be expressed in Lagrangian formulation as:
 
 
-
 $$
 
 \boldsymbol{M}\ddot{\boldsymbol{q}} + \boldsymbol{c} + \boldsymbol{g} + \boldsymbol{h} = \boldsymbol{\tau}
 
 $$
-
 
 
 where $\boldsymbol{q}$ denotes joint angular position, $\boldsymbol{M}$ is the symmetric and positive-definite inertia matrix, $\boldsymbol{c}$ is the Coriolis and centrifugal torque, $\boldsymbol{g}$ is the gravitational torque, $\boldsymbol{h}$ includes further torques from inherent stiffness, friction, etc., and $\boldsymbol{\tau}$ is the applied torque.
@@ -18922,13 +18225,11 @@ In the previous section, we discussed the application of Finite Element Analysis
 Heat transfer is the study of the movement of thermal energy from one system to another. It plays a crucial role in many engineering applications, such as refrigeration, power generation, and thermal management. The general equation of heat transfer is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation describes the change in internal energy ($\varepsilon$) of a system due to changes in temperature and pressure.
@@ -18938,13 +18239,11 @@ where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy
 In heat transfer analysis, we are interested in understanding the rate of heat transfer and the factors that affect it. This is quantified by the equation for entropy production:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account thermal conduction, viscous forces, and the effects of fluid flow on heat transfer. It is derived from the general equation of heat transfer and the equation for specific entropy production.
@@ -19004,13 +18303,11 @@ In the previous section, we discussed the application of Finite Element Analysis
 Heat transfer is a fundamental concept in engineering, as it plays a crucial role in many applications such as refrigeration, power generation, and thermal management. It involves the movement of thermal energy from one system to another, and is governed by the general equation of heat transfer:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation describes the change in internal energy ($\varepsilon$) of a system due to changes in temperature and pressure. However, in order to fully understand heat transfer, we must also consider the rate of heat transfer and the factors that affect it.
@@ -19020,13 +18317,11 @@ This equation describes the change in internal energy ($\varepsilon$) of a syste
 This is quantified by the equation for entropy production:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account thermal conduction, viscous forces, and the effects of fluid flow on heat transfer. It is derived from the general equation of heat transfer and the equation for specific entropy production.
@@ -19064,13 +18359,11 @@ Summing the internal and external virtual work done on a system, we can derive t
 The principle of virtual work states that the virtual work done by all external forces acting on a system must be equal to the virtual work done by all internal forces within the system. This can be expressed mathematically as:
 
 
-
 $$
 
 \delta W_{ext} = \delta W_{int}
 
 $$
-
 
 
 where $\delta W_{ext}$ is the virtual work done by external forces and $\delta W_{int}$ is the virtual work done by internal forces.
@@ -19114,13 +18407,11 @@ In the previous section, we discussed the application of Finite Element Analysis
 Heat transfer is a fundamental concept in engineering, as it plays a crucial role in many applications such as refrigeration, power generation, and thermal management. It involves the movement of thermal energy from one system to another, and is governed by the general equation of heat transfer:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation describes the change in internal energy ($\varepsilon$) of a system due to changes in temperature and pressure. However, in order to fully understand heat transfer, we must also consider the rate of heat transfer and the factors that affect it.
@@ -19130,13 +18421,11 @@ This equation describes the change in internal energy ($\varepsilon$) of a syste
 This is quantified by the equation for entropy production:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account thermal conduction, viscous forces, and the effects of fluid flow on heat transfer. It is derived from the general equation of heat transfer and the equation for specific entropy production.
@@ -21932,9 +21221,7 @@ Thermodynamics is the study of energy and its transformations in physical system
 The first law of thermodynamics, also known as the law of conservation of energy, states that energy cannot be created or destroyed, only transferred or converted from one form to another. This law is based on the principle of energy conservation, which is a fundamental concept in physics. It is represented by the equation:
 
 
-
 $$\Delta U = Q - W$$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, Q is the heat added to the system, and W is the work done by the system.
@@ -21952,13 +21239,9 @@ Thermodynamics also deals with the concept of thermodynamic systems, which are s
 Processes in thermodynamics refer to changes in the state of a system. An isothermal process occurs when the temperature of the system remains constant, while an adiabatic process occurs when there is no heat transfer between the system and its surroundings. These processes are represented by the equations:
 
 
-
 $$Q = 0 \quad \text{(adiabatic process)}$$
 
-
-
 $$\Delta T = 0 \quad \text{(isothermal process)}$$
-
 
 
 In summary, thermodynamics is a crucial field of study that provides a fundamental understanding of energy and its transformations in physical systems. It is based on a set of laws that govern the behavior of energy and provides a framework for analyzing and predicting the behavior of physical systems. In the next section, we will delve deeper into the laws of thermodynamics and their applications.
@@ -21994,9 +21277,7 @@ Thermodynamics is the study of energy and its transformations in physical system
 The first law of thermodynamics, also known as the law of conservation of energy, states that energy cannot be created or destroyed, only transferred or converted from one form to another. This law is based on the principle of energy conservation, which is a fundamental concept in physics. It is represented by the equation:
 
 
-
 $$\Delta U = Q - W$$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, Q is the heat added to the system, and W is the work done by the system.
@@ -22042,9 +21323,7 @@ Nuclear energy is the energy stored in the nucleus of an atom and is released or
 Work is defined as the transfer of energy from one system to another due to a force acting over a distance. In thermodynamics, work is an essential concept as it is one of the ways in which energy can be transferred between systems. It is represented by the equation:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x)dx$$
-
 
 
 where W is the work done, F(x) is the force acting at a distance x, and x1 and x2 are the initial and final positions, respectively.
@@ -22906,13 +22185,11 @@ Heat transfer is the process of thermal energy moving from a region of higher te
 Heat transfer can be mathematically described by the general equation of heat transfer:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation takes into account the change in internal energy, pressure, and temperature of a system. It is derived from the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
@@ -22922,13 +22199,11 @@ This equation takes into account the change in internal energy, pressure, and te
 Another important concept in heat transfer is entropy production, which is described by the equation:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system. In the absence of these forces, the equation simplifies to $Ds/Dt=0$, indicating that ideal fluid flow is isentropic.
@@ -22980,13 +22255,11 @@ Heat transfer is the process of thermal energy moving from a region of higher te
 Heat transfer can be mathematically described by the general equation of heat transfer:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation takes into account the change in internal energy, pressure, and temperature of a system. It is derived from the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
@@ -22996,13 +22269,11 @@ This equation takes into account the change in internal energy, pressure, and te
 Another important concept in heat transfer is entropy production, which is described by the equation:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system. In the absence of these forces, the equation simplifies to $Ds/Dt=0$, indicating that ideal fluid flow is isentropic.
@@ -23094,13 +22365,11 @@ Heat transfer is the process of thermal energy moving from a region of higher te
 Heat transfer can be mathematically described by the general equation of heat transfer:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation takes into account the change in internal energy, pressure, and temperature of a system. It is derived from the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
@@ -23110,13 +22379,11 @@ This equation takes into account the change in internal energy, pressure, and te
 Another important concept in heat transfer is entropy production, which is described by the equation:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system. In the absence of these forces, the equation simplifies to $Ds/Dt=0$, indicating that ideal fluid flow is isentropic.
@@ -23138,13 +22405,11 @@ Heat transfer can occur through three modes: conduction, convection, and radiati
 Conduction is the transfer of heat through a material without any bulk motion of the material itself. It occurs due to the collisions between molecules in a material, which transfer thermal energy from higher temperature regions to lower temperature regions. The rate of heat transfer through conduction is governed by Fourier's law, which states that the heat flux is proportional to the temperature gradient:
 
 
-
 $$
 
 q = -k\nabla T
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity of the material, and $\nabla T$ is the temperature gradient.
@@ -23158,13 +22423,11 @@ where $q$ is the heat flux, $k$ is the thermal conductivity of the material, and
 Convection is the transfer of heat through the movement of a fluid, such as air or water. This mode of heat transfer is driven by the movement of the fluid itself, which can be caused by differences in temperature, density, or other factors. The rate of heat transfer through convection is described by Newton's law of cooling, which states that the heat flux is proportional to the temperature difference between the fluid and the surface it is in contact with:
 
 
-
 $$
 
 q = h(T_{f}-T_{s})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{f}$ is the temperature of the fluid, and $T_{s}$ is the temperature of the surface.
@@ -23178,13 +22441,11 @@ where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_
 Radiation is the transfer of heat through electromagnetic waves. Unlike conduction and convection, radiation does not require a medium to transfer heat. All objects emit thermal radiation, with the amount of radiation emitted depending on the object's temperature and emissivity. The rate of heat transfer through radiation is described by the Stefan-Boltzmann law, which states that the heat flux is proportional to the fourth power of the temperature:
 
 
-
 $$
 
 q = \sigma \varepsilon A(T^{4}_{s}-T^{4}_{sur})
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, $\varepsilon$ is the emissivity of the surface, $A$ is the surface area, $T_{s}$ is the temperature of the surface, and $T_{sur}$ is the temperature of the surroundings.
@@ -23232,13 +22493,11 @@ Heat transfer by conduction is the process of thermal energy being transferred t
 Conduction is governed by the Fourier's law of heat conduction, which states that the rate of heat transfer through a material is proportional to the temperature gradient across the material and the cross-sectional area through which the heat is flowing. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -23252,13 +22511,11 @@ The thermal conductivity, $k$, is a material property that describes how well a 
 In addition to Fourier's law, the general equation of heat transfer can also be used to describe conduction. This equation takes into account the change in internal energy, pressure, and temperature of a system, and can be expressed as:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 where $\rho$ is the density, $d\varepsilon$ is the change in internal energy, $ds$ is the change in entropy, $p$ is the pressure, and $d\rho$ is the change in density.
@@ -23310,13 +22567,11 @@ Heat transfer by conduction is the process of thermal energy being transferred t
 Conduction is governed by the Fourier's law of heat conduction, which states that the rate of heat transfer through a material is proportional to the temperature gradient across the material and the cross-sectional area through which the heat is flowing. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -23330,13 +22585,11 @@ The thermal conductivity, $k$, is a material property that describes how well a 
 In addition to Fourier's law, the general equation of heat transfer can also be used to describe conduction. This equation takes into account the effects of entropy production and viscous forces, and can be written as:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, $\mathbf{v}$ is the velocity field, and $\zeta$ is the bulk viscosity.
@@ -23404,13 +22657,11 @@ Heat transfer by conduction is the process of thermal energy being transferred t
 Conduction is governed by the Fourier's law of heat conduction, which states that the rate of heat transfer through a material is proportional to the temperature gradient across the material and the cross-sectional area through which the heat is flowing. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -23424,13 +22675,11 @@ The thermal conductivity, $k$, is a material property that describes how well a 
 In addition to Fourier's law, the general equation of heat transfer can also be used to describe conduction. This equation takes into account the thermal resistance of the material, which is the inverse of thermal conductivity. It can be expressed as:
 
 
-
 $$
 
 q = \frac{T_1 - T_2}{R_{th}}
 
 $$
-
 
 
 where $T_1$ and $T_2$ are the temperatures at the two ends of the material and $R_{th}$ is the thermal resistance.
@@ -23486,13 +22735,11 @@ Heat transfer by convection is the process of thermal energy being transferred t
 Convection is governed by the Newton's law of cooling, which states that the rate of heat transfer through a fluid is proportional to the temperature difference between the fluid and its surroundings. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = hA(T_{f} - T_{s})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_{f}$ is the temperature of the fluid, and $T_{s}$ is the temperature of the surface.
@@ -23506,13 +22753,11 @@ The convective heat transfer coefficient, $h$, is a measure of how well a fluid 
 In addition to Newton's law, the general equation of heat transfer can also be used to describe convection. This equation takes into account the effects of thermal conductivity, fluid velocity, and temperature on the rate of heat transfer. It can be expressed as:
 
 
-
 $$
 
 q = -kA\frac{dT}{dx} + \rho c_{p}v\frac{dT}{dx} + \rho c_{p}vT\frac{dv}{dx}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, $A$ is the cross-sectional area, $\frac{dT}{dx}$ is the temperature gradient, $\rho$ is the density of the fluid, $c_{p}$ is the specific heat capacity of the fluid, $v$ is the velocity of the fluid, and $\frac{dv}{dx}$ is the velocity gradient.
@@ -23568,13 +22813,11 @@ Heat transfer by convection is the process of thermal energy being transferred t
 Convection is governed by the Newton's law of cooling, which states that the rate of heat transfer through a fluid is proportional to the temperature difference between the fluid and its surroundings. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = hA(T_{f} - T_{s})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_{f}$ is the temperature of the fluid, and $T_{s}$ is the temperature of the surface.
@@ -23588,13 +22831,11 @@ The convective heat transfer coefficient, $h$, is a measure of how well a fluid 
 In addition to Newton's law, the general equation of heat transfer can also be used to describe convection. This equation takes into account the effects of thermal conductivity, fluid velocity, and temperature gradients. It can be expressed as:
 
 
-
 $$
 
 q = -kA\frac{\partial T}{\partial x}
 
 $$
-
 
 
 where $k$ is the thermal conductivity of the fluid and $\frac{\partial T}{\partial x}$ is the temperature gradient in the direction of heat flow.
@@ -23612,13 +22853,11 @@ Newton's law of cooling is an empirical law that describes the rate of heat tran
 Mathematically, Newton's law of cooling can be expressed as:
 
 
-
 $$
 
 q = hA(T_{f} - T_{s})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_{f}$ is the temperature of the fluid, and $T_{s}$ is the temperature of the surface.
@@ -23662,13 +22901,11 @@ Heat transfer by convection is the process of thermal energy being transferred t
 Convection is governed by the Newton's law of cooling, which states that the rate of heat transfer through a fluid is proportional to the temperature difference between the fluid and its surroundings. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = hA(T_{f} - T_{s})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_{f}$ is the temperature of the fluid, and $T_{s}$ is the temperature of the surface.
@@ -23682,13 +22919,11 @@ The convective heat transfer coefficient, $h$, is a measure of how well a fluid 
 In addition to Newton's law, the general equation of heat transfer can also be used to describe convection. This equation takes into account the effects of thermal conductivity, fluid velocity, and temperature difference between the fluid and its surroundings. It can be expressed as:
 
 
-
 $$
 
 q = \frac{kA(T_{f} - T_{s})}{L}
 
 $$
-
 
 
 where $k$ is the thermal conductivity of the fluid, $A$ is the surface area, $T_{f}$ is the temperature of the fluid, $T_{s}$ is the temperature of the surface, and $L$ is the characteristic length of the system.
@@ -23748,13 +22983,11 @@ Heat transfer by radiation is the process of thermal energy being transferred th
 Radiation is governed by the Stefan-Boltzmann law, which states that the rate of heat transfer through radiation is proportional to the fourth power of the temperature difference between the two bodies. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = \sigma A(T_{1}^4 - T_{2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_{1}$ is the temperature of the hotter body, and $T_{2}$ is the temperature of the cooler body.
@@ -23768,13 +23001,11 @@ The Stefan-Boltzmann constant, $\sigma$, is a fundamental constant in physics an
 In addition to the Stefan-Boltzmann law, the general equation of heat transfer can also be used to describe radiation. This equation takes into account the effects of thermal conductivity and convection, and can be expressed as:
 
 
-
 $$
 
 q = \frac{kA(T_{1} - T_{2})}{d} + hA(T_{1} - T_{2})
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $d$ is the thickness of the material, and $h$ is the convective heat transfer coefficient.
@@ -23814,13 +23045,11 @@ Heat transfer by radiation is the process of thermal energy being transferred th
 Radiation is governed by the Stefan-Boltzmann law, which states that the rate of heat transfer through radiation is proportional to the fourth power of the temperature difference between the two bodies. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = \sigma A(T_{1}^4 - T_{2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_{1}$ is the temperature of the hotter body, and $T_{2}$ is the temperature of the cooler body.
@@ -23834,13 +23063,11 @@ The Stefan-Boltzmann constant, $\sigma$, is a fundamental constant in physics an
 In addition to the Stefan-Boltzmann law, the general equation of heat transfer can also be used to describe radiation. This equation takes into account the effects of thermal conductivity and convection, and can be expressed as:
 
 
-
 $$
 
 q = \frac{kA(T_{1} - T_{2})}{d} + hA(T_{1} - T_{2})
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $A$ is the surface area, $d$ is the distance between the two bodies, and $h$ is the convective heat transfer coefficient.
@@ -23858,13 +23085,11 @@ The Stefan-Boltzmann law is a fundamental equation in the study of heat transfer
 Mathematically, the Stefan-Boltzmann law can be expressed as:
 
 
-
 $$
 
 q = \sigma A(T_{1}^4 - T_{2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_{1}$ is the temperature of the hotter body, and $T_{2}$ is the temperature of the cooler body.
@@ -23912,13 +23137,11 @@ Heat transfer by radiation is the process of thermal energy being transferred th
 Radiation is governed by the Stefan-Boltzmann law, which states that the rate of heat transfer through radiation is proportional to the fourth power of the temperature difference between the two bodies. Mathematically, this can be expressed as:
 
 
-
 $$
 
 q = \sigma A(T_{1}^4 - T_{2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_{1}$ is the temperature of the hotter body, and $T_{2}$ is the temperature of the cooler body.
@@ -23932,13 +23155,11 @@ The Stefan-Boltzmann constant, $\sigma$, is a fundamental constant in physics an
 In addition to the Stefan-Boltzmann law, the general equation of heat transfer can also be used to describe radiation. This equation takes into account the effects of thermal conductivity and convection, and can be expressed as:
 
 
-
 $$
 
 q = \frac{kA(T_{1} - T_{2})}{d} + hA(T_{1} - T_{2})
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $A$ is the surface area, $d$ is the distance between the two bodies, and $h$ is the convective heat transfer coefficient.
@@ -24060,7 +23281,6 @@ In addition to these applications, heat transfer is also crucial in the design o
 The general equation of heat transfer is a fundamental tool in understanding the movement of thermal energy. It is derived from the equation for entropy production, which takes into account the changes in temperature, pressure, and volume of a system. This equation can be written as:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
@@ -24068,9 +23288,7 @@ $$
 $$
 
 
-
 Where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, $p$ is the pressure, and $\varepsilon$ is the internal energy. This equation can be further simplified to:
-
 
 
 $$
@@ -24078,7 +23296,6 @@ $$
 \rho dh = \rho Tds + dp
 
 $$
-
 
 
 Where $h$ is the specific enthalpy. This equation can be used to analyze the transfer of heat in various engineering applications.
@@ -24190,21 +23407,17 @@ The third concept is acceleration, which is the rate of change of velocity with 
 Now that we have a basic understanding of these concepts, let's explore how they relate to each other. The relationship between displacement, velocity, and acceleration can be described by the following equations:
 
 
-
 $$
 
 v = \frac{\Delta x}{\Delta t}
 
 $$
 
-
-
 $$
 
 a = \frac{\Delta v}{\Delta t}
 
 $$
-
 
 
 Where $\Delta t$ represents the change in time. These equations show that velocity is the derivative of displacement with respect to time, and acceleration is the derivative of velocity with respect to time.
@@ -24256,21 +23469,17 @@ The third concept is acceleration, which is the rate of change of velocity with 
 Now that we have a basic understanding of these concepts, let's explore how they relate to each other. The relationship between displacement, velocity, and acceleration can be described by the following equations:
 
 
-
 $$
 
 v = \frac{\Delta x}{\Delta t}
 
 $$
 
-
-
 $$
 
 a = \frac{\Delta v}{\Delta t}
 
 $$
-
 
 
 Where $\Delta t$ represents the change in time. These equations show that velocity is the derivative of displacement with respect to time, and acceleration is the derivative of velocity with respect to time. This means that velocity is the rate of change of displacement, and acceleration is the rate of change of velocity.
@@ -24334,21 +23543,17 @@ The third concept is acceleration, which is the rate of change of velocity with 
 Now that we have a basic understanding of these concepts, let's explore how they relate to each other. The relationship between displacement, velocity, and acceleration can be described by the following equations:
 
 
-
 $$
 
 v = \frac{\Delta x}{\Delta t}
 
 $$
 
-
-
 $$
 
 a = \frac{\Delta v}{\Delta t}
 
 $$
-
 
 
 Where $\Delta t$ represents the change in time. These equations show that velocity is the derivative of displacement with respect to time, and acceleration is the derivative of velocity with respect to time. This means that velocity is the rate of change of displacement, and acceleration is the rate of change of velocity.
@@ -24382,13 +23587,11 @@ To fully understand the motion of a system, we need to have a set of equations t
 The first kinematic equation is the displacement equation, which relates the initial and final positions of an object to its average velocity and time:
 
 
-
 $$
 
 \Delta x = \frac{1}{2}(v_0 + v)t
 
 $$
-
 
 
 Where $\Delta x$ is the displacement, $v_0$ is the initial velocity, $v$ is the final velocity, and $t$ is the time interval.
@@ -24398,13 +23601,11 @@ Where $\Delta x$ is the displacement, $v_0$ is the initial velocity, $v$ is the 
 The second kinematic equation is the velocity equation, which relates the initial and final velocities of an object to its acceleration and displacement:
 
 
-
 $$
 
 v = v_0 + at
 
 $$
-
 
 
 Where $v$ is the final velocity, $v_0$ is the initial velocity, $a$ is the acceleration, and $t$ is the time interval.
@@ -24414,13 +23615,11 @@ Where $v$ is the final velocity, $v_0$ is the initial velocity, $a$ is the accel
 The third kinematic equation is the acceleration equation, which relates the initial and final velocities of an object to its acceleration and displacement:
 
 
-
 $$
 
 v^2 = v_0^2 + 2a\Delta x
 
 $$
-
 
 
 Where $v$ is the final velocity, $v_0$ is the initial velocity, $a$ is the acceleration, and $\Delta x$ is the displacement.
@@ -24490,14 +23689,11 @@ Rectilinear motion is a type of motion in which an object moves along a straight
 Rectilinear motion can be described using the same equations as in the previous section, with the added constraint that the motion is only along one axis. These equations are:
 
 
-
 $$
 
 \dot{x}(t) = v(t)
 
 $$
-
-
 
 $$
 
@@ -24505,22 +23701,17 @@ $$
 
 $$
 
-
-
 $$
 
 x(t) = x_0 + \int_{t_0}^{t} v(\tau) d\tau
 
 $$
 
-
-
 $$
 
 v(t) = v_0 + \int_{t_0}^{t} a(\tau) d\tau
 
 $$
-
 
 
 where $x(t)$ is the position of the object at time $t$, $v(t)$ is the velocity of the object at time $t$, and $a(t)$ is the acceleration of the object at time $t$. $x_0$ and $v_0$ represent the initial position and velocity of the object, respectively.
@@ -24530,21 +23721,17 @@ where $x(t)$ is the position of the object at time $t$, $v(t)$ is the velocity o
 One example of rectilinear motion is the motion of a car on a straight road. Assuming the car is traveling at a constant speed, its displacement, velocity, and acceleration will all be in the same direction, along the direction of the road. In this case, the equations of rectilinear motion can be simplified to:
 
 
-
 $$
 
 x(t) = x_0 + v_0(t-t_0)
 
 $$
 
-
-
 $$
 
 v(t) = v_0
 
 $$
-
 
 
 where $x_0$ is the initial position of the car and $v_0$ is its constant velocity.
@@ -24588,14 +23775,11 @@ Rectilinear motion is a type of motion in which an object moves along a straight
 Rectilinear motion can be described using the same equations as in the previous section, with the added constraint that the motion is only along one axis. These equations are:
 
 
-
 $$
 
 \dot{x}(t) = v(t)
 
 $$
-
-
 
 $$
 
@@ -24603,22 +23787,17 @@ $$
 
 $$
 
-
-
 $$
 
 x(t) = x_0 + \int_{t_0}^{t} v(\tau) d\tau
 
 $$
 
-
-
 $$
 
 v(t) = v_0 + \int_{t_0}^{t} a(\tau) d\tau
 
 $$
-
 
 
 where $x(t)$ is the position of the object at time $t$, $v(t)$ is the velocity of the object at time $t$, and $a(t)$ is the acceleration of the object at time $t$. $x_0$ and $v_0$ represent the initial position and velocity of the object, respectively.
@@ -24628,21 +23807,17 @@ where $x(t)$ is the position of the object at time $t$, $v(t)$ is the velocity o
 One example of rectilinear motion is the motion of a car on a straight road. Assuming the car is traveling at a constant speed, its displacement, velocity, and acceleration will all be in the same direction, along the direction of the road. In this case, the equations of rectilinear motion can be simplified to:
 
 
-
 $$
 
 x(t) = x_0 + v_0(t-t_0)
 
 $$
 
-
-
 $$
 
 v(t) = v_0
 
 $$
-
 
 
 where $x_0$ is the initial position of the car and $v_0$ is its constant velocity.
@@ -24706,14 +23881,11 @@ Curvilinear motion is a type of motion in which an object moves along a curved p
 Curvilinear motion can be described using the same equations as in the previous section, with the added complexity that the motion is now along a curved path. These equations are:
 
 
-
 $$
 
 \dot{\textbf{r}}(t) = \textbf{v}(t)
 
 $$
-
-
 
 $$
 
@@ -24721,22 +23893,17 @@ $$
 
 $$
 
-
-
 $$
 
 \textbf{r}(t) = \textbf{r}_0 + \int_{t_0}^{t} \textbf{v}(\tau) d\tau
 
 $$
 
-
-
 $$
 
 \textbf{v}(t) = \textbf{v}_0 + \int_{t_0}^{t} \textbf{a}(\tau) d\tau
 
 $$
-
 
 
 where $\textbf{r}(t)$ is the position vector of the object at time $t$, $\textbf{v}(t)$ is the velocity vector of the object at time $t$, and $\textbf{a}(t)$ is the acceleration vector of the object at time $t$. $\textbf{r}_0$ and $\textbf{v}_0$ represent the initial position and velocity vectors of the object, respectively.
@@ -24784,7 +23951,6 @@ In the previous section, we discussed curvilinear motion in terms of Cartesian c
 The equations of curvilinear motion can also be expressed in polar coordinates. The position vector $\textbf{r}(t)$ can be written as:
 
 
-
 $$
 
 \textbf{r}(t) = r(t)\hat{r} + \theta(t)\hat{\theta}
@@ -24792,9 +23958,7 @@ $$
 $$
 
 
-
 where $r(t)$ is the distance from the origin and $\theta(t)$ is the angle from the reference axis. The velocity vector $\textbf{v}(t)$ can be written as:
-
 
 
 $$
@@ -24804,9 +23968,7 @@ $$
 $$
 
 
-
 and the acceleration vector $\textbf{a}(t)$ can be written as:
-
 
 
 $$
@@ -24814,7 +23976,6 @@ $$
 \textbf{a}(t) = (\ddot{r}(t) - r(t)\dot{\theta}^2(t))\hat{r} + (r(t)\ddot{\theta}(t) + 2\dot{r}(t)\dot{\theta}(t))\hat{\theta}
 
 $$
-
 
 
 These equations can be used to describe the motion of an object in polar coordinates, such as the motion of a pendulum or a planet orbiting a star.
@@ -24916,13 +24077,11 @@ Similar to linear displacement, angular displacement can be positive or negative
 The relationship between angular displacement and linear displacement can be described using the arc length formula:
 
 
-
 $$
 
 s = r\theta
 
 $$
-
 
 
 Where s is the linear displacement, r is the radius of rotation, and θ is the angular displacement. This formula is derived from the fact that the distance traveled along the circumference of a circle is equal to the radius multiplied by the central angle.
@@ -25090,13 +24249,11 @@ Angular velocity is defined as the rate of change of angular displacement with r
 The relationship between angular velocity and linear velocity can be described using the formula:
 
 
-
 $$
 
 v = r\omega
 
 $$
-
 
 
 Where v is the linear velocity, r is the radius of rotation, and ω is the angular velocity. This formula is derived from the fact that the linear velocity of a point on a rotating object is equal to the distance from the axis of rotation multiplied by the angular velocity.
@@ -25114,13 +24271,11 @@ Angular acceleration is defined as the rate of change of angular velocity with r
 The relationship between angular acceleration and linear acceleration can be described using the formula:
 
 
-
 $$
 
 a = r\alpha
 
 $$
-
 
 
 Where a is the linear acceleration, r is the radius of rotation, and α is the angular acceleration. This formula is derived from the fact that the linear acceleration of a point on a rotating object is equal to the distance from the axis of rotation multiplied by the angular acceleration.
@@ -25138,7 +24293,6 @@ In order to fully understand rotational motion, it is important to also consider
 The angular velocity tensor, denoted by W, is a linear mapping that acts as the cross product of the angular velocity vector ω with the orientation matrix A. This can be expressed as:
 
 
-
 $$
 
 W = \begin{bmatrix} 
@@ -25152,7 +24306,6 @@ W = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 
 
 This tensor can be used to calculate the angular velocity of a rotating frame, even if the frame is not rotating uniformly. The angular velocity tensor can also be used to describe the orientation of a frame in space.
@@ -25274,13 +24427,11 @@ Similar to linear displacement, angular displacement can be positive or negative
 The relationship between angular displacement and linear displacement can be described using the arc length formula:
 
 
-
 $$
 
 s = r\theta
 
 $$
-
 
 
 Where s is the linear displacement, r is the radius of rotation, and θ is the angular displacement. This formula is derived from the fact that the distance traveled along the circumference of a circle is equal to the radius multiplied by the central angle.
@@ -25374,7 +24525,6 @@ In the previous section, we discussed the use of spherical harmonics in the Jone
 In three dimensions, the orbital angular acceleration is the rate at which three-dimensional orbital angular velocity vector changes with time. The instantaneous angular velocity vector ω at any point in time is given by:
 
 
-
 $$
 
 \boldsymbol\omega = \frac{d\boldsymbol\theta}{dt}
@@ -25382,9 +24532,7 @@ $$
 $$
 
 
-
 Where θ is the angular displacement. This can also be expressed as:
-
 
 
 $$
@@ -25402,7 +24550,6 @@ $$
 $$
 
 
-
 Where ωx, ωy, and ωz are the components of the angular velocity vector in the x, y, and z directions, respectively.
 
 
@@ -25416,7 +24563,6 @@ In order to fully understand rotational motion, it is important to also consider
 
 
 The angular velocity tensor, denoted by W, is a linear mapping that acts as the cross product of the angular velocity vector ω with the orientation matrix A. This can be expressed as:
-
 
 
 $$
@@ -25434,7 +24580,6 @@ W = \begin{bmatrix}
 $$
 
 
-
 This tensor can be used to calculate the angular velocity of a rotating frame, even if the frame is not rotating uniformly. The angular velocity tensor can also be used to describe the orientation of a frame in space.
 
 
@@ -25444,7 +24589,6 @@ This tensor can be used to calculate the angular velocity of a rotating frame, e
 
 
 Similar to the angular velocity tensor, the angular acceleration tensor, denoted by A, is a linear mapping that acts as the cross product of the angular acceleration vector α with the orientation matrix A. This can be expressed as:
-
 
 
 $$
@@ -25462,7 +24606,6 @@ A = \begin{bmatrix}
 $$
 
 
-
 This tensor can be used to calculate the angular acceleration of a rotating frame, even if the frame is not rotating uniformly. The angular acceleration tensor can also be used to describe the orientation of a frame in space.
 
 
@@ -25474,21 +24617,17 @@ This tensor can be used to calculate the angular acceleration of a rotating fram
 The angular velocity and acceleration of a rotating frame can be calculated using the orientation matrix A and the angular velocity and acceleration tensors W and A, respectively. This can be expressed as:
 
 
-
 $$
 
 \boldsymbol\omega = W\mathbf{e}_i
 
 $$
 
-
-
 $$
 
 \boldsymbol\alpha = A\mathbf{e}_i
 
 $$
-
 
 
 Where e_i is the moving orthonormal coordinate vector of the frame. This calculation holds even if the frame is not rotating uniformly.
@@ -25502,21 +24641,17 @@ Where e_i is the moving orthonormal coordinate vector of the frame. This calcula
 The angular velocity and acceleration of a particle in three dimensions can be calculated using the angular velocity and acceleration vectors ω and α, respectively. This can be expressed as:
 
 
-
 $$
 
 \boldsymbol\omega = \frac{d\boldsymbol\theta}{dt}
 
 $$
 
-
-
 $$
 
 \boldsymbol\alpha = \frac{d\boldsymbol\omega}{dt}
 
 $$
-
 
 
 Where θ is the angular displacement and ω is the angular velocity. These calculations hold even if the particle is not moving in a uniform circular motion.
@@ -25530,21 +24665,17 @@ Where θ is the angular displacement and ω is the angular velocity. These calcu
 The angular velocity and acceleration of a particle in three dimensions can also be calculated using the angular velocity and acceleration tensors W and A, respectively. This can be expressed as:
 
 
-
 $$
 
 \boldsymbol\omega = W\mathbf{r}
 
 $$
 
-
-
 $$
 
 \boldsymbol\alpha = A\mathbf{r}
 
 $$
-
 
 
 Where r is the position vector of the particle. These calculations hold even if the particle is not moving in a uniform circular motion.
@@ -25558,21 +24689,17 @@ Where r is the position vector of the particle. These calculations hold even if 
 The angular velocity and acceleration of a particle in three dimensions can also be calculated using the orientation matrix A. This can be expressed as:
 
 
-
 $$
 
 \boldsymbol\omega = A\mathbf{r}
 
 $$
 
-
-
 $$
 
 \boldsymbol\alpha = A\mathbf{v}
 
 $$
-
 
 
 Where v is the velocity vector of the particle. These calculations hold even if the particle is not moving in a uniform circular motion.
@@ -25628,13 +24755,11 @@ Angular velocity is defined as the rate of change of angular displacement with r
 The relationship between angular velocity and linear velocity can be described using the formula:
 
 
-
 $$
 
 v = r\omega
 
 $$
-
 
 
 Where v is the linear velocity, r is the radius of rotation, and ω is the angular velocity. This formula is derived from the fact that the linear velocity of a point on a rotating object is equal to the distance from the axis of rotation multiplied by the angular velocity.
@@ -25652,13 +24777,11 @@ Angular acceleration is defined as the rate of change of angular velocity with r
 The relationship between angular acceleration and angular velocity can be described using the formula:
 
 
-
 $$
 
 \alpha = \frac{d\omega}{dt}
 
 $$
-
 
 
 Where α is the angular acceleration and ω is the angular velocity. This formula shows that angular acceleration is the derivative of angular velocity with respect to time.
@@ -25672,14 +24795,11 @@ Where α is the angular acceleration and ω is the angular velocity. This formul
 Similar to linear motion, there are kinematic equations that describe the relationships between displacement, velocity, acceleration, and time in rotational motion. These equations are:
 
 
-
 $$
 
 \theta = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2
 
 $$
-
-
 
 $$
 
@@ -25687,14 +24807,11 @@ $$
 
 $$
 
-
-
 $$
 
 \omega^2 = \omega_0^2 + 2\alpha(\theta - \theta_0)
 
 $$
-
 
 
 Where θ is the angular displacement, ω is the angular velocity, α is the angular acceleration, and t is the time. These equations can be derived from the definitions of angular velocity and acceleration and the relationships between them.
@@ -25762,13 +24879,11 @@ The position of a rigid body can be described by two components: linear and angu
 Similar to position, the velocity of a rigid body can also be described by two components: linear and angular. The linear velocity is the rate of change of the body's linear position, while the angular velocity is the rate of change of the body's angular position. These two components are related by the formula:
 
 
-
 $$
 
 v = r\omega
 
 $$
-
 
 
 Where v is the linear velocity, r is the distance from the axis of rotation to the point of interest, and ω is the angular velocity. This formula is derived from the fact that the linear velocity of a point on a rotating body is equal to the distance from the axis of rotation multiplied by the angular velocity.
@@ -25782,13 +24897,11 @@ Where v is the linear velocity, r is the distance from the axis of rotation to t
 Similarly, the acceleration of a rigid body can be divided into linear and angular components. The linear acceleration is the rate of change of the body's linear velocity, while the angular acceleration is the rate of change of the body's angular velocity. These two components are related by the formula:
 
 
-
 $$
 
 a = r\alpha
 
 $$
-
 
 
 Where a is the linear acceleration, r is the distance from the axis of rotation to the point of interest, and α is the angular acceleration. This formula is derived from the fact that the linear acceleration of a point on a rotating body is equal to the distance from the axis of rotation multiplied by the angular acceleration.
@@ -26258,13 +25371,11 @@ In this section, we will discuss the concept of linear momentum and its importan
 Linear momentum, also known as translational momentum, is defined as the product of an object's mass and velocity. It is a vector quantity, meaning it has both magnitude and direction. In mathematical terms, we can express linear momentum as:
 
 
-
 $$
 
 \mathbf{p} = m\mathbf{v}
 
 $$
-
 
 
 where $\mathbf{p}$ is the linear momentum, $m$ is the mass of the object, and $\mathbf{v}$ is its velocity.
@@ -26278,13 +25389,11 @@ The SI unit for momentum is kilogram meter per second (kg⋅m/s), which is equiv
 In the context of systems of particles, the total linear momentum of the system is the sum of the individual momenta of each particle. This can be expressed as:
 
 
-
 $$
 
 \mathbf{P} = \sum_{i=1}^{N} m_i\mathbf{v}_i
 
 $$
-
 
 
 where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass of the $i$th particle, and $\mathbf{v}_i$ is its velocity.
@@ -26294,13 +25403,11 @@ where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass
 The concept of linear momentum is closely related to Newton's laws of motion. In fact, the first law of motion, also known as the law of inertia, can be expressed in terms of momentum as:
 
 
-
 $$
 
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = 0
 
 $$
-
 
 
 This means that in the absence of external forces, the momentum of a system remains constant, or conserved. This is known as the principle of conservation of momentum.
@@ -26348,13 +25455,11 @@ In this section, we will discuss the concept of linear momentum and its importan
 Linear momentum, also known as translational momentum, is defined as the product of an object's mass and velocity. It is a vector quantity, meaning it has both magnitude and direction. In mathematical terms, we can express linear momentum as:
 
 
-
 $$
 
 \mathbf{p} = m\mathbf{v}
 
 $$
-
 
 
 where $\mathbf{p}$ is the linear momentum, $m$ is the mass of the object, and $\mathbf{v}$ is its velocity.
@@ -26368,13 +25473,11 @@ The SI unit for momentum is kilogram meter per second (kg⋅m/s), which is equiv
 In the context of systems of particles, the total linear momentum of the system is the sum of the individual momenta of each particle. This can be expressed as:
 
 
-
 $$
 
 \mathbf{P} = \sum_{i=1}^{N} m_i\mathbf{v}_i
 
 $$
-
 
 
 where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass of the $i$th particle, and $\mathbf{v}_i$ is its velocity.
@@ -26384,13 +25487,11 @@ where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass
 The concept of linear momentum is closely related to Newton's laws of motion. In fact, the first law of motion, also known as the law of inertia, can be expressed in terms of momentum as:
 
 
-
 $$
 
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = 0
 
 $$
-
 
 
 This means that in the absence of external forces, the momentum of a system remains constant, or conserved. This is known as the principle of conservation of momentum.
@@ -26408,13 +25509,11 @@ The conservation of momentum has many practical applications, such as in collisi
 In this subsection, we will explore the concept of conservation of linear momentum in more detail. As mentioned earlier, the principle of conservation of momentum states that the total momentum of a system remains constant in the absence of external forces. This can be mathematically expressed as:
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^{N} \mathbf{F}_i = 0
 
 $$
-
 
 
 where $\mathbf{P}$ is the total linear momentum of the system and $\mathbf{F}_i$ is the net force acting on the $i$th particle.
@@ -26428,13 +25527,11 @@ To better understand this concept, let us consider the example of a moving load.
 Another important concept related to linear momentum is the Laplace–Runge–Lenz vector. This vector is conserved in Kepler problems, which involve central forces that obey an inverse-square law. In this case, the Laplace–Runge–Lenz vector is defined as:
 
 
-
 $$
 
 \mathbf{A} = \mathbf{p} \times \mathbf{L} - mk\mathbf{\hat{r}}
 
 $$
-
 
 
 where $\mathbf{p}$ is the linear momentum, $\mathbf{L}$ is the angular momentum, $m$ is the mass of the particle, and $k$ is a constant related to the strength of the central force.
@@ -26486,13 +25583,11 @@ In this section, we will discuss the concept of linear momentum and its importan
 Linear momentum, also known as translational momentum, is defined as the product of an object's mass and velocity. It is a vector quantity, meaning it has both magnitude and direction. In mathematical terms, we can express linear momentum as:
 
 
-
 $$
 
 \mathbf{p} = m\mathbf{v}
 
 $$
-
 
 
 where $\mathbf{p}$ is the linear momentum, $m$ is the mass of the object, and $\mathbf{v}$ is its velocity.
@@ -26506,13 +25601,11 @@ The SI unit for momentum is kilogram meter per second (kg⋅m/s), which is equiv
 In the context of systems of particles, the total linear momentum of the system is the sum of the individual momenta of each particle. This can be expressed as:
 
 
-
 $$
 
 \mathbf{P} = \sum_{i=1}^{N} m_i\mathbf{v}_i
 
 $$
-
 
 
 where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass of the $i$th particle, and $\mathbf{v}_i$ is its velocity.
@@ -26522,13 +25615,11 @@ where $\mathbf{P}$ is the total linear momentum of the system, $m_i$ is the mass
 The concept of linear momentum is closely related to Newton's laws of motion. In fact, the first law of motion, also known as the law of inertia, can be expressed in terms of momentum as:
 
 
-
 $$
 
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = 0
 
 $$
-
 
 
 This means that in the absence of external forces, the momentum of a system remains constant, or conserved. This is known as the principle of conservation of momentum.
@@ -26612,13 +25703,11 @@ In the previous section, we discussed the concept of linear momentum and its imp
 Angular momentum is a vector quantity that describes the rotational motion of an object. It is defined as the cross product of the position vector and the linear momentum of the object. In mathematical terms, we can express angular momentum as:
 
 
-
 $$
 
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
 
 $$
-
 
 
 where $\mathbf{L}$ is the angular momentum, $\mathbf{r}$ is the position vector from the origin, and $\mathbf{p}$ is the linear momentum.
@@ -26632,7 +25721,6 @@ Similar to linear momentum, the SI unit for angular momentum is kilogram meter s
 The time-derivative of angular momentum can be expressed as:
 
 
-
 $$
 
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \frac{d\mathbf{p}}{dt} + \frac{d\mathbf{r}}{dt} \times \mathbf{p}
@@ -26640,9 +25728,7 @@ $$
 $$
 
 
-
 Using the definition of force $\mathbf{F} = \frac{d\mathbf{p}}{dt}$ and velocity $\frac{d\mathbf{r}}{dt} = \mathbf{v}$, we can simplify this expression to:
-
 
 
 $$
@@ -26652,9 +25738,7 @@ $$
 $$
 
 
-
 The second term in this expression, $\mathbf{v} \times \mathbf{p}$, is always zero because velocity and momentum are parallel. Therefore, we can rewrite the time-derivative of angular momentum as:
-
 
 
 $$
@@ -26664,7 +25748,6 @@ $$
 $$
 
 
-
 This result shows that the torque $\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$ is equal to the first derivative of angular momentum with respect to time.
 
 
@@ -26672,13 +25755,11 @@ This result shows that the torque $\boldsymbol{\tau} = \mathbf{r} \times \mathbf
 In the case of multiple forces acting on a particle, Newton's second law can be expressed as $\mathbf{F}_{net} = m\mathbf{a}$. Substituting this into the equation for the time-derivative of angular momentum, we get:
 
 
-
 $$
 
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F}_{net} = \boldsymbol{\tau}_{net}
 
 $$
-
 
 
 This is a general proof for point particles. To extend this proof to systems of particles, we can apply it to each individual particle and then sum over all the particles. Similarly, for a continuous mass, we can apply the proof to each point within the mass and then integrate over the entire mass.
@@ -26714,13 +25795,11 @@ In the previous section, we discussed the concept of linear momentum and its imp
 Angular momentum is a vector quantity that describes the rotational motion of an object. It is defined as the cross product of the position vector and the linear momentum of the object. In mathematical terms, we can express angular momentum as:
 
 
-
 $$
 
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
 
 $$
-
 
 
 where $\mathbf{L}$ is the angular momentum, $\mathbf{r}$ is the position vector from the origin, and $\mathbf{p}$ is the linear momentum.
@@ -26734,7 +25813,6 @@ Similar to linear momentum, the SI unit for angular momentum is kilogram meter s
 The time-derivative of angular momentum can be expressed as:
 
 
-
 $$
 
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \frac{d\mathbf{p}}{dt} + \frac{d\mathbf{r}}{dt} \times \mathbf{p}
@@ -26742,9 +25820,7 @@ $$
 $$
 
 
-
 Using the definition of force $\mathbf{F} = \frac{d\mathbf{p}}{dt}$ and velocity $\frac{d\mathbf{r}}{dt} = \mathbf{v}$, we can simplify this expression to:
-
 
 
 $$
@@ -26754,9 +25830,7 @@ $$
 $$
 
 
-
 The second term in this expression, $\mathbf{v} \times \mathbf{p}$, is always zero because velocity and momentum are parallel. Therefore, we can rewrite the time-derivative of angular momentum as:
-
 
 
 $$
@@ -26764,7 +25838,6 @@ $$
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F}
 
 $$
-
 
 
 This result shows that the torque $\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$ is equal to the first derivative of angular momentum with respect to time.
@@ -26782,7 +25855,6 @@ In this section, we will explore the conservation of angular momentum in systems
 The conservation of angular momentum can be derived from the laws of motion and the definition of angular momentum. Consider a system of particles with individual angular momenta $\mathbf{L}_1, \mathbf{L}_2, ..., \mathbf{L}_n$. The total angular momentum of the system is given by the vector sum of these individual angular momenta:
 
 
-
 $$
 
 \mathbf{L}_{total} = \mathbf{L}_1 + \mathbf{L}_2 + ... + \mathbf{L}_n
@@ -26790,9 +25862,7 @@ $$
 $$
 
 
-
 Using the definition of angular momentum, we can express the time-derivative of the total angular momentum as:
-
 
 
 $$
@@ -26802,9 +25872,7 @@ $$
 $$
 
 
-
 Applying Newton's second law of motion, we can rewrite this expression as:
-
 
 
 $$
@@ -26812,7 +25880,6 @@ $$
 \frac{d\mathbf{L}_{total}}{dt} = \mathbf{r}_1 \times \mathbf{F}_1 + \mathbf{r}_2 \times \mathbf{F}_2 + ... + \mathbf{r}_n \times \mathbf{F}_n
 
 $$
-
 
 
 Since the external forces acting on the system are equal and opposite, the vector sum of these forces is zero. Therefore, the time-derivative of the total angular momentum is also zero, indicating that the total angular momentum of the system remains constant.
@@ -26852,13 +25919,11 @@ In the previous section, we discussed the concept of linear momentum and its imp
 Angular momentum is a vector quantity that describes the rotational motion of an object. It is defined as the cross product of the position vector and the linear momentum of the object. In mathematical terms, we can express angular momentum as:
 
 
-
 $$
 
 \mathbf{L} = \mathbf{r} \times \mathbf{p}
 
 $$
-
 
 
 where $\mathbf{L}$ is the angular momentum, $\mathbf{r}$ is the position vector from the origin, and $\mathbf{p}$ is the linear momentum.
@@ -26872,7 +25937,6 @@ Similar to linear momentum, the SI unit for angular momentum is kilogram meter s
 The time-derivative of angular momentum can be expressed as:
 
 
-
 $$
 
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \frac{d\mathbf{p}}{dt} + \frac{d\mathbf{r}}{dt} \times \mathbf{p}
@@ -26880,9 +25944,7 @@ $$
 $$
 
 
-
 Using the definition of force $\mathbf{F} = \frac{d\mathbf{p}}{dt}$ and velocity $\frac{d\mathbf{r}}{dt} = \mathbf{v}$, we can simplify this expression to:
-
 
 
 $$
@@ -26892,9 +25954,7 @@ $$
 $$
 
 
-
 The second term in this expression, $\mathbf{v} \times \mathbf{p}$, is always zero because velocity and momentum are parallel. Therefore, we can rewrite the time-derivative of angular momentum as:
-
 
 
 $$
@@ -26902,7 +25962,6 @@ $$
 \frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F}
 
 $$
-
 
 
 This result shows that the torque $\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$ is equal to the first derivative of angular momentum with respect to time.
@@ -26952,7 +26011,6 @@ In the previous section, we discussed the computation of the basis matrix using 
 Using this representation, we can compute the basis matrix as:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -26966,7 +26024,6 @@ y\sin \theta - x_z(1-\cos \theta) & xz(1-\cos \theta) + x\sin \theta & \cos \the
 \end{bmatrix}
 
 $$
-
 
 
 This method is particularly useful in computer graphics and animation, where it is used to rotate objects in three-dimensional space.
@@ -26984,13 +26041,11 @@ In the previous section, we discussed the rotation of a vector around a rotation
 To rotate a vector $\mathbf{v} = (X, Y, Z)$ around a rotation vector $\mathbf{Q} = (X, Y, Z)$, we can use the following formula:
 
 
-
 $$
 
 \mathbf{v}' = \cos \theta \mathbf{v} + (1-\cos \theta)(\mathbf{Q} \cdot \mathbf{v})\mathbf{Q} + \sin \theta (\mathbf{Q} \times \mathbf{v})
 
 $$
-
 
 
 where $\theta = \|\mathbf{Q}\|$ is the angle of rotation.
@@ -27034,13 +26089,11 @@ To understand the conservation of momentum, let us consider a system of particle
 Mathematically, we can express this principle as:
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^n \frac{d\mathbf{p}_i}{dt} = \sum_{i=1}^n \mathbf{F}_i = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{F}_{ext}$ is the sum of all external forces acting on the system.
@@ -27050,13 +26103,11 @@ where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{
 This principle can also be applied to systems with continuous distributions of mass, such as fluids. In such cases, the conservation of momentum is expressed using the Cauchy momentum equation, which states that the change in momentum of a fluid element is equal to the sum of the external forces acting on it.
 
 
-
 $$
 
 \frac{d\mathbf{p}}{dt} = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ is the sum of all external forces acting on it.
@@ -27066,7 +26117,6 @@ where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ i
 The Cauchy momentum equation can be derived from the generalized momentum conservation principle, which states that the change in system momentum is proportional to the resulting force acting on the system. This can be expressed mathematically as:
 
 
-
 $$
 
 \mathbf{p}(t+\Delta t) - \mathbf{p}(t) = \Delta t \mathbf{\bar{F}}
@@ -27074,9 +26124,7 @@ $$
 $$
 
 
-
 where $\mathbf{p}(t)$ is the momentum at time $t$, $\mathbf{\bar{F}}$ is the force averaged over a time interval $\Delta t$. Dividing by $\Delta t$ and taking the limit as $\Delta t \to 0$, we get the derivative form of the equation:
-
 
 
 $$
@@ -27084,7 +26132,6 @@ $$
 \frac{d\mathbf{p}}{dt} = \mathbf{F}
 
 $$
-
 
 
 This equation is the same as the Cauchy momentum equation, and it shows that the change in momentum of a system is equal to the net force acting on it.
@@ -27128,13 +26175,11 @@ To understand the conservation of momentum, let us consider a system of particle
 Mathematically, we can express this principle as:
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^n \frac{d\mathbf{p}_i}{dt} = \sum_{i=1}^n \mathbf{F}_i = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{F}_{ext}$ is the sum of all external forces acting on the system.
@@ -27144,13 +26189,11 @@ where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{
 This principle can also be applied to systems with continuous distributions of mass, such as fluids. In such cases, the conservation of momentum is expressed using the Cauchy momentum equation, which states that the change in momentum of a fluid element is equal to the sum of the external forces acting on it.
 
 
-
 $$
 
 \frac{d\mathbf{p}}{dt} = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ is the sum of all external forces acting on it.
@@ -27160,13 +26203,11 @@ where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ i
 The Cauchy momentum equation can be derived from the generalized momentum balance equation, which states that the rate of change of momentum of a system is equal to the sum of all external forces acting on it.
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^n \frac{d\mathbf{p}_i}{dt} = \sum_{i=1}^n \mathbf{F}_i = \mathbf{F}_{ext}
 
 $$
-
 
 
 This equation is a fundamental tool in analyzing the dynamics of systems of particles and is often used in conjunction with other conservation laws, such as the conservation of energy and angular momentum, to solve complex problems in mechanics and engineering.
@@ -27184,13 +26225,11 @@ The impulse-momentum theorem is a useful tool for analyzing the motion of partic
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \Delta \mathbf{p} = \int_{t_1}^{t_2} \mathbf{F}(t) dt = \mathbf{J}
 
 $$
-
 
 
 where $\Delta \mathbf{p}$ is the change in momentum, $\mathbf{F}(t)$ is the force applied over a period of time, and $\mathbf{J}$ is the impulse applied.
@@ -27238,13 +26277,11 @@ To understand the conservation of momentum, let us consider a system of particle
 Mathematically, we can express this principle as:
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^n \frac{d\mathbf{p}_i}{dt} = \sum_{i=1}^n \mathbf{F}_i = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{F}_{ext}$ is the sum of all external forces acting on the system.
@@ -27254,13 +26291,11 @@ where $\mathbf{F}_i$ is the net force acting on the $i$th particle and $\mathbf{
 This principle can also be applied to systems with continuous distributions of mass, such as fluids. In such cases, the conservation of momentum is expressed using the Cauchy momentum equation, which states that the change in momentum of a fluid element is equal to the sum of the external forces acting on it.
 
 
-
 $$
 
 \frac{d\mathbf{p}}{dt} = \mathbf{F}_{ext}
 
 $$
-
 
 
 where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ is the sum of all external forces acting on it.
@@ -27270,13 +26305,11 @@ where $\mathbf{p}$ is the momentum of the fluid element and $\mathbf{F}_{ext}$ i
 The Cauchy momentum equation can be derived from the generalized momentum balance equation, which states that the rate of change of momentum of a system is equal to the sum of all external forces acting on it.
 
 
-
 $$
 
 \frac{d\mathbf{P}}{dt} = \sum_{i=1}^n \frac{d\mathbf{p}_i}{dt} = \sum_{i=1}^n \mathbf{F}_i = \mathbf{F}_{ext}
 
 $$
-
 
 
 This equation is a fundamental tool in analyzing the dynamics of systems of particles and is used extensively in various fields such as mechanics, fluid dynamics, and thermodynamics.
@@ -27352,7 +26385,6 @@ To understand the relationship between impact and impulse, let us consider a sim
 Mathematically, we can express this relationship as:
 
 
-
 $$
 
 \text{Impulse} = \text{Force} \times \text{Time}
@@ -27360,9 +26392,7 @@ $$
 $$
 
 
-
 In the case of the ball hitting the surface, the impulse is equal to the change in momentum of the ball. This change in momentum is equal to the initial momentum of the ball before it hits the surface, minus the final momentum of the ball after it bounces back up.
-
 
 
 $$
@@ -27372,9 +26402,7 @@ $$
 $$
 
 
-
 This relationship can also be expressed using the conservation of momentum principle, as we saw in the previous section. The impulse delivered by a force acting on a body is equal to the change in momentum of the body, which is equal to the net external force acting on the body.
-
 
 
 $$
@@ -27384,9 +26412,7 @@ $$
 $$
 
 
-
 In the case of a varying force, the impulse can be calculated by taking the integral of the force with respect to time. This is known as the impulse-momentum theorem and is expressed as:
-
 
 
 $$
@@ -27394,7 +26420,6 @@ $$
 \text{Impulse} = \int \text{Force} \, \mathrm{d}t
 
 $$
-
 
 
 The SI unit of impulse is the newton second (N⋅s), and the dimensionally equivalent unit of momentum is the kilogram metre per second (kg⋅m/s). The corresponding English engineering unit is the pound-second (lbf⋅s), and in the British Gravitational System, the unit is the slug-foot per second (slug⋅ft/s).
@@ -27438,7 +26463,6 @@ To understand the relationship between impact and impulse, let us consider a sim
 Mathematically, we can express this relationship as:
 
 
-
 $$
 
 \text{Impulse} = \text{Force} \times \text{Time}
@@ -27446,9 +26470,7 @@ $$
 $$
 
 
-
 In the case of the ball hitting the surface, the impulse is equal to the change in momentum of the ball. This change in momentum is equal to the initial momentum of the ball before it hits the surface, minus the final momentum of the ball after it bounces back up.
-
 
 
 $$
@@ -27458,9 +26480,7 @@ $$
 $$
 
 
-
 This relationship can also be expressed using the conservation of momentum principle, as we saw in the previous section. The impulse delivered by a force acting on a body is equal to the change in momentum of the body, which is equal to the net external force acting on the body.
-
 
 
 $$
@@ -27468,7 +26488,6 @@ $$
 \text{Impulse} = \text{Change in Momentum} = \text{Net External Force}
 
 $$
-
 
 
 In the case of a varying force, the impulse can be calculated by integrating the force over time. This is known as the impulse-momentum principle, which states that the impulse delivered by a force is equal to the change in momentum of the body.
@@ -27528,7 +26547,6 @@ To understand the relationship between impact and impulse, let us consider a sim
 Mathematically, we can express this relationship as:
 
 
-
 $$
 
 \text{Impulse} = \text{Force} \times \text{Time}
@@ -27536,9 +26554,7 @@ $$
 $$
 
 
-
 In the case of the ball hitting the surface, the impulse is equal to the change in momentum of the ball. This change in momentum is equal to the initial momentum of the ball before it hits the surface, minus the final momentum of the ball after it bounces back up.
-
 
 
 $$
@@ -27548,9 +26564,7 @@ $$
 $$
 
 
-
 This relationship can also be expressed using the conservation of momentum principle, as we saw in the previous section. The impulse delivered by a force acting on a body is equal to the change in momentum of the body, which is equal to the net external force acting on the body.
-
 
 
 $$
@@ -27560,9 +26574,7 @@ $$
 $$
 
 
-
 In the case of a varying force, the impulse can be calculated by integrating the force over time. This is known as the impulse-momentum theorem and is expressed as:
-
 
 
 $$
@@ -27570,7 +26582,6 @@ $$
 \text{Impulse} = \int_{t_1}^{t_2} F(t) dt = \Delta p
 
 $$
-
 
 
 where $t_1$ and $t_2$ are the initial and final times, respectively, and $F(t)$ is the varying force acting on the body.
@@ -27584,13 +26595,11 @@ where $t_1$ and $t_2$ are the initial and final times, respectively, and $F(t)$ 
 In impact problems, the conservation of momentum principle still holds true. However, the impact itself introduces an additional impulse that must be taken into account. This impulse is known as the impulse of restitution and is defined as the ratio of the relative velocity of separation to the relative velocity of approach.
 
 
-
 $$
 
 e = \frac{v_{sep}}{v_{app}}
 
 $$
-
 
 
 where $e$ is the coefficient of restitution, $v_{sep}$ is the relative velocity of separation, and $v_{app}$ is the relative velocity of approach.
@@ -27600,13 +26609,11 @@ where $e$ is the coefficient of restitution, $v_{sep}$ is the relative velocity 
 In order to apply the conservation of momentum principle in impact problems, we must consider the impulse of restitution in addition to the external forces acting on the bodies involved in the impact. This can be expressed as:
 
 
-
 $$
 
 m_1v_{1i} + m_2v_{2i} = m_1v_{1f} + m_2v_{2f} + J
 
 $$
-
 
 
 where $m_1$ and $m_2$ are the masses of the two bodies, $v_{1i}$ and $v_{2i}$ are their initial velocities, $v_{1f}$ and $v_{2f}$ are their final velocities, and $J$ is the impulse of restitution.
@@ -27662,13 +26669,11 @@ A rigid body is a system of particles that are rigidly connected to each other, 
 Let the rigid body be composed of particles P<sub>i</sub>, located at coordinates r<sub>i</sub> and velocities v<sub>i</sub>. The relative position and velocity vectors of these particles can be expressed as:
 
 
-
 $$
 
 \mathbf{r}_i = (\mathbf{r}_i - \mathbf{R}) + \mathbf{R}, \quad \mathbf{v}_i = \omega\times(\mathbf{r}_i - \mathbf{R}) + \mathbf{V}
 
 $$
-
 
 
 where ω is the angular velocity of the rigid body and R is the reference point.
@@ -27678,7 +26683,6 @@ where ω is the angular velocity of the rigid body and R is the reference point.
 The total linear momentum of the rigid body relative to the reference point R is then given by:
 
 
-
 $$
 
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
@@ -27686,9 +26690,7 @@ $$
 $$
 
 
-
 If we choose the center of mass of the rigid body as the reference point R, these equations simplify to:
-
 
 
 $$
@@ -27696,7 +26698,6 @@ $$
 \mathbf{p} = M\mathbf{V}
 
 $$
-
 
 
 where M is the total mass of the rigid body.
@@ -27710,7 +26711,6 @@ where M is the total mass of the rigid body.
 Similar to the linear momentum, the angular momentum of a rigid body can also be formulated by measuring the position and velocity of the particles relative to a reference point R. The angular momentum of the rigid body relative to the reference point R is given by:
 
 
-
 $$
 
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right) + \left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) \times \mathbf{V}
@@ -27718,9 +26718,7 @@ $$
 $$
 
 
-
 If we choose the center of mass of the rigid body as the reference point R, these equations simplify to:
-
 
 
 $$
@@ -27730,13 +26728,11 @@ $$
 $$
 
 
-
 #### 2.5c: Specialization to a Rigid Body
 
 
 
 To specialize these equations to a rigid body, we assume that the particles are rigidly connected to each other, meaning that their relative positions and orientations do not change. This allows us to express the position and velocity of the particles as:
-
 
 
 $$
@@ -27746,7 +26742,6 @@ $$
 $$
 
 
-
 where ω is the angular velocity of the rigid body and R is the reference point.
 
 
@@ -27754,13 +26749,11 @@ where ω is the angular velocity of the rigid body and R is the reference point.
 Using these expressions, we can simplify the equations for linear and angular momentum to:
 
 
-
 $$
 
 \mathbf{p} = \left(\sum_{i=1}^n m_i\right) \mathbf{V},\quad \mathbf{L} = \sum_{i=1}^n m_i(\mathbf{r}_i-\mathbf{R})\times \frac{d}{dt}\left(\mathbf{r}_i-\mathbf{R}\right)
 
 $$
-
 
 
 These equations show that the linear momentum of a rigid body is equal to the total mass of the body multiplied by its velocity, while the angular momentum is equal to the sum of the individual particles' angular momenta about the reference point R.
@@ -27800,13 +26793,11 @@ A rigid body is a system of particles that are rigidly connected to each other, 
 Let the rigid body be composed of particles P<sub>i</sub>, located at coordinates r<sub>i</sub> and velocities v<sub>i</sub>. The relative position and velocity vectors of these particles can be expressed as:
 
 
-
 $$
 
 \mathbf{r}_i = (\mathbf{r}_i - \mathbf{R}) + \mathbf{R}, \quad \mathbf{v}_i = \omega\times(\mathbf{r}_i - \mathbf{R}) + \mathbf{V}
 
 $$
-
 
 
 where ω is the angular velocity of the rigid body and R is the reference point.
@@ -27816,7 +26807,6 @@ where ω is the angular velocity of the rigid body and R is the reference point.
 The total linear momentum of the rigid body relative to the reference point R is then given by:
 
 
-
 $$
 
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
@@ -27824,9 +26814,7 @@ $$
 $$
 
 
-
 If we choose the center of mass of the rigid body as the reference point R, these equations simplify to:
-
 
 
 $$
@@ -27834,7 +26822,6 @@ $$
 \mathbf{p} = M\mathbf{V}
 
 $$
-
 
 
 where M is the total mass of the rigid body.
@@ -27848,7 +26835,6 @@ where M is the total mass of the rigid body.
 Similar to the linear momentum, the angular momentum of a rigid body can also be formulated by measuring the position and velocity of the particles relative to a reference point R. The angular momentum of the rigid body relative to the reference point R is given by:
 
 
-
 $$
 
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right) + \left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) \times \mathbf{V}
@@ -27856,9 +26842,7 @@ $$
 $$
 
 
-
 If we choose the center of mass of the rigid body as the reference point R, this equation simplifies to:
-
 
 
 $$
@@ -27868,9 +26852,7 @@ $$
 $$
 
 
-
 which can also be written as:
-
 
 
 $$
@@ -27878,7 +26860,6 @@ $$
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \mathbf{v}_i
 
 $$
-
 
 
 where $\mathbf{v}_i$ is the velocity of the particle P<sub>i</sub> relative to the center of mass.
@@ -27922,13 +26903,11 @@ A rigid body is a system of particles that are rigidly connected to each other, 
 Let the rigid body be composed of particles P<sub>i</sub>, located at coordinates r<sub>i</sub> and velocities v<sub>i</sub>. The relative position and velocity vectors of these particles can be expressed as:
 
 
-
 $$
 
 \mathbf{r}_i = (\mathbf{r}_i - \mathbf{R}) + \mathbf{R}, \quad \mathbf{v}_i = \omega\times(\mathbf{r}_i - \mathbf{R}) + \mathbf{V}
 
 $$
-
 
 
 where ω is the angular velocity of the rigid body and R is the reference point.
@@ -27938,7 +26917,6 @@ where ω is the angular velocity of the rigid body and R is the reference point.
 The total linear momentum of the rigid body relative to the reference point R is then given by:
 
 
-
 $$
 
 \mathbf{p} = \frac{d}{dt}\left(\sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right)\right) + \left(\sum_{i=1}^n m_i\right) \mathbf{V}
@@ -27946,9 +26924,7 @@ $$
 $$
 
 
-
 If we choose the center of mass of the rigid body as the reference point R, these equations simplify to:
-
 
 
 $$
@@ -27956,7 +26932,6 @@ $$
 \mathbf{p} = M\mathbf{V}
 
 $$
-
 
 
 where M is the total mass of the rigid body. This equation shows that the linear momentum of a rigid body is equal to the product of its total mass and the velocity of its center of mass.
@@ -27970,25 +26945,21 @@ where M is the total mass of the rigid body. This equation shows that the linear
 Similar to the linear momentum, the angular momentum of a rigid body can also be formulated by measuring the position and velocity of the particles relative to a reference point R. The angular momentum of the rigid body relative to the reference point R is given by:
 
 
-
 $$
 
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right) + \mathbf{R} \times \left(\sum_{i=1}^n m_i \mathbf{v}_i\right)
 
 $$
-
 
 
 Using the same simplification as before, where R is the center of mass, this equation becomes:
 
 
-
 $$
 
 \mathbf{L} = \sum_{i=1}^n m_i \left(\mathbf{r}_i - \mathbf{R}\right) \times \frac{d}{dt}\left(\mathbf{r}_i - \mathbf{R}\right) + \mathbf{R} \times \left(\sum_{i=1}^n m_i \mathbf{v}_i\right)
 
 $$
-
 
 
 This equation shows that the angular momentum of a rigid body is equal to the sum of the angular momentum of each particle about the center of mass, plus the angular momentum of the center of mass itself. This concept is important in understanding the rotational motion of rigid bodies.
@@ -28500,7 +27471,6 @@ To apply this principle, we use the Euler-Lagrange equations, which are the fund
 The Euler-Lagrange equations are derived from the principle of least action. Let us consider a system with generalized coordinates q("t") and a Lagrangian L(q("t"), q'("t"), t). The action S is defined as the integral of the Lagrangian over time:
 
 
-
 $$
 
 S = \int_{t_1}^{t_2} L(q("t"), q'("t"), t) dt
@@ -28508,9 +27478,7 @@ S = \int_{t_1}^{t_2} L(q("t"), q'("t"), t) dt
 $$
 
 
-
 To find the path that minimizes the action, we set the variation of the action to zero:
-
 
 
 $$
@@ -28520,9 +27488,7 @@ $$
 $$
 
 
-
 Using the chain rule, we can rewrite this as:
-
 
 
 $$
@@ -28532,9 +27498,7 @@ $$
 $$
 
 
-
 Integrating by parts and assuming that the variations of q("t") and q'("t") vanish at the endpoints, we get:
-
 
 
 $$
@@ -28544,9 +27508,7 @@ $$
 $$
 
 
-
 Since this must hold for any variation of q("t"), we can conclude that the integrand must be equal to zero:
-
 
 
 $$
@@ -28554,7 +27516,6 @@ $$
 \frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial q'} = 0
 
 $$
-
 
 
 These are the Euler-Lagrange equations, which are the fundamental equations of variational calculus. They allow us to find the equations of motion for a system by minimizing the action.
@@ -28660,7 +27621,6 @@ One of the key advantages of Hamilton's Principle is that it allows us to derive
 To apply Hamilton's Principle, we first define the action functional <math>S</math> as the integral of the Lagrangian <math>L</math> over a certain time interval <math>t_1</math> to <math>t_2</math>:
 
 
-
 $$
 
 S = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
@@ -28668,9 +27628,7 @@ S = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
 $$
 
 
-
 where <math>q</math> represents the generalized coordinates and <math>\dot{q}</math> represents the corresponding velocities. The principle states that the path taken by the system is the one that makes the action stationary, meaning that the variation of the action with respect to the path is equal to zero:
-
 
 
 $$
@@ -28680,9 +27638,7 @@ $$
 $$
 
 
-
 This leads to the famous Hamilton's equations of motion:
-
 
 
 $$
@@ -28691,14 +27647,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial L}{\partial t} = -\frac{\partial H}{\partial t}
 
 $$
-
 
 
 where <math>H</math> is the Hamiltonian, defined as <math>H = \dot{q}\frac{\partial L}{\partial \dot{q}} - L</math>. These equations are equivalent to the Lagrange equations of motion, but they provide a different perspective on the dynamics of a system.
@@ -28750,7 +27703,6 @@ One of the key advantages of Hamilton's Principle is that it allows us to derive
 To apply Hamilton's Principle, we first define the action functional <math>S[q(t)]</math> as the integral of the Lagrangian <math>L(q,\dot{q},t)</math> over time:
 
 
-
 $$
 
 S[q(t)] = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
@@ -28758,9 +27710,7 @@ S[q(t)] = \int_{t_1}^{t_2} L(q,\dot{q},t) dt
 $$
 
 
-
 where <math>t_1</math> and <math>t_2</math> are the initial and final times, respectively. The path taken by the system is then determined by finding the stationary point of the action functional, which satisfies the following condition:
-
 
 
 $$
@@ -28770,9 +27720,7 @@ $$
 $$
 
 
-
 This condition leads to the famous Hamilton's equations of motion:
-
 
 
 $$
@@ -28781,14 +27729,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial L}{\partial \dot{q}} = p
 
 $$
-
 
 
 where <math>p</math> is the generalized momentum. These equations describe the evolution of the system over time and can be solved to determine the path taken by the system.
@@ -28802,7 +27747,6 @@ where <math>p</math> is the generalized momentum. These equations describe the e
 Hamilton's Principle has many applications in Lagrangian mechanics, particularly in systems with constraints. The Lagrangian can be varied in the generalized coordinates <math>q_k</math> for <math>N</math> particles:
 
 
-
 $$
 
 \int_{t_1}^{t_2} \sum_{k=1}^N \left(\frac{\partial L}{\partial q_k} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_k} \right)\cdot\delta q_k \, dt = 0
@@ -28810,9 +27754,7 @@ $$
 $$
 
 
-
 However, if the coordinates <math>q_k</math> are not independent due to constraints, the method of Lagrange multipliers can be used to include these constraints in the Lagrangian. This results in a new Lagrangian <math>L'(q,\dot{q},t)</math> that includes the constraints as additional terms:
-
 
 
 $$
@@ -28820,7 +27762,6 @@ $$
 L'(q,\dot{q},t) = L(q,\dot{q},t) + \sum_{i=1}^C \lambda_i f_i(q,t)
 
 $$
-
 
 
 where <math>f_i(q,t)</math> are the constraint equations and <math>\lambda_i</math> are the Lagrange multipliers. The equations of motion can then be derived using Hamilton's Principle with this new Lagrangian.
@@ -28968,13 +27909,11 @@ One of the key advantages of Lagrange's equations is that they allow us to deriv
 To apply Lagrange's equations, we first need to define the Lagrangian for our system. This can be done by considering the kinetic and potential energies of the system, as well as any external forces acting on it. The Lagrangian is then given by the difference between the kinetic and potential energies:
 
 
-
 $$
 
 L = T - V
 
 $$
-
 
 
 where T is the kinetic energy and V is the potential energy. The Lagrangian is a function of the generalized coordinates q("t") and their derivatives, q'("t"). Once we have the Lagrangian, we can use the principle of least action to derive the equations of motion for the system.
@@ -28988,7 +27927,6 @@ where T is the kinetic energy and V is the potential energy. The Lagrangian is a
 To derive Lagrange's equations, we start by considering the action, S, of a system over a small time interval, dt:
 
 
-
 $$
 
 S = \int_{t_1}^{t_2} L(q, q', t) dt
@@ -28996,9 +27934,7 @@ S = \int_{t_1}^{t_2} L(q, q', t) dt
 $$
 
 
-
 where q and q' are the generalized coordinates and their derivatives, and t is time. The action is a functional, which takes in a function (in this case, the Lagrangian) and returns a scalar value. The principle of least action states that the path taken by the system is the one that minimizes the action. This leads to the following condition:
-
 
 
 $$
@@ -29008,9 +27944,7 @@ $$
 $$
 
 
-
 where δ represents a small variation in the action. We can expand this variation using the chain rule:
-
 
 
 $$
@@ -29020,9 +27954,7 @@ $$
 $$
 
 
-
 Using the Euler-Lagrange equation, we can simplify this expression to:
-
 
 
 $$
@@ -29032,9 +27964,7 @@ $$
 $$
 
 
-
 Since δq is arbitrary, the integrand must be equal to zero. This leads to the following set of equations, known as Lagrange's equations:
-
 
 
 $$
@@ -29042,7 +27972,6 @@ $$
 \frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial q'} = 0
 
 $$
-
 
 
 These equations are equivalent to Newton's equations of motion, but are often easier to solve due to the use of generalized coordinates. They also have the advantage of being applicable to both conservative and non-conservative systems.
@@ -29144,13 +28073,11 @@ One of the key advantages of D'Alembert's Principle is that it allows us to anal
 To apply D'Alembert's Principle, we first need to define the virtual work done by the applied forces on the system. This is given by the integral of the dot product of the virtual displacements and the applied forces over the entire system. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \delta W = \int_{t_1}^{t_2} \sum_{i=1}^{N} \mathbf{F}_i \cdot \delta \mathbf{r}_i \, dt
 
 $$
-
 
 
 where <math>\mathbf{F}_i</math> is the applied force on the <math>i</math>-th particle and <math>\delta \mathbf{r}_i</math> is the virtual displacement of the <math>i</math>-th particle.
@@ -29160,13 +28087,11 @@ where <math>\mathbf{F}_i</math> is the applied force on the <math>i</math>-th pa
 Next, we need to define the change in kinetic energy of the system. This is given by the difference between the kinetic energy at time <math>t_2</math> and time <math>t_1</math>. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \Delta T = T(t_2) - T(t_1) = \frac{1}{2} \sum_{i=1}^{N} m_i \left( \mathbf{v}_i(t_2)^2 - \mathbf{v}_i(t_1)^2 \right)
 
 $$
-
 
 
 where <math>m_i</math> is the mass of the <math>i</math>-th particle and <math>\mathbf{v}_i</math> is its velocity.
@@ -29176,7 +28101,6 @@ where <math>m_i</math> is the mass of the <math>i</math>-th particle and <math>\
 Now, using the principle of virtual work, we can equate the two expressions and obtain D'Alembert's Principle:
 
 
-
 $$
 
 \int_{t_1}^{t_2} \sum_{i=1}^{N} \mathbf{F}_i \cdot \delta \mathbf{r}_i \, dt = \frac{1}{2} \sum_{i=1}^{N} m_i \left( \mathbf{v}_i(t_2)^2 - \mathbf{v}_i(t_1)^2 \right)
@@ -29184,9 +28108,7 @@ $$
 $$
 
 
-
 This principle can be extended to systems with constraints, where the virtual work done by the constraint forces must also be taken into account. In such cases, the principle becomes:
-
 
 
 $$
@@ -29194,7 +28116,6 @@ $$
 \int_{t_1}^{t_2} \sum_{i=1}^{N} \mathbf{F}_i \cdot \delta \mathbf{r}_i \, dt + \int_{t_1}^{t_2} \sum_{j=1}^{m} \mathbf{C}_j \cdot \delta \mathbf{r}_j \, dt = \frac{1}{2} \sum_{i=1}^{N} m_i \left( \mathbf{v}_i(t_2)^2 - \mathbf{v}_i(t_1)^2 \right)
 
 $$
-
 
 
 where <math>m</math> is the number of constraints and <math>\mathbf{C}_j</math> is the constraint force on the <math>j</math>-th constraint.
@@ -29242,13 +28163,11 @@ One of the key advantages of D'Alembert's Principle is that it allows us to anal
 To apply D'Alembert's Principle, we first need to define the virtual work done by the applied forces on the system. This is given by the integral of the dot product of the virtual displacements and the applied forces over the entire system. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \delta W = \int_{t_1}^{t_2} \delta \mathbf{r} \cdot \mathbf{F} dt
 
 $$
-
 
 
 where <math>\delta \mathbf{r}</math> is the virtual displacement and <math>\mathbf{F}</math> is the applied force. This integral is taken over the time interval <math>[t_1, t_2]</math>, which represents the virtual displacement of the system.
@@ -29258,13 +28177,11 @@ where <math>\delta \mathbf{r}</math> is the virtual displacement and <math>\math
 Next, we need to consider the change in kinetic energy of the system. This is given by the difference between the kinetic energy at time <math>t_1</math> and <math>t_2</math>, which can be expressed as:
 
 
-
 $$
 
 \Delta T = T(t_2) - T(t_1)
 
 $$
-
 
 
 where <math>T</math> is the kinetic energy of the system.
@@ -29274,7 +28191,6 @@ where <math>T</math> is the kinetic energy of the system.
 D'Alembert's Principle states that the virtual work done by the applied forces is equal to the change in kinetic energy, or:
 
 
-
 $$
 
 \delta W = \Delta T
@@ -29282,9 +28198,7 @@ $$
 $$
 
 
-
 This leads to the following set of equations:
-
 
 
 $$
@@ -29292,7 +28206,6 @@ $$
 \int_{t_1}^{t_2} \delta \mathbf{r} \cdot \mathbf{F} dt = T(t_2) - T(t_1)
 
 $$
-
 
 
 These equations are equivalent to Newton's equations of motion, but are often easier to solve due to the use of generalized coordinates. Additionally, D'Alembert's Principle can be extended to non-conservative systems by including the work done by non-conservative forces in the virtual work term.
@@ -29382,7 +28295,6 @@ One of the key advantages of the Variational Formulation for Rigid Bodies is tha
 To apply the Variational Formulation for Rigid Bodies, we first need to define the virtual work done by the applied forces on the rigid body. This is given by the integral of the dot product between the applied forces and the virtual displacements of the body. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \delta W = \int_{t_1}^{t_2} \delta \mathbf{F} \cdot \mathbf{v} dt
@@ -29390,9 +28302,7 @@ $$
 $$
 
 
-
 where <math>\delta \mathbf{F}</math> is the virtual force and <math>\mathbf{v}</math> is the virtual displacement. This virtual work is then equated to the change in kinetic energy of the rigid body, which is given by:
-
 
 
 $$
@@ -29400,7 +28310,6 @@ $$
 \delta T = \int_{t_1}^{t_2} \delta \mathbf{v} \cdot \mathbf{F} dt
 
 $$
-
 
 
 By applying the principle of virtual work, we can derive the equations of motion for a rigid body in terms of the generalized coordinates. This allows us to solve for the motion of the rigid body without explicitly solving for the equations of motion, making it a powerful tool for analyzing complex systems.
@@ -29448,13 +28357,11 @@ One of the key advantages of the Variational Formulation for Rigid Bodies is tha
 To apply the Variational Formulation for Rigid Bodies, we first need to define the virtual work done by the applied forces on the rigid body. This is given by the integral of the dot product of the applied forces and the virtual displacements of the generalized coordinates. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \delta W = \int_{t_1}^{t_2} \sum_{i=1}^{n} \mathbf{F}_i \cdot \delta \mathbf{r}_i \ dt
 
 $$
-
 
 
 where $\mathbf{F}_i$ is the applied force on the $i$th particle and $\delta \mathbf{r}_i$ is the virtual displacement of the $i$th particle.
@@ -29464,13 +28371,11 @@ where $\mathbf{F}_i$ is the applied force on the $i$th particle and $\delta \mat
 Using this definition, we can then apply the principle of virtual work to derive the equations of motion for a rigid body. This involves taking the variation of the functional, which leads to a set of equations known as the Euler-Lagrange equations. These equations are given by:
 
 
-
 $$
 
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_j} \right) - \frac{\partial L}{\partial q_j} = Q_j
 
 $$
-
 
 
 where $L$ is the Lagrangian of the system, $\dot{q}_j$ is the time derivative of the generalized coordinate $q_j$, and $Q_j$ is the generalized force acting on the $j$th coordinate.
@@ -29580,21 +28485,17 @@ In this subsection, we will work through some example problems to demonstrate th
 To begin, let us consider a system of two particles connected by a spring. The particles have masses $m_1$ and $m_2$, and the spring has a spring constant $k$. The system is subject to a conservative force $F(q)$, where $q$ is the distance between the two particles. Using the Variational Formulation, we can derive the equations of motion for this system as:
 
 
-
 $$
 
 m_1\ddot{q}_1 = -kq + F(q)
 
 $$
 
-
-
 $$
 
 m_2\ddot{q}_2 = kq - F(q)
 
 $$
-
 
 
 where $\ddot{q}_1$ and $\ddot{q}_2$ are the accelerations of the first and second particle, respectively. These equations can then be solved to determine the motion of the particles over time.
@@ -29604,13 +28505,11 @@ where $\ddot{q}_1$ and $\ddot{q}_2$ are the accelerations of the first and secon
 Next, let us consider a more complex system, such as a pendulum with a non-conservative force acting on it. The pendulum consists of a mass $m$ attached to a string of length $l$, and is subject to a non-conservative force $G(\theta, \dot{\theta})$, where $\theta$ is the angle of the pendulum and $\dot{\theta}$ is its angular velocity. Using the Variational Formulation, we can derive the equations of motion for this system as:
 
 
-
 $$
 
 ml^2\ddot{\theta} + mgl\sin\theta = G(\theta, \dot{\theta})
 
 $$
-
 
 
 where $\ddot{\theta}$ is the angular acceleration of the pendulum. These equations can then be solved to determine the motion of the pendulum over time.
@@ -29878,7 +28777,6 @@ Newton's Second Law of Motion states that the net force acting on an object is e
 Let us consider a system containing N rigid bodies, each with a mass $m_i$ and a position vector $\vec{r_i}$ with respect to an inertial reference frame. The total mass of the system is given by $M = \sum_{i=1}^{N} m_i$. The position of the center of mass of the system is then given by:
 
 
-
 $$
 
 \vec{r_{cm}} = \frac{1}{M} \sum_{i=1}^{N} m_i \vec{r_i}
@@ -29886,9 +28784,7 @@ $$
 $$
 
 
-
 Using this, we can define the total linear momentum of the system as:
-
 
 
 $$
@@ -29898,13 +28794,11 @@ $$
 $$
 
 
-
 where $\vec{v_{cm}}$ is the velocity of the center of mass of the system.
 
 
 
 Now, applying Newton's Second Law to the center of mass of the system, we get:
-
 
 
 $$
@@ -29914,13 +28808,11 @@ $$
 $$
 
 
-
 where $\vec{a_{cm}}$ is the acceleration of the center of mass of the system.
 
 
 
 We can also extend this law to consider the rotational motion of the system. The total angular momentum of the system is given by:
-
 
 
 $$
@@ -29930,13 +28822,11 @@ $$
 $$
 
 
-
 where $\times$ represents the cross product.
 
 
 
 Applying Newton's Second Law to the rotational motion of the system, we get:
-
 
 
 $$
@@ -29946,13 +28836,11 @@ $$
 $$
 
 
-
 where $\vec{M_{net}}$ is the net moment acting on the system.
 
 
 
 Combining these equations, we can derive the equations of motion for systems containing rigid bodies:
-
 
 
 $$
@@ -29961,14 +28849,11 @@ $$
 
 $$
 
-
-
 $$
 
 \vec{M_{net}} = \frac{d\vec{L}}{dt}
 
 $$
-
 
 
 These equations are crucial in predicting the motion of a system and can be used to solve a wide range of engineering problems.
@@ -30008,7 +28893,6 @@ Newton's Second Law of Motion states that the net force acting on an object is e
 Let us consider a system containing N rigid bodies, each with a mass $m_i$ and a position vector $\vec{r_i}$ with respect to an inertial reference frame. The total mass of the system is given by $M = \sum_{i=1}^{N} m_i$. The position of the center of mass of the system is then given by:
 
 
-
 $$
 
 \vec{r_{cm}} = \frac{1}{M} \sum_{i=1}^{N} m_i \vec{r_i}
@@ -30016,9 +28900,7 @@ $$
 $$
 
 
-
 Using this, we can define the total linear momentum of the system as:
-
 
 
 $$
@@ -30028,7 +28910,6 @@ $$
 $$
 
 
-
 where $\vec{v_{cm}}$ is the velocity of the center of mass of the system.
 
 
@@ -30036,13 +28917,11 @@ where $\vec{v_{cm}}$ is the velocity of the center of mass of the system.
 Now, applying Newton's Second Law to the center of mass of the system, we get:
 
 
-
 $$
 
 \vec{F_{net}} = M \vec{a_{cm}} = \sum_{i=1}^{N} m_i \vec{a_i}
 
 $$
-
 
 
 where $\vec{a_{cm}}$ is the acceleration of the center of mass of the system.
@@ -30052,13 +28931,11 @@ where $\vec{a_{cm}}$ is the acceleration of the center of mass of the system.
 We can also extend this law to consider the rotational motion of the system. The total angular momentum of the system is given by:
 
 
-
 $$
 
 \vec{L} = \sum_{i=1}^{N} \vec{r_i} \times m_i \vec{v_i}
 
 $$
-
 
 
 where $\times$ represents the cross product.
@@ -30068,13 +28945,11 @@ where $\times$ represents the cross product.
 Applying Newton's Second Law to the rotational motion of the system, we get:
 
 
-
 $$
 
 \vec{M_{net}} = \frac{d\vec{L}}{dt} = \sum_{i=1}^{N} \vec{r_i} \times m_i \vec{a_i}
 
 $$
-
 
 
 where $\vec{M_{net}}$ is the net moment acting on the system.
@@ -30084,21 +28959,17 @@ where $\vec{M_{net}}$ is the net moment acting on the system.
 Combining these equations, we can derive the equations of motion for a system containing rigid bodies:
 
 
-
 $$
 
 \vec{F_{net}} = M \vec{a_{cm}} = \sum_{i=1}^{N} m_i \vec{a_i}
 
 $$
 
-
-
 $$
 
 \vec{M_{net}} = \frac{d\vec{L}}{dt} = \sum_{i=1}^{N} \vec{r_i} \times m_i \vec{a_i}
 
 $$
-
 
 
 These equations describe the translational and rotational motion of a system containing rigid bodies. They can be used to predict the behavior of the system under different external forces and moments.
@@ -30116,7 +28987,6 @@ In addition to Newton's Second Law, there is another set of equations that can b
 Euler's equations of motion are based on the principle of conservation of angular momentum. They state that the rate of change of angular momentum of a system is equal to the sum of external moments acting on the system.
 
 
-
 $$
 
 \frac{d\vec{L}}{dt} = \vec{M_{net}}
@@ -30124,9 +28994,7 @@ $$
 $$
 
 
-
 These equations can be written in terms of the angular velocity of the system, $\vec{\omega}$, and the inertia tensor, $\mathbf{I}$, as:
-
 
 
 $$
@@ -30134,7 +29002,6 @@ $$
 \frac{d\vec{L}}{dt} = \mathbf{I} \vec{\alpha} + \vec{\omega} \times \mathbf{I} \vec{\omega}
 
 $$
-
 
 
 where $\vec{\alpha}$ is the angular acceleration of the system.
@@ -30178,7 +29045,6 @@ Newton's Second Law of Motion states that the net force acting on an object is e
 Let us consider a system containing N rigid bodies, each with a mass $m_i$ and a position vector $\vec{r_i}$ with respect to an inertial reference frame. The total mass of the system is given by $M = \sum_{i=1}^{N} m_i$. The position of the center of mass of the system is then given by:
 
 
-
 $$
 
 \vec{r_{cm}} = \frac{1}{M} \sum_{i=1}^{N} m_i \vec{r_i}
@@ -30186,9 +29052,7 @@ $$
 $$
 
 
-
 Using this, we can define the total linear momentum of the system as:
-
 
 
 $$
@@ -30198,13 +29062,11 @@ $$
 $$
 
 
-
 where $\vec{v_{cm}}$ is the velocity of the center of mass of the system.
 
 
 
 Now, applying Newton's Second Law to the center of mass of the system, we get:
-
 
 
 $$
@@ -30214,13 +29076,11 @@ $$
 $$
 
 
-
 where $\vec{a_{cm}}$ is the acceleration of the center of mass of the system.
 
 
 
 We can also extend this law to consider the rotational motion of the system. The total angular momentum of the system is given by:
-
 
 
 $$
@@ -30230,13 +29090,11 @@ $$
 $$
 
 
-
 where $\times$ represents the cross product.
 
 
 
 Applying Newton's Second Law to the rotational motion of the system, we get:
-
 
 
 $$
@@ -30246,13 +29104,11 @@ $$
 $$
 
 
-
 where $\vec{M_{net}}$ is the net moment acting on the system.
 
 
 
 Combining these equations, we can derive the equations of motion for systems containing rigid bodies:
-
 
 
 $$
@@ -30261,14 +29117,11 @@ M \vec{a_{cm}} = \sum_{i=1}^{N} \vec{F_i}
 
 $$
 
-
-
 $$
 
 \frac{d\vec{L}}{dt} = \sum_{i=1}^{N} \vec{r_i} \times \vec{F_i}
 
 $$
-
 
 
 where $\vec{F_i}$ is the force acting on the i-th rigid body.
@@ -30402,13 +29255,11 @@ In the study of kinetics, we often use Newton's Second Law of Motion, which stat
 In addition to linear motion, kinetics also considers the rotational motion of rigid bodies. The total angular momentum of a system is the sum of the individual angular momenta of each rigid body in the system. This can be expressed as:
 
 
-
 $$
 
 \boldsymbol{L} = \sum_{i=1}^{N} \boldsymbol{r}_i \times \boldsymbol{p}_i
 
 $$
-
 
 
 where $\boldsymbol{r}_i$ is the position vector of the $i$th rigid body and $\boldsymbol{p}_i$ is its linear momentum. This equation shows that the angular momentum is dependent on both the position and linear momentum of each rigid body.
@@ -30422,13 +29273,11 @@ where $\boldsymbol{r}_i$ is the position vector of the $i$th rigid body and $\bo
 The kinetic energy of a rigid body is the energy it possesses due to its motion. It is a scalar quantity and is defined as the work required to accelerate the body from rest to its current state. In the context of rigid bodies, we can express the kinetic energy as:
 
 
-
 $$
 
 T = \frac{1}{2} \boldsymbol{\omega}^T \mathbf{I} \boldsymbol{\omega}
 
 $$
-
 
 
 where $\boldsymbol{\omega}$ is the angular velocity of the rigid body and $\mathbf{I}$ is its moment of inertia tensor. This equation shows that the kinetic energy is dependent on both the angular velocity and the moment of inertia of the rigid body.
@@ -30438,13 +29287,11 @@ where $\boldsymbol{\omega}$ is the angular velocity of the rigid body and $\math
 There are several different forms of the kinetic energy equation, each with its own use and application. One common form is the angular velocity form, which is expressed as:
 
 
-
 $$
 
 T = \frac{1}{2} I_1 \omega_1^2 + \frac{1}{2} I_2 \omega_2^2 + \frac{1}{2} I_3 \omega_3^2
 
 $$
-
 
 
 where $I_1$, $I_2$, and $I_3$ are the principal moments of inertia of the rigid body. This form is useful when dealing with systems that have a fixed axis of rotation.
@@ -30454,13 +29301,11 @@ where $I_1$, $I_2$, and $I_3$ are the principal moments of inertia of the rigid 
 Another form of the kinetic energy equation is the Euler angles form, which is expressed as:
 
 
-
 $$
 
 T = \frac{1}{2} I_1 \dot{\alpha}^2 + \frac{1}{2} I_2 \dot{\beta}^2 + \frac{1}{2} I_3 \dot{\gamma}^2 + I_2 \dot{\alpha} \dot{\gamma} \cos \beta
 
 $$
-
 
 
 where $\dot{\alpha}$, $\dot{\beta}$, and $\dot{\gamma}$ are the time derivatives of the Euler angles. This form is useful when dealing with systems that have a changing axis of rotation.
@@ -30512,13 +29357,11 @@ In the study of kinetics, we often use Newton's Second Law of Motion, which stat
 In addition to linear motion, kinetics also considers the rotational motion of rigid bodies. The total angular momentum of a system is the sum of the individual angular momenta of each rigid body in the system. This can be expressed mathematically as:
 
 
-
 $$
 
 \mathbf{L} = \sum_{i} \mathbf{r}_i \times \mathbf{p}_i
 
 $$
-
 
 
 where $\mathbf{r}_i$ is the position vector of the $i$th rigid body and $\mathbf{p}_i$ is its linear momentum.
@@ -30532,21 +29375,17 @@ where $\mathbf{r}_i$ is the position vector of the $i$th rigid body and $\mathbf
 To fully understand the motion of a rigid body, we must consider both its linear and rotational motion. The equations of motion for a rigid body can be derived by applying Newton's Second Law of Motion to both its linear and rotational motion. This results in the following equations:
 
 
-
 $$
 
 \sum \mathbf{F} = m\mathbf{a}_{cm}
 
 $$
 
-
-
 $$
 
 \sum \mathbf{M}_{cm} = I_{cm}\mathbf{\alpha}
 
 $$
-
 
 
 where $\mathbf{F}$ is the net force acting on the rigid body, $\mathbf{a}_{cm}$ is the acceleration of the center of mass, $\mathbf{M}_{cm}$ is the net torque acting on the rigid body, $I_{cm}$ is the moment of inertia of the rigid body about its center of mass, and $\mathbf{\alpha}$ is the angular acceleration of the rigid body.
@@ -30668,7 +29507,6 @@ In this subsection, we will derive the equations of gyroscopic motion for a rigi
 Let us begin by defining the coordinate system for the gyrocompass. We will use the <math>X_5</math>-<math>Y_5</math> plane as the initial plane of rotation, with the <math>Z_5</math>-axis pointing towards the zenith. Now, let us rotate the coordinate system about the <math>Z_5</math>-axis so that it is attached to the structure of the gyrocompass. This means that for an observer at rest in this coordinate system, the gyrocompass will only be rotating about its own axis of symmetry. This rotation can be described by the following transformation matrix:
 
 
-
 $$
 
 \begin{pmatrix}
@@ -30706,9 +29544,7 @@ Z_5
 $$
 
 
-
 The axis of symmetry of the gyrocompass is now aligned with the <math>X_6</math>-axis. Next, we will rotate the coordinate system about the <math>X_6</math>-axis, which is the axis of symmetry of the gyrocompass. This rotation can be described by the following transformation matrix:
-
 
 
 $$
@@ -30748,9 +29584,7 @@ Z_6
 $$
 
 
-
 Now, let us consider the general case of a rigid body undergoing gyroscopic motion. We will use the same coordinate system as before, with the <math>Z_5</math>-axis pointing towards the zenith. The equations of motion for this system can be derived from the conservation of angular momentum, which states that the total angular momentum of a system remains constant unless acted upon by an external torque. In this case, the equations of motion can be written as:
-
 
 
 $$
@@ -30760,7 +29594,6 @@ L_x \approx I_1 (\dot{\psi} - \Omega\sin\delta) \\
 I_2\ddot{\alpha} \approx (L_x\Omega\sin\delta + I_2\Omega^2\sin^2\delta)\alpha
 
 $$
-
 
 
 where <math>L_x</math> is the angular momentum of the system, <math>I_1</math> and <math>I_2</math> are the moments of inertia, <math>\dot{\psi}</math> is the angular velocity of the system, <math>\Omega</math> is the angular velocity of the Earth, and <math>\delta</math> is the latitude of the system.
@@ -30770,7 +29603,6 @@ where <math>L_x</math> is the angular momentum of the system, <math>I_1</math> a
 Now, let us consider the case where <math>\sin\delta \neq 0</math> and <math>\alpha \approx 0</math>, meaning that the axis of the gyroscope is approximately aligned with the north-south line. In this situation, the gyroscope will always be approximately aligned with the north-south line, providing a stable direction. In this case, the equations of motion simplify to:
 
 
-
 $$
 
 L_x \approx I_1 (\dot{\psi} - \Omega\sin\delta) \\
@@ -30780,9 +29612,7 @@ I_2\ddot{\alpha} \approx (L_x\Omega\sin\delta + I_2\Omega^2\sin^2\delta)\alpha
 $$
 
 
-
 If we consider the case where <math>L_x < 0</math> and <math>|\dot{\psi}| \gg \Omega</math>, we can further simplify the equations of motion to:
-
 
 
 $$
@@ -30792,13 +29622,11 @@ L_x \approx -I_1|\dot{\psi}| \approx \mathrm{constant} \\
 I_2\ddot{\alpha} \approx -I_1|\dot{\psi}|\Omega\sin\delta\alpha
 
 $$
-
 
 
 This means that for fast spinning rotations, <math>L_x < 0</math> implies <math>\dot{\psi} < 0</math>. In this case, the equations of motion can be simplified to:
 
 
-
 $$
 
 L_x \approx -I_1|\dot{\psi}| \approx \mathrm{constant} \\
@@ -30806,7 +29634,6 @@ L_x \approx -I_1|\dot{\psi}| \approx \mathrm{constant} \\
 I_2\ddot{\alpha} \approx -I_1|\dot{\psi}|\Omega\sin\delta\alpha
 
 $$
-
 
 
 These equations show that for fast spinning rotations, the angular momentum of the system remains constant, and the nutation of the axis of rotation is directly proportional to the angular velocity of the system. This is a key concept in understanding the behavior of gyroscopic systems and their applications in navigation and stabilization.
@@ -31114,21 +29941,17 @@ The equations of motion for rigid body systems take into account the external fo
 Let us consider a rigid body system with "N" bodies, each with mass "m<sub>i</sub>" and position vector "r<sub>i</sub>" relative to a fixed reference frame. The equations of motion for this system can be written as:
 
 
-
 $$
 
 \sum_{i=1}^{N} m_{i} \ddot{\mathbf{r}}_{i} = \mathbf{F}_{ext}
 
 $$
 
-
-
 $$
 
 \sum_{i=1}^{N} \mathbf{r}_{i} \times m_{i} \ddot{\mathbf{r}}_{i} = \mathbf{M}_{ext} + \mathbf{L}_{ext}
 
 $$
-
 
 
 Where "F<sub>ext</sub>" and "M<sub>ext</sub>" are the external force and torque acting on the system, and "L<sub>ext</sub>" is the external angular momentum. These equations can be solved to determine the motion of the rigid body system.
@@ -31180,13 +30003,11 @@ To derive the equations of motion for a rigid body system, we will use the princ
 The equations of motion for this system can be written as:
 
 
-
 $$
 
 \sum_{i=1}^{N} m_i \ddot{r_i} = \sum_{i=1}^{N} F_i
 
 $$
-
 
 
 Where "F<sub>i</sub>" is the total external force acting on the "i"th body. This equation is known as the translational equation of motion.
@@ -31196,13 +30017,11 @@ Where "F<sub>i</sub>" is the total external force acting on the "i"th body. This
 To derive the rotational equation of motion, we will use Euler's equations for rigid body rotation. These equations state that the rate of change of angular momentum of a rigid body is equal to the sum of external torques acting on the body. Mathematically, this can be written as:
 
 
-
 $$
 
 \frac{d}{dt} \left( \sum_{i=1}^{N} m_i r_i \times \dot{r_i} \right) = \sum_{i=1}^{N} \tau_i
 
 $$
-
 
 
 Where "r<sub>i</sub>" is the position vector of the "i"th body and "τ<sub>i</sub>" is the external torque acting on it.
@@ -31212,21 +30031,17 @@ Where "r<sub>i</sub>" is the position vector of the "i"th body and "τ<sub>i</su
 Combining these two equations, we get the equations of motion for rigid body systems:
 
 
-
 $$
 
 \sum_{i=1}^{N} m_i \ddot{r_i} = \sum_{i=1}^{N} F_i
 
 $$
 
-
-
 $$
 
 \frac{d}{dt} \left( \sum_{i=1}^{N} m_i r_i \times \dot{r_i} \right) = \sum_{i=1}^{N} \tau_i
 
 $$
-
 
 
 #### 4.5b.2 Applications of Equations of Motion
@@ -31692,13 +30507,11 @@ In a linear lumped-parameter system, the system can be modeled using a finite nu
 For a system undergoing free vibration, there are no external forces or damping present. This means that the system will continue to oscillate indefinitely with a constant amplitude and frequency. The solution to the equations of motion for free vibration can be found by assuming a solution of the form:
 
 
-
 $$
 
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
 
 $$
-
 
 
 Here, X is a vector representing the amplitudes of the displacements of each degree of freedom, and ω is the natural frequency of the system. The natural frequency is a fundamental property of the system and is determined by the mass, stiffness, and damping characteristics of the system.
@@ -31746,13 +30559,11 @@ In a linear lumped-parameter system, the system can be modeled using a finite nu
 For a system undergoing free vibration, there are no external forces or damping present. This means that the system will continue to oscillate indefinitely with a constant amplitude and frequency. The solution to the equations of motion for free vibration can be found by assuming a solution of the form:
 
 
-
 $$
 
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
 
 $$
-
 
 
 Here, X is a vector representing the amplitudes of the displacements of each degree of freedom, and ω is the natural frequency of the system. The natural frequency is a fundamental property of the system and is determined by the mass, stiffness, and damping characteristics of the system.
@@ -31824,13 +30635,11 @@ In a linear lumped-parameter system, the system can be modeled using a finite nu
 For a system undergoing free vibration, there are no external forces or damping present. This means that the system will continue to oscillate indefinitely with a constant amplitude and frequency. The solution to the equations of motion for free vibration can be found by assuming a solution of the form:
 
 
-
 $$
 
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
 
 $$
-
 
 
 Here, X is a vector representing the amplitudes of the displacements of each degree of freedom, and ω is the natural frequency of the system. The natural frequency is a fundamental property of the system and is determined by the mass, stiffness, and damping characteristics of the system.
@@ -31848,7 +30657,6 @@ One important concept in free vibration is the concept of resonance. Resonance o
 To better understand the concept of free vibration, let us consider a simple single degree of freedom system consisting of a mass m attached to a spring with stiffness k. The equation of motion for this system can be written as:
 
 
-
 $$
 
 m\ddot{x}+kx=0
@@ -31856,9 +30664,7 @@ m\ddot{x}+kx=0
 $$
 
 
-
 Assuming a solution of the form:
-
 
 
 $$
@@ -31868,9 +30674,7 @@ x=Xe^{i\omega t}
 $$
 
 
-
 We can solve for the natural frequency ω:
-
 
 
 $$
@@ -31878,7 +30682,6 @@ $$
 \omega=\sqrt{\frac{k}{m}}
 
 $$
-
 
 
 This simple example illustrates the fundamental relationship between the mass and stiffness of a system and its natural frequency. It also shows that the natural frequency is independent of the amplitude of the vibration.
@@ -31930,13 +30733,11 @@ Forced vibration refers to the response of a system when it is subjected to exte
 The equations of motion for a system undergoing forced vibration can be written as:
 
 
-
 $$
 
 \mathbf{M}\ddot{\mathbf{x}} + \mathbf{C}\dot{\mathbf{x}} + \mathbf{K}\mathbf{x} = \mathbf{F}(t)
 
 $$
-
 
 
 where $\mathbf{M}$, $\mathbf{C}$, and $\mathbf{K}$ are the mass, damping, and stiffness matrices, respectively, and $\mathbf{F}(t)$ is the external force vector.
@@ -31984,13 +30785,11 @@ Forced vibration refers to the response of a system when it is subjected to exte
 The equations of motion for a system undergoing forced vibration can be written as:
 
 
-
 $$
 
 \mathbf{M}\ddot{\mathbf{x}} + \mathbf{C}\dot{\mathbf{x}} + \mathbf{K}\mathbf{x} = \mathbf{F}(t)
 
 $$
-
 
 
 where $\mathbf{M}$, $\mathbf{C}$, and $\mathbf{K}$ are the mass, damping, and stiffness matrices, respectively, and $\mathbf{F}(t)$ is the external force vector. The external force can be a function of time, position, or velocity, and it can be applied at any point in the system.
@@ -32038,13 +30837,11 @@ Forced vibration refers to the response of a system when it is subjected to exte
 The equations of motion for a system undergoing forced vibration can be written as:
 
 
-
 $$
 
 \mathbf{M}\ddot{\mathbf{x}} + \mathbf{C}\dot{\mathbf{x}} + \mathbf{K}\mathbf{x} = \mathbf{F}(t)
 
 $$
-
 
 
 where $\mathbf{M}$, $\mathbf{C}$, and $\mathbf{K}$ are the mass, damping, and stiffness matrices, respectively, and $\mathbf{F}(t)$ is the external force vector. The external force can be a function of time, position, or velocity, and it can be applied at any point in the system.
@@ -32112,7 +30909,6 @@ A single degree of freedom system is a simplified model used to analyze the dyna
 The equations of motion for a SDOF system can be written as:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
@@ -32120,9 +30916,7 @@ m\ddot{x} + c\dot{x} + kx = F(t)
 $$
 
 
-
 where $m$ is the mass, $c$ is the damping coefficient, $k$ is the stiffness coefficient, and $F(t)$ is the external force applied to the system. This equation can also be written in matrix form as:
-
 
 
 $$
@@ -32132,9 +30926,7 @@ $$
 $$
 
 
-
 The solution to this equation can be found by assuming a harmonic solution of the form:
-
 
 
 $$
@@ -32144,9 +30936,7 @@ $$
 $$
 
 
-
 where $\omega$ is the excitation frequency. Substituting this solution into the equation of motion and solving for $X$, we get:
-
 
 
 $$
@@ -32154,7 +30944,6 @@ $$
 X = \frac{F(t)}{k - m\omega^2 + ic\omega}
 
 $$
-
 
 
 This solution shows that the amplitude of the system's response is dependent on the excitation frequency and the system's properties. When the excitation frequency is close to the natural frequency of the system, resonance can occur, resulting in large amplitudes of vibration. This can be problematic in many applications, as it can lead to structural damage or failure. Therefore, it is crucial to understand the system's natural frequency and how it relates to the excitation frequency.
@@ -32194,7 +30983,6 @@ In the previous section, we introduced the concept of single degree of freedom (
 The equations of motion for a SDOF system can be written as:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
@@ -32202,9 +30990,7 @@ m\ddot{x} + c\dot{x} + kx = F(t)
 $$
 
 
-
 where $m$ is the mass, $c$ is the damping coefficient, $k$ is the stiffness coefficient, and $F(t)$ is the external force applied to the system. This equation can also be written in matrix form as:
-
 
 
 $$
@@ -32214,13 +31000,11 @@ $$
 $$
 
 
-
 where $\begin{bmatrix}m\end{bmatrix}$, $\begin{bmatrix}c\end{bmatrix}$, and $\begin{bmatrix}k\end{bmatrix}$ are the mass, damping, and stiffness matrices, respectively. These matrices are used to represent the physical properties of the system and can be derived from the system's geometry and material properties.
 
 
 
 To solve for the system's response, we assume a harmonic solution of the form:
-
 
 
 $$
@@ -32230,9 +31014,7 @@ $$
 $$
 
 
-
 where $\omega$ is the excitation frequency. Substituting this solution into the equation of motion and solving for $\begin{Bmatrix}X\end{Bmatrix}$, we get:
-
 
 
 $$
@@ -32240,7 +31022,6 @@ $$
 \begin{Bmatrix}X\end{Bmatrix} = \begin{bmatrix}k-i\omega c-\omega^2m\end{bmatrix}^{-1}\begin{Bmatrix}F(t)\end{Bmatrix}
 
 $$
-
 
 
 This solution gives us the amplitude of the system's response at a given frequency $\omega$. By varying $\omega$, we can plot the frequency response of the system and determine its natural frequencies and mode shapes.
@@ -32342,14 +31123,11 @@ A multiple degrees of freedom (MDOF) system is a mechanical system that has more
 The equations of motion of the 2DOF system are found to be:
 
 
-
 $$
 
 m_1 \ddot{x_1} + (c_1+c_2) \dot{x_1} - c_2 \dot{x_2}+ (k_1+k_2) x_1 - k_2 x_2= f_1,
 
 $$
-
-
 
 $$
 
@@ -32358,9 +31136,7 @@ m_2 \ddot{x_2} - c_2 \dot{x_1}+ (c_2+c_3) \dot{x_2} - k_2 x_1+ (k_2+k_3) x_2 = f
 $$
 
 
-
 This can be rewritten in matrix format:
-
 
 
 $$
@@ -32370,9 +31146,7 @@ $$
 $$
 
 
-
 A more compact form of this matrix equation can be written as:
-
 
 
 $$
@@ -32380,7 +31154,6 @@ $$
 \begin{bmatrix}M\end{bmatrix}\begin{Bmatrix}\ddot{x}\end{Bmatrix} + \begin{bmatrix}C\end{bmatrix}\begin{Bmatrix}\dot{x}\end{Bmatrix}+\begin{bmatrix}K\end{bmatrix}\begin{Bmatrix}x\end{Bmatrix}=\begin{Bmatrix}f\end{Bmatrix}.
 
 $$
-
 
 
 where $\begin{bmatrix}M\end{bmatrix}, \begin{bmatrix}C\end{bmatrix},$ and $\begin{bmatrix}K\end{bmatrix}$ are symmetric matrices referred respectively as the mass, damping, and stiffness matrices. The matrices are NxN square matrices where N is the number of degrees of freedom of the system.
@@ -32394,13 +31167,11 @@ The following analysis involves the case where there is no damping and no applie
 This differential equation can be solved by assuming the following type of solution:
 
 
-
 $$
 
 \begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} X\end{Bmatrix}e^{i\omega t}.
 
 $$
-
 
 
 Note: Using the exponential solution is a common approach for solving linear differential equations with constant coefficients. This solution is valid for both damped and undamped systems.
@@ -32448,14 +31219,11 @@ A multiple degrees of freedom (MDOF) system is a mechanical system that has more
 The equations of motion of the 2DOF system can be derived using Newton's second law and the principle of virtual work. The resulting equations are:
 
 
-
 $$
 
 m_1 \ddot{x_1} + (c_1+c_2) \dot{x_1} - c_2 \dot{x_2}+ (k_1+k_2) x_1 - k_2 x_2= f_1,
 
 $$
-
-
 
 $$
 
@@ -32464,9 +31232,7 @@ m_2 \ddot{x_2} - c_2 \dot{x_1}+ (c_2+c_3) \dot{x_2} - k_2 x_1+ (k_2+k_3) x_2 = f
 $$
 
 
-
 These equations can be rewritten in matrix format as:
-
 
 
 $$
@@ -32476,9 +31242,7 @@ $$
 $$
 
 
-
 This can be further simplified into a more compact form:
-
 
 
 $$
@@ -32486,7 +31250,6 @@ $$
 \begin{bmatrix}M\end{bmatrix}\begin{Bmatrix}\ddot{x}\end{Bmatrix} + \begin{bmatrix}C\end{bmatrix}\begin{Bmatrix}\dot{x}\end{Bmatrix}+\begin{bmatrix}K\end{bmatrix}\begin{Bmatrix} x\end{Bmatrix}=\begin{Bmatrix} f\end{Bmatrix},
 
 $$
-
 
 
 where <math>M</math>, <math>C</math>, and <math>K</math> are the mass, damping, and stiffness matrices respectively, and <math>f</math> is the external force vector. This matrix equation can be solved using numerical methods to obtain the displacement, velocity, and acceleration of each degree of freedom over time.
@@ -32646,13 +31409,11 @@ The wave equation is a partial differential equation that describes the propagat
 The general form of the wave equation is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 
 
 where $u(x,t)$ is the displacement of the medium at position $x$ and time $t$, and $c$ is the wave speed. This equation can be solved using various techniques, such as separation of variables and Fourier series, to obtain the displacement function $u(x,t)$.
@@ -33146,13 +31907,11 @@ One commonly used method in vibration analysis is the Rayleigh's quotient. This 
 
 
 The Rayleigh's quotient is expressed as follows:
-
 $$
 
 \lambda_m = \omega_m^2 = \frac{\textbf{u}_m^T\,K\,\textbf{u}_m}{\textbf{u}_m^T\,M\,\textbf{u}_m}
 
 $$
-
 where $\lambda_m$ represents the natural frequency, $\omega_m$ is the angular frequency, and $\textbf{u}_m$ is the eigenvector that satisfies the equation $K\,\textbf{u}_m = \lambda_m\,M\,\textbf{u}_m$. This method allows us to calculate the natural frequency without knowing the modal vectors, making it a useful tool in practical applications.
 
 
@@ -33200,13 +31959,11 @@ One commonly used method in vibration analysis is the Rayleigh's quotient. This 
 
 
 The Rayleigh's quotient is expressed as follows:
-
 $$
 
 \lambda_m = \omega_m^2 = \frac{\textbf{u}_m^T\,K\,\textbf{u}_m}{\textbf{u}_m^T\,M\,\textbf{u}_m}
 
 $$
-
 where $\lambda_m$ represents the natural frequency, $\omega_m$ is the angular frequency, and $\textbf{u}_m$ is the eigenvector that satisfies the equation $K\,\textbf{u}_m = \lambda_m\,M\,\textbf{u}_m$. This method allows us to calculate the natural frequency without knowing the modal vectors, making it a useful tool in practical applications.
 
 
@@ -33266,13 +32023,11 @@ One commonly used method in vibration analysis is the Rayleigh's quotient. This 
 
 
 The Rayleigh's quotient is expressed as follows:
-
 $$
 
 \lambda_m = \omega_m^2 = \frac{\textbf{u}_m^T\,K\,\textbf{u}_m}{\textbf{u}_m^T\,M\,\textbf{u}_m}
 
 $$
-
 where $\lambda_m$ represents the natural frequency, $\omega_m$ is the angular frequency, and $\textbf{u}_m$ is the eigenvector that satisfies the equation $K\,\textbf{u}_m = \lambda_m\,M\,\textbf{u}_m$. This method allows us to calculate the natural frequency without knowing the modal vectors, making it a useful tool in practical applications.
 
 
@@ -33358,13 +32113,11 @@ Wave propagation is the transfer of energy through a medium by means of periodic
 Wave propagation in continuous systems can be described by the wave equation, which is a second-order partial differential equation. This equation relates the spatial and temporal variations of a wave and is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial x^2} = \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2}
 
 $$
-
 
 
 where $u$ represents the displacement or disturbance, $x$ is the spatial coordinate, $t$ is the time, and $c$ is the wave speed.
@@ -33412,13 +32165,11 @@ Wave propagation is the transfer of energy through a medium by means of periodic
 The wave equation is a fundamental equation that describes wave propagation in continuous systems. It relates the spatial and temporal variations of a wave and is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial x^2} = \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2}
 
 $$
-
 
 
 where $u$ represents the displacement or disturbance, $x$ is the spatial coordinate, $t$ is the time, and $c$ is the wave speed. This equation is a second-order partial differential equation and its solution depends on the boundary conditions and the properties of the medium.
@@ -33466,13 +32217,11 @@ Wave propagation is the transfer of energy through a medium by means of periodic
 The wave equation is a fundamental equation that describes wave propagation in continuous systems. It relates the spatial and temporal variations of a wave and is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial x^2} = \frac{1}{c^2}\frac{\partial^2 u}{\partial t^2}
 
 $$
-
 
 
 where $u$ represents the displacement or disturbance, $x$ is the spatial coordinate, $t$ is the time, and $c$ is the wave speed. This equation is a second-order partial differential equation and its solution depends on the boundary conditions and the properties of the medium.
@@ -33648,13 +32397,11 @@ In the case of continuous systems, the concept of Lyapunov stability can be exte
 More precisely, for every "C"<sup>1</sup>-perturbation "f"<sub>"ε"</sub> of "f", its non-wandering set is formed by two compact, "f"<sub>"ε"</sub>-invariant subsets "Ω"<sub>1</sub> and "Ω"<sub>2</sub>. The first subset is homeomorphic to "Ω"("f") via a homeomorphism "h" which conjugates the restriction of "f" to "Ω"("f") with the restriction of "f"<sub>"ε"</sub> to "Ω"<sub>1</sub>:
 
 
-
 $$
 
 h: \Omega(f) \rightarrow \Omega(f_{\epsilon})
 
 $$
-
 
 
 If "Ω"<sub>2</sub> is empty then "h" is onto "Ω"("f"<sub>"ε"</sub>). If this is the case for every perturbation "f"<sub>"ε"</sub> then "f" is called omega stable. A diffeomorphism "f" is omega stable if and only if it satisfies axiom A and the no-cycle condition (that an orbit, once having left an invariant subset, does not return).
@@ -34164,9 +32911,7 @@ Nonlinear dynamics is a field that deals with systems that exhibit nonlinear beh
 A system is considered nonlinear if it does not follow the principle of superposition. Mathematically, this can be represented as:
 
 
-
 $$f(x) \neq \alpha f(x) + \beta f(y)$$
-
 
 
 where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the system. This means that the output of the system is not a linear combination of its inputs.
@@ -34176,9 +32921,7 @@ where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the syste
 Nonlinearity can also be defined in terms of differential equations. A differential equation is considered linear if it can be written in the form:
 
 
-
 $$\frac{d}{dt}y(t) = Ay(t) + Bu(t)$$
-
 
 
 where $y(t)$ is the output, $u(t)$ is the input, and $A$ and $B$ are constant matrices. If the equation cannot be written in this form, it is considered nonlinear.
@@ -34222,9 +32965,7 @@ Nonlinear dynamics is a field that deals with systems that exhibit nonlinear beh
 A system is considered nonlinear if it does not follow the principle of superposition. Mathematically, this can be represented as:
 
 
-
 $$f(x) \neq \alpha f(x) + \beta f(y)$$
-
 
 
 where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the system. This means that the output of the system is not a linear combination of its inputs.
@@ -34234,9 +32975,7 @@ where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the syste
 Nonlinearity can also be defined in terms of differential equations. A differential equation is considered linear if it can be written in the form:
 
 
-
 $$\frac{d}{dt}y(t) = Ay(t) + Bu(t)$$
-
 
 
 where $y(t)$ is the output, $u(t)$ is the input, and $A$ and $B$ are constant matrices. If the equation cannot be written in this form, it is considered nonlinear.
@@ -34298,9 +33037,7 @@ Nonlinear dynamics is a field that deals with systems that exhibit nonlinear beh
 A system is considered nonlinear if it does not follow the principle of superposition. Mathematically, this can be represented as:
 
 
-
 $$f(x) \neq \alpha f(x) + \beta f(y)$$
-
 
 
 where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the system. This means that the output of the system is not a linear combination of its inputs.
@@ -34310,9 +33047,7 @@ where $\alpha$ and $\beta$ are constants and $x$ and $y$ are inputs to the syste
 Nonlinearity can also be defined in terms of differential equations. A differential equation is considered linear if it can be written in the form:
 
 
-
 $$\frac{d}{dt}y(t) = Ay(t) + Bu(t)$$
-
 
 
 where $y(t)$ is the output, $u(t)$ is the input, and $A$ and $B$ are constant matrices. If the equation cannot be written in this form, it is considered nonlinear.
@@ -34996,13 +33731,11 @@ Now that we have reviewed the key concepts of nonlinear dynamics, let's apply th
 Example 1: Consider the following nonlinear system:
 
 
-
 $$
 
 \dot{x} = x^2 - 2x + 1
 
 $$
-
 
 
 a) Find the fixed points of this system.
@@ -35020,17 +33753,14 @@ c) Sketch the phase portrait of this system.
 Example 2: A simple predator-prey model is given by the following system of differential equations:
 
 
-
 $$
 
 \dot{x} = x(3 - x - y)
 
 $$
-
 $$
 
 \dot{y} = y(2 - x)
-
 $$
 
 
@@ -36058,7 +34788,6 @@ Solution: The block diagram for this system would look like this:
 
 
 $$
-
 \begin{align*}
 
 & \text{Temperature Sensor} \rightarrow \text{Controller} \rightarrow \text{Heater} \rightarrow \text{House} \\
@@ -36068,7 +34797,6 @@ $$
 & \text{Reference Temperature} \hspace{0.5cm} \text{Feedback} \hspace{0.5cm} \text{Output Temperature}
 
 \end{align*}
-
 $$
 
 
@@ -36086,7 +34814,6 @@ Solution: The block diagram for this system would look like this:
 
 
 $$
-
 \begin{align*}
 
 & \text{Velocity Sensor} \rightarrow \text{Controller} \rightarrow \text{Thruster} \rightarrow \text{Rocket} \\
@@ -36096,7 +34823,6 @@ $$
 & \text{Reference Velocity} \hspace{0.5cm} \text{Feedback} \hspace{0.5cm} \text{Output Velocity}
 
 \end{align*}
-
 $$
 
 
@@ -36606,9 +35332,7 @@ Using joint space, we can express an uncontrolled robot in Lagrangian formulatio
 
 
 $$
-
 \boldsymbol{M}(\boldsymbol{q})\ddot{\boldsymbol{q}} + \boldsymbol{c}(\boldsymbol{q},\dot{\boldsymbol{q}}) + \boldsymbol{g}(\boldsymbol{q}) + \boldsymbol{h}(\boldsymbol{q},\dot{\boldsymbol{q}}) = \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -36622,9 +35346,7 @@ To control the motion of a robot, we can use a control law of the following form
 
 
 $$
-
 \boldsymbol{\tau} = \boldsymbol{K}(\boldsymbol{q}_\mathrm{d}-\boldsymbol{q}) + \boldsymbol{D}(\dot{\boldsymbol{q}}_\mathrm{d}-\dot{\boldsymbol{q}}) + \boldsymbol{M}(\boldsymbol{q})\ddot{\boldsymbol{q}}_\mathrm{d} + \boldsymbol{c}(\boldsymbol{q},\dot{\boldsymbol{q}}) + \boldsymbol{g}(\boldsymbol{q}) + \boldsymbol{h}(\boldsymbol{q},\dot{\boldsymbol{q}})
-
 $$
 
 
@@ -36638,9 +35360,7 @@ By inserting this control law into the equation for an uncontrolled robot, we ca
 
 
 $$
-
 \boldsymbol{K}(\boldsymbol{q}_\mathrm{d}-\boldsymbol{q}) + \boldsymbol{D}(\dot{\boldsymbol{q}}_\mathrm{d}-\dot{\boldsymbol{q}}) + \boldsymbol{M}(\boldsymbol{q})\ddot{\boldsymbol{q}}_\mathrm{d} + \boldsymbol{c}(\boldsymbol{q},\dot{\boldsymbol{q}}) + \boldsymbol{g}(\boldsymbol{q}) + \boldsymbol{h}(\boldsymbol{q},\dot{\boldsymbol{q}}) = \boldsymbol{\tau}_{\mathrm{ext}}
-
 $$
 
 
@@ -36694,7 +35414,6 @@ To do this, we first define the position function <math>p(x): \mathbb{R}^m \righ
 $$p(x_0 + \Delta x) \approx p(x_0) + J_p(x_0)\Delta x$$
 
 
-
 where <math>J_p(x_0)</math> is the (3 × m) Jacobian matrix of the position function at <math>x_0</math>. This matrix relates the joint velocities to the end-effector velocity.
 
 
@@ -36702,9 +35421,7 @@ where <math>J_p(x_0)</math> is the (3 × m) Jacobian matrix of the position func
 To compute the entries of the Jacobian matrix, we can use numerical approximations, such as:
 
 
-
 $$J_{i,k} \approx \frac{p_i(x_0 + h) - p_i(x_0)}{h}$$
-
 
 
 where <math>p_i(x)</math> gives the i-th component of the position function, <math>x_{0,k} + h</math> is simply <math>x_0</math> with a small delta added to its k-th component, and <math>h</math> is a reasonably small positive value.
@@ -36714,9 +35431,7 @@ where <math>p_i(x)</math> gives the i-th component of the position function, <ma
 Finally, by taking the Moore-Penrose pseudoinverse of the Jacobian matrix and rearranging terms, we can obtain the following equation:
 
 
-
 $$\Delta x_{estimate} = (J_p(x_0)^T J_p(x_0))^{-1} J_p(x_0)^T (p_1 - p_0)$$
-
 
 
 This equation allows us to iteratively compute an estimate of <math>\Delta x</math> that minimizes the error between the actual and desired end-effector positions. By updating the joint angles and lengths using this estimate, we can gradually approach the desired position and orientation.
@@ -36848,13 +35563,11 @@ In the previous subsection, we discussed the principles of robot dynamics and ho
 The equations of motion for a robot are derived from the principles of Newtonian mechanics, specifically Newton's second law, which states that the net force acting on an object is equal to its mass multiplied by its acceleration. In the case of a robot, this law can be expressed as:
 
 
-
 $$
 
 \sum \mathbf{F} = m\mathbf{a}
 
 $$
-
 
 
 where $\sum \mathbf{F}$ represents the sum of all external forces acting on the robot, $m$ is the mass of the robot, and $\mathbf{a}$ is its acceleration.
@@ -36864,13 +35577,11 @@ where $\sum \mathbf{F}$ represents the sum of all external forces acting on the 
 To fully describe the motion of a robot, we must also consider its rotational dynamics. This is done using the principle of conservation of angular momentum, which states that the net torque acting on an object is equal to its moment of inertia multiplied by its angular acceleration. In the case of a robot, this can be expressed as:
 
 
-
 $$
 
 \sum \mathbf{\tau} = I\mathbf{\alpha}
 
 $$
-
 
 
 where $\sum \mathbf{\tau}$ represents the sum of all external torques acting on the robot, $I$ is its moment of inertia, and $\mathbf{\alpha}$ is its angular acceleration.
@@ -36880,13 +35591,11 @@ where $\sum \mathbf{\tau}$ represents the sum of all external torques acting on 
 Combining these two equations, we can derive the equations of motion for a robot in terms of its position, velocity, and acceleration. These equations take into account both the translational and rotational dynamics of the robot and can be expressed as:
 
 
-
 $$
 
 \mathbf{M}(\mathbf{q})\ddot{\mathbf{q}} + \mathbf{C}(\mathbf{q},\dot{\mathbf{q}})\dot{\mathbf{q}} + \mathbf{G}(\mathbf{q}) = \mathbf{\tau}
 
 $$
-
 
 
 where $\mathbf{M}$ is the mass matrix, $\mathbf{C}$ is the Coriolis and centrifugal forces matrix, $\mathbf{G}$ is the gravity forces matrix, $\mathbf{q}$ is the vector of generalized coordinates, and $\mathbf{\tau}$ is the vector of generalized forces.
@@ -36998,13 +35707,11 @@ One method of controlling robots is through impedance control. This involves con
 In order to understand the control of robots mathematically, we can express an uncontrolled robot in Lagrangian formulation as:
 
 
-
 $$
 
 \boldsymbol{M}\ddot{\boldsymbol{q}} + \boldsymbol{c} + \boldsymbol{g} + \boldsymbol{h} = \boldsymbol{\tau}_{\mathrm{ext}}
 
 $$
-
 
 
 where $\boldsymbol{q}$ denotes the joint angular position, $\boldsymbol{M}$ is the symmetric and positive-definite inertia matrix, $\boldsymbol{c}$ is the Coriolis and centrifugal torque, $\boldsymbol{g}$ is the gravitational torque, $\boldsymbol{h}$ includes further torques from inherent stiffness, friction, etc., and $\boldsymbol{\tau}_{\mathrm{ext}}$ summarizes all external torques.
@@ -38726,13 +37433,11 @@ Heat transfer is a fundamental process in many engineering systems, including po
 The general equation of heat transfer is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation describes the change in internal energy of a system due to heat transfer and work done. It takes into account the effects of temperature, pressure, and density on the system.
@@ -38746,13 +37451,11 @@ This equation describes the change in internal energy of a system due to heat tr
 Entropy production is a measure of the irreversibility of a process. In heat transfer analysis, it is given by:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system.
@@ -38766,13 +37469,11 @@ This equation takes into account the effects of thermal conduction and viscous f
 In the absence of thermal conduction and viscous forces, the equation for entropy production simplifies to:
 
 
-
 $$
 
 {Ds\over{Dt}}=0
 
 $$
-
 
 
 This shows that ideal fluid flow is isentropic, meaning that there is no change in entropy during the flow process.
@@ -38836,13 +37537,11 @@ Heat transfer is a fundamental process in many engineering systems, including po
 The general equation of heat transfer is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation describes the change in internal energy of a system due to heat transfer and work done. It takes into account the effects of temperature, pressure, and density on the system.
@@ -38856,13 +37555,11 @@ This equation describes the change in internal energy of a system due to heat tr
 Entropy production is a measure of the irreversibility of a process. In heat transfer analysis, it is given by:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system. It is derived in Section 49 of the sixth volume of L.D. Landau and E.M. Lifshitz's "Course of Theoretical Physics". This equation is crucial in understanding the behavior of heat transfer in various engineering systems.
@@ -38876,13 +37573,11 @@ This equation takes into account the effects of thermal conduction and viscous f
 In the absence of thermal conduction and viscous forces, the equation for entropy production simplifies to:
 
 
-
 $$
 
 {Ds\over{Dt}}=0
 
 $$
-
 
 
 This shows that ideal fluid flow is isentropic, meaning that there is no change in entropy during the flow process. This is a fundamental concept in heat transfer analysis and is used to understand the behavior of ideal fluids in various systems.
@@ -38930,13 +37625,11 @@ Heat transfer is a fundamental process in many engineering systems, including po
 The general equation of heat transfer is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 This equation describes the change in internal energy of a system due to heat transfer and work done. It takes into account the effects of temperature, pressure, and density on the system.
@@ -38950,13 +37643,11 @@ This equation describes the change in internal energy of a system due to heat tr
 Entropy production is a measure of the irreversibility of a process. In heat transfer analysis, it is given by:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation takes into account the effects of thermal conduction and viscous forces on the entropy production of a system. It is derived in Section 49 of the sixth volume of L.D. Landau and E.M. Lifshitz's "Course of Theoretical Physics". This equation is crucial in understanding the behavior of heat transfer in various engineering systems.
@@ -38970,13 +37661,11 @@ This equation takes into account the effects of thermal conduction and viscous f
 In the absence of thermal conduction and viscous forces, the equation for entropy production simplifies to:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = 0
 
 $$
-
 
 
 This equation describes the behavior of an ideal fluid flow, where there is no change in entropy due to heat transfer or work done. This simplified equation is often used in the analysis of fluid flow systems, such as in aerodynamics or hydrodynamics.
@@ -40014,13 +38703,11 @@ In this section, we will explore the use of computational fluid dynamics (CFD) f
 Incompressible flows are commonly encountered in many engineering applications, such as in the design of pumps, turbines, and pipes. These flows are characterized by a constant density, and thus the continuity equation can be written as:
 
 
-
 $$
 
 \nabla \cdot \mathbf{u} = 0
 
 $$
-
 
 
 where $\mathbf{u}$ is the velocity vector. This equation states that the divergence of the velocity field is equal to zero, meaning that the flow is incompressible.
@@ -40030,21 +38717,17 @@ where $\mathbf{u}$ is the velocity vector. This equation states that the diverge
 To solve for the velocity and pressure fields in incompressible flows, we use the Navier-Stokes equations, which describe the motion of viscous fluids. These equations can be written in their non-dimensional form as:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \frac{1}{Re} \nabla^2 \mathbf{u}
 
 $$
 
-
-
 $$
 
 \nabla \cdot \mathbf{u} = 0
 
 $$
-
 
 
 where $Re$ is the Reynolds number, a dimensionless parameter that characterizes the ratio of inertial forces to viscous forces in the flow.
@@ -41822,9 +40505,7 @@ Thermodynamics is the study of the relationships between heat, work, and energy.
 The first law of thermodynamics, also known as the law of conservation of energy, states that energy cannot be created or destroyed, only transferred or converted from one form to another. This law forms the basis for understanding the behavior of energy in thermodynamic systems. It is represented by the equation:
 
 
-
 $$\Delta U = Q - W$$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, Q is the heat added to the system, and W is the work done by the system.
@@ -41834,9 +40515,7 @@ where $\Delta U$ is the change in internal energy of the system, Q is the heat a
 The second law of thermodynamics states that the total entropy of a closed system will always increase over time. Entropy is a measure of the disorder or randomness of a system. This law explains why certain processes are irreversible and why heat always flows from hot to cold objects. It is represented by the equation:
 
 
-
 $$\Delta S \geq 0$$
-
 
 
 where $\Delta S$ is the change in entropy of the system.
@@ -41870,9 +40549,7 @@ The laws of thermodynamics are fundamental principles that govern the behavior o
 The first law of thermodynamics, also known as the law of conservation of energy, states that energy cannot be created or destroyed, only transferred or converted from one form to another. This law forms the basis for understanding the behavior of energy in thermodynamic systems. It is represented by the equation:
 
 
-
 $$\Delta U = Q - W$$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, Q is the heat added to the system, and W is the work done by the system.
@@ -41886,9 +40563,7 @@ where $\Delta U$ is the change in internal energy of the system, Q is the heat a
 The second law of thermodynamics states that the total entropy of a closed system will always increase over time. Entropy is a measure of the disorder or randomness of a system. This law explains why certain processes are irreversible and why heat always flows from hot to cold objects. It is represented by the equation:
 
 
-
 $$\Delta S \geq 0$$
-
 
 
 where $\Delta S$ is the change in entropy of the system.
@@ -41902,9 +40577,7 @@ where $\Delta S$ is the change in entropy of the system.
 The third law of thermodynamics states that the entropy of a perfect crystal at absolute zero temperature is zero. This law provides a reference point for measuring the entropy of other systems. It is represented by the equation:
 
 
-
 $$S = 0 \text{ at } T = 0$$
-
 
 
 where S is the entropy of the system and T is the temperature.
@@ -41918,9 +40591,7 @@ where S is the entropy of the system and T is the temperature.
 The zeroth law of thermodynamics defines thermal equilibrium and forms the basis for the definition of temperature. It states that if two systems are in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This law is important in understanding the concept of temperature and is represented by the equation:
 
 
-
 $$T_A = T_B = T_C$$
-
 
 
 where T is the temperature of the system and A, B, and C are three systems in thermal equilibrium with each other.
@@ -41960,9 +40631,7 @@ Thermodynamics is the study of the relationships between heat, work, and energy.
 The first law of thermodynamics, also known as the law of conservation of energy, states that energy cannot be created or destroyed, only transferred or converted from one form to another. This law forms the basis for understanding the behavior of energy in thermodynamic systems. It is represented by the equation:
 
 
-
 $$\Delta U = Q - W$$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, Q is the heat added to the system, and W is the work done by the system.
@@ -41972,9 +40641,7 @@ where $\Delta U$ is the change in internal energy of the system, Q is the heat a
 The second law of thermodynamics states that the total entropy of a closed system will always increase over time. Entropy is a measure of the disorder or randomness of a system. This law explains why certain processes are irreversible and why heat always flows from hot to cold objects. It is represented by the equation:
 
 
-
 $$\Delta S \geq 0$$
-
 
 
 where $\Delta S$ is the change in entropy of the system.
@@ -42466,13 +41133,11 @@ Thermodynamics plays a crucial role in many engineering applications, particular
 The general equation of heat transfer is a fundamental equation in thermodynamics that describes the transfer of heat between a system and its surroundings. It is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 This equation relates the change in internal energy ($\rho d\varepsilon$) of a system to the changes in temperature ($T$), entropy ($s$), and pressure ($p$). It is derived from the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
@@ -42486,13 +41151,11 @@ This equation relates the change in internal energy ($\rho d\varepsilon$) of a s
 Entropy is a measure of the disorder or randomness of a system. The second law of thermodynamics states that the total entropy of a closed system always increases over time. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij} \nabla \cdot \textbf{v} \right)^2 + \zeta (\nabla \cdot \textbf{v})^2
 
 $$
-
 
 
 This equation describes the rate of change of entropy in a system due to thermal conduction and viscous forces. It is derived from the second law of thermodynamics and the Navier-Stokes equations, which govern the motion of fluids.
@@ -42556,13 +41219,11 @@ Thermodynamics is a fundamental concept in engineering that plays a crucial role
 The general equation of heat transfer is a fundamental equation in thermodynamics that describes the transfer of heat between a system and its surroundings. In civil engineering, this equation is particularly relevant in the design and analysis of heating and cooling systems for buildings. It is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 This equation relates the change in internal energy ($\rho d\varepsilon$) of a system to the changes in temperature ($T$), entropy ($s$), and pressure ($p$). In the context of civil engineering, this equation can be used to calculate the heat transfer and energy consumption in heating and cooling systems for buildings.
@@ -42576,13 +41237,11 @@ This equation relates the change in internal energy ($\rho d\varepsilon$) of a s
 Entropy is a measure of the disorder or randomness of a system. In civil engineering, the concept of entropy is particularly relevant in the design and analysis of energy-efficient buildings. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij} \nabla \cdot \textbf{v} \right)^2 + \zeta (\nabla \cdot \textbf{v})^2
 
 $$
-
 
 
 This equation describes the rate of change of entropy in a system due to thermal conduction and viscous forces. In the context of civil engineering, this equation can be used to analyze the energy efficiency of building materials and design more sustainable structures.
@@ -42646,13 +41305,11 @@ Thermodynamics is a fundamental concept in engineering that plays a crucial role
 The general equation of heat transfer is a fundamental equation in thermodynamics that describes the transfer of heat between a system and its surroundings. In aerospace engineering, this equation is particularly relevant in the design and analysis of propulsion systems for aircraft and spacecraft. It is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 This equation relates the change in internal energy ($\rho d\varepsilon$) of a system to the changes in temperature ($T$), entropy ($s$), and pressure ($p$). In the context of aerospace engineering, this equation can be used to calculate the heat transfer and energy consumption in propulsion systems, such as jet engines and rocket engines.
@@ -42666,13 +41323,11 @@ This equation relates the change in internal energy ($\rho d\varepsilon$) of a s
 Entropy is a measure of the disorder or randomness of a system. In aerospace engineering, the concept of entropy is particularly relevant in the design and analysis of high-speed and high-temperature systems. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij} \nabla \cdot \textbf{v} \right)^2 + \zeta (\nabla \cdot \textbf{v})^2
 
 $$
-
 
 
 This equation describes the rate of change of entropy in a system due to thermal conduction and viscous forces. In the context of aerospace engineering, this equation can be used to analyze the efficiency and performance of high-speed propulsion systems, as well as the thermal protection systems for spacecraft re-entering the Earth's atmosphere.
@@ -42740,13 +41395,11 @@ The second law of thermodynamics states that the total entropy of a closed syste
 The ideal gas law is a fundamental equation in thermodynamics that describes the relationship between the pressure, volume, and temperature of an ideal gas. It is given by:
 
 
-
 $$
 
 PV = nRT
 
 $$
-
 
 
 where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is the temperature. This equation is particularly relevant in the analysis of gases in aerospace engineering, such as in jet engines and rocket engines.
@@ -42768,13 +41421,11 @@ The Carnot cycle is a theoretical thermodynamic cycle that describes the most ef
 The Clausius-Clapeyron equation is a fundamental equation in thermodynamics that describes the relationship between the temperature and pressure of a substance during a phase change. It is given by:
 
 
-
 $$
 
 \frac{dP}{dT} = \frac{\Delta H}{T\Delta V}
 
 $$
-
 
 
 where $P$ is the pressure, $T$ is the temperature, $\Delta H$ is the enthalpy of the substance, and $\Delta V$ is the change in volume during the phase change. This equation is particularly relevant in the design and analysis of propulsion systems in aerospace engineering, where phase changes of substances are common.
@@ -42830,13 +41481,11 @@ Solution:
 Using the ideal gas law, we can write:
 
 
-
 $$
 
 P_1V_1 = P_2V_2
 
 $$
-
 
 
 where $P_1$ and $V_1$ are the initial pressure and volume, and $P_2$ and $V_2$ are the final pressure and volume.
@@ -42846,7 +41495,6 @@ where $P_1$ and $V_1$ are the initial pressure and volume, and $P_2$ and $V_2$ a
 Substituting the given values, we get:
 
 
-
 $$
 
 P_1(2.5) = P_2(1.5)
@@ -42854,9 +41502,7 @@ P_1(2.5) = P_2(1.5)
 $$
 
 
-
 Since the pressure remains constant, we can cancel it out from both sides, giving us:
-
 
 
 $$
@@ -42866,9 +41512,7 @@ $$
 $$
 
 
-
 Solving for $P_2$, we get:
-
 
 
 $$
@@ -42878,9 +41522,7 @@ P_2 = \frac{2.5}{1.5} = 1.67
 $$
 
 
-
 Now, using the ideal gas law again, we can write:
-
 
 
 $$
@@ -42890,13 +41532,11 @@ $$
 $$
 
 
-
 where $T_1$ and $T_2$ are the initial and final temperatures.
 
 
 
 Substituting the known values, we get:
-
 
 
 $$
@@ -42906,9 +41546,7 @@ $$
 $$
 
 
-
 Solving for $T_2$, we get:
-
 
 
 $$
@@ -42916,7 +41554,6 @@ $$
 T_2 = \frac{300(1.67)(1.5)}{P_1} = 250 K
 
 $$
-
 
 
 Therefore, the final temperature of the gas is 250 K.
@@ -42938,13 +41575,11 @@ Solution:
 The maximum efficiency of a Carnot engine is given by:
 
 
-
 $$
 
 \eta = 1 - \frac{T_L}{T_H}
 
 $$
-
 
 
 where $T_L$ and $T_H$ are the temperatures of the low and high temperature reservoirs, respectively.
@@ -42954,13 +41589,11 @@ where $T_L$ and $T_H$ are the temperatures of the low and high temperature reser
 Substituting the given values, we get:
 
 
-
 $$
 
 \eta = 1 - \frac{300}{500} = 0.4 = 40\%
 
 $$
-
 
 
 Therefore, the maximum efficiency of this Carnot engine is 40%.
@@ -42982,13 +41615,11 @@ Solution:
 Since the process is adiabatic, we can use the equation:
 
 
-
 $$
 
 PV^{\gamma} = constant
 
 $$
-
 
 
 where $\gamma$ is the ratio of specific heats.
@@ -42998,7 +41629,6 @@ where $\gamma$ is the ratio of specific heats.
 Substituting the given values, we get:
 
 
-
 $$
 
 P_1(1)^{\gamma} = P_2(2)^{\gamma}
@@ -43006,9 +41636,7 @@ P_1(1)^{\gamma} = P_2(2)^{\gamma}
 $$
 
 
-
 Since the pressure remains constant, we can cancel it out, giving us:
-
 
 
 $$
@@ -43018,9 +41646,7 @@ $$
 $$
 
 
-
 Solving for $\gamma$, we get:
-
 
 
 $$
@@ -43030,9 +41656,7 @@ $$
 $$
 
 
-
 Now, using the ideal gas law, we can write:
-
 
 
 $$
@@ -43042,9 +41666,7 @@ $$
 $$
 
 
-
 Substituting the known values, we get:
-
 
 
 $$
@@ -43054,9 +41676,7 @@ $$
 $$
 
 
-
 Solving for $T_2$, we get:
-
 
 
 $$
@@ -43064,7 +41684,6 @@ $$
 T_2 = \frac{300(2)}{P_1} = 600 K
 
 $$
-
 
 
 Therefore, the final temperature of the gas is 600 K.
@@ -43284,13 +41903,11 @@ The laws of thermodynamics govern the transfer of heat and energy. The first law
 Heat transfer can be quantified by the rate of heat transfer, which is measured in watts (W). The general equation for heat transfer is given by:
 
 
-
 $$
 
 \dot{Q} = \frac{dQ}{dt} = \frac{dU}{dt} + \frac{dW}{dt}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $dQ$ is the change in internal energy, and $dW$ is the work done by the system.
@@ -43300,13 +41917,11 @@ where $\dot{Q}$ is the rate of heat transfer, $dQ$ is the change in internal ene
 Another important concept in heat transfer is entropy production, which is a measure of the irreversibility of a process. It is given by the equation:
 
 
-
 $$
 
 \dot{S}_{prod} = \frac{\dot{Q}}{T}
 
 $$
-
 
 
 where $\dot{S}_{prod}$ is the rate of entropy production, $\dot{Q}$ is the rate of heat transfer, and $T$ is the temperature.
@@ -43386,13 +42001,11 @@ The laws of thermodynamics govern the transfer of heat and energy. The first law
 Heat transfer can be quantified by the rate of heat transfer, which is measured in watts (W). The general equation for heat transfer is given by:
 
 
-
 $$
 
 \dot{Q} = \frac{dQ}{dt} = \frac{dU}{dt} + \frac{dW}{dt}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $dQ$ is the change in internal energy, and $dW$ is the work done by the system. This equation is essential in understanding the energy balance in a system and how heat is transferred between different forms of energy.
@@ -43402,13 +42015,11 @@ where $\dot{Q}$ is the rate of heat transfer, $dQ$ is the change in internal ene
 Another important concept in heat transfer is entropy production, which is a measure of the irreversibility of a process. It is given by the equation:
 
 
-
 $$
 
 \dot{S}_{prod} = \frac{\dot{Q}}{T}
 
 $$
-
 
 
 where $\dot{S}_{prod}$ is the rate of entropy production, $\dot{Q}$ is the rate of heat transfer, and $T$ is the temperature. This equation is crucial in understanding the efficiency of heat transfer processes and the impact of heat transfer on the overall entropy of a system.
@@ -43484,13 +42095,11 @@ The laws of thermodynamics govern the transfer of heat and energy. The first law
 Heat transfer can be quantified by the rate of heat transfer, which is measured in watts (W). The general equation for heat transfer is given by:
 
 
-
 $$
 
 \dot{Q} = \frac{dQ}{dt} = \frac{dU}{dt} + \frac{dW}{dt}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $dQ$ is the change in internal energy, and $dW$ is the work done by the system. This equation is essential in understanding the energy balance in a system and how heat is transferred between different forms of energy.
@@ -43574,13 +42183,11 @@ Heat transfer by conduction is the transfer of heat through a solid or stationar
 Conduction is the transfer of heat through a material by molecular collisions. It occurs when there is a temperature difference between two points in a material. The rate of heat transfer by conduction is dependent on the thermal conductivity of the material, the temperature difference, and the distance over which the heat is transferred. The general equation for heat transfer by conduction is given by:
 
 
-
 $$
 
 \dot{Q} = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -43590,13 +42197,11 @@ where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of
 In the absence of any external heat sources, the equation for specific entropy production can be simplified to:
 
 
-
 $$
 
 \frac{Ds}{Dt} = 0
 
 $$
-
 
 
 This shows that ideal fluid flow is isentropic, meaning that there is no change in entropy during the flow process.
@@ -43640,13 +42245,11 @@ Heat transfer by conduction is the transfer of heat through a solid or stationar
 Conduction is the transfer of heat through a material by molecular collisions. It occurs when there is a temperature difference between two points in a material. The rate of heat transfer by conduction is dependent on the thermal conductivity of the material, the temperature difference, and the distance over which the heat is transferred. The general equation for heat transfer by conduction is given by:
 
 
-
 $$
 
 \dot{Q} = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -43656,13 +42259,11 @@ where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of
 In the absence of any external heat sources, the equation for specific entropy production can be derived from the general equation of heat transfer. This equation, known as Fourier's Law of Heat Conduction, states that the rate of heat transfer is proportional to the temperature gradient and the thermal conductivity of the material. It can be written as:
 
 
-
 $$
 
 \dot{Q} = -kA\frac{dT}{dx} = -\kappa \nabla T
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity matrix, and $\nabla T$ is the temperature gradient vector. This equation is a fundamental tool in understanding heat transfer by conduction and is widely used in various applications.
@@ -43714,13 +42315,11 @@ Heat transfer by conduction is the transfer of heat through a solid or stationar
 Conduction is the transfer of heat through a material by molecular collisions. It occurs when there is a temperature difference between two points in a material. The rate of heat transfer by conduction is dependent on the thermal conductivity of the material, the temperature difference, and the distance over which the heat is transferred. The general equation for heat transfer by conduction is given by:
 
 
-
 $$
 
 \dot{Q} = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -43730,13 +42329,11 @@ where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of
 In the absence of any external heat sources, the equation for specific entropy production can be derived from the second law of thermodynamics. This equation, known as the Fourier's law of heat conduction, states that the rate of heat transfer is proportional to the temperature gradient and the thermal conductivity of the material. This relationship is expressed as:
 
 
-
 $$
 
 \dot{Q} = -kA\frac{dT}{dx}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, and $\frac{dT}{dx}$ is the temperature gradient.
@@ -43796,13 +42393,11 @@ Heat transfer by convection is the transfer of heat through a fluid by the movem
 Convection is the transfer of heat through a fluid by the movement of the fluid itself. It occurs when there is a temperature difference between two points in the fluid. The rate of heat transfer by convection is dependent on the fluid's properties, such as density, viscosity, and thermal conductivity, as well as the temperature difference and the fluid's velocity. The general equation for heat transfer by convection is given by:
 
 
-
 $$
 
 \dot{Q} = hA(T_s - T_\infty)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_s$ is the surface temperature, and $T_\infty$ is the bulk fluid temperature.
@@ -43812,7 +42407,6 @@ where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfe
 In the absence of any external heat sources, the equation for specific entropy production can be written as:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla \cdot \mathbf{v})^2
@@ -43820,9 +42414,7 @@ $$
 $$
 
 
-
 This equation shows that the specific entropy production is dependent on the temperature gradient, fluid velocity, and fluid properties such as thermal conductivity, viscosity, and density. In the case of ideal fluid flow, where thermal conduction and viscous forces are absent, the equation for specific entropy production collapses to:
-
 
 
 $$
@@ -43830,7 +42422,6 @@ $$
 \frac{Ds}{Dt} = 0
 
 $$
-
 
 
 This shows that ideal fluid flow is isentropic, meaning that there is no change in entropy within the fluid. This is a fundamental concept in the study of heat transfer by convection and is crucial in understanding the behavior of fluids in various applications.
@@ -43882,13 +42473,11 @@ Heat transfer by convection is the transfer of heat through a fluid by the movem
 Convection is the transfer of heat through a fluid by the movement of the fluid itself. It occurs when there is a temperature difference between two points in the fluid. The rate of heat transfer by convection is dependent on the fluid's properties, such as density, viscosity, and thermal conductivity, as well as the temperature difference and the fluid's velocity. The general equation for heat transfer by convection is given by:
 
 
-
 $$
 
 \dot{Q} = hA(T_s - T_\infty)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_s$ is the surface temperature, and $T_\infty$ is the bulk fluid temperature.
@@ -43898,13 +42487,11 @@ where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfe
 In the absence of any external heat sources, the equation for heat transfer by convection can be simplified to:
 
 
-
 $$
 
 \dot{Q} = hA\Delta T
 
 $$
-
 
 
 where $\Delta T$ is the temperature difference between the surface and the bulk fluid.
@@ -43918,13 +42505,11 @@ where $\Delta T$ is the temperature difference between the surface and the bulk 
 Newton's law of cooling is an empirical law that describes the rate of heat transfer between a solid object and a surrounding fluid. It states that the rate of heat transfer is directly proportional to the temperature difference between the object and the fluid. This law can be expressed mathematically as:
 
 
-
 $$
 
 \dot{Q} = hA(T_s - T_\infty)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_s$ is the surface temperature, and $T_\infty$ is the bulk fluid temperature.
@@ -43964,13 +42549,11 @@ Heat transfer by convection is the transfer of heat through a fluid by the movem
 Convection is the transfer of heat through a fluid by the movement of the fluid itself. It occurs when there is a temperature difference between two points in the fluid. The rate of heat transfer by convection is dependent on the fluid's properties, such as density, viscosity, and thermal conductivity, as well as the temperature difference and the fluid's velocity. The general equation for heat transfer by convection is given by:
 
 
-
 $$
 
 \dot{Q} = hA(T_s - T_\infty)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfer coefficient, $A$ is the surface area, $T_s$ is the surface temperature, and $T_\infty$ is the bulk fluid temperature.
@@ -43980,13 +42563,11 @@ where $\dot{Q}$ is the rate of heat transfer, $h$ is the convective heat transfe
 In the absence of any external heat sources, the equation simplifies to:
 
 
-
 $$
 
 \dot{Q} = hA\Delta T
 
 $$
-
 
 
 where $\Delta T$ is the temperature difference between the surface and the bulk fluid.
@@ -44062,13 +42643,11 @@ Heat transfer by radiation is the transfer of heat through electromagnetic waves
 Radiation is the transfer of heat through electromagnetic waves, such as infrared radiation, visible light, and ultraviolet radiation. Unlike convection and conduction, radiation does not require a medium to transfer heat. Instead, it can occur in a vacuum, making it an essential mechanism for heat transfer in space. The rate of heat transfer by radiation is dependent on the temperature difference between two objects, as well as the emissivity and surface area of the objects. The general equation for heat transfer by radiation is given by:
 
 
-
 $$
 
 \dot{Q} = \sigma A(T_s^4 - T_\infty^4)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_s$ is the surface temperature, and $T_\infty$ is the temperature of the surroundings.
@@ -44078,13 +42657,11 @@ where $\dot{Q}$ is the rate of heat transfer, $\sigma$ is the Stefan-Boltzmann c
 In the absence of any external heat sources, the equilibrium temperature of an object can be determined by equating the rates of heat transfer by radiation and convection:
 
 
-
 $$
 
 hA(T_s - T_\infty) = \sigma A(T_s^4 - T_\infty^4)
 
 $$
-
 
 
 This equation can be solved for $T_s$, giving the equilibrium temperature of the object.
@@ -44124,13 +42701,11 @@ Heat transfer by radiation is the transfer of heat through electromagnetic waves
 Radiation is the transfer of heat through electromagnetic waves, such as infrared radiation, visible light, and ultraviolet radiation. Unlike convection and conduction, radiation does not require a medium to transfer heat. Instead, it can occur in a vacuum, making it an essential mechanism for heat transfer in space. The rate of heat transfer by radiation is dependent on the temperature difference between two objects, as well as the emissivity and surface area of the objects. The general equation for heat transfer by radiation is given by:
 
 
-
 $$
 
 \dot{Q} = \sigma A(T_s^4 - T_\infty^4)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_s$ is the temperature of the hotter object, and $T_\infty$ is the temperature of the cooler object.
@@ -44144,13 +42719,11 @@ where $\dot{Q}$ is the rate of heat transfer, $\sigma$ is the Stefan-Boltzmann c
 The Stefan-Boltzmann law, named after physicists Josef Stefan and Ludwig Boltzmann, is a fundamental equation in the study of heat transfer by radiation. It relates the rate of heat transfer to the temperature and surface area of the objects involved. The law is given by:
 
 
-
 $$
 
 \dot{Q} = \sigma A(T_s^4 - T_\infty^4)
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, $T_s$ is the temperature of the hotter object, and $T_\infty$ is the temperature of the cooler object.
@@ -44192,7 +42765,6 @@ Heat transfer by radiation is the transfer of heat through electromagnetic waves
 
 
 Radiation is the transfer of heat through electromagnetic waves, such as infrared radiation, visible light, and ultraviolet radiation. Unlike convection and conduction, radiation does not require a medium to transfer heat. Instead, it can occur in a vacuum, making it an essential mechanism for heat transfer in space. The rate of heat transfer by radiation is dependent on the temperature difference between two objects, as well as the emissivity and surface area of the objects. The general equation for heat transfer by radiation is given by:
-
 
 
 $$

@@ -1297,9 +1297,7 @@ Given a set of data points $(x_i, y_i)$, where $i = 1,2,...,n$, find the paramet
 
 
 $$
-
 \min_{a,b} \sum_{i=1}^{n} (y_i - (ax_i + b))^2
-
 $$
 
 
@@ -1309,17 +1307,13 @@ The solution to this problem can be found using calculus, and it is given by the
 
 
 $$
-
 a = \frac{n\sum_{i=1}^{n} x_iy_i - \sum_{i=1}^{n} x_i \sum_{i=1}^{n} y_i}{n\sum_{i=1}^{n} x_i^2 - (\sum_{i=1}^{n} x_i)^2}
-
 $$
 
 
 
 $$
-
 b = \frac{\sum_{i=1}^{n} y_i - a\sum_{i=1}^{n} x_i}{n}
-
 $$
 
 
@@ -1341,7 +1335,6 @@ The general form of a linear programming problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \max_{x_1, x_2, ..., x_n} \quad & c_1x_1 + c_2x_2 + ... + c_nx_n \\
@@ -1357,7 +1350,6 @@ $$
 & x_1, x_2, ..., x_n \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1397,7 +1389,6 @@ Linear programming is a mathematical method for finding the optimal values of de
 
 
 $$
-
 \begin{align*}
 
 \max_{x_1, x_2, ..., x_n} \quad & c_1x_1 + c_2x_2 + ... + c_nx_n \\
@@ -1413,7 +1404,6 @@ $$
 & x_1, x_2, ..., x_n \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -1469,7 +1459,6 @@ Convex optimization is a mathematical method for finding the optimal values of d
 
 
 $$
-
 \begin{align*}
 
 \min_{x_1, x_2, ..., x_n} \quad & f(x_1, x_2, ..., x_n) \\
@@ -1479,7 +1468,6 @@ $$
 & h_j(x_1, x_2, ..., x_n) = 0, \quad j = 1, 2, ..., p
 
 \end{align*}
-
 $$
 
 
@@ -1539,7 +1527,6 @@ The general form of a convex optimization problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \min_{x_1, x_2, ..., x_n} \quad & f(x_1, x_2, ..., x_n) \\
@@ -1549,7 +1536,6 @@ $$
 & h_j(x_1, x_2, ..., x_n) = 0, \quad j = 1, 2, ..., p
 
 \end{align*}
-
 $$
 
 
@@ -1777,7 +1763,6 @@ A nonlinear optimization problem can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -1787,7 +1772,6 @@ $$
 & h_j(x) = 0, \quad j = 1,2,...,p
 
 \end{align*}
-
 $$
 
 
@@ -1855,7 +1839,6 @@ A nonlinear optimization problem can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -1865,7 +1848,6 @@ $$
 & h_j(x) = 0, \quad j = 1,2,...,p
 
 \end{align*}
-
 $$
 
 
@@ -1917,9 +1899,7 @@ In the following chapters, we will delve deeper into the theory and applications
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g(x) \leq 0
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $g: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex inequality constraint. Prove that any local minimum of this problem is also a global minimum.
@@ -1931,9 +1911,7 @@ where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $g: \mat
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad Ax = b
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $A \in \mathbb{R}^{m \times n}$ and $b \in \mathbb{R}^m$ are given. Show that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
@@ -1951,9 +1929,7 @@ Prove that the set of feasible solutions of a convex optimization problem is alw
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad x \geq 0
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function. Show that this problem can be reformulated as a linear programming problem.
@@ -1965,9 +1941,7 @@ where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function. Show that t
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad x \in \mathcal{C}
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $\mathcal{C}$ is a convex set. Prove that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
@@ -1997,9 +1971,7 @@ In the following chapters, we will delve deeper into the theory and applications
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g(x) \leq 0
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $g: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex inequality constraint. Prove that any local minimum of this problem is also a global minimum.
@@ -2011,9 +1983,7 @@ where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $g: \mat
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad Ax = b
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $A \in \mathbb{R}^{m \times n}$ and $b \in \mathbb{R}^m$ are given. Show that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
@@ -2031,9 +2001,7 @@ Prove that the set of feasible solutions of a convex optimization problem is alw
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad x \geq 0
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function. Show that this problem can be reformulated as a linear programming problem.
@@ -2045,9 +2013,7 @@ where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function. Show that t
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad x \in \mathcal{C}
-
 $$
 
 where $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is a convex function and $\mathcal{C}$ is a convex set. Prove that if $x^*$ is a local minimum of this problem, then it is also a global minimum.
@@ -2107,9 +2073,7 @@ This definition can be extended to higher dimensions, where a set is convex if a
 
 
 $$
-
 \forall x, y \in C, \forall \lambda \in [0,1], \lambda x + (1-\lambda)y \in C
-
 $$
 
 
@@ -2153,9 +2117,7 @@ This definition can be extended to higher dimensions, where a set is convex if a
 
 
 $$
-
 \forall x, y \in C, \forall \lambda \in [0,1], \lambda x + (1-\lambda)y \in C
-
 $$
 
 
@@ -2539,7 +2501,6 @@ Prove that the perspective mapping preserves convexity.
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x^2 + y^2 \\
@@ -2549,7 +2510,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 Is the feasible region of this problem a convex set? Justify your answer.
@@ -2603,7 +2563,6 @@ Prove that the perspective mapping preserves convexity.
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x^2 + y^2 \\
@@ -2613,7 +2572,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 Is the feasible region of this problem a convex set? Justify your answer.
@@ -2675,9 +2633,7 @@ A function $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is said to be convex if for 
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -2725,9 +2681,7 @@ A function $f: \mathbb{R}^n \rightarrow \mathbb{R}$ is said to be convex if for 
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -2791,7 +2745,6 @@ One of the most common convexity preserving operations is addition. If $f$ and $
 
 
 $$
-
 \begin{align*}
 
 (f+g)(\lambda x + (1-\lambda)y) &= f(\lambda x + (1-\lambda)y) + g(\lambda x + (1-\lambda)y) \\
@@ -2801,7 +2754,6 @@ $$
 &= \lambda (f+g)(x) + (1-\lambda)(f+g)(y)
 
 \end{align*}
-
 $$
 
 
@@ -2815,7 +2767,6 @@ Another important convexity preserving operation is composition. If $f$ is a con
 
 
 $$
-
 \begin{align*}
 
 (f \circ g)(\lambda x + (1-\lambda)y) &= f(g(\lambda x + (1-\lambda)y)) \\
@@ -2827,7 +2778,6 @@ $$
 &= \lambda (f \circ g)(x) + (1-\lambda)(f \circ g)(y)
 
 \end{align*}
-
 $$
 
 
@@ -2867,7 +2817,6 @@ One of the most common convexity preserving operations is addition. If $f$ and $
 
 
 $$
-
 \begin{align*}
 
 (f+g)(\lambda x + (1-\lambda)y) &= f(\lambda x + (1-\lambda)y) + g(\lambda x + (1-\lambda)y) \\
@@ -2877,7 +2826,6 @@ $$
 &= \lambda (f+g)(x) + (1-\lambda)(f+g)(y)
 
 \end{align*}
-
 $$
 
 
@@ -2891,7 +2839,6 @@ Another important convexity preserving operation is composition. If $f$ is a con
 
 
 $$
-
 \begin{align*}
 
 (f \circ g)(\lambda x + (1-\lambda)y) &= f(g(\lambda x + (1-\lambda)y)) \\
@@ -2903,7 +2850,6 @@ $$
 &= \lambda (f \circ g)(x) + (1-\lambda)(f \circ g)(y)
 
 \end{align*}
-
 $$
 
 
@@ -2943,7 +2889,6 @@ In the previous section, we discussed operations that preserve convexity, which 
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= a(\lambda x + (1-\lambda)y) + b \\
@@ -2953,7 +2898,6 @@ f(\lambda x + (1-\lambda)y) &= a(\lambda x + (1-\lambda)y) + b \\
 &\leq \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -2963,7 +2907,6 @@ $$
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= (\lambda x + (1-\lambda)y)^TA(\lambda x + (1-\lambda)y) + b^T(\lambda x + (1-\lambda)y) + c \\
@@ -2975,7 +2918,6 @@ f(\lambda x + (1-\lambda)y) &= (\lambda x + (1-\lambda)y)^TA(\lambda x + (1-\lam
 &\leq \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -2985,7 +2927,6 @@ $$
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= e^{a(\lambda x + (1-\lambda)y)} \\
@@ -2999,7 +2940,6 @@ f(\lambda x + (1-\lambda)y) &= e^{a(\lambda x + (1-\lambda)y)} \\
 &= \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -3009,7 +2949,6 @@ $$
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= \log(\lambda x + (1-\lambda)y) \\
@@ -3023,7 +2962,6 @@ f(\lambda x + (1-\lambda)y) &= \log(\lambda x + (1-\lambda)y) \\
 &= \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -3055,7 +2993,6 @@ In the previous section, we discussed operations that preserve convexity, which 
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= a(\lambda x + (1-\lambda)y) + b \\
@@ -3065,7 +3002,6 @@ f(\lambda x + (1-\lambda)y) &= a(\lambda x + (1-\lambda)y) + b \\
 &= \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -3075,7 +3011,6 @@ $$
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= (\lambda x + (1-\lambda)y)^TA(\lambda x + (1-\lambda)y) + b^T(\lambda x + (1-\lambda)y) + c \\
@@ -3087,7 +3022,6 @@ f(\lambda x + (1-\lambda)y) &= (\lambda x + (1-\lambda)y)^TA(\lambda x + (1-\lam
 &= \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -3097,7 +3031,6 @@ $$
 
 
 $$
-
 \begin{align*}
 
 f(\lambda x + (1-\lambda)y) &= e^{a(\lambda x + (1-\lambda)y)} \\
@@ -3111,7 +3044,6 @@ f(\lambda x + (1-\lambda)y) &= e^{a(\lambda x + (1-\lambda)y)} \\
 &= \lambda f(x) + (1-\lambda)f(y)
 
 \end{align*}
-
 $$
 
 
@@ -3373,9 +3305,7 @@ A convex optimization problem is a mathematical optimization problem where the o
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -3389,7 +3319,6 @@ A convex optimization problem can be formulated as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &f(x) \\
@@ -3399,7 +3328,6 @@ $$
 &h_j(x) = 0, j = 1,2,...,p
 
 \end{align*}
-
 $$
 
 
@@ -3443,9 +3371,7 @@ A convex optimization problem is a mathematical optimization problem where the o
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -3459,7 +3385,6 @@ A convex optimization problem can be formulated as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &f(x) \\
@@ -3469,7 +3394,6 @@ $$
 &h_j(x) = 0, j = 1,2,...,p
 
 \end{align*}
-
 $$
 
 
@@ -3545,7 +3469,6 @@ The dual problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &g(\lambda, \nu) \\
@@ -3553,7 +3476,6 @@ $$
 \text{subject to } &\lambda \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -3605,7 +3527,6 @@ The dual problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &g(\lambda, \nu) \\
@@ -3613,7 +3534,6 @@ $$
 \text{subject to } &\lambda \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -3923,9 +3843,7 @@ Prove that the intersection of two convex sets is also convex.
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \quad i = 1,2,...,m
-
 $$
 
 where $f$ and $g_i$ are convex functions. Show that this problem is a convex optimization problem.
@@ -3943,9 +3861,7 @@ Prove that the set of all positive semidefinite matrices is a convex set.
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad Ax = b
-
 $$
 
 where $f$ is a convex function and $A$ is a matrix with linearly independent columns. Show that this problem is a convex optimization problem.
@@ -3979,9 +3895,7 @@ Prove that the intersection of two convex sets is also convex.
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g_i(x) \leq 0, \quad i = 1,2,...,m
-
 $$
 
 where $f$ and $g_i$ are convex functions. Show that this problem is a convex optimization problem.
@@ -3999,9 +3913,7 @@ Prove that the set of all positive semidefinite matrices is a convex set.
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad Ax = b
-
 $$
 
 where $f$ is a convex function and $A$ is a matrix with linearly independent columns. Show that this problem is a convex optimization problem.
@@ -4893,9 +4805,7 @@ Proximal methods are based on the concept of proximal operators, which are used 
 
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) + g(x)
-
 $$
 
 
@@ -4905,9 +4815,7 @@ where $f$ is a smooth convex function and $g$ is a possibly non-smooth convex fu
 
 
 $$
-
 \text{prox}_g(x) = \arg\min_{y \in \mathbb{R}^n} \left\{ g(y) + \frac{1}{2\lambda} \|x-y\|^2 \right\}
-
 $$
 
 
@@ -5155,7 +5063,6 @@ Overall, this chapter has provided a comprehensive overview of numerical methods
 Consider the following convex optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -5165,7 +5072,6 @@ $$
 & h(x) = 0
 
 \end{align*}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Show that the set of feasible solutions is a convex set.
@@ -5183,7 +5089,6 @@ Prove that the gradient descent method converges to the optimal solution for a s
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -5191,7 +5096,6 @@ $$
 \text{subject to} \quad & x \geq 0
 
 \end{align*}
-
 $$
 
 where $f(x)$ is a convex function. Show that this problem can be transformed into an unconstrained convex optimization problem.
@@ -5233,7 +5137,6 @@ Overall, this chapter has provided a comprehensive overview of numerical methods
 Consider the following convex optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -5243,7 +5146,6 @@ $$
 & h(x) = 0
 
 \end{align*}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Show that the set of feasible solutions is a convex set.
@@ -5261,7 +5163,6 @@ Prove that the gradient descent method converges to the optimal solution for a s
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f(x) \\
@@ -5269,7 +5170,6 @@ $$
 \text{subject to} \quad & x \geq 0
 
 \end{align*}
-
 $$
 
 where $f(x)$ is a convex function. Show that this problem can be transformed into an unconstrained convex optimization problem.
@@ -5337,9 +5237,7 @@ In this section, we will focus on equality constraints, which are constraints th
 
 
 $$
-
 g_i(x) = 0, \quad i = 1,2,...,m
-
 $$
 
 
@@ -5349,9 +5247,7 @@ where $g_i(x)$ is a function of the variables $x$ and $m$ is the number of equal
 
 
 $$
-
 Ax = b
-
 $$
 
 
@@ -5373,9 +5269,7 @@ One important concept in dealing with equality constraints is the feasible set, 
 
 
 $$
-
 \mathcal{F} = \{x \in \mathbb{R}^n | g_i(x) = 0, \quad i = 1,2,...,m\}
-
 $$
 
 
@@ -5411,9 +5305,7 @@ In this section, we will focus on inequality constraints, which are constraints 
 
 
 $$
-
 h_i(x) \leq 0, \quad i = 1,2,...,p
-
 $$
 
 
@@ -5423,9 +5315,7 @@ where $h_i(x)$ is a function of the variables $x$ and $p$ is the number of inequ
 
 
 $$
-
 Cx \leq d
-
 $$
 
 
@@ -5447,9 +5337,7 @@ Similar to equality constraints, the feasible set for inequality constraints is 
 
 
 $$
-
 \mathcal{F} = \{x \in \mathbb{R}^n | h_i(x) \leq 0, \quad i = 1,2,...,p\}
-
 $$
 
 
@@ -5493,7 +5381,6 @@ To understand how this works, let's consider a general constrained optimization 
 
 
 $$
-
 \begin{align}
 
 \min_{x_1, x_2, ..., x_n} f(x_1, x_2, ..., x_n) \\
@@ -5501,7 +5388,6 @@ $$
 \text{subject to } g_i(x_1, x_2, ..., x_n) = 0, \quad i = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -5511,9 +5397,7 @@ where $f$ is the objective function and $g_i$ are the constraint functions. To s
 
 
 $$
-
 L(x_1, x_2, ..., x_n, \lambda) = f(x_1, x_2, ..., x_n) + \lambda \sum_{i=1}^{p} g_i(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -5557,7 +5441,6 @@ To understand how this works, let's consider a general constrained optimization 
 
 
 $$
-
 \begin{align}
 
 \min_{x_1, x_2, ..., x_n} f(x_1, x_2, ..., x_n) \\
@@ -5565,7 +5448,6 @@ $$
 \text{subject to } g_i(x_1, x_2, ..., x_n) = 0, \quad i = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -5575,9 +5457,7 @@ where $f$ is the objective function and $g_i$ are the constraint functions. To s
 
 
 $$
-
 L(x_1, x_2, ..., x_n, \lambda) = f(x_1, x_2, ..., x_n) + \lambda \sum_{i=1}^{p} g_i(x_1, x_2, ..., x_n)
-
 $$
 
 
@@ -5661,7 +5541,6 @@ To understand how the KKT conditions work, let's consider a general constrained 
 
 
 $$
-
 \begin{align}
 
 \min_{x_1, x_2, ..., x_n} f(x_1, x_2, ..., x_n) \\
@@ -5671,7 +5550,6 @@ $$
 h_j(x_1, x_2, ..., x_n) \leq 0, \quad j = 1,2,...,q
 
 \end{align}
-
 $$
 
 
@@ -5685,9 +5563,7 @@ where $f$ is the objective function, $g_i$ are the equality constraints, and $h_
 
 
 $$
-
 \nabla f(x^*) + \sum_{i=1}^{p} \lambda_i \nabla g_i(x^*) + \sum_{j=1}^{q} \mu_j \nabla h_j(x^*) = 0
-
 $$
 
 
@@ -5701,11 +5577,9 @@ where $\lambda_i$ and $\mu_j$ are the KKT multipliers for the corresponding cons
 
 
 $$
-
 g_i(x^*) = 0, \quad i = 1,2,...,p \\
 
 h_j(x^*) \leq 0, \quad j = 1,2,...,q
-
 $$
 
 
@@ -5715,9 +5589,7 @@ $$
 
 
 $$
-
 \mu_j \geq 0, \quad j = 1,2,...,q
-
 $$
 
 
@@ -5727,9 +5599,7 @@ $$
 
 
 $$
-
 \mu_j h_j(x^*) = 0, \quad j = 1,2,...,q
-
 $$
 
 
@@ -5769,7 +5639,6 @@ To understand how the KKT conditions work, let's consider a general constrained 
 
 
 $$
-
 \begin{align}
 
 \min_{x_1, x_2, ..., x_n} f(x_1, x_2, ..., x_n) \\
@@ -5779,7 +5648,6 @@ $$
 h_j(x_1, x_2, ..., x_n) \leq 0, \quad j = 1,2,...,q
 
 \end{align}
-
 $$
 
 
@@ -5839,7 +5707,6 @@ To understand how semidefinite programming works, let's consider a general optim
 
 
 $$
-
 \begin{align}
 
 \min_{X} \langle C, X \rangle \\
@@ -5849,7 +5716,6 @@ $$
 X \succeq 0
 
 \end{align}
-
 $$
 
 
@@ -5911,7 +5777,6 @@ Like other types of convex optimization problems, semidefinite programming has a
 
 
 $$
-
 \begin{align}
 
 \max_{\lambda, \nu} \quad & b^T \nu \\
@@ -5921,7 +5786,6 @@ $$
 & \lambda_i \geq 0, \quad i = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -5965,7 +5829,6 @@ In this chapter, we have explored the concept of constrained optimization, which
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -5975,7 +5838,6 @@ $$
 & h(x) = 0
 
 \end{aligned}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Use the Lagrange multiplier method to find the optimal solution.
@@ -5993,7 +5855,6 @@ Prove that the optimal solution to a convex optimization problem with linear con
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -6003,7 +5864,6 @@ $$
 & x^2 \leq 1
 
 \end{aligned}
-
 $$
 
 Find the optimal solution using the KKT conditions.
@@ -6021,7 +5881,6 @@ Prove that the dual problem of a constrained optimization problem is always a co
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -6031,7 +5890,6 @@ $$
 & h(x) \leq 0
 
 \end{aligned}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Show that the optimal solution lies at the intersection of the active constraints, i.e., $g(x) = 0$ and $h(x) = 0$.
@@ -6053,7 +5911,6 @@ In this chapter, we have explored the concept of constrained optimization, which
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -6063,7 +5920,6 @@ $$
 & h(x) = 0
 
 \end{aligned}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Use the Lagrange multiplier method to find the optimal solution.
@@ -6081,7 +5937,6 @@ Prove that the optimal solution to a convex optimization problem with linear con
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -6091,7 +5946,6 @@ $$
 & x^2 \leq 1
 
 \end{aligned}
-
 $$
 
 Find the optimal solution using the KKT conditions.
@@ -6109,7 +5963,6 @@ Prove that the dual problem of a constrained optimization problem is always a co
 Consider the following constrained optimization problem:
 
 $$
-
 \begin{aligned}
 
 \text{minimize} \quad & f(x) \\
@@ -6119,7 +5972,6 @@ $$
 & h(x) \leq 0
 
 \end{aligned}
-
 $$
 
 where $f(x)$, $g(x)$, and $h(x)$ are convex functions. Show that the optimal solution lies at the intersection of the active constraints, i.e., $g(x) = 0$ and $h(x) = 0$.
@@ -6643,9 +6495,7 @@ In conclusion, nonconvex optimization is a challenging but essential topic in th
 Consider the following nonconvex optimization problem:
 
 $$
-
 \min_{x} f(x) = x^4 - 3x^3 + 2x^2 + 5x - 1
-
 $$
 
 Use the gradient descent method to find the local and global optima of this function.
@@ -6669,9 +6519,7 @@ Discuss the advantages and disadvantages of using genetic algorithms for nonconv
 Consider the following nonconvex optimization problem:
 
 $$
-
 \min_{x} f(x) = \frac{1}{2}x^4 - 2x^3 + 3x^2 + 4x + 5
-
 $$
 
 Use the Newton's method to find the local and global optima of this function.
@@ -6707,9 +6555,7 @@ In conclusion, nonconvex optimization is a challenging but essential topic in th
 Consider the following nonconvex optimization problem:
 
 $$
-
 \min_{x} f(x) = x^4 - 3x^3 + 2x^2 + 5x - 1
-
 $$
 
 Use the gradient descent method to find the local and global optima of this function.
@@ -6733,9 +6579,7 @@ Discuss the advantages and disadvantages of using genetic algorithms for nonconv
 Consider the following nonconvex optimization problem:
 
 $$
-
 \min_{x} f(x) = \frac{1}{2}x^4 - 2x^3 + 3x^2 + 4x + 5
-
 $$
 
 Use the Newton's method to find the local and global optima of this function.
@@ -7319,9 +7163,7 @@ A second-order cone is a set of points in n-dimensional space defined by the fol
 
 
 $$
-
 \mathcal{K} = \{(x_1, ..., x_n) \in \mathbb{R}^n : \|x_1\| \leq x_2\}
-
 $$
 
 
@@ -7331,9 +7173,7 @@ In other words, a second-order cone is a set of points where the norm of the fir
 
 
 $$
-
 \mathcal{K} = \{(x_1, x_2) \in \mathbb{R}^2 : x_2 \geq \|x_1\|\}
-
 $$
 
 
@@ -7351,7 +7191,6 @@ SOCP problems can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -7361,7 +7200,6 @@ $$
 & \|Cx + d\| \leq e
 
 \end{align*}
-
 $$
 
 
@@ -7379,7 +7217,6 @@ Similar to other convex optimization problems, SOCP also has a dual problem that
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & -b^Ty - e^Tz \\
@@ -7389,7 +7226,6 @@ $$
 & \|z\| \leq y
 
 \end{align*}
-
 $$
 
 
@@ -7441,7 +7277,6 @@ Similar to other convex optimization problems, SOCP also has a dual problem that
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & b^Ty - e^Tz \\
@@ -7451,7 +7286,6 @@ $$
 & \|z\| \leq y
 
 \end{align*}
-
 $$
 
 
@@ -7503,7 +7337,6 @@ SDP is a type of convex optimization problem where the objective function is lin
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \langle C, X \rangle \\
@@ -7513,7 +7346,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7535,7 +7367,6 @@ SDP also has a dual problem, which can be formulated as:
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & b^Ty \\
@@ -7545,7 +7376,6 @@ $$
 & S \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7601,7 +7431,6 @@ To understand affine equivalence, let us consider the general form of an SDP pro
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \langle C, X \rangle \\
@@ -7611,7 +7440,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7621,7 +7449,6 @@ We can rewrite this problem as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7631,7 +7458,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7641,7 +7467,6 @@ This is now a linear program, which can be solved using existing solvers. Simila
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & t \\
@@ -7653,7 +7478,6 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -7671,7 +7495,6 @@ Similar to other types of convex optimization problems, SDP also has a dual prob
 
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & b^Ty \\
@@ -7681,7 +7504,6 @@ $$
 & S \succeq 0
 
 \end{align*}
-
 $$
 
 
@@ -8337,7 +8159,6 @@ Linear programming problems can be represented in the following standard form:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &c^Tx \\
@@ -8347,7 +8168,6 @@ $$
 &x \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8361,7 +8181,6 @@ To better understand the concept of linear programming, let's look at a simple e
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8373,7 +8192,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8417,7 +8235,6 @@ Linear programming problems can be represented in the following standard form:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &c^Tx \\
@@ -8427,7 +8244,6 @@ $$
 &x \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8441,7 +8257,6 @@ To better understand the concept of linear programming, let's look at a simple e
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8453,7 +8268,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8475,7 +8289,6 @@ Linear programming problems can arise in various real-world situations, such as 
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &x_1 + x_2 + x_3 \\
@@ -8485,7 +8298,6 @@ $$
 &x_1, x_2, x_3 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8499,7 +8311,6 @@ where $x_1$ represents the number of TV ads, $x_2$ represents the number of radi
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8511,7 +8322,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8525,7 +8335,6 @@ where $x_1$ represents the number of units of product X produced, and $x_2$ repr
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &10x_{11} + 15x_{12} + 20x_{21} + 25x_{22} \\
@@ -8541,7 +8350,6 @@ $$
 &x_{11}, x_{12}, x_{21}, x_{22} \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8577,7 +8385,6 @@ To better understand the simplex method, let's revisit the example from the prev
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8589,7 +8396,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8599,7 +8405,6 @@ To solve this problem using the simplex method, we first need to convert it into
 
 
 $$
-
 \begin{array}{|c|c|c|c|c|c|c|}
 
 \hline
@@ -8621,7 +8426,6 @@ z & -10 & -15 & 0 & 0 & 0 \\
 \hline
 
 \end{array}
-
 $$
 
 
@@ -8643,7 +8447,6 @@ The pivot element is then used to perform row operations to make all other eleme
 
 
 $$
-
 \begin{array}{|c|c|c|c|c|c|c|}
 
 \hline
@@ -8665,7 +8468,6 @@ z & 0 & -15 & 20 & 40 & 2400 \\
 \hline
 
 \end{array}
-
 $$
 
 
@@ -8701,7 +8503,6 @@ To better understand the simplex method, let's revisit the example from the prev
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8713,7 +8514,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8723,7 +8523,6 @@ To solve this problem using the simplex method, we first need to convert it into
 
 
 $$
-
 \begin{array}{|c|c|c|c|c|c|c|}
 
 \hline
@@ -8745,7 +8544,6 @@ z & -10 & -15 & 0 & 0 & 0 \\
 \hline
 
 \end{array}
-
 $$
 
 
@@ -8763,7 +8561,6 @@ Next, the pivot row is determined by dividing the pivot row by the pivot element
 
 
 $$
-
 \begin{array}{|c|c|c|c|c|c|c|}
 
 \hline
@@ -8785,7 +8582,6 @@ z & 0 & -15 & 2 & 2 & 2400 \\
 \hline
 
 \end{array}
-
 $$
 
 
@@ -8839,7 +8635,6 @@ To understand duality in linear programming, let's revisit the example from the 
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8851,7 +8646,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8861,7 +8655,6 @@ The dual problem for this primal problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &240y_1 + 200y_2 \\
@@ -8873,7 +8666,6 @@ $$
 &y_1, y_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8913,7 +8705,6 @@ To understand duality in linear programming, let's revisit the example from the 
 
 
 $$
-
 \begin{align*}
 
 \text{maximize } &10x_1 + 15x_2 \\
@@ -8925,7 +8716,6 @@ $$
 &x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8935,7 +8725,6 @@ The dual problem for this primal problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } &240y_1 + 200y_2 \\
@@ -8947,7 +8736,6 @@ $$
 &y_1, y_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -9099,7 +8887,6 @@ Linear programming is a versatile and widely used technique in optimization, wit
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -9111,7 +8898,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Solve the problem graphically. (b) Use the simplex method to find the optimal solution. (c) Find the dual problem and its optimal solution.
@@ -9135,7 +8921,6 @@ A farmer has 100 acres of land available for planting corn and wheat. Each acre 
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -9147,7 +8932,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Solve the problem graphically. (b) Use the simplex method to find the optimal solution. (c) Find the dual problem and its optimal solution.
@@ -9179,7 +8963,6 @@ Linear programming is a versatile and widely used technique in optimization, wit
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -9191,7 +8974,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Solve the problem graphically. (b) Use the simplex method to find the optimal solution. (c) Find the dual problem and its optimal solution.
@@ -9215,7 +8997,6 @@ A farmer has 100 acres of land available for planting corn and wheat. Each acre 
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -9227,7 +9008,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Solve the problem graphically. (b) Use the simplex method to find the optimal solution. (c) Find the dual problem and its optimal solution.
@@ -9367,17 +9147,13 @@ A company produces two types of products, A and B, using two types of resources,
 
 
 $$
-
 Profit_A = 10X + 5Y
-
 $$
 
 
 
 $$
-
 Profit_B = 8X + 6Y
-
 $$
 
 
@@ -9387,17 +9163,13 @@ The company has a limited amount of resources, X and Y, available for production
 
 
 $$
-
 X \leq 100
-
 $$
 
 
 
 $$
-
 Y \leq 80
-
 $$
 
 
@@ -9809,7 +9581,6 @@ Nonlinear programming is a vast and complex field, and this chapter has only scr
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9819,7 +9590,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9831,7 +9601,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9841,7 +9610,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9853,7 +9621,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9863,7 +9630,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9875,7 +9641,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9887,7 +9652,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9899,7 +9663,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9911,7 +9674,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9941,7 +9703,6 @@ Nonlinear programming is a vast and complex field, and this chapter has only scr
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9951,7 +9712,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9963,7 +9723,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9973,7 +9732,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -9985,7 +9743,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -9995,7 +9752,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -10007,7 +9763,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -10019,7 +9774,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -10031,7 +9785,6 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x,y} \quad & x^2 + y^2 \\
@@ -10043,7 +9796,6 @@ $$
 & x, y \geq 0
 
 \end{align*}
-
 $$
 
 (a) Use the method of Lagrange multipliers to find the optimal solution. (b) Verify your solution using a graphical approach.
@@ -10087,7 +9839,6 @@ Integer programming, also known as integer optimization, is a type of mathematic
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x) \\
@@ -10097,7 +9848,6 @@ $$
 & g_i(x) \leq b_i, \quad i = 1,2,...,m
 
 \end{align*}
-
 $$
 
 
@@ -10155,7 +9905,6 @@ Integer programming, also known as integer optimization, is a type of mathematic
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x) \\
@@ -10165,7 +9914,6 @@ $$
 & g_i(x) \leq b_i, \quad i = 1,2,...,m
 
 \end{align*}
-
 $$
 
 
@@ -10553,7 +10301,6 @@ In the next chapter, we will delve deeper into the world of integer programming 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & 2x_1 + 3x_2 \\
@@ -10563,7 +10310,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we remove the integer constraint on $x_2$?
@@ -10581,7 +10327,6 @@ Prove that the set of feasible solutions to a pure integer programming problem i
 Consider the following binary integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x_1 + x_2 \\
@@ -10591,7 +10336,6 @@ $$
 & x_1, x_2 \in \{0, 1\}
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we change the constraint to $x_1 + x_2 \geq 2$?
@@ -10609,7 +10353,6 @@ Discuss the differences between mixed-integer programming and pure integer progr
 Consider the following pure integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x_1 + x_2 \\
@@ -10619,7 +10362,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}^+
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we change the constraint to $x_1 + x_2 \geq 2$?
@@ -10649,7 +10391,6 @@ In the next chapter, we will delve deeper into the world of integer programming 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & 2x_1 + 3x_2 \\
@@ -10659,7 +10400,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we remove the integer constraint on $x_2$?
@@ -10677,7 +10417,6 @@ Prove that the set of feasible solutions to a pure integer programming problem i
 Consider the following binary integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x_1 + x_2 \\
@@ -10687,7 +10426,6 @@ $$
 & x_1, x_2 \in \{0, 1\}
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we change the constraint to $x_1 + x_2 \geq 2$?
@@ -10705,7 +10443,6 @@ Discuss the differences between mixed-integer programming and pure integer progr
 Consider the following pure integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & x_1 + x_2 \\
@@ -10715,7 +10452,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}^+
 
 \end{align*}
-
 $$
 
 (a) What is the optimal solution to this problem? (b) How does the optimal objective value change if we change the constraint to $x_1 + x_2 \geq 2$?
@@ -11305,9 +11041,7 @@ Formally, robust optimization can be defined as follows: given an optimization p
 
 
 $$
-
 x^* = \arg \min_{x \in \mathbb{R}^n} \max_{p \in \mathcal{P}} f(x,p)
-
 $$
 
 
@@ -11371,9 +11105,7 @@ Formally, robust optimization can be defined as follows: given an optimization p
 
 
 $$
-
 x^* = \arg \min_{x \in \mathbb{R}^n} \max_{p \in \mathcal{P}} f(x,p)
-
 $$
 
 
@@ -11689,7 +11421,6 @@ In this chapter, we have introduced the concept of robust optimization, which is
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11699,13 +11430,11 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{m \times n}$ is the constraint matrix, $b \in \mathbb{R}^m$ is the right-hand side vector, and $\Delta \in \mathbb{R}^m$ is an uncertainty vector. Show that this problem is equivalent to the following robust linear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11715,7 +11444,6 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -11727,7 +11455,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11737,13 +11464,11 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ is a positive definite matrix, $b \in \mathbb{R}$ is a scalar, and $\Delta \in \mathbb{R}$ is an uncertainty parameter. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11753,7 +11478,6 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -11765,7 +11489,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11775,13 +11498,11 @@ $$
 & x^TAx \leq b + \Delta
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ is a positive definite matrix, $b \in \mathbb{R}$ is a scalar, and $\Delta \in \mathbb{R}$ is an uncertainty parameter. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11791,7 +11512,6 @@ $$
 & x^TAx \leq b + \lambda \Delta
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -11803,7 +11523,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11815,13 +11534,11 @@ $$
 & x^TBx \leq d + \epsilon
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ and $B \in \mathbb{R}^{n \times n}$ are positive definite matrices, $b \in \mathbb{R}$ and $d \in \mathbb{R}$ are scalars, and $\Delta \in \mathbb{R}$ and $\epsilon \in \mathbb{R}$ are uncertainty parameters. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11833,7 +11550,6 @@ $$
 & x^TBx \leq d + \mu \epsilon
 
 \end{align*}
-
 $$
 
 where $\lambda, \mu \in \mathbb{R}$ are scalar parameters.
@@ -11845,7 +11561,6 @@ where $\lambda, \mu \in \mathbb{R}$ are scalar parameters.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11859,13 +11574,11 @@ $$
 & x^TCx \leq f + \gamma
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A, B, C \in \mathbb{R}^{n \times n}$ are positive definite matrices, $b, d, f \in \mathbb{R}$ are scalars, and $\Delta, \epsilon, \gamma \in \mathbb{R}$ are uncertainty parameters. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11879,7 +11592,6 @@ $$
 & x^TCx \leq f + \nu \gamma
 
 \end{align*}
-
 $$
 
 where $\lambda, \mu, \nu \in \mathbb{R}$ are scalar parameters.
@@ -11901,7 +11613,6 @@ In this chapter, we have introduced the concept of robust optimization, which is
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11911,13 +11622,11 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{m \times n}$ is the constraint matrix, $b \in \mathbb{R}^m$ is the right-hand side vector, and $\Delta \in \mathbb{R}^m$ is an uncertainty vector. Show that this problem is equivalent to the following robust linear programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11927,7 +11636,6 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -11939,7 +11647,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11949,13 +11656,11 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ is a positive definite matrix, $b \in \mathbb{R}$ is a scalar, and $\Delta \in \mathbb{R}$ is an uncertainty parameter. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11965,7 +11670,6 @@ $$
 & x \in \mathcal{X}
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -11977,7 +11681,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -11987,13 +11690,11 @@ $$
 & x^TAx \leq b + \Delta
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ is a positive definite matrix, $b \in \mathbb{R}$ is a scalar, and $\Delta \in \mathbb{R}$ is an uncertainty parameter. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -12003,7 +11704,6 @@ $$
 & x^TAx \leq b + \lambda \Delta
 
 \end{align*}
-
 $$
 
 where $\lambda \in \mathbb{R}$ is a scalar parameter.
@@ -12015,7 +11715,6 @@ where $\lambda \in \mathbb{R}$ is a scalar parameter.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -12027,13 +11726,11 @@ $$
 & x^TBx \leq d + \epsilon
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A \in \mathbb{R}^{n \times n}$ and $B \in \mathbb{R}^{n \times n}$ are positive definite matrices, $b \in \mathbb{R}$ and $d \in \mathbb{R}$ are scalars, and $\Delta \in \mathbb{R}$ and $\epsilon \in \mathbb{R}$ are uncertainty parameters. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -12045,7 +11742,6 @@ $$
 & x^TBx \leq d + \mu \epsilon
 
 \end{align*}
-
 $$
 
 where $\lambda, \mu \in \mathbb{R}$ are scalar parameters.
@@ -12057,7 +11753,6 @@ where $\lambda, \mu \in \mathbb{R}$ are scalar parameters.
 Consider the following robust optimization problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -12071,13 +11766,11 @@ $$
 & x^TCx \leq f + \gamma
 
 \end{align*}
-
 $$
 
 where $x \in \mathbb{R}^n$ is the decision variable, $c \in \mathbb{R}^n$ is the cost vector, $A, B, C \in \mathbb{R}^{n \times n}$ are positive definite matrices, $b, d, f \in \mathbb{R}$ are scalars, and $\Delta, \epsilon, \gamma \in \mathbb{R}$ are uncertainty parameters. Show that this problem is equivalent to the following robust quadratic programming problem:
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & c^Tx \\
@@ -12091,7 +11784,6 @@ $$
 & x^TCx \leq f + \nu \gamma
 
 \end{align*}
-
 $$
 
 where $\lambda, \mu, \nu \in \mathbb{R}$ are scalar parameters.
@@ -12147,7 +11839,6 @@ Mathematically, multi-objective optimization can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 & \underset{x}{\text{minimize}} & & f_i(x), \quad i = 1,2,...,m \\
@@ -12157,7 +11848,6 @@ $$
 & & & h_k(x) = 0, \quad k = 1,2,...,q
 
 \end{align*}
-
 $$
 
 
@@ -12225,7 +11915,6 @@ Mathematically, multi-objective optimization can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 & \underset{x}{\text{minimize}} & & f_i(x), \quad i = 1,2,...,m \\
@@ -12235,7 +11924,6 @@ $$
 & & & h_k(x) = 0, \quad k = 1,2,...,q
 
 \end{align*}
-
 $$
 
 
@@ -12455,9 +12143,7 @@ The most common scalarization method is the weighted sum method, where each obje
 
 
 $$
-
 \min_{x} \sum_{i=1}^{m} w_i f_i(x)
-
 $$
 
 
@@ -12479,7 +12165,6 @@ To better understand scalarization methods, let's consider the following example
 
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12491,7 +12176,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -12501,9 +12185,7 @@ Using the weighted sum method, we can convert this problem into a single-objecti
 
 
 $$
-
 \min_{x} \quad w_1 f_1(x) + w_2 f_2(x) + w_3 f_3(x)
-
 $$
 
 
@@ -12539,9 +12221,7 @@ The most common scalarization method is the weighted sum method, where each obje
 
 
 $$
-
 \min_{x} \sum_{i=1}^{m} w_i f_i(x)
-
 $$
 
 
@@ -12591,7 +12271,6 @@ To better understand scalarization methods, let's consider the following example
 
 
 $$
-
 \begin{align*}
 
 \min_{x} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12603,7 +12282,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -12613,9 +12291,7 @@ Using the weighted sum method, we can convert this problem into a single-objecti
 
 
 $$
-
 \min_{x} \quad w_1 f_1(x) + w_2 f_2(x) + w_3 f_3(x)
-
 $$
 
 
@@ -12763,7 +12439,6 @@ Overall, multi-objective optimization is a powerful tool that allows us to find 
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12773,7 +12448,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12785,7 +12459,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12795,7 +12468,6 @@ $$
 & x_1 + x_2 \geq 2
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12807,7 +12479,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12817,7 +12488,6 @@ $$
 & x_1 + x_2 \leq 2
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12829,7 +12499,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12839,7 +12508,6 @@ $$
 & x_1 - x_2 = 1
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12851,7 +12519,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12861,7 +12528,6 @@ $$
 & x_1 + x_2 = 1
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12887,7 +12553,6 @@ Overall, multi-objective optimization is a powerful tool that allows us to find 
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12897,7 +12562,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12909,7 +12573,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12919,7 +12582,6 @@ $$
 & x_1 + x_2 \geq 2
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12931,7 +12593,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12941,7 +12602,6 @@ $$
 & x_1 + x_2 \leq 2
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12953,7 +12613,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12963,7 +12622,6 @@ $$
 & x_1 - x_2 = 1
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -12975,7 +12633,6 @@ $$
 Consider the following multi-objective optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f_1(x) = x_1^2 + x_2^2 \\
@@ -12985,7 +12642,6 @@ $$
 & x_1 + x_2 = 1
 
 \end{align*}
-
 $$
 
 (a) Plot the feasible region of the problem. (b) Find the Pareto optimal solutions. (c) Discuss the trade-offs between the two objectives.
@@ -14611,7 +14267,6 @@ Consider a two-player game with the following payoff matrix:
 
 
 $$
-
 A = \begin{bmatrix}
 
     2 & 3 \\
@@ -14619,7 +14274,6 @@ A = \begin{bmatrix}
     4 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -14639,7 +14293,6 @@ In a game with three players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 & 3 \\
@@ -14649,7 +14302,6 @@ A = \begin{bmatrix}
     7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 
@@ -14669,7 +14321,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 \\
@@ -14677,7 +14328,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -14697,7 +14347,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     2 & 1 \\
@@ -14705,7 +14354,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -14725,7 +14373,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 \\
@@ -14733,7 +14380,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -14763,7 +14409,6 @@ Consider a two-player game with the following payoff matrix:
 
 
 $$
-
 A = \begin{bmatrix}
 
     2 & 3 \\
@@ -14771,7 +14416,6 @@ A = \begin{bmatrix}
     4 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -14791,7 +14435,6 @@ In a game with three players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 & 3 \\
@@ -14801,7 +14444,6 @@ A = \begin{bmatrix}
     7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 
@@ -14821,7 +14463,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 \\
@@ -14829,7 +14470,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -14849,7 +14489,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     2 & 1 \\
@@ -14857,7 +14496,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 
@@ -14877,7 +14515,6 @@ In a game with two players, the payoff matrix is given by:
 
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 \\
@@ -14885,7 +14522,6 @@ A = \begin{bmatrix}
     3 & 4
 
 \end{bmatrix}
-
 $$
 
 

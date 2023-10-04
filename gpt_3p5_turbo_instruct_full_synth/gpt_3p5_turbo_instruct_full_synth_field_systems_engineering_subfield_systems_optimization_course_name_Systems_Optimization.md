@@ -860,7 +860,6 @@ Through this chapter, we have laid the foundation for understanding systems opti
 #### Exercise 1
 
 Consider the following optimization problem: $$\min_{x,y} 3x^2 + 2y^2$$
-
 subject to $$x + y = 10$$
 
 Find the optimal values of x and y using the method of Lagrange multipliers.
@@ -1368,7 +1367,6 @@ Consider a transportation company that needs to optimize its delivery routes to 
 #### Exercise 2
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -1386,7 +1384,6 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider a communication network with 5 nodes and 8 links. Develop a nonlinear network model to optimize the flow of data through the network, taking into account the capacity of each link.
@@ -1396,7 +1393,6 @@ Consider a communication network with 5 nodes and 8 links. Develop a nonlinear n
 #### Exercise 4
 
 Solve the following integer programming problem using the branch and bound method:
-
 $$
 
 \begin{align*}
@@ -1414,7 +1410,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
@@ -1454,7 +1449,6 @@ Consider a transportation company that needs to optimize its delivery routes to 
 #### Exercise 2
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -1472,7 +1466,6 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider a communication network with 5 nodes and 8 links. Develop a nonlinear network model to optimize the flow of data through the network, taking into account the capacity of each link.
@@ -1482,7 +1475,6 @@ Consider a communication network with 5 nodes and 8 links. Develop a nonlinear n
 #### Exercise 4
 
 Solve the following integer programming problem using the branch and bound method:
-
 $$
 
 \begin{align*}
@@ -1500,7 +1492,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
@@ -1586,14 +1577,11 @@ Linear programming can be defined as a mathematical method for finding the optim
 The general form of a linear programming problem can be written as:
 
 
-
 $$
 
 \text{Maximize } c_1x_1 + c_2x_2 + ... + c_nx_n
 
 $$
-
-
 
 $$
 
@@ -1601,15 +1589,11 @@ $$
 
 $$
 
-
-
 $$
 
 a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n \leq b_2
 
 $$
-
-
 
 $$
 
@@ -1617,22 +1601,17 @@ $$
 
 $$
 
-
-
 $$
 
 a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n \leq b_m
 
 $$
 
-
-
 $$
 
 x_1, x_2, ..., x_n \geq 0
 
 $$
-
 
 
 Where:
@@ -1706,7 +1685,6 @@ Linear programming problems can be formulated in a standard form, which consists
 The general form of a linear programming problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -1722,13 +1700,11 @@ $$
 $$
 
 
-
 where $c$ is a vector of coefficients for the objective function, $x$ is a vector of decision variables, $A$ is a matrix of coefficients for the constraints, and $b$ is a vector of constants for the constraints.
 
 
 
 The objective function can also be written in a minimization form, where we want to minimize the objective function instead of maximizing it. In this case, the general form of a linear programming problem becomes:
-
 
 
 $$
@@ -1744,7 +1720,6 @@ $$
 \end{align}
 
 $$
-
 
 
 Linear programming problems can have multiple constraints and decision variables, making them suitable for solving complex optimization problems. In the next section, we will discuss the simplex method, which is a widely used algorithm for solving linear programming problems.
@@ -2320,7 +2295,6 @@ A farmer has 100 acres of land to plant two crops, wheat and corn. Each acre of 
 #### Exercise 3
 
 Solve the following linear programming problem using the graphical method:
-
 $$
 
 \begin{align*}
@@ -2338,11 +2312,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -2358,7 +2330,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
@@ -2416,7 +2387,6 @@ A farmer has 100 acres of land to plant two crops, wheat and corn. Each acre of 
 #### Exercise 3
 
 Solve the following linear programming problem using the graphical method:
-
 $$
 
 \begin{align*}
@@ -2434,11 +2404,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Solve the following linear programming problem using the simplex method:
-
 $$
 
 \begin{align*}
@@ -2454,7 +2422,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
@@ -4060,7 +4027,6 @@ In Integer Programming, the decision variables are restricted to integer values,
 Mathematically, Integer Programming can be represented as:
 
 
-
 $$
 
 \begin{align*}
@@ -4074,7 +4040,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c$ is the vector of coefficients for the objective function, $x$ is the vector of decision variables, $A$ is the constraint matrix, $b$ is the vector of constraint values, and $\mathbb{Z}^n$ represents the set of all possible integer values for $x$.
@@ -4296,14 +4261,11 @@ To formulate an IP problem, we must first identify the decision variables and th
 Let us consider an example of an IP problem. A company produces two types of products, A and B, and has a limited amount of resources, such as labor and materials. The company wants to maximize its profit by determining the optimal production quantities of A and B. The decision variables in this problem are the quantities of A and B, denoted by $x_A$ and $x_B$, respectively. The constraints are the availability of resources, which can be represented as:
 
 
-
 $$
 
 2x_A + 3x_B \leq 100 \quad \text{(labor constraint)}
 
 $$
-
-
 
 $$
 
@@ -4312,9 +4274,7 @@ $$
 $$
 
 
-
 The objective function is the total profit, which is given by:
-
 
 
 $$
@@ -4322,7 +4282,6 @@ $$
 \text{Maximize } 5x_A + 4x_B
 
 $$
-
 
 
 By formulating the problem in this way, we can now use various techniques to solve it and determine the optimal values of $x_A$ and $x_B$.
@@ -4380,7 +4339,6 @@ Integer Programming problems can be formulated in various ways, depending on the
 The general formulation of an Integer Programming problem can be written as:
 
 
-
 $$
 
 \begin{align*}
@@ -4394,7 +4352,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c$ is a vector of coefficients for the objective function, $x$ is a vector of decision variables, $A$ is a matrix of constraints, $b$ is a vector of constraint values, and $x \in \mathbb{Z}^n$ indicates that the decision variables must take on integer values.
@@ -4430,7 +4387,6 @@ The company has a total of 100 labor hours and 80 units of raw materials availab
 To formulate this problem as an Integer Programming problem, we can define the decision variables as $x_1$ and $x_2$, representing the number of units of product A and B produced, respectively. The objective function can be written as:
 
 
-
 $$
 
 \text{maximize } 10x_1 + 15x_2
@@ -4438,9 +4394,7 @@ $$
 $$
 
 
-
 The constraints can be written as:
-
 
 
 $$
@@ -4458,9 +4412,7 @@ x_1, x_2 &\in \mathbb{Z}
 $$
 
 
-
 Therefore, the complete formulation of this problem would be:
-
 
 
 $$
@@ -4478,7 +4430,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 In this example, the decision variables must take on integer values because we cannot produce a fraction of a product. This is a common characteristic of many real-world problems, making Integer Programming a valuable tool for optimization.
@@ -4588,7 +4539,6 @@ Decision variables:
 
 
 Objective function:
-
 $$
 
 \text{Maximize } 10x_A + 15x_B + 20x_C
@@ -4596,37 +4546,27 @@ $$
 $$
 
 
-
 Constraints:
-
 $$
 
 2x_A + 4x_B + 3x_C \leq 100 \text{ (labor constraint)}
 
 $$
-
 $$
 
 3x_A + 2x_B + 5x_C \leq 80 \text{ (raw materials constraint)}
-
 $$
 
 $$
-
 x_A \leq 100 \text{ (demand for product A)}
-
 $$
 
 $$
-
 x_B \leq 80 \text{ (demand for product B)}
-
 $$
 
 $$
-
 x_C \leq 120 \text{ (demand for product C)}
-
 $$
 
 
@@ -4668,9 +4608,7 @@ Decision variables:
 Objective function:
 
 $$
-
 \text{Minimize } 100,000x_A + 150,000x_B + 200,000x_C
-
 $$
 
 
@@ -4678,15 +4616,11 @@ $$
 Constraints:
 
 $$
-
 x_A + x_B + x_C = 1 \text{ (exactly one facility must be opened)}
-
 $$
 
 $$
-
 200x_A + 300x_B + 400x_C \geq 200 \text{ (demand must be met)}
-
 $$
 
 
@@ -4938,7 +4872,6 @@ Overall, integer programming is a powerful tool for systems optimization, and it
 Consider the following binary integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -4948,7 +4881,6 @@ $$
 & x_1, x_2 \in \{0, 1\}
 
 \end{align*}
-
 $$
 
 Find the optimal solution using the branch and bound algorithm.
@@ -4966,7 +4898,6 @@ A company produces two types of products, A and B, using two machines, X and Y. 
 Solve the following pure integer programming problem using the cutting plane algorithm:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -4976,7 +4907,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}^+
 
 \end{align*}
-
 $$
 
 
@@ -4992,7 +4922,6 @@ A company has three factories located in different cities. Each factory produces
 Consider the following mixed-integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -5004,7 +4933,6 @@ $$
 & x_1 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Find the optimal solution using the branch and cut algorithm.
@@ -5034,7 +4962,6 @@ Overall, integer programming is a powerful tool for systems optimization, and it
 Consider the following binary integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -5044,7 +4971,6 @@ $$
 & x_1, x_2 \in \{0, 1\}
 
 \end{align*}
-
 $$
 
 Find the optimal solution using the branch and bound algorithm.
@@ -5062,7 +4988,6 @@ A company produces two types of products, A and B, using two machines, X and Y. 
 Solve the following pure integer programming problem using the cutting plane algorithm:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -5072,7 +4997,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}^+
 
 \end{align*}
-
 $$
 
 
@@ -5088,7 +5012,6 @@ A company has three factories located in different cities. Each factory produces
 Consider the following mixed-integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 2x_1 + 3x_2 \\
@@ -5100,7 +5023,6 @@ $$
 & x_1 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Find the optimal solution using the branch and cut algorithm.
@@ -6354,9 +6276,7 @@ The objective function can be written as:
 
 
 $$
-
 \max_{w_1, w_2, ..., w_n} E[R_p] = \sum_{i=1}^{n} w_i E[R_i]
-
 $$
 
 
@@ -6370,17 +6290,13 @@ The constraints can be defined as:
 
 
 $$
-
 \sum_{i=1}^{n} w_i = 1
-
 $$
 
 
 
 $$
-
 w_i \geq 0, \forall i
-
 $$
 
 

@@ -1626,25 +1626,19 @@ Mathematically, these quantities can be expressed as:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -1734,25 +1728,19 @@ Rectilinear motion is the motion of an object along a straight line. It is the s
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 x = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a(x-x_0)
-
 $$
 
 
@@ -1830,25 +1818,19 @@ The equations of motion for rectilinear motion are as follows:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -1874,25 +1856,19 @@ The equations of motion for rotational motion are as follows:
 
 
 $$
-
 \theta(t) = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2
-
 $$
 
 
 
 $$
-
 \omega(t) = \omega_0 + \alpha t
-
 $$
 
 
 
 $$
-
 \alpha(t) = \alpha
-
 $$
 
 
@@ -1978,9 +1954,7 @@ The position of an object is its location in space at a given time. It is usuall
 
 
 $$
-
 \vec{v}_{avg} = \frac{\Delta \vec{r}}{\Delta t}
-
 $$
 
 
@@ -1990,9 +1964,7 @@ where $\Delta t$ is the time interval. The instantaneous velocity, denoted by $\
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -2002,9 +1974,7 @@ Acceleration, denoted by $\vec{a}$, is the rate of change of velocity over time.
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2}
-
 $$
 
 
@@ -2018,25 +1988,19 @@ Motion in one dimension refers to the movement of an object along a straight lin
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 x = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a(x-x_0)
-
 $$
 
 
@@ -2054,9 +2018,7 @@ In two and three-dimensional motion, the position, velocity, and acceleration ar
 
 
 $$
-
 \vec{r} = \vec{r_0} + \vec{v_0}t + \frac{1}{2}\vec{a}t^2
-
 $$
 
 
@@ -2070,9 +2032,7 @@ Relative motion refers to the motion of an object with respect to a frame of ref
 
 
 $$
-
 \vec{v}_{rel} = \vec{v}_A - \vec{v}_B
-
 $$
 
 
@@ -2158,25 +2118,19 @@ Motion in one dimension refers to the movement of an object along a straight lin
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a = \frac{v(t) - v_0}{t}
-
 $$
 
 
@@ -2202,9 +2156,7 @@ Uniform circular motion refers to the movement of an object in a circular path a
 
 
 $$
-
 a = \frac{v^2}{r}
-
 $$
 
 
@@ -2222,33 +2174,25 @@ Projectile motion refers to the motion of an object that is launched into the ai
 
 
 $$
-
 x(t) = x_0 + v_{0x}t
-
 $$
 
 
 
 $$
-
 y(t) = y_0 + v_{0y}t - \frac{1}{2}gt^2
-
 $$
 
 
 
 $$
-
 v_x(t) = v_{0x}
-
 $$
 
 
 
 $$
-
 v_y(t) = v_{0y} - gt
-
 $$
 
 
@@ -2334,25 +2278,19 @@ Motion in one dimension refers to the movement of an object along a straight lin
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 x = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a(x-x_0)
-
 $$
 
 
@@ -2378,17 +2316,13 @@ Projectile motion is a type of motion in which an object is launched into the ai
 
 
 $$
-
 x = x_0 + v_{0x}t
-
 $$
 
 
 
 $$
-
 y = y_0 + v_{0y}t - \frac{1}{2}gt^2
-
 $$
 
 
@@ -2406,17 +2340,13 @@ Uniform circular motion is a type of motion in which an object moves along a cir
 
 
 $$
-
 v = \frac{2\pi r}{T}
-
 $$
 
 
 
 $$
-
 a = \frac{v^2}{r} = \frac{4\pi^2r}{T^2}
-
 $$
 
 
@@ -2498,9 +2428,7 @@ Mathematically, this law can be expressed as:
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
@@ -2654,9 +2582,7 @@ The second law of motion states that the acceleration of an object is directly p
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -2674,9 +2600,7 @@ The third law of motion, also known as the action-reaction principle, states tha
 
 
 $$
-
 F_{AB} = -F_{BA}
-
 $$
 
 
@@ -2802,9 +2726,7 @@ In this section, we will discuss the concept of forces and how they affect the m
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -2830,17 +2752,13 @@ To determine if an object is in equilibrium, we can use the equations of equilib
 
 
 $$
-
 \sum F_x = 0
-
 $$
 
 
 
 $$
-
 \sum F_y = 0
-
 $$
 
 
@@ -2898,9 +2816,7 @@ In this section, we will discuss the concept of forces and how they affect the m
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -2922,17 +2838,13 @@ In some cases, an object may be in a state of equilibrium, where the net force a
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
 
 $$
-
 \sum \tau = 0
-
 $$
 
 
@@ -2990,9 +2902,7 @@ In this section, we will discuss the concept of forces and how they affect the m
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -3018,9 +2928,7 @@ The magnitude of frictional force can be calculated using the following equation
 
 
 $$
-
 F_f = \mu N
-
 $$
 
 
@@ -3082,9 +2990,7 @@ In this section, we will discuss the concept of forces and how they affect the m
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -3110,9 +3016,7 @@ In order to analyze the effects of tension forces on an object, we must first id
 
 
 $$
-
 T = mg
-
 $$
 
 
@@ -3174,9 +3078,7 @@ In this section, we will discuss the concept of forces and how they affect the m
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -3202,9 +3104,7 @@ The magnitude of the normal force can be calculated using the equation:
 
 
 $$
-
 F_N = mg\cos\theta
-
 $$
 
 
@@ -3266,9 +3166,7 @@ The work and energy principle states that the work done on an object is equal to
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -3338,9 +3236,7 @@ The work and energy principle states that the work done on an object is equal to
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -3358,9 +3254,7 @@ Kinetic energy is the energy an object possesses due to its motion. It is define
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -3438,9 +3332,7 @@ Mathematically, we can express the work and energy principle as:
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -3462,9 +3354,7 @@ There are several types of energy that are relevant to engineering dynamics. The
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -3478,9 +3368,7 @@ Where $m$ is the mass of the object and $v$ is its velocity.
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -3494,9 +3382,7 @@ Where $m$ is the mass of the object, $g$ is the acceleration due to gravity, and
 
 
 $$
-
 U = -\frac{Gm_1m_2}{r}
-
 $$
 
 
@@ -3510,9 +3396,7 @@ Where $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses of the t
 
 
 $$
-
 U = \frac{1}{2}kx^2
-
 $$
 
 
@@ -3526,9 +3410,7 @@ Where $k$ is the spring constant and $x$ is the displacement of the object from 
 
 
 $$
-
 E_{th} = \frac{3}{2}kT
-
 $$
 
 
@@ -3554,9 +3436,7 @@ The potential energy associated with simple harmonic motion is given by the equa
 
 
 $$
-
 U = \frac{1}{2}kx^2
-
 $$
 
 
@@ -3618,9 +3498,7 @@ The work and energy principle states that the work done on an object is equal to
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -3630,9 +3508,7 @@ where $W$ is the work done on the object and $\Delta K$ is the change in its kin
 
 
 $$
-
 W = F \cdot d
-
 $$
 
 
@@ -3654,9 +3530,7 @@ There are several types of energy that are important in engineering dynamics. Th
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -3670,9 +3544,7 @@ where $m$ is the mass of the object and $v$ is its velocity.
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -3686,9 +3558,7 @@ where $m$ is the mass of the object, $g$ is the acceleration due to gravity, and
 
 
 $$
-
 U = -\frac{Gm_1m_2}{r}
-
 $$
 
 
@@ -3702,9 +3572,7 @@ where $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses of the t
 
 
 $$
-
 U = \frac{1}{2}kx^2
-
 $$
 
 
@@ -3722,9 +3590,7 @@ The work-energy theorem states that the net work done on an object is equal to t
 
 
 $$
-
 W_{net} = \Delta K
-
 $$
 
 
@@ -3794,9 +3660,7 @@ The work and energy principle states that the work done on an object is equal to
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -3838,9 +3702,7 @@ The work-energy theorem states that the net work done on an object is equal to t
 
 
 $$
-
 W_{net} = \Delta K
-
 $$
 
 
@@ -3858,9 +3720,7 @@ Power is the rate at which work is done or energy is transferred. It is given by
 
 
 $$
-
 P = \frac{W}{t}
-
 $$
 
 
@@ -3942,9 +3802,7 @@ The work and energy principle states that the work done on an object is equal to
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -3984,9 +3842,7 @@ The work-energy theorem is a fundamental principle in engineering dynamics that 
 
 
 $$
-
 W = \Delta K = K_f - K_i
-
 $$
 
 
@@ -4170,9 +4026,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4198,9 +4052,7 @@ The conservation of linear momentum can be mathematically expressed as:
 
 
 $$
-
 \sum \vec{p}_i = \sum \vec{p}_f
-
 $$
 
 
@@ -4250,9 +4102,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4278,9 +4128,7 @@ The impulse-momentum principle states that the change in an object's momentum is
 
 
 $$
-
 \Delta p = \int_{t_1}^{t_2} F(t) dt
-
 $$
 
 
@@ -4338,9 +4186,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4366,9 +4212,7 @@ Impulse is defined as the change in momentum of an object due to an external for
 
 
 $$
-
 J = \Delta p = m\Delta\vec{v}
-
 $$
 
 
@@ -4382,9 +4226,7 @@ Impulse is closely related to the concept of force, as it is the product of forc
 
 
 $$
-
 J = F\Delta t
-
 $$
 
 
@@ -4402,9 +4244,7 @@ As mentioned earlier, the total momentum of a closed system remains constant. Th
 
 
 $$
-
 \sum m_i\vec{v_i} = \sum m_f\vec{v_f}
-
 $$
 
 
@@ -4454,9 +4294,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4482,9 +4320,7 @@ Impulse is defined as the change in momentum of an object due to an external for
 
 
 $$
-
 J = \Delta p = m\Delta\vec{v}
-
 $$
 
 
@@ -4550,9 +4386,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4578,9 +4412,7 @@ Impulse is defined as the change in momentum of an object due to an external for
 
 
 $$
-
 J = \Delta p = m\Delta \vec{v}
-
 $$
 
 
@@ -4654,9 +4486,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4682,9 +4512,7 @@ Impulse is defined as the change in momentum of an object due to an external for
 
 
 $$
-
 J = \Delta p = m\Delta\vec{v}
-
 $$
 
 
@@ -4750,9 +4578,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4834,9 +4660,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4910,9 +4734,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -4982,9 +4804,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -5018,9 +4838,7 @@ The parallel axis theorem is a useful tool in analyzing the motion of rigid bodi
 
 
 $$
-
 I = I_{cm} + md^2
-
 $$
 
 
@@ -5070,9 +4888,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -5098,9 +4914,7 @@ In this section, we will expand on the concept of linear momentum and apply it t
 
 
 $$
-
 p_{sys} = \sum_{i=1}^{n} m_i\vec{v_i}
-
 $$
 
 
@@ -5150,9 +4964,7 @@ Linear momentum is a fundamental concept in the study of engineering dynamics. I
 
 
 $$
-
 p = m\vec{v}
-
 $$
 
 
@@ -5174,9 +4986,7 @@ We also discussed the concept of impulse, which is the change in momentum of an 
 
 
 $$
-
 J = \Delta p = m\Delta\vec{v}
-
 $$
 
 
@@ -5202,9 +5012,7 @@ In this subsection, we will discuss the relationship between torque and angular 
 
 
 $$
-
 \tau = \vec{r} \times \vec{F}
-
 $$
 
 
@@ -5218,9 +5026,7 @@ Angular acceleration, on the other hand, is a measure of the rate of change of a
 
 
 $$
-
 \alpha = \frac{\Delta\omega}{\Delta t}
-
 $$
 
 
@@ -5234,9 +5040,7 @@ The relationship between torque and angular acceleration is similar to that of f
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -5420,9 +5224,7 @@ Angular momentum is a measure of an object's rotational motion. It is defined as
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -5440,9 +5242,7 @@ In this subsection, we will focus on the angular momentum of a single particle. 
 
 
 $$
-
 I = mr^2
-
 $$
 
 
@@ -5452,9 +5252,7 @@ Where $m$ is the mass of the particle and $r$ is the distance from the axis of r
 
 
 $$
-
 L = mr^2\omega
-
 $$
 
 
@@ -5512,9 +5310,7 @@ In this section, we will focus on the angular momentum of a single particle. Ang
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -5528,9 +5324,7 @@ The magnitude of angular momentum can be calculated using the formula:
 
 
 $$
-
 L = rp\sin\theta
-
 $$
 
 
@@ -5548,9 +5342,7 @@ In addition to the angular momentum of a single particle, we can also consider t
 
 
 $$
-
 \vec{L}_{total} = \sum_{i=1}^{N} \vec{L}_i
-
 $$
 
 
@@ -5612,9 +5404,7 @@ In this section, we will focus on the angular momentum of a single particle. Ang
 
 
 $$
-
 \vec{L} = I\vec{\omega}
-
 $$
 
 
@@ -5632,9 +5422,7 @@ The moment of inertia, denoted by $I$, is a measure of an object's resistance to
 
 
 $$
-
 I = mr^2
-
 $$
 
 
@@ -5652,9 +5440,7 @@ Angular velocity, denoted by $\vec{\omega}$, is a measure of the rate of change 
 
 
 $$
-
 \vec{\omega} = \frac{d\vec{\theta}}{dt}
-
 $$
 
 
@@ -5672,9 +5458,7 @@ Similar to linear momentum, angular momentum is also conserved in the absence of
 
 
 $$
-
 \frac{d\vec{L}}{dt} = 0
-
 $$
 
 
@@ -5736,9 +5520,7 @@ In this section, we will focus on the angular momentum of a single particle. Ang
 
 
 $$
-
 \vec{L} = I\vec{\omega}
-
 $$
 
 
@@ -5752,9 +5534,7 @@ The relationship between angular momentum and linear momentum can be seen by con
 
 
 $$
-
 \vec{p} = m\vec{v}
-
 $$
 
 
@@ -5764,9 +5544,7 @@ Where $m$ is the mass of the particle and $\vec{v}$ is its linear velocity. Sinc
 
 
 $$
-
 \vec{v} = \vec{\omega} \times \vec{r}
-
 $$
 
 
@@ -5776,9 +5554,7 @@ Where $\vec{r}$ is the position vector from the axis of rotation to the particle
 
 
 $$
-
 \vec{p} = m(\vec{\omega} \times \vec{r})
-
 $$
 
 
@@ -5788,9 +5564,7 @@ Taking the cross product of both sides with $\vec{r}$, we get:
 
 
 $$
-
 \vec{r} \times \vec{p} = m\vec{r} \times (\vec{\omega} \times \vec{r})
-
 $$
 
 
@@ -5800,9 +5574,7 @@ Using the vector triple product identity, we can simplify this to:
 
 
 $$
-
 \vec{r} \times \vec{p} = m(\vec{r} \cdot \vec{r})\vec{\omega} - (\vec{r} \cdot \vec{\omega})\vec{r}
-
 $$
 
 
@@ -5812,9 +5584,7 @@ Since $\vec{r}$ and $\vec{\omega}$ are perpendicular, their dot product is zero.
 
 
 $$
-
 \vec{r} \times \vec{p} = m(\vec{r} \cdot \vec{r})\vec{\omega}
-
 $$
 
 
@@ -5824,9 +5594,7 @@ Recalling that the moment of inertia is defined as $I = mr^2$, we can rewrite th
 
 
 $$
-
 \vec{r} \times \vec{p} = I\vec{\omega}
-
 $$
 
 
@@ -5896,9 +5664,7 @@ Angular momentum is a measure of the rotational motion of a particle about a fix
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -5946,9 +5712,7 @@ In the previous chapter, we discussed the concept of linear momentum and its con
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -5986,9 +5750,7 @@ Angular momentum is a measure of the rotational motion of a particle about a fix
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -6032,9 +5794,7 @@ In the previous chapter, we discussed the concept of linear momentum and its con
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -6068,9 +5828,7 @@ One type of vibration that is commonly encountered in engineering systems is sim
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -6084,9 +5842,7 @@ Simple harmonic motion can also be described using the principles of angular mom
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -6100,9 +5856,7 @@ In simple harmonic motion, the angular velocity is constant, resulting in a sinu
 
 
 $$
-
 x = A\cos(\omega t + \phi)
-
 $$
 
 
@@ -6130,9 +5884,7 @@ In the previous chapter, we discussed the concept of linear momentum and its con
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -6174,9 +5926,7 @@ One type of vibration that is commonly encountered in engineering systems is dam
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
@@ -6204,9 +5954,7 @@ In the previous chapter, we discussed the concept of linear momentum and its con
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -6270,9 +6018,7 @@ In the previous chapter, we discussed the concept of linear momentum and its con
 
 
 $$
-
 \vec{L} = \vec{r} \times \vec{p}
-
 $$
 
 
@@ -6400,9 +6146,7 @@ The motion of a mass-spring system can be described using the principles of simp
 
 
 $$
-
 x(t) = A\cos(\omega t + \phi)
-
 $$
 
 
@@ -6424,9 +6168,7 @@ The angular frequency $\omega$ can be calculated using the equation:
 
 
 $$
-
 \omega = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -6444,9 +6186,7 @@ The period of the oscillation, $T$, can be calculated using the equation:
 
 
 $$
-
 T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{m}{k}}
-
 $$
 
 
@@ -6646,9 +6386,7 @@ The second law of motion, also known as the law of acceleration, states that the
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -6726,9 +6464,7 @@ To understand the equilibrium of a rigid body, we must first introduce the conce
 
 
 $$
-
 \vec{\tau} = \vec{r} \times \vec{F}
-
 $$
 
 
@@ -6742,9 +6478,7 @@ In order for a rigid body to be in equilibrium, not only must the net force acti
 
 
 $$
-
 \sum \vec{F} = 0 \quad \text{and} \quad \sum \vec{\tau} = 0
-
 $$
 
 
@@ -6810,9 +6544,7 @@ To determine if a particle is in equilibrium, we must apply the principle of vec
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
@@ -6826,9 +6558,7 @@ Now, let's consider an example of a particle in equilibrium. Suppose we have a b
 
 
 $$
-
 \sum F = F_g + F_n = 0
-
 $$
 
 
@@ -6850,9 +6580,7 @@ In addition to understanding equilibrium of a particle, it is also essential to 
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -6866,9 +6594,7 @@ Strain, on the other hand, is a measure of the deformation of a material when su
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L}
-
 $$
 
 
@@ -6954,9 +6680,7 @@ Newton's second law states that the acceleration of an object is directly propor
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -6986,9 +6710,7 @@ Hooke's Law is a fundamental principle in elasticity that relates the force appl
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -7066,9 +6788,7 @@ Mathematically, Young's Modulus is defined as the ratio of stress to strain in a
 
 
 $$
-
 E = \frac{\sigma}{\epsilon}
-
 $$
 
 
@@ -7156,9 +6876,7 @@ Mathematically, the shear modulus can be expressed as:
 
 
 $$
-
 G = \frac{\tau}{\gamma}
-
 $$
 
 
@@ -7236,9 +6954,7 @@ Bulk modulus is a measure of a material's resistance to uniform compression. It 
 
 
 $$
-
 K = -\frac{\Delta P}{\frac{\Delta V}{V}}
-
 $$
 
 
@@ -7268,9 +6984,7 @@ Poisson's ratio is another important property of materials that describes their 
 
 
 $$
-
 \nu = -\frac{\Delta \epsilon_{lat}}{\Delta \epsilon_{ax}}
-
 $$
 
 
@@ -7348,9 +7062,7 @@ Poisson's ratio is a measure of the ratio of lateral strain to axial strain in a
 
 
 $$
-
 \nu = -\frac{\epsilon_{lateral}}{\epsilon_{axial}}
-
 $$
 
 
@@ -7372,9 +7084,7 @@ Poisson's ratio is also used in the calculation of bulk modulus, which is a meas
 
 
 $$
-
 K = -V\frac{\Delta P}{\Delta V}
-
 $$
 
 
@@ -7436,9 +7146,7 @@ Bulk modulus is a measure of a material's resistance to uniform compression. It 
 
 
 $$
-
 K = -\frac{\Delta P}{\frac{\Delta V}{V}}
-
 $$
 
 
@@ -7452,9 +7160,7 @@ Poisson's ratio, on the other hand, is a measure of a material's resistance to l
 
 
 $$
-
 \nu = -\frac{\epsilon_{\perp}}{\epsilon_{||}}
-
 $$
 
 
@@ -8160,9 +7866,7 @@ The equation is based on the principle of conservation of energy, stating that t
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho gh_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho gh_2
-
 $$
 
 
@@ -8286,9 +7990,7 @@ The height to which a liquid will rise in a capillary tube is determined by the 
 
 
 $$
-
 h = \frac{2\gamma cos\theta}{\rho gr}
-
 $$
 
 
@@ -8344,9 +8046,7 @@ The continuity equation can be expressed mathematically as:
 
 
 $$
-
 \dot{m} = \rho A v
-
 $$
 
 
@@ -8376,9 +8076,7 @@ In addition to the continuity equation, the Bernoulli's equation is another impo
 
 
 $$
-
 P + \frac{1}{2}\rho v^2 + \rho gh = constant
-
 $$
 
 
@@ -8432,9 +8130,7 @@ The Reynolds number, named after Osborne Reynolds, is a dimensionless quantity t
 
 
 $$
-
 Re = \frac{\rho vD}{\mu}
-
 $$
 
 
@@ -9522,9 +9218,7 @@ The second law, also known as the law of acceleration, states that the accelerat
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -12170,9 +11864,7 @@ The basic principle of Euler's method is to divide the time interval into small 
 
 
 $$
-
 y_{n+1} = y_n + hf(t_n, y_n)
-
 $$
 
 
@@ -12220,9 +11912,7 @@ The basic principle of Euler's method is to divide the time interval into small 
 
 
 $$
-
 y_{n+1} = y_n + hf(t_n, y_n)
-
 $$
 
 
@@ -12286,9 +11976,7 @@ The basic principle of Verlet integration is to use the positions and velocities
 
 
 $$
-
 x_{n+1} = 2x_n - x_{n-1} + a_n\Delta t^2
-
 $$
 
 
@@ -12666,9 +12354,7 @@ As we conclude this chapter, it is essential to note that computational methods 
 Using the Euler method, solve the following initial value problem:
 
 $$
-
 \frac{d^2y}{dt^2} + 2\frac{dy}{dt} + 2y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Compare the solution obtained with the exact solution and discuss the accuracy of the Euler method.
@@ -12680,9 +12366,7 @@ Compare the solution obtained with the exact solution and discuss the accuracy o
 Implement the Runge-Kutta method of order 4 in MATLAB to solve the following initial value problem:
 
 $$
-
 \frac{d^2y}{dt^2} + 3\frac{dy}{dt} + 2y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Plot the solution and compare it with the exact solution.
@@ -12706,9 +12390,7 @@ Research and discuss the applications of computational methods in real-world eng
 Using MATLAB or any other software tool, solve the following initial value problem using the Verlet method:
 
 $$
-
 \frac{d^2y}{dt^2} + 4\frac{dy}{dt} + 4y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Compare the solution obtained with the exact solution and discuss the advantages and disadvantages of using the Verlet method.
@@ -12738,9 +12420,7 @@ As we conclude this chapter, it is essential to note that computational methods 
 Using the Euler method, solve the following initial value problem:
 
 $$
-
 \frac{d^2y}{dt^2} + 2\frac{dy}{dt} + 2y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Compare the solution obtained with the exact solution and discuss the accuracy of the Euler method.
@@ -12752,9 +12432,7 @@ Compare the solution obtained with the exact solution and discuss the accuracy o
 Implement the Runge-Kutta method of order 4 in MATLAB to solve the following initial value problem:
 
 $$
-
 \frac{d^2y}{dt^2} + 3\frac{dy}{dt} + 2y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Plot the solution and compare it with the exact solution.
@@ -12778,9 +12456,7 @@ Research and discuss the applications of computational methods in real-world eng
 Using MATLAB or any other software tool, solve the following initial value problem using the Verlet method:
 
 $$
-
 \frac{d^2y}{dt^2} + 4\frac{dy}{dt} + 4y = 0, \quad y(0) = 1, \quad \frac{dy}{dt}(0) = 0
-
 $$
 
 Compare the solution obtained with the exact solution and discuss the advantages and disadvantages of using the Verlet method.
@@ -13022,7 +12698,6 @@ Proportional control is the simplest form of feedback control, where the output 
 $$u(t) = K_p e(t)$$
 
 
-
 where $u(t)$ is the control input, $e(t)$ is the error, and $K_p$ is the proportional gain.
 
 
@@ -13060,9 +12735,7 @@ In the previous section, we discussed the fundamental principles of control syst
 Proportional control is the simplest form of feedback control, where the output is directly proportional to the error. It is denoted by $K_p$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_p e(t)$$
-
 
 
 where $u(t)$ is the control input, $e(t)$ is the error, and $K_p$ is the proportional gain.
@@ -13088,9 +12761,7 @@ However, proportional control alone may not be sufficient to maintain the desire
 To overcome the limitations of proportional control, we can introduce integral control. Integral control takes into account the past errors and uses them to adjust the control input. It is denoted by $K_i$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_i \int_{0}^{t} e(\tau) d\tau$$
-
 
 
 where $u(t)$ is the control input, $e(t)$ is the error, and $K_i$ is the integral gain.
@@ -13126,9 +12797,7 @@ In the previous section, we discussed the fundamental principles of control syst
 Proportional control is the simplest form of feedback control, where the output is directly proportional to the error. It is denoted by $K_p$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_p e(t)$$
-
 
 
 where $u(t)$ is the control input, $e(t)$ is the error, and $K_p$ is the proportional gain.
@@ -13154,9 +12823,7 @@ However, proportional control alone may not be sufficient to maintain the desire
 To overcome the limitations of proportional control, we can introduce integral control. Integral control takes into account the past errors and uses them to adjust the control input. It is denoted by $K_i$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_i \int_{0}^{t} e(\tau) d\tau$$
-
 
 
 Integral control is particularly useful in eliminating steady-state error, as it continuously integrates the error over time and adjusts the control input accordingly. This is especially important in systems with long settling times or those that are affected by external disturbances.
@@ -13174,9 +12841,7 @@ However, integral control can also lead to overshoot and instability if the gain
 The third component of PID control is derivative control, which takes into account the rate of change of the error. It is denoted by $K_d$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_d \frac{de(t)}{dt}$$
-
 
 
 Derivative control helps to anticipate the future behavior of the system and adjust the control input accordingly. It can also help to dampen oscillations and improve the system's stability.
@@ -13194,9 +12859,7 @@ However, derivative control is highly sensitive to noise and can amplify high-fr
 By combining proportional, integral, and derivative control, we can create a powerful control strategy known as PID control. The control input for PID control is given by:
 
 
-
 $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
-
 
 
 PID control is widely used in various engineering applications, including robotics, process control, and automotive control. It offers a good balance between stability and performance and can be easily tuned to achieve the desired response.
@@ -13224,9 +12887,7 @@ In the previous section, we discussed the fundamental principles of control syst
 Proportional control is the simplest form of feedback control, where the output is directly proportional to the error. It is denoted by $K_p$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_p e(t)$$
-
 
 
 where $u(t)$ is the control input, $e(t)$ is the error, and $K_p$ is the proportional gain.
@@ -13252,9 +12913,7 @@ However, proportional control alone may not be sufficient to maintain the desire
 To overcome the limitations of proportional control, we can introduce integral control. Integral control takes into account the past errors and uses them to adjust the control input. It is denoted by $K_i$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_i \int_{0}^{t} e(\tau) d\tau$$
-
 
 
 Integral control is particularly useful in eliminating steady-state error, as it continuously integrates the error over time and adjusts the control input accordingly. This is especially important in systems with long settling times or those that are affected by external disturbances.
@@ -13272,9 +12931,7 @@ However, integral control can also lead to overshoot and instability if the gain
 The third component of PID control is derivative control, which takes into account the rate of change of the error. It is denoted by $K_d$ and can be mathematically represented as:
 
 
-
 $$u(t) = K_d \frac{de(t)}{dt}$$
-
 
 
 Derivative control helps to dampen the system's response and reduce overshoot and oscillations. It is particularly useful in systems with high inertia or those that are prone to disturbances.
@@ -13622,13 +13279,11 @@ To implement state feedback control, we first need to design a state feedback co
 The state feedback controller can be represented using the following equation:
 
 
-
 $$
 
 u(t) = -Kx(t)
 
 $$
-
 
 
 where u(t) is the input, x(t) is the state vector, and K is the feedback gain matrix. The feedback gain matrix is calculated using the system's state-space equations and the desired behavior.
@@ -13730,13 +13385,11 @@ Linear quadratic regulator (LQR) is a popular optimal control technique that is 
 The LQR problem can be formulated as follows:
 
 
-
 $$
 
 J = \int_{0}^{\infty} (x^T Q x + u^T R u) dt
 
 $$
-
 
 
 where $x$ is the state vector, $u$ is the control input vector, $Q$ is the state cost matrix, and $R$ is the control cost matrix. The goal is to find the optimal control input $u^*$ that minimizes the cost function $J$.
@@ -13746,13 +13399,11 @@ where $x$ is the state vector, $u$ is the control input vector, $Q$ is the state
 The solution to the LQR problem involves solving the Riccati differential equation, which is given by:
 
 
-
 $$
 
 \dot{P} = -P A - A^T P + P B R^{-1} B^T P - Q
 
 $$
-
 
 
 where $P$ is the solution matrix and $A$ and $B$ are the state and control matrices, respectively.
@@ -13762,13 +13413,11 @@ where $P$ is the solution matrix and $A$ and $B$ are the state and control matri
 Once the solution matrix $P$ is obtained, the optimal control input can be calculated as:
 
 
-
 $$
 
 u^* = -R^{-1} B^T P x
 
 $$
-
 
 
 The LQR technique is particularly useful for systems with linear dynamics and quadratic cost functions. It is also able to handle constraints on the control inputs and states, making it a versatile tool for optimal control in engineering applications.
@@ -13970,17 +13619,14 @@ Explain the difference between open-loop and closed-loop control systems, and pr
 #### Exercise 4
 
 Design a state-space control system for a mass-spring-damper system with the following state equations:
-
 $$
 
 \dot{x} = Ax + Bu
 
 $$
-
 $$
 
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input, and $y$ is the output.
@@ -14034,15 +13680,11 @@ Explain the difference between open-loop and closed-loop control systems, and pr
 Design a state-space control system for a mass-spring-damper system with the following state equations:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input, and $y$ is the output.
@@ -14254,7 +13896,6 @@ Once we have the transformation matrices, we can calculate the Jacobian using th
 
 
 $$
-
 J = \begin{bmatrix}
 
 \frac{\partial x}{\partial q_1} & \frac{\partial x}{\partial q_2} & ... & \frac{\partial x}{\partial q_n} \\
@@ -14270,7 +13911,6 @@ J = \begin{bmatrix}
 \frac{\partial \gamma}{\partial q_1} & \frac{\partial \gamma}{\partial q_2} & ... & \frac{\partial \gamma}{\partial q_n}
 
 \end{bmatrix}
-
 $$
 
 
@@ -14340,9 +13980,7 @@ Forward kinematics is the process of determining the position and orientation of
 
 
 $$
-
 T = T_1T_2...T_n
-
 $$
 
 
@@ -14360,9 +13998,7 @@ Inverse kinematics is the process of determining the joint angles required to ac
 
 
 $$
-
 \theta = f^{-1}(x,y,z)
-
 $$
 
 
@@ -14380,9 +14016,7 @@ The Jacobian matrix is a mathematical tool used in robotics to relate the joint 
 
 
 $$
-
 J = \frac{\partial x}{\partial \theta}
-
 $$
 
 
@@ -14532,7 +14166,6 @@ Next, we need to calculate the linear and angular velocities and accelerations o
 
 
 $$
-
 \begin{bmatrix}
 
 F_x \\
@@ -14618,7 +14251,6 @@ m & 0 & 0 & 0 & 0 & 0 \\
 \tau_{ext_z}
 
 \end{bmatrix}
-
 $$
 
 
@@ -15788,9 +15420,7 @@ The equation of motion for an undamped system can be written as:
 
 
 $$
-
 m\ddot{x} + kx = 0
-
 $$
 
 
@@ -15800,9 +15430,7 @@ Where $m$ is the mass of the object, $k$ is the stiffness of the system, and $x$
 
 
 $$
-
 x(t) = A\sin(\omega_n t) + B\cos(\omega_n t)
-
 $$
 
 
@@ -15812,9 +15440,7 @@ Where $A$ and $B$ are constants determined by the initial conditions, and $\omeg
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -15828,9 +15454,7 @@ Damped vibrations occur when there is energy dissipation in the system, causing 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
@@ -15840,9 +15464,7 @@ Where $c$ is the damping coefficient, which determines the amount of energy diss
 
 
 $$
-
 x(t) = Ae^{-\zeta\omega_n t}\sin(\omega_d t + \phi)
-
 $$
 
 
@@ -15852,9 +15474,7 @@ Where $A$ and $\phi$ are constants determined by the initial conditions, and $\z
 
 
 $$
-
 \zeta = \frac{c}{2\sqrt{mk}}
-
 $$
 
 
@@ -15864,9 +15484,7 @@ And $\omega_d$ is the damped natural frequency, given by:
 
 
 $$
-
 \omega_d = \omega_n\sqrt{1-\zeta^2}
-
 $$
 
 
@@ -15888,9 +15506,7 @@ The equation of motion for a multi degree of freedom system can be written as:
 
 
 $$
-
 M\ddot{\textbf{x}} + C\dot{\textbf{x}} + K\textbf{x} = 0
-
 $$
 
 
@@ -16020,9 +15636,7 @@ Viscous damping is the most common type of damping and is often used to model th
 
 
 $$
-
 F_d = c\dot{x}
-
 $$
 
 
@@ -16036,9 +15650,7 @@ Hysteretic damping, also known as material damping, is based on the energy dissi
 
 
 $$
-
 F_d = \alpha \dot{x}^n
-
 $$
 
 
@@ -16052,9 +15664,7 @@ Structural damping, also known as internal damping, is the result of energy diss
 
 
 $$
-
 F_d = \beta \omega x
-
 $$
 
 
@@ -16116,9 +15726,7 @@ To understand harmonic excitation, we must first understand the concept of a har
 
 
 $$
-
 F = -kx
-
 $$
 
 
@@ -16132,9 +15740,7 @@ In the case of harmonic excitation, the external force acts as the driving force
 
 
 $$
-
 F = F_0\sin(\omega t)
-
 $$
 
 
@@ -16148,9 +15754,7 @@ The response of an object to harmonic excitation can be described using the conc
 
 
 $$
-
 H(\omega) = \frac{x}{F_0} = \frac{1}{m(\omega_0^2 - \omega^2 + i\omega\beta)}
-
 $$
 
 
@@ -16492,9 +16096,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_{0}^{L}q(x)w(x)dx
-
 $$
 
 
@@ -16542,9 +16144,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_{0}^{L}q(x)w(x)dx
-
 $$
 
 
@@ -16574,9 +16174,7 @@ Mathematically, we can represent control reversal using the following equation:
 
 
 $$
-
 \Delta \alpha = \frac{1}{EI}\int_{0}^{L}q(x)\alpha(x)dx
-
 $$
 
 
@@ -16624,9 +16222,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_{0}^{L}q(x)w(x)dx
-
 $$
 
 
@@ -16656,9 +16252,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 m\ddot{y} + c\dot{y} + ky = F(t)
-
 $$
 
 
@@ -16688,9 +16282,7 @@ Mathematically, aeroelastic tailoring can be represented using the following equ
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_{0}^{L}q(x)w(x)dx + \frac{1}{EI}\int_{0}^{L}p(x)w(x)dx
-
 $$
 
 
@@ -16734,9 +16326,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_{0}^{L}q(x)w(x)dx
-
 $$
 
 
@@ -16766,9 +16356,7 @@ Mathematically, we can represent wing flutter using the following equation:
 
 
 $$
-
 m\ddot{y} + c\dot{y} + ky = F(t)
-
 $$
 
 
@@ -16812,9 +16400,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 m\ddot{w} + c\dot{w} + kw = q(x)
-
 $$
 
 
@@ -16866,9 +16452,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 m\ddot{w} + c\dot{w} + kw = q(x)
-
 $$
 
 
@@ -16902,9 +16486,7 @@ Mathematically, we can represent buffeting using the following equation:
 
 
 $$
-
 m\ddot{w} + c\dot{w} + kw = q(t)
-
 $$
 
 
@@ -16952,9 +16534,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 m\ddot{w} + c\dot{w} + kw = q(x)
-
 $$
 
 
@@ -17030,9 +16610,7 @@ Mathematically, we can represent this phenomenon using the following equation:
 
 
 $$
-
 m\ddot{w} + c\dot{w} + kw = q(x)
-
 $$
 
 
@@ -17238,9 +16816,7 @@ One of the key parameters in longitudinal dynamics is the vehicle's acceleration
 
 
 $$
-
 a = \frac{F_{net}}{m}
-
 $$
 
 
@@ -17254,9 +16830,7 @@ Another important factor in longitudinal dynamics is the vehicle's speed, denote
 
 
 $$
-
 a = \frac{dv}{dt}
-
 $$
 
 
@@ -17270,9 +16844,7 @@ In addition to acceleration, another crucial aspect of longitudinal dynamics is 
 
 
 $$
-
 F_b = m \cdot a_b
-
 $$
 
 
@@ -17312,9 +16884,7 @@ One of the key parameters in longitudinal dynamics is the vehicle's acceleration
 
 
 $$
-
 a = \frac{F_{net}}{m}
-
 $$
 
 
@@ -17328,9 +16898,7 @@ Another important factor in longitudinal dynamics is the vehicle's speed, denote
 
 
 $$
-
 a = \frac{dv}{dt}
-
 $$
 
 
@@ -17344,9 +16912,7 @@ In addition to acceleration, another crucial aspect of longitudinal dynamics is 
 
 
 $$
-
 F_b = m \cdot a_b
-
 $$
 
 
@@ -17368,9 +16934,7 @@ One of the key parameters in lateral dynamics is the vehicle's lateral accelerat
 
 
 $$
-
 a_l = \frac{F_l}{m}
-
 $$
 
 
@@ -17384,9 +16948,7 @@ Another important factor in lateral dynamics is the vehicle's turning radius, de
 
 
 $$
-
 R = \frac{v^2}{a_l}
-
 $$
 
 
@@ -17426,9 +16988,7 @@ One of the key parameters in longitudinal dynamics is the vehicle's acceleration
 
 
 $$
-
 a = \frac{F_{net}}{m}
-
 $$
 
 
@@ -17442,9 +17002,7 @@ Another important factor in longitudinal dynamics is the vehicle's speed, denote
 
 
 $$
-
 a = \frac{dv}{dt}
-
 $$
 
 
@@ -17458,9 +17016,7 @@ In addition to acceleration, another crucial aspect of longitudinal dynamics is 
 
 
 $$
-
 F_b = m \cdot a_b
-
 $$
 
 
@@ -17482,9 +17038,7 @@ One of the key parameters in lateral dynamics is the vehicle's lateral accelerat
 
 
 $$
-
 a_y = \frac{F_y}{m}
-
 $$
 
 
@@ -17498,9 +17052,7 @@ Another important factor in lateral dynamics is the vehicle's yaw rate, denoted 
 
 
 $$
-
 a_y = \dot{\psi} \cdot v
-
 $$
 
 
@@ -17526,9 +17078,7 @@ One of the key parameters in vertical dynamics is the vehicle's vertical acceler
 
 
 $$
-
 a_z = \frac{F_z}{m}
-
 $$
 
 
@@ -17572,9 +17122,7 @@ One of the key parameters in longitudinal dynamics is the vehicle's acceleration
 
 
 $$
-
 a = \frac{F_{net}}{m}
-
 $$
 
 
@@ -17588,9 +17136,7 @@ Another important factor in longitudinal dynamics is the vehicle's speed, denote
 
 
 $$
-
 a = \frac{dv}{dt}
-
 $$
 
 
@@ -17604,9 +17150,7 @@ In addition to acceleration, another crucial aspect of longitudinal dynamics is 
 
 
 $$
-
 F_b = m \cdot a_b
-
 $$
 
 
@@ -17632,9 +17176,7 @@ The relationship between the tire grip and the forces acting on the tire can be 
 
 
 $$
-
 F_{tire} = \mu \cdot F_{normal}
-
 $$
 
 
@@ -17652,9 +17194,7 @@ The relationship between the slip angle and the lateral forces can be expressed 
 
 
 $$
-
 F_{lateral} = \mu \cdot F_{normal} \cdot \alpha
-
 $$
 
 
@@ -19024,9 +18564,7 @@ Damping can be represented mathematically using the following equation:
 
 
 $$
-
 F_d = c \dot{x}
-
 $$
 
 
@@ -19052,9 +18590,7 @@ The equation for the natural frequency of a single degree of freedom vibration a
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -19076,9 +18612,7 @@ The equation for the transmissibility of a vibration isolator is given by:
 
 
 $$
-
 T = \frac{1}{\sqrt{1+(\frac{\omega}{\omega_n})^2}}
-
 $$
 
 
@@ -19348,9 +18882,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 
@@ -19402,9 +18934,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 
@@ -19464,9 +18994,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 
@@ -19556,9 +19084,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 
@@ -19798,9 +19324,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 
@@ -19850,25 +19374,19 @@ The governing equations of CFD are the Navier-Stokes equations, which describe t
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mu \nabla \mathbf{u}) + \mathbf{u} \cdot \mathbf{f}
-
 $$
 
 
@@ -19950,9 +19468,7 @@ One example of nonlinear oscillations is the Duffing oscillator, which is a simp
 
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 

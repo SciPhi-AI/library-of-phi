@@ -2364,9 +2364,7 @@ The key to the success of Gibbs Sampling lies in the selection of the next motif
 
 
 $$
-
 P(x_i|X_{-i},S) = \frac{P(x_i,S|X_{-i})}{P(S|X_{-i})}
-
 $$
 
 
@@ -2384,9 +2382,7 @@ The marginal probability can be calculated using the following formula:
 
 
 $$
-
 P(S|X_{-i}) = \sum_{x_i} P(x_i,S|X_{-i})
-
 $$
 
 
@@ -2474,9 +2470,7 @@ The scoring function can be defined as follows:
 
 
 $$
-
 Score(x_i) = \alpha \cdot IC(x_i) - \beta \cdot log(p-value(x_i))
-
 $$
 
 
@@ -2698,7 +2692,6 @@ To fill in the matrix, we use a recurrence relation that takes into account the 
 
 
 $$
-
 F(i,j) = \max \begin{cases}
 
 F(i-1,j-1) + s(x_i, y_j) \\
@@ -2708,7 +2701,6 @@ F(i-1,j) + g \\
 F(i,j-1) + g
 
 \end{cases}
-
 $$
 
 
@@ -2722,7 +2714,6 @@ Similarly, for the Smith-Waterman algorithm, the recurrence relation is given by
 
 
 $$
-
 F(i,j) = \max \begin{cases}
 
 F(i-1,j-1) + s(x_i, y_j) \\
@@ -2734,7 +2725,6 @@ F(i,j-1) + g \\
 0
 
 \end{cases}
-
 $$
 
 
@@ -4606,9 +4596,7 @@ Scale-free networks are characterized by a few highly connected nodes, known as 
 
 
 $$
-
 P(k) \sim k^{-\gamma}
-
 $$
 
 
@@ -4692,9 +4680,7 @@ Scale-free networks are characterized by a few highly connected nodes, known as 
 
 
 $$
-
 P(k) \sim k^{-\gamma}
-
 $$
 
 
@@ -4750,9 +4736,7 @@ Scale-free networks are characterized by a few highly connected nodes, known as 
 
 
 $$
-
 P(k) \sim k^{-\gamma}
-
 $$
 
 
@@ -4812,9 +4796,7 @@ Scale-free networks are characterized by a few highly connected nodes, known as 
 
 
 $$
-
 P(k) \sim k^{-\gamma}
-
 $$
 
 
@@ -6226,9 +6208,7 @@ The basic idea behind supervised learning is to find a function <math>F</math> t
 
 
 $$
-
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
-
 $$
 
 
@@ -6242,9 +6222,7 @@ To minimize the loss function, supervised learning algorithms use an iterative a
 
 
 $$
-
 \frac{\partial L_{\rm MSE}}{\partial F(x_i)} = \frac{2}{n}(y_i - F(x_i)) = \frac{2}{n}h_m(x_i)
-
 $$
 
 
@@ -6292,9 +6270,7 @@ The basic idea behind supervised learning is to find a function <math>F</math> t
 
 
 $$
-
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
-
 $$
 
 
@@ -6358,9 +6334,7 @@ The main idea behind supervised learning is to find a function <math>F</math> th
 
 
 $$
-
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
-
 $$
 
 
@@ -6492,9 +6466,7 @@ The main idea behind supervised learning is to find a function <math>F</math> th
 
 
 $$
-
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
-
 $$
 
 
@@ -7298,9 +7270,7 @@ Fully recurrent neural networks (FRNN) connect the outputs of all neurons to the
 
 
 $$
-
 \Delta w = \eta \frac{\partial E}{\partial w} = \eta \sum_{t=1}^{T} \frac{\partial E_t}{\partial w}
-
 $$
 
 

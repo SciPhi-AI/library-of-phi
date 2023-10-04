@@ -681,9 +681,7 @@ The relationship between the frequency and time domains is given by the Fourier 
 
 
 $$
-
 F(\nu) = \int_{-\infty}^{\infty} f(t) e^{-i2\pi\nu t} dt
-
 $$
 
 
@@ -777,9 +775,7 @@ In linear spectroscopy, a single photon is absorbed by a molecule, causing an el
 
 
 $$
-
 \Delta E = h\nu
-
 $$
 
 
@@ -817,9 +813,7 @@ In nonlinear spectroscopy, multiple photons are absorbed by a molecule simultane
 
 
 $$
-
 \Delta E = nh\nu
-
 $$
 
 
@@ -1035,9 +1029,7 @@ The interferogram is a signal in the time domain, which is then transformed into
 
 
 $$
-
 I(\nu) = \int_{-\infty}^{\infty} I(t) e^{2\pi i \nu t} dt
-
 $$
 
 
@@ -1575,17 +1567,13 @@ In the realm of electrochemistry, oxidation and reduction are two processes that
 
 
 $$
-
 \text{Oxidation: } A \rightarrow A^+ + e^-
-
 $$
 
 
 
 $$
-
 \text{Reduction: } B + e^- \rightarrow B^-
-
 $$
 
 
@@ -1631,9 +1619,7 @@ For example, consider the reaction between hydrogen (H) and fluorine (F):
 
 
 $$
-
 \text{H}_2 + \text{F}_2 \rightarrow 2\text{HF}
-
 $$
 
 
@@ -1643,17 +1629,13 @@ In this reaction, fluorine (with an electronegativity of 4.0) attracts the elect
 
 
 $$
-
 \text{Oxidation: } \text{H}_2 \rightarrow 2\text{H}^+ + 2e^-
-
 $$
 
 
 
 $$
-
 \text{Reduction: } \text{F}_2 + 2e^- \rightarrow 2\text{F}^-
-
 $$
 
 
@@ -2597,9 +2579,7 @@ In direct synthesis, a metal salt is reacted with a ligand in a suitable solvent
 
 
 $$
-
 \text{FeCl}_3 + 6\text{Cl}^- \rightarrow [\text{FeCl}_6]^{3-}
-
 $$
 
 
@@ -2617,9 +2597,7 @@ Indirect synthesis involves the modification of an existing coordination complex
 
 
 $$
-
 \text{IrCl}_3(\text{H}_2\text{O})_3 + 3 \text{P(C}_6\text{H}_5\text{)}_3 + \text{HCON(CH}_3\text{)}_2 + \text{C}_6\text{H}_5\text{NH}_2 \rightarrow \text{[IrCl(CO)(P(C}_6\text{H}_5\text{)}_3\text{)}_2\text{]} + \text{H}_2\text{O} + \text{CO} + \text{C}_6\text{H}_5\text{NH}_3^+
-
 $$
 
 
@@ -2653,9 +2631,7 @@ Decarbonylation is a process where a carbonyl group is removed from an organic c
 
 
 $$
-
 \text{IrCl}_3(\text{H}_2\text{O})_3 + 3 \text{P(C}_6\text{H}_5\text{)}_3 + \text{HCON(CH}_3\text{)}_2 + \text{C}_6\text{H}_5\text{NH}_2 \rightarrow \text{[IrCl(CO)(P(C}_6\text{H}_5\text{)}_3\text{)}_2\text{]} + \text{H}_2\text{O} + \text{CO} + \text{C}_6\text{H}_5\text{NH}_3^+
-
 $$
 
 
@@ -2669,9 +2645,7 @@ Substitution reactions are another common method for the synthesis of ligands. I
 
 
 $$
-
 \text{Mo(CO)}_6 + \text{bipy} \rightarrow \text{Mo(CO)}_4(\text{bipy})
-
 $$
 
 
@@ -2681,9 +2655,7 @@ UV-photolysis of a THF solution of Mo(CO)<sub>6</sub> gives Mo(CO)<sub>5</sub>(T
 
 
 $$
-
 \text{Mo(CO)}_6 + \text{hν} \rightarrow \text{Mo(CO)}_5(\text{THF}) + \text{CO}
-
 $$
 
 
@@ -2697,9 +2669,7 @@ Ligand exchange reactions involve the replacement of one or more ligands in a co
 
 
 $$
-
 \text{[Mo(CO)}_4(\text{piperidine)}_2\text{]} + 2 \text{PPh}_3 \rightarrow \text{"cis"-[Mo(CO)}_4(\text{PPh}_3)_2\text{]} + 2 \text{piperidine}
-
 $$
 
 
@@ -2819,9 +2789,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho {\partial\varepsilon\over{\partial t}} = \rho T {\partial s\over{\partial t}} - {p\over{\rho}}\nabla\cdot(\rho {\bf v})
-
 $$
 
 
@@ -2835,9 +2803,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -2863,9 +2829,7 @@ The rate of a reaction is defined in terms of the rates with which the products 
 
 
 $$
-
 aA + bB \rightarrow cC + dD
-
 $$
 
 
@@ -2875,9 +2839,7 @@ The rate of the reaction can be written as:
 
 
 $$
-
 -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}
-
 $$
 
 
@@ -2915,9 +2877,7 @@ In the realm of chemistry, thermodynamics is used to predict whether a reaction 
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -2943,9 +2903,7 @@ In biological systems, kinetics is used to understand and model enzyme-catalyzed
 
 
 $$
-
 v = \frac{V_{max}[S]}{K_m + [S]}
-
 $$
 
 
@@ -2959,9 +2917,7 @@ In environmental science, kinetics is used to model the rate of pollutant degrad
 
 
 $$
-
 \frac{d[C]}{dt} = -k[C]
-
 $$
 
 
@@ -3047,9 +3003,7 @@ Mathematically, the uncertainty principle can be expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3083,9 +3037,7 @@ The quantization of energy levels in a molecule is a direct consequence of the w
 
 
 $$
-
 \Delta E = h\nu
-
 $$
 
 
@@ -3543,9 +3495,7 @@ The rate of reaction is typically expressed in terms of the change in concentrat
 
 
 $$
-
 \text{Rate} = -\frac{1}{\Delta t} \frac{\Delta [\text{Reactant}]}{\Delta t} = \frac{1}{\Delta t} \frac{\Delta [\text{Product}]}{\Delta t}
-
 $$
 
 
@@ -3905,9 +3855,7 @@ Mathematically, the uncertainty principle can be expressed as follows:
 
 
 $$
-
 \sigma_x \sigma_p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -3981,25 +3929,19 @@ Quantum numbers are integral to our understanding of quantum mechanics, particul
 
 
 $$
-
 n=1,2,3,4, \dots
-
 $$
 
 
 
 $$
-
 \ell=0,1,2,\dots,n-1
-
 $$
 
 
 
 $$
-
 m=-\ell,-\ell+1,\ldots,0,\ldots,\ell-1,\ell
-
 $$
 
 
@@ -4017,9 +3959,7 @@ Each atomic orbital is associated with an angular momentum, denoted as $L$. This
 
 
 $$
-
 \hat{L}^2 Y_{\ell m} = \hbar^2 \ell(\ell+1) Y_{\ell m}
-
 $$
 
 
@@ -4029,9 +3969,7 @@ The projection of this vector onto an arbitrary direction is quantized. If we ca
 
 
 $$
-
 \hat{L}_z Y_{\ell m} = \hbar m Y_{\ell m}
-
 $$
 
 
@@ -4057,9 +3995,7 @@ The shapes of the orbitals are determined by the wavefunctions of the electrons.
 
 
 $$
-
 \hat{H}\psi_{n\ell m} = E_{n\ell m}\psi_{n\ell m}
-
 $$
 
 
@@ -4243,9 +4179,7 @@ The First Law of Thermodynamics, also known as the law of energy conservation, s
 
 
 $$
-
 \Delta U = q - w
-
 $$
 
 
@@ -4259,9 +4193,7 @@ The Second Law of Thermodynamics introduces the concept of entropy ($S$), a meas
 
 
 $$
-
 \Delta S = \int \frac{dQ_{rev}}{T}
-
 $$
 
 
@@ -4291,9 +4223,7 @@ The Third Law of Thermodynamics states that the entropy of a perfect crystal at 
 
 
 $$
-
 S(T=0) = 0
-
 $$
 
 
@@ -4395,9 +4325,7 @@ The Gibbs Free Energy is defined as:
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -4407,9 +4335,7 @@ where "H" is the enthalpy, "T" is the absolute temperature, and "S" is the entro
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -4431,9 +4357,7 @@ The chemical potential, denoted as "μ", is a measure of the potential energy of
 
 
 $$
-
 \mu = \left(\frac{\partial G}{\partial N}\right)_{T,P,N'}
-
 $$
 
 
@@ -4467,9 +4391,7 @@ The chemical potential of a species in a mixture is given by:
 
 
 $$
-
 \mu_i = \left(\frac{\partial G}{\partial N_i}\right)_{T,P,N_j}
-
 $$
 
 
@@ -4491,9 +4413,7 @@ In the context of solutions, the chemical potential of a species is related to i
 
 
 $$
-
 \mu_i = \mu_i^0 + RT \ln x_i
-
 $$
 
 
@@ -4527,9 +4447,7 @@ The Gibbs free energy change for a reaction can be calculated using the equation
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -4559,9 +4477,7 @@ In the context of solutions, the chemical potential of a species is related to i
 
 
 $$
-
 \mu_i = \mu_i^0 + RT \ln x_i
-
 $$
 
 
@@ -4685,9 +4601,7 @@ The equilibrium constant is derived from the principle of minimization of Gibbs 
 
 
 $$
-
 G = \sum_{j} \mu_{j} N_{j}
-
 $$
 
 
@@ -4697,9 +4611,7 @@ where $\mu_{j}$ is the chemical potential of molecular species "j", and $N_{j}$ 
 
 
 $$
-
 \mu_{j} = \mu_{j}^{\ominus} + RT \ln A_{j}
-
 $$
 
 
@@ -4713,9 +4625,7 @@ In a closed system, the total number of atoms of each element remains constant, 
 
 
 $$
-
 \sum_{j} a_{ij} N_{j} = b_{i}
-
 $$
 
 
@@ -4729,9 +4639,7 @@ This constrained minimization problem can be solved using the method of Lagrange
 
 
 $$
-
 \mu_{j} - \sum_{i} \lambda_{i} a_{ij} = 0
-
 $$
 
 
@@ -4757,9 +4665,7 @@ The equilibrium constant for a general chemical reaction can be expressed as:
 
 
 $$
-
 K = \frac{[\text{products}]^{m}}{[\text{reactants}]^{n}}
-
 $$
 
 
@@ -4773,9 +4679,7 @@ The equilibrium constant is related to the standard Gibbs free energy change, $\
 
 
 $$
-
 \Delta G^{\ominus} = -RT \ln K
-
 $$
 
 
@@ -4789,9 +4693,7 @@ It's important to note that the equilibrium constant is temperature-dependent. T
 
 
 $$
-
 \frac{d \ln K}{dT} = \frac{\Delta H^{\ominus}}{RT^2}
-
 $$
 
 
@@ -4821,9 +4723,7 @@ The equilibrium constant can be used to predict the direction in which a reactio
 
 
 $$
-
 Q = \frac{[\text{products}]^{m}}{[\text{reactants}]^{n}}
-
 $$
 
 
@@ -4845,9 +4745,7 @@ According to Le Chatelier's Principle, if a system at equilibrium is subjected t
 
 
 $$
-
 \frac{d \ln K}{dT} = \frac{\Delta H^{\ominus}}{RT^2}
-
 $$
 
 
@@ -4989,9 +4887,7 @@ For example, the equilibrium between carbonic acid and its conjugate base bicarb
 
 
 $$
-
 \ce{CO3^{2-}{} + H+{} <=> HCO3^-}
-
 $$
 
 
@@ -5245,9 +5141,7 @@ The pH of a solution is defined as the negative logarithm (base 10) of the conce
 
 
 $$
-
 pH = -\log[H^+]
-
 $$
 
 
@@ -5257,9 +5151,7 @@ Similarly, the pOH of a solution is defined as the negative logarithm (base 10) 
 
 
 $$
-
 pOH = -\log[OH^-]
-
 $$
 
 
@@ -5297,9 +5189,7 @@ To calculate the pH of a solution, we first need to determine the concentration 
 
 
 $$
-
 pH = -\log[H^+]
-
 $$
 
 
@@ -5309,9 +5199,7 @@ For example, if the [H<sup>+</sup>] in a solution is $1 \times 10^{-3}$ M, the p
 
 
 $$
-
 pH = -\log(1 \times 10^{-3}) = 3
-
 $$
 
 
@@ -5329,9 +5217,7 @@ The calculation of pOH is similar to that of pH. We first need to determine the 
 
 
 $$
-
 pOH = -\log[OH^-]
-
 $$
 
 
@@ -5341,9 +5227,7 @@ For example, if the [OH<sup>-</sup>] in a solution is $1 \times 10^{-5}$ M, the 
 
 
 $$
-
 pOH = -\log(1 \times 10^{-5}) = 5
-
 $$
 
 
@@ -5361,9 +5245,7 @@ In water and aqueous solutions at 25 degrees Celsius, the product of the concent
 
 
 $$
-
 K_w = [H^+][OH^-] = 1 \times 10^{-14}
-
 $$
 
 
@@ -5373,9 +5255,7 @@ Taking the negative logarithm of both sides of this equation, we obtain the rela
 
 
 $$
-
 pH + pOH = 14
-
 $$
 
 
@@ -5385,9 +5265,7 @@ This relationship allows us to calculate the pH of a solution if we know the pOH
 
 
 $$
-
 pH = 14 - pOH = 14 - 5 = 9
-
 $$
 
 
@@ -5531,9 +5409,7 @@ Remember, organic chemistry is not just about memorizing structures and reaction
 
 
 Please note that all mathematical expressions in this chapter are formatted using the TeX and LaTeX style syntax, rendered using the MathJax library. For example, inline math is written like `$y_j(n)$` and equations are written like `$$
-
 \Delta w = ...
-
 $$`. This will ensure a clear and consistent presentation of all mathematical content.
 
 
@@ -7565,9 +7441,7 @@ Alpha decay is a type of radioactive decay in which an unstable atomic nucleus e
 
 
 $$
-
 ^{A}_{Z}X \rightarrow ^{A-4}_{Z-2}Y + ^{4}_{2}He
-
 $$
 
 
@@ -7589,9 +7463,7 @@ Beta decay is another type of radioactive decay in which a neutron in an unstabl
 
 
 $$
-
 ^{A}_{Z}X \rightarrow ^{A}_{Z+1}Y + e^{-} + \bar{\nu}_e
-
 $$
 
 
@@ -7613,9 +7485,7 @@ Gamma decay is a type of radioactive decay that involves the emission of high-en
 
 
 $$
-
 ^{A}_{Z}X^{*} \rightarrow ^{A}_{Z}X + \gamma
-
 $$
 
 
@@ -7723,7 +7593,6 @@ Nuclear fission is a type of nuclear reaction in which a heavy nucleus splits in
 $$^{235}_{92}U + ^1_0n \rightarrow ^{141}_{56}Ba + ^{92}_{36}Kr + 3^1_0n + \text{Energy}$$
 
 
-
 In this reaction, a uranium-235 nucleus absorbs a neutron and splits into barium-141, krypton-92, and three additional neutrons. The additional neutrons can then cause further fission reactions, leading to a chain reaction[^1^].
 
 
@@ -7735,9 +7604,7 @@ In this reaction, a uranium-235 nucleus absorbs a neutron and splits into barium
 Nuclear fusion is a nuclear reaction in which two light nuclei combine to form a heavier nucleus. This process is also usually accompanied by the release of a large amount of energy. An example of a nuclear fusion reaction is the fusion of two hydrogen nuclei (protons) to form a deuteron, a positron, and a neutrino[^1^].
 
 
-
 $$^1_1H + ^1_1H \rightarrow ^2_1D + e^+ + \nu_e + \text{Energy}$$
-
 
 
 In this reaction, two protons combine to form a deuteron, a positron, and a neutrino. The positron quickly annihilates with an electron, producing gamma rays[^1^].
@@ -7755,13 +7622,10 @@ Radioactive decay is a type of nuclear reaction in which an unstable nucleus los
 In beta minus (β<sup>−</sup>) decay, a neutron is converted to a proton, and the process creates an electron and an electron antineutrino. An example of this is the decay of carbon-14 into nitrogen-14[^1^].
 
 
-
 $$^{14}_6C \rightarrow ^{14}_7N + e^- + \overline{\nu}_e$$
 
 
-
 In beta plus (β<sup>+</sup>) decay, a proton is converted to a neutron and the process creates a positron and an electron neutrino. An example of this is the decay of sodium-22 into neon-22[^1^].
-
 
 
 $$^{22}_{11}Na \rightarrow ^{22}_{10}Ne + e^+ + \nu_e$$

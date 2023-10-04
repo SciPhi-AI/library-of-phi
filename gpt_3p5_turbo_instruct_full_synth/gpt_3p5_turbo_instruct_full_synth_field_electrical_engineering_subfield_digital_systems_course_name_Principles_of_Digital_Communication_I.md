@@ -1539,9 +1539,7 @@ A memory-less source can be mathematically defined as a discrete random process 
 
 
 $$
-
 P(x_i(n)) = P(x_i)
-
 $$
 
 
@@ -1581,9 +1579,7 @@ A memory-less source can be mathematically defined as a discrete random process 
 
 
 $$
-
 P(x_i(n)) = P(x_i)
-
 $$
 
 
@@ -1631,9 +1627,7 @@ A memory-less source is a type of discrete source where the probability of a sym
 
 
 $$
-
 P(x_i(n)) = P(x_i)
-
 $$
 
 
@@ -1705,9 +1699,7 @@ Mathematically, a prefix free code can be defined as a one-to-one mapping betwee
 
 
 $$
-
 f(x_i) \neq f(x_j)w
-
 $$
 
 
@@ -1755,9 +1747,7 @@ Mathematically, a prefix free code can be defined as a one-to-one mapping betwee
 
 
 $$
-
 f(x_i) \neq f(x_j)w
-
 $$
 
 
@@ -1813,9 +1803,7 @@ Mathematically, a prefix free code can be defined as a one-to-one mapping betwee
 
 
 $$
-
 f(x_i) \neq f(x_j)w
-
 $$
 
 
@@ -1879,9 +1867,7 @@ Entropy, denoted by $H(X)$, is a measure of the average amount of information co
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p(x_i) \log_2 p(x_i)
-
 $$
 
 
@@ -1891,9 +1877,7 @@ where $p(x_i)$ is the probability of symbol $x_i$ occurring in the source $X$. T
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p_i \log_2 p_i
-
 $$
 
 
@@ -1941,9 +1925,7 @@ Entropy, denoted by $H(X)$, is a measure of the average amount of information co
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p(x_i) \log_2 p(x_i)
-
 $$
 
 
@@ -1953,9 +1935,7 @@ where $p(x_i)$ is the probability of symbol $x_i$ occurring in the source $X$. T
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p_i \log_2 p_i
-
 $$
 
 
@@ -2003,9 +1983,7 @@ Entropy, denoted by $H(X)$, is a measure of the average amount of information co
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p(x_i) \log_2 p(x_i)
-
 $$
 
 
@@ -2015,9 +1993,7 @@ where $p(x_i)$ is the probability of symbol $x_i$ occurring in the source $X$. T
 
 
 $$
-
 H(X) = -\sum_{i=1}^{n} p_i \log_2 p_i
-
 $$
 
 
@@ -2225,9 +2201,7 @@ Formally, a discrete-time stochastic process $X(n)$ is said to be a Markov sourc
 
 
 $$
-
 P(X(n+1) = x_{n+1} | X(n) = x_n, X(n-1) = x_{n-1}, ..., X(0) = x_0) = P(X(n+1) = x_{n+1} | X(n) = x_n)
-
 $$
 
 
@@ -2297,9 +2271,7 @@ The Kraft-McMillan inequality is a fundamental result in the theory of universal
 
 
 $$
-
 \sum_{i=1}^m 2^{-l_i} \leq 1
-
 $$
 
 
@@ -2473,9 +2445,7 @@ A Markov source is a stochastic process that satisfies the Markov property, whic
 
 
 $$
-
 P(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, ..., X_0 = x_0) = P(X_{n+1} = x_{n+1} | X_n = x_n)
-
 $$
 
 
@@ -2561,9 +2531,7 @@ Formally, a Markov source is defined as a stochastic process where the probabili
 
 
 $$
-
 P(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, ..., X_0 = x_0) = P(X_{n+1} = x_{n+1} | X_n = x_n)
-
 $$
 
 
@@ -3481,9 +3449,7 @@ Let us consider a periodic signal $x(t)$ with period $T$. This means that $x(t)$
 
 
 $$
-
 x(t) = \sum_{n=-\infty}^{\infty} c_n e^{jn\omega_0t}
-
 $$
 
 
@@ -3493,9 +3459,7 @@ where $c_n$ are the complex coefficients and $\omega_0 = \frac{2\pi}{T}$ is the 
 
 
 $$
-
 c_n = \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} x(t)e^{-jn\omega_0t} dt
-
 $$
 
 
@@ -3555,9 +3519,7 @@ Let us consider a periodic signal $x(t)$ with period $T$. This means that $x(t)$
 
 
 $$
-
 x(t) = \sum_{n=-\infty}^{\infty} c_n e^{jn\omega_0t}
-
 $$
 
 
@@ -3567,9 +3529,7 @@ where $c_n$ are the complex coefficients and $\omega_0 = \frac{2\pi}{T}$ is the 
 
 
 $$
-
 c_n = \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} x(t)e^{-jn\omega_0t} dt
-
 $$
 
 
@@ -3621,9 +3581,7 @@ Let us consider a periodic signal $x(t)$ with period $T$. This means that $x(t)$
 
 
 $$
-
 x(t) = \sum_{n=-\infty}^{\infty} c_n e^{jn\omega_0t}
-
 $$
 
 
@@ -3633,9 +3591,7 @@ where $c_n$ are the complex coefficients and $\omega_0 = \frac{2\pi}{T}$ is the 
 
 
 $$
-
 c_n = \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} x(t)e^{-jn\omega_0t} dt
-
 $$
 
 
@@ -3699,9 +3655,7 @@ Let us consider a non-periodic signal $x(t)$ with no repeating pattern. The Four
 
 
 $$
-
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
-
 $$
 
 
@@ -3711,9 +3665,7 @@ where $X(\omega)$ is the complex representation of the signal in the frequency d
 
 
 $$
-
 x(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)e^{j\omega t} d\omega
-
 $$
 
 
@@ -3985,9 +3937,7 @@ The Sampling Theorem is a fundamental concept in digital communication that gove
 
 
 $$
-
 f_s \geq 2f_{max}
-
 $$
 
 
@@ -4005,9 +3955,7 @@ The Sampling Theorem can be mathematically expressed as:
 
 
 $$
-
 x_s(t) = x(t) \sum_{n=-\infty}^{\infty} \delta(t-nT)
-
 $$
 
 
@@ -4043,9 +3991,7 @@ The Sampling Theorem can be mathematically expressed as:
 
 
 $$
-
 x_s(t) = x(t) \sum_{n=-\infty}^{\infty} \delta(t-nT)
-
 $$
 
 
@@ -4059,9 +4005,7 @@ The importance of the Sampling Theorem lies in its ability to accurately represe
 
 
 $$
-
 f_s \geq 2f_{max}
-
 $$
 
 
@@ -4097,9 +4041,7 @@ The Sampling Theorem can be mathematically expressed as:
 
 
 $$
-
 x_s(t) = x(t) \sum_{n=-\infty}^{\infty} \delta(t-nT)
-
 $$
 
 
@@ -4113,9 +4055,7 @@ The importance of the Sampling Theorem lies in its ability to accurately represe
 
 
 $$
-
 f_s \geq 2f_{max}
-
 $$
 
 
@@ -4175,9 +4115,7 @@ The Discrete-time Fourier Transform of a discrete-time signal $x[n]$ is defined 
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-
 $$
 
 
@@ -4191,9 +4129,7 @@ The DTFT can also be expressed in terms of the discrete-time Fourier series coef
 
 
 $$
-
 X(e^{j\omega}) = \sum_{k=-\infty}^{\infty} X[k]e^{-j\omega k}
-
 $$
 
 
@@ -4255,9 +4191,7 @@ The Discrete-time Fourier Transform of a discrete-time signal $x[n]$ is defined 
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-
 $$
 
 
@@ -4271,9 +4205,7 @@ The DTFT can also be expressed in terms of the discrete-time Fourier series coef
 
 
 $$
-
 X(e^{j\omega}) = \sum_{k=-\infty}^{\infty} X[k]e^{-j\omega k}
-
 $$
 
 
@@ -4339,9 +4271,7 @@ The Discrete-time Fourier Transform of a discrete-time signal $x[n]$ is defined 
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-
 $$
 
 
@@ -4355,9 +4285,7 @@ The DTFT can also be expressed in terms of the discrete-time Fourier series coef
 
 
 $$
-
 X(e^{j\omega}) = \sum_{k=-\infty}^{\infty} X[k]e^{-j\omega k}
-
 $$
 
 
@@ -4659,9 +4587,7 @@ Let us consider a signal $x(t)$ that is transmitted through a channel. This sign
 
 
 $$
-
 x(t) = \sum_{i=1}^{N} a_i f_i(t)
-
 $$
 
 
@@ -4745,9 +4671,7 @@ Let us consider a signal $x(t)$ that is transmitted through a channel. This sign
 
 
 $$
-
 x(t) = \sum_{i=1}^{N} a_i f_i(t)
-
 $$
 
 
@@ -4811,9 +4735,7 @@ Let us consider a signal $x(t)$ that is transmitted through a channel. This sign
 
 
 $$
-
 x(t) = \sum_{i=1}^{N} a_i f_i(t)
-
 $$
 
 
@@ -5071,9 +4993,7 @@ Mathematically, modulation can be represented as follows:
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t + \phi_c) \cdot m(t)
-
 $$
 
 
@@ -5133,9 +5053,7 @@ Mathematically, modulation can be represented as follows:
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t + \phi_c) \cdot m(t)
-
 $$
 
 
@@ -5203,9 +5121,7 @@ Mathematically, modulation can be represented as follows:
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t + \phi_c) \cdot m(t)
-
 $$
 
 
@@ -5545,9 +5461,7 @@ Mathematically, we can represent white Gaussian noise as $X(t)$, where $t$ is th
 
 
 $$
-
 X(t) \sim \mathcal{N}(0, \sigma^2)
-
 $$
 
 
@@ -5635,9 +5549,7 @@ Mathematically, we can represent white Gaussian noise as $X(t)$, where $t$ is th
 
 
 $$
-
 X(t) \sim \mathcal{N}(0, \sigma^2)
-
 $$
 
 
@@ -5713,9 +5625,7 @@ Mathematically, we can represent white Gaussian noise as $X(t)$, where $t$ is th
 
 
 $$
-
 X(t) \sim \mathcal{N}(0, \sigma^2)
-
 $$
 
 
@@ -5909,9 +5819,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -5925,9 +5833,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -5975,9 +5881,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -5991,9 +5895,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -6063,9 +5965,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -6079,9 +5979,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -6147,9 +6045,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -6163,9 +6059,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -6219,9 +6113,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -6235,9 +6127,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -6319,9 +6209,7 @@ Formally, a linear functional $L$ is defined as:
 
 
 $$
-
 L: V \rightarrow \mathbb{F}
-
 $$
 
 
@@ -6335,9 +6223,7 @@ One of the key properties of linear functionals is that they preserve linearity.
 
 
 $$
-
 L(a\mathbf{x} + b\mathbf{y}) = aL(\mathbf{x}) + bL(\mathbf{y})
-
 $$
 
 
@@ -6425,9 +6311,7 @@ Formally, detection for random vectors and processes can be defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6471,9 +6355,7 @@ Formally, detection for random vectors and processes can be defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6533,9 +6415,7 @@ Formally, detection for random vectors and processes can be defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6591,9 +6471,7 @@ The Theorem of Irrelevance can be formally defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6645,9 +6523,7 @@ The Theorem of Irrelevance can be formally defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6703,9 +6579,7 @@ The Theorem of Irrelevance can be formally defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6765,9 +6639,7 @@ M-ary detection can be formally defined as:
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6815,9 +6687,7 @@ As mentioned in the previous section, M-ary detection can be formally defined as
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6869,9 +6739,7 @@ As mentioned in the previous section, M-ary detection can be formally defined as
 
 
 $$
-
 \hat{\mathbf{x}} = g(\mathbf{y})
-
 $$
 
 
@@ -6939,9 +6807,7 @@ The coding process can be represented mathematically as:
 
 
 $$
-
 \mathbf{x} = f(\mathbf{m})
-
 $$
 
 
@@ -6997,9 +6863,7 @@ The coding process can be represented mathematically as:
 
 
 $$
-
 \mathbf{x} = f(\mathbf{m})
-
 $$
 
 
@@ -7055,9 +6919,7 @@ The coding process can be represented mathematically as:
 
 
 $$
-
 \mathbf{x} = f(\mathbf{m})
-
 $$
 
 
@@ -7643,9 +7505,7 @@ The discrete-time baseband model for wireless channels can be represented by the
 
 
 $$
-
 y_j(n) = \sum_{i=0}^{N-1} h_{ji}x_i(n) + w_j(n)
-
 $$
 
 
@@ -7963,9 +7823,7 @@ Mathematically, time spread can be represented as:
 
 
 $$
-
 \Delta t = t_{max} - t_{min}
-
 $$
 
 
@@ -7979,9 +7837,7 @@ Time spread can also be represented in terms of the delay spread, which is the d
 
 
 $$
-
 \Delta \tau = \tau_{max} - \tau_{min}
-
 $$
 
 
@@ -8203,9 +8059,7 @@ The coherence time, denoted by $T_c$, is defined as the reciprocal of the maximu
 
 
 $$
-
 T_c = \frac{1}{f_d}
-
 $$
 
 
@@ -8215,9 +8069,7 @@ where $f_d$ is given by:
 
 
 $$
-
 f_d = \frac{v}{\lambda}
-
 $$
 
 
@@ -8483,9 +8335,7 @@ The coherence frequency, denoted by $f_c$, is defined as the frequency at which 
 
 
 $$
-
 f_c = \frac{1}{\tau_c}
-
 $$
 
 
@@ -10269,7 +10119,6 @@ The most common form of PSK is binary phase shift keying (BPSK), where the phase
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 0 \\
@@ -10277,7 +10126,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \pi, & \text{for } 1
 
 \end{cases}
-
 $$
 
 
@@ -10291,9 +10139,7 @@ The phase shift can also be represented using a complex exponential, which is co
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10341,7 +10187,6 @@ The most common form of PSK is binary phase shift keying (BPSK), where the phase
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 0 \\
@@ -10349,7 +10194,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \pi, & \text{for } 1
 
 \end{cases}
-
 $$
 
 
@@ -10363,9 +10207,7 @@ The phase shift can also be represented using a complex exponential, which is co
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10425,7 +10267,6 @@ The most common form of PSK is binary phase shift keying (BPSK), where the phase
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 0 \\
@@ -10433,7 +10274,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \pi, & \text{for } 1
 
 \end{cases}
-
 $$
 
 
@@ -10447,9 +10287,7 @@ The phase shift can also be represented using a complex exponential, which is co
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10525,7 +10363,6 @@ The most common form of QAM is 16-QAM, where the amplitude and phase of the carr
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 00 \\
@@ -10537,7 +10374,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \frac{3\pi}{4}, & \text{for } 11
 
 \end{cases}
-
 $$
 
 
@@ -10551,9 +10387,7 @@ Similar to PSK, the phase shift can also be represented using a complex exponent
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10609,7 +10443,6 @@ The most common form of QAM is 16-QAM, where the amplitude and phase of the carr
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 00 \\
@@ -10621,7 +10454,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \frac{3\pi}{4}, & \text{for } 11
 
 \end{cases}
-
 $$
 
 
@@ -10635,9 +10467,7 @@ Similar to PSK, the phase shift can also be represented using a complex exponent
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10701,7 +10531,6 @@ The most common form of QAM is 16-QAM, where the amplitude and phase of the carr
 
 
 $$
-
 s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 
 0, & \text{for } 00 \\
@@ -10713,7 +10542,6 @@ s(t) = A\cos(2\pi f_ct + \phi), \phi = \begin{cases}
 \frac{3\pi}{4}, & \text{for } 11
 
 \end{cases}
-
 $$
 
 
@@ -10727,9 +10555,7 @@ Similar to PSK, the phase shift can also be represented using a complex exponent
 
 
 $$
-
 s(t) = Ae^{j(2\pi f_ct + \phi)}
-
 $$
 
 
@@ -10789,9 +10615,7 @@ Mathematically, the transmitted signal in OFDM can be represented as:
 
 
 $$
-
 s(t) = \sum_{n=0}^{N-1} \sum_{k=0}^{K-1} x_k(n) e^{j2\pi f_k t}
-
 $$
 
 
@@ -10839,9 +10663,7 @@ Mathematically, the transmitted signal in OFDM can be represented as:
 
 
 $$
-
 s(t) = \sum_{n=0}^{N-1} \sum_{k=0}^{K-1} x_k(n) e^{j2\pi f_k t}
-
 $$
 
 
@@ -10897,9 +10719,7 @@ Mathematically, the transmitted signal in OFDM can be represented as:
 
 
 $$
-
 s(t) = \sum_{n=0}^{N-1} \sum_{k=0}^{K-1} x_k(n) e^{j2\pi f_k t}
-
 $$
 
 
@@ -11197,9 +11017,7 @@ The capacity of a MIMO system using spatial multiplexing can be calculated using
 
 
 $$
-
 C = \log_2(1 + \frac{SNR}{N_t})
-
 $$
 
 
@@ -12193,9 +12011,7 @@ The Poisson process is characterized by a single parameter, λ, which represents
 
 
 $$
-
 P(k,t) = \frac{(\lambda t)^k e^{-\lambda t}}{k!}
-
 $$
 
 
@@ -12341,9 +12157,7 @@ In digital communication systems, Poisson processes are commonly used to model t
 
 
 $$
-
 P(n) = \frac{(\lambda T)^n}{n!}e^{-\lambda T}
-
 $$
 
 
@@ -12421,9 +12235,7 @@ The Markov property can be expressed mathematically as:
 
 
 $$
-
 P(X_{n+1} = x_{n+1} | X_n = x_n, X_{n-1} = x_{n-1}, ..., X_0 = x_0) = P(X_{n+1} = x_{n+1} | X_n = x_n)
-
 $$
 
 
@@ -12795,9 +12607,7 @@ Mathematically, a Wiener process can be represented as:
 
 
 $$
-
 W(t) = \sigma \sqrt{t} \cdot Z
-
 $$
 
 
@@ -12967,9 +12777,7 @@ The Laplace transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(s) = \int_{0}^{\infty} x(t)e^{-st} dt
-
 $$
 
 
@@ -12983,9 +12791,7 @@ Similar to the Fourier transform, the Laplace transform also has an inverse tran
 
 
 $$
-
 x(t) = \frac{1}{2\pi j} \int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st} ds
-
 $$
 
 
@@ -13025,9 +12831,7 @@ The Laplace transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(s) = \int_{0}^{\infty} x(t)e^{-st} dt
-
 $$
 
 
@@ -13041,9 +12845,7 @@ Similar to the Fourier transform, the Laplace transform also has an inverse tran
 
 
 $$
-
 x(t) = \frac{1}{2\pi j} \int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st} ds
-
 $$
 
 
@@ -13091,9 +12893,7 @@ The Laplace transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(s) = \int_{0}^{\infty} x(t)e^{-st} dt
-
 $$
 
 
@@ -13107,9 +12907,7 @@ Similar to the Fourier transform, the Laplace transform also has an inverse tran
 
 
 $$
-
 x(t) = \frac{1}{2\pi j} \int_{\sigma-j\infty}^{\sigma+j\infty} X(s)e^{st} ds
-
 $$
 
 
@@ -13177,9 +12975,7 @@ The Z transform of a discrete-time signal $x[n]$ is defined as:
 
 
 $$
-
 X(z) = \sum_{n=0}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -13189,9 +12985,7 @@ where $z$ is a complex variable and is given by $z = re^{j\omega}$, with $r$ rep
 
 
 $$
-
 x[n] = \frac{1}{2\pi j} \oint_C X(z)z^{n-1} dz
-
 $$
 
 
@@ -13231,9 +13025,7 @@ The Z transform of a discrete-time signal $x[n]$ is defined as:
 
 
 $$
-
 X(z) = \sum_{n=0}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -13247,9 +13039,7 @@ The inverse Z transform allows us to convert a signal from the complex z-domain 
 
 
 $$
-
 x[n] = \frac{1}{2\pi j} \oint_C X(z)z^{n-1} dz
-
 $$
 
 
@@ -13293,9 +13083,7 @@ The Z transform of a discrete-time signal $x[n]$ is defined as:
 
 
 $$
-
 X(z) = \sum_{n=0}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -13309,9 +13097,7 @@ The inverse Z transform allows us to convert a signal from the complex z-domain 
 
 
 $$
-
 x[n] = \frac{1}{2\pi j} \oint_C X(z)z^{n-1} dz
-
 $$
 
 
@@ -13367,9 +13153,7 @@ The wavelet transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(a,b) = \frac{1}{\sqrt{a}} \int_{-\infty}^{\infty} x(t)\psi^*\left(\frac{t-b}{a}\right) dt
-
 $$
 
 
@@ -13383,9 +13167,7 @@ The inverse wavelet transform allows us to convert a signal from the wavelet dom
 
 
 $$
-
 x(t) = \frac{1}{C_\psi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} X(a,b)\psi\left(\frac{t-b}{a}\right) \frac{da}{a^2} db
-
 $$
 
 
@@ -13433,9 +13215,7 @@ The wavelet transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(a,b) = \frac{1}{\sqrt{a}} \int_{-\infty}^{\infty} x(t)\psi^*\left(\frac{t-b}{a}\right) dt
-
 $$
 
 
@@ -13449,9 +13229,7 @@ The inverse wavelet transform allows us to convert a signal from the wavelet dom
 
 
 $$
-
 x(t) = \frac{1}{C_\psi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} X(a,b)\psi\left(\frac{t-b}{a}\right) \frac{da}{a^2} db
-
 $$
 
 
@@ -13503,9 +13281,7 @@ The wavelet transform of a signal $x(t)$ is defined as:
 
 
 $$
-
 X(a,b) = \frac{1}{\sqrt{a}} \int_{-\infty}^{\infty} x(t)\psi^*\left(\frac{t-b}{a}\right) dt
-
 $$
 
 
@@ -13519,9 +13295,7 @@ The inverse wavelet transform allows us to convert a signal from the wavelet dom
 
 
 $$
-
 x(t) = \frac{1}{C_\psi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} X(a,b)\psi\left(\frac{t-b}{a}\right) \frac{da}{a^2} db
-
 $$
 
 
@@ -13753,9 +13527,7 @@ In maximum likelihood detection, the received signal is compared to all possible
 
 
 $$
-
 \hat{x} = \underset{x}{\operatorname{argmax}} P(x|y)
-
 $$
 
 
@@ -13769,9 +13541,7 @@ To calculate the conditional probability, we use Bayes' theorem:
 
 
 $$
-
 P(x|y) = \frac{P(y|x)P(x)}{P(y)}
-
 $$
 
 
@@ -13833,9 +13603,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -13845,9 +13613,7 @@ where $x(n)$ is the transmitted symbol and $w(n)$ is the noise. The maximum like
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} p(y(n)|x(n))
-
 $$
 
 
@@ -13857,7 +13623,6 @@ where $p(y(n)|x(n))$ is the conditional probability of the received signal given
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} p(y(n)|x(n)) = \begin{cases}
 
 0, & \text{if } y(n) < 0 \\
@@ -13865,7 +13630,6 @@ $$
 1, & \text{if } y(n) \geq 0
 
 \end{cases}
-
 $$
 
 
@@ -13931,9 +13695,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -13943,9 +13705,7 @@ where $x(n)$ is the transmitted symbol and $w(n)$ is the noise. The maximum like
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} p(y(n)|x(n))
-
 $$
 
 
@@ -13955,9 +13715,7 @@ where $p(y(n)|x(n))$ is the conditional probability of the received signal given
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(y(n)-x(n))^2}{2\sigma^2}}
-
 $$
 
 
@@ -13967,7 +13725,6 @@ where $\sigma^2$ is the variance of the noise. This equation can be further simp
 
 
 $$
-
 \hat{x}(n) = \begin{cases}
 
 0, & \text{if } y(n) < 0 \\
@@ -13975,7 +13732,6 @@ $$
 1, & \text{if } y(n) \geq 0
 
 \end{cases}
-
 $$
 
 
@@ -14033,9 +13789,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14125,9 +13879,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14141,9 +13893,7 @@ The maximum likelihood detection algorithm works by calculating the probability 
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} P(x(n)|y(n))
-
 $$
 
 
@@ -14157,9 +13907,7 @@ In a binary communication system, the conditional probability can be calculated 
 
 
 $$
-
 P(x(n)|y(n)) = \frac{P(y(n)|x(n))P(x(n))}{P(y(n))}
-
 $$
 
 
@@ -14173,9 +13921,7 @@ The likelihood function can be further simplified by assuming that the noise fol
 
 
 $$
-
 P(y(n)|x(n)) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y(n)-x(n))^2}{2\sigma^2}}
-
 $$
 
 
@@ -14189,9 +13935,7 @@ Substituting this into the conditional probability equation, we get:
 
 
 $$
-
 P(x(n)|y(n)) = \frac{\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y(n)-x(n))^2}{2\sigma^2}}P(x(n))}{P(y(n))}
-
 $$
 
 
@@ -14201,9 +13945,7 @@ Since the transmitted symbols are equally likely, $P(x(n))$ is a constant and ca
 
 
 $$
-
 \hat{x}(n) = \arg\max_{x(n)} e^{-\frac{(y(n)-x(n))^2}{2\sigma^2}}
-
 $$
 
 
@@ -14213,9 +13955,7 @@ This can be further simplified by taking the logarithm of both sides, resulting 
 
 
 $$
-
 \hat{x}(n) = \arg\min_{x(n)} (y(n)-x(n))^2
-
 $$
 
 
@@ -14269,9 +14009,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14289,9 +14027,7 @@ In a binary communication system, the likelihood of a transmitted symbol can be 
 
 
 $$
-
 L(x(n)) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y(n)-x(n))^2}{2\sigma^2}}
-
 $$
 
 
@@ -14349,9 +14085,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14477,9 +14211,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14493,9 +14225,7 @@ The maximum likelihood detection algorithm works by comparing the received signa
 
 
 $$
-
 \hat{x}(n) = \arg\min_{x(n)} \lvert y(n) - x(n) \rvert^2
-
 $$
 
 
@@ -14553,9 +14283,7 @@ To understand maximum likelihood detection, let us consider a binary communicati
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14573,9 +14301,7 @@ In a binary communication system, the received signal can be represented as:
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14589,17 +14315,13 @@ To calculate the error, we use the Euclidean distance between the received signa
 
 
 $$
-
 d_0 = |y(n) - 0| = |y(n)|
-
 $$
 
 
 
 $$
-
 d_1 = |y(n) - 1| = |y(n) - 1|
-
 $$
 
 
@@ -14609,7 +14331,6 @@ The symbol with the smallest distance is chosen as the most likely transmitted s
 
 
 $$
-
 \hat{x}(n) = \begin{cases}
 
 0, & \text{if } d_0 < d_1 \\
@@ -14617,7 +14338,6 @@ $$
 1, & \text{if } d_1 < d_0
 
 \end{cases}
-
 $$
 
 
@@ -14635,9 +14355,7 @@ In M-ary communication systems, there are more than two possible symbols that ca
 
 
 $$
-
 y(n) = x(n) + w(n)
-
 $$
 
 
@@ -14651,9 +14369,7 @@ To calculate the error, we use the Euclidean distance between the received signa
 
 
 $$
-
 d_i = |y(n) - x_i|
-
 $$
 
 
@@ -14663,9 +14379,7 @@ where $x_i$ represents the $i$th possible symbol. The symbol with the smallest d
 
 
 $$
-
 \hat{x}(n) = \underset{i}{\operatorname{argmin}} d_i
-
 $$
 
 
@@ -15371,9 +15085,7 @@ To understand the concept of multi-user detection, let's consider a simple scena
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 
@@ -15421,9 +15133,7 @@ To understand the concept of multi-user detection, let's consider a simple scena
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 
@@ -15483,9 +15193,7 @@ To understand the concept of multi-user detection, let's consider a simple scena
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 
@@ -15549,9 +15257,7 @@ To understand the concept of interference cancellation, let's consider the same 
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 
@@ -15595,9 +15301,7 @@ To understand the concept of interference cancellation, let's consider the same 
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 
@@ -15641,9 +15345,7 @@ To understand the concept of interference cancellation, let's consider the same 
 
 
 $$
-
 r(n) = x_1(n) + x_2(n) + w(n)
-
 $$
 
 

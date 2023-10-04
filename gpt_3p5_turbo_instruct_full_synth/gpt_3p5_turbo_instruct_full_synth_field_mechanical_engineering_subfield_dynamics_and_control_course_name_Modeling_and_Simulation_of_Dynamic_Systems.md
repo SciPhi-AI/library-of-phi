@@ -2350,9 +2350,7 @@ To understand the behavior of a multi-port capacitor, we must first understand t
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -2400,9 +2398,7 @@ To understand the behavior of a multi-port capacitor, we must first understand t
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -2466,9 +2462,7 @@ To understand the behavior of a multi-port capacitor, we must first understand t
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -2524,9 +2518,7 @@ This principle can be mathematically expressed as:
 
 
 $$
-
 \frac{V_1}{Q_1} = \frac{V_2}{Q_2} = \frac{V_3}{Q_3} = ... = \frac{V_n}{Q_n}
-
 $$
 
 
@@ -2552,9 +2544,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \frac{1}{2}CV_1^2 = \frac{1}{2}CV_2^2 = \frac{1}{2}CV_3^2 = ... = \frac{1}{2}CV_n^2
-
 $$
 
 
@@ -2586,9 +2576,7 @@ This principle can be mathematically expressed as:
 
 
 $$
-
 \frac{V_1}{Q_1} = \frac{V_2}{Q_2} = \frac{V_3}{Q_3} = ... = \frac{V_n}{Q_n}
-
 $$
 
 
@@ -2640,9 +2628,7 @@ This principle can be mathematically expressed as:
 
 
 $$
-
 \frac{V_1}{Q_1} = \frac{V_2}{Q_2} = \frac{V_3}{Q_3} = ... = \frac{V_n}{Q_n}
-
 $$
 
 
@@ -2706,17 +2692,13 @@ Mathematically, energy and co-energy can be expressed as:
 
 
 $$
-
 E = \sum_{i=1}^{n} E_i
-
 $$
 
 
 
 $$
-
 W = \sum_{i=1}^{n} W_i
-
 $$
 
 
@@ -2764,17 +2746,13 @@ Mathematically, energy and co-energy can be expressed as:
 
 
 $$
-
 E = \sum_{i=1}^{n} E_i
-
 $$
 
 
 
 $$
-
 W = \sum_{i=1}^{n} W_i
-
 $$
 
 
@@ -2842,17 +2820,13 @@ Mathematically, energy and co-energy can be expressed as:
 
 
 $$
-
 E = \sum_{i=1}^{n} E_i
-
 $$
 
 
 
 $$
-
 W = \sum_{i=1}^{n} W_i
-
 $$
 
 
@@ -2928,9 +2902,7 @@ Mathematically, the Legendre transformation can be expressed as:
 
 
 $$
-
 F(x) = yx - f(y)
-
 $$
 
 
@@ -2982,9 +2954,7 @@ Mathematically, the Legendre transformation can be expressed as:
 
 
 $$
-
 F(x) = yx - f(y)
-
 $$
 
 
@@ -3006,9 +2976,7 @@ To better understand the mathematical formulation of the Legendre transformation
 
 
 $$
-
 E = E_1 + E_2
-
 $$
 
 
@@ -3018,9 +2986,7 @@ Now, let us define the co-energy of the system as:
 
 
 $$
-
 \Phi = \Phi_1 + \Phi_2
-
 $$
 
 
@@ -3034,9 +3000,7 @@ Using the Legendre transformation, we can express the co-energy $\Phi$ as a func
 
 
 $$
-
 \Phi(E) = E - E_1 - E_2
-
 $$
 
 
@@ -3084,9 +3048,7 @@ Mathematically, the Legendre transformation can be expressed as:
 
 
 $$
-
 F(x) = yx - f(y)
-
 $$
 
 
@@ -3108,9 +3070,7 @@ To better understand the mathematical formulation of the Legendre transformation
 
 
 $$
-
 E = E_1 + E_2
-
 $$
 
 
@@ -3120,9 +3080,7 @@ Now, let us define the co-energy of the system as:
 
 
 $$
-
 \Phi = \Phi_1 + \Phi_2
-
 $$
 
 
@@ -3136,9 +3094,7 @@ Using the Legendre transformation, we can express the co-energy $\Phi$ as a func
 
 
 $$
-
 \Phi(E,x,y) = yE - F(x)
-
 $$
 
 
@@ -3748,9 +3704,7 @@ The first law of electromagnetism is Gauss's law, which states that the electric
 
 
 $$
-
 \oint \vec{E} \cdot d\vec{A} = \frac{Q_{enc}}{\epsilon_0}
-
 $$
 
 
@@ -3764,9 +3718,7 @@ The second law of electromagnetism is Faraday's law of induction, which states t
 
 
 $$
-
 \oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}
-
 $$
 
 
@@ -3780,9 +3732,7 @@ The third law of electromagnetism is Ampere's law, which relates the magnetic fi
 
 
 $$
-
 \oint \vec{B} \cdot d\vec{l} = \mu_0 I_{enc} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}
-
 $$
 
 
@@ -3796,9 +3746,7 @@ The fourth law of electromagnetism is the Lorentz force law, which describes the
 
 
 $$
-
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
-
 $$
 
 
@@ -4038,9 +3986,7 @@ Now that we understand the relationship between solenoids and co-energy, let's t
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -4054,9 +4000,7 @@ Another important aspect to consider in the analysis of solenoid co-energy is th
 
 
 $$
-
 F = \frac{dW}{dx}
-
 $$
 
 
@@ -4104,9 +4048,7 @@ Now that we understand the relationship between solenoids and co-energy, let's t
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -4120,9 +4062,7 @@ Another important aspect to consider in the analysis of solenoid co-energy is th
 
 
 $$
-
 F = \frac{dW}{dx}
-
 $$
 
 
@@ -4186,9 +4126,7 @@ The co-energy of a DCPMM can be expressed mathematically as:
 
 
 $$
-
 W = \frac{1}{2}LI^2 + \frac{1}{2}\mu_0\mu_r\frac{N^2}{l}B^2
-
 $$
 
 
@@ -4244,9 +4182,7 @@ The co-energy of a DCPMM can be expressed mathematically as:
 
 
 $$
-
 W = \frac{1}{2}LI^2 + \frac{1}{2}\mu_0\mu_r\frac{N^2}{l}B^2
-
 $$
 
 
@@ -4306,9 +4242,7 @@ The co-energy of a DCPMM can be expressed mathematically as:
 
 
 $$
-
 W = \frac{1}{2}LI^2 + \frac{1}{2}\mu_0\mu_r\frac{N^2}{l}B^2
-
 $$
 
 
@@ -10590,9 +10524,7 @@ The Legendre transformation is derived from the concept of the Legendre-Fenchel 
 
 
 $$
-
 f^*(y) = \sup_{x}(xy - f(x))
-
 $$
 
 
@@ -10602,9 +10534,7 @@ In other words, the Legendre-Fenchel conjugate is the maximum value of the linea
 
 
 $$
-
 f(x) = \sup_{y}(xy - f^*(y))
-
 $$
 
 
@@ -10690,9 +10620,7 @@ The multi-port capacitor model is based on the principle of charge conservation.
 
 
 $$
-
 \sum_{i=1}^{n} q_i = 0
-
 $$
 
 
@@ -10786,33 +10714,25 @@ Let us consider a multi-port capacitor with n ports, labeled as 1, 2, ..., n. Th
 
 
 $$
-
 I_1 = C_{11}\frac{dV_1}{dt} + C_{12}\frac{dV_2}{dt} + ... + C_{1n}\frac{dV_n}{dt}
-
 $$
 
 
 
 $$
-
 I_2 = C_{21}\frac{dV_1}{dt} + C_{22}\frac{dV_2}{dt} + ... + C_{2n}\frac{dV_n}{dt}
-
 $$
 
 
 
 $$
-
 ...
-
 $$
 
 
 
 $$
-
 I_n = C_{n1}\frac{dV_1}{dt} + C_{n2}\frac{dV_2}{dt} + ... + C_{nn}\frac{dV_n}{dt}
-
 $$
 
 
@@ -10822,7 +10742,6 @@ where $C_{ij}$ represents the capacitance between ports i and j. These equations
 
 
 $$
-
 \begin{bmatrix}
 
 I_1 \\
@@ -10860,7 +10779,6 @@ C_{n1} & C_{n2} & ... & C_{nn}
 \frac{dV_n}{dt}
 
 \end{bmatrix}
-
 $$
 
 
@@ -10906,33 +10824,25 @@ Similar to multi-port capacitors, multi-port inductors can also be represented b
 
 
 $$
-
 V_1 = L_{11}\frac{dI_1}{dt} + L_{12}\frac{dI_2}{dt} + ... + L_{1n}\frac{dI_n}{dt}
-
 $$
 
 
 
 $$
-
 V_2 = L_{21}\frac{dI_1}{dt} + L_{22}\frac{dI_2}{dt} + ... + L_{2n}\frac{dI_n}{dt}
-
 $$
 
 
 
 $$
-
 ...
-
 $$
 
 
 
 $$
-
 V_n = L_{n1}\frac{dI_1}{dt} + L_{n2}\frac{dI_2}{dt} + ... + L_{nn}\frac{dI_n}{dt}
-
 $$
 
 
@@ -10942,7 +10852,6 @@ where $L_{ij}$ represents the inductance between ports i and j. These equations 
 
 
 $$
-
 \begin{bmatrix}
 
 V_1 \\
@@ -10980,7 +10889,6 @@ L_{n1} & L_{n2} & ... & L_{nn}
 \frac{dI_n}{dt}
 
 \end{bmatrix}
-
 $$
 
 
@@ -11038,9 +10946,7 @@ Let us consider a function $f(x)$, where x is the independent variable. The Lege
 
 
 $$
-
 g(y) = f(x) - xy
-
 $$
 
 
@@ -11202,9 +11108,7 @@ The amount of energy transferred between the capacitors depends on their capacit
 
 
 $$
-
 Q = CV
-
 $$
 
 
@@ -11250,9 +11154,7 @@ The amount of energy transferred between the inductors depends on their inductan
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -11422,9 +11324,7 @@ Let us consider a multi-port capacitor with n ports. The voltage at each port ca
 
 
 $$
-
 I = C\frac{dV}{dt}
-
 $$
 
 
@@ -11438,9 +11338,7 @@ The port equations can also be written in a more general form as:
 
 
 $$
-
 \sum_{k=1}^{n} I_k = \sum_{k=1}^{n} C_{ik}\frac{dV_k}{dt}
-
 $$
 
 
@@ -11466,9 +11364,7 @@ The mathematical model of multi-port inductors is similar to that of multi-port 
 
 
 $$
-
 V = L\frac{dI}{dt}
-
 $$
 
 
@@ -11482,9 +11378,7 @@ The port equations can also be written in a more general form as:
 
 
 $$
-
 \sum_{k=1}^{n} V_k = \sum_{k=1}^{n} L_{ik}\frac{dI_k}{dt}
-
 $$
 
 
@@ -11514,17 +11408,13 @@ For example, let us consider a system with two masses connected by a spring. The
 
 
 $$
-
 m_1\ddot{x_1} = -kx_1 + k(x_2 - x_1)
-
 $$
 
 
 
 $$
-
 m_2\ddot{x_2} = -kx_2 + k(x_1 - x_2)
-
 $$
 
 
@@ -11554,17 +11444,13 @@ For example, let us consider a system with two capacitors connected in parallel.
 
 
 $$
-
 V_1 = \frac{Q_1}{C_1}
-
 $$
 
 
 
 $$
-
 V_2 = \frac{Q_2}{C_2}
-
 $$
 
 
@@ -11770,9 +11656,7 @@ Another important concept is magnetic flux, which is a measure of the amount of 
 
 
 $$
-
 \Phi = BA
-
 $$
 
 
@@ -11946,9 +11830,7 @@ One of the key concepts in electromagnetism is the relationship between electric
 
 
 $$
-
 \vec{B} = \frac{\mu_0}{4\pi} \int_C \frac{I\vec{dl}\times\hat{r}}{r^2}
-
 $$
 
 
@@ -12000,9 +11882,7 @@ One of the key concepts in electromagnetism is the relationship between electric
 
 
 $$
-
 \vec{B} = \frac{\mu_0}{4\pi} \int_C \frac{I\vec{dl}\times\hat{r}}{r^2}
-
 $$
 
 
@@ -12070,9 +11950,7 @@ One of the key concepts in solenoids is the relationship between the magnetic fi
 
 
 $$
-
 B = \mu_0 nI
-
 $$
 
 
@@ -12090,9 +11968,7 @@ Another important concept in solenoids is the inductance of the coil. Inductance
 
 
 $$
-
 L = \frac{\mu_0 n^2 A}{l}
-
 $$
 
 
@@ -12224,9 +12100,7 @@ The co-energy of a solenoid can be calculated using the following equation:
 
 
 $$
-
 W = \frac{1}{2}LI^2
-
 $$
 
 
@@ -17160,9 +17034,7 @@ To fully understand the behavior of a multi-port capacitor, we must first unders
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -17176,9 +17048,7 @@ In a multi-port capacitor, the capacitance is affected by several factors, inclu
 
 
 $$
-
 C = \frac{\epsilon A}{d}
-
 $$
 
 
@@ -17192,9 +17062,7 @@ Another important concept related to multi-port capacitors is energy storage. Th
 
 
 $$
-
 E = \frac{1}{2}CV^2
-
 $$
 
 
@@ -17208,9 +17076,7 @@ In addition to energy storage, multi-port capacitors also play a crucial role in
 
 
 $$
-
 P = VI
-
 $$
 
 

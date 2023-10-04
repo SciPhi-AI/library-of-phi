@@ -2970,9 +2970,7 @@ Let $x_{ij}$ represent the flow of passengers from origin airport $i$ to destina
 
 
 $$
-
 R = \sum_{i,j} x_{ij} \cdot p_{ij}
-
 $$
 
 
@@ -2986,9 +2984,7 @@ The keypath formulation also takes into account the demand for different types o
 
 
 $$
-
 D^k = \sum_{i,j} d_{ij}^k
-
 $$
 
 
@@ -2998,25 +2994,19 @@ The constraints for the keypath formulation include the capacity of each flight,
 
 
 $$
-
 \sum_{j} x_{ij} \leq c_{ij} \quad \forall i
-
 $$
 
 
 
 $$
-
 \sum_{i} x_{ij} \leq c_{ij} \quad \forall j
-
 $$
 
 
 
 $$
-
 x_{ij} = 0 \quad \forall i,j \text{ where } s_{ij} = 0
-
 $$
 
 
@@ -3026,25 +3016,19 @@ The keypath formulation also takes into account connecting flights, where passen
 
 
 $$
-
 x_{ikj} \leq x_{ij} \quad \forall i,j,k
-
 $$
 
 
 
 $$
-
 x_{ikj} \leq x_{kj} \quad \forall i,j,k
-
 $$
 
 
 
 $$
-
 x_{ikj} = 0 \quad \forall i,j,k \text{ where } s_{ik} = 0 \text{ or } s_{kj} = 0
-
 $$
 
 

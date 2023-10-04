@@ -1341,9 +1341,7 @@ In this representation, the input signal is denoted by $x(n)$, where $n$ represe
 
 
 $$
-
 y(n) = T[x(n)]
-
 $$
 
 
@@ -1361,9 +1359,7 @@ The impulse response of a DT system is a fundamental concept in time-domain anal
 
 
 $$
-
 h(n) = T[\delta(n)]
-
 $$
 
 
@@ -1381,9 +1377,7 @@ Convolution is an important operation in time-domain analysis, used to determine
 
 
 $$
-
 y(n) = \sum_{k=-\infty}^{\infty} x(k)h(n-k)
-
 $$
 
 
@@ -1439,9 +1433,7 @@ In this representation, the input signal is denoted by $x(n)$, where $n$ represe
 
 
 $$
-
 y(n) = T[x(n)]
-
 $$
 
 
@@ -1459,9 +1451,7 @@ The impulse response of a DT system is a fundamental concept in time-domain anal
 
 
 $$
-
 h(n) = T[\delta(n)]
-
 $$
 
 
@@ -1479,9 +1469,7 @@ Convolution is an important operation in time-domain analysis, used to determine
 
 
 $$
-
 y(n) = \sum_{k=-\infty}^{\infty} x(k)h(n-k)
-
 $$
 
 
@@ -1503,9 +1491,7 @@ The Fourier Transform of a DT signal $x(n)$ is defined as:
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -1519,9 +1505,7 @@ The inverse Fourier Transform can be used to obtain the original signal from its
 
 
 $$
-
 x(n) = \frac{1}{2\pi}\int_{-\pi}^{\pi} X(e^{j\omega})e^{j\omega n} d\omega
-
 $$
 
 
@@ -1543,9 +1527,7 @@ The Z-Transform of a DT signal $x(n)$ is defined as:
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
-
 $$
 
 
@@ -1559,9 +1541,7 @@ The inverse Z-Transform can be used to obtain the original signal from its Z-dom
 
 
 $$
-
 x(n) = \frac{1}{2\pi j}\oint_C X(z)z^{n-1} dz
-
 $$
 
 
@@ -1587,9 +1567,7 @@ The Laplace Transform of a continuous-time signal $x(t)$ is defined as:
 
 
 $$
-
 X(s) = \int_{0}^{\infty} x(t)e^{-st} dt
-
 $$
 
 
@@ -1603,9 +1581,7 @@ The inverse Laplace Transform can be used to obtain the original signal from its
 
 
 $$
-
 x(t) = \frac{1}{2\pi j}\oint_C X(s)e^{st} ds
-
 $$
 
 
@@ -1657,9 +1633,7 @@ In this representation, the input signal is denoted by $X(e^{j\omega})$, where $
 
 
 $$
-
 Y(e^{j\omega}) = H(e^{j\omega})X(e^{j\omega})
-
 $$
 
 
@@ -1677,9 +1651,7 @@ The discrete Fourier transform (DFT) is a mathematical tool used to convert a di
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=0}^{N-1} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -1689,9 +1661,7 @@ where $N$ is the length of the signal $x(n)$. The inverse DFT (IDFT) is used to 
 
 
 $$
-
 x(n) = \frac{1}{N}\sum_{k=0}^{N-1} X(e^{j\omega})e^{j\omega n}
-
 $$
 
 
@@ -1709,9 +1679,7 @@ Similar to the impulse response in the time-domain, the frequency response is a 
 
 
 $$
-
 H(e^{j\omega}) = T[e^{j\omega n}]
-
 $$
 
 
@@ -1729,9 +1697,7 @@ The discrete-time Fourier transform (DTFT) is a mathematical tool used to analyz
 
 
 $$
-
 H(e^{j\omega}) = \sum_{n=-\infty}^{\infty} h(n)e^{-j\omega n}
-
 $$
 
 
@@ -1771,9 +1737,7 @@ The Fourier transform is a mathematical tool used to convert a continuous-time s
 
 
 $$
-
 X(j\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
-
 $$
 
 
@@ -1783,9 +1747,7 @@ where $\omega$ represents the frequency in radians per second. The inverse Fouri
 
 
 $$
-
 x(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} X(j\omega)e^{j\omega t} d\omega
-
 $$
 
 
@@ -1803,9 +1765,7 @@ Similar to the impulse response in the time-domain, the frequency response is a 
 
 
 $$
-
 H(j\omega) = \frac{Y(j\omega)}{X(j\omega)}
-
 $$
 
 
@@ -1831,9 +1791,7 @@ The transfer function is a mathematical representation of the frequency response
 
 
 $$
-
 H(s) = \frac{Y(s)}{X(s)}
-
 $$
 
 
@@ -1851,9 +1809,7 @@ The Z-transform is a mathematical tool used to convert a discrete-time signal fr
 
 
 $$
-
 X(z) = \sum_{n=0}^{\infty} x(n)z^{-n}
-
 $$
 
 
@@ -1863,9 +1819,7 @@ where $z$ represents the complex variable $e^{j\omega}$. The inverse Z-transform
 
 
 $$
-
 x(n) = \frac{1}{2\pi j}\oint_C X(z)z^{n-1} dz
-
 $$
 
 
@@ -1905,9 +1859,7 @@ Mathematically, the sampling theorem can be expressed as:
 
 
 $$
-
 f_s > 2B
-
 $$
 
 
@@ -2051,7 +2003,6 @@ The DFT is a mathematical operation that converts a finite sequence of equally s
 $$X(k) = \sum_{n=0}^{N-1} x(n) e^{-j2\pi kn/N}$$
 
 
-
 where $x(n)$ is the input signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT produces a complex-valued output, with the magnitude representing the amplitude of the frequency component and the phase representing the phase shift of the component.
 
 
@@ -2187,13 +2138,11 @@ As we move forward in this book, we will continue to build upon the concepts int
 #### Exercise 1
 
 Consider the following DT system with input $x(n)$ and output $y(n)$:
-
 $$
 
 y(n) = 2x(n) + 3x(n-1) - x(n-2)
 
 $$
-
 Is this system linear? Justify your answer.
 
 
@@ -2201,13 +2150,11 @@ Is this system linear? Justify your answer.
 #### Exercise 2
 
 Given the following DT system:
-
 $$
 
 y(n) = x(n) + x(n-1) + x(n-2)
 
 $$
-
 Is this system time-invariant? Explain your reasoning.
 
 
@@ -2215,13 +2162,11 @@ Is this system time-invariant? Explain your reasoning.
 #### Exercise 3
 
 Determine the stability of the following DT system:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + x(n)
 
 $$
-
 
 
 #### Exercise 4
@@ -2233,13 +2178,11 @@ Design a DT system with impulse response $h(n) = \delta(n) + \delta(n-1) + \delt
 #### Exercise 5
 
 Consider the following DT system with input $x(n)$ and output $y(n)$:
-
 $$
 
 y(n) = x(n) + x(n-1) + x(n-2)
 
 $$
-
 Is this system invertible? If not, suggest a modification to make it invertible.
 
 
@@ -2459,13 +2402,11 @@ The impulse response of a CT system is a fundamental concept that is used to cha
 Convolution is an operation that is used to calculate the output of a CT system when an arbitrary input signal is applied. It is defined as the integral of the product of the input signal and the impulse response over all time. Mathematically, it can be represented as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal, $h(t)$ is the impulse response, and $y(t)$ is the output signal.
@@ -2537,13 +2478,11 @@ The impulse response of a CT system is a fundamental concept that is used to cha
 Convolution is an operation that is used to calculate the output of a CT system when an arbitrary input signal is applied. It is defined as the integral of the product of the input signal and the impulse response over all time. Mathematically, it can be represented as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal, $h(t)$ is the impulse response, and $y(t)$ is the output signal.
@@ -2557,13 +2496,11 @@ where $x(t)$ is the input signal, $h(t)$ is the impulse response, and $y(t)$ is 
 As mentioned in the previous section, linearity and time-invariance are two important properties of CT systems. A system is said to be linear if it follows the principle of superposition, which states that the output of the system when two or more inputs are applied simultaneously is equal to the sum of the individual outputs when each input is applied separately. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = \alpha x_1(t) + \beta x_2(t)
 
 $$
-
 
 
 where $\alpha$ and $\beta$ are constants and $x_1(t)$ and $x_2(t)$ are two input signals.
@@ -2573,13 +2510,11 @@ where $\alpha$ and $\beta$ are constants and $x_1(t)$ and $x_2(t)$ are two input
 A system is said to be time-invariant if its behavior does not change over time. This means that the output of the system remains the same regardless of when the input is applied. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(t) = x(t-t_0)
 
 $$
-
 
 
 where $t_0$ is a constant representing a time shift.
@@ -2659,13 +2594,11 @@ Now, let's consider how this concept applies to CT systems. Just like how a peri
 The Fourier transform is defined as:
 
 
-
 $$
 
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
 
 $$
-
 
 
 where $x(t)$ is the input signal and $X(\omega)$ is its frequency-domain representation. The variable $j$ represents the imaginary unit, and $\omega$ represents frequency.
@@ -2755,13 +2688,11 @@ Overall, this chapter has provided a solid foundation for understanding continuo
 #### Exercise 1
 
 Consider a continuous-time system with the following input-output relationship:
-
 $$
 
 y(t) = 3x(t) + 2x(t-1)
 
 $$
-
 Is this system linear? Justify your answer.
 
 
@@ -2769,7 +2700,6 @@ Is this system linear? Justify your answer.
 #### Exercise 2
 
 Find the impulse response of the following continuous-time system:
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau) d\tau
@@ -2777,17 +2707,14 @@ y(t) = \int_{-\infty}^{\infty} x(\tau) d\tau
 $$
 
 
-
 #### Exercise 3
 
 Given the transfer function of a continuous-time system as:
-
 $$
 
 H(s) = \frac{s+1}{s^2+2s+1}
 
 $$
-
 Determine the poles and zeros of the system.
 
 
@@ -2795,13 +2722,11 @@ Determine the poles and zeros of the system.
 #### Exercise 4
 
 A continuous-time system has the following frequency response:
-
 $$
 
 H(j\omega) = \frac{1}{1+j\omega}
 
 $$
-
 What is the corresponding impulse response of this system?
 
 
@@ -2809,13 +2734,11 @@ What is the corresponding impulse response of this system?
 #### Exercise 5
 
 Consider a continuous-time system with the following differential equation:
-
 $$
 
 \frac{d^2y(t)}{dt^2} + 2\frac{dy(t)}{dt} + 2y(t) = x(t)
 
 $$
-
 Find the transfer function of this system and determine if it is stable.
 
 
@@ -2871,17 +2794,13 @@ Laplace transforms are a powerful mathematical tool used in the study of signals
 The Laplace transform of a function f(t) is defined as:
 
 
-
 $$F(s) = \int_{0}^{\infty} f(t) e^{-st} dt$$
-
 
 
 where s is a complex variable. This transformation allows us to analyze signals and systems in the frequency domain, where complex numbers are used to represent the amplitude and phase of a signal. The inverse Laplace transform, which converts functions in the frequency domain back to the time domain, is given by:
 
 
-
 $$f(t) = \frac{1}{2\pi i} \int_{\sigma-i\infty}^{\sigma+i\infty} F(s) e^{st} ds$$
-
 
 
 where $\sigma$ is a real number that determines the region of convergence (ROC) of the transformed function.
@@ -2907,9 +2826,7 @@ Laplace transforms have many useful properties, including linearity, time-shifti
 In addition to the one-dimensional Laplace transform, there is also a multidimensional version that is useful for solving boundary value problems in two or more variables. The multidimensional Laplace transform is defined as:
 
 
-
 $$F(s_1,s_2,\ldots,s_n) = \int_{0}^{\infty} \cdots \int_{0}^{\infty} f(t_1,t_2,\ldots,t_n) e^{-s_nt_n -s_{n-1}t_{n-1} \cdots \cdots s_1t_1} dt_1 \cdots dt_n$$
-
 
 
 where F represents the s-domain representation of the signal f(t). This transformation is particularly useful for solving partial differential equations.
@@ -2923,17 +2840,13 @@ where F represents the s-domain representation of the signal f(t). This transfor
 Similar to the Laplace transform, there is also a multidimensional Z transform that is used to map discrete time domain signals to the Z domain. This transformation is useful for checking the stability of filters and is defined as:
 
 
-
 $$F(z_1,z_2,\ldots,z_m) = \sum_{n_1=-\infty}^{\infty} \cdots \sum_{n_m=-\infty}^{\infty} f(n_1,n_2,\ldots,n_m) z_1^{-n_1} z_2^{-n_2} \ldots z_m^{-n_m}$$
-
 
 
 where F represents the z-domain representation of the signal f(n). The 2D Z transform is a special case of this transformation and is given by:
 
 
-
 $$F(z_1,z_2) = \sum_{n_1=-\infty}^{\infty} \sum_{n_2=-\infty}^{\infty} f(n_1,n_2) z_1^{-n_1} z_2^{-n_2}$$
-
 
 
 The Fourier transform is a special case of the Z transform evaluated along the unit circle (in 1D) and unit bi-circle (in 2D), where z = $e^{jw}$.
@@ -2981,17 +2894,13 @@ Laplace transforms are a powerful mathematical tool used in the study of signals
 The Laplace transform of a function f(t) is defined as:
 
 
-
 $$F(s) = \int_{0}^{\infty} f(t) e^{-st} dt$$
-
 
 
 where s is a complex variable. This transformation allows us to analyze signals and systems in the frequency domain, where complex numbers are used to represent the amplitude and phase of a signal. The inverse Laplace transform, which converts functions in the frequency domain back to the time domain, is given by:
 
 
-
 $$f(t) = \frac{1}{2\pi i} \int_{\sigma-i\infty}^{\sigma+i\infty} F(s) e^{st} ds$$
-
 
 
 where $\sigma$ is a real number that determines the region of convergence (ROC) of the transformed function.
@@ -3033,9 +2942,7 @@ Laplace transforms are also used in the study of filters and signal processing. 
 In addition to the one-dimensional Laplace transform, there is also a multidimensional version that is useful for solving boundary value problems in two or more variables. The multidimensional Laplace transform is defined as:
 
 
-
 $$F(s_1,s_2,\ldots,s_n) = \int_{0}^{\infty} \cdots \int_{0}^{\infty} f(t_1,t_2,\ldots,t_n) e^{-s_nt_n -s_{n-1}t_{n-1} \cdots \cdots s_1t_1} dt_1 \cdots dt_n$$
-
 
 
 where F represents the s-domain representation of the signal f(t). This transformation is particularly useful for solving partial differential equations in multiple variables, as it allows us to convert the problem into a simpler algebraic form.
@@ -3053,17 +2960,13 @@ Similar to the one-dimensional Z transform, the multidimensional Z transform is 
 The multidimensional Z transform is defined as:
 
 
-
 $$F(z_1,z_2,\ldots,z_m)= \sum_{n_1=-\infty}^{\infty} \cdots \sum_{n_m=-\infty}^{\infty} f(n_1,n_2,\ldots,n_m) z_1^{-n_1} z_2^{-n_2} \ldots z_m^{-n_m}$$
-
 
 
 where F represents the z-domain representation of the signal f(n). The 2D Z transform is a special case of this transformation, given by:
 
 
-
 $$F(z_1,z_2)= \sum_{n_1=-\infty}^{\infty} \sum_{n_2=-\infty}^{\infty} f(n_1,n_2) z_1^{-n_1} z_2^{-n_2}$$
-
 
 
 The Fourier transform is a special case of the Z transform evaluated along the unit circle (in 1D) and unit bi-circle (in 2D), where z and w are vectors.
@@ -3293,7 +3196,6 @@ The Z transform is a mathematical transformation that converts a discrete-time s
 The Z transform of a discrete-time signal x[n] is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
@@ -3301,9 +3203,7 @@ X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 $$
 
 
-
 where z is a complex variable. This can also be written as:
-
 
 
 $$
@@ -3311,7 +3211,6 @@ $$
 X(z) = \mathcal{Z}\{x[n]\}
 
 $$
-
 
 
 The Z transform is a powerful tool because it allows us to represent a discrete-time signal in the frequency domain. This is similar to how the Fourier transform represents a continuous-time signal in the frequency domain. By analyzing the Z transform, we can gain insight into the frequency content of a discrete-time signal and its corresponding system.
@@ -3325,7 +3224,6 @@ The Z transform is a powerful tool because it allows us to represent a discrete-
 Consider the following example where x[n] = cos(ωn):
 
 
-
 $$
 
 X(z) = \mathcal{Z}\{\cos(\omega n)\} = \sum_{n=-\infty}^{\infty} \cos(\omega n)z^{-n}
@@ -3333,9 +3231,7 @@ X(z) = \mathcal{Z}\{\cos(\omega n)\} = \sum_{n=-\infty}^{\infty} \cos(\omega n)z
 $$
 
 
-
 Using the trigonometric identity cos(ωn) = (e^{j\omega n} + e^{-j\omega n})/2, we can rewrite this as:
-
 
 
 $$
@@ -3345,9 +3241,7 @@ X(z) = \frac{1}{2}\sum_{n=-\infty}^{\infty} (z^{-n}e^{j\omega n} + z^{-n}e^{-j\o
 $$
 
 
-
 Using the geometric series formula, we can simplify this to:
-
 
 
 $$
@@ -3357,9 +3251,7 @@ X(z) = \frac{1}{2}\left(\frac{1}{1-z^{-1}e^{j\omega}} + \frac{1}{1-z^{-1}e^{-j\o
 $$
 
 
-
 This can be further simplified to:
-
 
 
 $$
@@ -3369,9 +3261,7 @@ X(z) = \frac{1}{2}\left(\frac{1-z^{-1}e^{-j\omega}}{1-z^{-1}e^{j\omega}} + \frac
 $$
 
 
-
 Using the fact that z^{-1}e^{j\omega} = e^{j\omega T}, where T is the sampling period, we can rewrite this as:
-
 
 
 $$
@@ -3381,9 +3271,7 @@ X(z) = \frac{1}{2}\left(\frac{1-e^{-j\omega T}}{1-e^{j\omega T}} + \frac{1-e^{j\
 $$
 
 
-
 Simplifying further, we get:
-
 
 
 $$
@@ -3391,7 +3279,6 @@ $$
 X(z) = \frac{1}{2}\left(\frac{2-2\cos(\omega T)}{2-2\cos(\omega T)}\right) = 1
 
 $$
-
 
 
 Therefore, the Z transform of x[n] = cos(ωn) is simply 1. This indicates that the frequency content of the signal is constant, with no dependence on the frequency ω.
@@ -3491,7 +3378,6 @@ The Z transform is a mathematical transformation that converts a discrete-time s
 The Z transform of a discrete-time signal x[n] is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
@@ -3499,9 +3385,7 @@ X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 $$
 
 
-
 where z is a complex variable. This can also be written as:
-
 
 
 $$
@@ -3509,7 +3393,6 @@ $$
 X(z) = \mathcal{Z}\{x[n]\}
 
 $$
-
 
 
 The Z transform is a powerful tool because it allows us to represent a discrete-time signal in the frequency domain. This is similar to how the Fourier transform represents a continuous-time signal in the frequency domain. By analyzing the Z transform, we can gain insight into the frequency content of a discrete-time signal and its corresponding system.
@@ -3535,7 +3418,6 @@ Another important application of Z transforms is in the analysis of discrete-tim
 Consider the following example where x[n] = cos(ωn):
 
 
-
 $$
 
 X(z) = \mathcal{Z}\{\cos(\omega n)\} = \sum_{n=-\infty}^{\infty} \cos(\omega n)z^{-n}
@@ -3543,9 +3425,7 @@ X(z) = \mathcal{Z}\{\cos(\omega n)\} = \sum_{n=-\infty}^{\infty} \cos(\omega n)z
 $$
 
 
-
 Using the trigonometric identity cos(ωn) = (e^{j\omega n} + e^{-j\omega n})/2, we can rewrite this as:
-
 
 
 $$
@@ -3555,9 +3435,7 @@ X(z) = \frac{1}{2}\sum_{n=-\infty}^{\infty} (z^{-n}e^{j\omega n} + z^{-n}e^{-j\o
 $$
 
 
-
 Using the geometric series formula, we can simplify this to:
-
 
 
 $$
@@ -3565,7 +3443,6 @@ $$
 X(z) = \frac{1}{2}\left(\frac{1}{1-z^{-1}e^{j\omega}} + \frac{1}{1-z^{-1}e^{-j\omega}}\right)
 
 $$
-
 
 
 This example illustrates how the Z transform can be used to represent a discrete-time signal in the frequency domain. By manipulating the Z transform, we can also obtain the inverse Z transform to reconstruct the original signal in the time domain.
@@ -3613,13 +3490,11 @@ The Z transform has several properties that make it a powerful tool for analyzin
 The Z transform is a linear transformation, which means that it follows the properties of linearity. This property states that the Z transform of a linear combination of signals is equal to the same linear combination of their individual Z transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{a_1x_1[n] + a_2x_2[n]\} = a_1X_1(z) + a_2X_2(z)
 
 $$
-
 
 
 where $a_1$ and $a_2$ are constants and $x_1[n]$ and $x_2[n]$ are discrete-time signals.
@@ -3633,13 +3508,11 @@ where $a_1$ and $a_2$ are constants and $x_1[n]$ and $x_2[n]$ are discrete-time 
 Similar to the time shifting property of the Laplace transform, the Z transform also has a time shifting property. This property states that a time-shifted version of a discrete-time signal has the same Z transform as the original signal multiplied by a complex exponential term. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{x[n-k]\} = z^{-k}X(z)
 
 $$
-
 
 
 where $k$ is the time shift and $X(z)$ is the Z transform of $x[n]$.
@@ -3653,13 +3526,11 @@ where $k$ is the time shift and $X(z)$ is the Z transform of $x[n]$.
 The Z transform also has a time reversal property, which states that the Z transform of a time-reversed version of a discrete-time signal is equal to the complex conjugate of the original Z transform. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{x[-n]\} = X^*(z)
 
 $$
-
 
 
 where $X(z)$ is the Z transform of $x[n]$ and $X^*(z)$ is its complex conjugate.
@@ -3673,13 +3544,11 @@ where $X(z)$ is the Z transform of $x[n]$ and $X^*(z)$ is its complex conjugate.
 Convolution is an important operation in signal processing, and it also has a property in the Z domain. The convolution property states that the Z transform of the convolution of two discrete-time signals is equal to the product of their individual Z transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{x[n] * y[n]\} = X(z)Y(z)
 
 $$
-
 
 
 where $x[n]$ and $y[n]$ are discrete-time signals and $X(z)$ and $Y(z)$ are their respective Z transforms.
@@ -3733,13 +3602,11 @@ Decarlo and Strintzis' Theorem is another stability criterion for first quadrant
 In addition to the basic Z transform, there is also an advanced version known as the advanced Z transform. This extension incorporates ideal delays that are not multiples of the sampling time, making it a more versatile tool for analyzing discrete-time systems. The advanced Z transform takes the form:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}e^{-\alpha n}
 
 $$
-
 
 
 where $\alpha$ is a constant. This advanced Z transform is useful in situations where the sampling time is not constant or when dealing with non-causal systems. It allows for a more accurate representation of the frequency content of a discrete-time signal and its corresponding system.
@@ -3783,13 +3650,11 @@ In addition to the basic properties of linearity, time shifting, and time revers
 Similar to the convolution property of the Laplace transform, the Z transform also has a convolution property. This property states that the Z transform of the convolution of two discrete-time signals is equal to the product of their individual Z transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{x[n] * y[n]\} = X(z)Y(z)
 
 $$
-
 
 
 where $x[n]$ and $y[n]$ are discrete-time signals and $X(z)$ and $Y(z)$ are their respective Z transforms.
@@ -3803,13 +3668,11 @@ where $x[n]$ and $y[n]$ are discrete-time signals and $X(z)$ and $Y(z)$ are thei
 The Z transform also has a differentiation property, which states that the Z transform of the derivative of a discrete-time signal is equal to the Z transform of the original signal multiplied by the complex variable $z$. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{\frac{d}{dn}x[n]\} = zX(z)
 
 $$
-
 
 
 where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
@@ -3823,13 +3686,11 @@ where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
 Similarly, the Z transform also has an integration property, which states that the Z transform of the integral of a discrete-time signal is equal to the Z transform of the original signal divided by the complex variable $z$. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{Z}\{\sum_{k=0}^{n}x[k]\} = \frac{X(z)}{z}
 
 $$
-
 
 
 where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
@@ -3843,13 +3704,11 @@ where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
 The initial value theorem for Z transforms is similar to that of the Laplace transform, but with some key differences due to the discrete nature of the signals and systems. This theorem states that the initial value of a discrete-time signal can be found by evaluating the Z transform at $z=1$. Mathematically, this can be expressed as:
 
 
-
 $$
 
 x[0] = \lim_{z \to 1} X(z)
 
 $$
-
 
 
 where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
@@ -3863,13 +3722,11 @@ where $x[n]$ is a discrete-time signal and $X(z)$ is its Z transform.
 Similarly, the final value theorem for Z transforms states that the final value of a discrete-time signal can be found by evaluating the Z transform at $z=1$. However, this theorem only applies to signals that are bounded and have a finite final value. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \lim_{n \to \infty} x[n] = \lim_{z \to 1} (z-1)X(z)
 
 $$
-
 
 
 where $x[n]$ is a bounded discrete-time signal and $X(z)$ is its Z transform.
@@ -3999,13 +3856,11 @@ In the context of signals and systems, convolution is used to describe the outpu
 The mathematical definition of convolution involves the integration of two signals, one of which is reversed and shifted over the other. This operation is represented by the symbol "*". For two signals, x(t) and h(t), the convolution operation is defined as:
 
 
-
 $$
 
 y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 
 $$
-
 
 
 where y(t) is the output signal, x(t) is the input signal, and h(t) is the impulse response of the system. This definition can be extended to discrete-time signals as well, where the integral is replaced by a summation.
@@ -4023,13 +3878,11 @@ Another important property of convolution is its associativity, which means that
 The convolution theorem is a powerful tool that simplifies the analysis of signals and systems. It states that convolution in the time domain is equivalent to multiplication in the frequency domain. This theorem is based on the Fourier transform, which is a mathematical tool used to convert signals from the time domain to the frequency domain. The convolution theorem is expressed as:
 
 
-
 $$
 
 x(t) * h(t) \Leftrightarrow X(\omega)H(\omega)
 
 $$
-
 
 
 where X(\omega) and H(\omega) are the Fourier transforms of x(t) and h(t) respectively. This theorem is particularly useful in analyzing systems with complex impulse responses, as it allows us to break down the system into simpler components in the frequency domain.
@@ -4077,13 +3930,11 @@ In the context of signals and systems, convolution is used to describe the outpu
 The mathematical definition of convolution involves the integration of two signals, one of which is reversed and shifted over the other. This operation is represented by the symbol "*". For two signals, x(t) and h(t), the convolution operation is defined as:
 
 
-
 $$
 
 y(t) = x(t) * h(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau) d\tau
 
 $$
-
 
 
 where y(t) is the output signal, x(t) is the input signal, and h(t) is the impulse response of the system. This definition can be extended to discrete-time signals as well, where the integral is replaced by a summation.
@@ -4093,13 +3944,11 @@ where y(t) is the output signal, x(t) is the input signal, and h(t) is the impul
 One of the key properties of convolution is its commutativity, which means that the order of the signals can be reversed without affecting the result. This property is known as the commutative property of convolution and is expressed as:
 
 
-
 $$
 
 x(t) * h(t) = h(t) * x(t)
 
 $$
-
 
 
 This property is particularly useful in the analysis of systems, as it allows us to rearrange the order of operations without changing the final result.
@@ -4109,13 +3958,11 @@ This property is particularly useful in the analysis of systems, as it allows us
 Another important property of convolution is its associativity, which means that the grouping of signals can be changed without affecting the result. This property is expressed as:
 
 
-
 $$
 
 (x(t) * h(t)) * g(t) = x(t) * (h(t) * g(t))
 
 $$
-
 
 
 This property is useful in simplifying complex convolution operations and can be extended to multiple signals as well.
@@ -4327,13 +4174,11 @@ In the previous section, we introduced the concept of frequency response and dis
 The Fourier transform is a mathematical tool used to decompose a signal into its frequency components. It is defined as:
 
 
-
 $$
 
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
 
 $$
-
 
 
 where $x(t)$ is the input signal and $X(\omega)$ is the frequency domain representation of the signal. The Fourier transform is a powerful tool in analyzing the frequency response of a system, as it allows us to break down a complex signal into simpler components.
@@ -4347,13 +4192,11 @@ where $x(t)$ is the input signal and $X(\omega)$ is the frequency domain represe
 The frequency response function (FRF) is a mathematical representation of the relationship between the input and output signals of a system in the frequency domain. It is defined as:
 
 
-
 $$
 
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
 
 $$
-
 
 
 where $Y(\omega)$ is the output signal and $X(\omega)$ is the input signal. The FRF is a crucial tool in understanding the behavior of a system in the frequency domain, as it describes how the system alters the amplitude and phase of each frequency component of an input signal.
@@ -4413,13 +4256,11 @@ In the previous section, we discussed the frequency response of continuous-time 
 The discrete-time Fourier transform (DTFT) is the mathematical tool used to decompose a discrete-time signal into its frequency components. It is defined as:
 
 
-
 $$
 
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
 
 $$
-
 
 
 where $x[n]$ is the input signal and $X(e^{j\omega})$ is the frequency domain representation of the signal. The DTFT is the discrete-time counterpart of the Fourier transform and is used to analyze the frequency response of DT systems.
@@ -4433,13 +4274,11 @@ where $x[n]$ is the input signal and $X(e^{j\omega})$ is the frequency domain re
 Similar to CT systems, the frequency response function (FRF) is a mathematical representation of the relationship between the input and output signals of a DT system in the frequency domain. It is defined as:
 
 
-
 $$
 
 H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})}
 
 $$
-
 
 
 where $Y(e^{j\omega})$ is the output signal and $X(e^{j\omega})$ is the input signal. The FRF is a crucial tool in understanding the behavior of a DT system in the frequency domain, as it describes how the system alters the amplitude and phase of each frequency component of an input signal.
@@ -4453,13 +4292,11 @@ where $Y(e^{j\omega})$ is the output signal and $X(e^{j\omega})$ is the input si
 The Z-transform is the discrete-time counterpart of the Laplace transform and is used to analyze the frequency response of DT systems. It is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 
 $$
-
 
 
 where $x[n]$ is the input signal and $X(z)$ is the Z-transform of the signal. The Z-transform is a powerful tool in analyzing the frequency response of DT systems, as it allows us to break down a complex signal into simpler components.
@@ -4523,13 +4360,11 @@ The LSSA treats each sinusoidal component independently, without considering the
 As mentioned in the previous section, the discrete-time Fourier transform (DTFT) is a mathematical tool used to decompose a discrete-time signal into its frequency components. It is defined as:
 
 
-
 $$
 
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
 
 $$
-
 
 
 The DTFT is the discrete-time counterpart of the Fourier transform and is used to analyze the frequency response of DT systems. It is a crucial tool in understanding the behavior of a DT system in the frequency domain.
@@ -4543,13 +4378,11 @@ The DTFT is the discrete-time counterpart of the Fourier transform and is used t
 Similar to continuous-time (CT) systems, the frequency response function (FRF) is a mathematical representation of the relationship between the input and output signals of a DT system in the frequency domain. It is defined as:
 
 
-
 $$
 
 H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})}
 
 $$
-
 
 
 where $Y(e^{j\omega})$ is the output signal and $X(e^{j\omega})$ is the input signal. The FRF describes how the system alters the amplitude and phase of each frequency component of an input signal, making it a crucial tool in understanding the behavior of a DT system in the frequency domain.
@@ -4563,13 +4396,11 @@ where $Y(e^{j\omega})$ is the output signal and $X(e^{j\omega})$ is the input si
 The Z-transform is the discrete-time counterpart of the Laplace transform and is used to analyze the frequency response of DT systems. It is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 
 $$
-
 
 
 where $x[n]$ is the input signal and $X(z)$ is the Z-transform of the signal. The Z-transform is a powerful tool for analyzing the frequency response of DT systems, as it allows for the analysis of both stable and unstable systems. It is commonly used in control systems and digital signal processing applications.
@@ -5361,13 +5192,11 @@ The Fourier Transform has several important properties that make it a powerful t
 The Fourier Transform is additive, meaning that the transform of a sum of two signals is equal to the sum of their individual transforms. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}[f(t) + g(t)] = \mathcal{F}[f(t)] + \mathcal{F}[g(t)]
 
 $$
-
 
 
 ##### Linearity
@@ -5377,13 +5206,11 @@ $$
 The Fourier Transform is also linear, meaning that it can be pulled out of a linear combination of signals. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}[af(t) + bg(t)] = a\mathcal{F}[f(t)] + b\mathcal{F}[g(t)]
 
 $$
-
 
 
 ##### Integer Orders
@@ -5393,7 +5220,6 @@ $$
 If the angle $\alpha$ is an integer multiple of $\pi/2$, then the Fourier Transform has the following relation:
 
 
-
 $$
 
 \mathcal{F}_\alpha = \mathcal{F}_{k\pi/2} = \mathcal{F}^k = (\mathcal{F})^k
@@ -5401,9 +5227,7 @@ $$
 $$
 
 
-
 Moreover, it has the following relations:
-
 
 
 $$
@@ -5419,13 +5243,11 @@ $$
 $$
 
 
-
 ##### Inverse
 
 
 
 The inverse of the Fourier Transform is equal to the Fourier Transform with a negative angle:
-
 
 
 $$
@@ -5435,13 +5257,11 @@ $$
 $$
 
 
-
 ##### Commutativity
 
 
 
 The Fourier Transform is commutative, meaning that the order of the transforms does not affect the result:
-
 
 
 $$
@@ -5451,13 +5271,11 @@ $$
 $$
 
 
-
 ##### Associativity
 
 
 
 The Fourier Transform is associative, meaning that the order of the transforms can be changed without affecting the result:
-
 
 
 $$
@@ -5467,13 +5285,11 @@ $$
 $$
 
 
-
 ##### Unitarity
 
 
 
 The Fourier Transform is unitary, meaning that the integral of the product of a signal and its complex conjugate is equal to the integral of the product of its Fourier Transform and its complex conjugate:
-
 
 
 $$
@@ -5483,13 +5299,11 @@ $$
 $$
 
 
-
 ##### Time Reversal
 
 
 
 The Fourier Transform is invariant under time reversal, meaning that the transform of a time-reversed signal is equal to the time-reversed transform of the original signal:
-
 
 
 $$
@@ -5499,13 +5313,11 @@ $$
 $$
 
 
-
 ##### Transform of a Shifted Function
 
 
 
 The Fourier Transform of a shifted function can be expressed in terms of the shift and phase shift operators:
-
 
 
 $$
@@ -5517,9 +5329,7 @@ $$
 $$
 
 
-
 Then, the Fourier Transform of a shifted function can be written as:
-
 
 
 $$
@@ -5527,7 +5337,6 @@ $$
 \mathcal{F}_\alpha \mathcal{SH}(t_0) = e^{j\pi t_0^2 \sin\alpha \cos\alpha} \mathcal{PH}(t_0\sin\alpha) \mathcal{SH}(t_0)
 
 $$
-
 
 
 These properties of the Fourier Transform are essential for understanding and analyzing signals and systems in the frequency domain. In the next section, we will explore some applications of these properties in solving problems related to CT Fourier representations.
@@ -5571,13 +5380,11 @@ The Fourier Transform has several important properties that make it a powerful t
 The Fourier Transform is additive, meaning that the transform of a sum of two signals is equal to the sum of their individual transforms. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}[f(t) + g(t)] = \mathcal{F}[f(t)] + \mathcal{F}[g(t)]
 
 $$
-
 
 
 This property is particularly useful when dealing with systems that have multiple inputs, as we can easily calculate the output by taking the sum of the individual inputs' transforms.
@@ -5591,13 +5398,11 @@ This property is particularly useful when dealing with systems that have multipl
 The Fourier Transform is also linear, meaning that it can be pulled out of a linear combination of signals. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}[af(t) + bg(t)] = a\mathcal{F}[f(t)] + b\mathcal{F}[g(t)]
 
 $$
-
 
 
 This property is useful when dealing with signals that have been scaled or shifted, as we can easily calculate the transform of the original signal and then apply the scaling or shifting afterwards.
@@ -5611,7 +5416,6 @@ This property is useful when dealing with signals that have been scaled or shift
 If the angle $\alpha$ is an integer multiple of $\pi/2$, then the Fourier Transform has the following relation:
 
 
-
 $$
 
 \mathcal{F}_\alpha = \mathcal{F}_{k\pi/2} = \mathcal{F}^k = (\mathcal{F})^k
@@ -5619,9 +5423,7 @@ $$
 $$
 
 
-
 Moreover, it has the following relations:
-
 
 
 $$
@@ -5637,7 +5439,6 @@ $$
 $$
 
 
-
 These relations are useful for simplifying calculations and understanding the behavior of the Fourier Transform at different angles.
 
 
@@ -5649,13 +5450,11 @@ These relations are useful for simplifying calculations and understanding the be
 The inverse Fourier Transform is defined as:
 
 
-
 $$
 
 (\mathcal{F}_\alpha)^{-1} = \mathcal{F}_{-\alpha}
 
 $$
-
 
 
 This property allows us to easily calculate the inverse transform of a signal by simply changing the angle of the original transform.
@@ -5669,13 +5468,11 @@ This property allows us to easily calculate the inverse transform of a signal by
 The Fourier Transform is commutative, meaning that the order in which we apply the transform does not matter. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}_{\alpha_1}\mathcal{F}_{\alpha_2} = \mathcal{F}_{\alpha_2}\mathcal{F}_{\alpha_1}
 
 $$
-
 
 
 This property is useful for rearranging equations and simplifying calculations.
@@ -5689,13 +5486,11 @@ This property is useful for rearranging equations and simplifying calculations.
 The Fourier Transform is also associative, meaning that the order in which we apply multiple transforms does not matter. This property is expressed as:
 
 
-
 $$
 
 \left (\mathcal{F}_{\alpha_1}\mathcal{F}_{\alpha_2} \right )\mathcal{F}_{\alpha_3} = \mathcal{F}_{\alpha_1} \left (\mathcal{F}_{\alpha_2}\mathcal{F}_{\alpha_3} \right )
 
 $$
-
 
 
 This property is useful for simplifying complex transforms and understanding the behavior of multiple transforms applied in succession.
@@ -5709,13 +5504,11 @@ This property is useful for simplifying complex transforms and understanding the
 The Fourier Transform is unitary, meaning that the transform preserves the inner product of two signals. This property is expressed as:
 
 
-
 $$
 
 \int f(u)g^*(u)du = \int f_\alpha(u)g_\alpha^*(u)du
 
 $$
-
 
 
 This property is useful for preserving the energy of a signal after applying the Fourier Transform.
@@ -5729,13 +5522,11 @@ This property is useful for preserving the energy of a signal after applying the
 The Fourier Transform also has a time reversal property, meaning that the transform of a time-reversed signal is equal to the time-reversed transform. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}_\alpha\mathcal{P} = \mathcal{P}\mathcal{F}_\alpha
 
 $$
-
 
 
 This property is useful for analyzing signals that have been time-reversed.
@@ -5749,13 +5540,11 @@ This property is useful for analyzing signals that have been time-reversed.
 Finally, the Fourier Transform has a property for calculating the transform of a shifted function. This property is expressed as:
 
 
-
 $$
 
 \mathcal{F}_\alpha \mathcal{SH}(u_0) = e^{j\pi u_0^2 \sin\alpha \cos\alpha} \mathcal{PH}(u_0\sin\alpha) \mathcal{SH}(u_0\cos\alpha)
 
 $$
-
 
 
 This property is useful for analyzing signals that have been shifted in time or phase.
@@ -5807,13 +5596,11 @@ Before we can discuss signal transmission, we must first understand how signals 
 In the direct scheme, the destination node decodes the data using the signal received from the source node on the first phase. This means that the relay node is not involved in the transmission. The decoding signal received from the source node can be written as:
 
 
-
 $$
 
 r_{d,s} = h_{d,s} x_{s} + n_{d,s}
 
 $$
-
 
 
 While the direct scheme is simple in terms of decoding processing, it can result in a severely low received signal power if the distance between the source node and the destination node is large. This is where the non-cooperative scheme comes in.
@@ -5827,13 +5614,11 @@ While the direct scheme is simple in terms of decoding processing, it can result
 In the non-cooperative scheme, the destination node decodes the data using the signal received from the relay on the second phase. This results in a signal power boosting gain, as the signal is relayed from the source node to the destination node. The signal received from the relay node can be written as:
 
 
-
 $$
 
 r_{d,r} = h_{d,r} h_{r,s} x_{s} + h_{d,r} n_{r,s} + n_{d,r}
 
 $$
-
 
 
 where $h_{d,r}$ is the channel from the relay to the destination node and $n_{r,s}$ is the noise signal added to $h_{d,r}$. This scheme can improve the reliability of decoding, but it does not increase the diversity order since it only exploits the relayed signal and does not take into account the direct signal from the source node.
@@ -6355,13 +6140,11 @@ In this section, we will introduce the discrete Fourier transform (DFT) and disc
 The DFT is defined as the discrete-time Fourier transform of a finite-length discrete-time signal. It is given by the following equation:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n) e^{-j\frac{2\pi}{N}kn}
 
 $$
-
 
 
 where $x(n)$ is the finite-length discrete-time signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT produces a complex-valued spectrum, with the magnitude representing the amplitude and the phase representing the phase shift of each frequency component in the signal.
@@ -6445,13 +6228,11 @@ In this section, we will introduce the discrete Fourier transform (DFT) and disc
 The DFT is defined as the discrete-time Fourier transform of a finite-length discrete-time signal. It is given by the following equation:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n) e^{-j\frac{2\pi}{N}kn}
 
 $$
-
 
 
 where $x(n)$ is the finite-length discrete-time signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT produces a complex-valued spectrum, with the magnitude representing the amplitude and the phase representing the phase shift of each frequency component in the signal.
@@ -6481,7 +6262,6 @@ In this subsection, we will discuss some common techniques for analyzing the DFT
 The DFT sum $X(k_1,k_2)$ in the previous equation can also be written in the following form:
 
 
-
 $$
 
 X(k_1,k_2)=\sum_{n_1=0}^{N_1-1}\left[\sum_{n_2=0}^{N_2-1} x(n_1,n_2) W_{N_2}^{n_2k_2}\right]W_{N_1}^{n_1k_1}
@@ -6489,9 +6269,7 @@ X(k_1,k_2)=\sum_{n_1=0}^{N_1-1}\left[\sum_{n_2=0}^{N_2-1} x(n_1,n_2) W_{N_2}^{n_
 $$
 
 
-
 Let $G(n_1,k_2)$ denote the quantity inside the brackets and is given by:
-
 
 
 $$
@@ -6499,7 +6277,6 @@ $$
 G(n_1,k_2)=\sum_{n_2=0}^{N_2-1} x(n_1,n_2) W_{N_2}^{n_2k_2}
 
 $$
-
 
 
 Using this method, the DFT $X$ can be computed as multiple 1-D DFTs. That is, each column of $G$ can be considered as a 1-D DFT of the corresponding column of $x$ ($n_1$ = constant). And each row of $X$ is the 1-DFT of the corresponding row of $G$ ($n_2$ = constant). Hence, we are computing the 2-D DFT by decomposing it into row and column DFTs.
@@ -6633,13 +6410,11 @@ The Short-time Fourier transform (STFT) is a basic type of time-frequency analys
 The STFT is defined as:
 
 
-
 $$
 
 X(m, \omega) = \sum_{n=-\infty}^{\infty} x(n)w(n-m)e^{-j\omega n}
 
 $$
-
 
 
 where $x(n)$ is the discrete-time signal, $w(n)$ is a window function, $m$ is the index of the segment, and $\omega$ is the frequency variable. The window function is used to limit the segment of the signal being analyzed and can take on various forms, such as rectangular, Hamming, or Hanning.
@@ -6669,13 +6444,11 @@ Another type of time-frequency analysis is the wavelet transform. Unlike the STF
 The wavelet transform is defined as:
 
 
-
 $$
 
 X(a, b) = \frac{1}{\sqrt{a}}\int_{-\infty}^{\infty}x(t)\psi^*\left(\frac{t-b}{a}\right)dt
 
 $$
-
 
 
 where $x(t)$ is the continuous-time signal, $\psi(t)$ is the wavelet function, $a$ is the scale parameter, and $b$ is the translation parameter. The wavelet function is a small, localized function that is used as the window function in the wavelet transform.
@@ -6731,13 +6504,11 @@ The Fourier transform has several fundamental properties that are crucial for un
 The Fourier transform is additive, meaning that the transform of the sum of two signals is equal to the sum of their individual transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}[f_1(t) + f_2(t)] = \mathcal{F}[f_1(t)] + \mathcal{F}[f_2(t)]
 
 $$
-
 
 
 This property is useful for breaking down complex signals into simpler components and analyzing them separately.
@@ -6751,13 +6522,11 @@ This property is useful for breaking down complex signals into simpler component
 The Fourier transform is also linear, meaning that it can be pulled out of a linear combination of signals. In other words, the transform of a linear combination of signals is equal to the same linear combination of their individual transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}[af_1(t) + bf_2(t)] = a\mathcal{F}[f_1(t)] + b\mathcal{F}[f_2(t)]
 
 $$
-
 
 
 This property is useful for simplifying the analysis of signals and systems that involve linear combinations.
@@ -6771,7 +6540,6 @@ This property is useful for simplifying the analysis of signals and systems that
 If the angle $\alpha$ is an integer multiple of $\pi/2$, then the Fourier transform operator $\mathcal{F}_\alpha$ is equivalent to the $k$th power of the Fourier transform operator $\mathcal{F}$, where $k$ is the integer multiple. This can be expressed as:
 
 
-
 $$
 
 \mathcal{F}_\alpha = \mathcal{F}_{k\pi/2} = \mathcal{F}^k = (\mathcal{F})^k
@@ -6779,9 +6547,7 @@ $$
 $$
 
 
-
 Moreover, there are several relationships between the different powers of the Fourier transform operator, including:
-
 
 
 $$
@@ -6789,7 +6555,6 @@ $$
 \mathcal{F}^2 = \mathcal{P} \qquad \mathcal{F}^3 = \mathcal{F}^{-1} = (\mathcal{F})^{-1} \qquad \mathcal{F}^4 = \mathcal{F}^0 = \mathcal{I} \qquad \mathcal{F}^i = \mathcal{F}^j \quad \text{if} \quad i \equiv j \mod 4
 
 $$
-
 
 
 These relationships can be useful for simplifying the analysis of signals and systems involving different powers of the Fourier transform operator.
@@ -6803,13 +6568,11 @@ These relationships can be useful for simplifying the analysis of signals and sy
 The inverse of the Fourier transform operator $\mathcal{F}_\alpha$ is equal to the Fourier transform operator $\mathcal{F}_{-\alpha}$. This can be expressed as:
 
 
-
 $$
 
 (\mathcal{F}_\alpha)^{-1} = \mathcal{F}_{-\alpha}
 
 $$
-
 
 
 This property is useful for finding the inverse Fourier transform of a signal.
@@ -6823,13 +6586,11 @@ This property is useful for finding the inverse Fourier transform of a signal.
 The Fourier transform operators $\mathcal{F}_{\alpha_1}$ and $\mathcal{F}_{\alpha_2}$ commute, meaning that their order can be interchanged without affecting the result. This can be expressed as:
 
 
-
 $$
 
 \mathcal{F}_{\alpha_1}\mathcal{F}_{\alpha_2} = \mathcal{F}_{\alpha_2}\mathcal{F}_{\alpha_1}
 
 $$
-
 
 
 This property is useful for rearranging the order of operations in the analysis of signals and systems.
@@ -6843,13 +6604,11 @@ This property is useful for rearranging the order of operations in the analysis 
 The Fourier transform operators $\mathcal{F}_{\alpha_1}$, $\mathcal{F}_{\alpha_2}$, and $\mathcal{F}_{\alpha_3}$ are associative, meaning that the order of operations can be changed without affecting the result. This can be expressed as:
 
 
-
 $$
 
 (\mathcal{F}_{\alpha_1}\mathcal{F}_{\alpha_2})\mathcal{F}_{\alpha_3} = \mathcal{F}_{\alpha_1}(\mathcal{F}_{\alpha_2}\mathcal{F}_{\alpha_3})
 
 $$
-
 
 
 This property is useful for rearranging the order of operations in the analysis of signals and systems.
@@ -6863,13 +6622,11 @@ This property is useful for rearranging the order of operations in the analysis 
 The Fourier transform is a unitary operator, meaning that it preserves the inner product between two signals. In other words, the integral of the product of a signal and its complex conjugate is equal to the integral of the product of their Fourier transforms and their complex conjugates. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \int f(t)g^*(t)dt = \int f_\alpha(t)g_\alpha^*(t)dt
 
 $$
-
 
 
 This property is useful for preserving the energy and power of a signal in the frequency domain.
@@ -6883,13 +6640,11 @@ This property is useful for preserving the energy and power of a signal in the f
 The Fourier transform operator $\mathcal{F}_\alpha$ commutes with the time reversal operator $\mathcal{P}$, meaning that the order of operations can be changed without affecting the result. This can be expressed as:
 
 
-
 $$
 
 \mathcal{F}_\alpha\mathcal{P} = \mathcal{P}\mathcal{F}_\alpha
 
 $$
-
 
 
 This property is useful for analyzing signals and systems that involve time reversal.
@@ -6903,7 +6658,6 @@ This property is useful for analyzing signals and systems that involve time reve
 The Fourier transform of a shifted function can be expressed in terms of the shift and phase shift operators, defined as:
 
 
-
 $$
 
 \mathcal{SH}(u_0)[f(u)] = f(u+u_0) \qquad \mathcal{PH}(v_0)[f(u)] = e^{j2\pi v_0u}f(u)
@@ -6911,9 +6665,7 @@ $$
 $$
 
 
-
 Then, the Fourier transform of a shifted function can be expressed as:
-
 
 
 $$
@@ -6921,7 +6673,6 @@ $$
 \mathcal{F}_\alpha \mathcal{SH}(u_0) = e^{j\pi u_0^2 \sin\alpha \cos\alpha} \mathcal{PH}(u_0\sin\alpha) \mathcal{SH}(u_0\cos\alpha)
 
 $$
-
 
 
 This property is useful for analyzing signals and systems that involve shifts in the time domain.
@@ -6965,13 +6716,11 @@ The Fourier transform has several fundamental properties that are crucial for un
 The Fourier transform is additive, meaning that the transform of the sum of two signals is equal to the sum of their individual transforms. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \mathcal{F}[f_1(t) + f_2(t)] = \mathcal{F}[f_1(t)] + \mathcal{F}[f_2(t)]
 
 $$
-
 
 
 This property is useful for breaking down complex signals into simpler components and analyzing them separately.
@@ -6985,13 +6734,11 @@ This property is useful for breaking down complex signals into simpler component
 The Fourier transform is also linear, meaning that it can be pulled out of a linear combination of signals. In other words, the transform of a linear combination of signals is equal to the same linear combination of their individual transforms. Mathematically,
 
 
-
 $$
 
 \mathcal{F}[af_1(t) + bf_2(t)] = a\mathcal{F}[f_1(t)] + b\mathcal{F}[f_2(t)]
 
 $$
-
 
 
 where $a$ and $b$ are constants. This property is useful for analyzing systems with multiple inputs and outputs.
@@ -7005,7 +6752,6 @@ where $a$ and $b$ are constants. This property is useful for analyzing systems w
 The Fourier transform has a special property when the angle $\alpha$ is an integer multiple of $\pi/2$. In this case, the transform operator $\mathcal{F}_\alpha$ is equal to the operator $\mathcal{F}^k$, where $k$ is the integer multiple of $\pi/2$. This can also be written as $\mathcal{F}_\alpha = \mathcal{F}_{k\pi/2} = \mathcal{F}^k = (\mathcal{F})^k$. Moreover, it has the following relation:
 
 
-
 $$
 
 \mathcal{F}^2 = \mathcal{P} \quad \mathcal{P}[f(u)] = f(-u) \\
@@ -7017,7 +6763,6 @@ $$
 \mathcal{F}^i = \mathcal{F}^j \quad i \equiv j \mod 4
 
 $$
-
 
 
 This property is useful for simplifying the analysis of signals and systems with integer orders.
@@ -7055,13 +6800,11 @@ The Fourier transform operators $\mathcal{F}_{\alpha_1}$, $\mathcal{F}_{\alpha_2
 The Fourier transform is unitary, meaning that the integral of the product of a signal and its complex conjugate is equal to the integral of the product of its Fourier transform and its complex conjugate. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \int f(u)g^*(u)du = \int f_\alpha(u)g_\alpha^*(u)du
 
 $$
-
 
 
 This property is useful for preserving the energy of a signal in the frequency domain.
@@ -7083,7 +6826,6 @@ The Fourier transform operator $\mathcal{F}_\alpha$ commutes with the time rever
 The Fourier transform of a shifted function can be expressed in terms of the shift and phase shift operators. These operators are defined as:
 
 
-
 $$
 
 \mathcal{SH}(u_0)[f(u)] = f(u+u_0) \\
@@ -7093,9 +6835,7 @@ $$
 $$
 
 
-
 Then, the Fourier transform of a shifted function can be written as:
-
 
 
 $$
@@ -7103,7 +6843,6 @@ $$
 \mathcal{F}_\alpha\mathcal{SH}(u_0) = e^{j\pi u_0^2 \sin\alpha \cos\alpha} \mathcal{PH}(u_0\sin\alpha) \mathcal{SH}(u_0\cos\alpha)
 
 $$
-
 
 
 This property is useful for analyzing signals and systems with shifted inputs.
@@ -7151,13 +6890,11 @@ In the context of signal transmission, a linear system can be represented by a t
 The direct scheme is a method of signal transmission through a linear system where the destination node decodes the data using the signal received from the source node on the first phase. In this scheme, the relay node is not involved in the transmission, and the second phase is omitted. The decoding signal received from the source node can be written as:
 
 
-
 $$
 
 r_{d,s} = h_{d,s} x_{s} + n_{d,s}
 
 $$
-
 
 
 where $h_{d,s}$ is the channel from the source node to the destination node, and $n_{d,s}$ is the noise signal added to the channel.
@@ -7175,13 +6912,11 @@ The advantage of the direct scheme is its simplicity in terms of decoding proces
 In the non-cooperative scheme, the destination node decodes the data using the signal received from the relay on the second phase. This scheme results in a signal power boosting gain, as the relay node retransmits the signal received from the source node. The signal received from the relay node can be written as:
 
 
-
 $$
 
 r_{d,r} = h_{d,r} h_{r,s} x_{s} + h_{d,r} n_{r,s} + n_{d,r}
 
 $$
-
 
 
 where $h_{d,r}$ is the channel from the relay to the destination node, $h_{r,s}$ is the channel from the source node to the relay node, and $n_{r,s}$ is the noise signal added to the channel.
@@ -7415,13 +7150,11 @@ Fourier analysis is a powerful tool for analyzing signals and systems. It allows
 The Fourier series is defined as:
 
 
-
 $$
 
 f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos \left(\frac{2\pi nt}{T}\right) + b_n \sin \left(\frac{2\pi nt}{T}\right)\right)
 
 $$
-
 
 
 where $a_n$ and $b_n$ are the Fourier coefficients and $T$ is the period of the signal.
@@ -7431,13 +7164,11 @@ where $a_n$ and $b_n$ are the Fourier coefficients and $T$ is the period of the 
 The Fourier transform is defined as:
 
 
-
 $$
 
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} dt
 
 $$
-
 
 
 where $F(\omega)$ is the frequency-domain representation of the signal $f(t)$.
@@ -7451,13 +7182,11 @@ where $F(\omega)$ is the frequency-domain representation of the signal $f(t)$.
 The Laplace transform is another important tool for analyzing systems. It allows us to convert a time-domain signal into a frequency-domain signal, making it easier to analyze the behavior of a system. The Laplace transform is defined as:
 
 
-
 $$
 
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
 
 $$
-
 
 
 where $F(s)$ is the Laplace transform of the signal $f(t)$ and $s$ is a complex variable.
@@ -7475,13 +7204,11 @@ The Laplace transform is particularly useful for solving differential equations,
 The z-transform is similar to the Laplace transform, but it is used for discrete-time signals instead of continuous-time signals. It is defined as:
 
 
-
 $$
 
 F(z) = \sum_{n=0}^{\infty} f(n) z^{-n}
 
 $$
-
 
 
 where $F(z)$ is the z-transform of the signal $f(n)$.
@@ -7521,13 +7248,11 @@ Frequency-domain analysis is a powerful tool for understanding the behavior of a
 The Fourier series is a mathematical representation of a periodic signal as a sum of sinusoidal components. It is defined as:
 
 
-
 $$
 
 f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos \left(\frac{2\pi nt}{T}\right) + b_n \sin \left(\frac{2\pi nt}{T}\right)\right)
 
 $$
-
 
 
 where $a_n$ and $b_n$ are the Fourier coefficients and $T$ is the period of the signal. This representation allows us to analyze the frequency components of a periodic signal and understand how they contribute to the overall signal.
@@ -7541,13 +7266,11 @@ where $a_n$ and $b_n$ are the Fourier coefficients and $T$ is the period of the 
 The Fourier transform extends the concept of the Fourier series to non-periodic signals. It is defined as:
 
 
-
 $$
 
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} dt
 
 $$
-
 
 
 where $F(\omega)$ is the frequency-domain representation of the signal $f(t)$. The Fourier transform allows us to analyze the frequency components of a non-periodic signal and understand how they contribute to the overall signal.
@@ -7561,13 +7284,11 @@ where $F(\omega)$ is the frequency-domain representation of the signal $f(t)$. T
 The Laplace transform is another important tool for frequency-domain analysis. It allows us to convert a time-domain signal into a frequency-domain signal, making it easier to analyze the behavior of a system. The Laplace transform is defined as:
 
 
-
 $$
 
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
 
 $$
-
 
 
 where $F(s)$ is the Laplace transform of the signal $f(t)$ and $s$ is a complex variable. The Laplace transform is particularly useful for solving differential equations, as it transforms them into algebraic equations that are easier to solve. It also allows us to analyze the stability and transient response of a system in the frequency domain.
@@ -7603,13 +7324,11 @@ Frequency-domain analysis is a powerful tool for understanding the behavior of a
 The Fourier series is a mathematical representation of a periodic signal as a sum of sinusoidal components. It is defined as:
 
 
-
 $$
 
 f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos \left(\frac{2\pi nt}{T}\right) + b_n \sin \left(\frac{2\pi nt}{T}\right)\right)
 
 $$
-
 
 
 where $a_n$ and $b_n$ are the Fourier coefficients and $T$ is the period of the signal. This representation allows us to analyze the frequency components of a periodic signal and understand how they contribute to the overall signal.
@@ -7627,13 +7346,11 @@ The Fourier series is a useful tool for analyzing periodic signals, but it has l
 The Fourier transform extends the concept of the Fourier series to non-periodic signals. It is defined as:
 
 
-
 $$
 
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} dt
 
 $$
-
 
 
 where $F(\omega)$ is the frequency-domain representation of the signal $f(t)$. The Fourier transform allows us to analyze the frequency components of a non-periodic signal and understand how they contribute to the overall signal.
@@ -7651,13 +7368,11 @@ The Fourier transform is a powerful tool for analyzing non-periodic signals, but
 The Laplace transform is another important tool for frequency-domain analysis. It allows us to convert a time-domain signal into a frequency-domain signal, making it easier to analyze the system's behavior in the frequency domain. It is defined as:
 
 
-
 $$
 
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
 
 $$
-
 
 
 where $F(s)$ is the Laplace transform of the signal $f(t)$. The Laplace transform is particularly useful for analyzing signals with discontinuities or sharp changes, as it can handle these types of signals better than the Fourier transform.
@@ -7685,13 +7400,11 @@ In the previous section, we discussed the frequency-domain analysis techniques o
 The Laplace transform is a mathematical tool that allows us to analyze the behavior of a system in the complex s-domain. It is defined as:
 
 
-
 $$
 
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
 
 $$
-
 
 
 where $F(s)$ is the s-domain representation of the signal $f(t)$. The Laplace transform is particularly useful for analyzing systems with inputs that are not necessarily periodic or non-periodic, but rather have a transient component. It allows us to break down the input signal into its individual components and analyze how each component affects the system's output.
@@ -7721,13 +7434,11 @@ The ROC is important because it determines the validity and usefulness of the La
 Just as the Fourier transform has an inverse transform, the inverse Laplace transform allows us to convert a signal from the s-domain back to the time-domain. It is defined as:
 
 
-
 $$
 
 f(t) = \frac{1}{2\pi j} \int_{\mathcal{R}} F(s) e^{st} ds
 
 $$
-
 
 
 where $f(t)$ is the time-domain representation of the signal $F(s)$ and $\mathcal{R}$ is the region of convergence.
@@ -7811,13 +7522,11 @@ Similarly, the Laplace transform has an integration property, which states that 
 The inverse Laplace transform is the process of transforming a signal from the s-domain back to the time domain. It is denoted by the symbol $\mathcal{L}^{-1}$ and is defined as:
 
 
-
 $$
 
 f(t) = \frac{1}{2\pi j} \int_{\sigma-j\infty}^{\sigma+j\infty} F(s)e^{st} ds
 
 $$
-
 
 
 where $\sigma$ is a real number that lies in the ROC. The inverse Laplace transform is useful for finding the time-domain representation of a signal given its s-domain representation.
@@ -7869,13 +7578,11 @@ In the previous section, we discussed the Laplace transform as a powerful tool f
 The Z transform is a mathematical tool used to analyze discrete-time systems. It is an extension of the discrete-time Fourier transform and is closely related to the Laplace transform. The Z transform is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
 
 $$
-
 
 
 where $x(n)$ is a discrete-time signal and $z$ is a complex variable. The Z transform can be seen as a discrete-time version of the Laplace transform, where the complex variable $z$ is used instead of the complex frequency variable $s$.
@@ -7933,13 +7640,11 @@ The convolution property of the Z transform states that if we have two signals $
 Similar to the inverse Laplace transform, the inverse Z transform is used to find the original signal from its Z transform. The inverse Z transform is defined as:
 
 
-
 $$
 
 x(n) = \frac{1}{2\pi j}\oint_C X(z)z^{n-1}dz
 
 $$
-
 
 
 where $C$ is a contour in the complex plane that encloses all the poles of $X(z)$. The inverse Z transform can be calculated using the residue theorem, similar to the inverse Laplace transform.
@@ -7991,13 +7696,11 @@ In the previous section, we discussed the Laplace transform as a powerful tool f
 The Z transform is a mathematical tool used to analyze discrete-time systems. It is an extension of the discrete-time Fourier transform and is closely related to the Laplace transform. The Z transform is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
 
 $$
-
 
 
 where $x(n)$ is a discrete-time signal and $z$ is a complex variable. The Z transform can be seen as a discrete-time version of the Laplace transform, where the complex variable $z$ is used instead of the complex frequency variable $s$.
@@ -8031,7 +7734,6 @@ This property is particularly useful when analyzing systems with multiple inputs
 The time shifting property of the Z transform allows us to analyze systems with delayed or advanced inputs. If we have a signal $x(n)$ with Z transform $X(z)$, then the Z transform of the delayed signal $x(n-k)$ is given by:
 
 
-
 $$
 
 z^{-k}X(z)
@@ -8039,9 +7741,7 @@ z^{-k}X(z)
 $$
 
 
-
 Similarly, the Z transform of the advanced signal $x(n+k)$ is given by:
-
 
 
 $$
@@ -8049,7 +7749,6 @@ $$
 z^{k}X(z)
 
 $$
-
 
 
 This property is useful for modeling systems with processing delays, as it allows us to accurately account for these delays in our analysis.
@@ -8063,13 +7762,11 @@ This property is useful for modeling systems with processing delays, as it allow
 The differentiation property of the Z transform allows us to analyze systems with derivatives in their input signals. If we have a signal $x(n)$ with Z transform $X(z)$, then the Z transform of the derivative of $x(n)$ is given by:
 
 
-
 $$
 
 z\frac{dX(z)}{dz}
 
 $$
-
 
 
 This property is particularly useful for analyzing systems with feedback, as it allows us to model the effect of the derivative of the output on the system response.
@@ -8083,13 +7780,11 @@ This property is particularly useful for analyzing systems with feedback, as it 
 The convolution property of the Z transform allows us to analyze systems with inputs that are the convolution of two signals. If we have two signals $x(n)$ and $h(n)$ with Z transforms $X(z)$ and $H(z)$, respectively, then the Z transform of their convolution $x(n)*h(n)$ is given by:
 
 
-
 $$
 
 X(z)H(z)
 
 $$
-
 
 
 This property is useful for analyzing systems with multiple inputs that interact with each other, as it allows us to determine the overall system response by convolving the individual input signals.
@@ -8103,13 +7798,11 @@ This property is useful for analyzing systems with multiple inputs that interact
 To better understand the properties of the Z transform, let's consider an example where we have a system with multiple inputs and we want to determine the overall system response. Let's say we have two input signals $x(n)$ and $y(n)$ with Z transforms $X(z)$ and $Y(z)$, respectively. The system has a transfer function $H(z)$ and the output is given by the convolution of the input signals and the transfer function, i.e. $x(n)*H(z)*y(n)$. Using the convolution property of the Z transform, we can determine the overall system response as:
 
 
-
 $$
 
 X(z)H(z)Y(z)
 
 $$
-
 
 
 This example demonstrates how the properties of the Z transform can be used to analyze complex systems with multiple inputs.
@@ -9691,13 +9384,11 @@ As we conclude this chapter, it is important to remember that the study of signa
 #### Exercise 1
 
 Consider the nonlinear system described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + \frac{1}{4}y(n-2) + \frac{1}{8}y(n-3) + x(n)
 
 $$
-
 a) Determine the output of the system for the input $x(n) = \delta(n)$, where $\delta(n)$ is the unit impulse function.
 
 
@@ -9709,13 +9400,11 @@ b) Is this system linear or nonlinear? Justify your answer.
 #### Exercise 2
 
 A system is described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + \frac{1}{4}y(n-2) + \frac{1}{8}y(n-3) + x(n)
 
 $$
-
 a) Determine the impulse response of the system.
 
 
@@ -9727,13 +9416,11 @@ b) Is this system stable? Justify your answer.
 #### Exercise 3
 
 Consider the system described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + \frac{1}{4}y(n-2) + \frac{1}{8}y(n-3) + x(n)
 
 $$
-
 a) Determine the transfer function of the system.
 
 
@@ -9745,13 +9432,11 @@ b) Using the transfer function, determine the output of the system for the input
 #### Exercise 4
 
 A system is described by the following difference equation:
-
 $$
 
 y(n) = \frac{1}{2}y(n-1) + \frac{1}{4}y(n-2) + \frac{1}{8}y(n-3) + x(n)
 
 $$
-
 a) Determine the region of convergence (ROC) of the system.
 
 
@@ -9763,7 +9448,6 @@ b) Is this system causal? Justify your answer.
 #### Exercise 5
 
 Consider the feedback system shown below, where $G(z)$ and $H(z)$ are the transfer functions of the forward and feedback paths, respectively.
-
 $$
 
 \begin{align}
@@ -9775,7 +9459,6 @@ y(n) &= G(z)u(n) + H(z)y(n) \\
 \end{align}
 
 $$
-
 a) Determine the overall transfer function of the system.
 
 
@@ -10133,13 +9816,11 @@ One of the most commonly used techniques for analyzing multidimensional signals 
 The multidimensional Fourier transform can be expressed as follows:
 
 
-
 $$
 
 X(\omega_1, \omega_2, ..., \omega_n) = \int_{-\infty}^{\infty} ... \int_{-\infty}^{\infty} x(t_1, t_2, ..., t_n) e^{-j(\omega_1t_1 + \omega_2t_2 + ... + \omega_nt_n)} dt_1 dt_2 ... dt_n
 
 $$
-
 
 
 where $X(\omega_1, \omega_2, ..., \omega_n)$ is the multidimensional Fourier transform of the signal $x(t_1, t_2, ..., t_n)$.
@@ -10157,13 +9838,11 @@ Another useful technique for analyzing multidimensional signals is the Row Colum
 The DFT sum $X(k_1, k_2)$ can be written in the following form:
 
 
-
 $$
 
 X(k_1, k_2) = \sum_{n_1=0}^{N_1-1} \left[\sum_{n_2=0}^{N_2-1} x(n_1, n_2) W_{N_2}^{n_2k_2}\right] W_{N_1}^{n_1k_1}
 
 $$
-
 
 
 where $W_{N_1}$ and $W_{N_2}$ are the twiddle factors, and $n_1$ and $n_2$ represent the indices in the first and second dimensions, respectively.
@@ -10173,13 +9852,11 @@ where $W_{N_1}$ and $W_{N_2}$ are the twiddle factors, and $n_1$ and $n_2$ repre
 By defining $G(n_1, k_2)$ as the quantity inside the brackets, we can rewrite the DFT as:
 
 
-
 $$
 
 X(k_1, k_2) = \sum_{n_1=0}^{N_1-1} G(n_1, k_2) W_{N_1}^{n_1k_1}
 
 $$
-
 
 
 This approach allows us to compute the 2-D DFT by decomposing it into row and column DFTs, making use of the separability property.
@@ -10485,13 +10162,11 @@ Wavelet analysis is an extension of Fourier analysis, which decomposes a signal 
 The two-scale relation for the wavelet function $\psi_m(x)$ is given by:
 
 
-
 $$
 
 \psi_m(x) = \frac{1}{\sqrt{2}} \sum_{n=-\infty}^{\infty} h_n \psi(2x-n)
 
 $$
-
 
 
 where $h_n$ are the filter coefficients and $\psi(x)$ is the mother wavelet. This relation allows us to construct a wavelet basis by scaling and translating the mother wavelet. This leads to the concept of the wavelet transform, which decomposes a signal into its wavelet coefficients at different scales and translations.
@@ -10533,13 +10208,11 @@ Wavelet analysis is not limited to one-dimensional signals. It can also be exten
 The discrete wavelet transform can be extended to the multidimensional case using the tensor product of well-known 1-D wavelets. In 2-D, for example, the tensor product space for 2-D is decomposed into four tensor product vector spaces as:
 
 
-
 $$
 
 V_{j+1} \otimes V_{j+1} = (V_j \otimes V_j) \oplus (V_j \otimes W_j) \oplus (W_j \otimes V_j) \oplus (W_j \otimes W_j)
 
 $$
-
 
 
 This leads to the concept of the multidimensional separable DWT, which is similar in principle to the multidimensional discrete Fourier transform (DFT).
@@ -10591,13 +10264,11 @@ Wavelet analysis is an extension of Fourier analysis, which decomposes a signal 
 The two-scale relation for the wavelet function $\psi_m(x)$ is given by:
 
 
-
 $$
 
 \psi_m(x) = \frac{1}{\sqrt{2}} \sum_{n=-\infty}^{\infty} h_n \psi(2x-n)
 
 $$
-
 
 
 where $h_n$ are the filter coefficients and $\psi(x)$ is the mother wavelet. This relation allows us to construct a wavelet basis by scaling and translating the mother wavelet. This leads to the concept of the wavelet transform, which decomposes a signal into its wavelet coefficients at different scales and translations.
@@ -10689,13 +10360,11 @@ Multiresolution analysis is an extension of wavelet analysis, which decomposes a
 The two-scale relation for the scaling function $\phi_m(x)$ is given by:
 
 
-
 $$
 
 \phi_m(x) = \sum_{n=-\infty}^{\infty} g_n \phi(2x-n)
 
 $$
-
 
 
 where $g_n$ are the filter coefficients and $\phi(x)$ is the mother scaling function. This relation allows us to construct a multiresolution basis by scaling and translating the mother scaling function. This leads to the concept of the multiresolution analysis, which decomposes a signal into its scaling coefficients at different scales and translations.
@@ -10709,13 +10378,11 @@ where $g_n$ are the filter coefficients and $\phi(x)$ is the mother scaling func
 Multiresolution analysis can also be extended to multidimensional signals. In this case, the two-scale relation is given by:
 
 
-
 $$
 
 \phi_{m_1,m_2}(x_1,x_2) = \sum_{n_1=-\infty}^{\infty} \sum_{n_2=-\infty}^{\infty} g_{n_1,n_2} \phi(2x_1-n_1,2x_2-n_2)
 
 $$
-
 
 
 where $g_{n_1,n_2}$ are the filter coefficients and $\phi(x_1,x_2)$ is the mother scaling function. This allows us to construct a multiresolution basis for multidimensional signals, which can be used for analyzing signals in multiple dimensions.
@@ -10781,13 +10448,11 @@ Multiresolution analysis is an extension of wavelet analysis, which decomposes a
 The two-scale relation for the scaling function $\phi_m(x)$ is given by:
 
 
-
 $$
 
 \phi_m(x) = \sum_{n=-\infty}^{\infty} g_n \phi(2x-n)
 
 $$
-
 
 
 where $g_n$ are the filter coefficients and $\phi(x)$ is the mother scaling function. This relation allows us to construct a multiresolution basis by scaling and translating the mother scaling function. This leads to the concept of the multiresolution analysis, which decomposes a signal into its scaling coefficients at different scales and translations.
@@ -10801,13 +10466,11 @@ where $g_n$ are the filter coefficients and $\phi(x)$ is the mother scaling func
 Multiresolution analysis can also be extended to multidimensional signals. In this case, the two-scale relation is given by:
 
 
-
 $$
 
 \phi_{m_1,m_2}(x_1,x_2) = \sum_{n_1=-\infty}^{\infty} \sum_{n_2=-\infty}^{\infty} g_{n_1,n_2} \phi(2x_1-n_1,2x_2-n_2)
 
 $$
-
 
 
 where $g_{n_1,n_2}$ are the filter coefficients and $\phi(x_1,x_2)$ is the mother scaling function. This allows us to construct a multiresolution basis for multidimensional signals, which can be used for analyzing signals in multiple dimensions.
@@ -10829,13 +10492,11 @@ The multidimensional separable DWT is an extension of the one-dimensional DWT, w
 The two-scale relation for the multidimensional separable DWT is given by:
 
 
-
 $$
 
 \psi_{m_1,m_2}(x_1,x_2) = \sum_{n_1=-\infty}^{\infty} \sum_{n_2=-\infty}^{\infty} h_{n_1,n_2} \psi(2x_1-n_1,2x_2-n_2)
 
 $$
-
 
 
 where $h_{n_1,n_2}$ are the filter coefficients and $\psi(x_1,x_2)$ is the mother wavelet function. This relation allows us to construct a multiresolution basis for multidimensional signals, which can be used for analyzing signals in multiple dimensions.
@@ -11517,7 +11178,6 @@ Overall, this chapter has provided a comprehensive understanding of advanced top
 #### Exercise 1
 
 Find the inverse Laplace transform of the following function:
-
 $$
 
 F(s) = \frac{3s+2}{s^2+4s+5}
@@ -11525,17 +11185,14 @@ F(s) = \frac{3s+2}{s^2+4s+5}
 $$
 
 
-
 #### Exercise 2
 
 Using the properties of Laplace transforms, simplify the following expression:
-
 $$
 
 \mathcal{L}\{3e^{-2t}+4u(t-3)\}
 
 $$
-
 
 
 #### Exercise 3
@@ -11553,13 +11210,11 @@ Given the signals $x(t) = e^{-t}u(t)$ and $h(t) = e^{-2t}u(t)$, find the convolu
 #### Exercise 5
 
 Determine the transfer function of the following system:
-
 $$
 
 \frac{d^2y(t)}{dt^2} + 4\frac{dy(t)}{dt} + 5y(t) = 2\frac{dx(t)}{dt} + 3x(t)
 
 $$
-
 
 
 
@@ -12369,9 +12024,7 @@ In the previous section, we discussed the applications of convolution in signal 
 In signal processing, convolution is often used in the time-domain to analyze and manipulate signals. Time-domain convolution involves multiplying two signals in the time-domain and integrating the result over time. This operation is represented mathematically as:
 
 
-
 $$y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau$$
-
 
 
 where $x(t)$ is the input signal, $h(t)$ is the impulse response of the system, and $y(t)$ is the output signal.
@@ -12387,7 +12040,6 @@ Time-domain convolution is used in various signal processing techniques, such as
 
 
 Another important use of convolution in signal processing is in the frequency-domain. In this case, convolution is used to analyze and manipulate signals in the frequency-domain. This is achieved by multiplying the Fourier transforms of two signals and taking the inverse Fourier transform of the result. Mathematically, this can be represented as:
-
 
 
 $$y(t) = \mathcal{F}^{-1}\{\mathcal{F}\{x(t)\}\cdot\mathcal{F}\{h(t)\}\}$$

@@ -1315,9 +1315,7 @@ Let us consider a rigid body rotating around a fixed axis with an angular veloci
 
 
 $$
-
 \theta(t) = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2
-
 $$
 
 
@@ -1339,9 +1337,7 @@ The first equation of motion is the angular analog of Newton's second law, which
 
 
 $$
-
 \sum \tau = I\alpha
-
 $$
 
 
@@ -1355,9 +1351,7 @@ The second equation of motion relates the angular acceleration to the angular ve
 
 
 $$
-
 \alpha = \frac{d\omega}{dt}
-
 $$
 
 
@@ -1367,9 +1361,7 @@ The third and final equation of motion relates the angular velocity to the angul
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -1619,9 +1611,7 @@ The dynamics of a second order system can be described by a second order differe
 
 
 $$
-
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2x = u
-
 $$
 
 
@@ -1845,7 +1835,6 @@ Mathematically, this can be represented as:
 
 
 $$y(t) = y_n(t) + y_f(t)$$
-
 
 
 Where $y(t)$ is the total response of the system, $y_n(t)$ is the natural response, and $y_f(t)$ is the forced response.
@@ -2085,13 +2074,11 @@ To model collisions, we can use the concept of impulse response. Impulse respons
 Mathematically, we can represent the impulse response of a system as the convolution of the input signal and the system's impulse response function. This can be written as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal and $h(t)$ is the impulse response function.
@@ -2139,13 +2126,11 @@ To model collisions, we can use the concept of impulse response. Impulse respons
 Mathematically, we can represent the impulse response of a system as the convolution of the input signal and the system's impulse response function. This can be written as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal and $h(t)$ is the impulse response function.
@@ -2209,13 +2194,11 @@ To model collisions, we can use the concept of impulse response. Impulse respons
 Mathematically, we can represent the impulse response of a system as the convolution of the input signal and the system's impulse response function. This can be written as:
 
 
-
 $$
 
 y(t) = \int_{-\infty}^{\infty} x(\tau)h(t-\tau)d\tau
 
 $$
-
 
 
 where $x(t)$ is the input signal and $h(t)$ is the impulse response function.
@@ -2283,7 +2266,6 @@ The principle of conservation of momentum states that the total momentum of a cl
 To understand this concept better, let's consider a simple example of two objects colliding in a one-dimensional system. Before the collision, the two objects have individual momentums, which can be represented as $p_1$ and $p_2$. After the collision, the objects will have new momentums, $p_1'$ and $p_2'$. According to the principle of conservation of momentum, we can write:
 
 
-
 $$
 
 p_1 + p_2 = p_1' + p_2'
@@ -2291,9 +2273,7 @@ p_1 + p_2 = p_1' + p_2'
 $$
 
 
-
 This equation can also be written in terms of velocities, where $m_1$ and $m_2$ are the masses of the objects and $v_1$ and $v_2$ are their velocities before the collision, and $v_1'$ and $v_2'$ are their velocities after the collision:
-
 
 
 $$
@@ -2301,7 +2281,6 @@ $$
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
 
 $$
-
 
 
 This equation shows that the total momentum before the collision is equal to the total momentum after the collision, regardless of the individual masses and velocities of the objects.
@@ -2341,7 +2320,6 @@ The principle of conservation of momentum is a fundamental law in physics that s
 To understand this concept better, let's consider a simple example of two objects colliding in a one-dimensional system. Before the collision, the two objects have individual momentums, which can be represented as $p_1$ and $p_2$. After the collision, the objects will have new momentums, $p_1'$ and $p_2'$. According to the principle of conservation of momentum, we can write:
 
 
-
 $$
 
 p_1 + p_2 = p_1' + p_2'
@@ -2349,9 +2327,7 @@ p_1 + p_2 = p_1' + p_2'
 $$
 
 
-
 This equation can also be written in terms of velocities, where $m_1$ and $m_2$ are the masses of the objects and $v_1$ and $v_2$ are their velocities before the collision, and $v_1'$ and $v_2'$ are their velocities after the collision:
-
 
 
 $$
@@ -2359,7 +2335,6 @@ $$
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
 
 $$
-
 
 
 This equation shows that the total momentum before the collision is equal to the total momentum after the collision, regardless of the individual masses and velocities of the objects.
@@ -2415,7 +2390,6 @@ The principle of conservation of momentum is a fundamental law in physics that s
 To understand this concept better, let's consider a simple example of two objects colliding in a one-dimensional system. Before the collision, the two objects have individual momentums, which can be represented as $p_1$ and $p_2$. After the collision, the objects will have new momentums, $p_1'$ and $p_2'$. According to the principle of conservation of momentum, we can write:
 
 
-
 $$
 
 p_1 + p_2 = p_1' + p_2'
@@ -2423,9 +2397,7 @@ p_1 + p_2 = p_1' + p_2'
 $$
 
 
-
 This equation can also be written in terms of velocities, where $m_1$ and $m_2$ are the masses of the objects and $v_1$ and $v_2$ are their velocities before the collision, and $v_1'$ and $v_2'$ are their velocities after the collision:
-
 
 
 $$
@@ -2433,7 +2405,6 @@ $$
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
 
 $$
-
 
 
 This equation shows that the total momentum before the collision is equal to the total momentum after the collision, regardless of the individual masses and velocities of the objects.
@@ -2493,13 +2464,11 @@ To understand this concept better, let's consider a simple example of a pendulum
 Using the principle of conservation of energy, we can write the following equation for the pendulum system:
 
 
-
 $$
 
 E_i = E_f
 
 $$
-
 
 
 Where $E_i$ is the initial energy of the system and $E_f$ is the final energy of the system. This equation shows that the total energy of the system remains constant, regardless of the changes in potential and kinetic energy.
@@ -2543,13 +2512,11 @@ To understand this concept better, let's consider a simple example of a pendulum
 Using the principle of conservation of energy, we can write the following equation for the pendulum system:
 
 
-
 $$
 
 E_i = E_f
 
 $$
-
 
 
 Where $E_i$ is the initial energy of the system and $E_f$ is the final energy of the system. This equation shows that the total energy of the system remains constant, regardless of the changes in potential and kinetic energy.
@@ -2609,13 +2576,11 @@ To understand this concept better, let's consider a simple example of a pendulum
 Using the principle of conservation of energy, we can write the following equation for the pendulum system:
 
 
-
 $$
 
 E_i = E_f
 
 $$
-
 
 
 Where $E_i$ is the initial energy of the system and $E_f$ is the final energy of the system. This equation shows that the total energy of the system remains constant, regardless of the changes in potential and kinetic energy.
@@ -3049,21 +3014,17 @@ In the previous section, we discussed the challenges in understanding and modeli
 The dynamics of a rigid body in plane motion can be described using Newton's second law of motion, which states that the net force acting on a body is equal to its mass multiplied by its acceleration. In the case of a rigid body, this law can be extended to include rotational motion by considering the net torque acting on the body.
 
 
-
 $$
 
 \sum F = ma
 
 $$
 
-
-
 $$
 
 \sum \tau = I\alpha
 
 $$
-
 
 
 where $\sum F$ and $\sum \tau$ represent the net force and net torque, respectively, acting on the body, $m$ is the mass of the body, $a$ is its linear acceleration, $I$ is the moment of inertia, and $\alpha$ is the angular acceleration.
@@ -3309,14 +3270,11 @@ To understand uniaxial motion, we must first understand the basic principles of 
 The position of an object at any given time can be described by its displacement, which is the distance from a reference point. The velocity of an object is the rate of change of its displacement with respect to time, and the acceleration is the rate of change of its velocity with respect to time. These quantities can be represented mathematically as follows:
 
 
-
 $$
 
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
 
 $$
-
-
 
 $$
 
@@ -3324,14 +3282,11 @@ v(t) = v_0 + at
 
 $$
 
-
-
 $$
 
 a(t) = a
 
 $$
-
 
 
 where $x_0$ is the initial position, $v_0$ is the initial velocity, and $a$ is the constant acceleration.
@@ -3341,13 +3296,11 @@ where $x_0$ is the initial position, $v_0$ is the initial velocity, and $a$ is t
 In uniaxial motion, the forces acting on an object are typically limited to a single axis. This allows us to simplify the analysis by considering only the forces in the direction of motion. The most common force encountered in uniaxial motion is the force of gravity, which can be represented by the equation:
 
 
-
 $$
 
 F_g = mg
 
 $$
-
 
 
 where $m$ is the mass of the object and $g$ is the acceleration due to gravity.
@@ -3499,14 +3452,11 @@ Angular acceleration, denoted by $\alpha$, is the rate of change of angular velo
 Using these quantities, we can describe the motion of an object undergoing fixed-axis rotation using the following equations:
 
 
-
 $$
 
 \theta = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2
 
 $$
-
-
 
 $$
 
@@ -3514,14 +3464,11 @@ $$
 
 $$
 
-
-
 $$
 
 \alpha = \frac{\omega - \omega_0}{t}
 
 $$
-
 
 
 where $\theta_0$ and $\omega_0$ are the initial angular position and velocity, respectively, and $t$ is the time.
@@ -3531,13 +3478,11 @@ where $\theta_0$ and $\omega_0$ are the initial angular position and velocity, r
 In addition to kinematics, we must also consider the dynamics of fixed-axis rotation. Dynamics deals with the forces that cause motion and how they affect an object's motion. In the case of fixed-axis rotation, the main force at play is torque, denoted by $\tau$. Torque is a measure of the force that causes an object to rotate around an axis and is given by the following equation:
 
 
-
 $$
 
 \tau = I\alpha
 
 $$
-
 
 
 where $I$ is the moment of inertia of the object, which is a measure of its resistance to rotational motion.
@@ -3631,14 +3576,11 @@ Angular acceleration, denoted by $\alpha$, is the rate of change of angular velo
 Using these quantities, we can describe the motion of an object undergoing fixed-axis rotation using the following equations:
 
 
-
 $$
 
 \theta = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2
 
 $$
-
-
 
 $$
 
@@ -3646,14 +3588,11 @@ $$
 
 $$
 
-
-
 $$
 
 \alpha = \frac{\omega - \omega_0}{t}
 
 $$
-
 
 
 where $\theta_0$ and $\omega_0$ are the initial angular position and velocity, respectively, and $t$ is the time elapsed.
@@ -3735,13 +3674,11 @@ In order to fully understand fixed-axis rotation, we must also consider the equa
 The first equation of motion for fixed-axis rotation is the angular velocity equation, which relates the angular velocity of an object to its angular acceleration and initial angular velocity. It can be written as:
 
 
-
 $$
 
 \omega = \omega_0 + \alpha t
 
 $$
-
 
 
 where $\omega_0$ is the initial angular velocity and $t$ is the time.
@@ -3751,13 +3688,11 @@ where $\omega_0$ is the initial angular velocity and $t$ is the time.
 The second equation of motion is the angular position equation, which relates the angular position of an object to its initial angular position, angular velocity, and angular acceleration. It can be written as:
 
 
-
 $$
 
 \theta = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2
 
 $$
-
 
 
 where $\theta_0$ is the initial angular position.
@@ -3991,21 +3926,17 @@ For a point mass rotating around a fixed axis, the moment of inertia, $I$, is de
 Using this, we can derive the equations of motion for fixed-axis rotation:
 
 
-
 $$
 
 \sum \tau = I\alpha
 
 $$
 
-
-
 $$
 
 \sum F = ma = mr\alpha
 
 $$
-
 
 
 Where $\tau$ is the torque applied to the object, and $a$ is the linear acceleration of the point mass.
@@ -4057,7 +3988,6 @@ Given the transfer function $G(s) = \frac{1}{s^2 + 2s + 1}$, find the poles and 
 #### Exercise 3
 
 A system has the state-space representation:
-
 $$
 
 \dot{x} = \begin{bmatrix}
@@ -4075,7 +4005,6 @@ $$
 \end{bmatrix} u
 
 $$
-
 $$
 
 y = \begin{bmatrix}
@@ -4083,7 +4012,6 @@ y = \begin{bmatrix}
 1 & 0
 
 \end{bmatrix} x
-
 $$
 
 Find the transfer function of the system.
@@ -4133,7 +4061,6 @@ Given the transfer function $G(s) = \frac{1}{s^2 + 2s + 1}$, find the poles and 
 A system has the state-space representation:
 
 $$
-
 \dot{x} = \begin{bmatrix}
 
 0 & 1 \\
@@ -4147,17 +4074,14 @@ $$
 1
 
 \end{bmatrix} u
-
 $$
 
 $$
-
 y = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix} x
-
 $$
 
 Find the transfer function of the system.
@@ -4547,9 +4471,7 @@ The equations of motion for a rigid body in plane motion are derived from Newton
 
 
 $$
-
 \Sigma F = m\ddot{x}
-
 $$
 
 
@@ -4563,9 +4485,7 @@ In addition to this equation, we also have the equations of motion for rotation,
 
 
 $$
-
 \Sigma \tau = I\ddot{\theta}
-
 $$
 
 
@@ -4937,9 +4857,7 @@ In 2.003, we learned how to derive the equations of motion for single-degree-of-
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -5011,9 +4929,7 @@ In 2.003, we learned how to derive the equations of motion for single-degree-of-
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -5319,25 +5235,19 @@ The equations of motion for a rigid body in plane motion can be derived using Ne
 
 
 $$
-
 \sum F_x = m\ddot{x}
-
 $$
 
 
 
 $$
-
 \sum F_y = m\ddot{y}
-
 $$
 
 
 
 $$
-
 \sum M = I\ddot{\theta}
-
 $$
 
 
@@ -5399,15 +5309,11 @@ Consider a two-degree-of-freedom system with the following parameters: $m_1 = 2$
 A two-degree-of-freedom system has the following equations of motion:
 
 $$
-
 m_1\ddot{x}_1 + c_1\dot{x}_1 + k_1x_1 + k_2(x_1-x_2) = F_1(t)
-
 $$
 
 $$
-
 m_2\ddot{x}_2 + c_2\dot{x}_2 + k_2(x_2-x_1) = F_2(t)
-
 $$
 
 Determine the modal matrix and use it to transform the equations of motion into a set of decoupled equations.
@@ -5431,15 +5337,11 @@ A two-degree-of-freedom system has the following parameters: $m_1 = 1$ kg, $m_2 
 A two-degree-of-freedom system has the following equations of motion:
 
 $$
-
 m_1\ddot{x}_1 + c_1\dot{x}_1 + k_1x_1 + k_2(x_1-x_2) = F_1(t)
-
 $$
 
 $$
-
 m_2\ddot{x}_2 + c_2\dot{x}_2 + k_2(x_2-x_1) = F_2(t)
-
 $$
 
 If the system is initially at rest and is subjected to a step input of $F_1(t) = 10$ N and $F_2(t) = 5$ N, determine the response of the system in the time domain.
@@ -5479,15 +5381,11 @@ Consider a two-degree-of-freedom system with the following parameters: $m_1 = 2$
 A two-degree-of-freedom system has the following equations of motion:
 
 $$
-
 m_1\ddot{x}_1 + c_1\dot{x}_1 + k_1x_1 + k_2(x_1-x_2) = F_1(t)
-
 $$
 
 $$
-
 m_2\ddot{x}_2 + c_2\dot{x}_2 + k_2(x_2-x_1) = F_2(t)
-
 $$
 
 Determine the modal matrix and use it to transform the equations of motion into a set of decoupled equations.
@@ -5511,15 +5409,11 @@ A two-degree-of-freedom system has the following parameters: $m_1 = 1$ kg, $m_2 
 A two-degree-of-freedom system has the following equations of motion:
 
 $$
-
 m_1\ddot{x}_1 + c_1\dot{x}_1 + k_1x_1 + k_2(x_1-x_2) = F_1(t)
-
 $$
 
 $$
-
 m_2\ddot{x}_2 + c_2\dot{x}_2 + k_2(x_2-x_1) = F_2(t)
-
 $$
 
 If the system is initially at rest and is subjected to a step input of $F_1(t) = 10$ N and $F_2(t) = 5$ N, determine the response of the system in the time domain.
@@ -5917,25 +5811,19 @@ The kinematic equations of motion describe the relationship between the body's p
 
 
 $$
-
 x(t) = x_0 + v_{x0}t + \frac{1}{2}a_xt^2
-
 $$
 
 
 
 $$
-
 y(t) = y_0 + v_{y0}t + \frac{1}{2}a_yt^2
-
 $$
 
 
 
 $$
-
 \theta(t) = \theta_0 + \omega_0t + \frac{1}{2}\alpha t^2
-
 $$
 
 
@@ -6359,9 +6247,7 @@ The mathematical model for fixed-axis rotation is given by the equation:
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -6517,9 +6403,7 @@ First order systems are mathematical models that describe the dynamics of a syst
 
 
 $$
-
 \dot{x} = ax + bu
-
 $$
 
 
@@ -6545,9 +6429,7 @@ Second order systems can be written in the form of a second order differential e
 
 
 $$
-
 \ddot{x} = ax + bu
-
 $$
 
 
@@ -6591,9 +6473,7 @@ First order systems are mathematical models that describe the dynamics of a syst
 
 
 $$
-
 \dot{x} = ax + bu
-
 $$
 
 
@@ -6619,9 +6499,7 @@ Second order systems can be written in the form of a second order differential e
 
 
 $$
-
 \ddot{x} = ax + bu
-
 $$
 
 
@@ -6669,9 +6547,7 @@ First order systems are mathematical models that describe the dynamics of a syst
 
 
 $$
-
 \dot{x} = ax + bu
-
 $$
 
 
@@ -6697,9 +6573,7 @@ Second order systems can be written in the form of a second order differential e
 
 
 $$
-
 \ddot{x} = ax + bu
-
 $$
 
 
@@ -6759,9 +6633,7 @@ For first order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = x_0e^{at}
-
 $$
 
 
@@ -6775,9 +6647,7 @@ Similarly, for second order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = c_1e^{r_1t} + c_2e^{r_2t}
-
 $$
 
 
@@ -6803,9 +6673,7 @@ For first order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{at})
-
 $$
 
 
@@ -6819,9 +6687,7 @@ Similarly, for second order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{r_1t}) + \frac{bu}{a}(1-e^{r_2t})
-
 $$
 
 
@@ -6861,9 +6727,7 @@ For first order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = x_0e^{at}
-
 $$
 
 
@@ -6877,9 +6741,7 @@ Similarly, for second order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = c_1e^{r_1t} + c_2e^{r_2t}
-
 $$
 
 
@@ -6905,9 +6767,7 @@ For first order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{at})
-
 $$
 
 
@@ -6921,9 +6781,7 @@ Similarly, for second order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{r_1t}) + \frac{bu}{a}(1-e^{r_2t})
-
 $$
 
 
@@ -6945,9 +6803,7 @@ The Laplace transform of a function $f(t)$ is defined as:
 
 
 $$
-
 F(s) = \int_0^\infty f(t)e^{-st}dt
-
 $$
 
 
@@ -6973,9 +6829,7 @@ In uniaxial motion systems, the input signal can take various forms, depending o
 
 
 $$
-
 U(s) = \frac{1}{s}
-
 $$
 
 
@@ -6985,9 +6839,7 @@ $$
 
 
 $$
-
 U(s) = \frac{1}{s^2}
-
 $$
 
 
@@ -6997,9 +6849,7 @@ $$
 
 
 $$
-
 U(s) = 1
-
 $$
 
 
@@ -7009,9 +6859,7 @@ $$
 
 
 $$
-
 U(s) = \frac{1}{s^2 + \omega^2}
-
 $$
 
 
@@ -7029,9 +6877,7 @@ Using the Laplace transform and transfer function, we can analyze the forced res
 
 
 $$
-
 H(s) = \frac{1}{as + b}
-
 $$
 
 
@@ -7041,9 +6887,7 @@ where $a$ and $b$ are constants determined by the system's dynamics. The forced 
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{at})
-
 $$
 
 
@@ -7053,9 +6897,7 @@ Similarly, for a second order system, the transfer function is given by:
 
 
 $$
-
 H(s) = \frac{1}{as^2 + bs + c}
-
 $$
 
 
@@ -7065,9 +6907,7 @@ where $a$, $b$, and $c$ are constants determined by the system's dynamics. The f
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{r_1t}) + \frac{bu}{a}(1-e^{r_2t})
-
 $$
 
 
@@ -7127,9 +6967,7 @@ For first order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = x_0e^{at}
-
 $$
 
 
@@ -7143,9 +6981,7 @@ Similarly, for second order systems, the natural response can be written as:
 
 
 $$
-
 x(t) = c_1e^{r_1t} + c_2e^{r_2t}
-
 $$
 
 
@@ -7171,9 +7007,7 @@ For first order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{at})
-
 $$
 
 
@@ -7187,9 +7021,7 @@ Similarly, for second order systems, the forced response can be written as:
 
 
 $$
-
 x(t) = \frac{bu}{a}(1-e^{r_1t}) + \frac{bu}{a}(1-e^{r_2t})
-
 $$
 
 
@@ -8015,25 +7847,19 @@ One of the key concepts covered in 2.003 is the equations of motion, which descr
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8081,25 +7907,19 @@ One of the key concepts covered in 2.003 is the equations of motion, which descr
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8163,25 +7983,19 @@ One of the key concepts covered in 2.003 is the equations of motion, which descr
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8249,25 +8063,19 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8323,25 +8131,19 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8409,25 +8211,19 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -8503,9 +8299,7 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -8523,9 +8317,7 @@ The equations of motion for a rigid body in rotational motion are given by:
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -8539,17 +8331,13 @@ In addition to these equations, there are also equations that describe the relat
 
 
 $$
-
 F = ma
-
 $$
 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -8597,9 +8385,7 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -8675,9 +8461,7 @@ The equations of motion for a rigid body are given by:
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -8883,9 +8667,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -8951,9 +8733,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9035,9 +8815,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9119,9 +8897,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9175,9 +8951,7 @@ Using Newton's second law for rotational motion, we can derive the equation of m
 
 
 $$
-
 I\ddot{\theta} + c\dot{\theta} + k\theta = \tau
-
 $$
 
 
@@ -9299,9 +9073,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9331,9 +9103,7 @@ To better understand fixed-axis rotation, let's consider the example of a spinni
 
 
 $$
-
 I\dot{\omega} + \omega \times I\omega = M
-
 $$
 
 
@@ -9407,9 +9177,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9447,9 +9215,7 @@ Using the principles of rotational motion, we can derive the equation of motion 
 
 
 $$
-
 I\ddot{\theta} + b\dot{\theta} + mgd\sin{\theta} = 0
-
 $$
 
 
@@ -9523,9 +9289,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9655,9 +9419,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9771,9 +9533,7 @@ Using Newton's second law, we can derive the equation of motion for this system 
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -9799,9 +9559,7 @@ A first order system is a system that can be described by a first-order differen
 
 
 $$
-
 \dot{V_c} + \frac{1}{RC}V_c = \frac{1}{RC}V_{in}
-
 $$
 
 
@@ -10241,17 +9999,13 @@ Assuming a constant gravitational acceleration of $g$, the position of a project
 
 
 $$
-
 x(t) = x_0 + v_{x0}t
-
 $$
 
 
 
 $$
-
 y(t) = y_0 + v_{y0}t - \frac{1}{2}gt^2
-
 $$
 
 
@@ -10269,17 +10023,13 @@ The velocity of the projectile at any given time $t$ can be described using the 
 
 
 $$
-
 v_x(t) = v_{x0}
-
 $$
 
 
 
 $$
-
 v_y(t) = v_{y0} - gt
-
 $$
 
 
@@ -10293,17 +10043,13 @@ Finally, the acceleration of the projectile can be described using the following
 
 
 $$
-
 a_x(t) = 0
-
 $$
 
 
 
 $$
-
 a_y(t) = -g
-
 $$
 
 
@@ -10453,17 +10199,13 @@ Let's say we have a projectile launched from the ground with an initial velocity
 
 
 $$
-
 x(t) = v_0 \cos{\theta} \cdot t
-
 $$
 
 
 
 $$
-
 y(t) = v_0 \sin{\theta} \cdot t - \frac{1}{2}gt^2
-
 $$
 
 
@@ -10557,17 +10299,13 @@ Let's say we have a projectile launched from the ground with an initial velocity
 
 
 $$
-
 x(t) = v_0 \cos{\theta} \cdot t
-
 $$
 
 
 
 $$
-
 y(t) = v_0 \sin{\theta} \cdot t - \frac{1}{2}gt^2
-
 $$
 
 
@@ -11975,9 +11713,7 @@ Similar to uniaxial motion, fixed-axis rotation can be described using mathemati
 
 
 $$
-
 \omega = \omega_0 + \alpha t
-
 $$
 
 
@@ -11991,9 +11727,7 @@ The second equation is Newton's second law of motion, which states that the net 
 
 
 $$
-
 \sum \tau = I\alpha
-
 $$
 
 
@@ -12231,9 +11965,7 @@ A second order system is described by a second order differential equation, whic
 
 
 $$
-
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2x = u
-
 $$
 
 
@@ -12251,9 +11983,7 @@ Similar to first order systems, the behavior of a second order system can be und
 
 
 $$
-
 G(s) = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}
-
 $$
 
 
@@ -12683,7 +12413,6 @@ Collisions are a common occurrence in many physical systems, from billiard balls
 
 
 $$
-
 \delta(t) = \begin{cases}
 
 \infty, & t = 0 \\
@@ -12691,7 +12420,6 @@ $$
 0, & t \neq 0
 
 \end{cases}
-
 $$
 
 
@@ -12705,9 +12433,7 @@ To understand the behavior of a system during a collision, we can use the concep
 
 
 $$
-
 h(t) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -12721,9 +12447,7 @@ The impulse response of a system can be calculated using the transfer function o
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -12733,9 +12457,7 @@ By taking the inverse Laplace transform of the transfer function, we can obtain 
 
 
 $$
-
 h(t) = \mathcal{L}^{-1}\{G(s)\}
-
 $$
 
 
@@ -12775,7 +12497,6 @@ Collisions are a common occurrence in many physical systems, from billiard balls
 
 
 $$
-
 \delta(t) = \begin{cases}
 
 \infty, & t = 0 \\
@@ -12783,7 +12504,6 @@ $$
 0, & t \neq 0
 
 \end{cases}
-
 $$
 
 
@@ -12797,9 +12517,7 @@ To understand the behavior of a system during a collision, we can use the concep
 
 
 $$
-
 h(t) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -12843,7 +12561,6 @@ Collisions are a common occurrence in many physical systems, from billiard balls
 
 
 $$
-
 \delta(t) = \begin{cases}
 
 \infty, & t = 0 \\
@@ -12851,7 +12568,6 @@ $$
 0, & t \neq 0
 
 \end{cases}
-
 $$
 
 
@@ -12865,9 +12581,7 @@ To understand the behavior of a system during a collision, we can use the concep
 
 
 $$
-
 h(t) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -12911,9 +12625,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
-
 $$
 
 
@@ -12953,9 +12665,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
-
 $$
 
 
@@ -13011,9 +12721,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'
-
 $$
 
 
@@ -13073,9 +12781,7 @@ Conservation of energy is a fundamental principle in physics that states that en
 
 
 $$
-
 E_{total} = E_{initial} = E_{final}
-
 $$
 
 
@@ -13127,9 +12833,7 @@ Conservation of energy is a fundamental principle in physics that states that en
 
 
 $$
-
 E_{total} = E_{initial} = E_{final}
-
 $$
 
 
@@ -13189,9 +12893,7 @@ Conservation of energy is a fundamental principle in physics that states that en
 
 
 $$
-
 E_{total} = E_{initial} = E_{final}
-
 $$
 
 
@@ -13931,9 +13633,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -13947,9 +13647,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -13959,9 +13657,7 @@ where m is the mass of the object and v is its velocity. The potential energy, o
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14005,9 +13701,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14021,9 +13715,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14033,9 +13725,7 @@ where m is the mass of the object and v is its velocity. The potential energy, o
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14109,9 +13799,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14125,9 +13813,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14137,9 +13823,7 @@ where m is the mass of the object and v is its velocity. The potential energy, o
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14217,9 +13901,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14233,9 +13915,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14245,9 +13925,7 @@ where m is the mass of the object and v is its velocity. The potential energy is
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14281,9 +13959,7 @@ The second law of rotation states that the angular acceleration of an object is 
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -14297,9 +13973,7 @@ In addition to the laws of rotation, we can also use the concept of rotational e
 
 
 $$
-
 K = \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -14309,9 +13983,7 @@ where I is the moment of inertia and $\omega$ is the angular velocity. The poten
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14361,9 +14033,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14377,9 +14047,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14389,9 +14057,7 @@ where m is the mass of the object and v is its velocity. The potential energy is
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14421,9 +14087,7 @@ The second law of rotational motion states that the angular acceleration of an o
 
 
 $$
-
 \tau = I\alpha
-
 $$
 
 
@@ -14437,9 +14101,7 @@ In addition to the laws of motion, we can also use the concept of rotational ene
 
 
 $$
-
 K = \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -14449,9 +14111,7 @@ where I is the moment of inertia and $\omega$ is the angular velocity. The poten
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14521,9 +14181,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14545,25 +14203,19 @@ To solve uniaxial motion problems, we can use the equations of motion derived fr
 
 
 $$
-
 v = u + at
-
 $$
 
 
 
 $$
-
 s = ut + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = u^2 + 2as
-
 $$
 
 
@@ -14589,9 +14241,7 @@ Fixed-axis rotation can be described using the concept of torque, which is the r
 
 
 $$
-
 \tau = Fr
-
 $$
 
 
@@ -14613,25 +14263,19 @@ To solve fixed-axis rotation problems, we can use the equations of rotational mo
 
 
 $$
-
 \omega = \omega_0 + \alpha t
-
 $$
 
 
 
 $$
-
 \theta = \omega_0t + \frac{1}{2}\alpha t^2
-
 $$
 
 
 
 $$
-
 \omega^2 = \omega_0^2 + 2\alpha\theta
-
 $$
 
 
@@ -14697,9 +14341,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14713,9 +14355,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14725,9 +14365,7 @@ where m is the mass of the object and v is its velocity. The potential energy is
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14781,9 +14419,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14797,9 +14433,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14813,9 +14447,7 @@ Another important concept in uniaxial motion is potential energy, which is the e
 
 
 $$
-
 U = \frac{1}{2}kx^2
-
 $$
 
 
@@ -14869,9 +14501,7 @@ To fully understand uniaxial motion, we must also consider Newton's second law, 
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -14885,9 +14515,7 @@ In addition to Newton's laws, we can also use the concept of energy to analyze u
 
 
 $$
-
 K = \frac{1}{2}mv^2
-
 $$
 
 
@@ -14897,9 +14525,7 @@ where m is the mass of the object and v is its velocity. The potential energy is
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -14925,9 +14551,7 @@ A first order system can be described by the following differential equation:
 
 
 $$
-
 \frac{dx}{dt} = ax + bu
-
 $$
 
 
@@ -14957,9 +14581,7 @@ A second order system can be described by the following differential equation:
 
 
 $$
-
 \frac{d^2x}{dt^2} = ax + bu
-
 $$
 
 
@@ -15967,9 +15589,7 @@ For translational motion, we can write the equation of motion as:
 
 
 $$
-
 \sum F = m\ddot{x}
-
 $$
 
 
@@ -15983,9 +15603,7 @@ For rotational motion, we can write the equation of motion as:
 
 
 $$
-
 \sum M = I\ddot{\theta}
-
 $$
 
 
@@ -16041,9 +15659,7 @@ For translational motion, the equation of motion is given by:
 
 
 $$
-
 \sum F = m\ddot{x}
-
 $$
 
 
@@ -16057,9 +15673,7 @@ For rotational motion, the equation of motion is given by:
 
 
 $$
-
 \sum \tau = I\ddot{\theta}
-
 $$
 
 
@@ -16107,9 +15721,7 @@ For translational motion, the equation of motion is given by:
 
 
 $$
-
 \sum F = m\ddot{x}
-
 $$
 
 
@@ -16123,9 +15735,7 @@ For rotational motion, the equation of motion is given by:
 
 
 $$
-
 \sum \tau = I\ddot{\theta}
-
 $$
 
 
@@ -16193,9 +15803,7 @@ For translational motion, the equation of motion is given by:
 
 
 $$
-
 \sum F = m\ddot{x}
-
 $$
 
 
@@ -16209,9 +15817,7 @@ For rotational motion, the equation of motion is given by:
 
 
 $$
-
 \sum \tau = I\ddot{\theta}
-
 $$
 
 
@@ -16237,17 +15843,13 @@ One example is the motion of a pendulum, which can be modeled as a rigid body in
 
 
 $$
-
 \sum F = mg\sin\theta = m\ddot{x}
-
 $$
 
 
 
 $$
-
 \sum \tau = -mg\cos\theta\cdot\frac{L}{2} = I\ddot{\theta}
-
 $$
 
 
@@ -16261,17 +15863,13 @@ Another example is the motion of a rotating wheel, which can also be modeled as 
 
 
 $$
-
 \sum F = mg\sin\theta = m\ddot{x}
-
 $$
 
 
 
 $$
-
 \sum \tau = -mg\cos\theta\cdot\frac{R}{2} = I\ddot{\theta}
-
 $$
 
 

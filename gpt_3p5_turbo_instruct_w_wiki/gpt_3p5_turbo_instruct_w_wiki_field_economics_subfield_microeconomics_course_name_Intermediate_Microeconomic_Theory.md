@@ -1606,9 +1606,7 @@ Mathematically, the income effect can be represented as:
 
 
 $$
-
 \Delta x_i = \frac{\partial x_i}{\partial I} \Delta I
-
 $$
 
 
@@ -1626,9 +1624,7 @@ Mathematically, the substitution effect can be represented as:
 
 
 $$
-
 \Delta x_i = \frac{\partial x_i}{\partial p_i} \Delta p_i
-
 $$
 
 
@@ -1680,9 +1676,7 @@ Mathematically, the income effect can be represented as:
 
 
 $$
-
 \Delta x_i = \frac{\partial x_i}{\partial I} \Delta I
-
 $$
 
 
@@ -1700,9 +1694,7 @@ Mathematically, the substitution effect can be represented as:
 
 
 $$
-
 \Delta x_i = \frac{\partial x_i}{\partial p_i} \Delta p_i
-
 $$
 
 
@@ -4170,33 +4162,25 @@ Let's consider Country A, which has an abundance of labor, and Country B, which 
 
 
 $$
-
 Q_X^A = f(L^A, K^A)
-
 $$
 
 
 
 $$
-
 Q_Y^A = g(L^A, K^A)
-
 $$
 
 
 
 $$
-
 Q_X^B = f(L^B, K^B)
-
 $$
 
 
 
 $$
-
 Q_Y^B = g(L^B, K^B)
-
 $$
 
 
@@ -4210,33 +4194,25 @@ The demand functions for good X and good Y in each country are given by:
 
 
 $$
-
 D_X^A = h(p_X^A, p_Y^A)
-
 $$
 
 
 
 $$
-
 D_Y^A = k(p_X^A, p_Y^A)
-
 $$
 
 
 
 $$
-
 D_X^B = h(p_X^B, p_Y^B)
-
 $$
 
 
 
 $$
-
 D_Y^B = k(p_X^B, p_Y^B)
-
 $$
 
 
@@ -4250,33 +4226,25 @@ The supply functions for good X and good Y in each country are given by:
 
 
 $$
-
 S_X^A = l(p_X^A, p_Y^A)
-
 $$
 
 
 
 $$
-
 S_Y^A = m(p_X^A, p_Y^A)
-
 $$
 
 
 
 $$
-
 S_X^B = l(p_X^B, p_Y^B)
-
 $$
 
 
 
 $$
-
 S_Y^B = m(p_X^B, p_Y^B)
-
 $$
 
 
@@ -4572,9 +4540,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4588,9 +4554,7 @@ Additionally, a "compensated equilibrium" has the same feasibility and budget co
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \geq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4646,9 +4610,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4716,9 +4678,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4790,9 +4750,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4852,9 +4810,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4906,9 +4862,7 @@ Now, let us define a "competitive equilibrium" as a price-vector <math>\mathbf{p
 
 
 $$
-
 \mathbf{p} \cdot \mathbf{y} \leq \mathbf{p} \cdot \mathbf{x} \quad \forall \mathbf{x} \in \mathbb{R}^{G}
-
 $$
 
 
@@ -4976,9 +4930,7 @@ To understand Gorman aggregation, let us consider an economy with <math>N</math>
 
 
 $$
-
 Q_j(\mathbf{p}) = \sum_{i=1}^{N} x_{ij}(\mathbf{p})
-
 $$
 
 
@@ -5026,9 +4978,7 @@ To understand Gorman aggregation, let us consider an economy with <math>N</math>
 
 
 $$
-
 Q_j(\mathbf{p}) = \sum_{i=1}^{N} x_{ij}(\mathbf{p})
-
 $$
 
 
@@ -5096,9 +5046,7 @@ To understand Gorman aggregation, let us consider an economy with <math>N</math>
 
 
 $$
-
 Q_j(\mathbf{p}) = \sum_{i=1}^{N} x_{ij}(\mathbf{p})
-
 $$
 
 
@@ -5166,15 +5114,11 @@ Overall, the welfare theorems provide a useful framework for understanding the e
 Suppose there are two individuals, A and B, with the following utility functions:
 
 $$
-
 U_A(x,y) = x^2 + y^2
-
 $$
 
 $$
-
 U_B(x,y) = 2x + y
-
 $$
 
 Find the Pareto efficient allocation of goods between A and B.
@@ -5192,15 +5136,11 @@ Explain the concept of Pareto efficiency in your own words.
 Consider a market with two goods, X and Y, and two consumers, A and B. The initial endowments of X and Y for A and B are (10, 20) and (20, 10), respectively. The utility functions for A and B are given by:
 
 $$
-
 U_A(x,y) = x + 2y
-
 $$
 
 $$
-
 U_B(x,y) = 2x + y
-
 $$
 
 Find the competitive market equilibrium and determine if it is Pareto efficient.
@@ -5468,9 +5408,7 @@ Friedman also developed the "Money Multiplier" formula, which demonstrates how c
 
 
 $$
-
 MM = \frac{1}{RR}
-
 $$
 
 

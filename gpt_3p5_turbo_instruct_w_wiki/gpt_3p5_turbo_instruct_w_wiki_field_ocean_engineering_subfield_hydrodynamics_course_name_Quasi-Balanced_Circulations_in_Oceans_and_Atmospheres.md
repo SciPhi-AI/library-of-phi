@@ -430,7 +430,6 @@ The incompressible Navier-Stokes equations for a Newtonian fluid can be written 
 
 
 $$
-
 \frac{\partial \mathbf u}{\partial t}+( \mathbf u \cdot \nabla ) \mathbf u - \frac{1}{\rho}\nabla \cdot \boldsymbol{\sigma} (\mathbf u,p)=\mathbf 0 & \text{in } \Omega \times (0,T],
 
 \nabla \cdot {\mathbf u}=0 & \text{in } \Omega \times (0,T],
@@ -440,7 +439,6 @@ $$
 \boldsymbol{\sigma} (\mathbf u,p) \mathbf{\hat{n}} = \mathbf h & \text{on } \Gamma_N \times (0,T],
 
 \mathbf{u} (\mathbf{x},0) = \mathbf u_0(\mathbf{x})& \text{in } \Omega \times \{0\},
-
 $$
 
 
@@ -480,11 +478,9 @@ The Euler equations for a compressible fluid can be written as:
 
 
 $$
-
 \frac{\partial \mathbf{U}}{\partial t}+
 
 \frac{\partial \mathbf{F}}{\partial x}=0,
-
 $$
 
 
@@ -642,9 +638,7 @@ Mathematically, potential vorticity is defined as the ratio of the absolute vort
 
 
 $$
-
 q = \frac{\zeta + f}{\frac{\partial \theta}{\partial z}}
-
 $$
 
 
@@ -688,9 +682,7 @@ Mathematically, potential vorticity is defined as the ratio of the absolute vort
 
 
 $$
-
 q = \frac{\zeta + f}{\frac{\partial \theta}{\partial z}}
-
 $$
 
 
@@ -750,9 +742,7 @@ Mathematically, potential vorticity is defined as the ratio of the absolute vort
 
 
 $$
-
 q = \frac{\zeta + f}{\frac{\partial \theta}{\partial z}}
-
 $$
 
 
@@ -1282,17 +1272,13 @@ To understand quasigeostrophy, we must first understand the geostrophic balance.
 
 
 $$
-
 u_g = -\frac{1}{f_0}\frac{\partial \Phi}{\partial y}
-
 $$
 
 
 
 $$
-
 v_g = \frac{1}{f_0}\frac{\partial \Phi}{\partial x}
-
 $$
 
 
@@ -1302,9 +1288,7 @@ where $\Phi$ is the geopotential. The geostrophic vorticity can then be expresse
 
 
 $$
-
 \zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y} = \frac{1}{f_0}\left(\frac{\partial^2 \Phi}{\partial x^2} + \frac{\partial^2 \Phi}{\partial y^2}\right)
-
 $$
 
 
@@ -1318,9 +1302,7 @@ The quasi-geostrophic vorticity equation can be obtained from the $x$ and $y$ co
 
 
 $$
-
 \frac{D\mathbf{V}}{Dt} = -\frac{1}{\rho}\nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -1330,9 +1312,7 @@ where $\mathbf{V}$ is the horizontal velocity, $\rho$ is the density, $p$ is the
 
 
 $$
-
 \frac{D}{Dt} = \frac{\partial}{\partial t} + \mathbf{V}\cdot\nabla
-
 $$
 
 
@@ -1342,9 +1322,7 @@ The horizontal velocity $\mathbf{V}$ can be separated into a geostrophic compone
 
 
 $$
-
 \mathbf{V} = \mathbf{V_g} + \mathbf{V_a}
-
 $$
 
 
@@ -1384,9 +1362,7 @@ Pseudo-potential vorticity is a diagnostic tool that helps us identify regions o
 
 
 $$
-
 PV = \frac{\zeta + f}{H}
-
 $$
 
 
@@ -1426,17 +1402,13 @@ To understand quasigeostrophy, we must first understand the geostrophic balance.
 
 
 $$
-
 u_g = -\frac{1}{f_0}\frac{\partial \Phi}{\partial y}
-
 $$
 
 
 
 $$
-
 v_g = \frac{1}{f_0}\frac{\partial \Phi}{\partial x}
-
 $$
 
 
@@ -1446,9 +1418,7 @@ where $\Phi$ is the geopotential. The geostrophic vorticity can then be expresse
 
 
 $$
-
 \zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y} = \frac{1}{f_0}\left(\frac{\partial^2 \Phi}{\partial x^2} + \frac{\partial^2 \Phi}{\partial y^2}\right)
-
 $$
 
 
@@ -1462,9 +1432,7 @@ The quasi-geostrophic vorticity equation can be obtained from the $x$ and $y$ co
 
 
 $$
-
 \frac{D\mathbf{V}}{Dt} = -\frac{1}{\rho}\nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -1474,9 +1442,7 @@ where $\mathbf{V}$ is the horizontal velocity, $\rho$ is the density, $p$ is the
 
 
 $$
-
 \frac{D}{Dt} = \frac{\partial}{\partial t} + \mathbf{V}\cdot\nabla
-
 $$
 
 
@@ -1486,9 +1452,7 @@ The horizontal velocity $\mathbf{V}$ can be decomposed into a geostrophic compon
 
 
 $$
-
 \mathbf{V}_g = \frac{1}{f_0}\nabla \times \Phi
-
 $$
 
 
@@ -1498,9 +1462,7 @@ where $\Phi$ is the geopotential. The ageostrophic component is defined as:
 
 
 $$
-
 \mathbf{V}_a = \frac{1}{\rho f_0}\nabla \times \mathbf{F}
-
 $$
 
 
@@ -1510,9 +1472,7 @@ Substituting these definitions into the quasi-geostrophic momentum equation and 
 
 
 $$
-
 \frac{\partial \mathbf{V}_g}{\partial t} + \mathbf{V}_g \cdot \nabla \mathbf{V}_g + f_0 \hat{z} \times \mathbf{V}_g = -\frac{1}{\rho}\nabla p + \mathbf{g}
-
 $$
 
 
@@ -1522,9 +1482,7 @@ This equation can be further simplified by using the geostrophic balance, which 
 
 
 $$
-
 \frac{\partial \zeta_g}{\partial t} + \mathbf{V}_g \cdot \nabla \zeta_g + f_0 \hat{z} \cdot \nabla \times \mathbf{V}_g = 0
-
 $$
 
 
@@ -1572,17 +1530,13 @@ To understand quasigeostrophy, we must first understand the geostrophic balance.
 
 
 $$
-
 u_g = -\frac{1}{f_0}\frac{\partial \Phi}{\partial y}
-
 $$
 
 
 
 $$
-
 v_g = \frac{1}{f_0}\frac{\partial \Phi}{\partial x}
-
 $$
 
 
@@ -1592,9 +1546,7 @@ where $\Phi$ is the geopotential. The geostrophic vorticity can then be expresse
 
 
 $$
-
 \zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y} = \frac{1}{f_0}\left(\frac{\partial^2 \Phi}{\partial x^2} + \frac{\partial^2 \Phi}{\partial y^2}\right)
-
 $$
 
 
@@ -1608,9 +1560,7 @@ The quasi-geostrophic vorticity equation can be obtained from the $x$ and $y$ co
 
 
 $$
-
 \frac{D\mathbf{V}}{Dt} = -\frac{1}{\rho}\nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -1620,9 +1570,7 @@ where $\mathbf{V}$ is the horizontal velocity, $\rho$ is the density, $p$ is the
 
 
 $$
-
 \frac{D}{Dt} = \frac{\partial}{\partial t} + \mathbf{V}\cdot\nabla
-
 $$
 
 
@@ -1632,9 +1580,7 @@ The horizontal velocity $\mathbf{V}$ can be decomposed into a geostrophic compon
 
 
 $$
-
 \mathbf{V}_g = \frac{1}{f_0}\nabla \times \Phi
-
 $$
 
 
@@ -1644,9 +1590,7 @@ Substituting this into the quasi-geostrophic momentum equation and neglecting th
 
 
 $$
-
 \frac{\partial \zeta_g}{\partial t} + \mathbf{V}_g \cdot \nabla \zeta_g = \frac{1}{f_0}\nabla \times \left(\frac{1}{\rho}\nabla p\right) + \mathbf{F}_g
-
 $$
 
 
@@ -2098,9 +2042,7 @@ The Eady equation can be written as:
 
 
 $$
-
 {\partial \over \partial t} \left( {\partial \eta \over \partial t} - R^2 \nabla^2 \eta \right) + \alpha_0 {g \over f_0} {\partial \eta \over \partial x} = 0
-
 $$
 
 
@@ -2530,9 +2472,7 @@ The potential vorticity equation for a frictionless, homogeneous flow can be wri
 
 
 $$
-
 {dq \over dt}=0 \qquad \text{with} \qquad q={\zeta + f \over h},
-
 $$
 
 
@@ -2546,9 +2486,7 @@ On a beta-plane and for a linearly sloping bottom in the meridional direction, t
 
 
 $$
-
 q = {f_0+\beta_0 y + \zeta \over H_0 + \alpha_0 y + \eta}.
-
 $$
 
 
@@ -2562,9 +2500,7 @@ In the context of Rossby waves, the beta-parameter plays a crucial role. It is d
 
 
 $$
-
 \beta_0 = {df \over dy}.
-
 $$
 
 
@@ -2574,9 +2510,7 @@ The beta-parameter is responsible for the curvature of Rossby waves and is a mea
 
 
 $$
-
 q = {f_0 \over H_0} \left(1+{\beta_0y \over f_0} + {\zeta \over f_0} \right)\left(1-{\alpha_0y \over H_0}- {\eta \over H_0} + \ldots\right),
-
 $$
 
 
@@ -2616,9 +2550,7 @@ The potential vorticity equation for a frictionless, homogeneous flow can be wri
 
 
 $$
-
 {dq \over dt}=0 \qquad \text{with} \qquad q={\zeta + f \over h},
-
 $$
 
 
@@ -2632,9 +2564,7 @@ On a beta-plane and for a linearly sloping bottom in the meridional direction, t
 
 
 $$
-
 q = {f_0+\beta_0 y + \zeta \over H_0 + \alpha_0 y + \eta}.
-
 $$
 
 
@@ -2656,9 +2586,7 @@ In the quasi-geostrophic approximation, the fluid motion can be decomposed into 
 
 
 $$
-
 \bar{u}=-{g \over f_0}{\partial \eta \over \partial y} \qquad \text{and} \qquad \bar{v}={g \over f_0}{\partial \eta \over \partial x},
-
 $$
 
 
@@ -2672,13 +2600,11 @@ Substituting these expressions for $u$ and $v$ in the equations of motion, we ob
 
 
 $$
-
 &-{g \over f_0}{\partial^2 \eta \over \partial y \partial t}+{\partial \tilde{u} \over\partial t}-f_0\tilde{v} = 0\\[3pt]
 
 &{g \over f_0}{\partial^2 \eta \over \partial x \partial t}+{\partial \tilde{v} \over\partial t}+f_0\tilde{u} = 0\\[3pt]
 
 &{\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
-
 $$
 
 
@@ -2688,13 +2614,11 @@ Neglecting terms where small component terms ($\tilde{u}, \tilde{v}, {\partial\o
 
 
 $$
-
 &\tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
 
 &\tilde{u} = -{g \over f_0^2}{\partial^2 \eta \over \partial x \partial t}\\[3pt]
 
 &{\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
-
 $$
 
 
@@ -2704,9 +2628,7 @@ Substituting the components of the ageostrophic velocity in the continuity equat
 
 
 $$
-
 {\partial \eta \over\partial t}-R^2{\partial\over\partial t}\nabla^2 \eta + \alpha_0\tilde{v}=0,
-
 $$
 
 
@@ -2750,9 +2672,7 @@ The potential vorticity equation for a frictionless, homogeneous flow can be wri
 
 
 $$
-
 {dq \over dt}=0 \qquad \text{with} \qquad q={\zeta + f \over h},
-
 $$
 
 
@@ -2774,13 +2694,11 @@ The quasi-geostrophic approximation is often used to study topographic Rossby wa
 
 
 $$
-
 \tilde{v} = -{g \over f_0^2}{\partial^2 \eta \over \partial y \partial t}\\[3pt]
 
 \tilde{u} = -{g \over f_0^2}{\partial^2 \eta \over \partial x \partial t}\\[3pt]
 
 {\partial \eta\over\partial t}+H_0\left({\partial \tilde{u} \over\partial x} + {\partial \tilde{v} \over\partial y}\right)+\alpha_0 {g \over f_0}{\partial \eta \over \partial x}=0.
-
 $$
 
 
