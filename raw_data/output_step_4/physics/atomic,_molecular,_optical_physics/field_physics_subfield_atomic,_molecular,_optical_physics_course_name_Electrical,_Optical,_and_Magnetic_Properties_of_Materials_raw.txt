@@ -1,0 +1,385 @@
+textbook: 
+"Electrical, Optical, and Magnetic Properties of Materials: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Materials Properties:
+sections:
+- Section: 1.1 Band Theory and Electronic Properties of Solids:
+subsections:
+- 1.1a Introduction to Band Theory
+- 1.1b Electronic Properties of Solids
+- 1.1c Applications of Band Theory
+
+- Section: 1.2 Optical Properties of Solids:
+subsections:
+- 1.2a Introduction to Optical Properties
+- 1.2b Light-Matter Interaction
+- 1.2c Applications of Optical Properties
+
+- Section: 1.3 Physical Theory of Ferromagnetic Domains:
+subsections:
+- 1.3a Introduction to Ferromagnetic Domains
+- 1.3b Physical Theory of Domains
+- 1.3c Applications of Ferromagnetic Domains
+
+- Chapter 2: Electronic and Optical Units:
+sections:
+- Section: 2.1 From Particles to Waves: The Schrödinger Equation:
+subsections:
+- 2.1a Introduction to Quantum Mechanics
+- 2.1b The Schrödinger Equation
+- 2.1c Applications of the Schrödinger Equation
+
+- Section: 2.2 Mechanics of Quantum Mechanics: Operators, Expectation Values:
+subsections:
+- 2.2a Introduction to Quantum Operators
+- 2.2b Expectation Values in Quantum Mechanics
+- 2.2c Applications of Quantum Operators
+
+- Section: 2.3 Hydrogen Atom and the Periodic Table:
+subsections:
+- 2.3a Quantum Mechanics of the Hydrogen Atom
+- 2.3b The Periodic Table and Quantum Mechanics
+- 2.3c Applications of Quantum Mechanics in Chemistry
+
+- Section: 2.4 Periodicity and Phonons:
+subsections:
+- 2.4a Introduction to Periodicity in Quantum Systems
+- 2.4b Phonons and Quantum Mechanics
+- 2.4c Applications of Phonons
+
+- Section: 2.5 Electrons in a Lattice: Bloch's Theorem:
+subsections:
+- 2.5a Introduction to Electron Behavior in a Lattice
+- 2.5b Bloch's Theorem
+- 2.5c Applications of Bloch's Theorem
+
+- Section: 2.6 Nearly-Free Electron Model:
+subsections:
+- 2.6a Introduction to the Nearly-Free Electron Model
+- 2.6b Theory of the Nearly-Free Electron Model
+- 2.6c Applications of the Nearly-Free Electron Model
+
+- Chapter 3: Semiconductors and Insulators:
+sections:
+- Section: 3.1 Band Structure Engineering:
+subsections:
+- 3.1a Introduction to Band Structure
+- 3.1b Engineering the Band Structure
+- 3.1c Applications of Band Structure Engineering
+
+- Section: 3.2 Transport of Heat and Electricity:
+subsections:
+- 3.2a Introduction to Heat and Electricity Transport
+- 3.2b Theory of Heat and Electricity Transport
+- 3.2c Applications of Heat and Electricity Transport
+
+- Section: 3.3 Inhomogeneous and Hot Carriers in Semiconductors:
+subsections:
+- 3.3a Introduction to Inhomogeneous and Hot Carriers
+- 3.3b Theory of Inhomogeneous and Hot Carriers
+- 3.3c Applications of Inhomogeneous and Hot Carriers
+
+- Chapter 4: Mid-term Exam:
+sections:
+- Section: 4.1 Review of Covered Topics:
+subsections:
+- 4.1a Review of Quantum Mechanics
+- 4.1b Review of Band Theory and Optical Properties
+- 4.1c Review of Ferromagnetic Domains
+
+- Chapter 5: Optical Materials and Refractive Index:
+sections:
+- Section: 5.1 Classic Propagation of Waves:
+subsections:
+- 5.1a Introduction to Wave Propagation
+- 5.1b Theory of Wave Propagation
+- 5.1c Applications of Wave Propagation
+
+- Section: 5.2 Interband Absorption:
+subsections:
+- 5.2a Introduction to Interband Absorption
+- 5.2b Theory of Interband Absorption
+- 5.2c Applications of Interband Absorption
+
+- Chapter 6: Fundamental of Ferromagnetic Materials:
+sections:
+- Section: 6.1 Hysteresis Loop and Driving Energies:
+subsections:
+- 6.1a Introduction to Hysteresis Loop
+- 6.1b Theory of Driving Energies
+- 6.1c Applications of Hysteresis Loop and Driving Energies
+
+- Section: 6.2 Hard Materials and Permanent Magnets:
+subsections:
+- 6.2a Introduction to Hard Materials
+- 6.2b Theory of Permanent Magnets
+- 6.2c Applications of Hard Materials and Permanent Magnets
+
+- Chapter 7: Spin Valves, Spin Switches, and Spin Tunneling:
+sections:
+- Section: 7.1 Excitons:
+subsections:
+- 7.1a Introduction to Excitons
+- 7.1b Theory of Excitons
+- 7.1c Applications of Excitons
+
+- Section: 7.2 Luminescence:
+subsections:
+- 7.2a Introduction to Luminescence
+- 7.2b Theory of Luminescence
+- 7.2c Applications of Luminescence
+
+- Section: 7.3 Semiconductor Quantum Wells:
+subsections:
+- 7.3a Introduction to Quantum Wells
+- 7.3b Theory of Quantum Wells
+- 7.3c Applications of Quantum Wells
+
+- Chapter 8: Final Exam:
+sections:
+- Section: 8.1 Review of Covered Topics:
+subsections:
+- 8.1a Review of Quantum Mechanics
+- 8.1b Review of Band Theory and Optical Properties
+- 8.1c Review of Ferromagnetic Domains
+
+- Chapter 9: Introduction to Materials Science:
+sections:
+- Section: 9.1 Atomic Structure and Bonding:
+subsections:
+- 9.1a Atomic Structure
+- 9.1b Types of Bonding
+- 9.1c Bonding and Material Properties
+
+- Section: 9.2 Crystal Structures and X-ray Diffraction:
+subsections:
+- 9.2a Basic Crystal Structures
+- 9.2b X-ray Diffraction Techniques
+- 9.2c Crystal Structure Determination
+
+- Section: 9.3 Imperfections in Solids:
+subsections:
+- 9.3a Point Defects
+- 9.3b Line Defects
+- 9.3c Surface Defects
+
+- Chapter 10: Mechanical Properties of Materials:
+sections:
+- Section: 10.1 Stress and Strain:
+subsections:
+- 10.1a Stress-Strain Behavior
+- 10.1b Mechanical Testing
+- 10.1c Elasticity and Plasticity
+
+- Section: 10.2 Failure and Fracture:
+subsections:
+- 10.2a Fracture Mechanics
+- 10.2b Fatigue and Creep
+- 10.2c Failure Analysis
+
+- Section: 10.3 Phase Diagrams and Phase Transformations:
+subsections:
+- 10.3a Phase Diagrams
+- 10.3b Phase Transformations
+- 10.3c Heat Treatment of Metals
+
+- Chapter 11: Electrical Properties of Materials:
+sections:
+- Section: 11.1 Conductivity and Resistivity:
+subsections:
+- 11.1a Ohm's Law
+- 11.1b Conductivity and Resistivity
+- 11.1c Temperature Dependence of Resistivity
+
+- Section: 11.2 Semiconductors:
+subsections:
+- 11.2a Intrinsic Semiconductors
+- 11.2b Extrinsic Semiconductors
+- 11.2c Semiconductor Devices
+
+- Section: 11.3 Dielectric Materials:
+subsections:
+- 11.3a Polarization and Dielectric Constant
+- 11.3b Dielectric Breakdown
+- 11.3c Applications of Dielectrics
+
+- Chapter 12: Magnetic Properties of Materials:
+sections:
+- Section: 12.1 Magnetism and Magnetic Materials:
+subsections:
+- 12.1a Basic Concepts of Magnetism
+- 12.1b Types of Magnetic Materials
+- 12.1c Applications of Magnetic Materials
+
+- Section: 12.2 Magnetic Domains and Hysteresis:
+subsections:
+- 12.2a Magnetic Domains
+- 12.2b Hysteresis
+- 12.2c Hard and Soft Magnetic Materials
+
+- Section: 12.3 Superconductivity:
+subsections:
+- 12.3a Basic Concepts of Superconductivity
+- 12.3b Types of Superconductors
+- 12.3c Applications of Superconductors
+
+- Chapter 13: Optical Properties of Materials:
+sections:
+- Section: 13.1 Light-Matter Interaction:
+subsections:
+- 13.1a Reflection and Refraction
+- 13.1b Absorption and Transmission
+- 13.1c Color and Optical Spectroscopy
+
+- Section: 13.2 Optical Fibers and Waveguides:
+subsections:
+- 13.2a Basic Concepts of Optical Fibers
+- 13.2b Propagation of Light in Fibers
+- 13.2c Applications of Optical Fibers
+
+- Section: 13.3 Photonic Crystals and Metamaterials:
+subsections:
+- 13.3a Photonic Crystals
+- 13.3b Metamaterials
+- 13.3c Applications of Photonic Crystals and Metamaterials
+
+- Chapter 14: Thermal Properties of Materials:
+sections:
+- Section: 14.1 Heat Capacity and Specific Heat:
+subsections:
+- 14.1a Heat Capacity
+- 14.1b Specific Heat
+- 14.1c Applications of Heat Capacity and Specific Heat
+
+- Section: 14.2 Thermal Expansion:
+subsections:
+- 14.2a Thermal Expansion Coefficient
+- 14.2b Anisotropy of Thermal Expansion
+- 14.2c Applications of Thermal Expansion
+
+- Section: 14.3 Thermal Conductivity:
+subsections:
+- 14.3a Fourier's Law of Heat Conduction
+- 14.3b Thermal Conductivity
+- 14.3c Applications of Thermal Conductivity
+
+- Chapter 15: Materials for Electronics and Photonics:
+sections:
+- Section: 15.1 Electronic Materials:
+subsections:
+- 15.1a Semiconductors
+- 15.1b Conductors
+- 15.1c Insulators
+
+- Section: 15.2 Photonic Materials:
+subsections:
+- 15.2a Optical Materials
+- 15.2b Photonic Crystals
+- 15.2c Metamaterials
+
+- Section: 15.3 Materials for Energy Storage and Conversion:
+subsections:
+- 15.3a Battery Materials
+- 15.3b Solar Cell Materials
+- 15.3c Thermoelectric Materials
+
+- Chapter 16: Materials for Medicine:
+sections:
+- Section: 16.1 Biomaterials:
+subsections:
+- 16.1a Biocompatible Materials
+- 16.1b Biodegradable Materials
+- 16.1c Bioactive Materials
+
+- Section: 16.2 Drug Delivery Systems:
+subsections:
+- 16.2a Controlled Release Systems
+- 16.2b Targeted Drug Delivery
+- 16.2c Nanoparticle-Based Drug Delivery
+
+- Section: 16.3 Tissue Engineering:
+subsections:
+- 16.3a Scaffolds for Tissue Engineering
+- 16.3b Stem Cells and Regenerative Medicine
+- 16.3c Applications of Tissue Engineering
+
+- Chapter 17: Materials for Aerospace:
+sections:
+- Section: 17.1 Lightweight Materials:
+subsections:
+- 17.1a Aluminum Alloys
+- 17.1b Titanium Alloys
+- 17.1c Composite Materials
+
+- Section: 17.2 High-Temperature Materials:
+subsections:
+- 17.2a Superalloys
+- 17.2b Ceramics
+- 17.2c Refractory Metals
+
+- Section: 17.3 Smart Materials:
+subsections:
+- 17.3a Shape Memory Alloys
+- 17.3b Piezoelectric Materials
+- 17.3c Magnetostrictive Materials
+
+- Chapter 18: Materials for Energy:
+sections:
+- Section: 18.1 Materials for Solar Cells:
+subsections:
+- 18.1a Silicon-Based Solar Cells
+- 18.1b Thin-Film Solar Cells
+- 18.1c Organic Solar Cells
+
+- Section: 18.2 Materials for Batteries:
+subsections:
+- 18.2a Lithium-Ion Batteries
+- 18.2b Sodium-Ion Batteries
+- 18.2c Solid-State Batteries
+
+- Section: 18.3 Materials for Fuel Cells:
+subsections:
+- 18.3a Proton Exchange Membrane Fuel Cells
+- 18.3b Solid Oxide Fuel Cells
+- 18.3c Direct Methanol Fuel Cells
+
+- Chapter 19: Materials for Environment:
+sections:
+- Section: 19.1 Materials for Water Purification:
+subsections:
+- 19.1a Membranes for Reverse Osmosis
+- 19.1b Adsorbents for Water Purification
+- 19.1c Photocatalysts for Water Purification
+
+- Section: 19.2 Materials for Air Purification:
+subsections:
+- 19.2a Adsorbents for Air Purification
+- 19.2b Photocatalysts for Air Purification
+- 19.2c Materials for Carbon Capture
+
+- Section: 19.3 Materials for Waste Management:
+subsections:
+- 19.3a Materials for Waste Containment
+- 19.3b Materials for Waste Treatment
+- 19.3c Materials for Waste-to-Energy Conversion
+
+- Chapter 20: Materials for Construction:
+sections:
+- Section: 20.1 Concrete and Cement:
+subsections:
+- 20.1a Composition of Concrete
+- 20.1b Properties of Concrete
+- 20.1c Applications of Concrete
+
+- Section: 20.2 Steel and Iron:
+subsections:
+- 20.2a Composition of Steel
+- 20.2b Properties of Steel
+- 20.2c Applications of Steel
+
+- Section: 20.3 Composite Materials:
+subsections:
+- 20.3a Composition of Composites
+- 20.3b Properties of Composites
+- 20.3c Applications of Composites

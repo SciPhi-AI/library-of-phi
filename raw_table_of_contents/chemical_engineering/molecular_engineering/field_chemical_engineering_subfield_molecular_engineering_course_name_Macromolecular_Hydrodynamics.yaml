@@ -1,0 +1,370 @@
+textbook:
+  'Macromolecular Hydrodynamics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Review of Newtonian Fluid Mechanics:':
+        sections:
+        - '- Section: 1.1 Funny Flow Phenomena:':
+            subsections:
+            - 1.1a Introduction to Funny Flow Phenomena
+            - 1.1b Causes and Effects of Funny Flow Phenomena
+            - 1.1c Case Studies of Funny Flow Phenomena
+        - '- Section: 1.2 Review of Classical Hydrodynamics:':
+            subsections:
+            - 1.2a Basic Principles of Classical Hydrodynamics
+            - 1.2b Applications of Classical Hydrodynamics
+            - 1.2c Classical Hydrodynamics in Macromolecular Studies
+        - '- Section: 1.3 Equations of Change:':
+            subsections:
+            - 1.3a Introduction to Equations of Change
+            - 1.3b Application of Equations of Change
+            - 1.3c Equations of Change in Macromolecular Hydrodynamics
+        - '- Section: 1.4 Applications in Macromolecular Hydrodynamics:':
+            subsections:
+            - 1.4a Introduction to Macromolecular Hydrodynamics
+            - 1.4b Applications of Newtonian Fluid Mechanics in Macromolecular Hydrodynamics
+            - 1.4c Case Studies in Macromolecular Hydrodynamics
+    - '- Chapter 2: Materials Functions:':
+        sections:
+        - '- Section: 2.1 Material Functions I:':
+            subsections:
+            - 2.1a Introduction to Material Functions
+            - 2.1b Basic Material Functions
+            - 2.1c Material Functions in Macromolecular Hydrodynamics
+        - '- Section: 2.2 Material Functions II: Linear Viscoelasticity:':
+            subsections:
+            - 2.2a Introduction to Linear Viscoelasticity
+            - 2.2b Material Functions in Linear Viscoelasticity
+            - 2.2c Linear Viscoelasticity in Macromolecular Hydrodynamics
+        - '- Section: 2.3 Material Functions III: Extensional Flows:':
+            subsections:
+            - 2.3a Introduction to Extensional Flows
+            - 2.3b Material Functions in Extensional Flows
+            - 2.3c Extensional Flows in Macromolecular Hydrodynamics
+        - '- Section: 2.4 Polymer Material Functions and their Rheological Properties:':
+            subsections:
+            - 2.4a Introduction to Polymer Material Functions
+            - 2.4b Rheological Properties of Polymer Material Functions
+            - 2.4c Case Studies of Polymer Material Functions
+        - '- Section: 2.5 Rheological Characterization Techniques for Materials:':
+            subsections:
+            - 2.5a Introduction to Rheological Characterization Techniques
+            - 2.5b Rheological Characterization Techniques for Polymers
+            - 2.5c Case Studies of Rheological Characterization Techniques
+    - '- Chapter 3: Generalized Newtonian Fluids:':
+        sections:
+        - '- Section: 3.1 Generalized Newtonian Fluids: Principles and Behavior:':
+            subsections:
+            - 3.1a Introduction to Generalized Newtonian Fluids
+            - 3.1b Principles of Generalized Newtonian Fluids
+            - 3.1c Behavior of Generalized Newtonian Fluids
+        - '- Section: 3.2 Linear Viscoelasticity: The Basics:':
+            subsections:
+            - 3.2a Introduction to Linear Viscoelasticity
+            - 3.2b Basic Principles of Linear Viscoelasticity
+            - 3.2c Linear Viscoelasticity in Macromolecular Hydrodynamics
+        - '- Section: 3.3 Linear Viscoelasticity II: Advanced Concepts:':
+            subsections:
+            - 3.3a Advanced Concepts in Linear Viscoelasticity
+            - 3.3b Applications of Advanced Concepts in Linear Viscoelasticity
+            - 3.3c Case Studies of Advanced Concepts in Linear Viscoelasticity
+        - '- Section: 3.4 Experimental Methods for LVE Time-Temperature Superposition:':
+            subsections:
+            - 3.4a Introduction to Time-Temperature Superposition
+            - 3.4b Experimental Methods for Time-Temperature Superposition
+            - 3.4c Time-Temperature Superposition in Macromolecular Hydrodynamics
+        - '- Section: 3.5 Nonlinear Viscoelasticity: Theory and Applications:':
+            subsections:
+            - 3.5a Introduction to Nonlinear Viscoelasticity
+            - 3.5b Theory of Nonlinear Viscoelasticity
+            - 3.5c Applications of Nonlinear Viscoelasticity
+    - '- Chapter 4: Polymer Physics:':
+        sections:
+        - '- Section: 4.1 Polymer Physics: Dilute Solutions:':
+            subsections:
+            - 4.1a Introduction to Dilute Solutions
+            - 4.1b Polymer Physics in Dilute Solutions
+            - 4.1c Case Studies of Dilute Solutions
+        - '- Section: 4.2 Polymer Physics: Reptation of Entangled Melts & Rubbery Materials:':
+            subsections:
+            - 4.2a Introduction to Reptation
+            - 4.2b Reptation in Entangled Melts and Rubbery Materials
+            - 4.2c Case Studies of Reptation
+        - '- Section: 4.3 Polymer Physics: Chain Conformation and Dynamics:':
+            subsections:
+            - 4.3a Introduction to Chain Conformation and Dynamics
+            - 4.3b Polymer Physics of Chain Conformation and Dynamics
+            - 4.3c Case Studies of Chain Conformation and Dynamics
+        - '- Section: 4.4 Polymer Rheology: Flow and Deformation Behavior:':
+            subsections:
+            - 4.4a Introduction to Polymer Rheology
+            - 4.4b Flow and Deformation Behavior in Polymer Rheology
+            - 4.4c Case Studies of Polymer Rheology
+    - '- Chapter 5: Ordered Fluid Expansions:':
+        sections:
+        - '- Section: 5.1 Ordered Fluid Expansions: Introduction and Principles:':
+            subsections:
+            - 5.1a Introduction to Ordered Fluid Expansions
+            - 5.1b Principles of Ordered Fluid Expansions
+            - 5.1c Ordered Fluid Expansions in Macromolecular Hydrodynamics
+        - '- Section: 5.2 Ordered Fluid Expansions: Special Cases and Rheometry:':
+            subsections:
+            - 5.2a Special Cases of Ordered Fluid Expansions
+            - 5.2b Rheometry in Ordered Fluid Expansions
+            - 5.2c Case Studies of Ordered Fluid Expansions
+        - '- Section: 5.3 Ordered Fluid Expansions: Applications in Complex Fluids:':
+            subsections:
+            - 5.3a Introduction to Complex Fluids
+            - 5.3b Ordered Fluid Expansions in Complex Fluids
+            - 5.3c Case Studies of Complex Fluids
+    - '- Chapter 6: Differential Constitutive Models:':
+        sections:
+        - '- Section: 6.1 Differential Constitutive Models: Principles and Formulation:':
+            subsections:
+            - 6.1a Introduction to Differential Constitutive Models
+            - 6.1b Principles of Differential Constitutive Models
+            - 6.1c Formulation of Differential Constitutive Models
+        - '- Section: 6.2 Differential Constitutive Models: Linear and Nonlinear Examples:':
+            subsections:
+            - 6.2a Linear Examples of Differential Constitutive Models
+            - 6.2b Nonlinear Examples of Differential Constitutive Models
+            - 6.2c Case Studies of Differential Constitutive Models
+        - '- Section: 6.3 Differential Constitutive Models: Time-Dependent Behavior:':
+            subsections:
+            - 6.3a Introduction to Time-Dependent Behavior
+            - 6.3b Time-Dependent Behavior in Differential Constitutive Models
+            - 6.3c Case Studies of Time-Dependent Behavior
+        - '- Section: 6.4 Differential Constitutive Models: Multiscale Approaches:':
+            subsections:
+            - 6.4a Introduction to Multiscale Approaches
+            - 6.4b Multiscale Approaches in Differential Constitutive Models
+            - 6.4c Case Studies of Multiscale Approaches
+    - '- Chapter 7: Integral Constitutive Models:':
+        sections:
+        - '- Section: 7.1 Integral Constitutive Models: Principles and Applications:':
+            subsections:
+            - 7.1a Introduction to Integral Constitutive Models
+            - 7.1b Principles of Integral Constitutive Models
+            - 7.1c Applications of Integral Constitutive Models
+        - '- Section: 7.2 Integral Constitutive Models: Linear and Nonlinear Examples:':
+            subsections:
+            - 7.2a Linear Examples of Integral Constitutive Models
+            - 7.2b Nonlinear Examples of Integral Constitutive Models
+            - 7.2c Case Studies of Integral Constitutive Models
+        - '- Section: 7.3 Integral Constitutive Models: Time-Dependent Behavior:':
+            subsections:
+            - 7.3a Introduction to Time-Dependent Behavior
+            - 7.3b Time-Dependent Behavior in Integral Constitutive Models
+            - 7.3c Case Studies of Time-Dependent Behavior
+        - '- Section: 7.4 Integral Constitutive Models: Multiscale Approaches:':
+            subsections:
+            - 7.4a Introduction to Multiscale Approaches
+            - 7.4b Multiscale Approaches in Integral Constitutive Models
+            - 7.4c Case Studies of Multiscale Approaches
+    - '- Chapter 8: Gels and Gel Rheology:':
+        sections:
+        - '- Section: 8.1 Gels and Gel Rheology I: Fundamentals and Characterization:':
+            subsections:
+            - 8.1a Introduction to Gels and Gel Rheology
+            - 8.1b Fundamentals of Gels and Gel Rheology
+            - 8.1c Characterization of Gels and Gel Rheology
+        - '- Section: 8.2 Gels and Gel Rheology II: Mechanical Properties and Applications:':
+            subsections:
+            - 8.2a Mechanical Properties of Gels and Gel Rheology
+            - 8.2b Applications of Gels and Gel Rheology
+            - 8.2c Case Studies of Gels and Gel Rheology
+        - '- Section: 8.3 Gels and Gel Rheology III: Microstructural Evolution and Aging:':
+            subsections:
+            - 8.3a Microstructural Evolution in Gels and Gel Rheology
+            - 8.3b Aging in Gels and Gel Rheology
+            - 8.3c Case Studies of Microstructural Evolution and Aging
+    - '- Chapter 9: Suspension Rheology:':
+        sections:
+        - '- Section: 9.1 Suspension Rheology I: Fundamentals and Particle Interactions:':
+            subsections:
+            - 9.1a Introduction to Suspension Rheology
+            - 9.1b Fundamentals of Suspension Rheology
+            - 9.1c Particle Interactions in Suspension Rheology
+        - '- Section: 9.2 Suspension Rheology II: Flow and Deformation Behavior:':
+            subsections:
+            - 9.2a Flow in Suspension Rheology
+            - 9.2b Deformation Behavior in Suspension Rheology
+            - 9.2c Case Studies of Flow and Deformation Behavior
+        - '- Section: 9.3 Suspension Rheology III: Shear Thickening and Jamming Phenomena:':
+            subsections:
+            - 9.3a Shear Thickening in Suspension Rheology
+            - 9.3b Jamming Phenomena in Suspension Rheology
+            - 9.3c Case Studies of Shear Thickening and Jamming Phenomena
+        - '- Section: 9.4 Suspension Rheology IV: Applications in Industrial Processes:':
+            subsections:
+            - 9.4a Introduction to Industrial Processes
+            - 9.4b Suspension Rheology in Industrial Processes
+            - 9.4c Case Studies of Industrial Processes
+    - '- Chapter 10: In Class Project Presentations:':
+        sections:
+        - '- Section: 10.1 In Class Project Presentations: Guidelines and Expectations:':
+            subsections:
+            - 10.1a Introduction to In Class Project Presentations
+            - 10.1b Guidelines for In Class Project Presentations
+            - 10.1c Expectations for In Class Project Presentations
+        - '- Section: 10.2 In Class Project Presentations: Successful Presenting Techniques:':
+            subsections:
+            - 10.2a Introduction to Presenting Techniques
+            - 10.2b Successful Presenting Techniques
+            - 10.2c Case Studies of Successful Presenting Techniques
+        - '- Section: 10.3 Last Day: In Class Project Presentations: Reflections and Feedback:':
+            subsections:
+            - 10.3a Reflections on In Class Project Presentations
+            - 10.3b Feedback on In Class Project Presentations
+            - 10.3c Case Studies of Reflections and Feedback
+    - '- Chapter 11: Advanced Polymer Physics:':
+        sections:
+        - '- Section: 11.1 Advanced Polymer Physics: Principles and Applications:':
+            subsections:
+            - 11.1a Introduction to Advanced Polymer Physics
+            - 11.1b Principles of Advanced Polymer Physics
+            - 11.1c Applications of Advanced Polymer Physics
+        - '- Section: 11.2 Advanced Polymer Physics: Experimental Techniques:':
+            subsections:
+            - 11.2a Introduction to Experimental Techniques
+            - 11.2b Experimental Techniques in Advanced Polymer Physics
+            - 11.2c Case Studies of Experimental Techniques
+        - '- Section: 11.3 Advanced Polymer Physics: Theoretical Models:':
+            subsections:
+            - 11.3a Introduction to Theoretical Models
+            - 11.3b Theoretical Models in Advanced Polymer Physics
+            - 11.3c Case Studies of Theoretical Models
+        - '- Section: 11.4 Advanced Polymer Physics: Future Directions:':
+            subsections:
+            - 11.4a Introduction to Future Directions
+            - 11.4b Future Directions in Advanced Polymer Physics
+            - 11.4c Case Studies of Future Directions
+    - '- Chapter 12: Advanced Rheology:':
+        sections:
+        - '- Section: 12.1 Advanced Rheology: Principles and Applications:':
+            subsections:
+            - 12.1a Introduction to Advanced Rheology
+            - 12.1b Principles of Advanced Rheology
+            - 12.1c Applications of Advanced Rheology
+        - '- Section: 12.2 Advanced Rheology: Experimental Techniques:':
+            subsections:
+            - 12.2a Introduction to Experimental Techniques
+            - 12.2b Experimental Techniques in Advanced Rheology
+            - 12.2c Case Studies of Experimental Techniques
+        - '- Section: 12.3 Advanced Rheology: Theoretical Models:':
+            subsections:
+            - 12.3a Introduction to Theoretical Models
+            - 12.3b Theoretical Models in Advanced Rheology
+            - 12.3c Case Studies of Theoretical Models
+        - '- Section: 12.4 Advanced Rheology: Future Directions:':
+            subsections:
+            - 12.4a Introduction to Future Directions
+            - 12.4b Future Directions in Advanced Rheology
+            - 12.4c Case Studies of Future Directions
+    - '- Chapter 13: Advanced Suspension Rheology:':
+        sections:
+        - '- Section: 13.1 Advanced Suspension Rheology: Principles and Applications:':
+            subsections:
+            - 13.1a Introduction to Advanced Suspension Rheology
+            - 13.1b Principles of Advanced Suspension Rheology
+            - 13.1c Applications of Advanced Suspension Rheology
+        - '- Section: 13.2 Advanced Suspension Rheology: Experimental Techniques:':
+            subsections:
+            - 13.2a Introduction to Experimental Techniques
+            - 13.2b Experimental Techniques in Advanced Suspension Rheology
+            - 13.2c Case Studies of Experimental Techniques
+        - '- Section: 13.3 Advanced Suspension Rheology: Theoretical Models:':
+            subsections:
+            - 13.3a Introduction to Theoretical Models
+            - 13.3b Theoretical Models in Advanced Suspension Rheology
+            - 13.3c Case Studies of Theoretical Models
+        - '- Section: 13.4 Advanced Suspension Rheology: Future Directions:':
+            subsections:
+            - 13.4a Introduction to Future Directions
+            - 13.4b Future Directions in Advanced Suspension Rheology
+            - 13.4c Case Studies of Future Directions
+    - '- Chapter 14: Advanced Gels and Gel Rheology:':
+        sections:
+        - '- Section: 14.1 Advanced Gels and Gel Rheology: Principles and Applications:':
+            subsections:
+            - 14.1a Introduction to Advanced Gels and Gel Rheology
+            - 14.1b Principles of Advanced Gels and Gel Rheology
+            - 14.1c Applications of Advanced Gels and Gel Rheology
+        - '- Section: 14.2 Advanced Gels and Gel Rheology: Experimental Techniques:':
+            subsections:
+            - 14.2a Introduction to Experimental Techniques
+            - 14.2b Experimental Techniques in Advanced Gels and Gel Rheology
+            - 14.2c Case Studies of Experimental Techniques
+        - '- Section: 14.3 Advanced Gels and Gel Rheology: Theoretical Models:':
+            subsections:
+            - 14.3a Introduction to Theoretical Models
+            - 14.3b Theoretical Models in Advanced Gels and Gel Rheology
+            - 14.3c Case Studies of Theoretical Models
+        - '- Section: 14.4 Advanced Gels and Gel Rheology: Future Directions:':
+            subsections:
+            - 14.4a Introduction to Future Directions
+            - 14.4b Future Directions in Advanced Gels and Gel Rheology
+            - 14.4c Case Studies of Future Directions
+    - '- Chapter 15: Advanced Ordered Fluid Expansions:':
+        sections:
+        - '- Section: 15.1 Advanced Ordered Fluid Expansions: Principles and Applications:':
+            subsections:
+            - 15.1a Introduction to Advanced Ordered Fluid Expansions
+            - 15.1b Principles of Advanced Ordered Fluid Expansions
+            - 15.1c Applications of Advanced Ordered Fluid Expansions
+        - '- Section: 15.2 Advanced Ordered Fluid Expansions: Experimental Techniques:':
+            subsections:
+            - 15.2a Introduction to Experimental Techniques
+            - 15.2b Experimental Techniques in Advanced Ordered Fluid Expansions
+            - 15.2c Case Studies of Experimental Techniques
+        - '- Section: 15.3 Advanced Ordered Fluid Expansions: Theoretical Models:':
+            subsections:
+            - 15.3a Introduction to Theoretical Models
+            - 15.3b Theoretical Models in Advanced Ordered Fluid Expansions
+            - 15.3c Case Studies of Theoretical Models
+        - '- Section: 15.4 Advanced Ordered Fluid Expansions: Future Directions:':
+            subsections:
+            - 15.4a Introduction to Future Directions
+            - 15.4b Future Directions in Advanced Ordered Fluid Expansions
+            - 15.4c Case Studies of Future Directions
+    - '- Chapter 16: Advanced Differential Constitutive Models:':
+        sections:
+        - '- Section: 16.1 Advanced Differential Constitutive Models: Principles and Applications:':
+            subsections:
+            - 16.1a Introduction to Advanced Differential Constitutive Models
+            - 16.1b Principles of Advanced Differential Constitutive Models
+            - 16.1c Applications of Advanced Differential Constitutive Models
+        - '- Section: 16.2 Advanced Differential Constitutive Models: Experimental Techniques:':
+            subsections:
+            - 16.2a Introduction to Experimental Techniques
+            - 16.2b Experimental Techniques in Advanced Differential Constitutive
+              Models
+            - 16.2c Case Studies of Experimental Techniques
+        - '- Section: 16.3 Advanced Differential Constitutive Models: Theoretical Models:':
+            subsections:
+            - 16.3a Introduction to Theoretical Models
+            - 16.3b Theoretical Models in Advanced Differential Constitutive Models
+            - 16.3c Case Studies of Theoretical Models
+        - '- Section: 16.4 Advanced Differential Constitutive Models: Future Directions:':
+            subsections:
+            - 16.4a Introduction to Future Directions
+            - 16.4b Future Directions in Advanced Differential Constitutive Models
+            - 16.4c Case Studies of Future Directions
+    - '- Chapter 17: Advanced Integral Constitutive Models:':
+        sections:
+        - '- Section: 17.1 Advanced Integral Constitutive Models: Principles and Applications:':
+            subsections:
+            - 17.1a Introduction to Advanced Integral Constitutive Models
+            - 17.1b Principles of Advanced Integral Constitutive Models
+            - 17.1c Applications of Advanced Integral Constitutive Models
+        - '- Section: 17.2 Advanced Integral Constitutive Models: Experimental Techniques:':
+            subsections:
+            - 17.2a Introduction to Experimental Techniques
+            - 17.2b Experimental Techniques in Advanced Integral Constitutive Models
+            - 17.2c Case Studies of Experimental Techniques
+        - '- Section: 17.3 Advanced Integral Constitutive Models: Theoretical Models:':
+            subsections:
+            - 17.3a Introduction to Theoretical Models
+            - 17.3b Theoretical Models in Advanced Integral Constitutive Models
+            - 17.3c Case Studies of Theoretical Models
+        - '- Section: 17.4':
+            subsections: []

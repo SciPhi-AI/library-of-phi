@@ -1,0 +1,347 @@
+textbook:
+  'Statistical Physics of Fields: From Particles to Fields":':
+    chapters:
+    - '- Chapter 1: Collective Behavior, from Particles to Fields:':
+        sections:
+        - '- Section: 1.1 Introduction:':
+            subsections:
+            - 1.1a Overview of Statistical Mechanics
+            - 1.1b Scope and Objectives of the Course
+        - '- Section: 1.2 Phonons and Elasticity:':
+            subsections:
+            - 1.2a Lattice Dynamics and Phonons
+            - 1.2b Elasticity and Mechanical Waves
+        - '- Section: 1.3 Phase Transitions:':
+            subsections:
+            - 1.3a First and Second Order Phase Transitions
+            - 1.3b Critical Phenomena and Universality
+            - 1.3c Scaling Theory and the Renormalization Group
+        - '- Section: 1.4 Critical Behavior:':
+            subsections:
+            - 1.4a Critical Exponents and Scaling Laws
+            - 1.4b Scaling Relations and Fisher's Hypothesis
+        - '- Section: 1.5 The Landau-Ginzburg Approach:':
+            subsections:
+            - 1.5a Landau Theory of Phase Transitions
+            - 1.5b Ginzburg Criterion and Order Parameter
+            - 1.5c Mean Field Approximation
+        - '- Section: 1.6 Saddle Point Approximation:':
+            subsections:
+            - 1.6a Path Integral Formulation
+            - 1.6b Stationary Phase Method
+        - '- Section: 1.7 Mean-field Theory:':
+            subsections:
+            - 1.7a Mean-field Approximation for Phase Transitions
+            - 1.7b Mean-field Models of Ferromagnetism and Superconductivity
+        - '- Section: 1.8 Spontaneous Symmetry Breaking:':
+            subsections:
+            - 1.8a Symmetry Breaking and Symmetry Restoration
+            - 1.8b Order Parameter and Broken Symmetry
+        - '- Section: 1.9 Goldstone Modes:':
+            subsections:
+            - 1.9a Spontaneous Symmetry Breaking and Goldstone Theorem
+            - 1.9b Massless Excitations and Goldstone Modes
+    - '- Chapter 2: The Scaling Hypothesis:':
+        sections:
+        - '- Section: 2.1 Perturbative Renormalization Group:':
+            subsections:
+            - 2.1a Introduction to Renormalization Group
+            - 2.1b Wilsonian Renormalization Group
+        - '- Section: 2.2 Position Space Renormalization Group:':
+            subsections:
+            - 2.2a Block Spin Transformations
+            - 2.2b Kadanoff's Real Space Renormalization Group
+        - '- Section: 2.3 Series Expansions:':
+            subsections:
+            - 2.3a High and Low Temperature Expansions
+            - 2.3b Field Theoretic Methods for Series Expansions
+        - '- Section: 2.4 Continuous Spins at Low Temperatures:':
+            subsections:
+            - 2.4a Continuous Symmetry Breaking
+            - 2.4b Spin-wave Theory and Bogoliubov Transformation
+            - 2.4c Low Temperature Expansions for Continuous Spins
+        - '- Section: 2.5 Dissipative Dynamics:':
+            subsections:
+            - 2.5a Langevin Equation and Brownian Motion
+            - 2.5b Fluctuation-Dissipation Theorem
+            - 2.5c Dynamic Renormalization Group
+            - 2.5d Stochastic Field Theory
+    - '- Chapter 3: Problem Sets:':
+        sections:
+        - '- Section: 3.1 Phase Transitions:':
+            subsections:
+            - 3.1a Landau Theory of Phase Transitions
+            - 3.1b Critical Phenomena and Scaling Laws
+            - 3.1c Mean-field Approximation
+            - 3.1d Renormalization Group and Universality
+        - '- Section: 3.2 Fluctuations:':
+            subsections:
+            - 3.2a Fluctuation-Dissipation Theorem
+            - 3.2b Langevin Equation and Fokker-Planck Equation
+            - 3.2c Gaussian Fluctuations and Central Limit Theorem
+        - '- Section: 3.3 Scaling, Perturbation, & Renormalization:':
+            subsections:
+            - 3.3a Scaling Theory and the Renormalization Group
+            - 3.3b Perturbation Theory and Feynman Diagrams
+            - 3.3c Renormalization and the Callan-Symanzik Equation
+        - '- Section: 3.4 Transfer Matrices & Position Space Renormalization:':
+            subsections:
+            - 3.4a Transfer Matrices and Partition Function
+            - 3.4b Kadanoff's Real Space Renormalization Group
+            - 3.4c Block Spin Transformations
+        - '- Section: 3.5 Duality: Potts Models & Percolation:':
+            subsections:
+            - 3.5a Duality Transformations and Self-Duality
+            - 3.5b Potts Models and Phase Transitions
+            - 3.5c Percolation and Cluster Size Distribution
+        - '- Section: 3.6 Beyond Spin Waves:':
+            subsections:
+            - 3.6a Nonlinear Sigma Models and Topological Defects
+            - 3.6b Quantum Phase Transitions and Quantum Criticality
+            - 3.6c Gauge Field Theories and Confinement
+    - '- Chapter 4: Exams:':
+        sections:
+        - '- Section: 4.1 Test 1 Review Problems:':
+            subsections:
+            - 4.1a Landau Theory and Order Parameters
+            - 4.1b Critical Exponents and Scaling Relations
+        - '- Section: 4.2 Test 2 Review Problems:':
+            subsections:
+            - 4.2a Mean-field Theory and Phase Transitions
+            - 4.2b Renormalization Group and Universality
+        - '- Section: 4.3 Test 3 Review Problems:':
+            subsections:
+            - 4.3a Fluctuation-Dissipation Theorem and Langevin Equation
+            - 4.3b Series Expansions and Low Temperature Expansions
+    - '- Chapter 5: Calendar:':
+        sections:
+        - '- Section: 5.1 Introduction, Phonons and Elasticity:':
+            subsections:
+            - 5.1a Overview of the Course and Statistical Mechanics
+            - 5.1b Lattice Dynamics and Phonons
+            - 5.1c Elasticity and Mechanical Waves
+        - '- Section: 5.2 Phase Transitions, Critical Behavior:':
+            subsections:
+            - 5.2a First and Second Order Phase Transitions
+            - 5.2b Critical Phenomena and Scaling Laws
+            - 5.2c Critical Exponents and Scaling Relations
+        - '- Section: 5.3 The Landau-Ginzburg Approach:':
+            subsections:
+            - 5.3a Landau Theory of Phase Transitions
+            - 5.3b Ginzburg Criterion and Order Parameter
+            - 5.3c Mean-field Approximation
+        - '- Section: 5.4 Spontaneous Symmetry Breaking and Goldstone Modes:':
+            subsections:
+            - 5.4a Symmetry Breaking and Symmetry Restoration
+            - 5.4b Order Parameter and Broken Symmetry
+            - 5.4c Spontaneous Symmetry Breaking and Goldstone Theorem
+            - 5.4d Massless Excitations and Goldstone Modes
+        - '- Section: 5.5 Perturbative Renormalization Group:':
+            subsections:
+            - 5.5a Introduction to Renormalization Group
+            - 5.5b Wilsonian Renormalization Group
+        - '- Section: 5.6 Position Space Renormalization Group:':
+            subsections:
+            - 5.6a Block Spin Transformations
+            - 5.6b Kadanoff's Real Space Renormalization Group
+        - '- Section: 5.7 Series Expansions:':
+            subsections:
+            - 5.7a High and Low Temperature Expansions
+            - 5.7b Field Theoretic Methods for Series Expansions
+        - '- Section: 5.8 Continuous Spins at Low Temperatures:':
+            subsections:
+            - 5.8a Continuous Symmetry Breaking
+            - 5.8b Spin-wave Theory and Bogoliubov Transformation
+            - 5.8c Low Temperature Expansions for Continuous Spins
+        - '- Section: 5.9 Dissipative Dynamics:':
+            subsections:
+            - 5.9a Langevin Equation and Brownian Motion
+            - 5.9b Fluctuation-Dissipation Theorem
+            - 5.9c Dynamic Renormalization Group
+            - 5.9d Stochastic Field Theory
+    - '- Chapter 6: Final Project:':
+        sections:
+        - '- Section: 6.1 Write a brief paper on a subject of your choice:':
+            subsections:
+            - 6.1a Paper Guidelines and Requirements
+            - 6.1b Choosing a Suitable Topic
+        - '- Section: 6.2 Relevant to the topics of this course:':
+            subsections:
+            - 6.2a Topics Related to Phase Transitions
+            - 6.2b Topics Related to Renormalization Group
+            - 6.2c Topics Related to Critical Phenomena
+            - 6.2d Topics Related to Fluctuations and Dynamics
+    - '- Chapter 7: Advanced Topics in Statistical Physics:':
+        sections:
+        - '- Section: 7.1 Quantum Statistical Mechanics:':
+            subsections:
+            - 7.1a Quantum Partition Function
+            - 7.1b Quantum Gases
+            - 7.1c Quantum Phase Transitions
+        - '- Section: 7.2 Non-equilibrium Statistical Mechanics:':
+            subsections:
+            - 7.2a Master Equation
+            - 7.2b Boltzmann Equation
+            - 7.2c Irreversible Processes
+        - '- Section: 7.3 Statistical Field Theory:':
+            subsections:
+            - 7.3a Path Integral Formulation
+            - 7.3b Quantum Field Theory
+            - 7.3c Quantum Electrodynamics
+        - '- Section: 7.4 Monte Carlo Methods:':
+            subsections:
+            - 7.4a Metropolis Algorithm
+            - 7.4b Importance Sampling
+            - 7.4c Markov Chain Monte Carlo
+    - '- Chapter 8: Advanced Topics in Phase Transitions:':
+        sections:
+        - '- Section: 8.1 Topological Phase Transitions:':
+            subsections:
+            - 8.1a Topological Order
+            - 8.1b Quantum Hall Effect
+            - 8.1c Topological Insulators
+        - '- Section: 8.2 Quantum Phase Transitions:':
+            subsections:
+            - 8.2a Quantum Critical Point
+            - 8.2b Superfluid-Mott Insulator Transition
+            - 8.2c Quantum Spin Liquids
+        - '- Section: 8.3 Disordered Systems:':
+            subsections:
+            - 8.3a Anderson Localization
+            - 8.3b Spin Glasses
+            - 8.3c Random Field Ising Model
+        - '- Section: 8.4 Active Matter:':
+            subsections:
+            - 8.4a Active Brownian Particles
+            - 8.4b Active Nematics
+            - 8.4c Active Turbulence
+    - '- Chapter 9: Advanced Topics in Renormalization Group:':
+        sections:
+        - '- Section: 9.1 Functional Renormalization Group:':
+            subsections:
+            - 9.1a Wetterich Equation
+            - 9.1b Non-perturbative Renormalization Group
+            - 9.1c Functional Renormalization Group for Disordered Systems
+        - '- Section: 9.2 Conformal Field Theory:':
+            subsections:
+            - 9.2a Conformal Symmetry
+            - 9.2b Operator Product Expansion
+            - 9.2c Central Charge
+        - '- Section: 9.3 Quantum Field Theory:':
+            subsections:
+            - 9.3a Feynman Diagrams
+            - 9.3b Renormalization in Quantum Field Theory
+            - 9.3c Gauge Theories
+        - '- Section: 9.4 Quantum Gravity:':
+            subsections:
+            - 9.4a Asymptotic Safety
+            - 9.4b Quantum Gravity and the Renormalization Group
+            - 9.4c Black Holes and Quantum Gravity
+    - '- Chapter 10: Advanced Topics in Fluctuations and Dynamics:':
+        sections:
+        - '- Section: 10.1 Stochastic Processes:':
+            subsections:
+            - 10.1a Markov Processes
+            - 10.1b Stochastic Differential Equations
+            - 10.1c Fokker-Planck Equation
+        - '- Section: 10.2 Nonlinear Dynamics:':
+            subsections:
+            - 10.2a Bifurcations
+            - 10.2b Chaos
+            - 10.2c Fractals
+        - '- Section: 10.3 Complex Systems:':
+            subsections:
+            - 10.3a Networks
+            - 10.3b Self-organized Criticality
+            - 10.3c Synchronization
+        - '- Section: 10.4 Biological Physics:':
+            subsections:
+            - 10.4a Biopolymers
+            - 10.4b Cellular Biophysics
+            - 10.4c Evolutionary Dynamics
+    - '- Chapter 11: Advanced Topics in Quantum Mechanics:':
+        sections:
+        - '- Section: 11.1 Quantum Entanglement:':
+            subsections:
+            - 11.1a Bell's Inequalities
+            - 11.1b Quantum Teleportation
+            - 11.1c Quantum Cryptography
+        - '- Section: 11.2 Quantum Computation:':
+            subsections:
+            - 11.2a Quantum Gates
+            - 11.2b Quantum Algorithms
+            - 11.2c Quantum Error Correction
+        - '- Section: 11.3 Quantum Information:':
+            subsections:
+            - 11.3a Quantum Bits
+            - 11.3b Quantum Entropy
+            - 11.3c Quantum Channels
+        - '- Section: 11.4 Quantum Thermodynamics:':
+            subsections:
+            - 11.4a Quantum Heat Engines
+            - 11.4b Quantum Refrigerators
+            - 11.4c Quantum Carnot Cycle
+    - '- Chapter 12: Advanced Topics in Condensed Matter Physics:':
+        sections:
+        - '- Section: 12.1 Superconductivity:':
+            subsections:
+            - 12.1a BCS Theory
+            - 12.1b Cooper Pairs
+            - 12.1c Josephson Effect
+        - '- Section: 12.2 Magnetism:':
+            subsections:
+            - 12.2a Ferromagnetism
+            - 12.2b Antiferromagnetism
+            - 12.2c Spin Waves
+        - '- Section: 12.3 Semiconductors:':
+            subsections:
+            - 12.3a Band Theory
+            - 12.3b p-n Junction
+            - 12.3c Semiconductor Devices
+        - '- Section: 12.4 Quantum Hall Effect:':
+            subsections:
+            - 12.4a Integer Quantum Hall Effect
+            - 12.4b Fractional Quantum Hall Effect
+            - 12.4c Topological Quantum Computation
+    - '- Chapter 13: Advanced Topics in Quantum Field Theory:':
+        sections:
+        - '- Section: 13.1 Gauge Theories:':
+            subsections:
+            - 13.1a Quantum Electrodynamics
+            - 13.1b Quantum Chromodynamics
+            - 13.1c Electroweak Theory
+        - '- Section: 13.2 Supersymmetry:':
+            subsections:
+            - 13.2a Superspace
+            - 13.2b Superfields
+            - 13.2c Supersymmetric Quantum Mechanics
+        - '- Section: 13.3 String Theory:':
+            subsections:
+            - 13.3a Bosonic Strings
+            - 13.3b Superstrings
+            - 13.3c M-theory
+        - '- Section: 13.4 Quantum Gravity:':
+            subsections:
+            - 13.4a Loop Quantum Gravity
+            - 13.4b Black Holes and Hawking Radiation
+            - 13.4c Cosmology and the Big Bang
+    - '- Chapter 14: Advanced Topics in Statistical Field Theory:':
+        sections:
+        - '- Section: 14.1 Quantum Field Theory at Finite Temperature:':
+            subsections:
+            - 14.1a Matsubara Frequencies
+            - 14.1b Thermal Field Theory
+            - 14.1c Phase Transitions in the Early Universe
+        - '- Section: 14.2 Quantum Field Theory in Curved Spacetime:':
+            subsections:
+            - 14.2a Hawking Radiation
+            - 14.2b Unruh Effect
+            - 14.2c Quantum Fields in de Sitter Space
+        - '- Section: 14.3 Quantum Field Theory in Condensed Matter:':
+            subsections:
+            - 14.3a Quantum Hall Effect
+            - 14.3b Topological Insulators
+            - 14.3c Quantum Spin Liquids
+        - '- Section: 14.4 Quantum Field Theory in Particle Physics:':
+            subsections:
+            - 14.4a

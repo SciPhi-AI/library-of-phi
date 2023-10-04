@@ -1,0 +1,144 @@
+textbook:
+  'Sailing Yacht Design: A Comprehensive Guide to Designing and Building Sailing Yachts":':
+    chapters:
+    - '- Chapter 1: Preliminary Design of a Sloop Rigged Yacht:':
+        sections:
+        - '- Section: 1.1 Hull Design:':
+            subsections:
+            - 1.1a Introduction to Hull Design
+            - 1.1b Hull Types and Shapes
+            - 1.1c Hull Materials and Construction Techniques
+            - 1.1d Hull Design Software and Tools
+        - '- Section: 1.2 Sail Design:':
+            subsections:
+            - 1.2a Introduction to Sail Design
+            - 1.2b Sail Types and Configurations
+            - 1.2c Sail Materials and Construction Techniques
+            - 1.2d Sail Design Software and Tools
+        - '- Section: 1.3 Rigging Design:':
+            subsections:
+            - 1.3a Introduction to Rigging Design
+            - 1.3b Rigging Components and Systems
+            - 1.3c Rigging Materials and Construction Techniques
+            - 1.3d Rigging Design Software and Tools
+        - '- Section: 1.4 Stability Analysis:':
+            subsections:
+            - 1.4a Introduction to Stability Analysis
+            - 1.4b Static Stability and Metacentric Height
+            - 1.4c Dynamic Stability and Motion Comfort
+            - 1.4d Stability Analysis Tools and Techniques
+        - '- Section: 1.5 Performance Prediction:':
+            subsections:
+            - 1.5a Introduction to Performance Prediction
+            - 1.5b Factors Affecting Sailing Performance
+            - 1.5c Performance Prediction Models and Software
+            - 1.5d Performance Optimization Techniques
+        - '- Section: 1.6 Weight Estimation:':
+            subsections:
+            - 1.6a Introduction to Weight Estimation
+            - 1.6b Factors Affecting Yacht Weight
+            - 1.6c Weight Estimation Methods and Formulas
+            - 1.6d Weight Distribution and Balance
+        - '- Section: 1.7 Cost Estimation:':
+            subsections:
+            - 1.7a Introduction to Cost Estimation
+            - 1.7b Factors Affecting Yacht Cost
+            - 1.7c Cost Estimation Methods and Models
+            - 1.7d Budgeting and Cost Control in Yacht Design
+    - '- Chapter 2: Sailing Dinghy Design:':
+        sections:
+        - '- Section: 2.1 Hull Design:':
+            subsections:
+            - 2.1a Introduction to Dinghy Hull Design
+            - 2.1b Dinghy Hull Types and Shapes
+            - 2.1c Dinghy Hull Materials and Construction Techniques
+            - 2.1d Dinghy Hull Design Considerations
+        - '- Section: 2.2 Sail Design:':
+            subsections:
+            - 2.2a Introduction to Dinghy Sail Design
+            - 2.2b Dinghy Sail Types and Configurations
+            - 2.2c Dinghy Sail Materials and Construction Techniques
+            - 2.2d Dinghy Sail Design Considerations
+        - '- Section: 2.3 Rigging Design:':
+            subsections:
+            - 2.3a Introduction to Dinghy Rigging Design
+            - 2.3b Dinghy Rigging Components and Systems
+            - 2.3c Dinghy Rigging Materials and Construction Techniques
+            - 2.3d Dinghy Rigging Design Considerations
+        - '- Section: 2.4 Stability Analysis:':
+            subsections:
+            - 2.4a Introduction to Dinghy Stability Analysis
+            - 2.4b Dinghy Stability Considerations
+            - 2.4c Stability Analysis Tools and Techniques
+        - '- Section: 2.5 Performance Prediction:':
+            subsections:
+            - 2.5a Introduction to Dinghy Performance Prediction
+            - 2.5b Factors Affecting Dinghy Performance
+            - 2.5c Performance Prediction Models and Software
+            - 2.5d Performance Optimization Techniques
+        - '- Section: 2.6 Weight Estimation:':
+            subsections:
+            - 2.6a Introduction to Dinghy Weight Estimation
+            - 2.6b Factors Affecting Dinghy Weight
+            - 2.6c Weight Estimation Methods and Formulas
+            - 2.6d Weight Distribution and Balance
+        - '- Section: 2.7 Cost Estimation:':
+            subsections:
+            - 2.7a Introduction to Dinghy Cost Estimation
+            - 2.7b Factors Affecting Dinghy Cost
+            - 2.7c Cost Estimation Methods and Models
+            - 2.7d Budgeting and Cost Control in Dinghy Design
+    - '- Chapter 3: Hydrostatics, Small and Large Angle Stability Analysis:':
+        sections:
+        - '- Section: 3.1 Buoyancy and Archimedes'' Principle:':
+            subsections:
+            - 3.1a Introduction to Buoyancy and Archimedes' Principle
+            - 3.1b Buoyancy and Displacement Calculation
+            - 3.1c Archimedes' Principle and Floating Objects
+        - '- Section: 3.2 Hydrostatic Forces and Moments:':
+            subsections:
+            - 3.2a Introduction to Hydrostatic Forces and Moments
+            - 3.2b Pressure Distribution in Fluids
+            - 3.2c Hydrostatic Forces and Moments Calculation
+            - 3.2d Buoyancy and Stability
+        - '- Section: 3.3 Small Angle Stability Analysis:':
+            subsections:
+            - 3.3a Introduction to Small Angle Stability Analysis
+            - 3.3b Metacentric Height and Stability
+            - 3.3c Small Angle Stability Calculation
+            - 3.3d Stability Criteria and Stability Indexes
+        - '- Section: 3.4 Large Angle Stability Analysis:':
+            subsections:
+            - 3.4a Introduction to Large Angle Stability Analysis
+            - 3.4b Capsizing and Stability
+            - 3.4c Large Angle Stability Calculation
+            - 3.4d Stability Criteria and Stability Indexes
+        - '- Section: 3.5 Capsizing and Righting Moments:':
+            subsections:
+            - 3.5a Introduction to Capsizing and Righting Moments
+            - 3.5b Factors Affecting Capsizing and Righting Moments
+            - 3.5c Capsizing and Righting Moments Calculation
+            - 3.5d Stability Improvement Techniques
+        - '- Section: 3.6 Dynamic Stability:':
+            subsections:
+            - 3.6a Introduction to Dynamic Stability
+            - 3.6b Waves and Dynamic Stability
+            - 3.6c Dynamic Stability Calculation
+            - 3.6d Motion Comfort and Seaworthiness
+    - '- Chapter 4: Detailed Hull Design:':
+        sections:
+        - '- Section: 4.1 Hull Form Parameters:':
+            subsections:
+            - 4.1a Introduction to Hull Form Parameters
+            - 4.1b Hull Dimensions and Proportions
+            - 4.1c Hull Shape and Fairing
+            - 4.1d Hull Form Optimization
+        - '- Section: 4.2 Resistance and Propulsion:':
+            subsections:
+            - 4.2a Introduction to Resistance and Propulsion
+            - 4.2b Hull Resistance Calculation
+            - 4.2c Propulsion Systems and Efficiency
+            - 4.2d Propeller Selection and Design
+        - '- Section: 4.3 Keel and Rudder Design:':
+            subsections:
+            - 4.3a Introduction to Keel and Rudder Design

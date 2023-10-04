@@ -1,0 +1,375 @@
+textbook:
+  'Astrodynamics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Astrodynamics:':
+        sections:
+        - '- Section: 1.1 The History of Astrodynamics:':
+            subsections:
+            - 1.1a Early Developments
+            - 1.1b Modern Astrodynamics
+            - 1.1c Future Trends
+        - '- Section: 1.2 Basic Concepts and Terminology:':
+            subsections:
+            - 1.2a Key Terms in Astrodynamics
+            - 1.2b Basic Principles
+            - 1.2c Common Misconceptions
+        - '- Section: 1.3 Coordinate Systems and Frames of Reference:':
+            subsections:
+            - 1.3a Understanding Coordinate Systems
+            - 1.3b Different Frames of Reference
+            - 1.3c Applications in Astrodynamics
+        - '- Section: 1.4 Celestial Mechanics Overview:':
+            subsections:
+            - 1.4a Basic Concepts in Celestial Mechanics
+            - 1.4b Celestial Mechanics in Astrodynamics
+            - 1.4c Advanced Topics in Celestial Mechanics
+    - '- Chapter 2: The Two-Body Problem:':
+        sections:
+        - '- Section: 2.1 Kepler''s Laws:':
+            subsections:
+            - 2.1a Understanding Kepler's Laws
+            - 2.1b Applications of Kepler's Laws
+            - 2.1c Limitations of Kepler's Laws
+        - '- Section: 2.2 Orbital Elements:':
+            subsections:
+            - 2.2a Defining Orbital Elements
+            - 2.2b Calculating Orbital Elements
+            - 2.2c Orbital Elements in Practice
+        - '- Section: 2.3 Orbit Determination:':
+            subsections:
+            - 2.3a Basics of Orbit Determination
+            - 2.3b Techniques for Orbit Determination
+            - 2.3c Challenges in Orbit Determination
+        - '- Section: 2.4 Orbital Maneuvers:':
+            subsections:
+            - 2.4a Understanding Orbital Maneuvers
+            - 2.4b Planning and Executing Orbital Maneuvers
+            - 2.4c Case Studies of Orbital Maneuvers
+        - '- Section: 2.5 Orbital Transfers:':
+            subsections:
+            - 2.5a Basics of Orbital Transfers
+            - 2.5b Techniques for Orbital Transfers
+            - 2.5c Case Studies of Orbital Transfers
+        - '- Section: 2.6 Two-Body Problem Case Studies:':
+            subsections:
+            - '2.6a Case Study: Satellite Launch'
+            - '2.6b Case Study: Interplanetary Mission'
+            - '2.6c Case Study: Orbital Rendezvous'
+    - '- Chapter 3: Orbital Mechanics:':
+        sections:
+        - '- Section: 3.1 Barker''s Equation:':
+            subsections:
+            - 3.1a Understanding Barker's Equation
+            - 3.1b Solving Barker's Equation
+            - 3.1c Applications of Barker's Equation
+        - '- Section: 3.2 Kepler''s Equation:':
+            subsections:
+            - 3.2a Understanding Kepler's Equation
+            - 3.2b Solving Kepler's Equation
+            - 3.2c Applications of Kepler's Equation
+        - '- Section: 3.3 Initial-Value Problem:':
+            subsections:
+            - 3.3a Defining the Initial-Value Problem
+            - 3.3b Solving the Initial-Value Problem
+            - 3.3c Case Studies of the Initial-Value Problem
+        - '- Section: 3.4 Euler Angles:':
+            subsections:
+            - 3.4a Understanding Euler Angles
+            - 3.4b Calculating Euler Angles
+            - 3.4c Applications of Euler Angles
+        - '- Section: 3.5 Orbital Boundary-Value Problem:':
+            subsections:
+            - 3.5a Defining the Orbital Boundary-Value Problem
+            - 3.5b Solving the Orbital Boundary-Value Problem
+            - 3.5c Case Studies of the Orbital Boundary-Value Problem
+        - '- Section: 3.6 Orbital Mechanics Case Studies:':
+            subsections:
+            - '3.6a Case Study: Satellite Orbit Determination'
+            - '3.6b Case Study: Interplanetary Trajectory Design'
+            - '3.6c Case Study: Lunar Landing'
+    - '- Chapter 4: Lambert''s Theorem and Lagrange Time Equation:':
+        sections:
+        - '- Section: 4.1 Lambert''s Theorem:':
+            subsections:
+            - 4.1a Understanding Lambert's Theorem
+            - 4.1b Solving Lambert's Theorem
+            - 4.1c Applications of Lambert's Theorem
+        - '- Section: 4.2 Lagrange Time Equation:':
+            subsections:
+            - 4.2a Understanding the Lagrange Time Equation
+            - 4.2b Solving the Lagrange Time Equation
+            - 4.2c Applications of the Lagrange Time Equation
+        - '- Section: 4.3 Analytical and Geometric Properties of the Boundary-Value Problem:':
+            subsections:
+            - 4.3a Analytical Properties of the Boundary-Value Problem
+            - 4.3b Geometric Properties of the Boundary-Value Problem
+            - 4.3c Case Studies of the Boundary-Value Problem
+        - '- Section: 4.4 Lambert''s Theorem and Lagrange Time Equation Case Studies:':
+            subsections:
+            - '4.4a Case Study: Interplanetary Transfer'
+            - '4.4b Case Study: Lunar Landing'
+            - '4.4c Case Study: Satellite Rendezvous'
+    - '- Chapter 5: Transformation of the Boundary-Value Problem:':
+        sections:
+        - '- Section: 5.1 Hyperbolic Orbits:':
+            subsections:
+            - 5.1a Understanding Hyperbolic Orbits
+            - 5.1b Calculating Hyperbolic Orbits
+            - 5.1c Applications of Hyperbolic Orbits
+        - '- Section: 5.2 Patched Conics and Planetary Flybys:':
+            subsections:
+            - 5.2a Understanding Patched Conics
+            - 5.2b Planning and Executing Planetary Flybys
+            - 5.2c Case Studies of Planetary Flybys
+        - '- Section: 5.3 Gauss''s Method for the Time-Constrained Boundary-Value Problem:':
+            subsections:
+            - 5.3a Understanding Gauss's Method
+            - 5.3b Solving the Time-Constrained Boundary-Value Problem
+            - 5.3c Applications of Gauss's Method
+        - '- Section: 5.4 Hypergeometric Functions and Continued Fractions:':
+            subsections:
+            - 5.4a Understanding Hypergeometric Functions
+            - 5.4b Understanding Continued Fractions
+            - 5.4c Applications in Astrodynamics
+        - '- Section: 5.5 The Fundamental Ellipse of the Boundary-Value Problem:':
+            subsections:
+            - 5.5a Understanding the Fundamental Ellipse
+            - 5.5b Calculating the Fundamental Ellipse
+            - 5.5c Applications of the Fundamental Ellipse
+        - '- Section: 5.6 Boundary-Value Problem Transformation Case Studies:':
+            subsections:
+            - '5.6a Case Study: Interplanetary Transfer'
+            - '5.6b Case Study: Lunar Landing'
+            - '5.6c Case Study: Satellite Rendezvous'
+    - '- Chapter 6: Non-Singular ''Gauss-Like'' Method for the Boundary-Value Problem:':
+        sections:
+        - '- Section: 6.1 The Battin-Vaughan Algorithm:':
+            subsections:
+            - 6.1a Understanding the Battin-Vaughan Algorithm
+            - 6.1b Implementing the Battin-Vaughan Algorithm
+            - 6.1c Applications of the Battin-Vaughan Algorithm
+        - '- Section: 6.2 Preliminary Orbit Determination using Taylor Series:':
+            subsections:
+            - 6.2a Understanding Taylor Series
+            - 6.2b Using Taylor Series for Orbit Determination
+            - 6.2c Case Studies of Taylor Series in Orbit Determination
+        - '- Section: 6.3 The State Transition Matrix:':
+            subsections:
+            - 6.3a Understanding the State Transition Matrix
+            - 6.3b Calculating the State Transition Matrix
+            - 6.3c Applications of the State Transition Matrix
+        - '- Section: 6.4 Non-Singular ''Gauss-Like'' Method Case Studies:':
+            subsections:
+            - '6.4a Case Study: Interplanetary Transfer'
+            - '6.4b Case Study: Lunar Landing'
+            - '6.4c Case Study: Satellite Rendezvous'
+    - '- Chapter 7: Space Navigation and Estimation:':
+        sections:
+        - '- Section: 7.1 Powered Flight Guidance:':
+            subsections:
+            - 7.1a Understanding Powered Flight Guidance
+            - 7.1b Implementing Powered Flight Guidance
+            - 7.1c Case Studies of Powered Flight Guidance
+        - '- Section: 7.2 Space Navigation: Position Fix:':
+            subsections:
+            - 7.2a Understanding Position Fix
+            - 7.2b Implementing Position Fix
+            - 7.2c Case Studies of Position Fix
+        - '- Section: 7.3 Covariance, Information, and Estimator Matrices:':
+            subsections:
+            - 7.3a Understanding Covariance, Information, and Estimator Matrices
+            - 7.3b Calculating Covariance, Information, and Estimator Matrices
+            - 7.3c Applications of Covariance, Information, and Estimator Matrices
+        - '- Section: 7.4 Estimation of Position and Velocity:':
+            subsections:
+            - 7.4a Understanding Position and Velocity Estimation
+            - 7.4b Implementing Position and Velocity Estimation
+            - 7.4c Case Studies of Position and Velocity Estimation
+        - '- Section: 7.5 Space Navigation and Estimation Case Studies:':
+            subsections:
+            - '7.5a Case Study: Interplanetary Transfer'
+            - '7.5b Case Study: Lunar Landing'
+            - '7.5c Case Study: Satellite Rendezvous'
+    - '- Chapter 8: Three-Body Problem:':
+        sections:
+        - '- Section: 8.1 Basic Elements of the Three-Body Problem:':
+            subsections:
+            - 8.1a Understanding the Three-Body Problem
+            - 8.1b Solving the Three-Body Problem
+            - 8.1c Applications of the Three-Body Problem
+        - '- Section: 8.2 The Restricted Problem of Three Bodies:':
+            subsections:
+            - 8.2a Understanding the Restricted Problem of Three Bodies
+            - 8.2b Solving the Restricted Problem of Three Bodies
+            - 8.2c Applications of the Restricted Problem of Three Bodies
+        - '- Section: 8.3 The Clohessy-Wiltshire Equations of Relative Motion:':
+            subsections:
+            - 8.3a Understanding the Clohessy-Wiltshire Equations
+            - 8.3b Solving the Clohessy-Wiltshire Equations
+            - 8.3c Applications of the Clohessy-Wiltshire Equations
+        - '- Section: 8.4 Variation of Parameters:':
+            subsections:
+            - 8.4a Understanding Variation of Parameters
+            - 8.4b Implementing Variation of Parameters
+            - 8.4c Case Studies of Variation of Parameters
+        - '- Section: 8.5 Effect of Atmospheric Drag on Satellite Orbits:':
+            subsections:
+            - 8.5a Understanding Atmospheric Drag
+            - 8.5b Calculating the Effect of Atmospheric Drag
+            - 8.5c Case Studies of Atmospheric Drag
+        - '- Section: 8.6 Three-Body Problem Case Studies:':
+            subsections:
+            - '8.6a Case Study: Interplanetary Transfer'
+            - '8.6b Case Study: Lunar Landing'
+            - '8.6c Case Study: Satellite Rendezvous'
+    - '- Chapter 9: Perturbations in Satellite Orbits:':
+        sections:
+        - '- Section: 9.1 The Disturbing Function and Legendre Polynomials:':
+            subsections:
+            - 9.1a Understanding the Disturbing Function
+            - 9.1b Understanding Legendre Polynomials
+            - 9.1c Applications of the Disturbing Function and Legendre Polynomials
+        - '- Section: 9.2 Effect of J2 on Satellite Orbits:':
+            subsections:
+            - 9.2a Understanding J2
+            - 9.2b Calculating the Effect of J2
+            - 9.2c Case Studies of J2
+        - '- Section: 9.3 The Calculus of Variations and Lunar Landing Guidance:':
+            subsections:
+            - 9.3a Understanding the Calculus of Variations
+            - 9.3b Implementing Lunar Landing Guidance
+            - 9.3c Case Studies of Lunar Landing Guidance
+        - '- Section: 9.4 Powered Flight Guidance to Maximize Final Energy:':
+            subsections:
+            - 9.4a Understanding Powered Flight Guidance
+            - 9.4b Implementing Powered Flight Guidance
+            - 9.4c Case Studies of Powered Flight Guidance
+        - '- Section: 9.5 Runge-Kutta Method of Numerical Integration:':
+            subsections:
+            - 9.5a Understanding the Runge-Kutta Method
+            - 9.5b Implementing the Runge-Kutta Method
+            - 9.5c Case Studies of the Runge-Kutta Method
+        - '- Section: 9.6 Perturbations in Satellite Orbits Case Studies:':
+            subsections:
+            - '9.6a Case Study: Interplanetary Transfer'
+            - '9.6b Case Study: Lunar Landing'
+            - '9.6c Case Study: Satellite Rendezvous'
+    - '- Chapter 10: The N-Body Problem:':
+        sections:
+        - '- Section: 10.1 Understanding the N-Body Problem:':
+            subsections:
+            - 10.1a Basic Concepts of the N-Body Problem
+            - 10.1b Solving the N-Body Problem
+            - 10.1c Applications of the N-Body Problem
+        - '- Section: 10.2 The Restricted N-Body Problem:':
+            subsections:
+            - 10.2a Understanding the Restricted N-Body Problem
+            - 10.2b Solving the Restricted N-Body Problem
+            - 10.2c Applications of the Restricted N-Body Problem
+        - '- Section: 10.3 The General N-Body Problem:':
+            subsections:
+            - 10.3a Understanding the General N-Body Problem
+            - 10.3b Solving the General N-Body Problem
+            - 10.3c Applications of the General N-Body Problem
+        - '- Section: 10.4 N-Body Problem Case Studies:':
+            subsections:
+            - '10.4a Case Study: Interplanetary Transfer'
+            - '10.4b Case Study: Lunar Landing'
+            - '10.4c Case Study: Satellite Rendezvous'
+    - '- Chapter 11: Interplanetary Trajectory Design:':
+        sections:
+        - '- Section: 11.1 Basics of Interplanetary Trajectory Design:':
+            subsections:
+            - 11.1a Understanding Interplanetary Trajectory Design
+            - 11.1b Implementing Interplanetary Trajectory Design
+            - 11.1c Case Studies of Interplanetary Trajectory Design
+        - '- Section: 11.2 Gravity Assist Maneuvers:':
+            subsections:
+            - 11.2a Understanding Gravity Assist Maneuvers
+            - 11.2b Implementing Gravity Assist Maneuvers
+            - 11.2c Case Studies of Gravity Assist Maneuvers
+        - '- Section: 11.3 Low Energy Transfers:':
+            subsections:
+            - 11.3a Understanding Low Energy Transfers
+            - 11.3b Implementing Low Energy Transfers
+            - 11.3c Case Studies of Low Energy Transfers
+        - '- Section: 11.4 Interplanetary Trajectory Design Case Studies:':
+            subsections:
+            - '11.4a Case Study: Mars Rover Missions'
+            - '11.4b Case Study: Voyager Missions'
+            - '11.4c Case Study: New Horizons Mission'
+    - '- Chapter 12: Lunar and Planetary Landing:':
+        sections:
+        - '- Section: 12.1 Basics of Lunar and Planetary Landing:':
+            subsections:
+            - 12.1a Understanding Lunar and Planetary Landing
+            - 12.1b Implementing Lunar and Planetary Landing
+            - 12.1c Case Studies of Lunar and Planetary Landing
+        - '- Section: 12.2 Powered Descent Guidance:':
+            subsections:
+            - 12.2a Understanding Powered Descent Guidance
+            - 12.2b Implementing Powered Descent Guidance
+            - 12.2c Case Studies of Powered Descent Guidance
+        - '- Section: 12.3 Hazard Detection and Avoidance:':
+            subsections:
+            - 12.3a Understanding Hazard Detection and Avoidance
+            - 12.3b Implementing Hazard Detection and Avoidance
+            - 12.3c Case Studies of Hazard Detection and Avoidance
+        - '- Section: 12.4 Lunar and Planetary Landing Case Studies:':
+            subsections:
+            - '12.4a Case Study: Apollo Missions'
+            - '12.4b Case Study: Mars Rover Missions'
+            - '12.4c Case Study: Chang''e Missions'
+    - '- Chapter 13: Spacecraft Attitude Dynamics:':
+        sections:
+        - '- Section: 13.1 Basics of Spacecraft Attitude Dynamics:':
+            subsections:
+            - 13.1a Understanding Spacecraft Attitude Dynamics
+            - 13.1b Implementing Spacecraft Attitude Dynamics
+            - 13.1c Case Studies of Spacecraft Attitude Dynamics
+        - '- Section: 13.2 Attitude Control Systems:':
+            subsections:
+            - 13.2a Understanding Attitude Control Systems
+            - 13.2b Implementing Attitude Control Systems
+            - 13.2c Case Studies of Attitude Control Systems
+        - '- Section: 13.3 Attitude Determination:':
+            subsections:
+            - 13.3a Understanding Attitude Determination
+            - 13.3b Implementing Attitude Determination
+            - 13.3c Case Studies of Attitude Determination
+        - '- Section: 13.4 Spacecraft Attitude Dynamics Case Studies:':
+            subsections:
+            - '13.4a Case Study: Hubble Space Telescope'
+            - '13.4b Case Study: International Space Station'
+            - '13.4c Case Study: Mars Rover Missions'
+    - '- Chapter 14: Spacecraft Propulsion:':
+        sections:
+        - '- Section: 14.1 Basics of Spacecraft Propulsion:':
+            subsections:
+            - 14.1a Understanding Spacecraft Propulsion
+            - 14.1b Implementing Spacecraft Propulsion
+            - 14.1c Case Studies of Spacecraft Propulsion
+        - '- Section: 14.2 Chemical Propulsion:':
+            subsections:
+            - 14.2a Understanding Chemical Propulsion
+            - 14.2b Implementing Chemical Propulsion
+            - 14.2c Case Studies of Chemical Propulsion
+        - '- Section: 14.3 Electric Propulsion:':
+            subsections:
+            - 14.3a Understanding Electric Propulsion
+            - 14.3b Implementing Electric Propulsion
+            - 14.3c Case Studies of Electric Propulsion
+        - '- Section: 14.4 Spacecraft Propulsion Case Studies:':
+            subsections:
+            - '14.4a Case Study: Apollo Missions'
+            - '14.4b Case Study: Mars Rover Missions'
+            - '14.4c Case Study: Voyager Missions'
+    - '- Chapter 15: Spacecraft Thermal Control:':
+        sections:
+        - '- Section: 15.1 Basics of Spacecraft Thermal Control:':
+            subsections:
+            - 15.1a Understanding Spacecraft Thermal Control
+            - 15.1b Implementing Spacecraft Thermal Control
+            - 15.1c Case Studies of Spacecraft Thermal Control
+        - '- Section: 15.2 Passive Thermal Control:':
+            subsections: []

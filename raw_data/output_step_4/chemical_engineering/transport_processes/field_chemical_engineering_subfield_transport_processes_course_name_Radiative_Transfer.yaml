@@ -1,0 +1,368 @@
+textbook:
+  'Textbook on Radiative Transfer":':
+    chapters:
+    - '- Chapter 1: Review of Basic Thermal Radiation Concepts:':
+        sections:
+        - '- Section: 1.1 Blackbody Radiation:':
+            subsections:
+            - 1.1a Definition of Blackbody
+            - 1.1b Blackbody Radiation Laws
+            - 1.1c Applications of Blackbody Radiation
+        - '- Section: 1.2 View Factor:':
+            subsections:
+            - 1.2a Definition of View Factor
+            - 1.2b Calculation of View Factor
+            - 1.2c Applications of View Factor
+        - '- Section: 1.3 Simple Radiative Transfer:':
+            subsections:
+            - 1.3a Introduction to Radiative Transfer
+            - 1.3b Radiative Transfer Equation
+            - 1.3c Solutions of Radiative Transfer Equation
+    - '- Chapter 2: Radiative Transfer in Enclosures:':
+        sections:
+        - '- Section: 2.1 Electromagnetic Waves:':
+            subsections:
+            - 2.1a Wave-Particle Duality
+            - 2.1b Electromagnetic Spectrum
+            - 2.1c Propagation of Electromagnetic Waves
+        - '- Section: 2.2 Electromagnetic Wave Modeling of Surfaces:':
+            subsections:
+            - 2.2a Reflection and Refraction
+            - 2.2b Absorption and Transmission
+            - 2.2c Surface Roughness Effects
+        - '- Section: 2.3 Electromagnetic Wave Modeling of Thin Films:':
+            subsections:
+            - 2.3a Thin Film Interference
+            - 2.3b Optical Properties of Thin Films
+            - 2.3c Applications of Thin Films
+        - '- Section: 2.4 Electromagnetic Wave Modeling of Particles:':
+            subsections:
+            - 2.4a Scattering by Particles
+            - 2.4b Absorption by Particles
+            - 2.4c Particle Size Effects
+        - '- Section: 2.5 Scattering Properties of Particulates:':
+            subsections:
+            - 2.5a Mie Scattering
+            - 2.5b Rayleigh Scattering
+            - 2.5c Scattering Matrix
+        - '- Section: 2.6 Dielectric Properties of Solid (Drude Model):':
+            subsections:
+            - 2.6a Introduction to Drude Model
+            - 2.6b Optical Properties from Drude Model
+            - 2.6c Limitations of Drude Model
+        - '- Section: 2.7 Lorentz Model:':
+            subsections:
+            - 2.7a Introduction to Lorentz Model
+            - 2.7b Optical Properties from Lorentz Model
+            - 2.7c Applications of Lorentz Model
+        - '- Section: 2.8 Radiative Properties of Gases:':
+            subsections:
+            - 2.8a Absorption Spectra of Gases
+            - 2.8b Emission Spectra of Gases
+            - 2.8c Scattering by Gases
+    - '- Chapter 3: Equation of Radiative Transfer in Participating Media:':
+        sections:
+        - '- Section: 3.1 Solution of Equation of Radiative Transfer for One-dimensional Gray Media:':
+            subsections:
+            - 3.1a Definition of Gray Media
+            - 3.1b Solution Techniques
+            - 3.1c Applications of Gray Media
+        - '- Section: 3.2 Discrete Ordinate Method:':
+            subsections:
+            - 3.2a Introduction to Discrete Ordinate Method
+            - 3.2b Implementation of Discrete Ordinate Method
+            - 3.2c Applications of Discrete Ordinate Method
+        - '- Section: 3.3 Spherical Harmonics Method:':
+            subsections:
+            - 3.3a Introduction to Spherical Harmonics Method
+            - 3.3b Implementation of Spherical Harmonics Method
+            - 3.3c Applications of Spherical Harmonics Method
+        - '- Section: 3.4 Approximate Solutions:':
+            subsections:
+            - 3.4a Introduction to Approximate Solutions
+            - 3.4b Methods for Approximate Solutions
+            - 3.4c Accuracy of Approximate Solutions
+        - '- Section: 3.5 Monte Carlo Simulation:':
+            subsections:
+            - 3.5a Introduction to Monte Carlo Simulation
+            - 3.5b Implementation of Monte Carlo Simulation
+            - 3.5c Applications of Monte Carlo Simulation
+    - '- Chapter 4: Near Field Thermal Radiation:':
+        sections:
+        - '- Section: 4.1 Fluctuation-Dissipation Theory:':
+            subsections:
+            - 4.1a Introduction to Fluctuation-Dissipation Theory
+            - 4.1b Derivation of Fluctuation-Dissipation Theorem
+            - 4.1c Applications of Fluctuation-Dissipation Theory
+        - '- Section: 4.2 Solar Cells:':
+            subsections:
+            - 4.2a Working Principle of Solar Cells
+            - 4.2b Efficiency of Solar Cells
+            - 4.2c Advanced Solar Cell Technologies
+    - '- Chapter 5: Coherent Radiation Source:':
+        sections:
+        - '- Section: 5.1 Lasers:':
+            subsections:
+            - 5.1a Working Principle of Lasers
+            - 5.1b Types of Lasers
+            - 5.1c Applications of Lasers
+        - '- Section: 5.2 Laser Materials Interactions:':
+            subsections:
+            - 5.2a Laser Heating
+            - 5.2b Laser Cutting
+            - 5.2c Laser Welding
+    - '- Chapter 6: Radiative Transfer in Non-Participating Media:':
+        sections:
+        - '- Section: 6.1 Introduction to Non-Participating Media:':
+            subsections:
+            - 6.1a Definition of Non-Participating Media
+            - 6.1b Radiative Transfer in Non-Participating Media
+            - 6.1c Applications of Non-Participating Media
+        - '- Section: 6.2 Radiative Transfer in Semi-Transparent Media:':
+            subsections:
+            - 6.2a Definition of Semi-Transparent Media
+            - 6.2b Radiative Transfer in Semi-Transparent Media
+            - 6.2c Applications of Semi-Transparent Media
+        - '- Section: 6.3 Radiative Transfer in Opaque Media:':
+            subsections:
+            - 6.3a Definition of Opaque Media
+            - 6.3b Radiative Transfer in Opaque Media
+            - 6.3c Applications of Opaque Media
+    - '- Chapter 7: Radiative Transfer in Multi-Phase Media:':
+        sections:
+        - '- Section: 7.1 Introduction to Multi-Phase Media:':
+            subsections:
+            - 7.1a Definition of Multi-Phase Media
+            - 7.1b Radiative Transfer in Multi-Phase Media
+            - 7.1c Applications of Multi-Phase Media
+        - '- Section: 7.2 Radiative Transfer in Dispersed Media:':
+            subsections:
+            - 7.2a Definition of Dispersed Media
+            - 7.2b Radiative Transfer in Dispersed Media
+            - 7.2c Applications of Dispersed Media
+        - '- Section: 7.3 Radiative Transfer in Porous Media:':
+            subsections:
+            - 7.3a Definition of Porous Media
+            - 7.3b Radiative Transfer in Porous Media
+            - 7.3c Applications of Porous Media
+    - '- Chapter 8: Radiative Transfer in Anisotropic Media:':
+        sections:
+        - '- Section: 8.1 Introduction to Anisotropic Media:':
+            subsections:
+            - 8.1a Definition of Anisotropic Media
+            - 8.1b Radiative Transfer in Anisotropic Media
+            - 8.1c Applications of Anisotropic Media
+        - '- Section: 8.2 Radiative Transfer in Isotropic Media:':
+            subsections:
+            - 8.2a Definition of Isotropic Media
+            - 8.2b Radiative Transfer in Isotropic Media
+            - 8.2c Applications of Isotropic Media
+        - '- Section: 8.3 Radiative Transfer in Orthotropic Media:':
+            subsections:
+            - 8.3a Definition of Orthotropic Media
+            - 8.3b Radiative Transfer in Orthotropic Media
+            - 8.3c Applications of Orthotropic Media
+    - '- Chapter 9: Radiative Transfer in Heterogeneous Media:':
+        sections:
+        - '- Section: 9.1 Introduction to Heterogeneous Media:':
+            subsections:
+            - 9.1a Definition of Heterogeneous Media
+            - 9.1b Radiative Transfer in Heterogeneous Media
+            - 9.1c Applications of Heterogeneous Media
+        - '- Section: 9.2 Radiative Transfer in Homogeneous Media:':
+            subsections:
+            - 9.2a Definition of Homogeneous Media
+            - 9.2b Radiative Transfer in Homogeneous Media
+            - 9.2c Applications of Homogeneous Media
+        - '- Section: 9.3 Radiative Transfer in Composite Media:':
+            subsections:
+            - 9.3a Definition of Composite Media
+            - 9.3b Radiative Transfer in Composite Media
+            - 9.3c Applications of Composite Media
+    - '- Chapter 10: Radiative Transfer in Scattering Media:':
+        sections:
+        - '- Section: 10.1 Introduction to Scattering Media:':
+            subsections:
+            - 10.1a Definition of Scattering Media
+            - 10.1b Radiative Transfer in Scattering Media
+            - 10.1c Applications of Scattering Media
+        - '- Section: 10.2 Radiative Transfer in Absorbing Media:':
+            subsections:
+            - 10.2a Definition of Absorbing Media
+            - 10.2b Radiative Transfer in Absorbing Media
+            - 10.2c Applications of Absorbing Media
+        - '- Section: 10.3 Radiative Transfer in Emitting Media:':
+            subsections:
+            - 10.3a Definition of Emitting Media
+            - 10.3b Radiative Transfer in Emitting Media
+            - 10.3c Applications of Emitting Media
+    - '- Chapter 11: Radiative Transfer in Translucent Media:':
+        sections:
+        - '- Section: 11.1 Introduction to Translucent Media:':
+            subsections:
+            - 11.1a Definition of Translucent Media
+            - 11.1b Radiative Transfer in Translucent Media
+            - 11.1c Applications of Translucent Media
+        - '- Section: 11.2 Radiative Transfer in Transparent Media:':
+            subsections:
+            - 11.2a Definition of Transparent Media
+            - 11.2b Radiative Transfer in Transparent Media
+            - 11.2c Applications of Transparent Media
+        - '- Section: 11.3 Radiative Transfer in Reflective Media:':
+            subsections:
+            - 11.3a Definition of Reflective Media
+            - 11.3b Radiative Transfer in Reflective Media
+            - 11.3c Applications of Reflective Media
+    - '- Chapter 12: Radiative Transfer in Non-Isothermal Media:':
+        sections:
+        - '- Section: 12.1 Introduction to Non-Isothermal Media:':
+            subsections:
+            - 12.1a Definition of Non-Isothermal Media
+            - 12.1b Radiative Transfer in Non-Isothermal Media
+            - 12.1c Applications of Non-Isothermal Media
+        - '- Section: 12.2 Radiative Transfer in Isothermal Media:':
+            subsections:
+            - 12.2a Definition of Isothermal Media
+            - 12.2b Radiative Transfer in Isothermal Media
+            - 12.2c Applications of Isothermal Media
+        - '- Section: 12.3 Radiative Transfer in Adiabatic Media:':
+            subsections:
+            - 12.3a Definition of Adiabatic Media
+            - 12.3b Radiative Transfer in Adiabatic Media
+            - 12.3c Applications of Adiabatic Media
+    - '- Chapter 13: Radiative Transfer in Non-Equilibrium Media:':
+        sections:
+        - '- Section: 13.1 Introduction to Non-Equilibrium Media:':
+            subsections:
+            - 13.1a Definition of Non-Equilibrium Media
+            - 13.1b Radiative Transfer in Non-Equilibrium Media
+            - 13.1c Applications of Non-Equilibrium Media
+        - '- Section: 13.2 Radiative Transfer in Equilibrium Media:':
+            subsections:
+            - 13.2a Definition of Equilibrium Media
+            - 13.2b Radiative Transfer in Equilibrium Media
+            - 13.2c Applications of Equilibrium Media
+        - '- Section: 13.3 Radiative Transfer in Quasi-Equilibrium Media:':
+            subsections:
+            - 13.3a Definition of Quasi-Equilibrium Media
+            - 13.3b Radiative Transfer in Quasi-Equilibrium Media
+            - 13.3c Applications of Quasi-Equilibrium Media
+    - '- Chapter 14: Radiative Transfer in Non-Linear Media:':
+        sections:
+        - '- Section: 14.1 Introduction to Non-Linear Media:':
+            subsections:
+            - 14.1a Definition of Non-Linear Media
+            - 14.1b Radiative Transfer in Non-Linear Media
+            - 14.1c Applications of Non-Linear Media
+        - '- Section: 14.2 Radiative Transfer in Linear Media:':
+            subsections:
+            - 14.2a Definition of Linear Media
+            - 14.2b Radiative Transfer in Linear Media
+            - 14.2c Applications of Linear Media
+        - '- Section: 14.3 Radiative Transfer in Non-Linear Optics:':
+            subsections:
+            - 14.3a Introduction to Non-Linear Optics
+            - 14.3b Radiative Transfer in Non-Linear Optics
+            - 14.3c Applications of Non-Linear Optics
+    - '- Chapter 15: Radiative Transfer in Non-Stationary Media:':
+        sections:
+        - '- Section: 15.1 Introduction to Non-Stationary Media:':
+            subsections:
+            - 15.1a Definition of Non-Stationary Media
+            - 15.1b Radiative Transfer in Non-Stationary Media
+            - 15.1c Applications of Non-Stationary Media
+        - '- Section: 15.2 Radiative Transfer in Stationary Media:':
+            subsections:
+            - 15.2a Definition of Stationary Media
+            - 15.2b Radiative Transfer in Stationary Media
+            - 15.2c Applications of Stationary Media
+        - '- Section: 15.3 Radiative Transfer in Transient Media:':
+            subsections:
+            - 15.3a Definition of Transient Media
+            - 15.3b Radiative Transfer in Transient Media
+            - 15.3c Applications of Transient Media
+    - '- Chapter 16: Radiative Transfer in Non-Uniform Media:':
+        sections:
+        - '- Section: 16.1 Introduction to Non-Uniform Media:':
+            subsections:
+            - 16.1a Definition of Non-Uniform Media
+            - 16.1b Radiative Transfer in Non-Uniform Media
+            - 16.1c Applications of Non-Uniform Media
+        - '- Section: 16.2 Radiative Transfer in Uniform Media:':
+            subsections:
+            - 16.2a Definition of Uniform Media
+            - 16.2b Radiative Transfer in Uniform Media
+            - 16.2c Applications of Uniform Media
+        - '- Section: 16.3 Radiative Transfer in Graded Media:':
+            subsections:
+            - 16.3a Definition of Graded Media
+            - 16.3b Radiative Transfer in Graded Media
+            - 16.3c Applications of Graded Media
+    - '- Chapter 17: Radiative Transfer in Non-Local Media:':
+        sections:
+        - '- Section: 17.1 Introduction to Non-Local Media:':
+            subsections:
+            - 17.1a Definition of Non-Local Media
+            - 17.1b Radiative Transfer in Non-Local Media
+            - 17.1c Applications of Non-Local Media
+        - '- Section: 17.2 Radiative Transfer in Local Media:':
+            subsections:
+            - 17.2a Definition of Local Media
+            - 17.2b Radiative Transfer in Local Media
+            - 17.2c Applications of Local Media
+        - '- Section: 17.3 Radiative Transfer in Non-Local Thermodynamic Equilibrium:':
+            subsections:
+            - 17.3a Introduction to Non-Local Thermodynamic Equilibrium
+            - 17.3b Radiative Transfer in Non-Local Thermodynamic Equilibrium
+            - 17.3c Applications of Non-Local Thermodynamic Equilibrium
+    - '- Chapter 18: Radiative Transfer in Non-Reciprocal Media:':
+        sections:
+        - '- Section: 18.1 Introduction to Non-Reciprocal Media:':
+            subsections:
+            - 18.1a Definition of Non-Reciprocal Media
+            - 18.1b Radiative Transfer in Non-Reciprocal Media
+            - 18.1c Applications of Non-Reciprocal Media
+        - '- Section: 18.2 Radiative Transfer in Reciprocal Media:':
+            subsections:
+            - 18.2a Definition of Reciprocal Media
+            - 18.2b Radiative Transfer in Reciprocal Media
+            - 18.2c Applications of Reciprocal Media
+        - '- Section: 18.3 Radiative Transfer in Magneto-Optical Media:':
+            subsections:
+            - 18.3a Introduction to Magneto-Optical Media
+            - 18.3b Radiative Transfer in Magneto-Optical Media
+            - 18.3c Applications of Magneto-Optical Media
+    - '- Chapter 19: Radiative Transfer in Non-Isotropic Media:':
+        sections:
+        - '- Section: 19.1 Introduction to Non-Isotropic Media:':
+            subsections:
+            - 19.1a Definition of Non-Isotropic Media
+            - 19.1b Radiative Transfer in Non-Isotropic Media
+            - 19.1c Applications of Non-Isotropic Media
+        - '- Section: 19.2 Radiative Transfer in Isotropic Media:':
+            subsections:
+            - 19.2a Definition of Isotropic Media
+            - 19.2b Radiative Transfer in Isotropic Media
+            - 19.2c Applications of Isotropic Media
+        - '- Section: 19.3 Radiative Transfer in Anisotropic Media:':
+            subsections:
+            - 19.3a Definition of Anisotropic Media
+            - 19.3b Radiative Transfer in Anisotropic Media
+            - 19.3c Applications of Anisotropic Media
+    - '- Chapter 20: Radiative Transfer in Non-Linear Optics:':
+        sections:
+        - '- Section: 20.1 Introduction to Non-Linear Optics:':
+            subsections:
+            - 20.1a Definition of Non-Linear Optics
+            - 20.1b Radiative Transfer in Non-Linear Optics
+            - 20.1c Applications of Non-Linear Optics
+        - '- Section: 20.2 Radiative Transfer in Linear Optics:':
+            subsections:
+            - 20.2a Definition of Linear Optics
+            - 20.2b Radiative Transfer in Linear Optics
+            - 20.2c Applications of Linear Optics
+        - '- Section: 20.3 Radiative Transfer in Quantum Optics:':
+            subsections:
+            - 20.3a Introduction to Quantum Optics
+            - 20.3b Radiative Transfer in Quantum Optics
+            - 20.3c Applications of Quantum Optics

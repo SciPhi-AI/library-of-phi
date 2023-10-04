@@ -1,0 +1,363 @@
+textbook:
+  'Negotiation and Dispute Resolution in the Public Sector: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Negotiation and Dispute Resolution:':
+        sections:
+        - '- Section: 1.1 Definition and Importance:':
+            subsections:
+            - 1.1a Definition of Negotiation
+            - 1.1b Importance of Dispute Resolution
+            - 1.1c Role of Negotiation in Conflict Management
+        - '- Section: 1.2 Key Concepts and Terminology:':
+            subsections:
+            - 1.2a Basic Concepts in Negotiation
+            - 1.2b Terminology in Dispute Resolution
+            - 1.2c Understanding Conflict Resolution
+        - '- Section: 1.3 Role of Negotiation in the Public Sector:':
+            subsections:
+            - 1.3a Public Sector Negotiation
+            - 1.3b Challenges in Public Sector Negotiation
+            - 1.3c Case Studies in Public Sector Negotiation
+    - '- Chapter 2: Culture and Conflict Resolution:':
+        sections:
+        - '- Section: 2.1 Cultural Influences on Negotiation:':
+            subsections:
+            - 2.1a Understanding Cultural Influences
+            - 2.1b Culture and Negotiation Styles
+            - 2.1c Case Studies in Cultural Negotiation
+        - '- Section: 2.2 Cross-cultural Communication:':
+            subsections:
+            - 2.2a Basics of Cross-cultural Communication
+            - 2.2b Communication Styles and Culture
+            - 2.2c Cross-cultural Communication in Negotiation
+        - '- Section: 2.3 Conflict Resolution Strategies:':
+            subsections:
+            - 2.3a Understanding Conflict Resolution Strategies
+            - 2.3b Applying Conflict Resolution Strategies
+            - 2.3c Case Studies in Conflict Resolution
+    - '- Chapter 3: Rational Decision Making in Negotiation:':
+        sections:
+        - '- Section: 3.1 Decision Making Models:':
+            subsections:
+            - 3.1a Understanding Decision Making Models
+            - 3.1b Applying Decision Making Models in Negotiation
+            - 3.1c Case Studies in Decision Making
+        - '- Section: 3.2 Rationality and Cognitive Biases:':
+            subsections:
+            - 3.2a Understanding Rationality in Negotiation
+            - 3.2b Cognitive Biases in Negotiation
+            - 3.2c Overcoming Cognitive Biases
+        - '- Section: 3.3 Negotiation Tactics and Strategies:':
+            subsections:
+            - 3.3a Understanding Negotiation Tactics
+            - 3.3b Applying Negotiation Strategies
+            - 3.3c Case Studies in Negotiation Tactics
+    - '- Chapter 4: Gender Perspectives in Negotiation:':
+        sections:
+        - '- Section: 4.1 Psychological Factors and Gender Differences:':
+            subsections:
+            - 4.1a Understanding Psychological Factors in Negotiation
+            - 4.1b Gender Differences in Negotiation
+            - 4.1c Case Studies in Gender and Negotiation
+        - '- Section: 4.2 Gender Stereotypes and Negotiation Outcomes:':
+            subsections:
+            - 4.2a Understanding Gender Stereotypes
+            - 4.2b Gender Stereotypes and Negotiation Outcomes
+            - 4.2c Overcoming Gender Stereotypes in Negotiation
+        - '- Section: 4.3 Negotiating in a Gendered Society:':
+            subsections:
+            - 4.3a Understanding Gendered Societies
+            - 4.3b Gender and Power Dynamics in Negotiation
+            - 4.3c Case Studies in Gender and Society
+    - '- Chapter 5: Game Theory and Negotiation:':
+        sections:
+        - '- Section: 5.1 Basics of Game Theory:':
+            subsections:
+            - 5.1a Understanding Game Theory
+            - 5.1b Game Theory in Negotiation
+            - 5.1c Case Studies in Game Theory
+        - '- Section: 5.2 Nash Equilibrium and Negotiation:':
+            subsections:
+            - 5.2a Understanding Nash Equilibrium
+            - 5.2b Nash Equilibrium in Negotiation
+            - 5.2c Case Studies in Nash Equilibrium
+        - '- Section: 5.3 Cooperative and Non-Cooperative Games:':
+            subsections:
+            - 5.3a Understanding Cooperative Games
+            - 5.3b Understanding Non-Cooperative Games
+            - 5.3c Case Studies in Cooperative and Non-Cooperative Games
+    - '- Chapter 6: Consensus Building Approach:':
+        sections:
+        - '- Section: 6.1 Collaborative Problem Solving:':
+            subsections:
+            - 6.1a Understanding Collaborative Problem Solving
+            - 6.1b Collaborative Problem Solving in Negotiation
+            - 6.1c Case Studies in Collaborative Problem Solving
+        - '- Section: 6.2 Interest-Based Bargaining:':
+            subsections:
+            - 6.2a Understanding Interest-Based Bargaining
+            - 6.2b Interest-Based Bargaining in Negotiation
+            - 6.2c Case Studies in Interest-Based Bargaining
+        - '- Section: 6.3 Mediation and Facilitation Techniques:':
+            subsections:
+            - 6.3a Understanding Mediation Techniques
+            - 6.3b Understanding Facilitation Techniques
+            - 6.3c Case Studies in Mediation and Facilitation
+    - '- Chapter 7: Negotiation Simulations and Case Studies:':
+        sections:
+        - '- Section: 7.1 Parker v. Gibson Case Study:':
+            subsections:
+            - 7.1a Understanding the Parker v. Gibson Case
+            - 7.1b Negotiation Strategies in Parker v. Gibson
+            - 7.1c Lessons from Parker v. Gibson
+        - '- Section: 7.2 Bakra Beverage Simulation:':
+            subsections:
+            - 7.2a Understanding the Bakra Beverage Simulation
+            - 7.2b Negotiation Strategies in Bakra Beverage
+            - 7.2c Lessons from Bakra Beverage
+        - '- Section: 7.3 Three Party Negotiation Game:':
+            subsections:
+            - 7.3a Understanding the Three Party Negotiation Game
+            - 7.3b Negotiation Strategies in Three Party Negotiation
+            - 7.3c Lessons from Three Party Negotiation
+        - '- Section: 7.4 Harborco Simulation:':
+            subsections:
+            - 7.4a Understanding the Harborco Simulation
+            - 7.4b Negotiation Strategies in Harborco
+            - 7.4c Lessons from Harborco
+    - '- Chapter 8: Facilitation Techniques:':
+        sections:
+        - '- Section: 8.1 Role of a Facilitator:':
+            subsections:
+            - 8.1a Understanding the Role of a Facilitator
+            - 8.1b Facilitator Skills and Techniques
+            - 8.1c Case Studies in Facilitation
+        - '- Section: 8.2 Group Dynamics in Facilitation:':
+            subsections:
+            - 8.2a Understanding Group Dynamics
+            - 8.2b Group Dynamics in Facilitation
+            - 8.2c Case Studies in Group Dynamics
+        - '- Section: 8.3 Techniques for Effective Facilitation:':
+            subsections:
+            - 8.3a Understanding Facilitation Techniques
+            - 8.3b Applying Facilitation Techniques
+            - 8.3c Case Studies in Facilitation Techniques
+    - '- Chapter 9: Negotiation in the Public Sector:':
+        sections:
+        - '- Section: 9.1 Public Policy and Negotiation:':
+            subsections:
+            - 9.1a Understanding Public Policy
+            - 9.1b Public Policy and Negotiation
+            - 9.1c Case Studies in Public Policy Negotiation
+        - '- Section: 9.2 Stakeholder Analysis and Engagement:':
+            subsections:
+            - 9.2a Understanding Stakeholder Analysis
+            - 9.2b Stakeholder Engagement in Negotiation
+            - 9.2c Case Studies in Stakeholder Engagement
+        - '- Section: 9.3 Ethical Considerations in Public Sector Negotiation:':
+            subsections:
+            - 9.3a Understanding Ethical Considerations
+            - 9.3b Ethical Considerations in Public Sector Negotiation
+            - 9.3c Case Studies in Ethical Negotiation
+    - '- Chapter 10: Advanced Topics in Negotiation:':
+        sections:
+        - '- Section: 10.1 Power Dynamics in Negotiation:':
+            subsections:
+            - 10.1a Understanding Power Dynamics
+            - 10.1b Power Dynamics in Negotiation
+            - 10.1c Case Studies in Power Dynamics
+        - '- Section: 10.2 Multi-Party Negotiations:':
+            subsections:
+            - 10.2a Understanding Multi-Party Negotiations
+            - 10.2b Multi-Party Negotiations in Practice
+            - 10.2c Case Studies in Multi-Party Negotiations
+        - '- Section: 10.3 International Negotiations:':
+            subsections:
+            - 10.3a Understanding International Negotiations
+            - 10.3b International Negotiations in Practice
+            - 10.3c Case Studies in International Negotiations
+        - '- Section: 10.4 Negotiating in Crisis Situations:':
+            subsections:
+            - 10.4a Understanding Crisis Negotiations
+            - 10.4b Crisis Negotiations in Practice
+            - 10.4c Case Studies in Crisis Negotiations
+        - '- Section: 10.5 Negotiation Ethics and Social Responsibility:':
+            subsections:
+            - 10.5a Understanding Negotiation Ethics
+            - 10.5b Social Responsibility in Negotiation
+            - 10.5c Case Studies in Ethics and Social Responsibility
+        - '- Section: 10.6 Negotiation Skills Development:':
+            subsections:
+            - 10.6a Understanding Negotiation Skills
+            - 10.6b Developing Negotiation Skills
+            - 10.6c Case Studies in Negotiation Skills Development
+    - '- Chapter 11: Negotiation and Conflict Resolution in the Workplace:':
+        sections:
+        - '- Section: 11.1 Workplace Conflict:':
+            subsections:
+            - 11.1a Understanding Workplace Conflict
+            - 11.1b Conflict Resolution in the Workplace
+            - 11.1c Case Studies in Workplace Conflict
+        - '- Section: 11.2 Negotiation Skills for Managers:':
+            subsections:
+            - 11.2a Understanding Managerial Negotiation Skills
+            - 11.2b Developing Managerial Negotiation Skills
+            - 11.2c Case Studies in Managerial Negotiation
+        - '- Section: 11.3 Team Negotiation:':
+            subsections:
+            - 11.3a Understanding Team Negotiation
+            - 11.3b Team Negotiation in Practice
+            - 11.3c Case Studies in Team Negotiation
+    - '- Chapter 12: Negotiation and Conflict Resolution in Education:':
+        sections:
+        - '- Section: 12.1 Education Policy and Negotiation:':
+            subsections:
+            - 12.1a Understanding Education Policy
+            - 12.1b Education Policy and Negotiation
+            - 12.1c Case Studies in Education Policy Negotiation
+        - '- Section: 12.2 Conflict Resolution in Schools:':
+            subsections:
+            - 12.2a Understanding School Conflict
+            - 12.2b Conflict Resolution in Schools
+            - 12.2c Case Studies in School Conflict Resolution
+        - '- Section: 12.3 Parent-Teacher Negotiation:':
+            subsections:
+            - 12.3a Understanding Parent-Teacher Negotiation
+            - 12.3b Parent-Teacher Negotiation in Practice
+            - 12.3c Case Studies in Parent-Teacher Negotiation
+    - '- Chapter 13: Negotiation and Conflict Resolution in Healthcare:':
+        sections:
+        - '- Section: 13.1 Healthcare Policy and Negotiation:':
+            subsections:
+            - 13.1a Understanding Healthcare Policy
+            - 13.1b Healthcare Policy and Negotiation
+            - 13.1c Case Studies in Healthcare Policy Negotiation
+        - '- Section: 13.2 Conflict Resolution in Healthcare:':
+            subsections:
+            - 13.2a Understanding Healthcare Conflict
+            - 13.2b Conflict Resolution in Healthcare
+            - 13.2c Case Studies in Healthcare Conflict Resolution
+        - '- Section: 13.3 Patient-Provider Negotiation:':
+            subsections:
+            - 13.3a Understanding Patient-Provider Negotiation
+            - 13.3b Patient-Provider Negotiation in Practice
+            - 13.3c Case Studies in Patient-Provider Negotiation
+    - '- Chapter 14: Negotiation and Conflict Resolution in Law Enforcement:':
+        sections:
+        - '- Section: 14.1 Law Enforcement Policy and Negotiation:':
+            subsections:
+            - 14.1a Understanding Law Enforcement Policy
+            - 14.1b Law Enforcement Policy and Negotiation
+            - 14.1c Case Studies in Law Enforcement Policy Negotiation
+        - '- Section: 14.2 Conflict Resolution in Law Enforcement:':
+            subsections:
+            - 14.2a Understanding Law Enforcement Conflict
+            - 14.2b Conflict Resolution in Law Enforcement
+            - 14.2c Case Studies in Law Enforcement Conflict Resolution
+        - '- Section: 14.3 Police-Community Negotiation:':
+            subsections:
+            - 14.3a Understanding Police-Community Negotiation
+            - 14.3b Police-Community Negotiation in Practice
+            - 14.3c Case Studies in Police-Community Negotiation
+    - '- Chapter 15: Negotiation and Conflict Resolution in Politics:':
+        sections:
+        - '- Section: 15.1 Political Policy and Negotiation:':
+            subsections:
+            - 15.1a Understanding Political Policy
+            - 15.1b Political Policy and Negotiation
+            - 15.1c Case Studies in Political Policy Negotiation
+        - '- Section: 15.2 Conflict Resolution in Politics:':
+            subsections:
+            - 15.2a Understanding Political Conflict
+            - 15.2b Conflict Resolution in Politics
+            - 15.2c Case Studies in Political Conflict Resolution
+        - '- Section: 15.3 Diplomatic Negotiation:':
+            subsections:
+            - 15.3a Understanding Diplomatic Negotiation
+            - 15.3b Diplomatic Negotiation in Practice
+            - 15.3c Case Studies in Diplomatic Negotiation
+    - '- Chapter 16: Negotiation and Conflict Resolution in Environmental Issues:':
+        sections:
+        - '- Section: 16.1 Environmental Policy and Negotiation:':
+            subsections:
+            - 16.1a Understanding Environmental Policy
+            - 16.1b Environmental Policy and Negotiation
+            - 16.1c Case Studies in Environmental Policy Negotiation
+        - '- Section: 16.2 Conflict Resolution in Environmental Issues:':
+            subsections:
+            - 16.2a Understanding Environmental Conflict
+            - 16.2b Conflict Resolution in Environmental Issues
+            - 16.2c Case Studies in Environmental Conflict Resolution
+        - '- Section: 16.3 Environmental Activism and Negotiation:':
+            subsections:
+            - 16.3a Understanding Environmental Activism
+            - 16.3b Environmental Activism and Negotiation
+            - 16.3c Case Studies in Environmental Activism Negotiation
+    - '- Chapter 17: Negotiation and Conflict Resolution in Business:':
+        sections:
+        - '- Section: 17.1 Business Policy and Negotiation:':
+            subsections:
+            - 17.1a Understanding Business Policy
+            - 17.1b Business Policy and Negotiation
+            - 17.1c Case Studies in Business Policy Negotiation
+        - '- Section: 17.2 Conflict Resolution in Business:':
+            subsections:
+            - 17.2a Understanding Business Conflict
+            - 17.2b Conflict Resolution in Business
+            - 17.2c Case Studies in Business Conflict Resolution
+        - '- Section: 17.3 Business Negotiation:':
+            subsections:
+            - 17.3a Understanding Business Negotiation
+            - 17.3b Business Negotiation in Practice
+            - 17.3c Case Studies in Business Negotiation
+    - '- Chapter 18: Negotiation and Conflict Resolution in Non-Profit Organizations:':
+        sections:
+        - '- Section: 18.1 Non-Profit Policy and Negotiation:':
+            subsections:
+            - 18.1a Understanding Non-Profit Policy
+            - 18.1b Non-Profit Policy and Negotiation
+            - 18.1c Case Studies in Non-Profit Policy Negotiation
+        - '- Section: 18.2 Conflict Resolution in Non-Profit Organizations:':
+            subsections:
+            - 18.2a Understanding Non-Profit Conflict
+            - 18.2b Conflict Resolution in Non-Profit Organizations
+            - 18.2c Case Studies in Non-Profit Conflict Resolution
+        - '- Section: 18.3 Non-Profit Negotiation:':
+            subsections:
+            - 18.3a Understanding Non-Profit Negotiation
+            - 18.3b Non-Profit Negotiation in Practice
+            - 18.3c Case Studies in Non-Profit Negotiation
+    - '- Chapter 19: Negotiation and Conflict Resolution in Family and Personal Relationships:':
+        sections:
+        - '- Section: 19.1 Family Conflict and Negotiation:':
+            subsections:
+            - 19.1a Understanding Family Conflict
+            - 19.1b Family Conflict and Negotiation
+            - 19.1c Case Studies in Family Conflict Negotiation
+        - '- Section: 19.2 Conflict Resolution in Personal Relationships:':
+            subsections:
+            - 19.2a Understanding Conflict in Personal Relationships
+            - 19.2b Conflict Resolution in Personal Relationships
+            - 19.2c Case Studies in Personal Conflict Resolution
+        - '- Section: 19.3 Personal Negotiation:':
+            subsections:
+            - 19.3a Understanding Personal Negotiation
+            - 19.3b Personal Negotiation in Practice
+            - 19.3c Case Studies in Personal Negotiation
+    - '- Chapter 20: Future Trends in Negotiation and Conflict Resolution:':
+        sections:
+        - '- Section: 20.1 Emerging Trends in Negotiation:':
+            subsections:
+            - 20.1a Understanding Emerging Trends
+            - 20.1b Impact of Emerging Trends on Negotiation
+            - 20.1c Case Studies in Emerging Trends
+        - '- Section: 20.2 Future of Conflict Resolution:':
+            subsections:
+            - 20.2a Predicting Future Conflict Resolution Strategies
+            - 20.2b Impact of Future Trends on Conflict Resolution
+            - 20.2c Case Studies in Future Conflict Resolution
+        - '- Section: 20.3 Future Skills in Negotiation and Conflict Resolution:':
+            subsections:
+            - 20.3a Predicting Future Skills in Negotiation
+            - 20.3b Developing Future Skills in Conflict Resolution
+            - 20.3c Case Studies in Future Skills Development

@@ -1,0 +1,109 @@
+textbook: 
+"Engaging Community: Models and Methods for Designers and Planners":
+
+chapters:
+- Chapter 1: Public Engagement and Democracy:
+sections:
+- Section: 1.1 Introduction:
+subsections:
+- 1.1a Definition of Public Engagement
+- 1.1b Importance of Public Engagement
+- 1.1c Role of Democracy in Public Engagement
+
+- Section: 1.2 Demographic Complexity and Public Conversation:
+subsections:
+- 1.2a Understanding Demographic Complexity
+- 1.2b The Role of Public Conversation
+- 1.2c Strategies for Engaging Diverse Demographics
+
+- Chapter 2: Learning Design:
+sections:
+- Section: 2.1 Learning Design and Intro to Gather:
+subsections:
+- 2.1a Principles of Learning Design
+- 2.1b Introduction to Gather Methodology
+- 2.1c Application of Gather in Community Engagement
+
+- Section: 2.2 Learning Design Session 2:
+subsections:
+- 2.2a Review of Session 1
+- 2.2b Advanced Learning Design Techniques
+- 2.2c Case Studies in Learning Design
+
+- Section: 2.3 Intro to Class Redesign; Learning Design Session 3:
+subsections:
+- 2.3a Introduction to Class Redesign
+- 2.3b Learning Design Session 3 Objectives
+- 2.3c Implementing Class Redesign
+
+- Section: 2.4 Design Thinking and User-Centered Design:
+subsections:
+- 2.4a Introduction to Design Thinking
+- 2.4b Principles of User-Centered Design
+- 2.4c Application of Design Thinking in Community Engagement
+
+- Section: 2.5 Prototyping and Iteration:
+subsections:
+- 2.5a Introduction to Prototyping
+- 2.5b The Role of Iteration in Design
+- 2.5c Prototyping in Community Engagement
+
+- Chapter 3: Engagement Design:
+sections:
+- Section: 3.1 Review of Learning Designs and Overview of Client Project:
+subsections:
+- 3.1a Review of Learning Designs
+- 3.1b Overview of Client Project
+- 3.1c Preparing for Client Engagement
+
+- Section: 3.2 Client Design Brief Session; Facilitation Workshop:
+subsections:
+- 3.2a Preparing the Client Design Brief
+- 3.2b Conducting the Facilitation Workshop
+- 3.2c Post-Workshop Analysis and Feedback
+
+- Section: 3.3 Stakeholder Analysis and Mapping:
+subsections:
+- 3.3a Introduction to Stakeholder Analysis
+- 3.3b Techniques for Stakeholder Mapping
+- 3.3c Case Studies in Stakeholder Analysis
+
+- Section: 3.4 Community Needs Assessment:
+subsections:
+- 3.4a Introduction to Community Needs Assessment
+- 3.4b Techniques for Conducting Needs Assessment
+- 3.4c Interpreting and Applying Assessment Results
+
+- Section: 3.5 Designing Effective Facilitation Workshops:
+subsections:
+- 3.5a Principles of Effective Facilitation
+- 3.5b Workshop Design and Preparation
+- 3.5c Facilitation Techniques and Best Practices
+
+- Chapter 4: Presentation of Final Design Brief and Learning Designs:
+sections:
+- Section: 4.1 Facilitation Workshop:
+subsections:
+- 4.1a Planning the Facilitation Workshop
+- 4.1b Conducting the Workshop
+- 4.1c Post-Workshop Review and Feedback
+
+- Section: 4.2 Closing Reflection:
+subsections:
+- 4.2a Reflecting on the Design Process
+- 4.2b Lessons Learned and Best Practices
+- 4.2c Planning for Future Engagement Projects
+
+- Section: 4.3 Final Design Presentation and Feedback:
+subsections:
+- 4.3a Preparing the Final Design Presentation
+- 4.3b Presenting to Stakeholders and Clients
+- 4.3c Receiving and Incorporating Feedback
+
+- Section: 4.4 Evaluating Community Engagement Projects:
+subsections:
+- 4.4a Introduction to Project Evaluation
+- 4.4b Evaluation Techniques and Metrics
+- 4.4c Interpreting Evaluation Results and Planning for Improvement
+
+(Note: The remaining chapters, sections, and subsections would continue in a similar manner, expanding on the topics of community engagement, design methodologies, stakeholder analysis, project evaluation, and other relevant topics. This would continue until reaching a total of 20 chapters, each with 3-4 sections and 3-4 subsections.)

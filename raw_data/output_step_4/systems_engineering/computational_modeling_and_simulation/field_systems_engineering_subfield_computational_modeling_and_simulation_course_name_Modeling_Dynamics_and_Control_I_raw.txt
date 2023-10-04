@@ -1,0 +1,390 @@
+textbook: 
+"Modeling Dynamics and Control: An Introduction":
+
+chapters:
+- Chapter 1: Introduction to Course:
+sections:
+- Section: 1.1 Natural Response: First-order Systems:
+subsections:
+- 1.1a Overview of Modeling
+- 1.1b Definition of Dynamic Systems
+- 1.1c First-order Differential Equations
+- 1.1d Time Constant and Natural Response
+- 1.1e Underdamped, Overdamped, and Critically Damped Systems
+
+- Chapter 2: Second-order Systems:
+sections:
+- Section: 2.1 Natural and Driven Response:
+subsections:
+- 2.1a Second-order Differential Equations
+- 2.1b Homogeneous and Particular Solutions
+- 2.1c Natural Frequency and Damping Ratio
+- 2.1d Response to Initial Conditions
+- Section: 2.2 Step Response Metrics:
+subsections:
+- 2.2a Rise Time, Peak Time, and Settling Time
+- 2.2b Overshoot and Undershoot
+- 2.2c Peak and Steady-state Errors
+
+- Chapter 3: System Modeling Techniques:
+sections:
+- Section: 3.1 Mechanical Domain:
+subsections:
+- 3.1a Translational and Rotational Systems
+- 3.1b Mass, Spring, and Damper Elements
+- 3.1c Translational and Rotational Inertia
+- 3.1d Modeling Constraints and Friction
+- Section: 3.2 Electrical Domain:
+subsections:
+- 3.2a Voltage, Current, and Resistance Elements
+- 3.2b Inductors and Capacitors
+- 3.2c Ideal and Non-ideal Transformers
+- 3.2d Circuit Analysis Techniques
+- Section: 3.3 Thermal Domain:
+subsections:
+- 3.3a Heat Transfer Mechanisms
+- 3.3b Thermal Resistance and Capacitance
+- 3.3c Steady-state and Transient Analysis
+- 3.3d Thermal Networks and Modeling
+- Section: 3.4 Fluid Domain:
+subsections:
+- 3.4a Fluid Properties and Behavior
+- 3.4b Conservation of Mass and Energy
+- 3.4c Fluid Flow Analysis
+- 3.4d Hydraulic and Pneumatic Systems
+
+- Chapter 4: Laplace Transform:
+sections:
+- Section: 4.1 System Response via Laplace Transform:
+subsections:
+- 4.1a Laplace Transform Definition and Properties
+- 4.1b Transfer Function and Impulse Response
+- 4.1c Transfer Function and Step Response
+- Section: 4.2 Pulse, Impulse, and Step Response:
+subsections:
+- 4.2a Impulse and Unit Step Functions
+- 4.2b Convolution Integral and Response Calculation
+- 4.2c Relationship between Pulse, Impulse, and Step Responses
+- Section: 4.3 Convolution:
+subsections:
+- 4.3a Convolution Integral and Calculation
+- 4.3b Impulse Response and Convolution Integral
+- 4.3c Convolution in the Time and Frequency Domains
+
+- Chapter 5: Transfer Functions:
+sections:
+- Section: 5.1 Bode Plots:
+subsections:
+- 5.1a Frequency Response and Gain
+- 5.1b Phase Shift and Phase Margin
+- 5.1c Bode Plot Construction and Interpretation
+- Section: 5.2 Nyquist Plots:
+subsections:
+- 5.2a Frequency Response and Stability
+- 5.2b Nyquist Plot Construction and Interpretation
+- 5.2c Nyquist Stability Criterion
+- Section: 5.3 Root Locus Plots:
+subsections:
+- 5.3a Pole Locations and System Dynamics
+- 5.3b Root Locus Plot Construction and Interpretation
+- 5.3c Root Locus Design Techniques
+
+- Chapter 6: Feedback Control Systems:
+sections:
+- Section: 6.1 Proportional Control:
+subsections:
+- 6.1a Proportional Control Gain
+- 6.1b Steady-state Error Reduction
+- 6.1c Stability and Performance Trade-offs
+- Section: 6.2 Integral Control:
+subsections:
+- 6.2a Integral Control Action
+- 6.2b Eliminating Steady-state Error
+- 6.2c Integral Wind-up
+- Section: 6.3 Derivative Control:
+subsections:
+- 6.3a Derivative Control Action
+- 6.3b Improving Transient Response
+- 6.3c Noise Amplification and Filtering
+- Section: 6.4 PID Control:
+subsections:
+- 6.4a PID Control Action and Parameter Tuning
+- 6.4b Combining Proportional, Integral, and Derivative Control
+- 6.4c PID Control Design Techniques
+
+- Chapter 7: Stability Analysis:
+sections:
+- Section: 7.1 Routh-Hurwitz Criterion:
+subsections:
+- 7.1a Characteristic Equation and Stability
+- 7.1b Routh-Hurwitz Stability Criterion
+- 7.1c Analyzing Stability with Routh-Hurwitz
+- Section: 7.2 Nyquist Stability Criterion:
+subsections:
+- 7.2a Frequency Response and Stability
+- 7.2b Nyquist Stability Criterion
+- 7.2c Analyzing Stability with Nyquist Criterion
+- Section: 7.3 Bode Stability Criterion:
+subsections:
+- 7.3a Frequency Response and Stability
+- 7.3b Bode Stability Criterion
+- 7.3c Analyzing Stability with Bode Criterion
+
+- Chapter 8: Frequency Response:
+sections:
+- Section: 8.1 Frequency Response Analysis:
+subsections:
+- 8.1a Gain and Phase Shift at Different Frequencies
+- 8.1b Frequency Response Plots and Interpretation
+- 8.1c Frequency Response Analysis Techniques
+- Section: 8.2 Gain and Phase Margins:
+subsections:
+- 8.2a Gain and Phase Margins Definition
+- 8.2b Stability and Margin Calculation
+- 8.2c Gain and Phase Margin Design Guidelines
+- Section: 8.3 Sensitivity Function:
+subsections:
+- 8.3a Sensitivity Function Definition
+- 8.3b Sensitivity Analysis and Design
+- 8.3c Sensitivity Function in Control Systems
+
+- Chapter 9: State-Space Representation:
+sections:
+- Section: 9.1 State Variables:
+subsections:
+- 9.1a State Variables Definition and Purpose
+- 9.1b State Space and State Equations
+- 9.1c State Transition Matrix
+- Section: 9.2 State-Space Equations:
+subsections:
+- 9.2a State Space and Input-Output Representation
+- 9.2b State-Space Equations and Transfer Functions
+- 9.2c State-Space Realization
+- Section: 9.3 Controllability and Observability:
+subsections:
+- 9.3a Controllability and Observability Definitions
+- 9.3b Controllability and Observability Matrices
+- 9.3c Controllability and Observability Analysis
+- Section: 9.4 State Feedback Control:
+subsections:
+- 9.4a State Feedback Control Design
+- 9.4b Eigenvalue Placement and Pole Assignment
+- 9.4c State Feedback Control Implementation
+- Section: 9.5 Observer Design:
+subsections:
+- 9.5a Observer Design for State Estimation
+- 9.5b State Error and Observer Gain Calculation
+- 9.5c Observer Design Techniques
+
+- Chapter 10: Advanced Topics in Control Systems:
+sections:
+- Section: 10.1 Robust Control:
+subsections:
+- 10.1a Introduction to Robust Control
+- 10.1b Uncertainty and Disturbance Rejection
+- 10.1c Robust Control Design Techniques
+- Section: 10.2 Optimal Control:
+subsections:
+- 10.2a Introduction to Optimal Control
+- 10.2b Performance Index and Optimization
+- 10.2c Optimal Control Design Techniques
+- Section: 10.3 Adaptive Control:
+subsections:
+- 10.3a Introduction to Adaptive Control
+- 10.3b Parameter Estimation and Adaptation
+- 10.3c Adaptive Control Design Techniques
+- Section: 10.4 Nonlinear Control:
+subsections:
+- 10.4a Introduction to Nonlinear Control
+- 10.4b Nonlinear System Analysis
+- 10.4c Nonlinear Control Design Techniques
+
+- Chapter 11: Control System Implementation:
+sections:
+- Section: 11.1 Hardware and Software for Control Systems:
+subsections:
+- 11.1a Microcontrollers and Digital Signal Processors
+- 11.1b Real-Time Operating Systems
+- 11.1c Control System Software Design
+- Section: 11.2 Sensors and Actuators:
+subsections:
+- 11.2a Sensor Types and Characteristics
+- 11.2b Actuator Types and Characteristics
+- 11.2c Sensor and Actuator Selection for Control Systems
+- Section: 11.3 Control System Testing and Validation:
+subsections:
+- 11.3a Control System Testing Techniques
+- 11.3b Control System Validation Techniques
+- 11.3c Troubleshooting Control Systems
+
+- Chapter 12: Case Studies in Control Systems:
+sections:
+- Section: 12.1 Case Study: Cruise Control System:
+subsections:
+- 12.1a Cruise Control System Overview
+- 12.1b Cruise Control System Modeling
+- 12.1c Cruise Control System Design
+- Section: 12.2 Case Study: Quadcopter Control System:
+subsections:
+- 12.2a Quadcopter Control System Overview
+- 12.2b Quadcopter Control System Modeling
+- 12.2c Quadcopter Control System Design
+- Section: 12.3 Case Study: HVAC Control System:
+subsections:
+- 12.3a HVAC Control System Overview
+- 12.3b HVAC Control System Modeling
+- 12.3c HVAC Control System Design
+
+- Chapter 13: Advanced Topics in System Modeling:
+sections:
+- Section: 13.1 Nonlinear System Modeling:
+subsections:
+- 13.1a Introduction to Nonlinear System Modeling
+- 13.1b Nonlinear Differential Equations
+- 13.1c Nonlinear System Analysis Techniques
+- Section: 13.2 Stochastic System Modeling:
+subsections:
+- 13.2a Introduction to Stochastic System Modeling
+- 13.2b Random Variables and Stochastic Processes
+- 13.2c Stochastic System Analysis Techniques
+- Section: 13.3 Multivariable System Modeling:
+subsections:
+- 13.3a Introduction to Multivariable System Modeling
+- 13.3b Multivariable Differential Equations
+- 13.3c Multivariable System Analysis Techniques
+
+- Chapter 14: Advanced Topics in System Analysis:
+sections:
+- Section: 14.1 Nonlinear System Analysis:
+subsections:
+- 14.1a Introduction to Nonlinear System Analysis
+- 14.1b Phase Plane Analysis
+- 14.1c Limit Cycles and Bifurcations
+- Section: 14.2 Stochastic System Analysis:
+subsections:
+- 14.2a Introduction to Stochastic System Analysis
+- 14.2b Probability Density Function and Correlation Function
+- 14.2c Stochastic System Response Analysis
+- Section: 14.3 Multivariable System Analysis:
+subsections:
+- 14.3a Introduction to Multivariable System Analysis
+- 14.3b Eigenvalues and Eigenvectors
+- 14.3c Multivariable System Response Analysis
+
+- Chapter 15: Advanced Topics in Control Design:
+sections:
+- Section: 15.1 Robust Control Design:
+subsections:
+- 15.1a Introduction to Robust Control Design
+- 15.1b Uncertainty and Disturbance Rejection
+- 15.1c Robust Control Design Techniques
+- Section: 15.2 Optimal Control Design:
+subsections:
+- 15.2a Introduction to Optimal Control Design
+- 15.2b Performance Index and Optimization
+- 15.2c Optimal Control Design Techniques
+- Section: 15.3 Adaptive Control Design:
+subsections:
+- 15.3a Introduction to Adaptive Control Design
+- 15.3b Parameter Estimation and Adaptation
+- 15.3c Adaptive Control Design Techniques
+- Section: 15.4 Nonlinear Control Design:
+subsections:
+- 15.4a Introduction to Nonlinear Control Design
+- 15.4b Nonlinear System Analysis
+- 15.4c Nonlinear Control Design Techniques
+
+- Chapter 16: Advanced Topics in Control Implementation:
+sections:
+- Section: 16.1 Hardware for Control Systems:
+subsections:
+- 16.1a Microcontrollers and Digital Signal Processors
+- 16.1b Real-Time Operating Systems
+- 16.1c Control System Hardware Design
+- Section: 16.2 Software for Control Systems:
+subsections:
+- 16.2a Control System Software Design
+- 16.2b Control System Software Testing
+- 16.2c Control System Software Validation
+- Section: 16.3 Sensors and Actuators for Control Systems:
+subsections:
+- 16.3a Sensor Types and Characteristics
+- 16.3b Actuator Types and Characteristics
+- 16.3c Sensor and Actuator Selection for Control Systems
+- Section: 16.4 Control System Testing and Validation:
+subsections:
+- 16.4a Control System Testing Techniques
+- 16.4b Control System Validation Techniques
+- 16.4c Troubleshooting Control Systems
+
+- Chapter 17: Case Studies in Control Systems:
+sections:
+- Section: 17.1 Case Study: Cruise Control System:
+subsections:
+- 17.1a Cruise Control System Overview
+- 17.1b Cruise Control System Modeling
+- 17.1c Cruise Control System Design
+- Section: 17.2 Case Study: Quadcopter Control System:
+subsections:
+- 17.2a Quadcopter Control System Overview
+- 17.2b Quadcopter Control System Modeling
+- 17.2c Quadcopter Control System Design
+- Section: 17.3 Case Study: HVAC Control System:
+subsections:
+- 17.3a HVAC Control System Overview
+- 17.3b HVAC Control System Modeling
+- 17.3c HVAC Control System Design
+
+- Chapter 18: Advanced Topics in System Modeling:
+sections:
+- Section: 18.1 Nonlinear System Modeling:
+subsections:
+- 18.1a Introduction to Nonlinear System Modeling
+- 18.1b Nonlinear Differential Equations
+- 18.1c Nonlinear System Analysis Techniques
+- Section: 18.2 Stochastic System Modeling:
+subsections:
+- 18.2a Introduction to Stochastic System Modeling
+- 18.2b Random Variables and Stochastic Processes
+- 18.2c Stochastic System Analysis Techniques
+- Section: 18.3 Multivariable System Modeling:
+subsections:
+- 18.3a Introduction to Multivariable System Modeling
+- 18.3b Multivariable Differential Equations
+- 18.3c Multivariable System Analysis Techniques
+
+- Chapter 19: Advanced Topics in System Analysis:
+sections:
+- Section: 19.1 Nonlinear System Analysis:
+subsections:
+- 19.1a Introduction to Nonlinear System Analysis
+- 19.1b Phase Plane Analysis
+- 19.1c Limit Cycles and Bifurcations
+- Section: 19.2 Stochastic System Analysis:
+subsections:
+- 19.2a Introduction to Stochastic System Analysis
+- 19.2b Probability Density Function and Correlation Function
+- 19.2c Stochastic System Response Analysis
+- Section: 19.3 Multivariable System Analysis:
+subsections:
+- 19.3a Introduction to Multivariable System Analysis
+- 19.3b Eigenvalues and Eigenvectors
+- 19.3c Multivariable System Response Analysis
+
+- Chapter 20: Advanced Topics in Control Design:
+sections:
+- Section: 20.1 Robust Control Design:
+subsections:
+- 20.1a Introduction to Robust Control Design
+- 20.1b Uncertainty and Disturbance Rejection
+- 20.1c Robust Control Design Techniques
+- Section: 20.2 Optimal Control Design:
+subsections:
+- 20.2a Introduction to Optimal Control Design
+- 20.2b Performance Index and Optimization
+- 20.2c Optimal Control Design Techniques
+- Section: 20.3 Adaptive Control Design:
+subsections:
+- 20.3a Introduction to Adaptive Control Design
+- 20.3b Parameter Estimation and Adaptation
+- 

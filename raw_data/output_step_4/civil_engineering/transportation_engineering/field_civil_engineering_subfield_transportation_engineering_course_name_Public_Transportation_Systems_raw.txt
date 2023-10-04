@@ -1,0 +1,179 @@
+textbook: 
+"Public Transportation Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Overview of Public Transportation Systems
+- Section: 1.2 Importance and Benefits of Public Transportation
+- Section: 1.3 History and Evolution of Public Transportation
+
+- Chapter 2: Data Collection and Analysis:
+sections:
+- Section: 2.1 Techniques for Data Collection
+- Section: 2.2 Program Design for Data Analysis
+- Section: 2.3 Data Analysis and Inference
+- Section: 2.4 Data Visualization Techniques
+
+- Chapter 3: Modal Characteristics and Roles:
+sections:
+- Section: 3.1 Different Modes of Public Transportation:
+subsections:
+- 3.1a Bus Transportation
+- 3.1b Rail Transportation
+- 3.1c Subway Transportation
+- 3.1d Light Rail Transportation
+- 3.1e Tram Transportation
+- 3.1f Ferry Transportation
+
+- Section: 3.2 Characteristics and Features of Each Mode:
+subsections:
+- 3.2a Bus Characteristics and Features
+- 3.2b Rail Characteristics and Features
+- 3.2c Subway Characteristics and Features
+- 3.2d Light Rail Characteristics and Features
+- 3.2e Tram Characteristics and Features
+- 3.2f Ferry Characteristics and Features
+
+- Section: 3.3 Roles and Functions of Different Modes:
+subsections:
+- 3.3a Bus Roles and Functions
+- 3.3b Rail Roles and Functions
+- 3.3c Subway Roles and Functions
+- 3.3d Light Rail Roles and Functions
+- 3.3e Tram Roles and Functions
+- 3.3f Ferry Roles and Functions
+
+- Chapter 4: Planning and Scheduling:
+sections:
+- Section: 4.1 Short-range Planning for Public Transportation Systems:
+subsections:
+- 4.1a Scheduling and Dispatching
+- 4.1b Service Planning
+
+- Section: 4.2 Modal Capacities and Costs
+- Section: 4.3 Cost Estimation for Public Transportation Projects
+- Section: 4.4 Ridership Forecasting
+- Section: 4.5 Frequency Determination
+
+- Chapter 5: Route Design and Network Structure:
+sections:
+- Section: 5.1 Macro Design Models for a Single Route
+- Section: 5.2 Network and Route Structure
+- Section: 5.3 High Ridership Corridor Strategies
+- Section: 5.4 Bus and Rail Corridor Strategies
+- Section: 5.5 Integration of Multiple Modes
+
+- Chapter 6: Performance Measurement and Evaluation:
+sections:
+- Section: 6.1 Performance Models for Public Transportation Systems
+- Section: 6.2 Transit Service Reliability
+- Section: 6.3 Performance Measurement Tools and Techniques
+- Section: 6.4 Performance Evaluation Methods
+
+- Chapter 7: Fare Policy and Technology:
+sections:
+- Section: 7.1 Fare Structure and Pricing Policies
+- Section: 7.2 Technology in Fare Collection and Payment Systems
+- Section: 7.3 Fare Integration and Interoperability
+- Section: 7.4 Customer Information Strategies
+- Section: 7.5 Fare Evasion Prevention Techniques
+
+- Chapter 8: Workforce Planning and Labor Relations:
+sections:
+- Section: 8.1 Workforce Planning for Public Transportation Systems:
+subsections:
+- 8.1a Workforce Demand Forecasting
+- 8.1b Recruitment and Selection
+- 8.1c Training and Development
+
+- Section: 8.2 Labor Relations and Collective Bargaining:
+subsections:
+- 8.2a Labor Laws and Regulations
+- 8.2b Union Negotiations and Agreements
+- 8.2c Grievance Handling Procedures
+
+- Chapter 9: Transit Finance and Funding:
+sections:
+- Section: 9.1 Funding Sources for Public Transportation Projects
+- Section: 9.2 Transit Finance and Budgeting
+- Section: 9.3 Public-Private Partnerships in Transit Projects
+- Section: 9.4 Grant Writing and Proposal Preparation
+- Section: 9.5 Cost-Benefit Analysis for Transit Projects
+
+- Chapter 10: Public Transportation Safety and Security:
+sections:
+- Section: 10.1 Safety Regulations and Standards
+- Section: 10.2 Security Measures and Protocols
+- Section: 10.3 Emergency Response and Crisis Management
+- Section: 10.4 Safety and Security Training
+
+- Chapter 11: Public Transportation and the Environment:
+sections:
+- Section: 11.1 Environmental Impact of Public Transportation
+- Section: 11.2 Sustainable Public Transportation Practices
+- Section: 11.3 Public Transportation and Urban Planning
+- Section: 11.4 Public Transportation and Climate Change
+
+- Chapter 12: Public Transportation Accessibility:
+sections:
+- Section: 12.1 Accessibility Standards and Regulations
+- Section: 12.2 Designing for Accessibility
+- Section: 12.3 Public Transportation and Social Equity
+- Section: 12.4 Accessibility and Technology
+
+- Chapter 13: Public Transportation and Health:
+sections:
+- Section: 13.1 Public Transportation and Physical Health
+- Section: 13.2 Public Transportation and Mental Health
+- Section: 13.3 Public Transportation and Public Health Policy
+- Section: 13.4 Public Transportation and Active Transportation
+
+- Chapter 14: Public Transportation and the Economy:
+sections:
+- Section: 14.1 Economic Impact of Public Transportation
+- Section: 14.2 Public Transportation and Job Creation
+- Section: 14.3 Public Transportation and Economic Development
+- Section: 14.4 Public Transportation and Tourism
+
+- Chapter 15: Public Transportation and Technology:
+sections:
+- Section: 15.1 Technology in Public Transportation Operations
+- Section: 15.2 Technology in Public Transportation Infrastructure
+- Section: 15.3 Technology in Public Transportation Vehicles
+- Section: 15.4 Future Technologies in Public Transportation
+
+- Chapter 16: Public Transportation Policy and Governance:
+sections:
+- Section: 16.1 Public Transportation Policy
+- Section: 16.2 Governance of Public Transportation Systems
+- Section: 16.3 Public Transportation and Legislation
+- Section: 16.4 Public Transportation and Advocacy
+
+- Chapter 17: Public Transportation Marketing and Public Relations:
+sections:
+- Section: 17.1 Marketing Strategies for Public Transportation
+- Section: 17.2 Public Relations in Public Transportation
+- Section: 17.3 Customer Service in Public Transportation
+- Section: 17.4 Branding and Image in Public Transportation
+
+- Chapter 18: Public Transportation Planning and Design:
+sections:
+- Section: 18.1 Planning for Public Transportation Systems
+- Section: 18.2 Designing Public Transportation Systems
+- Section: 18.3 Public Transportation and Urban Design
+- Section: 18.4 Public Transportation and Land Use Planning
+
+- Chapter 19: Public Transportation Research and Innovation:
+sections:
+- Section: 19.1 Research in Public Transportation
+- Section: 19.2 Innovation in Public Transportation
+- Section: 19.3 Public Transportation and Academia
+- Section: 19.4 Future Trends in Public Transportation
+
+- Chapter 20: Case Studies in Public Transportation:
+sections:
+- Section: 20.1 Case Study: New York City Subway
+- Section: 20.2 Case Study: London Underground
+- Section: 20.3 Case Study: Tokyo Metro
+- Section: 20.4 Case Study: Paris Métro

@@ -1,0 +1,343 @@
+textbook: 
+"Use of Joint Fact Finding in Science Intensive Policy Disputes, Part II":
+
+chapters:
+- Chapter 1: Introduction and Overview:
+sections:
+- Section: 1.1 Goals and Scope of the Class:
+subsections:
+- 1.1a Understanding the Class Objectives
+- 1.1b Scope of the Course Material
+- 1.1c Expectations and Grading Criteria
+
+- Section: 1.2 Traditional Adversarial Approach to Environmental Policy:
+subsections:
+- 1.2a Definition and History
+- 1.2b Critiques of the Adversarial Approach
+- 1.2c Case Studies
+
+- Section: 1.3 Collaborative Problem Solving Approach:
+subsections:
+- 1.3a Introduction to Collaborative Problem Solving
+- 1.3b Benefits and Challenges
+- 1.3c Case Studies
+
+- Section: 1.4 Scientist and Policy Maker Perspectives:
+subsections:
+- 1.4a Role of Scientists in Policy Making
+- 1.4b Role of Policy Makers in Scientific Research
+- 1.4c Bridging the Gap Between Science and Policy
+
+- Chapter 2: Review of Fall Semester Student Papers:
+sections:
+- Section: 2.1 Concepts and Topics Covered in Fall:
+subsections:
+- 2.1a Overview of Fall Semester Topics
+- 2.1b In-depth Discussion of Key Concepts
+- 2.1c Student Reflections and Takeaways
+
+- Section: 2.2 Unanswered Questions from Fall Seminar:
+subsections:
+- 2.2a Compilation of Unanswered Questions
+- 2.2b Discussion and Analysis
+- 2.2c Plan for Addressing Unanswered Questions
+
+- Section: 2.3 Joint Fact Finding Model Development:
+subsections:
+- 2.3a Introduction to Joint Fact Finding
+- 2.3b Steps in Developing a Joint Fact Finding Model
+- 2.3c Case Studies and Applications
+
+- Chapter 3: Status of the Cape Wind Application Process:
+sections:
+- Section: 3.1 Progress Update:
+subsections:
+- 3.1a Current Status of the Cape Wind Application
+- 3.1b Challenges and Obstacles
+- 3.1c Future Projections and Expectations
+
+- Chapter 4: Offshore Wind Energy Sites:
+sections:
+- Section: 4.1 Potential Future Sites:
+subsections:
+- 4.1a Identifying Potential Sites
+- 4.1b Evaluating Site Suitability
+- 4.1c Case Studies of Successful Site Selection
+
+- Section: 4.2 Collaborative Process Approach to Permitting and Leasing:
+subsections:
+- 4.2a Introduction to the Collaborative Process Approach
+- 4.2b Steps in the Collaborative Process
+- 4.2c Benefits and Challenges
+
+- Section: 4.3 Citizen-Based Problem Solving Approach:
+subsections:
+- 4.3a Role of Citizens in Problem Solving
+- 4.3b Citizen Engagement Strategies
+- 4.3c Case Studies of Successful Citizen Engagement
+
+- Chapter 5: Proposal Development for Cape Wind Issue:
+sections:
+- Section: 5.1 Joint Fact Finding Approach:
+subsections:
+- 5.1a Applying Joint Fact Finding to the Cape Wind Issue
+- 5.1b Steps in the Joint Fact Finding Process
+- 5.1c Expected Outcomes and Benefits
+
+- Section: 5.2 Building on Fall Semester Efforts:
+subsections:
+- 5.2a Review of Fall Semester Work
+- 5.2b Incorporating Fall Semester Learnings
+- 5.2c Plan for Spring Semester
+
+- Chapter 6: Role-Play Simulations:
+sections:
+- Section: 6.1 Learning and Research Tools:
+subsections:
+- 6.1a Role of Simulations in Learning
+- 6.1b Developing Effective Simulations
+- 6.1c Evaluating Simulation Outcomes
+
+- Section: 6.2 Examples of Actual Simulations:
+subsections:
+- 6.2a Review of Past Simulations
+- 6.2b Lessons Learned from Past Simulations
+- 6.2c Applying Lessons to Future Simulations
+
+- Chapter 7: Preparing for Role-Play Simulation:
+sections:
+- Section: 7.1 Playing Two Simulations:
+subsections:
+- 7.1a Overview of the Two Simulations
+- 7.1b Preparing for the Simulations
+- 7.1c Expectations and Objectives
+
+- Section: 7.2 Designing Role-Play on Cape Wind Issue:
+subsections:
+- 7.2a Understanding the Cape Wind Issue
+- 7.2b Steps in Designing the Role-Play
+- 7.2c Expected Outcomes and Learning Objectives
+
+- Chapter 8: Simulation Development:
+sections:
+- Section: 8.1 Rehearsal and Revision:
+subsections:
+- 8.1a Importance of Rehearsal
+- 8.1b Revision Process
+- 8.1c Finalizing the Simulation
+
+- Section: 8.2 Teaching Notes Preparation:
+subsections:
+- 8.2a Role of Teaching Notes
+- 8.2b Developing Effective Teaching Notes
+- 8.2c Review and Feedback on Teaching Notes
+
+- Chapter 9: Coastal Wind Development Workshop:
+sections:
+- Section: 9.1 Possible Participation:
+subsections:
+- 9.1a Understanding the Workshop
+- 9.1b Benefits of Participation
+- 9.1c Preparing for the Workshop
+
+- Chapter 10: Rehearsing the Cape Wind Simulation:
+sections:
+- Section: 10.1 Inviting Outside Participants:
+subsections:
+- 10.1a Identifying Potential Participants
+- 10.1b Inviting and Confirming Participants
+- 10.1c Preparing Participants for the Simulation
+
+- Chapter 11: Web Page Development:
+sections:
+- Section: 11.1 Accessing Simulation and Fall Semester Papers Online:
+subsections:
+- 11.1a Creating an Accessible Online Platform
+- 11.1b Uploading Simulation and Papers
+- 11.1c Ensuring User-Friendly Navigation
+
+- Section: 11.2 Preparing for Publication in Working Paper Series:
+subsections:
+- 11.2a Understanding the Publication Process
+- 11.2b Preparing Papers for Publication
+- 11.2c Submission and Review Process
+
+- Chapter 12: Advanced Role-Play Simulations:
+sections:
+- Section: 12.1 Advanced Simulation Techniques:
+subsections:
+- 12.1a Introduction to Advanced Techniques
+- 12.1b Application in Role-Play Simulations
+- 12.1c Case Studies and Examples
+
+- Section: 12.2 Evaluation and Feedback in Simulations:
+subsections:
+- 12.2a Importance of Evaluation and Feedback
+- 12.2b Techniques for Effective Evaluation
+- 12.2c Incorporating Feedback into Future Simulations
+
+- Section: 12.3 Simulation Facilitation:
+subsections:
+- 12.3a Role of the Facilitator in Simulations
+- 12.3b Skills and Techniques for Effective Facilitation
+- 12.3c Challenges and Solutions in Facilitation
+
+- Chapter 13: Advanced Joint Fact Finding Techniques:
+sections:
+- Section: 13.1 Advanced Techniques in Joint Fact Finding:
+subsections:
+- 13.1a Introduction to Advanced Techniques
+- 13.1b Application in Joint Fact Finding
+- 13.1c Case Studies and Examples
+
+- Section: 13.2 Conflict Resolution in Joint Fact Finding:
+subsections:
+- 13.2a Role of Conflict Resolution in Joint Fact Finding
+- 13.2b Techniques for Effective Conflict Resolution
+- 13.2c Case Studies and Examples
+
+- Section: 13.3 Stakeholder Engagement in Joint Fact Finding:
+subsections:
+- 13.3a Importance of Stakeholder Engagement
+- 13.3b Techniques for Effective Stakeholder Engagement
+- 13.3c Challenges and Solutions in Stakeholder Engagement
+
+- Chapter 14: Advanced Proposal Development Techniques:
+sections:
+- Section: 14.1 Advanced Techniques in Proposal Development:
+subsections:
+- 14.1a Introduction to Advanced Techniques
+- 14.1b Application in Proposal Development
+- 14.1c Case Studies and Examples
+
+- Section: 14.2 Collaborative Proposal Development:
+subsections:
+- 14.2a Role of Collaboration in Proposal Development
+- 14.2b Techniques for Effective Collaboration
+- 14.2c Case Studies and Examples
+
+- Section: 14.3 Stakeholder Engagement in Proposal Development:
+subsections:
+- 14.3a Importance of Stakeholder Engagement
+- 14.3b Techniques for Effective Stakeholder Engagement
+- 14.3c Challenges and Solutions in Stakeholder Engagement
+
+- Chapter 15: Advanced Web Page Development Techniques:
+sections:
+- Section: 15.1 Advanced Techniques in Web Page Development:
+subsections:
+- 15.1a Introduction to Advanced Techniques
+- 15.1b Application in Web Page Development
+- 15.1c Case Studies and Examples
+
+- Section: 15.2 User Experience in Web Page Development:
+subsections:
+- 15.2a Importance of User Experience
+- 15.2b Techniques for Enhancing User Experience
+- 15.2c Case Studies and Examples
+
+- Section: 15.3 Accessibility in Web Page Development:
+subsections:
+- 15.3a Importance of Accessibility
+- 15.3b Techniques for Ensuring Accessibility
+- 15.3c Case Studies and Examples
+
+- Chapter 16: Advanced Simulation Rehearsal Techniques:
+sections:
+- Section: 16.1 Advanced Techniques in Simulation Rehearsal:
+subsections:
+- 16.1a Introduction to Advanced Techniques
+- 16.1b Application in Simulation Rehearsal
+- 16.1c Case Studies and Examples
+
+- Section: 16.2 Participant Preparation in Simulation Rehearsal:
+subsections:
+- 16.2a Importance of Participant Preparation
+- 16.2b Techniques for Effective Participant Preparation
+- 16.2c Case Studies and Examples
+
+- Section: 16.3 Feedback and Revision in Simulation Rehearsal:
+subsections:
+- 16.3a Role of Feedback and Revision
+- 16.3b Techniques for Effective Feedback and Revision
+- 16.3c Case Studies and Examples
+
+- Chapter 17: Advanced Workshop Participation Techniques:
+sections:
+- Section: 17.1 Advanced Techniques in Workshop Participation:
+subsections:
+- 17.1a Introduction to Advanced Techniques
+- 17.1b Application in Workshop Participation
+- 17.1c Case Studies and Examples
+
+- Section: 17.2 Participant Preparation in Workshop Participation:
+subsections:
+- 17.2a Importance of Participant Preparation
+- 17.2b Techniques for Effective Participant Preparation
+- 17.2c Case Studies and Examples
+
+- Section: 17.3 Feedback and Revision in Workshop Participation:
+subsections:
+- 17.3a Role of Feedback and Revision
+- 17.3b Techniques for Effective Feedback and Revision
+- 17.3c Case Studies and Examples
+
+- Chapter 18: Advanced Techniques in Publication Preparation:
+sections:
+- Section: 18.1 Advanced Techniques in Publication Preparation:
+subsections:
+- 18.1a Introduction to Advanced Techniques
+- 18.1b Application in Publication Preparation
+- 18.1c Case Studies and Examples
+
+- Section: 18.2 Peer Review in Publication Preparation:
+subsections:
+- 18.2a Role of Peer Review
+- 18.2b Techniques for Effective Peer Review
+- 18.2c Case Studies and Examples
+
+- Section: 18.3 Revision and Editing in Publication Preparation:
+subsections:
+- 18.3a Importance of Revision and Editing
+- 18.3b Techniques for Effective Revision and Editing
+- 18.3c Case Studies and Examples
+
+- Chapter 19: Advanced Techniques in Collaborative Problem Solving:
+sections:
+- Section: 19.1 Advanced Techniques in Collaborative Problem Solving:
+subsections:
+- 19.1a Introduction to Advanced Techniques
+- 19.1b Application in Collaborative Problem Solving
+- 19.1c Case Studies and Examples
+
+- Section: 19.2 Conflict Resolution in Collaborative Problem Solving:
+subsections:
+- 19.2a Role of Conflict Resolution
+- 19.2b Techniques for Effective Conflict Resolution
+- 19.2c Case Studies and Examples
+
+- Section: 19.3 Stakeholder Engagement in Collaborative Problem Solving:
+subsections:
+- 19.3a Importance of Stakeholder Engagement
+- 19.3b Techniques for Effective Stakeholder Engagement
+- 19.3c Challenges and Solutions in Stakeholder Engagement
+
+- Chapter 20: Advanced Techniques in Joint Fact Finding:
+sections:
+- Section: 20.1 Advanced Techniques in Joint Fact Finding:
+subsections:
+- 20.1a Introduction to Advanced Techniques
+- 20.1b Application in Joint Fact Finding
+- 20.1c Case Studies and Examples
+
+- Section: 20.2 Conflict Resolution in Joint Fact Finding:
+subsections:
+- 20.2a Role of Conflict Resolution
+- 20.2b Techniques for Effective Conflict Resolution
+- 20.2c Case Studies and Examples
+
+- Section: 20.3 Stakeholder Engagement in Joint Fact Finding:
+subsections:
+- 20.3a Importance of Stakeholder Engagement
+- 20.3b Techniques for Effective Stakeholder Engagement
+- 20.3c Challenges and Solutions in Stakeholder Engagement

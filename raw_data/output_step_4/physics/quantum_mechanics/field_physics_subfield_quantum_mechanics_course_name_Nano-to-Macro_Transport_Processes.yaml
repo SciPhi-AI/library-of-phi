@@ -1,0 +1,219 @@
+textbook:
+  'Nano-to-Macro Transport Processes Textbook":':
+    chapters:
+    - '- Chapter 1: Introduction to Nanotechnology and Nanoscale Transport Phenomena:':
+        sections:
+        - '- Section: 1.1 Characteristic Time and Length:':
+            subsections:
+            - 1.1a Introduction to Nanotechnology
+            - 1.1b Nanoscale Transport Phenomena
+        - '- Section: 1.2 Simple Kinetic Theory:':
+            subsections:
+            - 1.2a Basics of Kinetic Theory
+            - 1.2b Applications in Nanotechnology
+    - "- Chapter 2: Schr\xF6dinger Equation and Material Waves:":
+        sections:
+        - "- Section: 2.1 Solution of Schr\xF6dinger Equation:":
+            subsections:
+            - 2.1a Quantum Mechanics Basics
+            - 2.1b Wave-Particle Duality
+        - '- Section: 2.2 Energy Quantization:':
+            subsections:
+            - 2.2a Basics of Energy Quantization
+            - 2.2b Applications in Nanotechnology
+    - '- Chapter 3: Electronic Levels in One-Dimensional Lattice Chain:':
+        sections:
+        - '- Section: 3.1 Crystal Bonding and Electronic Energy Levels in Crystals:':
+            subsections:
+            - 3.1a Introduction to Crystals and Lattice Structures
+            - 3.1b Electronic Energy Levels in Crystals
+    - '- Chapter 4: Phonon Energy Levels in Crystal and Crystal Structures:':
+        sections:
+        - '- Section: 4.1 Density of States and Statistical Distributions:':
+            subsections:
+            - 4.1a Phonons and Crystal Vibrations
+            - 4.1b Statistical Distributions and Phonon Energy Levels
+    - '- Chapter 5: Specific Heat and Planck''s Law:':
+        sections:
+        - '- Section: 5.1 Fundamentals of Statistical Thermodynamics:':
+            subsections:
+            - 5.1a Thermodynamic Properties of Materials
+            - 5.1b Applications in Nanotechnology
+    - '- Chapter 6: Energy Transfer by Waves: Plane Waves:':
+        sections:
+        - '- Section: 6.1 Electromagnetic Waves: Reflection at a Single Interface:':
+            subsections:
+            - 6.1a Wave Properties and Reflection
+            - 6.1b Applications in Nanotechnology
+        - '- Section: 6.2 EM Wave Propagation Through Thin Films and Multilayers:':
+            subsections:
+            - 6.2a Thin Film Interference
+            - 6.2b Applications in Nanotechnology
+    - '- Chapter 7: Wave Phenomena and Landauer Formalism:':
+        sections:
+        - '- Section: 7.1 Particle Description, Liouville and Boltzmann Equations:':
+            subsections:
+            - 7.1a Kinetic Theory of Gases
+            - 7.1b Applications in Nanotechnology
+        - '- Section: 7.2 Fermi Golden Rule and Relaxation Time Approximation:':
+            subsections:
+            - 7.2a Quantum Mechanics and Transition Probabilities
+            - 7.2b Applications in Nanotechnology
+    - '- Chapter 8: Solutions to Boltzmann Equation: Diffusion Laws:':
+        sections:
+        - '- Section: 8.1 Electron Transport and Thermoelectric Effects:':
+            subsections:
+            - 8.1a Electron Transport in Solids
+            - 8.1b Thermoelectric Effects in Materials
+        - '- Section: 8.2 Classical Size Effects, Parallel Direction:':
+            subsections:
+            - 8.2a Size Effects in Parallel Direction
+            - 8.2b Applications in Nanotechnology
+        - '- Section: 8.3 Classical Size Effects, Perpendicular Direction:':
+            subsections:
+            - 8.3a Size Effects in Perpendicular Direction
+            - 8.3b Applications in Nanotechnology
+    - '- Chapter 9: Slip Condition, Coupled Energy Transport and Conversion:':
+        sections:
+        - '- Section: 9.1 PN junction, Diode and Photovoltaic Cells:':
+            subsections:
+            - 9.1a Semiconductor Junctions and Diodes
+            - 9.1b Applications in Nanotechnology
+    - '- Chapter 10: Liquids: Brownian Motion and Forces in Liquids:':
+        sections:
+        - '- Section: 10.1 Electrical Double Layer, Size Effects in Phase Change:':
+            subsections:
+            - 10.1a Brownian Motion and Diffusion
+            - 10.1b Interfacial Forces in Liquids
+    - '- Chapter 11: Statistical Foundation for Molecular Dynamics Simulation:':
+        sections:
+        - '- Section: 11.1 Final Project: Research Topic Report:':
+            subsections:
+            - 11.1a Introduction to Molecular Dynamics Simulation
+            - 11.1b Techniques and Algorithms for Molecular Dynamics Simulation
+    - '- Chapter 12: Nanoscale Heat Transfer:':
+        sections:
+        - '- Section: 12.1 Fundamentals of Nanoscale Heat Transfer:':
+            subsections:
+            - 12.1a Introduction to Nanoscale Heat Transfer
+            - 12.1b Applications and Challenges
+        - '- Section: 12.2 Nanoscale Thermal Conductivity:':
+            subsections:
+            - 12.2a Basics of Nanoscale Thermal Conductivity
+            - 12.2b Measurement Techniques and Challenges
+        - '- Section: 12.3 Nanoscale Radiative Heat Transfer:':
+            subsections:
+            - 12.3a Basics of Nanoscale Radiative Heat Transfer
+            - 12.3b Applications and Challenges
+    - '- Chapter 13: Nanoscale Mass Transfer:':
+        sections:
+        - '- Section: 13.1 Fundamentals of Nanoscale Mass Transfer:':
+            subsections:
+            - 13.1a Introduction to Nanoscale Mass Transfer
+            - 13.1b Applications and Challenges
+        - '- Section: 13.2 Nanoscale Diffusion:':
+            subsections:
+            - 13.2a Basics of Nanoscale Diffusion
+            - 13.2b Measurement Techniques and Challenges
+        - '- Section: 13.3 Nanoscale Convective Mass Transfer:':
+            subsections:
+            - 13.3a Basics of Nanoscale Convective Mass Transfer
+            - 13.3b Applications and Challenges
+    - '- Chapter 14: Nanoscale Momentum Transfer:':
+        sections:
+        - '- Section: 14.1 Fundamentals of Nanoscale Momentum Transfer:':
+            subsections:
+            - 14.1a Introduction to Nanoscale Momentum Transfer
+            - 14.1b Applications and Challenges
+        - '- Section: 14.2 Nanoscale Viscosity:':
+            subsections:
+            - 14.2a Basics of Nanoscale Viscosity
+            - 14.2b Measurement Techniques and Challenges
+        - '- Section: 14.3 Nanoscale Pressure Drop:':
+            subsections:
+            - 14.3a Basics of Nanoscale Pressure Drop
+            - 14.3b Applications and Challenges
+    - '- Chapter 15: Nanoscale Multiphase Flow:':
+        sections:
+        - '- Section: 15.1 Fundamentals of Nanoscale Multiphase Flow:':
+            subsections:
+            - 15.1a Introduction to Nanoscale Multiphase Flow
+            - 15.1b Applications and Challenges
+        - '- Section: 15.2 Nanoscale Bubble Dynamics:':
+            subsections:
+            - 15.2a Basics of Nanoscale Bubble Dynamics
+            - 15.2b Measurement Techniques and Challenges
+        - '- Section: 15.3 Nanoscale Droplet Dynamics:':
+            subsections:
+            - 15.3a Basics of Nanoscale Droplet Dynamics
+            - 15.3b Applications and Challenges
+    - '- Chapter 16: Nanoscale Reactive Flow:':
+        sections:
+        - '- Section: 16.1 Fundamentals of Nanoscale Reactive Flow:':
+            subsections:
+            - 16.1a Introduction to Nanoscale Reactive Flow
+            - 16.1b Applications and Challenges
+        - '- Section: 16.2 Nanoscale Combustion:':
+            subsections:
+            - 16.2a Basics of Nanoscale Combustion
+            - 16.2b Measurement Techniques and Challenges
+        - '- Section: 16.3 Nanoscale Chemical Kinetics:':
+            subsections:
+            - 16.3a Basics of Nanoscale Chemical Kinetics
+            - 16.3b Applications and Challenges
+    - '- Chapter 17: Nanoscale Electrokinetic Flow:':
+        sections:
+        - '- Section: 17.1 Fundamentals of Nanoscale Electrokinetic Flow:':
+            subsections:
+            - 17.1a Introduction to Nanoscale Electrokinetic Flow
+            - 17.1b Applications and Challenges
+        - '- Section: 17.2 Nanoscale Electrophoresis:':
+            subsections:
+            - 17.2a Basics of Nanoscale Electrophoresis
+            - 17.2b Measurement Techniques and Challenges
+        - '- Section: 17.3 Nanoscale Electroosmosis:':
+            subsections:
+            - 17.3a Basics of Nanoscale Electroosmosis
+            - 17.3b Applications and Challenges
+    - '- Chapter 18: Nanoscale Magnetohydrodynamic Flow:':
+        sections:
+        - '- Section: 18.1 Fundamentals of Nanoscale Magnetohydrodynamic Flow:':
+            subsections:
+            - 18.1a Introduction to Nanoscale Magnetohydrodynamic Flow
+            - 18.1b Applications and Challenges
+        - '- Section: 18.2 Nanoscale Magnetic Field Effects:':
+            subsections:
+            - 18.2a Basics of Nanoscale Magnetic Field Effects
+            - 18.2b Measurement Techniques and Challenges
+        - '- Section: 18.3 Nanoscale Magnetic Fluid Dynamics:':
+            subsections:
+            - 18.3a Basics of Nanoscale Magnetic Fluid Dynamics
+            - 18.3b Applications and Challenges
+    - '- Chapter 19: Nanoscale Porous Media Flow:':
+        sections:
+        - '- Section: 19.1 Fundamentals of Nanoscale Porous Media Flow:':
+            subsections:
+            - 19.1a Introduction to Nanoscale Porous Media Flow
+            - 19.1b Applications and Challenges
+        - '- Section: 19.2 Nanoscale Permeability:':
+            subsections:
+            - 19.2a Basics of Nanoscale Permeability
+            - 19.2b Measurement Techniques and Challenges
+        - '- Section: 19.3 Nanoscale Capillary Pressure:':
+            subsections:
+            - 19.3a Basics of Nanoscale Capillary Pressure
+            - 19.3b Applications and Challenges
+    - '- Chapter 20: Nanoscale Biological Flow:':
+        sections:
+        - '- Section: 20.1 Fundamentals of Nanoscale Biological Flow:':
+            subsections:
+            - 20.1a Introduction to Nanoscale Biological Flow
+            - 20.1b Applications and Challenges
+        - '- Section: 20.2 Nanoscale Blood Flow:':
+            subsections:
+            - 20.2a Basics of Nanoscale Blood Flow
+            - 20.2b Measurement Techniques and Challenges
+        - '- Section: 20.3 Nanoscale Cellular Flow:':
+            subsections:
+            - 20.3a Basics of Nanoscale Cellular Flow
+            - 20.3b Applications and Challenges

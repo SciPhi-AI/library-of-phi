@@ -1,0 +1,276 @@
+textbook:
+  'Compressible Flow: Theory and Applications":':
+    chapters:
+    - '- Chapter 1: Introduction to Compressible Flow:':
+        sections:
+        - '- Section: 1.1 Basics:':
+            subsections:
+            - 1.1a Continuity and Momentum Equations
+            - 1.1b Thermo - and Mechanical Processes
+            - 1.1c Splitting the Energy Equation
+            - 1.1d Entropy Changes and Thermodynamic Context
+            - 1.1e Exact Solution of the Navier-Stokes Equations for a One-Dimensional
+              Flow
+            - 1.1f Physical Insight into Shock Thickness and the 'Origin' of Losses
+              for a Shock Wave
+        - '- Section: 1.2 Integral Forms of Equations of Motion:':
+            subsections:
+            - 1.2a Non-dimensional Parameters Characterizing Compressible Flow
+            - 1.2b Appropriate Scaling-what are the Relevant Nondimensional Parameters?
+            - 1.2c When is a Flow Compressible [For Both Steady and Unsteady Flow]?
+        - '- Section: 1.3 Quasi 1-D Compressible Flow and Extensions:':
+            subsections:
+            - 1.3a Physical Basis for the 1-D Flow Assumption, Role of 1-D Flow Descriptions
+            - 1.3b 1-D Flow in Converging-diverging Nozzles
+            - 1.3c Shock Waves, Behavior of Nozzles
+        - '- Section: 1.4 Generalized One-dimensional Flow With Mass, Momentum, and Energy Interchange:':
+            subsections:
+            - 1.4a Effect of Friction
+            - 1.4b General Compressible Flow Processes in Propulsion Systems
+            - 1.4c Representation of Flow Processes in H-K Diagrams
+            - 1.4d Applications to Ramjets and Scramjets
+        - '- Section: 1.5 Axisymmetric Compressible Swirling Flow:':
+            subsections:
+            - 1.5a Derivation of Equations
+            - '1.5b Examples: Compound-compressible Flow'
+        - '- Section: 1.6 Disturbance Behavior in a Compressible Flow:':
+            subsections:
+            - '1.6a Types of Perturbations in Compressible Flow: Entropy, Vorticity
+              and Pressure Disturbances'
+            - 1.6b Coupling of Disturbance Types in Compressible Flow
+            - 1.6c Characteristic Disturbance Velocities and Behavior
+            - 1.6d Unsteady Flow and Upstream Influence in Compressible Flow
+        - '- Section: 1.7 Gas Dynamic Discontinuities:':
+            subsections:
+            - 1.7a Shock Waves
+            - 1.7b Deflagrations
+            - 1.7c Detonations
+            - "1.7d Crocco\u2019s Theorem"
+        - '- Section: 1.8 Two-Dimensional, Compressible, Linear Flows:':
+            subsections:
+            - 1.8a Constant Entropy Flows
+            - 1.8b Slender, Axially Symmetric Flows
+        - '- Section: 1.9 Two-Dimensional, Compressible, Non-Linear Flows:':
+            subsections:
+            - 1.9a Inviscid, Unsteady Transonic Flows
+            - 1.9b Inviscid Hypersonic Flows
+    - '- Chapter 2: Flow Measurement Techniques:':
+        sections:
+        - '- Section: 2.1 Pitot-Static Probe:':
+            subsections:
+            - 2.1a Introduction to Pitot-Static Probe
+            - 2.1b Applications and Limitations
+        - '- Section: 2.2 Hot-Wire Anemometry:':
+            subsections:
+            - 2.2a Introduction to Hot-Wire Anemometry
+            - 2.2b Applications and Limitations
+        - '- Section: 2.3 Laser Doppler Anemometry:':
+            subsections:
+            - 2.3a Introduction to Laser Doppler Anemometry
+            - 2.3b Applications and Limitations
+        - '- Section: 2.4 Pressure-Sensitive Paint:':
+            subsections:
+            - 2.4a Introduction to Pressure-Sensitive Paint
+            - 2.4b Applications and Limitations
+        - '- Section: 2.5 Shadowgraph and Schlieren Techniques:':
+            subsections:
+            - 2.5a Introduction to Shadowgraph and Schlieren Techniques
+            - 2.5b Applications and Limitations
+    - '- Chapter 3: Compressible Flow in Nozzles and Diffusers:':
+        sections:
+        - '- Section: 3.1 Isentropic Flow in Nozzles:':
+            subsections:
+            - 3.1a Introduction to Isentropic Flow in Nozzles
+            - 3.1b Applications and Limitations
+        - '- Section: 3.2 Normal Shock Waves in Nozzles:':
+            subsections:
+            - 3.2a Introduction to Normal Shock Waves in Nozzles
+            - 3.2b Applications and Limitations
+        - '- Section: 3.3 Oblique Shock Waves in Nozzles:':
+            subsections:
+            - 3.3a Introduction to Oblique Shock Waves in Nozzles
+            - 3.3b Applications and Limitations
+        - '- Section: 3.4 Flow Separation and Shock-Boundary Layer Interaction in Nozzles:':
+            subsections:
+            - 3.4a Introduction to Flow Separation and Shock-Boundary Layer Interaction
+              in Nozzles
+            - 3.4b Applications and Limitations
+        - '- Section: 3.5 Diffusers and Duct Flow:':
+            subsections:
+            - 3.5a Introduction to Diffusers and Duct Flow
+            - 3.5b Applications and Limitations
+    - '- Chapter 4: Compressible Flow in Turbomachinery:':
+        sections:
+        - '- Section: 4.1 Introduction to Turbomachinery:':
+            subsections:
+            - 4.1a Basics of Turbomachinery
+            - 4.1b Applications and Limitations
+        - '- Section: 4.2 Compressible Flow in Centrifugal Compressors:':
+            subsections:
+            - 4.2a Introduction to Compressible Flow in Centrifugal Compressors
+            - 4.2b Applications and Limitations
+        - '- Section: 4.3 Compressible Flow in Axial Compressors:':
+            subsections:
+            - 4.3a Introduction to Compressible Flow in Axial Compressors
+            - 4.3b Applications and Limitations
+        - '- Section: 4.4 Compressible Flow in Turbine Blades:':
+            subsections:
+            - 4.4a Introduction to Compressible Flow in Turbine Blades
+            - 4.4b Applications and Limitations
+        - '- Section: 4.5 Compressible Flow in Nozzle Guide Vanes:':
+            subsections:
+            - 4.5a Introduction to Compressible Flow in Nozzle Guide Vanes
+            - 4.5b Applications and Limitations
+    - '- Chapter 5: Compressible Flow in Aerospace Applications:':
+        sections:
+        - '- Section: 5.1 Compressible Flow in Airfoils:':
+            subsections:
+            - 5.1a Introduction to Compressible Flow in Airfoils
+            - 5.1b Applications and Limitations
+        - '- Section: 5.2 Compressible Flow in Wings and Winglets:':
+            subsections:
+            - 5.2a Introduction to Compressible Flow in Wings and Winglets
+            - 5.2b Applications and Limitations
+        - '- Section: 5.3 Compressible Flow in Rocket Propulsion:':
+            subsections:
+            - 5.3a Introduction to Compressible Flow in Rocket Propulsion
+            - 5.3b Applications and Limitations
+        - '- Section: 5.4 Compressible Flow in Supersonic and Hypersonic Vehicles:':
+            subsections:
+            - 5.4a Introduction to Compressible Flow in Supersonic and Hypersonic
+              Vehicles
+            - 5.4b Applications and Limitations
+    - '- Chapter 6: Compressible Flow and Energy Conversion:':
+        sections:
+        - '- Section: 6.1 Compressible Flow in Power Generation:':
+            subsections:
+            - 6.1a Introduction to Compressible Flow in Power Generation
+            - 6.1b Applications and Limitations
+        - '- Section: 6.2 Compressible Flow in Gas Turbines:':
+            subsections:
+            - 6.2a Introduction to Compressible Flow in Gas Turbines
+            - 6.2b Applications and Limitations
+        - '- Section: 6.3 Compressible Flow in Steam Turbines:':
+            subsections:
+            - 6.3a Introduction to Compressible Flow in Steam Turbines
+            - 6.3b Applications and Limitations
+        - '- Section: 6.4 Compressible Flow in Wind Turbines:':
+            subsections:
+            - 6.4a Introduction to Compressible Flow in Wind Turbines
+            - 6.4b Applications and Limitations
+        - '- Section: 6.5 Compressible Flow in Hydraulic Turbines:':
+            subsections:
+            - 6.5a Introduction to Compressible Flow in Hydraulic Turbines
+            - 6.5b Applications and Limitations
+    - '- Chapter 7: Compressible Flow and Heat Transfer:':
+        sections:
+        - '- Section: 7.1 Compressible Flow Heat Transfer Fundamentals:':
+            subsections:
+            - 7.1a Basics of Compressible Flow Heat Transfer
+            - 7.1b Applications and Limitations
+        - '- Section: 7.2 Compressible Flow Heat Transfer in Aerospace Applications:':
+            subsections:
+            - 7.2a Introduction to Compressible Flow Heat Transfer in Aerospace Applications
+            - 7.2b Applications and Limitations
+        - '- Section: 7.3 Compressible Flow Heat Transfer in Power Generation:':
+            subsections:
+            - 7.3a Introduction to Compressible Flow Heat Transfer in Power Generation
+            - 7.3b Applications and Limitations
+        - '- Section: 7.4 Compressible Flow Heat Transfer in Turbomachinery:':
+            subsections:
+            - 7.4a Introduction to Compressible Flow Heat Transfer in Turbomachinery
+            - 7.4b Applications and Limitations
+        - '- Section: 7.5 Compressible Flow Heat Transfer in Internal Combustion Engines:':
+            subsections:
+            - 7.5a Introduction to Compressible Flow Heat Transfer in Internal Combustion
+              Engines
+            - 7.5b Applications and Limitations
+    - '- Chapter 8: Compressible Flow and Shock Waves:':
+        sections:
+        - '- Section: 8.1 Shock Wave Fundamentals:':
+            subsections:
+            - 8.1a Basics of Shock Waves
+            - 8.1b Applications and Limitations
+        - '- Section: 8.2 Shock Wave Interactions:':
+            subsections:
+            - 8.2a Introduction to Shock Wave Interactions
+            - 8.2b Applications and Limitations
+        - '- Section: 8.3 Shock Wave Applications in Aerospace Engineering:':
+            subsections:
+            - 8.3a Introduction to Shock Wave Applications in Aerospace Engineering
+            - 8.3b Applications and Limitations
+        - '- Section: 8.4 Shock Waves in Engineering and Industrial Processes:':
+            subsections:
+            - 8.4a Introduction to Shock Waves in Engineering and Industrial Processes
+            - 8.4b Applications and Limitations
+    - '- Chapter 9: Compressible Flow and Computational Fluid Dynamics:':
+        sections:
+        - '- Section: 9.1 Basics of Computational Fluid Dynamics (CFD):':
+            subsections:
+            - 9.1a Introduction to Computational Fluid Dynamics (CFD)
+            - 9.1b Applications and Limitations
+        - '- Section: 9.2 Compressible Flow Modeling in CFD:':
+            subsections:
+            - 9.2a Introduction to Compressible Flow Modeling in CFD
+            - 9.2b Applications and Limitations
+        - '- Section: 9.3 Applications of CFD in Compressible Flow:':
+            subsections:
+            - 9.3a Introduction to Applications of CFD in Compressible Flow
+            - 9.3b Applications and Limitations
+        - '- Section: 9.4 Advances in CFD for Compressible Flow:':
+            subsections:
+            - 9.4a Introduction to Advances in CFD for Compressible Flow
+            - 9.4b Applications and Limitations
+    - '- Chapter 10: Compressible Flow and Experimental Techniques:':
+        sections:
+        - '- Section: 10.1 Wind Tunnel Testing:':
+            subsections:
+            - 10.1a Introduction to Wind Tunnel Testing
+            - 10.1b Applications and Limitations
+        - '- Section: 10.2 Shock Tube Experiments:':
+            subsections:
+            - 10.2a Introduction to Shock Tube Experiments
+            - 10.2b Applications and Limitations
+        - '- Section: 10.3 Supersonic and Hypersonic Flow Visualization:':
+            subsections:
+            - 10.3a Introduction to Supersonic and Hypersonic Flow Visualization
+            - 10.3b Applications and Limitations
+        - '- Section: 10.4 Flow Control Techniques in Compressible Flow Experiments:':
+            subsections:
+            - 10.4a Introduction to Flow Control Techniques in Compressible Flow Experiments
+            - 10.4b Applications and Limitations
+    - '- Chapter 11: Compressible Flow in Propulsion Systems:':
+        sections:
+        - '- Section: 11.1 Introduction to Propulsion Systems:':
+            subsections:
+            - 11.1a Basics of Propulsion Systems
+            - 11.1b Applications and Limitations
+        - '- Section: 11.2 Compressible Flow in Jet Engines:':
+            subsections:
+            - 11.2a Introduction to Compressible Flow in Jet Engines
+            - 11.2b Applications and Limitations
+        - '- Section: 11.3 Compressible Flow in Rocket Engines:':
+            subsections:
+            - 11.3a Introduction to Compressible Flow in Rocket Engines
+            - 11.3b Applications and Limitations
+        - '- Section: 11.4 Compressible Flow in Ramjet and Scramjet Engines:':
+            subsections:
+            - 11.4a Introduction to Compressible Flow in Ramjet and Scramjet Engines
+            - 11.4b Applications and Limitations
+    - '- Chapter 12: Compressible Flow in Heat Exchangers:':
+        sections:
+        - '- Section: 12.1 Introduction to Heat Exchangers:':
+            subsections:
+            - 12.1a Basics of Heat Exchangers
+            - 12.1b Applications and Limitations
+        - '- Section: 12.2 Compressible Flow in Shell and Tube Heat Exchangers:':
+            subsections:
+            - 12.2a Introduction to Compressible Flow in Shell and Tube Heat Exchangers
+            - 12.2b Applications and Limitations
+        - '- Section: 12.3 Compressible Flow in Plate Heat Exchangers:':
+            subsections:
+            - 12.3a Introduction to Compressible Flow in Plate Heat Exchangers
+            - 12.3b Applications and Limitations
+        - '- Section: 12.4 Compressible Flow in Regenerative Heat Exchangers:':
+            subsections:
+            - 12.4a Introduction to Compressible Flow in Regenerative Heat Exchangers

@@ -1,0 +1,237 @@
+textbook:
+  'Principles of Autonomy and Decision Making: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Foundations of Autonomy:':
+        sections:
+        - '- Section: 1.1 Introduction:':
+            subsections: []
+        - '- Section: 1.2 State Space Search:':
+            subsections:
+            - 1.2a Uninformed Search
+            - 1.2b Heuristic Search
+        - '- Section: 1.3 Complexity of State Space Search:':
+            subsections:
+            - 1.3a Time Complexity Analysis
+            - 1.3b Space Complexity Analysis
+        - '- Section: 1.4 Soundness and Completeness of Search:':
+            subsections:
+            - 1.4a Soundness of Search Algorithms
+            - 1.4b Completeness of Search Algorithms
+    - '- Chapter 2: Constraint Programming and Satisfaction:':
+        sections:
+        - '- Section: 2.1 Constraint Programming:':
+            subsections:
+            - 2.1a Constraint Modeling
+            - 2.1b Constraint Solving Techniques
+        - '- Section: 2.2 Constraint Satisfaction:':
+            subsections:
+            - 2.2a Backtracking Algorithms
+            - 2.2b Constraint Propagation
+        - '- Section: 2.3 Conflict-Directed Backtracking:':
+            subsections:
+            - 2.3a Conflict Analysis
+            - 2.3b Learning from Conflicts
+    - '- Chapter 3: Planning and Execution:':
+        sections:
+        - '- Section: 3.1 Graph Plan:':
+            subsections:
+            - 3.1a Graph Plan Representation
+            - 3.1b Plan Extraction
+        - '- Section: 3.2 Plan Termination and Plan Execution:':
+            subsections:
+            - 3.2a Plan Termination Conditions
+            - 3.2b Plan Execution Techniques
+        - '- Section: 3.3 Activity Planning:':
+            subsections:
+            - 3.3a Activity Representation
+            - 3.3b Activity Scheduling
+    - '- Chapter 4: Model-Based Reasoning:':
+        sections:
+        - '- Section: 4.1 Propositional Logic and Satisfiability:':
+            subsections:
+            - 4.1a Syntax and Semantics of Propositional Logic
+            - 4.1b Satisfiability Testing Algorithms
+        - '- Section: 4.2 Encoding Planning Problems as Propositional Logic:':
+            subsections:
+            - 4.2a Translation Techniques
+            - 4.2b Planning Domain Definition Language
+        - '- Section: 4.3 Diagnosis and Mode Estimation:':
+            subsections:
+            - 4.3a Fault Diagnosis
+            - 4.3b Mode Estimation Techniques
+        - '- Section: 4.4 OpSat and Conflict-Directed A*:':
+            subsections:
+            - 4.4a OpSat Algorithm
+            - 4.4b Conflict-Directed A* Algorithm
+    - '- Chapter 5: Global Path Planning:':
+        sections:
+        - '- Section: 5.1 Informed Search:':
+            subsections:
+            - 5.1a A* Algorithm
+            - 5.1b Dijkstra's Algorithm
+        - '- Section: 5.2 Sampling-Based Algorithms for Motion Planning:':
+            subsections:
+            - 5.2a Probabilistic Roadmap Method
+            - 5.2b Rapidly-exploring Random Tree
+    - '- Chapter 6: Mathematical Programming:':
+        sections:
+        - '- Section: 6.1 Introduction to Mathematical Programming:':
+            subsections:
+            - 6.1a Linear Programming
+            - 6.1b Integer Programming
+        - '- Section: 6.2 The Simplex Method:':
+            subsections:
+            - 6.2a Simplex Algorithm
+            - 6.2b Big-M Method
+        - '- Section: 6.3 Optimization:':
+            subsections:
+            - 6.3a Convex Optimization
+            - 6.3b Nonlinear Optimization
+    - '- Chapter 7: Reasoning in an Uncertain World:':
+        sections:
+        - '- Section: 7.1 Inferring State in an Uncertain World:':
+            subsections:
+            - 7.1a Bayesian Inference
+            - 7.1b Particle Filtering
+        - '- Section: 7.2 Hidden Markov Models:':
+            subsections:
+            - 7.2a HMM Representation
+            - 7.2b HMM Learning Algorithms
+    - '- Chapter 8: Dynamic Programming and Machine Learning:':
+        sections:
+        - '- Section: 8.1 Markov Decision Processes:':
+            subsections:
+            - 8.1a Value Iteration
+            - 8.1b Policy Iteration
+        - '- Section: 8.2 Policy Iteration:':
+            subsections:
+            - 8.2a Policy Evaluation
+            - 8.2b Policy Improvement
+        - '- Section: 8.3 Reinforcement Learning:':
+            subsections:
+            - 8.3a Q-Learning
+            - 8.3b Deep Q-Networks
+    - '- Chapter 9: Game Theory:':
+        sections:
+        - '- Section: 9.1 Sequential Games:':
+            subsections:
+            - 9.1a Extensive Form Games
+            - 9.1b Subgame Perfect Equilibrium
+        - '- Section: 9.2 Differential Games:':
+            subsections:
+            - 9.2a Pursuit-Evasion Games
+            - 9.2b Hamilton-Jacobi-Isaacs Equation
+    - '- Chapter 10: Advanced Topics in Autonomy:':
+        sections:
+        - '- Section: 10.1 Multi-Agent Systems:':
+            subsections:
+            - 10.1a Cooperative and Competitive Multi-Agent Systems
+            - 10.1b Communication and Coordination in Multi-Agent Systems
+        - '- Section: 10.2 Autonomous Robotics:':
+            subsections:
+            - 10.2a Robot Perception and Localization
+            - 10.2b Robot Motion Planning and Control
+        - '- Section: 10.3 Autonomous Vehicles:':
+            subsections:
+            - 10.3a Perception and Localization in Autonomous Vehicles
+            - 10.3b Path Planning and Control in Autonomous Vehicles
+    - '- Chapter 11: Ethics and Legal Aspects of Autonomy:':
+        sections:
+        - '- Section: 11.1 Ethical Considerations in Autonomy:':
+            subsections:
+            - 11.1a Ethical Dilemmas in Autonomous Systems
+            - 11.1b Ethical Design of Autonomous Systems
+        - '- Section: 11.2 Legal Aspects of Autonomy:':
+            subsections:
+            - 11.2a Legal Responsibility in Autonomous Systems
+            - 11.2b Regulation of Autonomous Systems
+    - '- Chapter 12: Future Directions in Autonomy:':
+        sections:
+        - '- Section: 12.1 Emerging Technologies in Autonomy:':
+            subsections:
+            - 12.1a Quantum Computing in Autonomy
+            - 12.1b Artificial Intelligence in Autonomy
+        - '- Section: 12.2 Challenges and Opportunities in Autonomy:':
+            subsections:
+            - 12.2a Technical Challenges in Autonomy
+            - 12.2b Opportunities for Innovation in Autonomy
+    - '- Chapter 13: Case Studies in Autonomy:':
+        sections:
+        - '- Section: 13.1 Case Study: Autonomous Drones:':
+            subsections:
+            - 13.1a Design and Implementation of Autonomous Drones
+            - 13.1b Applications of Autonomous Drones
+        - '- Section: 13.2 Case Study: Autonomous Cars:':
+            subsections:
+            - 13.2a Design and Implementation of Autonomous Cars
+            - 13.2b Applications of Autonomous Cars
+    - '- Chapter 14: Autonomy in Space Exploration:':
+        sections:
+        - '- Section: 14.1 Autonomous Spacecraft:':
+            subsections:
+            - 14.1a Design and Implementation of Autonomous Spacecraft
+            - 14.1b Applications of Autonomous Spacecraft
+        - '- Section: 14.2 Autonomous Rovers:':
+            subsections:
+            - 14.2a Design and Implementation of Autonomous Rovers
+            - 14.2b Applications of Autonomous Rovers
+    - '- Chapter 15: Autonomy in Healthcare:':
+        sections:
+        - '- Section: 15.1 Autonomous Surgical Robots:':
+            subsections:
+            - 15.1a Design and Implementation of Autonomous Surgical Robots
+            - 15.1b Applications of Autonomous Surgical Robots
+        - '- Section: 15.2 Autonomous Diagnostic Systems:':
+            subsections:
+            - 15.2a Design and Implementation of Autonomous Diagnostic Systems
+            - 15.2b Applications of Autonomous Diagnostic Systems
+    - '- Chapter 16: Autonomy in Defense:':
+        sections:
+        - '- Section: 16.1 Autonomous Military Drones:':
+            subsections:
+            - 16.1a Design and Implementation of Autonomous Military Drones
+            - 16.1b Applications of Autonomous Military Drones
+        - '- Section: 16.2 Autonomous Military Robots:':
+            subsections:
+            - 16.2a Design and Implementation of Autonomous Military Robots
+            - 16.2b Applications of Autonomous Military Robots
+    - '- Chapter 17: Autonomy in Agriculture:':
+        sections:
+        - '- Section: 17.1 Autonomous Farming Equipment:':
+            subsections:
+            - 17.1a Design and Implementation of Autonomous Farming Equipment
+            - 17.1b Applications of Autonomous Farming Equipment
+        - '- Section: 17.2 Autonomous Irrigation Systems:':
+            subsections:
+            - 17.2a Design and Implementation of Autonomous Irrigation Systems
+            - 17.2b Applications of Autonomous Irrigation Systems
+    - '- Chapter 18: Autonomy in Manufacturing:':
+        sections:
+        - '- Section: 18.1 Autonomous Industrial Robots:':
+            subsections:
+            - 18.1a Design and Implementation of Autonomous Industrial Robots
+            - 18.1b Applications of Autonomous Industrial Robots
+        - '- Section: 18.2 Autonomous Assembly Systems:':
+            subsections:
+            - 18.2a Design and Implementation of Autonomous Assembly Systems
+            - 18.2b Applications of Autonomous Assembly Systems
+    - '- Chapter 19: Autonomy in Transportation:':
+        sections:
+        - '- Section: 19.1 Autonomous Trains:':
+            subsections:
+            - 19.1a Design and Implementation of Autonomous Trains
+            - 19.1b Applications of Autonomous Trains
+        - '- Section: 19.2 Autonomous Ships:':
+            subsections:
+            - 19.2a Design and Implementation of Autonomous Ships
+            - 19.2b Applications of Autonomous Ships
+    - '- Chapter 20: Autonomy in Energy:':
+        sections:
+        - '- Section: 20.1 Autonomous Power Grids:':
+            subsections:
+            - 20.1a Design and Implementation of Autonomous Power Grids
+            - 20.1b Applications of Autonomous Power Grids
+        - '- Section: 20.2 Autonomous Renewable Energy Systems:':
+            subsections:
+            - 20.2a Design and Implementation of Autonomous Renewable Energy Systems
+            - 20.2b Applications of Autonomous Renewable Energy Systems

@@ -1,0 +1,570 @@
+textbook:
+  'Physics of Microfabrication: Front End Processing":':
+    chapters:
+    - 'Crystal Growth, Wafer Fabrication, and Basic Properties of Si Wafers:':
+        sections:
+        - '1.1 Crystal Growth:':
+            subsections:
+            - 1.1a Introduction to Crystal Growth Techniques
+            - 1.1b Seed Crystal Preparation
+            - 1.1c Nucleation and Growth Mechanisms
+            - 1.1d Crystal Defects and Impurities
+        - '1.2 Wafer Fabrication:':
+            subsections:
+            - 1.2a Introduction to Wafer Fabrication Processes
+            - 1.2b Photolithography
+            - 1.2c Etching Techniques
+            - 1.2d Ion Implantation
+            - 1.2e Thin Film Deposition
+        - '1.3 Basic Properties of Si Wafers:':
+            subsections:
+            - 1.3a Crystal Structure of Silicon
+            - 1.3b Crystallographic Planes and Directions in Silicon
+            - 1.3c Lattice Constant and Unit Cell
+            - 1.3d Crystallographic Defects in Silicon
+            - 1.3e Silicon Wafer Orientation and Flatness
+            - 1.3f Wafer Bow and Warp
+            - 1.3g Wafer Thickness and TTV Measurement
+    - 'Wafer Cleaning and Gettering:':
+        sections:
+        - '2.1 Wafer Cleaning:':
+            subsections:
+            - 2.1a Introduction to Wafer Cleaning Techniques
+            - 2.1b Wet Cleaning Methods
+            - 2.1c Dry Cleaning Methods
+            - 2.1d Surface Contamination and Cleaning Challenges
+        - '2.2 Gettering:':
+            subsections:
+            - 2.2a Introduction to Gettering Techniques
+            - 2.2b Principles of Gettering
+            - 2.2c Gettering Materials and Processes
+            - 2.2d Gettering for Silicon Devices
+            - 2.2e Gettering for Compound Semiconductors
+            - 2.2f Advanced Gettering Techniques
+    - 'Oxidation and the Si/SiO2 Interface:':
+        sections:
+        - '3.1 Deal/Grove Model:':
+            subsections:
+            - 3.1a Introduction to Deal/Grove Model
+            - 3.1b Kinetics of Thermal Oxidation
+            - 3.1c Silicon Dioxide Growth Mechanisms
+            - 3.1d Oxide Thickness and Growth Rate Control
+            - 3.1e Deal-Grove Model for Oxide Growth
+        - '3.2 Thin Oxide Models:':
+            subsections:
+            - 3.2a Introduction to Thin Oxide Models
+            - 3.2b Bird's Beak and Oxide Encroachment
+            - 3.2c Oxide Interface Traps and Defects
+            - 3.2d Oxide Stress and Strain Effects
+            - 3.2e Thin Oxide Breakdown and Reliability
+        - '3.3 2D Effects:':
+            subsections:
+            - 3.3a Introduction to 2D Effects in Oxidation
+            - 3.3b Oxide Step Coverage and Recess
+            - 3.3c Oxide Bird's Beak Suppression Techniques
+            - 3.3d Oxide Edge Roughness and Non-Uniformity
+            - 3.3e Oxide Etching and Stripping Effects
+        - '3.4 Doping Effects:':
+            subsections:
+            - 3.4a Introduction to Doping Effects in Oxidation
+            - 3.4b Dopant Redistribution in Oxide
+            - 3.4c Dopant Segregation at Oxide/Silicon Interface
+            - 3.4d Dopant Gettering and Trapping in Oxide
+            - 3.4e Dopant Diffusion Barrier Layer
+        - '3.5 Point Defects:':
+            subsections:
+            - 3.5a Introduction to Point Defects in Oxidation
+            - 3.5b Oxygen Vacancies and Interstitials
+            - 3.5c Silicon Self-Interstitials and Vacancies
+            - 3.5d Hydrogen and Carbon Impurities in Oxide
+            - 3.5e Point Defects and Oxide Electrical Properties
+    - 'Dopant Diffusion:':
+        sections:
+        - '4.1 Need for Abrupt Profiles:':
+            subsections:
+            - 4.1a Introduction to Dopant Diffusion
+            - 4.1b Need for Abrupt Dopant Profiles
+            - 4.1c Impurity Dopant Concentration Profiles
+            - 4.1d Dopant Surface Concentration and Depth Control
+            - 4.1e Dopant Profiling Techniques
+        - '4.2 Fick''s Laws:':
+            subsections:
+            - 4.2a Introduction to Fick's Laws
+            - 4.2b Fick's First Law of Diffusion
+            - 4.2c Fick's Second Law of Diffusion
+            - 4.2d Steady-State Diffusion and Flux
+            - 4.2e Non-Steady-State Diffusion and Flux
+        - '4.3 Simple Analytic:':
+            subsections:
+            - 4.3a Introduction to Simple Analytic Models
+            - 4.3b Analytic Solutions for Diffusion in Semi-Infinite Media
+            - 4.3c Analytic Solutions for Diffusion in Finite Media
+            - 4.3d Analytic Solutions for Diffusion with a Source/Sink
+            - 4.3e Analytic Solutions for Diffusion with a Moving Boundary
+        - '4.4 Numerical Techniques in Diffusion:':
+            subsections:
+            - 4.4a Introduction to Numerical Techniques in Diffusion
+            - 4.4b Finite Difference Method for Diffusion
+            - 4.4c Finite Element Method for Diffusion
+            - 4.4d Monte Carlo Method for Diffusion
+            - 4.4e Advanced Numerical Techniques for Diffusion
+        - '4.5 E Field Effects:':
+            subsections:
+            - 4.5a Introduction to E Field Effects in Diffusion
+            - 4.5b Electrostatic Effects on Dopant Diffusion
+            - 4.5c E Field-Assisted Dopant Profiles
+            - 4.5d E Field-Assisted Dopant Activation
+            - 4.5e E Field-Induced Dopant Segregation
+        - '4.6 Fermi Level Effects:':
+            subsections:
+            - 4.6a Introduction to Fermi Level Effects in Diffusion
+            - 4.6b Fermi Level Position and Dopant Diffusion
+            - 4.6c Fermi Level Control and Dopant Profiles
+            - 4.6d Fermi Level Pinning and Dopant Redistribution
+            - 4.6e Fermi Level Engineering in Diffusion Processes
+        - '4.7 I and V Assisted Diffusion:':
+            subsections:
+            - 4.7a Introduction to I and V Assisted Diffusion
+            - 4.7b Ion-Enhanced and Voltage-Enhanced Diffusion
+            - 4.7c Ion Implantation and Dopant Activation
+            - 4.7d Ion Beam Mixing and Diffusion
+            - 4.7e Plasma-Assisted Diffusion Techniques
+        - '4.8 Review Atomic Scale Models:':
+            subsections:
+            - 4.8a Introduction to Atomic Scale Models
+            - 4.8b Atomic Scale Diffusion Models
+            - 4.8c Kinetic Monte Carlo Simulations
+            - 4.8d Molecular Dynamics Simulations
+            - 4.8e Density Functional Theory Simulations
+        - '4.9 Profile Measurement Techniques:':
+            subsections:
+            - 4.9a Introduction to Dopant Profile Measurement Techniques
+            - 4.9b SIMS and Secondary Ion Mass Spectrometry
+            - 4.9c RBS and Rutherford Backscattering Spectrometry
+            - 4.9d TEM and Transmission Electron Microscopy
+            - 4.9e XRD and X-Ray Diffraction
+            - 4.9f AFM and Atomic Force Microscopy
+    - 'Ion Implantation and Annealing:':
+        sections:
+        - '5.1 Analytic Models and Monte Carlo:':
+            subsections:
+            - 5.1a Introduction to Analytic Models for Ion Implantation
+            - 5.1b Ion Implantation Range and Straggle
+            - 5.1c Analytic Models for Implantation Dose and Energy
+            - 5.1d Monte Carlo Simulation of Ion Implantation
+            - 5.1e Ion Implantation Equipment and Process Control
+        - '5.2 Physics of E Loss:':
+            subsections:
+            - 5.2a Introduction to Energy Loss Mechanisms in Ion Implantation
+            - 5.2b Electronic Stopping Power and Range
+            - 5.2c Nuclear Stopping Power and Range
+            - 5.2d Energy Straggle and Scattering Effects
+            - 5.2e Damage Formation and Crystal Displacement
+        - '5.3 Damage:':
+            subsections:
+            - 5.3a Introduction to Crystal Damage in Ion Implantation
+            - 5.3b Damage Generation and Lattice Displacement
+            - 5.3c Damage Accumulation and Dislocation Formation
+            - 5.3d Damage Annealing and Thermal Treatment
+            - 5.3e Damage Characterization Techniques
+        - '5.4 Introduction to TED:':
+            subsections:
+            - 5.4a Introduction to Transient Enhanced Diffusion
+            - 5.4b TED Mechanisms and Kinetics
+            - 5.4c Point Defects and TED in Silicon
+            - 5.4d TED in Compound Semiconductors
+            - 5.4e TED Suppression Techniques
+        - '5.5 Transient Enhanced Diffusion:':
+            subsections:
+            - 5.5a Introduction to Transient Enhanced Diffusion
+            - 5.5b Dopant Diffusion during Annealing
+            - 5.5c TED in Shallow Junction Formation
+            - 5.5d TED in Ultra-Shallow Junction Formation
+            - 5.5e TED Modeling and Simulation
+    - 'The SUPREM IV Process Simulator:':
+        sections:
+        - '6.1 Process Simulator:':
+            subsections:
+            - 6.1a Introduction to Process Simulation
+            - 6.1b SUPREM IV and Process Simulator Basics
+            - 6.1c Process Modeling and Simulation Techniques
+            - 6.1d Process Calibration and Validation
+            - 6.1e Process Optimization and Control
+    - 'Thin Film Deposition and Epitaxy:':
+        sections:
+        - '7.1 Introduction to CVD:':
+            subsections:
+            - 7.1a Introduction to Chemical Vapor Deposition
+            - 7.1b CVD Process Fundamentals and Mechanisms
+            - 7.1c CVD Reactor Design and Operation
+            - 7.1d CVD Precursors and Gases
+            - 7.1e CVD Films and Film Properties
+        - '7.2 Si Epitaxial Growth:':
+            subsections:
+            - 7.2a Introduction to Si Epitaxial Growth
+            - 7.2b Epitaxial Growth Techniques and Processes
+            - 7.2c Epitaxial Layers and Film Quality
+            - 7.2d Epitaxial Growth for Device Applications
+            - 7.2e Epitaxial Growth Challenges and Future Trends
+        - '7.3 CVD Examples and PVD:':
+            subsections:
+            - 7.3a Introduction to CVD Examples
+            - 7.3b SiO2 CVD and TEOS Deposition
+            - 7.3c Si3N4 CVD and LPCVD Processes
+            - 7.3d Metal CVD and ALD Techniques
+            - 7.3e Physical Vapor Deposition Techniques
+        - '7.4 Modeling Topography of Deposition:':
+            subsections:
+            - 7.4a Introduction to Modeling Deposition Topography
+            - 7.4b Step Coverage and Film Conformality
+            - 7.4c Feature Scale Deposition and Nucleation
+            - 7.4d Surface Roughness and Deposition Uniformity
+            - 7.4e Stress and Strain Effects in Thin Films
+    - 'Etching:':
+        sections:
+        - '8.1 Introduction:':
+            subsections:
+            - 8.1a Introduction to Etching Techniques
+            - 8.1b Wet Etching and Wet Chemical Processes
+            - 8.1c Dry Etching and Plasma Processes
+            - 8.1d Etching Selectivity and Anisotropy
+            - 8.1e Etching Challenges and Process Control
+        - '8.2 Poly Gate Etching:':
+            subsections:
+            - 8.2a Introduction to Poly Gate Etching
+            - 8.2b Poly Gate Etching Techniques and Processes
+            - 8.2c Gate Oxide Integrity and Etch Stop Layers
+            - 8.2d Poly Gate Sidewall Profile Control
+            - 8.2e Poly Gate Etch Challenges and Future Trends
+        - '8.3 Stringers:':
+            subsections:
+            - 8.3a Introduction to Stringers in Etching
+            - 8.3b Stringer Formation Mechanisms
+            - 8.3c Stringer Effects on Device Performance
+            - 8.3d Stringer Control and Prevention Techniques
+            - 8.3e Stringer Characterization and Analysis
+        - '8.4 Modeling of Etching:':
+            subsections:
+            - 8.4a Introduction to Modeling of Etching
+            - 8.4b Etching Rate and Selectivity Models
+            - 8.4c Surface Reaction and Kinetics Models
+            - 8.4d Reactive Ion Etching and Plasma Modeling
+            - 8.4e Etch Profile and Topography Simulation
+    - 'Silicides, Device Contacts, Novel Gate Materials:':
+        sections:
+        - '9.1 Silicides:':
+            subsections:
+            - 9.1a Introduction to Silicides
+            - 9.1b Silicide Formation and Reaction Mechanisms
+            - 9.1c Silicide Thermal Stability and Phase Diagrams
+            - 9.1d Silicide Contacts for Silicon Devices
+            - 9.1e Silicide Contacts for Compound Semiconductors
+        - '9.2 Device Contacts:':
+            subsections:
+            - 9.2a Introduction to Device Contacts
+            - 9.2b Ohmic Contacts and Specific Contact Resistance
+            - 9.2c Schottky Contacts and Barrier Height
+            - 9.2d Contact Metallization and Interconnects
+            - 9.2e Contact Resistance Reduction Techniques
+        - '9.3 Novel Gate Materials:':
+            subsections:
+            - 9.3a Introduction to Novel Gate Materials
+            - 9.3b High-K Dielectric Materials for Gate Stacks
+            - 9.3c Metal Gate Materials and Work Function Engineering
+            - 9.3d Gate Dielectric Scaling and Leakage Reduction
+            - 9.3e Future Trends in Gate Material Research
+    - 'Growth and Processing of Strained Si/SiGe and Stress Effects on Devices:':
+        sections:
+        - '10.1 Growth and Processing of Strained Si/SiGe:':
+            subsections:
+            - 10.1a Introduction to Strained Si/SiGe Materials
+            - 10.1b Strain Engineering Techniques and Processes
+            - 10.1c Strain Effects on Carrier Mobility and Performance
+            - 10.1d Strained Si/SiGe for Transistors and MEMS
+            - 10.1e Strained Si/SiGe Challenges and Future Directions
+        - '10.2 Stress Effects on Devices:':
+            subsections:
+            - 10.2a Introduction to Stress Effects on Devices
+            - 10.2b Stress Engineering Techniques and Processes
+            - 10.2c Stress Effects on Device Performance and Reliability
+            - 10.2d Stress-Induced Defects and Strain Relaxation
+            - 10.2e Stress-Induced Device Failure and Mitigation
+    - 'Report Presentations:':
+        sections:
+        - '11.1 Report Presentations:':
+            subsections:
+            - 11.1a Presentation Skills and Techniques
+            - 11.1b Report Writing and Organization
+            - 11.1c Visual Aids and Data Presentation
+            - 11.1d Peer Review and Feedback
+            - 11.1e Professionalism and Communication Skills
+    - 'Advanced Microfabrication Techniques:':
+        sections:
+        - '12.1 Lithography:':
+            subsections:
+            - 12.1a Introduction to Lithography
+            - 12.1b Photolithography
+            - 12.1c Electron Beam Lithography
+            - 12.1d Nanoimprint Lithography
+            - 12.1e X-Ray Lithography
+        - '12.2 Micro and Nano Patterning:':
+            subsections:
+            - 12.2a Introduction to Micro and Nano Patterning
+            - 12.2b Photomask Design and Fabrication
+            - 12.2c Resist Processing and Development
+            - 12.2d Pattern Transfer Techniques
+            - 12.2e Advanced Patterning Techniques
+        - '12.3 Thin Film Deposition Techniques:':
+            subsections:
+            - 12.3a Introduction to Thin Film Deposition Techniques
+            - 12.3b Physical Vapor Deposition (PVD)
+            - 12.3c Chemical Vapor Deposition (CVD)
+            - 12.3d Atomic Layer Deposition (ALD)
+            - 12.3e Electrochemical Deposition
+        - '12.4 Micro and Nano Etching Techniques:':
+            subsections:
+            - 12.4a Introduction to Micro and Nano Etching Techniques
+            - 12.4b Wet Etching Techniques
+            - 12.4c Dry Etching Techniques
+            - 12.4d Plasma Etching Techniques
+            - 12.4e Ion Beam Etching Techniques
+    - 'Microfabrication for MEMS:':
+        sections:
+        - '13.1 Introduction to MEMS:':
+            subsections:
+            - 13.1a Basics of MEMS
+            - 13.1b MEMS Fabrication Techniques
+            - 13.1c MEMS Materials
+            - 13.1d MEMS Devices and Applications
+            - 13.1e Future Trends in MEMS
+        - '13.2 MEMS Design and Fabrication:':
+            subsections:
+            - 13.2a MEMS Design Principles
+            - 13.2b MEMS Fabrication Processes
+            - 13.2c MEMS Packaging and Testing
+            - 13.2d MEMS Reliability and Failure Modes
+            - 13.2e MEMS Device Examples
+        - '13.3 MEMS Materials and Processes:':
+            subsections:
+            - 13.3a MEMS Materials
+            - 13.3b MEMS Thin Film Deposition
+            - 13.3c MEMS Lithography and Patterning
+            - 13.3d MEMS Etching Techniques
+            - 13.3e MEMS Assembly and Packaging
+        - '13.4 MEMS Devices and Applications:':
+            subsections:
+            - 13.4a MEMS Sensors
+            - 13.4b MEMS Actuators
+            - 13.4c MEMS Systems
+            - 13.4d MEMS in Biomedical Applications
+            - 13.4e Future Trends in MEMS
+    - 'Microfabrication for NEMS:':
+        sections:
+        - '14.1 Introduction to NEMS:':
+            subsections:
+            - 14.1a Basics of NEMS
+            - 14.1b NEMS Fabrication Techniques
+            - 14.1c NEMS Materials
+            - 14.1d NEMS Devices and Applications
+            - 14.1e Future Trends in NEMS
+        - '14.2 NEMS Design and Fabrication:':
+            subsections:
+            - 14.2a NEMS Design Principles
+            - 14.2b NEMS Fabrication Processes
+            - 14.2c NEMS Packaging and Testing
+            - 14.2d NEMS Reliability and Failure Modes
+            - 14.2e NEMS Device Examples
+        - '14.3 NEMS Materials and Processes:':
+            subsections:
+            - 14.3a NEMS Materials
+            - 14.3b NEMS Thin Film Deposition
+            - 14.3c NEMS Lithography and Patterning
+            - 14.3d NEMS Etching Techniques
+            - 14.3e NEMS Assembly and Packaging
+        - '14.4 NEMS Devices and Applications:':
+            subsections:
+            - 14.4a NEMS Sensors
+            - 14.4b NEMS Actuators
+            - 14.4c NEMS Systems
+            - 14.4d NEMS in Biomedical Applications
+            - 14.4e Future Trends in NEMS
+    - 'Microfabrication for BioMEMS:':
+        sections:
+        - '15.1 Introduction to BioMEMS:':
+            subsections:
+            - 15.1a Basics of BioMEMS
+            - 15.1b BioMEMS Fabrication Techniques
+            - 15.1c BioMEMS Materials
+            - 15.1d BioMEMS Devices and Applications
+            - 15.1e Future Trends in BioMEMS
+        - '15.2 BioMEMS Design and Fabrication:':
+            subsections:
+            - 15.2a BioMEMS Design Principles
+            - 15.2b BioMEMS Fabrication Processes
+            - 15.2c BioMEMS Packaging and Testing
+            - 15.2d BioMEMS Reliability and Failure Modes
+            - 15.2e BioMEMS Device Examples
+        - '15.3 BioMEMS Materials and Processes:':
+            subsections:
+            - 15.3a BioMEMS Materials
+            - 15.3b BioMEMS Thin Film Deposition
+            - 15.3c BioMEMS Lithography and Patterning
+            - 15.3d BioMEMS Etching Techniques
+            - 15.3e BioMEMS Assembly and Packaging
+        - '15.4 BioMEMS Devices and Applications:':
+            subsections:
+            - 15.4a BioMEMS Sensors
+            - 15.4b BioMEMS Actuators
+            - 15.4c BioMEMS Systems
+            - 15.4d BioMEMS in Biomedical Applications
+            - 15.4e Future Trends in BioMEMS
+    - 'Microfabrication for Lab-on-a-Chip Devices:':
+        sections:
+        - '16.1 Introduction to Lab-on-a-Chip Devices:':
+            subsections:
+            - 16.1a Basics of Lab-on-a-Chip Devices
+            - 16.1b Lab-on-a-Chip Fabrication Techniques
+            - 16.1c Lab-on-a-Chip Materials
+            - 16.1d Lab-on-a-Chip Devices and Applications
+            - 16.1e Future Trends in Lab-on-a-Chip Devices
+        - '16.2 Lab-on-a-Chip Design and Fabrication:':
+            subsections:
+            - 16.2a Lab-on-a-Chip Design Principles
+            - 16.2b Lab-on-a-Chip Fabrication Processes
+            - 16.2c Lab-on-a-Chip Packaging and Testing
+            - 16.2d Lab-on-a-Chip Reliability and Failure Modes
+            - 16.2e Lab-on-a-Chip Device Examples
+        - '16.3 Lab-on-a-Chip Materials and Processes:':
+            subsections:
+            - 16.3a Lab-on-a-Chip Materials
+            - 16.3b Lab-on-a-Chip Thin Film Deposition
+            - 16.3c Lab-on-a-Chip Lithography and Patterning
+            - 16.3d Lab-on-a-Chip Etching Techniques
+            - 16.3e Lab-on-a-Chip Assembly and Packaging
+        - '16.4 Lab-on-a-Chip Devices and Applications:':
+            subsections:
+            - 16.4a Lab-on-a-Chip Sensors
+            - 16.4b Lab-on-a-Chip Actuators
+            - 16.4c Lab-on-a-Chip Systems
+            - 16.4d Lab-on-a-Chip in Biomedical Applications
+            - 16.4e Future Trends in Lab-on-a-Chip
+    - 'Microfabrication for Microfluidic Devices:':
+        sections:
+        - '17.1 Introduction to Microfluidic Devices:':
+            subsections:
+            - 17.1a Basics of Microfluidic Devices
+            - 17.1b Microfluidic Fabrication Techniques
+            - 17.1c Microfluidic Materials
+            - 17.1d Microfluidic Devices and Applications
+            - 17.1e Future Trends in Microfluidic Devices
+        - '17.2 Microfluidic Design and Fabrication:':
+            subsections:
+            - 17.2a Microfluidic Design Principles
+            - 17.2b Microfluidic Fabrication Processes
+            - 17.2c Microfluidic Packaging and Testing
+            - 17.2d Microfluidic Reliability and Failure Modes
+            - 17.2e Microfluidic Device Examples
+        - '17.3 Microfluidic Materials and Processes:':
+            subsections:
+            - 17.3a Microfluidic Materials
+            - 17.3b Microfluidic Thin Film Deposition
+            - 17.3c Microfluidic Lithography and Patterning
+            - 17.3d Microfluidic Etching Techniques
+            - 17.3e Microfluidic Assembly and Packaging
+        - '17.4 Microfluidic Devices and Applications:':
+            subsections:
+            - 17.4a Microfluidic Sensors
+            - 17.4b Microfluidic Actuators
+            - 17.4c Microfluidic Systems
+            - 17.4d Microfluidic in Biomedical Applications
+            - 17.4e Future Trends in Microfluidic
+    - 'Microfabrication for Micro-Opto-Electro-Mechanical Systems (MOEMS):':
+        sections:
+        - '18.1 Introduction to MOEMS:':
+            subsections:
+            - 18.1a Basics of MOEMS
+            - 18.1b MOEMS Fabrication Techniques
+            - 18.1c MOEMS Materials
+            - 18.1d MOEMS Devices and Applications
+            - 18.1e Future Trends in MOEMS
+        - '18.2 MOEMS Design and Fabrication:':
+            subsections:
+            - 18.2a MOEMS Design Principles
+            - 18.2b MOEMS Fabrication Processes
+            - 18.2c MOEMS Packaging and Testing
+            - 18.2d MOEMS Reliability and Failure Modes
+            - 18.2e MOEMS Device Examples
+        - '18.3 MOEMS Materials and Processes:':
+            subsections:
+            - 18.3a MOEMS Materials
+            - 18.3b MOEMS Thin Film Deposition
+            - 18.3c MOEMS Lithography and Patterning
+            - 18.3d MOEMS Etching Techniques
+            - 18.3e MOEMS Assembly and Packaging
+        - '18.4 MOEMS Devices and Applications:':
+            subsections:
+            - 18.4a MOEMS Sensors
+            - 18.4b MOEMS Actuators
+            - 18.4c MOEMS Systems
+            - 18.4d MOEMS in Biomedical Applications
+            - 18.4e Future Trends in MOEMS
+    - 'Microfabrication for Micro-Optical Devices:':
+        sections:
+        - '19.1 Introduction to Micro-Optical Devices:':
+            subsections:
+            - 19.1a Basics of Micro-Optical Devices
+            - 19.1b Micro-Optical Fabrication Techniques
+            - 19.1c Micro-Optical Materials
+            - 19.1d Micro-Optical Devices and Applications
+            - 19.1e Future Trends in Micro-Optical Devices
+        - '19.2 Micro-Optical Design and Fabrication:':
+            subsections:
+            - 19.2a Micro-Optical Design Principles
+            - 19.2b Micro-Optical Fabrication Processes
+            - 19.2c Micro-Optical Packaging and Testing
+            - 19.2d Micro-Optical Reliability and Failure Modes
+            - 19.2e Micro-Optical Device Examples
+        - '19.3 Micro-Optical Materials and Processes:':
+            subsections:
+            - 19.3a Micro-Optical Materials
+            - 19.3b Micro-Optical Thin Film Deposition
+            - 19.3c Micro-Optical Lithography and Patterning
+            - 19.3d Micro-Optical Etching Techniques
+            - 19.3e Micro-Optical Assembly and Packaging
+        - '19.4 Micro-Optical Devices and Applications:':
+            subsections:
+            - 19.4a Micro-Optical Sensors
+            - 19.4b Micro-Optical Actuators
+            - 19.4c Micro-Optical Systems
+            - 19.4d Micro-Optical in Biomedical Applications
+            - 19.4e Future Trends in Micro-Optical
+    - 'Microfabrication for Micro-Electro-Mechanical-System (MEMS) Sensors:':
+        sections:
+        - '20.1 Introduction to MEMS Sensors:':
+            subsections:
+            - 20.1a Basics of MEMS Sensors
+            - 20.1b MEMS Sensors Fabrication Techniques
+            - 20.1c MEMS Sensors Materials
+            - 20.1d MEMS Sensors Devices and Applications
+            - 20.1e Future Trends in MEMS Sensors
+        - '20.2 MEMS Sensors Design and Fabrication:':
+            subsections:
+            - 20.2a MEMS Sensors Design Principles
+            - 20.2b MEMS Sensors Fabrication Processes
+            - 20.2c MEMS Sensors Packaging and Testing
+            - 20.2d MEMS Sensors Reliability and Failure Modes
+            - 20.2e MEMS Sensors Device Examples
+        - '20.3 MEMS Sensors Materials and Processes:':
+            subsections:
+            - 20.3a MEMS Sensors Materials
+            - 20.3b MEMS Sensors Thin Film Deposition
+            - 20.3c MEMS Sensors Lithography and Patterning
+            - 20.3d MEMS Sensors Etching Techniques
+            - 20.3e MEMS Sensors Assembly and Packaging
+        - '20.4 MEMS Sensors Devices and Applications:':
+            subsections:
+            - 20.4a MEMS Sensors
+            - 20.4b MEMS Actuators
+            - 20.4c MEMS Systems
+            - 20.4d MEMS in Biomedical Applications
+            - 20.4e Future Trends in MEMS Sensors

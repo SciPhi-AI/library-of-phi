@@ -1,0 +1,230 @@
+textbook:
+  'Textbook on Information Theory":':
+    chapters:
+    - '- Chapter 1: Introduction to Information Theory:':
+        sections:
+        - '- Section: 1.1 Entropy:':
+            subsections:
+            - 1.1a Definition of entropy
+            - 1.1b Properties of entropy
+            - 1.1c Joint entropy
+            - 1.1d Conditional entropy
+            - 1.1e Cross entropy
+            - 1.1f Relative entropy
+            - 1.1g Mutual information
+            - 1.1h Information gain
+            - 1.1i Entropy rate
+            - 1.1j Differential entropy
+    - '- Chapter 2: Fundamentals of Information Theory:':
+        sections:
+        - "- Section: 2.1 Jensen\u2019s inequality:":
+            subsections:
+            - 2.1a Convex functions
+            - 2.1b Jensen's inequality
+            - 2.1c Applications of Jensen's inequality
+        - '- Section: 2.2 Data processing theorem:':
+            subsections:
+            - 2.2a Markov chains
+            - 2.2b Data processing inequality
+            - 2.2c Applications of data processing theorem
+        - "- Section: 2.3 Fanos\u2019s inequality:":
+            subsections:
+            - 2.3a Fanos's inequality
+            - 2.3b Applications of Fanos's inequality
+    - '- Chapter 3: Convergence and Typicality:':
+        sections:
+        - '- Section: 3.1 Different types of convergence:':
+            subsections:
+            - 3.1a Pointwise convergence
+            - 3.1b Almost sure convergence
+            - 3.1c Convergence in probability
+            - 3.1d Convergence in distribution
+        - '- Section: 3.2 Asymptotic equipartition property (AEP):':
+            subsections:
+            - 3.2a Definition of AEP
+            - 3.2b AEP for i.i.d. random variables
+            - 3.2c AEP for ergodic processes
+            - 3.2d Applications of AEP
+        - '- Section: 3.3 Joint typicality:':
+            subsections:
+            - 3.3a Joint typical sets
+            - 3.3b Joint typicality decoding
+            - 3.3c Joint typicality of multiple sources
+    - '- Chapter 4: Entropies of Stochastic Processes:':
+        sections:
+        - '- Section: 4.1 Entropies of stochastic processes:':
+            subsections:
+            - 4.1a Entropy rate of a stochastic process
+            - 4.1b Conditional entropy rate
+            - 4.1c Differential entropy rate
+            - 4.1d Ergodicity and entropy
+    - '- Chapter 5: Data Compression:':
+        sections:
+        - '- Section: 5.1 Kraft inequality:':
+            subsections:
+            - 5.1a Kraft inequality
+            - 5.1b Kraft-McMillan inequality
+            - 5.1c Applications of Kraft inequality
+        - '- Section: 5.2 Optimal codes:':
+            subsections:
+            - 5.2a Prefix codes
+            - 5.2b Huffman codes
+            - 5.2c Arithmetic coding
+            - 5.2d Lempel-Ziv-Welch (LZW) algorithm
+            - 5.2e Run-length encoding
+            - 5.2f Universal codes
+    - '- Chapter 6: Huffman Codes:':
+        sections:
+        - '- Section: 6.1 Huffman codes:':
+            subsections:
+            - 6.1a Construction of Huffman codes
+            - 6.1b Properties of Huffman codes
+            - 6.1c Optimal prefix codes
+    - '- Chapter 7: Shannon-Fano-Elias Codes and Slepian-Wolf:':
+        sections:
+        - '- Section: 7.1 Shannon-Fano-Elias codes:':
+            subsections:
+            - 7.1a Construction of Shannon-Fano-Elias codes
+            - 7.1b Properties of Shannon-Fano-Elias codes
+            - 7.1c Limitations of Shannon-Fano-Elias codes
+        - '- Section: 7.2 Slepian-Wolf codes:':
+            subsections:
+            - 7.2a Construction of Slepian-Wolf codes
+            - 7.2b Properties of Slepian-Wolf codes
+            - 7.2c Limitations of Slepian-Wolf codes
+    - '- Chapter 8: Channel Capacity and Binary Channels:':
+        sections:
+        - '- Section: 8.1 Channel capacity:':
+            subsections:
+            - 8.1a Definition of channel capacity
+            - 8.1b Capacity achieving codes
+            - 8.1c Bounds on channel capacity
+            - 8.1d Examples of channel capacity calculations
+        - '- Section: 8.2 Binary symmetric channels:':
+            subsections:
+            - 8.2a Definition of binary symmetric channel
+            - 8.2b Binary symmetric channel capacity
+            - 8.2c Error correction codes for binary symmetric channels
+        - '- Section: 8.3 Binary erasure channels:':
+            subsections:
+            - 8.3a Definition of binary erasure channel
+            - 8.3b Binary erasure channel capacity
+            - 8.3c Error correction codes for binary erasure channels
+    - '- Chapter 9: Maximizing Channel Capacity:':
+        sections:
+        - '- Section: 9.1 Maximizing capacity:':
+            subsections:
+            - 9.1a Water-filling algorithm
+            - 9.1b Capacity of channels with input constraints
+            - 9.1c Capacity of channels with output constraints
+        - '- Section: 9.2 Blahut-Arimoto algorithm:':
+            subsections:
+            - 9.2a Blahut-Arimoto algorithm for capacity calculation
+            - 9.2b Applications of the Blahut-Arimoto algorithm
+    - '- Chapter 10: Channel Coding Theorem:':
+        sections:
+        - '- Section: 10.1 The channel coding theorem:':
+            subsections:
+            - 10.1a Statement and proof of the channel coding theorem
+            - 10.1b Error probability bounds
+    - '- Chapter 11: Strong Coding Theorem and Error Exponents:':
+        sections:
+        - '- Section: 11.1 Strong coding theorem:':
+            subsections:
+            - 11.1a Statement and proof of the strong coding theorem
+            - 11.1b Error exponent properties
+            - 11.1c Applications of the strong coding theorem
+        - '- Section: 11.2 Types of errors:':
+            subsections:
+            - 11.2a Bit errors
+            - 11.2b Burst errors
+            - 11.2c Packet errors
+            - 11.2d Symbol errors
+        - '- Section: 11.3 Error exponents:':
+            subsections:
+            - 11.3a Definition of error exponents
+            - 11.3b Calculation of error exponents
+            - 11.3c Error exponent bounds
+    - '- Chapter 12: Feedback Capacity:':
+        sections:
+        - '- Section: 12.1 Feedback capacity:':
+            subsections:
+            - 12.1a Definition of feedback capacity
+            - 12.1b Capacity of channels with feedback
+            - 12.1c Applications of feedback capacity
+    - '- Chapter 13: Joint Source-Channel Coding:':
+        sections:
+        - '- Section: 13.1 Joint source channel coding:':
+            subsections:
+            - 13.1a Channel coding for discrete memoryless sources
+            - 13.1b Channel coding for Markov sources
+            - 13.1c Distributed source coding
+    - '- Chapter 14: Differential Entropy and Maximizing Entropy:':
+        sections:
+        - '- Section: 14.1 Differential entropy:':
+            subsections:
+            - 14.1a Definition of differential entropy
+            - 14.1b Properties of differential entropy
+            - 14.1c Maximum differential entropy
+        - '- Section: 14.2 Maximizing entropy:':
+            subsections:
+            - 14.2a Entropy maximization under constraints
+            - 14.2b Applications of entropy maximization
+    - '- Chapter 15: Additive Gaussian Noise Channel:':
+        sections:
+        - '- Section: 15.1 Additive Gaussian noise channel:':
+            subsections:
+            - 15.1a Definition of additive Gaussian noise channel
+            - 15.1b Channel capacity of Gaussian noise channel
+            - 15.1c Gaussian capacity-achieving codes
+    - '- Chapter 16: Gaussian Channels and Interference:':
+        sections:
+        - '- Section: 16.1 Gaussian channels: parallel:':
+            subsections:
+            - 16.1a Capacity of parallel Gaussian channels
+            - 16.1b Gaussian codebooks for parallel channels
+        - '- Section: 16.2 Gaussian channels: colored noise:':
+            subsections:
+            - 16.2a Capacity of Gaussian channels with colored noise
+            - 16.2b Capacity-achieving codes for channels with colored noise
+        - '- Section: 16.3 Gaussian channels: inter-symbol interference:':
+            subsections:
+            - 16.3a Capacity of Gaussian channels with inter-symbol interference
+            - 16.3b Equalization techniques for channels with inter-symbol interference
+    - '- Chapter 17: Gaussian Channels with Feedback:':
+        sections:
+        - '- Section: 17.1 Gaussian channels with feedback:':
+            subsections:
+            - 17.1a Capacity of Gaussian channels with feedback
+            - 17.1b Feedback strategies for Gaussian channels
+    - '- Chapter 18: Multiple Access Channels:':
+        sections:
+        - '- Section: 18.1 Multiple access channels:':
+            subsections:
+            - 18.1a Capacity of multiple access channels
+            - 18.1b Multiple access strategies
+            - 18.1c Multiple access with interference
+    - '- Chapter 19: Broadcast Channels:':
+        sections:
+        - '- Section: 19.1 Broadcast channels:':
+            subsections:
+            - 19.1a Capacity of broadcast channels
+            - 19.1b Broadcast coding strategies
+    - '- Chapter 20: Finite State Markov Channels:':
+        sections:
+        - '- Section: 20.1 Finite state Markov channels:':
+            subsections:
+            - 20.1a Capacity of finite state Markov channels
+            - 20.1b Channel coding for Markov channels
+            - 20.1c Error correction for Markov channels
+    - '- Chapter 21: Channel Side Information and Wide-Band Channels:':
+        sections:
+        - '- Section: 21.1 Channel side information:':
+            subsections:
+            - 21.1a Channel state information at the transmitter
+            - 21.1b Channel state information at the receiver
+            - 21.1c Wyner-Ziv coding
+        - '- Section: 21.2 Wide-band channels:':
+            subsections:
+            - 21.2a Capacity of wide-band channels
+            - 21.2b Channel coding for wide-band channels

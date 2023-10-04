@@ -1,0 +1,501 @@
+textbook: 
+"Principles of Naval Architecture: A Comprehensive Guide to Ship Design and Analysis":
+
+chapters:
+- Chapter 1: Introduction to Naval Architecture:
+sections:
+- Section: 1.1 Introduction to the Course and Naval Architecture:
+subsections:
+- 1.1a Overview of the Course
+- 1.1b Definition of Naval Architecture
+- 1.1c Importance of Naval Architecture
+
+- Section: 1.2 Historical Overview of Naval Architecture:
+subsections:
+- 1.2a Early History of Naval Architecture
+- 1.2b Modern Developments in Naval Architecture
+- 1.2c Future Trends in Naval Architecture
+
+- Section: 1.3 Role of Naval Architects in Ship Design and Construction:
+subsections:
+- 1.3a Responsibilities of Naval Architects
+- 1.3b Naval Architects in Ship Design
+- 1.3c Naval Architects in Ship Construction
+
+- Chapter 2: Hydrostatics:
+sections:
+- Section: 2.1 Hydrostatics Review:
+subsections:
+- 2.1a Basic Principles of Hydrostatics
+- 2.1b Hydrostatic Pressure
+- 2.1c Hydrostatic Forces
+
+- Section: 2.2 Buoyancy and Archimedes' Principle:
+subsections:
+- 2.2a Concept of Buoyancy
+- 2.2b Archimedes' Principle
+- 2.2c Applications of Archimedes' Principle in Naval Architecture
+
+- Section: 2.3 Fluid Mechanics Applied to Ships:
+subsections:
+- 2.3a Fluid Dynamics in Naval Architecture
+- 2.3b Fluid Resistance and Ship Performance
+- 2.3c Fluid Flow around Ship Hulls
+
+- Section: 2.4 Stability and Equilibrium of Floating Bodies:
+subsections:
+- 2.4a Stability of Floating Bodies
+- 2.4b Equilibrium Conditions for Floating Bodies
+- 2.4c Factors Affecting Stability and Equilibrium
+
+- Chapter 3: Ship Geometry:
+sections:
+- Section: 3.1 Ship Geometry:
+subsections:
+- 3.1a Basic Elements of Ship Geometry
+- 3.1b Geometric Properties of Ship Hulls
+- 3.1c Geometric Design Considerations in Naval Architecture
+
+- Section: 3.2 Ship Types and Classification Societies:
+subsections:
+- 3.2a Different Types of Ships
+- 3.2b Role of Classification Societies
+- 3.2c Classification Standards and Ship Design
+
+- Section: 3.3 Lines Plan and Hull Form:
+subsections:
+- 3.3a Understanding Lines Plan
+- 3.3b Designing Hull Form
+- 3.3c Impact of Hull Form on Ship Performance
+
+- Section: 3.4 Ship Dimensions and Proportions:
+subsections:
+- 3.4a Key Dimensions of Ships
+- 3.4b Proportions and Their Impact on Ship Performance
+- 3.4c Standardizing Dimensions and Proportions
+
+- Chapter 4: Intact Stability:
+sections:
+- Section: 4.1 Intact Stability:
+subsections:
+- 4.1a Understanding Intact Stability
+- 4.1b Factors Affecting Intact Stability
+- 4.1c Assessing Intact Stability
+
+- Section: 4.2 Metacentric Height and Stability Criteria:
+subsections:
+- 4.2a Concept of Metacentric Height
+- 4.2b Metacentric Height and Stability
+- 4.2c Stability Criteria Based on Metacentric Height
+
+- Section: 4.3 Transverse and Longitudinal Stability:
+subsections:
+- 4.3a Transverse Stability of Ships
+- 4.3b Longitudinal Stability of Ships
+- 4.3c Balancing Transverse and Longitudinal Stability
+
+- Section: 4.4 Effects of Load and Free Surface on Stability:
+subsections:
+- 4.4a Impact of Load on Stability
+- 4.4b Free Surface Effect on Stability
+- 4.4c Managing Load and Free Surface for Optimal Stability
+
+- Chapter 5: Damage Stability:
+sections:
+- Section: 5.1 Damage Stability:
+subsections:
+- 5.1a Understanding Damage Stability
+- 5.1b Factors Affecting Damage Stability
+- 5.1c Assessing Damage Stability
+
+- Section: 5.2 Damage Control and Watertight Integrity:
+subsections:
+- 5.2a Principles of Damage Control
+- 5.2b Maintaining Watertight Integrity
+- 5.2c Damage Control Measures in Ship Design
+
+- Section: 5.3 Subdivision and Compartmentation of Ships:
+subsections:
+- 5.3a Need for Subdivision and Compartmentation
+- 5.3b Designing Subdivision and Compartmentation
+- 5.3c Impact of Subdivision and Compartmentation on Ship Safety
+
+- Section: 5.4 Damage Stability Regulations and Requirements:
+subsections:
+- 5.4a Regulatory Framework for Damage Stability
+- 5.4b Compliance with Damage Stability Requirements
+- 5.4c Recent Developments in Damage Stability Regulations
+
+- Chapter 6: Resistance:
+sections:
+- Section: 6.1 Resistance:
+subsections:
+- 6.1a Understanding Ship Resistance
+- 6.1b Factors Affecting Ship Resistance
+- 6.1c Measuring and Reducing Ship Resistance
+
+- Section: 6.2 Hydrodynamics and Fluid Flow around Ships:
+subsections:
+- 6.2a Basics of Hydrodynamics in Naval Architecture
+- 6.2b Fluid Flow around Ship Hulls
+- 6.2c Hydrodynamic Design Considerations for Ships
+
+- Section: 6.3 Drag and Frictional Resistance:
+subsections:
+- 6.3a Understanding Drag and Frictional Resistance
+- 6.3b Factors Affecting Drag and Frictional Resistance
+- 6.3c Reducing Drag and Frictional Resistance in Ship Design
+
+- Section: 6.4 Wave-Making Resistance and Added Resistance:
+subsections:
+- 6.4a Wave-Making Resistance of Ships
+- 6.4b Added Resistance Due to Waves
+- 6.4c Design Strategies to Minimize Wave-Making and Added Resistance
+
+- Chapter 7: Strength of Ships:
+sections:
+- Section: 7.1 Strength of Ships:
+subsections:
+- 7.1a Understanding Ship Strength
+- 7.1b Factors Affecting Ship Strength
+- 7.1c Assessing and Enhancing Ship Strength
+
+- Section: 7.2 Structural Design Principles for Ships:
+subsections:
+- 7.2a Basic Principles of Structural Design for Ships
+- 7.2b Structural Components of Ships
+- 7.2c Structural Design Considerations in Naval Architecture
+
+- Section: 7.3 Stress and Strain Analysis of Ship Structures:
+subsections:
+- 7.3a Understanding Stress and Strain in Ship Structures
+- 7.3b Techniques for Stress and Strain Analysis
+- 7.3c Impact of Stress and Strain on Ship Performance
+
+- Section: 7.4 Fatigue and Buckling of Ship Structures:
+subsections:
+- 7.4a Understanding Fatigue and Buckling in Ship Structures
+- 7.4b Factors Leading to Fatigue and Buckling
+- 7.4c Preventing Fatigue and Buckling in Ship Design
+
+- Chapter 8: Computer-aided Design (CAD) Tools:
+sections:
+- Section: 8.1 CAD Tools:
+subsections:
+- 8.1a Introduction to CAD Tools in Naval Architecture
+- 8.1b Popular CAD Tools for Ship Design
+- 8.1c Advantages and Challenges of Using CAD Tools
+
+- Section: 8.2 Ship Design Software and Modeling Techniques:
+subsections:
+- 8.2a Overview of Ship Design Software
+- 8.2b 3D Modeling Techniques in Ship Design
+- 8.2c Simulation and Analysis Tools in Ship Design
+
+- Section: 8.3 2D and 3D Modeling in Naval Architecture:
+subsections:
+- 8.3a 2D Modeling in Naval Architecture
+- 8.3b 3D Modeling in Naval Architecture
+- 8.3c Transition from 2D to 3D Modeling in Ship Design
+
+- Section: 8.4 Finite Element Analysis in Ship Design:
+subsections:
+- 8.4a Introduction to Finite Element Analysis
+- 8.4b Application of Finite Element Analysis in Ship Design
+- 8.4c Advantages and Limitations of Finite Element Analysis
+
+- Chapter 9: Hull Subdivision and Damage Stability:
+sections:
+- Section: 9.1 Hull Subdivision and Damage Stability:
+subsections:
+- 9.1a Importance of Hull Subdivision for Damage Stability
+- 9.1b Techniques for Hull Subdivision
+- 9.1c Impact of Hull Subdivision on Damage Stability
+
+- Section: 9.2 Damage Control and Emergency Preparedness:
+subsections:
+- 9.2a Principles of Damage Control
+- 9.2b Emergency Preparedness for Ship Safety
+- 9.2c Damage Control Measures in Ship Design
+
+- Section: 9.3 Compartmentation and Watertight Integrity:
+subsections:
+- 9.3a Need for Compartmentation in Ships
+- 9.3b Designing for Watertight Integrity
+- 9.3c Impact of Compartmentation on Ship Safety
+
+- Section: 9.4 Floodable Length and Stability in Damaged Condition:
+subsections:
+- 9.4a Understanding Floodable Length
+- 9.4b Floodable Length and Ship Safety
+- 9.4c Stability in Damaged Condition
+
+- Chapter 10: Ship General Stability:
+sections:
+- Section: 10.1 Ship General Stability:
+subsections:
+- 10.1a Understanding General Stability of Ships
+- 10.1b Factors Affecting General Stability
+- 10.1c Assessing and Enhancing General Stability
+
+- Section: 10.2 Stability Criteria and Regulations for Ships:
+subsections:
+- 10.2a Overview of Stability Criteria for Ships
+- 10.2b Compliance with Stability Regulations
+- 10.2c Recent Developments in Stability Regulations
+
+- Section: 10.3 Dynamic Stability and Motion Analysis:
+subsections:
+- 10.3a Understanding Dynamic Stability
+- 10.3b Techniques for Motion Analysis
+- 10.3c Impact of Dynamic Stability on Ship Performance
+
+- Section: 10.4 Stability Enhancements and Ballast Systems:
+subsections:
+- 10.4a Techniques for Enhancing Stability
+- 10.4b Role of Ballast Systems in Stability
+- 10.4c Designing Effective Ballast Systems
+
+- Chapter 11: Ship Propulsion Systems:
+sections:
+- Section: 11.1 Introduction to Ship Propulsion:
+subsections:
+- 11.1a Basics of Ship Propulsion
+- 11.1b Types of Propulsion Systems
+- 11.1c Selection of Propulsion System
+
+- Section: 11.2 Propellers and Thrusters:
+subsections:
+- 11.2a Understanding Propellers
+- 11.2b Types of Thrusters
+- 11.2c Propeller and Thruster Selection
+
+- Section: 11.3 Engines and Power Systems:
+subsections:
+- 11.3a Types of Marine Engines
+- 11.3b Power Systems in Ships
+- 11.3c Engine and Power System Selection
+
+- Section: 11.4 Propulsion System Efficiency:
+subsections:
+- 11.4a Understanding Propulsion Efficiency
+- 11.4b Factors Affecting Propulsion Efficiency
+- 11.4c Improving Propulsion Efficiency
+
+- Chapter 12: Ship Maneuvering and Control:
+sections:
+- Section: 12.1 Basics of Ship Maneuvering:
+subsections:
+- 12.1a Understanding Ship Maneuvering
+- 12.1b Factors Affecting Ship Maneuverability
+- 12.1c Improving Ship Maneuverability
+
+- Section: 12.2 Ship Steering Systems:
+subsections:
+- 12.2a Types of Ship Steering Systems
+- 12.2b Steering System Selection
+- 12.2c Steering System Maintenance and Safety
+
+- Section: 12.3 Ship Control Systems:
+subsections:
+- 12.3a Understanding Ship Control Systems
+- 12.3b Types of Ship Control Systems
+- 12.3c Control System Selection and Safety
+
+- Section: 12.4 Autopilot and Navigation Systems:
+subsections:
+- 12.4a Basics of Autopilot Systems
+- 12.4b Types of Navigation Systems
+- 12.4c Autopilot and Navigation System Safety
+
+- Chapter 13: Ship Construction and Maintenance:
+sections:
+- Section: 13.1 Ship Construction Techniques:
+subsections:
+- 13.1a Overview of Ship Construction Techniques
+- 13.1b Shipyard Facilities and Equipment
+- 13.1c Quality Control in Ship Construction
+
+- Section: 13.2 Ship Maintenance and Repair:
+subsections:
+- 13.2a Importance of Ship Maintenance
+- 13.2b Types of Ship Repairs
+- 13.2c Maintenance and Repair Planning
+
+- Section: 13.3 Dry Docking and Refitting:
+subsections:
+- 13.3a Understanding Dry Docking
+- 13.3b Refitting and Modernization of Ships
+- 13.3c Dry Docking and Refitting Safety
+
+- Section: 13.4 Ship Decommissioning and Recycling:
+subsections:
+- 13.4a Basics of Ship Decommissioning
+- 13.4b Ship Recycling Techniques
+- 13.4c Environmental and Safety Considerations in Decommissioning and Recycling
+
+- Chapter 14: Ship Safety and Regulations:
+sections:
+- Section: 14.1 Ship Safety Principles:
+subsections:
+- 14.1a Understanding Ship Safety
+- 14.1b Safety Equipment on Ships
+- 14.1c Safety Procedures and Training
+
+- Section: 14.2 Ship Regulations and Standards:
+subsections:
+- 14.2a Overview of Ship Regulations
+- 14.2b Role of Classification Societies
+- 14.2c Compliance with Regulations and Standards
+
+- Section: 14.3 Ship Inspections and Audits:
+subsections:
+- 14.3a Importance of Ship Inspections
+- 14.3b Conducting Ship Audits
+- 14.3c Inspection and Audit Findings and Actions
+
+- Section: 14.4 Emergency Preparedness and Response:
+subsections:
+- 14.4a Importance of Emergency Preparedness
+- 14.4b Emergency Response Procedures
+- 14.4c Training for Emergency Situations
+
+- Chapter 15: Environmental Impact of Ships:
+sections:
+- Section: 15.1 Ship Emissions and Air Quality:
+subsections:
+- 15.1a Understanding Ship Emissions
+- 15.1b Impact of Ship Emissions on Air Quality
+- 15.1c Reducing Ship Emissions
+
+- Section: 15.2 Ship Noise and Vibrations:
+subsections:
+- 15.2a Understanding Ship Noise and Vibrations
+- 15.2b Impact of Noise and Vibrations on Marine Life
+- 15.2c Reducing Ship Noise and Vibrations
+
+- Section: 15.3 Ballast Water and Invasive Species:
+subsections:
+- 15.3a Understanding Ballast Water and Invasive Species
+- 15.3b Impact of Invasive Species on Marine Ecosystems
+- 15.3c Ballast Water Management and Treatment
+
+- Section: 15.4 Ship Waste Management:
+subsections:
+- 15.4a Understanding Ship Waste Management
+- 15.4b Types of Ship Waste and Their Impact
+- 15.4c Waste Management Techniques and Regulations
+
+- Chapter 16: Ship Economics and Lifecycle Costing:
+sections:
+- Section: 16.1 Ship Economics:
+subsections:
+- 16.1a Understanding Ship Economics
+- 16.1b Factors Affecting Ship Economics
+- 16.1c Economic Analysis in Ship Design and Operation
+
+- Section: 16.2 Ship Lifecycle Costing:
+subsections:
+- 16.2a Understanding Ship Lifecycle Costing
+- 16.2b Factors Affecting Lifecycle Costs
+- 16.2c Lifecycle Cost Analysis in Ship Design and Operation
+
+- Section: 16.3 Ship Financing and Insurance:
+subsections:
+- 16.3a Basics of Ship Financing
+- 16.3b Understanding Ship Insurance
+- 16.3c Financing and Insurance Considerations in Ship Operation
+
+- Section: 16.4 Ship Market and Trade:
+subsections:
+- 16.4a Understanding the Ship Market
+- 16.4b Role of Trade in Ship Economics
+- 16.4c Market Trends and Their Impact on Ship Design and Operation
+
+- Chapter 17: Human Factors in Naval Architecture:
+sections:
+- Section: 17.1 Human Factors in Ship Design:
+subsections:
+- 17.1a Importance of Human Factors in Ship Design
+- 17.1b Human-Centered Design Principles
+- 17.1c Impact of Human Factors on Ship Safety and Performance
+
+- Section: 17.2 Ergonomics and Ship Layout:
+subsections:
+- 17.2a Understanding Ergonomics in Ship Design
+- 17.2b Designing Ship Layout for Optimal Ergonomics
+- 17.2c Impact of Ergonomics on Crew Performance and Safety
+
+- Section: 17.3 Crew Comfort and Habitability:
+subsections:
+- 17.3a Importance of Crew Comfort and Habitability
+- 17.3b Designing for Comfort and Habitability
+- 17.3c Impact of Comfort and Habitability on Crew Performance
+
+- Section: 17.4 Human Error and Safety:
+subsections:
+- 17.4a Understanding Human Error in Ship Operations
+- 17.4b Designing to Minimize Human Error
+- 17.4c Human Error and Ship Safety
+
+- Chapter 18: Advanced Ship Design Topics:
+sections:
+- Section: 18.1 Advanced Hull Design:
+subsections:
+- 18.1a Advanced Hull Design Concepts
+- 18.1b Impact of Advanced Hull Design on Ship Performance
+- 18.1c Future Trends in Hull Design
+
+- Section: 18.2 Advanced Propulsion Systems:
+subsections:
+- 18.2a Advanced Propulsion System Concepts
+- 18.2b Impact of Advanced Propulsion Systems on Ship Performance
+- 18.2c Future Trends in Propulsion Systems
+
+- Section: 18.3 Advanced Materials and Construction Techniques:
+subsections:
+- 18.3a Advanced Materials in Ship Construction
+- 18.3b Advanced Ship Construction Techniques
+- 18.3c Impact of Advanced Materials and Techniques on Ship Performance
+
+- Section: 18.4 Advanced Ship Systems and Technologies:
+subsections:
+- 18.4a Advanced Ship Systems and Technologies
+- 18.4b Impact of Advanced Systems and Technologies on Ship Performance
+- 18.4c Future Trends in Ship Systems and Technologies
+
+- Chapter 19: Special Topics in Naval Architecture:
+sections:
+- Section: 19.1 Icebreaking Ships:
+subsections:
+- 19.1a Understanding Icebreaking Ships
+- 19.1b Design Considerations for Icebreaking Ships
+- 19.1c Operation of Icebreaking Ships
+
+- Section: 19.2 Autonomous Ships:
+subsections:
+- 19.2a Understanding Autonomous Ships
+- 19.2b Design Considerations for Autonomous Ships
+- 19.2c Operation of Autonomous Ships
+
+- Section: 19.3 Green Ships and Sustainability:
+subsections:
+- 19.3a Understanding Green Ships and Sustainability
+- 19.3b Design Considerations for Green Ships
+- 19.3c Operation of Green Ships
+
+- Section: 19.4 High-Speed Craft:
+subsections:
+- 19.4a Understanding High-Speed Craft
+- 19.4b Design Considerations for High-Speed Craft
+- 19.4c Operation of High-Speed Craft
+
+- Chapter 20: Future Trends in Naval Architecture:
+sections:
+- Section: 20.1 Future Trends in Ship Design:
+subsections:
+- 20.1a Predicted Future Trends in Ship Design
+- 20.1b Impact of Future Trends on Ship Performance
+- 20.1c Preparing for Future Trends in Ship Design
+
+- Section: 20

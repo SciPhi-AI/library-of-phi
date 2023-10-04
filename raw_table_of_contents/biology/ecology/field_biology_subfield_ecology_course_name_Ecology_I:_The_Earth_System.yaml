@@ -1,0 +1,45 @@
+textbook:
+  'Ecology I: The Earth System - A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Ecology:':
+        sections:
+        - '- Section: 1.1 What is Ecology?:':
+            subsections:
+            - 1.1a Carruthers, G. T. "Locusts in the Red Sea."
+            - 1.1b Vernadskii, V. I. 'The Biosphere.'
+            - '1.1c Rowe, J. Stan. "Biological Fallacy: Life Equals Organisms."'
+            - '1.1d Remmert, Hermann. "Ecology: the Basic Concept."'
+        - '- Section: 1.2 Evolution of Earth and the Biosphere:':
+            subsections:
+            - 1.2a How to be alive/thermodynamics of life
+    - '- Chapter 2: Primary Productivity:':
+        sections:
+        - '- Section: 2.1 Biogeochemical Cycles:':
+            subsections:
+            - 2.1a Carbon Cycle
+        - '- Section: 2.2 Global Carbon Cycle:':
+            subsections:
+            - '2.2a Quiz 1: Limiting factors and Redfield'
+        - '- Section: 2.3 Ecosystem Experiments/Geoengineering:':
+            subsections:
+            - 2.3a Secondary Productivity/Food Webs
+    - '- Chapter 3: Population Ecology:':
+        sections:
+        - '- Section: 3.1 Population Growth:':
+            subsections:
+            - 3.1a Chemostats/Life Tables
+            - 3.1b Human Population Growth
+        - '- Section: 3.2 Quiz 2:':
+            subsections:
+            - 3.2a Competition and the Niche
+            - 3.2b Predation/Symbiosis/Mutualism
+    - '- Chapter 4: Biogeography:':
+        sections:
+        - '- Section: 4.1 Quiz 3:':
+            subsections:
+            - 4.1a Subsection 1
+    - '- Chapter 5: Project Presentations:':
+        sections:
+        - '- Section: 5.1 Project Presentations:':
+            subsections:
+            - 5.1a Subsection 1

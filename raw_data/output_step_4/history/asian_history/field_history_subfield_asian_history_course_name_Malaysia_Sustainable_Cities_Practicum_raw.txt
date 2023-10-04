@@ -1,0 +1,347 @@
+```yaml
+textbook: 
+"Malaysia Sustainable Cities Practicum Handbook":
+
+chapters:
+- Chapter 1: Introduction to Sustainable Cities:
+sections:
+- Section: 1.1 Definition and Principles of Sustainable Cities:
+subsections:
+- 1.1a The History and Evolution of Sustainable Cities
+- 1.1b The Role of Stakeholders in Sustainable Cities
+- 1.1c The Role of Technology in Sustainable Cities
+
+- Section: 1.2 Urbanization and its Impact on the Environment:
+subsections:
+- 1.2a The History and Evolution of Urbanization
+- 1.2b The Impact of Urbanization on the Environment
+- 1.2c The Role of Urbanization in Sustainable Cities
+
+- Section: 1.3 Sustainable Development Goals (SDGs):
+subsections:
+- 1.3a The Definition and Importance of SDGs
+- 1.3b The Role of SDGs in Sustainable Cities
+- 1.3c The Implementation of SDGs in Urban Areas
+
+- Section: 1.4 Urban Planning and Design for Sustainability:
+subsections:
+- 1.4a The Principles of Urban Planning for Sustainability
+- 1.4b The Role of Urban Design in Sustainable Cities
+- 1.4c The Implementation of Sustainable Urban Planning and Design
+
+- Section: 1.5 Green Infrastructure and Urban Resilience:
+subsections:
+- 1.5a The Definition and Importance of Green Infrastructure
+- 1.5b The Role of Green Infrastructure in Urban Resilience
+- 1.5c The Implementation of Green Infrastructure in Sustainable Cities
+
+- Chapter 2: Sustainable Transportation Systems:
+sections:
+- Section: 2.1 Public Transport and Low Carbon Mobility:
+subsections:
+- 2.1a The Importance of Public Transport in Sustainable Cities
+- 2.1b The Role of Low Carbon Mobility in Sustainable Transportation
+- 2.1c The Implementation of Public Transport and Low Carbon Mobility in Urban Areas
+
+- Section: 2.2 Cycling and Walking Infrastructure:
+subsections:
+- 2.2a The Benefits of Cycling and Walking Infrastructure in Sustainable Cities
+- 2.2b The Challenges of Implementing Cycling and Walking Infrastructure
+- 2.2c The Role of Public Policy in Promoting Cycling and Walking Infrastructure
+
+- Section: 2.3 Intelligent Transportation Systems (ITS):
+subsections:
+- 2.3a The Role of ITS in Sustainable Transportation
+- 2.3b The Integration of ITS in Urban Mobility
+- 2.3c The Challenges and Opportunities of ITS in Sustainable Cities
+
+- Section: 2.4 Electric Vehicles and Charging Infrastructure:
+subsections:
+- 2.4a The Transition to Electric Vehicles in Sustainable Cities
+- 2.4b The Development of Charging Infrastructure for Electric Vehicles
+- 2.4c The Challenges and Opportunities of Electric Vehicles and Charging Infrastructure
+
+- Section: 2.5 Urban Freight and Logistics Management:
+subsections:
+- 2.5a The Importance of Urban Freight and Logistics Management in Sustainable Cities
+- 2.5b The Optimization of Urban Freight and Logistics Management
+- 2.5c The Challenges and Opportunities of Urban Freight and Logistics Management
+
+- Section: 2.6 Transport Demand Management (TDM):
+subsections:
+- 2.6a The Role of TDM in Sustainable Transportation
+- 2.6b The Implementation of TDM in Urban Areas
+- 2.6c The Challenges and Opportunities of TDM in Sustainable Cities
+
+- Chapter 3: Energy Efficiency in Buildings:
+sections:
+- Section: 3.1 Building Energy Performance and Rating Systems:
+subsections:
+- 3.1a The Evaluation and Measurement of Building Energy Performance
+- 3.1b The Role of Rating Systems in Promoting Energy Efficiency
+- 3.1c The Implementation of Building Energy Performance and Rating Systems in Sustainable Cities
+
+- Section: 3.2 Passive Design Strategies:
+subsections:
+- 3.2a The Principles and Techniques of Passive Design Strategies
+- 3.2b The Role of Passive Design in Energy Efficiency
+- 3.2c The Implementation of Passive Design Strategies in Sustainable Buildings
+
+- Section: 3.3 Energy-efficient Lighting and Appliances:
+subsections:
+- 3.3a The Selection and Implementation of Energy-efficient Lighting and Appliances
+- 3.3b The Role of Lighting and Appliances in Building Energy Efficiency
+- 3.3c The Challenges and Opportunities of Energy-efficient Lighting and Appliances
+
+- Section: 3.4 HVAC Systems and Energy Management:
+subsections:
+- 3.4a The Optimization of HVAC Systems in Buildings
+- 3.4b The Role of Energy Management in HVAC Systems
+- 3.4c The Challenges and Opportunities of HVAC Systems and Energy Management
+
+- Section: 3.5 Renewable Energy Integration in Buildings:
+subsections:
+- 3.5a The Integration of Renewable Energy Sources in Buildings
+- 3.5b The Role of Renewable Energy in Building Energy Efficiency
+- 3.5c The Challenges and Opportunities of Renewable Energy Integration
+
+- Section: 3.6 Green Building Certifications:
+subsections:
+- 3.6a The Certification Process for Green Buildings
+- 3.6b The Benefits of Green Building Certifications
+- 3.6c The Challenges and Opportunities of Green Building Certifications
+
+- Chapter 4: Water Management in Urban Areas:
+sections:
+- Section: 4.1 Urban Water Supply and Distribution:
+subsections:
+- 4.1a The Challenges and Strategies for Urban Water Supply and Distribution
+- 4.1b The Role of Water Supply and Distribution in Sustainable Cities
+- 4.1c The Implementation of Sustainable Water Supply and Distribution Systems
+
+- Section: 4.2 Wastewater Treatment and Reuse:
+subsections:
+- 4.2a The Treatment and Reuse of Wastewater in Urban Areas
+- 4.2b The Role of Wastewater Treatment and Reuse in Sustainable Cities
+- 4.2c The Challenges and Opportunities of Wastewater Treatment and Reuse
+
+- Section: 4.3 Stormwater Management and Rainwater Harvesting:
+subsections:
+- 4.3a The Management of Stormwater and the Harvesting of Rainwater in Urban Areas
+- 4.3b The Role of Stormwater Management and Rainwater Harvesting in Sustainable Cities
+- 4.3c The Challenges and Opportunities of Stormwater Management and Rainwater Harvesting
+
+- Section: 4.4 Water Conservation and Demand Management:
+subsections:
+- 4.4a The Importance of Water Conservation and Demand Management in Cities
+- 4.4b The Role of Public Policy in Promoting Water Conservation and Demand Management
+- 4.4c The Implementation of Water Conservation and Demand Management Strategies
+
+- Section: 4.5 Water Sensitive Urban Design (WSUD):
+subsections:
+- 4.5a The Design and Implementation of WSUD in Urban Areas
+- 4.5b The Role of WSUD in Sustainable Cities
+- 4.5c The Challenges and Opportunities of WSUD
+
+- Section: 4.6 Water Governance and Policy:
+subsections:
+- 4.6a The Governance and Policy Framework for Urban Water Management
+- 4.6b The Role of Governance and Policy in Sustainable Water Management
+- 4.6c The Challenges and Opportunities of Water Governance and Policy
+
+- Chapter 5: Waste Management and Circular Economy:
+sections:
+- Section: 5.1 Solid Waste Management and Recycling:
+subsections:
+- 5.1a The Collection, Treatment, and Recycling of Solid Waste in Urban Areas
+- 5.1b The Role of Solid Waste Management and Recycling in Sustainable Cities
+- 5.1c The Challenges and Opportunities of Solid Waste Management and Recycling
+
+- Section: 5.2 Organic Waste Management and Composting:
+subsections:
+- 5.2a The Management and Composting of Organic Waste in Cities
+- 5.2b The Role of Organic Waste Management and Composting in Sustainable Cities
+- 5.2c The Challenges and Opportunities of Organic Waste Management and Composting
+
+- Section: 5.3 Resource Recovery and Waste-to-Energy:
+subsections:
+- 5.3a The Recovery of Resources and the Utilization of Waste-to-Energy Technologies
+- 5.3b The Role of Resource Recovery and Waste-to-Energy in Sustainable Cities
+- 5.3c The Challenges and Opportunities of Resource Recovery and Waste-to-Energy
+
+- Section: 5.4 Extended Producer Responsibility (EPR):
+subsections:
+- 5.4a The Implementation and Impact of EPR Programs
+- 5.4b The Role of EPR in Sustainable Waste Management
+- 5.4c The Challenges and Opportunities of EPR
+
+- Section: 5.5 Industrial Ecology and Eco-industrial Parks:
+subsections:
+- 5.5a The Integration of Industrial Ecology and the Development of Eco-industrial Parks
+- 5.5b The Role of Industrial Ecology and Eco-industrial Parks in Sustainable Cities
+- 5.5c The Challenges and Opportunities of Industrial Ecology and Eco-industrial Parks
+
+- Section: 5.6 Circular Economy Strategies:
+subsections:
+- 5.6a The Strategies and Practices of Circular Economy in Urban Areas
+- 5.6b The Role of Circular Economy in Sustainable Cities
+- 5.6c The Challenges and Opportunities of Circular Economy
+
+- Chapter 6: Smart Cities and Digital Technologies:
+sections:
+- Section: 6.1 Internet of Things (IoT) in Urban Systems:
+subsections:
+- 6.1a The Role and Applications of IoT in Urban Systems
+- 6.1b The Integration of IoT in Sustainable Cities
+- 6.1c The Challenges and Opportunities of IoT in Urban Areas
+
+- Section: 6.2 Smart Grids and Energy Management:
+subsections:
+- 6.2a The Integration and Optimization of Smart Grids for Energy Management
+- 6.2b The Role of Smart Grids in Sustainable Cities
+- 6.2c The Challenges and Opportunities of Smart Grids and Energy Management
+
+- Section: 6.3 Big Data Analytics for Urban Planning:
+subsections:
+- 6.3a The Use of Big Data Analytics in Urban Planning and Decision-making
+- 6.3b The Role of Big Data Analytics in Sustainable Cities
+- 6.3c The Challenges and Opportunities of Big Data Analytics in Urban Planning
+
+- Section: 6.4 Smart Buildings and Intelligent Infrastructure:
+subsections:
+- 6.4a The Design and Implementation of Smart Buildings and Intelligent Infrastructure
+- 6.4b The Role of Smart Buildings and Intelligent Infrastructure in Sustainable Cities
+- 6.4c The Challenges and Opportunities of Smart Buildings and Intelligent Infrastructure
+
+- Section: 6.5 Smart Mobility and Transportation Solutions:
+subsections:
+- 6.5a The Innovation and Advancement of Smart Mobility and Transportation Solutions
+- 6.5b The Role of Smart Mobility and Transportation in Sustainable Cities
+- 6.5c The Challenges and Opportunities of Smart Mobility and Transportation Solutions
+
+- Section: 6.6 Citizen Engagement and Smart Governance:
+subsections:
+- 6.6a The Engagement of Citizens and the Development of Smart Governance
+- 6.6b The Role of Citizen Engagement and Smart Governance in Sustainable Cities
+- 6.6c The Challenges and Opportunities of Citizen Engagement and Smart Governance
+
+- Chapter 7: Green Economy and Sustainable Business:
+sections:
+- Section: 7.1 Sustainable Entrepreneurship and Innovation:
+subsections:
+- 7.1a The Role of Sustainable Entrepreneurship and Innovation in Green Economy
+- 7.1b The Implementation of Sustainable Entrepreneurship and Innovation in Sustainable Cities
+- 7.1c The Challenges and Opportunities of Sustainable Entrepreneurship and Innovation
+
+- Section: 7.2 Green Jobs and Skill Development:
+subsections:
+- 7.2a The Creation of Green Jobs and Skill Development in Sustainable Cities
+- 7.2b The Role of Green Jobs and Skill Development in Green Economy
+- 7.2c The Challenges and Opportunities of Green Jobs and Skill Development
+
+- Section: 7.3 Corporate Social Responsibility (CSR):
+subsections:
+- 7.3a The Implementation and Impact of CSR in Urban Areas
+- 7.3b The Role of CSR in Sustainable Business
+- 7.3c The Challenges and Opportunities of CSR
+
+- Section: 7.4 Sustainable Supply Chains:
+subsections:
+- 7.4a The Optimization and Management of Sustainable Supply Chains
+- 7.4b The Role of Sustainable Supply Chains in Green Economy
+- 7.4c The Challenges and Opportunities of Sustainable Supply Chains
+
+- Section: 7.5 Circular Business Models:
+subsections:
+- 7.5a The Adoption and Benefits of Circular Business Models in Cities
+- 7.5b The Role of Circular Business Models in Green Economy
+- 7.5c The Challenges and Opportunities of Circular Business Models
+
+- Section: 7.6 Financial Instruments for Sustainability:
+subsections:
+- 7.6a The Financial Instruments and Funding Opportunities for Sustainability Projects
+- 7.6b The Role of Financial Instruments in Green Economy
+- 7.6c The Challenges and Opportunities of Financial Instruments for Sustainability
+
+- Chapter 8: Social Equity and Inclusive Cities:
+sections:
+- Section: 8.1 Affordable Housing and Slum Upgrading:
+subsections:
+- 8.1a The Importance of Affordable Housing and Slum Upgrading for Inclusive Cities
+- 8.1b The Role of Affordable Housing and Slum Upgrading in Social Equity
+- 8.1c The Challenges and Opportunities of Affordable Housing and Slum Upgrading
+
+- Section: 8.2 Gender and Social Inclusion in Cities:
+subsections:
+- 8.2a The Role of Gender and Social Inclusion in Urban Development
+- 8.2b The Implementation of Gender and Social Inclusion Strategies in Sustainable Cities
+- 8.2c The Challenges and Opportunities of Gender and Social Inclusion in Cities
+
+- Section: 8.3 Community Participation and Empowerment:
+subsections:
+- 8.3a The Engagement and Empowerment of Communities in Urban Planning
+- 8.3b The Role of Community Participation and Empowerment in Social Equity
+- 8.3c The Challenges and Opportunities of Community Participation and Empowerment
+
+- Section: 8.4 Urban Poverty and Inequality:
+subsections:
+- 8.4a The Challenges and Strategies for Addressing Urban Poverty and Inequality
+- 8.4b The Role of Urban Poverty and Inequality in Social Equity
+- 8.4c The Challenges and Opportunities of Addressing Urban Poverty and Inequality
+
+- Section: 8.5 Accessible and Age-friendly Cities:
+subsections:
+- 8.5a The Design and Implementation of Accessible and Age-friendly Cities
+- 8.5b The Role of Accessible and Age-friendly Cities in Social Equity
+- 8.5c The Challenges and Opportunities of Accessible and Age-friendly Cities
+
+- Section: 8.6 Cultural Heritage and Urban Identity:
+subsections:
+- 8.6a The Preservation and Promotion of Cultural Heritage and Urban Identity in Sustainable Cities
+- 8.6b The Role of Cultural Heritage and Urban Identity in Social Equity
+- 8.6c The Challenges and Opportunities of Preserving Cultural Heritage and Urban Identity
+
+- Chapter 9: Urban Agriculture and Food Security:
+sections:
+- Section: 9.1 Urban Farming Techniques:
+subsections:
+- 9.1a The Role of Urban Farming in Food Security
+- 9.1b The Implementation of Urban Farming Techniques in Sustainable Cities
+- 9.1c The Challenges and Opportunities of Urban Farming
+
+- Section: 9.2 Community Gardens and Edible Landscapes:
+subsections:
+- 9.2a The Role of Community Gardens and Edible Landscapes in Urban Agriculture
+- 9.2b The Implementation of Community Gardens and Edible Landscapes in Sustainable Cities
+- 9.2c The Challenges and Opportunities of Community Gardens and Edible Landscapes
+
+- Section: 9.3 Food Waste Management and Composting:
+subsections:
+- 9.3a The Role of Food Waste Management and Composting in Urban Agriculture
+- 9.3b The Implementation of Food Waste Management and Composting in Sustainable Cities
+- 9.3c The Challenges and Opportunities of Food Waste Management and Composting
+
+- Section: 9.4 Urban Food Policy and Governance:
+subsections:
+- 9.4a The Role of Urban Food Policy and Governance in Food Security
+- 9.4b The Implementation of Urban Food Policy and Governance in Sustainable Cities
+- 9.4c The Challenges and Opportunities of Urban Food Policy and Governance
+
+- Chapter 10: Climate Change and Urban Resilience:
+sections:
+- Section: 10.1 Urban Climate Change Impacts and Adaptation:
+subsections:
+- 10.1a The Role of Urban Climate Change Impacts and Adaptation in Urban Resilience
+- 10.1b The Implementation of Climate Change Adaptation Strategies in Sustainable Cities
+- 10.1c The Challenges and Opportunities of Urban Climate Change Impacts and Adaptation
+
+- Section: 10.2 Urban Heat Island Effect and Mitigation:
+subsections:
+- 10.2a The Role of Urban Heat Island Effect and Mitigation in Urban Resilience
+- 10.2b The Implementation of Urban Heat Island Mitigation Strategies in Sustainable Cities
+- 10.2c The Challenges and Opportunities of Urban Heat Island Effect and Mitigation
+
+- Section: 10.3 Climate Change Policy and Governance:
+subsections:
+- 10.3a The Role of Climate Change Policy and Governance in Urban Resilience
+- 10.3b The Implementation of Climate Change Policy and

@@ -1,0 +1,521 @@
+textbook: 
+"Nationalism, Internationalism, and Globalism in Modern Art: A Comprehensive Study":
+
+chapters:
+- Chapter 1: Introduction and Course Overview:
+sections:
+- Section: 1.1 Syllabus review:
+subsections:
+- 1.1a Course objectives
+- 1.1b Course materials
+- 1.1c Grading policy
+
+- Section: 1.2 Discussion of handouts/presentations:
+subsections:
+- 1.2a Handout content
+- 1.2b Presentation guidelines
+- 1.2c Group discussions
+
+- Section: 1.3 Learning objectives:
+subsections:
+- 1.3a Understanding key concepts
+- 1.3b Developing critical thinking
+- 1.3c Enhancing presentation skills
+
+- Chapter 2: Nation, Word, Nomad:
+sections:
+- Section: 2.1 Units, maps, movable agents - history:
+subsections:
+- 2.1a Historical context
+- 2.1b Evolution of nations
+- 2.1c Impact of migration
+
+- Section: 2.2 Concepts of nation and nationality:
+subsections:
+- 2.2a Definition of nation
+- 2.2b National identity
+- 2.2c Nationalism in art
+
+- Section: 2.3 Role of language in nationalism:
+subsections:
+- 2.3a Language as a cultural identity
+- 2.3b Language in art
+- 2.3c Language and nationalism
+
+- Section: 2.4 Impact of nomadic cultures on modern art:
+subsections:
+- 2.4a Nomadic cultures and art
+- 2.4b Influence on modern art
+- 2.4c Case studies
+
+- Chapter 3: Paris:
+sections:
+- Section: 3.1 World pictures, materials, infrastructures - philosophy:
+subsections:
+- 3.1a Art philosophy in Paris
+- 3.1b Artistic materials and techniques
+- 3.1c Influence of infrastructure on art
+
+- Section: 3.2 Paris as a global art capital:
+subsections:
+- 3.2a History of Paris as an art capital
+- 3.2b Major art movements in Paris
+- 3.2c Influence of Paris on global art
+
+- Section: 3.3 Exploration of artistic materials and techniques:
+subsections:
+- 3.3a Use of materials in art
+- 3.3b Evolution of techniques
+- 3.3c Impact on modern art
+
+- Section: 3.4 Influence of urban infrastructure on art production:
+subsections:
+- 3.4a Urban infrastructure and art
+- 3.4b Influence on art production
+- 3.4c Case studies
+
+- Chapter 4: Venice:
+sections:
+- Section: 4.1 Empire into nation, cosmopolite - political philosophy:
+subsections:
+- 4.1a Venice as a symbol of empire and nation
+- 4.1b Cosmopolitan art movements
+- 4.1c Political philosophies influencing art
+
+- Section: 4.2 Venice as a symbol of empire and nation:
+subsections:
+- 4.2a Historical context
+- 4.2b Venice in art
+- 4.2c Influence on modern art
+
+- Section: 4.3 Examination of cosmopolitan art movements:
+subsections:
+- 4.3a Definition of cosmopolitan art
+- 4.3b Major cosmopolitan art movements
+- 4.3c Influence on modern art
+
+- Section: 4.4 Political philosophies influencing art in Venice:
+subsections:
+- 4.4a Political philosophies and art
+- 4.4b Influence on Venetian art
+- 4.4c Case studies
+
+- Chapter 5: London:
+sections:
+- Section: 5.1 Arts, manufactures, empire - anthropology:
+subsections:
+- 5.1a London as a center of arts and manufacturing
+- 5.1b Anthropological study of art
+- 5.1c Impact of colonialism on art
+
+- Section: 5.2 London as a center of arts and manufacturing:
+subsections:
+- 5.2a Historical context
+- 5.2b Evolution of arts and manufacturing
+- 5.2c Influence on modern art
+
+- Section: 5.3 Anthropological study of art in relation to empire:
+subsections:
+- 5.3a Anthropology and art
+- 5.3b Art in the context of empire
+- 5.3c Case studies
+
+- Section: 5.4 Impact of colonialism on artistic production in London:
+subsections:
+- 5.4a Colonialism and art
+- 5.4b Influence on artistic production
+- 5.4c Case studies
+
+- Chapter 6: Weimar/Moscow:
+sections:
+- Section: 6.1 Modernism, revolution, utopia - political science:
+subsections:
+- 6.1a Exploration of modernist art movements
+- 6.1b Influence of political revolutions on art
+- 6.1c Utopian ideals in art
+
+- Section: 6.2 Exploration of modernist art movements:
+subsections:
+- 6.2a Definition of modernism
+- 6.2b Major modernist art movements
+- 6.2c Influence on modern art
+
+- Section: 6.3 Influence of political revolutions on art:
+subsections:
+- 6.3a Political revolutions and art
+- 6.3b Influence on art movements
+- 6.3c Case studies
+
+- Section: 6.4 Utopian ideals in artistic expression:
+subsections:
+- 6.4a Definition of utopia
+- 6.4b Utopian ideals in art
+- 6.4c Case studies
+
+- Chapter 7: SÃ£o Paulo/Brasilia/Africa:
+sections:
+- Section: 7.1 Global South, postcolonialism - cultural studies:
+subsections:
+- 7.1a Artistic developments in the Global South
+- 7.1b Examination of postcolonial art
+- 7.1c Influence of African art
+
+- Section: 7.2 Artistic developments in the Global South:
+subsections:
+- 7.2a Historical context
+- 7.2b Major art movements
+- 7.2c Influence on modern art
+
+- Section: 7.3 Examination of postcolonial art and its impact:
+subsections:
+- 7.3a Definition of postcolonial art
+- 7.3b Major postcolonial art movements
+- 7.3c Influence on modern art
+
+- Section: 7.4 Influence of African art on modern movements:
+subsections:
+- 7.4a African art and modernism
+- 7.4b Major African art movements
+- 7.4c Influence on modern art
+
+- Chapter 8: Osaka/Asia:
+sections:
+- Section: 8.1 Cultural exchange, transnationalism - art history:
+subsections:
+- 8.1a Exploration of cultural exchange in Asia
+- 8.1b Transnational art movements
+- 8.1c Impact of Asian art
+
+- Section: 8.2 Exploration of cultural exchange in Asia:
+subsections:
+- 8.2a Historical context
+- 8.2b Major cultural exchanges
+- 8.2c Influence on modern art
+
+- Section: 8.3 Transnational art movements and their significance:
+subsections:
+- 8.3a Definition of transnational art
+- 8.3b Major transnational art movements
+- 8.3c Influence on modern art
+
+- Section: 8.4 Impact of Asian art on the global art scene:
+subsections:
+- 8.4a Asian art and global art
+- 8.4b Major Asian art movements
+- 8.4c Influence on modern art
+
+- Chapter 9: Documenta/Manifesta:
+sections:
+- Section: 9.1 Contemporary art exhibitions - curatorial studies:
+subsections:
+- 9.1a Study of major contemporary art exhibitions
+- 9.1b Analysis of curatorial practices
+- 9.1c Role of exhibitions in shaping art trends
+
+- Section: 9.2 Study of major contemporary art exhibitions:
+subsections:
+- 9.2a Historical context
+- 9.2b Major contemporary art exhibitions
+- 9.2c Influence on modern art
+
+- Section: 9.3 Analysis of curatorial practices and concepts:
+subsections:
+- 9.3a Definition of curatorial practices
+- 9.3b Major curatorial concepts
+- 9.3c Influence on modern art
+
+- Section: 9.4 Examination of the role of exhibitions in shaping art trends:
+subsections:
+- 9.4a Role of exhibitions in art
+- 9.4b Major art trends
+- 9.4c Influence of exhibitions
+
+- Chapter 10: Johannesberg/UAE:
+sections:
+- Section: 10.1 Art markets, biennials, cultural diplomacy - international relations:
+subsections:
+- 10.1a Exploration of art markets
+- 10.1b Biennials as platforms for cultural diplomacy
+- 10.1c Analysis of international relations through art
+
+- Section: 10.2 Exploration of art markets and their influence:
+subsections:
+- 10.2a Definition of art markets
+- 10.2b Major art markets
+- 10.2c Influence on modern art
+
+- Section: 10.3 Biennials as platforms for cultural diplomacy:
+subsections:
+- 10.3a Definition of biennials
+- 10.3b Major biennials
+- 10.3c Influence on cultural diplomacy
+
+- Section: 10.4 Analysis of international relations through art:
+subsections:
+- 10.4a International relations and art
+- 10.4b Major international art movements
+- 10.4c Influence on modern art
+
+- Chapter 11: Seminar Research/Presentation Workshops:
+sections:
+- Section: 11.1 Research methodologies:
+subsections:
+- 11.1a Definition of research methodologies
+- 11.1b Major research methodologies in art
+- 11.1c Application in art studies
+
+- Section: 11.2 Oral presentation skills:
+subsections:
+- 11.2a Importance of oral presentation skills
+- 11.2b Techniques for effective presentations
+- 11.2c Application in art studies
+
+- Section: 11.3 Effective literature review:
+subsections:
+- 11.3a Importance of literature review
+- 11.3b Techniques for effective literature review
+- 11.3c Application in art studies
+
+- Section: 11.4 Ethical considerations in research:
+subsections:
+- 11.4a Importance of ethics in research
+- 11.4b Major ethical considerations in art research
+- 11.4c Case studies
+
+- Section: 11.5 Visual aids and presentation techniques:
+subsections:
+- 11.5a Importance of visual aids in presentations
+- 11.5b Techniques for effective use of visual aids
+- 11.5c Application in art studies
+
+- Chapter 12: Art and National Identity:
+sections:
+- Section: 12.1 The role of art in shaping national identity:
+subsections:
+- 12.1a Historical context
+- 12.1b Major art movements and national identity
+- 12.1c Case studies
+
+- Section: 12.2 Nationalism and art in the 20th century:
+subsections:
+- 12.2a Historical context
+- 12.2b Major nationalist art movements
+- 12.2c Influence on modern art
+
+- Section: 12.3 Art and national identity in the 21st century:
+subsections:
+- 12.3a Contemporary context
+- 12.3b Major contemporary art movements and national identity
+- 12.3c Case studies
+
+- Section: 12.4 The future of art and national identity:
+subsections:
+- 12.4a Predictions for the future
+- 12.4b Potential future art movements and national identity
+- 12.4c The role of globalization
+
+- Chapter 13: Art and Internationalism:
+sections:
+- Section: 13.1 The role of art in promoting internationalism:
+subsections:
+- 13.1a Historical context
+- 13.1b Major internationalist art movements
+- 13.1c Case studies
+
+- Section: 13.2 Internationalism and art in the 20th century:
+subsections:
+- 13.2a Historical context
+- 13.2b Major internationalist art movements
+- 13.2c Influence on modern art
+
+- Section: 13.3 Art and internationalism in the 21st century:
+subsections:
+- 13.3a Contemporary context
+- 13.3b Major contemporary art movements and internationalism
+- 13.3c Case studies
+
+- Section: 13.4 The future of art and internationalism:
+subsections:
+- 13.4a Predictions for the future
+- 13.4b Potential future art movements and internationalism
+- 13.4c The role of globalization
+
+- Chapter 14: Art and Globalism:
+sections:
+- Section: 14.1 The role of art in promoting globalism:
+subsections:
+- 14.1a Historical context
+- 14.1b Major globalist art movements
+- 14.1c Case studies
+
+- Section: 14.2 Globalism and art in the 20th century:
+subsections:
+- 14.2a Historical context
+- 14.2b Major globalist art movements
+- 14.2c Influence on modern art
+
+- Section: 14.3 Art and globalism in the 21st century:
+subsections:
+- 14.3a Contemporary context
+- 14.3b Major contemporary art movements and globalism
+- 14.3c Case studies
+
+- Section: 14.4 The future of art and globalism:
+subsections:
+- 14.4a Predictions for the future
+- 14.4b Potential future art movements and globalism
+- 14.4c The role of globalization
+
+- Chapter 15: Art and Politics:
+sections:
+- Section: 15.1 The role of art in politics:
+subsections:
+- 15.1a Historical context
+- 15.1b Major political art movements
+- 15.1c Case studies
+
+- Section: 15.2 Political art in the 20th century:
+subsections:
+- 15.2a Historical context
+- 15.2b Major political art movements
+- 15.2c Influence on modern art
+
+- Section: 15.3 Art and politics in the 21st century:
+subsections:
+- 15.3a Contemporary context
+- 15.3b Major contemporary art movements and politics
+- 15.3c Case studies
+
+- Section: 15.4 The future of art and politics:
+subsections:
+- 15.4a Predictions for the future
+- 15.4b Potential future art movements and politics
+- 15.4c The role of globalization
+
+- Chapter 16: Art and Culture:
+sections:
+- Section: 16.1 The role of art in culture:
+subsections:
+- 16.1a Historical context
+- 16.1b Major cultural art movements
+- 16.1c Case studies
+
+- Section: 16.2 Cultural art in the 20th century:
+subsections:
+- 16.2a Historical context
+- 16.2b Major cultural art movements
+- 16.2c Influence on modern art
+
+- Section: 16.3 Art and culture in the 21st century:
+subsections:
+- 16.3a Contemporary context
+- 16.3b Major contemporary art movements and culture
+- 16.3c Case studies
+
+- Section: 16.4 The future of art and culture:
+subsections:
+- 16.4a Predictions for the future
+- 16.4b Potential future art movements and culture
+- 16.4c The role of globalization
+
+- Chapter 17: Art and Society:
+sections:
+- Section: 17.1 The role of art in society:
+subsections:
+- 17.1a Historical context
+- 17.1b Major societal art movements
+- 17.1c Case studies
+
+- Section: 17.2 Societal art in the 20th century:
+subsections:
+- 17.2a Historical context
+- 17.2b Major societal art movements
+- 17.2c Influence on modern art
+
+- Section: 17.3 Art and society in the 21st century:
+subsections:
+- 17.3a Contemporary context
+- 17.3b Major contemporary art movements and society
+- 17.3c Case studies
+
+- Section: 17.4 The future of art and society:
+subsections:
+- 17.4a Predictions for the future
+- 17.4b Potential future art movements and society
+- 17.4c The role of globalization
+
+- Chapter 18: Art and the Individual:
+sections:
+- Section: 18.1 The role of art in individual expression:
+subsections:
+- 18.1a Historical context
+- 18.1b Major individualist art movements
+- 18.1c Case studies
+
+- Section: 18.2 Individualist art in the 20th century:
+subsections:
+- 18.2a Historical context
+- 18.2b Major individualist art movements
+- 18.2c Influence on modern art
+
+- Section: 18.3 Art and the individual in the 21st century:
+subsections:
+- 18.3a Contemporary context
+- 18.3b Major contemporary art movements and the individual
+- 18.3c Case studies
+
+- Section: 18.4 The future of art and the individual:
+subsections:
+- 18.4a Predictions for the future
+- 18.4b Potential future art movements and the individual
+- 18.4c The role of globalization
+
+- Chapter 19: Art and Technology:
+sections:
+- Section: 19.1 The role of technology in art:
+subsections:
+- 19.1a Historical context
+- 19.1b Major technological art movements
+- 19.1c Case studies
+
+- Section: 19.2 Technological art in the 20th century:
+subsections:
+- 19.2a Historical context
+- 19.2b Major technological art movements
+- 19.2c Influence on modern art
+
+- Section: 19.3 Art and technology in the 21st century:
+subsections:
+- 19.3a Contemporary context
+- 19.3b Major contemporary art movements and technology
+- 19.3c Case studies
+
+- Section: 19.4 The future of art and technology:
+subsections:
+- 19.4a Predictions for the future
+- 19.4b Potential future art movements and technology
+- 19.4c The role of globalization
+
+- Chapter 20: Art and the Future:
+sections:
+- Section: 20.1 Predictions for the future of art:
+subsections:
+- 20.1a Predictions based on historical trends
+- 20.1b Predictions based on current trends
+- 20.1c The role of globalization in future art
+
+- Section: 20.2 Potential future art movements:
+subsections:
+- 20.2a Predictions based on historical trends
+- 20.2b Predictions based on current trends
+- 20.2c The role of globalization in future art movements
+
+- Section: 20.3 The role of globalization in future art:
+subsections:
+- 20.3a Definition of globalization
+- 20.3b The impact of globalization on art
+- 20.3c Predictions for the future of globalization and art
+
+- Section: 20.4 The future of art education:
+subsections:
+- 

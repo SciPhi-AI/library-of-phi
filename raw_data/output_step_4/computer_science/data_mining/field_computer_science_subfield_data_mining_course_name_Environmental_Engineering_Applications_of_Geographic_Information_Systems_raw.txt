@@ -1,0 +1,433 @@
+textbook: 
+"Environmental Engineering Applications of Geographic Information Systems":
+
+chapters:
+- Chapter 1: Introduction to GIS:
+sections:
+- Section: 1.1 Basic ArcGIS Tutorial:
+subsections:
+- 1.1a Introduction to ArcGIS
+- 1.1b ArcGIS Interface
+- 1.1c ArcGIS Tools
+
+- Section: 1.2 Data Types:
+subsections:
+- 1.2a Vector Data
+- 1.2b Raster Data
+- 1.2c Attribute Data
+
+- Section: 1.3 Map Making in GIS:
+subsections:
+- 1.3a Map Design Principles
+- 1.3b Map Elements
+- 1.3c Map Export
+
+- Chapter 2: Map Layout and Cartography:
+sections:
+- Section: 2.1 Map Projections:
+subsections:
+- 2.1a Definition of Map Projections
+- 2.1b Types of Map Projections
+- 2.1c Choosing a Map Projection
+
+- Section: 2.2 Using Map Projections:
+subsections:
+- 2.2a Applying Map Projections in GIS
+- 2.2b Map Projection Errors
+- 2.2c Map Projection Transformations
+
+- Section: 2.3 Raster Data:
+subsections:
+- 2.3a Definition of Raster Data
+- 2.3b Raster Data Formats
+- 2.3c Raster Data Management
+
+- Section: 2.4 Raster Processing:
+subsections:
+- 2.4a Raster Data Analysis
+- 2.4b Raster Data Conversion
+- 2.4c Raster Data Visualization
+
+- Chapter 3: Digital Elevation Models:
+sections:
+- Section: 3.1 DEMs:
+subsections:
+- 3.1a Definition of DEMs
+- 3.1b Types of DEMs
+- 3.1c DEMs in GIS
+
+- Section: 3.2 Raster Processing:
+subsections:
+- 3.2a Raster Data Analysis
+- 3.2b Raster Data Conversion
+- 3.2c Raster Data Visualization
+
+- Section: 3.3 Hydrologic Functions:
+subsections:
+- 3.3a Watershed Delineation
+- 3.3b Stream Network Extraction
+- 3.3c Flow Direction and Accumulation
+
+- Chapter 4: Vector Processing:
+sections:
+- Section: 4.1 Vector Processing:
+subsections:
+- 4.1a Vector Data Analysis
+- 4.1b Vector Data Conversion
+- 4.1c Vector Data Visualization
+
+- Section: 4.2 Site Selection Exercise (Vector Analysis):
+subsections:
+- 4.2a Site Selection Criteria
+- 4.2b Site Selection Analysis
+- 4.2c Site Selection Results
+
+- Chapter 5: Cost-Distance Modeling:
+sections:
+- Section: 5.1 Assembling a Cost-Distance Model:
+subsections:
+- 5.1a Cost Surface Creation
+- 5.1b Cost Path Analysis
+- 5.1c Cost-Distance Results
+
+- Section: 5.2 Raster Processing:
+subsections:
+- 5.2a Raster Data Analysis
+- 5.2b Raster Data Conversion
+- 5.2c Raster Data Visualization
+
+- Section: 5.3 Cost Path Modeling:
+subsections:
+- 5.3a Cost Path Creation
+- 5.3b Cost Path Analysis
+- 5.3c Cost Path Results
+
+- Chapter 6: Mobile GIS:
+sections:
+- Section: 6.1 Planning for Field Work:
+subsections:
+- 6.1a Field Data Collection Methods
+- 6.1b Mobile GIS Tools
+- 6.1c Field Data Management
+
+- Chapter 7: Spatial Data:
+sections:
+- Section: 7.1 Querying Data on a Map:
+subsections:
+- 7.1a Spatial Query
+- 7.1b Attribute Query
+- 7.1c Query Results
+
+- Chapter 8: Project Work:
+sections:
+- Section: 8.1 Project Introductions:
+subsections:
+- 8.1a Project Proposal
+- 8.1b Project Planning
+- 8.1c Project Resources
+
+- Section: 8.2 Project Work Time:
+subsections:
+- 8.2a Data Collection
+- 8.2b Data Analysis
+- 8.2c Results Interpretation
+
+- Section: 8.3 Project Presentations:
+subsections:
+- 8.3a Presentation Preparation
+- 8.3b Presentation Delivery
+- 8.3c Feedback and Evaluation
+
+- Chapter 9: Final Exam:
+sections:
+- Section: 9.1 Final Exam:
+subsections:
+- 9.1a Exam Preparation
+- 9.1b Exam Content
+- 9.1c Exam Review
+
+- Chapter 10: GIS Data Analysis:
+sections:
+- Section: 10.1 Data Collection Methods:
+subsections:
+- 10.1a Field Data Collection
+- 10.1b Remote Sensing Data Collection
+- 10.1c Secondary Data Collection
+
+- Section: 10.2 Spatial Data Quality:
+subsections:
+- 10.2a Data Accuracy
+- 10.2b Data Precision
+- 10.2c Data Consistency
+
+- Section: 10.3 Data Integration Techniques:
+subsections:
+- 10.3a Data Conversion
+- 10.3b Data Transformation
+- 10.3c Data Fusion
+
+- Chapter 11: Geodatabases:
+sections:
+- Section: 11.1 Introduction to Geodatabases:
+subsections:
+- 11.1a Definition of Geodatabases
+- 11.1b Types of Geodatabases
+- 11.1c Geodatabases in GIS
+
+- Section: 11.2 Database Design:
+subsections:
+- 11.2a Database Schema
+- 11.2b Database Normalization
+- 11.2c Database Indexing
+
+- Section: 11.3 Geodatabase Management:
+subsections:
+- 11.3a Data Import and Export
+- 11.3b Data Backup
+- 11.3c Data Security
+
+- Chapter 12: Geoprocessing:
+sections:
+- Section: 12.1 Introduction to Geoprocessing:
+subsections:
+- 12.1a Definition of Geoprocessing
+- 12.1b Geoprocessing Tools
+- 12.1c Geoprocessing in GIS
+
+- Section: 12.2 Geoprocessing Tools:
+subsections:
+- 12.2a Buffer
+- 12.2b Clip
+- 12.2c Intersect
+
+- Section: 12.3 Geoprocessing Workflows:
+subsections:
+- 12.3a Workflow Design
+- 12.3b Workflow Execution
+- 12.3c Workflow Optimization
+
+- Chapter 13: Network Analysis:
+sections:
+- Section: 13.1 Introduction to Network Analysis:
+subsections:
+- 13.1a Definition of Network Analysis
+- 13.1b Network Data Model
+- 13.1c Network Analysis in GIS
+
+- Section: 13.2 Network Data Model:
+subsections:
+- 13.2a Network Nodes
+- 13.2b Network Edges
+- 13.2c Network Attributes
+
+- Section: 13.3 Network Analysis Techniques:
+subsections:
+- 13.3a Shortest Path Analysis
+- 13.3b Service Area Analysis
+- 13.3c Network Allocation Analysis
+
+- Chapter 14: Spatial Interpolation:
+sections:
+- Section: 14.1 Introduction to Spatial Interpolation:
+subsections:
+- 14.1a Definition of Spatial Interpolation
+- 14.1b Spatial Interpolation Methods
+- 14.1c Spatial Interpolation in GIS
+
+- Section: 14.2 Interpolation Methods:
+subsections:
+- 14.2a Inverse Distance Weighting
+- 14.2b Kriging
+- 14.2c Spline Interpolation
+
+- Section: 14.3 Validation of Interpolated Surfaces:
+subsections:
+- 14.3a Cross-Validation
+- 14.3b Root Mean Square Error
+- 14.3c Mean Absolute Error
+
+- Chapter 15: Spatial Analysis in 3D:
+sections:
+- Section: 15.1 Introduction to 3D Analysis:
+subsections:
+- 15.1a 3D Data Models
+- 15.1b 3D Visualization
+- 15.1c 3D Analysis in GIS
+
+- Section: 15.2 3D Data Models:
+subsections:
+- 15.2a TIN Model
+- 15.2b 3D Raster Model
+- 15.2c 3D Vector Model
+
+- Section: 15.3 3D Analysis Techniques:
+subsections:
+- 15.3a 3D Buffer Analysis
+- 15.3b 3D Viewshed Analysis
+- 15.3c 3D Surface Analysis
+
+- Chapter 16: Spatial Statistics:
+sections:
+- Section: 16.1 Introduction to Spatial Statistics:
+subsections:
+- 16.1a Definition of Spatial Statistics
+- 16.1b Spatial Autocorrelation
+- 16.1c Spatial Statistics in GIS
+
+- Section: 16.2 Spatial Autocorrelation:
+subsections:
+- 16.2a Global Spatial Autocorrelation
+- 16.2b Local Spatial Autocorrelation
+- 16.2c Spatial Autocorrelation Measures
+
+- Section: 16.3 Point Pattern Analysis:
+subsections:
+- 16.3a Point Density Analysis
+- 16.3b Nearest Neighbor Analysis
+- 16.3c Kernel Density Estimation
+
+- Section: 16.4 Spatial Regression Analysis:
+subsections:
+- 16.4a Ordinary Least Squares Regression
+- 16.4b Geographically Weighted Regression
+- 16.4c Spatial Autoregressive Models
+
+- Chapter 17: Web GIS:
+sections:
+- Section: 17.1 Introduction to Web GIS:
+subsections:
+- 17.1a Definition of Web GIS
+- 17.1b Web Mapping
+- 17.1c Web GIS in Practice
+
+- Section: 17.2 Web Mapping:
+subsections:
+- 17.2a Web Map Design
+- 17.2b Web Map Services
+- 17.2c Web Map Interactivity
+
+- Section: 17.3 Web GIS Applications:
+subsections:
+- 17.3a Environmental Monitoring
+- 17.3b Disaster Management
+- 17.3c Urban Planning
+
+- Chapter 18: Remote Sensing and GIS Integration:
+sections:
+- Section: 18.1 Introduction to Remote Sensing:
+subsections:
+- 18.1a Definition of Remote Sensing
+- 18.1b Remote Sensing Data Types
+- 18.1c Remote Sensing in GIS
+
+- Section: 18.2 Remote Sensing Data Processing:
+subsections:
+- 18.2a Image Preprocessing
+- 18.2b Image Classification
+- 18.2c Image Enhancement
+
+- Section: 18.3 Remote Sensing and GIS Integration Techniques:
+subsections:
+- 18.3a Image Georeferencing
+- 18.3b Image to Map Conversion
+- 18.3c Image Analysis in GIS
+
+- Chapter 19: GIS for Environmental Impact Assessment:
+sections:
+- Section: 19.1 Introduction to Environmental Impact Assessment:
+subsections:
+- 19.1a Definition of Environmental Impact Assessment
+- 19.1b EIA Process
+- 19.1c EIA in GIS
+
+- Section: 19.2 Data Collection for Environmental Impact Assessment:
+subsections:
+- 19.2a Environmental Data Sources
+- 19.2b Environmental Data Collection Methods
+- 19.2c Environmental Data Management
+
+- Section: 19.3 Spatial Analysis for Environmental Impact Assessment:
+subsections:
+- 19.3a Impact Prediction
+- 19.3b Impact Evaluation
+- 19.3c Impact Mitigation
+
+- Chapter 20: GIS for Natural Resource Management:
+sections:
+- Section: 20.1 Introduction to Natural Resource Management:
+subsections:
+- 20.1a Definition of Natural Resource Management
+- 20.1b NRM Principles
+- 20.1c NRM in GIS
+
+- Section: 20.2 Data Collection for Natural Resource Management:
+subsections:
+- 20.2a Natural Resource Data Sources
+- 20.2b Natural Resource Data Collection Methods
+- 20.2c Natural Resource Data Management
+
+- Section: 20.3 Spatial Analysis for Natural Resource Management:
+subsections:
+- 20.3a Resource Inventory
+- 20.3b Resource Assessment
+- 20.3c Resource Planning
+
+- Chapter 21: GIS for Urban Planning:
+sections:
+- Section: 21.1 Introduction to Urban Planning:
+subsections:
+- 21.1a Definition of Urban Planning
+- 21.1b Urban Planning Principles
+- 21.1c Urban Planning in GIS
+
+- Section: 21.2 Data Collection for Urban Planning:
+subsections:
+- 21.2a Urban Data Sources
+- 21.2b Urban Data Collection Methods
+- 21.2c Urban Data Management
+
+- Section: 21.3 Spatial Analysis for Urban Planning:
+subsections:
+- 21.3a Land Use Planning
+- 21.3b Transportation Planning
+- 21.3c Urban Growth Modeling
+
+- Chapter 22: GIS for Disaster Management:
+sections:
+- Section: 22.1 Introduction to Disaster Management:
+subsections:
+- 22.1a Definition of Disaster Management
+- 22.1b Disaster Management Cycle
+- 22.1c Disaster Management in GIS
+
+- Section: 22.2 Data Collection for Disaster Management:
+subsections:
+- 22.2a Disaster Data Sources
+- 22.2b Disaster Data Collection Methods
+- 22.2c Disaster Data Management
+
+- Section: 22.3 Spatial Analysis for Disaster Management:
+subsections:
+- 22.3a Hazard Assessment
+- 22.3b Vulnerability Assessment
+- 22.3c Risk Assessment
+
+- Chapter 23: GIS for Climate Change Analysis:
+sections:
+- Section: 23.1 Introduction to Climate Change Analysis:
+subsections:
+- 23.1a Definition of Climate Change Analysis
+- 23.1b Climate Change Indicators
+- 23.1c Climate Change Analysis in GIS
+
+- Section: 23.2 Data Collection for Climate Change Analysis:
+subsections:
+- 23.2a Climate Data Sources
+- 23.2b Climate Data Collection Methods
+- 23.2c Climate Data Management
+
+- Section: 23.3 Spatial Analysis for Climate Change Analysis:
+subsections:
+- 23.3a Climate Change Modeling
+- 23.3b Climate Change Impact Assessment
+- 23.3c Climate Change Adaptation Planning

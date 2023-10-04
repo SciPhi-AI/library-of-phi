@@ -1,0 +1,319 @@
+textbook: 
+"Business Analysis Using Financial Statements":
+
+chapters:
+- Chapter 1: Introduction: Accounting Scandals, Business Valuation and Market Efficiency:
+sections:
+- Section: 1.1 Accounting Scandals:
+subsections:
+- 1.1a Overview of Accounting Scandals
+- 1.1b Causes of Accounting Scandals
+- 1.1c Impact of Accounting Scandals
+
+- Section: 1.2 Business Valuation:
+subsections:
+- 1.2a Introduction to Business Valuation
+- 1.2b Methods of Business Valuation
+- 1.2c Importance of Business Valuation
+
+- Section: 1.3 Market Efficiency:
+subsections:
+- 1.3a Understanding Market Efficiency
+- 1.3b Factors Affecting Market Efficiency
+- 1.3c Market Efficiency and Business Valuation
+
+- Chapter 2: The Basics of Company Valuation: DCF Foundations Setting the Stage for Using Accounting Information:
+sections:
+- Section: 2.1 Company Valuation:
+subsections:
+- 2.1a Basics of Company Valuation
+- 2.1b Valuation Models
+- 2.1c Valuation in Practice
+
+- Section: 2.2 DCF Foundations:
+subsections:
+- 2.2a Understanding DCF
+- 2.2b DCF in Valuation
+- 2.2c Limitations of DCF
+
+- Section: 2.3 Accounting Information:
+subsections:
+- 2.3a Role of Accounting Information in Valuation
+- 2.3b Interpreting Accounting Information
+- 2.3c Accounting Information and Market Efficiency
+
+- Chapter 3: Cash Flow Analysis: Is Cash King?:
+sections:
+- Section: 3.1 Cash Flow Analysis:
+subsections:
+- 3.1a Importance of Cash Flow Analysis
+- 3.1b Techniques of Cash Flow Analysis
+- 3.1c Cash Flow Analysis in Practice
+
+- Section: 3.2 Importance of Cash:
+subsections:
+- 3.2a Understanding the Role of Cash
+- 3.2b Cash Management
+- 3.2c Cash and Company Valuation
+
+- Chapter 4: Using Accounting Earnings for Valuation - Why Earnings and Not Cash Flow?:
+sections:
+- Section: 4.1 Accounting Earnings:
+subsections:
+- 4.1a Understanding Accounting Earnings
+- 4.1b Accounting Earnings vs Cash Flow
+- 4.1c Accounting Earnings in Valuation
+
+- Section: 4.2 Valuation Methods:
+subsections:
+- 4.2a Overview of Valuation Methods
+- 4.2b Choosing the Right Valuation Method
+- 4.2c Valuation Methods in Practice
+
+- Chapter 5: Comparative Analysis: What Analysts Do?:
+sections:
+- Section: 5.1 Comparative Analysis:
+subsections:
+- 5.1a Understanding Comparative Analysis
+- 5.1b Techniques of Comparative Analysis
+- 5.1c Comparative Analysis in Valuation
+
+- Section: 5.2 Role of Analysts:
+subsections:
+- 5.2a Understanding the Role of Analysts
+- 5.2b Analysts and Market Efficiency
+- 5.2c Analysts in Business Valuation
+
+- Chapter 6: Turbo Accounting I - A Review of How to Read a Financial Statement:
+sections:
+- Section: 6.1 Financial Statements:
+subsections:
+- 6.1a Understanding Financial Statements
+- 6.1b Components of Financial Statements
+- 6.1c Financial Statements in Valuation
+
+- Section: 6.2 Reading Financial Statements:
+subsections:
+- 6.2a Techniques of Reading Financial Statements
+- 6.2b Interpreting Financial Statements
+- 6.2c Reading Financial Statements in Practice
+
+- Chapter 7: How Companies Cook the Books:
+sections:
+- Section: 7.1 Financial Manipulation:
+subsections:
+- 7.1a Understanding Financial Manipulation
+- 7.1b Techniques of Financial Manipulation
+- 7.1c Impact of Financial Manipulation
+
+- Section: 7.2 Earnings Management:
+subsections:
+- 7.2a Understanding Earnings Management
+- 7.2b Techniques of Earnings Management
+- 7.2c Earnings Management and Company Valuation
+
+- Chapter 8: Detecting Earnings Management: Applied Analysis:
+sections:
+- Section: 8.1 Earnings Analysis:
+subsections:
+- 8.1a Understanding Earnings Analysis
+- 8.1b Techniques of Earnings Analysis
+- 8.1c Earnings Analysis in Practice
+
+- Section: 8.2 Detecting Manipulation:
+subsections:
+- 8.2a Techniques of Detecting Manipulation
+- 8.2b Role of Analysts in Detecting Manipulation
+- 8.2c Detecting Manipulation and Company Valuation
+
+- Chapter 9: Risk Assessment: Do Financial Statements Capture Risk?:
+sections:
+- Section: 9.1 Risk Assessment:
+subsections:
+- 9.1a Understanding Risk Assessment
+- 9.1b Techniques of Risk Assessment
+- 9.1c Risk Assessment in Valuation
+
+- Section: 9.2 Financial Statements and Risk:
+subsections:
+- 9.2a Role of Financial Statements in Risk Assessment
+- 9.2b Interpreting Risk from Financial Statements
+- 9.2c Financial Statements and Company Valuation
+
+- Chapter 10: Risk I: Cost of Capital: Is CAPM Dead?:
+sections:
+- Section: 10.1 Cost of Capital:
+subsections:
+- 10.1a Understanding Cost of Capital
+- 10.1b Calculating Cost of Capital
+- 10.1c Cost of Capital in Valuation
+
+- Section: 10.2 CAPM:
+subsections:
+- 10.2a Understanding CAPM
+- 10.2b CAPM in Valuation
+- 10.2c Limitations of CAPM
+
+- Chapter 11: Risk and Accounting Trading Strategies: Do Investors Understand Accounting?:
+sections:
+- Section: 11.1 Accounting Trading Strategies:
+subsections:
+- 11.1a Understanding Accounting Trading Strategies
+- 11.1b Techniques of Accounting Trading Strategies
+- 11.1c Accounting Trading Strategies in Practice
+
+- Section: 11.2 Investor Understanding:
+subsections:
+- 11.2a Understanding Investor Behavior
+- 11.2b Role of Accounting Information in Investor Behavior
+- 11.2c Investor Understanding and Market Efficiency
+
+- Chapter 12: Risk II: Accounting Numbers in Contracts: Ratio Analysis and Bankruptcy Detection:
+sections:
+- Section: 12.1 Accounting Numbers in Contracts:
+subsections:
+- 12.1a Role of Accounting Numbers in Contracts
+- 12.1b Interpreting Accounting Numbers in Contracts
+- 12.1c Accounting Numbers and Company Valuation
+
+- Section: 12.2 Ratio Analysis:
+subsections:
+- 12.2a Understanding Ratio Analysis
+- 12.2b Techniques of Ratio Analysis
+- 12.2c Ratio Analysis in Practice
+
+- Section: 12.3 Bankruptcy Detection:
+subsections:
+- 12.3a Understanding Bankruptcy Detection
+- 12.3b Techniques of Bankruptcy Detection
+- 12.3c Bankruptcy Detection and Company Valuation
+
+- Chapter 13: Mergers and Acquisitions: Impairment of Goodwill, Writedowns, Private Firm Valuation:
+sections:
+- Section: 13.1 Mergers and Acquisitions:
+subsections:
+- 13.1a Understanding Mergers and Acquisitions
+- 13.1b Role of Accounting in Mergers and Acquisitions
+- 13.1c Mergers and Acquisitions and Company Valuation
+
+- Section: 13.2 Goodwill Impairment:
+subsections:
+- 13.2a Understanding Goodwill Impairment
+- 13.2b Calculating Goodwill Impairment
+- 13.2c Goodwill Impairment and Company Valuation
+
+- Section: 13.3 Private Firm Valuation:
+subsections:
+- 13.3a Understanding Private Firm Valuation
+- 13.3b Techniques of Private Firm Valuation
+- 13.3c Private Firm Valuation in Practice
+
+- Chapter 14: Employee Stock Options and Valuation: Should Options be Expensed? Understanding the current debate:
+sections:
+- Section: 14.1 Employee Stock Options:
+subsections:
+- 14.1a Understanding Employee Stock Options
+- 14.1b Valuing Employee Stock Options
+- 14.1c Employee Stock Options and Company Valuation
+
+- Section: 14.2 Options Valuation:
+subsections:
+- 14.2a Understanding Options Valuation
+- 14.2b Techniques of Options Valuation
+- 14.2c Options Valuation in Practice
+
+- Section: 14.3 Expense Debate:
+subsections:
+- 14.3a Understanding the Expense Debate
+- 14.3b Role of Accounting in the Expense Debate
+- 14.3c Expense Debate and Company Valuation
+
+- Chapter 15: Off Balance Sheet Activities - Deconstructing the Enron Debacle and Beyond:
+sections:
+- Section: 15.1 Off Balance Sheet Activities:
+subsections:
+- 15.1a Understanding Off Balance Sheet Activities
+- 15.1b Role of Accounting in Off Balance Sheet Activities
+- 15.1c Off Balance Sheet Activities and Company Valuation
+
+- Section: 15.2 Enron Debacle:
+subsections:
+- 15.2a Understanding the Enron Debacle
+- 15.2b Role of Accounting in the Enron Debacle
+- 15.2c Enron Debacle and Company Valuation
+
+- Chapter 16: Pension Plans - The Next Accounting Disaster?:
+sections:
+- Section: 16.1 Pension Plans:
+subsections:
+- 16.1a Understanding Pension Plans
+- 16.1b Role of Accounting in Pension Plans
+- 16.1c Pension Plans and Company Valuation
+
+- Section: 16.2 Accounting Risks:
+subsections:
+- 16.2a Understanding Accounting Risks
+- 16.2b Role of Accounting in Risk Management
+- 16.2c Accounting Risks and Company Valuation
+
+- Chapter 17: International Financial Analysis:
+sections:
+- Section: 17.1 International Analysis:
+subsections:
+- 17.1a Understanding International Financial Analysis
+- 17.1b Techniques of International Financial Analysis
+- 17.1c International Financial Analysis in Practice
+
+- Section: 17.2 Global Financial Reporting:
+subsections:
+- 17.2a Understanding Global Financial Reporting
+- 17.2b Role of Accounting in Global Financial Reporting
+- 17.2c Global Financial Reporting and Company Valuation
+
+- Chapter 18: Hot Topics in Accounting and Valuation: + Capstone:
+sections:
+- Section: 18.1 Hot Topics in Accounting:
+subsections:
+- 18.1a Overview of Hot Topics in Accounting
+- 18.1b Role of Accounting in Hot Topics
+- 18.1c Hot Topics and Company Valuation
+
+- Section: 18.2 Valuation Capstone:
+subsections:
+- 18.2a Understanding the Valuation Capstone
+- 18.2b Role of Accounting in the Valuation Capstone
+- 18.2c Valuation Capstone and Company Valuation
+
+- Chapter 19: Analyst Team Presentations and Due Diligence Response by Matched Teams:
+sections:
+- Section: 19.1 Analyst Team Presentations:
+subsections:
+- 19.1a Understanding Analyst Team Presentations
+- 19.1b Role of Accounting in Analyst Team Presentations
+- 19.1c Analyst Team Presentations and Company Valuation
+
+- Section: 19.2 Due Diligence:
+subsections:
+- 19.2a Understanding Due Diligence
+- 19.2b Role of Accounting in Due Diligence
+- 19.2c Due Diligence and Company Valuation
+
+- Chapter 20: Advanced Topics in Accounting and Valuation:
+sections:
+- Section: 20.1 Advanced Accounting Concepts:
+subsections:
+- 20.1a Understanding Advanced Accounting Concepts
+- 20.1b Role of Advanced Accounting Concepts in Valuation
+- 20.1c Advanced Accounting Concepts in Practice
+
+- Section: 20.2 Advanced Valuation Techniques:
+subsections:
+- 20.2a Understanding Advanced Valuation Techniques
+- 20.2b Role of Accounting in Advanced Valuation Techniques
+- 20.2c Advanced Valuation Techniques in Practice
+
+- Section: 20.3 Future of Accounting and Valuation:
+subsections:
+- 20.3a Predicting the Future of Accounting
+- 20.3b Role of Accounting in the Future of Valuation
+- 20.3c Future of Accounting and Valuation in Practice

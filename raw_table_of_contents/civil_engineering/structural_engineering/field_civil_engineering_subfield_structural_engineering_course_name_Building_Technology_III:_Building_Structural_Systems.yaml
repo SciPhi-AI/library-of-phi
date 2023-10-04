@@ -1,0 +1,250 @@
+textbook:
+  'Building Structural Systems: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Building Structural Systems:':
+        sections:
+        - '- Section: 1.1 Importance of Building Structural Systems:':
+            subsections:
+            - 1.1a Role of Structural Systems in Building Performance
+            - 1.1b Impact of Structural Systems on Occupant Safety
+            - 1.1c Relationship between Structural Systems and Architectural Design
+        - '- Section: 1.2 Structural Design Principles:':
+            subsections:
+            - 1.2a Structural Analysis and Design Process
+            - 1.2b Load Path and Load Transfer Mechanisms in Structures
+            - 1.2c Structural Stability and Redundancy
+        - '- Section: 1.3 Loadings and Load Combinations:':
+            subsections:
+            - 1.3a Dead Loads and Live Loads
+            - 1.3b Environmental Loads (Wind, Snow, Seismic)
+            - 1.3c Load Combinations and Factors of Safety
+        - '- Section: 1.4 Structural Safety and Performance:':
+            subsections:
+            - 1.4a Structural Safety Factors and Design Codes
+            - 1.4b Performance-Based Design Approaches
+            - 1.4c Durability and Maintenance of Structural Systems
+    - '- Chapter 2: Reinforced Concrete Structures:':
+        sections:
+        - '- Section: 2.1 Basic Concepts of Reinforced Concrete:':
+            subsections:
+            - 2.1a Properties and Behavior of Concrete and Reinforcement
+            - 2.1b Concrete Mix Design and Proportioning
+            - 2.1c Concrete Curing and Strength Development
+        - '- Section: 2.2 Reinforcement Details and Placement:':
+            subsections:
+            - 2.2a Reinforcement Types and Bar Sizes
+            - 2.2b Reinforcement Layout and Spacing
+            - 2.2c Reinforcement Anchoring and Development Length
+        - '- Section: 2.3 Structural Analysis and Design of Reinforced Concrete Elements:':
+            subsections:
+            - 2.3a Flexural Design of Reinforced Concrete Beams
+            - 2.3b Shear Design of Reinforced Concrete Beams
+            - 2.3c Torsion Design of Reinforced Concrete Beams
+            - 2.3d Design of Reinforced Concrete Slabs and Footings
+        - '- Section: 2.4 Shear and Flexural Behavior of Reinforced Concrete Beams:':
+            subsections:
+            - 2.4a Shear Strength and Failure Modes in Reinforced Concrete Beams
+            - 2.4b Flexural Strength and Behavior of Reinforced Concrete Beams
+            - 2.4c Deflection Control in Reinforced Concrete Beams
+        - '- Section: 2.5 Reinforced Concrete Columns and Walls:':
+            subsections:
+            - 2.5a Design of Reinforced Concrete Columns
+            - 2.5b Behavior and Design of Reinforced Concrete Walls
+            - 2.5c Design of Reinforced Concrete Shear Walls
+        - '- Section: 2.6 Design of Reinforced Concrete Slabs:':
+            subsections:
+            - 2.6a One-Way Slab Design
+            - 2.6b Two-Way Slab Design (Direct Design Method)
+            - 2.6c Two-Way Slab Design (Equivalent Frame Method)
+    - '- Chapter 3: Steel Structures:':
+        sections:
+        - '- Section: 3.1 Properties and Behavior of Structural Steel:':
+            subsections:
+            - 3.1a Types and Grades of Structural Steel
+            - 3.1b Material Properties of Structural Steel
+            - 3.1c Steel Design Codes and Standards
+        - '- Section: 3.2 Design of Steel Beams and Columns:':
+            subsections:
+            - 3.2a Flexural Design of Steel Beams
+            - 3.2b Compression and Tension Member Design
+            - 3.2c Design of Steel Beam-Column Connections
+        - '- Section: 3.3 Connection Design for Steel Structures:':
+            subsections:
+            - 3.3a Welded Connections in Steel Structures
+            - 3.3b Bolted Connections in Steel Structures
+            - 3.3c Moment-Resisting Connections in Steel Frames
+        - '- Section: 3.4 Structural Stability and Bracing Systems:':
+            subsections:
+            - 3.4a Buckling of Steel Members and Frames
+            - 3.4b Design of Steel Bracing Systems
+            - 3.4c Design of Steel Moment-Resisting Frames
+        - '- Section: 3.5 Steel Roof and Floor Systems:':
+            subsections:
+            - 3.5a Design of Steel Roof Trusses
+            - 3.5b Design of Steel Floor Systems
+            - 3.5c Composite Steel Decking Systems
+        - '- Section: 3.6 Steel Bridge Design:':
+            subsections:
+            - 3.6a Design Criteria for Steel Bridges
+            - 3.6b Design of Steel Girder Bridges
+            - 3.6c Design of Steel Arch Bridges
+    - '- Chapter 4: Wood Structures:':
+        sections:
+        - '- Section: 4.1 Properties and Behavior of Wood:':
+            subsections:
+            - 4.1a Anatomy and Structure of Wood
+            - 4.1b Mechanical Properties of Wood
+            - 4.1c Moisture Effects on Wood Behavior
+        - '- Section: 4.2 Design of Wood Beams and Columns:':
+            subsections:
+            - 4.2a Bending Design of Wood Beams
+            - 4.2b Axial Design of Wood Columns
+            - 4.2c Lateral-Torsional Buckling of Wood Beams
+        - '- Section: 4.3 Connection Design for Wood Structures:':
+            subsections:
+            - 4.3a Fasteners and Wood Connectors
+            - 4.3b Nailed and Screwed Connections in Wood
+            - 4.3c Moment-Resisting Connections in Wood Structures
+        - '- Section: 4.4 Structural Design of Wood Roof and Floor Systems:':
+            subsections:
+            - 4.4a Design of Wood Roof Trusses
+            - 4.4b Design of Wood Floor Joist Systems
+            - 4.4c Design of Wood Sheathing and Subflooring
+        - '- Section: 4.5 Wood Shear Walls and Diaphragms:':
+            subsections:
+            - 4.5a Behavior and Design of Wood Shear Walls
+            - 4.5b Design of Wood Diaphragms
+            - 4.5c Plywood and OSB Sheathing in Wood Structures
+        - '- Section: 4.6 Wood Foundation Systems:':
+            subsections:
+            - 4.6a Design of Wood Foundation Walls
+            - 4.6b Wood Pile and Pier Systems
+            - 4.6c Moisture Protection in Wood Foundation Construction
+    - '- Chapter 5: Masonry Structures:':
+        sections:
+        - '- Section: 5.1 Introduction to Masonry Materials:':
+            subsections:
+            - 5.1a Types and Properties of Masonry Materials
+            - 5.1b Masonry Unit Manufacturing and Standards
+            - 5.1c Mortar Types and Mix Proportions
+        - '- Section: 5.2 Behavior and Design of Masonry Walls:':
+            subsections:
+            - 5.2a Structural Behavior of Masonry Walls
+            - 5.2b Design of Load-Bearing Masonry Walls
+            - 5.2c Design of Masonry Shear Walls
+        - '- Section: 5.3 Masonry Columns and Beams:':
+            subsections:
+            - 5.3a Design of Masonry Columns
+            - 5.3b Design of Masonry Beams
+            - 5.3c Reinforced Masonry Beam Design
+        - '- Section: 5.4 Reinforced Masonry Structures:':
+            subsections:
+            - 5.4a Reinforced Masonry Wall Design
+            - 5.4b Reinforcement Details and Placement in Masonry
+            - 5.4c Design of Masonry Coupling Beams
+        - '- Section: 5.5 Masonry Shear Walls:':
+            subsections:
+            - 5.5a Behavior and Design of Masonry Shear Walls
+            - 5.5b Shear Wall Reinforcement Design
+            - 5.5c Shear Transfer Mechanisms in Masonry
+        - '- Section: 5.6 Masonry Foundation Systems:':
+            subsections:
+            - 5.6a Design of Masonry Foundation Walls
+            - 5.6b Masonry Pile and Pier Systems
+            - 5.6c Moisture Protection in Masonry Foundation Construction
+    - '- Chapter 6: Composite Structures:':
+        sections:
+        - '- Section: 6.1 Introduction to Composite Materials:':
+            subsections:
+            - 6.1a Types and Properties of Composite Materials
+            - 6.1b Fiber Reinforcement in Composite Materials
+            - 6.1c Composite Material Manufacturing Processes
+        - '- Section: 6.2 Behavior and Design of Composite Beams and Columns:':
+            subsections:
+            - 6.2a Flexural Behavior of Composite Beams
+            - 6.2b Design of Composite Beam-Column Connections
+            - 6.2c Design of Composite Columns
+        - '- Section: 6.3 Composite Slabs and Floor Systems:':
+            subsections:
+            - 6.3a Behavior and Design of Composite Slabs
+            - 6.3b Design of Composite Floor Systems
+            - 6.3c Composite Metal Decking Systems
+        - '- Section: 6.4 Connection Design for Composite Structures:':
+            subsections:
+            - 6.4a Welded Connections in Composite Structures
+            - 6.4b Bolted Connections in Composite Structures
+            - 6.4c Moment-Resisting Connections in Composite Structures
+        - '- Section: 6.5 Composite Bridge Design:':
+            subsections:
+            - 6.5a Design Criteria for Composite Bridges
+            - 6.5b Design of Composite Girder Bridges
+            - 6.5c Design of Composite Arch Bridges
+        - '- Section: 6.6 Composite Reinforcement Systems:':
+            subsections:
+            - 6.6a Fiber-Reinforced Polymer (FRP) Reinforcement
+            - 6.6b Applications of FRP Reinforcement in Structures
+            - 6.6c Design Considerations for FRP-Reinforced Elements
+    - '- Chapter 7: Structural Analysis and Design Software:':
+        sections:
+        - '- Section: 7.1 Introduction to Structural Analysis and Design Software:':
+            subsections:
+            - 7.1a Types and Features of Structural Analysis Software
+            - 7.1b Types and Features of Structural Design Software
+            - 7.1c Integration of Analysis and Design Software
+        - '- Section: 7.2 Modeling and Analysis of Structural Systems:':
+            subsections:
+            - 7.2a Structural Modeling Techniques
+            - 7.2b Structural Analysis Methods (Static and Dynamic)
+            - 7.2c Finite Element Analysis (FEA) in Structural Design
+        - '- Section: 7.3 Design and Optimization of Structural Elements:':
+            subsections:
+            - 7.3a Design Optimization Methods and Techniques
+            - 7.3b Parametric Design and Sensitivity Analysis
+            - 7.3c Design Automation in Structural Engineering
+        - '- Section: 7.4 Visualization and Presentation of Structural Designs:':
+            subsections:
+            - 7.4a 3D Visualization Techniques in Structural Design
+            - 7.4b Computer-Aided Design (CAD) in Structural Engineering
+            - 7.4c Virtual Reality (VR) and Augmented Reality (AR) in Structural Design
+    - '- Chapter 8: Structural Testing and Evaluation:':
+        sections:
+        - '- Section: 8.1 Non-destructive Testing Techniques:':
+            subsections:
+            - 8.1a Visual Inspection and Non-destructive Evaluation (NDE)
+            - 8.1b Ultrasonic Testing of Structural Elements
+            - 8.1c Radiographic Testing of Structural Elements
+        - '- Section: 8.2 Load Testing of Structures:':
+            subsections:
+            - 8.2a Static Load Testing of Buildings and Bridges
+            - 8.2b Dynamic Load Testing of Structures
+            - 8.2c Monitoring and Data Analysis during Load Testing
+        - '- Section: 8.3 Structural Health Monitoring:':
+            subsections:
+            - 8.3a Sensors and Monitoring Systems for Structural Health
+            - 8.3b Data Analysis and Interpretation in Structural Health Monitoring
+            - 8.3c Condition Assessment and Maintenance Planning
+        - '- Section: 8.4 Structural Evaluation and Retrofitting:':
+            subsections:
+            - 8.4a Structural Evaluation Techniques and Procedures
+            - 8.4b Strengthening and Retrofitting Strategies
+            - 8.4c Cost Analysis and Feasibility Studies for Retrofit Projects
+    - '- Chapter 9: Sustainability in Structural Design:':
+        sections:
+        - '- Section: 9.1 Sustainable Materials and Construction Practices:':
+            subsections:
+            - 9.1a Green Building Materials and Technologies
+            - 9.1b Low-Impact Construction Techniques
+            - 9.1c Recycling and Reuse in Structural Design
+        - '- Section: 9.2 Life Cycle Assessment of Structural Systems:':
+            subsections:
+            - 9.2a Life Cycle Assessment (LCA) Methodology and Tools
+            - 9.2b Environmental Impact Assessment of Structural Systems
+            - 9.2c Life Cycle Cost Analysis (LCCA) in Structural Design
+        - '- Section: 9.3 Energy Efficiency in Building Structural Systems:':
+            subsections:
+            - 9.3a Passive Design Strategies for Energy Efficiency
+            - 9.3b Energy-Efficient Materials and Systems
+            - 9.3c Building Energy Simulation and Optimization
+        - '- Section: 9.4 Design for Resilience and Adaptability:':
+            subsections:
+            - 9.4a Resilient

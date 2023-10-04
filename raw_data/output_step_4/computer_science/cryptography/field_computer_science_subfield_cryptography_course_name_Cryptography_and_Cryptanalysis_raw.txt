@@ -1,0 +1,397 @@
+textbook: 
+"Comprehensive Guide to Cryptography and Cryptanalysis":
+
+chapters:
+- Chapter 1: Public-key Encryption:
+sections:
+- Section: 1.1 Basic Protocols:
+subsections:
+- 1.1a Overview
+- 1.1b RSA Encryption
+- 1.1c Diffie-Hellman Key Exchange
+
+- Section: 1.2 Computational Complexity Requirements:
+subsections:
+- 1.2a Big-O Notation
+- 1.2b Time Complexity Analysis
+- 1.2c Space Complexity Analysis
+
+- Chapter 2: Digital Signatures:
+sections:
+- Section: 2.1 Basic Protocols:
+subsections:
+- 2.1a Overview
+- 2.1b RSA Digital Signature
+- 2.1c DSA Digital Signature
+
+- Section: 2.2 Computational Complexity Requirements:
+subsections:
+- 2.2a Big-O Notation
+- 2.2b Time Complexity Analysis
+- 2.2c Space Complexity Analysis
+
+- Section: 2.3 Security Analysis:
+subsections:
+- 2.3a Known Attacks
+- 2.3b Collision Resistance
+- 2.3c Unforgeability
+
+- Chapter 3: Pseudo-random Number Generation:
+sections:
+- Section: 3.1 Basic Protocols:
+subsections:
+- 3.1a Overview
+- 3.1b Linear Congruential Generator
+- 3.1c Blum Blum Shub Generator
+
+- Section: 3.2 Computational Complexity Requirements:
+subsections:
+- 3.2a Big-O Notation
+- 3.2b Time Complexity Analysis
+- 3.2c Space Complexity Analysis
+
+- Section: 3.3 Statistical Tests:
+subsections:
+- 3.3a Frequency Test
+- 3.3b Poker Test
+- 3.3c Runs Test
+
+- Chapter 4: Symmetric Key Cryptography:
+sections:
+- Section: 4.1 Basic Protocols:
+subsections:
+- 4.1a Overview
+- 4.1b DES
+- 4.1c AES
+
+- Section: 4.2 Computational Complexity Requirements:
+subsections:
+- 4.2a Big-O Notation
+- 4.2b Time Complexity Analysis
+- 4.2c Space Complexity Analysis
+
+- Section: 4.3 Security Analysis:
+subsections:
+- 4.3a Known Attacks
+- 4.3b Collision Resistance
+- 4.3c Unforgeability
+
+- Chapter 5: Hash Functions:
+sections:
+- Section: 5.1 Basic Protocols:
+subsections:
+- 5.1a Overview
+- 5.1b MD5
+- 5.1c SHA-1
+
+- Section: 5.2 Computational Complexity Requirements:
+subsections:
+- 5.2a Big-O Notation
+- 5.2b Time Complexity Analysis
+- 5.2c Space Complexity Analysis
+
+- Section: 5.3 Security Analysis:
+subsections:
+- 5.3a Known Attacks
+- 5.3b Collision Resistance
+- 5.3c Unforgeability
+
+- Chapter 6: Key Exchange Protocols:
+sections:
+- Section: 6.1 Basic Protocols:
+subsections:
+- 6.1a Overview
+- 6.1b Diffie-Hellman
+- 6.1c ECDH
+
+- Section: 6.2 Computational Complexity Requirements:
+subsections:
+- 6.2a Big-O Notation
+- 6.2b Time Complexity Analysis
+- 6.2c Space Complexity Analysis
+
+- Section: 6.3 Security Analysis:
+subsections:
+- 6.3a Known Attacks
+- 6.3b Man-in-the-Middle Attack
+- 6.3c Unforgeability
+
+- Chapter 7: Cryptanalysis:
+sections:
+- Section: 7.1 Basic Techniques:
+subsections:
+- 7.1a Overview
+- 7.1b Brute Force Attack
+- 7.1c Frequency Analysis
+
+- Section: 7.2 Computational Complexity Requirements:
+subsections:
+- 7.2a Big-O Notation
+- 7.2b Time Complexity Analysis
+- 7.2c Space Complexity Analysis
+
+- Section: 7.3 Security Analysis:
+subsections:
+- 7.3a Known Attacks
+- 7.3b Collision Resistance
+- 7.3c Unforgeability
+
+- Chapter 8: Quantum Cryptography:
+sections:
+- Section: 8.1 Basic Protocols:
+subsections:
+- 8.1a Overview
+- 8.1b BB84
+- 8.1c E91
+
+- Section: 8.2 Computational Complexity Requirements:
+subsections:
+- 8.2a Big-O Notation
+- 8.2b Time Complexity Analysis
+- 8.2c Space Complexity Analysis
+
+- Section: 8.3 Security Analysis:
+subsections:
+- 8.3a Known Attacks
+- 8.3b Collision Resistance
+- 8.3c Unforgeability
+
+- Chapter 9: Post-Quantum Cryptography:
+sections:
+- Section: 9.1 Basic Protocols:
+subsections:
+- 9.1a Overview
+- 9.1b Lattice-based Cryptography
+- 9.1c Code-based Cryptography
+
+- Section: 9.2 Computational Complexity Requirements:
+subsections:
+- 9.2a Big-O Notation
+- 9.2b Time Complexity Analysis
+- 9.2c Space Complexity Analysis
+
+- Section: 9.3 Security Analysis:
+subsections:
+- 9.3a Known Attacks
+- 9.3b Collision Resistance
+- 9.3c Unforgeability
+
+- Chapter 10: Cryptographic Protocols:
+sections:
+- Section: 10.1 Basic Protocols:
+subsections:
+- 10.1a Overview
+- 10.1b Secure Multiparty Computation
+- 10.1c Zero-Knowledge Proofs
+
+- Section: 10.2 Computational Complexity Requirements:
+subsections:
+- 10.2a Big-O Notation
+- 10.2b Time Complexity Analysis
+- 10.2c Space Complexity Analysis
+
+- Section: 10.3 Security Analysis:
+subsections:
+- 10.3a Known Attacks
+- 10.3b Collision Resistance
+- 10.3c Unforgeability
+
+- Chapter 11: Cryptographic Hardware:
+sections:
+- Section: 11.1 Basic Protocols:
+subsections:
+- 11.1a Overview
+- 11.1b Hardware Security Modules
+- 11.1c Secure Element
+
+- Section: 11.2 Computational Complexity Requirements:
+subsections:
+- 11.2a Big-O Notation
+- 11.2b Time Complexity Analysis
+- 11.2c Space Complexity Analysis
+
+- Section: 11.3 Security Analysis:
+subsections:
+- 11.3a Known Attacks
+- 11.3b Collision Resistance
+- 11.3c Unforgeability
+
+- Chapter 12: Cryptographic Software:
+sections:
+- Section: 12.1 Basic Protocols:
+subsections:
+- 12.1a Overview
+- 12.1b OpenSSL
+- 12.1c GnuPG
+
+- Section: 12.2 Computational Complexity Requirements:
+subsections:
+- 12.2a Big-O Notation
+- 12.2b Time Complexity Analysis
+- 12.2c Space Complexity Analysis
+
+- Section: 12.3 Security Analysis:
+subsections:
+- 12.3a Known Attacks
+- 12.3b Collision Resistance
+- 12.3c Unforgeability
+
+- Chapter 13: Cryptographic Standards:
+sections:
+- Section: 13.1 Basic Protocols:
+subsections:
+- 13.1a Overview
+- 13.1b NIST Standards
+- 13.1c ISO Standards
+
+- Section: 13.2 Computational Complexity Requirements:
+subsections:
+- 13.2a Big-O Notation
+- 13.2b Time Complexity Analysis
+- 13.2c Space Complexity Analysis
+
+- Section: 13.3 Security Analysis:
+subsections:
+- 13.3a Known Attacks
+- 13.3b Collision Resistance
+- 13.3c Unforgeability
+
+- Chapter 14: Cryptographic Law and Regulation:
+sections:
+- Section: 14.1 Basic Protocols:
+subsections:
+- 14.1a Overview
+- 14.1b Export Controls
+- 14.1c Data Protection Laws
+
+- Section: 14.2 Computational Complexity Requirements:
+subsections:
+- 14.2a Big-O Notation
+- 14.2b Time Complexity Analysis
+- 14.2c Space Complexity Analysis
+
+- Section: 14.3 Security Analysis:
+subsections:
+- 14.3a Known Attacks
+- 14.3b Collision Resistance
+- 14.3c Unforgeability
+
+- Chapter 15: Cryptographic Ethics:
+sections:
+- Section: 15.1 Basic Protocols:
+subsections:
+- 15.1a Overview
+- 15.1b Ethical Hacking
+- 15.1c Responsible Disclosure
+
+- Section: 15.2 Computational Complexity Requirements:
+subsections:
+- 15.2a Big-O Notation
+- 15.2b Time Complexity Analysis
+- 15.2c Space Complexity Analysis
+
+- Section: 15.3 Security Analysis:
+subsections:
+- 15.3a Known Attacks
+- 15.3b Collision Resistance
+- 15.3c Unforgeability
+
+- Chapter 16: Cryptographic History:
+sections:
+- Section: 16.1 Basic Protocols:
+subsections:
+- 16.1a Overview
+- 16.1b Caesar Cipher
+- 16.1c Enigma Machine
+
+- Section: 16.2 Computational Complexity Requirements:
+subsections:
+- 16.2a Big-O Notation
+- 16.2b Time Complexity Analysis
+- 16.2c Space Complexity Analysis
+
+- Section: 16.3 Security Analysis:
+subsections:
+- 16.3a Known Attacks
+- 16.3b Collision Resistance
+- 16.3c Unforgeability
+
+- Chapter 17: Cryptographic Future:
+sections:
+- Section: 17.1 Basic Protocols:
+subsections:
+- 17.1a Overview
+- 17.1b Quantum Computing
+- 17.1c Post-Quantum Cryptography
+
+- Section: 17.2 Computational Complexity Requirements:
+subsections:
+- 17.2a Big-O Notation
+- 17.2b Time Complexity Analysis
+- 17.2c Space Complexity Analysis
+
+- Section: 17.3 Security Analysis:
+subsections:
+- 17.3a Known Attacks
+- 17.3b Collision Resistance
+- 17.3c Unforgeability
+
+- Chapter 18: Cryptographic Education:
+sections:
+- Section: 18.1 Basic Protocols:
+subsections:
+- 18.1a Overview
+- 18.1b University Programs
+- 18.1c Online Courses
+
+- Section: 18.2 Computational Complexity Requirements:
+subsections:
+- 18.2a Big-O Notation
+- 18.2b Time Complexity Analysis
+- 18.2c Space Complexity Analysis
+
+- Section: 18.3 Security Analysis:
+subsections:
+- 18.3a Known Attacks
+- 18.3b Collision Resistance
+- 18.3c Unforgeability
+
+- Chapter 19: Cryptographic Careers:
+sections:
+- Section: 19.1 Basic Protocols:
+subsections:
+- 19.1a Overview
+- 19.1b Cryptographer
+- 19.1c Cryptanalyst
+
+- Section: 19.2 Computational Complexity Requirements:
+subsections:
+- 19.2a Big-O Notation
+- 19.2b Time Complexity Analysis
+- 19.2c Space Complexity Analysis
+
+- Section: 19.3 Security Analysis:
+subsections:
+- 19.3a Known Attacks
+- 19.3b Collision Resistance
+- 19.3c Unforgeability
+
+- Chapter 20: Cryptographic Organizations:
+sections:
+- Section: 20.1 Basic Protocols:
+subsections:
+- 20.1a Overview
+- 20.1b International Association for Cryptologic Research
+- 20.1c Cryptography Research Division
+
+- Section: 20.2 Computational Complexity Requirements:
+subsections:
+- 20.2a Big-O Notation
+- 20.2b Time Complexity Analysis
+- 20.2c Space Complexity Analysis
+
+- Section: 20.3 Security Analysis:
+subsections:
+- 20.3a Known Attacks
+- 20.3b Collision Resistance
+- 20.3c Unforgeability

@@ -1,0 +1,329 @@
+textbook:
+  'Quantum Optical Communication: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Fundamentals of Dirac-Notation Quantum Mechanics:':
+        sections:
+        - '- Section: 1.1 Dirac notation quantum mechanics:':
+            subsections:
+            - 1.1a Introduction to Dirac notation
+            - 1.1b Applications of Dirac notation
+            - 1.1c Dirac notation in Quantum Mechanics
+        - '- Section: 1.2 Harmonic oscillator quantization:':
+            subsections:
+            - 1.2a Basics of Harmonic oscillator quantization
+            - 1.2b Quantum Harmonic Oscillator
+            - 1.2c Applications of Harmonic oscillator quantization
+        - '- Section: 1.3 Number states, coherent states, and squeezed states:':
+            subsections:
+            - 1.3a Introduction to Number states
+            - 1.3b Coherent states and their properties
+            - 1.3c Squeezed states in Quantum Mechanics
+        - '- Section: 1.4 Representation and classical fields:':
+            subsections:
+            - 1.4a Quantum state representation
+            - 1.4b Classical fields in Quantum Mechanics
+            - 1.4c Interaction of Quantum and Classical fields
+    - '- Chapter 2: Single-Mode Photodetection:':
+        sections:
+        - '- Section: 2.1 Direct, homodyne, and heterodyne detection:':
+            subsections:
+            - 2.1a Direct detection in Quantum Optics
+            - 2.1b Homodyne detection and its applications
+            - 2.1c Heterodyne detection in Quantum Communication
+        - '- Section: 2.2 Linear propagation loss:':
+            subsections:
+            - 2.2a Introduction to Linear propagation loss
+            - 2.2b Factors affecting Linear propagation loss
+            - 2.2c Mitigation of Linear propagation loss
+        - '- Section: 2.3 Phase insensitive and phase sensitive amplifiers:':
+            subsections:
+            - 2.3a Phase insensitive amplifiers in Quantum Communication
+            - 2.3b Phase sensitive amplifiers and their advantages
+            - 2.3c Comparison of Phase insensitive and phase sensitive amplifiers
+        - '- Section: 2.4 Entanglement and teleportation:':
+            subsections:
+            - 2.4a Quantum Entanglement
+            - 2.4b Quantum Teleportation
+            - 2.4c Role of Entanglement in Teleportation
+    - '- Chapter 3: Field Quantization:':
+        sections:
+        - '- Section: 3.1 Quantum photodetection:':
+            subsections:
+            - 3.1a Basics of Quantum photodetection
+            - 3.1b Techniques in Quantum photodetection
+            - 3.1c Applications of Quantum photodetection
+    - '- Chapter 4: Nonlinear Optics of X:':
+        sections:
+        - '- Section: 4.1 Phase-matched interactions:':
+            subsections:
+            - 4.1a Introduction to Phase-matched interactions
+            - 4.1b Role of Phase-matched interactions in Nonlinear Optics
+            - 4.1c Applications of Phase-matched interactions
+        - '- Section: 4.2 Optical parametric amplifiers:':
+            subsections:
+            - 4.2a Basics of Optical parametric amplifiers
+            - 4.2b Working of Optical parametric amplifiers
+            - 4.2c Applications of Optical parametric amplifiers
+        - ? '- Section: 4.3 Generation of squeezed states, photon-twin beams, non-classical
+            fourth-order interference, and polarization entanglement:'
+          : subsections:
+            - 4.3a Generation of squeezed states
+            - 4.3b Photon-twin beams and their properties
+            - 4.3c Non-classical fourth-order interference and polarization entanglement
+    - '- Chapter 5: Quantum Cryptography:':
+        sections:
+        - '- Section: 5.1 Optimum binary detection:':
+            subsections:
+            - 5.1a Introduction to Optimum binary detection
+            - 5.1b Techniques for Optimum binary detection
+            - 5.1c Role of Optimum binary detection in Quantum Cryptography
+        - '- Section: 5.2 Quantum precision measurements:':
+            subsections:
+            - 5.2a Basics of Quantum precision measurements
+            - 5.2b Techniques for Quantum precision measurements
+            - 5.2c Applications of Quantum precision measurements
+        - '- Section: 5.3 Quantum cryptography:':
+            subsections:
+            - 5.3a Introduction to Quantum cryptography
+            - 5.3b Techniques in Quantum cryptography
+            - 5.3c Applications and future of Quantum cryptography
+    - '- Chapter 6: Technical Overview:':
+        sections:
+        - '- Section: 6.1 Fundamentals of Dirac-Notation Quantum Mechanics I:':
+            subsections:
+            - 6.1a Introduction to Dirac-Notation Quantum Mechanics
+            - 6.1b Basic principles of Dirac-Notation Quantum Mechanics
+            - 6.1c Applications of Dirac-Notation Quantum Mechanics
+        - '- Section: 6.2 Fundamentals of Dirac-Notation Quantum Mechanics II:':
+            subsections:
+            - 6.2a Advanced concepts in Dirac-Notation Quantum Mechanics
+            - 6.2b Dirac-Notation Quantum Mechanics in Quantum Communication
+            - 6.2c Future of Dirac-Notation Quantum Mechanics
+        - '- Section: 6.3 Quantum Harmonic Oscillator I:':
+            subsections:
+            - 6.3a Basics of Quantum Harmonic Oscillator
+            - 6.3b Working of Quantum Harmonic Oscillator
+            - 6.3c Applications of Quantum Harmonic Oscillator
+        - '- Section: 6.4 Quantum Harmonic Oscillator II:':
+            subsections:
+            - 6.4a Advanced concepts in Quantum Harmonic Oscillator
+            - 6.4b Quantum Harmonic Oscillator in Quantum Communication
+            - 6.4c Future of Quantum Harmonic Oscillator
+    - '- Chapter 7: Single-Mode and Two-Mode Linear Systems:':
+        sections:
+        - '- Section: 7.1 Quantum Harmonic Oscillator V:':
+            subsections:
+            - 7.1a Quantum Harmonic Oscillator in Two-Mode Linear Systems
+            - 7.1b Role of Quantum Harmonic Oscillator in Single-Mode Systems
+            - 7.1c Quantum Harmonic Oscillator in Quantum Communication
+        - '- Section: 7.2 Single-Mode Photodetection I:':
+            subsections:
+            - 7.2a Basics of Single-Mode Photodetection
+            - 7.2b Techniques in Single-Mode Photodetection
+            - 7.2c Applications of Single-Mode Photodetection
+        - '- Section: 7.3 Single-Mode Photodetection II:':
+            subsections:
+            - 7.3a Advanced concepts in Single-Mode Photodetection
+            - 7.3b Single-Mode Photodetection in Quantum Communication
+            - 7.3c Future of Single-Mode Photodetection
+        - '- Section: 7.4 Single-Mode and Two-Mode Linear Systems:':
+            subsections:
+            - 7.4a Introduction to Single-Mode and Two-Mode Linear Systems
+            - 7.4b Role of Single-Mode and Two-Mode Linear Systems in Quantum Communication
+            - 7.4c Applications of Single-Mode and Two-Mode Linear Systems
+    - '- Chapter 8: Teleportation:':
+        sections:
+        - '- Section: 8.1 Two-Mode Linear Systems:':
+            subsections:
+            - 8.1a Basics of Two-Mode Linear Systems
+            - 8.1b Techniques in Two-Mode Linear Systems
+            - 8.1c Applications of Two-Mode Linear Systems
+        - '- Section: 8.2 Teleportation I:':
+            subsections:
+            - 8.2a Introduction to Quantum Teleportation
+            - 8.2b Basic principles of Quantum Teleportation
+            - 8.2c Role of Quantum Teleportation in Quantum Communication
+        - '- Section: 8.3 Teleportation II:':
+            subsections:
+            - 8.3a Advanced concepts in Quantum Teleportation
+            - 8.3b Techniques in Quantum Teleportation
+            - 8.3c Future of Quantum Teleportation
+    - '- Chapter 9: Quantization of the Electromagnetic Field:':
+        sections:
+        - '- Section: 9.1 Quantum Cryptography:':
+            subsections:
+            - 9.1a Introduction to Quantum Cryptography
+            - 9.1b Techniques in Quantum Cryptography
+            - 9.1c Applications and future of Quantum Cryptography
+        - '- Section: 9.2 Quantization of the Electromagnetic Field:':
+            subsections:
+            - 9.2a Basics of Quantization of the Electromagnetic Field
+            - 9.2b Techniques in Quantization of the Electromagnetic Field
+            - 9.2c Applications of Quantization of the Electromagnetic Field
+    - '- Chapter 10: Continuous-Time Photodetection:':
+        sections:
+        - '- Section: 10.1 Continuous-Time Photodetection I:':
+            subsections:
+            - 10.1a Introduction to Continuous-Time Photodetection
+            - 10.1b Basic principles of Continuous-Time Photodetection
+            - 10.1c Applications of Continuous-Time Photodetection
+        - '- Section: 10.2 Continuous-Time Photodetection II:':
+            subsections:
+            - 10.2a Advanced concepts in Continuous-Time Photodetection
+            - 10.2b Techniques in Continuous-Time Photodetection
+            - 10.2c Future of Continuous-Time Photodetection
+    - '- Chapter 11: Nonlinear Optics of X:':
+        sections:
+        - '- Section: 11.1 Nonlinear Optics of X:':
+            subsections:
+            - 11.1a Basics of Nonlinear Optics
+            - 11.1b Techniques in Nonlinear Optics
+            - 11.1c Applications of Nonlinear Optics
+        - '- Section: 11.2 Quantum Signatures from Parametric Interactions:':
+            subsections:
+            - 11.2a Introduction to Parametric Interactions
+            - 11.2b Quantum Signatures from Parametric Interactions
+            - 11.2c Role of Parametric Interactions in Quantum Communication
+    - '- Chapter 12: More Quantum Optical Applications:':
+        sections:
+        - '- Section: 12.1 More Quantum Optical Applications:':
+            subsections:
+            - 12.1a Introduction to Quantum Optical Applications
+            - 12.1b Advanced Quantum Optical Applications
+            - 12.1c Future of Quantum Optical Applications
+    - '- Chapter 13: Quantum Communication Systems:':
+        sections:
+        - '- Section: 13.1 Basics of Quantum Communication Systems:':
+            subsections:
+            - 13.1a Introduction to Quantum Communication Systems
+            - 13.1b Components of Quantum Communication Systems
+            - 13.1c Working of Quantum Communication Systems
+        - '- Section: 13.2 Advanced Quantum Communication Systems:':
+            subsections:
+            - 13.2a Advanced concepts in Quantum Communication Systems
+            - 13.2b Techniques in Quantum Communication Systems
+            - 13.2c Future of Quantum Communication Systems
+        - '- Section: 13.3 Quantum Communication Networks:':
+            subsections:
+            - 13.3a Introduction to Quantum Communication Networks
+            - 13.3b Role of Quantum Communication Networks in Quantum Communication
+            - 13.3c Future of Quantum Communication Networks
+    - '- Chapter 14: Quantum Error Correction:':
+        sections:
+        - '- Section: 14.1 Basics of Quantum Error Correction:':
+            subsections:
+            - 14.1a Introduction to Quantum Error Correction
+            - 14.1b Techniques in Quantum Error Correction
+            - 14.1c Applications of Quantum Error Correction
+        - '- Section: 14.2 Advanced Quantum Error Correction:':
+            subsections:
+            - 14.2a Advanced concepts in Quantum Error Correction
+            - 14.2b Role of Quantum Error Correction in Quantum Communication
+            - 14.2c Future of Quantum Error Correction
+        - '- Section: 14.3 Quantum Error Correction Codes:':
+            subsections:
+            - 14.3a Introduction to Quantum Error Correction Codes
+            - 14.3b Techniques in Quantum Error Correction Codes
+            - 14.3c Applications of Quantum Error Correction Codes
+    - '- Chapter 15: Quantum Key Distribution:':
+        sections:
+        - '- Section: 15.1 Basics of Quantum Key Distribution:':
+            subsections:
+            - 15.1a Introduction to Quantum Key Distribution
+            - 15.1b Techniques in Quantum Key Distribution
+            - 15.1c Applications of Quantum Key Distribution
+        - '- Section: 15.2 Advanced Quantum Key Distribution:':
+            subsections:
+            - 15.2a Advanced concepts in Quantum Key Distribution
+            - 15.2b Role of Quantum Key Distribution in Quantum Communication
+            - 15.2c Future of Quantum Key Distribution
+        - '- Section: 15.3 Quantum Key Distribution Protocols:':
+            subsections:
+            - 15.3a Introduction to Quantum Key Distribution Protocols
+            - 15.3b Techniques in Quantum Key Distribution Protocols
+            - 15.3c Applications of Quantum Key Distribution Protocols
+    - '- Chapter 16: Quantum Entanglement:':
+        sections:
+        - '- Section: 16.1 Basics of Quantum Entanglement:':
+            subsections:
+            - 16.1a Introduction to Quantum Entanglement
+            - 16.1b Techniques in Quantum Entanglement
+            - 16.1c Applications of Quantum Entanglement
+        - '- Section: 16.2 Advanced Quantum Entanglement:':
+            subsections:
+            - 16.2a Advanced concepts in Quantum Entanglement
+            - 16.2b Role of Quantum Entanglement in Quantum Communication
+            - 16.2c Future of Quantum Entanglement
+        - '- Section: 16.3 Quantum Entanglement Protocols:':
+            subsections:
+            - 16.3a Introduction to Quantum Entanglement Protocols
+            - 16.3b Techniques in Quantum Entanglement Protocols
+            - 16.3c Applications of Quantum Entanglement Protocols
+    - '- Chapter 17: Quantum Teleportation:':
+        sections:
+        - '- Section: 17.1 Basics of Quantum Teleportation:':
+            subsections:
+            - 17.1a Introduction to Quantum Teleportation
+            - 17.1b Techniques in Quantum Teleportation
+            - 17.1c Applications of Quantum Teleportation
+        - '- Section: 17.2 Advanced Quantum Teleportation:':
+            subsections:
+            - 17.2a Advanced concepts in Quantum Teleportation
+            - 17.2b Role of Quantum Teleportation in Quantum Communication
+            - 17.2c Future of Quantum Teleportation
+        - '- Section: 17.3 Quantum Teleportation Protocols:':
+            subsections:
+            - 17.3a Introduction to Quantum Teleportation Protocols
+            - 17.3b Techniques in Quantum Teleportation Protocols
+            - 17.3c Applications of Quantum Teleportation Protocols
+    - '- Chapter 18: Quantum Computing:':
+        sections:
+        - '- Section: 18.1 Basics of Quantum Computing:':
+            subsections:
+            - 18.1a Introduction to Quantum Computing
+            - 18.1b Techniques in Quantum Computing
+            - 18.1c Applications of Quantum Computing
+        - '- Section: 18.2 Advanced Quantum Computing:':
+            subsections:
+            - 18.2a Advanced concepts in Quantum Computing
+            - 18.2b Role of Quantum Computing in Quantum Communication
+            - 18.2c Future of Quantum Computing
+        - '- Section: 18.3 Quantum Computing Algorithms:':
+            subsections:
+            - 18.3a Introduction to Quantum Computing Algorithms
+            - 18.3b Techniques in Quantum Computing Algorithms
+            - 18.3c Applications of Quantum Computing Algorithms
+    - '- Chapter 19: Quantum Information Theory:':
+        sections:
+        - '- Section: 19.1 Basics of Quantum Information Theory:':
+            subsections:
+            - 19.1a Introduction to Quantum Information Theory
+            - 19.1b Techniques in Quantum Information Theory
+            - 19.1c Applications of Quantum Information Theory
+        - '- Section: 19.2 Advanced Quantum Information Theory:':
+            subsections:
+            - 19.2a Advanced concepts in Quantum Information Theory
+            - 19.2b Role of Quantum Information Theory in Quantum Communication
+            - 19.2c Future of Quantum Information Theory
+        - '- Section: 19.3 Quantum Information Theory Protocols:':
+            subsections:
+            - 19.3a Introduction to Quantum Information Theory Protocols
+            - 19.3b Techniques in Quantum Information Theory Protocols
+            - 19.3c Applications of Quantum Information Theory Protocols
+    - '- Chapter 20: Quantum Communication Networks:':
+        sections:
+        - '- Section: 20.1 Basics of Quantum Communication Networks:':
+            subsections:
+            - 20.1a Introduction to Quantum Communication Networks
+            - 20.1b Techniques in Quantum Communication Networks
+            - 20.1c Applications of Quantum Communication Networks
+        - '- Section: 20.2 Advanced Quantum Communication Networks:':
+            subsections:
+            - 20.2a Advanced concepts in Quantum Communication Networks
+            - 20.2b Role of Quantum Communication Networks in Quantum Communication
+            - 20.2c Future of Quantum Communication Networks
+        - '- Section: 20.3 Quantum Communication Network Protocols:':
+            subsections:
+            - 20.3a Introduction to Quantum Communication Network Protocols
+            - 20.3b Techniques in Quantum Communication Network Protocols
+            - 20.3c Applications of Quantum Communication Network Protocols

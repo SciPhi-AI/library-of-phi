@@ -1,0 +1,263 @@
+textbook:
+  'Techniques in Artificial Intelligence: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 What is Artificial Intelligence (AI)?:':
+            subsections:
+            - 1.1a Definition of AI
+            - 1.1b History of AI
+            - 1.1c Applications of AI
+    - '- Chapter 2: Problem Solving and Search:':
+        sections:
+        - '- Section: 2.1 A*:':
+            subsections:
+            - 2.1a Introduction to A*
+            - 2.1b A* Algorithm
+            - 2.1c Applications of A*
+        - '- Section: 2.2 Stochastic Methods:':
+            subsections:
+            - 2.2a Introduction to Stochastic Methods
+            - 2.2b Stochastic Algorithms
+            - 2.2c Applications of Stochastic Methods
+        - '- Section: 2.3 Uninformed Search Algorithms:':
+            subsections:
+            - 2.3a Introduction to Uninformed Search
+            - 2.3b Types of Uninformed Search Algorithms
+            - 2.3c Applications of Uninformed Search
+        - '- Section: 2.4 Informed Search Algorithms:':
+            subsections:
+            - 2.4a Introduction to Informed Search
+            - 2.4b Types of Informed Search Algorithms
+            - 2.4c Applications of Informed Search
+        - '- Section: 2.5 Local Search Algorithms:':
+            subsections:
+            - 2.5a Introduction to Local Search
+            - 2.5b Types of Local Search Algorithms
+            - 2.5c Applications of Local Search
+    - '- Chapter 3: Logic:':
+        sections:
+        - '- Section: 3.1 Syntax:':
+            subsections:
+            - 3.1a Introduction to Syntax
+            - 3.1b Syntax in AI
+            - 3.1c Applications of Syntax
+        - '- Section: 3.2 Semantics:':
+            subsections:
+            - 3.2a Introduction to Semantics
+            - 3.2b Semantics in AI
+            - 3.2c Applications of Semantics
+        - '- Section: 3.3 Satisfiability:':
+            subsections:
+            - 3.3a Introduction to Satisfiability
+            - 3.3b Satisfiability in AI
+            - 3.3c Applications of Satisfiability
+        - '- Section: 3.4 Validity:':
+            subsections:
+            - 3.4a Introduction to Validity
+            - 3.4b Validity in AI
+            - 3.4c Applications of Validity
+        - '- Section: 3.5 First-Order Logic:':
+            subsections:
+            - 3.5a Introduction to First-Order Logic
+            - 3.5b First-Order Logic in AI
+            - 3.5c Applications of First-Order Logic
+        - '- Section: 3.6 Resolution Theorem Proving: Propositional Logic:':
+            subsections:
+            - 3.6a Introduction to Resolution Theorem Proving
+            - 3.6b Propositional Logic in AI
+            - 3.6c Applications of Propositional Logic
+        - '- Section: 3.7 Resolution Theorem Proving: First Order Logic:':
+            subsections:
+            - 3.7a Introduction to First Order Logic
+            - 3.7b First Order Logic in AI
+            - 3.7c Applications of First Order Logic
+        - '- Section: 3.8 Logic Miscellanea:':
+            subsections:
+            - 3.8a Introduction to Logic Miscellanea
+            - 3.8b Logic Miscellanea in AI
+            - 3.8c Applications of Logic Miscellanea
+    - '- Chapter 4: Planning:':
+        sections:
+        - '- Section: 4.1 Planning:':
+            subsections:
+            - 4.1a Introduction to Planning
+            - 4.1b Planning in AI
+            - 4.1c Applications of Planning
+        - '- Section: 4.2 Partial-Order Planning Algorithms:':
+            subsections:
+            - 4.2a Introduction to Partial-Order Planning
+            - 4.2b Partial-Order Planning in AI
+            - 4.2c Applications of Partial-Order Planning
+        - '- Section: 4.3 Situation Calculus and POP:':
+            subsections:
+            - 4.3a Introduction to Situation Calculus
+            - 4.3b Situation Calculus in AI
+            - 4.3c Applications of Situation Calculus
+        - '- Section: 4.4 More POP:':
+            subsections:
+            - 4.4a Advanced Concepts in POP
+            - 4.4b POP in Complex Scenarios
+            - 4.4c Case Studies of POP
+        - '- Section: 4.5 GraphPlan and SATPlan:':
+            subsections:
+            - 4.5a Introduction to GraphPlan and SATPlan
+            - 4.5b GraphPlan and SATPlan in AI
+            - 4.5c Applications of GraphPlan and SATPlan
+        - '- Section: 4.6 Probabilistic Planning:':
+            subsections:
+            - 4.6a Introduction to Probabilistic Planning
+            - 4.6b Probabilistic Planning in AI
+            - 4.6c Applications of Probabilistic Planning
+    - '- Chapter 5: Knowledge Representation:':
+        sections:
+        - '- Section: 5.1 Knowledge Representation:':
+            subsections:
+            - 5.1a Introduction to Knowledge Representation
+            - 5.1b Knowledge Representation in AI
+            - 5.1c Applications of Knowledge Representation
+        - '- Section: 5.2 Equality; Other Logics:':
+            subsections:
+            - 5.2a Introduction to Equality and Other Logics
+            - 5.2b Equality and Other Logics in AI
+            - 5.2c Applications of Equality and Other Logics
+        - '- Section: 5.3 Frames and Semantic Networks:':
+            subsections:
+            - 5.3a Introduction to Frames and Semantic Networks
+            - 5.3b Frames and Semantic Networks in AI
+            - 5.3c Applications of Frames and Semantic Networks
+        - '- Section: 5.4 Description Logics:':
+            subsections:
+            - 5.4a Introduction to Description Logics
+            - 5.4b Description Logics in AI
+            - 5.4c Applications of Description Logics
+        - '- Section: 5.5 Ontologies and OWL:':
+            subsections:
+            - 5.5a Introduction to Ontologies and OWL
+            - 5.5b Ontologies and OWL in AI
+            - 5.5c Applications of Ontologies and OWL
+    - '- Chapter 6: Bayesian Networks:':
+        sections:
+        - '- Section: 6.1 Bayesian Networks:':
+            subsections:
+            - 6.1a Introduction to Bayesian Networks
+            - 6.1b Bayesian Networks in AI
+            - 6.1c Applications of Bayesian Networks
+        - '- Section: 6.2 General Inference:':
+            subsections:
+            - 6.2a Introduction to General Inference
+            - 6.2b General Inference in AI
+            - 6.2c Applications of General Inference
+        - '- Section: 6.3 Bayes Nets: Observable:':
+            subsections:
+            - 6.3a Introduction to Observable Bayes Nets
+            - 6.3b Observable Bayes Nets in AI
+            - 6.3c Applications of Observable Bayes Nets
+        - '- Section: 6.4 Bayes Nets: Hidden:':
+            subsections:
+            - 6.4a Introduction to Hidden Bayes Nets
+            - 6.4b Hidden Bayes Nets in AI
+            - 6.4c Applications of Hidden Bayes Nets
+        - '- Section: 6.5 Learning Bayesian Networks:':
+            subsections:
+            - 6.5a Introduction to Learning Bayesian Networks
+            - 6.5b Learning Bayesian Networks in AI
+            - 6.5c Applications of Learning Bayesian Networks
+        - '- Section: 6.6 Bayesian Network Structure Learning:':
+            subsections:
+            - 6.6a Introduction to Bayesian Network Structure Learning
+            - 6.6b Bayesian Network Structure Learning in AI
+            - 6.6c Applications of Bayesian Network Structure Learning
+        - '- Section: 6.7 Bayesian Network Parameter Learning:':
+            subsections:
+            - 6.7a Introduction to Bayesian Network Parameter Learning
+            - 6.7b Bayesian Network Parameter Learning in AI
+            - 6.7c Applications of Bayesian Network Parameter Learning
+    - '- Chapter 7: Decision Making:':
+        sections:
+        - '- Section: 7.1 Decision Theory:':
+            subsections:
+            - 7.1a Introduction to Decision Theory
+            - 7.1b Decision Theory in AI
+            - 7.1c Applications of Decision Theory
+        - '- Section: 7.2 Markov Decision Processes:':
+            subsections:
+            - 7.2a Introduction to Markov Decision Processes
+            - 7.2b Markov Decision Processes in AI
+            - 7.2c Applications of Markov Decision Processes
+        - '- Section: 7.3 Multi-Objective Decision Making:':
+            subsections:
+            - 7.3a Introduction to Multi-Objective Decision Making
+            - 7.3b Multi-Objective Decision Making in AI
+            - 7.3c Applications of Multi-Objective Decision Making
+        - '- Section: 7.4 Reinforcement Learning in Decision Making:':
+            subsections:
+            - 7.4a Introduction to Reinforcement Learning
+            - 7.4b Reinforcement Learning in AI
+            - 7.4c Applications of Reinforcement Learning
+        - '- Section: 7.5 Decision Making under Uncertainty:':
+            subsections:
+            - 7.5a Introduction to Decision Making under Uncertainty
+            - 7.5b Decision Making under Uncertainty in AI
+            - 7.5c Applications of Decision Making under Uncertainty
+    - '- Chapter 8: Machine Learning:':
+        sections:
+        - '- Section: 8.1 Learning: Bayes Nets:':
+            subsections:
+            - 8.1a Introduction to Learning Bayes Nets
+            - 8.1b Learning Bayes Nets in AI
+            - 8.1c Applications of Learning Bayes Nets
+        - '- Section: 8.2 Reinforcement Learning:':
+            subsections:
+            - 8.2a Introduction to Reinforcement Learning
+            - 8.2b Reinforcement Learning in AI
+            - 8.2c Applications of Reinforcement Learning
+        - '- Section: 8.3 Supervised Learning:':
+            subsections:
+            - 8.3a Introduction to Supervised Learning
+            - 8.3b Supervised Learning in AI
+            - 8.3c Applications of Supervised Learning
+        - '- Section: 8.4 Unsupervised Learning:':
+            subsections:
+            - 8.4a Introduction to Unsupervised Learning
+            - 8.4b Unsupervised Learning in AI
+            - 8.4c Applications of Unsupervised Learning
+        - '- Section: 8.5 Deep Learning:':
+            subsections:
+            - 8.5a Introduction to Deep Learning
+            - 8.5b Deep Learning in AI
+            - 8.5c Applications of Deep Learning
+        - '- Section: 8.6 Transfer Learning:':
+            subsections:
+            - 8.6a Introduction to Transfer Learning
+            - 8.6b Transfer Learning in AI
+            - 8.6c Applications of Transfer Learning
+    - '- Chapter 9: Other Topics:':
+        sections:
+        - '- Section: 9.1 Philosophy:':
+            subsections:
+            - 9.1a Introduction to Philosophy of AI
+            - 9.1b Philosophy in AI
+            - 9.1c Applications of Philosophy in AI
+        - '- Section: 9.2 Review:':
+            subsections:
+            - 9.2a Review of AI Concepts
+            - 9.2b Review of AI Applications
+            - 9.2c Future Directions in AI
+        - '- Section: 9.3 Ethical Implications of AI:':
+            subsections:
+            - 9.3a Introduction to Ethical Implications of AI
+            - 9.3b Ethical Implications in AI
+            - 9.3c Case Studies of Ethical Implications in AI
+        - '- Section: 9.4 AI and Society:':
+            subsections:
+            - 9.4a Introduction to AI and Society
+            - 9.4b AI and Society in AI
+            - 9.4c Case Studies of AI and Society
+    - '- Chapter 10: Final Exam:':
+        sections:
+        - '- Section: 10.1 Final Exam:':
+            subsections:
+            - 10.1a Review for Final Exam
+            - 10.1b Final Exam Format
+            - 10.1c Final Exam Topics

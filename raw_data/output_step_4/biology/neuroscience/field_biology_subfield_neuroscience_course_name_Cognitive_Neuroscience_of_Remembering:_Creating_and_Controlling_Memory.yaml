@@ -1,0 +1,274 @@
+textbook:
+  'The Comprehensive Guide to Cognitive Neuroscience of Remembering: Creating and Controlling Memory":':
+    chapters:
+    - '- Chapter 1: Prefrontal Cortex and Mnemonic Control:':
+        sections:
+        - '- Section: 1.1 Introduction to Course':
+            subsections: []
+        - '- Section: 1.2 PFC and Cognitive Control I':
+            subsections: []
+        - '- Section: 1.3 PFC and Cognitive Control II':
+            subsections: []
+        - '- Section: 1.4 PFC and Mnemonic Control:':
+            subsections:
+            - 1.4a Prefrontal Cortex Anatomy and Function
+            - 1.4b Working Memory and Prefrontal Cortex
+    - '- Chapter 2: Medial Temporal Lobe (MTL) and Memory Creation:':
+        sections:
+        - '- Section: 2.1 MTL and Memory Formation I:':
+            subsections:
+            - 2.1a Hippocampus and Memory Encoding
+            - 2.1b Amygdala and Emotional Memory
+        - '- Section: 2.2 MTL and Memory Formation II:':
+            subsections:
+            - 2.2a Entorhinal Cortex and Memory Consolidation
+            - 2.2b Parahippocampal Cortex and Spatial Memory
+        - '- Section: 2.3 MTL and Memory Formation III:':
+            subsections:
+            - 2.3a Perirhinal Cortex and Object Recognition Memory
+            - 2.3b Retrosplenial Cortex and Episodic Memory
+    - '- Chapter 3: Final Exam:':
+        sections:
+        - '- Section: 3.1 Final Exam:':
+            subsections:
+            - 3.1a Exam Preparation Tips
+            - 3.1b Sample Questions and Answers
+    - '- Chapter 4: Introduction to Cognitive Neuroscience:':
+        sections:
+        - '- Section: 4.1 Basic Concepts:':
+            subsections:
+            - 4.1a Definition of Cognitive Neuroscience
+            - 4.1b History and Evolution of Cognitive Neuroscience
+        - '- Section: 4.2 Brain Anatomy and Function:':
+            subsections:
+            - 4.2a Overview of Brain Anatomy
+            - 4.2b Function of Different Brain Regions
+        - '- Section: 4.3 Cognitive Processes and the Brain:':
+            subsections:
+            - 4.3a Perception and the Brain
+            - 4.3b Attention and the Brain
+            - 4.3c Memory and the Brain
+    - '- Chapter 5: Memory Systems:':
+        sections:
+        - '- Section: 5.1 Types of Memory:':
+            subsections:
+            - 5.1a Short-Term and Long-Term Memory
+            - 5.1b Explicit and Implicit Memory
+        - '- Section: 5.2 Memory Encoding and Retrieval:':
+            subsections:
+            - 5.2a Processes of Memory Encoding
+            - 5.2b Processes of Memory Retrieval
+        - '- Section: 5.3 Memory Disorders:':
+            subsections:
+            - 5.3a Amnesia
+            - 5.3b Alzheimer's Disease
+    - '- Chapter 6: Attention and the Brain:':
+        sections:
+        - '- Section: 6.1 Types of Attention:':
+            subsections:
+            - 6.1a Selective Attention
+            - 6.1b Divided Attention
+        - '- Section: 6.2 Attention and Brain Function:':
+            subsections:
+            - 6.2a Role of Frontal and Parietal Lobes in Attention
+            - 6.2b Attention Disorders
+        - '- Section: 6.3 Attention and Memory:':
+            subsections:
+            - 6.3a Role of Attention in Memory Encoding
+            - 6.3b Role of Attention in Memory Retrieval
+    - '- Chapter 7: Perception and the Brain:':
+        sections:
+        - '- Section: 7.1 Visual Perception:':
+            subsections:
+            - 7.1a Visual Processing in the Brain
+            - 7.1b Visual Perception Disorders
+        - '- Section: 7.2 Auditory Perception:':
+            subsections:
+            - 7.2a Auditory Processing in the Brain
+            - 7.2b Auditory Perception Disorders
+        - '- Section: 7.3 Multisensory Perception:':
+            subsections:
+            - 7.3a Integration of Sensory Information in the Brain
+            - 7.3b Multisensory Perception Disorders
+    - '- Chapter 8: Emotion and the Brain:':
+        sections:
+        - '- Section: 8.1 Basic Emotions:':
+            subsections:
+            - 8.1a Definition and Types of Basic Emotions
+            - 8.1b Role of Amygdala in Emotion
+        - '- Section: 8.2 Emotional Memory:':
+            subsections:
+            - 8.2a Role of Emotion in Memory Encoding
+            - 8.2b Role of Emotion in Memory Retrieval
+        - '- Section: 8.3 Emotion Disorders:':
+            subsections:
+            - 8.3a Mood Disorders
+            - 8.3b Anxiety Disorders
+    - '- Chapter 9: Language and the Brain:':
+        sections:
+        - '- Section: 9.1 Language Processing:':
+            subsections:
+            - 9.1a Role of Broca's and Wernicke's Areas in Language
+            - 9.1b Language Comprehension and Production
+        - '- Section: 9.2 Language and Memory:':
+            subsections:
+            - 9.2a Role of Memory in Language Comprehension
+            - 9.2b Role of Memory in Language Production
+        - '- Section: 9.3 Language Disorders:':
+            subsections:
+            - 9.3a Aphasia
+            - 9.3b Dyslexia
+    - '- Chapter 10: Decision Making and the Brain:':
+        sections:
+        - '- Section: 10.1 Decision Making Processes:':
+            subsections:
+            - 10.1a Role of Prefrontal Cortex in Decision Making
+            - 10.1b Role of Emotion in Decision Making
+        - '- Section: 10.2 Decision Making and Memory:':
+            subsections:
+            - 10.2a Role of Memory in Decision Making
+            - 10.2b Decision Making Disorders
+        - '- Section: 10.3 Decision Making in Social Context:':
+            subsections:
+            - 10.3a Role of Social Cues in Decision Making
+            - 10.3b Social Decision Making Disorders
+    - '- Chapter 11: Consciousness and the Brain:':
+        sections:
+        - '- Section: 11.1 Definition of Consciousness:':
+            subsections:
+            - 11.1a Conscious and Unconscious Processes
+            - 11.1b Role of Thalamus in Consciousness
+        - '- Section: 11.2 Consciousness and Memory:':
+            subsections:
+            - 11.2a Role of Consciousness in Memory Encoding
+            - 11.2b Role of Consciousness in Memory Retrieval
+        - '- Section: 11.3 Disorders of Consciousness:':
+            subsections:
+            - 11.3a Coma
+            - 11.3b Vegetative State
+    - '- Chapter 12: Sleep and the Brain:':
+        sections:
+        - '- Section: 12.1 Sleep Stages:':
+            subsections:
+            - 12.1a REM and Non-REM Sleep
+            - 12.1b Role of Hypothalamus in Sleep
+        - '- Section: 12.2 Sleep and Memory:':
+            subsections:
+            - 12.2a Role of Sleep in Memory Consolidation
+            - 12.2b Sleep Deprivation and Memory
+        - '- Section: 12.3 Sleep Disorders:':
+            subsections:
+            - 12.3a Insomnia
+            - 12.3b Sleep Apnea
+    - '- Chapter 13: Learning and the Brain:':
+        sections:
+        - '- Section: 13.1 Types of Learning:':
+            subsections:
+            - 13.1a Classical Conditioning
+            - 13.1b Operant Conditioning
+        - '- Section: 13.2 Learning and Brain Function:':
+            subsections:
+            - 13.2a Role of Hippocampus in Learning
+            - 13.2b Role of Basal Ganglia in Learning
+        - '- Section: 13.3 Learning Disorders:':
+            subsections:
+            - 13.3a ADHD
+            - 13.3b Learning Disabilities
+    - '- Chapter 14: Stress and the Brain:':
+        sections:
+        - '- Section: 14.1 Stress Response:':
+            subsections:
+            - 14.1a Role of Hypothalamus-Pituitary-Adrenal Axis in Stress
+            - 14.1b Role of Amygdala in Stress
+        - '- Section: 14.2 Stress and Memory:':
+            subsections:
+            - 14.2a Role of Stress in Memory Encoding
+            - 14.2b Role of Stress in Memory Retrieval
+        - '- Section: 14.3 Stress Disorders:':
+            subsections:
+            - 14.3a Post-Traumatic Stress Disorder
+            - 14.3b Generalized Anxiety Disorder
+    - '- Chapter 15: Aging and the Brain:':
+        sections:
+        - '- Section: 15.1 Brain Aging:':
+            subsections:
+            - 15.1a Changes in Brain Structure with Aging
+            - 15.1b Changes in Brain Function with Aging
+        - '- Section: 15.2 Aging and Memory:':
+            subsections:
+            - 15.2a Age-Related Memory Decline
+            - 15.2b Strategies to Improve Memory in Aging
+        - '- Section: 15.3 Aging Disorders:':
+            subsections:
+            - 15.3a Alzheimer's Disease
+            - 15.3b Parkinson's Disease
+    - '- Chapter 16: Neuroimaging Techniques:':
+        sections:
+        - '- Section: 16.1 Structural Neuroimaging:':
+            subsections:
+            - 16.1a Magnetic Resonance Imaging (MRI)
+            - 16.1b Computed Tomography (CT)
+        - '- Section: 16.2 Functional Neuroimaging:':
+            subsections:
+            - 16.2a Functional Magnetic Resonance Imaging (fMRI)
+            - 16.2b Positron Emission Tomography (PET)
+        - '- Section: 16.3 Neuroimaging and Memory:':
+            subsections:
+            - 16.3a Role of Neuroimaging in Memory Research
+            - 16.3b Neuroimaging Studies of Memory Disorders
+    - '- Chapter 17: Neuropsychological Assessment:':
+        sections:
+        - '- Section: 17.1 Cognitive Assessment:':
+            subsections:
+            - 17.1a Neuropsychological Tests
+            - 17.1b Cognitive Screening Tools
+        - '- Section: 17.2 Memory Assessment:':
+            subsections:
+            - 17.2a Memory Tests
+            - 17.2b Assessment of Memory Disorders
+        - '- Section: 17.3 Neurological Examination:':
+            subsections:
+            - 17.3a Brain Imaging in Neuropsychological Assessment
+            - 17.3b Neurological Examination Techniques
+    - '- Chapter 18: Neuropharmacology and Memory:':
+        sections:
+        - '- Section: 18.1 Neurotransmitters and Memory:':
+            subsections:
+            - 18.1a Role of Acetylcholine in Memory
+            - 18.1b Role of Dopamine in Memory
+        - '- Section: 18.2 Drugs and Memory:':
+            subsections:
+            - 18.2a Effects of Psychoactive Drugs on Memory
+            - 18.2b Medications for Memory Disorders
+        - '- Section: 18.3 Neuropharmacology Research:':
+            subsections:
+            - 18.3a Animal Models in Neuropharmacology Research
+            - 18.3b Human Studies in Neuropharmacology Research
+    - '- Chapter 19: Neuroplasticity and Memory:':
+        sections:
+        - '- Section: 19.1 Neuroplasticity:':
+            subsections:
+            - 19.1a Definition of Neuroplasticity
+            - 19.1b Role of Neuroplasticity in Learning and Memory
+        - '- Section: 19.2 Brain Injury and Neuroplasticity:':
+            subsections:
+            - 19.2a Brain Injury and Memory Loss
+            - 19.2b Neuroplasticity and Brain Injury Recovery
+        - '- Section: 19.3 Neuroplasticity Research:':
+            subsections:
+            - 19.3a Animal Models in Neuroplasticity Research
+            - 19.3b Human Studies in Neuroplasticity Research
+    - '- Chapter 20: Future Directions in Memory Research:':
+        sections:
+        - '- Section: 20.1 Emerging Technologies:':
+            subsections:
+            - 20.1a Optogenetics in Memory Research
+            - 20.1b Brain-Computer Interfaces in Memory Research
+        - '- Section: 20.2 New Theories of Memory:':
+            subsections:
+            - 20.2a Predictive Coding Theory
+            - 20.2b Memory Consolidation Reconsolidation Theory
+        - '- Section: 20.3 Ethical Considerations:':
+            subsections:
+            - 20.3a Ethical Issues in Memory Enhancement
+            - 20.3b Ethical Issues in Memory Erasure

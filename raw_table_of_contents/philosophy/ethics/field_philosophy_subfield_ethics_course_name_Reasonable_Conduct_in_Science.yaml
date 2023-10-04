@@ -1,0 +1,291 @@
+textbook:
+  'Reasonable Conduct in Science: A Comprehensive Guide to Ethical Practices and Responsible Research":':
+    chapters:
+    - '- Chapter 1: Scientific Misconduct, Record Keeping, Reporting Results, and Data Selection:':
+        sections:
+        - '- Section: 1.1 Falsification and Fabrication of Data:':
+            subsections:
+            - 1.1a Fabrication of Data
+            - 1.1b Falsification of Data
+            - 1.1c Data Manipulation Techniques
+        - '- Section: 1.2 Plagiarism and Attribution of Sources:':
+            subsections:
+            - 1.2a Types of Plagiarism
+            - 1.2b Proper Attribution and Citation
+            - 1.2c Avoiding Plagiarism in Scientific Writing
+        - '- Section: 1.3 Proper Record Keeping and Data Management:':
+            subsections:
+            - 1.3a Importance of Record Keeping
+            - 1.3b Best Practices for Data Management
+            - 1.3c Data Storage and Backup Strategies
+            - 1.3d Data Retention and Archiving
+        - '- Section: 1.4 Selective Reporting of Results:':
+            subsections:
+            - 1.4a Cherry-picking Data
+            - 1.4b Publication Bias and Reporting Bias
+            - 1.4c Transparent and Complete Reporting
+            - 1.4d Ethical Considerations in Data Presentation
+        - '- Section: 1.5 Data Integrity and Reproducibility:':
+            subsections:
+            - 1.5a Ensuring Data Integrity
+            - 1.5b Replication and Reproducibility in Research
+            - 1.5c Addressing Irreproducibility Issues
+            - 1.5d Open Science and Reproducible Research
+        - '- Section: 1.6 Ethical Use of Statistics:':
+            subsections:
+            - 1.6a Misuse of Statistics in Research
+            - 1.6b Statistical Significance and P-value
+            - 1.6c Proper Data Analysis and Interpretation
+            - 1.6d Ethical Considerations in Statistical Reporting
+    - '- Chapter 2: Mentoring, Authorship, Collaboration:':
+        sections:
+        - '- Section: 2.1 Responsibilities of Mentors and Mentees:':
+            subsections:
+            - 2.1a Role of Mentors in Scientific Training
+            - 2.1b Responsibilities of Mentees in Research
+            - 2.1c Effective Mentorship Practices
+            - 2.1d Mentor-Mentee Communication and Support
+        - '- Section: 2.2 Collaboration and Teamwork:':
+            subsections:
+            - 2.2a Benefits and Challenges of Collaboration
+            - 2.2b Establishing Collaborative Relationships
+            - 2.2c Conflict Resolution in Collaborative Research
+            - 2.2d Effective Teamwork Strategies
+        - '- Section: 2.3 Authorship and Acknowledgements:':
+            subsections:
+            - 2.3a Criteria for Authorship
+            - 2.3b Order of Authorship
+            - 2.3c Authorship Disputes and Conflict Resolution
+            - 2.3d Acknowledging Contributions
+        - '- Section: 2.4 Intellectual Property and Patent Issues:':
+            subsections:
+            - 2.4a Understanding Intellectual Property Rights
+            - 2.4b Patent Application Process
+            - 2.4c Patent Infringement and Enforcement
+            - 2.4d Intellectual Property Management Strategies
+        - '- Section: 2.5 Open Science and Data Sharing:':
+            subsections:
+            - 2.5a Benefits and Challenges of Open Science
+            - 2.5b Data Sharing and Data Accessibility
+            - 2.5c Data Sharing Policies and Platforms
+            - 2.5d Collaborative Data Sharing Practices
+        - '- Section: 2.6 Conflict Resolution in Collaborative Research:':
+            subsections:
+            - 2.6a Identifying and Addressing Conflicts
+            - 2.6b Mediation and Resolution Strategies
+            - 2.6c Developing Collaborative Agreements
+            - 2.6d Conflict Prevention Techniques
+    - '- Chapter 3: Human Subjects:':
+        sections:
+        - '- Section: 3.1 Informed Consent and Voluntary Participation:':
+            subsections:
+            - 3.1a Principles of Informed Consent
+            - 3.1b Obtaining Informed Consent
+            - 3.1c Informed Consent in Vulnerable Populations
+            - 3.1d Ethical Considerations in Consent Procedures
+        - '- Section: 3.2 Privacy and Confidentiality:':
+            subsections:
+            - 3.2a Protecting Participant Privacy
+            - 3.2b Confidentiality Agreements and Practices
+            - 3.2c Data Anonymization and De-identification
+            - 3.2d Ethical Considerations in Data Privacy
+        - '- Section: 3.3 Risks and Benefits of Human Research:':
+            subsections:
+            - 3.3a Assessing and Minimizing Risks
+            - 3.3b Balancing Risks and Benefits
+            - 3.3c Informed Decision-Making for Participants
+            - 3.3d Ethical Considerations in Risk-Benefit Analysis
+        - '- Section: 3.4 Institutional Review Board (IRB) Approval:':
+            subsections:
+            - 3.4a Role and Function of IRBs
+            - 3.4b IRB Application Process
+            - 3.4c Ethical Review of Research Protocols
+            - 3.4d IRB Oversight and Compliance
+        - '- Section: 3.5 Ethical Considerations in Human Experimentation:':
+            subsections:
+            - 3.5a Ethical Considerations in Experimental Design
+            - 3.5b Ensuring Participant Safety and Well-being
+            - 3.5c Ethical Considerations in Data Collection
+            - 3.5d Ethical Issues in Human Research Ethics
+        - '- Section: 3.6 Vulnerable Populations and Research Ethics:':
+            subsections:
+            - 3.6a Definitions and Categories of Vulnerable Populations
+            - 3.6b Special Protections for Vulnerable Populations
+            - 3.6c Ethical Considerations in Research with Vulnerable Populations
+            - 3.6d Ensuring Equity and Justice in Human Research
+    - '- Chapter 4: Animal Care and Use:':
+        sections:
+        - '- Section: 4.1 Animal Welfare and Ethical Treatment:':
+            subsections:
+            - 4.1a Animal Rights and Welfare
+            - 4.1b Ethical Guidelines for Animal Experimentation
+            - 4.1c Animal Care and Housing Standards
+            - 4.1d Ethical Considerations in Animal Treatment
+        - '- Section: 4.2 Institutional Animal Care and Use Committee (IACUC):':
+            subsections:
+            - 4.2a Role and Responsibilities of IACUC
+            - 4.2b IACUC Protocol Submission and Review
+            - 4.2c IACUC Inspection and Compliance
+            - 4.2d Ethical Oversight of Animal Research
+        - '- Section: 4.3 Regulatory Guidelines and Compliance:':
+            subsections:
+            - 4.3a Laws and Regulations for Animal Research
+            - 4.3b Institutional Compliance with Animal Research Regulations
+            - 4.3c Ethical Considerations in Animal Research Compliance
+        - '- Section: 4.4 Alternatives to Animal Research:':
+            subsections:
+            - 4.4a Non-animal Models and Methods
+            - 4.4b In vitro and In silico Alternatives
+            - 4.4c Ethical Considerations in Non-animal Research
+        - '- Section: 4.5 Humane Endpoints and Euthanasia:':
+            subsections:
+            - 4.5a Humane Endpoints in Animal Research
+            - 4.5b Euthanasia Methods and Guidelines
+            - 4.5c Ethical Considerations in Animal Experimentation Endpoints
+        - '- Section: 4.6 Ethical Considerations in Animal Experimentation:':
+            subsections:
+            - 4.6a Ethical Dilemmas in Animal Research
+            - 4.6b Balancing Animal Welfare and Scientific Objectives
+            - 4.6c Ethical Decision-making in Animal Experimentation
+            - 4.6d Ethical Considerations in Animal Research Publication
+    - '- Chapter 5: Intellectual Property, Patents, Conflict of Interest:':
+        sections:
+        - '- Section: 5.1 Ownership and Protection of Intellectual Property:':
+            subsections:
+            - 5.1a Types of Intellectual Property
+            - 5.1b Intellectual Property Rights and Ownership
+            - 5.1c Intellectual Property Protection Strategies
+            - 5.1d Ethical Considerations in Intellectual Property Management
+        - '- Section: 5.2 Patent Application and Licensing:':
+            subsections:
+            - 5.2a Patent Application Process
+            - 5.2b Patent Licensing and Commercialization
+            - 5.2c Patent Portfolio Management
+            - 5.2d Ethical Considerations in Patenting and Licensing
+        - '- Section: 5.3 Conflict of Interest Disclosure and Management:':
+            subsections:
+            - 5.3a Identifying and Disclosing Conflicts of Interest
+            - 5.3b Conflict of Interest Policies and Procedures
+            - 5.3c Managing Conflicts of Interest in Research
+            - 5.3d Ethical Considerations in Conflict of Interest Management
+        - '- Section: 5.4 Commercialization and Technology Transfer:':
+            subsections:
+            - 5.4a Technology Transfer Process
+            - 5.4b Commercialization Strategies for Research Findings
+            - 5.4c Start-ups and Spin-off Companies
+            - 5.4d Ethical Considerations in Technology Transfer
+        - '- Section: 5.5 Ethical Considerations in Industry-Academia Collaboration:':
+            subsections:
+            - 5.5a Benefits and Challenges of Industry-Academia Collaboration
+            - 5.5b Intellectual Property Rights in Collaborative Research
+            - 5.5c Conflict Resolution in Industry-Academia Collaboration
+            - 5.5d Ethical Considerations in Collaborative Research with Industry
+        - '- Section: 5.6 Conflicts of Interest in Research Funding:':
+            subsections:
+            - 5.6a Funding Source Disclosure
+            - 5.6b Addressing Conflicts of Interest in Research Funding
+            - 5.6c Ensuring Transparency and Accountability in Funding
+            - 5.6d Ethical Considerations in Research Funding
+    - '- Chapter 6: Research Misconduct and Whistleblowing:':
+        sections:
+        - '- Section: 6.1 Understanding Research Misconduct:':
+            subsections:
+            - 6.1a Definition of Research Misconduct
+            - 6.1b Types of Research Misconduct
+            - 6.1c Consequences of Research Misconduct
+            - 6.1d Ethical Considerations in Research Misconduct
+        - '- Section: 6.2 Whistleblowing and Reporting Misconduct:':
+            subsections:
+            - 6.2a Role of Whistleblowers in Research Integrity
+            - '6.2b Reporting Misconduct: Process and Challenges'
+            - 6.2c Protection for Whistleblowers
+            - 6.2d Ethical Considerations in Whistleblowing
+        - '- Section: 6.3 Investigating Allegations of Misconduct:':
+            subsections:
+            - 6.3a Process of Investigating Misconduct
+            - 6.3b Role of Institutional Research Integrity Officers
+            - 6.3c Ensuring Fairness and Transparency in Investigations
+            - 6.3d Ethical Considerations in Misconduct Investigations
+        - '- Section: 6.4 Preventing Research Misconduct:':
+            subsections:
+            - 6.4a Role of Education and Training in Preventing Misconduct
+            - 6.4b Institutional Policies and Procedures
+            - 6.4c Promoting a Culture of Research Integrity
+            - 6.4d Ethical Considerations in Preventing Misconduct
+    - '- Chapter 7: Peer Review and Publication Ethics:':
+        sections:
+        - '- Section: 7.1 Understanding Peer Review:':
+            subsections:
+            - 7.1a Role of Peer Review in Scientific Publishing
+            - 7.1b Types of Peer Review
+            - 7.1c Challenges and Limitations of Peer Review
+            - 7.1d Ethical Considerations in Peer Review
+        - '- Section: 7.2 Responsibilities of Authors, Reviewers, and Editors:':
+            subsections:
+            - 7.2a Responsibilities of Authors in Scientific Publishing
+            - 7.2b Responsibilities of Peer Reviewers
+            - 7.2c Responsibilities of Editors in Scientific Publishing
+            - 7.2d Ethical Considerations for Authors, Reviewers, and Editors
+        - '- Section: 7.3 Publication Bias and Reproducibility Crisis:':
+            subsections:
+            - 7.3a Understanding Publication Bias
+            - 7.3b Addressing the Reproducibility Crisis in Science
+            - 7.3c Promoting Transparency and Openness in Publishing
+            - 7.3d Ethical Considerations in Publication and Reproducibility
+        - '- Section: 7.4 Retractions and Corrections in Scientific Publishing:':
+            subsections:
+            - 7.4a Understanding Retractions and Corrections
+            - 7.4b Process of Retracting or Correcting Published Work
+            - 7.4c Impact of Retractions on Scientific Community
+            - 7.4d Ethical Considerations in Retractions and Corrections
+    - '- Chapter 8: Responsible Conduct in Collaborative Research:':
+        sections:
+        - '- Section: 8.1 Understanding Collaborative Research:':
+            subsections:
+            - 8.1a Benefits and Challenges of Collaborative Research
+            - 8.1b Establishing Effective Collaborative Relationships
+            - 8.1c Managing Collaborative Projects
+            - 8.1d Ethical Considerations in Collaborative Research
+        - '- Section: 8.2 Data Sharing and Co-Authorship in Collaborative Research:':
+            subsections:
+            - 8.2a Importance of Data Sharing in Collaboration
+            - 8.2b Understanding Co-Authorship in Collaborative Research
+            - 8.2c Resolving Disputes in Co-Authorship and Data Sharing
+            - 8.2d Ethical Considerations in Data Sharing and Co-Authorship
+        - '- Section: 8.3 International Collaborations and Cultural Sensitivity:':
+            subsections:
+            - 8.3a Understanding International Collaborations in Research
+            - 8.3b Navigating Cultural Differences in Collaborations
+            - 8.3c Ethical Considerations in International Collaborations
+            - 8.3d Promoting Cultural Sensitivity in Collaborative Research
+        - '- Section: 8.4 Conflict of Interest in Collaborative Research:':
+            subsections:
+            - 8.4a Identifying Conflicts of Interest in Collaborations
+            - 8.4b Managing Conflicts of Interest in Collaborative Research
+            - 8.4c Disclosure of Conflicts of Interest in Collaborations
+            - 8.4d Ethical Considerations in Conflict of Interest Management
+    - '- Chapter 9: Responsible Use of Research Funds:':
+        sections:
+        - '- Section: 9.1 Understanding Research Funding:':
+            subsections:
+            - 9.1a Sources of Research Funding
+            - 9.1b Applying for Research Grants
+            - 9.1c Managing Research Funds
+            - 9.1d Ethical Considerations in Research Funding
+        - '- Section: 9.2 Financial Conflict of Interest in Research:':
+            subsections:
+            - 9.2a Understanding Financial Conflict of Interest
+            - 9.2b Disclosing Financial Conflicts of Interest
+            - 9.2c Managing Financial Conflicts of Interest
+            - 9.2d Ethical Considerations in Financial Conflict of Interest
+        - '- Section: 9.3 Misuse of Research Funds:':
+            subsections:
+            - 9.3a Understanding Misuse of Research Funds
+            - 9.3b Consequences of Misuse of Research Funds
+            - 9.3c Preventing Misuse of Research Funds
+            - 9.3d Ethical Considerations in Use of Research Funds
+        - '- Section: 9.4 Auditing and Accountability in Use of Research Funds:':
+            subsections:
+            - 9.4a Understanding Auditing in Research
+            - 9.4b Ensuring Accountability in Use of Research Funds
+            - '9.4'

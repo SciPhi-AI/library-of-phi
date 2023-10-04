@@ -1,0 +1,337 @@
+textbook: 
+"Materials Processing for Engineers":
+
+chapters:
+- Chapter 1: Introduction to Materials Processing:
+sections:
+- Section: 1.1 What is materials processing?:
+subsections:
+- 1.1a Definition of Materials Processing
+- 1.1b Importance of Materials Processing
+- 1.1c Applications of Materials Processing
+
+- Section: 1.2 Course overview:
+subsections:
+- 1.2a Course Objectives
+- 1.2b Course Structure
+- 1.2c Assessment Methods
+
+- Chapter 2: Heat Transfer Fundamentals:
+sections:
+- Section: 2.1 Heat conduction equation:
+subsections:
+- 2.1a Definition of Heat Conduction Equation
+- 2.1b Applications of Heat Conduction Equation
+- 2.1c Solving Heat Conduction Equation
+
+- Section: 2.2 Heat conduction equation review:
+subsections:
+- 2.2a Understanding Heat Conduction Equation
+- 2.2b Reviewing Heat Conduction Equation
+- 2.2c Practice Problems on Heat Conduction Equation
+
+- Section: 2.3 Comparing heat transfer processes:
+subsections:
+- 2.3a Conduction vs Convection vs Radiation
+- 2.3b Factors Affecting Heat Transfer Processes
+- 2.3c Heat Transfer in Materials Processing
+
+- Section: 2.4 Three important cases:
+subsections:
+- 2.4a Case Study 1
+- 2.4b Case Study 2
+- 2.4c Case Study 3
+
+- Section: 2.5 Biot number:
+subsections:
+- 2.5a Definition of Biot Number
+- 2.5b Significance of Biot Number
+- 2.5c Calculating Biot Number
+
+- Section: 2.6 Newtonian heating / cooling:
+subsections:
+- 2.6a Principles of Newtonian Heating/Cooling
+- 2.6b Newtonian Heating/Cooling in Materials Processing
+- 2.6c Case Studies on Newtonian Heating/Cooling
+
+- Section: 2.7 Transient solutions and dimensionless variables:
+subsections:
+- 2.7a Understanding Transient Solutions
+- 2.7b Role of Dimensionless Variables
+- 2.7c Transient Solutions in Heat Transfer
+
+- Section: 2.8 Analyzing thermal spray coatings:
+subsections:
+- 2.8a Introduction to Thermal Spray Coatings
+- 2.8b Analysis of Thermal Spray Coatings
+- 2.8c Applications of Thermal Spray Coatings
+
+- Chapter 3: Fluid Flow in Materials Processing:
+sections:
+- Section: 3.1 Newtonian and non-Newtonian flow:
+subsections:
+- 3.1a Understanding Newtonian Flow
+- 3.1b Understanding Non-Newtonian Flow
+- 3.1c Comparing Newtonian and Non-Newtonian Flow
+
+- Chapter 4: Radiation in Materials Processing:
+sections:
+- Section: 4.1 Radiation combined with convection:
+subsections:
+- 4.1a Principles of Radiation and Convection
+- 4.1b Radiation and Convection in Materials Processing
+- 4.1c Case Studies on Radiation and Convection
+
+- Section: 4.2 The energy distribution and the emissive power:
+subsections:
+- 4.2a Understanding Energy Distribution
+- 4.2b Understanding Emissive Power
+- 4.2c Energy Distribution and Emissive Power in Materials Processing
+
+- Section: 4.3 Application of Navier-Stokes' Equation:
+subsections:
+- 4.3a Understanding Navier-Stokes' Equation
+- 4.3b Applying Navier-Stokes' Equation in Materials Processing
+- 4.3c Case Studies on Navier-Stokes' Equation
+
+- Chapter 5: Solidification Processing:
+sections:
+- Section: 5.1 The float glass process:
+subsections:
+- 5.1a Understanding the Float Glass Process
+- 5.1b Float Glass Process in Materials Processing
+- 5.1c Case Studies on the Float Glass Process
+
+- Section: 5.2 Solidification processing:
+subsections:
+- 5.2a Understanding Solidification Processing
+- 5.2b Solidification Processing in Materials Processing
+- 5.2c Case Studies on Solidification Processing
+
+- Chapter 6: Thermal Properties of Materials:
+sections:
+- Section: 6.1 Validity of the lumped capacitance method:
+subsections:
+- 6.1a Understanding the Lumped Capacitance Method
+- 6.1b Validity of the Lumped Capacitance Method
+- 6.1c Lumped Capacitance Method in Materials Processing
+
+- Section: 6.2 Thermal properties:
+subsections:
+- 6.2a Understanding Thermal Properties
+- 6.2b Thermal Properties of Different Materials
+- 6.2c Thermal Properties in Materials Processing
+
+- Chapter 7: Conduction of Heat in Solids:
+sections:
+- Section: 7.1 Conduction of heat in solids:
+subsections:
+- 7.1a Understanding Heat Conduction in Solids
+- 7.1b Factors Affecting Heat Conduction in Solids
+- 7.1c Heat Conduction in Solids in Materials Processing
+
+- Chapter 8: Energy Distribution and Emissive Power:
+sections:
+- Section: 8.1 Chapter 11.3: The Energy Distribution and the Emissive Power:
+subsections:
+- 8.1a Understanding Energy Distribution and Emissive Power
+- 8.1b Energy Distribution and Emissive Power in Materials Processing
+- 8.1c Case Studies on Energy Distribution and Emissive Power
+
+- Chapter 9: Application of Navier-Stokes' Equation:
+sections:
+- Section: 9.1 Chapter 2.7: Application of Navier-Stokes' Equation:
+subsections:
+- 9.1a Understanding Navier-Stokes' Equation
+- 9.1b Applying Navier-Stokes' Equation in Materials Processing
+- 9.1c Case Studies on Navier-Stokes' Equation
+
+- Chapter 10: Exam Review:
+sections:
+- Section: 10.1 Final exam:
+subsections:
+- 10.1a Final Exam Format
+- 10.1b Final Exam Preparation Tips
+- 10.1c Final Exam Review Materials
+
+- Section: 10.2 Exam 1:
+subsections:
+- 10.2a Exam 1 Format
+- 10.2b Exam 1 Preparation Tips
+- 10.2c Exam 1 Review Materials
+
+- Section: 10.3 Exam 2:
+subsections:
+- 10.3a Exam 2 Format
+- 10.3b Exam 2 Preparation Tips
+- 10.3c Exam 2 Review Materials
+
+- Chapter 11: Assignments:
+sections:
+- Section: 11.1 Homework 1:
+subsections:
+- 11.1a Homework 1 Questions
+- 11.1b Homework 1 Solutions
+- 11.1c Homework 1 Review
+
+- Section: 11.2 Homework 2:
+subsections:
+- 11.2a Homework 2 Questions
+- 11.2b Homework 2 Solutions
+- 11.2c Homework 2 Review
+
+- Section: 11.3 Homework 3:
+subsections:
+- 11.3a Homework 3 Questions
+- 11.3b Homework 3 Solutions
+- 11.3c Homework 3 Review
+
+- Section: 11.4 Homework 4:
+subsections:
+- 11.4a Homework 4 Questions
+- 11.4b Homework 4 Solutions
+- 11.4c Homework 4 Review
+
+- Section: 11.5 Homework 5:
+subsections:
+- 11.5a Homework 5 Questions
+- 11.5b Homework 5 Solutions
+- 11.5c Homework 5 Review
+
+- Chapter 12: Additional Readings:
+sections:
+- Section: 12.1 [Poirier & Geiger]:
+subsections:
+- 12.1a Overview of [Poirier & Geiger]
+- 12.1b Key Takeaways from [Poirier & Geiger]
+- 12.1c Application of [Poirier & Geiger] in Materials Processing
+
+- Section: 12.2 [IDBL]:
+subsections:
+- 12.2a Overview of [IDBL]
+- 12.2b Key Takeaways from [IDBL]
+- 12.2c Application of [IDBL] in Materials Processing
+
+- Section: 12.3 [Kou]:
+subsections:
+- 12.3a Overview of [Kou]
+- 12.3b Key Takeaways from [Kou]
+- 12.3c Application of [Kou] in Materials Processing
+
+- Section: 12.4 [Flemings]:
+subsections:
+- 12.4a Overview of [Flemings]
+- 12.4b Key Takeaways from [Flemings]
+- 12.4c Application of [Flemings] in Materials Processing
+
+- Section: 12.5 Carslaw, H. S., and J. C. Jaeger. 'Conduction of Heat in Solids':
+subsections:
+- 12.5a Overview of 'Conduction of Heat in Solids'
+- 12.5b Key Takeaways from 'Conduction of Heat in Solids'
+- 12.5c Application of 'Conduction of Heat in Solids' in Materials Processing
+
+- Section: 12.6 Pilkington, L. A. B. 'The Float Glass Process.':
+subsections:
+- 12.6a Overview of 'The Float Glass Process.'
+- 12.6b Key Takeaways from 'The Float Glass Process.'
+- 12.6c Application of 'The Float Glass Process.' in Materials Processing
+
+- Chapter 13: Advanced Heat Transfer:
+sections:
+- Section: 13.1 Advanced Conduction:
+subsections:
+- 13.1a Advanced Concepts in Conduction
+- 13.1b Advanced Conduction in Materials Processing
+- 13.1c Case Studies on Advanced Conduction
+
+- Section: 13.2 Advanced Convection:
+subsections:
+- 13.2a Advanced Concepts in Convection
+- 13.2b Advanced Convection in Materials Processing
+- 13.2c Case Studies on Advanced Convection
+
+- Section: 13.3 Advanced Radiation:
+subsections:
+- 13.3a Advanced Concepts in Radiation
+- 13.3b Advanced Radiation in Materials Processing
+- 13.3c Case Studies on Advanced Radiation
+
+- Chapter 14: Advanced Fluid Flow:
+sections:
+- Section: 14.1 Advanced Newtonian Flow:
+subsections:
+- 14.1a Advanced Concepts in Newtonian Flow
+- 14.1b Advanced Newtonian Flow in Materials Processing
+- 14.1c Case Studies on Advanced Newtonian Flow
+
+- Section: 14.2 Advanced Non-Newtonian Flow:
+subsections:
+- 14.2a Advanced Concepts in Non-Newtonian Flow
+- 14.2b Advanced Non-Newtonian Flow in Materials Processing
+- 14.2c Case Studies on Advanced Non-Newtonian Flow
+
+- Chapter 15: Advanced Solidification Processing:
+sections:
+- Section: 15.1 Advanced Float Glass Process:
+subsections:
+- 15.1a Advanced Concepts in Float Glass Process
+- 15.1b Advanced Float Glass Process in Materials Processing
+- 15.1c Case Studies on Advanced Float Glass Process
+
+- Section: 15.2 Advanced Solidification Processing:
+subsections:
+- 15.2a Advanced Concepts in Solidification Processing
+- 15.2b Advanced Solidification Processing in Materials Processing
+- 15.2c Case Studies on Advanced Solidification Processing
+
+- Chapter 16: Advanced Thermal Properties of Materials:
+sections:
+- Section: 16.1 Advanced Lumped Capacitance Method:
+subsections:
+- 16.1a Advanced Concepts in Lumped Capacitance Method
+- 16.1b Advanced Lumped Capacitance Method in Materials Processing
+- 16.1c Case Studies on Advanced Lumped Capacitance Method
+
+- Section: 16.2 Advanced Thermal Properties:
+subsections:
+- 16.2a Advanced Concepts in Thermal Properties
+- 16.2b Advanced Thermal Properties of Different Materials
+- 16.2c Advanced Thermal Properties in Materials Processing
+
+- Chapter 17: Advanced Conduction of Heat in Solids:
+sections:
+- Section: 17.1 Advanced Conduction of heat in solids:
+subsections:
+- 17.1a Advanced Concepts in Heat Conduction in Solids
+- 17.1b Advanced Heat Conduction in Solids in Materials Processing
+- 17.1c Case Studies on Advanced Heat Conduction in Solids
+
+- Chapter 18: Advanced Energy Distribution and Emissive Power:
+sections:
+- Section: 18.1 Advanced Energy Distribution and Emissive Power:
+subsections:
+- 18.1a Advanced Concepts in Energy Distribution and Emissive Power
+- 18.1b Advanced Energy Distribution and Emissive Power in Materials Processing
+- 18.1c Case Studies on Advanced Energy Distribution and Emissive Power
+
+- Chapter 19: Advanced Application of Navier-Stokes' Equation:
+sections:
+- Section: 19.1 Advanced Application of Navier-Stokes' Equation:
+subsections:
+- 19.1a Advanced Concepts in Navier-Stokes' Equation
+- 19.1b Advanced Application of Navier-Stokes' Equation in Materials Processing
+- 19.1c Case Studies on Advanced Application of Navier-Stokes' Equation
+
+- Chapter 20: Advanced Materials Processing:
+sections:
+- Section: 20.1 Advanced Materials Processing Techniques:
+subsections:
+- 20.1a Overview of Advanced Materials Processing Techniques
+- 20.1b Application of Advanced Materials Processing Techniques
+- 20.1c Case Studies on Advanced Materials Processing Techniques
+
+- Section: 20.2 Future Trends in Materials Processing:
+subsections:
+- 20.2a Emerging Trends in Materials Processing
+- 20.2b Impact of Emerging Trends on Materials Processing
+- 20.2c Case Studies on Emerging Trends in Materials Processing

@@ -1,0 +1,404 @@
+textbook: 
+"Identification, Estimation, and Learning: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Recursive Least Square:
+subsections:
+- 1.1a Overview of Recursive Least Square Algorithm
+- 1.1b Derivation of Recursive Least Square Algorithm
+- 1.1c Implementation and Applications of Recursive Least Square Algorithm
+
+- Section: 1.2 Properties of RLS:
+subsections:
+- 1.2a Convergence Analysis of Recursive Least Square Algorithm
+- 1.2b Robustness Analysis of Recursive Least Square Algorithm
+- 1.2c Limitations and Assumptions of Recursive Least Square Algorithm
+
+- Section: 1.3 Random Processes:
+subsections:
+- 1.3a Overview of Random Processes
+- 1.3b Gaussian and Non-Gaussian Random Processes
+- 1.3c Autocorrelation and Power Spectral Density
+
+- Section: 1.4 Active Noise Cancellation:
+subsections:
+- 1.4a Introduction to Active Noise Cancellation
+- 1.4b Feedforward and Feedback Architectures
+- 1.4c Adaptive Algorithms for Active Noise Cancellation
+
+- Chapter 2: Estimation:
+sections:
+- Section: 2.1 Discrete Kalman Filter-1:
+subsections:
+- 2.1a Overview of Discrete Kalman Filter
+- 2.1b Prediction Step in Kalman Filter
+- 2.1c Update Step in Kalman Filter
+
+- Section: 2.2 Discrete Kalman Filter-2:
+subsections:
+- 2.2a Extended Kalman Filter
+- 2.2b Unscented Kalman Filter
+- 2.2c Particle Filter
+
+- Section: 2.3 Continuous Kalman Filter:
+subsections:
+- 2.3a Continuous-time State Estimation
+- 2.3b Discrete-time Approximations of Continuous Kalman Filter
+- 2.3c Applications of Continuous Kalman Filter
+
+- Section: 2.4 Extended Kalman Filter:
+subsections:
+- 2.4a Non-linear State Estimation
+- 2.4b Linearization Techniques for Non-linear Systems
+- 2.4c Tracking and Navigation Applications
+
+- Chapter 3: Representation and Learning:
+sections:
+- Section: 3.1 Prediction Modeling of Linear Systems:
+subsections:
+- 3.1a Introduction to Linear System Prediction Modeling
+- 3.1b Autoregressive (AR) Models
+- 3.1c Moving Average (MA) Models
+
+- Section: 3.2 Model Structure of Linear Time-invariant Systems:
+subsections:
+- 3.2a State-space Representation of Linear Systems
+- 3.2b Transfer Function Representation of Linear Systems
+- 3.2c Realization Theory of Linear Systems
+
+- Section: 3.3 Time Series Data Compression:
+subsections:
+- 3.3a Overview of Time Series Data Compression
+- 3.3b Lossless Compression Techniques
+- 3.3c Lossy Compression Techniques
+
+- Section: 3.4 Laguerre Series Expansion:
+subsections:
+- 3.4a Introduction to Laguerre Series Expansion
+- 3.4b Properties and Applications of Laguerre Series Expansion
+- 3.4c Laguerre Filters for System Identification
+
+- Chapter 4: Non-linear Models:
+sections:
+- Section: 4.1 Introduction to Non-linear Models:
+subsections:
+- 4.1a Introduction to Non-linear Models
+- 4.1b Non-linear State Space Models
+- 4.1c Non-linear ARMA Models
+
+- Section: 4.2 Function Approximation Theory:
+subsections:
+- 4.2a Overview of Function Approximation Theory
+- 4.2b Polynomial Approximation Methods
+- 4.2c Interpolation and Regression Techniques
+
+- Section: 4.3 Radial Basis Functions:
+subsections:
+- 4.3a Introduction to Radial Basis Functions
+- 4.3b Gaussian Radial Basis Functions
+- 4.3c Multiquadric Radial Basis Functions
+
+- Section: 4.4 Neural Networks:
+subsections:
+- 4.4a Introduction to Neural Networks
+- 4.4b Feedforward and Recurrent Neural Networks
+- 4.4c Training Algorithms for Neural Networks
+
+- Chapter 5: Error Back Propagation Algorithm:
+sections:
+- Section: 5.1 Overview of Error Back Propagation Algorithm:
+subsections:
+- 5.1a Overview of Error Back Propagation Algorithm
+- 5.1b Gradient Descent and Stochastic Gradient Descent
+- 5.1c Back Propagation in Multi-layer Neural Networks
+
+- Chapter 6: System Identification:
+sections:
+- Section: 6.1 Perspective of System Identification:
+subsections:
+- 6.1a Overview of System Identification
+- 6.1b Time-domain and Frequency-domain Analysis
+- 6.1c Parametric and Non-parametric Models
+
+- Section: 6.2 Informative Data Sets and Consistency:
+subsections:
+- 6.2a Selection of Informative Data Sets
+- 6.2b Consistency Analysis of Parameter Estimates
+- 6.2c Bias and Variance Trade-off
+
+- Section: 6.3 Informative Experiments: Persistent Excitation:
+subsections:
+- 6.3a Introduction to Persistent Excitation
+- 6.3b Design of Excitation Signals
+- 6.3c Analysis of Persistent Excitation
+
+- Section: 6.4 Asymptotic Distribution of Parameter Estimates:
+subsections:
+- 6.4a Large Sample Theory in System Identification
+- 6.4b Asymptotic Normality of Parameter Estimates
+- 6.4c Confidence Intervals and Hypothesis Testing
+
+- Chapter 7: Experiment Design, Pseudo Random Binary Signals:
+sections:
+- Section: 7.1 Design of Experiment for System Identification:
+subsections:
+- 7.1a Design of Experiment for System Identification
+- 7.1b Pseudo Random Binary Signals for Excitation
+- 7.1c Analysis of Pseudo Random Binary Signals
+
+- Chapter 8: Maximum Likelihood Estimate:
+sections:
+- Section: 8.1 Principle of Maximum Likelihood Estimation:
+subsections:
+- 8.1a Principle of Maximum Likelihood Estimation
+- 8.1b Likelihood Function and Log-likelihood Function
+- 8.1c Numerical Methods for Maximum Likelihood Estimation
+
+- Chapter 9: Cramer-Rao Lower Bound and Best Unbiased Estimate:
+sections:
+- Section: 9.1 Cramer-Rao Lower Bound for Estimators:
+subsections:
+- 9.1a Cramer-Rao Lower Bound for Estimators
+- 9.1b Efficient Estimators and Best Unbiased Estimate
+- 9.1c Minimum Variance Bound for Estimators
+
+- Chapter 10: Information Theory of System Identification: Kullback-Leibler Information Distance, Akaike’s Information Criterion:
+sections:
+- Section: 10.1 Introduction to Information Theory in System Identification:
+subsections:
+- 10.1a Introduction to Information Theory in System Identification
+- 10.1b Kullback-Leibler Information Distance
+- 10.1c Akaike’s Information Criterion and Model Selection
+
+- Chapter 11: Projects:
+sections:
+- Section: 11.1 Selecting a Project Topic:
+subsections:
+- 11.1a Criteria for Selecting a Project Topic
+- 11.1b Brainstorming Techniques for Project Topics
+- 11.1c Evaluating Feasibility and Significance of Project Topics
+
+- Section: 11.2 Theory and Practice:
+subsections:
+- 11.2a Application of Theoretical Concepts in Project Implementation
+- 11.2b Validation and Verification of Project Results
+- 11.2c Documentation and Reporting of Project Findings
+
+- Section: 11.3 Interesting Context or Application Background:
+subsections:
+- 11.3a Exploring Real-world Contexts for Project Implementation
+- 11.3b Identifying Novel Applications for Course Concepts
+- 11.3c Case Studies and Examples in Project Development
+
+- Section: 11.4 Achieving the Goal:
+subsections:
+- 11.4a Setting Project Goals and Objectives
+- 11.4b Planning and Scheduling Project Milestones
+- 11.4c Monitoring and Adjusting Project Progress
+
+- Section: 11.5 Specific Technical Details:
+subsections:
+- 11.5a Technical Requirements and Constraints in Project Design
+- 11.5b Algorithm Selection and Parameter Tuning in Project Implementation
+- 11.5c Handling Data and Processing Results in Project Development
+
+- Chapter 12: Advanced Topics in System Identification:
+sections:
+- Section: 12.1 Nonlinear System Identification:
+subsections:
+- 12.1a Introduction to Nonlinear System Identification
+- 12.1b Nonlinear System Identification Techniques
+- 12.1c Applications and Challenges in Nonlinear System Identification
+
+- Section: 12.2 Multivariable System Identification:
+subsections:
+- 12.2a Introduction to Multivariable System Identification
+- 12.2b Techniques for Multivariable System Identification
+- 12.2c Applications and Challenges in Multivariable System Identification
+
+- Section: 12.3 Time-varying System Identification:
+subsections:
+- 12.3a Introduction to Time-varying System Identification
+- 12.3b Techniques for Time-varying System Identification
+- 12.3c Applications and Challenges in Time-varying System Identification
+
+- Section: 12.4 Frequency Domain System Identification:
+subsections:
+- 12.4a Introduction to Frequency Domain System Identification
+- 12.4b Techniques for Frequency Domain System Identification
+- 12.4c Applications and Challenges in Frequency Domain System Identification
+
+- Chapter 13: Advanced Topics in Estimation:
+sections:
+- Section: 13.1 Bayesian Estimation:
+subsections:
+- 13.1a Introduction to Bayesian Estimation
+- 13.1b Techniques for Bayesian Estimation
+- 13.1c Applications and Challenges in Bayesian Estimation
+
+- Section: 13.2 Sequential Estimation:
+subsections:
+- 13.2a Introduction to Sequential Estimation
+- 13.2b Techniques for Sequential Estimation
+- 13.2c Applications and Challenges in Sequential Estimation
+
+- Section: 13.3 Robust Estimation:
+subsections:
+- 13.3a Introduction to Robust Estimation
+- 13.3b Techniques for Robust Estimation
+- 13.3c Applications and Challenges in Robust Estimation
+
+- Section: 13.4 Adaptive Estimation:
+subsections:
+- 13.4a Introduction to Adaptive Estimation
+- 13.4b Techniques for Adaptive Estimation
+- 13.4c Applications and Challenges in Adaptive Estimation
+
+- Chapter 14: Advanced Topics in Learning:
+sections:
+- Section: 14.1 Supervised Learning:
+subsections:
+- 14.1a Introduction to Supervised Learning
+- 14.1b Techniques for Supervised Learning
+- 14.1c Applications and Challenges in Supervised Learning
+
+- Section: 14.2 Unsupervised Learning:
+subsections:
+- 14.2a Introduction to Unsupervised Learning
+- 14.2b Techniques for Unsupervised Learning
+- 14.2c Applications and Challenges in Unsupervised Learning
+
+- Section: 14.3 Reinforcement Learning:
+subsections:
+- 14.3a Introduction to Reinforcement Learning
+- 14.3b Techniques for Reinforcement Learning
+- 14.3c Applications and Challenges in Reinforcement Learning
+
+- Section: 14.4 Deep Learning:
+subsections:
+- 14.4a Introduction to Deep Learning
+- 14.4b Techniques for Deep Learning
+- 14.4c Applications and Challenges in Deep Learning
+
+- Chapter 15: Advanced Topics in Projects:
+sections:
+- Section: 15.1 Project Management:
+subsections:
+- 15.1a Introduction to Project Management
+- 15.1b Techniques for Project Management
+- 15.1c Applications and Challenges in Project Management
+
+- Section: 15.2 Project Evaluation:
+subsections:
+- 15.2a Introduction to Project Evaluation
+- 15.2b Techniques for Project Evaluation
+- 15.2c Applications and Challenges in Project Evaluation
+
+- Section: 15.3 Project Presentation:
+subsections:
+- 15.3a Introduction to Project Presentation
+- 15.3b Techniques for Project Presentation
+- 15.3c Applications and Challenges in Project Presentation
+
+- Section: 15.4 Project Documentation:
+subsections:
+- 15.4a Introduction to Project Documentation
+- 15.4b Techniques for Project Documentation
+- 15.4c Applications and Challenges in Project Documentation
+
+- Chapter 16: Advanced Topics in Identification, Estimation, and Learning:
+sections:
+- Section: 16.1 Advanced Topics in Identification:
+subsections:
+- 16.1a Introduction to Advanced Topics in Identification
+- 16.1b Techniques for Advanced Topics in Identification
+- 16.1c Applications and Challenges in Advanced Topics in Identification
+
+- Section: 16.2 Advanced Topics in Estimation:
+subsections:
+- 16.2a Introduction to Advanced Topics in Estimation
+- 16.2b Techniques for Advanced Topics in Estimation
+- 16.2c Applications and Challenges in Advanced Topics in Estimation
+
+- Section: 16.3 Advanced Topics in Learning:
+subsections:
+- 16.3a Introduction to Advanced Topics in Learning
+- 16.3b Techniques for Advanced Topics in Learning
+- 16.3c Applications and Challenges in Advanced Topics in Learning
+
+- Section: 16.4 Advanced Topics in Projects:
+subsections:
+- 16.4a Introduction to Advanced Topics in Projects
+- 16.4b Techniques for Advanced Topics in Projects
+- 16.4c Applications and Challenges in Advanced Topics in Projects
+
+- Chapter 17: Future Directions in Identification, Estimation, and Learning:
+sections:
+- Section: 17.1 Future Directions in Identification:
+subsections:
+- 17.1a Introduction to Future Directions in Identification
+- 17.1b Techniques for Future Directions in Identification
+- 17.1c Applications and Challenges in Future Directions in Identification
+
+- Section: 17.2 Future Directions in Estimation:
+subsections:
+- 17.2a Introduction to Future Directions in Estimation
+- 17.2b Techniques for Future Directions in Estimation
+- 17.2c Applications and Challenges in Future Directions in Estimation
+
+- Section: 17.3 Future Directions in Learning:
+subsections:
+- 17.3a Introduction to Future Directions in Learning
+- 17.3b Techniques for Future Directions in Learning
+- 17.3c Applications and Challenges in Future Directions in Learning
+
+- Section: 17.4 Future Directions in Projects:
+subsections:
+- 17.4a Introduction to Future Directions in Projects
+- 17.4b Techniques for Future Directions in Projects
+- 17.4c Applications and Challenges in Future Directions in Projects
+
+- Chapter 18: Case Studies in Identification, Estimation, and Learning:
+sections:
+- Section: 18.1 Case Studies in Identification:
+subsections:
+- 18.1a Introduction to Case Studies in Identification
+- 18.1b Techniques for Case Studies in Identification
+- 18.1c Applications and Challenges in Case Studies in Identification
+
+- Section: 18.2 Case Studies in Estimation:
+subsections:
+- 18.2a Introduction to Case Studies in Estimation
+- 18.2b Techniques for Case Studies in Estimation
+- 18.2c Applications and Challenges in Case Studies in Estimation
+
+- Section: 18.3 Case Studies in Learning:
+subsections:
+- 18.3a Introduction to Case Studies in Learning
+- 18.3b Techniques for Case Studies in Learning
+- 18.3c Applications and Challenges in Case Studies in Learning
+
+- Section: 18.4 Case Studies in Projects:
+subsections:
+- 18.4a Introduction to Case Studies in Projects
+- 18.4b Techniques for Case Studies in Projects
+- 18.4c Applications and Challenges in Case Studies in Projects
+
+- Chapter 19: Conclusions and Recommendations:
+sections:
+- Section: 19.1 Conclusions:
+subsections:
+- 19.1a Summary of Key Findings
+- 19.1b Implications for Practice
+- 19.1c Recommendations for Future Research
+
+- Chapter 20: Appendices:
+sections:
+- Section: 20.1 Appendix A: Glossary of Terms:
+subsections:
+- 20.1a Definitions of Key Terms
+- 20.1b Explanation of Acronyms
+
+- Section

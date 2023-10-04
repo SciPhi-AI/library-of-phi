@@ -1,0 +1,379 @@
+textbook: 
+"Integrating eSystems & Global Information Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Information Technology, Corporate Strategy, and Competitive Advantage:
+subsections:
+- 1.1a Role of IT in Corporate Strategy
+- 1.1b IT as a Competitive Advantage
+- 1.1c Case Studies of IT in Business
+
+- Section: 1.2 Strategic Case Study:
+subsections:
+- 1.2a Case Study Overview
+- 1.2b Analysis of Strategic Case Study
+- 1.2c Lessons from the Case Study
+
+- Section: 1.3 Inter- and Intra-Organizational Systems:
+subsections:
+- 1.3a Definition and Role of Inter-Organizational Systems
+- 1.3b Definition and Role of Intra-Organizational Systems
+- 1.3c Comparison and Contrast of Inter- and Intra-Organizational Systems
+
+- Chapter 2: Physical Connectivity:
+sections:
+- Section: 2.1 Basic Communications Technology and Concepts:
+subsections:
+- 2.1a Introduction to Communications Technology
+- 2.1b Key Concepts in Communications Technology
+- 2.1c Applications of Communications Technology
+
+- Section: 2.2 Local Area Networks:
+subsections:
+- 2.2a Definition and Role of Local Area Networks
+- 2.2b Setting Up a Local Area Network
+- 2.2c Case Studies of Local Area Networks
+
+- Section: 2.3 Wide Area Networks:
+subsections:
+- 2.3a Definition and Role of Wide Area Networks
+- 2.3b Setting Up a Wide Area Network
+- 2.3c Case Studies of Wide Area Networks
+
+- Section: 2.4 Network Protocols:
+subsections:
+- 2.4a Introduction to Network Protocols
+- 2.4b Common Network Protocols
+- 2.4c Role of Network Protocols in Connectivity
+
+- Chapter 3: Emerging Technologies:
+sections:
+- Section: 3.1 Emerging Technologies I:
+subsections:
+- 3.1a Overview of Emerging Technologies
+- 3.1b Detailed Study of Selected Emerging Technologies
+- 3.1c Impact of Emerging Technologies on Business
+
+- Section: 3.2 Emerging Technologies II:
+subsections:
+- 3.2a Continuation of Emerging Technologies Overview
+- 3.2b Detailed Study of Additional Emerging Technologies
+- 3.2c Future Predictions for Emerging Technologies
+
+- Chapter 4: Technical Case Study:
+sections:
+- Section: 4.1 Technical Case Study - MIT's Network Configuration:
+subsections:
+- 4.1a Overview of MIT's Network Configuration
+- 4.1b Analysis of MIT's Network Configuration
+- 4.1c Lessons from MIT's Network Configuration
+
+- Chapter 5: Distributed Databases:
+sections:
+- Section: 5.1 Distributed Homogeneous Databases:
+subsections:
+- 5.1a Definition and Role of Homogeneous Databases
+- 5.1b Setting Up a Homogeneous Database
+- 5.1c Case Studies of Homogeneous Databases
+
+- Section: 5.2 Distributed Heterogeneous Databases:
+subsections:
+- 5.2a Definition and Role of Heterogeneous Databases
+- 5.2b Setting Up a Heterogeneous Database
+- 5.2c Case Studies of Heterogeneous Databases
+
+- Section: 5.3 View Integration Among Databases:
+subsections:
+- 5.3a Definition and Role of View Integration
+- 5.3b Techniques for View Integration
+- 5.3c Case Studies of View Integration
+
+- Section: 5.4 Web as a Database:
+subsections:
+- 5.4a Concept of the Web as a Database
+- 5.4b Techniques for Using the Web as a Database
+- 5.4c Case Studies of the Web as a Database
+
+- Chapter 6: Integration and Architecture:
+sections:
+- Section: 6.1 Semantic Integration:
+subsections:
+- 6.1a Definition and Role of Semantic Integration
+- 6.1b Techniques for Semantic Integration
+- 6.1c Case Studies of Semantic Integration
+
+- Section: 6.2 Component Architectures & Web Services:
+subsections:
+- 6.2a Definition and Role of Component Architectures
+- 6.2b Introduction to Web Services
+- 6.2c Role of Web Services in Integration
+
+- Section: 6.3 Loosely-coupled Organizations:
+subsections:
+- 6.3a Definition and Role of Loosely-coupled Organizations
+- 6.3b Benefits and Challenges of Loosely-coupled Organizations
+- 6.3c Case Studies of Loosely-coupled Organizations
+
+- Section: 6.4 'Markets and Hierarchies: Organizational Coupling':
+subsections:
+- 6.4a Definition and Role of Organizational Coupling
+- 6.4b Comparison of Markets and Hierarchies in Organizational Coupling
+- 6.4c Case Studies of Organizational Coupling
+
+- Section: 6.5 Development of Standards:
+subsections:
+- 6.5a Importance of Standards in Integration
+- 6.5b Process of Standards Development
+- 6.5c Case Studies of Standards Development
+
+- Chapter 7: Strategic Alliances and Transformation:
+sections:
+- Section: 7.1 Motivating Strategic Alliances & Organizational Transformation:
+subsections:
+- 7.1a Role of Strategic Alliances in Business
+- 7.1b Process of Organizational Transformation
+- 7.1c Case Studies of Strategic Alliances and Transformation
+
+- Chapter 8: Course Summary and Review:
+sections:
+- Section: 8.1 Course Summary and Review:
+subsections:
+- 8.1a Summary of Key Course Concepts
+- 8.1b Review of Course Material
+- 8.1c Preparation for Final Exam
+
+- Section: 8.2 Selected Student Presentations:
+subsections:
+- 8.2a Overview of Student Presentations
+- 8.2b Analysis of Selected Presentations
+- 8.2c Lessons from Student Presentations
+
+- Chapter 9: Exams:
+sections:
+- Section: 9.1 Mid-term Exam:
+subsections:
+- 9.1a Overview of Mid-term Exam
+- 9.1b Preparation for Mid-term Exam
+- 9.1c Review of Mid-term Exam
+
+- Section: 9.2 Final Exam:
+subsections:
+- 9.2a Overview of Final Exam
+- 9.2b Preparation for Final Exam
+- 9.2c Review of Final Exam
+
+- Chapter 10: Assignments:
+sections:
+- Section: 10.1 Homework Assignment 1:
+subsections:
+- 10.1a Overview of Homework Assignment 1
+- 10.1b Completion of Homework Assignment 1
+- 10.1c Review of Homework Assignment 1
+
+- Section: 10.2 Homework Assignment 2:
+subsections:
+- 10.2a Overview of Homework Assignment 2
+- 10.2b Completion of Homework Assignment 2
+- 10.2c Review of Homework Assignment 2
+
+- Section: 10.3 Homework Assignment 3:
+subsections:
+- 10.3a Overview of Homework Assignment 3
+- 10.3b Completion of Homework Assignment 3
+- 10.3c Review of Homework Assignment 3
+
+- Section: 10.4 Homework Assignment 4:
+subsections:
+- 10.4a Overview of Homework Assignment 4
+- 10.4b Completion of Homework Assignment 4
+- 10.4c Review of Homework Assignment 4
+
+- Chapter 11: Projects:
+sections:
+- Section: 11.1 Term Project:
+subsections:
+- 11.1a Overview of Term Project
+- 11.1b Completion of Term Project
+- 11.1c Review of Term Project
+
+- Chapter 12: Advanced Topics in eSystems:
+sections:
+- Section: 12.1 Advanced eSystems Concepts:
+subsections:
+- 12.1a Overview of Advanced eSystems Concepts
+- 12.1b Detailed Study of Selected Advanced eSystems Concepts
+- 12.1c Case Studies of Advanced eSystems Concepts
+
+- Section: 12.2 Advanced eSystems Technologies:
+subsections:
+- 12.2a Overview of Advanced eSystems Technologies
+- 12.2b Detailed Study of Selected Advanced eSystems Technologies
+- 12.2c Case Studies of Advanced eSystems Technologies
+
+- Section: 12.3 Advanced eSystems Case Studies:
+subsections:
+- 12.3a Overview of Advanced eSystems Case Studies
+- 12.3b Analysis of Selected Advanced eSystems Case Studies
+- 12.3c Lessons from Advanced eSystems Case Studies
+
+- Chapter 13: Advanced Topics in Global Information Systems:
+sections:
+- Section: 13.1 Advanced Global Information Systems Concepts:
+subsections:
+- 13.1a Overview of Advanced Global Information Systems Concepts
+- 13.1b Detailed Study of Selected Advanced Global Information Systems Concepts
+- 13.1c Case Studies of Advanced Global Information Systems Concepts
+
+- Section: 13.2 Advanced Global Information Systems Technologies:
+subsections:
+- 13.2a Overview of Advanced Global Information Systems Technologies
+- 13.2b Detailed Study of Selected Advanced Global Information Systems Technologies
+- 13.2c Case Studies of Advanced Global Information Systems Technologies
+
+- Section: 13.3 Advanced Global Information Systems Case Studies:
+subsections:
+- 13.3a Overview of Advanced Global Information Systems Case Studies
+- 13.3b Analysis of Selected Advanced Global Information Systems Case Studies
+- 13.3c Lessons from Advanced Global Information Systems Case Studies
+
+- Chapter 14: Advanced Topics in Integration:
+sections:
+- Section: 14.1 Advanced Integration Concepts:
+subsections:
+- 14.1a Overview of Advanced Integration Concepts
+- 14.1b Detailed Study of Selected Advanced Integration Concepts
+- 14.1c Case Studies of Advanced Integration Concepts
+
+- Section: 14.2 Advanced Integration Technologies:
+subsections:
+- 14.2a Overview of Advanced Integration Technologies
+- 14.2b Detailed Study of Selected Advanced Integration Technologies
+- 14.2c Case Studies of Advanced Integration Technologies
+
+- Section: 14.3 Advanced Integration Case Studies:
+subsections:
+- 14.3a Overview of Advanced Integration Case Studies
+- 14.3b Analysis of Selected Advanced Integration Case Studies
+- 14.3c Lessons from Advanced Integration Case Studies
+
+- Chapter 15: Advanced Topics in Architecture:
+sections:
+- Section: 15.1 Advanced Architecture Concepts:
+subsections:
+- 15.1a Overview of Advanced Architecture Concepts
+- 15.1b Detailed Study of Selected Advanced Architecture Concepts
+- 15.1c Case Studies of Advanced Architecture Concepts
+
+- Section: 15.2 Advanced Architecture Technologies:
+subsections:
+- 15.2a Overview of Advanced Architecture Technologies
+- 15.2b Detailed Study of Selected Advanced Architecture Technologies
+- 15.2c Case Studies of Advanced Architecture Technologies
+
+- Section: 15.3 Advanced Architecture Case Studies:
+subsections:
+- 15.3a Overview of Advanced Architecture Case Studies
+- 15.3b Analysis of Selected Advanced Architecture Case Studies
+- 15.3c Lessons from Advanced Architecture Case Studies
+
+- Chapter 16: Advanced Topics in Strategic Alliances:
+sections:
+- Section: 16.1 Advanced Strategic Alliances Concepts:
+subsections:
+- 16.1a Overview of Advanced Strategic Alliances Concepts
+- 16.1b Detailed Study of Selected Advanced Strategic Alliances Concepts
+- 16.1c Case Studies of Advanced Strategic Alliances Concepts
+
+- Section: 16.2 Advanced Strategic Alliances Technologies:
+subsections:
+- 16.2a Overview of Advanced Strategic Alliances Technologies
+- 16.2b Detailed Study of Selected Advanced Strategic Alliances Technologies
+- 16.2c Case Studies of Advanced Strategic Alliances Technologies
+
+- Section: 16.3 Advanced Strategic Alliances Case Studies:
+subsections:
+- 16.3a Overview of Advanced Strategic Alliances Case Studies
+- 16.3b Analysis of Selected Advanced Strategic Alliances Case Studies
+- 16.3c Lessons from Advanced Strategic Alliances Case Studies
+
+- Chapter 17: Advanced Topics in Transformation:
+sections:
+- Section: 17.1 Advanced Transformation Concepts:
+subsections:
+- 17.1a Overview of Advanced Transformation Concepts
+- 17.1b Detailed Study of Selected Advanced Transformation Concepts
+- 17.1c Case Studies of Advanced Transformation Concepts
+
+- Section: 17.2 Advanced Transformation Technologies:
+subsections:
+- 17.2a Overview of Advanced Transformation Technologies
+- 17.2b Detailed Study of Selected Advanced Transformation Technologies
+- 17.2c Case Studies of Advanced Transformation Technologies
+
+- Section: 17.3 Advanced Transformation Case Studies:
+subsections:
+- 17.3a Overview of Advanced Transformation Case Studies
+- 17.3b Analysis of Selected Advanced Transformation Case Studies
+- 17.3c Lessons from Advanced Transformation Case Studies
+
+- Chapter 18: Advanced Topics in Review:
+sections:
+- Section: 18.1 Advanced Review Concepts:
+subsections:
+- 18.1a Overview of Advanced Review Concepts
+- 18.1b Detailed Study of Selected Advanced Review Concepts
+- 18.1c Case Studies of Advanced Review Concepts
+
+- Section: 18.2 Advanced Review Technologies:
+subsections:
+- 18.2a Overview of Advanced Review Technologies
+- 18.2b Detailed Study of Selected Advanced Review Technologies
+- 18.2c Case Studies of Advanced Review Technologies
+
+- Section: 18.3 Advanced Review Case Studies:
+subsections:
+- 18.3a Overview of Advanced Review Case Studies
+- 18.3b Analysis of Selected Advanced Review Case Studies
+- 18.3c Lessons from Advanced Review Case Studies
+
+- Chapter 19: Advanced Topics in Exams:
+sections:
+- Section: 19.1 Advanced Exams Concepts:
+subsections:
+- 19.1a Overview of Advanced Exams Concepts
+- 19.1b Detailed Study of Selected Advanced Exams Concepts
+- 19.1c Case Studies of Advanced Exams Concepts
+
+- Section: 19.2 Advanced Exams Technologies:
+subsections:
+- 19.2a Overview of Advanced Exams Technologies
+- 19.2b Detailed Study of Selected Advanced Exams Technologies
+- 19.2c Case Studies of Advanced Exams Technologies
+
+- Section: 19.3 Advanced Exams Case Studies:
+subsections:
+- 19.3a Overview of Advanced Exams Case Studies
+- 19.3b Analysis of Selected Advanced Exams Case Studies
+- 19.3c Lessons from Advanced Exams Case Studies
+
+- Chapter 20: Advanced Topics in Assignments:
+sections:
+- Section: 20.1 Advanced Assignments Concepts:
+subsections:
+- 20.1a Overview of Advanced Assignments Concepts
+- 20.1b Detailed Study of Selected Advanced Assignments Concepts
+- 20.1c Case Studies of Advanced Assignments Concepts
+
+- Section: 20.2 Advanced Assignments Technologies:
+subsections:
+- 20.2a Overview of Advanced Assignments Technologies
+- 20.2b Detailed Study of Selected Advanced Assignments Technologies
+- 20.2c Case Studies of Advanced Assignments Technologies
+
+- Section: 20.3 Advanced Assignments Case Studies:
+subsections:
+- 20.3a Overview of Advanced Assignments Case Studies
+- 20.3b Analysis of Selected Advanced Assignments Case Studies
+- 20.3c Lessons from Advanced Assignments Case Studies

@@ -1,0 +1,193 @@
+textbook: 
+"Modern Art and Mass Culture: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Theories of Modernism and Modernity:
+sections:
+- Section: 1.1 Modernity, Modernism, Modernization:
+subsections:
+- 1.1a Definition of Modernity
+- 1.1b Modernism and its Characteristics
+- 1.1c Modernization Process
+
+- Chapter 2: Introduction to Theories of Mass Culture:
+sections:
+- Section: 2.1 Understanding Mass Culture:
+subsections:
+- 2.1a Definition of Mass Culture
+- 2.1b Characteristics of Mass Culture
+- 2.1c Impact of Mass Culture
+
+- Chapter 3: Eugène Delacroix, or How to Imagine Liberty:
+sections:
+- Section: 3.1 Caricature and the Safehouse of 'High Art':
+subsections:
+- 3.1a Introduction to Caricature
+- 3.1b Role of Caricature in High Art
+- 3.1c Influence of Caricature on Delacroix's Work
+- Section: 3.2 Courbet, Realism, and Popular Images / ASCO preview:
+subsections:
+- 3.2a Courbet and Realism
+- 3.2b Popular Images in Courbet's Work
+- 3.2c ASCO's Influence on Modern Art
+
+- Chapter 4: Manet: Flâneurs and Flâneuses in the Modernizing City / ASCO:
+sections:
+- Section: 4.1 European Orientalism: Camille’s Kimono and Gauguin’s Skirt:
+subsections:
+- 4.1a Introduction to European Orientalism
+- 4.1b Camille's Kimono: A Case Study
+- 4.1c Gauguin’s Skirt: A Case Study
+
+- Chapter 5: The Impressionist Eye as Camera:
+sections:
+- Section: 5.1 Serial Impressions:
+subsections:
+- 5.1a Definition of Serial Impressions
+- 5.1b Role of Serial Impressions in Impressionism
+- 5.1c Impact of Serial Impressions on Modern Art
+
+- Chapter 6: Picasso’s Cubism: Politics and/or Semiosis:
+sections:
+- Section: 6.1 The Soviet Avant-Garde:
+subsections:
+- 6.1a Introduction to the Soviet Avant-Garde
+- 6.1b Influence of the Soviet Avant-Garde on Picasso
+- 6.1c Impact of the Soviet Avant-Garde on Modern Art
+- Section: 6.2 Futurism’s and Dadaism’s Popular Mechanics:
+subsections:
+- 6.2a Introduction to Futurism and Dadaism
+- 6.2b Influence of Futurism and Dadaism on Picasso
+- 6.2c Impact of Futurism and Dadaism on Modern Art
+
+- Chapter 7: In and Around Duchamp:
+sections:
+- Section: 7.1 Irrational / Rational Production: Surrealism vs. The Bauhaus Idea:
+subsections:
+- 7.1a Introduction to Surrealism and The Bauhaus Idea
+- 7.1b Duchamp's Approach to Surrealism and The Bauhaus Idea
+- 7.1c Impact of Surrealism and The Bauhaus Idea on Modern Art
+
+- Chapter 8: Anti-culture? Dubuffet, Pollock, and Premonitions of the Postmodern:
+sections:
+- Section: 8.1 Robert Rauschenberg’s Coca-Cola Plan / International Pop:
+subsections:
+- 8.1a Introduction to Robert Rauschenberg’s Coca-Cola Plan
+- 8.1b Influence of International Pop on Rauschenberg
+- 8.1c Impact of Rauschenberg’s Coca-Cola Plan on Modern Art
+
+- Chapter 9: The 'Business Art Business,' Globalism vs. Globalization:
+sections:
+- Section: 9.1 Postmodernism, Spectacle, and Institutional Critique:
+subsections:
+- 9.1a Introduction to Postmodernism, Spectacle, and Institutional Critique
+- 9.1b Role of Postmodernism, Spectacle, and Institutional Critique in Modern Art
+- 9.1c Impact of Postmodernism, Spectacle, and Institutional Critique on the Art Business
+- Section: 9.2 Postmodernism and Feminism:
+subsections:
+- 9.2a Introduction to Postmodernism and Feminism
+- 9.2b Role of Feminism in Postmodern Art
+- 9.2c Impact of Feminism on the Art Business
+
+- Chapter 10: New Media / Mass Media / Sensory Reconfigurations:
+sections:
+- Section: 10.1 Biennial Culture and the Aesthetics of Experience:
+subsections:
+- 10.1a Introduction to Biennial Culture
+- 10.1b Role of Aesthetics of Experience in Biennial Culture
+- 10.1c Impact of Biennial Culture on Modern Art
+- Section: 10.2 Present-day Strategies Vis-à-vis Art and Mass Culture:
+subsections:
+- 10.2a Overview of Present-day Strategies
+- 10.2b Role of Mass Culture in Present-day Strategies
+- 10.2c Impact of Present-day Strategies on Modern Art
+
+- Chapter 11: Last class: concluding discussion of class themes, review for exam, and discussion of student research paper abstracts:
+sections:
+- Section: 11.1 Concluding Discussion of Class Themes:
+subsections:
+- 11.1a Overview of Class Themes
+- 11.1b Key Takeaways from Class Themes
+- 11.1c Future Implications of Class Themes
+- Section: 11.2 Review for Exam:
+subsections:
+- 11.2a Key Topics for Exam Review
+- 11.2b Study Strategies for Exam
+- 11.2c Tips for Exam Success
+- Section: 11.3 Discussion of Student Research Paper Abstracts:
+subsections:
+- 11.3a Overview of Student Research Papers
+- 11.3b Key Themes in Student Research Papers
+- 11.3c Feedback and Discussion on Student Research Papers
+
+- Chapter 12: Theories of Postmodernism:
+sections:
+- Section: 12.1 Understanding Postmodernism:
+subsections:
+- 12.1a Definition of Postmodernism
+- 12.1b Characteristics of Postmodernism
+- 12.1c Impact of Postmodernism on Modern Art
+
+- Chapter 13: Theories of Pop Art:
+sections:
+- Section: 13.1 Understanding Pop Art:
+subsections:
+- 13.1a Definition of Pop Art
+- 13.1b Characteristics of Pop Art
+- 13.1c Impact of Pop Art on Modern Art
+
+- Chapter 14: Theories of Abstract Expressionism:
+sections:
+- Section: 14.1 Understanding Abstract Expressionism:
+subsections:
+- 14.1a Definition of Abstract Expressionism
+- 14.1b Characteristics of Abstract Expressionism
+- 14.1c Impact of Abstract Expressionism on Modern Art
+
+- Chapter 15: Theories of Minimalism:
+sections:
+- Section: 15.1 Understanding Minimalism:
+subsections:
+- 15.1a Definition of Minimalism
+- 15.1b Characteristics of Minimalism
+- 15.1c Impact of Minimalism on Modern Art
+
+- Chapter 16: Theories of Conceptual Art:
+sections:
+- Section: 16.1 Understanding Conceptual Art:
+subsections:
+- 16.1a Definition of Conceptual Art
+- 16.1b Characteristics of Conceptual Art
+- 16.1c Impact of Conceptual Art on Modern Art
+
+- Chapter 17: Theories of Performance Art:
+sections:
+- Section: 17.1 Understanding Performance Art:
+subsections:
+- 17.1a Definition of Performance Art
+- 17.1b Characteristics of Performance Art
+- 17.1c Impact of Performance Art on Modern Art
+
+- Chapter 18: Theories of Installation Art:
+sections:
+- Section: 18.1 Understanding Installation Art:
+subsections:
+- 18.1a Definition of Installation Art
+- 18.1b Characteristics of Installation Art
+- 18.1c Impact of Installation Art on Modern Art
+
+- Chapter 19: Theories of Digital Art:
+sections:
+- Section: 19.1 Understanding Digital Art:
+subsections:
+- 19.1a Definition of Digital Art
+- 19.1b Characteristics of Digital Art
+- 19.1c Impact of Digital Art on Modern Art
+
+- Chapter 20: Theories of Video Art:
+sections:
+- Section: 20.1 Understanding Video Art:
+subsections:
+- 20.1a Definition of Video Art
+- 20.1b Characteristics of Video Art
+- 20.1c Impact of Video Art on Modern Art

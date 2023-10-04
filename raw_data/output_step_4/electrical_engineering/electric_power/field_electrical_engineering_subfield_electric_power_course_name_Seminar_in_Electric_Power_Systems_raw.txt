@@ -1,0 +1,307 @@
+textbook: 
+"Seminar in Electric Power Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction, Preview, Review of Concepts:
+sections:
+- Section: 1.1 Background Material on Power Systems:
+subsections:
+- 1.1a Introduction to Power Systems
+- 1.1b Preview of Course Topics
+- 1.1c Review of Fundamental Concepts in Electric Power Systems
+
+- Section: 1.2 6.061 Course Notes:
+subsections:
+- 1.2a Course Overview
+- 1.2b Course Objectives
+- 1.2c Course Materials
+
+- Chapter 2: Complex Power, Polyphase Systems:
+sections:
+- Section: 2.1 Power Definitions:
+subsections:
+- 2.1a Real Power and Reactive Power
+- 2.1b Power Factor
+- 2.1c Power Triangle
+
+- Section: 2.2 Complex Power Calculation:
+subsections:
+- 2.2a Complex Power Formulation
+- 2.2b Power Calculation Examples
+- 2.2c Power Calculation Exercises
+
+- Section: 2.3 Polyphase Systems Overview:
+subsections:
+- 2.3a Three-Phase Power Systems
+- 2.3b Polyphase Power Measurement
+- 2.3c Polyphase System Advantages
+
+- Chapter 3: Transmission Lines, Sending and Receiving End Circle Diagrams:
+sections:
+- Section: 3.1 Transmission Line Basics:
+subsections:
+- 3.1a Transmission Line Parameters
+- 3.1b Transmission Line Models
+- 3.1c Transmission Line Equations
+
+- Section: 3.2 Sending End Circle Diagrams:
+subsections:
+- 3.2a Line Parameters Calculation
+- 3.2b Circle Diagrams for Transmission Line Analysis
+- 3.2c Sending End Circle Diagram Examples
+
+- Section: 3.3 Receiving End Circle Diagrams:
+subsections:
+- 3.3a Receiving End Circle Diagram Concepts
+- 3.3b Receiving End Circle Diagram Calculation
+- 3.3c Receiving End Circle Diagram Applications
+
+- Chapter 4: Transformers, Polyphase Connections, Start Load Flow:
+sections:
+- Section: 4.1 Transformer Basics:
+subsections:
+- 4.1a Transformer Construction and Operation
+- 4.1b Transformer Types and Applications
+- 4.1c Transformer Equivalent Circuit
+
+- Section: 4.2 Polyphase Connections:
+subsections:
+- 4.2a Transformer Connections and Configurations
+- 4.2b Polyphase Transformer Connections
+- 4.2c Polyphase Connection Advantages
+
+- Section: 4.3 Start Load Flow Concepts:
+subsections:
+- 4.3a Load Flow Analysis Introduction
+- 4.3b Load Flow Calculation Steps
+- 4.3c Load Flow Analysis Applications
+
+- Chapter 5: Load Flow Problem, Setup, Matrices:
+sections:
+- Section: 5.1 Load Flow Problem Overview:
+subsections:
+- 5.1a Power Flow Equations
+- 5.1b Bus Classification
+- 5.1c Data Requirements for Load Flow Analysis
+
+- Section: 5.2 Load Flow Setup:
+subsections:
+- 5.2a Formulation of Load Flow Equations
+- 5.2b Load Flow Solution Methods
+- 5.2c Load Flow Setup Examples
+
+- Section: 5.3 Load Flow Matrices:
+subsections:
+- 5.3a Bus Admittance and Impedance Matrices
+- 5.3b Matrix Formulation in Load Flow Analysis
+- 5.3c Matrix Manipulation Techniques in Load Flow Analysis
+
+- Chapter 6: Newton Raphson Method, Decoupled Load Flow:
+sections:
+- Section: 6.1 Newton Raphson Method:
+subsections:
+- 6.1a Newton Raphson Load Flow Algorithm
+- 6.1b Jacobian Matrix Calculation
+- 6.1c Load Flow Convergence Criteria
+
+- Section: 6.2 Decoupled Load Flow:
+subsections:
+- 6.2a Decoupled Load Flow Analysis
+- 6.2b Decoupled Load Flow Solution Techniques
+- 6.2c Decoupled Load Flow Advantages and Limitations
+
+- Chapter 7: Basics of Synchronous Machines:
+sections:
+- Section: 7.1 Synchronous Machine Fundamentals:
+subsections:
+- 7.1a Synchronous Machine Construction and Operation
+- 7.1b Synchronous Machine Equivalent Circuit
+- 7.1c Synchronous Machine Parameters
+
+- Section: 7.2 Synchronous Generator Models:
+subsections:
+- 7.2a Synchronous Generator Models and Characteristics
+- 7.2b Synchronous Generator Operation
+- 7.2c Synchronous Generator Applications
+
+- Chapter 8: Machine Operation, Electromechanical Dynamics:
+sections:
+- Section: 8.1 Synchronous Machine Operation:
+subsections:
+- 8.1a Synchronous Machine Operating Conditions
+- 8.1b Power-Angle Characteristics
+- 8.1c Synchronous Machine Stability
+
+- Section: 8.2 Electromechanical Dynamics:
+subsections:
+- 8.2a Electromechanical Oscillations
+- 8.2b Swing Equation
+- 8.2c Electromechanical Dynamics Analysis Techniques
+
+- Chapter 9: Voltage Regulator, Power System Stabilizer:
+sections:
+- Section: 9.1 Voltage Regulator Principles:
+subsections:
+- 9.1a Voltage Regulation Methods
+- 9.1b Voltage Regulator Types and Control Strategies
+- 9.1c Voltage Regulator Applications
+
+- Section: 9.2 Power System Stabilizer Basics:
+subsections:
+- 9.2a Power System Stability Enhancement Techniques
+- 9.2b Power System Stabilizer Design
+- 9.2c Power System Damping Control
+
+- Chapter 10: Continued Discussion of Small Signal Behavior:
+sections:
+- Section: 10.1 Small Signal Stability Analysis:
+subsections:
+- 10.1a Small Signal Stability Concepts
+- 10.1b Eigenvalue Analysis
+- 10.1c Modal Analysis
+
+- Section: 10.2 Small Signal Models:
+subsections:
+- 10.2a Small Signal Models for Power System Components
+- 10.2b Small Signal Model Analysis Techniques
+- 10.2c Small Signal Model Applications
+
+- Chapter 11: Generation Costs:
+sections:
+- Section: 11.1 Cost of Generation Analysis:
+subsections:
+- 11.1a Generation Cost Components
+- 11.1b Economic Dispatch Analysis
+- 11.1c Economic Considerations in Power System Operation
+
+- Section: 11.2 Economic Considerations:
+subsections:
+- 11.2a Cost Minimization Techniques in Power Generation
+- 11.2b Economic Considerations in Power System Planning
+- 11.2c Economic Considerations in Power System Operation
+
+- Chapter 12: Economic Dispatch:
+sections:
+- Section: 12.1 Economic Dispatch Basics:
+subsections:
+- 12.1a Economic Dispatch Problem Formulation
+- 12.1b Economic Dispatch Solution Methods
+- 12.1c Economic Dispatch with Transmission Constraints
+
+- Section: 12.2 Optimization Techniques:
+subsections:
+- 12.2a Optimization Techniques for Economic Dispatch
+- 12.2b Optimization Algorithm Selection
+- 12.2c Optimization Algorithm Implementation
+
+- Chapter 13: Optimal Dispatch:
+sections:
+- Section: 13.1 Optimal Dispatch Concepts:
+subsections:
+- 13.1a Optimal Dispatch Problem Formulation
+- 13.1b Optimal Dispatch Solution Techniques
+- 13.1c Optimal Dispatch with Security Constraints
+
+- Section: 13.2 Optimization Algorithms:
+subsections:
+- 13.2a Optimization Algorithms for Optimal Dispatch
+- 13.2b Optimization Algorithm Selection for Optimal Dispatch
+- 13.2c Optimization Algorithm Implementation for Optimal Dispatch
+
+- Chapter 14: Symmetrical Components:
+sections:
+- Section: 14.1 Symmetrical Components Theory:
+subsections:
+- 14.1a Symmetrical Components Transformation
+- 14.1b Sequence Impedances Calculation
+- 14.1c Fault Analysis Methods using Symmetrical Components
+
+- Section: 14.2 Fault Analysis Techniques:
+subsections:
+- 14.2a Fault Analysis Techniques Overview
+- 14.2b Fault Analysis Techniques Implementation
+- 14.2c Fault Analysis Techniques Applications
+
+- Chapter 15: Modeling of Faults:
+sections:
+- Section: 15.1 Fault Modeling Overview:
+subsections:
+- 15.1a Fault Types and Characteristics
+- 15.1b Fault Impedance Calculation
+- 15.1c Fault Analysis Techniques
+
+- Section: 15.2 Fault Analysis Methods:
+subsections:
+- 15.2a Fault Analysis Methods Overview
+- 15.2b Fault Analysis Methods Implementation
+- 15.2c Fault Analysis Methods Applications
+
+- Chapter 16: System Protection: Relaying:
+sections:
+- Section: 16.1 Power System Protection Basics:
+subsections:
+- 16.1a Power System Protection Requirements
+- 16.1b Protective Relay Types and Principles
+- 16.1c Protection Schemes and Coordination
+
+- Section: 16.2 Relay Operation Principles:
+subsections:
+- 16.2a Relay Setting and Coordination Techniques
+- 16.2b Relay Operation Principles Overview
+- 16.2c Relay Operation Principles Applications
+
+- Chapter 17: Slack:
+sections:
+- Section: 17.1 Slack Bus Definition:
+subsections:
+- 17.1a Definition and Role of Slack Bus
+- 17.1b Slack Bus Analysis in Power Flow Studies
+- 17.1c Slack Bus Control and Optimization Techniques
+
+- Section: 17.2 Slack Bus Analysis:
+subsections:
+- 17.2a Slack Bus Analysis Techniques
+- 17.2b Slack Bus Analysis Implementation
+- 17.2c Slack Bus Analysis Applications
+
+- Chapter 18: Project Presentations:
+sections:
+- Section: 18.1 Presentation Guidelines:
+subsections:
+- 18.1a Effective Presentation Techniques
+- 18.1b Class Project Selection and Execution
+- 18.1c Project Examples and Case Studies
+
+- Section: 18.2 Class Project Examples:
+subsections:
+- 18.2a Class Project Examples Overview
+- 18.2b Class Project Examples Analysis
+- 18.2c Class Project Examples Applications
+
+- Chapter 19: Power System Analysis Techniques:
+sections:
+- Section: 19.1 Power System Analysis Techniques Overview:
+subsections:
+- 19.1a Power System Analysis Techniques
+- 19.1b Power System Analysis Techniques Implementation
+- 19.1c Power System Analysis Techniques Applications
+
+- Section: 19.2 Power System Analysis Techniques Implementation:
+subsections:
+- 19.2a Power System Analysis Techniques Implementation Overview
+- 19.2b Power System Analysis Techniques Implementation Steps
+- 19.2c Power System Analysis Techniques Implementation Applications
+
+- Chapter 20: Power System Analysis Techniques Applications:
+sections:
+- Section: 20.1 Power System Analysis Techniques Applications Overview:
+subsections:
+- 20.1a Power System Analysis Techniques Applications
+- 20.1b Power System Analysis Techniques Applications Analysis
+- 20.1c Power System Analysis Techniques Applications Case Studies
+
+- Section: 20.2 Power System Analysis Techniques Applications Case Studies:
+subsections:
+- 20.2a Power System Analysis Techniques Applications Case Studies Overview
+- 20.2b Power System Analysis Techniques Applications Case Studies Analysis
+- 20.2c Power System Analysis Techniques Applications Case Studies Discussion

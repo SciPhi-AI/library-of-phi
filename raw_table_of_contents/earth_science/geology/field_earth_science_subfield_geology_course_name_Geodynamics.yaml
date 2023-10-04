@@ -1,0 +1,177 @@
+textbook:
+  'Geodynamics: A Comprehensive Guide to Understanding Earth''s Dynamic Processes":':
+    chapters:
+    - '- Chapter 1: Introduction to Geodynamics:':
+        sections:
+        - '- Section: 1.1 Course Overview:':
+            subsections:
+            - 1.1a Introduction to Geodynamics
+            - 1.1b Importance of Geodynamics
+            - 1.1c Scope of the Course
+    - '- Chapter 2: Stress and Strain:':
+        sections:
+        - '- Section: 2.1 Stress:':
+            subsections:
+            - 2.1a Definition of Stress
+            - 2.1b Types of Stress
+            - 2.1c Stress Measurement Techniques
+        - '- Section: 2.2 Different Representations of Stress:':
+            subsections:
+            - 2.2a Stress Tensor
+            - 2.2b Principal Stresses
+            - 2.2c Stress Invariants
+        - '- Section: 2.3 Tectonic Stress:':
+            subsections:
+            - 2.3a Causes of Tectonic Stress
+            - 2.3b Measurement of Tectonic Stress
+            - 2.3c Effects of Tectonic Stress
+        - "- Section: 2.4 Changing Coordinate Systems and Mohr\u2019s Circle:":
+            subsections:
+            - 2.4a Coordinate Transformation
+            - 2.4b Mohr's Circle for Stress
+            - 2.4c Applications of Mohr's Circle
+        - '- Section: 2.5 Stress Variations in the Crust:':
+            subsections:
+            - 2.5a Vertical Stress Variation
+            - 2.5b Horizontal Stress Variation
+            - 2.5c Factors Affecting Stress Variation
+    - '- Chapter 3: Finite Strain and Elasticity:':
+        sections:
+        - '- Section: 3.1 Strain:':
+            subsections:
+            - 3.1a Definition of Strain
+            - 3.1b Types of Strain
+            - 3.1c Strain Measurement Techniques
+        - '- Section: 3.2 Measuring Strain:':
+            subsections:
+            - 3.2a Strain Gauges
+            - 3.2b Optical Methods
+            - 3.2c Geodetic Methods
+        - "- Section: 3.3 Mohr\u2019s Circle for Strain:":
+            subsections:
+            - 3.3a Construction of Mohr's Circle for Strain
+            - 3.3b Interpretation of Mohr's Circle for Strain
+            - 3.3c Applications of Mohr's Circle for Strain
+        - '- Section: 3.4 Finite Strain - Motivation:':
+            subsections:
+            - 3.4a Importance of Studying Finite Strain
+            - 3.4b Finite Strain in Geology
+            - 3.4c Finite Strain in Engineering
+        - '- Section: 3.5 Introduction to Constitutive Equations and Elasticity:':
+            subsections:
+            - 3.5a Definition of Constitutive Equations
+            - 3.5b Elasticity and Hooke's Law
+            - 3.5c Applications of Elasticity
+        - '- Section: 3.6 Elasticity:':
+            subsections:
+            - 3.6a Elastic Deformation
+            - 3.6b Elastic Moduli
+            - 3.6c Elastic Waves
+        - '- Section: 3.7 More Special Cases of Elasticity:':
+            subsections:
+            - 3.7a Isotropic Elasticity
+            - 3.7b Anisotropic Elasticity
+            - 3.7c Nonlinear Elasticity
+    - '- Chapter 4: Dislocation and Earthquake Cycle:':
+        sections:
+        - '- Section: 4.1 Simple Example: Uniaxial Strain:':
+            subsections:
+            - 4.1a Uniaxial Strain Definition
+            - 4.1b Uniaxial Strain Measurement
+            - 4.1c Uniaxial Strain in Geodynamics
+        - '- Section: 4.2 Special Cases:':
+            subsections:
+            - 4.2a Pure Shear
+            - 4.2b Simple Shear
+            - 4.2c Irrotational Strain
+        - '- Section: 4.3 Dislocation in Elastic Halfspace Model of the Earthquake Cycle:':
+            subsections:
+            - 4.3a Theory of Dislocation
+            - 4.3b Dislocation and Earthquakes
+            - 4.3c Earthquake Cycle Model
+        - '- Section: 4.4 Stress and Strain from a Screw Dislocation:':
+            subsections:
+            - 4.4a Screw Dislocation Definition
+            - 4.4b Stress Field of a Screw Dislocation
+            - 4.4c Strain Field of a Screw Dislocation
+    - '- Chapter 5: Plate Tectonics:':
+        sections:
+        - '- Section: 5.1 Plates:':
+            subsections:
+            - 5.1a Definition of Tectonic Plates
+            - 5.1b Plate Boundaries
+            - 5.1c Plate Tectonics Theory
+        - '- Section: 5.2 Plate Movements:':
+            subsections:
+            - 5.2a Plate Driving Forces
+            - 5.2b Plate Motion Measurement
+            - 5.2c Effects of Plate Movements
+        - '- Section: 5.3 Plate Interactions:':
+            subsections:
+            - 5.3a Convergent Boundaries
+            - 5.3b Divergent Boundaries
+            - 5.3c Transform Boundaries
+    - '- Chapter 6: Fluids in Geodynamics:':
+        sections:
+        - '- Section: 6.1 Fluids:':
+            subsections:
+            - 6.1a Definition of Fluids in Geodynamics
+            - 6.1b Fluid Properties
+            - 6.1c Fluid Behavior
+        - '- Section: 6.2 Fluid Dynamics:':
+            subsections:
+            - 6.2a Fluid Flow Concepts
+            - 6.2b Fluid Flow Equations
+            - 6.2c Fluid Flow in Geodynamics
+        - '- Section: 6.3 Navier Stokes Equation:':
+            subsections:
+            - 6.3a Derivation of Navier Stokes Equation
+            - 6.3b Applications of Navier Stokes Equation
+            - 6.3c Navier Stokes Equation in Geodynamics
+        - '- Section: 6.4 The Rayleigh - Taylor Instability:':
+            subsections:
+            - 6.4a Definition of Rayleigh - Taylor Instability
+            - 6.4b Causes of Rayleigh - Taylor Instability
+            - 6.4c Effects of Rayleigh - Taylor Instability
+        - '- Section: 6.5 The Stream Function and Postglacial Rebound:':
+            subsections:
+            - 6.5a Definition of Stream Function
+            - 6.5b Stream Function in Geodynamics
+            - 6.5c Postglacial Rebound
+        - '- Section: 6.6 Corner Flow:':
+            subsections:
+            - 6.6a Definition of Corner Flow
+            - 6.6b Causes of Corner Flow
+            - 6.6c Effects of Corner Flow
+        - '- Section: 6.7 Flow in Porous Media:':
+            subsections:
+            - 6.7a Definition of Porous Media
+            - 6.7b Darcy's Law
+            - 6.7c Flow in Porous Media in Geodynamics
+        - '- Section: 6.8 Time Dependent Porous Flow:':
+            subsections:
+            - 6.8a Definition of Time Dependent Porous Flow
+            - 6.8b Causes of Time Dependent Porous Flow
+            - 6.8c Effects of Time Dependent Porous Flow
+    - '- Chapter 7: Additional Topics:':
+        sections:
+        - '- Section: 7.1 [Topic 1]:':
+            subsections:
+            - 7.1a [Subtopic 1]
+            - 7.1b [Subtopic 2]
+            - 7.1c [Subtopic 3]
+        - '- Section: 7.2 [Topic 2]:':
+            subsections:
+            - 7.2a [Subtopic 4]
+            - 7.2b [Subtopic 5]
+            - 7.2c [Subtopic 6]
+        - '- Section: 7.3 [Topic 3]:':
+            subsections:
+            - 7.3a [Subtopic 7]
+            - 7.3b [Subtopic 8]
+            - 7.3c [Subtopic 9]
+        - '- Section: 7.4 [Topic 4]:':
+            subsections:
+            - 7.4a [Subtopic 10]
+            - 7.4b [Subtopic 11]
+            - 7.4c [Subtopic 12]

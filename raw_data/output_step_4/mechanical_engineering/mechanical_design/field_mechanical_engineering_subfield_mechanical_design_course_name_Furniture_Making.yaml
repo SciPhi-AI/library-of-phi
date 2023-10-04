@@ -1,0 +1,478 @@
+textbook:
+  'Furniture Making: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Furniture Making:':
+        sections:
+        - '- Section: 1.1 Wood Types and Properties:':
+            subsections:
+            - 1.1a Hardwoods
+            - 1.1b Softwoods
+            - 1.1c Engineered Woods
+            - 1.1d Wood Grains and Textures
+        - '- Section: 1.2 Tools and Equipment:':
+            subsections:
+            - 1.2a Hand Tools
+            - 1.2b Power Tools
+            - 1.2c Specialty Tools
+            - 1.2d Maintenance and Care
+        - '- Section: 1.3 Safety Precautions:':
+            subsections:
+            - 1.3a Personal Protective Equipment
+            - 1.3b Safe Tool Usage
+            - 1.3c Fire Safety
+            - 1.3d Workshop Cleanliness
+        - '- Section: 1.4 Setting Up a Workshop:':
+            subsections:
+            - 1.4a Space Requirements
+            - 1.4b Tool Organization
+            - 1.4c Lighting and Ventilation
+            - 1.4d Workshop Safety
+    - '- Chapter 2: Joinery Techniques:':
+        sections:
+        - '- Section: 2.1 Mortise and Tenon Joints:':
+            subsections:
+            - 2.1a Basic Mortise and Tenon
+            - 2.1b Haunched Mortise and Tenon
+            - 2.1c Through Mortise and Tenon
+            - 2.1d Twin Mortise and Tenon
+        - '- Section: 2.2 Dovetail Joints:':
+            subsections:
+            - 2.2a Through Dovetail
+            - 2.2b Half-Blind Dovetail
+            - 2.2c Sliding Dovetail
+            - 2.2d Secret Mitered Dovetail
+        - '- Section: 2.3 Box Joints:':
+            subsections:
+            - 2.3a Basic Box Joint
+            - 2.3b Corner Box Joint
+            - 2.3c Center Box Joint
+            - 2.3d Dovetail Box Joint
+        - '- Section: 2.4 Finger Joints:':
+            subsections:
+            - 2.4a Basic Finger Joint
+            - 2.4b Mitered Finger Joint
+            - 2.4c Box Finger Joint
+            - 2.4d Decorative Finger Joint
+    - '- Chapter 3: Woodworking Techniques:':
+        sections:
+        - '- Section: 3.1 Planing and Leveling:':
+            subsections:
+            - 3.1a Hand Planing
+            - 3.1b Machine Planing
+            - 3.1c Jointing
+            - 3.1d Surface Preparation
+        - '- Section: 3.2 Contouring Surfaces:':
+            subsections:
+            - 3.2a Hand Carving
+            - 3.2b Router Contouring
+            - 3.2c CNC Milling
+            - 3.2d Sanding and Finishing
+        - '- Section: 3.3 Wood Bending:':
+            subsections:
+            - 3.3a Steam Bending
+            - 3.3b Laminated Bending
+            - 3.3c Kerf-cut Bending
+            - 3.3d Hot Pipe Bending
+        - '- Section: 3.4 CNC Milling:':
+            subsections:
+            - 3.4a Introduction to CNC Milling
+            - 3.4b Designing for CNC
+            - 3.4c CNC Toolpaths
+            - 3.4d Finishing CNC Projects
+    - '- Chapter 4: Routing and Shaping:':
+        sections:
+        - '- Section: 4.1 Basic Routing Techniques:':
+            subsections:
+            - 4.1a Edge Routing
+            - 4.1b Dado Routing
+            - 4.1c Template Routing
+            - 4.1d Freehand Routing
+        - '- Section: 4.2 Joinery Router Techniques:':
+            subsections:
+            - 4.2a Router Dovetails
+            - 4.2b Router Mortise and Tenon
+            - 4.2c Router Box Joints
+            - 4.2d Router Finger Joints
+        - '- Section: 4.3 Carving and Sculpting:':
+            subsections:
+            - 4.3a Hand Carving
+            - 4.3b Power Carving
+            - 4.3c Relief Carving
+            - 4.3d Sculptural Carving
+        - '- Section: 4.4 Marquetry and Inlay:':
+            subsections:
+            - 4.4a Basic Marquetry
+            - 4.4b Advanced Marquetry
+            - 4.4c Basic Inlay
+            - 4.4d Advanced Inlay
+    - '- Chapter 5: Furniture Design:':
+        sections:
+        - '- Section: 5.1 Sketching and Drawing:':
+            subsections:
+            - 5.1a Hand Sketching
+            - 5.1b CAD Drawing
+            - 5.1c 3D Modeling
+            - 5.1d Rendering and Visualization
+        - '- Section: 5.2 Understanding Proportions:':
+            subsections:
+            - 5.2a Basic Proportions
+            - 5.2b Golden Ratio
+            - 5.2c Scale Models
+            - 5.2d Ergonomics and Human Factors
+        - '- Section: 5.3 Material Selection:':
+            subsections:
+            - 5.3a Wood Selection
+            - 5.3b Hardware Selection
+            - 5.3c Finish Selection
+            - 5.3d Material Sustainability
+        - '- Section: 5.4 Function and Ergonomics:':
+            subsections:
+            - 5.4a Seating Ergonomics
+            - 5.4b Table and Desk Ergonomics
+            - 5.4c Storage Ergonomics
+            - 5.4d Accessibility Considerations
+    - '- Chapter 6: Designing for Different Spaces:':
+        sections:
+        - '- Section: 6.1 Living Room Furniture:':
+            subsections:
+            - 6.1a Sofas and Chairs
+            - 6.1b Coffee and End Tables
+            - 6.1c Entertainment Centers
+            - 6.1d Bookshelves and Cabinets
+        - '- Section: 6.2 Dining Room Furniture:':
+            subsections:
+            - 6.2a Dining Tables
+            - 6.2b Dining Chairs
+            - 6.2c Sideboards and Buffets
+            - 6.2d China Cabinets
+        - '- Section: 6.3 Bedroom Furniture:':
+            subsections:
+            - 6.3a Beds and Headboards
+            - 6.3b Dressers and Chests
+            - 6.3c Nightstands
+            - 6.3d Wardrobes and Armoires
+        - '- Section: 6.4 Office Furniture:':
+            subsections:
+            - 6.4a Desks
+            - 6.4b Office Chairs
+            - 6.4c Bookcases
+            - 6.4d Filing Cabinets
+    - '- Chapter 7: Designing for Different Styles:':
+        sections:
+        - '- Section: 7.1 Traditional Furniture:':
+            subsections:
+            - 7.1a Colonial Style
+            - 7.1b Victorian Style
+            - 7.1c Shaker Style
+            - 7.1d Mission Style
+        - '- Section: 7.2 Modern Furniture:':
+            subsections:
+            - 7.2a Mid-Century Modern
+            - 7.2b Scandinavian Modern
+            - 7.2c Industrial Modern
+            - 7.2d Minimalist Modern
+        - '- Section: 7.3 Rustic Furniture:':
+            subsections:
+            - 7.3a Farmhouse Style
+            - 7.3b Log Cabin Style
+            - 7.3c Coastal Style
+            - 7.3d Southwestern Style
+        - '- Section: 7.4 Eclectic Furniture:':
+            subsections:
+            - 7.4a Bohemian Style
+            - 7.4b Retro Style
+            - 7.4c Global Style
+            - 7.4d Art Deco Style
+    - '- Chapter 8: Designing for Sustainability:':
+        sections:
+        - '- Section: 8.1 Sustainable Materials:':
+            subsections:
+            - 8.1a Reclaimed Wood
+            - 8.1b Bamboo
+            - 8.1c Recycled Metal
+            - 8.1d Eco-Friendly Finishes
+        - '- Section: 8.2 Energy-Efficient Manufacturing:':
+            subsections:
+            - 8.2a Hand Tools
+            - 8.2b Energy-Efficient Power Tools
+            - 8.2c Solar-Powered Workshops
+            - 8.2d Waste Reduction and Recycling
+        - '- Section: 8.3 Sustainable Design Principles:':
+            subsections:
+            - 8.3a Durability and Longevity
+            - 8.3b Modularity and Adaptability
+            - 8.3c Minimalism and Efficiency
+            - 8.3d End-of-Life Considerations
+        - '- Section: 8.4 Certifications and Standards:':
+            subsections:
+            - 8.4a FSC Certification
+            - 8.4b GreenGuard Certification
+            - 8.4c LEED Certification
+            - 8.4d Cradle to Cradle Certification
+    - '- Chapter 9: Finishing and Surface Treatment:':
+        sections:
+        - '- Section: 9.1 Sanding and Smoothing:':
+            subsections:
+            - 9.1a Hand Sanding
+            - 9.1b Power Sanding
+            - 9.1c Wet Sanding
+            - 9.1d Sanding Curves and Contours
+        - '- Section: 9.2 Staining and Coloring:':
+            subsections:
+            - 9.2a Wood Stains
+            - 9.2b Dye Stains
+            - 9.2c Bleaching Wood
+            - 9.2d Ebonizing and Other Color Effects
+        - '- Section: 9.3 Varnishing and Lacquering:':
+            subsections:
+            - 9.3a Brush-On Varnishes
+            - 9.3b Spray-On Lacquers
+            - 9.3c French Polishing
+            - 9.3d Oil Finishes
+        - '- Section: 9.4 Polishing and Waxing:':
+            subsections:
+            - 9.4a Hand Polishing
+            - 9.4b Machine Polishing
+            - 9.4c Wax Finishes
+            - 9.4d Buffing and Burnishing
+    - '- Chapter 10: Distressing Techniques:':
+        sections:
+        - '- Section: 10.1 Basic Distressing:':
+            subsections:
+            - 10.1a Hand Distressing
+            - 10.1b Power Tool Distressing
+            - 10.1c Chemical Distressing
+            - 10.1d Weathering and Aging
+        - '- Section: 10.2 Spray Finishing:':
+            subsections:
+            - 10.2a Spray Guns and Equipment
+            - 10.2b Spray Booth Setup
+            - 10.2c Spray Techniques
+            - 10.2d Troubleshooting Spray Finishes
+        - '- Section: 10.3 French Polishing:':
+            subsections:
+            - 10.3a Materials and Preparation
+            - 10.3b Applying the Shellac
+            - 10.3c Sanding and Smoothing
+            - 10.3d Final Polishing and Care
+        - '- Section: 10.4 Gilding and Leafing:':
+            subsections:
+            - 10.4a Materials and Preparation
+            - 10.4b Applying the Leaf
+            - 10.4c Burnishing and Sealing
+            - 10.4d Care and Maintenance
+    - '- Chapter 11: Basic Furniture Projects:':
+        sections:
+        - '- Section: 11.1 Pencil Box:':
+            subsections:
+            - 11.1a Design and Materials
+            - 11.1b Cutting and Assembly
+            - 11.1c Finishing and Detailing
+            - 11.1d Final Assembly and Care
+        - '- Section: 11.2 Side Table:':
+            subsections:
+            - 11.2a Design and Materials
+            - 11.2b Cutting and Assembly
+            - 11.2c Finishing and Detailing
+            - 11.2d Final Assembly and Care
+        - '- Section: 11.3 Bookshelf:':
+            subsections:
+            - 11.3a Design and Materials
+            - 11.3b Cutting and Assembly
+            - 11.3c Finishing and Detailing
+            - 11.3d Final Assembly and Care
+        - '- Section: 11.4 Coffee Table:':
+            subsections:
+            - 11.4a Design and Materials
+            - 11.4b Cutting and Assembly
+            - 11.4c Finishing and Detailing
+            - 11.4d Final Assembly and Care
+    - '- Chapter 12: Chair:':
+        sections:
+        - '- Section: 12.1 Design and Materials:':
+            subsections:
+            - 12.1a Sketching and Planning
+            - 12.1b Material Selection
+            - 12.1c Cutting List
+            - 12.1d Hardware and Accessories
+        - '- Section: 12.2 Cutting and Assembly:':
+            subsections:
+            - 12.2a Cutting the Parts
+            - 12.2b Assembling the Frame
+            - 12.2c Attaching the Seat
+            - 12.2d Final Assembly
+        - '- Section: 12.3 Finishing and Detailing:':
+            subsections:
+            - 12.3a Sanding and Preparing
+            - 12.3b Staining or Painting
+            - 12.3c Varnishing or Lacquering
+            - 12.3d Detailing and Accessories
+        - '- Section: 12.4 Final Assembly and Care:':
+            subsections:
+            - 12.4a Assembling the Finished Parts
+            - 12.4b Checking for Stability
+            - 12.4c Applying Final Finishes
+            - 12.4d Care and Maintenance
+    - '- Chapter 13: Stool:':
+        sections:
+        - '- Section: 13.1 Design and Materials:':
+            subsections:
+            - 13.1a Sketching and Planning
+            - 13.1b Material Selection
+            - 13.1c Cutting List
+            - 13.1d Hardware and Accessories
+        - '- Section: 13.2 Cutting and Assembly:':
+            subsections:
+            - 13.2a Cutting the Parts
+            - 13.2b Assembling the Frame
+            - 13.2c Attaching the Seat
+            - 13.2d Final Assembly
+        - '- Section: 13.3 Finishing and Detailing:':
+            subsections:
+            - 13.3a Sanding and Preparing
+            - 13.3b Staining or Painting
+            - 13.3c Varnishing or Lacquering
+            - 13.3d Detailing and Accessories
+        - '- Section: 13.4 Final Assembly and Care:':
+            subsections:
+            - 13.4a Assembling the Finished Parts
+            - 13.4b Checking for Stability
+            - 13.4c Applying Final Finishes
+            - 13.4d Care and Maintenance
+    - '- Chapter 14: Bench:':
+        sections:
+        - '- Section: 14.1 Design and Materials:':
+            subsections:
+            - 14.1a Sketching and Planning
+            - 14.1b Material Selection
+            - 14.1c Cutting List
+            - 14.1d Hardware and Accessories
+        - '- Section: 14.2 Cutting and Assembly:':
+            subsections:
+            - 14.2a Cutting the Parts
+            - 14.2b Assembling the Frame
+            - 14.2c Attaching the Seat
+            - 14.2d Final Assembly
+        - '- Section: 14.3 Finishing and Detailing:':
+            subsections:
+            - 14.3a Sanding and Preparing
+            - 14.3b Staining or Painting
+            - 14.3c Varnishing or Lacquering
+            - 14.3d Detailing and Accessories
+        - '- Section: 14.4 Final Assembly and Care:':
+            subsections:
+            - 14.4a Assembling the Finished Parts
+            - 14.4b Checking for Stability
+            - 14.4c Applying Final Finishes
+            - 14.4d Care and Maintenance
+    - '- Chapter 15: Cabinet:':
+        sections:
+        - '- Section: 15.1 Design and Materials:':
+            subsections:
+            - 15.1a Sketching and Planning
+            - 15.1b Material Selection
+            - 15.1c Cutting List
+            - 15.1d Hardware and Accessories
+        - '- Section: 15.2 Cutting and Assembly:':
+            subsections:
+            - 15.2a Cutting the Parts
+            - 15.2b Assembling the Frame
+            - 15.2c Attaching the Doors and Drawers
+            - 15.2d Final Assembly
+        - '- Section: 15.3 Finishing and Detailing:':
+            subsections:
+            - 15.3a Sanding and Preparing
+            - 15.3b Staining or Painting
+            - 15.3c Varnishing or Lacquering
+            - 15.3d Detailing and Accessories
+        - '- Section: 15.4 Final Assembly and Care:':
+            subsections:
+            - 15.4a Assembling the Finished Parts
+            - 15.4b Checking for Stability
+            - 15.4c Applying Final Finishes
+            - 15.4d Care and Maintenance
+    - '- Chapter 16: Serving Tray:':
+        sections:
+        - '- Section: 16.1 Design and Materials:':
+            subsections:
+            - 16.1a Sketching and Planning
+            - 16.1b Material Selection
+            - 16.1c Cutting List
+            - 16.1d Hardware and Accessories
+        - '- Section: 16.2 Cutting and Assembly:':
+            subsections:
+            - 16.2a Cutting the Parts
+            - 16.2b Assembling the Frame
+            - 16.2c Attaching the Handles
+            - 16.2d Final Assembly
+        - '- Section: 16.3 Finishing and Detailing:':
+            subsections:
+            - 16.3a Sanding and Preparing
+            - 16.3b Staining or Painting
+            - 16.3c Varnishing or Lacquering
+            - 16.3d Detailing and Accessories
+        - '- Section: 16.4 Final Assembly and Care:':
+            subsections:
+            - 16.4a Assembling the Finished Parts
+            - 16.4b Checking for Stability
+            - 16.4c Applying Final Finishes
+            - 16.4d Care and Maintenance
+    - '- Chapter 17: Advanced Furniture Projects:':
+        sections:
+        - '- Section: 17.1 Dining Table:':
+            subsections:
+            - 17.1a Design and Materials
+            - 17.1b Cutting and Assembly
+            - 17.1c Finishing and Detailing
+            - 17.1d Final Assembly and Care
+        - '- Section: 17.2 Bed Frame:':
+            subsections:
+            - 17.2a Design and Materials
+            - 17.2b Cutting and Assembly
+            - 17.2c Finishing and Detailing
+            - 17.2d Final Assembly and Care
+        - '- Section: 17.3 Wardrobe:':
+            subsections:
+            - 17.3a Design and Materials
+            - 17.3b Cutting and Assembly
+            - 17.3c Finishing and Detailing
+            - 17.3d Final Assembly and Care
+        - '- Section: 17.4 Desk:':
+            subsections:
+            - 17.4a Design and Materials
+            - 17.4b Cutting and Assembly
+            - 17.4c Finishing and Detailing
+            - 17.4d Final Assembly and Care
+    - '- Chapter 18: Console Table:':
+        sections:
+        - '- Section: 18.1 Design and Materials:':
+            subsections:
+            - 18.1a Sketching and Planning
+            - 18.1b Material Selection
+            - 18.1c Cutting List
+            - 18.1d Hardware and Accessories
+        - '- Section: 18.2 Cutting and Assembly:':
+            subsections:
+            - 18.2a Cutting the Parts
+            - 18.2b Assembling the Frame
+            - 18.2c Attaching the Top
+            - 18.2d Final Assembly
+        - '- Section: 18.3 Finishing and Detailing:':
+            subsections:
+            - 18.3a Sanding and Preparing
+            - 18.3b Staining or Painting
+            - 18.3c Varnishing or Lacquering
+            - 18.3d Detailing and Accessories
+        - '- Section: 18.4 Final Assembly and Care:':
+            subsections:
+            - 18.4a Assembling the Finished Parts
+            - 18.4b Checking for Stability
+            - 18.4c Applying Final Finishes
+            - 18.4d Care and Maintenance
+    - '- Chapter 19: Entertainment Center:':
+        sections:
+        - '- Section: 19.1 Design and Materials:':
+            subsections:
+            - 19.1a Sketching and Planning
+            - 19.1b Material Selection
+            - '19'

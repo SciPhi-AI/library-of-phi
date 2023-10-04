@@ -1,0 +1,258 @@
+textbook:
+  'Site and Infrastructure Systems Planning: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Site Planning:':
+        sections:
+        - '- Section: 1.1 Site and Landscape Planning Processes:':
+            subsections:
+            - 1.1a Planning Principles
+            - 1.1b Landscape Design
+            - 1.1c Site Analysis
+        - '- Section: 1.2 Site Inventory and Evaluation:':
+            subsections:
+            - 1.2a Site Selection
+            - 1.2b Site Assessment
+            - 1.2c Site Development
+    - '- Chapter 2: Earthwork and Soils:':
+        sections:
+        - '- Section: 2.1 Earthwork and Utilities:':
+            subsections:
+            - 2.1a Earthwork Planning
+            - 2.1b Utility Planning
+            - 2.1c Earthwork Execution
+        - '- Section: 2.2 Storm Water: Best Management Practices:':
+            subsections:
+            - 2.2a Storm Water Management
+            - 2.2b Drainage Systems
+            - 2.2c Water Conservation
+    - '- Chapter 3: Sites Around Wetlands and Water Features:':
+        sections:
+        - '- Section: 3.1 Traffic and Circulation:':
+            subsections:
+            - 3.1a Traffic Management
+            - 3.1b Circulation Systems
+            - 3.1c Traffic Flow Optimization
+    - '- Chapter 4: Graphic Communications:':
+        sections:
+        - '- Section: 4.1 Lecture Notes:':
+            subsections:
+            - 4.1a Graphic Design Principles
+            - 4.1b Visual Communication
+            - 4.1c Digital Tools for Graphic Communication
+    - '- Chapter 5: Assignments:':
+        sections:
+        - '- Section: 5.1 Readings:':
+            subsections:
+            - 5.1a Reading Techniques
+            - 5.1b Critical Reading
+            - 5.1c Reading Comprehension
+        - '- Section: 5.2 Future Scenarios Assignment:':
+            subsections:
+            - 5.2a Scenario Planning
+            - 5.2b Future Forecasting
+            - 5.2c Scenario Analysis
+        - '- Section: 5.3 Landscape Units and Site Physiography Mapping and Transects Assignment:':
+            subsections:
+            - 5.3a Landscape Mapping
+            - 5.3b Site Physiography
+            - 5.3c Transect Planning
+        - '- Section: 5.4 Alternatives and New Approaches to Site and Infrastructure Technologies Assignment:':
+            subsections:
+            - 5.4a Innovative Site Technologies
+            - 5.4b Infrastructure Technology Trends
+            - 5.4c Technology Integration in Site Planning
+        - '- Section: 5.5 Inventory:':
+            subsections:
+            - 5.5a Inventory Management
+            - 5.5b Inventory Analysis
+            - 5.5c Inventory Control
+        - '- Section: 5.6 Technology-Driven Schematic Site Plan Investigation Assignment:':
+            subsections:
+            - 5.6a Site Plan Development
+            - 5.6b Technology in Site Planning
+            - 5.6c Schematic Design
+    - '- Chapter 6: Final Project:':
+        sections:
+        - '- Section: 6.1 Preparations:':
+            subsections:
+            - 6.1a Project Planning
+            - 6.1b Project Management
+            - 6.1c Project Execution
+        - '- Section: 6.2 Final Site Plans and Typologies:':
+            subsections:
+            - 6.2a Site Plan Finalization
+            - 6.2b Site Typologies
+            - 6.2c Site Plan Presentation
+    - '- Chapter 7: Projects:':
+        sections:
+        - '- Section: 7.1 Studio Development:':
+            subsections:
+            - 7.1a Studio Planning
+            - 7.1b Studio Design
+            - 7.1c Studio Execution
+        - '- Section: 7.2 Neighborhood Scale Synthesis:':
+            subsections:
+            - 7.2a Neighborhood Planning
+            - 7.2b Neighborhood Design
+            - 7.2c Neighborhood Development
+        - '- Section: 7.3 Programmatic Elements:':
+            subsections:
+            - 7.3a Program Planning
+            - 7.3b Program Design
+            - 7.3c Program Execution
+        - '- Section: 7.4 Housing Selection:':
+            subsections:
+            - 7.4a Housing Types
+            - 7.4b Housing Design
+            - 7.4c Housing Development
+    - '- Chapter 8: Wrap Up and Debriefing:':
+        sections:
+        - '- Section: 8.1 Calendar:':
+            subsections:
+            - 8.1a Project Timeline
+            - 8.1b Time Management
+            - 8.1c Project Scheduling
+    - '- Chapter 9: Site Analysis and Design:':
+        sections:
+        - '- Section: 9.1 Site Analysis:':
+            subsections:
+            - 9.1a Site Survey
+            - 9.1b Site Evaluation
+            - 9.1c Site Feasibility
+        - '- Section: 9.2 Site Design:':
+            subsections:
+            - 9.2a Design Principles
+            - 9.2b Design Development
+            - 9.2c Design Execution
+    - '- Chapter 10: Infrastructure Planning:':
+        sections:
+        - '- Section: 10.1 Infrastructure Systems:':
+            subsections:
+            - 10.1a Infrastructure Components
+            - 10.1b Infrastructure Design
+            - 10.1c Infrastructure Development
+        - '- Section: 10.2 Utility Planning:':
+            subsections:
+            - 10.2a Utility Systems
+            - 10.2b Utility Design
+            - 10.2c Utility Development
+    - '- Chapter 11: Landscape Planning:':
+        sections:
+        - '- Section: 11.1 Landscape Design:':
+            subsections:
+            - 11.1a Landscape Elements
+            - 11.1b Landscape Styles
+            - 11.1c Landscape Implementation
+        - '- Section: 11.2 Planting Design:':
+            subsections:
+            - 11.2a Plant Selection
+            - 11.2b Planting Plan
+            - 11.2c Planting Implementation
+    - '- Chapter 12: Transportation Planning:':
+        sections:
+        - '- Section: 12.1 Traffic Management:':
+            subsections:
+            - 12.1a Traffic Flow
+            - 12.1b Traffic Control
+            - 12.1c Traffic Safety
+        - '- Section: 12.2 Circulation Systems:':
+            subsections:
+            - 12.2a Pedestrian Circulation
+            - 12.2b Vehicular Circulation
+            - 12.2c Public Transit
+    - '- Chapter 13: Environmental Planning:':
+        sections:
+        - '- Section: 13.1 Environmental Impact Assessment:':
+            subsections:
+            - 13.1a Environmental Factors
+            - 13.1b Impact Analysis
+            - 13.1c Mitigation Strategies
+        - '- Section: 13.2 Sustainable Design:':
+            subsections:
+            - 13.2a Sustainability Principles
+            - 13.2b Green Design
+            - 13.2c Sustainable Implementation
+    - '- Chapter 14: Urban Design:':
+        sections:
+        - '- Section: 14.1 Urban Form:':
+            subsections:
+            - 14.1a Urban Morphology
+            - 14.1b Urban Typologies
+            - 14.1c Urban Development
+        - '- Section: 14.2 Public Spaces:':
+            subsections:
+            - 14.2a Public Space Design
+            - 14.2b Public Space Management
+            - 14.2c Public Space Activation
+    - '- Chapter 15: Community Planning:':
+        sections:
+        - '- Section: 15.1 Community Engagement:':
+            subsections:
+            - 15.1a Public Participation
+            - 15.1b Stakeholder Engagement
+            - 15.1c Community Feedback
+        - '- Section: 15.2 Social Equity in Planning:':
+            subsections:
+            - 15.2a Equity Principles
+            - 15.2b Inclusive Design
+            - 15.2c Equitable Implementation
+    - '- Chapter 16: Regional Planning:':
+        sections:
+        - '- Section: 16.1 Regional Analysis:':
+            subsections:
+            - 16.1a Regional Characteristics
+            - 16.1b Regional Challenges
+            - 16.1c Regional Opportunities
+        - '- Section: 16.2 Regional Strategies:':
+            subsections:
+            - 16.2a Strategic Planning
+            - 16.2b Regional Development
+            - 16.2c Regional Coordination
+    - '- Chapter 17: Planning Law and Policy:':
+        sections:
+        - '- Section: 17.1 Planning Legislation:':
+            subsections:
+            - 17.1a Legal Framework
+            - 17.1b Planning Regulations
+            - 17.1c Legal Compliance
+        - '- Section: 17.2 Planning Policy:':
+            subsections:
+            - 17.2a Policy Development
+            - 17.2b Policy Implementation
+            - 17.2c Policy Evaluation
+    - '- Chapter 18: Planning Ethics:':
+        sections:
+        - '- Section: 18.1 Ethical Principles:':
+            subsections:
+            - 18.1a Professional Ethics
+            - 18.1b Ethical Dilemmas
+            - 18.1c Ethical Decision-Making
+        - '- Section: 18.2 Planning Practice:':
+            subsections:
+            - 18.2a Best Practices
+            - 18.2b Professional Standards
+            - 18.2c Continuous Improvement
+    - '- Chapter 19: Planning Research:':
+        sections:
+        - '- Section: 19.1 Research Methods:':
+            subsections:
+            - 19.1a Quantitative Research
+            - 19.1b Qualitative Research
+            - 19.1c Mixed Methods Research
+        - '- Section: 19.2 Data Analysis:':
+            subsections:
+            - 19.2a Data Collection
+            - 19.2b Data Processing
+            - 19.2c Data Interpretation
+    - '- Chapter 20: Future of Planning:':
+        sections:
+        - '- Section: 20.1 Emerging Trends:':
+            subsections:
+            - 20.1a Technological Innovations
+            - 20.1b Climate Change Adaptation
+            - 20.1c Urban Resilience
+        - '- Section: 20.2 Future Scenarios:':
+            subsections:
+            - 20.2a Scenario Planning
+            - 20.2b Future Forecasting
+            - 20.2c Strategic Foresight

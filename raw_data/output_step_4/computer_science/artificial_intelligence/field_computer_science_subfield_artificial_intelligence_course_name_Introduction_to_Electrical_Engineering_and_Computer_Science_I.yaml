@@ -1,0 +1,426 @@
+textbook:
+  'Textbook for Introduction to Electrical Engineering and Computer Science I":':
+    chapters:
+    - '- Chapter 1: Introduction to Electrical Engineering:':
+        sections:
+        - '- Section: 1.1 History of Electrical Engineering:':
+            subsections:
+            - 1.1a Early Developments
+            - 1.1b Modern Electrical Engineering
+            - 1.1c Future Trends
+        - '- Section: 1.2 Basic Electrical Concepts:':
+            subsections:
+            - 1.2a Voltage, Current, and Resistance
+            - 1.2b Power and Energy
+            - 1.2c Circuit Elements
+        - '- Section: 1.3 Ohm''s Law:':
+            subsections:
+            - 1.3a Statement and Explanation
+            - 1.3b Applications of Ohm's Law
+            - 1.3c Limitations and Exceptions
+        - '- Section: 1.4 Kirchhoff''s Laws:':
+            subsections:
+            - 1.4a Kirchhoff's Voltage Law
+            - 1.4b Kirchhoff's Current Law
+            - 1.4c Applications in Circuit Analysis
+    - '- Chapter 2: Introduction to Computer Science:':
+        sections:
+        - '- Section: 2.1 Basics of Programming:':
+            subsections:
+            - 2.1a Programming Languages
+            - 2.1b Variables and Data Types
+            - 2.1c Control Structures
+        - '- Section: 2.2 Algorithms and Data Structures:':
+            subsections:
+            - 2.2a Definition and Importance of Algorithms
+            - 2.2b Common Data Structures
+            - 2.2c Algorithm Efficiency and Complexity
+        - '- Section: 2.3 Object-Oriented Programming:':
+            subsections:
+            - 2.3a Classes and Objects
+            - 2.3b Inheritance and Polymorphism
+            - 2.3c Encapsulation and Abstraction
+        - '- Section: 2.4 Software Development Process:':
+            subsections:
+            - 2.4a Software Development Life Cycle
+            - 2.4b Agile Methodologies
+            - 2.4c Testing and Debugging
+    - '- Chapter 3: Digital Logic and Circuits:':
+        sections:
+        - '- Section: 3.1 Boolean Algebra:':
+            subsections:
+            - 3.1a Basic Operations
+            - 3.1b Laws of Boolean Algebra
+            - 3.1c Applications in Digital Logic
+        - '- Section: 3.2 Logic Gates:':
+            subsections:
+            - 3.2a Basic Logic Gates
+            - 3.2b Universal Gates
+            - 3.2c Truth Tables and Logic Diagrams
+        - '- Section: 3.3 Combinational Circuits:':
+            subsections:
+            - 3.3a Adders and Subtractors
+            - 3.3b Multiplexers and Demultiplexers
+            - 3.3c Encoders and Decoders
+        - '- Section: 3.4 Sequential Circuits:':
+            subsections:
+            - 3.4a Latches and Flip-Flops
+            - 3.4b Counters and Registers
+            - 3.4c Memory Units
+    - '- Chapter 4: Signals and Systems:':
+        sections:
+        - '- Section: 4.1 Continuous-time Signals:':
+            subsections:
+            - 4.1a Basic Signal Types
+            - 4.1b Signal Operations
+            - 4.1c Signal Properties
+        - '- Section: 4.2 Discrete-time Signals:':
+            subsections:
+            - 4.2a Sampling and Quantization
+            - 4.2b Z-Transform
+            - 4.2c Discrete Fourier Transform
+        - '- Section: 4.3 Fourier Series:':
+            subsections:
+            - 4.3a Periodic Signals and Harmonics
+            - 4.3b Fourier Series Representation
+            - 4.3c Applications in Signal Processing
+        - '- Section: 4.4 Fourier Transform:':
+            subsections:
+            - 4.4a Continuous-Time Fourier Transform
+            - 4.4b Properties and Theorems
+            - 4.4c Applications in Communication Systems
+    - '- Chapter 5: Introduction to Microcontrollers:':
+        sections:
+        - '- Section: 5.1 Microcontroller Architecture:':
+            subsections:
+            - 5.1a CPU and Memory
+            - 5.1b Input/Output Ports
+            - 5.1c Interrupts and Timers
+        - '- Section: 5.2 Assembly Language Programming:':
+            subsections:
+            - 5.2a Basic Syntax and Operations
+            - 5.2b Control Structures and Subroutines
+            - 5.2c Debugging and Optimization
+        - '- Section: 5.3 Input/Output Interfacing:':
+            subsections:
+            - 5.3a Digital I/O
+            - 5.3b Analog I/O
+            - 5.3c Serial and Parallel Communication
+        - '- Section: 5.4 Interrupts and Timers:':
+            subsections:
+            - 5.4a Interrupt Handling
+            - 5.4b Timer Configuration
+            - 5.4c Applications in Real-Time Systems
+    - '- Chapter 6: Introduction to Digital Systems Design:':
+        sections:
+        - '- Section: 6.1 Combinational Logic Design:':
+            subsections:
+            - 6.1a Logic Minimization Techniques
+            - 6.1b Design of Arithmetic Circuits
+            - 6.1c Design of Decoders and Multiplexers
+        - '- Section: 6.2 Sequential Logic Design:':
+            subsections:
+            - 6.2a Design of Flip-Flops and Latches
+            - 6.2b Design of Counters and Registers
+            - 6.2c Design of Finite State Machines
+        - '- Section: 6.3 Finite State Machines:':
+            subsections:
+            - 6.3a State Diagrams and State Tables
+            - 6.3b Mealy and Moore Machines
+            - 6.3c Applications in Digital Systems Design
+        - '- Section: 6.4 Hardware Description Language (HDL):':
+            subsections:
+            - 6.4a Introduction to Verilog and VHDL
+            - 6.4b Structural and Behavioral Modeling
+            - 6.4c Simulation and Synthesis
+    - '- Chapter 7: Introduction to Computer Networks:':
+        sections:
+        - '- Section: 7.1 Network Layers and Protocols:':
+            subsections:
+            - 7.1a OSI Model
+            - 7.1b TCP/IP Model
+            - 7.1c Common Network Protocols
+        - '- Section: 7.2 TCP/IP Model:':
+            subsections:
+            - 7.2a TCP and UDP
+            - 7.2b IP and ICMP
+            - 7.2c DNS and DHCP
+        - '- Section: 7.3 Routing and Switching:':
+            subsections:
+            - 7.3a Routing Algorithms
+            - 7.3b Switching Techniques
+            - 7.3c Network Devices
+        - '- Section: 7.4 Network Security:':
+            subsections:
+            - 7.4a Cryptography and Encryption
+            - 7.4b Firewalls and Intrusion Detection Systems
+            - 7.4c Secure Network Protocols
+    - '- Chapter 8: Introduction to Operating Systems:':
+        sections:
+        - '- Section: 8.1 Operating System Concepts:':
+            subsections:
+            - 8.1a Process and Thread Management
+            - 8.1b Memory Management
+            - 8.1c File Systems
+        - '- Section: 8.2 Process Management:':
+            subsections:
+            - 8.2a Process States and Transitions
+            - 8.2b Process Scheduling
+            - 8.2c Interprocess Communication
+        - '- Section: 8.3 Memory Management:':
+            subsections:
+            - 8.3a Physical and Virtual Memory
+            - 8.3b Paging and Segmentation
+            - 8.3c Memory Allocation Strategies
+        - '- Section: 8.4 File Systems:':
+            subsections:
+            - 8.4a File Attributes and Operations
+            - 8.4b Directory Structure
+            - 8.4c Disk Scheduling Algorithms
+    - '- Chapter 9: Introduction to Data Structures and Algorithms:':
+        sections:
+        - '- Section: 9.1 Arrays and Linked Lists:':
+            subsections:
+            - 9.1a Array Operations and Applications
+            - 9.1b Linked List Types and Operations
+            - 9.1c Comparison of Arrays and Linked Lists
+        - '- Section: 9.2 Stacks and Queues:':
+            subsections:
+            - 9.2a Stack Operations and Applications
+            - 9.2b Queue Types and Operations
+            - 9.2c Applications in Algorithm Design
+        - '- Section: 9.3 Trees and Graphs:':
+            subsections:
+            - 9.3a Tree Types and Operations
+            - 9.3b Graph Types and Representations
+            - 9.3c Tree and Graph Traversal Algorithms
+        - '- Section: 9.4 Sorting and Searching Algorithms:':
+            subsections:
+            - 9.4a Common Sorting Algorithms
+            - 9.4b Common Searching Algorithms
+            - 9.4c Time and Space Complexity Analysis
+    - '- Chapter 10: Introduction to Artificial Intelligence:':
+        sections:
+        - '- Section: 10.1 Search Algorithms:':
+            subsections:
+            - 10.1a Uninformed Search Strategies
+            - 10.1b Informed Search Strategies
+            - 10.1c Search Algorithms in AI
+        - '- Section: 10.2 Machine Learning:':
+            subsections:
+            - 10.2a Supervised Learning
+            - 10.2b Unsupervised Learning
+            - 10.2c Reinforcement Learning
+        - '- Section: 10.3 Neural Networks:':
+            subsections:
+            - 10.3a Perceptrons and Multilayer Perceptrons
+            - 10.3b Backpropagation Algorithm
+            - 10.3c Convolutional Neural Networks
+        - '- Section: 10.4 Natural Language Processing:':
+            subsections:
+            - 10.4a Text Processing and Tokenization
+            - 10.4b Part-of-Speech Tagging
+            - 10.4c Named Entity Recognition
+    - '- Chapter 11: Introduction to Robotics:':
+        sections:
+        - '- Section: 11.1 Basics of Robotics:':
+            subsections:
+            - 11.1a History and Evolution of Robotics
+            - 11.1b Types of Robots
+            - 11.1c Applications of Robotics
+        - '- Section: 11.2 Robot Kinematics:':
+            subsections:
+            - 11.2a Forward Kinematics
+            - 11.2b Inverse Kinematics
+            - 11.2c Jacobians and Differential Motion
+        - '- Section: 11.3 Robot Dynamics:':
+            subsections:
+            - 11.3a Newton-Euler Formulation
+            - 11.3b Lagrange-Euler Formulation
+            - 11.3c Trajectory Planning
+        - '- Section: 11.4 Robot Control:':
+            subsections:
+            - 11.4a PID Control
+            - 11.4b Force Control
+            - 11.4c Visual Servoing
+    - '- Chapter 12: Introduction to Computer Vision:':
+        sections:
+        - '- Section: 12.1 Basics of Image Processing:':
+            subsections:
+            - 12.1a Digital Image Fundamentals
+            - 12.1b Image Enhancement Techniques
+            - 12.1c Image Segmentation
+        - '- Section: 12.2 Feature Extraction:':
+            subsections:
+            - 12.2a Edge Detection
+            - 12.2b Corner Detection
+            - 12.2c Blob Detection
+        - '- Section: 12.3 Object Recognition:':
+            subsections:
+            - 12.3a Template Matching
+            - 12.3b Feature-Based Methods
+            - 12.3c Machine Learning Approaches
+        - '- Section: 12.4 3D Vision:':
+            subsections:
+            - 12.4a Stereo Vision
+            - 12.4b Structure from Motion
+            - 12.4c Depth Sensing
+    - '- Chapter 13: Introduction to Cybersecurity:':
+        sections:
+        - '- Section: 13.1 Basics of Cybersecurity:':
+            subsections:
+            - 13.1a Types of Cyber Threats
+            - 13.1b Security Policies and Procedures
+            - 13.1c Risk Management
+        - '- Section: 13.2 Cryptography:':
+            subsections:
+            - 13.2a Symmetric Key Cryptography
+            - 13.2b Public Key Cryptography
+            - 13.2c Hash Functions and Digital Signatures
+        - '- Section: 13.3 Network Security:':
+            subsections:
+            - 13.3a Firewalls and Intrusion Detection Systems
+            - 13.3b Secure Network Protocols
+            - 13.3c Wireless Network Security
+        - '- Section: 13.4 Software Security:':
+            subsections:
+            - 13.4a Secure Coding Practices
+            - 13.4b Software Vulnerabilities and Exploits
+            - 13.4c Malware Analysis and Defense
+    - '- Chapter 14: Introduction to Quantum Computing:':
+        sections:
+        - '- Section: 14.1 Basics of Quantum Computing:':
+            subsections:
+            - 14.1a Quantum Bits and Quantum States
+            - 14.1b Quantum Gates and Circuits
+            - 14.1c Quantum Entanglement and Superposition
+        - '- Section: 14.2 Quantum Algorithms:':
+            subsections:
+            - 14.2a Quantum Fourier Transform
+            - 14.2b Shor's Algorithm
+            - 14.2c Grover's Algorithm
+        - '- Section: 14.3 Quantum Error Correction:':
+            subsections:
+            - 14.3a Quantum Noise and Decoherence
+            - 14.3b Quantum Error Correction Codes
+            - 14.3c Fault-Tolerant Quantum Computing
+        - '- Section: 14.4 Quantum Cryptography:':
+            subsections:
+            - 14.4a Quantum Key Distribution
+            - 14.4b Quantum Cryptanalysis
+            - 14.4c Post-Quantum Cryptography
+    - '- Chapter 15: Introduction to Cloud Computing:':
+        sections:
+        - '- Section: 15.1 Basics of Cloud Computing:':
+            subsections:
+            - 15.1a Cloud Service Models
+            - 15.1b Cloud Deployment Models
+            - 15.1c Benefits and Challenges of Cloud Computing
+        - '- Section: 15.2 Cloud Infrastructure:':
+            subsections:
+            - 15.2a Virtualization
+            - 15.2b Cloud Storage
+            - 15.2c Cloud Networking
+        - '- Section: 15.3 Cloud Security:':
+            subsections:
+            - 15.3a Data Security and Privacy
+            - 15.3b Cloud Security Architecture
+            - 15.3c Compliance and Legal Issues
+        - '- Section: 15.4 Cloud Services:':
+            subsections:
+            - 15.4a Amazon Web Services
+            - 15.4b Google Cloud Platform
+            - 15.4c Microsoft Azure
+    - '- Chapter 16: Introduction to Data Science:':
+        sections:
+        - '- Section: 16.1 Basics of Data Science:':
+            subsections:
+            - 16.1a Data Collection and Cleaning
+            - 16.1b Data Visualization
+            - 16.1c Statistical Analysis
+        - '- Section: 16.2 Machine Learning in Data Science:':
+            subsections:
+            - 16.2a Supervised Learning
+            - 16.2b Unsupervised Learning
+            - 16.2c Evaluation Metrics
+        - '- Section: 16.3 Big Data:':
+            subsections:
+            - 16.3a Big Data Technologies
+            - 16.3b Distributed Computing
+            - 16.3c Data Warehousing
+        - '- Section: 16.4 Data Privacy and Ethics:':
+            subsections:
+            - 16.4a Data Anonymization
+            - 16.4b Privacy-Preserving Data Mining
+            - 16.4c Ethical Issues in Data Science
+    - '- Chapter 17: Introduction to Internet of Things:':
+        sections:
+        - '- Section: 17.1 Basics of Internet of Things:':
+            subsections:
+            - 17.1a IoT Architecture
+            - 17.1b IoT Devices and Sensors
+            - 17.1c IoT Applications
+        - '- Section: 17.2 IoT Communication:':
+            subsections:
+            - 17.2a IoT Networking Protocols
+            - 17.2b IoT Data Protocols
+            - 17.2c IoT Security
+        - '- Section: 17.3 IoT Data Management:':
+            subsections:
+            - 17.3a IoT Data Collection
+            - 17.3b IoT Data Storage
+            - 17.3c IoT Data Analysis
+        - '- Section: 17.4 IoT Security:':
+            subsections:
+            - 17.4a IoT Security Challenges
+            - 17.4b IoT Security Solutions
+            - 17.4c IoT Privacy
+    - '- Chapter 18: Introduction to Software Engineering:':
+        sections:
+        - '- Section: 18.1 Basics of Software Engineering:':
+            subsections:
+            - 18.1a Software Development Life Cycle
+            - 18.1b Software Requirements Analysis
+            - 18.1c Software Design and Implementation
+        - '- Section: 18.2 Software Testing:':
+            subsections:
+            - 18.2a Types of Software Testing
+            - 18.2b Test Case Design Techniques
+            - 18.2c Software Debugging
+        - '- Section: 18.3 Software Maintenance:':
+            subsections:
+            - 18.3a Types of Software Maintenance
+            - 18.3b Software Reengineering
+            - 18.3c Software Configuration Management
+        - '- Section: 18.4 Software Project Management:':
+            subsections:
+            - 18.4a Project Planning and Scheduling
+            - 18.4b Risk Management
+            - 18.4c Quality Assurance
+    - '- Chapter 19: Introduction to Human-Computer Interaction:':
+        sections:
+        - '- Section: 19.1 Basics of Human-Computer Interaction:':
+            subsections:
+            - 19.1a User Interface Design Principles
+            - 19.1b Usability Evaluation Methods
+            - 19.1c User Experience Design
+        - '- Section: 19.2 Interaction Design:':
+            subsections:
+            - 19.2a Interaction Styles
+            - 19.2b Interaction Design Process
+            - 19.2c Interaction Design Patterns
+        - '- Section: 19.3 User Interface Prototyping:':
+            subsections:
+            - 19.3a Low-Fidelity Prototyping
+            - 19.3b High-Fidelity Prototyping
+            - 19.3c User Testing
+        - '- Section: 19.4 Accessibility:':
+            subsections:
+            - 19.4a Accessibility Guidelines
+            - 19.4b Assistive Technologies
+            - 19.4c Inclusive Design
+    - '- Chapter 20: Introduction to Bioinformatics:':
+        sections:
+        - '- Section: 20.1 Basics of Bioinformatics:':
+            subsections:
+            - 20.1a Biological D

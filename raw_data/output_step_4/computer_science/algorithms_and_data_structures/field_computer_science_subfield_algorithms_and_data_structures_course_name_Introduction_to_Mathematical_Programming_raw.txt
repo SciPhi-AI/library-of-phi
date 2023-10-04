@@ -1,0 +1,223 @@
+textbook: 
+"Textbook for Introduction to Mathematical Programming":
+
+chapters:
+- Chapter 1: Formulations:
+sections:
+- Section: 1.1 Chapter 1:
+subsections:
+- 1.1a Introduction to Mathematical Programming
+- 1.1b Mathematical Programming Models
+- 1.1c Problem Formulation
+
+- Chapter 2: Geometry:
+sections:
+- Section: 2.1 Geometry I:
+subsections:
+- 2.1a Linear Programming
+- 2.1b Convex Optimization
+- 2.1c Nonlinear Optimization
+- Section: 2.2 Geometry II:
+subsections:
+- 2.2a Integer and Combinatorial Optimization
+- 2.2b Dynamic Programming
+- 2.2c Network Optimization
+- Section: 2.3 Geometry III:
+subsections:
+- 2.3a Robust Optimization
+- 2.3b Stochastic Optimization
+- 2.3c Heuristic Methods
+
+- Chapter 3: Simplex method:
+sections:
+- Section: 3.1 Simplex method I:
+subsections:
+- 3.1a Multi-Objective Optimization
+- 3.1b Optimization Software
+- 3.1c Optimization Applications
+- Section: 3.2 Simplex method II:
+subsections:
+- 3.2a Introduction to Mathematical Programming
+- 3.2b Mathematical Programming Models
+- 3.2c Problem Formulation
+- Section: 3.3 Simplex method III:
+subsections:
+- 3.3a Linear Programming
+- 3.3b Convex Optimization
+- 3.3c Nonlinear Optimization
+- Section: 3.4 Simplex method IV:
+subsections:
+- 3.4a Integer and Combinatorial Optimization
+- 3.4b Dynamic Programming
+- 3.4c Network Optimization
+
+- Chapter 4: Duality theory:
+sections:
+- Section: 4.1 Duality theory I:
+subsections:
+- 4.1a Robust Optimization
+- 4.1b Stochastic Optimization
+- 4.1c Heuristic Methods
+- Section: 4.2 Duality theory II:
+subsections:
+- 4.2a Multi-Objective Optimization
+- 4.2b Optimization Software
+- 4.2c Optimization Applications
+- Section: 4.3 Duality theory III:
+subsections:
+- 4.3a Introduction to Mathematical Programming
+- 4.3b Mathematical Programming Models
+- 4.3c Problem Formulation
+
+- Chapter 5: Sensitivity analysis:
+sections:
+- Section: 5.1 Sensitivity analysis:
+subsections:
+- 5.1a Linear Programming
+- 5.1b Convex Optimization
+- 5.1c Nonlinear Optimization
+
+- Chapter 6: Robust optimization:
+sections:
+- Section: 6.1 Robust optimization:
+subsections:
+- 6.1a Integer and Combinatorial Optimization
+- 6.1b Dynamic Programming
+- 6.1c Network Optimization
+
+- Chapter 7: Large scale optimization:
+sections:
+- Section: 7.1 Large scale optimization I:
+subsections:
+- 7.1a Robust Optimization
+- 7.1b Stochastic Optimization
+- 7.1c Heuristic Methods
+- Section: 7.2 Large scale optimization II:
+subsections:
+- 7.2a Multi-Objective Optimization
+- 7.2b Optimization Software
+- 7.2c Optimization Applications
+
+- Chapter 8: Network flows:
+sections:
+- Section: 8.1 Network flows I:
+subsections:
+- 8.1a Introduction to Mathematical Programming
+- 8.1b Mathematical Programming Models
+- 8.1c Problem Formulation
+- Section: 8.2 Network flows II:
+subsections:
+- 8.2a Linear Programming
+- 8.2b Convex Optimization
+- 8.2c Nonlinear Optimization
+
+- Chapter 9: The Ellipsoid method:
+sections:
+- Section: 9.1 The Ellipsoid method:
+subsections:
+- 9.1a Integer and Combinatorial Optimization
+- 9.1b Dynamic Programming
+- 9.1c Network Optimization
+
+- Chapter 10: Problems with exponentially many constraints:
+sections:
+- Section: 10.1 Problems with exponentially many constraints:
+subsections:
+- 10.1a Robust Optimization
+- 10.1b Stochastic Optimization
+- 10.1c Heuristic Methods
+
+- Chapter 11: Interior point methods:
+sections:
+- Section: 11.1 Interior point methods I:
+subsections:
+- 11.1a Multi-Objective Optimization
+- 11.1b Optimization Software
+- 11.1c Optimization Applications
+- Section: 11.2 Interior point methods II:
+subsections:
+- 11.2a Introduction to Mathematical Programming
+- 11.2b Mathematical Programming Models
+- 11.2c Problem Formulation
+- Section: 11.3 Interior point methods III:
+subsections:
+- 11.3a Linear Programming
+- 11.3b Convex Optimization
+- 11.3c Nonlinear Optimization
+
+- Chapter 12: Semidefinite optimization:
+sections:
+- Section: 12.1 Semidefinite optimization:
+subsections:
+- 12.1a Integer and Combinatorial Optimization
+- 12.1b Dynamic Programming
+- 12.1c Network Optimization
+
+- Chapter 13: Discrete optimization:
+sections:
+- Section: 13.1 Discrete optimization I:
+subsections:
+- 13.1a Robust Optimization
+- 13.1b Stochastic Optimization
+- 13.1c Heuristic Methods
+- Section: 13.2 Discrete optimization II:
+subsections:
+- 13.2a Multi-Objective Optimization
+- 13.2b Optimization Software
+- 13.2c Optimization Applications
+
+- Chapter 14: Formulations II:
+sections:
+- Section: 14.1 Chapter 14:
+subsections:
+- 14.1a Introduction to Mathematical Programming
+- 14.1b Mathematical Programming Models
+- 14.1c Problem Formulation
+
+- Chapter 15: Geometry IV:
+sections:
+- Section: 15.1 Geometry IV:
+subsections:
+- 15.1a Linear Programming
+- 15.1b Convex Optimization
+- 15.1c Nonlinear Optimization
+
+- Chapter 16: Simplex method V:
+sections:
+- Section: 16.1 Simplex method V:
+subsections:
+- 16.1a Integer and Combinatorial Optimization
+- 16.1b Dynamic Programming
+- 16.1c Network Optimization
+
+- Chapter 17: Duality theory IV:
+sections:
+- Section: 17.1 Duality theory IV:
+subsections:
+- 17.1a Robust Optimization
+- 17.1b Stochastic Optimization
+- 17.1c Heuristic Methods
+
+- Chapter 18: Sensitivity analysis II:
+sections:
+- Section: 18.1 Sensitivity analysis II:
+subsections:
+- 18.1a Multi-Objective Optimization
+- 18.1b Optimization Software
+- 18.1c Optimization Applications
+
+- Chapter 19: Robust optimization II:
+sections:
+- Section: 19.1 Robust optimization II:
+subsections:
+- 19.1a Introduction to Mathematical Programming
+- 19.1b Mathematical Programming Models
+- 19.1c Problem Formulation
+
+- Chapter 20: Large scale optimization III:
+sections:
+- Section: 20.1 Large scale optimization III:
+subsections:
+- 20.1a Linear Programming
+- 20.1b Convex Optimization
+- 20.1c Nonlinear Optimization

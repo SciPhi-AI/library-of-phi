@@ -1,0 +1,155 @@
+textbook:
+  'Introduction to Ionized Gases":':
+    chapters:
+    - '- Chapter 1: Fundamentals of Plasma Physics:':
+        sections:
+        - '- Section: 1.1 Larmor Motion':
+            subsections: []
+        - '- Section: 1.2 Debye Shielding':
+            subsections: []
+        - '- Section: 1.3 Plasma Frequency':
+            subsections: []
+        - '- Section: 1.4 Plasma Oscillations:':
+            subsections:
+            - 1.4a Langmuir Waves
+            - 1.4b Ion Acoustic Waves
+    - '- Chapter 2: Motion of Charges in Uniform E and B fields:':
+        sections:
+        - '- Section: 2.1 Diamagnetism':
+            subsections: []
+        - '- Section: 2.2 ExB Drift':
+            subsections: []
+        - '- Section: 2.3 Alfven Waves':
+            subsections: []
+        - '- Section: 2.4 Cyclotron Motion:':
+            subsections:
+            - 2.4a Gyroresonance
+            - 2.4b Landau Damping
+    - '- Chapter 3: Effects of an Inhomogeneous Magnetic Field:':
+        sections:
+        - '- Section: 3.1 Inertia and Grad-B Drifts':
+            subsections: []
+        - '- Section: 3.2 Parallel Drifts and Magnetic Mirrors':
+            subsections: []
+        - '- Section: 3.3 Magnetic Reconnection:':
+            subsections:
+            - 3.3a Magnetic Islands
+            - 3.3b Flux Ropes
+    - '- Chapter 4: Relationship between Drifts and the Fluid Picture':
+        sections: []
+    - '- Chapter 5: Time-varying B field:':
+        sections:
+        - '- Section: 5.1 Adiabatic Invariants':
+            subsections: []
+        - '- Section: 5.2 Magnetic Reconnection and Reconnection Rates':
+            subsections: []
+    - '- Chapter 6: Kinetic Theory of Ionized Gases':
+        sections: []
+    - '- Chapter 7: Collision Theory:':
+        sections:
+        - '- Section: 7.1 Energy and Momentum Transfer':
+            subsections: []
+        - '- Section: 7.2 Calculation of Scattering Cross Sections: The Hard Sphere Model and Power-law Potentials':
+            subsections: []
+        - '- Section: 7.3 Coulomb Collision Frequency':
+            subsections: []
+    - '- Chapter 8: Boltzmann''s H-Theorem and Equilibrium Statistical Mechanics:':
+        sections:
+        - '- Section: 8.1 Relationship Between H and S':
+            subsections: []
+        - '- Section: 8.2 Quantum Statistics':
+            subsections: []
+        - '- Section: 8.3 Classical Limit':
+            subsections: []
+        - '- Section: 8.4 Partition Function':
+            subsections: []
+        - '- Section: 8.5 Multi-component Systems':
+            subsections: []
+        - '- Section: 8.6 Translational Partition Function':
+            subsections: []
+    - '- Chapter 9: The Equilibrium Distribution and its Properties:':
+        sections:
+        - '- Section: 9.1 Characteristic Energies and Velocities for a Maxwellian Distribution':
+            subsections: []
+        - '- Section: 9.2 Thermal Equilibrium':
+            subsections: []
+        - '- Section: 9.3 Saha Equation':
+            subsections: []
+    - '- Chapter 10: Moments of the Boltzmann Equation:':
+        sections:
+        - '- Section: 10.1 Mass and Momentum Conservation':
+            subsections: []
+        - '- Section: 10.2 Kinetic Energy Equation':
+            subsections: []
+        - '- Section: 10.3 Heat Flux Equation':
+            subsections: []
+    - '- Chapter 11: Maxwellian Collisions and Electron Energy Equation:':
+        sections:
+        - '- Section: 11.1 Ohm''s Law':
+            subsections: []
+        - '- Section: 11.2 Ambipolar Diffusion':
+            subsections: []
+        - '- Section: 11.3 Energy Equation':
+            subsections: []
+    - '- Chapter 12: Plasma-Wall Interactions:':
+        sections:
+        - '- Section: 12.1 Sheath and Pre-sheath':
+            subsections: []
+        - '- Section: 12.2 Bohm Condition':
+            subsections: []
+        - '- Section: 12.3 Random Particle and Kinetic Energy Flux Across a Plane':
+            subsections: []
+        - '- Section: 12.4 Plasma-Surface Interactions:':
+            subsections:
+            - 12.4a Sputtering
+            - 12.4b Secondary Electron Emission
+            - 12.4c Plasma Etching
+    - '- Chapter 13: Radiation Transport in Ionized Gases':
+        sections: []
+    - '- Chapter 14: Equilibrium Statistical Mechanics and Electronic Partition Function:':
+        sections:
+        - '- Section: 14.1 Ionization Equilibrium':
+            subsections: []
+        - '- Section: 14.2 Free Electrons in Metals':
+            subsections: []
+        - '- Section: 14.3 Black Body Radiation':
+            subsections: []
+        - '- Section: 14.4 Vibrational and Rotational Partition Functions':
+            subsections: []
+        - '- Section: 14.5 Energy Levels in Atoms and Ions':
+            subsections: []
+    - '- Chapter 15: Radiation Transport in a Gas:':
+        sections:
+        - '- Section: 15.1 Equilibrium Distribution':
+            subsections: []
+        - '- Section: 15.2 Transport Equation':
+            subsections: []
+        - '- Section: 15.3 Collisional Operator':
+            subsections: []
+        - '- Section: 15.4 Spectral Lines':
+            subsections: []
+        - '- Section: 15.5 Line-reversal Pyrometer':
+            subsections: []
+    - '- Chapter 16: Semi-thick Plasma Approximation:':
+        sections:
+        - '- Section: 16.1 Line Radiation and Broadening':
+            subsections: []
+        - '- Section: 16.2 Bound-free Radiation':
+            subsections: []
+        - '- Section: 16.3 Bremsstrahlung':
+            subsections: []
+        - '- Section: 16.4 Escape for Resonant Radiation':
+            subsections: []
+        - '- Section: 16.5 Opacity and Optical Depth:':
+            subsections:
+            - 16.5a Thomson Scattering
+            - 16.5b Rayleigh Scattering
+            - 16.5c Absorption and Emission Coefficients
+    - '- Chapter 17: Plasma Diagnostics':
+        sections: []
+    - '- Chapter 18: Plasma Sources and Heating':
+        sections: []
+    - '- Chapter 19: Plasma Applications':
+        sections: []
+    - '- Chapter 20: Plasma Instabilities and Turbulence':
+        sections: []

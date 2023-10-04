@@ -1,0 +1,235 @@
+textbook: 
+"Comprehensive Guide to Principles of Automatic Control":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Why automatic control?:
+subsections:
+- 1.1a Definition and Importance
+- 1.1b History of Automatic Control
+- 1.1c Applications of Automatic Control
+
+- Section: 1.2 Categorization of control systems:
+subsections:
+- 1.2a Open Loop Control Systems
+- 1.2b Closed Loop Control Systems
+- 1.2c Comparison and Use Cases
+
+- Chapter 2: Modeling Principles:
+sections:
+- Section: 2.1 Modeling principles:
+subsections:
+- 2.1a Mathematical Modeling
+- 2.1b Physical Modeling
+- 2.1c Simulation and Testing
+
+- Chapter 3: Block Diagrams and Feedback:
+sections:
+- Section: 3.1 Block diagrams:
+subsections:
+- 3.1a Components of Block Diagrams
+- 3.1b Simplification and Reduction
+- 3.1c Analysis using Block Diagrams
+
+- Section: 3.2 The effect of feedback:
+subsections:
+- 3.2a Positive Feedback
+- 3.2b Negative Feedback
+- 3.2c Stability and Performance
+
+- Chapter 4: Dynamic Response:
+sections:
+- Section: 4.1 Dynamic response of closed-loop systems:
+subsections:
+- 4.1a Time Response Analysis
+- 4.1b Frequency Response Analysis
+- 4.1c Stability Analysis
+
+- Chapter 5: Transient Response and Performance:
+sections:
+- Section: 5.1 Time-domain specifications:
+subsections:
+- 5.1a Rise Time
+- 5.1b Settling Time
+- 5.1c Overshoot and Undershoot
+
+- Chapter 6: Disturbances and Sensitivity:
+sections:
+- Section: 6.1 Effect of noise:
+subsections:
+- 6.1a Noise Sources
+- 6.1b Noise Reduction Techniques
+- 6.1c Noise in Feedback Systems
+
+- Section: 6.2 Steady-state errors:
+subsections:
+- 6.2a Error Analysis
+- 6.2b Error Constants
+- 6.2c Error Reduction Techniques
+
+- Chapter 7: Root Locus Techniques:
+sections:
+- Section: 7.1 The Routh criterion:
+subsections:
+- 7.1a Routh Array
+- 7.1b Stability Analysis
+- 7.1c Limitations and Applications
+
+- Chapter 8: Bode Plots:
+sections:
+- Section: 8.1 Bode plots:
+subsections:
+- 8.1a Construction of Bode Plots
+- 8.1b Interpretation of Bode Plots
+- 8.1c Applications in Control Systems
+
+- Chapter 9: Nyquist Criterion:
+sections:
+- Section: 9.1 The Nyquist stability criterion:
+subsections:
+- 9.1a Nyquist Plot
+- 9.1b Stability Analysis
+- 9.1c Limitations and Applications
+
+- Chapter 10: Gain and Phase Margins:
+sections:
+- Section: 10.1 Stability margins:
+subsections:
+- 10.1a Definition and Importance
+- 10.1b Calculation of Margins
+- 10.1c Applications in Control Systems
+
+- Section: 10.2 Bode gain-phase theorem:
+subsections:
+- 10.2a Statement and Proof
+- 10.2b Implications for Stability
+- 10.2c Applications in Control Systems
+
+- Chapter 11: Bode Design:
+sections:
+- Section: 11.1 Bode compensation:
+subsections:
+- 11.1a Lead Compensation
+- 11.1b Lag Compensation
+- 11.1c Lead-Lag Compensation
+
+- Chapter 12: Digital Control:
+sections:
+- Section: 12.1 Digital control:
+subsections:
+- 12.1a Discrete-Time Control Systems
+- 12.1b Digital Controllers
+- 12.1c Stability Analysis
+
+- Section: 12.2 The z-transform:
+subsections:
+- 12.2a Definition and Properties
+- 12.2b Inverse Z-Transform
+- 12.2c Applications in Digital Control
+
+- Chapter 13: PID Control:
+sections:
+- Section: 13.1 PID control:
+subsections:
+- 13.1a Components of PID Control
+- 13.1b Tuning PID Controllers
+- 13.1c Applications and Limitations
+
+- Chapter 14: Frequency Response Design:
+sections:
+- Section: 14.1 Frequency response design:
+subsections:
+- 14.1a Design Specifications
+- 14.1b Design Techniques
+- 14.1c Case Studies
+
+- Chapter 15: Compensator Design:
+sections:
+- Section: 15.1 Compensator design examples:
+subsections:
+- 15.1a Lead Compensator Design
+- 15.1b Lag Compensator Design
+- 15.1c Lead-Lag Compensator Design
+
+- Section: 15.2 Time delay of ZOH:
+subsections:
+- 15.2a Zero-Order Hold
+- 15.2b Effect on System Response
+- 15.2c Compensation Techniques
+
+- Chapter 16: Discrete Control:
+sections:
+- Section: 16.1 Discrete design:
+subsections:
+- 16.1a Discrete-Time Control Design
+- 16.1b Digital Implementation
+- 16.1c Case Studies
+
+- Chapter 17: Higher Level Control:
+sections:
+- Section: 17.1 Higher harmonic control:
+subsections:
+- 17.1a Harmonic Analysis
+- 17.1b Harmonic Control Techniques
+- 17.1c Applications and Limitations
+
+- Chapter 18: Advanced Control Strategies:
+sections:
+- Section: 18.1 Model Predictive Control:
+subsections:
+- 18.1a Basics of Model Predictive Control
+- 18.1b Design and Implementation
+- 18.1c Applications and Case Studies
+
+- Section: 18.2 Adaptive Control:
+subsections:
+- 18.2a Introduction to Adaptive Control
+- 18.2b Adaptive Control Algorithms
+- 18.2c Applications and Challenges
+
+- Section: 18.3 Robust Control:
+subsections:
+- 18.3a Basics of Robust Control
+- 18.3b Robust Control Design
+- 18.3c Applications and Limitations
+
+- Chapter 19: Control System Analysis:
+sections:
+- Section: 19.1 Stability Analysis:
+subsections:
+- 19.1a Lyapunov Stability
+- 19.1b Bifurcation Analysis
+- 19.1c Chaos in Control Systems
+
+- Section: 19.2 Performance Analysis:
+subsections:
+- 19.2a Performance Metrics
+- 19.2b Performance Evaluation Techniques
+- 19.2c Case Studies
+
+- Section: 19.3 Sensitivity Analysis:
+subsections:
+- 19.3a Sensitivity Functions
+- 19.3b Sensitivity Analysis Techniques
+- 19.3c Applications in Control Systems
+
+- Chapter 20: Control System Design:
+sections:
+- Section: 20.1 Control System Design Process:
+subsections:
+- 20.1a Problem Definition
+- 20.1b Controller Design
+- 20.1c Implementation and Testing
+
+- Section: 20.2 Case Studies:
+subsections:
+- 20.2a Industrial Control System Design
+- 20.2b Automotive Control System Design
+- 20.2c Aerospace Control System Design
+
+- Section: 20.3 Future Trends:
+subsections:
+- 20.3a Emerging Technologies
+- 20.3b Challenges and Opportunities
+- 20.3c Future of Control Systems

@@ -1,0 +1,231 @@
+textbook:
+  'Comprehensive Guide to Computer Algorithms in Systems Engineering":':
+    chapters:
+    - '- Chapter 1: Introduction to Computer Algorithms:':
+        sections:
+        - '- Section: 1.1 Textbooks Assigned:':
+            subsections:
+            - '1.1a Horowitz, Ellis, Sartaj Sahni, and Sanguthevar Rajasekaran. Computer
+              Algorithms / C++. Summit, NJ: Silicon Press, 2007. ISBN: 9780929306421.1-6,
+              8 (most sections)'
+            - '1.1b Cormen, Thomas, Charles Leiserson, Ronald Rivest, and Clifford
+              Stein. Introduction to Algorithms. 2nd ed. Cambridge, MA: MIT Press,
+              2001. ISBN: 9780262032933. None. Use to supplement Horowitz as needed.'
+            - '1.1c Horstmann, Cay. Big Java. 4th ed. New York, NY: Wiley, 2009. ISBN:
+              9780470509487. None. Use as a Java reference.'
+    - '- Chapter 2: Database:':
+        sections:
+        - '- Section: 2.1 Entity-relationship modeling:':
+            subsections: []
+        - '- Section: 2.2 Normalization, SQL basics:':
+            subsections: []
+        - '- Section: 2.3 SQL joins, views, subqueries:':
+            subsections: []
+        - '- Section: 2.4 JDBC:':
+            subsections: []
+    - '- Chapter 3: Algorithms:':
+        sections:
+        - '- Section: 3.1 Analysis and Complexity:':
+            subsections: []
+        - '- Section: 3.2 Stacks, Queues, Trees, and Dictionaries:':
+            subsections: []
+        - '- Section: 3.3 Graphs:':
+            subsections: []
+        - '- Section: 3.4 Heaps and Sets:':
+            subsections: []
+        - '- Section: 3.5 Divide and Conquer:':
+            subsections:
+            - 3.5a Binary search
+            - 3.5b Quicksort
+            - 3.5c Selection
+        - '- Section: 3.6 Greedy Algorithms:':
+            subsections:
+            - 3.6a Knapsack
+            - 3.6b Job sequence
+            - 3.6c Minimum spanning trees
+            - 3.6d Shortest paths
+        - '- Section: 3.7 Quiz 1:':
+            subsections:
+            - 3.7a Principle of optimality and resource allocation
+            - 3.7b Job scheduling and graph/tree generation
+            - 3.7c Knapsack problem and set representation
+            - '3.7d Branch and bound: Backtrack method and knapsack problem'
+            - '3.7e Branch and bound: General method and facility location'
+    - '- Chapter 4: Continuous Constrained Nonlinear Optimization:':
+        sections:
+        - '- Section: 4.1 Network Equilibrium:':
+            subsections: []
+        - '- Section: 4.2 Linear Systems:':
+            subsections: []
+        - '- Section: 4.3 Continuous Unconstrained Nonlinear Optimization:':
+            subsections: []
+        - '- Section: 4.4 Unconstrained Methods:':
+            subsections:
+            - 4.4a Amoeba
+            - 4.4b BFGS
+            - 4.4c Demand model estimation
+        - '- Section: 4.5 Analytic Approximations:':
+            subsections:
+            - 4.5a Network design
+        - '- Section: 4.6 Approximate Queuing Analysis:':
+            subsections: []
+    - '- Chapter 5: Supplemental Materials:':
+        sections:
+        - '- Section: 5.1 Additional textbooks and reference materials:':
+            subsections: []
+        - '- Section: 5.2 Online resources and tutorials:':
+            subsections: []
+        - '- Section: 5.3 Practice problems and exercises:':
+            subsections: []
+    - '- Chapter 6: Case Studies:':
+        sections:
+        - '- Section: 6.1 Real-world applications of computer algorithms in systems engineering:':
+            subsections: []
+        - '- Section: 6.2 Analysis and optimization of complex systems:':
+            subsections: []
+        - '- Section: 6.3 Implementation and performance evaluation:':
+            subsections: []
+    - '- Chapter 7: Advanced Topics:':
+        sections:
+        - '- Section: 7.1 Parallel and distributed algorithms:':
+            subsections: []
+        - '- Section: 7.2 Machine learning algorithms in systems engineering:':
+            subsections: []
+        - '- Section: 7.3 Optimization techniques for large-scale systems:':
+            subsections: []
+        - '- Section: 7.4 Algorithmic game theory in systems engineering:':
+            subsections: []
+        - '- Section: 7.5 Quantum algorithms and computing:':
+            subsections: []
+        - '- Section: 7.6 Emerging trends and future directions in computer algorithms:':
+            subsections: []
+    - '- Chapter 8: Data Structures:':
+        sections:
+        - '- Section: 8.1 Arrays:':
+            subsections: []
+        - '- Section: 8.2 Linked Lists:':
+            subsections: []
+        - '- Section: 8.3 Stacks and Queues:':
+            subsections: []
+        - '- Section: 8.4 Trees:':
+            subsections: []
+    - '- Chapter 9: Sorting and Searching Algorithms:':
+        sections:
+        - '- Section: 9.1 Bubble Sort:':
+            subsections: []
+        - '- Section: 9.2 Quick Sort:':
+            subsections: []
+        - '- Section: 9.3 Merge Sort:':
+            subsections: []
+        - '- Section: 9.4 Binary Search:':
+            subsections: []
+    - '- Chapter 10: Graph Algorithms:':
+        sections:
+        - '- Section: 10.1 Depth-First Search:':
+            subsections: []
+        - '- Section: 10.2 Breadth-First Search:':
+            subsections: []
+        - '- Section: 10.3 Dijkstra''s Algorithm:':
+            subsections: []
+        - '- Section: 10.4 A* Search Algorithm:':
+            subsections: []
+    - '- Chapter 11: Dynamic Programming:':
+        sections:
+        - '- Section: 11.1 Fibonacci Sequence:':
+            subsections: []
+        - '- Section: 11.2 Longest Common Subsequence:':
+            subsections: []
+        - '- Section: 11.3 Knapsack Problem:':
+            subsections: []
+        - '- Section: 11.4 Travelling Salesman Problem:':
+            subsections: []
+    - '- Chapter 12: Backtracking Algorithms:':
+        sections:
+        - '- Section: 12.1 N-Queens Problem:':
+            subsections: []
+        - '- Section: 12.2 Sudoku Solver:':
+            subsections: []
+        - '- Section: 12.3 Rat in a Maze:':
+            subsections: []
+        - '- Section: 12.4 Hamiltonian Cycle:':
+            subsections: []
+    - '- Chapter 13: Greedy Algorithms:':
+        sections:
+        - '- Section: 13.1 Activity Selection Problem:':
+            subsections: []
+        - '- Section: 13.2 Huffman Coding:':
+            subsections: []
+        - '- Section: 13.3 Prim''s Minimum Spanning Tree:':
+            subsections: []
+        - '- Section: 13.4 Kruskal''s Minimum Spanning Tree:':
+            subsections: []
+    - '- Chapter 14: Divide and Conquer Algorithms:':
+        sections:
+        - '- Section: 14.1 Binary Search:':
+            subsections: []
+        - '- Section: 14.2 Quick Sort:':
+            subsections: []
+        - '- Section: 14.3 Merge Sort:':
+            subsections: []
+        - '- Section: 14.4 Strassen''s Matrix Multiplication:':
+            subsections: []
+    - '- Chapter 15: Bit Algorithms:':
+        sections:
+        - '- Section: 15.1 Count Set Bits:':
+            subsections: []
+        - '- Section: 15.2 Find the Missing Number:':
+            subsections: []
+        - '- Section: 15.3 Count Total Set Bits:':
+            subsections: []
+        - '- Section: 15.4 Power of 2:':
+            subsections: []
+    - '- Chapter 16: Recursion:':
+        sections:
+        - '- Section: 16.1 Factorial:':
+            subsections: []
+        - '- Section: 16.2 Fibonacci Series:':
+            subsections: []
+        - '- Section: 16.3 Tower of Hanoi:':
+            subsections: []
+        - '- Section: 16.4 Print All Permutations of a String:':
+            subsections: []
+    - '- Chapter 17: String Algorithms:':
+        sections:
+        - '- Section: 17.1 Reverse a String:':
+            subsections: []
+        - '- Section: 17.2 Check Palindrome:':
+            subsections: []
+        - '- Section: 17.3 Count Vowels and Consonants:':
+            subsections: []
+        - '- Section: 17.4 Remove All Duplicates:':
+            subsections: []
+    - '- Chapter 18: Mathematical Algorithms:':
+        sections:
+        - '- Section: 18.1 Prime Number:':
+            subsections: []
+        - '- Section: 18.2 Armstrong Number:':
+            subsections: []
+        - '- Section: 18.3 Factorial:':
+            subsections: []
+        - '- Section: 18.4 Fibonacci Series:':
+            subsections: []
+    - '- Chapter 19: Array Algorithms:':
+        sections:
+        - '- Section: 19.1 Reverse an Array:':
+            subsections: []
+        - '- Section: 19.2 Find Maximum and Minimum:':
+            subsections: []
+        - '- Section: 19.3 Linear Search:':
+            subsections: []
+        - '- Section: 19.4 Binary Search:':
+            subsections: []
+    - '- Chapter 20: Linked List Algorithms:':
+        sections:
+        - '- Section: 20.1 Insertion of a Node:':
+            subsections: []
+        - '- Section: 20.2 Deletion of a Node:':
+            subsections: []
+        - '- Section: 20.3 Length of a Linked List:':
+            subsections: []
+        - '- Section: 20.4 Search an Element:':
+            subsections: []

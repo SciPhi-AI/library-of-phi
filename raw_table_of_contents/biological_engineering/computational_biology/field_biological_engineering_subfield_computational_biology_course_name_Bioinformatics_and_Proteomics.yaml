@@ -1,0 +1,67 @@
+textbook:
+  'Bioinformatics and Proteomics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course Introduction':
+            subsections: []
+        - '- Section: 1.2 Review of Modern Biology':
+            subsections: []
+    - '- Chapter 2: Abstraction Level 1: Sequence:':
+        sections:
+        - '- Section: 2.1 Introduction to Bioinformatics Laboratory':
+            subsections: []
+        - '- Section: 2.2 Bioinformatics in the Computer Industry':
+            subsections: []
+        - '- Section: 2.3 Sequence Analysis: Motif and Regulation':
+            subsections: []
+        - '- Section: 2.4 Sequence Analysis: Genes and Genome':
+            subsections: []
+        - '- Section: 2.5 Sequence Analysis: Gene Evolution':
+            subsections: []
+    - '- Chapter 3: Abstraction Level 2: Expression:':
+        sections:
+        - '- Section: 3.1 Microarray Expression Data Analysis':
+            subsections: []
+        - '- Section: 3.2 Machine Learning for Gene Expression':
+            subsections: []
+    - '- Chapter 4: Proteomics and Systems theme-based Lab:':
+        sections:
+        - '- Section: 4.1 Proteomics Data Analysis':
+            subsections: []
+        - '- Section: 4.2 Systems Biology Approaches':
+            subsections: []
+    - '- Chapter 5: Student Selected Based on Course Themes:':
+        sections:
+        - '- Section: 5.1 Theme 1: [Topic 1]:':
+            subsections:
+            - 5.1a [Subtopic 1]
+            - 5.1b [Subtopic 2]
+            - 5.1c [Subtopic 3]
+            - 5.1d [Subtopic 4]
+            - 5.1e [Subtopic 5]
+            - 5.1f [Subtopic 6]
+        - '- Section: 5.2 Theme 2: [Topic 2]:':
+            subsections:
+            - 5.2a [Subtopic 1]
+            - 5.2b [Subtopic 2]
+            - 5.2c [Subtopic 3]
+            - 5.2d [Subtopic 4]
+            - 5.2e [Subtopic 5]
+            - 5.2f [Subtopic 6]
+        - '- Section: 5.3 Theme 3: [Topic 3]:':
+            subsections:
+            - 5.3a [Subtopic 1]
+            - 5.3b [Subtopic 2]
+            - 5.3c [Subtopic 3]
+            - 5.3d [Subtopic 4]
+            - 5.3e [Subtopic 5]
+            - 5.3f [Subtopic 6]
+        - '- Section: 5.4 Theme 4: [Topic 4]:':
+            subsections:
+            - 5.4a [Subtopic 1]
+            - 5.4b [Subtopic 2]
+            - 5.4c [Subtopic 3]
+            - 5.4d [Subtopic 4]
+            - 5.4e [Subtopic 5]
+            - 5.4f [Subtopic 6]

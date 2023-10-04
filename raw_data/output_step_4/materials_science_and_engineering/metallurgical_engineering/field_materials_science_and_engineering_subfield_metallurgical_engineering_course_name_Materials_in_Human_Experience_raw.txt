@@ -1,0 +1,163 @@
+textbook: 
+"Materials in Human Experience: A Comprehensive Study of Ancient Metallurgy":
+
+chapters:
+- Chapter 1: Ancient Metallurgy of the New World and the Old World:
+sections:
+- Section: 1.1 Cultures and Materials Properties Compared:
+subsections:
+- 1.1a New World Metallurgy
+- 1.1b Old World Metallurgy
+- 1.1c Comparative Analysis
+
+- Chapter 2: Extractive Metallurgy: Winning Metal from Metallic Ores:
+sections:
+- Section: 2.1 Ancient Andean Smelting Technologies:
+subsections:
+- 2.1a Smelting Techniques
+- 2.1b Ore Selection
+- 2.1c Technological Advancements
+
+- Chapter 3: Smelting Copper Ore: Preparation of Crucible Charge:
+sections:
+- Section: 3.1 Ingot formation:
+subsections:
+- 3.1a Copper Smelting Process
+- 3.1b Crucible Charge Preparation
+- 3.1c Ingot Formation Techniques
+
+- Chapter 4: Andean Sheet Metal Tradition vs. Central/Mesoamerican Casting Tradition: Plastic Deformation in Andean Metalworking Design:
+sections:
+- Section: 4.1 "Color: The Focus of Andean Alloy Development and Surface Enrichment Techniques":
+subsections:
+- 4.1a Andean Sheet Metal Tradition
+- 4.1b Central/Mesoamerican Casting Tradition
+- 4.1c Comparison of Techniques
+
+- Chapter 5: Copper-silver Alloying: Preparation of Sand Moulds and Alloy Metals:
+sections:
+- Section: 5.1 "Color and Planarity: Cultural Significance of Metallic Properties in Andean Cosmology":
+subsections:
+- 5.1a Copper-Silver Alloying Process
+- 5.1b Preparation of Sand Moulds
+- 5.1c Cultural Significance of Alloying
+
+- Chapter 6: The Power of Metal in the Andean World: Bronze vs. Tumbaga:
+sections:
+- Section: 6.1 "Copper-silver Alloying: Preparation of Silver-coated Sheet Metal from Ingot by Plastic Deformation, Annealing, Pickling":
+subsections:
+- 6.1a Bronze in the Andean World
+- 6.1b Tumbaga in the Andean World
+- 6.1c Comparative Analysis
+
+- Chapter 7: Andean Metal Artifacts: Visit to the CMRAE Laboratories:
+sections:
+- Section: 7.1 Field Trip:
+subsections:
+- 7.1a Preparation for the Field Trip
+- 7.1b Observations at the CMRAE Laboratories
+- 7.1c Post-Field Trip Analysis
+
+- Chapter 8: Student Presentations:
+sections:
+- Section: 8.1 Field Trip:
+subsections:
+- 8.1a Preparation for Presentations
+- 8.1b Presentation Guidelines
+- 8.1c Evaluation of Presentations
+
+- Chapter 9: Metallurgy in Ancient Egypt:
+sections:
+- Section: 9.1 Ancient Egyptian Smelting Technologies:
+subsections:
+- 9.1a Smelting Techniques
+- 9.1b Ore Selection
+- 9.1c Technological Advancements
+
+- Chapter 10: Metallurgy in Ancient China:
+sections:
+- Section: 10.1 Ancient Chinese Smelting Technologies:
+subsections:
+- 10.1a Smelting Techniques
+- 10.1b Ore Selection
+- 10.1c Technological Advancements
+
+- Chapter 11: Metallurgy in Ancient India:
+sections:
+- Section: 11.1 Ancient Indian Smelting Technologies:
+subsections:
+- 11.1a Smelting Techniques
+- 11.1b Ore Selection
+- 11.1c Technological Advancements
+
+- Chapter 12: Metallurgy in Ancient Greece:
+sections:
+- Section: 12.1 Ancient Greek Smelting Technologies:
+subsections:
+- 12.1a Smelting Techniques
+- 12.1b Ore Selection
+- 12.1c Technological Advancements
+
+- Chapter 13: Metallurgy in Ancient Rome:
+sections:
+- Section: 13.1 Ancient Roman Smelting Technologies:
+subsections:
+- 13.1a Smelting Techniques
+- 13.1b Ore Selection
+- 13.1c Technological Advancements
+
+- Chapter 14: Metallurgy in the Middle Ages:
+sections:
+- Section: 14.1 Medieval Smelting Technologies:
+subsections:
+- 14.1a Smelting Techniques
+- 14.1b Ore Selection
+- 14.1c Technological Advancements
+
+- Chapter 15: Metallurgy in the Renaissance:
+sections:
+- Section: 15.1 Renaissance Smelting Technologies:
+subsections:
+- 15.1a Smelting Techniques
+- 15.1b Ore Selection
+- 15.1c Technological Advancements
+
+- Chapter 16: Metallurgy in the Industrial Revolution:
+sections:
+- Section: 16.1 Industrial Revolution Smelting Technologies:
+subsections:
+- 16.1a Smelting Techniques
+- 16.1b Ore Selection
+- 16.1c Technological Advancements
+
+- Chapter 17: Metallurgy in the Modern Era:
+sections:
+- Section: 17.1 Modern Smelting Technologies:
+subsections:
+- 17.1a Smelting Techniques
+- 17.1b Ore Selection
+- 17.1c Technological Advancements
+
+- Chapter 18: Future of Metallurgy:
+sections:
+- Section: 18.1 Predictions for Future Smelting Technologies:
+subsections:
+- 18.1a Predicted Smelting Techniques
+- 18.1b Predicted Ore Selection
+- 18.1c Predicted Technological Advancements
+
+- Chapter 19: Metallurgy and the Environment:
+sections:
+- Section: 19.1 Environmental Impact of Smelting Technologies:
+subsections:
+- 19.1a Environmental Impact of Historical Smelting Techniques
+- 19.1b Environmental Impact of Modern Smelting Techniques
+- 19.1c Predicted Environmental Impact of Future Smelting Techniques
+
+- Chapter 20: Metallurgy and Society:
+sections:
+- Section: 20.1 Societal Impact of Smelting Technologies:
+subsections:
+- 20.1a Societal Impact of Historical Smelting Techniques
+- 20.1b Societal Impact of Modern Smelting Techniques
+- 20.1c Predicted Societal Impact of Future Smelting Techniques

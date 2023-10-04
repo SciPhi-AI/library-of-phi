@@ -1,0 +1,373 @@
+textbook:
+  'Electromagnetic Wave Theory Textbook":':
+    chapters:
+    - '- Chapter 1: Maxwell''s Equations:':
+        sections:
+        - '- Section: 1.1 Gauss''s Law for Electricity:':
+            subsections:
+            - 1.1a Electric Field
+            - 1.1b Electric Flux
+            - 1.1c Gauss's Law in Integral Form
+            - 1.1d Gauss's Law in Differential Form
+        - '- Section: 1.2 Gauss''s Law for Magnetism:':
+            subsections:
+            - 1.2a Magnetic Field
+            - 1.2b Magnetic Flux
+            - 1.2c Gauss's Law for Magnetism in Integral Form
+            - 1.2d Gauss's Law for Magnetism in Differential Form
+        - '- Section: 1.3 Faraday''s Law of Induction:':
+            subsections:
+            - 1.3a Electromagnetic Induction
+            - 1.3b Faraday's Law in Integral Form
+            - 1.3c Faraday's Law in Differential Form
+            - 1.3d Applications of Faraday's Law
+        - '- Section: 1.4 Ampere''s Law with Maxwell''s Addition:':
+            subsections:
+            - 1.4a Ampere's Circuital Law
+            - 1.4b Maxwell's Addition
+            - 1.4c Ampere's Law with Maxwell's Addition in Integral Form
+            - 1.4d Ampere's Law with Maxwell's Addition in Differential Form
+    - '- Chapter 2: Electromagnetic Waves in Vacuum:':
+        sections:
+        - '- Section: 2.1 Plane Waves:':
+            subsections:
+            - 2.1a Definition of Plane Waves
+            - 2.1b Properties of Plane Waves
+            - 2.1c Plane Wave Equation
+            - 2.1d Applications of Plane Waves
+        - '- Section: 2.2 Electromagnetic Spectrum:':
+            subsections:
+            - 2.2a Definition of Electromagnetic Spectrum
+            - 2.2b Different Regions of Electromagnetic Spectrum
+            - 2.2c Properties of Electromagnetic Spectrum
+            - 2.2d Applications of Electromagnetic Spectrum
+        - '- Section: 2.3 Wave Equation:':
+            subsections:
+            - 2.3a Derivation of Wave Equation
+            - 2.3b Solutions of Wave Equation
+            - 2.3c Properties of Wave Equation
+            - 2.3d Applications of Wave Equation
+        - '- Section: 2.4 Wave Vector and Frequency:':
+            subsections:
+            - 2.4a Definition of Wave Vector and Frequency
+            - 2.4b Properties of Wave Vector and Frequency
+            - 2.4c Relation between Wave Vector and Frequency
+            - 2.4d Applications of Wave Vector and Frequency
+        - '- Section: 2.5 Polarization of Waves:':
+            subsections:
+            - 2.5a Definition of Polarization
+            - 2.5b Types of Polarization
+            - 2.5c Polarization in Electromagnetic Waves
+            - 2.5d Applications of Polarization
+    - '- Chapter 3: Reflection and Refraction of Waves:':
+        sections:
+        - '- Section: 3.1 Snell''s Law:':
+            subsections:
+            - 3.1a Definition of Snell's Law
+            - 3.1b Derivation of Snell's Law
+            - 3.1c Applications of Snell's Law
+            - 3.1d Limitations of Snell's Law
+        - '- Section: 3.2 Total Internal Reflection:':
+            subsections:
+            - 3.2a Definition of Total Internal Reflection
+            - 3.2b Conditions for Total Internal Reflection
+            - 3.2c Applications of Total Internal Reflection
+            - 3.2d Limitations of Total Internal Reflection
+        - '- Section: 3.3 Fresnel Equations:':
+            subsections:
+            - 3.3a Definition of Fresnel Equations
+            - 3.3b Derivation of Fresnel Equations
+            - 3.3c Applications of Fresnel Equations
+            - 3.3d Limitations of Fresnel Equations
+        - '- Section: 3.4 Brewster''s Angle:':
+            subsections:
+            - 3.4a Definition of Brewster's Angle
+            - 3.4b Derivation of Brewster's Angle
+            - 3.4c Applications of Brewster's Angle
+            - 3.4d Limitations of Brewster's Angle
+        - '- Section: 3.5 Transmission Line Equations:':
+            subsections:
+            - 3.5a Definition of Transmission Line Equations
+            - 3.5b Derivation of Transmission Line Equations
+            - 3.5c Applications of Transmission Line Equations
+            - 3.5d Limitations of Transmission Line Equations
+    - '- Chapter 4: Waveguides and Transmission Lines:':
+        sections:
+        - '- Section: 4.1 Rectangular Waveguides:':
+            subsections:
+            - 4.1a Definition of Rectangular Waveguides
+            - 4.1b Properties of Rectangular Waveguides
+            - 4.1c Applications of Rectangular Waveguides
+            - 4.1d Limitations of Rectangular Waveguides
+        - '- Section: 4.2 Circular Waveguides:':
+            subsections:
+            - 4.2a Definition of Circular Waveguides
+            - 4.2b Properties of Circular Waveguides
+            - 4.2c Applications of Circular Waveguides
+            - 4.2d Limitations of Circular Waveguides
+        - '- Section: 4.3 Coaxial Cables:':
+            subsections:
+            - 4.3a Definition of Coaxial Cables
+            - 4.3b Properties of Coaxial Cables
+            - 4.3c Applications of Coaxial Cables
+            - 4.3d Limitations of Coaxial Cables
+        - '- Section: 4.4 Transmission Line Equations:':
+            subsections:
+            - 4.4a Definition of Transmission Line Equations
+            - 4.4b Derivation of Transmission Line Equations
+            - 4.4c Applications of Transmission Line Equations
+            - 4.4d Limitations of Transmission Line Equations
+        - '- Section: 4.5 Impedance Matching:':
+            subsections:
+            - 4.5a Definition of Impedance Matching
+            - 4.5b Techniques for Impedance Matching
+            - 4.5c Applications of Impedance Matching
+            - 4.5d Limitations of Impedance Matching
+    - '- Chapter 5: Antennas and Radiation:':
+        sections:
+        - '- Section: 5.1 Dipole Antennas:':
+            subsections:
+            - 5.1a Definition of Dipole Antennas
+            - 5.1b Properties of Dipole Antennas
+            - 5.1c Applications of Dipole Antennas
+            - 5.1d Limitations of Dipole Antennas
+        - '- Section: 5.2 Radiation Patterns:':
+            subsections:
+            - 5.2a Definition of Radiation Patterns
+            - 5.2b Properties of Radiation Patterns
+            - 5.2c Applications of Radiation Patterns
+            - 5.2d Limitations of Radiation Patterns
+        - '- Section: 5.3 Friis Transmission Equation:':
+            subsections:
+            - 5.3a Definition of Friis Transmission Equation
+            - 5.3b Derivation of Friis Transmission Equation
+            - 5.3c Applications of Friis Transmission Equation
+            - 5.3d Limitations of Friis Transmission Equation
+        - '- Section: 5.4 Antenna Gain and Efficiency:':
+            subsections:
+            - 5.4a Definition of Antenna Gain and Efficiency
+            - 5.4b Factors Affecting Antenna Gain and Efficiency
+            - 5.4c Applications of Antenna Gain and Efficiency
+            - 5.4d Limitations of Antenna Gain and Efficiency
+    - '- Chapter 6: Electromagnetic Wave Propagation:':
+        sections:
+        - '- Section: 6.1 Plane Wave Propagation:':
+            subsections:
+            - 6.1a Definition of Plane Wave Propagation
+            - 6.1b Properties of Plane Wave Propagation
+            - 6.1c Applications of Plane Wave Propagation
+            - 6.1d Limitations of Plane Wave Propagation
+        - '- Section: 6.2 Wave Polarization:':
+            subsections:
+            - 6.2a Definition of Wave Polarization
+            - 6.2b Types of Wave Polarization
+            - 6.2c Applications of Wave Polarization
+            - 6.2d Limitations of Wave Polarization
+        - '- Section: 6.3 Group Velocity and Phase Velocity:':
+            subsections:
+            - 6.3a Definition of Group Velocity and Phase Velocity
+            - 6.3b Relation between Group Velocity and Phase Velocity
+            - 6.3c Applications of Group Velocity and Phase Velocity
+            - 6.3d Limitations of Group Velocity and Phase Velocity
+        - '- Section: 6.4 Dispersion and Attenuation:':
+            subsections:
+            - 6.4a Definition of Dispersion and Attenuation
+            - 6.4b Factors Affecting Dispersion and Attenuation
+            - 6.4c Applications of Dispersion and Attenuation
+            - 6.4d Limitations of Dispersion and Attenuation
+    - '- Chapter 7: Waveguides and Resonators:':
+        sections:
+        - '- Section: 7.1 Cylindrical Waveguides:':
+            subsections:
+            - 7.1a Definition of Cylindrical Waveguides
+            - 7.1b Properties of Cylindrical Waveguides
+            - 7.1c Applications of Cylindrical Waveguides
+            - 7.1d Limitations of Cylindrical Waveguides
+        - '- Section: 7.2 Rectangular Waveguides:':
+            subsections:
+            - 7.2a Definition of Rectangular Waveguides
+            - 7.2b Properties of Rectangular Waveguides
+            - 7.2c Applications of Rectangular Waveguides
+            - 7.2d Limitations of Rectangular Waveguides
+        - '- Section: 7.3 Resonant Cavities:':
+            subsections:
+            - 7.3a Definition of Resonant Cavities
+            - 7.3b Properties of Resonant Cavities
+            - 7.3c Applications of Resonant Cavities
+            - 7.3d Limitations of Resonant Cavities
+        - '- Section: 7.4 Resonant Frequencies:':
+            subsections:
+            - 7.4a Definition of Resonant Frequencies
+            - 7.4b Calculation of Resonant Frequencies
+            - 7.4c Applications of Resonant Frequencies
+            - 7.4d Limitations of Resonant Frequencies
+        - '- Section: 7.5 Q Factor:':
+            subsections:
+            - 7.5a Definition of Q Factor
+            - 7.5b Calculation of Q Factor
+            - 7.5c Applications of Q Factor
+            - 7.5d Limitations of Q Factor
+    - '- Chapter 8: Electromagnetic Interference:':
+        sections:
+        - '- Section: 8.1 Electromagnetic Compatibility:':
+            subsections:
+            - 8.1a Definition of Electromagnetic Compatibility
+            - 8.1b Factors Affecting Electromagnetic Compatibility
+            - 8.1c Applications of Electromagnetic Compatibility
+            - 8.1d Limitations of Electromagnetic Compatibility
+        - '- Section: 8.2 Shielding Techniques:':
+            subsections:
+            - 8.2a Definition of Shielding Techniques
+            - 8.2b Types of Shielding Techniques
+            - 8.2c Applications of Shielding Techniques
+            - 8.2d Limitations of Shielding Techniques
+        - '- Section: 8.3 Grounding and Bonding:':
+            subsections:
+            - 8.3a Definition of Grounding and Bonding
+            - 8.3b Importance of Grounding and Bonding
+            - 8.3c Applications of Grounding and Bonding
+            - 8.3d Limitations of Grounding and Bonding
+        - '- Section: 8.4 Crosstalk:':
+            subsections:
+            - 8.4a Definition of Crosstalk
+            - 8.4b Factors Affecting Crosstalk
+            - 8.4c Applications of Crosstalk
+            - 8.4d Limitations of Crosstalk
+    - '- Chapter 9: Scattering and Diffraction:':
+        sections:
+        - '- Section: 9.1 Rayleigh Scattering:':
+            subsections:
+            - 9.1a Definition of Rayleigh Scattering
+            - 9.1b Properties of Rayleigh Scattering
+            - 9.1c Applications of Rayleigh Scattering
+            - 9.1d Limitations of Rayleigh Scattering
+        - '- Section: 9.2 Mie Scattering:':
+            subsections:
+            - 9.2a Definition of Mie Scattering
+            - 9.2b Properties of Mie Scattering
+            - 9.2c Applications of Mie Scattering
+            - 9.2d Limitations of Mie Scattering
+        - '- Section: 9.3 Fraunhofer Diffraction:':
+            subsections:
+            - 9.3a Definition of Fraunhofer Diffraction
+            - 9.3b Properties of Fraunhofer Diffraction
+            - 9.3c Applications of Fraunhofer Diffraction
+            - 9.3d Limitations of Fraunhofer Diffraction
+        - '- Section: 9.4 Fresnel Diffraction:':
+            subsections:
+            - 9.4a Definition of Fresnel Diffraction
+            - 9.4b Properties of Fresnel Diffraction
+            - 9.4c Applications of Fresnel Diffraction
+            - 9.4d Limitations of Fresnel Diffraction
+        - '- Section: 9.5 Diffraction Gratings:':
+            subsections:
+            - 9.5a Definition of Diffraction Gratings
+            - 9.5b Properties of Diffraction Gratings
+            - 9.5c Applications of Diffraction Gratings
+            - 9.5d Limitations of Diffraction Gratings
+    - '- Chapter 10: Time-Harmonic Electromagnetic Fields:':
+        sections:
+        - '- Section: 10.1 Phasor Representation:':
+            subsections:
+            - 10.1a Definition of Phasor Representation
+            - 10.1b Properties of Phasor Representation
+            - 10.1c Applications of Phasor Representation
+            - 10.1d Limitations of Phasor Representation
+        - '- Section: 10.2 Complex Poynting Vector:':
+            subsections:
+            - 10.2a Definition of Complex Poynting Vector
+            - 10.2b Properties of Complex Poynting Vector
+            - 10.2c Applications of Complex Poynting Vector
+            - 10.2d Limitations of Complex Poynting Vector
+        - '- Section: 10.3 Skin Effect:':
+            subsections:
+            - 10.3a Definition of Skin Effect
+            - 10.3b Properties of Skin Effect
+            - 10.3c Applications of Skin Effect
+            - 10.3d Limitations of Skin Effect
+        - '- Section: 10.4 Wave Impedance:':
+            subsections:
+            - 10.4a Definition of Wave Impedance
+            - 10.4b Properties of Wave Impedance
+            - 10.4c Applications of Wave Impedance
+            - 10.4d Limitations of Wave Impedance
+    - '- Chapter 11: Electromagnetic Fields in Material Media:':
+        sections:
+        - '- Section: 11.1 Dielectric Materials:':
+            subsections:
+            - 11.1a Definition of Dielectric Materials
+            - 11.1b Properties of Dielectric Materials
+            - 11.1c Applications of Dielectric Materials
+            - 11.1d Limitations of Dielectric Materials
+        - '- Section: 11.2 Magnetic Materials:':
+            subsections:
+            - 11.2a Definition of Magnetic Materials
+            - 11.2b Properties of Magnetic Materials
+            - 11.2c Applications of Magnetic Materials
+            - 11.2d Limitations of Magnetic Materials
+        - '- Section: 11.3 Conducting Materials:':
+            subsections:
+            - 11.3a Definition of Conducting Materials
+            - 11.3b Properties of Conducting Materials
+            - 11.3c Applications of Conducting Materials
+            - 11.3d Limitations of Conducting Materials
+        - '- Section: 11.4 Superconducting Materials:':
+            subsections:
+            - 11.4a Definition of Superconducting Materials
+            - 11.4b Properties of Superconducting Materials
+            - 11.4c Applications of Superconducting Materials
+            - 11.4d Limitations of Superconducting Materials
+    - '- Chapter 12: Electromagnetic Fields in Bounded Regions:':
+        sections:
+        - '- Section: 12.1 Wave Propagation in Bounded Regions:':
+            subsections:
+            - 12.1a Definition of Wave Propagation in Bounded Regions
+            - 12.1b Properties of Wave Propagation in Bounded Regions
+            - 12.1c Applications of Wave Propagation in Bounded Regions
+            - 12.1d Limitations of Wave Propagation in Bounded Regions
+        - '- Section: 12.2 Reflection and Transmission at Boundaries:':
+            subsections:
+            - 12.2a Definition of Reflection and Transmission at Boundaries
+            - 12.2b Properties of Reflection and Transmission at Boundaries
+            - 12.2c Applications of Reflection and Transmission at Boundaries
+            - 12.2d Limitations of Reflection and Transmission at Boundaries
+        - '- Section: 12.3 Waveguides and Resonators:':
+            subsections:
+            - 12.3a Definition of Waveguides and Resonators
+            - 12.3b Properties of Waveguides and Resonators
+            - 12.3c Applications of Waveguides and Resonators
+            - 12.3d Limitations of Waveguides and Resonators
+        - '- Section: 12.4 Cavity Resonators:':
+            subsections:
+            - 12.4a Definition of Cavity Resonators
+            - 12.4b Properties of Cavity Resonators
+            - 12.4c Applications of Cavity Resonators
+            - 12.4d Limitations of Cavity Resonators
+    - '- Chapter 13: Electromagnetic Fields in Unbounded Regions:':
+        sections:
+        - '- Section: 13.1 Plane Wave Propagation in Unbounded Regions:':
+            subsections:
+            - 13.1a Definition of Plane Wave Propagation in Unbounded Regions
+            - 13.1b Properties of Plane Wave Propagation in Unbounded Regions
+            - 13.1c Applications of Plane Wave Propagation in Unbounded Regions
+            - 13.1d Limitations of Plane Wave Propagation in Unbounded Regions
+        - '- Section: 13.2 Spherical Waves:':
+            subsections:
+            - 13.2a Definition of Spherical Waves
+            - 13.2b Properties of Spherical Waves
+            - 13.2c Applications of Spherical Waves
+            - 13.2d Limitations of Spherical Waves
+        - '- Section: 13.3 Cylindrical Waves:':
+            subsections:
+            - 13.3a Definition of Cylindrical Waves
+            - 13.3b Properties of Cylindrical Waves
+            - 13.3c Applications of Cylindrical Waves
+            - 13.3d Limitations of Cylindrical Waves
+        - '- Section: 13.4 Wave Propagation in Stratified Media:':
+            subsections:
+            - 13.4a Definition of Wave Propagation in Stratified Media
+            - 13.4b Properties of Wave Propagation in Stratified Media
+            - 13.4c Applications of Wave Propagation in Stratified Media
+            - 13.4d Limitations of Wave Propagation in Stratified Media
+    - '- Chapter 14: Electromagnetic Fields in Layered Media':
+        sections: []

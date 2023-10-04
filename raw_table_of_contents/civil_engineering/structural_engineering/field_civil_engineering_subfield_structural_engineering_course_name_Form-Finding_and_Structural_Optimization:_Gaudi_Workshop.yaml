@@ -1,0 +1,400 @@
+textbook:
+  'Form-Finding and Structural Optimization: Gaudi Workshop Companion":':
+    chapters:
+    - '- Chapter 1: Introduction to Form-Finding:':
+        sections:
+        - '- Section: 1.1 Principles of Form-Finding:':
+            subsections:
+            - 1.1a Definition of Form-Finding
+            - 1.1b Techniques in Form-Finding
+            - 1.1c Applications of Form-Finding
+        - '- Section: 1.2 Historical Context:':
+            subsections:
+            - 1.2a Evolution of Form-Finding
+            - 1.2b Influential Architects and Engineers
+            - 1.2c Impact on Modern Architecture
+        - '- Section: 1.3 Gaudi''s Architectural Style:':
+            subsections:
+            - 1.3a Overview of Gaudi's Work
+            - 1.3b Gaudi's Use of Form-Finding
+            - 1.3c Influence of Gaudi's Style
+        - '- Section: 1.4 Case Studies:':
+            subsections:
+            - '1.4a Case Study: Sagrada Familia'
+            - '1.4b Case Study: Park Guell'
+            - '1.4c Case Study: Casa Mila'
+    - '- Chapter 2: Particle Spring Systems:':
+        sections:
+        - '- Section: 2.1 Particle Systems Plugin for Processing:':
+            subsections:
+            - 2.1a Introduction to Processing
+            - 2.1b Using the Particle Systems Plugin
+            - 2.1c Advanced Features of the Plugin
+        - '- Section: 2.2 Importing Objects into Processing with PSystem Plugin:':
+            subsections:
+            - 2.2a Preparing Objects for Import
+            - 2.2b Import Process
+            - 2.2c Troubleshooting Common Issues
+        - '- Section: 2.3 Particle System Introduction:':
+            subsections:
+            - 2.3a Basics of Particle Systems
+            - 2.3b Particle Systems in Form-Finding
+            - 2.3c Advanced Particle System Techniques
+        - '- Section: 2.4 Particle System Plugin Documentation:':
+            subsections:
+            - 2.4a Understanding the Documentation
+            - 2.4b Commonly Used Functions
+            - 2.4c Getting Help and Support
+    - '- Chapter 3: Programming in Processing:':
+        sections:
+        - '- Section: 3.1 Processing Language Basics:':
+            subsections:
+            - 3.1a Syntax and Structure
+            - 3.1b Basic Operations and Functions
+            - 3.1c Best Practices in Processing
+        - '- Section: 3.2 Variables and Data Types:':
+            subsections:
+            - 3.2a Understanding Variables
+            - 3.2b Common Data Types in Processing
+            - 3.2c Using Variables Effectively
+        - '- Section: 3.3 Control Structures:':
+            subsections:
+            - 3.3a Conditional Statements
+            - 3.3b Loops and Iteration
+            - 3.3c Error Handling and Debugging
+        - '- Section: 3.4 Functions and Objects:':
+            subsections:
+            - 3.4a Defining and Using Functions
+            - 3.4b Object-Oriented Programming in Processing
+            - 3.4c Advanced Object and Function Techniques
+    - '- Chapter 4: Model Research and Construction:':
+        sections:
+        - '- Section: 4.1 Conceptual Design:':
+            subsections:
+            - 4.1a The Design Process
+            - 4.1b Sketching and Ideation
+            - 4.1c From Concept to Model
+        - '- Section: 4.2 Geometric Modeling:':
+            subsections:
+            - 4.2a Basics of Geometric Modeling
+            - 4.2b Tools and Techniques
+            - 4.2c Advanced Geometric Modeling
+        - '- Section: 4.3 Structural Analysis:':
+            subsections:
+            - 4.3a Introduction to Structural Analysis
+            - 4.3b Analyzing Form-Found Structures
+            - 4.3c Advanced Structural Analysis Techniques
+        - '- Section: 4.4 Material Selection:':
+            subsections:
+            - 4.4a Understanding Material Properties
+            - 4.4b Choosing the Right Material
+            - 4.4c Material Considerations in Form-Finding
+    - '- Chapter 5: Vector Fields in Structural Optimization:':
+        sections:
+        - '- Section: 5.1 Vector Field Visualization:':
+            subsections:
+            - 5.1a Basics of Vector Fields
+            - 5.1b Visualizing Vector Fields in Processing
+            - 5.1c Advanced Vector Field Visualization
+        - '- Section: 5.2 Optimization Algorithms:':
+            subsections:
+            - 5.2a Introduction to Optimization Algorithms
+            - 5.2b Using Optimization in Form-Finding
+            - 5.2c Advanced Optimization Techniques
+        - '- Section: 5.3 Structural Form Generation:':
+            subsections:
+            - 5.3a Generating Forms from Vector Fields
+            - 5.3b Evaluating Generated Forms
+            - 5.3c Advanced Form Generation Techniques
+        - '- Section: 5.4 Performance Evaluation:':
+            subsections:
+            - 5.4a Evaluating Structural Performance
+            - 5.4b Tools for Performance Evaluation
+            - 5.4c Interpreting Evaluation Results
+    - '- Chapter 6: Group Brainstorming and Presentations:':
+        sections:
+        - '- Section: 6.1 Brainstorming Techniques:':
+            subsections:
+            - 6.1a The Importance of Brainstorming
+            - 6.1b Effective Brainstorming Techniques
+            - 6.1c Brainstorming in a Group Setting
+        - '- Section: 6.2 Group Presentation Skills:':
+            subsections:
+            - 6.2a Preparing for a Group Presentation
+            - 6.2b Delivering a Group Presentation
+            - 6.2c Handling Questions and Feedback
+        - '- Section: 6.3 Critique and Feedback:':
+            subsections:
+            - 6.3a Giving Constructive Critique
+            - 6.3b Receiving and Implementing Feedback
+            - 6.3c The Role of Critique in the Design Process
+        - '- Section: 6.4 Iterative Design Process:':
+            subsections:
+            - 6.4a Understanding the Iterative Process
+            - 6.4b Applying Iteration in Form-Finding
+            - 6.4c Advanced Iterative Techniques
+    - '- Chapter 7: Mid-term Presentations:':
+        sections:
+        - '- Section: 7.1 Project Progress Review:':
+            subsections:
+            - 7.1a Preparing for the Review
+            - 7.1b Presenting Your Progress
+            - 7.1c Receiving and Implementing Feedback
+        - '- Section: 7.2 Design Evaluation:':
+            subsections:
+            - 7.2a Evaluating Your Own Design
+            - 7.2b Peer Evaluation
+            - 7.2c Incorporating Evaluation into Design Iteration
+        - '- Section: 7.3 Peer Feedback:':
+            subsections:
+            - 7.3a Giving Constructive Peer Feedback
+            - 7.3b Receiving and Implementing Peer Feedback
+            - 7.3c The Role of Peer Feedback in the Design Process
+    - '- Chapter 8: Explicit vs. Implicit Integration:':
+        sections:
+        - '- Section: 8.1 Numerical Integration Methods:':
+            subsections:
+            - 8.1a Introduction to Numerical Integration
+            - 8.1b Explicit vs. Implicit Methods
+            - 8.1c Choosing the Right Method
+        - '- Section: 8.2 Stability and Accuracy:':
+            subsections:
+            - 8.2a Understanding Stability in Numerical Integration
+            - 8.2b Accuracy in Numerical Integration
+            - 8.2c Balancing Stability and Accuracy
+        - '- Section: 8.3 Performance Comparison:':
+            subsections:
+            - 8.3a Comparing Different Integration Methods
+            - 8.3b Evaluating Performance
+            - 8.3c Advanced Performance Comparison Techniques
+    - '- Chapter 9: Working Sessions:':
+        sections:
+        - '- Section: 9.1 Hands-on Design Exercises:':
+            subsections:
+            - 9.1a The Role of Hands-on Exercises
+            - 9.1b Effective Design Exercises
+            - 9.1c Learning from Exercises
+        - '- Section: 9.2 Collaborative Problem Solving:':
+            subsections:
+            - 9.2a The Importance of Collaboration
+            - 9.2b Techniques for Collaborative Problem Solving
+            - 9.2c Advanced Collaboration Techniques
+        - '- Section: 9.3 Expert Guidance and Feedback:':
+            subsections:
+            - 9.3a Learning from Experts
+            - 9.3b Receiving and Implementing Expert Feedback
+            - 9.3c The Role of Expert Guidance in the Design Process
+    - '- Chapter 10: Final Presentations:':
+        sections:
+        - '- Section: 10.1 Project Showcase:':
+            subsections:
+            - 10.1a Preparing for the Showcase
+            - 10.1b Presenting Your Project
+            - 10.1c Receiving and Implementing Feedback
+        - '- Section: 10.2 Design Rationale:':
+            subsections:
+            - 10.2a Explaining Your Design Decisions
+            - 10.2b Demonstrating the Effectiveness of Your Design
+            - 10.2c Advanced Design Rationale Techniques
+        - '- Section: 10.3 Lessons Learned:':
+            subsections:
+            - 10.3a Reflecting on the Design Process
+            - 10.3b Identifying Lessons Learned
+            - 10.3c Applying Lessons to Future Projects
+    - '- Chapter 11: Student Projects:':
+        sections:
+        - '- Section: 11.1 The Truss Guys (Summary):':
+            subsections:
+            - 11.1a Project Overview
+            - 11.1b Design Process and Decisions
+            - 11.1c Project Outcomes and Lessons Learned
+        - '- Section: 11.2 A Study on Branched Constructions:':
+            subsections:
+            - 11.2a Project Overview
+            - 11.2b Design Process and Decisions
+            - 11.2c Project Outcomes and Lessons Learned
+    - '- Chapter 12: Advanced Form-Finding Techniques:':
+        sections:
+        - '- Section: 12.1 Advanced Particle Systems:':
+            subsections:
+            - 12.1a Advanced Particle System Techniques
+            - 12.1b Applications of Advanced Particle Systems
+            - 12.1c Case Studies of Advanced Particle Systems
+        - '- Section: 12.2 Advanced Vector Field Techniques:':
+            subsections:
+            - 12.2a Advanced Vector Field Techniques
+            - 12.2b Applications of Advanced Vector Fields
+            - 12.2c Case Studies of Advanced Vector Fields
+        - '- Section: 12.3 Advanced Structural Optimization Techniques:':
+            subsections:
+            - 12.3a Advanced Structural Optimization Techniques
+            - 12.3b Applications of Advanced Structural Optimization
+            - 12.3c Case Studies of Advanced Structural Optimization
+    - '- Chapter 13: Advanced Programming in Processing:':
+        sections:
+        - '- Section: 13.1 Advanced Processing Language Techniques:':
+            subsections:
+            - 13.1a Advanced Syntax and Structure
+            - 13.1b Advanced Operations and Functions
+            - 13.1c Best Practices in Advanced Processing
+        - '- Section: 13.2 Advanced Variables and Data Types:':
+            subsections:
+            - 13.2a Understanding Advanced Variables
+            - 13.2b Advanced Data Types in Processing
+            - 13.2c Using Advanced Variables Effectively
+        - '- Section: 13.3 Advanced Control Structures:':
+            subsections:
+            - 13.3a Advanced Conditional Statements
+            - 13.3b Advanced Loops and Iteration
+            - 13.3c Advanced Error Handling and Debugging
+        - '- Section: 13.4 Advanced Functions and Objects:':
+            subsections:
+            - 13.4a Defining and Using Advanced Functions
+            - 13.4b Advanced Object-Oriented Programming in Processing
+            - 13.4c Advanced Object and Function Techniques
+    - '- Chapter 14: Advanced Model Research and Construction:':
+        sections:
+        - '- Section: 14.1 Advanced Conceptual Design:':
+            subsections:
+            - 14.1a Advanced Design Process
+            - 14.1b Advanced Sketching and Ideation
+            - 14.1c From Advanced Concept to Model
+        - '- Section: 14.2 Advanced Geometric Modeling:':
+            subsections:
+            - 14.2a Advanced Basics of Geometric Modeling
+            - 14.2b Advanced Tools and Techniques
+            - 14.2c Advanced Geometric Modeling
+        - '- Section: 14.3 Advanced Structural Analysis:':
+            subsections:
+            - 14.3a Advanced Introduction to Structural Analysis
+            - 14.3b Analyzing Advanced Form-Found Structures
+            - 14.3c Advanced Structural Analysis Techniques
+        - '- Section: 14.4 Advanced Material Selection:':
+            subsections:
+            - 14.4a Understanding Advanced Material Properties
+            - 14.4b Choosing the Right Advanced Material
+            - 14.4c Advanced Material Considerations in Form-Finding
+    - '- Chapter 15: Advanced Vector Fields in Structural Optimization:':
+        sections:
+        - '- Section: 15.1 Advanced Vector Field Visualization:':
+            subsections:
+            - 15.1a Advanced Basics of Vector Fields
+            - 15.1b Visualizing Advanced Vector Fields in Processing
+            - 15.1c Advanced Vector Field Visualization
+        - '- Section: 15.2 Advanced Optimization Algorithms:':
+            subsections:
+            - 15.2a Advanced Introduction to Optimization Algorithms
+            - 15.2b Using Advanced Optimization in Form-Finding
+            - 15.2c Advanced Optimization Techniques
+        - '- Section: 15.3 Advanced Structural Form Generation:':
+            subsections:
+            - 15.3a Generating Advanced Forms from Vector Fields
+            - 15.3b Evaluating Advanced Generated Forms
+            - 15.3c Advanced Form Generation Techniques
+        - '- Section: 15.4 Advanced Performance Evaluation:':
+            subsections:
+            - 15.4a Evaluating Advanced Structural Performance
+            - 15.4b Advanced Tools for Performance Evaluation
+            - 15.4c Interpreting Advanced Evaluation Results
+    - '- Chapter 16: Advanced Group Brainstorming and Presentations:':
+        sections:
+        - '- Section: 16.1 Advanced Brainstorming Techniques:':
+            subsections:
+            - 16.1a The Importance of Advanced Brainstorming
+            - 16.1b Effective Advanced Brainstorming Techniques
+            - 16.1c Advanced Brainstorming in a Group Setting
+        - '- Section: 16.2 Advanced Group Presentation Skills:':
+            subsections:
+            - 16.2a Preparing for an Advanced Group Presentation
+            - 16.2b Delivering an Advanced Group Presentation
+            - 16.2c Handling Questions and Feedback in an Advanced Setting
+        - '- Section: 16.3 Advanced Critique and Feedback:':
+            subsections:
+            - 16.3a Giving Constructive Advanced Critique
+            - 16.3b Receiving and Implementing Advanced Feedback
+            - 16.3c The Role of Advanced Critique in the Design Process
+        - '- Section: 16.4 Advanced Iterative Design Process:':
+            subsections:
+            - 16.4a Understanding the Advanced Iterative Process
+            - 16.4b Applying Advanced Iteration in Form-Finding
+            - 16.4c Advanced Iterative Techniques
+    - '- Chapter 17: Advanced Mid-term Presentations:':
+        sections:
+        - '- Section: 17.1 Advanced Project Progress Review:':
+            subsections:
+            - 17.1a Preparing for the Advanced Review
+            - 17.1b Presenting Your Advanced Progress
+            - 17.1c Receiving and Implementing Advanced Feedback
+        - '- Section: 17.2 Advanced Design Evaluation:':
+            subsections:
+            - 17.2a Evaluating Your Own Advanced Design
+            - 17.2b Advanced Peer Evaluation
+            - 17.2c Incorporating Advanced Evaluation into Design Iteration
+        - '- Section: 17.3 Advanced Peer Feedback:':
+            subsections:
+            - 17.3a Giving Constructive Advanced Peer Feedback
+            - 17.3b Receiving and Implementing Advanced Peer Feedback
+            - 17.3c The Role of Advanced Peer Feedback in the Design Process
+    - '- Chapter 18: Advanced Explicit vs. Implicit Integration:':
+        sections:
+        - '- Section: 18.1 Advanced Numerical Integration Methods:':
+            subsections:
+            - 18.1a Advanced Introduction to Numerical Integration
+            - 18.1b Advanced Explicit vs. Implicit Methods
+            - 18.1c Choosing the Right Advanced Method
+        - '- Section: 18.2 Advanced Stability and Accuracy:':
+            subsections:
+            - 18.2a Understanding Advanced Stability in Numerical Integration
+            - 18.2b Advanced Accuracy in Numerical Integration
+            - 18.2c Balancing Advanced Stability and Accuracy
+        - '- Section: 18.3 Advanced Performance Comparison:':
+            subsections:
+            - 18.3a Comparing Different Advanced Integration Methods
+            - 18.3b Evaluating Advanced Performance
+            - 18.3c Advanced Performance Comparison Techniques
+    - '- Chapter 19: Advanced Working Sessions:':
+        sections:
+        - '- Section: 19.1 Advanced Hands-on Design Exercises:':
+            subsections:
+            - 19.1a The Role of Advanced Hands-on Exercises
+            - 19.1b Effective Advanced Design Exercises
+            - 19.1c Learning from Advanced Exercises
+        - '- Section: 19.2 Advanced Collaborative Problem Solving:':
+            subsections:
+            - 19.2a The Importance of Advanced Collaboration
+            - 19.2b Techniques for Advanced Collaborative Problem Solving
+            - 19.2c Advanced Collaboration Techniques
+        - '- Section: 19.3 Advanced Expert Guidance and Feedback:':
+            subsections:
+            - 19.3a Learning from Advanced Experts
+            - 19.3b Receiving and Implementing Advanced Expert Feedback
+            - 19.3c The Role of Advanced Expert Guidance in the Design Process
+    - '- Chapter 20: Advanced Final Presentations:':
+        sections:
+        - '- Section: 20.1 Advanced Project Showcase:':
+            subsections:
+            - 20.1a Preparing for the Advanced Showcase
+            - 20.1b Presenting Your Advanced Project
+            - 20.1c Receiving and Implementing Advanced Feedback
+        - '- Section: 20.2 Advanced Design Rationale:':
+            subsections:
+            - 20.2a Explaining Your Advanced Design Decisions
+            - 20.2b Demonstrating the Effectiveness of Your Advanced Design
+            - 20.2c Advanced Design Rationale Techniques
+        - '- Section: 20.3 Advanced Lessons Learned:':
+            subsections:
+            - 20.3a Reflecting on the Advanced Design Process
+            - 20.3b Identifying Advanced Lessons Learned
+            - 20.3c Applying Advanced Lessons to Future Projects
+    - '- Chapter 21: Advanced Student Projects:':
+        sections:
+        - '- Section: 21.1 Advanced The Truss Guys (Summary):':
+            subsections:
+            - 21.1a Advanced Project Overview
+            - 21.1b Advanced Design Process and Decisions
+            - 21.1c Advanced Project Outcomes and Lessons Learned
+        - '- Section: 21.2 Advanced A Study on Branched Constructions:':
+            subsections:
+            - 21.2a Advanced Project Overview
+            - 21.2b Advanced Design Process and Decisions
+            - 21.2c Advanced Project Outcomes and Lessons Learned

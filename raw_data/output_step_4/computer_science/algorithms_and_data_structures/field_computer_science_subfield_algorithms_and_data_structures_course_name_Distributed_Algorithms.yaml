@@ -1,0 +1,265 @@
+textbook:
+  'Distributed Algorithms Textbook":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course Overview:':
+            subsections:
+            - 1.1a Synchronous Networks
+            - 1.1b Asynchronous Networks
+            - 1.1c Distributed Computing Models
+            - 1.1d Timing-based Systems
+    - '- Chapter 2: Leader Election:':
+        sections:
+        - '- Section: 2.1 Leader Election in Synchronous Ring Networks:':
+            subsections:
+            - 2.1a Synchronous Ring Networks
+        - '- Section: 2.2 Leader Election in General Synchronous Networks:':
+            subsections:
+            - 2.2a General Synchronous Networks
+    - '- Chapter 3: Basic Computational Tasks:':
+        sections:
+        - '- Section: 3.1 Breadth-first Search:':
+            subsections:
+            - 3.1a Breadth-first Search Algorithm
+        - '- Section: 3.2 Broadcast and Convergecast:':
+            subsections:
+            - 3.2a Broadcast Algorithm
+            - 3.2b Convergecast Algorithm
+        - '- Section: 3.3 Shortest Paths:':
+            subsections:
+            - 3.3a Shortest Paths Algorithm
+    - '- Chapter 4: Spanning Trees:':
+        sections:
+        - '- Section: 4.1 Minimum Spanning Trees:':
+            subsections:
+            - 4.1a Minimum Spanning Trees Algorithm
+        - '- Section: 4.2 Gallager et al. Minimum Spanning Trees:':
+            subsections:
+            - 4.2a Gallager et al. Minimum Spanning Trees Algorithm
+    - '- Chapter 5: Fault-tolerant Consensus:':
+        sections:
+        - '- Section: 5.1 Link Failures: The Two Generals Problem:':
+            subsections:
+            - 5.1a The Two Generals Problem
+        - '- Section: 5.2 Process Failures:':
+            subsections:
+            - 5.2a Process Failures in Distributed Systems
+        - '- Section: 5.3 Byzantine Agreement:':
+            subsections:
+            - 5.3a Byzantine Agreement Algorithm
+        - '- Section: 5.4 Weak Byzantine Agreement:':
+            subsections:
+            - 5.4a Weak Byzantine Agreement Algorithm
+        - '- Section: 5.5 Time Bounds for Consensus Problems:':
+            subsections:
+            - 5.5a Consensus Time Bounds
+    - '- Chapter 6: Distributed Commit:':
+        sections:
+        - '- Section: 6.1 k-set Agreement:':
+            subsections:
+            - 6.1a k-set Agreement Algorithm
+        - '- Section: 6.2 Approximate Agreement:':
+            subsections:
+            - 6.2a Approximate Agreement Algorithm
+        - '- Section: 6.3 Distributed Commit:':
+            subsections:
+            - 6.3a Distributed Commit Algorithm
+    - '- Chapter 7: Formal Modeling of Asynchronous Systems:':
+        sections:
+        - '- Section: 7.1 Interacting State Machines:':
+            subsections:
+            - 7.1a Interacting State Machines Model
+        - '- Section: 7.2 Non-fault-tolerant Algorithms:':
+            subsections:
+            - 7.2a Non-fault-tolerant Algorithms in Distributed Systems
+        - '- Section: 7.3 Synchronizers:':
+            subsections:
+            - 7.3a Synchronizers in Distributed Systems
+        - '- Section: 7.4 Synchronous vs. Asynchronous Distributed Systems:':
+            subsections:
+            - 7.4a Comparison of Synchronous and Asynchronous Distributed Systems
+    - '- Chapter 8: Time, Clocks, and Ordering of Events:':
+        sections:
+        - '- Section: 8.1 State-machine Simulation:':
+            subsections:
+            - 8.1a State-machine Simulation Algorithms
+        - '- Section: 8.2 Vector Timestamps:':
+            subsections:
+            - 8.2a Vector Timestamps Algorithm
+        - '- Section: 8.3 Stable Property Detection:':
+            subsections:
+            - 8.3a Stable Property Detection Algorithm
+        - '- Section: 8.4 Distributed Termination:':
+            subsections:
+            - 8.4a Distributed Termination Algorithm
+        - '- Section: 8.5 Global Snapshots:':
+            subsections:
+            - 8.5a Global Snapshots Algorithm
+        - '- Section: 8.6 Deadlock Detection:':
+            subsections:
+            - 8.6a Deadlock Detection Algorithm
+    - '- Chapter 9: Asynchronous Shared-memory Systems:':
+        sections:
+        - '- Section: 9.1 Mutual Exclusion Problem:':
+            subsections:
+            - 9.1a Mutual Exclusion Problem in Distributed Systems
+        - '- Section: 9.2 Mutual Exclusion Algorithms:':
+            subsections:
+            - 9.2a Mutual Exclusion Algorithms in Distributed Systems
+        - '- Section: 9.3 Resource Allocation:':
+            subsections:
+            - 9.3a Resource Allocation Algorithm
+        - '- Section: 9.4 The Dining Philosophers Problem:':
+            subsections:
+            - 9.4a The Dining Philosophers Problem in Distributed Systems
+        - '- Section: 9.5 Bounds on Shared Memory:':
+            subsections:
+            - 9.5a Bounds on Shared Memory in Distributed Systems
+        - '- Section: 9.6 Contentions, Caching, and Locality:':
+            subsections:
+            - 9.6a Contentions in Distributed Systems
+            - 9.6b Caching in Distributed Systems
+            - 9.6c Locality in Distributed Systems
+    - '- Chapter 10: Atomic Objects:':
+        sections:
+        - '- Section: 10.1 Atomic Snapshot Algorithms:':
+            subsections:
+            - 10.1a Atomic Snapshot Algorithms in Distributed Systems
+        - '- Section: 10.2 Atomic Read/Write Register Algorithms:':
+            subsections:
+            - 10.2a Atomic Read/Write Register Algorithms in Distributed Systems
+        - '- Section: 10.3 List Algorithms:':
+            subsections:
+            - 10.3a List Algorithms in Distributed Systems
+        - '- Section: 10.4 Transactional Memory:':
+            subsections:
+            - 10.4a Transactional Memory in Distributed Systems
+        - '- Section: 10.5 Wait-free Computability:':
+            subsections:
+            - 10.5a Wait-free Computability in Distributed Systems
+    - '- Chapter 11: Asynchronous Network Model:':
+        sections:
+        - '- Section: 11.1 Failure Detectors and Consensus:':
+            subsections:
+            - 11.1a Failure Detectors in Distributed Systems
+            - 11.1b Consensus in Distributed Systems
+        - '- Section: 11.2 Paxos Consensus Algorithm:':
+            subsections:
+            - 11.2a Paxos Consensus Algorithm in Distributed Systems
+        - '- Section: 11.3 Impossibility of Consensus:':
+            subsections:
+            - 11.3a Impossibility of Consensus Theorem
+    - '- Chapter 12: Self-stabilizing Algorithms:':
+        sections:
+        - '- Section: 12.1 Modeling and Verification:':
+            subsections:
+            - 12.1a Modeling of Self-stabilizing Algorithms
+            - 12.1b Verification of Self-stabilizing Algorithms
+        - '- Section: 12.2 Timing-based Algorithms:':
+            subsections:
+            - 12.2a Timing-based Self-stabilizing Algorithms
+        - '- Section: 12.3 Clock Synchronization:':
+            subsections:
+            - 12.3a Clock Synchronization Algorithms
+    - '- Chapter 13: Projects:':
+        sections:
+        - '- Section: 13.1 Overview:':
+            subsections:
+            - 13.1a Project Planning and Management
+            - 13.1b Project Implementation
+            - 13.1c Project Evaluation and Reporting
+    - '- Chapter 14: Advanced Topics in Distributed Algorithms:':
+        sections:
+        - '- Section: 14.1 Distributed Graph Algorithms:':
+            subsections:
+            - 14.1a Distributed Depth-First Search
+            - 14.1b Distributed Dijkstra's Algorithm
+        - '- Section: 14.2 Distributed Hash Tables:':
+            subsections:
+            - 14.2a Basic Principles of Distributed Hash Tables
+            - 14.2b Applications and Challenges
+        - '- Section: 14.3 Distributed Machine Learning:':
+            subsections:
+            - 14.3a Distributed Gradient Descent
+            - 14.3b Federated Learning
+    - '- Chapter 15: Security in Distributed Systems:':
+        sections:
+        - '- Section: 15.1 Cryptography in Distributed Systems:':
+            subsections:
+            - 15.1a Symmetric Key Cryptography
+            - 15.1b Public Key Cryptography
+        - '- Section: 15.2 Distributed Denial of Service Attacks:':
+            subsections:
+            - 15.2a Basic Principles of DDoS Attacks
+            - 15.2b Mitigation Techniques
+        - '- Section: 15.3 Blockchain and Distributed Systems:':
+            subsections:
+            - 15.3a Basic Principles of Blockchain
+            - 15.3b Applications and Challenges
+    - '- Chapter 16: Distributed Systems and the Internet of Things:':
+        sections:
+        - '- Section: 16.1 IoT Architecture:':
+            subsections:
+            - 16.1a Basic Principles of IoT Architecture
+            - 16.1b Challenges and Solutions
+        - '- Section: 16.2 IoT Protocols:':
+            subsections:
+            - 16.2a MQTT
+            - 16.2b CoAP
+        - '- Section: 16.3 IoT and Edge Computing:':
+            subsections:
+            - 16.3a Basic Principles of Edge Computing
+            - 16.3b Applications and Challenges
+    - '- Chapter 17: Distributed Systems and Cloud Computing:':
+        sections:
+        - '- Section: 17.1 Cloud Computing Models:':
+            subsections:
+            - 17.1a Infrastructure as a Service (IaaS)
+            - 17.1b Platform as a Service (PaaS)
+            - 17.1c Software as a Service (SaaS)
+        - '- Section: 17.2 Cloud Computing Services:':
+            subsections:
+            - 17.2a Amazon Web Services (AWS)
+            - 17.2b Google Cloud Platform (GCP)
+            - 17.2c Microsoft Azure
+        - '- Section: 17.3 Cloud Computing and Distributed Systems:':
+            subsections:
+            - 17.3a Basic Principles of Cloud Computing in Distributed Systems
+            - 17.3b Applications and Challenges
+    - '- Chapter 18: Distributed Systems and Big Data:':
+        sections:
+        - '- Section: 18.1 Big Data Technologies:':
+            subsections:
+            - 18.1a Hadoop
+            - 18.1b Spark
+            - 18.1c NoSQL Databases
+        - '- Section: 18.2 Big Data and Distributed Systems:':
+            subsections:
+            - 18.2a Basic Principles of Big Data in Distributed Systems
+            - 18.2b Applications and Challenges
+    - '- Chapter 19: Distributed Systems and Microservices:':
+        sections:
+        - '- Section: 19.1 Microservices Architecture:':
+            subsections:
+            - 19.1a Basic Principles of Microservices Architecture
+            - 19.1b Challenges and Solutions
+        - '- Section: 19.2 Microservices and Distributed Systems:':
+            subsections:
+            - 19.2a Basic Principles of Microservices in Distributed Systems
+            - 19.2b Applications and Challenges
+    - '- Chapter 20: Future Trends in Distributed Systems:':
+        sections:
+        - '- Section: 20.1 Quantum Computing and Distributed Systems:':
+            subsections:
+            - 20.1a Basic Principles of Quantum Computing
+            - 20.1b Potential Impact on Distributed Systems
+        - '- Section: 20.2 Distributed Systems and Artificial Intelligence:':
+            subsections:
+            - 20.2a Basic Principles of AI in Distributed Systems
+            - 20.2b Applications and Challenges
+        - '- Section: 20.3 Ethical Considerations in Distributed Systems:':
+            subsections:
+            - 20.3a Privacy and Security
+            - 20.3b Fairness and Transparency
+            - 20.3c Accountability and Trust

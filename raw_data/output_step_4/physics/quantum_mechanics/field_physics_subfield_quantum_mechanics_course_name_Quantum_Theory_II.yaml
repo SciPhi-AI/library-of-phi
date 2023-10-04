@@ -1,0 +1,194 @@
+textbook:
+  ? 'Quantum Theory II: A Comprehensive Guide to Time-dependent Perturbation Theory,
+    Symmetry in Quantum Mechanics, Scattering, and Relativistic Quantum Mechanics":'
+  : chapters:
+    - '- Chapter 1: Background:':
+        sections:
+        - '- Section: 1.1 Course Number: 8.322:':
+            subsections:
+            - 1.1a Introduction to Course Number
+            - 1.1b Importance of Course Number
+            - 1.1c Application of Course Number
+        - '- Section: 1.2 Course Name: Quantum Theory II:':
+            subsections:
+            - 1.2a Introduction to Course Name
+            - 1.2b Importance of Course Name
+            - 1.2c Application of Course Name
+        - '- Section: 1.3 Resource Level: Graduate:':
+            subsections:
+            - 1.3a Introduction to Resource Level
+            - 1.3b Importance of Resource Level
+            - 1.3c Application of Resource Level
+    - '- Chapter 2: Time-dependent Perturbation Theory and Applications to Radiation:':
+        sections:
+        - '- Section: 2.1 Time-dependent Potentials Exactly Soluble:':
+            subsections:
+            - 2.1a Introduction to Time-dependent Potentials
+            - 2.1b Solving Time-dependent Potentials
+            - 2.1c Applications of Time-dependent Potentials
+        - '- Section: 2.2 2-State Problem:':
+            subsections:
+            - 2.2a Introduction to 2-State Problem
+            - 2.2b Solving 2-State Problem
+            - 2.2c Applications of 2-State Problem
+        - '- Section: 2.3 Time-dependent Perturbation Theory:':
+            subsections:
+            - 2.3a Introduction to Time-dependent Perturbation Theory
+            - 2.3b Solving Time-dependent Perturbation Theory
+            - 2.3c Applications of Time-dependent Perturbation Theory
+        - "- Section: 2.4 First Order Perturbation Theory - Fermi\u2019s Golden Rule:":
+            subsections:
+            - "2.4a Introduction to Fermi\u2019s Golden Rule"
+            - "2.4b Applying Fermi\u2019s Golden Rule"
+            - "2.4c Applications of Fermi\u2019s Golden Rule"
+    - '- Chapter 3: Coupling to Radiation Field:':
+        sections:
+        - '- Section: 3.1 Absorption Cross-section:':
+            subsections:
+            - 3.1a Introduction to Absorption Cross-section
+            - 3.1b Calculating Absorption Cross-section
+            - 3.1c Applications of Absorption Cross-section
+        - '- Section: 3.2 Photoelectric Effect:':
+            subsections:
+            - 3.2a Introduction to Photoelectric Effect
+            - 3.2b Understanding Photoelectric Effect
+            - 3.2c Applications of Photoelectric Effect
+        - '- Section: 3.3 Quantization of Transverse EM Field:':
+            subsections:
+            - 3.3a Introduction to Quantization of Transverse EM Field
+            - 3.3b Understanding Quantization of Transverse EM Field
+            - 3.3c Applications of Quantization of Transverse EM Field
+        - '- Section: 3.4 E1 Spontaneous Emission:':
+            subsections:
+            - 3.4a Introduction to E1 Spontaneous Emission
+            - 3.4b Understanding E1 Spontaneous Emission
+            - 3.4c Applications of E1 Spontaneous Emission
+    - '- Chapter 4: Higher Multipole Transitions:':
+        sections:
+        - "- Section: 4.1 Planck\u2019s Radiation Law:":
+            subsections:
+            - "4.1a Introduction to Planck\u2019s Radiation Law"
+            - "4.1b Understanding Planck\u2019s Radiation Law"
+            - "4.1c Applications of Planck\u2019s Radiation Law"
+        - '- Section: 4.2 Damping and Natural Line Width:':
+            subsections:
+            - 4.2a Introduction to Damping and Natural Line Width
+            - 4.2b Understanding Damping and Natural Line Width
+            - 4.2c Applications of Damping and Natural Line Width
+        - "- Section: 4.3 Adiabatic Theorem and Berry\u2019s Phase:":
+            subsections:
+            - "4.3a Introduction to Adiabatic Theorem and Berry\u2019s Phase"
+            - "4.3b Understanding Adiabatic Theorem and Berry\u2019s Phase"
+            - "4.3c Applications of Adiabatic Theorem and Berry\u2019s Phase"
+    - '- Chapter 5: Symmetry in Quantum Mechanics:':
+        sections:
+        - '- Section: 5.1 Introduction to Symmetry in Quantum Mechanics:':
+            subsections:
+            - 5.1a Understanding Symmetry in Quantum Mechanics
+            - 5.1b Importance of Symmetry in Quantum Mechanics
+            - 5.1c Applications of Symmetry in Quantum Mechanics
+    - '- Chapter 6: Scattering:':
+        sections:
+        - '- Section: 6.1 Introduction to Scattering:':
+            subsections:
+            - 6.1a Understanding Scattering
+            - 6.1b Importance of Scattering
+            - 6.1c Applications of Scattering
+    - '- Chapter 7: Relativistic Quantum Mechanics:':
+        sections:
+        - '- Section: 7.1 Introduction to Relativistic Quantum Mechanics:':
+            subsections:
+            - 7.1a Understanding Relativistic Quantum Mechanics
+            - 7.1b Importance of Relativistic Quantum Mechanics
+            - 7.1c Applications of Relativistic Quantum Mechanics
+    - '- Chapter 8: Quantum Field Theory:':
+        sections:
+        - '- Section: 8.1 Introduction to Quantum Field Theory:':
+            subsections:
+            - 8.1a Understanding Quantum Field Theory
+            - 8.1b Importance of Quantum Field Theory
+            - 8.1c Applications of Quantum Field Theory
+    - '- Chapter 9: Quantum Electrodynamics:':
+        sections:
+        - '- Section: 9.1 Introduction to Quantum Electrodynamics:':
+            subsections:
+            - 9.1a Understanding Quantum Electrodynamics
+            - 9.1b Importance of Quantum Electrodynamics
+            - 9.1c Applications of Quantum Electrodynamics
+    - '- Chapter 10: Quantum Chromodynamics:':
+        sections:
+        - '- Section: 10.1 Introduction to Quantum Chromodynamics:':
+            subsections:
+            - 10.1a Understanding Quantum Chromodynamics
+            - 10.1b Importance of Quantum Chromodynamics
+            - 10.1c Applications of Quantum Chromodynamics
+    - '- Chapter 11: Quantum Gravity:':
+        sections:
+        - '- Section: 11.1 Introduction to Quantum Gravity:':
+            subsections:
+            - 11.1a Understanding Quantum Gravity
+            - 11.1b Importance of Quantum Gravity
+            - 11.1c Applications of Quantum Gravity
+    - '- Chapter 12: Quantum Cosmology:':
+        sections:
+        - '- Section: 12.1 Introduction to Quantum Cosmology:':
+            subsections:
+            - 12.1a Understanding Quantum Cosmology
+            - 12.1b Importance of Quantum Cosmology
+            - 12.1c Applications of Quantum Cosmology
+    - '- Chapter 13: Quantum Information:':
+        sections:
+        - '- Section: 13.1 Introduction to Quantum Information:':
+            subsections:
+            - 13.1a Understanding Quantum Information
+            - 13.1b Importance of Quantum Information
+            - 13.1c Applications of Quantum Information
+    - '- Chapter 14: Quantum Computation:':
+        sections:
+        - '- Section: 14.1 Introduction to Quantum Computation:':
+            subsections:
+            - 14.1a Understanding Quantum Computation
+            - 14.1b Importance of Quantum Computation
+            - 14.1c Applications of Quantum Computation
+    - '- Chapter 15: Quantum Cryptography:':
+        sections:
+        - '- Section: 15.1 Introduction to Quantum Cryptography:':
+            subsections:
+            - 15.1a Understanding Quantum Cryptography
+            - 15.1b Importance of Quantum Cryptography
+            - 15.1c Applications of Quantum Cryptography
+    - '- Chapter 16: Quantum Teleportation:':
+        sections:
+        - '- Section: 16.1 Introduction to Quantum Teleportation:':
+            subsections:
+            - 16.1a Understanding Quantum Teleportation
+            - 16.1b Importance of Quantum Teleportation
+            - 16.1c Applications of Quantum Teleportation
+    - '- Chapter 17: Quantum Entanglement:':
+        sections:
+        - '- Section: 17.1 Introduction to Quantum Entanglement:':
+            subsections:
+            - 17.1a Understanding Quantum Entanglement
+            - 17.1b Importance of Quantum Entanglement
+            - 17.1c Applications of Quantum Entanglement
+    - '- Chapter 18: Quantum Decoherence:':
+        sections:
+        - '- Section: 18.1 Introduction to Quantum Decoherence:':
+            subsections:
+            - 18.1a Understanding Quantum Decoherence
+            - 18.1b Importance of Quantum Decoherence
+            - 18.1c Applications of Quantum Decoherence
+    - '- Chapter 19: Quantum Tunneling:':
+        sections:
+        - '- Section: 19.1 Introduction to Quantum Tunneling:':
+            subsections:
+            - 19.1a Understanding Quantum Tunneling
+            - 19.1b Importance of Quantum Tunneling
+            - 19.1c Applications of Quantum Tunneling
+    - '- Chapter 20: Quantum Superposition:':
+        sections:
+        - '- Section: 20.1 Introduction to Quantum Superposition:':
+            subsections:
+            - 20.1a Understanding Quantum Superposition
+            - 20.1b Importance of Quantum Superposition
+            - 20.1c Applications of Quantum Superposition

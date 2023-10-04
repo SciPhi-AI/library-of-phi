@@ -1,0 +1,415 @@
+textbook: 
+"Mechanics & Materials I: A Comprehensive Guide to Statics, Strength of Materials, and Deformable Bodies":
+
+chapters:
+- Chapter 1: Statics - Elements of Equilibrium:
+sections:
+- Section: 1.1 Course Outline:
+subsections:
+- 1.1a Introduction to Course
+- 1.1b Course Objectives
+- 1.1c Course Materials
+
+- Section: 1.2 Review of Forces and Moments:
+subsections:
+- 1.2a Definition of Forces
+- 1.2b Definition of Moments
+- 1.2c Forces and Moments in Statics
+
+- Section: 1.3 Introduction to Equilibrium:
+subsections:
+- 1.3a Definition of Equilibrium
+- 1.3b Equilibrium in Statics
+- 1.3c Applications of Equilibrium
+
+- Section: 1.4 Forces, Moments, Equilibrium:
+subsections:
+- 1.4a Forces in Equilibrium
+- 1.4b Moments in Equilibrium
+- 1.4c Solving Equilibrium Problems
+
+- Chapter 2: Forces and Moments Transmitted by Slender Members:
+sections:
+- Section: 2.1 Shear Force and Bending Moment Diagrams:
+subsections:
+- 2.1a Definition of Shear Force
+- 2.1b Definition of Bending Moment
+- 2.1c Creating Shear Force and Bending Moment Diagrams
+
+- Section: 2.2 Force-deformation Relationships and Static Indeterminacy:
+subsections:
+- 2.2a Force-deformation Relationships
+- 2.2b Definition of Static Indeterminacy
+- 2.2c Solving Static Indeterminacy Problems
+
+- Section: 2.3 Finishing up Static Indeterminacy; Uniaxial Loading and Material Properties:
+subsections:
+- 2.3a Advanced Static Indeterminacy Problems
+- 2.3b Uniaxial Loading
+- 2.3c Material Properties under Uniaxial Loading
+
+- Section: 2.4 Trusses and Their Deformations:
+subsections:
+- 2.4a Definition of Trusses
+- 2.4b Truss Deformations
+- 2.4c Solving Truss Deformation Problems
+
+- Chapter 3: Mechanics of Deformable Bodies - Introduction:
+sections:
+- Section: 3.1 Quiz 1:
+subsections:
+- 3.1a Quiz 1 Preparation
+- 3.1b Quiz 1 Questions
+- 3.1c Quiz 1 Solutions
+
+- Section: 3.2 Multiaxial Stress:
+subsections:
+- 3.2a Definition of Multiaxial Stress
+- 3.2b Multiaxial Stress in Deformable Bodies
+- 3.2c Solving Multiaxial Stress Problems
+
+- Section: 3.3 Multiaxial Strain and Multiaxial Stress-strain Relationships:
+subsections:
+- 3.3a Definition of Multiaxial Strain
+- 3.3b Multiaxial Stress-strain Relationships
+- 3.3c Solving Multiaxial Strain Problems
+
+- Section: 3.4 Stress-strain-temperature Relationships and Thin-walled Pressure Vessels:
+subsections:
+- 3.4a Stress-strain-temperature Relationships
+- 3.4b Thin-walled Pressure Vessels
+- 3.4c Solving Thin-walled Pressure Vessel Problems
+
+- Chapter 4: Pure Bending:
+sections:
+- Section: 4.1 Quiz 2:
+subsections:
+- 4.1a Quiz 2 Preparation
+- 4.1b Quiz 2 Questions
+- 4.1c Quiz 2 Solutions
+
+- Section: 4.2 Moment-curvature Relationship:
+subsections:
+- 4.2a Definition of Moment-curvature Relationship
+- 4.2b Moment-curvature Relationship in Pure Bending
+- 4.2c Solving Moment-curvature Problems
+
+- Section: 4.3 Beam Deflection:
+subsections:
+- 4.3a Definition of Beam Deflection
+- 4.3b Beam Deflection in Pure Bending
+- 4.3c Solving Beam Deflection Problems
+
+- Section: 4.4 Symmetry, Superposition, and Statically Indeterminate Beams:
+subsections:
+- 4.4a Symmetry in Pure Bending
+- 4.4b Superposition in Pure Bending
+- 4.4c Statically Indeterminate Beams in Pure Bending
+
+- Chapter 5: Energy Methods:
+sections:
+- Section: 5.1 Examples:
+subsections:
+- 5.1a Energy Methods Example 1
+- 5.1b Energy Methods Example 2
+- 5.1c Energy Methods Example 3
+
+- Chapter 6: Stress and Strain:
+sections:
+- Section: 6.1 Stress Analysis:
+subsections:
+- 6.1a Introduction to Stress Analysis
+- 6.1b Stress Analysis Techniques
+- 6.1c Stress Analysis Examples
+
+- Section: 6.2 Strain Analysis:
+subsections:
+- 6.2a Introduction to Strain Analysis
+- 6.2b Strain Analysis Techniques
+- 6.2c Strain Analysis Examples
+
+- Section: 6.3 Stress-Strain Relationships:
+subsections:
+- 6.3a Introduction to Stress-Strain Relationships
+- 6.3b Stress-Strain Curve
+- 6.3c Applications of Stress-Strain Relationships
+
+- Chapter 7: Material Properties:
+sections:
+- Section: 7.1 Material Properties Overview:
+subsections:
+- 7.1a Introduction to Material Properties
+- 7.1b Material Properties in Mechanics
+- 7.1c Material Properties in Materials Science
+
+- Section: 7.2 Material Testing:
+subsections:
+- 7.2a Introduction to Material Testing
+- 7.2b Material Testing Techniques
+- 7.2c Material Testing Examples
+
+- Section: 7.3 Material Selection:
+subsections:
+- 7.3a Introduction to Material Selection
+- 7.3b Material Selection Criteria
+- 7.3c Material Selection Examples
+
+- Chapter 8: Static Indeterminacy:
+sections:
+- Section: 8.1 Static Indeterminacy Overview:
+subsections:
+- 8.1a Introduction to Static Indeterminacy
+- 8.1b Static Indeterminacy in Structures
+- 8.1c Static Indeterminacy Examples
+
+- Section: 8.2 Solving Static Indeterminacy Problems:
+subsections:
+- 8.2a Introduction to Solving Static Indeterminacy Problems
+- 8.2b Techniques for Solving Static Indeterminacy Problems
+- 8.2c Static Indeterminacy Problem Examples
+
+- Section: 8.3 Static Indeterminacy in Trusses:
+subsections:
+- 8.3a Introduction to Static Indeterminacy in Trusses
+- 8.3b Solving Static Indeterminacy Problems in Trusses
+- 8.3c Static Indeterminacy in Trusses Examples
+
+- Chapter 9: Deformations:
+sections:
+- Section: 9.1 Deformations Overview:
+subsections:
+- 9.1a Introduction to Deformations
+- 9.1b Deformations in Structures
+- 9.1c Deformations Examples
+
+- Section: 9.2 Solving Deformation Problems:
+subsections:
+- 9.2a Introduction to Solving Deformation Problems
+- 9.2b Techniques for Solving Deformation Problems
+- 9.2c Deformation Problem Examples
+
+- Section: 9.3 Deformations in Trusses:
+subsections:
+- 9.3a Introduction to Deformations in Trusses
+- 9.3b Solving Deformation Problems in Trusses
+- 9.3c Deformations in Trusses Examples
+
+- Chapter 10: Multiaxial Stress:
+sections:
+- Section: 10.1 Multiaxial Stress Overview:
+subsections:
+- 10.1a Introduction to Multiaxial Stress
+- 10.1b Multiaxial Stress in Structures
+- 10.1c Multiaxial Stress Examples
+
+- Section: 10.2 Solving Multiaxial Stress Problems:
+subsections:
+- 10.2a Introduction to Solving Multiaxial Stress Problems
+- 10.2b Techniques for Solving Multiaxial Stress Problems
+- 10.2c Multiaxial Stress Problem Examples
+
+- Section: 10.3 Multiaxial Stress in Deformable Bodies:
+subsections:
+- 10.3a Introduction to Multiaxial Stress in Deformable Bodies
+- 10.3b Solving Multiaxial Stress Problems in Deformable Bodies
+- 10.3c Multiaxial Stress in Deformable Bodies Examples
+
+- Chapter 11: Multiaxial Strain:
+sections:
+- Section: 11.1 Multiaxial Strain Overview:
+subsections:
+- 11.1a Introduction to Multiaxial Strain
+- 11.1b Multiaxial Strain in Structures
+- 11.1c Multiaxial Strain Examples
+
+- Section: 11.2 Solving Multiaxial Strain Problems:
+subsections:
+- 11.2a Introduction to Solving Multiaxial Strain Problems
+- 11.2b Techniques for Solving Multiaxial Strain Problems
+- 11.2c Multiaxial Strain Problem Examples
+
+- Section: 11.3 Multiaxial Strain in Deformable Bodies:
+subsections:
+- 11.3a Introduction to Multiaxial Strain in Deformable Bodies
+- 11.3b Solving Multiaxial Strain Problems in Deformable Bodies
+- 11.3c Multiaxial Strain in Deformable Bodies Examples
+
+- Chapter 12: Stress-Strain-Temperature Relationships:
+sections:
+- Section: 12.1 Stress-Strain-Temperature Relationships Overview:
+subsections:
+- 12.1a Introduction to Stress-Strain-Temperature Relationships
+- 12.1b Stress-Strain-Temperature Relationships in Structures
+- 12.1c Stress-Strain-Temperature Relationships Examples
+
+- Section: 12.2 Solving Stress-Strain-Temperature Problems:
+subsections:
+- 12.2a Introduction to Solving Stress-Strain-Temperature Problems
+- 12.2b Techniques for Solving Stress-Strain-Temperature Problems
+- 12.2c Stress-Strain-Temperature Problem Examples
+
+- Section: 12.3 Stress-Strain-Temperature Relationships in Thin-Walled Pressure Vessels:
+subsections:
+- 12.3a Introduction to Stress-Strain-Temperature Relationships in Thin-Walled Pressure Vessels
+- 12.3b Solving Stress-Strain-Temperature Problems in Thin-Walled Pressure Vessels
+- 12.3c Stress-Strain-Temperature in Thin-Walled Pressure Vessels Examples
+
+- Chapter 13: Stress Transformations:
+sections:
+- Section: 13.1 Stress Transformations Overview:
+subsections:
+- 13.1a Introduction to Stress Transformations
+- 13.1b Stress Transformations in Structures
+- 13.1c Stress Transformations Examples
+
+- Section: 13.2 Solving Stress Transformation Problems:
+subsections:
+- 13.2a Introduction to Solving Stress Transformation Problems
+- 13.2b Techniques for Solving Stress Transformation Problems
+- 13.2c Stress Transformation Problem Examples
+
+- Section: 13.3 Principal Stress:
+subsections:
+- 13.3a Introduction to Principal Stress
+- 13.3b Principal Stress in Structures
+- 13.3c Principal Stress Examples
+
+- Chapter 14: Strain Transformations:
+sections:
+- Section: 14.1 Strain Transformations Overview:
+subsections:
+- 14.1a Introduction to Strain Transformations
+- 14.1b Strain Transformations in Structures
+- 14.1c Strain Transformations Examples
+
+- Section: 14.2 Solving Strain Transformation Problems:
+subsections:
+- 14.2a Introduction to Solving Strain Transformation Problems
+- 14.2b Techniques for Solving Strain Transformation Problems
+- 14.2c Strain Transformation Problem Examples
+
+- Section: 14.3 Principal Strain:
+subsections:
+- 14.3a Introduction to Principal Strain
+- 14.3b Principal Strain in Structures
+- 14.3c Principal Strain Examples
+
+- Chapter 15: Failure of Materials:
+sections:
+- Section: 15.1 Failure of Materials Overview:
+subsections:
+- 15.1a Introduction to Failure of Materials
+- 15.1b Failure of Materials in Structures
+- 15.1c Failure of Materials Examples
+
+- Section: 15.2 Solving Failure of Materials Problems:
+subsections:
+- 15.2a Introduction to Solving Failure of Materials Problems
+- 15.2b Techniques for Solving Failure of Materials Problems
+- 15.2c Failure of Materials Problem Examples
+
+- Section: 15.3 Examples:
+subsections:
+- 15.3a Failure of Materials Example 1
+- 15.3b Failure of Materials Example 2
+- 15.3c Failure of Materials Example 3
+
+- Chapter 16: Moment-Curvature Relationship:
+sections:
+- Section: 16.1 Moment-Curvature Relationship Overview:
+subsections:
+- 16.1a Introduction to Moment-Curvature Relationship
+- 16.1b Moment-Curvature Relationship in Structures
+- 16.1c Moment-Curvature Relationship Examples
+
+- Section: 16.2 Solving Moment-Curvature Problems:
+subsections:
+- 16.2a Introduction to Solving Moment-Curvature Problems
+- 16.2b Techniques for Solving Moment-Curvature Problems
+- 16.2c Moment-Curvature Problem Examples
+
+- Section: 16.3 Beam Deflection:
+subsections:
+- 16.3a Introduction to Beam Deflection
+- 16.3b Beam Deflection in Structures
+- 16.3c Beam Deflection Examples
+
+- Chapter 17: Symmetry, Superposition, and Statically Indeterminate Beams:
+sections:
+- Section: 17.1 Symmetry in Structures:
+subsections:
+- 17.1a Introduction to Symmetry in Structures
+- 17.1b Symmetry in Structures Examples
+- 17.1c Solving Symmetry in Structures Problems
+
+- Section: 17.2 Superposition in Structures:
+subsections:
+- 17.2a Introduction to Superposition in Structures
+- 17.2b Superposition in Structures Examples
+- 17.2c Solving Superposition in Structures Problems
+
+- Section: 17.3 Statically Indeterminate Beams:
+subsections:
+- 17.3a Introduction to Statically Indeterminate Beams
+- 17.3b Statically Indeterminate Beams Examples
+- 17.3c Solving Statically Indeterminate Beams Problems
+
+- Chapter 18: Torsion and Twisting:
+sections:
+- Section: 18.1 Torsion in Structures:
+subsections:
+- 18.1a Introduction to Torsion in Structures
+- 18.1b Torsion in Structures Examples
+- 18.1c Solving Torsion in Structures Problems
+
+- Section: 18.2 Twisting in Structures:
+subsections:
+- 18.2a Introduction to Twisting in Structures
+- 18.2b Twisting in Structures Examples
+- 18.2c Solving Twisting in Structures Problems
+
+- Section: 18.3 Torsion and Twisting Examples:
+subsections:
+- 18.3a Torsion and Twisting Example 1
+- 18.3b Torsion and Twisting Example 2
+- 18.3c Torsion and Twisting Example 3
+
+- Chapter 19: Energy Methods:
+sections:
+- Section: 19.1 Energy Methods Overview:
+subsections:
+- 19.1a Introduction to Energy Methods
+- 19.1b Energy Methods in Structures
+- 19.1c Energy Methods Examples
+
+- Section: 19.2 Solving Energy Methods Problems:
+subsections:
+- 19.2a Introduction to Solving Energy Methods Problems
+- 19.2b Techniques for Solving Energy Methods Problems
+- 19.2c Energy Methods Problem Examples
+
+- Section: 19.3 Energy Methods in Structures:
+subsections:
+- 19.3a Introduction to Energy Methods in Structures
+- 19.3b Energy Methods in Structures Examples
+- 19.3c Solving Energy Methods in Structures Problems
+
+- Chapter 20: Review and Final Exam:
+sections:
+- Section: 20.1 Course Review:
+subsections:
+- 20.1a Course Review Part 1
+- 20.1b Course Review Part 2
+- 20.1c Course Review Part 3
+
+- Section: 20.2 Final Exam Preparation:
+subsections:
+- 20.2a Final Exam Study Guide
+- 20.2b Final Exam Practice Problems
+- 20.2c Final Exam Tips and Strategies
+
+- Section: 20.3 Final Exam:
+subsections:
+- 20.3a Final Exam Questions
+- 20.3b Final Exam Solutions
+- 20.3c Final Exam Reflection

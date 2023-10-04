@@ -1,0 +1,358 @@
+textbook:
+  'Atmospheric Chemistry and Transport: A Comprehensive Study":':
+    chapters:
+    - '- Chapter 1: Introduction, Properties of the Atmosphere:':
+        sections:
+        - '- Section: 1.1 Atmospheric Composition:':
+            subsections:
+            - 1.1a Major Constituents
+            - 1.1b Trace Gases
+            - 1.1c Aerosols
+        - '- Section: 1.2 Atmospheric Structure:':
+            subsections:
+            - 1.2a Troposphere
+            - 1.2b Stratosphere
+            - 1.2c Mesosphere and Thermosphere
+        - '- Section: 1.3 Thermodynamics of the Atmosphere:':
+            subsections:
+            - 1.3a Temperature and Pressure
+            - 1.3b Energy Transfer
+            - 1.3c Atmospheric Stability
+        - '- Section: 1.4 Radiative Forcing:':
+            subsections:
+            - 1.4a Solar Radiation
+            - 1.4b Greenhouse Effect
+            - 1.4c Anthropogenic Influences
+    - '- Chapter 2: Combustion Sources and Stoichiometry:':
+        sections:
+        - '- Section: 2.1 Combustion Reactions:':
+            subsections:
+            - 2.1a Combustion Basics
+            - 2.1b Heat of Combustion
+            - 2.1c Combustion Efficiency
+        - '- Section: 2.2 Stoichiometric Calculations:':
+            subsections:
+            - 2.2a Balancing Chemical Equations
+            - 2.2b Mole Ratios
+            - 2.2c Limiting Reactants
+        - '- Section: 2.3 Pollutant Emissions from Combustion Sources:':
+            subsections:
+            - 2.3a Carbon Monoxide Emissions
+            - 2.3b Nitrogen Oxides Emissions
+            - 2.3c Particulate Matter Emissions
+    - '- Chapter 3: Chemical Thermodynamics/Kinetics:':
+        sections:
+        - '- Section: 3.1 Equilibrium Constants:':
+            subsections:
+            - 3.1a Definition and Calculation
+            - 3.1b Le Chatelier's Principle
+            - 3.1c Applications in Atmospheric Chemistry
+        - '- Section: 3.2 Reaction Rates:':
+            subsections:
+            - 3.2a Rate Laws
+            - 3.2b Reaction Order
+            - 3.2c Temperature Dependence
+        - '- Section: 3.3 Activation Energy:':
+            subsections:
+            - 3.3a Definition and Calculation
+            - 3.3b Arrhenius Equation
+            - 3.3c Applications in Atmospheric Chemistry
+        - '- Section: 3.4 Catalysis:':
+            subsections:
+            - 3.4a Catalysts in Atmospheric Reactions
+            - 3.4b Heterogeneous Catalysis
+            - 3.4c Homogeneous Catalysis
+    - '- Chapter 4: Radiative Transfer and Photochemistry:':
+        sections:
+        - '- Section: 4.1 Absorption and Emission of Radiation:':
+            subsections:
+            - 4.1a Electromagnetic Spectrum
+            - 4.1b Absorption Spectra
+            - 4.1c Emission Spectra
+        - '- Section: 4.2 Photochemical Reactions:':
+            subsections:
+            - 4.2a Photodissociation
+            - 4.2b Photoionization
+            - 4.2c Photolysis Rates
+        - '- Section: 4.3 Photodissociation:':
+            subsections:
+            - 4.3a Quantum Yield
+            - 4.3b Photodissociation Cross Section
+            - 4.3c Photodissociation in the Atmosphere
+        - '- Section: 4.4 Photochemical Smog:':
+            subsections:
+            - 4.4a Formation Mechanisms
+            - 4.4b Health and Environmental Impacts
+            - 4.4c Control Strategies
+    - '- Chapter 5: Tropospheric Chemistry: CO:':
+        sections:
+        - '- Section: 5.1 Carbon Monoxide Sources and Sinks:':
+            subsections:
+            - 5.1a Natural Sources
+            - 5.1b Anthropogenic Sources
+            - 5.1c Removal Mechanisms
+        - '- Section: 5.2 Role in Air Pollution and Climate Change:':
+            subsections:
+            - 5.2a CO as a Pollutant
+            - 5.2b CO and the Greenhouse Effect
+            - 5.2c CO and Ozone Formation
+        - '- Section: 5.3 Atmospheric Lifetime:':
+            subsections:
+            - 5.3a Definition and Calculation
+            - 5.3b Factors Affecting Lifetime
+            - 5.3c Implications for Air Quality
+    - '- Chapter 6: Tropospheric Chemistry: NOx and Ozone:':
+        sections:
+        - '- Section: 6.1 Nitrogen Oxides Sources and Sinks:':
+            subsections:
+            - 6.1a Natural Sources
+            - 6.1b Anthropogenic Sources
+            - 6.1c Removal Mechanisms
+        - '- Section: 6.2 Ozone Formation and Destruction:':
+            subsections:
+            - 6.2a Photochemical Ozone Formation
+            - 6.2b Ozone Destruction Mechanisms
+            - 6.2c Ozone in the Troposphere vs. Stratosphere
+        - '- Section: 6.3 Tropospheric Ozone Chemistry:':
+            subsections:
+            - 6.3a Ozone Cycle
+            - 6.3b Role of VOCs and NOx
+            - 6.3c Ozone as an Air Pollutant
+    - '- Chapter 7: Tropospheric Chemistry: HCHO and Ozone:':
+        sections:
+        - '- Section: 7.1 Formaldehyde Sources and Sinks:':
+            subsections:
+            - 7.1a Natural Sources
+            - 7.1b Anthropogenic Sources
+            - 7.1c Removal Mechanisms
+        - '- Section: 7.2 Ozone-Forming Potential of Formaldehyde:':
+            subsections:
+            - 7.2a Formaldehyde and VOCs
+            - 7.2b Formaldehyde and NOx
+            - 7.2c Formaldehyde and Ozone Formation
+        - '- Section: 7.3 Formaldehyde as an Air Pollutant:':
+            subsections:
+            - 7.3a Health Effects
+            - 7.3b Environmental Effects
+            - 7.3c Control Strategies
+    - '- Chapter 8: Tropospheric Chemistry: Complex Hydrocarbons:':
+        sections:
+        - '- Section: 8.1 Volatile Organic Compounds (VOCs):':
+            subsections:
+            - 8.1a Definition and Types
+            - 8.1b Sources of VOCs
+            - 8.1c VOCs and Ozone Formation
+        - '- Section: 8.2 Reaction Mechanisms of Complex Hydrocarbons:':
+            subsections:
+            - 8.2a Oxidation Reactions
+            - 8.2b Radical Chain Reactions
+            - 8.2c Termination Reactions
+        - '- Section: 8.3 Secondary Organic Aerosol Formation:':
+            subsections:
+            - 8.3a Formation Mechanisms
+            - 8.3b Health and Environmental Impacts
+            - 8.3c Control Strategies
+    - '- Chapter 9: Atmospheric Chemistry and Transport: Continuity Equation and Basic Structures:':
+        sections:
+        - '- Section: 9.1 Mass Conservation Equation:':
+            subsections:
+            - 9.1a Derivation and Assumptions
+            - 9.1b Applications in Atmospheric Chemistry
+            - 9.1c Conservation of Individual Species
+        - '- Section: 9.2 Advection and Diffusion Processes:':
+            subsections:
+            - 9.2a Definition and Differences
+            - 9.2b Advection-Diffusion Equation
+            - 9.2c Applications in Atmospheric Transport
+        - '- Section: 9.3 Basic Structures in Atmospheric Transport:':
+            subsections:
+            - 9.3a Atmospheric Boundary Layer
+            - 9.3b Convection and Turbulence
+            - 9.3c Long-Range Transport
+    - '- Chapter 10: Tropospheric Chemistry: Homogeneous Processes:':
+        sections:
+        - '- Section: 10.1 Homogeneous Gas-Phase Reactions:':
+            subsections:
+            - 10.1a Reaction Types
+            - 10.1b Reaction Rates
+            - 10.1c Reaction Mechanisms
+        - '- Section: 10.2 Chemical Equilibrium in the Troposphere:':
+            subsections:
+            - 10.2a Definition and Calculation
+            - 10.2b Le Chatelier's Principle
+            - 10.2c Applications in Atmospheric Chemistry
+        - '- Section: 10.3 Tropospheric Organic Chemistry:':
+            subsections:
+            - 10.3a Oxidation of Organic Compounds
+            - 10.3b Formation of Secondary Organic Aerosols
+            - 10.3c Organic Acids in the Atmosphere
+    - '- Chapter 11: Air Pollution Controls:':
+        sections:
+        - '- Section: 11.1 Regulatory Approaches to Air Pollution Control:':
+            subsections:
+            - 11.1a Air Quality Standards
+            - 11.1b Emission Standards
+            - 11.1c Cap-and-Trade Systems
+        - '- Section: 11.2 Control Technologies for Mobile and Stationary Sources:':
+            subsections:
+            - 11.2a Emission Control Devices
+            - 11.2b Fuel Quality Standards
+            - 11.2c Renewable Energy Sources
+        - '- Section: 11.3 Air Quality Standards and Monitoring:':
+            subsections:
+            - 11.3a National Ambient Air Quality Standards
+            - 11.3b Air Quality Index
+            - 11.3c Air Quality Monitoring Networks
+    - '- Chapter 12: Integrated Assessment of Air Pollution:':
+        sections:
+        - '- Section: 12.1 Air Pollution and Human Health:':
+            subsections:
+            - 12.1a Health Effects of Air Pollutants
+            - 12.1b Epidemiological Studies
+            - 12.1c Risk Assessment
+        - '- Section: 12.2 Environmental and Economic Impacts of Air Pollution:':
+            subsections:
+            - 12.2a Acid Rain
+            - 12.2b Visibility Impairment
+            - 12.2c Economic Costs of Air Pollution
+        - '- Section: 12.3 Integrated Assessment Models:':
+            subsections:
+            - 12.3a Model Components
+            - 12.3b Model Applications
+            - 12.3c Uncertainties in Integrated Assessment
+    - '- Chapter 13: Atmospheric Transport Models: Numerical Integration:':
+        sections:
+        - '- Section: 13.1 Eulerian and Lagrangian Models:':
+            subsections:
+            - 13.1a Definition and Differences
+            - 13.1b Applications in Atmospheric Transport
+            - 13.1c Model Evaluation
+        - '- Section: 13.2 Numerical Methods for Solving Transport Equations:':
+            subsections:
+            - 13.2a Finite Difference Methods
+            - 13.2b Finite Volume Methods
+            - 13.2c Spectral Methods
+        - '- Section: 13.3 Grids and Time-Stepping Schemes:':
+            subsections:
+            - 13.3a Grid Types
+            - 13.3b Time-Stepping Schemes
+            - 13.3c Stability and Accuracy
+    - '- Chapter 14: Atmospheric Chemical Transport Models: Examples and Measurement Systems:':
+        sections:
+        - '- Section: 14.1 Description and Evaluation of Chemical Transport Models:':
+            subsections:
+            - 14.1a Model Components
+            - 14.1b Model Applications
+            - 14.1c Model Evaluation
+        - '- Section: 14.2 Model-Data Comparisons:':
+            subsections:
+            - 14.2a Ground-Based Measurements
+            - 14.2b Satellite Measurements
+            - 14.2c Model-Data Fusion
+        - '- Section: 14.3 Remote Sensing Techniques for Atmospheric Measurements:':
+            subsections:
+            - 14.3a Satellite Remote Sensing
+            - 14.3b Ground-Based Remote Sensing
+            - 14.3c Airborne Remote Sensing
+    - '- Chapter 15: Inverse Methods: Optimal Estimation:':
+        sections:
+        - '- Section: 15.1 Inverse Modeling Framework:':
+            subsections:
+            - 15.1a Definition and Applications
+            - 15.1b Inverse Modeling Techniques
+            - 15.1c Uncertainties in Inverse Modeling
+        - '- Section: 15.2 Optimal Estimation Theory:':
+            subsections:
+            - 15.2a Definition and Assumptions
+            - 15.2b Optimal Estimation Algorithm
+            - 15.2c Applications in Atmospheric Science
+        - '- Section: 15.3 Retrieval of Atmospheric Parameters:':
+            subsections:
+            - 15.3a Trace Gas Retrievals
+            - 15.3b Aerosol Retrievals
+            - 15.3c Temperature and Humidity Retrievals
+    - '- Chapter 16: Inverse Methods: Examples:':
+        sections:
+        - '- Section: 16.1 Inversion of Atmospheric Trace Gases:':
+            subsections:
+            - 16.1a CO2 Inversion
+            - 16.1b CH4 Inversion
+            - 16.1c NO2 Inversion
+        - '- Section: 16.2 Estimation of Surface Fluxes:':
+            subsections:
+            - 16.2a Flux Inversion Techniques
+            - 16.2b Flux Inversion Examples
+            - 16.2c Uncertainties in Flux Inversion
+        - '- Section: 16.3 Uncertainty Quantification in Inverse Modeling:':
+            subsections:
+            - 16.3a Sources of Uncertainty
+            - 16.3b Uncertainty Quantification Techniques
+            - 16.3c Uncertainty Reduction Strategies
+    - '- Chapter 17: Integrated Assessment of Climate Change:':
+        sections:
+        - '- Section: 17.1 Climate Change Science and Impacts:':
+            subsections:
+            - 17.1a Greenhouse Effect and Global Warming
+            - 17.1b Climate Change Impacts
+            - 17.1c Climate Change Mitigation and Adaptation
+        - '- Section: 17.2 Greenhouse Gas Emissions and Scenarios:':
+            subsections:
+            - 17.2a Emission Sources
+            - 17.2b Emission Scenarios
+            - 17.2c Emission Reduction Strategies
+        - '- Section: 17.3 Climate Models and Projections:':
+            subsections:
+            - 17.3a Climate Model Components
+            - 17.3b Climate Projections
+            - 17.3c Uncertainties in Climate Projections
+    - '- Chapter 18: Atmospheric Chemistry and Climate Interactions:':
+        sections:
+        - '- Section: 18.1 Aerosols and Climate:':
+            subsections:
+            - 18.1a Aerosol Radiative Effects
+            - 18.1b Aerosol-Cloud Interactions
+            - 18.1c Aerosol Climate Feedbacks
+        - '- Section: 18.2 Greenhouse Gases and Climate:':
+            subsections:
+            - 18.2a CO2 and Climate
+            - 18.2b CH4 and Climate
+            - 18.2c N2O and Climate
+        - '- Section: 18.3 Climate Change and Air Quality:':
+            subsections:
+            - 18.3a Climate Change Impacts on Air Quality
+            - 18.3b Air Quality Impacts on Climate
+            - 18.3c Co-Benefits of Climate and Air Quality Policies
+    - '- Chapter 19: Atmospheric Chemistry in a Changing Climate:':
+        sections:
+        - '- Section: 19.1 Changes in Atmospheric Composition:':
+            subsections:
+            - 19.1a Changes in Trace Gases
+            - 19.1b Changes in Aerosols
+            - 19.1c Changes in Reactive Species
+        - '- Section: 19.2 Changes in Atmospheric Chemistry:':
+            subsections:
+            - 19.2a Changes in Photochemistry
+            - 19.2b Changes in Oxidative Capacity
+            - 19.2c Changes in Deposition Processes
+        - '- Section: 19.3 Changes in Atmospheric Transport:':
+            subsections:
+            - 19.3a Changes in Advection and Convection
+            - 19.3b Changes in Mixing and Dispersion
+            - 19.3c Changes in Removal Processes
+    - '- Chapter 20: Future Perspectives in Atmospheric Chemistry:':
+        sections:
+        - '- Section: 20.1 Emerging Research Topics:':
+            subsections:
+            - 20.1a Air Quality and Health in a Changing Climate
+            - 20.1b Interactions between Air Quality and Ecosystems
+            - 20.1c Air Quality in Megacities
+        - '- Section: 20.2 Technological Advances:':
+            subsections:
+            - 20.2a Advances in Measurement Techniques
+            - 20.2b Advances in Modeling Techniques
+            - 20.2c Advances in Data Analysis Techniques
+        - '- Section: 20.3 Policy Implications:':
+            subsections:
+            - 20.3a Air Quality Policies in a Changing Climate
+            - 20.3b Co-Benefits of Climate and Air Quality Policies
+            - 20.3c Role of Science in Policy Making

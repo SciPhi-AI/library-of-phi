@@ -1,0 +1,451 @@
+textbook: 
+"Mechanical Properties of Rocks: A Comprehensive Study":
+
+chapters:
+- Chapter 1: Strength Profiles in the Earth:
+sections:
+- Section: 1.1 Strength of the lithosphere: Constraints imposed by laboratory experiments:
+subsections:
+- 1.1a Introduction to Lithosphere Strength
+- 1.1b Laboratory Experiments and Findings
+- 1.1c Implications for Earth's Structure
+
+- Section: 1.2 Strength of the continental lithosphere: Time to abandon the jelly sandwich?:
+subsections:
+- 1.2a The Jelly Sandwich Model
+- 1.2b Criticisms and Alternatives
+- 1.2c Current Research Directions
+
+- Chapter 2: Constitutive Relations, Elasticity:
+sections:
+- Section: 2.1 Elastic behavior of single crystals: Anisotropy:
+subsections:
+- 2.1a Basics of Elastic Behavior
+- 2.1b Single Crystals and Anisotropy
+- 2.1c Experimental Techniques and Results
+
+- Chapter 3: Friction in Rocks:
+sections:
+- Section: 3.1 Friction on Rock Interfaces:
+subsections:
+- 3.1a Introduction to Rock Friction
+- 3.1b Measurement Techniques
+- 3.1c Effects on Geological Processes
+
+- Chapter 4: Fracture Surface Energy and Elastic Solutions of Interest:
+sections:
+- Section: 4.1 Fracture Surface Energy:
+subsections:
+- 4.1a Definition and Importance of Fracture Surface Energy
+- 4.1b Measurement Techniques
+- 4.1c Role in Rock Failure
+
+- Section: 4.2 Some Elastic Solutions of Interest:
+subsections:
+- 4.2a Basic Principles of Elasticity
+- 4.2b Key Elastic Solutions in Rock Mechanics
+- 4.2c Applications and Implications
+
+- Chapter 5: Linear Elastic Fracture Mechanics (LEFM):
+sections:
+- Section: 5.1 Mode, Mechanism, and Scaling of Strength: Preliminary Issues:
+subsections:
+- 5.1a Introduction to LEFM
+- 5.1b Modes of Fracture
+- 5.1c Mechanisms and Scaling of Strength
+
+- Section: 5.2 Stress Strain Strength Profiles:
+subsections:
+- 5.2a Stress-Strain Relationships in Rocks
+- 5.2b Strength Profiles and Their Significance
+- 5.2c Experimental Techniques and Findings
+
+- Chapter 6: Brittle Failure Modes:
+sections:
+- Section: 6.1 Friction on Rock Interfaces:
+subsections:
+- 6.1a Brittle Failure and Its Causes
+- 6.1b Role of Friction in Brittle Failure
+- 6.1c Case Studies and Examples
+
+- Section: 6.2 Friction on Rock Interfaces:
+subsections:
+- 6.2a Measurement of Rock Interface Friction
+- 6.2b Factors Influencing Friction
+- 6.2c Implications for Rock Stability
+
+- Section: 6.3 Friction on Rock Interfaces:
+subsections:
+- 6.3a Friction and Earthquake Mechanics
+- 6.3b Laboratory Simulations of Earthquakes
+- 6.3c Current Research Directions
+
+- Section: 6.4 Friction on Rock Interfaces:
+subsections:
+- 6.4a Friction and Landslide Mechanics
+- 6.4b Predicting Landslides: Challenges and Techniques
+- 6.4c Case Studies and Lessons Learned
+
+- Chapter 7: Crystal Plastic Mechanisms: Diffusion Creep:
+sections:
+- Section: 7.1 Friction on Rock Interfaces:
+subsections:
+- 7.1a Introduction to Crystal Plastic Mechanisms
+- 7.1b Diffusion Creep: Basics and Importance
+- 7.1c Experimental Studies and Findings
+
+- Section: 7.2 Friction on Rock Interfaces:
+subsections:
+- 7.2a Role of Friction in Diffusion Creep
+- 7.2b Measurement Techniques
+- 7.2c Implications for Rock Deformation
+
+- Section: 7.3 Friction on Rock Interfaces:
+subsections:
+- 7.3a Diffusion Creep and Earthquake Mechanics
+- 7.3b Laboratory Simulations and Results
+- 7.3c Current Research Directions
+
+- Section: 7.4 Friction on Rock Interfaces:
+subsections:
+- 7.4a Diffusion Creep and Landslide Mechanics
+- 7.4b Predicting Landslides: Role of Diffusion Creep
+- 7.4c Case Studies and Lessons Learned
+
+- Chapter 8: Dislocation Creep:
+sections:
+- Section: 8.1 Friction on Rock Interfaces:
+subsections:
+- 8.1a Introduction to Dislocation Creep
+- 8.1b Role of Friction in Dislocation Creep
+- 8.1c Experimental Studies and Findings
+
+- Section: 8.2 Friction on Rock Interfaces:
+subsections:
+- 8.2a Dislocation Creep and Earthquake Mechanics
+- 8.2b Laboratory Simulations and Results
+- 8.2c Current Research Directions
+
+- Section: 8.3 Friction on Rock Interfaces:
+subsections:
+- 8.3a Dislocation Creep and Landslide Mechanics
+- 8.3b Predicting Landslides: Role of Dislocation Creep
+- 8.3c Case Studies and Lessons Learned
+
+- Section: 8.4 Friction on Rock Interfaces:
+subsections:
+- 8.4a Dislocation Creep and Rock Strength
+- 8.4b Measurement Techniques
+- 8.4c Implications for Rock Stability
+
+- Chapter 9: Student Papers:
+sections:
+- Section: 9.1 Friction on Rock Interfaces:
+subsections:
+- 9.1a Student Research in Rock Mechanics
+- 9.1b Innovative Approaches and Findings
+- 9.1c Future Directions in Student Research
+
+- Section: 9.2 Friction on Rock Interfaces:
+subsections:
+- 9.2a Role of Friction in Student Research
+- 9.2b Experimental Techniques Used by Students
+- 9.2c Implications for the Field of Rock Mechanics
+
+- Section: 9.3 Friction on Rock Interfaces:
+subsections:
+- 9.3a Student Research and Earthquake Mechanics
+- 9.3b Laboratory Simulations Conducted by Students
+- 9.3c Current Research Directions in Student Work
+
+- Section: 9.4 Friction on Rock Interfaces:
+subsections:
+- 9.4a Student Research and Landslide Mechanics
+- 9.4b Predicting Landslides: Student Contributions
+- 9.4c Case Studies and Lessons Learned from Student Work
+
+- Chapter 10: Rock Deformation Mechanisms:
+sections:
+- Section: 10.1 Elastic Deformation:
+subsections:
+- 10.1a Basics of Elastic Deformation
+- 10.1b Measurement Techniques
+- 10.1c Role in Rock Failure
+
+- Section: 10.2 Plastic Deformation:
+subsections:
+- 10.2a Basics of Plastic Deformation
+- 10.2b Measurement Techniques
+- 10.2c Role in Rock Failure
+
+- Section: 10.3 Creep Deformation:
+subsections:
+- 10.3a Basics of Creep Deformation
+- 10.3b Measurement Techniques
+- 10.3c Role in Rock Failure
+
+- Section: 10.4 Fracture:
+subsections:
+- 10.4a Basics of Fracture
+- 10.4b Measurement Techniques
+- 10.4c Role in Rock Failure
+
+- Chapter 11: Rock Strength and Failure:
+sections:
+- Section: 11.1 Strength of Rocks:
+subsections:
+- 11.1a Definition and Importance of Rock Strength
+- 11.1b Measurement Techniques
+- 11.1c Factors Influencing Rock Strength
+
+- Section: 11.2 Failure Modes of Rocks:
+subsections:
+- 11.2a Introduction to Rock Failure Modes
+- 11.2b Brittle vs. Ductile Failure
+- 11.2c Factors Influencing Failure Mode
+
+- Section: 11.3 Stress-Strain Relationships:
+subsections:
+- 11.3a Basics of Stress and Strain
+- 11.3b Stress-Strain Relationships in Rocks
+- 11.3c Implications for Rock Failure
+
+- Section: 11.4 Rock Failure Mechanisms:
+subsections:
+- 11.4a Introduction to Rock Failure Mechanisms
+- 11.4b Role of Friction in Rock Failure
+- 11.4c Role of Creep in Rock Failure
+
+- Chapter 12: Rock Mechanics in Engineering:
+sections:
+- Section: 12.1 Rock Mechanics in Civil Engineering:
+subsections:
+- 12.1a Role of Rock Mechanics in Civil Engineering
+- 12.1b Case Studies and Examples
+- 12.1c Current Research Directions
+
+- Section: 12.2 Rock Mechanics in Mining Engineering:
+subsections:
+- 12.2a Role of Rock Mechanics in Mining Engineering
+- 12.2b Case Studies and Examples
+- 12.2c Current Research Directions
+
+- Section: 12.3 Rock Mechanics in Petroleum Engineering:
+subsections:
+- 12.3a Role of Rock Mechanics in Petroleum Engineering
+- 12.3b Case Studies and Examples
+- 12.3c Current Research Directions
+
+- Section: 12.4 Rock Mechanics in Geotechnical Engineering:
+subsections:
+- 12.4a Role of Rock Mechanics in Geotechnical Engineering
+- 12.4b Case Studies and Examples
+- 12.4c Current Research Directions
+
+- Chapter 13: Rock Mechanics in Natural Hazards:
+sections:
+- Section: 13.1 Rock Mechanics in Earthquakes:
+subsections:
+- 13.1a Role of Rock Mechanics in Earthquake Mechanics
+- 13.1b Case Studies and Examples
+- 13.1c Current Research Directions
+
+- Section: 13.2 Rock Mechanics in Landslides:
+subsections:
+- 13.2a Role of Rock Mechanics in Landslide Mechanics
+- 13.2b Case Studies and Examples
+- 13.2c Current Research Directions
+
+- Section: 13.3 Rock Mechanics in Volcanoes:
+subsections:
+- 13.3a Role of Rock Mechanics in Volcano Mechanics
+- 13.3b Case Studies and Examples
+- 13.3c Current Research Directions
+
+- Section: 13.4 Rock Mechanics in Tsunamis:
+subsections:
+- 13.4a Role of Rock Mechanics in Tsunami Mechanics
+- 13.4b Case Studies and Examples
+- 13.4c Current Research Directions
+
+- Chapter 14: Rock Mechanics in Environmental Science:
+sections:
+- Section: 14.1 Rock Mechanics in Soil Erosion:
+subsections:
+- 14.1a Role of Rock Mechanics in Soil Erosion
+- 14.1b Case Studies and Examples
+- 14.1c Current Research Directions
+
+- Section: 14.2 Rock Mechanics in Climate Change:
+subsections:
+- 14.2a Role of Rock Mechanics in Climate Change
+- 14.2b Case Studies and Examples
+- 14.2c Current Research Directions
+
+- Section: 14.3 Rock Mechanics in Water Resources:
+subsections:
+- 14.3a Role of Rock Mechanics in Water Resources
+- 14.3b Case Studies and Examples
+- 14.3c Current Research Directions
+
+- Section: 14.4 Rock Mechanics in Waste Disposal:
+subsections:
+- 14.4a Role of Rock Mechanics in Waste Disposal
+- 14.4b Case Studies and Examples
+- 14.4c Current Research Directions
+
+- Chapter 15: Rock Mechanics in Space Exploration:
+sections:
+- Section: 15.1 Rock Mechanics on the Moon:
+subsections:
+- 15.1a Role of Rock Mechanics in Lunar Exploration
+- 15.1b Case Studies and Examples
+- 15.1c Current Research Directions
+
+- Section: 15.2 Rock Mechanics on Mars:
+subsections:
+- 15.2a Role of Rock Mechanics in Martian Exploration
+- 15.2b Case Studies and Examples
+- 15.2c Current Research Directions
+
+- Section: 15.3 Rock Mechanics on Asteroids:
+subsections:
+- 15.3a Role of Rock Mechanics in Asteroid Exploration
+- 15.3b Case Studies and Examples
+- 15.3c Current Research Directions
+
+- Section: 15.4 Rock Mechanics in Space Mining:
+subsections:
+- 15.4a Role of Rock Mechanics in Space Mining
+- 15.4b Case Studies and Examples
+- 15.4c Current Research Directions
+
+- Chapter 16: Advanced Topics in Rock Mechanics:
+sections:
+- Section: 16.1 Rock Mechanics at High Pressures:
+subsections:
+- 16.1a Introduction to High Pressure Rock Mechanics
+- 16.1b Experimental Techniques and Findings
+- 16.1c Implications for Earth's Interior
+
+- Section: 16.2 Rock Mechanics at High Temperatures:
+subsections:
+- 16.2a Introduction to High Temperature Rock Mechanics
+- 16.2b Experimental Techniques and Findings
+- 16.2c Implications for Volcanoes and Magma Chambers
+
+- Section: 16.3 Rock Mechanics at High Strain Rates:
+subsections:
+- 16.3a Introduction to High Strain Rate Rock Mechanics
+- 16.3b Experimental Techniques and Findings
+- 16.3c Implications for Earthquakes and Landslides
+
+- Section: 16.4 Rock Mechanics in Extreme Environments:
+subsections:
+- 16.4a Introduction to Extreme Environment Rock Mechanics
+- 16.4b Case Studies and Examples
+- 16.4c Current Research Directions
+
+- Chapter 17: Future Directions in Rock Mechanics:
+sections:
+- Section: 17.1 New Experimental Techniques in Rock Mechanics:
+subsections:
+- 17.1a Introduction to New Experimental Techniques
+- 17.1b Case Studies and Examples
+- 17.1c Implications for Future Research
+
+- Section: 17.2 New Theoretical Approaches in Rock Mechanics:
+subsections:
+- 17.2a Introduction to New Theoretical Approaches
+- 17.2b Case Studies and Examples
+- 17.2c Implications for Future Research
+
+- Section: 17.3 New Applications of Rock Mechanics:
+subsections:
+- 17.3a Introduction to New Applications
+- 17.3b Case Studies and Examples
+- 17.3c Implications for Future Research
+
+- Section: 17.4 Challenges and Opportunities in Rock Mechanics:
+subsections:
+- 17.4a Introduction to Challenges and Opportunities
+- 17.4b Case Studies and Examples
+- 17.4c Future Directions in Rock Mechanics
+
+- Chapter 18: Rock Mechanics in Education:
+sections:
+- Section: 18.1 Teaching Rock Mechanics:
+subsections:
+- 18.1a Introduction to Teaching Rock Mechanics
+- 18.1b Case Studies and Examples
+- 18.1c Future Directions in Rock Mechanics Education
+
+- Section: 18.2 Learning Rock Mechanics:
+subsections:
+- 18.2a Introduction to Learning Rock Mechanics
+- 18.2b Case Studies and Examples
+- 18.2c Future Directions in Rock Mechanics Learning
+
+- Section: 18.3 Rock Mechanics in K-12 Education:
+subsections:
+- 18.3a Introduction to K-12 Rock Mechanics Education
+- 18.3b Case Studies and Examples
+- 18.3c Future Directions in K-12 Rock Mechanics Education
+
+- Section: 18.4 Rock Mechanics in Higher Education:
+subsections:
+- 18.4a Introduction to Higher Education Rock Mechanics
+- 18.4b Case Studies and Examples
+- 18.4c Future Directions in Higher Education Rock Mechanics
+
+- Chapter 19: Rock Mechanics in Policy and Society:
+sections:
+- Section: 19.1 Rock Mechanics and Public Policy:
+subsections:
+- 19.1a Introduction to Rock Mechanics and Public Policy
+- 19.1b Case Studies and Examples
+- 19.1c Future Directions in Rock Mechanics Policy
+
+- Section: 19.2 Rock Mechanics and Public Perception:
+subsections:
+- 19.2a Introduction to Rock Mechanics and Public Perception
+- 19.2b Case Studies and Examples
+- 19.2c Future Directions in Rock Mechanics Perception
+
+- Section: 19.3 Rock Mechanics and Environmental Policy:
+subsections:
+- 19.3a Introduction to Rock Mechanics and Environmental Policy
+- 19.3b Case Studies and Examples
+- 19.3c Future Directions in Rock Mechanics Environmental Policy
+
+- Section: 19.4 Rock Mechanics and Energy Policy:
+subsections:
+- 19.4a Introduction to Rock Mechanics and Energy Policy
+- 19.4b Case Studies and Examples
+- 19.4c Future Directions in Rock Mechanics Energy Policy
+
+- Chapter 20: Rock Mechanics in Industry:
+sections:
+- Section: 20.1 Rock Mechanics in the Oil and Gas Industry:
+subsections:
+- 20.1a Introduction to Rock Mechanics in Oil and Gas
+- 20.1b Case Studies and Examples
+- 20.1c Future Directions in Oil and Gas Rock Mechanics
+
+- Section: 20.2 Rock Mechanics in the Mining Industry:
+subsections:
+- 20.2a Introduction to Rock Mechanics in Mining
+- 20.2b Case Studies and Examples
+- 20.2c Future Directions in Mining Rock Mechanics
+
+- Section: 20.3 Rock Mechanics in the Construction Industry:
+subsections:
+- 20.3a Introduction to Rock Mechanics in Construction
+- 20.3b Case Studies and Examples
+- 20.3c Future Directions in Construction Rock Mechanics
+
+- Section: 20.4 Rock Mechanics in the Manufacturing Industry:
+subsections:
+- 20.4a Introduction to Rock Mechanics in Manufacturing
+- 20.4b Case Studies and Examples
+- 20.4c Future Directions in Manufacturing Rock Mechanics

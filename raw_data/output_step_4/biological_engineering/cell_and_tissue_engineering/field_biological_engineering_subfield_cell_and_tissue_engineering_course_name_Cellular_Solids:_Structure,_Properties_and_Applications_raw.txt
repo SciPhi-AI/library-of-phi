@@ -1,0 +1,391 @@
+textbook: 
+"Cellular Solids: Structure, Properties and Applications":
+
+chapters:
+- Chapter 1: Introduction and Overview:
+sections:
+- Section: 1.1 Processing of Cellular Solids:
+subsections:
+- 1.1a Introduction to Cellular Solids
+- 1.1b Manufacturing Techniques
+- 1.1c Quality Control and Assurance
+
+- Section: 1.2 Structure of Cellular Solids:
+subsections:
+- 1.2a Basic Structure
+- 1.2b Microstructure Analysis
+- 1.2c Structural Variations and Their Effects
+
+- Chapter 2: Honeycombs:
+sections:
+- Section: 2.1 In-plane Behaviour:
+subsections:
+- 2.1a Definition and Characteristics
+- 2.1b Mechanical Properties
+- 2.1c Applications and Uses
+
+- Section: 2.2 Out-of-plane Behaviour:
+subsections:
+- 2.2a Definition and Characteristics
+- 2.2b Mechanical Properties
+- 2.2c Applications and Uses
+
+- Chapter 3: Natural Honeycombs:
+sections:
+- Section: 3.1 Wood:
+subsections:
+- 3.1a Structure of Wood
+- 3.1b Mechanical Properties
+- 3.1c Applications and Uses
+
+- Section: 3.2 Cork:
+subsections:
+- 3.2a Structure of Cork
+- 3.2b Mechanical Properties
+- 3.2c Applications and Uses
+
+- Chapter 4: Foams:
+sections:
+- Section: 4.1 Linear Elasticity:
+subsections:
+- 4.1a Definition and Theory
+- 4.1b Testing Methods
+- 4.1c Applications and Uses
+
+- Section: 4.2 Strength:
+subsections:
+- 4.2a Definition and Theory
+- 4.2b Testing Methods
+- 4.2c Applications and Uses
+
+- Section: 4.3 Densification:
+subsections:
+- 4.3a Definition and Theory
+- 4.3b Testing Methods
+- 4.3c Applications and Uses
+
+- Section: 4.4 Fracture:
+subsections:
+- 4.4a Definition and Theory
+- 4.4b Testing Methods
+- 4.4c Applications and Uses
+
+- Chapter 5: Microstructural Design:
+sections:
+- Section: 5.1 Introduction to Microstructural Design:
+subsections:
+- 5.1a Basic Principles
+- 5.1b Design Techniques
+- 5.1c Applications and Uses
+
+- Section: 5.2 Lattice Materials:
+subsections:
+- 5.2a Definition and Characteristics
+- 5.2b Manufacturing Techniques
+- 5.2c Applications and Uses
+
+- Section: 5.3 Property Charts:
+subsections:
+- 5.3a Introduction to Property Charts
+- 5.3b Reading and Interpreting Property Charts
+- 5.3c Applications and Uses
+
+- Section: 5.4 Thermal Properties:
+subsections:
+- 5.4a Definition and Theory
+- 5.4b Testing Methods
+- 5.4c Applications and Uses
+
+- Chapter 6: Exam Review:
+sections:
+- Section: 6.1 Review of Key Concepts:
+subsections:
+- 6.1a Cellular Solids
+- 6.1b Honeycombs
+- 6.1c Foams
+
+- Section: 6.2 Practice Problems:
+subsections:
+- 6.2a Problem Set 1
+- 6.2b Problem Set 2
+- 6.2c Problem Set 3
+
+- Section: 6.3 Exam Strategies:
+subsections:
+- 6.3a Time Management
+- 6.3b Answering Techniques
+- 6.3c Reviewing Answers
+
+- Chapter 7: Trabecular Bone:
+sections:
+- Section: 7.1 Structure of Trabecular Bone:
+subsections:
+- 7.1a Basic Structure
+- 7.1b Microstructure Analysis
+- 7.1c Structural Variations and Their Effects
+
+- Section: 7.2 Mechanical Properties:
+subsections:
+- 7.2a Strength and Elasticity
+- 7.2b Fracture and Densification
+- 7.2c Thermal Properties
+
+- Section: 7.3 Applications and Uses:
+subsections:
+- 7.3a Medical Applications
+- 7.3b Research and Development
+- 7.3c Future Prospects
+
+- Chapter 8: Osteoporosis and Evolution:
+sections:
+- Section: 8.1 Understanding Osteoporosis:
+subsections:
+- 8.1a Definition and Causes
+- 8.1b Diagnosis and Treatment
+- 8.1c Prevention Strategies
+
+- Section: 8.2 Evolution of Bone Structure:
+subsections:
+- 8.2a Early Evolution
+- 8.2b Modern Evolution
+- 8.2c Future Predictions
+
+- Section: 8.3 Impact on Cellular Solids:
+subsections:
+- 8.3a Changes in Structure and Properties
+- 8.3b Implications for Design
+- 8.3c Future Research Directions
+
+- Chapter 9: Tissue Engineering Scaffolds:
+sections:
+- Section: 9.1 Case Study: Osteochondral Scaffold:
+subsections:
+- 9.1a Introduction to Osteochondral Scaffold
+- 9.1b Design and Manufacturing
+- 9.1c Applications and Results
+
+- Section: 9.2 Scaffold Materials:
+subsections:
+- 9.2a Material Selection
+- 9.2b Material Properties
+- 9.2c Material Processing
+
+- Section: 9.3 Future Developments:
+subsections:
+- 9.3a Emerging Technologies
+- 9.3b Challenges and Limitations
+- 9.3c Potential Solutions
+
+- Chapter 10: Cell-Scaffold Interactions:
+sections:
+- Section: 10.1 Attachment:
+subsections:
+- 10.1a Cell Attachment Mechanisms
+- 10.1b Factors Influencing Attachment
+- 10.1c Improving Attachment
+
+- Section: 10.2 Morphology:
+subsections:
+- 10.2a Cell Morphology Basics
+- 10.2b Influence of Scaffold on Morphology
+- 10.2c Morphology and Function
+
+- Section: 10.3 Contraction:
+subsections:
+- 10.3a Cell Contraction Mechanisms
+- 10.3b Influence of Scaffold on Contraction
+- 10.3c Contraction and Function
+
+- Section: 10.4 Migration:
+subsections:
+- 10.4a Cell Migration Mechanisms
+- 10.4b Influence of Scaffold on Migration
+- 10.4c Migration and Tissue Formation
+
+- Chapter 11: Differentiation:
+sections:
+- Section: 11.1 Cell Differentiation Basics:
+subsections:
+- 11.1a Definition and Process
+- 11.1b Factors Influencing Differentiation
+- 11.1c Differentiation and Tissue Formation
+
+- Section: 11.2 Influence of Scaffold on Differentiation:
+subsections:
+- 11.2a Material Properties and Differentiation
+- 11.2b Scaffold Design and Differentiation
+- 11.2c Optimizing Differentiation
+
+- Section: 11.3 Future Developments:
+subsections:
+- 11.3a Emerging Technologies
+- 11.3b Challenges and Limitations
+- 11.3c Potential Solutions
+
+- Chapter 12: Applications:
+sections:
+- Section: 12.1 Energy Absorption in Foams:
+subsections:
+- 12.1a Basic Principles
+- 12.1b Design for Energy Absorption
+- 12.1c Applications and Case Studies
+
+- Section: 12.2 Sandwich Panels:
+subsections:
+- 12.2a Introduction to Sandwich Panels
+- 12.2b Design and Manufacturing
+- 12.2c Applications and Case Studies
+
+- Chapter 13: Natural Sandwich Structures + Density Gradients:
+sections:
+- Section: 13.1 Natural Sandwich Structures:
+subsections:
+- 13.1a Examples of Natural Sandwich Structures
+- 13.1b Structure and Properties
+- 13.1c Applications and Uses
+
+- Section: 13.2 Density Gradients:
+subsections:
+- 13.2a Introduction to Density Gradients
+- 13.2b Influence on Properties
+- 13.2c Applications and Uses
+
+- Chapter 14: Biomimicking:
+sections:
+- Section: 14.1 Introduction to Biomimicking:
+subsections:
+- 14.1a Basic Principles
+- 14.1b Techniques and Methods
+- 14.1c Applications and Case Studies
+
+- Section: 14.2 Challenges and Limitations:
+subsections:
+- 14.2a Technical Challenges
+- 14.2b Ethical and Regulatory Challenges
+- 14.2c Potential Solutions
+
+- Section: 14.3 Future Developments:
+subsections:
+- 14.3a Emerging Technologies
+- 14.3b Potential Applications
+- 14.3c Future Research Directions
+
+- Chapter 15: How I Became a Professor:
+sections:
+- Section: 15.1 Academic Journey:
+subsections:
+- 15.1a Early Education
+- 15.1b Higher Education
+- 15.1c Career Path
+
+- Section: 15.2 Challenges and Triumphs:
+subsections:
+- 15.2a Personal Challenges
+- 15.2b Academic Challenges
+- 15.2c Triumphs and Achievements
+
+- Section: 15.3 Advice for Aspiring Academics:
+subsections:
+- 15.3a Choosing a Field of Study
+- 15.3b Navigating Academia
+- 15.3c Balancing Work and Life
+
+- Chapter 16: Advanced Topics in Cellular Solids:
+sections:
+- Section: 16.1 Advanced Processing Techniques:
+subsections:
+- 16.1a Emerging Manufacturing Techniques
+- 16.1b Quality Control and Assurance
+- 16.1c Future Prospects
+
+- Section: 16.2 Advanced Material Properties:
+subsections:
+- 16.2a Emerging Materials
+- 16.2b Advanced Testing Methods
+- 16.2c Future Prospects
+
+- Section: 16.3 Advanced Applications:
+subsections:
+- 16.3a Emerging Applications
+- 16.3b Case Studies
+- 16.3c Future Prospects
+
+- Chapter 17: Research Methods in Cellular Solids:
+sections:
+- Section: 17.1 Experimental Methods:
+subsections:
+- 17.1a Laboratory Techniques
+- 17.1b Data Analysis
+- 17.1c Reporting Results
+
+- Section: 17.2 Computational Methods:
+subsections:
+- 17.2a Simulation Techniques
+- 17.2b Data Analysis
+- 17.2c Reporting Results
+
+- Section: 17.3 Research Design:
+subsections:
+- 17.3a Formulating Research Questions
+- 17.3b Designing Experiments
+- 17.3c Ethical Considerations
+
+- Chapter 18: Case Studies in Cellular Solids:
+sections:
+- Section: 18.1 Case Study 1:
+subsections:
+- 18.1a Introduction
+- 18.1b Methodology
+- 18.1c Results and Discussion
+
+- Section: 18.2 Case Study 2:
+subsections:
+- 18.2a Introduction
+- 18.2b Methodology
+- 18.2c Results and Discussion
+
+- Section: 18.3 Case Study 3:
+subsections:
+- 18.3a Introduction
+- 18.3b Methodology
+- 18.3c Results and Discussion
+
+- Chapter 19: Future Directions in Cellular Solids:
+sections:
+- Section: 19.1 Emerging Technologies:
+subsections:
+- 19.1a New Materials
+- 19.1b New Manufacturing Techniques
+- 19.1c New Applications
+
+- Section: 19.2 Challenges and Limitations:
+subsections:
+- 19.2a Technical Challenges
+- 19.2b Regulatory Challenges
+- 19.2c Potential Solutions
+
+- Section: 19.3 Future Research Directions:
+subsections:
+- 19.3a Potential Research Questions
+- 19.3b Emerging Research Methods
+- 19.3c Future Prospects
+
+- Chapter 20: Conclusion:
+sections:
+- Section: 20.1 Summary of Key Concepts:
+subsections:
+- 20.1a Cellular Solids
+- 20.1b Honeycombs
+- 20.1c Foams
+
+- Section: 20.2 Implications for the Field:
+subsections:
+- 20.2a Impact on Research
+- 20.2b Impact on Industry
+- 20.2c Impact on Society
+
+- Section: 20.3 Final Thoughts:
+subsections:
+- 20.3a Reflections on the Course
+- 20.3b Advice for Future Students
+- 20.3c Closing Remarks

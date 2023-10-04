@@ -1,0 +1,208 @@
+textbook:
+  'Pattern Recognition for Machine Vision":':
+    chapters:
+    - '- Chapter 1: Overview, Introduction:':
+        sections:
+        - '- Section: 1.1 Course Introduction:':
+            subsections:
+            - 1.1a Introduction to the Course
+            - 1.1b Course Objectives
+            - 1.1c Course Outline
+        - '- Section: 1.2 Vision: Feature Extraction Overview:':
+            subsections:
+            - 1.2a Introduction to Feature Extraction
+            - 1.2b Types of Features
+            - 1.2c Feature Extraction Techniques
+        - "- Section: 1.3 Quick MATLAB\xAE Tutorial:":
+            subsections:
+            - "1.3a Introduction to MATLAB\xAE"
+            - "1.3b Basic MATLAB\xAE Operations"
+            - "1.3c MATLAB\xAE for Image Processing"
+    - '- Chapter 2: Vision - Image Formation and Processing:':
+        sections:
+        - '- Section: 2.1 Image Formation:':
+            subsections:
+            - 2.1a Basics of Image Formation
+            - 2.1b Image Formation Models
+            - 2.1c Image Formation Techniques
+        - '- Section: 2.2 Image Processing:':
+            subsections:
+            - 2.2a Introduction to Image Processing
+            - 2.2b Image Processing Techniques
+            - 2.2c Image Processing Applications
+    - '- Chapter 3: Vision - Feature Extraction I:':
+        sections:
+        - '- Section: 3.1 Feature Extraction Techniques:':
+            subsections:
+            - 3.1a Overview of Feature Extraction Techniques
+            - 3.1b Feature Extraction Algorithms
+            - 3.1c Feature Extraction Applications
+        - '- Section: 3.2 Feature Representation:':
+            subsections:
+            - 3.2a Introduction to Feature Representation
+            - 3.2b Feature Representation Techniques
+            - 3.2c Feature Representation Applications
+    - '- Chapter 4: PR/Vis - Feature Extraction II/Bayesian Decisions:':
+        sections:
+        - '- Section: 4.1 Bayesian Decision Theory:':
+            subsections:
+            - 4.1a Introduction to Bayesian Decision Theory
+            - 4.1b Bayesian Decision Algorithms
+            - 4.1c Bayesian Decision Applications
+        - '- Section: 4.2 Principal Component Analysis (PCA):':
+            subsections:
+            - 4.2a Introduction to PCA
+            - 4.2b PCA Algorithms
+            - 4.2c PCA Applications
+        - '- Section: 4.3 Independent Component Analysis (ICA):':
+            subsections:
+            - 4.3a Introduction to ICA
+            - 4.3b ICA Algorithms
+            - 4.3c ICA Applications
+    - '- Chapter 5: PR - Density Estimation:':
+        sections:
+        - '- Section: 5.1 Density Estimation Methods:':
+            subsections:
+            - 5.1a Overview of Density Estimation Methods
+            - 5.1b Density Estimation Algorithms
+            - 5.1c Density Estimation Applications
+        - '- Section: 5.2 Histogram Estimation:':
+            subsections:
+            - 5.2a Introduction to Histogram Estimation
+            - 5.2b Histogram Estimation Techniques
+            - 5.2c Histogram Estimation Applications
+    - '- Chapter 6: PR - Classification:':
+        sections:
+        - '- Section: 6.1 Classification Techniques:':
+            subsections:
+            - 6.1a Overview of Classification Techniques
+            - 6.1b Classification Algorithms
+            - 6.1c Classification Applications
+        - '- Section: 6.2 Supervised Learning:':
+            subsections:
+            - 6.2a Introduction to Supervised Learning
+            - 6.2b Supervised Learning Techniques
+            - 6.2c Supervised Learning Applications
+        - '- Section: 6.3 Unsupervised Learning:':
+            subsections:
+            - 6.3a Introduction to Unsupervised Learning
+            - 6.3b Unsupervised Learning Techniques
+            - 6.3c Unsupervised Learning Applications
+    - '- Chapter 7: Biological Object Recognition:':
+        sections:
+        - '- Section: 7.1 Object Recognition in Biological Systems:':
+            subsections:
+            - 7.1a Introduction to Biological Object Recognition
+            - 7.1b Biological Object Recognition Techniques
+            - 7.1c Biological Object Recognition Applications
+    - '- Chapter 8: PR - Clustering:':
+        sections:
+        - '- Section: 8.1 Clustering Algorithms:':
+            subsections:
+            - 8.1a Overview of Clustering Algorithms
+            - 8.1b Clustering Techniques
+            - 8.1c Clustering Applications
+        - '- Section: 8.2 K-means Clustering:':
+            subsections:
+            - 8.2a Introduction to K-means Clustering
+            - 8.2b K-means Clustering Techniques
+            - 8.2c K-means Clustering Applications
+    - '- Chapter 9: Paper Discussion:':
+        sections:
+        - '- Section: 9.1 Discussion of Research Papers:':
+            subsections:
+            - 9.1a Overview of Research Papers
+            - 9.1b Analysis of Research Papers
+            - 9.1c Discussion and Critique of Research Papers
+    - '- Chapter 10: App I - Object Detection/Recognition:':
+        sections:
+        - '- Section: 10.1 Object Detection Techniques:':
+            subsections:
+            - 10.1a Overview of Object Detection Techniques
+            - 10.1b Object Detection Algorithms
+            - 10.1c Object Detection Applications
+        - '- Section: 10.2 Object Recognition Techniques:':
+            subsections:
+            - 10.2a Overview of Object Recognition Techniques
+            - 10.2b Object Recognition Algorithms
+            - 10.2c Object Recognition Applications
+    - '- Chapter 11: App II - Morphable Models:':
+        sections:
+        - '- Section: 11.1 Morphable Models for Object Analysis:':
+            subsections:
+            - 11.1a Introduction to Morphable Models
+            - 11.1b Morphable Model Techniques
+            - 11.1c Morphable Model Applications
+    - '- Chapter 12: App III - Tracking:':
+        sections:
+        - '- Section: 12.1 Object Tracking Techniques:':
+            subsections:
+            - 12.1a Overview of Object Tracking Techniques
+            - 12.1b Object Tracking Algorithms
+            - 12.1c Object Tracking Applications
+    - '- Chapter 13: App IV - Gesture and Action Recognition:':
+        sections:
+        - '- Section: 13.1 Gesture Recognition:':
+            subsections:
+            - 13.1a Introduction to Gesture Recognition
+            - 13.1b Gesture Recognition Techniques
+            - 13.1c Gesture Recognition Applications
+        - '- Section: 13.2 Action Recognition:':
+            subsections:
+            - 13.2a Introduction to Action Recognition
+            - 13.2b Action Recognition Techniques
+            - 13.2c Action Recognition Applications
+    - '- Chapter 14: Project Presentation:':
+        sections:
+        - '- Section: 14.1 Presentation of Course Projects:':
+            subsections:
+            - 14.1a Overview of Course Projects
+            - 14.1b Project Presentation Techniques
+            - 14.1c Evaluation of Course Projects
+    - '- Chapter 15: Advanced Feature Extraction:':
+        sections:
+        - '- Section: 15.1 Advanced Feature Extraction Techniques:':
+            subsections:
+            - 15.1a Overview of Advanced Feature Extraction Techniques
+            - 15.1b Advanced Feature Extraction Algorithms
+            - 15.1c Advanced Feature Extraction Applications
+    - '- Chapter 16: Advanced Classification Techniques:':
+        sections:
+        - '- Section: 16.1 Advanced Classification Techniques:':
+            subsections:
+            - 16.1a Overview of Advanced Classification Techniques
+            - 16.1b Advanced Classification Algorithms
+            - 16.1c Advanced Classification Applications
+    - '- Chapter 17: Advanced Object Recognition Techniques:':
+        sections:
+        - '- Section: 17.1 Advanced Object Recognition Techniques:':
+            subsections:
+            - 17.1a Overview of Advanced Object Recognition Techniques
+            - 17.1b Advanced Object Recognition Algorithms
+            - 17.1c Advanced Object Recognition Applications
+    - '- Chapter 18: Advanced Object Tracking Techniques:':
+        sections:
+        - '- Section: 18.1 Advanced Object Tracking Techniques:':
+            subsections:
+            - 18.1a Overview of Advanced Object Tracking Techniques
+            - 18.1b Advanced Object Tracking Algorithms
+            - 18.1c Advanced Object Tracking Applications
+    - '- Chapter 19: Advanced Gesture and Action Recognition Techniques:':
+        sections:
+        - '- Section: 19.1 Advanced Gesture Recognition Techniques:':
+            subsections:
+            - 19.1a Overview of Advanced Gesture Recognition Techniques
+            - 19.1b Advanced Gesture Recognition Algorithms
+            - 19.1c Advanced Gesture Recognition Applications
+        - '- Section: 19.2 Advanced Action Recognition Techniques:':
+            subsections:
+            - 19.2a Overview of Advanced Action Recognition Techniques
+            - 19.2b Advanced Action Recognition Algorithms
+            - 19.2c Advanced Action Recognition Applications
+    - '- Chapter 20: Advanced Project Presentation Techniques:':
+        sections:
+        - '- Section: 20.1 Advanced Project Presentation Techniques:':
+            subsections:
+            - 20.1a Overview of Advanced Project Presentation Techniques
+            - 20.1b Advanced Project Presentation Methods
+            - 20.1c Evaluation of Advanced Project Presentations

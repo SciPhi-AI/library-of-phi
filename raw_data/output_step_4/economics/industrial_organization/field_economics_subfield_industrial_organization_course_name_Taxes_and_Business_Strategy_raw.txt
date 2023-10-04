@@ -1,0 +1,143 @@
+textbook: 
+"Taxes and Business Strategy: A Comprehensive Guide to Tax Planning and Business Success":
+
+chapters:
+- Chapter 1: Introduction and Overview of the Course:
+sections:
+- Section: 1.1 Role of Taxes in Business:
+subsections:
+- 1.1a Importance of Tax Planning
+- 1.1b Impact of Taxes on Business Strategy
+
+- Chapter 2: A Framework For Tax Planning:
+sections:
+- Section: 2.1 Implicit Taxes and Clienteles:
+subsections:
+- 2.1a Understanding Implicit Taxes
+- 2.1b Identifying Clientele Effects
+
+- Chapter 3: Organizational Form:
+sections:
+- Section: 3.1 Arbitrage and Limits to Tax Planning:
+subsections:
+- 3.1a Exploiting Tax Arbitrage Opportunities
+- 3.1b Understanding the Limits of Tax Planning
+
+- Chapter 4: Non-Tax Costs:
+sections:
+- Section: 4.1 Marginal Tax Rates:
+subsections:
+- 4.1a Analyzing Marginal Tax Rates
+- 4.1b Managing Marginal Tax Rates
+
+- Chapter 5: Compensation:
+sections:
+- Section: 5.1 Corporate Formation:
+subsections:
+- 5.1a Tax Implications of Corporate Formation
+- 5.1b Strategies for Optimizing Compensation
+
+- Chapter 6: Capital Structure:
+sections:
+- Section: 6.1 International Tax Considerations:
+subsections:
+- 6.1a Effectively Managing International Taxation
+- 6.1b Cross-Border Tax Planning Strategies
+
+- Chapter 7: Taxable Acquisitions:
+sections:
+- Section: 7.1 Guest Speaker Insights:
+subsections:
+- 7.1a Real-World Examples of Taxable Acquisitions
+- 7.1b Key Considerations in Taxable Acquisitions
+
+- Chapter 8: Divestitures:
+sections:
+- Section: 8.1 Miscellaneous Topics and Wrap-up:
+subsections:
+- 8.1a Advanced Tax Planning Techniques
+- 8.1b Recap and Conclusion
+
+- Chapter 9: Taxation and Business Strategy:
+sections:
+- Section: 9.1 Taxation and Business Decisions:
+subsections:
+- 9.1a Impact of Taxation on Business Decisions
+- 9.1b Tax Planning for Business Success
+
+- Chapter 10: Tax Planning for Startups:
+sections:
+- Section: 10.1 Tax Considerations for Startups:
+subsections:
+- 10.1a Understanding Tax Obligations for Startups
+- 10.1b Tax Planning Strategies for Startups
+
+- Chapter 11: Tax Planning for Small Businesses:
+sections:
+- Section: 11.1 Tax Considerations for Small Businesses:
+subsections:
+- 11.1a Understanding Tax Obligations for Small Businesses
+- 11.1b Tax Planning Strategies for Small Businesses
+
+- Chapter 12: Tax Planning for Corporations:
+sections:
+- Section: 12.1 Tax Considerations for Corporations:
+subsections:
+- 12.1a Understanding Tax Obligations for Corporations
+- 12.1b Tax Planning Strategies for Corporations
+
+- Chapter 13: Tax Planning for Partnerships:
+sections:
+- Section: 13.1 Tax Considerations for Partnerships:
+subsections:
+- 13.1a Understanding Tax Obligations for Partnerships
+- 13.1b Tax Planning Strategies for Partnerships
+
+- Chapter 14: Tax Planning for Non-Profit Organizations:
+sections:
+- Section: 14.1 Tax Considerations for Non-Profit Organizations:
+subsections:
+- 14.1a Understanding Tax Obligations for Non-Profit Organizations
+- 14.1b Tax Planning Strategies for Non-Profit Organizations
+
+- Chapter 15: Tax Planning for Mergers and Acquisitions:
+sections:
+- Section: 15.1 Tax Considerations for Mergers and Acquisitions:
+subsections:
+- 15.1a Understanding Tax Obligations for Mergers and Acquisitions
+- 15.1b Tax Planning Strategies for Mergers and Acquisitions
+
+- Chapter 16: Tax Planning for Real Estate:
+sections:
+- Section: 16.1 Tax Considerations for Real Estate:
+subsections:
+- 16.1a Understanding Tax Obligations for Real Estate
+- 16.1b Tax Planning Strategies for Real Estate
+
+- Chapter 17: Tax Planning for International Business:
+sections:
+- Section: 17.1 Tax Considerations for International Business:
+subsections:
+- 17.1a Understanding Tax Obligations for International Business
+- 17.1b Tax Planning Strategies for International Business
+
+- Chapter 18: Tax Planning for Retirement:
+sections:
+- Section: 18.1 Tax Considerations for Retirement:
+subsections:
+- 18.1a Understanding Tax Obligations for Retirement
+- 18.1b Tax Planning Strategies for Retirement
+
+- Chapter 19: Tax Planning for Estate Planning:
+sections:
+- Section: 19.1 Tax Considerations for Estate Planning:
+subsections:
+- 19.1a Understanding Tax Obligations for Estate Planning
+- 19.1b Tax Planning Strategies for Estate Planning
+
+- Chapter 20: Tax Planning for Financial Planning:
+sections:
+- Section: 20.1 Tax Considerations for Financial Planning:
+subsections:
+- 20.1a Understanding Tax Obligations for Financial Planning
+- 20.1b Tax Planning Strategies for Financial Planning

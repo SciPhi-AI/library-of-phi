@@ -1,0 +1,3 @@
+- Chapter 3: System Dynamics Modeling Languages:
+- Section: 3.2 Vensim:
+3.2c Simulation and Analysis in Vensim

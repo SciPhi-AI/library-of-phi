@@ -1,0 +1,245 @@
+textbook: 
+"Numerical Fluid Mechanics: Theory and Applications":
+
+chapters:
+- Chapter 1: Introduction to Numerical Fluid Mechanics:
+sections:
+- Section: 1.1 Models to Simulations:
+subsections:
+- 1.1a Introduction to Models
+- 1.1b From Models to Simulations
+- 1.1c Simulation Techniques
+
+- Section: 1.2 Error Types:
+subsections:
+- 1.2a Understanding Error Types
+- 1.2b Error Analysis
+- 1.2c Error Mitigation Techniques
+
+- Section: 1.3 Approximation and Round-off Errors:
+subsections:
+- 1.3a Introduction to Approximation Errors
+- 1.3b Understanding Round-off Errors
+- 1.3c Dealing with Approximation and Round-off Errors
+
+- Section: 1.4 Number Representations:
+subsections:
+- 1.4a Binary Number System
+- 1.4b Decimal Number System
+- 1.4c Conversion between Number Systems
+
+- Section: 1.5 Errors of Numerical Operations:
+subsections:
+- 1.5a Understanding Numerical Operations
+- 1.5b Errors in Numerical Operations
+- 1.5c Mitigating Errors in Numerical Operations
+
+- Chapter 2: Introduction to MATLAB:
+sections:
+- Section: 2.1 Introduction to MATLAB:
+subsections:
+- 2.1a Basics of MATLAB
+- 2.1b MATLAB for Numerical Computations
+- 2.1c Advanced MATLAB Techniques
+
+- Chapter 3: Roots of Non-linear Equations:
+sections:
+- Section: 3.1 Truncation Errors:
+subsections:
+- 3.1a Understanding Truncation Errors
+- 3.1b Truncation Error Analysis
+- 3.1c Mitigating Truncation Errors
+
+- Section: 3.2 Taylor Series and Error Analysis:
+subsections:
+- 3.2a Introduction to Taylor Series
+- 3.2b Taylor Series for Error Analysis
+- 3.2c Practical Applications of Taylor Series
+
+- Section: 3.3 Error Propagation and Estimation:
+subsections:
+- 3.3a Understanding Error Propagation
+- 3.3b Techniques for Error Estimation
+- 3.3c Practical Examples of Error Propagation and Estimation
+
+- Section: 3.4 Condition Numbers:
+subsections:
+- 3.4a Understanding Condition Numbers
+- 3.4b Condition Numbers in Numerical Computations
+- 3.4c Practical Applications of Condition Numbers
+
+- Section: 3.5 Introduction and Bracketing Methods:
+subsections:
+- 3.5a Introduction to Bracketing Methods
+- 3.5b Implementing Bracketing Methods
+- 3.5c Practical Applications of Bracketing Methods
+
+- Chapter 4: Systems of Linear Equations:
+sections:
+- Section: 4.1 Review: Navier-Stokes Equations and Their Approximations:
+subsections:
+- 4.1a Understanding Navier-Stokes Equations
+- 4.1b Approximations of Navier-Stokes Equations
+- 4.1c Practical Applications of Navier-Stokes Equations
+
+- Section: 4.2 Conservation Laws, Material Derivative, Reynolds Transport Theorem, Constitutive Equations:
+subsections:
+- 4.2a Understanding Conservation Laws
+- 4.2b Material Derivative and Reynolds Transport Theorem
+- 4.2c Constitutive Equations in Fluid Mechanics
+
+- Section: 4.3 Motivations and Plans for Solving Systems of Linear Equations:
+subsections:
+- 4.3a Motivations for Solving Systems of Linear Equations
+- 4.3b Planning for Solving Systems of Linear Equations
+- 4.3c Practical Examples of Solving Systems of Linear Equations
+
+- Section: 4.4 Direct Methods: Gauss Elimination:
+subsections:
+- 4.4a Introduction to Gauss Elimination
+- 4.4b Implementing Gauss Elimination
+- 4.4c Practical Applications of Gauss Elimination
+
+- Section: 4.5 Special Matrices: LU Decompositions, Tridiagonal Systems, General Banded Matrices, Symmetric, Positive-definite Matrices:
+subsections:
+- 4.5a Understanding Special Matrices
+- 4.5b LU Decompositions and Tridiagonal Systems
+- 4.5c General Banded Matrices, Symmetric, Positive-definite Matrices
+
+- Section: 4.6 Introduction to Iterative Methods:
+subsections:
+- 4.6a Understanding Iterative Methods
+- 4.6b Implementing Iterative Methods
+- 4.6c Practical Applications of Iterative Methods
+
+- Section: 4.7 Iterative Methods: Jacobi Method, Gauss-Seidel Iteration, Successive Over-relaxation Methods, Gradient Methods, Stop Criteria:
+subsections:
+- 4.7a Understanding Various Iterative Methods
+- 4.7b Implementing Iterative Methods
+- 4.7c Stop Criteria in Iterative Methods
+
+- Chapter 5: Finite Differences:
+sections:
+- Section: 5.1 End of Navier-Stokes Review:
+subsections:
+- 5.1a Recap of Navier-Stokes Equations
+- 5.1b Practical Applications of Navier-Stokes Equations
+- 5.1c Future Directions in Navier-Stokes Research
+
+- Section: 5.2 Finite Difference Based on Taylor Series for Higher Order Accuracy Differences and Examples:
+subsections:
+- 5.2a Understanding Finite Difference
+- 5.2b Taylor Series for Higher Order Accuracy Differences
+- 5.2c Practical Examples of Finite Difference
+
+- Section: 5.3 Polynomial Approximations:
+subsections:
+- 5.3a Understanding Polynomial Approximations
+- 5.3b Implementing Polynomial Approximations
+- 5.3c Practical Applications of Polynomial Approximations
+
+- Section: 5.4 Fourier Error Analysis, Introduction to Stability: Heuristic, Energy and Von Neumann Methods, Hyperbolic PDEs, Characteristics:
+subsections:
+- 5.4a Fourier Error Analysis
+- 5.4b Introduction to Stability: Heuristic, Energy and Von Neumann Methods
+- 5.4c Hyperbolic PDEs and Characteristics
+
+- Section: 5.5 Stability, Hyperbolic Equations Revisited: Courant-Friedrichs-Lewy:
+subsections:
+- 5.5a Understanding Stability in Hyperbolic Equations
+- 5.5b Revisiting Hyperbolic Equations: Courant-Friedrichs-Lewy
+- 5.5c Practical Applications of Stability in Hyperbolic Equations
+
+- Section: 5.6 Finite Volume Methods:
+subsections:
+- 5.6a Understanding Finite Volume Methods
+- 5.6b Implementing Finite Volume Methods
+- 5.6c Practical Applications of Finite Volume Methods
+
+- Section: 5.7 Finite Volume Methods on Complex Geometries:
+subsections:
+- 5.7a Understanding Finite Volume Methods on Complex Geometries
+- 5.7b Implementing Finite Volume Methods on Complex Geometries
+- 5.7c Practical Applications of Finite Volume Methods on Complex Geometries
+
+- Chapter 6: Methods for Unsteady Problems:
+sections:
+- Section: 6.1 Time-marching Methods:
+subsections:
+- 6.1a Understanding Time-marching Methods
+- 6.1b Implementing Time-marching Methods
+- 6.1c Practical Applications of Time-marching Methods
+
+- Section: 6.2 Ordinary Differential Equations:
+subsections:
+- 6.2a Understanding Ordinary Differential Equations
+- 6.2b Solving Ordinary Differential Equations
+- 6.2c Practical Applications of Ordinary Differential Equations
+
+- Chapter 7: Solutions of the Navier-Stokes Equation:
+sections:
+- Section: 7.1 Incompressible and Compressible:
+subsections:
+- 7.1a Understanding Incompressible and Compressible Flows
+- 7.1b Solving Navier-Stokes Equation for Incompressible and Compressible Flows
+- 7.1c Practical Applications of Incompressible and Compressible Flows
+
+- Section: 7.2 Pressure-correction, Fractional-step:
+subsections:
+- 7.2a Understanding Pressure-correction and Fractional-step Methods
+- 7.2b Implementing Pressure-correction and Fractional-step Methods
+- 7.2c Practical Applications of Pressure-correction and Fractional-step Methods
+
+- Section: 7.3 Vorticity, Artificial Compressibility, and Other Methods:
+subsections:
+- 7.3a Understanding Vorticity and Artificial Compressibility
+- 7.3b Implementing Vorticity and Artificial Compressibility Methods
+- 7.3c Other Methods for Solving Navier-Stokes Equation
+
+- Chapter 8: Grid Generation and Complex Geometries:
+sections:
+- Section: 8.1 Finite Element Methods: Introduction, Fluid Applications:
+subsections:
+- 8.1a Introduction to Finite Element Methods
+- 8.1b Implementing Finite Element Methods
+- 8.1c Fluid Applications of Finite Element Methods
+
+- Section: 8.2 Finite Element Methods on Complex Geometries:
+subsections:
+- 8.2a Understanding Finite Element Methods on Complex Geometries
+- 8.2b Implementing Finite Element Methods on Complex Geometries
+- 8.2c Practical Applications of Finite Element Methods on Complex Geometries
+
+- Section: 8.3 Inviscid Flow Equations: Boundary Element Methods, Panel Methods:
+subsections:
+- 8.3a Understanding Inviscid Flow Equations
+- 8.3b Implementing Boundary Element Methods and Panel Methods
+- 8.3c Practical Applications of Boundary Element Methods and Panel Methods
+
+- Chapter 9: Turbulent Flows:
+sections:
+- Section: 9.1 Models and Numerical Simulations:
+subsections:
+- 9.1a Understanding Turbulent Flow Models
+- 9.1b Implementing Numerical Simulations for Turbulent Flows
+- 9.1c Practical Applications of Turbulent Flow Simulations
+
+- Chapter 10: Final Project:
+sections:
+- Section: 10.1 Final Project Selection:
+subsections:
+- 10.1a Understanding Project Selection Criteria
+- 10.1b Selecting a Final Project
+- 10.1c Preparing for the Final Project
+
+- Section: 10.2 Project Presentations:
+subsections:
+- 10.2a Preparing for Project Presentations
+- 10.2b Delivering Project Presentations
+- 10.2c Evaluating Project Presentations
+
+appendix:
+- Appendix: Glossary
+- Appendix: List of Symbols
+- Appendix: References
+- Appendix: Index

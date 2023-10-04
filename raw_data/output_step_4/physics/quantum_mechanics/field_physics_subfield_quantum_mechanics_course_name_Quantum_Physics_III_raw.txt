@@ -1,0 +1,238 @@
+textbook: 
+"Quantum Physics III: Advanced Topics in Quantum Mechanics":
+
+chapters:
+- Chapter 1: Perturbation Theory:
+sections:
+- Section: 1.1 Time Independent Perturbation Theory:
+subsections:
+- 1.1a Introduction to Perturbation Theory
+- 1.1b First-order Perturbation Theory
+- 1.1c Second-order Perturbation Theory
+- 1.1d Higher-order Perturbation Theory
+
+- Section: 1.2 Degenerate Perturbation Theory:
+subsections:
+- 1.2a Introduction to Degenerate Perturbation Theory
+- 1.2b First-order Degenerate Perturbation Theory
+- 1.2c Second-order Degenerate Perturbation Theory
+- 1.2d Higher-order Degenerate Perturbation Theory
+
+- Section: 1.3 Time Dependent Perturbation Theory:
+subsections:
+- 1.3a Introduction to Time Dependent Perturbation Theory
+- 1.3b First-order Time Dependent Perturbation Theory
+- 1.3c Second-order Time Dependent Perturbation Theory
+- 1.3d Higher-order Time Dependent Perturbation Theory
+
+- Section: 1.4 Fermi’s Golden Rule:
+subsections:
+- 1.4a Introduction to Fermi’s Golden Rule
+- 1.4b Transition Rates and Probability
+- 1.4c Fermi’s Golden Rule in Quantum Mechanics
+- 1.4d Applications of Fermi’s Golden Rule
+
+- Section: 1.5 Fermi’s Golden Rule for Harmonic Transitions:
+subsections:
+- 1.5a Introduction to Harmonic Transitions
+- 1.5b Fermi’s Golden Rule for Harmonic Transitions in Quantum Mechanics
+- 1.5c Applications of Fermi’s Golden Rule for Harmonic Transitions
+
+- Chapter 2: Hydrogen Fine Structure:
+sections:
+- Section: 2.1 Hydrogen Atom Fine Structure:
+subsections:
+- 2.1a Introduction to Hydrogen Atom Fine Structure
+- 2.1b Spin-Orbit Interaction
+- 2.1c Zeeman Effect
+- 2.1d Stark Effect
+- 2.1e Hyperfine Structure
+
+- Chapter 3: Semiclassical Approximation:
+sections:
+- Section: 3.1 Introduction to the Semiclassical Approximation:
+subsections:
+- 3.1a Classical and Quantum Mechanics
+- 3.1b WKB Method
+- 3.1c Bohr-Sommerfeld Quantization Rule
+- 3.1d Applications of the Semiclassical Approximation
+
+- Section: 3.2 The Semiclassical WKB Approximation:
+subsections:
+- 3.2a WKB Approximation for One-Dimensional Systems
+- 3.2b WKB Approximation for Multidimensional Systems
+- 3.2c Tunneling in Quantum Mechanics
+- 3.2d Applications of the Semiclassical WKB Approximation
+
+- Chapter 4: Particles in Electromagnetic Fields:
+sections:
+- Section: 4.1 Charged Particles in Electromagnetic Fields:
+subsections:
+- 4.1a Motion of Charged Particles in Electric Fields
+- 4.1b Motion of Charged Particles in Magnetic Fields
+- 4.1c Motion of Charged Particles in Electromagnetic Fields
+- 4.1d Applications of Particles in Electromagnetic Fields
+
+- Chapter 5: Adiabatic Approximation:
+sections:
+- Section: 5.1 Adiabatic Approximation:
+subsections:
+- 5.1a Introduction to Adiabatic Approximation
+- 5.1b Adiabatic Theorem
+- 5.1c Applications of Adiabatic Approximation
+
+- Section: 5.2 Adiabatic Approximation: Berry’s Phase:
+subsections:
+- 5.2a Introduction to Berry’s Phase
+- 5.2b Geometric Phase in Quantum Mechanics
+- 5.2c Berry’s Phase in Adiabatic Approximation
+- 5.2d Applications of Berry’s Phase
+
+- Section: 5.3 Adiabatic Approximation: Molecules:
+subsections:
+- 5.3a Introduction to Adiabatic Approximation for Molecules
+- 5.3b Born-Oppenheimer Approximation
+- 5.3c Molecular Vibrations and Rotations
+- 5.3d Applications of Adiabatic Approximation for Molecules
+
+- Chapter 6: Scattering:
+sections:
+- Section: 6.1 Scattering:
+subsections:
+- 6.1a Introduction to Scattering Theory
+- 6.1b Scattering Amplitude and Cross Section
+- 6.1c Partial Wave Analysis
+- 6.1d Applications of Scattering Theory
+
+- Chapter 7: Identical Particles:
+sections:
+- Section: 7.1 Identical Particles:
+subsections:
+- 7.1a Symmetrization and Exchange Postulate
+- 7.1b Two-Particle Systems
+- 7.1c Identical Particles in Many-Body Systems
+- 7.1d Applications of Identical Particles
+
+- Chapter 8: Quantum Field Theory:
+sections:
+- Section: 8.1 Introduction to Quantum Field Theory:
+subsections:
+- 8.1a Basics of Quantum Field Theory
+- 8.1b Quantum Electrodynamics
+- 8.1c Quantum Chromodynamics
+- 8.1d Applications of Quantum Field Theory
+
+- Section: 8.2 Quantum Field Theory: Feynman Diagrams:
+subsections:
+- 8.2a Introduction to Feynman Diagrams
+- 8.2b Feynman Rules
+- 8.2c Applications of Feynman Diagrams
+- 8.2d Advanced Techniques in Feynman Diagrams
+
+- Chapter 9: Quantum Field Theory: Renormalization:
+sections:
+- Section: 9.1 Introduction to Renormalization:
+subsections:
+- 9.1a Basics of Renormalization
+- 9.1b Renormalization Group
+- 9.1c Applications of Renormalization
+- 9.1d Advanced Techniques in Renormalization
+
+- Chapter 10: Quantum Field Theory: Gauge Theories:
+sections:
+- Section: 10.1 Introduction to Gauge Theories:
+subsections:
+- 10.1a Basics of Gauge Theories
+- 10.1b Abelian and Non-Abelian Gauge Theories
+- 10.1c Applications of Gauge Theories
+- 10.1d Advanced Techniques in Gauge Theories
+
+- Chapter 11: Quantum Field Theory: Spontaneous Symmetry Breaking:
+sections:
+- Section: 11.1 Introduction to Spontaneous Symmetry Breaking:
+subsections:
+- 11.1a Basics of Spontaneous Symmetry Breaking
+- 11.1b Higgs Mechanism
+- 11.1c Applications of Spontaneous Symmetry Breaking
+- 11.1d Advanced Techniques in Spontaneous Symmetry Breaking
+
+- Chapter 12: Quantum Field Theory: Quantum Gravity:
+sections:
+- Section: 12.1 Introduction to Quantum Gravity:
+subsections:
+- 12.1a Basics of Quantum Gravity
+- 12.1b Quantum Field Theory in Curved Spacetime
+- 12.1c Applications of Quantum Gravity
+- 12.1d Advanced Techniques in Quantum Gravity
+
+- Chapter 13: Quantum Field Theory: String Theory:
+sections:
+- Section: 13.1 Introduction to String Theory:
+subsections:
+- 13.1a Basics of String Theory
+- 13.1b Superstring Theory
+- 13.1c Applications of String Theory
+- 13.1d Advanced Techniques in String Theory
+
+- Chapter 14: Quantum Field Theory: Loop Quantum Gravity:
+sections:
+- Section: 14.1 Introduction to Loop Quantum Gravity:
+subsections:
+- 14.1a Basics of Loop Quantum Gravity
+- 14.1b Quantum Geometry
+- 14.1c Applications of Loop Quantum Gravity
+- 14.1d Advanced Techniques in Loop Quantum Gravity
+
+- Chapter 15: Quantum Field Theory: Quantum Cosmology:
+sections:
+- Section: 15.1 Introduction to Quantum Cosmology:
+subsections:
+- 15.1a Basics of Quantum Cosmology
+- 15.1b Quantum Big Bang
+- 15.1c Applications of Quantum Cosmology
+- 15.1d Advanced Techniques in Quantum Cosmology
+
+- Chapter 16: Quantum Field Theory: Quantum Information:
+sections:
+- Section: 16.1 Introduction to Quantum Information:
+subsections:
+- 16.1a Basics of Quantum Information
+- 16.1b Quantum Computing
+- 16.1c Applications of Quantum Information
+- 16.1d Advanced Techniques in Quantum Information
+
+- Chapter 17: Quantum Field Theory: Quantum Entanglement:
+sections:
+- Section: 17.1 Introduction to Quantum Entanglement:
+subsections:
+- 17.1a Basics of Quantum Entanglement
+- 17.1b Bell's Theorem
+- 17.1c Applications of Quantum Entanglement
+- 17.1d Advanced Techniques in Quantum Entanglement
+
+- Chapter 18: Quantum Field Theory: Quantum Teleportation:
+sections:
+- Section: 18.1 Introduction to Quantum Teleportation:
+subsections:
+- 18.1a Basics of Quantum Teleportation
+- 18.1b Quantum State Transfer
+- 18.1c Applications of Quantum Teleportation
+- 18.1d Advanced Techniques in Quantum Teleportation
+
+- Chapter 19: Quantum Field Theory: Quantum Cryptography:
+sections:
+- Section: 19.1 Introduction to Quantum Cryptography:
+subsections:
+- 19.1a Basics of Quantum Cryptography
+- 19.1b Quantum Key Distribution
+- 19.1c Applications of Quantum Cryptography
+- 19.1d Advanced Techniques in Quantum Cryptography
+
+- Chapter 20: Quantum Field Theory: Quantum Machine Learning:
+sections:
+- Section: 20.1 Introduction to Quantum Machine Learning:
+subsections:
+- 20.1a Basics of Quantum Machine Learning
+- 20.1b Quantum Neural Networks
+- 20.1c Applications of Quantum Machine Learning
+- 20.1d Advanced Techniques in Quantum Machine Learning

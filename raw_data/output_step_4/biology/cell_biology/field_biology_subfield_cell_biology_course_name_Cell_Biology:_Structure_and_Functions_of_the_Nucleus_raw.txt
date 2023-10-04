@@ -1,0 +1,163 @@
+textbook: 
+"Cell Biology: Exploring the Nucleus":
+
+chapters:
+- Chapter 1: Genome and Systems Biology:
+sections:
+- Section: 1.1 Early Response of Gene Regulatory Networks in ESCs:
+subsections:
+- 1.1a Introduction to Gene Regulatory Networks
+- 1.1b Role of Gene Regulatory Networks in ESCs
+- 1.1c Early Response Mechanisms
+
+- Chapter 2: Cell Cycle:
+sections:
+- Section: 2.1 Regulation of the Cell Cycle:
+subsections:
+- 2.1a Cell Cycle Phases
+- 2.1b Cell Cycle Checkpoints
+- 2.1c Role of Cyclins and CDKs
+
+- Chapter 3: Transcriptional Regulation:
+sections:
+- Section: 3.1 Transcription Factors and Gene Expression:
+subsections:
+- 3.1a Role of Transcription Factors
+- 3.1b Mechanisms of Gene Expression
+- 3.1c Transcriptional Regulation Techniques
+
+- Chapter 4: Transcription and Chromatin Modification:
+sections:
+- Section: 4.1 Chromatin Remodeling and Transcription:
+subsections:
+- 4.1a Introduction to Chromatin Remodeling
+- 4.1b Role of Chromatin Remodeling in Transcription
+- 4.1c Techniques for Studying Chromatin Remodeling
+
+- Chapter 5: Chromosomes/Replication:
+sections:
+- Section: 5.1 DNA Replication and Chromosome Structure:
+subsections:
+- 5.1a DNA Replication Mechanisms
+- 5.1b Role of DNA Replication in Chromosome Structure
+- 5.1c Techniques for Studying DNA Replication
+
+- Chapter 6: Epigenetics:
+sections:
+- Section: 6.1 Epigenetic Modifications and Gene Regulation:
+subsections:
+- 6.1a Introduction to Epigenetics
+- 6.1b Role of Epigenetic Modifications in Gene Regulation
+- 6.1c Techniques for Studying Epigenetic Modifications
+
+- Chapter 7: Nuclear Structure/Export:
+sections:
+- Section: 7.1 Nuclear Pore Complex and Nuclear Export:
+subsections:
+- 7.1a Structure of the Nuclear Pore Complex
+- 7.1b Role of the Nuclear Pore Complex in Nuclear Export
+- 7.1c Techniques for Studying the Nuclear Pore Complex
+
+- Chapter 8: Chromatin and Gene Expression I:
+sections:
+- Section: 8.1 Chromatin Organization and Transcriptional Regulation:
+subsections:
+- 8.1a Chromatin Organization
+- 8.1b Role of Chromatin Organization in Transcriptional Regulation
+- 8.1c Techniques for Studying Chromatin Organization
+
+- Chapter 9: Chromatin and Gene Expression II:
+sections:
+- Section: 9.1 Chromatin Modifications and Gene Expression:
+subsections:
+- 9.1a Types of Chromatin Modifications
+- 9.1b Role of Chromatin Modifications in Gene Expression
+- 9.1c Techniques for Studying Chromatin Modifications
+
+- Chapter 10: Alternative Splicing and Polyadenylation:
+sections:
+- Section: 10.1 RNA Splicing and Processing:
+subsections:
+- 10.1a Introduction to RNA Splicing
+- 10.1b Role of RNA Splicing in Polyadenylation
+- 10.1c Techniques for Studying RNA Splicing
+
+- Chapter 11: RNA Interference and MicroRNAs:
+sections:
+- Section: 11.1 RNA Interference Mechanism and MicroRNA Function:
+subsections:
+- 11.1a Introduction to RNA Interference
+- 11.1b Role of MicroRNAs in RNA Interference
+- 11.1c Techniques for Studying RNA Interference
+
+- Chapter 12: RNA Interference and Transcription:
+sections:
+- Section: 12.1 Regulation of Gene Expression by RNA Interference:
+subsections:
+- 12.1a Role of RNA Interference in Gene Expression
+- 12.1b Mechanisms of RNA Interference
+- 12.1c Techniques for Studying RNA Interference
+
+- Chapter 13: Cell Signaling:
+sections:
+- Section: 13.1 Signal Transduction Pathways:
+subsections:
+- 13.1a Introduction to Signal Transduction
+- 13.1b Role of Signal Transduction in Cell Signaling
+- 13.1c Techniques for Studying Signal Transduction
+
+- Chapter 14: Cell Adhesion:
+sections:
+- Section: 14.1 Cell Adhesion Molecules:
+subsections:
+- 14.1a Introduction to Cell Adhesion Molecules
+- 14.1b Role of Cell Adhesion Molecules in Cell Adhesion
+- 14.1c Techniques for Studying Cell Adhesion Molecules
+
+- Chapter 15: Cell Migration:
+sections:
+- Section: 15.1 Mechanisms of Cell Migration:
+subsections:
+- 15.1a Introduction to Cell Migration
+- 15.1b Role of Cytoskeleton in Cell Migration
+- 15.1c Techniques for Studying Cell Migration
+
+- Chapter 16: Cell Death:
+sections:
+- Section: 16.1 Apoptosis and Necrosis:
+subsections:
+- 16.1a Introduction to Cell Death
+- 16.1b Role of Apoptosis and Necrosis in Cell Death
+- 16.1c Techniques for Studying Cell Death
+
+- Chapter 17: Cell Differentiation:
+sections:
+- Section: 17.1 Stem Cells and Differentiation:
+subsections:
+- 17.1a Introduction to Cell Differentiation
+- 17.1b Role of Stem Cells in Differentiation
+- 17.1c Techniques for Studying Cell Differentiation
+
+- Chapter 18: Cell Division:
+sections:
+- Section: 18.1 Mitosis and Cytokinesis:
+subsections:
+- 18.1a Introduction to Cell Division
+- 18.1b Role of Mitosis and Cytokinesis in Cell Division
+- 18.1c Techniques for Studying Cell Division
+
+- Chapter 19: Cell Aging:
+sections:
+- Section: 19.1 Senescence and Aging:
+subsections:
+- 19.1a Introduction to Cell Aging
+- 19.1b Role of Senescence in Aging
+- 19.1c Techniques for Studying Cell Aging
+
+- Chapter 20: Cell Communication:
+sections:
+- Section: 20.1 Cell-Cell Interactions:
+subsections:
+- 20.1a Introduction to Cell Communication
+- 20.1b Role of Cell-Cell Interactions in Communication
+- 20.1c Techniques for Studying Cell Communication

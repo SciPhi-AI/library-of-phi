@@ -1,0 +1,253 @@
+textbook: 
+"Economic & Environmental Issues in Materials Selection: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Introduction:
+subsections:
+- 1.1a Definition of Economic and Environmental Issues
+- 1.1b Importance of Economic and Environmental Considerations
+- 1.1c Overview of Materials Selection
+
+- Section: 1.2 Time Value of Money:
+subsections:
+- 1.2a Definition of Time Value of Money
+- 1.2b Importance in Materials Selection
+- 1.2c Practical Applications
+
+- Section: 1.3 Single Payment Discounting:
+subsections:
+- 1.3a Definition of Single Payment Discounting
+- 1.3b Importance in Materials Selection
+- 1.3c Practical Applications
+
+- Chapter 2: Value and Discounting:
+sections:
+- Section: 2.1 Value:
+subsections:
+- 2.1a Definition of Value
+- 2.1b Importance in Materials Selection
+- 2.1c Practical Applications
+
+- Section: 2.2 Multi-payment Discounting:
+subsections:
+- 2.2a Definition of Multi-payment Discounting
+- 2.2b Importance in Materials Selection
+- 2.2c Practical Applications
+
+- Section: 2.3 Non-uniform Cash Flows:
+subsections:
+- 2.3a Definition of Non-uniform Cash Flows
+- 2.3b Importance in Materials Selection
+- 2.3c Practical Applications
+
+- Chapter 3: Interest Rates and Uncertainty:
+sections:
+- Section: 3.1 Effective Interest Rates:
+subsections:
+- 3.1a Definition of Effective Interest Rates
+- 3.1b Importance in Materials Selection
+- 3.1c Practical Applications
+
+- Section: 3.2 Uncertainty in Materials Selection:
+subsections:
+- 3.2a Definition of Uncertainty
+- 3.2b Importance in Materials Selection
+- 3.2c Practical Applications
+
+- Section: 3.3 Evaluating and Managing Risks:
+subsections:
+- 3.3a Risk Evaluation Techniques
+- 3.3b Risk Management Strategies
+- 3.3c Practical Applications
+
+- Chapter 4: Comparing Alternatives:
+sections:
+- Section: 4.1 Comparing Alternatives:
+subsections:
+- 4.1a Techniques for Comparing Alternatives
+- 4.1b Importance in Materials Selection
+- 4.1c Practical Applications
+
+- Section: 4.2 Evaluating Alternatives:
+subsections:
+- 4.2a Techniques for Evaluating Alternatives
+- 4.2b Importance in Materials Selection
+- 4.2c Practical Applications
+
+- Section: 4.3 Minimum Acceptable Rate of Return (MARR):
+subsections:
+- 4.3a Definition of MARR
+- 4.3b Importance in Materials Selection
+- 4.3c Practical Applications
+
+- Chapter 5: Dealing with Changing Prices:
+sections:
+- Section: 5.1 Dealing with Changing Prices:
+subsections:
+- 5.1a Techniques for Dealing with Changing Prices
+- 5.1b Importance in Materials Selection
+- 5.1c Practical Applications
+
+- Section: 5.2 Inflation and Its Impact:
+subsections:
+- 5.2a Definition of Inflation
+- 5.2b Impact of Inflation on Materials Selection
+- 5.2c Practical Applications
+
+- Chapter 6: Combining Concepts:
+sections:
+- Section: 6.1 Combining Concepts:
+subsections:
+- 6.1a Techniques for Combining Concepts
+- 6.1b Importance in Materials Selection
+- 6.1c Practical Applications
+
+- Section: 6.2 Class Examples:
+subsections:
+- 6.2a Review of Class Examples
+- 6.2b Importance in Materials Selection
+- 6.2c Practical Applications
+
+- Chapter 7: Presentations and Review:
+sections:
+- Section: 7.1 Presentations and Review:
+subsections:
+- 7.1a Techniques for Presentations
+- 7.1b Importance of Review in Materials Selection
+- 7.1c Practical Applications
+
+- Chapter 8: Exam 1:
+sections:
+- Section: 8.1 Exam 1:
+subsections:
+- 8.1a Exam Preparation Techniques
+- 8.1b Importance of Assessment in Materials Selection
+- 8.1c Practical Applications
+
+- Chapter 9: Concepts of Materials Indices and Software Introduction:
+sections:
+- Section: 9.1 Concepts of Materials Indices:
+subsections:
+- 9.1a Definition of Materials Indices
+- 9.1b Importance in Materials Selection
+- 9.1c Practical Applications
+
+- Section: 9.2 Software Introduction:
+subsections:
+- 9.2a Overview of Software Tools
+- 9.2b Importance in Materials Selection
+- 9.2c Practical Applications
+
+- Chapter 10: Material and Shape Selection:
+sections:
+- Section: 10.1 Material and Shape Selection:
+subsections:
+- 10.1a Techniques for Material and Shape Selection
+- 10.1b Importance in Materials Selection
+- 10.1c Practical Applications
+
+- Chapter 11: Process Selection and In-class Examples:
+sections:
+- Section: 11.1 Process Selection:
+subsections:
+- 11.1a Techniques for Process Selection
+- 11.1b Importance in Materials Selection
+- 11.1c Practical Applications
+
+- Section: 11.2 In-class Examples:
+subsections:
+- 11.2a Review of In-class Examples
+- 11.2b Importance in Materials Selection
+- 11.2c Practical Applications
+
+- Chapter 12: Using Cost Models: Concepts and Principles:
+sections:
+- Section: 12.1 Using Cost Models:
+subsections:
+- 12.1a Techniques for Using Cost Models
+- 12.1b Importance in Materials Selection
+- 12.1c Practical Applications
+
+- Section: 12.2 Concepts and Principles:
+subsections:
+- 12.2a Overview of Concepts and Principles
+- 12.2b Importance in Materials Selection
+- 12.2c Practical Applications
+
+- Chapter 13: Tackling Variable Costs:
+sections:
+- Section: 13.1 Tackling Variable Costs:
+subsections:
+- 13.1a Techniques for Tackling Variable Costs
+- 13.1b Importance in Materials Selection
+- 13.1c Practical Applications
+
+- Chapter 14: Modeling Fixed Costs:
+sections:
+- Section: 14.1 Modeling Fixed Costs:
+subsections:
+- 14.1a Techniques for Modeling Fixed Costs
+- 14.1b Importance in Materials Selection
+- 14.1c Practical Applications
+
+- Chapter 15: Presentations and Review:
+sections:
+- Section: 15.1 Presentations and Review:
+subsections:
+- 15.1a Techniques for Presentations
+- 15.1b Importance of Review in Materials Selection
+- 15.1c Practical Applications
+
+- Chapter 16: Exam 2:
+sections:
+- Section: 16.1 Exam 2:
+subsections:
+- 16.1a Exam Preparation Techniques
+- 16.1b Importance of Assessment in Materials Selection
+- 16.1c Practical Applications
+
+- Chapter 17: Introduction: What is the Cost of Materials Usage?:
+sections:
+- Section: 17.1 Introduction:
+subsections:
+- 17.1a Definition of Materials Usage Cost
+- 17.1b Importance in Materials Selection
+- 17.1c Practical Applications
+
+- Section: 17.2 Cost of Materials Usage:
+subsections:
+- 17.2a Techniques for Calculating Materials Usage Cost
+- 17.2b Importance in Materials Selection
+- 17.2c Practical Applications
+
+- Chapter 18: An Overview of Life Cycle Assessment:
+sections:
+- Section: 18.1 An Overview of Life Cycle Assessment:
+subsections:
+- 18.1a Definition of Life Cycle Assessment
+- 18.1b Importance in Materials Selection
+- 18.1c Practical Applications
+
+- Chapter 19: Analysis Goal and Scope; Inventory Methods:
+sections:
+- Section: 19.1 Analysis Goal and Scope:
+subsections:
+- 19.1a Definition of Analysis Goal and Scope
+- 19.1b Importance in Materials Selection
+- 19.1c Practical Applications
+
+- Section: 19.2 Inventory Methods:
+subsections:
+- 19.2a Overview of Inventory Methods
+- 19.2b Importance in Materials Selection
+- 19.2c Practical Applications
+
+- Chapter 20: Impact Assessment:
+sections:
+- Section: 20.1 Impact Assessment:
+subsections:
+- 20.1a Techniques for Impact Assessment
+- 20.1b Importance in Materials Selection
+- 20.1c Practical Applications

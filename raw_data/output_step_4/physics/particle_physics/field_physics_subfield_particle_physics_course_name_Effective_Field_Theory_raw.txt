@@ -1,0 +1,292 @@
+textbook: 
+"Foundations of Effective Field Theory: From Hydrogen to Gravity":
+
+chapters:
+- Chapter 1: Introduction to Effective Field Theory:
+sections:
+- Section: 1.1 EFT of Hydrogen:
+subsections:
+- 1.1a Top-down and bottom-up approaches
+- 1.1b Renormalizable EFT
+
+- Chapter 2: Dimensional Power Counting:
+sections:
+- Section: 2.1 Marginal & (ir)relevant operators:
+- Section: 2.2 Standard Model as an EFT:
+- Section: 2.3 Start field redefinitions:
+
+- Chapter 3: Field Redefinitions:
+sections:
+- Section: 3.1 Finish field redefinitions:
+- Section: 3.2 Discussion on loops, regularization, and power counting:
+
+- Chapter 4: Matching and Decoupling:
+sections:
+- Section: 4.1 Alphas(mu) and integrating out massive particles in MSbar:
+- Section: 4.2 Electroweak Hamiltonian Hw:
+
+- Chapter 5: Classic Operator Renormalization Group Equations:
+sections:
+- Section: 5.1 Chiral Lagrangians:
+- Section: 5.2 Chiral Loops:
+- Section: 5.3 Heavy Quark Effective Theory:
+- Section: 5.4 HQET Matching & Power Corrections:
+- Section: 5.5 HQET Examples:
+- Section: 5.6 Renormalons:
+- Section: 5.7 More Renormalons:
+- Section: 5.8 EFT with Fine Tuning:
+- Section: 5.9 EFT with Fine Tuning Part 2:
+
+- Chapter 6: Soft-Collinear Effective Theory:
+sections:
+- Section: 6.1 SCET Collinear Wilson Lines:
+- Section: 6.2 SCET Multipole Expansion:
+- Section: 6.3 SCET Beyond Tree Level:
+- Section: 6.4 SCET Beyond Tree Level 2:
+- Section: 6.5 SCET Wilson Coefficients:
+- Section: 6.6 SCET Sudakov Logarithms:
+- Section: 6.7 SCET for DIS:
+- Section: 6.8 SCET for Dijets:
+
+- Chapter 7: SCETII:
+sections:
+- Section: 7.1 SCETIIRapidity RGE:
+- Section: 7.2 SCET for LHC:
+
+- Chapter 8: Projects:
+sections:
+- Section: 8.1 Resummation in Hot Field Theories:
+- Section: 8.2 Effective Field Theory and the Fermi Surface:
+- Section: 8.3 The Chiral Approach to the Electroweak Interactions:
+- Section: 8.4 Nonrelativistic Effective Lagrangians:
+- Section: 8.5 TASI Lectures on Extra Dimensions and Branes:
+- Section: 8.6 Introduction to the Effective Field Theory Description of Gravity:
+- Section: 8.7 Large N QCD:
+- Section: 8.8 Effective Field Theory for Highly Ionized Plasmas:
+- Section: 8.9 Investigating the Ultraviolet Properties of Gravity with a Wilsonian Renormalization Group Equation:
+- Section: 8.10 Effective Field Theory, Black Holes, and the Cosmological Constant:
+- Section: 8.11 Low-Energy Quantum Effective Action for Relativistic Superfluids:
+- Section: 8.12 Effective Conformal Theory and the Flat-Space Limit of AdS:
+- Section: 8.13 Efimov Physics in Cold Atoms:
+- Section: 8.14 Heavy Meson Matter or look at I€s coupling to a single nucleon:
+- Section: 8.15 Electric-Magnetic Duality in Supersymmetric Non-Abelian Gauge Theories:
+- Section: 8.16 The Effective Field Theory of Dark Matter Direct Detection:
+
+- Chapter 9: Readings:
+sections:
+- Section: 9.1 Weinberg, Steven. Chapter 18 in The Quantum Theory of Fields. Vol. 2. Cambridge University Press, 2005. ISBN: 9780521670548.:
+- Section: 9.2 Peskin, Michael E., and:
+- Section: 9.3 Andersen, Jens O., and M. Strickland. Resummation in Hot Field Theories. Annals of Physics 317:
+- Section: 9.4 Polchinski, Joseph. Effective Field Theory and the Fermi Surface. Lectures presented at TASI, 1992.:
+- Section: 9.5 Feruglio, Ferruccio. The Chiral Approach to the Electroweak Interactions. International Journal of Modern Physics A8:
+- Section: 9.6 Leutwyler, H. Nonrelativistic Effective Lagrangians. Physical Review D49:
+- Section: 9.7 Csaki, Csaba. TASI Lectures on Extra Dimensions and Branes.:
+- Section: 9.8 ’t Hooft and Veltman in Ann.Inst.Henri Poincare, Vol.XX, 1974, pg.69, also gr-qc/9512024: Donoghue, John F. Introduction to the Effective Field Theory Description of Gravity.:
+- Section: 9.9 Georgi’s Weak Interactions Book:
+- Section: 9.10 Manohar, Aneesh V. Large N QCD.:
+- Section: 9.11 Brown, Lowell S., and Laurence G. Yaffe. Effective Field Theory for Highly Ionized Plasmas. Physics Reports 340:
+- Section: 9.12 Codello, Alessandro, Roberto Percacci, et al. Investigating the Ultraviolet Properties of Gravity with a Wilsonian Renormalization Group Equation. Annals of Physics 324:
+- Section: 9.13 Cohen, Andrew G., David B. Kaplan, et al. Effective Field Theory, Black Holes, and the Cosmological Constant. Physical Review Letters 82:
+- Section: 9.14 Son, D. T. Low-Energy Quantum Effective Action for Relativistic Superfluids.:
+- Section: 9.15 Fitzpatrick, A. Liam, Emanuel Katz, et al. Effective Conformal Theory and the Flat-Space Limit of AdS. Journal of High Energy Physics 1107:
+- Section: 9.16 Braaten, Eric, and H. -W. Hammer. Efimov Physics in Cold Atoms. Annals of Physics 322:
+- Section: 9.17 Manohar and Wise for Heavy Meson Matter or look at I€s coupling to a single nucleon:
+- Section: 9.18 Seiberg, N. Electric-Magnetic Duality in Supersymmetric Non-Abelian Gauge Theories. Nuclear Physics B 435:
+- Section: 9.19 Fitzpatrick, A. Liam, Wick Haxton, et al. The Effective Field Theory of Dark Matter Direct Detection.:
+
+- Chapter 10: Lecture Notes:
+sections:
+- Section: 10.1 Introduction:
+- Section: 10.2 Introduction to SCET:
+- Section: 10.3 Ingredients for SCET:
+- Section: 10.4 SCET Lagrangian:
+- Section: 10.5 Symmetries of SCET:
+- Section: 10.6 Factorization from Mode Separation:
+- Section: 10.7 Wilson Coefficients and Hard Dynamics:
+- Section: 10.8 Deep Inelastic Scattering:
+- Section: 10.9 Dijet Production:
+- Section: 10.10 SCET II:
+- Section: 10.11 SCET II Applications:
+- Section: 10.12 More SCET I Applications:
+
+- Chapter 11: Advanced Topics in EFT:
+sections:
+- Section: 11.1 Non-Perturbative Effects in EFT:
+subsections:
+- 11.1a Instantons and Monopoles
+- 11.1b Solitons and Skyrmions
+- 11.1c Lattice Gauge Theory and EFT
+
+- Section: 11.2 EFT in Condensed Matter Physics:
+subsections:
+- 11.2a Quantum Hall Effect
+- 11.2b Superconductivity and Superfluidity
+- 11.2c Topological Insulators
+
+- Section: 11.3 EFT in Cosmology:
+subsections:
+- 11.3a Inflation and EFT
+- 11.3b Dark Energy and Quintessence
+- 11.3c Cosmological Perturbations and EFT
+
+- Chapter 12: EFT in Particle Physics:
+sections:
+- Section: 12.1 EFT and the Higgs Boson:
+subsections:
+- 12.1a Higgs Effective Field Theory
+- 12.1b Higgs Decays and EFT
+- 12.1c Higgs Compositeness and EFT
+
+- Section: 12.2 EFT and Neutrino Physics:
+subsections:
+- 12.2a Neutrino Masses and EFT
+- 12.2b Neutrino Oscillations and EFT
+- 12.2c Neutrinoless Double Beta Decay and EFT
+
+- Section: 12.3 EFT and Dark Matter:
+subsections:
+- 12.3a Dark Matter Direct Detection and EFT
+- 12.3b Dark Matter Indirect Detection and EFT
+- 12.3c Dark Matter Production at Colliders and EFT
+
+- Chapter 13: EFT in Nuclear Physics:
+sections:
+- Section: 13.1 EFT and Nuclear Forces:
+subsections:
+- 13.1a Chiral Perturbation Theory and Nuclear Forces
+- 13.1b Effective Range Expansion and Nuclear Forces
+- 13.1c Pionless EFT and Nuclear Forces
+
+- Section: 13.2 EFT and Nuclear Structure:
+subsections:
+- 13.2a Shell Model and EFT
+- 13.2b Collective Model and EFT
+- 13.2c Random Matrix Theory and EFT
+
+- Section: 13.3 EFT and Nuclear Reactions:
+subsections:
+- 13.3a EFT and Radiative Capture Reactions
+- 13.3b EFT and Fusion Reactions
+- 13.3c EFT and Fission Reactions
+
+- Chapter 14: EFT in Quantum Gravity:
+sections:
+- Section: 14.1 EFT and Black Holes:
+subsections:
+- 14.1a Black Hole Thermodynamics and EFT
+- 14.1b Black Hole Information Paradox and EFT
+- 14.1c Black Hole Evaporation and EFT
+
+- Section: 14.2 EFT and Quantum Cosmology:
+subsections:
+- 14.2a Quantum Fluctuations and EFT
+- 14.2b Quantum Tunneling and EFT
+- 14.2c Quantum Gravity and EFT
+
+- Section: 14.3 EFT and String Theory:
+subsections:
+- 14.3a String Theory and EFT
+- 14.3b Branes and EFT
+- 14.3c Holography and EFT
+
+- Chapter 15: EFT in Quantum Information:
+sections:
+- Section: 15.1 EFT and Quantum Computation:
+subsections:
+- 15.1a Quantum Gates and EFT
+- 15.1b Quantum Error Correction and EFT
+- 15.1c Quantum Algorithms and EFT
+
+- Section: 15.2 EFT and Quantum Communication:
+subsections:
+- 15.2a Quantum Teleportation and EFT
+- 15.2b Quantum Cryptography and EFT
+- 15.2c Quantum Entanglement and EFT
+
+- Section: 15.3 EFT and Quantum Thermodynamics:
+subsections:
+- 15.3a Quantum Heat Engines and EFT
+- 15.3b Quantum Refrigerators and EFT
+- 15.3c Quantum Carnot Cycle and EFT
+
+- Chapter 16: EFT in Quantum Optics:
+sections:
+- Section: 16.1 EFT and Quantum Light:
+subsections:
+- 16.1a Quantum Interference and EFT
+- 16.1b Quantum Coherence and EFT
+- 16.1c Quantum Nonlocality and EFT
+
+- Section: 16.2 EFT and Quantum Matter:
+subsections:
+- 16.2a Quantum Phase Transitions and EFT
+- 16.2b Quantum Magnetism and EFT
+- 16.2c Quantum Spin Liquids and EFT
+
+- Section: 16.3 EFT and Quantum Metrology:
+subsections:
+- 16.3a Quantum Sensing and EFT
+- 16.3b Quantum Imaging and EFT
+- 16.3c Quantum Clocks and EFT
+
+- Chapter 17: EFT in Quantum Chemistry:
+sections:
+- Section: 17.1 EFT and Quantum Molecules:
+subsections:
+- 17.1a Quantum Bonding and EFT
+- 17.1b Quantum Spectroscopy and EFT
+- 17.1c Quantum Catalysis and EFT
+
+- Section: 17.2 EFT and Quantum Solids:
+subsections:
+- 17.2a Quantum Crystals and EFT
+- 17.2b Quantum Superconductors and EFT
+- 17.2c Quantum Topological Insulators and EFT
+
+- Section: 17.3 EFT and Quantum Liquids:
+subsections:
+- 17.3a Quantum Liquids and EFT
+- 17.3b Quantum Superfluids and EFT
+- 17.3c Quantum Bose-Einstein Condensates and EFT
+
+- Chapter 18: EFT in Quantum Biology:
+sections:
+- Section: 18.1 EFT and Quantum Photosynthesis:
+subsections:
+- 18.1a Quantum Coherence in Photosynthesis and EFT
+- 18.1b Quantum Energy Transfer in Photosynthesis and EFT
+- 18.1c Quantum Entanglement in Photosynthesis and EFT
+
+- Section: 18.2 EFT and Quantum Enzymes:
+subsections:
+- 18.2a Quantum Tunneling in Enzymes and EFT
+- 18.2b Quantum Coherence in Enzymes and EFT
+- 18.2c Quantum Entanglement in Enzymes and EFT
+
+- Section: 18.3 EFT and Quantum Genetics:
+subsections:
+- 18.3a Quantum Information in Genetics and EFT
+- 18.3b Quantum Coherence in Genetics and EFT
+- 18.3c Quantum Entanglement in Genetics and EFT
+
+- Chapter 19: EFT in Quantum Astrophysics:
+sections:
+- Section: 19.1 EFT and Quantum Stars:
+subsections:
+- 19.1a Quantum Degeneracy Pressure in Stars and EFT
+- 19.1b Quantum Fusion in Stars and EFT
+- 19.1c Quantum Neutrino Emission in Stars and EFT
+
+- Section: 19.2 EFT and Quantum Galaxies:
+subsections:
+- 19.2a Quantum Dark Matter in Galaxies and EFT
+- 19.2b Quantum Supermassive Black Holes in Galaxies and EFT
+- 19.2c Quantum Gravitational Waves in Galaxies and EFT
+
+- Section: 19.3 EFT and Quantum Universe:
+subsections:
+- 19.3a Quantum Big Bang and EFT
+- 19.3b Quantum Cosmic Inflation and EFT
+- 19.3c Quantum Cosmic Microwave Background and EFT
+
+- Chapter 

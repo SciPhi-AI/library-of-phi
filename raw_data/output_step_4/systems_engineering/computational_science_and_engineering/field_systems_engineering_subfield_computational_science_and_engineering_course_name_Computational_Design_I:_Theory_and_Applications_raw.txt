@@ -1,0 +1,419 @@
+textbook: 
+"Computational Design I: Theory and Applications":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Basic Concepts:
+subsections:
+- 1.1a Introduction to Computational Design
+- 1.1b Overview of Basic Concepts
+- 1.1c Applications of Computational Design
+
+- Section: 1.2 Shape Representation:
+subsections:
+- 1.2a Introduction to Shape Representation
+- 1.2b Geometric and Topological Representations
+- 1.2c Data Structures for Shape Representation
+
+- Section: 1.3 Shape Arithmetic:
+subsections:
+- 1.3a Introduction to Shape Arithmetic
+- 1.3b Operations on Shapes
+- 1.3c Shape Manipulation Techniques
+
+- Section: 1.4 Shape Rules:
+subsections:
+- 1.4a Introduction to Shape Rules
+- 1.4b Rule-based Modeling
+- 1.4c Shape Rule Systems
+
+- Chapter 2: Rule Application and Parametric Design:
+sections:
+- Section: 2.1 Nondeterminism:
+subsections:
+- 2.1a Introduction to Nondeterminism
+- 2.1b Non-deterministic Rule Application
+- 2.1c Non-deterministic Shape Generation
+
+- Section: 2.2 Emergence:
+subsections:
+- 2.2a Introduction to Emergence
+- 2.2b Emergent Behavior in Computational Design
+- 2.2c Harnessing Emergence in Design
+
+- Section: 2.3 Labeling:
+subsections:
+- 2.3a Introduction to Labeling
+- 2.3b Labeling Techniques in Computational Design
+- 2.3c Applications of Labeling in Design Problems
+
+- Section: 2.4 Parametric Design and Grammars:
+subsections:
+- 2.4a Introduction to Parametric Design
+- 2.4b Grammar-based Design Systems
+- 2.4c Parametric Design Approaches and Methods
+
+- Chapter 3: Style and Analysis:
+sections:
+- Section: 3.1 The Immediacy of the Artist's Mark in Computation:
+subsections:
+- 3.1a Introduction to the Immediacy of the Artist's Mark in Computation
+- 3.1b Expressing Artistic Intent in Computational Design
+- 3.1c Evaluating the Artist's Mark in Computation
+
+- Section: 3.2 Artificial Evolution for Computer Graphics:
+subsections:
+- 3.2a Introduction to Artificial Evolution for Computer Graphics
+- 3.2b Evolutionary Algorithms in Computational Design
+- 3.2c Evolutionary Approaches for Generating Graphics
+
+- Chapter 4: Inference and Problem Decomposition:
+sections:
+- Section: 4.1 Inference Problem Decomposition and Meaning:
+subsections:
+- 4.1a Introduction to Inference Problem Decomposition and Meaning
+- 4.1b Inference Techniques in Computational Design
+- 4.1c Problem Decomposition Approaches in Design
+
+- Chapter 5: Creative Design:
+sections:
+- Section: 5.1 Introduction:
+subsections:
+- 5.1a Introduction to Creative Design
+- 5.1b The Role of Creativity in Computational Design
+- 5.1c Creative Design Strategies and Techniques
+
+- Section: 5.2 Emergence and Predictability:
+subsections:
+- 5.2a Introduction to Emergence and Predictability
+- 5.2b Predictability in Computational Design
+- 5.2c Emergence and Unpredictability in Design
+
+- Section: 5.3 Final Project Review:
+subsections:
+- 5.3a Introduction to Final Project Review
+- 5.3b Guidelines for Final Project Review
+- 5.3c Examples of Successful Final Projects
+
+- Chapter 6: Assignments:
+sections:
+- Section: 6.1 Assignment 1 due:
+subsections:
+- 6.1a Requirements for Assignment 1
+- 6.1b Submission Guidelines for Assignment 1
+
+- Section: 6.2 Assignment 2 due:
+subsections:
+- 6.2a Requirements for Assignment 2
+- 6.2b Submission Guidelines for Assignment 2
+
+- Section: 6.3 Assignment 3 due:
+subsections:
+- 6.3a Requirements for Assignment 3
+- 6.3b Submission Guidelines for Assignment 3
+
+- Section: 6.4 Assignment 4 due:
+subsections:
+- 6.4a Requirements for Assignment 4
+- 6.4b Submission Guidelines for Assignment 4
+
+- Section: 6.5 Additional Assignments:
+subsections:
+- 6.5a Requirements for Additional Assignments
+- 6.5b Submission Guidelines for Additional Assignments
+
+- Chapter 7: Calendar:
+sections:
+- Section: 7.1 Key Dates:
+subsections:
+- 7.1a Important Dates for the Course
+- 7.1b Deadlines for Assignments and Projects
+
+- Chapter 8: Projects:
+sections:
+- Section: 8.1 Final Project Review:
+subsections:
+- 8.1a Introduction to Final Project Review
+- 8.1b Guidelines for Final Project Review
+- 8.1c Examples of Successful Final Projects
+
+- Section: 8.2 Individual Projects:
+subsections:
+- 8.2a Requirements for Individual Projects
+- 8.2b Project Proposal Guidelines
+- 8.2c Project Development and Evaluation
+
+- Chapter 9: Computational Design II: Advanced Topics:
+sections:
+- Section: 9.1 Advanced Shape Representation:
+subsections:
+- 9.1a Advanced Geometric and Topological Representations
+- 9.1b Advanced Data Structures for Shape Representation
+- 9.1c Advanced Shape Manipulation Techniques
+
+- Section: 9.2 Advanced Rule Application and Parametric Design:
+subsections:
+- 9.2a Advanced Non-deterministic Rule Application
+- 9.2b Advanced Non-deterministic Shape Generation
+- 9.2c Advanced Parametric Design Approaches and Methods
+
+- Section: 9.3 Advanced Style and Analysis:
+subsections:
+- 9.3a Advanced Expressing Artistic Intent in Computational Design
+- 9.3b Advanced Evolutionary Algorithms in Computational Design
+- 9.3c Advanced Evolutionary Approaches for Generating Graphics
+
+- Section: 9.4 Advanced Inference and Problem Decomposition:
+subsections:
+- 9.4a Advanced Inference Techniques in Computational Design
+- 9.4b Advanced Problem Decomposition Approaches in Design
+- 9.4c Advanced Inference Problem Decomposition and Meaning
+
+- Chapter 10: Computational Design III: Special Topics:
+sections:
+- Section: 10.1 Special Topics in Shape Representation:
+subsections:
+- 10.1a Special Topics in Geometric and Topological Representations
+- 10.1b Special Topics in Data Structures for Shape Representation
+- 10.1c Special Topics in Shape Manipulation Techniques
+
+- Section: 10.2 Special Topics in Rule Application and Parametric Design:
+subsections:
+- 10.2a Special Topics in Non-deterministic Rule Application
+- 10.2b Special Topics in Non-deterministic Shape Generation
+- 10.2c Special Topics in Parametric Design Approaches and Methods
+
+- Section: 10.3 Special Topics in Style and Analysis:
+subsections:
+- 10.3a Special Topics in Expressing Artistic Intent in Computational Design
+- 10.3b Special Topics in Evolutionary Algorithms in Computational Design
+- 10.3c Special Topics in Evolutionary Approaches for Generating Graphics
+
+- Section: 10.4 Special Topics in Inference and Problem Decomposition:
+subsections:
+- 10.4a Special Topics in Inference Techniques in Computational Design
+- 10.4b Special Topics in Problem Decomposition Approaches in Design
+- 10.4c Special Topics in Inference Problem Decomposition and Meaning
+
+- Chapter 11: Computational Design IV: Research Topics:
+sections:
+- Section: 11.1 Research Topics in Shape Representation:
+subsections:
+- 11.1a Research Topics in Geometric and Topological Representations
+- 11.1b Research Topics in Data Structures for Shape Representation
+- 11.1c Research Topics in Shape Manipulation Techniques
+
+- Section: 11.2 Research Topics in Rule Application and Parametric Design:
+subsections:
+- 11.2a Research Topics in Non-deterministic Rule Application
+- 11.2b Research Topics in Non-deterministic Shape Generation
+- 11.2c Research Topics in Parametric Design Approaches and Methods
+
+- Section: 11.3 Research Topics in Style and Analysis:
+subsections:
+- 11.3a Research Topics in Expressing Artistic Intent in Computational Design
+- 11.3b Research Topics in Evolutionary Algorithms in Computational Design
+- 11.3c Research Topics in Evolutionary Approaches for Generating Graphics
+
+- Section: 11.4 Research Topics in Inference and Problem Decomposition:
+subsections:
+- 11.4a Research Topics in Inference Techniques in Computational Design
+- 11.4b Research Topics in Problem Decomposition Approaches in Design
+- 11.4c Research Topics in Inference Problem Decomposition and Meaning
+
+- Chapter 12: Computational Design V: Future Directions:
+sections:
+- Section: 12.1 Future Directions in Shape Representation:
+subsections:
+- 12.1a Future Directions in Geometric and Topological Representations
+- 12.1b Future Directions in Data Structures for Shape Representation
+- 12.1c Future Directions in Shape Manipulation Techniques
+
+- Section: 12.2 Future Directions in Rule Application and Parametric Design:
+subsections:
+- 12.2a Future Directions in Non-deterministic Rule Application
+- 12.2b Future Directions in Non-deterministic Shape Generation
+- 12.2c Future Directions in Parametric Design Approaches and Methods
+
+- Section: 12.3 Future Directions in Style and Analysis:
+subsections:
+- 12.3a Future Directions in Expressing Artistic Intent in Computational Design
+- 12.3b Future Directions in Evolutionary Algorithms in Computational Design
+- 12.3c Future Directions in Evolutionary Approaches for Generating Graphics
+
+- Section: 12.4 Future Directions in Inference and Problem Decomposition:
+subsections:
+- 12.4a Future Directions in Inference Techniques in Computational Design
+- 12.4b Future Directions in Problem Decomposition Approaches in Design
+- 12.4c Future Directions in Inference Problem Decomposition and Meaning
+
+- Chapter 13: Computational Design VI: Case Studies:
+sections:
+- Section: 13.1 Case Studies in Shape Representation:
+subsections:
+- 13.1a Case Studies in Geometric and Topological Representations
+- 13.1b Case Studies in Data Structures for Shape Representation
+- 13.1c Case Studies in Shape Manipulation Techniques
+
+- Section: 13.2 Case Studies in Rule Application and Parametric Design:
+subsections:
+- 13.2a Case Studies in Non-deterministic Rule Application
+- 13.2b Case Studies in Non-deterministic Shape Generation
+- 13.2c Case Studies in Parametric Design Approaches and Methods
+
+- Section: 13.3 Case Studies in Style and Analysis:
+subsections:
+- 13.3a Case Studies in Expressing Artistic Intent in Computational Design
+- 13.3b Case Studies in Evolutionary Algorithms in Computational Design
+- 13.3c Case Studies in Evolutionary Approaches for Generating Graphics
+
+- Section: 13.4 Case Studies in Inference and Problem Decomposition:
+subsections:
+- 13.4a Case Studies in Inference Techniques in Computational Design
+- 13.4b Case Studies in Problem Decomposition Approaches in Design
+- 13.4c Case Studies in Inference Problem Decomposition and Meaning
+
+- Chapter 14: Computational Design VII: Workshops:
+sections:
+- Section: 14.1 Workshops in Shape Representation:
+subsections:
+- 14.1a Workshops in Geometric and Topological Representations
+- 14.1b Workshops in Data Structures for Shape Representation
+- 14.1c Workshops in Shape Manipulation Techniques
+
+- Section: 14.2 Workshops in Rule Application and Parametric Design:
+subsections:
+- 14.2a Workshops in Non-deterministic Rule Application
+- 14.2b Workshops in Non-deterministic Shape Generation
+- 14.2c Workshops in Parametric Design Approaches and Methods
+
+- Section: 14.3 Workshops in Style and Analysis:
+subsections:
+- 14.3a Workshops in Expressing Artistic Intent in Computational Design
+- 14.3b Workshops in Evolutionary Algorithms in Computational Design
+- 14.3c Workshops in Evolutionary Approaches for Generating Graphics
+
+- Section: 14.4 Workshops in Inference and Problem Decomposition:
+subsections:
+- 14.4a Workshops in Inference Techniques in Computational Design
+- 14.4b Workshops in Problem Decomposition Approaches in Design
+- 14.4c Workshops in Inference Problem Decomposition and Meaning
+
+- Chapter 15: Computational Design VIII: Tutorials:
+sections:
+- Section: 15.1 Tutorials in Shape Representation:
+subsections:
+- 15.1a Tutorials in Geometric and Topological Representations
+- 15.1b Tutorials in Data Structures for Shape Representation
+- 15.1c Tutorials in Shape Manipulation Techniques
+
+- Section: 15.2 Tutorials in Rule Application and Parametric Design:
+subsections:
+- 15.2a Tutorials in Non-deterministic Rule Application
+- 15.2b Tutorials in Non-deterministic Shape Generation
+- 15.2c Tutorials in Parametric Design Approaches and Methods
+
+- Section: 15.3 Tutorials in Style and Analysis:
+subsections:
+- 15.3a Tutorials in Expressing Artistic Intent in Computational Design
+- 15.3b Tutorials in Evolutionary Algorithms in Computational Design
+- 15.3c Tutorials in Evolutionary Approaches for Generating Graphics
+
+- Section: 15.4 Tutorials in Inference and Problem Decomposition:
+subsections:
+- 15.4a Tutorials in Inference Techniques in Computational Design
+- 15.4b Tutorials in Problem Decomposition Approaches in Design
+- 15.4c Tutorials in Inference Problem Decomposition and Meaning
+
+- Chapter 16: Computational Design IX: Reviews:
+sections:
+- Section: 16.1 Reviews in Shape Representation:
+subsections:
+- 16.1a Reviews in Geometric and Topological Representations
+- 16.1b Reviews in Data Structures for Shape Representation
+- 16.1c Reviews in Shape Manipulation Techniques
+
+- Section: 16.2 Reviews in Rule Application and Parametric Design:
+subsections:
+- 16.2a Reviews in Non-deterministic Rule Application
+- 16.2b Reviews in Non-deterministic Shape Generation
+- 16.2c Reviews in Parametric Design Approaches and Methods
+
+- Section: 16.3 Reviews in Style and Analysis:
+subsections:
+- 16.3a Reviews in Expressing Artistic Intent in Computational Design
+- 16.3b Reviews in Evolutionary Algorithms in Computational Design
+- 16.3c Reviews in Evolutionary Approaches for Generating Graphics
+
+- Section: 16.4 Reviews in Inference and Problem Decomposition:
+subsections:
+- 16.4a Reviews in Inference Techniques in Computational Design
+- 16.4b Reviews in Problem Decomposition Approaches in Design
+- 16.4c Reviews in Inference Problem Decomposition and Meaning
+
+- Chapter 17: Computational Design X: Examinations:
+sections:
+- Section: 17.1 Examinations in Shape Representation:
+subsections:
+- 17.1a Examinations in Geometric and Topological Representations
+- 17.1b Examinations in Data Structures for Shape Representation
+- 17.1c Examinations in Shape Manipulation Techniques
+
+- Section: 17.2 Examinations in Rule Application and Parametric Design:
+subsections:
+- 17.2a Examinations in Non-deterministic Rule Application
+- 17.2b Examinations in Non-deterministic Shape Generation
+- 17.2c Examinations in Parametric Design Approaches and Methods
+
+- Section: 17.3 Examinations in Style and Analysis:
+subsections:
+- 17.3a Examinations in Expressing Artistic Intent in Computational Design
+- 17.3b Examinations in Evolutionary Algorithms in Computational Design
+- 17.3c Examinations in Evolutionary Approaches for Generating Graphics
+
+- Section: 17.4 Examinations in Inference and Problem Decomposition:
+subsections:
+- 17.4a Examinations in Inference Techniques in Computational Design
+- 17.4b Examinations in Problem Decomposition Approaches in Design
+- 17.4c Examinations in Inference Problem Decomposition and Meaning
+
+- Chapter 18: Computational Design XI: Discussions:
+sections:
+- Section: 18.1 Discussions in Shape Representation:
+subsections:
+- 18.1a Discussions in Geometric and Topological Representations
+- 18.1b Discussions in Data Structures for Shape Representation
+- 18.1c Discussions in Shape Manipulation Techniques
+
+- Section: 18.2 Discussions in Rule Application and Parametric Design:
+subsections:
+- 18.2a Discussions in Non-deterministic Rule Application
+- 18.2b Discussions in Non-deterministic Shape Generation
+- 18.2c Discussions in Parametric Design Approaches and Methods
+
+- Section: 18.3 Discussions in Style and Analysis:
+subsections:
+- 18.3a Discussions in Expressing Artistic Intent in Computational Design
+- 18.3b Discussions in Evolutionary Algorithms in Computational Design
+- 18.3c Discussions in Evolutionary Approaches for Generating Graphics
+
+- Section: 18.4 Discussions in Inference and Problem Decomposition:
+subsections:
+- 18.4a Discussions in Inference Techniques in Computational Design
+- 18.4b Discussions in Problem Decomposition Approaches in Design
+- 18.4c Discussions in Inference Problem Decomposition and Meaning
+
+- Chapter 19: Computational Design XII: Presentations:
+sections:
+- Section: 19.1 Presentations in Shape Representation:
+subsections:
+- 19.1a Presentations in Geometric and Topological Representations
+- 19.1b Presentations in Data Structures for Shape Representation
+- 19.1c Presentations in Shape Manipulation Techniques
+
+- Section: 19.2 Presentations in Rule Application and Parametric Design:
+subsections:
+- 19.2a Presentations in Non-deterministic Rule Application
+- 19.2b Presentations in Non-deterministic Shape Generation
+- 19.2c Presentations in

@@ -1,0 +1,201 @@
+textbook: 
+"Computational Functional Genomics: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Using DNA Sequence to Explain Mechanism:
+sections:
+- Section: 1.1 Course Introduction
+- Section: 1.2 Pairwise Alignment
+- Section: 1.3 Finding Regulatory Sequences in DNA: Motif Discovery
+- Section: 1.4 Microarray Technology
+- Section: 1.5 Expression Arrays, Normalization, and Error Models
+subsections:
+- 1.5a Introduction to Expression Arrays
+- 1.5b Normalization Techniques
+- 1.5c Error Models in Expression Data
+
+- Chapter 2: Observing the Mechanism of Transcriptional Regulation:
+sections:
+- Section: 2.1 Expression Profiles, Clustering, and Latent Processes
+- Section: 2.2 Stem Cells and Transcriptional Regulation
+- Section: 2.3 Computational Discovery of Regulatory Networks
+- Section: 2.4 RNA Silencing
+- Section: 2.5 Human Regulatory Networks
+subsections:
+- 2.5a Transcriptional Regulation in Human Diseases
+- 2.5b Regulatory Networks in Cancer
+
+- Chapter 3: Protein Networks:
+sections:
+- Section: 3.1 Causal Models
+- Section: 3.2 Causal Bayesian Networks, Active Learning
+- Section: 3.3 From Biological Data to Biological Insight
+- Section: 3.4 Modeling Transcriptional Regulation
+- Section: 3.5 Dynamics
+subsections:
+- 3.5a Temporal Dynamics of Protein Networks
+- 3.5b Network Robustness and Resilience
+
+- Chapter 4: Project Group Meetings:
+sections:
+- Section: 4.1 Project Group Initial Presentations
+- Section: 4.2 Computational Functional Genomics
+- Section: 4.3 Part One: An Example of Clustering Expression Data
+
+- Chapter 5: Assignments:
+sections:
+- Section: 5.1 Problem Set 1
+- Section: 5.2 Problem Set 2
+- Section: 5.3 Problem Set 3
+- Section: 5.4 Problem Set 4
+- Section: 5.5 Code and Data
+
+- Chapter 6: Advanced Topics in Functional Genomics:
+sections:
+- Section: 6.1 Comparative Genomics
+- Section: 6.2 Genomic Data Integration
+- Section: 6.3 Functional Annotation of Genomes
+subsections:
+- 6.3a Gene Ontology
+- 6.3b Pathway Analysis
+- 6.3c Network-Based Annotation
+
+- Chapter 7: Machine Learning in Functional Genomics:
+sections:
+- Section: 7.1 Supervised Learning
+- Section: 7.2 Unsupervised Learning
+- Section: 7.3 Deep Learning in Genomics
+subsections:
+- 7.3a Convolutional Neural Networks for Sequence Data
+- 7.3b Recurrent Neural Networks for Time-Series Data
+- 7.3c Generative Models for Synthetic Genomics
+
+- Chapter 8: Single-Cell Genomics:
+sections:
+- Section: 8.1 Single-Cell RNA Sequencing
+- Section: 8.2 Single-Cell ATAC Sequencing
+- Section: 8.3 Computational Challenges in Single-Cell Genomics
+subsections:
+- 8.3a Dimensionality Reduction
+- 8.3b Clustering and Cell Type Identification
+- 8.3c Trajectory Inference
+
+- Chapter 9: Epigenomics:
+sections:
+- Section: 9.1 DNA Methylation
+- Section: 9.2 Histone Modifications
+- Section: 9.3 Chromatin Accessibility
+subsections:
+- 9.3a Assays for Measuring Chromatin Accessibility
+- 9.3b Computational Analysis of Accessibility Data
+- 9.3c Integrative Analysis of Epigenomic Data
+
+- Chapter 10: Genomic Medicine:
+sections:
+- Section: 10.1 Genomic Predictors of Disease Risk
+- Section: 10.2 Pharmacogenomics
+- Section: 10.3 Precision Medicine
+subsections:
+- 10.3a Genomic Profiling in Cancer
+- 10.3b Genomic Medicine in Rare Diseases
+- 10.3c Ethical, Legal, and Social Implications of Genomic Medicine
+
+- Chapter 11: Functional Genomics in Non-Human Organisms:
+sections:
+- Section: 11.1 Functional Genomics in Plants
+- Section: 11.2 Functional Genomics in Microbes
+- Section: 11.3 Functional Genomics in Model Organisms
+subsections:
+- 11.3a Functional Genomics in Yeast
+- 11.3b Functional Genomics in Drosophila
+- 11.3c Functional Genomics in Zebrafish
+
+- Chapter 12: Functional Genomics in the Era of Big Data:
+sections:
+- Section: 12.1 Data Management in Genomics
+- Section: 12.2 High-Performance Computing in Genomics
+- Section: 12.3 Data Visualization in Genomics
+subsections:
+- 12.3a Genome Browsers
+- 12.3b Interactive Data Visualization
+- 12.3c Visualization of High-Dimensional Data
+
+- Chapter 13: Functional Genomics and Evolution:
+sections:
+- Section: 13.1 Comparative Functional Genomics
+- Section: 13.2 Evolution of Gene Regulation
+- Section: 13.3 Genomics of Speciation
+subsections:
+- 13.3a Genomic Islands of Speciation
+- 13.3b Hybrid Incompatibility
+- 13.3c Speciation Genomics in Non-Model Organisms
+
+- Chapter 14: Functional Genomics and the Environment:
+sections:
+- Section: 14.1 Environmental Genomics
+- Section: 14.2 Ecological Genomics
+- Section: 14.3 Genomics of Climate Change
+subsections:
+- 14.3a Genomic Signatures of Climate Adaptation
+- 14.3b Genomics of Invasive Species
+- 14.3c Conservation Genomics
+
+- Chapter 15: Functional Genomics and Development:
+sections:
+- Section: 15.1 Genomics of Developmental Timing
+- Section: 15.2 Genomics of Cell Fate Determination
+- Section: 15.3 Genomics of Morphogenesis
+subsections:
+- 15.3a Genomics of Organogenesis
+- 15.3b Genomics of Symmetry Breaking
+- 15.3c Genomics of Regeneration
+
+- Chapter 16: Functional Genomics and Aging:
+sections:
+- Section: 16.1 Genomics of Aging
+- Section: 16.2 Genomics of Longevity
+- Section: 16.3 Genomics of Age-Related Diseases
+subsections:
+- 16.3a Genomics of Neurodegenerative Diseases
+- 16.3b Genomics of Cardiovascular Diseases
+- 16.3c Genomics of Cancer
+
+- Chapter 17: Functional Genomics and the Brain:
+sections:
+- Section: 17.1 Genomics of Neural Development
+- Section: 17.2 Genomics of Neural Plasticity
+- Section: 17.3 Genomics of Neurological Disorders
+subsections:
+- 17.3a Genomics of Autism Spectrum Disorders
+- 17.3b Genomics of Schizophrenia
+- 17.3c Genomics of Alzheimer's Disease
+
+- Chapter 18: Functional Genomics and the Immune System:
+sections:
+- Section: 18.1 Genomics of Immune Development
+- Section: 18.2 Genomics of Immune Response
+- Section: 18.3 Genomics of Autoimmune Diseases
+subsections:
+- 18.3a Genomics of Rheumatoid Arthritis
+- 18.3b Genomics of Multiple Sclerosis
+- 18.3c Genomics of Type 1 Diabetes
+
+- Chapter 19: Functional Genomics and Metabolism:
+sections:
+- Section: 19.1 Genomics of Metabolic Pathways
+- Section: 19.2 Genomics of Metabolic Diseases
+- Section: 19.3 Genomics of the Microbiome
+subsections:
+- 19.3a Genomics of Gut Microbiota
+- 19.3b Genomics of Skin Microbiota
+- 19.3c Genomics of Microbiota-Host Interactions
+
+- Chapter 20: Future Directions in Functional Genomics:
+sections:
+- Section: 20.1 Emerging Technologies in Functional Genomics
+- Section: 20.2 Ethical Considerations in Functional Genomics
+- Section: 20.3 Future Challenges in Functional Genomics
+subsections:
+- 20.3a Scalability and Reproducibility in Functional Genomics
+- 20.3b Functional Genomics in Personalized Medicine
+- 20.3c Functional Genomics in Global Health

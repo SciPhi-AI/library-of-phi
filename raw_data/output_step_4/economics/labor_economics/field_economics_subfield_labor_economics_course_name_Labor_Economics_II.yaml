@@ -1,0 +1,340 @@
+textbook:
+  'Labor Economics II: A Comprehensive Analysis":':
+    chapters:
+    - '- Chapter 1: Inequality: An Overview:':
+        sections:
+        - '- Section: 1.1 Decomposing the Wage Distribution:':
+            subsections:
+            - 1.1a Wage Inequality
+            - 1.1b Wage Distribution Factors
+            - 1.1c Wage Distribution Analysis
+        - '- Section: 1.2 Inequality - Some Facts and Questions:':
+            subsections:
+            - 1.2a Inequality Statistics
+            - 1.2b Causes of Inequality
+            - 1.2c Inequality Research Questions
+    - '- Chapter 2: Job Loss and Job Search:':
+        sections:
+        - '- Section: 2.1 Job Loss and Job Search at the Micro and Macro Level:':
+            subsections:
+            - 2.1a Job Loss Impact
+            - 2.1b Job Search Strategies
+            - 2.1c Micro vs Macro Job Search
+        - '- Section: 2.2 Educational Production and Wage Structure:':
+            subsections:
+            - 2.2a Education and Wage Correlation
+            - 2.2b Education Production Function
+            - 2.2c Wage Structure Analysis
+    - '- Chapter 3: Market Structure and Wage Structure:':
+        sections:
+        - '- Section: 3.1 Capital-skill Complementarity:':
+            subsections:
+            - 3.1a Capital-skill Definition
+            - 3.1b Capital-skill Impact on Wages
+            - 3.1c Capital-skill Case Studies
+        - '- Section: 3.2 The Task Framework:':
+            subsections:
+            - 3.2a Task Framework Definition
+            - 3.2b Task Framework Application
+            - 3.2c Task Framework and Wage Structure
+        - '- Section: 3.3 The Division of Labor:':
+            subsections:
+            - 3.3a Division of Labor Theory
+            - 3.3b Division of Labor and Wage Structure
+            - 3.3c Division of Labor Case Studies
+        - '- Section: 3.4 The Economics of Superstars:':
+            subsections:
+            - 3.4a Superstar Effect on Wage Structure
+            - 3.4b Superstar Earnings Analysis
+            - 3.4c Superstar Phenomenon Case Studies
+    - '- Chapter 4: Theory and Evidence:':
+        sections:
+        - '- Section: 4.1 Labor Market Institutions and Wage Structure:':
+            subsections:
+            - 4.1a Labor Market Institutions Overview
+            - 4.1b Labor Market Institutions and Wage Structure
+            - 4.1c Labor Market Institutions Case Studies
+        - '- Section: 4.2 The Emerging Gender Gap in Education and Labor Markets:':
+            subsections:
+            - 4.2a Gender Gap Statistics
+            - 4.2b Gender Gap Causes
+            - 4.2c Gender Gap Impact on Wage Structure
+        - '- Section: 4.3 The Roy Model: Theory and An Application to Immigration:':
+            subsections:
+            - 4.3a Roy Model Overview
+            - 4.3b Roy Model and Immigration
+            - 4.3c Roy Model Case Studies
+        - '- Section: 4.4 The Roy Model: Additional Applications:':
+            subsections:
+            - 4.4a Roy Model and Education
+            - 4.4b Roy Model and Skill Distribution
+            - 4.4c Roy Model and Wage Inequality
+    - '- Chapter 5: Equalizing Wage Differentials:':
+        sections:
+        - '- Section: 5.1 Equalizing Wage Differentials: Theory and Empirics:':
+            subsections:
+            - 5.1a Wage Differentials Theory
+            - 5.1b Wage Differentials Empirical Evidence
+            - 5.1c Wage Differentials Case Studies
+        - '- Section: 5.2 Applying the Roy Model and Equalizing Wage Differentials: Female Labor Supply:':
+            subsections:
+            - 5.2a Female Labor Supply Statistics
+            - 5.2b Roy Model and Female Labor Supply
+            - 5.2c Female Labor Supply Case Studies
+        - '- Section: 5.3 Applying the Roy Model and Equalizing Wage Differentials: The Scientific Workforce:':
+            subsections:
+            - 5.3a Scientific Workforce Overview
+            - 5.3b Roy Model and Scientific Workforce
+            - 5.3c Scientific Workforce Case Studies
+    - '- Chapter 6: Discrimination and Learning:':
+        sections:
+        - '- Section: 6.1 Discrimination - Theory:':
+            subsections:
+            - 6.1a Discrimination Theory Overview
+            - 6.1b Discrimination Theory and Wage Structure
+            - 6.1c Discrimination Theory Case Studies
+        - '- Section: 6.2 Discrimination - Empirics:':
+            subsections:
+            - 6.2a Discrimination Empirical Evidence
+            - 6.2b Discrimination and Wage Structure
+            - 6.2c Discrimination Case Studies
+        - '- Section: 6.3 Discrimination and Learning:':
+            subsections:
+            - 6.3a Discrimination and Learning Theory
+            - 6.3b Discrimination and Learning Empirical Evidence
+            - 6.3c Discrimination and Learning Case Studies
+    - '- Chapter 7: Firm-level Determinants of Wages and Productivity:':
+        sections:
+        - '- Section: 7.1 Rent-sharing:':
+            subsections:
+            - 7.1a Rent-sharing Theory
+            - 7.1b Rent-sharing and Wage Structure
+            - 7.1c Rent-sharing Case Studies
+        - '- Section: 7.2 Management Practices:':
+            subsections:
+            - 7.2a Management Practices Overview
+            - 7.2b Management Practices and Wage Structure
+            - 7.2c Management Practices Case Studies
+    - '- Chapter 8: Intergenerational Mobility:':
+        sections:
+        - '- Section: 8.1 Intergenerational Mobility - Theory and Measurement:':
+            subsections:
+            - 8.1a Intergenerational Mobility Theory
+            - 8.1b Intergenerational Mobility Measurement
+            - 8.1c Intergenerational Mobility Case Studies
+        - '- Section: 8.2 Intergenerational Mobility - Empirics:':
+            subsections:
+            - 8.2a Intergenerational Mobility Empirical Evidence
+            - 8.2b Intergenerational Mobility and Wage Structure
+            - 8.2c Intergenerational Mobility Case Studies
+        - '- Section: 8.3 Early Life Determinants of Long-run Outcomes:':
+            subsections:
+            - 8.3a Early Life Determinants Overview
+            - 8.3b Early Life Determinants and Wage Structure
+            - 8.3c Early Life Determinants Case Studies
+    - '- Chapter 9: Labor Market Dynamics:':
+        sections:
+        - '- Section: 9.1 Labor Market Fluctuations:':
+            subsections:
+            - 9.1a Labor Market Fluctuations Overview
+            - 9.1b Labor Market Fluctuations and Wage Structure
+            - 9.1c Labor Market Fluctuations Case Studies
+        - '- Section: 9.2 Labor Market Policies:':
+            subsections:
+            - 9.2a Labor Market Policies Overview
+            - 9.2b Labor Market Policies and Wage Structure
+            - 9.2c Labor Market Policies Case Studies
+        - '- Section: 9.3 Labor Market Trends:':
+            subsections:
+            - 9.3a Labor Market Trends Overview
+            - 9.3b Labor Market Trends and Wage Structure
+            - 9.3c Labor Market Trends Case Studies
+    - '- Chapter 10: Labor Market Segmentation:':
+        sections:
+        - '- Section: 10.1 Labor Market Segmentation Theory:':
+            subsections:
+            - 10.1a Labor Market Segmentation Overview
+            - 10.1b Labor Market Segmentation and Wage Structure
+            - 10.1c Labor Market Segmentation Case Studies
+        - '- Section: 10.2 Labor Market Segmentation Empirics:':
+            subsections:
+            - 10.2a Labor Market Segmentation Empirical Evidence
+            - 10.2b Labor Market Segmentation and Wage Structure
+            - 10.2c Labor Market Segmentation Case Studies
+        - '- Section: 10.3 Labor Market Segmentation Policies:':
+            subsections:
+            - 10.3a Labor Market Segmentation Policies Overview
+            - 10.3b Labor Market Segmentation Policies and Wage Structure
+            - 10.3c Labor Market Segmentation Policies Case Studies
+    - '- Chapter 11: Labor Market Institutions:':
+        sections:
+        - '- Section: 11.1 Labor Market Institutions Overview:':
+            subsections:
+            - 11.1a Labor Market Institutions Definition
+            - 11.1b Labor Market Institutions and Wage Structure
+            - 11.1c Labor Market Institutions Case Studies
+        - '- Section: 11.2 Labor Market Institutions Empirics:':
+            subsections:
+            - 11.2a Labor Market Institutions Empirical Evidence
+            - 11.2b Labor Market Institutions and Wage Structure
+            - 11.2c Labor Market Institutions Case Studies
+        - '- Section: 11.3 Labor Market Institutions Policies:':
+            subsections:
+            - 11.3a Labor Market Institutions Policies Overview
+            - 11.3b Labor Market Institutions Policies and Wage Structure
+            - 11.3c Labor Market Institutions Policies Case Studies
+    - '- Chapter 12: Labor Market Policies:':
+        sections:
+        - '- Section: 12.1 Labor Market Policies Overview:':
+            subsections:
+            - 12.1a Labor Market Policies Definition
+            - 12.1b Labor Market Policies and Wage Structure
+            - 12.1c Labor Market Policies Case Studies
+        - '- Section: 12.2 Labor Market Policies Empirics:':
+            subsections:
+            - 12.2a Labor Market Policies Empirical Evidence
+            - 12.2b Labor Market Policies and Wage Structure
+            - 12.2c Labor Market Policies Case Studies
+        - '- Section: 12.3 Labor Market Policies Evaluation:':
+            subsections:
+            - 12.3a Labor Market Policies Evaluation Overview
+            - 12.3b Labor Market Policies Evaluation and Wage Structure
+            - 12.3c Labor Market Policies Evaluation Case Studies
+    - '- Chapter 13: Labor Market Trends:':
+        sections:
+        - '- Section: 13.1 Labor Market Trends Overview:':
+            subsections:
+            - 13.1a Labor Market Trends Definition
+            - 13.1b Labor Market Trends and Wage Structure
+            - 13.1c Labor Market Trends Case Studies
+        - '- Section: 13.2 Labor Market Trends Empirics:':
+            subsections:
+            - 13.2a Labor Market Trends Empirical Evidence
+            - 13.2b Labor Market Trends and Wage Structure
+            - 13.2c Labor Market Trends Case Studies
+        - '- Section: 13.3 Labor Market Trends Policies:':
+            subsections:
+            - 13.3a Labor Market Trends Policies Overview
+            - 13.3b Labor Market Trends Policies and Wage Structure
+            - 13.3c Labor Market Trends Policies Case Studies
+    - '- Chapter 14: Labor Market Fluctuations:':
+        sections:
+        - '- Section: 14.1 Labor Market Fluctuations Overview:':
+            subsections:
+            - 14.1a Labor Market Fluctuations Definition
+            - 14.1b Labor Market Fluctuations and Wage Structure
+            - 14.1c Labor Market Fluctuations Case Studies
+        - '- Section: 14.2 Labor Market Fluctuations Empirics:':
+            subsections:
+            - 14.2a Labor Market Fluctuations Empirical Evidence
+            - 14.2b Labor Market Fluctuations and Wage Structure
+            - 14.2c Labor Market Fluctuations Case Studies
+        - '- Section: 14.3 Labor Market Fluctuations Policies:':
+            subsections:
+            - 14.3a Labor Market Fluctuations Policies Overview
+            - 14.3b Labor Market Fluctuations Policies and Wage Structure
+            - 14.3c Labor Market Fluctuations Policies Case Studies
+    - '- Chapter 15: Labor Market Segmentation Policies:':
+        sections:
+        - '- Section: 15.1 Labor Market Segmentation Policies Overview:':
+            subsections:
+            - 15.1a Labor Market Segmentation Policies Definition
+            - 15.1b Labor Market Segmentation Policies and Wage Structure
+            - 15.1c Labor Market Segmentation Policies Case Studies
+        - '- Section: 15.2 Labor Market Segmentation Policies Empirics:':
+            subsections:
+            - 15.2a Labor Market Segmentation Policies Empirical Evidence
+            - 15.2b Labor Market Segmentation Policies and Wage Structure
+            - 15.2c Labor Market Segmentation Policies Case Studies
+        - '- Section: 15.3 Labor Market Segmentation Policies Evaluation:':
+            subsections:
+            - 15.3a Labor Market Segmentation Policies Evaluation Overview
+            - 15.3b Labor Market Segmentation Policies Evaluation and Wage Structure
+            - 15.3c Labor Market Segmentation Policies Evaluation Case Studies
+    - '- Chapter 16: Labor Market Institutions Policies:':
+        sections:
+        - '- Section: 16.1 Labor Market Institutions Policies Overview:':
+            subsections:
+            - 16.1a Labor Market Institutions Policies Definition
+            - 16.1b Labor Market Institutions Policies and Wage Structure
+            - 16.1c Labor Market Institutions Policies Case Studies
+        - '- Section: 16.2 Labor Market Institutions Policies Empirics:':
+            subsections:
+            - 16.2a Labor Market Institutions Policies Empirical Evidence
+            - 16.2b Labor Market Institutions Policies and Wage Structure
+            - 16.2c Labor Market Institutions Policies Case Studies
+        - '- Section: 16.3 Labor Market Institutions Policies Evaluation:':
+            subsections:
+            - 16.3a Labor Market Institutions Policies Evaluation Overview
+            - 16.3b Labor Market Institutions Policies Evaluation and Wage Structure
+            - 16.3c Labor Market Institutions Policies Evaluation Case Studies
+    - '- Chapter 17: Labor Market Policies Evaluation:':
+        sections:
+        - '- Section: 17.1 Labor Market Policies Evaluation Overview:':
+            subsections:
+            - 17.1a Labor Market Policies Evaluation Definition
+            - 17.1b Labor Market Policies Evaluation and Wage Structure
+            - 17.1c Labor Market Policies Evaluation Case Studies
+        - '- Section: 17.2 Labor Market Policies Evaluation Empirics:':
+            subsections:
+            - 17.2a Labor Market Policies Evaluation Empirical Evidence
+            - 17.2b Labor Market Policies Evaluation and Wage Structure
+            - 17.2c Labor Market Policies Evaluation Case Studies
+        - '- Section: 17.3 Labor Market Policies Evaluation Techniques:':
+            subsections:
+            - 17.3a Labor Market Policies Evaluation Techniques Overview
+            - 17.3b Labor Market Policies Evaluation Techniques and Wage Structure
+            - 17.3c Labor Market Policies Evaluation Techniques Case Studies
+    - '- Chapter 18: Labor Market Trends Policies:':
+        sections:
+        - '- Section: 18.1 Labor Market Trends Policies Overview:':
+            subsections:
+            - 18.1a Labor Market Trends Policies Definition
+            - 18.1b Labor Market Trends Policies and Wage Structure
+            - 18.1c Labor Market Trends Policies Case Studies
+        - '- Section: 18.2 Labor Market Trends Policies Empirics:':
+            subsections:
+            - 18.2a Labor Market Trends Policies Empirical Evidence
+            - 18.2b Labor Market Trends Policies and Wage Structure
+            - 18.2c Labor Market Trends Policies Case Studies
+        - '- Section: 18.3 Labor Market Trends Policies Evaluation:':
+            subsections:
+            - 18.3a Labor Market Trends Policies Evaluation Overview
+            - 18.3b Labor Market Trends Policies Evaluation and Wage Structure
+            - 18.3c Labor Market Trends Policies Evaluation Case Studies
+    - '- Chapter 19: Labor Market Fluctuations Policies:':
+        sections:
+        - '- Section: 19.1 Labor Market Fluctuations Policies Overview:':
+            subsections:
+            - 19.1a Labor Market Fluctuations Policies Definition
+            - 19.1b Labor Market Fluctuations Policies and Wage Structure
+            - 19.1c Labor Market Fluctuations Policies Case Studies
+        - '- Section: 19.2 Labor Market Fluctuations Policies Empirics:':
+            subsections:
+            - 19.2a Labor Market Fluctuations Policies Empirical Evidence
+            - 19.2b Labor Market Fluctuations Policies and Wage Structure
+            - 19.2c Labor Market Fluctuations Policies Case Studies
+        - '- Section: 19.3 Labor Market Fluctuations Policies Evaluation:':
+            subsections:
+            - 19.3a Labor Market Fluctuations Policies Evaluation Overview
+            - 19.3b Labor Market Fluctuations Policies Evaluation and Wage Structure
+            - 19.3c Labor Market Fluctuations Policies Evaluation Case Studies
+    - '- Chapter 20: Labor Market Segmentation Policies Evaluation:':
+        sections:
+        - '- Section: 20.1 Labor Market Segmentation Policies Evaluation Overview:':
+            subsections:
+            - 20.1a Labor Market Segmentation Policies Evaluation Definition
+            - 20.1b Labor Market Segmentation Policies Evaluation and Wage Structure
+            - 20.1c Labor Market Segmentation Policies Evaluation Case Studies
+        - '- Section: 20.2 Labor Market Segmentation Policies Evaluation Empirics:':
+            subsections:
+            - 20.2a Labor Market Segmentation Policies Evaluation Empirical Evidence
+            - 20.2b Labor Market Segmentation Policies Evaluation and Wage Structure
+            - 20.2c Labor Market Segmentation Policies Evaluation Case Studies
+        - '- Section: 20.3 Labor Market Segmentation Policies Evaluation Techniques:':
+            subsections:
+            - 20.3a Labor Market Segmentation Policies Evaluation Techniques Overview
+            - 20.3b Labor Market Segmentation Policies Evaluation Techniques and Wage
+              Structure
+            - 20.3c Labor Market Segmentation Policies Evaluation Techniques Case
+              Studies

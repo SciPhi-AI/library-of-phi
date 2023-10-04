@@ -1,0 +1,188 @@
+textbook:
+  'Design and Manufacturing: Concepts and Applications":':
+    chapters:
+    - '- Chapter 1: Course Introduction and Contest Overview:':
+        sections:
+        - '- Section: 1.1 Explore Kit and Contest:':
+            subsections:
+            - 1.1a Introduction to Kit
+            - 1.1b Understanding the Contest
+            - 1.1c Contest Rules and Guidelines
+    - '- Chapter 2: Problem Definition and Design:':
+        sections:
+        - '- Section: 2.1 Design Process and Machine Elements:':
+            subsections:
+            - 2.1a Understanding the Design Process
+            - 2.1b Introduction to Machine Elements
+            - 2.1c Application of Machine Elements
+        - '- Section: 2.2 Servomotors, Mechanisms, and CAD:':
+            subsections:
+            - 2.2a Introduction to Servomotors
+            - 2.2b Understanding Mechanisms
+            - 2.2c Basics of CAD
+        - '- Section: 2.3 Window Mechanism:':
+            subsections:
+            - 2.3a Understanding Window Mechanism
+            - 2.3b Designing Window Mechanism
+            - 2.3c Implementing Window Mechanism
+    - '- Chapter 3: Actuators - DC Motors, Servomotors, Pneumatics:':
+        sections:
+        - '- Section: 3.1 Pneumatics, CAD, and Gears:':
+            subsections:
+            - 3.1a Introduction to Pneumatics
+            - 3.1b Advanced CAD Techniques
+            - 3.1c Understanding Gears
+    - '- Chapter 4: Creating CAD Components:':
+        sections:
+        - '- Section: 4.1 Creating CAD Components 1:':
+            subsections:
+            - 4.1a Basics of CAD Components
+            - 4.1b Designing CAD Components
+            - 4.1c Implementing CAD Components
+        - '- Section: 4.2 Creating CAD Components 2:':
+            subsections:
+            - 4.2a Advanced CAD Components
+            - 4.2b Designing Complex CAD Components
+            - 4.2c Implementing Complex CAD Components
+    - '- Chapter 5: Mechanisms:':
+        sections:
+        - '- Section: 5.1 Mechanisms:':
+            subsections:
+            - 5.1a Understanding Mechanisms
+            - 5.1b Designing Mechanisms
+            - 5.1c Implementing Mechanisms
+        - '- Section: 5.2 Creating CAD Assemblies:':
+            subsections:
+            - 5.2a Basics of CAD Assemblies
+            - 5.2b Designing CAD Assemblies
+            - 5.2c Implementing CAD Assemblies
+        - '- Section: 5.3 Mechanisms (2D Kinematic Analysis):':
+            subsections:
+            - 5.3a Understanding 2D Kinematic Analysis
+            - 5.3b Applying 2D Kinematic Analysis
+            - 5.3c Case Studies of 2D Kinematic Analysis
+        - '- Section: 5.4 Mechanisms (Synthesis of 4 Bar Mechanisms):':
+            subsections:
+            - 5.4a Understanding 4 Bar Mechanisms
+            - 5.4b Designing 4 Bar Mechanisms
+            - 5.4c Implementing 4 Bar Mechanisms
+    - '- Chapter 6: Creating CAD Assemblies:':
+        sections:
+        - '- Section: 6.1 Creating CAD Assemblies 2:':
+            subsections:
+            - 6.1a Advanced CAD Assemblies
+            - 6.1b Designing Complex CAD Assemblies
+            - 6.1c Implementing Complex CAD Assemblies
+    - '- Chapter 7: Quiz 1:':
+        sections:
+        - '- Section: 7.1 Quiz 1:':
+            subsections:
+            - 7.1a Quiz Preparation
+            - 7.1b Quiz Discussion
+            - 7.1c Quiz Feedback
+    - '- Chapter 8: Creating CAD Drawings:':
+        sections:
+        - '- Section: 8.1 Creating CAD Drawings:':
+            subsections:
+            - 8.1a Basics of CAD Drawings
+            - 8.1b Designing CAD Drawings
+            - 8.1c Implementing CAD Drawings
+    - '- Chapter 9: Gears:':
+        sections:
+        - '- Section: 9.1 Gears - Basics, Terminology, Involute Curve:':
+            subsections:
+            - 9.1a Understanding Gears
+            - 9.1b Gear Terminology
+            - 9.1c Understanding Involute Curve
+        - '- Section: 9.2 Gears - Strength, Gear Trains:':
+            subsections:
+            - 9.2a Understanding Gear Strength
+            - 9.2b Designing Gear Trains
+            - 9.2c Implementing Gear Trains
+    - '- Chapter 10: Microcontrollers:':
+        sections:
+        - '- Section: 10.1 Microcontrollers:':
+            subsections:
+            - 10.1a Introduction to Microcontrollers
+            - 10.1b Programming Microcontrollers
+            - 10.1c Implementing Microcontrollers
+    - '- Chapter 11: Lab Time:':
+        sections:
+        - '- Section: 11.1 Lab Time:':
+            subsections:
+            - 11.1a Lab Preparation
+            - 11.1b Lab Activities
+            - 11.1c Lab Feedback
+    - '- Chapter 12: Sensors:':
+        sections:
+        - '- Section: 12.1 Sensors:':
+            subsections:
+            - 12.1a Introduction to Sensors
+            - 12.1b Sensor Types and Applications
+            - 12.1c Implementing Sensors
+    - '- Chapter 13: Belts / Chains / Cams:':
+        sections:
+        - '- Section: 13.1 Belts / Chains / Cams:':
+            subsections:
+            - 13.1a Understanding Belts
+            - 13.1b Understanding Chains
+            - 13.1c Understanding Cams
+    - '- Chapter 14: Quiz 2:':
+        sections:
+        - '- Section: 14.1 Quiz 2:':
+            subsections:
+            - 14.1a Quiz Preparation
+            - 14.1b Quiz Discussion
+            - 14.1c Quiz Feedback
+    - '- Chapter 15: Optimization:':
+        sections:
+        - '- Section: 15.1 Optimization:':
+            subsections:
+            - 15.1a Understanding Optimization
+            - 15.1b Optimization Techniques
+            - 15.1c Implementing Optimization
+    - '- Chapter 16: Professional Ethics:':
+        sections:
+        - '- Section: 16.1 Professional Ethics:':
+            subsections:
+            - 16.1a Understanding Professional Ethics
+            - 16.1b Ethical Dilemmas in Design and Manufacturing
+            - 16.1c Case Studies in Professional Ethics
+    - '- Chapter 17: Review of Festivity Procedures:':
+        sections:
+        - '- Section: 17.1 Review of Festivity Procedures:':
+            subsections:
+            - 17.1a Understanding Festivity Procedures
+            - 17.1b Preparing for Festivities
+            - 17.1c Implementing Festivity Procedures
+    - "- Chapter 18: A Review of This Year\u2019s Machines:":
+        sections:
+        - "- Section: 18.1 A Review of This Year\u2019s Machines:":
+            subsections:
+            - 18.1a Understanding Machine Design
+            - 18.1b Reviewing Machine Performance
+            - 18.1c Feedback on Machine Design
+    - '- Chapter 19: Course Summary / Feedback:':
+        sections:
+        - '- Section: 19.1 Course Summary / Feedback:':
+            subsections:
+            - 19.1a Course Summary
+            - 19.1b Course Feedback
+            - 19.1c Future Improvements
+    - '- Chapter 20: Advanced Topics in Design and Manufacturing:':
+        sections:
+        - '- Section: 20.1 Advanced Materials:':
+            subsections:
+            - 20.1a Introduction to Advanced Materials
+            - 20.1b Applications of Advanced Materials
+            - 20.1c Future Trends in Materials
+        - '- Section: 20.2 Robotics in Manufacturing:':
+            subsections:
+            - 20.2a Introduction to Robotics
+            - 20.2b Applications of Robotics in Manufacturing
+            - 20.2c Future Trends in Robotics
+        - '- Section: 20.3 Additive Manufacturing:':
+            subsections:
+            - 20.3a Introduction to Additive Manufacturing
+            - 20.3b Applications of Additive Manufacturing
+            - 20.3c Future Trends in Additive Manufacturing

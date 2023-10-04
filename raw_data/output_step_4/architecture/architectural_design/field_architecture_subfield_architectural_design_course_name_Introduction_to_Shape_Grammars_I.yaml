@@ -1,0 +1,223 @@
+textbook:
+  'Introduction to Shape Grammars: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Shape Grammars:':
+        sections:
+        - '- Section: 1.1 Definition and Principles:':
+            subsections:
+            - 1.1a Definition of Shape Grammars
+            - 1.1b Basic Principles of Shape Grammars
+            - 1.1c History of Shape Grammars
+        - '- Section: 1.2 Shape Grammar Notation:':
+            subsections:
+            - 1.2a Introduction to Notation
+            - 1.2b Common Notation Systems
+            - 1.2c Notation Examples
+        - '- Section: 1.3 Rule Application:':
+            subsections:
+            - 1.3a Basic Rule Application
+            - 1.3b Advanced Rule Application
+            - 1.3c Rule Application Examples
+        - '- Section: 1.4 Shape Generation:':
+            subsections:
+            - 1.4a Basic Shape Generation
+            - 1.4b Advanced Shape Generation
+            - 1.4c Shape Generation Examples
+    - '- Chapter 2: Applications of Shape Grammars:':
+        sections:
+        - '- Section: 2.1 Architecture Design:':
+            subsections:
+            - 2.1a Shape Grammars in Architecture
+            - 2.1b Case Studies in Architecture
+            - 2.1c Future of Shape Grammars in Architecture
+        - '- Section: 2.2 Urban Planning:':
+            subsections:
+            - 2.2a Shape Grammars in Urban Planning
+            - 2.2b Case Studies in Urban Planning
+            - 2.2c Future of Shape Grammars in Urban Planning
+        - '- Section: 2.3 Industrial Design:':
+            subsections:
+            - 2.3a Shape Grammars in Industrial Design
+            - 2.3b Case Studies in Industrial Design
+            - 2.3c Future of Shape Grammars in Industrial Design
+        - '- Section: 2.4 Computer Graphics:':
+            subsections:
+            - 2.4a Shape Grammars in Computer Graphics
+            - 2.4b Case Studies in Computer Graphics
+            - 2.4c Future of Shape Grammars in Computer Graphics
+    - '- Chapter 3: Shape Grammar Variations:':
+        sections:
+        - '- Section: 3.1 Parametric Shape Grammars:':
+            subsections:
+            - 3.1a Definition of Parametric Shape Grammars
+            - 3.1b Use Cases for Parametric Shape Grammars
+            - 3.1c Future of Parametric Shape Grammars
+        - '- Section: 3.2 Stochastic Shape Grammars:':
+            subsections:
+            - 3.2a Definition of Stochastic Shape Grammars
+            - 3.2b Use Cases for Stochastic Shape Grammars
+            - 3.2c Future of Stochastic Shape Grammars
+        - '- Section: 3.3 Generative Shape Grammars:':
+            subsections:
+            - 3.3a Definition of Generative Shape Grammars
+            - 3.3b Use Cases for Generative Shape Grammars
+            - 3.3c Future of Generative Shape Grammars
+        - '- Section: 3.4 Procedural Shape Grammars:':
+            subsections:
+            - 3.4a Definition of Procedural Shape Grammars
+            - 3.4b Use Cases for Procedural Shape Grammars
+            - 3.4c Future of Procedural Shape Grammars
+    - '- Chapter 4: Grammar Analysis Techniques:':
+        sections:
+        - '- Section: 4.1 Shape Decomposition:':
+            subsections:
+            - 4.1a Basics of Shape Decomposition
+            - 4.1b Techniques for Shape Decomposition
+            - 4.1c Case Studies in Shape Decomposition
+        - '- Section: 4.2 Shape Recognition:':
+            subsections:
+            - 4.2a Basics of Shape Recognition
+            - 4.2b Techniques for Shape Recognition
+            - 4.2c Case Studies in Shape Recognition
+        - '- Section: 4.3 Shape Comparison:':
+            subsections:
+            - 4.3a Basics of Shape Comparison
+            - 4.3b Techniques for Shape Comparison
+            - 4.3c Case Studies in Shape Comparison
+        - '- Section: 4.4 Shape Optimization:':
+            subsections:
+            - 4.4a Basics of Shape Optimization
+            - 4.4b Techniques for Shape Optimization
+            - 4.4c Case Studies in Shape Optimization
+    - '- Chapter 5: Shape Grammar Implementation:':
+        sections:
+        - '- Section: 5.1 Grammar Parsing:':
+            subsections:
+            - 5.1a Basics of Grammar Parsing
+            - 5.1b Techniques for Grammar Parsing
+            - 5.1c Case Studies in Grammar Parsing
+        - '- Section: 5.2 Rule Execution:':
+            subsections:
+            - 5.2a Basics of Rule Execution
+            - 5.2b Techniques for Rule Execution
+            - 5.2c Case Studies in Rule Execution
+        - '- Section: 5.3 Shape Generation Algorithms:':
+            subsections:
+            - 5.3a Basics of Shape Generation Algorithms
+            - 5.3b Techniques for Shape Generation Algorithms
+            - 5.3c Case Studies in Shape Generation Algorithms
+        - '- Section: 5.4 Grammar Visualization Tools:':
+            subsections:
+            - 5.4a Basics of Grammar Visualization Tools
+            - 5.4b Techniques for Grammar Visualization Tools
+            - 5.4c Case Studies in Grammar Visualization Tools
+    - '- Chapter 6: Advanced Topics in Shape Grammars:':
+        sections:
+        - '- Section: 6.1 Hierarchical Shape Grammars:':
+            subsections:
+            - 6.1a Definition of Hierarchical Shape Grammars
+            - 6.1b Use Cases for Hierarchical Shape Grammars
+            - 6.1c Future of Hierarchical Shape Grammars
+        - '- Section: 6.2 Multi-Level Shape Grammars:':
+            subsections:
+            - 6.2a Definition of Multi-Level Shape Grammars
+            - 6.2b Use Cases for Multi-Level Shape Grammars
+            - 6.2c Future of Multi-Level Shape Grammars
+        - '- Section: 6.3 Shape Grammar Evolution:':
+            subsections:
+            - 6.3a Basics of Shape Grammar Evolution
+            - 6.3b Techniques for Shape Grammar Evolution
+            - 6.3c Case Studies in Shape Grammar Evolution
+        - '- Section: 6.4 Grammar Learning:':
+            subsections:
+            - 6.4a Basics of Grammar Learning
+            - 6.4b Techniques for Grammar Learning
+            - 6.4c Case Studies in Grammar Learning
+    - '- Chapter 7: Shape Grammar Applications in Design:':
+        sections:
+        - '- Section: 7.1 Architectural Styles:':
+            subsections:
+            - 7.1a Shape Grammars in Architectural Styles
+            - 7.1b Case Studies in Architectural Styles
+            - 7.1c Future of Shape Grammars in Architectural Styles
+        - '- Section: 7.2 Generative Design:':
+            subsections:
+            - 7.2a Shape Grammars in Generative Design
+            - 7.2b Case Studies in Generative Design
+            - 7.2c Future of Shape Grammars in Generative Design
+        - '- Section: 7.3 3D Printing:':
+            subsections:
+            - 7.3a Shape Grammars in 3D Printing
+            - 7.3b Case Studies in 3D Printing
+            - 7.3c Future of Shape Grammars in 3D Printing
+        - '- Section: 7.4 Parametric Design:':
+            subsections:
+            - 7.4a Shape Grammars in Parametric Design
+            - 7.4b Case Studies in Parametric Design
+            - 7.4c Future of Shape Grammars in Parametric Design
+    - '- Chapter 8: Shape Grammar Evaluation Methods:':
+        sections:
+        - '- Section: 8.1 Design Evaluation Criteria:':
+            subsections:
+            - 8.1a Basics of Design Evaluation Criteria
+            - 8.1b Techniques for Design Evaluation Criteria
+            - 8.1c Case Studies in Design Evaluation Criteria
+        - '- Section: 8.2 Shape Grammar Metrics:':
+            subsections:
+            - 8.2a Basics of Shape Grammar Metrics
+            - 8.2b Techniques for Shape Grammar Metrics
+            - 8.2c Case Studies in Shape Grammar Metrics
+        - '- Section: 8.3 User Studies:':
+            subsections:
+            - 8.3a Basics of User Studies
+            - 8.3b Techniques for User Studies
+            - 8.3c Case Studies in User Studies
+        - '- Section: 8.4 Performance Evaluation:':
+            subsections:
+            - 8.4a Basics of Performance Evaluation
+            - 8.4b Techniques for Performance Evaluation
+            - 8.4c Case Studies in Performance Evaluation
+    - '- Chapter 9: Shape Grammar Extensions:':
+        sections:
+        - '- Section: 9.1 Grammar Modularity:':
+            subsections:
+            - 9.1a Definition of Grammar Modularity
+            - 9.1b Use Cases for Grammar Modularity
+            - 9.1c Future of Grammar Modularity
+        - '- Section: 9.2 Shape Grammar Composition:':
+            subsections:
+            - 9.2a Basics of Shape Grammar Composition
+            - 9.2b Techniques for Shape Grammar Composition
+            - 9.2c Case Studies in Shape Grammar Composition
+        - '- Section: 9.3 Contextual Shape Grammars:':
+            subsections:
+            - 9.3a Definition of Contextual Shape Grammars
+            - 9.3b Use Cases for Contextual Shape Grammars
+            - 9.3c Future of Contextual Shape Grammars
+        - '- Section: 9.4 Shape Grammar Optimization:':
+            subsections:
+            - 9.4a Basics of Shape Grammar Optimization
+            - 9.4b Techniques for Shape Grammar Optimization
+            - 9.4c Case Studies in Shape Grammar Optimization
+    - '- Chapter 10: Shape Grammar Visualization:':
+        sections:
+        - '- Section: 10.1 Basics of Shape Grammar Visualization:':
+            subsections:
+            - 10.1a Definition of Shape Grammar Visualization
+            - 10.1b Use Cases for Shape Grammar Visualization
+            - 10.1c Future of Shape Grammar Visualization
+        - '- Section: 10.2 Techniques for Shape Grammar Visualization:':
+            subsections:
+            - 10.2a Introduction to Visualization Techniques
+            - 10.2b Advanced Visualization Techniques
+            - 10.2c Case Studies in Visualization Techniques
+        - '- Section: 10.3 Shape Grammar Interoperability:':
+            subsections:
+            - 10.3a Definition of Shape Grammar Interoperability
+            - 10.3b Use Cases for Shape Grammar Interoperability
+            - 10.3c Future of Shape Grammar Interoperability
+        - '- Section: 10.4 Case Studies in Shape Grammar Visualization:':
+            subsections:
+            - 10.4a Introduction to Case Studies
+            - 10.4b Detailed Case Studies
+            - 10.4c Analysis of Case Studies

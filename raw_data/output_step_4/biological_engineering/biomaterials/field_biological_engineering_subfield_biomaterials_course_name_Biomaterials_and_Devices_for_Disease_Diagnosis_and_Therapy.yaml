@@ -1,0 +1,211 @@
+textbook:
+  'Biomaterials and Devices for Disease Diagnosis and Therapy":':
+    chapters:
+    - '- Chapter 1: Introduction to Biomaterials:':
+        sections:
+        - '- Section: 1.1 Definition and Importance of Biomaterials':
+            subsections: []
+        - '- Section: 1.2 Types of Biomaterials':
+            subsections: []
+        - '- Section: 1.3 Properties and Characterization of Biomaterials':
+            subsections: []
+    - '- Chapter 2: Vaccine Delivery from Biodegradable Microspheres:':
+        sections:
+        - '- Section: 2.1 Role of Microspheres in Vaccine Delivery':
+            subsections: []
+        - '- Section: 2.2 Biodegradable Materials for Microspheres':
+            subsections: []
+        - '- Section: 2.3 Formulation and Manufacturing of Microspheres':
+            subsections: []
+        - '- Section: 2.4 Release Mechanisms of Vaccines from Microspheres':
+            subsections: []
+    - '- Chapter 3: Advanced Techniques for Improving Vaccine Efficacy:':
+        sections:
+        - '- Section: 3.1 Adjuvants in Vaccine Formulation':
+            subsections: []
+        - '- Section: 3.2 Novel Delivery Systems for Vaccines':
+            subsections: []
+        - '- Section: 3.3 Immunomodulation Strategies':
+            subsections: []
+        - '- Section: 3.4 Targeted Vaccine Delivery Approaches':
+            subsections: []
+    - '- Chapter 4: State-of-the-art Cancer Vaccines:':
+        sections:
+        - '- Section: 4.1 Types of Cancer Vaccines':
+            subsections: []
+        - '- Section: 4.2 Mechanisms of Action of Cancer Vaccines':
+            subsections: []
+        - '- Section: 4.3 Clinical Trials and Success Rates':
+            subsections: []
+        - '- Section: 4.4 Challenges and Future Directions':
+            subsections: []
+    - '- Chapter 5: Diagnostic Tools for Infectious Diseases:':
+        sections:
+        - '- Section: 5.1 Overview of Infectious Diseases':
+            subsections: []
+        - '- Section: 5.2 Traditional Diagnostic Methods':
+            subsections: []
+        - '- Section: 5.3 Molecular Diagnostic Techniques':
+            subsections: []
+        - '- Section: 5.4 Point-of-Care Testing Devices':
+            subsections: []
+    - '- Chapter 6: Islet Cell Encapsulation for Diabetes:':
+        sections:
+        - '- Section: 6.1 Islet Transplantation for Diabetes Treatment':
+            subsections: []
+        - '- Section: 6.2 Challenges and Limitations of Islet Transplantation':
+            subsections: []
+        - '- Section: 6.3 Role of Biomaterials in Islet Cell Encapsulation':
+            subsections: []
+        - '- Section: 6.4 Advancements in Islet Cell Encapsulation Techniques':
+            subsections: []
+    - '- Chapter 7: Tissue-instructive Scaffolds:':
+        sections:
+        - '- Section: 7.1 Tissue Engineering and Regenerative Medicine':
+            subsections: []
+        - '- Section: 7.2 Types of Scaffolds in Tissue Engineering':
+            subsections: []
+        - '- Section: 7.3 Scaffold Design and Fabrication Methods':
+            subsections: []
+        - '- Section: 7.4 Scaffold-Material Interactions':
+            subsections: []
+    - '- Chapter 8: Diagnostic Tools for Cancer:':
+        sections:
+        - '- Section: 8.1 Biomarkers for Cancer Diagnosis':
+            subsections: []
+        - '- Section: 8.2 Imaging Techniques for Cancer Detection':
+            subsections: []
+        - '- Section: 8.3 Liquid Biopsy and Circulating Tumor Cells':
+            subsections: []
+        - '- Section: 8.4 Emerging Technologies in Cancer Diagnostics':
+            subsections: []
+    - '- Chapter 9: Low-cost, Paper-based Diagnostic Tools:':
+        sections:
+        - '- Section: 9.1 Principles of Paper-based Diagnostics':
+            subsections: []
+        - '- Section: 9.2 Paper-based Assay Formats':
+            subsections: []
+        - '- Section: 9.3 Sensing Mechanisms in Paper-based Diagnostics':
+            subsections: []
+        - '- Section: 9.4 Applications and Advantages of Paper-based Diagnostics':
+            subsections: []
+    - '- Chapter 10: Non-viral Delivery of Genetic Material for Gene Therapy and Cancer:':
+        sections:
+        - '- Section: 10.1 Gene Therapy for Genetic Disorders':
+            subsections: []
+        - '- Section: 10.2 Non-viral Gene Delivery Methods':
+            subsections: []
+        - '- Section: 10.3 Gene Delivery Vehicles and Carriers':
+            subsections: []
+        - '- Section: 10.4 Challenges in Non-viral Gene Delivery':
+            subsections: []
+    - '- Chapter 11: Oral Presentations, Conclusion, and Closing Remarks:':
+        sections:
+        - '- Section: 11.1 Presentation Skills and Techniques':
+            subsections: []
+        - '- Section: 11.2 Effective Communication of Research Findings':
+            subsections: []
+        - '- Section: 11.3 Summarizing Course Topics':
+            subsections: []
+        - '- Section: 11.4 Final Remarks and Reflections':
+            subsections: []
+    - '- Chapter 12: Advanced Biomaterials:':
+        sections:
+        - '- Section: 12.1 Metallic Biomaterials':
+            subsections: []
+        - '- Section: 12.2 Ceramic Biomaterials':
+            subsections: []
+        - '- Section: 12.3 Polymeric Biomaterials':
+            subsections: []
+        - '- Section: 12.4 Composite Biomaterials':
+            subsections: []
+    - '- Chapter 13: Drug Delivery Systems:':
+        sections:
+        - '- Section: 13.1 Controlled Release Systems':
+            subsections: []
+        - '- Section: 13.2 Implantable Drug Delivery Systems':
+            subsections: []
+        - '- Section: 13.3 Injectable Drug Delivery Systems':
+            subsections: []
+        - '- Section: 13.4 Nanoparticulate Drug Delivery Systems':
+            subsections: []
+    - '- Chapter 14: Biomaterials for Tissue Engineering:':
+        sections:
+        - '- Section: 14.1 Biomaterials for Skin Tissue Engineering':
+            subsections: []
+        - '- Section: 14.2 Biomaterials for Bone Tissue Engineering':
+            subsections: []
+        - '- Section: 14.3 Biomaterials for Cartilage Tissue Engineering':
+            subsections: []
+        - '- Section: 14.4 Biomaterials for Neural Tissue Engineering':
+            subsections: []
+    - '- Chapter 15: Biomaterials for Organ Transplantation:':
+        sections:
+        - '- Section: 15.1 Synthetic Organ Transplants':
+            subsections: []
+        - '- Section: 15.2 Biomaterials for Heart Transplantation':
+            subsections: []
+        - '- Section: 15.3 Biomaterials for Liver Transplantation':
+            subsections: []
+        - '- Section: 15.4 Biomaterials for Kidney Transplantation':
+            subsections: []
+    - '- Chapter 16: Biomaterials for Dental Applications:':
+        sections:
+        - '- Section: 16.1 Dental Implants and Prosthetics':
+            subsections: []
+        - '- Section: 16.2 Biomaterials for Dental Fillings':
+            subsections: []
+        - '- Section: 16.3 Biomaterials for Dental Scaffolds':
+            subsections: []
+        - '- Section: 16.4 Biomaterials for Orthodontics':
+            subsections: []
+    - '- Chapter 17: Biomaterials and Drug Delivery for Cancer Therapy:':
+        sections:
+        - '- Section: 17.1 Nanomedicine for Cancer Treatment':
+            subsections: []
+        - '- Section: 17.2 Targeted Drug Delivery for Cancer':
+            subsections: []
+        - '- Section: 17.3 Biomaterials for Cancer Imaging':
+            subsections: []
+        - '- Section: 17.4 Biomaterials for Cancer Therapy Monitoring':
+            subsections: []
+    - '- Chapter 18: Biomaterials for Cardiovascular Diseases:':
+        sections:
+        - '- Section: 18.1 Biomaterials for Heart Disease Treatments':
+            subsections: []
+        - '- Section: 18.2 Biomaterials for Vascular Disease Treatments':
+            subsections: []
+        - '- Section: 18.3 Biomaterials for Cardiac Regeneration':
+            subsections: []
+        - '- Section: 18.4 Biomaterials for Cardiovascular Device Coatings':
+            subsections: []
+    - '- Chapter 19: Biomaterials for Neural Engineering:':
+        sections:
+        - '- Section: 19.1 Biomaterials for Neural Prosthetics':
+            subsections: []
+        - '- Section: 19.2 Biomaterials for Neural Interfaces':
+            subsections: []
+        - '- Section: 19.3 Biomaterials for Brain-Machine Interfaces':
+            subsections: []
+        - '- Section: 19.4 Biomaterials for Neural Repair':
+            subsections: []
+    - '- Chapter 20: Biomaterials for Ophthalmic Applications:':
+        sections:
+        - '- Section: 20.1 Biomaterials for Corneal Implants':
+            subsections: []
+        - '- Section: 20.2 Biomaterials for Intraocular Lenses':
+            subsections: []
+        - '- Section: 20.3 Biomaterials for Retinal Prosthetics':
+            subsections: []
+        - '- Section: 20.4 Biomaterials for Ocular Drug Delivery':
+            subsections: []
+    - '- Chapter 21: Regulatory and Ethical Considerations in Biomaterials:':
+        sections:
+        - '- Section: 21.1 FDA Regulations for Biomaterials':
+            subsections: []
+        - '- Section: 21.2 Ethical Issues in Biomaterials Research':
+            subsections: []
+        - '- Section: 21.3 Safety and Risk Assessment of Biomaterials':
+            subsections: []
+        - '- Section: 21.4 Intellectual Property in Biomaterials':
+            subsections: []

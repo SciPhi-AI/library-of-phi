@@ -1,0 +1,343 @@
+textbook:
+  'Systems Optimization: Models and Computation":':
+    chapters:
+    - '- Chapter 1: Optimization Modelling and Computational Issues in Radiation Therapy:':
+        sections:
+        - '- Section: 1.1 Modelling Techniques in Radiation Therapy:':
+            subsections:
+            - 1.1a Introduction to Modelling Techniques
+            - 1.1b Mathematical Models in Radiation Therapy
+            - 1.1c Optimization Models in Radiation Therapy
+        - '- Section: 1.2 Computational Challenges in Radiation Therapy Optimization:':
+            subsections:
+            - 1.2a Overview of Computational Challenges
+            - 1.2b Handling Large-Scale Optimization Problems
+            - 1.2c Computational Efficiency in Radiation Therapy Optimization
+        - '- Section: 1.3 Optimization Algorithms for Radiation Therapy:':
+            subsections:
+            - 1.3a Introduction to Optimization Algorithms
+            - 1.3b Linear and Nonlinear Optimization Algorithms
+            - 1.3c Advanced Optimization Algorithms for Radiation Therapy
+    - '- Chapter 2: Increasing the Computational Effectiveness of the Simple Method:':
+        sections:
+        - '- Section: 2.1 Simple Method for Optimization:':
+            subsections:
+            - 2.1a Basics of Simple Method
+            - 2.1b Application of Simple Method in Optimization
+            - 2.1c Advantages and Limitations of Simple Method
+        - '- Section: 2.2 Improving the Computational Efficiency of the Simple Method:':
+            subsections:
+            - 2.2a Techniques to Improve Computational Efficiency
+            - 2.2b Role of Data Structures in Efficiency
+            - 2.2c Case Studies on Efficiency Improvement
+        - '- Section: 2.3 Iterative Approaches for Optimization:':
+            subsections:
+            - 2.3a Introduction to Iterative Approaches
+            - 2.3b Gradient Descent and Other Iterative Methods
+            - 2.3c Convergence Analysis of Iterative Methods
+    - '- Chapter 3: Applied Lagrange Duality for Constrained Optimization:':
+        sections:
+        - '- Section: 3.1 Lagrange Duality Theory:':
+            subsections:
+            - 3.1a Basics of Lagrange Duality
+            - 3.1b Dual Problems and Duality Gap
+            - 3.1c Applications of Lagrange Duality
+        - '- Section: 3.2 Constrained Optimization Problems:':
+            subsections:
+            - 3.2a Introduction to Constrained Optimization
+            - 3.2b Handling Constraints in Optimization
+            - 3.2c Techniques for Solving Constrained Optimization Problems
+        - '- Section: 3.3 Applications of Lagrange Duality in Optimization:':
+            subsections:
+            - 3.3a Lagrange Duality in Linear Programming
+            - 3.3b Lagrange Duality in Nonlinear Programming
+            - 3.3c Case Studies on Lagrange Duality
+    - '- Chapter 4: Simple Routines for Optimization:':
+        sections:
+        - '- Section: 4.1 Basic Optimization Algorithms:':
+            subsections:
+            - 4.1a Overview of Optimization Algorithms
+            - 4.1b Gradient-Based Algorithms
+            - 4.1c Evolutionary Algorithms
+        - '- Section: 4.2 Optimization Software and Libraries:':
+            subsections:
+            - 4.2a Introduction to Optimization Software
+            - 4.2b Popular Optimization Libraries
+            - 4.2c Choosing the Right Software for Optimization
+        - '- Section: 4.3 Performance Analysis of Optimization Routines:':
+            subsections:
+            - 4.3a Importance of Performance Analysis
+            - 4.3b Techniques for Performance Analysis
+            - 4.3c Case Studies on Performance Analysis
+    - '- Chapter 5: Telecommunications System Design: Minimum-Cost Embeddings of Reliable Virtual Private Networks:':
+        sections:
+        - '- Section: 5.1 Designing Telecommunications Systems:':
+            subsections:
+            - 5.1a Basics of Telecommunications System Design
+            - 5.1b Role of Optimization in System Design
+            - 5.1c Case Studies on Telecommunications System Design
+        - '- Section: 5.2 Virtual Private Networks (VPNs):':
+            subsections:
+            - 5.2a Introduction to VPNs
+            - 5.2b Optimization in VPN Design
+            - 5.2c Reliability and Performance of VPNs
+        - '- Section: 5.3 Cost Optimization in Telecommunications:':
+            subsections:
+            - 5.3a Importance of Cost Optimization
+            - 5.3b Techniques for Cost Optimization
+            - 5.3c Case Studies on Cost Optimization
+        - '- Section: 5.4 Reliability and Performance of VPNs:':
+            subsections:
+            - 5.4a Importance of Reliability and Performance
+            - 5.4b Techniques to Improve Reliability and Performance
+            - 5.4c Case Studies on Reliability and Performance
+    - '- Chapter 6: Column Generation:':
+        sections:
+        - '- Section: 6.1 Introduction to Column Generation:':
+            subsections:
+            - 6.1a Basics of Column Generation
+            - 6.1b Role of Column Generation in Optimization
+            - 6.1c Advantages and Limitations of Column Generation
+        - '- Section: 6.2 Applications of Column Generation in Optimization:':
+            subsections:
+            - 6.2a Column Generation in Linear Programming
+            - 6.2b Column Generation in Integer Programming
+            - 6.2c Case Studies on Column Generation
+        - '- Section: 6.3 Algorithms and Techniques for Column Generation:':
+            subsections:
+            - 6.3a Overview of Algorithms for Column Generation
+            - 6.3b Advanced Techniques for Column Generation
+            - 6.3c Performance Analysis of Column Generation Algorithms
+    - '- Chapter 7: Network Design and Optimization:':
+        sections:
+        - '- Section: 7.1 Facility Location and Distribution System Planning:':
+            subsections:
+            - 7.1a Basics of Facility Location and Distribution System Planning
+            - 7.1b Role of Optimization in System Planning
+            - 7.1c Case Studies on System Planning
+        - '- Section: 7.2 Network Loading and Pup Matching:':
+            subsections:
+            - 7.2a Introduction to Network Loading and Pup Matching
+            - 7.2b Optimization Techniques for Loading and Matching
+            - 7.2c Case Studies on Loading and Matching
+        - '- Section: 7.3 Optimization Models for Network Design:':
+            subsections:
+            - 7.3a Overview of Optimization Models for Network Design
+            - 7.3b Linear and Nonlinear Models for Network Design
+            - 7.3c Case Studies on Network Design
+        - '- Section: 7.4 Algorithms for Network Optimization:':
+            subsections:
+            - 7.4a Introduction to Algorithms for Network Optimization
+            - 7.4b Gradient-Based and Evolutionary Algorithms for Network Optimization
+            - 7.4c Performance Analysis of Network Optimization Algorithms
+    - '- Chapter 8: Introduction to Convex Constrained Optimization:':
+        sections:
+        - '- Section: 8.1 Convex Optimization Problems:':
+            subsections:
+            - 8.1a Basics of Convex Optimization
+            - 8.1b Convex Functions and Convex Sets
+            - 8.1c Case Studies on Convex Optimization
+        - '- Section: 8.2 Constrained Optimization with Convex Constraints:':
+            subsections:
+            - 8.2a Introduction to Constrained Optimization with Convex Constraints
+            - 8.2b Techniques for Handling Convex Constraints
+            - 8.2c Case Studies on Constrained Optimization
+        - '- Section: 8.3 Convex Optimization Algorithms:':
+            subsections:
+            - 8.3a Overview of Convex Optimization Algorithms
+            - 8.3b Gradient-Based and Evolutionary Algorithms for Convex Optimization
+            - 8.3c Performance Analysis of Convex Optimization Algorithms
+    - '- Chapter 9: Midterm Exam:':
+        sections:
+        - '- Section: 9.1 Exam Preparation Strategies:':
+            subsections:
+            - 9.1a Effective Study Techniques
+            - 9.1b Time Management for Exam Preparation
+            - 9.1c Tips for Exam Day
+        - '- Section: 9.2 Review of Course Topics:':
+            subsections:
+            - 9.2a Overview of Course Topics
+            - 9.2b In-depth Review of Key Concepts
+            - 9.2c Practice Problems and Solutions
+    - '- Chapter 10: Pattern Classification and Quadratic Problems:':
+        sections:
+        - '- Section: 10.1 Separable Pattern Classification:':
+            subsections:
+            - 10.1a Basics of Separable Pattern Classification
+            - 10.1b Optimization Techniques for Pattern Classification
+            - 10.1c Case Studies on Pattern Classification
+        - '- Section: 10.2 Quadratic Problems in Optimization:':
+            subsections:
+            - 10.2a Introduction to Quadratic Problems
+            - 10.2b Techniques for Solving Quadratic Problems
+            - 10.2c Case Studies on Quadratic Problems
+        - '- Section: 10.3 Optimization Methods for Pattern Classification:':
+            subsections:
+            - 10.3a Overview of Optimization Methods for Pattern Classification
+            - 10.3b Gradient-Based and Evolutionary Methods for Pattern Classification
+            - 10.3c Performance Analysis of Pattern Classification Methods
+    - '- Chapter 11: Solution Methods for Quadratic Optimization:':
+        sections:
+        - '- Section: 11.1 Algorithms for Quadratic Optimization:':
+            subsections:
+            - 11.1a Overview of Algorithms for Quadratic Optimization
+            - 11.1b Gradient-Based and Evolutionary Algorithms for Quadratic Optimization
+            - 11.1c Performance Analysis of Quadratic Optimization Algorithms
+        - '- Section: 11.2 Quadratic Programming Solvers:':
+            subsections:
+            - 11.2a Introduction to Quadratic Programming Solvers
+            - 11.2b Popular Quadratic Programming Solvers
+            - 11.2c Choosing the Right Solver for Quadratic Programming
+        - '- Section: 11.3 Applications of Quadratic Optimization Methods:':
+            subsections:
+            - 11.3a Quadratic Optimization in Finance
+            - 11.3b Quadratic Optimization in Machine Learning
+            - 11.3c Case Studies on Quadratic Optimization
+    - '- Chapter 12: E-commerce Application:':
+        sections:
+        - '- Section: 12.1 Optimization in E-commerce:':
+            subsections:
+            - 12.1a Basics of Optimization in E-commerce
+            - 12.1b Role of Optimization in E-commerce Operations
+            - 12.1c Case Studies on E-commerce Optimization
+        - '- Section: 12.2 Supply Chain Optimization:':
+            subsections:
+            - 12.2a Introduction to Supply Chain Optimization
+            - 12.2b Techniques for Supply Chain Optimization
+            - 12.2c Case Studies on Supply Chain Optimization
+        - '- Section: 12.3 Pricing and Revenue Optimization:':
+            subsections:
+            - 12.3a Basics of Pricing and Revenue Optimization
+            - 12.3b Techniques for Pricing and Revenue Optimization
+            - 12.3c Case Studies on Pricing and Revenue Optimization
+    - '- Chapter 13: Truss Design and Convex Optimization:':
+        sections:
+        - '- Section: 13.1 Truss Structures and Optimization:':
+            subsections:
+            - 13.1a Basics of Truss Structures
+            - 13.1b Role of Optimization in Truss Design
+            - 13.1c Case Studies on Truss Design
+        - '- Section: 13.2 Convex Optimization Techniques for Truss Design:':
+            subsections:
+            - 13.2a Introduction to Convex Optimization Techniques
+            - 13.2b Application of Convex Optimization in Truss Design
+            - 13.2c Case Studies on Convex Optimization in Truss Design
+        - '- Section: 13.3 Applications of Convex Optimization in Truss Design:':
+            subsections:
+            - 13.3a Overview of Applications of Convex Optimization
+            - 13.3b Convex Optimization in Structural Engineering
+            - 13.3c Case Studies on Applications of Convex Optimization
+    - '- Chapter 14: Issues in Non-Convex Optimization:':
+        sections:
+        - '- Section: 14.1 Non-Convex Optimization Problems:':
+            subsections:
+            - 14.1a Basics of Non-Convex Optimization
+            - 14.1b Challenges in Non-Convex Optimization
+            - 14.1c Case Studies on Non-Convex Optimization
+        - '- Section: 14.2 Local Optima and Global Optima:':
+            subsections:
+            - 14.2a Introduction to Local and Global Optima
+            - 14.2b Techniques for Finding Global Optima
+            - 14.2c Case Studies on Local and Global Optima
+        - '- Section: 14.3 Algorithms for Non-Convex Optimization:':
+            subsections:
+            - 14.3a Overview of Algorithms for Non-Convex Optimization
+            - 14.3b Gradient-Based and Evolutionary Algorithms for Non-Convex Optimization
+            - 14.3c Performance Analysis of Non-Convex Optimization Algorithms
+    - '- Chapter 15: Stochastic Linear Optimization and Extensions:':
+        sections:
+        - '- Section: 15.1 Stochastic Optimization Models:':
+            subsections:
+            - 15.1a Basics of Stochastic Optimization
+            - 15.1b Role of Stochasticity in Optimization
+            - 15.1c Case Studies on Stochastic Optimization
+        - '- Section: 15.2 Linear Optimization under Uncertainty:':
+            subsections:
+            - 15.2a Introduction to Linear Optimization under Uncertainty
+            - 15.2b Techniques for Handling Uncertainty in Linear Optimization
+            - 15.2c Case Studies on Linear Optimization under Uncertainty
+        - '- Section: 15.3 Robust Optimization Techniques:':
+            subsections:
+            - 15.3a Basics of Robust Optimization
+            - 15.3b Techniques for Robust Optimization
+            - 15.3c Case Studies on Robust Optimization
+    - '- Chapter 16: Optimization under Uncertainty:':
+        sections:
+        - '- Section: 16.1 Uncertainty Modeling in Optimization:':
+            subsections:
+            - 16.1a Introduction to Uncertainty Modeling
+            - 16.1b Techniques for Uncertainty Modeling in Optimization
+            - 16.1c Case Studies on Uncertainty Modeling
+        - '- Section: 16.2 Stochastic Programming Methods:':
+            subsections:
+            - 16.2a Basics of Stochastic Programming
+            - 16.2b Techniques for Stochastic Programming
+            - 16.2c Case Studies on Stochastic Programming
+        - '- Section: 16.3 Risk Analysis and Optimization:':
+            subsections:
+            - 16.3a Introduction to Risk Analysis in Optimization
+            - 16.3b Techniques for Risk Analysis in Optimization
+            - 16.3c Case Studies on Risk Analysis and Optimization
+    - '- Chapter 17: Benders'' Decomposition Methods for Structured Optimization, including Stochastic Optimization:':
+        sections:
+        - '- Section: 17.1 Benders'' Decomposition Algorithm:':
+            subsections:
+            - 17.1a Basics of Benders' Decomposition
+            - 17.1b Role of Benders' Decomposition in Optimization
+            - 17.1c Case Studies on Benders' Decomposition
+        - '- Section: 17.2 Applications of Benders'' Decomposition:':
+            subsections:
+            - 17.2a Benders' Decomposition in Linear Programming
+            - 17.2b Benders' Decomposition in Integer Programming
+            - 17.2c Case Studies on Applications of Benders' Decomposition
+        - '- Section: 17.3 Stochastic Optimization with Benders'' Decomposition:':
+            subsections:
+            - 17.3a Introduction to Stochastic Optimization with Benders' Decomposition
+            - 17.3b Techniques for Stochastic Optimization with Benders' Decomposition
+            - 17.3c Case Studies on Stochastic Optimization with Benders' Decomposition
+    - '- Chapter 18: Introduction to Semidefinite Programming:':
+        sections:
+        - '- Section: 18.1 Semidefinite Programming Problems:':
+            subsections:
+            - 18.1a Basics of Semidefinite Programming
+            - 18.1b Techniques for Solving Semidefinite Programming Problems
+            - 18.1c Case Studies on Semidefinite Programming
+        - '- Section: 18.2 Algorithms for Semidefinite Programming:':
+            subsections:
+            - 18.2a Overview of Algorithms for Semidefinite Programming
+            - 18.2b Gradient-Based and Evolutionary Algorithms for Semidefinite Programming
+            - 18.2c Performance Analysis of Semidefinite Programming Algorithms
+        - '- Section: 18.3 Applications of Semidefinite Programming:':
+            subsections:
+            - 18.3a Semidefinite Programming in Machine Learning
+            - 18.3b Semidefinite Programming in Control Theory
+            - 18.3c Case Studies on Applications of Semidefinite Programming
+    - '- Chapter 19: Truss Structures - Natural Frequency Manipulation via SDP:':
+        sections:
+        - '- Section: 19.1 Natural Frequency Control in Truss Structures:':
+            subsections:
+            - 19.1a Basics of Natural Frequency Control
+            - 19.1b Role of Optimization in Natural Frequency Control
+            - 19.1c Case Studies on Natural Frequency Control
+        - '- Section: 19.2 Semidefinite Programming for Natural Frequency Manipulation:':
+            subsections:
+            - 19.2a Introduction to Semidefinite Programming for Frequency Manipulation
+            - 19.2b Techniques for Frequency Manipulation using Semidefinite Programming
+            - 19.2c Case Studies on Frequency Manipulation using Semidefinite Programming
+    - '- Chapter 20: Selfish Routing in Capacitated Networks:':
+        sections:
+        - '- Section: 20.1 Routing Optimization in Networks:':
+            subsections:
+            - 20.1a Basics of Routing Optimization
+            - 20.1b Role of Optimization in Network Routing
+            - 20.1c Case Studies on Routing Optimization
+        - '- Section: 20.2 Capacitated Network Models:':
+            subsections:
+            - 20.2a Introduction to Capacitated Network Models
+            - 20.2b Techniques for Handling Capacities in Network Models
+            - 20.2c Case Studies on Capacitated Network Models
+        - '- Section: 20.3 Selfish Routing Algorithms:':
+            subsections:
+            - 20.3a Basics of Selfish Routing
+            - 20.3b Techniques for Selfish Routing
+            - 20.3c Case Studies on Selfish Routing

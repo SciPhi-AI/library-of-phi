@@ -1,0 +1,412 @@
+textbook:
+  'Fundamentals of Solid State Physics: Advanced Topics":':
+    chapters:
+    - '- Chapter 1: Fluctuation Dissipation Theorem:':
+        sections:
+        - '- Section: 1.1 Definition and Concept:':
+            subsections:
+            - 1.1a Linear Response and Susceptibility
+            - 1.1b Nonequilibrium Fluctuation-Dissipation Theorem
+            - 1.1c Generalized Fluctuation-Dissipation Theorem
+            - 1.1d Applications in Statistical Mechanics
+        - '- Section: 1.2 Relation to Thermodynamics:':
+            subsections:
+            - 1.2a Thermodynamic Equilibrium
+            - 1.2b Fluctuation-Dissipation Relations
+            - 1.2c Thermodynamic Potentials
+            - 1.2d Applications in Solid State Physics
+        - '- Section: 1.3 Applications in Solid State Physics:':
+            subsections:
+            - 1.3a Electronic Systems
+            - 1.3b Phononic Systems
+            - 1.3c Magnetic Systems
+            - 1.3d Optical Systems
+    - '- Chapter 2: Scattering:':
+        sections:
+        - '- Section: 2.1 Elastic and Inelastic Scattering:':
+            subsections:
+            - 2.1a Scattering Theory
+            - 2.1b Scattering Cross Section
+            - 2.1c Scattering Matrix
+            - 2.1d Applications in Solid State Physics
+        - '- Section: 2.2 Cross Section and Scattering Amplitude:':
+            subsections:
+            - 2.2a Differential Cross Section
+            - 2.2b Scattering Amplitude
+            - 2.2c Born Approximation
+            - 2.2d Partial Wave Analysis
+        - '- Section: 2.3 Quantum Mechanical Description:':
+            subsections:
+            - 2.3a Wave Function Scattering
+            - 2.3b Scattering Operators
+            - 2.3c Scattering Resonances
+            - 2.3d Quantum Scattering Experiments
+        - '- Section: 2.4 Experimental Techniques:':
+            subsections:
+            - 2.4a Neutron Scattering
+            - 2.4b X-ray Scattering
+            - 2.4c Electron Scattering
+            - 2.4d Light Scattering
+    - '- Chapter 3: Response Functions:':
+        sections:
+        - '- Section: 3.1 General Properties:':
+            subsections:
+            - 3.1a Linear Response Theory
+            - 3.1b Response Functions in Quantum Mechanics
+            - 3.1c Response Functions in Statistical Mechanics
+            - 3.1d Applications in Solid State Physics
+        - '- Section: 3.2 Linear and Nonlinear Response:':
+            subsections:
+            - 3.2a Linear Response
+            - 3.2b Nonlinear Response
+            - 3.2c Response to External Fields
+            - 3.2d Response to Internal Fields
+        - '- Section: 3.3 Frequency and Time Domain:':
+            subsections:
+            - 3.3a Frequency Domain Response
+            - 3.3b Time Domain Response
+            - 3.3c Fourier Transform Relations
+            - 3.3d Applications in Solid State Physics
+        - '- Section: 3.4 Correlation Functions:':
+            subsections:
+            - 3.4a Definition and Properties
+            - 3.4b Correlation Functions and Response Functions
+            - 3.4c Correlation Functions in Quantum Mechanics
+            - 3.4d Applications in Solid State Physics
+    - '- Chapter 4: Kubo Formula:':
+        sections:
+        - '- Section: 4.1 Derivation and Physical Interpretation:':
+            subsections:
+            - 4.1a Kubo Formula Derivation
+            - 4.1b Physical Interpretation of Kubo Formula
+            - 4.1c Kubo Formula and Response Functions
+            - 4.1d Applications in Solid State Physics
+        - '- Section: 4.2 Conductivity and Optical Response:':
+            subsections:
+            - 4.2a Electrical Conductivity
+            - 4.2b Optical Conductivity
+            - 4.2c Kubo Formula and Conductivity
+            - 4.2d Applications in Solid State Physics
+        - '- Section: 4.3 Kubo-Greenwood Approach:':
+            subsections:
+            - 4.3a Kubo-Greenwood Formula
+            - 4.3b Optical Conductivity
+            - 4.3c Transport Properties
+            - 4.3d Applications in Condensed Matter Physics
+        - '- Section: 4.4 Applications in Solid State Physics:':
+            subsections:
+            - 4.4a Electronic Transport
+            - 4.4b Optical Properties
+            - 4.4c Magnetic Properties
+            - 4.4d Thermal Properties
+    - '- Chapter 5: Boundary Conditions:':
+        sections:
+        - '- Section: 5.1 Influence on Electronic Properties:':
+            subsections:
+            - 5.1a Periodic Boundary Conditions
+            - 5.1b Open Boundary Conditions
+            - 5.1c Boundary Effects on Electronic Structure
+            - 5.1d Quantum Well States and Quantum Confinement
+        - '- Section: 5.2 Surface and Interface Effects:':
+            subsections:
+            - 5.2a Surface States
+            - 5.2b Interface States
+            - 5.2c Surface and Interface Scattering
+            - 5.2d Applications in Solid State Physics
+        - '- Section: 5.3 Quantum Well States:':
+            subsections:
+            - 5.3a Quantum Well Formation
+            - 5.3b Quantum Well States and Energy Levels
+            - 5.3c Quantum Well Devices
+            - 5.3d Applications in Solid State Physics
+        - '- Section: 5.4 Density of States Modifications:':
+            subsections:
+            - 5.4a Density of States in Bulk Materials
+            - 5.4b Density of States in Low-Dimensional Systems
+            - 5.4c Density of States in Quantum Wells
+            - 5.4d Applications in Solid State Physics
+    - '- Chapter 6: Localization:':
+        sections:
+        - '- Section: 6.1 Anderson Localization:':
+            subsections:
+            - 6.1a Anderson Localization and Disorder Effects
+            - 6.1b Scaling Theory of Localization and Metal-Insulator Transition
+            - 6.1c Quantum Hall Effect and Topological Insulators
+            - 6.1d Localization Effects on Electronic Transport Properties
+        - '- Section: 6.2 Scaling Theory of Localization:':
+            subsections:
+            - 6.2a Scaling Theory of Localization
+            - 6.2b Localization Length
+            - 6.2c Localization and Quantum Phase Transitions
+            - 6.2d Applications in Solid State Physics
+        - '- Section: 6.3 Quantum Hall Effect:':
+            subsections:
+            - 6.3a Quantum Hall Effect
+            - 6.3b Integer Quantum Hall Effect
+            - 6.3c Fractional Quantum Hall Effect
+            - 6.3d Applications in Solid State Physics
+        - '- Section: 6.4 Disorder Effects on Electronic Transport:':
+            subsections:
+            - 6.4a Disorder and Scattering
+            - 6.4b Disorder and Localization
+            - 6.4c Disorder and Electronic Transport
+            - 6.4d Applications in Solid State Physics
+    - '- Chapter 7: Superconductivity:':
+        sections:
+        - '- Section: 7.1 London Equation:':
+            subsections:
+            - 7.1a London Equations
+            - 7.1b Meissner Effect
+            - 7.1c London Penetration Depth
+            - 7.1d Applications in Solid State Physics
+        - '- Section: 7.2 Josephson Effect:':
+            subsections:
+            - 7.2a Josephson Junctions
+            - 7.2b DC Josephson Effect
+            - 7.2c AC Josephson Effect
+            - 7.2d Applications in Solid State Physics
+        - '- Section: 7.3 Cooper Pairs and BCS Theory:':
+            subsections:
+            - 7.3a Cooper Pairing
+            - 7.3b BCS Theory
+            - 7.3c BCS Ground State
+            - 7.3d Applications in Solid State Physics
+        - '- Section: 7.4 Type I and Type II Superconductors:':
+            subsections:
+            - 7.4a Type I Superconductors
+            - 7.4b Type II Superconductors
+            - 7.4c Vortex Lattices
+            - 7.4d Applications in Solid State Physics
+    - '- Chapter 8: Magnetism in Solids:':
+        sections:
+        - '- Section: 8.1 Local Moment Magnetism:':
+            subsections:
+            - 8.1a Magnetic Moments and Localized Spins
+            - 8.1b Exchange Interactions and Magnetic Ordering
+            - 8.1c Spin Waves and Magnons
+            - 8.1d Magnetic Phases and Phase Transitions
+        - '- Section: 8.2 Exchange Interactions:':
+            subsections:
+            - 8.2a Exchange Interactions
+            - 8.2b Heisenberg Model
+            - 8.2c Ising Model
+            - 8.2d Applications in Solid State Physics
+        - '- Section: 8.3 Spin Waves and Neutron Scattering:':
+            subsections:
+            - 8.3a Spin Waves
+            - 8.3b Magnons
+            - 8.3c Neutron Scattering
+            - 8.3d Applications in Solid State Physics
+        - '- Section: 8.4 Ferro- and Antiferromagnetism:':
+            subsections:
+            - 8.4a Ferromagnetism
+            - 8.4b Antiferromagnetism
+            - 8.4c Ferrimagnetism
+            - 8.4d Applications in Solid State Physics
+    - '- Chapter 9: Band Magnetism:':
+        sections:
+        - '- Section: 9.1 Stoner Theory:':
+            subsections:
+            - 9.1a Stoner Criterion and Band Magnetism
+            - 9.1b Band Structure Effects on Magnetic Properties
+            - 9.1c Magnetic Ordering in Metals and Alloys
+            - 9.1d Spin Density Wave and Charge Density Wave
+        - '- Section: 9.2 Band Structure Effects on Magnetism:':
+            subsections:
+            - 9.2a Band Structure and Magnetism
+            - 9.2b Spin-Orbit Coupling
+            - 9.2c Magnetic Anisotropy
+            - 9.2d Applications in Solid State Physics
+        - '- Section: 9.3 Magnetic Ordering in Metals:':
+            subsections:
+            - 9.3a Ferromagnetic Metals
+            - 9.3b Antiferromagnetic Metals
+            - 9.3c Ferrimagnetic Metals
+            - 9.3d Applications in Solid State Physics
+        - '- Section: 9.4 Spin Density Wave:':
+            subsections:
+            - 9.4a Spin Density Wave
+            - 9.4b Charge Density Wave
+            - 9.4c Spin and Charge Density Wave Interactions
+            - 9.4d Applications in Solid State Physics
+    - '- Chapter 10: Kondo Effect:':
+        sections:
+        - '- Section: 10.1 Anderson Model:':
+            subsections:
+            - 10.1a Anderson Model for Impurity Systems
+            - 10.1b Kondo Problem and Kondo Effect
+            - 10.1c Singlet Ground State and Kondo Resonance
+            - 10.1d Fermi Liquid Theory and Heavy Fermion Systems
+        - '- Section: 10.2 Kondo Problem:':
+            subsections:
+            - 10.2a Kondo Problem
+            - 10.2b Kondo Resonance
+            - 10.2c Kondo Temperature
+            - 10.2d Applications in Solid State Physics
+        - '- Section: 10.3 Singlet Ground State:':
+            subsections:
+            - 10.3a Singlet Ground State
+            - 10.3b Kondo Singlet
+            - 10.3c Singlet-Triplet Transition
+            - 10.3d Applications in Solid State Physics
+        - '- Section: 10.4 Fermi Liquid Interpretation:':
+            subsections:
+            - 10.4a Fermi Liquid Theory
+            - 10.4b Fermi Liquid Parameters
+            - 10.4c Fermi Liquid and Kondo Effect
+            - 10.4d Applications in Solid State Physics
+    - '- Chapter 11: Quantum Hall Effect:':
+        sections:
+        - '- Section: 11.1 Integer Quantum Hall Effect:':
+            subsections:
+            - 11.1a Landau Levels
+            - 11.1b Hall Conductance
+            - 11.1c Edge States
+            - 11.1d Applications in Solid State Physics
+        - '- Section: 11.2 Fractional Quantum Hall Effect:':
+            subsections:
+            - 11.2a Fractional Charge
+            - 11.2b Laughlin Wavefunction
+            - 11.2c Composite Fermions
+            - 11.2d Applications in Solid State Physics
+        - '- Section: 11.3 Topological Insulators:':
+            subsections:
+            - 11.3a Topological Order
+            - 11.3b Edge States in Topological Insulators
+            - 11.3c Quantum Spin Hall Effect
+            - 11.3d Applications in Solid State Physics
+        - '- Section: 11.4 Quantum Anomalous Hall Effect:':
+            subsections:
+            - 11.4a Quantum Anomalous Hall Effect
+            - 11.4b Chern Insulators
+            - 11.4c Magnetic Topological Insulators
+            - 11.4d Applications in Solid State Physics
+    - '- Chapter 12: Quantum Spin Liquids:':
+        sections:
+        - '- Section: 12.1 Quantum Spin Liquids:':
+            subsections:
+            - 12.1a Frustrated Magnetism
+            - 12.1b Spin Liquid States
+            - 12.1c Spinon Excitations
+            - 12.1d Applications in Solid State Physics
+        - '- Section: 12.2 Frustrated Magnetism:':
+            subsections:
+            - 12.2a Geometric Frustration
+            - 12.2b Spin Ice
+            - 12.2c Pyrochlore and Kagome Lattices
+            - 12.2d Applications in Solid State Physics
+        - '- Section: 12.3 Majorana Fermions:':
+            subsections:
+            - 12.3a Majorana Fermions in Condensed Matter
+            - 12.3b Majorana Zero Modes
+            - 12.3c Topological Superconductors
+            - 12.3d Applications in Solid State Physics
+        - '- Section: 12.4 Quantum Spin Ice:':
+            subsections:
+            - 12.4a Quantum Spin Ice
+            - 12.4b Emergent Electrodynamics
+            - 12.4c Monopole Excitations
+            - 12.4d Applications in Solid State Physics
+    - '- Chapter 13: Topological Quantum Computation:':
+        sections:
+        - '- Section: 13.1 Topological Quantum Computation:':
+            subsections:
+            - 13.1a Quantum Computation
+            - 13.1b Topological Quantum Error Correction
+            - 13.1c Anyons and Braiding
+            - 13.1d Applications in Solid State Physics
+        - '- Section: 13.2 Anyons:':
+            subsections:
+            - 13.2a Anyons in Two Dimensions
+            - 13.2b Braiding of Anyons
+            - 13.2c Anyonic Statistics
+            - 13.2d Applications in Solid State Physics
+        - '- Section: 13.3 Topological Quantum Error Correction:':
+            subsections:
+            - 13.3a Quantum Error Correction
+            - 13.3b Topological Quantum Error Correction
+            - 13.3c Surface Codes
+            - 13.3d Applications in Solid State Physics
+        - '- Section: 13.4 Majorana Zero Modes in Quantum Computation:':
+            subsections:
+            - 13.4a Majorana Zero Modes
+            - 13.4b Braiding of Majorana Zero Modes
+            - 13.4c Topological Quantum Computation with Majorana Zero Modes
+            - 13.4d Applications in Solid State Physics
+    - '- Chapter 14: Quantum Phase Transitions:':
+        sections:
+        - '- Section: 14.1 Quantum Phase Transitions:':
+            subsections:
+            - 14.1a Quantum Phase Transitions
+            - 14.1b Quantum Critical Points
+            - 14.1c Scaling and Universality
+            - 14.1d Applications in Solid State Physics
+        - '- Section: 14.2 Quantum Critical Points:':
+            subsections:
+            - 14.2a Quantum Critical Points
+            - 14.2b Quantum Fluctuations
+            - 14.2c Quantum Criticality
+            - 14.2d Applications in Solid State Physics
+        - '- Section: 14.3 Scaling and Universality:':
+            subsections:
+            - 14.3a Scaling Laws
+            - 14.3b Universality Classes
+            - 14.3c Renormalization Group
+            - 14.3d Applications in Solid State Physics
+        - '- Section: 14.4 Quantum Spin Glasses:':
+            subsections:
+            - 14.4a Quantum Spin Glasses
+            - 14.4b Spin Glass Order Parameter
+            - 14.4c Replica Symmetry Breaking
+            - 14.4d Applications in Solid State Physics
+    - '- Chapter 15: Quantum Information in Solid State Systems:':
+        sections:
+        - '- Section: 15.1 Quantum Information:':
+            subsections:
+            - 15.1a Quantum Bits
+            - 15.1b Quantum Gates
+            - 15.1c Quantum Entanglement
+            - 15.1d Applications in Solid State Physics
+        - '- Section: 15.2 Quantum Computing:':
+            subsections:
+            - 15.2a Quantum Algorithms
+            - 15.2b Quantum Error Correction
+            - 15.2c Quantum Computing Architectures
+            - 15.2d Applications in Solid State Physics
+        - '- Section: 15.3 Quantum Communication:':
+            subsections:
+            - 15.3a Quantum Cryptography
+            - 15.3b Quantum Teleportation
+            - 15.3c Quantum Repeaters
+            - 15.3d Applications in Solid State Physics
+        - '- Section: 15.4 Quantum Sensing:':
+            subsections:
+            - 15.4a Quantum Metrology
+            - 15.4b Quantum Sensors
+            - 15.4c Quantum Imaging
+            - 15.4d Applications in Solid State Physics
+    - '- Chapter 16: Quantum Optics in Solid State Systems:':
+        sections:
+        - '- Section: 16.1 Quantum Optics:':
+            subsections:
+            - 16.1a Quantum Light Sources
+            - 16.1b Quantum Detectors
+            - 16.1c Quantum Interference
+            - 16.1d Applications in Solid State Physics
+        - '- Section: 16.2 Cavity Quantum Electrodynamics:':
+            subsections:
+            - 16.2a Cavity QED
+            - 16.2b Jaynes-Cummings Model
+            - 16.2c Vacuum Rabi Splitting
+            - 16.2d Applications in Solid State Physics
+        - '- Section: 16.3 Quantum Dots:':
+            subsections:
+            - 16.3a Quantum Dots
+            - 16.3b Excitons in Quantum Dots
+            - 16.3c Quantum Dot Lasers
+            - 16.3d Applications in Solid State Physics
+        - '- Section: 16.4 Polaritons:':
+            subsections:
+            - 16.4a Polaritons
+            - 16.4b Exciton-Polaritons
+            - 16.4c Polariton Lasers

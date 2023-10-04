@@ -1,0 +1,337 @@
+textbook:
+  'Turbulence in the Ocean and Atmosphere: A Comprehensive Study":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Transition to Turbulence:':
+            subsections:
+            - 1.1a Definition of Turbulence
+            - 1.1b Reynolds Number and Turbulent Flow
+            - 1.1c Instability and Transition to Turbulence
+            - 1.1d Turbulence in the Ocean and Atmosphere
+        - '- Section: 1.2 Statistics and Turbulence:':
+            subsections:
+            - 1.2a Statistical Measures of Turbulence
+            - 1.2b Turbulent Energy Spectra
+            - 1.2c Turbulence Intensity and Dissipation Rate
+            - 1.2d Turbulence Modeling Techniques
+    - '- Chapter 2: Convection:':
+        sections:
+        - '- Section: 2.1 3D Turbulence:':
+            subsections:
+            - 2.1a Three-Dimensional Fluid Motion
+            - 2.1b Turbulent Convection in the Ocean and Atmosphere
+            - 2.1c Convective Heat and Mass Transfer
+            - 2.1d Numerical Models of 3D Turbulence
+        - '- Section: 2.2 2D Turbulence:':
+            subsections:
+            - 2.2a Two-Dimensional Fluid Motion
+            - 2.2b Geostrophic Turbulence
+            - 2.2c Quasigeostrophic Dynamics
+            - 2.2d Vortices and Jets in 2D Turbulence
+        - '- Section: 2.3 QG Turbulence:':
+            subsections:
+            - 2.3a Quasi-Geostrophic Approximation
+            - 2.3b Rossby Waves and Vortices
+            - 2.3c QG Turbulence in the Ocean and Atmosphere
+            - 2.3d QG Turbulence Modeling
+    - '- Chapter 3: Mean-Field Approximation:':
+        sections:
+        - '- Section: 3.1 SQG Turbulence:':
+            subsections:
+            - 3.1a Surface Quasi-Geostrophic Approximation
+            - 3.1b SQG Turbulence in the Ocean and Atmosphere
+            - 3.1c SQG Turbulence Modeling
+            - 3.1d SQG Turbulence and Frontogenesis
+        - '- Section: 3.2 Effective Diffusivity:':
+            subsections:
+            - 3.2a Mixing and Diffusion in Turbulent Flows
+            - 3.2b Effective Diffusivity in the Ocean and Atmosphere
+            - 3.2c Parameterization of Effective Diffusivity
+            - 3.2d Applications of Effective Diffusivity
+        - '- Section: 3.3 Transformed Eulerian Mean:':
+            subsections:
+            - 3.3a Basic Concepts of Transformed Eulerian Mean
+            - 3.3b Transformed Eulerian Mean in 2D Flows
+            - 3.3c Transformed Eulerian Mean in 3D Flows
+            - 3.3d Applications of Transformed Eulerian Mean
+        - '- Section: 3.4 Transformed Eulerian Mean in 3D:':
+            subsections:
+            - 3.4a Transformed Eulerian Mean Equations
+            - 3.4b Turbulence Closure Models
+            - 3.4c Tidal Mixing and Turbulence in Estuaries
+            - 3.4d Submesoscale Processes in 3D Turbulence
+    - '- Chapter 4: Particle Motions:':
+        sections:
+        - "- Section: 4.1 Stokes\u2019 Drift:":
+            subsections:
+            - 4.1a Definition and Mechanisms of Stokes' Drift
+            - 4.1b Particle Trajectories in Turbulent Flows
+            - 4.1c Lagrangian Coherent Structures
+            - 4.1d Observations and Modeling of Stokes' Drift
+        - '- Section: 4.2 Baroclinic Turbulence:':
+            subsections:
+            - 4.2a Baroclinic Instability and Turbulence
+            - 4.2b Eddy-Driven Ocean and Atmosphere Circulation
+            - 4.2c Mixing and Energy Dissipation in Baroclinic Turbulence
+            - 4.2d Climate Impacts of Baroclinic Turbulence
+        - '- Section: 4.3 Gyres:':
+            subsections:
+            - 4.3a Oceanic and Atmospheric Gyres
+            - 4.3b Gyre Dynamics and Circulation
+            - 4.3c Mesoscale Eddy Interactions in Gyres
+            - 4.3d Gyre Variability and Climate Change
+        - '- Section: 4.4 Turbulent Boundary Layers:':
+            subsections:
+            - 4.4a Boundary Layer Structure and Dynamics
+            - 4.4b Turbulent Transport in the Boundary Layer
+            - 4.4c Mixing and Entrainment Processes
+            - 4.4d Boundary Layer Observations and Modeling
+    - '- Chapter 5: Nonlinear Internal Waves:':
+        sections:
+        - '- Section: 5.1 Solitary Waves:':
+            subsections:
+            - 5.1a Generation and Propagation of Solitary Waves
+            - 5.1b Internal Wave Breaking and Turbulence
+            - 5.1c Solitary Wave Interactions and Wave-Wave Interactions
+            - 5.1d Applications of Solitary Waves in Oceanography
+        - '- Section: 5.2 Topographic Waves:':
+            subsections:
+            - 5.2a Generation and Propagation of Topographic Waves
+            - 5.2b Internal Tides and Wave-Tide Interactions
+            - 5.2c Wave-Topography Interactions and Energy Dissipation
+            - 5.2d Impacts of Topographic Waves on Coastal Processes
+    - '- Chapter 6: Turbulence in the Ocean:':
+        sections:
+        - '- Section: 6.1 Oceanic Turbulence:':
+            subsections:
+            - 6.1a Oceanic Turbulence Generation
+            - 6.1b Oceanic Turbulence Dissipation
+            - 6.1c Oceanic Turbulence Modeling
+            - 6.1d Oceanic Turbulence Observations
+        - '- Section: 6.2 Oceanic Eddies:':
+            subsections:
+            - 6.2a Oceanic Eddy Generation
+            - 6.2b Oceanic Eddy Dynamics
+            - 6.2c Oceanic Eddy Dissipation
+            - 6.2d Oceanic Eddy Observations
+        - '- Section: 6.3 Oceanic Boundary Layers:':
+            subsections:
+            - 6.3a Oceanic Boundary Layer Structure
+            - 6.3b Oceanic Boundary Layer Dynamics
+            - 6.3c Oceanic Boundary Layer Mixing
+            - 6.3d Oceanic Boundary Layer Observations
+        - '- Section: 6.4 Oceanic Internal Waves:':
+            subsections:
+            - 6.4a Oceanic Internal Wave Generation
+            - 6.4b Oceanic Internal Wave Propagation
+            - 6.4c Oceanic Internal Wave Breaking
+            - 6.4d Oceanic Internal Wave Observations
+    - '- Chapter 7: Turbulence in the Atmosphere:':
+        sections:
+        - '- Section: 7.1 Atmospheric Turbulence:':
+            subsections:
+            - 7.1a Atmospheric Turbulence Generation
+            - 7.1b Atmospheric Turbulence Dissipation
+            - 7.1c Atmospheric Turbulence Modeling
+            - 7.1d Atmospheric Turbulence Observations
+        - '- Section: 7.2 Atmospheric Eddies:':
+            subsections:
+            - 7.2a Atmospheric Eddy Generation
+            - 7.2b Atmospheric Eddy Dynamics
+            - 7.2c Atmospheric Eddy Dissipation
+            - 7.2d Atmospheric Eddy Observations
+        - '- Section: 7.3 Atmospheric Boundary Layers:':
+            subsections:
+            - 7.3a Atmospheric Boundary Layer Structure
+            - 7.3b Atmospheric Boundary Layer Dynamics
+            - 7.3c Atmospheric Boundary Layer Mixing
+            - 7.3d Atmospheric Boundary Layer Observations
+        - '- Section: 7.4 Atmospheric Internal Waves:':
+            subsections:
+            - 7.4a Atmospheric Internal Wave Generation
+            - 7.4b Atmospheric Internal Wave Propagation
+            - 7.4c Atmospheric Internal Wave Breaking
+            - 7.4d Atmospheric Internal Wave Observations
+    - '- Chapter 8: Turbulence Modeling:':
+        sections:
+        - '- Section: 8.1 Turbulence Closure Models:':
+            subsections:
+            - 8.1a Reynolds-Averaged Navier-Stokes Equations
+            - 8.1b Eddy Viscosity Models
+            - 8.1c Reynolds Stress Models
+            - 8.1d Large Eddy Simulation
+        - '- Section: 8.2 Direct Numerical Simulation:':
+            subsections:
+            - 8.2a Basics of Direct Numerical Simulation
+            - 8.2b Direct Numerical Simulation of Turbulent Flows
+            - 8.2c Direct Numerical Simulation of Turbulent Boundary Layers
+            - 8.2d Direct Numerical Simulation of Turbulent Convection
+        - '- Section: 8.3 Large Eddy Simulation:':
+            subsections:
+            - 8.3a Basics of Large Eddy Simulation
+            - 8.3b Large Eddy Simulation of Turbulent Flows
+            - 8.3c Large Eddy Simulation of Turbulent Boundary Layers
+            - 8.3d Large Eddy Simulation of Turbulent Convection
+        - '- Section: 8.4 Reynolds-Averaged Navier-Stokes Simulation:':
+            subsections:
+            - 8.4a Basics of Reynolds-Averaged Navier-Stokes Simulation
+            - 8.4b Reynolds-Averaged Navier-Stokes Simulation of Turbulent Flows
+            - 8.4c Reynolds-Averaged Navier-Stokes Simulation of Turbulent Boundary
+              Layers
+            - 8.4d Reynolds-Averaged Navier-Stokes Simulation of Turbulent Convection
+    - '- Chapter 9: Turbulence Observations:':
+        sections:
+        - '- Section: 9.1 Oceanic Turbulence Observations:':
+            subsections:
+            - 9.1a In-Situ Observations of Oceanic Turbulence
+            - 9.1b Remote Sensing of Oceanic Turbulence
+            - 9.1c Laboratory Observations of Oceanic Turbulence
+            - 9.1d Numerical Observations of Oceanic Turbulence
+        - '- Section: 9.2 Atmospheric Turbulence Observations:':
+            subsections:
+            - 9.2a In-Situ Observations of Atmospheric Turbulence
+            - 9.2b Remote Sensing of Atmospheric Turbulence
+            - 9.2c Laboratory Observations of Atmospheric Turbulence
+            - 9.2d Numerical Observations of Atmospheric Turbulence
+        - '- Section: 9.3 Turbulence Observations in Other Fluids:':
+            subsections:
+            - 9.3a In-Situ Observations of Turbulence in Other Fluids
+            - 9.3b Remote Sensing of Turbulence in Other Fluids
+            - 9.3c Laboratory Observations of Turbulence in Other Fluids
+            - 9.3d Numerical Observations of Turbulence in Other Fluids
+        - '- Section: 9.4 Turbulence Observations in the Laboratory:':
+            subsections:
+            - 9.4a Laboratory Observations of Turbulence in Water
+            - 9.4b Laboratory Observations of Turbulence in Air
+            - 9.4c Laboratory Observations of Turbulence in Other Fluids
+            - 9.4d Laboratory Observations of Turbulence in Stratified Fluids
+    - '- Chapter 10: Turbulence in the Climate System:':
+        sections:
+        - '- Section: 10.1 Turbulence and Climate Variability:':
+            subsections:
+            - "10.1a Turbulence and El Ni\xF1o-Southern Oscillation"
+            - 10.1b Turbulence and the North Atlantic Oscillation
+            - 10.1c Turbulence and the Madden-Julian Oscillation
+            - 10.1d Turbulence and the Indian Ocean Dipole
+        - '- Section: 10.2 Turbulence and Climate Change:':
+            subsections:
+            - 10.2a Turbulence and Global Warming
+            - 10.2b Turbulence and Sea Level Rise
+            - 10.2c Turbulence and Ocean Acidification
+            - 10.2d Turbulence and Climate Feedbacks
+        - '- Section: 10.3 Turbulence and Extreme Weather:':
+            subsections:
+            - 10.3a Turbulence and Tropical Cyclones
+            - 10.3b Turbulence and Tornadoes
+            - 10.3c Turbulence and Thunderstorms
+            - 10.3d Turbulence and Extreme Precipitation
+        - '- Section: 10.4 Turbulence and the Carbon Cycle:':
+            subsections:
+            - 10.4a Turbulence and Oceanic Carbon Uptake
+            - 10.4b Turbulence and Atmospheric Carbon Dioxide
+            - 10.4c Turbulence and the Terrestrial Carbon Cycle
+            - 10.4d Turbulence and the Global Carbon Budget
+    - '- Chapter 11: Turbulence in Geophysical Fluids:':
+        sections:
+        - '- Section: 11.1 Turbulence in the Earth''s Core:':
+            subsections:
+            - 11.1a Turbulence and the Earth's Magnetic Field
+            - 11.1b Turbulence and the Geodynamo
+            - 11.1c Turbulence and Core-Mantle Coupling
+            - 11.1d Turbulence and the Earth's Rotation
+        - '- Section: 11.2 Turbulence in the Earth''s Mantle:':
+            subsections:
+            - 11.2a Turbulence and Mantle Convection
+            - 11.2b Turbulence and Plate Tectonics
+            - 11.2c Turbulence and the Earth's Heat Budget
+            - 11.2d Turbulence and the Earth's Magnetic Field
+        - '- Section: 11.3 Turbulence in the Earth''s Atmosphere:':
+            subsections:
+            - 11.3a Turbulence and Atmospheric Circulation
+            - 11.3b Turbulence and Weather Systems
+            - 11.3c Turbulence and Climate Variability
+            - 11.3d Turbulence and Climate Change
+        - '- Section: 11.4 Turbulence in the Earth''s Oceans:':
+            subsections:
+            - 11.4a Turbulence and Ocean Circulation
+            - 11.4b Turbulence and Oceanic Eddies
+            - 11.4c Turbulence and Ocean Mixing
+            - 11.4d Turbulence and Climate Change
+    - '- Chapter 12: Turbulence in Astrophysical Fluids:':
+        sections:
+        - '- Section: 12.1 Turbulence in Stars:':
+            subsections:
+            - 12.1a Turbulence and Stellar Structure
+            - 12.1b Turbulence and Stellar Evolution
+            - 12.1c Turbulence and Stellar Oscillations
+            - 12.1d Turbulence and Stellar Winds
+        - '- Section: 12.2 Turbulence in Galaxies:':
+            subsections:
+            - 12.2a Turbulence and Galaxy Formation
+            - 12.2b Turbulence and Galaxy Evolution
+            - 12.2c Turbulence and Galactic Winds
+            - 12.2d Turbulence and the Interstellar Medium
+        - '- Section: 12.3 Turbulence in the Solar Wind:':
+            subsections:
+            - 12.3a Turbulence and the Solar Wind Structure
+            - 12.3b Turbulence and Solar Wind Evolution
+            - 12.3c Turbulence and Solar Wind Heating
+            - 12.3d Turbulence and Solar Wind Acceleration
+        - '- Section: 12.4 Turbulence in Accretion Disks:':
+            subsections:
+            - 12.4a Turbulence and Accretion Disk Structure
+            - 12.4b Turbulence and Accretion Disk Evolution
+            - 12.4c Turbulence and Accretion Disk Heating
+            - 12.4d Turbulence and Accretion Disk Emission
+    - '- Chapter 13: Turbulence in Engineering Applications:':
+        sections:
+        - '- Section: 13.1 Turbulence in Aerodynamics:':
+            subsections:
+            - 13.1a Turbulence and Aircraft Design
+            - 13.1b Turbulence and Aircraft Performance
+            - 13.1c Turbulence and Aircraft Safety
+            - 13.1d Turbulence and Aircraft Noise
+        - '- Section: 13.2 Turbulence in Hydrodynamics:':
+            subsections:
+            - 13.2a Turbulence and Ship Design
+            - 13.2b Turbulence and Ship Performance
+            - 13.2c Turbulence and Ship Safety
+            - 13.2d Turbulence and Ship Noise
+        - '- Section: 13.3 Turbulence in Environmental Engineering:':
+            subsections:
+            - 13.3a Turbulence and Air Quality
+            - 13.3b Turbulence and Water Quality
+            - 13.3c Turbulence and Soil Erosion
+            - 13.3d Turbulence and Wind Energy
+        - '- Section: 13.4 Turbulence in Mechanical Engineering:':
+            subsections:
+            - 13.4a Turbulence and Machine Design
+            - 13.4b Turbulence and Machine Performance
+            - 13.4c Turbulence and Machine Safety
+            - 13.4d Turbulence and Machine Noise
+    - '- Chapter 14: Turbulence in Biological Fluids:':
+        sections:
+        - '- Section: 14.1 Turbulence in the Cardiovascular System:':
+            subsections:
+            - 14.1a Turbulence and Heart Function
+            - 14.1b Turbulence and Blood Flow
+            - 14.1c Turbulence and Cardiovascular Disease
+            - 14.1d Turbulence and Cardiovascular Imaging
+        - '- Section: 14.2 Turbulence in the Respiratory System:':
+            subsections:
+            - 14.2a Turbulence and Lung Function
+            - 14.2b Turbulence and Air Flow
+            - 14.2c Turbulence and Respiratory Disease
+            - 14.2d Turbulence and Respiratory Imaging
+        - '- Section: 14.3 Turbulence in the Digestive System:':
+            subsections:
+            - 14.3a Turbulence and Stomach Function
+            - 14.3b Turbulence and Food Digestion
+            - 14.3c Turbulence and Digestive Disease
+            - 14.3d Turbulence and Digestive Imaging
+        - '- Section: 14.4 Turbulence in the Urinary System:':
+            subsections:
+            - 14.4a Turbulence and Kidney Function
+            - 14.4b Turbulence and Urine Flow
+            - '14'

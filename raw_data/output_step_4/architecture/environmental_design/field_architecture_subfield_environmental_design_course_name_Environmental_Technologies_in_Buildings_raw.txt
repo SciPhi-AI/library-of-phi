@@ -1,0 +1,289 @@
+textbook: 
+"Environmental Technologies in Buildings: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Energy Use in Buildings:
+sections:
+- Section: 1.1 Understanding Climate:
+subsections:
+- 1.1a Solar Radiation
+- 1.1b Climate Change Impact
+- 1.1c Energy Conservation
+
+- Section: 1.2 Where Is the Sun?:
+subsections:
+- 1.2a Sun Path Diagrams
+- 1.2b Solar Angles
+- 1.2c Solar Position Calculation
+
+- Section: 1.3 DIVA Shading Study:
+subsections:
+- 1.3a Introduction to DIVA-GH2
+- 1.3b Shading Analysis
+- 1.3c Shading Design Strategies
+
+- Chapter 2: Thermal Comfort:
+sections:
+- Section: 2.1 CBE Comfort Tool:
+subsections:
+- 2.1a Introduction to CBE Tool
+- 2.1b Thermal Comfort Parameters
+- 2.1c Thermal Comfort Assessment
+
+- Section: 2.2 Case Studies:
+subsections:
+- 2.2a Residential Buildings
+- 2.2b Commercial Buildings
+- 2.2c Public Buildings
+
+- Chapter 3: Active Solar:
+sections:
+- Section: 3.1 DIVA Radiation Maps:
+subsections:
+- 3.1a Introduction to DIVA-GH7
+- 3.1b Solar Radiation Mapping
+- 3.1c Solar Energy Potential
+
+- Section: 3.2 ArchSim PV Simulations:
+subsections:
+- 3.2a Photovoltaic System Design
+- 3.2b PV Simulation in ArchSim
+- 3.2c PV System Performance Analysis
+
+- Chapter 4: Light and Human Vision:
+sections:
+- Section: 4.1 Photometry:
+subsections:
+- 4.1a Basics of Photometry
+- 4.1b Light Measurement Techniques
+- 4.1c Photometric Data Analysis
+
+- Chapter 5: Visual Comfort:
+sections:
+- Section: 5.1 Thermal Mass:
+subsections:
+- 5.1a Introduction to Thermal Mass
+- 5.1b Thermal Mass and Energy Efficiency
+- 5.1c Thermal Mass in Building Design
+
+- Section: 5.2 Heat Flow I:
+subsections:
+- 5.2a Basics of Heat Flow
+- 5.2b Heat Transfer Mechanisms
+- 5.2c Heat Flow in Building Elements
+
+- Section: 5.3 Heat Flow II:
+subsections:
+- 5.3a Advanced Heat Flow Concepts
+- 5.3b Heat Flow Simulation
+- 5.3c Heat Flow Control Strategies
+
+- Section: 5.4 Insulation Materials:
+subsections:
+- 5.4a Types of Insulation Materials
+- 5.4b Insulation Material Properties
+- 5.4c Insulation Material Selection
+
+- Chapter 6: Ventilation:
+sections:
+- Section: 6.1 Ventilation Basics:
+subsections:
+- 6.1a Importance of Ventilation
+- 6.1b Types of Ventilation Systems
+- 6.1c Ventilation Design Strategies
+
+- Chapter 7: HVAC for Large Buildings:
+sections:
+- Section: 7.1 AIA student presentations:
+subsections:
+- 7.1a HVAC System Design
+- 7.1b HVAC System Operation
+- 7.1c HVAC System Maintenance
+
+- Chapter 8: Acoustics:
+sections:
+- Section: 8.1 Acoustics I:
+subsections:
+- 8.1a Basics of Acoustics
+- 8.1b Acoustic Design in Buildings
+- 8.1c Acoustic Comfort
+
+- Chapter 9: Final Project:
+sections:
+- Section: 9.1 Individual meetings with graduate student groups:
+subsections:
+- 9.1a Project Planning
+- 9.1b Project Execution
+- 9.1c Project Presentation
+
+- Section: 9.2 Exam week: final project presentations:
+subsections:
+- 9.2a Presentation Skills
+- 9.2b Evaluation Criteria
+- 9.2c Feedback and Improvement
+
+- Chapter 10: Other Topics:
+sections:
+- Section: 10.1 Understanding Climate:
+subsections:
+- 10.1a Wind, Temperature, and Relative Humidity
+- 10.1b Climate File Game
+- 10.1c Climate Adaptation in Building Design
+
+- Section: 10.2 Lighting Design Principles:
+subsections:
+- 10.2a Basics of Lighting Design
+- 10.2b Lighting Design Techniques
+- 10.2c Lighting Design Case Studies
+
+- Section: 10.3 Energy Use in Buildings:
+subsections:
+- 10.3a Energy Consumption Patterns
+- 10.3b Energy Efficiency Measures
+- 10.3c Energy Management in Buildings
+
+- Section: 10.4 Active Solar:
+subsections:
+- 10.4a Solar Energy Systems
+- 10.4b Solar Energy Utilization
+- 10.4c Solar Energy Storage
+
+- Chapter 11: Visual Comfort:
+sections:
+- Section: 11.1 Thermal Mass:
+subsections:
+- 11.1a Thermal Mass and Comfort
+- 11.1b Thermal Mass and Energy Efficiency
+- 11.1c Thermal Mass in Different Climates
+
+- Section: 11.2 Heat Flow I:
+subsections:
+- 11.2a Heat Flow and Comfort
+- 11.2b Heat Flow and Energy Efficiency
+- 11.2c Heat Flow Control for Comfort
+
+- Section: 11.3 Heat Flow II:
+subsections:
+- 11.3a Advanced Heat Flow Concepts for Comfort
+- 11.3b Heat Flow Simulation for Comfort Analysis
+- 11.3c Heat Flow Control Strategies for Comfort
+
+- Section: 11.4 Insulation Materials:
+subsections:
+- 11.4a Insulation Materials and Comfort
+- 11.4b Insulation Material Properties for Comfort
+- 11.4c Insulation Material Selection for Comfort
+
+- Chapter 12: Ventilation:
+sections:
+- Section: 12.1 Ventilation Basics:
+subsections:
+- 12.1a Importance of Ventilation for Comfort
+- 12.1b Types of Ventilation Systems for Comfort
+- 12.1c Ventilation Design Strategies for Comfort
+
+- Chapter 13: HVAC for Large Buildings:
+sections:
+- Section: 13.1 AIA student presentations:
+subsections:
+- 13.1a HVAC System Design for Large Buildings
+- 13.1b HVAC System Operation in Large Buildings
+- 13.1c HVAC System Maintenance in Large Buildings
+
+- Chapter 14: Acoustics:
+sections:
+- Section: 14.1 Acoustics I:
+subsections:
+- 14.1a Basics of Acoustics in Buildings
+- 14.1b Acoustic Design in Large Buildings
+- 14.1c Acoustic Comfort in Large Buildings
+
+- Chapter 15: Final Project:
+sections:
+- Section: 15.1 Individual meetings with graduate student groups:
+subsections:
+- 15.1a Project Planning for Large Buildings
+- 15.1b Project Execution in Large Buildings
+- 15.1c Project Presentation for Large Buildings
+
+- Section: 15.2 Exam week: final project presentations:
+subsections:
+- 15.2a Presentation Skills for Large Buildings
+- 15.2b Evaluation Criteria for Large Buildings
+- 15.2c Feedback and Improvement for Large Buildings
+
+- Chapter 16: Other Topics:
+sections:
+- Section: 16.1 Understanding Climate:
+subsections:
+- 16.1a Wind, Temperature, and Relative Humidity in Large Buildings
+- 16.1b Climate File Game for Large Buildings
+- 16.1c Climate Adaptation in Large Building Design
+
+- Section: 16.2 Lighting Design Principles:
+subsections:
+- 16.2a Basics of Lighting Design in Large Buildings
+- 16.2b Lighting Design Techniques for Large Buildings
+- 16.2c Lighting Design Case Studies in Large Buildings
+
+- Section: 16.3 Energy Use in Buildings:
+subsections:
+- 16.3a Energy Consumption Patterns in Large Buildings
+- 16.3b Energy Efficiency Measures in Large Buildings
+- 16.3c Energy Management in Large Buildings
+
+- Section: 16.4 Active Solar:
+subsections:
+- 16.4a Solar Energy Systems in Large Buildings
+- 16.4b Solar Energy Utilization in Large Buildings
+- 16.4c Solar Energy Storage in Large Buildings
+
+- Chapter 17: Visual Comfort:
+sections:
+- Section: 17.1 Thermal Mass:
+subsections:
+- 17.1a Thermal Mass and Comfort in Large Buildings
+- 17.1b Thermal Mass and Energy Efficiency in Large Buildings
+- 17.1c Thermal Mass in Different Climates in Large Buildings
+
+- Section: 17.2 Heat Flow I:
+subsections:
+- 17.2a Heat Flow and Comfort in Large Buildings
+- 17.2b Heat Flow and Energy Efficiency in Large Buildings
+- 17.2c Heat Flow Control for Comfort in Large Buildings
+
+- Section: 17.3 Heat Flow II:
+subsections:
+- 17.3a Advanced Heat Flow Concepts for Comfort in Large Buildings
+- 17.3b Heat Flow Simulation for Comfort Analysis in Large Buildings
+- 17.3c Heat Flow Control Strategies for Comfort in Large Buildings
+
+- Section: 17.4 Insulation Materials:
+subsections:
+- 17.4a Insulation Materials and Comfort in Large Buildings
+- 17.4b Insulation Material Properties for Comfort in Large Buildings
+- 17.4c Insulation Material Selection for Comfort in Large Buildings
+
+- Chapter 18: Ventilation:
+sections:
+- Section: 18.1 Ventilation Basics:
+subsections:
+- 18.1a Importance of Ventilation for Comfort in Large Buildings
+- 18.1b Types of Ventilation Systems for Comfort in Large Buildings
+- 18.1c Ventilation Design Strategies for Comfort in Large Buildings
+
+- Chapter 19: HVAC for Large Buildings:
+sections:
+- Section: 19.1 AIA student presentations:
+subsections:
+- 19.1a HVAC System Design for Comfort in Large Buildings
+- 19.1b HVAC System Operation for Comfort in Large Buildings
+- 19.1c HVAC System Maintenance for Comfort in Large Buildings
+
+- Chapter 20: Acoustics:
+sections:
+- Section: 20.1 Acoustics I:
+subsections:
+- 20.1a Basics of Acoustics for Comfort in Large Buildings
+- 20.1b Acoustic Design for Comfort in Large Buildings
+- 20.1c Acoustic Comfort in Large Buildings

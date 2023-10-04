@@ -1,0 +1,325 @@
+textbook: 
+"Robust System Design: Principles and Applications":
+
+chapters:
+- Chapter 1: Course Introduction:
+sections:
+- Section: 1.1 Probability and Statistics Fundamentals:
+subsections:
+- 1.1a Introduction to Probability
+- 1.1b Basic Statistics
+- 1.1c Applications in System Design
+
+- Section: 1.2 Quality Loss and Robust Quality:
+subsections:
+- 1.2a Understanding Quality Loss
+- 1.2b Principles of Robust Quality
+- 1.2c Case Studies in Quality Improvement
+
+- Chapter 2: Context of Robust Design:
+sections:
+- Section: 2.1 Introduction to Product Development:
+subsections:
+- 2.1a Product Development Cycle
+- 2.1b Role of Robust Design in Product Development
+- 2.1c Case Studies in Product Development
+
+- Section: 2.2 Phadke's Approach to Robust Design:
+subsections:
+- 2.2a Understanding Phadke's Approach
+- 2.2b Applications of Phadke's Approach
+- 2.2c Case Studies in Phadke's Approach
+
+- Chapter 3: Matrix Experiments Using Orthogonal Arrays:
+sections:
+- Section: 3.1 Introduction to Orthogonal Arrays:
+subsections:
+- 3.1a Basics of Orthogonal Arrays
+- 3.1b Designing Experiments with Orthogonal Arrays
+- 3.1c Case Studies in Orthogonal Arrays
+
+- Section: 3.2 Design and Analysis of Paper Helicopter Experiment:
+subsections:
+- 3.2a Setting Up the Experiment
+- 3.2b Analyzing the Results
+- 3.2c Lessons Learned from the Experiment
+
+- Chapter 4: Performance Characterization:
+sections:
+- Section: 4.1 Selection of Quality Characteristics:
+subsections:
+- 4.1a Understanding Quality Characteristics
+- 4.1b Selecting Appropriate Quality Characteristics
+- 4.1c Case Studies in Quality Characteristics
+
+- Section: 4.2 Design for Additivity in Experiments:
+subsections:
+- 4.2a Principles of Additivity
+- 4.2b Designing Experiments for Additivity
+- 4.2c Case Studies in Additivity
+
+- Chapter 5: Control and Noise Factors:
+sections:
+- Section: 5.1 Selection of Control Factors:
+subsections:
+- 5.1a Understanding Control Factors
+- 5.1b Selecting Appropriate Control Factors
+- 5.1c Case Studies in Control Factors
+
+- Section: 5.2 Noise Strategy in Robust Design:
+subsections:
+- 5.2a Understanding Noise in System Design
+- 5.2b Developing a Noise Strategy
+- 5.2c Case Studies in Noise Strategy
+
+- Chapter 6: Analysis of Variance (ANOVA):
+sections:
+- Section: 6.1 Introduction to ANOVA:
+subsections:
+- 6.1a Basics of ANOVA
+- 6.1b Performing an ANOVA
+- 6.1c Case Studies in ANOVA
+
+- Section: 6.2 Application of ANOVA in Robust Design:
+subsections:
+- 6.2a Understanding the Role of ANOVA in Robust Design
+- 6.2b Applying ANOVA in Robust Design
+- 6.2c Case Studies in ANOVA Application
+
+- Chapter 7: Constructing Orthogonal Arrays:
+sections:
+- Section: 7.1 Principles of Constructing Orthogonal Arrays:
+subsections:
+- 7.1a Understanding Orthogonal Arrays
+- 7.1b Techniques for Constructing Orthogonal Arrays
+- 7.1c Case Studies in Orthogonal Array Construction
+
+- Section: 7.2 Construction Techniques for Orthogonal Arrays:
+subsections:
+- 7.2a Basic Construction Techniques
+- 7.2b Advanced Construction Techniques
+- 7.2c Case Studies in Orthogonal Array Construction
+
+- Chapter 8: Robust Design Using Simulations:
+sections:
+- Section: 8.1 Introduction to Simulation in Robust Design:
+subsections:
+- 8.1a Understanding Simulation in Robust Design
+- 8.1b Techniques for Simulation in Robust Design
+- 8.1c Case Studies in Simulation
+
+- Section: 8.2 Simulation Methods and Analysis:
+subsections:
+- 8.2a Understanding Simulation Methods
+- 8.2b Analyzing Simulation Results
+- 8.2c Case Studies in Simulation Analysis
+
+- Chapter 9: Design of Dynamic Systems:
+sections:
+- Section: 9.1 Fundamentals of Dynamic Systems Design:
+subsections:
+- 9.1a Understanding Dynamic Systems
+- 9.1b Techniques for Designing Dynamic Systems
+- 9.1c Case Studies in Dynamic Systems Design
+
+- Section: 9.2 Optimization Techniques for Dynamic Systems:
+subsections:
+- 9.2a Understanding Optimization Techniques
+- 9.2b Applying Optimization Techniques in Dynamic Systems
+- 9.2c Case Studies in Optimization Techniques
+
+- Chapter 10: Reliability Improvement:
+sections:
+- Section: 10.1 Reliability Analysis and Assessment:
+subsections:
+- 10.1a Understanding Reliability Analysis
+- 10.1b Techniques for Reliability Assessment
+- 10.1c Case Studies in Reliability Improvement
+
+- Section: 10.2 Strategies for Reliability Improvement:
+subsections:
+- 10.2a Understanding Reliability Improvement Strategies
+- 10.2b Implementing Reliability Improvement Strategies
+- 10.2c Case Studies in Reliability Improvement
+
+- Chapter 11: Tolerance Design:
+sections:
+- Section: 11.1 Principles of Tolerance Design:
+subsections:
+- 11.1a Understanding Tolerance Design
+- 11.1b Techniques for Tolerance Design
+- 11.1c Case Studies in Tolerance Design
+
+- Section: 11.2 Optimization of Tolerance Allocation:
+subsections:
+- 11.2a Understanding Tolerance Allocation
+- 11.2b Techniques for Optimizing Tolerance Allocation
+- 11.2c Case Studies in Tolerance Allocation
+
+- Chapter 12: Mahalanobis Taguchi System:
+sections:
+- Section: 12.1 Introduction to Mahalanobis Taguchi System:
+subsections:
+- 12.1a Understanding the Mahalanobis Taguchi System
+- 12.1b Implementing the Mahalanobis Taguchi System
+- 12.1c Case Studies in the Mahalanobis Taguchi System
+
+- Section: 12.2 Implementation and Case Studies:
+subsections:
+- 12.2a Implementing the Mahalanobis Taguchi System
+- 12.2b Analyzing Results from the Mahalanobis Taguchi System
+- 12.2c Case Studies in the Mahalanobis Taguchi System
+
+- Chapter 13: Robust Conceptual Design:
+sections:
+- Section: 13.1 Introduction to Robust Conceptual Design:
+subsections:
+- 13.1a Understanding Robust Conceptual Design
+- 13.1b Techniques for Robust Conceptual Design
+- 13.1c Case Studies in Robust Conceptual Design
+
+- Section: 13.2 Methods and Tools for Robust Conceptual Design:
+subsections:
+- 13.2a Understanding Methods and Tools for Robust Design
+- 13.2b Applying Methods and Tools in Robust Design
+- 13.2c Case Studies in Robust Design Methods and Tools
+
+- Chapter 14: Advanced Topics in Robust Design:
+sections:
+- Section: 14.1 Robust Design for Manufacturing:
+subsections:
+- 14.1a Understanding Manufacturing Constraints
+- 14.1b Techniques for Robust Design in Manufacturing
+- 14.1c Case Studies in Manufacturing
+
+- Section: 14.2 Robust Design for Service:
+subsections:
+- 14.2a Understanding Service Constraints
+- 14.2b Techniques for Robust Design in Service
+- 14.2c Case Studies in Service
+
+- Section: 14.3 Robust Design for Sustainability:
+subsections:
+- 14.3a Understanding Sustainability Constraints
+- 14.3b Techniques for Robust Design in Sustainability
+- 14.3c Case Studies in Sustainability
+
+- Chapter 15: Case Studies in Robust Design:
+sections:
+- Section: 15.1 Case Study: Automotive Industry:
+subsections:
+- 15.1a Overview of the Case Study
+- 15.1b Application of Robust Design Principles
+- 15.1c Results and Lessons Learned
+
+- Section: 15.2 Case Study: Electronics Industry:
+subsections:
+- 15.2a Overview of the Case Study
+- 15.2b Application of Robust Design Principles
+- 15.2c Results and Lessons Learned
+
+- Section: 15.3 Case Study: Aerospace Industry:
+subsections:
+- 15.3a Overview of the Case Study
+- 15.3b Application of Robust Design Principles
+- 15.3c Results and Lessons Learned
+
+- Chapter 16: Future Trends in Robust Design:
+sections:
+- Section: 16.1 Emerging Technologies and Robust Design:
+subsections:
+- 16.1a Understanding Emerging Technologies
+- 16.1b Impact of Emerging Technologies on Robust Design
+- 16.1c Case Studies in Emerging Technologies
+
+- Section: 16.2 Globalization and Robust Design:
+subsections:
+- 16.2a Understanding Globalization
+- 16.2b Impact of Globalization on Robust Design
+- 16.2c Case Studies in Globalization
+
+- Section: 16.3 Sustainability and Robust Design:
+subsections:
+- 16.3a Understanding Sustainability
+- 16.3b Impact of Sustainability on Robust Design
+- 16.3c Case Studies in Sustainability
+
+- Chapter 17: Advanced Simulation Techniques in Robust Design:
+sections:
+- Section: 17.1 Advanced Simulation Techniques:
+subsections:
+- 17.1a Understanding Advanced Simulation Techniques
+- 17.1b Applying Advanced Simulation Techniques in Robust Design
+- 17.1c Case Studies in Advanced Simulation Techniques
+
+- Section: 17.2 Machine Learning and Robust Design:
+subsections:
+- 17.2a Understanding Machine Learning
+- 17.2b Applying Machine Learning in Robust Design
+- 17.2c Case Studies in Machine Learning
+
+- Section: 17.3 Artificial Intelligence and Robust Design:
+subsections:
+- 17.3a Understanding Artificial Intelligence
+- 17.3b Applying Artificial Intelligence in Robust Design
+- 17.3c Case Studies in Artificial Intelligence
+
+- Chapter 18: Advanced Topics in Reliability Improvement:
+sections:
+- Section: 18.1 Advanced Reliability Improvement Techniques:
+subsections:
+- 18.1a Understanding Advanced Reliability Improvement Techniques
+- 18.1b Applying Advanced Reliability Improvement Techniques
+- 18.1c Case Studies in Advanced Reliability Improvement Techniques
+
+- Section: 18.2 Reliability Engineering and Robust Design:
+subsections:
+- 18.2a Understanding Reliability Engineering
+- 18.2b Applying Reliability Engineering in Robust Design
+- 18.2c Case Studies in Reliability Engineering
+
+- Section: 18.3 Risk Management and Robust Design:
+subsections:
+- 18.3a Understanding Risk Management
+- 18.3b Applying Risk Management in Robust Design
+- 18.3c Case Studies in Risk Management
+
+- Chapter 19: Advanced Topics in Tolerance Design:
+sections:
+- Section: 19.1 Advanced Tolerance Design Techniques:
+subsections:
+- 19.1a Understanding Advanced Tolerance Design Techniques
+- 19.1b Applying Advanced Tolerance Design Techniques
+- 19.1c Case Studies in Advanced Tolerance Design Techniques
+
+- Section: 19.2 Tolerance Analysis and Robust Design:
+subsections:
+- 19.2a Understanding Tolerance Analysis
+- 19.2b Applying Tolerance Analysis in Robust Design
+- 19.2c Case Studies in Tolerance Analysis
+
+- Section: 19.3 Geometric Dimensioning and Tolerancing (GD&T) and Robust Design:
+subsections:
+- 19.3a Understanding GD&T
+- 19.3b Applying GD&T in Robust Design
+- 19.3c Case Studies in GD&T
+
+- Chapter 20: Conclusion and Future Directions:
+sections:
+- Section: 20.1 Recap of Robust Design Principles and Applications:
+subsections:
+- 20.1a Recap of Key Principles
+- 20.1b Recap of Key Applications
+- 20.1c Case Studies in Recap
+
+- Section: 20.2 Future Directions in Robust Design:
+subsections:
+- 20.2a Emerging Trends in Robust Design
+- 20.2b Impact of Future Trends on Robust Design
+- 20.2c Case Studies in Future Trends
+
+- Section: 20.3 Final Thoughts on Robust Design:
+subsections:
+- 20.3a Reflections on Robust Design
+- 20.3b Advice for Future Practitioners
+- 20.3c Case Studies in Reflections and Advice

@@ -1,0 +1,258 @@
+textbook: 
+"Design and Manufacturing II: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Process Planning:
+sections:
+- Section: 1.1 CAD/CAM:
+subsections:
+- 1.1a Introduction to CAD/CAM
+- 1.1b CAD/CAM Software
+- 1.1c Applications of CAD/CAM
+
+- Chapter 2: Injection Molding:
+sections:
+- Section: 2.1 Injection Molding I:
+subsections:
+- 2.1a Basics of Injection Molding
+- 2.1b Injection Molding Machines
+- 2.1c Injection Molding Process
+- Section: 2.2 Injection Molding II:
+subsections:
+- 2.2a Advanced Injection Molding Techniques
+- 2.2b Injection Molding Materials
+- 2.2c Troubleshooting Injection Molding
+
+- Chapter 3: Thermoforming:
+sections:
+- Section: 3.1 Thermoforming:
+subsections:
+- 3.1a Introduction to Thermoforming
+- 3.1b Thermoforming Process
+- 3.1c Thermoforming Materials
+
+- Chapter 4: Cutting:
+sections:
+- Section: 4.1 Cutting I:
+subsections:
+- 4.1a Basics of Cutting
+- 4.1b Cutting Tools
+- 4.1c Cutting Techniques
+- Section: 4.2 Cutting II:
+subsections:
+- 4.2a Advanced Cutting Techniques
+- 4.2b Cutting Safety
+- 4.2c Cutting Machine Maintenance
+- Section: 4.3 Machine Tools/Fixtures:
+subsections:
+- 4.3a Introduction to Machine Tools
+- 4.3b Types of Machine Tools
+- 4.3c Fixtures in Manufacturing
+- Section: 4.4 Precision Engineering:
+subsections:
+- 4.4a Basics of Precision Engineering
+- 4.4b Precision Engineering Techniques
+- 4.4c Applications of Precision Engineering
+
+- Chapter 5: Joining:
+sections:
+- Section: 5.1 Joining II:
+subsections:
+- 5.1a Advanced Joining Techniques
+- 5.1b Joining Materials
+- 5.1c Safety in Joining
+- Section: 5.2 DFA:
+subsections:
+- 5.2a Introduction to DFA
+- 5.2b DFA Techniques
+- 5.2c Applications of DFA
+
+- Chapter 6: Casting:
+sections:
+- Section: 6.1 Casting II:
+subsections:
+- 6.1a Advanced Casting Techniques
+- 6.1b Casting Materials
+- 6.1c Troubleshooting Casting
+
+- Chapter 7: Metal Deformation:
+sections:
+- Section: 7.1 Metal Deformation:
+subsections:
+- 7.1a Basics of Metal Deformation
+- 7.1b Metal Deformation Techniques
+- 7.1c Metal Deformation Materials
+
+- Chapter 8: Quality/Control:
+sections:
+- Section: 8.1 Quality/Control I:
+subsections:
+- 8.1a Introduction to Quality Control
+- 8.1b Quality Control Techniques
+- 8.1c Quality Control Standards
+- Section: 8.2 Quality/Control II:
+subsections:
+- 8.2a Advanced Quality Control Techniques
+- 8.2b Quality Control Software
+- 8.2c Quality Control Case Studies
+
+- Chapter 9: Manufacturing Systems:
+sections:
+- Section: 9.1 Manufacturing Systems I:
+subsections:
+- 9.1a Basics of Manufacturing Systems
+- 9.1b Manufacturing Systems Design
+- 9.1c Manufacturing Systems Management
+- Section: 9.2 Silicon FabricationMEMS/MOEMS:
+subsections:
+- 9.2a Introduction to Silicon Fabrication
+- 9.2b MEMS/MOEMS in Silicon Fabrication
+- 9.2c Silicon Fabrication Techniques
+- Section: 9.3 Advances in Manufacturing:
+subsections:
+- 9.3a Recent Advances in Manufacturing
+- 9.3b Future Trends in Manufacturing
+- 9.3c Case Studies in Advanced Manufacturing
+
+- Chapter 10: Material Selection:
+sections:
+- Section: 10.1 Material Properties:
+subsections:
+- 10.1a Introduction to Material Properties
+- 10.1b Material Testing
+- 10.1c Material Selection Criteria
+- Section: 10.2 Material Processing:
+subsections:
+- 10.2a Basics of Material Processing
+- 10.2b Material Processing Techniques
+- 10.2c Material Processing Case Studies
+
+- Chapter 11: Manufacturing Safety:
+sections:
+- Section: 11.1 Safety Regulations:
+subsections:
+- 11.1a Introduction to Safety Regulations
+- 11.1b Compliance with Safety Regulations
+- 11.1c Safety Regulation Case Studies
+- Section: 11.2 Safety Equipment:
+subsections:
+- 11.2a Basics of Safety Equipment
+- 11.2b Safety Equipment Maintenance
+- 11.2c Safety Equipment Case Studies
+
+- Chapter 12: Manufacturing Economics:
+sections:
+- Section: 12.1 Cost Analysis:
+subsections:
+- 12.1a Introduction to Cost Analysis
+- 12.1b Cost Analysis Techniques
+- 12.1c Cost Analysis Case Studies
+- Section: 12.2 Manufacturing Efficiency:
+subsections:
+- 12.2a Basics of Manufacturing Efficiency
+- 12.2b Efficiency Improvement Techniques
+- 12.2c Efficiency Case Studies
+
+- Chapter 13: Manufacturing Sustainability:
+sections:
+- Section: 13.1 Sustainable Manufacturing:
+subsections:
+- 13.1a Introduction to Sustainable Manufacturing
+- 13.1b Sustainable Manufacturing Techniques
+- 13.1c Sustainable Manufacturing Case Studies
+- Section: 13.2 Waste Management:
+subsections:
+- 13.2a Basics of Waste Management
+- 13.2b Waste Management Techniques
+- 13.2c Waste Management Case Studies
+
+- Chapter 14: Manufacturing Innovation:
+sections:
+- Section: 14.1 Innovation in Manufacturing:
+subsections:
+- 14.1a Introduction to Manufacturing Innovation
+- 14.1b Innovative Manufacturing Techniques
+- 14.1c Innovation Case Studies
+- Section: 14.2 Technology in Manufacturing:
+subsections:
+- 14.2a Introduction to Technology in Manufacturing
+- 14.2b Technological Advances in Manufacturing
+- 14.2c Technology Case Studies
+
+- Chapter 15: Manufacturing Management:
+sections:
+- Section: 15.1 Manufacturing Leadership:
+subsections:
+- 15.1a Basics of Manufacturing Leadership
+- 15.1b Leadership Styles in Manufacturing
+- 15.1c Leadership Case Studies
+- Section: 15.2 Manufacturing Strategy:
+subsections:
+- 15.2a Introduction to Manufacturing Strategy
+- 15.2b Strategic Planning in Manufacturing
+- 15.2c Strategy Case Studies
+
+- Chapter 16: Manufacturing Logistics:
+sections:
+- Section: 16.1 Supply Chain Management:
+subsections:
+- 16.1a Basics of Supply Chain Management
+- 16.1b Supply Chain Optimization
+- 16.1c Supply Chain Case Studies
+- Section: 16.2 Inventory Management:
+subsections:
+- 16.2a Introduction to Inventory Management
+- 16.2b Inventory Management Techniques
+- 16.2c Inventory Management Case Studies
+
+- Chapter 17: Manufacturing Ethics:
+sections:
+- Section: 17.1 Ethical Issues in Manufacturing:
+subsections:
+- 17.1a Introduction to Manufacturing Ethics
+- 17.1b Ethical Dilemmas in Manufacturing
+- 17.1c Ethics Case Studies
+- Section: 17.2 Corporate Social Responsibility:
+subsections:
+- 17.2a Basics of Corporate Social Responsibility
+- 17.2b CSR in Manufacturing
+- 17.2c CSR Case Studies
+
+- Chapter 18: Manufacturing Training:
+sections:
+- Section: 18.1 Employee Training:
+subsections:
+- 18.1a Introduction to Employee Training
+- 18.1b Training Techniques
+- 18.1c Training Case Studies
+- Section: 18.2 Employee Development:
+subsections:
+- 18.2a Basics of Employee Development
+- 18.2b Employee Development Programs
+- 18.2c Development Case Studies
+
+- Chapter 19: Manufacturing Research:
+sections:
+- Section: 19.1 Manufacturing Research Methods:
+subsections:
+- 19.1a Introduction to Manufacturing Research
+- 19.1b Research Techniques in Manufacturing
+- 19.1c Research Case Studies
+- Section: 19.2 Manufacturing Research Applications:
+subsections:
+- 19.2a Applications of Research in Manufacturing
+- 19.2b Research Impact on Manufacturing
+- 19.2c Research Application Case Studies
+
+- Chapter 20: Future of Manufacturing:
+sections:
+- Section: 20.1 Future Trends in Manufacturing:
+subsections:
+- 20.1a Introduction to Future Trends
+- 20.1b Predicted Changes in Manufacturing
+- 20.1c Future Trends Case Studies
+- Section: 20.2 Impact of Technology on Manufacturing:
+subsections:
+- 20.2a Technology's Role in Future Manufacturing
+- 20.2b Predicted Technological Advances
+- 20.2c Technology Impact Case Studies

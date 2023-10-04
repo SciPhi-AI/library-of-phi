@@ -1,0 +1,258 @@
+textbook: 
+"Fundamentals of Energy in Buildings: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Energy in Buildings:
+sections:
+- Section: 1.1 Introduction
+- Section: 1.2 Energy
+
+- Chapter 2: Energy Conservation in Buildings:
+sections:
+- Section: 2.1 Conservation of Energy
+- Section: 2.2 Heat Transfer:
+subsections:
+- 2.2a Conduction
+- 2.2b Convection
+- 2.2c Radiation
+- Section: 2.3 Moisture Transfer in Walls
+
+- Chapter 3: Heating and Cooling Systems:
+sections:
+- Section: 3.1 Heating Systems:
+subsections:
+- 3.1a Forced Air Systems
+- 3.1b Radiant Heating Systems
+- 3.1c Heat Pumps
+- Section: 3.2 Cooling Systems:
+subsections:
+- 3.2a Air Conditioning Systems
+- 3.2b Evaporative Cooling Systems
+
+- Chapter 4: Natural Ventilation:
+sections:
+- Section: 4.1 Ventilation Systems:
+subsections:
+- 4.1a Mechanical Ventilation
+- 4.1b Natural Ventilation
+- Section: 4.2 Natural Ventilation Techniques:
+subsections:
+- 4.2a Stack Ventilation
+- 4.2b Wind-driven Ventilation
+
+- Chapter 5: Transients and Moist Air Mixtures:
+sections:
+- Section: 5.1 Transients
+- Section: 5.2 Moist Air Mixtures:
+subsections:
+- 5.2a Psychrometric Properties
+- 5.2b Moisture Load Calculations
+
+- Chapter 6: Psychrometrics:
+sections:
+- Section: 6.1 Psychrometric Properties
+- Section: 6.2 Psychrometric Charts
+- Section: 6.3 Psychrometric Calculations
+
+- Chapter 7: Applications of Energy in Buildings:
+sections:
+- Section: 7.1 Building Energy Analysis:
+subsections:
+- 7.1a Energy Modeling
+- 7.1b Energy Audit
+- Section: 7.2 Energy Efficiency Measures:
+subsections:
+- 7.2a Insulation Techniques
+- 7.2b Lighting Efficiency
+- 7.2c HVAC System Optimization
+
+- Chapter 8: Heat Transfer in Buildings:
+sections:
+- Section: 8.1 Introduction to Heat Transfer
+- Section: 8.2 Conductive Heat Transfer:
+subsections:
+- 8.2a Fourier's Law
+- 8.2b Thermal Resistance
+- 8.2c Heat Conduction in Solids
+- Section: 8.3 Convective Heat Transfer:
+subsections:
+- 8.3a Natural Convection
+- 8.3b Forced Convection
+- Section: 8.4 Radiative Heat Transfer:
+subsections:
+- 8.4a Blackbody Radiation
+- 8.4b Stefan-Boltzmann Law
+- 8.4c Radiative Heat Transfer in Building Envelopes
+
+- Chapter 9: Human Comfort in Buildings:
+sections:
+- Section: 9.1 Thermal Comfort:
+subsections:
+- 9.1a ASHRAE 55 Standard
+- 9.1b Adaptive Model
+- Section: 9.2 Indoor Air Quality:
+subsections:
+- 9.2a Pollutant Sources
+- 9.2b Ventilation Requirements
+
+- Chapter 10: Solar Energy in Buildings:
+sections:
+- Section: 10.1 Solar Radiation:
+subsections:
+- 10.1a Solar Geometry
+- 10.1b Solar Irradiance
+- 10.1c Solar Angles
+- Section: 10.2 Solar Energy Systems:
+subsections:
+- 10.2a Photovoltaic Systems
+- 10.2b Solar Thermal Systems
+- 10.2c Passive Solar Systems
+
+- Chapter 11: The Second Law of Thermodynamics:
+sections:
+- Section: 11.1 Entropy
+- Section: 11.2 Cogeneration Systems:
+subsections:
+- 11.2a Combined Heat and Power (CHP)
+- 11.2b Cogeneration Technologies
+
+- Chapter 12: Heat Pumps and Refrigeration Cycles:
+sections:
+- Section: 12.1 Heat Pumps:
+subsections:
+- 12.1a Vapor Compression Cycle
+- 12.1b Absorption Cycle
+- Section: 12.2 Refrigeration Cycles:
+subsections:
+- 12.2a Vapor Compression Refrigeration
+- 12.2b Absorption Refrigeration
+
+- Chapter 13: Building Design and Fabrication:
+sections:
+- Section: 13.1 Building Design Principles:
+subsections:
+- 13.1a Energy-efficient Design Strategies
+- 13.1b Building Envelope Design
+- 13.1c Daylighting Design
+- Section: 13.2 Digital Design Fabrication:
+subsections:
+- 13.2a Building Information Modeling (BIM)
+- 13.2b Computer-Aided Design (CAD)
+- 13.2c Digital Fabrication Techniques
+
+- Chapter 14: Review and Assessment:
+sections:
+- Section: 14.1 Review of Course Topics
+- Section: 14.2 Assessment Methods:
+subsections:
+- 14.2a Quizzes
+- 14.2b Assignments
+- 14.2c Exams
+
+- Chapter 15: Energy Management in Buildings:
+sections:
+- Section: 15.1 Energy Management Systems:
+subsections:
+- 15.1a Building Automation Systems
+- 15.1b Energy Management and Control Systems
+- 15.1c Energy Monitoring and Targeting
+- Section: 15.2 Energy Performance Indicators:
+subsections:
+- 15.2a Energy Use Intensity
+- 15.2b Energy Performance Benchmarking
+- 15.2c Energy Performance Certificates
+- Section: 15.3 Energy Audits:
+subsections:
+- 15.3a Types of Energy Audits
+- 15.3b Energy Audit Process
+- 15.3c Energy Audit Tools and Techniques
+
+- Chapter 16: Building Envelope:
+sections:
+- Section: 16.1 Building Envelope Components:
+subsections:
+- 16.1a Walls
+- 16.1b Roofs
+- 16.1c Windows and Doors
+- Section: 16.2 Thermal Insulation:
+subsections:
+- 16.2a Types of Insulation
+- 16.2b Insulation Materials
+- 16.2c Insulation Installation Techniques
+- Section: 16.3 Air Leakage and Ventilation:
+subsections:
+- 16.3a Air Leakage in Buildings
+- 16.3b Ventilation Strategies
+- 16.3c Air Barrier Systems
+
+- Chapter 17: Lighting Systems:
+sections:
+- Section: 17.1 Types of Lighting Systems:
+subsections:
+- 17.1a Incandescent Lighting
+- 17.1b Fluorescent Lighting
+- 17.1c LED Lighting
+- Section: 17.2 Lighting Control Systems:
+subsections:
+- 17.2a Manual Controls
+- 17.2b Automatic Controls
+- 17.2c Advanced Lighting Control Systems
+- Section: 17.3 Daylighting:
+subsections:
+- 17.3a Daylighting Strategies
+- 17.3b Daylighting Devices
+- 17.3c Daylighting Control Systems
+
+- Chapter 18: HVAC Systems:
+sections:
+- Section: 18.1 HVAC System Components:
+subsections:
+- 18.1a Heating Systems
+- 18.1b Cooling Systems
+- 18.1c Ventilation Systems
+- Section: 18.2 HVAC System Types:
+subsections:
+- 18.2a Centralized Systems
+- 18.2b Decentralized Systems
+- 18.2c Hybrid Systems
+- Section: 18.3 HVAC System Controls:
+subsections:
+- 18.3a Thermostats
+- 18.3b Zone Control Systems
+- 18.3c Building Automation Systems
+
+- Chapter 19: Water Heating Systems:
+sections:
+- Section: 19.1 Types of Water Heaters:
+subsections:
+- 19.1a Storage Water Heaters
+- 19.1b Tankless Water Heaters
+- 19.1c Heat Pump Water Heaters
+- Section: 19.2 Water Heating Energy Efficiency:
+subsections:
+- 19.2a Energy Factor
+- 19.2b Energy Star Water Heaters
+- 19.2c Water Heater Insulation
+- Section: 19.3 Solar Water Heating:
+subsections:
+- 19.3a Solar Water Heating Systems
+- 19.3b Solar Collector Types
+- 19.3c Solar Water Heating System Components
+
+- Chapter 20: Building Energy Codes and Standards:
+sections:
+- Section: 20.1 Building Energy Codes:
+subsections:
+- 20.1a International Energy Conservation Code
+- 20.1b ASHRAE 90.1
+- 20.1c Local and State Energy Codes
+- Section: 20.2 Energy Standards for Buildings:
+subsections:
+- 20.2a LEED
+- 20.2b Energy Star for Buildings
+- 20.2c Passive House
+- Section: 20.3 Compliance with Energy Codes and Standards:
+subsections:
+- 20.3a Prescriptive Compliance
+- 20.3b Performance Compliance
+- 20.3c Energy Modeling for Compliance

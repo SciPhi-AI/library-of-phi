@@ -1,0 +1,164 @@
+textbook:
+  'Comprehensive Guide to Nuclear and Particle Physics":':
+    chapters:
+    - '- Chapter 1: Nuclear Physics:':
+        sections:
+        - '- Section: 1.1 Nuclear Structure:':
+            subsections:
+            - 1.1a Nuclear Size and Shape
+            - 1.1b Nuclear Shell Model
+            - 1.1c Nuclear Excitations
+            - 1.1d Nuclear Isomers
+        - '- Section: 1.2 Radioactive Decay:':
+            subsections:
+            - 1.2a Alpha Decay
+            - 1.2b Beta Decay
+            - 1.2c Gamma Decay
+            - 1.2d Electron Capture
+            - 1.2e Internal Conversion
+        - '- Section: 1.3 Nuclear Reactions:':
+            subsections:
+            - 1.3a Reaction Types
+            - 1.3b Cross Section and Reaction Rates
+            - 1.3c Nuclear Scattering
+            - 1.3d Fusion Reactions
+            - 1.3e Fission Reactions
+            - 1.3f Nuclear Transmutations
+        - '- Section: 1.4 Nuclear Models:':
+            subsections:
+            - 1.4a Liquid Drop Model
+            - 1.4b Shell Model
+            - 1.4c Collective Model
+            - 1.4d Cluster Model
+            - 1.4e Nuclear Energy Levels
+    - '- Chapter 2: Nuclear Fission:':
+        sections:
+        - '- Section: 2.1 Fission Process:':
+            subsections:
+            - 2.1a Fission Process
+            - 2.1b Fission Products
+            - 2.1c Fission Reactors
+            - 2.1d Fission Applications
+            - 2.1e Fission Yield
+        - '- Section: 2.2 Nuclear Fusion:':
+            subsections:
+            - 2.2a Fusion Process
+            - 2.2b Fusion Reactions
+            - 2.2c Thermonuclear Fusion
+            - 2.2d Fusion Reactors
+            - 2.2e Fusion Energy Production
+        - '- Section: 2.3 Nuclear Astrophysics:':
+            subsections:
+            - 2.3a Stellar Nucleosynthesis
+            - 2.3b Supernovae and Neutron Stars
+            - 2.3c Neutrino Astrophysics
+            - 2.3d Cosmic Rays and Nucleosynthesis
+    - '- Chapter 3: Particle Physics:':
+        sections:
+        - '- Section: 3.1 Particle Classification:':
+            subsections:
+            - 3.1a Fundamental Particles
+            - 3.1b Quarks and Leptons
+            - 3.1c Hadrons and Mesons
+            - 3.1d Baryons and Antibaryons
+        - '- Section: 3.2 Particle Interactions:':
+            subsections:
+            - 3.2a Electromagnetic Interactions
+            - 3.2b Strong Interactions
+            - 3.2c Weak Interactions
+            - 3.2d Gravitational Interactions
+            - 3.2e Electroweak Unification
+        - '- Section: 3.3 Particle Detectors:':
+            subsections:
+            - 3.3a Ionization Detectors
+            - 3.3b Scintillation Detectors
+            - 3.3c Cherenkov Detectors
+            - 3.3d Calorimeters
+            - 3.3e Tracking Detectors
+        - '- Section: 3.4 Standard Model of Particle Physics:':
+            subsections:
+            - 3.4a Gauge Theory
+            - 3.4b Quantum Field Theory
+            - 3.4c Electroweak Theory
+            - 3.4d Quantum Chromodynamics
+            - 3.4e Higgs Mechanism
+    - '- Chapter 4: Electroweak Interactions:':
+        sections:
+        - '- Section: 4.1 Electromagnetic Interactions:':
+            subsections:
+            - 4.1a Electromagnetic Interactions
+            - 4.1b Weak Interactions
+            - 4.1c Neutral Currents
+            - 4.1d Charged Currents
+            - 4.1e W and Z Bosons
+        - '- Section: 4.2 Quantum Chromodynamics:':
+            subsections:
+            - 4.2a Quark Confinement
+            - 4.2b Asymptotic Freedom
+            - 4.2c Strong Interaction Phenomena
+            - 4.2d Jets and Parton Showers
+            - 4.2e Quark-Gluon Plasma
+        - '- Section: 4.3 Higgs Boson:':
+            subsections:
+            - 4.3a Higgs Field
+            - 4.3b Higgs Mechanism
+            - 4.3c Higgs Boson Discovery
+            - 4.3d Higgs Boson Properties
+            - 4.3e Higgs Boson Interactions
+        - '- Section: 4.4 Neutrino Physics:':
+            subsections:
+            - 4.4a Neutrino Oscillations
+            - 4.4b Neutrino Masses
+            - 4.4c Neutrino Mixing
+            - 4.4d Neutrino Interactions
+            - 4.4e Neutrino Detection
+    - '- Chapter 5: Beyond the Standard Model:':
+        sections:
+        - '- Section: 5.1 Supersymmetry:':
+            subsections:
+            - 5.1a Introduction to Supersymmetry
+            - 5.1b Supersymmetric Particles
+            - 5.1c Supersymmetry Breaking
+            - 5.1d Supersymmetry and Dark Matter
+            - 5.1e Supersymmetry and Grand Unification
+        - '- Section: 5.2 Grand Unified Theories:':
+            subsections:
+            - 5.2a Introduction to Grand Unified Theories
+            - 5.2b Unification of Forces
+            - 5.2c Proton Decay
+            - 5.2d Grand Unified Theories and Cosmology
+            - 5.2e Challenges and Prospects
+        - '- Section: 5.3 Dark Matter Candidates:':
+            subsections:
+            - 5.3a Weakly Interacting Massive Particles
+            - 5.3b Axions
+            - 5.3c Sterile Neutrinos
+            - 5.3d Supersymmetric Dark Matter
+            - 5.3e Primordial Black Holes
+        - '- Section: 5.4 Extra Dimensions:':
+            subsections:
+            - 5.4a Introduction to Extra Dimensions
+            - 5.4b Kaluza-Klein Theory
+            - 5.4c String Theory and Extra Dimensions
+            - 5.4d Extra Dimensions and Particle Physics
+            - 5.4e Experimental Tests
+    - '- Chapter 6: String Theory and M-Theory:':
+        sections:
+        - '- Section: 6.1 Introduction to String Theory:':
+            subsections:
+            - 6.1a Basic Principles of String Theory
+            - 6.1b String Theory and Quantum Gravity
+            - 6.1c String Theory and Particle Physics
+            - 6.1d String Theory and Cosmology
+            - 6.1e Challenges and Prospects
+        - '- Section: 6.2 M-Theory:':
+            subsections:
+            - 6.2a Introduction to M-Theory
+            - 6.2b M-Theory and String Theory
+            - 6.2c M-Theory and Supersymmetry
+            - 6.2d M-Theory and Cosmology
+            - 6.2e Challenges and Prospects
+        - '- Section: 6.3 String Theory and Particle Physics:':
+            subsections:
+            - 6.3a String Theory and Quantum Field Theory
+            - 6.3b String

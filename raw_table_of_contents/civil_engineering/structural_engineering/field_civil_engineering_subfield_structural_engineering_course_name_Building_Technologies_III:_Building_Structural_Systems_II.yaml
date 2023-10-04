@@ -1,0 +1,408 @@
+textbook:
+  'Building Technologies III: Building Structural Systems II":':
+    chapters:
+    - '- Chapter 1: Introduction: Structure and Form:':
+        sections:
+        - '- Section: 1.1 Structural Forms and Form Finding:':
+            subsections:
+            - 1.1a Basic Concepts
+            - 1.1b Form Finding Techniques
+            - 1.1c Case Studies
+        - '- Section: 1.2 Structural Forces and Load Paths:':
+            subsections:
+            - 1.2a Types of Forces
+            - 1.2b Load Path Analysis
+            - 1.2c Load Path Design
+        - '- Section: 1.3 Design Principles:':
+            subsections:
+            - 1.3a Basic Design Principles
+            - 1.3b Design for Structural Efficiency
+            - 1.3c Design for Sustainability
+    - '- Chapter 2: Structural Forms in Masonry:':
+        sections:
+        - '- Section: 2.1 Masonry Materials and Construction Techniques:':
+            subsections:
+            - 2.1a Types of Masonry Materials
+            - 2.1b Masonry Construction Techniques
+            - 2.1c Masonry Material Properties
+        - '- Section: 2.2 Masonry Structural Systems:':
+            subsections:
+            - 2.2a Types of Masonry Structural Systems
+            - 2.2b Design of Masonry Structures
+            - 2.2c Case Studies
+        - '- Section: 2.3 Masonry Design Principles:':
+            subsections:
+            - 2.3a Basic Masonry Design Principles
+            - 2.3b Design for Masonry Durability
+            - 2.3c Design for Masonry Aesthetics
+    - '- Chapter 3: Structural Forms in Timber:':
+        sections:
+        - '- Section: 3.1 Timber Materials and Properties:':
+            subsections:
+            - 3.1a Types of Timber Materials
+            - 3.1b Timber Material Properties
+            - 3.1c Timber Material Selection
+        - '- Section: 3.2 Timber Structural Systems:':
+            subsections:
+            - 3.2a Types of Timber Structural Systems
+            - 3.2b Design of Timber Structures
+            - 3.2c Case Studies
+        - '- Section: 3.3 Timber Connection Details:':
+            subsections:
+            - 3.3a Types of Timber Connections
+            - 3.3b Design of Timber Connections
+            - 3.3c Case Studies
+        - '- Section: 3.4 Timber Design Principles:':
+            subsections:
+            - 3.4a Basic Timber Design Principles
+            - 3.4b Design for Timber Durability
+            - 3.4c Design for Timber Aesthetics
+    - '- Chapter 4: Structural Forms in Concrete:':
+        sections:
+        - '- Section: 4.1 Concrete Materials and Properties:':
+            subsections:
+            - 4.1a Types of Concrete Materials
+            - 4.1b Concrete Material Properties
+            - 4.1c Concrete Material Selection
+        - '- Section: 4.2 Reinforced Concrete Structural Systems:':
+            subsections:
+            - 4.2a Types of Reinforced Concrete Structural Systems
+            - 4.2b Design of Reinforced Concrete Structures
+            - 4.2c Case Studies
+        - '- Section: 4.3 Prestressed Concrete Structural Systems:':
+            subsections:
+            - 4.3a Types of Prestressed Concrete Structural Systems
+            - 4.3b Design of Prestressed Concrete Structures
+            - 4.3c Case Studies
+        - '- Section: 4.4 Concrete Design Principles:':
+            subsections:
+            - 4.4a Basic Concrete Design Principles
+            - 4.4b Design for Concrete Durability
+            - 4.4c Design for Concrete Aesthetics
+    - '- Chapter 5: Structural Forms in Steel:':
+        sections:
+        - '- Section: 5.1 Steel Materials and Properties:':
+            subsections:
+            - 5.1a Types of Steel Materials
+            - 5.1b Steel Material Properties
+            - 5.1c Steel Material Selection
+        - '- Section: 5.2 Steel Structural Systems:':
+            subsections:
+            - 5.2a Types of Steel Structural Systems
+            - 5.2b Design of Steel Structures
+            - 5.2c Case Studies
+        - '- Section: 5.3 Steel Connection Details:':
+            subsections:
+            - 5.3a Types of Steel Connections
+            - 5.3b Design of Steel Connections
+            - 5.3c Case Studies
+        - '- Section: 5.4 Steel Design Principles:':
+            subsections:
+            - 5.4a Basic Steel Design Principles
+            - 5.4b Design for Steel Durability
+            - 5.4c Design for Steel Aesthetics
+    - '- Chapter 6: Graphic Statics:':
+        sections:
+        - '- Section: 6.1 Introduction to Graphic Statics:':
+            subsections:
+            - 6.1a Basic Concepts
+            - 6.1b Applications of Graphic Statics
+            - 6.1c Case Studies
+        - '- Section: 6.2 Equilibrium Diagrams:':
+            subsections:
+            - 6.2a Types of Equilibrium Diagrams
+            - 6.2b Analysis of Equilibrium Diagrams
+            - 6.2c Case Studies
+        - '- Section: 6.3 Force Polygon Method:':
+            subsections:
+            - 6.3a Basic Concepts
+            - 6.3b Applications of Force Polygon Method
+            - 6.3c Case Studies
+        - '- Section: 6.4 Funicular Polygon Method:':
+            subsections:
+            - 6.4a Basic Concepts
+            - 6.4b Applications of Funicular Polygon Method
+            - 6.4c Case Studies
+        - '- Section: 6.5 Graphic Statics Applications:':
+            subsections:
+            - 6.5a Applications in Structural Design
+            - 6.5b Applications in Structural Analysis
+            - 6.5c Case Studies
+    - '- Chapter 7: Envelopes:':
+        sections:
+        - '- Section: 7.1 Building Envelope Systems:':
+            subsections:
+            - 7.1a Types of Building Envelope Systems
+            - 7.1b Design of Building Envelope Systems
+            - 7.1c Case Studies
+        - '- Section: 7.2 Thermal Insulation and Vapor Barriers:':
+            subsections:
+            - 7.2a Types of Thermal Insulation and Vapor Barriers
+            - 7.2b Design of Thermal Insulation and Vapor Barriers
+            - 7.2c Case Studies
+        - '- Section: 7.3 Waterproofing Systems:':
+            subsections:
+            - 7.3a Types of Waterproofing Systems
+            - 7.3b Design of Waterproofing Systems
+            - 7.3c Case Studies
+        - '- Section: 7.4 Air Barrier Systems:':
+            subsections:
+            - 7.4a Types of Air Barrier Systems
+            - 7.4b Design of Air Barrier Systems
+            - 7.4c Case Studies
+        - '- Section: 7.5 Envelope Design Principles:':
+            subsections:
+            - 7.5a Basic Envelope Design Principles
+            - 7.5b Design for Envelope Durability
+            - 7.5c Design for Envelope Aesthetics
+    - '- Chapter 8: Advances in Building Technology:':
+        sections:
+        - '- Section: 8.1 Sustainable Building Technologies:':
+            subsections:
+            - 8.1a Types of Sustainable Building Technologies
+            - 8.1b Design for Sustainability
+            - 8.1c Case Studies
+        - '- Section: 8.2 Smart Building Technologies:':
+            subsections:
+            - 8.2a Types of Smart Building Technologies
+            - 8.2b Design for Smart Buildings
+            - 8.2c Case Studies
+        - '- Section: 8.3 Innovative Structural Systems:':
+            subsections:
+            - 8.3a Types of Innovative Structural Systems
+            - 8.3b Design of Innovative Structural Systems
+            - 8.3c Case Studies
+    - '- Chapter 9: Indeterminate Structures:':
+        sections:
+        - '- Section: 9.1 Indeterminate Structural Analysis:':
+            subsections:
+            - 9.1a Basic Concepts
+            - 9.1b Analysis Techniques
+            - 9.1c Case Studies
+        - '- Section: 9.2 Influence Lines and Indeterminacy:':
+            subsections:
+            - 9.2a Basic Concepts
+            - 9.2b Analysis Techniques
+            - 9.2c Case Studies
+        - '- Section: 9.3 Flexibility Matrix Method:':
+            subsections:
+            - 9.3a Basic Concepts
+            - 9.3b Applications of Flexibility Matrix Method
+            - 9.3c Case Studies
+        - '- Section: 9.4 Moment Distribution Method:':
+            subsections:
+            - 9.4a Basic Concepts
+            - 9.4b Applications of Moment Distribution Method
+            - 9.4c Case Studies
+        - '- Section: 9.5 Indeterminate Structures Design Principles:':
+            subsections:
+            - 9.5a Basic Design Principles
+            - 9.5b Design for Indeterminate Structures
+            - 9.5c Case Studies
+    - '- Chapter 10: Construction Processes:':
+        sections:
+        - '- Section: 10.1 Construction Methods and Techniques:':
+            subsections:
+            - 10.1a Types of Construction Methods and Techniques
+            - 10.1b Construction Process Planning
+            - 10.1c Case Studies
+        - '- Section: 10.2 Excavation and Foundation Construction:':
+            subsections:
+            - 10.2a Types of Excavation and Foundation Construction Techniques
+            - 10.2b Design of Excavation and Foundation Construction
+            - 10.2c Case Studies
+        - '- Section: 10.3 Concrete Formwork and Placement:':
+            subsections:
+            - 10.3a Types of Concrete Formwork and Placement Techniques
+            - 10.3b Design of Concrete Formwork and Placement
+            - 10.3c Case Studies
+        - '- Section: 10.4 Steel Erection and Connection:':
+            subsections:
+            - 10.4a Types of Steel Erection and Connection Techniques
+            - 10.4b Design of Steel Erection and Connection
+            - 10.4c Case Studies
+        - '- Section: 10.5 Construction Processes Design Principles:':
+            subsections:
+            - 10.5a Basic Design Principles
+            - 10.5b Design for Construction Processes
+            - 10.5c Case Studies
+    - '- Chapter 11: Integration:':
+        sections:
+        - '- Section: 11.1 Building Systems Integration:':
+            subsections:
+            - 11.1a Basic Concepts
+            - 11.1b Design for Building Systems Integration
+            - 11.1c Case Studies
+        - '- Section: 11.2 Coordination and Collaboration:':
+            subsections:
+            - 11.2a Basic Concepts
+            - 11.2b Techniques for Coordination and Collaboration
+            - 11.2c Case Studies
+        - '- Section: 11.3 Building Information Modeling (BIM):':
+            subsections:
+            - 11.3a Basic Concepts
+            - 11.3b Applications of BIM
+            - 11.3c Case Studies
+        - '- Section: 11.4 Construction and Design Integration:':
+            subsections:
+            - 11.4a Basic Concepts
+            - 11.4b Techniques for Construction and Design Integration
+            - 11.4c Case Studies
+    - '- Chapter 12: Final Project Presentations:':
+        sections:
+        - '- Section: 12.1 Project Proposal Presentations:':
+            subsections:
+            - 12.1a Basic Concepts
+            - 12.1b Techniques for Project Proposal Presentations
+            - 12.1c Case Studies
+        - '- Section: 12.2 Design Development Presentations:':
+            subsections:
+            - 12.2a Basic Concepts
+            - 12.2b Techniques for Design Development Presentations
+            - 12.2c Case Studies
+        - '- Section: 12.3 Construction Documentation Presentations:':
+            subsections:
+            - 12.3a Basic Concepts
+            - 12.3b Techniques for Construction Documentation Presentations
+            - 12.3c Case Studies
+        - '- Section: 12.4 Final Project Presentations:':
+            subsections:
+            - 12.4a Basic Concepts
+            - 12.4b Techniques for Final Project Presentations
+            - 12.4c Case Studies
+    - '- Chapter 13: Advanced Structural Analysis:':
+        sections:
+        - '- Section: 13.1 Finite Element Analysis:':
+            subsections:
+            - 13.1a Basic Concepts
+            - 13.1b Applications of Finite Element Analysis
+            - 13.1c Case Studies
+        - '- Section: 13.2 Structural Dynamics:':
+            subsections:
+            - 13.2a Basic Concepts
+            - 13.2b Applications of Structural Dynamics
+            - 13.2c Case Studies
+        - '- Section: 13.3 Structural Stability:':
+            subsections:
+            - 13.3a Basic Concepts
+            - 13.3b Applications of Structural Stability
+            - 13.3c Case Studies
+    - '- Chapter 14: Advanced Structural Design:':
+        sections:
+        - '- Section: 14.1 Performance-Based Design:':
+            subsections:
+            - 14.1a Basic Concepts
+            - 14.1b Applications of Performance-Based Design
+            - 14.1c Case Studies
+        - '- Section: 14.2 Seismic Design:':
+            subsections:
+            - 14.2a Basic Concepts
+            - 14.2b Applications of Seismic Design
+            - 14.2c Case Studies
+        - '- Section: 14.3 Wind Design:':
+            subsections:
+            - 14.3a Basic Concepts
+            - 14.3b Applications of Wind Design
+            - 14.3c Case Studies
+    - '- Chapter 15: Advanced Construction Techniques:':
+        sections:
+        - '- Section: 15.1 Prefabrication and Modular Construction:':
+            subsections:
+            - 15.1a Basic Concepts
+            - 15.1b Applications of Prefabrication and Modular Construction
+            - 15.1c Case Studies
+        - '- Section: 15.2 3D Printing in Construction:':
+            subsections:
+            - 15.2a Basic Concepts
+            - 15.2b Applications of 3D Printing in Construction
+            - 15.2c Case Studies
+        - '- Section: 15.3 Robotics in Construction:':
+            subsections:
+            - 15.3a Basic Concepts
+            - 15.3b Applications of Robotics in Construction
+            - 15.3c Case Studies
+    - '- Chapter 16: Advanced Building Systems:':
+        sections:
+        - '- Section: 16.1 Building Automation Systems:':
+            subsections:
+            - 16.1a Basic Concepts
+            - 16.1b Applications of Building Automation Systems
+            - 16.1c Case Studies
+        - '- Section: 16.2 Building Energy Systems:':
+            subsections:
+            - 16.2a Basic Concepts
+            - 16.2b Applications of Building Energy Systems
+            - 16.2c Case Studies
+        - '- Section: 16.3 Building Safety Systems:':
+            subsections:
+            - 16.3a Basic Concepts
+            - 16.3b Applications of Building Safety Systems
+            - 16.3c Case Studies
+    - '- Chapter 17: Advanced Building Envelope Design:':
+        sections:
+        - '- Section: 17.1 High-Performance Building Envelopes:':
+            subsections:
+            - 17.1a Basic Concepts
+            - 17.1b Design of High-Performance Building Envelopes
+            - 17.1c Case Studies
+        - '- Section: 17.2 Adaptive Building Envelopes:':
+            subsections:
+            - 17.2a Basic Concepts
+            - 17.2b Design of Adaptive Building Envelopes
+            - 17.2c Case Studies
+        - '- Section: 17.3 Building Envelope Commissioning:':
+            subsections:
+            - 17.3a Basic Concepts
+            - 17.3b Techniques for Building Envelope Commissioning
+            - 17.3c Case Studies
+    - '- Chapter 18: Advanced Building Information Modeling (BIM):':
+        sections:
+        - '- Section: 18.1 BIM for Structural Analysis:':
+            subsections:
+            - 18.1a Basic Concepts
+            - 18.1b Applications of BIM for Structural Analysis
+            - 18.1c Case Studies
+        - '- Section: 18.2 BIM for Construction Management:':
+            subsections:
+            - 18.2a Basic Concepts
+            - 18.2b Applications of BIM for Construction Management
+            - 18.2c Case Studies
+        - '- Section: 18.3 BIM for Facility Management:':
+            subsections:
+            - 18.3a Basic Concepts
+            - 18.3b Applications of BIM for Facility Management
+            - 18.3c Case Studies
+    - '- Chapter 19: Advanced Building Codes and Standards:':
+        sections:
+        - '- Section: 19.1 International Building Code (IBC):':
+            subsections:
+            - 19.1a Basic Concepts
+            - 19.1b Applications of IBC
+            - 19.1c Case Studies
+        - '- Section: 19.2 American Concrete Institute (ACI) Standards:':
+            subsections:
+            - 19.2a Basic Concepts
+            - 19.2b Applications of ACI Standards
+            - 19.2c Case Studies
+        - '- Section: 19.3 American Institute of Steel Construction (AISC) Standards:':
+            subsections:
+            - 19.3a Basic Concepts
+            - 19.3b Applications of AISC Standards
+            - 19.3c Case Studies
+    - '- Chapter 20: Advanced Building Technologies Research:':
+        sections:
+        - '- Section: 20.1 Research Methods in Building Technologies:':
+            subsections:
+            - 20.1a Basic Concepts
+            - 20.1b Techniques for Building Technologies Research
+            - 20.1c Case Studies
+        - '- Section: 20.2 Current Trends in Building Technologies Research:':
+            subsections:
+            - 20.2a Overview of Current Trends
+            - 20.2b Analysis of Current Trends
+            - 20.2c Case Studies
+        - '- Section: 20.3 Future Directions in Building Technologies Research:':
+            subsections:
+            - 20.3a Predictions for Future Directions
+            - 20.3b Analysis of Future Directions
+            - 20.3c Case Studies

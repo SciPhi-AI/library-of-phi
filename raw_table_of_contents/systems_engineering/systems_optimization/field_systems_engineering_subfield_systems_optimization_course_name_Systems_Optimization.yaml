@@ -1,0 +1,293 @@
+textbook:
+  'Systems Optimization: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Introduction to Systems Optimization:':
+            subsections:
+            - 1.1a Definition of Systems Optimization
+            - 1.1b Importance of Systems Optimization
+            - 1.1c Applications of Systems Optimization
+    - '- Chapter 2: Network Models:':
+        sections:
+        - '- Section: 2.1 Network Models: Assignment & Transportation:':
+            subsections:
+            - 2.1a Definition of Network Models
+            - 2.1b Assignment Models
+            - 2.1c Transportation Models
+        - '- Section: 2.2 Network Models: Shortest Path & Transshipment:':
+            subsections:
+            - 2.2a Shortest Path Models
+            - 2.2b Transshipment Models
+            - 2.2c Applications of Network Models
+    - '- Chapter 3: Linear Programming:':
+        sections:
+        - '- Section: 3.1 Introduction to Linear Programming:':
+            subsections:
+            - 3.1a Definition of Linear Programming
+            - 3.1b Linear Programming Formulation
+            - 3.1c Solving Linear Programming Problems
+        - '- Section: 3.2 Application: Revenue Optimization:':
+            subsections:
+            - 3.2a Revenue Optimization in Linear Programming
+            - 3.2b Case Studies in Revenue Optimization
+            - 3.2c Challenges in Revenue Optimization
+        - '- Section: 3.3 Advanced LP Techniques:':
+            subsections:
+            - 3.3a Dual Linear Programming
+            - 3.3b Sensitivity Analysis
+            - 3.3c Integer Linear Programming
+    - '- Chapter 4: Production Planning and Scheduling:':
+        sections:
+        - '- Section: 4.1 Production Planning:':
+            subsections:
+            - 4.1a Basics of Production Planning
+            - 4.1b Production Planning Models
+            - 4.1c Case Studies in Production Planning
+        - '- Section: 4.2 Workforce Scheduling:':
+            subsections:
+            - 4.2a Basics of Workforce Scheduling
+            - 4.2b Workforce Scheduling Models
+            - 4.2c Case Studies in Workforce Scheduling
+    - '- Chapter 5: Robust Optimization:':
+        sections:
+        - '- Section: 5.1 Conflicting Objectives in Optimization:':
+            subsections:
+            - 5.1a Understanding Conflicting Objectives
+            - 5.1b Techniques to Handle Conflicting Objectives
+            - 5.1c Case Studies in Conflicting Objectives
+        - '- Section: 5.2 Introduction to Robust Optimization:':
+            subsections:
+            - 5.2a Definition of Robust Optimization
+            - 5.2b Importance of Robust Optimization
+            - 5.2c Applications of Robust Optimization
+        - '- Section: 5.3 Robust Optimization Techniques:':
+            subsections:
+            - 5.3a Basic Techniques in Robust Optimization
+            - 5.3b Advanced Techniques in Robust Optimization
+            - 5.3c Case Studies in Robust Optimization
+    - '- Chapter 6: Integer Programming:':
+        sections:
+        - '- Section: 6.1 Introduction to Integer Programming:':
+            subsections:
+            - 6.1a Definition of Integer Programming
+            - 6.1b Importance of Integer Programming
+            - 6.1c Applications of Integer Programming
+        - '- Section: 6.2 IP Modeling and Formulation:':
+            subsections:
+            - 6.2a Basics of IP Modeling
+            - 6.2b Formulation of IP Problems
+            - 6.2c Solving IP Problems
+        - '- Section: 6.3 Advanced IP Techniques:':
+            subsections:
+            - 6.3a Branch and Bound Method
+            - 6.3b Cutting Plane Method
+            - 6.3c Heuristics in Integer Programming
+    - '- Chapter 7: Case Study:':
+        sections:
+        - '- Section: 7.1 Case Study: Ford Finished Vehicle Delivery:':
+            subsections:
+            - 7.1a Introduction to the Case Study
+            - 7.1b Problem Formulation
+            - 7.1c Solution and Results
+    - '- Chapter 8: Location Models:':
+        sections:
+        - '- Section: 8.1 Introduction to Location Models:':
+            subsections:
+            - 8.1a Definition of Location Models
+            - 8.1b Importance of Location Models
+            - 8.1c Applications of Location Models
+        - '- Section: 8.2 Advanced Location Modeling Techniques:':
+            subsections:
+            - 8.2a Facility Location Problems
+            - 8.2b Network Location Problems
+            - 8.2c Case Studies in Location Modeling
+    - '- Chapter 9: Non-Linear Programming:':
+        sections:
+        - '- Section: 9.1 Introduction to Non-Linear Programming:':
+            subsections:
+            - 9.1a Definition of Non-Linear Programming
+            - 9.1b Importance of Non-Linear Programming
+            - 9.1c Applications of Non-Linear Programming
+        - '- Section: 9.2 Application of Non-Linear Programming in Portfolio Optimization:':
+            subsections:
+            - 9.2a Basics of Portfolio Optimization
+            - 9.2b Non-Linear Programming in Portfolio Optimization
+            - 9.2c Case Studies in Portfolio Optimization
+        - '- Section: 9.3 Advanced Non-Linear Programming Techniques:':
+            subsections:
+            - 9.3a Quadratic Programming
+            - 9.3b Convex Programming
+            - 9.3c Non-Convex Programming
+    - '- Chapter 10: Heuristics:':
+        sections:
+        - '- Section: 10.1 Heuristics I: Basics and Concepts:':
+            subsections:
+            - 10.1a Definition of Heuristics
+            - 10.1b Importance of Heuristics
+            - 10.1c Applications of Heuristics
+        - '- Section: 10.2 Heuristics II: Advanced Techniques:':
+            subsections:
+            - 10.2a Metaheuristics
+            - 10.2b Local Search Techniques
+            - 10.2c Population-Based Techniques
+    - '- Chapter 11: Optimization, Heuristics, and Uncertainty:':
+        sections:
+        - '- Section: 11.1 Optimization, Heuristics, and Uncertainty: Overview:':
+            subsections:
+            - 11.1a Understanding Uncertainty in Optimization
+            - 11.1b Role of Heuristics in Uncertain Optimization
+            - 11.1c Case Studies in Uncertain Optimization
+        - '- Section: 11.2 Uncertainty Modeling in Optimization:':
+            subsections:
+            - 11.2a Basics of Uncertainty Modeling
+            - 11.2b Techniques in Uncertainty Modeling
+            - 11.2c Case Studies in Uncertainty Modeling
+        - '- Section: 11.3 Heuristic Approaches for Uncertain Optimization:':
+            subsections:
+            - 11.3a Basics of Heuristic Approaches
+            - 11.3b Advanced Heuristic Approaches
+            - 11.3c Case Studies in Heuristic Approaches
+    - '- Chapter 12: Team Presentations:':
+        sections:
+        - '- Section: 12.1 Team Presentations: Guidelines and Best Practices:':
+            subsections:
+            - 12.1a Basics of Team Presentations
+            - 12.1b Guidelines for Effective Presentations
+            - 12.1c Best Practices in Team Presentations
+    - '- Chapter 13: Decision Analysis:':
+        sections:
+        - '- Section: 13.1 Introduction to Decision Analysis:':
+            subsections:
+            - 13.1a Definition of Decision Analysis
+            - 13.1b Importance of Decision Analysis
+            - 13.1c Applications of Decision Analysis
+        - '- Section: 13.2 Decision Trees:':
+            subsections:
+            - 13.2a Basics of Decision Trees
+            - 13.2b Building and Analyzing Decision Trees
+            - 13.2c Case Studies in Decision Trees
+        - '- Section: 13.3 Sensitivity Analysis:':
+            subsections:
+            - 13.3a Basics of Sensitivity Analysis
+            - 13.3b Techniques in Sensitivity Analysis
+            - 13.3c Case Studies in Sensitivity Analysis
+    - '- Chapter 14: Stochastic Programming:':
+        sections:
+        - '- Section: 14.1 Introduction to Stochastic Programming:':
+            subsections:
+            - 14.1a Definition of Stochastic Programming
+            - 14.1b Importance of Stochastic Programming
+            - 14.1c Applications of Stochastic Programming
+        - '- Section: 14.2 Two-Stage Stochastic Programming:':
+            subsections:
+            - 14.2a Basics of Two-Stage Stochastic Programming
+            - 14.2b Solving Two-Stage Stochastic Programming Problems
+            - 14.2c Case Studies in Two-Stage Stochastic Programming
+        - '- Section: 14.3 Multi-Stage Stochastic Programming:':
+            subsections:
+            - 14.3a Basics of Multi-Stage Stochastic Programming
+            - 14.3b Solving Multi-Stage Stochastic Programming Problems
+            - 14.3c Case Studies in Multi-Stage Stochastic Programming
+    - '- Chapter 15: Dynamic Programming:':
+        sections:
+        - '- Section: 15.1 Introduction to Dynamic Programming:':
+            subsections:
+            - 15.1a Definition of Dynamic Programming
+            - 15.1b Importance of Dynamic Programming
+            - 15.1c Applications of Dynamic Programming
+        - '- Section: 15.2 Deterministic Dynamic Programming:':
+            subsections:
+            - 15.2a Basics of Deterministic Dynamic Programming
+            - 15.2b Solving Deterministic Dynamic Programming Problems
+            - 15.2c Case Studies in Deterministic Dynamic Programming
+        - '- Section: 15.3 Stochastic Dynamic Programming:':
+            subsections:
+            - 15.3a Basics of Stochastic Dynamic Programming
+            - 15.3b Solving Stochastic Dynamic Programming Problems
+            - 15.3c Case Studies in Stochastic Dynamic Programming
+    - '- Chapter 16: Metaheuristics:':
+        sections:
+        - '- Section: 16.1 Introduction to Metaheuristics:':
+            subsections:
+            - 16.1a Definition of Metaheuristics
+            - 16.1b Importance of Metaheuristics
+            - 16.1c Applications of Metaheuristics
+        - '- Section: 16.2 Genetic Algorithms:':
+            subsections:
+            - 16.2a Basics of Genetic Algorithms
+            - 16.2b Implementing Genetic Algorithms
+            - 16.2c Case Studies in Genetic Algorithms
+        - '- Section: 16.3 Simulated Annealing:':
+            subsections:
+            - 16.3a Basics of Simulated Annealing
+            - 16.3b Implementing Simulated Annealing
+            - 16.3c Case Studies in Simulated Annealing
+    - '- Chapter 17: Multi-Objective Optimization:':
+        sections:
+        - '- Section: 17.1 Introduction to Multi-Objective Optimization:':
+            subsections:
+            - 17.1a Definition of Multi-Objective Optimization
+            - 17.1b Importance of Multi-Objective Optimization
+            - 17.1c Applications of Multi-Objective Optimization
+        - '- Section: 17.2 Pareto Optimality:':
+            subsections:
+            - 17.2a Basics of Pareto Optimality
+            - 17.2b Finding Pareto Optimal Solutions
+            - 17.2c Case Studies in Pareto Optimality
+        - '- Section: 17.3 Multi-Objective Metaheuristics:':
+            subsections:
+            - 17.3a Basics of Multi-Objective Metaheuristics
+            - 17.3b Implementing Multi-Objective Metaheuristics
+            - 17.3c Case Studies in Multi-Objective Metaheuristics
+    - '- Chapter 18: Constraint Programming:':
+        sections:
+        - '- Section: 18.1 Introduction to Constraint Programming:':
+            subsections:
+            - 18.1a Definition of Constraint Programming
+            - 18.1b Importance of Constraint Programming
+            - 18.1c Applications of Constraint Programming
+        - '- Section: 18.2 Constraint Satisfaction Problems:':
+            subsections:
+            - 18.2a Basics of Constraint Satisfaction Problems
+            - 18.2b Solving Constraint Satisfaction Problems
+            - 18.2c Case Studies in Constraint Satisfaction Problems
+        - '- Section: 18.3 Constraint Optimization Problems:':
+            subsections:
+            - 18.3a Basics of Constraint Optimization Problems
+            - 18.3b Solving Constraint Optimization Problems
+            - 18.3c Case Studies in Constraint Optimization Problems
+    - '- Chapter 19: Game Theory:':
+        sections:
+        - '- Section: 19.1 Introduction to Game Theory:':
+            subsections:
+            - 19.1a Definition of Game Theory
+            - 19.1b Importance of Game Theory
+            - 19.1c Applications of Game Theory
+        - '- Section: 19.2 Nash Equilibrium:':
+            subsections:
+            - 19.2a Basics of Nash Equilibrium
+            - 19.2b Finding Nash Equilibria
+            - 19.2c Case Studies in Nash Equilibrium
+        - '- Section: 19.3 Cooperative Games:':
+            subsections:
+            - 19.3a Basics of Cooperative Games
+            - 19.3b Solving Cooperative Games
+            - 19.3c Case Studies in Cooperative Games
+    - '- Chapter 20: Optimization in Machine Learning:':
+        sections:
+        - '- Section: 20.1 Introduction to Optimization in Machine Learning:':
+            subsections:
+            - 20.1a Definition of Optimization in Machine Learning
+            - 20.1b Importance of Optimization in Machine Learning
+            - 20.1c Applications of Optimization in Machine Learning
+        - '- Section: 20.2 Gradient Descent:':
+            subsections:
+            - 20.2a Basics of Gradient Descent
+            - 20.2b Implementing Gradient Descent
+            - 20.2c Case Studies in Gradient Descent
+        - '- Section: 20.3 Convex Optimization in Machine Learning:':
+            subsections:
+            - 20.3a Basics of Convex Optimization in Machine Learning
+            - 20.3b Implementing Convex Optimization in Machine Learning
+            - 20.3c Case Studies in Convex Optimization in Machine Learning

@@ -1,0 +1,323 @@
+textbook:
+  'Building Earth-like Planets: From Nebular Gas to Ocean Worlds":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Overview of the course:':
+            subsections:
+            - 1.1a Course objectives
+            - 1.1b Course structure
+            - 1.1c Expectations and grading
+        - '- Section: 1.2 Importance of studying planet formation:':
+            subsections:
+            - 1.2a Understanding our own planet
+            - 1.2b Predicting planetary conditions
+            - 1.2c Implications for space exploration
+        - '- Section: 1.3 Key concepts and terminology:':
+            subsections:
+            - 1.3a Basic astronomy terms
+            - 1.3b Planet formation terms
+            - 1.3c Terms related to habitability
+    - '- Chapter 2: Dust clouds and star formation:':
+        sections:
+        - '- Section: 2.1 Nebular gas and dust:':
+            subsections:
+            - 2.1a Composition of nebular gas
+            - 2.1b Dust formation and properties
+            - 2.1c Role of gas and dust in star formation
+        - '- Section: 2.2 Formation of protoplanetary disks:':
+            subsections:
+            - 2.2a Process of disk formation
+            - 2.2b Structure of protoplanetary disks
+            - 2.2c Evolution of protoplanetary disks
+        - '- Section: 2.3 Role of stellar activity:':
+            subsections:
+            - 2.3a Stellar winds and jets
+            - 2.3b Impact of stellar activity on disk evolution
+            - 2.3c Stellar activity and planet formation
+    - '- Chapter 3: Accretion processes:':
+        sections:
+        - '- Section: 3.1 Growth of dust particles:':
+            subsections:
+            - 3.1a Dust coagulation
+            - 3.1b Dust growth barriers
+            - 3.1c Overcoming growth barriers
+        - '- Section: 3.2 Turbulent circumstellar discs:':
+            subsections:
+            - 3.2a Causes of disc turbulence
+            - 3.2b Impact of turbulence on dust growth
+            - 3.2c Turbulence and planetesimal formation
+        - '- Section: 3.3 Planetesimal formation:':
+            subsections:
+            - 3.3a Streaming instability
+            - 3.3b Gravitational instability
+            - 3.3c Collisional growth
+    - '- Chapter 4: Differentiation of planets:':
+        sections:
+        - '- Section: 4.1 Internal structure and composition:':
+            subsections:
+            - 4.1a Core, mantle, and crust
+            - 4.1b Role of heat and pressure
+            - 4.1c Variations in planetary structure
+        - '- Section: 4.2 Melting processes:':
+            subsections:
+            - 4.2a Radioactive decay
+            - 4.2b Gravitational energy
+            - 4.2c Impact heating
+        - '- Section: 4.3 Magma ocean dynamics:':
+            subsections:
+            - 4.3a Formation of a magma ocean
+            - 4.3b Crystallization and differentiation
+            - 4.3c Magma oceans and atmospheres
+    - '- Chapter 5: Planetary surfaces:':
+        sections:
+        - '- Section: 5.1 Comparative study of Venus, Mercury, Earth, and Mars:':
+            subsections:
+            - 5.1a Surface features and geology
+            - 5.1b Atmospheres and climates
+            - 5.1c Geological history and evolution
+        - '- Section: 5.2 Surface features and geological processes:':
+            subsections:
+            - 5.2a Volcanism and tectonics
+            - 5.2b Erosion and weathering
+            - 5.2c Impact cratering
+        - '- Section: 5.3 Impact of star on planetary surfaces:':
+            subsections:
+            - 5.3a Stellar radiation and weather
+            - 5.3b Stellar wind and atmospheric loss
+            - 5.3c Stellar activity and surface conditions
+    - '- Chapter 6: Habitability and biosignatures:':
+        sections:
+        - '- Section: 6.1 Factors influencing habitability:':
+            subsections:
+            - 6.1a The habitable zone
+            - 6.1b Planetary conditions for life
+            - 6.1c The concept of planetary habitability
+        - '- Section: 6.2 Signatures of life on Earth-like planets:':
+            subsections:
+            - 6.2a Biosignatures in the atmosphere
+            - 6.2b Biosignatures in the geology
+            - 6.2c Detecting biosignatures from space
+        - '- Section: 6.3 Potential for life in ocean worlds:':
+            subsections:
+            - 6.3a What are ocean worlds?
+            - 6.3b Conditions for life in ocean worlds
+            - 6.3c Searching for life in ocean worlds
+    - '- Chapter 7: Exoplanet systems:':
+        sections:
+        - '- Section: 7.1 Discovery and characterization of exoplanets:':
+            subsections:
+            - 7.1a Methods of exoplanet detection
+            - 7.1b Characterizing exoplanet properties
+            - 7.1c Current and future exoplanet missions
+        - '- Section: 7.2 Diversity of exoplanetary systems:':
+            subsections:
+            - 7.2a Hot Jupiters and super-Earths
+            - 7.2b Binary and multiple star systems
+            - 7.2c Unusual and exotic exoplanets
+        - '- Section: 7.3 Formation and evolution of exoplanets:':
+            subsections:
+            - 7.3a Theories of exoplanet formation
+            - 7.3b Exoplanet migration
+            - 7.3c Exoplanet atmospheres and climates
+    - '- Chapter 8: Volatiles and planetary crusts:':
+        sections:
+        - '- Section: 8.1 Distribution and role of volatiles in planet formation:':
+            subsections:
+            - 8.1a What are volatiles?
+            - 8.1b Volatiles in the protoplanetary disk
+            - 8.1c Volatiles and planet formation
+        - '- Section: 8.2 Formation and composition of planetary crusts:':
+            subsections:
+            - 8.2a Crust formation processes
+            - 8.2b Composition of planetary crusts
+            - 8.2c Crusts and planetary habitability
+    - '- Chapter 9: Moon formation:':
+        sections:
+        - '- Section: 9.1 Origin and evolution of moons:':
+            subsections:
+            - 9.1a Theories of moon formation
+            - 9.1b Moon evolution
+            - 9.1c Moons and planetary habitability
+        - '- Section: 9.2 Influence of moons on planetary systems:':
+            subsections:
+            - 9.2a Tidal forces and orbital dynamics
+            - 9.2b Moons and planetary climates
+            - 9.2c Moons and life
+    - '- Chapter 10: Project presentations:':
+        sections:
+        - '- Section: 10.1 Student research projects and findings:':
+            subsections:
+            - 10.1a Project objectives and methods
+            - 10.1b Presentation of findings
+            - 10.1c Discussion and conclusions
+    - '- Chapter 11: The Role of Gravity in Planet Formation:':
+        sections:
+        - '- Section: 11.1 Gravitational Accretion:':
+            subsections:
+            - 11.1a The process of gravitational accretion
+            - 11.1b Factors affecting gravitational accretion
+            - 11.1c Gravitational accretion and planet formation
+        - '- Section: 11.2 Gravitational Instabilities:':
+            subsections:
+            - 11.2a Causes and effects of gravitational instabilities
+            - 11.2b Gravitational instabilities in protoplanetary disks
+            - 11.2c Gravitational instabilities and planet formation
+        - '- Section: 11.3 Gravity and Planetary Orbits:':
+            subsections:
+            - 11.3a The role of gravity in shaping planetary orbits
+            - 11.3b Orbital resonances
+            - 11.3c Orbital dynamics and planetary systems
+    - '- Chapter 12: The Role of Magnetic Fields in Planet Formation:':
+        sections:
+        - '- Section: 12.1 Magnetic Fields in Protoplanetary Disks:':
+            subsections:
+            - 12.1a Generation of magnetic fields in disks
+            - 12.1b Magnetic fields and disk structure
+            - 12.1c Magnetic fields and planet formation
+        - '- Section: 12.2 Magnetohydrodynamics:':
+            subsections:
+            - 12.2a Basics of magnetohydrodynamics
+            - 12.2b Magnetohydrodynamic waves
+            - 12.2c Magnetohydrodynamics and planet formation
+        - '- Section: 12.3 Magnetic Fields and Planetary Dynamos:':
+            subsections:
+            - 12.3a Generation of planetary magnetic fields
+            - 12.3b Planetary dynamos
+            - 12.3c Magnetic fields and planetary habitability
+    - '- Chapter 13: The Role of Chemistry in Planet Formation:':
+        sections:
+        - '- Section: 13.1 Chemistry of the Protoplanetary Disk:':
+            subsections:
+            - 13.1a Composition of the protoplanetary disk
+            - 13.1b Chemical reactions in the disk
+            - 13.1c Disk chemistry and planet formation
+        - '- Section: 13.2 Chemistry and Planetary Atmospheres:':
+            subsections:
+            - 13.2a Formation of planetary atmospheres
+            - 13.2b Atmospheric chemistry
+            - 13.2c Atmospheres and planetary habitability
+        - '- Section: 13.3 Chemistry and Planetary Surfaces:':
+            subsections:
+            - 13.3a Surface chemistry and mineralogy
+            - 13.3b Weathering and surface-atmosphere interactions
+            - 13.3c Surface chemistry and life
+    - '- Chapter 14: The Role of Impacts in Planet Formation:':
+        sections:
+        - '- Section: 14.1 Accretionary Impacts:':
+            subsections:
+            - 14.1a The process of accretionary impacts
+            - 14.1b Accretionary impacts and planet growth
+            - 14.1c Accretionary impacts and planetary differentiation
+        - '- Section: 14.2 Late Heavy Bombardment:':
+            subsections:
+            - 14.2a Evidence for the Late Heavy Bombardment
+            - 14.2b Causes and effects of the Late Heavy Bombardment
+            - 14.2c The Late Heavy Bombardment and life
+        - '- Section: 14.3 Impacts and Planetary Atmospheres:':
+            subsections:
+            - 14.3a Impacts and atmospheric loss
+            - 14.3b Impacts and atmospheric chemistry
+            - 14.3c Impacts and planetary habitability
+    - '- Chapter 15: The Role of Time in Planet Formation:':
+        sections:
+        - '- Section: 15.1 Timescales of Planet Formation:':
+            subsections:
+            - 15.1a Timescales of dust growth and planetesimal formation
+            - 15.1b Timescales of planetary accretion
+            - 15.1c Timescales of planetary differentiation and cooling
+        - '- Section: 15.2 The Age of Planetary Systems:':
+            subsections:
+            - 15.2a Determining the age of stars and planets
+            - 15.2b The age of our solar system
+            - 15.2c The age of exoplanetary systems
+        - '- Section: 15.3 Time and Planetary Evolution:':
+            subsections:
+            - 15.3a Planetary cooling and tectonic activity
+            - 15.3b Evolution of planetary atmospheres
+            - 15.3c Time and planetary habitability
+    - '- Chapter 16: The Role of Radiation in Planet Formation:':
+        sections:
+        - '- Section: 16.1 Stellar Radiation and Planet Formation:':
+            subsections:
+            - 16.1a The effect of stellar radiation on the protoplanetary disk
+            - 16.1b Stellar radiation and planetesimal formation
+            - 16.1c Stellar radiation and planetary atmospheres
+        - '- Section: 16.2 Cosmic Rays and Planet Formation:':
+            subsections:
+            - 16.2a The effect of cosmic rays on the protoplanetary disk
+            - 16.2b Cosmic rays and chemistry in the disk
+            - 16.2c Cosmic rays and planet formation
+        - '- Section: 16.3 Radiation and Planetary Habitability:':
+            subsections:
+            - 16.3a The effect of radiation on planetary surfaces
+            - 16.3b Radiation and planetary atmospheres
+            - 16.3c Radiation and life
+    - '- Chapter 17: The Role of Tides in Planet Formation:':
+        sections:
+        - '- Section: 17.1 Tidal Forces and Planet Formation:':
+            subsections:
+            - 17.1a The effect of tidal forces on the protoplanetary disk
+            - 17.1b Tidal forces and planetesimal formation
+            - 17.1c Tidal forces and planetary orbits
+        - '- Section: 17.2 Tides and Planetary Rotation:':
+            subsections:
+            - 17.2a The effect of tides on planetary rotation
+            - 17.2b Tidal locking
+            - 17.2c Tides and planetary habitability
+        - '- Section: 17.3 Tides and Planetary Interiors:':
+            subsections:
+            - 17.3a Tidal heating
+            - 17.3b Tides and planetary differentiation
+            - 17.3c Tides and planetary geology
+    - '- Chapter 18: The Role of Planetary Migration in Planet Formation:':
+        sections:
+        - '- Section: 18.1 Mechanisms of Planetary Migration:':
+            subsections:
+            - 18.1a Disk-driven migration
+            - 18.1b Planet-planet scattering
+            - 18.1c Kozai migration
+        - '- Section: 18.2 The Effect of Migration on Planetary Systems:':
+            subsections:
+            - 18.2a Migration and the architecture of planetary systems
+            - 18.2b Migration and the habitable zone
+            - 18.2c Migration and the formation of hot Jupiters
+        - '- Section: 18.3 Migration and the Solar System:':
+            subsections:
+            - 18.3a Evidence for migration in the solar system
+            - 18.3b The Nice model
+            - 18.3c Migration and the Late Heavy Bombardment
+    - '- Chapter 19: The Role of Planetary Atmospheres in Planet Formation:':
+        sections:
+        - '- Section: 19.1 Formation of Planetary Atmospheres:':
+            subsections:
+            - 19.1a Outgassing and volatile delivery
+            - 19.1b Atmospheric escape
+            - 19.1c Secondary atmospheres
+        - '- Section: 19.2 The Effect of Atmospheres on Planet Formation:':
+            subsections:
+            - 19.2a Atmospheres and accretion
+            - 19.2b Atmospheres and differentiation
+            - 19.2c Atmospheres and surface conditions
+        - '- Section: 19.3 Atmospheres and Planetary Habitability:':
+            subsections:
+            - 19.3a The greenhouse effect
+            - 19.3b Atmospheric composition and life
+            - 19.3c Detecting atmospheres on exoplanets
+    - '- Chapter 20: The Role of Water in Planet Formation:':
+        sections:
+        - '- Section: 20.1 Water in the Protoplanetary Disk:':
+            subsections:
+            - 20.1a The snow line
+            - 20.1b Water and dust growth
+            - 20.1c Water and planetesimal formation
+        - '- Section: 20.2 Water and Planetary Differentiation:':
+            subsections:
+            - 20.2a Water and the formation of planetary crusts
+            - 20.2b Water and the formation of planetary atmospheres
+            - 20.2c Water and the formation of planetary cores
+        - '- Section: 20.3 Water and Planetary Habitability:':
+            subsections:
+            - 20.3a The role of water in life
+            - 20.3b Water and the habitable zone
+            - 20.3c Detecting water on exoplanets

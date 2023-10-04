@@ -1,0 +1,240 @@
+textbook:
+  'Special Relativity and Beyond: A Comprehensive Introduction to the Theory of Relativity and Its Applications":':
+    chapters:
+    - '- Chapter 1: Fundamentals of Special Relativity:':
+        sections:
+        - '- Section: 1.1 Galilean Transformations':
+            subsections: []
+        - '- Section: 1.2 Michelson-Morley Experiment':
+            subsections: []
+        - '- Section: 1.3 Postulates of Special Relativity':
+            subsections: []
+        - '- Section: 1.4 Lorentz Transformations':
+            subsections: []
+        - '- Section: 1.5 Time Dilation':
+            subsections: []
+        - '- Section: 1.6 Length Contraction':
+            subsections: []
+        - '- Section: 1.7 Relativity of Simultaneity:':
+            subsections:
+            - 1.7a Time Order and Reference Frames
+            - 1.7b Synchronization of Clocks
+            - 1.7c Time Delay
+            - 1.7d Twin Paradox
+    - '- Chapter 2: Relativistic Kinematics:':
+        sections:
+        - '- Section: 2.1 Proper Time':
+            subsections: []
+        - '- Section: 2.2 Relativistic Velocity Addition':
+            subsections: []
+        - '- Section: 2.3 Four-Vectors':
+            subsections: []
+        - '- Section: 2.4 Energy-Momentum Relation':
+            subsections: []
+        - '- Section: 2.5 Relativistic Doppler Effect':
+            subsections: []
+    - '- Chapter 3: Relativistic Dynamics:':
+        sections:
+        - '- Section: 3.1 Mass-Energy Equivalence':
+            subsections: []
+        - '- Section: 3.2 Four-Force and Four-Acceleration':
+            subsections: []
+        - '- Section: 3.3 Relativistic Momentum and Energy':
+            subsections: []
+        - '- Section: 3.4 Transformation of Forces and Fields':
+            subsections: []
+        - '- Section: 3.5 Relativistic Collision':
+            subsections: []
+    - '- Chapter 4: Spacetime Diagrams:':
+        sections:
+        - '- Section: 4.1 World Lines':
+            subsections: []
+        - '- Section: 4.2 Lightcones':
+            subsections: []
+        - '- Section: 4.3 Causality and Simultaneity':
+            subsections: []
+        - '- Section: 4.4 Lorentz Invariance':
+            subsections: []
+    - '- Chapter 5: Relativistic Electrodynamics:':
+        sections:
+        - '- Section: 5.1 Covariant Formulation of Electromagnetism':
+            subsections: []
+        - '- Section: 5.2 Electromagnetic Field Tensor':
+            subsections: []
+        - '- Section: 5.3 Electromagnetic Four-Potential':
+            subsections: []
+        - '- Section: 5.4 Lorentz Force':
+            subsections: []
+        - '- Section: 5.5 Electromagnetic Waves in Vacuum':
+            subsections: []
+        - '- Section: 5.6 Relativistic Doppler Effect for Electromagnetic Waves':
+            subsections: []
+    - '- Chapter 6: Relativistic Mechanics:':
+        sections:
+        - '- Section: 6.1 Lagrangian Formulation of Relativistic Mechanics':
+            subsections: []
+        - '- Section: 6.2 Hamiltonian Formulation of Relativistic Mechanics':
+            subsections: []
+        - '- Section: 6.3 Relativistic Harmonic Oscillator':
+            subsections: []
+        - '- Section: 6.4 Relativistic Particle in Electromagnetic Field':
+            subsections: []
+    - '- Chapter 7: General Relativity:':
+        sections:
+        - '- Section: 7.1 Equivalence Principle':
+            subsections: []
+        - '- Section: 7.2 Curved Spacetime':
+            subsections: []
+        - '- Section: 7.3 Einstein Field Equations':
+            subsections: []
+        - '- Section: 7.4 Schwarzschild Metric':
+            subsections: []
+        - '- Section: 7.5 Gravitational Redshift':
+            subsections: []
+        - '- Section: 7.6 Tests of General Relativity':
+            subsections: []
+        - '- Section: 7.7 Black Holes:':
+            subsections:
+            - 7.7a Schwarzschild Black Hole
+            - 7.7b Event Horizon
+            - 7.7c Singularity
+            - 7.7d Gravitational Time Dilation
+            - 7.7e Hawking Radiation
+        - '- Section: 7.8 Cosmology:':
+            subsections:
+            - 7.8a Expanding Universe
+            - 7.8b Cosmic Microwave Background Radiation
+            - 7.8c Big Bang Theory
+            - 7.8d Inflationary Cosmology
+            - 7.8e Dark Matter and Dark Energy
+            - 7.8f Large Scale Structure of the Universe
+    - '- Chapter 8: Introduction to Quantum Mechanics:':
+        sections:
+        - '- Section: 8.1 Wave-Particle Duality':
+            subsections: []
+        - '- Section: 8.2 Uncertainty Principle':
+            subsections: []
+        - "- Section: 8.3 Schr\xF6dinger Equation":
+            subsections: []
+        - '- Section: 8.4 Quantum States and Operators':
+            subsections: []
+    - '- Chapter 9: Quantum Mechanics and Relativity:':
+        sections:
+        - '- Section: 9.1 Klein-Gordon Equation':
+            subsections: []
+        - '- Section: 9.2 Dirac Equation':
+            subsections: []
+        - '- Section: 9.3 Quantum Field Theory':
+            subsections: []
+        - '- Section: 9.4 Feynman Diagrams':
+            subsections: []
+    - '- Chapter 10: Quantum Electrodynamics:':
+        sections:
+        - '- Section: 10.1 Interaction of Light and Matter':
+            subsections: []
+        - '- Section: 10.2 Quantum Description of Electromagnetic Field':
+            subsections: []
+        - '- Section: 10.3 Scattering and Decay Processes':
+            subsections: []
+        - '- Section: 10.4 Renormalization':
+            subsections: []
+    - '- Chapter 11: Quantum Chromodynamics:':
+        sections:
+        - '- Section: 11.1 Strong Interaction':
+            subsections: []
+        - '- Section: 11.2 Quarks and Gluons':
+            subsections: []
+        - '- Section: 11.3 Color Confinement':
+            subsections: []
+        - '- Section: 11.4 Asymptotic Freedom':
+            subsections: []
+    - '- Chapter 12: Weak Interaction:':
+        sections:
+        - '- Section: 12.1 Beta Decay':
+            subsections: []
+        - '- Section: 12.2 Neutrino Oscillations':
+            subsections: []
+        - '- Section: 12.3 Electroweak Unification':
+            subsections: []
+        - '- Section: 12.4 Higgs Mechanism':
+            subsections: []
+    - '- Chapter 13: Standard Model of Particle Physics:':
+        sections:
+        - '- Section: 13.1 Elementary Particles':
+            subsections: []
+        - '- Section: 13.2 Gauge Symmetries':
+            subsections: []
+        - '- Section: 13.3 Quantum Flavour Dynamics':
+            subsections: []
+        - '- Section: 13.4 Beyond the Standard Model':
+            subsections: []
+    - '- Chapter 14: Astrophysics and Cosmology:':
+        sections:
+        - '- Section: 14.1 Stellar Evolution':
+            subsections: []
+        - '- Section: 14.2 Supernovae and Neutron Stars':
+            subsections: []
+        - '- Section: 14.3 Galaxies and Clusters':
+            subsections: []
+        - '- Section: 14.4 Cosmic Inflation and Dark Energy':
+            subsections: []
+    - '- Chapter 15: Gravitational Waves:':
+        sections:
+        - '- Section: 15.1 Generation of Gravitational Waves':
+            subsections: []
+        - '- Section: 15.2 Detection of Gravitational Waves':
+            subsections: []
+        - '- Section: 15.3 Gravitational Wave Astronomy':
+            subsections: []
+        - '- Section: 15.4 Tests of General Relativity with Gravitational Waves':
+            subsections: []
+    - '- Chapter 16: Quantum Gravity:':
+        sections:
+        - '- Section: 16.1 Problem of Quantum Gravity':
+            subsections: []
+        - '- Section: 16.2 String Theory':
+            subsections: []
+        - '- Section: 16.3 Loop Quantum Gravity':
+            subsections: []
+        - '- Section: 16.4 Black Hole Thermodynamics':
+            subsections: []
+    - '- Chapter 17: High Energy Physics:':
+        sections:
+        - '- Section: 17.1 Particle Accelerators':
+            subsections: []
+        - '- Section: 17.2 Collider Experiments':
+            subsections: []
+        - '- Section: 17.3 Neutrino Astronomy':
+            subsections: []
+        - '- Section: 17.4 Cosmic Rays':
+            subsections: []
+    - '- Chapter 18: Quantum Information and Quantum Computing:':
+        sections:
+        - '- Section: 18.1 Quantum Bits and Quantum Gates':
+            subsections: []
+        - '- Section: 18.2 Quantum Algorithms':
+            subsections: []
+        - '- Section: 18.3 Quantum Cryptography':
+            subsections: []
+        - '- Section: 18.4 Quantum Error Correction':
+            subsections: []
+    - '- Chapter 19: Quantum Field Theory in Curved Spacetime:':
+        sections:
+        - '- Section: 19.1 Quantum Effects in Curved Spacetime':
+            subsections: []
+        - '- Section: 19.2 Hawking Radiation':
+            subsections: []
+        - '- Section: 19.3 Unruh Effect':
+            subsections: []
+        - '- Section: 19.4 Quantum Cosmology':
+            subsections: []
+    - '- Chapter 20: Future of Physics:':
+        sections:
+        - '- Section: 20.1 Grand Unified Theories':
+            subsections: []
+        - '- Section: 20.2 Supersymmetry':
+            subsections: []
+        - '- Section: 20.3 Multiverse Theories':
+            subsections: []
+        - '- Section: 20.4 Final Theory and Theory of Everything':
+            subsections: []

@@ -1,0 +1,408 @@
+textbook: 
+"Textbook for Theory of Solids I":
+
+chapters:
+- Chapter 1: Free Electron Model:
+sections:
+- Section: 1.1 Crystalline Lattice:
+subsections:
+- 1.1a Definition of a Crystal Structure
+- 1.1b Unit Cell and Lattice Parameters
+- 1.1c Bravais Lattice
+- 1.1d Miller Indices
+
+- Section: 1.2 Debye Waller Factor and Incommensurate Structures:
+subsections:
+- 1.2a Debye-Waller Factor and Thermal Vibrations
+- 1.2b Incommensurate Structures and Quasicrystals
+
+- Section: 1.3 Point Group for Bravais Lattice:
+subsections:
+- 1.3a Definition of Point Group
+- 1.3b Symmetry Elements and Operations
+- 1.3c Bravais Lattice and Point Group
+
+- Section: 1.4 Bloch Theorem:
+subsections:
+- 1.4a Wavefunction of an Electron in a Periodic Potential
+- 1.4b Bloch Theorem and Bloch Functions
+- 1.4c Brillouin Zone
+
+- Section: 1.5 Band Structure:
+subsections:
+- 1.5a Energy Bands and Band Structure
+- 1.5b Classification of Solids based on Band Structure
+- 1.5c Effective Mass and Density of States
+- 1.5d Metal, Insulator, and Semiconductor Classification
+
+- Chapter 2: Orthogonalized Plane Wave (OPW):
+sections:
+- Section: 2.1 Pseudopotential and Augmented-Plane-Wave (APW):
+subsections:
+- 2.1a Pseudopotential Approximation
+- 2.1b Augmented Plane Wave Method
+
+- Section: 2.2 Tight Binding, van Hove Singularity:
+subsections:
+- 2.2a Tight Binding Model
+- 2.2b van Hove Singularity
+
+- Section: 2.3 Experimental Tests of Band Structure and A Survey of the Periodic Table:
+subsections:
+- 2.3a Experimental Techniques for Measuring Band Structure
+- 2.3b Band Structure of Various Materials
+
+- Chapter 3: Semiconductors: Donors, Acceptors and Excitons:
+sections:
+- Section: 3.1 Semiclassical Dynamics of Electrons, Bloch Oscillation and Quantization of Orbits in a Uniform Magnetic Field:
+subsections:
+- 3.1a Classical Dynamics of Electrons in a Magnetic Field
+- 3.1b Quantum Dynamics of Electrons in a Uniform Magnetic Field
+- 3.1c Bloch Oscillation and Quantization of Electron Orbits
+
+- Section: 3.2 de Haas-van Alphen Effect and Quantum Hall Effect:
+subsections:
+- 3.2a de Haas-van Alphen Effect and its Experimental Observation
+- 3.2b Quantum Hall Effect and its Experimental Observation
+
+- Section: 3.3 Quantum Hall Effect and Edge States:
+subsections:
+- 3.3a Quantum Hall Effect and its Theoretical Explanation
+- 3.3b Edge States in Quantum Hall Systems
+
+- Section: 3.4 Electron-electron Interaction: Hartree-Fock Approximation:
+subsections:
+- 3.4a Hartree-Fock Approximation for Electron-electron Interaction
+- 3.4b Self-consistent Field and Hartree-Fock Equations
+
+- Section: 3.5 Exchange Energy for Jellium:
+subsections:
+- 3.5a Exchange Energy and its Physical Significance
+- 3.5b Jellium Model and Calculation of Exchange Energy
+
+- Chapter 4: Density Functional Theory:
+sections:
+- Section: 4.1 Hubbard Model, Screening and Plasmons:
+subsections:
+- 4.1a Hubbard Model for Strongly Correlated Systems
+- 4.1b Screening in Solids and Plasmon Excitations
+
+- Section: 4.2 Phonons:
+subsections:
+- 4.2a Lattice Vibrations and Phonons
+- 4.2b Phonon Dispersion and Density of States
+
+- Section: 4.3 Electron-phonon Coupling and Electron Lifetime:
+subsections:
+- 4.3a Electron-phonon Interaction and its Effects
+- 4.3b Calculation of Electron Lifetime in Metals
+
+- Section: 4.4 Attraction by Exchanging Phonons:
+subsections:
+- 4.4a Electron Attraction by Exchanging Phonons
+- 4.4b Cooper Pairs and Superconductivity
+
+- Section: 4.5 The Cooper Instability and the BCS Wavefunction:
+subsections:
+- 4.5a Cooper Instability and the Formation of Cooper Pairs
+- 4.5b BCS Wavefunction and its Properties
+
+- Chapter 5: The Bogoliubov Quasiparticles:
+sections:
+- Section: 5.1 Ginzburg Landau Free Energy, Meissner Effect and Flux Quantization:
+subsections:
+- 5.1a Ginzburg-Landau Theory and its Free Energy Formulation
+- 5.1b Meissner Effect and Flux Quantization in Superconductors
+
+- Chapter 6: Quantum Mechanics of Solids:
+sections:
+- Section: 6.1 Quantum States in Solids:
+subsections:
+- 6.1a Quantum Numbers and Quantum States
+- 6.1b Pauli Exclusion Principle
+- 6.1c Fermi Energy and Fermi Surface
+
+- Section: 6.2 Quantum Tunneling in Solids:
+subsections:
+- 6.2a Quantum Tunneling Phenomenon
+- 6.2b Tunneling in Superconductors
+- 6.2c Quantum Tunneling Devices
+
+- Section: 6.3 Quantum Entanglement in Solids:
+subsections:
+- 6.3a Quantum Entanglement and its Implications
+- 6.3b Entanglement in Solid State Systems
+- 6.3c Quantum Computing and Information
+
+- Chapter 7: Crystallography and Diffraction:
+sections:
+- Section: 7.1 Crystal Structures and Symmetry:
+subsections:
+- 7.1a Crystal Structures and Unit Cells
+- 7.1b Symmetry Operations and Space Groups
+- 7.1c Crystal Systems and Bravais Lattices
+
+- Section: 7.2 X-ray Diffraction:
+subsections:
+- 7.2a Basics of X-ray Diffraction
+- 7.2b Bragg's Law and Crystal Structure Determination
+- 7.2c Powder Diffraction and Single Crystal Diffraction
+
+- Section: 7.3 Electron and Neutron Diffraction:
+subsections:
+- 7.3a Electron Diffraction Techniques
+- 7.3b Neutron Diffraction and its Applications
+- 7.3c Comparison of X-ray, Electron and Neutron Diffraction
+
+- Chapter 8: Solid State Physics:
+sections:
+- Section: 8.1 Electrical Properties of Solids:
+subsections:
+- 8.1a Electrical Conductivity and Resistivity
+- 8.1b Semiconductors and Insulators
+- 8.1c Superconductivity
+
+- Section: 8.2 Magnetic Properties of Solids:
+subsections:
+- 8.2a Diamagnetism and Paramagnetism
+- 8.2b Ferromagnetism and Antiferromagnetism
+- 8.2c Magnetic Domains and Hysteresis
+
+- Section: 8.3 Optical Properties of Solids:
+subsections:
+- 8.3a Light Absorption and Reflection
+- 8.3b Refractive Index and Dispersion
+- 8.3c Photonic Crystals and Metamaterials
+
+- Chapter 9: Quantum Mechanics of Solids:
+sections:
+- Section: 9.1 Quantum States in Solids:
+subsections:
+- 9.1a Quantum Numbers and Quantum States
+- 9.1b Pauli Exclusion Principle
+- 9.1c Fermi Energy and Fermi Surface
+
+- Section: 9.2 Quantum Tunneling in Solids:
+subsections:
+- 9.2a Quantum Tunneling Phenomenon
+- 9.2b Tunneling in Superconductors
+- 9.2c Quantum Tunneling Devices
+
+- Section: 9.3 Quantum Entanglement in Solids:
+subsections:
+- 9.3a Quantum Entanglement and its Implications
+- 9.3b Entanglement in Solid State Systems
+- 9.3c Quantum Computing and Information
+
+- Chapter 10: Crystallography and Diffraction:
+sections:
+- Section: 10.1 Crystal Structures and Symmetry:
+subsections:
+- 10.1a Crystal Structures and Unit Cells
+- 10.1b Symmetry Operations and Space Groups
+- 10.1c Crystal Systems and Bravais Lattices
+
+- Section: 10.2 X-ray Diffraction:
+subsections:
+- 10.2a Basics of X-ray Diffraction
+- 10.2b Bragg's Law and Crystal Structure Determination
+- 10.2c Powder Diffraction and Single Crystal Diffraction
+
+- Section: 10.3 Electron and Neutron Diffraction:
+subsections:
+- 10.3a Electron Diffraction Techniques
+- 10.3b Neutron Diffraction and its Applications
+- 10.3c Comparison of X-ray, Electron and Neutron Diffraction
+
+- Chapter 11: Solid State Physics:
+sections:
+- Section: 11.1 Electrical Properties of Solids:
+subsections:
+- 11.1a Electrical Conductivity and Resistivity
+- 11.1b Semiconductors and Insulators
+- 11.1c Superconductivity
+
+- Section: 11.2 Magnetic Properties of Solids:
+subsections:
+- 11.2a Diamagnetism and Paramagnetism
+- 11.2b Ferromagnetism and Antiferromagnetism
+- 11.2c Magnetic Domains and Hysteresis
+
+- Section: 11.3 Optical Properties of Solids:
+subsections:
+- 11.3a Light Absorption and Reflection
+- 11.3b Refractive Index and Dispersion
+- 11.3c Photonic Crystals and Metamaterials
+
+- Chapter 12: Quantum Mechanics of Solids:
+sections:
+- Section: 12.1 Quantum States in Solids:
+subsections:
+- 12.1a Quantum Numbers and Quantum States
+- 12.1b Pauli Exclusion Principle
+- 12.1c Fermi Energy and Fermi Surface
+
+- Section: 12.2 Quantum Tunneling in Solids:
+subsections:
+- 12.2a Quantum Tunneling Phenomenon
+- 12.2b Tunneling in Superconductors
+- 12.2c Quantum Tunneling Devices
+
+- Section: 12.3 Quantum Entanglement in Solids:
+subsections:
+- 12.3a Quantum Entanglement and its Implications
+- 12.3b Entanglement in Solid State Systems
+- 12.3c Quantum Computing and Information
+
+- Chapter 13: Crystallography and Diffraction:
+sections:
+- Section: 13.1 Crystal Structures and Symmetry:
+subsections:
+- 13.1a Crystal Structures and Unit Cells
+- 13.1b Symmetry Operations and Space Groups
+- 13.1c Crystal Systems and Bravais Lattices
+
+- Section: 13.2 X-ray Diffraction:
+subsections:
+- 13.2a Basics of X-ray Diffraction
+- 13.2b Bragg's Law and Crystal Structure Determination
+- 13.2c Powder Diffraction and Single Crystal Diffraction
+
+- Section: 13.3 Electron and Neutron Diffraction:
+subsections:
+- 13.3a Electron Diffraction Techniques
+- 13.3b Neutron Diffraction and its Applications
+- 13.3c Comparison of X-ray, Electron and Neutron Diffraction
+
+- Chapter 14: Solid State Physics:
+sections:
+- Section: 14.1 Electrical Properties of Solids:
+subsections:
+- 14.1a Electrical Conductivity and Resistivity
+- 14.1b Semiconductors and Insulators
+- 14.1c Superconductivity
+
+- Section: 14.2 Magnetic Properties of Solids:
+subsections:
+- 14.2a Diamagnetism and Paramagnetism
+- 14.2b Ferromagnetism and Antiferromagnetism
+- 14.2c Magnetic Domains and Hysteresis
+
+- Section: 14.3 Optical Properties of Solids:
+subsections:
+- 14.3a Light Absorption and Reflection
+- 14.3b Refractive Index and Dispersion
+- 14.3c Photonic Crystals and Metamaterials
+
+- Chapter 15: Quantum Mechanics of Solids:
+sections:
+- Section: 15.1 Quantum States in Solids:
+subsections:
+- 15.1a Quantum Numbers and Quantum States
+- 15.1b Pauli Exclusion Principle
+- 15.1c Fermi Energy and Fermi Surface
+
+- Section: 15.2 Quantum Tunneling in Solids:
+subsections:
+- 15.2a Quantum Tunneling Phenomenon
+- 15.2b Tunneling in Superconductors
+- 15.2c Quantum Tunneling Devices
+
+- Section: 15.3 Quantum Entanglement in Solids:
+subsections:
+- 15.3a Quantum Entanglement and its Implications
+- 15.3b Entanglement in Solid State Systems
+- 15.3c Quantum Computing and Information
+
+- Chapter 16: Crystallography and Diffraction:
+sections:
+- Section: 16.1 Crystal Structures and Symmetry:
+subsections:
+- 16.1a Crystal Structures and Unit Cells
+- 16.1b Symmetry Operations and Space Groups
+- 16.1c Crystal Systems and Bravais Lattices
+
+- Section: 16.2 X-ray Diffraction:
+subsections:
+- 16.2a Basics of X-ray Diffraction
+- 16.2b Bragg's Law and Crystal Structure Determination
+- 16.2c Powder Diffraction and Single Crystal Diffraction
+
+- Section: 16.3 Electron and Neutron Diffraction:
+subsections:
+- 16.3a Electron Diffraction Techniques
+- 16.3b Neutron Diffraction and its Applications
+- 16.3c Comparison of X-ray, Electron and Neutron Diffraction
+
+- Chapter 17: Solid State Physics:
+sections:
+- Section: 17.1 Electrical Properties of Solids:
+subsections:
+- 17.1a Electrical Conductivity and Resistivity
+- 17.1b Semiconductors and Insulators
+- 17.1c Superconductivity
+
+- Section: 17.2 Magnetic Properties of Solids:
+subsections:
+- 17.2a Diamagnetism and Paramagnetism
+- 17.2b Ferromagnetism and Antiferromagnetism
+- 17.2c Magnetic Domains and Hysteresis
+
+- Section: 17.3 Optical Properties of Solids:
+subsections:
+- 17.3a Light Absorption and Reflection
+- 17.3b Refractive Index and Dispersion
+- 17.3c Photonic Crystals and Metamaterials
+
+- Chapter 18: Quantum Mechanics of Solids:
+sections:
+- Section: 18.1 Quantum States in Solids:
+subsections:
+- 18.1a Quantum Numbers and Quantum States
+- 18.1b Pauli Exclusion Principle
+- 18.1c Fermi Energy and Fermi Surface
+
+- Section: 18.2 Quantum Tunneling in Solids:
+subsections:
+- 18.2a Quantum Tunneling Phenomenon
+- 18.2b Tunneling in Superconductors
+- 18.2c Quantum Tunneling Devices
+
+- Section: 18.3 Quantum Entanglement in Solids:
+subsections:
+- 18.3a Quantum Entanglement and its Implications
+- 18.3b Entanglement in Solid State Systems
+- 18.3c Quantum Computing and Information
+
+- Chapter 19: Crystallography and Diffraction:
+sections:
+- Section: 19.1 Crystal Structures and Symmetry:
+subsections:
+- 19.1a Crystal Structures and Unit Cells
+- 19.1b Symmetry Operations and Space Groups
+- 19.1c Crystal Systems and Bravais Lattices
+
+- Section: 19.2 X-ray Diffraction:
+subsections:
+- 19.2a Basics of X-ray Diffraction
+- 19.2b Bragg's Law and Crystal Structure Determination
+- 19.2c Powder Diffraction and Single Crystal Diffraction
+
+- Section: 19.3 Electron and Neutron Diffraction:
+subsections:
+- 19.3a Electron Diffraction Techniques
+- 19.3b Neutron Diffraction and its Applications
+- 19.3c Comparison of X-ray, Electron and Neutron Diffraction
+
+- Chapter 20: Solid State Physics:
+sections:
+- Section: 20.1 Electrical Properties of Solids:
+subsections:
+- 20.1a Electrical Conductivity and Resistivity
+- 20.1b Semiconductors and Insulators
+- 20.1c Superconductivity
+
+- Section: 20.2 Magnetic Properties of Solids:
+subsections:
+- 20.2a Diamagnetism and Paramagnetism
+- 

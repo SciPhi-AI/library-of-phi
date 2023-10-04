@@ -1,0 +1,223 @@
+textbook:
+  'Inquiry into Computation and Design Companion":':
+    chapters:
+    - '- Chapter 1: Introduction / Metaphor:':
+        sections:
+        - '- Section: 1.1 Metaphor and Thought:':
+            subsections:
+            - 1.1a Understanding the Role of Metaphor in Design and Computation
+            - 1.1b Exploring the Cognitive Effects of Metaphors
+        - '- Section: 1.2 Concept Design Games:':
+            subsections:
+            - 1.2a Gamification in Design Thinking
+            - 1.2b Using Game Mechanics for Concept Development
+    - '- Chapter 2: The Silent Game I:':
+        sections:
+        - '- Section: 2.1 An Introduction to Metaphor:':
+            subsections:
+            - 2.1a Defining Metaphor in the Context of Design and Computation
+            - 2.1b Analyzing Metaphorical Expressions in Design
+        - '- Section: 2.2 Metaphors We Design and Compute By:':
+            subsections:
+            - 2.2a Common Metaphorical Representations in Design
+            - 2.2b Evaluating the Impact of Metaphors on Computational Models
+    - '- Chapter 3: The Silent Game II:':
+        sections:
+        - '- Section: 3.1 Design, Rules, and Cognition I:':
+            subsections:
+            - 3.1a Understanding the Relationship between Design and Rules
+            - 3.1b Cognitive Processes in Rule-Based Design
+        - '- Section: 3.2 Design, Rules, and Cognition II:':
+            subsections:
+            - 3.2a Rule-Based Design Strategies
+            - 3.2b Cognitive Implications of Rule-Based Design
+    - '- Chapter 4: Visual Calculating I:':
+        sections:
+        - '- Section: 4.1 Visual Calculating I:':
+            subsections:
+            - 4.1a Introduction to Visual Computing
+            - 4.1b Visual Representations for Computational Problems
+        - '- Section: 4.2 Visual Calculating II:':
+            subsections:
+            - 4.2a Techniques for Visualizing Computational Processes
+            - 4.2b Visual Analytics for Computational Design
+    - '- Chapter 5: Machine Computing I:':
+        sections:
+        - '- Section: 5.1 Machine Computing I:':
+            subsections:
+            - 5.1a Introduction to Machine Computation
+            - 5.1b Historical Development of Machine Computation
+        - '- Section: 5.2 Machine Computing II:':
+            subsections:
+            - 5.2a Contemporary Approaches to Machine Computation
+            - 5.2b Implications of Machine Computation in Design
+    - '- Chapter 6: Digital Fabricating I:':
+        sections:
+        - '- Section: 6.1 Digital Fabricating I:':
+            subsections:
+            - 6.1a Introduction to Digital Fabrication
+            - 6.1b Tools and Technologies for Digital Fabrication
+        - '- Section: 6.2 Digital Fabricating II:':
+            subsections:
+            - 6.2a Applications of Digital Fabrication in Design
+            - 6.2b Advancements and Future Trends in Digital Fabrication
+    - '- Chapter 7: Design Knowledge I:':
+        sections:
+        - '- Section: 7.1 Design Knowledge I:':
+            subsections:
+            - 7.1a Understanding Design as Knowledge Construction
+            - 7.1b Theories and Frameworks in Design Knowledge
+        - '- Section: 7.2 Design Knowledge II:':
+            subsections:
+            - 7.2a Knowledge Management in Design
+            - 7.2b Knowledge Transfer and Collaboration in Design
+    - '- Chapter 8: Moving On:':
+        sections:
+        - '- Section: 8.1 Moving On:':
+            subsections:
+            - 8.1a Preparing for Advanced Topics in Computation and Design
+            - 8.1b Exploring Career Opportunities in Computation and Design
+    - '- Chapter 9: Advanced Computation Techniques:':
+        sections:
+        - '- Section: 9.1 Machine Learning in Design:':
+            subsections:
+            - 9.1a Introduction to Machine Learning
+            - 9.1b Applications of Machine Learning in Design
+            - 9.1c Future Trends in Machine Learning
+        - '- Section: 9.2 Quantum Computing in Design:':
+            subsections:
+            - 9.2a Introduction to Quantum Computing
+            - 9.2b Applications of Quantum Computing in Design
+            - 9.2c Future Trends in Quantum Computing
+    - '- Chapter 10: Advanced Design Techniques:':
+        sections:
+        - '- Section: 10.1 Generative Design:':
+            subsections:
+            - 10.1a Introduction to Generative Design
+            - 10.1b Applications of Generative Design in Architecture
+            - 10.1c Future Trends in Generative Design
+        - '- Section: 10.2 Parametric Design:':
+            subsections:
+            - 10.2a Introduction to Parametric Design
+            - 10.2b Applications of Parametric Design in Architecture
+            - 10.2c Future Trends in Parametric Design
+    - '- Chapter 11: Advanced Fabrication Techniques:':
+        sections:
+        - '- Section: 11.1 3D Printing:':
+            subsections:
+            - 11.1a Introduction to 3D Printing
+            - 11.1b Applications of 3D Printing in Design
+            - 11.1c Future Trends in 3D Printing
+        - '- Section: 11.2 Robotics in Fabrication:':
+            subsections:
+            - 11.2a Introduction to Robotics in Fabrication
+            - 11.2b Applications of Robotics in Fabrication
+            - 11.2c Future Trends in Robotics in Fabrication
+    - '- Chapter 12: Advanced Knowledge Techniques:':
+        sections:
+        - '- Section: 12.1 Artificial Intelligence in Design:':
+            subsections:
+            - 12.1a Introduction to Artificial Intelligence in Design
+            - 12.1b Applications of Artificial Intelligence in Design
+            - 12.1c Future Trends in Artificial Intelligence in Design
+        - '- Section: 12.2 Big Data in Design:':
+            subsections:
+            - 12.2a Introduction to Big Data in Design
+            - 12.2b Applications of Big Data in Design
+            - 12.2c Future Trends in Big Data in Design
+    - '- Chapter 13: Advanced Visualization Techniques:':
+        sections:
+        - '- Section: 13.1 Virtual Reality in Design:':
+            subsections:
+            - 13.1a Introduction to Virtual Reality in Design
+            - 13.1b Applications of Virtual Reality in Design
+            - 13.1c Future Trends in Virtual Reality in Design
+        - '- Section: 13.2 Augmented Reality in Design:':
+            subsections:
+            - 13.2a Introduction to Augmented Reality in Design
+            - 13.2b Applications of Augmented Reality in Design
+            - 13.2c Future Trends in Augmented Reality in Design
+    - '- Chapter 14: Advanced Interaction Techniques:':
+        sections:
+        - '- Section: 14.1 Human-Computer Interaction in Design:':
+            subsections:
+            - 14.1a Introduction to Human-Computer Interaction in Design
+            - 14.1b Applications of Human-Computer Interaction in Design
+            - 14.1c Future Trends in Human-Computer Interaction in Design
+        - '- Section: 14.2 Tangible User Interfaces in Design:':
+            subsections:
+            - 14.2a Introduction to Tangible User Interfaces in Design
+            - 14.2b Applications of Tangible User Interfaces in Design
+            - 14.2c Future Trends in Tangible User Interfaces in Design
+    - '- Chapter 15: Advanced Material Techniques:':
+        sections:
+        - '- Section: 15.1 Smart Materials in Design:':
+            subsections:
+            - 15.1a Introduction to Smart Materials in Design
+            - 15.1b Applications of Smart Materials in Design
+            - 15.1c Future Trends in Smart Materials in Design
+        - '- Section: 15.2 Biomimicry in Design:':
+            subsections:
+            - 15.2a Introduction to Biomimicry in Design
+            - 15.2b Applications of Biomimicry in Design
+            - 15.2c Future Trends in Biomimicry in Design
+    - '- Chapter 16: Advanced Environmental Techniques:':
+        sections:
+        - '- Section: 16.1 Sustainable Design:':
+            subsections:
+            - 16.1a Introduction to Sustainable Design
+            - 16.1b Applications of Sustainable Design
+            - 16.1c Future Trends in Sustainable Design
+        - '- Section: 16.2 Resilient Design:':
+            subsections:
+            - 16.2a Introduction to Resilient Design
+            - 16.2b Applications of Resilient Design
+            - 16.2c Future Trends in Resilient Design
+    - '- Chapter 17: Advanced Social Techniques:':
+        sections:
+        - '- Section: 17.1 Socially Responsible Design:':
+            subsections:
+            - 17.1a Introduction to Socially Responsible Design
+            - 17.1b Applications of Socially Responsible Design
+            - 17.1c Future Trends in Socially Responsible Design
+        - '- Section: 17.2 Inclusive Design:':
+            subsections:
+            - 17.2a Introduction to Inclusive Design
+            - 17.2b Applications of Inclusive Design
+            - 17.2c Future Trends in Inclusive Design
+    - '- Chapter 18: Advanced Economic Techniques:':
+        sections:
+        - '- Section: 18.1 Affordable Design:':
+            subsections:
+            - 18.1a Introduction to Affordable Design
+            - 18.1b Applications of Affordable Design
+            - 18.1c Future Trends in Affordable Design
+        - '- Section: 18.2 Design for the Developing World:':
+            subsections:
+            - 18.2a Introduction to Design for the Developing World
+            - 18.2b Applications of Design for the Developing World
+            - 18.2c Future Trends in Design for the Developing World
+    - '- Chapter 19: Advanced Political Techniques:':
+        sections:
+        - '- Section: 19.1 Design for Democracy:':
+            subsections:
+            - 19.1a Introduction to Design for Democracy
+            - 19.1b Applications of Design for Democracy
+            - 19.1c Future Trends in Design for Democracy
+        - '- Section: 19.2 Design Activism:':
+            subsections:
+            - 19.2a Introduction to Design Activism
+            - 19.2b Applications of Design Activism
+            - 19.2c Future Trends in Design Activism
+    - '- Chapter 20: Advanced Ethical Techniques:':
+        sections:
+        - '- Section: 20.1 Ethical Design:':
+            subsections:
+            - 20.1a Introduction to Ethical Design
+            - 20.1b Applications of Ethical Design
+            - 20.1c Future Trends in Ethical Design
+        - '- Section: 20.2 Design for Social Justice:':
+            subsections:
+            - 20.2a Introduction to Design for Social Justice
+            - 20.2b Applications of Design for Social Justice
+            - 20.2c Future Trends in Design for Social Justice

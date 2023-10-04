@@ -1,0 +1,403 @@
+textbook:
+  'Resolving Public Disputes: A Comprehensive Guide to Conflict Resolution in the Public Sphere":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Public vs. Private Problems:':
+            subsections:
+            - 1.1a Definition of Public Problems
+            - 1.1b Definition of Private Problems
+            - 1.1c Differences and Similarities
+            - 1.1d Case Studies
+    - '- Chapter 2: Understanding Policy Goals:':
+        sections:
+        - '- Section: 2.1 Equity:':
+            subsections:
+            - 2.1a Definition of Equity
+            - 2.1b Importance of Equity in Policy
+            - 2.1c Equity vs. Equality
+            - 2.1d Case Studies
+        - '- Section: 2.2 Efficiency:':
+            subsections:
+            - 2.2a Definition of Efficiency
+            - 2.2b Importance of Efficiency in Policy
+            - 2.2c Balancing Efficiency and Equity
+            - 2.2d Case Studies
+        - '- Section: 2.3 Security:':
+            subsections:
+            - 2.3a Definition of Security
+            - 2.3b Importance of Security in Policy
+            - 2.3c Balancing Security and Liberty
+            - 2.3d Case Studies
+        - '- Section: 2.4 Liberty:':
+            subsections:
+            - 2.4a Definition of Liberty
+            - 2.4b Importance of Liberty in Policy
+            - 2.4c Balancing Liberty and Security
+            - 2.4d Case Studies
+    - '- Chapter 3: Exploring Globalization:':
+        sections:
+        - '- Section: 3.1 Globalization:':
+            subsections:
+            - 3.1a Definition of Globalization
+            - 3.1b Effects of Globalization on Public Disputes
+            - 3.1c Globalization and Policy Goals
+            - 3.1d Case Studies
+    - '- Chapter 4: Understanding Ideas and Power in the Policy Process:':
+        sections:
+        - '- Section: 4.1 Defining Problems: Symbols, Numbers and Causes:':
+            subsections:
+            - 4.1a Role of Symbols in Problem Definition
+            - 4.1b Role of Numbers in Problem Definition
+            - 4.1c Identifying Causes of Problems
+            - 4.1d Case Studies
+        - '- Section: 4.2 Attaching Solutions to Problems: Policy Entrepreneurs and Tipping Points:':
+            subsections:
+            - 4.2a Role of Policy Entrepreneurs
+            - 4.2b Understanding Tipping Points
+            - 4.2c Linking Solutions to Problems
+            - 4.2d Case Studies
+        - '- Section: 4.3 Defining Problems: Interests, Experts, and the Media:':
+            subsections:
+            - 4.3a Role of Interests in Problem Definition
+            - 4.3b Role of Experts in Problem Definition
+            - 4.3c Role of Media in Problem Definition
+            - 4.3d Case Studies
+    - '- Chapter 5: Devising Solutions:':
+        sections:
+        - '- Section: 5.1 Rules:':
+            subsections:
+            - 5.1a Role of Rules in Solution Development
+            - 5.1b Creating Effective Rules
+            - 5.1c Case Studies
+        - '- Section: 5.2 Facts:':
+            subsections:
+            - 5.2a Role of Facts in Solution Development
+            - 5.2b Fact-Checking and Verification
+            - 5.2c Case Studies
+        - '- Section: 5.3 Rights:':
+            subsections:
+            - 5.3a Role of Rights in Solution Development
+            - 5.3b Balancing Rights and Responsibilities
+            - 5.3c Case Studies
+        - '- Section: 5.4 Power:':
+            subsections:
+            - 5.4a Role of Power in Solution Development
+            - 5.4b Power Dynamics and Conflict Resolution
+            - 5.4c Case Studies
+        - '- Section: 5.5 Inducements:':
+            subsections:
+            - 5.5a Role of Inducements in Solution Development
+            - 5.5b Types of Inducements
+            - 5.5c Case Studies
+    - '- Chapter 6: Analyzing Social Security:':
+        sections:
+        - '- Section: 6.1 Social Security:':
+            subsections:
+            - 6.1a Overview of Social Security
+            - 6.1b Social Security Disputes
+            - 6.1c Conflict Resolution in Social Security
+            - 6.1d Case Studies
+    - '- Chapter 7: Resolving Disputes in Congress:':
+        sections:
+        - '- Section: 7.1 Introduction to Congressional Dispute Resolution:':
+            subsections:
+            - 7.1a Overview of Congressional Dispute Resolution
+            - 7.1b Role of Congress in Public Disputes
+            - 7.1c Case Studies
+        - '- Section: 7.2 Committee Hearings and Markups:':
+            subsections:
+            - 7.2a Role of Committee Hearings in Dispute Resolution
+            - 7.2b Understanding Markups
+            - 7.2c Case Studies
+        - '- Section: 7.3 Floor Debates and Voting:':
+            subsections:
+            - 7.3a Role of Floor Debates in Dispute Resolution
+            - 7.3b Understanding Voting Procedures
+            - 7.3c Case Studies
+        - '- Section: 7.4 Conference Committees and Reconciliation:':
+            subsections:
+            - 7.4a Role of Conference Committees in Dispute Resolution
+            - 7.4b Understanding Reconciliation
+            - 7.4c Case Studies
+    - '- Chapter 8: Resolving Disputes in Agencies:':
+        sections:
+        - '- Section: 8.1 Introduction to Agency Dispute Resolution:':
+            subsections:
+            - 8.1a Overview of Agency Dispute Resolution
+            - 8.1b Role of Agencies in Public Disputes
+            - 8.1c Case Studies
+        - '- Section: 8.2 Informal Negotiation and Mediation:':
+            subsections:
+            - 8.2a Role of Informal Negotiation in Agency Dispute Resolution
+            - 8.2b Role of Mediation in Agency Dispute Resolution
+            - 8.2c Case Studies
+        - '- Section: 8.3 Administrative Adjudication:':
+            subsections:
+            - 8.3a Role of Administrative Adjudication in Agency Dispute Resolution
+            - 8.3b Understanding the Adjudication Process
+            - 8.3c Case Studies
+        - '- Section: 8.4 Rulemaking and Public Comment:':
+            subsections:
+            - 8.4a Role of Rulemaking in Agency Dispute Resolution
+            - 8.4b Understanding the Public Comment Process
+            - 8.4c Case Studies
+        - '- Section: 8.5 Appeals and Judicial Review:':
+            subsections:
+            - 8.5a Role of Appeals in Agency Dispute Resolution
+            - 8.5b Understanding Judicial Review
+            - 8.5c Case Studies
+    - '- Chapter 9: Resolving Disputes in Courts:':
+        sections:
+        - '- Section: 9.1 Introduction to Court Dispute Resolution:':
+            subsections:
+            - 9.1a Overview of Court Dispute Resolution
+            - 9.1b Role of Courts in Public Disputes
+            - 9.1c Case Studies
+        - '- Section: 9.2 Civil Litigation Process:':
+            subsections:
+            - 9.2a Understanding the Civil Litigation Process
+            - 9.2b Role of Litigation in Dispute Resolution
+            - 9.2c Case Studies
+        - '- Section: 9.3 Discovery and Pretrial Procedures:':
+            subsections:
+            - 9.3a Understanding Discovery in Court Dispute Resolution
+            - 9.3b Understanding Pretrial Procedures
+            - 9.3c Case Studies
+        - '- Section: 9.4 Trial and Post-Trial Proceedings:':
+            subsections:
+            - 9.4a Understanding the Trial Process
+            - 9.4b Understanding Post-Trial Proceedings
+            - 9.4c Case Studies
+        - '- Section: 9.5 Appellate and Supreme Court Review:':
+            subsections:
+            - 9.5a Understanding the Appellate Process
+            - 9.5b Role of the Supreme Court in Dispute Resolution
+            - 9.5c Case Studies
+    - '- Chapter 10: Resolving Local Disputes:':
+        sections:
+        - '- Section: 10.1 Introduction to Local Dispute Resolution:':
+            subsections:
+            - 10.1a Overview of Local Dispute Resolution
+            - 10.1b Role of Local Government in Public Disputes
+            - 10.1c Case Studies
+        - '- Section: 10.2 Community Mediation:':
+            subsections:
+            - 10.2a Role of Community Mediation in Local Dispute Resolution
+            - 10.2b Understanding the Mediation Process
+            - 10.2c Case Studies
+        - '- Section: 10.3 Neighborhood Courts:':
+            subsections:
+            - 10.3a Role of Neighborhood Courts in Local Dispute Resolution
+            - 10.3b Understanding the Court Process
+            - 10.3c Case Studies
+        - '- Section: 10.4 Administrative Hearings:':
+            subsections:
+            - 10.4a Role of Administrative Hearings in Local Dispute Resolution
+            - 10.4b Understanding the Hearing Process
+            - 10.4c Case Studies
+        - '- Section: 10.5 Municipal Ordinance Disputes:':
+            subsections:
+            - 10.5a Understanding Municipal Ordinance Disputes
+            - 10.5b Role of Ordinances in Local Dispute Resolution
+            - 10.5c Case Studies
+    - '- Chapter 11: Peer Editing, Essay 3:':
+        sections:
+        - '- Section: 11.1 Guidelines for Peer Editing:':
+            subsections:
+            - 11.1a Understanding the Role of Peer Editing
+            - 11.1b Effective Peer Editing Techniques
+            - 11.1c Case Studies
+        - '- Section: 11.2 Essay 3 Evaluation Criteria:':
+            subsections:
+            - 11.2a Understanding Evaluation Criteria
+            - 11.2b Applying Evaluation Criteria
+            - 11.2c Case Studies
+    - '- Chapter 12: Understanding Adversarial Decision-Making Processes:':
+        sections:
+        - '- Section: 12.1 Introduction to Adversarial Decision-Making:':
+            subsections:
+            - 12.1a Overview of Adversarial Decision-Making
+            - 12.1b Role of Adversarial Processes in Dispute Resolution
+            - 12.1c Case Studies
+        - '- Section: 12.2 Legal Advocacy and Briefing:':
+            subsections:
+            - 12.2a Role of Legal Advocacy in Adversarial Decision-Making
+            - 12.2b Understanding the Briefing Process
+            - 12.2c Case Studies
+        - '- Section: 12.3 Cross-Examination and Witness Testimony:':
+            subsections:
+            - 12.3a Role of Cross-Examination in Adversarial Decision-Making
+            - 12.3b Understanding Witness Testimony
+            - 12.3c Case Studies
+        - '- Section: 12.4 Jury Selection and Trial Strategy:':
+            subsections:
+            - 12.4a Understanding Jury Selection
+            - 12.4b Developing Effective Trial Strategies
+            - 12.4c Case Studies
+    - '- Chapter 13: Direct Democracy: Ballot Initiatives:':
+        sections:
+        - '- Section: 13.1 Introduction to Direct Democracy:':
+            subsections:
+            - 13.1a Overview of Direct Democracy
+            - 13.1b Role of Direct Democracy in Public Disputes
+            - 13.1c Case Studies
+        - '- Section: 13.2 Ballot Initiative Process:':
+            subsections:
+            - 13.2a Understanding the Ballot Initiative Process
+            - 13.2b Role of Ballot Initiatives in Dispute Resolution
+            - 13.2c Case Studies
+        - '- Section: 13.3 Pros and Cons of Ballot Initiatives:':
+            subsections:
+            - 13.3a Understanding the Pros and Cons of Ballot Initiatives
+            - 13.3b Balancing the Pros and Cons
+            - 13.3c Case Studies
+        - '- Section: 13.4 Case Studies of Ballot Initiatives:':
+            subsections:
+            - 13.4a Analyzing Case Studies of Ballot Initiatives
+            - 13.4b Lessons Learned from Case Studies
+            - 13.4c Case Studies
+    - '- Chapter 14: Resolving Disputes Through Deliberation:':
+        sections:
+        - '- Section: 14.1 Introduction to Deliberative Democracy:':
+            subsections:
+            - 14.1a Overview of Deliberative Democracy
+            - 14.1b Role of Deliberation in Dispute Resolution
+            - 14.1c Case Studies
+        - '- Section: 14.2 Deliberative Forums and Citizen Panels:':
+            subsections:
+            - 14.2a Understanding Deliberative Forums
+            - 14.2b Role of Citizen Panels in Deliberative Democracy
+            - 14.2c Case Studies
+        - '- Section: 14.3 Facilitation and Moderation Techniques:':
+            subsections:
+            - 14.3a Understanding Facilitation Techniques
+            - 14.3b Understanding Moderation Techniques
+            - 14.3c Case Studies
+        - '- Section: 14.4 Evaluating Deliberative Processes:':
+            subsections:
+            - 14.4a Understanding Evaluation Techniques
+            - 14.4b Applying Evaluation Techniques
+            - 14.4c Case Studies
+    - '- Chapter 15: Negotiated Rulemaking:':
+        sections:
+        - '- Section: 15.1 Introduction to Negotiated Rulemaking:':
+            subsections:
+            - 15.1a Overview of Negotiated Rulemaking
+            - 15.1b Role of Negotiated Rulemaking in Dispute Resolution
+            - 15.1c Case Studies
+        - '- Section: 15.2 Stakeholder Identification and Invitation:':
+            subsections:
+            - 15.2a Understanding Stakeholder Identification
+            - 15.2b Role of Stakeholder Invitation in Negotiated Rulemaking
+            - 15.2c Case Studies
+        - '- Section: 15.3 Agenda Setting and Issue Framing:':
+            subsections:
+            - 15.3a Understanding Agenda Setting
+            - 15.3b Role of Issue Framing in Negotiated Rulemaking
+            - 15.3c Case Studies
+        - '- Section: 15.4 Consensus Building and Final Rule:':
+            subsections:
+            - 15.4a Understanding Consensus Building
+            - 15.4b Role of the Final Rule in Negotiated Rulemaking
+            - 15.4c Case Studies
+    - '- Chapter 16: Collaboration / Consensus-Building:':
+        sections:
+        - '- Section: 16.1 Introduction to Collaboration and Consensus-Building:':
+            subsections:
+            - 16.1a Overview of Collaboration and Consensus-Building
+            - 16.1b Role of Collaboration and Consensus-Building in Dispute Resolution
+            - 16.1c Case Studies
+        - '- Section: 16.2 Collaborative Decision-Making Models:':
+            subsections:
+            - 16.2a Understanding Collaborative Decision-Making Models
+            - 16.2b Applying Collaborative Decision-Making Models
+            - 16.2c Case Studies
+        - '- Section: 16.3 Conflict Resolution Techniques:':
+            subsections:
+            - 16.3a Understanding Conflict Resolution Techniques
+            - 16.3b Applying Conflict Resolution Techniques
+            - 16.3c Case Studies
+        - '- Section: 16.4 Building Trust and Managing Power Dynamics:':
+            subsections:
+            - 16.4a Understanding Trust Building Techniques
+            - 16.4b Understanding Power Dynamics Management
+            - 16.4c Case Studies
+    - '- Chapter 17: Peer Editing Essay 4:':
+        sections:
+        - '- Section: 17.1 Guidelines for Peer Editing:':
+            subsections:
+            - 17.1a Understanding the Role of Peer Editing
+            - 17.1b Effective Peer Editing Techniques
+            - 17.1c Case Studies
+        - '- Section: 17.2 Essay 4 Evaluation Criteria:':
+            subsections:
+            - 17.2a Understanding Evaluation Criteria
+            - 17.2b Applying Evaluation Criteria
+            - 17.2c Case Studies
+    - '- Chapter 18: Collaborative Processes:':
+        sections:
+        - '- Section: 18.1 Introduction to Collaborative Processes:':
+            subsections:
+            - 18.1a Overview of Collaborative Processes
+            - 18.1b Role of Collaborative Processes in Dispute Resolution
+            - 18.1c Case Studies
+        - '- Section: 18.2 Collaborative Problem-Solving:':
+            subsections:
+            - 18.2a Understanding Collaborative Problem-Solving
+            - 18.2b Applying Collaborative Problem-Solving Techniques
+            - 18.2c Case Studies
+        - '- Section: 18.3 Multi-Stakeholder Collaboration:':
+            subsections:
+            - 18.3a Understanding Multi-Stakeholder Collaboration
+            - 18.3b Role of Multi-Stakeholder Collaboration in Dispute Resolution
+            - 18.3c Case Studies
+        - '- Section: 18.4 Evaluating Collaborative Outcomes:':
+            subsections:
+            - 18.4a Understanding Evaluation Techniques
+            - 18.4b Applying Evaluation Techniques
+            - 18.4c Case Studies
+    - '- Chapter 19: Advanced Conflict Resolution Techniques:':
+        sections:
+        - '- Section: 19.1 Mediation:':
+            subsections:
+            - 19.1a Understanding Mediation
+            - 19.1b Role of Mediation in Conflict Resolution
+            - 19.1c Case Studies
+        - '- Section: 19.2 Arbitration:':
+            subsections:
+            - 19.2a Understanding Arbitration
+            - 19.2b Role of Arbitration in Conflict Resolution
+            - 19.2c Case Studies
+        - '- Section: 19.3 Facilitation:':
+            subsections:
+            - 19.3a Understanding Facilitation
+            - 19.3b Role of Facilitation in Conflict Resolution
+            - 19.3c Case Studies
+        - '- Section: 19.4 Negotiation:':
+            subsections:
+            - 19.4a Understanding Negotiation
+            - 19.4b Role of Negotiation in Conflict Resolution
+            - 19.4c Case Studies
+    - '- Chapter 20: Future of Public Dispute Resolution:':
+        sections:
+        - '- Section: 20.1 Emerging Trends:':
+            subsections:
+            - 20.1a Understanding Emerging Trends in Public Dispute Resolution
+            - 20.1b Impact of Emerging Trends
+            - 20.1c Case Studies
+        - '- Section: 20.2 Technological Innovations:':
+            subsections:
+            - 20.2a Understanding Technological Innovations in Public Dispute Resolution
+            - 20.2b Impact of Technological Innovations
+            - 20.2c Case Studies
+        - '- Section: 20.3 Policy Recommendations:':
+            subsections:
+            - 20.3a Understanding Policy Recommendations for Public Dispute Resolution
+            - 20.3b Implementing Policy Recommendations
+            - 20.3c Case Studies
+        - '- Section: 20.4 Conclusion:':
+            subsections:
+            - 20.4a Recap of Key Concepts
+            - 20.4b Future Directions
+            - 20.4c Final Thoughts

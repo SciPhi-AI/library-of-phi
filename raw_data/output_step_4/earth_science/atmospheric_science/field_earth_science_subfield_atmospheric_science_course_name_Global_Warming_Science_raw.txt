@@ -1,0 +1,258 @@
+textbook: 
+"Global Warming Science: A Comprehensive Study":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 The Origin of Earth’s Atmosphere:
+subsections:
+- 1.1a Formation of the Atmosphere
+- 1.1b Evolution of the Atmosphere
+- 1.1c Current State of the Atmosphere
+- Section: 1.2 The Origin of Earth’s Oceans:
+subsections:
+- 1.2a Formation of the Oceans
+- 1.2b Evolution of the Oceans
+- 1.2c Current State of the Oceans
+
+- Chapter 2: Paleoclimate:
+sections:
+- Section: 2.1 Paleoclimate I:
+subsections:
+- 2.1a Introduction to Paleoclimate
+- 2.1b Paleoclimate Data Sources
+- 2.1c Paleoclimate Analysis Techniques
+- Section: 2.2 Paleoclimate II:
+subsections:
+- 2.2a Paleoclimate Models
+- 2.2b Paleoclimate Predictions
+- 2.2c Paleoclimate and Modern Climate
+
+- Chapter 3: The Instrumental Record:
+sections:
+- Section: 3.1 The Instrumental Record:
+subsections:
+- 3.1a History of Climate Instrumentation
+- 3.1b Current Climate Instrumentation
+- 3.1c Analysis of Instrumental Records
+
+- Chapter 4: Atmospheric Composition and Greenhouse Gases:
+sections:
+- Section: 4.1 Atmospheric Composition:
+subsections:
+- 4.1a Major Components of the Atmosphere
+- 4.1b Trace Gases in the Atmosphere
+- 4.1c Changes in Atmospheric Composition
+- Section: 4.2 Greenhouse Gases:
+subsections:
+- 4.2a Definition and Types of Greenhouse Gases
+- 4.2b Role of Greenhouse Gases in Climate
+- 4.2c Human Impact on Greenhouse Gas Levels
+
+- Chapter 5: Radiative Transfer:
+sections:
+- Section: 5.1 Radiative Transfer I:
+subsections:
+- 5.1a Basics of Radiative Transfer
+- 5.1b Radiative Transfer in the Atmosphere
+- 5.1c Radiative Forcing
+- Section: 5.2 Radiative Transfer II:
+subsections:
+- 5.2a Radiative Transfer Models
+- 5.2b Radiative Transfer and Climate Change
+- 5.2c Future Predictions of Radiative Transfer
+
+- Chapter 6: Radiative-Convective Equilibrium:
+sections:
+- Section: 6.1 Radiative-Convective Equilibrium I:
+subsections:
+- 6.1a Definition of Radiative-Convective Equilibrium
+- 6.1b Factors Affecting Radiative-Convective Equilibrium
+- 6.1c Radiative-Convective Equilibrium and Climate
+- Section: 6.2 Radiative-Convective Equilibrium II:
+subsections:
+- 6.2a Modeling Radiative-Convective Equilibrium
+- 6.2b Radiative-Convective Equilibrium in Different Climates
+- 6.2c Future Predictions of Radiative-Convective Equilibrium
+
+- Chapter 7: The Circulation of the Atmosphere and Oceans:
+sections:
+- Section: 7.1 The Circulation of the Atmosphere I:
+subsections:
+- 7.1a Atmospheric Circulation Patterns
+- 7.1b Factors Affecting Atmospheric Circulation
+- 7.1c Atmospheric Circulation and Climate
+- Section: 7.2 The Circulation of the Atmosphere II:
+subsections:
+- 7.2a Modeling Atmospheric Circulation
+- 7.2b Atmospheric Circulation in Different Climates
+- 7.2c Future Predictions of Atmospheric Circulation
+- Section: 7.3 The Circulation of the Oceans I:
+subsections:
+- 7.3a Ocean Circulation Patterns
+- 7.3b Factors Affecting Ocean Circulation
+- 7.3c Ocean Circulation and Climate
+- Section: 7.4 The Circulation of the Oceans II:
+subsections:
+- 7.4a Modeling Ocean Circulation
+- 7.4b Ocean Circulation in Different Climates
+- 7.4c Future Predictions of Ocean Circulation
+
+- Chapter 8: Non-CO2 Greenhouse Gases:
+sections:
+- Section: 8.1 Non-CO2 Greenhouse Gases:
+subsections:
+- 8.1a Types of Non-CO2 Greenhouse Gases
+- 8.1b Impact of Non-CO2 Greenhouse Gases on Climate
+- 8.1c Reducing Non-CO2 Greenhouse Gas Emissions
+
+- Chapter 9: The Earth’s Carbon Cycle:
+sections:
+- Section: 9.1 The Earth’s Carbon Cycle:
+subsections:
+- 9.1a Basics of the Carbon Cycle
+- 9.1b Human Impact on the Carbon Cycle
+- 9.1c The Carbon Cycle and Climate Change
+
+- Chapter 10: Aerosols:
+sections:
+- Section: 10.1 Aerosols:
+subsections:
+- 10.1a Definition and Types of Aerosols
+- 10.1b Aerosols and Radiative Forcing
+- 10.1c Aerosols and Climate Change
+
+- Chapter 11: Climate Sensitivity, Forcings, and Feedbacks:
+sections:
+- Section: 11.1 Climate Sensitivity:
+subsections:
+- 11.1a Definition of Climate Sensitivity
+- 11.1b Factors Affecting Climate Sensitivity
+- 11.1c Climate Sensitivity and Future Climate Predictions
+- Section: 11.2 Climate Forcings:
+subsections:
+- 11.2a Definition of Climate Forcings
+- 11.2b Types of Climate Forcings
+- 11.2c Climate Forcings and Climate Change
+- Section: 11.3 Climate Feedbacks:
+subsections:
+- 11.3a Definition of Climate Feedbacks
+- 11.3b Types of Climate Feedbacks
+- 11.3c Climate Feedbacks and Climate Sensitivity
+
+- Chapter 12: Solar and Orbital Variability:
+sections:
+- Section: 12.1 Solar Variability:
+subsections:
+- 12.1a Solar Cycle and Climate
+- 12.1b Solar Irradiance and Climate
+- 12.1c Future Predictions of Solar Variability
+- Section: 12.2 Orbital Variability:
+subsections:
+- 12.2a Milankovitch Cycles
+- 12.2b Orbital Variability and Ice Ages
+- 12.2c Future Predictions of Orbital Variability
+
+- Chapter 13: Cloud, Water Vapor, Ice Albedo, and Other Feedbacks:
+sections:
+- Section: 13.1 Cloud Feedbacks:
+subsections:
+- 13.1a Clouds and Radiative Forcing
+- 13.1b Clouds and Climate Sensitivity
+- 13.1c Future Predictions of Cloud Feedbacks
+- Section: 13.2 Water Vapor Feedbacks:
+subsections:
+- 13.2a Water Vapor and Radiative Forcing
+- 13.2b Water Vapor and Climate Sensitivity
+- 13.2c Future Predictions of Water Vapor Feedbacks
+- Section: 13.3 Ice Albedo Feedbacks:
+subsections:
+- 13.3a Ice Albedo and Radiative Forcing
+- 13.3b Ice Albedo and Climate Sensitivity
+- 13.3c Future Predictions of Ice Albedo Feedbacks
+- Section: 13.4 Other Feedbacks:
+subsections:
+- 13.4a Vegetation Feedbacks
+- 13.4b Soil Moisture Feedbacks
+- 13.4c Other Feedbacks and Climate Sensitivity
+
+- Chapter 14: Climate Models:
+sections:
+- Section: 14.1 Climate Models I: General Concept, History, and Design:
+subsections:
+- 14.1a Basics of Climate Models
+- 14.1b History of Climate Modeling
+- 14.1c Designing a Climate Model
+- Section: 14.2 Climate Models II: Parameterizations:
+subsections:
+- 14.2a Parameterizations in Climate Models
+- 14.2b Challenges in Parameterization
+- 14.2c Future Developments in Parameterization
+- Section: 14.3 Climate Models III: Predictions and Projections:
+subsections:
+- 14.3a Using Climate Models for Predictions
+- 14.3b Using Climate Models for Projections
+- 14.3c Uncertainty in Climate Model Predictions and Projections
+
+- Chapter 15: Climate Change Mitigation and Some Links to Adaptation:
+sections:
+- Section: 15.1 Climate Change Mitigation:
+subsections:
+- 15.1a Mitigation Strategies for Climate Change
+- 15.1b Challenges in Climate Change Mitigation
+- 15.1c Future Developments in Climate Change Mitigation
+- Section: 15.2 Links to Adaptation:
+subsections:
+- 15.2a Adaptation Strategies for Climate Change
+- 15.2b Links Between Mitigation and Adaptation
+- 15.2c Future Developments in Climate Change Adaptation
+
+- Chapter 16: Geoengineering:
+sections:
+- Section: 16.1 Geoengineering:
+subsections:
+- 16.1a Basics of Geoengineering
+- 16.1b Geoengineering Strategies for Climate Change
+- 16.1c Risks and Challenges in Geoengineering
+
+- Chapter 17: Climate Change Impacts:
+sections:
+- Section: 17.1 Impacts on Natural Systems:
+subsections:
+- 17.1a Climate Change and Biodiversity
+- 17.1b Climate Change and Ecosystems
+- 17.1c Climate Change and Water Resources
+- Section: 17.2 Impacts on Human Systems:
+subsections:
+- 17.2a Climate Change and Agriculture
+- 17.2b Climate Change and Health
+- 17.2c Climate Change and Economy
+
+- Chapter 18: Climate Change Policy:
+sections:
+- Section: 18.1 International Climate Policy:
+subsections:
+- 18.1a History of International Climate Policy
+- 18.1b Current State of International Climate Policy
+- 18.1c Future of International Climate Policy
+- Section: 18.2 National Climate Policy:
+subsections:
+- 18.2a History of National Climate Policy
+- 18.2b Current State of National Climate Policy
+- 18.2c Future of National Climate Policy
+
+- Chapter 19: Climate Change Communication:
+sections:
+- Section: 19.1 Climate Change Communication:
+subsections:
+- 19.1a Importance of Climate Change Communication
+- 19.1b Strategies for Effective Climate Change Communication
+- 19.1c Challenges in Climate Change Communication
+
+- Chapter 20: Climate Change Education:
+sections:
+- Section: 20.1 Climate Change Education:
+subsections:
+- 20.1a Importance of Climate Change Education
+- 20.1b Strategies for Effective Climate Change Education
+- 20.1c Challenges in Climate Change Education

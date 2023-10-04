@@ -1,0 +1,202 @@
+textbook:
+  'Data, Models, and Decisions: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Decision Analysis:':
+        sections:
+        - '- Section: 1.1 Kendall Crab & Lobster Case:':
+            subsections:
+            - 1.1a Introduction
+            - 1.1b Problem Statement
+            - 1.1c Decision Analysis Techniques
+            - 1.1d Evaluation and Decision Making
+        - '- Section: 1.2 Conditional Probabilities:':
+            subsections:
+            - 1.2a Introduction to Conditional Probabilities
+            - 1.2b Conditional Probability Rules
+            - 1.2c Bayesian Analysis
+    - '- Chapter 2: Probability Distributions:':
+        sections:
+        - '- Section: 2.1 Discrete Probability Distributions:':
+            subsections:
+            - 2.1a Introduction to Discrete Probability Distributions
+            - 2.1b Probability Mass Function
+            - 2.1c Expected Value and Variance
+            - 2.1d Common Discrete Distributions
+        - '- Section: 2.2 Continuous Probability Distributions:':
+            subsections:
+            - 2.2a Introduction to Continuous Probability Distributions
+            - 2.2b Probability Density Function
+            - 2.2c Expected Value and Variance
+            - 2.2d Common Continuous Distributions
+        - '- Section: 2.3 The Normal Distribution:':
+            subsections:
+            - 2.3a Introduction to the Normal Distribution
+            - 2.3b Properties and Characteristics
+            - 2.3c Standardization and Z-Scores
+            - 2.3d Applications and Examples
+    - '- Chapter 3: Simulation:':
+        sections:
+        - '- Section: 3.1 The Gentle Lentil Case:':
+            subsections:
+            - 3.1a Introduction to Simulation
+            - 3.1b Random Number Generation
+            - 3.1c Monte Carlo Simulation
+            - 3.1d Analysis and Interpretation of Results
+        - '- Section: 3.2 The Ontario Gateway Case:':
+            subsections:
+            - 3.2a Introduction to Simulation in Supply Chain Management
+            - 3.2b Demand Forecasting and Inventory Management
+            - 3.2c Performance Evaluation and Optimization
+    - '- Chapter 4: Regression Models:':
+        sections:
+        - '- Section: 4.1 Regression Models I:':
+            subsections:
+            - 4.1a Introduction to Regression Analysis
+            - 4.1b Simple Linear Regression
+            - 4.1c Multiple Linear Regression
+            - 4.1d Model Evaluation and Interpretation
+        - '- Section: 4.2 Regression Models II:':
+            subsections:
+            - 4.2a Polynomial Regression
+            - 4.2b Logistic Regression
+            - 4.2c Time Series Regression
+            - 4.2d Advanced Regression Techniques
+        - '- Section: 4.3 Regression Illustrated:':
+            subsections:
+            - 4.3a Case Studies in Regression Analysis
+            - 4.3b Real-world Applications
+            - 4.3c Practical Tips and Tricks
+    - '- Chapter 5: Linear Optimization:':
+        sections:
+        - '- Section: 5.1 Introduction to Linear Optimization Modeling:':
+            subsections:
+            - 5.1a Introduction to Optimization
+            - 5.1b Linear Programming Model Formulation
+            - 5.1c Graphical Solution Method
+            - 5.1d Sensitivity Analysis and Interpretation
+        - '- Section: 5.2 Solving and Analyzing Linear Optimization Models:':
+            subsections:
+            - 5.2a Simplex Method
+            - 5.2b Duality and Dual Simplex Method
+            - 5.2c Integer Linear Programming
+            - 5.2d Advanced Topics in Linear Optimization
+    - '- Chapter 6: Production Management:':
+        sections:
+        - '- Section: 6.1 Filatoi Riuniti Case: Production Management:':
+            subsections:
+            - 6.1a Introduction to Production Management
+            - 6.1b Forecasting and Capacity Planning
+            - 6.1c Production Scheduling and Control
+            - 6.1d Performance Measurement and Improvement
+    - '- Chapter 7: Nonlinear Optimization:':
+        sections:
+        - '- Section: 7.1 Introduction to Nonlinear Optimization:':
+            subsections:
+            - 7.1a Introduction to Nonlinear Programming
+            - 7.1b Unconstrained Optimization Techniques
+            - 7.1c Constrained Optimization Techniques
+            - 7.1d Applications and Case Studies
+    - '- Chapter 8: Discrete Optimization:':
+        sections:
+        - '- Section: 8.1 Introduction to Discrete Optimization:':
+            subsections:
+            - 8.1a Introduction to Integer Programming
+            - 8.1b Branch and Bound Algorithm
+            - 8.1c Cutting Plane Algorithm
+            - 8.1d Heuristic Approaches for Discrete Optimization
+    - '- Chapter 9: Strategic Investment Management:':
+        sections:
+        - '- Section: 9.1 International Industries Case: Strategic Investment Management:':
+            subsections:
+            - 9.1a Introduction to Strategic Investment Management
+            - 9.1b Investment Analysis and Valuation
+            - 9.1c Portfolio Optimization and Risk Management
+            - 9.1d International Investment Strategies
+    - '- Chapter 10: Financial Crisis:':
+        sections:
+        - '- Section: 10.1 Integrative Case on the Financial Crisis:':
+            subsections:
+            - 10.1a Causes and Origins of the Financial Crisis
+            - 10.1b Impacts and Consequences
+            - 10.1c Policy Responses and Lessons Learned
+            - 10.1d Financial Crisis Case Studies
+    - '- Chapter 11: Retail Pricing:':
+        sections:
+        - '- Section: 11.1 Dynamic Optimization for Retail Pricing:':
+            subsections:
+            - 11.1a Introduction to Retail Pricing
+            - 11.1b Pricing Strategies and Tactics
+            - 11.1c Demand Forecasting and Price Elasticity
+            - 11.1d Dynamic Pricing Models and Optimization Techniques
+    - '- Chapter 12: Data Visualization:':
+        sections:
+        - '- Section: 12.1 Introduction to Data Visualization:':
+            subsections:
+            - 12.1a Importance of Data Visualization
+            - 12.1b Basic Principles of Data Visualization
+            - 12.1c Common Data Visualization Tools
+            - 12.1d Case Studies in Data Visualization
+    - '- Chapter 13: Machine Learning:':
+        sections:
+        - '- Section: 13.1 Introduction to Machine Learning:':
+            subsections:
+            - 13.1a Basics of Machine Learning
+            - 13.1b Supervised vs Unsupervised Learning
+            - 13.1c Common Machine Learning Algorithms
+            - 13.1d Applications of Machine Learning in Decision Making
+    - '- Chapter 14: Time Series Analysis:':
+        sections:
+        - '- Section: 14.1 Basics of Time Series Analysis:':
+            subsections:
+            - 14.1a Introduction to Time Series Analysis
+            - 14.1b Time Series Decomposition
+            - 14.1c Autoregressive Integrated Moving Average (ARIMA) Models
+            - 14.1d Forecasting with Time Series Models
+    - '- Chapter 15: Decision Trees:':
+        sections:
+        - '- Section: 15.1 Introduction to Decision Trees:':
+            subsections:
+            - 15.1a Basics of Decision Trees
+            - 15.1b Building and Pruning Decision Trees
+            - 15.1c Decision Trees for Classification and Regression
+            - 15.1d Case Studies in Decision Trees
+    - '- Chapter 16: Neural Networks:':
+        sections:
+        - '- Section: 16.1 Introduction to Neural Networks:':
+            subsections:
+            - 16.1a Basics of Neural Networks
+            - 16.1b Architecture of Neural Networks
+            - 16.1c Training Neural Networks
+            - 16.1d Applications of Neural Networks in Decision Making
+    - '- Chapter 17: Deep Learning:':
+        sections:
+        - '- Section: 17.1 Introduction to Deep Learning:':
+            subsections:
+            - 17.1a Basics of Deep Learning
+            - 17.1b Convolutional Neural Networks
+            - 17.1c Recurrent Neural Networks
+            - 17.1d Applications of Deep Learning in Decision Making
+    - '- Chapter 18: Reinforcement Learning:':
+        sections:
+        - '- Section: 18.1 Introduction to Reinforcement Learning:':
+            subsections:
+            - 18.1a Basics of Reinforcement Learning
+            - 18.1b Q-Learning
+            - 18.1c Policy Gradients
+            - 18.1d Applications of Reinforcement Learning in Decision Making
+    - '- Chapter 19: Natural Language Processing:':
+        sections:
+        - '- Section: 19.1 Introduction to Natural Language Processing:':
+            subsections:
+            - 19.1a Basics of Natural Language Processing
+            - 19.1b Text Preprocessing
+            - 19.1c Text Classification
+            - 19.1d Applications of Natural Language Processing in Decision Making
+    - '- Chapter 20: Computer Vision:':
+        sections:
+        - '- Section: 20.1 Introduction to Computer Vision:':
+            subsections:
+            - 20.1a Basics of Computer Vision
+            - 20.1b Image Processing Techniques
+            - 20.1c Object Detection and Recognition
+            - 20.1d Applications of Computer Vision in Decision Making

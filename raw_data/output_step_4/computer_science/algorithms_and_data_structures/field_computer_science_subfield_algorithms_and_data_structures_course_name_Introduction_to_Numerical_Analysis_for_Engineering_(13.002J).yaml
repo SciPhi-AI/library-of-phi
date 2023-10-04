@@ -1,0 +1,363 @@
+textbook:
+  'Introduction to Numerical Analysis for Engineering: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Computer Architecture:':
+            subsections:
+            - 1.1a Introduction to Computer Architecture
+            - 1.1b Von Neumann Architecture
+            - 1.1c Memory Organization
+        - '- Section: 1.2 Number Representations:':
+            subsections:
+            - 1.2a Binary Number System
+            - 1.2b Hexadecimal Number System
+            - 1.2c Floating Point Representation
+        - '- Section: 1.3 Recursion:':
+            subsections:
+            - 1.3a Introduction to Recursion
+            - 1.3b Recursive Algorithms and Examples
+            - 1.3c Recursive vs. Iterative Approaches
+            - 1.3d Tail Recursion Optimization
+    - '- Chapter 2: Error Propagation and Estimation:':
+        sections:
+        - '- Section: 2.1 Error Propagation:':
+            subsections:
+            - 2.1a Sources of Error
+            - 2.1b Error Propagation Formula
+            - 2.1c Error Propagation Examples
+        - '- Section: 2.2 Error Estimation:':
+            subsections:
+            - 2.2a Absolute Error vs. Relative Error
+            - 2.2b Error Bounds
+            - 2.2c Error Estimation Techniques
+        - '- Section: 2.3 Condition Numbers:':
+            subsections:
+            - 2.3a Introduction to Condition Numbers
+            - 2.3b Condition Number of a Matrix
+            - 2.3c Condition Number of a Function
+    - '- Chapter 3: Linear Systems of Equations:':
+        sections:
+        - "- Section: 3.1 Cramer\u2019s Rule:":
+            subsections:
+            - 3.1a Solving Linear Systems using Cramer's Rule
+            - 3.1b Advantages and Limitations of Cramer's Rule
+        - '- Section: 3.2 Gaussian Elimination:':
+            subsections:
+            - 3.2a Introduction to Gaussian Elimination
+            - 3.2b Row Operations and Echelon Form
+            - 3.2c Gaussian Elimination with Pivoting
+        - '- Section: 3.3 Pivoting:':
+            subsections:
+            - 3.3a Partial Pivoting
+            - 3.3b Full Pivoting
+    - '- Chapter 4: MATLAB Basics:':
+        sections:
+        - '- Section: 4.1 Introduction to MATLAB:':
+            subsections:
+            - 4.1a MATLAB Environment and Basic Operations
+            - 4.1b Variables and Data Types
+            - 4.1c Script Files and Function Files
+        - '- Section: 4.2 horner.m:':
+            subsections:
+            - 4.2a Horner's Method for Polynomial Evaluation
+            - 4.2b Implementation in MATLAB
+        - '- Section: 4.3 radd.m:':
+            subsections:
+            - 4.3a Recursive Addition Algorithm
+            - 4.3b MATLAB Implementation
+        - '- Section: 4.4 recur.m:':
+            subsections:
+            - 4.4a Recursive Functions in MATLAB
+            - 4.4b Examples of Recursive Functions
+        - '- Section: 4.5 sqr.m:':
+            subsections:
+            - 4.5a Square Root Approximation Methods
+            - 4.5b MATLAB Implementation
+    - '- Chapter 5: Problem Sets:':
+        sections:
+        - '- Section: 5.1 Problem Set 0 (In-class Assignment):':
+            subsections:
+            - 5.1a Problem Set 0 Overview and Guidelines
+            - 5.1b Sample Problems and Solutions
+        - '- Section: 5.2 Problem Set 1:':
+            subsections:
+            - 5.2a Problem Set 1 Overview and Guidelines
+            - 5.2b Sample Problems and Solutions
+        - '- Section: 5.3 Problem Set 2:':
+            subsections:
+            - 5.3a Problem Set 2 Overview and Guidelines
+            - 5.3b Sample Problems and Solutions
+        - '- Section: 5.4 Problem Set 3:':
+            subsections:
+            - 5.4a Problem Set 3 Overview and Guidelines
+            - 5.4b Sample Problems and Solutions
+        - '- Section: 5.5 Problem Set 4:':
+            subsections:
+            - 5.5a Problem Set 4 Overview and Guidelines
+            - 5.5b Sample Problems and Solutions
+    - '- Chapter 6: LU Factorization and Error Analysis:':
+        sections:
+        - '- Section: 6.1 LU Factorization:':
+            subsections:
+            - 6.1a Introduction to LU Factorization
+            - 6.1b LU Factorization Algorithm
+            - 6.1c Applications of LU Factorization
+        - '- Section: 6.2 Error Analysis:':
+            subsections:
+            - 6.2a Sources of Error in LU Factorization
+            - 6.2b Error Analysis Techniques
+    - '- Chapter 7: Tri-diagonal Systems and Special Matrices:':
+        sections:
+        - '- Section: 7.1 Tri-diagonal Systems:':
+            subsections:
+            - 7.1a Definition and Properties of Tri-diagonal Systems
+            - 7.1b Tridiagonal Matrix Algorithm (TDMA)
+            - 7.1c Applications of Tri-diagonal Systems
+        - '- Section: 7.2 Special Matrices:':
+            subsections:
+            - 7.2a Diagonal Matrices
+            - 7.2b Identity Matrices
+            - 7.2c Symmetric Matrices
+            - 7.2d Sparse Matrices
+    - '- Chapter 8: Iterative Methods for Linear Systems:':
+        sections:
+        - '- Section: 8.1 Iterative Methods:':
+            subsections:
+            - 8.1a Jacobi Method
+            - 8.1b Gauss-Seidel Method
+            - 8.1c Successive Overrelaxation (SOR) Method
+        - '- Section: 8.2 Convergence:':
+            subsections:
+            - 8.2a Convergence Criteria for Iterative Methods
+            - 8.2b Rate of Convergence
+            - 8.2c Comparison of Iterative Methods
+    - '- Chapter 9: MATLAB Handout:':
+        sections:
+        - '- Section: 9.1 MATLAB Basics:':
+            subsections:
+            - 9.1a MATLAB Environment and Basic Operations
+            - 9.1b Variables and Data Types
+            - 9.1c Script Files and Function Files
+        - '- Section: 9.2 euler.m:':
+            subsections:
+            - 9.2a Euler's Method for Numerical Integration
+            - 9.2b Implementation in MATLAB
+        - '- Section: 9.3 radd.m:':
+            subsections:
+            - 9.3a Recursive Addition Algorithm
+            - 9.3b MATLAB Implementation
+        - '- Section: 9.4 sbfj.m:':
+            subsections:
+            - 9.4a Single Bracket Function Root Finding Methods
+            - 9.4b Implementation in MATLAB
+        - '- Section: 9.5 sbfj_3.m:':
+            subsections:
+            - 9.5a Single Bracket Function Root Finding with Orders of Magnitude Improvement
+            - 9.5b Implementation in MATLAB
+        - '- Section: 9.6 sbfj_f.m:':
+            subsections:
+            - 9.6a Single Bracket Function Root Finding with False Position Method
+            - 9.6b Implementation in MATLAB
+        - '- Section: 9.7 sbfj_f_3.m:':
+            subsections:
+            - 9.7a Single Bracket Function Root Finding with False Position Method
+              and Orders of Magnitude Improvement
+            - 9.7b Implementation in MATLAB
+        - '- Section: 9.8 sbfy.m:':
+            subsections:
+            - 9.8a Single Bracket Function Root Finding with Bisection Method
+            - 9.8b Implementation in MATLAB
+        - '- Section: 9.9 tsbfj.m:':
+            subsections:
+            - 9.9a Single Bracket Function Root Finding with Tangent Method
+            - 9.9b Implementation in MATLAB
+    - '- Chapter 10: Numerical Differentiation:':
+        sections:
+        - '- Section: 10.1 Finite Difference Method:':
+            subsections:
+            - 10.1a Forward Difference Method
+            - 10.1b Backward Difference Method
+            - 10.1c Central Difference Method
+        - '- Section: 10.2 Error Analysis:':
+            subsections:
+            - 10.2a Truncation Error
+            - 10.2b Round-off Error
+            - 10.2c Total Numerical Error
+        - '- Section: 10.3 Higher Order Derivatives:':
+            subsections:
+            - 10.3a Second Order Derivatives
+            - 10.3b Higher Order Derivatives
+            - 10.3c Error Analysis for Higher Order Derivatives
+    - '- Chapter 11: Numerical Integration:':
+        sections:
+        - '- Section: 11.1 Trapezoidal Rule:':
+            subsections:
+            - 11.1a Introduction to Trapezoidal Rule
+            - 11.1b Error Analysis
+            - 11.1c Composite Trapezoidal Rule
+        - '- Section: 11.2 Simpson''s Rule:':
+            subsections:
+            - 11.2a Introduction to Simpson's Rule
+            - 11.2b Error Analysis
+            - 11.2c Composite Simpson's Rule
+        - '- Section: 11.3 Gaussian Quadrature:':
+            subsections:
+            - 11.3a Introduction to Gaussian Quadrature
+            - 11.3b Error Analysis
+            - 11.3c Composite Gaussian Quadrature
+    - '- Chapter 12: Numerical Solution of Ordinary Differential Equations:':
+        sections:
+        - '- Section: 12.1 Euler''s Method:':
+            subsections:
+            - 12.1a Introduction to Euler's Method
+            - 12.1b Error Analysis
+            - 12.1c Modified Euler's Method
+        - '- Section: 12.2 Runge-Kutta Methods:':
+            subsections:
+            - 12.2a Introduction to Runge-Kutta Methods
+            - 12.2b Error Analysis
+            - 12.2c Fourth Order Runge-Kutta Method
+        - '- Section: 12.3 Multistep Methods:':
+            subsections:
+            - 12.3a Introduction to Multistep Methods
+            - 12.3b Error Analysis
+            - 12.3c Adams-Bashforth Method
+    - '- Chapter 13: Numerical Solution of Partial Differential Equations:':
+        sections:
+        - '- Section: 13.1 Finite Difference Method:':
+            subsections:
+            - 13.1a Introduction to Finite Difference Method
+            - 13.1b Error Analysis
+            - 13.1c Application to Heat Equation
+        - '- Section: 13.2 Finite Element Method:':
+            subsections:
+            - 13.2a Introduction to Finite Element Method
+            - 13.2b Error Analysis
+            - 13.2c Application to Wave Equation
+        - '- Section: 13.3 Finite Volume Method:':
+            subsections:
+            - 13.3a Introduction to Finite Volume Method
+            - 13.3b Error Analysis
+            - 13.3c Application to Laplace's Equation
+    - '- Chapter 14: Numerical Linear Algebra:':
+        sections:
+        - '- Section: 14.1 Matrix Operations:':
+            subsections:
+            - 14.1a Matrix Addition and Subtraction
+            - 14.1b Matrix Multiplication
+            - 14.1c Matrix Transpose and Inverse
+        - '- Section: 14.2 Matrix Factorization:':
+            subsections:
+            - 14.2a LU Factorization
+            - 14.2b QR Factorization
+            - 14.2c Cholesky Factorization
+        - '- Section: 14.3 Eigenvalues and Eigenvectors:':
+            subsections:
+            - 14.3a Power Method
+            - 14.3b Inverse Power Method
+            - 14.3c QR Algorithm
+    - '- Chapter 15: Numerical Optimization:':
+        sections:
+        - '- Section: 15.1 Unconstrained Optimization:':
+            subsections:
+            - 15.1a Golden Section Search
+            - 15.1b Fibonacci Search
+            - 15.1c Newton's Method
+        - '- Section: 15.2 Constrained Optimization:':
+            subsections:
+            - 15.2a Lagrange Multipliers
+            - 15.2b KKT Conditions
+            - 15.2c Penalty and Barrier Methods
+        - '- Section: 15.3 Linear Programming:':
+            subsections:
+            - 15.3a Simplex Method
+            - 15.3b Dual Simplex Method
+            - 15.3c Interior Point Method
+    - '- Chapter 16: Nonlinear Equations:':
+        sections:
+        - '- Section: 16.1 Bisection Method:':
+            subsections:
+            - 16.1a Introduction to Bisection Method
+            - 16.1b Error Analysis
+            - 16.1c Convergence Rate
+        - '- Section: 16.2 Newton''s Method:':
+            subsections:
+            - 16.2a Introduction to Newton's Method
+            - 16.2b Error Analysis
+            - 16.2c Convergence Rate
+        - '- Section: 16.3 Secant Method:':
+            subsections:
+            - 16.3a Introduction to Secant Method
+            - 16.3b Error Analysis
+            - 16.3c Convergence Rate
+    - '- Chapter 17: Interpolation and Curve Fitting:':
+        sections:
+        - '- Section: 17.1 Polynomial Interpolation:':
+            subsections:
+            - 17.1a Lagrange Interpolation
+            - 17.1b Newton's Divided Difference Interpolation
+            - 17.1c Error Analysis
+        - '- Section: 17.2 Spline Interpolation:':
+            subsections:
+            - 17.2a Linear Spline Interpolation
+            - 17.2b Cubic Spline Interpolation
+            - 17.2c Error Analysis
+        - '- Section: 17.3 Least Squares Curve Fitting:':
+            subsections:
+            - 17.3a Linear Least Squares
+            - 17.3b Polynomial Least Squares
+            - 17.3c Nonlinear Least Squares
+    - '- Chapter 18: Fast Fourier Transform:':
+        sections:
+        - '- Section: 18.1 Discrete Fourier Transform:':
+            subsections:
+            - 18.1a Introduction to Discrete Fourier Transform
+            - 18.1b Properties of Discrete Fourier Transform
+            - 18.1c Applications of Discrete Fourier Transform
+        - '- Section: 18.2 Fast Fourier Transform:':
+            subsections:
+            - 18.2a Introduction to Fast Fourier Transform
+            - 18.2b Cooley-Tukey Algorithm
+            - 18.2c Applications of Fast Fourier Transform
+        - '- Section: 18.3 Inverse Fast Fourier Transform:':
+            subsections:
+            - 18.3a Introduction to Inverse Fast Fourier Transform
+            - 18.3b Algorithm for Inverse Fast Fourier Transform
+            - 18.3c Applications of Inverse Fast Fourier Transform
+    - '- Chapter 19: Numerical Differentiation and Integration:':
+        sections:
+        - '- Section: 19.1 Numerical Differentiation:':
+            subsections:
+            - 19.1a Forward Difference Method
+            - 19.1b Backward Difference Method
+            - 19.1c Central Difference Method
+        - '- Section: 19.2 Numerical Integration:':
+            subsections:
+            - 19.2a Trapezoidal Rule
+            - 19.2b Simpson's Rule
+            - 19.2c Gaussian Quadrature
+        - '- Section: 19.3 Error Analysis:':
+            subsections:
+            - 19.3a Error Analysis for Numerical Differentiation
+            - 19.3b Error Analysis for Numerical Integration
+            - 19.3c Comparison of Different Methods
+    - '- Chapter 20: Numerical Solution of Ordinary and Partial Differential Equations:':
+        sections:
+        - '- Section: 20.1 Numerical Solution of Ordinary Differential Equations:':
+            subsections:
+            - 20.1a Euler's Method
+            - 20.1b Runge-Kutta Methods
+            - 20.1c Multistep Methods
+        - '- Section: 20.2 Numerical Solution of Partial Differential Equations:':
+            subsections:
+            - 20.2a Finite Difference Method
+            - 20.2b Finite Element Method
+            - 20.2c Finite Volume Method
+        - '- Section: 20.3 Error Analysis:':
+            subsections:
+            - 20.3a Error Analysis for Numerical Solution of Ordinary Differential
+              Equations
+            - 20.3b Error Analysis for Numerical Solution of Partial Differential
+              Equations
+            - 20.3c Comparison of Different Methods

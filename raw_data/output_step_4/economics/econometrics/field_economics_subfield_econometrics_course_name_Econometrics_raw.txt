@@ -1,0 +1,324 @@
+textbook: 
+"Econometrics: Theory and Practice":
+
+chapters:
+- Chapter 1: Introduction to Econometrics:
+sections:
+- Section: 1.1 Probability and Distribution:
+subsections:
+- 1.1a Expectation and Moments
+- 1.1b Sampling Distributions and Inference
+
+- Section: 1.2 The Central Limit Theorem:
+subsections:
+- 1.2a Confidence Intervals
+
+- Chapter 2: Simple Linear Regression:
+sections:
+- Section: 2.1 Conditional Expectation Functions:
+subsections:
+- 2.1a Bivariate Regression
+
+- Section: 2.2 Sampling Distribution of Regression Estimates:
+subsections:
+- 2.2a Gauss-Markov Theorem
+
+- Section: 2.3 Classical Assumptions and Asymptotic Distribution:
+subsections:
+- 2.3a Sample Slope
+
+- Section: 2.4 Residuals, Fitted Values, and Goodness of Fit:
+subsections:
+- 2.4a Regression, Causality, and Control
+
+- Chapter 3: Multiple Linear Regression:
+sections:
+- Section: 3.1 Anatomy of Multivariate Regression Coefficients:
+subsections:
+- 3.1a Omitted Variables Formula
+- 3.1b Short vs. Long Regressions
+
+- Section: 3.2 Dummy Variables and Interactions:
+subsections:
+- 3.2a Testing Linear Restrictions using F-tests
+
+- Chapter 4: Causal Inference and Natural Experiments:
+sections:
+- Section: 4.1 Regression Analysis of Natural Experiments:
+subsections:
+- 4.1a Differences-in-Differences
+
+- Chapter 5: Advanced Topics in Econometrics:
+sections:
+- Section: 5.1 Heteroscedasticity and Weighted Least Squares:
+subsections:
+- 5.1a Linear Probability Model
+
+- Section: 5.2 Serial Correlation in Time Series:
+subsections:
+- 5.2a Quasi-Differencing
+- 5.2b Common-Factor Restriction
+- 5.2c Durbin-Watson Test for Serial Correlation
+
+- Section: 5.3 Instrumental Variables and Omitted-Variables Problems:
+subsections:
+- 5.3a Using IV to Solve Omitted-Variables Problems
+
+- Section: 5.4 Measurement Error:
+subsections:
+- 5.4a Regression-Discontinuity Designs
+
+- Chapter 6: Panel Data Analysis:
+sections:
+- Section: 6.1 Fixed Effects Model:
+subsections:
+- 6.1a Within Estimator
+- 6.1b Between Estimator
+
+- Section: 6.2 Random Effects Model:
+subsections:
+- 6.2a GLS Estimator
+- 6.2b Hausman Test
+
+- Section: 6.3 Dynamic Panel Data Models:
+subsections:
+- 6.3a Lagged Dependent Variable
+- 6.3b GMM Estimator
+
+- Chapter 7: Time Series Analysis:
+sections:
+- Section: 7.1 Stationarity and Unit Root Tests:
+subsections:
+- 7.1a ADF Test
+- 7.1b KPSS Test
+
+- Section: 7.2 Cointegration and Error Correction Models:
+subsections:
+- 7.2a Engle-Granger Test
+- 7.2b Johansen Test
+
+- Section: 7.3 ARIMA Models:
+subsections:
+- 7.3a Autoregressive Models
+- 7.3b Moving Average Models
+
+- Chapter 8: Nonlinear Regression Models:
+sections:
+- Section: 8.1 Binary Choice Models:
+subsections:
+- 8.1a Logit Model
+- 8.1b Probit Model
+
+- Section: 8.2 Multinomial Choice Models:
+subsections:
+- 8.2a Multinomial Logit Model
+- 8.2b Nested Logit Model
+
+- Section: 8.3 Count Data Models:
+subsections:
+- 8.3a Poisson Regression
+- 8.3b Negative Binomial Regression
+
+- Chapter 9: Limited Dependent Variable Models:
+sections:
+- Section: 9.1 Tobit Models:
+subsections:
+- 9.1a Censored Regression
+- 9.1b Truncated Regression
+
+- Section: 9.2 Duration Models:
+subsections:
+- 9.2a Hazard Models
+- 9.2b Survival Analysis
+
+- Section: 9.3 Quantile Regression:
+subsections:
+- 9.3a Median Regression
+- 9.3b Quantile Regression for Different Quantiles
+
+- Chapter 10: Structural Equation Models:
+sections:
+- Section: 10.1 Simultaneous Equation Models:
+subsections:
+- 10.1a Identification Problem
+- 10.1b Two-Stage Least Squares
+
+- Section: 10.2 Path Analysis:
+subsections:
+- 10.2a Direct and Indirect Effects
+- 10.2b Goodness of Fit Measures
+
+- Section: 10.3 Latent Variable Models:
+subsections:
+- 10.3a Factor Analysis
+- 10.3b Structural Equation Modeling
+
+- Chapter 11: Bayesian Econometrics:
+sections:
+- Section: 11.1 Bayesian Inference:
+subsections:
+- 11.1a Bayes' Theorem
+- 11.1b Prior and Posterior Distributions
+
+- Section: 11.2 Bayesian Linear Regression:
+subsections:
+- 11.2a Bayesian Estimation
+- 11.2b Bayesian Prediction
+
+- Section: 11.3 Markov Chain Monte Carlo Methods:
+subsections:
+- 11.3a Gibbs Sampling
+- 11.3b Metropolis-Hastings Algorithm
+
+- Chapter 12: Nonparametric and Semiparametric Methods:
+sections:
+- Section: 12.1 Nonparametric Regression:
+subsections:
+- 12.1a Kernel Regression
+- 12.1b Local Polynomial Regression
+
+- Section: 12.2 Semiparametric Regression:
+subsections:
+- 12.2a Partially Linear Models
+- 12.2b Single Index Models
+
+- Section: 12.3 Nonparametric Hypothesis Testing:
+subsections:
+- 12.3a Kolmogorov-Smirnov Test
+- 12.3b Mann-Whitney Test
+
+- Chapter 13: Microeconometrics:
+sections:
+- Section: 13.1 Discrete Choice Models:
+subsections:
+- 13.1a Binary Choice Models
+- 13.1b Multinomial Choice Models
+
+- Section: 13.2 Duration Models:
+subsections:
+- 13.2a Hazard Models
+- 13.2b Survival Analysis
+
+- Section: 13.3 Panel Data Models:
+subsections:
+- 13.3a Fixed Effects Model
+- 13.3b Random Effects Model
+
+- Chapter 14: Macroeconometrics:
+sections:
+- Section: 14.1 Time Series Analysis:
+subsections:
+- 14.1a Stationarity and Unit Root Tests
+- 14.1b Cointegration and Error Correction Models
+
+- Section: 14.2 Vector Autoregressive Models:
+subsections:
+- 14.2a Impulse Response Functions
+- 14.2b Variance Decomposition
+
+- Section: 14.3 Dynamic Stochastic General Equilibrium Models:
+subsections:
+- 14.3a Calibration
+- 14.3b Bayesian Estimation
+
+- Chapter 15: Financial Econometrics:
+sections:
+- Section: 15.1 Asset Pricing Models:
+subsections:
+- 15.1a Capital Asset Pricing Model
+- 15.1b Arbitrage Pricing Theory
+
+- Section: 15.2 Volatility Models:
+subsections:
+- 15.2a Autoregressive Conditional Heteroscedasticity Models
+- 15.2b Stochastic Volatility Models
+
+- Section: 15.3 High Frequency Data Analysis:
+subsections:
+- 15.3a Realized Volatility
+- 15.3b Microstructure Noise
+
+- Chapter 16: Spatial Econometrics:
+sections:
+- Section: 16.1 Spatial Autoregressive Models:
+subsections:
+- 16.1a Spatial Lag Model
+- 16.1b Spatial Error Model
+
+- Section: 16.2 Spatial Panel Data Models:
+subsections:
+- 16.2a Fixed Effects Model
+- 16.2b Random Effects Model
+
+- Section: 16.3 Spatial Econometric Methods:
+subsections:
+- 16.3a Maximum Likelihood Estimation
+- 16.3b Generalized Method of Moments
+
+- Chapter 17: Computational Econometrics:
+sections:
+- Section: 17.1 Simulation-Based Estimation:
+subsections:
+- 17.1a Monte Carlo Simulation
+- 17.1b Bootstrap Methods
+
+- Section: 17.2 Optimization Methods:
+subsections:
+- 17.2a Newton-Raphson Method
+- 17.2b Quasi-Newton Methods
+
+- Section: 17.3 High Performance Computing:
+subsections:
+- 17.3a Parallel Computing
+- 17.3b Cloud Computing
+
+- Chapter 18: Econometric Software:
+sections:
+- Section: 18.1 R for Econometrics:
+subsections:
+- 18.1a Data Manipulation
+- 18.1b Econometric Analysis
+
+- Section: 18.2 Stata for Econometrics:
+subsections:
+- 18.2a Data Cleaning
+- 18.2b Regression Analysis
+
+- Section: 18.3 Python for Econometrics:
+subsections:
+- 18.3a Data Analysis
+- 18.3b Machine Learning
+
+- Chapter 19: Machine Learning for Econometrics:
+sections:
+- Section: 19.1 Supervised Learning:
+subsections:
+- 19.1a Regression Trees
+- 19.1b Neural Networks
+
+- Section: 19.2 Unsupervised Learning:
+subsections:
+- 19.2a Cluster Analysis
+- 19.2b Principal Component Analysis
+
+- Section: 19.3 Reinforcement Learning:
+subsections:
+- 19.3a Q-Learning
+- 19.3b Policy Iteration
+
+- Chapter 20: Econometric Forecasting:
+sections:
+- Section: 20.1 Time Series Forecasting:
+subsections:
+- 20.1a ARIMA Models
+- 20.1b State Space Models
+
+- Section: 20.2 Panel Data Forecasting:
+subsections:
+- 20.2a Fixed Effects Model
+- 20.2b Random Effects Model
+
+- Section: 20.3 Forecast Evaluation:
+subsections:
+- 20.3a Mean Squared Prediction Error
+- 20.3b Diebold-Mariano Test

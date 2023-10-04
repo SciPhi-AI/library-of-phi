@@ -1,0 +1,388 @@
+textbook:
+  'Introduction to Materials Science":':
+    chapters:
+    - '- Chapter 1: Introduction to Materials Science:':
+        sections:
+        - '- Section: 1.1 Atomic Structure:':
+            subsections:
+            - 1.1a Atomic Models
+            - 1.1b Atomic Bonding
+            - 1.1c Atomic Arrangement
+        - '- Section: 1.2 Crystallography:':
+            subsections:
+            - 1.2a Crystal Systems
+            - 1.2b Crystal Planes and Directions
+            - 1.2c Crystal Defects
+        - '- Section: 1.3 Defects in Materials:':
+            subsections:
+            - 1.3a Point Defects
+            - 1.3b Line Defects
+            - 1.3c Surface Defects
+        - '- Section: 1.4 Phase Diagrams:':
+            subsections:
+            - 1.4a Binary Phase Diagrams
+            - 1.4b Ternary Phase Diagrams
+            - 1.4c Phase Transformations
+        - '- Section: 1.5 Mechanical Properties:':
+            subsections:
+            - 1.5a Stress-Strain Behavior
+            - 1.5b Hardness
+            - 1.5c Impact Resistance
+        - '- Section: 1.6 Thermal Properties:':
+            subsections:
+            - 1.6a Heat Capacity
+            - 1.6b Thermal Expansion
+            - 1.6c Thermal Conductivity
+    - '- Chapter 2: Materials Characterization Techniques:':
+        sections:
+        - '- Section: 2.1 Optical Microscopy:':
+            subsections:
+            - 2.1a Principles of Optical Microscopy
+            - 2.1b Sample Preparation
+            - 2.1c Image Analysis
+        - '- Section: 2.2 Scanning Electron Microscopy (SEM):':
+            subsections:
+            - 2.2a Working Principle of SEM
+            - 2.2b SEM Imaging Modes
+            - 2.2c SEM Applications
+        - '- Section: 2.3 X-ray Diffraction (XRD):':
+            subsections:
+            - 2.3a Basics of XRD
+            - 2.3b XRD Patterns
+            - 2.3c XRD Applications
+        - '- Section: 2.4 Fourier Transform Infrared Spectroscopy (FTIR):':
+            subsections:
+            - 2.4a FTIR Basics
+            - 2.4b FTIR Spectra
+            - 2.4c FTIR Applications
+        - '- Section: 2.5 Differential Scanning Calorimetry (DSC):':
+            subsections:
+            - 2.5a DSC Principle
+            - 2.5b DSC Curve Interpretation
+            - 2.5c DSC Applications
+        - '- Section: 2.6 Dynamic Mechanical Analysis (DMA):':
+            subsections:
+            - 2.6a DMA Basics
+            - 2.6b DMA Curve Interpretation
+            - 2.6c DMA Applications
+        - '- Section: 2.7 Atomic Force Microscopy (AFM):':
+            subsections:
+            - 2.7a AFM Working Principle
+            - 2.7b AFM Modes
+            - 2.7c AFM Applications
+        - '- Section: 2.8 Energy Dispersive X-ray Spectroscopy (EDS):':
+            subsections:
+            - 2.8a EDS Basics
+            - 2.8b EDS Spectrum Interpretation
+            - 2.8c EDS Applications
+    - '- Chapter 3: Materials Processing and Synthesis:':
+        sections:
+        - '- Section: 3.1 Casting:':
+            subsections:
+            - 3.1a Casting Methods
+            - 3.1b Casting Defects
+            - 3.1c Casting Applications
+        - '- Section: 3.2 Powder Metallurgy:':
+            subsections:
+            - 3.2a Powder Production
+            - 3.2b Powder Compaction
+            - 3.2c Sintering
+        - '- Section: 3.3 Polymer Synthesis:':
+            subsections:
+            - 3.3a Polymerization Methods
+            - 3.3b Polymer Properties
+            - 3.3c Polymer Applications
+        - '- Section: 3.4 Sol-Gel Techniques:':
+            subsections:
+            - 3.4a Sol-Gel Process
+            - 3.4b Sol-Gel Materials
+            - 3.4c Sol-Gel Applications
+        - '- Section: 3.5 Thin Film Deposition:':
+            subsections:
+            - 3.5a Deposition Techniques
+            - 3.5b Thin Film Properties
+            - 3.5c Thin Film Applications
+        - '- Section: 3.6 Heat Treatment:':
+            subsections:
+            - 3.6a Annealing
+            - 3.6b Quenching
+            - 3.6c Tempering
+        - '- Section: 3.7 Mechanical Alloying:':
+            subsections:
+            - 3.7a Mechanical Alloying Process
+            - 3.7b Mechanical Alloying Materials
+            - 3.7c Mechanical Alloying Applications
+        - '- Section: 3.8 Chemical Vapor Deposition (CVD):':
+            subsections:
+            - 3.8a CVD Process
+            - 3.8b CVD Materials
+            - 3.8c CVD Applications
+    - '- Chapter 4: Mechanical Behavior of Materials:':
+        sections:
+        - '- Section: 4.1 Stress and Strain:':
+            subsections:
+            - 4.1a Stress-Strain Curve
+            - 4.1b Elastic and Plastic Deformation
+            - 4.1c Strain Hardening
+        - '- Section: 4.2 Elasticity and Plasticity:':
+            subsections:
+            - 4.2a Elastic Modulus
+            - 4.2b Yield Strength
+            - 4.2c Plastic Deformation Mechanisms
+        - '- Section: 4.3 Yield Criteria:':
+            subsections:
+            - 4.3a Von Mises Criterion
+            - 4.3b Tresca Criterion
+            - 4.3c Mohr-Coulomb Criterion
+        - '- Section: 4.4 Hardness and Toughness:':
+            subsections:
+            - 4.4a Hardness Testing
+            - 4.4b Toughness Testing
+            - 4.4c Hardness-Toughness Relationship
+        - '- Section: 4.5 Fatigue and Fracture:':
+            subsections:
+            - 4.5a Fatigue Testing
+            - 4.5b Fracture Testing
+            - 4.5c Fatigue-Fracture Relationship
+        - '- Section: 4.6 Creep and Stress Rupture:':
+            subsections:
+            - 4.6a Creep Testing
+            - 4.6b Stress Rupture Testing
+            - 4.6c Creep-Stress Rupture Relationship
+        - '- Section: 4.7 Impact Testing:':
+            subsections:
+            - 4.7a Charpy Impact Test
+            - 4.7b Izod Impact Test
+            - 4.7c Impact Energy
+        - '- Section: 4.8 Tensile Testing:':
+            subsections:
+            - 4.8a Tensile Test Procedure
+            - 4.8b Tensile Test Results
+            - 4.8c Tensile Test Applications
+        - '- Section: 4.9 Compression Testing:':
+            subsections:
+            - 4.9a Compression Test Procedure
+            - 4.9b Compression Test Results
+            - 4.9c Compression Test Applications
+    - '- Chapter 5: Electrical and Magnetic Properties:':
+        sections:
+        - '- Section: 5.1 Conductivity and Resistivity:':
+            subsections:
+            - 5.1a Electrical Conductivity
+            - 5.1b Electrical Resistivity
+            - 5.1c Conductivity-Resistivity Relationship
+        - '- Section: 5.2 Dielectric Materials:':
+            subsections:
+            - 5.2a Dielectric Constant
+            - 5.2b Dielectric Strength
+            - 5.2c Dielectric Materials Applications
+        - '- Section: 5.3 Ferroelectric Materials:':
+            subsections:
+            - 5.3a Ferroelectricity Basics
+            - 5.3b Ferroelectric Materials
+            - 5.3c Ferroelectric Applications
+        - '- Section: 5.4 Magnetic Materials:':
+            subsections:
+            - 5.4a Magnetic Domains
+            - 5.4b Magnetic Hysteresis
+            - 5.4c Magnetic Materials Applications
+        - '- Section: 5.5 Superconductivity:':
+            subsections:
+            - 5.5a Superconductivity Basics
+            - 5.5b Superconducting Materials
+            - 5.5c Superconductivity Applications
+        - '- Section: 5.6 Hall Effect:':
+            subsections:
+            - 5.6a Hall Effect Basics
+            - 5.6b Hall Coefficient
+            - 5.6c Hall Effect Applications
+        - '- Section: 5.7 Piezoelectricity:':
+            subsections:
+            - 5.7a Piezoelectric Effect
+            - 5.7b Piezoelectric Materials
+            - 5.7c Piezoelectric Applications
+        - '- Section: 5.8 Magnetostriction:':
+            subsections:
+            - 5.8a Magnetostriction Basics
+            - 5.8b Magnetostrictive Materials
+            - 5.8c Magnetostriction Applications
+    - '- Chapter 6: Optical and Photonic Properties:':
+        sections:
+        - '- Section: 6.1 Refractive Index:':
+            subsections:
+            - 6.1a Refractive Index Basics
+            - 6.1b Refractive Index Measurement
+            - 6.1c Refractive Index Applications
+        - '- Section: 6.2 Absorption and Transmission:':
+            subsections:
+            - 6.2a Absorption Coefficient
+            - 6.2b Transmission Coefficient
+            - 6.2c Absorption-Transmission Relationship
+        - '- Section: 6.3 Fluorescence and Phosphorescence:':
+            subsections:
+            - 6.3a Fluorescence Basics
+            - 6.3b Phosphorescence Basics
+            - 6.3c Fluorescence-Phosphorescence Comparison
+        - '- Section: 6.4 Nonlinear Optics:':
+            subsections:
+            - 6.4a Nonlinear Optical Effects
+            - 6.4b Nonlinear Optical Materials
+            - 6.4c Nonlinear Optics Applications
+        - '- Section: 6.5 Photonic Crystals:':
+            subsections:
+            - 6.5a Photonic Crystal Basics
+            - 6.5b Photonic Crystal Fabrication
+            - 6.5c Photonic Crystal Applications
+        - '- Section: 6.6 Waveguides and Fibers:':
+            subsections:
+            - 6.6a Optical Waveguides
+            - 6.6b Optical Fibers
+            - 6.6c Waveguides vs Fibers
+        - '- Section: 6.7 Lasers and LEDs:':
+            subsections:
+            - 6.7a Laser Basics
+            - 6.7b LED Basics
+            - 6.7c Lasers vs LEDs
+        - '- Section: 6.8 Solar Cells:':
+            subsections:
+            - 6.8a Solar Cell Basics
+            - 6.8b Solar Cell Materials
+            - 6.8c Solar Cell Applications
+        - '- Section: 6.9 Optical Sensors:':
+            subsections:
+            - 6.9a Optical Sensor Basics
+            - 6.9b Optical Sensor Types
+            - 6.9c Optical Sensor Applications
+    - '- Chapter 7: Nanomaterials and Nanotechnology:':
+        sections:
+        - '- Section: 7.1 Nanoparticles:':
+            subsections:
+            - 7.1a Nanoparticle Synthesis
+            - 7.1b Nanoparticle Properties
+            - 7.1c Nanoparticle Applications
+        - '- Section: 7.2 Nanowires:':
+            subsections:
+            - 7.2a Nanowire Synthesis
+            - 7.2b Nanowire Properties
+            - 7.2c Nanowire Applications
+        - '- Section: 7.3 Nanotubes:':
+            subsections:
+            - 7.3a Nanotube Synthesis
+            - 7.3b Nanotube Properties
+            - 7.3c Nanotube Applications
+        - '- Section: 7.4 Nanocomposites:':
+            subsections:
+            - 7.4a Nanocomposite Fabrication
+            - 7.4b Nanocomposite Properties
+            - 7.4c Nanocomposite Applications
+        - '- Section: 7.5 Self-Assembly:':
+            subsections:
+            - 7.5a Self-Assembly Basics
+            - 7.5b Self-Assembled Materials
+            - 7.5c Self-Assembly Applications
+        - '- Section: 7.6 Quantum Dots:':
+            subsections:
+            - 7.6a Quantum Dot Synthesis
+            - 7.6b Quantum Dot Properties
+            - 7.6c Quantum Dot Applications
+        - '- Section: 7.7 Nanolithography:':
+            subsections:
+            - 7.7a Nanolithography Techniques
+            - 7.7b Nanolithography Resolution
+            - 7.7c Nanolithography Applications
+        - '- Section: 7.8 Nanofabrication Techniques:':
+            subsections:
+            - 7.8a Top-Down Nanofabrication
+            - 7.8b Bottom-Up Nanofabrication
+            - 7.8c Hybrid Nanofabrication
+        - '- Section: 7.9 Applications of Nanomaterials:':
+            subsections:
+            - 7.9a Nanomaterials in Electronics
+            - 7.9b Nanomaterials in Medicine
+            - 7.9c Nanomaterials in Energy
+    - '- Chapter 8: Biomaterials and Biomedical Engineering:':
+        sections:
+        - '- Section: 8.1 Biocompatibility:':
+            subsections:
+            - 8.1a Biocompatibility Testing
+            - 8.1b Biocompatible Materials
+            - 8.1c Biocompatibility Issues
+        - '- Section: 8.2 Tissue Engineering:':
+            subsections:
+            - 8.2a Tissue Engineering Basics
+            - 8.2b Tissue Engineering Scaffolds
+            - 8.2c Tissue Engineering Applications
+        - '- Section: 8.3 Drug Delivery Systems:':
+            subsections:
+            - 8.3a Drug Delivery Basics
+            - 8.3b Drug Delivery Systems
+            - 8.3c Drug Delivery Applications
+        - '- Section: 8.4 Medical Implants:':
+            subsections:
+            - 8.4a Implant Materials
+            - 8.4b Implant Design
+            - 8.4c Implant Applications
+        - '- Section: 8.5 Biosensors:':
+            subsections:
+            - 8.5a Biosensor Basics
+            - 8.5b Biosensor Types
+            - 8.5c Biosensor Applications
+        - '- Section: 8.6 Artificial Organs:':
+            subsections:
+            - 8.6a Artificial Heart
+            - 8.6b Artificial Kidney
+            - 8.6c Artificial Lung
+        - '- Section: 8.7 Biomaterials Characterization:':
+            subsections:
+            - 8.7a Mechanical Characterization
+            - 8.7b Chemical Characterization
+            - 8.7c Biological Characterization
+        - '- Section: 8.8 Bioactive Materials:':
+            subsections:
+            - 8.8a Bioactive Glass
+            - 8.8b Bioactive Ceramics
+            - 8.8c Bioactive Polymers
+    - '- Chapter 9: Materials for Energy Applications:':
+        sections:
+        - '- Section: 9.1 Energy Storage Materials:':
+            subsections:
+            - 9.1a Battery Materials
+            - 9.1b Supercapacitor Materials
+            - 9.1c Fuel Cell Materials
+        - '- Section: 9.2 Photovoltaic Materials:':
+            subsections:
+            - 9.2a Silicon Solar Cells
+            - 9.2b Thin Film Solar Cells
+            - 9.2c Organic Solar Cells
+        - '- Section: 9.3 Fuel Cell Materials:':
+            subsections:
+            - 9.3a Proton Exchange Membrane Fuel Cells
+            - 9.3b Solid Oxide Fuel Cells
+            - 9.3c Direct Methanol Fuel Cells
+        - '- Section: 9.4 Thermoelectric Materials:':
+            subsections:
+            - 9.4a Thermoelectric Effect
+            - 9.4b Thermoelectric Materials
+            - 9.4c Thermoelectric Applications
+        - '- Section: 9.5 Battery Materials:':
+            subsections:
+            - 9.5a Lithium-Ion Batteries
+            - 9.5b Nickel-Metal Hydride Batteries
+            - 9.5c Lead-Acid Batteries
+        - '- Section: 9.6 Supercapacitor Materials:':
+            subsections:
+            - 9.6a Electrochemical Supercapacitors
+            - 9.6b Pseudocapacitors
+            - 9.6c Hybrid Supercapacitors
+    - '- Chapter 10: Materials for Environmental Applications:':
+        sections:
+        - '- Section: 10.1 Water Treatment Materials:':
+            subsections:
+            - 10.1a Adsorbents for Water Treatment
+            - 10.1b Membranes for Water Treatment
+            - 10.1c Photocatalysts for Water Treatment
+        - '- Section: 10.2 Air Pollution Control Materials:':
+            subsections:
+            - 10.2a Adsorbents for Air Pollution Control
+            - 10.2b Catalysts for Air Pollution Control
+            - 10.2c Filters for Air Pollution

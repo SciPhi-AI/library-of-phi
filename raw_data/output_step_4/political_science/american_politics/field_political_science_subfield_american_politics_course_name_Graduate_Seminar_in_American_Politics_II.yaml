@@ -1,0 +1,383 @@
+textbook:
+  'Course Companion for Graduate Seminar in American Politics II":':
+    chapters:
+    - '- Chapter 1: Introduction':
+        sections: []
+    - '- Chapter 2: Congress: Representation and Institutionalization:':
+        sections:
+        - '- Section: 2.1 Electoral Systems:':
+            subsections:
+            - 2.1a Introduction to Electoral Systems
+            - 2.1b Types of Electoral Systems
+            - 2.1c Impact on Representation
+        - '- Section: 2.2 Gerrymandering:':
+            subsections:
+            - 2.2a Definition of Gerrymandering
+            - 2.2b Effects of Gerrymandering
+            - 2.2c Case Studies
+        - '- Section: 2.3 Incumbency Advantage:':
+            subsections:
+            - 2.3a Definition of Incumbency Advantage
+            - 2.3b Factors Contributing to Incumbency Advantage
+            - 2.3c Impact on Elections
+        - '- Section: 2.4 Descriptive Representation:':
+            subsections:
+            - 2.4a Definition of Descriptive Representation
+            - 2.4b Importance of Descriptive Representation
+            - 2.4c Case Studies
+    - '- Chapter 3: Congress: Party, Polarization, and Ideology:':
+        sections:
+        - '- Section: 3.1 Partisan Voting:':
+            subsections:
+            - 3.1a Definition of Partisan Voting
+            - 3.1b Factors Influencing Partisan Voting
+            - 3.1c Impact on Legislation
+        - '- Section: 3.2 Party Leadership:':
+            subsections:
+            - 3.2a Role of Party Leadership
+            - 3.2b Influence of Party Leadership
+            - 3.2c Case Studies
+        - '- Section: 3.3 Ideological Divisions:':
+            subsections:
+            - 3.3a Definition of Ideological Divisions
+            - 3.3b Impact on Party Dynamics
+            - 3.3c Case Studies
+        - '- Section: 3.4 Legislative Coalitions:':
+            subsections:
+            - 3.4a Definition of Legislative Coalitions
+            - 3.4b Formation of Legislative Coalitions
+            - 3.4c Impact on Legislation
+    - '- Chapter 4: The Presidency I: Powers and Decision-Making:':
+        sections:
+        - '- Section: 4.1 Presidential Powers:':
+            subsections:
+            - 4.1a Constitutional Powers
+            - 4.1b Executive Powers
+            - 4.1c Case Studies
+        - '- Section: 4.2 Executive Orders:':
+            subsections:
+            - 4.2a Definition of Executive Orders
+            - 4.2b Impact of Executive Orders
+            - 4.2c Case Studies
+        - '- Section: 4.3 Presidential Decision-Making:':
+            subsections:
+            - 4.3a Factors Influencing Decision-Making
+            - 4.3b Decision-Making Process
+            - 4.3c Case Studies
+        - '- Section: 4.4 Presidential Communication:':
+            subsections:
+            - 4.4a Role of Communication in Presidency
+            - 4.4b Impact of Communication on Public Opinion
+            - 4.4c Case Studies
+    - '- Chapter 5: The Presidency II: Relations and Rhetoric:':
+        sections:
+        - '- Section: 5.1 Executive-Legislative Relations:':
+            subsections:
+            - 5.1a Definition of Executive-Legislative Relations
+            - 5.1b Factors Influencing Relations
+            - 5.1c Case Studies
+        - '- Section: 5.2 Presidential Persuasion:':
+            subsections:
+            - 5.2a Role of Persuasion in Presidency
+            - 5.2b Techniques of Presidential Persuasion
+            - 5.2c Case Studies
+        - '- Section: 5.3 Presidential Approval Ratings:':
+            subsections:
+            - 5.3a Factors Influencing Approval Ratings
+            - 5.3b Impact of Approval Ratings on Presidency
+            - 5.3c Case Studies
+        - '- Section: 5.4 Presidential Elections:':
+            subsections:
+            - 5.4a Role of Elections in Democracy
+            - 5.4b Factors Influencing Presidential Elections
+            - 5.4c Case Studies
+    - '- Chapter 6: The Supreme Court I: Institutional Role:':
+        sections:
+        - '- Section: 6.1 Judicial Review:':
+            subsections:
+            - 6.1a Definition of Judicial Review
+            - 6.1b Role of Judicial Review in Democracy
+            - 6.1c Case Studies
+        - '- Section: 6.2 Supreme Court Procedures:':
+            subsections:
+            - 6.2a Overview of Court Procedures
+            - 6.2b Impact of Procedures on Court Decisions
+            - 6.2c Case Studies
+        - '- Section: 6.3 Judicial Activism:':
+            subsections:
+            - 6.3a Definition of Judicial Activism
+            - 6.3b Impact of Judicial Activism on Legal System
+            - 6.3c Case Studies
+        - '- Section: 6.4 Judicial Restraint:':
+            subsections:
+            - 6.4a Definition of Judicial Restraint
+            - 6.4b Impact of Judicial Restraint on Legal System
+            - 6.4c Case Studies
+    - '- Chapter 7: The Supreme Court II: Decision-Making and Legitimacy:':
+        sections:
+        - '- Section: 7.1 Legal Interpretation:':
+            subsections:
+            - 7.1a Role of Legal Interpretation in Court Decisions
+            - 7.1b Factors Influencing Legal Interpretation
+            - 7.1c Case Studies
+        - '- Section: 7.2 Judicial Decision-Making:':
+            subsections:
+            - 7.2a Factors Influencing Judicial Decision-Making
+            - 7.2b Impact of Decision-Making on Legal System
+            - 7.2c Case Studies
+        - '- Section: 7.3 Judicial Constraints:':
+            subsections:
+            - 7.3a Definition of Judicial Constraints
+            - 7.3b Impact of Constraints on Judicial Decision-Making
+            - 7.3c Case Studies
+        - '- Section: 7.4 Judicial Empathy:':
+            subsections:
+            - 7.4a Role of Empathy in Judicial Decision-Making
+            - 7.4b Impact of Empathy on Court Decisions
+            - 7.4c Case Studies
+    - '- Chapter 8: The Bureaucracy: Structure and Politics:':
+        sections:
+        - '- Section: 8.1 Bureaucratic Structure:':
+            subsections:
+            - 8.1a Overview of Bureaucratic Structure
+            - 8.1b Impact of Structure on Bureaucratic Functioning
+            - 8.1c Case Studies
+        - '- Section: 8.2 Bureaucratic Discretion:':
+            subsections:
+            - 8.2a Definition of Bureaucratic Discretion
+            - 8.2b Factors Influencing Bureaucratic Discretion
+            - 8.2c Case Studies
+        - '- Section: 8.3 Bureaucratic Politics:':
+            subsections:
+            - 8.3a Role of Politics in Bureaucracy
+            - 8.3b Impact of Politics on Bureaucratic Functioning
+            - 8.3c Case Studies
+        - '- Section: 8.4 Bureaucratic Accountability:':
+            subsections:
+            - 8.4a Definition of Bureaucratic Accountability
+            - 8.4b Factors Influencing Bureaucratic Accountability
+            - 8.4c Case Studies
+    - '- Chapter 9: Political Parties: Formation and Organization:':
+        sections:
+        - '- Section: 9.1 Party Formation:':
+            subsections:
+            - 9.1a Factors Influencing Party Formation
+            - 9.1b Impact of Party Formation on Political System
+            - 9.1c Case Studies
+        - '- Section: 9.2 Party Systems:':
+            subsections:
+            - 9.2a Overview of Different Party Systems
+            - 9.2b Impact of Party Systems on Political System
+            - 9.2c Case Studies
+        - '- Section: 9.3 Party Organization:':
+            subsections:
+            - 9.3a Role of Organization in Party Functioning
+            - 9.3b Impact of Organization on Party Success
+            - 9.3c Case Studies
+        - '- Section: 9.4 Party Identification:':
+            subsections:
+            - 9.4a Definition of Party Identification
+            - 9.4b Factors Influencing Party Identification
+            - 9.4c Case Studies
+    - '- Chapter 10: Interest Groups: Formation and Influence:':
+        sections:
+        - '- Section: 10.1 Group Formation:':
+            subsections:
+            - 10.1a Factors Influencing Group Formation
+            - 10.1b Impact of Group Formation on Political System
+            - 10.1c Case Studies
+        - '- Section: 10.2 Group Influence:':
+            subsections:
+            - 10.2a Factors Influencing Group Influence
+            - 10.2b Impact of Group Influence on Political System
+            - 10.2c Case Studies
+        - '- Section: 10.3 Group Resources:':
+            subsections:
+            - 10.3a Role of Resources in Group Functioning
+            - 10.3b Impact of Resources on Group Success
+            - 10.3c Case Studies
+        - '- Section: 10.4 Group Lobbying:':
+            subsections:
+            - 10.4a Definition of Lobbying
+            - 10.4b Impact of Lobbying on Political System
+            - 10.4c Case Studies
+    - '- Chapter 11: Conclusion':
+        sections: []
+    - '- Chapter 12: Further Readings':
+        sections: []
+    - '- Chapter 13: Additional Topics in American Politics I:':
+        sections:
+        - '- Section: 13.1 Public Opinion:':
+            subsections:
+            - 13.1a Definition of Public Opinion
+            - 13.1b Factors Influencing Public Opinion
+            - 13.1c Impact of Public Opinion on Politics
+        - '- Section: 13.2 Media and Politics:':
+            subsections:
+            - 13.2a Role of Media in Politics
+            - 13.2b Impact of Media on Public Opinion
+            - 13.2c Case Studies
+        - '- Section: 13.3 Campaign Finance:':
+            subsections:
+            - 13.3a Overview of Campaign Finance
+            - 13.3b Impact of Campaign Finance on Elections
+            - 13.3c Case Studies
+        - '- Section: 13.4 Voting Behavior:':
+            subsections:
+            - 13.4a Factors Influencing Voting Behavior
+            - 13.4b Impact of Voting Behavior on Elections
+            - 13.4c Case Studies
+    - '- Chapter 14: Additional Topics in American Politics II:':
+        sections:
+        - '- Section: 14.1 Political Socialization:':
+            subsections:
+            - 14.1a Definition of Political Socialization
+            - 14.1b Factors Influencing Political Socialization
+            - 14.1c Impact of Political Socialization on Politics
+        - '- Section: 14.2 Political Participation:':
+            subsections:
+            - 14.2a Definition of Political Participation
+            - 14.2b Factors Influencing Political Participation
+            - 14.2c Impact of Political Participation on Politics
+        - '- Section: 14.3 Political Parties and Elections:':
+            subsections:
+            - 14.3a Role of Political Parties in Elections
+            - 14.3b Impact of Political Parties on Election Outcomes
+            - 14.3c Case Studies
+        - '- Section: 14.4 Interest Groups and Policy Making:':
+            subsections:
+            - 14.4a Role of Interest Groups in Policy Making
+            - 14.4b Impact of Interest Groups on Policy Outcomes
+            - 14.4c Case Studies
+    - '- Chapter 15: Additional Topics in American Politics III:':
+        sections:
+        - '- Section: 15.1 Federalism:':
+            subsections:
+            - 15.1a Definition of Federalism
+            - 15.1b Impact of Federalism on American Politics
+            - 15.1c Case Studies
+        - '- Section: 15.2 Civil Rights and Liberties:':
+            subsections:
+            - 15.2a Overview of Civil Rights and Liberties
+            - 15.2b Impact of Civil Rights and Liberties on American Politics
+            - 15.2c Case Studies
+        - '- Section: 15.3 Political Ideologies:':
+            subsections:
+            - 15.3a Overview of Political Ideologies
+            - 15.3b Impact of Political Ideologies on American Politics
+            - 15.3c Case Studies
+        - '- Section: 15.4 Political Economy:':
+            subsections:
+            - 15.4a Definition of Political Economy
+            - 15.4b Impact of Political Economy on American Politics
+            - 15.4c Case Studies
+    - '- Chapter 16: Additional Topics in American Politics IV:':
+        sections:
+        - '- Section: 16.1 Immigration and Politics:':
+            subsections:
+            - 16.1a Role of Immigration in American Politics
+            - 16.1b Impact of Immigration on American Politics
+            - 16.1c Case Studies
+        - '- Section: 16.2 Environment and Politics:':
+            subsections:
+            - 16.2a Role of Environment in American Politics
+            - 16.2b Impact of Environment on American Politics
+            - 16.2c Case Studies
+        - '- Section: 16.3 Health Care and Politics:':
+            subsections:
+            - 16.3a Role of Health Care in American Politics
+            - 16.3b Impact of Health Care on American Politics
+            - 16.3c Case Studies
+        - '- Section: 16.4 Education and Politics:':
+            subsections:
+            - 16.4a Role of Education in American Politics
+            - 16.4b Impact of Education on American Politics
+            - 16.4c Case Studies
+    - '- Chapter 17: Additional Topics in American Politics V:':
+        sections:
+        - '- Section: 17.1 Religion and Politics:':
+            subsections:
+            - 17.1a Role of Religion in American Politics
+            - 17.1b Impact of Religion on American Politics
+            - 17.1c Case Studies
+        - '- Section: 17.2 Gender and Politics:':
+            subsections:
+            - 17.2a Role of Gender in American Politics
+            - 17.2b Impact of Gender on American Politics
+            - 17.2c Case Studies
+        - '- Section: 17.3 Race and Politics:':
+            subsections:
+            - 17.3a Role of Race in American Politics
+            - 17.3b Impact of Race on American Politics
+            - 17.3c Case Studies
+        - '- Section: 17.4 Social Movements and Politics:':
+            subsections:
+            - 17.4a Role of Social Movements in American Politics
+            - 17.4b Impact of Social Movements on American Politics
+            - 17.4c Case Studies
+    - '- Chapter 18: Additional Topics in American Politics VI:':
+        sections:
+        - '- Section: 18.1 Foreign Policy:':
+            subsections:
+            - 18.1a Role of Foreign Policy in American Politics
+            - 18.1b Impact of Foreign Policy on American Politics
+            - 18.1c Case Studies
+        - '- Section: 18.2 Defense Policy:':
+            subsections:
+            - 18.2a Role of Defense Policy in American Politics
+            - 18.2b Impact of Defense Policy on American Politics
+            - 18.2c Case Studies
+        - '- Section: 18.3 Economic Policy:':
+            subsections:
+            - 18.3a Role of Economic Policy in American Politics
+            - 18.3b Impact of Economic Policy on American Politics
+            - 18.3c Case Studies
+        - '- Section: 18.4 Social Policy:':
+            subsections:
+            - 18.4a Role of Social Policy in American Politics
+            - 18.4b Impact of Social Policy on American Politics
+            - 18.4c Case Studies
+    - '- Chapter 19: Additional Topics in American Politics VII:':
+        sections:
+        - '- Section: 19.1 Technology and Politics:':
+            subsections:
+            - 19.1a Role of Technology in American Politics
+            - 19.1b Impact of Technology on American Politics
+            - 19.1c Case Studies
+        - '- Section: 19.2 Media and Politics:':
+            subsections:
+            - 19.2a Role of Media in American Politics
+            - 19.2b Impact of Media on American Politics
+            - 19.2c Case Studies
+        - '- Section: 19.3 Public Opinion and Politics:':
+            subsections:
+            - 19.3a Role of Public Opinion in American Politics
+            - 19.3b Impact of Public Opinion on American Politics
+            - 19.3c Case Studies
+        - '- Section: 19.4 Elections and Politics:':
+            subsections:
+            - 19.4a Role of Elections in American Politics
+            - 19.4b Impact of Elections on American Politics
+            - 19.4c Case Studies
+    - '- Chapter 20: Additional Topics in American Politics VIII:':
+        sections:
+        - '- Section: 20.1 Political Socialization and Politics:':
+            subsections:
+            - 20.1a Role of Political Socialization in American Politics
+            - 20.1b Impact of Political Socialization on American Politics
+            - 20.1c Case Studies
+        - '- Section: 20.2 Political Participation and Politics:':
+            subsections:
+            - 20.2a Role of Political Participation in American Politics
+            - 20.2b Impact of Political Participation on American Politics
+            - 20.2c Case Studies
+        - '- Section: 20.3 Political Ideologies and Politics:':
+            subsections:
+            - 20.3a Role of Political Ideologies in American Politics
+            - 20.3b Impact of Political Ideologies on American Politics
+            - 20.3c Case Studies
+        - '- Section: 20.4 Political Economy and Politics:':
+            subsections:
+            - 20.4a Role of Political Economy in American Politics
+            - 20.4b Impact of Political Economy on American Politics
+            - 20.4c Case Studies

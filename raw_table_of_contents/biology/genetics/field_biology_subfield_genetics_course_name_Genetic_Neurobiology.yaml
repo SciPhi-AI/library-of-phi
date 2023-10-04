@@ -1,0 +1,343 @@
+textbook:
+  'Genetic Neurobiology: A Comprehensive Guide to Genetic and Neurobiological Principles":':
+    chapters:
+    - '- Chapter 1: Introduction to Course:':
+        sections:
+        - '- Section: 1.1 Course Number:':
+            subsections:
+            - 1.1a Course Code
+            - 1.1b Course Registration
+            - 1.1c Course Prerequisites
+        - '- Section: 1.2 Course Name:':
+            subsections:
+            - 1.2a Course Title
+            - 1.2b Course Description
+            - 1.2c Course Objectives
+        - '- Section: 1.3 Resource Level:':
+            subsections:
+            - 1.3a Resource Availability
+            - 1.3b Resource Utilization
+            - 1.3c Resource Management
+    - '- Chapter 2: Bacterial Chemoreception:':
+        sections:
+        - '- Section: 2.1 Bacterial microprocessing:':
+            subsections:
+            - 2.1a Bacterial Cell Structure
+            - 2.1b Bacterial Metabolism
+            - 2.1c Bacterial Reproduction
+        - '- Section: 2.2 Chemoreceptors in bacteria:':
+            subsections:
+            - 2.2a Chemoreceptor Function
+            - 2.2b Chemoreceptor Types
+            - 2.2c Chemoreceptor Mechanisms
+        - '- Section: 2.3 Mutants defective in bacterial chemotaxis:':
+            subsections:
+            - 2.3a Mutation Types
+            - 2.3b Mutation Effects
+            - 2.3c Mutation Repair
+    - '- Chapter 3: Bacterial and Paramecium Motility:':
+        sections:
+        - '- Section: 3.1 Bacterial Motility:':
+            subsections:
+            - 3.1a Flagellar Movement
+            - 3.1b Tumbling and Twisting
+            - 3.1c Chemotaxis in Bacteria
+        - '- Section: 3.2 Paramecium Motility:':
+            subsections:
+            - 3.2a Ciliary Movement
+            - 3.2b Paramecium Locomotion
+            - 3.2c Paramecium Response to Stimuli
+        - '- Section: 3.3 Comparative Study:':
+            subsections:
+            - 3.3a Similarities in Motility
+            - 3.3b Differences in Motility
+            - 3.3c Evolutionary Implications
+    - '- Chapter 4: Neurogenomics: Genome Sequencing and the Nervous System:':
+        sections:
+        - '- Section: 4.1 Neurogenomics:':
+            subsections:
+            - 4.1a Introduction to Neurogenomics
+            - 4.1b Genomic Influence on Neurobiology
+            - 4.1c Future of Neurogenomics
+        - '- Section: 4.2 Genome Sequencing:':
+            subsections:
+            - 4.2a Sequencing Techniques
+            - 4.2b Genome Mapping
+            - 4.2c Genomic Data Analysis
+        - '- Section: 4.3 Nervous System:':
+            subsections:
+            - 4.3a Nervous System Overview
+            - 4.3b Neuronal Communication
+            - 4.3c Neurological Disorders
+    - '- Chapter 5: Development of the Nervous System:':
+        sections:
+        - '- Section: 5.1 Neural Development Stages:':
+            subsections:
+            - 5.1a Neural Induction
+            - 5.1b Neural Proliferation
+            - 5.1c Neural Migration and Differentiation
+        - '- Section: 5.2 Genetic Factors in Neural Development:':
+            subsections:
+            - 5.2a Role of Genes in Neural Development
+            - 5.2b Genetic Disorders Affecting Neural Development
+            - 5.2c Genetic Therapies for Neural Disorders
+        - '- Section: 5.3 Environmental Factors in Neural Development:':
+            subsections:
+            - 5.3a Impact of Environment on Neural Development
+            - 5.3b Neurotoxins and Neural Development
+            - 5.3c Neuroplasticity and Environmental Influence
+    - '- Chapter 6: Genetic Analysis of Axonal Pathfinding:':
+        sections:
+        - '- Section: 6.1 Axonal Growth and Guidance:':
+            subsections:
+            - 6.1a Growth Cone Dynamics
+            - 6.1b Guidance Molecules
+            - 6.1c Axonal Pathfinding Errors
+        - '- Section: 6.2 Genetic Factors in Axonal Pathfinding:':
+            subsections:
+            - 6.2a Genes Regulating Axonal Growth
+            - 6.2b Genetic Disorders Affecting Axonal Pathfinding
+            - 6.2c Genetic Manipulation of Axonal Pathfinding
+        - '- Section: 6.3 Experimental Techniques in Axonal Pathfinding:':
+            subsections:
+            - 6.3a In Vivo Imaging of Axonal Pathfinding
+            - 6.3b Genetic Manipulation Techniques
+            - 6.3c Future Directions in Axonal Pathfinding Research
+    - '- Chapter 7: Genetic Analysis of Membrane Excitability:':
+        sections:
+        - '- Section: 7.1 Membrane Excitability:':
+            subsections:
+            - 7.1a Ion Channels and Membrane Potential
+            - 7.1b Action Potentials
+            - 7.1c Synaptic Transmission
+        - '- Section: 7.2 Genetic Factors in Membrane Excitability:':
+            subsections:
+            - 7.2a Genes Regulating Ion Channels
+            - 7.2b Genetic Disorders Affecting Membrane Excitability
+            - 7.2c Genetic Manipulation of Membrane Excitability
+        - '- Section: 7.3 Experimental Techniques in Studying Membrane Excitability:':
+            subsections:
+            - 7.3a Electrophysiological Techniques
+            - 7.3b Genetic Manipulation Techniques
+            - 7.3c Future Directions in Membrane Excitability Research
+    - '- Chapter 8: Neurodevelopment and Function in the Mouse:':
+        sections:
+        - '- Section: 8.1 Mouse Models in Neurobiology:':
+            subsections:
+            - 8.1a Advantages of Mouse Models
+            - 8.1b Genetic Manipulation in Mice
+            - 8.1c Mouse Models of Neurological Disorders
+        - '- Section: 8.2 Neurodevelopment in Mice:':
+            subsections:
+            - 8.2a Stages of Neural Development in Mice
+            - 8.2b Genetic Factors in Mouse Neurodevelopment
+            - 8.2c Environmental Factors in Mouse Neurodevelopment
+        - '- Section: 8.3 Neurological Function in Mice:':
+            subsections:
+            - 8.3a Mouse Behavior and Neurological Function
+            - 8.3b Assessing Neurological Function in Mice
+            - 8.3c Mouse Models of Neurological Function and Dysfunction
+    - '- Chapter 9: Neurotransmitter Release at Nerve Terminals:':
+        sections:
+        - '- Section: 9.1 Neurotransmitter Release:':
+            subsections:
+            - 9.1a Mechanisms of Neurotransmitter Release
+            - 9.1b Role of Calcium in Neurotransmitter Release
+            - 9.1c Neurotransmitter Reuptake and Degradation
+        - '- Section: 9.2 Genetic Factors in Neurotransmitter Release:':
+            subsections:
+            - 9.2a Genes Regulating Neurotransmitter Release
+            - 9.2b Genetic Disorders Affecting Neurotransmitter Release
+            - 9.2c Genetic Manipulation of Neurotransmitter Release
+        - '- Section: 9.3 Experimental Techniques in Studying Neurotransmitter Release:':
+            subsections:
+            - 9.3a Electrophysiological Techniques
+            - 9.3b Imaging Techniques
+            - 9.3c Future Directions in Neurotransmitter Release Research
+    - '- Chapter 10: Genetic Analysis of Sensory Perception:':
+        sections:
+        - '- Section: 10.1 Sensory Perception:':
+            subsections:
+            - 10.1a Mechanisms of Sensory Perception
+            - 10.1b Sensory Modalities
+            - 10.1c Sensory Processing in the Brain
+        - '- Section: 10.2 Genetic Factors in Sensory Perception:':
+            subsections:
+            - 10.2a Genes Regulating Sensory Perception
+            - 10.2b Genetic Disorders Affecting Sensory Perception
+            - 10.2c Genetic Manipulation of Sensory Perception
+        - '- Section: 10.3 Experimental Techniques in Studying Sensory Perception:':
+            subsections:
+            - 10.3a Behavioral Assays
+            - 10.3b Imaging Techniques
+            - 10.3c Future Directions in Sensory Perception Research
+    - '- Chapter 11: Neurogenetics and Disease:':
+        sections:
+        - '- Section: 11.1 Genetic Basis of Neurological Disorders:':
+            subsections:
+            - 11.1a Monogenic Neurological Disorders
+            - 11.1b Polygenic Neurological Disorders
+            - 11.1c Epigenetics and Neurological Disorders
+        - '- Section: 11.2 Genetic Testing and Diagnosis:':
+            subsections:
+            - 11.2a Techniques in Genetic Testing
+            - 11.2b Ethical Considerations in Genetic Testing
+            - 11.2c Future of Genetic Testing in Neurology
+        - '- Section: 11.3 Genetic Therapies in Neurology:':
+            subsections:
+            - 11.3a Gene Therapy Techniques
+            - 11.3b Successes and Challenges in Gene Therapy
+            - 11.3c Future of Gene Therapy in Neurology
+    - '- Chapter 12: Neurogenetics and Behavior:':
+        sections:
+        - '- Section: 12.1 Genetic Basis of Behavior:':
+            subsections:
+            - 12.1a Genes and Behavior
+            - 12.1b Behavioral Genetics in Animal Models
+            - 12.1c Behavioral Genetics in Humans
+        - '- Section: 12.2 Genetic Testing and Behavior:':
+            subsections:
+            - 12.2a Genetic Testing for Behavioral Traits
+            - 12.2b Ethical Considerations in Behavioral Genetics
+            - 12.2c Future of Behavioral Genetics
+        - '- Section: 12.3 Genetic Manipulation and Behavior:':
+            subsections:
+            - 12.3a Genetic Manipulation Techniques in Behavioral Studies
+            - 12.3b Successes and Challenges in Behavioral Genetics
+            - 12.3c Future of Genetic Manipulation in Behavioral Studies
+    - '- Chapter 13: Neurogenetics and Aging:':
+        sections:
+        - '- Section: 13.1 Genetic Basis of Aging:':
+            subsections:
+            - 13.1a Genes and Aging
+            - 13.1b Genetic Disorders Affecting Aging
+            - 13.1c Genetic Manipulation of Aging
+        - '- Section: 13.2 Genetic Testing and Aging:':
+            subsections:
+            - 13.2a Genetic Testing for Aging-Related Traits
+            - 13.2b Ethical Considerations in Aging Genetics
+            - 13.2c Future of Aging Genetics
+        - '- Section: 13.3 Genetic Therapies and Aging:':
+            subsections:
+            - 13.3a Genetic Therapy Techniques in Aging Studies
+            - 13.3b Successes and Challenges in Aging Genetics
+            - 13.3c Future of Genetic Therapies in Aging
+    - '- Chapter 14: Neurogenetics and Memory:':
+        sections:
+        - '- Section: 14.1 Genetic Basis of Memory:':
+            subsections:
+            - 14.1a Genes and Memory
+            - 14.1b Genetic Disorders Affecting Memory
+            - 14.1c Genetic Manipulation of Memory
+        - '- Section: 14.2 Genetic Testing and Memory:':
+            subsections:
+            - 14.2a Genetic Testing for Memory-Related Traits
+            - 14.2b Ethical Considerations in Memory Genetics
+            - 14.2c Future of Memory Genetics
+        - '- Section: 14.3 Genetic Therapies and Memory:':
+            subsections:
+            - 14.3a Genetic Therapy Techniques in Memory Studies
+            - 14.3b Successes and Challenges in Memory Genetics
+            - 14.3c Future of Genetic Therapies in Memory
+    - '- Chapter 15: Neurogenetics and Sleep:':
+        sections:
+        - '- Section: 15.1 Genetic Basis of Sleep:':
+            subsections:
+            - 15.1a Genes and Sleep
+            - 15.1b Genetic Disorders Affecting Sleep
+            - 15.1c Genetic Manipulation of Sleep
+        - '- Section: 15.2 Genetic Testing and Sleep:':
+            subsections:
+            - 15.2a Genetic Testing for Sleep-Related Traits
+            - 15.2b Ethical Considerations in Sleep Genetics
+            - 15.2c Future of Sleep Genetics
+        - '- Section: 15.3 Genetic Therapies and Sleep:':
+            subsections:
+            - 15.3a Genetic Therapy Techniques in Sleep Studies
+            - 15.3b Successes and Challenges in Sleep Genetics
+            - 15.3c Future of Genetic Therapies in Sleep
+    - '- Chapter 16: Neurogenetics and Sensation:':
+        sections:
+        - '- Section: 16.1 Genetic Basis of Sensation:':
+            subsections:
+            - 16.1a Genes and Sensation
+            - 16.1b Genetic Disorders Affecting Sensation
+            - 16.1c Genetic Manipulation of Sensation
+        - '- Section: 16.2 Genetic Testing and Sensation:':
+            subsections:
+            - 16.2a Genetic Testing for Sensation-Related Traits
+            - 16.2b Ethical Considerations in Sensation Genetics
+            - 16.2c Future of Sensation Genetics
+        - '- Section: 16.3 Genetic Therapies and Sensation:':
+            subsections:
+            - 16.3a Genetic Therapy Techniques in Sensation Studies
+            - 16.3b Successes and Challenges in Sensation Genetics
+            - 16.3c Future of Genetic Therapies in Sensation
+    - '- Chapter 17: Neurogenetics and Emotion:':
+        sections:
+        - '- Section: 17.1 Genetic Basis of Emotion:':
+            subsections:
+            - 17.1a Genes and Emotion
+            - 17.1b Genetic Disorders Affecting Emotion
+            - 17.1c Genetic Manipulation of Emotion
+        - '- Section: 17.2 Genetic Testing and Emotion:':
+            subsections:
+            - 17.2a Genetic Testing for Emotion-Related Traits
+            - 17.2b Ethical Considerations in Emotion Genetics
+            - 17.2c Future of Emotion Genetics
+        - '- Section: 17.3 Genetic Therapies and Emotion:':
+            subsections:
+            - 17.3a Genetic Therapy Techniques in Emotion Studies
+            - 17.3b Successes and Challenges in Emotion Genetics
+            - 17.3c Future of Genetic Therapies in Emotion
+    - '- Chapter 18: Neurogenetics and Intelligence:':
+        sections:
+        - '- Section: 18.1 Genetic Basis of Intelligence:':
+            subsections:
+            - 18.1a Genes and Intelligence
+            - 18.1b Genetic Disorders Affecting Intelligence
+            - 18.1c Genetic Manipulation of Intelligence
+        - '- Section: 18.2 Genetic Testing and Intelligence:':
+            subsections:
+            - 18.2a Genetic Testing for Intelligence-Related Traits
+            - 18.2b Ethical Considerations in Intelligence Genetics
+            - 18.2c Future of Intelligence Genetics
+        - '- Section: 18.3 Genetic Therapies and Intelligence:':
+            subsections:
+            - 18.3a Genetic Therapy Techniques in Intelligence Studies
+            - 18.3b Successes and Challenges in Intelligence Genetics
+            - 18.3c Future of Genetic Therapies in Intelligence
+    - '- Chapter 19: Neurogenetics and Addiction:':
+        sections:
+        - '- Section: 19.1 Genetic Basis of Addiction:':
+            subsections:
+            - 19.1a Genes and Addiction
+            - 19.1b Genetic Disorders Affecting Addiction
+            - 19.1c Genetic Manipulation of Addiction
+        - '- Section: 19.2 Genetic Testing and Addiction:':
+            subsections:
+            - 19.2a Genetic Testing for Addiction-Related Traits
+            - 19.2b Ethical Considerations in Addiction Genetics
+            - 19.2c Future of Addiction Genetics
+        - '- Section: 19.3 Genetic Therapies and Addiction:':
+            subsections:
+            - 19.3a Genetic Therapy Techniques in Addiction Studies
+            - 19.3b Successes and Challenges in Addiction Genetics
+            - 19.3c Future of Genetic Therapies in Addiction
+    - '- Chapter 20: Neurogenetics and Personality:':
+        sections:
+        - '- Section: 20.1 Genetic Basis of Personality:':
+            subsections:
+            - 20.1a Genes and Personality
+            - 20.1b Genetic Disorders Affecting Personality
+            - 20.1c Genetic Manipulation of Personality
+        - '- Section: 20.2 Genetic Testing and Personality:':
+            subsections:
+            - 20.2a Genetic Testing for Personality-Related Traits
+            - 20.2b Ethical Considerations in Personality Genetics
+            - 20.2c Future of Personality Genetics
+        - '- Section: 20.3 Genetic Therapies and Personality:':
+            subsections:
+            - 20.3a Genetic Therapy Techniques in Personality Studies
+            - 20.3b Successes and Challenges in Personality Genetics
+            - 20.3c Future of Genetic Therapies in Personality

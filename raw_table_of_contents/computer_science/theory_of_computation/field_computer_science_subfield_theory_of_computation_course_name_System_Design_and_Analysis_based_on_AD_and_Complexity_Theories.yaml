@@ -1,0 +1,295 @@
+textbook:
+  'System Design and Analysis: A Comprehensive Guide based on AD and Complexity Theories":':
+    chapters:
+    - '- Chapter 1: Introduction to Axiomatic Design:':
+        sections:
+        - '- Section: 1.1 Understanding the Principles of Axiomatic Design:':
+            subsections:
+            - '1.1a Information Content and Robustness: Key Principles in Axiomatic
+              Design'
+            - '1.1b Multi-FR Design: Designing Systems with Multiple Functional Requirements'
+        - '- Section: 1.2 Importance of Information Content in System Design:':
+            subsections:
+            - '1.2a Information Content in System Design: An Overview'
+            - 1.2b Role of Information Content in Decision Making
+        - '- Section: 1.3 Ensuring Robustness in System Design:':
+            subsections:
+            - 1.3a Principles of Robustness in System Design
+            - 1.3b Techniques for Ensuring Robustness
+        - '- Section: 1.4 Designing Multi-Functional Requirements:':
+            subsections:
+            - 1.4a Understanding Multi-Functional Requirements
+            - 1.4b Strategies for Designing Multi-Functional Requirements
+    - '- Chapter 2: Design of Systems:':
+        sections:
+        - '- Section: 2.1 Guest Lecture: Insights from Industry Experts:':
+            subsections:
+            - 2.1a Key Insights from Industry Experts
+            - 2.1b Applying Industry Insights in System Design
+        - '- Section: 2.2 Applying Axiomatic Design Principles to System Design:':
+            subsections:
+            - '2.2a Axiomatic Design Principles: An Overview'
+            - 2.2b Practical Application of Axiomatic Design Principles
+    - '- Chapter 3: Design of Manufacturing Systems:':
+        sections:
+        - '- Section: 3.1 Axiomatic Design of Manufacturing Systems:':
+            subsections:
+            - '3.1a Axiomatic Design of Manufacturing Systems: Applying AD Principles
+              to Manufacturing'
+            - '3.1b Case Studies: Axiomatic Design in Manufacturing'
+        - '- Section: 3.2 Complexity I: Understanding the Nature of Complexity in Manufacturing:':
+            subsections:
+            - '3.2a Complexity in Manufacturing: An Introduction'
+            - 3.2b Techniques for Managing Complexity in Manufacturing
+        - '- Section: 3.3 Complexity II: Advanced Concepts in Complexity Theory:':
+            subsections:
+            - 3.3a Advanced Concepts in Complexity Theory for Manufacturing Systems
+            - '3.3b Case Studies: Managing Complexity in Advanced Manufacturing Systems'
+        - '- Section: 3.4 Case Studies: Applying Axiomatic Design to Real-World Manufacturing Systems:':
+            subsections:
+            - '3.4a Case Study 1: Axiomatic Design in Automotive Manufacturing'
+            - '3.4b Case Study 2: Axiomatic Design in Electronics Manufacturing'
+    - '- Chapter 4: Reduction of Complexity:':
+        sections:
+        - '- Section: 4.1 Reduction of Complexity with Geometric Functional Periodicity:':
+            subsections:
+            - '4.1a Geometric Functional Periodicity: An Introduction'
+            - '4.1b Reduction of Complexity with Geometric Functional Periodicity:
+              Techniques and Case Studies'
+        - '- Section: 4.2 Reduction of Complexity in Materials through Functional Periodicity:':
+            subsections:
+            - '4.2a Functional Periodicity in Materials: An Overview'
+            - '4.2b Reduction of Complexity in Materials through Functional Periodicity:
+              Applications and Examples'
+        - '- Section: 4.3 Case Studies: Practical Applications of Complexity Reduction:':
+            subsections:
+            - '4.3a Case Study 1: Complexity Reduction in Automotive Manufacturing'
+            - '4.3b Case Study 2: Complexity Reduction in Electronics Manufacturing'
+    - '- Chapter 5: Complexity of Socio-Economic Political Systems:':
+        sections:
+        - '- Section: 5.1 Understanding the Complexity of Socio-Economic Political Systems:':
+            subsections:
+            - '5.1a Socio-Economic Political Systems: An Overview'
+            - '5.1b Complexity in Socio-Economic Political Systems: Key Concepts'
+        - '- Section: 5.2 Application of Functional Periodicity in Socio-Economic Political Systems:':
+            subsections:
+            - '5.2a Functional Periodicity in Socio-Economic Political Systems: An
+              Introduction'
+            - '5.2b Case Studies: Applying Functional Periodicity in Socio-Economic
+              Political Systems'
+        - '- Section: 5.3 Case Studies: Analyzing Complex Systems in the Socio-Economic Political Context:':
+            subsections:
+            - '5.3a Case Study 1: Complexity Analysis of a National Economy'
+            - '5.3b Case Study 2: Complexity Analysis of a Political System'
+    - '- Chapter 6: Cost Engineering in Axiomatic Design:':
+        sections:
+        - '- Section: 6.1 Understanding the Role of Cost Engineering in Axiomatic Design:':
+            subsections:
+            - '6.1a Cost Engineering: An Overview'
+            - 6.1b Role of Cost Engineering in Axiomatic Design
+        - '- Section: 6.2 Cost Analysis Techniques in System Design:':
+            subsections:
+            - '6.2a Cost Analysis Techniques: An Introduction'
+            - 6.2b Applying Cost Analysis Techniques in System Design
+        - '- Section: 6.3 Exam 2: Assessing Cost Engineering Skills:':
+            subsections:
+            - '6.3a Exam 2: Assessing Cost Engineering Skills through a Comprehensive
+              Examination'
+            - 6.3b Review and Preparation for Exam 2
+    - '- Chapter 7: Project Presentations:':
+        sections:
+        - '- Section: 7.1 Preparing for Project Presentations:':
+            subsections:
+            - 7.1a Strategies for Effective Project Presentation Preparation
+            - 7.1b Tools and Techniques for Project Presentation
+        - '- Section: 7.2 Strategies for Effective Communication in Project Presentations:':
+            subsections:
+            - 7.2a Effective Communication Strategies for Project Presentations
+            - '7.2b Case Studies: Effective Project Presentations'
+        - '- Section: 7.3 Showcasing the Application of Axiomatic Design in Real-World Projects:':
+            subsections:
+            - '7.3a Project Presentations: Showcasing the Application of Axiomatic
+              Design in Real-World Projects'
+            - 7.3b Review and Feedback on Project Presentations
+    - '- Chapter 8: Advanced Topics in Axiomatic Design:':
+        sections:
+        - '- Section: 8.1 Advanced Axiomatic Design Principles:':
+            subsections:
+            - 8.1a Advanced Principles in Axiomatic Design
+            - '8.1b Case Studies: Advanced Axiomatic Design Applications'
+        - '- Section: 8.2 Axiomatic Design and Innovation:':
+            subsections:
+            - 8.2a Role of Axiomatic Design in Innovation
+            - '8.2b Case Studies: Axiomatic Design and Innovative Solutions'
+        - '- Section: 8.3 Axiomatic Design and Sustainability:':
+            subsections:
+            - 8.3a Axiomatic Design for Sustainable Solutions
+            - '8.3b Case Studies: Axiomatic Design and Sustainability'
+    - '- Chapter 9: Axiomatic Design and Industry 4.0:':
+        sections:
+        - '- Section: 9.1 Axiomatic Design in the Context of Industry 4.0:':
+            subsections:
+            - 9.1a Understanding Industry 4.0
+            - 9.1b Role of Axiomatic Design in Industry 4.0
+        - '- Section: 9.2 Axiomatic Design and Smart Manufacturing:':
+            subsections:
+            - '9.2a Smart Manufacturing: An Overview'
+            - 9.2b Axiomatic Design for Smart Manufacturing
+        - '- Section: 9.3 Axiomatic Design and Digital Transformation:':
+            subsections:
+            - '9.3a Digital Transformation: An Overview'
+            - 9.3b Role of Axiomatic Design in Digital Transformation
+    - '- Chapter 10: Axiomatic Design and Lean Manufacturing:':
+        sections:
+        - '- Section: 10.1 Axiomatic Design and Lean Principles:':
+            subsections:
+            - '10.1a Lean Manufacturing: An Overview'
+            - 10.1b Axiomatic Design for Lean Manufacturing
+        - '- Section: 10.2 Axiomatic Design and Six Sigma:':
+            subsections:
+            - '10.2a Six Sigma: An Overview'
+            - 10.2b Axiomatic Design for Six Sigma
+        - '- Section: 10.3 Axiomatic Design and Continuous Improvement:':
+            subsections:
+            - '10.3a Continuous Improvement: An Overview'
+            - 10.3b Axiomatic Design for Continuous Improvement
+    - '- Chapter 11: Axiomatic Design and Agile Methodologies:':
+        sections:
+        - '- Section: 11.1 Axiomatic Design and Agile Principles:':
+            subsections:
+            - '11.1a Agile Methodologies: An Overview'
+            - 11.1b Axiomatic Design for Agile Methodologies
+        - '- Section: 11.2 Axiomatic Design and Scrum:':
+            subsections:
+            - '11.2a Scrum: An Overview'
+            - 11.2b Axiomatic Design for Scrum
+        - '- Section: 11.3 Axiomatic Design and Kanban:':
+            subsections:
+            - '11.3a Kanban: An Overview'
+            - 11.3b Axiomatic Design for Kanban
+    - '- Chapter 12: Axiomatic Design and Project Management:':
+        sections:
+        - '- Section: 12.1 Axiomatic Design and Project Management Principles:':
+            subsections:
+            - '12.1a Project Management: An Overview'
+            - 12.1b Axiomatic Design for Project Management
+        - '- Section: 12.2 Axiomatic Design and Risk Management:':
+            subsections:
+            - '12.2a Risk Management: An Overview'
+            - 12.2b Axiomatic Design for Risk Management
+        - '- Section: 12.3 Axiomatic Design and Quality Management:':
+            subsections:
+            - '12.3a Quality Management: An Overview'
+            - 12.3b Axiomatic Design for Quality Management
+    - '- Chapter 13: Axiomatic Design and Supply Chain Management:':
+        sections:
+        - '- Section: 13.1 Axiomatic Design and Supply Chain Principles:':
+            subsections:
+            - '13.1a Supply Chain Management: An Overview'
+            - 13.1b Axiomatic Design for Supply Chain Management
+        - '- Section: 13.2 Axiomatic Design and Logistics:':
+            subsections:
+            - '13.2a Logistics: An Overview'
+            - 13.2b Axiomatic Design for Logistics
+        - '- Section: 13.3 Axiomatic Design and Inventory Management:':
+            subsections:
+            - '13.3a Inventory Management: An Overview'
+            - 13.3b Axiomatic Design for Inventory Management
+    - '- Chapter 14: Axiomatic Design and Service Design:':
+        sections:
+        - '- Section: 14.1 Axiomatic Design and Service Design Principles:':
+            subsections:
+            - '14.1a Service Design: An Overview'
+            - 14.1b Axiomatic Design for Service Design
+        - '- Section: 14.2 Axiomatic Design and Customer Experience:':
+            subsections:
+            - '14.2a Customer Experience: An Overview'
+            - 14.2b Axiomatic Design for Customer Experience
+        - '- Section: 14.3 Axiomatic Design and Service Blueprinting:':
+            subsections:
+            - '14.3a Service Blueprinting: An Overview'
+            - 14.3b Axiomatic Design for Service Blueprinting
+    - '- Chapter 15: Axiomatic Design and Product Design:':
+        sections:
+        - '- Section: 15.1 Axiomatic Design and Product Design Principles:':
+            subsections:
+            - '15.1a Product Design: An Overview'
+            - 15.1b Axiomatic Design for Product Design
+        - '- Section: 15.2 Axiomatic Design and User-Centered Design:':
+            subsections:
+            - '15.2a User-Centered Design: An Overview'
+            - 15.2b Axiomatic Design for User-Centered Design
+        - '- Section: 15.3 Axiomatic Design and Design Thinking:':
+            subsections:
+            - '15.3a Design Thinking: An Overview'
+            - 15.3b Axiomatic Design for Design Thinking
+    - '- Chapter 16: Axiomatic Design and Systems Engineering:':
+        sections:
+        - '- Section: 16.1 Axiomatic Design and Systems Engineering Principles:':
+            subsections:
+            - '16.1a Systems Engineering: An Overview'
+            - 16.1b Axiomatic Design for Systems Engineering
+        - '- Section: 16.2 Axiomatic Design and Systems Thinking:':
+            subsections:
+            - '16.2a Systems Thinking: An Overview'
+            - 16.2b Axiomatic Design for Systems Thinking
+        - '- Section: 16.3 Axiomatic Design and Systems Modeling:':
+            subsections:
+            - '16.3a Systems Modeling: An Overview'
+            - 16.3b Axiomatic Design for Systems Modeling
+    - '- Chapter 17: Axiomatic Design and Software Engineering:':
+        sections:
+        - '- Section: 17.1 Axiomatic Design and Software Engineering Principles:':
+            subsections:
+            - '17.1a Software Engineering: An Overview'
+            - 17.1b Axiomatic Design for Software Engineering
+        - '- Section: 17.2 Axiomatic Design and Software Development Life Cycle:':
+            subsections:
+            - '17.2a Software Development Life Cycle: An Overview'
+            - 17.2b Axiomatic Design for Software Development Life Cycle
+        - '- Section: 17.3 Axiomatic Design and Software Testing:':
+            subsections:
+            - '17.3a Software Testing: An Overview'
+            - 17.3b Axiomatic Design for Software Testing
+    - '- Chapter 18: Axiomatic Design and Data Science:':
+        sections:
+        - '- Section: 18.1 Axiomatic Design and Data Science Principles:':
+            subsections:
+            - '18.1a Data Science: An Overview'
+            - 18.1b Axiomatic Design for Data Science
+        - '- Section: 18.2 Axiomatic Design and Machine Learning:':
+            subsections:
+            - '18.2a Machine Learning: An Overview'
+            - 18.2b Axiomatic Design for Machine Learning
+        - '- Section: 18.3 Axiomatic Design and Big Data:':
+            subsections:
+            - '18.3a Big Data: An Overview'
+            - 18.3b Axiomatic Design for Big Data
+    - '- Chapter 19: Axiomatic Design and Artificial Intelligence:':
+        sections:
+        - '- Section: 19.1 Axiomatic Design and Artificial Intelligence Principles:':
+            subsections:
+            - '19.1a Artificial Intelligence: An Overview'
+            - 19.1b Axiomatic Design for Artificial Intelligence
+        - '- Section: 19.2 Axiomatic Design and Neural Networks:':
+            subsections:
+            - '19.2a Neural Networks: An Overview'
+            - 19.2b Axiomatic Design for Neural Networks
+        - '- Section: 19.3 Axiomatic Design and Deep Learning:':
+            subsections:
+            - '19.3a Deep Learning: An Overview'
+            - 19.3b Axiomatic Design for Deep Learning
+    - '- Chapter 20: Axiomatic Design and Future Trends:':
+        sections:
+        - '- Section: 20.1 Axiomatic Design and Future Trends in Manufacturing:':
+            subsections:
+            - '20.1a Future Trends in Manufacturing: An Overview'
+            - 20.1b Axiomatic Design for Future Trends in Manufacturing
+        - '- Section: 20.2 Axiomatic Design and Future Trends in Service Design:':
+            subsections:
+            - '20.2a Future Trends in Service Design: An Overview'
+            - 20.2b Axiomatic Design for Future Trends in Service Design
+        - '- Section: 20.3 Axiomatic Design and Future Trends in Systems Engineering:':
+            subsections:
+            - '20.3a Future Trends in Systems Engineering: An Overview'
+            - 20.3b Axiomatic Design for Future Trends in Systems Engineering

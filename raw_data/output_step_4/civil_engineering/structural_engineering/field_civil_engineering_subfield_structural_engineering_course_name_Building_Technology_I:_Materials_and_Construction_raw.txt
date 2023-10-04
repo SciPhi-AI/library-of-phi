@@ -1,0 +1,609 @@
+textbook: 
+"Building Technology I: Materials and Construction":
+
+chapters:
+- Chapter 1: Course Introduction:
+sections:
+- Section: 1.1 Course Overview:
+subsections:
+- 1.1a Introduction to the Course
+- 1.1b Course Structure
+- 1.1c Course Materials
+
+- Section: 1.2 Learning Objectives:
+subsections:
+- 1.2a Course Goals
+- 1.2b Learning Outcomes
+- 1.2c Assessment Criteria
+
+- Section: 1.3 Grading Criteria:
+subsections:
+- 1.3a Assessment Methods
+- 1.3b Grading Scale
+- 1.3c Feedback and Evaluation
+
+- Chapter 2: Foundations:
+sections:
+- Section: 2.1 Types of Foundations:
+subsections:
+- 2.1a Shallow Foundations
+- 2.1b Deep Foundations
+- 2.1c Special Foundations
+
+- Section: 2.2 Foundation Design Principles:
+subsections:
+- 2.2a Load Distribution
+- 2.2b Soil Mechanics
+- 2.2c Safety Factors
+
+- Section: 2.3 Foundation Diagrams:
+subsections:
+- 2.3a Foundation Plans
+- 2.3b Section Drawings
+- 2.3c Detail Drawings
+
+- Section: 2.4 Foundation Materials and Construction Techniques:
+subsections:
+- 2.4a Concrete Foundations
+- 2.4b Masonry Foundations
+- 2.4c Timber Foundations
+
+- Section: 2.5 Foundation Insulation and Waterproofing:
+subsections:
+- 2.5a Insulation Materials
+- 2.5b Waterproofing Techniques
+- 2.5c Drainage Systems
+
+- Chapter 3: Sustainable Design:
+sections:
+- Section: 3.1 Introduction to Sustainability:
+subsections:
+- 3.1a Definition of Sustainability
+- 3.1b Principles of Sustainable Design
+- 3.1c Sustainability in Building Design
+
+- Section: 3.2 Environmental Impact of Buildings:
+subsections:
+- 3.2a Energy Consumption
+- 3.2b Material Use
+- 3.2c Waste Generation
+
+- Section: 3.3 Sustainable Design Issues:
+subsections:
+- 3.3a Site Selection and Design
+- 3.3b Energy Efficiency
+- 3.3c Material Selection
+
+- Section: 3.4 Energy-Efficient Building Design:
+subsections:
+- 3.4a Passive Design Strategies
+- 3.4b Active Design Strategies
+- 3.4c Building Systems and Controls
+
+- Section: 3.5 Green Building Certification Systems:
+subsections:
+- 3.5a LEED Certification
+- 3.5b BREEAM Certification
+- 3.5c Passive House Certification
+
+- Chapter 4: Architecture Structures:
+sections:
+- Section: 4.1 Structural Systems:
+subsections:
+- 4.1a Load-Bearing Systems
+- 4.1b Frame Systems
+- 4.1c Shell Systems
+
+- Section: 4.2 Load-bearing Walls:
+subsections:
+- 4.2a Wall Materials
+- 4.2b Wall Construction Techniques
+- 4.2c Wall Finishes
+
+- Section: 4.3 Structural Analysis:
+subsections:
+- 4.3a Load Calculations
+- 4.3b Structural Modeling
+- 4.3c Structural Design Software
+
+- Section: 4.4 Structural Design Principles:
+subsections:
+- 4.4a Safety and Serviceability
+- 4.4b Load Paths
+- 4.4c Structural Efficiency
+
+- Section: 4.5 Structural Materials and Construction Techniques:
+subsections:
+- 4.5a Concrete Construction
+- 4.5b Steel Construction
+- 4.5c Timber Construction
+
+- Chapter 5: Wood:
+sections:
+- Section: 5.1 Properties of Wood:
+subsections:
+- 5.1a Wood Species
+- 5.1b Wood Grading
+- 5.1c Wood Moisture Content
+
+- Section: 5.2 Wood Framing Systems:
+subsections:
+- 5.2a Post and Beam Framing
+- 5.2b Balloon Framing
+- 5.2c Platform Framing
+
+- Section: 5.3 Wood Construction Techniques:
+subsections:
+- 5.3a Wood Joinery
+- 5.3b Wood Fasteners
+- 5.3c Wood Adhesives
+
+- Section: 5.4 Wood Preservation and Termite Protection:
+subsections:
+- 5.4a Wood Preservatives
+- 5.4b Termite Protection Methods
+- 5.4c Wood Durability and Maintenance
+
+- Section: 5.5 Wood Joinery Techniques:
+subsections:
+- 5.5a Traditional Joinery
+- 5.5b Modern Joinery
+- 5.5c Joinery for Engineered Wood Products
+
+- Section: 5.6 Wood Finishes and Treatments:
+subsections:
+- 5.6a Wood Stains and Paints
+- 5.6b Wood Sealers and Varnishes
+- 5.6c Fire-Retardant Treatments
+
+- Chapter 6: Active Statics:
+sections:
+- Section: 6.1 Forces and Equilibrium:
+subsections:
+- 6.1a Force Vectors
+- 6.1b Moments and Couples
+- 6.1c Equilibrium Conditions
+
+- Section: 6.2 Trusses and Frames:
+subsections:
+- 6.2a Truss Analysis
+- 6.2b Frame Analysis
+- 6.2c Truss and Frame Design
+
+- Section: 6.3 Structural Stability:
+subsections:
+- 6.3a Buckling and Slenderness
+- 6.3b Lateral Stability
+- 6.3c Structural Bracing
+
+- Section: 6.4 Structural Load Calculation:
+subsections:
+- 6.4a Dead Loads
+- 6.4b Live Loads
+- 6.4c Environmental Loads
+
+- Section: 6.5 Structural Load Testing and Performance Evaluation:
+subsections:
+- 6.5a Load Testing Methods
+- 6.5b Structural Performance Criteria
+- 6.5c Structural Inspection and Maintenance
+
+- Chapter 7: Exterior Envelopes:
+sections:
+- Section: 7.1 Building Envelope Systems:
+subsections:
+- 7.1a Wall Systems
+- 7.1b Roof Systems
+- 7.1c Fenestration Systems
+
+- Section: 7.2 Roofing and Waterproofing:
+subsections:
+- 7.2a Roofing Materials
+- 7.2b Roofing Construction Techniques
+- 7.2c Roof Waterproofing and Drainage
+
+- Section: 7.3 Insulation and Ventilation:
+subsections:
+- 7.3a Insulation Materials
+- 7.3b Insulation Installation Techniques
+- 7.3c Building Ventilation Systems
+
+- Section: 7.4 Exterior Wall Systems:
+subsections:
+- 7.4a Masonry Wall Systems
+- 7.4b Wood Wall Systems
+- 7.4c Metal Wall Systems
+
+- Section: 7.5 Window and Door Installation:
+subsections:
+- 7.5a Window Types and Materials
+- 7.5b Door Types and Materials
+- 7.5c Installation Techniques
+
+- Section: 7.6 Exterior Finishes and Cladding:
+subsections:
+- 7.6a Masonry Finishes
+- 7.6b Wood Finishes
+- 7.6c Metal Finishes
+
+- Chapter 8: Window Technologies:
+sections:
+- Section: 8.1 Window Types and Materials:
+subsections:
+- 8.1a Window Frames
+- 8.1b Window Glazing
+- 8.1c Window Hardware
+
+- Section: 8.2 Glazing Systems:
+subsections:
+- 8.2a Single Glazing
+- 8.2b Double Glazing
+- 8.2c Triple Glazing
+
+- Section: 8.3 Energy Efficiency:
+subsections:
+- 8.3a Window Energy Ratings
+- 8.3b Window Thermal Performance
+- 8.3c Window Solar Heat Gain
+
+- Section: 8.4 Window Installation and Sealing:
+subsections:
+- 8.4a Window Installation Methods
+- 8.4b Window Sealing Techniques
+- 8.4c Window Flashing
+
+- Section: 8.5 Window Maintenance and Repair:
+subsections:
+- 8.5a Window Cleaning
+- 8.5b Window Repair
+- 8.5c Window Replacement
+
+- Chapter 9: Masonry:
+sections:
+- Section: 9.1 Masonry Materials:
+subsections:
+- 9.1a Brick
+- 9.1b Concrete Block
+- 9.1c Stone
+
+- Section: 9.2 Brickwork and Blockwork:
+subsections:
+- 9.2a Brick Laying Techniques
+- 9.2b Block Laying Techniques
+- 9.2c Masonry Reinforcement
+
+- Section: 9.3 Mortar and Jointing Techniques:
+subsections:
+- 9.3a Mortar Mix Design
+- 9.3b Mortar Application Techniques
+- 9.3c Masonry Joint Types
+
+- Section: 9.4 Masonry Construction Techniques:
+subsections:
+- 9.4a Masonry Wall Construction
+- 9.4b Masonry Arch Construction
+- 9.4c Masonry Chimney Construction
+
+- Section: 9.5 Masonry Inspection and Maintenance:
+subsections:
+- 9.5a Masonry Inspection
+- 9.5b Masonry Cleaning
+- 9.5c Masonry Repair
+
+- Chapter 10: Metals:
+sections:
+- Section: 10.1 Metal Properties:
+subsections:
+- 10.1a Steel Properties
+- 10.1b Aluminum Properties
+- 10.1c Copper Properties
+
+- Section: 10.2 Steel Structures:
+subsections:
+- 10.2a Steel Framing Systems
+- 10.2b Steel Connection Types
+- 10.2c Steel Construction Techniques
+
+- Section: 10.3 Metal Fabrication Methods:
+subsections:
+- 10.3a Metal Cutting
+- 10.3b Metal Forming
+- 10.3c Metal Joining
+
+- Section: 10.4 Metal Construction Techniques:
+subsections:
+- 10.4a Metal Framing
+- 10.4b Metal Cladding
+- 10.4c Metal Roofing
+
+- Section: 10.5 Metal Finishes and Coatings:
+subsections:
+- 10.5a Paint Finishes
+- 10.5b Galvanizing
+- 10.5c Powder Coating
+
+- Chapter 11: Concrete:
+sections:
+- Section: 11.1 Concrete Mix Design:
+subsections:
+- 11.1a Concrete Ingredients
+- 11.1b Concrete Mix Proportions
+- 11.1c Concrete Admixtures
+
+- Section: 11.2 Reinforced Concrete:
+subsections:
+- 11.2a Reinforcing Steel
+- 11.2b Reinforced Concrete Design
+- 11.2c Reinforced Concrete Construction
+
+- Section: 11.3 Concrete Construction Techniques:
+subsections:
+- 11.3a Concrete Formwork
+- 11.3b Concrete Placement
+- 11.3c Concrete Curing
+
+- Section: 11.4 Concrete Testing and Quality Control:
+subsections:
+- 11.4a Concrete Sampling
+- 11.4b Concrete Strength Testing
+- 11.4c Concrete Non-Destructive Testing
+
+- Section: 11.5 Concrete Repair and Rehabilitation:
+subsections:
+- 11.5a Concrete Damage Assessment
+- 11.5b Concrete Repair Techniques
+- 11.5c Concrete Rehabilitation Strategies
+
+- Chapter 12: Building Codes and Regulations:
+sections:
+- Section: 12.1 Introduction to Building Codes:
+subsections:
+- 12.1a Purpose of Building Codes
+- 12.1b Building Code Structure
+- 12.1c Building Code Enforcement
+
+- Section: 12.2 Building Permit Process:
+subsections:
+- 12.2a Permit Application
+- 12.2b Plan Review
+- 12.2c Inspections and Certificate of Occupancy
+
+- Section: 12.3 Accessibility Requirements:
+subsections:
+- 12.3a Accessibility Standards
+- 12.3b Accessible Design Features
+- 12.3c Accessibility Compliance
+
+- Section: 12.4 Fire Safety Requirements:
+subsections:
+- 12.4a Fire Resistance Ratings
+- 12.4b Fire Suppression Systems
+- 12.4c Fire Safety Plan
+
+- Section: 12.5 Energy Code Requirements:
+subsections:
+- 12.5a Energy Efficiency Standards
+- 12.5b Energy Modeling
+- 12.5c Energy Code Compliance
+
+- Chapter 13: Building Services:
+sections:
+- Section: 13.1 Mechanical Systems:
+subsections:
+- 13.1a Heating Systems
+- 13.1b Cooling Systems
+- 13.1c Ventilation Systems
+
+- Section: 13.2 Electrical Systems:
+subsections:
+- 13.2a Electrical Service
+- 13.2b Electrical Distribution
+- 13.2c Lighting Systems
+
+- Section: 13.3 Plumbing Systems:
+subsections:
+- 13.3a Water Supply
+- 13.3b Drainage Systems
+- 13.3c Plumbing Fixtures
+
+- Section: 13.4 Fire Protection Systems:
+subsections:
+- 13.4a Fire Alarm Systems
+- 13.4b Fire Sprinkler Systems
+- 13.4c Emergency Lighting and Exit Signs
+
+- Section: 13.5 Building Control Systems:
+subsections:
+- 13.5a Building Automation Systems
+- 13.5b Energy Management Systems
+- 13.5c Security Systems
+
+- Chapter 14: Building Acoustics:
+sections:
+- Section: 14.1 Sound and Noise:
+subsections:
+- 14.1a Sound Properties
+- 14.1b Noise Sources
+- 14.1c Noise Measurement
+
+- Section: 14.2 Room Acoustics:
+subsections:
+- 14.2a Sound Reflection and Absorption
+- 14.2b Room Modes and Reverberation
+- 14.2c Acoustic Design Strategies
+
+- Section: 14.3 Sound Isolation:
+subsections:
+- 14.3a Sound Transmission Class
+- 14.3b Impact Insulation Class
+- 14.3c Sound Isolation Construction Techniques
+
+- Section: 14.4 Acoustic Materials:
+subsections:
+- 14.4a Absorptive Materials
+- 14.4b Reflective Materials
+- 14.4c Damping Materials
+
+- Section: 14.5 HVAC Noise Control:
+subsections:
+- 14.5a HVAC Noise Sources
+- 14.5b Duct Silencers
+- 14.5c Vibration Isolation
+
+- Chapter 15: Building Lighting:
+sections:
+- Section: 15.1 Lighting Basics:
+subsections:
+- 15.1a Light Properties
+- 15.1b Light Sources
+- 15.1c Lighting Metrics
+
+- Section: 15.2 Lighting Design:
+subsections:
+- 15.2a Lighting Design Process
+- 15.2b Lighting Design Criteria
+- 15.2c Lighting Design Software
+
+- Section: 15.3 Interior Lighting:
+subsections:
+- 15.3a Ambient Lighting
+- 15.3b Task Lighting
+- 15.3c Accent Lighting
+
+- Section: 15.4 Exterior Lighting:
+subsections:
+- 15.4a Building Exterior Lighting
+- 15.4b Site Lighting
+- 15.4c Security Lighting
+
+- Section: 15.5 Lighting Controls:
+subsections:
+- 15.5a Switches and Dimmers
+- 15.5b Occupancy Sensors
+- 15.5c Daylight Harvesting
+
+- Chapter 16: Building Thermal Comfort:
+sections:
+- Section: 16.1 Thermal Comfort Basics:
+subsections:
+- 16.1a Human Thermal Comfort
+- 16.1b Thermal Comfort Factors
+- 16.1c Thermal Comfort Measurement
+
+- Section: 16.2 Indoor Air Quality:
+subsections:
+- 16.2a Indoor Air Pollutants
+- 16.2b Ventilation Requirements
+- 16.2c Indoor Air Quality Assessment
+
+- Section: 16.3 HVAC Systems:
+subsections:
+- 16.3a HVAC System Types
+- 16.3b HVAC System Components
+- 16.3c HVAC System Controls
+
+- Section: 16.4 Building Envelope Performance:
+subsections:
+- 16.4a Heat Transfer Through Building Envelope
+- 16.4b Thermal Bridging
+- 16.4c Building Envelope Insulation
+
+- Section: 16.5 Passive Design Strategies:
+subsections:
+- 16.5a Solar Orientation
+- 16.5b Natural Ventilation
+- 16.5c Thermal Mass
+
+- Chapter 17: Building Life Cycle Assessment:
+sections:
+- Section: 17.1 Life Cycle Assessment Basics:
+subsections:
+- 17.1a Life Cycle Stages
+- 17.1b Life Cycle Inventory
+- 17.1c Life Cycle Impact Assessment
+
+- Section: 17.2 Building Materials LCA:
+subsections:
+- 17.2a Material Extraction and Processing
+- 17.2b Material Transportation
+- 17.2c Material End of Life
+
+- Section: 17.3 Building Energy LCA:
+subsections:
+- 17.3a Building Operation Energy
+- 17.3b Renewable Energy Systems
+- 17.3c Energy Efficiency Measures
+
+- Section: 17.4 Building Water LCA:
+subsections:
+- 17.4a Water Use in Buildings
+- 17.4b Water Efficiency Measures
+- 17.4c Rainwater Harvesting and Greywater Recycling
+
+- Section: 17.5 Building LCA Software:
+subsections:
+- 17.5a LCA Software Tools
+- 17.5b LCA Data Sources
+- 17.5c LCA Reporting and Interpretation
+
+- Chapter 18: Building Economics:
+sections:
+- Section: 18.1 Building Costs:
+subsections:
+- 18.1a Construction Costs
+- 18.1b Operating Costs
+- 18.1c Life Cycle Costs
+
+- Section: 18.2 Building Value:
+subsections:
+- 18.2a Market Value
+- 18.2b Replacement Value
+- 18.2c Investment Value
+
+- Section: 18.3 Building Financing:
+subsections:
+- 18.3a Construction Loans
+- 18.3b Mortgages
+- 18.3c Leasing
+
+- Section: 18.4 Building Insurance:
+subsections:
+- 18.4a Property Insurance
+- 18.4b Liability Insurance
+- 18.4c Builder's Risk Insurance
+
+- Section: 18.5 Building Taxation:
+subsections:
+- 18.5a Property Taxes
+- 18.5b Depreciation
+- 18.5c Tax Incentives for Energy Efficiency
+
+- Chapter 19: Building Maintenance and Operations:
+sections:
+- Section: 19.1 Building Maintenance:
+subsections:
+- 19.1a Maintenance Planning
+- 19.1b Preventive Maintenance
+- 19.1c Corrective Maintenance
+
+- Section: 19.2 Building Operations:
+subsections:
+- 19.2a Building Systems Operation
+- 19.2b Building Occupancy Management
+- 19.2c Building Security
+
+- Section: 19.3 Building Renovation and Retrofit:
+subsections:
+- 19.3a Building Assessment
+- 19.3b Renovation Planning
+- 19.3c Energy Retrofit
+
+- Section: 19.4 Building Decommissioning and Demolition:
+subsections:
+- 19.4a Decommissioning Planning
+- 19.4b Demolition Methods
+- 19.4c Waste Management and Recycling
+
+- Section: 19.5 Facility Management Software:
+subsections:
+- 19.5a Computerized Maintenance Management Systems

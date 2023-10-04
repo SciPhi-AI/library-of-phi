@@ -1,0 +1,323 @@
+textbook: 
+"Analytical Subsonic Aerodynamics: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Singular Perturbation Method:
+sections:
+- Section: 1.1 Deriving PDEs and Boundary Conditions for Perturbation Velocity Potentials:
+subsections:
+- 1.1a Introduction to PDEs
+- 1.1b Boundary Conditions for Perturbation
+- 1.1c Velocity Potentials
+
+- Chapter 2: Seminar in Perturbation Methods:
+sections:
+- Section: 2.1 Partial Differential Equations and Boundary Conditions:
+subsections:
+- 2.1a Introduction to Partial Differential Equations
+- 2.1b Boundary Conditions in Perturbation Methods
+- 2.1c Applications and Examples
+- Section: 2.2 Regular Perturbation Methods:
+subsections:
+- 2.2a Introduction to Regular Perturbation Methods
+- 2.2b Techniques and Approaches
+- 2.2c Case Studies and Applications
+
+- Chapter 3: Singular Perturbation Methods; Formation of Shock Waves:
+sections:
+- Section: 3.1 Shock Wave Formation:
+subsections:
+- 3.1a Basics of Shock Wave Formation
+- 3.1b Mathematical Representation of Shock Waves
+- 3.1c Real-world Applications
+- Section: 3.2 Singular Perturbation Methods:
+subsections:
+- 3.2a Introduction to Singular Perturbation Methods
+- 3.2b Techniques and Approaches
+- 3.2c Case Studies and Applications
+
+- Chapter 4: Fundamental of Fluid Mechanics:
+sections:
+- Section: 4.1 Fluid Mechanics Basics:
+subsections:
+- 4.1a Introduction to Fluid Mechanics
+- 4.1b Fluid Properties
+- 4.1c Fluid Statics
+- Section: 4.2 Equations of Fluid Motion:
+subsections:
+- 4.2a Continuity Equation
+- 4.2b Momentum Equation
+- 4.2c Energy Equation
+- Section: 4.3 Conservation Laws:
+subsections:
+- 4.3a Conservation of Mass
+- 4.3b Conservation of Momentum
+- 4.3c Conservation of Energy
+
+- Chapter 5: Linear Subsonic Flow:
+sections:
+- Section: 5.1 Linear Flow Theory:
+subsections:
+- 5.1a Introduction to Linear Flow Theory
+- 5.1b Linear Flow Equations
+- 5.1c Applications and Examples
+- Section: 5.2 Governing Equations:
+subsections:
+- 5.2a Introduction to Governing Equations
+- 5.2b Derivation of Governing Equations
+- 5.2c Use of Governing Equations in Linear Subsonic Flow
+- Section: 5.3 Boundary Layer Theory:
+subsections:
+- 5.3a Introduction to Boundary Layer Theory
+- 5.3b Boundary Layer Equations
+- 5.3c Boundary Layer Characteristics in Linear Subsonic Flow
+
+- Chapter 6: Similarity Rules:
+sections:
+- Section: 6.1 Reynolds Number:
+subsections:
+- 6.1a Definition of Reynolds Number
+- 6.1b Calculation of Reynolds Number
+- 6.1c Significance of Reynolds Number in Aerodynamics
+- Section: 6.2 Mach Number:
+subsections:
+- 6.2a Definition of Mach Number
+- 6.2b Calculation of Mach Number
+- 6.2c Significance of Mach Number in Aerodynamics
+- Section: 6.3 Similarity Laws:
+subsections:
+- 6.3a Introduction to Similarity Laws
+- 6.3b Application of Similarity Laws in Aerodynamics
+- 6.3c Examples and Case Studies
+
+- Chapter 7: Bodies of Revolution: Slender Body Theory:
+sections:
+- Section: 7.1 Slender Body Approximation:
+subsections:
+- 7.1a Introduction to Slender Body Approximation
+- 7.1b Mathematical Representation of Slender Body
+- 7.1c Applications and Limitations
+- Section: 7.2 Body of Revolution:
+subsections:
+- 7.2a Definition of Body of Revolution
+- 7.2b Characteristics of Body of Revolution
+- 7.2c Aerodynamics of Body of Revolution
+- Section: 7.3 Profile Section:
+subsections:
+- 7.3a Introduction to Profile Section
+- 7.3b Profile Section in Slender Body Theory
+- 7.3c Examples and Case Studies
+
+- Chapter 8: Slender Body Theory:
+sections:
+- Section: 8.1 Lift and Moment About Mid-chord:
+subsections:
+- 8.1a Introduction to Lift and Moment
+- 8.1b Calculation of Lift and Moment
+- 8.1c Lift and Moment in Slender Body Theory
+- Section: 8.2 Higher Approximations:
+subsections:
+- 8.2a Introduction to Higher Approximations
+- 8.2b Techniques for Higher Approximations
+- 8.2c Applications and Examples
+
+- Chapter 9: Higher Approximations: Slope of the Lift and Moment About Mid-chord:
+sections:
+- Section: 9.1 Higher Order Approximations:
+subsections:
+- 9.1a Introduction to Higher Order Approximations
+- 9.1b Techniques for Higher Order Approximations
+- 9.1c Applications and Examples
+- Section: 9.2 Lift and Moment Calculation:
+subsections:
+- 9.2a Introduction to Lift and Moment Calculation
+- 9.2b Techniques for Lift and Moment Calculation
+- 9.2c Examples and Case Studies
+
+- Chapter 10: Perturbation Methods / Overview:
+sections:
+- Section: 10.1 Introduction to Perturbation Methods:
+subsections:
+- 10.1a Basics of Perturbation Methods
+- 10.1b Techniques in Perturbation Methods
+- 10.1c Applications and Examples
+- Section: 10.2 Overview of Techniques:
+subsections:
+- 10.2a Survey of Perturbation Techniques
+- 10.2b Comparison of Techniques
+- 10.2c Selection of Appropriate Technique
+
+- Chapter 11: Thin Wing Theory:
+sections:
+- Section: 11.1 Wing Theory Basics:
+subsections:
+- 11.1a Introduction to Wing Theory
+- 11.1b Wing Aerodynamics
+- 11.1c Wing Design Considerations
+- Section: 11.2 Thin Airfoil Theory:
+subsections:
+- 11.2a Introduction to Thin Airfoil Theory
+- 11.2b Thin Airfoil Equations
+- 11.2c Applications and Examples
+
+- Chapter 12: Advanced Topics in Subsonic Aerodynamics:
+sections:
+- Section: 12.1 Aerodynamic Forces and Moments:
+subsections:
+- 12.1a Definition and Calculation of Aerodynamic Forces
+- 12.1b Definition and Calculation of Aerodynamic Moments
+- 12.1c Applications and Examples
+- Section: 12.2 Aerodynamic Stability:
+subsections:
+- 12.2a Introduction to Aerodynamic Stability
+- 12.2b Stability Analysis Techniques
+- 12.2c Stability Considerations in Aircraft Design
+- Section: 12.3 Aerodynamic Control:
+subsections:
+- 12.3a Introduction to Aerodynamic Control
+- 12.3b Control Surface Design and Analysis
+- 12.3c Control Considerations in Aircraft Design
+
+- Chapter 13: Computational Methods in Subsonic Aerodynamics:
+sections:
+- Section: 13.1 Introduction to Computational Fluid Dynamics:
+subsections:
+- 13.1a Basics of Computational Fluid Dynamics
+- 13.1b Numerical Methods in CFD
+- 13.1c Applications of CFD in Subsonic Aerodynamics
+- Section: 13.2 Mesh Generation and Grid Convergence:
+subsections:
+- 13.2a Introduction to Mesh Generation
+- 13.2b Techniques for Grid Convergence
+- 13.2c Mesh Quality and Solution Accuracy
+- Section: 13.3 Turbulence Modeling:
+subsections:
+- 13.3a Introduction to Turbulence Modeling
+- 13.3b Common Turbulence Models
+- 13.3c Turbulence Modeling in Subsonic Aerodynamics
+
+- Chapter 14: Experimental Methods in Subsonic Aerodynamics:
+sections:
+- Section: 14.1 Wind Tunnel Testing:
+subsections:
+- 14.1a Basics of Wind Tunnel Testing
+- 14.1b Wind Tunnel Test Techniques
+- 14.1c Data Acquisition and Analysis
+- Section: 14.2 Flow Visualization Techniques:
+subsections:
+- 14.2a Introduction to Flow Visualization
+- 14.2b Techniques for Flow Visualization
+- 14.2c Interpretation of Flow Visualization Results
+- Section: 14.3 Pressure and Force Measurements:
+subsections:
+- 14.3a Introduction to Pressure and Force Measurements
+- 14.3b Measurement Techniques
+- 14.3c Data Analysis and Interpretation
+
+- Chapter 15: Subsonic Aerodynamics of Airfoils and Wings:
+sections:
+- Section: 15.1 Airfoil Aerodynamics:
+subsections:
+- 15.1a Introduction to Airfoil Aerodynamics
+- 15.1b Airfoil Performance Characteristics
+- 15.1c Airfoil Design Considerations
+- Section: 15.2 Wing Aerodynamics:
+subsections:
+- 15.2a Introduction to Wing Aerodynamics
+- 15.2b Wing Performance Characteristics
+- 15.2c Wing Design Considerations
+- Section: 15.3 High-Lift Devices:
+subsections:
+- 15.3a Introduction to High-Lift Devices
+- 15.3b Types of High-Lift Devices
+- 15.3c Performance Enhancement with High-Lift Devices
+
+- Chapter 16: Subsonic Aerodynamics of Aircraft:
+sections:
+- Section: 16.1 Aircraft Performance:
+subsections:
+- 16.1a Introduction to Aircraft Performance
+- 16.1b Performance Analysis Techniques
+- 16.1c Performance Enhancement Strategies
+- Section: 16.2 Aircraft Stability and Control:
+subsections:
+- 16.2a Introduction to Aircraft Stability and Control
+- 16.2b Stability Analysis Techniques
+- 16.2c Control Analysis Techniques
+- Section: 16.3 Aircraft Design Considerations:
+subsections:
+- 16.3a Introduction to Aircraft Design
+- 16.3b Aerodynamic Considerations in Aircraft Design
+- 16.3c Case Studies in Aircraft Design
+
+- Chapter 17: Subsonic Aerodynamics of Propulsion Systems:
+sections:
+- Section: 17.1 Propeller Aerodynamics:
+subsections:
+- 17.1a Introduction to Propeller Aerodynamics
+- 17.1b Propeller Performance Analysis
+- 17.1c Propeller Design Considerations
+- Section: 17.2 Jet Engine Aerodynamics:
+subsections:
+- 17.2a Introduction to Jet Engine Aerodynamics
+- 17.2b Jet Engine Performance Analysis
+- 17.2c Jet Engine Design Considerations
+- Section: 17.3 Integration of Propulsion Systems and Aircraft:
+subsections:
+- 17.3a Introduction to Propulsion System Integration
+- 17.3b Aerodynamic Considerations in Propulsion System Integration
+- 17.3c Case Studies in Propulsion System Integration
+
+- Chapter 18: Subsonic Aerodynamics of Rotorcraft:
+sections:
+- Section: 18.1 Helicopter Aerodynamics:
+subsections:
+- 18.1a Introduction to Helicopter Aerodynamics
+- 18.1b Helicopter Performance Analysis
+- 18.1c Helicopter Design Considerations
+- Section: 18.2 Tiltrotor Aerodynamics:
+subsections:
+- 18.2a Introduction to Tiltrotor Aerodynamics
+- 18.2b Tiltrotor Performance Analysis
+- 18.2c Tiltrotor Design Considerations
+- Section: 18.3 Rotorcraft Stability and Control:
+subsections:
+- 18.3a Introduction to Rotorcraft Stability and Control
+- 18.3b Stability Analysis Techniques for Rotorcraft
+- 18.3c Control Analysis Techniques for Rotorcraft
+
+- Chapter 19: Subsonic Aerodynamics of Unmanned Aerial Vehicles:
+sections:
+- Section: 19.1 Fixed-Wing UAV Aerodynamics:
+subsections:
+- 19.1a Introduction to Fixed-Wing UAV Aerodynamics
+- 19.1b Fixed-Wing UAV Performance Analysis
+- 19.1c Fixed-Wing UAV Design Considerations
+- Section: 19.2 Rotary-Wing UAV Aerodynamics:
+subsections:
+- 19.2a Introduction to Rotary-Wing UAV Aerodynamics
+- 19.2b Rotary-Wing UAV Performance Analysis
+- 19.2c Rotary-Wing UAV Design Considerations
+- Section: 19.3 UAV Stability and Control:
+subsections:
+- 19.3a Introduction to UAV Stability and Control
+- 19.3b Stability Analysis Techniques for UAVs
+- 19.3c Control Analysis Techniques for UAVs
+
+- Chapter 20: Future Directions in Subsonic Aerodynamics:
+sections:
+- Section: 20.1 Emerging Technologies:
+subsections:
+- 20.1a Survey of Emerging Technologies in Subsonic Aerodynamics
+- 20.1b Potential Impact of Emerging Technologies
+- 20.1c Challenges and Opportunities
+- Section: 20.2 Sustainable Aviation:
+subsections:
+- 20.2a Introduction to Sustainable Aviation
+- 20.2b Aerodynamic Considerations in Sustainable Aviation
+- 20.2c Case Studies in Sustainable Aviation
+- Section: 20.3 Advanced Computational and Experimental Techniques:
+subsections:
+- 20.3a Introduction to Advanced Computational Techniques
+- 20.3b Introduction to Advanced Experimental Techniques
+- 20.3c Future Directions in Computational and Experimental Aerodynamics

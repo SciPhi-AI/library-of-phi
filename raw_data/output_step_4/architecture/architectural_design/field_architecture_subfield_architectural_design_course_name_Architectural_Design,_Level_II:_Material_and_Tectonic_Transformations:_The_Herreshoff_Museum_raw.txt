@@ -1,0 +1,173 @@
+textbook: 
+"Architectural Design Level II: Material and Tectonic Transformations: The Herreshoff Museum Companion":
+
+chapters:
+- Chapter 1: Introduction to Architectural Design Level II:
+sections:
+- Section: 1.1 Course Number:
+subsections:
+- 1.1a Course Overview
+- 1.1b Course Objectives
+- 1.1c Course Requirements
+- Section: 1.2 Resource Level:
+subsections:
+- 1.2a Resource Allocation
+- 1.2b Resource Management
+- 1.2c Resource Utilization
+
+- Chapter 2: Research and Site Readings:
+sections:
+- Section: 2.1 Assignment 1 - Research / Site Readings (PDF):
+subsections:
+- 2.1a Research Methodology
+- 2.1b Site Analysis
+- 2.1c Site Interpretation
+- Section: 2.2 Site Readings:
+subsections:
+- 2.2a Understanding Site Context
+- 2.2b Site History
+- 2.2c Site Potential
+
+- Chapter 3: Developing a Tectonic Language for an Entrance Hall / Pavilion:
+sections:
+- Section: 3.1 Assignment 2 - Developing a Tectonic Language for an Entrance Hall / Pavilion:
+subsections:
+- 3.1a Understanding Tectonics
+- 3.1b Design Process
+- 3.1c Material Selection
+
+- Chapter 4: Museum Program and Concept Development:
+sections:
+- Section: 4.1 Assignment 3 - Museum Program and Concept Development:
+subsections:
+- 4.1a Program Development
+- 4.1b Concept Generation
+- 4.1c Concept Development
+
+- Chapter 5: Review with Critics:
+sections:
+- Section: 5.1 Assignment 4 - Review with Critics:
+subsections:
+- 5.1a Preparing for Review
+- 5.1b Critique Process
+- 5.1c Post-Review Reflection
+
+- Chapter 6: Expanded Museum Program:
+sections:
+- Section: 6.1 Final Assignment - Expanded Museum Program (PDF):
+subsections:
+- 6.1a Program Expansion
+- 6.1b Design Refinement
+- 6.1c Final Presentation
+
+- Chapter 7: Show and Tell:
+sections:
+- Section: 7.1 Show and Tell:
+subsections:
+- 7.1a Presentation Skills
+- 7.1b Peer Review
+- 7.1c Feedback Incorporation
+
+- Chapter 8: First Studio: Project 1 Group Introduction:
+sections:
+- Section: 8.1 First Studio: Project 1 Group Introduction:
+subsections:
+- 8.1a Group Formation
+- 8.1b Project Brief
+- 8.1c Initial Brainstorming
+
+- Chapter 9: Field Trip to Thomson Island:
+sections:
+- Section: 9.1 Field Trip to Thomson Island:
+subsections:
+- 9.1a Pre-Trip Preparation
+- 9.1b On-Site Observations
+- 9.1c Post-Trip Reflection
+
+- Chapter 10: Pin Up of First Ideas / Concepts:
+sections:
+- Section: 10.1 Pin Up of First Ideas / Concepts (Individual) - Group Selections:
+subsections:
+- 10.1a Idea Generation
+- 10.1b Concept Sketching
+- 10.1c Group Selection Process
+
+- Chapter 11: Group Esquisse:
+sections:
+- Section: 11.1 Group Esquisse:
+subsections:
+- 11.1a Collaborative Design
+- 11.1b Sketch Modeling
+- 11.1c Design Refinement
+
+- Chapter 12: Team Presentations of Design Strategies:
+sections:
+- Section: 12.1 Team Presentations x 12 of Design Strategies:
+subsections:
+- 12.1a Presentation Preparation
+- 12.1b Strategy Communication
+- 12.1c Team Coordination
+
+- Chapter 13: Research, Development and Test:
+sections:
+- Section: 13.1 Research, Development and Test:
+subsections:
+- 13.1a Design Research
+- 13.1b Prototype Development
+- 13.1c Testing and Evaluation
+
+- Chapter 14: Informal Pin Up:
+sections:
+- Section: 14.1 Informal Pin Up:
+subsections:
+- 14.1a Preparing for Pin Up
+- 14.1b Peer Feedback
+- 14.1c Design Iteration
+
+- Chapter 15: Prototype / Production:
+sections:
+- Section: 15.1 Prototype / Production:
+subsections:
+- 15.1a Prototype Construction
+- 15.1b Material Considerations
+- 15.1c Production Planning
+
+- Chapter 16: Review:
+sections:
+- Section: 16.1 Review:
+subsections:
+- 16.1a Preparing for Review
+- 16.1b Presentation Skills
+- 16.1c Post-Review Reflection
+
+- Chapter 17: Field Trip: Herreshoff / IYRS Bristol, RI:
+sections:
+- Section: 17.1 Field Trip: Herreshoff / IYRS Bristol, RI:
+subsections:
+- 17.1a Pre-Trip Preparation
+- 17.1b On-Site Observations
+- 17.1c Post-Trip Reflection
+
+- Chapter 18: Lecture: Frano Violich:
+sections:
+- Section: 18.1 Lecture: Frano Violich:
+subsections:
+- 18.1a Lecture Overview
+- 18.1b Key Takeaways
+- 18.1c Reflection and Application
+
+- Chapter 19: Lecture: George Brin / RISD:
+sections:
+- Section: 19.1 Lecture: George Brin / RISD:
+subsections:
+- 19.1a Lecture Overview
+- 19.1b Key Takeaways
+- 19.1c Reflection and Application
+
+- Chapter 20: Lecture: Tim Eliason / Tri-Pyramid:
+sections:
+- Section: 20.1 Lecture: Tim Eliason / Tri-Pyramid:
+subsections:
+- 20.1a Lecture Overview
+- 20.1b Key Takeaways
+- 20.1c Reflection and Application

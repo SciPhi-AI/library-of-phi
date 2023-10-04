@@ -1,0 +1,239 @@
+textbook:
+  'Political Economy: Paradigms and Theories for Understanding Society":':
+    chapters:
+    - '- Chapter 1: Introduction: Paradigms and Social Science:':
+        sections:
+        - '- Section: 1.1 Paradigms in Social Science:':
+            subsections:
+            - 1.1a The Positivist Paradigm
+            - 1.1b The Interpretive Paradigm
+            - 1.1c The Critical Paradigm
+            - 1.1d The Post-Modern Paradigm
+        - '- Section: 1.2 Introduction to Political Economy:':
+            subsections:
+            - 1.2a Definition and Scope of Political Economy
+            - 1.2b Evolution of Political Economy as a Field of Study
+            - 1.2c Interdisciplinary Approaches to Political Economy
+    - '- Chapter 2: Theories of the Liberal State and Politics:':
+        sections:
+        - '- Section: 2.1 Liberal State and Politics:':
+            subsections:
+            - 2.1a Origins and Development of Liberalism
+            - 2.1b Principles of Liberal Democracy
+            - 2.1c Liberal Democracy and the Rule of Law
+        - '- Section: 2.2 Lockean Theory of Civil Government:':
+            subsections:
+            - 2.2a John Locke's Theory of Natural Rights
+            - 2.2b Social Contract and Consent
+            - 2.2c Limited Government and Individual Liberties
+        - '- Section: 2.3 Isaiah Berlin''s Concept of Liberty:':
+            subsections:
+            - 2.3a Two Concepts of Liberty
+            - 2.3b Negative and Positive Freedom
+            - 2.3c Implications for Political Theory and Practice
+        - '- Section: 2.4 Madison''s Federalist Paper 10:':
+            subsections:
+            - 2.4a The Problem of Faction and Majority Tyranny
+            - 2.4b Extended Republic and Representative Government
+            - 2.4c Safeguards against Factionalism in Democratic Governance
+    - '- Chapter 3: Neo-Classical Theories of the Economy:':
+        sections:
+        - '- Section: 3.1 Neo-Classical Economics:':
+            subsections:
+            - 3.1a Assumptions and Methodology of Neo-Classical Economics
+            - 3.1b Supply and Demand Analysis
+            - 3.1c Rational Choice Theory
+        - '- Section: 3.2 Neoclassical Approaches:':
+            subsections:
+            - 3.2a Marginal Analysis and Utility Maximization
+            - 3.2b Production and Cost Functions
+            - 3.2c Market Structures and Competition
+        - '- Section: 3.3 Keynesian Revolution:':
+            subsections:
+            - 3.3a John Maynard Keynes and the Great Depression
+            - 3.3b Aggregate Demand and Macroeconomic Stabilization
+            - 3.3c Critiques and Revisions of Keynesian Economics
+    - '- Chapter 4: Marxist Politics:':
+        sections:
+        - '- Section: 4.1 Marxist Political Theory:':
+            subsections:
+            - 4.1a Historical Materialism and Class Struggle
+            - 4.1b Critique of Capitalism and the State
+            - 4.1c Socialist Revolution and the Dictatorship of the Proletariat
+    - '- Chapter 5: Marxist Economics and Value Theory:':
+        sections:
+        - '- Section: 5.1 Marxist Economic Theory:':
+            subsections:
+            - 5.1a Labor Theory of Value and Exploitation
+            - 5.1b Capitalist Accumulation and Crisis
+            - 5.1c Socialist Economic Planning and Distribution
+        - '- Section: 5.2 Value Theory in Marxism:':
+            subsections:
+            - 5.2a Use Value and Exchange Value
+            - 5.2b Surplus Value and Profit Extraction
+            - 5.2c Commodity Fetishism and Alienation
+    - '- Chapter 6: Sociological Theories of Capitalism:':
+        sections:
+        - '- Section: 6.1 Sociological Perspectives on Capitalism:':
+            subsections:
+            - 6.1a Max Weber's Theory of Protestant Ethic and Capitalism
+            - 6.1b Emile Durkheim's Division of Labor and Capitalism
+            - 6.1c Karl Polanyi's Embeddedness of Markets
+    - '- Chapter 7: Crisis and Capitalism:':
+        sections:
+        - '- Section: 7.1 Economic Crisis and Capitalism:':
+            subsections:
+            - 7.1a Causes and Consequences of Economic Crises
+            - 7.1b Financialization and Speculation
+            - '7.1c Responses to Crisis: Austerity vs. Stimulus'
+    - '- Chapter 8: Institutionalism:':
+        sections:
+        - '- Section: 8.1 Institutional Economics:':
+            subsections:
+            - 8.1a Evolution of Institutions and their Impact on Economic Behavior
+            - 8.1b Formal and Informal Institutions
+            - 8.1c Institutional Change and Economic Development
+    - '- Chapter 9: Theories of the Welfare State:':
+        sections:
+        - '- Section: 9.1 Welfare State and Social Policy:':
+            subsections:
+            - 9.1a Origins and Development of the Welfare State
+            - 9.1b Social Rights and Citizenship
+            - 9.1c Welfare State Regimes and Models
+        - '- Section: 9.2 Welfare State and Capitalism:':
+            subsections:
+            - 9.2a Welfare State as a Response to Capitalism
+            - 9.2b Welfare State and Economic Performance
+            - 9.2c Welfare State and Social Inequality
+    - '- Chapter 10: Theories of Globalization:':
+        sections:
+        - '- Section: 10.1 Globalization and the Economy:':
+            subsections:
+            - 10.1a Globalization and its Impact on National Economies
+            - 10.1b Globalization and the Role of International Institutions
+            - 10.1c Globalization and Inequality
+        - '- Section: 10.2 Globalization and Politics:':
+            subsections:
+            - 10.2a Globalization and the Transformation of the State
+            - 10.2b Globalization and Democracy
+            - 10.2c Globalization and Social Movements
+    - '- Chapter 11: Theories of Development:':
+        sections:
+        - '- Section: 11.1 Development and Underdevelopment:':
+            subsections:
+            - 11.1a Theories of Economic Development
+            - 11.1b Theories of Underdevelopment
+            - 11.1c Development and the Role of the State
+        - '- Section: 11.2 Development and Globalization:':
+            subsections:
+            - 11.2a Globalization and Development
+            - 11.2b Globalization and the Role of International Institutions in Development
+            - 11.2c Globalization and Inequality in Development
+    - '- Chapter 12: Theories of Democracy:':
+        sections:
+        - '- Section: 12.1 Liberal Democracy:':
+            subsections:
+            - 12.1a Theories of Liberal Democracy
+            - 12.1b Liberal Democracy and the Rule of Law
+            - 12.1c Liberal Democracy and Citizenship
+        - '- Section: 12.2 Participatory Democracy:':
+            subsections:
+            - 12.2a Theories of Participatory Democracy
+            - 12.2b Participatory Democracy and Civil Society
+            - 12.2c Participatory Democracy and Social Movements
+    - '- Chapter 13: Theories of Social Justice:':
+        sections:
+        - '- Section: 13.1 Liberal Theories of Justice:':
+            subsections:
+            - 13.1a John Rawls' Theory of Justice
+            - 13.1b Liberalism and the Idea of Fairness
+            - 13.1c Liberalism and the Role of the State in Justice
+        - '- Section: 13.2 Marxist Theories of Justice:':
+            subsections:
+            - 13.2a Marxist Critique of Liberal Justice
+            - 13.2b Marxism and the Idea of Social Justice
+            - 13.2c Marxism and the Role of the State in Justice
+    - '- Chapter 14: Theories of Power:':
+        sections:
+        - '- Section: 14.1 Power and Politics:':
+            subsections:
+            - 14.1a Theories of Power in Politics
+            - 14.1b Power and the State
+            - 14.1c Power and Social Movements
+        - '- Section: 14.2 Power and the Economy:':
+            subsections:
+            - 14.2a Theories of Power in the Economy
+            - 14.2b Power and Capitalism
+            - 14.2c Power and Class Struggle
+    - '- Chapter 15: Theories of Social Movements:':
+        sections:
+        - '- Section: 15.1 Social Movements and Politics:':
+            subsections:
+            - 15.1a Theories of Social Movements
+            - 15.1b Social Movements and the State
+            - 15.1c Social Movements and Democracy
+        - '- Section: 15.2 Social Movements and the Economy:':
+            subsections:
+            - 15.2a Social Movements and Capitalism
+            - 15.2b Social Movements and Class Struggle
+            - 15.2c Social Movements and Economic Inequality
+    - '- Chapter 16: Theories of Social Change:':
+        sections:
+        - '- Section: 16.1 Social Change and Politics:':
+            subsections:
+            - 16.1a Theories of Social Change
+            - 16.1b Social Change and the State
+            - 16.1c Social Change and Democracy
+        - '- Section: 16.2 Social Change and the Economy:':
+            subsections:
+            - 16.2a Social Change and Capitalism
+            - 16.2b Social Change and Economic Development
+            - 16.2c Social Change and Economic Inequality
+    - '- Chapter 17: Theories of Social Class:':
+        sections:
+        - '- Section: 17.1 Social Class and Politics:':
+            subsections:
+            - 17.1a Theories of Social Class
+            - 17.1b Social Class and the State
+            - 17.1c Social Class and Democracy
+        - '- Section: 17.2 Social Class and the Economy:':
+            subsections:
+            - 17.2a Social Class and Capitalism
+            - 17.2b Social Class and Economic Development
+            - 17.2c Social Class and Economic Inequality
+    - '- Chapter 18: Theories of Gender and Politics:':
+        sections:
+        - '- Section: 18.1 Gender and Politics:':
+            subsections:
+            - 18.1a Theories of Gender and Politics
+            - 18.1b Gender and the State
+            - 18.1c Gender and Democracy
+        - '- Section: 18.2 Gender and the Economy:':
+            subsections:
+            - 18.2a Gender and Capitalism
+            - 18.2b Gender and Economic Development
+            - 18.2c Gender and Economic Inequality
+    - '- Chapter 19: Theories of Race and Politics:':
+        sections:
+        - '- Section: 19.1 Race and Politics:':
+            subsections:
+            - 19.1a Theories of Race and Politics
+            - 19.1b Race and the State
+            - 19.1c Race and Democracy
+        - '- Section: 19.2 Race and the Economy:':
+            subsections:
+            - 19.2a Race and Capitalism
+            - 19.2b Race and Economic Development
+            - 19.2c Race and Economic Inequality
+    - '- Chapter 20: Theories of Intersectionality:':
+        sections:
+        - '- Section: 20.1 Intersectionality and Politics:':
+            subsections:
+            - 20.1a Theories of Intersectionality
+            - 20.1b Intersectionality and the State
+            - 20.1c Intersectionality and Democracy
+        - '- Section: 20.2 Intersectionality and the Economy:':
+            subsections:
+            - 20.2a Intersectionality and Capitalism
+            - 20.2b Intersectionality and Economic Development
+            - 20.2c Intersectionality and Economic Inequality

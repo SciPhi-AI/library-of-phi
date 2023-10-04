@@ -1,0 +1,437 @@
+textbook:
+  'Space Propulsion Textbook":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Fundamentals and Definitions:':
+            subsections:
+            - 1.1a Basic Concepts of Space Propulsion
+            - 1.1b Types of Space Propulsion Systems
+            - 1.1c Importance of Propulsion in Space Missions
+        - '- Section: 1.2 Mission Analysis:':
+            subsections:
+            - 1.2a Mission Requirements and Constraints
+            - 1.2b Propulsion System Selection
+            - 1.2c Mission Planning and Execution
+        - '- Section: 1.3 Importance and Applications of Space Propulsion:':
+            subsections:
+            - 1.3a Role of Propulsion in Space Exploration
+            - 1.3b Applications in Satellite Deployment
+            - 1.3c Future Trends in Space Propulsion
+    - '- Chapter 2: Review of Classical Astrodynamics:':
+        sections:
+        - '- Section: 2.1 Analytical Approximations for Low Thrust Maneuvers:':
+            subsections:
+            - 2.1a Basics of Low Thrust Maneuvers
+            - 2.1b Analytical Methods for Approximation
+            - 2.1c Practical Applications and Limitations
+        - '- Section: 2.2 Sub-optimal Climb and Plane Change:':
+            subsections:
+            - 2.2a Understanding Sub-optimal Climb
+            - 2.2b Plane Change Maneuvers
+            - 2.2c Techniques for Optimizing Maneuvers
+        - '- Section: 2.3 Orbit Determination and Transfer:':
+            subsections:
+            - 2.3a Basics of Orbit Determination
+            - 2.3b Hohmann Transfer and Bi-elliptic Transfer
+            - 2.3c Advanced Orbit Transfer Techniques
+    - '- Chapter 3: Basic Electromagnetic Theory and Plasma Physics:':
+        sections:
+        - '- Section: 3.1 Overview of the Physics in the Plasma Sheath:':
+            subsections:
+            - 3.1a Introduction to Plasma Sheath
+            - 3.1b Physics Governing Plasma Sheath
+            - 3.1c Effects on Space Propulsion
+        - '- Section: 3.2 Electrostatic Thrusters:':
+            subsections:
+            - 3.2a Working Principle of Electrostatic Thrusters
+            - 3.2b Types of Electrostatic Thrusters
+            - 3.2c Advantages and Limitations
+        - '- Section: 3.3 Magnetohydrodynamics in Space Propulsion:':
+            subsections:
+            - 3.3a Basics of Magnetohydrodynamics
+            - 3.3b Role in Space Propulsion
+            - 3.3c Current Research and Developments
+    - '- Chapter 4: Characterization of Space Propulsion Devices:':
+        sections:
+        - '- Section: 4.1 Monopropellant Thrusters:':
+            subsections:
+            - 4.1a Working Principle of Monopropellant Thrusters
+            - 4.1b Types and Applications
+            - 4.1c Performance Analysis
+        - '- Section: 4.2 Electrothermal Augmentation:':
+            subsections:
+            - 4.2a Basics of Electrothermal Augmentation
+            - 4.2b Role in Space Propulsion
+            - 4.2c Advantages and Challenges
+        - '- Section: 4.3 Propellant Storage and Management:':
+            subsections:
+            - 4.3a Propellant Storage Techniques
+            - 4.3b Propellant Management Systems
+            - 4.3c Safety and Efficiency Considerations
+    - '- Chapter 5: Plasmas in Equilibrium:':
+        sections:
+        - '- Section: 5.1 Arcjet Thrusters:':
+            subsections:
+            - 5.1a Working Principle of Arcjet Thrusters
+            - 5.1b Performance and Efficiency
+            - 5.1c Applications and Limitations
+        - '- Section: 5.2 Hall Thrusters:':
+            subsections:
+            - 5.2a Basics of Hall Thrusters
+            - 5.2b Performance Analysis
+            - 5.2c Current Research and Developments
+        - '- Section: 5.3 Hall Thruster Efficiency:':
+            subsections:
+            - 5.3a Factors Affecting Efficiency
+            - 5.3b Techniques for Efficiency Improvement
+            - 5.3c Case Studies
+        - '- Section: 5.4 Plasma Diagnostics and Measurements:':
+            subsections:
+            - 5.4a Techniques for Plasma Diagnostics
+            - 5.4b Measurement Tools and Techniques
+            - 5.4c Challenges and Future Directions
+    - '- Chapter 6: Hall Thrusters: Fluid Model of the Discharge:':
+        sections:
+        - '- Section: 6.1 Plasma Accelerators / Magneto Plasma Dynamic:':
+            subsections:
+            - 6.1a Basics of Plasma Accelerators
+            - 6.1b Role of Magnetohydrodynamics
+            - 6.1c Applications and Limitations
+        - '- Section: 6.2 Electrospray Propulsion:':
+            subsections:
+            - 6.2a Working Principle of Electrospray Propulsion
+            - 6.2b Performance and Efficiency
+            - 6.2c Current Research and Developments
+        - '- Section: 6.3 Laboratory Project Presentations & Discussion:':
+            subsections:
+            - 6.3a Overview of Current Projects
+            - 6.3b Discussion on Challenges and Solutions
+            - 6.3c Future Directions
+        - '- Section: 6.4 Cone-jet Electrosprays, or Colloid Thrusters:':
+            subsections:
+            - 6.4a Basics of Cone-jet Electrosprays
+            - 6.4b Working Principle of Colloid Thrusters
+            - 6.4c Performance Analysis and Applications
+        - '- Section: 6.5 Ion Emission and the Pure Ionic Regime:':
+            subsections:
+            - 6.5a Basics of Ion Emission
+            - 6.5b Understanding the Pure Ionic Regime
+            - 6.5c Role in Space Propulsion
+        - '- Section: 6.6 Electrodynamic Tethers:':
+            subsections:
+            - 6.6a Working Principle of Electrodynamic Tethers
+            - 6.6b Applications in Space Propulsion
+            - 6.6c Current Research and Developments
+        - '- Section: 6.7 Advanced Propulsion Concepts:':
+            subsections:
+            - 6.7a Overview of Advanced Propulsion Concepts
+            - 6.7b Role in Future Space Missions
+            - 6.7c Challenges and Opportunities
+    - '- Chapter 7: Advanced Propulsion Technologies:':
+        sections:
+        - '- Section: 7.1 Nuclear Propulsion:':
+            subsections:
+            - 7.1a Basics of Nuclear Propulsion
+            - 7.1b Types of Nuclear Propulsion Systems
+            - 7.1c Advantages and Challenges
+        - '- Section: 7.2 Solar Sails:':
+            subsections:
+            - 7.2a Working Principle of Solar Sails
+            - 7.2b Performance Analysis and Applications
+            - 7.2c Current Research and Developments
+        - '- Section: 7.3 Antimatter Propulsion:':
+            subsections:
+            - 7.3a Basics of Antimatter Propulsion
+            - 7.3b Challenges and Potential Solutions
+            - 7.3c Role in Future Space Missions
+        - '- Section: 7.4 Interstellar Propulsion:':
+            subsections:
+            - 7.4a Basics of Interstellar Propulsion
+            - 7.4b Current Research and Developments
+            - 7.4c Future Directions
+    - '- Chapter 8: Space Propulsion Systems and Mission Design:':
+        sections:
+        - '- Section: 8.1 Spacecraft Propulsion System Architecture:':
+            subsections:
+            - 8.1a Basics of Propulsion System Architecture
+            - 8.1b Design Considerations and Challenges
+            - 8.1c Case Studies
+        - '- Section: 8.2 Propulsion System Integration and Testing:':
+            subsections:
+            - 8.2a Integration of Propulsion Systems
+            - 8.2b Testing Techniques and Procedures
+            - 8.2c Safety and Efficiency Considerations
+        - '- Section: 8.3 Mission Design for Space Propulsion:':
+            subsections:
+            - 8.3a Basics of Mission Design
+            - 8.3b Role of Propulsion in Mission Design
+            - 8.3c Case Studies
+        - '- Section: 8.4 Propellant Depots and In-Situ Resource Utilization:':
+            subsections:
+            - 8.4a Basics of Propellant Depots
+            - 8.4b In-Situ Resource Utilization Techniques
+            - 8.4c Role in Future Space Missions
+    - '- Chapter 9: Future Trends and Challenges in Space Propulsion:':
+        sections:
+        - '- Section: 9.1 Emerging Propulsion Technologies:':
+            subsections:
+            - 9.1a Overview of Emerging Technologies
+            - 9.1b Role in Future Space Missions
+            - 9.1c Challenges and Opportunities
+        - '- Section: 9.2 Environmental Impacts and Sustainability:':
+            subsections:
+            - 9.2a Environmental Impacts of Space Propulsion
+            - 9.2b Sustainability Considerations
+            - 9.2c Future Directions
+        - '- Section: 9.3 Regulatory and Policy Considerations in Space Propulsion:':
+            subsections:
+            - 9.3a Overview of Regulatory Framework
+            - 9.3b Policy Considerations and Challenges
+            - 9.3c Future Directions
+        - '- Section: 9.4 Space Propulsion in the Age of Commercial Spaceflight:':
+            subsections:
+            - 9.4a Role of Commercial Entities in Space Propulsion
+            - 9.4b Current Trends and Developments
+            - 9.4c Future Directions
+    - '- Chapter 10: Advanced Propulsion System Design:':
+        sections:
+        - '- Section: 10.1 Design Methodologies:':
+            subsections:
+            - 10.1a Overview of Design Methodologies
+            - 10.1b Role in Advanced Propulsion Systems
+            - 10.1c Case Studies
+        - '- Section: 10.2 Advanced Materials in Propulsion Systems:':
+            subsections:
+            - 10.2a Role of Advanced Materials
+            - 10.2b Current Research and Developments
+            - 10.2c Future Directions
+        - '- Section: 10.3 Propulsion System Optimization:':
+            subsections:
+            - 10.3a Basics of Optimization
+            - 10.3b Techniques for Propulsion System Optimization
+            - 10.3c Case Studies
+        - '- Section: 10.4 Safety and Risk Management in Propulsion Systems:':
+            subsections:
+            - 10.4a Importance of Safety and Risk Management
+            - 10.4b Techniques and Procedures
+            - 10.4c Case Studies
+    - '- Chapter 11: Propulsion for Small Satellites:':
+        sections:
+        - '- Section: 11.1 Overview of Small Satellite Propulsion:':
+            subsections:
+            - 11.1a Basics of Small Satellite Propulsion
+            - 11.1b Current Trends and Developments
+            - 11.1c Future Directions
+        - '- Section: 11.2 Micropropulsion Systems:':
+            subsections:
+            - 11.2a Basics of Micropropulsion Systems
+            - 11.2b Applications and Limitations
+            - 11.2c Current Research and Developments
+        - '- Section: 11.3 Propulsion for CubeSats:':
+            subsections:
+            - 11.3a Basics of CubeSat Propulsion
+            - 11.3b Current Trends and Developments
+            - 11.3c Future Directions
+        - '- Section: 11.4 Propulsion for NanoSats:':
+            subsections:
+            - 11.4a Basics of NanoSat Propulsion
+            - 11.4b Current Trends and Developments
+            - 11.4c Future Directions
+    - '- Chapter 12: Propulsion for Deep Space Missions:':
+        sections:
+        - '- Section: 12.1 Overview of Deep Space Propulsion:':
+            subsections:
+            - 12.1a Basics of Deep Space Propulsion
+            - 12.1b Current Trends and Developments
+            - 12.1c Future Directions
+        - '- Section: 12.2 Nuclear Propulsion for Deep Space Missions:':
+            subsections:
+            - 12.2a Basics of Nuclear Propulsion
+            - 12.2b Applications and Limitations
+            - 12.2c Current Research and Developments
+        - '- Section: 12.3 Electric Propulsion for Deep Space Missions:':
+            subsections:
+            - 12.3a Basics of Electric Propulsion
+            - 12.3b Applications and Limitations
+            - 12.3c Current Research and Developments
+        - '- Section: 12.4 Advanced Propulsion Concepts for Deep Space Missions:':
+            subsections:
+            - 12.4a Overview of Advanced Propulsion Concepts
+            - 12.4b Role in Future Deep Space Missions
+            - 12.4c Challenges and Opportunities
+    - '- Chapter 13: Propulsion for Lunar and Mars Missions:':
+        sections:
+        - '- Section: 13.1 Overview of Lunar and Mars Propulsion:':
+            subsections:
+            - 13.1a Basics of Lunar and Mars Propulsion
+            - 13.1b Current Trends and Developments
+            - 13.1c Future Directions
+        - '- Section: 13.2 Propulsion for Lunar Landers:':
+            subsections:
+            - 13.2a Basics of Lunar Lander Propulsion
+            - 13.2b Current Trends and Developments
+            - 13.2c Future Directions
+        - '- Section: 13.3 Propulsion for Mars Rovers:':
+            subsections:
+            - 13.3a Basics of Mars Rover Propulsion
+            - 13.3b Current Trends and Developments
+            - 13.3c Future Directions
+        - '- Section: 13.4 Advanced Propulsion Concepts for Lunar and Mars Missions:':
+            subsections:
+            - 13.4a Overview of Advanced Propulsion Concepts
+            - 13.4b Role in Future Lunar and Mars Missions
+            - 13.4c Challenges and Opportunities
+    - '- Chapter 14: Propulsion for Interplanetary Missions:':
+        sections:
+        - '- Section: 14.1 Overview of Interplanetary Propulsion:':
+            subsections:
+            - 14.1a Basics of Interplanetary Propulsion
+            - 14.1b Current Trends and Developments
+            - 14.1c Future Directions
+        - '- Section: 14.2 Propulsion for Asteroid Missions:':
+            subsections:
+            - 14.2a Basics of Asteroid Mission Propulsion
+            - 14.2b Current Trends and Developments
+            - 14.2c Future Directions
+        - '- Section: 14.3 Propulsion for Comet Missions:':
+            subsections:
+            - 14.3a Basics of Comet Mission Propulsion
+            - 14.3b Current Trends and Developments
+            - 14.3c Future Directions
+        - '- Section: 14.4 Advanced Propulsion Concepts for Interplanetary Missions:':
+            subsections:
+            - 14.4a Overview of Advanced Propulsion Concepts
+            - 14.4b Role in Future Interplanetary Missions
+            - 14.4c Challenges and Opportunities
+    - '- Chapter 15: Propulsion for Orbital Transfer:':
+        sections:
+        - '- Section: 15.1 Overview of Orbital Transfer Propulsion:':
+            subsections:
+            - 15.1a Basics of Orbital Transfer Propulsion
+            - 15.1b Current Trends and Developments
+            - 15.1c Future Directions
+        - '- Section: 15.2 Propulsion for Geostationary Orbit Transfer:':
+            subsections:
+            - 15.2a Basics of Geostationary Orbit Transfer Propulsion
+            - 15.2b Current Trends and Developments
+            - 15.2c Future Directions
+        - '- Section: 15.3 Propulsion for Low Earth Orbit Transfer:':
+            subsections:
+            - 15.3a Basics of Low Earth Orbit Transfer Propulsion
+            - 15.3b Current Trends and Developments
+            - 15.3c Future Directions
+        - '- Section: 15.4 Advanced Propulsion Concepts for Orbital Transfer:':
+            subsections:
+            - 15.4a Overview of Advanced Propulsion Concepts
+            - 15.4b Role in Future Orbital Transfer Missions
+            - 15.4c Challenges and Opportunities
+    - '- Chapter 16: Propulsion for Satellite Deployment:':
+        sections:
+        - '- Section: 16.1 Overview of Satellite Deployment Propulsion:':
+            subsections:
+            - 16.1a Basics of Satellite Deployment Propulsion
+            - 16.1b Current Trends and Developments
+            - 16.1c Future Directions
+        - '- Section: 16.2 Propulsion for Geostationary Satellites:':
+            subsections:
+            - 16.2a Basics of Geostationary Satellite Propulsion
+            - 16.2b Current Trends and Developments
+            - 16.2c Future Directions
+        - '- Section: 16.3 Propulsion for Low Earth Orbit Satellites:':
+            subsections:
+            - 16.3a Basics of Low Earth Orbit Satellite Propulsion
+            - 16.3b Current Trends and Developments
+            - 16.3c Future Directions
+        - '- Section: 16.4 Advanced Propulsion Concepts for Satellite Deployment:':
+            subsections:
+            - 16.4a Overview of Advanced Propulsion Concepts
+            - 16.4b Role in Future Satellite Deployment
+            - 16.4c Challenges and Opportunities
+    - '- Chapter 17: Propulsion for Space Station Resupply:':
+        sections:
+        - '- Section: 17.1 Overview of Space Station Resupply Propulsion:':
+            subsections:
+            - 17.1a Basics of Space Station Resupply Propulsion
+            - 17.1b Current Trends and Developments
+            - 17.1c Future Directions
+        - '- Section: 17.2 Propulsion for Cargo Resupply:':
+            subsections:
+            - 17.2a Basics of Cargo Resupply Propulsion
+            - 17.2b Current Trends and Developments
+            - 17.2c Future Directions
+        - '- Section: 17.3 Propulsion for Crew Resupply:':
+            subsections:
+            - 17.3a Basics of Crew Resupply Propulsion
+            - 17.3b Current Trends and Developments
+            - 17.3c Future Directions
+        - '- Section: 17.4 Advanced Propulsion Concepts for Space Station Resupply:':
+            subsections:
+            - 17.4a Overview of Advanced Propulsion Concepts
+            - 17.4b Role in Future Space Station Resupply
+            - 17.4c Challenges and Opportunities
+    - '- Chapter 18: Propulsion for Space Debris Removal:':
+        sections:
+        - '- Section: 18.1 Overview of Space Debris Removal Propulsion:':
+            subsections:
+            - 18.1a Basics of Space Debris Removal Propulsion
+            - 18.1b Current Trends and Developments
+            - 18.1c Future Directions
+        - '- Section: 18.2 Propulsion for Active Debris Removal:':
+            subsections:
+            - 18.2a Basics of Active Debris Removal Propulsion
+            - 18.2b Current Trends and Developments
+            - 18.2c Future Directions
+        - '- Section: 18.3 Propulsion for Passive Debris Removal:':
+            subsections:
+            - 18.3a Basics of Passive Debris Removal Propulsion
+            - 18.3b Current Trends and Developments
+            - 18.3c Future Directions
+        - '- Section: 18.4 Advanced Propulsion Concepts for Space Debris Removal:':
+            subsections:
+            - 18.4a Overview of Advanced Propulsion Concepts
+            - 18.4b Role in Future Space Debris Removal
+            - 18.4c Challenges and Opportunities
+    - '- Chapter 19: Propulsion for Space Tourism:':
+        sections:
+        - '- Section: 19.1 Overview of Space Tourism Propulsion:':
+            subsections:
+            - 19.1a Basics of Space Tourism Propulsion
+            - 19.1b Current Trends and Developments
+            - 19.1c Future Directions
+        - '- Section: 19.2 Propulsion for Suborbital Space Tourism:':
+            subsections:
+            - 19.2a Basics of Suborbital Space Tourism Propulsion
+            - 19.2b Current Trends and Developments
+            - 19.2c Future Directions
+        - '- Section: 19.3 Propulsion for Orbital Space Tourism:':
+            subsections:
+            - 19.3a Basics of Orbital Space Tourism Propulsion
+            - 19.3b Current Trends and Developments
+            - 19.3c Future Directions
+        - '- Section: 19.4 Advanced Propulsion Concepts for Space Tourism:':
+            subsections:
+            - 19.4a Overview of Advanced Propulsion Concepts
+            - 19.4b Role in Future Space Tourism
+            - 19.4c Challenges and Opportunities
+    - '- Chapter 20: Propulsion for Space Mining:':
+        sections:
+        - '- Section: 20.1 Overview of Space Mining Propulsion:':
+            subsections:
+            - 20.1a Basics of Space Mining Propulsion
+            - 20.1b Current Trends and Developments
+            - 20.1c Future Directions
+        - '- Section: 20.2 Propulsion for Asteroid Mining:':
+            subsections:
+            - 20.2a Basics of Asteroid Mining Propulsion
+            - 20.2b Current Trends and Developments
+            - 20.2c Future Directions
+        - '- Section: 20.3 Propulsion for Lunar Mining:':
+            subsections:
+            - 20.3a Basics of Lunar Mining Propulsion
+            - 20.3b Current Trends and Developments
+            - 20.3c Future Directions
+        - '- Section: 20.4 Advanced Propulsion Concepts for Space Mining:':
+            subsections:
+            - 20.4a Overview of Advanced Propulsion Concepts
+            - 20.4b Role in Future Space Mining

@@ -1,0 +1,253 @@
+textbook: 
+"Comprehensive Guide to Tumor Heterogeneity and the Tumor Microenvironment in Cancer Metastasis":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Lecture Summary:
+subsections:
+- 1.1a Overview of the Course
+- 1.1b Importance of Tumor Heterogeneity
+- 1.1c Role of the Tumor Microenvironment
+
+- Chapter 2: Epithelial-Mesenchymal Transition and Dissemination from the Primary Tumor:
+sections:
+- Section: 2.1 Lecture Summary:
+subsections:
+- 2.1a Definition of Epithelial-Mesenchymal Transition
+- 2.1b Role in Tumor Dissemination
+- 2.1c Key Regulators of the Process
+- Section: 2.2 Twist, a master regulator of morphogenesis, plays an essential role in tumor metastasis:
+subsections:
+- 2.2a Introduction to Twist
+- 2.2b Twist's Role in Metastasis
+- 2.2c Implications for Cancer Treatment
+- Section: 2.3 Ras and TGFÎ² cooperatively regulate epithelial cell plasticity and metastasis:
+subsections:
+- 2.3a Role of Ras in Cell Plasticity
+- 2.3b Role of TGFÎ² in Metastasis
+- 2.3c Interaction between Ras and TGFÎ²
+
+- Chapter 3: Cancer in Transit: Dynamics and Behaviors of Circulating Tumor Cells:
+sections:
+- Section: 3.1 Lecture Summary:
+subsections:
+- 3.1a Definition of Circulating Tumor Cells
+- 3.1b Dynamics of Circulating Tumor Cells
+- 3.1c Behavior of Circulating Tumor Cells
+
+- Chapter 4: Stromal Support of Dissemination:
+sections:
+- Section: 4.1 Lecture Summary:
+subsections:
+- 4.1a Role of the Stroma in Cancer
+- 4.1b How the Stroma Supports Dissemination
+- 4.1c Therapeutic Implications
+
+- Chapter 5: EMT Plasticity and Metastatic Colonization:
+sections:
+- Section: 5.1 Lecture Summary:
+subsections:
+- 5.1a Plasticity of EMT in Cancer
+- 5.1b Role in Metastatic Colonization
+- 5.1c Therapeutic Challenges
+
+- Chapter 6: Cancer Stem Cells:
+sections:
+- Section: 6.1 Lecture Summary:
+subsections:
+- 6.1a Definition of Cancer Stem Cells
+- 6.1b Role in Tumor Heterogeneity
+- 6.1c Implications for Cancer Treatment
+
+- Chapter 7: Genetic Heterogeneity and Evolution of Metastatic Disease:
+sections:
+- Section: 7.1 Lecture Summary:
+subsections:
+- 7.1a Genetic Heterogeneity in Cancer
+- 7.1b Evolution of Metastatic Disease
+- 7.1c Therapeutic Challenges
+
+- Chapter 8: Field Trip:
+sections:
+- Section: 8.1 Lecture Summary:
+subsections:
+- 8.1a Purpose of the Field Trip
+- 8.1b Observations and Findings
+- 8.1c Reflections and Learnings
+
+- Chapter 9: Determinants of Metastatic Tropism:
+sections:
+- Section: 9.1 Lecture Summary:
+subsections:
+- 9.1a Definition of Metastatic Tropism
+- 9.1b Factors Influencing Tropism
+- 9.1c Implications for Cancer Spread
+
+- Chapter 10: The Metastatic Niche:
+sections:
+- Section: 10.1 Lecture Summary:
+subsections:
+- 10.1a Definition of the Metastatic Niche
+- 10.1b Role in Cancer Metastasis
+- 10.1c Therapeutic Implications
+
+- Chapter 11: Systemic Effects and the Pre-metastatic Niche:
+sections:
+- Section: 11.1 Lecture Summary:
+subsections:
+- 11.1a Systemic Effects of Cancer
+- 11.1b The Pre-metastatic Niche
+- 11.1c Implications for Early Detection
+
+- Chapter 12: Interactions Between Dormant DTCs and the Immune System:
+sections:
+- Section: 12.1 Lecture Summary:
+subsections:
+- 12.1a Dormant Disseminated Tumor Cells (DTCs)
+- 12.1b Interactions with the Immune System
+- 12.1c Implications for Cancer Recurrence
+
+- Chapter 13: Oral Presentations and Closing Remarks:
+sections:
+- Section: 13.1 Lecture Summary:
+subsections:
+- 13.1a Overview of Oral Presentations
+- 13.1b Key Takeaways from the Course
+- 13.1c Closing Remarks
+
+- Chapter 14: Readings:
+sections:
+- Section: 14.1 'Cancer in Transit: Dynamics and Behaviors of Circulating Tumor Cells':
+subsections:
+- 14.1a Overview of the Reading
+- 14.1b Key Points
+- 14.1c Reflections
+- Section: 14.2 Stromal Support of Dissemination:
+subsections:
+- 14.2a Overview of the Reading
+- 14.2b Key Points
+- 14.2c Reflections
+- Section: 14.3 EMT Plasticity and Metastatic Colonization:
+subsections:
+- 14.3a Overview of the Reading
+- 14.3b Key Points
+- 14.3c Reflections
+- Section: 14.4 Cancer Stem Cells:
+subsections:
+- 14.4a Overview of the Reading
+- 14.4b Key Points
+- 14.4c Reflections
+- Section: 14.5 Genetic Heterogeneity and Evolution of Metastatic Disease:
+subsections:
+- 14.5a Overview of the Reading
+- 14.5b Key Points
+- 14.5c Reflections
+
+- Chapter 15: Assignments:
+sections:
+- Section: 15.1 Written critique of a scientific article:
+subsections:
+- 15.1a Assignment Instructions
+- 15.1b Expectations and Grading Criteria
+- 15.1c Reflections on the Assignment
+
+- Chapter 16: Syllabus:
+sections:
+- Section: 16.1 Introduction:
+subsections:
+- 16.1a Course Overview
+- 16.1b Course Objectives
+- 16.1c Course Requirements
+- Section: 16.2 Epithelial-Mesenchymal Transition and Dissemination from the Primary Tumor:
+subsections:
+- 16.2a Lecture Overview
+- 16.2b Learning Objectives
+- 16.2c Required Readings
+- Section: 16.3 'Cancer in Transit: Dynamics and Behaviors of Circulating Tumor Cells':
+subsections:
+- 16.3a Lecture Overview
+- 16.3b Learning Objectives
+- 16.3c Required Readings
+- Section: 16.4 Stromal Support of Dissemination:
+subsections:
+- 16.4a Lecture Overview
+- 16.4b Learning Objectives
+- 16.4c Required Readings
+- Section: 16.5 EMT Plasticity and Metastatic Colonization:
+subsections:
+- 16.5a Lecture Overview
+- 16.5b Learning Objectives
+- 16.5c Required Readings
+- Section: 16.6 Cancer Stem Cells:
+subsections:
+- 16.6a Lecture Overview
+- 16.6b Learning Objectives
+- 16.6c Required Readings
+- Section: 16.7 Genetic Heterogeneity and Evolution of Metastatic Disease:
+subsections:
+- 16.7a Lecture Overview
+- 16.7b Learning Objectives
+- 16.7c Required Readings
+- Section: 16.8 Field Trip:
+subsections:
+- 16.8a Field Trip Overview
+- 16.8b Learning Objectives
+- 16.8c Required Preparations
+- Section: 16.9 Determinants of Metastatic Tropism:
+subsections:
+- 16.9a Lecture Overview
+- 16.9b Learning Objectives
+- 16.9c Required Readings
+- Section: 16.10 The Metastatic Niche:
+subsections:
+- 16.10a Lecture Overview
+- 16.10b Learning Objectives
+- 16.10c Required Readings
+- Section: 16.11 Systemic Effects and the Pre-metastatic Niche:
+subsections:
+- 16.11a Lecture Overview
+- 16.11b Learning Objectives
+- 16.11c Required Readings
+- Section: 16.12 Interactions Between Dormant DTCs and the Immune System:
+subsections:
+- 16.12a Lecture Overview
+- 16.12b Learning Objectives
+- 16.12c Required Readings
+- Section: 16.13 Oral Presentations and Closing Remarks:
+subsections:
+- 16.13a Lecture Overview
+- 16.13b Learning Objectives
+- 16.13c Required Preparations
+
+- Chapter 17: Calendar:
+sections:
+- Section: 17.1 Lecture Schedule:
+subsections:
+- 17.1a Course Timeline
+- 17.1b Important Dates
+- 17.1c Exam Schedule
+
+- Chapter 18: Projects:
+sections:
+- Section: 18.1 Lecture Summary:
+subsections:
+- 18.1a Project Overview
+- 18.1b Project Requirements
+- 18.1c Grading Criteria
+
+- Chapter 19: Tumor Microenvironment:
+sections:
+- Section: 19.1 Lecture Summary:
+subsections:
+- 19.1a Definition of the Tumor Microenvironment
+- 19.1b Role in Tumor Progression
+- 19.1c Therapeutic Implications
+
+- Chapter 20: Tumor Heterogeneity:
+sections:
+- Section: 20.1 Lecture Summary:
+subsections:
+- 20.1a Definition of Tumor Heterogeneity
+- 20.1b Implications for Cancer Treatment
+- 20.1c Future Directions in Research

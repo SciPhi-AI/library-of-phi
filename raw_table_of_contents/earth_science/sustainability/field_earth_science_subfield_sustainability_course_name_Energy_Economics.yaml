@@ -1,0 +1,331 @@
+textbook:
+  'Energy Economics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction and Background Review of the Basics of Supply, Demand, and Price Formation:':
+        sections:
+        - '- Section: 1.1 Microeconomics:':
+            subsections:
+            - 1.1a Introduction to Microeconomics
+            - 1.1b Supply and Demand Analysis
+            - 1.1c Elasticity of Demand and Supply
+            - 1.1d Market Equilibrium and Efficiency
+        - '- Section: 1.2 Supply and Demand:':
+            subsections:
+            - 1.2a The Law of Supply and Demand
+            - 1.2b Factors Affecting Supply and Demand
+            - 1.2c Shifts in Supply and Demand Curves
+            - 1.2d Price Controls and Market Distortions
+        - '- Section: 1.3 Price Formation:':
+            subsections:
+            - 1.3a Determinants of Price
+            - 1.3b Price Elasticity of Demand and Supply
+            - 1.3c Market Structure and Pricing
+            - 1.3d Price Discovery Mechanisms
+    - '- Chapter 2: Energy Supply and the Economics of Depletable Resources:':
+        sections:
+        - '- Section: 2.1 Depletable Resources:':
+            subsections:
+            - 2.1a Classification of Depletable Resources
+            - 2.1b Resource Depletion and Extraction Costs
+            - 2.1c Resource Reserves and Production Profiles
+            - 2.1d Technological Advances and Resource Availability
+        - '- Section: 2.2 Energy Supply:':
+            subsections:
+            - 2.2a Primary Energy Sources
+            - 2.2b Energy Conversion and Transformation
+            - 2.2c Energy Supply Infrastructure
+            - 2.2d Energy Supply Security and Resilience
+        - '- Section: 2.3 Economics of Depletable Resources:':
+            subsections:
+            - 2.3a Resource Rent and Economic Rent
+            - 2.3b Resource Scarcity and Price Determination
+            - 2.3c Resource Development and Investment Decisions
+            - 2.3d Sustainable Resource Management
+    - '- Chapter 3: World Oil Markets and Energy Security:':
+        sections:
+        - '- Section: 3.1 Oil Markets:':
+            subsections:
+            - 3.1a Oil Market Structure and Participants
+            - 3.1b Oil Demand and Price Dynamics
+            - 3.1c Oil Production and Distribution
+            - 3.1d Oil Price Volatility and Risk Management
+        - '- Section: 3.2 Energy Security:':
+            subsections:
+            - 3.2a Energy Security Concepts and Indicators
+            - 3.2b Energy Supply Diversification Strategies
+            - 3.2c Energy Infrastructure Resilience
+            - 3.2d Geopolitical Factors and Energy Security
+    - '- Chapter 4: Natural Gas Price Regulation, Deregulation, and Markets:':
+        sections:
+        - '- Section: 4.1 Natural Gas Price Regulation:':
+            subsections:
+            - 4.1a Price Controls in Natural Gas Markets
+            - 4.1b Regulatory Frameworks and Market Oversight
+            - 4.1c Pricing Mechanisms and Tariffs
+            - 4.1d Price Subsidies and Government Intervention
+        - '- Section: 4.2 Natural Gas Deregulation:':
+            subsections:
+            - 4.2a Rationale for Deregulation
+            - 4.2b Market Liberalization and Competition
+            - 4.2c Regulatory Reforms and Market Design
+            - 4.2d Impacts and Challenges of Deregulation
+        - '- Section: 4.3 Natural Gas Markets:':
+            subsections:
+            - 4.3a Natural Gas Supply and Demand Drivers
+            - 4.3b Gas Trading Hubs and Pricing Benchmarks
+            - 4.3c Gas Infrastructure and Transportation
+            - 4.3d Market Integration and Global Gas Trade
+    - '- Chapter 5: Electricity:':
+        sections:
+        - '- Section: 5.1 Electricity Generation:':
+            subsections:
+            - 5.1a Power Plant Technologies and Efficiency
+            - 5.1b Electricity Generation Mix and Capacity Planning
+            - 5.1c Electricity Generation Economics
+            - 5.1d Environmental Impacts of Generation
+        - '- Section: 5.2 Electricity Transmission and Distribution:':
+            subsections:
+            - 5.2a Transmission Grid Infrastructure
+            - 5.2b Distribution Networks and Smart Grids
+            - 5.2c Electricity Losses and Efficiency
+            - 5.2d Electricity Market Integration
+        - '- Section: 5.3 Electricity Markets:':
+            subsections:
+            - 5.3a Market Structure and Market Participants
+            - 5.3b Electricity Market Mechanisms
+            - 5.3c Market Clearing and Price Formation
+            - 5.3d Electricity Market Regulation and Governance
+    - '- Chapter 6: Risk Management, Futures Markets, and Derivatives:':
+        sections:
+        - '- Section: 6.1 Risk Management:':
+            subsections:
+            - 6.1a Risk Identification and Assessment
+            - 6.1b Risk Mitigation and Hedging Strategies
+            - 6.1c Risk Transfer and Insurance
+            - 6.1d Enterprise Risk Management
+        - '- Section: 6.2 Futures Markets:':
+            subsections:
+            - 6.2a Futures Contracts and Trading Mechanisms
+            - 6.2b Price Discovery and Hedging
+            - 6.2c Speculation and Market Efficiency
+            - 6.2d Regulation and Oversight of Futures Markets
+        - '- Section: 6.3 Derivatives:':
+            subsections:
+            - 6.3a Options, Swaps, and Forwards
+            - 6.3b Hedging with Derivatives
+            - 6.3c Valuation and Pricing of Derivatives
+            - 6.3d Derivatives and Financial Risk Management
+    - '- Chapter 7: Energy and Climate Change:':
+        sections:
+        - '- Section: 7.1 Energy and Climate Change:':
+            subsections:
+            - 7.1a Energy Sector Contribution to Climate Change
+            - 7.1b Climate Change Impacts on Energy Systems
+            - 7.1c Energy Transition and Decarbonization
+            - 7.1d Energy Policies for Climate Mitigation
+        - '- Section: 7.2 Climate Change Mitigation:':
+            subsections:
+            - 7.2a Renewable Energy Deployment
+            - 7.2b Energy Efficiency Measures
+            - 7.2c Carbon Capture and Storage
+            - 7.2d Policy Instruments for Climate Mitigation
+    - '- Chapter 8: Internalizing Environmental Externalities with a Focus on CO2 Emissions Cap and Trade Mechanisms:':
+        sections:
+        - '- Section: 8.1 Environmental Externalities:':
+            subsections:
+            - 8.1a Market Failures and Externalities
+            - 8.1b Valuing Environmental Externalities
+            - 8.1c Internalizing Externalities through Pricing
+            - 8.1d Environmental Policies and Regulation
+        - '- Section: 8.2 CO2 Emissions Cap and Trade Mechanisms:':
+            subsections:
+            - 8.2a Carbon Pricing and Emissions Trading
+            - 8.2b Cap and Trade Design and Implementation
+            - 8.2c Market Dynamics and Price Volatility
+            - 8.2d Evaluating Cap and Trade Systems
+    - '- Chapter 9: Coal:':
+        sections:
+        - '- Section: 9.1 Coal as an Energy Source:':
+            subsections:
+            - 9.1a Coal Reserves and Production
+            - 9.1b Coal Mining and Extraction Methods
+            - 9.1c Coal Quality and Utilization Technologies
+            - 9.1d Environmental Impacts of Coal Use
+        - '- Section: 9.2 Coal Mining and Extraction:':
+            subsections:
+            - 9.2a Surface and Underground Mining
+            - 9.2b Coal Extraction Techniques and Equipment
+            - 9.2c Safety and Health in Coal Mining
+            - 9.2d Rehabilitation and Land Reclamation
+        - '- Section: 9.3 Environmental Impacts of Coal:':
+            subsections:
+            - 9.3a Air Pollution from Coal Combustion
+            - 9.3b Water Pollution from Coal Mining
+            - 9.3c Land Degradation and Ecosystem Impacts
+            - 9.3d Carbon Emissions from Coal Use
+    - '- Chapter 10: Nuclear Power:':
+        sections:
+        - '- Section: 10.1 Nuclear Power Generation:':
+            subsections:
+            - 10.1a Nuclear Fission and Power Reactors
+            - 10.1b Nuclear Fuel Cycle and Reactor Types
+            - 10.1c Nuclear Power Plant Operations
+            - 10.1d Safety and Risk Management in Nuclear Power
+        - '- Section: 10.2 Nuclear Reactor Technology:':
+            subsections:
+            - 10.2a Generation I, II, and III Reactors
+            - 10.2b Advanced Reactor Designs
+            - 10.2c Small Modular Reactors
+            - 10.2d Nuclear Fusion Research and Development
+        - '- Section: 10.3 Nuclear Waste Disposal:':
+            subsections:
+            - 10.3a Radioactive Waste Classification
+            - 10.3b Waste Management and Storage
+            - 10.3c Deep Geological Repositories
+            - 10.3d Policy and Regulation of Nuclear Waste
+    - '- Chapter 11: Energy Efficiency Policies:':
+        sections:
+        - '- Section: 11.1 Energy Efficiency Measures:':
+            subsections:
+            - 11.1a Energy Audit and Efficiency Assessment
+            - 11.1b Energy Efficient Technologies and Practices
+            - 11.1c Building Energy Efficiency
+            - 11.1d Industrial Energy Management
+        - '- Section: 11.2 Energy Efficiency Standards and Regulations:':
+            subsections:
+            - 11.2a Appliance and Equipment Efficiency Standards
+            - 11.2b Building Codes and Energy Performance Standards
+            - 11.2c Energy Labeling and Certification Programs
+            - 11.2d Market Transformation through Regulation
+    - '- Chapter 12: Renewable Energy Policies:':
+        sections:
+        - '- Section: 12.1 Renewable Energy Sources:':
+            subsections:
+            - 12.1a Solar Energy Technologies
+            - 12.1b Wind Energy Technologies
+            - 12.1c Hydropower Technologies
+            - 12.1d Biomass and Bioenergy Technologies
+        - '- Section: 12.2 Renewable Energy Technologies:':
+            subsections:
+            - 12.2a Photovoltaic Systems and Applications
+            - 12.2b Wind Turbines and Power Plants
+            - 12.2c Hydroelectric Power Systems
+            - 12.2d Bioenergy Conversion Technologies
+        - '- Section: 12.3 Renewable Energy Incentives and Subsidies:':
+            subsections:
+            - 12.3a Feed-in Tariffs and Power Purchase Agreements
+            - 12.3b Renewable Portfolio Standards and Targets
+            - 12.3c Investment Tax Credits and Grants
+            - 12.3d Green Certificates and Tradable Instruments
+    - '- Chapter 13: Energy Policy and Regulation:':
+        sections:
+        - '- Section: 13.1 Energy Policy:':
+            subsections:
+            - 13.1a Energy Policy Objectives and Instruments
+            - 13.1b Energy Policy Evaluation and Impact Assessment
+            - 13.1c Energy Policy Reform and Transition
+            - 13.1d International Energy Policy Cooperation
+        - '- Section: 13.2 Energy Regulation:':
+            subsections:
+            - 13.2a Regulatory Institutions and Governance
+            - 13.2b Regulatory Tools and Mechanisms
+            - 13.2c Regulation of Energy Markets and Infrastructure
+            - 13.2d Regulatory Challenges and Future Trends
+    - '- Chapter 14: Energy Markets and Trading:':
+        sections:
+        - '- Section: 14.1 Energy Markets:':
+            subsections:
+            - 14.1a Energy Market Structure and Participants
+            - 14.1b Energy Market Mechanisms and Trading
+            - 14.1c Energy Price Formation and Volatility
+            - 14.1d Energy Market Regulation and Oversight
+        - '- Section: 14.2 Energy Trading:':
+            subsections:
+            - 14.2a Energy Trading Instruments and Strategies
+            - 14.2b Energy Derivatives and Risk Management
+            - 14.2c Energy Trading Platforms and Infrastructure
+            - 14.2d Compliance and Ethics in Energy Trading
+    - '- Chapter 15: Energy Finance and Investment:':
+        sections:
+        - '- Section: 15.1 Energy Finance:':
+            subsections:
+            - 15.1a Energy Project Financing and Investment
+            - 15.1b Energy Financial Risk Management
+            - 15.1c Energy Asset Valuation and Pricing
+            - 15.1d Energy Financial Regulation and Reporting
+        - '- Section: 15.2 Energy Investment:':
+            subsections:
+            - 15.2a Energy Investment Decision Making
+            - 15.2b Energy Investment Risks and Returns
+            - 15.2c Energy Infrastructure Investment
+            - 15.2d Sustainable and Responsible Energy Investment
+    - '- Chapter 16: Energy Economics Research and Education:':
+        sections:
+        - '- Section: 16.1 Energy Economics Research:':
+            subsections:
+            - 16.1a Energy Economics Research Methods
+            - 16.1b Energy Economics Research Topics and Trends
+            - 16.1c Energy Economics Research Impact and Dissemination
+            - 16.1d Collaboration and Networking in Energy Economics Research
+        - '- Section: 16.2 Energy Education:':
+            subsections:
+            - 16.2a Energy Education Programs and Curricula
+            - 16.2b Teaching Methods in Energy Education
+            - 16.2c Energy Literacy and Public Awareness
+            - 16.2d Future Directions in Energy Education
+    - '- Chapter 17: Energy Modeling and Forecasting:':
+        sections:
+        - '- Section: 17.1 Energy Modeling:':
+            subsections:
+            - 17.1a Energy System Modeling
+            - 17.1b Energy Market Modeling
+            - 17.1c Energy Policy and Scenario Modeling
+            - 17.1d Energy Modeling Tools and Software
+        - '- Section: 17.2 Energy Forecasting:':
+            subsections:
+            - 17.2a Energy Demand Forecasting
+            - 17.2b Energy Price Forecasting
+            - 17.2c Energy Technology and Policy Forecasting
+            - 17.2d Uncertainty and Risk in Energy Forecasting
+    - '- Chapter 18: Energy and Sustainable Development:':
+        sections:
+        - '- Section: 18.1 Energy and Sustainable Development:':
+            subsections:
+            - 18.1a Energy and Economic Development
+            - 18.1b Energy and Social Development
+            - 18.1c Energy and Environmental Sustainability
+            - 18.1d Energy and Sustainable Development Goals
+        - '- Section: 18.2 Energy Transition and Sustainability:':
+            subsections:
+            - 18.2a Energy Transition Pathways and Scenarios
+            - 18.2b Energy Efficiency and Conservation
+            - 18.2c Renewable Energy and Decarbonization
+            - 18.2d Energy Justice and Equity
+    - '- Chapter 19: Energy and Innovation:':
+        sections:
+        - '- Section: 19.1 Energy Innovation:':
+            subsections:
+            - 19.1a Energy Technology Innovation
+            - 19.1b Energy Innovation Systems and Networks
+            - 19.1c Energy Innovation Policy and Financing
+            - 19.1d Energy Innovation and Market Transformation
+        - '- Section: 19.2 Energy and Digitalization:':
+            subsections:
+            - 19.2a Digital Technologies in Energy Systems
+            - 19.2b Smart Grids and Intelligent Energy Systems
+            - 19.2c Digitalization and Energy Market Transformation
+            - 19.2d Cybersecurity in Energy Systems
+    - '- Chapter 20: Energy and Society:':
+        sections:
+        - '- Section: 20.1 Energy and Society:':
+            subsections:
+            - 20.1a Energy and Social Change
+            - 20.1b Energy and Culture
+            - 20.1c Energy and Public Opinion
+            - 20.1d Energy and Social Movements
+        - '- Section: 20.2 Energy and Governance:':
+            subsections:
+            - 20.2a Energy Governance Institutions and Mechanisms
+            - 20.2b Energy Policy and Politics
+            - 20.2c Energy Law and Rights
+            - 20.2d Energy Diplomacy and Geopolitics

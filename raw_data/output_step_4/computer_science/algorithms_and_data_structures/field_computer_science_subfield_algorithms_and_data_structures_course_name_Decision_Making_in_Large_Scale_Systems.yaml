@@ -1,0 +1,159 @@
+textbook:
+  'Decision Making in Large Scale Systems: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Decision Making in Large Scale Systems:':
+        sections:
+        - '- Section: 1.1 What are Large Scale Systems?':
+            subsections: []
+        - '- Section: 1.2 Importance of Decision Making in Large Scale Systems':
+            subsections: []
+    - '- Chapter 2: Markov Decision Processes (MDPs):':
+        sections:
+        - '- Section: 2.1 Finite-Horizon Problems: Backwards Induction':
+            subsections: []
+        - '- Section: 2.2 Discounted-Cost Problems: Cost-to-Go Function, Bellman''s Equation':
+            subsections: []
+        - '- Section: 2.3 Value Iteration:':
+            subsections:
+            - 2.3a Existence and Uniqueness of Bellman's Equation Solution
+            - 2.3b Gauss-Seidel Value Iteration
+        - '- Section: 2.4 Optimality of Policies derived from the Cost-to-Go Function:':
+            subsections:
+            - 2.4a Policy Iteration
+            - 2.4b Asynchronous Policy Iteration
+    - '- Chapter 3: Average-Cost Problems in MDPs:':
+        sections:
+        - '- Section: 3.1 Relationship with Discounted-Cost Problems':
+            subsections: []
+        - '- Section: 3.2 Bellman''s Equation Blackwell Optimality':
+            subsections: []
+    - '- Chapter 4: Application of Value Iteration:':
+        sections:
+        - '- Section: 4.1 Optimization of Multiclass Queueing Networks':
+            subsections: []
+    - '- Chapter 5: Reinforcement Learning:':
+        sections:
+        - '- Section: 5.1 Q-Learning':
+            subsections: []
+        - '- Section: 5.2 Stochastic Approximations: Lyapunov Function Analysis':
+            subsections: []
+        - '- Section: 5.3 Exploration versus Exploitation: The Complexity of Reinforcement Learning':
+            subsections: []
+    - '- Chapter 6: Value Function Approximation:':
+        sections:
+        - '- Section: 6.1 Introduction to Value Function Approximation:':
+            subsections:
+            - 6.1a Model Selection and Complexity
+            - 6.1b Introduction to Value Function Approximation Algorithms
+        - '- Section: 6.2 Temporal-Difference Learning with Value Function Approximation':
+            subsections: []
+    - '- Chapter 7: Approximate Linear Programming:':
+        sections:
+        - '- Section: 7.1 Efficient Solutions for Approximate Linear Programming':
+            subsections: []
+        - '- Section: 7.2 Efficient Solutions for Approximate Linear Programming: Factored MDPs':
+            subsections: []
+    - '- Chapter 8: Policy Search Methods:':
+        sections:
+        - '- Section: 8.1 Policy Search Methods for POMDPs':
+            subsections: []
+        - '- Section: 8.2 Guest Lecture: Prof. Nick Roy':
+            subsections: []
+        - '- Section: 8.3 Policy Search Methods: PEGASUS':
+            subsections: []
+    - '- Chapter 9: Decision Making in Complex Systems:':
+        sections:
+        - '- Section: 9.1 Decision Trees and Random Forests':
+            subsections: []
+        - '- Section: 9.2 Bayesian Decision Theory':
+            subsections: []
+        - '- Section: 9.3 Multi-Criteria Decision Making':
+            subsections: []
+    - '- Chapter 10: Game Theory and Decision Making:':
+        sections:
+        - '- Section: 10.1 Introduction to Game Theory':
+            subsections: []
+        - '- Section: 10.2 Nash Equilibrium':
+            subsections: []
+        - '- Section: 10.3 Applications of Game Theory in Decision Making':
+            subsections: []
+    - '- Chapter 11: Decision Making under Uncertainty:':
+        sections:
+        - '- Section: 11.1 Probability and Decision Making':
+            subsections: []
+        - '- Section: 11.2 Bayesian Decision Making':
+            subsections: []
+        - '- Section: 11.3 Risk Analysis and Management':
+            subsections: []
+    - '- Chapter 12: Decision Making in Operations Research:':
+        sections:
+        - '- Section: 12.1 Linear Programming':
+            subsections: []
+        - '- Section: 12.2 Integer Programming':
+            subsections: []
+        - '- Section: 12.3 Dynamic Programming':
+            subsections: []
+    - '- Chapter 13: Decision Making in Supply Chain Management:':
+        sections:
+        - '- Section: 13.1 Supply Chain Design':
+            subsections: []
+        - '- Section: 13.2 Inventory Management':
+            subsections: []
+        - '- Section: 13.3 Demand Forecasting':
+            subsections: []
+    - '- Chapter 14: Decision Making in Project Management:':
+        sections:
+        - '- Section: 14.1 Project Scheduling':
+            subsections: []
+        - '- Section: 14.2 Risk Management in Projects':
+            subsections: []
+        - '- Section: 14.3 Decision Making in Agile Projects':
+            subsections: []
+    - '- Chapter 15: Decision Making in Strategic Management:':
+        sections:
+        - '- Section: 15.1 Strategic Decision Making Process':
+            subsections: []
+        - '- Section: 15.2 Decision Making Tools in Strategic Management':
+            subsections: []
+        - '- Section: 15.3 Case Studies in Strategic Decision Making':
+            subsections: []
+    - '- Chapter 16: Decision Making in Financial Management:':
+        sections:
+        - '- Section: 16.1 Investment Decision Making':
+            subsections: []
+        - '- Section: 16.2 Financial Risk Management':
+            subsections: []
+        - '- Section: 16.3 Portfolio Management':
+            subsections: []
+    - '- Chapter 17: Decision Making in Marketing Management:':
+        sections:
+        - '- Section: 17.1 Market Segmentation and Targeting':
+            subsections: []
+        - '- Section: 17.2 Product Decision Making':
+            subsections: []
+        - '- Section: 17.3 Pricing Decision Making':
+            subsections: []
+    - '- Chapter 18: Decision Making in Human Resource Management:':
+        sections:
+        - '- Section: 18.1 Recruitment and Selection':
+            subsections: []
+        - '- Section: 18.2 Performance Management':
+            subsections: []
+        - '- Section: 18.3 Training and Development':
+            subsections: []
+    - '- Chapter 19: Decision Making in Information Systems Management:':
+        sections:
+        - '- Section: 19.1 Information Systems Planning':
+            subsections: []
+        - '- Section: 19.2 IT Project Management':
+            subsections: []
+        - '- Section: 19.3 IT Governance':
+            subsections: []
+    - '- Chapter 20: Decision Making in Environmental Management:':
+        sections:
+        - '- Section: 20.1 Environmental Impact Assessment':
+            subsections: []
+        - '- Section: 20.2 Waste Management':
+            subsections: []
+        - '- Section: 20.3 Sustainable Development':
+            subsections: []

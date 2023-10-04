@@ -1,0 +1,146 @@
+textbook:
+  'Optimization Methods in Management Science: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Number partition problem:':
+            subsections:
+            - 1.1a Introduction to number partition problem
+            - 1.1b Algorithms for solving number partition problem
+    - '- Chapter 2: Formulations of linear and non-linear programs:':
+        sections:
+        - '- Section: 2.1 Diet problem:':
+            subsections:
+            - 2.1a Introduction to diet problem
+            - 2.1b Mathematical formulation of diet problem
+            - 2.1c Solving diet problem using linear programming
+            - 2.1d Sensitivity analysis for diet problem
+    - '- Chapter 3: Geometry and visualizations of linear programs:':
+        sections:
+        - '- Section: 3.1 Simplex method spreadsheets:':
+            subsections:
+            - 3.1a Introduction to simplex method spreadsheets
+            - 3.1b Constructing simplex tableau using spreadsheets
+            - 3.1c Interpreting simplex tableau
+    - '- Chapter 4: The simplex method 1:':
+        sections:
+        - '- Section: 4.1 Initial and final tableaus:':
+            subsections:
+            - 4.1a Introduction to simplex method
+            - 4.1b Constructing initial tableau
+            - 4.1c Performing pivot operations
+            - 4.1d Obtaining final tableau
+    - '- Chapter 5: The simplex method 2:':
+        sections:
+        - '- Section: 5.1 Sensitivity analysis and shadow prices:':
+            subsections:
+            - 5.1a Sensitivity analysis in linear programming
+            - 5.1b Shadow prices and their interpretation
+            - 5.1c Determining allowable ranges of coefficients
+    - '- Chapter 6: Game theory 1: 2-person 0-sum, or constant sum:':
+        sections:
+        - '- Section: 6.1 Game theory 2:':
+            subsections:
+            - 6.1a Introduction to game theory
+            - 6.1b Strategies and payoffs in 2-person games
+            - 6.1c Solving 2-person 0-sum games using linear programming
+    - '- Chapter 7: Introduction to integer programming:':
+        sections:
+        - '- Section: 7.1 Integer programming formulations:':
+            subsections:
+            - 7.1a Introduction to integer programming
+            - 7.1b Mathematical formulation of integer programming
+            - 7.1c Solving integer programming using branch and bound method
+    - '- Chapter 8: Integer programming techniques 1: branch and bound:':
+        sections:
+        - '- Section: 8.1 Integer programming techniques 2: cutting planes:':
+            subsections:
+            - 8.1a Introduction to cutting plane method
+            - 8.1b Generating cutting planes for integer programming problems
+            - 8.1c Combining branch and bound with cutting plane methods
+    - '- Chapter 9: Integer programming formulations, again:':
+        sections:
+        - '- Section: 9.1 Networks 1: Shortest path problem:':
+            subsections:
+            - 9.1a Introduction to shortest path problem
+            - 9.1b Algorithms for solving shortest path problem
+    - '- Chapter 10: Networks 2: Network flows:':
+        sections:
+        - '- Section: 10.1 Networks 3: Traveling salesman problem:':
+            subsections:
+            - 10.1a Introduction to network flow problems
+            - 10.1b Max flow and min cut theorems
+            - 10.1c Solving network flow problems using linear programming
+            - 10.1d Introduction to traveling salesman problem
+            - 10.1e Algorithms for solving traveling salesman problem
+    - '- Chapter 11: Decision trees 1:':
+        sections:
+        - '- Section: 11.1 Decision trees 2: the value of information:':
+            subsections:
+            - 11.1a Introduction to decision trees
+            - 11.1b Constructing decision trees
+            - 11.1c Evaluating decision trees with uncertainty
+            - 11.1d Value of information analysis
+    - '- Chapter 12: Behavioral economics:':
+        sections:
+        - '- Section: 12.1 Project reports:':
+            subsections:
+            - 12.1a Guidelines for project reports
+            - 12.1b Structuring project reports
+            - 12.1c Analyzing and presenting project results
+    - '- Chapter 13: Advanced Linear Programming Techniques:':
+        sections:
+        - '- Section: 13.1 Duality in Linear Programming:':
+            subsections:
+            - 13.1a Introduction to Duality
+            - 13.1b Primal-Dual Relationships
+            - 13.1c Dual Simplex Method
+    - '- Chapter 14: Nonlinear Programming:':
+        sections:
+        - '- Section: 14.1 Unconstrained Optimization:':
+            subsections:
+            - 14.1a Introduction to Unconstrained Optimization
+            - 14.1b Gradient Descent Method
+            - 14.1c Newton's Method
+    - '- Chapter 15: Constrained Optimization:':
+        sections:
+        - '- Section: 15.1 Lagrange Multipliers:':
+            subsections:
+            - 15.1a Introduction to Lagrange Multipliers
+            - 15.1b Solving Constrained Optimization Problems
+            - 15.1c Interpretation of Lagrange Multipliers
+    - '- Chapter 16: Dynamic Programming:':
+        sections:
+        - '- Section: 16.1 Introduction to Dynamic Programming:':
+            subsections:
+            - 16.1a Principles of Optimality
+            - 16.1b Bellman's Equation
+            - 16.1c Applications of Dynamic Programming
+    - '- Chapter 17: Stochastic Programming:':
+        sections:
+        - '- Section: 17.1 Introduction to Stochastic Programming:':
+            subsections:
+            - 17.1a Modeling Uncertainty in Optimization
+            - 17.1b Two-Stage Stochastic Programming
+            - 17.1c Scenario Analysis
+    - '- Chapter 18: Multi-objective Optimization:':
+        sections:
+        - '- Section: 18.1 Pareto Optimality:':
+            subsections:
+            - 18.1a Introduction to Multi-objective Optimization
+            - 18.1b Pareto Optimal Solutions
+            - 18.1c Weighted Sum Approach
+    - '- Chapter 19: Heuristic Methods:':
+        sections:
+        - '- Section: 19.1 Genetic Algorithms:':
+            subsections:
+            - 19.1a Introduction to Genetic Algorithms
+            - 19.1b Genetic Operators
+            - 19.1c Applications of Genetic Algorithms
+    - '- Chapter 20: Metaheuristics:':
+        sections:
+        - '- Section: 20.1 Simulated Annealing:':
+            subsections:
+            - 20.1a Introduction to Simulated Annealing
+            - 20.1b Cooling Schedule
+            - 20.1c Applications of Simulated Annealing

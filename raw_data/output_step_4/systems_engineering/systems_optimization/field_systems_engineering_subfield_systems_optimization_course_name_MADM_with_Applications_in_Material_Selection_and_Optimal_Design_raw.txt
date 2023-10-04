@@ -1,0 +1,431 @@
+textbook: 
+"MADM with Applications in Material Selection and Optimal Design: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Multiple Attribute Decision Making (MADM):
+sections:
+- Section: 1.1 Definition of MADM:
+subsections:
+- 1.1a Introduction to MADM
+- 1.1b Importance of MADM
+- 1.1c Applications of MADM
+
+- Section: 1.2 Decision-making under uncertainty:
+subsections:
+- 1.2a Definition of Uncertainty
+- 1.2b Types of Uncertainty
+- 1.2c Managing Uncertainty in Decision Making
+
+- Section: 1.3 Decision-making under risk:
+subsections:
+- 1.3a Definition of Risk
+- 1.3b Risk Assessment
+- 1.3c Risk Management in Decision Making
+
+- Section: 1.4 Decision-making under certainty:
+subsections:
+- 1.4a Definition of Certainty
+- 1.4b Certainty in Decision Making
+- 1.4c Challenges of Decision Making under Certainty
+
+- Chapter 2: Methods of Multiple Attribute Decision Making:
+sections:
+- Section: 2.1 Weighted Sum Model (WSM):
+subsections:
+- 2.1a Introduction to WSM
+- 2.1b Application of WSM
+- 2.1c Advantages and Limitations of WSM
+
+- Section: 2.2 Analytic Hierarchy Process (AHP):
+subsections:
+- 2.2a Introduction to AHP
+- 2.2b Application of AHP
+- 2.2c Advantages and Limitations of AHP
+
+- Section: 2.3 Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS):
+subsections:
+- 2.3a Introduction to TOPSIS
+- 2.3b Application of TOPSIS
+- 2.3c Advantages and Limitations of TOPSIS
+
+- Section: 2.4 ELECTRE Method:
+subsections:
+- 2.4a Introduction to ELECTRE
+- 2.4b Application of ELECTRE
+- 2.4c Advantages and Limitations of ELECTRE
+
+- Section: 2.5 PROMETHEE Method:
+subsections:
+- 2.5a Introduction to PROMETHEE
+- 2.5b Application of PROMETHEE
+- 2.5c Advantages and Limitations of PROMETHEE
+
+- Section: 2.6 Grey Relational Analysis (GRA):
+subsections:
+- 2.6a Introduction to GRA
+- 2.6b Application of GRA
+- 2.6c Advantages and Limitations of GRA
+
+- Chapter 3: Material Selection in Mechanical Design:
+sections:
+- Section: 3.1 Design requirements and constraints:
+subsections:
+- 3.1a Definition of Design Requirements
+- 3.1b Definition of Design Constraints
+- 3.1c Balancing Requirements and Constraints in Design
+
+- Section: 3.2 Material property selection criteria:
+subsections:
+- 3.2a Introduction to Material Properties
+- 3.2b Criteria for Material Selection
+- 3.2c Material Selection Process
+
+- Section: 3.3 Material selection charts and databases:
+subsections:
+- 3.3a Introduction to Material Selection Charts
+- 3.3b Using Material Selection Databases
+- 3.3c Advantages and Limitations of Charts and Databases
+
+- Section: 3.4 Ashby material selection method:
+subsections:
+- 3.4a Introduction to Ashby Method
+- 3.4b Application of Ashby Method
+- 3.4c Advantages and Limitations of Ashby Method
+
+- Section: 3.5 Multi-objective material selection:
+subsections:
+- 3.5a Introduction to Multi-objective Selection
+- 3.5b Application of Multi-objective Selection
+- 3.5c Advantages and Limitations of Multi-objective Selection
+
+- Section: 3.6 Sustainable material selection:
+subsections:
+- 3.6a Introduction to Sustainable Selection
+- 3.6b Application of Sustainable Selection
+- 3.6c Advantages and Limitations of Sustainable Selection
+
+- Chapter 4: Optimal Design:
+sections:
+- Section: 4.1 Design objectives and constraints:
+subsections:
+- 4.1a Definition of Design Objectives
+- 4.1b Definition of Design Constraints
+- 4.1c Balancing Objectives and Constraints in Design
+
+- Section: 4.2 Single-objective optimization techniques:
+subsections:
+- 4.2a Introduction to Single-objective Optimization
+- 4.2b Application of Single-objective Optimization
+- 4.2c Advantages and Limitations of Single-objective Optimization
+
+- Section: 4.3 Multi-objective optimization techniques:
+subsections:
+- 4.3a Introduction to Multi-objective Optimization
+- 4.3b Application of Multi-objective Optimization
+- 4.3c Advantages and Limitations of Multi-objective Optimization
+
+- Section: 4.4 Pareto optimality:
+subsections:
+- 4.4a Introduction to Pareto Optimality
+- 4.4b Application of Pareto Optimality
+- 4.4c Advantages and Limitations of Pareto Optimality
+
+- Section: 4.5 Evolutionary algorithms:
+subsections:
+- 4.5a Introduction to Evolutionary Algorithms
+- 4.5b Application of Evolutionary Algorithms
+- 4.5c Advantages and Limitations of Evolutionary Algorithms
+
+- Section: 4.6 Case studies in optimal design:
+subsections:
+- 4.6a Case Study 1: Optimal Design in Aerospace
+- 4.6b Case Study 2: Optimal Design in Automotive
+- 4.6c Case Study 3: Optimal Design in Consumer Electronics
+
+- Chapter 5: Design of Experiments:
+sections:
+- Section: 5.1 Taguchi approach to experimental design:
+subsections:
+- 5.1a Introduction to Taguchi Approach
+- 5.1b Application of Taguchi Approach
+- 5.1c Advantages and Limitations of Taguchi Approach
+
+- Section: 5.2 Orthogonal arrays:
+subsections:
+- 5.2a Introduction to Orthogonal Arrays
+- 5.2b Application of Orthogonal Arrays
+- 5.2c Advantages and Limitations of Orthogonal Arrays
+
+- Section: 5.3 Signal-to-noise ratio:
+subsections:
+- 5.3a Definition of Signal-to-noise Ratio
+- 5.3b Importance of Signal-to-noise Ratio in Design
+- 5.3c Techniques to Improve Signal-to-noise Ratio
+
+- Section: 5.4 Analysis of variance (ANOVA):
+subsections:
+- 5.4a Introduction to ANOVA
+- 5.4b Application of ANOVA in Design
+- 5.4c Advantages and Limitations of ANOVA
+
+- Section: 5.5 Robust design:
+subsections:
+- 5.5a Introduction to Robust Design
+- 5.5b Application of Robust Design
+- 5.5c Advantages and Limitations of Robust Design
+
+- Chapter 6: Case Studies in Material Selection and Optimal Design:
+sections:
+- Section: 6.1 Weight critical ship material selection using MADM:
+subsections:
+- 6.1a Introduction to Weight Critical Ship Material Selection
+- 6.1b Application of MADM in Ship Material Selection
+- 6.1c Case Study: Ship Material Selection
+
+- Section: 6.2 Optimization of structural components in aerospace design:
+subsections:
+- 6.2a Introduction to Optimization in Aerospace Design
+- 6.2b Application of Optimization Techniques in Aerospace Design
+- 6.2c Case Study: Aerospace Design Optimization
+
+- Section: 6.3 Material selection for automotive applications:
+subsections:
+- 6.3a Introduction to Material Selection in Automotive Applications
+- 6.3b Application of Material Selection Techniques in Automotive Applications
+- 6.3c Case Study: Automotive Material Selection
+
+- Section: 6.4 Optimal design of composite materials:
+subsections:
+- 6.4a Introduction to Optimal Design of Composite Materials
+- 6.4b Application of Optimal Design Techniques in Composite Materials
+- 6.4c Case Study: Composite Material Design
+
+- Section: 6.5 Sustainable material selection in product design:
+subsections:
+- 6.5a Introduction to Sustainable Material Selection in Product Design
+- 6.5b Application of Sustainable Material Selection Techniques in Product Design
+- 6.5c Case Study: Sustainable Product Design
+
+- Chapter 7: Applications of MADM and Optimal Design in Industry:
+sections:
+- Section: 7.1 Manufacturing process selection:
+subsections:
+- 7.1a Introduction to Manufacturing Process Selection
+- 7.1b Application of MADM in Manufacturing Process Selection
+- 7.1c Case Study: Manufacturing Process Selection
+
+- Section: 7.2 Supplier selection and evaluation:
+subsections:
+- 7.2a Introduction to Supplier Selection and Evaluation
+- 7.2b Application of MADM in Supplier Selection and Evaluation
+- 7.2c Case Study: Supplier Selection and Evaluation
+
+- Section: 7.3 Project portfolio management:
+subsections:
+- 7.3a Introduction to Project Portfolio Management
+- 7.3b Application of MADM in Project Portfolio Management
+- 7.3c Case Study: Project Portfolio Management
+
+- Section: 7.4 Resource allocation in supply chains:
+subsections:
+- 7.4a Introduction to Resource Allocation in Supply Chains
+- 7.4b Application of MADM in Resource Allocation
+- 7.4c Case Study: Resource Allocation in Supply Chains
+
+- Section: 7.5 Decision support systems for engineering design:
+subsections:
+- 7.5a Introduction to Decision Support Systems
+- 7.5b Application of Decision Support Systems in Engineering Design
+- 7.5c Case Study: Decision Support Systems in Design
+
+- Section: 7.6 Cost optimization in product development:
+subsections:
+- 7.6a Introduction to Cost Optimization in Product Development
+- 7.6b Application of MADM in Cost Optimization
+- 7.6c Case Study: Cost Optimization in Product Development
+
+- Chapter 8: Future Trends in MADM and Optimal Design:
+sections:
+- Section: 8.1 Data-driven decision-making:
+subsections:
+- 8.1a Introduction to Data-driven Decision-making
+- 8.1b Application of Data-driven Decision-making in Design
+- 8.1c Future Trends in Data-driven Decision-making
+
+- Section: 8.2 Integration of artificial intelligence techniques:
+subsections:
+- 8.2a Introduction to Artificial Intelligence in Design
+- 8.2b Application of AI Techniques in Design
+- 8.2c Future Trends in AI in Design
+
+- Section: 8.3 Multi-disciplinary design optimization:
+subsections:
+- 8.3a Introduction to Multi-disciplinary Design Optimization
+- 8.3b Application of Multi-disciplinary Design Optimization
+- 8.3c Future Trends in Multi-disciplinary Design Optimization
+
+- Section: 8.4 Sustainable design and life cycle assessment:
+subsections:
+- 8.4a Introduction to Sustainable Design and Life Cycle Assessment
+- 8.4b Application of Sustainable Design and Life Cycle Assessment
+- 8.4c Future Trends in Sustainable Design and Life Cycle Assessment
+
+- Section: 8.5 Industry 4.0 and digitalization in engineering design:
+subsections:
+- 8.5a Introduction to Industry 4.0 and Digitalization
+- 8.5b Application of Industry 4.0 and Digitalization in Design
+- 8.5c Future Trends in Industry 4.0 and Digitalization
+
+- Section: 8.6 Ethics and social responsibility in decision-making:
+subsections:
+- 8.6a Introduction to Ethics and Social Responsibility in Decision-making
+- 8.6b Application of Ethics and Social Responsibility in Decision-making
+- 8.6c Future Trends in Ethics and Social Responsibility in Decision-making
+
+- Chapter 9: Advanced Topics in MADM:
+sections:
+- Section: 9.1 Fuzzy MADM:
+subsections:
+- 9.1a Introduction to Fuzzy MADM
+- 9.1b Application of Fuzzy MADM
+- 9.1c Advantages and Limitations of Fuzzy MADM
+
+- Section: 9.2 Interval MADM:
+subsections:
+- 9.2a Introduction to Interval MADM
+- 9.2b Application of Interval MADM
+- 9.2c Advantages and Limitations of Interval MADM
+
+- Section: 9.3 Stochastic MADM:
+subsections:
+- 9.3a Introduction to Stochastic MADM
+- 9.3b Application of Stochastic MADM
+- 9.3c Advantages and Limitations of Stochastic MADM
+
+- Section: 9.4 Hybrid MADM:
+subsections:
+- 9.4a Introduction to Hybrid MADM
+- 9.4b Application of Hybrid MADM
+- 9.4c Advantages and Limitations of Hybrid MADM
+
+- Chapter 10: Advanced Topics in Optimal Design:
+sections:
+- Section: 10.1 Genetic Algorithms in Optimal Design:
+subsections:
+- 10.1a Introduction to Genetic Algorithms
+- 10.1b Application of Genetic Algorithms in Optimal Design
+- 10.1c Advantages and Limitations of Genetic Algorithms
+
+- Section: 10.2 Particle Swarm Optimization in Optimal Design:
+subsections:
+- 10.2a Introduction to Particle Swarm Optimization
+- 10.2b Application of Particle Swarm Optimization in Optimal Design
+- 10.2c Advantages and Limitations of Particle Swarm Optimization
+
+- Section: 10.3 Ant Colony Optimization in Optimal Design:
+subsections:
+- 10.3a Introduction to Ant Colony Optimization
+- 10.3b Application of Ant Colony Optimization in Optimal Design
+- 10.3c Advantages and Limitations of Ant Colony Optimization
+
+- Section: 10.4 Simulated Annealing in Optimal Design:
+subsections:
+- 10.4a Introduction to Simulated Annealing
+- 10.4b Application of Simulated Annealing in Optimal Design
+- 10.4c Advantages and Limitations of Simulated Annealing
+
+- Chapter 11: Advanced Topics in Material Selection:
+sections:
+- Section: 11.1 Material Selection for Biomedical Applications:
+subsections:
+- 11.1a Introduction to Material Selection for Biomedical Applications
+- 11.1b Application of MADM in Biomedical Material Selection
+- 11.1c Case Study: Biomedical Material Selection
+
+- Section: 11.2 Material Selection for Energy Applications:
+subsections:
+- 11.2a Introduction to Material Selection for Energy Applications
+- 11.2b Application of MADM in Energy Material Selection
+- 11.2c Case Study: Energy Material Selection
+
+- Section: 11.3 Material Selection for Environmental Applications:
+subsections:
+- 11.3a Introduction to Material Selection for Environmental Applications
+- 11.3b Application of MADM in Environmental Material Selection
+- 11.3c Case Study: Environmental Material Selection
+
+- Section: 11.4 Material Selection for Infrastructure Applications:
+subsections:
+- 11.4a Introduction to Material Selection for Infrastructure Applications
+- 11.4b Application of MADM in Infrastructure Material Selection
+- 11.4c Case Study: Infrastructure Material Selection
+
+- Chapter 12: Advanced Topics in Design of Experiments:
+sections:
+- Section: 12.1 Fractional Factorial Design:
+subsections:
+- 12.1a Introduction to Fractional Factorial Design
+- 12.1b Application of Fractional Factorial Design
+- 12.1c Advantages and Limitations of Fractional Factorial Design
+
+- Section: 12.2 Response Surface Methodology:
+subsections:
+- 12.2a Introduction to Response Surface Methodology
+- 12.2b Application of Response Surface Methodology
+- 12.2c Advantages and Limitations of Response Surface Methodology
+
+- Section: 12.3 Box-Behnken Design:
+subsections:
+- 12.3a Introduction to Box-Behnken Design
+- 12.3b Application of Box-Behnken Design
+- 12.3c Advantages and Limitations of Box-Behnken Design
+
+- Section: 12.4 Central Composite Design:
+subsections:
+- 12.4a Introduction to Central Composite Design
+- 12.4b Application of Central Composite Design
+- 12.4c Advantages and Limitations of Central Composite Design
+
+- Chapter 13: Advanced Topics in Case Studies:
+sections:
+- Section: 13.1 Case Study: Material Selection for Renewable Energy Applications:
+subsections:
+- 13.1a Introduction to Material Selection for Renewable Energy Applications
+- 13.1b Application of MADM in Renewable Energy Material Selection
+- 13.1c Case Study: Renewable Energy Material Selection
+
+- Section: 13.2 Case Study: Optimal Design of Renewable Energy Systems:
+subsections:
+- 13.2a Introduction to Optimal Design of Renewable Energy Systems
+- 13.2b Application of Optimal Design Techniques in Renewable Energy Systems
+- 13.2c Case Study: Renewable Energy System Design
+
+- Section: 13.3 Case Study: Material Selection for Biodegradable Products:
+subsections:
+- 13.3a Introduction to Material Selection for Biodegradable Products
+- 13.3b Application of MADM in Biodegradable Product Material Selection
+- 13.3c Case Study: Biodegradable Product Material Selection
+
+- Section: 13.4 Case Study: Optimal Design of Biodegradable Products:
+subsections:
+- 13.4a Introduction to Optimal Design of Biodegradable Products
+- 13.4b Application of Optimal Design Techniques in Biodegradable Products
+- 13.4c Case Study: Biodegradable Product Design
+
+- Chapter 14: Advanced Topics in Applications of MADM and Optimal Design:
+sections:
+- Section: 14.1 Application in Healthcare Industry:
+subsections:
+- 14.1a Introduction to MADM and Optimal Design in Healthcare
+- 14.1b Application of MADM and Optimal Design in Healthcare
+- 14.1c Case Study: Healthcare Industry
+
+- Section: 14.2 Application in Manufacturing Industry:
+subsections:
+- 14.2a Introduction to MADM and Optimal Design in Manufacturing
+- 14.2b Application of MADM and Optimal Design in Manufacturing
+- 14.2c Case Study: Manufacturing Industry
+
+- Section: 14.3 Application in Service Industry:
+subsections:
+- 14.3a Introduction to M

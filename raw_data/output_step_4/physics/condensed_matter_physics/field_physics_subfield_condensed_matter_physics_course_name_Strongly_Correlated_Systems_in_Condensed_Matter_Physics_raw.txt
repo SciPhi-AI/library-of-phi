@@ -1,0 +1,519 @@
+textbook: 
+"Strongly Correlated Systems in Condensed Matter Physics: A Comprehensive Introduction":
+
+chapters:
+- Chapter 1: Coherent States:
+sections:
+- Section: 1.1 Introduction to Coherent States:
+subsections:
+- 1.1a Definition of Coherent States
+- 1.1b Historical Background
+- 1.1c Basic Properties
+
+- Section: 1.2 Properties of Coherent States:
+subsections:
+- 1.2a Mathematical Properties
+- 1.2b Physical Properties
+- 1.2c Coherent State Superpositions
+
+- Section: 1.3 Applications of Coherent States:
+subsections:
+- 1.3a Quantum Optics
+- 1.3b Quantum Information
+- 1.3c Condensed Matter Physics
+
+- Chapter 2: Squeezed States:
+sections:
+- Section: 2.1 Introduction to Squeezed States:
+subsections:
+- 2.1a Definition of Squeezed States
+- 2.1b Historical Background
+- 2.1c Basic Properties
+
+- Section: 2.2 Properties of Squeezed States:
+subsections:
+- 2.2a Mathematical Properties
+- 2.2b Physical Properties
+- 2.2c Squeezed State Superpositions
+
+- Section: 2.3 Applications of Squeezed States:
+subsections:
+- 2.3a Quantum Optics
+- 2.3b Quantum Information
+- 2.3c Condensed Matter Physics
+
+- Chapter 3: Second Quantization:
+sections:
+- Section: 3.1 Introduction to Second Quantization:
+subsections:
+- 3.1a Historical Background
+- 3.1b Basic Concepts
+- 3.1c Field Operators
+
+- Section: 3.2 Operators in Second Quantization:
+subsections:
+- 3.2a Creation and Annihilation Operators
+- 3.2b Commutation and Anticommutation Relations
+- 3.2c Hamiltonian Operator
+
+- Section: 3.3 Field Operators:
+subsections:
+- 3.3a Definition and Properties
+- 3.3b Field Operator in Different Representations
+- 3.3c Applications in Condensed Matter Physics
+
+- Section: 3.4 Occupation Number Representation:
+subsections:
+- 3.4a Definition and Properties
+- 3.4b Occupation Number Basis
+- 3.4c Applications in Condensed Matter Physics
+
+- Chapter 4: Bose Condensation:
+sections:
+- Section: 4.1 Introduction to Bose Condensation:
+subsections:
+- 4.1a Historical Background
+- 4.1b Basic Concepts
+- 4.1c Bose-Einstein Condensation
+
+- Section: 4.2 Properties of Bose Condensates:
+subsections:
+- 4.2a Ground State Properties
+- 4.2b Excited State Properties
+- 4.2c Finite Size Effects
+
+- Section: 4.3 Quasiparticles in Bose Condensates:
+subsections:
+- 4.3a Bogoliubov Quasiparticles
+- 4.3b Quasiparticle Excitations
+- 4.3c Quasiparticle Interactions
+
+- Section: 4.4 Vortices in Bose Condensates:
+subsections:
+- 4.4a Vortex Formation
+- 4.4b Vortex Dynamics
+- 4.4c Vortex Lattices
+
+- Section: 4.5 Finite Temperature Effects in Bose Condensates:
+subsections:
+- 4.5a Thermal Excitations
+- 4.5b Bose-Einstein Condensation Temperature
+- 4.5c Finite Temperature Phase Transitions
+
+- Chapter 5: Superfluidity and Vortices:
+sections:
+- Section: 5.1 Introduction to Superfluidity:
+subsections:
+- 5.1a Historical Background
+- 5.1b Basic Concepts
+- 5.1c Superfluid Phase Transitions
+
+- Section: 5.2 Properties of Superfluids:
+subsections:
+- 5.2a Zero Viscosity
+- 5.2b Quantum Vortices
+- 5.2c Superfluid Density
+
+- Section: 5.3 Vortices in Superfluids:
+subsections:
+- 5.3a Vortex Formation
+- 5.3b Vortex Dynamics
+- 5.3c Vortex Lattices
+
+- Section: 5.4 Finite Temperature Effects in Superfluids:
+subsections:
+- 5.4a Thermal Excitations
+- 5.4b Superfluid Transition Temperature
+- 5.4c Finite Temperature Phase Transitions
+
+- Chapter 6: Interacting Fermions:
+sections:
+- Section: 6.1 Introduction to Interacting Fermions:
+subsections:
+- 6.1a Historical Background
+- 6.1b Basic Concepts
+- 6.1c Fermi-Dirac Statistics
+
+- Section: 6.2 Many-body Interactions in Fermionic Systems:
+subsections:
+- 6.2a Two-body Interactions
+- 6.2b Many-body Interactions
+- 6.2c Interaction Effects on Fermi Surface
+
+- Section: 6.3 Fermi Gases:
+subsections:
+- 6.3a Ideal Fermi Gas
+- 6.3b Interacting Fermi Gas
+- 6.3c Fermi Gas in Different Dimensions
+
+- Section: 6.4 Fermi Liquids:
+subsections:
+- 6.4a Fermi Liquid Theory
+- 6.4b Quasiparticles in Fermi Liquids
+- 6.4c Fermi Liquid Instabilities
+
+- Section: 6.5 Collective Modes in Fermionic Systems:
+subsections:
+- 6.5a Plasmons
+- 6.5b Spin Waves
+- 6.5c Other Collective Modes
+
+- Chapter 7: Bardeen-Cooper-Schrieffer Theory:
+sections:
+- Section: 7.1 Introduction to BCS Theory:
+subsections:
+- 7.1a Historical Background
+- 7.1b Basic Concepts
+- 7.1c Cooper Pairing Mechanism
+
+- Section: 7.2 Cooper Pairs:
+subsections:
+- 7.2a Cooper Pair Formation
+- 7.2b Properties of Cooper Pairs
+- 7.2c Cooper Pairing in Different Systems
+
+- Section: 7.3 Quasiparticles in Superconductors:
+subsections:
+- 7.3a Bogoliubov Quasiparticles
+- 7.3b Quasiparticle Excitations
+- 7.3c Quasiparticle Interactions
+
+- Section: 7.4 BCS Wavefunction:
+subsections:
+- 7.4a BCS Ground State
+- 7.4b BCS Excited States
+- 7.4c BCS Wavefunction in Different Systems
+
+- Section: 7.5 Energy Gap in Superconductors:
+subsections:
+- 7.5a Definition and Properties
+- 7.5b Energy Gap Equation
+- 7.5c Energy Gap in Different Systems
+
+- Chapter 8: Quasiparticle Transport in Superconductors:
+sections:
+- Section: 8.1 Introduction to Quasiparticle Transport:
+subsections:
+- 8.1a Basic Concepts
+- 8.1b Quasiparticle Transport Equations
+- 8.1c Quasiparticle Transport in Different Systems
+
+- Section: 8.2 Quasiparticle Scattering:
+subsections:
+- 8.2a Scattering Mechanisms
+- 8.2b Scattering Rates
+- 8.2c Scattering Effects on Transport Properties
+
+- Section: 8.3 Quasiparticle Tunneling:
+subsections:
+- 8.3a Tunneling Mechanisms
+- 8.3b Tunneling Rates
+- 8.3c Tunneling Effects on Transport Properties
+
+- Section: 8.4 Quasiparticle Diffusion:
+subsections:
+- 8.4a Diffusion Mechanisms
+- 8.4b Diffusion Coefficients
+- 8.4c Diffusion Effects on Transport Properties
+
+- Section: 8.5 Superconducting Proximity Effect:
+subsections:
+- 8.5a Basic Concepts
+- 8.5b Proximity Effect in Different Systems
+- 8.5c Proximity Effect on Transport Properties
+
+- Chapter 9: Path Integral:
+sections:
+- Section: 9.1 Introduction to Path Integral:
+subsections:
+- 9.1a Historical Background
+- 9.1b Basic Concepts
+- 9.1c Path Integral Formulation of Quantum Mechanics
+
+- Section: 9.2 Path Integral Formulation of Quantum Mechanics:
+subsections:
+- 9.2a Path Integral in Quantum Mechanics
+- 9.2b Path Integral in Quantum Field Theory
+- 9.2c Path Integral in Statistical Mechanics
+
+- Section: 9.3 Path Integrals in Condensed Matter Physics:
+subsections:
+- 9.3a Path Integral Formulation of Many-body Systems
+- 9.3b Path Integral Formulation of Quantum Phase Transitions
+- 9.3c Path Integral Formulation of Topological Phases
+
+- Section: 9.4 Applications of Path Integral Formalism:
+subsections:
+- 9.4a Path Integral in Quantum Optics
+- 9.4b Path Integral in Quantum Information
+- 9.4c Path Integral in Condensed Matter Physics
+
+- Chapter 10: Quantum Tunneling and Escape:
+sections:
+- Section: 10.1 Introduction to Quantum Tunneling:
+subsections:
+- 10.1a Historical Background
+- 10.1b Basic Concepts
+- 10.1c Tunneling in Different Systems
+
+- Section: 10.2 Tunneling Phenomena in Condensed Matter Systems:
+subsections:
+- 10.2a Tunneling in Superconductors
+- 10.2b Tunneling in Quantum Dots
+- 10.2c Tunneling in Nanoscale Devices
+
+- Section: 10.3 Escape Phenomena in Condensed Matter Systems:
+subsections:
+- 10.3a Escape in Superconductors
+- 10.3b Escape in Quantum Dots
+- 10.3c Escape in Nanoscale Devices
+
+- Section: 10.4 Quantum Dissipation and Decoherence:
+subsections:
+- 10.4a Quantum Dissipation in Different Systems
+- 10.4b Quantum Decoherence in Different Systems
+- 10.4c Control and Mitigation of Dissipation and Decoherence
+
+- Chapter 11: Field Integral, Bosons and Fermions:
+sections:
+- Section: 11.1 Introduction to Field Integral:
+subsections:
+- 11.1a Historical Background
+- 11.1b Basic Concepts
+- 11.1c Field Integral in Different Systems
+
+- Section: 11.2 Bosonic Fields:
+subsections:
+- 11.2a Bosonic Field Operators
+- 11.2b Bosonic Field Theories
+- 11.2c Bosonic Fields in Different Systems
+
+- Section: 11.3 Fermionic Fields:
+subsections:
+- 11.3a Fermionic Field Operators
+- 11.3b Fermionic Field Theories
+- 11.3c Fermionic Fields in Different Systems
+
+- Section: 11.4 Bosonization:
+subsections:
+- 11.4a Bosonization in 1D Systems
+- 11.4b Bosonization in Higher Dimensions
+- 11.4c Bosonization in Different Systems
+
+- Section: 11.5 Fermionization:
+subsections:
+- 11.5a Fermionization in 1D Systems
+- 11.5b Fermionization in Higher Dimensions
+- 11.5c Fermionization in Different Systems
+
+- Chapter 12: Quantum Phase Transitions:
+sections:
+- Section: 12.1 Introduction to Quantum Phase Transitions:
+subsections:
+- 12.1a Historical Background
+- 12.1b Basic Concepts
+- 12.1c Quantum Phase Transitions in Different Systems
+
+- Section: 12.2 Quantum Critical Points:
+subsections:
+- 12.2a Definition and Properties
+- 12.2b Quantum Critical Phenomena
+- 12.2c Quantum Critical Points in Different Systems
+
+- Section: 12.3 Quantum Phase Diagrams:
+subsections:
+- 12.3a Definition and Properties
+- 12.3b Quantum Phase Diagrams in Different Systems
+- 12.3c Quantum Phase Diagrams in Different Dimensions
+
+- Section: 12.4 Finite Temperature Effects:
+subsections:
+- 12.4a Finite Temperature Quantum Phase Transitions
+- 12.4b Finite Temperature Quantum Critical Phenomena
+- 12.4c Finite Temperature Effects in Different Systems
+
+- Chapter 13: Topological Phases:
+sections:
+- Section: 13.1 Introduction to Topological Phases:
+subsections:
+- 13.1a Historical Background
+- 13.1b Basic Concepts
+- 13.1c Topological Phases in Different Systems
+
+- Section: 13.2 Topological Invariants:
+subsections:
+- 13.2a Definition and Properties
+- 13.2b Topological Invariants in Different Systems
+- 13.2c Topological Invariants in Different Dimensions
+
+- Section: 13.3 Topological Phase Transitions:
+subsections:
+- 13.3a Definition and Properties
+- 13.3b Topological Phase Transitions in Different Systems
+- 13.3c Topological Phase Transitions in Different Dimensions
+
+- Section: 13.4 Topological Quantum Computation:
+subsections:
+- 13.4a Basic Concepts
+- 13.4b Topological Quantum Computation in Different Systems
+- 13.4c Challenges and Prospects
+
+- Chapter 14: Quantum Hall Effects:
+sections:
+- Section: 14.1 Introduction to Quantum Hall Effects:
+subsections:
+- 14.1a Historical Background
+- 14.1b Basic Concepts
+- 14.1c Quantum Hall Effects in Different Systems
+
+- Section: 14.2 Integer Quantum Hall Effect:
+subsections:
+- 14.2a Definition and Properties
+- 14.2b Integer Quantum Hall Effect in Different Systems
+- 14.2c Integer Quantum Hall Effect in Different Dimensions
+
+- Section: 14.3 Fractional Quantum Hall Effect:
+subsections:
+- 14.3a Definition and Properties
+- 14.3b Fractional Quantum Hall Effect in Different Systems
+- 14.3c Fractional Quantum Hall Effect in Different Dimensions
+
+- Section: 14.4 Quantum Spin Hall Effect:
+subsections:
+- 14.4a Definition and Properties
+- 14.4b Quantum Spin Hall Effect in Different Systems
+- 14.4c Quantum Spin Hall Effect in Different Dimensions
+
+- Chapter 15: Quantum Magnetism:
+sections:
+- Section: 15.1 Introduction to Quantum Magnetism:
+subsections:
+- 15.1a Historical Background
+- 15.1b Basic Concepts
+- 15.1c Quantum Magnetism in Different Systems
+
+- Section: 15.2 Quantum Spin Models:
+subsections:
+- 15.2a Heisenberg Model
+- 15.2b Ising Model
+- 15.2c Other Quantum Spin Models
+
+- Section: 15.3 Quantum Spin Liquids:
+subsections:
+- 15.3a Definition and Properties
+- 15.3b Quantum Spin Liquids in Different Systems
+- 15.3c Quantum Spin Liquids in Different Dimensions
+
+- Section: 15.4 Quantum Magnetism and Topological Phases:
+subsections:
+- 15.4a Quantum Spin Hall Effect
+- 15.4b Quantum Anomalous Hall Effect
+- 15.4c Other Topological Phases in Quantum Magnetism
+
+- Chapter 16: Quantum Information:
+sections:
+- Section: 16.1 Introduction to Quantum Information:
+subsections:
+- 16.1a Historical Background
+- 16.1b Basic Concepts
+- 16.1c Quantum Information in Different Systems
+
+- Section: 16.2 Quantum Entanglement:
+subsections:
+- 16.2a Definition and Properties
+- 16.2b Quantum Entanglement in Different Systems
+- 16.2c Quantum Entanglement in Different Dimensions
+
+- Section: 16.3 Quantum Computation:
+subsections:
+- 16.3a Basic Concepts
+- 16.3b Quantum Computation in Different Systems
+- 16.3c Challenges and Prospects
+
+- Section: 16.4 Quantum Error Correction:
+subsections:
+- 16.4a Basic Concepts
+- 16.4b Quantum Error Correction in Different Systems
+- 16.4c Challenges and Prospects
+
+- Chapter 17: Quantum Optics:
+sections:
+- Section: 17.1 Introduction to Quantum Optics:
+subsections:
+- 17.1a Historical Background
+- 17.1b Basic Concepts
+- 17.1c Quantum Optics in Different Systems
+
+- Section: 17.2 Quantum Light Sources:
+subsections:
+- 17.2a Single Photon Sources
+- 17.2b Entangled Photon Sources
+- 17.2c Quantum Light Sources in Different Systems
+
+- Section: 17.3 Quantum Light-Matter Interactions:
+subsections:
+- 17.3a Jaynes-Cummings Model
+- 17.3b Cavity QED
+- 17.3c Quantum Light-Matter Interactions in Different Systems
+
+- Section: 17.4 Quantum Optics and Quantum Information:
+subsections:
+- 17.4a Quantum Communication
+- 17.4b Quantum Cryptography
+- 17.4c Quantum Teleportation
+
+- Chapter 18: Quantum Metrology:
+sections:
+- Section: 18.1 Introduction to Quantum Metrology:
+subsections:
+- 18.1a Historical Background
+- 18.1b Basic Concepts
+- 18.1c Quantum Metrology in Different Systems
+
+- Section: 18.2 Quantum Parameter Estimation:
+subsections:
+- 18.2a Quantum Cramér-Rao Bound
+- 18.2b Quantum Fisher Information
+- 18.2c Quantum Parameter Estimation in Different Systems
+
+- Section: 18.3 Quantum Sensing:
+subsections:
+- 18.3a Quantum Magnetometry
+- 18.3b Quantum Gravimetry
+- 18.3c Quantum Sensing in Different Systems
+
+- Section: 18.4 Quantum Metrology and Quantum Information:
+subsections:
+- 18.4a Quantum Error Correction in Quantum Metrology
+- 18.4b Quantum Computation in Quantum Metrology
+- 18.4c Quantum Metrology in Quantum Information Systems
+
+- Chapter 19: Quantum Thermodynamics:
+sections:
+- Section: 19.1 Introduction to Quantum Thermodynamics:
+subsections:
+- 19.1a Historical Background
+- 19.1b Basic Concepts
+- 19.1c Quantum Thermodynamics in Different Systems
+
+- Section: 19.2 Quantum Heat Engines:
+subsections:
+- 19.2a Quantum Otto Cycle
+- 19.2b Quantum Carnot Cycle
+- 19.2c Quantum Heat Engines in Different Systems
+
+- Section: 19.3 Quantum Refrigerators:
+subsections:
+- 19.3a Quantum Absorption Refrigerator
+- 19.3b Quantum Carnot Refrigerator
+- 19.3c Quantum Refrigerators in Different Systems
+
+- Section: 19.4 Quantum Thermodynamics and Quantum Information:
+subsections:
+- 19.4a Quantum Entropy
+- 19.4b Quantum Maxwell's Demon
+- 19.4c Quantum Thermodynamics in Quantum Information Systems
+
+- Chapter 20: Quantum Machine Learning:
+sections:
+- Section: 20.1 Introduction to Quantum Machine Learning:

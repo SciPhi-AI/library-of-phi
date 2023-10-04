@@ -1,0 +1,334 @@
+textbook:
+  'Wave Motion in the Ocean and the Atmosphere: A Comprehensive Study":':
+    chapters:
+    - '- Chapter 1: Wave Properties:':
+        sections:
+        - '- Section: 1.1 Wave Characteristics:':
+            subsections:
+            - 1.1a Wave Amplitude
+            - 1.1b Wave Frequency
+            - 1.1c Wave Speed
+            - 1.1d Wave Period
+        - '- Section: 1.2 Wave Types:':
+            subsections:
+            - 1.2a Longitudinal Waves
+            - 1.2b Transverse Waves
+            - 1.2c Surface Waves
+            - 1.2d Internal Waves
+        - '- Section: 1.3 Wave Interactions:':
+            subsections:
+            - 1.3a Wave Superposition
+            - 1.3b Wave Interference
+            - 1.3c Wave Reflection
+            - 1.3d Wave Refraction
+        - '- Section: 1.4 Wave Dispersion:':
+            subsections:
+            - 1.4a Dispersion Relation
+            - 1.4b Group Velocity
+            - 1.4c Phase Velocity
+            - 1.4d Wave Packet
+    - '- Chapter 2: Slowly Varying Media: Ray Theory:':
+        sections:
+        - '- Section: 2.1 Ray Tracing:':
+            subsections:
+            - 2.1a Ray Path
+            - 2.1b Ray Diagram
+            - 2.1c Ray Tracing Algorithms
+            - 2.1d Applications of Ray Tracing
+        - '- Section: 2.2 Snell''s Law:':
+            subsections:
+            - 2.2a Law of Refraction
+            - 2.2b Critical Angle
+            - 2.2c Total Internal Reflection
+            - 2.2d Applications of Snell's Law
+        - '- Section: 2.3 Geometrical Optics:':
+            subsections:
+            - 2.3a Light Rays
+            - 2.3b Reflection and Refraction
+            - 2.3c Lenses and Mirrors
+            - 2.3d Optical Instruments
+        - '- Section: 2.4 Wavefronts:':
+            subsections:
+            - 2.4a Definition of Wavefront
+            - 2.4b Wavefront Shapes
+            - 2.4c Huygens' Principle
+            - 2.4d Wavefront Diagrams
+    - '- Chapter 3: Surface Gravity Waves:':
+        sections:
+        - '- Section: 3.1 Gravity Waves on Water Surface:':
+            subsections:
+            - 3.1a Wave Generation
+            - 3.1b Wave Propagation
+            - 3.1c Wave Breaking
+            - 3.1d Wave Energy Transfer
+        - '- Section: 3.2 Wave Height and Period:':
+            subsections:
+            - 3.2a Wave Height Measurement
+            - 3.2b Wave Period Calculation
+            - 3.2c Wave Height Distribution
+            - 3.2d Wave Period Distribution
+        - '- Section: 3.3 Wave Spectra:':
+            subsections:
+            - 3.3a Wave Energy Spectrum
+            - 3.3b Wave Frequency Spectrum
+            - 3.3c Wave Number Spectrum
+            - 3.3d Wave Directional Spectrum
+        - '- Section: 3.4 Wave Breaking:':
+            subsections:
+            - 3.4a Breaking Wave Types
+            - 3.4b Breaking Wave Energy Dissipation
+            - 3.4c Breaking Wave Turbulence
+            - 3.4d Breaking Wave Impact on Coastal Erosion
+    - '- Chapter 4: Energy Equation:':
+        sections:
+        - '- Section: 4.1 Wave Energy Conservation:':
+            subsections:
+            - 4.1a Energy Flux
+            - 4.1b Energy Dissipation Mechanisms
+            - 4.1c Wave-Induced Currents
+            - 4.1d Wave-Induced Turbulence
+        - '- Section: 4.2 Wave-Induced Mixing:':
+            subsections:
+            - 4.2a Mixing Layer
+            - 4.2b Turbulent Mixing
+            - 4.2c Stratified Mixing
+            - 4.2d Mixing Efficiency
+        - '- Section: 4.3 Wave-Induced Sediment Transport:':
+            subsections:
+            - 4.3a Bed Load Transport
+            - 4.3b Suspended Load Transport
+            - 4.3c Saltation Load Transport
+            - 4.3d Sediment Transport Models
+        - '- Section: 4.4 Wave Energy Transfer:':
+            subsections:
+            - 4.4a Wave-Wave Interactions
+            - 4.4b Wave-Current Interactions
+            - 4.4c Wave-Bottom Interactions
+            - 4.4d Wave-Air Interactions
+    - '- Chapter 5: Initial Value Problem - Homogeneous Medium:':
+        sections:
+        - '- Section: 5.1 Wave Equation:':
+            subsections:
+            - 5.1a Wave Equation Derivation
+            - 5.1b Wave Equation Solutions
+            - 5.1c Wave Equation Applications
+            - 5.1d Wave Equation Limitations
+        - '- Section: 5.2 Initial Conditions:':
+            subsections:
+            - 5.2a Initial Value Problem
+            - 5.2b Initial Wave Profile
+            - 5.2c Initial Wave Speed
+            - 5.2d Initial Wave Direction
+        - '- Section: 5.3 Boundary Conditions:':
+            subsections:
+            - 5.3a Boundary Value Problem
+            - 5.3b Boundary Reflection
+            - 5.3c Boundary Transmission
+            - 5.3d Boundary Absorption
+        - '- Section: 5.4 Dispersion Relation:':
+            subsections:
+            - 5.4a Dispersion Relation Derivation
+            - 5.4b Dispersion Relation Interpretation
+            - 5.4c Dispersion Relation Applications
+            - 5.4d Dispersion Relation Limitations
+    - '- Chapter 6: Internal Waves:':
+        sections:
+        - '- Section: 6.1 Internal Gravity Waves:':
+            subsections:
+            - 6.1a Internal Wave Generation
+            - 6.1b Internal Wave Propagation
+            - 6.1c Internal Wave Reflection
+            - 6.1d Internal Wave Interference
+        - '- Section: 6.2 Internal Wave Energy Flux:':
+            subsections:
+            - 6.2a Energy Flux Calculation
+            - 6.2b Energy Flux Distribution
+            - 6.2c Energy Flux Conservation
+            - 6.2d Energy Flux Dissipation
+        - '- Section: 6.3 Internal Wave Breaking:':
+            subsections:
+            - 6.3a Breaking Internal Wave Types
+            - 6.3b Breaking Internal Wave Energy Dissipation
+            - 6.3c Breaking Internal Wave Turbulence
+            - 6.3d Breaking Internal Wave Impact on Mixing
+        - '- Section: 6.4 Internal Wave Mixing:':
+            subsections:
+            - 6.4a Mixing Layer
+            - 6.4b Turbulent Mixing
+            - 6.4c Stratified Mixing
+            - 6.4d Mixing Efficiency
+    - '- Chapter 7: WKB Theory for Internal Gravity Waves - Non-Rotating Case:':
+        sections:
+        - '- Section: 7.1 WKB Approximation:':
+            subsections:
+            - 7.1a WKB Method
+            - 7.1b WKB Dispersion Relation
+            - 7.1c WKB Phase Integral
+            - 7.1d WKB Wave Function
+        - '- Section: 7.2 WKBJ Method:':
+            subsections:
+            - 7.2a WKBJ Approximation
+            - 7.2b WKBJ Dispersion Relation
+            - 7.2c WKBJ Phase Integral
+            - 7.2d WKBJ Wave Function
+        - '- Section: 7.3 WKB Tunneling:':
+            subsections:
+            - 7.3a Tunneling Phenomenon
+            - 7.3b Tunneling Probability
+            - 7.3c Tunneling Applications
+            - 7.3d Tunneling Limitations
+        - '- Section: 7.4 WKB Reflection and Transmission:':
+            subsections:
+            - 7.4a Reflection Coefficient
+            - 7.4b Transmission Coefficient
+            - 7.4c Reflection and Transmission Applications
+            - 7.4d Reflection and Transmission Limitations
+    - '- Chapter 8: Internal Waves Modified by Rotation - Unbounded Fluid:':
+        sections:
+        - '- Section: 8.1 Coriolis Effect:':
+            subsections:
+            - 8.1a Coriolis Force
+            - 8.1b Coriolis Effect on Wave Propagation
+            - 8.1c Coriolis Effect on Wave Energy Flux
+            - 8.1d Coriolis Effect on Wave Breaking
+        - '- Section: 8.2 Rossby Waves:':
+            subsections:
+            - 8.2a Rossby Wave Generation
+            - 8.2b Rossby Wave Propagation
+            - 8.2c Rossby Wave Reflection
+            - 8.2d Rossby Wave Interference
+        - "- Section: 8.3 Poincar\xE9 Waves:":
+            subsections:
+            - "8.3a Poincar\xE9 Wave Generation"
+            - "8.3b Poincar\xE9 Wave Propagation"
+            - "8.3c Poincar\xE9 Wave Reflection"
+            - "8.3d Poincar\xE9 Wave Interference"
+        - '- Section: 8.4 Kelvin Waves:':
+            subsections:
+            - 8.4a Kelvin Wave Generation
+            - 8.4b Kelvin Wave Propagation
+            - 8.4c Kelvin Wave Reflection
+            - 8.4d Kelvin Wave Interference
+    - '- Chapter 9: The Oceanic Wave Guide: Normal Modes of a Stratified, Rotating Fluid:':
+        sections:
+        - '- Section: 9.1 Oceanic Stratification:':
+            subsections:
+            - 9.1a Stratification Layers
+            - 9.1b Stratification Impact on Wave Propagation
+            - 9.1c Stratification Impact on Wave Energy Flux
+            - 9.1d Stratification Impact on Wave Breaking
+        - '- Section: 9.2 Normal Modes:':
+            subsections:
+            - 9.2a Normal Mode Analysis
+            - 9.2b Normal Mode Frequencies
+            - 9.2c Normal Mode Shapes
+            - 9.2d Normal Mode Applications
+        - '- Section: 9.3 Resonant Frequencies:':
+            subsections:
+            - 9.3a Resonance Phenomenon
+            - 9.3b Resonance Conditions
+            - 9.3c Resonance Impact on Wave Energy Flux
+            - 9.3d Resonance Impact on Wave Breaking
+        - '- Section: 9.4 Rossby Radius of Deformation:':
+            subsections:
+            - 9.4a Rossby Radius Definition
+            - 9.4b Rossby Radius Calculation
+            - 9.4c Rossby Radius Impact on Wave Propagation
+            - 9.4d Rossby Radius Impact on Wave Energy Flux
+    - '- Chapter 10: Unbounded Domain - Non-Rotating Reflection from a Solid Boundary:':
+        sections:
+        - '- Section: 10.1 Reflection Coefficient:':
+            subsections:
+            - 10.1a Reflection Coefficient Calculation
+            - 10.1b Reflection Coefficient Distribution
+            - 10.1c Reflection Coefficient Impact on Wave Energy Flux
+            - 10.1d Reflection Coefficient Impact on Wave Breaking
+        - '- Section: 10.2 Transmission Coefficient:':
+            subsections:
+            - 10.2a Transmission Coefficient Calculation
+            - 10.2b Transmission Coefficient Distribution
+            - 10.2c Transmission Coefficient Impact on Wave Energy Flux
+            - 10.2d Transmission Coefficient Impact on Wave Breaking
+        - '- Section: 10.3 Standing Waves:':
+            subsections:
+            - 10.3a Standing Wave Formation
+            - 10.3b Standing Wave Characteristics
+            - 10.3c Standing Wave Energy Flux
+            - 10.3d Standing Wave Dissipation
+        - '- Section: 10.4 Waveguide Modes:':
+            subsections:
+            - 10.4a Waveguide Mode Analysis
+            - 10.4b Waveguide Mode Frequencies
+            - 10.4c Waveguide Mode Shapes
+            - 10.4d Waveguide Mode Applications
+    - '- Chapter 11: Laplace Tidal Equations on the Sphere:':
+        sections:
+        - '- Section: 11.1 Tidal Forces:':
+            subsections:
+            - 11.1a Tidal Force Calculation
+            - 11.1b Tidal Force Distribution
+            - 11.1c Tidal Force Impact on Wave Propagation
+            - 11.1d Tidal Force Impact on Wave Energy Flux
+        - '- Section: 11.2 Tidal Potential:':
+            subsections:
+            - 11.2a Tidal Potential Calculation
+            - 11.2b Tidal Potential Distribution
+            - 11.2c Tidal Potential Impact on Wave Propagation
+            - 11.2d Tidal Potential Impact on Wave Energy Flux
+        - '- Section: 11.3 Laplace''s Tidal Equations:':
+            subsections:
+            - 11.3a Laplace's Tidal Equations Derivation
+            - 11.3b Laplace's Tidal Equations Solutions
+            - 11.3c Laplace's Tidal Equations Applications
+            - 11.3d Laplace's Tidal Equations Limitations
+        - '- Section: 11.4 Tidal Harmonics:':
+            subsections:
+            - 11.4a Tidal Harmonic Analysis
+            - 11.4b Tidal Harmonic Frequencies
+            - 11.4c Tidal Harmonic Amplitudes
+            - 11.4d Tidal Harmonic Phases
+    - "- Chapter 12: Shallow Water Equations with Rotation - Poincar\xE9 Waves:":
+        sections:
+        - '- Section: 12.1 Shallow Water Approximation:':
+            subsections:
+            - 12.1a Shallow Water Equations Derivation
+            - 12.1b Shallow Water Equations Solutions
+            - 12.1c Shallow Water Equations Applications
+            - 12.1d Shallow Water Equations Limitations
+        - '- Section: 12.2 Coriolis Effect in Shallow Water:':
+            subsections:
+            - 12.2a Coriolis Force in Shallow Water
+            - 12.2b Coriolis Effect on Wave Propagation in Shallow Water
+            - 12.2c Coriolis Effect on Wave Energy Flux in Shallow Water
+            - 12.2d Coriolis Effect on Wave Breaking in Shallow Water
+        - "- Section: 12.3 Poincar\xE9 Waves in a Rotating System:":
+            subsections:
+            - "12.3a Poincar\xE9 Wave Generation in a Rotating System"
+            - "12.3b Poincar\xE9 Wave Propagation in a Rotating System"
+            - "12.3c Poincar\xE9 Wave Reflection in a Rotating System"
+            - "12.3d Poincar\xE9 Wave Interference in a Rotating System"
+        - '- Section: 12.4 Rossby Waves in a Shallow Water System:':
+            subsections:
+            - 12.4a Rossby Wave Generation in a Shallow Water System
+            - 12.4b Rossby Wave Propagation in a Shallow Water System
+            - 12.4c Rossby Wave Reflection in a Shallow Water System
+            - 12.4d Rossby Wave Interference in a Shallow Water System
+    - '- Chapter 13: The Kelvin Wave:':
+        sections:
+        - '- Section: 13.1 Kelvin Helmholz Instability:':
+            subsections:
+            - 13.1a Kelvin Helmholz Instability Mechanism
+            - 13.1b Kelvin Helmholz Instability Impact on Wave Propagation
+            - 13.1c Kelvin Helmholz Instability Impact on Wave Energy Flux
+            - 13.1d Kelvin Helmholz Instability Impact on Wave Breaking
+        - '- Section: 13.2 Kelvin Wave Propagation:':
+            subsections:
+            - 13.2a Kelvin Wave Speed
+            - 13.2b Kelvin Wave Direction
+            - 13.2c Kelvin Wave Amplitude
+            - 13.2d Kelvin Wave Period
+        - '- Section: 13.3 Kelvin Wave Characteristics:':
+            subsections:
+            - 13.3a Kelvin Wave Shape
+            - 13.3b Kelvin Wave Phase
+            - 13.3c

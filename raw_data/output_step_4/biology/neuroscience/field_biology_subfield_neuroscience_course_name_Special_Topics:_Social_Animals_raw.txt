@@ -1,0 +1,178 @@
+textbook: 
+"Social Animals: Exploring the Science of Social Behavior":
+
+chapters:
+- Chapter 1: Introduction to Social Animals:
+sections:
+- Section: 1.1 Understanding Social Animals:
+subsections:
+- 1.1a Definition of Social Animals
+- 1.1b Importance of Social Behavior
+- 1.1c Evolution of Social Behavior
+
+- Chapter 2: Altruism and Cooperation:
+sections:
+- Section: 2.1 Social and Individual Learning of Helping in Humans and Other Species:
+subsections:
+- 2.1a Definition of Altruism
+- 2.1b Altruism in Humans
+- 2.1c Altruism in Other Species
+- Section: 2.2 Born (and Bred) to Help:
+subsections:
+- 2.2a Nature vs Nurture in Altruism
+- 2.2b Genetic Factors in Altruism
+- 2.2c Environmental Factors in Altruism
+- Section: 2.3 Evolutionary Theory and the Social Psychology of Human Cooperation:
+subsections:
+- 2.3a Evolutionary Theory and Altruism
+- 2.3b Social Psychology of Cooperation
+- 2.3c Evolutionary Advantages of Cooperation
+
+- Chapter 3: Morality and Norms:
+sections:
+- Section: 3.1 Altruism:
+subsections:
+- 3.1a Morality and Altruism
+- 3.1b Social Norms and Altruism
+- 3.1c Cultural Differences in Altruism
+- Section: 3.2 Morality and Norms:
+subsections:
+- 3.2a Definition of Morality
+- 3.2b Definition of Social Norms
+- 3.2c Interplay of Morality and Social Norms
+
+- Chapter 4: Empathy and Helping:
+sections:
+- Section: 4.1 Empathy and Helping:
+subsections:
+- 4.1a Definition of Empathy
+- 4.1b Empathy and Altruistic Behavior
+- 4.1c Empathy and Prosocial Behavior
+
+- Chapter 5: Perception of Agents and Actions:
+sections:
+- Section: 5.1 Social Perception:
+subsections:
+- 5.1a Definition of Social Perception
+- 5.1b Factors Influencing Social Perception
+- 5.1c Social Perception and Behavior
+
+- Chapter 6: Theory of Mind and Attribution:
+sections:
+- Section: 6.1 Theory of Mind:
+subsections:
+- 6.1a Definition of Theory of Mind
+- 6.1b Development of Theory of Mind
+- 6.1c Theory of Mind and Social Behavior
+
+- Chapter 7: Communication and Teaching:
+sections:
+- Section: 7.1 Communication:
+subsections:
+- 7.1a Definition of Communication
+- 7.1b Types of Communication
+- 7.1c Communication and Social Behavior
+
+- Chapter 8: Ingroups and Outgroups:
+sections:
+- Section: 8.1 Ingroups and Outgroups:
+subsections:
+- 8.1a Definition of Ingroups and Outgroups
+- 8.1b Ingroup Bias
+- 8.1c Outgroup Bias
+
+- Chapter 9: Aggression and Dominance:
+sections:
+- Section: 9.1 Aggression and Dominance:
+subsections:
+- 9.1a Definition of Aggression
+- 9.1b Definition of Dominance
+- 9.1c Aggression, Dominance, and Social Hierarchy
+
+- Chapter 10: Mating and Parenting:
+sections:
+- Section: 10.1 Mating:
+subsections:
+- 10.1a Mating Strategies
+- 10.1b Mating Preferences
+- 10.1c Mating and Social Behavior
+
+- Chapter 11: Social Learning:
+sections:
+- Section: 11.1 Observational Learning:
+subsections:
+- 11.1a Definition of Observational Learning
+- 11.1b Observational Learning in Animals
+- 11.1c Observational Learning in Humans
+
+- Chapter 12: Social Influence:
+sections:
+- Section: 12.1 Conformity:
+subsections:
+- 12.1a Definition of Conformity
+- 12.1b Factors Influencing Conformity
+- 12.1c Conformity and Group Dynamics
+
+- Chapter 13: Leadership and Followership:
+sections:
+- Section: 13.1 Leadership:
+subsections:
+- 13.1a Definition of Leadership
+- 13.1b Leadership Styles
+- 13.1c Leadership and Group Dynamics
+
+- Chapter 14: Conflict and Cooperation:
+sections:
+- Section: 14.1 Conflict:
+subsections:
+- 14.1a Definition of Conflict
+- 14.1b Conflict Resolution Strategies
+- 14.1c Conflict and Group Dynamics
+
+- Chapter 15: Social Networks:
+sections:
+- Section: 15.1 Social Network Analysis:
+subsections:
+- 15.1a Definition of Social Networks
+- 15.1b Social Network Analysis Techniques
+- 15.1c Social Networks and Group Dynamics
+
+- Chapter 16: Social Identity:
+sections:
+- Section: 16.1 Social Identity Theory:
+subsections:
+- 16.1a Definition of Social Identity
+- 16.1b Social Identity Theory
+- 16.1c Social Identity and Group Dynamics
+
+- Chapter 17: Prejudice and Discrimination:
+sections:
+- Section: 17.1 Prejudice:
+subsections:
+- 17.1a Definition of Prejudice
+- 17.1b Causes of Prejudice
+- 17.1c Prejudice and Social Behavior
+
+- Chapter 18: Social Cognition:
+sections:
+- Section: 18.1 Social Cognition and Perception:
+subsections:
+- 18.1a Definition of Social Cognition
+- 18.1b Social Cognition and Perception
+- 18.1c Social Cognition and Behavior
+
+- Chapter 19: Group Dynamics:
+sections:
+- Section: 19.1 Group Formation:
+subsections:
+- 19.1a Definition of Groups
+- 19.1b Group Formation Theories
+- 19.1c Group Formation and Social Behavior
+
+- Chapter 20: Social Change:
+sections:
+- Section: 20.1 Social Change and Innovation:
+subsections:
+- 20.1a Definition of Social Change
+- 20.1b Social Innovation
+- 20.1c Social Change and Group Dynamics

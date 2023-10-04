@@ -1,0 +1,40 @@
+course:
+  'Project Evaluation:':
+    topics:
+    - Introduction and motivation:
+        subtopics:
+        - Initial discussion of project
+        - Public and private projects
+        - Evaluation methods
+        - Project evaluation checklists
+    - Stakeholder Analysis and Multi-Attribute Analysis:
+        subtopics:
+        - Stakeholder perspectives
+        - Project costs and revenues
+        - Time value of money
+        - Equivalence relationships
+    - Financial Analysis:
+        subtopics:
+        - Discount rates
+        - Minimally acceptable rate of return
+        - Benefit cost analysis
+        - Comparing alternatives
+        - Financing
+    - Case Studies:
+        subtopics:
+        - Panama Canal
+        - High speed rail
+        - Spent nuclear fuel, transportation to Yucca Mountain, Nevada
+        - Pure Home Water in Africa
+    - Dealing with Uncertainty:
+        subtopics:
+        - Introduction to uncertainty
+        - Stakeholder analysis and Mitchell framework
+        - Decision trees
+        - Real options
+    - Project Presentations and Evaluation:
+        subtopics:
+        - Public private partnerships
+        - Infrastructure banks
+        - Project presentations
+        - Wrap-up and summary

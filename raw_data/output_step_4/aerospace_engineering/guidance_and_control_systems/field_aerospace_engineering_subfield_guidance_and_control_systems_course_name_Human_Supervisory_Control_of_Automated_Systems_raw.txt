@@ -1,0 +1,501 @@
+textbook: 
+"Human Supervisory Control of Automated Systems: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Human Supervisory Control of Automated Systems:
+sections:
+- Section: 1.1 Human-Centered Systems Engineering Design Approaches:
+subsections:
+- 1.1a Introduction to Human-Centered Design
+- 1.1b Principles of Human-Centered Design
+- 1.1c Case Studies in Human-Centered Design
+
+- Section: 1.2 Task Analysis and Function Allocation:
+subsections:
+- 1.2a Understanding Task Analysis
+- 1.2b Methods of Task Analysis
+- 1.2c Function Allocation in Automated Systems
+
+- Section: 1.3 Historical and Social Implications:
+subsections:
+- 1.3a History of Automated Systems
+- 1.3b Social Impact of Automation
+- 1.3c Future Trends in Automation
+
+- Chapter 2: Memory and Attention:
+sections:
+- Section: 2.1 Activity Group Presentations:
+subsections:
+- 2.1a Planning and Preparing Presentations
+- 2.1b Effective Presentation Techniques
+- 2.1c Evaluating Presentations
+
+- Section: 2.2 Classical Decision Theory and Bayes’ Theorem:
+subsections:
+- 2.2a Introduction to Decision Theory
+- 2.2b Understanding Bayes’ Theorem
+- 2.2c Applications of Decision Theory and Bayes’ Theorem
+
+- Section: 2.3 Signal Detection Theory, and Information Theory:
+subsections:
+- 2.3a Basics of Signal Detection Theory
+- 2.3b Introduction to Information Theory
+- 2.3c Applications of Signal Detection and Information Theory
+
+- Section: 2.4 Judgment Under Uncertainty: Heuristics and Biases:
+subsections:
+- 2.4a Understanding Heuristics and Biases
+- 2.4b Impact of Heuristics and Biases on Decision Making
+- 2.4c Strategies to Mitigate Heuristics and Biases
+
+- Section: 2.5 Naturalistic Decision Making:
+subsections:
+- 2.5a Introduction to Naturalistic Decision Making
+- 2.5b Factors Influencing Naturalistic Decision Making
+- 2.5c Case Studies in Naturalistic Decision Making
+
+- Section: 2.6 Workload and Situation Awareness:
+subsections:
+- 2.6a Understanding Workload in Automated Systems
+- 2.6b Importance of Situation Awareness
+- 2.6c Techniques to Improve Workload Management and Situation Awareness
+
+- Chapter 3: Aircraft Displays and Flight Management Systems:
+sections:
+- Section: 3.1 Activity Mid-Term Presentations:
+subsections:
+- 3.1a Preparing for Mid-Term Presentations
+- 3.1b Delivering Effective Mid-Term Presentations
+- 3.1c Evaluating Mid-Term Presentations
+
+- Section: 3.2 Guest Lecture: Human Error and Reliability:
+subsections:
+- 3.2a Understanding Human Error in Automated Systems
+- 3.2b Principles of System Reliability
+- 3.2c Strategies to Minimize Human Error and Improve Reliability
+
+- Section: 3.3 Research Methods and Experimental Design:
+subsections:
+- 3.3a Introduction to Research Methods in Automation
+- 3.3b Understanding Experimental Design
+- 3.3c Conducting Research in Automation
+
+- Section: 3.4 Alerting Systems:
+subsections:
+- 3.4a Basics of Alerting Systems
+- 3.4b Designing Effective Alerting Systems
+- 3.4c Case Studies in Alerting Systems
+
+- Section: 3.5 Command and Control/Air Traffic Control:
+subsections:
+- 3.5a Understanding Command and Control Systems
+- 3.5b Basics of Air Traffic Control
+- 3.5c Role of Automation in Command and Control and Air Traffic Control
+
+- Section: 3.6 Guest Lecture: Model-based Programming of Cooperating Explorers:
+subsections:
+- 3.6a Introduction to Model-based Programming
+- 3.6b Understanding Cooperating Explorers
+- 3.6c Applications of Model-based Programming in Automation
+
+- Section: 3.7 The Coming Transition in Automobile Cockpits - Insights from Aerospace:
+subsections:
+- 3.7a Current Trends in Automobile Cockpit Design
+- 3.7b Insights from Aerospace for Automobile Design
+- 3.7c Future of Automobile Cockpit Design
+
+- Chapter 4: Guest Lecture: Telemedicine/Telerobotics:
+sections:
+- Section: 4.1 Guest Lecture: Medical Interface Design:
+subsections:
+- 4.1a Introduction to Medical Interface Design
+- 4.1b Principles of Medical Interface Design
+- 4.1c Case Studies in Medical Interface Design
+
+- Section: 4.2 Nuclear and Process Control Plants:
+subsections:
+- 4.2a Understanding Nuclear Control Systems
+- 4.2b Basics of Process Control in Plants
+- 4.2c Role of Automation in Nuclear and Process Control
+
+- Section: 4.3 Social Implications:
+subsections:
+- 4.3a Social Impact of Telemedicine and Telerobotics
+- 4.3b Ethical Considerations in Telemedicine and Telerobotics
+- 4.3c Future Trends in Telemedicine and Telerobotics
+
+- Section: 4.4 Activity Term Project Presentations:
+subsections:
+- 4.4a Preparing for Term Project Presentations
+- 4.4b Delivering Effective Term Project Presentations
+- 4.4c Evaluating Term Project Presentations
+
+- Chapter 5: Activity Term Project Presentations:
+sections:
+- Section: 5.1 Grounding of the Panamanian Passenger Ship Royal Majesty:
+subsections:
+- 5.1a Understanding the Incident
+- 5.1b Role of Automation in the Incident
+- 5.1c Lessons Learned from the Incident
+
+- Section: 5.2 American Airlines Flight 965 Accident Report Cali, Colombia:
+subsections:
+- 5.2a Understanding the Incident
+- 5.2b Role of Automation in the Incident
+- 5.2c Lessons Learned from the Incident
+
+- Section: 5.3 China Airlines CI676 Nagoya Incident:
+subsections:
+- 5.3a Understanding the Incident
+- 5.3b Role of Automation in the Incident
+- 5.3c Lessons Learned from the Incident
+
+- Section: 5.4 USS Vincennes Incident:
+subsections:
+- 5.4a Understanding the Incident
+- 5.4b Role of Automation in the Incident
+- 5.4c Lessons Learned from the Incident
+
+- Section: 5.5 Measuring Human Performance: Maintaining Constant Relative Position to a Lead Vehicle in a Simulation:
+subsections:
+- 5.5a Understanding the Simulation
+- 5.5b Role of Automation in the Simulation
+- 5.5c Lessons Learned from the Simulation
+
+- Section: 5.6 The Role of Instant Messaging on Task Performance and Level of Arousal:
+subsections:
+- 5.6a Understanding the Study
+- 5.6b Role of Automation in the Study
+- 5.6c Lessons Learned from the Study
+
+- Section: 5.7 Missile Supervisory Control Study Patriot:
+subsections:
+- 5.7a Understanding the Study
+- 5.7b Role of Automation in the Study
+- 5.7c Lessons Learned from the Study
+
+- Section: 5.8 The Integration of Unmanned Aerial Vehicles:
+subsections:
+- 5.8a Understanding Unmanned Aerial Vehicles
+- 5.8b Role of Automation in Unmanned Aerial Vehicles
+- 5.8c Future Trends in Unmanned Aerial Vehicles
+
+- Section: 5.9 Standard Flow Abstractions as Mechanisms for Reducing ATC Complexity:
+subsections:
+- 5.9a Understanding Standard Flow Abstractions
+- 5.9b Role of Automation in Reducing ATC Complexity
+- 5.9c Future Trends in ATC Complexity Reduction
+
+- Section: 5.10 The Effects of Display Type on Operator Decisions and Confidence:
+subsections:
+- 5.10a Understanding the Study
+- 5.10b Role of Automation in the Study
+- 5.10c Lessons Learned from the Study
+
+- Chapter 6: Human Factors in Automation:
+sections:
+- Section: 6.1 Understanding Human Factors:
+subsections:
+- 6.1a Introduction to Human Factors
+- 6.1b Role of Human Factors in Automation
+- 6.1c Case Studies in Human Factors
+
+- Section: 6.2 Designing for Human Use:
+subsections:
+- 6.2a Principles of Design for Human Use
+- 6.2b Role of Design in Automation
+- 6.2c Case Studies in Design for Human Use
+
+- Section: 6.3 Evaluating Human Performance in Automated Systems:
+subsections:
+- 6.3a Introduction to Performance Evaluation
+- 6.3b Methods of Performance Evaluation
+- 6.3c Case Studies in Performance Evaluation
+
+- Section: 6.4 Training for Automated Systems:
+subsections:
+- 6.4a Importance of Training in Automation
+- 6.4b Methods of Training for Automation
+- 6.4c Case Studies in Training for Automation
+
+- Chapter 7: Automation in Healthcare:
+sections:
+- Section: 7.1 Introduction to Automation in Healthcare:
+subsections:
+- 7.1a Understanding Healthcare Automation
+- 7.1b Role of Automation in Healthcare
+- 7.1c Case Studies in Healthcare Automation
+
+- Section: 7.2 Designing Automated Healthcare Systems:
+subsections:
+- 7.2a Principles of Design for Healthcare Automation
+- 7.2b Role of Design in Healthcare Automation
+- 7.2c Case Studies in Design for Healthcare Automation
+
+- Section: 7.3 Evaluating Automated Healthcare Systems:
+subsections:
+- 7.3a Introduction to Evaluation in Healthcare Automation
+- 7.3b Methods of Evaluation in Healthcare Automation
+- 7.3c Case Studies in Evaluation for Healthcare Automation
+
+- Section: 7.4 Training for Automated Healthcare Systems:
+subsections:
+- 7.4a Importance of Training in Healthcare Automation
+- 7.4b Methods of Training for Healthcare Automation
+- 7.4c Case Studies in Training for Healthcare Automation
+
+- Chapter 8: Automation in Transportation:
+sections:
+- Section: 8.1 Introduction to Automation in Transportation:
+subsections:
+- 8.1a Understanding Transportation Automation
+- 8.1b Role of Automation in Transportation
+- 8.1c Case Studies in Transportation Automation
+
+- Section: 8.2 Designing Automated Transportation Systems:
+subsections:
+- 8.2a Principles of Design for Transportation Automation
+- 8.2b Role of Design in Transportation Automation
+- 8.2c Case Studies in Design for Transportation Automation
+
+- Section: 8.3 Evaluating Automated Transportation Systems:
+subsections:
+- 8.3a Introduction to Evaluation in Transportation Automation
+- 8.3b Methods of Evaluation in Transportation Automation
+- 8.3c Case Studies in Evaluation for Transportation Automation
+
+- Section: 8.4 Training for Automated Transportation Systems:
+subsections:
+- 8.4a Importance of Training in Transportation Automation
+- 8.4b Methods of Training for Transportation Automation
+- 8.4c Case Studies in Training for Transportation Automation
+
+- Chapter 9: Automation in Manufacturing:
+sections:
+- Section: 9.1 Introduction to Automation in Manufacturing:
+subsections:
+- 9.1a Understanding Manufacturing Automation
+- 9.1b Role of Automation in Manufacturing
+- 9.1c Case Studies in Manufacturing Automation
+
+- Section: 9.2 Designing Automated Manufacturing Systems:
+subsections:
+- 9.2a Principles of Design for Manufacturing Automation
+- 9.2b Role of Design in Manufacturing Automation
+- 9.2c Case Studies in Design for Manufacturing Automation
+
+- Section: 9.3 Evaluating Automated Manufacturing Systems:
+subsections:
+- 9.3a Introduction to Evaluation in Manufacturing Automation
+- 9.3b Methods of Evaluation in Manufacturing Automation
+- 9.3c Case Studies in Evaluation for Manufacturing Automation
+
+- Section: 9.4 Training for Automated Manufacturing Systems:
+subsections:
+- 9.4a Importance of Training in Manufacturing Automation
+- 9.4b Methods of Training for Manufacturing Automation
+- 9.4c Case Studies in Training for Manufacturing Automation
+
+- Chapter 10: Automation in Energy:
+sections:
+- Section: 10.1 Introduction to Automation in Energy:
+subsections:
+- 10.1a Understanding Energy Automation
+- 10.1b Role of Automation in Energy
+- 10.1c Case Studies in Energy Automation
+
+- Section: 10.2 Designing Automated Energy Systems:
+subsections:
+- 10.2a Principles of Design for Energy Automation
+- 10.2b Role of Design in Energy Automation
+- 10.2c Case Studies in Design for Energy Automation
+
+- Section: 10.3 Evaluating Automated Energy Systems:
+subsections:
+- 10.3a Introduction to Evaluation in Energy Automation
+- 10.3b Methods of Evaluation in Energy Automation
+- 10.3c Case Studies in Evaluation for Energy Automation
+
+- Section: 10.4 Training for Automated Energy Systems:
+subsections:
+- 10.4a Importance of Training in Energy Automation
+- 10.4b Methods of Training for Energy Automation
+- 10.4c Case Studies in Training for Energy Automation
+
+- Chapter 11: Automation in Defense:
+sections:
+- Section: 11.1 Introduction to Automation in Defense:
+subsections:
+- 11.1a Understanding Defense Automation
+- 11.1b Role of Automation in Defense
+- 11.1c Case Studies in Defense Automation
+
+- Section: 11.2 Designing Automated Defense Systems:
+subsections:
+- 11.2a Principles of Design for Defense Automation
+- 11.2b Role of Design in Defense Automation
+- 11.2c Case Studies in Design for Defense Automation
+
+- Section: 11.3 Evaluating Automated Defense Systems:
+subsections:
+- 11.3a Introduction to Evaluation in Defense Automation
+- 11.3b Methods of Evaluation in Defense Automation
+- 11.3c Case Studies in Evaluation for Defense Automation
+
+- Section: 11.4 Training for Automated Defense Systems:
+subsections:
+- 11.4a Importance of Training in Defense Automation
+- 11.4b Methods of Training for Defense Automation
+- 11.4c Case Studies in Training for Defense Automation
+
+- Chapter 12: Automation in Space Exploration:
+sections:
+- Section: 12.1 Introduction to Automation in Space Exploration:
+subsections:
+- 12.1a Understanding Space Exploration Automation
+- 12.1b Role of Automation in Space Exploration
+- 12.1c Case Studies in Space Exploration Automation
+
+- Section: 12.2 Designing Automated Space Exploration Systems:
+subsections:
+- 12.2a Principles of Design for Space Exploration Automation
+- 12.2b Role of Design in Space Exploration Automation
+- 12.2c Case Studies in Design for Space Exploration Automation
+
+- Section: 12.3 Evaluating Automated Space Exploration Systems:
+subsections:
+- 12.3a Introduction to Evaluation in Space Exploration Automation
+- 12.3b Methods of Evaluation in Space Exploration Automation
+- 12.3c Case Studies in Evaluation for Space Exploration Automation
+
+- Section: 12.4 Training for Automated Space Exploration Systems:
+subsections:
+- 12.4a Importance of Training in Space Exploration Automation
+- 12.4b Methods of Training for Space Exploration Automation
+- 12.4c Case Studies in Training for Space Exploration Automation
+
+- Chapter 13: Automation in Agriculture:
+sections:
+- Section: 13.1 Introduction to Automation in Agriculture:
+subsections:
+- 13.1a Understanding Agriculture Automation
+- 13.1b Role of Automation in Agriculture
+- 13.1c Case Studies in Agriculture Automation
+
+- Section: 13.2 Designing Automated Agriculture Systems:
+subsections:
+- 13.2a Principles of Design for Agriculture Automation
+- 13.2b Role of Design in Agriculture Automation
+- 13.2c Case Studies in Design for Agriculture Automation
+
+- Section: 13.3 Evaluating Automated Agriculture Systems:
+subsections:
+- 13.3a Introduction to Evaluation in Agriculture Automation
+- 13.3b Methods of Evaluation in Agriculture Automation
+- 13.3c Case Studies in Evaluation for Agriculture Automation
+
+- Section: 13.4 Training for Automated Agriculture Systems:
+subsections:
+- 13.4a Importance of Training in Agriculture Automation
+- 13.4b Methods of Training for Agriculture Automation
+- 13.4c Case Studies in Training for Agriculture Automation
+
+- Chapter 14: Automation in Construction:
+sections:
+- Section: 14.1 Introduction to Automation in Construction:
+subsections:
+- 14.1a Understanding Construction Automation
+- 14.1b Role of Automation in Construction
+- 14.1c Case Studies in Construction Automation
+
+- Section: 14.2 Designing Automated Construction Systems:
+subsections:
+- 14.2a Principles of Design for Construction Automation
+- 14.2b Role of Design in Construction Automation
+- 14.2c Case Studies in Design for Construction Automation
+
+- Section: 14.3 Evaluating Automated Construction Systems:
+subsections:
+- 14.3a Introduction to Evaluation in Construction Automation
+- 14.3b Methods of Evaluation in Construction Automation
+- 14.3c Case Studies in Evaluation for Construction Automation
+
+- Section: 14.4 Training for Automated Construction Systems:
+subsections:
+- 14.4a Importance of Training in Construction Automation
+- 14.4b Methods of Training for Construction Automation
+- 14.4c Case Studies in Training for Construction Automation
+
+- Chapter 15: Automation in Retail:
+sections:
+- Section: 15.1 Introduction to Automation in Retail:
+subsections:
+- 15.1a Understanding Retail Automation
+- 15.1b Role of Automation in Retail
+- 15.1c Case Studies in Retail Automation
+
+- Section: 15.2 Designing Automated Retail Systems:
+subsections:
+- 15.2a Principles of Design for Retail Automation
+- 15.2b Role of Design in Retail Automation
+- 15.2c Case Studies in Design for Retail Automation
+
+- Section: 15.3 Evaluating Automated Retail Systems:
+subsections:
+- 15.3a Introduction to Evaluation in Retail Automation
+- 15.3b Methods of Evaluation in Retail Automation
+- 15.3c Case Studies in Evaluation for Retail Automation
+
+- Section: 15.4 Training for Automated Retail Systems:
+subsections:
+- 15.4a Importance of Training in Retail Automation
+- 15.4b Methods of Training for Retail Automation
+- 15.4c Case Studies in Training for Retail Automation
+
+- Chapter 16: Automation in Finance:
+sections:
+- Section: 16.1 Introduction to Automation in Finance:
+subsections:
+- 16.1a Understanding Finance Automation
+- 16.1b Role of Automation in Finance
+- 16.1c Case Studies in Finance Automation
+
+- Section: 16.2 Designing Automated Finance Systems:
+subsections:
+- 16.2a Principles of Design for Finance Automation
+- 16.2b Role of Design in Finance Automation
+- 16.2c Case Studies in Design for Finance Automation
+
+- Section: 16.3 Evaluating Automated Finance Systems:
+subsections:
+- 16.3a Introduction to Evaluation in Finance Automation
+- 16.3b Methods of Evaluation in Finance Automation
+- 16.3c Case Studies in Evaluation for Finance Automation
+
+- Section: 16.4 Training for Automated Finance Systems:
+subsections:
+- 16.4a Importance of Training in Finance Automation
+- 16.4b Methods of Training for Finance Automation
+- 16.4c Case Studies in Training for Finance Automation
+
+- Chapter 17: Automation in Education:
+sections:
+- Section: 17.1 Introduction to Automation in Education:
+subsections:
+- 17.1a Understanding Education Automation
+- 17.1b Role of Automation in Education
+- 17.1c Case Studies in Education Automation
+
+- Section: 17.2 Designing Automated Education Systems:
+subsections:
+- 17.2a Principles of Design for Education Automation
+- 17.2b Role of Design in Education Automation
+- 17.2c Case Studies in Design for Education Automation
+
+- Section: 17.3 Evaluating Automated Education Systems:
+subsections:
+- 17.3a Introduction to Evaluation in Education Automation
+- 17.3b Methods of Evaluation in Education Automation
+- 17.3c Case Studies in Evaluation for Education Automation
+
+- Section

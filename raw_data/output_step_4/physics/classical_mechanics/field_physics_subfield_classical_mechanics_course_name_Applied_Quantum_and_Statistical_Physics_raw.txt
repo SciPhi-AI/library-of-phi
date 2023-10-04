@@ -1,0 +1,180 @@
+```yaml
+textbook: 
+"Applied Quantum and Statistical Physics Textbook":
+
+chapters:
+- Chapter 1: Introduction to Classical and Quantum Mechanics:
+sections:
+- Section: 1.1 Probability Amplitudes and Development of Quanta:
+subsections:
+- 1.1a Introduction to Probability Amplitudes
+- 1.1b Development of Quanta
+- 1.1c Quantum Mechanics Basics
+- Section: 1.2 Fourier Transforms / MATLAB®:
+subsections:
+- 1.2a Introduction to Fourier Transforms
+- 1.2b Application of Fourier Transforms in MATLAB®
+- 1.2c Fourier Transforms in Quantum Mechanics
+- Section: 1.3 Dispersion, Wavepackets:
+subsections:
+- 1.3a Introduction to Dispersion
+- 1.3b Wavepackets in Quantum Mechanics
+- 1.3c Dispersion and Wavepackets in MATLAB®
+- Section: 1.4 Operators and Ehrenfest’s Theorem:
+subsections:
+- 1.4a Introduction to Operators in Quantum Mechanics
+- 1.4b Ehrenfest’s Theorem
+- 1.4c Application of Operators and Ehrenfest’s Theorem
+- Section: 1.5 Examples of Operators and Ehrenfest’s Theorem:
+subsections:
+- 1.5a Operators in Quantum Mechanics: Examples
+- 1.5b Ehrenfest’s Theorem: Examples
+- 1.5c Practical Applications of Operators and Ehrenfest’s Theorem
+
+- Chapter 2: Eigenfunctions, Eigenvalues, Superposition:
+sections:
+- Section: 2.1 Finite Well and 1D Box:
+subsections:
+- 2.1a Introduction to Finite Well in Quantum Mechanics
+- 2.1b 1D Box in Quantum Mechanics
+- 2.1c Eigenfunctions and Eigenvalues in Finite Well and 1D Box
+- Section: 2.2 Tunneling Barriers:
+subsections:
+- 2.2a Introduction to Tunneling Barriers
+- 2.2b Quantum Tunneling
+- 2.2c Tunneling Barriers in Quantum Mechanics
+- Section: 2.3 Simple Harmonic Oscillator:
+subsections:
+- 2.3a Introduction to Simple Harmonic Oscillator
+- 2.3b Quantum Mechanics of Simple Harmonic Oscillator
+- 2.3c Eigenfunctions and Eigenvalues of Simple Harmonic Oscillator
+- Section: 2.4 Tunneling Examples, STM, SHO:
+subsections:
+- 2.4a Tunneling Examples in Quantum Mechanics
+- 2.4b Scanning Tunneling Microscopy (STM)
+- 2.4c Simple Harmonic Oscillator (SHO) in Quantum Tunneling
+- Section: 2.5 Raising and Lowering Operators:
+subsections:
+- 2.5a Introduction to Raising and Lowering Operators
+- 2.5b Raising and Lowering Operators in Quantum Mechanics
+- 2.5c Practical Applications of Raising and Lowering Operators
+
+- Chapter 3: LC Circuit & SHO Wavepackets:
+sections:
+- Section: 3.1 WKB Approximation, Variational Method:
+subsections:
+- 3.1a Introduction to WKB Approximation
+- 3.1b Variational Method in Quantum Mechanics
+- 3.1c WKB Approximation and Variational Method in LC Circuit
+- Section: 3.2 Finite Basis Set Approximation:
+subsections:
+- 3.2a Introduction to Finite Basis Set Approximation
+- 3.2b Finite Basis Set Approximation in Quantum Mechanics
+- 3.2c Finite Basis Set Approximation in LC Circuit
+- Section: 3.3 Quiz 1:
+subsections:
+- 3.3a Quiz 1: Introduction to Classical and Quantum Mechanics
+- 3.3b Quiz 1: Eigenfunctions, Eigenvalues, Superposition
+- 3.3c Quiz 1: LC Circuit & SHO Wavepackets
+
+- Chapter 4: Two-level System:
+sections:
+- Section: 4.1 Examples of Two-level Systems:
+subsections:
+- 4.1a Introduction to Two-level Systems
+- 4.1b Two-level Systems in Quantum Mechanics
+- 4.1c Examples of Two-level Systems
+- Section: 4.2 Two-level System: Dynamic Drive:
+subsections:
+- 4.2a Dynamic Drive in Two-level Systems
+- 4.2b Quantum Mechanics of Dynamic Drive
+- 4.2c Practical Applications of Dynamic Drive
+- Section: 4.3 Coupled Systems:
+subsections:
+- 4.3a Introduction to Coupled Systems
+- 4.3b Coupled Systems in Quantum Mechanics
+- 4.3c Examples of Coupled Systems
+- Section: 4.4 Two-level Examples and Coupled System:
+subsections:
+- 4.4a Two-level Systems: Examples
+- 4.4b Coupled Systems: Examples
+- 4.4c Practical Applications of Two-level Systems and Coupled Systems
+
+- Chapter 5: 2D and 3D; Density of States:
+sections:
+- Section: 5.1 Examples and Periodic Boundary Conditions:
+subsections:
+- 5.1a Introduction to Periodic Boundary Conditions
+- 5.1b 2D and 3D Quantum Systems
+- 5.1c Examples and Periodic Boundary Conditions in Quantum Mechanics
+- Section: 5.2 Quantization of the E and M Fields:
+subsections:
+- 5.2a Introduction to Quantization of E and M Fields
+- 5.2b Quantization of E and M Fields in Quantum Mechanics
+- 5.2c Practical Applications of Quantization of E and M Fields
+- Section: 5.3 Quiz 2:
+subsections:
+- 5.3a Quiz 2: Two-level System
+- 5.3b Quiz 2: 2D and 3D; Density of States
+- 5.3c Quiz 2: Quantization of the E and M Fields
+
+- Chapter 6: Statistical Physics:
+sections:
+- Section: 6.1 Examples of Statistical Physics:
+subsections:
+- 6.1a Introduction to Statistical Physics
+- 6.1b Statistical Physics in Quantum Mechanics
+- 6.1c Examples of Statistical Physics
+- Section: 6.2 Statistical Physics II:
+subsections:
+- 6.2a Advanced Concepts in Statistical Physics
+- 6.2b Statistical Physics II in Quantum Mechanics
+- 6.2c Practical Applications of Statistical Physics II
+- Section: 6.3 Thermionic Emission:
+subsections:
+- 6.3a Introduction to Thermionic Emission
+- 6.3b Thermionic Emission in Quantum Mechanics
+- 6.3c Practical Applications of Thermionic Emission
+- Section: 6.4 Metals and Semiconductors I:
+subsections:
+- 6.4a Introduction to Metals and Semiconductors
+- 6.4b Metals and Semiconductors in Quantum Mechanics
+- 6.4c Practical Applications of Metals and Semiconductors I
+- Section: 6.5 Metals and Semiconductors II:
+subsections:
+- 6.5a Advanced Concepts in Metals and Semiconductors
+- 6.5b Metals and Semiconductors II in Quantum Mechanics
+- 6.5c Practical Applications of Metals and Semiconductors II
+
+- Chapter 7: Hydrogen Atom I:
+sections:
+- Section: 7.1 H-Atom II:
+subsections:
+- 7.1a Introduction to Hydrogen Atom
+- 7.1b Hydrogen Atom in Quantum Mechanics
+- 7.1c Practical Applications of Hydrogen Atom
+- Section: 7.2 H-Atom Examples:
+subsections:
+- 7.2a Hydrogen Atom: Examples
+- 7.2b Quantum Mechanics of Hydrogen Atom: Examples
+- 7.2c Practical Applications of Hydrogen Atom: Examples
+- Section: 7.3 Summary:
+subsections:
+- 7.3a Summary of Hydrogen Atom I
+- 7.3b Summary of Hydrogen Atom II
+- 7.3c Summary of Hydrogen Atom: Examples
+
+- Chapter 8: Final Exam:
+sections:
+- Section: 8.1 None:
+subsections:
+- 8.1a Final Exam: Introduction to Classical and Quantum Mechanics
+- 8.1b Final Exam: Eigenfunctions, Eigenvalues, Superposition
+- 8.1c Final Exam: LC Circuit & SHO Wavepackets
+- 8.1d Final Exam: Two-level System
+- 8.1e Final Exam: 2D and 3D; Density of States
+- 8.1f Final Exam: Statistical Physics
+- 8.1g Final Exam: Hydrogen Atom I
+```
+
+The remaining chapters (9 to 20) will be added later as the course progresses.

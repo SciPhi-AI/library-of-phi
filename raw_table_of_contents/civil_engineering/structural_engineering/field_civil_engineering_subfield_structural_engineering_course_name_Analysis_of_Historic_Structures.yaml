@@ -1,0 +1,144 @@
+textbook:
+  'Analysis of Historic Structures: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Course Overview:':
+            subsections:
+            - '1.1a Course Number: 4.448'
+            - '1.1b Course Name: Analysis of Historic Structures'
+            - '1.1c Resource Level: Graduate'
+    - '- Chapter 2: Masonry Structures I:':
+        sections:
+        - '- Section: 2.1 Masonry Structures:':
+            subsections:
+            - '2.1a Heyman, J. The Stone Skeleton. New York: Cambridge University
+              Press, 1995. ISBN: 0521629632.'
+            - 2.1b Masonry Materials and Techniques
+            - 2.1c Historical Context of Masonry Structures
+    - '- Chapter 3: Masonry Structures II:':
+        sections:
+        - '- Section: 3.1 Advanced Masonry Structures:':
+            subsections:
+            - 3.1a Masonry Structures I
+            - 3.1b Masonry Structures Case Study
+            - 3.1c Masonry Structures in Modern Architecture
+    - '- Chapter 4: Timber Structures I:':
+        sections:
+        - '- Section: 4.1 Timber Structures:':
+            subsections:
+            - 4.1a Timber Structures Case Study
+            - 4.1b Timber Materials and Techniques
+            - 4.1c Historical Context of Timber Structures
+    - '- Chapter 5: Timber Structures II:':
+        sections:
+        - '- Section: 5.1 Advanced Timber Structures:':
+            subsections:
+            - 5.1a Timber Structures I
+            - 5.1b Timber Structures Case Study
+            - 5.1c Timber Structures in Modern Architecture
+    - '- Chapter 6: Metal Structures I:':
+        sections:
+        - '- Section: 6.1 Metal Structures:':
+            subsections:
+            - 6.1a Metal Structures II
+            - 6.1b Metal Materials and Techniques
+            - 6.1c Historical Context of Metal Structures
+    - '- Chapter 7: Metal Structures II:':
+        sections:
+        - '- Section: 7.1 Advanced Metal Structures:':
+            subsections:
+            - 7.1a Metal Structures I
+            - 7.1b Metal Structures Case Study
+            - 7.1c Metal Structures in Modern Architecture
+    - '- Chapter 8: Concrete Structures I:':
+        sections:
+        - '- Section: 8.1 Concrete Structures:':
+            subsections:
+            - 8.1a Concrete Structures
+            - 8.1b Concrete Materials and Techniques
+            - 8.1c Historical Context of Concrete Structures
+    - '- Chapter 9: Concrete Structures II:':
+        sections:
+        - '- Section: 9.1 Advanced Concrete Structures:':
+            subsections:
+            - 9.1a Concrete Structures I
+            - 9.1b Concrete Structures Case Study
+            - 9.1c Concrete Structures in Modern Architecture
+    - '- Chapter 10: Projects/Discussion:':
+        sections:
+        - '- Section: 10.1 Projects/Discussion:':
+            subsections:
+            - 10.1a Projects/Discussion (cont.)
+            - 10.1b Project Planning and Management
+            - 10.1c Discussion on Historic Structures
+    - '- Chapter 11: Final Presentations:':
+        sections:
+        - '- Section: 11.1 Final Presentations:':
+            subsections:
+            - 11.1a Final Presentations (cont.)
+            - 11.1b Presentation Techniques
+            - 11.1c Evaluation and Feedback
+    - '- Chapter 12: Stone Structures:':
+        sections:
+        - '- Section: 12.1 Stone Structures:':
+            subsections:
+            - 12.1a Stone Materials and Techniques
+            - 12.1b Historical Context of Stone Structures
+            - 12.1c Stone Structures Case Study
+    - '- Chapter 13: Brick Structures:':
+        sections:
+        - '- Section: 13.1 Brick Structures:':
+            subsections:
+            - 13.1a Brick Materials and Techniques
+            - 13.1b Historical Context of Brick Structures
+            - 13.1c Brick Structures Case Study
+    - '- Chapter 14: Earth Structures:':
+        sections:
+        - '- Section: 14.1 Earth Structures:':
+            subsections:
+            - 14.1a Earth Materials and Techniques
+            - 14.1b Historical Context of Earth Structures
+            - 14.1c Earth Structures Case Study
+    - '- Chapter 15: Composite Structures:':
+        sections:
+        - '- Section: 15.1 Composite Structures:':
+            subsections:
+            - 15.1a Composite Materials and Techniques
+            - 15.1b Historical Context of Composite Structures
+            - 15.1c Composite Structures Case Study
+    - '- Chapter 16: Structural Analysis:':
+        sections:
+        - '- Section: 16.1 Structural Analysis:':
+            subsections:
+            - 16.1a Structural Analysis Techniques
+            - 16.1b Structural Analysis Case Study
+            - 16.1c Structural Analysis in Modern Architecture
+    - '- Chapter 17: Structural Restoration:':
+        sections:
+        - '- Section: 17.1 Structural Restoration:':
+            subsections:
+            - 17.1a Structural Restoration Techniques
+            - 17.1b Structural Restoration Case Study
+            - 17.1c Structural Restoration in Modern Architecture
+    - '- Chapter 18: Structural Conservation:':
+        sections:
+        - '- Section: 18.1 Structural Conservation:':
+            subsections:
+            - 18.1a Structural Conservation Techniques
+            - 18.1b Structural Conservation Case Study
+            - 18.1c Structural Conservation in Modern Architecture
+    - '- Chapter 19: Structural Rehabilitation:':
+        sections:
+        - '- Section: 19.1 Structural Rehabilitation:':
+            subsections:
+            - 19.1a Structural Rehabilitation Techniques
+            - 19.1b Structural Rehabilitation Case Study
+            - 19.1c Structural Rehabilitation in Modern Architecture
+    - '- Chapter 20: Structural Retrofitting:':
+        sections:
+        - '- Section: 20.1 Structural Retrofitting:':
+            subsections:
+            - 20.1a Structural Retrofitting Techniques
+            - 20.1b Structural Retrofitting Case Study
+            - 20.1c Structural Retrofitting in Modern Architecture

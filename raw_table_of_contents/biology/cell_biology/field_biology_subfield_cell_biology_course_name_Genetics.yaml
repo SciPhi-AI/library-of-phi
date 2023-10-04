@@ -1,0 +1,194 @@
+textbook:
+  'Genetics: A Comprehensive Guide to Understanding the Fundamentals of Genetic Principles and Applications":':
+    chapters:
+    - '- Chapter 1: Introduction to Genetics:':
+        sections:
+        - '- Section: 1.1 History and Milestones in Genetics':
+            subsections: []
+        - '- Section: 1.2 The Central Dogma of Molecular Biology':
+            subsections: []
+        - '- Section: 1.3 The Structure and Function of DNA':
+            subsections: []
+    - '- Chapter 2: Mendelian Genetics:':
+        sections:
+        - '- Section: 2.1 Mendel''s Laws of Inheritance':
+            subsections: []
+        - '- Section: 2.2 Punnett Squares and Genetic Crosses':
+            subsections: []
+        - '- Section: 2.3 Extensions to Mendelian Genetics:':
+            subsections:
+            - 2.3.1 Incomplete Dominance and Co-Dominance
+            - 2.3.2 Multiple Alleles and Blood Types
+            - 2.3.3 Polygenic Inheritance
+            - 2.3.4 Pleiotropy and Genetic Disorders
+    - '- Chapter 3: Chromosomal Basis of Inheritance:':
+        sections:
+        - '- Section: 3.1 Chromosome Structure and Organization':
+            subsections: []
+        - '- Section: 3.2 Sex Determination and Sex-Linked Inheritance':
+            subsections: []
+        - '- Section: 3.3 Linkage and Crossing Over':
+            subsections: []
+        - '- Section: 3.4 Genetic Mapping and Map Units':
+            subsections: []
+    - '- Chapter 4: Molecular Genetics:':
+        sections:
+        - '- Section: 4.1 DNA Replication and Repair':
+            subsections: []
+        - '- Section: 4.2 Transcription and RNA Processing':
+            subsections: []
+        - '- Section: 4.3 Translation and Protein Synthesis':
+            subsections: []
+        - '- Section: 4.4 Regulation of Gene Expression:':
+            subsections:
+            - 4.4.1 Transcriptional Regulation in Prokaryotes
+            - 4.4.2 Transcriptional Regulation in Eukaryotes
+            - 4.4.3 Post-Transcriptional and Post-Translational Regulation
+    - '- Chapter 5: Genetic Variation and Mutation:':
+        sections:
+        - '- Section: 5.1 Types and Causes of Genetic Variation':
+            subsections: []
+        - '- Section: 5.2 Mutations and Mutagenesis':
+            subsections: []
+        - '- Section: 5.3 Repair Mechanisms and Genome Stability':
+            subsections: []
+    - '- Chapter 6: Genetic Analysis Techniques:':
+        sections:
+        - '- Section: 6.1 Classical Genetics Techniques':
+            subsections: []
+        - '- Section: 6.2 Molecular Genetics Techniques':
+            subsections: []
+        - '- Section: 6.3 Genomic and Proteomic Techniques':
+            subsections: []
+    - '- Chapter 7: Human Genetics:':
+        sections:
+        - '- Section: 7.1 Human Genome Project and Genomics':
+            subsections: []
+        - '- Section: 7.2 Inheritance Patterns in Humans':
+            subsections: []
+        - '- Section: 7.3 Genetic Disorders and Genetic Counseling':
+            subsections: []
+        - '- Section: 7.4 Genetic Engineering and Gene Therapy':
+            subsections: []
+    - '- Chapter 8: Population Genetics and Evolution:':
+        sections:
+        - '- Section: 8.1 Hardy-Weinberg Equilibrium and Genetic Drift':
+            subsections: []
+        - '- Section: 8.2 Natural Selection and Adaptation':
+            subsections: []
+        - '- Section: 8.3 Speciation and Macroevolution':
+            subsections: []
+    - '- Chapter 9: Epigenetics and Non-Mendelian Inheritance:':
+        sections:
+        - '- Section: 9.1 Epigenetic Mechanisms and Gene Regulation':
+            subsections: []
+        - '- Section: 9.2 Non-Mendelian Inheritance Patterns':
+            subsections: []
+        - '- Section: 9.3 Imprinting and X-Inactivation':
+            subsections: []
+    - '- Chapter 10: Genomics and Bioinformatics:':
+        sections:
+        - '- Section: 10.1 Genome Sequencing and Annotation':
+            subsections: []
+        - '- Section: 10.2 Comparative Genomics and Evolutionary Analysis':
+            subsections: []
+        - '- Section: 10.3 Functional Genomics and Systems Biology':
+            subsections: []
+    - '- Chapter 11: Genetic Engineering and Biotechnology:':
+        sections:
+        - '- Section: 11.1 Recombinant DNA Technology and Cloning':
+            subsections: []
+        - '- Section: 11.2 Gene Editing and Genome Engineering':
+            subsections: []
+        - '- Section: 11.3 Applications of Biotechnology in Medicine and Agriculture':
+            subsections: []
+    - '- Chapter 12: Ethical, Legal, and Social Implications of Genetics:':
+        sections:
+        - '- Section: 12.1 Ethical Considerations in Genetic Research and Testing':
+            subsections: []
+        - '- Section: 12.2 Legal and Regulatory Frameworks in Genetics':
+            subsections: []
+        - '- Section: 12.3 Social Impact and Genetic Discrimination':
+            subsections: []
+        - '- Section: 12.4 Genetic Privacy and Informed Consent':
+            subsections: []
+    - '- Chapter 13: Genetic Disorders and Diseases:':
+        sections:
+        - '- Section: 13.1 Monogenic Disorders':
+            subsections: []
+        - '- Section: 13.2 Polygenic Disorders':
+            subsections: []
+        - '- Section: 13.3 Chromosomal Disorders':
+            subsections: []
+        - '- Section: 13.4 Mitochondrial Disorders':
+            subsections: []
+    - '- Chapter 14: Genetics of Cancer:':
+        sections:
+        - '- Section: 14.1 Oncogenes and Tumor Suppressor Genes':
+            subsections: []
+        - '- Section: 14.2 Genetic Instability and Cancer':
+            subsections: []
+        - '- Section: 14.3 Epigenetics and Cancer':
+            subsections: []
+        - '- Section: 14.4 Genetic Testing and Cancer Prevention':
+            subsections: []
+    - '- Chapter 15: Genetics of Aging:':
+        sections:
+        - '- Section: 15.1 Genetic Theories of Aging':
+            subsections: []
+        - '- Section: 15.2 Telomeres and Aging':
+            subsections: []
+        - '- Section: 15.3 Mitochondrial Theory of Aging':
+            subsections: []
+        - '- Section: 15.4 Epigenetics and Aging':
+            subsections: []
+    - '- Chapter 16: Genetics of Behavior:':
+        sections:
+        - '- Section: 16.1 Behavioral Genetics':
+            subsections: []
+        - '- Section: 16.2 Genetics of Intelligence':
+            subsections: []
+        - '- Section: 16.3 Genetics of Personality':
+            subsections: []
+        - '- Section: 16.4 Genetics of Mental Disorders':
+            subsections: []
+    - '- Chapter 17: Genetics of Immunity:':
+        sections:
+        - '- Section: 17.1 Genetics of the Immune Response':
+            subsections: []
+        - '- Section: 17.2 Genetics of Autoimmune Diseases':
+            subsections: []
+        - '- Section: 17.3 Genetics of Allergies':
+            subsections: []
+        - '- Section: 17.4 Genetics of Infectious Diseases':
+            subsections: []
+    - '- Chapter 18: Genetics of Development:':
+        sections:
+        - '- Section: 18.1 Genetic Control of Development':
+            subsections: []
+        - '- Section: 18.2 Genetics of Morphogenesis':
+            subsections: []
+        - '- Section: 18.3 Genetics of Differentiation':
+            subsections: []
+        - '- Section: 18.4 Genetics of Aging and Senescence':
+            subsections: []
+    - '- Chapter 19: Genetics of Evolution:':
+        sections:
+        - '- Section: 19.1 Molecular Evolution':
+            subsections: []
+        - '- Section: 19.2 Genetic Drift and Natural Selection':
+            subsections: []
+        - '- Section: 19.3 Speciation and Genetic Isolation':
+            subsections: []
+        - '- Section: 19.4 Co-evolution and Symbiosis':
+            subsections: []
+    - '- Chapter 20: Genetics of Ecosystems:':
+        sections:
+        - '- Section: 20.1 Population Genetics':
+            subsections: []
+        - '- Section: 20.2 Community Genetics':
+            subsections: []
+        - '- Section: 20.3 Ecosystem Genetics':
+            subsections: []
+        - '- Section: 20.4 Conservation Genetics':
+            subsections: []

@@ -1,0 +1,323 @@
+textbook:
+  'Introduction to Programming in Java: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Types, Variables, Operators:':
+        sections:
+        - '- Section: 1.1 Data Types:':
+            subsections:
+            - 1.1a Primitive Data Types
+            - 1.1b Non-Primitive Data Types
+            - 1.1c Type Conversion and Casting
+        - '- Section: 1.2 Variables:':
+            subsections:
+            - 1.2a Declaration and Initialization
+            - 1.2b Variable Scope
+            - 1.2c Variable Naming Conventions
+        - '- Section: 1.3 Operators:':
+            subsections:
+            - 1.3a Arithmetic Operators
+            - 1.3b Relational Operators
+            - 1.3c Logical Operators
+    - '- Chapter 2: More Types, Methods, Conditionals:':
+        sections:
+        - '- Section: 2.1 Control Flow Statements:':
+            subsections:
+            - 2.1a If Statement
+            - 2.1b Switch Statement
+            - 2.1c Ternary Operator
+        - '- Section: 2.2 Methods:':
+            subsections:
+            - 2.2a Method Declaration
+            - 2.2b Method Calling
+            - 2.2c Method Overloading
+        - '- Section: 2.3 Conditional Statements:':
+            subsections:
+            - 2.3a If-Else Statement
+            - 2.3b Switch-Case Statement
+            - 2.3c Nested If-Else
+    - '- Chapter 3: Loops and Arrays:':
+        sections:
+        - '- Section: 3.1 For Loops:':
+            subsections:
+            - 3.1a Basic For Loop
+            - 3.1b Enhanced For Loop
+            - 3.1c Nested For Loop
+        - '- Section: 3.2 While Loops:':
+            subsections:
+            - 3.2a While Loop
+            - 3.2b Do-While Loop
+            - 3.2c Infinite While Loop
+        - '- Section: 3.3 Arrays:':
+            subsections:
+            - 3.3a Array Declaration and Initialization
+            - 3.3b Multidimensional Arrays
+            - 3.3c Array Manipulation
+    - '- Chapter 4: Objects and Classes:':
+        sections:
+        - '- Section: 4.1 Classes and Objects:':
+            subsections:
+            - 4.1a Class Declaration
+            - 4.1b Object Creation
+            - 4.1c Object Methods
+        - '- Section: 4.2 Constructors:':
+            subsections:
+            - 4.2a Constructor Declaration
+            - 4.2b Constructor Overloading
+            - 4.2c Default Constructor
+        - '- Section: 4.3 Instance Variables:':
+            subsections:
+            - 4.3a Declaration and Use
+            - 4.3b Access Modifiers
+            - 4.3c Static Variables
+        - '- Section: 4.4 Methods and Encapsulation:':
+            subsections:
+            - 4.4a Method Declaration and Use
+            - 4.4b Access Modifiers
+            - 4.4c Getter and Setter Methods
+    - '- Chapter 5: Access Control, Class Scope, Packages, Java API:':
+        sections:
+        - '- Section: 5.1 Access Modifiers:':
+            subsections:
+            - 5.1a Public, Private, and Protected
+            - 5.1b Default Access Modifier
+            - 5.1c Access Levels
+        - '- Section: 5.2 Class Scope:':
+            subsections:
+            - 5.2a Local Variables
+            - 5.2b Instance Variables
+            - 5.2c Class Variables
+        - '- Section: 5.3 Packages:':
+            subsections:
+            - 5.3a Creating Packages
+            - 5.3b Importing Packages
+            - 5.3c Access Control
+        - '- Section: 5.4 Java API:':
+            subsections:
+            - 5.4a Using the Java API
+            - 5.4b Java API Documentation
+            - 5.4c Commonly Used Classes
+    - '- Chapter 6: Design, Debugging, Interfaces:':
+        sections:
+        - '- Section: 6.1 Software Design Principles:':
+            subsections:
+            - 6.1a Encapsulation
+            - 6.1b Inheritance
+            - 6.1c Polymorphism
+        - '- Section: 6.2 Debugging Techniques:':
+            subsections:
+            - 6.2a Using a Debugger
+            - 6.2b Debugging Strategies
+            - 6.2c Common Debugging Pitfalls
+        - '- Section: 6.3 Interfaces:':
+            subsections:
+            - 6.3a Interface Declaration
+            - 6.3b Implementing an Interface
+            - 6.3c Interfaces vs Abstract Classes
+    - '- Chapter 7: Inheritance, Exceptions, File I/O:':
+        sections:
+        - '- Section: 7.1 Inheritance:':
+            subsections:
+            - 7.1a Extending a Class
+            - 7.1b Overriding Methods
+            - 7.1c Super Keyword
+        - '- Section: 7.2 Exceptions:':
+            subsections:
+            - 7.2a Try-Catch Block
+            - 7.2b Throwing Exceptions
+            - 7.2c Custom Exceptions
+        - '- Section: 7.3 File Input/Output:':
+            subsections:
+            - 7.3a Reading from a File
+            - 7.3b Writing to a File
+            - 7.3c Handling File Not Found Exceptions
+    - '- Chapter 8: GravityCalculator:':
+        sections:
+        - '- Section: 8.1 Description:':
+            subsections:
+            - 8.1a Problem Statement
+            - 8.1b Input and Output
+            - 8.1c Constraints
+        - '- Section: 8.2 Implementation:':
+            subsections:
+            - 8.2a Algorithm Design
+            - 8.2b Coding the Solution
+            - 8.2c Testing and Debugging
+    - '- Chapter 9: FooCorporation:':
+        sections:
+        - '- Section: 9.1 Description:':
+            subsections:
+            - 9.1a Problem Statement
+            - 9.1b Input and Output
+            - 9.1c Constraints
+        - '- Section: 9.2 Implementation:':
+            subsections:
+            - 9.2a Algorithm Design
+            - 9.2b Coding the Solution
+            - 9.2c Testing and Debugging
+    - '- Chapter 10: Marathon:':
+        sections:
+        - '- Section: 10.1 Description:':
+            subsections:
+            - 10.1a Problem Statement
+            - 10.1b Input and Output
+            - 10.1c Constraints
+        - '- Section: 10.2 Implementation:':
+            subsections:
+            - 10.2a Algorithm Design
+            - 10.2b Coding the Solution
+            - 10.2c Testing and Debugging
+    - '- Chapter 11: Library:':
+        sections:
+        - '- Section: 11.1 Description:':
+            subsections:
+            - 11.1a Problem Statement
+            - 11.1b Input and Output
+            - 11.1c Constraints
+        - '- Section: 11.2 Implementation:':
+            subsections:
+            - 11.2a Algorithm Design
+            - 11.2b Coding the Solution
+            - 11.2c Testing and Debugging
+    - '- Chapter 12: Graphics!:':
+        sections:
+        - '- Section: 12.1 Description:':
+            subsections:
+            - 12.1a Problem Statement
+            - 12.1b Input and Output
+            - 12.1c Constraints
+        - '- Section: 12.2 Implementation:':
+            subsections:
+            - 12.2a Algorithm Design
+            - 12.2b Coding the Solution
+            - 12.2c Testing and Debugging
+    - '- Chapter 13: Graphics Strikes Back!:':
+        sections:
+        - '- Section: 13.1 Description:':
+            subsections:
+            - 13.1a Problem Statement
+            - 13.1b Input and Output
+            - 13.1c Constraints
+        - '- Section: 13.2 Implementation:':
+            subsections:
+            - 13.2a Algorithm Design
+            - 13.2b Coding the Solution
+            - 13.2c Testing and Debugging
+    - '- Chapter 14: Magic Squares:':
+        sections:
+        - '- Section: 14.1 Description:':
+            subsections:
+            - 14.1a Problem Statement
+            - 14.1b Input and Output
+            - 14.1c Constraints
+        - '- Section: 14.2 Implementation:':
+            subsections:
+            - 14.2a Algorithm Design
+            - 14.2b Coding the Solution
+            - 14.2c Testing and Debugging
+    - '- Chapter 15: Advanced Topics:':
+        sections:
+        - '- Section: 15.1 Multithreading:':
+            subsections:
+            - 15.1a Introduction to Threads
+            - 15.1b Creating and Starting Threads
+            - 15.1c Thread Synchronization
+        - '- Section: 15.2 Networking:':
+            subsections:
+            - 15.2a Sockets and Ports
+            - 15.2b Client-Server Model
+            - 15.2c Building a Simple Server
+        - '- Section: 15.3 Databases:':
+            subsections:
+            - 15.3a Introduction to Databases
+            - 15.3b SQL Basics
+            - 15.3c JDBC
+    - '- Chapter 16: Data Structures:':
+        sections:
+        - '- Section: 16.1 Arrays and ArrayLists:':
+            subsections:
+            - 16.1a Array Basics
+            - 16.1b ArrayList Basics
+            - 16.1c Comparing Arrays and ArrayLists
+        - '- Section: 16.2 Linked Lists:':
+            subsections:
+            - 16.2a Introduction to Linked Lists
+            - 16.2b Implementing a Linked List
+            - 16.2c Linked List Operations
+        - '- Section: 16.3 Stacks and Queues:':
+            subsections:
+            - 16.3a Stack Basics
+            - 16.3b Queue Basics
+            - 16.3c Implementing Stacks and Queues
+        - '- Section: 16.4 Trees and Graphs:':
+            subsections:
+            - 16.4a Tree Basics
+            - 16.4b Graph Basics
+            - 16.4c Implementing Trees and Graphs
+    - '- Chapter 17: Algorithms:':
+        sections:
+        - '- Section: 17.1 Sorting Algorithms:':
+            subsections:
+            - 17.1a Bubble Sort
+            - 17.1b Selection Sort
+            - 17.1c Quick Sort
+        - '- Section: 17.2 Searching Algorithms:':
+            subsections:
+            - 17.2a Linear Search
+            - 17.2b Binary Search
+            - 17.2c Hashing
+        - '- Section: 17.3 Recursion:':
+            subsections:
+            - 17.3a Introduction to Recursion
+            - 17.3b Recursive Algorithms
+            - 17.3c Recursion vs Iteration
+    - '- Chapter 18: Advanced Java Features:':
+        sections:
+        - '- Section: 18.1 Generics:':
+            subsections:
+            - 18.1a Introduction to Generics
+            - 18.1b Generic Classes
+            - 18.1c Generic Methods
+        - '- Section: 18.2 Lambda Expressions:':
+            subsections:
+            - 18.2a Introduction to Lambda Expressions
+            - 18.2b Functional Interfaces
+            - 18.2c Lambda Expressions in Practice
+        - '- Section: 18.3 Streams:':
+            subsections:
+            - 18.3a Introduction to Streams
+            - 18.3b Stream Operations
+            - 18.3c Parallel Streams
+    - '- Chapter 19: GUI Programming:':
+        sections:
+        - '- Section: 19.1 Swing:':
+            subsections:
+            - 19.1a Introduction to Swing
+            - 19.1b Creating a Simple GUI
+            - 19.1c Event Handling
+        - '- Section: 19.2 JavaFX:':
+            subsections:
+            - 19.2a Introduction to JavaFX
+            - 19.2b Creating a Simple JavaFX Application
+            - 19.2c Event Handling in JavaFX
+        - '- Section: 19.3 Layout Managers:':
+            subsections:
+            - 19.3a BorderLayout
+            - 19.3b FlowLayout
+            - 19.3c GridLayout
+    - '- Chapter 20: Final Project:':
+        sections:
+        - '- Section: 20.1 Project Description:':
+            subsections:
+            - 20.1a Problem Statement
+            - 20.1b Input and Output
+            - 20.1c Constraints
+        - '- Section: 20.2 Implementation:':
+            subsections:
+            - 20.2a Algorithm Design
+            - 20.2b Coding the Solution
+            - 20.2c Testing and Debugging
+        - '- Section: 20.3 Project Presentation:':
+            subsections:
+            - 20.3a Preparing the Presentation
+            - 20.3b Presenting the Project
+            - 20.3c Project Evaluation

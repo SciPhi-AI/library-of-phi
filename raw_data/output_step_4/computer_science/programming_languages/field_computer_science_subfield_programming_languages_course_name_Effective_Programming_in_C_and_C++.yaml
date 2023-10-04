@@ -1,0 +1,448 @@
+textbook:
+  'Effective Programming in C and C++: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to C Programming:':
+        sections:
+        - '- Section: 1.1 Welcome to the Memory Jungle:':
+            subsections:
+            - 1.1a Understanding Memory Management in C
+            - 1.1b Pointers and Dynamic Memory Allocation
+            - 1.1c Memory Leaks and How to Avoid Them
+        - '- Section: 1.2 Subtleties of C: Data Structures and Floating-Point Arithmetic:':
+            subsections:
+            - 1.2a Understanding Data Structures in C
+            - 1.2b Floating-Point Arithmetic and Precision
+            - 1.2c Common Pitfalls in C Programming
+    - '- Chapter 2: Transitioning from C to C++:':
+        sections:
+        - '- Section: 2.1 Style and Structure:':
+            subsections:
+            - 2.1a Differences in Syntax and Style
+            - 2.1b Understanding C++ Classes and Objects
+            - 2.1c C++ Standard Library
+        - '- Section: 2.2 Abstraction and Encapsulation:':
+            subsections:
+            - 2.2a Understanding Abstraction in C++
+            - 2.2b Encapsulation and Data Hiding
+            - 2.2c Object-Oriented Design Principles
+        - '- Section: 2.3 Inheritance and Polymorphism:':
+            subsections:
+            - 2.3a Understanding Inheritance in C++
+            - 2.3b Polymorphism and Virtual Functions
+            - 2.3c Abstract Classes and Interfaces
+        - '- Section: 2.4 Standard Template Library (STL):':
+            subsections:
+            - 2.4a Introduction to STL
+            - 2.4b STL Containers and Algorithms
+            - 2.4c Customizing STL Components
+    - '- Chapter 3: Object-Oriented Programming in C++:':
+        sections:
+        - '- Section: 3.1 Advanced C++ Concepts:':
+            subsections:
+            - 3.1a Understanding Templates in C++
+            - 3.1b Exception Handling in C++
+            - 3.1c Memory Management in C++
+        - '- Section: 3.2 Abstraction, Inheritance, and Polymorphism:':
+            subsections:
+            - 3.2a Advanced Concepts in Abstraction
+            - 3.2b Multiple Inheritance and Interfaces
+            - 3.2c Dynamic Polymorphism and Casting
+        - '- Section: 3.3 Operator Overloading and Templates:':
+            subsections:
+            - 3.3a Understanding Operator Overloading
+            - 3.3b Creating Custom Templates
+            - 3.3c Specialized and Partial Template Specialization
+        - '- Section: 3.4 Exception Handling and Memory Management:':
+            subsections:
+            - 3.4a Understanding Exceptions in C++
+            - 3.4b Memory Management Techniques
+            - 3.4c Smart Pointers and Garbage Collection
+    - '- Chapter 4: Design Patterns in C++:':
+        sections:
+        - '- Section: 4.1 Introduction to Design Patterns:':
+            subsections:
+            - 4.1a Understanding Design Patterns
+            - 4.1b Creational Design Patterns
+            - 4.1c Structural Design Patterns
+        - '- Section: 4.2 Creational Patterns:':
+            subsections:
+            - 4.2a Singleton Pattern
+            - 4.2b Factory Pattern
+            - 4.2c Abstract Factory Pattern
+        - '- Section: 4.3 Structural Patterns:':
+            subsections:
+            - 4.3a Adapter Pattern
+            - 4.3b Composite Pattern
+            - 4.3c Decorator Pattern
+        - '- Section: 4.4 Behavioral Patterns:':
+            subsections:
+            - 4.4a Observer Pattern
+            - 4.4b Strategy Pattern
+            - 4.4c Command Pattern
+    - '- Chapter 5: Introduction to Projects:':
+        sections:
+        - '- Section: 5.1 Unit Testing:':
+            subsections:
+            - 5.1a Understanding Unit Testing
+            - 5.1b Writing Test Cases in C++
+            - 5.1c Test-Driven Development
+        - '- Section: 5.2 Third-Party Libraries:':
+            subsections:
+            - 5.2a Using Third-Party Libraries in C++
+            - 5.2b Understanding Library Dependencies
+            - 5.2c Managing Libraries with Package Managers
+        - '- Section: 5.3 Code Review:':
+            subsections:
+            - 5.3a The Importance of Code Review
+            - 5.3b Conducting a Code Review
+            - 5.3c Code Review Best Practices
+    - '- Chapter 6: Project Environments:':
+        sections:
+        - '- Section: 6.1 Iterators:':
+            subsections:
+            - 6.1a Understanding Iterators in C++
+            - 6.1b Using STL Iterators
+            - 6.1c Writing Custom Iterators
+        - '- Section: 6.2 N-Body Problem:':
+            subsections:
+            - 6.2a Understanding the N-Body Problem
+            - 6.2b Implementing an N-Body Simulation
+            - 6.2c Optimizing N-Body Simulations
+        - '- Section: 6.3 Setup:':
+            subsections:
+            - 6.3a Setting Up a C++ Project
+            - 6.3b Configuring Build Systems
+            - 6.3c Managing Project Dependencies
+        - '- Section: 6.4 Build Systems and Dependency Management:':
+            subsections:
+            - 6.4a Understanding Build Systems
+            - 6.4b Using Makefiles
+            - 6.4c Dependency Management in C++
+        - '- Section: 6.5 Version Control Systems:':
+            subsections:
+            - 6.5a Understanding Version Control
+            - 6.5b Using Git for Version Control
+            - 6.5c Branching and Merging Strategies
+        - '- Section: 6.6 Continuous Integration and Deployment:':
+            subsections:
+            - 6.6a Understanding Continuous Integration
+            - 6.6b Setting Up a CI/CD Pipeline
+            - 6.6c Automated Testing and Deployment
+    - '- Chapter 7: Visualization Techniques:':
+        sections:
+        - '- Section: 7.1 OpenGL Basics:':
+            subsections:
+            - 7.1a Introduction to OpenGL
+            - 7.1b Drawing Basic Shapes
+            - 7.1c Textures and Lighting
+        - '- Section: 7.2 Makefiles and Build Automation:':
+            subsections:
+            - 7.2a Understanding Makefiles
+            - 7.2b Writing a Basic Makefile
+            - 7.2c Automating Builds with Make
+        - '- Section: 7.3 Large-Scale Project Management:':
+            subsections:
+            - 7.3a Managing Large Codebases
+            - 7.3b Code Organization and Modularity
+            - 7.3c Refactoring and Technical Debt
+        - '- Section: 7.4 Advanced OpenGL Rendering Techniques:':
+            subsections:
+            - 7.4a Shaders and Programmable Pipeline
+            - 7.4b Advanced Texturing Techniques
+            - 7.4c 3D Models and Scene Graphs
+        - '- Section: 7.5 Debugging and Profiling Tools:':
+            subsections:
+            - 7.5a Understanding Debugging in C++
+            - 7.5b Using a Debugger
+            - 7.5c Profiling and Performance Analysis
+        - '- Section: 7.6 Performance Optimization Strategies:':
+            subsections:
+            - 7.6a Understanding Performance Bottlenecks
+            - 7.6b Optimizing C++ Code
+            - 7.6c Profiling Tools and Techniques
+    - '- Chapter 8: Course Recap, Interviews, Advanced Topics:':
+        sections:
+        - '- Section: 8.1 Grab Bag & Perspective:':
+            subsections:
+            - 8.1a Course Recap and Key Takeaways
+            - 8.1b Preparing for Technical Interviews
+            - 8.1c Exploring Advanced Topics
+        - '- Section: 8.2 Advanced Memory Management:':
+            subsections:
+            - 8.2a Understanding Memory Management in C++
+            - 8.2b Garbage Collection and Smart Pointers
+            - 8.2c Memory Profiling and Leak Detection
+        - '- Section: 8.3 Multi-threading and Parallel Programming:':
+            subsections:
+            - 8.3a Understanding Threads in C++
+            - 8.3b Synchronization and Concurrency
+            - 8.3c Parallel Algorithms and Libraries
+        - '- Section: 8.4 Networking and Socket Programming:':
+            subsections:
+            - 8.4a Understanding Networking in C++
+            - 8.4b Using Sockets for Network Communication
+            - 8.4c Building a Simple Web Server
+    - '- Chapter 9: Advanced C++ Concepts:':
+        sections:
+        - '- Section: 9.1 Template Metaprogramming:':
+            subsections:
+            - 9.1a Understanding Template Metaprogramming
+            - 9.1b Compile-Time Computations
+            - 9.1c Type Traits and Metaprogramming Libraries
+        - '- Section: 9.2 Modern C++ Features:':
+            subsections:
+            - 9.2a Understanding C++11, C++14, and C++17 Features
+            - 9.2b Using Auto, Lambdas, and Smart Pointers
+            - 9.2c Understanding Move Semantics and Rvalue References
+        - '- Section: 9.3 Advanced STL Usage:':
+            subsections:
+            - 9.3a Understanding STL Algorithms
+            - 9.3b Using Function Objects and Predicates
+            - 9.3c Understanding Iterators and Ranges
+        - '- Section: 9.4 C++ Best Practices:':
+            subsections:
+            - 9.4a Writing Clean, Maintainable C++ Code
+            - 9.4b Understanding Undefined Behavior and Avoiding Common Pitfalls
+            - 9.4c Using Static Analysis Tools and Linters
+    - '- Chapter 10: Advanced Project Management:':
+        sections:
+        - '- Section: 10.1 Large-Scale Software Development:':
+            subsections:
+            - 10.1a Understanding Software Development Lifecycles
+            - 10.1b Agile and Scrum Methodologies
+            - 10.1c Managing Large Teams and Codebases
+        - '- Section: 10.2 Software Architecture:':
+            subsections:
+            - 10.2a Understanding Software Architecture
+            - 10.2b Designing Modular, Scalable Systems
+            - 10.2c Architectural Patterns and Styles
+        - '- Section: 10.3 Software Testing and Quality Assurance:':
+            subsections:
+            - 10.3a Understanding Software Testing
+            - 10.3b Writing Unit Tests and Integration Tests
+            - 10.3c Understanding Test Coverage and Quality Metrics
+        - '- Section: 10.4 Software Deployment and Maintenance:':
+            subsections:
+            - 10.4a Understanding Software Deployment
+            - 10.4b Using Continuous Integration and Deployment
+            - 10.4c Understanding Software Maintenance and Support
+    - '- Chapter 11: Advanced Graphics Programming:':
+        sections:
+        - '- Section: 11.1 3D Graphics Programming:':
+            subsections:
+            - 11.1a Understanding 3D Graphics
+            - 11.1b Using OpenGL for 3D Rendering
+            - 11.1c Understanding Shaders and the Graphics Pipeline
+        - '- Section: 11.2 Game Development:':
+            subsections:
+            - 11.2a Understanding Game Development
+            - 11.2b Using Game Engines
+            - 11.2c Understanding Game Physics and AI
+        - '- Section: 11.3 Virtual Reality and Augmented Reality:':
+            subsections:
+            - 11.3a Understanding Virtual Reality and Augmented Reality
+            - 11.3b Using VR and AR SDKs
+            - 11.3c Understanding VR and AR Rendering Techniques
+        - '- Section: 11.4 Advanced Graphics Techniques:':
+            subsections:
+            - 11.4a Understanding Ray Tracing
+            - 11.4b Using Compute Shaders for GPGPU
+            - 11.4c Understanding Real-Time Rendering Techniques
+    - '- Chapter 12: Advanced Networking:':
+        sections:
+        - '- Section: 12.1 Network Programming:':
+            subsections:
+            - 12.1a Understanding Network Protocols
+            - 12.1b Using Sockets for Network Communication
+            - 12.1c Building Networked Applications
+        - '- Section: 12.2 Web Development:':
+            subsections:
+            - 12.2a Understanding Web Protocols
+            - 12.2b Building Web Servers and Clients
+            - 12.2c Understanding Web Security
+        - '- Section: 12.3 Distributed Systems:':
+            subsections:
+            - 12.3a Understanding Distributed Systems
+            - 12.3b Building Distributed Applications
+            - 12.3c Understanding Distributed Algorithms and Consistency Models
+        - '- Section: 12.4 Cloud Computing:':
+            subsections:
+            - 12.4a Understanding Cloud Computing
+            - 12.4b Using Cloud Services and APIs
+            - 12.4c Understanding Scalability and Fault Tolerance
+    - '- Chapter 13: Advanced Systems Programming:':
+        sections:
+        - '- Section: 13.1 Operating Systems:':
+            subsections:
+            - 13.1a Understanding Operating Systems
+            - 13.1b Using System Calls and APIs
+            - 13.1c Understanding Process Management and Scheduling
+        - '- Section: 13.2 File Systems:':
+            subsections:
+            - 13.2a Understanding File Systems
+            - 13.2b Using File System APIs
+            - 13.2c Understanding File System Internals and Performance
+        - '- Section: 13.3 Concurrency and Parallelism:':
+            subsections:
+            - 13.3a Understanding Concurrency and Parallelism
+            - 13.3b Using Threads and Locks
+            - 13.3c Understanding Deadlocks and Race Conditions
+        - '- Section: 13.4 Databases:':
+            subsections:
+            - 13.4a Understanding Databases
+            - 13.4b Using SQL and NoSQL Databases
+            - 13.4c Understanding Database Internals and Performance
+    - '- Chapter 14: Advanced Algorithms and Data Structures:':
+        sections:
+        - '- Section: 14.1 Algorithms:':
+            subsections:
+            - 14.1a Understanding Algorithms
+            - 14.1b Using Sorting and Searching Algorithms
+            - 14.1c Understanding Graph Algorithms and Dynamic Programming
+        - '- Section: 14.2 Data Structures:':
+            subsections:
+            - 14.2a Understanding Data Structures
+            - 14.2b Using Arrays, Lists, Stacks, and Queues
+            - 14.2c Understanding Trees, Heaps, and Graphs
+        - '- Section: 14.3 Complexity Analysis:':
+            subsections:
+            - 14.3a Understanding Complexity Analysis
+            - 14.3b Using Big O, Big Omega, and Big Theta Notation
+            - 14.3c Understanding Space and Time Tradeoffs
+        - '- Section: 14.4 Advanced Topics:':
+            subsections:
+            - 14.4a Understanding Randomized Algorithms
+            - 14.4b Using Machine Learning Algorithms
+            - 14.4c Understanding Quantum Computing and Algorithms
+    - '- Chapter 15: Advanced Software Engineering:':
+        sections:
+        - '- Section: 15.1 Software Engineering:':
+            subsections:
+            - 15.1a Understanding Software Engineering
+            - 15.1b Using Agile and Scrum Methodologies
+            - 15.1c Understanding Software Development Lifecycles
+        - '- Section: 15.2 Software Architecture:':
+            subsections:
+            - 15.2a Understanding Software Architecture
+            - 15.2b Designing Modular, Scalable Systems
+            - 15.2c Understanding Microservices and Service-Oriented Architecture
+        - '- Section: 15.3 Software Testing:':
+            subsections:
+            - 15.3a Understanding Software Testing
+            - 15.3b Writing Unit Tests and Integration Tests
+            - 15.3c Understanding Test Coverage and Quality Metrics
+        - '- Section: 15.4 Software Deployment:':
+            subsections:
+            - 15.4a Understanding Software Deployment
+            - 15.4b Using Continuous Integration and Deployment
+            - 15.4c Understanding DevOps and Site Reliability Engineering
+    - '- Chapter 16: Advanced Topics in C++:':
+        sections:
+        - '- Section: 16.1 Advanced C++ Concepts:':
+            subsections:
+            - 16.1a Understanding Template Metaprogramming
+            - 16.1b Using Modern C++ Features
+            - 16.1c Understanding Move Semantics and Rvalue References
+        - '- Section: 16.2 Advanced STL Usage:':
+            subsections:
+            - 16.2a Understanding STL Algorithms
+            - 16.2b Using Function Objects and Predicates
+            - 16.2c Understanding Iterators and Ranges
+        - '- Section: 16.3 C++ Best Practices:':
+            subsections:
+            - 16.3a Writing Clean, Maintainable C++ Code
+            - 16.3b Understanding Undefined Behavior and Avoiding Common Pitfalls
+            - 16.3c Using Static Analysis Tools and Linters
+        - '- Section: 16.4 Advanced Topics:':
+            subsections:
+            - 16.4a Understanding Concurrency and Parallelism in C++
+            - 16.4b Using Advanced Graphics Programming Techniques
+            - 16.4c Understanding Networking and Socket Programming in C++
+    - '- Chapter 17: Advanced Topics in Software Engineering:':
+        sections:
+        - '- Section: 17.1 Advanced Software Engineering:':
+            subsections:
+            - 17.1a Understanding Software Engineering
+            - 17.1b Using Agile and Scrum Methodologies
+            - 17.1c Understanding Software Development Lifecycles
+        - '- Section: 17.2 Advanced Software Architecture:':
+            subsections:
+            - 17.2a Understanding Software Architecture
+            - 17.2b Designing Modular, Scalable Systems
+            - 17.2c Understanding Microservices and Service-Oriented Architecture
+        - '- Section: 17.3 Advanced Software Testing:':
+            subsections:
+            - 17.3a Understanding Software Testing
+            - 17.3b Writing Unit Tests and Integration Tests
+            - 17.3c Understanding Test Coverage and Quality Metrics
+        - '- Section: 17.4 Advanced Software Deployment:':
+            subsections:
+            - 17.4a Understanding Software Deployment
+            - 17.4b Using Continuous Integration and Deployment
+            - 17.4c Understanding DevOps and Site Reliability Engineering
+    - '- Chapter 18: Advanced Topics in Algorithms and Data Structures:':
+        sections:
+        - '- Section: 18.1 Advanced Algorithms:':
+            subsections:
+            - 18.1a Understanding Algorithms
+            - 18.1b Using Sorting and Searching Algorithms
+            - 18.1c Understanding Graph Algorithms and Dynamic Programming
+        - '- Section: 18.2 Advanced Data Structures:':
+            subsections:
+            - 18.2a Understanding Data Structures
+            - 18.2b Using Arrays, Lists, Stacks, and Queues
+            - 18.2c Understanding Trees, Heaps, and Graphs
+        - '- Section: 18.3 Advanced Complexity Analysis:':
+            subsections:
+            - 18.3a Understanding Complexity Analysis
+            - 18.3b Using Big O, Big Omega, and Big Theta Notation
+            - 18.3c Understanding Space and Time Tradeoffs
+        - '- Section: 18.4 Advanced Topics:':
+            subsections:
+            - 18.4a Understanding Randomized Algorithms
+            - 18.4b Using Machine Learning Algorithms
+            - 18.4c Understanding Quantum Computing and Algorithms
+    - '- Chapter 19: Advanced Topics in Systems Programming:':
+        sections:
+        - '- Section: 19.1 Advanced Operating Systems:':
+            subsections:
+            - 19.1a Understanding Operating Systems
+            - 19.1b Using System Calls and APIs
+            - 19.1c Understanding Process Management and Scheduling
+        - '- Section: 19.2 Advanced File Systems:':
+            subsections:
+            - 19.2a Understanding File Systems
+            - 19.2b Using File System APIs
+            - 19.2c Understanding File System Internals and Performance
+        - '- Section: 19.3 Advanced Concurrency and Parallelism:':
+            subsections:
+            - 19.3a Understanding Concurrency and Parallelism
+            - 19.3b Using Threads and Locks
+            - 19.3c Understanding Deadlocks and Race Conditions
+        - '- Section: 19.4 Advanced Databases:':
+            subsections:
+            - 19.4a Understanding Databases
+            - 19.4b Using SQL and NoSQL Databases
+            - 19.4c Understanding Database Internals and Performance
+    - '- Chapter 20: Advanced Topics in Graphics Programming:':
+        sections:
+        - '- Section: 20.1 Advanced 3D Graphics Programming:':
+            subsections:
+            - 20.1a Understanding 3D Graphics
+            - 20.1b Using OpenGL for 3D Rendering
+            - 20.1c Understanding Shaders and the Graphics Pipeline
+        - '- Section: 20.2 Advanced Game Development:':
+            subsections:
+            - 20.2a Understanding Game Development
+            - 20.2b Using Game Engines
+            - 20.2c Understanding Game Physics and AI
+        - '- Section: 20.3 Advanced Virtual Reality and Augmented Reality:':
+            subsections:
+            - 20.3a Understanding Virtual Reality and Augmented Reality
+            - 20.3b Using VR and AR SDKs
+            - 20.3c Understanding VR and AR Rendering Techniques
+        - '- Section: 20.4 Advanced Graphics Techniques:':
+            subsections:
+            - 20.4a Understanding Ray Tracing
+            - 20.4b Using Compute Shaders for GPGPU
+            - 20.4c Understanding Real-Time Rendering Techniques

@@ -1,0 +1,492 @@
+textbook:
+  'Introduction to C and C++: A Comprehensive Guide to Programming in C and C++":':
+    chapters:
+    - '- Chapter 1: Basics of C Programming:':
+        sections:
+        - '- Section: 1.1 Introduction to C:':
+            subsections:
+            - 1.1a History of C
+            - 1.1b Basic Syntax
+            - 1.1c C Standard Library
+        - '- Section: 1.2 Data Types:':
+            subsections:
+            - 1.2a Primitive Data Types
+            - 1.2b Derived Data Types
+            - 1.2c User-Defined Data Types
+        - '- Section: 1.3 Variables and Constants:':
+            subsections:
+            - 1.3a Variable Declaration and Initialization
+            - 1.3b Constants and Literals
+            - 1.3c Scope of Variables
+        - '- Section: 1.4 Operators:':
+            subsections:
+            - 1.4a Arithmetic Operators
+            - 1.4b Relational Operators
+            - 1.4c Logical Operators
+        - '- Section: 1.5 Control Structures:':
+            subsections:
+            - 1.5a Decision Making Structures
+            - 1.5b Looping Structures
+            - 1.5c Jumping Structures
+        - '- Section: 1.6 Functions:':
+            subsections:
+            - 1.6a Function Declaration and Definition
+            - 1.6b Function Call and Return
+            - 1.6c Recursion
+    - '- Chapter 2: Pointers and Memory Management:':
+        sections:
+        - '- Section: 2.1 Pointers and Addresses:':
+            subsections:
+            - 2.1a Pointer Declaration and Initialization
+            - 2.1b Pointer Arithmetic
+            - 2.1c Null Pointers
+        - '- Section: 2.2 Dynamic Memory Allocation:':
+            subsections:
+            - 2.2a malloc and free
+            - 2.2b calloc and realloc
+            - 2.2c Memory Leaks
+        - '- Section: 2.3 Memory Management Techniques:':
+            subsections:
+            - 2.3a Stack and Heap
+            - 2.3b Garbage Collection
+            - 2.3c Memory Alignment
+        - '- Section: 2.4 Memory Leaks and Dangling Pointers:':
+            subsections:
+            - 2.4a Causes of Memory Leaks
+            - 2.4b Detecting and Preventing Memory Leaks
+            - 2.4c Dangling Pointers
+        - '- Section: 2.5 Arrays and Pointers:':
+            subsections:
+            - 2.5a Array Declaration and Initialization
+            - 2.5b Pointers and Arrays
+            - 2.5c Dynamic Arrays
+        - '- Section: 2.6 Multidimensional Arrays:':
+            subsections:
+            - 2.6a Declaration and Initialization
+            - 2.6b Accessing Elements
+            - 2.6c Pointers and Multidimensional Arrays
+        - '- Section: 2.7 Pointers to Pointers:':
+            subsections:
+            - 2.7a Declaration and Initialization
+            - 2.7b Use Cases
+            - 2.7c Common Mistakes
+        - '- Section: 2.8 Pointers and Functions:':
+            subsections:
+            - 2.8a Passing by Value vs Passing by Reference
+            - 2.8b Function Pointers
+            - 2.8c Callback Functions
+        - '- Section: 2.9 Pointers and Structures:':
+            subsections:
+            - 2.9a Structure Declaration and Initialization
+            - 2.9b Pointers to Structures
+            - 2.9c Dynamic Structures
+    - '- Chapter 3: Input and Output Operations:':
+        sections:
+        - '- Section: 3.1 Input and Output Streams:':
+            subsections:
+            - 3.1a Standard Input and Output
+            - 3.1b File Input and Output
+            - 3.1c Error Streams
+        - '- Section: 3.2 File Handling:':
+            subsections:
+            - 3.2a Opening and Closing Files
+            - 3.2b Reading from and Writing to Files
+            - 3.2c File Positioning Functions
+        - '- Section: 3.3 File Pointers:':
+            subsections:
+            - 3.3a Declaration and Initialization
+            - 3.3b File Access Modes
+            - 3.3c Error Handling with File Pointers
+        - '- Section: 3.4 Error Handling:':
+            subsections:
+            - 3.4a Error Codes
+            - 3.4b perror and strerror
+            - 3.4c Exit Status
+        - '- Section: 3.5 Formatted Input and Output:':
+            subsections:
+            - 3.5a printf and scanf
+            - 3.5b Format Specifiers
+            - 3.5c Field Width and Precision
+        - '- Section: 3.6 String Input and Output:':
+            subsections:
+            - 3.6a gets and puts
+            - 3.6b fgets and fputs
+            - 3.6c String Formatting with sprintf and sscanf
+    - '- Chapter 4: Object-oriented Programming in C++:':
+        sections:
+        - '- Section: 4.1 Classes and Objects:':
+            subsections:
+            - 4.1a Class Declaration and Definition
+            - 4.1b Object Creation and Destruction
+            - 4.1c Access Modifiers
+        - '- Section: 4.2 Constructors and Destructors:':
+            subsections:
+            - 4.2a Default Constructor
+            - 4.2b Parameterized Constructor
+            - 4.2c Destructor
+        - '- Section: 4.3 Inheritance and Polymorphism:':
+            subsections:
+            - 4.3a Base Classes and Derived Classes
+            - 4.3b Overriding and Overloading
+            - 4.3c Virtual Functions
+        - '- Section: 4.4 Encapsulation and Data Hiding:':
+            subsections:
+            - 4.4a Private, Protected, and Public Members
+            - 4.4b Getter and Setter Functions
+            - 4.4c Friend Functions
+        - '- Section: 4.5 Operator Overloading:':
+            subsections:
+            - 4.5a Overloading Binary Operators
+            - 4.5b Overloading Unary Operators
+            - 4.5c Overloading Assignment Operator
+        - '- Section: 4.6 Templates and Generic Programming:':
+            subsections:
+            - 4.6a Function Templates
+            - 4.6b Class Templates
+            - 4.6c Template Specialization
+        - '- Section: 4.7 Function Overloading:':
+            subsections:
+            - 4.7a Overloading Rules
+            - 4.7b Use Cases
+            - 4.7c Common Mistakes
+        - '- Section: 4.8 Operator Overloading in Classes:':
+            subsections:
+            - 4.8a Overloading Arithmetic Operators
+            - 4.8b Overloading Comparison Operators
+            - 4.8c Overloading Stream Insertion and Extraction Operators
+        - '- Section: 4.9 Template Specialization:':
+            subsections:
+            - 4.9a Partial Specialization
+            - 4.9b Full Specialization
+            - 4.9c Specialization vs Overloading
+    - '- Chapter 5: Data Structures:':
+        sections:
+        - '- Section: 5.1 Arrays and Linked Lists:':
+            subsections:
+            - 5.1a Array Operations
+            - 5.1b Linked List Operations
+            - 5.1c Comparison of Arrays and Linked Lists
+        - '- Section: 5.2 Stacks and Queues:':
+            subsections:
+            - 5.2a Stack Operations
+            - 5.2b Queue Operations
+            - 5.2c Applications of Stacks and Queues
+        - '- Section: 5.3 Trees and Graphs:':
+            subsections:
+            - 5.3a Tree Operations
+            - 5.3b Graph Operations
+            - 5.3c Tree and Graph Traversals
+        - '- Section: 5.4 Hash Tables:':
+            subsections:
+            - 5.4a Hash Function
+            - 5.4b Collision Resolution
+            - 5.4c Applications of Hash Tables
+        - '- Section: 5.5 Searching and Sorting Algorithms:':
+            subsections:
+            - 5.5a Linear Search and Binary Search
+            - 5.5b Bubble Sort, Selection Sort, and Insertion Sort
+            - 5.5c Quick Sort, Merge Sort, and Heap Sort
+        - '- Section: 5.6 Dynamic Programming:':
+            subsections:
+            - 5.6a Introduction to Dynamic Programming
+            - 5.6b Memoization and Tabulation
+            - 5.6c Dynamic Programming Problems
+    - '- Chapter 6: Advanced Topics in C++:':
+        sections:
+        - '- Section: 6.1 Exception Handling:':
+            subsections:
+            - 6.1a try, catch, and throw
+            - 6.1b Standard Exceptions
+            - 6.1c Custom Exceptions
+        - '- Section: 6.2 Templates and Standard Template Library (STL):':
+            subsections:
+            - 6.2a STL Containers
+            - 6.2b STL Algorithms
+            - 6.2c Iterators
+        - '- Section: 6.3 Smart Pointers:':
+            subsections:
+            - 6.3a auto_ptr, unique_ptr, and shared_ptr
+            - 6.3b weak_ptr
+            - 6.3c Custom Deleters
+        - '- Section: 6.4 Multithreading and Synchronization:':
+            subsections:
+            - 6.4a Creating Threads
+            - 6.4b Synchronization Primitives
+            - 6.4c Thread Communication
+        - '- Section: 6.5 Regular Expressions:':
+            subsections:
+            - 6.5a Basic Syntax
+            - 6.5b Matching and Searching
+            - 6.5c Substitution and Splitting
+        - '- Section: 6.6 Networking and Socket Programming:':
+            subsections:
+            - 6.6a Sockets and Protocols
+            - 6.6b Client-Server Model
+            - 6.6c Network Programming with Boost.Asio
+        - '- Section: 6.7 Lambda Expressions:':
+            subsections:
+            - 6.7a Syntax and Use Cases
+            - 6.7b Captures
+            - 6.7c Lambda Functions in STL Algorithms
+        - '- Section: 6.8 Future and Promise:':
+            subsections:
+            - 6.8a Asynchronous Programming
+            - 6.8b Sharing Data Between Threads
+            - 6.8c Exception Handling in Threads
+        - '- Section: 6.9 Sockets and Protocols:':
+            subsections:
+            - 6.9a TCP and UDP
+            - 6.9b Socket Programming
+            - 6.9c Network Programming Libraries
+    - '- Chapter 7: Debugging and Testing:':
+        sections:
+        - '- Section: 7.1 Debugging Techniques:':
+            subsections:
+            - 7.1a Breakpoints and Watchpoints
+            - 7.1b Step Execution
+            - 7.1c Inspecting Variables
+        - '- Section: 7.2 Testing Methods and Tools:':
+            subsections:
+            - 7.2a Unit Testing
+            - 7.2b Integration Testing
+            - 7.2c Regression Testing
+        - '- Section: 7.3 Test-driven Development (TDD):':
+            subsections:
+            - 7.3a Red-Green-Refactor Cycle
+            - 7.3b Benefits of TDD
+            - 7.3c Common Pitfalls
+        - '- Section: 7.4 Code Coverage Analysis:':
+            subsections:
+            - 7.4a Statement Coverage
+            - 7.4b Branch Coverage
+            - 7.4c Condition Coverage
+        - '- Section: 7.5 Unit Testing Frameworks:':
+            subsections:
+            - 7.5a CppUnit
+            - 7.5b Google Test
+            - 7.5c Catch2
+        - '- Section: 7.6 Debugging Tools:':
+            subsections:
+            - 7.6a gdb
+            - 7.6b Valgrind
+            - 7.6c Static Analysis Tools
+        - '- Section: 7.7 Code Profiling Tools:':
+            subsections:
+            - 7.7a gprof
+            - 7.7b perf
+            - 7.7c Callgrind
+    - '- Chapter 8: Software Engineering Principles:':
+        sections:
+        - '- Section: 8.1 Software Development Life Cycle (SDLC):':
+            subsections:
+            - 8.1a Waterfall Model
+            - 8.1b Iterative Model
+            - 8.1c Agile Model
+        - '- Section: 8.2 Requirements Engineering:':
+            subsections:
+            - 8.2a Requirement Elicitation
+            - 8.2b Requirement Specification
+            - 8.2c Requirement Validation
+        - '- Section: 8.3 Software Design Patterns:':
+            subsections:
+            - 8.3a Creational Patterns
+            - 8.3b Structural Patterns
+            - 8.3c Behavioral Patterns
+        - '- Section: 8.4 Software Quality Assurance:':
+            subsections:
+            - 8.4a Quality Metrics
+            - 8.4b Code Reviews
+            - 8.4c Continuous Integration
+        - '- Section: 8.5 Agile Development Methodologies:':
+            subsections:
+            - 8.5a Scrum
+            - 8.5b Kanban
+            - 8.5c Extreme Programming
+        - '- Section: 8.6 Version Control Systems:':
+            subsections:
+            - 8.6a git
+            - 8.6b svn
+            - 8.6c mercurial
+    - '- Chapter 9: Performance Optimization:':
+        sections:
+        - '- Section: 9.1 Profiling and Benchmarking:':
+            subsections:
+            - 9.1a CPU Profiling
+            - 9.1b Memory Profiling
+            - 9.1c I/O Profiling
+        - '- Section: 9.2 Memory Management Optimization:':
+            subsections:
+            - 9.2a Memory Pooling
+            - 9.2b Object Pooling
+            - 9.2c Custom Allocators
+        - '- Section: 9.3 Algorithmic Improvements:':
+            subsections:
+            - 9.3a Time Complexity
+            - 9.3b Space Complexity
+            - 9.3c Trade-offs
+        - '- Section: 9.4 Compiler Optimization Techniques:':
+            subsections:
+            - 9.4a Optimization Levels
+            - 9.4b Inline Functions
+            - 9.4c Loop Unrolling
+        - '- Section: 9.5 Parallel Computing and SIMD Instructions:':
+            subsections:
+            - 9.5a Multithreading
+            - 9.5b OpenMP
+            - 9.5c SIMD Intrinsics
+        - '- Section: 9.6 Cache Optimization Strategies:':
+            subsections:
+            - 9.6a Cache Hierarchy
+            - 9.6b Cache Misses
+            - 9.6c Cache-Friendly Code
+        - '- Section: 9.7 Loop Unrolling:':
+            subsections:
+            - 9.7a Benefits
+            - 9.7b Drawbacks
+            - 9.7c Automatic Loop Unrolling
+        - '- Section: 9.8 SIMD Vectorization:':
+            subsections:
+            - 9.8a SIMD Instructions
+            - 9.8b Vectorization in Compilers
+            - 9.8c Manual Vectorization
+        - '- Section: 9.9 Cache Coherency:':
+            subsections:
+            - 9.9a Cache Coherency Problem
+            - 9.9b MESI Protocol
+            - 9.9c False Sharing
+        - '- Section: 9.10 Parallel Programming Models:':
+            subsections:
+            - 9.10a Shared Memory Model
+            - 9.10b Distributed Memory Model
+            - 9.10c Hybrid Model
+    - '- Chapter 10: Advanced C++ Features:':
+        sections:
+        - '- Section: 10.1 Move Semantics:':
+            subsections:
+            - 10.1a Rvalue References
+            - 10.1b Move Constructor and Move Assignment Operator
+            - 10.1c std::move and std::forward
+        - '- Section: 10.2 Type Traits:':
+            subsections:
+            - 10.2a Type Identification
+            - 10.2b Type Manipulation
+            - 10.2c Type Relationships
+        - '- Section: 10.3 Variadic Templates:':
+            subsections:
+            - 10.3a Basics of Variadic Templates
+            - 10.3b Recursive Unpacking
+            - 10.3c Fold Expressions
+        - '- Section: 10.4 constexpr:':
+            subsections:
+            - 10.4a Compile-Time Computation
+            - 10.4b constexpr Functions
+            - 10.4c constexpr Variables
+        - '- Section: 10.5 Attributes:':
+            subsections:
+            - 10.5a [[nodiscard]]
+            - 10.5b [[maybe_unused]]
+            - 10.5c [[deprecated]]
+        - '- Section: 10.6 Modules:':
+            subsections:
+            - 10.6a Module Interface and Implementation
+            - 10.6b Importing and Exporting
+            - 10.6c Benefits of Modules
+        - '- Section: 10.7 Coroutines:':
+            subsections:
+            - 10.7a Basics of Coroutines
+            - 10.7b Coroutine Handles
+            - 10.7c Coroutine Promises
+        - '- Section: 10.8 Concepts:':
+            subsections:
+            - 10.8a Introduction to Concepts
+            - 10.8b Defining Concepts
+            - 10.8c Using Concepts in Templates
+        - '- Section: 10.9 Ranges:':
+            subsections:
+            - 10.9a Range-Based For Loops
+            - 10.9b Range Adaptors
+            - 10.9c Range Views
+        - '- Section: 10.10 Format Library:':
+            subsections:
+            - 10.10a Basic Formatting
+            - 10.10b Format Specifiers
+            - 10.10c User-Defined Types
+    - '- Chapter 11: C++ Standard Library:':
+        sections:
+        - '- Section: 11.1 Containers:':
+            subsections:
+            - 11.1a Sequence Containers
+            - 11.1b Associative Containers
+            - 11.1c Unordered Containers
+        - '- Section: 11.2 Algorithms:':
+            subsections:
+            - 11.2a Non-modifying Algorithms
+            - 11.2b Modifying Algorithms
+            - 11.2c Sorting and Searching Algorithms
+        - '- Section: 11.3 Iterators:':
+            subsections:
+            - 11.3a Iterator Categories
+            - 11.3b Iterator Adaptors
+            - 11.3c Iterator Traits
+        - '- Section: 11.4 Strings:':
+            subsections:
+            - 11.4a std::string and std::wstring
+            - 11.4b String Manipulation
+            - 11.4c String Conversion Functions
+        - '- Section: 11.5 Regular Expressions:':
+            subsections:
+            - 11.5a Basic Syntax
+            - 11.5b Matching and Searching
+            - 11.5c Substitution and Splitting
+        - '- Section: 11.6 File I/O:':
+            subsections:
+            - 11.6a File Streams
+            - 11.6b File Manipulation
+            - 11.6c Path Manipulation
+        - '- Section: 11.7 Time and Date:':
+            subsections:
+            - 11.7a Time Points
+            - 11.7b Durations
+            - 11.7c Clocks
+        - '- Section: 11.8 Random Numbers:':
+            subsections:
+            - 11.8a Random Number Engines
+            - 11.8b Random Number Distributions
+            - 11.8c Random Device
+        - '- Section: 11.9 Threads:':
+            subsections:
+            - 11.9a Creating Threads
+            - 11.9b Synchronization Primitives
+            - 11.9c Thread Local Storage
+        - '- Section: 11.10 Atomics:':
+            subsections:
+            - 11.10a Atomic Types
+            - 11.10b Memory Order
+            - 11.10c Atomic Operations
+    - '- Chapter 12: C++ Best Practices:':
+        sections:
+        - '- Section: 12.1 Code Organization:':
+            subsections:
+            - 12.1a Header Files and Source Files
+            - 12.1b Namespaces
+            - '12.1c Include Guards and #pragma once'
+        - '- Section: 12.2 Coding Style:':
+            subsections:
+            - 12.2a Naming Conventions
+            - 12.2b Indentation and Spacing
+            - 12.2c Comments
+        - '- Section: 12.3 Error Handling:':
+            subsections:
+            - 12.3a Exceptions
+            - 12.3b Error Codes
+            - 12.3c Assertions
+        - '- Section: 12.4 Resource Management:':
+            subsections:
+            - 12.4a RAII
+            - 12.4b Smart Pointers
+            - 12.4c Resource Leaks
+        - '- Section: 12.5 Performance Considerations:':
+            subsections:
+            - 12.5a Avoiding Unnecessary Copies
+            - 12.5b Using const Correctly
+            - 12.5c Choosing the Right Data Structure

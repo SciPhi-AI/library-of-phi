@@ -1,0 +1,231 @@
+textbook:
+  'Introduction to Architecture & Environmental Design: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: A Trans-Scalar Practice:':
+        sections:
+        - '- Section: 1.1 Scale and Proportion:':
+            subsections:
+            - 1.1a Understanding Scale in Architecture
+            - 1.1b Principles of Proportion in Design
+        - '- Section: 1.2 Rhythm in Architecture:':
+            subsections:
+            - 1.2a Creating Rhythm through Repetition
+            - 1.2b The Role of Rhythm in Architectural Composition
+    - '- Chapter 2: The Human Scale: Bauhaus/Eames:':
+        sections:
+        - '- Section: 2.1 Body Measurements:':
+            subsections:
+            - 2.1a Anthropometry in Architecture
+            - 2.1b Ergonomics and Human Factors in Design
+        - '- Section: 2.2 Drawing Wire:':
+            subsections:
+            - 2.2a Techniques for Drawing to Scale
+            - 2.2b Using Wireframes in Architectural Representation
+        - '- Section: 2.3 Building Wire:':
+            subsections:
+            - 2.3a Structural Systems and Construction Techniques
+            - 2.3b Wireframe Modeling in Architectural Design
+    - '- Chapter 3: The Post-Human: Fuller/Archigram/Cedric Price:':
+        sections:
+        - '- Section: 3.1 Review Assignment 1.3:':
+            subsections:
+            - 3.1a Analysis of Post-Human Architecture
+            - 3.1b Critique of Fuller, Archigram, and Cedric Price's Works
+    - '- Chapter 4: The Domestic Scale: Villas:':
+        sections:
+        - '- Section: 4.1 Review Assignment 1.4:':
+            subsections:
+            - 4.1a Study of Domestic Architecture
+            - 4.1b Analysis of Villa Design Principles
+    - '- Chapter 5: The Civic Scale: Bigness and Monumentality:':
+        sections:
+        - '- Section: 5.1 Review Assignment 2.2:':
+            subsections:
+            - 5.1a Understanding Bigness in Architecture
+            - 5.1b Exploring Monumentality in Urban Design
+    - '- Chapter 6: The Neighborhood: The Urban Project:':
+        sections:
+        - '- Section: 6.1 Final Review:':
+            subsections:
+            - 6.1a Urban Planning and Design Process
+            - 6.1b Case Studies of Successful Urban Projects
+    - '- Chapter 7: Exercises 1 and 2:':
+        sections:
+        - '- Section: 7.1 Sample Student Work:':
+            subsections:
+            - 7.1a Example Projects for Exercises 1 and 2
+            - 7.1b Analysis and Feedback on Student Work
+    - '- Chapter 8: Exercise 3:':
+        sections:
+        - '- Section: 8.1 Sample Student Work:':
+            subsections:
+            - 8.1a Example Projects for Exercise 3
+            - 8.1b Analysis and Feedback on Student Work
+    - '- Chapter 9: The Urban Scale: City Planning:':
+        sections:
+        - '- Section: 9.1 Urban Design Principles:':
+            subsections:
+            - 9.1a Understanding Urban Design
+            - 9.1b Case Studies of Urban Design
+        - '- Section: 9.2 Urban Planning Techniques:':
+            subsections:
+            - 9.2a Planning for Sustainable Cities
+            - 9.2b Urban Renewal and Regeneration
+        - '- Section: 9.3 The Role of Architecture in Urban Planning:':
+            subsections:
+            - 9.3a Architectural Design in Urban Context
+            - 9.3b Case Studies of Architectural Influence on Urban Planning
+    - '- Chapter 10: The Landscape Scale: Landscape Architecture:':
+        sections:
+        - '- Section: 10.1 Landscape Design Principles:':
+            subsections:
+            - 10.1a Understanding Landscape Design
+            - 10.1b Case Studies of Landscape Design
+        - '- Section: 10.2 Landscape Planning Techniques:':
+            subsections:
+            - 10.2a Planning for Sustainable Landscapes
+            - 10.2b Landscape Restoration and Conservation
+        - '- Section: 10.3 The Role of Architecture in Landscape Planning:':
+            subsections:
+            - 10.3a Architectural Design in Landscape Context
+            - 10.3b Case Studies of Architectural Influence on Landscape Planning
+    - '- Chapter 11: The Environmental Scale: Environmental Impact Assessment:':
+        sections:
+        - '- Section: 11.1 Environmental Impact Assessment Principles:':
+            subsections:
+            - 11.1a Understanding Environmental Impact Assessment
+            - 11.1b Case Studies of Environmental Impact Assessment
+        - '- Section: 11.2 Environmental Planning Techniques:':
+            subsections:
+            - 11.2a Planning for Sustainable Environment
+            - 11.2b Environmental Conservation and Restoration
+        - '- Section: 11.3 The Role of Architecture in Environmental Planning:':
+            subsections:
+            - 11.3a Architectural Design in Environmental Context
+            - 11.3b Case Studies of Architectural Influence on Environmental Planning
+    - '- Chapter 12: The Global Scale: Sustainable Architecture:':
+        sections:
+        - '- Section: 12.1 Sustainable Architecture Principles:':
+            subsections:
+            - 12.1a Understanding Sustainable Architecture
+            - 12.1b Case Studies of Sustainable Architecture
+        - '- Section: 12.2 Sustainable Design Techniques:':
+            subsections:
+            - 12.2a Designing for Sustainability
+            - 12.2b Case Studies of Sustainable Design
+        - '- Section: 12.3 The Role of Architecture in Global Sustainability:':
+            subsections:
+            - 12.3a Architectural Design in Global Context
+            - 12.3b Case Studies of Architectural Influence on Global Sustainability
+    - '- Chapter 13: The Cultural Scale: Cultural Heritage and Architecture:':
+        sections:
+        - '- Section: 13.1 Cultural Heritage and Architecture Principles:':
+            subsections:
+            - 13.1a Understanding Cultural Heritage in Architecture
+            - 13.1b Case Studies of Cultural Heritage in Architecture
+        - '- Section: 13.2 Cultural Heritage Conservation Techniques:':
+            subsections:
+            - 13.2a Conserving Cultural Heritage in Architecture
+            - 13.2b Case Studies of Cultural Heritage Conservation
+        - '- Section: 13.3 The Role of Architecture in Cultural Heritage:':
+            subsections:
+            - 13.3a Architectural Design in Cultural Context
+            - 13.3b Case Studies of Architectural Influence on Cultural Heritage
+    - '- Chapter 14: The Social Scale: Social Impact and Architecture:':
+        sections:
+        - '- Section: 14.1 Social Impact and Architecture Principles:':
+            subsections:
+            - 14.1a Understanding Social Impact in Architecture
+            - 14.1b Case Studies of Social Impact in Architecture
+        - '- Section: 14.2 Social Impact Assessment Techniques:':
+            subsections:
+            - 14.2a Assessing Social Impact in Architecture
+            - 14.2b Case Studies of Social Impact Assessment
+        - '- Section: 14.3 The Role of Architecture in Social Impact:':
+            subsections:
+            - 14.3a Architectural Design in Social Context
+            - 14.3b Case Studies of Architectural Influence on Social Impact
+    - '- Chapter 15: The Economic Scale: Economic Impact and Architecture:':
+        sections:
+        - '- Section: 15.1 Economic Impact and Architecture Principles:':
+            subsections:
+            - 15.1a Understanding Economic Impact in Architecture
+            - 15.1b Case Studies of Economic Impact in Architecture
+        - '- Section: 15.2 Economic Impact Assessment Techniques:':
+            subsections:
+            - 15.2a Assessing Economic Impact in Architecture
+            - 15.2b Case Studies of Economic Impact Assessment
+        - '- Section: 15.3 The Role of Architecture in Economic Impact:':
+            subsections:
+            - 15.3a Architectural Design in Economic Context
+            - 15.3b Case Studies of Architectural Influence on Economic Impact
+    - '- Chapter 16: The Political Scale: Political Impact and Architecture:':
+        sections:
+        - '- Section: 16.1 Political Impact and Architecture Principles:':
+            subsections:
+            - 16.1a Understanding Political Impact in Architecture
+            - 16.1b Case Studies of Political Impact in Architecture
+        - '- Section: 16.2 Political Impact Assessment Techniques:':
+            subsections:
+            - 16.2a Assessing Political Impact in Architecture
+            - 16.2b Case Studies of Political Impact Assessment
+        - '- Section: 16.3 The Role of Architecture in Political Impact:':
+            subsections:
+            - 16.3a Architectural Design in Political Context
+            - 16.3b Case Studies of Architectural Influence on Political Impact
+    - '- Chapter 17: The Technological Scale: Technological Impact and Architecture:':
+        sections:
+        - '- Section: 17.1 Technological Impact and Architecture Principles:':
+            subsections:
+            - 17.1a Understanding Technological Impact in Architecture
+            - 17.1b Case Studies of Technological Impact in Architecture
+        - '- Section: 17.2 Technological Impact Assessment Techniques:':
+            subsections:
+            - 17.2a Assessing Technological Impact in Architecture
+            - 17.2b Case Studies of Technological Impact Assessment
+        - '- Section: 17.3 The Role of Architecture in Technological Impact:':
+            subsections:
+            - 17.3a Architectural Design in Technological Context
+            - 17.3b Case Studies of Architectural Influence on Technological Impact
+    - '- Chapter 18: The Aesthetic Scale: Aesthetic Impact and Architecture:':
+        sections:
+        - '- Section: 18.1 Aesthetic Impact and Architecture Principles:':
+            subsections:
+            - 18.1a Understanding Aesthetic Impact in Architecture
+            - 18.1b Case Studies of Aesthetic Impact in Architecture
+        - '- Section: 18.2 Aesthetic Impact Assessment Techniques:':
+            subsections:
+            - 18.2a Assessing Aesthetic Impact in Architecture
+            - 18.2b Case Studies of Aesthetic Impact Assessment
+        - '- Section: 18.3 The Role of Architecture in Aesthetic Impact:':
+            subsections:
+            - 18.3a Architectural Design in Aesthetic Context
+            - 18.3b Case Studies of Architectural Influence on Aesthetic Impact
+    - '- Chapter 19: The Ethical Scale: Ethical Impact and Architecture:':
+        sections:
+        - '- Section: 19.1 Ethical Impact and Architecture Principles:':
+            subsections:
+            - 19.1a Understanding Ethical Impact in Architecture
+            - 19.1b Case Studies of Ethical Impact in Architecture
+        - '- Section: 19.2 Ethical Impact Assessment Techniques:':
+            subsections:
+            - 19.2a Assessing Ethical Impact in Architecture
+            - 19.2b Case Studies of Ethical Impact Assessment
+        - '- Section: 19.3 The Role of Architecture in Ethical Impact:':
+            subsections:
+            - 19.3a Architectural Design in Ethical Context
+            - 19.3b Case Studies of Architectural Influence on Ethical Impact
+    - '- Chapter 20: The Future Scale: Future Impact and Architecture:':
+        sections:
+        - '- Section: 20.1 Future Impact and Architecture Principles:':
+            subsections:
+            - 20.1a Understanding Future Impact in Architecture
+            - 20.1b Case Studies of Future Impact in Architecture
+        - '- Section: 20.2 Future Impact Assessment Techniques:':
+            subsections:
+            - 20.2a Assessing Future Impact in Architecture
+            - 20.2b Case Studies of Future Impact Assessment
+        - '- Section: 20.3 The Role of Architecture in Future Impact:':
+            subsections:
+            - 20.3a Architectural Design in Future Context
+            - 20.3b Case Studies of Architectural Influence on Future Impact

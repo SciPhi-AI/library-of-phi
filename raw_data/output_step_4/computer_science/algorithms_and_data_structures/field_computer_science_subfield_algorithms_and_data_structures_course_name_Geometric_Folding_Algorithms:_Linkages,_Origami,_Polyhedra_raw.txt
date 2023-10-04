@@ -1,0 +1,609 @@
+textbook: 
+"Geometric Folding Algorithms: Linkages, Origami, Polyhedra":
+
+chapters:
+- Chapter 1: Introduction to Geometric Folding Algorithms:
+sections:
+- Section: 1.1 Folding Algorithms for Linkages:
+subsections:
+- 1.1a Basic Concepts
+- 1.1b Algorithm Design
+- 1.1c Practical Applications
+
+- Section: 1.2 Folding Algorithms for Origami:
+subsections:
+- 1.2a Basic Concepts
+- 1.2b Algorithm Design
+- 1.2c Practical Applications
+
+- Section: 1.3 Folding Algorithms for Polyhedra:
+subsections:
+- 1.3a Basic Concepts
+- 1.3b Algorithm Design
+- 1.3c Practical Applications
+
+- Chapter 2: Linkages and Their Properties:
+sections:
+- Section: 2.1 Types of Linkages:
+subsections:
+- 2.1a Definition and Classification
+- 2.1b Properties and Characteristics
+- 2.1c Practical Examples
+
+- Section: 2.2 Kinematic Analysis of Linkages:
+subsections:
+- 2.2a Basic Principles
+- 2.2b Analysis Techniques
+- 2.2c Practical Applications
+
+- Section: 2.3 Mechanical Design of Linkages:
+subsections:
+- 2.3a Design Principles
+- 2.3b Design Techniques
+- 2.3c Practical Applications
+
+- Section: 2.4 Stability Analysis of Linkages:
+subsections:
+- 2.4a Basic Concepts
+- 2.4b Analysis Techniques
+- 2.4c Practical Applications
+
+- Section: 2.5 Optimization of Linkages:
+subsections:
+- 2.5a Basic Concepts
+- 2.5b Optimization Techniques
+- 2.5c Practical Applications
+
+- Chapter 3: Origami and Its Mathematical Foundations:
+sections:
+- Section: 3.1 Folding Patterns in Origami:
+subsections:
+- 3.1a Basic Concepts
+- 3.1b Pattern Design
+- 3.1c Practical Applications
+
+- Section: 3.2 Origami Axioms and Theorems:
+subsections:
+- 3.2a Basic Concepts
+- 3.2b Important Axioms and Theorems
+- 3.2c Practical Applications
+
+- Section: 3.3 Folding Techniques in Origami:
+subsections:
+- 3.3a Basic Techniques
+- 3.3b Advanced Techniques
+- 3.3c Practical Applications
+
+- Section: 3.4 Computational Origami:
+subsections:
+- 3.4a Basic Concepts
+- 3.4b Algorithm Design
+- 3.4c Practical Applications
+
+- Section: 3.5 Geometric Algebra in Origami:
+subsections:
+- 3.5a Basic Concepts
+- 3.5b Algebraic Techniques
+- 3.5c Practical Applications
+
+- Chapter 4: Polyhedra and Their Folding Characteristics:
+sections:
+- Section: 4.1 Types of Polyhedra:
+subsections:
+- 4.1a Definition and Classification
+- 4.1b Properties and Characteristics
+- 4.1c Practical Examples
+
+- Section: 4.2 Folding Polyhedra from Flat Nets:
+subsections:
+- 4.2a Basic Concepts
+- 4.2b Folding Techniques
+- 4.2c Practical Applications
+
+- Section: 4.3 Folding Characteristics of Polyhedra:
+subsections:
+- 4.3a Basic Concepts
+- 4.3b Analysis Techniques
+- 4.3c Practical Applications
+
+- Section: 4.4 Symmetry in Polyhedra:
+subsections:
+- 4.4a Basic Concepts
+- 4.4b Analysis Techniques
+- 4.4c Practical Applications
+
+- Section: 4.5 Regular and Semi-Regular Polyhedra:
+subsections:
+- 4.5a Definition and Classification
+- 4.5b Properties and Characteristics
+- 4.5c Practical Examples
+
+- Section: 4.6 Convex and Non-Convex Polyhedra:
+subsections:
+- 4.6a Definition and Classification
+- 4.6b Properties and Characteristics
+- 4.6c Practical Examples
+
+- Chapter 5: Folding Algorithms and Computational Geometry:
+sections:
+- Section: 5.1 Computational Complexity of Folding Algorithms:
+subsections:
+- 5.1a Basic Concepts
+- 5.1b Analysis Techniques
+- 5.1c Practical Applications
+
+- Section: 5.2 Geometric Data Structures for Folding Algorithms:
+subsections:
+- 5.2a Basic Concepts
+- 5.2b Data Structure Design
+- 5.2c Practical Applications
+
+- Section: 5.3 Efficient Algorithms for Folding:
+subsections:
+- 5.3a Basic Concepts
+- 5.3b Algorithm Design
+- 5.3c Practical Applications
+
+- Section: 5.4 Discrete Differential Geometry in Folding:
+subsections:
+- 5.4a Basic Concepts
+- 5.4b Analysis Techniques
+- 5.4c Practical Applications
+
+- Section: 5.5 Topology and Folding:
+subsections:
+- 5.5a Basic Concepts
+- 5.5b Analysis Techniques
+- 5.5c Practical Applications
+
+- Section: 5.6 Geometric Constraints in Folding:
+subsections:
+- 5.6a Basic Concepts
+- 5.6b Constraint Handling Techniques
+- 5.6c Practical Applications
+
+- Chapter 6: Applications of Geometric Folding Algorithms:
+sections:
+- Section: 6.1 Foldable Structures in Architecture:
+subsections:
+- 6.1a Basic Concepts
+- 6.1b Design Techniques
+- 6.1c Practical Examples
+
+- Section: 6.2 Foldable Robotics:
+subsections:
+- 6.2a Basic Concepts
+- 6.2b Design Techniques
+- 6.2c Practical Examples
+
+- Section: 6.3 Origami-inspired Design in Engineering:
+subsections:
+- 6.3a Basic Concepts
+- 6.3b Design Techniques
+- 6.3c Practical Examples
+
+- Section: 6.4 Medical Applications of Folding:
+subsections:
+- 6.4a Basic Concepts
+- 6.4b Design Techniques
+- 6.4c Practical Examples
+
+- Section: 6.5 Art and Design Applications of Folding:
+subsections:
+- 6.5a Basic Concepts
+- 6.5b Design Techniques
+- 6.5c Practical Examples
+
+- Section: 6.6 Folding in Nanotechnology:
+subsections:
+- 6.6a Basic Concepts
+- 6.6b Design Techniques
+- 6.6c Practical Examples
+
+- Chapter 7: Folding Algorithms for Special Classes of Linkages:
+sections:
+- Section: 7.1 Rigid Origami Linkages:
+subsections:
+- 7.1a Basic Concepts
+- 7.1b Design Techniques
+- 7.1c Practical Applications
+
+- Section: 7.2 Self-folding Linkages:
+subsections:
+- 7.2a Basic Concepts
+- 7.2b Design Techniques
+- 7.2c Practical Applications
+
+- Section: 7.3 Deployable Structures:
+subsections:
+- 7.3a Basic Concepts
+- 7.3b Design Techniques
+- 7.3c Practical Applications
+
+- Section: 7.4 Reconfigurable Linkages:
+subsections:
+- 7.4a Basic Concepts
+- 7.4b Design Techniques
+- 7.4c Practical Applications
+
+- Section: 7.5 Bio-inspired Folding Linkages:
+subsections:
+- 7.5a Basic Concepts
+- 7.5b Design Techniques
+- 7.5c Practical Applications
+
+- Chapter 8: Folding Algorithms for Advanced Origami Techniques:
+sections:
+- Section: 8.1 Tessellation Origami:
+subsections:
+- 8.1a Basic Concepts
+- 8.1b Design Techniques
+- 8.1c Practical Applications
+
+- Section: 8.2 Modular Origami:
+subsections:
+- 8.2a Basic Concepts
+- 8.2b Design Techniques
+- 8.2c Practical Applications
+
+- Section: 8.3 Curved Folding in Origami:
+subsections:
+- 8.3a Basic Concepts
+- 8.3b Design Techniques
+- 8.3c Practical Applications
+
+- Section: 8.4 Folding with Non-Paper Materials:
+subsections:
+- 8.4a Basic Concepts
+- 8.4b Design Techniques
+- 8.4c Practical Applications
+
+- Section: 8.5 Mathematical Origami:
+subsections:
+- 8.5a Basic Concepts
+- 8.5b Design Techniques
+- 8.5c Practical Applications
+
+- Section: 8.6 Origami in Fashion and Textiles:
+subsections:
+- 8.6a Basic Concepts
+- 8.6b Design Techniques
+- 8.6c Practical Applications
+
+- Chapter 9: Folding Algorithms for Complex Polyhedra:
+sections:
+- Section: 9.1 Folding Dodecahedra:
+subsections:
+- 9.1a Basic Concepts
+- 9.1b Folding Techniques
+- 9.1c Practical Applications
+
+- Section: 9.2 Folding Icosahedra:
+subsections:
+- 9.2a Basic Concepts
+- 9.2b Folding Techniques
+- 9.2c Practical Applications
+
+- Section: 9.3 Folding Archimedean Solids:
+subsections:
+- 9.3a Basic Concepts
+- 9.3b Folding Techniques
+- 9.3c Practical Applications
+
+- Section: 9.4 Folding Platonic Solids:
+subsections:
+- 9.4a Basic Concepts
+- 9.4b Folding Techniques
+- 9.4c Practical Applications
+
+- Section: 9.5 Folding Truncated Solids:
+subsections:
+- 9.5a Basic Concepts
+- 9.5b Folding Techniques
+- 9.5c Practical Applications
+
+- Section: 9.6 Folding Rhombic Polyhedra:
+subsections:
+- 9.6a Basic Concepts
+- 9.6b Folding Techniques
+- 9.6c Practical Applications
+
+- Chapter 10: Geometric Folding Algorithms in Practice:
+sections:
+- Section: 10.1 Implementation of Folding Algorithms:
+subsections:
+- 10.1a Basic Concepts
+- 10.1b Implementation Techniques
+- 10.1c Practical Applications
+
+- Section: 10.2 Simulation of Folding Processes:
+subsections:
+- 10.2a Basic Concepts
+- 10.2b Simulation Techniques
+- 10.2c Practical Applications
+
+- Section: 10.3 Physical Prototyping of Folded Structures:
+subsections:
+- 10.3a Basic Concepts
+- 10.3b Prototyping Techniques
+- 10.3c Practical Applications
+
+- Section: 10.4 Materials for Folded Structures:
+subsections:
+- 10.4a Basic Concepts
+- 10.4b Material Selection
+- 10.4c Practical Applications
+
+- Section: 10.5 Manufacturing Techniques for Folded Structures:
+subsections:
+- 10.5a Basic Concepts
+- 10.5b Manufacturing Techniques
+- 10.5c Practical Applications
+
+- Section: 10.6 Testing and Analysis of Folded Structures:
+subsections:
+- 10.6a Basic Concepts
+- 10.6b Testing Techniques
+- 10.6c Analysis Techniques
+
+- Chapter 11: Advanced Topics in Linkage Folding:
+sections:
+- Section: 11.1 Kinematic Chains and Mechanisms:
+subsections:
+- 11.1a Basic Concepts
+- 11.1b Design Techniques
+- 11.1c Practical Applications
+
+- Section: 11.2 Linkage Synthesis:
+subsections:
+- 11.2a Basic Concepts
+- 11.2b Synthesis Techniques
+- 11.2c Practical Applications
+
+- Section: 11.3 Linkage Optimization:
+subsections:
+- 11.3a Basic Concepts
+- 11.3b Optimization Techniques
+- 11.3c Practical Applications
+
+- Section: 11.4 Linkage Control:
+subsections:
+- 11.4a Basic Concepts
+- 11.4b Control Techniques
+- 11.4c Practical Applications
+
+- Chapter 12: Advanced Topics in Origami Folding:
+sections:
+- Section: 12.1 Origami Design:
+subsections:
+- 12.1a Basic Concepts
+- 12.1b Design Techniques
+- 12.1c Practical Applications
+
+- Section: 12.2 Origami Simulation:
+subsections:
+- 12.2a Basic Concepts
+- 12.2b Simulation Techniques
+- 12.2c Practical Applications
+
+- Section: 12.3 Origami Fabrication:
+subsections:
+- 12.3a Basic Concepts
+- 12.3b Fabrication Techniques
+- 12.3c Practical Applications
+
+- Section: 12.4 Origami Analysis:
+subsections:
+- 12.4a Basic Concepts
+- 12.4b Analysis Techniques
+- 12.4c Practical Applications
+
+- Chapter 13: Advanced Topics in Polyhedra Folding:
+sections:
+- Section: 13.1 Polyhedra Design:
+subsections:
+- 13.1a Basic Concepts
+- 13.1b Design Techniques
+- 13.1c Practical Applications
+
+- Section: 13.2 Polyhedra Simulation:
+subsections:
+- 13.2a Basic Concepts
+- 13.2b Simulation Techniques
+- 13.2c Practical Applications
+
+- Section: 13.3 Polyhedra Fabrication:
+subsections:
+- 13.3a Basic Concepts
+- 13.3b Fabrication Techniques
+- 13.3c Practical Applications
+
+- Section: 13.4 Polyhedra Analysis:
+subsections:
+- 13.4a Basic Concepts
+- 13.4b Analysis Techniques
+- 13.4c Practical Applications
+
+- Chapter 14: Advanced Topics in Computational Geometry:
+sections:
+- Section: 14.1 Geometric Data Structures:
+subsections:
+- 14.1a Basic Concepts
+- 14.1b Data Structure Design
+- 14.1c Practical Applications
+
+- Section: 14.2 Geometric Algorithms:
+subsections:
+- 14.2a Basic Concepts
+- 14.2b Algorithm Design
+- 14.2c Practical Applications
+
+- Section: 14.3 Geometric Complexity:
+subsections:
+- 14.3a Basic Concepts
+- 14.3b Complexity Analysis
+- 14.3c Practical Applications
+
+- Section: 14.4 Geometric Optimization:
+subsections:
+- 14.4a Basic Concepts
+- 14.4b Optimization Techniques
+- 14.4c Practical Applications
+
+- Chapter 15: Advanced Topics in Folding Applications:
+sections:
+- Section: 15.1 Folding in Architecture:
+subsections:
+- 15.1a Basic Concepts
+- 15.1b Design Techniques
+- 15.1c Practical Applications
+
+- Section: 15.2 Folding in Robotics:
+subsections:
+- 15.2a Basic Concepts
+- 15.2b Design Techniques
+- 15.2c Practical Applications
+
+- Section: 15.3 Folding in Engineering:
+subsections:
+- 15.3a Basic Concepts
+- 15.3b Design Techniques
+- 15.3c Practical Applications
+
+- Section: 15.4 Folding in Medicine:
+subsections:
+- 15.4a Basic Concepts
+- 15.4b Design Techniques
+- 15.4c Practical Applications
+
+- Chapter 16: Advanced Topics in Linkage, Origami, and Polyhedra Folding:
+sections:
+- Section: 16.1 Folding Kinematics:
+subsections:
+- 16.1a Basic Concepts
+- 16.1b Analysis Techniques
+- 16.1c Practical Applications
+
+- Section: 16.2 Folding Dynamics:
+subsections:
+- 16.2a Basic Concepts
+- 16.2b Analysis Techniques
+- 16.2c Practical Applications
+
+- Section: 16.3 Folding Control:
+subsections:
+- 16.3a Basic Concepts
+- 16.3b Control Techniques
+- 16.3c Practical Applications
+
+- Section: 16.4 Folding Optimization:
+subsections:
+- 16.4a Basic Concepts
+- 16.4b Optimization Techniques
+- 16.4c Practical Applications
+
+- Chapter 17: Advanced Topics in Folding Implementation:
+sections:
+- Section: 17.1 Folding Simulation:
+subsections:
+- 17.1a Basic Concepts
+- 17.1b Simulation Techniques
+- 17.1c Practical Applications
+
+- Section: 17.2 Folding Prototyping:
+subsections:
+- 17.2a Basic Concepts
+- 17.2b Prototyping Techniques
+- 17.2c Practical Applications
+
+- Section: 17.3 Folding Fabrication:
+subsections:
+- 17.3a Basic Concepts
+- 17.3b Fabrication Techniques
+- 17.3c Practical Applications
+
+- Section: 17.4 Folding Testing:
+subsections:
+- 17.4a Basic Concepts
+- 17.4b Testing Techniques
+- 17.4c Practical Applications
+
+- Chapter 18: Advanced Topics in Folding Materials:
+sections:
+- Section: 18.1 Folding Material Selection:
+subsections:
+- 18.1a Basic Concepts
+- 18.1b Selection Techniques
+- 18.1c Practical Applications
+
+- Section: 18.2 Folding Material Properties:
+subsections:
+- 18.2a Basic Concepts
+- 18.2b Property Analysis
+- 18.2c Practical Applications
+
+- Section: 18.3 Folding Material Processing:
+subsections:
+- 18.3a Basic Concepts
+- 18.3b Processing Techniques
+- 18.3c Practical Applications
+
+- Section: 18.4 Folding Material Testing:
+subsections:
+- 18.4a Basic Concepts
+- 18.4b Testing Techniques
+- 18.4c Practical Applications
+
+- Chapter 19: Advanced Topics in Folding Manufacturing:
+sections:
+- Section: 19.1 Folding Manufacturing Techniques:
+subsections:
+- 19.1a Basic Concepts
+- 19.1b Manufacturing Techniques
+- 19.1c Practical Applications
+
+- Section: 19.2 Folding Manufacturing Optimization:
+subsections:
+- 19.2a Basic Concepts
+- 19.2b Optimization Techniques
+- 19.2c Practical Applications
+
+- Section: 19.3 Folding Manufacturing Quality Control:
+subsections:
+- 19.3a Basic Concepts
+- 19.3b Quality Control Techniques
+- 19.3c Practical Applications
+
+- Section: 19.4 Folding Manufacturing Testing:
+subsections:
+- 19.4a Basic Concepts
+- 19.4b Testing Techniques
+- 19.4c Practical Applications
+
+- Chapter 20: Future Directions in Geometric Folding Algorithms:
+sections:
+- Section: 20.1 Future Directions in Linkage Folding:
+subsections:
+- 20.1a Emerging Trends
+- 20.1b Future Challenges
+- 20.1c Future Opportunities
+
+- Section: 20.2 Future Directions in Origami Folding:
+subsections:
+- 20.2a Emerging Trends
+- 20.2b Future Challenges
+- 20.2c Future Opportunities
+
+- Section: 20.3 Future Directions in Polyhedra Folding:
+subsections:
+- 20.3a Emerging Trends
+- 20.3b Future Challenges
+- 20.3c Future Opportunities
+
+- Section: 20.4 Future Directions in Computational Geometry:
+subsections:
+- 20.4a Emerging Trends
+- 20.4b Future Challenges
+- 20.4c Future Opportunities
+
+-

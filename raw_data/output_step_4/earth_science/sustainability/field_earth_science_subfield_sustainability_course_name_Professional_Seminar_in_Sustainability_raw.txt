@@ -1,0 +1,246 @@
+textbook: 
+"The Sustainable Entrepreneur: A Practical Guide to Creating Positive Impact Through Business":
+
+chapters:
+- Chapter 1: Course Overview and Sports/Recreation:
+sections:
+- Section: 1.1 Introduction to Sustainability and Sports/Recreation:
+subsections:
+- 1.1a Mike Richter: Partner, Environmental Capital Partners
+- 1.1b NHL's Sustainability Profile
+
+- Chapter 2: Entrepreneurship and Sustainability:
+sections:
+- Section: 2.1 The Role of Entrepreneurs in Driving Sustainable Change:
+subsections:
+- 2.1a Stonyfield Farm CEO
+- 2.1b Intersection of Business, Government, and Nonprofit for Policy
+
+- Chapter 3: The Intersection of Business, Government, and Nonprofit for Policy:
+sections:
+- Section: 3.1 Understanding the Relationship Between Business, Government, and Nonprofit Organizations:
+subsections:
+- 3.1a The Importance of Collaboration for Sustainable Policy Making
+- 3.1b Public-Private Partnership Models for Sustainable Development
+
+- Chapter 4: Recap and Looking Forward:
+sections:
+- Section: 4.1 The Role of Nonprofit Organizations in Facilitating Business Teams:
+subsections:
+- 4.1a Nonprofit Organization to Facilitate Business Teams
+- 4.1b The Benefits of Collaborative Approaches in Sustainability
+- Section: 4.2 Building Effective Teams of Businesses for Sustainable Initiatives:
+subsections:
+- 4.2a Strategies for Building Successful Business Teams
+- 4.2b The Power of Collective Action for Sustainable Impact
+
+- Chapter 5: Change the World and Have Fun - Conclusion:
+sections:
+- Section: 5.1 Selecting Target Organizations for Sustainable Initiatives:
+subsections:
+- 5.1a Target Organization Selection
+- 5.1b The Criteria for Choosing Effective Sustainability Partners
+- Section: 5.2 Developing a Comprehensive Briefing Summary for a Sustainability Initiative:
+subsections:
+- 5.2a Key Components of a Briefing Summary
+- 5.2b Effective Communication Strategies for Engaging Stakeholders
+- Section: 5.3 Key Concepts, Lessons, Approaches, and Methodologies for Sustainable Entrepreneurship:
+subsections:
+- 5.3a Systems Thinking and its Application in the Business Context
+- 5.3b Sustainable Business Models and Strategies
+- 5.3c Measuring and Reporting on Sustainability Performance
+
+- Chapter 6: The Role of Innovation in Sustainable Entrepreneurship:
+sections:
+- Section: 6.1 Understanding the Importance of Innovation:
+subsections:
+- 6.1a The Role of Innovation in Sustainability
+- 6.1b Case Studies of Innovative Sustainable Businesses
+- 6.1c Challenges and Opportunities in Sustainable Innovation
+- Section: 6.2 Strategies for Fostering Innovation:
+subsections:
+- 6.2a Creating a Culture of Innovation
+- 6.2b Leveraging Technology for Sustainable Innovation
+- 6.2c Collaborative Innovation in the Business Ecosystem
+
+- Chapter 7: Financing Sustainable Entrepreneurship:
+sections:
+- Section: 7.1 Understanding the Financial Landscape:
+subsections:
+- 7.1a Traditional Financing Options for Sustainable Businesses
+- 7.1b Emerging Trends in Sustainable Finance
+- 7.1c Challenges in Financing Sustainable Entrepreneurship
+- Section: 7.2 Strategies for Securing Financing:
+subsections:
+- 7.2a Crafting a Compelling Business Case for Investors
+- 7.2b Leveraging Government and Nonprofit Funding Opportunities
+- 7.2c Crowdfunding and Other Innovative Financing Models
+
+- Chapter 8: Marketing and Branding for Sustainable Businesses:
+sections:
+- Section: 8.1 Understanding the Role of Marketing and Branding:
+subsections:
+- 8.1a The Importance of Branding in Sustainable Business
+- 8.1b Case Studies of Successful Sustainable Brands
+- 8.1c Challenges in Marketing Sustainable Products and Services
+- Section: 8.2 Strategies for Effective Sustainable Marketing:
+subsections:
+- 8.2a Crafting a Compelling Sustainability Narrative
+- 8.2b Leveraging Social Media and Digital Marketing
+- 8.2c Engaging Customers in Sustainability Initiatives
+
+- Chapter 9: The Role of Leadership in Sustainable Entrepreneurship:
+sections:
+- Section: 9.1 Understanding the Importance of Leadership:
+subsections:
+- 9.1a The Role of Leadership in Driving Sustainability
+- 9.1b Case Studies of Effective Sustainable Leaders
+- 9.1c Challenges and Opportunities in Sustainable Leadership
+- Section: 9.2 Strategies for Effective Sustainable Leadership:
+subsections:
+- 9.2a Developing a Vision for Sustainability
+- 9.2b Building a Culture of Sustainability
+- 9.2c Engaging Stakeholders in Sustainability Initiatives
+
+- Chapter 10: The Role of Policy in Sustainable Entrepreneurship:
+sections:
+- Section: 10.1 Understanding the Policy Landscape:
+subsections:
+- 10.1a The Role of Policy in Driving Sustainability
+- 10.1b Case Studies of Effective Sustainable Policies
+- 10.1c Challenges and Opportunities in Sustainable Policy
+- Section: 10.2 Strategies for Engaging in Policy Advocacy:
+subsections:
+- 10.2a Understanding the Policy Process
+- 10.2b Building Relationships with Policymakers
+- 10.2c Advocating for Sustainable Policies
+
+- Chapter 11: The Role of Technology in Sustainable Entrepreneurship:
+sections:
+- Section: 11.1 Understanding the Role of Technology:
+subsections:
+- 11.1a The Role of Technology in Driving Sustainability
+- 11.1b Case Studies of Effective Sustainable Technologies
+- 11.1c Challenges and Opportunities in Sustainable Technology
+- Section: 11.2 Strategies for Leveraging Technology:
+subsections:
+- 11.2a Understanding the Technology Landscape
+- 11.2b Building Partnerships for Technology Development
+- 11.2c Advocating for Sustainable Technologies
+
+- Chapter 12: The Role of Education in Sustainable Entrepreneurship:
+sections:
+- Section: 12.1 Understanding the Role of Education:
+subsections:
+- 12.1a The Role of Education in Driving Sustainability
+- 12.1b Case Studies of Effective Sustainable Education Programs
+- 12.1c Challenges and Opportunities in Sustainable Education
+- Section: 12.2 Strategies for Leveraging Education:
+subsections:
+- 12.2a Understanding the Education Landscape
+- 12.2b Building Partnerships for Education Development
+- 12.2c Advocating for Sustainable Education
+
+- Chapter 13: The Role of Community in Sustainable Entrepreneurship:
+sections:
+- Section: 13.1 Understanding the Role of Community:
+subsections:
+- 13.1a The Role of Community in Driving Sustainability
+- 13.1b Case Studies of Effective Sustainable Community Programs
+- 13.1c Challenges and Opportunities in Sustainable Community
+- Section: 13.2 Strategies for Leveraging Community:
+subsections:
+- 13.2a Understanding the Community Landscape
+- 13.2b Building Partnerships for Community Development
+- 13.2c Advocating for Sustainable Community
+
+- Chapter 14: The Role of Collaboration in Sustainable Entrepreneurship:
+sections:
+- Section: 14.1 Understanding the Role of Collaboration:
+subsections:
+- 14.1a The Role of Collaboration in Driving Sustainability
+- 14.1b Case Studies of Effective Sustainable Collaboration Programs
+- 14.1c Challenges and Opportunities in Sustainable Collaboration
+- Section: 14.2 Strategies for Leveraging Collaboration:
+subsections:
+- 14.2a Understanding the Collaboration Landscape
+- 14.2b Building Partnerships for Collaboration Development
+- 14.2c Advocating for Sustainable Collaboration
+
+- Chapter 15: The Role of Innovation in Sustainable Entrepreneurship:
+sections:
+- Section: 15.1 Understanding the Role of Innovation:
+subsections:
+- 15.1a The Role of Innovation in Driving Sustainability
+- 15.1b Case Studies of Effective Sustainable Innovation Programs
+- 15.1c Challenges and Opportunities in Sustainable Innovation
+- Section: 15.2 Strategies for Leveraging Innovation:
+subsections:
+- 15.2a Understanding the Innovation Landscape
+- 15.2b Building Partnerships for Innovation Development
+- 15.2c Advocating for Sustainable Innovation
+
+- Chapter 16: The Role of Finance in Sustainable Entrepreneurship:
+sections:
+- Section: 16.1 Understanding the Role of Finance:
+subsections:
+- 16.1a The Role of Finance in Driving Sustainability
+- 16.1b Case Studies of Effective Sustainable Finance Programs
+- 16.1c Challenges and Opportunities in Sustainable Finance
+- Section: 16.2 Strategies for Leveraging Finance:
+subsections:
+- 16.2a Understanding the Finance Landscape
+- 16.2b Building Partnerships for Finance Development
+- 16.2c Advocating for Sustainable Finance
+
+- Chapter 17: The Role of Marketing in Sustainable Entrepreneurship:
+sections:
+- Section: 17.1 Understanding the Role of Marketing:
+subsections:
+- 17.1a The Role of Marketing in Driving Sustainability
+- 17.1b Case Studies of Effective Sustainable Marketing Programs
+- 17.1c Challenges and Opportunities in Sustainable Marketing
+- Section: 17.2 Strategies for Leveraging Marketing:
+subsections:
+- 17.2a Understanding the Marketing Landscape
+- 17.2b Building Partnerships for Marketing Development
+- 17.2c Advocating for Sustainable Marketing
+
+- Chapter 18: The Role of Leadership in Sustainable Entrepreneurship:
+sections:
+- Section: 18.1 Understanding the Role of Leadership:
+subsections:
+- 18.1a The Role of Leadership in Driving Sustainability
+- 18.1b Case Studies of Effective Sustainable Leadership Programs
+- 18.1c Challenges and Opportunities in Sustainable Leadership
+- Section: 18.2 Strategies for Leveraging Leadership:
+subsections:
+- 18.2a Understanding the Leadership Landscape
+- 18.2b Building Partnerships for Leadership Development
+- 18.2c Advocating for Sustainable Leadership
+
+- Chapter 19: The Role of Policy in Sustainable Entrepreneurship:
+sections:
+- Section: 19.1 Understanding the Role of Policy:
+subsections:
+- 19.1a The Role of Policy in Driving Sustainability
+- 19.1b Case Studies of Effective Sustainable Policy Programs
+- 19.1c Challenges and Opportunities in Sustainable Policy
+- Section: 19.2 Strategies for Leveraging Policy:
+subsections:
+- 19.2a Understanding the Policy Landscape
+- 19.2b Building Partnerships for Policy Development
+- 19.2c Advocating for Sustainable Policy
+
+- Chapter 20: The Role of Technology in Sustainable Entrepreneurship:
+sections:
+- Section: 20.1 Understanding the Role of Technology:
+subsections:
+- 20.1a The Role of Technology in Driving Sustainability
+- 20.1b Case Studies of Effective Sustainable Technology Programs
+- 20.1c Challenges and Opportunities in Sustainable Technology
+- Section: 20.2 Strategies for Leveraging Technology:
+subsections:
+- 20.2a Understanding the Technology Landscape
+- 20.2b Building Partnerships for Technology Development
+- 20.2c Advocating for Sustainable Technology

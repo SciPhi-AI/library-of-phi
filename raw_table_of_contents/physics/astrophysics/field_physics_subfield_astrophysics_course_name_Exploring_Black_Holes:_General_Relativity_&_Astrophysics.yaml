@@ -1,0 +1,388 @@
+textbook:
+  'Exploring Black Holes and General Relativity: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to the Class:':
+        sections:
+        - '- Section: 1.1 Course Overview:':
+            subsections:
+            - 1.1a Course Structure
+            - 1.1b Course Materials
+            - 1.1c Grading Policy
+        - '- Section: 1.2 Objectives:':
+            subsections:
+            - 1.2a Learning Goals
+            - 1.2b Skills Development
+            - 1.2c Assessment Objectives
+        - '- Section: 1.3 Expectations:':
+            subsections:
+            - 1.3a Student Responsibilities
+            - 1.3b Academic Integrity
+            - 1.3c Classroom Etiquette
+    - '- Chapter 2: The Universe: Questions you were afraid to ask:':
+        sections:
+        - '- Section: 2.1 Black Holes: What are they?:':
+            subsections:
+            - 2.1a Definition of Black Holes
+            - 2.1b Properties of Black Holes
+            - 2.1c Misconceptions about Black Holes
+        - '- Section: 2.2 Formation of Black Holes:':
+            subsections:
+            - 2.2a Stellar Evolution
+            - 2.2b Supernova Explosions
+            - 2.2c Gravitational Collapse
+        - '- Section: 2.3 Types of Black Holes:':
+            subsections:
+            - 2.3a Stellar Black Holes
+            - 2.3b Supermassive Black Holes
+            - 2.3c Intermediate Black Holes
+        - '- Section: 2.4 Event Horizon:':
+            subsections:
+            - 2.4a Definition of Event Horizon
+            - 2.4b Properties of Event Horizon
+            - 2.4c Observing Event Horizons
+        - '- Section: 2.5 Singularity:':
+            subsections:
+            - 2.5a Definition of Singularity
+            - 2.5b Properties of Singularity
+            - 2.5c Theories about Singularity
+    - '- Chapter 3: Recitation:':
+        sections:
+        - '- Section: 3.1 Discussion of Course Material:':
+            subsections:
+            - 3.1a Review of Lectures
+            - 3.1b Clarification of Concepts
+            - 3.1c Discussion of Readings
+        - '- Section: 3.2 Problem Solving:':
+            subsections:
+            - 3.2a Problem-Solving Strategies
+            - 3.2b Group Problem-Solving Sessions
+            - 3.2c Problem-Solving Tips and Tricks
+        - '- Section: 3.3 Q&A Session:':
+            subsections:
+            - 3.3a Open Forum for Questions
+            - 3.3b Clarification of Difficult Topics
+            - 3.3c Review of Homework Problems
+    - '- Chapter 4: Global Positioning System:':
+        sections:
+        - '- Section: 4.1 Relativity and GPS:':
+            subsections:
+            - 4.1a Role of Relativity in GPS
+            - 4.1b Time Dilation in GPS
+            - 4.1c Gravitational Time Dilation in GPS
+        - '- Section: 4.2 Time Dilation:':
+            subsections:
+            - 4.2a Definition of Time Dilation
+            - 4.2b Causes of Time Dilation
+            - 4.2c Effects of Time Dilation
+        - '- Section: 4.3 Gravitational Time Dilation:':
+            subsections:
+            - 4.3a Definition of Gravitational Time Dilation
+            - 4.3b Causes of Gravitational Time Dilation
+            - 4.3c Effects of Gravitational Time Dilation
+        - '- Section: 4.4 GPS Accuracy:':
+            subsections:
+            - 4.4a Factors Affecting GPS Accuracy
+            - 4.4b Improving GPS Accuracy
+            - 4.4c Future of GPS Technology
+    - "- Chapter 5: Einstein\u2019s Field Equations:":
+        sections:
+        - '- Section: 5.1 General Theory of Relativity:':
+            subsections:
+            - 5.1a Introduction to General Theory of Relativity
+            - 5.1b Key Concepts in General Theory of Relativity
+            - 5.1c Implications of General Theory of Relativity
+        - '- Section: 5.2 Curvature of Spacetime:':
+            subsections:
+            - 5.2a Definition of Spacetime Curvature
+            - 5.2b Causes of Spacetime Curvature
+            - 5.2c Effects of Spacetime Curvature
+        - '- Section: 5.3 Einstein''s Equations:':
+            subsections:
+            - 5.3a Formulation of Einstein's Equations
+            - 5.3b Solutions to Einstein's Equations
+            - 5.3c Implications of Einstein's Equations
+        - '- Section: 5.4 Solutions to Einstein''s Equations:':
+            subsections:
+            - 5.4a Schwarzschild Solution
+            - 5.4b Kerr Solution
+            - "5.4c Friedmann-Lema\xEEtre-Robertson-Walker Solution"
+    - "- Chapter 6: Tracing Einstein\u2019s Development of the Special Relativity Theory:":
+        sections:
+        - '- Section: 6.1 Historical Background:':
+            subsections:
+            - 6.1a Pre-Einsteinian Physics
+            - 6.1b Einstein's Thought Experiments
+            - 6.1c Publication of Special Relativity Theory
+        - '- Section: 6.2 Michelson-Morley Experiment:':
+            subsections:
+            - 6.2a Description of Michelson-Morley Experiment
+            - 6.2b Results of Michelson-Morley Experiment
+            - 6.2c Implications of Michelson-Morley Experiment
+        - '- Section: 6.3 Lorentz Transformation:':
+            subsections:
+            - 6.3a Definition of Lorentz Transformation
+            - 6.3b Derivation of Lorentz Transformation
+            - 6.3c Applications of Lorentz Transformation
+        - '- Section: 6.4 Time Dilation and Length Contraction:':
+            subsections:
+            - 6.4a Definition of Time Dilation
+            - 6.4b Definition of Length Contraction
+            - 6.4c Twin Paradox
+    - "- Chapter 7: Supermassive Black Hole at the Center of Our Galaxy \u2013 Sagittarius A*:":
+        sections:
+        - '- Section: 7.1 Observation of Sagittarius A*:':
+            subsections:
+            - 7.1a Techniques for Observing Sagittarius A*
+            - 7.1b Discoveries about Sagittarius A*
+            - 7.1c Future Observations of Sagittarius A*
+        - '- Section: 7.2 Properties of Supermassive Black Holes:':
+            subsections:
+            - 7.2a Size and Mass of Supermassive Black Holes
+            - 7.2b Formation of Supermassive Black Holes
+            - 7.2c Effects of Supermassive Black Holes on Surrounding Matter
+        - '- Section: 7.3 Accretion Disks:':
+            subsections:
+            - 7.3a Formation of Accretion Disks
+            - 7.3b Properties of Accretion Disks
+            - 7.3c Observing Accretion Disks
+        - '- Section: 7.4 Jets and Quasars:':
+            subsections:
+            - 7.4a Formation of Jets
+            - 7.4b Properties of Jets
+            - 7.4c Quasars and Active Galactic Nuclei
+    - '- Chapter 8: X-Ray Binaries and the Search for Black Holes:':
+        sections:
+        - '- Section: 8.1 X-Ray Binaries: Definition and Classification:':
+            subsections:
+            - 8.1a Definition of X-Ray Binaries
+            - 8.1b Types of X-Ray Binaries
+            - 8.1c Observing X-Ray Binaries
+        - '- Section: 8.2 Black Hole Candidates in X-Ray Binaries:':
+            subsections:
+            - 8.2a Identifying Black Hole Candidates
+            - 8.2b Confirming Black Hole Candidates
+            - 8.2c Notable Black Hole Candidates
+        - '- Section: 8.3 Accretion Processes:':
+            subsections:
+            - 8.3a Definition of Accretion
+            - 8.3b Types of Accretion
+            - 8.3c Observing Accretion
+        - '- Section: 8.4 X-Ray Observations:':
+            subsections:
+            - 8.4a Techniques for X-Ray Observations
+            - 8.4b Discoveries from X-Ray Observations
+            - 8.4c Future of X-Ray Astronomy
+    - '- Chapter 9: LIGO: Detecting Gravitational Waves:':
+        sections:
+        - '- Section: 9.1 Introduction to Gravitational Waves:':
+            subsections:
+            - 9.1a Definition of Gravitational Waves
+            - 9.1b Sources of Gravitational Waves
+            - 9.1c Detecting Gravitational Waves
+        - '- Section: 9.2 LIGO: Laser Interferometer Gravitational-Wave Observatory:':
+            subsections:
+            - 9.2a Description of LIGO
+            - 9.2b Operation of LIGO
+            - 9.2c Discoveries by LIGO
+        - '- Section: 9.3 Gravitational Wave Detection:':
+            subsections:
+            - 9.3a Techniques for Gravitational Wave Detection
+            - 9.3b Challenges in Gravitational Wave Detection
+            - 9.3c Future of Gravitational Wave Astronomy
+        - '- Section: 9.4 Black Holes and Gravitational Waves:':
+            subsections:
+            - 9.4a Black Holes as Sources of Gravitational Waves
+            - 9.4b Detecting Black Hole Mergers
+            - 9.4c Implications of Black Hole Mergers
+    - '- Chapter 10: Cosmic Structure Formation; from Inflation to Galaxies:':
+        sections:
+        - '- Section: 10.1 Inflationary Cosmology:':
+            subsections:
+            - 10.1a Definition of Inflation
+            - 10.1b Theory of Inflation
+            - 10.1c Evidence for Inflation
+        - '- Section: 10.2 Formation of Cosmic Structures:':
+            subsections:
+            - 10.2a From Quantum Fluctuations to Galaxies
+            - 10.2b Role of Dark Matter in Structure Formation
+            - 10.2c Observing Cosmic Structures
+        - '- Section: 10.3 Dark Matter and Dark Energy:':
+            subsections:
+            - 10.3a Definition of Dark Matter and Dark Energy
+            - 10.3b Evidence for Dark Matter and Dark Energy
+            - 10.3c Theories about Dark Matter and Dark Energy
+        - '- Section: 10.4 Galaxy Formation and Evolution:':
+            subsections:
+            - 10.4a Formation of Galaxies
+            - 10.4b Types of Galaxies
+            - 10.4c Evolution of Galaxies
+    - '- Chapter 11: Stellar Evolution:':
+        sections:
+        - '- Section: 11.1 Life Cycle of Stars:':
+            subsections:
+            - 11.1a Birth of Stars
+            - 11.1b Main Sequence Stars
+            - 11.1c Death of Stars
+        - '- Section: 11.2 Stellar Remnants:':
+            subsections:
+            - 11.2a White Dwarfs
+            - 11.2b Neutron Stars
+            - 11.2c Black Holes
+        - '- Section: 11.3 Supernovae:':
+            subsections:
+            - 11.3a Types of Supernovae
+            - 11.3b Observing Supernovae
+            - 11.3c Supernovae and the Elements
+    - '- Chapter 12: Cosmology:':
+        sections:
+        - '- Section: 12.1 Big Bang Theory:':
+            subsections:
+            - 12.1a Description of the Big Bang Theory
+            - 12.1b Evidence for the Big Bang Theory
+            - 12.1c Implications of the Big Bang Theory
+        - '- Section: 12.2 Cosmic Microwave Background:':
+            subsections:
+            - 12.2a Discovery of the Cosmic Microwave Background
+            - 12.2b Properties of the Cosmic Microwave Background
+            - 12.2c Cosmic Microwave Background and the Big Bang Theory
+        - '- Section: 12.3 Expansion of the Universe:':
+            subsections:
+            - 12.3a Hubble's Law
+            - 12.3b Dark Energy and the Accelerating Universe
+            - 12.3c Fate of the Universe
+    - '- Chapter 13: Quantum Mechanics and Black Holes:':
+        sections:
+        - '- Section: 13.1 Quantum Mechanics:':
+            subsections:
+            - 13.1a Introduction to Quantum Mechanics
+            - 13.1b Quantum Mechanics and Black Holes
+            - 13.1c Quantum Gravity
+        - '- Section: 13.2 Hawking Radiation:':
+            subsections:
+            - 13.2a Discovery of Hawking Radiation
+            - 13.2b Explanation of Hawking Radiation
+            - 13.2c Implications of Hawking Radiation
+        - '- Section: 13.3 Black Hole Information Paradox:':
+            subsections:
+            - 13.3a Description of the Black Hole Information Paradox
+            - 13.3b Proposed Solutions to the Paradox
+            - 13.3c Current State of the Paradox
+    - '- Chapter 14: Wormholes:':
+        sections:
+        - '- Section: 14.1 Definition of Wormholes:':
+            subsections:
+            - 14.1a Description of Wormholes
+            - 14.1b Theories about Wormholes
+            - 14.1c Wormholes and Time Travel
+        - '- Section: 14.2 Creation of Wormholes:':
+            subsections:
+            - 14.2a Theoretical Creation of Wormholes
+            - 14.2b Stability of Wormholes
+            - 14.2c Wormholes and Quantum Foam
+        - '- Section: 14.3 Observing Wormholes:':
+            subsections:
+            - 14.3a Potential Signs of Wormholes
+            - 14.3b Challenges in Observing Wormholes
+            - 14.3c Future of Wormhole Research
+    - '- Chapter 15: Multiverse Theory:':
+        sections:
+        - '- Section: 15.1 Definition of Multiverse:':
+            subsections:
+            - 15.1a Description of the Multiverse
+            - 15.1b Types of Multiverses
+            - 15.1c Implications of the Multiverse
+        - '- Section: 15.2 Evidence for the Multiverse:':
+            subsections:
+            - 15.2a Theoretical Evidence for the Multiverse
+            - 15.2b Observational Evidence for the Multiverse
+            - 15.2c Challenges in Proving the Multiverse
+        - '- Section: 15.3 Multiverse and Philosophy:':
+            subsections:
+            - 15.3a Multiverse and the Anthropic Principle
+            - 15.3b Multiverse and the Fine-Tuning Problem
+            - 15.3c Multiverse and the Nature of Reality
+    - '- Chapter 16: Exoplanets and the Search for Life:':
+        sections:
+        - '- Section: 16.1 Exoplanet Discovery:':
+            subsections:
+            - 16.1a Techniques for Discovering Exoplanets
+            - 16.1b Types of Exoplanets
+            - 16.1c Notable Exoplanet Discoveries
+        - '- Section: 16.2 Habitable Zones:':
+            subsections:
+            - 16.2a Definition of the Habitable Zone
+            - 16.2b Factors Affecting the Habitable Zone
+            - 16.2c Exoplanets in the Habitable Zone
+        - '- Section: 16.3 Search for Extraterrestrial Life:':
+            subsections:
+            - 16.3a SETI and the Search for Intelligent Life
+            - 16.3b Astrobiology and the Search for Microbial Life
+            - 16.3c Future of the Search for Life
+    - '- Chapter 17: Gravitational Lensing:':
+        sections:
+        - '- Section: 17.1 Definition of Gravitational Lensing:':
+            subsections:
+            - 17.1a Description of Gravitational Lensing
+            - 17.1b Causes of Gravitational Lensing
+            - 17.1c Effects of Gravitational Lensing
+        - '- Section: 17.2 Observing Gravitational Lensing:':
+            subsections:
+            - 17.2a Techniques for Observing Gravitational Lensing
+            - 17.2b Discoveries from Gravitational Lensing
+            - 17.2c Future of Gravitational Lensing Research
+        - '- Section: 17.3 Gravitational Waves and Gravitational Lensing:':
+            subsections:
+            - 17.3a Gravitational Waves as a Source of Lensing
+            - 17.3b Detecting Gravitational Lensing from Gravitational Waves
+            - 17.3c Implications of Gravitational Lensing from Gravitational Waves
+    - '- Chapter 18: Neutron Stars:':
+        sections:
+        - '- Section: 18.1 Definition of Neutron Stars:':
+            subsections:
+            - 18.1a Description of Neutron Stars
+            - 18.1b Formation of Neutron Stars
+            - 18.1c Properties of Neutron Stars
+        - '- Section: 18.2 Pulsars:':
+            subsections:
+            - 18.2a Definition of Pulsars
+            - 18.2b Discovery of Pulsars
+            - 18.2c Importance of Pulsars
+        - '- Section: 18.3 Neutron Star Collisions:':
+            subsections:
+            - 18.3a Process of Neutron Star Collisions
+            - 18.3b Observing Neutron Star Collisions
+            - 18.3c Implications of Neutron Star Collisions
+    - '- Chapter 19: Cosmic Rays:':
+        sections:
+        - '- Section: 19.1 Definition of Cosmic Rays:':
+            subsections:
+            - 19.1a Description of Cosmic Rays
+            - 19.1b Sources of Cosmic Rays
+            - 19.1c Effects of Cosmic Rays
+        - '- Section: 19.2 Observing Cosmic Rays:':
+            subsections:
+            - 19.2a Techniques for Observing Cosmic Rays
+            - 19.2b Discoveries from Cosmic Ray Observations
+            - 19.2c Future of Cosmic Ray Research
+        - '- Section: 19.3 Cosmic Rays and Life:':
+            subsections:
+            - 19.3a Cosmic Rays and DNA Damage
+            - 19.3b Cosmic Rays and Climate
+            - 19.3c Cosmic Rays and Space Travel
+    - '- Chapter 20: The Future of Astronomy:':
+        sections:
+        - '- Section: 20.1 Future Telescopes:':
+            subsections:
+            - 20.1a Upcoming Ground-Based Telescopes
+            - 20.1b Upcoming Space-Based Telescopes
+            - 20.1c Future of Radio Astronomy
+        - '- Section: 20.2 Future Missions:':
+            subsections:
+            - 20.2a Upcoming Planetary Missions
+            - 20.2b Upcoming Interstellar Missions
+            - 20.2c Future of Human Spaceflight
+        - '- Section: 20.3 Future Discoveries:':
+            subsections:
+            - 20.3a Predicted Discoveries
+            - 20.3b Potential for Unexpected Discoveries
+            - 20.3c Impact of Future Discoveries

@@ -1,0 +1,348 @@
+textbook: 
+"Non-conventional Light Stable Isotope Geochemistry: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Equilibrium / kinetic isotope effect:
+sections:
+- Section: 1.1 Isotope Fractionation Theory:
+subsections:
+- 1.1a Introduction to Isotope Fractionation
+- 1.1b Factors Influencing Isotope Fractionation
+- 1.1c Equilibrium vs. Kinetic Isotope Effects
+- 1.1d Models and Approaches for Isotope Fractionation
+
+- Section: 1.2 Isotope Fractionation in New Systems:
+subsections:
+- 1.2a Isotope Fractionation in Biological Systems
+- 1.2b Isotope Fractionation in Environmental Systems
+- 1.2c Isotope Fractionation in Geological Systems
+- 1.2d Isotope Fractionation in Industrial Processes
+
+- Chapter 2: Precision and accuracy of mass-spectrometry analysis:
+sections:
+- Section: 2.1 Mass-Spectrometer Operation:
+subsections:
+- 2.1a Introduction to Mass-Spectrometry
+- 2.1b Components of a Mass Spectrometer
+- 2.1c Ionization Techniques
+- 2.1d Ion Detection and Analysis
+
+- Section: 2.2 Measurement Precision:
+subsections:
+- 2.2a Sources of Measurement Uncertainty
+- 2.2b Error Propagation in Isotope Analysis
+- 2.2c Statistical Analysis of Measurement Precision
+
+- Section: 2.3 Measurement Accuracy:
+subsections:
+- 2.3a Calibration and Standardization in Isotope Analysis
+- 2.3b Accuracy Assessment Methods
+- 2.3c Uncertainty Budgeting in Isotope Analysis
+
+- Chapter 3: Clumped isotope CO2,13CH3D:
+sections:
+- Section: 3.1 Clumped Isotope Analysis:
+subsections:
+- 3.1a Introduction to Clumped Isotope Analysis
+- 3.1b Principles of Clumped Isotope Thermometry
+- 3.1c Sample Preparation for Clumped Isotope Analysis
+- 3.1d Data Interpretation and Applications of Clumped Isotope Analysis
+
+- Section: 3.2 Carbon Dioxide Isotopes:
+subsections:
+- 3.2a Carbon Isotope Fractionation in Carbon Dioxide
+- 3.2b Oxygen Isotope Fractionation in Carbon Dioxide
+- 3.2c Clumped Isotope Signatures in Carbon Dioxide
+
+- Section: 3.3 Methane Isotopes:
+subsections:
+- 3.3a Carbon Isotope Ratio in Methane
+- 3.3b Hydrogen Isotope Ratio in Methane
+- 3.3c Clumped Isotope Signatures in Methane
+
+- Chapter 4: Nitrous Oxide Isotopomer:
+sections:
+- Section: 4.1 Nitrous Oxide Isotopes:
+subsections:
+- 4.1a Nitrous Oxide Isotope Fractionation Processes
+- 4.1b Measurement Techniques for Nitrous Oxide Isotopes
+- 4.1c Nitrous Oxide Isotope Signatures in Different Environments
+
+- Section: 4.2 Isotopomer Analysis:
+subsections:
+- 4.2a Introduction to Nitrous Oxide Isotopomers
+- 4.2b Isotopomer Measurement Techniques
+- 4.2c Isotopomer Signatures and Interpretation in Nitrous Oxide
+
+- Chapter 5: Mass-dependent fractionation O-17 small anomaly:
+sections:
+- Section: 5.1 Oxygen-17 Isotopes:
+subsections:
+- 5.1a Isotopic Composition and Natural Abundance of O-17
+- 5.1b Fractionation Processes Involving O-17
+- 5.1c Analytical Techniques for Measuring O-17 Isotopes
+
+- Section: 5.2 Mass-dependent Fractionation:
+subsections:
+- 5.2a Theoretical Background of Mass-dependent Fractionation
+- 5.2b Experimental Evidence of Mass-dependent Fractionation
+- 5.2c Isotope Effects and Isotope Ratios in Mass-dependent Fractionation
+
+- Section: 5.3 Small Anomaly:
+subsections:
+- 5.3a Definition and Origin of the Small Anomaly
+- 5.3b Observations and Measurements of the Small Anomaly
+- 5.3c Implications and Applications of the Small Anomaly
+
+- Chapter 6: Mass-independent fractionation, O-17, Ozone, CO, stratospheric CO2, NO3, SO4:
+sections:
+- Section: 6.1 Oxygen-17 Isotopes:
+subsections:
+- 6.1a Isotopic Composition and Natural Abundance of O-17
+- 6.1b Fractionation Processes Involving O-17
+- 6.1c Analytical Techniques for Measuring O-17 Isotopes
+
+- Section: 6.2 Mass-independent Fractionation:
+subsections:
+- 6.2a Theoretical Background of Mass-independent Fractionation
+- 6.2b Experimental Evidence of Mass-independent Fractionation
+- 6.2c Isotope Effects and Isotope Ratios in Mass-independent Fractionation
+
+- Section: 6.3 Ozone Isotopes:
+subsections:
+- 6.3a Isotopic Composition and Fractionation of Ozone
+- 6.3b Ozone Isotope Signatures in the Atmosphere
+- 6.3c Ozone Isotopes as Tracers of Atmospheric Processes
+
+- Section: 6.4 Carbon Monoxide Isotopes:
+subsections:
+- 6.4a Carbon Isotope Ratio in Carbon Monoxide
+- 6.4b Oxygen Isotope Ratio in Carbon Monoxide
+- 6.4c Carbon Monoxide Isotope Signatures in Different Environments
+
+- Section: 6.5 Stratospheric Carbon Dioxide Isotopes:
+subsections:
+- 6.5a Isotopic Composition and Fractionation of Stratospheric CO2
+- 6.5b Stratospheric CO2 Isotope Signatures and Variations
+- 6.5c Implications of Stratospheric CO2 Isotope Measurements
+
+- Section: 6.6 Nitrate Isotopes:
+subsections:
+- 6.6a Nitrogen Isotope Ratio in Nitrate
+- 6.6b Oxygen Isotope Ratio in Nitrate
+- 6.6c Nitrate Isotope Signatures in Different Environments
+
+- Section: 6.7 Sulfate Isotopes:
+subsections:
+- 6.7a Sulfur Isotope Ratio in Sulfate
+- 6.7b Oxygen Isotope Ratio in Sulfate
+- 6.7c Sulfate Isotope Signatures in Different Environments
+
+- Chapter 7: Mass-independent fractionation, S-33:
+sections:
+- Section: 7.1 Sulfur-33 Isotopes:
+subsections:
+- 7.1a Isotopic Composition and Natural Abundance of S-33
+- 7.1b Fractionation Processes Involving S-33
+- 7.1c Analytical Techniques for Measuring S-33 Isotopes
+
+- Section: 7.2 Mass-independent Fractionation:
+subsections:
+- 7.2a Theoretical Background of Mass-independent Fractionation
+- 7.2b Experimental Evidence of Mass-independent Fractionation
+- 7.2c Isotope Effects and Isotope Ratios in Mass-independent Fractionation
+
+- Chapter 8: O-17 hydrology:
+sections:
+- Section: 8.1 Oxygen-17 Isotopes:
+subsections:
+- 8.1a Isotopic Composition and Natural Abundance of O-17
+- 8.1b Fractionation Processes Involving O-17
+- 8.1c Analytical Techniques for Measuring O-17 Isotopes
+
+- Section: 8.2 Hydrology Applications:
+subsections:
+- 8.2a Isotope Hydrology and Water Cycle Studies
+- 8.2b Isotope Tracing in Aquifers and Groundwater Systems
+- 8.2c Isotope Applications in Surface Water Systems
+- 8.2d Isotope Techniques for Studying Paleoclimates and Climate Change
+
+- Chapter 9: Isotope Geochemistry in Paleoclimatology:
+sections:
+- Section: 9.1 Paleoclimate Proxies:
+subsections:
+- 9.1a Introduction to Paleoclimate Proxies
+- 9.1b Stable Isotopes as Paleoclimate Proxies
+- 9.1c Interpretation of Paleoclimate Proxy Data
+- 9.1d Challenges and Limitations of Paleoclimate Proxies
+
+- Section: 9.2 Ice Core Isotope Analysis:
+subsections:
+- 9.2a Introduction to Ice Core Isotope Analysis
+- 9.2b Techniques for Ice Core Isotope Analysis
+- 9.2c Interpretation of Ice Core Isotope Data
+- 9.2d Applications of Ice Core Isotope Analysis
+
+- Section: 9.3 Marine Sediment Isotope Analysis:
+subsections:
+- 9.3a Introduction to Marine Sediment Isotope Analysis
+- 9.3b Techniques for Marine Sediment Isotope Analysis
+- 9.3c Interpretation of Marine Sediment Isotope Data
+- 9.3d Applications of Marine Sediment Isotope Analysis
+
+- Section: 9.4 Speleothem Isotope Analysis:
+subsections:
+- 9.4a Introduction to Speleothem Isotope Analysis
+- 9.4b Techniques for Speleothem Isotope Analysis
+- 9.4c Interpretation of Speleothem Isotope Data
+- 9.4d Applications of Speleothem Isotope Analysis
+
+- Chapter 10: Isotope Geochemistry in Hydrology:
+sections:
+- Section: 10.1 Groundwater Isotope Analysis:
+subsections:
+- 10.1a Introduction to Groundwater Isotope Analysis
+- 10.1b Techniques for Groundwater Isotope Analysis
+- 10.1c Interpretation of Groundwater Isotope Data
+- 10.1d Applications of Groundwater Isotope Analysis
+
+- Section: 10.2 Surface Water Isotope Analysis:
+subsections:
+- 10.2a Introduction to Surface Water Isotope Analysis
+- 10.2b Techniques for Surface Water Isotope Analysis
+- 10.2c Interpretation of Surface Water Isotope Data
+- 10.2d Applications of Surface Water Isotope Analysis
+
+- Section: 10.3 Precipitation Isotope Analysis:
+subsections:
+- 10.3a Introduction to Precipitation Isotope Analysis
+- 10.3b Techniques for Precipitation Isotope Analysis
+- 10.3c Interpretation of Precipitation Isotope Data
+- 10.3d Applications of Precipitation Isotope Analysis
+
+- Section: 10.4 Evaporation Isotope Analysis:
+subsections:
+- 10.4a Introduction to Evaporation Isotope Analysis
+- 10.4b Techniques for Evaporation Isotope Analysis
+- 10.4c Interpretation of Evaporation Isotope Data
+- 10.4d Applications of Evaporation Isotope Analysis
+
+- Chapter 11: Isotope Geochemistry in Biogeochemistry:
+sections:
+- Section: 11.1 Plant Isotope Analysis:
+subsections:
+- 11.1a Introduction to Plant Isotope Analysis
+- 11.1b Techniques for Plant Isotope Analysis
+- 11.1c Interpretation of Plant Isotope Data
+- 11.1d Applications of Plant Isotope Analysis
+
+- Section: 11.2 Soil Isotope Analysis:
+subsections:
+- 11.2a Introduction to Soil Isotope Analysis
+- 11.2b Techniques for Soil Isotope Analysis
+- 11.2c Interpretation of Soil Isotope Data
+- 11.2d Applications of Soil Isotope Analysis
+
+- Section: 11.3 Animal Isotope Analysis:
+subsections:
+- 11.3a Introduction to Animal Isotope Analysis
+- 11.3b Techniques for Animal Isotope Analysis
+- 11.3c Interpretation of Animal Isotope Data
+- 11.3d Applications of Animal Isotope Analysis
+
+- Section: 11.4 Microbial Isotope Analysis:
+subsections:
+- 11.4a Introduction to Microbial Isotope Analysis
+- 11.4b Techniques for Microbial Isotope Analysis
+- 11.4c Interpretation of Microbial Isotope Data
+- 11.4d Applications of Microbial Isotope Analysis
+
+- Chapter 12: Isotope Geochemistry in Environmental Science:
+sections:
+- Section: 12.1 Pollution Tracing:
+subsections:
+- 12.1a Introduction to Pollution Tracing
+- 12.1b Techniques for Pollution Tracing
+- 12.1c Interpretation of Pollution Tracing Data
+- 12.1d Applications of Pollution Tracing
+
+- Section: 12.2 Nutrient Cycling:
+subsections:
+- 12.2a Introduction to Nutrient Cycling
+- 12.2b Techniques for Nutrient Cycling Analysis
+- 12.2c Interpretation of Nutrient Cycling Data
+- 12.2d Applications of Nutrient Cycling Analysis
+
+- Section: 12.3 Climate Change Studies:
+subsections:
+- 12.3a Introduction to Climate Change Studies
+- 12.3b Techniques for Climate Change Studies
+- 12.3c Interpretation of Climate Change Data
+- 12.3d Applications of Climate Change Studies
+
+- Section: 12.4 Ecosystem Studies:
+subsections:
+- 12.4a Introduction to Ecosystem Studies
+- 12.4b Techniques for Ecosystem Studies
+- 12.4c Interpretation of Ecosystem Data
+- 12.4d Applications of Ecosystem Studies
+
+- Chapter 13: Isotope Geochemistry in Archaeology:
+sections:
+- Section: 13.1 Human Isotope Analysis:
+subsections:
+- 13.1a Introduction to Human Isotope Analysis
+- 13.1b Techniques for Human Isotope Analysis
+- 13.1c Interpretation of Human Isotope Data
+- 13.1d Applications of Human Isotope Analysis
+
+- Section: 13.2 Animal Isotope Analysis:
+subsections:
+- 13.2a Introduction to Animal Isotope Analysis
+- 13.2b Techniques for Animal Isotope Analysis
+- 13.2c Interpretation of Animal Isotope Data
+- 13.2d Applications of Animal Isotope Analysis
+
+- Section: 13.3 Plant Isotope Analysis:
+subsections:
+- 13.3a Introduction to Plant Isotope Analysis
+- 13.3b Techniques for Plant Isotope Analysis
+- 13.3c Interpretation of Plant Isotope Data
+- 13.3d Applications of Plant Isotope Analysis
+
+- Section: 13.4 Artifact Isotope Analysis:
+subsections:
+- 13.4a Introduction to Artifact Isotope Analysis
+- 13.4b Techniques for Artifact Isotope Analysis
+- 13.4c Interpretation of Artifact Isotope Data
+- 13.4d Applications of Artifact Isotope Analysis
+
+- Chapter 14: Isotope Geochemistry in Forensics:
+sections:
+- Section: 14.1 Human Isotope Analysis:
+subsections:
+- 14.1a Introduction to Human Isotope Analysis
+- 14.1b Techniques for Human Isotope Analysis
+- 14.1c Interpretation of Human Isotope Data
+- 14.1d Applications of Human Isotope Analysis
+
+- Section: 14.2 Animal Isotope Analysis:
+subsections:
+- 14.2a Introduction to Animal Isotope Analysis
+- 14.2b Techniques for Animal Isotope Analysis
+- 14.2c Interpretation of Animal Isotope Data
+- 14.2d Applications of Animal Isotope Analysis
+
+- Section: 14.3 Plant Isotope Analysis:
+subsections:
+- 14.3a Introduction to Plant Isotope Analysis
+- 14.3b Techniques for Plant Isotope Analysis
+- 14.3c Interpretation of Plant Isotope Data
+- 14.3d Applications of Plant Isotope Analysis
+
+- Section: 14.4 Substance Isotope Analysis:
+subsections:
+- 14.4a Introduction to Substance Isotope Analysis
+- 14.4b Techniques for Substance Isotope Analysis
+- 14.4c Interpretation of Substance Isotope Data
+- 14.4d Applications

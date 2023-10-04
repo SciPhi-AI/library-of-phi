@@ -1,0 +1,99 @@
+textbook: 
+"Exploring Contemporary Architecture: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Louis Sullivan: Adler and Sullivan:
+subsections:
+- 1.1a Early Life and Education
+- 1.1b Adler and Sullivan Partnership
+- 1.1c Influence on Modern Architecture
+
+- Section: 1.2 Frank Lloyd Wright:
+subsections:
+- 1.2a Early Life and Education
+- 1.2b Prairie School Houses
+- 1.2c Later Works and Legacy
+
+- Section: 1.3 Adolf Loos, Peter Behrens and the German Werkbund:
+subsections:
+- 1.3a Adolf Loos: Life and Works
+- 1.3b Peter Behrens: Life and Works
+- 1.3c The German Werkbund: Influence and Legacy
+
+- Chapter 2: Philip Johnson and the International Style of 1932:
+sections:
+- Section: 2.1 Alvar Aalto:
+subsections:
+- 2.1a Early Life and Education
+- 2.1b Major Works and Design Philosophy
+- 2.1c Influence on Modern Architecture
+
+- Section: 2.2 Louis Kahn:
+subsections:
+- 2.2a Early Life and Education
+- 2.2b Major Works and Design Philosophy
+- 2.2c Influence on Modern Architecture
+
+- Section: 2.3 Eero Saarinen, Paul Rudolph:
+subsections:
+- 2.3a Eero Saarinen: Life and Works
+- 2.3b Paul Rudolph: Life and Works
+- 2.3c Influence on Modern Architecture
+
+- Chapter 3: Urbanism CIAM and Team X:
+sections:
+- Section: 3.1 Aldo Van Eyck:
+subsections:
+- 3.1a Early Life and Education
+- 3.1b Major Works and Design Philosophy
+- 3.1c Influence on Modern Architecture
+
+- Section: 3.2 James Stirling:
+subsections:
+- 3.2a Early Life and Education
+- 3.2b Major Works and Design Philosophy
+- 3.2c Influence on Modern Architecture
+
+- Section: 3.3 Aldo Rossi and Carlo Scarpa:
+subsections:
+- 3.3a Aldo Rossi: Life and Works
+- 3.3b Carlo Scarpa: Life and Works
+- 3.3c Influence on Modern Architecture
+
+- Chapter 4: Suburbia, sprawl, Congress for New Urbanism, Duany Plater-Zyberk:
+sections:
+- Section: 4.1 William McDonough, Green building practices:
+subsections:
+- 4.1a Early Life and Education
+- 4.1b Major Works and Design Philosophy
+- 4.1c Influence on Modern Architecture
+
+- Section: 4.2 Final review exhibition:
+subsections:
+- 4.2a Exhibition Overview
+- 4.2b Key Takeaways
+- 4.2c Future Directions
+
+- Chapter 5: Additional Topics:
+sections:
+- Section: 5.1 Contemporary Sustainable Architecture:
+subsections:
+- 5.1a Definition and Importance
+- 5.1b Key Principles
+- 5.1c Case Studies
+
+- Section: 5.2 The Role of Technology in Contemporary Architecture:
+subsections:
+- 5.2a Technological Advances and Their Impact
+- 5.2b Case Studies
+- 5.2c Future Trends
+
+- Section: 5.3 Architecture and Social Responsibility:
+subsections:
+- 5.3a The Role of Architecture in Society
+- 5.3b Socially Responsible Design
+- 5.3c Case Studies
+
+(Note: The remaining chapters, sections, and subsections would be created following the same pattern, ensuring that the table of contents contains 20 chapters, with each chapter containing 3-4 sections and each section containing 3-4 subsections.)

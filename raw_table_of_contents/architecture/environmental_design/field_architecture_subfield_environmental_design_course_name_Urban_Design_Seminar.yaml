@@ -1,0 +1,170 @@
+textbook:
+  'Urban Design: Past, Present, and Future":':
+    chapters:
+    - '- Chapter 1: Urban Design Now:':
+        sections:
+        - '- Section: 1.1 Designing Places and Policies':
+            subsections: []
+        - '- Section: 1.2 Assessing the Current State of Urban Design':
+            subsections: []
+        - '- Section: 1.3 Urban Design Competitions and How to Judge Them':
+            subsections: []
+    - '- Chapter 2: Evaluating Urban Design:':
+        sections:
+        - '- Section: 2.1 Discussion of Assignment 1':
+            subsections: []
+        - '- Section: 2.2 Evaluating the Success of Urban Design Projects':
+            subsections: []
+        - '- Section: 2.3 Measuring the Impact of Urban Design on Communities':
+            subsections: []
+    - '- Chapter 3: Assessing Urban Design Futures:':
+        sections:
+        - '- Section: 3.1 Past Futures':
+            subsections: []
+        - '- Section: 3.2 Inventing New Ways of Living: Homes and Neighborhoods:':
+            subsections:
+            - 3.2a The Role of Architecture in Urban Design
+            - 3.2b Sustainable Housing Solutions
+            - 3.2c Community Engagement in Neighborhood Planning
+        - '- Section: 3.3 Distributing Work: The New Workplace:':
+            subsections:
+            - 3.3a The Role of Technology in Remote Work
+            - 3.3b Designing Collaborative Workspaces
+            - 3.3c Addressing Inequality in Access to Workplaces
+        - '- Section: 3.4 The Advent of ''Mediated'' Space: Public Places and Technology:':
+            subsections:
+            - 3.4a The Impact of Technology on Public Spaces
+            - 3.4b Smart Cities and Urban Connectivity
+            - 3.4c Designing Inclusive Public Spaces
+    - '- Chapter 4: Creating a City of Learning: Schools and Stories in the City:':
+        sections:
+        - '- Section: 4.1 The Role of Education in Urban Design':
+            subsections: []
+        - '- Section: 4.2 Designing Learning Environments':
+            subsections: []
+        - '- Section: 4.3 Incorporating Local History and Culture in Urban Education':
+            subsections: []
+    - '- Chapter 5: Reclaiming the Industrial landscape: Land and Water Infrastructure:':
+        sections:
+        - '- Section: 5.1 Adaptive Reuse of Industrial Sites':
+            subsections: []
+        - '- Section: 5.2 Sustainable Water Management in Urban Areas':
+            subsections: []
+        - '- Section: 5.3 Revitalizing Waterfronts and Industrial Zones':
+            subsections: []
+    - '- Chapter 6: Rediscovering Nature: Natural Systems in the City:':
+        sections:
+        - '- Section: 6.1 Urban Green Spaces and Parks':
+            subsections: []
+        - '- Section: 6.2 Biodiversity Conservation in Urban Areas':
+            subsections: []
+        - '- Section: 6.3 Integrating Nature into Urban Design':
+            subsections: []
+    - '- Chapter 7: What Have We Missed?:':
+        sections:
+        - '- Section: 7.1 Emerging Trends in Urban Design':
+            subsections: []
+        - '- Section: 7.2 Case Studies of Innovative Urban Design Projects':
+            subsections: []
+    - '- Chapter 8: Redesigning Urban Design:':
+        sections:
+        - '- Section: 8.1 Rethinking Urban Design Principles':
+            subsections: []
+        - '- Section: 8.2 Collaborative Approaches to Urban Planning and Design':
+            subsections: []
+    - '- Chapter 9: Urban Design and Social Equity:':
+        sections:
+        - '- Section: 9.1 Urban Design for Inclusive Cities':
+            subsections: []
+        - '- Section: 9.2 Addressing Social Inequality through Urban Design':
+            subsections: []
+        - '- Section: 9.3 Case Studies of Equitable Urban Design':
+            subsections: []
+    - '- Chapter 10: Urban Design and Climate Change:':
+        sections:
+        - '- Section: 10.1 Climate Responsive Urban Design':
+            subsections: []
+        - '- Section: 10.2 Urban Design for Climate Resilience':
+            subsections: []
+        - '- Section: 10.3 Case Studies of Climate Responsive Urban Design':
+            subsections: []
+    - '- Chapter 11: Urban Design and Public Health:':
+        sections:
+        - '- Section: 11.1 Urban Design for Active Living':
+            subsections: []
+        - '- Section: 11.2 Urban Design and Mental Health':
+            subsections: []
+        - '- Section: 11.3 Case Studies of Health Promoting Urban Design':
+            subsections: []
+    - '- Chapter 12: Urban Design and Transportation:':
+        sections:
+        - '- Section: 12.1 Urban Design for Walkability':
+            subsections: []
+        - '- Section: 12.2 Urban Design and Public Transit':
+            subsections: []
+        - '- Section: 12.3 Case Studies of Transit Oriented Urban Design':
+            subsections: []
+    - '- Chapter 13: Urban Design and Heritage Conservation:':
+        sections:
+        - '- Section: 13.1 Urban Design for Heritage Conservation':
+            subsections: []
+        - '- Section: 13.2 Urban Design and Cultural Heritage':
+            subsections: []
+        - '- Section: 13.3 Case Studies of Heritage Sensitive Urban Design':
+            subsections: []
+    - '- Chapter 14: Urban Design and Housing:':
+        sections:
+        - '- Section: 14.1 Urban Design for Affordable Housing':
+            subsections: []
+        - '- Section: 14.2 Urban Design and Housing Diversity':
+            subsections: []
+        - '- Section: 14.3 Case Studies of Housing Focused Urban Design':
+            subsections: []
+    - '- Chapter 15: Urban Design and Public Spaces:':
+        sections:
+        - '- Section: 15.1 Urban Design for Vibrant Public Spaces':
+            subsections: []
+        - '- Section: 15.2 Urban Design and Public Art':
+            subsections: []
+        - '- Section: 15.3 Case Studies of Public Space Centric Urban Design':
+            subsections: []
+    - '- Chapter 16: Urban Design and Economic Development:':
+        sections:
+        - '- Section: 16.1 Urban Design for Economic Vitality':
+            subsections: []
+        - '- Section: 16.2 Urban Design and Local Economies':
+            subsections: []
+        - '- Section: 16.3 Case Studies of Economic Development through Urban Design':
+            subsections: []
+    - '- Chapter 17: Urban Design and Governance:':
+        sections:
+        - '- Section: 17.1 Urban Design and Participatory Planning':
+            subsections: []
+        - '- Section: 17.2 Urban Design and Policy Making':
+            subsections: []
+        - '- Section: 17.3 Case Studies of Governance in Urban Design':
+            subsections: []
+    - '- Chapter 18: Urban Design and Technology:':
+        sections:
+        - '- Section: 18.1 Urban Design in the Digital Age':
+            subsections: []
+        - '- Section: 18.2 Urban Design and Smart Cities':
+            subsections: []
+        - '- Section: 18.3 Case Studies of Technology Driven Urban Design':
+            subsections: []
+    - '- Chapter 19: Urban Design and Sustainability:':
+        sections:
+        - '- Section: 19.1 Urban Design for Sustainable Cities':
+            subsections: []
+        - '- Section: 19.2 Urban Design and Circular Economy':
+            subsections: []
+        - '- Section: 19.3 Case Studies of Sustainable Urban Design':
+            subsections: []
+    - '- Chapter 20: Future of Urban Design:':
+        sections:
+        - '- Section: 20.1 Emerging Trends in Urban Design':
+            subsections: []
+        - '- Section: 20.2 Urban Design in Post Pandemic World':
+            subsections: []
+        - '- Section: 20.3 Case Studies of Future Oriented Urban Design':
+            subsections: []

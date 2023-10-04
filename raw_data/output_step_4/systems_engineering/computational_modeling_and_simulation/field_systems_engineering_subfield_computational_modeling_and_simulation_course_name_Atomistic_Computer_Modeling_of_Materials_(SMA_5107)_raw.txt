@@ -1,0 +1,364 @@
+textbook: 
+"Atomistic Computer Modeling of Materials: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction and Case Studies:
+sections:
+- Section: 1.1 Potentials, Supercells, Relaxation, Methodology:
+subsections:
+- 1.1a Introduction to Atomistic Computer Modeling
+- 1.1b Potential Energy Surfaces and Potentials
+- 1.1c Supercells and Periodic Boundary Conditions
+- 1.1d Atomic Relaxation Techniques
+- 1.1e Methodology in Atomistic Computer Modeling
+
+- Section: 1.2 Potentials for Organic Materials and Oxides; It's a Quantum World!:
+subsections:
+- 1.2a Potential Models for Organic Materials
+- 1.2b Potential Models for Oxides
+- 1.2c Quantum Mechanical Effects in Atomistic Modeling
+
+- Chapter 2: Energetics and Structure from Empirical Potentials:
+sections:
+- Section: 2.1 Lab 1: Introduction to Empirical Potentials
+
+- Chapter 3: First Principles Energy Methods:
+sections:
+- Section: 3.1 The Many-Body Problem:
+subsections:
+- 3.1a Overview of the Many-Body Problem
+- 3.1b Interactions and Forces in Many-Body Systems
+
+- Section: 3.2 Hartree-Fock and DFT:
+subsections:
+- 3.2a The Hartree-Fock Method
+- 3.2b Density Functional Theory (DFT)
+
+- Chapter 4: Density Functional Theory:
+sections:
+- Section: 4.1 Technical Aspects:
+subsections:
+- 4.1a Basic Principles of DFT
+- 4.1b Exchange-Correlation Functionals
+- 4.1c Solving the Kohn-Sham Equations
+
+- Section: 4.2 Case Studies:
+subsections:
+- 4.2a DFT Studies of Molecular Systems
+- 4.2b DFT Studies of Solid State Materials
+
+- Section: 4.3 Lab 2: DFT Calculations
+- Section: 4.4 Lab 3: Advanced DFT Calculations
+
+- Chapter 5: Molecular Dynamics:
+sections:
+- Section: 5.1 Molecular Dynamics I:
+subsections:
+- 5.1a Introduction to Molecular Dynamics
+- 5.1b Verlet Algorithm and Integration Schemes
+- 5.1c Ensembles and Temperature Control
+
+- Section: 5.2 Molecular Dynamics II:
+subsections:
+- 5.2a Advanced Molecular Dynamics Techniques
+- 5.2b Thermostats and Barostats
+- 5.2c Long-Range Interactions and Ewald Summation
+
+- Section: 5.3 Molecular Dynamics III: First Principles:
+subsections:
+- 5.3a Ab-Initio Molecular Dynamics
+- 5.3b Car-Parrinello Molecular Dynamics
+
+- Section: 5.4 Lab 4 (SMA/Cambridge students off-line): Molecular Dynamics Simulations
+
+- Chapter 6: Monte Carlo Simulations:
+sections:
+- Section: 6.1 Application to Lattice Models:
+subsections:
+- 6.1a Introduction to Monte Carlo Simulations
+- 6.1b The Ising Model and Lattice Systems
+- 6.1c Metropolis Algorithm
+
+- Section: 6.2 Sampling Errors:
+subsections:
+- 6.2a Statistical Errors in Monte Carlo Simulations
+- 6.2b Improving Sampling Efficiency
+
+- Section: 6.3 Metastability:
+subsections:
+- 6.3a Understanding Metastable States
+- 6.3b Methods to Study Metastability
+
+- Section: 6.4 Monte Carlo Simulation II and Free Energies:
+subsections:
+- 6.4a Advanced Monte Carlo Techniques
+- 6.4b Calculation of Free Energies
+
+- Chapter 7: Free Energies and Physical Coarse-Graining:
+sections:
+- Section: 7.1 Model Hamiltonians:
+subsections:
+- 7.1a Introduction to Model Hamiltonians
+- 7.1b Types of Model Hamiltonians
+- 7.1c Mapping from Atomistic to Coarse-Grained Models
+
+- Section: 7.2 Lab 5: Monte Carlo:
+subsections:
+- 7.2a Monte Carlo Simulations for Free Energy Calculations
+
+- Section: 7.3 Physical Coarse-Graining Techniques:
+subsections:
+- 7.3a Introduction to Coarse-Graining in Materials Modeling
+- 7.3b Spatial Averaging and Coarse-Grained Potentials
+- 7.3c Multiscale Modeling Approaches
+
+- Chapter 8: Ab-Initio Thermodynamics and Structure Prediction:
+sections:
+- Section: 8.1 Accelerated Molecular Dynamics:
+subsections:
+- 8.1a Introduction to Accelerated Molecular Dynamics
+- 8.1b Biasing Potentials and Enhanced Sampling Techniques
+- 8.1c Applications of Accelerated Molecular Dynamics
+
+- Section: 8.2 Kinetic Monte Carlo:
+subsections:
+- 8.2a Introduction to Kinetic Monte Carlo Simulations
+- 8.2b Transition State Theory and Rate Constants
+- 8.2c Kinetic Monte Carlo in Materials Science
+
+- Section: 8.3 Inhomogeneous Spatial Coarse Graining:
+subsections:
+- 8.3a Inhomogeneous Coarse-Graining Methods
+- 8.3b Coarse-Graining of Heterogeneous Systems
+
+- Chapter 9: Modeling in Industry:
+sections:
+- Section: 9.1 Case Studies - High Pressure:
+subsections:
+- 9.1a Atomistic Modeling in High Pressure Environments
+- 9.1b Applications of High Pressure Studies
+
+- Section: 9.2 Conclusions:
+subsections:
+- 9.2a Summary of Atomistic Computer Modeling Techniques
+- 9.2b Future Directions in Atomistic Modeling
+
+- Chapter 10: Advanced Topics in Atomistic Modeling:
+sections:
+- Section: 10.1 Quantum Monte Carlo:
+subsections:
+- 10.1a Introduction to Quantum Monte Carlo
+- 10.1b Variational Monte Carlo
+- 10.1c Diffusion Monte Carlo
+
+- Section: 10.2 Machine Learning in Atomistic Modeling:
+subsections:
+- 10.2a Introduction to Machine Learning in Materials Science
+- 10.2b Machine Learning Potentials
+- 10.2c Machine Learning for Property Prediction
+
+- Section: 10.3 High-Performance Computing in Atomistic Modeling:
+subsections:
+- 10.3a Introduction to High-Performance Computing
+- 10.3b Parallel Algorithms for Atomistic Simulations
+- 10.3c GPU Computing in Atomistic Modeling
+
+- Chapter 11: Advanced Topics in Density Functional Theory:
+sections:
+- Section: 11.1 Time-Dependent Density Functional Theory:
+subsections:
+- 11.1a Introduction to Time-Dependent DFT
+- 11.1b Linear Response Theory
+- 11.1c Applications of TDDFT
+
+- Section: 11.2 Hybrid Functionals and Beyond:
+subsections:
+- 11.2a Introduction to Hybrid Functionals
+- 11.2b Range-Separated Functionals
+- 11.2c Meta-GGA Functionals
+
+- Section: 11.3 DFT for Excited States:
+subsections:
+- 11.3a Introduction to Excited States in DFT
+- 11.3b GW Approximation
+- 11.3c Bethe-Salpeter Equation
+
+- Chapter 12: Advanced Topics in Molecular Dynamics:
+sections:
+- Section: 12.1 Reactive Force Fields:
+subsections:
+- 12.1a Introduction to Reactive Force Fields
+- 12.1b ReaxFF
+- 12.1c COMB
+
+- Section: 12.2 Enhanced Sampling Techniques:
+subsections:
+- 12.2a Introduction to Enhanced Sampling
+- 12.2b Metadynamics
+- 12.2c Replica Exchange Molecular Dynamics
+
+- Section: 12.3 Coarse-Grained Molecular Dynamics:
+subsections:
+- 12.3a Introduction to Coarse-Grained MD
+- 12.3b MARTINI Force Field
+- 12.3c Dissipative Particle Dynamics
+
+- Chapter 13: Advanced Topics in Monte Carlo Simulations:
+sections:
+- Section: 13.1 Quantum Monte Carlo:
+subsections:
+- 13.1a Introduction to Quantum Monte Carlo
+- 13.1b Variational Monte Carlo
+- 13.1c Diffusion Monte Carlo
+
+- Section: 13.2 Advanced Sampling Techniques:
+subsections:
+- 13.2a Introduction to Advanced Sampling
+- 13.2b Wang-Landau Sampling
+- 13.2c Parallel Tempering
+
+- Section: 13.3 Coarse-Grained Monte Carlo:
+subsections:
+- 13.3a Introduction to Coarse-Grained MC
+- 13.3b Lattice Models
+- 13.3c Off-Lattice Models
+
+- Chapter 14: Advanced Topics in Coarse-Graining:
+sections:
+- Section: 14.1 Systematic Coarse-Graining:
+subsections:
+- 14.1a Introduction to Systematic Coarse-Graining
+- 14.1b Force-Matching
+- 14.1c Relative Entropy Minimization
+
+- Section: 14.2 Coarse-Grained Potentials:
+subsections:
+- 14.2a Introduction to Coarse-Grained Potentials
+- 14.2b Tabulated Potentials
+- 14.2c Analytical Potentials
+
+- Section: 14.3 Multiscale Modeling:
+subsections:
+- 14.3a Introduction to Multiscale Modeling
+- 14.3b Concurrent Multiscale Modeling
+- 14.3c Sequential Multiscale Modeling
+
+- Chapter 15: Advanced Topics in Structure Prediction:
+sections:
+- Section: 15.1 Global Optimization:
+subsections:
+- 15.1a Introduction to Global Optimization
+- 15.1b Genetic Algorithms
+- 15.1c Basin-Hopping
+
+- Section: 15.2 Crystal Structure Prediction:
+subsections:
+- 15.2a Introduction to Crystal Structure Prediction
+- 15.2b Random Sampling
+- 15.2c Evolutionary Algorithms
+
+- Section: 15.3 Machine Learning for Structure Prediction:
+subsections:
+- 15.3a Introduction to Machine Learning for Structure Prediction
+- 15.3b Neural Network Potentials
+- 15.3c Genetic Programming
+
+- Chapter 16: Advanced Topics in Thermodynamics:
+sections:
+- Section: 16.1 Phase Diagrams:
+subsections:
+- 16.1a Introduction to Phase Diagrams
+- 16.1b Gibbs Phase Rule
+- 16.1c Phase Diagrams from Atomistic Simulations
+
+- Section: 16.2 Free Energy Methods:
+subsections:
+- 16.2a Introduction to Free Energy Methods
+- 16.2b Free Energy Perturbation
+- 16.2c Umbrella Sampling
+
+- Section: 16.3 Thermodynamics of Small Systems:
+subsections:
+- 16.3a Introduction to Thermodynamics of Small Systems
+- 16.3b Thermodynamics of Nanoparticles
+- 16.3c Thermodynamics of Clusters
+
+- Chapter 17: Advanced Topics in Kinetics:
+sections:
+- Section: 17.1 Transition State Theory:
+subsections:
+- 17.1a Introduction to Transition State Theory
+- 17.1b Harmonic Approximation
+- 17.1c Beyond Harmonic Approximation
+
+- Section: 17.2 Rare Event Sampling:
+subsections:
+- 17.2a Introduction to Rare Event Sampling
+- 17.2b Forward Flux Sampling
+- 17.2c Transition Path Sampling
+
+- Section: 17.3 Kinetic Monte Carlo:
+subsections:
+- 17.3a Introduction to Kinetic Monte Carlo
+- 17.3b Event Selection in KMC
+- 17.3c Time Evolution in KMC
+
+- Chapter 18: Advanced Topics in High-Performance Computing:
+sections:
+- Section: 18.1 Parallel Algorithms:
+subsections:
+- 18.1a Introduction to Parallel Algorithms
+- 18.1b Domain Decomposition
+- 18.1c Particle Decomposition
+
+- Section: 18.2 GPU Computing:
+subsections:
+- 18.2a Introduction to GPU Computing
+- 18.2b GPU Algorithms for MD
+- 18.2c GPU Algorithms for MC
+
+- Section: 18.3 High-Performance Data Analysis:
+subsections:
+- 18.3a Introduction to High-Performance Data Analysis
+- 18.3b Parallel Data Analysis
+- 18.3c Big Data in Materials Science
+
+- Chapter 19: Advanced Topics in Machine Learning:
+sections:
+- Section: 19.1 Machine Learning Potentials:
+subsections:
+- 19.1a Introduction to Machine Learning Potentials
+- 19.1b Neural Network Potentials
+- 19.1c Gaussian Approximation Potentials
+
+- Section: 19.2 Machine Learning for Property Prediction:
+subsections:
+- 19.2a Introduction to Machine Learning for Property Prediction
+- 19.2b Regression Models
+- 19.2c Classification Models
+
+- Section: 19.3 Machine Learning for Structure Prediction:
+subsections:
+- 19.3a Introduction to Machine Learning for Structure Prediction
+- 19.3b Genetic Algorithms
+- 19.3c Deep Learning for Structure Prediction
+
+- Chapter 20: Advanced Topics in Materials Science:
+sections:
+- Section: 20.1 Materials for Energy Applications:
+subsections:
+- 20.1a Introduction to Materials for Energy Applications
+- 20.1b Photovoltaic Materials
+- 20.1c Thermoelectric Materials
+
+- Section: 20.2 Materials for Electronics:
+subsections:
+- 20.2a Introduction to Materials for Electronics
+- 20.2b Semiconductors
+- 20.2c 2D Materials
+
+- Section: 20.3 Materials for Structural Applications:
+subsections:
+- 20.3a Introduction to Materials for Structural Applications
+- 20.3b Metals and Alloys
+- 20.3c Ceramics and Composites

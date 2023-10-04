@@ -1,0 +1,374 @@
+textbook:
+  'Collaborative Innovation Networks: Exploring the Power of Collective Intelligence":':
+    chapters:
+    - '- Chapter 1: Collaborative Innovation Networks:':
+        sections:
+        - '- Section: 1.1 Introduction to Collaborative Innovation Networks:':
+            subsections:
+            - 1.1a Understanding the concept of Collaborative Innovation Networks
+            - 1.1b The history and evolution of Collaborative Innovation Networks
+            - 1.1c Benefits and challenges of Collaborative Innovation Networks
+        - '- Section: 1.2 Swarm Creativity:':
+            subsections:
+            - 1.2a Exploring the concept of swarm creativity
+            - 1.2b Harnessing the power of collective intelligence in creative processes
+            - 1.2c Case studies on successful swarm creativity initiatives
+        - '- Section: 1.3 Coolhunts:':
+            subsections:
+            - 1.3a Understanding the significance of coolhunts in innovation
+            - 1.3b Techniques and methodologies for conducting coolhunts
+            - 1.3c Analyzing coolhunting data and extracting valuable insights
+        - '- Section: 1.4 Social Network Analysis:':
+            subsections:
+            - 1.4a Introduction to social network analysis and its applications
+            - 1.4b Network metrics and measures for analyzing collaborative networks
+            - 1.4c Visualizing and interpreting social network analysis results
+    - '- Chapter 2: Gephi Graphs from Condor Data:':
+        sections:
+        - '- Section: 2.1 Importing and preprocessing Condor data for Gephi analysis:':
+            subsections:
+            - 2.1a Generating and interpreting Gephi graphs for collaborative networks
+            - 2.1b Analyzing Collaborative Care Networks
+            - 2.1c Exploring the role of collaborative care networks in healthcare
+            - 2.1d Analyzing and improving the efficiency of care networks
+    - '- Chapter 3: Social me: What your social network tells you:':
+        sections:
+        - '- Section: 3.1 Facebook:':
+            subsections:
+            - 3.1a Understanding the impact of Facebook on social networks
+            - 3.1b Analyzing Facebook data for social network insights
+            - 3.1c Ethical considerations in Facebook data analysis
+        - '- Section: 3.2 Wikipedia:':
+            subsections:
+            - 3.2a Exploring the collaborative nature of Wikipedia
+            - 3.2b Analyzing Wikipedia data for knowledge collaboration insights
+            - 3.2c Improving Wikipedia through collaborative innovation networks
+        - '- Section: 3.3 Altruism & Behavioral Economics:':
+            subsections:
+            - 3.3a Understanding the role of altruism in collaborative networks
+            - 3.3b Behavioral economics principles in collaborative decision-making
+            - 3.3c Promoting altruistic behavior through collaborative innovation
+        - '- Section: 3.4 Twitter and Prediction Markets:':
+            subsections:
+            - 3.4a Analyzing Twitter data for predicting market trends
+            - 3.4b Leveraging prediction markets in collaborative innovation networks
+            - 3.4c Case studies on successful prediction market initiatives
+    - '- Chapter 4: Getting started with Condor:':
+        sections:
+        - '- Section: 4.1 Coolhunting Blueprint:':
+            subsections:
+            - 4.1a Step-by-step guide to conducting a coolhunt
+            - 4.1b Identifying and selecting coolhunt participants
+            - 4.1c Analyzing and synthesizing coolhunting data
+        - '- Section: 4.2 Coolhunting WWF:':
+            subsections:
+            - 4.2a Collaborative coolhunting in the World Wildlife Fund (WWF)
+            - 4.2b Case studies on coolhunting initiatives in conservation efforts
+            - 4.2c Lessons learned from coolhunting in WWF
+        - '- Section: 4.3 What is coolhunting?:':
+            subsections:
+            - 4.3a Defining coolhunting and its importance in innovation
+            - 4.3b Types of coolhunting and their applications
+            - 4.3c Challenges and best practices in coolhunting
+        - '- Section: 4.4 Coolfarming: How to unlock the power of your COINs:':
+            subsections:
+            - 4.4a Introduction to coolfarming and its role in collaborative innovation
+              networks
+            - 4.4b Strategies for nurturing and growing collaborative innovation networks
+            - 4.4c Case studies on successful coolfarming initiatives
+    - '- Chapter 5: Individual Project:':
+        sections:
+        - '- Section: 5.1 Choosing a Topic:':
+            subsections:
+            - 5.1a Identifying and selecting a research topic for the individual project
+            - 5.1b Defining research objectives and hypotheses
+            - 5.1c Conducting a literature review for the individual project
+        - '- Section: 5.2 Applying Condor Social Network Analysis:':
+            subsections:
+            - 5.2a Leveraging Condor for social network analysis in the individual
+              project
+            - 5.2b Analyzing and interpreting social network analysis results
+            - 5.2c Presenting social network analysis findings in the individual project
+              report
+        - '- Section: 5.3 Web Coolhunting Tools:':
+            subsections:
+            - 5.3a Exploring web-based tools for conducting coolhunts
+            - 5.3b Evaluating the effectiveness of web coolhunting tools
+            - 5.3c Best practices in utilizing web coolhunting tools for innovation
+        - '- Section: 5.4 Midterm Exam:':
+            subsections:
+            - '5.4a Preparing for the midterm exam in Workshop in IT: Collaborative
+              Innovation Networks'
+            - 5.4b Reviewing key concepts and theories covered in the course
+            - 5.4c Practicing sample exam questions for the midterm assessment
+    - '- Chapter 6: Trend Analysis, Prediction, and Viral Marketing Projects:':
+        sections:
+        - '- Section: 6.1 Web Mining:':
+            subsections:
+            - 6.1a Introduction to web mining and its applications in trend analysis
+            - 6.1b Techniques and tools for web mining in collaborative innovation
+              networks
+            - 6.1c Case studies on successful trend analysis using web mining
+        - '- Section: 6.2 Dynamic SNA Tools and Methods:':
+            subsections:
+            - 6.2a Exploring dynamic social network analysis tools and methodologies
+            - 6.2b Analyzing and visualizing temporal dynamics in collaborative networks
+            - 6.2c Case studies on dynamic SNA in collaborative innovation networks
+        - '- Section: 6.3 Global Virtual Collaboration:':
+            subsections:
+            - 6.3a Understanding the challenges and benefits of global virtual collaboration
+            - 6.3b Tools and strategies for effective global virtual collaboration
+              in COINs
+            - 6.3c Case studies on successful global virtual collaboration projects
+        - '- Section: 6.4 Cross-disciplinary Global Virtual Teams:':
+            subsections:
+            - 6.4a Building cross-disciplinary global virtual teams for collaborative
+              innovation
+            - 6.4b Overcoming cultural and communication barriers in global virtual
+              teams
+            - 6.4c Lessons learned from cross-disciplinary global virtual team projects
+    - '- Chapter 7: Project Descriptions:':
+        sections:
+        - '- Section: 7.1 Detailed descriptions of trend analysis, prediction, and viral marketing projects:':
+            subsections:
+            - 7.1a Guidelines for planning and executing successful project initiatives
+            - 7.1b Evaluation and assessment of project outcomes and impacts
+            - 7.1c Future directions for collaborative innovation network projects
+    - '- Chapter 8: Collaborative Innovation Networks in Practice:':
+        sections:
+        - '- Section: 8.1 Case Studies:':
+            subsections:
+            - 8.1a Analysis of successful collaborative innovation network projects
+            - 8.1b Lessons learned from real-world applications
+            - 8.1c Strategies for implementing collaborative innovation networks in
+              various industries
+        - '- Section: 8.2 Challenges and Solutions:':
+            subsections:
+            - 8.2a Identifying common challenges in collaborative innovation networks
+            - 8.2b Practical solutions and strategies for overcoming challenges
+            - 8.2c Future research directions in collaborative innovation networks
+        - '- Section: 8.3 The Future of Collaborative Innovation Networks:':
+            subsections:
+            - 8.3a Predicting future trends in collaborative innovation networks
+            - 8.3b The role of technology in shaping the future of collaborative innovation
+              networks
+            - '8.3c Preparing for the future: Skills and competencies for success
+              in collaborative innovation networks'
+    - '- Chapter 9: Advanced Topics in Collaborative Innovation Networks:':
+        sections:
+        - '- Section: 9.1 Advanced Social Network Analysis Techniques:':
+            subsections:
+            - 9.1a Exploring advanced techniques for social network analysis
+            - 9.1b Applying advanced techniques to collaborative innovation network
+              analysis
+            - 9.1c Case studies using advanced social network analysis techniques
+        - '- Section: 9.2 Advanced Coolhunting and Coolfarming Techniques:':
+            subsections:
+            - 9.2a Exploring advanced techniques for coolhunting and coolfarming
+            - 9.2b Applying advanced techniques to collaborative innovation network
+              projects
+            - 9.2c Case studies using advanced coolhunting and coolfarming techniques
+        - '- Section: 9.3 Advanced Topics in Swarm Creativity:':
+            subsections:
+            - 9.3a Exploring advanced topics in swarm creativity
+            - 9.3b Applying advanced swarm creativity concepts to collaborative innovation
+              networks
+            - 9.3c Case studies using advanced swarm creativity techniques
+    - '- Chapter 10: Collaborative Innovation Networks and Society:':
+        sections:
+        - '- Section: 10.1 The Impact of Collaborative Innovation Networks on Society:':
+            subsections:
+            - 10.1a Analyzing the societal impact of collaborative innovation networks
+            - 10.1b Case studies of societal change driven by collaborative innovation
+              networks
+            - 10.1c Future societal implications of collaborative innovation networks
+        - '- Section: 10.2 Collaborative Innovation Networks and Public Policy:':
+            subsections:
+            - 10.2a The role of collaborative innovation networks in shaping public
+              policy
+            - 10.2b Case studies of policy change driven by collaborative innovation
+              networks
+            - 10.2c Future policy implications of collaborative innovation networks
+        - '- Section: 10.3 Collaborative Innovation Networks and Education:':
+            subsections:
+            - 10.3a The role of collaborative innovation networks in shaping education
+            - 10.3b Case studies of educational change driven by collaborative innovation
+              networks
+            - 10.3c Future educational implications of collaborative innovation networks
+    - '- Chapter 11: Collaborative Innovation Networks and Business:':
+        sections:
+        - '- Section: 11.1 The Impact of Collaborative Innovation Networks on Business:':
+            subsections:
+            - 11.1a Analyzing the business impact of collaborative innovation networks
+            - 11.1b Case studies of business change driven by collaborative innovation
+              networks
+            - 11.1c Future business implications of collaborative innovation networks
+        - '- Section: 11.2 Collaborative Innovation Networks and Organizational Change:':
+            subsections:
+            - 11.2a The role of collaborative innovation networks in driving organizational
+              change
+            - 11.2b Case studies of organizational change driven by collaborative
+              innovation networks
+            - 11.2c Future organizational implications of collaborative innovation
+              networks
+        - '- Section: 11.3 Collaborative Innovation Networks and Entrepreneurship:':
+            subsections:
+            - 11.3a The role of collaborative innovation networks in fostering entrepreneurship
+            - 11.3b Case studies of entrepreneurship driven by collaborative innovation
+              networks
+            - 11.3c Future entrepreneurial implications of collaborative innovation
+              networks
+    - '- Chapter 12: Collaborative Innovation Networks and Technology:':
+        sections:
+        - '- Section: 12.1 The Impact of Collaborative Innovation Networks on Technology:':
+            subsections:
+            - 12.1a Analyzing the technological impact of collaborative innovation
+              networks
+            - 12.1b Case studies of technological change driven by collaborative innovation
+              networks
+            - 12.1c Future technological implications of collaborative innovation
+              networks
+        - '- Section: 12.2 Collaborative Innovation Networks and Technological Change:':
+            subsections:
+            - 12.2a The role of collaborative innovation networks in driving technological
+              change
+            - 12.2b Case studies of technological change driven by collaborative innovation
+              networks
+            - 12.2c Future technological implications of collaborative innovation
+              networks
+        - '- Section: 12.3 Collaborative Innovation Networks and Digital Transformation:':
+            subsections:
+            - 12.3a The role of collaborative innovation networks in fostering digital
+              transformation
+            - 12.3b Case studies of digital transformation driven by collaborative
+              innovation networks
+            - 12.3c Future digital transformation implications of collaborative innovation
+              networks
+    - '- Chapter 13: Collaborative Innovation Networks and Sustainability:':
+        sections:
+        - '- Section: 13.1 The Impact of Collaborative Innovation Networks on Sustainability:':
+            subsections:
+            - 13.1a Analyzing the sustainability impact of collaborative innovation
+              networks
+            - 13.1b Case studies of sustainability initiatives driven by collaborative
+              innovation networks
+            - 13.1c Future sustainability implications of collaborative innovation
+              networks
+        - '- Section: 13.2 Collaborative Innovation Networks and Sustainable Development:':
+            subsections:
+            - 13.2a The role of collaborative innovation networks in promoting sustainable
+              development
+            - 13.2b Case studies of sustainable development initiatives driven by
+              collaborative innovation networks
+            - 13.2c Future sustainable development implications of collaborative innovation
+              networks
+        - '- Section: 13.3 Collaborative Innovation Networks and Environmental Conservation:':
+            subsections:
+            - 13.3a The role of collaborative innovation networks in environmental
+              conservation
+            - 13.3b Case studies of conservation initiatives driven by collaborative
+              innovation networks
+            - 13.3c Future environmental conservation implications of collaborative
+              innovation networks
+    - '- Chapter 14: Collaborative Innovation Networks and Health:':
+        sections:
+        - '- Section: 14.1 The Impact of Collaborative Innovation Networks on Health:':
+            subsections:
+            - 14.1a Analyzing the health impact of collaborative innovation networks
+            - 14.1b Case studies of health initiatives driven by collaborative innovation
+              networks
+            - 14.1c Future health implications of collaborative innovation networks
+        - '- Section: 14.2 Collaborative Innovation Networks and Healthcare:':
+            subsections:
+            - 14.2a The role of collaborative innovation networks in healthcare
+            - 14.2b Case studies of healthcare initiatives driven by collaborative
+              innovation networks
+            - 14.2c Future healthcare implications of collaborative innovation networks
+        - '- Section: 14.3 Collaborative Innovation Networks and Public Health:':
+            subsections:
+            - 14.3a The role of collaborative innovation networks in public health
+            - 14.3b Case studies of public health initiatives driven by collaborative
+              innovation networks
+            - 14.3c Future public health implications of collaborative innovation
+              networks
+    - '- Chapter 15: Collaborative Innovation Networks and Culture:':
+        sections:
+        - '- Section: 15.1 The Impact of Collaborative Innovation Networks on Culture:':
+            subsections:
+            - 15.1a Analyzing the cultural impact of collaborative innovation networks
+            - 15.1b Case studies of cultural initiatives driven by collaborative innovation
+              networks
+            - 15.1c Future cultural implications of collaborative innovation networks
+        - '- Section: 15.2 Collaborative Innovation Networks and Cultural Change:':
+            subsections:
+            - 15.2a The role of collaborative innovation networks in driving cultural
+              change
+            - 15.2b Case studies of cultural change driven by collaborative innovation
+              networks
+            - 15.2c Future cultural implications of collaborative innovation networks
+        - '- Section: 15.3 Collaborative Innovation Networks and Cultural Diversity:':
+            subsections:
+            - 15.3a The role of collaborative innovation networks in promoting cultural
+              diversity
+            - 15.3b Case studies of cultural diversity initiatives driven by collaborative
+              innovation networks
+            - 15.3c Future cultural diversity implications of collaborative innovation
+              networks
+    - '- Chapter 16: Collaborative Innovation Networks and Social Change:':
+        sections:
+        - '- Section: 16.1 The Impact of Collaborative Innovation Networks on Social Change:':
+            subsections:
+            - 16.1a Analyzing the social change impact of collaborative innovation
+              networks
+            - 16.1b Case studies of social change initiatives driven by collaborative
+              innovation networks
+            - 16.1c Future social change implications of collaborative innovation
+              networks
+        - '- Section: 16.2 Collaborative Innovation Networks and Social Movements:':
+            subsections:
+            - 16.2a The role of collaborative innovation networks in driving social
+              movements
+            - 16.2b Case studies of social movements driven by collaborative innovation
+              networks
+            - 16.2c Future social movement implications of collaborative innovation
+              networks
+        - '- Section: 16.3 Collaborative Innovation Networks and Social Justice:':
+            subsections:
+            - 16.3a The role of collaborative innovation networks in promoting social
+              justice
+            - 16.3b Case studies of social justice initiatives driven by collaborative
+              innovation networks
+            - 16.3c Future social justice implications of collaborative innovation
+              networks
+    - '- Chapter 17: Collaborative Innovation Networks and Governance:':
+        sections:
+        - '- Section: 17.1 The Impact of Collaborative Innovation Networks on Governance:':
+            subsections:
+            - 17.1a Analyzing the governance impact of collaborative innovation networks
+            - 17.1b Case studies of governance initiatives driven by collaborative
+              innovation networks
+            - 17.1c Future governance implications of collaborative innovation networks
+        - '- Section: 17.2 Collaborative Innovation Networks and Public Administration:':
+            subsections:
+            - 17.2a The role of collaborative innovation networks in public administration
+            - 17.2b Case studies of public administration initiatives driven by collaborative
+              innovation networks
+            - 17.2c Future public administration implications of collaborative innovation
+              networks
+        - '- Section: 17.3 Collaborative Innovation Networks and Policy Making:':
+            subsections:
+            - 17.3a The role of collaborative innovation networks in policy making
+            - 17.3b Case studies of policy making initiatives driven by collaborative
+              innovation networks
+            - 17.3c Future policy making implications of collaborative innovation
+              networks
+    - '- Chapter 18: Collaborative Innovation Networks and Leadership:':
+        sections:
+        - '- Section: 18.1 The Impact of Collaborative Innovation Networks on Leadership:':
+            subsections:
+            - 18.1a Analyzing the leadership impact of collaborative innovation networks
+            - 18.1b Case studies of leadership initiatives driven by collaborative
+              innovation networks
+            - 18.1c Future leadership implications of collaborative innovation networks
+        - '- Section:':
+            subsections: []

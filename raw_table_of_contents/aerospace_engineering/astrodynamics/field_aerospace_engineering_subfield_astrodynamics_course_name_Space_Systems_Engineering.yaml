@@ -1,0 +1,308 @@
+textbook:
+  'Space Systems Engineering: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: System Management:':
+        sections:
+        - '- Section: 1.1 Requirements:':
+            subsections:
+            - 1.1a Requirement Analysis
+            - 1.1b Requirement Validation
+            - 1.1c Requirement Traceability
+        - '- Section: 1.2 Team Activities:':
+            subsections:
+            - 1.2a Team Building
+            - 1.2b Team Communication
+            - 1.2c Team Coordination
+        - '- Section: 1.3 Trade Analyses:':
+            subsections:
+            - 1.3a Trade Study Process
+            - 1.3b Trade-off Analysis
+            - 1.3c Decision Matrix
+        - '- Section: 1.4 Presentation Planning:':
+            subsections:
+            - 1.4a Presentation Structure
+            - 1.4b Presentation Delivery
+            - 1.4c Audience Engagement
+    - '- Chapter 2: Formation Flight Control:':
+        sections:
+        - '- Section: 2.1 System Management:':
+            subsections:
+            - 2.1a System Design
+            - 2.1b System Integration
+            - 2.1c System Verification
+        - '- Section: 2.2 Formation Flight Control:':
+            subsections:
+            - 2.2a Control Algorithms
+            - 2.2b Control Systems
+            - 2.2c Control Performance
+        - '- Section: 2.3 Presentation Planning:':
+            subsections:
+            - 2.3a Presentation Design
+            - 2.3b Presentation Practice
+            - 2.3c Presentation Evaluation
+    - '- Chapter 3: Sub-system Planning:':
+        sections:
+        - '- Section: 3.1 Trade Analyses:':
+            subsections:
+            - 3.1a Trade Space Exploration
+            - 3.1b Trade-off Criteria
+            - 3.1c Trade-off Results
+        - '- Section: 3.2 Presentation Planning:':
+            subsections:
+            - 3.2a Presentation Outline
+            - 3.2b Presentation Rehearsal
+            - 3.2c Presentation Feedback
+        - '- Section: 3.3 TARR Preparation:':
+            subsections:
+            - 3.3a TARR Objectives
+            - 3.3b TARR Documentation
+            - 3.3c TARR Review
+    - '- Chapter 4: Real-time Software:':
+        sections:
+        - '- Section: 4.1 Sub-system Planning:':
+            subsections:
+            - 4.1a Sub-system Requirements
+            - 4.1b Sub-system Design
+            - 4.1c Sub-system Testing
+        - '- Section: 4.2 TARR Preparation:':
+            subsections:
+            - 4.2a TARR Planning
+            - 4.2b TARR Execution
+            - 4.2c TARR Follow-up
+    - '- Chapter 5: Sub-system Design:':
+        sections:
+        - '- Section: 5.1 Sub-system Prototyping:':
+            subsections:
+            - 5.1a Prototype Development
+            - 5.1b Prototype Testing
+            - 5.1c Prototype Iteration
+        - '- Section: 5.2 Presentation Planning:':
+            subsections:
+            - 5.2a Presentation Content
+            - 5.2b Presentation Timing
+            - 5.2c Presentation Q&A
+    - '- Chapter 6: Reliability and Operations:':
+        sections:
+        - '- Section: 6.1 Lab Introduction:':
+            subsections:
+            - 6.1a Lab Safety
+            - 6.1b Lab Equipment
+            - 6.1c Lab Procedures
+        - '- Section: 6.2 Sub-system Design:':
+            subsections:
+            - 6.2a Design Considerations
+            - 6.2b Design Implementation
+            - 6.2c Design Verification
+    - '- Chapter 7: Preliminary Design Review:':
+        sections:
+        - '- Section: 7.1 Sub-system Prototyping:':
+            subsections:
+            - 7.1a Prototype Review
+            - 7.1b Prototype Improvements
+            - 7.1c Prototype Finalization
+        - '- Section: 7.2 PDR Action Items:':
+            subsections:
+            - 7.2a Action Item Identification
+            - 7.2b Action Item Assignment
+            - 7.2c Action Item Closure
+    - '- Chapter 8: Design Document Preparation:':
+        sections:
+        - '- Section: 8.1 Design Document:':
+            subsections:
+            - 8.1a Document Structure
+            - 8.1b Document Content
+            - 8.1c Document Review
+    - '- Chapter 9: Team Social:':
+        sections:
+        - '- Section: 9.1 Design Document Preparation:':
+            subsections:
+            - 9.1a Document Drafting
+            - 9.1b Document Editing
+            - 9.1c Document Finalization
+    - '- Chapter 10: System Integration:':
+        sections:
+        - '- Section: 10.1 Integration Planning:':
+            subsections:
+            - 10.1a Integration Strategy
+            - 10.1b Integration Schedule
+            - 10.1c Integration Risks
+        - '- Section: 10.2 Integration Execution:':
+            subsections:
+            - 10.2a Integration Procedures
+            - 10.2b Integration Testing
+            - 10.2c Integration Troubleshooting
+        - '- Section: 10.3 Integration Review:':
+            subsections:
+            - 10.3a Review Preparation
+            - 10.3b Review Execution
+            - 10.3c Review Follow-up
+    - '- Chapter 11: System Verification:':
+        sections:
+        - '- Section: 11.1 Verification Planning:':
+            subsections:
+            - 11.1a Verification Strategy
+            - 11.1b Verification Schedule
+            - 11.1c Verification Risks
+        - '- Section: 11.2 Verification Execution:':
+            subsections:
+            - 11.2a Verification Procedures
+            - 11.2b Verification Testing
+            - 11.2c Verification Troubleshooting
+        - '- Section: 11.3 Verification Review:':
+            subsections:
+            - 11.3a Review Preparation
+            - 11.3b Review Execution
+            - 11.3c Review Follow-up
+    - '- Chapter 12: System Validation:':
+        sections:
+        - '- Section: 12.1 Validation Planning:':
+            subsections:
+            - 12.1a Validation Strategy
+            - 12.1b Validation Schedule
+            - 12.1c Validation Risks
+        - '- Section: 12.2 Validation Execution:':
+            subsections:
+            - 12.2a Validation Procedures
+            - 12.2b Validation Testing
+            - 12.2c Validation Troubleshooting
+        - '- Section: 12.3 Validation Review:':
+            subsections:
+            - 12.3a Review Preparation
+            - 12.3b Review Execution
+            - 12.3c Review Follow-up
+    - '- Chapter 13: System Deployment:':
+        sections:
+        - '- Section: 13.1 Deployment Planning:':
+            subsections:
+            - 13.1a Deployment Strategy
+            - 13.1b Deployment Schedule
+            - 13.1c Deployment Risks
+        - '- Section: 13.2 Deployment Execution:':
+            subsections:
+            - 13.2a Deployment Procedures
+            - 13.2b Deployment Testing
+            - 13.2c Deployment Troubleshooting
+        - '- Section: 13.3 Deployment Review:':
+            subsections:
+            - 13.3a Review Preparation
+            - 13.3b Review Execution
+            - 13.3c Review Follow-up
+    - '- Chapter 14: System Operations:':
+        sections:
+        - '- Section: 14.1 Operations Planning:':
+            subsections:
+            - 14.1a Operations Strategy
+            - 14.1b Operations Schedule
+            - 14.1c Operations Risks
+        - '- Section: 14.2 Operations Execution:':
+            subsections:
+            - 14.2a Operations Procedures
+            - 14.2b Operations Testing
+            - 14.2c Operations Troubleshooting
+        - '- Section: 14.3 Operations Review:':
+            subsections:
+            - 14.3a Review Preparation
+            - 14.3b Review Execution
+            - 14.3c Review Follow-up
+    - '- Chapter 15: System Maintenance:':
+        sections:
+        - '- Section: 15.1 Maintenance Planning:':
+            subsections:
+            - 15.1a Maintenance Strategy
+            - 15.1b Maintenance Schedule
+            - 15.1c Maintenance Risks
+        - '- Section: 15.2 Maintenance Execution:':
+            subsections:
+            - 15.2a Maintenance Procedures
+            - 15.2b Maintenance Testing
+            - 15.2c Maintenance Troubleshooting
+        - '- Section: 15.3 Maintenance Review:':
+            subsections:
+            - 15.3a Review Preparation
+            - 15.3b Review Execution
+            - 15.3c Review Follow-up
+    - '- Chapter 16: System Decommissioning:':
+        sections:
+        - '- Section: 16.1 Decommissioning Planning:':
+            subsections:
+            - 16.1a Decommissioning Strategy
+            - 16.1b Decommissioning Schedule
+            - 16.1c Decommissioning Risks
+        - '- Section: 16.2 Decommissioning Execution:':
+            subsections:
+            - 16.2a Decommissioning Procedures
+            - 16.2b Decommissioning Testing
+            - 16.2c Decommissioning Troubleshooting
+        - '- Section: 16.3 Decommissioning Review:':
+            subsections:
+            - 16.3a Review Preparation
+            - 16.3b Review Execution
+            - 16.3c Review Follow-up
+    - '- Chapter 17: System Documentation:':
+        sections:
+        - '- Section: 17.1 Documentation Planning:':
+            subsections:
+            - 17.1a Documentation Strategy
+            - 17.1b Documentation Schedule
+            - 17.1c Documentation Risks
+        - '- Section: 17.2 Documentation Execution:':
+            subsections:
+            - 17.2a Documentation Procedures
+            - 17.2b Documentation Testing
+            - 17.2c Documentation Troubleshooting
+        - '- Section: 17.3 Documentation Review:':
+            subsections:
+            - 17.3a Review Preparation
+            - 17.3b Review Execution
+            - 17.3c Review Follow-up
+    - '- Chapter 18: System Training:':
+        sections:
+        - '- Section: 18.1 Training Planning:':
+            subsections:
+            - 18.1a Training Strategy
+            - 18.1b Training Schedule
+            - 18.1c Training Risks
+        - '- Section: 18.2 Training Execution:':
+            subsections:
+            - 18.2a Training Procedures
+            - 18.2b Training Testing
+            - 18.2c Training Troubleshooting
+        - '- Section: 18.3 Training Review:':
+            subsections:
+            - 18.3a Review Preparation
+            - 18.3b Review Execution
+            - 18.3c Review Follow-up
+    - '- Chapter 19: System Auditing:':
+        sections:
+        - '- Section: 19.1 Auditing Planning:':
+            subsections:
+            - 19.1a Auditing Strategy
+            - 19.1b Auditing Schedule
+            - 19.1c Auditing Risks
+        - '- Section: 19.2 Auditing Execution:':
+            subsections:
+            - 19.2a Auditing Procedures
+            - 19.2b Auditing Testing
+            - 19.2c Auditing Troubleshooting
+        - '- Section: 19.3 Auditing Review:':
+            subsections:
+            - 19.3a Review Preparation
+            - 19.3b Review Execution
+            - 19.3c Review Follow-up
+    - '- Chapter 20: System Improvement:':
+        sections:
+        - '- Section: 20.1 Improvement Planning:':
+            subsections:
+            - 20.1a Improvement Strategy
+            - 20.1b Improvement Schedule
+            - 20.1c Improvement Risks
+        - '- Section: 20.2 Improvement Execution:':
+            subsections:
+            - 20.2a Improvement Procedures
+            - 20.2b Improvement Testing
+            - 20.2c Improvement Troubleshooting
+        - '- Section: 20.3 Improvement Review:':
+            subsections:
+            - 20.3a Review Preparation
+            - 20.3b Review Execution
+            - 20.3c Review Follow-up

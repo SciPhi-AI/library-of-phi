@@ -1,0 +1,403 @@
+textbook: 
+"Airline Schedule Planning and Optimization":
+
+chapters:
+- Chapter 1: Introduction and Overview:
+sections:
+- Section: 1.1 Introduction to Airline Schedule Planning:
+subsections:
+- 1.1a History of Airline Schedule Planning
+- 1.1b Importance of Airline Schedule Planning
+- 1.1c Key Components of Airline Schedule Planning
+
+- Section: 1.2 Overview of Airline Operations Research:
+subsections:
+- 1.2a Introduction to Operations Research
+- 1.2b Applications of Operations Research in Airlines
+- 1.2c Future Trends in Operations Research
+
+- Chapter 2: Optimizing Flows on Networks:
+sections:
+- Section: 2.1 Introduction to Network Optimization:
+subsections:
+- 2.1a Basics of Network Optimization
+- 2.1b Network Optimization in Airlines
+- 2.1c Challenges in Network Optimization
+
+- Section: 2.2 A Generalised Permanent Labelling Algorithm for the Shortest Path Problem with Time Windows:
+subsections:
+- 2.2a Introduction to Permanent Labelling Algorithm
+- 2.2b Application in Airline Scheduling
+- 2.2c Case Studies
+
+- Section: 2.3 Advanced Network Flow Optimization Techniques:
+subsections:
+- 2.3a Introduction to Advanced Techniques
+- 2.3b Application in Airline Scheduling
+- 2.3c Future Trends
+
+- Chapter 3: The Passenger Mix Model:
+sections:
+- Section: 3.1 Introduction to the Passenger Mix Model:
+subsections:
+- 3.1a Basics of Passenger Mix Model
+- 3.1b Application in Airline Scheduling
+- 3.1c Challenges and Solutions
+
+- Section: 3.2 Multi-commodity Flows in Airline Scheduling:
+subsections:
+- 3.2a Introduction to Multi-commodity Flows
+- 3.2b Application in Airline Scheduling
+- 3.2c Case Studies
+
+- Section: 3.3 Multi-commodity Network Flows: A Keypath Formulation:
+subsections:
+- 3.3a Introduction to Keypath Formulation
+- 3.3b Application in Airline Scheduling
+- 3.3c Future Trends
+
+- Section: 3.4 Linear and Integer Optimization Techniques for Multi-commodity Flows:
+subsections:
+- 3.4a Introduction to Optimization Techniques
+- 3.4b Application in Airline Scheduling
+- 3.4c Case Studies
+
+- Chapter 4: The Fleet Assignment Problem:
+sections:
+- Section: 4.1 Introduction to the Fleet Assignment Problem:
+subsections:
+- 4.1a Basics of Fleet Assignment
+- 4.1b Application in Airline Scheduling
+- 4.1c Challenges and Solutions
+
+- Section: 4.2 The Passenger Mix Problem in Fleet Assignment:
+subsections:
+- 4.2a Introduction to Passenger Mix Problem
+- 4.2b Application in Fleet Assignment
+- 4.2c Case Studies
+
+- Section: 4.3 Advanced Optimization Techniques for Fleet Assignment:
+subsections:
+- 4.3a Introduction to Advanced Techniques
+- 4.3b Application in Fleet Assignment
+- 4.3c Future Trends
+
+- Chapter 5: Crew Scheduling and Aircraft Routing:
+sections:
+- Section: 5.1 Introduction to Crew Scheduling:
+subsections:
+- 5.1a Basics of Crew Scheduling
+- 5.1b Application in Airline Operations
+- 5.1c Challenges and Solutions
+
+- Section: 5.2 Aircraft Maintenance Routing in Airline Operations:
+subsections:
+- 5.2a Introduction to Aircraft Maintenance Routing
+- 5.2b Application in Airline Operations
+- 5.2c Case Studies
+
+- Section: 5.3 The Integrated Crew Pairing-Aircraft Routing Problem:
+subsections:
+- 5.3a Introduction to Integrated Problem
+- 5.3b Application in Airline Operations
+- 5.3c Future Trends
+
+- Section: 5.4 Advanced Techniques for Crew Scheduling and Aircraft Routing:
+subsections:
+- 5.4a Introduction to Advanced Techniques
+- 5.4b Application in Airline Operations
+- 5.4c Case Studies
+
+- Chapter 6: Integrated Fleeting Models:
+sections:
+- Section: 6.1 Introduction to Integrated Fleeting Models:
+subsections:
+- 6.1a Basics of Integrated Fleeting Models
+- 6.1b Application in Airline Operations
+- 6.1c Challenges and Solutions
+
+- Section: 6.2 Robust Scheduling in Airline Operations:
+subsections:
+- 6.2a Introduction to Robust Scheduling
+- 6.2b Application in Airline Operations
+- 6.2c Case Studies
+
+- Section: 6.3 New Approaches to Add Robustness into Airline Schedules:
+subsections:
+- 6.3a Introduction to New Approaches
+- 6.3b Application in Airline Operations
+- 6.3c Future Trends
+
+- Chapter 7: The Schedule Design Problem:
+sections:
+- Section: 7.1 Introduction to the Schedule Design Problem:
+subsections:
+- 7.1a Basics of Schedule Design
+- 7.1b Application in Airline Operations
+- 7.1c Challenges and Solutions
+
+- Section: 7.2 Integrated Fleeting Models in Schedule Design:
+subsections:
+- 7.2a Introduction to Integrated Fleeting Models
+- 7.2b Application in Schedule Design
+- 7.2c Case Studies
+
+- Section: 7.3 Advanced Techniques for Schedule Design Optimization:
+subsections:
+- 7.3a Introduction to Advanced Techniques
+- 7.3b Application in Schedule Design
+- 7.3c Future Trends
+
+- Chapter 8: Operations Recovery:
+sections:
+- Section: 8.1 Introduction to Operations Recovery in Airline Operations:
+subsections:
+- 8.1a Basics of Operations Recovery
+- 8.1b Application in Airline Operations
+- 8.1c Challenges and Solutions
+
+- Section: 8.2 Advanced Techniques for Operations Recovery:
+subsections:
+- 8.2a Introduction to Advanced Techniques
+- 8.2b Application in Airline Operations
+- 8.2c Case Studies
+
+- Chapter 9: Project Presentations and Reports:
+sections:
+- Section: 9.1 Introduction to Project Presentations and Reports:
+subsections:
+- 9.1a Basics of Project Presentations
+- 9.1b Tips for Effective Presentations
+- 9.1c Writing High-Quality Reports
+
+- Section: 9.2 Tips for Effective Project Presentations:
+subsections:
+- 9.2a Importance of Effective Presentations
+- 9.2b Techniques for Effective Presentations
+- 9.2c Case Studies
+
+- Section: 9.3 Writing High-Quality Project Reports:
+subsections:
+- 9.3a Importance of High-Quality Reports
+- 9.3b Techniques for Writing High-Quality Reports
+- 9.3c Case Studies
+
+- Chapter 10: Future Trends in Airline Schedule Planning and Optimization:
+sections:
+- Section: 10.1 Introduction to Future Trends in Airline Schedule Planning and Optimization:
+subsections:
+- 10.1a Emerging Trends
+- 10.1b Impact on Airline Operations
+- 10.1c Future Challenges
+
+- Section: 10.2 Emerging Technologies in Airline Operations:
+subsections:
+- 10.2a Introduction to Emerging Technologies
+- 10.2b Impact on Airline Operations
+- 10.2c Case Studies
+
+- Section: 10.3 Challenges and Opportunities in Airline Schedule Planning and Optimization:
+subsections:
+- 10.3a Current Challenges
+- 10.3b Future Opportunities
+- 10.3c Case Studies
+
+- Chapter 11: Airline Revenue Management:
+sections:
+- Section: 11.1 Introduction to Airline Revenue Management:
+subsections:
+- 11.1a Basics of Revenue Management
+- 11.1b Application in Airline Operations
+- 11.1c Challenges and Solutions
+
+- Section: 11.2 Pricing Strategies in Airline Operations:
+subsections:
+- 11.2a Introduction to Pricing Strategies
+- 11.2b Application in Airline Operations
+- 11.2c Case Studies
+
+- Section: 11.3 Advanced Techniques for Revenue Management:
+subsections:
+- 11.3a Introduction to Advanced Techniques
+- 11.3b Application in Airline Operations
+- 11.3c Future Trends
+
+- Chapter 12: Airline Marketing and Customer Relationship Management:
+sections:
+- Section: 12.1 Introduction to Airline Marketing:
+subsections:
+- 12.1a Basics of Airline Marketing
+- 12.1b Application in Airline Operations
+- 12.1c Challenges and Solutions
+
+- Section: 12.2 Customer Relationship Management in Airline Operations:
+subsections:
+- 12.2a Introduction to Customer Relationship Management
+- 12.2b Application in Airline Operations
+- 12.2c Case Studies
+
+- Section: 12.3 Advanced Techniques for Airline Marketing and Customer Relationship Management:
+subsections:
+- 12.3a Introduction to Advanced Techniques
+- 12.3b Application in Airline Operations
+- 12.3c Future Trends
+
+- Chapter 13: Airline Operations Control:
+sections:
+- Section: 13.1 Introduction to Airline Operations Control:
+subsections:
+- 13.1a Basics of Operations Control
+- 13.1b Application in Airline Operations
+- 13.1c Challenges and Solutions
+
+- Section: 13.2 Advanced Techniques for Airline Operations Control:
+subsections:
+- 13.2a Introduction to Advanced Techniques
+- 13.2b Application in Airline Operations
+- 13.2c Case Studies
+
+- Section: 13.3 Future Trends in Airline Operations Control:
+subsections:
+- 13.3a Emerging Trends
+- 13.3b Impact on Airline Operations
+- 13.3c Future Challenges
+
+- Chapter 14: Airline Maintenance and Engineering:
+sections:
+- Section: 14.1 Introduction to Airline Maintenance and Engineering:
+subsections:
+- 14.1a Basics of Maintenance and Engineering
+- 14.1b Application in Airline Operations
+- 14.1c Challenges and Solutions
+
+- Section: 14.2 Advanced Techniques for Airline Maintenance and Engineering:
+subsections:
+- 14.2a Introduction to Advanced Techniques
+- 14.2b Application in Airline Operations
+- 14.2c Case Studies
+
+- Section: 14.3 Future Trends in Airline Maintenance and Engineering:
+subsections:
+- 14.3a Emerging Trends
+- 14.3b Impact on Airline Operations
+- 14.3c Future Challenges
+
+- Chapter 15: Airline Safety and Security:
+sections:
+- Section: 15.1 Introduction to Airline Safety and Security:
+subsections:
+- 15.1a Basics of Safety and Security
+- 15.1b Application in Airline Operations
+- 15.1c Challenges and Solutions
+
+- Section: 15.2 Advanced Techniques for Airline Safety and Security:
+subsections:
+- 15.2a Introduction to Advanced Techniques
+- 15.2b Application in Airline Operations
+- 15.2c Case Studies
+
+- Section: 15.3 Future Trends in Airline Safety and Security:
+subsections:
+- 15.3a Emerging Trends
+- 15.3b Impact on Airline Operations
+- 15.3c Future Challenges
+
+- Chapter 16: Airline Environmental Sustainability:
+sections:
+- Section: 16.1 Introduction to Airline Environmental Sustainability:
+subsections:
+- 16.1a Basics of Environmental Sustainability
+- 16.1b Application in Airline Operations
+- 16.1c Challenges and Solutions
+
+- Section: 16.2 Advanced Techniques for Airline Environmental Sustainability:
+subsections:
+- 16.2a Introduction to Advanced Techniques
+- 16.2b Application in Airline Operations
+- 16.2c Case Studies
+
+- Section: 16.3 Future Trends in Airline Environmental Sustainability:
+subsections:
+- 16.3a Emerging Trends
+- 16.3b Impact on Airline Operations
+- 16.3c Future Challenges
+
+- Chapter 17: Airline Human Resources Management:
+sections:
+- Section: 17.1 Introduction to Airline Human Resources Management:
+subsections:
+- 17.1a Basics of Human Resources Management
+- 17.1b Application in Airline Operations
+- 17.1c Challenges and Solutions
+
+- Section: 17.2 Advanced Techniques for Airline Human Resources Management:
+subsections:
+- 17.2a Introduction to Advanced Techniques
+- 17.2b Application in Airline Operations
+- 17.2c Case Studies
+
+- Section: 17.3 Future Trends in Airline Human Resources Management:
+subsections:
+- 17.3a Emerging Trends
+- 17.3b Impact on Airline Operations
+- 17.3c Future Challenges
+
+- Chapter 18: Airline Financial Management:
+sections:
+- Section: 18.1 Introduction to Airline Financial Management:
+subsections:
+- 18.1a Basics of Financial Management
+- 18.1b Application in Airline Operations
+- 18.1c Challenges and Solutions
+
+- Section: 18.2 Advanced Techniques for Airline Financial Management:
+subsections:
+- 18.2a Introduction to Advanced Techniques
+- 18.2b Application in Airline Operations
+- 18.2c Case Studies
+
+- Section: 18.3 Future Trends in Airline Financial Management:
+subsections:
+- 18.3a Emerging Trends
+- 18.3b Impact on Airline Operations
+- 18.3c Future Challenges
+
+- Chapter 19: Airline Legal and Regulatory Issues:
+sections:
+- Section: 19.1 Introduction to Airline Legal and Regulatory Issues:
+subsections:
+- 19.1a Basics of Legal and Regulatory Issues
+- 19.1b Application in Airline Operations
+- 19.1c Challenges and Solutions
+
+- Section: 19.2 Advanced Techniques for Managing Airline Legal and Regulatory Issues:
+subsections:
+- 19.2a Introduction to Advanced Techniques
+- 19.2b Application in Airline Operations
+- 19.2c Case Studies
+
+- Section: 19.3 Future Trends in Airline Legal and Regulatory Issues:
+subsections:
+- 19.3a Emerging Trends
+- 19.3b Impact on Airline Operations
+- 19.3c Future Challenges
+
+- Chapter 20: Airline Strategic Management:
+sections:
+- Section: 20.1 Introduction to Airline Strategic Management:
+subsections:
+- 20.1a Basics of Strategic Management
+- 20.1b Application in Airline Operations
+- 20.1c Challenges and Solutions
+
+- Section: 20.2 Advanced Techniques for Airline Strategic Management:
+subsections:
+- 20.2a Introduction to Advanced Techniques
+- 20.2b Application in Airline Operations
+- 20.2c Case Studies
+
+- Section: 20.3 Future Trends in Airline Strategic Management:
+subsections:
+- 20.3a Emerging Trends
+- 20.3b Impact on Airline Operations
+- 20.3c Future Challenges

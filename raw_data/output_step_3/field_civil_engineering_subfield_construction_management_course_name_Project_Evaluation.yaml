@@ -1,0 +1,104 @@
+textbook:
+  Project Evaluation: A Comprehensive Guide
+  chapters:
+    - Introduction and Motivation:
+      sections:
+        - Initial discussion of project
+    - Introduction to Public and Private Projects:
+      sections:
+        - Evaluation methods and project evaluation checklists
+      subsections:
+        - Understanding the differences between public and private projects
+        - Benefits and challenges of public and private projects
+    - Stakeholder Analysis and Multi-Attribute Analysis:
+      sections:
+        - Identifying stakeholders and their interests
+        - Analyzing stakeholder influence and power
+      subsections:
+        - Introduction to multi-attribute analysis
+        - Techniques for multi-attribute analysis
+    - Project Costs and Revenues:
+      sections:
+        - Stakeholder perspectives (public vs. private)
+      subsections:
+        - Identifying and quantifying project costs
+        - Estimating project revenues and benefits
+    - Time Value of Money:
+      sections:
+        - Equivalence relationships
+      subsections:
+        - Understanding the concept of time value of money
+        - Calculating present and future values
+    - Discount Rates and Minimally Acceptable Rate of Return:
+      sections:
+        - Determining discount rates
+        - Setting the minimally acceptable rate of return
+    - Benefit Cost Analysis:
+      sections:
+        - Comparing alternatives
+        - Financial and economic analysis
+      subsections:
+        - Introduction to benefit-cost analysis
+        - Calculating net present value and internal rate of return
+        - Social cost-benefit analysis
+    - Financing:
+      sections:
+        - Sources of project financing
+      subsections:
+        - Debt financing
+        - Equity financing
+        - Government grants and subsidies
+    - Case: Panama Canal:
+      sections:
+        - Overview of the Panama Canal project
+        - Evaluation of the Panama Canal project
+    - High-Speed Rail:
+      sections:
+        - Introduction to high-speed rail projects
+        - Economic and social considerations of high-speed rail
+      subsections:
+        - Case study: Evaluating the feasibility of a high-speed rail project
+    - Term Projects from Previous Years:
+      sections:
+        - Overview of selected term projects
+      subsections:
+        - Case study: Evaluating the success of past projects
+    - Introduction to Uncertainty, Stakeholder Analysis, and Mitchell Framework:
+      sections:
+        - Understanding uncertainty in project evaluation
+      subsections:
+        - Importance of stakeholder analysis in uncertain environments
+        - Introduction to the Mitchell Framework for project evaluation
+    - Dealing with Uncertainty:
+      sections:
+        - Decision trees
+        - Real options
+      subsections:
+        - Evaluating projects using decision trees
+        - Incorporating real options in project evaluation
+    - Case: Spent Nuclear Fuel, Transportation to Yucca Mountain, Nevada:
+      sections:
+        - Overview of the spent nuclear fuel transportation project
+        - Evaluation of the spent nuclear fuel transportation project
+    - Project Evaluation in Developing Countries:
+      sections:
+        - Challenges and considerations in project evaluation in developing countries
+      subsections:
+        - Case study: Evaluating the impact of Pure Home Water in Africa project
+    - Public-Private Partnerships:
+      sections:
+        - Introduction to public-private partnerships
+        - Benefits and challenges of public-private partnerships
+    - Infrastructure Banks:
+      sections:
+        - Role of infrastructure banks in project financing
+        - Evaluating infrastructure bank projects
+    - Project Presentations:
+      sections:
+        - Preparing and delivering effective project presentations
+      subsections:
+        - Techniques for presenting project evaluation findings
+        - Addressing questions and concerns from stakeholders
+    - Wrap-Up and Summary:
+      sections:
+        - Key concepts and takeaways from the course

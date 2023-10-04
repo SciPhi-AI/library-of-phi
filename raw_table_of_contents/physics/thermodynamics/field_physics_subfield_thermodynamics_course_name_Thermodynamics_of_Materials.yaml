@@ -1,0 +1,304 @@
+textbook:
+  'Thermodynamics of Materials: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction and Course Description:':
+        sections:
+        - '- Section: 1.1 Thermodynamic Variables:':
+            subsections:
+            - 1.1a Definition and Significance of Thermodynamic Variables
+            - 1.1b Temperature, Pressure, and Volume
+            - 1.1c Internal Energy, Enthalpy, and Entropy
+        - '- Section: 1.2 State Variables and Functions:':
+            subsections:
+            - 1.2a Definition and Examples of State Variables
+            - 1.2b Thermodynamic Functions and their Relationships
+            - 1.2c Maxwell's Relations
+        - '- Section: 1.3 Thermodynamic Systems and Processes:':
+            subsections:
+            - 1.3a Types of Thermodynamic Systems
+            - 1.3b Closed, Open, and Isolated Systems
+            - 1.3c Quasi-static and Reversible Processes
+    - '- Chapter 2: Energy and Work:':
+        sections:
+        - '- Section: 2.1 Properties of Materials:':
+            subsections:
+            - 2.1a Physical and Chemical Properties
+            - 2.1b Mechanical and Thermal Properties
+            - 2.1c Electrical and Magnetic Properties
+        - '- Section: 2.2 Stored Energy in Solids, First Law for Fluids:':
+            subsections:
+            - 2.2a Internal Energy and its Components in Solids
+            - 2.2b First Law of Thermodynamics for Fluids
+            - 2.2c Work and Heat Transfer in Fluid Systems
+        - '- Section: 2.3 Quasi-static Processes:':
+            subsections:
+            - 2.3a Definition and Characteristics of Quasi-static Processes
+            - 2.3b Application of Quasi-static Processes in Material Systems
+            - 2.3c Efficiency and Limitations of Quasi-static Processes
+    - '- Chapter 3: Heat and Temperature:':
+        sections:
+        - '- Section: 3.1 Heat Capacities and Gaseous Behavior:':
+            subsections:
+            - 3.1a Specific Heat Capacity and Molar Heat Capacity
+            - 3.1b Heat Capacity at Constant Volume and Constant Pressure
+            - 3.1c Ideal Gas Behavior and its Implications
+        - '- Section: 3.2 Internal Energy and Enthalpy for Fluids:':
+            subsections:
+            - 3.2a Calculation of Internal Energy for Fluids
+            - 3.2b Enthalpy and its Relation to Internal Energy
+            - 3.2c Enthalpy Change in Chemical Reactions
+        - '- Section: 3.3 Thermodynamic Functions for General Systems:':
+            subsections:
+            - 3.3a Helmholtz Free Energy
+            - 3.3b Gibbs Free Energy
+            - 3.3c Enthalpy and Entropy in General Systems
+    - '- Chapter 4: Entropy and Equilibrium:':
+        sections:
+        - '- Section: 4.1 The Second Law:':
+            subsections:
+            - 4.1a Statement and Implications of the Second Law
+            - 4.1b Entropy Generation and its Relation to Irreversibility
+            - 4.1c Carnot Efficiency and Heat Engines
+        - '- Section: 4.2 Heat Stored during Phase Changes:':
+            subsections:
+            - 4.2a Latent Heat and its Significance
+            - 4.2b Phase Transitions and Energy Storage
+            - 4.2c Clausius-Clapeyron Equation and its Applications
+        - '- Section: 4.3 Gibbs Free Energy:':
+            subsections:
+            - 4.3a Definition and Significance of Gibbs Free Energy
+            - 4.3b Gibbs Free Energy Change in Chemical Reactions
+            - 4.3c Gibbs Phase Rule and its Implications
+        - '- Section: 4.4 Entropy Content in Materials:':
+            subsections:
+            - 4.4a Entropy Calculation for Pure Substances
+            - 4.4b Entropy Calculation for Mixtures
+            - 4.4c Entropy Change in Phase Transitions
+        - '- Section: 4.5 Conditions of Equilibrium:':
+            subsections:
+            - 4.5a Thermodynamic Equilibrium and its Criteria
+            - 4.5b Equilibrium in Chemical Reactions
+            - 4.5c Phase Equilibrium and Phase Rule
+        - '- Section: 4.6 Describing the State of an Alloy:':
+            subsections:
+            - 4.6a Composition and Microstructure of Alloys
+            - 4.6b Phase Diagrams and Equilibrium Phases in Alloys
+            - 4.6c Alloying Elements and their Effects
+        - '- Section: 4.7 Generalized Conditions for Equilibrium:':
+            subsections:
+            - 4.7a Chemical Potential and its Importance
+            - 4.7b Activity and Activity Coefficient
+            - 4.7c Equilibrium Constant and its Calculation
+        - '- Section: 4.8 The Chemical Potential:':
+            subsections:
+            - 4.8a Definition and Significance of Chemical Potential
+            - 4.8b Chemical Potential in Pure Substances
+            - 4.8c Chemical Potential in Mixtures and Solutions
+    - '- Chapter 5: Mathematics of Thermodynamics:':
+        sections:
+        - '- Section: 5.1 Mathematical Relations and Changing Variables:':
+            subsections:
+            - 5.1a Mathematical Formulations of Thermodynamic Equations
+            - 5.1b Transformation of Variables in Thermodynamic Equations
+            - 5.1c Legendre Transform and its Applications
+        - '- Section: 5.2 Mathematics and Stability:':
+            subsections:
+            - 5.2a Stability Criteria for Thermodynamic Systems
+            - 5.2b Mathematical Analysis of Stability Conditions
+            - 5.2c Instability and Phase Transitions
+        - '- Section: 5.3 Implications of Equilibrium and Gibbs-Duhem:':
+            subsections:
+            - 5.3a Gibbs-Duhem Equation and its Significance
+            - 5.3b Constraints on Thermodynamic Systems at Equilibrium
+            - 5.3c Equilibrium Thermodynamics and Phase Diagrams
+        - '- Section: 5.4 Symmetry and Equilibrium:':
+            subsections:
+            - 5.4a Symmetry Operations in Thermodynamics
+            - 5.4b Symmetry and its Relation to Equilibrium
+            - 5.4c Broken Symmetry and Phase Transitions
+        - '- Section: 5.5 The Gibbs Phase Rule and its Application:':
+            subsections:
+            - 5.5a Gibbs Phase Rule and its Derivation
+            - 5.5b Applications of Gibbs Phase Rule in Phase Diagrams
+            - 5.5c Limitations and Extensions of Gibbs Phase Rule
+    - '- Chapter 6: Phase Diagrams:':
+        sections:
+        - '- Section: 6.1 Gibbs Free Energy and Phase Diagrams:':
+            subsections:
+            - 6.1a Gibbs Free Energy and its Role in Phase Diagrams
+            - 6.1b Construction and Interpretation of Phase Diagrams
+            - 6.1c Binary, Ternary, and Multicomponent Phase Diagrams
+        - '- Section: 6.2 Uniformity of Chemical Potential at Equilibrium:':
+            subsections:
+            - 6.2a Chemical Potential and its Equality at Equilibrium
+            - 6.2b Chemical Potential Gradient and Driving Force
+            - 6.2c Equilibrium Conditions in Heterogeneous Systems
+        - '- Section: 6.3 Important Geometrical Constructions:':
+            subsections:
+            - 6.3a Lever Rule and its Applications
+            - 6.3b Tie Lines and Phase Fractions in Phase Diagrams
+            - 6.3c Isothermal and Vertical Sections in Phase Diagrams
+        - '- Section: 6.4 Phase Diagrams:':
+            subsections:
+            - 6.4a Types and Representation of Phase Diagrams
+            - 6.4b Eutectic, Peritectic, and Eutectoid Reactions
+            - 6.4c Solidification and Melting Behavior in Phase Diagrams
+        - '- Section: 6.5 Solution Thermodynamics:':
+            subsections:
+            - 6.5a Ideal and Non-Ideal Solution Behavior
+            - 6.5b Regular Solution Model and its Parameters
+            - 6.5c Thermodynamic Properties of Solutions
+        - '- Section: 6.6 Unstable Solutions:':
+            subsections:
+            - 6.6a Metastable Solutions and their Characteristics
+            - 6.6b Nucleation and Growth of Unstable Phases
+            - 6.6c Kinetics of Phase Transformations
+        - '- Section: 6.7 Equilibrium Conditions for Solid Solutions:':
+            subsections:
+            - 6.7a Solubility Limit and its Determination
+            - 6.7b Solid Solution Strengthening Mechanisms
+            - 6.7c Phase Transformation in Solid Solutions
+        - '- Section: 6.8 Equilibrium Conditions for Charged Species:':
+            subsections:
+            - 6.8a Electrochemical Equilibrium and its Principles
+            - 6.8b Nernst Equation and its Applications
+            - 6.8c Equilibrium Potentials and Redox Reactions
+        - '- Section: 6.9 Introduction to Surface Thermodynamics:':
+            subsections:
+            - 6.9a Surface Energy and Surface Tension
+            - 6.9b Gibbs Adsorption Equation and its Implications
+            - 6.9c Thermodynamics of Surfaces and Interfaces
+    - '- Chapter 7: Thermodynamics of Phase Transitions:':
+        sections:
+        - '- Section: 7.1 First Order Phase Transitions:':
+            subsections:
+            - 7.1a Definition and Characteristics of First Order Transitions
+            - 7.1b Thermodynamics of Melting and Freezing
+            - 7.1c Thermodynamics of Vaporization and Condensation
+        - '- Section: 7.2 Second Order Phase Transitions:':
+            subsections:
+            - 7.2a Definition and Characteristics of Second Order Transitions
+            - 7.2b Thermodynamics of Magnetic Transitions
+            - 7.2c Thermodynamics of Superconducting Transitions
+        - '- Section: 7.3 Phase Transitions in Binary Systems:':
+            subsections:
+            - 7.3a Thermodynamics of Mixing and Demixing
+            - 7.3b Thermodynamics of Solid Solution Formation
+            - 7.3c Thermodynamics of Eutectic and Peritectic Reactions
+        - '- Section: 7.4 Phase Transitions in Ternary Systems:':
+            subsections:
+            - 7.4a Thermodynamics of Ternary Phase Diagrams
+            - 7.4b Thermodynamics of Compound Formation
+            - 7.4c Thermodynamics of Liquid Immiscibility
+    - '- Chapter 8: Thermodynamics of Chemical Reactions:':
+        sections:
+        - '- Section: 8.1 Thermodynamics of Reaction Equilibrium:':
+            subsections:
+            - 8.1a Definition and Significance of Reaction Equilibrium
+            - 8.1b Thermodynamics of Reaction Equilibrium
+            - 8.1c Le Chatelier's Principle and its Applications
+        - '- Section: 8.2 Thermodynamics of Electrochemical Reactions:':
+            subsections:
+            - 8.2a Definition and Significance of Electrochemical Reactions
+            - 8.2b Thermodynamics of Electrochemical Reactions
+            - 8.2c Nernst Equation and its Applications
+        - '- Section: 8.3 Thermodynamics of Acid-Base Reactions:':
+            subsections:
+            - 8.3a Definition and Significance of Acid-Base Reactions
+            - 8.3b Thermodynamics of Acid-Base Reactions
+            - 8.3c pH, pOH, and the Ion Product of Water
+        - '- Section: 8.4 Thermodynamics of Redox Reactions:':
+            subsections:
+            - 8.4a Definition and Significance of Redox Reactions
+            - 8.4b Thermodynamics of Redox Reactions
+            - 8.4c Electrochemical Cells and Batteries
+    - '- Chapter 9: Thermodynamics of Surfaces and Interfaces:':
+        sections:
+        - '- Section: 9.1 Thermodynamics of Surface Tension:':
+            subsections:
+            - 9.1a Definition and Significance of Surface Tension
+            - 9.1b Thermodynamics of Surface Tension
+            - 9.1c Capillary Rise and the Young-Laplace Equation
+        - '- Section: 9.2 Thermodynamics of Wetting:':
+            subsections:
+            - 9.2a Definition and Significance of Wetting
+            - 9.2b Thermodynamics of Wetting
+            - 9.2c Contact Angle and the Young Equation
+        - '- Section: 9.3 Thermodynamics of Adsorption:':
+            subsections:
+            - 9.3a Definition and Significance of Adsorption
+            - 9.3b Thermodynamics of Adsorption
+            - 9.3c Langmuir and BET Adsorption Isotherms
+        - '- Section: 9.4 Thermodynamics of Surfactants:':
+            subsections:
+            - 9.4a Definition and Significance of Surfactants
+            - 9.4b Thermodynamics of Surfactants
+            - 9.4c Micelle Formation and the Critical Micelle Concentration
+    - '- Chapter 10: Thermodynamics of Biological Systems:':
+        sections:
+        - '- Section: 10.1 Thermodynamics of Metabolism:':
+            subsections:
+            - 10.1a Definition and Significance of Metabolism
+            - 10.1b Thermodynamics of Metabolism
+            - 10.1c ATP Hydrolysis and the Energy Currency of the Cell
+        - '- Section: 10.2 Thermodynamics of Enzyme Catalysis:':
+            subsections:
+            - 10.2a Definition and Significance of Enzyme Catalysis
+            - 10.2b Thermodynamics of Enzyme Catalysis
+            - 10.2c Enzyme Kinetics and the Michaelis-Menten Equation
+        - '- Section: 10.3 Thermodynamics of Membrane Transport:':
+            subsections:
+            - 10.3a Definition and Significance of Membrane Transport
+            - 10.3b Thermodynamics of Membrane Transport
+            - 10.3c Active Transport and the Sodium-Potassium Pump
+        - '- Section: 10.4 Thermodynamics of DNA Hybridization:':
+            subsections:
+            - 10.4a Definition and Significance of DNA Hybridization
+            - 10.4b Thermodynamics of DNA Hybridization
+            - 10.4c Melting Temperature and the Stability of DNA Duplexes
+    - '- Chapter 11: Thermodynamics of Nanoscale Systems:':
+        sections:
+        - '- Section: 11.1 Thermodynamics of Nanoparticles:':
+            subsections:
+            - 11.1a Definition and Significance of Nanoparticles
+            - 11.1b Thermodynamics of Nanoparticles
+            - 11.1c Size-Dependent Properties and the Gibbs-Thomson Effect
+        - '- Section: 11.2 Thermodynamics of Quantum Dots:':
+            subsections:
+            - 11.2a Definition and Significance of Quantum Dots
+            - 11.2b Thermodynamics of Quantum Dots
+            - 11.2c Quantum Confinement and the Size-Dependent Band Gap
+        - '- Section: 11.3 Thermodynamics of Carbon Nanotubes:':
+            subsections:
+            - 11.3a Definition and Significance of Carbon Nanotubes
+            - 11.3b Thermodynamics of Carbon Nanotubes
+            - 11.3c Electronic Properties and the Band Structure of Carbon Nanotubes
+        - '- Section: 11.4 Thermodynamics of Self-Assembly:':
+            subsections:
+            - 11.4a Definition and Significance of Self-Assembly
+            - 11.4b Thermodynamics of Self-Assembly
+            - 11.4c Supramolecular Chemistry and the Design of Functional Materials
+    - '- Chapter 12: Thermodynamics of Materials Processing:':
+        sections:
+        - '- Section: 12.1 Thermodynamics of Casting:':
+            subsections:
+            - 12.1a Definition and Significance of Casting
+            - 12.1b Thermodynamics of Casting
+            - 12.1c Solidification and the Formation of Microstructure
+        - '- Section: 12.2 Thermodynamics of Welding:':
+            subsections:
+            - 12.2a Definition and Significance of Welding
+            - 12.2b Thermodynamics of Welding
+            - 12.2c Heat Transfer and the Formation of Weld Microstructure
+        - '- Section: 12.3 Thermodynamics of Powder Metallurgy:':
+            subsections:
+            - 12.3a Definition and Significance of Powder Metallurgy
+            - 12.3b Thermodynamics of Powder Metallurgy
+            - 12.3c Sintering and the Formation of Porous Materials
+        - '- Section: 12.4 Thermodynamics of Additive Manufacturing:':
+            subsections:
+            - 12.4a Definition and Significance of Additive Manufacturing
+            - 12.4b Thermodynamics of Additive Manufacturing
+            - 12.4c Layer-by-Layer Fabrication and the Control of Microstructure
+    - '- Chapter 13: Thermodynamics of Energy Storage':
+        sections: []

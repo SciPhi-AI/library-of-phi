@@ -1,0 +1,188 @@
+textbook:
+  'Computing and Data Analysis for Environmental Applications":':
+    chapters:
+    - '- Chapter 1: Course Introduction and Logistics:':
+        sections:
+        - '- Section: 1.1 Repeated Trials:':
+            subsections:
+            - 1.1a Introduction to repeated trials
+            - 1.1b Designing and conducting repeated trials
+            - 1.1c Analyzing and interpreting repeated trials
+        - '- Section: 1.2 Virtual Experiments:':
+            subsections:
+            - 1.2a Introduction to virtual experiments
+            - 1.2b Designing and implementing virtual experiments
+            - 1.2c Analyzing and interpreting virtual experiments
+        - '- Section: 1.3 Probability:':
+            subsections:
+            - 1.3a Introduction to probability
+            - 1.3b Probability rules and concepts
+            - 1.3c Conditional probability
+            - 1.3d Probability distributions
+            - 1.3e Probability models for environmental applications
+        - '- Section: 1.4 Statistics:':
+            subsections:
+            - 1.4a Introduction to statistics
+            - 1.4b Descriptive statistics
+            - 1.4c Inferential statistics
+            - 1.4d Statistical analysis for environmental applications
+    - '- Chapter 2: Programming in MATLAB:':
+        sections:
+        - '- Section: 2.1 Downloading Data:':
+            subsections:
+            - 2.1a Introduction to downloading data
+            - 2.1b Data sources and formats
+            - 2.1c Data acquisition techniques
+        - '- Section: 2.2 Accessing MATLAB:':
+            subsections:
+            - 2.2a Introduction to accessing MATLAB
+            - 2.2b MATLAB installation and setup
+            - 2.2c MATLAB user interface and environment
+        - '- Section: 2.3 MATLAB Environment:':
+            subsections:
+            - 2.3a Introduction to the MATLAB environment
+            - 2.3b MATLAB variables and data types
+            - 2.3c MATLAB functions and scripts
+            - 2.3d MATLAB debugging and troubleshooting
+        - '- Section: 2.4 Variables:':
+            subsections:
+            - 2.4a Introduction to variables in MATLAB
+            - 2.4b Variable assignment and manipulation
+            - 2.4c Variable scope and lifetime
+            - 2.4d Variable naming conventions
+        - '- Section: 2.5 Arrays:':
+            subsections:
+            - 2.5a Introduction to arrays in MATLAB
+            - 2.5b Array creation and manipulation
+            - 2.5c Array indexing and slicing
+            - 2.5d Array operations and functions
+        - '- Section: 2.6 Scripts:':
+            subsections:
+            - 2.6a Introduction to scripts in MATLAB
+            - 2.6b Script organization and structure
+            - 2.6c Script execution and debugging
+            - 2.6d Script optimization and efficiency
+        - '- Section: 2.7 Plotting Data:':
+            subsections:
+            - 2.7a Introduction to data visualization in MATLAB
+            - 2.7b Plotting basic 2D and 3D graphs
+            - 2.7c Adding labels, titles, and legends to plots
+            - 2.7d Customizing plot appearance and style
+    - '- Chapter 3: Descriptive Statistics:':
+        sections:
+        - '- Section: 3.1 Histograms:':
+            subsections:
+            - 3.1a Introduction to histograms
+            - 3.1b Histogram construction and interpretation
+            - 3.1c Histogram analysis and applications
+        - '- Section: 3.2 Percentiles:':
+            subsections:
+            - 3.2a Introduction to percentiles
+            - 3.2b Percentile calculation and interpretation
+            - 3.2c Percentile analysis and applications
+        - '- Section: 3.3 Mean:':
+            subsections:
+            - 3.3a Introduction to mean
+            - 3.3b Mean calculation and interpretation
+            - 3.3c Mean analysis and applications
+        - '- Section: 3.4 Median:':
+            subsections:
+            - 3.4a Introduction to median
+            - 3.4b Median calculation and interpretation
+            - 3.4c Median analysis and applications
+        - '- Section: 3.5 Variance:':
+            subsections:
+            - 3.5a Introduction to variance
+            - 3.5b Variance calculation and interpretation
+            - 3.5c Variance analysis and applications
+        - '- Section: 3.6 Characterizing Streamflow Data:':
+            subsections:
+            - 3.6a Introduction to streamflow data
+            - 3.6b Streamflow data collection and analysis
+            - 3.6c Streamflow data modeling and prediction
+    - '- Chapter 4: Probability:':
+        sections:
+        - '- Section: 4.1 Experiments:':
+            subsections:
+            - 4.1a Introduction to experiments
+            - 4.1b Designing and conducting experiments
+            - 4.1c Analyzing and interpreting experimental data
+        - '- Section: 4.2 Outcomes:':
+            subsections:
+            - 4.2a Introduction to outcomes in probability
+            - 4.2b Outcome classification and enumeration
+            - 4.2c Outcome analysis and applications
+        - '- Section: 4.3 Sample Spaces:':
+            subsections:
+            - 4.3a Introduction to sample spaces
+            - 4.3b Sample space representation and notation
+            - 4.3c Sample space analysis and applications
+        - '- Section: 4.4 Events:':
+            subsections:
+            - 4.4a Introduction to events in probability
+            - 4.4b Event classification and notation
+            - 4.4c Event analysis and applications
+        - '- Section: 4.5 Probability:':
+            subsections:
+            - 4.5a Introduction to probability
+            - 4.5b Probability axioms and rules
+            - 4.5c Probability calculation and interpretation
+            - 4.5d Probability analysis and applications
+        - '- Section: 4.6 Axioms of Probability:':
+            subsections:
+            - 4.6a Introduction to axioms of probability
+            - 4.6b Axioms derivation and justification
+            - 4.6c Axioms application and implications
+        - '- Section: 4.7 Methods for Assigning Probabilities:':
+            subsections:
+            - 4.7a Introduction to methods for assigning probabilities
+            - 4.7b Classical, relative frequency, and subjective approaches
+            - 4.7c Probability assignment techniques and guidelines
+            - 4.7d Probability assignment analysis and applications
+    - '- Chapter 5: MATLAB Operations:':
+        sections:
+        - '- Section: 5.1 Internal MATLAB Functions:':
+            subsections:
+            - 5.1a Introduction to internal MATLAB functions
+            - 5.1b Built-in functions and libraries in MATLAB
+            - 5.1c Function documentation and usage
+            - 5.1d Function customization and extension
+        - '- Section: 5.2 Common MATLAB Operations:':
+            subsections:
+            - 5.2a Introduction to common MATLAB operations
+            - 5.2b Arithmetic, logical, and relational operations
+            - 5.2c Matrix and array operations
+            - 5.2d String and character operations
+        - '- Section: 5.3 Element-wise Computations:':
+            subsections:
+            - 5.3a Introduction to element-wise computations in MATLAB
+            - 5.3b Element-wise operations and functions
+            - 5.3c Element-wise matrix and array operations
+            - 5.3d Element-wise computation analysis and applications
+        - '- Section: 5.4 Loops:':
+            subsections:
+            - 5.4a Introduction to loops in MATLAB
+            - 5.4b For, while, and nested loops
+            - 5.4c Loop control statements and techniques
+            - 5.4d Loop optimization and efficiency
+        - '- Section: 5.5 Translating Equations to Programs:':
+            subsections:
+            - 5.5a Introduction to translating equations to programs
+            - 5.5b Equation representation and notation
+            - 5.5c Equation implementation and execution
+            - 5.5d Equation analysis and applications
+    - '- Chapter 6: Joint Probability, Independence, Repeated Trials:':
+        sections:
+        - '- Section: 6.1 Joint Probability:':
+            subsections:
+            - 6.1a Introduction to joint probability
+            - 6.1b Joint probability calculation and interpretation
+            - 6.1c Joint probability analysis and applications
+        - '- Section: 6.2 Independent Events:':
+            subsections:
+            - 6.2a Introduction to independent events
+            - 6.2b Independence criteria and verification
+            - 6.2c Independent event analysis and applications
+        - '- Section: 6.3 Repeated Trials:':
+            subsections:
+            - '6.'

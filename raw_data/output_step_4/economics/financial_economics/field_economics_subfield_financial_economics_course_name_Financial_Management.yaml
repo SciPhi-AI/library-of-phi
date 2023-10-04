@@ -1,0 +1,202 @@
+textbook:
+  'Financial Management Textbook":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 What is Finance?':
+            subsections: []
+        - '- Section: 1.2 Types of Questions':
+            subsections: []
+    - '- Chapter 2: Principles of Valuation:':
+        sections:
+        - '- Section: 2.1 Introduction to Valuation':
+            subsections: []
+        - '- Section: 2.2 Principles of Valuation':
+            subsections:
+            - 2.2a Understanding Cash Flows
+            - 2.2b Time Value of Money
+    - '- Chapter 3: Evaluating Projects:':
+        sections:
+        - '- Section: 3.1 Evaluating Projects (1)':
+            subsections: []
+        - '- Section: 3.2 ''Acid Rain: The Southern Co.''':
+            subsections: []
+        - '- Section: 3.3 Evaluating Projects (2)':
+            subsections:
+            - 3.3a Net Present Value (NPV) Method
+            - 3.3b Internal Rate of Return (IRR) Method
+            - 3.3c Payback Period Method
+            - 3.3d Profitability Index Method
+    - '- Chapter 4: Firm Valuation:':
+        sections:
+        - '- Section: 4.1 Firm Valuation (1)':
+            subsections: []
+        - '- Section: 4.2 Firm Valuation (2)':
+            subsections: []
+        - '- Section: 4.3 Cooper Industries, Inc.':
+            subsections:
+            - 4.3a Dividend Discount Model (DDM)
+            - 4.3b Price/Earnings (P/E) Ratio
+            - 4.3c Free Cash Flow (FCF) Valuation
+    - '- Chapter 5: Risk and Return:':
+        sections:
+        - '- Section: 5.1 Introduction to Risk and Return':
+            subsections: []
+        - '- Section: 5.2 Portfolio Theory':
+            subsections: []
+        - '- Section: 5.3 CAPM':
+            subsections: []
+        - '- Section: 5.4 Discount Rates in Practice':
+            subsections: []
+        - '- Section: 5.5 Cost of Capital at Ameritrade':
+            subsections:
+            - 5.5a Standard Deviation and Variance
+            - 5.5b Covariance and Correlation
+            - 5.5c Diversification and Risk Reduction
+            - 5.5d Beta and Systematic Risk
+    - '- Chapter 6: Raising Capital:':
+        sections:
+        - '- Section: 6.1 Raising Capital':
+            subsections: []
+        - '- Section: 6.2 Capital Structure':
+            subsections: []
+        - '- Section: 6.3 Two Cases':
+            subsections:
+            - 6.3a Debt Financing
+            - 6.3b Equity Financing
+            - 6.3c Weighted Average Cost of Capital (WACC)
+    - '- Chapter 7: Market Efficiency:':
+        sections:
+        - '- Section: 7.1 Market Efficiency':
+            subsections:
+            - 7.1a Efficient Market Hypothesis (EMH)
+            - 7.1b Weak Form Efficiency
+            - 7.1c Semi-Strong Form Efficiency
+            - 7.1d Strong Form Efficiency
+    - '- Chapter 8: Discounting:':
+        sections:
+        - '- Section: 8.1 Discounting':
+            subsections:
+            - 8.1a Present Value (PV)
+            - 8.1b Future Value (FV)
+            - 8.1c Discounted Cash Flow (DCF)
+            - 8.1d Discounted Payback Period
+    - '- Chapter 9: Project Cashflows:':
+        sections:
+        - '- Section: 9.1 Project Cashflows':
+            subsections:
+            - 9.1a Incremental Cash Flows
+            - 9.1b Sunk Costs and Opportunity Costs
+            - 9.1c Pro Forma Cash Flows
+            - 9.1d Terminal Cash Flow
+    - '- Chapter 10: Statistics of Risk and Return:':
+        sections:
+        - '- Section: 10.1 Statistics of Risk and Return':
+            subsections:
+            - 10.1a Expected Return
+            - 10.1b Variance and Standard Deviation
+            - 10.1c Covariance and Correlation Coefficient
+            - 10.1d Coefficient of Determination
+    - '- Chapter 11: Leverage and Risk:':
+        sections:
+        - '- Section: 11.1 Leverage and Risk':
+            subsections:
+            - 11.1a Operating Leverage
+            - 11.1b Financial Leverage
+            - 11.1c Combined Leverage
+            - 11.1d Break-Even Analysis
+    - '- Chapter 12: Review:':
+        sections:
+        - '- Section: 12.1 Review':
+            subsections:
+            - 12.1a Conceptual Questions
+            - 12.1b Numerical Problems
+            - 12.1c Case Studies
+    - '- Chapter 13: Financial Analysis:':
+        sections:
+        - '- Section: 13.1 Financial Statement Analysis':
+            subsections: []
+        - '- Section: 13.2 Ratio Analysis':
+            subsections: []
+        - '- Section: 13.3 Cash Flow Analysis':
+            subsections:
+            - 13.3a Operating Cash Flow
+            - 13.3b Investing Cash Flow
+            - 13.3c Financing Cash Flow
+    - '- Chapter 14: Capital Budgeting:':
+        sections:
+        - '- Section: 14.1 Capital Budgeting Process':
+            subsections: []
+        - '- Section: 14.2 Capital Budgeting Techniques':
+            subsections: []
+        - '- Section: 14.3 Risk Analysis in Capital Budgeting':
+            subsections:
+            - 14.3a Sensitivity Analysis
+            - 14.3b Scenario Analysis
+            - 14.3c Monte Carlo Simulation
+    - '- Chapter 15: Working Capital Management:':
+        sections:
+        - '- Section: 15.1 Working Capital Policy':
+            subsections: []
+        - '- Section: 15.2 Cash Management':
+            subsections: []
+        - '- Section: 15.3 Inventory Management':
+            subsections:
+            - 15.3a Economic Order Quantity (EOQ)
+            - 15.3b Just-In-Time (JIT) Inventory System
+            - 15.3c Safety Stock
+    - '- Chapter 16: Dividend Policy:':
+        sections:
+        - '- Section: 16.1 Dividend Policy Decisions':
+            subsections: []
+        - '- Section: 16.2 Dividend Policy Theories':
+            subsections: []
+        - '- Section: 16.3 Stock Dividends and Stock Splits':
+            subsections:
+            - 16.3a Stock Dividends
+            - 16.3b Stock Splits
+            - 16.3c Stock Repurchases
+    - '- Chapter 17: Mergers and Acquisitions:':
+        sections:
+        - '- Section: 17.1 Types of Mergers and Acquisitions':
+            subsections: []
+        - '- Section: 17.2 Valuation in Mergers and Acquisitions':
+            subsections: []
+        - '- Section: 17.3 Financing Mergers and Acquisitions':
+            subsections:
+            - 17.3a Cash Purchase
+            - 17.3b Stock Swap
+            - 17.3c Leveraged Buyout (LBO)
+    - '- Chapter 18: International Financial Management:':
+        sections:
+        - '- Section: 18.1 Foreign Exchange Market':
+            subsections: []
+        - '- Section: 18.2 Exchange Rate Risk Management':
+            subsections: []
+        - '- Section: 18.3 International Capital Budgeting':
+            subsections:
+            - 18.3a Adjusted Present Value (APV) Method
+            - 18.3b International Cost of Capital
+            - 18.3c Political Risk Analysis
+    - '- Chapter 19: Financial Derivatives:':
+        sections:
+        - '- Section: 19.1 Options':
+            subsections: []
+        - '- Section: 19.2 Futures and Forwards':
+            subsections: []
+        - '- Section: 19.3 Swaps':
+            subsections:
+            - 19.3a Interest Rate Swaps
+            - 19.3b Currency Swaps
+            - 19.3c Commodity Swaps
+    - '- Chapter 20: Financial Planning and Forecasting:':
+        sections:
+        - '- Section: 20.1 Financial Planning Process':
+            subsections: []
+        - '- Section: 20.2 Financial Forecasting Techniques':
+            subsections: []
+        - '- Section: 20.3 Budgeting':
+            subsections:
+            - 20.3a Operating Budget
+            - 20.3b Cash Budget
+            - 20.3c Capital Budget

@@ -1,0 +1,351 @@
+textbook:
+  'Compressible Fluid Dynamics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Compressible Fluid Dynamics:':
+        sections:
+        - '- Section: 1.1 Mass Conservation:':
+            subsections:
+            - 1.1a Definition and Importance of Mass Conservation
+            - 1.1b Continuity Equation
+            - 1.1c Conservation of Mass in Compressible Flows
+        - '- Section: 1.2 Euler''s Equation:':
+            subsections:
+            - 1.2a Derivation and Significance of Euler's Equation
+            - 1.2b Sound Speed in Compressible Flows
+            - 1.2c Mach Number and Its Interpretation
+    - '- Chapter 2: Thermodynamic Properties of Compressible Fluids:':
+        sections:
+        - '- Section: 2.1 Ideal Gases:':
+            subsections:
+            - 2.1a Definition and Assumptions of Ideal Gases
+            - 2.1b Gas Law Equations for Ideal Gases
+            - 2.1c Specific Heat Ratios
+        - '- Section: 2.2 Steady Isentropic Flow:':
+            subsections:
+            - 2.2a Isentropic Process and Its Characteristics
+            - 2.2b Isentropic Flow Equations
+            - 2.2c Isentropic Flow in Nozzles and Diffusers
+        - '- Section: 2.3 Stagnation State:':
+            subsections:
+            - 2.3a Concept of Stagnation State and Its Importance
+            - 2.3b Stagnation Properties and Their Calculations
+            - 2.3c Applications of Stagnation State in Compressible Flows
+    - '- Chapter 3: Compressible Flow in Variable Area Ducts:':
+        sections:
+        - '- Section: 3.1 Continuity Equation:':
+            subsections:
+            - 3.1a Derivation and Significance of Continuity Equation
+            - 3.1b Conservation of Mass in Variable Area Ducts
+            - 3.1c Mass Flow Rate Calculations in Variable Area Ducts
+        - '- Section: 3.2 Variable Area Flow:':
+            subsections:
+            - 3.2a Flow Behavior and Equations in Variable Area Ducts
+            - 3.2b Applications of Variable Area Flow in Engineering Systems
+        - '- Section: 3.3 Choked Flow:':
+            subsections:
+            - 3.3a Definition and Characteristics of Choked Flow
+            - 3.3b Choked Flow Conditions and Calculations
+            - 3.3c Choked Flow in Nozzles and Diffusers
+        - '- Section: 3.4 Subsonic Nozzles:':
+            subsections:
+            - 3.4a Flow Behavior and Equations in Subsonic Nozzles
+            - 3.4b Design Considerations for Subsonic Nozzles
+        - '- Section: 3.5 Supersonic Nozzles:':
+            subsections:
+            - 3.5a Flow Behavior and Equations in Supersonic Nozzles
+            - 3.5b Design Considerations for Supersonic Nozzles
+        - '- Section: 3.6 Restrictors:':
+            subsections:
+            - 3.6a Types and Applications of Restrictors in Compressible Flows
+            - 3.6b Flow Behavior and Calculations in Restrictors
+    - '- Chapter 4: Energy Equation and Flow with Heat Addition:':
+        sections:
+        - '- Section: 4.1 Conservation of Energy:':
+            subsections:
+            - 4.1a Derivation and Significance of Conservation of Energy Equation
+            - 4.1b Internal Energy and Enthalpy Changes in Compressible Flows
+            - 4.1c Energy Transfer Mechanisms in Compressible Flows
+        - '- Section: 4.2 Entropy Equation:':
+            subsections:
+            - 4.2a Definition and Importance of Entropy in Compressible Flows
+            - 4.2b Entropy Changes in Isentropic and Non-Isentropic Flows
+            - 4.2c Entropy Generation and its Impact on Compressible Flows
+        - '- Section: 4.3 Flow with Friction:':
+            subsections:
+            - 4.3a Effect of Friction on Compressible Flows
+            - 4.3b Darcy-Weisbach Equation and Friction Factor Calculations
+            - 4.3c Applications of Flow with Friction in Engineering Systems
+        - '- Section: 4.4 Fanno Line:':
+            subsections:
+            - 4.4a Concept of Fanno Line and its Significance
+            - 4.4b Fanno Flow Equations and Analysis
+            - 4.4c Applications of Fanno Line in Compressible Flows
+    - '- Chapter 5: Shock Waves and Shock Wave Interactions:':
+        sections:
+        - '- Section: 5.1 Hugoniot Relation:':
+            subsections:
+            - 5.1a Derivation and Interpretation of Hugoniot Relation
+            - 5.1b Hugoniot Equations for Different Types of Shocks
+            - 5.1c Applications of Hugoniot Relation in Shock Wave Analysis
+        - '- Section: 5.2 Normal Shocks:':
+            subsections:
+            - 5.2a Definition and Characteristics of Normal Shocks
+            - 5.2b Normal Shock Equations and Analysis
+            - 5.2c Applications of Normal Shocks in Engineering Systems
+        - '- Section: 5.3 Moving Shocks:':
+            subsections:
+            - 5.3a Behavior and Equations of Moving Shocks
+            - 5.3b Shock Tube Experiments and Applications
+        - '- Section: 5.4 Weak Shocks:':
+            subsections:
+            - 5.4a Definition and Characteristics of Weak Shocks
+            - 5.4b Weak Shock Equations and Analysis
+            - 5.4c Applications of Weak Shocks in Compressible Flows
+        - '- Section: 5.5 Strong Shocks:':
+            subsections:
+            - 5.5a Definition and Characteristics of Strong Shocks
+            - 5.5b Strong Shock Equations and Analysis
+            - 5.5c Applications of Strong Shocks in Shock Wave Research
+        - '- Section: 5.6 Oblique Shocks:':
+            subsections:
+            - 5.6a Definition and Behavior of Oblique Shocks
+            - 5.6b Oblique Shock Equations and Analysis
+            - 5.6c Applications of Oblique Shocks in Compressible Flows
+        - '- Section: 5.7 Continuum Shock Wave Structure:':
+            subsections:
+            - 5.7a Structure and Properties of Continuum Shock Waves
+            - 5.7b Shock Wave Reflection and Interaction Phenomena
+            - 5.7c Applications of Continuum Shock Wave Structure in Engineering
+    - '- Chapter 6: Advanced Topics in Compressible Fluid Dynamics:':
+        sections:
+        - '- Section: 6.1 Piston Problems:':
+            subsections:
+            - 6.1a Analysis and Solutions of Piston Problems in Compressible Flows
+            - 6.1b Shock Wave Generation by Piston Motion
+        - '- Section: 6.2 Boundary Interactions:':
+            subsections:
+            - 6.2a Shock Wave Reflection and Interaction with Solid Boundaries
+            - 6.2b Shock Wave Interactions with Inhomogeneous Media
+        - '- Section: 6.3 Shock Tubes:':
+            subsections:
+            - 6.3a Design and Operation of Shock Tubes
+            - 6.3b Shock Tube Experiments and Applications in Compressible Flows
+        - '- Section: 6.4 Steady 2D Supersonic Flows:':
+            subsections:
+            - 6.4a Concepts and Characteristics of Steady 2D Supersonic Flows
+            - 6.4b Mach Waves and Their Properties in Supersonic Flows
+            - 6.4c Prandtl-Meyer Function and Its Applications
+            - 6.4d Expansion Fans in Supersonic Flows
+            - 7.1a Guidelines for Term Paper Presentations
+            - 7.1b Evaluation Criteria for Term Paper Presentations
+    - '- Chapter 7: Term Paper Presentations:':
+        sections: []
+    - '- Chapter 8: Compressible Flow in Pipes:':
+        sections:
+        - '- Section: 8.1 Flow Regimes:':
+            subsections:
+            - 8.1a Laminar Flow in Pipes
+            - 8.1b Turbulent Flow in Pipes
+            - 8.1c Transition from Laminar to Turbulent Flow
+        - '- Section: 8.2 Pipe Flow Equations:':
+            subsections:
+            - 8.2a Continuity Equation for Pipe Flow
+            - 8.2b Momentum Equation for Pipe Flow
+            - 8.2c Energy Equation for Pipe Flow
+        - '- Section: 8.3 Pipe Flow Analysis:':
+            subsections:
+            - 8.3a Pressure Drop Calculations
+            - 8.3b Flow Rate Calculations
+            - 8.3c Pipe Sizing
+    - '- Chapter 9: Compressible Flow in Open Channels:':
+        sections:
+        - '- Section: 9.1 Open Channel Flow Regimes:':
+            subsections:
+            - 9.1a Subcritical Flow
+            - 9.1b Supercritical Flow
+            - 9.1c Critical Flow
+        - '- Section: 9.2 Open Channel Flow Equations:':
+            subsections:
+            - 9.2a Continuity Equation for Open Channel Flow
+            - 9.2b Momentum Equation for Open Channel Flow
+            - 9.2c Energy Equation for Open Channel Flow
+        - '- Section: 9.3 Open Channel Flow Analysis:':
+            subsections:
+            - 9.3a Hydraulic Jump
+            - 9.3b Flow over Weirs
+            - 9.3c Flow under Sluice Gates
+    - '- Chapter 10: Compressible Flow in Turbomachinery:':
+        sections:
+        - '- Section: 10.1 Turbomachinery Types:':
+            subsections:
+            - 10.1a Pumps
+            - 10.1b Turbines
+            - 10.1c Compressors
+        - '- Section: 10.2 Turbomachinery Equations:':
+            subsections:
+            - 10.2a Continuity Equation for Turbomachinery
+            - 10.2b Momentum Equation for Turbomachinery
+            - 10.2c Energy Equation for Turbomachinery
+        - '- Section: 10.3 Turbomachinery Analysis:':
+            subsections:
+            - 10.3a Performance Curves
+            - 10.3b Efficiency Calculations
+            - 10.3c Cavitation
+    - '- Chapter 11: Compressible Flow in Jets:':
+        sections:
+        - '- Section: 11.1 Jet Types:':
+            subsections:
+            - 11.1a Free Jets
+            - 11.1b Impinging Jets
+            - 11.1c Jet Diffusion Flames
+        - '- Section: 11.2 Jet Equations:':
+            subsections:
+            - 11.2a Continuity Equation for Jets
+            - 11.2b Momentum Equation for Jets
+            - 11.2c Energy Equation for Jets
+        - '- Section: 11.3 Jet Analysis:':
+            subsections:
+            - 11.3a Jet Spreading Rate
+            - 11.3b Jet Mixing
+            - 11.3c Jet Noise
+    - '- Chapter 12: Compressible Flow in Rocket Propulsion:':
+        sections:
+        - '- Section: 12.1 Rocket Types:':
+            subsections:
+            - 12.1a Solid Rockets
+            - 12.1b Liquid Rockets
+            - 12.1c Hybrid Rockets
+        - '- Section: 12.2 Rocket Equations:':
+            subsections:
+            - 12.2a Continuity Equation for Rockets
+            - 12.2b Momentum Equation for Rockets
+            - 12.2c Energy Equation for Rockets
+        - '- Section: 12.3 Rocket Analysis:':
+            subsections:
+            - 12.3a Thrust Calculations
+            - 12.3b Specific Impulse
+            - 12.3c Rocket Performance
+    - '- Chapter 13: Compressible Flow in Gas Turbines:':
+        sections:
+        - '- Section: 13.1 Gas Turbine Types:':
+            subsections:
+            - 13.1a Jet Engines
+            - 13.1b Industrial Gas Turbines
+            - 13.1c Marine Gas Turbines
+        - '- Section: 13.2 Gas Turbine Equations:':
+            subsections:
+            - 13.2a Continuity Equation for Gas Turbines
+            - 13.2b Momentum Equation for Gas Turbines
+            - 13.2c Energy Equation for Gas Turbines
+        - '- Section: 13.3 Gas Turbine Analysis:':
+            subsections:
+            - 13.3a Performance Curves
+            - 13.3b Efficiency Calculations
+            - 13.3c Gas Turbine Cycles
+    - '- Chapter 14: Compressible Flow in Wind Turbines:':
+        sections:
+        - '- Section: 14.1 Wind Turbine Types:':
+            subsections:
+            - 14.1a Horizontal Axis Wind Turbines
+            - 14.1b Vertical Axis Wind Turbines
+            - 14.1c Offshore Wind Turbines
+        - '- Section: 14.2 Wind Turbine Equations:':
+            subsections:
+            - 14.2a Continuity Equation for Wind Turbines
+            - 14.2b Momentum Equation for Wind Turbines
+            - 14.2c Energy Equation for Wind Turbines
+        - '- Section: 14.3 Wind Turbine Analysis:':
+            subsections:
+            - 14.3a Performance Curves
+            - 14.3b Efficiency Calculations
+            - 14.3c Wind Turbine Siting
+    - '- Chapter 15: Compressible Flow in Aircraft Propulsion:':
+        sections:
+        - '- Section: 15.1 Aircraft Propulsion Types:':
+            subsections:
+            - 15.1a Piston Engines
+            - 15.1b Turboprop Engines
+            - 15.1c Jet Engines
+        - '- Section: 15.2 Aircraft Propulsion Equations:':
+            subsections:
+            - 15.2a Continuity Equation for Aircraft Propulsion
+            - 15.2b Momentum Equation for Aircraft Propulsion
+            - 15.2c Energy Equation for Aircraft Propulsion
+        - '- Section: 15.3 Aircraft Propulsion Analysis:':
+            subsections:
+            - 15.3a Performance Curves
+            - 15.3b Efficiency Calculations
+            - 15.3c Aircraft Propulsion Systems
+    - '- Chapter 16: Compressible Flow in Hydraulic Systems:':
+        sections:
+        - '- Section: 16.1 Hydraulic System Types:':
+            subsections:
+            - 16.1a Open Hydraulic Systems
+            - 16.1b Closed Hydraulic Systems
+            - 16.1c Hydraulic Power Packs
+        - '- Section: 16.2 Hydraulic System Equations:':
+            subsections:
+            - 16.2a Continuity Equation for Hydraulic Systems
+            - 16.2b Momentum Equation for Hydraulic Systems
+            - 16.2c Energy Equation for Hydraulic Systems
+        - '- Section: 16.3 Hydraulic System Analysis:':
+            subsections:
+            - 16.3a Performance Curves
+            - 16.3b Efficiency Calculations
+            - 16.3c Hydraulic System Design
+    - '- Chapter 17: Compressible Flow in Pneumatic Systems:':
+        sections:
+        - '- Section: 17.1 Pneumatic System Types:':
+            subsections:
+            - 17.1a Open Pneumatic Systems
+            - 17.1b Closed Pneumatic Systems
+            - 17.1c Pneumatic Power Packs
+        - '- Section: 17.2 Pneumatic System Equations:':
+            subsections:
+            - 17.2a Continuity Equation for Pneumatic Systems
+            - 17.2b Momentum Equation for Pneumatic Systems
+            - 17.2c Energy Equation for Pneumatic Systems
+        - '- Section: 17.3 Pneumatic System Analysis:':
+            subsections:
+            - 17.3a Performance Curves
+            - 17.3b Efficiency Calculations
+            - 17.3c Pneumatic System Design
+    - '- Chapter 18: Compressible Flow in HVAC Systems:':
+        sections:
+        - '- Section: 18.1 HVAC System Types:':
+            subsections:
+            - 18.1a Residential HVAC Systems
+            - 18.1b Commercial HVAC Systems
+            - 18.1c Industrial HVAC Systems
+        - '- Section: 18.2 HVAC System Equations:':
+            subsections:
+            - 18.2a Continuity Equation for HVAC Systems
+            - 18.2b Momentum Equation for HVAC Systems
+            - 18.2c Energy Equation for HVAC Systems
+        - '- Section: 18.3 HVAC System Analysis:':
+            subsections:
+            - 18.3a Performance Curves
+            - 18.3b Efficiency Calculations
+            - 18.3c HVAC System Design
+    - '- Chapter 19: Compressible Flow in Power Plants:':
+        sections:
+        - '- Section: 19.1 Power Plant Types:':
+            subsections:
+            - 19.1a Coal-Fired Power Plants
+            - 19.1b Natural Gas Power Plants
+            - 19.1c Nuclear Power Plants
+        - '- Section: 19.2 Power Plant Equations:':
+            subsections:
+            - 19.2a Continuity Equation for Power Plants
+            - 19.2b Momentum Equation for Power Plants
+            - 19.2c Energy Equation for Power Plants
+        - '- Section: 19.3 Power Plant Analysis:':
+            subsections:
+            - 19.3a Performance Curves
+            - 19.3b Efficiency Calculations
+            - 19.3c Power Plant Design
+    - '- Chapter 20: Compressible Flow in Environmental Systems:':
+        sections:
+        - '- Section: 20.1 Environmental System Types:':
+            subsections:
+            - 20.1a Air Pollution

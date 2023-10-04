@@ -1,0 +1,325 @@
+textbook:
+  'Electromagnetics: Theory and Applications":':
+    chapters:
+    - '- Chapter 1: Review of Vector and Integral Calculus:':
+        sections:
+        - '- Section: 1.1 Cartesian Coordinate System:':
+            subsections:
+            - 1.1a Introduction to Cartesian Coordinate System
+            - 1.1b Applications of Cartesian Coordinate System
+            - 1.1c Limitations of Cartesian Coordinate System
+        - '- Section: 1.2 Cylindrical Coordinate System:':
+            subsections:
+            - 1.2a Introduction to Cylindrical Coordinate System
+            - 1.2b Applications of Cylindrical Coordinate System
+            - 1.2c Limitations of Cylindrical Coordinate System
+        - '- Section: 1.3 Spherical Coordinate System:':
+            subsections:
+            - 1.3a Introduction to Spherical Coordinate System
+            - 1.3b Applications of Spherical Coordinate System
+            - 1.3c Limitations of Spherical Coordinate System
+        - '- Section: 1.4 Complex Notation:':
+            subsections:
+            - 1.4a Introduction to Complex Notation
+            - 1.4b Applications of Complex Notation
+            - 1.4c Limitations of Complex Notation
+        - '- Section: 1.5 Gradient, Curl, and Divergence:':
+            subsections:
+            - 1.5a Introduction to Gradient, Curl, and Divergence
+            - 1.5b Applications of Gradient, Curl, and Divergence
+            - 1.5c Limitations of Gradient, Curl, and Divergence
+    - "- Chapter 2: Gauss\u2019 and Ampere\u2019s Laws:":
+        sections:
+        - '- Section: 2.1 Superposition:':
+            subsections:
+            - 2.1a Introduction to Superposition
+            - 2.1b Applications of Superposition
+            - 2.1c Limitations of Superposition
+        - '- Section: 2.2 Integral Forms:':
+            subsections:
+            - 2.2a Introduction to Integral Forms
+            - 2.2b Applications of Integral Forms
+            - 2.2c Limitations of Integral Forms
+        - '- Section: 2.3 Volume Charge Density:':
+            subsections:
+            - 2.3a Introduction to Volume Charge Density
+            - 2.3b Applications of Volume Charge Density
+            - 2.3c Limitations of Volume Charge Density
+        - '- Section: 2.4 Volume Current Density:':
+            subsections:
+            - 2.4a Introduction to Volume Current Density
+            - 2.4b Applications of Volume Current Density
+            - 2.4c Limitations of Volume Current Density
+    - '- Chapter 3: Boundary Conditions:':
+        sections:
+        - '- Section: 3.1 Derivation:':
+            subsections:
+            - 3.1a Introduction to Derivation
+            - 3.1b Applications of Derivation
+            - 3.1c Limitations of Derivation
+        - '- Section: 3.2 Surface Charge Problems:':
+            subsections:
+            - 3.2a Introduction to Surface Charge Problems
+            - 3.2b Solutions to Surface Charge Problems
+            - 3.2c Limitations of Surface Charge Problems
+        - '- Section: 3.3 Surface Current Problems:':
+            subsections:
+            - 3.3a Introduction to Surface Current Problems
+            - 3.3b Solutions to Surface Current Problems
+            - 3.3c Limitations of Surface Current Problems
+        - '- Section: 3.4 Perfectly Conducting Sphere or Cylinder:':
+            subsections:
+            - 3.4a Introduction to Perfectly Conducting Sphere or Cylinder
+            - 3.4b Applications of Perfectly Conducting Sphere or Cylinder
+            - 3.4c Limitations of Perfectly Conducting Sphere or Cylinder
+    - "- Chapter 4: Maxwell\u2019s Equations in Differential Form:":
+        sections:
+        - '- Section: 4.1 Surface and Volume Charged Layers:':
+            subsections:
+            - 4.1a Introduction to Surface and Volume Charged Layers
+            - 4.1b Applications of Surface and Volume Charged Layers
+            - 4.1c Limitations of Surface and Volume Charged Layers
+        - '- Section: 4.2 Current Carrying Planar Layer:':
+            subsections:
+            - 4.2a Introduction to Current Carrying Planar Layer
+            - 4.2b Applications of Current Carrying Planar Layer
+            - 4.2c Limitations of Current Carrying Planar Layer
+        - '- Section: 4.3 Cylinder and Sphere:':
+            subsections:
+            - 4.3a Introduction to Cylinder and Sphere
+            - 4.3b Applications of Cylinder and Sphere
+            - 4.3c Limitations of Cylinder and Sphere
+    - '- Chapter 5: Electric Field and Potential:':
+        sections:
+        - "- Section: 5.1 Poisson\u2019s and Laplace\u2019s Equations:":
+            subsections:
+            - "5.1a Introduction to Poisson\u2019s and Laplace\u2019s Equations"
+            - "5.1b Applications of Poisson\u2019s and Laplace\u2019s Equations"
+            - "5.1c Limitations of Poisson\u2019s and Laplace\u2019s Equations"
+        - '- Section: 5.2 Potential of Point Charge:':
+            subsections:
+            - 5.2a Introduction to Potential of Point Charge
+            - 5.2b Applications of Potential of Point Charge
+            - 5.2c Limitations of Potential of Point Charge
+        - '- Section: 5.3 Coulomb Superposition Integral:':
+            subsections:
+            - 5.3a Introduction to Coulomb Superposition Integral
+            - 5.3b Applications of Coulomb Superposition Integral
+            - 5.3c Limitations of Coulomb Superposition Integral
+    - '- Chapter 6: Electric Dipole:':
+        sections:
+        - '- Section: 6.1 Method of Images:':
+            subsections:
+            - 6.1a Introduction to Method of Images
+            - 6.1b Applications of Method of Images
+            - 6.1c Limitations of Method of Images
+        - '- Section: 6.2 Plane, Cylinder, and Sphere Problems:':
+            subsections:
+            - 6.2a Introduction to Plane, Cylinder, and Sphere Problems
+            - 6.2b Solutions to Plane, Cylinder, and Sphere Problems
+            - 6.2c Limitations of Plane, Cylinder, and Sphere Problems
+    - '- Chapter 7: Conservation of Charge:':
+        sections:
+        - '- Section: 7.1 Maxwell Capacitor:':
+            subsections:
+            - 7.1a Introduction to Maxwell Capacitor
+            - 7.1b Applications of Maxwell Capacitor
+            - 7.1c Limitations of Maxwell Capacitor
+        - '- Section: 7.2 Magnetic Dipoles and Circuits:':
+            subsections:
+            - 7.2a Introduction to Magnetic Dipoles and Circuits
+            - 7.2b Applications of Magnetic Dipoles and Circuits
+            - 7.2c Limitations of Magnetic Dipoles and Circuits
+        - '- Section: 7.3 Reluctance:':
+            subsections:
+            - 7.3a Introduction to Reluctance
+            - 7.3b Applications of Reluctance
+            - 7.3c Limitations of Reluctance
+    - "- Chapter 8: Wave Equation and Poynting\u2019s Theorem:":
+        sections:
+        - '- Section: 8.1 Oblique Incidence on Perfect Conductor:':
+            subsections:
+            - 8.1a Introduction to Oblique Incidence on Perfect Conductor
+            - 8.1b Applications of Oblique Incidence on Perfect Conductor
+            - 8.1c Limitations of Oblique Incidence on Perfect Conductor
+        - '- Section: 8.2 Transverse Magnetic:':
+            subsections:
+            - 8.2a Introduction to Transverse Magnetic
+            - 8.2b Applications of Transverse Magnetic
+            - 8.2c Limitations of Transverse Magnetic
+    - '- Chapter 9: Lasers and Optics:':
+        sections:
+        - '- Section: 9.1 Polarization by Reflection:':
+            subsections:
+            - 9.1a Introduction to Polarization by Reflection
+            - 9.1b Applications of Polarization by Reflection
+            - 9.1c Limitations of Polarization by Reflection
+        - '- Section: 9.2 Totally Reflecting Prisms:':
+            subsections:
+            - 9.2a Introduction to Totally Reflecting Prisms
+            - 9.2b Applications of Totally Reflecting Prisms
+            - 9.2c Limitations of Totally Reflecting Prisms
+        - '- Section: 9.3 Fiber Optics:':
+            subsections:
+            - 9.3a Introduction to Fiber Optics
+            - 9.3b Applications of Fiber Optics
+            - 9.3c Limitations of Fiber Optics
+    - '- Chapter 10: Transmission Line Sinusoidal Problems:':
+        sections:
+        - '- Section: 10.1 Short Circuit, Open Circuit, and Loaded Ends:':
+            subsections:
+            - 10.1a Introduction to Short Circuit, Open Circuit, and Loaded Ends
+            - 10.1b Applications of Short Circuit, Open Circuit, and Loaded Ends
+            - 10.1c Limitations of Short Circuit, Open Circuit, and Loaded Ends
+        - '- Section: 10.2 Approximations to Capacitors and Inductors:':
+            subsections:
+            - 10.2a Introduction to Approximations to Capacitors and Inductors
+            - 10.2b Applications of Approximations to Capacitors and Inductors
+            - 10.2c Limitations of Approximations to Capacitors and Inductors
+    - '- Chapter 11: Impedance and VSWR Problems:':
+        sections:
+        - '- Section: 11.1 Smith Chart:':
+            subsections:
+            - 11.1a Introduction to Smith Chart
+            - 11.1b Applications of Smith Chart
+            - 11.1c Limitations of Smith Chart
+        - '- Section: 11.2 Single-stub Tuner:':
+            subsections:
+            - 11.2a Introduction to Single-stub Tuner
+            - 11.2b Applications of Single-stub Tuner
+            - 11.2c Limitations of Single-stub Tuner
+    - '- Chapter 12: Reflections and Driven Problems:':
+        sections:
+        - '- Section: 12.1 Reflections from Ends:':
+            subsections:
+            - 12.1a Introduction to Reflections from Ends
+            - 12.1b Applications of Reflections from Ends
+            - 12.1c Limitations of Reflections from Ends
+        - '- Section: 12.2 Driven and Initial Value Problems:':
+            subsections:
+            - 12.2a Introduction to Driven and Initial Value Problems
+            - 12.2b Solutions to Driven and Initial Value Problems
+            - 12.2c Limitations of Driven and Initial Value Problems
+    - '- Chapter 13: Rectangular Waveguides:':
+        sections:
+        - '- Section: 13.1 TM and TE Modes:':
+            subsections:
+            - 13.1a Introduction to TM and TE Modes
+            - 13.1b Applications of TM and TE Modes
+            - 13.1c Limitations of TM and TE Modes
+        - '- Section: 13.2 Cut-off:':
+            subsections:
+            - 13.2a Introduction to Cut-off
+            - 13.2b Applications of Cut-off
+            - 13.2c Limitations of Cut-off
+    - '- Chapter 14: Cavity Resonators and Lasers:':
+        sections:
+        - '- Section: 14.1 Group and Phase Velocity:':
+            subsections:
+            - 14.1a Introduction to Group and Phase Velocity
+            - 14.1b Applications of Group and Phase Velocity
+            - 14.1c Limitations of Group and Phase Velocity
+        - '- Section: 14.2 Dispersion Relations:':
+            subsections:
+            - 14.2a Introduction to Dispersion Relations
+            - 14.2b Applications of Dispersion Relations
+            - 14.2c Limitations of Dispersion Relations
+        - '- Section: 14.3 Torque-speed Characteristics:':
+            subsections:
+            - 14.3a Introduction to Torque-speed Characteristics
+            - 14.3b Applications of Torque-speed Characteristics
+            - 14.3c Limitations of Torque-speed Characteristics
+    - '- Chapter 15: Force Problems in Capacitive and Inductive Systems:':
+        sections:
+        - '- Section: 15.1 Force Problems:':
+            subsections:
+            - 15.1a Introduction to Force Problems
+            - 15.1b Solutions to Force Problems
+            - 15.1c Limitations of Force Problems
+        - '- Section: 15.2 Capacitive Systems:':
+            subsections:
+            - 15.2a Introduction to Capacitive Systems
+            - 15.2b Applications of Capacitive Systems
+            - 15.2c Limitations of Capacitive Systems
+        - '- Section: 15.3 Inductive Systems:':
+            subsections:
+            - 15.3a Introduction to Inductive Systems
+            - 15.3b Applications of Inductive Systems
+            - 15.3c Limitations of Inductive Systems
+    - "- Chapter 16: Ohm\u2019s Law and Faraday\u2019s Disk:":
+        sections:
+        - "- Section: 16.1 Ohm\u2019s Law for Moving Media:":
+            subsections:
+            - "16.1a Introduction to Ohm\u2019s Law for Moving Media"
+            - "16.1b Applications of Ohm\u2019s Law for Moving Media"
+            - "16.1c Limitations of Ohm\u2019s Law for Moving Media"
+        - "- Section: 16.2 Faraday\u2019s Disk:":
+            subsections:
+            - "16.2a Introduction to Faraday\u2019s Disk"
+            - "16.2b Applications of Faraday\u2019s Disk"
+            - "16.2c Limitations of Faraday\u2019s Disk"
+    - '- Chapter 17: Radiation by Charges and Currents:':
+        sections:
+        - '- Section: 17.1 Setting the Gauge:':
+            subsections:
+            - 17.1a Introduction to Setting the Gauge
+            - 17.1b Applications of Setting the Gauge
+            - 17.1c Limitations of Setting the Gauge
+        - '- Section: 17.2 Lorentz Gauge:':
+            subsections:
+            - 17.2a Introduction to Lorentz Gauge
+            - 17.2b Applications of Lorentz Gauge
+            - 17.2c Limitations of Lorentz Gauge
+        - '- Section: 17.3 Superposition Integral Solutions:':
+            subsections:
+            - 17.3a Introduction to Superposition Integral Solutions
+            - 17.3b Applications of Superposition Integral Solutions
+            - 17.3c Limitations of Superposition Integral Solutions
+    - '- Chapter 18: Electric and Magnetic Fields from a Point Electric Dipole:':
+        sections:
+        - '- Section: 18.1 Far-Field Solution:':
+            subsections:
+            - 18.1a Introduction to Far-Field Solution
+            - 18.1b Applications of Far-Field Solution
+            - 18.1c Limitations of Far-Field Solution
+        - '- Section: 18.2 Radiation Resistance:':
+            subsections:
+            - 18.2a Introduction to Radiation Resistance
+            - 18.2b Applications of Radiation Resistance
+            - 18.2c Limitations of Radiation Resistance
+        - '- Section: 18.3 Effective Dipole Length:':
+            subsections:
+            - 18.3a Introduction to Effective Dipole Length
+            - 18.3b Applications of Effective Dipole Length
+            - 18.3c Limitations of Effective Dipole Length
+        - '- Section: 18.4 Antenna Gain:':
+            subsections:
+            - 18.4a Introduction to Antenna Gain
+            - 18.4b Applications of Antenna Gain
+            - 18.4c Limitations of Antenna Gain
+    - '- Chapter 19: Transmitting and Receiving Antennas:':
+        sections:
+        - '- Section: 19.1 Wireless and Optical Communications:':
+            subsections:
+            - 19.1a Introduction to Wireless and Optical Communications
+            - 19.1b Applications of Wireless and Optical Communications
+            - 19.1c Limitations of Wireless and Optical Communications
+    - '- Chapter 20: Acoustic Waves:':
+        sections:
+        - '- Section: 20.1 Acoustic Waves:':
+            subsections:
+            - 20.1a Introduction to Acoustic Waves
+            - 20.1b Applications of Acoustic Waves
+            - 20.1c Limitations of Acoustic Waves
+        - '- Section: 20.2 Acoustic Wave Boundary Value Problems:':
+            subsections:
+            - 20.2a Introduction to Acoustic Wave Boundary Value Problems
+            - 20.2b Solutions to Acoustic Wave Boundary Value Problems
+            - 20.2c Limitations of Acoustic Wave Boundary Value Problems
+    - '- Chapter 21: Course Review:':
+        sections:
+        - '- Section: 21.1 Review of Topics:':
+            subsections:
+            - 21.1a Introduction to Review of Topics
+            - 21.1b Applications of Review of Topics
+            - 21.1c Limitations of Review of Topics

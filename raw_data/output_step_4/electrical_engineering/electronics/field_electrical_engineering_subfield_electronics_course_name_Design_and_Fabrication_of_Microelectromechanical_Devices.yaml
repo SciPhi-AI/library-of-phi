@@ -1,0 +1,328 @@
+textbook:
+  'Design and Fabrication of Microelectromechanical Devices: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to MEMS:':
+        sections:
+        - '- Section: 1.1 Overview of MEMS Devices and Technologies:':
+            subsections:
+            - 1.1a Definition of MEMS
+            - 1.1b History of MEMS
+            - 1.1c Applications of MEMS
+        - '- Section: 1.2 Introduction to Design and Modeling:':
+            subsections:
+            - 1.2a MEMS Design Principles
+            - 1.2b MEMS Modeling Techniques
+            - 1.2c Simulation Tools for MEMS
+    - '- Chapter 2: Microfabrication for MEMS: Part I:':
+        sections:
+        - '- Section: 2.1 Standard Microelectronic Fabrication Technologies:':
+            subsections:
+            - 2.1a Photolithography
+            - 2.1b Etching Techniques
+            - 2.1c Deposition Techniques
+        - '- Section: 2.2 Bulk Micromachining:':
+            subsections:
+            - 2.2a Wet Etching
+            - 2.2b Dry Etching
+            - 2.2c Deep Reactive Ion Etching
+        - '- Section: 2.3 Surface Micromachining:':
+            subsections:
+            - 2.3a Sacrificial Layer Process
+            - 2.3b Multi-Layer Process
+            - 2.3c Applications of Surface Micromachining
+        - '- Section: 2.4 Bonding Technologies:':
+            subsections:
+            - 2.4a Anodic Bonding
+            - 2.4b Fusion Bonding
+            - 2.4c Adhesive Bonding
+        - '- Section: 2.5 Related Fabrication Methods:':
+            subsections:
+            - 2.5a LIGA Process
+            - 2.5b Micro Molding
+            - 2.5c Laser Micromachining
+        - '- Section: 2.6 Process Flows:':
+            subsections:
+            - 2.6a Sequential Process Flow
+            - 2.6b Parallel Process Flow
+            - 2.6c Hybrid Process Flow
+    - '- Chapter 3: Microfabrication for MEMS: Part II:':
+        sections:
+        - '- Section: 3.1 Materials and Material Properties:':
+            subsections:
+            - 3.1a Silicon as a MEMS Material
+            - 3.1b Polymers in MEMS
+            - 3.1c Metals in MEMS
+    - '- Chapter 4: Microfabrication for MEMS: Part III:':
+        sections:
+        - '- Section: 4.1 Elasticity:':
+            subsections:
+            - 4.1a Stress and Strain
+            - 4.1b Elastic Modulus
+            - 4.1c Applications in MEMS
+        - '- Section: 4.2 Electronics I:':
+            subsections:
+            - 4.2a Basic Electronic Components
+            - 4.2b MEMS and Electronics Integration
+            - 4.2c MEMS Packaging
+    - '- Chapter 5: Microfabrication for MEMS: Part IV; In-class fab problem:':
+        sections:
+        - '- Section: 5.1 Structures:':
+            subsections:
+            - 5.1a MEMS Structures
+            - 5.1b Fabrication of MEMS Structures
+            - 5.1c Characterization of MEMS Structures
+        - '- Section: 5.2 Electronics II:':
+            subsections:
+            - 5.2a Advanced Electronic Components
+            - 5.2b MEMS and Electronics Integration II
+            - 5.2c MEMS Packaging II
+    - '- Chapter 6: Fabrication for the Life Sciences:':
+        sections:
+        - '- Section: 6.1 Lumped-element Modeling:':
+            subsections:
+            - 6.1a Basics of Lumped-element Modeling
+            - 6.1b Applications in MEMS
+            - 6.1c Limitations of Lumped-element Modeling
+        - '- Section: 6.2 Energy-conserving Transducers:':
+            subsections:
+            - 6.2a Basics of Energy-conserving Transducers
+            - 6.2b Applications in MEMS
+            - 6.2c Design of Energy-conserving Transducers
+        - '- Section: 6.3 Dynamics, Especially Nonlinear:':
+            subsections:
+            - 6.3a Basics of Nonlinear Dynamics
+            - 6.3b Applications in MEMS
+            - 6.3c Modeling of Nonlinear Dynamics
+    - '- Chapter 7: Structures:':
+        sections:
+        - '- Section: 7.1 Structures Special Topics:':
+            subsections:
+            - 7.1a MEMS Resonators
+            - 7.1b MEMS Actuators
+            - 7.1c MEMS Sensors
+        - '- Section: 7.2 Thermal Energy Domain; Dissipation:':
+            subsections:
+            - 7.2a Basics of Thermal Energy in MEMS
+            - 7.2b Thermal Dissipation in MEMS
+            - 7.2c Modeling of Thermal Effects
+        - '- Section: 7.3 Modeling Dissipative Processes:':
+            subsections:
+            - 7.3a Basics of Dissipative Processes
+            - 7.3b Applications in MEMS
+            - 7.3c Modeling of Dissipative Processes
+    - '- Chapter 8: Fluids 1:':
+        sections:
+        - '- Section: 8.1 Fluids 2:':
+            subsections:
+            - 8.1a Basics of Fluid Mechanics in MEMS
+            - 8.1b Applications in MEMS
+            - 8.1c Modeling of Fluid Effects
+        - '- Section: 8.2 Transport:':
+            subsections:
+            - 8.2a Basics of Transport Phenomena
+            - 8.2b Applications in MEMS
+            - 8.2c Modeling of Transport Phenomena
+    - '- Chapter 9: Feedback:':
+        sections:
+        - '- Section: 9.1 Noise:':
+            subsections:
+            - 9.1a Basics of Noise in MEMS
+            - 9.1b Noise Sources in MEMS
+            - 9.1c Noise Reduction Techniques
+        - '- Section: 9.2 Packaging:':
+            subsections:
+            - 9.2a Basics of MEMS Packaging
+            - 9.2b Packaging Materials
+            - 9.2c Packaging Techniques
+    - '- Chapter 10: In-class Design Problem:':
+        sections:
+        - '- Section: 10.1 Design Tradeoffs:':
+            subsections:
+            - 10.1a Basics of Design Tradeoffs
+            - 10.1b Design Tradeoffs in MEMS
+            - 10.1c Case Studies
+        - '- Section: 10.2 Power MEMS Case Study:':
+            subsections:
+            - 10.2a Basics of Power MEMS
+            - 10.2b Design of Power MEMS
+            - 10.2c Case Study
+        - '- Section: 10.3 Optical MEMS Case Study:':
+            subsections:
+            - 10.3a Basics of Optical MEMS
+            - 10.3b Design of Optical MEMS
+            - 10.3c Case Study
+        - '- Section: 10.4 Capacitive Accelerometer Case Study:':
+            subsections:
+            - 10.4a Basics of Capacitive Accelerometers
+            - 10.4b Design of Capacitive Accelerometers
+            - 10.4c Case Study
+        - '- Section: 10.5 BioMEMS Case Study:':
+            subsections:
+            - 10.5a Basics of BioMEMS
+            - 10.5b Design of BioMEMS
+            - 10.5c Case Study
+    - '- Chapter 11: Final Presentations:':
+        sections:
+        - '- Section: 11.1 Report Guidelines:':
+            subsections:
+            - 11.1a Basics of Technical Reporting
+            - 11.1b Structure of the Final Report
+            - 11.1c Presentation Techniques
+        - '- Section: 11.2 Sample Projects:':
+            subsections:
+            - 11.2a Overview of Sample Projects
+            - 11.2b Analysis of Sample Projects
+            - 11.2c Lessons from Sample Projects
+    - '- Chapter 12: MEMS in Biomedical Applications:':
+        sections:
+        - '- Section: 12.1 Introduction to BioMEMS:':
+            subsections:
+            - 12.1a Basics of BioMEMS
+            - 12.1b Applications of BioMEMS
+            - 12.1c Challenges in BioMEMS
+        - '- Section: 12.2 Microfluidics:':
+            subsections:
+            - 12.2a Basics of Microfluidics
+            - 12.2b Applications of Microfluidics in BioMEMS
+            - 12.2c Design and Fabrication of Microfluidic Devices
+        - '- Section: 12.3 Lab-on-a-Chip Devices:':
+            subsections:
+            - 12.3a Basics of Lab-on-a-Chip Devices
+            - 12.3b Applications of Lab-on-a-Chip Devices
+            - 12.3c Design and Fabrication of Lab-on-a-Chip Devices
+    - '- Chapter 13: MEMS in Optical Applications:':
+        sections:
+        - '- Section: 13.1 Introduction to Optical MEMS:':
+            subsections:
+            - 13.1a Basics of Optical MEMS
+            - 13.1b Applications of Optical MEMS
+            - 13.1c Challenges in Optical MEMS
+        - '- Section: 13.2 Micro-mirrors:':
+            subsections:
+            - 13.2a Basics of Micro-mirrors
+            - 13.2b Applications of Micro-mirrors in Optical MEMS
+            - 13.2c Design and Fabrication of Micro-mirrors
+        - '- Section: 13.3 Optical Switches:':
+            subsections:
+            - 13.3a Basics of Optical Switches
+            - 13.3b Applications of Optical Switches in Optical MEMS
+            - 13.3c Design and Fabrication of Optical Switches
+    - '- Chapter 14: MEMS in Energy Harvesting:':
+        sections:
+        - '- Section: 14.1 Introduction to Energy Harvesting:':
+            subsections:
+            - 14.1a Basics of Energy Harvesting
+            - 14.1b Applications of Energy Harvesting in MEMS
+            - 14.1c Challenges in Energy Harvesting
+        - '- Section: 14.2 Piezoelectric Energy Harvesting:':
+            subsections:
+            - 14.2a Basics of Piezoelectric Energy Harvesting
+            - 14.2b Applications of Piezoelectric Energy Harvesting in MEMS
+            - 14.2c Design and Fabrication of Piezoelectric Energy Harvesters
+        - '- Section: 14.3 Thermoelectric Energy Harvesting:':
+            subsections:
+            - 14.3a Basics of Thermoelectric Energy Harvesting
+            - 14.3b Applications of Thermoelectric Energy Harvesting in MEMS
+            - 14.3c Design and Fabrication of Thermoelectric Energy Harvesters
+    - '- Chapter 15: MEMS in Sensing Applications:':
+        sections:
+        - '- Section: 15.1 Introduction to MEMS Sensors:':
+            subsections:
+            - 15.1a Basics of MEMS Sensors
+            - 15.1b Applications of MEMS Sensors
+            - 15.1c Challenges in MEMS Sensors
+        - '- Section: 15.2 Pressure Sensors:':
+            subsections:
+            - 15.2a Basics of Pressure Sensors
+            - 15.2b Applications of Pressure Sensors in MEMS
+            - 15.2c Design and Fabrication of Pressure Sensors
+        - '- Section: 15.3 Accelerometers:':
+            subsections:
+            - 15.3a Basics of Accelerometers
+            - 15.3b Applications of Accelerometers in MEMS
+            - 15.3c Design and Fabrication of Accelerometers
+    - '- Chapter 16: MEMS in Actuation Applications:':
+        sections:
+        - '- Section: 16.1 Introduction to MEMS Actuators:':
+            subsections:
+            - 16.1a Basics of MEMS Actuators
+            - 16.1b Applications of MEMS Actuators
+            - 16.1c Challenges in MEMS Actuators
+        - '- Section: 16.2 Microvalves:':
+            subsections:
+            - 16.2a Basics of Microvalves
+            - 16.2b Applications of Microvalves in MEMS
+            - 16.2c Design and Fabrication of Microvalves
+        - '- Section: 16.3 Micropumps:':
+            subsections:
+            - 16.3a Basics of Micropumps
+            - 16.3b Applications of Micropumps in MEMS
+            - 16.3c Design and Fabrication of Micropumps
+    - '- Chapter 17: MEMS in RF Applications:':
+        sections:
+        - '- Section: 17.1 Introduction to RF MEMS:':
+            subsections:
+            - 17.1a Basics of RF MEMS
+            - 17.1b Applications of RF MEMS
+            - 17.1c Challenges in RF MEMS
+        - '- Section: 17.2 RF Switches:':
+            subsections:
+            - 17.2a Basics of RF Switches
+            - 17.2b Applications of RF Switches in MEMS
+            - 17.2c Design and Fabrication of RF Switches
+        - '- Section: 17.3 RF Resonators:':
+            subsections:
+            - 17.3a Basics of RF Resonators
+            - 17.3b Applications of RF Resonators in MEMS
+            - 17.3c Design and Fabrication of RF Resonators
+    - '- Chapter 18: MEMS in Automotive Applications:':
+        sections:
+        - '- Section: 18.1 Introduction to Automotive MEMS:':
+            subsections:
+            - 18.1a Basics of Automotive MEMS
+            - 18.1b Applications of Automotive MEMS
+            - 18.1c Challenges in Automotive MEMS
+        - '- Section: 18.2 MEMS in Airbag Systems:':
+            subsections:
+            - 18.2a Basics of MEMS in Airbag Systems
+            - 18.2b Applications of MEMS in Airbag Systems
+            - 18.2c Design and Fabrication of MEMS for Airbag Systems
+        - '- Section: 18.3 MEMS in Tire Pressure Monitoring Systems:':
+            subsections:
+            - 18.3a Basics of MEMS in Tire Pressure Monitoring Systems
+            - 18.3b Applications of MEMS in Tire Pressure Monitoring Systems
+            - 18.3c Design and Fabrication of MEMS for Tire Pressure Monitoring Systems
+    - '- Chapter 19: MEMS in Aerospace Applications:':
+        sections:
+        - '- Section: 19.1 Introduction to Aerospace MEMS:':
+            subsections:
+            - 19.1a Basics of Aerospace MEMS
+            - 19.1b Applications of Aerospace MEMS
+            - 19.1c Challenges in Aerospace MEMS
+        - '- Section: 19.2 MEMS in Satellite Systems:':
+            subsections:
+            - 19.2a Basics of MEMS in Satellite Systems
+            - 19.2b Applications of MEMS in Satellite Systems
+            - 19.2c Design and Fabrication of MEMS for Satellite Systems
+        - '- Section: 19.3 MEMS in Navigation Systems:':
+            subsections:
+            - 19.3a Basics of MEMS in Navigation Systems
+            - 19.3b Applications of MEMS in Navigation Systems
+            - 19.3c Design and Fabrication of MEMS for Navigation Systems
+    - '- Chapter 20: MEMS in Consumer Electronics:':
+        sections:
+        - '- Section: 20.1 Introduction to Consumer Electronics MEMS:':
+            subsections:
+            - 20.1a Basics of Consumer Electronics MEMS
+            - 20.1b Applications of Consumer Electronics MEMS
+            - 20.1c Challenges in Consumer Electronics MEMS
+        - '- Section: 20.2 MEMS in Mobile Devices:':
+            subsections:
+            - 20.2a Basics of MEMS in Mobile Devices
+            - 20.2b Applications of MEMS in Mobile Devices
+            - 20.2c Design and Fabrication of MEMS for Mobile Devices
+        - '- Section: 20.3 MEMS in Gaming Systems:':
+            subsections:
+            - 20.3a Basics of MEMS in Gaming Systems
+            - 20.3b Applications of MEMS in Gaming Systems
+            - 20.3c Design and Fabrication of MEMS for Gaming Systems

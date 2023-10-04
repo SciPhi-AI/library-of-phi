@@ -1,0 +1,199 @@
+textbook: 
+"Macroeconomics and International Economics: Theory and Applications":
+
+chapters:
+- Chapter 1: Introduction and the Money Multiplier:
+sections:
+- Section: 1.1 The Concept of Money Multiplier:
+subsections:
+- 1.1a Babysitters and Money Multiplier
+- 1.1b History of Money Multiplier
+- 1.1c Role of Money Multiplier in Economy
+
+- Chapter 2: Monetary Policy and Velocity Theory of Money:
+sections:
+- Section: 2.1 Monetary Policy and Its Impact on the Economy:
+subsections:
+- 2.1a Germany
+- 2.1b Zimbabwe
+- 2.1c Monetary Policy in Developed Countries
+- 2.1d Monetary Policy in Developing Countries
+
+- Chapter 3: The IS-LM Model:
+sections:
+- Section: 3.1 Understanding the IS-LM Model:
+subsections:
+- 3.1a Introduction to IS-LM Model
+- 3.1b IS-LM Model in Open Economy
+- 3.1c IS-LM Model in Closed Economy
+- Section: 3.2 Applications of the IS-LM Model:
+subsections:
+- 3.2a Fiscal Policy and Its Role in the Great Depression
+- 3.2b Monetary Policy and IS-LM Model
+- 3.2c IS-LM Model and Economic Stability
+
+- Chapter 4: AD-AS and Long Run Adjustment:
+sections:
+- Section: 4.1 Aggregate Demand and Aggregate Supply:
+subsections:
+- 4.1a Connection to Inflation
+- 4.1b Shifts in AD-AS Model
+- 4.1c Long Run Adjustment in AD-AS Model
+
+- Chapter 5: Central Bank Accounting:
+sections:
+- Section: 5.1 Overview of Central Bank Accounting:
+subsections:
+- 5.1a Role of Central Bank in Economy
+- 5.1b Central Bank Balance Sheet
+- 5.1c Central Bank and Monetary Policy
+
+- Chapter 6: World through Inflation:
+sections:
+- Section: 6.1 Understanding Inflation:
+subsections:
+- 6.1a Causes of Inflation
+- 6.1b Effects of Inflation
+- 6.1c Inflation and Central Bank
+
+- Chapter 7: Banking Crisis and Accounting:
+sections:
+- Section: 7.1 Reasons for Banking Crisis:
+subsections:
+- 7.1a Causes of Banking Crisis
+- 7.1b Banking Crisis and Financial Stability
+- 7.1c Banking Crisis and Central Bank
+- Section: 7.2 Consequences of Banking Crisis:
+subsections:
+- 7.2a Effects of Banking Crisis on the Economy
+- 7.2b Banking Crisis and Unemployment
+- 7.2c Banking Crisis and Inflation
+
+- Chapter 8: Theories of Nominal Exchange Rates:
+sections:
+- Section: 8.1 Short-run Theories of Exchange Rates:
+subsections:
+- 8.1a Factors Affecting Short-run Exchange Rates
+- 8.1b Exchange Rate and Trade Balance
+- 8.1c Exchange Rate and Interest Rate
+- Section: 8.2 Long-run Theories of Exchange Rates:
+subsections:
+- 8.2a Factors Affecting Long-run Exchange Rates
+- 8.2b Exchange Rate and Economic Growth
+- 8.2c Exchange Rate and Inflation
+
+- Chapter 9: Fiscal Currency Crises:
+sections:
+- Section: 9.1 Causes of Fiscal Currency Crises:
+subsections:
+- 9.1a Factors Leading to Fiscal Currency Crises
+- 9.1b Fiscal Currency Crises and Economic Stability
+- 9.1c Fiscal Currency Crises and Exchange Rate
+- Section: 9.2 Solutions to Fiscal Currency Crises:
+subsections:
+- 9.2a Strategies to Overcome Fiscal Currency Crises
+- 9.2b Role of Central Bank in Fiscal Currency Crises
+- 9.2c Fiscal Currency Crises and Monetary Policy
+
+- Chapter 10: Self-fulfilling Currency Crises:
+sections:
+- Section: 10.1 Factors Leading to Self-fulfilling Currency Crises:
+subsections:
+- 10.1a Causes and Consequences of Self-fulfilling Currency Crises
+- 10.1b Self-fulfilling Currency Crises and Economic Stability
+- 10.1c Self-fulfilling Currency Crises and Exchange Rate
+
+- Chapter 11: Exchange-rate Regimes:
+sections:
+- Section: 11.1 Overview of Exchange-rate Regimes:
+subsections:
+- 11.1a Different Types of Exchange-rate Regimes
+- 11.1b Exchange-rate Regimes and Economic Stability
+- 11.1c Exchange-rate Regimes and Trade Balance
+
+- Chapter 12: Capital Controls and Unemployment:
+sections:
+- Section: 12.1 The Relationship between Capital Controls and Unemployment:
+subsections:
+- 12.1a Unholy Trinity: Capital Controls, Exchange-rate Regimes, and Unemployment
+- 12.1b Capital Controls and Economic Growth
+- 12.1c Capital Controls and Inflation
+
+- Chapter 13: US Financial Crisis:
+sections:
+- Section: 13.1 Causes of the US Financial Crisis:
+subsections:
+- 13.1a Factors Leading to the US Financial Crisis
+- 13.1b US Financial Crisis and Global Economy
+- 13.1c US Financial Crisis and Unemployment
+- Section: 13.2 Implications of the US Financial Crisis:
+subsections:
+- 13.2a Effects of the US Financial Crisis on the Global Economy
+- 13.2b US Financial Crisis and Inflation
+- 13.2c US Financial Crisis and Exchange Rate
+
+- Chapter 14: Debate 1: The International Role of the Dollar:
+sections:
+- Section: 14.1 Arguments for the International Role of the Dollar:
+subsections:
+- 14.1a Dollar as a Reserve Currency
+- 14.1b Dollar and Global Trade
+- 14.1c Dollar and Financial Stability
+- Section: 14.2 Arguments against the International Role of the Dollar:
+subsections:
+- 14.2a Dollar and Global Imbalances
+- 14.2b Dollar and Financial Crises
+- 14.2c Dollar and Exchange Rate Volatility
+
+- Chapter 15: Debate 2: The Euro:
+sections:
+- Section: 15.1 Pros of the Euro:
+subsections:
+- 15.1a Euro and Economic Integration
+- 15.1b Euro and Trade Balance
+- 15.1c Euro and Financial Stability
+- Section: 15.2 Cons of the Euro:
+subsections:
+- 15.2a Euro and Sovereign Debt Crisis
+- 15.2b Euro and Unemployment
+- 15.2c Euro and Inflation
+
+- Chapter 16: Introduction to Development Economics:
+sections:
+- Section: 16.1 Overview of Development Economics:
+subsections:
+- 16.1a Role of Development Economics
+- 16.1b Development Economics and Poverty Reduction
+- 16.1c Development Economics and Economic Growth
+
+- Chapter 17: International Trade and Development:
+sections:
+- Section: 17.1 Role of International Trade in Development:
+subsections:
+- 17.1a Trade Liberalization and Economic Growth
+- 17.1b Trade Barriers and Economic Development
+- 17.1c Trade and Poverty Reduction
+
+- Chapter 18: Financial Markets and Development:
+sections:
+- Section: 18.1 Role of Financial Markets in Development:
+subsections:
+- 18.1a Financial Markets and Economic Growth
+- 18.1b Financial Markets and Poverty Reduction
+- 18.1c Financial Markets and Inequality
+
+- Chapter 19: Role of Institutions in Development:
+sections:
+- Section: 19.1 Importance of Institutions in Development:
+subsections:
+- 19.1a Institutions and Economic Growth
+- 19.1b Institutions and Poverty Reduction
+- 19.1c Institutions and Inequality
+
+- Chapter 20: Role of Technology in Development:
+sections:
+- Section: 20.1 Importance of Technology in Development:
+subsections:
+- 20.1a Technology and Economic Growth
+- 20.1b Technology and Poverty Reduction
+- 20.1c Technology and Inequality

@@ -1,0 +1,213 @@
+textbook:
+  'Groundwater Hydrology: A Comprehensive Guide to Understanding the Flow of Groundwater":':
+    chapters:
+    - '- Chapter 1: Introduction to Groundwater Hydrology:':
+        sections:
+        - '- Section: 1.1 Course Introduction:':
+            subsections:
+            - 1.1a Overview of Groundwater Hydrology
+            - 1.1b Importance of Groundwater
+            - 1.1c Applications of Groundwater Hydrology
+        - '- Section: 1.2 Water Balance Equation:':
+            subsections:
+            - 1.2a Components of the Water Balance Equation
+            - 1.2b Recharge and Discharge Processes
+            - 1.2c Water Budget Analysis
+    - '- Chapter 2: Aquifers and Flow Properties:':
+        sections:
+        - '- Section: 2.1 Aquifers:':
+            subsections:
+            - 2.1a Types of Aquifers
+            - 2.1b Aquifer Properties and Characteristics
+            - 2.1c Aquifer Classification
+        - '- Section: 2.2 Porosity:':
+            subsections:
+            - 2.2a Definition and Types of Porosity
+            - 2.2b Porosity Measurement Methods
+            - 2.2c Factors Affecting Porosity
+        - '- Section: 2.3 Darcy''s Law:':
+            subsections:
+            - 2.3a Concept of Darcy's Law
+            - 2.3b Hydraulic Conductivity and Permeability
+            - 2.3c Applications of Darcy's Law in Groundwater Flow
+    - '- Chapter 3: Hydraulic Head and Fluid Potential:':
+        sections:
+        - '- Section: 3.1 Hydraulic Head:':
+            subsections:
+            - 3.1a Definition and Calculation of Hydraulic Head
+            - 3.1b Hydraulic Gradient and Groundwater Flow
+            - 3.1c Interpretation of Hydraulic Head Data
+        - '- Section: 3.2 Fluid Potential:':
+            subsections:
+            - 3.2a Definition and Types of Fluid Potential
+            - 3.2b Pressure-Head and Elevation-Head
+            - 3.2c Relationship between Hydraulic Head and Fluid Potential
+    - '- Chapter 4: Continuity and Flow Nets:':
+        sections:
+        - '- Section: 4.1 Continuity Equation:':
+            subsections:
+            - 4.1a Derivation and Application of the Continuity Equation
+            - 4.1b Conservation of Mass in Groundwater Flow
+            - 4.1c Constraints and Limitations of the Continuity Equation
+        - '- Section: 4.2 Flow Nets:':
+            subsections:
+            - 4.2a Construction and Interpretation of Flow Nets
+            - 4.2b Flow Paths and Flow Direction in Groundwater
+            - 4.2c Use of Flow Nets in Groundwater Analysis
+    - '- Chapter 5: Groundwater Flow Patterns:':
+        sections:
+        - '- Section: 5.1 Groundwater Flow Patterns:':
+            subsections:
+            - 5.1a Regional and Local Groundwater Flow Systems
+            - 5.1b Flow Patterns in Confined and Unconfined Aquifers
+            - 5.1c Factors Influencing Groundwater Flow Patterns
+    - '- Chapter 6: Groundwater/Surface Water Interactions:':
+        sections:
+        - '- Section: 6.1 Groundwater/Surface Water Interactions:':
+            subsections:
+            - 6.1a Types of Groundwater/Surface Water Interactions
+            - 6.1b Stream-Aquifer Interactions
+            - 6.1c Effects of Groundwater Pumping on Surface Water
+    - '- Chapter 7: Transient Systems and Groundwater Storage:':
+        sections:
+        - '- Section: 7.1 Transient Systems:':
+            subsections:
+            - 7.1a Definition and Characteristics of Transient Systems
+            - 7.1b Time-Varying Groundwater Flow and Storage
+            - 7.1c Analysis and Modeling of Transient Systems
+        - '- Section: 7.2 Groundwater Storage:':
+            subsections:
+            - 7.2a Concepts and Types of Groundwater Storage
+            - 7.2b Estimation and Measurement of Groundwater Storage
+            - 7.2c Impacts of Groundwater Storage on Water Availability
+    - '- Chapter 8: Pump Test Analysis:':
+        sections:
+        - '- Section: 8.1 Pump Test Analysis:':
+            subsections:
+            - 8.1a Purpose and Objective of Pump Test Analysis
+            - 8.1b Design and Conduct of Pump Tests
+            - 8.1c Interpretation and Analysis of Pump Test Data
+        - '- Section: 8.2 Well Efficiency and Specific Capacity:':
+            subsections:
+            - 8.2a Calculation and Interpretation of Well Efficiency
+            - 8.2b Factors Affecting Well Efficiency
+            - 8.2c Determination of Specific Capacity
+    - '- Chapter 9: Numerical Modeling of Groundwater Flow:':
+        sections:
+        - '- Section: 9.1 Numerical Modeling:':
+            subsections:
+            - 9.1a Introduction to Numerical Modeling in Groundwater
+            - 9.1b Finite Difference and Finite Element Methods
+            - 9.1c Application of Numerical Models in Groundwater Studies
+    - '- Chapter 10: Superposition:':
+        sections:
+        - '- Section: 10.1 Superposition:':
+            subsections:
+            - 10.1a Principle of Superposition in Groundwater
+            - 10.1b Superposition Techniques for Analyzing Groundwater Flow
+            - 10.1c Limitations and Assumptions of Superposition Methods
+        - '- Section: 10.2 Dupuit and Thiem Methods:':
+            subsections:
+            - 10.2a Overview of Dupuit and Thiem Methods
+            - 10.2b Applications of Dupuit and Thiem Methods in Groundwater Analysis
+    - '- Chapter 11: Solute Transport in Groundwater:':
+        sections:
+        - '- Section: 11.1 Solute Transport:':
+            subsections:
+            - 11.1a Advection, Dispersion, and Diffusion in Solute Transport
+            - 11.1b Contaminant Fate and Transport in Groundwater
+            - 11.1c Modeling Solute Transport in Groundwater
+        - '- Section: 11.2 Reactive Transport and Biogeochemical Processes:':
+            subsections:
+            - 11.2a Biogeochemical Reactions in Groundwater Systems
+            - 11.2b Contaminant Transformation and Removal Mechanisms
+            - 11.2c Reactive Transport Modeling Approaches
+    - '- Chapter 12: Soil Moisture I:':
+        sections:
+        - '- Section: 12.1 Soil Moisture I:':
+            subsections:
+            - 12.1a Introduction to Soil Moisture
+            - 12.1b Soil-Water Relationships and Properties
+            - 12.1c Measurement and Monitoring of Soil Moisture
+        - '- Section: 12.2 Soil Water Content and Retention:':
+            subsections:
+            - 12.2a Soil Water Content and Its Significance
+            - 12.2b Soil Moisture Retention and Release Curves
+            - 12.2c Factors Influencing Soil Water Retention
+    - '- Chapter 13: Soil Moisture II:':
+        sections:
+        - '- Section: 13.1 Soil Moisture II:':
+            subsections:
+            - 13.1a Soil Moisture Dynamics and Redistribution
+            - 13.1b Soil Water Balance and Water Budgeting
+            - 13.1c Soil Moisture Monitoring and Management
+    - '- Chapter 14: Natural Tracers:':
+        sections:
+        - '- Section: 14.1 Natural Tracers:':
+            subsections:
+            - 14.1a Types of Natural Tracers in Groundwater
+            - 14.1b Applications of Natural Tracers in Hydrological Studies
+            - 14.1c Isotope Tracers and Age Dating Techniques
+    - '- Chapter 15: Hydraulic Conductivity:':
+        sections:
+        - '- Section: 15.1 Hydraulic Conductivity:':
+            subsections:
+            - 15.1a Definition and Measurement of Hydraulic Conductivity
+            - 15.1b Factors Affecting Hydraulic Conductivity
+            - 15.1c Hydraulic Conductivity Variability and Heterogeneity
+        - '- Section: 15.2 Permeability and Groundwater Flow Rates:':
+            subsections:
+            - 15.2a Permeability and Its Relationship to Hydraulic Conductivity
+            - 15.2b Determination of Permeability in Groundwater Systems
+            - 15.2c Calculation of Groundwater Flow Rates Using Permeability
+    - '- Chapter 16: Groundwater Quality and Contamination:':
+        sections:
+        - '- Section: 16.1 Groundwater Quality:':
+            subsections:
+            - 16.1a Importance of Groundwater Quality
+            - 16.1b Factors Affecting Groundwater Quality
+            - 16.1c Groundwater Quality Monitoring and Assessment
+        - '- Section: 16.2 Groundwater Contamination:':
+            subsections:
+            - 16.2a Sources and Types of Groundwater Contamination
+            - 16.2b Impact of Contamination on Groundwater Quality
+            - 16.2c Remediation Techniques for Contaminated Groundwater
+    - '- Chapter 17: Groundwater Management and Sustainability:':
+        sections:
+        - '- Section: 17.1 Groundwater Management:':
+            subsections:
+            - 17.1a Importance of Groundwater Management
+            - 17.1b Groundwater Management Strategies
+            - 17.1c Challenges in Groundwater Management
+        - '- Section: 17.2 Groundwater Sustainability:':
+            subsections:
+            - 17.2a Concept of Groundwater Sustainability
+            - 17.2b Factors Affecting Groundwater Sustainability
+            - 17.2c Strategies for Sustainable Groundwater Use
+    - '- Chapter 18: Groundwater and Climate Change:':
+        sections:
+        - '- Section: 18.1 Impact of Climate Change on Groundwater:':
+            subsections:
+            - 18.1a Climate Change and Groundwater Recharge
+            - 18.1b Climate Change and Groundwater Quality
+            - 18.1c Adaptation Strategies for Groundwater Management under Climate
+              Change
+    - '- Chapter 19: Groundwater and Ecosystems:':
+        sections:
+        - '- Section: 19.1 Groundwater and Ecosystems:':
+            subsections:
+            - 19.1a Role of Groundwater in Ecosystem Functioning
+            - 19.1b Impact of Groundwater Extraction on Ecosystems
+            - 19.1c Strategies for Ecosystem Protection in Groundwater Management
+    - '- Chapter 20: Groundwater Law and Policy:':
+        sections:
+        - '- Section: 20.1 Groundwater Law:':
+            subsections:
+            - 20.1a Overview of Groundwater Law
+            - 20.1b Groundwater Rights and Allocation
+            - 20.1c Challenges in Groundwater Law Enforcement
+        - '- Section: 20.2 Groundwater Policy:':
+            subsections:
+            - 20.2a Importance of Groundwater Policy
+            - 20.2b Groundwater Policy Development and Implementation
+            - 20.2c Case Studies of Groundwater Policy

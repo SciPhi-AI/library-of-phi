@@ -1,0 +1,249 @@
+textbook:
+  'Comprehensive Guide to Computer Networks":':
+    chapters:
+    - '- Chapter 1: Introduction to Computer Networks:':
+        sections:
+        - '- Section: 1.1 Background Readings:':
+            subsections:
+            - 1.1a Introduction to Computer Networks
+        - '- Section: 1.2 Internetworking and Routing:':
+            subsections:
+            - 1.2a Packet Switching
+            - 1.2b The Internetworking Problem
+            - 1.2c Scaling IP
+        - '- Section: 1.3 Useful Tools:':
+            subsections:
+            - 1.3a Tutorial on useful tools
+    - '- Chapter 2: Unicast Internet Routing:':
+        sections:
+        - '- Section: 2.1 Intra- and Inter-Domain Routing:':
+            subsections:
+            - 2.1a Intra-Domain Routing
+            - 2.1b Inter-Domain Routing
+        - '- Section: 2.2 Internet Routing-in-the-Wild:':
+            subsections:
+            - 2.2a Internet Routing-in-the-Wild
+        - '- Section: 2.3 Intro to the ns2 Network Simulator:':
+            subsections:
+            - 2.3a Intro to the ns2 Network Simulator
+    - '- Chapter 3: Router Design and Implementation:':
+        sections:
+        - '- Section: 3.1 Router Design and Implementation:':
+            subsections:
+            - 3.1a Router Design Principles
+            - 3.1b Router Implementation Strategies
+    - '- Chapter 4: Security Problems with the Internet Architecture:':
+        sections:
+        - '- Section: 4.1 Security Problems with the Internet Architecture:':
+            subsections:
+            - 4.1a Threats to Internet Security
+            - 4.1b Security Measures and Countermeasures
+    - '- Chapter 5: IPv6: The Future of Internet Protocol:':
+        sections:
+        - '- Section: 5.1 Tutorial on IPv6:':
+            subsections:
+            - 5.1a Introduction to IPv6
+            - 5.1b IPv6 Addressing and Routing
+    - '- Chapter 6: Resource Management in Computer Networks:':
+        sections:
+        - '- Section: 6.1 End-to-End Congestion Control:':
+            subsections:
+            - 6.1a Congestion Control Algorithms
+            - 6.1b Quality of Service Guarantees
+        - '- Section: 6.2 Router-Assisted Congestion Control:':
+            subsections:
+            - 6.2a Traffic Shaping and Policing
+            - 6.2b Congestion Avoidance
+        - '- Section: 6.3 Fair Queuing and Variants:':
+            subsections:
+            - 6.3a Fair Queuing
+            - 6.3b Weighted Fair Queuing
+        - '- Section: 6.4 Modeling and Measurement-I: Packet Trains:':
+            subsections:
+            - 6.4a Packet Train Models
+            - 6.4b Measurement Techniques
+        - '- Section: 6.5 TCP Congestion Control Impediments:':
+            subsections:
+            - 6.5a TCP Congestion Control Algorithms
+            - 6.5b Factors Affecting TCP Performance
+        - '- Section: 6.6 Adaptive Network Applications:':
+            subsections:
+            - 6.6a Adaptive Multimedia Streaming
+            - 6.6b Adaptive Web Applications
+    - '- Chapter 7: Quiz 1 Review:':
+        sections:
+        - '- Section: 7.1 Quiz 1 Review:':
+            subsections:
+            - 7.1a Review of Key Concepts
+            - 7.1b Practice Questions and Solutions
+    - '- Chapter 8: Quiz 1: In Class:':
+        sections:
+        - '- Section: 8.1 Quiz 1: In Class:':
+            subsections:
+            - 8.1a Quiz Format and Guidelines
+            - 8.1b Sample Questions and Solutions
+    - '- Chapter 9: Project Meetings and Proposals:':
+        sections:
+        - '- Section: 9.1 Project Meetings:':
+            subsections:
+            - 9.1a Scheduling and Facilitating Project Meetings
+        - '- Section: 9.2 Project Proposals Due:':
+            subsections:
+            - 9.2a Writing Effective Project Proposals
+            - 9.2b Submission Guidelines
+        - '- Section: 9.3 Project Presentations:':
+            subsections:
+            - 9.3a Preparing and Delivering Project Presentations
+    - '- Chapter 10: Quality of Service in Computer Networks:':
+        sections:
+        - '- Section: 10.1 QoS-I: Why QoS; Basic Models and Architecture:':
+            subsections:
+            - 10.1a Introduction to Quality of Service
+            - 10.1b QoS Models and Architectures
+        - '- Section: 10.2 QoS-II: Mechanisms and Properties:':
+            subsections:
+            - 10.2a QoS Mechanisms and Techniques
+            - 10.2b QoS Properties and Metrics
+    - '- Chapter 11: Modeling and Measurement in Computer Networks:':
+        sections:
+        - '- Section: 11.1 Modeling and Measurement-II: Traffic Self-Similarity; Virus Propagation:':
+            subsections:
+            - 11.1a Traffic Self-Similarity Models
+            - 11.1b Virus Propagation Models
+    - '- Chapter 12: Communication and Network Services:':
+        sections:
+        - '- Section: 12.1 P2P Networks:':
+            subsections:
+            - 12.1a Introduction to Peer-to-Peer Networks
+            - 12.1b P2P File Sharing Systems
+        - '- Section: 12.2 Distributed Hash Table:':
+            subsections:
+            - 12.2a Distributed Hash Table Algorithms
+            - 12.2b DHT Applications and Use Cases
+        - '- Section: 12.3 Routing in Overlay Networks:':
+            subsections:
+            - 12.3a Overlay Routing Protocols
+            - 12.3b Overlay Network Construction
+        - '- Section: 12.4 DNS: Domain Name System:':
+            subsections:
+            - 12.4a DNS Fundamentals
+            - 12.4b DNS Resolution Process
+        - '- Section: 12.5 Wireless and Mobility: MAC Protocols, Routing:':
+            subsections:
+            - 12.5a Wireless MAC Protocols
+            - 12.5b Wireless Routing Algorithms
+        - '- Section: 12.6 Wireless Protocols: Data Transport and Sensor Data Dissemination:':
+            subsections:
+            - 12.6a Wireless Data Transport Protocols
+            - 12.6b Sensor Data Dissemination Techniques
+        - '- Section: 12.7 Anonymity in Computer Networks:':
+            subsections:
+            - 12.7a Anonymity Techniques and Tools
+            - 12.7b Privacy and Security Considerations
+        - '- Section: 12.8 Group Communication: Multicast Routing and Transport:':
+            subsections:
+            - 12.8a Multicast Routing Algorithms
+            - 12.8b Multicast Transport Protocols
+        - '- Section: 12.9 Multicast in Computer Networks:':
+            subsections:
+            - 12.9a Introduction to Multicast
+            - 12.9b IP Multicast Protocols and Applications
+    - '- Chapter 13: Quiz 2: In class:':
+        sections:
+        - '- Section: 13.1 Quiz 2: In class:':
+            subsections:
+            - 13.1a Quiz Format and Guidelines
+            - 13.1b Sample Questions and Solutions
+    - '- Chapter 14: Term Project:':
+        sections:
+        - '- Section: 14.1 Overview of Term Project:':
+            subsections:
+            - 14.1a Project Objectives and Scope
+        - '- Section: 14.2 Proposal Writing:':
+            subsections:
+            - 14.2a Writing Effective Project Proposals
+            - 14.2b Guidelines for Proposal Submission
+        - '- Section: 14.3 Project Suggestions:':
+            subsections:
+            - 14.3a List of Project Ideas and Topics
+        - '- Section: 14.4 Research Methodology:':
+            subsections:
+            - 14.4a Research Process and Methodologies
+            - 14.4b Data Collection and Analysis Techniques
+    - '- Chapter 15: Advanced Topics in Computer Networks:':
+        sections:
+        - '- Section: 15.1 Network Virtualization:':
+            subsections:
+            - 15.1a Introduction to Network Virtualization
+            - 15.1b Virtual Network Embedding
+        - '- Section: 15.2 Software Defined Networking:':
+            subsections:
+            - 15.2a Introduction to Software Defined Networking
+            - 15.2b OpenFlow and SDN Controllers
+        - '- Section: 15.3 Network Function Virtualization:':
+            subsections:
+            - 15.3a Introduction to Network Function Virtualization
+            - 15.3b NFV Infrastructure and Services
+    - '- Chapter 16: Network Security and Privacy:':
+        sections:
+        - '- Section: 16.1 Network Attacks and Defense Mechanisms:':
+            subsections:
+            - 16.1a Types of Network Attacks
+            - 16.1b Defense Mechanisms and Techniques
+        - '- Section: 16.2 Cryptography and Network Security:':
+            subsections:
+            - 16.2a Introduction to Cryptography
+            - 16.2b Cryptographic Algorithms and Protocols
+        - '- Section: 16.3 Privacy in Computer Networks:':
+            subsections:
+            - 16.3a Privacy Concerns in Computer Networks
+            - 16.3b Privacy Enhancing Technologies
+    - '- Chapter 17: Network Management and Operations:':
+        sections:
+        - '- Section: 17.1 Network Monitoring and Management:':
+            subsections:
+            - 17.1a Network Monitoring Tools and Techniques
+            - 17.1b Network Management Protocols
+        - '- Section: 17.2 Network Troubleshooting and Debugging:':
+            subsections:
+            - 17.2a Network Troubleshooting Techniques
+            - 17.2b Network Debugging Tools
+        - '- Section: 17.3 Network Operations and Maintenance:':
+            subsections:
+            - 17.3a Network Operations Best Practices
+            - 17.3b Network Maintenance and Upgrades
+    - '- Chapter 18: Internet of Things (IoT) and Edge Computing:':
+        sections:
+        - '- Section: 18.1 Introduction to IoT:':
+            subsections:
+            - 18.1a IoT Architecture and Protocols
+            - 18.1b IoT Applications and Use Cases
+        - '- Section: 18.2 Edge Computing:':
+            subsections:
+            - 18.2a Introduction to Edge Computing
+            - 18.2b Edge Computing Use Cases and Challenges
+    - '- Chapter 19: Network Performance Evaluation:':
+        sections:
+        - '- Section: 19.1 Network Performance Metrics:':
+            subsections:
+            - 19.1a Network Performance Metrics and KPIs
+            - 19.1b Network Performance Monitoring and Analysis
+        - '- Section: 19.2 Network Simulation and Emulation:':
+            subsections:
+            - 19.2a Network Simulation Tools
+            - 19.2b Network Emulation Techniques
+    - '- Chapter 20: Future Trends in Computer Networks:':
+        sections:
+        - '- Section: 20.1 Quantum Networking:':
+            subsections:
+            - 20.1a Introduction to Quantum Networking
+            - 20.1b Quantum Key Distribution and Quantum Internet
+        - '- Section: 20.2 5G and Beyond:':
+            subsections:
+            - 20.2a 5G Network Architecture and Technologies
+            - '20.2b Beyond 5G: Future of Wireless Networking'
+    - '- Chapter 21: Appendix: Glossary:':
+        sections:
+        - '- Section: 21.1 Glossary of Computer Networks Terms:':
+            subsections:
+            - 21.1a Glossary of Computer Networks Terms

@@ -1,0 +1,170 @@
+textbook:
+  'Comprehensive Guide to Stereocontrolled Organic Synthesis":':
+    chapters:
+    - '- Chapter 1: Strategies for Stereocontrolled Synthesis:':
+        sections:
+        - '- Section: 1.1 Strategies for Stereocontrolled Synthesis I:':
+            subsections:
+            - 1.1a Introduction to Stereochemistry and Its Importance in Synthesis
+            - 1.1b Chiral Pool and Auxiliary-Based Strategies
+            - 1.1c Asymmetric Induction and Desymmetrization Reactions
+            - 1.1d Stereoselective Transformations of Functional Groups
+            - 1.1e Enantioselective Catalysis and Asymmetric Organocatalysis
+            - 1.1f Stereoselective Transformations of Cyclic Compounds
+        - '- Section: 1.2 Strategies for Stereocontrolled Synthesis II:':
+            subsections:
+            - 1.2a Stereoselective Transformations of Alkenes and Alkynes
+            - 1.2b Stereoselective Transformations of Carbocycles and Heterocycles
+            - 1.2c Stereoselective Transformations of Cyclopropanes and Cyclobutanes
+            - 1.2d Stereoselective Transformations of Cyclopentanes and Cyclohexanes
+            - 1.2e Stereoselective Transformations of Cycloheptanes and Larger Rings
+        - '- Section: 1.3 Strategies for Stereocontrolled Synthesis III:':
+            subsections:
+            - 1.3a Stereoselective Transformations of Alcohols and Ethers
+            - 1.3b Stereoselective Transformations of Amines and Amides
+            - 1.3c Stereoselective Transformations of Aldehydes and Ketones
+            - 1.3d Stereoselective Transformations of Carboxylic Acids and Esters
+        - '- Section: 1.4 Strategies for Stereocontrolled Synthesis IV:':
+            subsections:
+            - 1.4a Stereoselective Transformations of Nitrogen-Containing Compounds
+            - 1.4b Stereoselective Transformations of Sulfur-Containing Compounds
+            - 1.4c Stereoselective Transformations of Phosphorus-Containing Compounds
+            - 1.4d Stereoselective Transformations of Silicon-Containing Compounds
+        - '- Section: 1.5 Strategies for Stereocontrolled Synthesis V:':
+            subsections:
+            - 1.5a Stereoselective Transformations of Halogen-Containing Compounds
+            - 1.5b Stereoselective Transformations of Oxygen-Containing Compounds
+            - 1.5c Stereoselective Transformations of Carbon-Containing Compounds
+            - 1.5d Stereoselective Transformations of Heteroatom-Containing Compounds
+        - '- Section: 1.6 Strategies for Stereocontrolled Synthesis VI:':
+            subsections:
+            - 1.6a Stereoselective Transformations of Natural Products
+            - 1.6b Stereoselective Transformations of Pharmaceuticals
+            - 1.6c Stereoselective Transformations of Agrochemicals
+            - 1.6d Stereoselective Transformations of Fragrances and Flavors
+    - '- Chapter 2: Stereocontrolled Alkylation:':
+        sections:
+        - '- Section: 2.1 Stereocontrolled Alkylation I:':
+            subsections:
+            - 2.1a Introduction to Stereoselective Alkylation Reactions
+            - 2.1b Alkylation of Alkenes and Alkynes
+            - 2.1c Alkylation of Carbocycles and Heterocycles
+            - 2.1d Alkylation of Cyclopropanes and Cyclobutanes
+            - 2.1e Alkylation of Cyclopentanes and Cyclohexanes
+            - 2.1f Alkylation of Cycloheptanes and Larger Rings
+        - '- Section: 2.2 Stereocontrolled Alkylation II:':
+            subsections:
+            - 2.2a Alkylation of Alcohols and Ethers
+            - 2.2b Alkylation of Amines and Amides
+            - 2.2c Alkylation of Aldehydes and Ketones
+            - 2.2d Alkylation of Carboxylic Acids and Esters
+        - '- Section: 2.3 Stereocontrolled Alkylation III:':
+            subsections:
+            - 2.3a Alkylation of Nitrogen-Containing Compounds
+            - 2.3b Alkylation of Sulfur-Containing Compounds
+            - 2.3c Alkylation of Phosphorus-Containing Compounds
+            - 2.3d Alkylation of Silicon-Containing Compounds
+    - '- Chapter 3: Stereocontrolled Conjugate Addition:':
+        sections:
+        - '- Section: 3.1 Stereocontrolled Conjugate Addition I:':
+            subsections:
+            - 3.1a Introduction to Stereoselective Conjugate Addition Reactions
+            - 3.1b Conjugate Addition to Alkenes and Alkynes
+            - 3.1c Conjugate Addition to Carbocycles and Heterocycles
+            - 3.1d Conjugate Addition to Cyclopropanes and Cyclobutanes
+            - 3.1e Conjugate Addition to Cyclopentanes and Cyclohexanes
+            - 3.1f Conjugate Addition to Cycloheptanes and Larger Rings
+        - '- Section: 3.2 Stereocontrolled Conjugate Addition II:':
+            subsections:
+            - 3.2a Conjugate Addition to Alcohols and Ethers
+            - 3.2b Conjugate Addition to Amines and Amides
+            - 3.2c Conjugate Addition to Aldehydes and Ketones
+            - 3.2d Conjugate Addition to Carboxylic Acids and Esters
+        - '- Section: 3.3 Stereocontrolled Conjugate Addition III:':
+            subsections:
+            - 3.3a Conjugate Addition to Nitrogen-Containing Compounds
+            - 3.3b Conjugate Addition to Sulfur-Containing Compounds
+            - 3.3c Conjugate Addition to Phosphorus-Containing Compounds
+            - 3.3d Conjugate Addition to Silicon-Containing Compounds
+    - '- Chapter 4: Stereocontrolled 1,2 Addition to Carbonyls:':
+        sections:
+        - '- Section: 4.1 Stereocontrolled 1,2 Addition to Carbonyls I:':
+            subsections:
+            - 4.1a Introduction to Stereoselective 1,2 Addition Reactions
+            - 4.1b 1,2 Addition to Alkenes and Alkynes
+            - 4.1c 1,2 Addition to Carbocycles and Heterocycles
+            - 4.1d 1,2 Addition to Cyclopropanes and Cyclobutanes
+            - 4.1e 1,2 Addition to Cyclopentanes and Cyclohexanes
+            - 4.1f 1,2 Addition to Cycloheptanes and Larger Rings
+        - '- Section: 4.2 Stereocontrolled 1,2 Addition to Carbonyls II:':
+            subsections:
+            - 4.2a 1,2 Addition to Alcohols and Ethers
+            - 4.2b 1,2 Addition to Amines and Amides
+            - 4.2c 1,2 Addition to Aldehydes and Ketones
+            - 4.2d 1,2 Addition to Carboxylic Acids and Esters
+    - '- Chapter 5: Addition of Allylmetals to Carbonyls:':
+        sections:
+        - '- Section: 5.1 Addition of Allylmetals to Carbonyls I:':
+            subsections:
+            - 5.1a Introduction to Allylmetal-Based Addition Reactions
+            - 5.1b Addition of Allylmetals to Alkenes and Alkynes
+            - 5.1c Addition of Allylmetals to Carbocycles and Heterocycles
+            - 5.1d Addition of Allylmetals to Cyclopropanes and Cyclobutanes
+            - 5.1e Addition of Allylmetals to Cyclopentanes and Cyclohexanes
+            - 5.1f Addition of Allylmetals to Cycloheptanes and Larger Rings
+        - '- Section: 5.2 Addition of Allylmetals to Carbonyls II:':
+            subsections:
+            - 5.2a Addition of Allylmetals to Alcohols and Ethers
+            - 5.2b Addition of Allylmetals to Amines and Amides
+            - 5.2c Addition of Allylmetals to Aldehydes and Ketones
+            - 5.2d Addition of Allylmetals to Carboxylic Acids and Esters
+        - '- Section: 5.3 Addition of Allylmetals to Carbonyls III:':
+            subsections:
+            - 5.3a Addition of Allylmetals to Nitrogen-Containing Compounds
+            - 5.3b Addition of Allylmetals to Sulfur-Containing Compounds
+            - 5.3c Addition of Allylmetals to Phosphorus-Containing Compounds
+            - 5.3d Addition of Allylmetals to Silicon-Containing Compounds
+    - '- Chapter 6: Stereocontrolled Aldol Reactions:':
+        sections:
+        - '- Section: 6.1 Stereocontrolled Aldol Reactions I:':
+            subsections:
+            - 6.1a Introduction to Stereoselective Aldol Reactions
+            - 6.1b Intramolecular Aldol Reactions
+            - 6.1c Intermolecular Aldol Reactions
+            - 6.1d Crossed Aldol Reactions
+            - 6.1e Directed Aldol Reactions
+            - 6.1f Retro-Aldol Reactions
+        - '- Section: 6.2 Stereocontrolled Aldol Reactions II:':
+            subsections:
+            - 6.2a Aldol Reactions with Enolates and Enols
+            - 6.2b Aldol Reactions with Enamine Intermediates
+            - 6.2c Aldol Reactions with Organometallic Reagents
+            - 6.2d Aldol Reactions with Organocatalysts
+        - '- Section: 6.3 Aldol Reactions III and Stereocontrolled Carbonyl Reduction:':
+            subsections:
+            - 6.3a Stereoselective Reduction of Aldehydes and Ketones
+            - 6.3b Stereoselective Reduction of Carboxylic Acids and Esters
+            - 6.3c Stereoselective Reduction of Lactones and Lactams
+            - 6.3d Stereoselective Reduction of Nitriles and Imines
+    - '- Chapter 7: Stereocontrolled Carbonyl and Alkene Reduction:':
+        sections:
+        - '- Section: 7.1 Stereocontrolled Carbonyl and Alkene Reduction:':
+            subsections:
+            - 7.1a Introduction to Stereoselective Carbonyl Reduction Reactions
+            - 7.1b Reduction of Aldehydes and Ketones
+            - 7.1c Reduction of Carboxylic Acids and Esters
+            - 7.1d Reduction of Lactones and Lactams
+            - 7.1e Reduction of Nitriles and Imines
+        - '- Section: 7.2 Stereocontrolled Alkene Reduction and Hydroboration:':
+            subsections:
+            - 7.2a Introduction to Stereoselective Alkene Reduction Reactions
+            - 7.2b Hydroboration of Alkenes and Alkynes
+            - 7.2c Hydroboration of Carbocycles and Heterocycles
+            - 7.2d Hydroboration of Cyclopropanes and Cyclobutanes
+            - 7.2e Hydroboration of Cyclopentanes and Cyclohexanes
+            - 7.2f Hydroboration of Cycloheptanes and Larger Rings
+    - '- Chapter 8: Stereocontrolled Dihydroxylation and Epoxidation:':
+        sections:
+        - '- Section: 8.1 Stereocontrolled Dihydroxylation and Epoxidation I:':
+            subsections:
+            - 8.1a Introduction to Stereoselective Dihydroxylation and

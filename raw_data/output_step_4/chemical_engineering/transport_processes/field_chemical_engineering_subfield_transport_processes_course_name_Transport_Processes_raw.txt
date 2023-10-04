@@ -1,0 +1,253 @@
+textbook: 
+"Transport Processes: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction and Overview:
+sections:
+- Section: 1.1 Demonstration of Modes of Heat and Mass Transfer:
+subsections:
+- 1.1a Introduction to Heat Transfer
+- 1.1b Introduction to Mass Transfer
+- 1.1c Comparison of Heat and Mass Transfer
+
+- Chapter 2: Conservation of Energy:
+sections:
+- Section: 2.1 Heat Diffusion Equation:
+subsections:
+- 2.1a Definition of Heat Diffusion
+- 2.1b Applications of Heat Diffusion
+- 2.1c Heat Diffusion in Different Materials
+- Section: 2.2 Boundary and Initial Conditions:
+subsections:
+- 2.2a Definition of Boundary and Initial Conditions
+- 2.2b Importance of Boundary and Initial Conditions
+- 2.2c Applications of Boundary and Initial Conditions
+
+- Chapter 3: Steady-state Conduction in Plane Wall and Radial Geometries:
+sections:
+- Section: 3.1 Recitation 1:
+subsections:
+- 3.1a Introduction to Steady-state Conduction
+- 3.1b Steady-state Conduction in Plane Wall
+- 3.1c Steady-state Conduction in Radial Geometries
+
+- Chapter 4: Conduction with Energy Generation:
+sections:
+- Section: 4.1 Extended Surfaces:
+subsections:
+- 4.1a Introduction to Extended Surfaces
+- 4.1b Conduction in Extended Surfaces
+- 4.1c Energy Generation in Extended Surfaces
+
+- Chapter 5: Two-dimensional Conduction:
+sections:
+- Section: 5.1 Recitation 2:
+subsections:
+- 5.1a Introduction to Two-dimensional Conduction
+- 5.1b Applications of Two-dimensional Conduction
+- 5.1c Challenges in Two-dimensional Conduction
+
+- Chapter 6: Transient Conduction with Spatial Effects:
+sections:
+- Section: 6.1 Recitation 3:
+subsections:
+- 6.1a Introduction to Transient Conduction
+- 6.1b Transient Conduction with Spatial Effects
+- 6.1c Applications and Challenges
+
+- Chapter 7: Semi-infinite Solid:
+sections:
+- Section: 7.1 Multi-dimensional Effects:
+subsections:
+- 7.1a Introduction to Multi-dimensional Effects
+- 7.1b Multi-dimensional Effects in Semi-infinite Solids
+- 7.1c Applications and Challenges
+- Section: 7.2 Introduction to Radiation:
+subsections:
+- 7.2a Basics of Radiation
+- 7.2b Radiation in Semi-infinite Solids
+- 7.2c Applications and Challenges
+
+- Chapter 8: Radiation Processes:
+sections:
+- Section: 8.1 Recitation 4:
+subsections:
+- 8.1a Introduction to Radiation Processes
+- 8.1b Applications of Radiation Processes
+- 8.1c Challenges in Radiation Processes
+- Section: 8.2 Blackbody Exchange:
+subsections:
+- 8.2a Introduction to Blackbody Exchange
+- 8.2b Applications of Blackbody Exchange
+- 8.2c Challenges in Blackbody Exchange
+
+- Chapter 9: Gray Surfaces:
+sections:
+- Section: 9.1 Recitation 5:
+subsections:
+- 9.1a Introduction to Gray Surfaces
+- 9.1b Applications of Gray Surfaces
+- 9.1c Challenges in Gray Surfaces
+- Section: 9.2 Recitation 6:
+subsections:
+- 9.2a Review of Gray Surfaces
+- 9.2b Advanced Topics in Gray Surfaces
+- 9.2c Case Studies in Gray Surfaces
+
+- Chapter 10: External Flow Correlations:
+sections:
+- Section: 10.1 Recitation 7:
+subsections:
+- 10.1a Introduction to External Flow Correlations
+- 10.1b Applications of External Flow Correlations
+- 10.1c Challenges in External Flow Correlations
+
+- Chapter 11: Convection Correlations:
+sections:
+- Section: 11.1 Heat Exchangers:
+subsections:
+- 11.1a Introduction to Heat Exchangers
+- 11.1b Applications of Heat Exchangers
+- 11.1c Challenges in Heat Exchangers
+- Section: 11.2 Recitation 8:
+subsections:
+- 11.2a Review of Heat Exchangers
+- 11.2b Advanced Topics in Heat Exchangers
+- 11.2c Case Studies in Heat Exchangers
+
+- Chapter 12: Introduction to Mass Transfer:
+sections:
+- Section: 12.1 Conservation of Species:
+subsections:
+- 12.1a Introduction to Conservation of Species
+- 12.1b Applications of Conservation of Species
+- 12.1c Challenges in Conservation of Species
+- Section: 12.2 Steady Diffusion:
+subsections:
+- 12.2a Introduction to Steady Diffusion
+- 12.2b Applications of Steady Diffusion
+- 12.2c Challenges in Steady Diffusion
+- Section: 12.3 Recitation 9:
+subsections:
+- 12.3a Review of Steady Diffusion
+- 12.3b Advanced Topics in Steady Diffusion
+- 12.3c Case Studies in Steady Diffusion
+
+- Chapter 13: Diffusion with Homogeneous Reaction:
+sections:
+- Section: 13.1 Diffusion with Heterogeneous Reaction:
+subsections:
+- 13.1a Introduction to Heterogeneous Reaction
+- 13.1b Diffusion with Heterogeneous Reaction
+- 13.1c Applications and Challenges
+- Section: 13.2 Transient Diffusion:
+subsections:
+- 13.2a Introduction to Transient Diffusion
+- 13.2b Applications of Transient Diffusion
+- 13.2c Challenges in Transient Diffusion
+- Section: 13.3 Recitation 11:
+subsections:
+- 13.3a Review of Transient Diffusion
+- 13.3b Advanced Topics in Transient Diffusion
+- 13.3c Case Studies in Transient Diffusion
+
+- Chapter 14: Convective Mass Transfer:
+sections:
+- Section: 14.1 Mass Transfer Boundary Layers:
+subsections:
+- 14.1a Introduction to Mass Transfer Boundary Layers
+- 14.1b Applications of Mass Transfer Boundary Layers
+- 14.1c Challenges in Mass Transfer Boundary Layers
+- Section: 14.2 Recitation 12:
+subsections:
+- 14.2a Review of Mass Transfer Boundary Layers
+- 14.2b Advanced Topics in Mass Transfer Boundary Layers
+- 14.2c Case Studies in Mass Transfer Boundary Layers
+
+- Chapter 15: Interphase Mass Transfer:
+sections:
+- Section: 15.1 Simultaneous Heat and Mass Transfer:
+subsections:
+- 15.1a Introduction to Simultaneous Heat and Mass Transfer
+- 15.1b Applications of Simultaneous Heat and Mass Transfer
+- 15.1c Challenges in Simultaneous Heat and Mass Transfer
+- Section: 15.2 Recitation 13:
+subsections:
+- 15.2a Review of Simultaneous Heat and Mass Transfer
+- 15.2b Advanced Topics in Simultaneous Heat and Mass Transfer
+- 15.2c Case Studies in Simultaneous Heat and Mass Transfer
+
+- Chapter 16: Advanced Topics in Heat Transfer:
+sections:
+- Section: 16.1 Heat Transfer in Nanostructures:
+subsections:
+- 16.1a Introduction to Nanostructures
+- 16.1b Heat Transfer in Nanostructures
+- 16.1c Challenges in Nanostructures
+- Section: 16.2 Heat Transfer in Microstructures:
+subsections:
+- 16.2a Introduction to Microstructures
+- 16.2b Heat Transfer in Microstructures
+- 16.2c Challenges in Microstructures
+
+- Chapter 17: Advanced Topics in Mass Transfer:
+sections:
+- Section: 17.1 Mass Transfer in Nanostructures:
+subsections:
+- 17.1a Introduction to Nanostructures
+- 17.1b Mass Transfer in Nanostructures
+- 17.1c Challenges in Nanostructures
+- Section: 17.2 Mass Transfer in Microstructures:
+subsections:
+- 17.2a Introduction to Microstructures
+- 17.2b Mass Transfer in Microstructures
+- 17.2c Challenges in Microstructures
+
+- Chapter 18: Advanced Topics in Radiation:
+sections:
+- Section: 18.1 Radiation in Nanostructures:
+subsections:
+- 18.1a Introduction to Nanostructures
+- 18.1b Radiation in Nanostructures
+- 18.1c Challenges in Nanostructures
+- Section: 18.2 Radiation in Microstructures:
+subsections:
+- 18.2a Introduction to Microstructures
+- 18.2b Radiation in Microstructures
+- 18.2c Challenges in Microstructures
+
+- Chapter 19: Advanced Topics in Convection:
+sections:
+- Section: 19.1 Convection in Nanostructures:
+subsections:
+- 19.1a Introduction to Nanostructures
+- 19.1b Convection in Nanostructures
+- 19.1c Challenges in Nanostructures
+- Section: 19.2 Convection in Microstructures:
+subsections:
+- 19.2a Introduction to Microstructures
+- 19.2b Convection in Microstructures
+- 19.2c Challenges in Microstructures
+
+- Chapter 20: Future Directions in Transport Processes:
+sections:
+- Section: 20.1 Future Directions in Heat Transfer:
+subsections:
+- 20.1a Emerging Trends in Heat Transfer
+- 20.1b Future Challenges in Heat Transfer
+- 20.1c Opportunities in Heat Transfer
+- Section: 20.2 Future Directions in Mass Transfer:
+subsections:
+- 20.2a Emerging Trends in Mass Transfer
+- 20.2b Future Challenges in Mass Transfer
+- 20.2c Opportunities in Mass Transfer
+- Section: 20.3 Future Directions in Radiation:
+subsections:
+- 20.3a Emerging Trends in Radiation
+- 20.3b Future Challenges in Radiation
+- 20.3c Opportunities in Radiation
+- Section: 20.4 Future Directions in Convection:
+subsections:
+- 20.4a Emerging Trends in Convection
+- 20.4b Future Challenges in Convection
+- 20.4c Opportunities in Convection

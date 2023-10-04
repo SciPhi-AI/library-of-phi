@@ -1,0 +1,495 @@
+textbook: 
+"Quasi-Balanced Circulations in Oceans and Atmospheres: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Fundamental balance and conservation principles for quasi-balanced flow:
+subsections:
+- 1.1a Definition of Quasi-Balanced Flow
+- 1.1b Conservation Principles
+- 1.1c Applications in Oceanography and Meteorology
+
+- Section: 1.2 Equations of motion:
+subsections:
+- 1.2a Newton's Laws in Fluid Dynamics
+- 1.2b Navier-Stokes Equations
+- 1.2c Euler Equations
+
+- Chapter 2: Circulation:
+sections:
+- Section: 2.1 Potential vorticity:
+subsections:
+- 2.1a Definition of Potential Vorticity
+- 2.1b Conservation of Potential Vorticity
+- 2.1c Potential Vorticity in Oceanic and Atmospheric Circulations
+
+- Section: 2.2 Invertibility:
+subsections:
+- 2.2a Definition of Invertibility
+- 2.2b Invertibility Principle in Fluid Dynamics
+- 2.2c Applications of Invertibility
+
+- Section: 2.3 Potential vorticity and invertibility in the shallow water equations:
+subsections:
+- 2.3a Shallow Water Equations
+- 2.3b Potential Vorticity in Shallow Water
+- 2.3c Invertibility in Shallow Water
+
+- Chapter 3: Quasigeostrophy and Pseudo-potential vorticity:
+sections:
+- Section: 3.1 Quasi-geostrophic potential vorticity:
+subsections:
+- 3.1a Definition of Quasi-Geostrophic Potential Vorticity
+- 3.1b Conservation of Quasi-Geostrophic Potential Vorticity
+- 3.1c Applications in Oceanic and Atmospheric Circulations
+
+- Section: 3.2 An example of the application of 'potential vorticity':
+subsections:
+- 3.2a Case Study: Oceanic Circulation
+- 3.2b Case Study: Atmospheric Circulation
+- 3.2c Analysis and Interpretation
+
+- Section: 3.3 Boundary conditions:
+subsections:
+- 3.3a Definition of Boundary Conditions
+- 3.3b Boundary Conditions in Fluid Dynamics
+- 3.3c Boundary Conditions in Quasi-Balanced Circulations
+
+- Section: 3.4 Eady edge waves:
+subsections:
+- 3.4a Definition of Eady Edge Waves
+- 3.4b Formation and Propagation of Eady Edge Waves
+- 3.4c Eady Edge Waves in Oceanic and Atmospheric Circulations
+
+- Section: 3.5 The superposition principle:
+subsections:
+- 3.5a Definition of Superposition Principle
+- 3.5b Superposition in Wave Dynamics
+- 3.5c Superposition in Quasi-Balanced Circulations
+
+- Section: 3.6 The secondary circulation:
+subsections:
+- 3.6a Definition of Secondary Circulation
+- 3.6b Formation and Effects of Secondary Circulation
+- 3.6c Secondary Circulation in Oceanic and Atmospheric Circulations
+
+- Chapter 4: Higher-order balance systems:
+sections:
+- Section: 4.1 Rossby waves:
+subsections:
+- 4.1a Definition of Rossby Waves
+- 4.1b Formation and Propagation of Rossby Waves
+- 4.1c Rossby Waves in Oceanic and Atmospheric Circulations
+
+- Section: 4.2 Quasi-geostrophic Rossby waves:
+subsections:
+- 4.2a Definition of Quasi-Geostrophic Rossby Waves
+- 4.2b Formation and Propagation of Quasi-Geostrophic Rossby Waves
+- 4.2c Quasi-Geostrophic Rossby Waves in Oceanic and Atmospheric Circulations
+
+- Section: 4.3 Barotropic instability:
+subsections:
+- 4.3a Definition of Barotropic Instability
+- 4.3b Causes and Effects of Barotropic Instability
+- 4.3c Barotropic Instability in Oceanic and Atmospheric Circulations
+
+- Section: 4.4 The Charney-Stern theorem:
+subsections:
+- 4.4a Statement of the Charney-Stern Theorem
+- 4.4b Proof and Implications of the Charney-Stern Theorem
+- 4.4c Applications of the Charney-Stern Theorem in Oceanic and Atmospheric Circulations
+
+- Chapter 5: [Additional Topic 1]:
+sections:
+- Section: 5.1 [Additional Subtopic 1]:
+subsections:
+- 5.1a [Subsection 1]
+- 5.1b [Subsection 2]
+- 5.1c [Subsection 3]
+
+- Section: 5.2 [Additional Subtopic 2]:
+subsections:
+- 5.2a [Subsection 1]
+- 5.2b [Subsection 2]
+- 5.2c [Subsection 3]
+
+- Section: 5.3 [Additional Subtopic 3]:
+subsections:
+- 5.3a [Subsection 1]
+- 5.3b [Subsection 2]
+- 5.3c [Subsection 3]
+
+- Section: 5.4 [Additional Subtopic 4]:
+subsections:
+- 5.4a [Subsection 1]
+- 5.4b [Subsection 2]
+- 5.4c [Subsection 3]
+
+- Chapter 6: [Additional Topic 2]:
+sections:
+- Section: 6.1 [Additional Subtopic 1]:
+subsections:
+- 6.1a [Subsection 1]
+- 6.1b [Subsection 2]
+- 6.1c [Subsection 3]
+
+- Section: 6.2 [Additional Subtopic 2]:
+subsections:
+- 6.2a [Subsection 1]
+- 6.2b [Subsection 2]
+- 6.2c [Subsection 3]
+
+- Section: 6.3 [Additional Subtopic 3]:
+subsections:
+- 6.3a [Subsection 1]
+- 6.3b [Subsection 2]
+- 6.3c [Subsection 3]
+
+- Section: 6.4 [Additional Subtopic 4]:
+subsections:
+- 6.4a [Subsection 1]
+- 6.4b [Subsection 2]
+- 6.4c [Subsection 3]
+
+- Chapter 7: [Additional Topic 3]:
+sections:
+- Section: 7.1 [Additional Subtopic 1]:
+subsections:
+- 7.1a [Subsection 1]
+- 7.1b [Subsection 2]
+- 7.1c [Subsection 3]
+
+- Section: 7.2 [Additional Subtopic 2]:
+subsections:
+- 7.2a [Subsection 1]
+- 7.2b [Subsection 2]
+- 7.2c [Subsection 3]
+
+- Section: 7.3 [Additional Subtopic 3]:
+subsections:
+- 7.3a [Subsection 1]
+- 7.3b [Subsection 2]
+- 7.3c [Subsection 3]
+
+- Section: 7.4 [Additional Subtopic 4]:
+subsections:
+- 7.4a [Subsection 1]
+- 7.4b [Subsection 2]
+- 7.4c [Subsection 3]
+
+- Chapter 8: [Additional Topic 4]:
+sections:
+- Section: 8.1 [Additional Subtopic 1]:
+subsections:
+- 8.1a [Subsection 1]
+- 8.1b [Subsection 2]
+- 8.1c [Subsection 3]
+
+- Section: 8.2 [Additional Subtopic 2]:
+subsections:
+- 8.2a [Subsection 1]
+- 8.2b [Subsection 2]
+- 8.2c [Subsection 3]
+
+- Section: 8.3 [Additional Subtopic 3]:
+subsections:
+- 8.3a [Subsection 1]
+- 8.3b [Subsection 2]
+- 8.3c [Subsection 3]
+
+- Section: 8.4 [Additional Subtopic 4]:
+subsections:
+- 8.4a [Subsection 1]
+- 8.4b [Subsection 2]
+- 8.4c [Subsection 3]
+
+- Chapter 9: [Additional Topic 5]:
+sections:
+- Section: 9.1 [Additional Subtopic 1]:
+subsections:
+- 9.1a [Subsection 1]
+- 9.1b [Subsection 2]
+- 9.1c [Subsection 3]
+
+- Section: 9.2 [Additional Subtopic 2]:
+subsections:
+- 9.2a [Subsection 1]
+- 9.2b [Subsection 2]
+- 9.2c [Subsection 3]
+
+- Section: 9.3 [Additional Subtopic 3]:
+subsections:
+- 9.3a [Subsection 1]
+- 9.3b [Subsection 2]
+- 9.3c [Subsection 3]
+
+- Section: 9.4 [Additional Subtopic 4]:
+subsections:
+- 9.4a [Subsection 1]
+- 9.4b [Subsection 2]
+- 9.4c [Subsection 3]
+
+- Chapter 10: [Additional Topic 6]:
+sections:
+- Section: 10.1 [Additional Subtopic 1]:
+subsections:
+- 10.1a [Subsection 1]
+- 10.1b [Subsection 2]
+- 10.1c [Subsection 3]
+
+- Section: 10.2 [Additional Subtopic 2]:
+subsections:
+- 10.2a [Subsection 1]
+- 10.2b [Subsection 2]
+- 10.2c [Subsection 3]
+
+- Section: 10.3 [Additional Subtopic 3]:
+subsections:
+- 10.3a [Subsection 1]
+- 10.3b [Subsection 2]
+- 10.3c [Subsection 3]
+
+- Section: 10.4 [Additional Subtopic 4]:
+subsections:
+- 10.4a [Subsection 1]
+- 10.4b [Subsection 2]
+- 10.4c [Subsection 3]
+
+- Chapter 11: [Additional Topic 7]:
+sections:
+- Section: 11.1 [Additional Subtopic 1]:
+subsections:
+- 11.1a [Subsection 1]
+- 11.1b [Subsection 2]
+- 11.1c [Subsection 3]
+
+- Section: 11.2 [Additional Subtopic 2]:
+subsections:
+- 11.2a [Subsection 1]
+- 11.2b [Subsection 2]
+- 11.2c [Subsection 3]
+
+- Section: 11.3 [Additional Subtopic 3]:
+subsections:
+- 11.3a [Subsection 1]
+- 11.3b [Subsection 2]
+- 11.3c [Subsection 3]
+
+- Section: 11.4 [Additional Subtopic 4]:
+subsections:
+- 11.4a [Subsection 1]
+- 11.4b [Subsection 2]
+- 11.4c [Subsection 3]
+
+- Chapter 12: [Additional Topic 8]:
+sections:
+- Section: 12.1 [Additional Subtopic 1]:
+subsections:
+- 12.1a [Subsection 1]
+- 12.1b [Subsection 2]
+- 12.1c [Subsection 3]
+
+- Section: 12.2 [Additional Subtopic 2]:
+subsections:
+- 12.2a [Subsection 1]
+- 12.2b [Subsection 2]
+- 12.2c [Subsection 3]
+
+- Section: 12.3 [Additional Subtopic 3]:
+subsections:
+- 12.3a [Subsection 1]
+- 12.3b [Subsection 2]
+- 12.3c [Subsection 3]
+
+- Section: 12.4 [Additional Subtopic 4]:
+subsections:
+- 12.4a [Subsection 1]
+- 12.4b [Subsection 2]
+- 12.4c [Subsection 3]
+
+- Chapter 13: [Additional Topic 9]:
+sections:
+- Section: 13.1 [Additional Subtopic 1]:
+subsections:
+- 13.1a [Subsection 1]
+- 13.1b [Subsection 2]
+- 13.1c [Subsection 3]
+
+- Section: 13.2 [Additional Subtopic 2]:
+subsections:
+- 13.2a [Subsection 1]
+- 13.2b [Subsection 2]
+- 13.2c [Subsection 3]
+
+- Section: 13.3 [Additional Subtopic 3]:
+subsections:
+- 13.3a [Subsection 1]
+- 13.3b [Subsection 2]
+- 13.3c [Subsection 3]
+
+- Section: 13.4 [Additional Subtopic 4]:
+subsections:
+- 13.4a [Subsection 1]
+- 13.4b [Subsection 2]
+- 13.4c [Subsection 3]
+
+- Chapter 14: [Additional Topic 10]:
+sections:
+- Section: 14.1 [Additional Subtopic 1]:
+subsections:
+- 14.1a [Subsection 1]
+- 14.1b [Subsection 2]
+- 14.1c [Subsection 3]
+
+- Section: 14.2 [Additional Subtopic 2]:
+subsections:
+- 14.2a [Subsection 1]
+- 14.2b [Subsection 2]
+- 14.2c [Subsection 3]
+
+- Section: 14.3 [Additional Subtopic 3]:
+subsections:
+- 14.3a [Subsection 1]
+- 14.3b [Subsection 2]
+- 14.3c [Subsection 3]
+
+- Section: 14.4 [Additional Subtopic 4]:
+subsections:
+- 14.4a [Subsection 1]
+- 14.4b [Subsection 2]
+- 14.4c [Subsection 3]
+
+- Chapter 15: [Additional Topic 11]:
+sections:
+- Section: 15.1 [Additional Subtopic 1]:
+subsections:
+- 15.1a [Subsection 1]
+- 15.1b [Subsection 2]
+- 15.1c [Subsection 3]
+
+- Section: 15.2 [Additional Subtopic 2]:
+subsections:
+- 15.2a [Subsection 1]
+- 15.2b [Subsection 2]
+- 15.2c [Subsection 3]
+
+- Section: 15.3 [Additional Subtopic 3]:
+subsections:
+- 15.3a [Subsection 1]
+- 15.3b [Subsection 2]
+- 15.3c [Subsection 3]
+
+- Section: 15.4 [Additional Subtopic 4]:
+subsections:
+- 15.4a [Subsection 1]
+- 15.4b [Subsection 2]
+- 15.4c [Subsection 3]
+
+- Chapter 16: [Additional Topic 12]:
+sections:
+- Section: 16.1 [Additional Subtopic 1]:
+subsections:
+- 16.1a [Subsection 1]
+- 16.1b [Subsection 2]
+- 16.1c [Subsection 3]
+
+- Section: 16.2 [Additional Subtopic 2]:
+subsections:
+- 16.2a [Subsection 1]
+- 16.2b [Subsection 2]
+- 16.2c [Subsection 3]
+
+- Section: 16.3 [Additional Subtopic 3]:
+subsections:
+- 16.3a [Subsection 1]
+- 16.3b [Subsection 2]
+- 16.3c [Subsection 3]
+
+- Section: 16.4 [Additional Subtopic 4]:
+subsections:
+- 16.4a [Subsection 1]
+- 16.4b [Subsection 2]
+- 16.4c [Subsection 3]
+
+- Chapter 17: [Additional Topic 13]:
+sections:
+- Section: 17.1 [Additional Subtopic 1]:
+subsections:
+- 17.1a [Subsection 1]
+- 17.1b [Subsection 2]
+- 17.1c [Subsection 3]
+
+- Section: 17.2 [Additional Subtopic 2]:
+subsections:
+- 17.2a [Subsection 1]
+- 17.2b [Subsection 2]
+- 17.2c [Subsection 3]
+
+- Section: 17.3 [Additional Subtopic 3]:
+subsections:
+- 17.3a [Subsection 1]
+- 17.3b [Subsection 2]
+- 17.3c [Subsection 3]
+
+- Section: 17.4 [Additional Subtopic 4]:
+subsections:
+- 17.4a [Subsection 1]
+- 17.4b [Subsection 2]
+- 17.4c [Subsection 3]
+
+- Chapter 18: [Additional Topic 14]:
+sections:
+- Section: 18.1 [Additional Subtopic 1]:
+subsections:
+- 18.1a [Subsection 1]
+- 18.1b [Subsection 2]
+- 18.1c [Subsection 3]
+
+- Section: 18.2 [Additional Subtopic 2]:
+subsections:
+- 18.2a [Subsection 1]
+- 18.2b [Subsection 2]
+- 18.2c [Subsection 3]
+
+- Section: 18.3 [Additional Subtopic 3]:
+subsections:
+- 18.3a [Subsection 1]
+- 18.3b [Subsection 2]
+- 18.3c [Subsection 3]
+
+- Section: 18.4 [Additional Subtopic 4]:
+subsections:
+- 18.4a [Subsection 1]
+- 18.4b [Subsection 2]
+- 18.4c [Subsection 3]
+
+- Chapter 19: [Additional Topic 15]:
+sections:
+- Section: 19.1 [Additional Subtopic 1]:
+subsections:
+- 19.1a [Subsection 1]
+- 19.1b [Subsection 2]
+- 19.1c [Subsection 3]
+
+- Section: 19.2 [Additional Subtopic 2]:
+subsections:
+- 19.2a [Subsection 1]
+- 19.2b [Subsection 2]
+- 19.2c [Subsection 3]
+
+- Section: 19.3 [Additional Subtopic 3]:
+subsections:
+- 19.3a [Subsection 1]
+- 19.3b [Subsection 2]
+- 19.3c [Subsection 3]
+
+- Section: 19.4 [Additional Subtopic 4]:
+subsections:
+- 19.4a [Subsection 1]
+- 19.4b [Subsection 2]
+- 19.4c [Subsection 3]
+
+- Chapter 20: [Additional Topic 16]:
+sections:
+-

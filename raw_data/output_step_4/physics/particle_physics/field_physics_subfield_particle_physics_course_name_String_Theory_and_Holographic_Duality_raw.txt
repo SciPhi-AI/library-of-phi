@@ -1,0 +1,345 @@
+textbook: 
+"String Theory and Holographic Duality":
+
+chapters:
+- Chapter 1: Emergence of Gravity:
+sections:
+- Section: 1.1 Classical Black Hole Geometry:
+subsections:
+- 1.1a Overview of Classical Black Hole Solutions
+- 1.1b Schwarzschild and Reissner-Nordström Black Holes
+- 1.1c Kerr Black Holes
+
+- Section: 1.2 Causal Structure of a Black Hole and Black Hole Temperature:
+subsections:
+- 1.2a Event Horizon and Singularity of a Black Hole
+- 1.2b Hawking Radiation and Black Hole Temperature
+- 1.2c Black Hole Entropy and Information Loss Paradox
+
+- Section: 1.3 Physical Interpretation of Black Hole Temperature:
+subsections:
+- 1.3a Thermodynamics of Black Holes
+- 1.3b Unruh Effect and Hawking Temperature
+
+- Section: 1.4 Black Hole Thermodynamics:
+subsections:
+- 1.4a Laws of Black Hole Thermodynamics
+- 1.4b Bekenstein-Hawking Entropy Formula
+
+- Chapter 2: Holographic Principle:
+sections:
+- Section: 2.1 Structure of Large-N Expansion:
+subsections:
+- 2.1a Introduction to Large-N Expansion
+- 2.1b Feynman Diagrams and Perturbation Theory
+- 2.1c Scaling Behavior in Large-N Theories
+
+- Section: 2.2 Large-N Expansion as a String Theory, Part I:
+subsections:
+- 2.2a Introduction to String Theory
+- 2.2b Worldsheet Formulation and Polyakov Action
+- 2.2c String Scattering and S-Matrix
+
+- Section: 2.3 Large-N Expansion as a String Theory, Part II:
+subsections:
+- 2.3a AdS/CFT Correspondence and Holography
+- 2.3b Supergravity and String Theory
+- 2.3c The AdS/CFT Dictionary
+
+- Chapter 3: Basics of String Theory:
+sections:
+- Section: 3.1 String Theory in the Light-cone Gauge:
+subsections:
+- 3.1a Light-cone Quantization of Bosonic String
+- 3.1b Virasoro Algebra and Conformal Invariance
+- 3.1c Mass Spectrum of Bosonic String
+
+- Section: 3.2 String Spectrum and Graviton:
+subsections:
+- 3.2a Open and Closed String Spectrum
+- 3.2b Tachyon and Massless States
+- 3.2c Graviton and Higher Spin States
+
+- Chapter 4: Physics of D-branes:
+sections:
+- Section: 4.1 Physics of D-branes, Part I:
+subsections:
+- 4.1a Introduction to D-branes
+- 4.1b Boundary Conformal Field Theory (BCFT)
+- 4.1c D-brane Boundary State and Boundary State Formalism
+
+- Section: 4.2 Physics of D-branes, Part II:
+subsections:
+- 4.2a Open String Modes and D-brane Dynamics
+- 4.2b Gauge Theory on D-branes
+- 4.2c Worldvolume Supersymmetry of D-branes
+
+- Section: 4.3 Physics of D-branes, Part III:
+subsections:
+- 4.3a T-duality and D-brane Probes
+- 4.3b Adsorption of D-branes
+- 4.3c D-brane Instantons and Non-perturbative Effects
+
+- Section: 4.4 Geometry of D-branes and AdS / CFT Conjecture:
+subsections:
+- 4.4a D-branes in Type II String Theory
+- 4.4b AdS Geometry and its Dual CFT
+- 4.4c Holographic Renormalization and RG Flows
+
+- Chapter 5: AdS / CFT Duality:
+sections:
+- Section: 5.1 More on AdS / CFT Duality:
+subsections:
+- 5.1a Overview of AdS/CFT Correspondence
+- 5.1b Examples of Dualities: AdS5/CFT4, AdS4/CFT3, etc.
+- 5.1c Holographic RG and Bulk/Boundary Correspondence
+
+- Section: 5.2 General Aspects of the Duality:
+subsections:
+- 5.2a Supergravity and String Theory Dualities
+- 5.2b Symmetries and Conservation Laws in AdS/CFT
+- 5.2c Quantization of Bulk Fields and Holographic Dictionary
+
+- Section: 5.3 Mass-dimension Relation:
+subsections:
+- 5.3a Mass and Dimension in AdS/CFT
+- 5.3b Mass Spectrum and Scaling Dimensions
+- 5.3c Conformal Dimensions and Anomalous Dimensions
+
+- Section: 5.4 Euclidean Correlation Functions: Two-point Functions:
+subsections:
+- 5.4a Euclidean AdS Space and Wick Rotation
+- 5.4b Two-point Functions and OPE in CFT
+- 5.4c Conformal Blocks and Crossing Symmetry
+
+- Section: 5.5 Euclidean Correlation Functions: Higher-point Functions:
+subsections:
+- 5.5a Three-point Functions and Conformal Blocks
+- 5.5b Four-point Functions and Conformal Bootstrap
+- 5.5c Higher-point Functions and Operator Product Expansion
+
+- Chapter 6: Computation and Entanglement:
+sections:
+- Section: 6.1 Computation of the Wilson Loop:
+subsections:
+- 6.1a Wilson Loop Operator and its Expectation Value
+- 6.1b Wilson Loop in Gauge Theories and String Theory
+- 6.1c String Worldsheet and Area Law in Wilson Loop
+
+- Section: 6.2 Duality at a Finite Temperature and Finite Chemical Potential:
+subsections:
+- 6.2a Thermal AdS Space and Black Holes
+- 6.2b Thermal Correlation Functions and Partition Function
+- 6.2c Holographic Phase Transitions and Critical Behavior
+
+- Section: 6.3 Holographic Entanglement Entropy:
+subsections:
+- 6.3a Entanglement Entropy in Quantum Field Theory
+- 6.3b Holographic Entanglement Entropy and RT Formula
+- 6.3c Holographic Mutual Information and Quantum Complexity
+
+- Chapter 7: Problem Sets:
+sections:
+- Section: 7.1 Problem Set 1 Solutions:
+subsections:
+- 7.1a Detailed Solutions for Problem Set 1
+- 7.1b Step-by-step Derivations and Explanations
+
+- Section: 7.2 Problem Set 2 Solutions:
+subsections:
+- 7.2a Detailed Solutions for Problem Set 2
+- 7.2b Step-by-step Derivations and Explanations
+
+- Section: 7.3 Problem Set 3 Solutions:
+subsections:
+- 7.3a Detailed Solutions for Problem Set 3
+- 7.3b Step-by-step Derivations and Explanations
+
+- Section: 7.4 Problem Set 4 Solutions:
+subsections:
+- 7.4a Detailed Solutions for Problem Set 4
+- 7.4b Step-by-step Derivations and Explanations
+
+- Chapter 8: Final Project:
+sections:
+- Section: 8.1 Description in the Syllabus section:
+subsections:
+- 8.1a Overview of the Final Project Requirements
+- 8.1b Choosing a Project Topic and Research Question
+- 8.1c Writing and Presenting the Final Project Report
+
+- Chapter 9: Introduction to Quantum Gravity:
+sections:
+- Section: 9.1 Quantum Gravity and String Theory:
+subsections:
+- 9.1a Basics of Quantum Gravity
+- 9.1b String Theory as a Quantum Theory of Gravity
+- 9.1c Challenges in Quantum Gravity
+
+- Section: 9.2 Quantum Field Theory in Curved Spacetime:
+subsections:
+- 9.2a Basics of QFT in Curved Spacetime
+- 9.2b Hawking Radiation and Unruh Effect
+- 9.2c Quantum Anomalies in Curved Spacetime
+
+- Section: 9.3 Black Holes and Quantum Information:
+subsections:
+- 9.3a Black Hole Information Paradox
+- 9.3b Firewall Paradox and AMPS Argument
+- 9.3c Recent Developments in Black Hole Information Problem
+
+- Chapter 10: Advanced Topics in String Theory:
+sections:
+- Section: 10.1 Superstrings and M-theory:
+subsections:
+- 10.1a Introduction to Superstrings
+- 10.1b Dualities in String Theory
+- 10.1c M-theory and 11-dimensional Supergravity
+
+- Section: 10.2 String Compactifications:
+subsections:
+- 10.2a Compactification on Calabi-Yau Manifolds
+- 10.2b Compactification on Tori and Orbifolds
+- 10.2c Flux Compactifications and Moduli Stabilization
+
+- Section: 10.3 Branes and T-duality:
+subsections:
+- 10.3a D-branes and T-duality
+- 10.3b Brane World Scenarios
+- 10.3c Brane Inflation and Cosmology
+
+- Chapter 11: Advanced Topics in AdS/CFT:
+sections:
+- Section: 11.1 Holography and Quantum Gravity:
+subsections:
+- 11.1a Holography as a Principle of Quantum Gravity
+- 11.1b Holographic Entanglement Entropy and Quantum Information
+- 11.1c Holography and Quantum Error Correction
+
+- Section: 11.2 Applications of AdS/CFT:
+subsections:
+- 11.2a AdS/CFT and Condensed Matter Physics
+- 11.2b AdS/CFT and Quantum Chromodynamics
+- 11.2c AdS/CFT and Quantum Information Theory
+
+- Section: 11.3 Holography and Cosmology:
+subsections:
+- 11.3a Holography and de Sitter Space
+- 11.3b Holography and Inflation
+- 11.3c Holography and the Multiverse
+
+- Chapter 12: Quantum Field Theory and Renormalization:
+sections:
+- Section: 12.1 Basics of Quantum Field Theory:
+subsections:
+- 12.1a Path Integral Formulation of QFT
+- 12.1b Feynman Diagrams and Perturbative QFT
+- 12.1c Renormalization and Regularization
+
+- Section: 12.2 Renormalization Group Flow:
+subsections:
+- 12.2a Basics of Renormalization Group
+- 12.2b RG Flow and Fixed Points
+- 12.2c RG Flow in Quantum Gravity
+
+- Section: 12.3 Conformal Field Theory:
+subsections:
+- 12.3a Basics of Conformal Field Theory
+- 12.3b Conformal Bootstrap and CFT Correlation Functions
+- 12.3c CFT and Holography
+
+- Chapter 13: Quantum Aspects of Black Holes:
+sections:
+- Section: 13.1 Quantum Fields in Black Hole Spacetime:
+subsections:
+- 13.1a Quantum Fields in Schwarzschild Spacetime
+- 13.1b Quantum Fields in Kerr Spacetime
+- 13.1c Quantum Fields in de Sitter Spacetime
+
+- Section: 13.2 Black Hole Thermodynamics:
+subsections:
+- 13.2a Laws of Black Hole Thermodynamics
+- 13.2b Bekenstein-Hawking Entropy
+- 13.2c Black Hole Evaporation and Information Loss
+
+- Section: 13.3 Quantum Gravity and Black Holes:
+subsections:
+- 13.3a Quantum Corrections to Black Hole Thermodynamics
+- 13.3b Quantum Gravity and Black Hole Singularity
+- 13.3c Quantum Gravity and Black Hole Information Paradox
+
+- Chapter 14: Quantum Cosmology:
+sections:
+- Section: 14.1 Quantum Aspects of Cosmology:
+subsections:
+- 14.1a Quantum Fluctuations and Inflation
+- 14.1b Quantum Cosmology and the Wave Function of the Universe
+- 14.1c Quantum Cosmology and the Multiverse
+
+- Section: 14.2 Quantum Gravity and Cosmology:
+subsections:
+- 14.2a Quantum Gravity and the Big Bang Singularity
+- 14.2b Quantum Gravity and the Cosmological Constant Problem
+- 14.2c Quantum Gravity and Dark Energy
+
+- Section: 14.3 String Theory and Cosmology:
+subsections:
+- 14.3a String Theory and Inflation
+- 14.3b String Theory and Dark Energy
+- 14.3c String Theory and the Multiverse
+
+- Chapter 15: Quantum Information and Gravity:
+sections:
+- Section: 15.1 Quantum Information and Black Holes:
+subsections:
+- 15.1a Black Hole Information Paradox
+- 15.1b Firewall Paradox and AMPS Argument
+- 15.1c Recent Developments in Black Hole Information Problem
+
+- Section: 15.2 Quantum Information and Holography:
+subsections:
+- 15.2a Holographic Entanglement Entropy and Quantum Information
+- 15.2b Holography and Quantum Error Correction
+- 15.2c Holography and Quantum Complexity
+
+- Section: 15.3 Quantum Information and Quantum Gravity:
+subsections:
+- 15.3a Quantum Information and the Emergence of Spacetime
+- 15.3b Quantum Information and the Holographic Principle
+- 15.3c Quantum Information and the Black Hole Interior
+
+- Chapter 16: Advanced Topics in Quantum Gravity:
+sections:
+- Section: 16.1 Quantum Gravity and the Multiverse:
+subsections:
+- 16.1a Quantum Gravity and the Landscape of String Theory
+- 16.1b Quantum Gravity and the Anthropic Principle
+- 16.1c Quantum Gravity and the Measure Problem
+
+- Section: 16.2 Quantum Gravity and the Arrow of Time:
+subsections:
+- 16.2a Quantum Gravity and the Problem of Time
+- 16.2b Quantum Gravity and the Emergence of Time
+- 16.2c Quantum Gravity and the Arrow of Time
+
+- Section: 16.3 Quantum Gravity and the Nature of Reality:
+subsections:
+- 16.3a Quantum Gravity and the Interpretation of Quantum Mechanics
+- 16.3b Quantum Gravity and the Nature of Spacetime
+- 16.3c Quantum Gravity and the Nature of Reality
+
+- Chapter 17: Advanced Topics in String Theory:
+sections:
+- Section: 17.1 String Theory and Quantum Gravity:
+subsections:
+- 17.1a String Theory as a Quantum Theory of Gravity
+- 17.1b String Theory and the Landscape of Vacua
+- 17.1c String Theory and the Multiverse
+
+- Section: 17.2 String Theory and Particle Physics:
+subsections:
+- 17.2a String Theory and the Standard Model
+- 17.2b String Theory and Supersymmetry
+- 17.2c String Theory and Grand Unification
+
+- Section: 17

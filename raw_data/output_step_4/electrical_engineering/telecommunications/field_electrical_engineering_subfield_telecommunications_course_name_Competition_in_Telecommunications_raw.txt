@@ -1,0 +1,337 @@
+textbook: 
+"Competition in Telecommunications: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Course Introduction and Competitive Structure of Telecoms Industry:
+sections:
+- Section: 1.1 Effect of Convergence:
+subsections:
+- 1.1a Definition of Convergence
+- 1.1b Impact on Telecoms Industry
+- 1.1c Future Trends
+
+- Chapter 2: What Caused the Telecom Crash? Is there Light at the End of the Tunnel?:
+sections:
+- Section: 2.1 Telecom Crash Causes:
+subsections:
+- 2.1a Economic Factors
+- 2.1b Regulatory Factors
+- 2.1c Market Factors
+
+- Section: 2.2 Potential Recovery:
+subsections:
+- 2.2a Market Recovery Indicators
+- 2.2b Role of Innovation
+- 2.2c Future Predictions
+
+- Chapter 3: The Economics of Networks and Regulation:
+sections:
+- Section: 3.1 Economies of Scale and Scope:
+subsections:
+- 3.1a Definition and Examples
+- 3.1b Impact on Telecoms Industry
+- 3.1c Future Trends
+
+- Section: 3.2 Sunk Costs:
+subsections:
+- 3.2a Definition and Examples
+- 3.2b Impact on Telecoms Industry
+- 3.2c Strategies to Manage Sunk Costs
+
+- Section: 3.3 Barriers to Entry:
+subsections:
+- 3.3a Definition and Examples
+- 3.3b Impact on Telecoms Industry
+- 3.3c Strategies to Overcome Barriers
+
+- Section: 3.4 Unbundled Network Elements:
+subsections:
+- 3.4a Definition and Examples
+- 3.4b Impact on Telecoms Industry
+- 3.4c Future Trends
+
+- Chapter 4: Regulation, Deregulation and the Telecom Act of 1996:
+sections:
+- Section: 4.1 Regulatory Policies:
+subsections:
+- 4.1a Overview of Regulatory Policies
+- 4.1b Impact on Telecoms Industry
+- 4.1c Future Trends
+
+- Section: 4.2 Deregulation Impact:
+subsections:
+- 4.2a Overview of Deregulation
+- 4.2b Impact on Telecoms Industry
+- 4.2c Future Trends
+
+- Section: 4.3 Telecom Act of 1996:
+subsections:
+- 4.3a Overview of Telecom Act
+- 4.3b Impact on Telecoms Industry
+- 4.3c Future Trends
+
+- Chapter 5: Competition for Residential Local and Long Distance:
+sections:
+- Section: 5.1 Residential Local Competition:
+subsections:
+- 5.1a Overview of Local Competition
+- 5.1b Impact on Telecoms Industry
+- 5.1c Future Trends
+
+- Section: 5.2 Residential Long Distance Competition:
+subsections:
+- 5.2a Overview of Long Distance Competition
+- 5.2b Impact on Telecoms Industry
+- 5.2c Future Trends
+
+- Chapter 6: Are Spectrum Auctions a Good Idea?:
+sections:
+- Section: 6.1 Spectrum Auctions Overview:
+subsections:
+- 6.1a Definition and Examples
+- 6.1b Impact on Telecoms Industry
+- 6.1c Future Trends
+
+- Section: 6.2 Pros and Cons:
+subsections:
+- 6.2a Benefits of Spectrum Auctions
+- 6.2b Drawbacks of Spectrum Auctions
+- 6.2c Future Trends
+
+- Chapter 7: Future Competition in Telecommunications:
+sections:
+- Section: 7.1 Emerging Technologies:
+subsections:
+- 7.1a Overview of Emerging Technologies
+- 7.1b Impact on Telecoms Industry
+- 7.1c Future Trends
+
+- Section: 7.2 Market Trends:
+subsections:
+- 7.2a Overview of Market Trends
+- 7.2b Impact on Telecoms Industry
+- 7.2c Future Predictions
+
+- Chapter 8: Mobile Handset Market Value Chain:
+sections:
+- Section: 8.1 Market Participants:
+subsections:
+- 8.1a Overview of Market Participants
+- 8.1b Role in Value Chain
+- 8.1c Future Trends
+
+- Section: 8.2 Value Chain Analysis:
+subsections:
+- 8.2a Definition and Methodology
+- 8.2b Application to Mobile Handset Market
+- 8.2c Future Trends
+
+- Chapter 9: Will Telecom and IT be a Growing Industry or like a 'Water Utility'?:
+sections:
+- Section: 9.1 Industry Growth Potential:
+subsections:
+- 9.1a Overview of Growth Potential
+- 9.1b Comparison to Other Industries
+- 9.1c Future Predictions
+
+- Section: 9.2 Comparisons to Water Utility:
+subsections:
+- 9.2a Overview of Water Utility Industry
+- 9.2b Comparison to Telecoms Industry
+- 9.2c Future Trends
+
+- Chapter 10: Student Presentations:
+sections:
+- Section: 10.1 Presentation Topics:
+subsections:
+- 10.1a Overview of Topics
+- 10.1b Presentation Guidelines
+- 10.1c Evaluation Criteria
+
+- Chapter 11: Last Day of Class:
+sections:
+- Section: 11.1 Course Wrap-up:
+subsections:
+- 11.1a Course Summary
+- 11.1b Key Takeaways
+- 11.1c Future Studies
+
+- Chapter 12: The Role of Technology in Telecoms:
+sections:
+- Section: 12.1 Evolution of Technology:
+subsections:
+- 12.1a Historical Overview
+- 12.1b Impact on Telecoms Industry
+- 12.1c Future Trends
+
+- Section: 12.2 Technology and Competition:
+subsections:
+- 12.2a Role of Technology in Competitive Landscape
+- 12.2b Case Studies
+- 12.2c Future Trends
+
+- Section: 12.3 Technology and Regulation:
+subsections:
+- 12.3a Impact of Technology on Regulatory Policies
+- 12.3b Case Studies
+- 12.3c Future Trends
+
+- Chapter 13: The Role of Policy in Telecoms:
+sections:
+- Section: 13.1 Evolution of Policy:
+subsections:
+- 13.1a Historical Overview
+- 13.1b Impact on Telecoms Industry
+- 13.1c Future Trends
+
+- Section: 13.2 Policy and Competition:
+subsections:
+- 13.2a Role of Policy in Competitive Landscape
+- 13.2b Case Studies
+- 13.2c Future Trends
+
+- Section: 13.3 Policy and Regulation:
+subsections:
+- 13.3a Impact of Policy on Regulatory Framework
+- 13.3b Case Studies
+- 13.3c Future Trends
+
+- Chapter 14: The Role of Consumers in Telecoms:
+sections:
+- Section: 14.1 Consumer Behavior:
+subsections:
+- 14.1a Overview of Consumer Behavior
+- 14.1b Impact on Telecoms Industry
+- 14.1c Future Trends
+
+- Section: 14.2 Consumer Demand:
+subsections:
+- 14.2a Overview of Consumer Demand
+- 14.2b Impact on Telecoms Industry
+- 14.2c Future Trends
+
+- Section: 14.3 Consumer Protection:
+subsections:
+- 14.3a Overview of Consumer Protection
+- 14.3b Impact on Telecoms Industry
+- 14.3c Future Trends
+
+- Chapter 15: The Role of Innovation in Telecoms:
+sections:
+- Section: 15.1 Innovation and Competition:
+subsections:
+- 15.1a Role of Innovation in Competitive Landscape
+- 15.1b Case Studies
+- 15.1c Future Trends
+
+- Section: 15.2 Innovation and Regulation:
+subsections:
+- 15.2a Impact of Innovation on Regulatory Framework
+- 15.2b Case Studies
+- 15.2c Future Trends
+
+- Section: 15.3 Innovation and Consumer Demand:
+subsections:
+- 15.3a Role of Innovation in Shaping Consumer Demand
+- 15.3b Case Studies
+- 15.3c Future Trends
+
+- Chapter 16: The Role of Infrastructure in Telecoms:
+sections:
+- Section: 16.1 Infrastructure and Competition:
+subsections:
+- 16.1a Role of Infrastructure in Competitive Landscape
+- 16.1b Case Studies
+- 16.1c Future Trends
+
+- Section: 16.2 Infrastructure and Regulation:
+subsections:
+- 16.2a Impact of Infrastructure on Regulatory Framework
+- 16.2b Case Studies
+- 16.2c Future Trends
+
+- Section: 16.3 Infrastructure and Consumer Demand:
+subsections:
+- 16.3a Role of Infrastructure in Shaping Consumer Demand
+- 16.3b Case Studies
+- 16.3c Future Trends
+
+- Chapter 17: The Role of Market Forces in Telecoms:
+sections:
+- Section: 17.1 Market Forces and Competition:
+subsections:
+- 17.1a Role of Market Forces in Competitive Landscape
+- 17.1b Case Studies
+- 17.1c Future Trends
+
+- Section: 17.2 Market Forces and Regulation:
+subsections:
+- 17.2a Impact of Market Forces on Regulatory Framework
+- 17.2b Case Studies
+- 17.2c Future Trends
+
+- Section: 17.3 Market Forces and Consumer Demand:
+subsections:
+- 17.3a Role of Market Forces in Shaping Consumer Demand
+- 17.3b Case Studies
+- 17.3c Future Trends
+
+- Chapter 18: The Role of Globalization in Telecoms:
+sections:
+- Section: 18.1 Globalization and Competition:
+subsections:
+- 18.1a Role of Globalization in Competitive Landscape
+- 18.1b Case Studies
+- 18.1c Future Trends
+
+- Section: 18.2 Globalization and Regulation:
+subsections:
+- 18.2a Impact of Globalization on Regulatory Framework
+- 18.2b Case Studies
+- 18.2c Future Trends
+
+- Section: 18.3 Globalization and Consumer Demand:
+subsections:
+- 18.3a Role of Globalization in Shaping Consumer Demand
+- 18.3b Case Studies
+- 18.3c Future Trends
+
+- Chapter 19: The Role of Mergers and Acquisitions in Telecoms:
+sections:
+- Section: 19.1 Mergers and Acquisitions and Competition:
+subsections:
+- 19.1a Role of Mergers and Acquisitions in Competitive Landscape
+- 19.1b Case Studies
+- 19.1c Future Trends
+
+- Section: 19.2 Mergers and Acquisitions and Regulation:
+subsections:
+- 19.2a Impact of Mergers and Acquisitions on Regulatory Framework
+- 19.2b Case Studies
+- 19.2c Future Trends
+
+- Section: 19.3 Mergers and Acquisitions and Consumer Demand:
+subsections:
+- 19.3a Role of Mergers and Acquisitions in Shaping Consumer Demand
+- 19.3b Case Studies
+- 19.3c Future Trends
+
+- Chapter 20: The Role of Digital Transformation in Telecoms:
+sections:
+- Section: 20.1 Digital Transformation and Competition:
+subsections:
+- 20.1a Role of Digital Transformation in Competitive Landscape
+- 20.1b Case Studies
+- 20.1c Future Trends
+
+- Section: 20.2 Digital Transformation and Regulation:
+subsections:
+- 20.2a Impact of Digital Transformation on Regulatory Framework
+- 20.2b Case Studies
+- 20.2c Future Trends
+
+- Section: 20.3 Digital Transformation and Consumer Demand:
+subsections:
+- 20.3a Role of Digital Transformation in Shaping Consumer Demand
+- 20.3b Case Studies
+- 20.3c Future Trends

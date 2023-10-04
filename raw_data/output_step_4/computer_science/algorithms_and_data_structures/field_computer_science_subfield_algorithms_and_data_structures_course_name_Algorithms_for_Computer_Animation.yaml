@@ -1,0 +1,367 @@
+textbook:
+  'Textbook for Algorithms for Computer Animation":':
+    chapters:
+    - '- Chapter 1: Animation Principles:':
+        sections:
+        - '- Section: 1.1 The Illusion of Life: Disney Animation:':
+            subsections:
+            - 1.1a History of Disney Animation
+            - 1.1b Key Principles of Disney Animation
+            - 1.1c Application in Modern Animation
+        - '- Section: 1.2 Principles of traditional animation applied to 3D computer animation:':
+            subsections:
+            - 1.2a Transition from Traditional to 3D Animation
+            - 1.2b Challenges in Applying Traditional Principles
+            - 1.2c Case Studies
+    - '- Chapter 2: Keyframing:':
+        sections:
+        - '- Section: 2.1 Inverse Kinematics:':
+            subsections:
+            - 2.1a Definition of Inverse Kinematics
+            - 2.1b Application in Animation
+            - 2.1c Challenges and Solutions
+        - '- Section: 2.2 Interpolation Techniques:':
+            subsections:
+            - 2.2a Linear Interpolation
+            - 2.2b Non-Linear Interpolation
+            - 2.2c Interpolation in Keyframing
+    - '- Chapter 3: Motion Capture:':
+        sections:
+        - '- Section: 3.1 Marker-based Motion Capture:':
+            subsections:
+            - 3.1a Introduction to Marker-based Motion Capture
+            - 3.1b Techniques and Equipment
+            - 3.1c Application in Animation
+        - '- Section: 3.2 Optical Motion Capture:':
+            subsections:
+            - 3.2a Introduction to Optical Motion Capture
+            - 3.2b Techniques and Equipment
+            - 3.2c Application in Animation
+        - '- Section: 3.3 Inertial Motion Capture:':
+            subsections:
+            - 3.3a Introduction to Inertial Motion Capture
+            - 3.3b Techniques and Equipment
+            - 3.3c Application in Animation
+    - '- Chapter 4: Particle Systems:':
+        sections:
+        - '- Section: 4.1 Particle Dynamics:':
+            subsections:
+            - 4.1a Introduction to Particle Dynamics
+            - 4.1b Particle System Algorithms
+            - 4.1c Application in Animation
+        - '- Section: 4.2 Particle Rendering:':
+            subsections:
+            - 4.2a Introduction to Particle Rendering
+            - 4.2b Techniques and Challenges
+            - 4.2c Case Studies
+        - '- Section: 4.3 Collisions and Interactions:':
+            subsections:
+            - 4.3a Collision Detection in Particle Systems
+            - 4.3b Interaction Models
+            - 4.3c Case Studies
+    - '- Chapter 5: Constraints:':
+        sections:
+        - '- Section: 5.1 Physics-based Constraints:':
+            subsections:
+            - 5.1a Introduction to Physics-based Constraints
+            - 5.1b Techniques and Algorithms
+            - 5.1c Application in Animation
+        - '- Section: 5.2 Geometric Constraints:':
+            subsections:
+            - 5.2a Introduction to Geometric Constraints
+            - 5.2b Techniques and Algorithms
+            - 5.2c Application in Animation
+        - '- Section: 5.3 Soft Constraints:':
+            subsections:
+            - 5.3a Introduction to Soft Constraints
+            - 5.3b Techniques and Algorithms
+            - 5.3c Application in Animation
+    - '- Chapter 6: Optimization:':
+        sections:
+        - '- Section: 6.1 Gradient Descent:':
+            subsections:
+            - 6.1a Introduction to Gradient Descent
+            - 6.1b Gradient Descent Algorithms
+            - 6.1c Application in Animation
+        - '- Section: 6.2 Genetic Algorithms:':
+            subsections:
+            - 6.2a Introduction to Genetic Algorithms
+            - 6.2b Genetic Algorithm Techniques
+            - 6.2c Application in Animation
+        - '- Section: 6.3 Simulated Annealing:':
+            subsections:
+            - 6.3a Introduction to Simulated Annealing
+            - 6.3b Simulated Annealing Techniques
+            - 6.3c Application in Animation
+    - '- Chapter 7: Rigid Bodies:':
+        sections:
+        - '- Section: 7.1 Rigid Body Dynamics:':
+            subsections:
+            - 7.1a Introduction to Rigid Body Dynamics
+            - 7.1b Rigid Body Algorithms
+            - 7.1c Application in Animation
+        - '- Section: 7.2 Collision Detection and Response:':
+            subsections:
+            - 7.2a Introduction to Collision Detection
+            - 7.2b Collision Detection Algorithms
+            - 7.2c Collision Response Techniques
+        - '- Section: 7.3 Articulated Bodies:':
+            subsections:
+            - 7.3a Introduction to Articulated Bodies
+            - 7.3b Articulated Body Algorithms
+            - 7.3c Application in Animation
+    - '- Chapter 8: Control of Rigid-Body Dynamics:':
+        sections:
+        - '- Section: 8.1 PID Control:':
+            subsections:
+            - 8.1a Introduction to PID Control
+            - 8.1b PID Control Algorithms
+            - 8.1c Application in Animation
+        - '- Section: 8.2 LQR Control:':
+            subsections:
+            - 8.2a Introduction to LQR Control
+            - 8.2b LQR Control Algorithms
+            - 8.2c Application in Animation
+        - '- Section: 8.3 Model Predictive Control:':
+            subsections:
+            - 8.3a Introduction to Model Predictive Control
+            - 8.3b Model Predictive Control Algorithms
+            - 8.3c Application in Animation
+    - '- Chapter 9: Automated Learning of Muscle Control:':
+        sections:
+        - '- Section: 9.1 Reinforcement Learning:':
+            subsections:
+            - 9.1a Introduction to Reinforcement Learning
+            - 9.1b Reinforcement Learning Algorithms
+            - 9.1c Application in Animation
+        - '- Section: 9.2 Neural Networks:':
+            subsections:
+            - 9.2a Introduction to Neural Networks
+            - 9.2b Neural Network Algorithms
+            - 9.2c Application in Animation
+        - '- Section: 9.3 Genetic Algorithms:':
+            subsections:
+            - 9.3a Introduction to Genetic Algorithms
+            - 9.3b Genetic Algorithm Techniques
+            - 9.3c Application in Animation
+    - '- Chapter 10: Natural and Expressive Motion:':
+        sections:
+        - '- Section: 10.1 Human Motion Analysis:':
+            subsections:
+            - 10.1a Introduction to Human Motion Analysis
+            - 10.1b Human Motion Analysis Techniques
+            - 10.1c Application in Animation
+        - '- Section: 10.2 Emotion-based Animation:':
+            subsections:
+            - 10.2a Introduction to Emotion-based Animation
+            - 10.2b Emotion-based Animation Techniques
+            - 10.2c Case Studies
+        - '- Section: 10.3 Gait Analysis:':
+            subsections:
+            - 10.3a Introduction to Gait Analysis
+            - 10.3b Gait Analysis Techniques
+            - 10.3c Application in Animation
+    - '- Chapter 11: Approximating Physics:':
+        sections:
+        - '- Section: 11.1 Verlet Integration:':
+            subsections:
+            - 11.1a Introduction to Verlet Integration
+            - 11.1b Verlet Integration Algorithms
+            - 11.1c Application in Animation
+        - '- Section: 11.2 Finite Element Methods:':
+            subsections:
+            - 11.2a Introduction to Finite Element Methods
+            - 11.2b Finite Element Method Algorithms
+            - 11.2c Application in Animation
+        - '- Section: 11.3 Lattice-Based Methods:':
+            subsections:
+            - 11.3a Introduction to Lattice-Based Methods
+            - 11.3b Lattice-Based Method Algorithms
+            - 11.3c Application in Animation
+    - '- Chapter 12: Flexible Bodies:':
+        sections:
+        - '- Section: 12.1 Deformable Models:':
+            subsections:
+            - 12.1a Introduction to Deformable Models
+            - 12.1b Deformable Model Algorithms
+            - 12.1c Application in Animation
+        - '- Section: 12.2 Mass-Spring Systems:':
+            subsections:
+            - 12.2a Introduction to Mass-Spring Systems
+            - 12.2b Mass-Spring System Algorithms
+            - 12.2c Application in Animation
+        - '- Section: 12.3 Finite Element Methods:':
+            subsections:
+            - 12.3a Introduction to Finite Element Methods
+            - 12.3b Finite Element Method Algorithms
+            - 12.3c Application in Animation
+    - '- Chapter 13: Cloth:':
+        sections:
+        - '- Section: 13.1 Cloth Simulation:':
+            subsections:
+            - 13.1a Introduction to Cloth Simulation
+            - 13.1b Cloth Simulation Algorithms
+            - 13.1c Application in Animation
+        - '- Section: 13.2 Collision Handling:':
+            subsections:
+            - 13.2a Introduction to Collision Handling
+            - 13.2b Collision Handling Algorithms
+            - 13.2c Application in Animation
+        - '- Section: 13.3 Wrinkle Simulation:':
+            subsections:
+            - 13.3a Introduction to Wrinkle Simulation
+            - 13.3b Wrinkle Simulation Algorithms
+            - 13.3c Application in Animation
+    - '- Chapter 14: Project Progress Reports:':
+        sections:
+        - '- Section: 14.1 Project Milestones:':
+            subsections:
+            - 14.1a Setting Project Milestones
+            - 14.1b Tracking Project Progress
+            - 14.1c Case Studies
+        - '- Section: 14.2 Presentation Skills:':
+            subsections:
+            - 14.2a Effective Presentation Techniques
+            - 14.2b Presentation Pitfalls to Avoid
+            - 14.2c Case Studies
+        - '- Section: 14.3 Technical Writing:':
+            subsections:
+            - 14.3a Introduction to Technical Writing
+            - 14.3b Effective Technical Writing Techniques
+            - 14.3c Case Studies
+    - '- Chapter 15: Interactive Synthetic Characters:':
+        sections:
+        - '- Section: 15.1 Character Animation:':
+            subsections:
+            - 15.1a Introduction to Character Animation
+            - 15.1b Character Animation Techniques
+            - 15.1c Application in Animation
+        - '- Section: 15.2 Facial Animation:':
+            subsections:
+            - 15.2a Introduction to Facial Animation
+            - 15.2b Facial Animation Techniques
+            - 15.2c Application in Animation
+        - '- Section: 15.3 Conversational Agents:':
+            subsections:
+            - 15.3a Introduction to Conversational Agents
+            - 15.3b Conversational Agent Techniques
+            - 15.3c Application in Animation
+    - '- Chapter 16: Smoke:':
+        sections:
+        - '- Section: 16.1 Smoke Simulation:':
+            subsections:
+            - 16.1a Introduction to Smoke Simulation
+            - 16.1b Smoke Simulation Algorithms
+            - 16.1c Application in Animation
+        - '- Section: 16.2 Turbulence Modeling:':
+            subsections:
+            - 16.2a Introduction to Turbulence Modeling
+            - 16.2b Turbulence Modeling Algorithms
+            - 16.2c Application in Animation
+        - '- Section: 16.3 Fire Simulation:':
+            subsections:
+            - 16.3a Introduction to Fire Simulation
+            - 16.3b Fire Simulation Algorithms
+            - 16.3c Application in Animation
+    - '- Chapter 17: Fluids:':
+        sections:
+        - '- Section: 17.1 Fluid Simulation:':
+            subsections:
+            - 17.1a Introduction to Fluid Simulation
+            - 17.1b Fluid Simulation Algorithms
+            - 17.1c Application in Animation
+        - '- Section: 17.2 Surface Tracking:':
+            subsections:
+            - 17.2a Introduction to Surface Tracking
+            - 17.2b Surface Tracking Algorithms
+            - 17.2c Application in Animation
+        - '- Section: 17.3 Free Surface Simulation:':
+            subsections:
+            - 17.3a Introduction to Free Surface Simulation
+            - 17.3b Free Surface Simulation Algorithms
+            - 17.3c Application in Animation
+    - '- Chapter 18: Motion Editing:':
+        sections:
+        - '- Section: 18.1 Keyframe Editing:':
+            subsections:
+            - 18.1a Introduction to Keyframe Editing
+            - 18.1b Keyframe Editing Techniques
+            - 18.1c Application in Animation
+        - '- Section: 18.2 Motion Graphs:':
+            subsections:
+            - 18.2a Introduction to Motion Graphs
+            - 18.2b Motion Graph Techniques
+            - 18.2c Application in Animation
+        - '- Section: 18.3 Motion Retargeting:':
+            subsections:
+            - 18.3a Introduction to Motion Retargeting
+            - 18.3b Motion Retargeting Techniques
+            - 18.3c Application in Animation
+    - '- Chapter 19: Higher-Level Behaviors:':
+        sections:
+        - '- Section: 19.1 Path Planning:':
+            subsections:
+            - 19.1a Introduction to Path Planning
+            - 19.1b Path Planning Algorithms
+            - 19.1c Application in Animation
+        - '- Section: 19.2 Behavior Trees:':
+            subsections:
+            - 19.2a Introduction to Behavior Trees
+            - 19.2b Behavior Tree Techniques
+            - 19.2c Application in Animation
+        - '- Section: 19.3 Decision Making:':
+            subsections:
+            - 19.3a Introduction to Decision Making
+            - 19.3b Decision Making Techniques
+            - 19.3c Application in Animation
+    - '- Chapter 20: Robot Controllers for Legged Locomotion:':
+        sections:
+        - '- Section: 20.1 Quadruped Locomotion:':
+            subsections:
+            - 20.1a Introduction to Quadruped Locomotion
+            - 20.1b Quadruped Locomotion Algorithms
+            - 20.1c Application in Animation
+        - '- Section: 20.2 Bipedal Locomotion:':
+            subsections:
+            - 20.2a Introduction to Bipedal Locomotion
+            - 20.2b Bipedal Locomotion Algorithms
+            - 20.2c Application in Animation
+        - '- Section: 20.3 Terrain Adaptation:':
+            subsections:
+            - 20.3a Introduction to Terrain Adaptation
+            - 20.3b Terrain Adaptation Techniques
+            - 20.3c Application in Animation
+    - '- Chapter 21: Composable Controllers:':
+        sections:
+        - '- Section: 21.1 Modular Animation Systems:':
+            subsections:
+            - 21.1a Introduction to Modular Animation Systems
+            - 21.1b Modular Animation System Techniques
+            - 21.1c Application in Animation
+        - '- Section: 21.2 Motion Blending:':
+            subsections:
+            - 21.2a Introduction to Motion Blending
+            - 21.2b Motion Blending Techniques
+            - 21.2c Application in Animation
+        - '- Section: 21.3 Motion Synthesis:':
+            subsections:
+            - 21.3a Introduction to Motion Synthesis
+            - 21.3b Motion Synthesis Techniques
+            - 21.3c Application in Animation
+    - '- Chapter 22: Final Project Reports:':
+        sections:
+        - '- Section: 22.1 Project Findings:':
+            subsections:
+            - 22.1a Presenting Project Findings
+            - 22.1b Interpreting Project Results
+            - 22.1c Case Studies
+        - '- Section: 22.2 Evaluation Metrics:':
+            subsections:
+            - 22.2a Introduction to Evaluation Metrics
+            - 22.2b Choosing Appropriate Metrics
+            - 22.2c Case Studies
+        - '- Section: 22.3 Future Work:':
+            subsections:
+            - 22.3a Planning for Future Work
+            - 22.3b Presenting Future Work
+            - 22.3c Case Studies

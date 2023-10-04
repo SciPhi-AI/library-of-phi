@@ -1,0 +1,248 @@
+textbook: 
+"Photography as Inquiry: Exploring Landscape Through Visual Storytelling":
+
+chapters:
+- Chapter 1: Introduction: Sensing Place:
+sections:
+- Section: 1.1 Chapter Overview
+- Section: 1.2 Understanding Landscape Photography
+- Section: 1.3 Importance of Visual Storytelling
+
+- Chapter 2: Reading and Telling Landscape:
+sections:
+- Section: 2.1 Lights of Day, in Season, in Place I:
+subsections:
+- 2.1a Exploring Different Lighting Conditions
+- 2.1b Capturing Seasonal Changes in a Landscape
+- 2.1c Photographing the Essence of a Place
+- Section: 2.2 Lights of Day, in Season, in Place II:
+subsections:
+- 2.2a Advanced Techniques for Capturing Lighting
+- 2.2b Creating Visual Narratives through Seasonal Changes
+
+- Chapter 3: Workshop on Photoshop and Web Authoring:
+sections:
+- Section: 3.1 Significant Detail I: Elements of Landscape Language in the Context of Place:
+subsections:
+- 3.1a Understanding Elements of Landscape Language
+- 3.1b Analyzing the Relationship between Elements and Place
+- Section: 3.2 Significant Detail II:
+subsections:
+- 3.2a Exploring the Power of Detail in Landscape Photography
+- 3.2b Creating Emotive Responses through Detailed Shots
+- 3.2c Enhancing Visual Impact through Detail-focused Editing
+
+- Chapter 4: Landscape Poetics:
+sections:
+- Section: 4.1 Landscape Poetics I:
+subsections:
+- 4.1a Exploring the Emotional Language of Landscapes
+- 4.1b Capturing the Essence of a Place through Poetry
+- 4.1c Creating Visual Poems with Landscape Photography
+- Section: 4.2 Landscape Poetics II:
+subsections:
+- 4.2a Analyzing the Symbolism in Landscape Photography
+- 4.2b Expressing Personal Interpretations through Symbolic Imagery
+- 4.2c Creating Evocative Visual Narratives through Symbolic Elements
+
+- Chapter 5: Landscape Narratives:
+sections:
+- Section: 5.1 Landscape Narratives I: Singles, Pairs, Series, and Sequences:
+subsections:
+- 5.1a Exploring Different Approaches to Landscape Narratives
+- 5.1b Crafting Compelling Visual Stories through Singles and Pairs
+- 5.1c Creating Sequential Narratives with Series and Sequences
+
+- Chapter 6: Storytelling: Words and Images:
+sections:
+- Section: 6.1 Review of Photo Essays in Online Galleries:
+subsections:
+- 6.1a Analyzing and Critiquing Photo Essays
+- 6.1b Understanding the Power of Visual Storytelling in Photo Essays
+- Section: 6.2 Photography as Inquiry:
+subsections:
+- 6.2a Exploring the Intersection of Photography and Inquiry
+- 6.2b Using Photography as a Tool for Investigating Place
+- 6.2c Documenting and Communicating Findings through Visual Inquiry
+
+- Chapter 7: Landscape Composition:
+sections:
+- Section: 7.1 Understanding Composition:
+subsections:
+- 7.1a The Rule of Thirds
+- 7.1b Leading Lines
+- 7.1c Framing and Balance
+- Section: 7.2 Advanced Composition Techniques:
+subsections:
+- 7.2a Using Negative Space
+- 7.2b Symmetry and Patterns
+- 7.2c Depth and Layers
+
+- Chapter 8: The Role of Color in Landscape Photography:
+sections:
+- Section: 8.1 Understanding Color Theory:
+subsections:
+- 8.1a The Color Wheel
+- 8.1b Color Harmony
+- 8.1c Color and Emotion
+- Section: 8.2 Using Color in Landscape Photography:
+subsections:
+- 8.2a Color and Composition
+- 8.2b Color and Mood
+- 8.2c Color and Time of Day
+
+- Chapter 9: The Role of Black and White in Landscape Photography:
+sections:
+- Section: 9.1 Understanding Black and White Photography:
+subsections:
+- 9.1a The History of Black and White Photography
+- 9.1b The Aesthetics of Black and White
+- 9.1c Black and White vs. Color
+- Section: 9.2 Using Black and White in Landscape Photography:
+subsections:
+- 9.2a When to Use Black and White
+- 9.2b Black and White and Composition
+- 9.2c Black and White and Mood
+
+- Chapter 10: The Role of Light in Landscape Photography:
+sections:
+- Section: 10.1 Understanding Light:
+subsections:
+- 10.1a The Quality of Light
+- 10.1b The Direction of Light
+- 10.1c The Color of Light
+- Section: 10.2 Using Light in Landscape Photography:
+subsections:
+- 10.2a The Golden Hour
+- 10.2b The Blue Hour
+- 10.2c Midday Light
+
+- Chapter 11: The Role of Weather in Landscape Photography:
+sections:
+- Section: 11.1 Understanding Weather:
+subsections:
+- 11.1a The Impact of Weather on Light
+- 11.1b The Impact of Weather on Color
+- 11.1c The Impact of Weather on Mood
+- Section: 11.2 Using Weather in Landscape Photography:
+subsections:
+- 11.2a Photographing in Different Weather Conditions
+- 11.2b Weather and Composition
+- 11.2c Weather and Mood
+
+- Chapter 12: The Role of Time in Landscape Photography:
+sections:
+- Section: 12.1 Understanding Time:
+subsections:
+- 12.1a The Impact of Time on Light
+- 12.1b The Impact of Time on Color
+- 12.1c The Impact of Time on Mood
+- Section: 12.2 Using Time in Landscape Photography:
+subsections:
+- 12.2a Photographing at Different Times of Day
+- 12.2b Time and Composition
+- 12.2c Time and Mood
+
+- Chapter 13: The Role of Location in Landscape Photography:
+sections:
+- Section: 13.1 Understanding Location:
+subsections:
+- 13.1a The Impact of Location on Composition
+- 13.1b The Impact of Location on Mood
+- 13.1c The Impact of Location on Storytelling
+- Section: 13.2 Using Location in Landscape Photography:
+subsections:
+- 13.2a Choosing a Location
+- 13.2b Location and Composition
+- 13.2c Location and Mood
+
+- Chapter 14: The Role of Perspective in Landscape Photography:
+sections:
+- Section: 14.1 Understanding Perspective:
+subsections:
+- 14.1a The Impact of Perspective on Composition
+- 14.1b The Impact of Perspective on Mood
+- 14.1c The Impact of Perspective on Storytelling
+- Section: 14.2 Using Perspective in Landscape Photography:
+subsections:
+- 14.2a Choosing a Perspective
+- 14.2b Perspective and Composition
+- 14.2c Perspective and Mood
+
+- Chapter 15: The Role of Equipment in Landscape Photography:
+sections:
+- Section: 15.1 Understanding Equipment:
+subsections:
+- 15.1a The Impact of Equipment on Quality
+- 15.1b The Impact of Equipment on Creativity
+- 15.1c The Impact of Equipment on Flexibility
+- Section: 15.2 Using Equipment in Landscape Photography:
+subsections:
+- 15.2a Choosing the Right Equipment
+- 15.2b Equipment and Composition
+- 15.2c Equipment and Creativity
+
+- Chapter 16: The Role of Post-Processing in Landscape Photography:
+sections:
+- Section: 16.1 Understanding Post-Processing:
+subsections:
+- 16.1a The Impact of Post-Processing on Quality
+- 16.1b The Impact of Post-Processing on Creativity
+- 16.1c The Impact of Post-Processing on Storytelling
+- Section: 16.2 Using Post-Processing in Landscape Photography:
+subsections:
+- 16.2a Choosing the Right Post-Processing Tools
+- 16.2b Post-Processing and Composition
+- 16.2c Post-Processing and Creativity
+
+- Chapter 17: The Role of the Photographer in Landscape Photography:
+sections:
+- Section: 17.1 Understanding the Photographer's Role:
+subsections:
+- 17.1a The Impact of the Photographer on Composition
+- 17.1b The Impact of the Photographer on Mood
+- 17.1c The Impact of the Photographer on Storytelling
+- Section: 17.2 The Photographer's Role in Landscape Photography:
+subsections:
+- 17.2a Choosing a Personal Style
+- 17.2b The Photographer and Composition
+- 17.2c The Photographer and Creativity
+
+- Chapter 18: The Role of the Viewer in Landscape Photography:
+sections:
+- Section: 18.1 Understanding the Viewer's Role:
+subsections:
+- 18.1a The Impact of the Viewer on Interpretation
+- 18.1b The Impact of the Viewer on Mood
+- 18.1c The Impact of the Viewer on Storytelling
+- Section: 18.2 The Viewer's Role in Landscape Photography:
+subsections:
+- 18.2a Understanding the Viewer's Perspective
+- 18.2b The Viewer and Composition
+- 18.2c The Viewer and Creativity
+
+- Chapter 19: The Role of Critique in Landscape Photography:
+sections:
+- Section: 19.1 Understanding Critique:
+subsections:
+- 19.1a The Impact of Critique on Improvement
+- 19.1b The Impact of Critique on Creativity
+- 19.1c The Impact of Critique on Storytelling
+- Section: 19.2 The Role of Critique in Landscape Photography:
+subsections:
+- 19.2a Giving and Receiving Critique
+- 19.2b Critique and Composition
+- 19.2c Critique and Creativity
+
+- Chapter 20: The Role of Exhibition in Landscape Photography:
+sections:
+- Section: 20.1 Understanding Exhibition:
+subsections:
+- 20.1a The Impact of Exhibition on Recognition
+- 20.1b The Impact of Exhibition on Creativity
+- 20.1c The Impact of Exhibition on Storytelling
+- Section: 20.2 The Role of Exhibition in Landscape Photography:
+subsections:
+- 20.2a Preparing for an Exhibition
+- 20.2b Exhibition and Composition
+- 20.2c Exhibition and Creativity

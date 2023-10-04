@@ -1,0 +1,290 @@
+textbook:
+  'Electromagnetic Energy: From Motors to Lasers - A Comprehensive Study":':
+    chapters:
+    - '- Chapter 1: Introduction to Electromagnetic Energy:':
+        sections:
+        - '- Section: 1.1 iPhone components:':
+            subsections:
+            - 1.1a Components Overview
+            - 1.1b Energy Consumption
+            - 1.1c Efficiency and Performance
+        - '- Section: 1.2 Energy and power:':
+            subsections:
+            - 1.2a Energy Definition
+            - 1.2b Power Definition
+            - 1.2c Energy-Power Relationship
+        - '- Section: 1.3 Electrical vs. gas engine:':
+            subsections:
+            - 1.3a Electrical Engine Overview
+            - 1.3b Gas Engine Overview
+            - 1.3c Comparative Analysis
+        - '- Section: 1.4 Energy in electrical systems:':
+            subsections:
+            - 1.4a Energy Generation
+            - 1.4b Energy Transmission
+            - 1.4c Energy Consumption
+    - '- Chapter 2: Electrostatics:':
+        sections:
+        - '- Section: 2.1 Gauss''s law and boundary conditions:':
+            subsections:
+            - 2.1a Gauss's Law
+            - 2.1b Boundary Conditions
+            - 2.1c Applications of Gauss's Law
+    - '- Chapter 3: Magnetostatics:':
+        sections:
+        - '- Section: 3.1 Magnetic fields and forces:':
+            subsections:
+            - 3.1a Magnetic Field Definition
+            - 3.1b Magnetic Forces
+            - 3.1c Field-Force Relationship
+        - '- Section: 3.2 Forces in magnetostatics:':
+            subsections:
+            - 3.2a Force Calculations
+            - 3.2b Force Effects
+            - 3.2c Practical Applications
+    - '- Chapter 4: Practical MQS Systems:':
+        sections:
+        - '- Section: 4.1 Torroids, solenoids, magnets:':
+            subsections:
+            - 4.1a Torroids Overview
+            - 4.1b Solenoids Overview
+            - 4.1c Magnets Overview
+        - '- Section: 4.2 Actuators:':
+            subsections:
+            - 4.2a Actuator Definition
+            - 4.2b Actuator Types
+            - 4.2c Actuator Applications
+    - '- Chapter 5: Magnetic Materials:':
+        sections:
+        - '- Section: 5.1 Faraday''s law (induced emf):':
+            subsections:
+            - 5.1a Faraday's Law
+            - 5.1b Induced EMF
+            - 5.1c Faraday's Law Applications
+        - '- Section: 5.2 Magnetic circuits and transformers:':
+            subsections:
+            - 5.2a Magnetic Circuit Definition
+            - 5.2b Transformers Overview
+            - 5.2c Circuit-Transformer Relationship
+    - '- Chapter 6: Energy Conversion Systems:':
+        sections:
+        - '- Section: 6.1 Forces via energy conservation:':
+            subsections:
+            - 6.1a Energy Conservation Principle
+            - 6.1b Force Generation
+            - 6.1c Conservation-Force Relationship
+        - '- Section: 6.2 Stored energy and magnetic actuators:':
+            subsections:
+            - 6.2a Energy Storage
+            - 6.2b Magnetic Actuators
+            - 6.2c Storage-Actuator Relationship
+        - '- Section: 6.3 Rail guns:':
+            subsections:
+            - 6.3a Rail Gun Definition
+            - 6.3b Rail Gun Operation
+            - 6.3c Rail Gun Applications
+    - '- Chapter 7: Dielectrics and Dipoles:':
+        sections:
+        - '- Section: 7.1 Practical dielectrics:':
+            subsections:
+            - 7.1a Dielectric Materials
+            - 7.1b Dielectric Properties
+            - 7.1c Dielectric Applications
+        - '- Section: 7.2 Limits of statics and quasistatics:':
+            subsections:
+            - 7.2a Statics Limitations
+            - 7.2b Quasistatics Limitations
+            - 7.2c Overcoming Limitations
+    - '- Chapter 8: Linear Systems, Complex Numbers, and Phasors:':
+        sections:
+        - '- Section: 8.1 ''Lab 2: Shooting magnets'':':
+            subsections:
+            - 8.1a Lab Overview
+            - 8.1b Lab Procedure
+            - 8.1c Lab Results
+        - '- Section: 8.2 Electromagnetic waves:':
+            subsections:
+            - 8.2a Wave Definition
+            - 8.2b Wave Properties
+            - 8.2c Wave Applications
+    - '- Chapter 9: Examples of Uniform EM Plane Waves:':
+        sections:
+        - '- Section: 9.1 ''Generating EM waves: antennas'':':
+            subsections:
+            - 9.1a Antenna Overview
+            - 9.1b EM Wave Generation
+            - 9.1c Antenna-Wave Relationship
+        - '- Section: 9.2 Interaction of atoms and EM waves:':
+            subsections:
+            - 9.2a Atomic Structure
+            - 9.2b EM Wave Interaction
+            - 9.2c Interaction Effects
+        - '- Section: 9.3 Lossy EM waves:':
+            subsections:
+            - 9.3a Lossy Wave Definition
+            - 9.3b Lossy Wave Properties
+            - 9.3c Lossy Wave Applications
+        - '- Section: 9.4 Polarized light and polarizers:':
+            subsections:
+            - 9.4a Polarized Light
+            - 9.4b Polarizers
+            - 9.4c Polarized Light Applications
+    - '- Chapter 10: Birefringence and Liquid Crystal Display:':
+        sections:
+        - '- Section: 10.1 Birefringence:':
+            subsections:
+            - 10.1a Birefringence Definition
+            - 10.1b Birefringence Effects
+            - 10.1c Birefringence Applications
+        - '- Section: 10.2 Liquid crystal display:':
+            subsections:
+            - 10.2a LCD Overview
+            - 10.2b LCD Operation
+            - 10.2c LCD Applications
+        - '- Section: 10.3 Interference and diffraction:':
+            subsections:
+            - 10.3a Interference Phenomenon
+            - 10.3b Diffraction Phenomenon
+            - 10.3c Interference-Diffraction Relationship
+        - '- Section: 10.4 Diffraction and holography:':
+            subsections:
+            - 10.4a Diffraction Overview
+            - 10.4b Holography Overview
+            - 10.4c Diffraction-Holography Relationship
+    - '- Chapter 11: Reflection and Transmission of EM Waves:':
+        sections:
+        - '- Section: 11.1 EM reflection and transmission in layered media:':
+            subsections:
+            - 11.1a Reflection in Layered Media
+            - 11.1b Transmission in Layered Media
+            - 11.1c Reflection-Transmission Relationship
+        - '- Section: 11.2 Optical resonators:':
+            subsections:
+            - 11.2a Resonator Definition
+            - 11.2b Resonator Types
+            - 11.2c Resonator Applications
+        - '- Section: 11.3 Refraction and Snell''s law:':
+            subsections:
+            - 11.3a Refraction Phenomenon
+            - 11.3b Snell's Law
+            - 11.3c Refraction-Snell's Law Relationship
+        - '- Section: 11.4 Fresnel equations and EM power flow:':
+            subsections:
+            - 11.4a Fresnel Equations
+            - 11.4b EM Power Flow
+            - 11.4c Fresnel-Power Flow Relationship
+    - '- Chapter 12: Waveguides and Wavepackets:':
+        sections:
+        - '- Section: 12.1 Waveguides:':
+            subsections:
+            - 12.1a Waveguide Definition
+            - 12.1b Waveguide Types
+            - 12.1c Waveguide Applications
+        - '- Section: 12.2 Wavepackets:':
+            subsections:
+            - 12.2a Wavepacket Definition
+            - 12.2b Wavepacket Properties
+            - 12.2c Wavepacket Applications
+        - '- Section: 12.3 ''Photon: quantum of energy'':':
+            subsections:
+            - 12.3a Photon Definition
+            - 12.3b Quantum Energy
+            - 12.3c Photon-Energy Relationship
+        - '- Section: 12.4 Photon momentum and uncertainty:':
+            subsections:
+            - 12.4a Photon Momentum
+            - 12.4b Uncertainty Principle
+            - 12.4c Momentum-Uncertainty Relationship
+        - '- Section: 12.5 Examples of Heisenberg uncertainty principle:':
+            subsections:
+            - 12.5a Uncertainty Principle Overview
+            - 12.5b Uncertainty Principle Examples
+            - 12.5c Uncertainty Principle Implications
+    - '- Chapter 13: Schrodinger Equation:':
+        sections:
+        - '- Section: 13.1 Particle in a box:':
+            subsections:
+            - 13.1a Particle in a Box Problem
+            - 13.1b Schrodinger Solution
+            - 13.1c Problem-Solution Relationship
+        - '- Section: 13.2 Reflection from a potential step:':
+            subsections:
+            - 13.2a Potential Step Problem
+            - 13.2b Schrodinger Solution
+            - 13.2c Problem-Solution Relationship
+        - '- Section: 13.3 Tunneling:':
+            subsections:
+            - 13.3a Tunneling Phenomenon
+            - 13.3b Schrodinger Solution
+            - 13.3c Tunneling Applications
+    - '- Chapter 14: Tunneling Applications:':
+        sections:
+        - '- Section: 14.1 Tunneling applications:':
+            subsections:
+            - 14.1a Tunneling in Electronics
+            - 14.1b Tunneling in Optics
+            - 14.1c Tunneling in Quantum Computing
+        - '- Section: 14.2 From atoms to molecules:':
+            subsections:
+            - 14.2a Atomic Structure
+            - 14.2b Molecular Structure
+            - 14.2c Atomic-Molecular Transition
+        - '- Section: 14.3 Semiconductors:':
+            subsections:
+            - 14.3a Semiconductor Basics
+            - 14.3b Semiconductor Devices
+            - 14.3c Semiconductor Applications
+        - '- Section: 14.4 Light emitting diodes:':
+            subsections:
+            - 14.4a LED Basics
+            - 14.4b LED Operation
+            - 14.4c LED Applications
+        - '- Section: 14.5 Photodetectors, solar cells:':
+            subsections:
+            - 14.5a Photodetector Basics
+            - 14.5b Solar Cell Basics
+            - 14.5c Photodetector-Solar Cell Relationship
+    - '- Chapter 15: Quantum Superposition and Optical Transitions:':
+        sections:
+        - '- Section: 15.1 Electron wavepackets and microscopic Ohm''s law:':
+            subsections:
+            - 15.1a Electron Wavepackets
+            - 15.1b Microscopic Ohm's Law
+            - 15.1c Wavepacket-Ohm's Law Relationship
+        - '- Section: 15.2 Quantum superposition and optical transitions:':
+            subsections:
+            - 15.2a Quantum Superposition
+            - 15.2b Optical Transitions
+            - 15.2c Superposition-Transition Relationship
+        - '- Section: 15.3 Lasers:':
+            subsections:
+            - 15.3a Laser Basics
+            - 15.3b Laser Operation
+            - 15.3c Laser Applications
+    - '- Chapter 16: Special Topics in Electromagnetic Energy:':
+        sections:
+        - '- Section: 16.1 Electromagnetic Energy in Medicine:':
+            subsections:
+            - 16.1a Medical Imaging
+            - 16.1b Therapeutic Applications
+            - 16.1c Future Trends in Medical Electromagnetics
+        - '- Section: 16.2 Electromagnetic Energy in Communication Systems:':
+            subsections:
+            - 16.2a Wireless Communication
+            - 16.2b Optical Communication
+            - 16.2c Future Trends in Communication Systems
+        - '- Section: 16.3 Electromagnetic Energy in Renewable Energy Systems:':
+            subsections:
+            - 16.3a Solar Energy Systems
+            - 16.3b Wind Energy Systems
+            - 16.3c Future Trends in Renewable Energy Systems
+        - '- Section: 16.4 Electromagnetic Energy in Aerospace Technology:':
+            subsections:
+            - 16.4a Radar Systems
+            - 16.4b Satellite Communication
+            - 16.4c Future Trends in Aerospace Technology
+        - '- Section: 16.5 Electromagnetic Energy in Nanotechnology:':
+            subsections:
+            - 16.5a Nanoscale Electromagnetic Devices
+            - 16.5b Nanoscale Optical Devices
+            - 16.5c Future Trends in Nanotechnology

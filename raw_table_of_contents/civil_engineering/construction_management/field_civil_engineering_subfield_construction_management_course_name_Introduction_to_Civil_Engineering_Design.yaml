@@ -1,0 +1,345 @@
+textbook:
+  'Introduction to Civil Engineering Design: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Civil Engineering Design:':
+        sections:
+        - '- Section: 1.1 Design Principles 1:':
+            subsections:
+            - 1.1a Introduction to design principles
+            - 1.1b Importance of design principles in civil engineering
+            - 1.1c Application of design principles in civil engineering projects
+        - '- Section: 1.2 Sketching:':
+            subsections:
+            - 1.2a Introduction to sketching in civil engineering design
+            - 1.2b Tools and techniques for sketching
+            - 1.2c Importance of sketching in the design process
+        - '- Section: 1.3 Design Project 1 - Paperweight:':
+            subsections:
+            - 1.3a Design requirements for a paperweight
+            - 1.3b Material selection for paperweight design
+            - 1.3c Structural considerations for paperweight design
+    - '- Chapter 2: Computer Aided Design (CAD):':
+        sections:
+        - '- Section: 2.1 Sketching:':
+            subsections:
+            - 2.1a Introduction to sketching in civil engineering design
+            - 2.1b Tools and techniques for sketching
+            - 2.1c Importance of sketching in the design process
+        - '- Section: 2.2 Design Principles 2:':
+            subsections:
+            - 2.2a Advanced design principles in civil engineering
+            - 2.2b Applications of advanced design principles in civil engineering
+              projects
+            - 2.2c Integrating design principles with CAD software
+        - '- Section: 2.3 Prepare Deltagame:':
+            subsections:
+            - 2.3a Introduction to Deltagame preparation
+            - 2.3b Tools and techniques for preparing Deltagame
+            - 2.3c Importance of Deltagame in civil engineering design process
+    - '- Chapter 3: Deltagame:':
+        sections:
+        - '- Section: 3.1 ''Specialists'''' Meeting'':':
+            subsections:
+            - 3.1a Importance of specialists' meeting in Deltagame
+            - 3.1b Role of specialists in Deltagame
+            - 3.1c Collaboration and communication in specialists' meeting
+        - '- Section: 3.2 Deltagame:':
+            subsections:
+            - 3.2a Introduction to Deltagame
+            - 3.2b Rules and objectives of Deltagame
+            - 3.2c Application of Deltagame in civil engineering design
+    - '- Chapter 4: Design Project 2 - Charles River:':
+        sections:
+        - '- Section: 4.1 Background, Brainstorm, Conceptualize:':
+            subsections:
+            - 4.1a Understanding the background of Charles River project
+            - 4.1b Brainstorming ideas for Charles River design
+            - 4.1c Conceptualizing the design approach for Charles River project
+        - '- Section: 4.2 Design Including Co:':
+            subsections:
+            - 4.2a Considerations for coordination in Charles River design
+            - 4.2b Collaboration with other disciplines in Charles River design
+            - 4.2c Coordinating design elements in Charles River project
+        - '- Section: 4.3 Presentation:':
+            subsections:
+            - 4.3a Effective presentation skills for Charles River design
+            - 4.3b Visual aids and documentation for Charles River presentation
+            - 4.3c Engaging the audience during Charles River presentation
+    - '- Chapter 5: Design Project 4 - Green Line:':
+        sections:
+        - '- Section: 5.1 Intro:':
+            subsections:
+            - 5.1a Introduction to Green Line project
+            - 5.1b Objectives and challenges of Green Line design
+            - 5.1c Importance of sustainability in Green Line project
+        - '- Section: 5.2 Brainstorm, Conceptualize, Alternatives:':
+            subsections:
+            - 5.2a Brainstorming ideas for Green Line design
+            - 5.2b Conceptualizing alternative approaches for Green Line project
+            - 5.2c Evaluating design alternatives for Green Line project
+        - '- Section: 5.3 Design:':
+            subsections:
+            - 5.3a Detailed design considerations for Green Line project
+            - 5.3b Structural analysis and simulations for Green Line design
+            - 5.3c Incorporating sustainable features in Green Line design
+        - '- Section: 5.4 Presentation:':
+            subsections:
+            - 5.4a Effective presentation skills for Green Line design
+            - 5.4b Visual aids and documentation for Green Line presentation
+            - 5.4c Engaging the audience during Green Line presentation
+    - '- Chapter 6: Design Project 3 - Coat Stand:':
+        sections:
+        - '- Section: 6.1 Coat Stand:':
+            subsections:
+            - 6.1a Introduction to coat stand design project
+            - 6.1b Functional requirements for coat stand design
+            - 6.1c Material selection and structural considerations for coat stand
+              design
+    - '- Chapter 7: Design Principles 3 and 4:':
+        sections:
+        - '- Section: 7.1 Design Principles 3 and 4:':
+            subsections:
+            - 7.1a Advanced design principles in civil engineering
+            - 7.1b Applications of advanced design principles in civil engineering
+              projects
+            - 7.1c Incorporating design principles 3 and 4 in the design process
+    - '- Chapter 8: Design portfolios:':
+        sections:
+        - '- Section: 8.1 The Design Process:':
+            subsections:
+            - 8.1a Overview of the design process in civil engineering
+            - 8.1b Stages and steps involved in the design process
+            - 8.1c Iterative nature of the design process in civil engineering
+        - '- Section: 8.2 Group/Teamwork Design:':
+            subsections:
+            - 8.2a Importance of teamwork in civil engineering design
+            - 8.2b Effective communication and collaboration in design teams
+            - 8.2c Strategies for successful group design projects
+        - '- Section: 8.3 ''Project 1: Paperweight Design'':':
+            subsections:
+            - 8.3a Detailed analysis of the paperweight design project
+            - 8.3b Design considerations for paperweight materials and structure
+            - 8.3c Presentation and documentation requirements for paperweight design
+              project
+        - '- Section: 8.4 ''Project 2: Charles River Project'':':
+            subsections:
+            - 8.4a Detailed analysis of the Charles River design project
+            - 8.4b Design considerations for Charles River site and infrastructure
+            - 8.4c Presentation and documentation requirements for Charles River design
+              project
+        - '- Section: 8.5 ''Project 4: Green Line'':':
+            subsections:
+            - 8.5a Detailed analysis of the Green Line design project
+            - 8.5b Design considerations for Green Line transportation system
+            - 8.5c Presentation and documentation requirements for Green Line design
+              project
+        - '- Section: 8.6 ''Project 3: Coat Stand'':':
+            subsections:
+            - 8.6a Detailed analysis of the coat stand design project
+            - 8.6b Design considerations for coat stand aesthetics and functionality
+            - 8.6c Presentation and documentation requirements for coat stand design
+              project
+    - '- Chapter 9: Introduction to Civil Engineering Materials:':
+        sections:
+        - '- Section: 9.1 Concrete:':
+            subsections:
+            - 9.1a Introduction to concrete
+            - 9.1b Properties of concrete
+            - 9.1c Use of concrete in civil engineering design
+        - '- Section: 9.2 Steel:':
+            subsections:
+            - 9.2a Introduction to steel
+            - 9.2b Properties of steel
+            - 9.2c Use of steel in civil engineering design
+        - '- Section: 9.3 Wood:':
+            subsections:
+            - 9.3a Introduction to wood
+            - 9.3b Properties of wood
+            - 9.3c Use of wood in civil engineering design
+    - '- Chapter 10: Structural Analysis:':
+        sections:
+        - '- Section: 10.1 Load Analysis:':
+            subsections:
+            - 10.1a Introduction to load analysis
+            - 10.1b Types of loads in civil engineering design
+            - 10.1c Load analysis in structural design
+        - '- Section: 10.2 Stress Analysis:':
+            subsections:
+            - 10.2a Introduction to stress analysis
+            - 10.2b Types of stresses in civil engineering design
+            - 10.2c Stress analysis in structural design
+        - '- Section: 10.3 Deflection Analysis:':
+            subsections:
+            - 10.3a Introduction to deflection analysis
+            - 10.3b Deflection under different types of loads
+            - 10.3c Deflection analysis in structural design
+    - '- Chapter 11: Geotechnical Engineering:':
+        sections:
+        - '- Section: 11.1 Soil Mechanics:':
+            subsections:
+            - 11.1a Introduction to soil mechanics
+            - 11.1b Properties of soils
+            - 11.1c Soil mechanics in civil engineering design
+        - '- Section: 11.2 Foundation Design:':
+            subsections:
+            - 11.2a Introduction to foundation design
+            - 11.2b Types of foundations in civil engineering design
+            - 11.2c Foundation design in civil engineering projects
+        - '- Section: 11.3 Slope Stability:':
+            subsections:
+            - 11.3a Introduction to slope stability
+            - 11.3b Factors affecting slope stability
+            - 11.3c Slope stability analysis in civil engineering design
+    - '- Chapter 12: Transportation Engineering:':
+        sections:
+        - '- Section: 12.1 Road Design:':
+            subsections:
+            - 12.1a Introduction to road design
+            - 12.1b Principles of road design
+            - 12.1c Road design in civil engineering projects
+        - '- Section: 12.2 Traffic Engineering:':
+            subsections:
+            - 12.2a Introduction to traffic engineering
+            - 12.2b Traffic flow theory
+            - 12.2c Traffic engineering in civil engineering design
+        - '- Section: 12.3 Public Transportation:':
+            subsections:
+            - 12.3a Introduction to public transportation
+            - 12.3b Design considerations for public transportation systems
+            - 12.3c Public transportation in civil engineering projects
+    - '- Chapter 13: Environmental Engineering:':
+        sections:
+        - '- Section: 13.1 Water Treatment:':
+            subsections:
+            - 13.1a Introduction to water treatment
+            - 13.1b Water treatment processes
+            - 13.1c Water treatment in civil engineering design
+        - '- Section: 13.2 Wastewater Treatment:':
+            subsections:
+            - 13.2a Introduction to wastewater treatment
+            - 13.2b Wastewater treatment processes
+            - 13.2c Wastewater treatment in civil engineering design
+        - '- Section: 13.3 Solid Waste Management:':
+            subsections:
+            - 13.3a Introduction to solid waste management
+            - 13.3b Solid waste management strategies
+            - 13.3c Solid waste management in civil engineering projects
+    - '- Chapter 14: Construction Management:':
+        sections:
+        - '- Section: 14.1 Project Planning:':
+            subsections:
+            - 14.1a Introduction to project planning
+            - 14.1b Project planning techniques
+            - 14.1c Project planning in civil engineering projects
+        - '- Section: 14.2 Cost Estimation:':
+            subsections:
+            - 14.2a Introduction to cost estimation
+            - 14.2b Cost estimation techniques
+            - 14.2c Cost estimation in civil engineering projects
+        - '- Section: 14.3 Construction Scheduling:':
+            subsections:
+            - 14.3a Introduction to construction scheduling
+            - 14.3b Construction scheduling techniques
+            - 14.3c Construction scheduling in civil engineering projects
+    - '- Chapter 15: Surveying:':
+        sections:
+        - '- Section: 15.1 Land Surveying:':
+            subsections:
+            - 15.1a Introduction to land surveying
+            - 15.1b Land surveying techniques
+            - 15.1c Land surveying in civil engineering projects
+        - '- Section: 15.2 Topographic Surveying:':
+            subsections:
+            - 15.2a Introduction to topographic surveying
+            - 15.2b Topographic surveying techniques
+            - 15.2c Topographic surveying in civil engineering projects
+        - '- Section: 15.3 Construction Surveying:':
+            subsections:
+            - 15.3a Introduction to construction surveying
+            - 15.3b Construction surveying techniques
+            - 15.3c Construction surveying in civil engineering projects
+    - '- Chapter 16: Hydraulics and Hydrology:':
+        sections:
+        - '- Section: 16.1 Fluid Mechanics:':
+            subsections:
+            - 16.1a Introduction to fluid mechanics
+            - 16.1b Principles of fluid mechanics
+            - 16.1c Fluid mechanics in civil engineering design
+        - '- Section: 16.2 Hydraulic Design:':
+            subsections:
+            - 16.2a Introduction to hydraulic design
+            - 16.2b Hydraulic design considerations
+            - 16.2c Hydraulic design in civil engineering projects
+        - '- Section: 16.3 Hydrologic Design:':
+            subsections:
+            - 16.3a Introduction to hydrologic design
+            - 16.3b Hydrologic design considerations
+            - 16.3c Hydrologic design in civil engineering projects
+    - '- Chapter 17: Structural Design:':
+        sections:
+        - '- Section: 17.1 Concrete Structures:':
+            subsections:
+            - 17.1a Introduction to concrete structures
+            - 17.1b Design considerations for concrete structures
+            - 17.1c Concrete structures in civil engineering projects
+        - '- Section: 17.2 Steel Structures:':
+            subsections:
+            - 17.2a Introduction to steel structures
+            - 17.2b Design considerations for steel structures
+            - 17.2c Steel structures in civil engineering projects
+        - '- Section: 17.3 Timber Structures:':
+            subsections:
+            - 17.3a Introduction to timber structures
+            - 17.3b Design considerations for timber structures
+            - 17.3c Timber structures in civil engineering projects
+    - '- Chapter 18: Geotechnical Design:':
+        sections:
+        - '- Section: 18.1 Soil Mechanics:':
+            subsections:
+            - 18.1a Introduction to soil mechanics
+            - 18.1b Soil mechanics in geotechnical design
+            - 18.1c Soil mechanics in civil engineering projects
+        - '- Section: 18.2 Foundation Design:':
+            subsections:
+            - 18.2a Introduction to foundation design
+            - 18.2b Foundation design in geotechnical design
+            - 18.2c Foundation design in civil engineering projects
+        - '- Section: 18.3 Slope Stability:':
+            subsections:
+            - 18.3a Introduction to slope stability
+            - 18.3b Slope stability in geotechnical design
+            - 18.3c Slope stability in civil engineering projects
+    - '- Chapter 19: Transportation Design:':
+        sections:
+        - '- Section: 19.1 Road Design:':
+            subsections:
+            - 19.1a Introduction to road design
+            - 19.1b Road design in transportation design
+            - 19.1c Road design in civil engineering projects
+        - '- Section: 19.2 Traffic Engineering:':
+            subsections:
+            - 19.2a Introduction to traffic engineering
+            - 19.2b Traffic engineering in transportation design
+            - 19.2c Traffic engineering in civil engineering projects
+        - '- Section: 19.3 Public Transportation:':
+            subsections:
+            - 19.3a Introduction to public transportation
+            - 19.3b Public transportation in transportation design
+            - 19.3c Public transportation in civil engineering projects
+    - '- Chapter 20: Environmental Design:':
+        sections:
+        - '- Section: 20.1 Water Treatment:':
+            subsections:
+            - 20.1a Introduction to water treatment
+            - 20.1b Water treatment in environmental design
+            - 20.1c Water treatment in civil engineering projects
+        - '- Section: 20.2 Wastewater Treatment:':
+            subsections:
+            - 20.2a Introduction to wastewater treatment
+            - 20.2b Wastewater treatment in environmental design
+            - 20.2c Wastewater treatment in civil engineering projects
+        - '- Section: 20.3 Solid Waste Management:':
+            subsections:
+            - 20.3a Introduction to solid waste management
+            - 20.3b Solid waste management in environmental design
+            - 20.3c Solid waste management in civil engineering projects

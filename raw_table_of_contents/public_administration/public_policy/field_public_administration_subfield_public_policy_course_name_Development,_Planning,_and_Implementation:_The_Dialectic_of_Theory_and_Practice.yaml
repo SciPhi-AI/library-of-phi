@@ -1,0 +1,122 @@
+textbook:
+  'Development, Planning, and Implementation: The Dialectic of Theory and Practice":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - ? '- Section: 1.1 The rationale for the course: why is it important to understand
+            the difference between conventional theories and actual outcomes'
+          : subsections: []
+    - '- Chapter 2: Overview of conventional theories of development, planning, and implementation:':
+        sections:
+        - '- Section: 2.1 One modernity or multiple modernities?:':
+            subsections:
+            - 2.1a The role of culture in development
+            - 2.1b The impact of globalization on development
+    - '- Chapter 3: Assessment of development and planning efforts:':
+        sections:
+        - '- Section: 3.1 What has worked and what has not?:':
+            subsections:
+            - 3.1a Case studies of successful development projects
+            - 3.1b Lessons learned from failed development initiatives
+    - '- Chapter 4: Bottom-up versus top-down development:':
+        sections:
+        - '- Section: 4.1 Comprehensive versus incremental planning:':
+            subsections:
+            - 4.1a Participatory approaches to development
+            - 4.1b The role of local communities in decision-making
+    - '- Chapter 5: Under what conditions do public sector institutions perform well?:':
+        sections:
+        - '- Section: 5.1 Is politics a hindrance to, or essential for planning?:':
+            subsections:
+            - 5.1a The impact of corruption on development
+            - 5.1b Strategies for effective governance in the public sector
+    - '- Chapter 6: How do development professionals define what is ethical practice?:':
+        sections:
+        - '- Section: 6.1 Rigidity versus flexibility:':
+            subsections:
+            - 6.1a Ethical considerations in project implementation
+            - 6.1b Balancing the needs of different stakeholders
+    - '- Chapter 7: Modes of evaluation:':
+        sections:
+        - '- Section: 7.1 What is useful knowledge for practitioners?:':
+            subsections:
+            - 7.1a Quantitative and qualitative evaluation methods
+            - 7.1b Using data for evidence-based decision making
+    - '- Chapter 8: The social construction of learning institutions:':
+        sections:
+        - '- Section: 8.1 Surety of purpose or humility of not knowing the answer?:':
+            subsections:
+            - 8.1a The role of education in development
+            - 8.1b Promoting a culture of lifelong learning and adaptation
+    - '- Chapter 9: The role of international organizations in development:':
+        sections:
+        - '- Section: 9.1 The impact of international aid:':
+            subsections:
+            - 9.1a Aid effectiveness
+            - 9.1b Dependency theory
+    - '- Chapter 10: The role of the private sector in development:':
+        sections:
+        - '- Section: 10.1 Corporate social responsibility:':
+            subsections:
+            - 10.1a The role of multinational corporations
+            - 10.1b Public-private partnerships
+    - '- Chapter 11: The role of civil society in development:':
+        sections:
+        - '- Section: 11.1 Non-governmental organizations:':
+            subsections:
+            - 11.1a Advocacy and service delivery NGOs
+            - 11.1b The role of grassroots organizations
+    - '- Chapter 12: The role of technology in development:':
+        sections:
+        - '- Section: 12.1 Digital divide:':
+            subsections:
+            - 12.1a Access to information and communication technologies
+            - 12.1b The role of innovation in development
+    - '- Chapter 13: The role of infrastructure in development:':
+        sections:
+        - '- Section: 13.1 Transportation and communication infrastructure:':
+            subsections:
+            - 13.1a The role of infrastructure in economic growth
+            - 13.1b Infrastructure and inequality
+    - '- Chapter 14: The role of natural resources in development:':
+        sections:
+        - '- Section: 14.1 Resource curse:':
+            subsections:
+            - 14.1a The impact of resource wealth on development
+            - 14.1b Sustainable management of natural resources
+    - '- Chapter 15: The role of agriculture in development:':
+        sections:
+        - '- Section: 15.1 Agricultural productivity:':
+            subsections:
+            - 15.1a The role of smallholder farmers
+            - 15.1b The impact of climate change on agriculture
+    - '- Chapter 16: The role of health in development:':
+        sections:
+        - '- Section: 16.1 Health and economic growth:':
+            subsections:
+            - 16.1a The impact of infectious diseases on development
+            - 16.1b The role of health systems
+    - '- Chapter 17: The role of education in development:':
+        sections:
+        - '- Section: 17.1 Education and economic growth:':
+            subsections:
+            - 17.1a The impact of education on individual earnings
+            - 17.1b The role of education in social mobility
+    - '- Chapter 18: The role of gender in development:':
+        sections:
+        - '- Section: 18.1 Gender and economic growth:':
+            subsections:
+            - 18.1a The impact of gender inequality on development
+            - 18.1b The role of women in development
+    - '- Chapter 19: The role of institutions in development:':
+        sections:
+        - '- Section: 19.1 Institutional quality and economic growth:':
+            subsections:
+            - 19.1a The impact of corruption on development
+            - 19.1b The role of good governance
+    - '- Chapter 20: The role of conflict and political instability in development:':
+        sections:
+        - '- Section: 20.1 Conflict and economic growth:':
+            subsections:
+            - 20.1a The impact of conflict on development
+            - 20.1b The role of peacebuilding in development

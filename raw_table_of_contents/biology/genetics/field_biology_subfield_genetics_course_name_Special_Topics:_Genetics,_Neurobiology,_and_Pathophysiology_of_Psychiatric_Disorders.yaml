@@ -1,0 +1,213 @@
+textbook:
+  'Genetics, Neurobiology, and Pathophysiology of Psychiatric Disorders: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: General Introduction:':
+        sections:
+        - '- Section: 1.1 Genome-wide association studies for complex traits':
+            subsections: []
+    - '- Chapter 2: Bipolar Disorder:':
+        sections:
+        - '- Section: 2.1 Arguments for and Against A Distinct Diagnostic Entity':
+            subsections: []
+        - '- Section: 2.2 Review of Neuroimaging Findings':
+            subsections:
+            - 2.1a Linkage and Association Studies in Bipolar Disorder
+            - 2.1b Bipolar Disorder Subtypes and Genetic Factors
+    - '- Chapter 3: Psychosis and Schizophrenia:':
+        sections:
+        - '- Section: 3.1 Genetics of Psychiatric Disorder':
+            subsections: []
+        - '- Section: 3.2 DISC1':
+            subsections: []
+        - '- Section: 3.3 Ca++ Signaling':
+            subsections:
+            - 3.1a Schizophrenia Subtypes and Genetic Factors
+            - 3.2a DISC1 and its Role in Schizophrenia
+            - 3.3a Calcium Signaling and its Implications in Schizophrenia
+    - '- Chapter 4: Neurobiology of Depression:':
+        sections:
+        - '- Section: 4.1 Neurogenesis and Depression':
+            subsections: []
+        - '- Section: 4.2 Lithium and GSK3 Hypothesis':
+            subsections:
+            - 4.1a Molecular Mechanisms of Neurogenesis in Depression
+            - 4.2a Role of Lithium in Regulating GSK3 Signaling in Depression
+            - 4.2b Neurotrophic Factors and their Implications in Depression
+    - '- Chapter 5: The GABA System:':
+        sections:
+        - '- Section: 5.1 The GABA System-I':
+            subsections:
+            - 5.1a GABAergic Signaling and its Role in Psychiatric Disorders
+            - 5.1b GABA Receptors and their Subtypes
+            - 5.1c GABAergic Drugs and their Therapeutic Potential in Psychiatric
+              Disorders
+    - '- Chapter 6: Glutamate and Schizophrenia:':
+        sections:
+        - '- Section: 6.1 The Glutamate Hypothesis of Schizophrenia':
+            subsections:
+            - 6.1a NMDA Receptors and their Role in Schizophrenia
+            - 6.1b Glutamatergic Signaling and Synaptic Plasticity in Schizophrenia
+            - 6.1c Glutamate Modulating Agents as Potential Treatments for Schizophrenia
+    - '- Chapter 7: The Dopamine Pathway and DARPP32:':
+        sections:
+        - '- Section: 7.1 The Dopamine Pathway and DARPP32':
+            subsections:
+            - 7.1a Dopaminergic Signaling and its Role in Psychiatric Disorders
+            - 7.1b DARPP32 and its Implications in Psychiatric Disorders
+            - 7.1c Dopamine Receptors and their Subtypes
+    - '- Chapter 8: Neurobiology of Anxiety Disorders:':
+        sections:
+        - '- Section: 8.1 Neurotransmitters in Anxiety Disorders':
+            subsections: []
+        - '- Section: 8.2 Neuroanatomy of Anxiety Disorders':
+            subsections: []
+        - '- Section: 8.3 Genetic Factors in Anxiety Disorders':
+            subsections:
+            - 8.1a Role of GABA in Anxiety Disorders
+            - 8.1b Role of Serotonin in Anxiety Disorders
+            - 8.2a Amygdala and its Role in Anxiety Disorders
+            - 8.3a Genetic Predisposition and Anxiety Disorders
+    - '- Chapter 9: Neurobiology of ADHD:':
+        sections:
+        - '- Section: 9.1 Neurotransmitters in ADHD':
+            subsections: []
+        - '- Section: 9.2 Neuroanatomy of ADHD':
+            subsections: []
+        - '- Section: 9.3 Genetic Factors in ADHD':
+            subsections:
+            - 9.1a Role of Dopamine in ADHD
+            - 9.1b Role of Norepinephrine in ADHD
+            - 9.2a Prefrontal Cortex and its Role in ADHD
+            - 9.3a Genetic Predisposition and ADHD
+    - '- Chapter 10: Neurobiology of Autism Spectrum Disorders:':
+        sections:
+        - '- Section: 10.1 Neurotransmitters in Autism Spectrum Disorders':
+            subsections: []
+        - '- Section: 10.2 Neuroanatomy of Autism Spectrum Disorders':
+            subsections: []
+        - '- Section: 10.3 Genetic Factors in Autism Spectrum Disorders':
+            subsections:
+            - 10.1a Role of GABA in Autism Spectrum Disorders
+            - 10.1b Role of Glutamate in Autism Spectrum Disorders
+            - 10.2a Cerebellum and its Role in Autism Spectrum Disorders
+            - 10.3a Genetic Predisposition and Autism Spectrum Disorders
+    - '- Chapter 11: Neurobiology of Obsessive-Compulsive Disorder:':
+        sections:
+        - '- Section: 11.1 Neurotransmitters in Obsessive-Compulsive Disorder':
+            subsections: []
+        - '- Section: 11.2 Neuroanatomy of Obsessive-Compulsive Disorder':
+            subsections: []
+        - '- Section: 11.3 Genetic Factors in Obsessive-Compulsive Disorder':
+            subsections:
+            - 11.1a Role of Serotonin in Obsessive-Compulsive Disorder
+            - 11.1b Role of Dopamine in Obsessive-Compulsive Disorder
+            - 11.2a Orbitofrontal Cortex and its Role in Obsessive-Compulsive Disorder
+            - 11.3a Genetic Predisposition and Obsessive-Compulsive Disorder
+    - '- Chapter 12: Neurobiology of Post-Traumatic Stress Disorder:':
+        sections:
+        - '- Section: 12.1 Neurotransmitters in Post-Traumatic Stress Disorder':
+            subsections: []
+        - '- Section: 12.2 Neuroanatomy of Post-Traumatic Stress Disorder':
+            subsections: []
+        - '- Section: 12.3 Genetic Factors in Post-Traumatic Stress Disorder':
+            subsections:
+            - 12.1a Role of Norepinephrine in Post-Traumatic Stress Disorder
+            - 12.1b Role of Cortisol in Post-Traumatic Stress Disorder
+            - 12.2a Hippocampus and its Role in Post-Traumatic Stress Disorder
+            - 12.3a Genetic Predisposition and Post-Traumatic Stress Disorder
+    - '- Chapter 13: Neurobiology of Eating Disorders:':
+        sections:
+        - '- Section: 13.1 Neurotransmitters in Eating Disorders':
+            subsections: []
+        - '- Section: 13.2 Neuroanatomy of Eating Disorders':
+            subsections: []
+        - '- Section: 13.3 Genetic Factors in Eating Disorders':
+            subsections:
+            - 13.1a Role of Serotonin in Eating Disorders
+            - 13.1b Role of Dopamine in Eating Disorders
+            - 13.2a Hypothalamus and its Role in Eating Disorders
+            - 13.3a Genetic Predisposition and Eating Disorders
+    - '- Chapter 14: Neurobiology of Substance Use Disorders:':
+        sections:
+        - '- Section: 14.1 Neurotransmitters in Substance Use Disorders':
+            subsections: []
+        - '- Section: 14.2 Neuroanatomy of Substance Use Disorders':
+            subsections: []
+        - '- Section: 14.3 Genetic Factors in Substance Use Disorders':
+            subsections:
+            - 14.1a Role of Dopamine in Substance Use Disorders
+            - 14.1b Role of GABA in Substance Use Disorders
+            - 14.2a Ventral Tegmental Area and its Role in Substance Use Disorders
+            - 14.3a Genetic Predisposition and Substance Use Disorders
+    - '- Chapter 15: Neurobiology of Personality Disorders:':
+        sections:
+        - '- Section: 15.1 Neurotransmitters in Personality Disorders':
+            subsections: []
+        - '- Section: 15.2 Neuroanatomy of Personality Disorders':
+            subsections: []
+        - '- Section: 15.3 Genetic Factors in Personality Disorders':
+            subsections:
+            - 15.1a Role of Serotonin in Personality Disorders
+            - 15.1b Role of Dopamine in Personality Disorders
+            - 15.2a Frontal Lobe and its Role in Personality Disorders
+            - 15.3a Genetic Predisposition and Personality Disorders
+    - '- Chapter 16: Neurobiology of Dissociative Disorders:':
+        sections:
+        - '- Section: 16.1 Neurotransmitters in Dissociative Disorders':
+            subsections: []
+        - '- Section: 16.2 Neuroanatomy of Dissociative Disorders':
+            subsections: []
+        - '- Section: 16.3 Genetic Factors in Dissociative Disorders':
+            subsections:
+            - 16.1a Role of Norepinephrine in Dissociative Disorders
+            - 16.1b Role of Cortisol in Dissociative Disorders
+            - 16.2a Amygdala and its Role in Dissociative Disorders
+            - 16.3a Genetic Predisposition and Dissociative Disorders
+    - '- Chapter 17: Neurobiology of Sleep Disorders:':
+        sections:
+        - '- Section: 17.1 Neurotransmitters in Sleep Disorders':
+            subsections: []
+        - '- Section: 17.2 Neuroanatomy of Sleep Disorders':
+            subsections: []
+        - '- Section: 17.3 Genetic Factors in Sleep Disorders':
+            subsections:
+            - 17.1a Role of Melatonin in Sleep Disorders
+            - 17.1b Role of GABA in Sleep Disorders
+            - 17.2a Suprachiasmatic Nucleus and its Role in Sleep Disorders
+            - 17.3a Genetic Predisposition and Sleep Disorders
+    - '- Chapter 18: Neurobiology of Neurodevelopmental Disorders:':
+        sections:
+        - '- Section: 18.1 Neurotransmitters in Neurodevelopmental Disorders':
+            subsections: []
+        - '- Section: 18.2 Neuroanatomy of Neurodevelopmental Disorders':
+            subsections: []
+        - '- Section: 18.3 Genetic Factors in Neurodevelopmental Disorders':
+            subsections:
+            - 18.1a Role of Glutamate in Neurodevelopmental Disorders
+            - 18.1b Role of GABA in Neurodevelopmental Disorders
+            - 18.2a Cerebral Cortex and its Role in Neurodevelopmental Disorders
+            - 18.3a Genetic Predisposition and Neurodevelopmental Disorders
+    - '- Chapter 19: Neurobiology of Neurocognitive Disorders:':
+        sections:
+        - '- Section: 19.1 Neurotransmitters in Neurocognitive Disorders':
+            subsections: []
+        - '- Section: 19.2 Neuroanatomy of Neurocognitive Disorders':
+            subsections: []
+        - '- Section: 19.3 Genetic Factors in Neurocognitive Disorders':
+            subsections:
+            - 19.1a Role of Acetylcholine in Neurocognitive Disorders
+            - 19.1b Role of Glutamate in Neurocognitive Disorders
+            - 19.2a Hippocampus and its Role in Neurocognitive Disorders
+            - 19.3a Genetic Predisposition and Neurocognitive Disorders
+    - '- Chapter 20: Neurobiology of Somatic Symptom and Related Disorders:':
+        sections:
+        - '- Section: 20.1 Neurotransmitters in Somatic Symptom and Related Disorders':
+            subsections: []
+        - '- Section: 20.2 Neuroanatomy of Somatic Symptom and Related Disorders':
+            subsections: []
+        - '- Section: 20.3 Genetic Factors in Somatic Symptom and Related Disorders':
+            subsections:
+            - 20.1a Role of Serotonin in Somatic Symptom and Related Disorders
+            - 20.1b Role of Norepinephrine in Somatic Symptom and Related Disorders
+            - 20.2a Insula and its Role in Somatic Symptom and Related Disorders
+            - 20.3a Genetic Predisposition and Somatic Symptom and Related Disorders

@@ -1,0 +1,169 @@
+textbook:
+  'Data Mining: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Data Mining:':
+        sections:
+        - '- Section: 1.1 Data Mining Overview':
+            subsections: []
+        - '- Section: 1.2 Importance and Applications of Data Mining':
+            subsections: []
+        - '- Section: 1.3 Data Mining Process':
+            subsections: []
+        - '- Section: 1.4 Challenges and Ethical Considerations in Data Mining':
+            subsections: []
+    - '- Chapter 2: Prediction and Classification with k-Nearest Neighbors:':
+        sections:
+        - '- Section: 2.1 Introduction to Prediction and Classification':
+            subsections: []
+        - '- Section: 2.2 k-Nearest Neighbors Algorithm:':
+            subsections:
+            - 2.2a Distance Metrics in k-Nearest Neighbors
+            - 2.2b Choosing the Value of k in k-Nearest Neighbors
+            - 2.2c Handling Missing Values in k-Nearest Neighbors
+    - "- Chapter 3: Classification and Bayes Rule, Na\xEFve Bayes:":
+        sections:
+        - '- Section: 3.1 Classification and Bayes Rule':
+            subsections: []
+        - "- Section: 3.2 Introduction to Na\xEFve Bayes Algorithm:":
+            subsections:
+            - "3.2a Na\xEFve Bayes Assumptions"
+            - "3.2b Parameter Estimation in Na\xEFve Bayes"
+    - '- Chapter 4: Classification Trees:':
+        sections:
+        - '- Section: 4.1 Introduction to Classification Trees':
+            subsections: []
+        - '- Section: 4.2 Decision Tree Learning Algorithms:':
+            subsections:
+            - 4.2a Gini Index
+            - 4.2b Information Gain
+            - 4.2c Pruning Decision Trees
+    - '- Chapter 5: Discriminant Analysis:':
+        sections:
+        - '- Section: 5.1 Introduction to Discriminant Analysis':
+            subsections: []
+        - '- Section: 5.2 Linear Discriminant Analysis':
+            subsections: []
+        - '- Section: 5.3 Quadratic Discriminant Analysis':
+            subsections: []
+    - '- Chapter 6: Logistic Regression Case: Handlooms:':
+        sections:
+        - '- Section: 6.1 Introduction to Logistic Regression':
+            subsections: []
+        - '- Section: 6.2 Logistic Regression Model':
+            subsections: []
+        - '- Section: 6.3 Logistic Regression Case Study: Handlooms':
+            subsections: []
+    - '- Chapter 7: Neural Nets:':
+        sections:
+        - '- Section: 7.1 Introduction to Neural Networks':
+            subsections: []
+        - '- Section: 7.2 Perceptron Model':
+            subsections: []
+        - '- Section: 7.3 Backpropagation Algorithm:':
+            subsections:
+            - 7.3a Activation Functions in Neural Networks
+            - 7.3b Handling Overfitting in Neural Networks
+    - '- Chapter 8: Cases: Direct Marketing/German Credit:':
+        sections:
+        - '- Section: 8.1 Direct Marketing Case Study':
+            subsections: []
+        - '- Section: 8.2 German Credit Case Study':
+            subsections: []
+    - '- Chapter 9: Assessing Prediction Performance:':
+        sections:
+        - '- Section: 9.1 Introduction to Prediction Performance Evaluation':
+            subsections: []
+        - '- Section: 9.2 Confusion Matrix and Performance Metrics:':
+            subsections:
+            - 9.2a Accuracy
+            - 9.2b Precision and Recall
+            - 9.2c ROC Curve and AUC
+    - '- Chapter 10: Subset Selection in Regression:':
+        sections:
+        - '- Section: 10.1 Introduction to Subset Selection in Regression':
+            subsections: []
+        - '- Section: 10.2 Best Subset Selection':
+            subsections: []
+        - '- Section: 10.3 Stepwise Selection:':
+            subsections:
+            - 10.3a Forward Selection
+            - 10.3b Backward Elimination
+            - 10.3c Hybrid Approaches
+    - '- Chapter 11: Regression Trees, Case: IBM/GM weekly returns:':
+        sections:
+        - '- Section: 11.1 Introduction to Regression Trees':
+            subsections: []
+        - '- Section: 11.2 Building Regression Trees':
+            subsections: []
+        - '- Section: 11.3 Regression Tree Case Study: IBM/GM Weekly Returns':
+            subsections: []
+    - '- Chapter 12: k-Means Clustering, Hierarchical Clustering:':
+        sections:
+        - '- Section: 12.1 Introduction to Clustering':
+            subsections: []
+        - '- Section: 12.2 k-Means Clustering Algorithm':
+            subsections: []
+        - '- Section: 12.3 Hierarchical Clustering Algorithm:':
+            subsections:
+            - 12.3a Agglomerative Clustering
+            - 12.3b Divisive Clustering
+            - 12.3c Evaluating Clustering Results
+    - '- Chapter 13: Case: Retail Merchandising:':
+        sections:
+        - '- Section: 13.1 Retail Merchandising Case Study':
+            subsections: []
+    - '- Chapter 14: Midterm Exam:':
+        sections:
+        - '- Section: 14.1 Midterm Exam Format':
+            subsections: []
+        - '- Section: 14.2 Study Guide and Preparation Tips':
+            subsections: []
+    - '- Chapter 15: Principal Components:':
+        sections:
+        - '- Section: 15.1 Introduction to Principal Components Analysis':
+            subsections: []
+        - '- Section: 15.2 Principal Components Extraction':
+            subsections: []
+        - '- Section: 15.3 Interpreting Principal Components':
+            subsections: []
+    - '- Chapter 16: Guest Lecture by Dr. Ira Haimowitz: Data Mining and CRM at Pfizer:':
+        sections:
+        - '- Section: 16.1 Overview of Data Mining in CRM':
+            subsections: []
+        - '- Section: 16.2 Case Study: Data Mining and CRM at Pfizer:':
+            subsections:
+            - 16.2a Fraud Detection
+            - 16.2b Customer Segmentation
+            - 16.2c Predictive Maintenance
+    - '- Chapter 17: Association Rules:':
+        sections:
+        - '- Section: 17.1 Introduction to Association Rules':
+            subsections: []
+        - '- Section: 17.2 Apriori Algorithm:':
+            subsections:
+            - 17.2a Support and Confidence Measures
+            - 17.2b Generating Association Rules
+    - '- Chapter 18: Recommendation Systems: Collaborative Filtering:':
+        sections:
+        - '- Section: 18.1 Introduction to Recommendation Systems':
+            subsections: []
+        - '- Section: 18.2 Collaborative Filtering Techniques:':
+            subsections:
+            - 18.2a User-Based Collaborative Filtering
+            - 18.2b Item-Based Collaborative Filtering
+            - 18.2c Matrix Factorization
+    - '- Chapter 19: Guest Lecture by Dr. John Elder IV, Elder Research: The Practice of Data Mining:':
+        sections:
+        - '- Section: 19.1 Introduction to Data Mining in Practice':
+            subsections: []
+        - '- Section: 19.2 Case Studies from Elder Research:':
+            subsections:
+            - 19.2a Fraud Detection
+            - 19.2b Customer Segmentation
+            - 19.2c Predictive Maintenance
+    - '- Chapter 20: Project Presentations:':
+        sections:
+        - '- Section: 20.1 Guidelines for Project Presentations':
+            subsections: []
+        - '- Section: 20.2 Examples of Good Project Presentations':
+            subsections: []

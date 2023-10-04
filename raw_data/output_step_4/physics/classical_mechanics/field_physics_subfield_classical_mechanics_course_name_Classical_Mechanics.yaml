@@ -1,0 +1,305 @@
+textbook:
+  'Classical Mechanics: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Vectors:':
+        sections:
+        - '- Section: 1.1 1D Kinematics - Position and Velocity:':
+            subsections:
+            - 1.1a Introduction to 1D Kinematics
+            - 1.1b Position and Displacement
+            - 1.1c Velocity and Speed
+            - 1.1d Instantaneous and Average Velocity
+        - '- Section: 1.2 1D Kinematics - Acceleration:':
+            subsections:
+            - 1.2a Introduction to Acceleration
+            - 1.2b Constant Acceleration
+            - 1.2c Non-Constant Acceleration
+        - '- Section: 1.3 2D Kinematics - Position, Velocity, and Acceleration:':
+            subsections:
+            - 1.3a Introduction to 2D Kinematics
+            - 1.3b Position and Displacement in 2D
+            - 1.3c Velocity in 2D
+            - 1.3d Acceleration in 2D
+    - "- Chapter 2: Newton\u2019s Laws of Motion:":
+        sections:
+        - '- Section: 2.1 Gravity:':
+            subsections:
+            - 2.1a Introduction to Gravity
+            - 2.1b Gravitational Force and Field
+            - 2.1c Gravitational Potential Energy
+            - 2.1d Gravitational Orbits
+        - '- Section: 2.2 Contact Forces:':
+            subsections:
+            - 2.2a Introduction to Contact Forces
+            - 2.2b Normal Force
+            - 2.2c Frictional Force
+            - 2.2d Tension Force
+        - '- Section: 2.3 Tension and Springs:':
+            subsections:
+            - 2.3a Introduction to Tension and Springs
+            - 2.3b Hooke's Law
+            - 2.3c Spring Potential Energy
+            - 2.3d Simple Harmonic Motion
+        - '- Section: 2.4 Friction:':
+            subsections:
+            - 2.4a Introduction to Friction
+            - 2.4b Static and Kinetic Friction
+            - 2.4c Coefficient of Friction
+            - 2.4d Frictional Forces in Circular Motion
+    - '- Chapter 3: Circular Motion:':
+        sections:
+        - '- Section: 3.1 Circular Motion - Position and Velocity:':
+            subsections:
+            - 3.1a Introduction to Circular Motion
+            - 3.1b Uniform Circular Motion
+            - 3.1c Tangential and Radial Acceleration
+            - 3.1d Centripetal Force
+        - '- Section: 3.2 Uniform Circular Motion:':
+            subsections:
+            - 3.2a Introduction to Uniform Circular Motion
+            - 3.2b Angular Displacement, Velocity, and Acceleration
+            - 3.2c Centripetal Acceleration and Force
+        - '- Section: 3.3 Circular Motion - Acceleration:':
+            subsections:
+            - 3.3a Introduction to Circular Motion Acceleration
+            - 3.3b Total Acceleration
+            - 3.3c Tangential and Radial Components of Acceleration
+            - 3.3d Centripetal and Centrifugal Forces
+    - "- Chapter 4: Newton\u2019s 2nd Law and Circular Motion:":
+        sections:
+        - '- Section: 4.1 Pulleys and Constraints:':
+            subsections:
+            - 4.1a Introduction to Pulleys and Constraints
+            - 4.1b Atwood's Machine
+            - 4.1c Constraints and Constraint Forces
+            - 4.1d Applications of Constraints
+        - '- Section: 4.2 Massive Rope:':
+            subsections:
+            - 4.2a Introduction to Massive Rope
+            - 4.2b Massive Rope Systems
+            - 4.2c Equilibrium and Tension
+            - 4.2d Acceleration in Massive Rope Systems
+        - '- Section: 4.3 Resistive Forces:':
+            subsections:
+            - 4.3a Introduction to Resistive Forces
+            - 4.3b Drag Force
+            - 4.3c Terminal Velocity
+            - 4.3d Resistive Forces in Circular Motion
+    - '- Chapter 5: Momentum and Impulse:':
+        sections:
+        - '- Section: 5.1 Conservation of Momentum:':
+            subsections:
+            - 5.1a Introduction to Conservation of Momentum
+            - 5.1b Impulse and Momentum Change
+            - 5.1c Law of Conservation of Momentum
+            - 5.1d Applications of Conservation of Momentum
+        - '- Section: 5.2 Center of Mass and Motion of the Center of Mass:':
+            subsections:
+            - 5.2a Introduction to Center of Mass
+            - 5.2b Motion of the Center of Mass
+            - 5.2c System of Particles and Center of Mass
+            - 5.2d Applications of Center of Mass
+        - '- Section: 5.3 Relative Velocity and Recoil:':
+            subsections:
+            - 5.3a Introduction to Relative Velocity and Recoil
+            - 5.3b Relative Velocity
+            - 5.3c Recoil in 1D and 2D
+            - 5.3d Recoil in Systems of Particles
+        - '- Section: 5.4 Continuous Mass Transfer:':
+            subsections:
+            - 5.4a Introduction to Continuous Mass Transfer
+            - 5.4b Rate of Mass Transfer
+            - 5.4c Conservation of Mass in Continuous Systems
+            - 5.4d Applications of Continuous Mass Transfer
+    - '- Chapter 6: Kinetic Energy and Work:':
+        sections:
+        - '- Section: 6.1 Kinetic Energy and Work in 1D:':
+            subsections:
+            - 6.1a Introduction to Kinetic Energy and Work in 1D
+            - 6.1b Work and Energy Transfer
+            - 6.1c Work-Kinetic Energy Theorem
+            - 6.1d Power
+        - '- Section: 6.2 Kinetic Energy and Work in 2D and 3D:':
+            subsections:
+            - 6.2a Introduction to Kinetic Energy and Work in 2D and 3D
+            - 6.2b Work in 2D and 3D
+            - 6.2c Work-Energy Theorem in 2D and 3D
+            - 6.2d Applications of Work in 2D and 3D
+    - '- Chapter 7: Conservative and Non-conservative Forces:':
+        sections:
+        - '- Section: 7.1 Potential Energy:':
+            subsections:
+            - 7.1a Introduction to Potential Energy
+            - 7.1b Gravitational Potential Energy
+            - 7.1c Elastic Potential Energy
+            - 7.1d Electric Potential Energy
+        - '- Section: 7.2 Conservation of Energy:':
+            subsections:
+            - 7.2a Introduction to Conservation of Energy
+            - 7.2b Mechanical Energy
+            - 7.2c Law of Conservation of Mechanical Energy
+            - 7.2d Applications of Conservation of Energy
+        - '- Section: 7.3 Potential Energy Diagrams:':
+            subsections:
+            - 7.3a Introduction to Potential Energy Diagrams
+            - 7.3b Equilibrium Positions
+            - 7.3c Stable and Unstable Equilibrium
+            - 7.3d Potential Energy Diagrams of Systems
+    - '- Chapter 8: Types of Collision:':
+        sections:
+        - '- Section: 8.1 Elastic Collisions:':
+            subsections:
+            - 8.1a Introduction to Elastic Collisions
+            - 8.1b Conservation of Momentum in Elastic Collisions
+            - 8.1c Conservation of Kinetic Energy in Elastic Collisions
+            - 8.1d Applications of Elastic Collisions
+        - '- Section: 8.2 Center of Mass Reference Frame:':
+            subsections:
+            - 8.2a Introduction to Center of Mass Reference Frame
+            - 8.2b Center of Mass Reference Frame in 1D
+            - 8.2c Center of Mass Reference Frame in 2D and 3D
+            - 8.2d Applications of Center of Mass Reference Frame
+        - '- Section: 8.3 Motion of a Rigid Body:':
+            subsections:
+            - 8.3a Introduction to Motion of a Rigid Body
+            - 8.3b Translational Motion of a Rigid Body
+            - 8.3c Rotational Motion of a Rigid Body
+            - 8.3d Combined Translational and Rotational Motion
+    - '- Chapter 9: Moment of Inertia and Torque:':
+        sections:
+        - '- Section: 9.1 Moment of Inertia:':
+            subsections:
+            - 9.1a Introduction to Moment of Inertia
+            - 9.1b Moment of Inertia of Point Particles
+            - 9.1c Moment of Inertia of Extended Objects
+            - 9.1d Parallel and Perpendicular Axis Theorems
+        - '- Section: 9.2 Torque:':
+            subsections:
+            - 9.2a Introduction to Torque
+            - 9.2b Definition of Torque
+            - 9.2c Torque and Moment of Inertia
+            - 9.2d Torque and Angular Acceleration
+        - '- Section: 9.3 Rotational Dynamics:':
+            subsections:
+            - 9.3a Introduction to Rotational Dynamics
+            - 9.3b Newton's Second Law for Rotation
+            - 9.3c Angular Acceleration and Moment of Inertia
+            - 9.3d Torque and Angular Momentum
+        - '- Section: 9.4 Angular Momentum of a Point Particle:':
+            subsections:
+            - 9.4a Introduction to Angular Momentum of a Point Particle
+            - 9.4b Angular Momentum of a Point Particle
+            - 9.4c Conservation of Angular Momentum
+            - 9.4d Applications of Angular Momentum of Point Particles
+        - '- Section: 9.5 Angular Momentum of a Rigid Body about a Fixed Axis:':
+            subsections:
+            - 9.5a Introduction to Angular Momentum of a Rigid Body about a Fixed
+              Axis
+            - 9.5b Angular Velocity and Angular Momentum
+            - 9.5c Conservation of Angular Momentum for Rigid Bodies
+            - 9.5d Applications of Angular Momentum of Rigid Bodies
+        - '- Section: 9.6 Torque and Angular Impulse:':
+            subsections:
+            - 9.6a Introduction to Torque and Angular Impulse
+            - 9.6b Torque and Angular Impulse
+            - 9.6c Conservation of Angular Momentum and Impulse
+            - 9.6d Applications of Torque and Angular Impulse
+    - '- Chapter 10: Rolling Kinematics and Dynamics:':
+        sections:
+        - '- Section: 10.1 Rolling Kinematics:':
+            subsections:
+            - 10.1a Introduction to Rolling Kinematics
+            - 10.1b Rolling Motion of a Wheel
+            - 10.1c Rolling Motion of a Ball
+            - 10.1d Applications of Rolling Kinematics
+        - '- Section: 10.2 Rolling Dynamics:':
+            subsections:
+            - 10.2a Introduction to Rolling Dynamics
+            - 10.2b Rolling Motion and Forces
+            - 10.2c Rolling Resistance and Energy
+            - 10.2d Applications of Rolling Dynamics
+        - '- Section: 10.3 Rolling Kinetic Energy and Angular Momentum:':
+            subsections:
+            - 10.3a Introduction to Rolling Kinetic Energy and Angular Momentum
+            - 10.3b Kinetic Energy of Rolling Motion
+            - 10.3c Angular Momentum of Rolling Motion
+            - 10.3d Applications of Rolling Kinetic Energy and Angular Momentum
+        - '- Section: 10.4 Gyroscopes:':
+            subsections:
+            - 10.4a Introduction to Gyroscopes
+            - 10.4b Gyroscopic Stability
+            - 10.4c Precession of Gyroscopes
+            - 10.4d Applications of Gyroscopes
+    - '- Chapter 11: Oscillations:':
+        sections:
+        - '- Section: 11.1 Simple Harmonic Motion:':
+            subsections:
+            - 11.1a Introduction to Simple Harmonic Motion
+            - 11.1b Mathematical Description of SHM
+            - 11.1c Energy in SHM
+            - 11.1d Applications of SHM
+        - '- Section: 11.2 Damped Harmonic Motion:':
+            subsections:
+            - 11.2a Introduction to Damped Harmonic Motion
+            - 11.2b Damping and Resonance
+            - 11.2c Quality Factor
+            - 11.2d Applications of Damped Harmonic Motion
+        - '- Section: 11.3 Forced Harmonic Motion:':
+            subsections:
+            - 11.3a Introduction to Forced Harmonic Motion
+            - 11.3b Resonance in Forced Harmonic Motion
+            - 11.3c Power in Forced Harmonic Motion
+            - 11.3d Applications of Forced Harmonic Motion
+    - '- Chapter 12: Waves:':
+        sections:
+        - '- Section: 12.1 Wave Motion:':
+            subsections:
+            - 12.1a Introduction to Wave Motion
+            - 12.1b Types of Waves
+            - 12.1c Wave Speed
+            - 12.1d Applications of Wave Motion
+        - '- Section: 12.2 Wave Properties:':
+            subsections:
+            - 12.2a Introduction to Wave Properties
+            - 12.2b Wave Reflection and Transmission
+            - 12.2c Wave Interference
+            - 12.2d Applications of Wave Properties
+        - '- Section: 12.3 Sound Waves:':
+            subsections:
+            - 12.3a Introduction to Sound Waves
+            - 12.3b Speed of Sound
+            - 12.3c Sound Intensity
+            - 12.3d Applications of Sound Waves
+    - '- Chapter 13: Fluid Mechanics:':
+        sections:
+        - '- Section: 13.1 Fluid Statics:':
+            subsections:
+            - 13.1a Introduction to Fluid Statics
+            - 13.1b Pressure in Fluids
+            - 13.1c Buoyancy and Archimedes' Principle
+            - 13.1d Applications of Fluid Statics
+        - '- Section: 13.2 Fluid Dynamics:':
+            subsections:
+            - 13.2a Introduction to Fluid Dynamics
+            - 13.2b Continuity Equation
+            - 13.2c Bernoulli's Equation
+            - 13.2d Applications of Fluid Dynamics
+        - '- Section: 13.3 Viscosity and Turbulence:':
+            subsections:
+            - 13.3a Introduction to Viscosity and Turbulence
+            - 13.3b Viscous Flow
+            - 13.3c Turbulent Flow
+            - 13.3d Applications of Viscosity and Turbulence
+    - '- Chapter 14: Thermodynamics:':
+        sections:
+        - '- Section: 14.1 Laws of Thermodynamics:':
+            subsections:
+            - 14.1a Introduction to the Laws of Thermodynamics
+            - 14.1b First Law of Thermodynamics
+            - 14.1c Second Law of Thermodynamics
+            - 14.1d Applications of the Laws of Thermodynamics
+        - '- Section: 14.2 Heat and Work:':
+            subsections:
+            - 14.2a Introduction to Heat and Work
+            - 14.2b Heat Transfer
+            - 14.2c Work Done in

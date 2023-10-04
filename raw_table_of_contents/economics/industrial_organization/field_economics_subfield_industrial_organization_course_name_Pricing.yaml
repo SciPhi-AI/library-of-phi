@@ -1,0 +1,256 @@
+textbook:
+  'Pricing Strategies and Techniques":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 The Strategy and Tactics of Pricing:':
+            subsections:
+            - 1.1a Understanding the Pricing Landscape
+            - 1.1b Key Pricing Concepts
+            - 1.1c Pricing Objectives and Strategies
+        - '- Section: 1.2 Pricing Beyond the 3 Cs:':
+            subsections:
+            - 1.2a External Factors Affecting Pricing Decisions
+            - 1.2b Pricing in Global Markets
+    - '- Chapter 2: Economic Value in Use:':
+        sections:
+        - '- Section: 2.1 Atlantic Computer Example:':
+            subsections:
+            - 2.1a Analyzing Atlantic Computer Case
+            - 2.1b Pricing Strategies for Value-Based Products
+        - '- Section: 2.2 Pricing Economic Value to the Customer:':
+            subsections:
+            - 2.2a Assessing Customer Value Perception
+            - 2.2b Value-Based Pricing Techniques
+    - '- Chapter 3: Pricing under Consumer Uncertainty:':
+        sections:
+        - '- Section: 3.1 Measuring Customer Reactions to Prices:':
+            subsections:
+            - 3.1a Methods for Assessing Price Sensitivity
+            - 3.1b Conducting Price Experiments
+        - '- Section: 3.2 Pricing under Consumer Uncertainty:':
+            subsections:
+            - 3.2a Dealing with Consumer Risk Aversion
+            - 3.2b Dynamic Pricing Strategies
+    - '- Chapter 4: Pricing to Segment Customers:':
+        sections:
+        - '- Section: 4.1 Colonial Homes: Price Elasticities:':
+            subsections:
+            - 4.1a Understanding Price Elasticity of Demand
+            - 4.1b Applications of Price Elasticity in Pricing Strategies
+        - '- Section: 4.2 Pricing to Segment Customers:':
+            subsections:
+            - 4.2a Market Segmentation Strategies
+            - 4.2b Targeted Pricing Approaches
+    - '- Chapter 5: Technology and Pricing:':
+        sections:
+        - '- Section: 5.1 Pricing and IT:':
+            subsections:
+            - 5.1a Utilizing Technology in Pricing Decisions
+            - 5.1b Pricing Software and Tools
+        - '- Section: 5.2 Out-pricing:':
+            subsections:
+            - 5.2a Competitive Pricing Strategies
+            - 5.2b Price Leadership Tactics
+    - '- Chapter 6: Non-linear Pricing:':
+        sections:
+        - '- Section: 6.1 Summarizing Pricing:':
+            subsections:
+            - 6.1a Price Bundling Techniques
+            - 6.1b Price Discrimination Methods
+        - '- Section: 6.2 B2B Negotiations:':
+            subsections:
+            - 6.2a Negotiating Pricing Agreements
+            - 6.2b Contract Pricing Strategies
+        - '- Section: 6.3 Psychological Pricing:':
+            subsections:
+            - 6.3a Understanding Consumer Perception of Price
+            - 6.3b Psychological Pricing Techniques
+    - '- Chapter 7: Pricing with Competitors:':
+        sections:
+        - '- Section: 7.1 Pricing Simulation:':
+            subsections:
+            - 7.1a Simulating Competitive Pricing Scenarios
+            - 7.1b Analyzing Pricing Strategies and Outcomes
+        - '- Section: 7.2 Pricing Strategy in Oligopolistic Markets:':
+            subsections:
+            - 7.2a Game Theory and Pricing Decisions
+            - 7.2b Collusion and Price-Fixing Strategies
+        - '- Section: 7.3 Legal and Ethical Aspects of Pricing:':
+            subsections:
+            - 7.3a Price Discrimination and Fairness
+            - 7.3b Pricing Regulations and Compliance
+    - '- Chapter 8: Group Presentations:':
+        sections:
+        - '- Section: 8.1 Group Presentations:':
+            subsections:
+            - 8.1a Preparing and Delivering Effective Presentations
+            - 8.1b Providing Constructive Feedback
+        - '- Section: 8.2 Group Presentations (cont.):':
+            subsections:
+            - 8.2a Evaluating Group Presentations
+            - 8.2b Enhancing Presentation Skills
+        - '- Section: 8.3 Group Presentations (cont.):':
+            subsections:
+            - 8.3a Addressing Questions and Challenges
+            - 8.3b Engaging the Audience
+    - '- Chapter 9: Class Wrap Up:':
+        sections:
+        - '- Section: 9.1 In Class Final Exam:':
+            subsections:
+            - 9.1a Exam Preparation Strategies
+            - 9.1b Reviewing Key Concepts and Topics
+    - '- Chapter 10: Pricing and Marketing Strategy:':
+        sections:
+        - '- Section: 10.1 Pricing and Product Positioning:':
+            subsections:
+            - 10.1a Understanding Product Positioning
+            - 10.1b Pricing and Positioning Strategies
+        - '- Section: 10.2 Pricing and Promotion:':
+            subsections:
+            - 10.2a Role of Pricing in Promotional Mix
+            - 10.2b Pricing and Promotional Strategies
+        - '- Section: 10.3 Pricing and Distribution:':
+            subsections:
+            - 10.3a Pricing and Distribution Channels
+            - 10.3b Pricing and Retail Strategies
+    - '- Chapter 11: Pricing and Branding:':
+        sections:
+        - '- Section: 11.1 Pricing and Brand Equity:':
+            subsections:
+            - 11.1a Understanding Brand Equity
+            - 11.1b Pricing and Brand Equity Strategies
+        - '- Section: 11.2 Pricing and Brand Positioning:':
+            subsections:
+            - 11.2a Understanding Brand Positioning
+            - 11.2b Pricing and Positioning Strategies
+        - '- Section: 11.3 Pricing and Brand Image:':
+            subsections:
+            - 11.3a Understanding Brand Image
+            - 11.3b Pricing and Image Strategies
+    - '- Chapter 12: Pricing and Consumer Behavior:':
+        sections:
+        - '- Section: 12.1 Pricing and Consumer Perception:':
+            subsections:
+            - 12.1a Understanding Consumer Perception
+            - 12.1b Pricing and Perception Strategies
+        - '- Section: 12.2 Pricing and Consumer Decision Making:':
+            subsections:
+            - 12.2a Understanding Consumer Decision Making
+            - 12.2b Pricing and Decision Making Strategies
+        - '- Section: 12.3 Pricing and Consumer Satisfaction:':
+            subsections:
+            - 12.3a Understanding Consumer Satisfaction
+            - 12.3b Pricing and Satisfaction Strategies
+    - '- Chapter 13: Pricing and Sales Management:':
+        sections:
+        - '- Section: 13.1 Pricing and Sales Objectives:':
+            subsections:
+            - 13.1a Understanding Sales Objectives
+            - 13.1b Pricing and Sales Objectives Strategies
+        - '- Section: 13.2 Pricing and Sales Force Management:':
+            subsections:
+            - 13.2a Understanding Sales Force Management
+            - 13.2b Pricing and Sales Force Strategies
+        - '- Section: 13.3 Pricing and Sales Performance:':
+            subsections:
+            - 13.3a Understanding Sales Performance
+            - 13.3b Pricing and Performance Strategies
+    - '- Chapter 14: Pricing and Financial Analysis:':
+        sections:
+        - '- Section: 14.1 Pricing and Profitability Analysis:':
+            subsections:
+            - 14.1a Understanding Profitability Analysis
+            - 14.1b Pricing and Profitability Strategies
+        - '- Section: 14.2 Pricing and Cost Analysis:':
+            subsections:
+            - 14.2a Understanding Cost Analysis
+            - 14.2b Pricing and Cost Strategies
+        - '- Section: 14.3 Pricing and Revenue Analysis:':
+            subsections:
+            - 14.3a Understanding Revenue Analysis
+            - 14.3b Pricing and Revenue Strategies
+    - '- Chapter 15: Pricing and Competitive Analysis:':
+        sections:
+        - '- Section: 15.1 Pricing and Competitive Positioning:':
+            subsections:
+            - 15.1a Understanding Competitive Positioning
+            - 15.1b Pricing and Competitive Positioning Strategies
+        - '- Section: 15.2 Pricing and Competitive Advantage:':
+            subsections:
+            - 15.2a Understanding Competitive Advantage
+            - 15.2b Pricing and Competitive Advantage Strategies
+        - '- Section: 15.3 Pricing and Competitive Response:':
+            subsections:
+            - 15.3a Understanding Competitive Response
+            - 15.3b Pricing and Competitive Response Strategies
+    - '- Chapter 16: Pricing and Product Life Cycle:':
+        sections:
+        - '- Section: 16.1 Pricing and Product Introduction:':
+            subsections:
+            - 16.1a Understanding Product Introduction
+            - 16.1b Pricing and Product Introduction Strategies
+        - '- Section: 16.2 Pricing and Product Growth:':
+            subsections:
+            - 16.2a Understanding Product Growth
+            - 16.2b Pricing and Product Growth Strategies
+        - '- Section: 16.3 Pricing and Product Maturity:':
+            subsections:
+            - 16.3a Understanding Product Maturity
+            - 16.3b Pricing and Product Maturity Strategies
+    - '- Chapter 17: Pricing and Market Research:':
+        sections:
+        - '- Section: 17.1 Pricing and Market Segmentation:':
+            subsections:
+            - 17.1a Understanding Market Segmentation
+            - 17.1b Pricing and Market Segmentation Strategies
+        - '- Section: 17.2 Pricing and Market Trends:':
+            subsections:
+            - 17.2a Understanding Market Trends
+            - 17.2b Pricing and Market Trends Strategies
+        - '- Section: 17.3 Pricing and Market Forecasting:':
+            subsections:
+            - 17.3a Understanding Market Forecasting
+            - 17.3b Pricing and Market Forecasting Strategies
+    - '- Chapter 18: Pricing and Legal Considerations:':
+        sections:
+        - '- Section: 18.1 Pricing and Antitrust Laws:':
+            subsections:
+            - 18.1a Understanding Antitrust Laws
+            - 18.1b Pricing and Antitrust Laws Strategies
+        - '- Section: 18.2 Pricing and Fair Trade Laws:':
+            subsections:
+            - 18.2a Understanding Fair Trade Laws
+            - 18.2b Pricing and Fair Trade Laws Strategies
+        - '- Section: 18.3 Pricing and Price Discrimination Laws:':
+            subsections:
+            - 18.3a Understanding Price Discrimination Laws
+            - 18.3b Pricing and Price Discrimination Laws Strategies
+    - '- Chapter 19: Pricing and Ethical Considerations:':
+        sections:
+        - '- Section: 19.1 Pricing and Business Ethics:':
+            subsections:
+            - 19.1a Understanding Business Ethics
+            - 19.1b Pricing and Business Ethics Strategies
+        - '- Section: 19.2 Pricing and Social Responsibility:':
+            subsections:
+            - 19.2a Understanding Social Responsibility
+            - 19.2b Pricing and Social Responsibility Strategies
+        - '- Section: 19.3 Pricing and Sustainability:':
+            subsections:
+            - 19.3a Understanding Sustainability
+            - 19.3b Pricing and Sustainability Strategies
+    - '- Chapter 20: Pricing and Future Trends:':
+        sections:
+        - '- Section: 20.1 Pricing and Digital Transformation:':
+            subsections:
+            - 20.1a Understanding Digital Transformation
+            - 20.1b Pricing and Digital Transformation Strategies
+        - '- Section: 20.2 Pricing and Artificial Intelligence:':
+            subsections:
+            - 20.2a Understanding Artificial Intelligence
+            - 20.2b Pricing and Artificial Intelligence Strategies
+        - '- Section: 20.3 Pricing and Big Data:':
+            subsections:
+            - 20.3a Understanding Big Data
+            - 20.3b Pricing and Big Data Strategies

@@ -1,0 +1,199 @@
+textbook:
+  'Transportation Systems Analysis: A Comprehensive Guide to Demand and Economics":':
+    chapters:
+    - '- Chapter 1: Introduction:':
+        sections:
+        - '- Section: 1.1 Overview of Consumer Theory:':
+            subsections:
+            - 1.1a Basic Concepts
+            - 1.1b Consumer Preferences
+            - 1.1c Demand Theory
+    - '- Chapter 2: Discrete Choice Analysis:':
+        sections:
+        - '- Section: 2.1 Discrete Choice Analysis I:':
+            subsections:
+            - 2.1a Introduction to Discrete Choice Analysis
+            - 2.1b Binary Choice Models
+            - 2.1c Multinomial Choice Models
+        - '- Section: 2.2 Discrete Choice Analysis II:':
+            subsections:
+            - 2.2a Nested Logit Models
+            - 2.2b Mixed Logit Models
+            - 2.2c Probit Models
+    - '- Chapter 3: Travel Demand Modeling:':
+        sections:
+        - '- Section: 3.1 Travel Demand Modeling:':
+            subsections:
+            - 3.1a Four Step Model
+            - 3.1b Activity Based Models
+            - 3.1c Dynamic Traffic Assignment Models
+    - '- Chapter 4: Freight Demand:':
+        sections:
+        - '- Section: 4.1 Freight Demand:':
+            subsections:
+            - 4.1a Freight Demand Characteristics
+            - 4.1b Freight Demand Models
+            - 4.1c Freight Demand Forecasting
+    - '- Chapter 5: Organizational Models:':
+        sections:
+        - '- Section: 5.1 Organizational Models:':
+            subsections:
+            - 5.1a Organizational Structure and Transportation
+            - 5.1b Organizational Decision Making
+            - 5.1c Organizational Behavior in Transportation
+    - '- Chapter 6: Path Choice Models:':
+        sections:
+        - '- Section: 6.1 Path Choice Models:':
+            subsections:
+            - 6.1a Route Choice Models
+            - 6.1b Path Size Logit
+            - 6.1c C-Logit Model
+    - '- Chapter 7: Theory of the Firm:':
+        sections:
+        - '- Section: 7.1 Theory of the Firm:':
+            subsections:
+            - 7.1a Firm's Objective
+            - 7.1b Production Function
+            - 7.1c Cost Function
+    - '- Chapter 8: Transportation Costs:':
+        sections:
+        - '- Section: 8.1 Transportation Costs:':
+            subsections:
+            - 8.1a Fixed and Variable Costs
+            - 8.1b Cost Functions
+            - 8.1c Economies of Scale and Scope
+    - '- Chapter 9: Pricing of Transportation Services:':
+        sections:
+        - '- Section: 9.1 Pricing of Transportation Services: Theory and Practice I:':
+            subsections:
+            - 9.1a Pricing Strategies
+            - 9.1b Price Discrimination
+            - 9.1c Congestion Pricing
+        - '- Section: 9.2 Pricing of Transportation Services: Theory and Practice II:':
+            subsections:
+            - 9.2a Peak Load Pricing
+            - 9.2b Two-Part Tariffs
+            - 9.2c Yield Management
+    - '- Chapter 10: Transportation Revenue Forecasting:':
+        sections:
+        - '- Section: 10.1 Transportation Revenue Forecasting: Theory and Models:':
+            subsections:
+            - 10.1a Revenue Forecasting Methods
+            - 10.1b Revenue Forecasting Models
+            - 10.1c Revenue Forecasting Accuracy
+    - '- Chapter 11: Mobility Demand in Developing Countries:':
+        sections:
+        - '- Section: 11.1 Mobility Demand in Developing Countries: Some Examples:':
+            subsections:
+            - 11.1a Mobility Patterns in Developing Countries
+            - 11.1b Mobility Demand Models for Developing Countries
+            - 11.1c Policy Implications
+    - '- Chapter 12: Intelligent Transportation Systems:':
+        sections:
+        - '- Section: 12.1 Intelligent Transportation Systems and the Impact of Traveler Information:':
+            subsections:
+            - 12.1a Introduction to Intelligent Transportation Systems
+            - 12.1b Traveler Information Systems
+            - 12.1c Impact of Traveler Information on Travel Behavior
+            - 12.1d Emerging Themes in Transportation Economics and Policy
+    - '- Chapter 13: Transportation Infrastructure:':
+        sections:
+        - '- Section: 13.1 Infrastructure Planning:':
+            subsections:
+            - 13.1a Infrastructure Needs Assessment
+            - 13.1b Infrastructure Investment Decision Making
+            - 13.1c Infrastructure Financing
+        - '- Section: 13.2 Infrastructure Maintenance:':
+            subsections:
+            - 13.2a Maintenance Planning
+            - 13.2b Maintenance Cost Estimation
+            - 13.2c Maintenance Scheduling
+    - '- Chapter 14: Transportation Safety:':
+        sections:
+        - '- Section: 14.1 Safety Analysis:':
+            subsections:
+            - 14.1a Crash Data Analysis
+            - 14.1b Safety Performance Functions
+            - 14.1c Countermeasure Evaluation
+        - '- Section: 14.2 Safety Management:':
+            subsections:
+            - 14.2a Safety Management Systems
+            - 14.2b Safety Culture
+            - 14.2c Safety Performance Indicators
+    - '- Chapter 15: Transportation and Environment:':
+        sections:
+        - '- Section: 15.1 Environmental Impacts of Transportation:':
+            subsections:
+            - 15.1a Air Pollution
+            - 15.1b Noise Pollution
+            - 15.1c Water Pollution
+        - '- Section: 15.2 Sustainable Transportation:':
+            subsections:
+            - 15.2a Sustainable Transportation Planning
+            - 15.2b Sustainable Transportation Measures
+            - 15.2c Evaluation of Sustainability Measures
+    - '- Chapter 16: Transportation and Land Use:':
+        sections:
+        - '- Section: 16.1 Land Use and Transportation Interaction:':
+            subsections:
+            - 16.1a Land Use and Travel Behavior
+            - 16.1b Land Use and Transportation Planning
+            - 16.1c Land Use and Transportation Models
+        - '- Section: 16.2 Urban Form and Transportation:':
+            subsections:
+            - 16.2a Compact City
+            - 16.2b Urban Sprawl
+            - 16.2c Transit Oriented Development
+    - '- Chapter 17: Public Transportation:':
+        sections:
+        - '- Section: 17.1 Public Transportation Planning:':
+            subsections:
+            - 17.1a Transit Demand Analysis
+            - 17.1b Transit Service Planning
+            - 17.1c Transit Operations Planning
+        - '- Section: 17.2 Public Transportation Economics:':
+            subsections:
+            - 17.2a Cost Structure of Public Transportation
+            - 17.2b Pricing of Public Transportation Services
+            - 17.2c Financing of Public Transportation
+    - '- Chapter 18: Freight Transportation:':
+        sections:
+        - '- Section: 18.1 Freight Transportation Planning:':
+            subsections:
+            - 18.1a Freight Demand Analysis
+            - 18.1b Freight Network Design
+            - 18.1c Freight Operations Planning
+        - '- Section: 18.2 Freight Transportation Economics:':
+            subsections:
+            - 18.2a Cost Structure of Freight Transportation
+            - 18.2b Pricing of Freight Transportation Services
+            - 18.2c Financing of Freight Transportation
+    - '- Chapter 19: Transportation Policy:':
+        sections:
+        - '- Section: 19.1 Transportation Policy Making:':
+            subsections:
+            - 19.1a Policy Formulation
+            - 19.1b Policy Implementation
+            - 19.1c Policy Evaluation
+        - '- Section: 19.2 Transportation Regulation:':
+            subsections:
+            - 19.2a Economic Regulation
+            - 19.2b Safety Regulation
+            - 19.2c Environmental Regulation
+    - '- Chapter 20: Transportation Research Methods:':
+        sections:
+        - '- Section: 20.1 Data Collection Methods:':
+            subsections:
+            - 20.1a Survey Design
+            - 20.1b Data Collection Techniques
+            - 20.1c Data Processing and Analysis
+        - '- Section: 20.2 Modeling Techniques:':
+            subsections:
+            - 20.2a Regression Analysis
+            - 20.2b Discrete Choice Modeling
+            - 20.2c Traffic Simulation
+        - '- Section: 20.3 Evaluation Techniques:':
+            subsections:
+            - 20.3a Cost-Benefit Analysis
+            - 20.3b Multi-Criteria Analysis
+            - 20.3c Impact Assessment

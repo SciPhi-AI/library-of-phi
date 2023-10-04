@@ -1,0 +1,415 @@
+textbook: 
+"Essentials of Geophysics Textbook":
+
+chapters:
+- Chapter 1: Solar System Formation, Accretion, and the Early Thermal State of the Earth:
+sections:
+- Section: 1.1 Early Solar System:
+subsections:
+- 1.1a Solar Nebula
+- 1.1b Formation of the Sun
+- 1.1c Formation of Planets
+
+- Section: 1.2 Planet Formation:
+subsections:
+- 1.2a Protoplanets
+- 1.2b Planetesimals
+- 1.2c Accretion of Planets
+
+- Section: 1.3 Accretion Processes:
+subsections:
+- 1.3a Accretion Disk
+- 1.3b Accretion of Gas and Dust
+- 1.3c Accretion of Planetesimals
+
+- Section: 1.4 Earth's Early Thermal State:
+subsections:
+- 1.4a Early Earth's Heat Sources
+- 1.4b Early Earth's Temperature
+- 1.4c Early Earth's Atmosphere
+
+- Chapter 2: Rotation and Angular Momentum:
+sections:
+- Section: 2.1 Earth's Rotation:
+subsections:
+- 2.1a Causes of Earth's Rotation
+- 2.1b Effects of Earth's Rotation
+- 2.1c Changes in Earth's Rotation
+
+- Section: 2.2 Angular Momentum Conservation:
+subsections:
+- 2.2a Definition of Angular Momentum
+- 2.2b Conservation of Angular Momentum
+- 2.2c Angular Momentum in the Solar System
+
+- Section: 2.3 Precession and Nutation:
+subsections:
+- 2.3a Precession of the Equinoxes
+- 2.3b Causes of Precession and Nutation
+- 2.3c Effects of Precession and Nutation
+
+- Section: 2.4 Earth's Figure and Shape:
+subsections:
+- 2.4a Earth's Shape
+- 2.4b Factors Affecting Earth's Shape
+- 2.4c Measurements of Earth's Shape
+
+- Chapter 3: The Sun:
+sections:
+- Section: 3.1 Solar Structure and Composition:
+subsections:
+- 3.1a Solar Core
+- 3.1b Solar Atmosphere
+- 3.1c Solar Composition
+
+- Section: 3.2 Solar Energy Generation:
+subsections:
+- 3.2a Nuclear Fusion in the Sun
+- 3.2b Energy Transfer in the Sun
+- 3.2c Solar Luminosity
+
+- Section: 3.3 Solar Activity and Variability:
+subsections:
+- 3.3a Solar Flares
+- 3.3b Sunspots
+- 3.3c Solar Cycle
+
+- Section: 3.4 Solar Wind and Magnetosphere:
+subsections:
+- 3.4a Solar Wind
+- 3.4b Solar Magnetic Field
+- 3.4c Effects of Solar Wind on Earth
+
+- Chapter 4: Planetary Formation:
+sections:
+- Section: 4.1 Nebular Hypothesis:
+subsections:
+- 4.1a Nebular Hypothesis Theory
+- 4.1b Evidence for the Nebular Hypothesis
+- 4.1c Criticisms and Limitations of the Nebular Hypothesis
+
+- Section: 4.2 Protoplanetary Disk:
+subsections:
+- 4.2a Formation of the Protoplanetary Disk
+- 4.2b Structure of the Protoplanetary Disk
+- 4.2c Role of the Protoplanetary Disk in Planet Formation
+
+- Section: 4.3 Planetesimal Accretion:
+subsections:
+- 4.3a Planetesimal Formation
+- 4.3b Accretion of Planetesimals
+- 4.3c Role of Planetesimals in Planet Formation
+
+- Section: 4.4 Giant Planet Formation:
+subsections:
+- 4.4a Core Accretion Model
+- 4.4b Disk Instability Model
+- 4.4c Evidence for Giant Planet Formation Models
+
+- Section: 4.5 Terrestrial Planet Formation:
+subsections:
+- 4.5a Formation of Terrestrial Planets
+- 4.5b Differentiation of Terrestrial Planets
+- 4.5c Evidence for Terrestrial Planet Formation Models
+
+- Chapter 5: Radioactive Decay:
+sections:
+- Section: 5.1 Types of Radioactive Decay:
+subsections:
+- 5.1a Alpha Decay
+- 5.1b Beta Decay
+- 5.1c Gamma Decay
+
+- Section: 5.2 Half-Life and Decay Constant:
+subsections:
+- 5.2a Definition of Half-Life
+- 5.2b Calculation of Half-Life
+- 5.2c Decay Constant and Half-Life
+
+- Section: 5.3 Radiometric Dating Methods:
+subsections:
+- 5.3a Principles of Radiometric Dating
+- 5.3b Common Radiometric Dating Methods
+- 5.3c Limitations of Radiometric Dating
+
+- Section: 5.4 Applications in Geophysics:
+subsections:
+- 5.4a Age Dating of Rocks and Minerals
+- 5.4b Dating of Geological Events
+- 5.4c Radiometric Dating in Climate Studies
+
+- Chapter 6: Radiometric Dating:
+sections:
+- Section: 6.1 Principles of Radiometric Dating:
+subsections:
+- 6.1a Basics of Radiometric Dating
+- 6.1b Radiometric Dating Techniques
+- 6.1c Radiometric Dating Accuracy
+
+- Section: 6.2 Dating Techniques (e.g., U-Pb, K-Ar, Rb-Sr):
+subsections:
+- 6.2a Uranium-Lead (U-Pb) Dating
+- 6.2b Potassium-Argon (K-Ar) Dating
+- 6.2c Rubidium-Strontium (Rb-Sr) Dating
+
+- Section: 6.3 Age Determination of Rocks and Minerals:
+subsections:
+- 6.3a Age Dating of Igneous Rocks
+- 6.3b Age Dating of Sedimentary Rocks
+- 6.3c Age Dating of Metamorphic Rocks
+
+- Section: 6.4 Geochronology Applications:
+subsections:
+- 6.4a Geochronology in Geological Mapping
+- 6.4b Geochronology in Paleontology
+- 6.4c Geochronology in Climate Studies
+
+- Chapter 7: Heat Sources in the Earth:
+sections:
+- Section: 7.1 Radioactivity as a Heat Source:
+subsections:
+- 7.1a Radioactive Decay as a Heat Source
+- 7.1b Distribution of Radioactive Elements in the Earth
+- 7.1c Role of Radioactivity in Earth's Thermal State
+
+- Section: 7.2 Heat Flow and Thermal Gradient:
+subsections:
+- 7.2a Heat Flow in the Earth
+- 7.2b Measurement of Heat Flow
+- 7.2c Thermal Gradient in the Earth
+
+- Section: 7.3 Geothermal Energy:
+subsections:
+- 7.3a Basics of Geothermal Energy
+- 7.3b Geothermal Energy Resources
+- 7.3c Geothermal Energy Extraction and Use
+
+- Section: 7.4 Heat Production in the Mantle:
+subsections:
+- 7.4a Mantle Heat Sources
+- 7.4b Mantle Heat Flow
+- 7.4c Role of the Mantle in Earth's Thermal State
+
+- Chapter 8: Meteorites and Earth's Composition:
+sections:
+- Section: 8.1 Meteorite Types and Classification:
+subsections:
+- 8.1a Types of Meteorites
+- 8.1b Meteorite Classification
+- 8.1c Meteorite Identification
+
+- Section: 8.2 Meteorite Composition:
+subsections:
+- 8.2a Composition of Stony Meteorites
+- 8.2b Composition of Iron Meteorites
+- 8.2c Composition of Stony-Iron Meteorites
+
+- Section: 8.3 Earth's Bulk Composition:
+subsections:
+- 8.3a Composition of the Earth's Crust
+- 8.3b Composition of the Earth's Mantle
+- 8.3c Composition of the Earth's Core
+
+- Section: 8.4 Early Earth Differentiation:
+subsections:
+- 8.4a Early Earth Differentiation Process
+- 8.4b Evidence for Early Earth Differentiation
+- 8.4c Effects of Early Earth Differentiation
+
+- Chapter 9: Chondrites:
+sections:
+- Section: 9.1 Chondrite Types and Features:
+subsections:
+- 9.1a Types of Chondrites
+- 9.1b Features of Chondrites
+- 9.1c Chondrite Classification
+
+- Section: 9.2 Chondrule Formation:
+subsections:
+- 9.2a Chondrule Formation Process
+- 9.2b Chondrule Composition
+- 9.2c Chondrule Chronology
+
+- Section: 9.3 Chondrule Chronology:
+subsections:
+- 9.3a Dating of Chondrules
+- 9.3b Chondrule Formation Timescales
+- 9.3c Chondrule Formation Events
+
+- Section: 9.4 Chondrule Origin Theories:
+subsections:
+- 9.4a Nebular Shock Wave Theory
+- 9.4b X-Wind Model
+- 9.4c Other Chondrule Origin Theories
+
+- Chapter 10: Secondary Processing:
+sections:
+- Section: 10.1 Metamorphism and Metamorphic Rocks:
+subsections:
+- 10.1a Basics of Metamorphism
+- 10.1b Types of Metamorphic Rocks
+- 10.1c Metamorphic Processes
+
+- Section: 10.2 Magmatic Processes:
+subsections:
+- 10.2a Magma Formation
+- 10.2b Magma Evolution
+- 10.2c Magmatic Differentiation
+
+- Section: 10.3 Volcanism and Igneous Rocks:
+subsections:
+- 10.3a Volcanic Processes
+- 10.3b Types of Igneous Rocks
+- 10.3c Volcanic and Plutonic Rocks
+
+- Section: 10.4 Sedimentation and Sedimentary Rocks:
+subsections:
+- 10.4a Sedimentation Processes
+- 10.4b Types of Sedimentary Rocks
+- 10.4c Sedimentary Environments
+
+- Chapter 11: Achondrites:
+sections:
+- Section: 11.1 Achondrite Types and Characteristics:
+subsections:
+- 11.1a Types of Achondrites
+- 11.1b Characteristics of Achondrites
+- 11.1c Achondrite Classification
+
+- Section: 11.2 Formation Mechanisms:
+subsections:
+- 11.2a Achondrite Formation Process
+- 11.2b Achondrite Parent Bodies
+- 11.2c Achondrite Differentiation
+
+- Section: 11.3 Petrology and Mineralogy:
+subsections:
+- 11.3a Petrology of Achondrites
+- 11.3b Mineralogy of Achondrites
+- 11.3c Achondrite Petrogenesis
+
+- Section: 11.4 Achondrite Parent Bodies:
+subsections:
+- 11.4a Identification of Achondrite Parent Bodies
+- 11.4b Achondrite Parent Body Processes
+- 11.4c Achondrite Parent Body Evolution
+
+- Chapter 12: Irons and Stony-Irons:
+sections:
+- Section: 12.1 Iron Meteorites:
+subsections:
+- 12.1a Types of Iron Meteorites
+- 12.1b Iron Meteorite Composition
+- 12.1c Iron Meteorite Classification
+
+- Section: 12.2 Pallasites:
+subsections:
+- 12.2a Pallasite Characteristics
+- 12.2b Pallasite Composition
+- 12.2c Pallasite Formation
+
+- Section: 12.3 Mesosiderites:
+subsections:
+- 12.3a Mesosiderite Characteristics
+- 12.3b Mesosiderite Composition
+- 12.3c Mesosiderite Formation
+
+- Section: 12.4 Iron-Stony Meteorites:
+subsections:
+- 12.4a Iron-Stony Meteorite Types
+- 12.4b Iron-Stony Meteorite Composition
+- 12.4c Iron-Stony Meteorite Classification
+
+- Chapter 13: The Earth in the Solar System:
+sections:
+- Section: 13.1 Earth's Position and Orbit:
+subsections:
+- 13.1a Earth's Position in the Solar System
+- 13.1b Earth's Orbit Around the Sun
+- 13.1c Earth's Orbital Parameters
+
+- Section: 13.2 Seasons and Climate:
+subsections:
+- 13.2a Causes of Seasons
+- 13.2b Seasonal Climate Variations
+- 13.2c Seasons and Climate Change
+
+- Section: 13.3 Earth-Moon System:
+subsections:
+- 13.3a Formation of the Moon
+- 13.3b Earth-Moon Interactions
+- 13.3c Effects of the Moon on Earth
+
+- Section: 13.4 Tides and Gravitational Interactions:
+subsections:
+- 13.4a Causes of Tides
+- 13.4b Tidal Patterns
+- 13.4c Tides and Gravitational Interactions
+
+- Chapter 14: The Earth's Gravitational Field:
+sections:
+- Section: 14.1 Gravity and Gravitational Force:
+subsections:
+- 14.1a Basics of Gravity
+- 14.1b Gravitational Force
+- 14.1c Gravity and Mass Distribution
+
+- Section: 14.2 Earth's Gravitational Field:
+subsections:
+- 14.2a Earth's Gravitational Field Strength
+- 14.2b Variations in Earth's Gravitational Field
+- 14.2c Measurement of Earth's Gravitational Field
+
+- Section: 14.3 Gravity Anomalies:
+subsections:
+- 14.3a Definition of Gravity Anomalies
+- 14.3b Causes of Gravity Anomalies
+- 14.3c Gravity Anomaly Surveys
+
+- Section: 14.4 Geoid and Reference Ellipsoid:
+subsections:
+- 14.4a Definition of the Geoid
+- 14.4b Reference Ellipsoid
+- 14.4c Geoid and Ellipsoid Differences
+
+- Chapter 15: The Magnetic Field of the Earth:
+sections:
+- Section: 15.1 Earth's Magnetic Field:
+subsections:
+- 15.1a Basics of Earth's Magnetic Field
+- 15.1b Measurement of Earth's Magnetic Field
+- 15.1c Variations in Earth's Magnetic Field
+
+- Section: 15.2 Magnetic Field Generation:
+subsections:
+- 15.2a Dynamo Theory
+- 15.2b Role of Earth's Core in Magnetic Field Generation
+- 15.2c Magnetic Field Reversals
+
+- Section: 15.3 Magnetic Field Reversals:
+subsections:
+- 15.3a Evidence for Magnetic Field Reversals
+- 15.3b Causes of Magnetic Field Reversals
+- 15.3c Effects of Magnetic Field Reversals
+
+- Section: 15.4 Paleomagnetism and Geomagnetic Dating:
+subsections:
+- 15.4a Basics of Paleomagnetism
+- 15.4b Paleomagnetic Studies
+- 15.4c Geomagnetic Dating
+
+- Chapter 16: Seismology:
+sections:
+- Section: 16.1 Seismic Waves and Earthquakes:
+subsections:
+- 16.1a Types of Seismic Waves
+- 16.1b Causes of Earthquakes
+- 16.1c Earthquake Waves and Earth's Interior
+
+- Section: 16.2 Earthquake Monitoring and Measurement:
+subsections:
+- 16.2a Seismometers and Seismographs
+- 16.2b Earthquake Location
+- 16.2c Earthquake Magnitude and Intensity
+
+- Section: 16.3 Earthquake Magn

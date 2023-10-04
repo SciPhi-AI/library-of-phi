@@ -1,0 +1,143 @@
+course:
+  'Computing and Data Analysis for Environmental Applications:':
+    topics:
+    - Course Introduction:
+        subtopics:
+        - Course Logistics
+        - Repeated Trials
+        - Virtual Experiments
+        - Probability
+        - Statistics
+    - Programming in MATLAB:
+        subtopics:
+        - Downloading Data
+        - Accessing MATLAB
+        - MATLAB Environment
+        - Variables
+        - Arrays
+        - Scripts
+        - Plotting Data
+    - Descriptive Statistics:
+        subtopics:
+        - Histograms
+        - Percentiles
+        - Mean
+        - Median
+        - Variance
+        - Characterizing Streamflow Data
+    - Probability:
+        subtopics:
+        - Experiments
+        - Outcomes
+        - Sample Spaces
+        - Events
+        - Axioms of Probability
+        - Methods for Assigning Probabilities
+    - MATLAB Operations:
+        subtopics:
+        - Internal MATLAB Functions
+        - Common MATLAB Operations
+        - Element-wise Computations
+        - Loops
+        - Translating Equations to Programs
+    - Joint Probability, Independence, Repeated Trials:
+        subtopics:
+        - Joint Probability
+        - Independent Events
+        - Repeated Trials
+    - Combinatorial Methods:
+        subtopics:
+        - Counting Rules
+        - Combinatorial Techniques for Evaluating Probabilities
+    - Conditional Probability and Bayes Theorem:
+        subtopics:
+        - Joint Probability
+        - Conditional Probability
+        - Prior & Posterior Probabilities
+        - Bayes Theorem
+        - Engineering Applications
+    - Random Variables and Probability Distributions:
+        subtopics:
+        - Definition of a Random Variable
+        - Cumulative Distribution Functions
+        - Mass and Density Functions
+        - Using Distributions to Assign Probabilities
+    - Expectation, Functions of a Random Variable:
+        subtopics:
+        - Expectation
+        - Population Mean and Variance
+        - Defining and Functions of a Single Random Variable
+        - Solving Derived Distribution Problems with Stochastic Simulation
+    - Risk:
+        subtopics:
+        - Defining and Evaluating Risk
+        - Engineering Applications
+    - Some Common Probability Distributions:
+        subtopics:
+        - Uniform
+        - Exponential
+        - Normal
+        - Lognormal Distributions
+        - Special Properties of Normal Random Variables
+        - Fitting Distributions to Data
+    - Multivariate Probability:
+        subtopics:
+        - Multiple Random Variables
+        - Joint and Conditional Distributions
+        - Independence
+        - Covariance and Correlation
+        - Computing Conditional Probabilities in MATLAB
+    - Functions of Many Random Variables:
+        subtopics:
+        - Derived distributions for multivariate problems
+        - Moments of linear functions of several random variables
+        - Central Limit Theorem
+    - Populations and Samples:
+        subtopics:
+        - Populations
+        - Random samples
+        - Sample statistics
+        - Moments of the sample mean and variance
+    - Estimation:
+        subtopics:
+        - Estimating Distributional Properties
+        - Assessing Estimation Error
+        - Comparing Alternative Estimators
+    - Confidence Intervals:
+        subtopics:
+        - Basic Concepts
+        - Large Sample Confidence Intervals for the Population Mean
+        - Computing Large Sample Confidence Intervals
+    - Testing Hypotheses about a Single Population:
+        subtopics:
+        - Formulating Hypothesis Testing Problems
+        - Definitions
+        - Large Sample Tests of Hypotheses about a Single Population
+        - Applications Using MATLAB
+    - Testing Hypotheses about Two Populations:
+        subtopics:
+        - Large Sample Tests of Hypotheses about Two Populations
+        - Controlled Experiments
+        - Applications Using MATLAB
+    - Small Sample Statistics:
+        subtopics:
+        - T, chi-squared and F statistics
+        - Small sample confidence intervals and hypothesis tests
+        - Applications using MATLAB
+    - Analysis of Variance:
+        subtopics:
+        - Single-Factor Model
+        - Significance Testing
+        - Applications on MATLAB
+    - Linear Regression:
+        subtopics:
+        - Objectives and Assumptions of Linear Regression
+        - Estimating Regression Coefficients
+        - Normal Equations
+        - Some Typical Environmental Applications
+    - Analyzing Regression Results:
+        subtopics:
+        - Accuracy of Regression Estimates and Predictions
+        - Prediction Confidence Intervals
+        - Testing Significance
+        - Continuation of Environmental Examples

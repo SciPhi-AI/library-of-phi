@@ -1,0 +1,170 @@
+textbook: 
+"Vision Science: Exploring Perception and Imaging":
+
+chapters:
+- Chapter 1: Introduction:
+sections:
+- Section: 1.1 Overview of the Course
+- Section: 1.2 Goals and Objectives
+
+- Chapter 2: Surface Reflectance:
+sections:
+- Section: 2.1 Lightness Perception
+- Section: 2.2 Lightness Illusions
+subsections:
+- 2.2a Simultaneous Contrast
+- 2.2b Luminance Constancy
+
+- Chapter 3: Stereo:
+sections:
+- Section: 3.1 Binocular Vision
+- Section: 3.2 Depth Perception
+- Section: 3.3 Stereoscopic Imaging
+subsections:
+- 3.3a Binocular Disparity
+- 3.3b Stereopsis and Vergence
+
+- Chapter 4: Textural Analysis and Synthesis:
+sections:
+- Section: 4.1 Texture Perception
+- Section: 4.2 Texture Synthesis
+subsections:
+- 4.2a Statistical Texture Analysis
+- 4.2b Texture Classification
+
+- Chapter 5: Perception and Specularity:
+sections:
+- Section: 5.1 Specular Reflections
+- Section: 5.2 Glossy Surfaces
+- Section: 5.3 Image-based Rendering
+subsections:
+- 5.3a BRDF (Bidirectional Reflectance Distribution Function)
+- 5.3b Specular Highlight Detection
+
+- Chapter 6: Digital Image Construction:
+sections:
+- Section: 6.1 Image Formation
+- Section: 6.2 Image Reconstruction
+- Section: 6.3 Image Enhancement
+subsections:
+- 6.3a Camera Models and Imaging Pipeline
+- 6.3b Image Deconvolution
+
+- Chapter 7: The Effect of Contour Closure on the Rapid Discrimination of Two-dimensional Shapes:
+sections:
+- Section: 7.1 Contour Perception
+- Section: 7.2 Shape Discrimination
+subsections:
+- 7.2a Shape Completion
+- 7.2b Contour Integration
+
+- Chapter 8: What Does the Occluding Contour Tell Us about Solid Shape?:
+sections:
+- Section: 8.1 Shape from Contours
+- Section: 8.2 Occlusion and Depth Perception
+subsections:
+- 8.2a Depth Ordering
+- 8.2b Occlusion Boundary Detection
+
+- Chapter 9: Constructing Visual Perception:
+sections:
+- Section: 9.1 Visual Illusions
+- Section: 9.2 Perceptual Organization
+- Section: 9.3 Gestalt Principles
+subsections:
+- 9.3a Illusory Contours
+- 9.3b Figure-Ground Segmentation
+
+- Chapter 10: Motion Segmentation and Tracking Using Normalized Cuts:
+sections:
+- Section: 10.1 Motion Perception
+- Section: 10.2 Motion Segmentation
+- Section: 10.3 Object Tracking
+subsections:
+- 10.3a Optical Flow
+- 10.3b Tracking-by-Detection
+
+- Chapter 11: Recap of Course Topics:
+sections:
+- Section: 11.1 Course Summary
+- Section: 11.2 Final Thoughts
+subsections:
+- 11.2a Future Directions in Vision Science
+- 11.2b Applications of Vision Science in Industry
+
+- Chapter 12: Advanced Topics in Surface Reflectance:
+sections:
+- Section: 12.1 Advanced Lightness Perception
+- Section: 12.2 Advanced Lightness Illusions
+subsections:
+- 12.2a Advanced Simultaneous Contrast
+- 12.2b Advanced Luminance Constancy
+
+- Chapter 13: Advanced Topics in Stereo:
+sections:
+- Section: 13.1 Advanced Binocular Vision
+- Section: 13.2 Advanced Depth Perception
+- Section: 13.3 Advanced Stereoscopic Imaging
+subsections:
+- 13.3a Advanced Binocular Disparity
+- 13.3b Advanced Stereopsis and Vergence
+
+- Chapter 14: Advanced Topics in Textural Analysis and Synthesis:
+sections:
+- Section: 14.1 Advanced Texture Perception
+- Section: 14.2 Advanced Texture Synthesis
+subsections:
+- 14.2a Advanced Statistical Texture Analysis
+- 14.2b Advanced Texture Classification
+
+- Chapter 15: Advanced Topics in Perception and Specularity:
+sections:
+- Section: 15.1 Advanced Specular Reflections
+- Section: 15.2 Advanced Glossy Surfaces
+- Section: 15.3 Advanced Image-based Rendering
+subsections:
+- 15.3a Advanced BRDF (Bidirectional Reflectance Distribution Function)
+- 15.3b Advanced Specular Highlight Detection
+
+- Chapter 16: Advanced Topics in Digital Image Construction:
+sections:
+- Section: 16.1 Advanced Image Formation
+- Section: 16.2 Advanced Image Reconstruction
+- Section: 16.3 Advanced Image Enhancement
+subsections:
+- 16.3a Advanced Camera Models and Imaging Pipeline
+- 16.3b Advanced Image Deconvolution
+
+- Chapter 17: Advanced Topics in The Effect of Contour Closure on the Rapid Discrimination of Two-dimensional Shapes:
+sections:
+- Section: 17.1 Advanced Contour Perception
+- Section: 17.2 Advanced Shape Discrimination
+subsections:
+- 17.2a Advanced Shape Completion
+- 17.2b Advanced Contour Integration
+
+- Chapter 18: Advanced Topics in What Does the Occluding Contour Tell Us about Solid Shape?:
+sections:
+- Section: 18.1 Advanced Shape from Contours
+- Section: 18.2 Advanced Occlusion and Depth Perception
+subsections:
+- 18.2a Advanced Depth Ordering
+- 18.2b Advanced Occlusion Boundary Detection
+
+- Chapter 19: Advanced Topics in Constructing Visual Perception:
+sections:
+- Section: 19.1 Advanced Visual Illusions
+- Section: 19.2 Advanced Perceptual Organization
+- Section: 19.3 Advanced Gestalt Principles
+subsections:
+- 19.3a Advanced Illusory Contours
+- 19.3b Advanced Figure-Ground Segmentation
+
+- Chapter 20: Advanced Topics in Motion Segmentation and Tracking Using Normalized Cuts:
+sections:
+- Section: 20.1 Advanced Motion Perception
+- Section: 20.2 Advanced Motion Segmentation
+- Section: 20.3 Advanced Object Tracking
+subsections:
+- 20.3a Advanced Optical Flow
+- 20.3b Advanced Tracking-by-Detection

@@ -1,0 +1,307 @@
+textbook: 
+"Electricity and Magnetism: Concepts and Applications":
+
+chapters:
+- Chapter 1: Introduction to Electricity and Magnetism:
+sections:
+- Section: 1.1 Why Physics? Why Studio Physics?:
+subsections:
+- 1.1a Importance of Physics
+- 1.1b Introduction to Studio Physics
+- 1.1c Applications of Physics
+
+- Section: 1.2 Vector and Scalar Fields:
+subsections:
+- 1.2a Definition of Vector and Scalar Fields
+- 1.2b Properties of Vector and Scalar Fields
+- 1.2c Applications of Vector and Scalar Fields
+
+- Section: 1.3 Gravitational Fields:
+subsections:
+- 1.3a Definition of Gravitational Fields
+- 1.3b Properties of Gravitational Fields
+- 1.3c Applications of Gravitational Fields
+
+- Chapter 2: Electric Fields and Charge Distributions:
+sections:
+- Section: 2.1 Review: Electric Fields:
+subsections:
+- 2.1a Definition of Electric Fields
+- 2.1b Properties of Electric Fields
+- 2.1c Applications of Electric Fields
+
+- Section: 2.2 Charge Dipoles:
+subsections:
+- 2.2a Definition of Charge Dipoles
+- 2.2b Properties of Charge Dipoles
+- 2.2c Applications of Charge Dipoles
+
+- Section: 2.3 Continuous Charge Distributions:
+subsections:
+- 2.3a Definition of Continuous Charge Distributions
+- 2.3b Properties of Continuous Charge Distributions
+- 2.3c Applications of Continuous Charge Distributions
+
+- Chapter 3: Line and Surface Integrals:
+sections:
+- Section: 3.1 Problem Solving Session 1: Line and Surface Integrals:
+subsections:
+- 3.1a Introduction to Line and Surface Integrals
+- 3.1b Techniques for Solving Line and Surface Integrals
+- 3.1c Applications of Line and Surface Integrals
+
+- Chapter 4: Gauss' Law:
+sections:
+- Section: 4.1 Problem Solving Session 2: Electric Field of Continuous Charge Distributions:
+subsections:
+- 4.1a Introduction to Electric Field of Continuous Charge Distributions
+- 4.1b Techniques for Solving Electric Field of Continuous Charge Distributions
+- 4.1c Applications of Electric Field of Continuous Charge Distributions
+
+- Section: 4.2 Problem Solving Session 3: Gauss' Law:
+subsections:
+- 4.2a Introduction to Gauss' Law
+- 4.2b Techniques for Applying Gauss' Law
+- 4.2c Applications of Gauss' Law
+
+- Chapter 5: Capacitance:
+sections:
+- Section: 5.1 Problem Solving Session 4: Capacitance:
+subsections:
+- 5.1a Introduction to Capacitance
+- 5.1b Techniques for Calculating Capacitance
+- 5.1c Applications of Capacitance
+
+- Chapter 6: Magnetic Fields and Torque:
+sections:
+- Section: 6.1 Problem Solving Session 5: Magnetic Torque and Moments:
+subsections:
+- 6.1a Introduction to Magnetic Torque and Moments
+- 6.1b Techniques for Calculating Magnetic Torque and Moments
+- 6.1c Applications of Magnetic Torque and Moments
+
+- Chapter 7: Ampere's Law:
+sections:
+- Section: 7.1 Problem Solving Session 6: Ampere's Law:
+subsections:
+- 7.1a Introduction to Ampere's Law
+- 7.1b Techniques for Applying Ampere's Law
+- 7.1c Applications of Ampere's Law
+
+- Chapter 8: Faraday's Law:
+sections:
+- Section: 8.1 Problem Solving Session 7: Faraday's Law:
+subsections:
+- 8.1a Introduction to Faraday's Law
+- 8.1b Techniques for Applying Faraday's Law
+- 8.1c Applications of Faraday's Law
+
+- Chapter 9: Driven RLC Circuits:
+sections:
+- Section: 9.1 Problem Solving Session 8: Driven RLC Circuits:
+subsections:
+- 9.1a Introduction to Driven RLC Circuits
+- 9.1b Techniques for Analyzing Driven RLC Circuits
+- 9.1c Applications of Driven RLC Circuits
+
+- Chapter 10: Displacement Current and Poynting's Theorem:
+sections:
+- Section: 10.1 Problem Solving Session 9: Displacement Current, Poynting:
+subsections:
+- 10.1a Introduction to Displacement Current and Poynting's Theorem
+- 10.1b Techniques for Applying Displacement Current and Poynting's Theorem
+- 10.1c Applications of Displacement Current and Poynting's Theorem
+
+- Chapter 11: Interference and Diffraction:
+sections:
+- Section: 11.1 Problem Solving Session 10: Interference:
+subsections:
+- 11.1a Introduction to Interference
+- 11.1b Techniques for Analyzing Interference
+- 11.1c Applications of Interference
+
+- Section: 11.2 Diffraction:
+subsections:
+- 11.2a Introduction to Diffraction
+- 11.2b Techniques for Analyzing Diffraction
+- 11.2c Applications of Diffraction
+
+- Chapter 12: Electromagnetic Waves:
+sections:
+- Section: 12.1 Introduction to Electromagnetic Waves:
+subsections:
+- 12.1a Definition of Electromagnetic Waves
+- 12.1b Properties of Electromagnetic Waves
+- 12.1c Applications of Electromagnetic Waves
+
+- Section: 12.2 Polarization:
+subsections:
+- 12.2a Definition of Polarization
+- 12.2b Techniques for Analyzing Polarization
+- 12.2c Applications of Polarization
+
+- Section: 12.3 Wave Propagation:
+subsections:
+- 12.3a Introduction to Wave Propagation
+- 12.3b Techniques for Analyzing Wave Propagation
+- 12.3c Applications of Wave Propagation
+
+- Chapter 13: Electromagnetic Spectrum:
+sections:
+- Section: 13.1 Introduction to Electromagnetic Spectrum:
+subsections:
+- 13.1a Definition of Electromagnetic Spectrum
+- 13.1b Properties of Electromagnetic Spectrum
+- 13.1c Applications of Electromagnetic Spectrum
+
+- Section: 13.2 Radio Waves:
+subsections:
+- 13.2a Introduction to Radio Waves
+- 13.2b Properties of Radio Waves
+- 13.2c Applications of Radio Waves
+
+- Section: 13.3 X-Rays:
+subsections:
+- 13.3a Introduction to X-Rays
+- 13.3b Properties of X-Rays
+- 13.3c Applications of X-Rays
+
+- Chapter 14: Optics:
+sections:
+- Section: 14.1 Introduction to Optics:
+subsections:
+- 14.1a Definition of Optics
+- 14.1b Properties of Optics
+- 14.1c Applications of Optics
+
+- Section: 14.2 Reflection and Refraction:
+subsections:
+- 14.2a Introduction to Reflection and Refraction
+- 14.2b Techniques for Analyzing Reflection and Refraction
+- 14.2c Applications of Reflection and Refraction
+
+- Section: 14.3 Lenses and Mirrors:
+subsections:
+- 14.3a Introduction to Lenses and Mirrors
+- 14.3b Techniques for Analyzing Lenses and Mirrors
+- 14.3c Applications of Lenses and Mirrors
+
+- Chapter 15: Quantum Mechanics:
+sections:
+- Section: 15.1 Introduction to Quantum Mechanics:
+subsections:
+- 15.1a Definition of Quantum Mechanics
+- 15.1b Properties of Quantum Mechanics
+- 15.1c Applications of Quantum Mechanics
+
+- Section: 15.2 Wave-Particle Duality:
+subsections:
+- 15.2a Introduction to Wave-Particle Duality
+- 15.2b Techniques for Analyzing Wave-Particle Duality
+- 15.2c Applications of Wave-Particle Duality
+
+- Section: 15.3 Quantum States:
+subsections:
+- 15.3a Introduction to Quantum States
+- 15.3b Techniques for Analyzing Quantum States
+- 15.3c Applications of Quantum States
+
+- Chapter 16: Atomic Physics:
+sections:
+- Section: 16.1 Introduction to Atomic Physics:
+subsections:
+- 16.1a Definition of Atomic Physics
+- 16.1b Properties of Atomic Physics
+- 16.1c Applications of Atomic Physics
+
+- Section: 16.2 Atomic Structure:
+subsections:
+- 16.2a Introduction to Atomic Structure
+- 16.2b Techniques for Analyzing Atomic Structure
+- 16.2c Applications of Atomic Structure
+
+- Section: 16.3 Atomic Spectra:
+subsections:
+- 16.3a Introduction to Atomic Spectra
+- 16.3b Techniques for Analyzing Atomic Spectra
+- 16.3c Applications of Atomic Spectra
+
+- Chapter 17: Nuclear Physics:
+sections:
+- Section: 17.1 Introduction to Nuclear Physics:
+subsections:
+- 17.1a Definition of Nuclear Physics
+- 17.1b Properties of Nuclear Physics
+- 17.1c Applications of Nuclear Physics
+
+- Section: 17.2 Nuclear Structure:
+subsections:
+- 17.2a Introduction to Nuclear Structure
+- 17.2b Techniques for Analyzing Nuclear Structure
+- 17.2c Applications of Nuclear Structure
+
+- Section: 17.3 Nuclear Reactions:
+subsections:
+- 17.3a Introduction to Nuclear Reactions
+- 17.3b Techniques for Analyzing Nuclear Reactions
+- 17.3c Applications of Nuclear Reactions
+
+- Chapter 18: Particle Physics:
+sections:
+- Section: 18.1 Introduction to Particle Physics:
+subsections:
+- 18.1a Definition of Particle Physics
+- 18.1b Properties of Particle Physics
+- 18.1c Applications of Particle Physics
+
+- Section: 18.2 Elementary Particles:
+subsections:
+- 18.2a Introduction to Elementary Particles
+- 18.2b Techniques for Analyzing Elementary Particles
+- 18.2c Applications of Elementary Particles
+
+- Section: 18.3 Particle Interactions:
+subsections:
+- 18.3a Introduction to Particle Interactions
+- 18.3b Techniques for Analyzing Particle Interactions
+- 18.3c Applications of Particle Interactions
+
+- Chapter 19: Astrophysics:
+sections:
+- Section: 19.1 Introduction to Astrophysics:
+subsections:
+- 19.1a Definition of Astrophysics
+- 19.1b Properties of Astrophysics
+- 19.1c Applications of Astrophysics
+
+- Section: 19.2 Stellar Physics:
+subsections:
+- 19.2a Introduction to Stellar Physics
+- 19.2b Techniques for Analyzing Stellar Physics
+- 19.2c Applications of Stellar Physics
+
+- Section: 19.3 Cosmology:
+subsections:
+- 19.3a Introduction to Cosmology
+- 19.3b Techniques for Analyzing Cosmology
+- 19.3c Applications of Cosmology
+
+- Chapter 20: Special and General Relativity:
+sections:
+- Section: 20.1 Introduction to Special and General Relativity:
+subsections:
+- 20.1a Definition of Special and General Relativity
+- 20.1b Properties of Special and General Relativity
+- 20.1c Applications of Special and General Relativity
+
+- Section: 20.2 Space-Time:
+subsections:
+- 20.2a Introduction to Space-Time
+- 20.2b Techniques for Analyzing Space-Time
+- 20.2c Applications of Space-Time
+
+- Section: 20.3 Gravitational Waves:
+subsections:
+- 20.3a Introduction to Gravitational Waves
+- 20.3b Techniques for Analyzing Gravitational Waves
+- 20.3c Applications of Gravitational Waves

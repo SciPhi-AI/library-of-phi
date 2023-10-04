@@ -1,0 +1,328 @@
+textbook: 
+"Effective Field Theories of QCD: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Standard Model Review:
+sections:
+- Section: 1.1 CKM Matrix:
+subsections:
+- 1.1a Introduction to CKM Matrix
+- 1.1b Unitarity Triangle
+- 1.1c CP Violation
+
+- Section: 1.2 SM as an EFT:
+subsections:
+- 1.2a Introduction to the Standard Model
+- 1.2b Effective Field Theories
+- 1.2c Power Counting in EFT
+
+- Section: 1.3 Relevant and Irrelevant Operators:
+subsections:
+- 1.3a Classification of Operators
+- 1.3b Renormalization and Anomalies
+- 1.3c Operator Mixing
+
+- Section: 1.4 Field Redefinitions:
+subsections:
+- 1.4a Field Transformations
+- 1.4b Canonical Quantization
+- 1.4c Path Integral Formulation
+
+- Section: 1.5 Wilsonian and Gell-Mann Low Renormalization Group:
+subsections:
+- 1.5a Wilsonian RG
+- 1.5b Gell-Mann Low RG
+- 1.5c Beta Function and Anomalous Dimensions
+
+- Section: 1.6 Neutrinos:
+subsections:
+- 1.6a Neutrino Oscillations
+- 1.6b Neutrino Masses and Mixings
+- 1.6c Neutrinoless Double Beta Decay
+
+- Chapter 2: EFT Basics:
+sections:
+- Section: 2.1 QCD Handout:
+subsections:
+- 2.1a Introduction to QCD
+- 2.1b QCD Lagrangian
+- 2.1c Color Confinement
+
+- Section: 2.2 Regularization and Renormalization:
+subsections:
+- 2.2a Dimensional Regularization
+- 2.2b Renormalization Schemes
+- 2.2c Renormalization Group Equations
+
+- Section: 2.3 Decoupling Theorem:
+subsections:
+- 2.3a Statement of the Decoupling Theorem
+- 2.3b Applications of the Decoupling Theorem
+
+- Section: 2.4 Mass Independent Schemes:
+subsections:
+- 2.4a MS Bar Scheme
+- 2.4b On-Shell Scheme
+- 2.4c Other Mass Independent Schemes
+
+- Section: 2.5 Matching and Running:
+subsections:
+- 2.5a Matching Conditions
+- 2.5b Renormalization Scale Dependence
+- 2.5c Running Coupling Constants
+
+- Chapter 3: EFT for Massive Particles:
+sections:
+- Section: 3.1 Integrating out the Top, W, Z:
+subsections:
+- 3.1a Top Quark Mass Effects
+- 3.1b W and Z Boson Mass Effects
+- 3.1c Electroweak Precision Observables
+
+- Section: 3.2 Matching and Decoupling:
+subsections:
+- 3.2a Matching Conditions for Massive Particles
+- 3.2b Decoupling of Massive Particles
+- 3.2c Heavy Particle Effective Field Theories
+
+- Section: 3.3 Electroweak Hamiltonian:
+subsections:
+- 3.3a Electroweak Symmetry Breaking
+- 3.3b Electroweak Precision Tests
+- 3.3c Effective Hamiltonian for Electroweak Processes
+
+- Section: 3.4 Flavor Changing Neutral Currents:
+subsections:
+- 3.4a Flavor Changing Neutral Currents in the SM
+- 3.4b FCNCs in EFT
+- 3.4c Rare B and K Decays
+
+- Section: 3.5 Higgs Effective Field Theory:
+subsections:
+- 3.5a Effective Field Theory for the Higgs Boson
+- 3.5b Higgs Phenomenology in EFT
+- 3.5c Higgs Production and Decays
+
+- Chapter 4: Chiral Perturbation Theory:
+sections:
+- Section: 4.1 Introduction to Chiral Perturbation Theory:
+subsections:
+- 4.1a Spontaneous Symmetry Breaking
+- 4.1b Chiral Effective Field Theory
+- 4.1c Chiral Perturbation Theory Lagrangian
+
+- Section: 4.2 Pion Scattering:
+subsections:
+- 4.2a Pion-Pion Scattering
+- 4.2b Low-Energy Theorems
+- 4.2c Chiral Perturbation Theory Predictions
+
+- Section: 4.3 Chiral Symmetry Breaking:
+subsections:
+- 4.3a Spontaneous Chiral Symmetry Breaking
+- 4.3b Chiral Condensate and Quark Masses
+- 4.3c Chiral Effective Potential
+
+- Section: 4.4 Chiral Power Counting:
+subsections:
+- 4.4a Power Counting in Chiral Perturbation Theory
+- 4.4b Chiral Expansion of Amplitudes
+- 4.4c Order Counting Rules
+
+- Section: 4.5 Chiral Lagrangian:
+subsections:
+- 4.5a Chiral Lagrangian for Pions
+- 4.5b Extension to Include Other Mesons
+- 4.5c Applications of Chiral Lagrangian
+
+- Chapter 5: Heavy Quark Effective Theory:
+sections:
+- Section: 5.1 Introduction to Heavy Quark Effective Theory:
+subsections:
+- 5.1a Symmetries of Heavy Quark Effective Theory
+- 5.1b Heavy Quark Effective Lagrangian
+- 5.1c Power Counting in HQET
+
+- Section: 5.2 HQET for B Mesons:
+subsections:
+- 5.2a Effective Field Theory for B Mesons
+- 5.2b B Meson Decay Processes
+- 5.2c B Mixing and CP Violation
+
+- Section: 5.3 Heavy Quark Symmetries:
+subsections:
+- 5.3a Heavy Quark Spin Symmetry
+- 5.3b Heavy Quark Flavor Symmetry
+- 5.3c Applications of Heavy Quark Symmetries
+
+- Section: 5.4 Leptonic and Semileptonic Decays:
+subsections:
+- 5.4a Leptonic Decays of Heavy Mesons
+- 5.4b Semileptonic Decays of Heavy Mesons
+- 5.4c Form Factors in Heavy Meson Decays
+
+- Section: 5.5 Heavy Quark Form Factors:
+subsections:
+- 5.5a Heavy-to-Light Form Factors
+- 5.5b Heavy-to-Heavy Form Factors
+- 5.5c Applications of Heavy Quark Form Factors
+
+- Chapter 6: Non-Relativistic QCD:
+sections:
+- Section: 6.1 Introduction to Non-Relativistic QCD:
+subsections:
+- 6.1a NRQCD Lagrangian
+- 6.1b Velocity Scaling and Power Counting
+- 6.1c Non-Relativistic Bound States
+
+- Section: 6.2 NRQCD Power Counting:
+subsections:
+- 6.2a Power Counting in NRQCD
+- 6.2b Matching Conditions for NRQCD
+- 6.2c Renormalization Group Evolution in NRQCD
+
+- Section: 6.3 Quarkonium Spectroscopy:
+subsections:
+- 6.3a Quarkonium Bound States
+- 6.3b Quarkonium Mass Spectrum
+- 6.3c Quarkonium Decays and Production
+
+- Section: 6.4 Heavy Quarkonia Decay:
+subsections:
+- 6.4a Radiative and Electromagnetic Decays
+- 6.4b Leptonic and Semileptonic Decays
+- 6.4c Hadronic and Inclusive Decays
+
+- Section: 6.5 Effective Field Theory for Quarkonia:
+subsections:
+- 6.5a Effective Field Theory for Quarkonia
+- 6.5b EFT Approach to Quarkonia Phenomenology
+- 6.5c Applications of Quarkonium EFT
+
+- Chapter 7: Prelude to SCET:
+sections:
+- Section: 7.1 Introduction to Soft-Collinear Effective Theory:
+subsections:
+- 7.1a Introduction to SCET
+- 7.1b SCET Lagrangian
+- 7.1c Power Counting in SCET
+
+- Section: 7.2 SCET Power Counting:
+subsections:
+- 7.2a Power Counting in SCET
+- 7.2b Factorization in SCET
+- 7.2c Applications of SCET in QCD Processes
+
+- Section: 7.3 Factorization Theorems:
+subsections:
+- 7.3a Factorization in QCD Processes
+- 7.3b Soft and Collinear Factorization
+- 7.3c Proof of Factorization Theorems
+
+- Section: 7.4 Resummation Techniques:
+subsections:
+- 7.4a Resummation in SCET
+- 7.4b Sudakov Form Factors
+- 7.4c Threshold Resummation
+
+- Chapter 8: Soft-Collinear Effective Theory:
+sections:
+- Section: 8.1 Introduction to SCET:
+subsections:
+- 8.1a Introduction to SCET
+- 8.1b SCET Power Counting
+- 8.1c SCET Lagrangian
+
+- Section: 8.2 SCET Lagrangian:
+subsections:
+- 8.2a SCET Field Content
+- 8.2b SCET Gauge Symmetry
+- 8.2c SCET Soft and Collinear Modes
+
+- Section: 8.3 Gauge Symmetry:
+subsections:
+- 8.3a Gauge Symmetry in SCET
+- 8.3b Gauge Invariance and Ward Identities
+- 8.3c Anomalous Dimensions in SCET
+
+- Section: 8.4 Renormalization Group Evolution:
+subsections:
+- 8.4a Renormalization Group in SCET
+- 8.4b Anomalous Dimensions in SCET
+- 8.4c RG Evolution Equations in SCET
+
+- Section: 8.5 Infrared Divergences and Matching:
+subsections:
+- 8.5a Infrared Divergences in SCET
+- 8.5b Soft and Collinear Divergences
+- 8.5c Matching Calculations in SCET
+
+- Chapter 9: Student Presentations:
+sections:
+- Section: 9.1 Presentation 1:
+subsections:
+- 9.1a Presentation Topic 1
+- 9.1b Presentation Content 1
+- 9.1c Presentation Discussion 1
+
+- Section: 9.2 Presentation 2:
+subsections:
+- 9.2a Presentation Topic 2
+- 9.2b Presentation Content 2
+- 9.2c Presentation Discussion 2
+
+- Section: 9.3 Presentation 3:
+subsections:
+- 9.3a Presentation Topic 3
+- 9.3b Presentation Content 3
+- 9.3c Presentation Discussion 3
+
+- Section: 9.4 Presentation 4:
+subsections:
+- 9.4a Presentation Topic 4
+- 9.4b Presentation Content 4
+- 9.4c Presentation Discussion 4
+
+- Section: 9.5 Presentation 5:
+subsections:
+- 9.5a Presentation Topic 5
+- 9.5b Presentation Content 5
+- 9.5c Presentation Discussion 5
+
+- Section: 9.6 Presentation 6:
+subsections:
+- 9.6a Presentation Topic 6
+- 9.6b Presentation Content 6
+- 9.6c Presentation Discussion 6
+
+- Section: 9.7 Presentation 7:
+subsections:
+- 9.7a Presentation Topic 7
+- 9.7b Presentation Content 7
+- 9.7c Presentation Discussion 7
+
+- Section: 9.8 Presentation 8:
+subsections:
+- 9.8a Presentation Topic 8
+- 9.8b Presentation Content 8
+- 9.8c Presentation Discussion 8
+
+- Section: 9.9 Presentation 9:
+subsections:
+- 9.9a Presentation Topic 9
+- 9.9b Presentation Content 9
+- 9.9c Presentation Discussion 9
+
+- Section: 9.10 Presentation 10:
+subsections:
+- 9.10a Presentation Topic 10
+- 9.10b Presentation Content 10
+- 9.10c Presentation Discussion 10
+
+- Chapter 10: Additional Topics in QCD:
+sections:
+- Section: 10.1 QCD Phase Diagram:
+subsections:
+- 10.1a Introduction to QCD Phase Diagram
+- 10.1b Quark-Gluon Plasma
+-

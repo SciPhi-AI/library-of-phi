@@ -1,0 +1,328 @@
+textbook:
+  'Biocatalysis: Fundamentals and Applications":':
+    chapters:
+    - '- Chapter 1: Course Overview and Enzyme Classification:':
+        sections:
+        - '- Section: 1.1 Introduction to Biocatalysis:':
+            subsections:
+            - 1.1a Definition of Biocatalysis
+            - 1.1b Importance of Biocatalysis
+            - 1.1c Applications of Biocatalysis
+        - '- Section: 1.2 Enzyme Classification:':
+            subsections:
+            - 1.2a Types of Enzymes
+            - 1.2b Enzyme Nomenclature
+            - 1.2c Enzyme Families
+    - '- Chapter 2: Enzyme Catalysts: Review of Protein Chemistry and Enzyme Specificity:':
+        sections:
+        - '- Section: 2.1 Protein Chemistry:':
+            subsections:
+            - 2.1a Amino Acids
+            - 2.1b Protein Structure
+            - 2.1c Protein Function
+        - '- Section: 2.2 Enzyme Specificity:':
+            subsections:
+            - 2.2a Lock and Key Model
+            - 2.2b Induced Fit Model
+            - 2.2c Factors Affecting Enzyme Specificity
+    - '- Chapter 3: Non-kinetic Evaluation of Enzyme Performance and Review of Enzyme Kinetics:':
+        sections:
+        - '- Section: 3.1 Non-kinetic Evaluation:':
+            subsections:
+            - 3.1a Enzyme Activity
+            - 3.1b Enzyme Concentration
+            - 3.1c Enzyme Purity
+        - '- Section: 3.2 Enzyme Performance:':
+            subsections:
+            - 3.2a Enzyme Efficiency
+            - 3.2b Enzyme Stability
+            - 3.2c Enzyme Selectivity
+        - '- Section: 3.3 Review of Enzyme Kinetics:':
+            subsections:
+            - 3.3a Michaelis-Menten Kinetics
+            - 3.3b Lineweaver-Burk Plot
+            - 3.3c Enzyme Inhibition
+    - '- Chapter 4: Enzyme Kinetics: pH and Temperature Effects, Enzyme Stability:':
+        sections:
+        - '- Section: 4.1 pH Effects on Enzyme Kinetics:':
+            subsections:
+            - 4.1a pH Dependence of Enzyme Activity
+            - 4.1b Optimum pH
+            - 4.1c pH Stability
+        - '- Section: 4.2 Temperature Effects on Enzyme Kinetics:':
+            subsections:
+            - 4.2a Temperature Dependence of Enzyme Activity
+            - 4.2b Optimum Temperature
+            - 4.2c Temperature Stability
+        - '- Section: 4.3 Enzyme Stability:':
+            subsections:
+            - 4.3a Factors Affecting Enzyme Stability
+            - 4.3b Enzyme Storage
+            - 4.3c Enzyme Shelf Life
+    - '- Chapter 5: Enzyme Inhibition and Toxicity:':
+        sections:
+        - '- Section: 5.1 Enzyme Inhibition:':
+            subsections:
+            - 5.1a Types of Enzyme Inhibition
+            - 5.1b Mechanisms of Enzyme Inhibition
+            - 5.1c Overcoming Enzyme Inhibition
+        - '- Section: 5.2 Enzyme Toxicity:':
+            subsections:
+            - 5.2a Causes of Enzyme Toxicity
+            - 5.2b Effects of Enzyme Toxicity
+            - 5.2c Preventing Enzyme Toxicity
+    - '- Chapter 6: Whole Cell Catalysts: When/Why, Cell Growth vs. Conversion:':
+        sections:
+        - '- Section: 6.1 Introduction to Whole Cell Catalysts:':
+            subsections:
+            - 6.1a Definition of Whole Cell Catalysts
+            - 6.1b Advantages of Whole Cell Catalysts
+            - 6.1c Applications of Whole Cell Catalysts
+        - '- Section: 6.2 When and Why to Use Whole Cell Catalysts:':
+            subsections:
+            - 6.2a Factors Influencing the Use of Whole Cell Catalysts
+            - 6.2b Whole Cell Catalysts vs. Free Enzymes
+            - 6.2c Case Studies of Whole Cell Catalysts
+        - '- Section: 6.3 Cell Growth vs. Conversion:':
+            subsections:
+            - 6.3a Balancing Cell Growth and Conversion
+            - 6.3b Strategies for Maximizing Conversion
+            - 6.3c Case Studies of Cell Growth vs. Conversion
+    - '- Chapter 7: Biocatalysis in Industrial Applications:':
+        sections:
+        - '- Section: 7.1 Biocatalysis in Pharmaceuticals:':
+            subsections:
+            - 7.1a Role of Biocatalysis in Drug Development
+            - 7.1b Case Studies of Biocatalysis in Pharmaceuticals
+            - 7.1c Future Trends in Biocatalysis in Pharmaceuticals
+        - '- Section: 7.2 Biocatalysis in Food and Beverages:':
+            subsections:
+            - 7.2a Role of Biocatalysis in Food and Beverage Production
+            - 7.2b Case Studies of Biocatalysis in Food and Beverages
+            - 7.2c Future Trends in Biocatalysis in Food and Beverages
+        - '- Section: 7.3 Biocatalysis in Biofuels:':
+            subsections:
+            - 7.3a Role of Biocatalysis in Biofuel Production
+            - 7.3b Case Studies of Biocatalysis in Biofuels
+            - 7.3c Future Trends in Biocatalysis in Biofuels
+    - '- Chapter 8: Biocatalysis in Environmental Applications:':
+        sections:
+        - '- Section: 8.1 Biocatalysis in Waste Treatment:':
+            subsections:
+            - 8.1a Role of Biocatalysis in Waste Treatment
+            - 8.1b Case Studies of Biocatalysis in Waste Treatment
+            - 8.1c Future Trends in Biocatalysis in Waste Treatment
+        - '- Section: 8.2 Biocatalysis in Pollution Control:':
+            subsections:
+            - 8.2a Role of Biocatalysis in Pollution Control
+            - 8.2b Case Studies of Biocatalysis in Pollution Control
+            - 8.2c Future Trends in Biocatalysis in Pollution Control
+        - '- Section: 8.3 Biocatalysis in Sustainable Development:':
+            subsections:
+            - 8.3a Role of Biocatalysis in Sustainable Development
+            - 8.3b Case Studies of Biocatalysis in Sustainable Development
+            - 8.3c Future Trends in Biocatalysis in Sustainable Development
+    - '- Chapter 9: Biocatalysis in Medical Applications:':
+        sections:
+        - '- Section: 9.1 Biocatalysis in Diagnostics:':
+            subsections:
+            - 9.1a Role of Biocatalysis in Diagnostics
+            - 9.1b Case Studies of Biocatalysis in Diagnostics
+            - 9.1c Future Trends in Biocatalysis in Diagnostics
+        - '- Section: 9.2 Biocatalysis in Therapeutics:':
+            subsections:
+            - 9.2a Role of Biocatalysis in Therapeutics
+            - 9.2b Case Studies of Biocatalysis in Therapeutics
+            - 9.2c Future Trends in Biocatalysis in Therapeutics
+        - '- Section: 9.3 Biocatalysis in Drug Delivery:':
+            subsections:
+            - 9.3a Role of Biocatalysis in Drug Delivery
+            - 9.3b Case Studies of Biocatalysis in Drug Delivery
+            - 9.3c Future Trends in Biocatalysis in Drug Delivery
+    - '- Chapter 10: Biocatalysis in Research and Development:':
+        sections:
+        - '- Section: 10.1 Biocatalysis in Drug Discovery:':
+            subsections:
+            - 10.1a Role of Biocatalysis in Drug Discovery
+            - 10.1b Case Studies of Biocatalysis in Drug Discovery
+            - 10.1c Future Trends in Biocatalysis in Drug Discovery
+        - '- Section: 10.2 Biocatalysis in Material Science:':
+            subsections:
+            - 10.2a Role of Biocatalysis in Material Science
+            - 10.2b Case Studies of Biocatalysis in Material Science
+            - 10.2c Future Trends in Biocatalysis in Material Science
+        - '- Section: 10.3 Biocatalysis in Synthetic Biology:':
+            subsections:
+            - 10.3a Role of Biocatalysis in Synthetic Biology
+            - 10.3b Case Studies of Biocatalysis in Synthetic Biology
+            - 10.3c Future Trends in Biocatalysis in Synthetic Biology
+    - '- Chapter 11: Biocatalysis in Education:':
+        sections:
+        - '- Section: 11.1 Biocatalysis in Undergraduate Education:':
+            subsections:
+            - 11.1a Role of Biocatalysis in Undergraduate Education
+            - 11.1b Case Studies of Biocatalysis in Undergraduate Education
+            - 11.1c Future Trends in Biocatalysis in Undergraduate Education
+        - '- Section: 11.2 Biocatalysis in Graduate Education:':
+            subsections:
+            - 11.2a Role of Biocatalysis in Graduate Education
+            - 11.2b Case Studies of Biocatalysis in Graduate Education
+            - 11.2c Future Trends in Biocatalysis in Graduate Education
+        - '- Section: 11.3 Biocatalysis in Continuing Education:':
+            subsections:
+            - 11.3a Role of Biocatalysis in Continuing Education
+            - 11.3b Case Studies of Biocatalysis in Continuing Education
+            - 11.3c Future Trends in Biocatalysis in Continuing Education
+    - '- Chapter 12: Biocatalysis in Policy and Regulation:':
+        sections:
+        - '- Section: 12.1 Biocatalysis in Environmental Policy:':
+            subsections:
+            - 12.1a Role of Biocatalysis in Environmental Policy
+            - 12.1b Case Studies of Biocatalysis in Environmental Policy
+            - 12.1c Future Trends in Biocatalysis in Environmental Policy
+        - '- Section: 12.2 Biocatalysis in Health Policy:':
+            subsections:
+            - 12.2a Role of Biocatalysis in Health Policy
+            - 12.2b Case Studies of Biocatalysis in Health Policy
+            - 12.2c Future Trends in Biocatalysis in Health Policy
+        - '- Section: 12.3 Biocatalysis in Regulatory Affairs:':
+            subsections:
+            - 12.3a Role of Biocatalysis in Regulatory Affairs
+            - 12.3b Case Studies of Biocatalysis in Regulatory Affairs
+            - 12.3c Future Trends in Biocatalysis in Regulatory Affairs
+    - '- Chapter 13: Biocatalysis in the Future:':
+        sections:
+        - '- Section: 13.1 Future Trends in Biocatalysis:':
+            subsections:
+            - 13.1a Predicted Trends in Biocatalysis
+            - 13.1b Emerging Technologies in Biocatalysis
+            - 13.1c Future Challenges in Biocatalysis
+        - '- Section: 13.2 Biocatalysis and Climate Change:':
+            subsections:
+            - 13.2a Role of Biocatalysis in Mitigating Climate Change
+            - 13.2b Case Studies of Biocatalysis and Climate Change
+            - 13.2c Future Trends in Biocatalysis and Climate Change
+        - '- Section: 13.3 Biocatalysis and Sustainability:':
+            subsections:
+            - 13.3a Role of Biocatalysis in Promoting Sustainability
+            - 13.3b Case Studies of Biocatalysis and Sustainability
+            - 13.3c Future Trends in Biocatalysis and Sustainability
+    - '- Chapter 14: Biocatalysis and Society:':
+        sections:
+        - '- Section: 14.1 Biocatalysis and Public Perception:':
+            subsections:
+            - 14.1a Public Perception of Biocatalysis
+            - 14.1b Case Studies of Biocatalysis and Public Perception
+            - 14.1c Future Trends in Biocatalysis and Public Perception
+        - '- Section: 14.2 Biocatalysis and Ethics:':
+            subsections:
+            - 14.2a Ethical Considerations in Biocatalysis
+            - 14.2b Case Studies of Biocatalysis and Ethics
+            - 14.2c Future Trends in Biocatalysis and Ethics
+        - '- Section: 14.3 Biocatalysis and Equity:':
+            subsections:
+            - 14.3a Role of Biocatalysis in Promoting Equity
+            - 14.3b Case Studies of Biocatalysis and Equity
+            - 14.3c Future Trends in Biocatalysis and Equity
+    - '- Chapter 15: Biocatalysis and the Economy:':
+        sections:
+        - '- Section: 15.1 Economic Impact of Biocatalysis:':
+            subsections:
+            - 15.1a Economic Benefits of Biocatalysis
+            - 15.1b Case Studies of Biocatalysis and the Economy
+            - 15.1c Future Trends in Biocatalysis and the Economy
+        - '- Section: 15.2 Biocatalysis and Job Creation:':
+            subsections:
+            - 15.2a Role of Biocatalysis in Job Creation
+            - 15.2b Case Studies of Biocatalysis and Job Creation
+            - 15.2c Future Trends in Biocatalysis and Job Creation
+        - '- Section: 15.3 Biocatalysis and Industry:':
+            subsections:
+            - 15.3a Role of Biocatalysis in Various Industries
+            - 15.3b Case Studies of Biocatalysis and Industry
+            - 15.3c Future Trends in Biocatalysis and Industry
+    - '- Chapter 16: Biocatalysis and Innovation:':
+        sections:
+        - '- Section: 16.1 Biocatalysis and Technological Innovation:':
+            subsections:
+            - 16.1a Role of Biocatalysis in Technological Innovation
+            - 16.1b Case Studies of Biocatalysis and Technological Innovation
+            - 16.1c Future Trends in Biocatalysis and Technological Innovation
+        - '- Section: 16.2 Biocatalysis and Scientific Innovation:':
+            subsections:
+            - 16.2a Role of Biocatalysis in Scientific Innovation
+            - 16.2b Case Studies of Biocatalysis and Scientific Innovation
+            - 16.2c Future Trends in Biocatalysis and Scientific Innovation
+        - '- Section: 16.3 Biocatalysis and Social Innovation:':
+            subsections:
+            - 16.3a Role of Biocatalysis in Social Innovation
+            - 16.3b Case Studies of Biocatalysis and Social Innovation
+            - 16.3c Future Trends in Biocatalysis and Social Innovation
+    - '- Chapter 17: Biocatalysis and Global Challenges:':
+        sections:
+        - '- Section: 17.1 Biocatalysis and Global Health Challenges:':
+            subsections:
+            - 17.1a Role of Biocatalysis in Addressing Global Health Challenges
+            - 17.1b Case Studies of Biocatalysis and Global Health Challenges
+            - 17.1c Future Trends in Biocatalysis and Global Health Challenges
+        - '- Section: 17.2 Biocatalysis and Global Environmental Challenges:':
+            subsections:
+            - 17.2a Role of Biocatalysis in Addressing Global Environmental Challenges
+            - 17.2b Case Studies of Biocatalysis and Global Environmental Challenges
+            - 17.2c Future Trends in Biocatalysis and Global Environmental Challenges
+        - '- Section: 17.3 Biocatalysis and Global Economic Challenges:':
+            subsections:
+            - 17.3a Role of Biocatalysis in Addressing Global Economic Challenges
+            - 17.3b Case Studies of Biocatalysis and Global Economic Challenges
+            - 17.3c Future Trends in Biocatalysis and Global Economic Challenges
+    - '- Chapter 18: Biocatalysis and Interdisciplinary Collaboration:':
+        sections:
+        - '- Section: 18.1 Biocatalysis and Interdisciplinary Research:':
+            subsections:
+            - 18.1a Role of Biocatalysis in Interdisciplinary Research
+            - 18.1b Case Studies of Biocatalysis and Interdisciplinary Research
+            - 18.1c Future Trends in Biocatalysis and Interdisciplinary Research
+        - '- Section: 18.2 Biocatalysis and Interdisciplinary Education:':
+            subsections:
+            - 18.2a Role of Biocatalysis in Interdisciplinary Education
+            - 18.2b Case Studies of Biocatalysis and Interdisciplinary Education
+            - 18.2c Future Trends in Biocatalysis and Interdisciplinary Education
+        - '- Section: 18.3 Biocatalysis and Interdisciplinary Policy:':
+            subsections:
+            - 18.3a Role of Biocatalysis in Interdisciplinary Policy
+            - 18.3b Case Studies of Biocatalysis and Interdisciplinary Policy
+            - 18.3c Future Trends in Biocatalysis and Interdisciplinary Policy
+    - '- Chapter 19: Biocatalysis and the Future of Education:':
+        sections:
+        - '- Section: 19.1 Biocatalysis in Future Curriculum Development:':
+            subsections:
+            - 19.1a Role of Biocatalysis in Future Curriculum Development
+            - 19.1b Case Studies of Biocatalysis in Future Curriculum Development
+            - 19.1c Future Trends in Biocatalysis in Future Curriculum Development
+        - '- Section: 19.2 Biocatalysis in Future Teaching Methods:':
+            subsections:
+            - 19.2a Role of Biocatalysis in Future Teaching Methods
+            - 19.2b Case Studies of Biocatalysis in Future Teaching Methods
+            - 19.2c Future Trends in Biocatalysis in Future Teaching Methods
+        - '- Section: 19.3 Biocatalysis in Future Learning Methods:':
+            subsections:
+            - 19.3a Role of Biocatalysis in Future Learning Methods
+            - 19.3b Case Studies of Biocatalysis in Future Learning Methods
+            - 19.3c Future Trends in Biocatalysis in Future Learning Methods
+    - '- Chapter 20: Biocatalysis and the Future of Society:':
+        sections:
+        - '- Section: 20.1 Biocatalysis and the Future of Health:':
+            subsections:
+            - 20.1a Role of Biocatalysis in the Future of Health
+            - 20.1b Case Studies of Biocatalysis and the Future of Health
+            - 20.1c Future Trends in Biocatalysis and the Future of Health
+        - '- Section: 20.2 Biocatalysis and the Future of the Environment:':
+            subsections:
+            - 20.2a Role of Biocatalysis in the Future of the Environment
+            - 20.2b Case Studies of Biocatalysis and the Future of the Environment
+            - 20.2c Future Trends in Biocatalysis and the Future of the Environment
+        - '- Section: 20.3 Biocatalysis and the Future of the Economy:':
+            subsections:
+            - 20.3a Role of Biocatalysis in the Future of the Economy
+            - 20.3b Case Studies of Biocatalysis and the Future of the Economy
+            - 20.3c Future Trends in Biocatalysis and the Future of the Economy

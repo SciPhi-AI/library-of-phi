@@ -1,0 +1,184 @@
+textbook: 
+"Advanced Macroeconomics II: A Comprehensive Guide to Technology, Distribution, and Employment":
+
+chapters:
+- Chapter 1: Technology, Distribution, and Employment: Competing Technologies Models:
+sections:
+- Section: 1.1 Technical Change, Inequality, and The Labor Market
+- Section: 1.2 Technological Revolutions
+- Section: 1.3 Wages and Employment in the US and Germany
+subsections:
+- 1.3a Wage Inequality in the US
+- 1.3b Wage Inequality in Germany
+
+- Chapter 2: Technology, Distribution, and Employment: Segregation by Skills and Superstars:
+sections:
+- Section: 2.1 Skill Segregation in the Labor Market
+- Section: 2.2 Superstars in the Economy
+- Section: 2.3 Implications for Income Inequality
+subsections:
+- 2.3a Rise of Superstar Firms
+- 2.3b Income Inequality and Social Mobility
+
+- Chapter 3: Technology, Distribution, and Employment: Learning and Market Signals:
+sections:
+- Section: 3.1 Learning by Firms and Workers
+- Section: 3.2 Signaling in the Labor Market
+- Section: 3.3 Matching Models
+subsections:
+- 3.3a Job Search Models
+- 3.3b Labor Market Matching
+
+- Chapter 4: Technology, Distribution, and Employment: Non Homotheticity in General Equilibrium:
+sections:
+- Section: 4.1 Non-homothetic Preferences
+- Section: 4.2 General Equilibrium Effects
+- Section: 4.3 Wealth Distribution
+subsections:
+- 4.3a Wealth Inequality and Financial Assets
+- 4.3b Wealth Distribution and Inheritance
+
+- Chapter 5: Intellectual Property Rights and Growth:
+sections:
+- Section: 5.1 Importance of Intellectual Property Rights
+- Section: 5.2 Economic Growth and Innovation
+- Section: 5.3 Patent Systems and Policies
+subsections:
+- 5.3a Patent Protection and Innovation
+- 5.3b Patent Systems and International Trade
+
+- Chapter 6: Bounded Rationality in Macroeconomics:
+sections:
+- Section: 6.1 Behavioral Economics
+- Section: 6.2 Decision-making under Constraints
+- Section: 6.3 Implications for Macroeconomic Models
+subsections:
+- 6.3a Behavioral Macroeconomics
+- 6.3b Rationality Assumptions in Macroeconomic Analysis
+
+- Chapter 7: Demographics and Macroeconomics:
+sections:
+- Section: 7.1 Population Aging
+- Section: 7.2 Labor Force Participation
+- Section: 7.3 Effects on Economic Growth
+subsections:
+- 7.3a Aging Population and Social Security
+- 7.3b Labor Force Participation and Immigration
+
+- Chapter 8: Macro Complementarities/Coordination: Macroeconomic Complementarities, Amplification, Multiple Equilibria:
+sections:
+- Section: 8.1 Complementarities in Macroeconomic Models
+- Section: 8.2 Amplification Mechanisms
+- Section: 8.3 Multiple Equilibrium Analysis
+subsections:
+- 8.3a Financial Crises and Contagion
+- 8.3b Coordination Failures in Monetary Policy
+
+- Chapter 9: Macro Complementarities/Coordination: Global Games, Higher-Order Uncertainty, and Morris-Shin:
+sections:
+- Section: 9.1 Global Games Theory
+- Section: 9.2 Higher-Order Uncertainty
+- Section: 9.3 Morris-Shin Models
+subsections:
+- 9.3a Financial Market Contagion
+- 9.3b Central Bank Communication and Expectations
+
+- Chapter 10: Macro Complementarities/Coordination: Policy and Information Transmission:
+sections:
+- Section: 10.1 Policy Effects on Coordination
+- Section: 10.2 Information Transmission in the Economy
+- Section: 10.3 Central Bank Communication
+subsections:
+- 10.3a Forward Guidance and Monetary Policy
+- 10.3b Transparency and Policy Effectiveness
+
+- Chapter 11: Macro Complementarities/Coordination: Prices and Information Aggregation:
+sections:
+- Section: 11.1 Price Formation Mechanisms
+- Section: 11.2 Information Aggregation in Markets
+- Section: 11.3 Efficient Market Hypothesis
+subsections:
+- 11.3a Behavioral Biases and Market Efficiency
+- 11.3b Financial Market Anomalies
+
+- Chapter 12: Macro Complementarities/Coordination: Dynamics, Social Learning, and Other Applications:
+sections:
+- Section: 12.1 Dynamic Effects in Macroeconomics
+- Section: 12.2 Social Learning Models
+- Section: 12.3 Applications to Financial Markets
+subsections:
+- 12.3a Financial Bubbles and Crashes
+- 12.3b Herding Behavior and Market Volatility
+
+- Chapter 13: Macro Complementarities/Coordination: Information and Amplification:
+sections:
+- Section: 13.1 Information Effects in Macroeconomics
+- Section: 13.2 Amplification Mechanisms
+- Section: 13.3 Financial Crises and Contagion
+subsections:
+- 13.3a Systemic Risk and Financial Stability
+- 13.3b Interbank Market and Liquidity Crisis
+
+- Chapter 14: Macro Complementarities/Coordination: More on Complementarities, Dynamic Adjustment, and Business Cycles:
+sections:
+- Section: 14.1 Further Analysis of Complementarities
+- Section: 14.2 Dynamic Adjustment Processes
+- Section: 14.3 Business Cycle Models
+subsections:
+- 14.3a Real Business Cycle Theory
+- 14.3b New Keynesian Theory of Business Cycles
+
+- Chapter 15: Incomplete Markets: Recursive Equilibria, Heterogeneous Agents, Precautionary Savings, Non-expected Utility:
+sections:
+- Section: 15.1 Recursive Equilibrium Models
+- Section: 15.2 Heterogeneous Agent Models
+- Section: 15.3 Precautionary Savings Behavior
+- Section: 15.4 Non-expected Utility Theory
+subsections:
+- 15.4a Portfolio Choice and Risk Aversion
+- 15.4b Behavioral Biases in Investment Decision
+
+- Chapter 16: Incomplete Markets: Aiyagari - Steady-State Effects:
+sections:
+- Section: 16.1 Aiyagari Model of Incomplete Markets
+- Section: 16.2 Steady-State Analysis
+- Section: 16.3 Wealth Distribution
+subsections:
+- 16.3a Inequality and Incomplete Markets
+- 16.3b Welfare Implications of Incomplete Markets
+
+- Chapter 17: Incomplete Markets: Krusell-Smith - Introducing Business Cycles:
+sections:
+- Section: 17.1 Krusell-Smith Model of Incomplete Markets
+- Section: 17.2 Business Cycle Analysis
+- Section: 17.3 Endogenous Fluctuations
+subsections:
+- 17.3a Investment and Business Cycle Dynamics
+- 17.3b Labor Market Dynamics in Incomplete Markets
+
+- Chapter 18: Incomplete Markets: Idiosyncratic Investment Risk:
+sections:
+- Section: 18.1 Investment Risk in Incomplete Markets
+- Section: 18.2 Idiosyncratic Risk and Asset Pricing
+- Section: 18.3 Portfolio Choice
+subsections:
+- 18.3a Capital Asset Pricing Model and Incomplete Markets
+- 18.3b Risk Sharing and Incomplete Markets
+
+- Chapter 19: Incomplete Markets: Incomplete Markets and Endogenous Growth:
+sections:
+- Section: 19.1 Endogenous Growth Models with Incomplete Markets
+- Section: 19.2 Wealth Accumulation and Growth
+- Section: 19.3 Policy Implications
+subsections:
+- 19.3a Public Investment and Economic Growth
+- 19.3b Inequality and Sustainable Growth
+
+- Chapter 20: Incomplete Markets: Incomplete Markets and Financial Frictions:
+sections:
+- Section: 20.1 Financial Frictions in Incomplete Markets
+- Section: 20.2 Credit Constraints and Economic Activity
+- Section: 20.3 Policy Implications
+subsections:
+- 20.3a Financial Crises and Incomplete Markets
+- 20.3b Monetary Policy in Incomplete Markets

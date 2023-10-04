@@ -1,0 +1,271 @@
+textbook: 
+"Microeconomic Theory III: A Comprehensive Guide to Advanced Microeconomics":
+
+chapters:
+- Chapter 1: Introduction to Microeconomic Theory III:
+sections:
+- Section: 1.1 Overview of Microeconomic Theory III
+- Section: 1.2 Review of Microeconomic Theory II
+- Section: 1.3 Mathematical Tools for Microeconomic Analysis:
+subsections:
+- 1.3a Optimization Techniques
+- 1.3b Calculus for Economics
+- 1.3c Linear Algebra for Economics
+
+- Chapter 2: Consumer Theory:
+sections:
+- Section: 2.1 Preferences and Utility:
+subsections:
+- 2.1a Utility Functions
+- 2.1b Indifference Curves
+- 2.1c Budget Constraint
+- Section: 2.2 Choice and Demand:
+subsections:
+- 2.2a Consumer Optimization
+- 2.2b Income and Substitution Effects
+- 2.2c Engel Curves
+- 2.2d Revealed Preference Theory
+
+- Chapter 3: Producer Theory:
+sections:
+- Section: 3.1 Production and Cost Functions:
+subsections:
+- 3.1a Production Function
+- 3.1b Isoquants and Marginal Rate of Technical Substitution
+- 3.1c Cost Functions
+- Section: 3.2 Firm Behavior and Supply:
+subsections:
+- 3.2a Profit Maximization
+- 3.2b Input Demand
+- 3.2c Supply Curve
+
+- Chapter 4: Market Structures:
+sections:
+- Section: 4.1 Perfect Competition:
+subsections:
+- 4.1a Market Equilibrium
+- 4.1b Short-run and Long-run Analysis
+- 4.1c Efficiency and Welfare
+- Section: 4.2 Monopoly:
+subsections:
+- 4.2a Profit Maximization
+- 4.2b Price Discrimination
+- 4.2c Monopoly Regulation
+- Section: 4.3 Oligopoly:
+subsections:
+- 4.3a Cournot Model
+- 4.3b Bertrand Model
+- 4.3c Game Theory in Oligopoly
+
+- Chapter 5: General Equilibrium:
+sections:
+- Section: 5.1 Walrasian Equilibrium:
+subsections:
+- 5.1a Edgeworth Box Diagram
+- 5.1b Pareto Efficiency
+- 5.1c Welfare Economics
+- Section: 5.2 Arrow-Debreu Model:
+subsections:
+- 5.2a Equilibrium Existence and Efficiency
+- 5.2b Equilibrium with Production
+- 5.2c Dynamic General Equilibrium
+
+- Chapter 6: Game Theory:
+sections:
+- Section: 6.1 Strategic Form Games:
+subsections:
+- 6.1a Dominant Strategies
+- 6.1b Nash Equilibrium
+- 6.1c Mixed Strategies
+- Section: 6.2 Extensive Form Games:
+subsections:
+- 6.2a Subgame Perfect Equilibrium
+- 6.2b Backward Induction
+- 6.2c Sequential Bargaining
+
+- Chapter 7: Information Economics:
+sections:
+- Section: 7.1 Adverse Selection:
+subsections:
+- 7.1a Signaling and Screening
+- 7.1b Lemons Problem
+- 7.1c Mechanism Design
+- Section: 7.2 Moral Hazard:
+subsections:
+- 7.2a Principal-Agent Problem
+- 7.2b Incentive Compatibility
+- 7.2c Contract Theory
+
+- Chapter 8: Welfare Economics:
+sections:
+- Section: 8.1 Social Welfare Functions:
+subsections:
+- 8.1a Pareto Efficiency and Optimality
+- 8.1b Utilitarianism
+- 8.1c Rawlsian and Nozickian Criteria
+- Section: 8.2 Externalities and Public Goods:
+subsections:
+- 8.2a Pigouvian Taxes and Subsidies
+- 8.2b Coase Theorem
+- 8.2c Public Choice Theory
+
+- Chapter 9: Advanced Topics in Microeconomics:
+sections:
+- Section: 9.1 Game-Theoretic Industrial Organization:
+subsections:
+- 9.1a Collusion and Cartels
+- 9.1b Entry and Exit
+- 9.1c Predatory Pricing
+- Section: 9.2 Behavioral Economics:
+subsections:
+- 9.2a Prospect Theory
+- 9.2b Time Inconsistency
+- 9.2c Bounded Rationality
+- Section: 9.3 Experimental Economics:
+subsections:
+- 9.3a Laboratory Experiments
+- 9.3b Field Experiments
+- 9.3c Behavioral Game Theory
+
+- Chapter 10: Market Failures and Government Intervention:
+sections:
+- Section: 10.1 Market Failures:
+subsections:
+- 10.1a Public Goods and Common Resources
+- 10.1b Externalities
+- 10.1c Asymmetric Information
+- Section: 10.2 Government Intervention:
+subsections:
+- 10.2a Taxes and Subsidies
+- 10.2b Regulation
+- 10.2c Public Provision of Goods and Services
+
+- Chapter 11: Labor Economics:
+sections:
+- Section: 11.1 Labor Supply:
+subsections:
+- 11.1a Individual Labor Supply
+- 11.1b Market Labor Supply
+- 11.1c Labor-Leisure Tradeoff
+- Section: 11.2 Labor Demand:
+subsections:
+- 11.2a Firm's Demand for Labor
+- 11.2b Market Demand for Labor
+- 11.2c Wage Determination
+
+- Chapter 12: Capital and Investment:
+sections:
+- Section: 12.1 Capital Theory:
+subsections:
+- 12.1a The Role of Capital
+- 12.1b The Market for Capital
+- 12.1c Capital Accumulation
+- Section: 12.2 Investment Decision:
+subsections:
+- 12.2a Theories of Investment
+- 12.2b Investment and Uncertainty
+- 12.2c Government Policy and Investment
+
+- Chapter 13: Income Distribution:
+sections:
+- Section: 13.1 Theories of Income Distribution:
+subsections:
+- 13.1a Marginal Productivity Theory
+- 13.1b Human Capital Theory
+- 13.1c Power and Conflict Theories
+- Section: 13.2 Inequality and Poverty:
+subsections:
+- 13.2a Measurement of Inequality
+- 13.2b Causes of Poverty
+- 13.2c Policies to Reduce Inequality and Poverty
+
+- Chapter 14: International Trade:
+sections:
+- Section: 14.1 Theories of International Trade:
+subsections:
+- 14.1a Comparative Advantage
+- 14.1b Heckscher-Ohlin Model
+- 14.1c New Trade Theories
+- Section: 14.2 Trade Policy:
+subsections:
+- 14.2a Tariffs and Quotas
+- 14.2b Free Trade Agreements
+- 14.2c Trade and Development
+
+- Chapter 15: Economic Growth:
+sections:
+- Section: 15.1 Theories of Economic Growth:
+subsections:
+- 15.1a Solow Growth Model
+- 15.1b Endogenous Growth Theory
+- 15.1c Unified Growth Theory
+- Section: 15.2 Empirical Evidence on Economic Growth:
+subsections:
+- 15.2a Cross-Country Growth Comparisons
+- 15.2b Growth Accounting
+- 15.2c Convergence
+
+- Chapter 16: Development Economics:
+sections:
+- Section: 16.1 Theories of Development:
+subsections:
+- 16.1a Classical Theories of Development
+- 16.1b Modern Theories of Development
+- 16.1c Structural Change and Development
+- Section: 16.2 Development Policy:
+subsections:
+- 16.2a Poverty Alleviation
+- 16.2b Education and Health
+- 16.2c Infrastructure and Industrial Policy
+
+- Chapter 17: Environmental Economics:
+sections:
+- Section: 17.1 Environmental Externalities:
+subsections:
+- 17.1a Pollution and Negative Externalities
+- 17.1b Coase Theorem and Environmental Problems
+- 17.1c Tradable Pollution Permits
+- Section: 17.2 Climate Change Economics:
+subsections:
+- 17.2a The Economics of Climate Change
+- 17.2b Cost-Benefit Analysis of Climate Policies
+- 17.2c International Climate Agreements
+
+- Chapter 18: Public Economics:
+sections:
+- Section: 18.1 Public Goods:
+subsections:
+- 18.1a The Free-Rider Problem
+- 18.1b Provision of Public Goods
+- 18.1c Public Choice Theory
+- Section: 18.2 Taxation:
+subsections:
+- 18.2a Principles of Taxation
+- 18.2b Tax Incidence
+- 18.2c Optimal Taxation
+
+- Chapter 19: Health Economics:
+sections:
+- Section: 19.1 Health Care Demand:
+subsections:
+- 19.1a The Grossman Model
+- 19.1b Moral Hazard and Health Insurance
+- 19.1c Health Care Rationing
+- Section: 19.2 Health Care Supply:
+subsections:
+- 19.2a Physician Behavior
+- 19.2b Hospital Behavior
+- 19.2c Pharmaceutical Industry
+
+- Chapter 20: Behavioral Economics:
+sections:
+- Section: 20.1 Behavioral Decision Theory:
+subsections:
+- 20.1a Prospect Theory
+- 20.1b Mental Accounting
+- 20.1c Time Inconsistency
+- Section: 20.2 Behavioral Game Theory:
+subsections:
+- 20.2a Fairness and Reciprocity
+- 20.2b Social Preferences
+- 20.2c Behavioral Mechanism Design

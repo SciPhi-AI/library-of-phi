@@ -1,0 +1,435 @@
+textbook:
+  'Ethics and the Law on the Electronic Frontier: A Comprehensive Guide":':
+    chapters:
+    - '- Chapter 1: Introduction to Ethics and the Law on the Electronic Frontier:':
+        sections:
+        - '- Section: 1.1 Course Overview and Introduction:':
+            subsections:
+            - 1.1a Understanding Ethics
+            - 1.1b Introduction to Law
+            - 1.1c The Electronic Frontier
+        - '- Section: 1.2 Policy Making and the Structure of Law:':
+            subsections:
+            - 1.2a Policy Making Process
+            - 1.2b Structure of Law
+            - 1.2c Law in the Digital Age
+    - '- Chapter 2: Regulating the Decentralized Internet:':
+        sections:
+        - '- Section: 2.1 The Internet meets the U.S. Constitution:':
+            subsections:
+            - 2.1a Internet and Freedom of Speech
+            - 2.1b Internet and Privacy Rights
+            - 2.1c Internet and Intellectual Property Rights
+        - '- Section: 2.2 ''The Legacy of Reno: The Strengths and Limits of Filtering and User Control'':':
+            subsections:
+            - 2.2a The Reno v. ACLU Case
+            - 2.2b Strengths of Filtering and User Control
+            - 2.2c Limits of Filtering and User Control
+        - '- Section: 2.3 The Role of Intermediaries in Online Regulation:':
+            subsections:
+            - 2.3a Definition of Intermediaries
+            - 2.3b Intermediaries and Online Regulation
+            - 2.3c Challenges for Intermediaries
+        - '- Section: 2.4 Content Moderation Challenges: Balancing Free Speech and Harmful Content:':
+            subsections:
+            - 2.4a The Need for Content Moderation
+            - 2.4b Balancing Free Speech and Harmful Content
+            - 2.4c Case Studies of Content Moderation
+    - '- Chapter 3: Regulating Government Use of Surveillance Technology:':
+        sections:
+        - '- Section: 3.1 Fourth Amendment Foundations and the First Century of Electronic Surveillance:':
+            subsections:
+            - 3.1a Fourth Amendment Foundations
+            - 3.1b History of Electronic Surveillance
+            - 3.1c Current State of Electronic Surveillance
+        - '- Section: 3.2 International Issues in Surveillance Regulation:':
+            subsections:
+            - 3.2a Surveillance Regulation in Europe
+            - 3.2b Surveillance Regulation in Asia
+            - 3.2c Surveillance Regulation in the Americas
+        - '- Section: 3.3 Technology-driven Public-private Boundary Shifts in Surveillance:':
+            subsections:
+            - 3.3a Public and Private Sectors in Surveillance
+            - 3.3b Technology's Impact on Surveillance
+            - 3.3c Future of Surveillance
+        - '- Section: 3.4 The Ethics of Government Surveillance:':
+            subsections:
+            - 3.4a Ethical Considerations in Surveillance
+            - 3.4b Balancing Security and Privacy
+            - 3.4c Ethical Frameworks for Surveillance
+    - '- Chapter 4: Anonymity and Transparency:':
+        sections:
+        - '- Section: 4.1 Profiling and Datamining Post-9/11:':
+            subsections:
+            - 4.1a Introduction to Profiling and Datamining
+            - 4.1b Post-9/11 Changes in Profiling and Datamining
+            - 4.1c Ethical Considerations in Profiling and Datamining
+        - '- Section: 4.2 Anonymity vs. Transparency: Striking the Right Balance:':
+            subsections:
+            - 4.2a The Value of Anonymity
+            - 4.2b The Need for Transparency
+            - 4.2c Striking a Balance
+        - '- Section: 4.3 Personal Information on the Web: Privacy and Security Concerns:':
+            subsections:
+            - 4.3a Privacy Concerns in the Digital Age
+            - 4.3b Security Threats to Personal Information
+            - 4.3c Protecting Personal Information
+        - '- Section: 4.4 Transparency in Consumer Protection and Commercial Regulation:':
+            subsections:
+            - 4.4a The Role of Transparency in Consumer Protection
+            - 4.4b Commercial Regulation and Transparency
+            - 4.4c Case Studies in Transparency
+        - '- Section: 4.5 The Right to be Forgotten: Balancing Privacy and Freedom of Information:':
+            subsections:
+            - 4.5a Understanding the Right to be Forgotten
+            - 4.5b Balancing Privacy and Freedom of Information
+            - 4.5c Case Studies on the Right to be Forgotten
+    - '- Chapter 5: Broadcast Regulation and Public Policy Challenges:':
+        sections:
+        - '- Section: 5.1 Origins of Broadcast Regulation: Early Efforts to Regulate the Airwaves:':
+            subsections:
+            - 5.1a History of Broadcast Regulation
+            - 5.1b Early Efforts to Regulate the Airwaves
+            - 5.1c Impact of Regulation on Broadcasting
+        - '- Section: 5.2 Semantic Web Public Policy Challenges: Regulating AI and Machine Learning:':
+            subsections:
+            - 5.2a Understanding the Semantic Web
+            - 5.2b Public Policy Challenges in AI and Machine Learning
+            - 5.2c Future of AI and Machine Learning Regulation
+        - '- Section: 5.3 Media Ownership and Consolidation: Implications for Diversity and Democracy:':
+            subsections:
+            - 5.3a Media Ownership and Its Implications
+            - 5.3b Media Consolidation and Its Effects
+            - 5.3c Promoting Diversity and Democracy in Media
+        - '- Section: 5.4 The Role of Social Media in Shaping Public Opinion: Challenges and Solutions:':
+            subsections:
+            - 5.4a Social Media's Influence on Public Opinion
+            - 5.4b Challenges Posed by Social Media
+            - 5.4c Solutions for Responsible Social Media Use
+    - '- Chapter 6: Term Paper Assignments:':
+        sections:
+        - '- Section: 6.1 Guidelines and Expectations for Final Papers:':
+            subsections:
+            - 6.1a Understanding the Assignment
+            - 6.1b Expectations for Final Papers
+            - 6.1c Grading Criteria for Final Papers
+        - '- Section: 6.2 Exemplary Term Papers:':
+            subsections:
+            - 6.2a Reviewing Exemplary Papers
+            - 6.2b Analyzing Successful Papers
+            - 6.2c Learning from Exemplary Papers
+        - '- Section: 6.3 Research Methodologies and Resources for Writing:':
+            subsections:
+            - 6.3a Understanding Research Methodologies
+            - 6.3b Identifying Reliable Resources
+            - 6.3c Effective Writing Techniques
+        - '- Section: 6.4 Citing Sources and Avoiding Plagiarism:':
+            subsections:
+            - 6.4a Understanding Plagiarism
+            - 6.4b Properly Citing Sources
+            - 6.4c Using Plagiarism Detection Tools
+    - '- Chapter 7: Intellectual Property Rights in the Digital Age:':
+        sections:
+        - '- Section: 7.1 Understanding Intellectual Property Rights:':
+            subsections:
+            - 7.1a Definition of Intellectual Property Rights
+            - 7.1b Types of Intellectual Property Rights
+            - 7.1c Intellectual Property Rights in the Digital Age
+        - '- Section: 7.2 Copyright Law and the Internet:':
+            subsections:
+            - 7.2a Understanding Copyright Law
+            - 7.2b Copyright Law and the Internet
+            - 7.2c Case Studies in Copyright Law
+        - '- Section: 7.3 Patent Law and Technology:':
+            subsections:
+            - 7.3a Understanding Patent Law
+            - 7.3b Patent Law and Technology
+            - 7.3c Case Studies in Patent Law
+        - '- Section: 7.4 Trademark Law and Branding:':
+            subsections:
+            - 7.4a Understanding Trademark Law
+            - 7.4b Trademark Law and Branding
+            - 7.4c Case Studies in Trademark Law
+    - '- Chapter 8: Cybercrime and Cybersecurity:':
+        sections:
+        - '- Section: 8.1 Understanding Cybercrime:':
+            subsections:
+            - 8.1a Definition of Cybercrime
+            - 8.1b Types of Cybercrime
+            - 8.1c Impact of Cybercrime
+        - '- Section: 8.2 Cybersecurity Measures:':
+            subsections:
+            - 8.2a Understanding Cybersecurity
+            - 8.2b Cybersecurity Measures
+            - 8.2c Case Studies in Cybersecurity
+        - '- Section: 8.3 Legal and Ethical Issues in Cybersecurity:':
+            subsections:
+            - 8.3a Legal Issues in Cybersecurity
+            - 8.3b Ethical Issues in Cybersecurity
+            - 8.3c Balancing Security and Privacy
+        - '- Section: 8.4 Cybercrime Legislation and Enforcement:':
+            subsections:
+            - 8.4a Cybercrime Legislation
+            - 8.4b Enforcement of Cybercrime Laws
+            - 8.4c International Cooperation in Cybercrime Enforcement
+    - '- Chapter 9: Digital Rights and Freedoms:':
+        sections:
+        - '- Section: 9.1 Understanding Digital Rights:':
+            subsections:
+            - 9.1a Definition of Digital Rights
+            - 9.1b Types of Digital Rights
+            - 9.1c Protecting Digital Rights
+        - '- Section: 9.2 Freedom of Speech and the Internet:':
+            subsections:
+            - 9.2a Freedom of Speech in the Digital Age
+            - 9.2b Internet Censorship
+            - 9.2c Case Studies in Freedom of Speech
+        - '- Section: 9.3 Privacy Rights and Data Protection:':
+            subsections:
+            - 9.3a Understanding Privacy Rights
+            - 9.3b Data Protection Laws
+            - 9.3c Case Studies in Privacy Rights and Data Protection
+        - '- Section: 9.4 Digital Access and Inclusion:':
+            subsections:
+            - 9.4a Understanding Digital Access
+            - 9.4b Digital Inclusion Initiatives
+            - 9.4c Case Studies in Digital Access and Inclusion
+    - '- Chapter 10: Artificial Intelligence and Ethics:':
+        sections:
+        - '- Section: 10.1 Understanding Artificial Intelligence:':
+            subsections:
+            - 10.1a Definition of Artificial Intelligence
+            - 10.1b Types of Artificial Intelligence
+            - 10.1c Impact of Artificial Intelligence
+        - '- Section: 10.2 Ethical Issues in Artificial Intelligence:':
+            subsections:
+            - 10.2a Understanding AI Ethics
+            - 10.2b Ethical Issues in AI
+            - 10.2c Case Studies in AI Ethics
+        - '- Section: 10.3 AI and the Law:':
+            subsections:
+            - 10.3a AI and Intellectual Property Rights
+            - 10.3b AI and Privacy Rights
+            - 10.3c AI and Liability Issues
+        - '- Section: 10.4 AI Governance and Regulation:':
+            subsections:
+            - 10.4a Understanding AI Governance
+            - 10.4b AI Regulation
+            - 10.4c Case Studies in AI Governance and Regulation
+    - '- Chapter 11: Blockchain Technology and the Law:':
+        sections:
+        - '- Section: 11.1 Understanding Blockchain Technology:':
+            subsections:
+            - 11.1a Definition of Blockchain Technology
+            - 11.1b How Blockchain Works
+            - 11.1c Impact of Blockchain Technology
+        - '- Section: 11.2 Legal Issues in Blockchain:':
+            subsections:
+            - 11.2a Blockchain and Contract Law
+            - 11.2b Blockchain and Intellectual Property Rights
+            - 11.2c Blockchain and Privacy Rights
+        - '- Section: 11.3 Blockchain Regulation:':
+            subsections:
+            - 11.3a Understanding Blockchain Regulation
+            - 11.3b Blockchain Regulation in Different Jurisdictions
+            - 11.3c Case Studies in Blockchain Regulation
+        - '- Section: 11.4 Ethical Issues in Blockchain:':
+            subsections:
+            - 11.4a Understanding Blockchain Ethics
+            - 11.4b Ethical Issues in Blockchain
+            - 11.4c Case Studies in Blockchain Ethics
+    - '- Chapter 12: Internet of Things and the Law:':
+        sections:
+        - '- Section: 12.1 Understanding the Internet of Things:':
+            subsections:
+            - 12.1a Definition of the Internet of Things
+            - 12.1b How the Internet of Things Works
+            - 12.1c Impact of the Internet of Things
+        - '- Section: 12.2 Legal Issues in the Internet of Things:':
+            subsections:
+            - 12.2a IoT and Contract Law
+            - 12.2b IoT and Intellectual Property Rights
+            - 12.2c IoT and Privacy Rights
+        - '- Section: 12.3 IoT Regulation:':
+            subsections:
+            - 12.3a Understanding IoT Regulation
+            - 12.3b IoT Regulation in Different Jurisdictions
+            - 12.3c Case Studies in IoT Regulation
+        - '- Section: 12.4 Ethical Issues in the Internet of Things:':
+            subsections:
+            - 12.4a Understanding IoT Ethics
+            - 12.4b Ethical Issues in IoT
+            - 12.4c Case Studies in IoT Ethics
+    - '- Chapter 13: Social Media and the Law:':
+        sections:
+        - '- Section: 13.1 Understanding Social Media:':
+            subsections:
+            - 13.1a Definition of Social Media
+            - 13.1b Impact of Social Media
+            - 13.1c Social Media and Society
+        - '- Section: 13.2 Legal Issues in Social Media:':
+            subsections:
+            - 13.2a Social Media and Contract Law
+            - 13.2b Social Media and Intellectual Property Rights
+            - 13.2c Social Media and Privacy Rights
+        - '- Section: 13.3 Social Media Regulation:':
+            subsections:
+            - 13.3a Understanding Social Media Regulation
+            - 13.3b Social Media Regulation in Different Jurisdictions
+            - 13.3c Case Studies in Social Media Regulation
+        - '- Section: 13.4 Ethical Issues in Social Media:':
+            subsections:
+            - 13.4a Understanding Social Media Ethics
+            - 13.4b Ethical Issues in Social Media
+            - 13.4c Case Studies in Social Media Ethics
+    - '- Chapter 14: E-commerce and the Law:':
+        sections:
+        - '- Section: 14.1 Understanding E-commerce:':
+            subsections:
+            - 14.1a Definition of E-commerce
+            - 14.1b Impact of E-commerce
+            - 14.1c E-commerce and Society
+        - '- Section: 14.2 Legal Issues in E-commerce:':
+            subsections:
+            - 14.2a E-commerce and Contract Law
+            - 14.2b E-commerce and Intellectual Property Rights
+            - 14.2c E-commerce and Privacy Rights
+        - '- Section: 14.3 E-commerce Regulation:':
+            subsections:
+            - 14.3a Understanding E-commerce Regulation
+            - 14.3b E-commerce Regulation in Different Jurisdictions
+            - 14.3c Case Studies in E-commerce Regulation
+        - '- Section: 14.4 Ethical Issues in E-commerce:':
+            subsections:
+            - 14.4a Understanding E-commerce Ethics
+            - 14.4b Ethical Issues in E-commerce
+            - 14.4c Case Studies in E-commerce Ethics
+    - '- Chapter 15: Cyberbullying and the Law:':
+        sections:
+        - '- Section: 15.1 Understanding Cyberbullying:':
+            subsections:
+            - 15.1a Definition of Cyberbullying
+            - 15.1b Impact of Cyberbullying
+            - 15.1c Cyberbullying and Society
+        - '- Section: 15.2 Legal Issues in Cyberbullying:':
+            subsections:
+            - 15.2a Cyberbullying and Criminal Law
+            - 15.2b Cyberbullying and Civil Law
+            - 15.2c Cyberbullying and School Policies
+        - '- Section: 15.3 Cyberbullying Regulation:':
+            subsections:
+            - 15.3a Understanding Cyberbullying Regulation
+            - 15.3b Cyberbullying Regulation in Different Jurisdictions
+            - 15.3c Case Studies in Cyberbullying Regulation
+        - '- Section: 15.4 Ethical Issues in Cyberbullying:':
+            subsections:
+            - 15.4a Understanding Cyberbullying Ethics
+            - 15.4b Ethical Issues in Cyberbullying
+            - 15.4c Case Studies in Cyberbullying Ethics
+    - '- Chapter 16: Digital Divide and the Law:':
+        sections:
+        - '- Section: 16.1 Understanding the Digital Divide:':
+            subsections:
+            - 16.1a Definition of the Digital Divide
+            - 16.1b Impact of the Digital Divide
+            - 16.1c Digital Divide and Society
+        - '- Section: 16.2 Legal Issues in the Digital Divide:':
+            subsections:
+            - 16.2a Digital Divide and Access to Information
+            - 16.2b Digital Divide and Education
+            - 16.2c Digital Divide and Employment
+        - '- Section: 16.3 Digital Divide Regulation:':
+            subsections:
+            - 16.3a Understanding Digital Divide Regulation
+            - 16.3b Digital Divide Regulation in Different Jurisdictions
+            - 16.3c Case Studies in Digital Divide Regulation
+        - '- Section: 16.4 Ethical Issues in the Digital Divide:':
+            subsections:
+            - 16.4a Understanding Digital Divide Ethics
+            - 16.4b Ethical Issues in the Digital Divide
+            - 16.4c Case Studies in Digital Divide Ethics
+    - '- Chapter 17: Net Neutrality and the Law:':
+        sections:
+        - '- Section: 17.1 Understanding Net Neutrality:':
+            subsections:
+            - 17.1a Definition of Net Neutrality
+            - 17.1b Impact of Net Neutrality
+            - 17.1c Net Neutrality and Society
+        - '- Section: 17.2 Legal Issues in Net Neutrality:':
+            subsections:
+            - 17.2a Net Neutrality and Internet Service Providers
+            - 17.2b Net Neutrality and Freedom of Speech
+            - 17.2c Net Neutrality and Competition
+        - '- Section: 17.3 Net Neutrality Regulation:':
+            subsections:
+            - 17.3a Understanding Net Neutrality Regulation
+            - 17.3b Net Neutrality Regulation in Different Jurisdictions
+            - 17.3c Case Studies in Net Neutrality Regulation
+        - '- Section: 17.4 Ethical Issues in Net Neutrality:':
+            subsections:
+            - 17.4a Understanding Net Neutrality Ethics
+            - 17.4b Ethical Issues in Net Neutrality
+            - 17.4c Case Studies in Net Neutrality Ethics
+    - '- Chapter 18: Data Breaches and the Law:':
+        sections:
+        - '- Section: 18.1 Understanding Data Breaches:':
+            subsections:
+            - 18.1a Definition of Data Breaches
+            - 18.1b Impact of Data Breaches
+            - 18.1c Data Breaches and Society
+        - '- Section: 18.2 Legal Issues in Data Breaches:':
+            subsections:
+            - 18.2a Data Breaches and Contract Law
+            - 18.2b Data Breaches and Privacy Rights
+            - 18.2c Data Breaches and Consumer Protection
+        - '- Section: 18.3 Data Breach Regulation:':
+            subsections:
+            - 18.3a Understanding Data Breach Regulation
+            - 18.3b Data Breach Regulation in Different Jurisdictions
+            - 18.3c Case Studies in Data Breach Regulation
+        - '- Section: 18.4 Ethical Issues in Data Breaches:':
+            subsections:
+            - 18.4a Understanding Data Breach Ethics
+            - 18.4b Ethical Issues in Data Breaches
+            - 18.4c Case Studies in Data Breach Ethics
+    - '- Chapter 19: Digital Forensics and the Law:':
+        sections:
+        - '- Section: 19.1 Understanding Digital Forensics:':
+            subsections:
+            - 19.1a Definition of Digital Forensics
+            - 19.1b Impact of Digital Forensics
+            - 19.1c Digital Forensics and Society
+        - '- Section: 19.2 Legal Issues in Digital Forensics:':
+            subsections:
+            - 19.2a Digital Forensics and Criminal Law
+            - 19.2b Digital Forensics and Civil Law
+            - 19.2c Digital Forensics and Privacy Rights
+        - '- Section: 19.3 Digital Forensics Regulation:':
+            subsections:
+            - 19.3a Understanding Digital Forensics Regulation
+            - 19.3b Digital Forensics Regulation in Different Jurisdictions
+            - 19.3c Case Studies in Digital Forensics Regulation
+        - '- Section: 19.4 Ethical Issues in Digital Forensics:':
+            subsections:
+            - 19.4a Understanding Digital Forensics Ethics
+            - 19.4b Ethical Issues in Digital Forensics
+            - 19.4c Case Studies in Digital Forensics Ethics
+    - '- Chapter 20: Digital Citizenship and the Law:':
+        sections:
+        - '- Section: 20.1 Understanding Digital Citizenship:':
+            subsections:
+            - 20.1a Definition of Digital Citizenship
+            - 20.1b Impact of Digital Citizenship
+            - 20.1c Digital Citizenship and Society
+        - '- Section: 20.2 Legal Issues in Digital Citizenship:':
+            subsections:
+            - 20.2a Digital Citizenship and Freedom of Speech
+            - 20.2b Digital Citizenship and Privacy Rights
+            - 20.2c Digital Citizenship and Access to Information
+        - '- Section: 20.3 Digital Citizenship Regulation:':
+            subsections:
+            - 20.3a Understanding Digital Citizenship Regulation
+            - 20.3b Digital Citizenship Regulation in Different Jurisdictions
+            - 20.3c Case Studies in Digital Citizenship Regulation
+        - '- Section: 20.4':
+            subsections: []

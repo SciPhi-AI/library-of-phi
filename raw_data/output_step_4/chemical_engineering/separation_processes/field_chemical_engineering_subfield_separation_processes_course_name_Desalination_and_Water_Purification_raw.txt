@@ -1,0 +1,277 @@
+textbook: 
+"Desalination and Water Purification: A Comprehensive Guide":
+
+chapters:
+- Chapter 1: Introduction to Water Supply:
+sections:
+- Section: 1.1 Characteristics of Seawater:
+subsections:
+- 1.1a Physical Properties of Seawater
+- 1.1b Chemical Composition of Seawater
+- 1.1c Biological Aspects of Seawater
+
+- Section: 1.2 Concentration and Molality:
+subsections:
+- 1.2a Definition of Concentration
+- 1.2b Definition of Molality
+- 1.2c Differences and Applications
+
+- Chapter 2: Gibbs Energy and Work of Separation:
+sections:
+- Section: 2.1 Chemical Activity:
+subsections:
+- 2.1a Definition of Chemical Activity
+- 2.1b Factors Affecting Chemical Activity
+- 2.1c Role in Desalination
+
+- Section: 2.2 Work of Separation:
+subsections:
+- 2.2a Concept of Work of Separation
+- 2.2b Calculation of Work of Separation
+- 2.2c Importance in Desalination
+
+- Chapter 3: Separation at Finite Recovery:
+sections:
+- Section: 3.1 Osmosis:
+subsections:
+- 3.1a Definition of Osmosis
+- 3.1b Osmotic Pressure
+- 3.1c Role in Desalination
+
+- Chapter 4: Reverse Osmosis and Solution-Diffusion Model:
+sections:
+- Section: 4.1 Solution-Diffusion Model:
+subsections:
+- 4.1a Introduction to Solution-Diffusion Model
+- 4.1b Application in Reverse Osmosis
+- 4.1c Limitations of the Model
+
+- Section: 4.2 Crossflow Separators:
+subsections:
+- 4.2a Definition of Crossflow Separation
+- 4.2b Types of Crossflow Separators
+- 4.2c Use in Desalination
+
+- Chapter 5: Concentration Polarization and RO System Engineering:
+sections:
+- Section: 5.1 Concentration Polarization:
+subsections:
+- 5.1a Definition of Concentration Polarization
+- 5.1b Causes and Effects
+- 5.1c Mitigation Strategies
+
+- Section: 5.2 RO System Engineering:
+subsections:
+- 5.2a Design of RO Systems
+- 5.2b Operation and Maintenance
+- 5.2c Troubleshooting and Optimization
+
+- Chapter 6: Introduction to Electrodialysis and Term Project:
+sections:
+- Section: 6.1 Electrodialysis:
+subsections:
+- 6.1a Principles of Electrodialysis
+- 6.1b Components and Design
+- 6.1c Applications in Desalination
+
+- Section: 6.2 Term Project:
+subsections:
+- 6.2a Project Guidelines
+- 6.2b Research and Planning
+- 6.2c Presentation and Evaluation
+
+- Chapter 7: Introduction to Thermal Desalination:
+sections:
+- Section: 7.1 Scale Formation:
+subsections:
+- 7.1a Causes of Scale Formation
+- 7.1b Impact on Desalination
+- 7.1c Prevention and Treatment
+
+- Section: 7.2 Distillation:
+subsections:
+- 7.2a Principles of Distillation
+- 7.2b Types of Distillation Processes
+- 7.2c Use in Desalination
+
+- Section: 7.3 Least Heat of Distillation:
+subsections:
+- 7.3a Concept of Least Heat of Distillation
+- 7.3b Calculation and Interpretation
+- 7.3c Role in Energy Efficiency
+
+- Chapter 8: GOR and Combined Power Generation and Distillation:
+sections:
+- Section: 8.1 Combined Power Generation and Distillation:
+subsections:
+- 8.1a Principles of Combined Systems
+- 8.1b Design and Operation
+- 8.1c Benefits and Challenges
+
+- Chapter 9: Single Effect Distillation and Multi-Effect Distillation:
+sections:
+- Section: 9.1 Single Effect Distillation:
+subsections:
+- 9.1a Principles of Single Effect Distillation
+- 9.1b Design and Operation
+- 9.1c Applications in Desalination
+
+- Section: 9.2 Multi-Effect Distillation:
+subsections:
+- 9.2a Principles of Multi-Effect Distillation
+- 9.2b Design and Operation
+- 9.2c Applications in Desalination
+
+- Chapter 10: Single-Stage Flash Distillation and Multi-Stage Flash Evaporation:
+sections:
+- Section: 10.1 Single-Stage Flash Distillation:
+subsections:
+- 10.1a Principles of Single-Stage Flash Distillation
+- 10.1b Design and Operation
+- 10.1c Applications in Desalination
+
+- Section: 10.2 Multi-Stage Flash Evaporation:
+subsections:
+- 10.2a Principles of Multi-Stage Flash Evaporation
+- 10.2b Design and Operation
+- 10.2c Applications in Desalination
+
+- Chapter 11: Vapor Compression Distillation and Relative Desalination Costs:
+sections:
+- Section: 11.1 Vapor Compression Distillation:
+subsections:
+- 11.1a Principles of Vapor Compression Distillation
+- 11.1b Design and Operation
+- 11.1c Applications in Desalination
+
+- Section: 11.2 Relative Desalination Costs:
+subsections:
+- 11.2a Cost Components in Desalination
+- 11.2b Comparison of Desalination Methods
+- 11.2c Strategies for Cost Reduction
+
+- Chapter 12: Freeze Distillation and Discussion of Term Project:
+sections:
+- Section: 12.1 Freeze Distillation:
+subsections:
+- 12.1a Principles of Freeze Distillation
+- 12.1b Design and Operation
+- 12.1c Applications in Desalination
+
+- Section: 12.2 Discussion of Term Project:
+subsections:
+- 12.2a Progress Report
+- 12.2b Challenges and Solutions
+- 12.2c Preparation for Final Presentation
+
+- Chapter 13: Disinfection and Chlorination:
+sections:
+- Section: 13.1 Disinfection:
+subsections:
+- 13.1a Principles of Disinfection
+- 13.1b Disinfection Methods
+- 13.1c Role in Water Purification
+
+- Section: 13.2 Chlorination:
+subsections:
+- 13.2a Principles of Chlorination
+- 13.2b Chlorination Process
+- 13.2c Safety and Environmental Considerations
+
+- Chapter 14: Wastewater Treatment in the Developing World:
+sections:
+- Section: 14.1 Wastewater Treatment in the Developing World:
+subsections:
+- 14.1a Challenges in Wastewater Treatment
+- 14.1b Low-Cost Treatment Methods
+- 14.1c Case Studies and Lessons Learned
+
+- Chapter 15: Solar Energy and Solar Collectors:
+sections:
+- Section: 15.1 Solar Energy:
+subsections:
+- 15.1a Principles of Solar Energy
+- 15.1b Solar Energy Conversion
+- 15.1c Use in Desalination
+
+- Section: 15.2 Solar Collectors:
+subsections:
+- 15.2a Types of Solar Collectors
+- 15.2b Design and Operation
+- 15.2c Use in Desalination
+
+- Chapter 16: Solar Desalination Systems and CSP Water/Power Cogeneration:
+sections:
+- Section: 16.1 Solar Desalination Systems:
+subsections:
+- 16.1a Principles of Solar Desalination
+- 16.1b Design and Operation
+- 16.1c Case Studies and Lessons Learned
+
+- Section: 16.2 CSP Water/Power Cogeneration:
+subsections:
+- 16.2a Principles of CSP Cogeneration
+- 16.2b Design and Operation
+- 16.2c Benefits and Challenges
+
+- Chapter 17: Particulate Removal and Flocculation:
+sections:
+- Section: 17.1 Particulate Removal:
+subsections:
+- 17.1a Principles of Particulate Removal
+- 17.1b Particulate Removal Methods
+- 17.1c Role in Water Purification
+
+- Section: 17.2 Flocculation:
+subsections:
+- 17.2a Principles of Flocculation
+- 17.2b Flocculation Process
+- 17.2c Role in Water Purification
+
+- Chapter 18: Final Project Presentations:
+sections:
+- Section: 18.1 Final Project Presentations:
+subsections:
+- 18.1a Presentation Guidelines
+- 18.1b Evaluation Criteria
+- 18.1c Feedback and Reflection
+
+- Chapter 19: Advanced Desalination Techniques:
+sections:
+- Section: 19.1 Nanofiltration:
+subsections:
+- 19.1a Principles of Nanofiltration
+- 19.1b Design and Operation
+- 19.1c Applications in Desalination
+
+- Section: 19.2 Forward Osmosis:
+subsections:
+- 19.2a Principles of Forward Osmosis
+- 19.2b Design and Operation
+- 19.2c Applications in Desalination
+
+- Section: 19.3 Membrane Distillation:
+subsections:
+- 19.3a Principles of Membrane Distillation
+- 19.3b Design and Operation
+- 19.3c Applications in Desalination
+
+- Chapter 20: Future Trends in Desalination and Water Purification:
+sections:
+- Section: 20.1 Emerging Technologies:
+subsections:
+- 20.1a Graphene-Based Filters
+- 20.1b Bio-inspired Desalination
+- 20.1c Energy Recovery Systems
+
+- Section: 20.2 Sustainability and Environmental Impact:
+subsections:
+- 20.2a Water-Energy Nexus
+- 20.2b Brine Disposal and Management
+- 20.2c Life Cycle Assessment
+
+- Section: 20.3 Policy and Regulation:
+subsections:
+- 20.3a Water Rights and Access
+- 20.3b Regulation of Desalination
+- 20.3c Public Perception and Acceptance
