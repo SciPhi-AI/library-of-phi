@@ -1,3 +1,0 @@
-- Chapter 6: Fabrication for the Life Sciences:
-- Section: 6.2 Energy-conserving Transducers:
-6.2a Basics of Energy-conserving Transducers

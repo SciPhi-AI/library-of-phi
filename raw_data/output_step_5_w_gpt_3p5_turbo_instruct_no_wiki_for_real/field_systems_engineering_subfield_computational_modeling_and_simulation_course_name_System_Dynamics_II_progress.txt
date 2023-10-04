@@ -1,3 +1,0 @@
-- Chapter 20: System Dynamics in Healthcare:
-- Section: 20.3 Health Insurance and Cost Dynamics
-None

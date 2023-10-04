@@ -1,3 +1,0 @@
-- Chapter 16: Wireless Ad Hoc Networks:
-- Section: 16.4 Wireless Security:
-16.

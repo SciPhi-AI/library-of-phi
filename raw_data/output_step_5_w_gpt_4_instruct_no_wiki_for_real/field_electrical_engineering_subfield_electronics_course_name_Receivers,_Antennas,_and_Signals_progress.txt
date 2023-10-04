@@ -1,3 +1,0 @@
-- Chapter 19: Advanced Signal Processing:
-- Section: 19.2 Advanced Digital Signal Processing:
-19.2b

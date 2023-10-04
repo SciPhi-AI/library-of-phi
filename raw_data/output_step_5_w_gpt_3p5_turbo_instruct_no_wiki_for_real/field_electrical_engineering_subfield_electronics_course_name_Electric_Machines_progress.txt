@@ -1,3 +1,0 @@
-- Chapter 2: Torque-Speed, Squirrel Cage Machines:
-- Section: 2.9 Permanent Magnets in Machine Systems
-None

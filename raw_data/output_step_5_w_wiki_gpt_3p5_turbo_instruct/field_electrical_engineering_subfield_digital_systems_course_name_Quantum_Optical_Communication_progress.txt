@@ -1,3 +1,0 @@
-- Chapter 20: Quantum Communication Networks:
-- Section: 20.3 Quantum Communication Network Protocols:
-20.3c Applications of Quantum Communication Network Protocols

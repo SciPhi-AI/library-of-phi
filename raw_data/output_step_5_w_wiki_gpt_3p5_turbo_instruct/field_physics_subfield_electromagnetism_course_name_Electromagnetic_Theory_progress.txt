@@ -1,3 +1,0 @@
-- Chapter 2: Models of Electric Response:
-- Section: 2.1 Frequency-dependent Response Function, Kramers-Kronig Theorem:
-2.1b Kramers-Kronig Theorem and its Implications

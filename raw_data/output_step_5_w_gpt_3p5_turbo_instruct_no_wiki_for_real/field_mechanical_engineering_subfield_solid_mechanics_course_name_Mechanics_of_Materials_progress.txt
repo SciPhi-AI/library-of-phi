@@ -1,3 +1,0 @@
-- Chapter 34: Fatigue and Fatigue Life Estimation:
-- Section: 34.6 Fatigue Testing and Design Considerations
-None

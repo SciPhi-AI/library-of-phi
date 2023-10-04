@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Topics in Linear Algebra:
-- Section: 20.3 Eigenvalues and Eigenvectors:
-20.3c Applications in Linear Systems

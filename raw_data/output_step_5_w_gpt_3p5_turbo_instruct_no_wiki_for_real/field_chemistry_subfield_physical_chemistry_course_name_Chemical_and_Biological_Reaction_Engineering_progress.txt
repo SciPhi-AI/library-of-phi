@@ -1,3 +1,0 @@
-- Chapter 16: External Mass-Transfer Resistance:
-- Section: 16.2 Oxygen Transfer in Fermentors:
-16.2a Basics of Oxygen Transfer

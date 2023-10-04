@@ -1,3 +1,0 @@
-- Chapter 20: Finite Element Analysis and You:
-- Section: 20.3 Personal Case Studies in Finite Element Analysis:
-20.3c Applications and Examples

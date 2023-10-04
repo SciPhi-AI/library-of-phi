@@ -1,3 +1,0 @@
-- Chapter 1: Discrete-time (DT) systems:
-- Section: 1.4 Sampling and Reconstruction of DT Signals:
-1.4a Sampling Theorem

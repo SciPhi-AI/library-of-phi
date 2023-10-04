@@ -1,3 +1,0 @@
-- Chapter 20: Optical Communication Signal Processing:
-- Section: 20.4 Applications of Optical Communication Signal Processing
-None

@@ -1,3 +1,0 @@
-- Chapter 20: Material Failure:
-- Section: 20.2 Failure Analysis:
-20.2c Recommending Corrective Actions

@@ -1,3 +1,0 @@
-- Chapter 20: Metaheuristics:
-- Section: 20.1 Simulated Annealing:
-20.1c Applications of Simulated Annealing

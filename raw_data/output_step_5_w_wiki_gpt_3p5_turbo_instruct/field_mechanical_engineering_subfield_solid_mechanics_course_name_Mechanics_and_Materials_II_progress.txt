@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Topics in Mechanics:
-- Section: 20.3 Fatigue Mechanics:
-20.3c Applications and Examples

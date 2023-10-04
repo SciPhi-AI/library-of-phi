@@ -1,3 +1,0 @@
-- Chapter 20: Fluid-Structure Interaction:
-- Section: 20.3 Hydroelasticity:
-20.3c Applications in Naval Engineering

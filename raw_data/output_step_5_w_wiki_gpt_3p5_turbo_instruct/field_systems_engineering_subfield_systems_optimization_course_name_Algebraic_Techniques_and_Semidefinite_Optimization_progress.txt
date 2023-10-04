@@ -1,3 +1,0 @@
-- Chapter 22: Sums of Squares Programs and Polynomial Inequalities:
-- Section: 22.1 TBD:
-22.1c Challenges in TBD

@@ -1,3 +1,0 @@
-- Chapter 1: Calculus and Elementary Programming Concepts:
-- Section: 1.2 Numerical Integration:
-1.2c Simpson's Rule

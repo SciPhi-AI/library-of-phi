@@ -1,3 +1,0 @@
-- Chapter 9: Quantum Mechanics of Systems with Spin:
-- Section: 9.1 Spin-1/2 Systems:
-9.1c Spin-Orbit Interaction

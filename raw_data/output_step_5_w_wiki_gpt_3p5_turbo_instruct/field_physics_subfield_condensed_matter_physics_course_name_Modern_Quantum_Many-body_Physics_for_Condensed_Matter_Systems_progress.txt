@@ -1,3 +1,0 @@
-- Chapter 9: Quantum Transport:
-- Section: 9.3 Ballistic Transport:
-9.3a Definition and Properties
