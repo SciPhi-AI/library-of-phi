@@ -1241,9 +1241,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial L}{\partial x} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{x}}\right) = 0
-
 $$
 
 
@@ -1261,9 +1259,7 @@ The Hamiltonian function is another important tool in dynamic optimization. It i
 
 
 $$
-
 H(x, \lambda) = L(x, \dot{x}) + \lambda^T f(x, \dot{x})
-
 $$
 
 
@@ -1277,9 +1273,7 @@ The Hamiltonian function is useful in solving dynamic optimization problems beca
 
 
 $$
-
 \frac{\partial H}{\partial x} = \frac{d}{dt}\left(\frac{\partial H}{\partial \dot{x}}\right)
-
 $$
 
 
@@ -1293,9 +1287,7 @@ The transversality condition is a necessary condition for optimality in a dynami
 
 
 $$
-
 \lim_{t \to \infty} \lambda(t) \cdot \frac{\partial f}{\partial x}(x(t), \dot{x}(t)) = 0
-
 $$
 
 
@@ -1505,17 +1497,13 @@ Overall, this chapter has provided a solid foundation for understanding dynamic 
 Consider the following optimization problem:
 
 $$
-
 \max_{x,y} \quad x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x + y = 10
-
 $$
 
 Find the optimal values of $x$ and $y$ using the method of Lagrange multipliers.
@@ -1527,9 +1515,7 @@ Find the optimal values of $x$ and $y$ using the method of Lagrange multipliers.
 Suppose a firm has the following production function:
 
 $$
-
 Q = 10K^{0.5}L^{0.5}
-
 $$
 
 where $Q$ is output, $K$ is capital, and $L$ is labor. If the price of capital is $r$ and the price of labor is $w$, what is the firm's cost-minimizing input combination?
@@ -1541,17 +1527,13 @@ where $Q$ is output, $K$ is capital, and $L$ is labor. If the price of capital i
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \quad \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to
 
 $$
-
 k_{t+1} = f(k_t) - c_t
-
 $$
 
 where $k_t$ is capital, $c_t$ is consumption, and $u(c_t)$ is the utility function. Derive the Euler equation for this problem.
@@ -1563,9 +1545,7 @@ where $k_t$ is capital, $c_t$ is consumption, and $u(c_t)$ is the utility functi
 Suppose a consumer has the following utility function:
 
 $$
-
 u(c) = \ln(c)
-
 $$
 
 If the consumer's budget constraint is given by $c = y - p$, where $y$ is income and $p$ is the price of the good, what is the optimal consumption level?
@@ -1577,17 +1557,13 @@ If the consumer's budget constraint is given by $c = y - p$, where $y$ is income
 Consider the following optimization problem:
 
 $$
-
 \max_{x,y} \quad x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x^2 + y^2 \leq 25
-
 $$
 
 Find the optimal values of $x$ and $y$ using the method of Kuhn-Tucker conditions.
@@ -1621,17 +1597,13 @@ Overall, this chapter has provided a solid foundation for understanding dynamic 
 Consider the following optimization problem:
 
 $$
-
 \max_{x,y} \quad x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x + y = 10
-
 $$
 
 Find the optimal values of $x$ and $y$ using the method of Lagrange multipliers.
@@ -1643,9 +1615,7 @@ Find the optimal values of $x$ and $y$ using the method of Lagrange multipliers.
 Suppose a firm has the following production function:
 
 $$
-
 Q = 10K^{0.5}L^{0.5}
-
 $$
 
 where $Q$ is output, $K$ is capital, and $L$ is labor. If the price of capital is $r$ and the price of labor is $w$, what is the firm's cost-minimizing input combination?
@@ -1657,17 +1627,13 @@ where $Q$ is output, $K$ is capital, and $L$ is labor. If the price of capital i
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \quad \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to
 
 $$
-
 k_{t+1} = f(k_t) - c_t
-
 $$
 
 where $k_t$ is capital, $c_t$ is consumption, and $u(c_t)$ is the utility function. Derive the Euler equation for this problem.
@@ -1679,9 +1645,7 @@ where $k_t$ is capital, $c_t$ is consumption, and $u(c_t)$ is the utility functi
 Suppose a consumer has the following utility function:
 
 $$
-
 u(c) = \ln(c)
-
 $$
 
 If the consumer's budget constraint is given by $c = y - p$, where $y$ is income and $p$ is the price of the good, what is the optimal consumption level?
@@ -1693,17 +1657,13 @@ If the consumer's budget constraint is given by $c = y - p$, where $y$ is income
 Consider the following optimization problem:
 
 $$
-
 \max_{x,y} \quad x^2 + y^2
-
 $$
 
 subject to
 
 $$
-
 x^2 + y^2 \leq 25
-
 $$
 
 Find the optimal values of $x$ and $y$ using the method of Kuhn-Tucker conditions.
@@ -1809,9 +1769,7 @@ The value function is a concave function, meaning that it is a function that cur
 
 
 $$
-
 f(x) \geq f(y) + f'(y)(x-y)
-
 $$
 
 
@@ -1825,9 +1783,7 @@ On the other hand, the value function is also a convex function, meaning that it
 
 
 $$
-
 f(x) \leq f(y) + f'(y)(x-y)
-
 $$
 
 
@@ -1887,9 +1843,7 @@ The value function is a concave function, meaning that it is a function that cur
 
 
 $$
-
 f(x) \geq f(y) + f'(y)(x-y)
-
 $$
 
 
@@ -1903,9 +1857,7 @@ On the other hand, the value function is also a convex function, meaning that it
 
 
 $$
-
 f(x) \leq f(y) + f'(y)(x-y)
-
 $$
 
 
@@ -2831,15 +2783,11 @@ Overall, this chapter has provided a comprehensive understanding of deterministi
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2855,15 +2803,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2879,15 +2823,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2903,15 +2843,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2927,15 +2863,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2973,15 +2905,11 @@ Overall, this chapter has provided a comprehensive understanding of deterministi
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -2997,15 +2925,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -3021,15 +2945,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -3045,15 +2965,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -3069,15 +2985,11 @@ c) Determine the global and local dynamics of the system.
 Consider the following system of differential equations:
 
 $$
-
 \frac{dx}{dt} = x(1-x)(x-2)
-
 $$
 
 $$
-
 \frac{dy}{dt} = y(1-y)(y-2)
-
 $$
 
 a) Plot the phase diagram for this system.
@@ -3391,9 +3303,7 @@ Mathematically, we can represent a Markov chain as follows:
 
 
 $$
-
 X_0, X_1, X_2, ...
-
 $$
 
 
@@ -3403,7 +3313,6 @@ where each $X_i$ represents the state of the system at time $i$. The transition 
 
 
 $$
-
 P = \begin{bmatrix}
 
 p_{11} & p_{12} & p_{13} \\
@@ -3413,7 +3322,6 @@ p_{21} & p_{22} & p_{23} \\
 p_{31} & p_{32} & p_{33}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4509,9 +4417,7 @@ The HJB equation is a nonlinear PDE that describes the optimal value function fo
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -4563,9 +4469,7 @@ The HJB equation is a fundamental concept in dynamic programming and is used to 
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -4631,9 +4535,7 @@ The HJB equation is a fundamental concept in dynamic programming and is used to 
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -4715,9 +4617,7 @@ The HJB equation is a fundamental concept in dynamic programming and is used to 
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -4799,9 +4699,7 @@ The HJB equation is a fundamental concept in dynamic programming and is used to 
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -4899,9 +4797,7 @@ The HJB equation is a fundamental concept in dynamic programming and is used to 
 
 
 $$
-
 \frac{\partial V}{\partial t} + \mathcal{H}(x, u, \nabla V) = 0
-
 $$
 
 
@@ -5389,9 +5285,7 @@ For example, if we have two objectives, profit and cost, we can combine them int
 
 
 $$
-
 f(x) = \alpha \cdot profit(x) + \beta \cdot cost(x)
-
 $$
 
 
@@ -5703,9 +5597,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial L}{\partial y} - \frac{d}{dt}\frac{\partial L}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -5757,9 +5649,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial L}{\partial y} - \frac{d}{dt}\frac{\partial L}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -5827,9 +5717,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial L}{\partial y} - \frac{d}{dt}\frac{\partial L}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -5897,9 +5785,7 @@ The Hamiltonian function is given by:
 
 
 $$
-
 H = f(x,u) + \lambda g(x,u)
-
 $$
 
 
@@ -5955,9 +5841,7 @@ The Hamiltonian function is given by:
 
 
 $$
-
 H = f(x,u) + \lambda g(x,u)
-
 $$
 
 
@@ -6021,9 +5905,7 @@ The Hamiltonian function is given by:
 
 
 $$
-
 H = f(x,u) + \lambda g(x,u)
-
 $$
 
 
@@ -6079,9 +5961,7 @@ The fundamental equation used in dynamic programming is the Bellman equation, wh
 
 
 $$
-
 V(x) = \max_{u} \{f(x,u) + \beta V(g(x,u))\}
-
 $$
 
 
@@ -6137,9 +6017,7 @@ The fundamental equation used in dynamic programming is the Bellman equation, wh
 
 
 $$
-
 V(x) = \max_{u} \{f(x,u) + \beta V(g(x,u))\}
-
 $$
 
 
@@ -6199,9 +6077,7 @@ The fundamental equation used in dynamic programming is the Bellman equation, wh
 
 
 $$
-
 V(x) = \max_{u} \{f(x,u) + \beta V(g(x,u))\}
-
 $$
 
 
@@ -6269,17 +6145,13 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = g(x(t), t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Euler-Lagrange equation to find the optimal control $x^*(t)$.
@@ -6291,17 +6163,13 @@ with initial condition $x(0) = x_0$. Use the Euler-Lagrange equation to find the
 Solve the following deterministic dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} e^{-\rho t} u(x(t)) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = f(x(t), t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the method of undetermined coefficients to find the optimal control $x^*(t)$.
@@ -6313,17 +6181,13 @@ with initial condition $x(0) = x_0$. Use the method of undetermined coefficients
 Consider the following stochastic dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \mathbb{E} \left[ \int_{0}^{T} e^{-\rho t} u(x(t)) dt \right]
-
 $$
 
 subject to the stochastic differential equation:
 
 $$
-
 d x(t) = \mu(x(t), t) dt + \sigma(x(t), t) dW(t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to find the optimal control $x^*(t)$.
@@ -6335,17 +6199,13 @@ with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to f
 Solve the following dynamic programming problem:
 
 $$
-
 V(x) = \max_{u} \left\{ u + \beta \mathbb{E} \left[ V(x') \right] \right\}
-
 $$
 
 subject to the transition equation:
 
 $$
-
 x' = g(x, u, w)
-
 $$
 
 where $w$ is a random variable with known distribution. Use the value iteration algorithm to find the optimal policy function $u^*(x)$.
@@ -6381,17 +6241,13 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = g(x(t), t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Euler-Lagrange equation to find the optimal control $x^*(t)$.
@@ -6403,17 +6259,13 @@ with initial condition $x(0) = x_0$. Use the Euler-Lagrange equation to find the
 Solve the following deterministic dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} e^{-\rho t} u(x(t)) dt
-
 $$
 
 subject to the differential equation:
 
 $$
-
 \dot{x}(t) = f(x(t), t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the method of undetermined coefficients to find the optimal control $x^*(t)$.
@@ -6425,17 +6277,13 @@ with initial condition $x(0) = x_0$. Use the method of undetermined coefficients
 Consider the following stochastic dynamic optimization problem:
 
 $$
-
 \max_{x(t)} \mathbb{E} \left[ \int_{0}^{T} e^{-\rho t} u(x(t)) dt \right]
-
 $$
 
 subject to the stochastic differential equation:
 
 $$
-
 d x(t) = \mu(x(t), t) dt + \sigma(x(t), t) dW(t)
-
 $$
 
 with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to find the optimal control $x^*(t)$.
@@ -6447,17 +6295,13 @@ with initial condition $x(0) = x_0$. Use the Pontryagin's maximum principle to f
 Solve the following dynamic programming problem:
 
 $$
-
 V(x) = \max_{u} \left\{ u + \beta \mathbb{E} \left[ V(x') \right] \right\}
-
 $$
 
 subject to the transition equation:
 
 $$
-
 x' = g(x, u, w)
-
 $$
 
 where $w$ is a random variable with known distribution. Use the value iteration algorithm to find the optimal policy function $u^*(x)$.
@@ -7739,17 +7583,13 @@ Overall, the advanced mathematical tools discussed in this chapter are crucial i
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the calculus of variations to find the optimal path for consumption, $c_t$.
@@ -7761,17 +7601,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use Pontryagin's maximum principle to find the optimal control path for consumption, $c_t$.
@@ -7783,17 +7619,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use dynamic programming to find the optimal value function and the optimal control path for consumption, $c_t$.
@@ -7805,17 +7637,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the Bellman equation to find the optimal value function and the optimal control path for consumption, $c_t$.
@@ -7827,17 +7655,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider a dynamic optimization problem where the objective function is given by:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t u(x_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 x_t + y_t = f(x_{t-1}, y_{t-1})
-
 $$
 
 where $u(x_t)$ is the utility function, $\beta$ is the discount factor, $x_t$ and $y_t$ are the control variables, and $f(x_{t-1}, y_{t-1})$ is the production function. Use the advanced mathematical tools discussed in this chapter to find the optimal control paths for $x_t$ and $y_t$.
@@ -7871,17 +7695,13 @@ Overall, the advanced mathematical tools discussed in this chapter are crucial i
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the calculus of variations to find the optimal path for consumption, $c_t$.
@@ -7893,17 +7713,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use Pontryagin's maximum principle to find the optimal control path for consumption, $c_t$.
@@ -7915,17 +7731,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use dynamic programming to find the optimal value function and the optimal control path for consumption, $c_t$.
@@ -7937,17 +7749,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = f(k_t) + (1-\delta)k_t
-
 $$
 
 where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is the capital stock, $f(k_t)$ is the production function, and $\delta$ is the depreciation rate. Use the Bellman equation to find the optimal value function and the optimal control path for consumption, $c_t$.
@@ -7959,17 +7767,13 @@ where $u(c_t)$ is the utility function, $\beta$ is the discount factor, $k_t$ is
 Consider a dynamic optimization problem where the objective function is given by:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t u(x_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 x_t + y_t = f(x_{t-1}, y_{t-1})
-
 $$
 
 where $u(x_t)$ is the utility function, $\beta$ is the discount factor, $x_t$ and $y_t$ are the control variables, and $f(x_{t-1}, y_{t-1})$ is the production function. Use the advanced mathematical tools discussed in this chapter to find the optimal control paths for $x_t$ and $y_t$.
@@ -8647,7 +8451,6 @@ Suppose a firm has a production function of $F(K,L) = K^{\alpha}L^{1-\alpha}$, w
 Consider a macroeconomic model with the following equations:
 
 $$
-
 \begin{align}
 
 Y_t &= C_t + I_t + G_t \\
@@ -8661,7 +8464,6 @@ T_t &= t_0 + t_1Y_t \\
 r_t &= \rho r_{t-1} + \epsilon_t
 
 \end{align}
-
 $$
 
 where $Y_t$ is output, $C_t$ is consumption, $I_t$ is investment, $G_t$ is government spending, $T_t$ is taxes, $r_t$ is the interest rate, and $\epsilon_t$ is a random shock. Solve for the optimal policy of the government's tax rate.
@@ -8673,17 +8475,13 @@ where $Y_t$ is output, $C_t$ is consumption, $I_t$ is investment, $G_t$ is gover
 Consider a dynamic optimization problem with the following objective function:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + x_{t+1} = (1+r_t)x_t + w_t
-
 $$
 
 where $c_t$ is consumption, $x_t$ is savings, $r_t$ is the interest rate, $w_t$ is income, and $\beta$ is the discount factor. Find the optimal consumption and savings policy.
@@ -8739,7 +8537,6 @@ Suppose a firm has a production function of $F(K,L) = K^{\alpha}L^{1-\alpha}$, w
 Consider a macroeconomic model with the following equations:
 
 $$
-
 \begin{align}
 
 Y_t &= C_t + I_t + G_t \\
@@ -8753,7 +8550,6 @@ T_t &= t_0 + t_1Y_t \\
 r_t &= \rho r_{t-1} + \epsilon_t
 
 \end{align}
-
 $$
 
 where $Y_t$ is output, $C_t$ is consumption, $I_t$ is investment, $G_t$ is government spending, $T_t$ is taxes, $r_t$ is the interest rate, and $\epsilon_t$ is a random shock. Solve for the optimal policy of the government's tax rate.
@@ -8765,17 +8561,13 @@ where $Y_t$ is output, $C_t$ is consumption, $I_t$ is investment, $G_t$ is gover
 Consider a dynamic optimization problem with the following objective function:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + x_{t+1} = (1+r_t)x_t + w_t
-
 $$
 
 where $c_t$ is consumption, $x_t$ is savings, $r_t$ is the interest rate, $w_t$ is income, and $\beta$ is the discount factor. Find the optimal consumption and savings policy.
@@ -8849,9 +8641,7 @@ In this case, the functional would be the total distance traveled, which can be 
 
 
 $$
-
 J[x(t)] = \int_{t_0}^{t_1} \sqrt{1 + \left(\frac{dx}{dt}\right)^2} dt
-
 $$
 
 
@@ -8861,9 +8651,7 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{x}}\right) - \frac{\partial L}{\partial x} = 0
-
 $$
 
 
@@ -8911,9 +8699,7 @@ In this case, the functional would be the total distance traveled, which can be 
 
 
 $$
-
 J[x(t)] = \int_{t_0}^{t_1} \sqrt{1 + \left(\frac{dx}{dt}\right)^2} dt
-
 $$
 
 
@@ -8923,9 +8709,7 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{x}}\right) - \frac{\partial L}{\partial x} = 0
-
 $$
 
 
@@ -8989,9 +8773,7 @@ In this case, the functional would be the total distance traveled, which can be 
 
 
 $$
-
 J[x(t)] = \int_{t_0}^{t_1} \sqrt{1 + \left(\frac{dx}{dt}\right)^2} dt
-
 $$
 
 
@@ -9001,9 +8783,7 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{x}}\right) - \frac{\partial L}{\partial x} = 0
-
 $$
 
 
@@ -9021,9 +8801,7 @@ The Euler-Lagrange equation is a necessary condition for the optimal function x(
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{x}}\right) - \frac{\partial L}{\partial x} = 0
-
 $$
 
 
@@ -9079,9 +8857,7 @@ In this case, the cost function would be the total profits, which can be express
 
 
 $$
-
 J[q(t)] = \int_{t_0}^{t_1} p(q(t))q(t) - c(q(t))q(t) dt
-
 $$
 
 
@@ -9091,17 +8867,13 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \dot{q} = \frac{\partial H}{\partial p} = p(q(t)) - c(q(t))
-
 $$
 
 
 
 $$
-
 \dot{p} = -\frac{\partial H}{\partial q} = -p'(q(t))q(t) - c'(q(t))q(t)
-
 $$
 
 
@@ -9111,9 +8883,7 @@ where H is the Hamiltonian function, which is defined as:
 
 
 $$
-
 H(q,p) = p(q(t))q(t) - c(q(t))q(t)
-
 $$
 
 
@@ -9157,9 +8927,7 @@ In this case, the cost function would be the total profits, which can be express
 
 
 $$
-
 J[q(t)] = \int_{t_0}^{t_1} p(q(t))q(t) - c(q(t))q(t) dt
-
 $$
 
 
@@ -9169,17 +8937,13 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \dot{q} = \frac{\partial H}{\partial p} = p(q(t)) - c(q(t))
-
 $$
 
 
 
 $$
-
 \dot{p} = -\frac{\partial H}{\partial q} = -p'(q(t))q(t) - c'(q(t))q(t)
-
 $$
 
 
@@ -9189,9 +8953,7 @@ where H is the Hamiltonian function, which is defined as:
 
 
 $$
-
 H(q,p) = p(q(t))q(t) - c(q(t))q(t)
-
 $$
 
 
@@ -9247,9 +9009,7 @@ In this case, the cost function would be the total profits, which can be express
 
 
 $$
-
 J[q(t)] = \int_{t_0}^{t_1} p(q(t))q(t) - c(q(t))q(t) dt
-
 $$
 
 
@@ -9259,17 +9019,13 @@ where t0 and t1 represent the initial and final time, respectively. The optimal 
 
 
 $$
-
 \dot{q} = \frac{\partial H}{\partial p} = p(q(t)) - c(q(t))
-
 $$
 
 
 
 $$
-
 \dot{p} = -\frac{\partial H}{\partial q} = -p'(q(t))q(t) - c'(q(t))q(t)
-
 $$
 
 
@@ -9333,9 +9089,7 @@ In this case, the problem can be broken down into smaller subproblems by dividin
 
 
 $$
-
 J[q(t)] = \max_{q(t_0),...,q(t_n)} \left\{ \sum_{i=0}^{n} p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + J[q(t_{i+1})] \right\}
-
 $$
 
 
@@ -9349,9 +9103,7 @@ The Bellman equation is given by:
 
 
 $$
-
 V(q(t_i)) = \max_{q(t_i)} \left\{ p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + V(q(t_{i+1})) \right\}
-
 $$
 
 
@@ -9391,9 +9143,7 @@ In this case, the problem can be broken down into smaller subproblems by dividin
 
 
 $$
-
 J[q(t)] = \max_{q(t_0),...,q(t_n)} \left\{ \sum_{i=0}^{n} p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + J[q(t_{i+1})] \right\}
-
 $$
 
 
@@ -9407,9 +9157,7 @@ The Bellman equation is given by:
 
 
 $$
-
 V(q(t_i)) = \max_{q(t_i)} \left\{ p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + V(q(t_{i+1})) \right\}
-
 $$
 
 
@@ -9465,9 +9213,7 @@ In this case, the problem can be broken down into smaller subproblems by dividin
 
 
 $$
-
 J[q(t)] = \max_{q(t_0),...,q(t_n)} \left\{ \sum_{i=0}^{n} p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + J[q(t_{i+1})] \right\}
-
 $$
 
 
@@ -9481,9 +9227,7 @@ The Bellman equation is given by:
 
 
 $$
-
 V(q(t_i)) = \max_{q(t_i)} \left\{ p(q(t_i))q(t_i) - c(q(t_i))q(t_i) + V(q(t_{i+1})) \right\}
-
 $$
 
 
@@ -9547,17 +9291,13 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = (1+r)k_t + w_t
-
 $$
 
 where $c_t$ is consumption, $k_t$ is capital, $r$ is the interest rate, $w_t$ is the wage, and $\beta$ is the discount factor. Derive the Euler equation for this problem.
@@ -9569,9 +9309,7 @@ where $c_t$ is consumption, $k_t$ is capital, $r$ is the interest rate, $w_t$ is
 Suppose a firm has the following production function:
 
 $$
-
 Y_t = F(K_t, L_t) = K_t^{\alpha} L_t^{1-\alpha}
-
 $$
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, and $\alpha$ is the output elasticity of capital. Using the Hamiltonian method, derive the optimal investment rule for the firm.
@@ -9583,9 +9321,7 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, and $\alpha$ is the out
 Consider a simple economic growth model with the following production function:
 
 $$
-
 Y_t = K_t^{\alpha} (A_t L_t)^{1-\alpha}
-
 $$
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $A_t$ is total factor productivity, and $\alpha$ is the output elasticity of capital. Using the dynamic programming approach, derive the optimal consumption and investment rules for this model.
@@ -9597,9 +9333,7 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $A_t$ is total factor p
 Suppose a consumer has the following utility function:
 
 $$
-
 U(c_t) = \frac{c_t^{1-\gamma}}{1-\gamma}
-
 $$
 
 where $c_t$ is consumption and $\gamma$ is the coefficient of relative risk aversion. Using the Bellman equation, derive the optimal consumption rule for this consumer.
@@ -9611,17 +9345,13 @@ where $c_t$ is consumption and $\gamma$ is the coefficient of relative risk aver
 Consider a dynamic optimization problem with the following objective function:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t \ln(x_t)
-
 $$
 
 subject to the constraint:
 
 $$
-
 x_t = \frac{1}{2} (x_{t-1} + y_t)
-
 $$
 
 where $x_t$ is the decision variable and $y_t$ is an exogenous variable. Using the Lagrangian method, derive the optimal decision rule for this problem.
@@ -9651,17 +9381,13 @@ Overall, this chapter has provided a comprehensive overview of the mathematical 
 Consider the following dynamic optimization problem:
 
 $$
-
 \max_{c_t} \sum_{t=0}^{\infty} \beta^t u(c_t)
-
 $$
 
 subject to the budget constraint:
 
 $$
-
 c_t + k_{t+1} = (1+r)k_t + w_t
-
 $$
 
 where $c_t$ is consumption, $k_t$ is capital, $r$ is the interest rate, $w_t$ is the wage, and $\beta$ is the discount factor. Derive the Euler equation for this problem.
@@ -9673,9 +9399,7 @@ where $c_t$ is consumption, $k_t$ is capital, $r$ is the interest rate, $w_t$ is
 Suppose a firm has the following production function:
 
 $$
-
 Y_t = F(K_t, L_t) = K_t^{\alpha} L_t^{1-\alpha}
-
 $$
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, and $\alpha$ is the output elasticity of capital. Using the Hamiltonian method, derive the optimal investment rule for the firm.
@@ -9687,9 +9411,7 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, and $\alpha$ is the out
 Consider a simple economic growth model with the following production function:
 
 $$
-
 Y_t = K_t^{\alpha} (A_t L_t)^{1-\alpha}
-
 $$
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $A_t$ is total factor productivity, and $\alpha$ is the output elasticity of capital. Using the dynamic programming approach, derive the optimal consumption and investment rules for this model.
@@ -9701,9 +9423,7 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $A_t$ is total factor p
 Suppose a consumer has the following utility function:
 
 $$
-
 U(c_t) = \frac{c_t^{1-\gamma}}{1-\gamma}
-
 $$
 
 where $c_t$ is consumption and $\gamma$ is the coefficient of relative risk aversion. Using the Bellman equation, derive the optimal consumption rule for this consumer.
@@ -9715,17 +9435,13 @@ where $c_t$ is consumption and $\gamma$ is the coefficient of relative risk aver
 Consider a dynamic optimization problem with the following objective function:
 
 $$
-
 \max_{x_t} \sum_{t=0}^{\infty} \beta^t \ln(x_t)
-
 $$
 
 subject to the constraint:
 
 $$
-
 x_t = \frac{1}{2} (x_{t-1} + y_t)
-
 $$
 
 where $x_t$ is the decision variable and $y_t$ is an exogenous variable. Using the Lagrangian method, derive the optimal decision rule for this problem.
@@ -11835,9 +11551,7 @@ As we conclude this comprehensive guide on dynamic optimization and its economic
 Consider a simple economic growth model with a Cobb-Douglas production function, where output $Y$ is a function of capital $K$ and labor $L$:
 
 $$
-
 Y = K^\alpha L^{1-\alpha}
-
 $$
 
 Assuming a constant savings rate $s$, derive the optimal path for capital accumulation over time, and discuss the implications of different values of $\alpha$.
@@ -11849,9 +11563,7 @@ Assuming a constant savings rate $s$, derive the optimal path for capital accumu
 In the context of resource management, consider a fishery with a single species of fish. The fish population $N$ follows the logistic growth equation:
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right) - hN
-
 $$
 
 where $r$ is the intrinsic growth rate, $K$ is the carrying capacity, and $h$ is the harvesting rate. Using dynamic optimization, determine the optimal harvesting policy that maximizes the sustainable yield of the fishery.
@@ -11869,9 +11581,7 @@ Discuss the limitations of dynamic optimization in the context of economic decis
 Consider a dynamic investment problem where a firm must decide how much to invest in a project over a finite time horizon. The firm's profit $P$ is a function of the investment level $I$ and the state of the economy $S$:
 
 $$
-
 P = f(I, S)
-
 $$
 
 Assuming a discount rate $r$, derive the optimal investment policy that maximizes the firm's discounted profits.
@@ -11907,9 +11617,7 @@ As we conclude this comprehensive guide on dynamic optimization and its economic
 Consider a simple economic growth model with a Cobb-Douglas production function, where output $Y$ is a function of capital $K$ and labor $L$:
 
 $$
-
 Y = K^\alpha L^{1-\alpha}
-
 $$
 
 Assuming a constant savings rate $s$, derive the optimal path for capital accumulation over time, and discuss the implications of different values of $\alpha$.
@@ -11921,9 +11629,7 @@ Assuming a constant savings rate $s$, derive the optimal path for capital accumu
 In the context of resource management, consider a fishery with a single species of fish. The fish population $N$ follows the logistic growth equation:
 
 $$
-
 \frac{dN}{dt} = rN\left(1-\frac{N}{K}\right) - hN
-
 $$
 
 where $r$ is the intrinsic growth rate, $K$ is the carrying capacity, and $h$ is the harvesting rate. Using dynamic optimization, determine the optimal harvesting policy that maximizes the sustainable yield of the fishery.
@@ -11941,9 +11647,7 @@ Discuss the limitations of dynamic optimization in the context of economic decis
 Consider a dynamic investment problem where a firm must decide how much to invest in a project over a finite time horizon. The firm's profit $P$ is a function of the investment level $I$ and the state of the economy $S$:
 
 $$
-
 P = f(I, S)
-
 $$
 
 Assuming a discount rate $r$, derive the optimal investment policy that maximizes the firm's discounted profits.
@@ -12031,9 +11735,7 @@ The calculus of variations is a branch of mathematics that deals with finding th
 
 
 $$
-
 \frac{\partial L}{\partial y} - \frac{d}{dt}\frac{\partial L}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -12099,9 +11801,7 @@ Before diving into the applications of calculus of variations, let's first under
 
 
 $$
-
 \frac{\partial F}{\partial y} - \frac{d}{dt}\frac{\partial F}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -12271,9 +11971,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial F}{\partial y} - \frac{d}{dx}\left(\frac{\partial F}{\partial y'}\right) = 0
-
 $$
 
 
@@ -12403,9 +12101,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial F}{\partial y} - \frac{d}{dx}\left(\frac{\partial F}{\partial y'}\right) = 0
-
 $$
 
 
@@ -12471,9 +12167,7 @@ One of the key concepts in the calculus of variations is the Euler-Lagrange equa
 
 
 $$
-
 \frac{\partial f}{\partial y} - \frac{d}{dt}\frac{\partial f}{\partial \dot{y}} = 0
-
 $$
 
 
@@ -12619,9 +12313,7 @@ The Euler-Lagrange equation is given by:
 
 
 $$
-
 \frac{\partial f}{\partial y} - \frac{d}{dx}\left(\frac{\partial f}{\partial y'}\right) = 0
-
 $$
 
 
@@ -13861,17 +13553,13 @@ By understanding these advanced mathematical tools, economists can better analyz
 Consider the following optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
-
 $$
 
 subject to the dynamic constraint:
 
 $$
-
 \dot{x}(t) = g(x(t), t)
-
 $$
 
 where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and $g(x(t), t)$ is the dynamic constraint. Use Pontryagin's maximum principle to find the optimal control policy for this problem.
@@ -13883,17 +13571,13 @@ where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and 
 Solve the following dynamic optimization problem using dynamic programming:
 
 $$
-
 \max_{c(t)} \int_{0}^{T} u(c(t)) dt
-
 $$
 
 subject to the dynamic constraint:
 
 $$
-
 \dot{a}(t) = f(a(t), c(t))
-
 $$
 
 where $a(t)$ is the asset level, $c(t)$ is the consumption level, $u(c(t))$ is the utility function, and $f(a(t), c(t))$ is the production function.
@@ -13905,9 +13589,7 @@ where $a(t)$ is the asset level, $c(t)$ is the consumption level, $u(c(t))$ is t
 Consider a simple economic growth model with the following production function:
 
 $$
-
 Y(t) = K(t)^{\alpha} L(t)^{1-\alpha}
-
 $$
 
 where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the output elasticity of capital. Use calculus of variations to find the optimal path for capital accumulation over time.
@@ -13919,9 +13601,7 @@ where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the 
 Suppose a firm has the following production function:
 
 $$
-
 Y(t) = K(t)^{\alpha} L(t)^{1-\alpha}
-
 $$
 
 where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the output elasticity of capital. Use Pontryagin's maximum principle to find the optimal control policy for this firm.
@@ -13933,9 +13613,7 @@ where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the 
 Consider a resource management problem where a fishery has the following dynamics:
 
 $$
-
 \dot{F}(t) = rF(t) - cF(t)^2
-
 $$
 
 where $F(t)$ is the fish stock, $r$ is the growth rate, and $c$ is the catch rate. Use dynamic programming to find the optimal harvesting policy for this fishery.
@@ -13965,17 +13643,13 @@ By understanding these advanced mathematical tools, economists can better analyz
 Consider the following optimization problem:
 
 $$
-
 \max_{x(t)} \int_{0}^{T} f(x(t), t) dt
-
 $$
 
 subject to the dynamic constraint:
 
 $$
-
 \dot{x}(t) = g(x(t), t)
-
 $$
 
 where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and $g(x(t), t)$ is the dynamic constraint. Use Pontryagin's maximum principle to find the optimal control policy for this problem.
@@ -13987,17 +13661,13 @@ where $x(t)$ is the state variable, $f(x(t), t)$ is the objective function, and 
 Solve the following dynamic optimization problem using dynamic programming:
 
 $$
-
 \max_{c(t)} \int_{0}^{T} u(c(t)) dt
-
 $$
 
 subject to the dynamic constraint:
 
 $$
-
 \dot{a}(t) = f(a(t), c(t))
-
 $$
 
 where $a(t)$ is the asset level, $c(t)$ is the consumption level, $u(c(t))$ is the utility function, and $f(a(t), c(t))$ is the production function.
@@ -14009,9 +13679,7 @@ where $a(t)$ is the asset level, $c(t)$ is the consumption level, $u(c(t))$ is t
 Consider a simple economic growth model with the following production function:
 
 $$
-
 Y(t) = K(t)^{\alpha} L(t)^{1-\alpha}
-
 $$
 
 where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the output elasticity of capital. Use calculus of variations to find the optimal path for capital accumulation over time.
@@ -14023,9 +13691,7 @@ where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the 
 Suppose a firm has the following production function:
 
 $$
-
 Y(t) = K(t)^{\alpha} L(t)^{1-\alpha}
-
 $$
 
 where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the output elasticity of capital. Use Pontryagin's maximum principle to find the optimal control policy for this firm.
@@ -14037,9 +13703,7 @@ where $Y(t)$ is output, $K(t)$ is capital, $L(t)$ is labor, and $\alpha$ is the 
 Consider a resource management problem where a fishery has the following dynamics:
 
 $$
-
 \dot{F}(t) = rF(t) - cF(t)^2
-
 $$
 
 where $F(t)$ is the fish stock, $r$ is the growth rate, and $c$ is the catch rate. Use dynamic programming to find the optimal harvesting policy for this fishery.

@@ -1432,9 +1432,7 @@ To find the reverse transformation, we first substitute the barycentric coordina
 
 
 $$
-
 \mathbf{T} \cdot \lambda = \mathbf{r}-\mathbf{r}_3
-
 $$
 
 
@@ -1444,7 +1442,6 @@ where $\lambda$ is the vector of the first two barycentric coordinates, $\mathbf
 
 
 $$
-
 \mathbf{T} = \begin{bmatrix}
 
 x_1-x_3 & x_2-x_3 \\
@@ -1452,7 +1449,6 @@ x_1-x_3 & x_2-x_3 \\
 y_1-y_3 & y_2-y_3
 
 \end{bmatrix}
-
 $$
 
 
@@ -2554,9 +2550,7 @@ In the Arnoldi iteration, one starts with a vector $\boldsymbol{r}_0$ and gradua
 
 
 $$
-
 \mathcal{K}_i(\boldsymbol{A},\boldsymbol{r}_0)=\text{span}\{\boldsymbol{r}_0,\boldsymbol{Ar}_0,\boldsymbol{A}^2\boldsymbol{r}_0,\ldots,\boldsymbol{A}^{i-1}\boldsymbol{r}_0\}
-
 $$
 
 
@@ -2566,9 +2560,7 @@ by defining $\boldsymbol{v}_i=\boldsymbol{w}_i/\lVert\boldsymbol{w}_i\rVert_2$ w
 
 
 $$
-
 \boldsymbol{w}_i=\boldsymbol{Av}_{i-1}-\sum_{j=1}^{i-1}\boldsymbol{v}_j\boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_{i-1}
-
 $$
 
 
@@ -2582,9 +2574,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{AV}_i=\boldsymbol{V}_{i+1}\boldsymbol{H}_i
-
 $$
 
 
@@ -2594,7 +2584,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i=\begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -2758,13 +2747,11 @@ Linear maps are mappings between vector spaces that preserve the vector-space st
 Given two vector spaces, V and W, over a field F, a linear map (also known as a linear transformation or linear mapping) is a map
 
 
-
 $$
 
 T: V \rightarrow W
 
 $$
-
 
 
 that satisfies the following properties:
@@ -2922,13 +2909,11 @@ Eigenvalues and eigenvectors are closely related to the concept of vector spaces
 Let's start by defining eigenvalues and eigenvectors. An eigenvalue of a square matrix is a scalar value that, when multiplied by the corresponding eigenvector, results in the same vector. In other words, the eigenvector is a special vector that is only scaled by the eigenvalue when multiplied by the matrix. This can be represented mathematically as:
 
 
-
 $$
 
 A\vec{x} = \lambda\vec{x}
 
 $$
-
 
 
 where A is the square matrix, $\vec{x}$ is the eigenvector, and $\lambda$ is the eigenvalue.
@@ -2988,7 +2973,6 @@ Diagonalization of a matrix is the process of finding a diagonal matrix that is 
 Let's consider the matrix from the previous section:
 
 
-
 $$
 
 A = \begin{bmatrix} 0 & 1 & \!\!\!-2\\ 0 & 1 & 0\\ 1 & \!\!\!-1 & 3 \end{bmatrix}
@@ -2996,9 +2980,7 @@ A = \begin{bmatrix} 0 & 1 & \!\!\!-2\\ 0 & 1 & 0\\ 1 & \!\!\!-1 & 3 \end{bmatrix
 $$
 
 
-
 The first step in diagonalizing this matrix is to find its eigenvalues. We can do this by finding the roots of the characteristic polynomial:
-
 
 
 $$
@@ -3008,9 +2990,7 @@ p(\lambda) = \det(\lambda I - A)
 $$
 
 
-
 In this case, the characteristic polynomial is:
-
 
 
 $$
@@ -3020,9 +3000,7 @@ p(\lambda) = \begin{vmatrix} \lambda & \!\!\!-1 & 2\\ 0 & \lambda - 1 & 0\\ -1 &
 $$
 
 
-
 Solving for the roots of this polynomial, we get the eigenvalues:
-
 
 
 $$
@@ -3032,9 +3010,7 @@ $$
 $$
 
 
-
 Next, we need to find the corresponding eigenvectors for each eigenvalue. We can do this by solving the linear system:
-
 
 
 $$
@@ -3044,9 +3020,7 @@ $$
 $$
 
 
-
 For $\lambda_1 = 1$, we get the eigenvector:
-
 
 
 $$
@@ -3056,9 +3030,7 @@ $$
 $$
 
 
-
 For $\lambda_2 = 1$, we get the eigenvector:
-
 
 
 $$
@@ -3068,9 +3040,7 @@ $$
 $$
 
 
-
 And for $\lambda_3 = 2$, we get the eigenvector:
-
 
 
 $$
@@ -3080,9 +3050,7 @@ $$
 $$
 
 
-
 Now, we can assemble these eigenvectors as the columns of a change-of-basis matrix $P$:
-
 
 
 $$
@@ -3092,9 +3060,7 @@ P = \begin{bmatrix} 1 & 0 & 1 \\ 1 & 2 & 0 \\ 0 & 1 & \!\!\!-1 \end{bmatrix}
 $$
 
 
-
 To diagonalize the matrix $A$, we need to find the matrix $D$ such that:
-
 
 
 $$
@@ -3104,9 +3070,7 @@ P^{-1}AP = D
 $$
 
 
-
 We can do this by multiplying both sides by $P$:
-
 
 
 $$
@@ -3116,9 +3080,7 @@ P^{-1}APP = PD
 $$
 
 
-
 Since $AP = PDP^{-1}$, we get:
-
 
 
 $$
@@ -3128,9 +3090,7 @@ P^{-1}PDP^{-1} = PD
 $$
 
 
-
 Simplifying, we get:
-
 
 
 $$
@@ -3138,7 +3098,6 @@ $$
 D = P^{-1}AP = \begin{bmatrix} 1 & 0 & 1 \\ 1 & 2 & 0 \\ 0 & 1 & \!\!\!-1 \end{bmatrix}^{-1} \begin{bmatrix} 0 & 1 & \!\!\!-2\\ 0 & 1 & 0\\ 1 & \!\!\!-1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 0 & 1 \\ 1 & 2 & 0 \\ 0 & 1 & \!\!\!-1 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2 \end{bmatrix}
 
 $$
-
 
 
 We can see that this is a diagonal matrix, which is the defining property of diagonalization. Furthermore, we can see that the diagonal entries are the eigenvalues of the original matrix $A$.
@@ -4074,21 +4033,17 @@ The Mollweide projection was developed as an alternative to the Mercator project
 The Mollweide projection is constructed by projecting the Earth's surface onto an ellipse, with the center of the ellipse at the center of the Earth. The formula for the projection is given by:
 
 
-
 $$
 
 x = \frac{2\sqrt{2}}{\pi} \lambda \cos\phi
 
 $$
 
-
-
 $$
 
 y = \frac{\sqrt{2}}{\pi} \sin\phi
 
 $$
-
 
 
 where $\lambda$ is the longitude and $\phi$ is the latitude.
@@ -4272,7 +4227,6 @@ To understand the equidistant cylindrical projection, we must first understand t
 To project the Earth's surface onto the cylinder, we use the following formula:
 
 
-
 $$
 
 x = \lambda \cos \phi \\
@@ -4280,7 +4234,6 @@ x = \lambda \cos \phi \\
 y = \phi
 
 $$
-
 
 
 Where $\lambda$ is the longitude and $\phi$ is the latitude. This formula maps each point on the Earth's surface to a point on the cylinder. The resulting map is a rectangular grid, with the equator being the horizontal line and the meridians being vertical lines.
@@ -4544,13 +4497,11 @@ Least squares estimation is a method for finding the best-fit line or curve that
 To understand least squares estimation, let's consider a simple linear model with one independent variable, <math>x</math>, and one dependent variable, <math>y</math>. The model can be written as:
 
 
-
 $$
 
 y = \beta_0 + \beta_1x
 
 $$
-
 
 
 where <math>\beta_0</math> and <math>\beta_1</math> are the intercept and slope of the line, respectively. Our goal is to find the values of <math>\beta_0</math> and <math>\beta_1</math> that best fit the data.
@@ -4560,7 +4511,6 @@ where <math>\beta_0</math> and <math>\beta_1</math> are the intercept and slope 
 To do this, we first define the error between the observed value of <math>y</math> and the predicted value of <math>y</math> as:
 
 
-
 $$
 
 e = y - \hat{y}
@@ -4568,9 +4518,7 @@ e = y - \hat{y}
 $$
 
 
-
 where <math>\hat{y}</math> is the predicted value of <math>y</math> based on our model. The sum of squared errors can then be written as:
-
 
 
 $$
@@ -4578,7 +4526,6 @@ $$
 C = \sum_{i=1}^{n} e_i^2 = \sum_{i=1}^{n} (y_i - \hat{y_i})^2
 
 $$
-
 
 
 Our goal is to minimize this cost function, <math>C</math>, by finding the values of <math>\beta_0</math> and <math>\beta_1</math> that result in the smallest sum of squared errors. This can be done by taking the partial derivatives of <math>C</math> with respect to <math>\beta_0</math> and <math>\beta_1</math> and setting them equal to 0. The resulting equations are known as the normal equations and can be solved to obtain the values of <math>\beta_0</math> and <math>\beta_1</math>.
@@ -4630,7 +4577,6 @@ Least squares estimation is a method for finding the best-fit line or curve that
 To understand least squares estimation, let's consider a simple linear model with one independent variable, <math>x</math>, and one dependent variable, <math>y</math>. The model can be written as:
 
 
-
 $$
 
 y = \beta_0 + \beta_1x
@@ -4638,9 +4584,7 @@ y = \beta_0 + \beta_1x
 $$
 
 
-
 where <math>\beta_0</math> and <math>\beta_1</math> are the intercept and slope of the line, respectively. Our goal is to find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimize the sum of the squared errors between the observed data and the predicted values. This can be expressed as the following cost function:
-
 
 
 $$
@@ -4650,13 +4594,11 @@ C = \sum_{i=1}^{n}(y_i - \hat{y}_i)^2
 $$
 
 
-
 where <math>n</math> is the number of data points, <math>y_i</math> is the observed value, and <math>\hat{y}_i</math> is the predicted value. The goal is to find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimize this cost function.
 
 
 
 To find the minimum of this cost function, we take the partial derivatives with respect to <math>\beta_0</math> and <math>\beta_1</math> and set them equal to zero. This gives us the following equations:
-
 
 
 $$
@@ -4665,8 +4607,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial C}{\partial \beta_1} = -2\sum_{i=1}^{n}(y_i - \hat{y}_i)x_i = 0
@@ -4674,9 +4614,7 @@ $$
 $$
 
 
-
 Solving these equations gives us the following estimates for <math>\beta_0</math> and <math>\beta_1</math>:
-
 
 
 $$
@@ -4685,14 +4623,11 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{\beta}_1 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^2}
 
 $$
-
 
 
 where <math>\bar{x}</math> and <math>\bar{y}</math> are the mean values of <math>x</math> and <math>y</math>, respectively.
@@ -4710,13 +4645,11 @@ In some cases, the data points may not have equal importance or weight. In these
 The weighted least squares error function is given by:
 
 
-
 $$
 
 C = \sum_{i=1}^{n}w_i(y_i - \hat{y}_i)^2
 
 $$
-
 
 
 where <math>w_i</math> is the weight assigned to the <math>i</math>-th data point. The goal is to find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimize this cost function. This can be done by taking the partial derivatives with respect to <math>\beta_0</math> and <math>\beta_1</math> and setting them equal to zero, similar to the previous case.
@@ -4726,21 +4659,17 @@ where <math>w_i</math> is the weight assigned to the <math>i</math>-th data poin
 The resulting estimates for <math>\beta_0</math> and <math>\beta_1</math> are given by:
 
 
-
 $$
 
 \hat{\beta}_0 = \frac{\sum_{i=1}^{n}w_iy_i - \hat{\beta}_1\sum_{i=1}^{n}w_ix_i}{\sum_{i=1}^{n}w_i}
 
 $$
 
-
-
 $$
 
 \hat{\beta}_1 = \frac{\sum_{i=1}^{n}w_i(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}w_i(x_i - \bar{x})^2}
 
 $$
-
 
 
 In practice, the weights are usually chosen based on the reliability or accuracy of the data points. The smaller the weight, the less influence the data point has on the estimation. This allows us to give more weight to more reliable data points and less weight to noisy or unreliable data points.
@@ -4758,13 +4687,11 @@ The weighted least squares method also allows us to incorporate a "forgetting fa
 The cost function for weighted least squares with a forgetting factor is given by:
 
 
-
 $$
 
 C = \sum_{i=1}^{n}\lambda^{n-i}(y_i - \hat{y}_i)^2
 
 $$
-
 
 
 where <math>\lambda</math> is the forgetting factor and <math>n</math> is the number of data points. The optimal value for <math>\lambda</math> can be estimated using type-II maximum likelihood estimation.
@@ -4808,7 +4735,6 @@ Least squares estimation is a method for finding the best-fit line or curve that
 To understand least squares estimation, let's consider a simple linear model with one independent variable, <math>x</math>, and one dependent variable, <math>y</math>. The model can be written as:
 
 
-
 $$
 
 y = \beta_0 + \beta_1x
@@ -4816,9 +4742,7 @@ y = \beta_0 + \beta_1x
 $$
 
 
-
 where <math>\beta_0</math> and <math>\beta_1</math> are the intercept and slope of the line, respectively. Our goal is to find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimize the sum of the squared errors between the observed data and the predicted values. This can be represented mathematically as:
-
 
 
 $$
@@ -4826,7 +4750,6 @@ $$
 \min_{\beta_0, \beta_1} \sum_{i=1}^{n}(y_i - \beta_0 - \beta_1x_i)^2
 
 $$
-
 
 
 where <math>n</math> is the number of data points. This is known as the least squares objective function.
@@ -4906,13 +4829,11 @@ In the previous section, we discussed the concept of least squares estimation an
 The least squares method is based on the principle of minimizing the sum of squared errors between the observed data and the predicted values. This can be mathematically expressed as:
 
 
-
 $$
 
 \min_{\beta_0, \beta_1} \sum_{i=1}^{n} (y_i - \beta_0 - \beta_1x_i)^2
 
 $$
-
 
 
 where <math>n</math> is the number of data points, <math>y_i</math> is the observed value, and <math>x_i</math> is the corresponding independent variable.
@@ -4926,14 +4847,11 @@ To find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimiz
 The normal equations can be written as:
 
 
-
 $$
 
 \sum_{i=1}^{n} y_i = n\beta_0 + \beta_1 \sum_{i=1}^{n} x_i
 
 $$
-
-
 
 $$
 
@@ -4942,9 +4860,7 @@ $$
 $$
 
 
-
 Solving these equations simultaneously will give us the values of <math>\beta_0</math> and <math>\beta_1</math> as:
-
 
 
 $$
@@ -4953,14 +4869,11 @@ $$
 
 $$
 
-
-
 $$
 
 \beta_0 = \frac{\sum_{i=1}^{n} y_i - \beta_1 \sum_{i=1}^{n} x_i}{n}
 
 $$
-
 
 
 These equations can be easily solved using a computer program or a calculator, making the least squares method a practical and efficient way to estimate the parameters of a linear model.
@@ -5000,13 +4913,11 @@ In the previous section, we discussed the concept of least squares estimation an
 The least squares method is based on the principle of minimizing the sum of squared errors between the observed data and the predicted values. This can be mathematically expressed as:
 
 
-
 $$
 
 \min_{\beta_0, \beta_1} \sum_{i=1}^{n} (y_i - \beta_0 - \beta_1x_i)^2
 
 $$
-
 
 
 where <math>n</math> is the number of data points, <math>y_i</math> is the observed value, and <math>x_i</math> is the corresponding independent variable.
@@ -5020,14 +4931,11 @@ To find the values of <math>\beta_0</math> and <math>\beta_1</math> that minimiz
 The normal equations can be written as:
 
 
-
 $$
 
 \sum_{i=1}^{n} y_i = n\beta_0 + \beta_1 \sum_{i=1}^{n} x_i
 
 $$
-
-
 
 $$
 
@@ -5036,9 +4944,7 @@ $$
 $$
 
 
-
 Solving these equations simultaneously will give us the values of <math>\beta_0</math> and <math>\beta_1</math> as:
-
 
 
 $$
@@ -5047,14 +4953,11 @@ $$
 
 $$
 
-
-
 $$
 
 \beta_0 = \frac{\sum_{i=1}^{n} y_i - \beta_1 \sum_{i=1}^{n} x_i}{n}
 
 $$
-
 
 
 These equations can be easily solved using a computer program or a calculator, making the least squares method a practical and efficient way to estimate the parameters of a linear model. However, in some cases, the normal equations may not be the most efficient method for solving the least squares problem.
@@ -5350,7 +5253,6 @@ In order to examine the correlations between random time series, we must first u
 Mathematically, autocorrelation is defined as the correlation between a time series and a lagged version of itself. For a continuous function f(t), the autocorrelation is given by:
 
 
-
 $$
 
 R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
@@ -5358,9 +5260,7 @@ R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
 $$
 
 
-
 where $\tau$ is the lag or displacement. Similarly, for a discrete function f[n], the autocorrelation is given by:
-
 
 
 $$
@@ -5368,7 +5268,6 @@ $$
 R[n] = \sum_{m=-\infty}^{\infty} \overline{f[m]} f[m+n]
 
 $$
-
 
 
 Autocorrelation can also be used to determine the periodicity of a time series. If the autocorrelation function has a peak at a certain lag, it indicates that the time series has a repeating pattern with that lag.
@@ -5382,7 +5281,6 @@ Cross-correlation, on the other hand, measures the similarity between two differ
 For continuous functions f(t) and g(t), the cross-correlation is given by:
 
 
-
 $$
 
 (f \star g)(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} g(t+\tau)\,dt
@@ -5390,9 +5288,7 @@ $$
 $$
 
 
-
 where $\tau$ is the lag or displacement. Similarly, for discrete functions f[n] and g[n], the cross-correlation is given by:
-
 
 
 $$
@@ -5402,7 +5298,6 @@ $$
 $$
 
 
-
 Cross-correlation can also be used to determine the time delay between two time series. If the cross-correlation function has a peak at a certain lag, it indicates that the two time series are related and one can be described as "lagging" the other by that lag.
 
 
@@ -5410,13 +5305,11 @@ Cross-correlation can also be used to determine the time delay between two time 
 In the case of periodic functions, the integration or summation is done over a period of the function instead of over all values. This is known as circular cross-correlation and is given by:
 
 
-
 $$
 
 (f \star g)[n] = \sum_{m=0}^{N-1} \overline{f[m]} g[(m+n)_{\text{mod}~N}]
 
 $$
-
 
 
 where N is the period of the functions.
@@ -5456,7 +5349,6 @@ In order to examine the correlations between random time series, we must first u
 Mathematically, autocorrelation is defined as the correlation between a time series and a lagged version of itself. For a continuous function $f(t)$, the autocorrelation is given by:
 
 
-
 $$
 
 R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
@@ -5464,9 +5356,7 @@ R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
 $$
 
 
-
 where $\tau$ is the lag or displacement. Similarly, for a discrete function $f[n]$, the autocorrelation is given by:
-
 
 
 $$
@@ -5474,7 +5364,6 @@ $$
 R[n] = \sum_{m=-\infty}^{\infty} \overline{f[m]} f[m+n]
 
 $$
-
 
 
 Autocorrelation can also be used to determine the periodicity of a time series. If the autocorrelation function has a peak at a certain lag, it indicates that the time series has a repeating pattern with that lag.
@@ -5488,7 +5377,6 @@ Cross-correlation, on the other hand, measures the similarity between two differ
 For continuous functions $f(t)$ and $g(t)$, the cross-correlation is given by:
 
 
-
 $$
 
 R_{fg}(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} g(t+\tau)\,dt
@@ -5496,9 +5384,7 @@ R_{fg}(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} g(t+\tau)\,dt
 $$
 
 
-
 Similarly, for discrete functions $f[n]$ and $g[n]$, the cross-correlation is given by:
-
 
 
 $$
@@ -5506,7 +5392,6 @@ $$
 R_{fg}[n] = \sum_{m=-\infty}^{\infty} \overline{f[m]} g[m+n]
 
 $$
-
 
 
 The cross-correlation function can also be used to determine the time delay between two signals. If the cross-correlation function has a peak at a certain lag, it indicates that there is a time delay between the two signals.
@@ -5524,7 +5409,6 @@ In addition to autocorrelation and cross-correlation, another important concept 
 The PSD is defined as the Fourier transform of the autocorrelation function. For a continuous function $f(t)$, the PSD is given by:
 
 
-
 $$
 
 S_{ff}(f) = \int_{-\infty}^{\infty} R(\tau) e^{-2\pi if\tau}\,d\tau
@@ -5532,9 +5416,7 @@ S_{ff}(f) = \int_{-\infty}^{\infty} R(\tau) e^{-2\pi if\tau}\,d\tau
 $$
 
 
-
 Similarly, for a discrete function $f[n]$, the PSD is given by:
-
 
 
 $$
@@ -5542,7 +5424,6 @@ $$
 S_{ff}[k] = \sum_{n=-\infty}^{\infty} R[n] e^{-2\pi ikn}
 
 $$
-
 
 
 The PSD can also be used to determine the dominant frequencies in a time series. If the PSD has a peak at a certain frequency, it indicates that the time series has a strong component at that frequency.
@@ -5560,7 +5441,6 @@ In addition to the PSD, we can also define the cross power spectral density (CPS
 For continuous functions $x(t)$ and $y(t)$, the CPSD is given by:
 
 
-
 $$
 
 S_{xy}(f) = \int_{-\infty}^{\infty} R_{xy}(\tau) e^{-2\pi if\tau}\,d\tau
@@ -5568,9 +5448,7 @@ S_{xy}(f) = \int_{-\infty}^{\infty} R_{xy}(\tau) e^{-2\pi if\tau}\,d\tau
 $$
 
 
-
 Similarly, for discrete functions $x[n]$ and $y[n]$, the CPSD is given by:
-
 
 
 $$
@@ -5578,7 +5456,6 @@ $$
 S_{xy}[k] = \sum_{n=-\infty}^{\infty} R_{xy}[n] e^{-2\pi ikn}
 
 $$
-
 
 
 The CPSD can provide insights into the relationship between two signals and can also be used to determine the dominant frequencies in the cross-correlation between the two signals.
@@ -5618,7 +5495,6 @@ In order to examine the correlations between random time series, we must first u
 Mathematically, autocorrelation is defined as the correlation between a time series and a lagged version of itself. For a continuous function $f(t)$, the autocorrelation is given by:
 
 
-
 $$
 
 R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
@@ -5626,9 +5502,7 @@ R(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} f(t+\tau)\,dt
 $$
 
 
-
 where $\tau$ is the lag or displacement. Similarly, for a discrete function $f[n]$, the autocorrelation is given by:
-
 
 
 $$
@@ -5636,7 +5510,6 @@ $$
 R[n] = \sum_{m=-\infty}^{\infty} \overline{f[m]} f[m+n]
 
 $$
-
 
 
 Autocorrelation can also be used to determine the periodicity of a time series. If the autocorrelation function has a peak at a certain lag, it indicates that the time series has a repeating pattern with that lag.
@@ -5650,7 +5523,6 @@ Cross-correlation, on the other hand, measures the similarity between two differ
 For continuous functions $f(t)$ and $g(t)$, the cross-correlation is given by:
 
 
-
 $$
 
 R_{fg}(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} g(t+\tau)\,dt
@@ -5658,9 +5530,7 @@ R_{fg}(\tau) = \int_{-\infty}^{\infty} \overline{f(t)} g(t+\tau)\,dt
 $$
 
 
-
 Similarly, for discrete functions $f[n]$ and $g[n]$, the cross-correlation is given by:
-
 
 
 $$
@@ -5668,7 +5538,6 @@ $$
 R_{fg}[n] = \sum_{m=-\infty}^{\infty} \overline{f[m]} g[m+n]
 
 $$
-
 
 
 Cross-correlation can also be used to determine the time delay between two time series. If the cross-correlation function has a peak at a certain lag, it indicates that the two time series are related and the peak lag represents the time delay between them.
@@ -5752,7 +5621,6 @@ In the previous section, we discussed the concept of autocorrelation and its imp
 Covariance and correlation matrices are mathematical representations of the relationships between random variables in a random vector. The covariance matrix, denoted as <math>\operatorname{K}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the variances of each random variable on the diagonal and the covariances between each pair of random variables on the off-diagonal elements. It can be written as:
 
 
-
 $$
 
 \operatorname{K}_{\mathbf{X}\mathbf{X}} = \begin{bmatrix}
@@ -5770,9 +5638,7 @@ $$
 $$
 
 
-
 Similarly, the correlation matrix, denoted as <math>\operatorname{R}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the correlation coefficients between each pair of random variables. It can be written as:
-
 
 
 $$
@@ -5790,7 +5656,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 One important property of the covariance matrix is that it is symmetric, meaning that <math>\operatorname{cov}(X_i, X_j) = \operatorname{cov}(X_j, X_i)</math>. This is because the covariance between two random variables is unaffected by the order in which they are listed.
@@ -5812,13 +5677,11 @@ The correlation matrix also has some important properties. As mentioned in the r
 The autocorrelation matrix, denoted as <math>\operatorname{R}_{\mathbf{X}\mathbf{X}}</math>, is closely related to the covariance matrix. In fact, the autocorrelation matrix can be seen as a rescaling of the covariance matrix by the marginal variances. This can be expressed mathematically as:
 
 
-
 $$
 
 \operatorname{R}_{\mathbf{X}\mathbf{X}} = \frac{1}{\operatorname{var}(X_i)} \operatorname{K}_{\mathbf{X}\mathbf{X}}
 
 $$
-
 
 
 where <math>X_i</math> represents any random variable in the random vector <math>\mathbf{X}</math>.
@@ -5832,13 +5695,11 @@ where <math>X_i</math> represents any random variable in the random vector <math
 The correlation matrix can also be seen as a rescaling of the covariance matrix, but in a different way. It can be expressed as the covariance matrix of the standardized random variables <math>X_i/\sigma(X_i)</math>, where <math>\sigma(X_i)</math> represents the standard deviation of <math>X_i</math>. This can be written as:
 
 
-
 $$
 
 \operatorname{R}_{\mathbf{X}\mathbf{X}} = \operatorname{cov}\left(\frac{X_i}{\sigma(X_i)}, \frac{X_j}{\sigma(X_j)}\right)
 
 $$
-
 
 
 This relationship highlights the fact that the correlation matrix is a measure of the linear relationship between standardized random variables, while the covariance matrix is a measure of the linear relationship between the original random variables.
@@ -5898,7 +5759,6 @@ In the previous section, we discussed the concept of autocorrelation and its imp
 Covariance and correlation matrices are mathematical representations of the relationships between random variables in a random vector. The covariance matrix, denoted as <math>\operatorname{K}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the variances of each random variable on the diagonal and the covariances between each pair of random variables on the off-diagonal elements. It can be written as:
 
 
-
 $$
 
 \operatorname{K}_{\mathbf{X}\mathbf{X}} = \begin{bmatrix}
@@ -5916,9 +5776,7 @@ $$
 $$
 
 
-
 Similarly, the correlation matrix, denoted as <math>\operatorname{R}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the correlation coefficients between each pair of random variables. It can be written as:
-
 
 
 $$
@@ -5936,7 +5794,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 One important property of covariance and correlation matrices is that they are symmetric, meaning that <math>\operatorname{K}_{\mathbf{X}\mathbf{X}} = \operatorname{K}_{\mathbf{X}\mathbf{X}}^T</math> and <math>\operatorname{R}_{\mathbf{X}\mathbf{X}} = \operatorname{R}_{\mathbf{X}\mathbf{X}}^T</math>. This is because the covariance and correlation between two random variables <math>X_i</math> and <math>X_j</math> is the same as the covariance and correlation between <math>X_j</math> and <math>X_i</math>.
@@ -5958,7 +5815,6 @@ In order to use covariance and correlation matrices in practice, we need to be a
 The sample covariance matrix, denoted as <math>\hat{\operatorname{K}}_{\mathbf{X}\mathbf{X}}</math>, is calculated as:
 
 
-
 $$
 
 \hat{\operatorname{K}}_{\mathbf{X}\mathbf{X}} = \frac{1}{N-1}\mathbf{X}\mathbf{X}^T
@@ -5966,13 +5822,11 @@ $$
 $$
 
 
-
 where <math>N</math> is the number of observations and <math>\mathbf{X} = [\mathbf{x}_1, \mathbf{x}_2, \ldots, \mathbf{x}_N]</math> is the matrix of observations.
 
 
 
 Similarly, the sample correlation matrix, denoted as <math>\hat{\operatorname{R}}_{\mathbf{X}\mathbf{X}}</math>, is calculated as:
-
 
 
 $$
@@ -5990,7 +5844,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 where <math>\hat{\operatorname{corr}}(X_i, X_j)</math> is the sample correlation coefficient between <math>X_i</math> and <math>X_j</math>.
@@ -6026,7 +5879,6 @@ In the previous section, we discussed the concept of autocorrelation and its imp
 Covariance and correlation matrices are mathematical representations of the relationships between random variables in a random vector. The covariance matrix, denoted as <math>\operatorname{K}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the variances of each random variable on the diagonal and the covariances between each pair of random variables on the off-diagonal elements. It can be written as:
 
 
-
 $$
 
 \operatorname{K}_{\mathbf{X}\mathbf{X}} = \begin{bmatrix}
@@ -6044,9 +5896,7 @@ $$
 $$
 
 
-
 Similarly, the correlation matrix, denoted as <math>\operatorname{R}_{\mathbf{X}\mathbf{X}}</math>, is a square matrix with the correlation coefficients between each pair of random variables. It can be written as:
-
 
 
 $$
@@ -6064,7 +5914,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 One important property of covariance and correlation matrices is that they are symmetric, meaning that the values on either side of the diagonal are equal. This is because the covariance and correlation between two random variables are the same regardless of which variable is listed first. Additionally, the diagonal elements of the covariance matrix represent the variance of each individual random variable, while the diagonal elements of the correlation matrix are all equal to 1, as a variable is perfectly correlated with itself.
@@ -8116,13 +7965,11 @@ To correct for the dispersive delay caused by the ionosphere, GPS receivers use 
 The dual-frequency ionospheric correction method relies on the fact that the ionospheric delay is proportional to the frequency of the GPS signal. By measuring the delay of two signals with different frequencies, the ionospheric delay can be calculated using the following equation:
 
 
-
 $$
 
 I = K(f_1^2 - f_2^2)
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $K$ is a constant, and $f_1$ and $f_2$ are the frequencies of the two GPS signals.
@@ -8166,13 +8013,11 @@ To correct for the dispersive delay caused by the ionosphere, GPS receivers use 
 The dual-frequency ionospheric correction method relies on the fact that the ionospheric delay is proportional to the frequency of the GPS signal. By measuring the delay of two signals with different frequencies, the ionospheric delay can be calculated using the following equation:
 
 
-
 $$
 
 I = K(f_1^2 - f_2^2)
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $K$ is a constant, and $f_1$ and $f_2$ are the frequencies of the two GPS signals. This correction is crucial for accurate GPS navigation, as it helps compensate for the varying delays caused by the ionosphere.
@@ -8208,13 +8053,11 @@ One of the most widely used ionospheric models is the Klobuchar model. Developed
 The Klobuchar model uses the following equation to calculate the ionospheric delay:
 
 
-
 $$
 
 I = A + B \cdot \frac{1}{\cos(\phi)} \cdot \frac{1}{1 + C \cdot \cos(\phi)} \cdot \frac{1}{1 + D \cdot \cos^2(\phi)} \cdot \frac{1}{1 + E \cdot \cos^3(\phi)}
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $A$, $B$, $C$, $D$, and $E$ are coefficients that vary depending on the user's location and the time of day, and $\phi$ is the user's latitude.
@@ -8246,13 +8089,11 @@ One of the most widely used ionospheric models is the Klobuchar model. Developed
 The Klobuchar model uses the following equation to calculate the ionospheric delay:
 
 
-
 $$
 
 I = A + B \cdot \frac{1}{\cos(\phi)} \cdot \frac{1}{1 + C \cdot \cos(\phi)} \cdot \frac{1}{1 + D \cdot \cos^2(\phi)} \cdot \frac{1}{1 + E \cdot \cos^3(\phi)}
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $A$, $B$, $C$, $D$, and $E$ are coefficients that vary depending on the user's location and the time of day, and $\phi$ is the user's latitude.
@@ -8270,13 +8111,11 @@ Another commonly used ionospheric model is the NeQuick model. Developed by the E
 The NeQuick model uses the following equation to calculate the ionospheric delay:
 
 
-
 $$
 
 I = A + B \cdot \frac{1}{\cos(\phi)} \cdot \frac{1}{1 + C \cdot \cos(\phi)} \cdot \frac{1}{1 + D \cdot \cos^2(\phi)} \cdot \frac{1}{1 + E \cdot \cos^3(\phi)}
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $A$, $B$, $C$, $D$, and $E$ are coefficients that vary depending on the user's location and the time of day, and $\phi$ is the user's latitude.
@@ -8304,13 +8143,11 @@ One of the most widely used ionospheric models is the Klobuchar model. Developed
 The Klobuchar model uses the following equation to calculate the ionospheric delay:
 
 
-
 $$
 
 I = A + B \cdot \frac{1}{\cos(\phi)} \cdot \frac{1}{1 + C \cdot \cos(\phi)} \cdot \frac{1}{1 + D \cdot \cos^2(\phi)} \cdot \frac{1}{1 + E \cdot \cos^3(\phi)}
 
 $$
-
 
 
 Where $I$ is the ionospheric delay, $A$, $B$, $C$, $D$, and $E$ are coefficients that vary depending on the user's location and the time of day, and $\phi$ is the user's latitude.
@@ -8358,13 +8195,11 @@ The ionosphere-free combination is a mathematical technique that combines the me
 The two frequencies used in the ionosphere-free combination are L1 (1575.42 MHz) and L2 (1227.60 MHz). These frequencies are chosen because they are far enough apart to have a significant difference in ionospheric delay, but close enough to be affected by the same atmospheric conditions. The ionosphere-free combination is calculated using the following equation:
 
 
-
 $$
 
 IF = \frac{L1 - \alpha L2}{1 - \alpha}
 
 $$
-
 
 
 Where $IF$ is the ionosphere-free combination, $L1$ and $L2$ are the measurements from the L1 and L2 frequencies, and $\alpha$ is a constant that depends on the user's location and the time of day.
@@ -8412,13 +8247,11 @@ The ionosphere-free combination is a mathematical technique that combines the me
 The two frequencies used in the ionosphere-free combination are L1 (1575.42 MHz) and L2 (1227.60 MHz). These frequencies are chosen because they are far enough apart to have a significant difference in ionospheric delay, but close enough to be affected by the same atmospheric conditions. The ionosphere-free combination is calculated using the following equation:
 
 
-
 $$
 
 IF = \frac{L1 - \alpha L2}{1 - \alpha}
 
 $$
-
 
 
 Where $IF$ is the ionosphere-free combination, $L1$ and $L2$ are the measurements from the L1 and L2 frequencies, and $\alpha$ is a constant that depends on the user's location and the time of day.
@@ -8466,13 +8299,11 @@ The ionosphere-free combination is a mathematical technique that combines the me
 The two frequencies used in the ionosphere-free combination are L1 (1575.42 MHz) and L2 (1227.60 MHz). These frequencies are chosen because they are far enough apart to have a significant difference in ionospheric delay, but close enough to be affected by the same atmospheric conditions. The ionosphere-free combination is calculated using the following equation:
 
 
-
 $$
 
 IF = \frac{L1 - \alpha L2}{1 - \alpha}
 
 $$
-
 
 
 Where $IF$ is the ionosphere-free combination, $L1$ and $L2$ are the measurements from the L1 and L2 frequencies, and $\alpha$ is a constant that depends on the user's location and the time of day.
@@ -8590,13 +8421,11 @@ These elements are crucial for understanding the motion of a satellite within it
 Now, let's take a look at the mathematical solution of the differential equation that governs the motion of a satellite under a central force. This equation, known as the vis-viva equation, is given by:
 
 
-
 $$
 
 v^2 = GM\left(\frac{2}{r} - \frac{1}{a}\right)
 
 $$
-
 
 
 where v is the velocity of the satellite, G is the gravitational constant, M is the mass of the central body, r is the distance between the satellite and the central body, and a is the semi-major axis.
@@ -8606,13 +8435,11 @@ where v is the velocity of the satellite, G is the gravitational constant, M is 
 This equation can be solved using the specific relative angular momentum (H), which remains constant for a satellite moving under a central force. This is given by:
 
 
-
 $$
 
 \mathbf{H} = \mathbf{r} \times {\dot{\mathbf{r}}}
 
 $$
-
 
 
 where r is the position vector and ${\dot{\mathbf{r}}}$ is the velocity vector.
@@ -9004,21 +8831,17 @@ To convert a TLE to a state vector, we first need to understand the coordinate s
 To convert these orbital elements to a state vector, we use the following equations:
 
 
-
 $$
 
 r = \frac{a(1-e^2)}{1+e\cos(\nu)}
 
 $$
 
-
-
 $$
 
 v = \sqrt{\frac{\mu}{a(1-e^2)}}\sin(\nu)
 
 $$
-
 
 
 Where $r$ is the position vector, $v$ is the velocity vector, $a$ is the semi-major axis, $e$ is the eccentricity, $\nu$ is the true anomaly, and $\mu$ is the standard gravitational parameter of the Earth.
@@ -11358,13 +11181,11 @@ The navigation equations for SINS are a set of differential equations that descr
 The most commonly used navigation equations for SINS are the Euler equations, which describe the rotation of a rigid body in three dimensions. These equations are based on the conservation of angular momentum and can be written as:
 
 
-
 $$
 
 \dot{\omega} = I^{-1}(\tau - \omega \times I\omega)
 
 $$
-
 
 
 Where $\dot{\omega}$ is the angular acceleration, $I$ is the moment of inertia tensor, $\tau$ is the external torque, and $\omega$ is the angular velocity.
@@ -11374,21 +11195,17 @@ Where $\dot{\omega}$ is the angular acceleration, $I$ is the moment of inertia t
 Another important set of equations used in SINS is the kinematic equations, which describe the motion of the object in three dimensions. These equations are based on the principles of Newton's laws of motion and can be written as:
 
 
-
 $$
 
 \dot{v} = \frac{1}{m}F + g
 
 $$
 
-
-
 $$
 
 \dot{r} = v
 
 $$
-
 
 
 Where $\dot{v}$ is the acceleration, $m$ is the mass of the object, $F$ is the external force, $g$ is the gravitational acceleration, $\dot{r}$ is the velocity, and $v$ is the position.
@@ -11996,13 +11813,11 @@ Another time system used in celestial navigation is sidereal time, which is base
 To convert between UT and sidereal time, one must take into account the Earth's rotation and the movement of the celestial bodies. This can be done using the equation:
 
 
-
 $$
 
 \Delta t = \frac{\Delta \alpha}{15}
 
 $$
-
 
 
 where $\Delta t$ is the time difference between UT and sidereal time, and $\Delta \alpha$ is the difference in right ascension between the celestial body and the vernal equinox.
@@ -12474,13 +12289,11 @@ Radar, or Radio Detection and Ranging, is a technology that uses radio waves to 
 The basic principle of radar is the transmission and reception of radio waves. A radar system consists of a transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -12520,13 +12333,11 @@ Radar, or Radio Detection and Ranging, is a technology that uses radio waves to 
 The basic principle of radar is the transmission and reception of radio waves. A radar system consists of a transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -12590,13 +12401,11 @@ Radar, or Radio Detection and Ranging, is a technology that uses radio waves to 
 The basic principle of radar is the transmission and reception of radio waves. A radar system consists of a transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -12684,13 +12493,11 @@ Radar navigation is the use of radar technology for the purpose of navigation. I
 Radar navigation is based on the same principles as radar technology. A radar navigation system consists of a radar transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -12730,13 +12537,11 @@ Radar navigation is the use of radar technology for the purpose of navigation. I
 Radar navigation is based on the same principles as radar technology. A radar navigation system consists of a radar transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -12796,13 +12601,11 @@ Radar navigation is the use of radar technology for the purpose of navigation. I
 Radar navigation is based on the same principles as radar technology. A radar navigation system consists of a radar transmitter, a receiver, and an antenna. The transmitter emits a short pulse of radio waves, which travel through the air at the speed of light. When these waves encounter an object, they are reflected back towards the radar system. The receiver then detects these reflected waves and measures the time it takes for them to return. By knowing the speed of the waves and the time it takes for them to return, the distance to the object can be calculated using the formula:
 
 
-
 $$
 
 d = \frac{c \cdot t}{2}
 
 $$
-
 
 
 where $d$ is the distance, $c$ is the speed of light, and $t$ is the time it takes for the waves to return.
@@ -15316,13 +15119,11 @@ Geostationary orbits are when a satellite orbits the Earth at the same speed and
 To determine the orbit that corresponds to a given initial state, we can use the "initial value problem" for the differential equation. This equation is a first-order equation for the 6-dimensional "state vector" (r, v) when written as:
 
 
-
 $$
 
 \frac{d}{dt}\begin{bmatrix} \mathbf{r} \\ \mathbf{v} \end{bmatrix} = \begin{bmatrix} \mathbf{v} \\ \mathbf{a} \end{bmatrix}
 
 $$
-
 
 
 where r is the position vector, v is the velocity vector, and a is the acceleration vector.
@@ -15336,21 +15137,17 @@ To find the Kepler orbit corresponding to the solution of this initial value pro
 1. Define the orthogonal unit vectors (r̂, t̂) through:
 
 
-
 $$
 
 \mathbf{r} = r\hat{\mathbf{r}}
 
 $$
 
-
-
 $$
 
 \mathbf{v} = V_r\hat{\mathbf{r}} + V_t\hat{\mathbf{t}}
 
 $$
-
 
 
 where r > 0 and V_t > 0.
@@ -15360,14 +15157,11 @@ where r > 0 and V_t > 0.
 2. From the equations above, we can set r = r_0 and V_r = V_r0 to get a Kepler orbit that has the same r, V_r, and V_t values as those defined by the equations below:
 
 
-
 $$
 
 r = \frac{p}{1 + e\cos{\theta}}
 
 $$
-
-
 
 $$
 
@@ -15375,14 +15169,11 @@ V_r = \sqrt{\frac{\mu}{p}}e\sin{\theta}
 
 $$
 
-
-
 $$
 
 V_t = \sqrt{\frac{\mu}{p}}(1 + e\cos{\theta})
 
 $$
-
 
 
 where p is the semi-latus rectum, e is the eccentricity, and μ is the gravitational parameter.
@@ -15396,21 +15187,17 @@ where p is the semi-latus rectum, e is the eccentricity, and μ is the gravitati
 4. The standard inertially fixed coordinate system (x̂, ŷ) in the orbital plane can be determined using the relation:
 
 
-
 $$
 
 \hat{\mathbf{x}} = \frac{\mathbf{r}}{r}
 
 $$
 
-
-
 $$
 
 \hat{\mathbf{y}} = \frac{\mathbf{r} \times \mathbf{v}}{|\mathbf{r} \times \mathbf{v}|}
 
 $$
-
 
 
 Note that this relation has a singularity when V_r = 0, which occurs at the apogee and perigee points of the orbit.
@@ -15454,13 +15241,11 @@ Geostationary orbits are when a satellite orbits the Earth at the same speed and
 To determine the orbit that corresponds to a given initial state, we can use the "initial value problem" for the differential equation. This equation is a first-order equation for the 6-dimensional "state vector" (r, v) when written as:
 
 
-
 $$
 
 \frac{d}{dt}\begin{bmatrix} \mathbf{r} \\ \mathbf{v} \end{bmatrix} = \begin{bmatrix} \mathbf{v} \\ \mathbf{a} \end{bmatrix}
 
 $$
-
 
 
 This equation describes the motion of a satellite in orbit, where r is the position vector, v is the velocity vector, and a is the acceleration vector. The acceleration vector is determined by the gravitational force of the central body and any other external forces acting on the satellite.
@@ -15520,13 +15305,11 @@ Geostationary orbits are when a satellite orbits the Earth at the same speed and
 To determine the orbit that corresponds to a given initial state, we can use the "initial value problem" for the differential equation. This equation is a first-order equation for the 6-dimensional "state vector" (r, v) when written as:
 
 
-
 $$
 
 \frac{d}{dt}\begin{bmatrix} \mathbf{r} \\ \mathbf{v} \end{bmatrix} = \begin{bmatrix} \mathbf{v} \\ \mathbf{a} \end{bmatrix}
 
 $$
-
 
 
 This equation describes the motion of a satellite in orbit, where r is the position vector, v is the velocity vector, and a is the acceleration vector. The acceleration vector is determined by the gravitational force of the central body and any other external forces acting on the satellite.
@@ -16166,14 +15949,11 @@ The equatorial coordinate system, on the other hand, is based on the celestial s
 To convert between the two coordinate systems, one can use the formulas:
 
 
-
 $$
 
 \cos \delta = \sin \phi \sin \theta + \cos \phi \cos \theta \cos H
 
 $$
-
-
 
 $$
 

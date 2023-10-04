@@ -2211,9 +2211,7 @@ At the core of Bayesian inference is Bayes' theorem, which provides a mathematic
 
 
 $$
-
 P(H \mid E) = \frac{P(E \mid H)P(H)}{P(E)}
-
 $$
 
 
@@ -2697,9 +2695,7 @@ The PMI function is defined as:
 
 
 $$
-
 f^\text{pmi}(t_i, w) = \log \frac{f^b(t_i, w) \cdot m}{f^t(t_i)}
-
 $$
 
 
@@ -2717,9 +2713,7 @@ The $\beta$-PMI summation function is then used to choose the value of $\beta$. 
 
 
 $$
-
 f(w_1, w_2, \beta) = \sum_{i=1}^\beta (f^\text{pmi}(X_i^{w_1}, w_2))^\gamma
-
 $$
 
 
@@ -9069,9 +9063,7 @@ The chain rule is a fundamental concept in probability theory that allows us to 
 
 
 $$
-
 P(A_1 \cap A_2 \cap ... \cap A_n) = \prod_{k=1}^n P(A_k | A_1 \cap ... \cap A_{k-1})
-
 $$
 
 
@@ -9081,9 +9073,7 @@ This can also be written as:
 
 
 $$
-
 P(A_1 \cap A_2 \cap ... \cap A_n) = P(A_1)P(A_2 | A_1)P(A_3 | A_1 \cap A_2) ... P(A_n | A_1 \cap ... \cap A_{n-1})
-
 $$
 
 
@@ -9097,9 +9087,7 @@ Let's say we have three events: A, B, and C. The probability of A occurring is 0
 
 
 $$
-
 P(A \cap B \cap C) = P(A)P(B | A)P(C | A \cap B) = 0.5 * 0.3 * 0.2 = 0.03
-
 $$
 
 
@@ -9113,9 +9101,7 @@ Let's revisit the example from the context, where we randomly draw 4 cards witho
 
 
 $$
-
 P(A_4 \cap A_3 \cap A_2 \cap A_1) = P(A_4 | A_3 \cap A_2 \cap A_1)P(A_3 | A_2 \cap A_1)P(A_2 | A_1)P(A_1)
-
 $$
 
 
@@ -9125,9 +9111,7 @@ Since we are drawing without replacement, the probability of drawing an ace decr
 
 
 $$
-
 P(A_4 | A_3 \cap A_2 \cap A_1) = \frac{1}{49}, P(A_3 | A_2 \cap A_1) = \frac{1}{50}, P(A_2 | A_1) = \frac{1}{51}, P(A_1) = \frac{1}{52}
-
 $$
 
 
@@ -9137,9 +9121,7 @@ Plugging these values into the equation, we get:
 
 
 $$
-
 P(A_4 \cap A_3 \cap A_2 \cap A_1) = \frac{1}{49} * \frac{1}{50} * \frac{1}{51} * \frac{1}{52} = \frac{1}{270725}
-
 $$
 
 
@@ -9179,9 +9161,7 @@ The Bayesian framework is based on Bayes' theorem, which states that the probabi
 
 
 $$
-
 P(H|E) = \frac{P(E|H)P(H)}{P(E)}
-
 $$
 
 
@@ -9219,9 +9199,7 @@ Let's say we are trying to predict whether it will rain tomorrow. Our prior beli
 
 
 $$
-
 P(Rain|Forecast) = \frac{P(Forecast|Rain)P(Rain)}{P(Forecast)}
-
 $$
 
 
@@ -9235,9 +9213,7 @@ In this case, P(Forecast|Rain) is 0.3, P(Rain) is 0.7, and P(Forecast) is 0.3. P
 
 
 $$
-
 P(Rain|Forecast) = \frac{0.3 \times 0.7}{0.3} = 0.7
-
 $$
 
 
@@ -9335,9 +9311,7 @@ The chain rule is a fundamental concept in probability theory that allows us to 
 
 
 $$
-
 P(A,B) = P(A|B)P(B)
-
 $$
 
 
@@ -9351,9 +9325,7 @@ This rule can be extended to more than two events, as shown below:
 
 
 $$
-
 P(A,B,C) = P(A|B,C)P(B|C)P(C)
-
 $$
 
 

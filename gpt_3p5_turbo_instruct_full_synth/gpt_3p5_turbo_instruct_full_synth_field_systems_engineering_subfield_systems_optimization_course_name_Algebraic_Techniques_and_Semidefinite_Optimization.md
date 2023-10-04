@@ -762,7 +762,6 @@ Linear programming is a special case of convex optimization, where the objective
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -772,7 +771,6 @@ $$
 & x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -816,7 +814,6 @@ Linear programming is a special case of convex optimization, where the objective
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -826,7 +823,6 @@ $$
 & x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -844,7 +840,6 @@ In this subsection, we will delve deeper into the basics of linear programming. 
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -854,7 +849,6 @@ $$
 & x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -910,7 +904,6 @@ Linear programming is a special case of convex optimization, where the objective
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -920,7 +913,6 @@ $$
 & x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -974,11 +966,8 @@ Factor the following algebraic expression: $x^2 + 6x + 9$
 #### Exercise 3
 
 Solve the following optimization problem using semidefinite optimization: $$\text{maximize } x_1 + x_2$$
-
 $$\text{subject to } x_1 + 2x_2 \leq 5$$
-
 $$x_1, x_2 \geq 0$$
-
 
 
 #### Exercise 4
@@ -1022,9 +1011,7 @@ Factor the following algebraic expression: $x^2 + 6x + 9$
 #### Exercise 3
 
 Solve the following optimization problem using semidefinite optimization: $$\text{maximize } x_1 + x_2$$
-
 $$\text{subject to } x_1 + 2x_2 \leq 5$$
-
 $$x_1, x_2 \geq 0$$
 
 
@@ -1092,13 +1079,11 @@ In this section, we will first define positive semidefinite (PSD) matrices and d
 One important property of PSD matrices is that they can be written as the product of a matrix and its transpose. This is known as the Cholesky decomposition and is given by:
 
 
-
 $$
 
 A = LL^T
 
 $$
-
 
 
 where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decomposition is useful in manipulating PSD matrices and making them more amenable to optimization.
@@ -1108,7 +1093,6 @@ where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decompositi
 Another important property of PSD matrices is that they can be diagonalized using the eigenvalue decomposition. This decomposition is given by:
 
 
-
 $$
 
 A = Q\Lambda Q^T
@@ -1116,13 +1100,11 @@ A = Q\Lambda Q^T
 $$
 
 
-
 where $A$ is a PSD matrix, $Q$ is an orthogonal matrix, and $\Lambda$ is a diagonal matrix with the eigenvalues of $A$ on the diagonal. This decomposition is useful in understanding the structure of PSD matrices and in solving optimization problems involving them.
 
 
 
 In semidefinite programming, we are interested in optimizing a linear objective function subject to linear constraints, where the decision variables are PSD matrices. This can be written as:
-
 
 
 $$
@@ -1138,7 +1120,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $X$ is a PSD matrix, $C$ is a symmetric matrix, $A_i$ are symmetric matrices, and $b_i$ are constants. The notation $X \succeq 0$ means that $X$ is a PSD matrix.
@@ -1178,13 +1159,11 @@ In this section, we will first define positive semidefinite (PSD) matrices and d
 One important property of PSD matrices is that they can be written as the product of a matrix and its transpose. This is known as the Cholesky decomposition and is given by:
 
 
-
 $$
 
 A = LL^T
 
 $$
-
 
 
 where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decomposition is useful in manipulating PSD matrices and making them more amenable to optimization.
@@ -1194,7 +1173,6 @@ where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decompositi
 Another important property of PSD matrices is that they can be diagonalized using the eigenvalue decomposition. This decomposition is given by:
 
 
-
 $$
 
 A = Q\Lambda Q^T
@@ -1202,13 +1180,11 @@ A = Q\Lambda Q^T
 $$
 
 
-
 where $A$ is a PSD matrix, $Q$ is an orthogonal matrix, and $\Lambda$ is a diagonal matrix with the eigenvalues of $A$ on the diagonal. This decomposition is useful in understanding the structure of PSD matrices and in solving optimization problems involving them.
 
 
 
 In semidefinite programming, we are interested in optimizing a linear objective function subject to linear constraints, where the decision variables are PSD matrices. This can be written as:
-
 
 
 $$
@@ -1222,7 +1198,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $X$ is the decision variable, $C$ is a symmetric matrix, and $A_i$ and $b_i$ are known matrices and scalars, respectively. The objective function, $\text{tr}(CX)$, is the trace of the matrix product of $C$ and $X$, which is a linear function of the decision variable. The constraints, $\text{tr}(A_iX) = b_i$, are also linear functions of the decision variable.
@@ -1282,13 +1257,11 @@ In this section, we will first define positive semidefinite (PSD) matrices and d
 One important property of PSD matrices is that they can be written as the product of a matrix and its transpose. This is known as the Cholesky decomposition and is given by:
 
 
-
 $$
 
 A = LL^T
 
 $$
-
 
 
 where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decomposition is useful in manipulating PSD matrices and making them more amenable to optimization.
@@ -1298,7 +1271,6 @@ where $A$ is a PSD matrix and $L$ is a lower triangular matrix. This decompositi
 Another important property of PSD matrices is that they can be diagonalized using the eigenvalue decomposition. This decomposition is given by:
 
 
-
 $$
 
 A = Q\Lambda Q^T
@@ -1306,13 +1278,11 @@ A = Q\Lambda Q^T
 $$
 
 
-
 where $A$ is a PSD matrix, $Q$ is an orthogonal matrix, and $\Lambda$ is a diagonal matrix with the eigenvalues of $A$ on the diagonal. This decomposition is useful in understanding the structure of PSD matrices and in solving optimization problems involving them.
 
 
 
 In semidefinite programming, we are interested in optimizing a linear objective function subject to linear constraints, where the decision variables are PSD matrices. This can be written as:
-
 
 
 $$
@@ -1326,7 +1296,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $X$ is a PSD matrix and $C$ and $A_i$ are given matrices. The objective function, $\text{tr}(CX)$, is the trace of the matrix product of $C$ and $X$, which is a linear function of the decision variables. The constraints, $\text{tr}(A_iX) = b_i$, are also linear functions of the decision variables.
@@ -1484,13 +1453,11 @@ In this section, we will introduce the concept of bounds in binary optimization 
 To begin, let us first define binary optimization. Binary optimization is a type of optimization problem where the variables can only take on two values, typically 0 and 1. This can be represented mathematically as:
 
 
-
 $$
 
 x_i \in \{0,1\}, \forall i \in \{1,2,...,n\}
 
 $$
-
 
 
 where $x_i$ represents the $i$th variable and $n$ is the total number of variables. This formulation is known as the binary constraint and is a fundamental property of binary optimization problems.
@@ -1500,7 +1467,6 @@ where $x_i$ represents the $i$th variable and $n$ is the total number of variabl
 Now, let us consider the Goemans-Williamson and Nesterov linearly constrained problems. These are two types of binary optimization problems that involve linear constraints on the variables. The Goemans-Williamson problem can be formulated as:
 
 
-
 $$
 
 \max \sum_{i=1}^{n} c_i x_i
@@ -1508,9 +1474,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1520,9 +1484,7 @@ $$
 $$
 
 
-
 where $c_i$ and $a_{ij}$ are constants and $b_j$ is a constant upper bound for the $j$th constraint. Similarly, the Nesterov linearly constrained problem can be formulated as:
-
 
 
 $$
@@ -1532,9 +1494,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1544,7 +1504,6 @@ $$
 $$
 
 
-
 where $c_i$ and $a_{ij}$ are constants and $b_j$ is a constant value for the $j$th constraint.
 
 
@@ -1552,13 +1511,11 @@ where $c_i$ and $a_{ij}$ are constants and $b_j$ is a constant value for the $j$
 Now, let us introduce the concept of bounds. Bounds are constraints on the variables that limit their possible values. In binary optimization, bounds are typically used to restrict the variables to be either 0 or 1. This can be represented mathematically as:
 
 
-
 $$
 
 x_i \in [0,1], \forall i \in \{1,2,...,n\}
 
 $$
-
 
 
 Bounds can also be used to restrict the variables to a specific range, such as $x_i \in [a,b]$.
@@ -1598,7 +1555,6 @@ The Goemans-Williamson method is based on the idea of relaxation, where we relax
 To begin, let us consider the Goemans-Williamson problem again:
 
 
-
 $$
 
 \max \sum_{i=1}^{n} c_i x_i
@@ -1606,9 +1562,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1618,13 +1572,11 @@ $$
 $$
 
 
-
 where $c_i$ and $a_{ij}$ are constants and $b_j$ is a constant upper bound for the $j$th constraint.
 
 
 
 To relax the binary constraints, we introduce a new set of variables $y_i$, which represent the fractional values of the binary variables $x_i$. We can then rewrite the problem as:
-
 
 
 $$
@@ -1634,9 +1586,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1645,14 +1595,11 @@ $$
 
 $$
 
-
-
 $$
 
 0 \leq y_i \leq 1, \forall i \in \{1,2,...,n\}
 
 $$
-
 
 
 This new problem is a continuous optimization problem, which can be solved using standard techniques such as linear programming. The solution to this problem will give us fractional values for the variables $y_i$, which can then be rounded to the nearest integer to obtain a feasible solution for the original binary optimization problem.
@@ -1692,7 +1639,6 @@ The Nesterov method is based on the concept of semidefinite optimization, which 
 To begin, let us consider the Nesterov problem:
 
 
-
 $$
 
 \max \sum_{i=1}^{n} c_i x_i
@@ -1700,9 +1646,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1712,13 +1656,11 @@ $$
 $$
 
 
-
 where $c_i$ and $a_{ij}$ are constants and $b_j$ is a constant upper bound for the $j$th constraint.
 
 
 
 The key idea behind the Nesterov method is to relax the binary constraints and introduce a new set of variables $y_i$, which represent the fractional values of the binary variables $x_i$. We can then rewrite the problem as:
-
 
 
 $$
@@ -1728,9 +1670,7 @@ $$
 $$
 
 
-
 subject to:
-
 
 
 $$
@@ -1739,14 +1679,11 @@ $$
 
 $$
 
-
-
 $$
 
 0 \leq y_i \leq 1, \forall i \in \{1,2,...,n\}
 
 $$
-
 
 
 This new problem is a continuous optimization problem, which can be solved using semidefinite programming techniques. The solution to this problem will give us fractional values for the variables $y_i$, which can then be rounded to the nearest integer to obtain a feasible solution for the original binary optimization problem.
@@ -1778,7 +1715,6 @@ Through this chapter, we have seen how algebraic techniques can be applied to so
 #### Exercise 1
 
 Consider the following binary optimization problem:
-
 $$
 
 \begin{align*}
@@ -1792,7 +1728,6 @@ $$
 \end{align*}
 
 $$
-
 Use the linearization technique to convert this problem into an equivalent linear programming problem.
 
 
@@ -1800,7 +1735,6 @@ Use the linearization technique to convert this problem into an equivalent linea
 #### Exercise 2
 
 Solve the following binary optimization problem using the branch and bound method:
-
 $$
 
 \begin{align*}
@@ -1816,11 +1750,9 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -1834,7 +1766,6 @@ $$
 \end{align*}
 
 $$
-
 Use the linearization technique to convert this problem into an equivalent linear programming problem.
 
 
@@ -1842,7 +1773,6 @@ Use the linearization technique to convert this problem into an equivalent linea
 #### Exercise 4
 
 Solve the following semidefinite optimization problem using the binary optimization approach:
-
 $$
 
 \begin{align*}
@@ -1856,13 +1786,11 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
 
 Consider the following binary optimization problem:
-
 $$
 
 \begin{align*}
@@ -1876,7 +1804,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and bound method to find the optimal solution and compare it to the solution obtained using the linearization technique.
 
 
@@ -1898,7 +1825,6 @@ Through this chapter, we have seen how algebraic techniques can be applied to so
 #### Exercise 1
 
 Consider the following binary optimization problem:
-
 $$
 
 \begin{align*}
@@ -1912,7 +1838,6 @@ $$
 \end{align*}
 
 $$
-
 Use the linearization technique to convert this problem into an equivalent linear programming problem.
 
 
@@ -1920,7 +1845,6 @@ Use the linearization technique to convert this problem into an equivalent linea
 #### Exercise 2
 
 Solve the following binary optimization problem using the branch and bound method:
-
 $$
 
 \begin{align*}
@@ -1936,11 +1860,9 @@ $$
 $$
 
 
-
 #### Exercise 3
 
 Consider the following integer programming problem:
-
 $$
 
 \begin{align*}
@@ -1954,7 +1876,6 @@ $$
 \end{align*}
 
 $$
-
 Use the linearization technique to convert this problem into an equivalent linear programming problem.
 
 
@@ -1962,7 +1883,6 @@ Use the linearization technique to convert this problem into an equivalent linea
 #### Exercise 4
 
 Solve the following semidefinite optimization problem using the binary optimization approach:
-
 $$
 
 \begin{align*}
@@ -1976,13 +1896,11 @@ $$
 \end{align*}
 
 $$
-
 
 
 #### Exercise 5
 
 Consider the following binary optimization problem:
-
 $$
 
 \begin{align*}
@@ -1996,7 +1914,6 @@ $$
 \end{align*}
 
 $$
-
 Use the branch and bound method to find the optimal solution and compare it to the solution obtained using the linearization technique.
 
 
@@ -2120,7 +2037,6 @@ In this section, we will review the basic properties of polynomials and ideals, 
 Polynomials and ideals have numerous applications in mathematics and science, including in semidefinite optimization. One of the key applications is in the construction of optimization problems using polynomial equations. For example, a polynomial optimization problem can be written as:
 
 
-
 $$
 
 \begin{align}
@@ -2134,7 +2050,6 @@ $$
 \end{align}
 
 $$
-
 
 
 where $p(x)$ is the objective function, $g_i(x)$ are polynomial inequality constraints, and $h_j(x)$ are polynomial equality constraints. This formulation allows for the use of algebraic techniques to solve the optimization problem, such as the use of Gröbner bases to find the optimal solution.
@@ -2346,13 +2261,11 @@ In this section, we will introduce the concept of root bounds and Sturm sequence
 First, let us define a univariate polynomial $p(x)$ of degree $n$ as:
 
 
-
 $$
 
 p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0
 
 $$
-
 
 
 where $a_i$ are the coefficients of the polynomial and $x$ is the variable. The degree of a polynomial is the highest power of $x$ in the expression. For example, the polynomial $p(x) = 3x^2 + 2x + 1$ has a degree of 2.
@@ -2404,13 +2317,11 @@ In this section, we will introduce the concept of root bounds and Sturm sequence
 First, let us define a univariate polynomial $p(x)$ of degree $n$ as:
 
 
-
 $$
 
 p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0
 
 $$
-
 
 
 where $a_i$ are the coefficients of the polynomial and $x$ is the variable. The degree of a polynomial is the highest power of $x$ in the expression. For example, the polynomial $p(x) = 3x^2 + 2x + 1$ has a degree of 2.
@@ -2458,13 +2369,11 @@ In this section, we will introduce the concept of root bounds and Sturm sequence
 First, let us define a univariate polynomial $p(x)$ of degree $n$ as:
 
 
-
 $$
 
 p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0
 
 $$
-
 
 
 where $a_i$ are the coefficients of the polynomial and $x$ is the variable. The degree of a polynomial is the highest power of $x$ in the expression. For example, the polynomial $p(x) = 3x^2 + 2x + 1$ has a degree of 2.
@@ -2528,7 +2437,6 @@ To do this, we can use the Sturm sequence method introduced in the previous sect
 Let us consider the polynomial $p(x) = x^3 - 2x^2 + x - 1$. By taking the derivative of $p(x)$, we obtain $p'(x) = 3x^2 - 4x + 1$. Dividing $p(x)$ by $p'(x)$, we get the following sequence:
 
 
-
 $$
 
 p(x) = x^3 - 2x^2 + x - 1 \\
@@ -2550,7 +2458,6 @@ p_6(x) = \frac{1}{4}(\frac{1}{12}(4x - 1)) - (\frac{1}{48}(5x^2 - 11x + 5)) = \f
 p_7(x) = \frac{1}{4}(\frac{1}{48}(5x^2 - 11x + 5)) - (\frac{1}{48}(x - 1)) = 0
 
 $$
-
 
 
 We can see that there are 3 sign changes in this sequence, which means that the polynomial $p(x)$ has 3 distinct real roots in the interval $(-\infty, \infty)$. This is consistent with the fact that a polynomial of degree $n$ can have at most $n$ roots.
@@ -2590,7 +2497,6 @@ Another application of counting real roots is in solving systems of polynomial e
 For instance, let us consider the system of equations:
 
 
-
 $$
 
 \begin{cases}
@@ -2602,7 +2508,6 @@ x^2 - y^2 = 9
 \end{cases}
 
 $$
-
 
 
 By counting the real roots of each polynomial, we can determine that there are four solutions to this system. This information can then be used to solve for the values of $x$ and $y$ that satisfy both equations.
@@ -3404,7 +3309,6 @@ Through our exploration of resultants, we have seen how they can be a powerful t
 #### Exercise 1
 
 Consider the system of equations:
-
 $$
 
 \begin{cases}
@@ -3416,7 +3320,6 @@ x^3 + y^3 = 7
 \end{cases}
 
 $$
-
 Find the resultant of these two equations and use it to determine the number of solutions to the system.
 
 
@@ -3436,7 +3339,6 @@ Prove that the resultant of two polynomials is equal to the determinant of their
 #### Exercise 4
 
 Consider the polynomial optimization problem:
-
 $$
 
 \begin{aligned}
@@ -3448,7 +3350,6 @@ $$
 \end{aligned}
 
 $$
-
 Use resultants to determine the optimal value of $p(x)$.
 
 
@@ -3476,7 +3377,6 @@ Through our exploration of resultants, we have seen how they can be a powerful t
 #### Exercise 1
 
 Consider the system of equations:
-
 $$
 
 \begin{cases}
@@ -3488,7 +3388,6 @@ x^3 + y^3 = 7
 \end{cases}
 
 $$
-
 Find the resultant of these two equations and use it to determine the number of solutions to the system.
 
 
@@ -3508,7 +3407,6 @@ Prove that the resultant of two polynomials is equal to the determinant of their
 #### Exercise 4
 
 Consider the polynomial optimization problem:
-
 $$
 
 \begin{aligned}
@@ -3520,7 +3418,6 @@ $$
 \end{aligned}
 
 $$
-
 Use resultants to determine the optimal value of $p(x)$.
 
 
@@ -3578,7 +3475,6 @@ In this section, we will introduce the concept of hyperbolic polynomials and dis
 A polynomial $p(x_1, x_2, ..., x_n)$ of degree $d$ is said to be hyperbolic if it satisfies the following condition:
 
 
-
 $$
 
 p(x_1, x_2, ..., x_n) > 0
@@ -3586,9 +3482,7 @@ p(x_1, x_2, ..., x_n) > 0
 $$
 
 
-
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$. In other words, a hyperbolic polynomial is a polynomial that is strictly positive on the unit sphere in $\mathbb{R}^n$. This condition can also be written as:
-
 
 
 $$
@@ -3596,7 +3490,6 @@ $$
 p(x_1, x_2, ..., x_n) = \sum_{i_1, i_2, ..., i_n} a_{i_1, i_2, ..., i_n}x_1^{i_1}x_2^{i_2}...x_n^{i_n} > 0
 
 $$
-
 
 
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$, where $a_{i_1, i_2, ..., i_n}$ are real coefficients.
@@ -3632,7 +3525,6 @@ In this section, we will introduce the concept of hyperbolic polynomials and dis
 A polynomial $p(x_1, x_2, ..., x_n)$ of degree $d$ is said to be hyperbolic if it satisfies the following condition:
 
 
-
 $$
 
 p(x_1, x_2, ..., x_n) > 0
@@ -3640,9 +3532,7 @@ p(x_1, x_2, ..., x_n) > 0
 $$
 
 
-
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$. In other words, a hyperbolic polynomial is a polynomial that is strictly positive on the unit sphere in $\mathbb{R}^n$. This condition can also be written as:
-
 
 
 $$
@@ -3650,7 +3540,6 @@ $$
 p(x_1, x_2, ..., x_n) = \sum_{i_1, i_2, ..., i_n} a_{i_1, i_2, ..., i_n}x_1^{i_1}x_2^{i_2}...x_n^{i_n} > 0
 
 $$
-
 
 
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$, where $a_{i_1, i_2, ..., i_n}$ are real coefficients.
@@ -3718,7 +3607,6 @@ In this section, we will introduce the concept of hyperbolic polynomials and dis
 A polynomial $p(x_1, x_2, ..., x_n)$ of degree $d$ is said to be hyperbolic if it satisfies the following condition:
 
 
-
 $$
 
 p(x_1, x_2, ..., x_n) > 0
@@ -3726,9 +3614,7 @@ p(x_1, x_2, ..., x_n) > 0
 $$
 
 
-
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$. In other words, a hyperbolic polynomial is a polynomial that is strictly positive on the unit sphere in $\mathbb{R}^n$. This condition can also be written as:
-
 
 
 $$
@@ -3736,7 +3622,6 @@ $$
 p(x_1, x_2, ..., x_n) = \sum_{i_1, i_2, ..., i_n} a_{i_1, i_2, ..., i_n}x_1^{i_1}x_2^{i_2}...x_n^{i_n} > 0
 
 $$
-
 
 
 for all $x_1, x_2, ..., x_n \in \mathbb{R}^n$ such that $x_1^2 + x_2^2 + ... + x_n^2 = 1$, where $a_{i_1, i_2, ..., i_n}$ are real coefficients.
@@ -3828,7 +3713,6 @@ Overall, the study of hyperbolic polynomials has provided us with a powerful too
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3842,7 +3726,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite program using hyperbolic polynomials.
 
 
@@ -3856,7 +3739,6 @@ Prove that the hyperbolicity cone is a convex cone.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3870,7 +3752,6 @@ $$
 \end{align*}
 
 $$
-
 Is this problem equivalent to the one in Exercise 1? Why or why not?
 
 
@@ -3884,7 +3765,6 @@ Prove that a hyperbolic polynomial of degree $n$ has at most $n$ real roots.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3898,7 +3778,6 @@ $$
 \end{align*}
 
 $$
-
 Can this problem be solved using hyperbolic polynomials? Why or why not?
 
 
@@ -3924,7 +3803,6 @@ Overall, the study of hyperbolic polynomials has provided us with a powerful too
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3938,7 +3816,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite program using hyperbolic polynomials.
 
 
@@ -3952,7 +3829,6 @@ Prove that the hyperbolicity cone is a convex cone.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3966,7 +3842,6 @@ $$
 \end{align*}
 
 $$
-
 Is this problem equivalent to the one in Exercise 1? Why or why not?
 
 
@@ -3980,7 +3855,6 @@ Prove that a hyperbolic polynomial of degree $n$ has at most $n$ real roots.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -3994,7 +3868,6 @@ $$
 \end{align*}
 
 $$
-
 Can this problem be solved using hyperbolic polynomials? Why or why not?
 
 
@@ -4050,7 +3923,6 @@ In this section, we will explore the concept of SDP representability, which is t
 A semidefinite program can be written in the following standard form:
 
 
-
 $$
 
 \begin{align*}
@@ -4066,7 +3938,6 @@ $$
 $$
 
 
-
 where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symmetric matrix of size $n \times n$, $A_i$ are symmetric matrices of size $n \times n$, and $b_i$ are scalars. The notation $\langle A, B \rangle$ denotes the trace of the matrix product $AB$. The constraint $X \succeq 0$ means that $X$ is positive semidefinite.
 
 
@@ -4074,13 +3945,11 @@ where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symme
 On the other hand, an LMI can be written in the following form:
 
 
-
 $$
 
 F(X) \succeq 0
 
 $$
-
 
 
 where $F(X)$ is a linear function of the matrix variable $X$. This function can be written as $F(X) = \sum_{i=1}^m A_i X_i$, where $A_i$ are symmetric matrices of size $n \times n$ and $X_i$ are the decision variables.
@@ -4184,7 +4053,6 @@ In this section, we will explore the concept of SDP representability, which is t
 A semidefinite program can be written in the following standard form:
 
 
-
 $$
 
 \begin{align*}
@@ -4200,7 +4068,6 @@ $$
 $$
 
 
-
 where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symmetric matrix of size $n \times n$, $A_i$ are symmetric matrices of size $n \times n$, and $b_i$ are scalars. The notation $\langle A, B \rangle$ denotes the trace of the matrix product $AB$. The constraint $X \succeq 0$ means that $X$ is positive semidefinite.
 
 
@@ -4208,13 +4075,11 @@ where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symme
 On the other hand, an LMI can be written in the following form:
 
 
-
 $$
 
 F(X) \succeq 0
 
 $$
-
 
 
 where $F(X)$ is a linear function of the matrix variable $X$. This function can be written as $F(X) = \sum_{i=1}^m A_i X_i$, where $A_i$ are symmetric matrices of size $n \times n$ and $X_i$ are the decision variables.
@@ -4266,7 +4131,6 @@ In this section, we will explore the concept of SDP representability, which is t
 A semidefinite program can be written in the following standard form:
 
 
-
 $$
 
 \begin{align*}
@@ -4282,7 +4146,6 @@ $$
 $$
 
 
-
 where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symmetric matrix of size $n \times n$, $A_i$ are symmetric matrices of size $n \times n$, and $b_i$ are scalars. The notation $\langle A, B \rangle$ denotes the trace of the matrix product $AB$. The constraint $X \succeq 0$ means that $X$ is positive semidefinite.
 
 
@@ -4290,13 +4153,11 @@ where $X$ is a positive semidefinite matrix of size $n \times n$, $C$ is a symme
 On the other hand, an LMI can be written in the following form:
 
 
-
 $$
 
 F(X) \succeq 0
 
 $$
-
 
 
 where $F(X)$ is a linear function of the matrix variable $X$. This function can be written as $F(X) = \sum_{i=1}^m A_i X_i$, where $A_i$ are symmetric matrices of size $n \times n$ and $X_i$ are the decision variables.
@@ -4344,7 +4205,6 @@ In conclusion, SDP representability is a valuable tool in the field of optimizat
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4358,7 +4218,6 @@ $$
 \end{align*}
 
 $$
-
 Is this problem convex? Can it be reformulated as an SDP?
 
 
@@ -4372,7 +4231,6 @@ Prove that the dual of an SDP is also an SDP.
 #### Exercise 3
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4386,9 +4244,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4404,11 +4260,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4422,9 +4276,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4440,11 +4292,9 @@ $$
 $$
 
 
-
 #### Exercise 5
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4458,9 +4308,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4476,7 +4324,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 
@@ -4500,7 +4347,6 @@ In conclusion, SDP representability is a valuable tool in the field of optimizat
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4514,7 +4360,6 @@ $$
 \end{align*}
 
 $$
-
 Is this problem convex? Can it be reformulated as an SDP?
 
 
@@ -4528,7 +4373,6 @@ Prove that the dual of an SDP is also an SDP.
 #### Exercise 3
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4542,9 +4386,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4560,11 +4402,9 @@ $$
 $$
 
 
-
 #### Exercise 4
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4578,9 +4418,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4596,11 +4434,9 @@ $$
 $$
 
 
-
 #### Exercise 5
 
 Consider the following SDP:
-
 $$
 
 \begin{align*}
@@ -4614,9 +4450,7 @@ $$
 \end{align*}
 
 $$
-
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$. Show that this SDP is equivalent to the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -4632,7 +4466,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 
@@ -5202,7 +5035,6 @@ SOS polynomials and semidefinite optimization are closely related. In fact, SOS 
 To illustrate this connection, let us consider the following optimization problem:
 
 
-
 $$
 
 \begin{aligned}
@@ -5220,9 +5052,7 @@ $$
 $$
 
 
-
 where $c \in \mathbb{R}^n$ and $f(x)$ is a polynomial in $x \in \mathbb{R}^n$. This problem can be rewritten as:
-
 
 
 $$
@@ -5240,7 +5070,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where $p_i(x)$ are polynomials in $x$. This is a semidefinite optimization problem with a single semidefinite constraint. Therefore, we can use semidefinite optimization techniques to solve this problem.
@@ -5344,7 +5173,6 @@ SOS polynomials and semidefinite optimization are closely related. In fact, SOS 
 To illustrate this connection, let us consider the following optimization problem:
 
 
-
 $$
 
 \begin{aligned}
@@ -5362,9 +5190,7 @@ $$
 $$
 
 
-
 where $c \in \mathbb{R}^n$ and $f(x)$ is a polynomial in $x \in \mathbb{R}^n$. This problem can be rewritten as:
-
 
 
 $$
@@ -5382,7 +5208,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where $p_i(x)$ are polynomials in $x$. This is a semidefinite optimization problem with a single semidefinite constraint. In other words, we can represent the SOS polynomial $f(x)$ as a semidefinite constraint, making use of the connection between SOS polynomials and semidefinite optimization.
@@ -5430,7 +5255,6 @@ SOS polynomials and semidefinite optimization are closely related. In fact, SOS 
 To illustrate this connection, let us consider the following optimization problem:
 
 
-
 $$
 
 \begin{aligned}
@@ -5448,9 +5272,7 @@ $$
 $$
 
 
-
 where $c \in \mathbb{R}^n$ and $f(x)$ is a polynomial in $x \in \mathbb{R}^n$. This problem can be rewritten as:
-
 
 
 $$
@@ -5468,7 +5290,6 @@ $$
 \end{aligned}
 
 $$
-
 
 
 where $p_i(x)$ are polynomials in $x$. This is a semidefinite optimization problem with a single semidefinite constraint. However, in the case of SOS polynomials, the number of semidefinite constraints is equal to the number of terms in the polynomial. This makes SOS polynomials a special case of semidefinite optimization, where the constraints are specifically designed to be sum of squares of polynomials.
@@ -5516,7 +5337,6 @@ In conclusion, the combination of algebraic techniques and semidefinite optimiza
 #### Exercise 1
 
 Consider the following polynomial optimization problem:
-
 $$
 
 \begin{align}
@@ -5530,7 +5350,6 @@ $$
 \end{align}
 
 $$
-
 (a) Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -5542,7 +5361,6 @@ $$
 #### Exercise 2
 
 In control theory, the stability of a system can be analyzed by finding the eigenvalues of its state matrix. Consider the following system:
-
 $$
 
 \dot{x} = \begin{bmatrix}
@@ -5554,7 +5372,6 @@ $$
 \end{bmatrix} x
 
 $$
-
 (a) Use semidefinite optimization to find the maximum eigenvalue of the state matrix.
 
 
@@ -5566,7 +5383,6 @@ $$
 #### Exercise 3
 
 In machine learning, support vector machines (SVMs) are commonly used for classification tasks. Consider a binary classification problem with two classes, where the data points are given by $x_1, x_2, ..., x_n \in \mathbb{R}^d$. The goal is to find a hyperplane that separates the two classes with maximum margin. This can be formulated as the following optimization problem:
-
 $$
 
 \begin{align}
@@ -5578,7 +5394,6 @@ $$
 \end{align}
 
 $$
-
 where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane and $b \in \mathbb{R}$ is the bias term.
 
 
@@ -5594,13 +5409,11 @@ where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane and $b \in \ma
 #### Exercise 4
 
 In signal processing, the design of filters is an important problem. Consider the design of a low-pass filter with a cutoff frequency of $\omega_c$. This can be achieved by finding the coefficients of a transfer function of the form:
-
 $$
 
 H(z) = \frac{b_0 + b_1z^{-1} + ... + b_nz^{-n}}{1 + a_1z^{-1} + ... + a_mz^{-m}}
 
 $$
-
 where $z = e^{j\omega}$ and $j = \sqrt{-1}$.
 
 
@@ -5616,7 +5429,6 @@ where $z = e^{j\omega}$ and $j = \sqrt{-1}$.
 #### Exercise 5
 
 In machine learning, the problem of finding a separating hyperplane for non-linearly separable data can be solved using the kernel trick. Consider a binary classification problem with two classes, where the data points are given by $x_1, x_2, ..., x_n \in \mathbb{R}^d$. The goal is to find a hyperplane that separates the two classes with maximum margin. This can be formulated as the following optimization problem:
-
 $$
 
 \begin{align}
@@ -5628,7 +5440,6 @@ $$
 \end{align}
 
 $$
-
 where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane, $b \in \mathbb{R}$ is the bias term, and $\phi(\cdot)$ is a non-linear mapping to a higher dimensional space.
 
 
@@ -5662,7 +5473,6 @@ In conclusion, the combination of algebraic techniques and semidefinite optimiza
 #### Exercise 1
 
 Consider the following polynomial optimization problem:
-
 $$
 
 \begin{align}
@@ -5676,7 +5486,6 @@ $$
 \end{align}
 
 $$
-
 (a) Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -5688,7 +5497,6 @@ $$
 #### Exercise 2
 
 In control theory, the stability of a system can be analyzed by finding the eigenvalues of its state matrix. Consider the following system:
-
 $$
 
 \dot{x} = \begin{bmatrix}
@@ -5700,7 +5508,6 @@ $$
 \end{bmatrix} x
 
 $$
-
 (a) Use semidefinite optimization to find the maximum eigenvalue of the state matrix.
 
 
@@ -5712,7 +5519,6 @@ $$
 #### Exercise 3
 
 In machine learning, support vector machines (SVMs) are commonly used for classification tasks. Consider a binary classification problem with two classes, where the data points are given by $x_1, x_2, ..., x_n \in \mathbb{R}^d$. The goal is to find a hyperplane that separates the two classes with maximum margin. This can be formulated as the following optimization problem:
-
 $$
 
 \begin{align}
@@ -5724,7 +5530,6 @@ $$
 \end{align}
 
 $$
-
 where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane and $b \in \mathbb{R}$ is the bias term.
 
 
@@ -5740,13 +5545,11 @@ where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane and $b \in \ma
 #### Exercise 4
 
 In signal processing, the design of filters is an important problem. Consider the design of a low-pass filter with a cutoff frequency of $\omega_c$. This can be achieved by finding the coefficients of a transfer function of the form:
-
 $$
 
 H(z) = \frac{b_0 + b_1z^{-1} + ... + b_nz^{-n}}{1 + a_1z^{-1} + ... + a_mz^{-m}}
 
 $$
-
 where $z = e^{j\omega}$ and $j = \sqrt{-1}$.
 
 
@@ -5762,7 +5565,6 @@ where $z = e^{j\omega}$ and $j = \sqrt{-1}$.
 #### Exercise 5
 
 In machine learning, the problem of finding a separating hyperplane for non-linearly separable data can be solved using the kernel trick. Consider a binary classification problem with two classes, where the data points are given by $x_1, x_2, ..., x_n \in \mathbb{R}^d$. The goal is to find a hyperplane that separates the two classes with maximum margin. This can be formulated as the following optimization problem:
-
 $$
 
 \begin{align}
@@ -5774,7 +5576,6 @@ $$
 \end{align}
 
 $$
-
 where $w \in \mathbb{R}^d$ is the normal vector to the hyperplane, $b \in \mathbb{R}$ is the bias term, and $\phi(\cdot)$ is a non-linear mapping to a higher dimensional space.
 
 
@@ -5834,13 +5635,11 @@ In this chapter, we will first introduce the concept of moments and moment probl
 In this section, we will introduce the concept of moments and moment problems, and discuss how they can be used to recover a measure. Moments are defined as the integrals of increasing powers of a variable with respect to a measure. For a measure $\mu$ on a set $X$, the $k$th moment is given by:
 
 
-
 $$
 
 m_k = \int_X x^k d\mu(x)
 
 $$
-
 
 
 These moments contain valuable information about the measure and can be used to reconstruct the measure itself. However, the process of recovering a measure from its moments is not always straightforward and requires solving a moment problem.
@@ -5884,13 +5683,11 @@ In the next section, we will dive deeper into the theory of moments and moment p
 In this section, we will introduce the concept of moments and moment problems, and discuss how they can be used to recover a measure. Moments are defined as the integrals of increasing powers of a variable with respect to a measure. For a measure $\mu$ on a set $X$, the $k$th moment is given by:
 
 
-
 $$
 
 m_k = \int_X x^k d\mu(x)
 
 $$
-
 
 
 These moments contain valuable information about the measure and can be used to reconstruct the measure itself. However, the process of recovering a measure from its moments is not always straightforward and requires solving a moment problem.
@@ -5946,13 +5743,11 @@ In conclusion, algebraic techniques and semidefinite optimization have been succ
 In this section, we will introduce the concept of moments and moment problems, and discuss how they can be used to recover a measure. Moments are defined as the integrals of increasing powers of a variable with respect to a measure. For a measure $\mu$ on a set $X$, the $k$th moment is given by:
 
 
-
 $$
 
 m_k = \int_X x^k d\mu(x)
 
 $$
-
 
 
 These moments contain valuable information about the measure and can be used to reconstruct the measure itself. However, the process of recovering a measure from its moments is not always straightforward and requires solving a moment problem.
@@ -6212,7 +6007,6 @@ One of the key steps in semidefinite optimization is to convert the polynomial c
 For example, consider the following optimization problem:
 
 
-
 $$
 
 \begin{align*}
@@ -6226,7 +6020,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $f(x), g(x), h(x)$ are polynomials. We can represent the constraints as a polynomial ideal $I = \langle g(x), h(x) \rangle$, where $\langle \cdot \rangle$ denotes the ideal generated by the polynomials. This ideal represents all the polynomials that satisfy the constraints.
@@ -6270,7 +6063,6 @@ One of the key steps in semidefinite optimization is to convert the polynomial c
 For example, consider the following optimization problem:
 
 
-
 $$
 
 \begin{align*}
@@ -6284,7 +6076,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $f(x), g(x), h(x)$ are polynomials. We can represent the constraints as a polynomial ideal $I = \langle g(x), h(x) \rangle$, where $\langle \cdot \rangle$ denotes the ideal generated by the polynomials. This ideal represents all the polynomials that satisfy the constraints.
@@ -6622,7 +6413,6 @@ Prove that the graded lexicographic ordering is a total ordering.
 #### Exercise 4
 
 Solve the system of polynomial equations using monomial orderings:
-
 $$
 
 \begin{cases}
@@ -6636,11 +6426,9 @@ x + y = 7
 $$
 
 
-
 #### Exercise 5
 
 Consider the semidefinite optimization problem:
-
 $$
 
 \begin{align*}
@@ -6654,7 +6442,6 @@ $$
 \end{align*}
 
 $$
-
 Using the graded lexicographic ordering, determine if the problem is feasible. If it is feasible, find the optimal solution.
 
 
@@ -6694,7 +6481,6 @@ Prove that the graded lexicographic ordering is a total ordering.
 #### Exercise 4
 
 Solve the system of polynomial equations using monomial orderings:
-
 $$
 
 \begin{cases}
@@ -6708,11 +6494,9 @@ x + y = 7
 $$
 
 
-
 #### Exercise 5
 
 Consider the semidefinite optimization problem:
-
 $$
 
 \begin{align*}
@@ -6726,7 +6510,6 @@ $$
 \end{align*}
 
 $$
-
 Using the graded lexicographic ordering, determine if the problem is feasible. If it is feasible, find the optimal solution.
 
 
@@ -6960,7 +6743,6 @@ Prove that every zero-dimensional ideal in a polynomial ring is finitely generat
 #### Exercise 3
 
 Consider the semidefinite optimization problem:
-
 $$
 
 \begin{align*}
@@ -6974,7 +6756,6 @@ $$
 \end{align*}
 
 $$
-
 where $A_i, C \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem can be formulated as a zero-dimensional ideal membership problem.
 
 
@@ -7028,7 +6809,6 @@ Prove that every zero-dimensional ideal in a polynomial ring is finitely generat
 #### Exercise 3
 
 Consider the semidefinite optimization problem:
-
 $$
 
 \begin{align*}
@@ -7042,7 +6822,6 @@ $$
 \end{align*}
 
 $$
-
 where $A_i, C \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem can be formulated as a zero-dimensional ideal membership problem.
 
 
@@ -7264,7 +7043,6 @@ In conclusion, the generalized Hermite matrix is a powerful tool in the field of
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7278,7 +7056,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7292,7 +7069,6 @@ Prove that the generalized Hermite matrix is positive semidefinite.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7306,7 +7082,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7320,7 +7095,6 @@ Prove that the generalized Hermite matrix is a symmetric matrix.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7334,7 +7108,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7364,7 +7137,6 @@ In conclusion, the generalized Hermite matrix is a powerful tool in the field of
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7378,7 +7150,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7392,7 +7163,6 @@ Prove that the generalized Hermite matrix is positive semidefinite.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7406,7 +7176,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7420,7 +7189,6 @@ Prove that the generalized Hermite matrix is a symmetric matrix.
 #### Exercise 5
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align}
@@ -7434,7 +7202,6 @@ $$
 \end{align}
 
 $$
-
 where $H$ is a generalized Hermite matrix and $A$ is a positive definite matrix. Show that the optimal solution $x^*$ satisfies $x^* = A^{-1}b$.
 
 
@@ -7640,7 +7407,6 @@ In conclusion, the study of infeasibility in real polynomial equations is crucia
 #### Exercise 1
 
 Consider the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7652,7 +7418,6 @@ x + y = 2
 \end{cases}
 
 $$
-
 Is this system feasible? If yes, find the solution. If not, explain why.
 
 
@@ -7660,7 +7425,6 @@ Is this system feasible? If yes, find the solution. If not, explain why.
 #### Exercise 2
 
 Use the Nullstellensatz theorem to determine the feasibility of the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7676,11 +7440,9 @@ xy = 1
 $$
 
 
-
 #### Exercise 3
 
 Convert the following polynomial equation into a semidefinite program:
-
 $$
 
 x^2 + 2xy + y^2 + 2x + 2y + 1 = 0
@@ -7688,11 +7450,9 @@ x^2 + 2xy + y^2 + 2x + 2y + 1 = 0
 $$
 
 
-
 #### Exercise 4
 
 Consider the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7706,7 +7466,6 @@ xy = 0
 \end{cases}
 
 $$
-
 Is this system feasible? If yes, find the solution. If not, explain why.
 
 
@@ -7714,7 +7473,6 @@ Is this system feasible? If yes, find the solution. If not, explain why.
 #### Exercise 5
 
 Use the Positivstellensatz theorem to determine the feasibility of the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7728,7 +7486,6 @@ xy = 0
 \end{cases}
 
 $$
-
 
 
 
@@ -7752,7 +7509,6 @@ In conclusion, the study of infeasibility in real polynomial equations is crucia
 #### Exercise 1
 
 Consider the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7764,7 +7520,6 @@ x + y = 2
 \end{cases}
 
 $$
-
 Is this system feasible? If yes, find the solution. If not, explain why.
 
 
@@ -7772,7 +7527,6 @@ Is this system feasible? If yes, find the solution. If not, explain why.
 #### Exercise 2
 
 Use the Nullstellensatz theorem to determine the feasibility of the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7788,11 +7542,9 @@ xy = 1
 $$
 
 
-
 #### Exercise 3
 
 Convert the following polynomial equation into a semidefinite program:
-
 $$
 
 x^2 + 2xy + y^2 + 2x + 2y + 1 = 0
@@ -7800,11 +7552,9 @@ x^2 + 2xy + y^2 + 2x + 2y + 1 = 0
 $$
 
 
-
 #### Exercise 4
 
 Consider the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7818,7 +7568,6 @@ xy = 0
 \end{cases}
 
 $$
-
 Is this system feasible? If yes, find the solution. If not, explain why.
 
 
@@ -7826,7 +7575,6 @@ Is this system feasible? If yes, find the solution. If not, explain why.
 #### Exercise 5
 
 Use the Positivstellensatz theorem to determine the feasibility of the following system of polynomial equations:
-
 $$
 
 \begin{cases}
@@ -7840,7 +7588,6 @@ xy = 0
 \end{cases}
 
 $$
-
 
 
 
@@ -7902,7 +7649,6 @@ In mathematical logic, quantifiers are symbols used to specify the quantity of e
 For example, consider the following logical formula:
 
 
-
 $$
 
 \exists x \in \mathbb{R} : x^2 = 4
@@ -7910,9 +7656,7 @@ $$
 $$
 
 
-
 This formula can be read as "there exists an element $x$ in the set of real numbers such that $x^2 = 4$." In this case, the quantifier $\exists$ specifies that there exists at least one element in the set of real numbers that satisfies the formula $x^2 = 4$. Similarly, the formula:
-
 
 
 $$
@@ -7920,7 +7664,6 @@ $$
 \forall x \in \mathbb{R} : x^2 \geq 0
 
 $$
-
 
 
 can be read as "for all elements $x$ in the set of real numbers, $x^2$ is greater than or equal to 0." In this case, the quantifier $\forall$ specifies that all elements in the set of real numbers satisfy the formula $x^2 \geq 0$.
@@ -7976,7 +7719,6 @@ In mathematical logic, quantifiers are symbols used to specify the quantity of e
 For example, consider the following logical formula:
 
 
-
 $$
 
 \exists x \in \mathbb{R} : x^2 = 4
@@ -7984,9 +7726,7 @@ $$
 $$
 
 
-
 This formula can be read as "there exists an element $x$ in the set of real numbers such that $x^2 = 4$." In this case, the quantifier $\exists$ specifies that there exists at least one element in the set of real numbers that satisfies the formula $x^2 = 4$. Similarly, the formula:
-
 
 
 $$
@@ -7994,7 +7734,6 @@ $$
 \forall x \in \mathbb{R} : x^2 \geq 0
 
 $$
-
 
 
 can be read as "for all elements $x$ in the set of real numbers, $x^2$ is greater than or equal to 0." In this case, the quantifier $\forall$ specifies that all elements in the set of real numbers satisfy the formula $x^2 \geq 0$.
@@ -8054,7 +7793,6 @@ In mathematical logic, quantifiers are symbols used to specify the quantity of e
 For example, consider the following logical formula:
 
 
-
 $$
 
 \exists x \in \mathbb{R} : x^2 = 4
@@ -8062,9 +7800,7 @@ $$
 $$
 
 
-
 This formula can be read as "there exists an element $x$ in the set of real numbers such that $x^2 = 4$." In this case, the quantifier $\exists$ specifies that there exists at least one element in the set of real numbers that satisfies the formula $x^2 = 4$. Similarly, the formula:
-
 
 
 $$
@@ -8072,7 +7808,6 @@ $$
 \forall x \in \mathbb{R} : x^2 \geq 0
 
 $$
-
 
 
 can be read as "for all elements $x$ in the set of real numbers, $x^2$ is greater than or equal to 0." In this case, the quantifier $\forall$ specifies that all elements in the set of real numbers satisfy the formula $x^2 \geq 0$.
@@ -8090,7 +7825,6 @@ Quantifiers play a crucial role in logical formulas, as they allow us to make st
 In semidefinite optimization, we often encounter optimization problems with semidefinite constraints, which can be expressed using quantifiers. For example, consider the following optimization problem:
 
 
-
 $$
 
 \begin{align*}
@@ -8104,7 +7838,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, and $b \in \mathbb{R}^m$. The constraint $\exists X \in \mathbb{S}^n : X \succeq 0$ can be read as "there exists a positive semidefinite matrix $X$ of size $n \times n$." This constraint involves the existential quantifier, which makes the problem difficult to solve.
@@ -8412,7 +8145,6 @@ Overall, certificates are a powerful tool in algebraic techniques and semidefini
 #### Exercise 1
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -8424,7 +8156,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $x^*$ is a feasible solution, then there exists a certificate $y$ such that $y^T(Ax^*-b) = 0$.
 
 
@@ -8438,7 +8169,6 @@ Prove that if $x^*$ is an optimal solution to the linear program in Exercise 1, 
 #### Exercise 3
 
 Consider the following quadratic program:
-
 $$
 
 \begin{align*}
@@ -8450,7 +8180,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $x^*$ is a feasible solution, then there exists a certificate $y$ such that $y^T(Ax^*-b) = 0$ and $x^TQx^* = y^Tb$.
 
 
@@ -8464,7 +8193,6 @@ Prove that if $x^*$ is an optimal solution to the quadratic program in Exercise 
 #### Exercise 5
 
 Consider the following semidefinite program:
-
 $$
 
 \begin{align*}
@@ -8478,7 +8206,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $X^*$ is a feasible solution, then there exists a certificate $Y$ such that $\text{Tr}(A_iX^*) = b_i$ for all $i$ and $\text{Tr}(CX^*) = \text{Tr}(CY)$.
 
 
@@ -8504,7 +8231,6 @@ Overall, certificates are a powerful tool in algebraic techniques and semidefini
 #### Exercise 1
 
 Consider the following linear program:
-
 $$
 
 \begin{align*}
@@ -8516,7 +8242,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $x^*$ is a feasible solution, then there exists a certificate $y$ such that $y^T(Ax^*-b) = 0$.
 
 
@@ -8530,7 +8255,6 @@ Prove that if $x^*$ is an optimal solution to the linear program in Exercise 1, 
 #### Exercise 3
 
 Consider the following quadratic program:
-
 $$
 
 \begin{align*}
@@ -8542,7 +8266,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $x^*$ is a feasible solution, then there exists a certificate $y$ such that $y^T(Ax^*-b) = 0$ and $x^TQx^* = y^Tb$.
 
 
@@ -8556,7 +8279,6 @@ Prove that if $x^*$ is an optimal solution to the quadratic program in Exercise 
 #### Exercise 5
 
 Consider the following semidefinite program:
-
 $$
 
 \begin{align*}
@@ -8570,7 +8292,6 @@ $$
 \end{align*}
 
 $$
-
 Prove that if $X^*$ is a feasible solution, then there exists a certificate $Y$ such that $\text{Tr}(A_iX^*) = b_i$ for all $i$ and $\text{Tr}(CX^*) = \text{Tr}(CY)$.
 
 
@@ -8820,7 +8541,6 @@ Prove that a polynomial $p(x)$ is positive if and only if it can be written as a
 #### Exercise 2
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -8834,7 +8554,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -8848,7 +8567,6 @@ Let $p(x)$ be a polynomial of degree $n$. Prove that $p(x)$ is positive if and o
 #### Exercise 4
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -8862,7 +8580,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -8892,7 +8609,6 @@ Prove that a polynomial $p(x)$ is positive if and only if it can be written as a
 #### Exercise 2
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -8906,7 +8622,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -8920,7 +8635,6 @@ Let $p(x)$ be a polynomial of degree $n$. Prove that $p(x)$ is positive if and o
 #### Exercise 4
 
 Consider the following optimization problem:
-
 $$
 
 \begin{align*}
@@ -8934,7 +8648,6 @@ $$
 \end{align*}
 
 $$
-
 Show that this problem can be reformulated as a semidefinite optimization problem.
 
 
@@ -9368,13 +9081,11 @@ In this section, we will introduce the concept of Sums of Squares (SOS) programs
 This is where SOS programs come in. An SOS program is a special type of optimization problem that involves finding a polynomial that can be written as a sum of squares of other polynomials. In other words, we are looking for a polynomial that can be expressed as:
 
 
-
 $$
 
 p(x) = \sum_{i=1}^{k} q_i^2(x)
 
 $$
-
 
 
 where $q_i(x)$ are polynomials in $x$. This may seem like a simple task, but it has far-reaching implications and applications in many areas of research. In fact, SOS programs have been used to solve a wide range of problems in engineering, computer science, and mathematics.
@@ -9406,13 +9117,11 @@ In the previous section, we introduced the concept of polynomial inequalities an
 SOS programs are a special type of optimization problem that involves finding a polynomial that can be written as a sum of squares of other polynomials. In other words, we are looking for a polynomial that can be expressed as:
 
 
-
 $$
 
 p(x) = \sum_{i=1}^{k} q_i^2(x)
 
 $$
-
 
 
 where $q_i(x)$ are polynomials in $x$. This may seem like a simple task, but it has far-reaching implications and applications in many areas of research. In fact, SOS programs have been used to solve a wide range of problems in engineering, computer science, and mathematics.
@@ -9462,7 +9171,6 @@ In the previous section, we discussed the importance of polynomial inequalities 
 
 
 SOS programs are a special type of optimization problem that involves finding a polynomial that can be written as a sum of squares of other polynomials. In other words, we are looking for a polynomial that can be expressed as:
-
 
 
 $$

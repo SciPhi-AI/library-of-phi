@@ -962,7 +962,6 @@ The relationship between present value and future value is a crucial concept in 
 $$PV = \frac{FV}{(1+r)^n}$$
 
 
-
 Where:
 
 - PV = Present Value
@@ -1040,9 +1039,7 @@ In the previous subsection, we discussed the concept of time value of money and 
 Future value calculations involve determining the value of a cash flow at a future point in time, given a certain interest rate. This can be done using the following formula:
 
 
-
 $$FV = PV(1+r)^n$$
-
 
 
 Where:
@@ -1060,9 +1057,7 @@ Where:
 For example, let's say you invest $100 at an annual interest rate of 5% for 3 years. Using the formula, we can calculate the future value as:
 
 
-
 $$FV = $100(1+0.05)^3 = $115.76$$
-
 
 
 This means that after 3 years, your initial investment of $100 will have grown to $115.76.
@@ -1076,9 +1071,7 @@ This means that after 3 years, your initial investment of $100 will have grown t
 Present value calculations involve determining the current value of a future cash flow, taking into account the time value of money. This can be done using the following formula:
 
 
-
 $$PV = \frac{FV}{(1+r)^n}$$
-
 
 
 Where:
@@ -1096,9 +1089,7 @@ Where:
 For example, let's say you are expecting to receive $115.76 in 3 years and the interest rate is 5%. Using the formula, we can calculate the present value as:
 
 
-
 $$PV = \frac{$115.76}{(1+0.05)^3} = $100$$
-
 
 
 This means that the present value of $115.76 received in 3 years is $100.
@@ -1162,9 +1153,7 @@ Compound interest is the interest earned on both the initial principal amount an
 The formula for calculating compound interest is:
 
 
-
 $$A = P(1+r)^n$$
-
 
 
 Where:
@@ -1182,9 +1171,7 @@ Where:
 For example, let's say you invest $100 at an annual interest rate of 5% for 3 years, with interest compounded annually. Using the formula, we can calculate the final amount as:
 
 
-
 $$A = $100(1+0.05)^3 = $115.76$$
-
 
 
 This means that after 3 years, your initial investment of $100 will have grown to $115.76 due to the compounding effect of interest.
@@ -1202,9 +1189,7 @@ Annuities are a series of equal payments made at regular intervals over a specif
 The formula for calculating the present value of an annuity is:
 
 
-
 $$PV = \frac{PMT}{r} \cdot (1-\frac{1}{(1+r)^n})$$
-
 
 
 Where:
@@ -1222,9 +1207,7 @@ Where:
 For example, let's say you want to save for your retirement by making monthly payments of $500 for 5 years, assuming a constant annual rate of return of 12%. Using the formula, we can calculate the present value of this annuity as:
 
 
-
 $$PV = \frac{$500}{0.01} \cdot (1-\frac{1}{(1+0.01)^{60}}) = $2063.46$$
-
 
 
 This means that you would need to make a lump sum payment of $2063.46 to the insurance organization to receive monthly distributions of $500 for 5 years, assuming a constant annual rate of return of 12%.
@@ -1238,9 +1221,7 @@ This means that you would need to make a lump sum payment of $2063.46 to the ins
 Annuities can also have variable payments, where the amount received changes over time. In this case, the present value of the annuity can be calculated using the following formula:
 
 
-
 $$PV = \sum_{t=1}^{n} \frac{PMT_t}{(1+r)^t}$$
-
 
 
 Where:
@@ -1258,9 +1239,7 @@ Where:
 For example, let's say you want to receive annual variable distributions for the next 20 years, with the first distribution of $30,000 in the first year, decreasing by $1,000 each year. Assuming a constant annual rate of return of 5%, we can calculate the present value of this annuity as:
 
 
-
 $$PV = \frac{$30,000}{(1+0.05)^1} + \frac{$29,000}{(1+0.05)^2} + ... + \frac{$11,000}{(1+0.05)^20} = $310,000$$
-
 
 
 This means that you would need to make a lump sum payment of $310,000 to the insurance organization to receive annual variable distributions for the next 20 years, assuming a constant annual rate of return of 5%.
@@ -1304,9 +1283,7 @@ Discounting is the process of determining the present value of future cash flows
 The formula for calculating present value is:
 
 
-
 $$PV = \frac{R_t}{(1+i)^t}$$
-
 
 
 Where:
@@ -1324,9 +1301,7 @@ Where:
 For example, let's say you are expecting to receive $100 in one year, and the discount rate is 5%. The present value of this cash flow would be:
 
 
-
 $$PV = \frac{$100}{(1+0.05)^1} = $95.24$$
-
 
 
 This means that if you were to invest $95.24 today at a 5% interest rate, it would grow to $100 in one year.
@@ -1336,9 +1311,7 @@ This means that if you were to invest $95.24 today at a 5% interest rate, it wou
 The net present value (NPV) is the sum of all discounted cash flows. It is used to determine the profitability of an investment by comparing the present value of all cash inflows and outflows. The formula for calculating NPV is:
 
 
-
 $$NPV = \sum_{t=0}^N \frac{R_t}{(1+i)^t} - \sum_{t=0}^N \frac{C_t}{(1+i)^t}$$
-
 
 
 Where:
@@ -1358,9 +1331,7 @@ By convention, the initial period occurs at time t = 0, and all future cash flow
 The NPV can also be thought of as the difference between the discounted benefits and costs over time. This can be written as:
 
 
-
 $$NPV = PV(B) - PV(C)$$
-
 
 
 Where:
@@ -1378,9 +1349,7 @@ In cases where the cash flows are not equal in amount, the previous formula can 
 For constant cash flow (R), the NPV can be calculated using the following formula:
 
 
-
 $$NPV = R \left( \frac{ 1 -\left( \frac{1}{1 + i} \right)^{N+1}} { 1 - \left( \frac{1}{1+i} \right) } \right), \quad i \ne 0 $$
-
 
 
 In conclusion, discounting and compounding are essential concepts in finance that help us determine the present value of future cash flows and evaluate the profitability of investments. By understanding these principles, we can make informed financial decisions and maximize our returns.
@@ -1416,9 +1385,7 @@ Compounding is the process of determining the future value of a present cash flo
 The formula for calculating future value is:
 
 
-
 $$FV = R_0(1+i)^t$$
-
 
 
 Where:
@@ -1436,9 +1403,7 @@ Where:
 For example, if you invest $100 today at a 5% interest rate, the future value of this investment in one year would be:
 
 
-
 $$FV = $100(1+0.05)^1 = $105$$
-
 
 
 This means that your initial investment of $100 would grow to $105 in one year.
@@ -1448,9 +1413,7 @@ This means that your initial investment of $100 would grow to $105 in one year.
 The future value of an annuity is the sum of all compounded cash flows. An annuity is a series of equal cash flows received or paid at regular intervals. The formula for calculating the future value of an annuity is:
 
 
-
 $$FV = R\frac{(1+i)^N-1}{i}$$
-
 
 
 Where:
@@ -1472,9 +1435,7 @@ By convention, the first cash flow occurs at time t = 1, and all future cash flo
 The future value of an annuity due is the sum of all compounded cash flows, with the first cash flow occurring at time t = 0. The formula for calculating the future value of an annuity due is:
 
 
-
 $$FV = R\frac{(1+i)^N-1}{i}(1+i)$$
-
 
 
 Where:
@@ -1530,9 +1491,7 @@ Continuous compounding is the process of calculating the future value of a cash 
 The formula for calculating the future value with continuous compounding is:
 
 
-
 $$FV = R_0e^{rt}$$
-
 
 
 Where:
@@ -1550,9 +1509,7 @@ Where:
 For example, if you invest $100 today at a continuous interest rate of 5%, the future value of this investment in one year would be:
 
 
-
 $$FV = $100e^{0.05(1)} = $105.13$$
-
 
 
 This means that your initial investment of $100 would grow to $105.13 in one year with continuous compounding.
@@ -1562,9 +1519,7 @@ This means that your initial investment of $100 would grow to $105.13 in one yea
 The future value of an annuity with continuous compounding is calculated using the formula:
 
 
-
 $$FV = R\frac{e^{rt}-1}{r}$$
-
 
 
 Where:
@@ -1586,9 +1541,7 @@ Similar to regular compounding, the first cash flow in an annuity occurs at time
 The future value of an annuity due with continuous compounding is calculated using the formula:
 
 
-
 $$FV = R\frac{e^{rt}-1}{r}e^{rt}$$
-
 
 
 Where:
@@ -1636,9 +1589,7 @@ In the previous section, we discussed the concept of discounting and compounding
 Net present value is a method used to determine the value of an investment by comparing the present value of its expected cash inflows to the present value of its expected cash outflows. The formula for calculating NPV is:
 
 
-
 $$NPV = -Initial\ Investment + \sum_{t=1}^N \frac{R_t}{(1+i)^t}$$
-
 
 
 Where:
@@ -1662,9 +1613,7 @@ If the NPV is positive, it means that the investment is expected to generate a p
 For example, if an investment requires an initial cost of $10,000 and is expected to generate cash flows of $3,000, $4,000, and $5,000 over the next three years, with a discount rate of 5%, the NPV would be calculated as:
 
 
-
 $$NPV = -$10,000 + \frac{$3,000}{(1+0.05)^1} + \frac{$4,000}{(1+0.05)^2} + \frac{$5,000}{(1+0.05)^3} = $1,112.76$$
-
 
 
 This means that the investment is expected to generate a positive return of $1,112.76 and is therefore considered profitable.
@@ -1678,9 +1627,7 @@ This means that the investment is expected to generate a positive return of $1,1
 Let's consider another example to further understand the calculation and interpretation of NPV. If a project requires an initial investment of $50,000 and is expected to generate cash flows of $20,000, $25,000, and $30,000 over the next three years, with a discount rate of 8%, the NPV would be calculated as:
 
 
-
 $$NPV = -$50,000 + \frac{$20,000}{(1+0.08)^1} + \frac{$25,000}{(1+0.08)^2} + \frac{$30,000}{(1+0.08)^3} = $3,285.71$$
-
 
 
 Since the NPV is positive, this project is expected to generate a positive return and is therefore considered a profitable investment.
@@ -1698,17 +1645,13 @@ The NPV formula assumes that the cash flows occur at the end of each period, res
 For mid-period discounting, the NPV formula is given by:
 
 
-
 $$NPV = \sum_{t=0}^N \frac{R_t}{(1+i)^{t-0.5}}$$
-
 
 
 And for beginning of period discounting, the NPV formula is given by:
 
 
-
 $$NPV = -Initial\ Investment + \sum_{t=1}^N \frac{R_t}{(1+i)^{t-1}}$$
-
 
 
 These adjustments result in a more accurate NPV calculation, but may also result in a less conservative estimate.
@@ -1828,13 +1771,11 @@ The internal rate of return (IRR) is another important concept in finance that i
 Calculating the IRR involves finding the discount rate that satisfies the following equation:
 
 
-
 $$
 
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} = 0
 
 $$
-
 
 
 where $NPV$ is the net present value, $CF_t$ is the cash flow in period $t$, and $n$ is the total number of periods.
@@ -1878,13 +1819,11 @@ The internal rate of return (IRR) is a fundamental concept in finance that is us
 Calculating the IRR involves finding the discount rate that satisfies the following equation:
 
 
-
 $$
 
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} = 0
 
 $$
-
 
 
 where $NPV$ is the net present value, $CF_t$ is the cash flow in period $t$, and $n$ is the total number of periods.
@@ -1948,13 +1887,11 @@ The internal rate of return (IRR) is a fundamental concept in finance that is us
 Calculating the IRR involves finding the discount rate that satisfies the following equation:
 
 
-
 $$
 
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} = 0
 
 $$
-
 
 
 where $NPV$ is the net present value, $CF_t$ is the cash flow in period $t$, and $n$ is the total number of periods.
@@ -2066,13 +2003,11 @@ The principles of bond pricing and yield are based on the concept of the time va
 To calculate the present value of a bond, we use the following formula:
 
 
-
 $$
 
 PV = \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t}
 
 $$
-
 
 
 where $PV$ is the present value, $CF_t$ is the cash flow in period $t$, and $r$ is the bond's yield to maturity. This formula takes into account the time value of money by discounting the cash flows at the bond's yield to maturity.
@@ -2116,13 +2051,11 @@ Yield to maturity (YTM) is a key metric used to evaluate the return on investmen
 Calculating YTM requires knowledge of the bond's current market price, face value, and time to maturity. The formula for YTM for zero-coupon bonds is:
 
 
-
 $$
 
 \text{Yield to maturity (YTM)} = \sqrt[\text{Time period}]{\dfrac{\text{Face value}}{\text{Present value}}} - 1
 
 $$
-
 
 
 For example, consider a 30-year zero-coupon bond with a face value of $100. If the bond is priced at an annual YTM of 10%, it will cost $5.73 today (the present value of this cash flow, 100/(1.1)^{30} = 5.73). Over the coming 30 years, the price will advance to $100, and the annualized return will be 10%.
@@ -2634,13 +2567,11 @@ Convexity is particularly important for bonds with embedded options, such as cal
 To calculate the duration of a bond, we use the following formula:
 
 
-
 $$
 
 Duration = \frac{\sum_{t=1}^{n} t \times CF_t}{\sum_{t=1}^{n} CF_t}
 
 $$
-
 
 
 Where:
@@ -3150,9 +3081,7 @@ The dividend discount model (DDM) is a popular method used to value common stock
 The DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -3220,9 +3149,7 @@ The dividend discount model (DDM) is a popular method used to value common stock
 The DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -3256,9 +3183,7 @@ It is important to note that the DDM equation assumes that the stock is held ind
 Another commonly used method for valuing common stocks is the price-to-earnings ratio (P/E ratio). This ratio compares the current stock price to the company's earnings per share (EPS). It is calculated by dividing the current stock price by the EPS.
 
 
-
 $$P/E = \frac{P}{EPS}$$
-
 
 
 The P/E ratio is often used as a measure of a company's valuation. A high P/E ratio may indicate that investors have high expectations for the company's future earnings, while a low P/E ratio may suggest that the company is undervalued.
@@ -3338,9 +3263,7 @@ The dividend discount model (DDM) is a popular method used to value common stock
 The DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -3374,9 +3297,7 @@ It is important to note that the DDM equation assumes that the stock is held ind
 Another commonly used method for valuing common stocks is the price-to-earnings ratio (P/E ratio). This ratio compares the current stock price to the company's earnings per share (EPS). It is calculated by dividing the current stock price by the EPS.
 
 
-
 $$P/E = \frac{P}{EPS}$$
-
 
 
 The P/E ratio is often used as a measure of a company's valuation relative to its earnings. A high P/E ratio may indicate that investors are willing to pay a premium for the company's earnings, while a low P/E ratio may suggest that the stock is undervalued.
@@ -3394,9 +3315,7 @@ However, it is important to note that the P/E ratio does not take into account t
 The price-to-book ratio (P/B ratio) is another commonly used method for valuing common stocks. This ratio compares the current stock price to the company's book value per share. It is calculated by dividing the current stock price by the book value per share.
 
 
-
 $$P/B = \frac{P}{BVPS}$$
-
 
 
 The book value per share is calculated by dividing the company's total assets by the number of outstanding shares. The P/B ratio is often used as a measure of a company's valuation relative to its assets. A high P/B ratio may indicate that investors are willing to pay a premium for the company's assets, while a low P/B ratio may suggest that the stock is undervalued.
@@ -3440,9 +3359,7 @@ In the previous section, we discussed the dividend discount model (DDM) as a met
 As mentioned before, the DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -3498,9 +3415,7 @@ In the previous section, we discussed the dividend discount model (DDM) as a met
 As mentioned before, the DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -3542,9 +3457,7 @@ While the DDM assumes a constant growth rate in perpetuity, there are other divi
 The Johnson's SU-distribution is a probability distribution that can be used to model the payoff of a portfolio. If the payoff of a portfolio $X$ follows Johnson's SU-distribution with the cumulative distribution function $F(x) = \Phi\Big[\gamma+\delta\sinh^{-1}\Big(\frac{x-\xi}{\lambda}\Big)\Big]$, then the left-tail TVaR (tail value at risk) is equal to:
 
 
-
 $$\operatorname{TVaR}_{\alpha}(X) = -\xi - \frac{\lambda}{2\alpha} \Big[ exp\Big(\frac{1-2\gamma\delta}{2\delta^2}\Big)\Phi\Big(\Phi^{-1}(\alpha)-\frac{1}{\delta}\Big) - exp\Big(\frac{1+2\gamma\delta}{2\delta^2}\Big)\Phi\Big(\Phi^{-1}(\alpha)+\frac{1}{\delta}\Big) \Big]$$
-
 
 
 Where $\Phi$ is the cumulative distribution function of the standard normal distribution.
@@ -3558,17 +3471,13 @@ Where $\Phi$ is the cumulative distribution function of the standard normal dist
 The Burr type XII distribution is another probability distribution that can be used to model the payoff of a portfolio. If the payoff of a portfolio $X$ follows the Burr type XII distribution with the probability density function $f(x) = \frac{ck}{\beta}\Big(\frac{x-\gamma}{\beta}\Big)^{c-1}\Big[1+\Big(\frac{x-\gamma}{\beta}\Big)^c\Big]^{-k-1}$ and the cumulative distribution function $F(x) = 1-\Big[1+\Big(\frac{x-\gamma}{\beta}\Big)^c\Big]^{-k}$, then the left-tail TVaR is equal to:
 
 
-
 $$\operatorname{TVaR}_{\alpha}(X) = -\gamma -\frac{\beta}{\alpha}\Big( (1-\alpha)^{-1/k}-1 \Big)^{1/c} \Big[ \alpha -1+{_2F_1}\Big(\frac{1}{c},k;1+\frac{1}{c};1-(1-\alpha)^{-1/k}\Big) \Big]$$
-
 
 
 Alternatively, the TVaR can also be calculated using the hypergeometric function ${_2F_1}$ as:
 
 
-
 $$\operatorname{TVaR}_{\alpha}(X) = -\gamma -\frac{\beta}{\alpha}\frac{ck}{c+1}\Big( (1-\alpha)^{-1/k}-1 \Big)^{1+\frac{1}{c}} {_2F_1}\Big(1+\frac{1}{c},k+1;2+\frac{1}{c};1-(1-\alpha)^{-1/k}\Big)$$
-
 
 
 #### Dagum distribution
@@ -3578,17 +3487,13 @@ $$\operatorname{TVaR}_{\alpha}(X) = -\gamma -\frac{\beta}{\alpha}\frac{ck}{c+1}\
 The Dagum distribution is another probability distribution that can be used to model the payoff of a portfolio. If the payoff of a portfolio $X$ follows the Dagum distribution with the probability density function $f(x) = \frac{ck}{\beta}\Big(\frac{x-\gamma}{\beta}\Big)^{ck-1}\Big[1+\Big(\frac{x-\gamma}{\beta}\Big)^c\Big]^{-k-1}$ and the cumulative distribution function $F(x) = \Big[1+\Big(\frac{x-\gamma}{\beta}\Big)^{-c}\Big]^{-k}$, then the left-tail TVaR is equal to:
 
 
-
 $$\operatorname{TVaR}_{\alpha}(X) = -\gamma -\frac{\beta}{\alpha}\Big( (1-\alpha)^{-1/k}-1 \Big)^{1/c} \Big[ \alpha -1+{_2F_1}\Big(\frac{1}{c},k;1+\frac{1}{c};1-(1-\alpha)^{-1/k}\Big) \Big]$$
-
 
 
 Similar to the Burr type XII distribution, the TVaR can also be calculated using the hypergeometric function ${_2F_1}$ as:
 
 
-
 $$\operatorname{TVaR}_{\alpha}(X) = -\gamma -\frac{\beta}{\alpha}\frac{ck}{c+1}\Big( (1-\alpha)^{-1/k}-1 \Big)^{1+\frac{1}{c}} {_2F_1}\Big(1+\frac{1}{c},k+1;2+\frac{1}{c};1-(1-\alpha)^{-1/k}\Big)$$
-
 
 
 These alternative dividend growth models can provide a more accurate valuation of a stock by taking into account changing growth rates over time. However, they also come with their own set of assumptions and limitations, and should be used with caution. 
@@ -3620,9 +3525,7 @@ In the previous section, we discussed the dividend discount model (DDM) as a met
 As mentioned before, the DDM equation can be written as:
 
 
-
 $$P = \frac{D_1}{r-g}$$
-
 
 
 Where:
@@ -4164,13 +4067,11 @@ The weighted average cost of capital (WACC) is a crucial concept in finance that
 The WACC can be calculated using the following formula:
 
 
-
 $$
 
 \text{WACC} = \frac{\sum_{i=1}^N r_i \cdot MV_i }{\sum_{i=1}^N MV_i}
 
 $$
-
 
 
 where <math>N</math> is the number of sources of capital, <math>r_i</math> is the required rate of return for security <math>i</math>, and <math>MV_i</math> is the market value of all outstanding securities <math>i</math>. This formula takes into account the different sources of capital and their respective weights to determine the overall cost of capital for the company.
@@ -4184,13 +4085,11 @@ where <math>N</math> is the number of sources of capital, <math>r_i</math> is th
 Incorporating tax effects into the WACC formula is important as it can significantly impact the cost of capital for a company. The WACC formula for a company with one type of shares and one type of bonds, in a country with a corporate tax rate <math>t</math>, is calculated as:
 
 
-
 $$
 
 \text{WACC} = \frac{MV_e}{MV_d+MV_e} \cdot R_e + \frac{MV_d}{MV_d+MV_e} \cdot R_d \cdot (1-t)
 
 $$
-
 
 
 where <math>MV_e</math> is the total market value of equity, <math>MV_d</math> is the total market value of debt, <math>R_e</math> is the cost of equity, and <math>R_d</math> is the cost of debt. This formula takes into account the tax benefits of debt financing, as the interest paid on debt is tax-deductible.
@@ -4230,13 +4129,11 @@ The cost of equity is a crucial concept in finance that measures the return requ
 The Capital Asset Pricing Model (CAPM) is a widely used method for calculating the cost of equity. It is based on the principle that investors require a return that compensates them for the risk they are taking by investing in a particular stock. The formula for calculating the cost of equity using CAPM is:
 
 
-
 $$
 
 R_e = R_f + \beta(R_m - R_f)
 
 $$
-
 
 
 where <math>R_e</math> is the cost of equity, <math>R_f</math> is the risk-free rate, <math>\beta</math> is the stock's beta, and <math>R_m</math> is the expected return of the market. This formula takes into account the risk-free rate, the stock's volatility relative to the market, and the market risk premium.
@@ -4250,13 +4147,11 @@ where <math>R_e</math> is the cost of equity, <math>R_f</math> is the risk-free 
 The Dividend Growth Model is another method for calculating the cost of equity. It is based on the principle that the cost of equity is equal to the expected dividend yield plus the expected growth rate of dividends. The formula for calculating the cost of equity using the Dividend Growth Model is:
 
 
-
 $$
 
 R_e = \frac{D_1}{P_0} + g
 
 $$
-
 
 
 where <math>R_e</math> is the cost of equity, <math>D_1</math> is the expected dividend for the next period, <math>P_0</math> is the current stock price, and <math>g</math> is the expected growth rate of dividends. This formula takes into account the expected return from dividends and the expected growth of the company.
@@ -4270,13 +4165,11 @@ where <math>R_e</math> is the cost of equity, <math>D_1</math> is the expected d
 The Bond Yield Plus Risk Premium method is based on the principle that the cost of equity is equal to the yield on a company's bonds plus a risk premium. The formula for calculating the cost of equity using this method is:
 
 
-
 $$
 
 R_e = R_b + RP
 
 $$
-
 
 
 where <math>R_e</math> is the cost of equity, <math>R_b</math> is the yield on the company's bonds, and <math>RP</math> is the risk premium. This method takes into account the company's bond yield and adds a premium to compensate for the additional risk associated with holding equity.
@@ -4574,13 +4467,11 @@ The pricing of forward contracts is based on the concept of no-arbitrage, which 
 The formula for calculating the forward price is as follows:
 
 
-
 $$
 
 F = S_0e^{(r-d)T}
 
 $$
-
 
 
 Where:
@@ -5578,13 +5469,11 @@ The Black-Scholes-Merton model is a closed-form solution, meaning that it provid
 The formula for the Black-Scholes-Merton model is as follows:
 
 
-
 $$
 
 C(S,t) = N(d_1)S - N(d_2)Ke^{-r(T-t)}
 
 $$
-
 
 
 Where:
@@ -5654,13 +5543,11 @@ The binomial model is also closely related to the Black-Scholes model, as both m
 The formula for the binomial option pricing model is as follows:
 
 
-
 $$
 
 C(S,t) = \sum_{j=0}^{N} {N \choose j} p^j (1-p)^{N-j} (S_0u^jd^{N-j})
 
 $$
-
 
 
 Where:
@@ -6620,13 +6507,11 @@ The efficient frontier is a key concept in modern portfolio theory (MPT). It rep
 The efficient frontier can be calculated using matrices, which are preferred for their efficiency. In matrix form, for a given "risk tolerance" $q \in [0,\infty)$, the efficient frontier is found by minimizing the following expression:
 
 
-
 $$
 
 \sigma^2_p = w^T \Sigma w
 
 $$
-
 
 
 where $w$ is the vector of portfolio weights and $\Sigma$ is the covariance matrix of returns. The above optimization finds the point on the frontier at which the inverse of the slope of the frontier would be "q" if portfolio return variance instead of standard deviation were plotted horizontally. The frontier in its entirety is parametric on "q."
@@ -7080,13 +6965,11 @@ The efficient frontier is a key concept in the Markowitz Model, as it allows inv
 To determine the optimal portfolio, investors must first determine their risk tolerance, denoted by the variable $q$. This risk tolerance represents the maximum amount of risk an investor is willing to take on for a given level of expected return. Using this risk tolerance, the efficient frontier can be calculated by minimizing the following expression:
 
 
-
 $$
 
 \min_{w} \sqrt{w^T \Sigma w} \quad \text{subject to} \quad w^T \mu = q
 
 $$
-
 
 
 where $w$ is a vector of weights representing the proportion of each asset in the portfolio, $\Sigma$ is the covariance matrix of the assets, and $\mu$ is the expected return vector. This optimization problem can be solved using matrices, making it a more efficient method for calculating the efficient frontier.
@@ -7180,13 +7063,11 @@ The market beta, denoted as <math>\beta_{i}</math>, of an asset <math>i</math> i
 The CAPM assumes that investors are rational and risk-averse, and therefore, they require a higher expected return for taking on more risk. The expected return of an asset is determined by the risk-free rate, the market risk premium, and the asset's beta. The risk-free rate is the return on an investment with no risk, such as a government bond, and the market risk premium is the additional return that investors require for taking on market risk. The CAPM equation is as follows:
 
 
-
 $$
 
 E(r_{i}) = r_{f} + \beta_{i}(E(r_{m}) - r_{f})
 
 $$
-
 
 
 where <math>E(r_{i})</math> is the expected return on asset <math>i</math>, <math>r_{f}</math> is the risk-free rate, <math>E(r_{m})</math> is the expected return on the market, and <math>\beta_{i}</math> is the beta of asset <math>i</math>.
@@ -7226,13 +7107,11 @@ The market beta, denoted as <math>\beta_{i}</math>, of an asset <math>i</math> i
 The CAPM assumes that investors are rational and risk-averse, and therefore, they require a higher expected return for taking on more risk. The expected return of an asset is determined by the risk-free rate, the market risk premium, and the asset's beta. The risk-free rate is the return on an investment with no risk, such as a government bond, and the market risk premium is the additional return that investors require for taking on market risk. The CAPM equation is as follows:
 
 
-
 $$
 
 E(r_{i}) = r_{f} + \beta_{i}(E(r_{m}) - r_{f})
 
 $$
-
 
 
 where <math>E(r_{i})</math> is the expected return on asset <math>i</math>, <math>r_{f}</math> is the risk-free rate, <math>E(r_{m})</math> is the expected return on the market, and <math>\beta_{i}</math> is the beta of the asset. This equation shows that the expected return of an asset is equal to the risk-free rate plus a risk premium based on the asset's beta.
@@ -7552,13 +7431,11 @@ Capital budgeting is the process of evaluating and selecting long-term investmen
 The payback period is the amount of time it takes for the initial cost of a project to be recovered through the expected cash flows. It is a simple and intuitive method for evaluating investment projects, as it provides a measure of how quickly a project will generate cash flows. The formula for calculating the payback period is:
 
 
-
 $$
 
 Payback\ Period = \frac{Initial\ Investment}{Annual\ Cash\ Flows}
 
 $$
-
 
 
 For example, if a project requires an initial investment of $100,000 and is expected to generate annual cash flows of $25,000, the payback period would be 4 years.
@@ -7568,13 +7445,11 @@ For example, if a project requires an initial investment of $100,000 and is expe
 However, the payback period does not take into account the time value of money, which is the concept that a dollar received today is worth more than a dollar received in the future. This is where the discounted payback period comes in. The discounted payback period takes into account the time value of money by discounting the expected cash flows to their present value. The formula for calculating the discounted payback period is:
 
 
-
 $$
 
 Discounted\ Payback\ Period = \frac{Initial\ Investment}{Discounted\ Annual\ Cash\ Flows}
 
 $$
-
 
 
 The discounted payback period is a more accurate measure of a project's profitability, as it considers the time value of money. It also helps businesses compare projects with different time horizons, as it takes into account the timing of cash flows.
@@ -7618,13 +7493,11 @@ Capital budgeting is a crucial aspect of financial management for any company. I
 Net present value (NPV) is a widely used capital budgeting technique that takes into account the time value of money. It is based on the principle that a dollar received today is worth more than a dollar received in the future. NPV calculates the present value of all expected cash flows from a project and compares it to the initial investment. The formula for calculating NPV is:
 
 
-
 $$
 
 NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+r)^t} - Initial\ Investment
 
 $$
-
 
 
 Where:
@@ -7644,13 +7517,11 @@ If the NPV is positive, it indicates that the project will generate a profit, wh
 Another useful capital budgeting technique is the profitability index (PI). It is calculated by dividing the present value of future cash flows by the initial investment. The formula for calculating PI is:
 
 
-
 $$
 
 PI = \frac{\sum_{t=0}^{n} \frac{CF_t}{(1+r)^t}}{Initial\ Investment}
 
 $$
-
 
 
 PI is a useful tool for comparing projects with different initial investments, as it takes into account the timing of cash flows and the time value of money. A PI greater than 1 indicates that the project will generate a profit, while a PI less than 1 indicates a loss.
@@ -7682,13 +7553,11 @@ Capital budgeting is a crucial aspect of financial management for any company. I
 Internal rate of return (IRR) is another widely used capital budgeting technique that takes into account the time value of money. It is defined as the discount rate that makes the net present value of all cash flows from a project equal to zero. In other words, it is the rate of return that a project is expected to generate. The formula for calculating IRR is:
 
 
-
 $$
 
 0 = \sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} - Initial\ Investment
 
 $$
-
 
 
 Where:
@@ -7712,13 +7581,11 @@ However, IRR has some limitations that can lead to incorrect decision-making. On
 To address this issue, the modified internal rate of return (MIRR) was developed. MIRR is a modification of IRR that aims to resolve some of the problems associated with IRR. It takes into account the external cost of capital for discounting negative cash flows and the external reinvestment rate for reinvesting positive cash flows. The formula for calculating MIRR is:
 
 
-
 $$
 
 MIRR = \left(\frac{FV_{positive\ cash\ flows}}{PV_{negative\ cash\ flows}}\right)^{\frac{1}{n}} - 1
 
 $$
-
 
 
 Where:
@@ -9444,13 +9311,11 @@ One of the fundamental principles of finance theory is the concept of time value
 To calculate the time value of money, we use the concept of present value and future value. Present value is the current value of a future cash flow, while future value is the value of an investment at a specific point in the future. The relationship between present value, future value, and time can be represented by the following formula:
 
 
-
 $$
 
 PV = \frac{FV}{(1+r)^n}
 
 $$
-
 
 
 Where:
@@ -9476,13 +9341,11 @@ Another key concept in finance theory is the relationship between risk and retur
 To measure the risk of an investment, we use the concept of standard deviation. Standard deviation measures the variability of returns around the average return. The higher the standard deviation, the riskier the investment. On the other hand, return is the profit or loss on an investment, expressed as a percentage of the initial investment. The relationship between risk and return can be represented by the following formula:
 
 
-
 $$
 
 Return = Risk + Risk Premium
 
 $$
-
 
 
 Where:
@@ -9512,13 +9375,11 @@ To create an optimal portfolio, we use the concept of efficient frontier. Effici
 The Capital Asset Pricing Model (CAPM) is a widely used model for determining the expected return on an asset. It takes into account the risk-free rate, the expected return on the market, and the risk of the asset to calculate the expected return. The formula for CAPM is as follows:
 
 
-
 $$
 
 E(R_i) = R_f + \beta_i(E(R_m) - R_f)
 
 $$
-
 
 
 Where:
@@ -9596,13 +9457,11 @@ One of the fundamental principles of finance theory is the concept of time value
 To calculate the time value of money, we use the concept of present value and future value. Present value is the current value of a future cash flow, while future value is the value of an investment at a specific point in the future. The relationship between present value, future value, and time can be represented by the following formula:
 
 
-
 $$
 
 PV = \frac{FV}{(1+r)^n}
 
 $$
-
 
 
 Where:
@@ -10328,9 +10187,7 @@ The time value of money is a fundamental concept in finance that states that the
 a) The present value of a future cash flow is the amount of money that would need to be invested today at a given interest rate in order to have that amount in the future. It is calculated using the formula:
 
 
-
 $$PV = \frac{FV}{(1+r)^n}$$
-
 
 
 Where PV is the present value, FV is the future value, r is the interest rate, and n is the number of periods.
@@ -10340,17 +10197,13 @@ Where PV is the present value, FV is the future value, r is the interest rate, a
 For example, if we want to know the present value of $10,000 received in 5 years with an interest rate of 8%, we would use the formula:
 
 
-
 $$PV = \frac{10,000}{(1+0.08)^5} = $6,710.58$$
-
 
 
 b) The future value of an investment is the amount of money that an investment will be worth at a given point in the future. It is calculated using the formula:
 
 
-
 $$FV = PV(1+r)^n$$
-
 
 
 Where FV is the future value, PV is the present value, r is the interest rate, and n is the number of periods.
@@ -10360,9 +10213,7 @@ Where FV is the future value, PV is the present value, r is the interest rate, a
 For example, if we invest $5,000 for 10 years at an interest rate of 6%, the future value would be:
 
 
-
 $$FV = 5,000(1+0.06)^10 = $9,300.41$$
-
 
 
 #### 2. Risk and Return
@@ -10376,9 +10227,7 @@ In finance, risk and return are closely related. Generally, the higher the risk 
 a) The expected return of a portfolio is the weighted average of the expected returns of the individual assets in the portfolio. It is calculated using the formula:
 
 
-
 $$E(R_p) = w_1E(R_1) + w_2E(R_2) + ... + w_nE(R_n)$$
-
 
 
 Where E(R_p) is the expected return of the portfolio, w is the weight of each asset, and E(R) is the expected return of each asset.
@@ -10388,17 +10237,13 @@ Where E(R_p) is the expected return of the portfolio, w is the weight of each as
 For example, if we have a portfolio with 40% invested in stocks with an expected return of 10% and 60% invested in bonds with an expected return of 5%, the expected return of the portfolio would be:
 
 
-
 $$E(R_p) = 0.4(10%) + 0.6(5%) = 7%$$
-
 
 
 b) The standard deviation of a portfolio measures the volatility of the portfolio's returns. It is calculated using the formula:
 
 
-
 $$\sigma_p = \sqrt{w_1^2\sigma_1^2 + w_2^2\sigma_2^2 + ... + w_n^2\sigma_n^2 + 2w_1w_2\sigma_1\sigma_2\rho_{1,2} + ... + 2w_{n-1}w_n\sigma_{n-1}\sigma_n\rho_{n-1,n}}$$
-
 
 
 Where $\sigma_p$ is the standard deviation of the portfolio, w is the weight of each asset, $\sigma$ is the standard deviation of each asset, and $\rho$ is the correlation between each pair of assets.
@@ -10408,9 +10253,7 @@ Where $\sigma_p$ is the standard deviation of the portfolio, w is the weight of 
 For example, if we have a portfolio with 25% invested in stocks with a standard deviation of 12% and 75% invested in bonds with a standard deviation of 5%, and a correlation of 0.5 between the two assets, the standard deviation of the portfolio would be:
 
 
-
 $$\sigma_p = \sqrt{0.25^2(0.12)^2 + 0.75^2(0.05)^2 + 2(0.25)(0.75)(0.12)(0.05)(0.5)} = 0.0775 = 7.75%$$
-
 
 
 #### 3. Portfolio Theory
@@ -10424,9 +10267,7 @@ Portfolio theory is a framework for constructing optimal portfolios that balance
 a) The optimal portfolio is the portfolio that provides the highest expected return for a given level of risk. It is calculated using the formula:
 
 
-
 $$E(R_p) = R_f + \frac{E(R_m) - R_f}{\sigma_m}\sigma_p$$
-
 
 
 Where E(R_p) is the expected return of the optimal portfolio, R_f is the risk-free rate, E(R_m) is the expected return of the market portfolio, $\sigma_m$ is the standard deviation of the market portfolio, and $\sigma_p$ is the standard deviation of the optimal portfolio.
@@ -10436,17 +10277,13 @@ Where E(R_p) is the expected return of the optimal portfolio, R_f is the risk-fr
 For example, if the risk-free rate is 3%, the expected return of stock A is 10%, the expected return of stock B is 15%, and the standard deviation of stock A is 8% and stock B is 12%, the optimal portfolio would be:
 
 
-
 $$E(R_p) = 0.03 + \frac{0.15 - 0.03}{0.12}(0.08) = 0.09 = 9%$$
-
 
 
 b) The standard deviation of the optimal portfolio can be calculated using the formula:
 
 
-
 $$\sigma_p = \sqrt{\frac{w_A^2\sigma_A^2 + w_B^2\sigma_B^2 + 2w_Aw_B\sigma_A\sigma_B\rho_{A,B}}{(w_A + w_B)^2}}$$
-
 
 
 Where $\sigma_p$ is the standard deviation of the optimal portfolio, w is the weight of each asset, $\sigma$ is the standard deviation of each asset, and $\rho$ is the correlation between the two assets.
@@ -10456,9 +10293,7 @@ Where $\sigma_p$ is the standard deviation of the optimal portfolio, w is the we
 For example, if the correlation between stock A and stock B is 0.5, the standard deviation of the optimal portfolio would be:
 
 
-
 $$\sigma_p = \sqrt{\frac{(0.4)^2(0.08)^2 + (0.6)^2(0.12)^2 + 2(0.4)(0.6)(0.08)(0.12)(0.5)}{(0.4 + 0.6)^2}} = 0.0975 = 9.75%$$
-
 
 
 #### 4. Time Series Analysis
@@ -10476,29 +10311,19 @@ a) The simple moving average is a technique used to smooth out fluctuations in d
 For example, if we have the following data: 10, 12, 15, 18, 20, 22, 25, 28, 30, and we want to calculate the simple moving average for a set of 3 data points, we would take the average of the first 3 data points (10, 12, 15), then the next 3 data points (12, 15, 18), and so on. The simple moving average for this data would be:
 
 
-
 $$\frac{10+12+15}{3} = 12.33$$
-
 $$\frac{12+15+18}{3} = 15$$
-
 $$\frac{15+18+20}{3} = 17.67$$
-
 $$\frac{18+20+22}{3} = 20$$
-
 $$\frac{20+22+25}{3} = 22.33$$
-
 $$\frac{22+25+28}{3} = 25$$
-
 $$\frac{25+28+30}{3} = 27.67$$
-
 
 
 b) Exponential smoothing is a technique used to make forecasts based on past data. It assigns weights to past data points, with more recent data points being given a higher weight. It is calculated using the formula:
 
 
-
 $$F_{t+1} = \alpha D_t + (1-\alpha)F_t$$
-
 
 
 Where $F_{t+1}$ is the forecast for the next period, $\alpha$ is the smoothing constant, D_t is the actual data for the current period, and $F_t$ is the forecast for the current period.
@@ -10508,9 +10333,7 @@ Where $F_{t+1}$ is the forecast for the next period, $\alpha$ is the smoothing c
 For example, if we have the following data: 10, 12, 15, 18, 20, 22, 25, 28, 30, and we want to make a forecast for the next period using a smoothing constant of 0.3, the forecast would be:
 
 
-
 $$F_{t+1} = 0.3(30) + (1-0.3)(25) = 27.5$$
-
 
 
 #### 5. Capital Budgeting
@@ -10524,9 +10347,7 @@ Capital budgeting is the process of evaluating potential investments and decidin
 a) The net present value (NPV) is calculated using the formula:
 
 
-
 $$NPV = -C_0 + \frac{C_1}{(1+r)^1} + \frac{C_2}{(1+r)^2} + ... + \frac{C_n}{(1+r)^n}$$
-
 
 
 Where NPV is the net present value, $C_0$ is the initial investment, $C_n$ is the expected cash flow in period n, and r is the discount rate.
@@ -10536,9 +10357,7 @@ Where NPV is the net present value, $C_0$ is the initial investment, $C_n$ is th
 For example, if a project has an initial investment of $50,000 and expected cash flows of $10,000 for the next 5 years with a discount rate of 10%, the NPV would be:
 
 
-
 $$NPV = -50,000 + \frac{10,000}{(1+0.1)^1} + \frac{10,000}{(1+0.1)^2} + \frac{10,000}{(1+0.1)^3} + \frac{10,000}{(1+0.1)^4} + \frac{10,000}{(1+0.1)^5} = $3,854.55$$
-
 
 
 In conclusion, understanding these key concepts and calculations is crucial for success in finance theory. Make sure to review and practice these topics in preparation for the final exam. Good luck!
@@ -11090,13 +10909,11 @@ Time series analysis is a crucial tool in financial econometrics, as it allows f
 One of the most commonly used models in time series analysis is the autoregressive (AR) model. This model assumes that the current value of a variable is a linear combination of its past values and a random error term. Mathematically, an AR model of order p can be written as:
 
 
-
 $$
 
 y_t = c + \sum_{i=1}^p \phi_i y_{t-i} + \epsilon_t
 
 $$
-
 
 
 where $y_t$ is the value of the variable at time t, c is a constant, $\phi_i$ are the coefficients of the past values, and $\epsilon_t$ is the random error term. The order p represents the number of past values that are included in the model.
@@ -11110,13 +10927,11 @@ where $y_t$ is the value of the variable at time t, c is a constant, $\phi_i$ ar
 Another commonly used model in time series analysis is the moving average (MA) model. This model assumes that the current value of a variable is a linear combination of the past error terms and a random error term. Mathematically, an MA model of order q can be written as:
 
 
-
 $$
 
 y_t = c + \epsilon_t + \sum_{i=1}^q \theta_i \epsilon_{t-i}
 
 $$
-
 
 
 where $y_t$ is the value of the variable at time t, c is a constant, $\theta_i$ are the coefficients of the past error terms, and $\epsilon_t$ is the random error term. The order q represents the number of past error terms that are included in the model.
@@ -11130,13 +10945,11 @@ where $y_t$ is the value of the variable at time t, c is a constant, $\theta_i$ 
 The autoregressive moving average (ARMA) model combines the AR and MA models into one model. It assumes that the current value of a variable is a linear combination of its past values and past error terms, along with a random error term. Mathematically, an ARMA model of order (p,q) can be written as:
 
 
-
 $$
 
 y_t = c + \sum_{i=1}^p \phi_i y_{t-i} + \epsilon_t + \sum_{i=1}^q \theta_i \epsilon_{t-i}
 
 $$
-
 
 
 where $y_t$ is the value of the variable at time t, c is a constant, $\phi_i$ and $\theta_i$ are the coefficients of the past values and error terms respectively, and $\epsilon_t$ is the random error term.
@@ -11150,13 +10963,11 @@ where $y_t$ is the value of the variable at time t, c is a constant, $\phi_i$ an
 The autoregressive integrated moving average (ARIMA) model is an extension of the ARMA model that takes into account non-stationarity in the data. Non-stationarity refers to the fact that the statistical properties of the data, such as mean and variance, can change over time. The ARIMA model includes a differencing term, which removes the trend and makes the data stationary. Mathematically, an ARIMA model of order (p,d,q) can be written as:
 
 
-
 $$
 
 \Delta^d y_t = c + \sum_{i=1}^p \phi_i \Delta^d y_{t-i} + \epsilon_t + \sum_{i=1}^q \theta_i \epsilon_{t-i}
 
 $$
-
 
 
 where $\Delta^d$ represents the differencing operator, d is the order of differencing, and all other terms are the same as in the ARMA model.
@@ -11168,7 +10979,6 @@ where $\Delta^d$ represents the differencing operator, d is the order of differe
 
 
 The vector autoregression (VAR) model is an extension of the AR model that allows for the analysis of multiple time series variables. It assumes that each variable is a linear combination of its own past values and the past values of all other variables in the system. Mathematically, a VAR model of order p can be written as:
-
 
 
 $$

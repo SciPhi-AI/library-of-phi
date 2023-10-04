@@ -1269,9 +1269,7 @@ The Y-parameters of a network are related to its S-parameters by the following e
 
 
 $$
-
 Y = \sqrt{y} (I_N - S) (I_N + S)^{-1} \sqrt{y}
-
 $$
 
 
@@ -1281,9 +1279,7 @@ and
 
 
 $$
-
 S = (I_N - \sqrt{z}Y\sqrt{z}) (I_N + \sqrt{z}Y\sqrt{z})^{-1}
-
 $$
 
 
@@ -1301,7 +1297,6 @@ In the special case of a two-port network, with the same and real characteristic
 
 
 $$
-
 Y_{11} = {(1 - S_{11}) (1 + S_{22}) + S_{12} S_{21} \over \Delta_S} Y_0 \\
 
 Y_{12} = {-2 S_{12} \over \Delta_S} Y_0 \\
@@ -1309,7 +1304,6 @@ Y_{12} = {-2 S_{12} \over \Delta_S} Y_0 \\
 Y_{21} = {-2 S_{21} \over \Delta_S} Y_0 \\
 
 Y_{22} = {(1 + S_{11}) (1 - S_{22}) + S_{12} S_{21} \over \Delta_S} Y_0
-
 $$
 
 
@@ -1319,9 +1313,7 @@ where $\Delta_S$ is given by:
 
 
 $$
-
 \Delta_S = (1 - S_{11})(1 + S_{22}) - S_{12}S_{21}
-
 $$
 
 
@@ -1331,7 +1323,6 @@ The two-port S-parameters can also be obtained from the equivalent two-port Y-pa
 
 
 $$
-
 S_{11} = {(1 - Z_0 Y_{11}) (1 + Z_0 Y_{22}) + Z^2_0 Y_{12} Y_{21} \over \Delta} \\
 
 S_{12} = {-2 Z_0 Y_{12} \over \Delta} \\
@@ -1339,7 +1330,6 @@ S_{12} = {-2 Z_0 Y_{12} \over \Delta} \\
 S_{21} = {-2 Z_0 Y_{21} \over \Delta} \\
 
 S_{22} = {(1 + Z_0 Y_{11}) (1 - Z_0 Y_{22}) + Z^2_0 Y_{12} Y_{21} \over \Delta}
-
 $$
 
 
@@ -1349,9 +1339,7 @@ where $\Delta$ is given by:
 
 
 $$
-
 \Delta = (1 + Z_0 Y_{11})(1 + Z_0 Y_{22}) - Z^2_0 Y_{12} Y_{21}
-
 $$
 
 
@@ -1399,9 +1387,7 @@ As mentioned in the previous section, S-parameters are represented by a matrix, 
 
 
 $$
-
 Y = \sqrt{y} (I_N - S) (I_N + S)^{-1} \sqrt{y}
-
 $$
 
 
@@ -1411,9 +1397,7 @@ and
 
 
 $$
-
 S = (I_N - \sqrt{z}Y\sqrt{z}) (I_N + \sqrt{z}Y\sqrt{z})^{-1}
-
 $$
 
 
@@ -1543,9 +1527,7 @@ The generalized reflection coefficient is defined as:
 
 
 $$
-
 \Gamma = \frac{V_{reflected}}{V_{incident}}
-
 $$
 
 
@@ -1629,9 +1611,7 @@ The generalized reflection coefficient is defined as:
 
 
 $$
-
 \Gamma = \frac{V_{reflected}}{V_{incident}}
-
 $$
 
 
@@ -2049,9 +2029,7 @@ In order to understand broadband amplifiers, it is important to first understand
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gs} + s^2C_{gd}C_{gs}R_L}
-
 $$
 
 
@@ -2061,9 +2039,7 @@ This equation can be rewritten in a more generic form, taking into account diffe
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{1} + s^2C_{2}R_L}
-
 $$
 
 
@@ -2081,9 +2057,7 @@ The overall response of the amplifier is given by the product of the individual 
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{1} + s^2C_{2}R_L}
-
 $$
 
 
@@ -2093,9 +2067,7 @@ This can be transformed into a low-pass prototype filter with the transform:
 
 
 $$
-
 s = \frac{1}{RC} \cdot \frac{1 - \sqrt{1 - 4B^2}}{2B}
-
 $$
 
 
@@ -2193,9 +2165,7 @@ The gain of one stage of the amplifier, denoted as "A"("s"), can be expressed as
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd}R_{gd}} \cdot \frac{1}{1 + sC_{gs}R_{gs}} \cdot \frac{1}{1 + sC_{db}R_{db}}
-
 $$
 
 
@@ -2205,9 +2175,7 @@ This expression can be written in a more generic form, assuming that the resonat
 
 
 $$
-
 C_{gd} = \frac{C_{gd0}}{1 + sC_{gd0}R_{gd0}}, \quad C_{gs} = \frac{C_{gs0}}{1 + sC_{gs0}R_{gs0}}, \quad C_{db} = \frac{C_{db0}}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2217,9 +2185,7 @@ This results in the following expression for the stage gain:
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2233,9 +2199,7 @@ The gain expression can also be given as a function of angular frequency by subs
 
 
 $$
-
 |A(i\omega)| = \frac{g_m}{\sqrt{1 + (\omega C_{gd0}R_{gd0})^2}} \cdot \frac{1}{\sqrt{1 + (\omega C_{gs0}R_{gs0})^2}} \cdot \frac{1}{\sqrt{1 + (\omega C_{db0}R_{db0})^2}} = \frac{1}{\sqrt{2}}
-
 $$
 
 
@@ -2245,9 +2209,7 @@ Solving this for "ω"<sub>c</sub> and taking the difference between the two posi
 
 
 $$
-
 \Delta \omega = \omega_2 - \omega_1 = \frac{1}{C_{gd0}R_{gd0}} - \frac{1}{C_{gs0}R_{gs0}} - \frac{1}{C_{db0}R_{db0}}
-
 $$
 
 
@@ -2257,9 +2219,7 @@ The fractional bandwidth "B" can also be calculated as:
 
 
 $$
-
 B = \frac{\Delta \omega}{\omega_0} = \frac{\Delta \omega}{\frac{1}{C_{gd0}R_{gd0}} + \frac{1}{C_{gs0}R_{gs0}} + \frac{1}{C_{db0}R_{db0}}}
-
 $$
 
 
@@ -2273,9 +2233,7 @@ The overall response of the amplifier is given by the product of the individual 
 
 
 $$
-
 A(s) = A_1(s) \cdot A_2(s) \cdot ... \cdot A_n(s)
-
 $$
 
 
@@ -2285,9 +2243,7 @@ To design the filter from a standard low-pass prototype filter, the stage gain e
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}} = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2297,9 +2253,7 @@ This can be transformed into a low-pass prototype filter with the transform:
 
 
 $$
-
 s = \frac{1}{\omega_0} \cdot \frac{z - 1}{z + 1}
-
 $$
 
 
@@ -2351,9 +2305,7 @@ The gain of one stage of the amplifier, denoted as "A"("s"), can be expressed as
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd}R_{gd}} \cdot \frac{1}{1 + sC_{gs}R_{gs}} \cdot \frac{1}{1 + sC_{db}R_{db}}
-
 $$
 
 
@@ -2363,9 +2315,7 @@ This expression can be written in a more generic form, assuming that the resonat
 
 
 $$
-
 C_{gd} = \frac{C_{gd0}}{1 + sC_{gd0}R_{gd0}}, \quad C_{gs} = \frac{C_{gs0}}{1 + sC_{gs0}R_{gs0}}, \quad C_{db} = \frac{C_{db0}}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2375,9 +2325,7 @@ This results in the following expression for the stage gain:
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2391,9 +2339,7 @@ The gain expression can also be given as a function of angular frequency by subs
 
 
 $$
-
 |A(i\omega)| = \frac{g_m}{\sqrt{(1 + \omega^2C_{gd0}^2R_{gd0}^2)(1 + \omega^2C_{gs0}^2R_{gs0}^2)(1 + \omega^2C_{db0}^2R_{db0}^2)}} = \frac{1}{\sqrt{2}}
-
 $$
 
 
@@ -2403,9 +2349,7 @@ Solving this for "ω"<sub>c</sub> and taking the difference between the two posi
 
 
 $$
-
 \Delta\omega = \omega_2 - \omega_1 = \frac{1}{\sqrt{C_{gd0}^2R_{gd0}^2 + C_{gs0}^2R_{gs0}^2 + C_{db0}^2R_{db0}^2}}
-
 $$
 
 
@@ -2415,9 +2359,7 @@ and the fractional bandwidth "B":
 
 
 $$
-
 B = \frac{\Delta\omega}{\omega_0} = \frac{1}{\omega_0\sqrt{C_{gd0}^2R_{gd0}^2 + C_{gs0}^2R_{gs0}^2 + C_{db0}^2R_{db0}^2}}
-
 $$
 
 
@@ -2431,9 +2373,7 @@ The overall response of the amplifier is given by the product of the individual 
 
 
 $$
-
 A(s) = A_1(s) \cdot A_2(s) \cdot ... \cdot A_n(s)
-
 $$
 
 
@@ -2443,9 +2383,7 @@ It is desirable to be able to design the filter from a standard low-pass prototy
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}} = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}} \cdot \frac{1}{1 + sC_{gd1}R_{gd1}} \cdot \frac{1}{1 + sC_{gs1}R_{gs1}} \cdot \frac{1}{1 + sC_{db1}R_{db1}} \cdot ... \cdot \frac{1}{1 + sC_{gdn}R_{gdn}} \cdot \frac{1}{1 + sC_{gsn}R_{gsn}} \cdot \frac{1}{1 + sC_{dbn}R_{dbn}}
-
 $$
 
 
@@ -2455,9 +2393,7 @@ This can be transformed into a low-pass prototype filter with the transform:
 
 
 $$
-
 s = \frac{s'}{\omega_0}, \quad C_{gd} = \frac{C_{gd}'}{\omega_0}, \quad C_{gs} = \frac{C_{gs}'}{\omega_0}, \quad C_{db} = \frac{C_{db}'}{\omega_0}
-
 $$
 
 
@@ -2509,9 +2445,7 @@ The gain of one stage of the amplifier, denoted as "A"("s"), can be expressed as
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd}R_{gd}} \cdot \frac{1}{1 + sC_{gs}R_{gs}} \cdot \frac{1}{1 + sC_{db}R_{db}}
-
 $$
 
 
@@ -2521,9 +2455,7 @@ This expression can be written in a more generic form, assuming that the resonat
 
 
 $$
-
 C_{gd} = \frac{C_{gd0}}{1 + sC_{gd0}R_{gd0}}, \quad C_{gs} = \frac{C_{gs0}}{1 + sC_{gs0}R_{gs0}}, \quad C_{db} = \frac{C_{db0}}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2533,9 +2465,7 @@ This results in the following expression for the stage gain:
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}}
-
 $$
 
 
@@ -2549,9 +2479,7 @@ The gain expression can also be given as a function of angular frequency by subs
 
 
 $$
-
 |A(i\omega)| = \frac{g_m}{\sqrt{(1 + \omega^2C_{gd0}^2R_{gd0}^2)(1 + \omega^2C_{gs0}^2R_{gs0}^2)(1 + \omega^2C_{db0}^2R_{db0}^2)}} = \frac{1}{\sqrt{2}}
-
 $$
 
 
@@ -2561,9 +2489,7 @@ Solving this for "ω"<sub>c</sub> and taking the difference between the two posi
 
 
 $$
-
 \Delta \omega = \omega_2 - \omega_1 = \frac{1}{\sqrt{C_{gd0}^2R_{gd0}^2 + C_{gs0}^2R_{gs0}^2 + C_{db0}^2R_{db0}^2}}
-
 $$
 
 
@@ -2573,9 +2499,7 @@ And the fractional bandwidth "B":
 
 
 $$
-
 B = \frac{\Delta \omega}{\omega_0} = \frac{1}{\omega_0\sqrt{C_{gd0}^2R_{gd0}^2 + C_{gs0}^2R_{gs0}^2 + C_{db0}^2R_{db0}^2}}
-
 $$
 
 
@@ -2589,9 +2513,7 @@ The overall response of the amplifier is given by the product of the individual 
 
 
 $$
-
 A(s) = A_1(s) \cdot A_2(s) \cdot ... \cdot A_n(s)
-
 $$
 
 
@@ -2601,9 +2523,7 @@ It is desirable to be able to design the filter from a standard low-pass prototy
 
 
 $$
-
 A(s) = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}} = \frac{g_m}{1 + sC_{gd0}R_{gd0}} \cdot \frac{1}{1 + sC_{gs0}R_{gs0}} \cdot \frac{1}{1 + sC_{db0}R_{db0}} \cdot \frac{1}{1 + sC_{gd1}R_{gd1}} \cdot \frac{1}{1 + sC_{gs1}R_{gs1}} \cdot \frac{1}{1 + sC_{db1}R_{db1}} \cdot ... \cdot \frac{1}{1 + sC_{gdn}R_{gdn}} \cdot \frac{1}{1 + sC_{gsn}R_{gsn}} \cdot \frac{1}{1 + sC_{dbn}R_{dbn}}
-
 $$
 
 
@@ -2983,9 +2903,7 @@ The noise figure, denoted by $NF$, is defined as the ratio of the output noise p
 
 
 $$
-
 NF = \frac{P_{out,noise}}{P_{in,noise}}
-
 $$
 
 
@@ -2999,9 +2917,7 @@ In order to calculate the noise figure, we must first determine the input and ou
 
 
 $$
-
 P_{in,noise} = k_B T_{in} B
-
 $$
 
 
@@ -3011,9 +2927,7 @@ where $B$ is the bandwidth of the input signal. Similarly, the output noise powe
 
 
 $$
-
 P_{out,noise} = k_B T_{out} B
-
 $$
 
 
@@ -3023,9 +2937,7 @@ Substituting these equations into the definition of noise figure, we get:
 
 
 $$
-
 NF = \frac{k_B T_{out}}{k_B T_{in}} = \frac{T_{out}}{T_{in}}
-
 $$
 
 
@@ -3541,7 +3453,6 @@ The output frequency of a VCO is typically a function of the input voltage, and 
 $$f_{out} = f_{free} + g_v \cdot V_{in}$$
 
 
-
 Where $f_{out}$ is the output frequency, $f_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $V_{in}$ is the input voltage. This equation shows that the output frequency of a VCO can be controlled by varying the input voltage, making it a versatile component in communication circuits.
 
 
@@ -3595,9 +3506,7 @@ Voltage controlled oscillators (VCOs) are electronic circuits that generate a pe
 The output frequency of a VCO is typically a function of the input voltage, and this relationship can be described by the following equation:
 
 
-
 $$f_{out} = f_{free} + g_v \cdot V_{in}$$
-
 
 
 Where $f_{out}$ is the output frequency, $f_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $V_{in}$ is the input voltage. This equation shows that the output frequency of a VCO can be controlled by varying the input voltage, making it a versatile component in communication circuits.
@@ -3653,9 +3562,7 @@ Voltage controlled oscillators (VCOs) are electronic circuits that generate a pe
 The output frequency of a VCO is typically a function of the input voltage, and this relationship can be described by the following equation:
 
 
-
 $$f_{out} = f_{free} + g_v \cdot V_{in}$$
-
 
 
 Where $f_{out}$ is the output frequency, $f_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $V_{in}$ is the input voltage. This equation shows that the output frequency of a VCO can be controlled by varying the input voltage, making it a versatile component in communication circuits.
@@ -4693,13 +4600,11 @@ A PLL is a feedback control system that compares the phase of an input signal to
 The VCO frequency is usually expressed as a function of the VCO input, which is typically a DC voltage. This relationship is given by:
 
 
-
 $$
 
 \omega_{free} + g_v g(t)
 
 $$
-
 
 
 where $\omega_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $g(t)$ is the VCO input. The loop filter, which is responsible for filtering and amplifying the error signal, can be described by a system of linear differential equations. The output of the filter, $g(t)$, is then used to adjust the VCO frequency, completing the feedback loop.
@@ -4743,13 +4648,11 @@ A PLL is a feedback control system that compares the phase of an input signal to
 The VCO frequency is usually expressed as a function of the VCO input, which is typically a DC voltage. This relationship is given by:
 
 
-
 $$
 
 \omega_{free} + g_v g(t)
 
 $$
-
 
 
 where $\omega_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $g(t)$ is the VCO input. The loop filter, which is responsible for filtering and amplifying the error signal, can be described by a system of linear differential equations. The output of the filter, $g(t)$, is then used to adjust the VCO frequency, completing the feedback loop.
@@ -4805,13 +4708,11 @@ A PLL is a feedback control system that compares the phase of an input signal to
 The VCO frequency is usually expressed as a function of the VCO input, which is typically a DC voltage. This relationship is given by:
 
 
-
 $$
 
 \omega_{free} + g_v g(t)
 
 $$
-
 
 
 where $\omega_{free}$ is the free-running frequency of the VCO, $g_v$ is the sensitivity of the VCO in Hz/V, and $g(t)$ is the VCO input. The loop filter, which is responsible for filtering and amplifying the error signal, can be described by a system of linear differential equations. The output of the filter, $g(t)$, is then used to adjust the VCO frequency, completing the feedback loop.
@@ -5837,21 +5738,17 @@ In this case study, we will be designing an RF transceiver for the IEEE 802.11ah
 The first step in the design process is to determine the required gain and noise figure for the transceiver. For the IEEE 802.11ah standard, the desired output power is 20 dBm and the SNR is 20 dB. Using the equations for gain and noise figure, we can calculate the required values for our transceiver:
 
 
-
 $$
 
 G = \frac{P_{out}}{P_{in}} = \frac{10^{20/10}}{10^{20/10-20/10}} = 100
 
 $$
 
-
-
 $$
 
 F = \frac{SNR_{in}}{SNR_{out}} = \frac{10^{20/10}}{10^{20/10-20/10}} = 100
 
 $$
-
 
 
 Next, we need to calculate the cumulative gain and noise figure of the transceiver. This is done by considering the gain and noise figure of each individual component in the transceiver, as well as the overall gain of the system. For convenience, we will use a spreadsheet to perform these calculations, as shown in the previous section.
@@ -5861,21 +5758,17 @@ Next, we need to calculate the cumulative gain and noise figure of the transceiv
 The cumulative gain and noise figure will determine the overall performance of the transceiver and can be used to optimize the design. In this case, we will assume that the transceiver consists of a cascade of devices that are impedance matched. This allows us to use the equations for cumulative gain and noise figure, as shown below:
 
 
-
 $$
 
 G_{cum,n} = G_{cum,n-1} + G_n - 1
 
 $$
 
-
-
 $$
 
 F_{cum,n} = \frac{F_{cum,n-1} + F_n - 1}{F_{cum,n-1}F_n}
 
 $$
-
 
 
 where $G_{cum,n-1}$ and $F_{cum,n-1}$ are the cumulative gain and noise figure of the first (n-1) stages, and $G_n$ and $F_n$ are the gain and noise figure of the nth stage.
@@ -5885,13 +5778,11 @@ where $G_{cum,n-1}$ and $F_{cum,n-1}$ are the cumulative gain and noise figure o
 Once the gain and noise figure have been determined, we can calculate the 1 dB compression point of the transceiver. This is an important parameter to consider, as it determines the maximum input power that the transceiver can handle without distortion. Using the equations for cumulative 1 dB compression point, we can determine the maximum input power for our transceiver:
 
 
-
 $$
 
 P_{1dB,cum,n} = P_{1dB,cum,n-1} + \frac{P_{1dB,n} - 1}{G_{cum,n-1}}
 
 $$
-
 
 
 where $P_{1dB,cum,n-1}$ is the cumulative 1 dB compression point of the first (n-1) stages, and $P_{1dB,n}$ is the 1 dB compression point of the nth stage.
@@ -6859,13 +6750,11 @@ Precoding is a technique used in MIMO systems to improve the overall system perf
 The standard narrowband, slowly fading channel model for point-to-point MIMO systems can be described by the following equation:
 
 
-
 $$
 
 y_j(n) = \sum_{i=1}^{N_t} h_{ji}x_i(n) + w_j(n)
 
 $$
-
 
 
 where $y_j(n)$ is the received signal at antenna $j$, $N_t$ is the number of transmit antennas, $h_{ji}$ is the channel coefficient between transmit antenna $i$ and receive antenna $j$, $x_i(n)$ is the transmitted signal from antenna $i$, and $w_j(n)$ is the additive white Gaussian noise at antenna $j$.
@@ -7687,13 +7576,11 @@ Noise figure is defined as the ratio of the output noise power to the input nois
 To measure noise figure, we need to first understand the concept of noise temperature. Noise temperature is a measure of the amount of noise power that a circuit adds to a signal at a given frequency. It is expressed in Kelvin (K) and is related to noise figure by the following equation:
 
 
-
 $$
 
 F = 1 + \frac{T_{noise}}{T_{0}}
 
 $$
-
 
 
 where $F$ is the noise figure, $T_{noise}$ is the noise temperature, and $T_{0}$ is the reference temperature (usually 290 K).
@@ -7703,13 +7590,11 @@ where $F$ is the noise figure, $T_{noise}$ is the noise temperature, and $T_{0}$
 The most common method for measuring noise figure is the Y-factor method. This method involves measuring the output noise power of the circuit at two different temperatures: a hot temperature ($T_{hot}$) and a cold temperature ($T_{cold}$). The difference in the output noise power at these two temperatures is used to calculate the noise figure using the following equation:
 
 
-
 $$
 
 F = \frac{P_{out}(T_{hot}) - P_{out}(T_{cold})}{kTB}
 
 $$
-
 
 
 where $P_{out}$ is the output noise power, $k$ is the Boltzmann constant, $T$ is the temperature, and $B$ is the bandwidth.
@@ -7719,13 +7604,11 @@ where $P_{out}$ is the output noise power, $k$ is the Boltzmann constant, $T$ is
 Another method for measuring noise figure is the gain method. This method involves measuring the gain of the circuit at two different frequencies: a reference frequency ($f_{ref}$) and a test frequency ($f_{test}$). The noise figure can then be calculated using the following equation:
 
 
-
 $$
 
 F = \frac{G_{test}}{G_{ref}} \cdot \frac{1}{1 + \frac{T_{noise}}{T_{0}} \cdot \frac{f_{test}}{f_{ref}}}
 
 $$
-
 
 
 where $G$ is the gain of the circuit.
@@ -7757,13 +7640,11 @@ In the previous section, we discussed the concept of noise figure and its import
 The Y-factor method is the most commonly used technique for measuring noise figure. It involves measuring the output noise power of the circuit at two different temperatures: a hot temperature ($T_{hot}$) and a cold temperature ($T_{cold}$). The difference in the output noise power at these two temperatures is then used to calculate the noise figure using the following equation:
 
 
-
 $$
 
 F = \frac{P_{out}(T_{hot}) - P_{out}(T_{cold})}{kTB}
 
 $$
-
 
 
 where $P_{out}$ is the output noise power, $k$ is the Boltzmann constant, $T$ is the temperature, and $B$ is the bandwidth.
@@ -7783,7 +7664,6 @@ One advantage of the Y-factor method is that it does not require any knowledge o
 
 
 Another commonly used technique for measuring noise figure is the gain method. This method involves measuring the gain of the circuit at two different frequencies: a reference frequency ($f_{ref}$) and a test frequency ($f_{test}$). The noise figure can then be calculated using the following equation:
-
 
 
 $$

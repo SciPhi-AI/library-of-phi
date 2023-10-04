@@ -2062,9 +2062,7 @@ Mathematically, translation can be represented as:
 
 
 $$
-
 T(x,y) = (x + \Delta x, y + \Delta y)
-
 $$
 
 
@@ -2078,9 +2076,7 @@ Rotation can be represented as:
 
 
 $$
-
 R(x,y) = (x\cos\theta - y\sin\theta, x\sin\theta + y\cos\theta)
-
 $$
 
 
@@ -2094,9 +2090,7 @@ Scaling can be represented as:
 
 
 $$
-
 S(x,y) = (ax, by)
-
 $$
 
 
@@ -2118,9 +2112,7 @@ Mathematically, the union of two shapes $A$ and $B$ can be represented as:
 
 
 $$
-
 A \cup B = \{x | x \in A \text{ or } x \in B\}
-
 $$
 
 
@@ -2130,9 +2122,7 @@ The intersection of two shapes $A$ and $B$ can be represented as:
 
 
 $$
-
 A \cap B = \{x | x \in A \text{ and } x \in B\}
-
 $$
 
 
@@ -2200,9 +2190,7 @@ Mathematically, translation can be represented as:
 
 
 $$
-
 T(x,y) = (x + \Delta x, y + \Delta y)
-
 $$
 
 
@@ -2216,9 +2204,7 @@ Rotation can be represented as:
 
 
 $$
-
 R(x,y) = (x\cos\theta - y\sin\theta, x\sin\theta + y\cos\theta)
-
 $$
 
 
@@ -2232,9 +2218,7 @@ Scaling can be represented as:
 
 
 $$
-
 S(x,y) = (ax, by)
-
 $$
 
 
@@ -2322,9 +2306,7 @@ Mathematically, symmetry can be represented as:
 
 
 $$
-
 S(x,y) = (-x,y)
-
 $$
 
 
@@ -2338,9 +2320,7 @@ Repetition can be represented as:
 
 
 $$
-
 R(x,y) = (x + n, y + m)
-
 $$
 
 
@@ -2354,9 +2334,7 @@ Transformation can be represented as:
 
 
 $$
-
 T(x,y) = (ax + b, cy + d)
-
 $$
 
 
@@ -2424,9 +2402,7 @@ Mathematically, symmetry can be represented as:
 
 
 $$
-
 S(x,y) = (-x,y)
-
 $$
 
 
@@ -2440,9 +2416,7 @@ Repetition can be represented as:
 
 
 $$
-
 R(x,y) = (x + n, y + m)
-
 $$
 
 
@@ -2456,9 +2430,7 @@ Transformation can be represented as:
 
 
 $$
-
 T(x,y) = (ax + b, cy + d)
-
 $$
 
 
@@ -2544,9 +2516,7 @@ Mathematically, symmetry can be represented as:
 
 
 $$
-
 S(x,y) = (-x,y)
-
 $$
 
 
@@ -2560,9 +2530,7 @@ Repetition can be represented as:
 
 
 $$
-
 R(x,y) = (x + n, y + m)
-
 $$
 
 
@@ -2576,9 +2544,7 @@ Transformation can be represented as:
 
 
 $$
-
 T(x,y) = (ax + b, cy + d)
-
 $$
 
 
@@ -13568,9 +13534,7 @@ Now, let's use data analysis techniques to analyze design data and make informed
 
 
 $$
-
 y_j(n) = \sum_{i=1}^{N} w_{ij}x_i(n)
-
 $$
 
 
@@ -13656,9 +13620,7 @@ To represent our data and predictions, we can use Markdown and math expressions.
 
 
 $$
-
 P(success) = \frac{num\ successful\ designs}{total\ number\ of\ designs}
-
 $$
 
 

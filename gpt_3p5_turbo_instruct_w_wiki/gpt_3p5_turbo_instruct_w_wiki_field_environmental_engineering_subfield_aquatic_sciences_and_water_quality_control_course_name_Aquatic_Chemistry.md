@@ -1327,7 +1327,6 @@ To understand the first law of thermodynamics, we must first define some key ter
 $$\Delta U = Q - W$$
 
 
-
 This equation is known as the general equation of heat transfer and is applicable to all systems, including aquatic systems. It tells us that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
 
 
@@ -1339,9 +1338,7 @@ Another important concept in thermodynamics is entropy, denoted by S. Entropy is
 The equation for entropy production, denoted by Ds, is given by:
 
 
-
 $$\rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}$$
-
 
 
 This equation takes into account thermal conduction and viscous forces and shows that the specific entropy production, Ds, is directly proportional to the temperature gradient, the velocity gradient, and the rate of strain. In the absence of thermal conduction and viscous forces, the equation for entropy production collapses to Ds/Dt=0, indicating that ideal fluid flow is isentropic.
@@ -1401,9 +1398,7 @@ The second law of thermodynamics is a fundamental principle that governs the beh
 To understand the second law of thermodynamics, we must first define some key terms. Entropy, denoted by S, is a measure of the disorder or randomness of a system. The change in entropy, ΔS, is equal to the heat, Q, added to the system divided by the temperature, T, at which the heat is added. This can be expressed mathematically as:
 
 
-
 $$\Delta S = \frac{Q}{T}$$
-
 
 
 This equation is known as the equation for entropy production and is applicable to all systems, including aquatic systems. It tells us that the change in entropy of a system is directly proportional to the heat added to the system and inversely proportional to the temperature at which the heat is added.
@@ -1653,7 +1648,6 @@ Overall, this chapter will provide a solid foundation in equilibrium principles 
 In this section, we will discuss the concept of Gibbs free energy and its importance in understanding equilibrium in aquatic chemistry. The Gibbs free energy (or Gibbs energy) is a thermodynamic potential that measures the maximum amount of work that can be extracted from a closed system at constant temperature and pressure. It is denoted by the symbol $G$ and is expressed as:
 
 
-
 $$
 
 G = H - TS
@@ -1661,9 +1655,7 @@ G = H - TS
 $$
 
 
-
 where $H$ is the enthalpy, $T$ is the temperature, and $S$ is the entropy. The Gibbs free energy change, $\Delta G$, is a measure of the maximum amount of non-volume expansion work that can be extracted from a closed system at constant temperature and pressure. It is given by:
-
 
 
 $$
@@ -1671,7 +1663,6 @@ $$
 \Delta G = \Delta H - T \Delta S
 
 $$
-
 
 
 The Gibbs free energy is an important concept in aquatic chemistry because it provides a necessary condition for processes such as chemical reactions to occur. In order for a reaction to be spontaneous, there must be a decrease in Gibbs free energy. This means that the reaction will proceed in the direction that leads to a decrease in Gibbs free energy until equilibrium is reached.
@@ -1715,7 +1706,6 @@ In the next subsection, we will define the Gibbs free energy change and discuss 
 In this section, we will discuss the concept of Gibbs free energy and its importance in understanding equilibrium in aquatic chemistry. The Gibbs free energy (or Gibbs energy) is a thermodynamic potential that measures the maximum amount of work that can be extracted from a closed system at constant temperature and pressure. It is denoted by the symbol $G$ and is expressed as:
 
 
-
 $$
 
 G = H - TS
@@ -1723,9 +1713,7 @@ G = H - TS
 $$
 
 
-
 where $H$ is the enthalpy, $T$ is the temperature, and $S$ is the entropy. The Gibbs free energy change, $\Delta G$, is a measure of the maximum amount of non-volume expansion work that can be extracted from a closed system at constant temperature and pressure. It is given by:
-
 
 
 $$
@@ -1733,7 +1721,6 @@ $$
 \Delta G = \Delta H - T \Delta S
 
 $$
-
 
 
 The Gibbs free energy is an important concept in aquatic chemistry because it provides a necessary condition for processes such as chemical reactions to occur. In order for a reaction to be spontaneous, there must be a decrease in Gibbs free energy. This means that the reaction will proceed in the direction that leads to a decrease in Gibbs free energy until equilibrium is reached.
@@ -1767,13 +1754,11 @@ One of the key applications of Gibbs free energy in aquatic chemistry is in pred
 To calculate the change in Gibbs free energy, we use the equation:
 
 
-
 $$
 
 \Delta G = \Delta H - T \Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy and $\Delta S$ is the change in entropy. By knowing the values of these parameters, we can predict the direction and extent of a reaction. For example, if $\Delta G$ is negative, the reaction will proceed spontaneously in the forward direction. If $\Delta G$ is positive, the reaction will not occur spontaneously and will require an input of energy to proceed.
@@ -1805,7 +1790,6 @@ In conclusion, the concept of Gibbs free energy is essential in understanding eq
 In this section, we will discuss the concept of Gibbs free energy and its importance in understanding equilibrium in aquatic chemistry. The Gibbs free energy (or Gibbs energy) is a thermodynamic potential that measures the maximum amount of work that can be extracted from a closed system at constant temperature and pressure. It is denoted by the symbol $G$ and is expressed as:
 
 
-
 $$
 
 G = H - TS
@@ -1813,9 +1797,7 @@ G = H - TS
 $$
 
 
-
 where $H$ is the enthalpy, $T$ is the temperature, and $S$ is the entropy. The Gibbs free energy change, $\Delta G$, is a measure of the maximum amount of non-volume expansion work that can be extracted from a closed system at constant temperature and pressure. It is given by:
-
 
 
 $$
@@ -1823,7 +1805,6 @@ $$
 \Delta G = \Delta H - T \Delta S
 
 $$
-
 
 
 The Gibbs free energy is an important concept in aquatic chemistry because it provides a necessary condition for processes such as chemical reactions to occur. In order for a reaction to be spontaneous, there must be a decrease in Gibbs free energy. This means that the reaction will proceed in the direction that leads to a decrease in Gibbs free energy until equilibrium is reached.
@@ -1883,13 +1864,11 @@ The abstract definition of chemical potential given above is more specifically k
 Mathematically, the total chemical potential can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the sum of electric potential, gravitational potential, and other external potentials. This can be understood by considering the total energy of a system, $U$, which is the sum of internal energy, $U_{int}$, and external energy, $U_{ext}$. The external energy is due to the interaction of each particle with an external field and can be expressed as $U_{ext} = N(qV_{ele} + mgh + ...)$, where $q$ and $m$ are the charge and mass of the species, $V_{ele}$ and $h$ are the electric potential and height of the container, and $g$ is the acceleration due to gravity.
@@ -1949,13 +1928,11 @@ The abstract definition of chemical potential given above is more specifically k
 Mathematically, the total chemical potential can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the sum of electric potential, gravitational potential, and other external potentials. This can be understood by considering the total energy of a system, $U$, which is the sum of internal energy, $U_{int}$, and external energy, $U_{ext}$. The external energy is due to the interaction of each particle with an external field and can be expressed as $U_{ext} = N(qV_{ele} + mgh + ...)$, where $q$ and $m$ are the charge and mass of the species, $V_{ele}$ and $h$ are the electric potential and height of the container, and $g$ is the acceleration due to gravity.
@@ -1977,7 +1954,6 @@ In the previous section, we discussed the definition of chemical potential and i
 At equilibrium, the Gibbs free energy "G" is at a minimum, given a specified temperature and pressure and no external forces. This can be expressed mathematically as:
 
 
-
 $$
 
 \Delta G = \sum_{j} \mu_j \Delta N_j = 0
@@ -1985,9 +1961,7 @@ $$
 $$
 
 
-
 where $\mu_j$ is the chemical potential of molecular species "j" and $\Delta N_j$ is the change in the amount of species "j". This equation can also be written in terms of thermodynamic activity as:
-
 
 
 $$
@@ -1997,7 +1971,6 @@ $$
 $$
 
 
-
 where $R$ is the gas constant, $T$ is the absolute temperature, and $a_j$ is the activity of species "j".
 
 
@@ -2005,13 +1978,11 @@ where $R$ is the gas constant, $T$ is the absolute temperature, and $a_j$ is the
 For a closed system, the total number of atoms of each element remains constant. This means that the minimization of Gibbs energy must be subjected to the constraints:
 
 
-
 $$
 
 \sum_{j} a_{ij} \Delta N_j = b_i
 
 $$
-
 
 
 where $a_{ij}$ is the number of atoms of element "i" in molecule "j" and $b_i$ is the total number of atoms of element "i", which is a constant since the system is closed. If there are a total of "k" types of atoms in the system, then there will be "k" such equations. If ions are involved, an additional row is added to the $a_{ij}$ matrix specifying the respective charge on each molecule, which will sum to zero.
@@ -2025,7 +1996,6 @@ This is a standard problem in optimization, known as constrained minimization. T
 Define:
 
 
-
 $$
 
 \Phi = \sum_{j} \mu_j \Delta N_j - \sum_{i} \lambda_i \left(\sum_{j} a_{ij} \Delta N_j - b_i \right)
@@ -2033,9 +2003,7 @@ $$
 $$
 
 
-
 where the $\lambda_i$ are the Lagrange multipliers, one for each element. This allows each of the $\Delta N_j$ and $\lambda_j$ to be treated independently, and it can be shown using the tools of multivariate calculus that the equilibrium condition is given by:
-
 
 
 $$
@@ -2043,7 +2011,6 @@ $$
 \frac{\partial \Phi}{\partial \Delta N_j} = 0
 
 $$
-
 
 
 This is a set of ("m" + "k") equations in ("m" + "k") unknowns (the $\Delta N_j$ and the $\lambda_i$) and may, therefore, be solved for the equilibrium concentrations $\Delta N_j$ as needed. This method is commonly used in aquatic chemistry to determine the equilibrium concentrations of various species in a closed system. 
@@ -2079,13 +2046,11 @@ The abstract definition of chemical potential given above is more specifically k
 Mathematically, the total chemical potential can be expressed as:
 
 
-
 $$
 
 \mu_{tot} = \mu_{int} + \mu_{ext}
 
 $$
-
 
 
 where $\mu_{ext}$ is the sum of electric potential, gravitational potential, and other external potentials. This can be understood by considering the total energy of a system, $U$, which is the sum of internal energy, $U_{int}$, and external energy, $U_{ext}$. The external energy is due to the interaction of each particle with an external field and can be expressed as $U_{ext} = N(qV_{ele} + mgh + ...)$, where $q$ and $m$ are the charge and mass of the species, $V_{ele}$ and $h$ are the electric potential and height of the container, and $g$ is the acceleration due to gravity.
@@ -2157,13 +2122,11 @@ Equilibrium constants are numerical values that represent the ratio of the conce
 Mathematically, the equilibrium constant can be expressed as:
 
 
-
 $$
 
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where [A], [B], [C], and [D] represent the concentrations of the reactants and products, and a, b, c, and d represent the stoichiometric coefficients of the respective species in the balanced chemical equation.
@@ -2177,13 +2140,11 @@ Equilibrium constants can also be expressed in terms of activities, which take i
 The relationship between equilibrium constants and activities can be expressed as:
 
 
-
 $$
 
 K = \frac{a_C^c a_D^d}{a_A^a a_B^b}
 
 $$
-
 
 
 where $a_A$, $a_B$, $a_C$, and $a_D$ represent the activities of the respective species.
@@ -2231,13 +2192,11 @@ In the previous section, we discussed the concept of equilibrium constants and t
 Equilibrium constants can be calculated using various methods, depending on the complexity of the system. For simple systems, such as those with only two reactants and two products, the equilibrium constant can be calculated using the following formula:
 
 
-
 $$
 
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where [A], [B], [C], and [D] represent the concentrations of the reactants and products, and a, b, c, and d represent the stoichiometric coefficients of the respective species in the balanced chemical equation.
@@ -2777,7 +2736,6 @@ In order to understand the effects of temperature on equilibrium, we must first 
 Temperature can affect equilibrium in two ways: by changing the equilibrium constant and by altering the rates of the forward and reverse reactions. The relationship between temperature and equilibrium can be described by the Van't Hoff equation, which states that the equilibrium constant is directly proportional to the change in enthalpy (ΔH) over the gas constant (R) multiplied by the temperature in Kelvin (T).
 
 
-
 $$
 
 \ln K = -\frac{\Delta H}{RT}
@@ -2785,9 +2743,7 @@ $$
 $$
 
 
-
 This equation is known as the Arrhenius equation and is commonly used to describe the temperature dependence of chemical reactions. It states that the rate of a reaction increases exponentially with increasing temperature, with a proportionality constant known as the activation energy (Ea).
-
 
 
 $$
@@ -2795,7 +2751,6 @@ $$
 k = Ae^{-\frac{E_a}{RT}}
 
 $$
-
 
 
 ## Temperature Effects on Solubility
@@ -2875,13 +2830,11 @@ As mentioned before, temperature can affect equilibrium in two ways: by changing
 The Van't Hoff equation, which relates the equilibrium constant to the change in enthalpy and temperature, can be used to calculate the change in equilibrium constant (ΔK) for a given change in temperature (ΔT).
 
 
-
 $$
 
 \Delta K = K_2 - K_1 = -\frac{\Delta H}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
 
 $$
-
 
 
 This equation shows that the equilibrium constant is directly proportional to the change in temperature. As temperature increases, the equilibrium constant also increases, and vice versa. This is due to the fact that temperature affects the energy of the molecules involved in the reaction, and thus, their ability to overcome the activation energy barrier.
@@ -2895,13 +2848,11 @@ This equation shows that the equilibrium constant is directly proportional to th
 The Arrhenius equation, which relates the rate of a reaction to the activation energy and temperature, can be used to calculate the change in rate (Δk) for a given change in temperature (ΔT).
 
 
-
 $$
 
 \Delta k = k_2 - k_1 = Ae^{-\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)}
 
 $$
-
 
 
 This equation shows that the rate of a reaction increases exponentially with increasing temperature. This is because at higher temperatures, molecules have more kinetic energy and are more likely to collide with enough energy to overcome the activation energy barrier and proceed with the reaction.
@@ -3105,13 +3056,11 @@ In the previous section, we discussed the basic principles of pressure effects o
 As discussed in the previous section, Le Chatelier's principle plays a crucial role in understanding pressure effects on equilibrium. This principle can be mathematically expressed as follows:
 
 
-
 $$
 
 \Delta n = \sum_{i} \nu_i \Delta n_i
 
 $$
-
 
 
 Where $\Delta n$ is the change in the number of gas molecules, $\nu_i$ is the stoichiometric coefficient of the $i$th gas molecule, and $\Delta n_i$ is the change in the number of molecules of the $i$th gas.
@@ -3129,13 +3078,11 @@ This equation allows us to quantitatively analyze the effects of pressure on equ
 As mentioned before, one of the most significant effects of pressure on equilibrium in aquatic systems is its impact on gas solubility. This effect can be quantitatively analyzed using Henry's law, which states that the solubility of a gas in a liquid is directly proportional to the partial pressure of that gas above the liquid.
 
 
-
 $$
 
 C = kP
 
 $$
-
 
 
 Where $C$ is the concentration of the gas in the liquid, $k$ is the Henry's law constant, and $P$ is the partial pressure of the gas.
@@ -3157,13 +3104,11 @@ In addition to affecting gas solubility, pressure can also have a direct impact 
 This effect can be quantitatively analyzed using the Arrhenius equation, which relates the rate constant of a reaction to the activation energy and temperature.
 
 
-
 $$
 
 k = Ae^{-\frac{E_a}{RT}}
 
 $$
-
 
 
 Where $k$ is the rate constant, $A$ is the pre-exponential factor, $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature.
@@ -3325,9 +3270,7 @@ As mentioned in the previous section, the Pitzer equations provide a way to calc
 The main goal of thermodynamics in this context is to derive estimates of single-ion thermodynamic quantities such as hydration enthalpy and hydration entropy. These quantities relate to the reaction:
 
 
-
 $$M^{n+} + nH_2O \rightleftharpoons M(H_2O)_n^{n+}$$
-
 
 
 The enthalpy for this reaction is not directly measurable, because all measurements use salt solutions that contain both cation and anion. Most experimental measurements relate to the heat evolved when a salt dissolves in water, which gives the sum of cation and anion solvation enthalpies. Then, by considering the data for different anions with the same cation and different cations with the same anion, single ion values relative to an arbitrary zero, are derived.
@@ -3923,13 +3866,11 @@ In thermodynamics, an activity coefficient is a factor used to account for devia
 The activity coefficient, denoted by <math>\gamma_\mathrm{B}</math>, is a measure of the deviation from ideal behavior in a solution. It is defined as the ratio of the activity of a substance in a solution to its activity in its pure state at the same temperature and pressure. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \gamma_\mathrm{B} = \frac{a_\mathrm{B}}{x_\mathrm{B}}
 
 $$
-
 
 
 where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture, and <math>x_\mathrm{B}</math> is the mole fraction of the substance in the mixture.
@@ -3939,7 +3880,6 @@ where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture,
 The activity coefficient is closely linked to the concept of activity in chemistry. The chemical potential, <math>\mu_\mathrm{B}</math>, of a substance B in an ideal mixture of liquids or an ideal solution is given by:
 
 
-
 $$
 
 \mu_\mathrm{B} = \mu_\mathrm{B}^\circ + RT\ln(x_\mathrm{B})
@@ -3947,9 +3887,7 @@ $$
 $$
 
 
-
 where <math>\mu_\mathrm{B}^\circ</math> is the chemical potential of a pure substance <math>\mathrm{B}</math>, R is the gas constant, and T is the temperature. This equation can be generalized to include non-ideal behavior by introducing the activity coefficient, <math>\gamma_\mathrm{B}</math>, as:
-
 
 
 $$
@@ -3957,7 +3895,6 @@ $$
 \mu_\mathrm{B} = \mu_\mathrm{B}^\circ + RT\ln(\gamma_\mathrm{B}x_\mathrm{B})
 
 $$
-
 
 
 This equation is known as the Gibbs-Duhem equation and is used to calculate the activity coefficient of a substance in a solution.
@@ -4001,13 +3938,11 @@ In thermodynamics, an activity coefficient is a factor used to account for devia
 The activity coefficient, denoted by <math>\gamma_\mathrm{B}</math>, is a measure of the deviation from ideal behavior in a solution. It is defined as the ratio of the activity of a substance in a solution to its activity in its pure state at the same temperature and pressure. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \gamma_\mathrm{B} = \frac{a_\mathrm{B}}{x_\mathrm{B}}
 
 $$
-
 
 
 where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture, and <math>x_\mathrm{B}</math> is the mole fraction of the substance in the mixture.
@@ -4017,13 +3952,11 @@ where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture,
 The activity coefficient is closely linked to the concept of activity in chemistry. The chemical potential, <math>\mu_\mathrm{B}</math>, of a substance B in an ideal mixture of liquids or an ideal solution is given by:
 
 
-
 $$
 
 \mu_\mathrm{B} = \mu_\mathrm{B}^\circ + RT\ln(x_\mathrm{B})
 
 $$
-
 
 
 where <math>\mu_\mathrm{B}^\circ</math> is the chemical potential of a pure substance <math>\mathrm{B}</math>, R is the gas constant, and T is the temperature. In an ideal solution, the activity coefficient is equal to 1, and the chemical potential is solely dependent on the mole fraction of the substance in the mixture.
@@ -4045,13 +3978,11 @@ The calculation of activity coefficients is a complex process that involves cons
 Another approach is through the use of empirical equations, such as the Debye-Hückel equation, which takes into account the ionic strength of the solution. This equation is given by:
 
 
-
 $$
 
 \log \gamma_\mathrm{B} = -A\sqrt{I} + BI
 
 $$
-
 
 
 where A and B are constants specific to the solvent and solute, and I is the ionic strength of the solution.
@@ -4095,13 +4026,11 @@ In thermodynamics, an activity coefficient is a factor used to account for devia
 The activity coefficient, denoted by <math>\gamma_\mathrm{B}</math>, is a measure of the deviation from ideal behavior in a solution. It is defined as the ratio of the activity of a substance in a solution to its activity in its pure state at the same temperature and pressure. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \gamma_\mathrm{B} = \frac{a_\mathrm{B}}{x_\mathrm{B}}
 
 $$
-
 
 
 where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture, and <math>x_\mathrm{B}</math> is the mole fraction of the substance in the mixture.
@@ -4111,13 +4040,11 @@ where <math>a_\mathrm{B}</math> is the activity of the substance in the mixture,
 The activity coefficient is closely linked to the concept of activity in chemistry. The chemical potential, <math>\mu_\mathrm{B}</math>, of a substance B in an ideal mixture of liquids or an ideal solution is given by:
 
 
-
 $$
 
 \mu_\mathrm{B} = \mu_\mathrm{B}^\circ + RT\ln(x_\mathrm{B})
 
 $$
-
 
 
 where <math>\mu_\mathrm{B}^\circ</math> is the chemical potential of a pure substance <math>\mathrm{B}</math>, R is the gas constant, and T is the temperature in Kelvin.
@@ -4299,13 +4226,11 @@ To understand the Debye-Huckel theory, we must first delve into the mathematical
 The Debye-Huckel equation is given by:
 
 
-
 $$
 
 \log \gamma_{\pm} = -\frac{A z_+ z_- \sqrt{I}}{1 + B \sqrt{I}}
 
 $$
-
 
 
 where $\gamma_{\pm}$ is the activity coefficient of the ion pair, A and B are constants, and I is the ionic strength of the solution. This equation allows us to calculate the activity coefficients of ions in solution, which is essential in understanding the behavior of electrolyte solutions.
@@ -4361,13 +4286,11 @@ To understand the Debye-Huckel theory, we must first delve into the mathematical
 The Debye-Huckel equation is given by:
 
 
-
 $$
 
 \log \gamma_{\pm} = -\frac{A z_+ z_- \sqrt{I}}{1 + B \sqrt{I}}
 
 $$
-
 
 
 where $\gamma_{\pm}$ is the activity coefficient of the ion pair, A and B are constants, and I is the ionic strength of the solution. This equation allows us to calculate the activity coefficient of an ion pair, which is a measure of the deviation from ideal behavior in a solution. A value of 1 for the activity coefficient indicates ideal behavior, while values greater than 1 indicate non-ideal behavior.
@@ -4423,13 +4346,11 @@ To understand the Debye-Huckel theory, we must first delve into the mathematical
 The Debye-Huckel equation is given by:
 
 
-
 $$
 
 \log \gamma_{\pm} = -\frac{A z_+ z_- \sqrt{I}}{1 + B \sqrt{I}}
 
 $$
-
 
 
 where $\gamma_{\pm}$ is the activity coefficient of the ion pair, A and B are constants, and I is the ionic strength of the solution. This equation allows us to calculate the activity coefficient for a given ion pair in a solution with a known ionic strength. However, this equation is only valid for low concentrations of electrolytes.
@@ -4661,21 +4582,17 @@ The carbonate system is a fundamental concept in aquatic chemistry that describe
 The equilibrium equations for the carbonate system are given by the following reactions:
 
 
-
 $$
 
 \chem{CO_2} + \chem{H_2O} \rightleftharpoons \chem{H^+} + \chem{HCO_3^-}
 
 $$
 
-
-
 $$
 
 \chem{HCO_3^-} \rightleftharpoons \chem{H^+} + \chem{CO_3^{2-}}
 
 $$
-
 
 
 where the subscript 'eq' denotes that these are equilibrium concentrations, "K"<sub>1</sub> is the equilibrium constant for the first reaction, and "K"<sub>2</sub> is the equilibrium constant for the second reaction. These equilibrium constants are also known as the acid dissociation constants for carbonic acid.
@@ -4685,13 +4602,11 @@ where the subscript 'eq' denotes that these are equilibrium concentrations, "K"<
 The total concentration of dissolved inorganic carbon (DIC) in the system is given by the sum of the concentrations of carbon dioxide, bicarbonate, and carbonate ions. This can be represented as:
 
 
-
 $$
 
 \text{DIC} = [\chem{CO_2}] + [\chem{HCO_3^-}] + [\chem{CO_3^{2-}}]
 
 $$
-
 
 
 The equilibrium equations and the total DIC equation can be used to create a Bjerrum plot, which is a graphical representation of the carbonate system. The plot shows the relative proportions of each species at different pH values. The intersection points of the curves for each species can be used to determine the equilibrium constants "K"<sub>1</sub> and "K"<sub>2</sub>.
@@ -4789,13 +4704,11 @@ There are two main definitions of alkalinity: the molar equivalent definition an
 The charge balance definition of alkalinity is based on the charge balance of ions in a solution. Certain ions, such as Na+, K+, Ca2+, Mg2+, Cl-, SO42-, and NO3-, are considered "conservative" because they are unaffected by changes in temperature, pressure, or pH. On the other hand, ions such as HCO3- are affected by these factors. By isolating the conservative ions on one side of the charge balance equation, the nonconservative ions that accept or donate protons and define alkalinity are clustered on the other side.
 
 
-
 $$
 
 \sum(\text{conservative cations})-\sum(\text{conservative anions}) = [\mathrm{HCO_3^-}]+2[\mathrm{CO_3^{2-}}]+[\mathrm{B(OH)_4^-}]+[\mathrm{OH^-}]+[\mathrm{HPO_4^{2-}}]+2[\mathrm{PO_4^{3-}}]+[\mathrm{H_3SiO_4^-}]+[\mathrm{NH_3}]+[\mathrm{HS^-}]-[\mathrm{H^+}]-[\mathrm{HSO_4^-}]-[\mathrm{HF}]-[\mathrm{H_3PO_4}]-[\mathrm{HNO_2}]
 
 $$
-
 
 
 This combined charge balance and proton balance is called total alkalinity. Total alkalinity is not significantly affected by temperature, pressure, or pH, making it a conservative measurement. This increases its usefulness in aquatic systems. In surface water, all anions except HCO3- and CO32- have low concentrations, so carbonate alkalinity, which is equal to [HCO3-] + 2[CO32-], is approximately equal to total alkalinity. 
@@ -5625,13 +5538,11 @@ In the previous section, we discussed the definition of buffer capacity and its 
 Buffer capacity can be calculated using the Henderson-Hasselbalch equation, which relates the pH of a solution to the concentration of the acid and its conjugate base:
 
 
-
 $$
 
 pH = pK_a + log\frac{[A^-]}{[HA]}
 
 $$
-
 
 
 where $pH$ is the pH of the solution, $pK_a$ is the acid dissociation constant, $[A^-]$ is the concentration of the conjugate base, and $[HA]$ is the concentration of the acid.
@@ -6305,13 +6216,11 @@ Chemical weathering can be divided into two main types: physical and chemical. P
 One of the most common forms of chemical weathering is hydrolysis, also known as "incongruent dissolution". This process occurs when water reacts with minerals, resulting in the dissolution of some components and the formation of new solid materials. For example, forsterite (magnesium olivine) is hydrolyzed into solid brucite and dissolved silicic acid:
 
 
-
 $$
 
 Mg_2SiO_4 + 4H_2O \rightarrow 2Mg(OH)_2 + H_4SiO_4
 
 $$
-
 
 
 The strength of chemical bonds in minerals determines the rate at which they are weathered. Minerals with weaker bonds, such as olivine, will weather more quickly than those with stronger bonds, such as quartz. This is known as Bowen's Reaction Series, which predicts the order in which minerals in igneous rocks will weather.
@@ -6321,13 +6230,11 @@ The strength of chemical bonds in minerals determines the rate at which they are
 Carbon dioxide is a significant source of protons in chemical weathering. When it dissolves in water, it forms carbonic acid, which can react with minerals and rocks. This process, known as carbonation, can result in the weathering of primary minerals into secondary carbonate minerals. For example, forsterite can be weathered into magnesite instead of brucite through the reaction:
 
 
-
 $$
 
 Mg_2SiO_4 + 2H_2CO_3 \rightarrow MgCO_3 + 2H_2SiO_3
 
 $$
-
 
 
 The consumption of carbonic acid in silicate weathering can also lead to more alkaline solutions, which can affect the amount of carbon dioxide in the atmosphere and ultimately impact climate.
@@ -6375,13 +6282,11 @@ Chemical weathering can be divided into two main types: physical and chemical. P
 One of the most common forms of chemical weathering is hydrolysis, also known as "incongruent dissolution". This process occurs when water reacts with minerals, resulting in the dissolution of some components and the formation of new solid materials. For example, forsterite (magnesium olivine) is hydrolyzed into solid brucite and dissolved silicic acid:
 
 
-
 $$
 
 Mg_2SiO_4 + 4H_2O \rightarrow 2Mg(OH)_2 + H_4SiO_4
 
 $$
-
 
 
 The strength of chemical bonds in minerals determines the rate at which they are weathered. Minerals with weaker bonds, such as olivine, will weather more quickly than those with stronger bonds, such as quartz. This is known as Bowen's Reaction Series, which predicts the order in which minerals in igneous rocks will weather.
@@ -6391,13 +6296,11 @@ The strength of chemical bonds in minerals determines the rate at which they are
 Carbon dioxide is a significant source of protons in chemical weathering. When it dissolves in water, it forms carbonic acid, which can react with minerals and rocks. This process, known as carbonation, can result in the weathering of primary minerals into secondary carbonate minerals. For example, forsterite can be weathered into magnesite instead of brucite through the reaction:
 
 
-
 $$
 
 Mg_2SiO_4 + 4CO_2 + 4H_2O \rightarrow 2MgCO_3 + H_4SiO_4
 
 $$
-
 
 
 ### 10.1b: Factors Affecting Chemical Weathering
@@ -6449,13 +6352,11 @@ Chemical weathering can be divided into two main types: physical and chemical. P
 One of the most common forms of chemical weathering is hydrolysis, also known as "incongruent dissolution". This process occurs when water reacts with minerals, resulting in the dissolution of some components and the formation of new solid materials. For example, forsterite (magnesium olivine) is hydrolyzed into solid brucite and dissolved silicic acid:
 
 
-
 $$
 
 Mg_2SiO_4 + 4H_2O \rightarrow 2Mg(OH)_2 + H_4SiO_4
 
 $$
-
 
 
 The strength of chemical bonds in minerals determines the rate at which they are weathered. Minerals with weaker bonds, such as olivine, will weather more quickly than those with stronger bonds, such as quartz. This is known as Bowen's Reaction Series, which predicts the order in which minerals in igneous rocks will weather.
@@ -6465,13 +6366,11 @@ The strength of chemical bonds in minerals determines the rate at which they are
 Carbon dioxide is a significant source of protons in chemical weathering. When it dissolves in water, it forms carbonic acid, which can react with minerals and rocks. This process, known as carbonation, can result in the weathering of primary minerals into secondary carbonate minerals. For example, forsterite can be weathered into magnesite instead of brucite through the reaction:
 
 
-
 $$
 
 Mg_2SiO_4 + 2CO_2 + 2H_2O \rightarrow 2MgCO_3 + H_4SiO_4
 
 $$
-
 
 
 Chemical weathering can also be influenced by other factors such as temperature, pH, and the presence of microorganisms. For instance, the presence of certain bacteria can accelerate the weathering of minerals by producing organic acids that can dissolve rocks and minerals.
@@ -7449,13 +7348,11 @@ The standard electrode potential can be calculated using the Nernst equation, wh
 The Nernst equation is an important tool in understanding the thermodynamics of redox reactions. It relates the standard electrode potential to the concentration of the species involved in the reaction. The equation is given by:
 
 
-
 $$
 
 E = E^\ominus - \frac{RT}{nF} \ln Q
 
 $$
-
 
 
 where:
@@ -7673,13 +7570,11 @@ Equilibrium calculations with redox reactions involve determining the equilibriu
 To calculate the equilibrium constant for a redox reaction, we must first write the balanced chemical equation and determine the oxidation states of each element. We then use the Nernst equation, which relates the equilibrium constant to the standard electrode potentials of the half-reactions involved. This equation is given by:
 
 
-
 $$
 
 E = E^\ominus - \frac{RT}{nF} \ln Q
 
 $$
-
 
 
 where E is the cell potential, E$^\ominus$ is the standard electrode potential, R is the gas constant, T is the temperature in Kelvin, n is the number of electrons transferred in the reaction, and Q is the reaction quotient.
@@ -7723,13 +7618,11 @@ Equilibrium calculations with redox reactions involve determining the equilibriu
 To calculate the equilibrium constant for a redox reaction, we must first write the balanced chemical equation and determine the oxidation states of each element. We then use the Nernst equation, which relates the equilibrium constant to the standard electrode potentials of the half-reactions involved. This equation is given by:
 
 
-
 $$
 
 E = E^\ominus - \frac{RT}{nF} \ln Q
 
 $$
-
 
 
 where E is the cell potential, E$^\ominus$ is the standard electrode potential, R is the gas constant, T is the temperature in Kelvin, n is the number of electrons transferred in the reaction, and Q is the reaction quotient.
@@ -7825,13 +7718,11 @@ Equilibrium calculations with redox reactions involve determining the equilibriu
 To calculate the equilibrium constant for a redox reaction, we must first write the balanced chemical equation and determine the oxidation states of each element. We then use the Nernst equation, which relates the equilibrium constant to the standard electrode potentials of the half-reactions involved. This equation is given by:
 
 
-
 $$
 
 E = E^\ominus - \frac{RT}{nF} \ln Q
 
 $$
-
 
 
 where E is the cell potential, E$^\ominus$ is the standard electrode potential, R is the gas constant, T is the temperature in Kelvin, n is the number of electrons transferred in the reaction, and Q is the reaction quotient.
@@ -7887,7 +7778,6 @@ It is important to continue studying and researching redox chemistry and equilib
 #### Exercise 1
 
 Calculate the equilibrium constant for the following redox reaction:
-
 $$
 
 Fe^{2+} + 2H_2O \rightleftharpoons Fe(OH)_2 + 2H^+
@@ -7895,29 +7785,23 @@ Fe^{2+} + 2H_2O \rightleftharpoons Fe(OH)_2 + 2H^+
 $$
 
 
-
 #### Exercise 2
 
 Given the following half-reactions:
-
 $$
 
 Fe^{3+} + e^- \rightarrow Fe^{2+} \quad E^{\circ} = 0.77 V
 
 $$
-
 $$
 
 Cr^{3+} + 3e^- \rightarrow Cr \quad E^{\circ} = -0.74 V
-
 $$
 
 Calculate the standard cell potential for the reaction:
 
 $$
-
 Fe^{3+} + Cr \rightarrow Fe^{2+} + Cr^{3+}
-
 $$
 
 
@@ -7933,9 +7817,7 @@ A solution contains 0.1 M Fe^{2+} and 0.05 M Cr^{3+}. Calculate the concentratio
 Using the Nernst equation, calculate the potential of a cell with the following concentrations:
 
 $$
-
 [Fe^{2+}] = 0.01 M, [Fe^{3+}] = 0.1 M, [Cr^{2+}] = 0.05 M, [Cr^{3+}] = 0.001 M
-
 $$
 
 
@@ -7969,9 +7851,7 @@ It is important to continue studying and researching redox chemistry and equilib
 Calculate the equilibrium constant for the following redox reaction:
 
 $$
-
 Fe^{2+} + 2H_2O \rightleftharpoons Fe(OH)_2 + 2H^+
-
 $$
 
 
@@ -7981,23 +7861,17 @@ $$
 Given the following half-reactions:
 
 $$
-
 Fe^{3+} + e^- \rightarrow Fe^{2+} \quad E^{\circ} = 0.77 V
-
 $$
 
 $$
-
 Cr^{3+} + 3e^- \rightarrow Cr \quad E^{\circ} = -0.74 V
-
 $$
 
 Calculate the standard cell potential for the reaction:
 
 $$
-
 Fe^{3+} + Cr \rightarrow Fe^{2+} + Cr^{3+}
-
 $$
 
 
@@ -8013,9 +7887,7 @@ A solution contains 0.1 M Fe^{2+} and 0.05 M Cr^{3+}. Calculate the concentratio
 Using the Nernst equation, calculate the potential of a cell with the following concentrations:
 
 $$
-
 [Fe^{2+}] = 0.01 M, [Fe^{3+}] = 0.1 M, [Cr^{2+}] = 0.05 M, [Cr^{3+}] = 0.001 M
-
 $$
 
 
@@ -8961,9 +8833,7 @@ As mentioned in the previous section, the stability constant is a measure of the
 
 
 $$
-
 K_{stab} = \frac{[ML_n]}{[M][L]^n}
-
 $$
 
 
@@ -8981,9 +8851,7 @@ In addition to the stability constant, another important parameter in the quanti
 
 
 $$
-
 K_{form} = \frac{[ML_n]}{[M]^n[L]^n}
-
 $$
 
 
@@ -9055,9 +8923,7 @@ For example, let's consider the reaction between iron (Fe) and hydrogen sulfide 
 
 
 $$
-
 Fe^{2+} + H_2S \rightleftharpoons FeS + 2H^+
-
 $$
 
 
@@ -9121,9 +8987,7 @@ For example, let's consider the reaction between iron (Fe) and hydrogen sulfide 
 
 
 $$
-
 Fe^{2+} + H_2S \rightleftharpoons FeS + 2H^+
-
 $$
 
 
@@ -9199,9 +9063,7 @@ For example, in the reaction between iron (Fe) and hydrogen sulfide (H2S) discus
 
 
 $$
-
 Ksp = [Fe^{2+}] [H_2S]
-
 $$
 
 
@@ -9211,9 +9073,7 @@ If the product of the concentrations of Fe and H2S exceeds the solubility produc
 
 
 $$
-
 K = \frac{[FeS][H^+]^2}{[Fe^{2+}][H_2S]}
-
 $$
 
 
@@ -9277,9 +9137,7 @@ For example, let's consider the reaction between iron (Fe) and hydrogen sulfide 
 
 
 $$
-
 Ksp = [Fe^{2+}] [H_2S]
-
 $$
 
 
@@ -9289,9 +9147,7 @@ If the product of the concentrations of Fe and H2S exceeds the solubility produc
 
 
 $$
-
 K = \frac{[FeS][H^+]^2}{[Fe^{2+}][H_2S]}
-
 $$
 
 
@@ -10335,25 +10191,19 @@ To better understand multi-ligand complexation, let's consider the example of a 
 
 
 $$
-
 M + L1 \rightleftharpoons ML1
-
 $$
 
 
 
 $$
-
 M + L2 \rightleftharpoons ML2
-
 $$
 
 
 
 $$
-
 M + L1 + L2 \rightleftharpoons ML1L2
-
 $$
 
 
@@ -10401,25 +10251,19 @@ To better understand multi-ligand complexation, let's consider the example of a 
 
 
 $$
-
 M + L1 \rightleftharpoons ML1
-
 $$
 
 
 
 $$
-
 M + L2 \rightleftharpoons ML2
-
 $$
 
 
 
 $$
-
 M + L1 + L2 \rightleftharpoons ML1L2
-
 $$
 
 
@@ -10471,25 +10315,19 @@ To better understand multi-ligand complexation, let's consider the example of a 
 
 
 $$
-
 M + L1 \rightleftharpoons ML1
-
 $$
 
 
 
 $$
-
 M + L2 \rightleftharpoons ML2
-
 $$
 
 
 
 $$
-
 M + L1 + L2 \rightleftharpoons ML1L2
-
 $$
 
 

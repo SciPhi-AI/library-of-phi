@@ -763,9 +763,7 @@ In this book, we will use the popular Markdown format to present our content, ma
 
 
 $$
-
 \Delta w = \sum_{i=1}^{N} \eta \cdot \frac{\partial E}{\partial w_i}
-
 $$
 
 
@@ -813,9 +811,7 @@ In this book, we will use the popular Markdown format to present our content, ma
 
 
 $$
-
 \Delta w = \sum_{i=1}^{N} \eta \cdot \frac{\partial E}{\partial w_i}
-
 $$
 
 
@@ -867,9 +863,7 @@ In this book, we will use the popular Markdown format to present our content, ma
 
 
 $$
-
 \Delta w = \sum_{i=1}^{N} \eta \cdot \frac{\partial E}{\partial w_i}
-
 $$
 
 
@@ -1043,9 +1037,7 @@ The Lagrange equations are a set of equations that describe the motion of a syst
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1059,9 +1051,7 @@ The action functional, denoted by $S$, is defined as the integral of the Lagrang
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1075,9 +1065,7 @@ The Principle of Stationary Action states that the path taken by the system betw
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1087,9 +1075,7 @@ Using the calculus of variations, we can derive the Lagrange equations from this
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -1129,9 +1115,7 @@ The Lagrange equations are a set of equations that describe the motion of a syst
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1145,9 +1129,7 @@ The action functional, denoted by $S$, is defined as the integral of the Lagrang
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1161,9 +1143,7 @@ The Principle of Stationary Action states that the path taken by the system betw
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1173,9 +1153,7 @@ Using the calculus of variations, we can derive the Lagrange equations from this
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -1239,9 +1217,7 @@ The Lagrange equations are a set of equations that describe the motion of a syst
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1255,9 +1231,7 @@ The action functional, denoted by $S$, is defined as the integral of the Lagrang
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1271,9 +1245,7 @@ The Principle of Stationary Action states that the path taken by the system betw
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1283,9 +1255,7 @@ Using the calculus of variations, we can derive the Lagrange equations from this
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -1307,9 +1277,7 @@ In this subsection, we will derive the Lagrange equations from the Principle of 
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1327,9 +1295,7 @@ Using these variations, we can write the action functional as:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q + \delta q, \dot{q} + \delta \dot{q}, t) dt
-
 $$
 
 
@@ -1339,9 +1305,7 @@ Expanding the Lagrangian using Taylor series, we get:
 
 
 $$
-
 L(q + \delta q, \dot{q} + \delta \dot{q}, t) = L(q, \dot{q}, t) + \frac{\partial L}{\partial q} \delta q + \frac{\partial L}{\partial \dot{q}} \delta \dot{q} + O(\delta q^2, \delta \dot{q}^2)
-
 $$
 
 
@@ -1351,9 +1315,7 @@ Substituting this into the action functional, we get:
 
 
 $$
-
 S = \int_{t_1}^{t_2} \left( L(q, \dot{q}, t) + \frac{\partial L}{\partial q} \delta q + \frac{\partial L}{\partial \dot{q}} \delta \dot{q} + O(\delta q^2, \delta \dot{q}^2) \right) dt
-
 $$
 
 
@@ -1363,9 +1325,7 @@ Using the properties of integrals, we can write this as:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt + \int_{t_1}^{t_2} \frac{\partial L}{\partial q} \delta q dt + \int_{t_1}^{t_2} \frac{\partial L}{\partial \dot{q}} \delta \dot{q} dt + O(\delta q^2, \delta \dot{q}^2)
-
 $$
 
 
@@ -1375,9 +1335,7 @@ Since we want the action functional to be stationary, we set the first variation
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \frac{\partial L}{\partial q} \delta q dt + \int_{t_1}^{t_2} \frac{\partial L}{\partial \dot{q}} \delta \dot{q} dt = 0
-
 $$
 
 
@@ -1387,9 +1345,7 @@ Using integration by parts, we can write the second integral as:
 
 
 $$
-
 \int_{t_1}^{t_2} \frac{\partial L}{\partial \dot{q}} \delta \dot{q} dt = \left[ \frac{\partial L}{\partial \dot{q}} \delta q \right]_{t_1}^{t_2} - \int_{t_1}^{t_2} \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) \delta q dt
-
 $$
 
 
@@ -1399,9 +1355,7 @@ Since the variations $\delta q$ and $\delta \dot{q}$ are assumed to be zero at t
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} - \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) \right) \delta q dt = 0
-
 $$
 
 
@@ -1411,9 +1365,7 @@ Since this must hold for any arbitrary variation $\delta q$, we can conclude tha
 
 
 $$
-
 \frac{\partial L}{\partial q} - \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) = 0
-
 $$
 
 
@@ -1469,9 +1421,7 @@ Similar to the Principle of Stationary Action, Hamilton's Principle states that 
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1485,9 +1435,7 @@ To derive the equations of motion using Hamilton's Principle, we start with the 
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1497,9 +1445,7 @@ The action functional is then given by:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1513,9 +1459,7 @@ Using the calculus of variations, we can show that the first variation of the ac
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt
-
 $$
 
 
@@ -1529,9 +1473,7 @@ Applying the principle of virtual work, we can simplify this expression to:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) \right) \delta q_i dt
-
 $$
 
 
@@ -1541,9 +1483,7 @@ Since the virtual path is arbitrary, the term inside the integral must be equal 
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -1583,9 +1523,7 @@ Similar to the Principle of Stationary Action, Hamilton's Principle states that 
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1599,9 +1537,7 @@ To derive the equations of motion using Hamilton's Principle, we start with the 
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1611,9 +1547,7 @@ The action functional is then given by:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1627,9 +1561,7 @@ Using the calculus of variations, we can show that the first variation of the ac
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt
-
 $$
 
 
@@ -1643,9 +1575,7 @@ Applying the principle of virtual work, we can simplify this expression to:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt
-
 $$
 
 
@@ -1701,9 +1631,7 @@ Similar to the Principle of Stationary Action, Hamilton's Principle states that 
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -1717,9 +1645,7 @@ To derive the equations of motion using Hamilton's Principle, we start with the 
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1729,9 +1655,7 @@ The action functional is then given by:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1745,9 +1669,7 @@ Using the calculus of variations, we can show that the first variation of the ac
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt
-
 $$
 
 
@@ -1761,9 +1683,7 @@ Applying the principle of virtual work, we can simplify this expression to:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt
-
 $$
 
 
@@ -1781,9 +1701,7 @@ To derive the equations of motion using Hamilton's Principle, we start with the 
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -1793,9 +1711,7 @@ The action functional is then given by:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
-
 $$
 
 
@@ -1809,9 +1725,7 @@ Using the calculus of variations, we can show that the first variation of the ac
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt
-
 $$
 
 
@@ -1825,9 +1739,7 @@ Applying the principle of virtual work, we can simplify this expression to:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt
-
 $$
 
 
@@ -1841,9 +1753,7 @@ To derive the equations of motion, we need to apply Hamilton's Principle to the 
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt = 0
-
 $$
 
 
@@ -1853,9 +1763,7 @@ Since $\delta q_i$ is arbitrary, the integrand must be equal to zero for all val
 
 
 $$
-
 \frac{\partial L}{\partial q_i} = \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}}
-
 $$
 
 
@@ -2005,9 +1913,7 @@ To simplify the process of transforming coordinates, we can use the concept of t
 
 
 $$
-
 \dot{x} = \frac{dx}{dt}
-
 $$
 
 
@@ -2017,9 +1923,7 @@ This derivative represents the rate of change of $x$ with respect to time. It ta
 
 
 $$
-
 \dot{x} = \frac{\partial x}{\partial t} + \frac{\partial x}{\partial y}\frac{dy}{dt}
-
 $$
 
 
@@ -2033,9 +1937,7 @@ Another important concept in classical mechanics is the Euler-Lagrange operator,
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -2075,9 +1977,7 @@ To simplify the process of transforming coordinates, we can use the concept of t
 
 
 $$
-
 \dot{x} = \frac{dx}{dt}
-
 $$
 
 
@@ -2087,9 +1987,7 @@ This derivative represents the rate of change of $x$ with respect to time. It ta
 
 
 $$
-
 \dot{x} = \frac{\partial x}{\partial t} + \frac{\partial x}{\partial y}\frac{dy}{dt}
-
 $$
 
 
@@ -2107,9 +2005,7 @@ Another important concept in classical mechanics is the Euler-Lagrange operator,
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -2119,9 +2015,7 @@ where $L$ is the Lagrangian of the system and $q_i$ represents the generalized c
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -2161,9 +2055,7 @@ To simplify the process of transforming coordinates, we can use the concept of t
 
 
 $$
-
 \dot{x} = \frac{dx}{dt}
-
 $$
 
 
@@ -2173,9 +2065,7 @@ This derivative represents the rate of change of $x$ with respect to time. It ta
 
 
 $$
-
 \dot{x} = \frac{\partial x}{\partial t} + \frac{\partial x}{\partial y}\frac{dy}{dt}
-
 $$
 
 
@@ -2193,9 +2083,7 @@ Another important concept in classical mechanics is the Euler-Lagrange operator,
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -2587,9 +2475,7 @@ In classical mechanics, the moment of inertia is a conserved quantity that descr
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -2649,9 +2535,7 @@ Moments of inertia are a measure of an object's resistance to rotational motion.
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -2669,9 +2553,7 @@ In some cases, the axis of rotation may not pass through the center of mass of t
 
 
 $$
-
 I = I_{cm} + Md^2
-
 $$
 
 
@@ -2689,7 +2571,6 @@ In three-dimensional space, the moment of inertia of a rigid body can be represe
 
 
 $$
-
 I = \begin{bmatrix}
 
 I_{xx} & I_{xy} & I_{xz} \\
@@ -2699,7 +2580,6 @@ I_{yx} & I_{yy} & I_{yz} \\
 I_{zx} & I_{zy} & I_{zz}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2757,9 +2637,7 @@ Moments of inertia are a measure of an object's resistance to rotational motion.
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -2777,9 +2655,7 @@ In some cases, the axis of rotation may not pass through the center of mass of t
 
 
 $$
-
 I = I_{cm} + Md^2
-
 $$
 
 
@@ -2797,7 +2673,6 @@ In three-dimensional space, the moment of inertia of a rigid body can be represe
 
 
 $$
-
 I = \begin{bmatrix}
 
 I_{xx} & I_{xy} & I_{xz} \\
@@ -2807,7 +2682,6 @@ I_{yx} & I_{yy} & I_{yz} \\
 I_{zx} & I_{zy} & I_{zz}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2869,9 +2743,7 @@ Moments of inertia are a measure of an object's resistance to rotational motion.
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -2889,9 +2761,7 @@ In some cases, the axis of rotation may not pass through the center of mass of t
 
 
 $$
-
 I = I_{cm} + md^2
-
 $$
 
 
@@ -2969,9 +2839,7 @@ Moments of inertia are a measure of an object's resistance to rotational motion.
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -2989,9 +2857,7 @@ In some cases, the axis of rotation may not pass through the center of mass of t
 
 
 $$
-
 I = I_{cm} + md^2
-
 $$
 
 
@@ -3081,9 +2947,7 @@ Moments of inertia are a measure of an object's resistance to rotational motion.
 
 
 $$
-
 I = \sum_{i} m_i r_i^2
-
 $$
 
 
@@ -3101,9 +2965,7 @@ In some cases, the axis of rotation may not pass through the center of mass of t
 
 
 $$
-
 I = I_{cm} + md^2
-
 $$
 
 
@@ -3289,9 +3151,7 @@ An axisymmetric top can be described by its moment of inertia, which is a measur
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -3301,9 +3161,7 @@ where $r$ is the distance from the axis of symmetry and $dm$ is the differential
 
 
 $$
-
 I = \frac{2}{5}MR^2
-
 $$
 
 
@@ -3317,9 +3175,7 @@ The motion of an axisymmetric top can be described by its angular velocity $\ome
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -3329,17 +3185,13 @@ Using this relationship, we can derive the equations of motion for an axisymmetr
 
 
 $$
-
 I\dot{\omega} = \tau
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I}
-
 $$
 
 
@@ -3353,9 +3205,7 @@ The conservation of angular momentum is also applicable to the motion of an axis
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -3387,9 +3237,7 @@ An axisymmetric top can be described by its moment of inertia, which is a measur
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -3399,9 +3247,7 @@ where $r$ is the distance from the axis of symmetry and $dm$ is the differential
 
 
 $$
-
 I = \frac{2}{5}MR^2
-
 $$
 
 
@@ -3415,9 +3261,7 @@ The motion of an axisymmetric top can be described by its angular velocity $\ome
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -3427,17 +3271,13 @@ Using this relationship, we can derive the equations of motion for an axisymmetr
 
 
 $$
-
 I\dot{\omega} = \tau
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I}
-
 $$
 
 
@@ -3451,9 +3291,7 @@ The conservation of angular momentum is also applicable to the motion of an axis
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -3471,25 +3309,19 @@ In classical mechanics, the motion of an axisymmetric top can be described using
 
 
 $$
-
 I_1\dot{\omega_1} = (I_2 - I_3)\omega_2\omega_3 + \tau_1
-
 $$
 
 
 
 $$
-
 I_2\dot{\omega_2} = (I_3 - I_1)\omega_3\omega_1 + \tau_2
-
 $$
 
 
 
 $$
-
 I_3\dot{\omega_3} = (I_1 - I_2)\omega_1\omega_2 + \tau_3
-
 $$
 
 
@@ -3525,9 +3357,7 @@ An axisymmetric top can be described by its moment of inertia, which is a measur
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -3537,9 +3367,7 @@ where $r$ is the distance from the axis of symmetry and $dm$ is the differential
 
 
 $$
-
 I = \frac{2}{5}MR^2
-
 $$
 
 
@@ -3553,9 +3381,7 @@ The motion of an axisymmetric top can be described by its angular velocity $\ome
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -3565,17 +3391,13 @@ Using this relationship, we can derive the equations of motion for an axisymmetr
 
 
 $$
-
 I\dot{\omega} = \tau
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I}
-
 $$
 
 
@@ -3597,25 +3419,19 @@ To fully understand the motion of an axisymmetric top, we must consider the forc
 
 
 $$
-
 I_x\dot{\omega_x} = \tau_x + F_x
-
 $$
 
 
 
 $$
-
 I_y\dot{\omega_y} = \tau_y + F_y
-
 $$
 
 
 
 $$
-
 I_z\dot{\omega_z} = \tau_z + F_z
-
 $$
 
 
@@ -3675,17 +3491,13 @@ The equations of motion for a rigid body with spin-orbit coupling can be written
 
 
 $$
-
 I\dot{\omega} = \tau + \frac{1}{2}S\times\omega
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I} + \frac{1}{2I}S\times\omega
-
 $$
 
 
@@ -3737,17 +3549,13 @@ In classical mechanics, the equations of motion for a rigid body with spin-orbit
 
 
 $$
-
 I\dot{\omega} = \tau + \frac{1}{2}S\times\omega
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I} + \frac{1}{2I}S\times\omega
-
 $$
 
 
@@ -3807,17 +3615,13 @@ In classical mechanics, the equations of motion for a rigid body with spin-orbit
 
 
 $$
-
 I\dot{\omega} = \tau + \frac{1}{2}S\times\omega
-
 $$
 
 
 
 $$
-
 \dot{\omega} = \frac{\tau}{I} + \frac{1}{2I}S\times\omega
-
 $$
 
 
@@ -4007,9 +3811,7 @@ The Hamiltonian, denoted by $H$, is defined as:
 
 
 $$
-
 H(q_i, p_i, t) = \sum_{i=1}^{n} p_i \dot{q_i} - L(q_i, \dot{q_i}, t)
-
 $$
 
 
@@ -4023,17 +3825,13 @@ Now, let's take a closer look at Hamilton's equations. They are given by:
 
 
 $$
-
 \dot{q_i} = \frac{\partial H}{\partial p_i}
-
 $$
 
 
 
 $$
-
 \dot{p_i} = -\frac{\partial H}{\partial q_i}
-
 $$
 
 
@@ -4081,17 +3879,13 @@ Now, let's take a closer look at Hamilton's equations. They are given by:
 
 
 $$
-
 \dot{q_i} = \frac{\partial H}{\partial p_i}
-
 $$
 
 
 
 $$
-
 \dot{p_i} = -\frac{\partial H}{\partial q_i}
-
 $$
 
 
@@ -4189,9 +3983,7 @@ Poisson brackets are a mathematical tool used in Hamiltonian mechanics to descri
 
 
 $$
-
 \{A,B\} = \frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i}
-
 $$
 
 
@@ -4205,9 +3997,7 @@ Poisson brackets have several important properties that make them useful in clas
 
 
 $$
-
 \frac{dA}{dt} = \{A,H\}
-
 $$
 
 
@@ -4251,9 +4041,7 @@ Poisson brackets are a mathematical tool used to describe the evolution of a sys
 
 
 $$
-
 \{A,B\} = \frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i}
-
 $$
 
 
@@ -4275,9 +4063,7 @@ One of the key properties of Poisson brackets is that they satisfy the Jacobi id
 
 
 $$
-
 \{A,\{B,C\}\} + \{B,\{C,A\}\} + \{C,\{A,B\}\} = 0
-
 $$
 
 
@@ -4349,9 +4135,7 @@ Poisson brackets also have several other important properties that make them a u
 
 
 $$
-
 \{A,\{B,C\}\} + \{B,\{C,A\}\} + \{C,\{A,B\}\} = 0
-
 $$
 
 
@@ -4525,9 +4309,7 @@ One of the most well-known examples of an autonomous system is the Henon-Heiles 
 
 
 $$
-
 V(x,y) = \frac{1}{2}(x^2 + y^2) + x^2y - \frac{1}{3}y^3
-
 $$
 
 
@@ -4537,17 +4319,13 @@ The equations of motion for this system can be written as:
 
 
 $$
-
 \ddot{x} = -x - 2xy
-
 $$
 
 
 
 $$
-
 \ddot{y} = -y - x^2 + y^2
-
 $$
 
 
@@ -4587,9 +4365,7 @@ The Henon-Heiles system is a two-dimensional autonomous system that describes th
 
 
 $$
-
 V(x,y) = \frac{1}{2}(x^2 + y^2) + x^2y - \frac{1}{3}y^3
-
 $$
 
 
@@ -4599,17 +4375,13 @@ The equations of motion for this system can be written as:
 
 
 $$
-
 \ddot{x} = -x - 2xy
-
 $$
 
 
 
 $$
-
 \ddot{y} = -y - x^2 + y^2
-
 $$
 
 
@@ -5079,9 +4851,7 @@ The simple harmonic oscillator is a classic example of a conservative system. It
 
 
 $$
-
 m\ddot{x} + kx = 0
-
 $$
 
 
@@ -5095,9 +4865,7 @@ Using the Hamiltonian function $H = \frac{1}{2}kx^2$, we can derive the Hamilton
 
 
 $$
-
 \vec{H}(\vec{x}) = \begin{bmatrix} 0 \\ \frac{k}{m}x \end{bmatrix}
-
 $$
 
 
@@ -5153,9 +4921,7 @@ The Poincare equations are a set of first-order differential equations that desc
 
 
 $$
-
 \dot{\vec{x}} = \frac{\partial H}{\partial \vec{p}} \quad \text{and} \quad \dot{\vec{p}} = -\frac{\partial H}{\partial \vec{x}}
-
 $$
 
 
@@ -5165,9 +4931,7 @@ where $\vec{x}$ represents the position coordinates in phase space, $\vec{p}$ re
 
 
 $$
-
 \dot{\vec{z}} = J \nabla H(\vec{z})
-
 $$
 
 
@@ -5189,9 +4953,7 @@ The Poincare equations have numerous applications in classical mechanics. One of
 
 
 $$
-
 \dot{\vec{x}} = \frac{\partial H}{\partial \vec{p}} \quad \text{and} \quad \dot{\vec{p}} = -\frac{\partial H}{\partial \vec{x}}
-
 $$
 
 
@@ -5227,9 +4989,7 @@ The Poincare equations have numerous applications in classical mechanics, rangin
 
 
 $$
-
 \dot{\vec{x}} = \frac{\partial H}{\partial \vec{p}} \quad \text{and} \quad \dot{\vec{p}} = -\frac{\partial H}{\partial \vec{x}}
-
 $$
 
 
@@ -5469,25 +5229,19 @@ To better understand homoclinic tangle, let's consider the famous Lorenz system,
 
 
 $$
-
 \dot{x} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \dot{y} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \dot{z} = xy-\beta z
-
 $$
 
 
@@ -5501,17 +5255,13 @@ To visualize the homoclinic tangle in the Lorenz system, we can plot the stable 
 
 
 $$
-
 W^s = \left\{(x,y,z) \in \mathbb{R}^3 : z = \rho-1, x = \pm \sqrt{\beta(\rho-1)}, y = \pm \sqrt{\beta(\rho-1)} \right\}
-
 $$
 
 
 
 $$
-
 W^u = \left\{(x,y,z) \in \mathbb{R}^3 : z = \rho+1, x = \pm \sqrt{\beta(\rho+1)}, y = \pm \sqrt{\beta(\rho+1)} \right\}
-
 $$
 
 
@@ -5563,25 +5313,19 @@ To better understand homoclinic tangle, let's consider the famous Lorenz system,
 
 
 $$
-
 \dot{x} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \dot{y} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \dot{z} = xy-\beta z
-
 $$
 
 
@@ -5641,25 +5385,19 @@ To better understand homoclinic tangle, let's consider the famous Lorenz system,
 
 
 $$
-
 \dot{x} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \dot{y} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \dot{z} = xy-\beta z
-
 $$
 
 
@@ -5715,9 +5453,7 @@ To better understand the concept of integrability, let's consider the simple har
 
 
 $$
-
 \ddot{x} + \omega^2x = 0
-
 $$
 
 
@@ -5761,9 +5497,7 @@ To better understand the concept of integrability, let's consider the simple har
 
 
 $$
-
 \ddot{x} + \omega^2x = 0
-
 $$
 
 
@@ -5831,9 +5565,7 @@ To better understand the concept of integrability, let's consider the simple har
 
 
 $$
-
 \ddot{x} + \omega^2x = 0
-
 $$
 
 
@@ -5893,9 +5625,7 @@ Overall, this chapter highlights the power and usefulness of computational metho
 Consider the system described by the following differential equation:
 
 $$
-
 \frac{d^2x}{dt^2} + 2\frac{dx}{dt} + 2x = 0
-
 $$
 
 a) Use MATLAB or Python to solve this equation and plot the phase portrait. 
@@ -5909,15 +5639,11 @@ b) Determine the eigenvalues and eigenvectors of the system and discuss the stab
 Consider the nonlinear system described by the following differential equations:
 
 $$
-
 \frac{dx}{dt} = -x + y
-
 $$
 
 $$
-
 \frac{dy}{dt} = -x^2 + y^2
-
 $$
 
 a) Use numerical methods to solve this system and plot the phase portrait.
@@ -5931,9 +5657,7 @@ b) Discuss the stability of the system and how it changes with different initial
 Consider a pendulum with a small oscillation described by the following differential equation:
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\theta = 0
-
 $$
 
 where $g$ is the acceleration due to gravity and $l$ is the length of the pendulum. Use MATLAB or Python to solve this equation and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $g$ and $l$.
@@ -5945,15 +5669,11 @@ where $g$ is the acceleration due to gravity and $l$ is the length of the pendul
 Consider a system with two masses connected by a spring, described by the following differential equations:
 
 $$
-
 \frac{d^2x_1}{dt^2} = -kx_1 + k(x_2 - x_1)
-
 $$
 
 $$
-
 \frac{d^2x_2}{dt^2} = -kx_2 + k(x_1 - x_2)
-
 $$
 
 where $k$ is the spring constant. Use numerical methods to solve this system and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $k$.
@@ -5965,21 +5685,15 @@ where $k$ is the spring constant. Use numerical methods to solve this system and
 Consider a system with three masses connected by springs, described by the following differential equations:
 
 $$
-
 \frac{d^2x_1}{dt^2} = -kx_1 + k(x_2 - x_1)
-
 $$
 
 $$
-
 \frac{d^2x_2}{dt^2} = -kx_2 + k(x_1 - x_2) + k(x_3 - x_2)
-
 $$
 
 $$
-
 \frac{d^2x_3}{dt^2} = -kx_3 + k(x_2 - x_3)
-
 $$
 
 Use numerical methods to solve this system and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $k$.
@@ -6009,9 +5723,7 @@ Overall, this chapter highlights the power and usefulness of computational metho
 Consider the system described by the following differential equation:
 
 $$
-
 \frac{d^2x}{dt^2} + 2\frac{dx}{dt} + 2x = 0
-
 $$
 
 a) Use MATLAB or Python to solve this equation and plot the phase portrait. 
@@ -6025,15 +5737,11 @@ b) Determine the eigenvalues and eigenvectors of the system and discuss the stab
 Consider the nonlinear system described by the following differential equations:
 
 $$
-
 \frac{dx}{dt} = -x + y
-
 $$
 
 $$
-
 \frac{dy}{dt} = -x^2 + y^2
-
 $$
 
 a) Use numerical methods to solve this system and plot the phase portrait.
@@ -6047,9 +5755,7 @@ b) Discuss the stability of the system and how it changes with different initial
 Consider a pendulum with a small oscillation described by the following differential equation:
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\theta = 0
-
 $$
 
 where $g$ is the acceleration due to gravity and $l$ is the length of the pendulum. Use MATLAB or Python to solve this equation and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $g$ and $l$.
@@ -6061,15 +5767,11 @@ where $g$ is the acceleration due to gravity and $l$ is the length of the pendul
 Consider a system with two masses connected by a spring, described by the following differential equations:
 
 $$
-
 \frac{d^2x_1}{dt^2} = -kx_1 + k(x_2 - x_1)
-
 $$
 
 $$
-
 \frac{d^2x_2}{dt^2} = -kx_2 + k(x_1 - x_2)
-
 $$
 
 where $k$ is the spring constant. Use numerical methods to solve this system and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $k$.
@@ -6081,21 +5783,15 @@ where $k$ is the spring constant. Use numerical methods to solve this system and
 Consider a system with three masses connected by springs, described by the following differential equations:
 
 $$
-
 \frac{d^2x_1}{dt^2} = -kx_1 + k(x_2 - x_1)
-
 $$
 
 $$
-
 \frac{d^2x_2}{dt^2} = -kx_2 + k(x_1 - x_2) + k(x_3 - x_2)
-
 $$
 
 $$
-
 \frac{d^2x_3}{dt^2} = -kx_3 + k(x_2 - x_3)
-
 $$
 
 Use numerical methods to solve this system and plot the phase portrait. Discuss the stability of the system and how it changes with different values of $k$.
@@ -6155,9 +5851,7 @@ To better understand invariant curves, let us consider a simple example of a pen
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6205,9 +5899,7 @@ To better understand invariant curves, let us consider a simple example of a pen
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6267,9 +5959,7 @@ To better understand invariant curves, let us consider a simple example of a pen
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6345,17 +6035,13 @@ To better understand canonical transformations, let us consider the pendulum exa
 
 
 $$
-
 I = \frac{1}{2\pi}\oint p\,d\theta
-
 $$
 
 
 
 $$
-
 \phi = \theta
-
 $$
 
 
@@ -6369,17 +6055,13 @@ Canonical transformations can also be used to simplify the equations of motion f
 
 
 $$
-
 \dot{I} = 0
-
 $$
 
 
 
 $$
-
 \dot{\phi} = \omega(I)
-
 $$
 
 
@@ -6419,17 +6101,13 @@ To better understand canonical transformations, let us consider the pendulum exa
 
 
 $$
-
 I = \frac{1}{2\pi}\oint p\,d\theta
-
 $$
 
 
 
 $$
-
 \phi = \theta
-
 $$
 
 
@@ -6443,17 +6121,13 @@ Canonical transformations can also be used to simplify the equations of motion f
 
 
 $$
-
 \dot{I} = 0
-
 $$
 
 
 
 $$
-
 \dot{\phi} = \omega(I)
-
 $$
 
 
@@ -6475,17 +6149,13 @@ To illustrate the use of point transforms, let us consider the pendulum example 
 
 
 $$
-
 \dot{\theta} = 0
-
 $$
 
 
 
 $$
-
 \ddot{\theta} = -\frac{g}{l}\sin\theta
-
 $$
 
 
@@ -6529,17 +6199,13 @@ To better understand canonical transformations, let us consider the pendulum exa
 
 
 $$
-
 I = \frac{1}{2\pi}\oint p\,d\theta
-
 $$
 
 
 
 $$
-
 \phi = \theta
-
 $$
 
 
@@ -6553,17 +6219,13 @@ Canonical transformations can also be used to simplify the equations of motion f
 
 
 $$
-
 \dot{I} = 0
-
 $$
 
 
 
 $$
-
 \dot{\phi} = \omega(I)
-
 $$
 
 
@@ -6585,17 +6247,13 @@ For example, let us consider a simple harmonic oscillator with Hamiltonian $H = 
 
 
 $$
-
 Q = q
-
 $$
 
 
 
 $$
-
 P = p + \frac{1}{2}\omega^2q^2
-
 $$
 
 
@@ -6605,17 +6263,13 @@ This transformation preserves the symplectic structure of the system and simplif
 
 
 $$
-
 \dot{Q} = P
-
 $$
 
 
 
 $$
-
 \dot{P} = -\omega^2Q
-
 $$
 
 
@@ -6639,9 +6293,7 @@ In order for a transformation to be canonical, it must satisfy certain condition
 
 
 $$
-
 \{F,G\} = \frac{\partial F}{\partial q}\frac{\partial G}{\partial p} - \frac{\partial F}{\partial p}\frac{\partial G}{\partial q}
-
 $$
 
 
@@ -6815,9 +6467,7 @@ Now, let us consider a system with generalized coordinates $q_i$ and their corre
 
 
 $$
-
 H(q_i, p_i) = \sum_{i=1}^{n} p_i \dot{q_i} - L(q_i, \dot{q_i})
-
 $$
 
 
@@ -6827,9 +6477,7 @@ where $L$ is the Lagrangian of the system. The equations of motion for this syst
 
 
 $$
-
 \dot{q_i} = \frac{\partial H}{\partial p_i} \quad \text{and} \quad \dot{p_i} = -\frac{\partial H}{\partial q_i}
-
 $$
 
 
@@ -6839,9 +6487,7 @@ Now, let us consider a new set of coordinates and momenta, $Q_i$ and $P_i$, rela
 
 
 $$
-
 Q_i = Q_i(q_i, p_i) \quad \text{and} \quad P_i = P_i(q_i, p_i)
-
 $$
 
 
@@ -6851,9 +6497,7 @@ The Hamiltonian in terms of the new coordinates and momenta is given by:
 
 
 $$
-
 K(Q_i, P_i) = \sum_{i=1}^{n} P_i \dot{Q_i} - L(Q_i, \dot{Q_i})
-
 $$
 
 
@@ -6863,9 +6507,7 @@ where $L$ is the Lagrangian in terms of the new coordinates and momenta. The equ
 
 
 $$
-
 \dot{Q_i} = \frac{\partial K}{\partial P_i} \quad \text{and} \quad \dot{P_i} = -\frac{\partial K}{\partial Q_i}
-
 $$
 
 
@@ -6879,9 +6521,7 @@ Now, let us consider a generating function $F(q_i, P_i, t)$, which is a function
 
 
 $$
-
 Q_i = \frac{\partial F}{\partial P_i} \quad \text{and} \quad p_i = -\frac{\partial F}{\partial q_i}
-
 $$
 
 
@@ -6891,9 +6531,7 @@ Using this generating function, we can transform the Hamiltonian in terms of the
 
 
 $$
-
 K(Q_i, P_i) = H(q_i, p_i) + \frac{\partial F}{\partial t}
-
 $$
 
 
@@ -7035,9 +6673,7 @@ The Hamilton-Jacobi equation is derived from the Hamiltonian formalism, which is
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -7051,9 +6687,7 @@ The Hamilton-Jacobi equation is given by:
 
 
 $$
-
 \frac{\partial S}{\partial t} + H\left(q_i, \frac{\partial S}{\partial q_i}\right) = 0
-
 $$
 
 
@@ -7067,9 +6701,7 @@ The Hamilton-Jacobi equation is a powerful tool for solving problems in classica
 
 
 $$
-
 I_i = \oint p_i dq_i
-
 $$
 
 
@@ -7083,9 +6715,7 @@ Using the action-angle variables, the Hamilton-Jacobi equation can be rewritten 
 
 
 $$
-
 \frac{\partial S}{\partial t} + \sum_i \frac{\partial S}{\partial I_i} \dot{I_i} - H\left(q_i, \frac{\partial S}{\partial q_i}\right) = 0
-
 $$
 
 
@@ -7111,9 +6741,7 @@ The Hamilton-Jacobi equation is a powerful tool for solving problems in classica
 
 
 $$
-
 I_i = \oint p_i dq_i
-
 $$
 
 
@@ -7127,9 +6755,7 @@ Using the action-angle variables, the Hamilton-Jacobi equation can be rewritten 
 
 
 $$
-
 \frac{\partial S}{\partial t} + \sum_i \frac{\partial S}{\partial I_i} \dot{I_i} - H\left(q_i, \frac{\partial S}{\partial q_i}\right) = 0
-
 $$
 
 
@@ -7511,9 +7137,7 @@ Consider a simple harmonic oscillator with a small perturbation given by the fol
 
 
 $$
-
 \ddot{x} + \omega_0^2x = \epsilon\sin(\omega t)
-
 $$
 
 
@@ -7523,9 +7147,7 @@ where $\omega_0$ is the natural frequency of the oscillator and $\epsilon$ is a 
 
 
 $$
-
 \ddot{y} + \omega_0^2y = 0
-
 $$
 
 
@@ -7611,9 +7233,7 @@ Let us start by considering a simple pendulum, which consists of a mass attached
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -7821,9 +7441,7 @@ To understand the stability of the vertical equilibrium in a system with second-
 
 
 $$
-
 H = \frac{p^2}{2m} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -7867,9 +7485,7 @@ To understand the stability of the vertical equilibrium in a system with second-
 
 
 $$
-
 H = \frac{p^2}{2m} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -7925,9 +7541,7 @@ To understand the stability of the vertical equilibrium in a system with second-
 
 
 $$
-
 H = \frac{p^2}{2m} + \frac{1}{2}kx^2
-
 $$
 
 
@@ -8391,9 +8005,7 @@ The Schrödinger equation is the fundamental equation of quantum mechanics. It d
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 

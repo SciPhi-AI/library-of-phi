@@ -1565,9 +1565,7 @@ The resistance of a resistor can be calculated using Ohm's law, which states tha
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -1619,9 +1617,7 @@ The resistance of a resistor can be calculated using Ohm's law, which states tha
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -1655,9 +1651,7 @@ The capacitance of a capacitor can be calculated using the equation:
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -1709,9 +1703,7 @@ The resistance of a resistor can be calculated using Ohm's law, which states tha
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -1745,9 +1737,7 @@ The capacitance of a capacitor can be calculated using the equation:
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -1781,9 +1771,7 @@ The inductance of an inductor can be calculated using the equation:
 
 
 $$
-
 L = \frac{\Phi}{I}
-
 $$
 
 
@@ -1897,9 +1885,7 @@ Ohm's Law can be mathematically represented by the equation:
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -1957,9 +1943,7 @@ In mathematical terms, Ohm's Law can be expressed as:
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -2011,9 +1995,7 @@ In mathematical terms, Ohm's Law can be expressed as:
 
 
 $$
-
 R = \frac{V}{I}
-
 $$
 
 
@@ -2053,9 +2035,7 @@ Power can be calculated using the formula:
 
 
 $$
-
 P = VI
-
 $$
 
 
@@ -2107,25 +2087,19 @@ Using Ohm's Law, we can calculate the voltage drop across each resistor:
 
 
 $$
-
 V_1 = IR_1
-
 $$
 
 
 
 $$
-
 V_2 = IR_2
-
 $$
 
 
 
 $$
-
 V_3 = IR_3
-
 $$
 
 
@@ -2139,9 +2113,7 @@ The total voltage, V, can be calculated by summing the voltage drops across each
 
 
 $$
-
 V = V_1 + V_2 + V_3 = I(R_1 + R_2 + R_3)
-
 $$
 
 
@@ -2159,25 +2131,19 @@ Using the formula for power, we can calculate the power dissipation in each resi
 
 
 $$
-
 P_1 = V_1I = I^2R_1
-
 $$
 
 
 
 $$
-
 P_2 = V_2I = I^2R_2
-
 $$
 
 
 
 $$
-
 P_3 = V_3I = I^2R_3
-
 $$
 
 
@@ -2187,9 +2153,7 @@ The total power dissipation, P, can be calculated by summing the power dissipati
 
 
 $$
-
 P = P_1 + P_2 + P_3 = I^2(R_1 + R_2 + R_3)
-
 $$
 
 
@@ -2225,25 +2189,19 @@ Using Ohm's Law, we can calculate the current through each resistor:
 
 
 $$
-
 I_1 = \frac{V}{R_1}
-
 $$
 
 
 
 $$
-
 I_2 = \frac{V}{R_2}
-
 $$
 
 
 
 $$
-
 I_3 = \frac{V}{R_3}
-
 $$
 
 
@@ -2257,9 +2215,7 @@ The total current, I, can be calculated by summing the currents through each res
 
 
 $$
-
 I = I_1 + I_2 + I_3 = \frac{V}{R_1} + \frac{V}{R_2} + \frac{V}{R_3}
-
 $$
 
 
@@ -2277,25 +2233,19 @@ Using the formula for power, we can calculate the power dissipation in each resi
 
 
 $$
-
 P_1 = I_1V = \frac{V^2}{R_1}
-
 $$
 
 
 
 $$
-
 P_2 = I_2V = \frac{V^2}{R_2}
-
 $$
 
 
 
 $$
-
 P_3 = I_3V = \frac{V^2}{R_3}
-
 $$
 
 
@@ -2305,9 +2255,7 @@ The total power dissipation, P, can be calculated by summing the power dissipati
 
 
 $$
-
 P = P_1 + P_2 + P_3 = \frac{V^2}{R_1} + \frac{V^2}{R_2} + \frac{V^2}{R_3}
-
 $$
 
 
@@ -2365,9 +2313,7 @@ Using these steps, we can find the values of Vth and Rth for our example circuit
 
 
 $$
-
 R_{eq} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}
-
 $$
 
 
@@ -2377,9 +2323,7 @@ In our example, this gives us:
 
 
 $$
-
 R_{eq} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}} = \frac{1}{\frac{1}{10k\Omega} + \frac{1}{20k\Omega} + \frac{1}{30k\Omega}} = 6k\Omega
-
 $$
 
 
@@ -2445,9 +2389,7 @@ Using these steps, we can find the values of In and Rn for our example circuit:
 
 
 $$
-
 R_{eq} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}
-
 $$
 
 
@@ -2457,9 +2399,7 @@ In our example, this gives us:
 
 
 $$
-
 R_{eq} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}} = \frac{1}{\frac{1}{10k\Omega} + \frac{1}{20k\Omega} + \frac{1}{30k\Omega}} = 6k\Omega
-
 $$
 
 
@@ -2511,25 +2451,19 @@ Now, let's introduce the concept of current division ratio. This is the ratio of
 
 
 $$
-
 \frac{I_1}{I_{total}} = \frac{R_{total}}{R_1 + R_2 + R_3}
-
 $$
 
 
 
 $$
-
 \frac{I_2}{I_{total}} = \frac{R_{total}}{R_1 + R_2 + R_3}
-
 $$
 
 
 
 $$
-
 \frac{I_3}{I_{total}} = \frac{R_{total}}{R_1 + R_2 + R_3}
-
 $$
 
 
@@ -2663,9 +2597,7 @@ Mathematically, KVL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -2687,17 +2619,13 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 V_1 - R_1I_1 - R_2I_2 = 0
-
 $$
 
 
 
 $$
-
 V_2 - R_3I_3 + R_2I_2 = 0
-
 $$
 
 
@@ -2737,9 +2665,7 @@ Mathematically, KCL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -2761,9 +2687,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2785,9 +2709,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2809,9 +2731,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2833,9 +2753,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2857,9 +2775,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2881,9 +2797,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2905,9 +2819,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2929,9 +2841,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2953,9 +2863,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -2977,9 +2885,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3001,9 +2907,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3025,9 +2929,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3049,9 +2951,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3073,9 +2973,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3097,9 +2995,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 + I_2 - I_3 = 0
-
 $$
 
 
@@ -3139,9 +3035,7 @@ Mathematically, KVL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -3163,9 +3057,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 V_1 - V_2 - V_3 = 0
-
 $$
 
 
@@ -3201,9 +3093,7 @@ Mathematically, KCL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3225,9 +3115,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 - I_2 - I_3 = 0
-
 $$
 
 
@@ -3245,9 +3133,7 @@ Mathematically, KVL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -3269,9 +3155,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 V_1 - V_2 - V_3 = 0
-
 $$
 
 
@@ -3303,9 +3187,7 @@ Mathematically, KCL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3327,9 +3209,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 - I_2 - I_3 = 0
-
 $$
 
 
@@ -3343,9 +3223,7 @@ In addition to series circuits, KCL can also be applied to parallel circuits. In
 
 
 $$
-
 I_{in} = \sum_{n=1}^{N} I_n
-
 $$
 
 
@@ -3377,9 +3255,7 @@ Mathematically, KCL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3401,9 +3277,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 - I_2 - I_3 = 0
-
 $$
 
 
@@ -3439,9 +3313,7 @@ Mathematically, KCL can be expressed as:
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3463,9 +3335,7 @@ Let's consider the example of a simple circuit with two voltage sources and thre
 
 
 $$
-
 I_1 - I_2 - I_3 = 0
-
 $$
 
 
@@ -3501,9 +3371,7 @@ One of the key characteristics of series circuits is that the total resistance i
 
 
 $$
-
 V_{total} = V_1 + V_2 + ... + V_n = I(R_1 + R_2 + ... + R_n) = IR_{total}
-
 $$
 
 
@@ -3525,9 +3393,7 @@ One of the key characteristics of parallel circuits is that the total resistance
 
 
 $$
-
 \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
-
 $$
 
 
@@ -3553,9 +3419,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \frac{V_1}{R_1} = \frac{V_2}{R_2} = \frac{V_{unknown}}{R_{unknown}}
-
 $$
 
 
@@ -3565,9 +3429,7 @@ Solving for the unknown resistance, we get:
 
 
 $$
-
 R_{unknown} = \frac{R_2}{R_1}R_{known}
-
 $$
 
 
@@ -3619,9 +3481,7 @@ One of the key characteristics of series circuits is that the total resistance i
 
 
 $$
-
 V_{total} = V_1 + V_2 + ... + V_n = I(R_1 + R_2 + ... + R_n) = IR_{total}
-
 $$
 
 
@@ -3639,9 +3499,7 @@ One of the key characteristics of parallel circuits is that the total resistance
 
 
 $$
-
 \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
-
 $$
 
 
@@ -3927,9 +3785,7 @@ Diodes are two-terminal devices that exhibit a non-linear current-voltage (I-V) 
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
-
 $$
 
 
@@ -4443,9 +4299,7 @@ The simplest form of a voltage multiplier is the half-wave voltage doubler, whic
 
 
 $$
-
 V_{out} = 2V_{in}
-
 $$
 
 
@@ -4455,9 +4309,7 @@ Another commonly used voltage multiplier is the full-wave voltage doubler, which
 
 
 $$
-
 V_{out} = 2V_{in} - 2V_{D}
-
 $$
 
 
@@ -4547,9 +4399,7 @@ As we can see, the output is a pulsating DC signal, with only the positive half-
 
 
 $$
-
 V_{DC} = \frac{V_{m}}{\pi}
-
 $$
 
 
@@ -4587,9 +4437,7 @@ As we can see, the output is now a much smoother DC signal, with reduced ripples
 
 
 $$
-
 V_{DC} = \frac{V_{m}}{\pi} - \frac{V_{m}}{2\pi}
-
 $$
 
 
@@ -4735,9 +4583,7 @@ The efficiency of a rectifier is a measure of how well it converts AC to DC. In 
 
 
 $$
-
 \eta = \frac{P_{DC}}{P_{AC}} \times 100\%
-
 $$
 
 
@@ -4819,9 +4665,7 @@ The ripple factor can be calculated using the following equation:
 
 
 $$
-
 \gamma = \frac{V_{rms}}{V_{dc}}
-
 $$
 
 
@@ -4831,9 +4675,7 @@ Where $V_{rms}$ is the root mean square (RMS) value of the AC component in the o
 
 
 $$
-
 V_{rms} = \frac{V_{m}}{\pi}
-
 $$
 
 
@@ -4843,9 +4685,7 @@ Where $V_{m}$ is the peak value of the AC component. Substituting this into the 
 
 
 $$
-
 \gamma = \frac{V_{m}}{\pi V_{dc}}
-
 $$
 
 
@@ -5055,9 +4895,7 @@ The bridge full-wave rectifier is a type of full-wave rectifier that uses four d
 
 
 $$
-
 \Delta V_{out} = \frac{2V_{in}}{\pi}
-
 $$
 
 
@@ -5135,9 +4973,7 @@ The center-tapped full-wave rectifier is the simplest form of a full-wave rectif
 
 
 $$
-
 \Delta V_{out} = \frac{2V_{max}}{\pi}
-
 $$
 
 
@@ -5159,9 +4995,7 @@ The bridge rectifier is a more efficient and compact version of the full-wave re
 
 
 $$
-
 \Delta V_{out} = \frac{2V_{max}}{\pi}
-
 $$
 
 
@@ -5463,7 +5297,6 @@ The basic circuit diagram of a bridge rectifier is shown below:
 
 
 $$
-
 \begin{align}
 
 &\text{AC Input} \rightarrow &\text{Diode} \rightarrow &\text{Load} \rightarrow &\text{Diode} \rightarrow &\text{AC Output} \\
@@ -5473,7 +5306,6 @@ $$
 & &\text{Diode} & &\text{Diode}
 
 \end{align}
-
 $$
 
 
@@ -5623,9 +5455,7 @@ A Zener diode can be used as a voltage regulator by connecting it in parallel wi
 
 
 $$
-
 V_{out} = V_Z
-
 $$
 
 
@@ -5707,9 +5537,7 @@ The current-voltage (I-V) characteristics of a Zener diode are shown in Figure 1
 
 
 $$
-
 I = I_{ZK} + \frac{V}{R_Z}
-
 $$
 
 
@@ -5735,9 +5563,7 @@ Apart from voltage regulation and protection, Zener diodes can also be used as v
 
 
 $$
-
 V_{out} = V_{in} - V_Z
-
 $$
 
 
@@ -5807,7 +5633,6 @@ The circuit diagram for a Zener diode clipper is shown below:
 
 
 $$
-
 \begin{align}
 
 V_{in} &\rightarrow &| &\rightarrow &V_{out} \\
@@ -5823,7 +5648,6 @@ V_{in} &\rightarrow &| &\rightarrow &V_{out} \\
 & &GND & &
 
 \end{align}
-
 $$
 
 
@@ -5841,7 +5665,6 @@ The Zener diode can also be used as a voltage clamp, where it limits the voltage
 
 
 $$
-
 \begin{align}
 
 V_{in} &\rightarrow &| &\rightarrow &V_{out} \\
@@ -5857,7 +5680,6 @@ V_{in} &\rightarrow &| &\rightarrow &V_{out} \\
 & &GND & &
 
 \end{align}
-
 $$
 
 
@@ -7115,9 +6937,7 @@ One of the key parameters of an amplifier is its voltage gain, which is defined 
 
 
 $$
-
 A_v = -\frac{R_C}{R_E}
-
 $$
 
 
@@ -7159,9 +6979,7 @@ To calculate the actual voltage gain, we can use the following equation:
 
 
 $$
-
 A_v = -\frac{R_C}{R_E + r_e}
-
 $$
 
 
@@ -7271,17 +7089,13 @@ To calculate the input and output impedance of a common-emitter amplifier, we ca
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}}
-
 $$
 
 
 
 $$
-
 Z_{out} = \frac{V_{out}}{I_{out}}
-
 $$
 
 
@@ -7551,9 +7365,7 @@ The voltage gain of a common-base amplifier is defined as the ratio of the outpu
 
 
 $$
-
 A_v = 20\log_{10}\left(\frac{V_{out}}{V_{in}}\right)
-
 $$
 
 
@@ -7931,9 +7743,7 @@ The voltage gain of a common-collector amplifier is less than 1, meaning that th
 
 
 $$
-
 A_v = \frac{V_{out}}{V_{in}} = \frac{R_C}{R_C + R_E}
-
 $$
 
 
@@ -8031,17 +7841,13 @@ To calculate the input and output impedance of a common-collector amplifier, we 
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}} = \frac{V_{in}}{I_{b}}
-
 $$
 
 
 
 $$
-
 Z_{out} = \frac{V_{out}}{I_{out}} = \frac{V_{out}}{I_{c}}
-
 $$
 
 
@@ -8215,9 +8021,7 @@ Fixed bias is a simple biasing technique that uses a resistor connected between 
 
 
 $$
-
 V_{CC} - R_B - V_{BE} - I_B - I_C - V_{CE} - V_{CC}
-
 $$
 
 
@@ -8307,9 +8111,7 @@ The equation for calculating the voltage at the base terminal in a collector-to-
 
 
 $$
-
 V_B = V_{CC} \frac{R_B}{R_B + R_{BE}}
-
 $$
 
 
@@ -8383,9 +8185,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -8467,9 +8267,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -8559,9 +8357,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -8607,9 +8403,7 @@ The input resistance, $r_{\pi}$, is the resistance seen at the base terminal whe
 
 
 $$
-
 r_{\pi} = \frac{\beta}{g_m}
-
 $$
 
 
@@ -8623,9 +8417,7 @@ The output resistance, $r_o$, is the resistance seen at the collector terminal w
 
 
 $$
-
 r_o = \frac{V_A}{I_C}
-
 $$
 
 
@@ -8639,9 +8431,7 @@ The forward current gain, $h_{fe}$, is the ratio of the collector current to the
 
 
 $$
-
 h_{fe} = \frac{I_C}{I_B}
-
 $$
 
 
@@ -8711,9 +8501,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -8747,17 +8535,13 @@ The small signal model for FET consists of a voltage-controlled current source, 
 
 
 $$
-
 i_D = g_m v_{GS}
-
 $$
 
 
 
 $$
-
 r_o = \frac{1}{\lambda i_D}
-
 $$
 
 
@@ -8839,9 +8623,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -8887,9 +8669,7 @@ The voltage gain of an amplifier is the ratio of the output voltage to the input
 
 
 $$
-
 A_v = \frac{V_{out}}{V_{in}} = \frac{R_D}{R_S + R_D}
-
 $$
 
 
@@ -8907,9 +8687,7 @@ The input impedance of an amplifier is the ratio of the input voltage to the inp
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}} = R_S + \frac{R_D}{1 + gmR_D}
-
 $$
 
 
@@ -8927,9 +8705,7 @@ The output impedance of an amplifier is the ratio of the output voltage to the o
 
 
 $$
-
 Z_{out} = \frac{V_{out}}{I_{out}} = R_D || \frac{1}{gm}
-
 $$
 
 
@@ -9003,9 +8779,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -9099,9 +8873,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -9139,9 +8911,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{BE} = \frac{R_2}{R_1 + R_2} \times V_{CC}
-
 $$
 
 
@@ -9219,9 +8989,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -9267,9 +9035,7 @@ The bandwidth of an amplifier can be calculated using the formula:
 
 
 $$
-
 BW = f_H - f_L
-
 $$
 
 
@@ -9343,9 +9109,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -9471,9 +9235,7 @@ The voltage divider network consists of two resistors, $R_1$ and $R_2$, connecte
 
 
 $$
-
 V_{GS} = \frac{R_2}{R_1 + R_2} \times V_{DD}
-
 $$
 
 
@@ -9655,9 +9417,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 A = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -9713,9 +9473,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 A = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -9749,9 +9507,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}}
-
 $$
 
 
@@ -9803,9 +9559,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 A = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -9851,9 +9605,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 Z_{out} = \frac{\Delta V_{out}}{\Delta I_{out}} = 0
-
 $$
 
 
@@ -9927,9 +9679,7 @@ The input signal, $V_{in}$, is applied to the inverting input terminal of the op
 
 
 $$
-
 A_{v} = -\frac{R_f}{R_{in}}
-
 $$
 
 
@@ -9947,9 +9697,7 @@ Using this information, we can analyze the circuit using Kirchhoff's current law
 
 
 $$
-
 \frac{V_{in}}{R_{in}} = \frac{V_{out}}{R_f}
-
 $$
 
 
@@ -9959,9 +9707,7 @@ Rearranging this equation, we get the expression for the output voltage:
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_{in}}V_{in} = A_vV_{in}
-
 $$
 
 
@@ -10001,9 +9747,7 @@ The input signal, $V_{in}$, is applied to the inverting input terminal of the op
 
 
 $$
-
 A_{v} = -\frac{R_f}{R_{in}}
-
 $$
 
 
@@ -10021,9 +9765,7 @@ Using this information, we can analyze the circuit using Kirchhoff's current law
 
 
 $$
-
 \frac{V_{in} - V_{out}}{R_{in}} = \frac{V_{out}}{R_f}
-
 $$
 
 
@@ -10033,9 +9775,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_{in}}V_{in}
-
 $$
 
 
@@ -10091,9 +9831,7 @@ The input signal, $V_{in}$, is applied to the inverting input terminal of the op
 
 
 $$
-
 A_{v} = -\frac{R_f}{R_{in}}
-
 $$
 
 
@@ -10123,9 +9861,7 @@ To calculate the input impedance of an inverting amplifier, we can use the conce
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}} = \frac{V_{in}}{\frac{V_{in}}{R_{in}}} = R_{in}
-
 $$
 
 
@@ -10147,9 +9883,7 @@ To calculate the output impedance of an inverting amplifier, we can use the conc
 
 
 $$
-
 Z_{out} = \frac{V_{out}}{I_{out}} = \frac{V_{out}}{\frac{V_{out}}{R_{out}}} = R_{out}
-
 $$
 
 
@@ -10189,9 +9923,7 @@ The input signal, $V_{in}$, is applied to the inverting input terminal of the op
 
 
 $$
-
 A_{v} = -\frac{R_f}{R_{in}}
-
 $$
 
 
@@ -10209,9 +9941,7 @@ Using this information, we can analyze the circuit using Kirchhoff's current law
 
 
 $$
-
 \frac{V_{in} - V_{out}}{R_{in}} = \frac{V_{out}}{R_f}
-
 $$
 
 
@@ -10221,9 +9951,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_{in}}V_{in}
-
 $$
 
 
@@ -10297,9 +10025,7 @@ The input signal, $V_{in}$, is applied to the non-inverting input terminal of th
 
 
 $$
-
 A_{v} = 1 + \frac{R_2}{R_{in}}
-
 $$
 
 
@@ -10339,9 +10065,7 @@ As mentioned in the previous section, the voltage gain of a non-inverting amplif
 
 
 $$
-
 A_{v} = 1 + \frac{R_2}{R_{in}}
-
 $$
 
 
@@ -10363,9 +10087,7 @@ To better understand the voltage gain of a non-inverting amplifier, let us consi
 
 
 $$
-
 A_{v} = 1 + \frac{20k\Omega}{\infty} = 1 + 0 = 1
-
 $$
 
 
@@ -10375,9 +10097,7 @@ This means that the output voltage will be equal to the input voltage, resulting
 
 
 $$
-
 A_{v} = 1 + \frac{30k\Omega}{\infty} = 1 + 0 = 1
-
 $$
 
 
@@ -10493,9 +10213,7 @@ A summing amplifier, also known as an adder, is a circuit that combines multiple
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}V_1 - \frac{R_f}{R_2}V_2 - ... - \frac{R_f}{R_n}V_n
-
 $$
 
 
@@ -10521,9 +10239,7 @@ To better understand the operation of a summing amplifier, let us consider an ex
 
 
 $$
-
 V_{out} = -\frac{5k\Omega}{10k\Omega}(1V) - \frac{5k\Omega}{20k\Omega}(2V) - \frac{5k\Omega}{30k\Omega}(3V) = -2V
-
 $$
 
 
@@ -10559,9 +10275,7 @@ A summing amplifier, also known as an adder, is a circuit that combines multiple
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}V_1 - \frac{R_f}{R_2}V_2 - ... - \frac{R_f}{R_n}V_n
-
 $$
 
 
@@ -10587,9 +10301,7 @@ To better understand the operation of a summing amplifier, let us consider an ex
 
 
 $$
-
 V_{out} = -\frac{5k\Omega}{10k\Omega}V_1 - \frac{5k\Omega}{20k\Omega}V_2 - \frac{5k\Omega}{30k\Omega}V_3
-
 $$
 
 
@@ -10607,9 +10319,7 @@ The voltage gain of a summing amplifier is determined by the feedback resistor, 
 
 
 $$
-
 A_v = -\frac{R_f}{R_1 + R_2 + ... + R_n}
-
 $$
 
 
@@ -10641,9 +10351,7 @@ A summing amplifier, also known as an adder, is a circuit that combines multiple
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}V_1 - \frac{R_f}{R_2}V_2 - ... - \frac{R_f}{R_n}V_n
-
 $$
 
 
@@ -10703,9 +10411,7 @@ A summing amplifier, also known as an adder, is a circuit that combines multiple
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}V_1 - \frac{R_f}{R_2}V_2 - ... - \frac{R_f}{R_n}V_n
-
 $$
 
 
@@ -10777,9 +10483,7 @@ A difference amplifier, also known as a subtractor, is a circuit that produces a
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}(V_1 - V_2)
-
 $$
 
 
@@ -10847,9 +10551,7 @@ A difference amplifier, also known as a subtractor, is a circuit that produces a
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}(V_1 - V_2)
-
 $$
 
 
@@ -10895,9 +10597,7 @@ The voltage gain of a difference amplifier is determined by the ratio of the fee
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}(V_1 - V_2)
-
 $$
 
 
@@ -10949,9 +10649,7 @@ A difference amplifier, also known as a subtractor, is a circuit that produces a
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}(V_1 - V_2)
-
 $$
 
 
@@ -11027,9 +10725,7 @@ A difference amplifier, also known as a subtractor, is a circuit that produces a
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_1}(V_1 - V_2)
-
 $$
 
 
@@ -11109,9 +10805,7 @@ An integrator is a circuit that performs mathematical integration on an input si
 
 
 $$
-
 V_{out} = -\frac{1}{R_fC}\int V_{in}dt
-
 $$
 
 
@@ -11153,9 +10847,7 @@ A differentiator is a circuit that performs mathematical differentiation on an i
 
 
 $$
-
 V_{out} = -RC\frac{dV_{in}}{dt}
-
 $$
 
 
@@ -11223,9 +10915,7 @@ An integrator is a circuit that performs mathematical integration on an input si
 
 
 $$
-
 V_{out} = -\frac{1}{R_fC}\int V_{in}dt
-
 $$
 
 
@@ -11285,9 +10975,7 @@ An integrator is a circuit that performs mathematical integration on an input si
 
 
 $$
-
 V_{out} = -\frac{1}{R_fC}\int V_{in}dt
-
 $$
 
 
@@ -11321,9 +11009,7 @@ In addition to the high input impedance, the input resistor also plays a crucial
 
 
 $$
-
 \tau = R_1C
-
 $$
 
 
@@ -11383,9 +11069,7 @@ An integrator is a circuit that performs mathematical integration on an input si
 
 
 $$
-
 V_{out} = -\frac{1}{R_fC}\int V_{in}dt
-
 $$
 
 
@@ -11481,9 +11165,7 @@ One common type of low-pass active filter is the Sallen-Key filter, which is sho
 
 
 $$
-
 H(s) = \frac{1}{1+sR_2C_2}\frac{R_3}{R_1+R_3}
-
 $$
 
 
@@ -11571,9 +11253,7 @@ One common type of high-pass active filter is the multiple feedback filter, whic
 
 
 $$
-
 H(s) = \frac{R_2}{R_1}\frac{s}{s+\frac{1}{R_3C_1}+\frac{1}{R_2C_2}}
-
 $$
 
 
@@ -11633,9 +11313,7 @@ One common type of high-pass active filter is the multiple feedback filter, whic
 
 
 $$
-
 H(s) = \frac{R_2}{R_1}\frac{s}{s+\frac{1}{R_3C_1}+\frac{1}{R_2C_2}}
-
 $$
 
 
@@ -11669,9 +11347,7 @@ One common type of band-pass active filter is the Sallen-Key filter, which is sh
 
 
 $$
-
 H(s) = \frac{R_2R_3C_1C_2s^2}{(1+R_3C_1s)(1+R_2C_2s)+R_2R_3C_1C_2s^2}
-
 $$
 
 
@@ -11707,9 +11383,7 @@ Similar to other active filters, notch filters use operational amplifiers and a 
 
 
 $$
-
 H(s) = \frac{R_2}{R_1}\frac{s^2+\frac{1}{R_1C_1R_2C_2}}{s^2+\frac{1}{R_1C_1R_2C_2}+\frac{1}{R_1C_1R_2C_3}}
-
 $$
 
 
@@ -11879,9 +11553,7 @@ One of the key parameters in negative feedback is the loop gain, denoted by $L$.
 
 
 $$
-
 L = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -11895,9 +11567,7 @@ Another important concept in negative feedback is the closed-loop gain, denoted 
 
 
 $$
-
 A_{CL} = \frac{V_{out}}{V_{in}} = \frac{A_{OL}}{1 + L}
-
 $$
 
 
@@ -11941,9 +11611,7 @@ One of the key parameters in positive feedback is the loop gain, denoted by $L$.
 
 
 $$
-
 L = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -11957,9 +11625,7 @@ Another important concept in positive feedback is the closed-loop gain, denoted 
 
 
 $$
-
 A_{CL} = \frac{V_{out}}{V_{in}} = \frac{A_{OL}}{1 - L}
-
 $$
 
 
@@ -12099,9 +11765,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12111,9 +11775,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12123,9 +11785,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12135,9 +11795,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12147,9 +11805,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12163,9 +11819,7 @@ One of the main advantages of voltage-series feedback is its ability to reduce t
 
 
 $$
-
 Z_{in} = R_{in}(1 + A\beta)
-
 $$
 
 
@@ -12217,9 +11871,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12229,9 +11881,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12241,9 +11891,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12253,9 +11901,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12265,9 +11911,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12297,9 +11941,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12309,9 +11951,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12321,9 +11961,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12333,9 +11971,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12345,9 +11981,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12391,9 +12025,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12403,9 +12035,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12415,9 +12045,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12427,9 +12055,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12439,9 +12065,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12471,9 +12095,7 @@ In this circuit, the input current, $I_{in}$, is applied to the non-inverting in
 
 
 $$
-
 I_{out} = A(I_{in} - I_{fb})
-
 $$
 
 
@@ -12483,9 +12105,7 @@ Where $A$ is the open-loop gain of the op-amp and $I_{fb}$ is the feedback curre
 
 
 $$
-
 I_{fb} = \beta I_{out}
-
 $$
 
 
@@ -12495,9 +12115,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12507,9 +12125,7 @@ Substituting this into the equation for $I_{out}$, we get:
 
 
 $$
-
 I_{out} = A(I_{in} - \beta I_{out})
-
 $$
 
 
@@ -12519,9 +12135,7 @@ Solving for $I_{out}$, we get:
 
 
 $$
-
 I_{out} = \frac{A}{1 + A\beta}I_{in}
-
 $$
 
 
@@ -12569,9 +12183,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12581,9 +12193,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12593,9 +12203,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12605,9 +12213,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12617,9 +12223,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12649,9 +12253,7 @@ In this circuit, the input current, $I_{in}$, is applied to the inverting input 
 
 
 $$
-
 V_{out} = A(I_{in} + I_{fb})
-
 $$
 
 
@@ -12661,9 +12263,7 @@ Where $A$ is the open-loop gain of the op-amp and $I_{fb}$ is the feedback curre
 
 
 $$
-
 I_{fb} = \frac{V_{out}}{R_f}
-
 $$
 
 
@@ -12673,9 +12273,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_{in}}
-
 $$
 
 
@@ -12685,9 +12283,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(I_{in} + \beta V_{out})
-
 $$
 
 
@@ -12697,9 +12293,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 - A\beta}I_{in}
-
 $$
 
 
@@ -12775,9 +12369,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} - V_{fb})
-
 $$
 
 
@@ -12787,9 +12379,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12799,9 +12389,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12811,9 +12399,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} - \beta V_{out})
-
 $$
 
 
@@ -12823,9 +12409,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 + A\beta}V_{in}
-
 $$
 
 
@@ -12881,9 +12465,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = A(V_{in} + V_{fb})
-
 $$
 
 
@@ -12893,9 +12475,7 @@ Where $A$ is the open-loop gain of the op-amp and $V_{fb}$ is the feedback volta
 
 
 $$
-
 V_{fb} = \beta V_{out}
-
 $$
 
 
@@ -12905,9 +12485,7 @@ The feedback factor, $\beta$, is given by the ratio of the feedback resistor, $R
 
 
 $$
-
 \beta = \frac{R_f}{R_f + R_{in}}
-
 $$
 
 
@@ -12917,9 +12495,7 @@ Substituting this into the equation for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = A(V_{in} + \beta V_{out})
-
 $$
 
 
@@ -12929,9 +12505,7 @@ Solving for $V_{out}$, we get:
 
 
 $$
-
 V_{out} = \frac{A}{1 - A\beta}V_{in}
-
 $$
 
 
@@ -12979,9 +12553,7 @@ In this circuit, the input voltage, $V_{in}$, is applied to the non-inverting in
 
 
 $$
-
 V_{out} = \frac{A}{1 - A\beta}V_{in}
-
 $$
 
 
@@ -12995,9 +12567,7 @@ This can be seen by considering the case where the input voltage is 0. In this c
 
 
 $$
-
 V_{out} = \frac{A}{1 - A\beta}(0) = 0
-
 $$
 
 
@@ -13111,9 +12681,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sum_{i=1}^{n} \phi_i = 2k\pi
-
 $$
 
 
@@ -13165,9 +12733,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sum_{i=1}^{n} \phi_i = 2k\pi
-
 $$
 
 
@@ -13197,9 +12763,7 @@ Mathematically, the phase shift introduced by each stage can be expressed as:
 
 
 $$
-
 \phi_i = \arctan(\frac{1}{2\pi fRC})
-
 $$
 
 
@@ -13247,9 +12811,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sum_{i=1}^{n} \phi_i = 2k\pi
-
 $$
 
 
@@ -13317,9 +12879,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sum_{i=1}^{n} \phi_i = 2k\pi
-
 $$
 
 
@@ -13473,9 +13033,7 @@ The frequency of the oscillation is determined by the values of the inductor and
 
 
 $$
-
 f = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -13539,9 +13097,7 @@ The frequency of the oscillation is determined by the values of the inductor and
 
 
 $$
-
 f = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -13567,9 +13123,7 @@ The Hartley oscillator, named after its inventor Ralph Hartley, is another popul
 
 
 $$
-
 \Delta w = \frac{1}{\sqrt{LC}} - \frac{1}{\sqrt{L_1C}} - \frac{1}{\sqrt{L_2C}}
-
 $$
 
 
@@ -13625,9 +13179,7 @@ The frequency of the oscillation is determined by the values of the inductor and
 
 
 $$
-
 f = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -13653,9 +13205,7 @@ The Clapp oscillator, named after its inventor James K. Clapp, is a variation of
 
 
 $$
-
 \Delta w = \frac{1}{\sqrt{LC}} - \frac{1}{\sqrt{L(C+C_0)}}
-
 $$
 
 
@@ -13715,9 +13265,7 @@ The frequency of the oscillation is determined by the values of the resistor and
 
 
 $$
-
 f = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -13743,9 +13291,7 @@ The Wien bridge oscillator, named after its inventor Max Wien, is a type of RC o
 
 
 $$
-
 \Delta V_{out} = \frac{R_2}{R_1}\Delta V_{in}
-
 $$
 
 
@@ -13785,9 +13331,7 @@ The frequency of the oscillation is determined by the values of the resistor and
 
 
 $$
-
 f = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -13859,9 +13403,7 @@ The frequency of the oscillation is determined by the values of the resistor and
 
 
 $$
-
 f = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -13941,9 +13483,7 @@ The frequency of the oscillation is determined by the values of the resistor and
 
 
 $$
-
 f = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -14047,9 +13587,7 @@ The frequency of the oscillation is determined by the resonant frequency of the 
 
 
 $$
-
 f = \frac{1}{2\pi \sqrt{LC}}
-
 $$
 
 
@@ -14109,9 +13647,7 @@ The frequency of the oscillation is determined by the resonant frequency of the 
 
 
 $$
-
 f = \frac{1}{2\pi \sqrt{LC}}
-
 $$
 
 
@@ -14171,9 +13707,7 @@ The frequency of the oscillation is determined by the resonant frequency of the 
 
 
 $$
-
 f = \frac{1}{2\pi \sqrt{LC}}
-
 $$
 
 
@@ -14211,9 +13745,7 @@ The frequency of oscillation for the Colpitts crystal oscillator can be calculat
 
 
 $$
-
 f = \frac{1}{2\pi \sqrt{LC}}
-
 $$
 
 
@@ -14253,9 +13785,7 @@ The frequency of the oscillation is determined by the resonant frequency of the 
 
 
 $$
-
 f = \frac{1}{2\pi \sqrt{LC}}
-
 $$
 
 
@@ -14515,9 +14045,7 @@ To analyze the frequency response of a low-pass filter, we use the transfer func
 
 
 $$
-
 H(f) = \frac{1}{\sqrt{1 + (f/f_c)^2}}
-
 $$
 
 
@@ -14583,9 +14111,7 @@ High-pass passive filters are designed to allow high-frequency signals to pass t
 
 
 $$
-
 H(j\omega) = \frac{R}{R + \frac{1}{j\omega C}}
-
 $$
 
 
@@ -14671,9 +14197,7 @@ The transfer function of a band-pass filter can be described by the following eq
 
 
 $$
-
 H(j\omega) = \frac{R}{R + j(\omega L - \frac{1}{\omega C})}
-
 $$
 
 
@@ -14683,17 +14207,13 @@ where $R$ is the resistance, $L$ is the inductance, and $C$ is the capacitance o
 
 
 $$
-
 f_{c1} = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
 
 $$
-
 f_{c2} = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -14703,9 +14223,7 @@ The bandwidth, $B$, of a band-pass filter is defined as the difference between t
 
 
 $$
-
 B = f_{c2} - f_{c1} = \frac{1}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -14775,9 +14293,7 @@ The transfer function of a notch filter can be expressed as:
 
 
 $$
-
 H(\omega) = \frac{1}{1 + j\frac{\omega}{\omega_0} + (\frac{\omega}{\omega_0})^2}
-
 $$
 
 
@@ -14847,9 +14363,7 @@ The basic circuit for a low-pass active filter is shown below:
 
 
 $$
-
 \Delta w = \frac{1}{RC}
-
 $$
 
 
@@ -14863,9 +14377,7 @@ The transfer function for this circuit can be derived using Kirchhoff's laws and
 
 
 $$
-
 H(s) = \frac{1}{1+sRC}
-
 $$
 
 
@@ -14879,9 +14391,7 @@ To design a low-pass active filter with a specific cutoff frequency, we can choo
 
 
 $$
-
 \Delta w = \frac{1}{(1k\Omega)(1nF)} = 1kHz
-
 $$
 
 
@@ -14959,9 +14469,7 @@ The cutoff frequency of a high-pass active filter is determined by the values of
 
 
 $$
-
 f_c = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -15039,9 +14547,7 @@ The transfer function of a band-pass active filter can be described by the follo
 
 
 $$
-
 H(s) = \frac{A\omega_0}{s^2 + \frac{\omega_0}{Q}s + \omega_0^2}
-
 $$
 
 
@@ -15115,9 +14621,7 @@ To design a notch active filter, we first need to determine the desired frequenc
 
 
 $$
-
 H(s) = \frac{1}{1 + \frac{s}{\omega_0 Q} + \frac{s^2}{\omega_0^2}}
-
 $$
 
 
@@ -15183,9 +14687,7 @@ First-order low-pass filters are the simplest type of low-pass filters and consi
 
 
 $$
-
 H(j\omega) = \frac{1}{1 + j\omega RC}
-
 $$
 
 
@@ -15195,9 +14697,7 @@ Where $\omega$ is the angular frequency, $R$ is the resistance, and $C$ is the c
 
 
 $$
-
 \omega_c = \frac{1}{RC}
-
 $$
 
 
@@ -15267,9 +14767,7 @@ The transfer function of a second-order low-pass filter can be expressed as:
 
 
 $$
-
 H(s) = \frac{1}{1 + \frac{s}{\omega_0} + \frac{s^2}{\omega_0^2}}
-
 $$
 
 
@@ -15347,9 +14845,7 @@ The transfer function of a Butterworth low-pass filter is given by:
 
 
 $$
-
 H(s) = \frac{1}{1+(\frac{s}{\omega_c})^{2n}}
-
 $$
 
 
@@ -15367,17 +14863,13 @@ Once the cutoff frequency and the order of the filter are determined, we can cal
 
 
 $$
-
 C = \frac{1}{R\omega_c} \sqrt{\frac{1}{2^{1/n}-1}}
-
 $$
 
 
 
 $$
-
 L = R\omega_c \sqrt{\frac{1}{2^{1/n}-1}}
-
 $$
 
 
@@ -15443,9 +14935,7 @@ The transfer function of a Chebyshev low-pass filter is given by:
 
 
 $$
-
 H(s) = \frac{1}{\sqrt{1 + \epsilon^2 T_n^2(\frac{s}{\omega_c})}}
-
 $$
 
 
@@ -15511,9 +15001,7 @@ First-order high-pass filters are the simplest type of high-pass filters and con
 
 
 $$
-
 H(j\omega) = \frac{j\omega RC}{1 + j\omega RC}
-
 $$
 
 
@@ -15527,9 +15015,7 @@ To better understand the behavior of first-order high-pass filters, let's consid
 
 
 $$
-
 H(j\omega) = \frac{j\omega (1k\Omega)(1nF)}{1 + j\omega (1k\Omega)(1nF)}
-
 $$
 
 
@@ -15539,9 +15025,7 @@ At the cutoff frequency, $\omega_c = 2\pi(1kHz) = 2000\pi$, the magnitude of the
 
 
 $$
-
 |H(j\omega_c)| = \frac{2000\pi(1k\Omega)(1nF)}{\sqrt{(2000\pi)^2(1k\Omega)^2 + (1 - 2000\pi)^2(1nF)^2}} \approx 0.707
-
 $$
 
 
@@ -15607,9 +15091,7 @@ The transfer function of a second-order high-pass filter can be expressed as:
 
 
 $$
-
 H(s) = \frac{R_2C_2s}{1+R_1C_1s+R_2C_2s}
-
 $$
 
 
@@ -15623,9 +15105,7 @@ The cutoff frequency of a second-order high-pass filter is given by:
 
 
 $$
-
 f_c = \frac{1}{2\pi\sqrt{R_1R_2C_1C_2}}
-
 $$
 
 
@@ -15635,9 +15115,7 @@ and the bandwidth is given by:
 
 
 $$
-
 BW = \frac{1}{2\pi(R_1C_1+R_2C_2)}
-
 $$
 
 
@@ -15723,9 +15201,7 @@ The transfer function of a Butterworth high-pass filter is given by:
 
 
 $$
-
 H(s) = \frac{K}{s + \omega_c}
-
 $$
 
 
@@ -15735,9 +15211,7 @@ Where K is the gain of the filter and ωc is the cutoff frequency. The transfer 
 
 
 $$
-
 H(s) = \frac{K}{s^2 + \frac{\omega_c}{Q}s + \omega_c^2}
-
 $$
 
 
@@ -15883,9 +15357,7 @@ A first-order band-pass filter is a simple circuit that consists of a combinatio
 
 
 $$
-
 H(j\omega) = \frac{j\omega RC}{1 + j\omega RC}
-
 $$
 
 
@@ -15895,9 +15367,7 @@ where $\omega$ is the frequency in radians per second, R is the resistance in oh
 
 
 $$
-
 \omega_c = \frac{1}{RC}
-
 $$
 
 
@@ -15907,9 +15377,7 @@ The bandwidth of a first-order band-pass filter is defined as the difference bet
 
 
 $$
-
 BW = \omega_{c2} - \omega_{c1} = \frac{1}{RC}
-
 $$
 
 
@@ -15975,9 +15443,7 @@ A second-order band-pass filter is a type of filter that has two poles and two z
 
 
 $$
-
 H(s) = \frac{\omega_0^2}{s^2 + \frac{\omega_0}{Q}s + \omega_0^2}
-
 $$
 
 
@@ -16051,9 +15517,7 @@ The transfer function of a Butterworth band-pass filter is given by:
 
 
 $$
-
 H(s) = \frac{K}{(s^2 + \omega_0^2)^n}
-
 $$
 
 
@@ -16219,9 +15683,7 @@ The transfer function of a first-order notch filter can be expressed as:
 
 
 $$
-
 H(j\omega) = \frac{R}{R + j\omega L + \frac{1}{j\omega C}}
-
 $$
 
 
@@ -16235,9 +15697,7 @@ The cutoff frequency of a first-order notch filter is given by:
 
 
 $$
-
 \omega_c = \frac{1}{\sqrt{LC}}
-
 $$
 
 
@@ -16247,9 +15707,7 @@ and the bandwidth is given by:
 
 
 $$
-
 B = \frac{R}{L}
-
 $$
 
 
@@ -16323,9 +15781,7 @@ The transfer function of a second-order notch filter can be expressed as:
 
 
 $$
-
 H(s) = \frac{s^2 + \omega_0^2}{s^2 + \frac{\omega_0}{Q}s + \omega_0^2}
-
 $$
 
 
@@ -16411,9 +15867,7 @@ The transfer function of a Butterworth notch filter is given by:
 
 
 $$
-
 H(s) = \frac{1}{1+(\frac{s}{\omega_0})^2}
-
 $$
 
 
@@ -16539,9 +15993,7 @@ To design a Chebyshev notch filter, we first need to determine the notch frequen
 
 
 $$
-
 H(s) = \frac{1}{1 + \epsilon^2 T_n^2(\frac{s}{\omega_0})}
-
 $$
 
 
@@ -16615,9 +16067,7 @@ To design a Butterworth filter, we first need to determine the cutoff frequency,
 
 
 $$
-
 f_c = \frac{1}{2\pi RC}
-
 $$
 
 
@@ -16627,9 +16077,7 @@ where $f_c$ is the cutoff frequency, $R$ is the resistance, and $C$ is the capac
 
 
 $$
-
 H(s) = \frac{1}{1 + (\frac{s}{f_c})^{2n}}
-
 $$
 
 
@@ -16691,9 +16139,7 @@ The transfer function of a Chebyshev filter is given by:
 
 
 $$
-
 H(s) = \frac{1}{\sqrt{1 + \epsilon^2 T_n^2(\frac{s}{\omega_c})}}
-
 $$
 
 
@@ -16751,9 +16197,7 @@ To design a Bessel filter, we first need to determine the order of the filter. T
 
 
 $$
-
 \Delta w = \frac{1}{\sqrt{2^{1/n}-1}}
-
 $$
 
 
@@ -16815,9 +16259,7 @@ The elliptic approximation formula is given by:
 
 
 $$
-
 \Delta w = \frac{1}{\sqrt{\epsilon^2 - 1}} \left[ \frac{\epsilon + \sqrt{\epsilon^2 - 1}}{\epsilon - \sqrt{\epsilon^2 - 1}} \right]^{1/N}
-
 $$
 
 
@@ -16971,9 +16413,7 @@ To understand the operation of class A amplifiers, let's consider a simple commo
 
 
 $$
-
 V_b = \frac{R_2}{R_1+R_2}V_{cc}
-
 $$
 
 
@@ -16993,9 +16433,7 @@ When an input signal is applied, it causes the base-emitter junction to forward 
 
 
 $$
-
 V_{out} = V_{cc} - I_cR_c
-
 $$
 
 
@@ -17009,9 +16447,7 @@ The output voltage is a linear function of the input voltage, and the gain of th
 
 
 $$
-
 A_v = \frac{\Delta V_{out}}{\Delta V_{in}} = -\frac{R_c}{R_e}
-
 $$
 
 
@@ -17055,9 +16491,7 @@ To understand the operation of class A amplifiers, let's consider a simple commo
 
 
 $$
-
 V_b = \frac{R_2}{R_1+R_2}V_{cc}
-
 $$
 
 
@@ -17077,9 +16511,7 @@ When an input signal is applied, it causes the base-emitter junction to forward 
 
 
 $$
-
 V_{out} = V_{cc} - I_cR_c
-
 $$
 
 
@@ -17093,9 +16525,7 @@ The output voltage is a linear function of the input voltage, and the gain of th
 
 
 $$
-
 A_v = \frac{\Delta V_{out}}{\Delta V_{in}} = -\frac{R_c}{R_e}
-
 $$
 
 
@@ -17113,9 +16543,7 @@ As mentioned earlier, class A amplifiers have low efficiency due to the constant
 
 
 $$
-
 P_{out} = V_{out}I_c
-
 $$
 
 
@@ -17129,9 +16557,7 @@ The input power is given by:
 
 
 $$
-
 P_{in} = V_{in}I_{in}
-
 $$
 
 
@@ -17145,9 +16571,7 @@ Therefore, the efficiency of a class A amplifier can be calculated as:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} = \frac{V_{out}I_c}{V_{in}I_{in}} = \frac{V_{out}}{V_{in}}\frac{I_c}{I_{in}}
-
 $$
 
 
@@ -17157,9 +16581,7 @@ Since the output voltage is a linear function of the input voltage, the ratio $\
 
 
 $$
-
 \eta = A_v\frac{I_c}{I_{in}}
-
 $$
 
 
@@ -17199,9 +16621,7 @@ To understand the operation of class A amplifiers, let's consider a simple commo
 
 
 $$
-
 V_b = \frac{R_2}{R_1+R_2}V_{cc}
-
 $$
 
 
@@ -17221,9 +16641,7 @@ When an input signal is applied, it causes the base-emitter junction to forward 
 
 
 $$
-
 V_{out} = V_{cc} - I_cR_c
-
 $$
 
 
@@ -17237,9 +16655,7 @@ The output voltage is a linear function of the input voltage, and the gain of th
 
 
 $$
-
 A_v = \frac{\Delta V_{out}}{\Delta V_{in}} = -\frac{R_c}{R_e}
-
 $$
 
 
@@ -17257,9 +16673,7 @@ As mentioned earlier, class A amplifiers have low efficiency due to the constant
 
 
 $$
-
 P_{out} = V_{out}I_c = (V_{cc} - I_cR_c)I_c
-
 $$
 
 
@@ -17269,9 +16683,7 @@ The input power is given by:
 
 
 $$
-
 P_{in} = V_{in}I_b = V_{in}\frac{I_c}{\beta}
-
 $$
 
 
@@ -17285,9 +16697,7 @@ Therefore, the efficiency of a class A amplifier is given by:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} = \frac{(V_{cc} - I_cR_c)I_c}{V_{in}\frac{I_c}{\beta}} = \frac{(V_{cc} - I_cR_c)\beta}{V_{in}}
-
 $$
 
 
@@ -17407,9 +16817,7 @@ The efficiency of a class B amplifier can be calculated using the following equa
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -17591,9 +16999,7 @@ The efficiency of a class AB amplifier can be calculated by dividing the output 
 
 
 $$
-
 Efficiency = \frac{P_{out}}{P_{total}} = \frac{V_{out} \times I_{out}}{P_{output stage} + P_{biasing}}
-
 $$
 
 
@@ -17783,9 +17189,7 @@ The efficiency of a class C amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -17837,9 +17241,7 @@ The efficiency of a class C amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -17899,9 +17301,7 @@ The efficiency of a class C amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -17977,9 +17377,7 @@ The efficiency of a class D amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18035,9 +17433,7 @@ The efficiency of a class D amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18101,9 +17497,7 @@ The efficiency of a class D amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18163,9 +17557,7 @@ The efficiency of a class D amplifier can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18237,9 +17629,7 @@ The efficiency of push-pull amplifiers can be calculated using the same formula 
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18295,9 +17685,7 @@ The efficiency of push-pull amplifiers can be calculated using the same formula 
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18361,9 +17749,7 @@ The efficiency of push-pull amplifiers can be calculated using the same formula 
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18427,9 +17813,7 @@ The efficiency of push-pull amplifiers can be calculated using the same formula 
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18563,9 +17947,7 @@ The efficiency of an amplifier can be calculated using the following equation:
 
 
 $$
-
 Efficiency = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18653,9 +18035,7 @@ The efficiency of an amplifier can be calculated using the following equation:
 
 
 $$
-
 Efficiency = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18669,9 +18049,7 @@ In an ideal amplifier, all of the input power would be converted into output pow
 
 
 $$
-
 Efficiency = \frac{P_{out}}{P_{in} + P_{loss}} \times 100\%
-
 $$
 
 
@@ -18735,9 +18113,7 @@ The efficiency of an amplifier can be calculated using the following equation:
 
 
 $$
-
 Efficiency = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -18939,9 +18315,7 @@ The output voltage of a binary weighted DAC can be calculated using the followin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -18989,9 +18363,7 @@ The output voltage of a binary weighted DAC can be calculated using the followin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19017,9 +18389,7 @@ In the R-2R ladder DAC, the digital input is applied to the inputs of switches, 
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \frac{2^i}{2^{n-1}}
-
 $$
 
 
@@ -19067,9 +18437,7 @@ The output voltage of a binary weighted DAC can be calculated using the followin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19099,9 +18467,7 @@ The output voltage of an R-2R ladder DAC can be calculated using the following e
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \frac{2^i}{2^{n-1}}
-
 $$
 
 
@@ -19135,9 +18501,7 @@ The output voltage of a sigma-delta DAC can be calculated using the following eq
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \frac{2^i}{2^{n-1}}
-
 $$
 
 
@@ -19191,9 +18555,7 @@ The output voltage of a binary weighted DAC can be calculated using the followin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19223,9 +18585,7 @@ The output voltage of an R-2R ladder DAC can be calculated using the following e
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \frac{2^i}{2^i + 1}
-
 $$
 
 
@@ -19279,9 +18639,7 @@ The output voltage of a binary weighted DAC can be calculated using the followin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19323,9 +18681,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19379,9 +18735,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19407,9 +18761,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19459,9 +18811,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19487,9 +18837,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19515,9 +18863,7 @@ The output of a sigma-delta ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19567,9 +18913,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19595,9 +18939,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19623,9 +18965,7 @@ The output of a sigma-delta ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19651,9 +18991,7 @@ The output of a dual slope ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19703,9 +19041,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19731,9 +19067,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19763,9 +19097,7 @@ The operation of DACs is based on the principle of superposition, where the outp
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19823,9 +19155,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19847,9 +19177,7 @@ The flash ADC is known for its high speed and simplicity, but it requires a larg
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19879,9 +19207,7 @@ The weighted resistor DAC is based on the principle of superposition. The digita
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i R_i
-
 $$
 
 
@@ -19903,9 +19229,7 @@ The R-2R ladder DAC is based on the principle of binary weighting. It uses a spe
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \left(\frac{2R}{2^i}\right)
-
 $$
 
 
@@ -19967,9 +19291,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -19995,9 +19317,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20027,9 +19347,7 @@ In a binary-weighted DAC, the digital input is converted into an analog output u
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20051,9 +19369,7 @@ In an R-2R ladder DAC, the digital input is converted into an analog output usin
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i \frac{2^i}{2^{n-1}}
-
 $$
 
 
@@ -20127,9 +19443,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20155,9 +19469,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20243,9 +19555,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20271,9 +19581,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20355,9 +19663,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20379,9 +19685,7 @@ The flash ADC is known for its high speed and simplicity, but it requires a larg
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20499,9 +19803,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20527,9 +19829,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20555,9 +19855,7 @@ The output of a sigma-delta ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20651,9 +19949,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20675,9 +19971,7 @@ Flash ADCs are known for their high speed and simplicity, but they require a lar
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20699,9 +19993,7 @@ Sigma-delta ADCs are known for their high resolution and low cost, but they have
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20771,9 +20063,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20799,9 +20089,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20843,9 +20131,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20903,9 +20189,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20931,9 +20215,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -20959,9 +20241,7 @@ The conversion time of a successive approximation ADC is the time it takes for t
 
 
 $$
-
 T_{conv} = n \times T_{clk}
-
 $$
 
 
@@ -21051,9 +20331,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21135,9 +20413,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21159,9 +20435,7 @@ Flash ADCs are known for their high speed and simplicity, but they require a lar
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21267,9 +20541,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21295,9 +20567,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21375,9 +20645,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21403,9 +20671,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21491,9 +20757,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21519,9 +20783,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21611,9 +20873,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21635,9 +20895,7 @@ Flash ADCs are known for their high speed and simplicity, but they require a lar
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21727,9 +20985,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21755,9 +21011,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21839,9 +21093,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21863,9 +21115,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21947,9 +21197,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -21975,9 +21223,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -22095,9 +21341,7 @@ The output of a successive approximation ADC can be calculated using the followi
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -22119,9 +21363,7 @@ The output of a flash ADC can be calculated using the following equation:
 
 
 $$
-
 V_{out} = \frac{V_{ref}}{2^n} \sum_{i=0}^{n-1} b_i 2^i
-
 $$
 
 
@@ -22311,9 +21553,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22335,9 +21575,7 @@ Shot noise is another type of noise that is present in electronic circuits. It i
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -22359,9 +21597,7 @@ Flicker noise, also known as 1/f noise, is a low-frequency noise that is present
 
 
 $$
-
 V_{n} = K\frac{1}{f}
-
 $$
 
 
@@ -22405,9 +21641,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22429,9 +21663,7 @@ Shot noise is another type of noise that is present in electronic circuits. It i
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -22453,9 +21685,7 @@ Flicker noise, also known as 1/f noise, is a low-frequency noise that is present
 
 
 $$
-
 V_{n} = \frac{K}{f}
-
 $$
 
 
@@ -22477,9 +21707,7 @@ Crosstalk noise is a type of noise that is caused by the coupling of signals bet
 
 
 $$
-
 V_{n} = \frac{K}{d}
-
 $$
 
 
@@ -22523,9 +21751,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22547,9 +21773,7 @@ Shot noise is another type of noise that is present in electronic circuits. It i
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -22571,9 +21795,7 @@ Flicker noise, also known as 1/f noise, is a low-frequency noise that is present
 
 
 $$
-
 V_{n} = K\frac{1}{f}
-
 $$
 
 
@@ -22595,9 +21817,7 @@ Crosstalk noise is a type of noise that occurs when two or more signals interfer
 
 
 $$
-
 V_{n} = \frac{M}{L}I_{1}I_{2}
-
 $$
 
 
@@ -22641,9 +21861,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22665,9 +21883,7 @@ Shot noise is another type of noise that is present in electronic circuits. It i
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -22689,9 +21905,7 @@ Flicker noise, also known as 1/f noise, is a low-frequency noise that is present
 
 
 $$
-
 V_{n} = \sqrt{\frac{K}{f}}
-
 $$
 
 
@@ -22713,9 +21927,7 @@ Burst noise, also known as popcorn noise, is a type of noise that occurs in elec
 
 
 $$
-
 V_{n} = \sqrt{2qI_{b}\Delta t}
-
 $$
 
 
@@ -22739,9 +21951,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22763,9 +21973,7 @@ Johnson-Nyquist noise, also known as thermal noise, is a type of noise that is p
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22801,9 +22009,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22825,9 +22031,7 @@ Johnson-Nyquist noise, also known as thermal noise, is a type of noise that is p
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22857,9 +22061,7 @@ The noise factor, $F$, is defined as the ratio of the output signal-to-noise rat
 
 
 $$
-
 F = \frac{SNR_{out}}{SNR_{in}}
-
 $$
 
 
@@ -22869,9 +22071,7 @@ The noise figure, $NF$, is the logarithmic representation of the noise factor an
 
 
 $$
-
 NF = 10\log_{10}(F)
-
 $$
 
 
@@ -22899,9 +22099,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22923,9 +22121,7 @@ Johnson-Nyquist noise, also known as thermal noise, is a type of noise that is p
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -22951,9 +22147,7 @@ Shot noise, also known as Schottky noise, is another type of noise that is prese
 
 
 $$
-
 V_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -22975,9 +22169,7 @@ Noise temperature is a measure of the amount of thermal noise present in a circu
 
 
 $$
-
 T_{n} = \frac{V_{n}^{2}}{4k_{B}R\Delta f}
-
 $$
 
 
@@ -23005,9 +22197,7 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -23029,9 +22219,7 @@ Johnson-Nyquist noise, also known as thermal noise, is a type of noise that is p
 
 
 $$
-
 V_{n} = \sqrt{4k_{B}TR\Delta f}
-
 $$
 
 
@@ -23057,9 +22245,7 @@ Shot noise is another type of noise that is present in electronic circuits. It i
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -23081,9 +22267,7 @@ Flicker noise, also known as 1/f noise, is a type of noise that is present in el
 
 
 $$
-
 V_{n} = Kf^{-\alpha}
-
 $$
 
 
@@ -23147,9 +22331,7 @@ The magnitude of shot noise is directly proportional to the average current and 
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 
@@ -23175,9 +22357,7 @@ The magnitude of shot noise is directly proportional to the average current and 
 
 
 $$
-
 I_{n} = \sqrt{2qI\Delta f}
-
 $$
 
 

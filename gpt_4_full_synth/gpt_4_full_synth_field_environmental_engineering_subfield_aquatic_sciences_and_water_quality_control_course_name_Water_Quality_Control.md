@@ -641,9 +641,7 @@ In mathematical terms, the process of molecular diffusion can be described by Fi
 
 
 $$
-
 J = -D \nabla C
-
 $$
 
 
@@ -657,9 +655,7 @@ The second law, also known as the diffusion equation, describes how diffusion ca
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \nabla^2 C
-
 $$
 
 
@@ -737,9 +733,7 @@ Fick's first law of diffusion describes the flux of molecules through a unit are
 
 
 $$
-
 J = -D \frac{\partial C}{\partial x}
-
 $$
 
 
@@ -769,9 +763,7 @@ Fick's second law of diffusion describes how diffusion causes the concentration 
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -819,9 +811,7 @@ Mathematically, a one-dimensional random walk process can be defined as:
 
 
 $$
-
 X_n = X_{n-1} + Z_n
-
 $$
 
 
@@ -1109,9 +1099,7 @@ The interplay between turbulent advection and diffusion is complex and highly in
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} = D \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -1149,9 +1137,7 @@ The general form of the advection-diffusion equation in three dimensions is give
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} + v \frac{\partial C}{\partial y} + w \frac{\partial C}{\partial z} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right)
-
 $$
 
 
@@ -1177,9 +1163,7 @@ The one-dimensional advection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} = D \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -1217,9 +1201,7 @@ The two-dimensional advection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} + v \frac{\partial C}{\partial y} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} \right)
-
 $$
 
 
@@ -1257,9 +1239,7 @@ The three-dimensional advection-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} + v \frac{\partial C}{\partial y} + w \frac{\partial C}{\partial z} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right)
-
 $$
 
 
@@ -1301,9 +1281,7 @@ The concentration of a pollutant from a point source can be modeled using the ad
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right) - Q \delta(x-x_0) \delta(y-y_0) \delta(z-z_0)
-
 $$
 
 
@@ -1333,9 +1311,7 @@ The concentration of a pollutant from a line source can also be modeled using th
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right) - Q \int_{-\infty}^{\infty} \delta(x-x') \delta(y-y') \delta(z-z') dx' dy' dz'
-
 $$
 
 
@@ -1365,9 +1341,7 @@ The concentration of a pollutant from a plane source can also be modeled using t
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right) - Q \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \delta(x-x') \delta(y-y') \delta(z-z') dx' dy' dz'
-
 $$
 
 
@@ -1401,9 +1375,7 @@ The advection-diffusion equation can be used to model the spread of a pollutant 
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right) - Q \delta(t-t') \delta(x-x') \delta(y-y') \delta(z-z')
-
 $$
 
 
@@ -1437,9 +1409,7 @@ The advection-diffusion equation can also be used to model the spread of a pollu
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \left( \frac{\partial^2 C}{\partial x^2} + \frac{\partial^2 C}{\partial y^2} + \frac{\partial^2 C}{\partial z^2} \right) - Q
-
 $$
 
 
@@ -1657,9 +1627,7 @@ Longitudinal dispersion ($D_L$) can be defined mathematically as the product of 
 
 
 $$
-
 D_L = \sigma^2 \bar{t}
-
 $$
 
 
@@ -1693,9 +1661,7 @@ One of the most commonly used models for steady flow dispersion is the Fickian d
 
 
 $$
-
 \frac{\partial C}{\partial t} = D_L \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -1713,9 +1679,7 @@ Another important model for steady flow dispersion is Taylor's dispersion model.
 
 
 $$
-
 D_L = \sigma^2 \bar{u}
-
 $$
 
 
@@ -1749,9 +1713,7 @@ One of the most commonly used models for unsteady flow dispersion is the convect
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} = D_L \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -1769,9 +1731,7 @@ Another important model for unsteady flow dispersion is the stochastic advection
 
 
 $$
-
 \frac{\partial C}{\partial t} + u \frac{\partial C}{\partial x} = D_L \frac{\partial^2 C}{\partial x^2} + R(C)
-
 $$
 
 
@@ -2057,9 +2017,7 @@ One of the main mechanisms of tidal mixing is shear dispersion. This occurs when
 
 
 $$
-
 K_h = \frac{u^2_*}{3\nu}
-
 $$
 
 
@@ -2097,9 +2055,7 @@ The degree of salinity intrusion can be quantified by the salinity gradient, whi
 
 
 $$
-
 \frac{dS}{dx} = \frac{S_o - S_r}{L}
-
 $$
 
 
@@ -2133,9 +2089,7 @@ The tidal range, or the difference between high tide and low tide, is a signific
 
 
 $$
-
 T = H_{high} - H_{low}
-
 $$
 
 
@@ -2325,9 +2279,7 @@ The residence time of water in an estuary or embayment can be calculated using t
 
 
 $$
-
 T = \frac{V}{Q}
-
 $$
 
 
@@ -2537,9 +2489,7 @@ For a general reaction involving reactants `$A$` and `$B$` producing products, t
 
 
 $$
-
 r = k[A]^m[B]^n
-
 $$
 
 
@@ -2553,9 +2503,7 @@ The rate constant `$k$` is a proportionality constant that reflects the speed of
 
 
 $$
-
 k = A \exp\left(-\frac{E_a}{RT}\right)
-
 $$
 
 
@@ -2617,9 +2565,7 @@ The basic form of a mass balance equation for a single pollutant in a water body
 
 
 $$
-
 \frac{dM}{dt} = Q_{in} - Q_{out} + R
-
 $$
 
 
@@ -2705,9 +2651,7 @@ The basic principle of Eulerian models is the conservation of mass. According to
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (vC) + R
-
 $$
 
 
@@ -2749,9 +2693,7 @@ The basic principle of Lagrangian models is the conservation of mass, similar to
 
 
 $$
-
 \frac{dC}{dt} = R
-
 $$
 
 
@@ -2937,9 +2879,7 @@ The mathematical representation of the dispersion process can be described by th
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\vec{v} \cdot \nabla C + D \nabla^2 C
-
 $$
 
 
@@ -3767,9 +3707,7 @@ The objective function can be defined in various ways, but it is often a measure
 
 
 $$
-
 \text{Objective Function} = \sum_{i=1}^{n} (O_i - P_i)^2
-
 $$
 
 
@@ -3827,9 +3765,7 @@ The validation process can be represented mathematically as:
 
 
 $$
-
 \text{Validation Score} = \frac{1}{n} \sum_{i=1}^{n} \left( \frac{O_i - P_i}{O_i} \right)^2
-
 $$
 
 
@@ -3899,9 +3835,7 @@ The sensitivity of a model can be represented mathematically as:
 
 
 $$
-
 S_i = \frac{\partial P}{\partial X_i} \cdot \frac{X_i}{P}
-
 $$
 
 
@@ -3963,9 +3897,7 @@ The uncertainty of a model can be represented mathematically as:
 
 
 $$
-
 U_i = \sqrt{\sum_{j=1}^{n} \left(\frac{\partial P}{\partial X_j}\right)^2 \cdot \left(\Delta X_j\right)^2}
-
 $$
 
 
@@ -4135,9 +4067,7 @@ Chemical sensors, on the other hand, often work on the principle of selective in
 
 
 $$
-
 E = E_{\text{ref}} + \frac{RT}{zF} \ln a
-
 $$
 
 

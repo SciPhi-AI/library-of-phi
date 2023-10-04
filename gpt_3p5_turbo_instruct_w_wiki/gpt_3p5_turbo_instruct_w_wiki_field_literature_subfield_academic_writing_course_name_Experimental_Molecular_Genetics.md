@@ -1017,17 +1017,13 @@ The PseAAC model can be formulated as follows:
 
 
 $$
-
 P = \frac{f_u}{\sum_{i=1}^{20}f_i + w\sum_{k=1}^{\lambda}\tau_k}, \quad (1 \le u \le 20)
-
 $$
 
 
 
 $$
-
 P = \frac{w\tau_{u-20}}{\sum_{i=1}^{20}f_i + w\sum_{k=1}^{\lambda}\tau_k}, \quad (20+1 \le u \le 20+\lambda)
-
 $$
 
 
@@ -1037,9 +1033,7 @@ where $w$ is the weight factor, and $\tau_k$ is the $k$-th tier correlation fact
 
 
 $$
-
 \tau_k = \frac{1}{L-k}\sum_{i=1}^{L-k}\mathrm{J}_{i,i+k}, \quad (k < L)
-
 $$
 
 

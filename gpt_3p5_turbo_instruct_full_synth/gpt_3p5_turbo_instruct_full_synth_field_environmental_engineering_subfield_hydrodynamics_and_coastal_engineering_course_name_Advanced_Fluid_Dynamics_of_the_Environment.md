@@ -798,9 +798,7 @@ Strain is defined as the ratio of the change in length or volume of a fluid elem
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L_0} = \frac{\Delta V}{V_0}
-
 $$
 
 
@@ -822,9 +820,7 @@ Linear strain, also known as normal strain, is the change in length of a fluid e
 
 
 $$
-
 \epsilon_{ij} = \frac{\Delta L_i}{L_{0j}}
-
 $$
 
 
@@ -834,9 +830,7 @@ Volumetric strain, also known as bulk strain, is the change in volume of a fluid
 
 
 $$
-
 \epsilon_v = \frac{\Delta V}{V_0}
-
 $$
 
 
@@ -970,9 +964,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1052,9 +1044,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1122,9 +1112,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1204,9 +1192,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1248,9 +1234,7 @@ Mathematically, Cauchy's Law can be expressed as:
 
 
 $$
-
 \sigma_{ij} = -\rho \frac{\partial u_i}{\partial x_j}
-
 $$
 
 
@@ -1298,9 +1282,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1366,9 +1348,7 @@ Mathematically, Cauchy's Law can be expressed as:
 
 
 $$
-
 \rho \frac{D\mathbf{u}}{Dt} = \nabla \cdot \mathbf{\sigma} + \rho \mathbf{f}
-
 $$
 
 
@@ -1420,9 +1400,7 @@ Mathematically, the Kinematic Transport Theorem can be expressed as:
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \phi dV = \int_{V(t)} \frac{\partial \rho \phi}{\partial t} dV + \int_{A(t)} \rho \phi \mathbf{u} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1480,9 +1458,7 @@ Mathematically, Cauchy's Law can be expressed as:
 
 
 $$
-
 \sigma_{ij} = -p\delta_{ij} + \tau_{ij}
-
 $$
 
 
@@ -1530,9 +1506,7 @@ The Momentum Conservation Law, also known as Newton's Second Law of Motion, stat
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \mathbf{u} dV = \int_{V(t)} \rho \mathbf{g} dV + \int_{A(t)} \mathbf{\sigma} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1596,9 +1570,7 @@ The Momentum Conservation Law, also known as Newton's Second Law of Motion, stat
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \mathbf{u} dV = \int_{V(t)} \rho \mathbf{g} dV + \int_{A(t)} \mathbf{\sigma} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1670,9 +1642,7 @@ The Momentum Conservation Law, also known as Newton's Second Law of Motion, stat
 
 
 $$
-
 \frac{D}{Dt} \int_{V(t)} \rho \mathbf{u} dV = \int_{V(t)} \rho \mathbf{g} dV + \int_{A(t)} \mathbf{\sigma} \cdot \mathbf{n} dA
-
 $$
 
 
@@ -1752,9 +1722,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1780,9 +1748,7 @@ The equations can be written as:
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -1846,9 +1812,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1874,9 +1838,7 @@ The equations can be written as:
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -1928,9 +1890,7 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -1956,9 +1916,7 @@ The equations can be written as:
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}}{\partial t} + \rho \mathbf{u} \cdot \nabla \mathbf{u} = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{F}
-
 $$
 
 
@@ -2140,9 +2098,7 @@ Before discussing the vorticity theorems, it is important to understand the vort
 
 
 $$
-
 \frac{D\omega}{Dt} = (\omega \cdot \nabla) \mathbf{u} + \nu \nabla^2 \omega + \frac{1}{\rho}(\nabla \rho \times \nabla p)
-
 $$
 
 
@@ -2160,9 +2116,7 @@ For a homogeneous fluid, the vorticity equation simplifies to:
 
 
 $$
-
 \frac{D\omega}{Dt} = (\omega \cdot \nabla) \mathbf{u} + \nu \nabla^2 \omega
-
 $$
 
 
@@ -2188,9 +2142,7 @@ For a stratified fluid, the vorticity equation becomes:
 
 
 $$
-
 \frac{D\omega}{Dt} = (\omega \cdot \nabla) \mathbf{u} + \nu \nabla^2 \omega + \frac{1}{\rho_0}\frac{\partial \rho}{\partial z} \omega_z
-
 $$
 
 
@@ -2242,9 +2194,7 @@ In a stratified fluid, the vorticity equation takes the form:
 
 
 $$
-
 \frac{D\omega}{Dt} = (\omega \cdot \nabla) \mathbf{u} + \nu \nabla^2 \omega + \frac{1}{\rho_0}\frac{\partial \rho}{\partial z} \omega_z
-
 $$
 
 
@@ -2362,9 +2312,7 @@ To understand this process mathematically, we can use the vorticity equation, wh
 
 
 $$
-
 \frac{D\omega}{Dt} = \omega \cdot \nabla \times u
-
 $$
 
 
@@ -2420,9 +2368,7 @@ To understand this process mathematically, we can use the vorticity equation, wh
 
 
 $$
-
 \frac{D\omega}{Dt} = \omega \cdot \nabla \times u
-
 $$
 
 
@@ -2504,9 +2450,7 @@ One of the most commonly used dimensionless parameters in fluid dynamics is the 
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -2520,9 +2464,7 @@ Another important dimensionless parameter is the Froude number, which is defined
 
 
 $$
-
 Fr = \frac{u}{\sqrt{gL}}
-
 $$
 
 
@@ -2642,9 +2584,7 @@ Let us consider a thin layer of mud with thickness $h$ on an incline with slope 
 
 
 $$
-
 \rho \frac{\partial \textbf{u}}{\partial t} + \rho (\textbf{u} \cdot \nabla) \textbf{u} = -\nabla p + \mu \nabla^2 \textbf{u} + \rho \textbf{g}
-
 $$
 
 
@@ -2658,9 +2598,7 @@ To simplify this equation, we can use the concept of scaling. Since the mud laye
 
 
 $$
-
 \rho \frac{\partial u}{\partial t} = \mu \frac{\partial^2 u}{\partial y^2} + \rho g \sin \alpha
-
 $$
 
 
@@ -2674,9 +2612,7 @@ Next, we can use the concept of approximations to further simplify this equation
 
 
 $$
-
 \rho \frac{\partial u}{\partial t} = \mu \frac{\partial^2 u}{\partial y^2} + \rho g \sin \alpha \left(1 - \frac{y}{h}\right)
-
 $$
 
 
@@ -2712,9 +2648,7 @@ To begin, let us consider a thin layer of mud with thickness $h$ on an incline w
 
 
 $$
-
 \rho \frac{\partial \textbf{u}}{\partial t} + \rho (\textbf{u} \cdot \nabla) \textbf{u} = -\nabla p + \mu \nabla^2 \textbf{u} + \rho \textbf{g}
-
 $$
 
 
@@ -2728,9 +2662,7 @@ To simplify this equation, we can use the concept of scaling. Since the mud laye
 
 
 $$
-
 \rho \frac{\partial u}{\partial t} = \mu \frac{\partial^2 u}{\partial y^2} + \rho g \sin \alpha
-
 $$
 
 
@@ -2744,9 +2676,7 @@ Next, we can use the concept of approximations to further simplify this equation
 
 
 $$
-
 u(y,t) = \frac{y}{h}u_0(t)
-
 $$
 
 
@@ -2760,9 +2690,7 @@ Substituting this expression into the simplified Navier-Stokes equation, we get:
 
 
 $$
-
 \rho \frac{\partial u_0}{\partial t} = \mu \frac{\partial^2 u_0}{\partial y^2} + \rho g \sin \alpha
-
 $$
 
 
@@ -2772,9 +2700,7 @@ This equation can be further simplified by using the concept of similarity varia
 
 
 $$
-
 \eta = \frac{y}{\sqrt{\frac{\mu}{\rho g \sin \alpha}t}}
-
 $$
 
 
@@ -2784,9 +2710,7 @@ Substituting this into the equation, we get:
 
 
 $$
-
 \frac{\partial u_0}{\partial t} = \frac{\partial^2 u_0}{\partial \eta^2}
-
 $$
 
 
@@ -3038,7 +2962,6 @@ In this problem, we consider a fluid flowing past a stationary sphere of radius 
 
 
 $$
-
 \begin{align}
 
 \nabla^2 \mathbf{u} &= \nabla p \\
@@ -3046,7 +2969,6 @@ $$
 \nabla \cdot \mathbf{u} &= 0
 
 \end{align}
-
 $$
 
 
@@ -3056,9 +2978,7 @@ where $\mathbf{u}$ is the velocity field and $p$ is the pressure field. These eq
 
 
 $$
-
 \mathbf{u} = \mathbf{U} \quad \text{on} \quad r = a
-
 $$
 
 
@@ -3072,9 +2992,7 @@ Solving these equations analytically is a difficult task, but we can use the met
 
 
 $$
-
 Re = \frac{\rho U a}{\mu}
-
 $$
 
 
@@ -3132,7 +3050,6 @@ To begin, let us consider the governing equations for Stokes flow, which are the
 
 
 $$
-
 \begin{align}
 
 \nabla^2 \mathbf{u} &= \nabla p \\
@@ -3140,7 +3057,6 @@ $$
 \nabla \cdot \mathbf{u} &= 0
 
 \end{align}
-
 $$
 
 
@@ -3154,9 +3070,7 @@ To solve these equations, we must first define the appropriate coordinate system
 
 
 $$
-
 \mathbf{u} = u_r(r,\theta) \hat{r} + u_\theta(r,\theta) \hat{\theta} + u_\phi(r,\theta) \hat{\phi}
-
 $$
 
 
@@ -3166,7 +3080,6 @@ where $u_r$ is the radial component of the velocity, $u_\theta$ is the tangentia
 
 
 $$
-
 \begin{align}
 
 \frac{1}{r^2} \frac{\partial}{\partial r} \left(r^2 \frac{\partial u_r}{\partial r}\right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial u_r}{\partial \theta}\right) &= \frac{1}{\mu} \frac{\partial p}{\partial r} \\
@@ -3176,7 +3089,6 @@ $$
 \frac{1}{r^2} \frac{\partial}{\partial r} \left(r^2 \frac{\partial u_\phi}{\partial r}\right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial u_\phi}{\partial \theta}\right) &= 0
 
 \end{align}
-
 $$
 
 
@@ -3190,9 +3102,7 @@ One of the key results of solving these equations is the drag force experienced 
 
 
 $$
-
 F_D = 6 \pi \mu a U
-
 $$
 
 
@@ -3714,9 +3624,7 @@ The first form of Bernoulli's theorem states that the sum of the pressure, kinet
 
 
 $$
-
 p + \frac{1}{2}\rho v^2 + \rho gz = constant
-
 $$
 
 
@@ -3730,9 +3638,7 @@ The second form of Bernoulli's theorem states that the sum of the pressure, kine
 
 
 $$
-
 p_1 + \frac{1}{2}\rho v_1^2 + \rho gz_1 = p_2 + \frac{1}{2}\rho v_2^2 + \rho gz_2
-
 $$
 
 
@@ -3876,9 +3782,7 @@ Assuming the flow is steady and the fluid is incompressible, we can use the Bern
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -3892,9 +3796,7 @@ By rearranging this equation, we can solve for the velocity at point 2:
 
 
 $$
-
 v_2 = \sqrt{v_1^2 + \frac{2(P_1 - P_2)}{\rho} + 2gh_1 - 2gh_2}
-
 $$
 
 
@@ -3916,9 +3818,7 @@ Assuming the flow is steady and the fluid is incompressible, we can use the Bern
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -3984,9 +3884,7 @@ Assuming the flow is steady and the fluid is incompressible, we can use the Bern
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -4000,9 +3898,7 @@ By rearranging this equation, we can solve for the velocity at point 2:
 
 
 $$
-
 v_2 = \sqrt{v_1^2 + \frac{2(P_1 - P_2)}{\rho} + 2gh_1 - 2gh_2}
-
 $$
 
 
@@ -4096,9 +3992,7 @@ Assuming the flow is steady and the fluid is incompressible, we can use the Bern
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -4112,9 +4006,7 @@ By rearranging this equation, we can solve for the velocity at point 2:
 
 
 $$
-
 v_2 = \sqrt{v_1^2 + \frac{2(P_1 - P_2)}{\rho} + 2gh_1 - 2gh_2}
-
 $$
 
 
@@ -4144,9 +4036,7 @@ Assuming the flow is steady and the fluid is incompressible, we can use the cont
 
 
 $$
-
 A_1v_1 = A_2v_2
-
 $$
 
 
@@ -4160,9 +4050,7 @@ By rearranging this equation, we can solve for the velocity at point 2:
 
 
 $$
-
 v_2 = \frac{A_1}{A_2}v_1
-
 $$
 
 

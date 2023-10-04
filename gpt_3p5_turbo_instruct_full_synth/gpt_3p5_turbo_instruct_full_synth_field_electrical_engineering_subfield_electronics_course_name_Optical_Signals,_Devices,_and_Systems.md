@@ -2095,9 +2095,7 @@ The wavelength ($\lambda$) of an E&M wave is the distance between two consecutiv
 
 
 $$
-
 \lambda = \frac{c}{f}
-
 $$
 
 
@@ -2111,9 +2109,7 @@ The amplitude of an E&M wave is the maximum value of its electric or magnetic fi
 
 
 $$
-
 I \propto A^2
-
 $$
 
 
@@ -2153,9 +2149,7 @@ The wavelength ($\lambda$) of an E&M wave is the distance between two consecutiv
 
 
 $$
-
 \lambda = \frac{c}{f}
-
 $$
 
 
@@ -2169,9 +2163,7 @@ The amplitude of an E&M wave is the maximum value of its electric or magnetic fi
 
 
 $$
-
 I \propto A^2
-
 $$
 
 
@@ -2235,9 +2227,7 @@ The wavelength ($\lambda$) of an E&M wave is the distance between two consecutiv
 
 
 $$
-
 \lambda = \frac{c}{f}
-
 $$
 
 
@@ -2251,9 +2241,7 @@ The amplitude of an E&M wave is the maximum value of its electric or magnetic fi
 
 
 $$
-
 I \propto A^2
-
 $$
 
 
@@ -2275,9 +2263,7 @@ When an E&M wave encounters a boundary between two different mediums, such as ai
 
 
 $$
-
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
-
 $$
 
 
@@ -2471,9 +2457,7 @@ As mentioned earlier, amplitude and intensity are closely related properties of 
 
 
 $$
-
 I = A^2
-
 $$
 
 
@@ -2873,9 +2857,7 @@ Snell's law can be mathematically expressed as:
 
 
 $$
-
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
-
 $$
 
 
@@ -2893,9 +2875,7 @@ Snell's law can also be written in terms of the incident and refracted wavelengt
 
 
 $$
-
 n_1 \lambda_1 = n_2 \lambda_2
-
 $$
 
 
@@ -2935,9 +2915,7 @@ Snell's law can be mathematically expressed as:
 
 
 $$
-
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
-
 $$
 
 
@@ -2955,9 +2933,7 @@ Snell's law can also be written in terms of the incident and refracted wavelengt
 
 
 $$
-
 n_1 \lambda_1 = n_2 \lambda_2
-
 $$
 
 
@@ -3013,9 +2989,7 @@ Snell's law can be mathematically expressed as:
 
 
 $$
-
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
-
 $$
 
 
@@ -3033,9 +3007,7 @@ Snell's law can also be written in terms of the incident and refracted wavelengt
 
 
 $$
-
 n_1 \lambda_1 = n_2 \lambda_2
-
 $$
 
 
@@ -3103,9 +3075,7 @@ The critical angle, denoted as $\theta_c$, is defined as the angle of incidence 
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3157,9 +3127,7 @@ The critical angle, denoted as $\theta_c$, is defined as the angle of incidence 
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3215,9 +3183,7 @@ The critical angle, denoted as $\theta_c$, is defined as the angle of incidence 
 
 
 $$
-
 \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3281,9 +3247,7 @@ Brewster's angle, denoted as $\theta_B$, is defined as the angle of incidence at
 
 
 $$
-
 \theta_B = \tan^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3345,9 +3309,7 @@ Brewster's angle, denoted as $\theta_B$, is defined as the angle of incidence at
 
 
 $$
-
 \theta_B = \tan^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3409,9 +3371,7 @@ Brewster's angle, denoted as $\theta_B$, is defined as the angle of incidence at
 
 
 $$
-
 \theta_B = \tan^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3481,9 +3441,7 @@ Brewster's angle, denoted as $\theta_B$, is defined as the angle of incidence at
 
 
 $$
-
 \theta_B = \tan^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -3545,9 +3503,7 @@ Brewster's angle, denoted as $\theta_B$, is defined as the angle of incidence at
 
 
 $$
-
 \theta_B = \tan^{-1}\left(\frac{n_2}{n_1}\right)
-
 $$
 
 
@@ -4079,7 +4035,6 @@ Let us consider a simple optical system consisting of two optical elements, as s
 
 
 $$
-
 M_1 = \begin{bmatrix}
 
 1 & 0 \\
@@ -4087,13 +4042,11 @@ M_1 = \begin{bmatrix}
 -\frac{1}{f} & 1
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 M_2 = \begin{bmatrix}
 
 1 & d \\
@@ -4101,7 +4054,6 @@ M_2 = \begin{bmatrix}
 0 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4111,7 +4063,6 @@ These matrices represent the effect of the lens and the distance on the position
 
 
 $$
-
 M = M_2 \cdot M_1 = \begin{bmatrix}
 
 1 & d \\
@@ -4131,7 +4082,6 @@ M = M_2 \cdot M_1 = \begin{bmatrix}
 -\frac{1}{f} & 1-\frac{d}{f}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4141,17 +4091,13 @@ This resulting matrix $M$ represents the overall effect of the optical system on
 
 
 $$
-
 x_1 = M_{11}x_0 + M_{12}\theta_0
-
 $$
 
 
 
 $$
-
 \theta_1 = M_{21}x_0 + M_{22}\theta_0
-
 $$
 
 
@@ -4191,7 +4137,6 @@ Let us consider a simple optical system consisting of two optical elements, as s
 
 
 $$
-
 M_1 = \begin{bmatrix}
 
 1 & 0 \\
@@ -4199,13 +4144,11 @@ M_1 = \begin{bmatrix}
 -\frac{1}{f} & 1
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 M_2 = \begin{bmatrix}
 
 1 & d \\
@@ -4213,7 +4156,6 @@ M_2 = \begin{bmatrix}
 0 & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4223,7 +4165,6 @@ These matrices represent the effect of the lens and the distance on the position
 
 
 $$
-
 M = M_2 \cdot M_1 = \begin{bmatrix}
 
 1 & d \\
@@ -4243,7 +4184,6 @@ M = M_2 \cdot M_1 = \begin{bmatrix}
 -\frac{1}{f} & 1-\frac{d}{f}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4299,7 +4239,6 @@ Let us consider a simple lens system consisting of a thin lens with a focal leng
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4307,7 +4246,6 @@ M = \begin{bmatrix}
 -\frac{1}{f} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4317,7 +4255,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 x_0 \\
@@ -4325,7 +4262,6 @@ x_0 \\
 \theta_0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4335,7 +4271,6 @@ where $x_0$ is the initial position of the ray and $\theta_0$ is the initial ang
 
 
 $$
-
 \begin{bmatrix}
 
 x_1 \\
@@ -4361,7 +4296,6 @@ x_0 \\
 \theta_0 - \frac{x_0}{f}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4375,7 +4309,6 @@ Another important application of ray-matrix methods in lens systems is in determ
 
 
 $$
-
 \begin{bmatrix}
 
 x_1 \\
@@ -4401,7 +4334,6 @@ x_0 \\
 -\frac{x_0}{f}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4445,7 +4377,6 @@ Let us consider a simple microscope system consisting of an objective lens with 
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4465,7 +4396,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4475,7 +4405,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 x_0 \\
@@ -4483,7 +4412,6 @@ x_0 \\
 \theta_0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4493,7 +4421,6 @@ After passing through the objective lens, the position and direction of the ray 
 
 
 $$
-
 \begin{bmatrix}
 
 x_1 \\
@@ -4519,7 +4446,6 @@ x_0 - \frac{f_2}{f_1}x_0 \\
 \theta_0 - \frac{x_0}{f_2}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4567,7 +4493,6 @@ Let us consider a simple microscope system consisting of an objective lens with 
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4587,7 +4512,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4597,7 +4521,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 x_0 \\
@@ -4605,7 +4528,6 @@ x_0 \\
 \theta_0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4673,7 +4595,6 @@ Let us consider a simple microscope system consisting of an objective lens with 
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4693,7 +4614,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4703,7 +4623,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 x_0 \\
@@ -4711,7 +4630,6 @@ x_0 \\
 \theta_0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4795,7 +4713,6 @@ Let us consider a simple telescope system consisting of an objective lens with a
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4815,7 +4732,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4825,7 +4741,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 x_0 \\
@@ -4833,7 +4748,6 @@ x_0 \\
 \theta_0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4881,7 +4795,6 @@ Let us consider a simple telescope system consisting of an objective lens with a
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -4901,7 +4814,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -4911,7 +4823,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 1 - \frac{f_2}{f_1} & 0 \\
@@ -4931,7 +4842,6 @@ $$
 1 - \frac{f_2}{f_1}
 
 \end{bmatrix}
-
 $$
 
 
@@ -4945,9 +4855,7 @@ The eyepiece then takes this focused image and magnifies it for the observer. Th
 
 
 $$
-
 M = \frac{f_1}{f_2}
-
 $$
 
 
@@ -5011,7 +4919,6 @@ Let us consider a simple telescope system consisting of an objective lens with a
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -5031,7 +4938,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5041,7 +4947,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 1 - \frac{f_2}{f_1} & 0 \\
@@ -5061,7 +4966,6 @@ $$
 1 - \frac{1}{f_2}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5137,7 +5041,6 @@ Let us consider a simple lens waveguide system consisting of two lenses with foc
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & d \\
@@ -5175,7 +5078,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_1} & 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -5185,7 +5087,6 @@ If we consider a light ray that is parallel to the optical axis and incident on 
 
 
 $$
-
 \begin{bmatrix}
 
 1 - \frac{d}{f_2} & d \\
@@ -5229,7 +5130,6 @@ d - \frac{d^2}{f_2} + d - \frac{d^2}{f_1} \\
 1 - \frac{d}{f_2} - \frac{d}{f_1}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5273,7 +5173,6 @@ Let us consider a simple lens waveguide system consisting of two lenses with foc
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & d \\
@@ -5305,7 +5204,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1 - \frac{d}{f_1}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5369,7 +5267,6 @@ Let us consider a simple lens waveguide system consisting of two lenses with foc
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & d \\
@@ -5401,7 +5298,6 @@ M = \begin{bmatrix}
 -\frac{1}{f_2} & 1 - \frac{d}{f_1}
 
 \end{bmatrix}
-
 $$
 
 
@@ -6489,9 +6385,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -6549,9 +6443,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -6629,9 +6521,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -6657,9 +6547,7 @@ The Huygens-Fresnel principle states that every point on a wavefront can be cons
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\alpha)}{\alpha} \right)^2
-
 $$
 
 
@@ -6725,9 +6613,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -6829,9 +6715,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -6905,9 +6789,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -7013,9 +6895,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -7041,9 +6921,7 @@ The spatial frequency of a diffraction pattern is directly related to the gratin
 
 
 $$
-
 u = \frac{1}{d}
-
 $$
 
 
@@ -7065,9 +6943,7 @@ In free space, the spatial frequency is constant and equal to the wavenumber $k$
 
 
 $$
-
 u = \frac{k}{n}
-
 $$
 
 
@@ -7117,9 +6993,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -7197,9 +7071,7 @@ The scalar diffraction theory provides a simplified approach to understanding th
 
 
 $$
-
 I(\theta) = I_0 \left( \frac{\sin(\beta)}{\beta} \right)^2 \left( \frac{\sin(N\gamma)}{\sin(\gamma)} \right)^2
-
 $$
 
 
@@ -11737,9 +11609,7 @@ There are several methods for measuring the MER of a modulated signal. One commo
 
 
 $$
-
 MER = 10\log_{10}\left(\frac{P_{desired}}{P_{error}}\right)
-
 $$
 
 
@@ -11753,9 +11623,7 @@ Another method is to use a bit error rate (BER) tester, which compares the recei
 
 
 $$
-
 MER = 10\log_{10}\left(\frac{1}{BER}\right)
-
 $$
 
 

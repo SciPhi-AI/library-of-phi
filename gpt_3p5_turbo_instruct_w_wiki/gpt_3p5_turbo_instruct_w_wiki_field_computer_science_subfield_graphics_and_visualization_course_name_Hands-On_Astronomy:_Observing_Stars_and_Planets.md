@@ -1793,17 +1793,13 @@ The conversion from equatorial coordinates (right ascension and declination) to 
 
 
 $$
-
 \lambda = \arctan\left(\frac{\sin\alpha\cos\epsilon + \tan\delta\sin\epsilon}{\cos\alpha}\right)
-
 $$
 
 
 
 $$
-
 \beta = \arcsin\left(\sin\delta\cos\epsilon - \cos\delta\sin\epsilon\sin\alpha\right)
-
 $$
 
 
@@ -1821,17 +1817,13 @@ The reverse conversion from ecliptic coordinates to equatorial coordinates can b
 
 
 $$
-
 \alpha = \arctan\left(\frac{\sin\lambda\cos\epsilon - \tan\beta\sin\epsilon}{\cos\lambda}\right)
-
 $$
 
 
 
 $$
-
 \delta = \arcsin\left(\sin\beta\cos\epsilon + \cos\beta\sin\epsilon\sin\lambda\right)
-
 $$
 
 
@@ -1845,81 +1837,61 @@ These equations are based on the spherical harmonics, which are mathematical fun
 
 
 $$
-
 Y_{7}^{-7}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{715}{2\pi}}\cdot e^{-7i\varphi}\cdot\sin^{7}\theta
-
 $$
 
 
 
 $$
-
 Y_{7}^{-6}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{5005}{\pi}}\cdot e^{-6i\varphi}\cdot\sin^{6}\theta\cdot\cos\theta
-
 $$
 
 
 
 $$
-
 Y_{7}^{-5}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{385}{2\pi}}\cdot e^{-5i\varphi}\cdot\sin^{5}\theta\cdot(13\cos^{2}\theta-1)
-
 $$
 
 
 
 $$
-
 Y_{7}^{-4}(\theta,\varphi) = \frac{3}{32}\sqrt{\frac{385}{2\pi}}\cdot e^{-4i\varphi}\cdot\sin^{4}\theta\cdot(13\cos^{3}\theta-3\cos\theta)
-
 $$
 
 
 
 $$
-
 Y_{7}^{-3}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{35}{2\pi}}\cdot e^{-3i\varphi}\cdot\sin^{3}\theta\cdot(143\cos^{4}\theta-66\cos^{2}\theta+3)
-
 $$
 
 
 
 $$
-
 Y_{7}^{-2}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{35}{\pi}}\cdot e^{-2i\varphi}\cdot\sin^{2}\theta\cdot(143\cos^{5}\theta-110\cos^{3}\theta+15\cos\theta)
-
 $$
 
 
 
 $$
-
 Y_{7}^{-1}(\theta,\varphi) = \frac{1}{64}\sqrt{\frac{105}{2\pi}}\cdot e^{-i\varphi}\cdot\sin\theta\cdot(429\cos^{6}\theta-495\cos^{4}\theta+135\cos^{2}\theta-5)
-
 $$
 
 
 
 $$
-
 Y_{7}^{0}(\theta,\varphi) = \frac{1}{32}\sqrt{\frac{15}{\pi}}\cdot(429\cos^{7}\theta-693\cos^{5}\theta+315\cos^{3}\theta-35\cos\theta)
-
 $$
 
 
 
 $$
-
 Y_{7}^{1}(\theta,\varphi) = -\frac{1}{64}\sqrt{\frac{105}{2\pi}}\cdot e^{i\varphi}\cdot\sin\theta\cdot(429\cos^{6}\theta-495\cos^{4}\theta+135\cos^{2}\theta-5)
-
 $$
 
 
 
 $$
-
 Y_{7}^{2}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{35}{\pi}}\cdot e^{2i\varphi}\cdot\sin^{2}\theta\cdot(143\cos^{5}\theta-110\cos^{3}\theta+15\cos\theta)
-
 $$
 
 
@@ -1983,17 +1955,13 @@ Converting between different celestial coordinate systems can be done using math
 
 
 $$
-
 \sin(\delta) = \sin(\phi)\sin(a) + \cos(\phi)\cos(a)\cos(h)
-
 $$
 
 
 
 $$
-
 \tan(\alpha) = \frac{\sin(h)}{\cos(\phi)\tan(\delta) - \sin(\phi)\cos(h)}
-
 $$
 
 
@@ -2007,17 +1975,13 @@ Similarly, to convert from equatorial coordinates to horizontal coordinates, the
 
 
 $$
-
 \sin(h) = \sin(\delta)\sin(\phi) + \cos(\delta)\cos(\phi)\cos(\alpha)
-
 $$
 
 
 
 $$
-
 \tan(a) = \frac{\sin(\alpha)}{\cos(\delta)\tan(\phi) - \sin(\delta)\cos(\alpha)}
-
 $$
 
 
@@ -2073,17 +2037,13 @@ To convert from horizontal coordinates to equatorial coordinates, the following 
 
 
 $$
-
 \alpha = \arctan(\frac{\sin(H)}{\cos(\phi)\tan(\delta) - \sin(\phi)\cos(H)})
-
 $$
 
 
 
 $$
-
 \delta = \arcsin(\sin(\phi)\sin(\delta) + \cos(\phi)\cos(\delta)\cos(H))
-
 $$
 
 
@@ -2097,17 +2057,13 @@ To convert from equatorial coordinates to horizontal coordinates, the following 
 
 
 $$
-
 H = \arctan(\frac{\sin(\alpha)}{\cos(\phi)\tan(\delta) - \sin(\phi)\cos(\alpha)})
-
 $$
 
 
 
 $$
-
 \delta = \arcsin(\sin(\phi)\sin(\delta) + \cos(\phi)\cos(\delta)\cos(\alpha))
-
 $$
 
 
@@ -2171,9 +2127,7 @@ Apparent magnitude, denoted as `m`, is a measure of the brightness of a celestia
 
 
 $$
-
 m = -2.5 \log_{10} \left( \frac{F}{F_0} \right)
-
 $$
 
 
@@ -2191,9 +2145,7 @@ The apparent magnitude of an object also depends on its distance from Earth. The
 
 
 $$
-
 m_1 - m_2 = 5 \log_{10} \left( \frac{d_1}{d_2} \right)
-
 $$
 
 
@@ -2211,9 +2163,7 @@ The angular size of an object also affects its apparent magnitude. Angular size 
 
 
 $$
-
 \theta = \frac{d}{D}
-
 $$
 
 
@@ -2223,9 +2173,7 @@ Where `d` is the physical size of the object and `D` is its distance from Earth.
 
 
 $$
-
 m = -2.5 \log_{10} \left( \frac{\theta^2}{\theta_0^2} \right)
-
 $$
 
 
@@ -2247,9 +2195,7 @@ The formula for calculating extinction is:
 
 
 $$
-
 m_{obs} = m_{true} + A
-
 $$
 
 
@@ -9725,9 +9671,7 @@ In order to interpret photometry results, one must understand the concept of flu
 
 
 $$
-
 m = -2.5\log_{10}(F/F_0)
-
 $$
 
 
@@ -15509,9 +15453,7 @@ The equation is as follows:
 
 
 $$
-
 N = R_* \cdot f_p \cdot n_e \cdot f_l \cdot f_i \cdot f_c \cdot L
-
 $$
 
 

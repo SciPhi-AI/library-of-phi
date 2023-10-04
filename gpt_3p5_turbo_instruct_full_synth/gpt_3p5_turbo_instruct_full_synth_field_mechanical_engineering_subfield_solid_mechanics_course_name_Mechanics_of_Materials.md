@@ -1815,9 +1815,7 @@ The amount of strain energy stored in a material can be calculated using the fol
 
 
 $$
-
 U = \frac{1}{2} \int_{V} \sigma \epsilon dV
-
 $$
 
 
@@ -1907,9 +1905,7 @@ The amount of strain energy stored in a material can be calculated using the str
 
 
 $$
-
 U = \frac{1}{2} \sigma \epsilon
-
 $$
 
 
@@ -1935,9 +1931,7 @@ The thermal strain experienced by a material can be calculated using the coeffic
 
 
 $$
-
 \epsilon_{thermal} = \alpha \Delta T
-
 $$
 
 
@@ -3123,17 +3117,13 @@ A steel rod with a diameter of 10 mm is subjected to an axial load of 50 kN. The
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{50 \times 10^3}{\pi \times (10 \times 10^{-3})^2} = 159.2 \text{ MPa}
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{50 \times 10^{-3}}{1000} = 0.05 \%
-
 $$
 
 
@@ -3145,17 +3135,13 @@ A concrete column with a cross-sectional area of 0.5 m$^2$ is subjected to a com
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{500 \times 10^3}{0.5} = 1 \text{ MN/m}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{500 \times 10^{-3}}{3000} = 0.167 \%
-
 $$
 
 
@@ -3167,17 +3153,13 @@ A rubber band with a length of 10 cm and a cross-sectional area of 1 cm$^2$ is s
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{F}{A} = \frac{k \Delta L}{A} = \frac{k(L - L_0)}{A} = \frac{0.1 \times (15 - 10)}{1} = 0.5 \text{ N/cm}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{15 - 10}{10} = 0.5
-
 $$
 
 
@@ -3189,17 +3171,13 @@ A wooden beam with a length of 2 m and a cross-sectional area of 0.1 m$^2$ is su
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{10 \times 10^3}{0.1} = 100 \text{ kN/m}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{10 \times 10^{-3}}{2000} = 0.005 \%
-
 $$
 
 
@@ -3211,9 +3189,7 @@ A plastic bottle with a volume of 500 mL is filled with water and placed in a hy
 
 
 $$
-
 P = \frac{F}{A} = \frac{mgh}{A} = \frac{0.5 \times 9.8 \times 10}{0.01} = 490 \text{ kPa}
-
 $$
 
 
@@ -3243,17 +3219,13 @@ A steel rod with a diameter of 10 mm is subjected to an axial load of 50 kN. The
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{50 \times 10^3}{\pi \times (10 \times 10^{-3})^2} = 159.2 \text{ MPa}
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{50 \times 10^{-3}}{1000} = 0.05 \%
-
 $$
 
 
@@ -3265,17 +3237,13 @@ A concrete column with a cross-sectional area of 0.5 m$^2$ is subjected to a com
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{500 \times 10^3}{0.5} = 1 \text{ MN/m}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{500 \times 10^{-3}}{3000} = 0.167 \%
-
 $$
 
 
@@ -3287,17 +3255,13 @@ A rubber band with a length of 10 cm and a cross-sectional area of 1 cm$^2$ is s
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{F}{A} = \frac{k \Delta L}{A} = \frac{k(L - L_0)}{A} = \frac{0.1 \times (15 - 10)}{1} = 0.5 \text{ N/cm}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{15 - 10}{10} = 0.5
-
 $$
 
 
@@ -3309,17 +3273,13 @@ A wooden beam with a length of 2 m and a cross-sectional area of 0.1 m$^2$ is su
 
 
 $$
-
 \sigma = \frac{P}{A} = \frac{10 \times 10^3}{0.1} = 100 \text{ kN/m}^2
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta L}{L} = \frac{10 \times 10^{-3}}{2000} = 0.005 \%
-
 $$
 
 
@@ -3331,9 +3291,7 @@ A plastic bottle with a volume of 500 mL is filled with water and placed in a hy
 
 
 $$
-
 P = \frac{F}{A} = \frac{mgh}{A} = \frac{0.5 \times 9.8 \times 10}{0.01} = 490 \text{ kPa}
-
 $$
 
 
@@ -3895,9 +3853,7 @@ The formula for Castigliano's method is given by:
 
 
 $$
-
 \Delta w = \frac{\partial U}{\partial F}
-
 $$
 
 
@@ -3915,9 +3871,7 @@ To better understand the application of Castigliano's method, let's consider a p
 
 
 $$
-
 \Delta w = \frac{\partial U}{\partial F} = \frac{FL}{2AE}
-
 $$
 
 
@@ -4243,7 +4197,6 @@ The stiffness matrix for a truss with spring supports can be written as:
 
 
 $$
-
 \begin{bmatrix}
 
 k_1 + k_2 & -k_2 & 0 & 0 & \dots & 0 \\
@@ -4257,7 +4210,6 @@ k_1 + k_2 & -k_2 & 0 & 0 & \dots & 0 \\
 0 & 0 & 0 & 0 & \dots & k_{n-1} + k_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -4383,7 +4335,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4415,7 +4366,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4427,7 +4377,6 @@ Using the stiffness method, determine the stability of the truss structure shown
 
 
 $$
-
 \Delta w = \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4459,7 +4408,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4471,7 +4419,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4503,7 +4450,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4515,7 +4461,6 @@ Using the stiffness method, determine the stability of the truss structure shown
 
 
 $$
-
 \Delta w = \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4547,7 +4492,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4559,7 +4503,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4591,7 +4534,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4621,7 +4563,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4653,7 +4594,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4665,7 +4605,6 @@ Using the stiffness method, determine the stability of the truss structure shown
 
 
 $$
-
 \Delta w = \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4697,7 +4636,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4709,7 +4647,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4741,7 +4678,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4753,7 +4689,6 @@ Using the stiffness method, determine the stability of the truss structure shown
 
 
 $$
-
 \Delta w = \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4785,7 +4720,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4797,7 +4731,6 @@ Consider the truss structure shown below. Use the flexibility method to determin
 
 
 $$
-
 \Delta w = \frac{1}{EI} \begin{bmatrix}
 
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -4829,7 +4762,6 @@ F_5 \\
 F_6
 
 \end{bmatrix}
-
 $$
 
 
@@ -4883,9 +4815,7 @@ There are three main types of stresses that occur in pressure vessels: hoop stre
 
 
 $$
-
 \sigma_h = \frac{pr}{t}
-
 $$
 
 
@@ -4899,9 +4829,7 @@ Longitudinal stress is the stress that occurs along the length of the vessel. It
 
 
 $$
-
 \sigma_l = \frac{pr}{2t}
-
 $$
 
 
@@ -4915,9 +4843,7 @@ Radial stress is the stress that occurs perpendicular to the vessel's surface. I
 
 
 $$
-
 \sigma_r = \frac{pr}{4t}
-
 $$
 
 
@@ -5009,9 +4935,7 @@ The equation for calculating elastic deformation in a pressure vessel is given b
 
 
 $$
-
 \Delta = \frac{PL}{AE}
-
 $$
 
 
@@ -5033,9 +4957,7 @@ The equation for calculating plastic deformation in a pressure vessel is given b
 
 
 $$
-
 \Delta = \frac{PL}{2AE}
-
 $$
 
 
@@ -5057,9 +4979,7 @@ The equation for calculating creep deformation in a pressure vessel is given by:
 
 
 $$
-
 \Delta = \frac{PLe^{-\frac{Q}{RT}}}{2AE}
-
 $$
 
 
@@ -5099,17 +5019,13 @@ Thin-walled pressure vessels experience two types of stresses: circumferential s
 
 
 $$
-
 \sigma_c = \frac{pr}{t}
-
 $$
 
 
 
 $$
-
 \sigma_l = \frac{pr}{2t}
-
 $$
 
 
@@ -5137,17 +5053,13 @@ Similar to other pressure vessels, thin-walled vessels also experience deformati
 
 
 $$
-
 \Delta r = \frac{pr^2}{Et}
-
 $$
 
 
 
 $$
-
 \Delta l = \frac{pr^2}{2Et}
-
 $$
 
 
@@ -5197,25 +5109,19 @@ Thick-walled pressure vessels experience three types of stresses: circumferentia
 
 
 $$
-
 \sigma_c = \frac{pr}{t}
-
 $$
 
 
 
 $$
-
 \sigma_l = \frac{pr}{2t}
-
 $$
 
 
 
 $$
-
 \sigma_r = \frac{pr}{4t}
-
 $$
 
 
@@ -5245,25 +5151,19 @@ Similar to thin-walled pressure vessels, thick-walled vessels also experience de
 
 
 $$
-
 \Delta r = \frac{pr^2}{Et}
-
 $$
 
 
 
 $$
-
 \Delta l = \frac{pr^2}{2Et}
-
 $$
 
 
 
 $$
-
 \Delta t = \frac{pr^2}{4Et}
-
 $$
 
 
@@ -5441,9 +5341,7 @@ Mathematically, stress relaxation can be described by the following equation:
 
 
 $$
-
 \sigma(t) = \sigma_0 e^{-\frac{t}{\tau}}
-
 $$
 
 
@@ -5465,9 +5363,7 @@ Mathematically, creep can be described by the following equation:
 
 
 $$
-
 \epsilon(t) = \epsilon_0 + \frac{\sigma}{E}t
-
 $$
 
 
@@ -5543,9 +5439,7 @@ Mathematically, the principle of superposition can be expressed as:
 
 
 $$
-
 \sigma(t) = \sum_{i=1}^{n} \sigma_i(t)
-
 $$
 
 
@@ -5567,9 +5461,7 @@ Mathematically, the convolution integral can be expressed as:
 
 
 $$
-
 \sigma(t) = \int_{0}^{t} \sigma(t-\tau) G(\tau) d\tau
-
 $$
 
 
@@ -5633,9 +5525,7 @@ Mathematically, the principle of time-temperature superposition can be expressed
 
 
 $$
-
 \sigma(t,T) = \sigma(t/\alpha(T))
-
 $$
 
 
@@ -5657,9 +5547,7 @@ The WLF equation is given by:
 
 
 $$
-
 \alpha(T) = A \exp\left(\frac{B}{T-T_0}\right)
-
 $$
 
 
@@ -5833,9 +5721,7 @@ To understand shearing stress, we must first understand the concept of stress. S
 
 
 $$
-
 \tau = \frac{F}{A}
-
 $$
 
 
@@ -5849,9 +5735,7 @@ Shearing strain, on the other hand, is the measure of the deformation that occur
 
 
 $$
-
 \gamma = \frac{\Delta x}{h}
-
 $$
 
 
@@ -5865,9 +5749,7 @@ The relationship between shearing stress and strain is described by Hooke's law,
 
 
 $$
-
 \tau = G\gamma
-
 $$
 
 
@@ -5923,9 +5805,7 @@ As the shearing stress is applied, the element will deform, resulting in a chang
 
 
 $$
-
 \gamma = \frac{\Delta x}{h}
-
 $$
 
 
@@ -5947,9 +5827,7 @@ To calculate the shearing strain in a circular shaft, we can use the following e
 
 
 $$
-
 \gamma = \frac{r\theta}{L}
-
 $$
 
 
@@ -6005,9 +5883,7 @@ As the torque is applied, the circular shaft will twist, resulting in a change i
 
 
 $$
-
 \theta = \frac{TL}{GJ}
-
 $$
 
 
@@ -6025,9 +5901,7 @@ As mentioned earlier, torsion in circular shafts results in a shearing strain. T
 
 
 $$
-
 \gamma = \frac{r\theta}{L}
-
 $$
 
 
@@ -6103,9 +5977,7 @@ To derive Saint-Venant's torsion theory, we start with the basic equation for to
 
 
 $$
-
 T = \frac{GJ}{L}\theta
-
 $$
 
 
@@ -6119,9 +5991,7 @@ Using this equation, we can derive the expression for the shear stress, $\tau$, 
 
 
 $$
-
 \tau = \frac{T}{J}r
-
 $$
 
 
@@ -6181,9 +6051,7 @@ As discussed in the previous section, the torque applied to a shaft can be calcu
 
 
 $$
-
 T = \frac{GJ}{L}\theta
-
 $$
 
 
@@ -6197,9 +6065,7 @@ The power transmitted through a shaft can then be calculated using the equation:
 
 
 $$
-
 P = \frac{2\pi NT}{60}
-
 $$
 
 
@@ -6373,25 +6239,19 @@ The kinematic equations are derived from the fundamental principles of mechanics
 
 
 $$
-
 v = u + at
-
 $$
 
 
 
 $$
-
 s = ut + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = u^2 + 2as
-
 $$
 
 
@@ -6415,25 +6275,19 @@ By rearranging these equations, we can derive the kinematic equations:
 
 
 $$
-
 v = u + at
-
 $$
 
 
 
 $$
-
 s = \frac{1}{2}(u + v)t
-
 $$
 
 
 
 $$
-
 v^2 = u^2 + 2as
-
 $$
 
 
@@ -6443,25 +6297,19 @@ These equations can also be written in terms of displacement, velocity, and acce
 
 
 $$
-
 s(t) = u(t)t + \frac{1}{2}a(t)t^2
-
 $$
 
 
 
 $$
-
 v(t) = u(t) + a(t)t
-
 $$
 
 
 
 $$
-
 a(t) = \frac{v(t) - u(t)}{t}
-
 $$
 
 
@@ -6521,25 +6369,19 @@ The compatibility equations are derived from the kinematic equations by consider
 
 
 $$
-
 \epsilon = \frac{\Delta s}{L}
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{v}{E}
-
 $$
 
 
 
 $$
-
 \epsilon = \frac{\Delta s}{L} = \frac{v}{E}
-
 $$
 
 
@@ -7333,9 +7175,7 @@ The constitutive relation for linear elasticity describes the relationship betwe
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -7399,9 +7239,7 @@ The constitutive relation for isotropic materials is based on the assumption tha
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -7465,9 +7303,7 @@ The constitutive relation for anisotropic materials is more complex than that of
 
 
 $$
-
 \sigma = C\epsilon
-
 $$
 
 
@@ -7715,9 +7551,7 @@ The relationship between stress and strain is described by Hooke's Law, which st
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -7743,9 +7577,7 @@ The bending stress can be calculated using the following equation:
 
 
 $$
-
 \sigma = \frac{My}{I}
-
 $$
 
 
@@ -7867,9 +7699,7 @@ To calculate the bending stress at a specific point on a beam, we can use the be
 
 
 $$
-
 \sigma_b = \frac{My}{I}
-
 $$
 
 
@@ -7911,9 +7741,7 @@ In addition to bending stresses, beams also experience shear stresses due to the
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -7979,9 +7807,7 @@ To calculate the shear stress at a specific point on a beam, we can use the shea
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -8063,9 +7889,7 @@ To calculate the deflection at a specific point on a beam, we can use the deflec
 
 
 $$
-
 \Delta = \frac{FL^3}{3EI}
-
 $$
 
 
@@ -8311,9 +8135,7 @@ The relationship between stress and strain is described by Hooke's Law, which st
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8389,9 +8211,7 @@ The relationship between shear stress and shear strain is described by Hooke's L
 
 
 $$
-
 \tau = G\gamma
-
 $$
 
 
@@ -8413,9 +8233,7 @@ To calculate the shear stress at a specific point in a beam, we can use the foll
 
 
 $$
-
 \tau = \frac{VQ}{Ib}
-
 $$
 
 
@@ -8483,9 +8301,7 @@ The shear center can be calculated using the following equation:
 
 
 $$
-
 x_{sc} = \frac{I_{xx}V_{y}}{Q}
-
 $$
 
 
@@ -8813,9 +8629,7 @@ The differential equation of the elastic curve is derived from the equilibrium e
 
 
 $$
-
 \frac{d^2w}{dx^2} = \frac{M}{EI}
-
 $$
 
 
@@ -8855,9 +8669,7 @@ The slope of a beam at any point can be defined as the angle between the tangent
 
 
 $$
-
 \theta = \frac{dw}{dx}
-
 $$
 
 
@@ -8871,9 +8683,7 @@ To determine the slope at a specific point, we can use integration methods to so
 
 
 $$
-
 \theta = \frac{1}{EI}\int_0^x M dx
-
 $$
 
 
@@ -8891,9 +8701,7 @@ Similarly, the deflection of a beam at any point can be defined as the distance 
 
 
 $$
-
 \Delta w = \int_0^x \theta dx
-
 $$
 
 
@@ -8907,9 +8715,7 @@ Using integration methods, we can solve for the slope at a specific point and th
 
 
 $$
-
 \Delta w = \frac{1}{EI}\int_0^x \int_0^x M dx dx
-
 $$
 
 
@@ -8961,17 +8767,13 @@ To use the moment-area method, we first need to determine the bending moment at 
 
 
 $$
-
 \theta = \frac{1}{EI} \times \text{Total Moment-Area}
-
 $$
 
 
 
 $$
-
 \Delta w = \frac{1}{EI} \times \text{Total Moment-Area} \times \text{Distance from the point of interest}
-
 $$
 
 
@@ -8989,9 +8791,7 @@ Step 1: Divide the beam into two segments, each with a length of 2 meters. The b
 
 
 $$
-
 M = \frac{wL^2}{8}
-
 $$
 
 
@@ -9045,17 +8845,13 @@ Step 5: Use the equations derived in the previous section to determine the slope
 
 
 $$
-
 \theta = \frac{1}{EI} \times \text{Total Moment-Area} = \frac{1}{(200 \text{ GPa})(0.2 \text{ m}^4)} \times (40 \text{ kNm}^3) = 0.001 \text{ rad}
-
 $$
 
 
 
 $$
-
 \Delta w = \frac{1}{EI} \times \text{Total Moment-Area} \times \text{Distance from the point of interest} = \frac{1}{(200 \text{ GPa})(0.2 \text{ m}^4)} \times (40 \text{ kNm}^3) \times (1 \text{ m}) = 0.002 \text{ m}
-
 $$
 
 
@@ -9109,17 +8905,13 @@ To better understand the conjugate beam method, let's consider an example proble
 
 
 $$
-
 V(x) = -Px
-
 $$
 
 
 
 $$
-
 M(x) = -Px^2/2
-
 $$
 
 
@@ -9129,17 +8921,13 @@ To find the slope and deflection of the beam at any point, we can use the conjug
 
 
 $$
-
 V_c(x) = -P
-
 $$
 
 
 
 $$
-
 M_c(x) = -PL + Px
-
 $$
 
 
@@ -9149,17 +8937,13 @@ The slope and deflection of the original beam can then be found by multiplying t
 
 
 $$
-
 \theta(x) = \frac{1}{EI}(-P)
-
 $$
 
 
 
 $$
-
 \Delta w(x) = \frac{1}{EI}(-PL + Px)
-
 $$
 
 
@@ -9313,9 +9097,7 @@ To derive closed-form solutions for beam deflections, we first need to understan
 
 
 $$
-
 \frac{d^2}{dx^2}\left(EI\frac{d^2w}{dx^2}\right) = q(x)
-
 $$
 
 
@@ -9371,9 +9153,7 @@ The governing equation for elastic foundations is the Winkler model, which is ba
 
 
 $$
-
 q(x) = k\Delta w
-
 $$
 
 
@@ -9429,9 +9209,7 @@ The behavior of beams on elastic foundations can be described by the Euler-Berno
 
 
 $$
-
 EI\frac{d^4w}{dx^4} + q(x) = 0
-
 $$
 
 
@@ -9487,9 +9265,7 @@ The behavior of viscoelastic foundations can be described by the Kelvin-Voigt mo
 
 
 $$
-
 F = kx + c\frac{dx}{dt}
-
 $$
 
 
@@ -9507,9 +9283,7 @@ Similar to beams on elastic foundations, the behavior of beams on viscoelastic f
 
 
 $$
-
 k = k_0 + c\frac{d}{dt}
-
 $$
 
 
@@ -9929,9 +9703,7 @@ By measuring the amount of distortion in the fringes, the strain in the material
 
 
 $$
-
 \epsilon = \frac{\Delta d}{d}
-
 $$
 
 
@@ -10723,9 +10495,7 @@ The von Mises criterion, also known as the maximum distortion energy theory, is 
 
 
 $$
-
 \sigma_{eq} = \sqrt{\frac{1}{2}\left[(\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2\right]}
-
 $$
 
 
@@ -10739,9 +10509,7 @@ According to the von Mises criterion, a material will yield when the equivalent 
 
 
 $$
-
 \sigma_{eq} = \sigma_y
-
 $$
 
 
@@ -10759,9 +10527,7 @@ The Tresca criterion, also known as the maximum shear stress theory, is based on
 
 
 $$
-
 \tau_{max} = \frac{1}{2}\left|\sigma_1 - \sigma_3\right|
-
 $$
 
 
@@ -10775,9 +10541,7 @@ According to the Tresca criterion, a material will yield when the maximum shear 
 
 
 $$
-
 \tau_{max} = \sigma_y
-
 $$
 
 
@@ -11199,9 +10963,7 @@ The behavior of materials under hydrostatic pressure is governed by various math
 
 
 $$
-
 K = -\frac{\Delta V}{V}\frac{1}{\Delta P}
-
 $$
 
 
@@ -11265,9 +11027,7 @@ There are several mathematical models that can be used to describe the rate sens
 
 
 $$
-
 \dot{\epsilon} = A\sigma^n
-
 $$
 
 
@@ -11281,9 +11041,7 @@ Another important model is the Johnson-Cook model, which takes into account the 
 
 
 $$
-
 \sigma = \left(A + B\epsilon^n\right)\left(1 + C\ln\left(\dot{\epsilon}\right)\right)\left(1 - T^m\right)
-
 $$
 
 
@@ -11359,9 +11117,7 @@ There are several mathematical models that can be used to describe the temperatu
 
 
 $$
-
 k = Ae^{-\frac{E_a}{RT}}
-
 $$
 
 
@@ -11375,9 +11131,7 @@ Another important model is the Johnson-Cook model, which takes into account the 
 
 
 $$
-
 \sigma = \left(A + B\epsilon^n\right)\left(1 + C\ln\left(\dot{\epsilon}\right)\right)\left(1 - \left(\frac{T-T_0}{T_m-T_0}\right)^m\right)
-
 $$
 
 
@@ -12793,9 +12547,7 @@ Plastic flow is the continuous and irreversible deformation of a material under 
 
 
 $$
-
 \dot{\epsilon} = A\sigma^n
-
 $$
 
 
@@ -12903,9 +12655,7 @@ Plastic flow is the continuous and irreversible deformation of a material under 
 
 
 $$
-
 \dot{\epsilon} = A\sigma^n
-
 $$
 
 
@@ -12977,9 +12727,7 @@ The rate of plastic deformation is dependent on various factors such as the appl
 
 
 $$
-
 \dot{\epsilon} = A\sigma^n
-
 $$
 
 
@@ -12993,9 +12741,7 @@ Plastic deformation can also be described using the concept of plastic strain, w
 
 
 $$
-
 \epsilon_p = \frac{\sigma}{E} + \frac{\sigma}{K}\left(\frac{\sigma}{\sigma_y}\right)^n
-
 $$
 
 
@@ -13617,9 +13363,7 @@ Based on these assumptions, the Zhurkov Kinetic Model can be expressed mathemati
 
 
 $$
-
 \Delta w = \frac{K}{V} \int_{0}^{a} \sigma_c^2 da + \frac{G}{A} \int_{0}^{a} \sigma_c da
-
 $$
 
 
@@ -13683,9 +13427,7 @@ The activation energy of fracture can be mathematically expressed as:
 
 
 $$
-
 E_a = \frac{K}{V} \int_{0}^{a} \sigma_c^2 da
-
 $$
 
 
@@ -13957,9 +13699,7 @@ The stress intensity factor, denoted by $K$, is another key concept in the Griff
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -14019,9 +13759,7 @@ The energy release rate, denoted by $G$, is a measure of the energy available to
 
 
 $$
-
 G = \frac{K^2}{E'}
-
 $$
 
 
@@ -14039,9 +13777,7 @@ The energy release rate can be calculated using the following equation:
 
 
 $$
-
 G = \frac{1}{2} \sigma_c \sqrt{\pi a}
-
 $$
 
 
@@ -14159,9 +13895,7 @@ The stress intensity factor, $K$, can be calculated using the following equation
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -14225,9 +13959,7 @@ The J-integral, $J$, can be calculated using the following equation:
 
 
 $$
-
 J = \int_{C} \left(\sigma_{ij} - \sigma_{ij}^{e}\right) \epsilon_{ij}^{p} ds
-
 $$
 
 
@@ -14401,9 +14133,7 @@ The stress intensity factor, denoted by $K$, is a dimensionless parameter that r
 
 
 $$
-
 K = \frac{\sigma \sqrt{\pi a}}{\sqrt{2\pi r}}
-
 $$
 
 
@@ -15241,9 +14971,7 @@ The Paris Law is a widely used empirical equation that relates the fatigue crack
 
 
 $$
-
 \frac{da}{dN} = C(\Delta K)^m
-
 $$
 
 
@@ -15265,9 +14993,7 @@ Forman's equation is another commonly used empirical equation for predicting the
 
 
 $$
-
 \frac{da}{dN} = A(\Delta K)^n(1-R)^p
-
 $$
 
 
@@ -15289,9 +15015,7 @@ Linear Elastic Fracture Mechanics (LEFM) is a theoretical approach for predictin
 
 
 $$
-
 \frac{da}{dN} = \frac{K_{max}^m}{E}
-
 $$
 
 
@@ -15335,9 +15059,7 @@ The rule can be expressed mathematically as:
 
 
 $$
-
 \sum_{i=1}^{n} \frac{N_i}{N_{f,i}} = 1
-
 $$
 
 

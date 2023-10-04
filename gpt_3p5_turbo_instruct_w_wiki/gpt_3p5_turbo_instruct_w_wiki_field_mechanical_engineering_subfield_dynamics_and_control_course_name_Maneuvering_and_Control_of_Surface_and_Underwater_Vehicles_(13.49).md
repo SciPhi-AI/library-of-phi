@@ -1227,9 +1227,7 @@ The most basic equation of motion is Newton's second law, which states that the 
 
 
 $$
-
 F_{net} = m\ddot{x}
-
 $$
 
 
@@ -1281,9 +1279,7 @@ One of the most important laws of motion in fluids is Newton's second law, which
 
 
 $$
-
 F_{net} = m\ddot{x}
-
 $$
 
 
@@ -7193,25 +7189,19 @@ The basic principle behind INS is the use of Newton's laws of motion. According 
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a_0
-
 $$
 
 
@@ -7259,25 +7249,19 @@ The basic principle behind INS is the use of Newton's laws of motion. According 
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a_0
-
 $$
 
 
@@ -7325,25 +7309,19 @@ The basic principle behind INS is the use of Newton's laws of motion. According 
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
 
 $$
-
 a(t) = a_0
-
 $$
 
 

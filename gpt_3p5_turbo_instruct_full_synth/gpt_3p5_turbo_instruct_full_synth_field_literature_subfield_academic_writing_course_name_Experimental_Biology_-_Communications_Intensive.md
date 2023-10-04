@@ -6329,9 +6329,7 @@ The log phase, also known as the exponential phase, is the period of rapid growt
 
 
 $$
-
 \mu = \frac{\Delta N}{\Delta t}
-
 $$
 
 
@@ -6357,9 +6355,7 @@ The death phase is the final phase of microbial growth, where the number of micr
 
 
 $$
-
 \lambda = \frac{\Delta N}{\Delta t}
-
 $$
 
 
@@ -6439,9 +6435,7 @@ The log phase, also known as the exponential phase, is the period of rapid growt
 
 
 $$
-
 \mu = \frac{\Delta N}{\Delta t}
-
 $$
 
 
@@ -8621,9 +8615,7 @@ The overall equation for the light reactions can be represented as:
 
 
 $$
-
 2H_2O + 2NADP^+ + 3ADP + 3P_i + light \rightarrow O_2 + 2NADPH + 3ATP
-
 $$
 
 
@@ -8641,9 +8633,7 @@ The overall equation for the Calvin cycle can be represented as:
 
 
 $$
-
 6CO_2 + 12NADPH + 18ATP \rightarrow C_6H_{12}O_6 + 12NADP^+ + 18ADP + 18P_i
-
 $$
 
 
@@ -8751,9 +8741,7 @@ The overall equation for the light reactions can be represented as:
 
 
 $$
-
 2H_2O + 2NADP^+ + 3ADP + 3P_i + light \rightarrow O_2 + 2NADPH + 3ATP
-
 $$
 
 
@@ -8771,9 +8759,7 @@ The overall equation for the Calvin cycle can be represented as:
 
 
 $$
-
 6CO_2 + 12NADPH + 18ATP \rightarrow C_6H_{12}O_6 + 12NADP^+ + 18ADP + 18P_i
-
 $$
 
 
@@ -8825,9 +8811,7 @@ The overall equation for the light reactions can be represented as:
 
 
 $$
-
 2H_2O + 2NADP^+ + 3ADP + 3P_i + light \rightarrow O_2 + 2NADPH + 3ATP
-
 $$
 
 
@@ -8845,9 +8829,7 @@ The overall equation for the Calvin cycle can be represented as:
 
 
 $$
-
 6CO_2 + 12NADPH + 18ATP \rightarrow C_6H_{12}O_6 + 12NADP^+ + 18ADP + 18P_i
-
 $$
 
 
@@ -8991,9 +8973,7 @@ The overall equation for the light reactions can be represented as:
 
 
 $$
-
 2H_2O + 2NADP^+ + 3ADP + 3P_i + light \rightarrow O_2 + 2NADPH + 3ATP
-
 $$
 
 
@@ -9011,9 +8991,7 @@ The overall equation for the Calvin cycle can be represented as:
 
 
 $$
-
 6CO_2 + 12NADPH + 18ATP \rightarrow C_6H_{12}O_6 + 12NADP^+ + 18ADP + 18P_i
-
 $$
 
 
@@ -12229,9 +12207,7 @@ Glycolysis and gluconeogenesis are two essential metabolic pathways involved in 
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -12241,9 +12217,7 @@ Gluconeogenesis, on the other hand, is an anabolic pathway that occurs in the li
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+
-
 $$
 
 
@@ -12295,9 +12269,7 @@ Glycolysis and gluconeogenesis are two essential metabolic pathways involved in 
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -12307,9 +12279,7 @@ Gluconeogenesis, on the other hand, is an anabolic pathway that occurs in the li
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+
-
 $$
 
 
@@ -12339,9 +12309,7 @@ The citric acid cycle, also known as the Krebs cycle, is a central metabolic pat
 
 
 $$
-
 Acetyl-CoA + 3NAD^+ + FAD + ADP + P_i \rightarrow 2CO_2 + 3NADH + FADH_2 + ATP + CoA
-
 $$
 
 
@@ -12385,9 +12353,7 @@ Glycolysis and gluconeogenesis are two essential metabolic pathways involved in 
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -12397,9 +12363,7 @@ Gluconeogenesis, on the other hand, is an anabolic pathway that occurs in the li
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+
-
 $$
 
 
@@ -12429,9 +12393,7 @@ The citric acid cycle, also known as the Krebs cycle, is a central metabolic pat
 
 
 $$
-
 Acetyl-CoA + 3NAD^+ + FAD + ADP + P_i \rightarrow 2CO_2 + 3NADH + FADH_2 + ATP + CoA
-
 $$
 
 
@@ -12449,9 +12411,7 @@ Oxidative phosphorylation is the final stage of aerobic respiration, where the m
 
 
 $$
-
 NADH + H^+ + \frac{1}{2}O_2 + ADP + P_i \rightarrow NAD^+ + H_2O + ATP
-
 $$
 
 
@@ -12511,9 +12471,7 @@ The rate at which an enzyme catalyzes a reaction is influenced by several factor
 
 
 $$
-
 V_0 = \frac{V_{max}[S]}{K_m + [S]}
-
 $$
 
 
@@ -12571,9 +12529,7 @@ Glycolysis and gluconeogenesis are two essential metabolic pathways involved in 
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -12583,9 +12539,7 @@ Gluconeogenesis, on the other hand, is an anabolic pathway that occurs in the li
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+
-
 $$
 
 
@@ -12641,9 +12595,7 @@ Enzyme kinetics is the study of the rate at which enzymes catalyze reactions. Th
 
 
 $$
-
 V_0 = \frac{V_{max}[S]}{K_m + [S]}
-
 $$
 
 
@@ -12707,9 +12659,7 @@ Enzyme kinetics is the study of the rate at which enzymes catalyze reactions. Th
 
 
 $$
-
 V_0 = \frac{V_{max}[S]}{K_m + [S]}
-
 $$
 
 

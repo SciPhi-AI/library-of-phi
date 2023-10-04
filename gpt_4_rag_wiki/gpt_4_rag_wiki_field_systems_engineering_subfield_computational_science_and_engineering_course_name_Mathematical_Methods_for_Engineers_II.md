@@ -656,9 +656,7 @@ For instance, consider the first-order forward difference approximation of the f
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -672,9 +670,7 @@ On the other hand, the central difference approximation:
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -704,9 +700,7 @@ The stability of a finite difference method can be analyzed using the concept of
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -716,9 +710,7 @@ If we apply this approximation to a small perturbation $\delta f(x)$, we obtain:
 
 
 $$
-
 \delta f'(x) \approx \frac{\delta f(x+h) - \delta f(x)}{h}
-
 $$
 
 
@@ -750,9 +742,7 @@ The convergence of a finite difference method can be analyzed using the concept 
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -762,9 +752,7 @@ The truncation error is given by:
 
 
 $$
-
 T(x) = f'(x) - \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -796,9 +784,7 @@ The one-dimensional wave equation can be written as:
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -836,9 +822,7 @@ Let's consider a simple finite difference scheme for the wave equation:
 
 
 $$
-
 u_j^{n+1} = 2u_j^n - u_j^{n-1} + \frac{c^2 \Delta t^2}{\Delta x^2} (u_{j+1}^n - 2u_j^n + u_{j-1}^n)
-
 $$
 
 
@@ -868,9 +852,7 @@ The wave equation is a fundamental equation in physics and engineering, describi
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -896,9 +878,7 @@ In electrical engineering, the wave equation is used to model the propagation of
 
 
 $$
-
 \frac{\partial^2 V}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 V}{\partial t^2}
-
 $$
 
 
@@ -908,9 +888,7 @@ and
 
 
 $$
-
 \frac{\partial^2 I}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 I}{\partial t^2}
-
 $$
 
 
@@ -928,9 +906,7 @@ In mechanical engineering, the wave equation is used to analyze the vibrations o
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -948,9 +924,7 @@ In civil engineering, the wave equation is used to study the propagation of seis
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -972,9 +946,7 @@ The heat equation, also known as the diffusion equation, is a partial differenti
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1000,9 +972,7 @@ In mechanical and civil engineering, the heat equation is used to model heat tra
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1020,9 +990,7 @@ In chemical engineering, the heat equation is also used to model the diffusion o
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -1048,9 +1016,7 @@ The convection-diffusion equation can be written as:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} - v \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -1068,9 +1034,7 @@ In fluid dynamics, the convection-diffusion equation is used to describe the tra
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2} - v \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -1088,9 +1052,7 @@ In heat transfer, the convection-diffusion equation is used to model the combine
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} - v \frac{\partial u}{\partial x}
-
 $$
 
 
@@ -1112,9 +1074,7 @@ The heat equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1188,9 +1148,7 @@ In the context of quantum physics, we have seen how differential equations and s
 Solve the following differential equation using any stable difference method: 
 
 $$
-
 \frac{dy}{dx} = x^2 + y^2
-
 $$
 
 
@@ -1200,9 +1158,7 @@ $$
 Consider a simple harmonic oscillator described by the differential equation:
 
 $$
-
 \frac{d^2x}{dt^2} = -kx
-
 $$
 
 where $k$ is a constant. Use a stable difference method to solve this equation.
@@ -1220,9 +1176,7 @@ Discuss the importance of stability in difference methods. What happens if a dif
 Consider a quantum system described by the Schrödinger equation:
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi
-
 $$
 
 where $\Psi$ is the wave function, $m$ is the mass of the particle, $V$ is the potential energy, and $\hbar$ is the reduced Planck constant. Discuss how a stable difference method could be used to solve this equation.
@@ -1234,9 +1188,7 @@ where $\Psi$ is the wave function, $m$ is the mass of the particle, $V$ is the p
 Solve the following system of differential equations using a stable difference method:
 
 $$
-
 \frac{dx}{dt} = y, \quad \frac{dy}{dt} = -x
-
 $$
 
 
@@ -1270,9 +1222,7 @@ In the context of quantum physics, we have seen how differential equations and s
 Solve the following differential equation using any stable difference method: 
 
 $$
-
 \frac{dy}{dx} = x^2 + y^2
-
 $$
 
 
@@ -1282,9 +1232,7 @@ $$
 Consider a simple harmonic oscillator described by the differential equation:
 
 $$
-
 \frac{d^2x}{dt^2} = -kx
-
 $$
 
 where $k$ is a constant. Use a stable difference method to solve this equation.
@@ -1302,9 +1250,7 @@ Discuss the importance of stability in difference methods. What happens if a dif
 Consider a quantum system described by the Schrödinger equation:
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi
-
 $$
 
 where $\Psi$ is the wave function, $m$ is the mass of the particle, $V$ is the potential energy, and $\hbar$ is the reduced Planck constant. Discuss how a stable difference method could be used to solve this equation.
@@ -1316,9 +1262,7 @@ where $\Psi$ is the wave function, $m$ is the mass of the particle, $V$ is the p
 Solve the following system of differential equations using a stable difference method:
 
 $$
-
 \frac{dx}{dt} = y, \quad \frac{dy}{dt} = -x
-
 $$
 
 
@@ -1372,9 +1316,7 @@ The general form of the Navier-Stokes equation is:
 
 
 $$
-
 \rho \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \nabla \cdot \mathbf{T} + \mathbf{f}
-
 $$
 
 
@@ -1400,9 +1342,7 @@ The Staggered Leapfrog method is a type of explicit finite difference method. It
 
 
 $$
-
 y_{j+1}(n+1) = y_{j-1}(n) + 2\Delta t f(y_j(n), t_n)
-
 $$
 
 
@@ -1488,9 +1428,7 @@ Consider a simple PDE of the form:
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0
-
 $$
 
 
@@ -1500,9 +1438,7 @@ where $u$ is a function of $x$ and $y$. The separation of variables technique as
 
 
 $$
-
 \frac{1}{X}\frac{d^2X}{dx^2} + \frac{1}{Y}\frac{d^2Y}{dy^2} = 0
-
 $$
 
 
@@ -1512,9 +1448,7 @@ This equation must hold for all values of $x$ and $y$. Therefore, each term must
 
 
 $$
-
 \frac{d^2X}{dx^2} = -k^2X
-
 $$
 
 
@@ -1524,9 +1458,7 @@ and
 
 
 $$
-
 \frac{d^2Y}{dy^2} = k^2Y
-
 $$
 
 
@@ -1560,9 +1492,7 @@ Consider a simple PDE of the form:
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = f(x, y)
-
 $$
 
 
@@ -1572,9 +1502,7 @@ where $u$ is a function of $x$ and $y$, and $f(x, y)$ is a given function. The s
 
 
 $$
-
 u(x, y) = \sum_{n=0}^{\infty} \sum_{m=0}^{\infty} a_{nm} \phi_n(x) \psi_m(y)
-
 $$
 
 
@@ -1608,27 +1536,19 @@ Consider Maxwell's equations in vacuum:
 
 
 $$
-
 \nabla \cdot \mathbf{E} = 0
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 
@@ -1680,9 +1600,7 @@ Derive the differential form of Maxwell's equations from their integral form.
 Solve the following set of Maxwell's equations for a vacuum:
 
 $$
-
 \nabla \cdot \mathbf{E} = 0, \quad \nabla \cdot \mathbf{B} = 0, \quad \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 
@@ -1736,9 +1654,7 @@ Derive the differential form of Maxwell's equations from their integral form.
 Solve the following set of Maxwell's equations for a vacuum:
 
 $$
-
 \nabla \cdot \mathbf{E} = 0, \quad \nabla \cdot \mathbf{B} = 0, \quad \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 
@@ -1934,9 +1850,7 @@ The iteration step can be written in a general form as:
 
 
 $$
-
 x^{(k+1)} = Gx^{(k)} + c
-
 $$
 
 
@@ -1954,9 +1868,7 @@ The termination step decides when to stop the iteration process. This is usually
 
 
 $$
-
 \|x^{(k+1)} - x^{(k)}\| < \epsilon
-
 $$
 
 
@@ -2058,9 +1970,7 @@ Mathematically, if we denote the original linear system as $Ax = b$, where $A$ i
 
 
 $$
-
 x^{(k+1)} = x^{(k)} + M^{-1}(b - Ax^{(k)})
-
 $$
 
 
@@ -2082,9 +1992,7 @@ The restriction step can be represented mathematically as:
 
 
 $$
-
 r^{(c)} = Rr^{(f)}
-
 $$
 
 
@@ -2106,9 +2014,7 @@ The prolongation step can be represented mathematically as:
 
 
 $$
-
 x^{(f)} = x^{(f)} + Px^{(c)}
-
 $$
 
 
@@ -2130,9 +2036,7 @@ The correction step can be represented mathematically as:
 
 
 $$
-
 x^{(k+1)} = x^{(k)} + Px^{(c)}
-
 $$
 
 
@@ -2158,9 +2062,7 @@ The correction step can be represented mathematically as:
 
 
 $$
-
 x^{(f, new)} = x^{(f)} + Px^{(c)}
-
 $$
 
 
@@ -2230,9 +2132,7 @@ A Krylov subspace of order $n$ generated by a non-zero vector $b$ and a matrix $
 
 
 $$
-
 K_n(A, b) = span\{b, Ab, A^2b, ..., A^{n-1}b\}
-
 $$
 
 
@@ -2366,17 +2266,13 @@ The Stokes equations are a set of linear partial differential equations that are
 
 
 $$
-
 \nabla \cdot u = 0,
-
 $$
 
 
 
 $$
-
 -\nabla p + \mu \nabla^2 u = 0,
-
 $$
 
 
@@ -2390,9 +2286,7 @@ The pressure field in the Stokes problem is determined by finding the saddle poi
 
 
 $$
-
 \min_{u} \max_{p} \int_{\Omega} \left( \frac{1}{2} | \nabla u |^2 - p (\nabla \cdot u) \right) dx,
-
 $$
 
 
@@ -2602,9 +2496,7 @@ The gradient descent method can be mathematically represented as follows:
 
 
 $$
-
 x_{n+1} = x_n - \alpha \nabla f(x_n)
-
 $$
 
 
@@ -2642,7 +2534,6 @@ The process of gradient-based optimization involves several steps, which are ite
 
 
     $$
-
     x_{n+1} = x_n - \alpha \nabla f(x_n)
 
     $$
@@ -2716,13 +2607,11 @@ Newton's method, also known as the Newton-Raphson method, is a powerful techniqu
 The basic idea of Newton's method is to start with an initial guess for the root of a function, and then to iteratively improve this guess until it converges to the actual root. The method is based on the observation that a function can be approximated by a tangent line at each point. If $f(x)$ is the function we want to find the root of, and $x_0$ is our initial guess, then the tangent line to $f(x)$ at $x_0$ is given by:
 
 
-
 $$
 
 y = f(x_0) + f'(x_0)(x - x_0)
 
 $$
-
 
 
 where $f'(x_0)$ is the derivative of $f(x)$ at $x_0$. The x-intercept of this tangent line, which is given by $x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$, provides a better approximation to the root of $f(x)$ than $x_0$. This process can be repeated to get a sequence of approximations $x_0, x_1, x_2, \ldots$ that converge to the root of $f(x)$.
@@ -2820,7 +2709,6 @@ For instance, in mechanical engineering, one might need to design a machine part
 Mathematically, a constrained optimization problem can be formulated as follows:
 
 
-
 $$
 
 \begin{align*}
@@ -2834,7 +2722,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $f(x)$ is the objective function to be minimized, $g_i(x)$ are inequality constraints, and $h_j(x)$ are equality constraints. The variables $x$ represent the parameters of the system being designed.
@@ -3276,13 +3163,11 @@ In the realm of quantum mechanics, complex numbers play a crucial role. The stat
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\Psi(x,t) + V(x)\Psi(x,t)
 
 $$
-
 
 
 where $i$ is the imaginary unit, $\hbar$ is the reduced Planck's constant, $m$ is the mass of the particle, $V(x)$ is the potential energy, and $\Psi(x,t)$ is the wave function.
@@ -3388,13 +3273,11 @@ One of the most striking manifestations of non-determinism in quantum mechanics 
 The Born rule states that the probability of finding a quantum system in a particular state is given by the square of the amplitude of the wave function corresponding to that state. Mathematically, if $|\psi\rangle$ is a normalized state and $|a\rangle$ is an eigenstate of the observable with eigenvalue $a$, then the probability $P(a)$ of obtaining the result $a$ is given by:
 
 
-
 $$
 
 P(a) = |\langle a|\psi\rangle|^2
 
 $$
-
 
 
 ##### Quantum Entanglement
@@ -3444,13 +3327,11 @@ Superposition is a fundamental principle of quantum mechanics that allows partic
 The principle of superposition states that any two (or more) quantum states can be added together, or "superposed", and the result will be another valid quantum state. Conversely, every quantum state can be represented as a sum of two or more other distinct states. Mathematically, if $|\psi_1\rangle$ and $|\psi_2\rangle$ are two states of a quantum system, then any linear combination of these states:
 
 
-
 $$
 
 |\psi\rangle = c_1|\psi_1\rangle + c_2|\psi_2\rangle
 
 $$
-
 
 
 where $c_1$ and $c_2$ are complex numbers, is also a state of the system. This is known as the superposition principle.
@@ -3548,13 +3429,11 @@ In quantum mechanics, the state of a quantum system is described by a wave funct
 A quantum system in a superposition of states is represented by a linear combination of its basis states. For a two-state quantum system, the wave function can be written as:
 
 
-
 $$
 
 \Psi = c_1 \Psi_1 + c_2 \Psi_2
 
 $$
-
 
 
 where $\Psi_1$ and $\Psi_2$ are the basis states, and $c_1$ and $c_2$ are complex coefficients that determine the probability of the system being in each state. The probabilities are given by the square of the absolute value of the coefficients, i.e., $|c_1|^2$ and $|c_2|^2$.
@@ -3608,13 +3487,11 @@ Quantum entanglement is another fundamental concept in quantum mechanics that fu
 Consider two quantum systems, A and B, each with two possible states. The combined system is described by a wave function $\Psi_{AB}$, which can be written as a superposition of the basis states of the individual systems:
 
 
-
 $$
 
 \Psi_{AB} = c_1 \Psi_{A1}\Psi_{B1} + c_2 \Psi_{A2}\Psi_{B2}
 
 $$
-
 
 
 where $\Psi_{A1}$, $\Psi_{A2}$, $\Psi_{B1}$, and $\Psi_{B2}$ are the basis states of systems A and B, and $c_1$ and $c_2$ are complex coefficients. 
@@ -3624,13 +3501,11 @@ where $\Psi_{A1}$, $\Psi_{A2}$, $\Psi_{B1}$, and $\Psi_{B2}$ are the basis state
 However, for an entangled state, the wave function cannot be separated into individual components. Instead, it must be described as a whole. For example, the Bell state, a well-known example of an entangled state, is given by:
 
 
-
 $$
 
 \Psi_{AB} = \frac{1}{\sqrt{2}} (\Psi_{A1}\Psi_{B1} + \Psi_{A2}\Psi_{B2})
 
 $$
-
 
 
 In this state, if system A is found in state 1, system B will also be found in state 1, and similarly for state 2. This correlation holds regardless of the distance between the two systems.
@@ -3676,13 +3551,11 @@ Quantum computing is one of the most promising applications of quantum entanglem
 For example, consider a two-qubit system in an entangled state:
 
 
-
 $$
 
 \Psi_{AB} = \frac{1}{\sqrt{2}} (\Psi_{A0}\Psi_{B0} + \Psi_{A1}\Psi_{B1})
 
 $$
-
 
 
 If a computation is performed on qubit A, the state of qubit B will also change, effectively performing two computations at once. This property is the basis for quantum parallelism, which is a key advantage of quantum computing.
@@ -3740,13 +3613,11 @@ The EPR paradox was resolved by the realization that quantum mechanics is a non-
 The entanglement of quantum systems can be mathematically described using the formalism of quantum mechanics. Consider a system of two particles, A and B, in an entangled state. The state of the system can be written as:
 
 
-
 $$
 
 \Psi_{AB} = \frac{1}{\sqrt{2}} (\Psi_{A0}\Psi_{B0} - \Psi_{A1}\Psi_{B1})
 
 $$
-
 
 
 This is known as a Bell state, named after physicist John Bell. In this state, if particle A is found in state 0, then particle B will also be found in state 0, and vice versa. This correlation holds no matter how far apart the particles are, demonstrating the non-local nature of quantum mechanics.
@@ -3908,7 +3779,6 @@ In the two-slit experiment, a beam of particles (such as photons, electrons, or 
 The mathematical description of this experiment involves the principle of superposition. If $\Psi_1(x,t)$ and $\Psi_2(x,t)$ represent the wave functions of a particle passing through slit 1 and slit 2 respectively, the total wave function of the particle after passing through the slits is given by:
 
 
-
 $$
 
 \Psi(x,t) = \Psi_1(x,t) + \Psi_2(x,t)
@@ -3916,9 +3786,7 @@ $$
 $$
 
 
-
 This superposition of wave functions results in an interference pattern on the screen, which can be calculated using the principles of wave interference. The intensity of the pattern at any point on the screen is proportional to the square of the absolute value of the total wave function at that point:
-
 
 
 $$
@@ -3926,7 +3794,6 @@ $$
 I(x) \propto |\Psi(x,t)|^2
 
 $$
-
 
 
 This result is known as the Born rule, named after physicist Max Born who first proposed it.
@@ -4248,13 +4115,11 @@ The photoelectric effect refers to the emission of electrons (or photoelectrons)
 According to the quantum theory, light consists of discrete packets of energy called photons. The energy of a photon is given by the equation:
 
 
-
 $$
 
 E = h\nu
 
 $$
-
 
 
 where $E$ is the energy of the photon, $h$ is Planck's constant, and $\nu$ is the frequency of the light.
@@ -4284,13 +4149,11 @@ The photoelectric effect has several key features:
 4. **Energy of Photoelectrons**: The kinetic energy of the emitted electrons is independent of the intensity of the light but depends on the frequency of the light. The maximum kinetic energy of the photoelectrons can be given by the equation:
 
 
-
 $$
 
 K_{max} = h\nu - \phi
 
 $$
-
 
 
 where $K_{max}$ is the maximum kinetic energy of the photoelectrons, $\nu$ is the frequency of the incident light, $\phi$ is the work function of the metal, and $h$ is Planck's constant.
@@ -4396,13 +4259,11 @@ Compton scattering occurs when a photon - usually an X-ray or gamma-ray photon -
 The Compton effect can be understood as a collision between two particles: the incident photon and the electron. The conservation of energy and momentum in this collision leads to the Compton formula, which gives the change in wavelength of the scattered photon:
 
 
-
 $$
 
 \Delta \lambda = \lambda' - \lambda = \frac{h}{m_ec}(1 - \cos \theta)
 
 $$
-
 
 
 where $\lambda$ and $\lambda'$ are the initial and final wavelengths of the photon, $h$ is Planck's constant, $m_e$ is the electron mass, $c$ is the speed of light, and $\theta$ is the scattering angle.
@@ -4436,13 +4297,11 @@ When the high-energy photons collide with the loosely bound electrons in the tar
 The energy of the scattered photons can be determined from their intensity. By comparing the energy of the incident photons (known from the source) and the energy of the scattered photons (measured by the detector), the change in energy can be calculated. This change in energy can then be compared to the prediction from the Compton formula:
 
 
-
 $$
 
 \Delta E = E' - E = h \nu' - h \nu = h c (\lambda' - \lambda) = h c \Delta \lambda
 
 $$
-
 
 
 where $E$ and $E'$ are the initial and final energies of the photon, $\nu$ and $\nu'$ are the initial and final frequencies of the photon, and $\Delta \lambda$ is the change in wavelength given by the Compton formula.
@@ -4516,13 +4375,11 @@ The de Broglie wavelength, named after the French physicist Louis de Broglie, is
 The de Broglie wavelength is given by the equation:
 
 
-
 $$
 
 \lambda = \frac{h}{p}
 
 $$
-
 
 
 where $\lambda$ is the de Broglie wavelength, $h$ is Planck's constant, and $p$ is the momentum of the particle. This equation shows that the wavelength of a particle is inversely proportional to its momentum. In other words, the greater the momentum of a particle, the smaller its wavelength, and vice versa.
@@ -4552,7 +4409,6 @@ To calculate the de Broglie wavelength of a particle, we need to know the partic
 Let's consider an example. Suppose we have an electron moving with a velocity of $v = 2.0 \times 10^6$ m/s. The mass of an electron is known to be $m = 9.11 \times 10^{-31}$ kg. We can calculate the momentum of the electron as:
 
 
-
 $$
 
 p = mv = (9.11 \times 10^{-31} \, \text{kg})(2.0 \times 10^6 \, \text{m/s}) = 1.82 \times 10^{-24} \, \text{kg m/s}
@@ -4560,9 +4416,7 @@ p = mv = (9.11 \times 10^{-31} \, \text{kg})(2.0 \times 10^6 \, \text{m/s}) = 1.
 $$
 
 
-
 Now, we can use the de Broglie wavelength equation to find the wavelength of this electron. Planck's constant $h$ is known to be $6.63 \times 10^{-34}$ Js. Substituting these values into the equation, we get:
-
 
 
 $$
@@ -4570,7 +4424,6 @@ $$
 \lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \, \text{Js}}{1.82 \times 10^{-24} \, \text{kg m/s}} = 3.64 \times 10^{-10} \, \text{m}
 
 $$
-
 
 
 This result is in the range of atomic dimensions, which is consistent with the wave-like behavior of electrons at this scale.
@@ -4600,7 +4453,6 @@ One of the most significant applications of de Broglie's concept is in electron 
 For an electron accelerated through a potential difference $V$, its kinetic energy is given by $E = eV$, where $e$ is the charge of the electron. The momentum $p$ of the electron can be obtained from the energy-momentum relation $E = p^2/2m$. Solving for $p$, we get:
 
 
-
 $$
 
 p = \sqrt{2meV}
@@ -4608,9 +4460,7 @@ p = \sqrt{2meV}
 $$
 
 
-
 Substituting this into the de Broglie wavelength formula, we get:
-
 
 
 $$
@@ -4618,7 +4468,6 @@ $$
 \lambda = \frac{h}{\sqrt{2meV}}
 
 $$
-
 
 
 This equation shows that the wavelength of the electron decreases as the accelerating voltage increases, leading to higher resolution.
@@ -4792,13 +4641,11 @@ The Galilean transformation is a fundamental concept in classical physics that d
 In the context of wave mechanics, the Galilean transformation is used to understand how the de Broglie wavelength of a particle changes when observed from different frames of reference. The de Broglie wavelength, denoted as $\lambda$, is a key concept in wave mechanics that describes the wave-like behavior of particles. It is given by the equation:
 
 
-
 $$
 
 \lambda = \frac{h}{p}
 
 $$
-
 
 
 where $h$ is Planck's constant and $p$ is the momentum of the particle.
@@ -4808,13 +4655,11 @@ where $h$ is Planck's constant and $p$ is the momentum of the particle.
 When we apply the Galilean transformation to the de Broglie wavelength, we find that the wavelength observed in a frame moving with velocity $v$ relative to the particle is given by:
 
 
-
 $$
 
 \lambda' = \lambda - \frac{h}{mv}
 
 $$
-
 
 
 where $m$ is the mass of the particle and $v$ is the relative velocity of the moving frame.
@@ -4844,7 +4689,6 @@ In this section, we will apply the Galilean transformation to the de Broglie wav
 Let's consider a particle of mass $m$ moving with a velocity $u$ in a stationary frame of reference. The momentum of the particle in this frame is given by $p = mu$. According to de Broglie's hypothesis, the wavelength associated with this particle is given by:
 
 
-
 $$
 
 \lambda = \frac{h}{p} = \frac{h}{mu}
@@ -4852,9 +4696,7 @@ $$
 $$
 
 
-
 Now, let's consider a frame of reference moving with a velocity $v$ in the same direction as the particle. In this frame, the velocity of the particle is $u' = u - v$, and its momentum is $p' = m(u - v)$. The de Broglie wavelength in the moving frame is then:
-
 
 
 $$
@@ -4862,7 +4704,6 @@ $$
 \lambda' = \frac{h}{p'} = \frac{h}{m(u - v)}
 
 $$
-
 
 
 This is the Galilean transformation of the de Broglie wavelength. It shows that the observed wavelength of a particle depends on the relative motion of the observer.
@@ -4968,7 +4809,6 @@ The group velocity of a wave-packet is a crucial concept in wave mechanics. It i
 The group velocity $v_g$ is given by the derivative of the dispersion relation $\omega(k)$ with respect to the wave number $k$:
 
 
-
 $$
 
 v_g = \frac{d\omega}{dk}
@@ -4976,9 +4816,7 @@ v_g = \frac{d\omega}{dk}
 $$
 
 
-
 In quantum mechanics, the group velocity of a wave-packet is associated with the particle's velocity. This is a consequence of the de Broglie relation, which relates the particle's momentum $p$ to the wave number $k$:
-
 
 
 $$
@@ -4988,9 +4826,7 @@ p = \hbar k
 $$
 
 
-
 where $\hbar$ is the reduced Planck's constant. By substituting this relation into the expression for the group velocity, we find that the group velocity is equal to the particle's velocity $v$:
-
 
 
 $$
@@ -4998,7 +4834,6 @@ $$
 v_g = \frac{d\omega}{dk} = \frac{dp}{d(\hbar k)} = v
 
 $$
-
 
 
 This result is a manifestation of the wave-particle duality, which is a cornerstone of quantum mechanics. It shows that the wave-like and particle-like properties of a quantum system are not separate but intertwined.
@@ -5018,13 +4853,11 @@ The group velocity, as mentioned earlier, is defined as the velocity of the enve
 The group velocity $v_g$ is given by the derivative of the dispersion relation $\omega(k)$ with respect to the wave number $k$:
 
 
-
 $$
 
 v_g = \frac{d\omega}{dk}
 
 $$
-
 
 
 In quantum mechanics, the group velocity of a wave-packet is associated with the particle's velocity. This association is a consequence of the de Broglie hypothesis, which states that every particle has a wave associated with it. The velocity of this wave, according to de Broglie, is the velocity of the particle.
@@ -5096,13 +4929,11 @@ The concept of matter waves was first proposed by Louis de Broglie in 1924. Acco
 The wavelength of a de Broglie wave, often referred to as the de Broglie wavelength, is given by the equation:
 
 
-
 $$
 
 \lambda = \frac{h}{p}
 
 $$
-
 
 
 where $\lambda$ is the de Broglie wavelength, $h$ is Planck's constant, and $p$ is the momentum of the particle. This equation shows that the wavelength of a particle's associated wave is inversely proportional to its momentum. This means that particles with larger momentum have shorter wavelengths, and vice versa.
@@ -5128,13 +4959,11 @@ In this section, we will delve into the practical application of the de Broglie 
 Consider a particle of mass $m$ moving with a velocity $v$. The momentum of the particle is given by $p = mv$. Substituting this into the de Broglie wavelength equation, we get:
 
 
-
 $$
 
 \lambda = \frac{h}{mv}
 
 $$
-
 
 
 This equation allows us to calculate the de Broglie wavelength of a particle if we know its mass and velocity. 
@@ -5144,13 +4973,11 @@ This equation allows us to calculate the de Broglie wavelength of a particle if 
 Let's consider an example. Suppose we have an electron moving with a velocity of $10^6$ m/s. The mass of an electron is approximately $9.11 \times 10^{-31}$ kg. Substituting these values into the equation, we get:
 
 
-
 $$
 
 \lambda = \frac{6.626 \times 10^{-34}}{9.11 \times 10^{-31} \times 10^6} \approx 7.27 \times 10^{-10} \, m
 
 $$
-
 
 
 This is the de Broglie wavelength of the electron. It is in the range of the size of an atom, which is why quantum effects become significant at this scale.
@@ -5180,13 +5007,11 @@ One of the most significant applications of matter waves is in electron microsco
 For instance, consider an electron microscope operating with an accelerating voltage of 100 kV. The speed of the electrons can be approximated using the relativistic equation:
 
 
-
 $$
 
 v = c \left(1 - \left(\frac{1}{1 + \frac{eV}{mc^2}}\right)^2\right)^{1/2}
 
 $$
-
 
 
 where $e$ is the charge of an electron, $V$ is the accelerating voltage, $m$ is the mass of an electron, and $c$ is the speed of light. Substituting the known values, we can calculate the speed of the electrons and hence their de Broglie wavelength. This wavelength is then used to determine the resolution of the microscope.
@@ -5220,7 +5045,6 @@ In quantum mechanics, the concepts of momentum and position are represented by o
 The position operator $\hat{x}$ in one dimension is defined as multiplication by the position $x$. In the position representation, the position operator acts on the wave function $\psi(x)$ by multiplication:
 
 
-
 $$
 
 \hat{x}\psi(x) = x\psi(x)
@@ -5228,9 +5052,7 @@ $$
 $$
 
 
-
 The momentum operator $\hat{p}$ in one dimension is defined as:
-
 
 
 $$
@@ -5240,9 +5062,7 @@ $$
 $$
 
 
-
 where $\hbar$ is the reduced Planck's constant, $i$ is the imaginary unit, and $\frac{d}{dx}$ is the derivative with respect to $x$. In the position representation, the momentum operator acts on the wave function $\psi(x)$ by taking the derivative:
-
 
 
 $$
@@ -5252,7 +5072,6 @@ $$
 $$
 
 
-
 These operators are fundamental in the formulation of quantum mechanics. They are used to construct the Hamiltonian operator, which represents the total energy of the system and is central to the Schrödinger equation.
 
 
@@ -5260,13 +5079,11 @@ These operators are fundamental in the formulation of quantum mechanics. They ar
 The commutation relation between the position and momentum operators is a cornerstone of quantum mechanics. It is given by:
 
 
-
 $$
 
 [\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar
 
 $$
-
 
 
 This relation implies that position and momentum cannot be simultaneously measured with arbitrary precision, a statement known as the Heisenberg uncertainty principle.
@@ -5298,13 +5115,11 @@ The position operator $\hat{x}$, as we have seen, acts on the wave function $\ps
 In other words, the square of the absolute value of the wave function, $|\psi(x)|^2$, gives us the probability density of finding the particle at a particular position $x$. This is a fundamental postulate of quantum mechanics, known as the Born rule:
 
 
-
 $$
 
 |\psi(x)|^2 dx = \text{Probability of finding the particle in the interval } [x, x+dx]
 
 $$
-
 
 
 #### 7.4b.2 Momentum Operator
@@ -5318,13 +5133,11 @@ The momentum operator $\hat{p}$, on the other hand, acts on the wave function by
 The expectation value of the momentum operator gives us the average momentum of the particle. This can be calculated as follows:
 
 
-
 $$
 
 \langle \hat{p} \rangle = \int_{-\infty}^{\infty} \psi^*(x) \hat{p} \psi(x) dx
 
 $$
-
 
 
 where $\psi^*(x)$ is the complex conjugate of the wave function.
@@ -5338,7 +5151,6 @@ where $\psi^*(x)$ is the complex conjugate of the wave function.
 The commutation relation between the position and momentum operators has profound implications in quantum mechanics. As we have seen, it is given by:
 
 
-
 $$
 
 [\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar
@@ -5346,9 +5158,7 @@ $$
 $$
 
 
-
 This relation implies that the position and momentum of a quantum particle cannot be simultaneously measured with arbitrary precision. This is known as the Heisenberg uncertainty principle, which can be mathematically expressed as:
-
 
 
 $$
@@ -5356,7 +5166,6 @@ $$
 \Delta x \Delta p \geq \frac{\hbar}{2}
 
 $$
-
 
 
 where $\Delta x$ and $\Delta p$ are the uncertainties in the measurement of position and momentum, respectively.
@@ -5384,13 +5193,11 @@ In this section, we will explore some of the practical applications of the momen
 One of the most significant applications of the momentum and position operators is the Heisenberg Uncertainty Principle. This principle, which is a direct consequence of the commutation relation between the position and momentum operators, states that it is impossible to simultaneously measure the exact position and momentum of a quantum particle. Mathematically, this is expressed as:
 
 
-
 $$
 
 \Delta x \Delta p \geq \frac{\hbar}{2}
 
 $$
-
 
 
 where $\Delta x$ and $\Delta p$ are the uncertainties in the position and momentum measurements, respectively, and $\hbar$ is the reduced Planck's constant. This principle is fundamental to the understanding of quantum mechanics and has profound implications for the behavior of quantum systems.
@@ -5440,13 +5247,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that pr
 The Schrödinger equation is a partial differential equation that describes how the wave function of a physical system evolves over time. It is written as:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\Psi(\mathbf{r},t)$ is the wave function of the system, $\hat{H}$ is the Hamiltonian operator (which represents the total energy of the system), $i$ is the imaginary unit, and $\hbar$ is the reduced Planck's constant.
@@ -5492,13 +5297,11 @@ Solving the Schrödinger equation involves finding the wave function $\Psi(\math
 The time-dependent Schrödinger equation is a partial differential equation that can be solved using various mathematical techniques. One common method is separation of variables, where the wave function is assumed to be a product of a spatial part and a temporal part:
 
 
-
 $$
 
 \Psi(\mathbf{r},t) = \psi(\mathbf{r})f(t)
 
 $$
-
 
 
 Substituting this into the time-dependent Schrödinger equation and separating variables, we obtain two ordinary differential equations: one for the spatial part $\psi(\mathbf{r})$ and one for the temporal part $f(t)$. These equations can be solved separately, and their solutions can be combined to obtain the solution for the original wave function $\Psi(\mathbf{r},t)$.
@@ -5536,13 +5339,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics and has
 One of the simplest applications of the Schrödinger equation is the particle in a box problem. This problem involves a particle that is confined to a one-dimensional box with infinitely high walls. The potential energy function $V(x)$ is zero inside the box and infinite outside the box. The time-independent Schrödinger equation for this system is:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
 
 $$
-
 
 
 The solutions to this equation are sinusoidal functions that represent the quantum states of the particle. The energy levels of these states are quantized, meaning they can only take on certain discrete values. This is a fundamental result of quantum mechanics and is a direct consequence of the Schrödinger equation.
@@ -5560,13 +5361,11 @@ Another important application of the Schrödinger equation is the quantum harmon
 The time-independent Schrödinger equation for this system is:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + \frac{1}{2}m\omega^2x^2\psi = E\psi
 
 $$
-
 
 
 The solutions to this equation are Hermite functions, and the energy levels are equally spaced and quantized. The quantum harmonic oscillator is a fundamental model in quantum mechanics and is used to describe many physical systems, including the vibrations of molecules and the oscillations of light waves in a cavity.
@@ -5756,13 +5555,11 @@ Probability density, in the context of quantum mechanics, is a measure of the li
 Mathematically, the probability density function $P(x)$ for a particle to be found at a position $x$ is given by:
 
 
-
 $$
 
 P(x) = |\Psi(x)|^2
 
 $$
-
 
 
 where $\Psi(x)$ is the wavefunction of the particle at position $x$. The probability of finding the particle in a small interval $dx$ around the position $x$ is then given by $P(x)dx$.
@@ -5788,7 +5585,6 @@ In order to calculate the probability density, we first need to know the wavefun
 Let's consider a one-dimensional system for simplicity. Suppose we have a normalized wavefunction $\Psi(x)$, the probability $P(a \leq x \leq b)$ of finding the particle in the interval $[a, b]$ is given by the integral of the probability density over this interval:
 
 
-
 $$
 
 P(a \leq x \leq b) = \int_{a}^{b} |\Psi(x)|^2 dx
@@ -5796,9 +5592,7 @@ P(a \leq x \leq b) = \int_{a}^{b} |\Psi(x)|^2 dx
 $$
 
 
-
 This integral represents the area under the probability density curve from $a$ to $b$. The total probability of finding the particle somewhere in space is then given by the integral of the probability density over all space, which must equal to one:
-
 
 
 $$
@@ -5808,7 +5602,6 @@ $$
 $$
 
 
-
 This is known as the normalization condition for the wavefunction, which ensures that the total probability of finding the particle somewhere in space is 100%.
 
 
@@ -5816,13 +5609,11 @@ This is known as the normalization condition for the wavefunction, which ensures
 In practice, the wavefunction is often represented in terms of its real and imaginary parts, $\Psi(x) = R(x) + iI(x)$. The probability density can then be calculated as:
 
 
-
 $$
 
 P(x) = |\Psi(x)|^2 = |R(x) + iI(x)|^2 = R^2(x) + I^2(x)
 
 $$
-
 
 
 This highlights the fact that both the real and imaginary parts of the wavefunction contribute to the probability density.
@@ -5900,13 +5691,11 @@ The probability current, also known as the probability flux, is a vector quantit
 The probability current is defined as the rate at which probability density flows through a unit area per unit time. Mathematically, it is given by the equation:
 
 
-
 $$
 
 \vec{J} = \frac{\hbar}{2mi}(\Psi^*\nabla\Psi - \Psi\nabla\Psi^*)
 
 $$
-
 
 
 where $\vec{J}$ is the probability current, $\hbar$ is the reduced Planck's constant, $m$ is the mass of the particle, $\Psi$ is the wavefunction, and $\nabla$ is the gradient operator. The asterisk denotes the complex conjugate.
@@ -5936,13 +5725,11 @@ Once we have the wavefunction, we can calculate its gradient $\nabla\Psi$ and th
 The probability current $\vec{J}$ is then calculated by substituting the wavefunction and its gradients into the equation for the probability current:
 
 
-
 $$
 
 \vec{J} = \frac{\hbar}{2mi}(\Psi^*\nabla\Psi - \Psi\nabla\Psi^*)
 
 $$
-
 
 
 This equation tells us that the probability current is proportional to the difference between the product of the wavefunction and the gradient of its complex conjugate, and the product of the complex conjugate of the wavefunction and its gradient. The factor of $\frac{\hbar}{2mi}$ ensures that the probability current has the correct units of probability per unit area per unit time.
@@ -5972,7 +5759,6 @@ The concept of probability current finds its applications in various areas of qu
 Consider a free particle in one dimension, with a wavefunction given by:
 
 
-
 $$
 
 \Psi(x, t) = Ae^{i(kx - \omega t)}
@@ -5980,9 +5766,7 @@ $$
 $$
 
 
-
 where $A$ is the amplitude, $k$ is the wave number, $\omega$ is the angular frequency, $x$ is the position, and $t$ is the time. The gradient of the wavefunction and its complex conjugate are:
-
 
 
 $$
@@ -5991,8 +5775,6 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla\Psi^* = -ikAe^{-i(kx - \omega t)}
@@ -6000,9 +5782,7 @@ $$
 $$
 
 
-
 Substituting these into the equation for the probability current, we find:
-
 
 
 $$
@@ -6010,7 +5790,6 @@ $$
 \vec{J} = \frac{\hbar}{2mi}(A^2e^{i2kx}(-ik) - A^2e^{-i2kx}(ik)) = \frac{\hbar k}{m}|A|^2
 
 $$
-
 
 
 This tells us that the probability current for a free particle is a real quantity, proportional to the square of the amplitude of the wavefunction and the wave number, and inversely proportional to the mass of the particle. The direction of the probability current is the direction of propagation of the wave, indicating that the particle is most likely to be found moving in that direction.
@@ -6032,7 +5811,6 @@ Consider a particle of energy $E$ incident on a potential barrier of height $V_0
 The wavefunction for the particle in the region of the barrier (where $x$ is between 0 and $a$) can be written as:
 
 
-
 $$
 
 \Psi(x, t) = Be^{-(\alpha x + \beta t)}
@@ -6040,9 +5818,7 @@ $$
 $$
 
 
-
 where $B$ is the amplitude, $\alpha = \sqrt{2m(V_0 - E)}/\hbar$, and $\beta = E/\hbar$. The gradient of the wavefunction and its complex conjugate are:
-
 
 
 $$
@@ -6051,8 +5827,6 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla\Psi^* = \alpha Be^{(\alpha x + \beta t)}
@@ -6060,9 +5834,7 @@ $$
 $$
 
 
-
 Substituting these into the equation for the probability current, we find:
-
 
 
 $$
@@ -6070,7 +5842,6 @@ $$
 \vec{J} = \frac{\hbar}{2mi}(B^2e^{-2\alpha x}(\alpha) - B^2e^{2\alpha x}(-\alpha)) = 0
 
 $$
-
 
 
 This result tells us that the probability current inside the barrier is zero. This means that there is no net flow of probability inside the barrier, which is consistent with the interpretation of quantum tunneling: the particle does not spend any time inside the barrier, it either reflects back or appears on the other side.
@@ -6084,7 +5855,6 @@ These examples illustrate the utility of the probability current in understandin
 ```
 
 ) = Ae^{i(kx - \omega t)} + Be^{-i(kx - \omega t)}
-
 $$
 
 
@@ -6094,9 +5864,7 @@ where $A$ and $B$ are the amplitudes of the incident and reflected waves, respec
 
 
 $$
-
 \vec{J} = \frac{\hbar}{2mi}(A^2e^{i2kx}(-ik) - B^2e^{-i2kx}(ik) + ABe^{i(kx - \omega t)}(-ik) - AB^*e^{-i(kx - \omega t)}(ik))
-
 $$
 
 
@@ -6114,9 +5882,7 @@ In quantum mechanics, the concept of current conservation is closely related to 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -6152,9 +5918,7 @@ To prove the principle of current conservation, we can start by considering the 
 
 
 $$
-
 i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi
-
 $$
 
 
@@ -6168,9 +5932,7 @@ Taking the complex conjugate of the Schrödinger equation, we get:
 
 
 $$
-
 -i\hbar\frac{\partial \Psi^*}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\Psi^* + V\Psi^*
-
 $$
 
 
@@ -6180,9 +5942,7 @@ Multiplying the original Schrödinger equation by $\Psi^*$ and the complex conju
 
 
 $$
-
 i\hbar\Psi^*\frac{\partial \Psi}{\partial t} - i\hbar\Psi\frac{\partial \Psi^*}{\partial t} = -\frac{\hbar^2}{2m}(\Psi^*\nabla^2\Psi - \Psi\nabla^2\Psi^*)
-
 $$
 
 
@@ -6192,9 +5952,7 @@ This equation can be rewritten as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} = -\frac{\hbar}{2mi}\nabla \cdot (\Psi^*\nabla\Psi - \Psi\nabla\Psi^*)
-
 $$
 
 
@@ -6204,9 +5962,7 @@ where we have used the fact that $\rho = |\Psi|^2 = \Psi^*\Psi$. The term on the
 
 
 $$
-
 \frac{\partial \rho}{\partial t} = -\nabla \cdot \vec{J}
-
 $$
 
 
@@ -6276,9 +6032,7 @@ Mathematically, an operator $\hat{O}$ is said to be Hermitian if it satisfies th
 
 
 $$
-
 \hat{O} = \hat{O}^\dagger
-
 $$
 
 
@@ -6292,9 +6046,7 @@ One of the key properties of Hermitian operators is that their eigenvalues are a
 
 
 $$
-
 \hat{O}|\psi\rangle = \lambda|\psi\rangle
-
 $$
 
 
@@ -6332,9 +6084,7 @@ Let's consider a simple example. Suppose we have a quantum system described by t
 
 
 $$
-
 \hat{H}|\psi\rangle = E|\psi\rangle
-
 $$
 
 
@@ -6504,9 +6254,7 @@ The expectation value, in the context of quantum mechanics, is a statistical mea
 
 
 $$
-
 \langle A \rangle = \int \psi^* A \psi \, dx
-
 $$
 
 
@@ -6520,9 +6268,7 @@ On the other hand, the uncertainty principle, also known as Heisenberg's uncerta
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -6556,9 +6302,7 @@ The expectation value of $A$ is given by the formula:
 
 
 $$
-
 \langle A \rangle = \int \psi^* \hat{A} \psi \, dx
-
 $$
 
 
@@ -6576,9 +6320,7 @@ For example, consider a quantum system in a state described by a wave function t
 
 
 $$
-
 \langle E \rangle = \int \psi^* \hat{E} \psi \, dx = p_1 E_1 + p_2 E_2
-
 $$
 
 
@@ -6604,9 +6346,7 @@ The expectation value of $A$ is given by the formula:
 
 
 $$
-
 \langle A \rangle = \int \psi^* \hat{A} \psi \, dx
-
 $$
 
 
@@ -6624,9 +6364,7 @@ The operator corresponding to the position $x$ is simply $\hat{x} = x$. Therefor
 
 
 $$
-
 \langle x \rangle = \int \psi^* \hat{x} \psi \, dx = \int A^2 e^{-2\alpha x^2} x \, dx
-
 $$
 
 
@@ -6676,9 +6414,7 @@ Another important application of expectation values is in the calculation of unc
 
 
 $$
-
 \Delta A = \sqrt{\langle \hat{A}^2 \rangle - \langle \hat{A} \rangle^2}
-
 $$
 
 
@@ -6716,9 +6452,7 @@ The time evolution of a wave-packet is governed by the Schrödinger equation. Th
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -6756,9 +6490,7 @@ The Fourier transform of a wave-packet $\Psi(\mathbf{r},t)$ is given by:
 
 
 $$
-
 \Phi(\mathbf{p},t) = \frac{1}{(2\pi\hbar)^{3/2}}\int e^{-i\mathbf{p}\cdot\mathbf{r}/\hbar}\Psi(\mathbf{r},t)d^3r
-
 $$
 
 
@@ -6816,9 +6548,7 @@ The Fourier Transform of a function $f(t)$ is given by:
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
-
 $$
 
 
@@ -6832,9 +6562,7 @@ The inverse Fourier Transform, which transforms a function from the frequency do
 
 
 $$
-
 f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} d\omega
-
 $$
 
 
@@ -6868,9 +6596,7 @@ Let's consider a wave function $\psi(x)$ in the position representation. The Fou
 
 
 $$
-
 \phi(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(x) e^{-ipx/\hbar} dx
-
 $$
 
 
@@ -6880,9 +6606,7 @@ where $\hbar$ is the reduced Planck's constant. The inverse Fourier Transform, w
 
 
 $$
-
 \psi(x) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \phi(p) e^{ipx/\hbar} dp
-
 $$
 
 
@@ -6904,9 +6628,7 @@ Consider an LTI system with impulse response $h(t)$. If the input to the system 
 
 
 $$
-
 y(t) = (x * h)(t) = \int_{-\infty}^{\infty} x(\tau) h(t - \tau) d\tau
-
 $$
 
 
@@ -6916,9 +6638,7 @@ The Fourier Transform converts this convolution in the time domain into a multip
 
 
 $$
-
 Y(\omega) = X(\omega)H(\omega)
-
 $$
 
 
@@ -6988,9 +6708,7 @@ The Parseval theorem states that the total energy in a signal can be calculated 
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -7016,9 +6734,7 @@ To prove the Parseval theorem, we will start with the definition of the Fourier 
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
-
 $$
 
 
@@ -7028,9 +6744,7 @@ and the inverse Fourier transform is given by:
 
 
 $$
-
 f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} d\omega
-
 $$
 
 
@@ -7040,9 +6754,7 @@ We can substitute the inverse Fourier transform into the left-hand side of the P
 
 
 $$
-
 \int_{-\infty}^{\infty} |f(t)|^2 dt = \int_{-\infty}^{\infty} \left|\frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} d\omega\right|^2 dt
-
 $$
 
 
@@ -7052,9 +6764,7 @@ This can be simplified to:
 
 
 $$
-
 \int_{-\infty}^{\infty} \frac{1}{(2\pi)^2} \left| \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} d\omega \right|^2 dt
-
 $$
 
 
@@ -7064,9 +6774,7 @@ By expanding the square and changing the order of integration, we obtain:
 
 
 $$
-
 \frac{1}{(2\pi)^2} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} F(\omega) F^*(\omega') e^{i(\omega-\omega')t} d\omega d\omega' dt
-
 $$
 
 
@@ -7076,9 +6784,7 @@ where $F^*(\omega')$ is the complex conjugate of $F(\omega')$. The integral over
 
 
 $$
-
 \frac{1}{2\pi} \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} F(\omega) F^*(\omega') \delta(\omega-\omega') d\omega d\omega'
-
 $$
 
 
@@ -7088,9 +6794,7 @@ The delta function $\delta(\omega-\omega')$ ensures that the integral is nonzero
 
 
 $$
-
 \frac{1}{2\pi} \int_{-\infty}^{\infty} |F(\omega)|^2 d\omega
-
 $$
 
 
@@ -7156,9 +6860,7 @@ The uncertainty principle can be mathematically expressed as:
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -7192,9 +6894,7 @@ To prove the uncertainty relation, we will use the Cauchy-Schwarz inequality, a 
 
 
 $$
-
 |\langle a|b \rangle|^2 \leq \langle a|a \rangle \langle b|b \rangle
-
 $$
 
 
@@ -7208,9 +6908,7 @@ Applying the Cauchy-Schwarz inequality to these vectors, we get:
 
 
 $$
-
 |\langle a|b \rangle|^2 \leq \langle a|a \rangle \langle b|b \rangle
-
 $$
 
 
@@ -7220,9 +6918,7 @@ This can be rewritten as:
 
 
 $$
-
 |\langle (\hat{A} - \langle \hat{A} \rangle)\psi|(\hat{B} - \langle \hat{B} \rangle)\psi \rangle|^2 \leq \langle (\hat{A} - \langle \hat{A} \rangle)\psi|(\hat{A} - \langle \hat{A} \rangle)\psi \rangle \langle (\hat{B} - \langle \hat{B} \rangle)\psi|(\hat{B} - \langle \hat{B} \rangle)\psi \rangle
-
 $$
 
 
@@ -7232,9 +6928,7 @@ The left-hand side of this inequality is the square of the expectation value of 
 
 
 $$
-
 |\langle [\hat{A}, \hat{B}] \rangle|^2 \leq (\Delta A)^2 (\Delta B)^2
-
 $$
 
 
@@ -7244,9 +6938,7 @@ Taking the square root of both sides, we obtain the generalized uncertainty rela
 
 
 $$
-
 |\langle [\hat{A}, \hat{B}] \rangle| \leq \Delta A \Delta B
-
 $$
 
 
@@ -7256,9 +6948,7 @@ In the case of position and momentum, the commutator $[\hat{x}, \hat{p}] = i\hba
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -7302,9 +6992,7 @@ Another important application of the uncertainty principle is the energy-time un
 
 
 $$
-
 \Delta E \Delta t \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -7476,9 +7164,7 @@ A stationary state is described by a wave function that is an eigenfunction of t
 
 
 $$
-
 \hat{H}\psi = E\psi
-
 $$
 
 
@@ -7516,9 +7202,7 @@ In practice, the measurement of energy levels in quantum systems can be done usi
 
 
 $$
-
 \Delta E = h\nu
-
 $$
 
 
@@ -7576,9 +7260,7 @@ Boundary conditions in quantum mechanics often arise from the infinite potential
 
 
 $$
-
 \psi(0) = 0, \quad \psi(L) = 0
-
 $$
 
 
@@ -7588,9 +7270,7 @@ These conditions imply that the particle cannot exist outside the box, and the w
 
 
 $$
-
 \psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -7600,9 +7280,7 @@ where $n$ is a positive integer. These solutions represent the stationary states
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -7636,9 +7314,7 @@ The wave function for this system can be divided into three regions:
 
 
 $$
-
 \psi_I(x) = A e^{ikx} + B e^{-ikx}
-
 $$
 
 
@@ -7652,9 +7328,7 @@ where $k = \sqrt{2mE/\hbar^2}$, and $A$ and $B$ are coefficients to be determine
 
 
 $$
-
 \psi_{II}(x) = C e^{-\alpha x} + D e^{\alpha x}
-
 $$
 
 
@@ -7668,9 +7342,7 @@ where $\alpha = \sqrt{2m(V_0 - E)/\hbar^2}$, and $C$ and $D$ are coefficients to
 
 
 $$
-
 \psi_{III}(x) = F e^{ikx}
-
 $$
 
 
@@ -7736,9 +7408,7 @@ Let's consider a particle of mass $m$ moving along a circle of radius $r$. The H
 
 
 $$
-
 H = \frac{p^2}{2m}
-
 $$
 
 
@@ -7752,9 +7422,7 @@ The time-independent Schrödinger equation for this system is:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{d\theta^2} = E\psi
-
 $$
 
 
@@ -7780,9 +7448,7 @@ The Schrödinger equation for this system is:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{d\theta^2} = E\psi
-
 $$
 
 
@@ -7792,9 +7458,7 @@ This is a second-order differential equation, and its general solution is a line
 
 
 $$
-
 \psi(\theta) = A\cos(k\theta) + B\sin(k\theta)
-
 $$
 
 
@@ -7808,9 +7472,7 @@ However, because the particle is moving on a circle, the wave function must be p
 
 
 $$
-
 E_n = \frac{\hbar^2n^2}{2m}
-
 $$
 
 
@@ -7824,9 +7486,7 @@ The wave functions corresponding to these energy levels are:
 
 
 $$
-
 \psi_n(\theta) = A\cos(n\theta) + B\sin(n\theta)
-
 $$
 
 
@@ -7892,9 +7552,7 @@ The Schrödinger equation for a particle in an infinite square well is:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -7936,9 +7594,7 @@ The energy of the particle can be measured by observing the frequency of its wav
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -8012,9 +7668,7 @@ The Schrödinger equation for a particle in a finite square well is given by:
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -8064,9 +7718,7 @@ In regions I and III, the potential function $V(x) = 0$, so the Schrödinger equ
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi
-
 $$
 
 
@@ -8076,9 +7728,7 @@ The general solution to this equation is a combination of a right-moving wave an
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -8092,17 +7742,13 @@ However, since the particle cannot be found at infinity, the wave function must 
 
 
 $$
-
 \psi_I(x) = Ae^{ikx} \quad (x < -a)
-
 $$
 
 
 
 $$
-
 \psi_{III}(x) = Be^{-ikx} \quad (x > a)
-
 $$
 
 
@@ -8116,9 +7762,7 @@ In region II, the potential function $V(x) = -V_0$, so the Schrödinger equation
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} - V_0\psi = E\psi
-
 $$
 
 
@@ -8128,9 +7772,7 @@ The general solution to this equation is a combination of a growing exponential 
 
 
 $$
-
 \psi_{II}(x) = C\sinh(k'x) + D\cosh(k'x)
-
 $$
 
 
@@ -8206,9 +7848,7 @@ The basic idea behind semiclassical approximations is to treat the quantum mecha
 
 
 $$
-
 \psi(x) = A(x) e^{iS(x)/\hbar}
-
 $$
 
 
@@ -8246,7 +7886,6 @@ Consider a particle encountering a step potential, defined as:
 
 
 $$
-
 V(x) = 
 
 \begin{cases} 
@@ -8256,7 +7895,6 @@ V(x) =
 V_0 & \text{if } x > 0 
 
 \end{cases}
-
 $$
 
 
@@ -8274,7 +7912,6 @@ Next, consider a particle in a square well potential, defined as:
 
 
 $$
-
 V(x) = 
 
 \begin{cases} 
@@ -8284,7 +7921,6 @@ V(x) =
 V_0 & \text{if } |x| > a 
 
 \end{cases}
-
 $$
 
 
@@ -8362,9 +7998,7 @@ In the context of quantum mechanics, we often want to solve the time-independent
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -8462,7 +8096,6 @@ The delta function potential is given by $V(x) = -\alpha \delta(x)$, where $\alp
 
 
 $$
-
 \delta(x) = 
 
 \begin{cases} 
@@ -8472,7 +8105,6 @@ $$
 0, & \text{if } x \neq 0 
 
 \end{cases}
-
 $$
 
 
@@ -8486,9 +8118,7 @@ The Schrödinger equation for a particle in a delta function potential is given 
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} - \alpha \delta(x) \psi = E \psi
-
 $$
 
 
@@ -8530,9 +8160,7 @@ The transmission coefficient is given by:
 
 
 $$
-
 T = \left| \frac{1}{1 + \frac{m\alpha}{\hbar^2 k}} \right|^2
-
 $$
 
 
@@ -8542,9 +8170,7 @@ and the reflection coefficient is given by:
 
 
 $$
-
 R = \left| \frac{m\alpha}{\hbar^2 k + m\alpha} \right|^2
-
 $$
 
 
@@ -8566,9 +8192,7 @@ The bound state energy of the electron can be found by solving the Schrödinger 
 
 
 $$
-
 E = -\frac{m\alpha^2}{2\hbar^2}
-
 $$
 
 
@@ -8608,7 +8232,6 @@ Consider a particle of mass $m$ and energy $E$ approaching a delta function pote
 
 
 $$
-
 \psi(x) = 
 
 \begin{cases} 
@@ -8618,7 +8241,6 @@ Ae^{ikx} + Be^{-ikx} & \text{for } x < 0 \\
 Ce^{ikx} & \text{for } x > 0 
 
 \end{cases}
-
 $$
 
 
@@ -8632,9 +8254,7 @@ The coefficients $A$, $B$, and $C$ can be determined by applying the boundary co
 
 
 $$
-
 T = \left| \frac{1}{1 + \frac{i\hbar^2 k}{2m\alpha}} \right|^2
-
 $$
 
 
@@ -8656,9 +8276,7 @@ Consider a quantum system described by the Schrödinger equation:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + \alpha \delta(x) \psi = E \psi
-
 $$
 
 
@@ -8694,9 +8312,7 @@ The simple harmonic oscillator is described by the Schrödinger equation:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + \frac{1}{2} m \omega^2 x^2 \psi = E \psi
-
 $$
 
 
@@ -8714,9 +8330,7 @@ The solutions to the Schrödinger equation for the simple harmonic oscillator ar
 
 
 $$
-
 E_n = \hbar \omega \left( n + \frac{1}{2} \right)
-
 $$
 
 
@@ -8744,9 +8358,7 @@ The wave function of a simple harmonic oscillator is given by:
 
 
 $$
-
 \psi_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m \omega}{\pi \hbar} \right)^{1/4} e^{-\frac{m \omega x^2}{2 \hbar}} H_n \left( \sqrt{\frac{m \omega}{\hbar}} x \right)
-
 $$
 
 
@@ -8768,9 +8380,7 @@ The uncertainty in the position $\Delta x$ and the momentum $\Delta p$ satisfy t
 
 
 $$
-
 \Delta x \Delta p \geq \frac{\hbar}{2}
-
 $$
 
 
@@ -8858,17 +8468,13 @@ For a one-dimensional potential barrier, the reflection and transmission coeffic
 
 
 $$
-
 R = \left| \frac{B}{A} \right|^2
-
 $$
 
 
 
 $$
-
 T = \left| \frac{C}{A} \right|^2
-
 $$
 
 
@@ -8882,9 +8488,7 @@ It is important to note that due to the conservation of probability, the sum of 
 
 
 $$
-
 R + T = 1
-
 $$
 
 
@@ -8906,9 +8510,7 @@ In order to calculate the reflection and transmission coefficients, we need to s
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -8926,9 +8528,7 @@ The solutions to the Schrödinger equation in these regions are plane waves of t
 
 
 $$
-
 \psi(x) = Ae^{ikx} + Be^{-ikx}
-
 $$
 
 
@@ -8946,17 +8546,13 @@ Once we have the amplitudes, we can calculate the reflection and transmission co
 
 
 $$
-
 R = \left| \frac{B}{A} \right|^2
-
 $$
 
 
 
 $$
-
 T = \left| \frac{C}{A} \right|^2
-
 $$
 
 
@@ -9094,9 +8690,7 @@ The phase shift is a crucial concept in understanding 1D scattering. It is a mea
 
 
 $$
-
 \delta = arg \left( \frac{f_{+}(k)}{f_{-}(k)} \right)
-
 $$
 
 
@@ -9126,9 +8720,7 @@ Observing 1D scattering and phase shifts involves the use of mathematical method
 
 
 $$
-
 -\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} + V(x) \psi = E \psi
-
 $$
 
 
@@ -9150,9 +8742,7 @@ The reflection coefficient $R$ and the transmission coefficient $T$ can be calcu
 
 
 $$
-
 R = |r|^2, \quad T = |t|^2
-
 $$
 
 
@@ -9162,9 +8752,7 @@ where $r$ and $t$ are the elements of the S-matrix. The phase shift $\delta$ can
 
 
 $$
-
 \delta = arg \left( \frac{1}{r} \right)
-
 $$
 
 
@@ -9246,9 +8834,7 @@ Levinson's theorem states that the total phase shift $\delta(k)$, as a function 
 
 
 $$
-
 \delta(0) = N\pi
-
 $$
 
 
@@ -9282,9 +8868,7 @@ Let's consider a one-dimensional quantum system with a potential $V(x)$ that ten
 
 
 $$
-
 -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
-
 $$
 
 
@@ -9298,9 +8882,7 @@ The scattering states of this system are solutions of the Schrödinger equation 
 
 
 $$
-
 \psi_k(x) = e^{ikx} + f(k)e^{-ikx}
-
 $$
 
 
@@ -9314,9 +8896,7 @@ The bound states of the system are solutions of the Schrödinger equation with n
 
 
 $$
-
 \psi_n(x) = A_n e^{-\kappa_n x}
-
 $$
 
 
@@ -9522,9 +9102,7 @@ The Breit-Wigner distribution, also known as the Lorentzian distribution, is a p
 
 
 $$
-
 f(E) = \frac{1}{\pi} \frac{\Gamma/2}{(E - E_0)^2 + (\Gamma/2)^2}
-
 $$
 
 
@@ -9622,9 +9200,7 @@ The most common example of a central potential is the Coulomb potential, which d
 
 
 $$
-
 V(r) = -\frac{kZe^2}{r}
-
 $$
 
 
@@ -9658,9 +9234,7 @@ In the case of the hydrogen atom, for example, the energy levels are given by:
 
 
 $$
-
 E_n = -\frac{kZ^2e^4}{2n^2h^2}
-
 $$
 
 
@@ -9702,9 +9276,7 @@ The central potential in a quantum dot is typically a three-dimensional harmonic
 
 
 $$
-
 E_{n,l,m} = \hbar \omega (n + \frac{3}{2}) + \frac{l(l+1)\hbar^2}{2mr^2}
-
 $$
 
 
@@ -9730,9 +9302,7 @@ The energy levels of a quantum well are given by:
 
 
 $$
-
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-
 $$
 
 
@@ -9766,25 +9336,19 @@ The algebra of angular momentum is based on the commutation relations of the ang
 
 
 $$
-
 [\hat{L}_x, \hat{L}_y] = i\hbar \hat{L}_z
-
 $$
 
 
 
 $$
-
 [\hat{L}_y, \hat{L}_z] = i\hbar \hat{L}_x
-
 $$
 
 
 
 $$
-
 [\hat{L}_z, \hat{L}_x] = i\hbar \hat{L}_y
-
 $$
 
 
@@ -9798,9 +9362,7 @@ The algebra of angular momentum also involves the total angular momentum operato
 
 
 $$
-
 \hat{L}^2 = \hat{L}_x^2 + \hat{L}_y^2 + \hat{L}_z^2
-
 $$
 
 
@@ -9814,17 +9376,13 @@ The eigenvalues of the angular momentum operators are quantized, which is a dire
 
 
 $$
-
 \hat{L}^2|l,m\rangle = \hbar^2 l(l+1)|l,m\rangle
-
 $$
 
 
 
 $$
-
 \hat{L}_z|l,m\rangle = \hbar m|l,m\rangle
-
 $$
 
 
@@ -9854,9 +9412,7 @@ Consider a quantum system with a state $|\psi\rangle$. The expectation value of 
 
 
 $$
-
 \langle\hat{L}_z\rangle = \langle\psi|\hat{L}_z|\psi\rangle
-
 $$
 
 
@@ -9866,9 +9422,7 @@ The uncertainty in the measurement of the angular momentum components can also b
 
 
 $$
-
 \Delta \hat{L}_x \Delta \hat{L}_y \geq \frac{1}{2}|\langle[\hat{L}_x, \hat{L}_y]\rangle|
-
 $$
 
 
@@ -9930,9 +9484,7 @@ The Legendre polynomials are solutions to Legendre's differential equation:
 
 
 $$
-
 (1 - x^2) \frac{d^2y}{dx^2} - 2x \frac{dy}{dx} + n(n + 1)y = 0
-
 $$
 
 
@@ -9986,9 +9538,7 @@ Let's consider the Schrödinger equation for a particle in a central potential:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \nabla^2 \psi + V(r) \psi = E \psi
-
 $$
 
 
@@ -9998,9 +9548,7 @@ where $\nabla^2$ is the Laplacian operator, $V(r)$ is the potential energy, $E$ 
 
 
 $$
-
 \nabla^2 = \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial}{\partial r} \right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial}{\partial \theta} \right) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2}{\partial \phi^2}
-
 $$
 
 
@@ -10014,9 +9562,7 @@ The solution to the angular part of the equation can be expressed in terms of th
 
 
 $$
-
 Y_{l}^{m}(\theta, \phi) = \sqrt{\frac{(2l+1)(l-m)!}{4\pi (l+m)!}} P_{l}^{m}(\cos \theta) e^{im\phi}
-
 $$
 
 
@@ -10070,9 +9616,7 @@ The Schrödinger equation for the hydrogen atom in spherical coordinates $(r, \t
 
 
 $$
-
 -\frac{\hbar^2}{2m}\left(\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial}{\partial \theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2}{\partial \phi^2}\right)\psi + V(r)\psi = E\psi
-
 $$
 
 
@@ -10086,9 +9630,7 @@ The potential energy function $V(r)$ for the hydrogen atom is given by the Coulo
 
 
 $$
-
 V(r) = -\frac{e^2}{4\pi\epsilon_0r}
-
 $$
 
 
@@ -10102,9 +9644,7 @@ The Schrödinger equation for the hydrogen atom is separable, and its solutions 
 
 
 $$
-
 \psi(r, \theta, \phi) = R(r)Y(\theta, \phi)
-
 $$
 
 
@@ -10114,9 +9654,7 @@ where $R(r)$ is the radial wavefunction and $Y(\theta, \phi)$ is the spherical h
 
 
 $$
-
 Y(\theta, \phi) = P_l^m(\cos\theta)e^{im\phi}
-
 $$
 
 
@@ -10130,9 +9668,7 @@ The radial wavefunction $R(r)$ can be expressed in terms of the Laguerre polynom
 
 
 $$
-
 E_n = -\frac{me^4}{2\hbar^2}\frac{1}{n^2}
-
 $$
 
 
@@ -10158,9 +9694,7 @@ The energy levels of the hydrogen atom are given by the formula:
 
 
 $$
-
 E_n = -\frac{m_e e^4}{2(4\pi\epsilon_0)^2\hbar^2}\frac{1}{n^2}
-
 $$
 
 
@@ -10174,9 +9708,7 @@ The spectral lines of the hydrogen atom are observed when the electron transitio
 
 
 $$
-
 \Delta E = E_f - E_i = h\nu
-
 $$
 
 
@@ -10190,9 +9722,7 @@ The spectral lines of the hydrogen atom form the Balmer series, the Lyman series
 
 
 $$
-
 \frac{1}{\lambda} = R_H\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)
-
 $$
 
 
@@ -10262,9 +9792,7 @@ For example, in the case of the hydrogen atom, the energy levels are given by th
 
 
 $$
-
 E_n = -\frac{13.6 \, \text{eV}}{n^2}
-
 $$
 
 
@@ -10278,9 +9806,7 @@ Transitions between energy levels correspond to the absorption or emission of a 
 
 
 $$
-
 \Delta E = E_f - E_i = h\nu
-
 $$
 
 
@@ -10390,9 +9916,7 @@ The Virial Theorem is derived from the equation of motion of a system of particl
 
 
 $$
-
 T = \frac{1}{2} \sum_{i=1}^{N} m_i \vec{v}_i^2
-
 $$
 
 
@@ -10402,9 +9926,7 @@ and
 
 
 $$
-
 V = \frac{1}{2} \sum_{i=1}^{N} \sum_{j \neq i}^{N} \frac{G m_i m_j}{|\vec{r}_i - \vec{r}_j|}
-
 $$
 
 
@@ -10418,9 +9940,7 @@ The Virial Theorem states that, for a stable, bound system that is in equilibriu
 
 
 $$
-
 2 \langle T \rangle + \langle V \rangle = 0
-
 $$
 
 
@@ -10446,9 +9966,7 @@ To prove the Virial Theorem, we start with the equation of motion for the $i$-th
 
 
 $$
-
 m_i \vec{a}_i = - \nabla_i V
-
 $$
 
 
@@ -10462,9 +9980,7 @@ Multiplying both sides by $\vec{r}_i$, we get:
 
 
 $$
-
 m_i \vec{r}_i \cdot \vec{a}_i = - \vec{r}_i \cdot \nabla_i V
-
 $$
 
 
@@ -10478,9 +9994,7 @@ Summing over all particles, we get:
 
 
 $$
-
 2 \frac{d}{dt} \left( \sum_{i=1}^{N} \frac{1}{2} m_i \vec{v}_i^2 \right) = - \frac{d}{dt} \left( \sum_{i=1}^{N} \sum_{j \neq i}^{N} \frac{G m_i m_j}{|\vec{r}_i - \vec{r}_j|} \right)
-
 $$
 
 
@@ -10490,9 +10004,7 @@ which simplifies to:
 
 
 $$
-
 2 \frac{dT}{dt} = - \frac{dV}{dt}
-
 $$
 
 
@@ -10502,9 +10014,7 @@ Integrating both sides over time, we get:
 
 
 $$
-
 2 \langle T \rangle = - \langle V \rangle
-
 $$
 
 
@@ -10534,9 +10044,7 @@ The Virial Theorem is a fundamental tool in the study of stellar dynamics. It al
 
 
 $$
-
 2 \langle T \rangle = - \langle V \rangle
-
 $$
 
 
@@ -10554,9 +10062,7 @@ In quantum mechanics, the Virial Theorem provides a relationship between the exp
 
 
 $$
-
 2 \langle \hat{T} \rangle = - \langle \hat{r} \cdot \nabla \hat{V} \rangle
-
 $$
 
 
@@ -10598,9 +10104,7 @@ Mathematically, the condition for a circular orbit in a central potential $V(r)$
 
 
 $$
-
 \frac{dV}{dr} = 0
-
 $$
 
 
@@ -10614,9 +10118,7 @@ The eccentricity of an orbit, denoted by $e$, is a measure of how much the orbit
 
 
 $$
-
 e = \sqrt{1 + \frac{2EL^2}{m^3k^2}}
-
 $$
 
 
@@ -10650,9 +10152,7 @@ For a particle in a circular orbit, the conservation of angular momentum can be 
 
 
 $$
-
 L = mvr
-
 $$
 
 
@@ -10666,9 +10166,7 @@ The conservation of energy for a particle in a circular orbit can be expressed a
 
 
 $$
-
 E = \frac{1}{2}mv^2 - \frac{k}{r}
-
 $$
 
 
@@ -10682,9 +10180,7 @@ By combining these two equations, we can derive an expression for the eccentrici
 
 
 $$
-
 e = \sqrt{1 + \frac{2EL^2}{m^3k^2}}
-
 $$
 
 
@@ -10722,9 +10218,7 @@ The equations derived in the previous section can be used to calculate the veloc
 
 
 $$
-
 v = \sqrt{\frac{k}{r}}
-
 $$
 
 
@@ -10910,9 +10404,7 @@ The Pauli matrices, denoted by $\sigma_x$, $\sigma_y$, and $\sigma_z$, are used 
 
 
 $$
-
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-
 $$
 
 

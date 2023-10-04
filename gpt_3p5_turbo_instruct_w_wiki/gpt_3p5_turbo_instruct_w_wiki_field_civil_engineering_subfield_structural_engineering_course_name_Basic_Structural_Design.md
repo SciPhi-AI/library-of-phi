@@ -963,7 +963,6 @@ The weak form of the Kirchhoff plate is given by:
 
 
 $$
-
 &+ \int_{\Omega} N_{11}\frac{\partial\delta v_1}{\partial x_1} + N_{12}\frac{\partial\delta v_1}{\partial x_2}\,d\Omega = -\int_{\Omega} p_1 \delta v_1 \,d\Omega \\
 
 &+ \int_{\Omega} N_{22}\frac{\partial\delta v_2}{\partial x_2} + N_{12}\frac{\partial\delta v_2}{\partial x_1}\,d\Omega = -\int_{\Omega} p_2 \delta v_2 \,d\Omega \\
@@ -973,7 +972,6 @@ $$
 &+ \int_{\Omega} N_{22}\frac{\partial w}{\partial x_2}\frac{\partial\delta w}{\partial x_2} - M_{22}\frac{\partial^2 \delta w}{\partial^2 x_2} \,d\Omega\\
 
 &+ \int_{\Omega} N_{12}\left(\frac{\partial \delta w}{\partial x_1}\frac{\partial\delta w}{\partial x_2} + \frac{\partial w}{\partial x_1}\frac{\partial\delta w}{\partial x_2}\right) - 2M_{12}\frac{\partial^2 \delta w}{\partial x_1\partial x_2} \,d\Omega = -\int_{\Omega} p_3 \delta w \,d\Omega
-
 $$
 
 
@@ -983,7 +981,6 @@ The resulting governing equations are:
 
 
 $$
-
 \begin{bmatrix}
 
 K_{11} & K_{12} & K_{13} \\
@@ -1015,7 +1012,6 @@ F_2 \\
 F_3
 
 \end{bmatrix}
-
 $$
 
 
@@ -1033,7 +1029,6 @@ The Föppl–von Kármán equations are typically derived with an energy approac
 
 
 $$
-
 \begin{align}
 
 N_{11} &= \frac{\partial}{\partial x_1}\left(\frac{\partial w}{\partial x_1} - \frac{\partial v_1}{\partial x_2}\right) + \frac{\partial}{\partial x_2}\left(\frac{\partial w}{\partial x_2} + \frac{\partial v_2}{\partial x_1}\right) \\
@@ -1049,7 +1044,6 @@ M_{22} &= \frac{\partial^2 w}{\partial x_2^2} \\
 M_{12} &= \frac{\partial^2 w}{\partial x_1 \partial x_2}
 
 \end{align}
-
 $$
 
 
@@ -1071,9 +1065,7 @@ At equilibrium, at a specified temperature and pressure, and with no external fo
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S = 0
-
 $$
 
 
@@ -1083,9 +1075,7 @@ where $\Delta H$ is the change in enthalpy, $T$ is the temperature, and $\Delta 
 
 
 $$
-
 \Delta G = \Delta G^{\ominus} + RT\ln Q
-
 $$
 
 
@@ -1877,7 +1867,6 @@ Next, we can apply the force balance in the x and y directions at each joint to 
 
 
 $$\sum F_x = 0: F_{AB} \cos 45^\circ - F_{AC} = 0$$
-
 $$\sum F_y = 0: F_{AB} \sin 45^\circ + R_A - F_{AD} = 0$$
 
 
@@ -1885,9 +1874,7 @@ $$\sum F_y = 0: F_{AB} \sin 45^\circ + R_A - F_{AD} = 0$$
 Solving these equations, we get:
 
 
-
 $$F_{AB} = \frac{F_{AC}}{\cos 45^\circ}$$
-
 $$R_A = F_{AD} - F_{AB} \sin 45^\circ$$
 
 
@@ -1895,9 +1882,7 @@ $$R_A = F_{AD} - F_{AB} \sin 45^\circ$$
 Similarly, we can apply the force balance at joints D and C to find the forces in the remaining truss elements. Once we have all the forces, it is good practice to verify the results by completing the remaining force balances. At joint B, we have:
 
 
-
 $$\sum F_y = 0: R_B - F_{BC} = 0$$
-
 
 
 #### Method of Sections
@@ -1923,21 +1908,15 @@ Consider the same truss structure as before. This time, we will use the method o
 To begin, we will draw a cutting line through the members AB, BD, and CD. This will give us 3 equations to solve for the 3 unknown forces. Applying the force balance in the x and y directions and the moment balance, we get:
 
 
-
 $$\sum F_x = 0: F_{AB} \cos 45^\circ - F_{BD} \cos 45^\circ = 0$$
-
 $$\sum F_y = 0: F_{AB} \sin 45^\circ + F_{BD} \sin 45^\circ - F_{CD} = 0$$
-
 $$\sum M = 0: F_{AB} \sin 45^\circ \cdot \frac{3}{2} - F_{BD} \sin 45^\circ \cdot \frac{1}{2} = 0$$
-
 
 
 Solving these equations, we get:
 
 
-
 $$F_{AB} = F_{BD}$$
-
 $$F_{CD} = F_{AB} \sin 45^\circ + F_{BD} \sin 45^\circ$$
 
 
@@ -3091,13 +3070,11 @@ To begin, let us consider a discrete system such as trusses, beams, or frames wi
 We can start by applying "N" virtual nodal forces <math>\mathbf{R}^*_{N \times 1}</math>, one for each desired displacement, and find the virtual member forces <math>\mathbf{Q}^*_{M \times 1}</math> that are in equilibrium with <math>\mathbf{R}^*_{N \times 1}</math>:
 
 
-
 $$
 
 \mathbf{Q}^*_{M \times 1} = \mathbf{B}_{M \times N} \mathbf{R}^*_{N \times 1}
 
 $$
-
 
 
 In the case of a statically indeterminate system, the matrix <math>\mathbf{B}</math> is not unique because the set of <math>\mathbf{Q}^*_{M \times 1}</math> that satisfies nodal equilibrium is infinite. However, it can be computed as the inverse of the nodal equilibrium matrix of any primary system derived from the original system.
@@ -3107,7 +3084,6 @@ In the case of a statically indeterminate system, the matrix <math>\mathbf{B}</m
 Now, imagine that the internal and external virtual forces undergo the real deformations and displacements, respectively. The virtual work done can be expressed as:
 
 
-
 $$
 
 \mathbf{R}^{*T} \mathbf{r} = \mathbf{Q}^{*T} \mathbf{q}
@@ -3115,9 +3091,7 @@ $$
 $$
 
 
-
 According to the virtual work principle, these two work expressions are equal. Substituting the equation for <math>\mathbf{Q}^*_{M \times 1}</math> gives:
-
 
 
 $$
@@ -3127,9 +3101,7 @@ $$
 $$
 
 
-
 Since <math>\mathbf{R}^{*}</math> contains arbitrary virtual forces, the above equation gives:
-
 
 
 $$
@@ -3137,7 +3109,6 @@ $$
 \mathbf{r} = \mathbf{B}^{T} \mathbf{q}
 
 $$
-
 
 
 This equation represents the compatibility of deformations, which can be used to solve for the nodal displacements <math>\mathbf{r}</math>. Once we have these displacements, we can use the equilibrium equations to solve for the unknown reactions and internal forces.
@@ -4701,13 +4672,11 @@ In conclusion, the analysis of indeterminate beams and frames is a crucial aspec
 Consider the indeterminate beam shown below. Use the slope-deflection method to determine the reactions at supports A and B.
 
 
-
 $$
 
 \Delta w = \frac{5}{384EI}(L^4 - 12L^2x^2 + 4x^4)
 
 $$
-
 
 
 #### Exercise 2
@@ -4721,13 +4690,11 @@ A three-span continuous beam is subjected to a uniformly distributed load of 10 
 Construct the influence line for the reaction at support B for the indeterminate beam shown below.
 
 
-
 $$
 
 \Delta w = \frac{5}{384EI}(L^4 - 12L^2x^2 + 4x^4)
 
 $$
-
 
 
 #### Exercise 4
@@ -4865,13 +4832,11 @@ Buckling is a phenomenon that occurs in structural design when a slender member,
 The buckling phenomenon was first studied by Euler in the 18th century, who developed the famous Euler's buckling formula. This formula relates the critical buckling load of a column to its length, cross-sectional area, and material properties. It is given by:
 
 
-
 $$
 
 P_{cr} = \frac{\pi^2 EI}{(KL)^2}
 
 $$
-
 
 
 Where $P_{cr}$ is the critical buckling load, $E$ is the modulus of elasticity, $I$ is the moment of inertia, $K$ is the effective length factor, and $L$ is the length of the column.
@@ -4961,7 +4926,6 @@ In conclusion, the study of indeterminate frames is a crucial aspect of structur
 #### Exercise 1
 
 Consider the indeterminate frame shown below. Use the slope-deflection method to determine the reactions at supports A and B.
-
 
 
 $$

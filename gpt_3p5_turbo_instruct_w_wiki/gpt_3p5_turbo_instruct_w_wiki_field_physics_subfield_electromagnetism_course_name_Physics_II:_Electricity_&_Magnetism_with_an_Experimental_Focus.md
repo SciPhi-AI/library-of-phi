@@ -829,7 +829,6 @@ The electrostatic potential energy of a system of three charges is given by the 
 $$U_\mathrm{E} = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} + \frac{Q_1 Q_3}{r_{13}} + \frac{Q_2 Q_3}{r_{23}} \right]$$
 
 
-
 where $r_{ij}$ is the distance between charge $Q_i$ and $Q_j$.
 
 
@@ -841,9 +840,7 @@ This equation can be derived by considering the potential energy of each individ
 The energy stored in an electrostatic field distribution in vacuum is given by the energy density equation:
 
 
-
 $$u_e = \frac{dU}{dV} = \frac{1}{2} \varepsilon_0 \left|{\mathbf{E}}\right|^2$$
-
 
 
 where $\mathbf{E}$ is the electric field.
@@ -887,9 +884,7 @@ In this section, we will explore the fundamental principles of electricity and m
 Coulomb's law is a fundamental principle in electricity and magnetism that describes the force between two charged particles. It states that the force between two point charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. This can be expressed mathematically as:
 
 
-
 $$F = k \frac{q_1 q_2}{r^2}$$
-
 
 
 where $F$ is the force between the two charges, $q_1$ and $q_2$ are the charges of the particles, $r$ is the distance between them, and $k$ is the proportionality constant.
@@ -941,9 +936,7 @@ In this section, we will explore the fundamental principles of electricity and m
 The electric field is a fundamental concept in electricity and magnetism that describes the force experienced by a charged particle in the presence of other charged particles. It is defined as the force per unit charge at a given point in space. Mathematically, it can be expressed as:
 
 
-
 $$\mathbf{E} = \frac{\mathbf{F}}{q}$$
-
 
 
 where $\mathbf{E}$ is the electric field, $\mathbf{F}$ is the force experienced by the charged particle, and $q$ is the charge of the particle.
@@ -957,9 +950,7 @@ The electric field is a vector quantity, meaning it has both magnitude and direc
 One of the fundamental laws governing the behavior of electric fields is Coulomb's law, which states that the force between two charged particles is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. This can be expressed mathematically as:
 
 
-
 $$F = k \frac{q_1 q_2}{r^2}$$
-
 
 
 where $F$ is the force between the two charges, $q_1$ and $q_2$ are the charges of the particles, $r$ is the distance between them, and $k$ is the proportionality constant.
@@ -1007,9 +998,7 @@ In the previous subsection, we discussed the concept of electric field and its r
 The electric field is a fundamental concept in electricity and magnetism that describes the force experienced by a charged particle in the presence of other charged particles. It is defined as the force per unit charge at a given point in space. Mathematically, it can be expressed as:
 
 
-
 $$\mathbf{E} = \frac{\mathbf{F}}{q}$$
-
 
 
 where $\mathbf{E}$ is the electric field, $\mathbf{F}$ is the force experienced by the charged particle, and $q$ is the charge of the particle.
@@ -1023,9 +1012,7 @@ The electric field is a vector quantity, meaning it has both magnitude and direc
 One of the fundamental laws governing the behavior of electric fields is Coulomb's law, which states that the force between two charged particles is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. This can be expressed mathematically as:
 
 
-
 $$F = k \frac{q_1 q_2}{r^2}$$
-
 
 
 where $F$ is the force between the two charges, $q_1$ and $q_2$ are the charges of the particles, $r$ is the distance between them, and $k$ is the proportionality constant.
@@ -1077,9 +1064,7 @@ In the previous subsection, we discussed the concept of electric field and its r
 Gauss’ Law is a powerful tool for understanding the behavior of electric fields. It states that the electric flux through a closed surface is equal to the charge enclosed by that surface divided by the permittivity of free space. Mathematically, it can be expressed as:
 
 
-
 $$\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{enc}}{\epsilon_0}$$
-
 
 
 where $\mathbf{E}$ is the electric field, $d\mathbf{A}$ is an infinitesimal element of area on the closed surface, $Q_{enc}$ is the charge enclosed by the surface, and $\epsilon_0$ is the permittivity of free space.
@@ -1135,9 +1120,7 @@ In the previous subsection, we discussed Gauss' Law and its applications in calc
 Electric fields are created by charged particles and can exert a force on other charged particles within their vicinity. This force can do work on the charged particles, causing them to move and gain or lose energy. The work done by an electric field on a charged particle is given by the equation:
 
 
-
 $$W = q\Delta V$$
-
 
 
 where $W$ is the work done, $q$ is the charge of the particle, and $\Delta V$ is the change in potential energy.
@@ -1147,9 +1130,7 @@ where $W$ is the work done, $q$ is the charge of the particle, and $\Delta V$ is
 The potential energy of a charged particle in an electric field is given by:
 
 
-
 $$U = q\Phi$$
-
 
 
 where $U$ is the potential energy, $q$ is the charge of the particle, and $\Phi$ is the electric potential.
@@ -1159,9 +1140,7 @@ where $U$ is the potential energy, $q$ is the charge of the particle, and $\Phi$
 The electric potential is a measure of the electric potential energy per unit charge at a given point in an electric field. It is defined as the work done per unit charge in bringing a test charge from infinity to that point. Mathematically, it can be expressed as:
 
 
-
 $$\Phi = \frac{W}{q}$$
-
 
 
 The unit of electric potential is volts (V), which is equivalent to joules per coulomb (J/C).
@@ -1171,9 +1150,7 @@ The unit of electric potential is volts (V), which is equivalent to joules per c
 The electric potential energy stored in a system of three charges can be calculated using the equation:
 
 
-
 $$U_\mathrm{E} = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Q_1 Q_2}{r_{12}} + \frac{Q_1 Q_3}{r_{13}} + \frac{Q_2 Q_3}{r_{23}} \right]$$
-
 
 
 where $Q_1$, $Q_2$, and $Q_3$ are the charges of the three particles and $r_{ij}$ is the distance between charges $Q_i$ and $Q_j$.
@@ -1183,9 +1160,7 @@ where $Q_1$, $Q_2$, and $Q_3$ are the charges of the three particles and $r_{ij}
 In a continuous charge distribution, the energy density, or energy per unit volume, of the electric field can be calculated using the equation:
 
 
-
 $$u_e = \frac{dU}{dV} = \frac{1}{2} \varepsilon_0 \left|{\mathbf{E}}\right|^2$$
-
 
 
 where $u_e$ is the energy density, $\varepsilon_0$ is the permittivity of free space, and $\mathbf{E}$ is the electric field.
@@ -1545,17 +1520,13 @@ While each type of capacitor has its own specific applications, there is also an
 Capacitive sensing is a technique used to measure capacitance indirectly. It involves using the capacitance to control the frequency of an oscillator or to vary the level of coupling or attenuation of an AC signal. This is done by charging the unknown capacitance with a known current and using the current-voltage relation to determine the capacitance.
 
 
-
 $$I(t) = C\frac{\mathrm{d}V(t)}{\mathrm{d}t}$$
-
 
 
 The capacitance can then be calculated by dividing the instantaneous current by the rate of change of voltage across the capacitor.
 
 
-
 $$C = \frac{I(t)}{\frac{\mathrm{d}V(t)}{\mathrm{d}t}}$$
-
 
 
 #### Conclusion
@@ -1687,13 +1658,11 @@ Electric current is the flow of electric charge through a conductor. It is measu
 Ohm's Law is a fundamental law in electricity and states that the current through a conductor between two points is directly proportional to the voltage across the two points, and inversely proportional to the resistance between them. It can be represented by the equation:
 
 
-
 $$
 
 I = \frac{V}{R}
 
 $$
-
 
 
 Where:
@@ -1717,7 +1686,6 @@ This means that for a given voltage, the current will increase as the resistance
 Let's apply Ohm's Law to a simple electric circuit consisting of two voltage sources and three resistors. According to Kirchhoff's first law, the sum of the currents entering a junction must equal the sum of the currents leaving the junction. This can be represented by the equation:
 
 
-
 $$
 
 i_1 - i_2 - i_3 = 0
@@ -1725,9 +1693,7 @@ i_1 - i_2 - i_3 = 0
 $$
 
 
-
 Applying Kirchhoff's second law to the closed circuit and substituting for voltage using Ohm's Law gives:
-
 
 
 $$
@@ -1737,9 +1703,7 @@ $$
 $$
 
 
-
 And applying Kirchhoff's second law again to the closed circuit gives:
-
 
 
 $$
@@ -1749,9 +1713,7 @@ $$
 $$
 
 
-
 This yields a system of linear equations in i1, i2, and i3:
-
 
 
 $$
@@ -1767,9 +1729,7 @@ R_1 i_1 + R_2 i_2 + 0 i_3 = \mathcal{E}_1 \\
 $$
 
 
-
 Assuming R1 = 100Ω, R2 = 200Ω, R3 = 300Ω, E1 = 10V, and E2 = 20V, the solution is:
-
 
 
 $$
@@ -1779,7 +1739,6 @@ i_1 = \frac{1}{1100} \text{A} \\[6pt]
 i_2 = \frac{4}{275} \text{A}
 
 $$
-
 
 
 The negative sign in the current values indicates that the assumed direction of current flow was incorrect and is actually flowing in the opposite direction. This example demonstrates the application of Ohm's Law in solving simple electric circuits.
@@ -1793,7 +1752,6 @@ The negative sign in the current values indicates that the assumed direction of 
 From Kirchhoff's circuit laws, we can derive the rules for combining conductance. For two conductances G1 and G2 in parallel, the total current is the sum of the individual currents:
 
 
-
 $$
 
 I_{eq} = I_1 + I_2
@@ -1801,9 +1759,7 @@ I_{eq} = I_1 + I_2
 $$
 
 
-
 Substituting Ohm's Law for conductances gives:
-
 
 
 $$
@@ -1813,9 +1769,7 @@ G_{eq} V = G_1 V + G_2 V
 $$
 
 
-
 And the equivalent conductance will be:
-
 
 
 $$
@@ -1825,9 +1779,7 @@ G_{eq} = G_1 + G_2
 $$
 
 
-
 For two conductances G1 and G2 in series, the total current is the same through both conductances:
-
 
 
 $$
@@ -1837,9 +1789,7 @@ I_{eq} = I_1 = I_2
 $$
 
 
-
 And the equivalent conductance will be:
-
 
 
 $$
@@ -1847,7 +1797,6 @@ $$
 G_{eq} = \frac{1}{\frac{1}{G_1} + \frac{1}{G_2}}
 
 $$
-
 
 
 These rules are essential in analyzing and designing complex electric circuits.
@@ -1903,7 +1852,6 @@ There are two main types of electric circuits: series and parallel. In a series 
 In the previous section, we briefly mentioned Kirchhoff's laws, which are essential principles in circuit analysis. Kirchhoff's first law, also known as the junction rule, states that the sum of the currents entering a junction must equal the sum of the currents leaving the junction. This can be represented by the equation:
 
 
-
 $$
 
 \sum_{i=1}^{n} i_i = 0
@@ -1911,9 +1859,7 @@ $$
 $$
 
 
-
 Kirchhoff's second law, also known as the loop rule, states that the sum of the voltage drops around a closed loop must equal the sum of the voltage rises. This can be represented by the equation:
-
 
 
 $$
@@ -1923,13 +1869,11 @@ $$
 $$
 
 
-
 #### Example
 
 
 
 Let's apply Kirchhoff's laws to a simple series circuit consisting of a battery, a resistor, and a capacitor. According to Kirchhoff's first law, the current entering the junction must equal the current leaving the junction. This can be represented by the equation:
-
 
 
 $$
@@ -1939,9 +1883,7 @@ i_1 - i_2 = 0
 $$
 
 
-
 Applying Kirchhoff's second law to the closed loop and substituting for voltage using Ohm's Law gives:
-
 
 
 $$
@@ -1951,9 +1893,7 @@ R i_1 + \frac{1}{C} \int i_2 dt - \mathcal{E} = 0
 $$
 
 
-
 And applying Kirchhoff's second law again to the closed loop gives:
-
 
 
 $$
@@ -1961,7 +1901,6 @@ $$
 R i_1 + \frac{1}{C} \int i_1 dt = 0
 
 $$
-
 
 
 Solving these equations simultaneously will give us the current and voltage across each component in the circuit. This example demonstrates the practical application of Kirchhoff's laws in analyzing electric circuits.
@@ -2091,21 +2030,17 @@ On the other hand, when the voltage is removed, the capacitor discharges, and th
 The behavior of RC circuits can be described using the equations for voltage and current in a capacitor:
 
 
-
 $$
 
 V_C = \frac{Q}{C}
 
 $$
 
-
-
 $$
 
 I_C = C\frac{dV_C}{dt}
 
 $$
-
 
 
 where $V_C$ is the voltage across the capacitor, $Q$ is the charge on the capacitor, $C$ is the capacitance, and $I_C$ is the current through the capacitor.
@@ -2115,13 +2050,11 @@ where $V_C$ is the voltage across the capacitor, $Q$ is the charge on the capaci
 The time constant, $\tau$, of an RC circuit is a measure of how quickly the capacitor charges or discharges. It is given by the equation:
 
 
-
 $$
 
 \tau = RC
 
 $$
-
 
 
 where $R$ is the resistance in the circuit and $C$ is the capacitance. A larger time constant means that the capacitor takes longer to charge or discharge, while a smaller time constant means that the capacitor charges or discharges more quickly.
@@ -2203,7 +2136,6 @@ The Lorentz force is a fundamental concept in electromagnetism that describes th
 The force experienced by a charged particle with charge q and velocity v in an electric field E and magnetic field B is given by the following equation:
 
 
-
 $$
 
 \mathbf{F} = q\left[-\nabla \phi- \frac{\partial \mathbf{A}}{\partial t}+\mathbf{v}\times(\nabla\times\mathbf{A})\right]
@@ -2211,9 +2143,7 @@ $$
 $$
 
 
-
 where $\nabla$ is the gradient, $\phi$ is the electrostatic potential, and $\mathbf{A}$ is the magnetic vector potential. This equation can be rewritten using an identity for the triple product, giving us:
-
 
 
 $$
@@ -2223,13 +2153,11 @@ $$
 $$
 
 
-
 It is important to note that the coordinates and velocity components should be treated as independent variables, so the del operator only acts on $\mathbf{A}$ and not on $\mathbf{v}$. This means that there is no need to use Feynman's subscript notation in the equation above. 
 
 
 
 Using the chain rule, we can express the total derivative of $\mathbf{A}$ as:
-
 
 
 $$
@@ -2239,9 +2167,7 @@ $$
 $$
 
 
-
 Substituting this into the previous equation, we get:
-
 
 
 $$
@@ -2251,9 +2177,7 @@ $$
 $$
 
 
-
 This equation can be put into the convenient Euler-Lagrange form by defining the operators $\nabla_{\mathbf{x}}$ and $\nabla_{\dot{\mathbf{x}}}$ as:
-
 
 
 $$
@@ -2262,14 +2186,11 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla_{\dot{\mathbf{x}}} = \hat{x} \dfrac{\partial}{\partial \dot{x}} + \hat{y} \dfrac{\partial}{\partial \dot{y}} + \hat{z} \dfrac{\partial}{\partial \dot{z}}
 
 $$
-
 
 
 ## Lorentz Force and Faraday's Law
@@ -2321,13 +2242,11 @@ Magnetic fields are produced by moving charges, such as electrons in a current-c
 The Biot-Savart law is a fundamental law in electromagnetism that describes the magnetic field produced by a current-carrying wire. It states that the magnetic field at a point in space is directly proportional to the current in the wire and inversely proportional to the distance from the wire. The law can be written as:
 
 
-
 $$
 
 \mathbf{B} = \frac{\mu_0}{4\pi}\int_C \frac{I\mathrm{d}\mathbf{l}\times\mathbf{r}}{r^3}
 
 $$
-
 
 
 where $\mathbf{B}$ is the magnetic field, $\mu_0$ is the permeability of free space, $I$ is the current in the wire, $\mathrm{d}\mathbf{l}$ is an infinitesimal element of the wire, $\mathbf{r}$ is the distance from the element to the point in space, and $r$ is the magnitude of $\mathbf{r}$.
@@ -2337,13 +2256,11 @@ where $\mathbf{B}$ is the magnetic field, $\mu_0$ is the permeability of free sp
 The Biot-Savart law can also be written in vector form as:
 
 
-
 $$
 
 \mathbf{B} = \frac{\mu_0}{4\pi}\int_C \frac{I\mathrm{d}\mathbf{l}\times\mathbf{r}}{r^3} = \frac{\mu_0}{4\pi}\int_C \frac{I\mathrm{d}\mathbf{l}\times\mathbf{r}}{r^3} = \frac{\mu_0}{4\pi}\int_C \frac{I\mathrm{d}\mathbf{l}\times\mathbf{r}}{r^3}
 
 $$
-
 
 
 where $\mathbf{r}$ is the position vector from the element to the point in space.
@@ -2379,13 +2296,11 @@ In the previous section, we discussed the Biot-Savart law, which describes the m
 Ampere's Law states that the line integral of the magnetic field around a closed loop is equal to the permeability of free space times the current passing through the loop. This can be written as:
 
 
-
 $$
 
 \oint_C \mathbf{B} \cdot \mathrm{d}\mathbf{l} = \mu_0 I_{enc}
 
 $$
-
 
 
 where $\mathbf{B}$ is the magnetic field, $\mathrm{d}\mathbf{l}$ is an infinitesimal element of the loop, and $I_{enc}$ is the current enclosed by the loop.
@@ -2403,13 +2318,11 @@ This law is similar to Gauss's Law for electric fields, which relates the electr
 To derive Ampere's Law, we start with the generalized form of Ohm's Law:
 
 
-
 $$
 
 \mathbf{J} = \sigma (\mathbf{E} + \mathbf{v} \times \mathbf{B})
 
 $$
-
 
 
 where $\mathbf{J}$ is the current density, $\sigma$ is the conductivity, $\mathbf{E}$ is the electric field, $\mathbf{v}$ is the velocity of the charges, and $\mathbf{B}$ is the magnetic field.
@@ -2419,14 +2332,11 @@ where $\mathbf{J}$ is the current density, $\sigma$ is the conductivity, $\mathb
 We can then use the curl equations for small displacement currents to simplify this equation:
 
 
-
 $$
 
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \epsilon_0 \mu_0 \frac{\partial \mathbf{E}}{\partial t} \approx \mu_0 \mathbf{J}
 
 $$
-
-
 
 $$
 
@@ -2435,9 +2345,7 @@ $$
 $$
 
 
-
 Substituting $\mathbf{J}$ into the Ampere-Maxwell law, we get:
-
 
 
 $$
@@ -2447,9 +2355,7 @@ $$
 $$
 
 
-
 Taking the curl of this equation and substituting it into Faraday's law, we get:
-
 
 
 $$
@@ -2459,9 +2365,7 @@ $$
 $$
 
 
-
 Using the identity $\varepsilon_{kij} \varepsilon_{klm} = \delta_{il} \delta_{jm} - \delta_{im} \delta_{jl}$ and recalling $\partial_j B_j = 0$, we can simplify this equation to:
-
 
 
 $$
@@ -2469,20 +2373,22 @@ $$
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
 
 $$
-
 
 
 Using the vector identity $\nabla \times (\mathbf{A} \times \mathbf{B}) = \mathbf{A} (\nabla \cdot \mathbf{B}) - \mathbf{B} (\nabla \cdot \mathbf{A}) + (\mathbf{B} \cdot \nabla) \mathbf{A} - (\mathbf{A} \cdot \nabla) \mathbf{B}$, we can rewrite this equation as:
 
 
-
 $$
 
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2490,7 +2396,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2498,7 +2408,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2506,7 +2420,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2514,7 +2432,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2522,7 +2444,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2530,7 +2456,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2538,7 +2468,11 @@ $$
 
 $$
 
+$$
 
+= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
+
+$$
 
 $$
 
@@ -2546,79 +2480,11 @@ $$
 
 $$
 
-
-
 $$
 
 = \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
 
 $$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
-
-$$
-
-= \frac{1}{\mu_0 \sigma} \left( \partial_i \partial_j B_j - \partial_j \partial_j B_i \right) - \left( v_i \partial_j B_j - v_j \partial_j B_i \right) - \left( B_j \partial_j v_i - B_i \partial_j v_j \right)
-
-$$
-
-
 
 $$
 
@@ -2649,9 +2515,7 @@ The magnetization of a material is directly proportional to the applied magnetic
 
 
 $$
-
 \mathbf{M} = \chi_m \mathbf{H}
-
 $$
 
 
@@ -2669,9 +2533,7 @@ Just as we defined the permeability and permittivity of free space, we can also 
 
 
 $$
-
 \mu = \frac{\mathbf{B}}{\mathbf{B}_0}
-
 $$
 
 
@@ -2681,9 +2543,7 @@ Similarly, the permittivity of a material, denoted by $\epsilon$, is the ratio o
 
 
 $$
-
 \epsilon = \frac{\mathbf{E}}{\mathbf{E}_0}
-
 $$
 
 
@@ -2701,9 +2561,7 @@ When a material is placed in a magnetic field, the magnetic moments of its atoms
 
 
 $$
-
 \mathbf{J}_m = \boldsymbol{\nabla} \times \mathbf{M}
-
 $$
 
 
@@ -2721,9 +2579,7 @@ Now that we have defined the relevant quantities for magnetic fields in matter, 
 
 
 $$
-
 \mathbf{B} = \mu \mathbf{H} + \mu_0 \mathbf{M}
-
 $$
 
 
@@ -2833,9 +2689,7 @@ The induced EMF, denoted by $\mathcal{E}$, is directly proportional to the rate 
 
 
 $$
-
 \mathcal{E} = -\frac{\mathrm{d}\Phi_B}{\mathrm{d}t}
-
 $$
 
 
@@ -2891,9 +2745,7 @@ The induced EMF, denoted by $\mathcal{E}$, is directly proportional to the rate 
 
 
 $$
-
 \mathcal{E} = -\frac{\mathrm{d}\Phi_B}{\mathrm{d}t}
-
 $$
 
 
@@ -2933,9 +2785,7 @@ To prepare for the quiz, let's review the key concepts and equations related to 
 
 
 $$
-
 \mathcal{E} = -\frac{\mathrm{d}\Phi_B}{\mathrm{d}t}
-
 $$
 
 
@@ -2957,9 +2807,7 @@ Furthermore, the relationship between Faraday's law and the Lorentz force, which
 
 
 $$
-
 \mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})
-
 $$
 
 
@@ -3251,9 +3099,7 @@ The complex impedance `Z_L` (in ohms) of an inductor with inductance `L` (in hen
 
 
 $$
-
 Z_L = j\omega L
-
 $$
 
 
@@ -3271,9 +3117,7 @@ The complex-valued eigenfunctions of "any" linear time-invariant (LTI) system, i
 
 
 $$
-
 y_j(n) = Ae^{j\omega_0n} \quad \text{and} \quad y_j(n) = Ae^{-j\omega_0n}
-
 $$
 
 
@@ -3329,9 +3173,7 @@ The complex impedance `Z` (in ohms) of an RLC circuit is given by the equation:
 
 
 $$
-
 Z = R + j(\omega L - \frac{1}{\omega C})
-
 $$
 
 
@@ -3349,9 +3191,7 @@ The complex-valued eigenfunctions of "any" linear time-invariant (LTI) system, i
 
 
 $$
-
 y_j(n) = Ae^{j\omega_0n} \quad \text{and} \quad y_j(n) = Ae^{-j\omega_0n}
-
 $$
 
 
@@ -3385,9 +3225,7 @@ The frequency response of a series RLC circuit is characterized by its resonant 
 
 
 $$
-
 \omega_0 = \frac{1}{\sqrt{LC}}
-
 $$
 
 
@@ -3405,9 +3243,7 @@ The quality factor `Q` of a series RLC circuit is a measure of its selectivity, 
 
 
 $$
-
 Q = \frac{\omega_0L}{R}
-
 $$
 
 
@@ -3425,9 +3261,7 @@ The bandwidth `B` of a series RLC circuit is the range of frequencies over which
 
 
 $$
-
 B = \frac{\omega_0}{Q}
-
 $$
 
 
@@ -3453,9 +3287,7 @@ The frequency response of a parallel RLC circuit is characterized by its anti-re
 
 
 $$
-
 \omega_0 = \frac{1}{\sqrt{LC}}
-
 $$
 
 
@@ -3473,9 +3305,7 @@ The quality factor `Q` of a parallel RLC circuit is a measure of its selectivity
 
 
 $$
-
 Q = \frac{R}{\omega_0L}
-
 $$
 
 
@@ -3493,9 +3323,7 @@ The bandwidth `B` of a parallel RLC circuit is the range of frequencies over whi
 
 
 $$
-
 B = \frac{\omega_0}{Q}
-
 $$
 
 
@@ -3551,9 +3379,7 @@ The modified Ampere's law, also known as Maxwell's law, is given by:
 
 
 $$
-
 \oint_C \vec{B} \cdot d\vec{l} = \mu_0 \left( \iint_S \vec{J} \cdot d\vec{S} + \epsilon_0 \frac{d}{dt} \iint_S \vec{E} \cdot d\vec{S} \right)
-
 $$
 
 
@@ -3727,33 +3553,25 @@ Maxwell's equations are a set of four equations that describe the behavior of el
 
 
 $$
-
 \nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \vec{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}
-
 $$
 
 
 
 $$
-
 \nabla \times \vec{B} = \mu_0 \left(\vec{J} + \epsilon_0 \frac{\partial \vec{E}}{\partial t}\right)
-
 $$
 
 
@@ -3767,17 +3585,13 @@ In addition to Maxwell's equations, there are other important equations that des
 
 
 $$
-
 \frac{\partial^2 \vec{E}}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
-
 $$
 
 
 
 $$
-
 \frac{\partial^2 \vec{B}}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 \vec{B}}{\partial t^2}
-
 $$
 
 
@@ -3787,9 +3601,7 @@ Another important equation is the Poynting vector, which describes the direction
 
 
 $$
-
 \vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}
-
 $$
 
 
@@ -4941,9 +4753,7 @@ Wien's displacement law states that the peak wavelength of blackbody radiation i
 
 
 $$
-
 \lambda_{max} = \frac{b}{T}
-
 $$
 
 
@@ -4961,9 +4771,7 @@ The Stefan-Boltzmann law states that the total energy emitted by a blackbody is 
 
 
 $$
-
 E = \sigma T^4
-
 $$
 
 
@@ -4981,9 +4789,7 @@ Planck's law describes the spectral density of blackbody radiation at a given te
 
 
 $$
-
 B(\nu, T) = \frac{2h\nu^3}{c^2} \frac{1}{e^{\frac{h\nu}{kT}} - 1}
-
 $$
 
 
@@ -5149,9 +4955,7 @@ The formula is given by:
 
 
 $$
-
 \frac{d\sigma}{d\Omega} = \frac{r_0^2}{2}\left(\frac{E'}{E}\right)^2\left(\frac{E}{E'} + \frac{E'}{E} - \sin^2\theta\right)
-
 $$
 
 
@@ -5411,9 +5215,7 @@ Field line density is defined as the number of magnetic field lines passing thro
 
 
 $$
-
 \text{Field line density} = \frac{\text{Number of field lines}}{\text{Area}}
-
 $$
 
 
@@ -5569,9 +5371,7 @@ Faraday's law states that the magnitude of the induced electromotive force (EMF)
 
 
 $$
-
 \mathcal{E} = -\frac{d\Phi}{dt}
-
 $$
 
 
@@ -5647,9 +5447,7 @@ Lenz's law is closely related to Faraday's law of induction, which states that t
 
 
 $$
-
 \mathcal{E} = -\frac{d\Phi}{dt}
-
 $$
 
 
@@ -6113,9 +5911,7 @@ The Brewster's angle can be calculated using the formula:
 
 
 $$
-
 \tan \theta_B = \frac{n_2}{n_1}
-
 $$
 
 
@@ -6511,9 +6307,7 @@ The law of reflection states that the angle of incidence is equal to the angle o
 
 
 $$
-
 \theta_i = \theta_r
-
 $$
 
 
@@ -6571,9 +6365,7 @@ The second law of reflection states that the angle of incidence is equal to the 
 
 
 $$
-
 \theta_i = \theta_r
-
 $$
 
 
@@ -6703,9 +6495,7 @@ The law of refraction, also known as Snell's law, states that the ratio of the s
 
 
 $$
-
 \frac{\sin{\theta_i}}{\sin{\theta_r}} = \frac{n_2}{n_1}
-
 $$
 
 
@@ -6773,9 +6563,7 @@ The Fraunhofer diffraction equation is a mathematical expression that describes 
 
 
 $$
-
 U(\theta) = a \left [e^{\frac { i\pi S \sin \theta }{\lambda}} + e^{- \frac { i \pi S \sin \theta} {\lambda}} \right] \int_ {-W/2}^{W/2} e^{ {-2 \pi ix' \sin \theta} / \lambda} \, dx'
-
 $$
 
 
@@ -6801,9 +6589,7 @@ The aperture function can also be expressed using the Fourier transform. It is g
 
 
 $$
-
 a \left[\operatorname {rect} \left (\frac{x-S/2}{W} \right) + \operatorname {rect} \left (\frac{x+S/2}{W} \right) \right]
-
 $$
 
 
@@ -6813,9 +6599,7 @@ The Fourier transform of this function is given by:
 
 
 $$
-
 \hat f(\operatorname{rect}(ax)) = \frac 1 \cdot \operatorname{sinc}\left(\frac{\xi}{2a}\right)
-
 $$
 
 
@@ -6825,9 +6609,7 @@ where $\xi$ is the Fourier transform frequency, and the function is defined as:
 
 
 $$
-
 \hat {f} [g(x-a)] = e^{-2 \pi i a f_x} \hat {f} [g(x)]
-
 $$
 
 
@@ -6845,9 +6627,7 @@ The intensity of the diffracted pattern is given by:
 
 
 $$
-
 I(\theta) \propto \cos^2 \left [ \frac {\pi S \sin \theta} \lambda \right] \operatorname{sinc}^2 \left [ \frac {\pi W \sin \theta}\lambda \right]
-
 $$
 
 
@@ -7401,9 +7181,7 @@ Length contraction can be derived in several ways. One way is by considering a k
 
 
 $$
-
 x_{1}^{'} = \gamma(x_{1} - vt_{1}) \quad\mathrm{and}\quad x_{2}^{'} = \gamma(x_{2} - vt_{2})
-
 $$
 
 
@@ -7413,9 +7191,7 @@ Since <math>t_1 = t_2</math>, and by setting <math>L=x_{2}-x_{1}</math> and <mat
 
 
 $$
-
 L_{0}^{'} = L\cdot\gamma
-
 $$
 
 
@@ -7425,9 +7201,7 @@ Therefore, the object's length, measured in the frame S, is contracted by a fact
 
 
 $$
-
 L = \frac{L_{0}^{'}}{\gamma}
-
 $$
 
 
@@ -7437,9 +7211,7 @@ Likewise, according to the principle of relativity, an object that is at rest in
 
 
 $$
-
 L_{0} = L'\cdot\gamma
-
 $$
 
 
@@ -7449,9 +7221,7 @@ Thus an object at rest in S, when measured in S', will have the contracted lengt
 
 
 $$
-
 L' = \frac{L_{0}}{\gamma}
-
 $$
 
 
@@ -7465,9 +7235,7 @@ Conversely, if the object rests in S and its proper length is known, the simulta
 
 
 $$
-
 x_{1}^{'} = \gamma(x_{1} - vt_{1}) \quad\mathrm{and}\quad x_{2}^{'} = \gamma(x_{2} - vt_{2})
-
 $$
 
 
@@ -7477,9 +7245,7 @@ In this case, the proper length <math>L_{0}</math> is known, and we can use the 
 
 
 $$
-
 L = \frac{L_{0}}{\gamma}
-
 $$
 
 
@@ -7553,9 +7319,7 @@ The equation below can be interpreted as the classical Doppler shift for a stati
 
 
 $$
-
 f = f_0\left(\frac{1 + \beta}{1 - \beta}\right)
-
 $$
 
 
@@ -7573,9 +7337,7 @@ The relativistic Doppler effect can be derived by considering a known moving len
 
 
 $$
-
 x_1' = \gamma(x_1 - vt_1) \quad\mathrm{and}\quad x_2' = \gamma(x_2 - vt_2)
-
 $$
 
 
@@ -7585,9 +7347,7 @@ Since $ t_1 = t_2 $, and by setting $ L = x_2 - x_1 $ and $ L_0' = x_2' - x_1' $
 
 
 $$
-
 L_0' = L\cdot\gamma
-
 $$
 
 
@@ -7597,9 +7357,7 @@ Therefore, the object's length, measured in the frame $ S $, is contracted by a 
 
 
 $$
-
 L = \frac{L_0'}{\gamma}
-
 $$
 
 
@@ -7609,9 +7367,7 @@ Likewise, according to the principle of relativity, an object that is at rest in
 
 
 $$
-
 L_0 = L'\cdot\gamma
-
 $$
 
 
@@ -7621,9 +7377,7 @@ Thus an object at rest in $ S $, when measured in $ S' $, will have the contract
 
 
 $$
-
 L' = \frac{L_0}{\gamma}
-
 $$
 
 
@@ -7637,9 +7391,7 @@ Conversely, if the object is at rest in $ S' $, then its proper length $ L_0' $ 
 
 
 $$
-
 L = L_0'\cdot\gamma
-
 $$
 
 
@@ -7903,9 +7655,7 @@ The ratio of the number of turns in the primary and secondary coils determines t
 
 
 $$
-
 \frac{V_1}{V_2} = \frac{N_1}{N_2}
-
 $$
 
 

@@ -989,9 +989,7 @@ The synchronous speed of a synchronous machine is determined by the number of po
 
 
 $$
-
 n_s = \frac{120f}{p}
-
 $$
 
 
@@ -1035,9 +1033,7 @@ The efficiency of a transformer is determined by its core material, which is typ
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} = \frac{V_{out}I_{out}}{V_{in}I_{in}}
-
 $$
 
 
@@ -1089,9 +1085,7 @@ The efficiency of a synchronous machine is also an important consideration in it
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -3327,9 +3321,7 @@ Problem 1: The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -3349,9 +3341,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - n_r}{1800}
-
 $$
 
 
@@ -3361,9 +3351,7 @@ Since the motor is running at 60 Hz, the synchronous speed can be calculated as:
 
 
 $$
-
 n_s = \frac{120f}{P}
-
 $$
 
 
@@ -3381,9 +3369,7 @@ Substituting the given values, we get:
 
 
 $$
-
 n_s = \frac{120 \times 60}{6} = 1200 \text{ rpm}
-
 $$
 
 
@@ -3393,9 +3379,7 @@ Therefore, the slip of the motor is:
 
 
 $$
-
 s = \frac{1200 - n_r}{1200}
-
 $$
 
 
@@ -3405,9 +3389,7 @@ To find the speed of the rotor, we can use the formula:
 
 
 $$
-
 n_r = (1-s)n_s
-
 $$
 
 
@@ -3417,9 +3399,7 @@ Substituting the calculated value of s, we get:
 
 
 $$
-
 n_r = (1 - \frac{1200 - n_r}{1200}) \times 1200 = 1160 \text{ rpm}
-
 $$
 
 
@@ -3433,9 +3413,7 @@ Problem 2: The voltage regulation of the transformer can be calculated using the
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -3455,9 +3433,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -3473,9 +3449,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -3485,9 +3459,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -3497,9 +3469,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.808}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -3509,9 +3479,7 @@ Therefore, the voltage regulation of the transformer at full load and 0.8 power 
 
 
 $$
-
 VR = \frac{239.808 - 240}{240} \times 100\% = -0.08\%
-
 $$
 
 
@@ -3521,9 +3489,7 @@ Problem 3: The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -3543,9 +3509,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1160}{1800} = 0.3556
-
 $$
 
 
@@ -3559,9 +3523,7 @@ The speed of the rotor at full load can be calculated using the formula:
 
 
 $$
-
 n_r = (1-s)n_s
-
 $$
 
 
@@ -3571,9 +3533,7 @@ Substituting the calculated value of s, we get:
 
 
 $$
-
 n_r = (1 - 0.3556) \times 1800 = 1160 \text{ rpm}
-
 $$
 
 
@@ -3587,9 +3547,7 @@ Problem 4: The efficiency of the transformer can be calculated using the formula
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -3609,9 +3567,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}^2}{R_{FL}}
-
 $$
 
 
@@ -3629,9 +3585,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{240^2}{0.002} = 288 \text{ kW}
-
 $$
 
 
@@ -3641,9 +3595,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = \frac{V_{FL}^2}{R_{FL} + R_{NL}}
-
 $$
 
 
@@ -3659,9 +3611,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = \frac{240^2}{0.2 + 0.002} = 2400 \text{ kW}
-
 $$
 
 
@@ -3671,9 +3621,7 @@ Therefore, the efficiency of the transformer at full load and 0.8 power factor l
 
 
 $$
-
 \eta = \frac{288}{2400} \times 100\% = 12\%
-
 $$
 
 
@@ -3683,9 +3631,7 @@ Problem 5: The efficiency of the motor can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -3705,9 +3651,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}I_{FL}\cos\phi}{\sqrt{3}}
-
 $$
 
 
@@ -3727,9 +3671,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{460 \times I_{FL} \times 0.8}{\sqrt{3}} = 251.98 \times I_{FL}
-
 $$
 
 
@@ -3739,9 +3681,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = 3V_{FL}I_{FL}\cos\phi
-
 $$
 
 
@@ -3751,9 +3691,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = 3 \times 460 \times I_{FL} \times 0.8 = 1104 \times I_{FL}
-
 $$
 
 
@@ -3763,9 +3701,7 @@ Therefore, the efficiency of the motor at full load is:
 
 
 $$
-
 \eta = \frac{251.98 \times I_{FL}}{1104 \times I_{FL}} \times 100\% = 22.85\%
-
 $$
 
 
@@ -3775,9 +3711,7 @@ Problem 6: The voltage regulation of the transformer can be calculated using the
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -3797,9 +3731,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 - jX}
-
 $$
 
 
@@ -3815,9 +3747,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 - j(0.2 + 0.002)} = 240.192 \text{ V}
-
 $$
 
 
@@ -3827,9 +3757,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 - jX}
-
 $$
 
 
@@ -3839,9 +3767,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{240.192}{1 - j(0.2 + 0.002)} = 240.192 \text{ V}
-
 $$
 
 
@@ -3851,9 +3777,7 @@ Therefore, the voltage regulation of the transformer at full load and 0.8 power 
 
 
 $$
-
 VR = \frac{240.192 - 240}{240} \times 100\% = 0.08\%
-
 $$
 
 
@@ -3863,9 +3787,7 @@ Problem 7: The efficiency of the motor can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -3885,9 +3807,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}I_{FL}\cos\phi}{\sqrt{3}}
-
 $$
 
 
@@ -3907,9 +3827,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{460 \times I_{FL} \times 1}{\sqrt{3}} = 265.98 \times I_{FL}
-
 $$
 
 
@@ -3919,9 +3837,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = 3V_{FL}I_{FL}\cos\phi
-
 $$
 
 
@@ -3931,9 +3847,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = 3 \times 460 \times I_{FL} \times 1 = 1380 \times I_{FL}
-
 $$
 
 
@@ -3943,9 +3857,7 @@ Therefore, the efficiency of the motor at full load is:
 
 
 $$
-
 \eta = \frac{265.98 \times I_{FL}}{1380 \times I_{FL}} \times 100\% = 19.28\%
-
 $$
 
 
@@ -3989,9 +3901,7 @@ The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -4011,9 +3921,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1160}{1800} = 0.356
-
 $$
 
 
@@ -4035,9 +3943,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -4057,9 +3963,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -4075,9 +3979,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -4087,9 +3989,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -4099,9 +3999,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.808}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -4145,9 +4043,7 @@ The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -4167,9 +4063,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1160}{1800} = 0.356
-
 $$
 
 
@@ -4191,9 +4085,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -4213,9 +4105,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -4231,9 +4121,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -4243,9 +4131,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -4255,9 +4141,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.808}{1 + j(0.2 + 0.002)} = 239.808 \text{ V}
-
 $$
 
 
@@ -4279,9 +4163,7 @@ The back EMF of a DC motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -4303,9 +4185,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 120 - (10)(2) = 100 \text{ V}
-
 $$
 
 
@@ -4349,9 +4229,7 @@ The slip of the generator can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -4371,9 +4249,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1750}{1800} = 0.0278
-
 $$
 
 
@@ -4395,9 +4271,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -4417,9 +4291,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -4435,9 +4307,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{480}{1 + j(0.5 + 0.005)} = 479.808 \text{ V}
-
 $$
 
 
@@ -4447,9 +4317,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -4459,9 +4327,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{479.808}{1 + j(0.5 + 0.005)} = 479.808 \text{ V}
-
 $$
 
 
@@ -4483,9 +4349,7 @@ The back EMF of the motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -4507,9 +4371,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 240 - (20)(4) = 160 \text{ V}
-
 $$
 
 
@@ -4519,9 +4381,7 @@ The power output of the motor can be calculated using the formula:
 
 
 $$
-
 P = E_bI_a
-
 $$
 
 
@@ -4531,9 +4391,7 @@ Substituting the calculated back EMF and given armature current, we get:
 
 
 $$
-
 P = (160)(20) = 3200 \text{ W}
-
 $$
 
 
@@ -4573,9 +4431,7 @@ The slip of the generator can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -4595,9 +4451,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1750}{1800} = 0.0278
-
 $$
 
 
@@ -4615,9 +4469,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -4637,9 +4489,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -4655,9 +4505,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{480}{1 + j(0.5 + 0.005)} = 479.808 \text{ V}
-
 $$
 
 
@@ -4667,9 +4515,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -4679,9 +4525,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{479.808}{1 + j(0.5 + 0.005)} = 479.808 \text{ V}
-
 $$
 
 
@@ -4699,9 +4543,7 @@ The back EMF of the motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -4723,9 +4565,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 240 - (20)(4) = 160 \text{ V}
-
 $$
 
 
@@ -4765,9 +4605,7 @@ The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -4787,9 +4625,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1200 - 1150}{1200} = 0.0417
-
 $$
 
 
@@ -4807,9 +4643,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -4829,9 +4663,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -4847,9 +4679,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -4859,9 +4689,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -4871,9 +4699,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.997}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -4891,9 +4717,7 @@ The back EMF of the motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -4915,9 +4739,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 120 - (10)(2) = 100 \text{ V}
-
 $$
 
 
@@ -4927,9 +4749,7 @@ The power developed by the motor can be calculated using the formula:
 
 
 $$
-
 P = E_bI_a
-
 $$
 
 
@@ -4939,9 +4759,7 @@ Substituting the calculated value for E_b and the given value for I_a, we get:
 
 
 $$
-
 P = (100)(10) = 1000 \text{ W}
-
 $$
 
 
@@ -4981,9 +4799,7 @@ The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -5003,9 +4819,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1200 - 1150}{1200} = 0.0417
-
 $$
 
 
@@ -5023,9 +4837,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -5045,9 +4857,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -5063,9 +4873,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -5075,9 +4883,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -5087,9 +4893,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.997}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -5107,9 +4911,7 @@ To calculate the back EMF, we can use the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -5131,9 +4933,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 120 - (10)(2) = 100 \text{ V}
-
 $$
 
 
@@ -5147,9 +4947,7 @@ To calculate the power developed by the motor, we can use the formula:
 
 
 $$
-
 P = E_bI_a
-
 $$
 
 
@@ -5159,9 +4957,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P = (100)(10) = 1000 \text{ W}
-
 $$
 
 
@@ -5201,9 +4997,7 @@ The slip of the motor can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -5223,9 +5017,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1200 - 1150}{1200} = 0.0417
-
 $$
 
 
@@ -5243,9 +5035,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -5265,9 +5055,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -5283,9 +5071,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{240}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -5295,9 +5081,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -5307,9 +5091,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{239.997}{1 + j(0.3 + 0.002)} = 239.997 \text{ V}
-
 $$
 
 
@@ -5327,9 +5109,7 @@ The back EMF of the motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -5351,9 +5131,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 120 - (10)(2) = 100 \text{ V}
-
 $$
 
 
@@ -5363,9 +5141,7 @@ The torque produced by the motor can be calculated using the formula:
 
 
 $$
-
 T = K_tI_a
-
 $$
 
 
@@ -5385,9 +5161,7 @@ Substituting the given values, we get:
 
 
 $$
-
 T = (0.1)(10) = 1 \text{ Nm}
-
 $$
 
 
@@ -5427,9 +5201,7 @@ The slip of the generator can be calculated using the formula:
 
 
 $$
-
 s = \frac{n_s - n_r}{n_s}
-
 $$
 
 
@@ -5449,9 +5221,7 @@ Substituting the given values, we get:
 
 
 $$
-
 s = \frac{1800 - 1750}{1800} = 0.0278
-
 $$
 
 
@@ -5469,9 +5239,7 @@ The voltage regulation of the transformer can be calculated using the formula:
 
 
 $$
-
 VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100\%
-
 $$
 
 
@@ -5491,9 +5259,7 @@ To calculate the no-load voltage, we can use the formula:
 
 
 $$
-
 V_{NL} = \frac{V_{FL}}{1 + jX}
-
 $$
 
 
@@ -5509,9 +5275,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{NL} = \frac{480}{1 + j(0.5 + 0.003)} = 479.998 \text{ V}
-
 $$
 
 
@@ -5521,9 +5285,7 @@ To calculate the full-load voltage, we can use the formula:
 
 
 $$
-
 V_{FL} = \frac{V_{NL}}{1 + jX}
-
 $$
 
 
@@ -5533,9 +5295,7 @@ Substituting the given values, we get:
 
 
 $$
-
 V_{FL} = \frac{479.998}{1 + j(0.5 + 0.003)} = 479.998 \text{ V}
-
 $$
 
 
@@ -5553,9 +5313,7 @@ The power output of the motor can be calculated using the formula:
 
 
 $$
-
 P = VI
-
 $$
 
 
@@ -5575,9 +5333,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P = 240 \times 15 = 3600 \text{ W}
-
 $$
 
 
@@ -5617,9 +5373,7 @@ The synchronous speed of the motor can be calculated using the formula:
 
 
 $$
-
 n_s = \frac{n_r}{1-s}
-
 $$
 
 
@@ -5639,9 +5393,7 @@ Substituting the given values, we get:
 
 
 $$
-
 n_s = \frac{1750}{1-0.03} = 1800 \text{ rpm}
-
 $$
 
 
@@ -5659,9 +5411,7 @@ The efficiency of the transformer can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -5681,9 +5431,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}^2}{R}
-
 $$
 
 
@@ -5701,9 +5449,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{480^2}{4} = 57,600 \text{ W}
-
 $$
 
 
@@ -5713,9 +5459,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = \frac{V_{FL}^2}{R + jX}
-
 $$
 
 
@@ -5725,9 +5469,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = \frac{480^2}{4 + j(0.5 + 0.003)} = 57,600 \text{ W}
-
 $$
 
 
@@ -5745,9 +5487,7 @@ The back EMF of the motor can be calculated using the formula:
 
 
 $$
-
 E_b = V - I_aR_a
-
 $$
 
 
@@ -5769,9 +5509,7 @@ Substituting the given values, we get:
 
 
 $$
-
 E_b = 240 - (20)(4) = 160 \text{ V}
-
 $$
 
 
@@ -5811,9 +5549,7 @@ The rotor speed of the motor can be calculated using the formula:
 
 
 $$
-
 n_r = n_s(1-s)
-
 $$
 
 
@@ -5833,9 +5569,7 @@ Substituting the given values, we get:
 
 
 $$
-
 n_r = 1200(1-0.02) = 1176 \text{ rpm}
-
 $$
 
 
@@ -5853,9 +5587,7 @@ The efficiency of the transformer can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -5875,9 +5607,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}^2}{R}
-
 $$
 
 
@@ -5895,9 +5625,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{240^2}{4} = 14,400 \text{ W}
-
 $$
 
 
@@ -5907,9 +5635,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = \frac{V_{FL}^2}{R + jX}
-
 $$
 
 
@@ -5919,9 +5645,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = \frac{240^2}{4 + j(0.8 + 0.005)} = 14,400 \text{ W}
-
 $$
 
 
@@ -5939,9 +5663,7 @@ The power output of the motor can be calculated using the formula:
 
 
 $$
-
 P_{out} = I^2R
-
 $$
 
 
@@ -5961,9 +5683,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = (10)^2(2) = 200 \text{ W}
-
 $$
 
 
@@ -6003,9 +5723,7 @@ The rotor speed of the motor can be calculated using the formula:
 
 
 $$
-
 n_r = n_s(1-s)
-
 $$
 
 
@@ -6025,9 +5743,7 @@ Substituting the given values, we get:
 
 
 $$
-
 n_r = 1800(1-0.03) = 1746 \text{ rpm}
-
 $$
 
 
@@ -6045,9 +5761,7 @@ The efficiency of the transformer can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -6067,9 +5781,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}^2}{R}
-
 $$
 
 
@@ -6087,9 +5799,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{480^2}{4} = 57,600 \text{ W}
-
 $$
 
 
@@ -6099,9 +5809,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = \frac{V_{FL}^2}{R + jX}
-
 $$
 
 
@@ -6111,9 +5819,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = \frac{480^2}{4 + j(1.2 + 0.01)} = 57,600 \text{ W}
-
 $$
 
 
@@ -6131,9 +5837,7 @@ The power output of the motor can be calculated using the formula:
 
 
 $$
-
 P_{out} = I^2R
-
 $$
 
 
@@ -6151,9 +5855,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = (15)^2(4) = 900 \text{ W}
-
 $$
 
 
@@ -6193,9 +5895,7 @@ The rotor speed of the motor can be calculated using the formula:
 
 
 $$
-
 n_r = n_s(1-s)
-
 $$
 
 
@@ -6215,9 +5915,7 @@ Substituting the given values, we get:
 
 
 $$
-
 n_r = 1200(1-0.02) = 1176 \text{ rpm}
-
 $$
 
 
@@ -6235,9 +5933,7 @@ The efficiency of the transformer can be calculated using the formula:
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
-
 $$
 
 
@@ -6257,9 +5953,7 @@ To calculate the output power, we can use the formula:
 
 
 $$
-
 P_{out} = \frac{V_{FL}^2}{R}
-
 $$
 
 
@@ -6277,9 +5971,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = \frac{240^2}{4} = 14,400 \text{ W}
-
 $$
 
 
@@ -6289,9 +5981,7 @@ To calculate the input power, we can use the formula:
 
 
 $$
-
 P_{in} = \frac{V_{FL}^2}{R + jX}
-
 $$
 
 
@@ -6301,9 +5991,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{in} = \frac{240^2}{4 + j(1.5 + 0.02)} = 14,400 \text{ W}
-
 $$
 
 
@@ -6321,9 +6009,7 @@ The power output of the motor can be calculated using the formula:
 
 
 $$
-
 P_{out} = I^2R
-
 $$
 
 
@@ -6341,9 +6027,7 @@ Substituting the given values, we get:
 
 
 $$
-
 P_{out} = (10)^2(2) = 200 \text{ W}
-
 $$
 
 
@@ -8105,9 +7789,7 @@ There are two main methods for measuring the efficiency of electric machines: di
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}}
-
 $$
 
 

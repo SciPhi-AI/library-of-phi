@@ -465,9 +465,7 @@ The discrete-time Fourier transform (DTFT) is a mathematical tool used to analyz
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-
 $$
 
 
@@ -489,9 +487,7 @@ The discrete Fourier transform (DFT) is a discrete version of the DTFT, which is
 
 
 $$
-
 X[k] = \sum_{n=0}^{N-1} x[n]e^{-j2\pi kn/N}, \quad k = 0,1,...,N-1
-
 $$
 
 
@@ -509,9 +505,7 @@ The z-transform is another mathematical tool used in discrete-time signal proces
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -597,9 +591,7 @@ The discrete-time Fourier transform (DTFT) is a mathematical tool used to analyz
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -621,9 +613,7 @@ The discrete Fourier transform (DFT) is a discrete version of the DTFT, which is
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j\frac{2\pi}{N}kn}
-
 $$
 
 
@@ -645,9 +635,7 @@ The z-transform is another mathematical tool used in discrete-time signal proces
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
-
 $$
 
 
@@ -773,9 +761,7 @@ The discrete-time Fourier transform (DTFT) is a mathematical tool used to analyz
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -849,9 +835,7 @@ The discrete-time Fourier transform (DTFT) is a mathematical tool used to analyz
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
-
 $$
 
 
@@ -873,9 +857,7 @@ The discrete Fourier transform (DFT) is a discrete version of the DTFT, which is
 
 
 $$
-
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
-
 $$
 
 
@@ -897,9 +879,7 @@ The z-transform is another mathematical tool used in discrete-time signal proces
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
-
 $$
 
 
@@ -1073,9 +1053,7 @@ Mathematically, a minimum-phase system can be represented by the following diffe
 
 
 $$
-
 y(n) = \sum_{k=0}^{N} a_k x(n-k)
-
 $$
 
 
@@ -1105,9 +1083,7 @@ Mathematically, an all-pass system can be represented by the following differenc
 
 
 $$
-
 y(n) = x(n) + \sum_{k=1}^{N} b_k y(n-k)
-
 $$
 
 
@@ -1335,9 +1311,7 @@ IIR filters are a type of filter structure that uses feedback to create a recurs
 
 
 $$
-
 y(n) = \sum_{k=0}^{N} b_k x(n-k) - \sum_{k=1}^{M} a_k y(n-k)
-
 $$
 
 
@@ -1355,9 +1329,7 @@ FIR filters, on the other hand, do not use feedback and are therefore non-recurs
 
 
 $$
-
 y(n) = \sum_{k=0}^{N} b_k x(n-k)
-
 $$
 
 
@@ -1403,9 +1375,7 @@ IIR filters are a type of filter structure that uses feedback to create a recurs
 
 
 $$
-
 y(n) = \sum_{k=0}^{N} b_k x(n-k) - \sum_{k=1}^{M} a_k y(n-k)
-
 $$
 
 
@@ -1467,9 +1437,7 @@ FIR filters are a type of filter structure that uses only feedforward connection
 
 
 $$
-
 y(n) = \sum_{k=0}^{N} b_k x(n-k)
-
 $$
 
 
@@ -1715,7 +1683,6 @@ Overall, this chapter has provided a solid foundation for understanding the anal
 #### Exercise 1
 
 Consider a discrete-time system with the following difference equation: $$y(n) = 0.5y(n-1) + x(n)$$
-
 a) Is this system linear? Why or why not?
 
 b) Is this system time-invariant? Why or why not?
@@ -1913,13 +1880,11 @@ The discrete Fourier transform (DFT) is a practical implementation of the DTFT. 
 The DFT is defined as:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
 
 $$
-
 
 
 where $x(n)$ is the discrete-time signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT essentially decomposes the signal into its constituent frequencies, with $X(k)$ representing the amplitude and phase of each frequency component.
@@ -1933,13 +1898,11 @@ One of the key properties of the DFT is its periodicity. Since the DFT is a samp
 Another important property of the DFT is its symmetry. For real-valued signals, the DFT coefficients exhibit a symmetry about the center frequency, with the first half of the coefficients being the complex conjugate of the second half. This symmetry can be seen in the following equation:
 
 
-
 $$
 
 X(k) = X^*(N-k)
 
 $$
-
 
 
 where $X^*$ represents the complex conjugate of $X$. This symmetry can be useful in simplifying calculations and reducing the computational complexity of the DFT.
@@ -1987,13 +1950,11 @@ The discrete Fourier transform (DFT) is a practical implementation of the DTFT. 
 The DFT is defined as:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
 
 $$
-
 
 
 where $x(n)$ is the discrete-time signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT essentially decomposes the signal into its constituent frequencies, with $X(k)$ representing the amplitude and phase of each frequency component. This allows us to analyze the frequency content of a discrete-time signal and gain insights into its underlying characteristics.
@@ -2073,13 +2034,11 @@ The discrete Fourier transform (DFT) is a practical implementation of the DTFT. 
 The DFT is defined as:
 
 
-
 $$
 
 X(k) = \sum_{n=0}^{N-1} x(n)e^{-j2\pi kn/N}
 
 $$
-
 
 
 where $x(n)$ is the discrete-time signal, $N$ is the length of the signal, and $k$ is the frequency index. The DFT essentially decomposes the signal into its constituent frequencies, with $X(k)$ representing the amplitude and phase of each frequency component. This allows us to analyze the frequency content of a discrete-time signal and gain insights into its underlying characteristics.
@@ -2131,13 +2090,11 @@ To understand the periodogram, we must first understand the concept of power spe
 The periodogram is essentially an estimate of the PSD, calculated by taking the squared magnitude of the discrete Fourier transform (DFT) of a signal. It is defined as:
 
 
-
 $$
 
 P(\omega) = \frac{1}{N} \left| \sum_{n=0}^{N-1} x(n)e^{-j\omega n} \right|^2
 
 $$
-
 
 
 where $x(n)$ is the discrete-time signal, $N$ is the length of the signal, and $\omega$ is the frequency index. The periodogram essentially calculates the power at each frequency component of the signal and plots it against the corresponding frequency.
@@ -2211,7 +2168,6 @@ The Goertzel algorithm is a computationally efficient method for computing the d
 The algorithm is based on the idea of using a recursive filter to compute the DFT at a specific frequency. This filter, known as the Goertzel filter, has a transfer function given by:
 
 
-
 $$
 
 H(z) = e^{j\omega_0} + 2z^{-1}cos(\omega_0) + z^{-2}
@@ -2219,9 +2175,7 @@ H(z) = e^{j\omega_0} + 2z^{-1}cos(\omega_0) + z^{-2}
 $$
 
 
-
 where $\omega_0$ is the desired frequency in radians per sample. The output of the filter is then given by:
-
 
 
 $$
@@ -2229,7 +2183,6 @@ $$
 y(n) = x(n) + 2cos(\omega_0)y(n-1) - y(n-2)
 
 $$
-
 
 
 where $x(n)$ is the input signal and $y(n)$ is the output of the filter at time $n$. The DFT at the desired frequency can then be obtained by computing the magnitude of the output at the final time step, i.e. $|y(N-1)|$.
@@ -2247,13 +2200,11 @@ The main advantage of the Goertzel algorithm is its computational efficiency. It
 The chirp transform is another technique for spectral analysis that is based on the concept of a chirp signal. A chirp signal is a signal whose frequency increases or decreases linearly with time. It can be represented mathematically as:
 
 
-
 $$
 
 x(n) = e^{j\omega_0n + \frac{\alpha}{2}n^2}
 
 $$
-
 
 
 where $\omega_0$ is the initial frequency and $\alpha$ is the chirp rate. The chirp transform is obtained by taking the DFT of the chirp signal, which results in a frequency spectrum that is centered at the initial frequency $\omega_0$.
@@ -2309,13 +2260,11 @@ The basic idea behind short-time Fourier analysis is to multiply the signal by a
 The short-time Fourier transform (STFT) is the mathematical representation of short-time Fourier analysis. It is defined as:
 
 
-
 $$
 
 STFT(\tau, \omega) = \int_{-\infty}^{\infty} x(t)w(t-\tau)e^{-j\omega t} dt
 
 $$
-
 
 
 where $x(t)$ is the input signal, $w(t)$ is the window function, $\tau$ is the time shift, and $\omega$ is the frequency. The STFT essentially computes the Fourier transform of the windowed signal at a specific time and frequency.
@@ -2505,13 +2454,11 @@ Amplitude modulation is a technique where the amplitude of a carrier signal is v
 The mathematical representation of AM is given by:
 
 
-
 $$
 
 y_{AM}(n) = (1 + m[n])x(n)
 
 $$
-
 
 
 where $m[n]$ is the modulating signal and $x(n)$ is the carrier signal.
@@ -2529,13 +2476,11 @@ Frequency modulation is a technique where the frequency of a carrier signal is v
 The mathematical representation of FM is given by:
 
 
-
 $$
 
 y_{FM}(n) = \cos(2\pi f_c n + k_f \int_{0}^{n}m(\tau)d\tau)
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_f$ is the frequency sensitivity, and $m(n)$ is the modulating signal.
@@ -2553,13 +2498,11 @@ Phase modulation is a technique where the phase of a carrier signal is varied in
 The mathematical representation of PM is given by:
 
 
-
 $$
 
 y_{PM}(n) = \cos(2\pi f_c n + k_p m(n))
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_p$ is the phase sensitivity, and $m(n)$ is the modulating signal.
@@ -2635,13 +2578,11 @@ Amplitude modulation is a technique where the amplitude of a carrier signal is v
 The mathematical representation of AM is given by:
 
 
-
 $$
 
 y_{AM}(n) = (1 + m[n])x(n)
 
 $$
-
 
 
 where $m[n]$ is the modulating signal and $x(n)$ is the carrier signal.
@@ -2659,13 +2600,11 @@ Frequency modulation is a technique where the frequency of a carrier signal is v
 The mathematical representation of FM is given by:
 
 
-
 $$
 
 y_{FM}(n) = \cos(2\pi f_c n + k_f \int_{0}^{n}m(\tau)d\tau)
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_f$ is the frequency sensitivity, and $m(n)$ is the modulating signal.
@@ -2683,13 +2622,11 @@ Phase modulation is a technique where the phase of a carrier signal is varied in
 The mathematical representation of PM is given by:
 
 
-
 $$
 
 y_{PM}(n) = \cos(2\pi f_c n + k_p m(n))
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_p$ is the phase sensitivity, and $m(n)$ is the modulating signal.
@@ -2757,13 +2694,11 @@ Amplitude modulation is a technique where the amplitude of a carrier signal is v
 The mathematical representation of AM is given by:
 
 
-
 $$
 
 y_{AM}(n) = (1 + m[n])x(n)
 
 $$
-
 
 
 where $m[n]$ is the modulating signal and $x(n)$ is the carrier signal.
@@ -2781,13 +2716,11 @@ Frequency modulation is a technique where the frequency of a carrier signal is v
 The mathematical representation of FM is given by:
 
 
-
 $$
 
 y_{FM}(n) = \cos(2\pi f_c n + k_f \int_{0}^{n}m(\tau)d\tau)
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_f$ is the frequency sensitivity, and $m(n)$ is the modulating signal.
@@ -2805,13 +2738,11 @@ Phase modulation is a technique where the phase of a carrier signal is varied in
 The mathematical representation of PM is given by:
 
 
-
 $$
 
 y_{PM}(n) = \cos(2\pi f_c n + k_p m(n))
 
 $$
-
 
 
 where $f_c$ is the carrier frequency, $k_p$ is the phase sensitivity, and $m(n)$ is the modulating signal.
@@ -2881,13 +2812,11 @@ Amplitude modulation is a technique where the amplitude of a carrier signal is v
 The mathematical representation of AM is given by:
 
 
-
 $$
 
 y_{AM}(n) = (1 + m[n])x(n)
 
 $$
-
 
 
 where $m[n]$ is the modulating signal and $x(n)$ is the carrier signal.
@@ -2905,13 +2834,11 @@ Frequency modulation is a technique where the frequency of a carrier signal is v
 The mathematical representation of FM is given by:
 
 
-
 $$
 
 y_{FM}(n) = \cos\left(2\pi f_c n + \Delta\phi[n]\right)
 
 $$
-
 
 
 where $f_c$ is the carrier frequency and $\Delta\phi[n]$ is the phase modulation.
@@ -2929,13 +2856,11 @@ Phase modulation is a technique where the phase of a carrier signal is varied in
 The mathematical representation of PM is given by:
 
 
-
 $$
 
 y_{PM}(n) = \cos\left(2\pi f_c n + m[n]\right)
 
 $$
-
 
 
 where $f_c$ is the carrier frequency and $m[n]$ is the modulating signal.
@@ -3133,13 +3058,11 @@ A discrete-time system is a mathematical representation of a physical system tha
 Discrete-time signals can be represented in both the time and frequency domains. In the time domain, a signal is represented as a sequence of values over time. In the frequency domain, a signal is represented as a combination of sinusoidal components with different frequencies and amplitudes. The discrete-time Fourier transform (DTFT) is a mathematical tool used to convert a signal from the time domain to the frequency domain. It is defined as:
 
 
-
 $$
 
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x(n)e^{-j\omega n}
 
 $$
-
 
 
 where $X(e^{j\omega})$ is the DTFT of the signal $x(n)$.
@@ -3165,13 +3088,11 @@ Reconstruction is the process of converting a discrete-time signal back into a c
 The z-transform is a mathematical tool used to analyze discrete-time systems. It is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x(n)z^{-n}
 
 $$
-
 
 
 where $X(z)$ is the z-transform of the signal $x(n)$. The z-transform is useful in analyzing the stability and frequency response of discrete-time systems.
@@ -3485,13 +3406,11 @@ Time-frequency analysis is a powerful tool for understanding and processing non-
 
 
 This principle can be mathematically expressed as follows: 
-
 $$
 
 \Delta t \cdot \Delta \omega \geq \frac{1}{2}
 
 $$
-
 where $\Delta t$ is the time resolution and $\Delta \omega$ is the frequency resolution. This means that the product of the two resolutions must be greater than or equal to a constant value of 1/2. This is known as the Heisenberg uncertainty principle, which is a fundamental concept in quantum mechanics.
 
 
@@ -3581,7 +3500,6 @@ The wavelet transform is another popular method for time-frequency analysis. It 
 
 
 The wavelet transform is defined as the convolution of a signal with a wavelet function. Mathematically, it can be expressed as:
-
 
 
 $$

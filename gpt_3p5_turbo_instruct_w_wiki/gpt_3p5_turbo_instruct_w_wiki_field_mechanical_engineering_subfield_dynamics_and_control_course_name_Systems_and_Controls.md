@@ -1674,9 +1674,7 @@ An ODE is an equation of the form:
 
 
 $$
-
 F(x, y, y', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -1760,9 +1758,7 @@ An ODE is an equation of the form:
 
 
 $$
-
 F(x, y, y', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -1836,9 +1832,7 @@ An ODE is an equation of the form:
 
 
 $$
-
 F(x, y, y', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -2138,9 +2132,7 @@ The state equations can be written in the form of a vector differential equation
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -2150,9 +2142,7 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -2178,9 +2168,7 @@ The discrete-time state-space representation is similar to the continuous-time r
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k
-
 $$
 
 
@@ -2244,9 +2232,7 @@ The state equations can be written in the form of a vector differential equation
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -2256,9 +2242,7 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -2288,9 +2272,7 @@ The transfer function can be written as:
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -2338,9 +2320,7 @@ The state equations can be written in the form of a vector differential equation
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -2350,9 +2330,7 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -2554,9 +2532,7 @@ A first order ODE is an equation that relates the rate of change of a single sta
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t))
-
 $$
 
 
@@ -2616,9 +2592,7 @@ A second order ODE is an equation that relates the rate of change of a state var
 
 
 $$
-
 \ddot{x}(t) = f(x(t), \dot{x}(t), u(t))
-
 $$
 
 
@@ -2720,9 +2694,7 @@ To understand the behavior of a translation system, we must first look at the un
 
 
 $$
-
 m\ddot{x} = \sum F
-
 $$
 
 
@@ -2752,9 +2724,7 @@ The behavior of a rotational system can also be described by a 2nd order differe
 
 
 $$
-
 I\ddot{\theta} = \sum \tau
-
 $$
 
 
@@ -2806,9 +2776,7 @@ To understand the behavior of a rotational system, we must first look at the und
 
 
 $$
-
 I\ddot{\theta} = \sum \tau
-
 $$
 
 
@@ -3072,7 +3040,6 @@ As we move forward in our study of systems and controls, it is important to reme
 #### Exercise 1
 
 Consider the following 1st order system: $$\dot{x}(t) = -ax(t) + bu(t)$$
-
 a) Find the transfer function of the system.
 
 b) Determine the poles of the system.
@@ -3258,13 +3225,11 @@ The Laplace Transform is a powerful mathematical tool that allows us to convert 
 The Laplace Transform of a function $f(t)$ is defined as:
 
 
-
 $$
 
 F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt
 
 $$
-
 
 
 where $s$ is a complex variable. This transformation converts a function of time into a function of complex frequency, making it easier to solve ODEs. The inverse Laplace Transform, denoted by $\mathcal{L}^{-1}$, allows us to convert a function in the frequency domain back to the time domain.
@@ -3324,13 +3289,11 @@ The Laplace Transform is a powerful mathematical tool that allows us to convert 
 The Laplace Transform of a function $f(t)$ is defined as:
 
 
-
 $$
 
 F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt
 
 $$
-
 
 
 where $s$ is a complex variable. This transformation converts a function of time into a function of complex frequency, making it easier to solve ODEs. The inverse Laplace Transform, denoted by $\mathcal{L}^{-1}$, allows us to convert a function in the frequency domain back to the time domain.
@@ -3364,7 +3327,6 @@ The Laplace Transform is particularly useful in solving initial value problems a
 In this subsection, we will focus on using the Laplace Transform to solve first order ODEs. A first order ODE is an equation of the form:
 
 
-
 $$
 
 \frac{dy}{dt} = f(t,y)
@@ -3372,9 +3334,7 @@ $$
 $$
 
 
-
 where $y$ is a function of $t$. To solve this ODE using the Laplace Transform, we first apply the Laplace Transform to both sides of the equation, using the differentiation property:
-
 
 
 $$
@@ -3384,9 +3344,7 @@ $$
 $$
 
 
-
 Using the differentiation property, we get:
-
 
 
 $$
@@ -3396,9 +3354,7 @@ sY(s) - y(0) = F(s)
 $$
 
 
-
 where $Y(s)$ and $F(s)$ are the Laplace Transforms of $y(t)$ and $f(t,y)$ respectively. Solving for $Y(s)$, we get:
-
 
 
 $$
@@ -3406,7 +3362,6 @@ $$
 Y(s) = \frac{F(s) + y(0)}{s}
 
 $$
-
 
 
 Finally, we use the inverse Laplace Transform to convert $Y(s)$ back to the time domain, giving us the solution to the first order ODE.
@@ -3438,13 +3393,11 @@ The Laplace Transform is a powerful mathematical tool that allows us to convert 
 The Laplace Transform of a function $f(t)$ is defined as:
 
 
-
 $$
 
 F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt
 
 $$
-
 
 
 where $s$ is a complex variable. This transformation converts a function of time into a function of complex frequency, making it easier to solve ODEs. The inverse Laplace Transform, denoted by $\mathcal{L}^{-1}$, allows us to convert a function in the frequency domain back to the time domain.
@@ -3478,7 +3431,6 @@ The Laplace Transform is particularly useful in solving initial value problems a
 In this subsection, we will focus on using the Laplace Transform to solve second order ODEs. A second order ODE can be written in the form:
 
 
-
 $$
 
 \frac{d^2y}{dt^2} + a\frac{dy}{dt} + by = f(t)
@@ -3486,9 +3438,7 @@ $$
 $$
 
 
-
 To solve this ODE using the Laplace Transform, we first take the Laplace Transform of both sides:
-
 
 
 $$
@@ -3498,9 +3448,7 @@ $$
 $$
 
 
-
 Using the differentiation property of the Laplace Transform, we can simplify this equation to:
-
 
 
 $$
@@ -3510,7 +3458,6 @@ s^2Y(s) - sy(0) - y'(0) + a(sY(s) - y(0)) + bY(s) = F(s)
 $$
 
 
-
 where $Y(s) = \mathcal{L}\{y(t)\}$.
 
 
@@ -3518,13 +3465,11 @@ where $Y(s) = \mathcal{L}\{y(t)\}$.
 Solving for $Y(s)$, we get:
 
 
-
 $$
 
 Y(s) = \frac{F(s) + sy(0) + y'(0) + ay(0)}{s^2 + as + b}
 
 $$
-
 
 
 Finally, we can use the inverse Laplace Transform to convert $Y(s)$ back to the time domain and obtain the solution $y(t)$.
@@ -3560,13 +3505,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The inverse Laplace Transform is denoted by $\mathcal{L}^{-1}$ and is defined as:
 
 
-
 $$
 
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i}\int_{\gamma-i\infty}^{\gamma+i\infty}e^{st}F(s)ds
 
 $$
-
 
 
 where $\gamma$ is a real number and the integration is done along a vertical line in the complex plane. This transformation allows us to convert a function in the frequency domain back to the time domain, making it a valuable tool in solving ODEs.
@@ -3618,13 +3561,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The inverse Laplace Transform is denoted by $\mathcal{L}^{-1}$ and is defined as:
 
 
-
 $$
 
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i}\int_{\gamma-i\infty}^{\gamma+i\infty}e^{st}F(s)ds
 
 $$
-
 
 
 where $\gamma$ is a real number and the integration is done along a vertical line in the complex plane. This transformation allows us to convert a function in the frequency domain back to the time domain, making it a valuable tool in solving ODEs.
@@ -3662,7 +3603,6 @@ In order to use the inverse Laplace Transform, we often need to decompose a rati
 To illustrate this, let's consider the following example:
 
 
-
 $$
 
 f(x)=\frac{x^9-2x^6+2x^5-7x^4+13x^3-11x^2+12x-4}{x^7-3x^6+5x^5-7x^4+7x^3-5x^2+3x-1}
@@ -3670,9 +3610,7 @@ f(x)=\frac{x^9-2x^6+2x^5-7x^4+13x^3-11x^2+12x-4}{x^7-3x^6+5x^5-7x^4+7x^3-5x^2+3x
 $$
 
 
-
 After long division and factoring the denominator, we have:
-
 
 
 $$
@@ -3682,9 +3620,7 @@ f(x)=x^2+3x+4+\frac{2x^6-4x^5+5x^4-3x^3+x^2+3x}{(x-1)^3(x^2+1)^2}
 $$
 
 
-
 The partial fraction decomposition takes the form:
-
 
 
 $$
@@ -3694,9 +3630,7 @@ $$
 $$
 
 
-
 Multiplying through by the denominator on the left-hand side, we have the polynomial identity:
-
 
 
 $$
@@ -3706,9 +3640,7 @@ $$
 $$
 
 
-
 Now, we can use different values of "x" to compute the coefficients:
-
 
 
 $$
@@ -3718,9 +3650,7 @@ $$
 $$
 
 
-
 Solving this system of equations, we get:
-
 
 
 $$
@@ -3730,9 +3660,7 @@ $$
 $$
 
 
-
 Using these values, we can write:
-
 
 
 $$
@@ -3742,9 +3670,7 @@ $$
 $$
 
 
-
 Comparing the coefficients of "x"<sup>6</sup> and "x"<sup>5</sup> on both sides, we get:
-
 
 
 $$
@@ -3754,9 +3680,7 @@ $$
 $$
 
 
-
 Solving this system of equations, we get:
-
 
 
 $$
@@ -3766,9 +3690,7 @@ $$
 $$
 
 
-
 Using these values, we can write the partial fraction decomposition as:
-
 
 
 $$
@@ -3776,7 +3698,6 @@ $$
 \frac{2x^6-4x^5+5x^4-3x^3+x^2+3x}{(x-1)^3(x^2+1)^2} = \frac{1}{x-1}+\frac{1}{(x-1)^2}+\frac{1}{(x-1)^3}+\frac{x+1}{x^2+1}+\frac{1}{(x^2+1)^2}
 
 $$
-
 
 
 This allows us to easily take the inverse Laplace Transform and find the solution to the ODE. Partial fraction decomposition is a powerful tool that simplifies complex functions and makes it easier to solve ODEs using the inverse Laplace Transform. 
@@ -3804,13 +3725,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The inverse Laplace Transform is denoted by $\mathcal{L}^{-1}$ and is defined as:
 
 
-
 $$
 
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i}\int_{\gamma-i\infty}^{\gamma+i\infty}e^{st}F(s)ds
 
 $$
-
 
 
 where $\gamma$ is a real number and the integration is done along a vertical line in the complex plane. This transformation allows us to convert a function in the frequency domain back to the time domain, making it a valuable tool in solving ODEs.
@@ -3878,13 +3797,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The transfer function is a mathematical representation of the relationship between the input and output of a system. It is defined as the ratio of the Laplace Transform of the output to the Laplace Transform of the input, assuming all initial conditions are zero. Mathematically, it can be expressed as:
 
 
-
 $$
 
 H(s) = \frac{Y(s)}{U(s)}
 
 $$
-
 
 
 where $H(s)$ is the transfer function, $Y(s)$ is the Laplace Transform of the output, and $U(s)$ is the Laplace Transform of the input.
@@ -3898,21 +3815,17 @@ The transfer function is a powerful tool in analyzing and designing control syst
 State-space representation is a mathematical model that describes the behavior of a system using a set of first-order differential equations. It is commonly used in control systems because it allows for a more intuitive understanding of the system's behavior. The state-space representation of a system can be expressed as:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = \mathbf{Ax}(t) + \mathbf{Bu}(t)
 
 $$
 
-
-
 $$
 
 \mathbf{y}(t) = \mathbf{Cx}(t) + \mathbf{Du}(t)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{y}(t)$ is the output vector, $\mathbf{A}$ is the state matrix, $\mathbf{B}$ is the input matrix, $\mathbf{C}$ is the output matrix, and $\mathbf{D}$ is the feedforward matrix.
@@ -3948,13 +3861,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The transfer function is a mathematical representation of the relationship between the input and output of a system. It is defined as the ratio of the Laplace Transform of the output to the Laplace Transform of the input, assuming all initial conditions are zero. Mathematically, it can be expressed as:
 
 
-
 $$
 
 H(s) = \frac{Y(s)}{U(s)}
 
 $$
-
 
 
 where $H(s)$ is the transfer function, $Y(s)$ is the Laplace Transform of the output, and $U(s)$ is the Laplace Transform of the input.
@@ -3968,21 +3879,17 @@ The transfer function is a powerful tool in analyzing and designing control syst
 State-space representation is a mathematical model that describes the behavior of a system using a set of first-order differential equations. It is commonly used in control systems because it allows for a more intuitive understanding of the system's behavior. The state-space representation of a system can be expressed as:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = \mathbf{Ax}(t) + \mathbf{Bu}(t)
 
 $$
 
-
-
 $$
 
 \mathbf{y}(t) = \mathbf{Cx}(t) + \mathbf{Du}(t)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{y}(t)$ is the output vector, $\mathbf{A}$ is the state matrix, $\mathbf{B}$ is the input matrix, $\mathbf{C}$ is the output matrix, and $\mathbf{D}$ is the feedforward matrix.
@@ -3992,13 +3899,11 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 Using the state-space representation, we can derive the transfer function by taking the Laplace Transform of both sides of the equations and solving for the ratio of the output to the input. This results in the transfer function being expressed as:
 
 
-
 $$
 
 H(s) = \frac{\mathbf{y}(s)}{\mathbf{u}(s)} = \mathbf{C}(s\mathbf{I}-\mathbf{A})^{-1}\mathbf{B} + \mathbf{D}
 
 $$
-
 
 
 where $\mathbf{I}$ is the identity matrix.
@@ -4020,7 +3925,6 @@ In some cases, it may be more convenient to derive the transfer function directl
 Let's consider a simple example of a second-order system with the following ODE:
 
 
-
 $$
 
 \ddot{y}(t) + a_1\dot{y}(t) + a_0y(t) = b_0u(t)
@@ -4028,9 +3932,7 @@ $$
 $$
 
 
-
 Taking the Laplace Transform of both sides and solving for the transfer function, we get:
-
 
 
 $$
@@ -4038,7 +3940,6 @@ $$
 H(s) = \frac{Y(s)}{U(s)} = \frac{b_0}{s^2 + a_1s + a_0}
 
 $$
-
 
 
 This is the transfer function of a second-order system, also known as a "mass-spring-damper" system. We can see that the transfer function is dependent on the parameters $a_0$, $a_1$, and $b_0$, which represent the stiffness, damping, and input gain of the system, respectively.
@@ -4074,13 +3975,11 @@ In the previous section, we explored the basics of Laplace Transform and how it 
 The transfer function is a mathematical representation of the relationship between the input and output of a system. It is defined as the ratio of the Laplace Transform of the output to the Laplace Transform of the input, assuming all initial conditions are zero. Mathematically, it can be expressed as:
 
 
-
 $$
 
 H(s) = \frac{Y(s)}{U(s)}
 
 $$
-
 
 
 where $H(s)$ is the transfer function, $Y(s)$ is the Laplace Transform of the output, and $U(s)$ is the Laplace Transform of the input.
@@ -4094,21 +3993,17 @@ The transfer function is a powerful tool in analyzing and designing control syst
 State-space representation is a mathematical model that describes the behavior of a system using a set of first-order differential equations. It is commonly used in control systems because it allows for a more intuitive understanding of the system's behavior. The state-space representation of a system can be expressed as:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = \mathbf{Ax}(t) + \mathbf{Bu}(t)
 
 $$
 
-
-
 $$
 
 \mathbf{y}(t) = \mathbf{Cx}(t) + \mathbf{Du}(t)
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{y}(t)$ is the output vector, $\mathbf{A}$ is the state matrix, $\mathbf{B}$ is the input matrix, $\mathbf{C}$ is the output matrix, and $\mathbf{D}$ is the feedforward matrix.
@@ -4118,13 +4013,11 @@ where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, 
 Using the state-space representation, we can derive the transfer function by taking the Laplace Transform of both sides of the equations and solving for the output over the input. This results in the following equation:
 
 
-
 $$
 
 H(s) = \mathbf{C}(s\mathbf{I}-\mathbf{A})^{-1}\mathbf{B} + \mathbf{D}
 
 $$
-
 
 
 where $\mathbf{I}$ is the identity matrix.
@@ -4420,13 +4313,11 @@ In addition to these functions, transfer functions can also be used to observe t
 To illustrate the use of transfer functions in time domain analysis, let's consider a second-order system with the following transfer function:
 
 
-
 $$
 
 G(s) = \frac{1}{s^2 + 2\zeta\omega_ns + \omega_n^2}
 
 $$
-
 
 
 where $\zeta$ is the damping ratio and $\omega_n$ is the natural frequency.
@@ -4502,13 +4393,11 @@ Transfer functions can also be used to observe the behavior of a system in the f
 To illustrate the use of transfer functions in frequency domain analysis, let's consider the same second-order system with the following transfer function:
 
 
-
 $$
 
 G(s) = \frac{1}{s^2 + 2\zeta\omega_ns + \omega_n^2}
 
 $$
-
 
 
 By analyzing the poles and zeros of this transfer function, we can determine the system's frequency response. For example, if the poles are located in the left half-plane, the system will have a low-pass filter response, while poles in the right half-plane will result in a high-pass filter response.
@@ -4856,13 +4745,11 @@ The Bode plot is a graphical representation of the transfer function on a logari
 To construct the Bode plot, we first need to convert the transfer function into a standard form. This involves factoring out any constants and rearranging the terms to have a standard form of:
 
 
-
 $$
 
 G(s) = K \frac{(s-z_1)(s-z_2)...(s-z_m)}{(s-p_1)(s-p_2)...(s-p_n)}
 
 $$
-
 
 
 where K is the gain, z's are the zeros, and p's are the poles.
@@ -5832,13 +5719,11 @@ System modeling is the process of representing a real-world system using mathema
 The first step in system modeling is to identify the components of the system and their relationships. This can be done by creating a block diagram, which shows the flow of signals and interactions between different components. For example, a simple electrical system consisting of a resistor, inductor, and capacitor can be represented by the following block diagram:
 
 
-
 $$
 
 V_{in} \rightarrow R \rightarrow L \rightarrow C \rightarrow V_{out}
 
 $$
-
 
 
 Once the components and their relationships have been identified, the next step is to write the equations that govern the behavior of each component. For resistors, Ohm's law can be used to relate the voltage and current, while for inductors and capacitors, the equations for voltage and current in an AC circuit can be used. The equations for op-amps depend on the specific circuit configuration and can be derived using Kirchhoff's laws and the ideal op-amp assumptions.
@@ -5902,7 +5787,6 @@ A transfer function is a mathematical representation of the relationship between
 Let us consider the following circuit:
 
 
-
 $$
 
 V_{in} \rightarrow R \rightarrow L \rightarrow C \rightarrow V_{out}
@@ -5910,9 +5794,7 @@ V_{in} \rightarrow R \rightarrow L \rightarrow C \rightarrow V_{out}
 $$
 
 
-
 Using Kirchhoff's voltage law, we can write the following equation for the circuit:
-
 
 
 $$
@@ -5922,9 +5804,7 @@ V_{in} - IR - L\frac{dI}{dt} - \frac{1}{C}\int I dt = 0
 $$
 
 
-
 Solving for the current, we get:
-
 
 
 $$
@@ -5934,9 +5814,7 @@ I = \frac{V_{in}}{R} - \frac{1}{R}\int V_{in} dt - \frac{1}{LC}\int V_{in} dt
 $$
 
 
-
 Taking the Laplace transform of both sides, we get:
-
 
 
 $$
@@ -5946,9 +5824,7 @@ I(s) = \frac{1}{R}\left(\frac{1}{s}V_{in}(s) - V_{in}(s) - \frac{1}{LC}V_{in}(s)
 $$
 
 
-
 Using Ohm's law, we can write the voltage across the resistor as:
-
 
 
 $$
@@ -5958,9 +5834,7 @@ V_R(s) = IR(s) = \frac{1}{R}\left(\frac{1}{s}V_{in}(s) - V_{in}(s) - \frac{1}{LC
 $$
 
 
-
 The transfer function for this circuit is defined as the ratio of the output voltage to the input voltage, i.e.:
-
 
 
 $$
@@ -5970,9 +5844,7 @@ H(s) = \frac{V_{out}(s)}{V_{in}(s)}
 $$
 
 
-
 Substituting the value of $V_R(s)$, we get:
-
 
 
 $$
@@ -5982,9 +5854,7 @@ H(s) = \frac{1}{R}\left(\frac{1}{s} - 1 - \frac{1}{LC}\right)
 $$
 
 
-
 Simplifying further, we get:
-
 
 
 $$
@@ -5992,7 +5862,6 @@ $$
 H(s) = \frac{1}{R}\left(\frac{1}{s} - \frac{1}{s + \frac{1}{RC}}\right)
 
 $$
-
 
 
 This is the transfer function for our simple electrical system. It is a second-order system with a pole at $s = -\frac{1}{RC}$.
@@ -6260,9 +6129,7 @@ Proportional control is based on the concept of proportional gain, which determi
 The basic equation for proportional control is given by:
 
 
-
 $$u(t) = K_p e(t)$$
-
 
 
 Where $u(t)$ is the control input, $K_p$ is the proportional gain, and $e(t)$ is the error signal. This equation shows that the control input is directly proportional to the error signal, with the gain acting as a scaling factor. A higher gain value results in a stronger control action, while a lower gain value results in a weaker control action.
@@ -6288,9 +6155,7 @@ The gain value plays a crucial role in the performance of a proportional control
 To illustrate the effects of gain on proportional control performance, let's consider a simple example of a temperature control system. The desired setpoint is 25 degrees Celsius, and the system is initially at 20 degrees Celsius. The proportional control equation for this system is given by:
 
 
-
 $$u(t) = K_p (25 - T(t))$$
-
 
 
 Where $T(t)$ is the temperature at time $t$. We can see that the control input is directly proportional to the error signal, which is the difference between the desired setpoint and the current temperature.
@@ -6346,13 +6211,11 @@ In the previous section, we discussed the fundamentals of proportional control a
 Proportional gain, denoted by $K_p$, is a crucial parameter in proportional control. It determines the strength of the control action and is directly proportional to the difference between the desired setpoint and the actual output of the system. Mathematically, it can be represented as:
 
 
-
 $$
 
 K_p = \frac{\Delta u}{\Delta e}
 
 $$
-
 
 
 where $\Delta u$ is the change in the control action and $\Delta e$ is the change in the error between the setpoint and the actual output.
@@ -6396,13 +6259,11 @@ In the previous section, we discussed the fundamentals of proportional control a
 Proportional gain, denoted by $K_p$, is a crucial parameter in proportional control. It determines the strength of the control action and is directly proportional to the difference between the desired setpoint and the actual output of the system. Mathematically, it can be represented as:
 
 
-
 $$
 
 K_p = \frac{\Delta u}{\Delta e}
 
 $$
-
 
 
 where $\Delta u$ is the change in the control action and $\Delta e$ is the change in the error between the setpoint and the actual output.
@@ -6478,13 +6339,11 @@ The basic principle behind a flywheel is the conservation of angular momentum. W
 The amount of energy stored in a flywheel is directly proportional to its mass and the square of its rotational speed. This can be represented mathematically as:
 
 
-
 $$
 
 E = \frac{1}{2}I\omega^2
 
 $$
-
 
 
 where $E$ is the energy stored in the flywheel, $I$ is the moment of inertia, and $\omega$ is the angular velocity.
@@ -6506,13 +6365,11 @@ To effectively use a flywheel in a system, it is essential to model and analyze 
 The dynamics of a flywheel can be described by the following equation:
 
 
-
 $$
 
 J\ddot{\theta} = T_m - T_l
 
 $$
-
 
 
 where $J$ is the moment of inertia, $\theta$ is the angular displacement, $T_m$ is the torque applied by the motor, and $T_l$ is the load torque.
@@ -6560,13 +6417,11 @@ The basic principle behind a flywheel is the conservation of angular momentum. W
 The amount of energy stored in a flywheel is directly proportional to its mass and the square of its rotational speed. This can be represented mathematically as:
 
 
-
 $$
 
 E = \frac{1}{2}I\omega^2
 
 $$
-
 
 
 where $E$ is the energy stored in the flywheel, $I$ is the moment of inertia, and $\omega$ is the angular velocity.
@@ -6588,13 +6443,11 @@ To effectively use a flywheel in a system, it is essential to model and analyze 
 The dynamics of a flywheel can be described by the following equation:
 
 
-
 $$
 
 I\ddot{\theta} + b\dot{\theta} + k\theta = T
 
 $$
-
 
 
 where $I$ is the moment of inertia, $b$ is the damping coefficient, $k$ is the stiffness coefficient, $\theta$ is the angular displacement, and $T$ is the applied torque.
@@ -6646,13 +6499,11 @@ The basic principle behind a flywheel is the conservation of angular momentum. W
 The amount of energy stored in a flywheel is directly proportional to its mass and the square of its rotational speed. This can be represented mathematically as:
 
 
-
 $$
 
 E = \frac{1}{2}I\omega^2
 
 $$
-
 
 
 where $E$ is the energy stored in the flywheel, $I$ is the moment of inertia, and $\omega$ is the angular velocity.
@@ -6674,13 +6525,11 @@ To effectively use a flywheel in a system, it is essential to model and analyze 
 The flywheel can be modeled using the principles of rotational dynamics, where the torque applied to the flywheel is equal to the moment of inertia multiplied by the angular acceleration. This can be represented mathematically as:
 
 
-
 $$
 
 \tau = I\alpha
 
 $$
-
 
 
 where $\tau$ is the torque, $I$ is the moment of inertia, and $\alpha$ is the angular acceleration.
@@ -6992,13 +6841,11 @@ The implementation of anti-windup techniques can vary depending on the specific 
 For the back-calculation method, the estimated error can be calculated using a simple formula:
 
 
-
 $$
 
 \Delta u = K_i \int_0^t e(\tau) d\tau
 
 $$
-
 
 
 where $\Delta u$ is the correction to the control signal, $K_i$ is the integral gain, and $e(\tau)$ is the error at time $\tau$. This correction can then be subtracted from the control signal to compensate for the effects of windup.
@@ -7210,13 +7057,11 @@ Integral control is a fundamental concept in the field of systems and controls. 
 The mathematical representation of integral control can be described using the following equation:
 
 
-
 $$
 
 u(t) = K_i \int_{0}^{t} e(\tau) d\tau
 
 $$
-
 
 
 where $u(t)$ is the control input, $K_i$ is the integral gain, and $e(t)$ is the error signal. This equation shows that the control input is directly proportional to the integral of the error signal. This means that the control input will continuously increase or decrease until the error signal is reduced to zero.
@@ -7792,13 +7637,11 @@ Bode plots are a graphical representation of the frequency response of a system.
 To create a Bode plot, we first need to obtain the transfer function of the system. In the case of the flywheel system, the transfer function is given by:
 
 
-
 $$
 
 G(s) = \frac{K_p + K_i/s}{s^2 + (K_p + K_i/s)JLs + K_pK_i}
 
 $$
-
 
 
 where $K_p$ and $K_i$ are the proportional and integral gains of the PI controller, respectively.
@@ -7874,13 +7717,11 @@ The Nyquist plot is a graphical representation of the frequency response of a sy
 To create a Nyquist plot, we first need to obtain the transfer function of the system. In the case of the flywheel system, the transfer function is given by:
 
 
-
 $$
 
 G(s) = \frac{K_p + K_i/s}{s^2 + (K_p + K_i/s)JLs + K_pK_i}
 
 $$
-
 
 
 where $K_p$ and $K_i$ are the proportional and integral gains of the PI controller, respectively.
@@ -8312,9 +8153,7 @@ In the previous section, we discussed the basics of PID control and how the thre
 In order to design a PID controller, we must first understand the transfer function of the system we are trying to control. This transfer function represents the relationship between the input and output of the system. It is typically represented in the Laplace domain as:
 
 
-
 $$G(s) = \frac{Y(s)}{U(s)}$$
-
 
 
 Where $Y(s)$ is the output of the system and $U(s)$ is the input.
@@ -8324,9 +8163,7 @@ Where $Y(s)$ is the output of the system and $U(s)$ is the input.
 The transfer function can also be represented in the time domain as:
 
 
-
 $$y(t) = \int_{0}^{t} g(t-\tau)u(\tau)d\tau$$
-
 
 
 Where $g(t)$ is the impulse response of the system.
@@ -8390,9 +8227,7 @@ In the previous section, we discussed the basics of PID control and how the thre
 In order to design a PID controller, we must first understand the transfer function of the system we are trying to control. This transfer function represents the relationship between the input and output of the system. It is typically represented in the Laplace domain as:
 
 
-
 $$G(s) = \frac{Y(s)}{U(s)}$$
-
 
 
 Where $Y(s)$ is the output of the system and $U(s)$ is the input.
@@ -8402,9 +8237,7 @@ Where $Y(s)$ is the output of the system and $U(s)$ is the input.
 The transfer function can also be represented in the time domain as:
 
 
-
 $$y(t) = \int_{0}^{t} g(t-\tau)u(\tau)d\tau$$
-
 
 
 Where $g(t)$ is the impulse response of the system.
@@ -8894,7 +8727,6 @@ The inverted pendulum system consists of a pendulum attached to a cart that can 
 To understand the dynamics of the inverted pendulum, we can use Lagrange's equations to derive the equations of motion. Let <math>\theta(t)</math> be the angle of the pendulum of length <math>l</math> with respect to the vertical direction, and <math>x(t)</math> be the position of the cart. The kinetic energy <math>T</math> of the system is given by:
 
 
-
 $$
 
 T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\theta}\cos{\theta} + l^2\dot{\theta}^2\right)
@@ -8902,9 +8734,7 @@ T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\the
 $$
 
 
-
 where <math>M</math> is the mass of the cart, <math>m</math> is the mass of the pendulum, and <math>l</math> is the length of the pendulum. The generalized coordinates of the system are <math>\theta</math> and <math>x</math>, each with a generalized force. The generalized force <math>Q_x</math> acting on the <math>x</math> axis can be calculated through its virtual work:
-
 
 
 $$
@@ -8914,9 +8744,7 @@ Q_x = F
 $$
 
 
-
 where <math>F</math> is the external force in the x-direction. Similarly, the generalized force <math>Q_\theta</math> acting on the <math>\theta</math> axis can be calculated through its virtual work:
-
 
 
 $$
@@ -8926,9 +8754,7 @@ Q_\theta = mgl\sin{\theta}
 $$
 
 
-
 where <math>g</math> is the acceleration due to gravity. Using Lagrange's equations, we can derive the equations of motion for the inverted pendulum system:
-
 
 
 $$
@@ -8937,14 +8763,11 @@ $$
 
 $$
 
-
-
 $$
 
 ml\ddot{x}\cos{\theta} - ml^2\ddot{\theta} + (M+m)gl\sin{\theta} = 0
 
 $$
-
 
 
 These equations describe the dynamics of the inverted pendulum system and can be used to design control strategies to stabilize the system.
@@ -8980,7 +8803,6 @@ The inverted pendulum system consists of a pendulum attached to a cart that can 
 To understand the dynamics of the inverted pendulum, we can use Lagrange's equations to derive the equations of motion. Let <math>\theta(t)</math> be the angle of the pendulum of length <math>l</math> with respect to the vertical direction, and <math>x(t)</math> be the position of the cart. The kinetic energy <math>T</math> of the system is given by:
 
 
-
 $$
 
 T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\theta}\cos{\theta} + l^2\dot{\theta}^2\right)
@@ -8988,9 +8810,7 @@ T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\the
 $$
 
 
-
 where <math>M</math> is the mass of the cart, <math>m</math> is the mass of the pendulum, and <math>l</math> is the length of the pendulum. The generalized coordinates of the system are <math>\theta</math> and <math>x</math>, each with a generalized force. The generalized force <math>Q_x</math> acting on the <math>x</math> axis can be calculated through its virtual work:
-
 
 
 $$
@@ -9000,9 +8820,7 @@ Q_x = F
 $$
 
 
-
 where <math>F</math> is the external force in the x-direction. Similarly, the generalized force <math>Q_\theta</math> acting on the <math>\theta</math> axis can be calculated through its virtual work:
-
 
 
 $$
@@ -9010,7 +8828,6 @@ $$
 Q_\theta = mgl\sin\theta
 
 $$
-
 
 
 where <math>g</math> is the acceleration due to gravity. These equations of motion can be used to model the behavior of the inverted pendulum system and design control strategies to stabilize it.
@@ -9094,7 +8911,6 @@ The inverted pendulum system consists of a pendulum attached to a cart that can 
 To understand the dynamics of the inverted pendulum, we can use Lagrange's equations to derive the equations of motion. Let <math>\theta(t)</math> be the angle of the pendulum of length <math>l</math> with respect to the vertical direction, and <math>x(t)</math> be the position of the cart. The kinetic energy <math>T</math> of the system is given by:
 
 
-
 $$
 
 T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\theta}\cos{\theta} + l^2\dot{\theta}^2\right)
@@ -9102,9 +8918,7 @@ T = \frac{1}{2} M \dot{x}^2 + \frac{1}{2} m \left(\dot{x}^2 - 2l\dot{x}\dot{\the
 $$
 
 
-
 where <math>M</math> is the mass of the cart, <math>m</math> is the mass of the pendulum, and <math>l</math> is the length of the pendulum. The generalized coordinates of the system are <math>\theta</math> and <math>x</math>, each with a generalized force. The generalized force <math>Q_x</math> acting on the <math>x</math> axis can be calculated through its virtual work:
-
 
 
 $$
@@ -9114,9 +8928,7 @@ Q_x = F
 $$
 
 
-
 where <math>F</math> is the external force in the x-direction. Similarly, the generalized force <math>Q_\theta</math> acting on the <math>\theta</math> axis can be calculated as:
-
 
 
 $$
@@ -9126,9 +8938,7 @@ Q_\theta = -mg\sin{\theta}
 $$
 
 
-
 where <math>g</math> is the acceleration due to gravity. Using these equations, we can derive the equations of motion for the inverted pendulum system:
-
 
 
 $$
@@ -9137,14 +8947,11 @@ $$
 
 $$
 
-
-
 $$
 
 l\ddot{\theta} + g\sin{\theta} - \ddot{x}\cos{\theta} = 0
 
 $$
-
 
 
 These equations show the complex dynamics of the inverted pendulum system and highlight the need for precise control in order to maintain its upright position.
@@ -9212,7 +9019,6 @@ State-space modeling is a mathematical approach to represent a dynamic system in
 To begin, we can define the state variables of the system as <math>x_1 = x</math> and <math>x_2 = \theta</math>, representing the cart's position and the pendulum's angle, respectively. The input to the system can be defined as <math>u = F</math>, the external force applied to the cart. Using these variables, we can construct a state-space model for the inverted pendulum system:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9230,7 +9036,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 where <math>g</math> is the acceleration due to gravity and <math>l</math> is the length of the pendulum. This model captures the dynamics of the system, showing how the cart's position and the pendulum's angle change over time.
@@ -9274,7 +9079,6 @@ State-space analysis is a mathematical technique used to analyze the behavior of
 To perform state-space analysis, we first need to construct a state-space model for the system. As discussed in the previous section, the state variables for the inverted pendulum system are <math>x_1 = x</math> and <math>x_2 = \theta</math>, representing the cart's position and the pendulum's angle, respectively. The input to the system is <math>u = F</math>, the external force applied to the cart. Using these variables, we can construct the state-space model for the inverted pendulum system:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9292,7 +9096,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 Once we have the state-space model, we can perform various analyses to gain insights into the system's behavior. One of the most important analyses is stability analysis, which helps us determine whether the system is stable or unstable. In the case of the inverted pendulum, stability analysis can help us understand whether the pendulum will remain in its upright position or fall over.
@@ -9336,7 +9139,6 @@ State-space analysis is a mathematical technique used to analyze the behavior of
 To perform state-space analysis, we first need to construct a state-space model for the system. As discussed in the previous section, the state variables for the inverted pendulum system are $x_1 = x$ and $x_2 = \theta$, representing the cart's position and the pendulum's angle, respectively. The input to the system is $u = F$, the external force applied to the cart. Using these variables, we can construct the state-space model for the inverted pendulum system:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9354,7 +9156,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 Once we have the state-space model, we can perform various analyses to gain insights into the system's behavior. One of the most important analyses is stability analysis, which helps us determine whether the system is stable or unstable. In the case of the inverted pendulum, stability analysis can help us understand whether the pendulum will remain in its upright position or fall over.
@@ -9414,7 +9215,6 @@ Control design is the process of designing a control system that can manipulate 
 To design a control system for the inverted pendulum, we first need to understand the dynamics of the system. As discussed in the previous section, the state-space model for the inverted pendulum is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9432,7 +9232,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 This model describes how the states of the system, represented by $x_1$ and $x_2$, change over time. In order to stabilize the inverted pendulum, we need to manipulate the input $u$ in such a way that the pendulum remains in its upright position. This can be achieved by designing a control law that takes into account the current state of the system and calculates the appropriate input to achieve the desired output.
@@ -9476,7 +9275,6 @@ Control design is the process of designing a control system that can manipulate 
 To design a control system for the inverted pendulum, we first need to understand the dynamics of the system. As discussed in the previous section, the state-space model for the inverted pendulum is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9494,7 +9292,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 This model describes how the states of the system, represented by $x_1$ and $x_2$, change over time. In order to stabilize the inverted pendulum, we need to manipulate the input $u$ in such a way that the pendulum remains in its upright position. This can be achieved by designing a control law that takes into account the current state of the system and calculates the appropriate input to achieve the desired output.
@@ -9566,7 +9363,6 @@ Control design is the process of designing a control system that can manipulate 
 To design a control system for the inverted pendulum, we first need to understand the dynamics of the system. As discussed in the previous section, the state-space model for the inverted pendulum is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}} = \begin{bmatrix}
@@ -9584,7 +9380,6 @@ x_2 \\
 \end{bmatrix}
 
 $$
-
 
 
 This model describes how the states of the system, represented by $x_1$ and $x_2$, change over time. In order to stabilize the inverted pendulum, we need to manipulate the input $u$ in such a way that the pendulum remains in its upright position. This can be achieved by designing a control law that takes into account the current state of the system and calculates the appropriate input to achieve the desired output.
@@ -10882,7 +10677,6 @@ To construct a root locus plot, we first need to determine the open-loop transfe
 Now, let's practice constructing a root locus plot. Consider the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -10890,9 +10684,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 To find the characteristic equation, we set the denominator of the transfer function equal to zero:
-
 
 
 $$
@@ -10902,9 +10694,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -10912,7 +10702,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the complex plane, we get the following root locus plot:
@@ -10946,13 +10735,11 @@ To better understand P-control, let's consider an example. Suppose we have a tem
 The control signal is calculated using the following equation:
 
 
-
 $$
 
 u(t) = K_pe(t)
 
 $$
-
 
 
 Where "u(t)" is the control signal, "Kp" is the proportional gain, and "e(t)" is the error.
@@ -10962,7 +10749,6 @@ Where "u(t)" is the control signal, "Kp" is the proportional gain, and "e(t)" is
 Now, let's practice using P-control to achieve a desired output. Consider the following system:
 
 
-
 $$
 
 G(s) = \frac{1}{s(s+1)}
@@ -10970,9 +10756,7 @@ G(s) = \frac{1}{s(s+1)}
 $$
 
 
-
 We want to design a P-controller to achieve a steady-state error of 0.1 when the input is a unit step function. Using the P-control equation, we get:
-
 
 
 $$
@@ -10982,9 +10766,7 @@ u(t) = K_pe(t) = K_p(1-e(t))
 $$
 
 
-
 Substituting the transfer function and the desired steady-state error, we get:
-
 
 
 $$
@@ -10994,9 +10776,7 @@ K_p = \frac{1}{0.1} = 10
 $$
 
 
-
 Therefore, the P-controller for this system is:
-
 
 
 $$
@@ -11004,7 +10784,6 @@ $$
 u(t) = 10(1-e(t))
 
 $$
-
 
 
 Now, let's move on to the next practice problem.
@@ -11022,7 +10801,6 @@ As we have seen, root locus and P-control are closely related. The root locus pl
 To further explore this relationship, let's consider the following system:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11030,9 +10808,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 We want to design a P-controller for this system to achieve a steady-state error of 0.1 when the input is a unit step function. Using the P-control equation, we get:
-
 
 
 $$
@@ -11042,9 +10818,7 @@ u(t) = K_pe(t) = K_p(1-e(t))
 $$
 
 
-
 Substituting the transfer function and the desired steady-state error, we get:
-
 
 
 $$
@@ -11054,9 +10828,7 @@ K_p = \frac{1}{0.1} = 10
 $$
 
 
-
 Therefore, the P-controller for this system is:
-
 
 
 $$
@@ -11064,7 +10836,6 @@ $$
 u(t) = 10(1-e(t))
 
 $$
-
 
 
 Now, let's plot the root locus for this system with varying values of "K". We get the following plot:
@@ -11136,7 +10907,6 @@ To construct a root locus plot, we first need to determine the open-loop transfe
 Now, let's practice constructing a root locus plot. Consider the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11144,9 +10914,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 To find the characteristic equation, we set the denominator of the transfer function equal to zero:
-
 
 
 $$
@@ -11156,9 +10924,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11166,7 +10932,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the complex plane, we get the following root locus plot:
@@ -11196,7 +10961,6 @@ In addition to analyzing the behavior of a control system, root locus plots can 
 Let's consider the same open-loop transfer function as before:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11204,9 +10968,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 Suppose we want to design a control system with a dominant pole at -1 on the real axis. This means we want to move the pole at -2 to -1. To achieve this, we can add a proportional controller, also known as a P-controller, to the system. The transfer function of a P-controller is given by:
-
 
 
 $$
@@ -11216,9 +10978,7 @@ G_c(s) = K_c
 $$
 
 
-
 Adding this controller to our system, we get the following closed-loop transfer function:
-
 
 
 $$
@@ -11228,9 +10988,7 @@ G_{cl}(s) = \frac{K K_c}{s(s+2)(s+4) + K K_c}
 $$
 
 
-
 To achieve a dominant pole at -1, we need to choose a value for Kc such that the pole at -2 is moved to -1. This can be done by setting the characteristic equation equal to zero and solving for Kc:
-
 
 
 $$
@@ -11239,14 +10997,11 @@ s(s+2)(s+4) + K K_c = 0
 
 $$
 
-
-
 $$
 
 K_c = \frac{2}{K}
 
 $$
-
 
 
 Therefore, to achieve a dominant pole at -1, we need to choose a value for Kc that is equal to half of the gain K.
@@ -11256,13 +11011,11 @@ Therefore, to achieve a dominant pole at -1, we need to choose a value for Kc th
 Now, let's plot the root locus for this new closed-loop transfer function with K = 1:
 
 
-
 $$
 
 G_{cl}(s) = \frac{K_c}{s(s+1)(s+4) + K_c}
 
 $$
-
 
 
 ![Root Locus Plot with P-controller](https://i.imgur.com/7Z5jzYJ.png)
@@ -11310,7 +11063,6 @@ To construct a root locus plot, we first need to determine the open-loop transfe
 Now, let's practice constructing a root locus plot. Consider the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11318,9 +11070,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 To find the characteristic equation, we set the denominator of the transfer function equal to zero:
-
 
 
 $$
@@ -11330,9 +11080,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11340,7 +11088,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the complex plane, we get the following root locus plot:
@@ -11378,7 +11125,6 @@ The proportional gain, denoted as "Kp", determines how much the control signal i
 Now, let's practice using P-control in a simple scenario. Consider the following system:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)}
@@ -11386,9 +11132,7 @@ G(s) = \frac{K}{s(s+2)}
 $$
 
 
-
 We want to design a P-control system to maintain the output at a setpoint of 5. The transfer function for the P-control system is:
-
 
 
 $$
@@ -11398,9 +11142,7 @@ G_c(s) = K_p
 $$
 
 
-
 The closed-loop transfer function is then:
-
 
 
 $$
@@ -11410,9 +11152,7 @@ G_{cl}(s) = \frac{K_pG(s)}{1+K_pG(s)}
 $$
 
 
-
 Substituting the given transfer function, we get:
-
 
 
 $$
@@ -11422,9 +11162,7 @@ G_{cl}(s) = \frac{K_pK}{s^2 + 2s + K_pK}
 $$
 
 
-
 To maintain stability, we need to ensure that the poles of the closed-loop transfer function are in the left half of the complex plane. This means that the denominator of the transfer function must be positive. Therefore, we can set the following condition:
-
 
 
 $$
@@ -11434,9 +11172,7 @@ K_pK > 0
 $$
 
 
-
 This means that both Kp and K must have the same sign. Now, let's choose a value for K and solve for Kp. Let's say we choose K = 1. Then, we can set Kp = 1 and get the following closed-loop transfer function:
-
 
 
 $$
@@ -11444,7 +11180,6 @@ $$
 G_{cl}(s) = \frac{s}{s^2 + 2s + 1}
 
 $$
-
 
 
 The poles of this transfer function are at -1 and 0, which are both in the left half of the complex plane. This means that the system is stable. We can also see that the system is responsive, as the pole at -1 is closer to the imaginary axis than the pole at 0.
@@ -11504,7 +11239,6 @@ Root locus design is a method used to design a control system by manipulating th
 To illustrate this, let's consider the following example. Suppose we want to design a control system with a closed-loop pole at -1 on the real axis. This means that we want the characteristic equation of our system to have a root at -1. To achieve this, we can manipulate the open-loop transfer function of the system, as shown below:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11512,9 +11246,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 We can see that the characteristic equation of this system is:
-
 
 
 $$
@@ -11524,9 +11256,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 To achieve a root at -1, we can add a gain term "K" to the transfer function, as shown below:
-
 
 
 $$
@@ -11536,9 +11266,7 @@ G(s) = \frac{K(s+1)}{s(s+2)(s+4)}
 $$
 
 
-
 Now, the characteristic equation becomes:
-
 
 
 $$
@@ -11548,9 +11276,7 @@ s(s+2)(s+4) + K(s+1) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11558,7 +11284,6 @@ $$
 s_1 = -1, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -11610,7 +11335,6 @@ Root locus design is a powerful tool that allows us to design a control system b
 To illustrate this, let's consider the following example. Suppose we want to design a control system with a closed-loop pole at -1 on the real axis. This means that we want the characteristic equation of our system to have a root at -1. To achieve this, we can manipulate the open-loop transfer function of the system, as shown below:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11618,9 +11342,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 We can see that the characteristic equation of this system is:
-
 
 
 $$
@@ -11630,9 +11352,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 To achieve a root at -1, we can add a gain term "K" to the transfer function, as shown below:
-
 
 
 $$
@@ -11642,9 +11362,7 @@ G(s) = \frac{K(s+1)}{s(s+2)(s+4)}
 $$
 
 
-
 Now, the characteristic equation becomes:
-
 
 
 $$
@@ -11654,9 +11372,7 @@ s(s+2)(s+4) + K(s+1) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11664,7 +11380,6 @@ $$
 s_1 = -1, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -11698,13 +11413,11 @@ In order to analyze a system using root locus, we must first understand the key 
 The magnitude condition states that a value of <math>K</math> satisfies the magnitude condition for a given <math>s</math> point of the root locus if:
 
 
-
 $$
 
 |G(s)H(s)| = \frac{|K|}{|1+G(s)H(s)|} = 1
 
 $$
-
 
 
 In other words, the magnitude of the open-loop transfer function at a given point on the root locus must be equal to 1. This condition helps us determine the value of <math>K</math> needed to achieve a desired closed-loop pole location.
@@ -11760,7 +11473,6 @@ Root locus design is a powerful tool that allows us to design a control system b
 To illustrate this, let's consider the following example. Suppose we want to design a control system with a closed-loop pole at -1 on the real axis. This means that we want the characteristic equation of our system to have a root at -1. To achieve this, we can manipulate the open-loop transfer function of the system, as shown below:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11768,9 +11480,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 We can see that the characteristic equation of this system is:
-
 
 
 $$
@@ -11780,9 +11490,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 To achieve a root at -1, we can add a gain term "K" to the transfer function, as shown below:
-
 
 
 $$
@@ -11792,9 +11500,7 @@ G(s) = \frac{K(s+1)}{s(s+2)(s+4)}
 $$
 
 
-
 Now, the characteristic equation becomes:
-
 
 
 $$
@@ -11804,9 +11510,7 @@ s(s+2)(s+4) + K(s+1) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11814,7 +11518,6 @@ $$
 s_1 = -1, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -11844,7 +11547,6 @@ P-Control, or proportional control, is a type of feedback control system that us
 The transfer function of a P-Control system can be represented as:
 
 
-
 $$
 
 G(s) = K_p
@@ -11852,9 +11554,7 @@ G(s) = K_p
 $$
 
 
-
 Where Kp is the proportional gain. The output of the system is then given by:
-
 
 
 $$
@@ -11862,7 +11562,6 @@ $$
 y(t) = K_p e(t)
 
 $$
-
 
 
 Where e(t) is the error between the desired output and the actual output. The proportional gain, Kp, determines the sensitivity of the system to changes in the error. A higher Kp value results in a more sensitive system, while a lower Kp value results in a less sensitive system.
@@ -11930,7 +11629,6 @@ Root locus analysis provides a graphical representation of the closed-loop poles
 To understand this better, let's consider the following example. Suppose we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -11938,9 +11636,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -11950,9 +11646,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -11960,7 +11654,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -11978,7 +11671,6 @@ As we can see, the poles of the system lie on the right half of the s-plane, ind
 On the other hand, if we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)+K}
@@ -11986,9 +11678,7 @@ G(s) = \frac{K}{s(s+2)(s+4)+K}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -11998,9 +11688,7 @@ s(s+2)(s+4)+K = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -12008,7 +11696,6 @@ $$
 s_1 = \frac{-2K}{K+1}, s_2 = \frac{-4K}{K+1}, s_3 = -K
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -12060,7 +11747,6 @@ Root locus analysis provides a graphical representation of the closed-loop poles
 To understand this better, let's consider the following example. Suppose we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -12068,9 +11754,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -12080,9 +11764,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -12090,7 +11772,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -12108,7 +11789,6 @@ As we can see, the poles of the system lie on the right half of the s-plane, ind
 On the other hand, if we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)+K}
@@ -12116,9 +11796,7 @@ G(s) = \frac{K}{s(s+2)(s+4)+K}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -12128,9 +11806,7 @@ s(s+2)(s+4)+K = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -12138,7 +11814,6 @@ $$
 s_1 = \frac{-2K}{K+1}, s_2 = \frac{-4K}{K+1}, s_3 = -K
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -12222,7 +11897,6 @@ Root locus analysis provides a graphical representation of the closed-loop poles
 To understand this better, let's consider the following example. Suppose we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
@@ -12230,9 +11904,7 @@ G(s) = \frac{K}{s(s+2)(s+4)}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -12242,9 +11914,7 @@ s(s+2)(s+4) = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -12252,7 +11922,6 @@ $$
 s_1 = 0, s_2 = -2, s_3 = -4
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -12270,7 +11939,6 @@ As we can see, the poles of the system lie on the right half of the s-plane, ind
 On the other hand, if we have a control system with the following open-loop transfer function:
 
 
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)+K}
@@ -12278,9 +11946,7 @@ G(s) = \frac{K}{s(s+2)(s+4)+K}
 $$
 
 
-
 The characteristic equation of this system is:
-
 
 
 $$
@@ -12290,9 +11956,7 @@ s(s+2)(s+4)+K = 0
 $$
 
 
-
 Solving for "s", we get the following poles:
-
 
 
 $$
@@ -12300,7 +11964,6 @@ $$
 s_1 = \frac{-2K}{K+1}, s_2 = \frac{-4K}{K+1}, s_3 = -K
 
 $$
-
 
 
 Plotting these poles on the root locus plot, we get the following:
@@ -12452,9 +12115,7 @@ PID (Proportional-Integral-Derivative) controllers are widely used in control sy
 To design a PID controller using root locus, we first need to determine the open-loop transfer function of the system. This can be done by taking the Laplace transform of the system's differential equations. Once we have the open-loop transfer function, we can use the design equation:
 
 
-
 $$ D(s) = K_p + \frac{K_i}{s} + K_d s $$
-
 
 
 Where $K_p$, $K_i$, and $K_d$ are the proportional, integral, and derivative gains, respectively. These gains can be adjusted to achieve the desired system response.
@@ -12518,9 +12179,7 @@ PID (Proportional-Integral-Derivative) controllers are widely used in control sy
 To design a PID controller using root locus, we first need to determine the open-loop transfer function of the system. This can be done by taking the Laplace transform of the system's differential equations. Once we have the open-loop transfer function, we can use the design equation:
 
 
-
 $$ D(s) = K_p + \frac{K_i}{s} + K_d s $$
-
 
 
 Where $K_p$, $K_i$, and $K_d$ are the proportional, integral, and derivative gains, respectively. These gains can be adjusted to achieve the desired system response.
@@ -12600,13 +12259,11 @@ Overall, this chapter has provided a comprehensive understanding of root locus a
 #### Exercise 1
 
 Consider a system with the following transfer function:
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
 
 $$
-
 Sketch the root locus for this system and determine the range of values for K that will result in a stable system.
 
 
@@ -12614,13 +12271,11 @@ Sketch the root locus for this system and determine the range of values for K th
 #### Exercise 2
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a critically damped system.
 
 
@@ -12628,13 +12283,11 @@ Determine the value of K that will result in a critically damped system.
 #### Exercise 3
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a damping ratio of 0.5.
 
 
@@ -12642,13 +12295,11 @@ Determine the value of K that will result in a system with a damping ratio of 0.
 #### Exercise 4
 
 Consider a system with the following transfer function:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a settling time of 2 seconds.
 
 
@@ -12656,13 +12307,11 @@ Determine the value of K that will result in a system with a settling time of 2 
 #### Exercise 5
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a steady-state error of 0.1.
 
 
@@ -12688,13 +12337,11 @@ Overall, this chapter has provided a comprehensive understanding of root locus a
 #### Exercise 1
 
 Consider a system with the following transfer function:
-
 $$
 
 G(s) = \frac{K}{s(s+2)(s+4)}
 
 $$
-
 Sketch the root locus for this system and determine the range of values for K that will result in a stable system.
 
 
@@ -12702,13 +12349,11 @@ Sketch the root locus for this system and determine the range of values for K th
 #### Exercise 2
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a critically damped system.
 
 
@@ -12716,13 +12361,11 @@ Determine the value of K that will result in a critically damped system.
 #### Exercise 3
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a damping ratio of 0.5.
 
 
@@ -12730,13 +12373,11 @@ Determine the value of K that will result in a system with a damping ratio of 0.
 #### Exercise 4
 
 Consider a system with the following transfer function:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a settling time of 2 seconds.
 
 
@@ -12744,13 +12385,11 @@ Determine the value of K that will result in a system with a settling time of 2 
 #### Exercise 5
 
 A system has a transfer function given by:
-
 $$
 
 G(s) = \frac{K}{s(s+1)(s+2)}
 
 $$
-
 Determine the value of K that will result in a system with a steady-state error of 0.1.
 
 
@@ -12864,7 +12503,6 @@ The extended Kalman filter (EKF) is a generalization of the traditional Kalman f
 The model for continuous-time EKF is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
@@ -12872,9 +12510,7 @@ $$
 $$
 
 
-
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, and $\mathbf{w}(t)$ is the process noise. The measurement model is given by:
-
 
 
 $$
@@ -12884,7 +12520,6 @@ $$
 $$
 
 
-
 where $\mathbf{z}(t)$ is the measurement vector and $\mathbf{v}(t)$ is the measurement noise.
 
 
@@ -12892,13 +12527,11 @@ where $\mathbf{z}(t)$ is the measurement vector and $\mathbf{v}(t)$ is the measu
 The initialization of EKF involves estimating the initial state and covariance matrix:
 
 
-
 $$
 
 \hat{\mathbf{x}}(t_0) = E\bigl[\mathbf{x}(t_0)\bigr] \quad \mathbf{P}(t_0) = Var\bigl[\mathbf{x}(t_0)\bigr]
 
 $$
-
 
 
 The predict-update algorithm is then used to estimate the state of the system. The prediction step involves using the model to predict the state at the next time step, while the update step involves using the measurement to correct the predicted state. This process is repeated at each time step to continuously update the state estimate.
@@ -13216,7 +12849,6 @@ In the previous section, we discussed the basics of optimal control systems. In 
 The continuous-time optimal control problem can be formulated as follows:
 
 
-
 $$
 
 \min_{\mathbf{u}(t)} J = \int_{t_0}^{t_f} L(\mathbf{x}(t), \mathbf{u}(t), t) dt
@@ -13224,9 +12856,7 @@ $$
 $$
 
 
-
 subject to the system dynamics:
-
 
 
 $$
@@ -13236,9 +12866,7 @@ $$
 $$
 
 
-
 and the initial and final conditions:
-
 
 
 $$
@@ -13248,13 +12876,11 @@ $$
 $$
 
 
-
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the control input vector, $L$ is the cost function, and $t_0$ and $t_f$ are the initial and final times, respectively.
 
 
 
 The solution to this problem can be obtained using the Pontryagin's maximum principle, which states that the optimal control is given by:
-
 
 
 $$
@@ -13264,9 +12890,7 @@ $$
 $$
 
 
-
 where $\mathbf{x}^*(t)$ is the optimal state trajectory, $\mathbf{\lambda}^*(t)$ is the optimal costate trajectory, and $\mathcal{H}$ is the Hamiltonian function defined as:
-
 
 
 $$
@@ -13276,9 +12900,7 @@ $$
 $$
 
 
-
 The optimal control inputs can be obtained by solving the Hamiltonian equations:
-
 
 
 $$
@@ -13287,8 +12909,6 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{\lambda}}^*(t) = -\frac{\partial \mathcal{H}}{\partial \mathbf{x}} = -\frac{\partial L}{\partial \mathbf{x}} - \mathbf{\lambda}^*(t)^T \frac{\partial f}{\partial \mathbf{x}}
@@ -13296,9 +12916,7 @@ $$
 $$
 
 
-
 with the boundary conditions:
-
 
 
 $$
@@ -13306,7 +12924,6 @@ $$
 \mathbf{\lambda}^*(t_f) = \frac{\partial \phi}{\partial \mathbf{x}}(\mathbf{x}(t_f))
 
 $$
-
 
 
 where $\phi(\mathbf{x}(t_f))$ is the final cost function.
@@ -17142,9 +16759,7 @@ Power generation is a critical component of the energy sector, and control syste
 The frequency-power relation for TGCs can be expressed as:
 
 
-
 $$\Delta p_m = \Delta p_{ref} - \frac{1}{R} \times \Delta f$$
-
 
 
 where $\Delta p_m$ is the change in turbine mechanical power output, $\Delta p_{ref}$ is the change in a reference power setting, $R$ is the regulation constant which quantifies the sensitivity of the generator to a change in frequency, and $\Delta f$ is the change in frequency.
@@ -17188,9 +16803,7 @@ Power generation is a critical component of the energy sector, and control syste
 The frequency-power relation for TGCs can be expressed as:
 
 
-
 $$\Delta p_m = \Delta p_{ref} - \frac{1}{R} \times \Delta f$$
-
 
 
 where $\Delta p_m$ is the change in turbine mechanical power output, $\Delta p_{ref}$ is the change in a reference power setting, $R$ is the regulation constant which quantifies the sensitivity of the generator to a change in frequency, and $\Delta f$ is the change in frequency.
@@ -17252,7 +16865,6 @@ Power generation is a critical component of the energy sector, and control syste
 
 
 The frequency-power relation for TGCs can be expressed as:
-
 
 
 $$\Delta p_m = \Delta p_{ref} - \frac{1}{R} \times \Delta f$$

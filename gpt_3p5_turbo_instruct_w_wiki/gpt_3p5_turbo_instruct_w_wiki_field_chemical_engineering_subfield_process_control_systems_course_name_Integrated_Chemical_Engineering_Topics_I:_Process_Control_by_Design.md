@@ -1513,9 +1513,7 @@ The material balance equation can be written as:
 
 
 $$
-
 \sum_{i}^{n} m_{in} = \sum_{j}^{n} m_{out}
-
 $$
 
 
@@ -1525,9 +1523,7 @@ where $m_{in}$ and $m_{out}$ represent the mass flow rates of the inputs and out
 
 
 $$
-
 \sum_{i}^{n} C_{in}V_{in} = \sum_{j}^{n} C_{out}V_{out}
-
 $$
 
 
@@ -1553,9 +1549,7 @@ The energy balance equation can be written as:
 
 
 $$
-
 \sum_{i}^{n} E_{in} = \sum_{j}^{n} E_{out}
-
 $$
 
 
@@ -1565,9 +1559,7 @@ where $E_{in}$ and $E_{out}$ represent the energy inputs and outputs, respective
 
 
 $$
-
 \sum_{i}^{n} Q_{in} + \sum_{i}^{n} W_{in} = \sum_{j}^{n} Q_{out} + \sum_{j}^{n} W_{out}
-
 $$
 
 
@@ -1627,9 +1619,7 @@ The material balance equation can be written as:
 
 
 $$
-
 \sum_{i}^{n} m_{in} = \sum_{j}^{n} m_{out}
-
 $$
 
 
@@ -1639,9 +1629,7 @@ where $m_{in}$ and $m_{out}$ represent the mass flow rates of the inputs and out
 
 
 $$
-
 \sum_{i}^{n} C_{in}V_{in} = \sum_{j}^{n} C_{out}V_{out}
-
 $$
 
 
@@ -1667,9 +1655,7 @@ The energy balance equation can be written as:
 
 
 $$
-
 \sum_{i}^{n} E_{in} = \sum_{j}^{n} E_{out}
-
 $$
 
 
@@ -1775,9 +1761,7 @@ The first law of thermodynamics is the basis for energy balance equations. It st
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1815,9 +1799,7 @@ Energy balance equations are used to account for the transfer and conversion of 
 
 
 $$
-
 \Delta E_{system} = Q_{in} - Q_{out} + W_{in} - W_{out}
-
 $$
 
 
@@ -1869,9 +1851,7 @@ The first law of thermodynamics is the foundation of energy balance equations. I
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1913,9 +1893,7 @@ Energy balance equations are used to account for the transfer and conversion of 
 
 
 $$
-
 \Delta E_{system} = Q_{in} - Q_{out} + W_{in} - W_{out}
-
 $$
 
 
@@ -1955,9 +1933,7 @@ The first law of thermodynamics is the foundation of energy balance equations. I
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1999,9 +1975,7 @@ Energy balance equations are used to account for the transfer and conversion of 
 
 
 $$
-
 \Delta E_{system} = Q_{in} - Q_{out} + W_{in} - W_{out}
-
 $$
 
 
@@ -2511,7 +2485,6 @@ Matrix addition and subtraction are performed by adding or subtracting the corre
 
 
 $$
-
 C = A + B = \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -2543,7 +2516,6 @@ a_{21} + b_{21} & a_{22} + b_{22} & ... & a_{2n} + b_{2n} \\
 a_{m1} + b_{m1} & a_{m2} + b_{m2} & ... & a_{mn} + b_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2561,7 +2533,6 @@ Matrix multiplication is a bit more complex than addition and subtraction. It is
 
 
 $$
-
 C = A \cdot B = \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -2593,7 +2564,6 @@ a_{21}b_{11} + a_{22}b_{21} + ... + a_{2n}b_{n1} & a_{21}b_{12} + a_{22}b_{22} +
 a_{m1}b_{11} + a_{m2}b_{21} + ... + a_{mn}b_{n1} & a_{m1}b_{12} + a_{m2}b_{22} + ... + a_{mn}b_{n2} & ... & a_{m1}b_{1p} + a_{m2}b_{2p} + ... + a_{mn}b_{np}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2611,7 +2581,6 @@ Matrix transpose is a simple operation that involves switching the rows and colu
 
 
 $$
-
 A^T = \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -2633,7 +2602,6 @@ a_{12} & a_{22} & ... & a_{m2} \\
 a_{1n} & a_{2n} & ... & a_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2647,7 +2615,6 @@ The inverse of a matrix is a matrix that, when multiplied by the original matrix
 
 
 $$
-
 A^{-1} = \begin{bmatrix}
 
 a_{11} & a_{12} & ... & a_{1n} \\
@@ -2669,7 +2636,6 @@ C_{12} & C_{22} & ... & C_{m2} \\
 C_{1n} & C_{2n} & ... & C_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -2859,15 +2825,11 @@ Consider a chemical process with three variables: temperature, pressure, and flo
 Given the following matrices:
 
 $$
-
 A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \\ 14 & 16 & 18 \end{bmatrix}
-
 $$
 
 Perform the following matrix operations:
@@ -2967,9 +2929,7 @@ The RGA is calculated using the following equation:
 
 
 $$
-
 RGA = \frac{G_{ij}}{G_{ii}} \cdot \frac{G_{jj}}{G_{ij}}
-
 $$
 
 
@@ -2983,9 +2943,7 @@ The RGA can also be calculated using the process transfer function in the Laplac
 
 
 $$
-
 RGA = \frac{G_{ij}(s)}{G_{ii}(s)} \cdot \frac{G_{jj}(s)}{G_{ij}(s)}
-
 $$
 
 
@@ -3029,9 +2987,7 @@ The RGA is calculated using the process transfer function, which relates the inp
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -3045,9 +3001,7 @@ To calculate the RGA, the transfer function is first converted into a first-orde
 
 
 $$
-
 G(s) = \frac{K}{\tau s + 1}e^{-\theta s}
-
 $$
 
 
@@ -3061,9 +3015,7 @@ Once the transfer function is in the FOPTD form, the RGA can be calculated using
 
 
 $$
-
 RGA = \frac{G_{ij}}{G_{ii}} \cdot \frac{G_{jj}}{G_{ij}}
-
 $$
 
 
@@ -3077,9 +3029,7 @@ The RGA can also be calculated using the following formula:
 
 
 $$
-
 RGA = \frac{G}{G^T} \cdot diag(G)
-
 $$
 
 
@@ -3123,9 +3073,7 @@ The RGA is calculated using the process transfer function, which relates the inp
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -3139,9 +3087,7 @@ To calculate the RGA, the transfer function is first converted into a first-orde
 
 
 $$
-
 G(s) = \frac{K}{\tau s + 1}e^{-\theta s}
-
 $$
 
 
@@ -3155,7 +3101,6 @@ Once the transfer function is in the FOPTD form, the RGA can be calculated using
 
 
 $$
-
 RGA = \frac{1}{K}\begin{bmatrix}
 
 \frac{\tau}{\tau + \theta} & \frac{\theta}{\tau + \theta} \\
@@ -3163,7 +3108,6 @@ RGA = \frac{1}{K}\begin{bmatrix}
 \frac{-\theta}{\tau + \theta} & \frac{\tau}{\tau + \theta}
 
 \end{bmatrix}
-
 $$
 
 
@@ -3331,9 +3275,7 @@ To use the RGA method for variable pairing, we first need to calculate the RGA m
 
 
 $$
-
 RGA = \frac{1}{\Delta} \cdot \frac{\partial G}{\partial u} \cdot G^{-1} \cdot \frac{\partial G}{\partial y}
-
 $$
 
 
@@ -3475,9 +3417,7 @@ Overall, the RGA is a valuable tool that should be utilized in the design and op
 Calculate the RGA for a process with the following transfer function:
 
 $$
-
 G(s) = \frac{2s+1}{s^2+3s+2}
-
 $$
 
 
@@ -3487,7 +3427,6 @@ $$
 Given the RGA matrix for a process:
 
 $$
-
 RGA = \begin{bmatrix}
 
 0.5 & 0.5 \\
@@ -3495,7 +3434,6 @@ RGA = \begin{bmatrix}
 0.5 & 0.5
 
 \end{bmatrix}
-
 $$
 
 Determine the best pairing of manipulated and controlled variables.
@@ -3513,9 +3451,7 @@ Explain the significance of a high RGA value in a process.
 Design a decentralized control system for a process with the following transfer functions:
 
 $$
-
 G_1(s) = \frac{1}{s+1} \quad G_2(s) = \frac{1}{s+2}
-
 $$
 
 
@@ -3941,9 +3877,7 @@ The proportional control algorithm can be represented mathematically as follows:
 
 
 $$
-
 u(t) = K_p(e(t))
-
 $$
 
 
@@ -4021,9 +3955,7 @@ The proportional control algorithm can be represented mathematically as follows:
 
 
 $$
-
 u(t) = K_p(e(t))
-
 $$
 
 
@@ -4093,9 +4025,7 @@ The proportional control algorithm can be represented mathematically as follows:
 
 
 $$
-
 u(t) = K_p(e(t))
-
 $$
 
 
@@ -6051,9 +5981,7 @@ The general equation for heat transfer in a heat exchanger is given by:
 
 
 $$
-
 Q = UA\Delta T_{lm}
-
 $$
 
 
@@ -6079,9 +6007,7 @@ Another crucial aspect of heat exchanger network analysis is the use of the gene
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -6109,9 +6035,7 @@ In the case of ideal fluid flow, where thermal conduction and viscous forces are
 
 
 $$
-
 \frac{Ds}{Dt} = 0
-
 $$
 
 
@@ -6163,9 +6087,7 @@ The general equation for heat transfer in a heat exchanger is given by:
 
 
 $$
-
 Q = UA\Delta T_{lm}
-
 $$
 
 
@@ -6191,9 +6113,7 @@ Another crucial aspect of heat exchanger network analysis is the use of the gene
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -6221,9 +6141,7 @@ In the case of thermal conduction and viscous forces being absent, the equation 
 
 
 $$
-
 \frac{Ds}{Dt} = 0
-
 $$
 
 
@@ -6841,9 +6759,7 @@ Overall, this chapter has provided a comprehensive overview of steady-state mode
 Consider a chemical process with the following nonlinear model:
 
 $$
-
 y = \frac{1}{x^2 + 1}
-
 $$
 
 Use numerical linearization to approximate the model around the operating point $x = 2$. Compare the results with the exact solution.
@@ -7617,9 +7533,7 @@ Overall, this chapter highlights the crucial role of RGA and DC in process contr
 Using the SVD method, calculate the updated RGA for a process with the following transfer function:
 
 $$
-
 G(s) = \frac{2s + 1}{s^2 + 3s + 2}
-
 $$
 
 
@@ -9155,9 +9069,7 @@ First, let's review the mathematical model used in the process control design. T
 
 
 $$
-
 r = kC_{benzaldehyde}C_{acetaldehyde}
-
 $$
 
 
@@ -9171,9 +9083,7 @@ The heat transfer is described by the following equation:
 
 
 $$
-
 \frac{dT}{dt} = \frac{Q}{\rho Vc_p} - \frac{UA}{\rho Vc_p}(T - T_{amb})
-
 $$
 
 
@@ -9187,9 +9097,7 @@ The mass transfer is described by the following equation:
 
 
 $$
-
 \frac{dC_i}{dt} = \frac{F_i}{V} - \frac{C_iF}{V}
-
 $$
 
 

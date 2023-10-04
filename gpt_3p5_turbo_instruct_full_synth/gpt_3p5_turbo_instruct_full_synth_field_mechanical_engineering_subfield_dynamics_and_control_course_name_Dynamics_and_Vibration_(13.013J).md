@@ -627,17 +627,13 @@ These three quantities are related by the following equations:
 
 
 $$
-
 v = \frac{dx}{dt}
-
 $$
 
 
 
 $$
-
 a = \frac{dv}{dt} = \frac{d^2x}{dt^2}
-
 $$
 
 
@@ -883,25 +879,19 @@ The most commonly used kinematic equations are the equations of motion for const
 
 
 $$
-
 \Delta x = v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a\Delta x
-
 $$
 
 
@@ -1155,25 +1145,19 @@ The equations of rectilinear motion are based on the three key kinematic equatio
 
 
 $$
-
 \Delta x = v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a\Delta x
-
 $$
 
 
@@ -1325,9 +1309,7 @@ The position equation is given by:
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
@@ -1341,9 +1323,7 @@ The velocity equation is given by:
 
 
 $$
-
 v(t) = v_0 + at
-
 $$
 
 
@@ -1357,9 +1337,7 @@ The acceleration equation is given by:
 
 
 $$
-
 a(t) = a
-
 $$
 
 
@@ -1601,25 +1579,19 @@ For linear motion, the kinematic equations are:
 
 
 $$
-
 \Delta x = v_0t + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 v^2 = v_0^2 + 2a\Delta x
-
 $$
 
 
@@ -1637,25 +1609,19 @@ For rotational motion, the kinematic equations are:
 
 
 $$
-
 \Delta \theta = \omega_0t + \frac{1}{2}\alpha t^2
-
 $$
 
 
 
 $$
-
 \omega = \omega_0 + \alpha t
-
 $$
 
 
 
 $$
-
 \omega^2 = \omega_0^2 + 2\alpha \Delta \theta
-
 $$
 
 
@@ -1673,25 +1639,19 @@ For oscillatory motion, the kinematic equations are:
 
 
 $$
-
 x = A\cos(\omega t + \phi)
-
 $$
 
 
 
 $$
-
 v = -A\omega\sin(\omega t + \phi)
-
 $$
 
 
 
 $$
-
 a = -A\omega^2\cos(\omega t + \phi)
-
 $$
 
 
@@ -1717,17 +1677,13 @@ Polar coordinates are a two-dimensional coordinate system that uses a radial dis
 
 
 $$
-
 x = r\cos\theta
-
 $$
 
 
 
 $$
-
 y = r\sin\theta
-
 $$
 
 
@@ -2097,13 +2053,11 @@ Mathematically, we can express these relationships as follows:
 
 
 $$
-
 \text{Position: } x(t) \\
 
 \text{Velocity: } v(t) = \frac{dx(t)}{dt} \\
 
 \text{Acceleration: } a(t) = \frac{dv(t)}{dt} = \frac{d^2x(t)}{dt^2}
-
 $$
 
 
@@ -2125,13 +2079,11 @@ Each type of motion has its own set of kinematic equations that describe its beh
 
 
 $$
-
 x(t) = x_0 + v_0t + \frac{1}{2}at^2 \\
 
 v(t) = v_0 + at \\
 
 v^2(t) = v_0^2 + 2a(x-x_0)
-
 $$
 
 
@@ -3231,9 +3183,7 @@ In this section, we will discuss the concept of linear momentum and its relation
 
 
 $$
-
 \vec{p} = m\vec{v}
-
 $$
 
 
@@ -3255,9 +3205,7 @@ As mentioned earlier, linear momentum is defined as the product of an object's m
 
 
 $$
-
 \vec{p} = m\vec{v}
-
 $$
 
 
@@ -3267,9 +3215,7 @@ where $\vec{p}$ is the momentum vector, $m$ is the mass of the particle, and $\v
 
 
 $$
-
 \vec{F}_{net} = \frac{d\vec{p}}{dt}
-
 $$
 
 
@@ -3331,9 +3277,7 @@ In this section, we will discuss the concept of linear momentum and its relation
 
 
 $$
-
 p = mv
-
 $$
 
 
@@ -3351,9 +3295,7 @@ The principle of conservation of momentum states that the total momentum of a sy
 
 
 $$
-
 \sum p_{initial} = \sum p_{final}
-
 $$
 
 
@@ -3371,9 +3313,7 @@ Another important concept related to momentum is impulse. Impulse, denoted by $J
 
 
 $$
-
 J = \Delta p = m\Delta v
-
 $$
 
 
@@ -3507,9 +3447,7 @@ The definition of angular momentum can be expressed mathematically as:
 
 
 $$
-
 L = I\omega
-
 $$
 
 
@@ -3779,9 +3717,7 @@ The impulse-momentum theorem is a fundamental concept in dynamics and is closely
 
 
 $$
-
 \Delta p = \int_{t_1}^{t_2} F dt
-
 $$
 
 
@@ -4551,9 +4487,7 @@ To understand the principle of least action, we must first understand the concep
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -4567,9 +4501,7 @@ Using the Lagrangian, we can define the action functional $S$ as the integral of
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -4579,9 +4511,7 @@ The principle of least action states that the path taken by a system between two
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -4591,9 +4521,7 @@ This leads to the Euler-Lagrange equations, which are a set of differential equa
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -4629,9 +4557,7 @@ To understand the principle of least action, we must first understand the concep
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -4645,9 +4571,7 @@ Using the Lagrangian, we can define the action functional $S$ as the integral of
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -4657,9 +4581,7 @@ The principle of least action states that the path taken by a system between two
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -4669,9 +4591,7 @@ This principle can be derived using the calculus of variations. We start by cons
 
 
 $$
-
 q_i(t) \rightarrow q_i(t) + \delta q_i(t)
-
 $$
 
 
@@ -4681,9 +4601,7 @@ Similarly, the variation in the Lagrangian can be expressed as:
 
 
 $$
-
 L(q_i, \dot{q_i}, t) \rightarrow L(q_i + \delta q_i, \dot{q_i} + \delta \dot{q_i}, t)
-
 $$
 
 
@@ -4693,9 +4611,7 @@ Using the Taylor series expansion, we can write the variation in the Lagrangian 
 
 
 $$
-
 L(q_i + \delta q_i, \dot{q_i} + \delta \dot{q_i}, t) = L(q_i, \dot{q_i}, t) + \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} + O(\delta q_i^2, \delta \dot{q_i}^2)
-
 $$
 
 
@@ -4705,9 +4621,7 @@ Substituting this into the action functional and taking the first variation, we 
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt
-
 $$
 
 
@@ -4717,9 +4631,7 @@ Using integration by parts, we can rewrite this as:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt + \left[ \frac{\partial L}{\partial \dot{q_i}} \delta q_i \right]_{t_1}^{t_2}
-
 $$
 
 
@@ -4729,9 +4641,7 @@ Since the variation in the path is zero at the initial and final times, the seco
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} \right) \delta q_i dt
-
 $$
 
 
@@ -4741,9 +4651,7 @@ For the action functional to be stationary, this variation must be equal to zero
 
 
 $$
-
 \frac{\partial L}{\partial q_i} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} = 0
-
 $$
 
 
@@ -4775,9 +4683,7 @@ To understand the principle of least action, we must first understand the concep
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -4791,9 +4697,7 @@ Using the Lagrangian, we can define the action functional $S$ as the integral of
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -4803,9 +4707,7 @@ The principle of least action states that the path taken by a system between two
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -4849,9 +4751,7 @@ To understand Hamilton's Principle, we must first define the Hamiltonian, denote
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -4861,9 +4761,7 @@ Similar to the Lagrangian, the Hamiltonian is a function of the generalized coor
 
 
 $$
-
 p_i = \frac{\partial L}{\partial \dot{q_i}}
-
 $$
 
 
@@ -4873,9 +4771,7 @@ With these definitions in mind, we can now state Hamilton's Principle as follows
 
 
 $$
-
 \delta \int_{t_1}^{t_2} (p_i \dot{q_i} - H) dt = 0
-
 $$
 
 
@@ -4915,9 +4811,7 @@ To understand Hamilton's Principle, we must first define the Hamiltonian, denote
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -4927,9 +4821,7 @@ Similar to the Lagrangian, the Hamiltonian is a function of the generalized coor
 
 
 $$
-
 p_i = \frac{\partial L}{\partial \dot{q_i}}
-
 $$
 
 
@@ -4939,9 +4831,7 @@ With these definitions in mind, we can now state Hamilton's Principle as follows
 
 
 $$
-
 \delta \int_{t_1}^{t_2} (L - H) dt = 0
-
 $$
 
 
@@ -4959,9 +4849,7 @@ Now, let us derive Hamilton's Principle using the Lagrangian equations of motion
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -4971,9 +4859,7 @@ We can rewrite this in terms of the Hamiltonian as:
 
 
 $$
-
 \frac{d}{dt} p_i - \frac{\partial H}{\partial q_i} = 0
-
 $$
 
 
@@ -4983,9 +4869,7 @@ Multiplying both sides by $\delta q_i$ and integrating with respect to time, we 
 
 
 $$
-
 \int_{t_1}^{t_2} \left( \frac{d}{dt} p_i - \frac{\partial H}{\partial q_i} \right) \delta q_i dt = 0
-
 $$
 
 
@@ -4995,9 +4879,7 @@ Using integration by parts, we can rewrite this as:
 
 
 $$
-
 \int_{t_1}^{t_2} \left( p_i \delta \dot{q_i} - \frac{\partial H}{\partial q_i} \delta q_i \right) dt + \left[ p_i \delta q_i \right]_{t_1}^{t_2} = 0
-
 $$
 
 
@@ -5007,9 +4889,7 @@ Since the generalized coordinates are fixed at the initial and final times, the 
 
 
 $$
-
 \int_{t_1}^{t_2} \left( p_i \delta \dot{q_i} - \frac{\partial H}{\partial q_i} \delta q_i \right) dt = 0
-
 $$
 
 
@@ -5019,9 +4899,7 @@ We can now use the definition of the Hamiltonian to rewrite this as:
 
 
 $$
-
 \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} - \frac{\partial L}{\partial q_i} \delta q_i \right) dt = 0
-
 $$
 
 
@@ -5061,9 +4939,7 @@ To understand Hamilton's Principle, we must first define the Hamiltonian, denote
 
 
 $$
-
 H = T + V
-
 $$
 
 
@@ -5073,9 +4949,7 @@ where $T$ represents the kinetic energy and $V$ represents the potential energy 
 
 
 $$
-
 p_i = \frac{\partial L}{\partial \dot{q_i}}
-
 $$
 
 
@@ -5085,9 +4959,7 @@ With these definitions in mind, we can now state Hamilton's Principle as follows
 
 
 $$
-
 \delta \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt = 0
-
 $$
 
 
@@ -5105,9 +4977,7 @@ Using Hamilton's Principle, we can derive the equations of motion for a system o
 
 
 $$
-
 L(q_i, \dot{q_i}, t) = T(q_i, \dot{q_i}) - V(q_i)
-
 $$
 
 
@@ -5117,9 +4987,7 @@ where $T$ and $V$ are the kinetic and potential energies, respectively. Next, we
 
 
 $$
-
 H(q_i, p_i, t) = \sum_{i=1}^{n} p_i \dot{q_i} - L(q_i, \dot{q_i}, t)
-
 $$
 
 
@@ -5129,9 +4997,7 @@ where $p_i$ are the generalized momenta. Using the definition of the Hamiltonian
 
 
 $$
-
 \delta \int_{t_1}^{t_2} \left( \sum_{i=1}^{n} p_i \dot{q_i} - H(q_i, p_i, t) \right) dt = 0
-
 $$
 
 
@@ -5141,9 +5007,7 @@ Expanding the integral and applying the Euler-Lagrange equations, we can obtain 
 
 
 $$
-
 \dot{q_i} = \frac{\partial H}{\partial p_i} \quad \text{and} \quad \dot{p_i} = -\frac{\partial H}{\partial q_i}
-
 $$
 
 
@@ -5195,9 +5059,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5211,9 +5073,7 @@ To derive Lagrange's equations, we start by considering a system of $N$ particle
 
 
 $$
-
 T = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{q_i}^2
-
 $$
 
 
@@ -5223,9 +5083,7 @@ where $m_i$ is the mass of the $i$th particle. Similarly, the total potential en
 
 
 $$
-
 V = \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -5235,9 +5093,7 @@ where $V_i$ is the potential energy of the $i$th particle. Using these expressio
 
 
 $$
-
 L = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{q_i}^2 - \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -5247,9 +5103,7 @@ To derive Lagrange's equations, we must take the variation of the action functio
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -5259,9 +5113,7 @@ where $t_1$ and $t_2$ are the initial and final times, respectively. Taking the 
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i} \right) dt = 0
-
 $$
 
 
@@ -5271,9 +5123,7 @@ Using the Euler-Lagrange equation, we can simplify this expression to:
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -5313,9 +5163,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5333,9 +5181,7 @@ To derive Lagrange's equations, we start by considering a system of $N$ particle
 
 
 $$
-
 T = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{q_i}^2
-
 $$
 
 
@@ -5345,9 +5191,7 @@ where $m_i$ is the mass of the $i$th particle and $\dot{q_i}$ is its velocity. S
 
 
 $$
-
 V = \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -5357,9 +5201,7 @@ where $V_i$ is the potential energy of the $i$th particle. The Lagrangian can th
 
 
 $$
-
 L = \sum_{i=1}^{N} \left(\frac{1}{2} m_i \dot{q_i}^2 - V_i(q_i)\right)
-
 $$
 
 
@@ -5369,9 +5211,7 @@ Next, we define the action functional $S$ as:
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -5381,9 +5221,7 @@ where $t_1$ and $t_2$ are the initial and final times, respectively. The variati
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q_i}} \delta \dot{q_i}\right) dt
-
 $$
 
 
@@ -5393,9 +5231,7 @@ where $\delta q_i$ and $\delta \dot{q_i}$ are the variations in the generalized 
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}}\right) \delta q_i dt
-
 $$
 
 
@@ -5405,9 +5241,7 @@ Since the variation $\delta q_i$ is arbitrary, the integrand must be equal to ze
 
 
 $$
-
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} = 0 \quad \text{for } i = 1, 2, ..., N
-
 $$
 
 
@@ -5417,9 +5251,7 @@ These equations can also be written in a more compact form as:
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0 \quad \text{for } i = 1, 2, ..., N
-
 $$
 
 
@@ -5465,9 +5297,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5485,9 +5315,7 @@ To derive Lagrange's equations, we start by considering a system of $N$ particle
 
 
 $$
-
 T = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{q_i}^2
-
 $$
 
 
@@ -5497,9 +5325,7 @@ Similarly, the total potential energy of the system can be expressed as:
 
 
 $$
-
 V = \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -5513,9 +5339,7 @@ Now, using the definition of the Lagrangian, we can write:
 
 
 $$
-
 L = T - V = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{q_i}^2 - \sum_{i=1}^{N} V_i(q_i)
-
 $$
 
 
@@ -5525,9 +5349,7 @@ Next, we take the time derivative of the Lagrangian:
 
 
 $$
-
 \frac{dL}{dt} = \sum_{i=1}^{N} m_i \dot{q_i} \ddot{q_i} - \sum_{i=1}^{N} \frac{\partial V_i}{\partial q_i} \dot{q_i}
-
 $$
 
 
@@ -5537,9 +5359,7 @@ Using the Euler-Lagrange equation, we can rewrite this as:
 
 
 $$
-
 \frac{dL}{dt} = \sum_{i=1}^{N} \frac{d}{dt} \left(m_i \dot{q_i}\right) - \sum_{i=1}^{N} \frac{\partial V_i}{\partial q_i} \dot{q_i}
-
 $$
 
 
@@ -5549,9 +5369,7 @@ Applying the product rule, we get:
 
 
 $$
-
 \frac{dL}{dt} = \sum_{i=1}^{N} m_i \ddot{q_i} + \sum_{i=1}^{N} \dot{q_i} \frac{dm_i}{dt} - \sum_{i=1}^{N} \frac{\partial V_i}{\partial q_i} \dot{q_i}
-
 $$
 
 
@@ -5561,9 +5379,7 @@ Since the mass of each particle is constant, we can simplify this to:
 
 
 $$
-
 \frac{dL}{dt} = \sum_{i=1}^{N} m_i \ddot{q_i} - \sum_{i=1}^{N} \frac{\partial V_i}{\partial q_i} \dot{q_i}
-
 $$
 
 
@@ -5573,9 +5389,7 @@ Finally, using the definition of the generalized force $Q_i$ as:
 
 
 $$
-
 Q_i = \frac{\partial V_i}{\partial q_i}
-
 $$
 
 
@@ -5585,9 +5399,7 @@ we can rewrite this as:
 
 
 $$
-
 \frac{dL}{dt} = \sum_{i=1}^{N} m_i \ddot{q_i} - \sum_{i=1}^{N} Q_i \dot{q_i}
-
 $$
 
 
@@ -5597,9 +5409,7 @@ Now, according to the principle of least action, the variation of the action fun
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(L - \sum_{i=1}^{N} Q_i \dot{q_i}\right) dt = 0
-
 $$
 
 
@@ -5609,9 +5419,7 @@ Setting the variation to zero, we get:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(\frac{dL}{dt} - \sum_{i=1}^{N} Q_i \dot{q_i}\right) dt = 0
-
 $$
 
 
@@ -5621,9 +5429,7 @@ Using the result we obtained earlier for $\frac{dL}{dt}$, we can rewrite this as
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(\sum_{i=1}^{N} m_i \ddot{q_i} - \sum_{i=1}^{N} Q_i \dot{q_i} - \sum_{i=1}^{N} Q_i \dot{q_i}\right) dt = 0
-
 $$
 
 
@@ -5633,9 +5439,7 @@ Simplifying, we get:
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left(\sum_{i=1}^{N} m_i \ddot{q_i} - 2 \sum_{i=1}^{N} Q_i \dot{q_i}\right) dt = 0
-
 $$
 
 
@@ -5645,9 +5449,7 @@ Since the variation is arbitrary, the integrand must be equal to zero. This lead
 
 
 $$
-
 m_i \ddot{q_i} = Q_i
-
 $$
 
 
@@ -5709,9 +5511,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5745,9 +5545,7 @@ To understand D'Alembert's Principle, we must first define the virtual work, den
 
 
 $$
-
 \delta W = \sum_{i=1}^{n} \mathbf{F_i} \cdot \delta \mathbf{r_i}
-
 $$
 
 
@@ -5801,9 +5599,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5837,9 +5633,7 @@ Now, let us consider a system of particles with $n$ degrees of freedom, each des
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) - \frac{\partial T}{\partial q_i} = Q_i
-
 $$
 
 
@@ -5857,9 +5651,7 @@ To derive D'Alembert's Principle, we start by considering a virtual displacement
 
 
 $$
-
 \delta W_i = Q_i \delta q_i
-
 $$
 
 
@@ -5869,9 +5661,7 @@ Using the principle of virtual work, we know that the equilibrium of the system 
 
 
 $$
-
 \sum_{i=1}^{n} \delta W_i = \sum_{i=1}^{n} Q_i \delta q_i = 0
-
 $$
 
 
@@ -5881,9 +5671,7 @@ Now, let us consider the virtual work done by the inertial forces, which are the
 
 
 $$
-
 \delta W_i^* = \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) \delta q_i
-
 $$
 
 
@@ -5893,9 +5681,7 @@ Substituting this into our previous equation, we get:
 
 
 $$
-
 \sum_{i=1}^{n} \delta W_i^* = \sum_{i=1}^{n} \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) \delta q_i = 0
-
 $$
 
 
@@ -5905,9 +5691,7 @@ Finally, we can combine the virtual work done by the generalized forces and the 
 
 
 $$
-
 \sum_{i=1}^{n} \left(Q_i - \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right)\right) \delta q_i = 0
-
 $$
 
 
@@ -5917,9 +5701,7 @@ Since this equation must hold for any virtual displacement $\delta q_i$, we can 
 
 
 $$
-
 Q_i - \frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q_i}}\right) = 0
-
 $$
 
 
@@ -5965,9 +5747,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -5989,9 +5769,7 @@ D'Alembert's Principle states that the sum of the external forces acting on a sy
 
 
 $$
-
 \sum \vec{F_{ext}} = -\frac{d}{dt}(\sum m_i\vec{v_i}) + \sum \vec{Q_i}
-
 $$
 
 
@@ -6061,9 +5839,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6089,9 +5865,7 @@ Variational formulation is a mathematical approach that allows us to derive the 
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6141,9 +5915,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6165,9 +5937,7 @@ To derive the variational formulation for rigid bodies, we will start with the L
 
 
 $$
-
 L = \sum_{i=1}^{N} \frac{1}{2} m_i \dot{\vec{r_i}}^2 - V(\vec{r_1}, \vec{r_2}, ..., \vec{r_N})
-
 $$
 
 
@@ -6185,9 +5955,7 @@ Using the inertia tensor, we can define the kinetic energy of a rigid body as:
 
 
 $$
-
 T = \frac{1}{2} \dot{\vec{q}}^T \mathbf{I} \dot{\vec{q}}
-
 $$
 
 
@@ -6201,9 +5969,7 @@ Now, we can rewrite the Lagrangian for a system of rigid bodies as:
 
 
 $$
-
 L = \frac{1}{2} \dot{\vec{q}}^T \mathbf{I} \dot{\vec{q}} - V(\vec{q})
-
 $$
 
 
@@ -6217,9 +5983,7 @@ To derive the equations of motion for this system, we will use the principle of 
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(\vec{q}, \dot{\vec{q}}, t) dt
-
 $$
 
 
@@ -6233,9 +5997,7 @@ To find the path that minimizes the action, we will set the variation of the act
 
 
 $$
-
 \delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial \vec{q}} \delta \vec{q} + \frac{\partial L}{\partial \dot{\vec{q}}} \delta \dot{\vec{q}} \right) dt = 0
-
 $$
 
 
@@ -6245,9 +6007,7 @@ Using the Euler-Lagrange equations, we can rewrite this as:
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\vec{q}}} \right) - \frac{\partial L}{\partial \vec{q}} = 0
-
 $$
 
 
@@ -6297,9 +6057,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6317,9 +6075,7 @@ To derive Lagrange's equations, we start with the principle of least action, whi
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -6333,9 +6089,7 @@ To find the path that minimizes the action functional, we use the calculus of va
 
 
 $$
-
 \delta S = 0
-
 $$
 
 
@@ -6345,9 +6099,7 @@ This leads to the Euler-Lagrange equations, which are equivalent to Lagrange's e
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -6397,9 +6149,7 @@ Similar to Lagrange's equations, the variational formulation for rigid bodies is
 
 
 $$
-
 S = \int_{t_1}^{t_2} \int_V L(q_i, \dot{q_i}, t) dV dt
-
 $$
 
 
@@ -6409,9 +6159,7 @@ where $V$ is the volume of the rigid body. The variation of this action function
 
 
 $$
-
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q_i}} \right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -6473,9 +6221,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6501,9 +6247,7 @@ The principle of least action states that the path taken by a system between two
 
 
 $$
-
 S = \int_{t_1}^{t_2} L(q_i, \dot{q_i}, t) dt
-
 $$
 
 
@@ -6517,9 +6261,7 @@ Next, we will discuss the derivation of Lagrange's equations. As mentioned earli
 
 
 $$
-
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) - \frac{\partial L}{\partial q_i} = 0
-
 $$
 
 
@@ -6573,9 +6315,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6641,9 +6381,7 @@ To understand Lagrange's equations, we must first define the Lagrangian, denoted
 
 
 $$
-
 L = T - V
-
 $$
 
 
@@ -6859,9 +6597,7 @@ In order to understand the behavior of systems containing rigid bodies, we must 
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -6875,9 +6611,7 @@ For systems containing rigid bodies, we must also consider the rotational motion
 
 
 $$
-
 \sum M = I\alpha
-
 $$
 
 
@@ -6891,11 +6625,9 @@ Combining these two equations, we can derive the equations of motion for a rigid
 
 
 $$
-
 \sum F = ma \\
 
 \sum M = I\alpha
-
 $$
 
 
@@ -6921,11 +6653,9 @@ Using the concept of center of mass, we can rewrite Newton's second law for rigi
 
 
 $$
-
 \sum F = m_{tot}a_{cm} \\
 
 \sum M = I_{cm}\alpha
-
 $$
 
 
@@ -7019,25 +6749,19 @@ The equations are as follows:
 
 
 $$
-
 \frac{d}{dt}(I_1\omega_1) = (I_2-I_3)\omega_2\omega_3 + M_1
-
 $$
 
 
 
 $$
-
 \frac{d}{dt}(I_2\omega_2) = (I_3-I_1)\omega_3\omega_1 + M_2
-
 $$
 
 
 
 $$
-
 \frac{d}{dt}(I_3\omega_3) = (I_1-I_2)\omega_1\omega_2 + M_3
-
 $$
 
 
@@ -7131,9 +6855,7 @@ Using these definitions, we can derive Euler's equations of motion:
 
 
 $$
-
 \sum M = I\alpha
-
 $$
 
 
@@ -7147,9 +6869,7 @@ We can also express this equation in vector form:
 
 
 $$
-
 \vec{M} = I\vec{\alpha}
-
 $$
 
 

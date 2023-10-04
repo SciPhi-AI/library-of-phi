@@ -2879,9 +2879,7 @@ To calculate hydrostatic pressure, we use the equation:
 
 
 $$
-
 P = \rho g h
-
 $$
 
 
@@ -3719,9 +3717,7 @@ To calculate a ship's buoyancy, we use the formula:
 
 
 $$
-
 F_b = \rho V g
-
 $$
 
 
@@ -3735,9 +3731,7 @@ Similarly, to calculate a ship's displacement, we use the formula:
 
 
 $$
-
 D = \rho V
-
 $$
 
 
@@ -5725,9 +5719,7 @@ As mentioned earlier, the metacentric height (GM) is a crucial parameter in dete
 
 
 $$
-
 GM = BM - BG
-
 $$
 
 

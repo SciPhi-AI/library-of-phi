@@ -2481,7 +2481,6 @@ The current-voltage relationship for a Schottky barrier is qualitatively similar
 $$J_{th}= A^{**}T^2e^{-\frac{\Phi_{B_{n,p}}}{k_bT}}\biggl(e^{\frac{qV}{k_bT}}-1\biggr)$$
 
 
-
 where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson constant, $T$ is the temperature, $\Phi_{B_{n,p}}$ is the barrier height for electrons and holes, $k_b$ is the Boltzmann constant, and $q$ is the elementary charge.
 
 
@@ -2489,9 +2488,7 @@ where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson con
 In addition to thermionic emission, tunneling can also contribute to the current flow in a Schottky barrier. For a triangular shaped barrier, the tunneling current density can be expressed as:
 
 
-
 $$J_{T_{n,p}}= \frac{q^3E^2}{16\pi^2\hbar\Phi_{B_{n,p}}} e^{\frac{-4\Phi_{B_{n,p}}^{3/2}\sqrt{2m^*_{n,p}}}{3q\hbar E}}$$
-
 
 
 where $E$ is the electric field and $m^*_{n,p}$ is the effective mass of the carriers in the semiconductor.
@@ -2535,9 +2532,7 @@ Schottky barriers are formed when a metal is in contact with a semiconductor, cr
 The current-voltage relationship for a Schottky barrier is qualitatively similar to that of a p-n junction, but the physical process is different. The thermionic emission can be described by the following equation:
 
 
-
 $$J_{th}= A^{**}T^2e^{-\frac{\Phi_{B_{n,p}}}{k_bT}}\biggl(e^{\frac{qV}{k_bT}}-1\biggr)$$
-
 
 
 where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson constant, $T$ is the temperature, $\Phi_{B_{n,p}}$ is the barrier height for electrons and holes, $k_b$ is the Boltzmann constant, and $q$ is the elementary charge.
@@ -2547,9 +2542,7 @@ where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson con
 In addition to thermionic emission, tunneling can also contribute to the current flow in a Schottky barrier. For a triangular shaped barrier, the tunneling current density can be expressed as:
 
 
-
 $$J_{T_{n,p}}= \frac{q^3E^2}{16\pi^2\hbar\Phi_{B_{n,p}}} e^{\frac{-4\Phi_{B_{n,p}}^{3/2}\sqrt{2m^*_{n,p}}}{3q\hbar E}}$$
-
 
 
 where $E$ is the electric field and $m^*_{n,p}$ is the effective mass of the carriers in the semiconductor.
@@ -2609,9 +2602,7 @@ Schottky barriers are formed when a metal is in contact with a semiconductor, cr
 The current-voltage relationship for a Schottky barrier is qualitatively similar to that of a p-n junction, but the physical process is different. The thermionic emission can be described by the following equation:
 
 
-
 $$J_{th}= A^{**}T^2e^{-\frac{\Phi_{B_{n,p}}}{k_bT}}\biggl(e^{\frac{qV}{k_bT}}-1\biggr)$$
-
 
 
 where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson constant, $T$ is the temperature, $\Phi_{B_{n,p}}$ is the barrier height for electrons and holes, $k_b$ is the Boltzmann constant, and $q$ is the elementary charge.
@@ -2621,9 +2612,7 @@ where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson con
 In addition to thermionic emission, tunneling can also contribute to the current flow in a Schottky barrier. For a triangular shaped barrier, the tunneling current density can be expressed as:
 
 
-
 $$J_{T_{n,p}}= \frac{q^3E^2}{16\pi^2\hbar\Phi_{B_{n,p}}} e^{\frac{-4\Phi_{B_{n,p}}^{3/2}\sqrt{2m^*_{n,p}}}{3q\hbar E}}$$
-
 
 
 where $E$ is the electric field and $m^*_{n,p}$ is the effective mass of the carriers in the semiconductor.
@@ -2691,9 +2680,7 @@ Schottky barriers are formed when a metal and a semiconductor come into contact,
 The current-voltage relationship for a Schottky barrier is similar to that of a p-n junction, but the physical process is different. The thermionic emission can be described by the following equation:
 
 
-
 $$J_{th}= A^{**}T^2e^{-\frac{\Phi_{B_{n,p}}}{k_bT}}\biggl(e^{\frac{qV}{k_bT}}-1\biggr)$$
-
 
 
 where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson constant, $T$ is the temperature, $\Phi_{B_{n,p}}$ is the barrier height for electrons and holes, $k_b$ is the Boltzmann constant, and $q$ is the elementary charge.
@@ -2703,9 +2690,7 @@ where $J_{th}$ is the thermionic current density, $A^{**}$ is the Richardson con
 In addition to thermionic emission, tunneling can also contribute to the current flow in a Schottky barrier. For a triangular shaped barrier, the tunneling current density can be expressed as:
 
 
-
 $$J_{T_{n,p}}= \frac{q^3E^2}{16\pi^2\hbar\Phi_{B_{n,p}}} e^{\frac{-4\Phi_{B_{n,p}}^{3/2}\sqrt{2m^*_{n,p}}}{3q\hbar E}}$$
-
 
 
 where $E$ is the electric field and $m^*_{n,p}$ is the effective mass of the carriers in the semiconductor.
@@ -3439,13 +3424,11 @@ The equations in the preceding section apply to all field emitters operating in 
 For such emitters, the notional emission area will nearly always be very very<Clarify|date=June 2009|reason=was repeated 'very' intended?> much less than the apparent "macroscopic" geometrical area ("A"<sub>M</sub>) of the physical emitter as observed visually. A dimensionless parameter "α"<sub>r</sub>, "the area efficiency of emission", can be defined by
 
 
-
 $$
 
 \alpha_r = \frac{A_e}{A_M}
 
 $$
-
 
 
 where "A"<sub>e</sub> is the effective emission area and "A"<sub>M</sub> is the macroscopic geometrical area. This parameter takes into account the fact that not all of the emitter's surface area is actively contributing to electron emission.
@@ -3455,7 +3438,6 @@ where "A"<sub>e</sub> is the effective emission area and "A"<sub>M</sub> is the 
 Also, a "macroscopic" (or "mean") emission current density "J"<sub>M</sub> (averaged over the geometrical area "A"<sub>M</sub> of the emitter) can be defined, and related to the reference current density "J"<sub>r</sub> used above, by
 
 
-
 $$
 
 J_M = \alpha_r J_r
@@ -3463,9 +3445,7 @@ J_M = \alpha_r J_r
 $$
 
 
-
 This leads to the following "large-area versions" of the simplified standard Fowler–Nordheim-type equation:
-
 
 
 $$
@@ -3473,7 +3453,6 @@ $$
 J_M = \frac{A_M}{A_e} \frac{B}{\phi^2} \left(\frac{V}{d}\right)^2 e^{-\frac{B}{\phi}\left(\frac{V}{d}\right)}
 
 $$
-
 
 
 Both these equations contain the area efficiency of emission "α"<sub>r</sub>. For any given emitter this parameter has a value that is usually not well known. In general, "α"<sub>r</sub> varies greatly as between different emitter materials, and as between different specimens of the same material prepared and processed in different ways. Values in the range 10<sup>−10</sup> to 10<sup>−6</sup> appear to be likely, and values outside this range may be possible.
@@ -3647,13 +3626,11 @@ One important aspect of the energy band profile is the difference in conduction 
 The value of ΔEc can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_c = E_{c1} - E_{c2}
 
 $$
-
 
 
 Where $E_{c1}$ and $E_{c2}$ are the conduction band energies of the two materials.
@@ -3701,13 +3678,11 @@ One important aspect of the energy band profile is the difference in conduction 
 The value of ΔEc can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_c = E_{c1} - E_{c2}
 
 $$
-
 
 
 Where $E_{c1}$ and $E_{c2}$ are the conduction band energies of the two materials.
@@ -3741,13 +3716,11 @@ In addition to ΔEc, another important aspect of the energy band profile is the 
 The value of ΔEv can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_v = E_{v1} - E_{v2}
 
 $$
-
 
 
 Where $E_{v1}$ and $E_{v2}$ are the valence band energies of the two materials.
@@ -3795,13 +3768,11 @@ One important aspect of the energy band profile is the difference in conduction 
 The value of ΔEc can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_c = E_{c1} - E_{c2}
 
 $$
-
 
 
 Where $E_{c1}$ and $E_{c2}$ are the conduction band energies of the two materials.
@@ -3835,13 +3806,11 @@ In addition to ΔEc, another important aspect of the energy band profile is the 
 The value of ΔEv can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_v = E_{v1} - E_{v2}
 
 $$
-
 
 
 Where $E_{v1}$ and $E_{v2}$ are the valence band energies of the two materials.
@@ -3889,13 +3858,11 @@ One important aspect of the energy band profile is the difference in conduction 
 The value of ΔEc can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_c = E_{c1} - E_{c2}
 
 $$
-
 
 
 Where $E_{c1}$ and $E_{c2}$ are the conduction band energies of the two materials.
@@ -3925,13 +3892,11 @@ In addition to ΔEc, another important aspect of the energy band profile is the 
 The value of ΔEv can be calculated using the following equation:
 
 
-
 $$
 
 \Delta E_v = E_{v1} - E_{v2}
 
 $$
-
 
 
 Where $E_{v1}$ and $E_{v2}$ are the valence band energies of the two materials.
@@ -7945,13 +7910,11 @@ As mentioned earlier, the bandgap discontinuity between the emitter and base mat
 To understand the impact of bandgap discontinuity on emitter efficiency, we can use the following equation:
 
 
-
 $$
 
 \eta_{em} = \frac{I_{em}}{I_{b}}
 
 $$
-
 
 
 Where $\eta_{em}$ is the emitter efficiency, $I_{em}$ is the emitter current, and $I_{b}$ is the base current. As we can see, the emitter efficiency is directly proportional to the emitter current, which is affected by the bandgap discontinuity.
@@ -7973,13 +7936,11 @@ The doping concentration in the emitter and base regions also has a significant 
 To understand the effects of doping concentration on emitter efficiency, we can use the following equation:
 
 
-
 $$
 
 \eta_{em} = \frac{I_{em}}{I_{b}} = \frac{q \mu_{n} n_{em} W_{em}}{q \mu_{p} p_{b} W_{b}}
 
 $$
-
 
 
 Where $\eta_{em}$ is the emitter efficiency, $I_{em}$ is the emitter current, $I_{b}$ is the base current, $q$ is the elementary charge, $\mu_{n}$ and $\mu_{p}$ are the electron and hole mobilities, $n_{em}$ and $p_{b}$ are the electron and hole concentrations in the emitter and base regions, and $W_{em}$ and $W_{b}$ are the widths of the emitter and base regions.
@@ -8005,13 +7966,11 @@ The device structure, particularly the thickness of the emitter and base regions
 To understand the impact of device structure on emitter efficiency, we can use the following equation:
 
 
-
 $$
 
 \eta_{em} = \frac{I_{em}}{I_{b}} = \frac{q \mu_{n} n_{em} W_{em}}{q \mu_{p} p_{b} W_{b}}
 
 $$
-
 
 
 Where $\eta_{em}$ is the emitter efficiency, $I_{em}$ is the emitter current, $I_{b}$ is the base current, $q$ is the elementary charge, $\mu_{n}$ and $\mu_{p}$ are the electron and hole mobilities, $n_{em}$ and $p_{b}$ are the electron and hole concentrations in the emitter and base regions, and $W_{em}$ and $W_{b}$ are the widths of the emitter and base regions.
@@ -8035,7 +7994,6 @@ The operating conditions, such as the bias voltage and temperature, also have a 
 
 
 To understand the influence of operating conditions on emitter efficiency, we can use the following equation:
-
 
 
 $$

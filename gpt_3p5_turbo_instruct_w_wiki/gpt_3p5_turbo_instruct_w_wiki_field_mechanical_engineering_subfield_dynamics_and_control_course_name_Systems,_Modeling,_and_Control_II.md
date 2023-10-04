@@ -1998,9 +1998,7 @@ To use Euler's method, we first need to discretize the time domain into small ti
 
 
 $$
-
 y(t + h) = y(t) + h \cdot y'(t)
-
 $$
 
 
@@ -2088,9 +2086,7 @@ To use Euler's method, we first need to discretize the time domain into small ti
 
 
 $$
-
 y(t+h) = y(t) + h \cdot y'(t)
-
 $$
 
 
@@ -2112,7 +2108,6 @@ The classic fourth-order Runge-Kutta method is given by the following set of equ
 
 
 $$
-
 k_1 = f(t_n, y_n) \\
 
 k_2 = f(t_n + \frac{h}{2}, y_n + \frac{h}{2}k_1) \\
@@ -2122,7 +2117,6 @@ k_3 = f(t_n + \frac{h}{2}, y_n + \frac{h}{2}k_2) \\
 k_4 = f(t_n + h, y_n + hk_3) \\
 
 y_{n+1} = y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -2168,7 +2162,6 @@ To better understand the cruise control system, let's consider a simple model of
 $$m\frac{dv}{dt} = F_{engine} - F_{resistance}$$
 
 
-
 Where:
 
 - $m$ is the mass of the car
@@ -2212,49 +2205,37 @@ In the previous section, we introduced the concept of cruise control and its app
 To begin, let's consider the forces acting on the car in more detail. The driving force provided by the engine, $F_{engine}$, can be expressed as a function of the throttle position, $u$, and the maximum driving force, $F_{max}$:
 
 
-
 $$F_{engine} = uF_{max}$$
-
 
 
 Similarly, the external force, $F_{resistance}$, can be expressed as a function of the velocity, $v$, and the resistance coefficient, $c$:
 
 
-
 $$F_{resistance} = cv$$
-
 
 
 Substituting these expressions into the differential equation from the previous section, we get:
 
 
-
 $$m\frac{dv}{dt} = uF_{max} - cv$$
-
 
 
 We can further simplify this equation by dividing both sides by the mass of the car, $m$, and rearranging the terms:
 
 
-
 $$\frac{dv}{dt} = \frac{uF_{max}}{m} - \frac{cv}{m}$$
-
 
 
 Now, let's consider the feedback loop of the cruise control system. The desired speed, $v_{des}$, is set by the driver and compared to the current speed, $v$. The difference between these two speeds, $e = v_{des} - v$, is used to adjust the throttle position, $u$, through a proportional controller with gain, $K_p$:
 
 
-
 $$u = K_pe$$
-
 
 
 Substituting this expression for $u$ into the differential equation, we get:
 
 
-
 $$\frac{dv}{dt} = \frac{K_pF_{max}}{m}e - \frac{cv}{m}$$
-
 
 
 This is the differential equation that describes the motion of the car in the cruise control system. We can see that the first term on the right-hand side represents the driving force provided by the engine, while the second term represents the external resistance force. The proportional controller acts as a feedback loop, adjusting the throttle position to maintain a constant speed.
@@ -2294,33 +2275,25 @@ In the previous subsection, we derived the differential equation that describes 
 One of the most commonly used methods for solving ordinary differential equations is the Euler method. This method involves approximating the derivative of a function at a given point by using the slope of a straight line tangent to the curve at that point. In the context of our cruise control system, this means that we can approximate the change in velocity, $\Delta v$, over a small time interval, $\Delta t$, by using the current velocity, $v$, and the acceleration, $a$, at that point:
 
 
-
 $$\Delta v \approx a\Delta t$$
-
 
 
 We can then use this approximation to update the velocity at the next time step:
 
 
-
 $$v_{n+1} = v_n + \Delta v \approx v_n + a\Delta t$$
-
 
 
 Similarly, we can approximate the change in position, $\Delta x$, over a small time interval by using the current velocity, $v$, and the displacement, $s$, at that point:
 
 
-
 $$\Delta x \approx v\Delta t$$
-
 
 
 And update the position at the next time step:
 
 
-
 $$x_{n+1} = x_n + \Delta x \approx x_n + v\Delta t$$
-
 
 
 This method is known as the forward Euler method and is a first-order numerical method, meaning that the local error is proportional to the step size, $\Delta t$. While this method is simple and easy to implement, it can lead to significant errors over long time intervals.
@@ -2330,19 +2303,13 @@ This method is known as the forward Euler method and is a first-order numerical 
 To improve the accuracy of our solution, we can use a higher-order method such as the Runge-Kutta method. This method involves using multiple approximations of the derivative at different points within the time interval to calculate a weighted average. The most commonly used version is the fourth-order Runge-Kutta method, which is given by the following equations:
 
 
-
 $$k_1 = f(t_n, y_n)$$
-
 $$k_2 = f(t_n + \frac{\Delta t}{2}, y_n + \frac{\Delta t}{2}k_1)$$
-
 $$k_3 = f(t_n + \frac{\Delta t}{2}, y_n + \frac{\Delta t}{2}k_2)$$
-
 $$k_4 = f(t_n + \Delta t, y_n + \Delta tk_3)$$
 
 
-
 $$y_{n+1} = y_n + \frac{\Delta t}{6}(k_1 + 2k_2 + 2k_3 + k_4)$$
-
 
 
 This method is more accurate than the Euler method and is a fourth-order method, meaning that the local error is proportional to the step size raised to the fourth power. However, it is also more computationally intensive.
@@ -2398,9 +2365,7 @@ where `t` is a vector of time points, `y` is a vector of corresponding solution 
 Let's consider the cruise control example from the previous section. The ODE that describes the motion of the car is given by:
 
 
-
 $$m\dot{v} = F - bv$$
-
 
 
 where $m$ is the mass of the car, $v$ is the velocity, $F$ is the driving force, and $b$ is the drag coefficient. We can define this ODE in MATLAB as follows:
@@ -2510,9 +2475,7 @@ In the previous section, we introduced the use of MATLAB for solving ordinary di
 In some cases, ODEs can be solved using the matrix exponential function in MATLAB. This approach is particularly useful for solving systems of linear ODEs. Let's consider the following system of ODEs:
 
 
-
 $$\frac{d}{dt}\begin{bmatrix} x(t)\\y(t) \end{bmatrix} = \begin{bmatrix} 3 & -4\\4 & -7 \end{bmatrix} \begin{bmatrix} x(t)\\y(t) \end{bmatrix}$$
-
 
 
 We can define this system in MATLAB as follows:
@@ -2586,9 +2549,7 @@ legend('x(t)', 'y(t)');
 In some cases, ODEs can be solved using the Yakushev approach, which involves using the delta function and its derivatives. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}\left[\delta(x-vt)m\frac{\mbox{d}w(vt,t)}{\mbox{d}t}\right]=-\delta^\prime(x-vt)mv\frac{\mbox{d}w(vt,t)}{\mbox{d}t}+\delta(x-vt)m\frac{\mbox{d}^2w(vt,t)}{\mbox{d}t^2}$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2648,9 +2609,7 @@ title('Solution using Yakushev approach');
 In some cases, ODEs can be solved using the smoothstep function, which is a piecewise function that is commonly used in computer graphics. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}u(t)=2u(2t+1)-2u(2t-1)$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2706,9 +2665,7 @@ title('Solution using smoothstep function');
 In some cases, ODEs can be solved using the 3rd-order equation, which is a generic third-order polynomial function. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}y(t) = ay(t) + by(t)^2 + cy(t)^3$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2770,9 +2727,7 @@ title('Solution using 3rd-order equation');
 In this section, we will explore another example of solving ODEs using MATLAB. Let's consider the following delay differential equation:
 
 
-
 $$\frac{d}{dt}u(t)=2u(2t+1)-2u(2t-1)$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2828,9 +2783,7 @@ title('Solution using delay differential equation');
 In this section, we will explore the use of MATLAB for solving ODEs in the context of a moving load. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}u(t)=2u(2t+1)-2u(2t-1)$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2886,9 +2839,7 @@ title('Solution using moving load');
 In this section, we will explore the use of MATLAB for solving ODEs using the smoothstep function. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}u(t)=2u(2t+1)-2u(2t-1)$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -2944,9 +2895,7 @@ title('Solution using smoothstep function');
 In this section, we will explore the use of MATLAB for solving ODEs in the context of the origin. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}u(t)=2u(2t+1)-2u(2t-1)$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -3002,9 +2951,7 @@ title('Solution using origin');
 In this section, we will explore the use of MATLAB for solving ODEs using the Yakushev approach. Let's consider the following ODE:
 
 
-
 $$\frac{d}{dt}\left[\delta(x-vt)m\frac{\mbox{d}w(vt,t)}{\mbox{d}t}\right]=-\delta^\prime(x-vt)mv\frac{\mbox{d}w(vt,t)}{\mbox{d}t}+\delta(x-vt)m\frac{\mbox{d}^2w(vt,t)}{\mbox{d}t^2}$$
-
 
 
 We can define this ODE in MATLAB as follows:
@@ -3056,9 +3003,7 @@ In the previous section, we discussed the implementation of solving ordinary dif
 One of the most common ways to analyze the results of solving ODEs is by plotting the solution. This allows us to visualize the behavior of the system over time. In MATLAB, we can use the `plot` function to plot the solution. For example, if we have solved the following system of ODEs:
 
 
-
 $$\frac{d}{dt}\begin{bmatrix} x(t)\\y(t) \end{bmatrix} = \begin{bmatrix} 3 & -4\\4 & -7 \end{bmatrix} \begin{bmatrix} x(t)\\y(t) \end{bmatrix}$$
-
 
 
 using the `ode45` function, we can plot the solution as follows:
@@ -3092,9 +3037,7 @@ This will produce a plot with time on the x-axis and the solution values on the 
 Another important aspect of analyzing the results of solving ODEs is computing the error. This allows us to compare the numerical solution obtained from MATLAB with the exact solution, if available. In MATLAB, we can use the `abs` function to compute the absolute error between the numerical and exact solutions. For example, if we have the exact solution of the following ODE:
 
 
-
 $$\frac{d}{dt}y(t) = -2y(t) + 4$$
-
 
 
 as $y(t) = 2 + Ce^{-2t}$, we can compute the error as follows:
@@ -3122,9 +3065,7 @@ This will give us a vector of error values at each time point. We can then plot 
 In some cases, it may be necessary to compare the results obtained from different methods of solving ODEs. For example, we may want to compare the results obtained from using the matrix exponential method and the Yakushev approach. In MATLAB, we can use the `plot` function to plot the solutions obtained from different methods on the same graph. For example, if we have solved the following ODE using both methods:
 
 
-
 $$\frac{d}{dt}y(t) = -2y(t) + 4$$
-
 
 
 we can plot the solutions as follows:
@@ -3468,9 +3409,7 @@ Throughout this chapter, we will cover the fundamentals of Laplace Transforms an
 The Laplace Transform is a mathematical tool that is used to convert a function of time into a function of complex frequency. It is defined as:
 
 
-
 $$F(s) = \int_{0}^{\infty} f(t)e^{-st} dt$$
-
 
 
 where $F(s)$ is the Laplace Transform of the function $f(t)$ and $s$ is a complex variable. This transform is particularly useful in solving differential equations, as it transforms a differential equation into an algebraic equation that can be easily solved. The Laplace Transform is also used to analyze the behavior of systems in the frequency domain, making it an essential tool in the field of systems, modeling, and control.
@@ -3506,9 +3445,7 @@ In the next section, we will explore the properties of the Laplace Transform in 
 The Laplace Transform is a powerful mathematical tool that is used to convert a function of time into a function of complex frequency. It is defined as:
 
 
-
 $$F(s) = \int_{0}^{\infty} f(t)e^{-st} dt$$
-
 
 
 where $F(s)$ is the Laplace Transform of the function $f(t)$ and $s$ is a complex variable. This transform is particularly useful in solving differential equations, as it transforms a differential equation into an algebraic equation that can be easily solved. The Laplace Transform is also used to analyze the behavior of systems in the frequency domain, making it an essential tool in the field of systems, modeling, and control.
@@ -3580,9 +3517,7 @@ In conclusion, the Laplace Transform is a powerful tool that has many applicatio
 The Laplace Transform is a powerful mathematical tool that is used to convert a function of time into a function of complex frequency. It is defined as:
 
 
-
 $$F(s) = \int_{0}^{\infty} f(t)e^{-st} dt$$
-
 
 
 where $F(s)$ is the Laplace Transform of the function $f(t)$ and $s$ is a complex variable. This transform is particularly useful in solving differential equations, as it transforms a differential equation into an algebraic equation that can be easily solved. The Laplace Transform is also used to analyze the behavior of systems in the frequency domain, making it an essential tool in the field of systems, modeling, and control.
@@ -3612,9 +3547,7 @@ One of the key advantages of the Laplace Transform is its ability to transform a
 The inverse Laplace Transform is the process of converting a function in the frequency domain back to the time domain. It is denoted as $f(t)$ and is defined as:
 
 
-
 $$f(t) = \frac{1}{2\pi i} \int_{\gamma-i\infty}^{\gamma+i\infty} F(s)e^{st} ds$$
-
 
 
 where $F(s)$ is the Laplace Transform of the function $f(t)$ and $\gamma$ is a real number that lies within the region of convergence (ROC). The inverse Laplace Transform is an essential tool in solving differential equations and analyzing systems in the time domain.
@@ -3712,9 +3645,7 @@ Transfer functions are also useful in understanding the frequency response of a 
 The transfer function of a system is defined as the Laplace Transform of the system's impulse response. In other words, it is the ratio of the Laplace Transform of the output to the Laplace Transform of the input. Mathematically, this can be represented as:
 
 
-
 $$H(s) = \frac{Y(s)}{U(s)}$$
-
 
 
 where H(s) is the transfer function, Y(s) is the Laplace Transform of the output, and U(s) is the Laplace Transform of the input.
@@ -4082,13 +4013,11 @@ To derive the transfer function of a rotational mechanical system, we can use th
 The transfer function of a rotational mechanical system can be written as the ratio of the Laplace Transform of the output to the Laplace Transform of the input. This can be expressed as:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{X(s)}
 
 $$
-
 
 
 where G(s) is the transfer function, Y(s) is the Laplace Transform of the output, and X(s) is the Laplace Transform of the input.
@@ -4408,13 +4337,11 @@ Passive circuit elements are the most basic components of an electrical circuit.
 Resistors are the most common type of passive element and are used to limit the flow of electrical current in a circuit. They are represented by the symbol R and are measured in ohms (Ω). The voltage-current relationship for a resistor is given by Ohm's law:
 
 
-
 $$
 
 V = IR
 
 $$
-
 
 
 where V is the voltage across the resistor, I is the current flowing through the resistor, and R is the resistance of the resistor.
@@ -4428,13 +4355,11 @@ where V is the voltage across the resistor, I is the current flowing through the
 Capacitors are passive elements that store electrical energy in the form of an electric field. They are represented by the symbol C and are measured in farads (F). The charge-voltage relationship for a capacitor is given by:
 
 
-
 $$
 
 Q = CV
 
 $$
-
 
 
 where Q is the charge stored in the capacitor, C is the capacitance of the capacitor, and V is the voltage across the capacitor.
@@ -4448,13 +4373,11 @@ where Q is the charge stored in the capacitor, C is the capacitance of the capac
 Inductors are passive elements that store electrical energy in the form of a magnetic field. They are represented by the symbol L and are measured in henrys (H). The voltage-current relationship for an inductor is given by:
 
 
-
 $$
 
 V = L\frac{dI}{dt}
 
 $$
-
 
 
 where V is the voltage across the inductor, L is the inductance of the inductor, and dI/dt is the rate of change of current with respect to time.
@@ -4648,13 +4571,11 @@ Passive circuit elements are the most basic components of an electrical circuit.
 Resistors are passive circuit elements that resist the flow of electrical current. They are represented by the symbol R and are measured in ohms (Ω). The relationship between voltage and current in a resistor is described by Ohm's law:
 
 
-
 $$
 
 V = IR
 
 $$
-
 
 
 where V is the voltage across the resistor, I is the current flowing through the resistor, and R is the resistance of the resistor.
@@ -4672,13 +4593,11 @@ Resistors are commonly used in circuits to limit the flow of current and to crea
 Capacitors are passive circuit elements that store electrical energy in the form of an electric field. They are represented by the symbol C and are measured in farads (F). The relationship between charge and voltage in a capacitor is described by the following equation:
 
 
-
 $$
 
 Q = CV
 
 $$
-
 
 
 where Q is the charge stored in the capacitor and V is the voltage across the capacitor.
@@ -4696,13 +4615,11 @@ Capacitors are commonly used in circuits to store energy, filter out unwanted si
 Inductors are passive circuit elements that store electrical energy in the form of a magnetic field. They are represented by the symbol L and are measured in henrys (H). The relationship between current and voltage in an inductor is described by the following equation:
 
 
-
 $$
 
 V = L\frac{di}{dt}
 
 $$
-
 
 
 where V is the voltage across the inductor, L is the inductance of the inductor, and di/dt is the rate of change of current.
@@ -4760,13 +4677,11 @@ Circuit elements can be combined in various ways to create more complex circuits
 In a series combination, circuit elements are connected one after the other, forming a single path for current to flow. The total impedance of a series combination is the sum of the individual impedances of each element.
 
 
-
 $$
 
 Z_{total} = Z_1 + Z_2 + Z_3 + ...
 
 $$
-
 
 
 #### 4.2d.ii: Parallel Combination
@@ -4776,13 +4691,11 @@ $$
 In a parallel combination, circuit elements are connected across each other, forming multiple paths for current to flow. The total impedance of a parallel combination is calculated using the following equation:
 
 
-
 $$
 
 \frac{1}{Z_{total}} = \frac{1}{Z_1} + \frac{1}{Z_2} + \frac{1}{Z_3} + ...
 
 $$
-
 
 
 #### 4.2d.iii: Transfer Functions
@@ -4876,14 +4789,11 @@ One of the most commonly used mathematical models for electro-mechanical systems
 The continuous-time extended Kalman filter can be represented as follows:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
-
-
 
 $$
 
@@ -4891,15 +4801,11 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{\mathbf{x}}(t_0)=E\bigl[\mathbf{x}(t_0)\bigr] \text{, } \mathbf{P}(t_0)=Var\bigl[\mathbf{x}(t_0)\bigr]
 
 $$
-
-
 
 $$
 
@@ -4907,15 +4813,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
 
 $$
-
-
 
 $$
 
@@ -4923,22 +4825,17 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
 
 $$
 
-
-
 $$
 
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)} 
 
 $$
-
 
 
 This model allows us to predict the state of the system at any given time and update it based on measurements. It takes into account the system dynamics, measurement noise, and the relationship between the state and measurements.
@@ -4986,13 +4883,11 @@ The transfer function of an electro-mechanical system can be derived using the L
 The transfer function of an electro-mechanical system can be represented as follows:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{U(s)}
 
 $$
-
 
 
 Where $Y(s)$ is the Laplace transform of the output signal, $U(s)$ is the Laplace transform of the input signal, and $G(s)$ is the transfer function.
@@ -5006,21 +4901,17 @@ The transfer function of an electro-mechanical system can also be represented in
 The state-space representation of an electro-mechanical system can be represented as follows:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t)
 
 $$
 
-
-
 $$
 
 \mathbf{y}(t) = \mathbf{C}\mathbf{x}(t) + \mathbf{D}\mathbf{u}(t)
 
 $$
-
 
 
 Where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{y}(t)$ is the output vector, $\mathbf{A}$ is the state matrix, $\mathbf{B}$ is the input matrix, $\mathbf{C}$ is the output matrix, and $\mathbf{D}$ is the feedforward matrix.
@@ -5244,13 +5135,11 @@ The transfer function of a system is a mathematical representation that relates 
 The transfer function of a DC motor can be expressed as:
 
 
-
 $$
 
 G(s) = \frac{\omega(s)}{V(s)} = \frac{K}{Js + b}
 
 $$
-
 
 
 Where $\omega(s)$ is the rotational speed of the motor, $V(s)$ is the input voltage, $K$ is the motor's torque constant, $J$ is the moment of inertia of the rotor, and $b$ is the motor's viscous friction coefficient.
@@ -5264,13 +5153,11 @@ Where $\omega(s)$ is the rotational speed of the motor, $V(s)$ is the input volt
 To derive the transfer function of a DC motor, we need to understand the physical principles that govern its behavior. As mentioned earlier, the interaction between the stator and rotor's magnetic fields produces a torque that causes the rotor to rotate. This torque can be expressed as:
 
 
-
 $$
 
 T = KI
 
 $$
-
 
 
 Where $T$ is the torque, $K$ is the motor's torque constant, and $I$ is the current in the stator windings.
@@ -5280,13 +5167,11 @@ Where $T$ is the torque, $K$ is the motor's torque constant, and $I$ is the curr
 On the other hand, the rotational speed of the motor can be expressed as:
 
 
-
 $$
 
 \omega = \frac{d\theta}{dt}
 
 $$
-
 
 
 Where $\omega$ is the rotational speed, and $\theta$ is the angular displacement of the rotor.
@@ -5334,13 +5219,11 @@ The transfer function of a system is a mathematical representation that relates 
 The transfer function of a DC motor can be expressed as:
 
 
-
 $$
 
 G(s) = \frac{\omega(s)}{V(s)} = \frac{K}{Js + b}
 
 $$
-
 
 
 Where $\omega(s)$ is the rotational speed of the motor, $V(s)$ is the input voltage, $K$ is the motor's torque constant, $J$ is the moment of inertia of the rotor, and $b$ is the motor's viscous friction coefficient.
@@ -5354,13 +5237,11 @@ Where $\omega(s)$ is the rotational speed of the motor, $V(s)$ is the input volt
 To derive the transfer function of a DC motor, we need to understand the physical principles that govern its behavior. As mentioned earlier, the interaction between the stator and rotor's magnetic fields produces a torque that causes the rotor to rotate. This torque can be expressed as:
 
 
-
 $$
 
 T = KI
 
 $$
-
 
 
 Where $T$ is the torque, $K$ is the motor's torque constant, and $I$ is the current in the stator windings.
@@ -5370,13 +5251,11 @@ Where $T$ is the torque, $K$ is the motor's torque constant, and $I$ is the curr
 On the other hand, the rotational speed of the motor can be expressed as:
 
 
-
 $$
 
 \omega = \frac{d\theta}{dt}
 
 $$
-
 
 
 Where $\omega$ is the rotational speed, and $\theta$ is the angular displacement of the rotor.
@@ -5588,13 +5467,11 @@ PID (Proportional-Integral-Derivative) control is a feedback control system that
 Proportional control is the most basic control action in a PID controller. It works by adjusting the control signal in proportion to the error between the desired setpoint and the actual output. In the case of DC motor control, the control signal is the voltage applied to the motor. The proportional control action can be represented mathematically as:
 
 
-
 $$
 
 u(t) = K_p e(t)
 
 $$
-
 
 
 where $u(t)$ is the control signal, $K_p$ is the proportional gain, and $e(t)$ is the error between the setpoint and the actual output.
@@ -5608,13 +5485,11 @@ where $u(t)$ is the control signal, $K_p$ is the proportional gain, and $e(t)$ i
 Integral control is used to eliminate steady-state errors in the system. It works by integrating the error over time and adding it to the control signal. This helps to reduce the error between the setpoint and the actual output. In the case of DC motor control, the integral control action can be represented as:
 
 
-
 $$
 
 u(t) = K_i \int_{0}^{t} e(\tau) d\tau
 
 $$
-
 
 
 where $K_i$ is the integral gain and $e(\tau)$ is the error at time $\tau$.
@@ -5628,13 +5503,11 @@ where $K_i$ is the integral gain and $e(\tau)$ is the error at time $\tau$.
 Derivative control is used to improve the system's response time and reduce overshoot. It works by taking the derivative of the error and adding it to the control signal. This helps to anticipate changes in the error and adjust the control signal accordingly. In the case of DC motor control, the derivative control action can be represented as:
 
 
-
 $$
 
 u(t) = K_d \frac{de(t)}{dt}
 
 $$
-
 
 
 where $K_d$ is the derivative gain and $\frac{de(t)}{dt}$ is the derivative of the error.
@@ -5648,13 +5521,11 @@ where $K_d$ is the derivative gain and $\frac{de(t)}{dt}$ is the derivative of t
 The three control actions - proportional, integral, and derivative - are combined to form the complete PID control signal. This can be represented mathematically as:
 
 
-
 $$
 
 u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}
 
 $$
-
 
 
 The values of the gains $K_p$, $K_i$, and $K_d$ are determined through a process called tuning, where the controller is tested and adjusted to achieve the desired response.
@@ -6240,13 +6111,11 @@ In this section, we will explore the characteristics of first order systems and 
 To model a first order system, we need to determine its transfer function. This can be done by analyzing the system's differential equation and taking the Laplace transform. The resulting transfer function will have the form:
 
 
-
 $$
 
 G(s) = \frac{K}{\tau s + 1}
 
 $$
-
 
 
 where K is the system's gain and $\tau$ is the time constant.
@@ -6342,13 +6211,11 @@ In this section, we will explore the characteristics of first order systems and 
 To model a first order system, we need to determine its transfer function. This can be done by analyzing the system's differential equation and taking the Laplace transform. The resulting transfer function will have the form:
 
 
-
 $$
 
 G(s) = \frac{K}{\tau s + 1}
 
 $$
-
 
 
 where K is the system's gain and $\tau$ is the time constant.
@@ -6416,7 +6283,6 @@ A ramp input is a linearly increasing input signal, given by the equation $r(t) 
 To analyze the response of a first order system to a ramp input, we can use the Laplace transform. The Laplace transform of a ramp input is given by:
 
 
-
 $$
 
 R(s) = \frac{k}{s^2}
@@ -6424,9 +6290,7 @@ R(s) = \frac{k}{s^2}
 $$
 
 
-
 Substituting this into the transfer function of a first order system, we get:
-
 
 
 $$
@@ -6436,9 +6300,7 @@ Y(s) = \frac{K}{\tau s + 1} \cdot \frac{k}{s^2}
 $$
 
 
-
 Simplifying this expression, we get:
-
 
 
 $$
@@ -6448,9 +6310,7 @@ Y(s) = \frac{kK}{s(s+\frac{1}{\tau})}
 $$
 
 
-
 Using partial fraction decomposition, we can rewrite this expression as:
-
 
 
 $$
@@ -6460,9 +6320,7 @@ Y(s) = \frac{A}{s} + \frac{B}{s+\frac{1}{\tau}}
 $$
 
 
-
 where $A$ and $B$ are constants to be determined. Taking the inverse Laplace transform, we get:
-
 
 
 $$
@@ -6470,7 +6328,6 @@ $$
 y(t) = A + Be^{-\frac{t}{\tau}}
 
 $$
-
 
 
 The first term, $A$, represents the steady-state response of the system, while the second term, $Be^{-\frac{t}{\tau}}$, represents the transient response. The time constant $\tau$ determines the rate at which the transient response decays.
@@ -6506,13 +6363,11 @@ The time constant can also be interpreted as the inverse of the pole of the tran
 To better understand the concept of time constant, let us consider the response of a first order system to a step input. As discussed in the previous section, the response of a first order system to a step input is given by:
 
 
-
 $$
 
 y(t) = A + Be^{-\frac{t}{\tau}}
 
 $$
-
 
 
 where $A$ and $B$ are constants determined by the initial conditions of the system. From this equation, we can see that the time constant $\tau$ determines the rate at which the transient response decays. A larger time constant results in a slower decay, while a smaller time constant results in a faster decay.
@@ -6544,13 +6399,11 @@ The time constant, denoted by $\tau$, is a characteristic parameter of a first o
 Mathematically, the time constant can be calculated using the transfer function of a first order system. The transfer function is defined as the ratio of the output of a system to its input in the Laplace domain. For a first order system, the transfer function is given by:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1}
 
 $$
-
 
 
 where $K$ is the system gain and $\tau$ is the time constant. From this transfer function, we can see that the time constant is the inverse of the pole of the transfer function, which is represented by $\tau s + 1$. This means that a larger time constant corresponds to a smaller pole, and vice versa.
@@ -6560,7 +6413,6 @@ where $K$ is the system gain and $\tau$ is the time constant. From this transfer
 To calculate the time constant, we can use the step response of a first order system, which is given by:
 
 
-
 $$
 
 y(t) = A + Be^{-\frac{t}{\tau}}
@@ -6568,9 +6420,7 @@ y(t) = A + Be^{-\frac{t}{\tau}}
 $$
 
 
-
 where $A$ and $B$ are constants determined by the initial conditions of the system. From this equation, we can see that the time constant $\tau$ determines the rate at which the transient response decays. In order to calculate the time constant, we can use the following formula:
-
 
 
 $$
@@ -6578,7 +6428,6 @@ $$
 \tau = \frac{t_{63.2\%}}{\ln{\frac{1}{0.632}}}
 
 $$
-
 
 
 where $t_{63.2\%}$ is the time it takes for the system to reach 63.2% of its steady-state value. This formula can be derived by setting $y(t)$ equal to 63.2% of the steady-state value and solving for $t$.
@@ -6816,9 +6665,7 @@ In the previous section, we discussed the introduction to second order systems a
 The step response of a system is the behavior of the system over time in response to a step input. In the case of second order systems, the step response is a bit more complicated due to the presence of two poles and two zeros. The open-loop gain of a second order system is given by:
 
 
-
 $$G(s) = \frac{A_0}{1 + \frac{s}{\tau_1} + \frac{s}{\tau_2}}$$
-
 
 
 where $A_0$ is the zero-frequency gain and $\tau_1$ and $\tau_2$ are the two time constants of the system.
@@ -6828,37 +6675,27 @@ where $A_0$ is the zero-frequency gain and $\tau_1$ and $\tau_2$ are the two tim
 To analyze the step response, we can use the closed-loop gain of the system, which is given by:
 
 
-
 $$G_{CL}(s) = \frac{G(s)}{1 + G(s)H(s)}$$
-
 
 
 where $H(s)$ is the feedback factor. By substituting the expression for $G(s)$, we get:
 
 
-
 $$G_{CL}(s) = \frac{\frac{A_0}{1 + \frac{s}{\tau_1} + \frac{s}{\tau_2}}}{1 + \frac{A_0}{1 + \frac{s}{\tau_1} + \frac{s}{\tau_2}}H(s)}$$
-
 
 
 To simplify this expression, we can switch variables to $s = j\omega$, where $j$ is the imaginary unit and $\omega$ is the angular frequency. This results in:
 
 
-
 $$G_{CL}(j\omega) = \frac{\frac{A_0}{1 + j\frac{\omega}{\tau_1} + j\frac{\omega}{\tau_2}}}{1 + \frac{A_0}{1 + j\frac{\omega}{\tau_1} + j\frac{\omega}{\tau_2}}H(j\omega)}$$
-
 
 
 The poles of this expression occur at the values of $\omega$ that make the denominator equal to zero. This results in the following expressions for the poles:
 
 
-
 $$s_+ = -\frac{1}{\tau_1} + j\frac{\omega}{\tau_1}$$
 
-
-
 $$s_- = -\frac{1}{\tau_2} + j\frac{\omega}{\tau_2}$$
-
 
 
 Notice that for large enough values of $A_0H(j\omega)$, the square root in the expressions for $s_+$ and $s_-$ becomes imaginary, resulting in complex conjugate poles. This is illustrated in Figure 2 below:
@@ -6872,41 +6709,29 @@ Notice that for large enough values of $A_0H(j\omega)$, the square root in the e
 The magnitude of the poles can be represented in polar coordinates as $|s|$, and the angle can be represented as $\phi$. Using these coordinates, we can express the poles as:
 
 
-
 $$s_+ = |s|e^{j\phi}$$
 
-
-
 $$s_- = |s|e^{-j\phi}$$
-
 
 
 The time response of a second order system is composed of combinations of two functions, namely:
 
 
-
 $$e^{s_+t} = e^{(|s|e^{j\phi})t}$$
 
-
-
 $$e^{s_-t} = e^{(|s|e^{-j\phi})t}$$
-
 
 
 These functions represent damped oscillations in time, and the unit step response of the system can be expressed as:
 
 
-
 $$y(t) = \frac{1}{|s|}\left(e^{(|s|e^{j\phi})t} - e^{(|s|e^{-j\phi})t}\right)$$
-
 
 
 Simplifying this expression for the case where $A_0$ tends to infinity and $H(j\omega)$ is equal to one, we get:
 
 
-
 $$y(t) = \frac{1}{|s|}\left(e^{(|s|e^{j\phi})t} - e^{(|s|e^{-j\phi})t}\right) = \frac{2}{|s|}sin(|s|t)$$
-
 
 
 Notice that the damping of the response is determined by the time constants $\tau_1$ and $\tau_2$, while the frequency of oscillation is determined by the feedback factor $H(j\omega)$. It is also interesting to note that the damping is dominated by the shorter of the two time constants.
@@ -6942,9 +6767,7 @@ The frequency response of a system is the behavior of the system in the frequenc
 To analyze the frequency response, we can use the open-loop gain of the system, which is given by:
 
 
-
 $$G(s) = \frac{A_0}{1 + \frac{s}{\tau_1} + \frac{s}{\tau_2}}$$
-
 
 
 where $A_0$ is the zero-frequency gain and $\tau_1$ and $\tau_2$ are the two time constants of the system.
@@ -6954,37 +6777,27 @@ where $A_0$ is the zero-frequency gain and $\tau_1$ and $\tau_2$ are the two tim
 By substituting the expression for $s = j\omega$, where $j$ is the imaginary unit and $\omega$ is the angular frequency, we get:
 
 
-
 $$G(j\omega) = \frac{A_0}{1 + j\frac{\omega}{\tau_1} + j\frac{\omega}{\tau_2}}$$
-
 
 
 The magnitude of the frequency response is given by:
 
 
-
 $$|G(j\omega)| = \frac{A_0}{\sqrt{1 + \left(\frac{\omega}{\tau_1}\right)^2 + \left(\frac{\omega}{\tau_2}\right)^2}}$$
-
 
 
 The phase of the frequency response is given by:
 
 
-
 $$\angle G(j\omega) = \tan^{-1}\left(\frac{\frac{\omega}{\tau_2} - \frac{\omega}{\tau_1}}{1 + \frac{\omega^2}{\tau_1\tau_2}}\right)$$
-
 
 
 The poles of the frequency response occur at the values of $\omega$ that make the denominator equal to zero. This results in the following expressions for the poles:
 
 
-
 $$\omega_+ = \frac{1}{\tau_1}$$
 
-
-
 $$\omega_- = \frac{1}{\tau_2}$$
-
 
 
 Notice that for large enough values of $\omega$, the magnitude of the frequency response approaches the zero-frequency gain $A_0$. This means that the system amplifies low-frequency signals and attenuates high-frequency signals.
@@ -7028,9 +6841,7 @@ The damping ratio, denoted by $\zeta$, is a measure of how quickly the oscillati
 The natural frequency and damping ratio are related to the system's poles and zeros. The natural frequency is equal to the imaginary part of the poles, while the damping ratio is equal to the negative real part of the poles. This means that the poles of a second order system can be written as:
 
 
-
 $$s_{1,2} = -\zeta\omega_n \pm j\omega_n\sqrt{1-\zeta^2}$$
-
 
 
 From this expression, we can see that the natural frequency and damping ratio affect the location of the poles in the complex plane. The natural frequency determines the distance of the poles from the origin, while the damping ratio determines the angle at which the poles are located.
@@ -7074,13 +6885,11 @@ The damping ratio, denoted by $\zeta$, is a measure of how quickly the oscillati
 To calculate the natural frequency and damping ratio, we first need to determine the poles of the system. The poles can be found by solving the characteristic equation of the system, which is given by:
 
 
-
 $$
 
 1 + \frac{2\zeta}{\omega_n}s + \frac{1}{\omega_n^2}s^2 = 0
 
 $$
-
 
 
 Solving this equation will give us the two poles of the system, which can then be used to calculate the natural frequency and damping ratio.
@@ -7090,13 +6899,11 @@ Solving this equation will give us the two poles of the system, which can then b
 The natural frequency can be calculated using the following formula:
 
 
-
 $$
 
 \omega_n = \sqrt{\frac{1}{LC}}
 
 $$
-
 
 
 where L is the inductance and C is the capacitance of the system.
@@ -7106,13 +6913,11 @@ where L is the inductance and C is the capacitance of the system.
 The damping ratio can be calculated using the following formula:
 
 
-
 $$
 
 \zeta = \frac{R}{2}\sqrt{\frac{C}{L}}
 
 $$
-
 
 
 where R is the resistance of the system.
@@ -7122,13 +6927,11 @@ where R is the resistance of the system.
 It is important to note that the natural frequency and damping ratio are not independent of each other. They are related by the following equation:
 
 
-
 $$
 
 \zeta = \frac{1}{2Q}
 
 $$
-
 
 
 where Q is the quality factor of the system, which is a measure of the sharpness of the system's resonance peak.
@@ -7172,13 +6975,11 @@ The damping ratio, denoted by $\zeta$, is a measure of how quickly the oscillati
 The relationship between the natural frequency and damping ratio can be seen in the characteristic equation of a second order system:
 
 
-
 $$
 
 1 + \frac{2\zeta}{\omega_n}s + \frac{1}{\omega_n^2}s^2 = 0
 
 $$
-
 
 
 As we can see, the natural frequency and damping ratio are both present in the equation. This means that changing one parameter will affect the other. For example, increasing the damping ratio will decrease the natural frequency and vice versa.
@@ -7188,7 +6989,6 @@ As we can see, the natural frequency and damping ratio are both present in the e
 To better understand this relationship, let's consider the case of a critically damped system, where the damping ratio is equal to 1. In this case, the characteristic equation becomes:
 
 
-
 $$
 
 1 + \frac{2}{\omega_n}s + \frac{1}{\omega_n^2}s^2 = 0
@@ -7196,9 +6996,7 @@ $$
 $$
 
 
-
 Solving for the roots of this equation, we get:
-
 
 
 $$
@@ -7208,13 +7006,11 @@ s_1 = s_2 = -\omega_n
 $$
 
 
-
 This means that the system has two identical poles, both located at $-\omega_n$. This results in a response that decays to zero without any oscillations. In other words, the system is critically damped and there is no resonance.
 
 
 
 On the other hand, if we consider the case of an underdamped system, where the damping ratio is less than 1, the characteristic equation becomes:
-
 
 
 $$
@@ -7224,9 +7020,7 @@ $$
 $$
 
 
-
 Solving for the roots of this equation, we get:
-
 
 
 $$
@@ -7235,14 +7029,11 @@ s_1 = -\zeta\omega_n + j\omega_n\sqrt{1-\zeta^2}
 
 $$
 
-
-
 $$
 
 s_2 = -\zeta\omega_n - j\omega_n\sqrt{1-\zeta^2}
 
 $$
-
 
 
 As we can see, the poles are now complex conjugates, with a real part equal to the damping ratio times the natural frequency. This results in a response that oscillates with a frequency equal to the natural frequency and decays with a rate determined by the damping ratio.
@@ -7606,13 +7397,11 @@ In this subsection, we will discuss the transfer functions of systems with multi
 To begin, let us consider a system with multiple poles and zeros. The transfer function of this system can be written as:
 
 
-
 $$
 
 H(s) = \frac{b_ms^m + b_{m-1}s^{m-1} + ... + b_1s + b_0}{a_ns^n + a_{n-1}s^{n-1} + ... + a_1s + a_0}
 
 $$
-
 
 
 where $m$ is the number of zeros and $n$ is the number of poles. The coefficients $b_m, b_{m-1}, ..., b_0$ and $a_n, a_{n-1}, ..., a_0$ represent the contributions of the poles and zeros to the transfer function.
@@ -7848,7 +7637,6 @@ To better understand the representation of components using electrical elements,
 Consider the following expression:
 
 
-
 $$
 
 z = x^2 y
@@ -7856,9 +7644,7 @@ z = x^2 y
 $$
 
 
-
 To linearize this expression, we can divide through by $z^2$ to cancel out some of the factors and obtain a more useful result:
-
 
 
 $$
@@ -7868,9 +7654,7 @@ $$
 $$
 
 
-
 This can be further simplified to:
-
 
 
 $$
@@ -7878,7 +7662,6 @@ $$
 \frac{\sigma_z^2}{z^2} \approx \left(\frac{\sigma_x}{x}\right)^2 + \left(\frac{\sigma_y}{y}\right)^2 + \frac{4\sigma_{x,y}}{xy}
 
 $$
-
 
 
 This expression allows us to estimate the standard deviation of $z$ using the means (averages) of the variables and their component (co)variances. This is a common practice in modeling nonlinear systems, as it allows us to use the tools and techniques developed for linear systems.
@@ -8594,13 +8377,11 @@ One of the main advantages of using signal flow graphs is that they provide a vi
 To analyze a signal flow graph, we can use the Mason's gain formula. This formula allows us to calculate the overall transfer function of a system by considering the individual transfer functions of each branch and the loops in the graph. The Mason's gain formula is given by:
 
 
-
 $$
 
 G = \frac{\sum_{i=1}^{n} \Delta_i \cdot G_i}{\Delta}
 
 $$
-
 
 
 where $G$ is the overall transfer function, $n$ is the number of forward paths, $\Delta_i$ is the determinant of the graph with the $i$th forward path removed, and $G_i$ is the transfer function of the $i$th forward path.
@@ -8650,7 +8431,6 @@ Overall, this chapter has provided a comprehensive guide to block diagrams and f
 Consider the block diagram shown below. Use block diagram algebra to simplify the diagram and find the transfer function from the input $u$ to the output $y$.
 
 
-
 $$
 
 \begin{align*}
@@ -8664,7 +8444,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 #### Exercise 2
@@ -8672,7 +8451,6 @@ $$
 A system has the following block diagram:
 
 
-
 $$
 
 \begin{align*}
@@ -8688,9 +8466,7 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 $$
 
 
-
 Find the transfer function from the disturbance $d$ to the output $y$.
-
 
 
 $$
@@ -8708,11 +8484,9 @@ y &= \frac{1}{s+1}\left(d + \frac{1}{s+2}\right) \\
 $$
 
 
-
 #### Exercise 3
 
 Consider the block diagram shown below. Use block diagram algebra to find the transfer function from the input $u$ to the output $y$.
-
 
 
 $$
@@ -8728,7 +8502,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 #### Exercise 4
@@ -8736,7 +8509,6 @@ $$
 A system has the following block diagram:
 
 
-
 $$
 
 \begin{align*}
@@ -8752,9 +8524,7 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 $$
 
 
-
 Find the transfer function from the input $u$ to the output $y$ when a proportional controller with gain $K$ is added to the feedback loop.
-
 
 
 $$
@@ -8772,11 +8542,9 @@ y &= \frac{1}{s+1}\left(u + \frac{K}{s+1}\right) \\
 $$
 
 
-
 #### Exercise 5
 
 Consider the block diagram shown below. Use block diagram algebra to find the transfer function from the input $u$ to the output $y$.
-
 
 
 $$
@@ -8792,7 +8560,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 
@@ -8826,7 +8593,6 @@ Overall, this chapter has provided a comprehensive guide to block diagrams and f
 Consider the block diagram shown below. Use block diagram algebra to simplify the diagram and find the transfer function from the input $u$ to the output $y$.
 
 
-
 $$
 
 \begin{align*}
@@ -8840,7 +8606,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 #### Exercise 2
@@ -8848,7 +8613,6 @@ $$
 A system has the following block diagram:
 
 
-
 $$
 
 \begin{align*}
@@ -8864,9 +8628,7 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 $$
 
 
-
 Find the transfer function from the disturbance $d$ to the output $y$.
-
 
 
 $$
@@ -8884,11 +8646,9 @@ y &= \frac{1}{s+1}\left(d + \frac{1}{s+2}\right) \\
 $$
 
 
-
 #### Exercise 3
 
 Consider the block diagram shown below. Use block diagram algebra to find the transfer function from the input $u$ to the output $y$.
-
 
 
 $$
@@ -8904,7 +8664,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 #### Exercise 4
@@ -8912,7 +8671,6 @@ $$
 A system has the following block diagram:
 
 
-
 $$
 
 \begin{align*}
@@ -8928,9 +8686,7 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 $$
 
 
-
 Find the transfer function from the input $u$ to the output $y$ when a proportional controller with gain $K$ is added to the feedback loop.
-
 
 
 $$
@@ -8948,11 +8704,9 @@ y &= \frac{1}{s+1}\left(u + \frac{K}{s+1}\right) \\
 $$
 
 
-
 #### Exercise 5
 
 Consider the block diagram shown below. Use block diagram algebra to find the transfer function from the input $u$ to the output $y$.
-
 
 
 $$
@@ -8968,7 +8722,6 @@ y &= \frac{1}{s+1}\left(u + \frac{1}{s+2}\right) \\
 \end{align*}
 
 $$
-
 
 
 
@@ -9154,7 +8907,6 @@ To understand the derivation of the Routh array, we first need to introduce the 
 Let us consider a system with a characteristic polynomial of the form:
 
 
-
 $$
 
 f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0
@@ -9162,9 +8914,7 @@ f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0
 $$
 
 
-
 Assuming that there are no roots of $f(x) = 0$ on the imaginary axis, we can express the polynomial in polar form as:
-
 
 
 $$
@@ -9174,9 +8924,7 @@ f(x) = a_n(x-r_1)(x-r_2)...(x-r_n)
 $$
 
 
-
 where $r_i$ are the roots of the polynomial. We can then define the Cauchy index as:
-
 
 
 $$
@@ -9186,9 +8934,7 @@ $$
 $$
 
 
-
 Using this definition, we can calculate the Cauchy index for each root $r_i$ as:
-
 
 
 $$
@@ -9198,9 +8944,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -9210,9 +8954,7 @@ $$
 $$
 
 
-
 If the $i^{th}$ root of $f(x) = 0$ has a positive real part, then $\theta_{r_i}(x)\Big|_{x=-j\infty}^{x=j\infty} = -\pi$. On the other hand, if the $i^{th}$ root of $f(x) = 0$ has a negative real part, then $\theta_{r_i}(x)\Big|_{x=-j\infty}^{x=j\infty} = \pi$. Using this information, we can define the Cauchy index as:
-
 
 
 $$
@@ -9222,13 +8964,11 @@ $$
 $$
 
 
-
 where $C$ is a closed contour in the complex plane that encloses all the roots of $f(x) = 0$. By evaluating this function, we can determine the number of roots with negative real parts ($N$) and the number of roots with positive real parts ($P$).
 
 
 
 In accordance with the Routh-Hurwitz criterion, we can construct the Routh array using the Cauchy index. The first row of the array consists of the coefficients of the characteristic polynomial, while the subsequent rows are calculated using the following formula:
-
 
 
 $$
@@ -9264,7 +9004,6 @@ s_{n,2} &= \frac{s_{n-2,1}s_{n-1,3}-s_{n-2,3}s_{n-1,1}}{s_{n-1,2}} \\
 \end{align}
 
 $$
-
 
 
 The final row of the array will have either all non-zero elements or all zero elements. If the final row has all non-zero elements, then the system is considered stable. However, if the final row has all zero elements, then the system is considered unstable.
@@ -9308,13 +9047,11 @@ Stability conditions are mathematical equations that must be satisfied for a sys
 The first stability condition that must be satisfied for substructure assembly is the compatibility condition. This condition ensures that the displacements of the substructures at the interface match perfectly. Mathematically, this condition can be expressed as:
 
 
-
 $$
 
 \mathbf{L}^T \mathbf{u} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{L}$ is the Boolean localization matrix and $\mathbf{u}$ is the vector of displacements at the interface. This equation states that the displacements of the substructures must be equal at the interface, ensuring that there are no gaps or overlaps between them.
@@ -9328,13 +9065,11 @@ where $\mathbf{L}$ is the Boolean localization matrix and $\mathbf{u}$ is the ve
 The second stability condition is the force equilibrium condition, which ensures that the interface forces between the substructures are balanced. Mathematically, this condition can be expressed as:
 
 
-
 $$
 
 \mathbf{L}^T \mathbf{g} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{g}$ is the vector of interface forces. This equation states that the sum of the interface forces must be equal to zero, ensuring that there are no unbalanced forces acting on the substructures.
@@ -9348,13 +9083,11 @@ where $\mathbf{g}$ is the vector of interface forces. This equation states that 
 Another way to express the force equilibrium condition is by introducing a set of Lagrange multipliers $\boldsymbol{\lambda}$. These multipliers represent the intensity of the interface forces and can be substituted into the force equilibrium equation as:
 
 
-
 $$
 
 \mathbf{g} = -\mathbf{B}^T \boldsymbol{\lambda}
 
 $$
-
 
 
 where $\mathbf{B}$ is the signed Boolean matrix. This equation states that the interface forces can be expressed as a linear combination of the Lagrange multipliers. This notation is useful for solving complex systems with multiple substructures.
@@ -9398,13 +9131,11 @@ Stability conditions are mathematical equations that must be satisfied for a sys
 The first stability condition that must be satisfied for substructure assembly is the compatibility condition. This condition ensures that the displacements of the substructures at the interface match perfectly. Mathematically, this condition can be expressed as:
 
 
-
 $$
 
 \mathbf{L}^T \mathbf{u} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{L}$ is the Boolean localization matrix and $\mathbf{u}$ is the vector of displacements at the interface. This equation states that the displacements of the substructures must be equal at the interface, ensuring that there are no gaps or overlaps between them.
@@ -9422,13 +9153,11 @@ This condition is crucial for the stability of a system because any mismatch in 
 The second stability condition is the force equilibrium condition, which ensures that the interface forces between the substructures are balanced. Mathematically, this condition can be expressed as:
 
 
-
 $$
 
 \mathbf{L}^T \mathbf{g} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{g}$ is the vector of interface forces. This equation states that the sum of the interface forces must be equal to zero, ensuring that the system is in a state of equilibrium.
@@ -9450,13 +9179,11 @@ In this subsection, we will discuss stability conditions specifically for contro
 One of the main stability conditions for control systems is the input-to-state stability (ISS) condition. This condition is based on the concept of Lyapunov functions, which are used to prove stability in control systems. A smooth function $V_i:\R^{p_i} \to \R_{+}$ is an ISS-Lyapunov function (ISS-LF) for the $i$-th subsystem of the system if there exist functions $\psi_{i1},\psi_{i2}\in\mathcal{K}_{\infty}$, $\chi_{ij},\chi_{i}\in \mathcal{K}$, $j=1,\ldots,n$, $j \neq i$, $\chi_{ii}:=0$ and a positive-definite function $\alpha_{i}$, such that:
 
 
-
 $$
 
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
 
 $$
-
 
 
 This condition ensures that the system will remain stable even in the presence of disturbances or uncertainties. It is a powerful tool for analyzing the stability of interconnections of ISS systems, as it allows for the study of stability properties of complex systems.
@@ -9508,13 +9235,11 @@ Stability conditions are mathematical equations that must be satisfied for a sys
 The first stability condition that must be satisfied for substructure assembly is the compatibility condition. This condition ensures that the displacements of the substructures at the interface match perfectly. Mathematically, this condition can be expressed as:
 
 
-
 $$
 
 \mathbf{L}^T \mathbf{u} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{L}$ is the Boolean localization matrix and $\mathbf{u}$ is the vector of displacements at the interface. This equation states that the displacements of the substructures must be equal at the interface, ensuring that there are no gaps or overlaps between them.
@@ -9532,13 +9257,11 @@ This condition is crucial for the stability of a system because any mismatch in 
 The second stability condition is the force equilibrium condition, which states that the sum of all forces acting on a system must be equal to zero. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum \mathbf{F} = \mathbf{0}
 
 $$
-
 
 
 where $\mathbf{F}$ represents the forces acting on the system. This condition ensures that the system is in a state of equilibrium, with no net force acting on it. If this condition is not satisfied, the system may experience unbalanced forces, leading to instability.
@@ -9602,13 +9325,11 @@ In the previous section, we discussed the stability conditions that must be sati
 Steady state error is a crucial aspect of control systems as it directly affects the performance and accuracy of a system. It is defined as the difference between the desired output and the actual output of a system after it has reached a steady state. Mathematically, it can be expressed as:
 
 
-
 $$
 
 e_{ss} = y_{d} - y_{ss}
 
 $$
-
 
 
 where $e_{ss}$ is the steady state error, $y_{d}$ is the desired output, and $y_{ss}$ is the actual output at steady state.
@@ -9652,13 +9373,11 @@ In the previous section, we discussed the stability conditions that must be sati
 Steady state error is a crucial aspect of control systems as it directly affects the performance and accuracy of a system. It is defined as the difference between the desired output and the actual output of a system after it has reached a steady state. Mathematically, it can be expressed as:
 
 
-
 $$
 
 e_{ss} = y_{d} - y_{ss}
 
 $$
-
 
 
 where $e_{ss}$ is the steady state error, $y_{d}$ is the desired output, and $y_{ss}$ is the actual output at steady state.
@@ -9718,13 +9437,11 @@ In the previous section, we discussed the stability conditions that must be sati
 Steady state error is a crucial aspect of control systems as it directly affects the performance and accuracy of a system. It is defined as the difference between the desired output and the actual output of a system after it has reached a steady state. Mathematically, it can be expressed as:
 
 
-
 $$
 
 e_{ss} = y_{d} - y_{ss}
 
 $$
-
 
 
 where $e_{ss}$ is the steady state error, $y_{d}$ is the desired output, and $y_{ss}$ is the actual output at steady state.
@@ -9746,13 +9463,11 @@ In control systems, it is desirable to have a low steady state error to ensure a
 There are several methods for calculating steady state error in control systems. One common method is the final value theorem, which states that the steady state error can be calculated as the ratio of the steady state output to the steady state input. Mathematically, this can be expressed as:
 
 
-
 $$
 
 e_{ss} = \lim_{s \to 0} s \cdot Y(s)
 
 $$
-
 
 
 where $Y(s)$ is the transfer function of the system.
@@ -9762,13 +9477,11 @@ where $Y(s)$ is the transfer function of the system.
 Another method for calculating steady state error is the error coefficient method, which involves finding the error coefficient of the system and using it to calculate the steady state error. The error coefficient is defined as the inverse Laplace transform of the transfer function of the system. Mathematically, this can be expressed as:
 
 
-
 $$
 
 K_{e} = \lim_{s \to 0} s \cdot G(s)
 
 $$
-
 
 
 where $G(s)$ is the transfer function of the system.
@@ -9778,13 +9491,11 @@ where $G(s)$ is the transfer function of the system.
 Once the error coefficient is calculated, the steady state error can be calculated as:
 
 
-
 $$
 
 e_{ss} = \frac{1}{1 + K_{e}}
 
 $$
-
 
 
 where $K_{e}$ is the error coefficient.
@@ -9846,17 +9557,14 @@ Design a control system for the system described by the transfer function $G(s) 
 #### Exercise 4
 
 Consider a discrete-time system described by the state-space equations:
-
 $$
 
 x(k+1) = Ax(k) + Bu(k)
 
 $$
-
 $$
 
 y(k) = Cx(k)
-
 $$
 
 where $x(k)$ is the state vector, $u(k)$ is the input vector, and $y(k)$ is the output vector. Determine the conditions for the system to be stable.
@@ -9910,15 +9618,11 @@ Design a control system for the system described by the transfer function $G(s) 
 Consider a discrete-time system described by the state-space equations:
 
 $$
-
 x(k+1) = Ax(k) + Bu(k)
-
 $$
 
 $$
-
 y(k) = Cx(k)
-
 $$
 
 where $x(k)$ is the state vector, $u(k)$ is the input vector, and $y(k)$ is the output vector. Determine the conditions for the system to be stable.
@@ -11312,9 +11016,7 @@ In this section, we will discuss the Fourier transform and its role in frequency
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt
-
 $$
 
 
@@ -11324,9 +11026,7 @@ where $f(t)$ is the signal in the time domain and $F(\omega)$ is its representat
 
 
 $$
-
 f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega)e^{i\omega t} d\omega
-
 $$
 
 
@@ -11374,9 +11074,7 @@ In this section, we will discuss the Fourier transform and its role in frequency
 
 
 $$
-
 F(\omega) = \int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt
-
 $$
 
 
@@ -11386,9 +11084,7 @@ where $f(t)$ is the input signal and $F(\omega)$ is the frequency domain represe
 
 
 $$
-
 f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)e^{i\omega t} d\omega
-
 $$
 
 
@@ -11566,9 +11262,7 @@ Let's walk through an example to illustrate this process. Consider the transfer 
 
 
 $$
-
 H(s) = \frac{1}{1+sRC}
-
 $$
 
 
@@ -11578,9 +11272,7 @@ To plot the Bode plot, we first convert the transfer function into its frequency
 
 
 $$
-
 H(j\omega) = \frac{1}{1+j\omega RC}
-
 $$
 
 
@@ -11590,9 +11282,7 @@ Next, we plot the amplitude and phase response on logarithmic scales. The amplit
 
 
 $$
-
 |H(j\omega)| = \frac{1}{\sqrt{1+(\omega RC)^2}}
-
 $$
 
 
@@ -11602,9 +11292,7 @@ And the phase response is given by:
 
 
 $$
-
 \angle H(j\omega) = -\arctan(\omega RC)
-
 $$
 
 
@@ -11654,7 +11342,6 @@ Gain and phase margins are based on the gain expression for a negative feedback 
 $$A_{FB} = \frac{A_{OL}}{1 + \beta A_{OL}}$$
 
 
-
 where $A_{FB}$ is the closed-loop gain, $\beta$ is the feedback factor, and $A_{OL}$ is the open-loop gain. The open-loop gain is a complex function of frequency, with both magnitude and phase components. The stability of a system is determined by the product of the feedback factor and the open-loop gain, which must not equal -1 (interpreted as instability).
 
 
@@ -11662,13 +11349,9 @@ where $A_{FB}$ is the closed-loop gain, $\beta$ is the feedback factor, and $A_{
 To determine the gain and phase margins, we need to identify two frequencies on the Bode plot. The first frequency, denoted as $f_{180}$, is where the open-loop gain changes sign. The second frequency, $f_{0 dB}$, is where the magnitude of the product $|\beta A_{OL}|$ equals 1 (in dB, this is equivalent to 0 dB). These frequencies can be found using the following conditions:
 
 
-
 $$|A_{OL}(f_{180})| = 1$$
 
-
-
 $$|A_{OL}(f_{0 dB})| = 1$$
-
 
 
 One measure of a system's stability is the gain margin. This is determined by finding the frequency on the Bode phase plot where the phase of $\beta A_{OL}$ reaches -180 degrees, denoted as $f_{180}$. Using this frequency, we can then find the magnitude of $\beta A_{OL}$ on the Bode magnitude plot. If $|\beta A_{OL}|_{180} \geq 1$, the system is unstable. However, if $|\beta A_{OL}|_{180} < 1$, the system is stable.
@@ -11704,9 +11387,7 @@ In the previous section, we discussed the concept of gain and phase margins and 
 As mentioned before, the gain and phase margins are based on the gain expression for a negative feedback amplifier, given by:
 
 
-
 $$A_{FB} = \frac{A_{OL}}{1 + \beta A_{OL}}$$
-
 
 
 where $A_{FB}$ is the closed-loop gain, $\beta$ is the feedback factor, and $A_{OL}$ is the open-loop gain. The stability of a system is determined by the product of the feedback factor and the open-loop gain, which must not equal -1 (interpreted as instability).
@@ -11746,9 +11427,7 @@ In the previous section, we discussed the definition and calculation of gain and
 As mentioned before, the gain and phase margins are based on the gain expression for a negative feedback amplifier, given by:
 
 
-
 $$A_{FB} = \frac{A_{OL}}{1 + \beta A_{OL}}$$
-
 
 
 where $A_{FB}$ is the closed-loop gain, $\beta$ is the feedback factor, and $A_{OL}$ is the open-loop gain. The stability of a system is determined by the product of the feedback factor and the open-loop gain, which must not equal -1 (interpreted as instability).
@@ -11918,13 +11597,11 @@ Lead compensators are an essential component in classical control theory, used t
 A lead compensator is a type of compensator that introduces a pole-zero pair into the open-loop transfer function of a control system. The transfer function can be written in the Laplace domain as:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{X(s)} = \frac{K(s+z)}{(s+p)}
 
 $$
-
 
 
 where "X" is the input to the compensator, "Y" is the output, "s" is the complex Laplace transform variable, "z" is the zero frequency, and "p" is the pole frequency. Both the pole and zero are typically negative, or left of the origin in the complex plane. In a lead compensator, the zero frequency is smaller than the pole frequency, i.e., $|z| < |p|$.
@@ -11938,13 +11615,11 @@ The lead compensator is used to improve the performance of a control system by p
 The overall transfer function of a lead compensator can be written as:
 
 
-
 $$
 
 G(s) = \frac{K(s+z_1)}{(s+p_1)(s+p_2)}
 
 $$
-
 
 
 where $|p_1| > |z_1| > |p_2|$, and $z_1$ and $p_1$ are the zero and pole of the lead compensator, respectively. The second pole $p_2$ is typically chosen to be much smaller than $p_1$ to ensure that the lead compensator does not introduce any significant attenuation at low frequencies.
@@ -11972,13 +11647,11 @@ Lead compensators are an essential component in classical control theory, used t
 A lead compensator is a type of compensator that introduces a pole-zero pair into the open-loop transfer function of a control system. The transfer function can be written in the Laplace domain as:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{X(s)} = \frac{K(s+z)}{(s+p)}
 
 $$
-
 
 
 where "X" is the input to the compensator, "Y" is the output, "s" is the complex Laplace transform variable, "z" is the zero frequency, and "p" is the pole frequency. Both the pole and zero are typically negative, or left of the origin in the complex plane. In a lead compensator, the zero frequency is smaller than the pole frequency, i.e., $|z| < |p|$.
@@ -11992,13 +11665,11 @@ The lead compensator is used to improve the performance of a control system by p
 The overall transfer function of a lead compensator can be written as:
 
 
-
 $$
 
 G(s) = \frac{K(s+z_1)}{(s+p_1)(s+p_2)}
 
 $$
-
 
 
 where $|p_1| > |z_1| > |p_2|$, and $z_1$ and $p_1$ are the zero and pole of the lead compensator, respectively. The second pole $p_2$ is typically chosen to be much smaller than $p_1$ to ensure that the lead compensator does not introduce any significant attenuation at low frequencies.
@@ -12046,13 +11717,11 @@ Lead compensators are an essential component in classical control theory, used t
 A lead compensator is a type of compensator that introduces a pole-zero pair into the open-loop transfer function of a control system. The transfer function can be written in the Laplace domain as:
 
 
-
 $$
 
 G(s) = \frac{Y(s)}{X(s)} = \frac{K(s+z)}{(s+p)}
 
 $$
-
 
 
 where "X" is the input to the compensator, "Y" is the output, "s" is the complex Laplace transform variable, "z" is the zero frequency, and "p" is the pole frequency. Both the pole and zero are typically negative, or left of the origin in the complex plane. In a lead compensator, the zero frequency is smaller than the pole frequency, i.e., $|z| < |p|$.
@@ -12064,7 +11733,6 @@ The lead compensator is used to improve the performance of a control system by p
 
 
 The overall transfer function of a lead compensator can be written as:
-
 
 
 $$

@@ -979,9 +979,7 @@ Hooke's law states that for elastic materials, stress is directly proportional t
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1021,9 +1019,7 @@ Elastic deformation is a type of deformation that occurs when a material is subj
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1085,9 +1081,7 @@ Elastic deformation is a type of deformation that occurs when a material is subj
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1161,9 +1155,7 @@ Elastic deformation is a type of deformation that occurs when a material is subj
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1473,9 +1465,7 @@ This relationship can be mathematically expressed as:
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1527,9 +1517,7 @@ This relationship can be mathematically expressed as:
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2263,9 +2251,7 @@ The principal stress equation is given by:
 
 
 $$
-
 \sigma_{1,2} = \frac{\sigma_x + \sigma_y}{2} \pm \sqrt{\left(\frac{\sigma_x - \sigma_y}{2}\right)^2 + \tau_{xy}^2}
-
 $$
 
 
@@ -2279,9 +2265,7 @@ Similarly, the principal strain equation is given by:
 
 
 $$
-
 \varepsilon_{1,2} = \frac{\varepsilon_x + \varepsilon_y}{2} \pm \sqrt{\left(\frac{\varepsilon_x - \varepsilon_y}{2}\right)^2 + \gamma_{xy}^2}
-
 $$
 
 
@@ -2475,9 +2459,7 @@ Hooke's law is a fundamental principle in continuum linear elasticity that descr
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2525,9 +2507,7 @@ Hooke's law is a fundamental principle in continuum linear elasticity that descr
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2587,9 +2567,7 @@ Hooke's law is a fundamental principle in continuum linear elasticity that descr
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -2635,9 +2613,7 @@ Poisson's ratio can also be expressed in terms of the elastic moduli. It is rela
 
 
 $$
-
 \nu = \frac{E}{2G} - 1 = \frac{3K - 2G}{2(3K + G)}
-
 $$
 
 
@@ -2697,9 +2673,7 @@ Hooke's law is a fundamental principle in continuum linear elasticity that descr
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -3271,9 +3245,7 @@ Mathematically, the elastic limit and yield point can be described using the str
 
 
 $$
-
 \sigma = E\epsilon + \sigma_y
-
 $$
 
 
@@ -3513,9 +3485,7 @@ Mathematically, creep can be described by the following equation:
 
 
 $$
-
 \epsilon(t) = \epsilon_{0} + \frac{\sigma}{E}t
-
 $$
 
 
@@ -3533,9 +3503,7 @@ The mathematical equation for stress relaxation is given by:
 
 
 $$
-
 \sigma(t) = \sigma_{0}e^{-\frac{t}{\tau}}
-
 $$
 
 
@@ -5089,9 +5057,7 @@ Creep is a result of the movement of dislocations within a material, which cause
 
 
 $$
-
 \dot{\epsilon} = A\sigma^n e^{-\frac{Q}{RT}}
-
 $$
 
 
@@ -5105,9 +5071,7 @@ Stress relaxation, on the other hand, is a result of the rearrangement of atoms 
 
 
 $$
-
 \dot{\sigma} = B\epsilon^m e^{-\frac{Q}{RT}}
-
 $$
 
 

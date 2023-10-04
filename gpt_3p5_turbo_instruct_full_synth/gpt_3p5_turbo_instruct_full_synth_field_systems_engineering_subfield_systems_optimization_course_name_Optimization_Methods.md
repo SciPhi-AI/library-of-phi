@@ -1325,7 +1325,6 @@ We can represent this problem mathematically as follows:
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1337,7 +1336,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1393,7 +1391,6 @@ We can represent this problem mathematically as follows:
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1405,7 +1402,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1453,7 +1449,6 @@ We can represent this problem mathematically as follows:
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1465,7 +1460,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1509,7 +1503,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1521,7 +1514,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1573,7 +1565,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1585,7 +1576,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1615,7 +1605,6 @@ In order to use the simplex method, we must first formulate the linear optimizat
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & \mathbf{c}^T\mathbf{x} \\
@@ -1625,7 +1614,6 @@ $$
 & \mathbf{x} \geq \mathbf{0}
 
 \end{align}
-
 $$
 
 
@@ -1647,7 +1635,6 @@ Using this format, we can easily convert any linear optimization problem into a 
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1659,7 +1646,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1669,7 +1655,6 @@ We can rewrite the objective function as:
 
 
 $$
-
 \begin{align}
 
 P &= 5A + 3B \\
@@ -1679,7 +1664,6 @@ P &= 5A + 3B \\
 &= \mathbf{c}^T\mathbf{x}
 
 \end{align}
-
 $$
 
 
@@ -1689,7 +1673,6 @@ Similarly, we can rewrite the constraints as:
 
 
 $$
-
 \begin{align}
 
 2A + B &\leq 100 \\
@@ -1699,7 +1682,6 @@ A + 3B &\leq 240 \\
 A, B &\geq 0
 
 \end{align}
-
 $$
 
 
@@ -1709,7 +1691,6 @@ In matrix form, this becomes:
 
 
 $$
-
 \begin{align}
 
 \begin{bmatrix} 2 & 1 \\ 1 & 3 \\ -1 & 0 \\ 0 & -1 \end{bmatrix} \begin{bmatrix} A \\ B \end{bmatrix} &\leq \begin{bmatrix} 100 \\ 240 \\ 0 \\ 0 \end{bmatrix} \\
@@ -1717,7 +1698,6 @@ $$
 \mathbf{Ax} &\leq \mathbf{b}
 
 \end{align}
-
 $$
 
 
@@ -1727,7 +1707,6 @@ Therefore, our linear optimization problem in standard form is:
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & \mathbf{c}^T\mathbf{x} \\
@@ -1737,7 +1716,6 @@ $$
 & \mathbf{x} \geq \mathbf{0}
 
 \end{align}
-
 $$
 
 
@@ -1747,7 +1725,6 @@ Where:
 
 
 $$
-
 \begin{align}
 
 \mathbf{c} &= \begin{bmatrix} 5 & 3 \end{bmatrix} \\
@@ -1759,7 +1736,6 @@ $$
 \mathbf{b} &= \begin{bmatrix} 100 \\ 240 \\ 0 \\ 0 \end{bmatrix}
 
 \end{align}
-
 $$
 
 
@@ -1795,7 +1771,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -1807,7 +1782,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -1995,7 +1969,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2007,7 +1980,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2107,7 +2079,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2119,7 +2090,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2133,7 +2103,6 @@ The dual problem for this example would be:
 
 
 $$
-
 \begin{align}
 
 \text{Minimize } & 100x + 240y \\
@@ -2145,7 +2114,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2217,7 +2185,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2229,7 +2196,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2243,7 +2209,6 @@ The dual problem for this example would be:
 
 
 $$
-
 \begin{align}
 
 \text{Minimize } & 100x + 240y \\
@@ -2255,7 +2220,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2335,7 +2299,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2347,7 +2310,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2361,7 +2323,6 @@ The dual problem for this example would be:
 
 
 $$
-
 \begin{align}
 
 \text{Minimize } & 100x + 240y \\
@@ -2373,7 +2334,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2463,7 +2423,6 @@ To better understand this concept, let's revisit the example from the previous s
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2475,7 +2434,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2489,7 +2447,6 @@ The dual problem for this example would be:
 
 
 $$
-
 \begin{align}
 
 \text{Minimize } & 100x + 240y \\
@@ -2501,7 +2458,6 @@ $$
 & x, y \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2561,7 +2517,6 @@ To illustrate the importance of sensitivity analysis, let's revisit the example 
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2573,7 +2528,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2629,7 +2583,6 @@ To illustrate the importance of sensitivity analysis, let's revisit the example 
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2641,7 +2594,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -2709,7 +2661,6 @@ To illustrate the importance of sensitivity analysis, let's revisit the example 
 
 
 $$
-
 \begin{align}
 
 \text{Maximize } & P = 5A + 3B \\
@@ -2721,7 +2672,6 @@ $$
 & A, B \geq 0
 
 \end{align}
-
 $$
 
 
@@ -3895,9 +3845,7 @@ Next, we introduce Lagrange multipliers, denoted as $\lambda$, to the objective 
 
 
 $$
-
 L(x, \lambda) = f(x) + \sum_{i=1}^{m} \lambda_i g_i(x)
-
 $$
 
 
@@ -4727,9 +4675,7 @@ The first-order optimality condition, also known as the Karush-Kuhn-Tucker (KKT)
 
 
 $$
-
 \nabla f(x^*) = \sum_{i=1}^m \lambda_i \nabla g_i(x^*) + \sum_{j=1}^p \mu_j \nabla h_j(x^*)
-
 $$
 
 
@@ -4873,9 +4819,7 @@ To understand the behavior of gradient methods, we can analyze their convergence
 
 
 $$
-
 |f(x) - f(y)| \leq L \|x-y\|
-
 $$
 
 
@@ -5071,9 +5015,7 @@ The algorithm starts with an initial guess for the optimal solution and then ite
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k(H(x_k))^{-1}\nabla f(x_k)
-
 $$
 
 
@@ -5161,9 +5103,7 @@ Once we have these values, we can start the iterative process of Newton's method
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k(H(x_k))^{-1}\nabla f(x_k)
-
 $$
 
 
@@ -5189,9 +5129,7 @@ To better understand the application of Newton's method, let's consider an examp
 
 
 $$
-
 f(x) = x^3 - 2x^2 + 3x + 1
-
 $$
 
 
@@ -5201,7 +5139,6 @@ We want to find the minimum value of this function within the range $x \in [-5, 
 
 
 $$
-
 H(x) = \begin{bmatrix}
 
 6x - 4 & 0 \\
@@ -5209,13 +5146,11 @@ H(x) = \begin{bmatrix}
 0 & 0
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 \nabla f(x) = \begin{bmatrix}
 
 3x^2 - 4x + 3 \\
@@ -5223,7 +5158,6 @@ $$
 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -5233,9 +5167,7 @@ Next, we choose an initial guess for the optimal solution, let's say $x_0 = 2$. 
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k(H(x_k))^{-1}\nabla f(x_k)
-
 $$
 
 
@@ -5245,7 +5177,6 @@ Using a line search method, we can choose a suitable step size, let's say $\alph
 
 
 $$
-
 x_1 = 2 - 0.1 \begin{bmatrix}
 
 6(2) - 4 & 0 \\
@@ -5259,7 +5190,6 @@ x_1 = 2 - 0.1 \begin{bmatrix}
 0
 
 \end{bmatrix} = 1.8
-
 $$
 
 
@@ -5371,9 +5301,7 @@ The basic algorithm for conjugate gradient methods is as follows:
 3. If $g_k=0$, then stop. Otherwise, calculate the search direction $d_k$ using the conjugate gradient formula:
 
 $$
-
 d_k = -g_k + \beta_k d_{k-1}
-
 $$
 
 where $\beta_k$ is a scalar that ensures conjugacy between $d_k$ and $d_{k-1}$.
@@ -5467,9 +5395,7 @@ Once we have the objective function and the initial guess, we can calculate the 
 As mentioned in the previous subsection, the search direction is determined using the conjugate gradient formula:
 
 $$
-
 d_k = -g_k + \beta_k d_{k-1}
-
 $$
 
 The scalar $\beta_k$ is chosen to ensure conjugacy between the current and previous search directions. There are several methods for choosing this scalar, such as the Fletcher-Reeves method and the Polak-Ribiere method.
@@ -5553,9 +5479,7 @@ Once we have the objective function and the initial guess, we can calculate the 
 As mentioned in the previous subsection, the search direction is determined using the conjugate gradient formula:
 
 $$
-
 d_k = -g_k + \beta_k d_{k-1}
-
 $$
 
 The scalar $\beta_k$ is chosen to ensure conjugacy between the current and previous search directions. There are several methods for choosing this scalar, such as the Fletcher-Reeves method and the Polak-Ribiere method. These methods use the gradient information to determine the best value for $\beta_k$.
@@ -5667,17 +5591,13 @@ The affine scaling algorithm can be summarized in the following steps:
 2. Compute the search direction $d_k$ using the affine scaling formula:
 
 $$
-
 d_k = -\nabla f(x_k)
-
 $$
 
 3. Update the current solution by scaling the search direction:
 
 $$
-
 x_{k+1} = x_k + \alpha_k d_k
-
 $$
 
 where $\alpha_k$ is a scalar that controls the step size.
@@ -5741,9 +5661,7 @@ The affine scaling algorithm is particularly useful for solving unconstrained op
 
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x)
-
 $$
 
 
@@ -6111,9 +6029,7 @@ One of the most commonly used barrier functions is the logarithmic barrier funct
 
 
 $$
-
 \phi(x) = -\sum_{i=1}^{m} \log(b_i - a_i^Tx)
-
 $$
 
 
@@ -6249,9 +6165,7 @@ In conclusion, nonlinear optimization methods are powerful tools that can be app
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to the constraint $x + y = 1$. Use the method of Lagrange multipliers to find the optimal solution.
@@ -6263,9 +6177,7 @@ subject to the constraint $x + y = 1$. Use the method of Lagrange multipliers to
 A manufacturing company wants to minimize the cost of producing a certain product. The cost function is given by:
 
 $$
-
 C(x,y) = 2x^2 + 3xy + 4y^2
-
 $$
 
 where $x$ represents the number of units of raw material A and $y$ represents the number of units of raw material B. The company has a budget constraint of $100,000. Use the method of constrained optimization to find the optimal values of $x$ and $y$.
@@ -6277,9 +6189,7 @@ where $x$ represents the number of units of raw material A and $y$ represents th
 A machine learning model has the following cost function:
 
 $$
-
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2 + \lambda \sum_{j=1}^{n} \theta_j^2
-
 $$
 
 where $h_\theta(x)$ is the predicted output, $y$ is the actual output, and $\lambda$ is the regularization parameter. Derive the gradient descent update rule for this cost function.
@@ -6291,17 +6201,13 @@ where $h_\theta(x)$ is the predicted output, $y$ is the actual output, and $\lam
 In portfolio optimization, the goal is to find the optimal allocation of assets to maximize returns while minimizing risk. The expected return of a portfolio is given by:
 
 $$
-
 E(R_p) = \sum_{i=1}^{n} w_i E(R_i)
-
 $$
 
 where $w_i$ is the weight of asset $i$ in the portfolio and $E(R_i)$ is the expected return of asset $i$. The risk of the portfolio can be measured by the standard deviation, given by:
 
 $$
-
 \sigma_p = \sqrt{\sum_{i=1}^{n} \sum_{j=1}^{n} w_i w_j \sigma_{ij}}
-
 $$
 
 where $\sigma_{ij}$ is the covariance between assets $i$ and $j$. Use the method of constrained optimization to find the optimal weights for a portfolio of 3 assets.
@@ -6313,9 +6219,7 @@ where $\sigma_{ij}$ is the covariance between assets $i$ and $j$. Use the method
 In machine learning, feature scaling is often used to improve the performance of algorithms. One method of feature scaling is normalization, where each feature is scaled to have a mean of 0 and a standard deviation of 1. Given a dataset with $n$ features, the normalized feature vector can be calculated as:
 
 $$
-
 x_{norm}^{(i)} = \frac{x^{(i)} - \mu_j}{\sigma_j}
-
 $$
 
 where $x^{(i)}$ is the original feature vector, $\mu_j$ is the mean of feature $j$, and $\sigma_j$ is the standard deviation of feature $j$. Write a function to perform feature normalization on a dataset.
@@ -6349,9 +6253,7 @@ In conclusion, nonlinear optimization methods are powerful tools that can be app
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to the constraint $x + y = 1$. Use the method of Lagrange multipliers to find the optimal solution.
@@ -6363,9 +6265,7 @@ subject to the constraint $x + y = 1$. Use the method of Lagrange multipliers to
 A manufacturing company wants to minimize the cost of producing a certain product. The cost function is given by:
 
 $$
-
 C(x,y) = 2x^2 + 3xy + 4y^2
-
 $$
 
 where $x$ represents the number of units of raw material A and $y$ represents the number of units of raw material B. The company has a budget constraint of $100,000. Use the method of constrained optimization to find the optimal values of $x$ and $y$.
@@ -6377,9 +6277,7 @@ where $x$ represents the number of units of raw material A and $y$ represents th
 A machine learning model has the following cost function:
 
 $$
-
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2 + \lambda \sum_{j=1}^{n} \theta_j^2
-
 $$
 
 where $h_\theta(x)$ is the predicted output, $y$ is the actual output, and $\lambda$ is the regularization parameter. Derive the gradient descent update rule for this cost function.
@@ -6391,17 +6289,13 @@ where $h_\theta(x)$ is the predicted output, $y$ is the actual output, and $\lam
 In portfolio optimization, the goal is to find the optimal allocation of assets to maximize returns while minimizing risk. The expected return of a portfolio is given by:
 
 $$
-
 E(R_p) = \sum_{i=1}^{n} w_i E(R_i)
-
 $$
 
 where $w_i$ is the weight of asset $i$ in the portfolio and $E(R_i)$ is the expected return of asset $i$. The risk of the portfolio can be measured by the standard deviation, given by:
 
 $$
-
 \sigma_p = \sqrt{\sum_{i=1}^{n} \sum_{j=1}^{n} w_i w_j \sigma_{ij}}
-
 $$
 
 where $\sigma_{ij}$ is the covariance between assets $i$ and $j$. Use the method of constrained optimization to find the optimal weights for a portfolio of 3 assets.
@@ -6413,9 +6307,7 @@ where $\sigma_{ij}$ is the covariance between assets $i$ and $j$. Use the method
 In machine learning, feature scaling is often used to improve the performance of algorithms. One method of feature scaling is normalization, where each feature is scaled to have a mean of 0 and a standard deviation of 1. Given a dataset with $n$ features, the normalized feature vector can be calculated as:
 
 $$
-
 x_{norm}^{(i)} = \frac{x^{(i)} - \mu_j}{\sigma_j}
-
 $$
 
 where $x^{(i)}$ is the original feature vector, $\mu_j$ is the mean of feature $j$, and $\sigma_j$ is the standard deviation of feature $j$. Write a function to perform feature normalization on a dataset.
@@ -6479,7 +6371,6 @@ Semidefinite optimization can be defined as the optimization of a linear objecti
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -6487,7 +6378,6 @@ $$
 \text{subject to} \quad & F(x) \preceq 0
 
 \end{align*}
-
 $$
 
 
@@ -6539,7 +6429,6 @@ Semidefinite optimization can be defined as the optimization of a linear objecti
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -6547,7 +6436,6 @@ $$
 \text{subject to} \quad & F(x) \preceq 0
 
 \end{align*}
-
 $$
 
 
@@ -6603,7 +6491,6 @@ Semidefinite optimization can be defined as the optimization of a linear objecti
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -6611,7 +6498,6 @@ $$
 \text{subject to} \quad & F(x) \preceq 0
 
 \end{align*}
-
 $$
 
 
@@ -6777,7 +6663,6 @@ In conclusion, semidefinite optimization is a powerful tool that has found numer
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -6787,13 +6672,11 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -6805,7 +6688,6 @@ $$
 & Y_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -6817,7 +6699,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -6829,13 +6710,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -6849,7 +6728,6 @@ $$
 & Y_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -6861,7 +6739,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -6873,13 +6750,11 @@ $$
 & X_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -6893,7 +6768,6 @@ $$
 & \text{rank}(Y) = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -6905,7 +6779,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -6919,13 +6792,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -6939,7 +6810,6 @@ $$
 & \text{rank}(Y) \leq r
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -6951,7 +6821,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -6965,13 +6834,11 @@ $$
 & \text{rank}(X) \leq r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -6985,7 +6852,6 @@ $$
 & \text{rank}(Y) = r
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7019,7 +6885,6 @@ In conclusion, semidefinite optimization is a powerful tool that has found numer
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7029,13 +6894,11 @@ $$
 & X \succeq 0
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following linear program:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -7047,7 +6910,6 @@ $$
 & Y_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7059,7 +6921,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7071,13 +6932,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -7091,7 +6950,6 @@ $$
 & Y_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7103,7 +6961,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7115,13 +6972,11 @@ $$
 & X_{ii} = 1, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -7135,7 +6990,6 @@ $$
 & \text{rank}(Y) = 1
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7147,7 +7001,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7161,13 +7014,11 @@ $$
 & \text{rank}(X) = r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -7181,7 +7032,6 @@ $$
 & \text{rank}(Y) \leq r
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7193,7 +7043,6 @@ where $Y \in \mathbb{R}^{n \times n}$.
 Consider the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CX) \\
@@ -7207,13 +7056,11 @@ $$
 & \text{rank}(X) \leq r
 
 \end{align*}
-
 $$
 
 where $C, A_i \in \mathbb{S}^n$ and $b_i \in \mathbb{R}$ for $i = 1,2,...,m$. Show that this problem is equivalent to the following semidefinite optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \text{tr}(CY) \\
@@ -7227,7 +7074,6 @@ $$
 & \text{rank}(Y) = r
 
 \end{align*}
-
 $$
 
 where $Y \in \mathbb{R}^{n \times n}$.
@@ -7781,13 +7627,11 @@ Optimization is a powerful tool that allows us to find the best possible solutio
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} 3x + 4y \\
 
 \text{subject to } x + y \leq 10 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -7815,7 +7659,6 @@ A company produces two products, A and B, with profit margins of $5 and $8, resp
 Solve the following linear programming problem graphically:
 
 $$
-
 \max_{x,y} 2x + 3y \\
 
 \text{subject to } x + y \leq 5 \\
@@ -7823,7 +7666,6 @@ $$
 2x + y \leq 8 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -7833,13 +7675,11 @@ $$
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x^2 + y^2 \leq 25 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -7851,11 +7691,9 @@ Find the optimal solution and the corresponding objective value.
 A company wants to maximize its profit by selling two products, A and B. The demand for each product is given by the following equations:
 
 $$
-
 Q_A = 100 - 2P_A \\
 
 Q_B = 80 - P_B
-
 $$
 
 where $P_A$ and $P_B$ are the prices of products A and B, respectively. The company has a production capacity of 200 units for product A and 150 units for product B. Determine the optimal prices for each product to maximize profit.
@@ -7881,13 +7719,11 @@ Optimization is a powerful tool that allows us to find the best possible solutio
 Consider the following optimization problem:
 
 $$
-
 \min_{x,y} 3x + 4y \\
 
 \text{subject to } x + y \leq 10 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -7915,7 +7751,6 @@ A company produces two products, A and B, with profit margins of $5 and $8, resp
 Solve the following linear programming problem graphically:
 
 $$
-
 \max_{x,y} 2x + 3y \\
 
 \text{subject to } x + y \leq 5 \\
@@ -7923,7 +7758,6 @@ $$
 2x + y \leq 8 \\
 
 x, y \geq 0
-
 $$
 
 
@@ -7933,13 +7767,11 @@ $$
 Consider the following nonlinear optimization problem:
 
 $$
-
 \min_{x,y} x^2 + y^2 \\
 
 \text{subject to } x^2 + y^2 \leq 25 \\
 
 x, y \geq 0
-
 $$
 
 Find the optimal solution and the corresponding objective value.
@@ -7951,11 +7783,9 @@ Find the optimal solution and the corresponding objective value.
 A company wants to maximize its profit by selling two products, A and B. The demand for each product is given by the following equations:
 
 $$
-
 Q_A = 100 - 2P_A \\
 
 Q_B = 80 - P_B
-
 $$
 
 where $P_A$ and $P_B$ are the prices of products A and B, respectively. The company has a production capacity of 200 units for product A and 150 units for product B. Determine the optimal prices for each product to maximize profit.
@@ -8839,9 +8669,7 @@ The formula for calculating the EOQ is given by:
 
 
 $$
-
 EOQ = \sqrt{\frac{2DS}{H}}
-
 $$
 
 
@@ -11599,9 +11427,7 @@ The mean-variance optimization method can be mathematically expressed as:
 
 
 $$
-
 \min_{w} \sigma^2(w) = \sum_{i=1}^{n} \sum_{j=1}^{n} w_i w_j \sigma_{ij}
-
 $$
 
 
@@ -11611,9 +11437,7 @@ subject to:
 
 
 $$
-
 \sum_{i=1}^{n} w_i = 1
-
 $$
 
 
@@ -11635,9 +11459,7 @@ The efficient frontier can be mathematically expressed as:
 
 
 $$
-
 \min_{w} \sigma^2(w) = \sum_{i=1}^{n} \sum_{j=1}^{n} w_i w_j \sigma_{ij}
-
 $$
 
 
@@ -11647,9 +11469,7 @@ subject to:
 
 
 $$
-
 \sum_{i=1}^{n} w_i = 1
-
 $$
 
 
@@ -11659,9 +11479,7 @@ and:
 
 
 $$
-
 \sum_{i=1}^{n} w_i r_i = r_{target}
-
 $$
 
 
@@ -11695,9 +11513,7 @@ The CVaR can be calculated using the following formula:
 
 
 $$
-
 CVaR_{\alpha} = \frac{1}{1-\alpha} \int_{\alpha}^{1} VaR_{\beta} d\beta
-
 $$
 
 
@@ -12385,9 +12201,7 @@ One of the main reasons for the success of deep learning is the use of gradient-
 
 
 $$
-
 w_{t+1} = w_t - \eta \nabla J(w_t)
-
 $$
 
 

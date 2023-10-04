@@ -1798,9 +1798,7 @@ Using the direct displacement method, the nodal displacements can be interpolate
 
 
 $$
-
 u(x) = N_1(x)u_1 + N_2(x)u_2 + N_3(x)u_3
-
 $$
 
 
@@ -2246,9 +2244,7 @@ Displacement-based criteria are based on the difference between the displacement
 
 
 $$
-
 RMSE = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(u_i - u_{exact,i})^2}
-
 $$
 
 
@@ -2262,9 +2258,7 @@ Energy-based criteria, on the other hand, are based on the difference between th
 
 
 $$
-
 REE = \frac{\sqrt{\sum_{i=1}^{N}(E_i - E_{exact,i})^2}}{\sqrt{\sum_{i=1}^{N}E_{exact,i}^2}}
-
 $$
 
 
@@ -2336,9 +2330,7 @@ To better understand the concept of convergence in displacement-based FEM, let u
 
 
 $$
-
 u(x) = \frac{P}{AE}(L-x)
-
 $$
 
 
@@ -2418,17 +2410,13 @@ To understand the u/p formulation, let us consider a one-dimensional isoparametr
 
 
 $$
-
 u(x) = N_1(x)u_1 + N_2(x)u_2
-
 $$
 
 
 
 $$
-
 p(x) = N_1(x)p_1 + N_2(x)p_2
-
 $$
 
 
@@ -2438,17 +2426,13 @@ where $u_1$ and $u_2$ are the nodal displacements and $p_1$ and $p_2$ are the no
 
 
 $$
-
 N_1(x) = \frac{1}{2}(1-x)
-
 $$
 
 
 
 $$
-
 N_2(x) = \frac{1}{2}(1+x)
-
 $$
 
 
@@ -2674,9 +2658,7 @@ In large deformation analysis, the displacement of a material point is no longer
 
 
 $$
-
 \Delta w = \int_{V} \epsilon_{ij} \Delta \epsilon_{ij} dV
-
 $$
 
 
@@ -2694,9 +2676,7 @@ One of the challenges in large deformation analysis is dealing with large rotati
 
 
 $$
-
 \Delta w = \int_{V} \epsilon_{ij} \Delta \epsilon_{ij} dV + \int_{V} \omega_{ij} \Delta \omega_{ij} dV
-
 $$
 
 
@@ -3064,9 +3044,7 @@ The deformation gradient tensor is a second-order tensor that relates the change
 
 
 $$
-
 F = \frac{\partial x}{\partial X}
-
 $$
 
 
@@ -3080,9 +3058,7 @@ Using the deformation gradient tensor, we can define the strain tensor, denoted 
 
 
 $$
-
 E = \frac{1}{2}(\nabla u + \nabla u^T)
-
 $$
 
 
@@ -3096,9 +3072,7 @@ Finally, we can define the stress tensor, denoted by $\sigma$, which is a measur
 
 
 $$
-
 \sigma = C:E
-
 $$
 
 
@@ -3424,17 +3398,13 @@ The Navier-Stokes equations for incompressible fluids can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -3572,25 +3542,19 @@ The Navier-Stokes equations are a set of partial differential equations that des
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{v} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{v} + \nabla \cdot (\mu \nabla \mathbf{v}) + \mathbf{v} \cdot \mathbf{f} + \mathbf{q}
-
 $$
 
 
@@ -3780,9 +3744,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -3796,9 +3758,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -3844,9 +3804,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -3860,9 +3818,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -3928,9 +3884,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -3944,9 +3898,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4020,9 +3972,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4036,9 +3986,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4104,9 +4052,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4120,9 +4066,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4180,9 +4124,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4196,9 +4138,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4260,9 +4200,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4276,9 +4214,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4344,9 +4280,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4360,9 +4294,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4428,9 +4360,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4444,9 +4374,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4512,9 +4440,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4528,9 +4454,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4584,9 +4508,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4600,9 +4522,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -4632,9 +4552,7 @@ For beams, the governing equations for fluid flow and heat transfer can be deriv
 
 
 $$
-
 \rho A \frac{\partial^2 w}{\partial t^2} + \rho A \frac{\partial}{\partial x} \left(\frac{\partial w}{\partial t} + \frac{\partial w}{\partial x}\right) = -\frac{\partial p}{\partial x} + \mu I \frac{\partial^2 w}{\partial x^2} + \rho A g
-
 $$
 
 
@@ -4644,9 +4562,7 @@ and
 
 
 $$
-
 \rho A c_p \frac{\partial T}{\partial t} + \rho A c_p \frac{\partial}{\partial x} \left(\frac{\partial T}{\partial t} + \frac{\partial T}{\partial x}\right) = k A \frac{\partial^2 T}{\partial x^2} + \rho A c_p g w
-
 $$
 
 
@@ -4660,9 +4576,7 @@ For plates and shells, the governing equations for fluid flow and heat transfer 
 
 
 $$
-
 \rho h \frac{\partial^2 w}{\partial t^2} + \rho h \frac{\partial}{\partial x} \left(\frac{\partial w}{\partial t} + \frac{\partial w}{\partial x}\right) = -\frac{\partial p}{\partial x} + \mu D \frac{\partial^2 w}{\partial x^2} + \rho h g
-
 $$
 
 
@@ -4672,9 +4586,7 @@ and
 
 
 $$
-
 \rho h c_p \frac{\partial T}{\partial t} + \rho h c_p \frac{\partial}{\partial x} \left(\frac{\partial T}{\partial t} + \frac{\partial T}{\partial x}\right) = k D \frac{\partial^2 T}{\partial x^2} + \rho h c_p g w
-
 $$
 
 
@@ -4716,9 +4628,7 @@ The Navier-Stokes equations for incompressible fluid flow can be written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -4732,9 +4642,7 @@ The energy equation for incompressible fluid flow is given by:
 
 
 $$
-
 \rho c_p \left(\frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T\right) = \nabla \cdot (k \nabla T) + \rho \mathbf{u} \cdot \mathbf{g}
-
 $$
 
 
@@ -5266,9 +5174,7 @@ The plate bending equation is given by:
 
 
 $$
-
 \Delta w = \frac{q}{D}
-
 $$
 
 
@@ -5282,9 +5188,7 @@ The plate membrane equation is given by:
 
 
 $$
-
 \sigma = \frac{q}{t}
-
 $$
 
 
@@ -5306,9 +5210,7 @@ The shell bending equation is given by:
 
 
 $$
-
 \Delta w = \frac{q}{D}
-
 $$
 
 
@@ -5322,9 +5224,7 @@ The shell membrane equation is given by:
 
 
 $$
-
 \sigma = \frac{q}{t}
-
 $$
 
 
@@ -5650,9 +5550,7 @@ Consider a simply supported rectangular plate with dimensions $a \times b$ and t
 
 
 $$
-
 \Delta w = \frac{q}{D} \left(\frac{x^2}{a^2} + \frac{y^2}{b^2}\right)
-
 $$
 
 
@@ -5666,7 +5564,6 @@ To solve this problem using finite element analysis, we first need to discretize
 
 
 $$
-
 \mathbf{K}^e = \frac{Et}{4(1-\nu^2)} \begin{bmatrix}
 
 1 & \nu & 0 & -\nu & -1 & 0 \\
@@ -5682,7 +5579,6 @@ $$
 0 & 0 & -\frac{1-\nu}{2} & 0 & 0 & \frac{1-\nu}{2}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5704,9 +5600,7 @@ Consider a cylindrical shell with radius $R$ and thickness $t$, as shown in Figu
 
 
 $$
-
 \sigma_r = \frac{pR}{t}, \quad \sigma_\theta = \frac{pR}{2t}, \quad \sigma_z = 0
-
 $$
 
 
@@ -5720,7 +5614,6 @@ To solve this problem using finite element analysis, we can use a combination of
 
 
 $$
-
 \mathbf{K}^e = \frac{Et}{4(1-\nu^2)} \begin{bmatrix}
 
 1 & \nu & 0 & -\nu & -1 & 0 \\
@@ -5736,7 +5629,6 @@ $$
 0 & 0 & -\frac{1-\nu}{2} & 0 & 0 & \frac{1-\nu}{2}
 
 \end{bmatrix}
-
 $$
 
 
@@ -5758,9 +5650,7 @@ Consider a curved plate with radius of curvature $R$ and thickness $t$, as shown
 
 
 $$
-
 \Delta w = \frac{M}{D} \left(\frac{x^2}{2R}\right), \quad \sigma_x = \frac{M}{t} \left(\frac{1}{R} - \frac{x}{R^2}\right)
-
 $$
 
 
@@ -5774,7 +5664,6 @@ To solve this problem using finite element analysis, we can use a combination of
 
 
 $$
-
 \mathbf{K}^e = \frac{Et^3}{12(1-\nu^2)} \begin{bmatrix}
 
 1 & \nu & 0 & -\nu & -1 & 0 \\
@@ -5790,7 +5679,6 @@ $$
 0 & 0 & -\frac{1-\nu}{2} & 0 & 0 & \frac{1-\nu}{2}
 
 \end{bmatrix}
-
 $$
 
 

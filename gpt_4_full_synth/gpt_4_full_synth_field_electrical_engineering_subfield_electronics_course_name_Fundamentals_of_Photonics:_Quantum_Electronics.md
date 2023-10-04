@@ -661,9 +661,7 @@ The quantum nature of light is encapsulated in the concept of the photon, a disc
 
 
 $$
-
 E = h\nu
-
 $$
 
 
@@ -697,9 +695,7 @@ Mathematically, the wave-like behavior of particles is described by the de Brogl
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -733,9 +729,7 @@ Photons are the quantum mechanical particles of light. They are massless, travel
 
 
 $$
-
 E = h\nu
-
 $$
 
 
@@ -753,9 +747,7 @@ The photoelectric effect can be described by the equation:
 
 
 $$
-
 E = h\nu - \phi
-
 $$
 
 
@@ -789,9 +781,7 @@ The time-dependent Schrödinger equation is given by:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat{H}\Psi(\mathbf{r},t)
-
 $$
 
 
@@ -809,9 +799,7 @@ A stationary state is a state with all observables independent of time. For such
 
 
 $$
-
 \hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})
-
 $$
 
 
@@ -841,9 +829,7 @@ The probability density function is given by:
 
 
 $$
-
 \rho(\mathbf{r},t) = |\Psi(\mathbf{r},t)|^2
-
 $$
 
 
@@ -853,9 +839,7 @@ This function must satisfy the normalization condition, which states that the to
 
 
 $$
-
 \int |\Psi(\mathbf{r},t)|^2 d\mathbf{r} = 1
-
 $$
 
 
@@ -889,9 +873,7 @@ The time-independent Schrödinger equation (TISE) is given by:
 
 
 $$
-
 -\frac{\hbar^2}{2m} \nabla^2 \psi(\mathbf{r}) + V(\mathbf{r})\psi(\mathbf{r}) = E\psi(\mathbf{r})
-
 $$
 
 
@@ -1053,9 +1035,7 @@ Absorption is the process by which an atom or a molecule absorbs a photon and tr
 
 
 $$
-
 E_{photon} = E_{final} - E_{initial}
-
 $$
 
 
@@ -1073,9 +1053,7 @@ Emission is the process by which an atom or a molecule in an excited state emits
 
 
 $$
-
 E_{photon} = E_{initial} - E_{final}
-
 $$
 
 
@@ -1141,9 +1119,7 @@ The transition probability can be calculated using the following formula:
 
 
 $$
-
 P_{i \rightarrow f} = \frac{2\pi}{\hbar} |\langle f | \hat{H}_{int} | i \rangle|^2 \rho(E_f)
-
 $$
 
 
@@ -1189,9 +1165,7 @@ The Hamiltonian for a two-level atom interacting with an electromagnetic field c
 
 
 $$
-
 \hat{H} = \hat{H}_0 + \hat{H}_{int}
-
 $$
 
 
@@ -1209,9 +1183,7 @@ The interaction Hamiltonian $\hat{H}_{int}$ can be written in terms of the elect
 
 
 $$
-
 \hat{H}_{int} = -\hat{d}\cdot\vec{E}
-
 $$
 
 
@@ -1231,9 +1203,7 @@ The interaction Hamiltonian, $\hat{H}_{int}$, can be expressed as:
 
 
 $$
-
 \hat{H}_{int} = -\hat{d}\cdot\vec{E}
-
 $$
 
 
@@ -1243,9 +1213,7 @@ where $\hat{d}$ is the dipole operator and $\vec{E}$ is the electric field. In t
 
 
 $$
-
 \hat{H}_{int} = \hbar\Omega_R (|e\rangle\langle g| + |g\rangle\langle e|)
-
 $$
 
 
@@ -1255,9 +1223,7 @@ The Rabi frequency $\Omega_R$ is given by:
 
 
 $$
-
 \Omega_R = \frac{\vec{d}\cdot\vec{E}}{\hbar}
-
 $$
 
 
@@ -1271,9 +1237,7 @@ When an atom is driven by a resonant field (i.e., a field with frequency equal t
 
 
 $$
-
 P_e(t) = \sin^2(\Omega_R t/2)
-
 $$
 
 
@@ -1301,9 +1265,7 @@ The state of the two-level system can be represented as a point inside the Bloch
 
 
 $$
-
 |\psi\rangle = \cos(\theta/2)|g\rangle + e^{i\phi}\sin(\theta/2)|e\rangle
-
 $$
 
 
@@ -1357,9 +1319,7 @@ In optical amplifiers, the gain and loss mechanisms play a crucial role in deter
 
 
 $$
-
 G = 10 \log_{10} \left( \frac{P_{out}}{P_{in}} \right) \text{ dB}
-
 $$
 
 
@@ -1553,27 +1513,19 @@ Throughout this chapter, we will use the mathematical language of vector calculu
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac {\rho} {\varepsilon_0}
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}} {\partial t}
-
 $$
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}} {\partial t}
-
 $$
 
 
@@ -1603,27 +1555,19 @@ The four Maxwell's equations are:
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac {\rho} {\varepsilon_0}
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}} {\partial t}
-
 $$
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}} {\partial t}
-
 $$
 
 
@@ -1679,9 +1623,7 @@ The time-dependent Maxwell's equations in isotropic media are given by:
 1. Gauss's law for electricity: 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}
-
 $$
 
 This equation states that the divergence of the electric field $\mathbf{E}$ at a point in space is equal to the charge density $\rho$ at that point divided by the permittivity of free space $\varepsilon_0$.
@@ -1691,9 +1633,7 @@ This equation states that the divergence of the electric field $\mathbf{E}$ at a
 2. Gauss's law for magnetism: 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 This equation states that the divergence of the magnetic field $\mathbf{B}$ is always zero, implying that there are no magnetic monopoles.
@@ -1703,9 +1643,7 @@ This equation states that the divergence of the magnetic field $\mathbf{B}$ is a
 3. Faraday's law of induction: 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 This equation states that a time-varying magnetic field induces an electric field. The curl of the electric field is equal to the negative rate of change of the magnetic field.
@@ -1715,9 +1653,7 @@ This equation states that a time-varying magnetic field induces an electric fiel
 4. Ampere's law with Maxwell's addition: 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 This equation states that a current density $\mathbf{J}$ or a time-varying electric field can induce a magnetic field. The curl of the magnetic field is equal to the permeability of free space $\mu_0$ times the sum of the current density and the rate of change of the electric field.
@@ -1773,17 +1709,13 @@ A plane wave is a special type of electromagnetic wave where the electric and ma
 
 
 $$
-
 \mathbf{E}(\mathbf{r}, t) = \mathbf{E}_0 e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}
-
 $$
 
 
 
 $$
-
 \mathbf{B}(\mathbf{r}, t) = \mathbf{B}_0 e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}
-
 $$
 
 
@@ -1797,17 +1729,13 @@ When a plane wave encounters an interface, the boundary conditions that must be 
 
 
 $$
-
 \mathbf{E}_{1t} - \mathbf{E}_{2t} = 0
-
 $$
 
 
 
 $$
-
 \mathbf{B}_{1t} - \mathbf{B}_{2t} = 0
-
 $$
 
 
@@ -1837,17 +1765,13 @@ The Fresnel equations for reflection and transmission coefficients are given by:
 
 
 $$
-
 R = \left|\frac{\mathbf{E}_{1r}}{\mathbf{E}_{1i}}\right|^2
-
 $$
 
 
 
 $$
-
 T = \left|\frac{\mathbf{E}_{2t}}{\mathbf{E}_{1i}}\right|^2
-
 $$
 
 
@@ -1861,9 +1785,7 @@ It is important to note that the reflection and transmission coefficients are no
 
 
 $$
-
 R + T = 1
-
 $$
 
 
@@ -1901,17 +1823,13 @@ The Fresnel equations for the reflection coefficients of s and p polarized light
 
 
 $$
-
 R_s = \left|\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}\right|^2
-
 $$
 
 
 
 $$
-
 R_p = \left|\frac{n_1\cos\theta_t - n_2\cos\theta_i}{n_1\cos\theta_t + n_2\cos\theta_i}\right|^2
-
 $$
 
 
@@ -1945,9 +1863,7 @@ The propagation constant of a mode is given by:
 
 
 $$
-
 \beta = \sqrt{k^2 - k_c^2}
-
 $$
 
 
@@ -1961,17 +1877,13 @@ The cut-off wave number for a mode is determined by the geometry and material pr
 
 
 $$
-
 k_{c,TE_{mn}} = \frac{\pi}{a}\sqrt{m^2 + n^2}
-
 $$
 
 
 
 $$
-
 k_{c,TM_{mn}} = \frac{\pi}{a}\sqrt{(m+1)^2 + (n+1)^2}
-
 $$
 
 
@@ -1997,9 +1909,7 @@ The law of reflection states that the angle of incidence is equal to the angle o
 
 
 $$
-
 \theta_i = \theta_r
-
 $$
 
 
@@ -2013,9 +1923,7 @@ The law of refraction, or Snell's law, states that the ratio of the sine of the 
 
 
 $$
-
 n_1 \sin \theta_i = n_2 \sin \theta_t
-
 $$
 
 
@@ -2029,17 +1937,13 @@ These laws apply to both TE and TM modes. However, the reflection and transmissi
 
 
 $$
-
 r_{TE} = \frac{n_1 \cos \theta_i - n_2 \cos \theta_t}{n_1 \cos \theta_i + n_2 \cos \theta_t}
-
 $$
 
 
 
 $$
-
 r_{TM} = \frac{n_2 \cos \theta_i - n_1 \cos \theta_t}{n_2 \cos \theta_i + n_1 \cos \theta_t}
-
 $$
 
 
@@ -2049,17 +1953,13 @@ The transmission coefficients for TE and TM modes, denoted $t_{TE}$ and $t_{TM}$
 
 
 $$
-
 t_{TE} = 1 + r_{TE}
-
 $$
 
 
 
 $$
-
 t_{TM} = 1 + r_{TM}
-
 $$
 
 
@@ -2113,9 +2013,7 @@ For light incident at an angle $\theta_i$ from a medium with refractive index $n
 
 
 $$
-
 r_s = \frac{n_1 \cos \theta_i - n_2 \cos \theta_t}{n_1 \cos \theta_i + n_2 \cos \theta_t}
-
 $$
 
 
@@ -2125,9 +2023,7 @@ and the transmission coefficient is given by:
 
 
 $$
-
 t_s = \frac{2 n_1 \cos \theta_i}{n_1 \cos \theta_i + n_2 \cos \theta_t}
-
 $$
 
 
@@ -2137,9 +2033,7 @@ where $\theta_t$ is the angle of transmission, given by Snell's law:
 
 
 $$
-
 n_1 \sin \theta_i = n_2 \sin \theta_t
-
 $$
 
 
@@ -2169,9 +2063,7 @@ The condition for constructive interference, which results in a high reflectance
 
 
 $$
-
 2 n_f d \cos \theta_t = m \lambda
-
 $$
 
 
@@ -2185,9 +2077,7 @@ Conversely, the condition for destructive interference, which results in a low r
 
 
 $$
-
 2 n_f d \cos \theta_t = (m + \frac{1}{2}) \lambda
-
 $$
 
 
@@ -2225,9 +2115,7 @@ The Gaussian beam solution to the paraxial wave equation is given by:
 
 
 $$
-
 E(r, z) = E_0 \frac{w_0}{w(z)} \exp\left(-\frac{r^2}{w^2(z)}\right) \exp\left(-ikz - ik\frac{r^2}{2R(z)} + i\zeta(z)\right)
-
 $$
 
 
@@ -2257,9 +2145,7 @@ The beam waist and divergence angle are related by the equation:
 
 
 $$
-
 \theta = \frac{\lambda}{\pi w_0}
-
 $$
 
 
@@ -2273,9 +2159,7 @@ The radius of curvature of the wavefronts, $R(z)$, is given by:
 
 
 $$
-
 R(z) = z\left[1 + \left(\frac{\pi w_0^2}{\lambda z}\right)^2\right]
-
 $$
 
 
@@ -2289,9 +2173,7 @@ The Gouy phase shift, $\zeta(z)$, is an additional phase shift that Gaussian bea
 
 
 $$
-
 \zeta(z) = \arctan\left(\frac{z\lambda}{\pi w_0^2}\right)
-
 $$
 
 
@@ -2317,9 +2199,7 @@ The paraxial wave equation, also known as the Fresnel equation, is a simplified 
 
 
 $$
-
 \frac{\partial^2 U}{\partial x^2} + \frac{\partial^2 U}{\partial y^2} + 2ik\frac{\partial U}{\partial z} = 0
-
 $$
 
 
@@ -2337,7 +2217,6 @@ The ABCD matrix for a Gaussian beam propagating through an optical system is giv
 
 
 $$
-
 \begin{pmatrix}
 
 A & B \\
@@ -2371,7 +2250,6 @@ C & D
 0 & 1
 
 \end{pmatrix}
-
 $$
 
 
@@ -2409,9 +2287,7 @@ The law of refraction, also known as Snell's law, describes how the direction of
 
 
 $$
-
 n_1 \sin \theta_1 = n_2 \sin \theta_2
-
 $$
 
 
@@ -2445,9 +2321,7 @@ The law of reflection, as previously mentioned, states that the angle of inciden
 
 
 $$
-
 \theta_i = \theta_r
-
 $$
 
 
@@ -2461,9 +2335,7 @@ The law of refraction, also known as Snell's law, describes the change in direct
 
 
 $$
-
 n_1 \sin \theta_1 = n_2 \sin \theta_2
-
 $$
 
 
@@ -2497,9 +2369,7 @@ A simple lens system consists of a single lens, which refracts light rays to bri
 
 
 $$
-
 \frac{1}{f} = \frac{1}{s} + \frac{1}{s'}
-
 $$
 
 
@@ -2683,7 +2553,6 @@ The resonance condition for an optical resonator can be represented as:
 $$\lambda = \frac{2L}{n}$$
 
 
-
 where $\lambda$ is the wavelength of the light, $L$ is the length of the resonator, and $n$ is the refractive index of the medium inside the resonator. This equation tells us that for a given resonator length and refractive index, only light of certain wavelengths will resonate within the resonator. These wavelengths are known as the resonant wavelengths of the resonator.
 
 
@@ -2711,9 +2580,7 @@ The modes of an optical resonator can be classified into two types: longitudinal
 The frequencies of the longitudinal modes of an optical resonator are given by:
 
 
-
 $$f_m = \frac{mc}{2nL}$$
-
 
 
 where $f_m$ is the frequency of the $m$-th mode, $m$ is an integer representing the mode number, $c$ is the speed of light, $n$ is the refractive index of the medium inside the resonator, and $L$ is the length of the resonator. This equation tells us that the frequencies of the resonator modes are evenly spaced, forming a frequency comb.
@@ -2739,9 +2606,7 @@ Cavity Quantum Electrodynamics (Cavity QED) is a branch of quantum optics that s
 Strong coupling occurs when the interaction between the light and the matter is so strong that it cannot be ignored. In the context of cavity QED, strong coupling is achieved when the coupling rate between the light and the matter, represented by the Rabi frequency $\Omega_R$, is larger than the decay rates of the cavity and the matter. Mathematically, this condition can be expressed as:
 
 
-
 $$\Omega_R > \kappa, \gamma$$
-
 
 
 where $\kappa$ is the decay rate of the cavity, and $\gamma$ is the decay rate of the matter.
@@ -2815,13 +2680,11 @@ On the other hand, a multi-mode waveguide can support multiple modes of light pr
 The propagation of modes within a waveguide can be described mathematically using wave equations. For a given mode, the electric field distribution can be represented as:
 
 
-
 $$
 
 E(x,y,z) = E(x,y) e^{i(\beta z - \omega t)}
 
 $$
-
 
 
 where $E(x,y)$ is the transverse electric field distribution, $\beta$ is the propagation constant, $z$ is the direction of propagation, $\omega$ is the angular frequency, and $t$ is time. The propagation constant $\beta$ is related to the effective refractive index $n_{eff}$ of the mode by the relation $\beta = 2\pi n_{eff} / \lambda$, where $\lambda$ is the wavelength of light in vacuum.
@@ -2831,13 +2694,11 @@ where $E(x,y)$ is the transverse electric field distribution, $\beta$ is the pro
 The transverse electric field distribution $E(x,y)$ satisfies the Helmholtz equation:
 
 
-
 $$
 
 \nabla^2 E(x,y) + k^2 n^2(x,y) E(x,y) = 0
 
 $$
-
 
 
 where $\nabla^2$ is the Laplacian operator, $k = 2\pi / \lambda$ is the wave number, and $n(x,y)$ is the refractive index distribution of the waveguide.
@@ -2869,13 +2730,11 @@ One common method of waveguide coupling is through the use of a directional coup
 The amount of power transferred depends on the coupling coefficient, which is determined by the separation distance between the waveguides, the length over which they are coupled, and the refractive index contrast. The coupling coefficient can be represented mathematically as:
 
 
-
 $$
 
 \kappa = \frac{P_{out}}{P_{in}}
 
 $$
-
 
 
 where $P_{out}$ is the power output from the second waveguide and $P_{in}$ is the power input into the first waveguide.
@@ -2893,13 +2752,11 @@ The efficiency of power transfer in a waveguide coupling system is a critical pa
 The coupling efficiency can be represented mathematically as:
 
 
-
 $$
 
 \eta = \frac{P_{transferred}}{P_{total}}
 
 $$
-
 
 
 where $P_{transferred}$ is the power transferred to the second waveguide and $P_{total}$ is the total power launched into the first waveguide.
@@ -2939,7 +2796,6 @@ The basic premise of CMT is that the total field in a system can be represented 
 The mathematical representation of CMT begins with the assumption that the total field $E(x)$ in a system can be represented as a superposition of individual modes $E_n(x)$, each with its own amplitude $a_n$:
 
 
-
 $$
 
 E(x) = \sum_n a_n E_n(x)
@@ -2947,9 +2803,7 @@ E(x) = \sum_n a_n E_n(x)
 $$
 
 
-
 The evolution of the amplitudes $a_n$ is governed by a set of coupled differential equations:
-
 
 
 $$
@@ -2957,7 +2811,6 @@ $$
 \frac{da_n}{dz} = \sum_m \kappa_{nm} a_m
 
 $$
-
 
 
 where $z$ is the propagation direction, and $\kappa_{nm}$ is the coupling coefficient between modes $n$ and $m$. The coupling coefficient is a complex quantity that depends on the overlap of the modes and the properties of the medium.
@@ -2995,13 +2848,11 @@ The coupled mode equations, as mentioned earlier, govern the evolution of the am
 The general form of the coupled mode equations is:
 
 
-
 $$
 
 \frac{da_n}{dz} = \sum_m \kappa_{nm} a_m
 
 $$
-
 
 
 where $z$ is the propagation direction, $a_n$ and $a_m$ are the amplitudes of the $n$th and $m$th modes, and $\kappa_{nm}$ is the coupling coefficient between these modes. 
@@ -3011,13 +2862,11 @@ where $z$ is the propagation direction, $a_n$ and $a_m$ are the amplitudes of th
 The coupling coefficient $\kappa_{nm}$ is a complex quantity that depends on the overlap of the modes and the properties of the medium. It can be calculated using the overlap integral:
 
 
-
 $$
 
 \kappa_{nm} = \int E_n^* \cdot \Delta \epsilon \cdot E_m \, dx \, dy
 
 $$
-
 
 
 where $E_n$ and $E_m$ are the electric field distributions of the $n$th and $m$th modes, $\Delta \epsilon$ is the perturbation in the dielectric constant, and the integral is taken over the cross-section of the waveguide.
@@ -3059,13 +2908,11 @@ A waveguide grating is a periodic structure that is introduced into the waveguid
 The coupling coefficient for a grating can be written as:
 
 
-
 $$
 
 \kappa_{nm} = \int E_n^* \cdot \Delta \epsilon_g \cdot E_m \, dx \, dy
 
 $$
-
 
 
 where $\Delta \epsilon_g$ is the perturbation in the dielectric constant due to the grating. The grating period and depth can be adjusted to control the wavelengths that are coupled out.
@@ -3167,13 +3014,11 @@ Material dispersion, on the other hand, is caused by the wavelength-dependent re
 The total dispersion in an optical fiber is the sum of the modal, waveguide, and material dispersion. It is typically characterized by the dispersion parameter $D$, which is defined as the derivative of the group delay with respect to wavelength:
 
 
-
 $$
 
 D = \frac{d\tau}{d\lambda}
 
 $$
-
 
 
 where $\tau$ is the group delay and $\lambda$ is the wavelength. The unit of $D$ is ps/(nm·km), indicating the amount of time spread per unit wavelength per unit length.
@@ -3235,13 +3080,11 @@ The refractive index of an anisotropic medium is not a scalar quantity as in iso
 The equation of the index ellipsoid for a uniaxial crystal can be written as:
 
 
-
 $$
 
 \frac{x^2}{n_o^2} + \frac{y^2}{n_o^2} + \frac{z^2}{n_e^2} = 1
 
 $$
-
 
 
 where $n_o$ is the ordinary refractive index (refractive index perpendicular to the optical axis), $n_e$ is the extraordinary refractive index (refractive index along the optical axis), and $x$, $y$, and $z$ are the coordinates in the principal axis system of the crystal.
@@ -3251,13 +3094,11 @@ where $n_o$ is the ordinary refractive index (refractive index perpendicular to 
 For a biaxial crystal, the equation of the index ellipsoid is more complex, as it involves three different refractive indices $n_x$, $n_y$, and $n_z$:
 
 
-
 $$
 
 \frac{x^2}{n_x^2} + \frac{y^2}{n_y^2} + \frac{z^2}{n_z^2} = 1
 
 $$
-
 
 
 The index ellipsoid provides a powerful tool for visualizing the propagation of light in anisotropic media. By analyzing the shape and orientation of the ellipsoid, one can predict the behavior of light as it propagates through the crystal, including the direction of the refracted rays and the polarization state of the light.
@@ -3493,13 +3334,11 @@ The wave-particle duality of light and matter leads us to another fundamental co
 Mathematically, the Heisenberg Uncertainty Principle can be expressed as:
 
 
-
 $$
 
 \Delta x \Delta p \geq \frac{h}{4\pi}
 
 $$
-
 
 
 where $\Delta x$ is the uncertainty in position, $\Delta p$ is the uncertainty in momentum, and $h$ is Planck's constant. This equation tells us that the product of the uncertainties in position and momentum is always greater than or equal to a small constant value.
@@ -3533,13 +3372,11 @@ In classical physics, a system can only be in one definite state at any given ti
 Mathematically, the state of a quantum system can be represented as:
 
 
-
 $$
 
 |\psi\rangle = c_1 |s_1\rangle + c_2 |s_2\rangle + \cdots + c_n |s_n\rangle
 
 $$
-
 
 
 where $|\psi\rangle$ is the state of the system, $|s_i\rangle$ are the eigenstates, and $c_i$ are the complex coefficients that determine the probability of the system being in each eigenstate. The probabilities are given by the square of the absolute value of the coefficients, $|c_i|^2$.
@@ -3573,13 +3410,11 @@ The Schrödinger equation, named after its discoverer Erwin Schrödinger, is a f
 The time-dependent Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle
 
 $$
-
 
 
 where $i$ is the imaginary unit, $\hbar$ is the reduced Planck constant, $|\psi(t)\rangle$ is the state vector of the system at time $t$, and $\hat{H}$ is the Hamiltonian operator, which represents the total energy of the system.
@@ -3597,13 +3432,11 @@ A stationary state of a quantum system is a state with all observables independe
 Mathematically, a stationary state is an eigenstate of the Hamiltonian. This means that it satisfies the time-independent Schrödinger equation:
 
 
-
 $$
 
 \hat{H}|\psi\rangle = E|\psi\rangle
 
 $$
-
 
 
 where $E$ is the energy eigenvalue associated with the eigenstate $|\psi\rangle$.
@@ -3621,13 +3454,11 @@ In the next subsection, we will discuss the physical interpretation of the Schr�
 The time-independent Schrödinger equation (TISE) is a special case of the Schrödinger equation where the state of the system does not change with time. This is the case for stationary states, where all observables are time-independent. The TISE is given by:
 
 
-
 $$
 
 \hat{H}|\psi\rangle = E|\psi\rangle
 
 $$
-
 
 
 where $\hat{H}$ is the Hamiltonian operator, $|\psi\rangle$ is the state vector of the system, and $E$ is the energy eigenvalue associated with the eigenstate $|\psi\rangle$.
@@ -3665,13 +3496,11 @@ The quantum harmonic oscillator and the hydrogen atom are two fundamental system
 The quantum harmonic oscillator is a model that describes particles vibrating about an equilibrium position. It is characterized by a potential energy function that is proportional to the square of the displacement from equilibrium, which is given by:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
 
 $$
-
 
 
 where $m$ is the mass of the particle, $\omega$ is the angular frequency of the oscillation, and $x$ is the displacement from equilibrium.
@@ -3681,13 +3510,11 @@ where $m$ is the mass of the particle, $\omega$ is the angular frequency of the 
 The Hamiltonian for the quantum harmonic oscillator is given by:
 
 
-
 $$
 
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
 
 $$
-
 
 
 where $\hat{p}$ and $\hat{x}$ are the momentum and position operators, respectively.
@@ -3697,13 +3524,11 @@ where $\hat{p}$ and $\hat{x}$ are the momentum and position operators, respectiv
 The solutions to the TISE for the quantum harmonic oscillator are Hermite functions, and the energy eigenvalues are given by:
 
 
-
 $$
 
 E_n = \hbar\omega\left(n + \frac{1}{2}\right)
 
 $$
-
 
 
 where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant. These energy levels are equally spaced, which is a unique feature of the quantum harmonic oscillator.
@@ -3717,13 +3542,11 @@ where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant
 The hydrogen atom is the simplest atom, consisting of a single electron orbiting a proton. The potential energy function for the hydrogen atom is the Coulomb potential, which is given by:
 
 
-
 $$
 
 V(r) = -\frac{e^2}{4\pi\epsilon_0r}
 
 $$
-
 
 
 where $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free space, and $r$ is the distance between the electron and the proton.
@@ -3733,13 +3556,11 @@ where $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free spa
 The Hamiltonian for the hydrogen atom is given by:
 
 
-
 $$
 
 \hat{H} = \frac{\hat{p}^2}{2m} - \frac{e^2}{4\pi\epsilon_0\hat{r}}
 
 $$
-
 
 
 where $\hat{p}$ and $\hat{r}$ are the momentum and position operators, respectively.
@@ -3749,13 +3570,11 @@ where $\hat{p}$ and $\hat{r}$ are the momentum and position operators, respectiv
 The solutions to the TISE for the hydrogen atom are spherical harmonics and associated Laguerre polynomials, and the energy eigenvalues are given by:
 
 
-
 $$
 
 E_n = -\frac{m_e e^4}{8\epsilon_0^2h^2n^2}
 
 $$
-
 
 
 where $m_e$ is the electron mass, $h$ is the Planck's constant, and $n$ is a positive integer. These energy levels are inversely proportional to the square of $n$, which leads to the characteristic spectral lines of the hydrogen atom.
@@ -3809,13 +3628,11 @@ In the following sections, we will explore these systems in more detail, discuss
 The energy levels of a quantum harmonic oscillator are quantized, meaning they can only take on certain discrete values. This is a direct result of the Schrödinger equation for the harmonic oscillator. The energy levels are given by:
 
 
-
 $$
 
 E_n = \hbar \omega (n + \frac{1}{2})
 
 $$
-
 
 
 where $\hbar$ is the reduced Planck's constant, $\omega$ is the angular frequency of the oscillator, and $n$ is a non-negative integer representing the quantum number of the energy level. This equation shows that the energy levels are equally spaced, with a separation of $\hbar \omega$.
@@ -3833,13 +3650,11 @@ The quantization of energy levels in the quantum harmonic oscillator has profoun
 The energy levels of the hydrogen atom are also quantized, but they are not equally spaced. The energy levels are given by:
 
 
-
 $$
 
 E_n = -\frac{13.6 \, \text{eV}}{n^2}
 
 $$
-
 
 
 where $n$ is a positive integer representing the principal quantum number. This equation shows that the energy levels become closer together as $n$ increases, which is a characteristic feature of the hydrogen atom.
@@ -3925,13 +3740,11 @@ A wave packet is a localized wave phenomenon that results due to the superpositi
 The wave packet can be represented mathematically as:
 
 
-
 $$
 
 \Psi(x,t) = \int_{-\infty}^{\infty} A(k) e^{i(kx - \omega t)} dk
 
 $$
-
 
 
 where $A(k)$ is the amplitude of the wave with wave number $k$, and $\omega$ is the angular frequency.
@@ -3941,13 +3754,11 @@ where $A(k)$ is the amplitude of the wave with wave number $k$, and $\omega$ is 
 The group velocity of a wave packet is the velocity at which the overall shape of the waves' amplitudes—known as the modulation or envelope of the wave—propagates through space. For a wave packet, this velocity is often associated with the velocity of a particle. The group velocity $v_g$ can be calculated using the relation:
 
 
-
 $$
 
 v_g = \frac{d\omega}{dk}
 
 $$
-
 
 
 where $\omega$ is the angular frequency and $k$ is the wave number.
@@ -3977,13 +3788,11 @@ Scattering is a general physical process where some forms of radiation, such as 
 The scattering of a wave packet can be described by the Schrödinger equation:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\right]\Psi(\mathbf{r},t)
 
 $$
-
 
 
 where $\Psi(\mathbf{r},t)$ is the wavefunction of the particle, $V(\mathbf{r},t)$ is the potential energy, $m$ is the mass of the particle, and $\hbar$ is the reduced Planck's constant.
@@ -3997,13 +3806,11 @@ Wavefunction collapse, also known as quantum jump, or state reduction, is one of
 The wavefunction collapse can be represented as:
 
 
-
 $$
 
 \Psi(x,t) \rightarrow \psi_n(x)
 
 $$
-
 
 
 where $\Psi(x,t)$ is the initial wavefunction and $\psi_n(x)$ is the eigenstate corresponding to the observed value.
@@ -4101,7 +3908,6 @@ Let's consider a quantum system with a finite-dimensional Hilbert space spanned 
 A quantum operator $\hat{A}$ can be represented as a matrix with elements $A_{ij} = \langle i|\hat{A}|j\rangle$. The action of the operator $\hat{A}$ on the state $|\psi\rangle$ is then given by the matrix-vector multiplication:
 
 
-
 $$
 
 \hat{A}|\psi\rangle = \sum_{j=1}^{N} A_{ij}\psi_j
@@ -4109,9 +3915,7 @@ $$
 $$
 
 
-
 The expectation value of the operator $\hat{A}$ in the state $|\psi\rangle$ can be calculated as:
-
 
 
 $$
@@ -4119,7 +3923,6 @@ $$
 \langle\psi|\hat{A}|\psi\rangle = \sum_{i,j=1}^{N} \psi_i^* A_{ij} \psi_j
 
 $$
-
 
 
 where $\psi_i^*$ is the complex conjugate of $\psi_i$.
@@ -4153,13 +3956,11 @@ The quantum harmonic oscillator is a cornerstone of quantum mechanics and is par
 The quantum harmonic oscillator is described by the Hamiltonian:
 
 
-
 $$
 
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
 
 $$
-
 
 
 where $\hat{p}$ and $\hat{x}$ are the momentum and position operators, $m$ is the mass of the oscillator, and $\omega$ is the angular frequency of the oscillation.
@@ -4169,13 +3970,11 @@ where $\hat{p}$ and $\hat{x}$ are the momentum and position operators, $m$ is th
 The energy eigenstates of the quantum harmonic oscillator are given by:
 
 
-
 $$
 
 \hat{H}|n\rangle = E_n|n\rangle
 
 $$
-
 
 
 where $|n\rangle$ are the number states (also known as Fock states), and $E_n = \hbar\omega(n + \frac{1}{2})$ are the energy eigenvalues. Here, $\hbar$ is the reduced Planck's constant, and $n = 0, 1, 2, \cdots$ is the quantum number.
@@ -4211,13 +4010,11 @@ In the context of quantum optics and quantum electronics, two special states of 
 Coherent states are eigenstates of the annihilation operator $\hat{a}$, defined as:
 
 
-
 $$
 
 \hat{a}|\alpha\rangle = \alpha|\alpha\rangle
 
 $$
-
 
 
 where $\alpha$ is a complex number. These states are of particular interest because they most closely resemble classical states of the harmonic oscillator. In fact, a coherent state is the quantum state that results when a classical harmonic oscillator is quantized. 
@@ -4227,13 +4024,11 @@ where $\alpha$ is a complex number. These states are of particular interest beca
 The coherent states $|\alpha\rangle$ can be expressed as a superposition of number states $|n\rangle$:
 
 
-
 $$
 
 |\alpha\rangle = e^{-|\alpha|^2/2} \sum_{n=0}^{\infty} \frac{\alpha^n}{\sqrt{n!}} |n\rangle
 
 $$
-
 
 
 where the sum runs over all number states. The factor $e^{-|\alpha|^2/2}$ ensures that the state is normalized.
@@ -4251,7 +4046,6 @@ Squeezed states are another type of special state of the quantum harmonic oscill
 The squeezed states can be generated by applying the squeezing operator $\hat{S}(r, \phi)$ to a coherent state $|\alpha\rangle$:
 
 
-
 $$
 
 |\alpha, r, \phi\rangle = \hat{S}(r, \phi)|\alpha\rangle
@@ -4259,9 +4053,7 @@ $$
 $$
 
 
-
 where $r$ is the squeezing parameter and $\phi$ is the squeezing angle. The squeezing operator $\hat{S}(r, \phi)$ is defined as:
-
 
 
 $$
@@ -4269,7 +4061,6 @@ $$
 \hat{S}(r, \phi) = e^{\frac{1}{2}(r e^{-i\phi}\hat{a}^2 - r e^{i\phi}(\hat{a}^\dagger)^2)}
 
 $$
-
 
 
 Coherent and squeezed states are fundamental to the understanding of quantum optics and quantum electronics. They are used to describe the quantum states of light in various situations, including laser light (which is approximately a coherent state) and light in quantum information processing and quantum communication (which often involves squeezed states).
@@ -4293,13 +4084,11 @@ In quantum optics, the harmonic oscillator model is used to describe the behavio
 The quantum harmonic oscillator model is particularly useful in describing the behavior of light. Light, in the quantum mechanical perspective, is composed of discrete packets of energy called photons. The energy of a photon is directly proportional to its frequency, as given by Planck's equation:
 
 
-
 $$
 
 E = h\nu
 
 $$
-
 
 
 where $E$ is the energy of the photon, $h$ is Planck's constant, and $\nu$ is the frequency of the photon. This quantization of light energy is a direct consequence of the quantum nature of light.
@@ -4511,13 +4300,11 @@ In the interaction of light and matter, three primary processes occur: absorptio
 Absorption is the process by which an atom or molecule absorbs a photon and transitions to a higher energy state. This process can be described by the equation:
 
 
-
 $$
 
 E_f = E_i + h\nu
 
 $$
-
 
 
 where $E_f$ is the final energy state, $E_i$ is the initial energy state, $h$ is Planck's constant, and $\nu$ is the frequency of the photon. The absorbed photon must have energy equal to the difference between the initial and final energy states for the transition to occur. This is known as the resonance condition.
@@ -4587,13 +4374,11 @@ These rules apply to the simplest case of atomic transitions. However, in more c
 The probability of a transition occurring between two energy states is determined by the transition dipole moment, which is a measure of the overlap between the initial and final state wavefunctions. The transition dipole moment, $D_{if}$, can be calculated using the following equation:
 
 
-
 $$
 
 D_{if} = \langle \psi_i | \hat{D} | \psi_f \rangle
 
 $$
-
 
 
 where $\psi_i$ and $\psi_f$ are the wavefunctions of the initial and final states, respectively, and $\hat{D}$ is the dipole operator.
@@ -4603,13 +4388,11 @@ where $\psi_i$ and $\psi_f$ are the wavefunctions of the initial and final state
 The transition probability, or the rate of transition per unit time, is proportional to the square of the transition dipole moment, $|D_{if}|^2$, and the density of final states. This relationship is expressed by Fermi's Golden Rule:
 
 
-
 $$
 
 W_{if} = \frac{2\pi}{\hbar} |D_{if}|^2 \rho(\omega)
 
 $$
-
 
 
 where $W_{if}$ is the transition probability, $\hbar$ is the reduced Planck's constant, and $\rho(\omega)$ is the density of final states at the transition frequency $\omega$.
@@ -4643,13 +4426,11 @@ One of the key concepts in the study of two-level atoms is Rabi oscillations. Na
 The Rabi frequency, denoted as $\Omega_R$, is a measure of the rate of these oscillations. It is given by the formula:
 
 
-
 $$
 
 \Omega_R = \frac{eE_0}{2\hbar}|\mu_{if}|
 
 $$
-
 
 
 where $e$ is the charge of the electron, $E_0$ is the amplitude of the electric field, $\hbar$ is the reduced Planck's constant, and $\mu_{if}$ is the transition dipole moment between the initial and final states.
@@ -4667,13 +4448,11 @@ In the following subsections, we will derive this formula and explore the dynami
 The Rabi frequency, $\Omega_R$, is a crucial parameter in the study of Rabi oscillations. It quantifies the rate at which an atom oscillates between its ground and excited states under the influence of an external electromagnetic field. As mentioned earlier, the Rabi frequency is given by the formula:
 
 
-
 $$
 
 \Omega_R = \frac{eE_0}{2\hbar}|\mu_{if}|
 
 $$
-
 
 
 where $e$ is the charge of the electron, $E_0$ is the amplitude of the electric field, $\hbar$ is the reduced Planck's constant, and $\mu_{if}$ is the transition dipole moment between the initial and final states.
@@ -4715,13 +4494,11 @@ The evolution of the state of the atom under the influence of the external elect
 The angle of precession, $\theta$, is related to the Rabi frequency, $\Omega_R$, by the equation:
 
 
-
 $$
 
 \theta = \Omega_R t
 
 $$
-
 
 
 where $t$ is the time. This equation shows that the state of the atom oscillates between the ground and excited states as the Bloch vector precesses around the axis.
@@ -4751,13 +4528,11 @@ In the previous sections, we have discussed the behavior of a two-level quantum 
 The density matrix, $\rho$, is a mathematical object that encapsulates all the information about the state of a quantum system. For a two-level system, the density matrix is a 2x2 matrix given by:
 
 
-
 $$
 
 \rho = \begin{pmatrix} \rho_{11} & \rho_{12} \\ \rho_{21} & \rho_{22} \end{pmatrix}
 
 $$
-
 
 
 where $\rho_{11}$ and $\rho_{22}$ represent the probabilities of the system being in the ground and excited states, respectively, and $\rho_{12}$ and $\rho_{21}$ represent the coherences between these states.
@@ -4795,13 +4570,11 @@ The density matrix formalism provides a powerful tool for describing the state o
 Energy relaxation, as mentioned earlier, is the process by which an excited atom returns to the ground state, releasing its excess energy. This process can be described by the time evolution of the density matrix. Specifically, the rate of change of the population inversion, $\rho_{22} - \rho_{11}$, is given by:
 
 
-
 $$
 
 \frac{d}{dt}(\rho_{22} - \rho_{11}) = -\Gamma (\rho_{22} - \rho_{11})
 
 $$
-
 
 
 where $\Gamma$ is the energy relaxation rate. This equation describes the exponential decay of the population inversion with time, which is a characteristic feature of energy relaxation.
@@ -4811,7 +4584,6 @@ where $\Gamma$ is the energy relaxation rate. This equation describes the expone
 Phase relaxation, on the other hand, is the process by which the coherences between the ground and excited states, represented by the off-diagonal elements of the density matrix, decay with time. This process can also be described by the time evolution of the density matrix. Specifically, the rate of change of the coherences, $\rho_{12}$ and $\rho_{21}$, is given by:
 
 
-
 $$
 
 \frac{d}{dt}\rho_{12} = -(\Gamma + i\Delta)\rho_{12}
@@ -4819,9 +4591,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -4829,7 +4599,6 @@ $$
 \frac{d}{dt}\rho_{21} = -(\Gamma - i\Delta)\rho_{21}
 
 $$
-
 
 
 where $\Delta$ is the detuning, which represents the difference between the frequency of the external electromagnetic field and the natural frequency of the atom. These equations describe the exponential decay of the coherences with time, which is a characteristic feature of phase relaxation.
@@ -4911,13 +4680,11 @@ In this subsection, we will delve deeper into the rate equations and their role 
 The rate equation for a two-level system can be written as:
 
 
-
 $$
 
 \frac{dN_2}{dt} = R_{12}N_1 - R_{21}N_2
 
 $$
-
 
 
 where $N_1$ and $N_2$ are the populations of the lower and upper energy levels, respectively, and $R_{12}$ and $R_{21}$ are the transition rates from level 1 to level 2 and from level 2 to level 1, respectively. The transition rates take into account the processes of absorption, stimulated emission, and spontaneous emission.
@@ -4927,13 +4694,11 @@ where $N_1$ and $N_2$ are the populations of the lower and upper energy levels, 
 Absorption occurs when an atom or molecule in the lower energy level absorbs a photon and transitions to the upper energy level. The rate of absorption is proportional to the population of the lower energy level and the photon density. This can be expressed as:
 
 
-
 $$
 
 R_{12} = B_{12}\rho(\nu)N_1
 
 $$
-
 
 
 where $B_{12}$ is the Einstein coefficient for absorption, and $\rho(\nu)$ is the photon density at frequency $\nu$.
@@ -4943,13 +4708,11 @@ where $B_{12}$ is the Einstein coefficient for absorption, and $\rho(\nu)$ is th
 Stimulated emission is the process by which an atom or molecule in the upper energy level emits a photon and transitions to the lower energy level due to the presence of an incident photon. The rate of stimulated emission is proportional to the population of the upper energy level and the photon density. This can be expressed as:
 
 
-
 $$
 
 R_{21}^{stim} = B_{21}\rho(\nu)N_2
 
 $$
-
 
 
 where $B_{21}$ is the Einstein coefficient for stimulated emission.
@@ -4959,13 +4722,11 @@ where $B_{21}$ is the Einstein coefficient for stimulated emission.
 Spontaneous emission, on the other hand, is the process by which an atom or molecule in the upper energy level emits a photon and transitions to the lower energy level spontaneously, without the presence of an incident photon. The rate of spontaneous emission is proportional to the population of the upper energy level. This can be expressed as:
 
 
-
 $$
 
 R_{21}^{spont} = A_{21}N_2
 
 $$
-
 
 
 where $A_{21}$ is the Einstein coefficient for spontaneous emission.
@@ -4975,13 +4736,11 @@ where $A_{21}$ is the Einstein coefficient for spontaneous emission.
 By combining these expressions, we can write the rate equation for a two-level system as:
 
 
-
 $$
 
 \frac{dN_2}{dt} = B_{12}\rho(\nu)N_1 - (B_{21}\rho(\nu) + A_{21})N_2
 
 $$
-
 
 
 This equation describes the dynamics of the population of energy levels in a quantum system, taking into account the processes of absorption, stimulated emission, and spontaneous emission. In the following subsections, we will explore the implications of this equation for the operation of photonic devices.
@@ -5005,13 +4764,11 @@ Dispersion, absorption, and gain are three fundamental processes that occur when
 Dispersion is the phenomenon where the phase velocity of light in a medium depends on its frequency. This is due to the interaction of the photons with the bound electrons in the material. The refractive index $n$ of a material, which determines the speed of light in the material, is a function of the frequency $\nu$ of the light. This can be expressed as:
 
 
-
 $$
 
 n(\nu) = c/v(\nu)
 
 $$
-
 
 
 where $c$ is the speed of light in vacuum and $v(\nu)$ is the phase velocity of light of frequency $\nu$ in the material.
@@ -5025,13 +4782,11 @@ where $c$ is the speed of light in vacuum and $v(\nu)$ is the phase velocity of 
 Absorption is the process by which an atom or molecule in a material absorbs a photon, causing a transition from a lower energy level to a higher energy level. The absorption coefficient $\alpha(\nu)$ describes the amount of light of frequency $\nu$ that is absorbed per unit length in the material. This can be expressed as:
 
 
-
 $$
 
 \alpha(\nu) = N_1 B_{12} \rho(\nu)
 
 $$
-
 
 
 where $N_1$ is the population of the lower energy level, $B_{12}$ is the Einstein coefficient for absorption, and $\rho(\nu)$ is the photon density at frequency $\nu$.
@@ -5045,13 +4800,11 @@ where $N_1$ is the population of the lower energy level, $B_{12}$ is the Einstei
 Gain is the process by which an atom or molecule in a material emits a photon, causing a transition from a higher energy level to a lower energy level. This process can be stimulated by the presence of an incident photon (stimulated emission) or can occur spontaneously (spontaneous emission). The gain coefficient $g(\nu)$ describes the amount of light of frequency $\nu$ that is amplified per unit length in the material. This can be expressed as:
 
 
-
 $$
 
 g(\nu) = N_2 B_{21} \rho(\nu)
 
 $$
-
 
 
 where $N_2$ is the population of the upper energy level, $B_{21}$ is the Einstein coefficient for stimulated emission, and $\rho(\nu)$ is the photon density at frequency $\nu$.
@@ -5091,13 +4844,11 @@ An optical amplifier is a device that amplifies an optical signal directly, with
 The amplification process can be described by the gain coefficient $g(\nu)$, which we have previously defined as:
 
 
-
 $$
 
 g(\nu) = N_2 B_{21} \rho(\nu)
 
 $$
-
 
 
 where $N_2$ is the population of the upper energy level, $B_{21}$ is the Einstein coefficient for stimulated emission, and $\rho(\nu)$ is the photon density at frequency $\nu$. 
@@ -5139,13 +4890,11 @@ The gain in an optical amplifier is determined by the number of photons that are
 The total gain of an optical amplifier is given by the product of the gain coefficient and the length of the amplifier medium, $L$. This can be expressed as:
 
 
-
 $$
 
 G = e^{g(\nu) L}
 
 $$
-
 
 
 where $G$ is the total gain, and $e$ is the base of the natural logarithm.
@@ -5163,13 +4912,11 @@ Loss in optical amplifiers occurs due to several mechanisms, including absorptio
 The total loss in an optical amplifier can be described by a loss coefficient $l(\nu)$, which is a function of frequency. The total loss can then be calculated as:
 
 
-
 $$
 
 L = e^{l(\nu) L}
 
 $$
-
 
 
 where $L$ is the total loss, and $L$ is the length of the amplifier medium.
@@ -5179,13 +4926,11 @@ where $L$ is the total loss, and $L$ is the length of the amplifier medium.
 The net gain of an optical amplifier is then given by the difference between the total gain and the total loss:
 
 
-
 $$
 
 G_{net} = G - L
 
 $$
-
 
 
 In the next section, we will discuss how these principles are applied in the design and operation of lasers.
@@ -5279,13 +5024,11 @@ In the context of quantum electronics and photonics, the interaction of light wi
 Homogeneous broadening occurs when all the atoms or molecules in a medium interact with the light in the same way. This means that each atom or molecule has the same probability of being excited and emitting a photon. The broadening is a result of the uncertainty principle, which states that the product of the uncertainty in energy and the uncertainty in time is greater than or equal to a constant. This can be expressed as:
 
 
-
 $$
 
 \Delta E \Delta t \geq \hbar
 
 $$
-
 
 
 where $\Delta E$ is the uncertainty in energy, $\Delta t$ is the uncertainty in time, and $\hbar$ is the reduced Planck's constant. The uncertainty in energy leads to a spread in the energy levels, which results in a broadening of the spectral lines.
@@ -5333,13 +5076,11 @@ As mentioned earlier, homogeneous broadening is often caused by mechanisms such 
 Natural lifetime broadening is a consequence of the Heisenberg uncertainty principle. The finite lifetime of an excited state $\Delta t$ leads to an uncertainty in the energy $\Delta E$ of that state. This results in a broadening of the spectral line associated with transitions to or from that state. The relationship between the lifetime of the state and the broadening of the line is given by:
 
 
-
 $$
 
 \Delta E \Delta t \approx \hbar
 
 $$
-
 
 
 ###### Collisional Broadening
@@ -5399,13 +5140,11 @@ Spectral hole burning is a phenomenon that occurs in inhomogeneously broadened s
 The process of spectral hole burning can be described mathematically as follows:
 
 
-
 $$
 
 I(\nu) = I_0(\nu) e^{-\alpha(\nu) L}
 
 $$
-
 
 
 where $I(\nu)$ is the intensity of the light after passing through the material, $I_0(\nu)$ is the initial intensity of the light, $\alpha(\nu)$ is the absorption coefficient of the material at frequency $\nu$, and $L$ is the length of the material.
@@ -5423,13 +5162,11 @@ Coherence effects, on the other hand, are related to the phase relationship betw
 The degree of coherence in a system can be quantified by the coherence length $L_c$, which is given by:
 
 
-
 $$
 
 L_c = \frac{c}{\Delta \nu}
 
 $$
-
 
 
 where $c$ is the speed of light and $\Delta \nu$ is the linewidth of the spectral line. The coherence length is a measure of the distance over which the phase of the light remains constant.
@@ -5783,7 +5520,6 @@ The process of cavity dumping can be described mathematically as follows:
 Let's denote the energy stored in the laser medium as $E$, the output coupling as $C$, and the time it takes for the energy to be released as $t$. The energy released in a single pulse can be calculated as:
 
 
-
 $$
 
 E_{pulse} = E \cdot C
@@ -5791,9 +5527,7 @@ E_{pulse} = E \cdot C
 $$
 
 
-
 And the peak power of the pulse can be calculated as:
-
 
 
 $$
@@ -5801,7 +5535,6 @@ $$
 P_{peak} = E_{pulse} / t
 
 $$
-
 
 
 As you can see, by increasing the output coupling $C$, we can increase the energy released in a single pulse $E_{pulse}$, and by decreasing the time $t$, we can increase the peak power $P_{peak}$.
@@ -5831,7 +5564,6 @@ The process of mode locking can be described mathematically as follows:
 Let's denote the number of modes in the laser as $N$, the phase difference between adjacent modes as $\phi$, and the amplitude of each mode as $A$. The total amplitude of the output pulse can be calculated as:
 
 
-
 $$
 
 A_{total} = A \cdot \sum_{n=1}^{N} e^{i \cdot n \cdot \phi}
@@ -5839,9 +5571,7 @@ A_{total} = A \cdot \sum_{n=1}^{N} e^{i \cdot n \cdot \phi}
 $$
 
 
-
 And the peak power of the pulse can be calculated as:
-
 
 
 $$
@@ -5849,7 +5579,6 @@ $$
 P_{peak} = |A_{total}|^2
 
 $$
-
 
 
 As you can see, by increasing the number of modes $N$ and ensuring that the phase difference $\phi$ is zero (i.e., all modes are in phase), we can increase the total amplitude $A_{total}$ and the peak power $P_{peak}$ of the output pulse.
@@ -5875,13 +5604,11 @@ Electro-optic and acousto-optic modulation are two key techniques used in the fi
 The electro-optic effect, also known as the Pockels effect, is a change in the refractive index of a material caused by an applied electric field. This effect is linear, meaning that the change in refractive index is directly proportional to the applied electric field. The electro-optic effect can be described mathematically as:
 
 
-
 $$
 
 \Delta n = n_3 \cdot E
 
 $$
-
 
 
 where $\Delta n$ is the change in refractive index, $n_3$ is the electro-optic coefficient of the material, and $E$ is the applied electric field.
@@ -5891,13 +5618,11 @@ where $\Delta n$ is the change in refractive index, $n_3$ is the electro-optic c
 On the other hand, the acousto-optic effect, also known as the photoelastic effect, is a change in the refractive index of a material caused by an applied acoustic wave. This effect is nonlinear, meaning that the change in refractive index is not directly proportional to the applied acoustic field. The acousto-optic effect can be described mathematically as:
 
 
-
 $$
 
 \Delta n = n_0 + n_2 \cdot I
 
 $$
-
 
 
 where $\Delta n$ is the change in refractive index, $n_0$ is the initial refractive index of the material, $n_2$ is the acousto-optic coefficient of the material, and $I$ is the intensity of the applied acoustic wave.
@@ -5927,13 +5652,11 @@ Electro-optic modulators are devices that use the electro-optic effect to modula
 Phase retardation is a phenomenon where the phase of a wave is delayed or advanced due to the change in the refractive index of the medium it is passing through. In an electro-optic modulator, an electric field is applied to a crystal, causing a change in its refractive index. This change in refractive index causes a phase shift in the light wave passing through the crystal. The amount of phase shift is given by:
 
 
-
 $$
 
 \Delta \phi = \frac{2 \pi}{\lambda} \cdot L \cdot \Delta n
 
 $$
-
 
 
 where $\Delta \phi$ is the phase shift, $\lambda$ is the wavelength of the light, $L$ is the length of the crystal, and $\Delta n$ is the change in refractive index.
@@ -5967,13 +5690,11 @@ Acousto-optic modulators are devices that use the acousto-optic effect to modula
 Diffraction is a phenomenon where a wave encounters an obstacle or a slit that is comparable in size to its wavelength and it bends around it. In an acousto-optic modulator, an acoustic wave is applied to a crystal, causing a periodic change in its refractive index. This periodic change acts like a diffraction grating for the light wave passing through the crystal. The amount of diffraction is given by:
 
 
-
 $$
 
 \theta = \lambda \cdot \frac{f}{v}
 
 $$
-
 
 
 where $\theta$ is the diffraction angle, $\lambda$ is the wavelength of the light, $f$ is the frequency of the acoustic wave, and $v$ is the speed of sound in the crystal.
@@ -6791,7 +6512,6 @@ The recitations will cover a broad range of topics, from the fundamental princip
 The chapter will also touch upon the mathematical foundations of quantum electronics. We will introduce and explain key mathematical concepts and equations, such as the Schrödinger equation and the principles of quantum mechanics, using the popular TeX and LaTeX style syntax. For example, the Schrödinger equation might be represented as `$$
 
 i\hbar\frac{\partial}{\partial t} \Psi = \hat{H}\Psi
-
 $$`, where `$\Psi$` is the wave function of the system, `$\hat{H}$` is the Hamiltonian operator, and `$i\hbar\frac{\partial}{\partial t}$` represents the rate of change of the wave function with respect to time.
 
 
@@ -6817,9 +6537,7 @@ The particle-like properties of light are represented by photons, which are disc
 
 
 $$
-
 E = h\nu
-
 $$
 
 
@@ -6833,9 +6551,7 @@ On the other hand, the wave-like properties of light are described by its wavele
 
 
 $$
-
 c = \lambda\nu
-
 $$
 
 
@@ -6873,9 +6589,7 @@ The principle of superposition is mathematically represented by the Schrödinger
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi
-
 $$
 
 
@@ -6909,9 +6623,7 @@ Mathematically, if two particles are entangled, their wavefunctions become inter
 
 
 $$
-
 \Psi = \Psi_1 \otimes \Psi_2
-
 $$
 
 
@@ -7389,9 +7101,7 @@ Photons are massless particles that travel at the speed of light. They carry ene
 
 
 $$
-
 E = h\nu
-
 $$
 
 
@@ -7405,9 +7115,7 @@ Photons also carry momentum, which is given by the de Broglie relation:
 
 
 $$
-
 p = \frac{h}{\lambda}
-
 $$
 
 
@@ -7457,9 +7165,7 @@ A pure state of light is described by a wave function that satisfies the Schröd
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi
-
 $$
 
 
@@ -7485,9 +7191,7 @@ The density matrix $\rho$ for a mixed state can be written as:
 
 
 $$
-
 \rho = \sum_i p_i |\psi_i\rangle\langle\psi_i|
-
 $$
 
 
@@ -7529,9 +7233,7 @@ The mathematical description of quantum interference involves the wave function 
 
 
 $$
-
 \Psi = a\Psi_1 + b\Psi_2
-
 $$
 
 
@@ -7553,9 +7255,7 @@ The mathematical description of quantum entanglement involves the concept of a j
 
 
 $$
-
 |\Psi\rangle = \frac{1}{\sqrt{2}} (|0\rangle_1 |1\rangle_2 - |1\rangle_1 |0\rangle_2)
-
 $$
 
 
@@ -7761,7 +7461,6 @@ Some of the common quantum gates include:
 
 
 - **Pauli-X gate**: This gate is equivalent to a classical NOT gate. It flips the state of a qubit from `$|0\rangle$` to `$|1\rangle$` and vice versa. Mathematically, it is represented by the matrix `$$
-
 \begin{pmatrix}
 
 0 & 1 \\
@@ -7769,13 +7468,11 @@ Some of the common quantum gates include:
 1 & 0
 
 \end{pmatrix}
-
 $$`.
 
 
 
 - **Hadamard gate**: This gate creates a superposition of states. It maps the basis state `$|0\rangle$` to `$(|0\rangle + |1\rangle)/\sqrt{2}$` and `$|1\rangle$` to `$(|0\rangle - |1\rangle)/\sqrt{2}$`. The matrix representation of the Hadamard gate is `$$
-
 \begin{pmatrix}
 
 1/\sqrt{2} & 1/\sqrt{2} \\
@@ -7783,13 +7480,11 @@ $$`.
 1/\sqrt{2} & -1/\sqrt{2}
 
 \end{pmatrix}
-
 $$`.
 
 
 
 - **Controlled-NOT gate (CNOT)**: This is a two-qubit gate that flips the second qubit (target) if and only if the first qubit (control) is in the state `$|1\rangle$`. The matrix representation of the CNOT gate is `$$
-
 \begin{pmatrix}
 
 1 & 0 & 0 & 0 \\
@@ -7801,7 +7496,6 @@ $$`.
 0 & 0 & 1 & 0
 
 \end{pmatrix}
-
 $$`.
 
 
@@ -8277,9 +7971,7 @@ One of the key concepts in quantum metrology is the Heisenberg limit, which sets
 
 
 $$
-
 \Delta x \geq \frac{\hbar}{2\Delta p}
-
 $$
 
 
@@ -8951,9 +8643,7 @@ The behavior of quantum systems is described by wavefunctions, mathematical func
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi
-
 $$
 
 
@@ -8967,9 +8657,7 @@ Quantum systems can exist in multiple states simultaneously, a phenomenon known 
 
 
 $$
-
 \Psi = c_1\Psi_1 + c_2\Psi_2
-
 $$
 
 
@@ -8999,9 +8687,7 @@ Quantum control refers to the ability to manipulate quantum systems in a precise
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(t) = \hat{H}(t)\Psi(t)
-
 $$
 
 

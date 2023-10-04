@@ -1676,9 +1676,7 @@ Mathematically, we can represent this trade-off using a simple model:
 
 
 $$
-
 \Delta Q = \alpha \Delta E
-
 $$
 
 
@@ -1716,9 +1714,7 @@ Mathematically, we can represent this concept using a diminishing returns functi
 
 
 $$
-
 y = \frac{1}{1 + e^{-kx}}
-
 $$
 
 
@@ -1766,9 +1762,7 @@ Mathematically, we can represent this trade-off using a simple model:
 
 
 $$
-
 \Delta Q = \alpha \Delta E
-
 $$
 
 

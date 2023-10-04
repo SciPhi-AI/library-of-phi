@@ -1729,7 +1729,6 @@ In this subsection, we will focus on the basics of Integer Linear Programming (I
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -1739,7 +1738,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align*}
-
 $$
 
 
@@ -1801,7 +1799,6 @@ Integer Linear Programming (ILP) is a subset of IP where the decision variables 
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -1811,7 +1808,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align}
-
 $$
 
 
@@ -1955,7 +1951,6 @@ BIP problems can be formulated as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -1965,7 +1960,6 @@ $$
 & x \in \{0,1\}^n
 
 \end{align*}
-
 $$
 
 
@@ -2159,7 +2153,6 @@ The general form of a MIP problem can be written as:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx + d^Ty \\
@@ -2171,7 +2164,6 @@ $$
 & y \in \mathbb{Z}^m
 
 \end{align*}
-
 $$
 
 
@@ -2343,7 +2335,6 @@ In the next chapter, we will dive deeper into the world of integer programming a
 Consider the following problem: 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2355,7 +2346,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the dual problem for the above formulation. 
@@ -2369,7 +2359,6 @@ b) Solve the primal and dual problems using the simplex method.
 Consider the following knapsack problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 + 4x_3 \\
@@ -2379,7 +2368,6 @@ $$
 & x_1, x_2, x_3 \in \{0,1\}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2393,7 +2381,6 @@ b) Solve the problem using the branch and bound algorithm.
 Consider the following transportation problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 5x_{11} + 4x_{12} + 6x_{13} + 7x_{14} \\
@@ -2411,7 +2398,6 @@ $$
 & x_{11}, x_{12}, x_{13}, x_{14} \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2425,7 +2411,6 @@ b) Solve the problem using the Hungarian algorithm.
 Consider the following set cover problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & x_1 + x_2 + x_3 + x_4 + x_5 \\
@@ -2443,7 +2428,6 @@ $$
 & x_1, x_2, x_3, x_4, x_5 \in \{0,1\}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2457,7 +2441,6 @@ b) Solve the problem using the greedy algorithm.
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 + 4x_3 \\
@@ -2469,7 +2452,6 @@ $$
 & x_1, x_2, x_3 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2501,7 +2483,6 @@ In the next chapter, we will dive deeper into the world of integer programming a
 Consider the following problem: 
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -2513,7 +2494,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the dual problem for the above formulation. 
@@ -2527,7 +2507,6 @@ b) Solve the primal and dual problems using the simplex method.
 Consider the following knapsack problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 + 4x_3 \\
@@ -2537,7 +2516,6 @@ $$
 & x_1, x_2, x_3 \in \{0,1\}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2551,7 +2529,6 @@ b) Solve the problem using the branch and bound algorithm.
 Consider the following transportation problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & 5x_{11} + 4x_{12} + 6x_{13} + 7x_{14} \\
@@ -2569,7 +2546,6 @@ $$
 & x_{11}, x_{12}, x_{13}, x_{14} \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2583,7 +2559,6 @@ b) Solve the problem using the Hungarian algorithm.
 Consider the following set cover problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & x_1 + x_2 + x_3 + x_4 + x_5 \\
@@ -2601,7 +2576,6 @@ $$
 & x_1, x_2, x_3, x_4, x_5 \in \{0,1\}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -2615,7 +2589,6 @@ b) Solve the problem using the greedy algorithm.
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 + 4x_3 \\
@@ -2627,7 +2600,6 @@ $$
 & x_1, x_2, x_3 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Write the problem in standard form. 
@@ -3597,7 +3569,6 @@ One of the most commonly used techniques in constraint generation is the use of 
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3609,7 +3580,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -3619,9 +3589,7 @@ The initial formulation of this problem does not explicitly state that $x_1$ and
 
 
 $$
-
 x_1 + x_2 \leq 4
-
 $$
 
 
@@ -3635,7 +3603,6 @@ Another technique used in constraint generation is the relaxation of integer con
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3647,7 +3614,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -3657,7 +3623,6 @@ We can relax the integer constraints to obtain the following linear programming 
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3667,7 +3632,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -3677,9 +3641,7 @@ Solving this problem gives us the optimal solution $x_1 = 2.5, x_2 = 2.5$. We ca
 
 
 $$
-
 x_1 + x_2 \leq 4
-
 $$
 
 
@@ -3719,7 +3681,6 @@ One of the most commonly used techniques in constraint generation is the use of 
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3731,7 +3692,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -3741,9 +3701,7 @@ The initial formulation of this problem does not explicitly state that $x_1$ and
 
 
 $$
-
 x_1 + x_2 \leq 4
-
 $$
 
 
@@ -3757,7 +3715,6 @@ Another technique used in constraint generation is the relaxation of integer con
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3769,7 +3726,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -3779,7 +3735,6 @@ We can relax the integer constraints to obtain the following linear programming 
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3789,7 +3744,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -3799,9 +3753,7 @@ The optimal solution of this problem is $x_1 = 1.5, x_2 = 3.5$. This solution ca
 
 
 $$
-
 x_1 + x_2 \leq 4
-
 $$
 
 
@@ -3841,7 +3793,6 @@ One of the most commonly used types of cuts is the cutting plane. As mentioned e
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3853,7 +3804,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -3863,9 +3813,7 @@ The initial formulation of this problem does not explicitly state that $x_1$ and
 
 
 $$
-
 x_1 + x_2 \leq 4
-
 $$
 
 
@@ -3879,7 +3827,6 @@ Another technique used in cut generation is the relaxation of integer constraint
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize } & z = 3x_1 + 4x_2 \\
@@ -3891,7 +3838,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -4181,7 +4127,6 @@ In conclusion, the methods discussed in this chapter provide valuable tools for 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -4191,7 +4136,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Apply variable reduction to this problem and compare the results with the original formulation.
@@ -4203,7 +4147,6 @@ Apply variable reduction to this problem and compare the results with the origin
 Identify the symmetries present in the following combinatorial optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \sum_{i=1}^{n} c_i x_i \\
@@ -4213,7 +4156,6 @@ $$
 & x_i \in \{0,1\}, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 Propose a symmetry breaking constraint to reduce the size of the problem.
@@ -4225,7 +4167,6 @@ Propose a symmetry breaking constraint to reduce the size of the problem.
 Consider the following set of constraints:
 
 $$
-
 \begin{align*}
 
 x_1 + x_2 + x_3 &\leq 5 \\
@@ -4239,7 +4180,6 @@ x_2 + x_3 + x_4 &\leq 5 \\
 x_i &\in \{0,1\}, \quad i = 1,2,3,4
 
 \end{align*}
-
 $$
 
 Apply constraint aggregation to these constraints and compare the results with the original formulation.
@@ -4251,7 +4191,6 @@ Apply constraint aggregation to these constraints and compare the results with t
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & \sum_{i=1}^{n} c_i x_i \\
@@ -4261,7 +4200,6 @@ $$
 & x_i \in \{0,1\}, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 Propose a method to enhance this formulation by exploiting the problem structure.
@@ -4301,7 +4239,6 @@ In conclusion, the methods discussed in this chapter provide valuable tools for 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -4311,7 +4248,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Apply variable reduction to this problem and compare the results with the original formulation.
@@ -4323,7 +4259,6 @@ Apply variable reduction to this problem and compare the results with the origin
 Identify the symmetries present in the following combinatorial optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & \sum_{i=1}^{n} c_i x_i \\
@@ -4333,7 +4268,6 @@ $$
 & x_i \in \{0,1\}, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 Propose a symmetry breaking constraint to reduce the size of the problem.
@@ -4345,7 +4279,6 @@ Propose a symmetry breaking constraint to reduce the size of the problem.
 Consider the following set of constraints:
 
 $$
-
 \begin{align*}
 
 x_1 + x_2 + x_3 &\leq 5 \\
@@ -4359,7 +4292,6 @@ x_2 + x_3 + x_4 &\leq 5 \\
 x_i &\in \{0,1\}, \quad i = 1,2,3,4
 
 \end{align*}
-
 $$
 
 Apply constraint aggregation to these constraints and compare the results with the original formulation.
@@ -4371,7 +4303,6 @@ Apply constraint aggregation to these constraints and compare the results with t
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & \sum_{i=1}^{n} c_i x_i \\
@@ -4381,7 +4312,6 @@ $$
 & x_i \in \{0,1\}, \quad i = 1,2,...,n
 
 \end{align*}
-
 $$
 
 Propose a method to enhance this formulation by exploiting the problem structure.
@@ -5397,7 +5327,6 @@ Linear programming is a special case of integer programming where the decision v
 
 
 $$
-
 \begin{align}
 
 \text{minimize} \quad & c^Tx \\
@@ -5407,7 +5336,6 @@ $$
 & x \geq 0
 
 \end{align}
-
 $$
 
 
@@ -5417,7 +5345,6 @@ where $c$ is a vector of coefficients, $A$ is a matrix of constraints, and $b$ i
 
 
 $$
-
 \begin{align}
 
 \text{maximize} \quad & b^Ty \\
@@ -5427,7 +5354,6 @@ $$
 & y \geq 0
 
 \end{align}
-
 $$
 
 
@@ -5615,9 +5541,7 @@ Duality gaps, also known as optimality gaps, are a measure of the difference bet
 
 
 $$
-
 \Delta = c^Tx^* - b^Ty^*
-
 $$
 
 
@@ -5789,7 +5713,6 @@ To understand Lagrangean relaxation, let's consider the following optimization p
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x,y) \\
@@ -5801,7 +5724,6 @@ $$
 & y \in \mathbb{R}
 
 \end{align*}
-
 $$
 
 
@@ -5811,7 +5733,6 @@ where $f(x,y)$ is the objective function, $g(x,y)$ is a constraint function, and
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x,y) + \lambda (x - \hat{x}) \\
@@ -5821,7 +5742,6 @@ $$
 & y \in \mathbb{R}
 
 \end{align*}
-
 $$
 
 
@@ -6205,7 +6125,6 @@ Prove the strong duality theorem for linear programming using the Farkas' lemma.
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & c^Tx \\
@@ -6215,7 +6134,6 @@ $$
 & x \geq 0
 
 \end{align*}
-
 $$
 
 Find the dual problem and its optimal solution using the complementary slackness conditions.
@@ -6233,7 +6151,6 @@ Prove that if the primal problem is unbounded, then the dual problem is infeasib
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & c^Tx \\
@@ -6243,7 +6160,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align*}
-
 $$
 
 Find the dual problem and its optimal solution using the complementary slackness conditions.
@@ -6285,7 +6201,6 @@ Prove the strong duality theorem for linear programming using the Farkas' lemma.
 Consider the following linear programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & c^Tx \\
@@ -6295,7 +6210,6 @@ $$
 & x \geq 0
 
 \end{align*}
-
 $$
 
 Find the dual problem and its optimal solution using the complementary slackness conditions.
@@ -6313,7 +6227,6 @@ Prove that if the primal problem is unbounded, then the dual problem is infeasib
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & c^Tx \\
@@ -6323,7 +6236,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align*}
-
 $$
 
 Find the dual problem and its optimal solution using the complementary slackness conditions.
@@ -7993,9 +7905,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8051,9 +7961,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8133,9 +8041,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8209,9 +8115,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8285,9 +8189,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8389,9 +8291,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8485,9 +8385,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8565,9 +8463,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -8649,9 +8545,7 @@ Lattices have several properties that make them useful in optimization problems.
 
 
 $$
-
 a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)
-
 $$
 
 
@@ -9059,9 +8953,7 @@ A convex polytope is a bounded polyhedron in n-dimensional space that is defined
 
 
 $$
-
 P = \{x \in \mathbb{R}^n | Ax \leq b\}
-
 $$
 
 
@@ -9577,7 +9469,6 @@ As we continue to push the boundaries of integer programming and combinatorial o
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -9587,7 +9478,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, and $b \in \mathbb{R}^m$. Show that this problem can be formulated as a system of polynomial equations using algebraic geometry.
@@ -9641,7 +9531,6 @@ As we continue to push the boundaries of integer programming and combinatorial o
 Consider the following optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & c^Tx \\
@@ -9651,7 +9540,6 @@ $$
 & x \in \mathbb{Z}^n
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, and $b \in \mathbb{R}^m$. Show that this problem can be formulated as a system of polynomial equations using algebraic geometry.
@@ -10893,7 +10781,6 @@ To understand how Gomory's Mixed Integer Cuts work, let's consider an example. S
 
 
 $$
-
 \begin{align}
 
 x_1 + x_2 &\leq 10 \\
@@ -10905,7 +10792,6 @@ x_1, x_2 &\geq 0 \\
 x_1, x_2 &\in \mathbb{Z}
 
 \end{align}
-
 $$
 
 
@@ -10915,9 +10801,7 @@ The optimal solution to this problem is $x_1 = 5, x_2 = 0$, with an objective va
 
 
 $$
-
 x_1 + 2x_2 \leq 5
-
 $$
 
 
@@ -11209,7 +11093,6 @@ In conclusion, the cutting plane method is a powerful tool for solving integer p
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -11221,7 +11104,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the cutting plane method to find the optimal solution to this problem.
@@ -11233,7 +11115,6 @@ Use the cutting plane method to find the optimal solution to this problem.
 Generate a Gomory mixed integer cut for the following linear programming relaxation:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -11245,7 +11126,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -11255,7 +11135,6 @@ $$
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -11267,7 +11146,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the lift-and-project method to find the optimal solution to this problem.
@@ -11279,7 +11157,6 @@ Use the lift-and-project method to find the optimal solution to this problem.
 Generate a split cut for the following linear programming relaxation:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 5x_1 + 4x_2 \\
@@ -11291,7 +11168,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -11301,7 +11177,6 @@ $$
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -11313,7 +11188,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the cutting plane method in combination with branch and bound to find the optimal solution to this problem.
@@ -11347,7 +11221,6 @@ In conclusion, the cutting plane method is a powerful tool for solving integer p
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 3x_1 + 2x_2 \\
@@ -11359,7 +11232,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the cutting plane method to find the optimal solution to this problem.
@@ -11371,7 +11243,6 @@ Use the cutting plane method to find the optimal solution to this problem.
 Generate a Gomory mixed integer cut for the following linear programming relaxation:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -11383,7 +11254,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -11393,7 +11263,6 @@ $$
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 4x_1 + 3x_2 \\
@@ -11405,7 +11274,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the lift-and-project method to find the optimal solution to this problem.
@@ -11417,7 +11285,6 @@ Use the lift-and-project method to find the optimal solution to this problem.
 Generate a split cut for the following linear programming relaxation:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 5x_1 + 4x_2 \\
@@ -11429,7 +11296,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 
@@ -11439,7 +11305,6 @@ $$
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize } & 2x_1 + 3x_2 \\
@@ -11451,7 +11316,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 Use the cutting plane method in combination with branch and bound to find the optimal solution to this problem.
@@ -12287,7 +12151,6 @@ Despite these limitations, enumerative methods are still widely used in practice
 Consider the following integer programming problem:
 
 $$
-
 \begin{align}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -12297,7 +12160,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align}
-
 $$
 
 Use complete enumeration to find the optimal solution.
@@ -12351,7 +12213,6 @@ Despite these limitations, enumerative methods are still widely used in practice
 Consider the following integer programming problem:
 
 $$
-
 \begin{align}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -12361,7 +12222,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align}
-
 $$
 
 Use complete enumeration to find the optimal solution.
@@ -15151,7 +15011,6 @@ Mathematically, bilevel programming can be represented as follows:
 
 
 $$
-
 \begin{align}
 
 \min_{x,y} \quad & f(x,y) \\
@@ -15163,7 +15022,6 @@ $$
 & y \in \arg \min_{y} \{ h(x,y) \mid y \in Y \}
 
 \end{align}
-
 $$
 
 
@@ -15225,7 +15083,6 @@ Bilevel programming can be represented mathematically as follows:
 
 
 $$
-
 \begin{align}
 
 & \underset{x,y}{\text{minimize}}
@@ -15241,7 +15098,6 @@ $$
 & & & x \in \mathbb{R}^n, y \in \mathbb{Z}^m
 
 \end{align}
-
 $$
 
 
@@ -15561,7 +15417,6 @@ Overall, mixed integer optimization is a powerful tool that can be applied to a 
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15573,7 +15428,6 @@ $$
 & x_j \in \{0,1\} \text{ for } j \in J
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, and $J \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a pure integer programming problem by introducing new variables and constraints.
@@ -15591,7 +15445,6 @@ Implement the branch and bound algorithm for solving mixed integer optimization 
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15605,7 +15458,6 @@ $$
 & x_j \in [0,1] \text{ for } j \in K
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, $J \subseteq \{1,2,...,n\}$, and $K \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a mixed integer programming problem by introducing new variables and constraints.
@@ -15623,7 +15475,6 @@ Implement the cutting planes algorithm for solving mixed integer optimization pr
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15639,7 +15490,6 @@ $$
 & x_j \in \mathbb{R} \text{ for } j \in L
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, $J \subseteq \{1,2,...,n\}$, $K \subseteq \{1,2,...,n\}$, and $L \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a mixed integer programming problem by introducing new variables and constraints.
@@ -15673,7 +15523,6 @@ Overall, mixed integer optimization is a powerful tool that can be applied to a 
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15685,7 +15534,6 @@ $$
 & x_j \in \{0,1\} \text{ for } j \in J
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, and $J \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a pure integer programming problem by introducing new variables and constraints.
@@ -15703,7 +15551,6 @@ Implement the branch and bound algorithm for solving mixed integer optimization 
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15717,7 +15564,6 @@ $$
 & x_j \in [0,1] \text{ for } j \in K
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, $J \subseteq \{1,2,...,n\}$, and $K \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a mixed integer programming problem by introducing new variables and constraints.
@@ -15735,7 +15581,6 @@ Implement the cutting planes algorithm for solving mixed integer optimization pr
 Consider the following mixed integer optimization problem:
 
 $$
-
 \begin{align*}
 
 \text{minimize } & c^Tx \\
@@ -15751,7 +15596,6 @@ $$
 & x_j \in \mathbb{R} \text{ for } j \in L
 
 \end{align*}
-
 $$
 
 where $c \in \mathbb{R}^n$, $A \in \mathbb{R}^{m \times n}$, $b \in \mathbb{R}^m$, $J \subseteq \{1,2,...,n\}$, $K \subseteq \{1,2,...,n\}$, and $L \subseteq \{1,2,...,n\}$. Show that this problem can be reformulated as a mixed integer programming problem by introducing new variables and constraints.
@@ -15823,9 +15667,7 @@ The Orr-Sommerfeld equation is given by the following expression:
 
 
 $$
-
 \Delta w = \frac{1}{Re} \left(\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} \right) + \frac{1}{c^2} \frac{\partial^2 w}{\partial t^2}
-
 $$
 
 
@@ -15873,9 +15715,7 @@ The Orr-Sommerfeld equation is given by the following expression:
 
 
 $$
-
 \Delta w = \frac{1}{Re} \left(\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} \right) + \frac{1}{c^2} \frac{\partial^2 w}{\partial t^2}
-
 $$
 
 
@@ -15951,9 +15791,7 @@ The Orr-Sommerfeld equation is given by the following expression:
 
 
 $$
-
 \Delta w = \frac{1}{Re} \left(\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} \right) + \frac{1}{c^2} \frac{\partial^2 w}{\partial t^2}
-
 $$
 
 
@@ -16305,9 +16143,7 @@ In conclusion, small-perturbation theory is a powerful tool in the field of inte
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g(x) \leq b
-
 $$
 
 where $f$ and $g$ are convex functions and $b$ is a constant. Use small-perturbation theory to find an approximate solution to this problem.
@@ -16365,9 +16201,7 @@ In conclusion, small-perturbation theory is a powerful tool in the field of inte
 Consider the following optimization problem:
 
 $$
-
 \min_{x \in \mathbb{R}^n} f(x) \quad \text{subject to} \quad g(x) \leq b
-
 $$
 
 where $f$ and $g$ are convex functions and $b$ is a constant. Use small-perturbation theory to find an approximate solution to this problem.
@@ -16473,9 +16307,7 @@ The laminar-turbulent transition can be mathematically represented as follows:
 
 
 $$
-
 \Delta w = \alpha \cdot \nabla f(w) + \beta \cdot \nabla^2 f(w)
-
 $$
 
 
@@ -16537,9 +16369,7 @@ The laminar-turbulent transition can be mathematically represented as follows:
 
 
 $$
-
 \Delta w = \frac{\partial w}{\partial t} = \nu \nabla^2 w + \frac{1}{\rho} \frac{\partial p}{\partial x}
-
 $$
 
 
@@ -16621,9 +16451,7 @@ The laminar-turbulent transition can be mathematically represented as follows:
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} + w\frac{\partial u}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
-
 $$
 
 
@@ -16657,9 +16485,7 @@ The phase transition can be mathematically represented as follows:
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -16701,9 +16527,7 @@ Stability analysis can be mathematically represented as follows:
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(\mathbf{x})
-
 $$
 
 
@@ -16761,9 +16585,7 @@ The laminar-turbulent transition can be mathematically represented as follows:
 
 
 $$
-
 \Delta w = \sum_{j=1}^{n} y_j(n) \Delta w_j(n)
-
 $$
 
 
@@ -16857,9 +16679,7 @@ The laminar-turbulent transition can be mathematically represented as follows:
 
 
 $$
-
 \Delta w = \sum_{i=1}^{n} \alpha_i \Delta w_i
-
 $$
 
 
@@ -16889,21 +16709,15 @@ The branch and bound method can be mathematically represented as follows:
 
 
 $$
-
 \text{minimize } c^Tx
-
 $$
 
 $$
-
 \text{subject to } Ax \leq b
-
 $$
 
 $$
-
 x \in \mathbb{Z}^n
-
 $$
 
 
@@ -16925,9 +16739,7 @@ The dynamic programming method can be mathematically represented as follows:
 
 
 $$
-
 V(i) = \max_{j \in S_i} \{V(j) + c_{ij}\}
-
 $$
 
 
@@ -16963,7 +16775,6 @@ Overall, this chapter has provided a comprehensive overview of the key concepts 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -16973,7 +16784,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Identify the boundary conditions for this problem. \
@@ -16995,7 +16805,6 @@ Prove that a homogeneous objective function does not affect the optimal solution
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 2x_1 + 3x_2 \\
@@ -17005,7 +16814,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Show that this problem can be formulated as a linear programming problem. \
@@ -17019,7 +16827,6 @@ b) Solve the problem using the cutting plane method.
 Consider the following knapsack problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 5x_2 \\
@@ -17029,7 +16836,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Solve the problem using the dynamic programming method. \
@@ -17043,7 +16849,6 @@ b) How does the solution change if the constraint is changed to $2x_1 + 3x_2 \le
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 4x_1 + 3x_2 \\
@@ -17053,7 +16858,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Solve the problem using the branch and bound method. \
@@ -17081,7 +16885,6 @@ Overall, this chapter has provided a comprehensive overview of the key concepts 
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 2x_2 \\
@@ -17091,7 +16894,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Identify the boundary conditions for this problem. \
@@ -17113,7 +16915,6 @@ Prove that a homogeneous objective function does not affect the optimal solution
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 2x_1 + 3x_2 \\
@@ -17123,7 +16924,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Show that this problem can be formulated as a linear programming problem. \
@@ -17137,7 +16937,6 @@ b) Solve the problem using the cutting plane method.
 Consider the following knapsack problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 3x_1 + 5x_2 \\
@@ -17147,7 +16946,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Solve the problem using the dynamic programming method. \
@@ -17161,7 +16959,6 @@ b) How does the solution change if the constraint is changed to $2x_1 + 3x_2 \le
 Consider the following integer programming problem:
 
 $$
-
 \begin{align*}
 
 \text{maximize} \quad & 4x_1 + 3x_2 \\
@@ -17171,7 +16968,6 @@ $$
 & x_1, x_2 \in \mathbb{Z}
 
 \end{align*}
-
 $$
 
 a) Solve the problem using the branch and bound method. \
@@ -17233,17 +17029,13 @@ The RANS equations are derived by applying Reynolds Averaging to the Navier-Stok
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial x_i} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial t} + \frac{\partial}{\partial x_j}(\bar{u}_i \bar{u}_j) = -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_i} + \frac{\partial}{\partial x_j}(\bar{\tau}_{ij}) + \bar{g}_i
-
 $$
 
 
@@ -17291,17 +17083,13 @@ The RANS equations are derived by applying Reynolds Averaging to the Navier-Stok
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial x_i} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial t} + \frac{\partial}{\partial x_j}(\bar{u}_i \bar{u}_j) = -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_i} + \frac{\partial}{\partial x_j}(\bar{\tau}_{ij}) + \bar{g}_i
-
 $$
 
 
@@ -17327,9 +17115,7 @@ Prandtl's analogy is based on the idea that the mean stress tensor can be approx
 
 
 $$
-
 \bar{\tau}_{ij} = -\rho \nu_t \frac{\partial \bar{u}_i}{\partial x_j}
-
 $$
 
 
@@ -17369,17 +17155,13 @@ The RANS equations are derived by applying Reynolds Averaging to the Navier-Stok
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial x_i} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial \bar{u}_i}{\partial t} + \frac{\partial}{\partial x_j}(\bar{u}_i \bar{u}_j) = -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_i} + \frac{\partial}{\partial x_j}(\bar{\tau}_{ij}) + \bar{g}_i
-
 $$
 
 
@@ -17397,9 +17179,7 @@ One of the most commonly used models in RANS equations is the Reynolds stress mo
 
 
 $$
-
 \frac{\partial \bar{\tau}_{ij}}{\partial t} + \frac{\partial}{\partial x_k}(\bar{u}_i \bar{\tau}_{jk}) = -\frac{1}{\rho}\frac{\partial}{\partial x_k}(\bar{p}\delta_{ij}) + \frac{\partial}{\partial x_k}(\bar{\tau}_{ik}\bar{u}_j) + \frac{\partial}{\partial x_k}(\bar{\tau}_{jk}\bar{u}_i) - \frac{2}{3}\frac{\partial \bar{u}_k}{\partial x_k}\bar{\tau}_{ij} + \frac{\partial}{\partial x_k}(\rho\bar{\nu}_t\frac{\partial \bar{u}_i}{\partial x_k})
-
 $$
 
 
@@ -17823,9 +17603,7 @@ One of the key features of the overlap layer is the presence of a logarithmic ve
 
 
 $$
-
 u^+ = \frac{1}{\kappa} \ln(y^+) + B
-
 $$
 
 
@@ -18371,9 +18149,7 @@ The Equilibrium Boundary Layer Concept can be mathematically represented as foll
 
 
 $$
-
 \Delta w = \sum_{j=1}^{n} y_j(n) \Delta x_j
-
 $$
 
 
@@ -18403,9 +18179,7 @@ Turbulent Energy Dissipation is a type of Dissipation Formula used to model and 
 
 
 $$
-
 \Delta E = \sum_{j=1}^{n} y_j(n) \Delta x_j
-
 $$
 
 
@@ -18463,9 +18237,7 @@ The Equilibrium Boundary Layer Concept can be mathematically represented as foll
 
 
 $$
-
 \Delta w = \sum_{j=1}^{n} y_j(n) \Delta w_j
-
 $$
 
 
@@ -18503,9 +18275,7 @@ In Equilibrium Boundary Layers, dissipation can be calculated using the followin
 
 
 $$
-
 D = \sum_{j=1}^{n} y_j(n) \Delta w_j
-
 $$
 
 
@@ -18571,9 +18341,7 @@ The Equilibrium Boundary Layer Concept can be mathematically represented as foll
 
 
 $$
-
 \Delta w = \sum_{j=1}^{n} y_j(n) \Delta w_j
-
 $$
 
 
@@ -18599,9 +18367,7 @@ The Reynolds Stress Closure can be mathematically represented as follows:
 
 
 $$
-
 \tau_{ij} = \rho \overline{u_i' u_j'}
-
 $$
 
 
@@ -18755,9 +18521,7 @@ The Equilibrium Boundary Layer Concept can be represented mathematically as foll
 
 
 $$
-
 \Delta w = \sum_{j=1}^{n} y_j(n) - \sum_{i=1}^{m} x_i(n)
-
 $$
 
 
@@ -18783,9 +18547,7 @@ The basic equation for a Mixing Length Model is given by:
 
 
 $$
-
 \frac{\partial \phi}{\partial t} + u\frac{\partial \phi}{\partial x} = \frac{\partial}{\partial x}\left(\frac{\nu_t}{\sigma_{\phi}}\frac{\partial \phi}{\partial x}\right)
-
 $$
 
 

@@ -818,9 +818,7 @@ One of the most commonly used indices is the Ethnic Fractionalization Index (EFI
 
 
 $$
-
 EFI = 1 - \sum_{i=1}^{n} p_i^2
-
 $$
 
 
@@ -834,9 +832,7 @@ Another widely used index is the Ethnic Polarization Index (EPI), which measures
 
 
 $$
-
 EPI = 1 - \sum_{i=1}^{n} (0.5 - |p_i - 0.5|)^2
-
 $$
 
 
@@ -1520,9 +1516,7 @@ Let's denote the state of an individual $i$ at time $t$ as $s_i(t)$, where $s_i(
 
 
 $$
-
 P[s_i(t+1) = 1 | s(t)] = \frac{1}{1 + e^{-\beta \sum_{j \in N_i} s_j(t)}}
-
 $$
 
 
@@ -1568,9 +1562,7 @@ Let's denote the state of an individual $i$ at time $t$ as $s_i(t)$, where $s_i(
 
 
 $$
-
 P[s_i(t+1) = 1 | s(t)] = \frac{1}{1 + e^{-\beta \sum_{j \in N_i} s_j(t)}}
-
 $$
 
 

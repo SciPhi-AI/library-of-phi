@@ -2261,25 +2261,19 @@ The kinematic equations are a set of equations that relate the kinematic variabl
 
 
 $$
-
 v = u + at
-
 $$
 
 
 
 $$
-
 s = ut + \frac{1}{2}at^2
-
 $$
 
 
 
 $$
-
 v^2 = u^2 + 2as
-
 $$
 
 
@@ -2375,9 +2369,7 @@ We are trying to find the final velocity, $v$. Using the kinematic equation $v =
 
 
 $$
-
 v = 0 + (2)(10) = 20 \text{ m/s}
-
 $$
 
 
@@ -2457,31 +2449,23 @@ To solve this problem, we first identify the given information:
 We are trying to find the maximum height, $h$. Using the kinematic equation $v = u + at$, we can rearrange it to solve for time:
 
 $$
-
 t = \frac{v-u}{a}
-
 $$
 
 Since the ball reaches its maximum height when its velocity is 0, we can set $v = 0$ and solve for $t$:
 
 $$
-
 0 = 10 + (-9.8)t
-
 $$
 
 $$
-
 t = \frac{10}{9.8} \approx 1.02 \text{ s}
-
 $$
 
 Now, using the kinematic equation $h = ut + \frac{1}{2}at^2$, we can plug in the known values and solve for $h$:
 
 $$
-
 h = (10)(1.02) + \frac{1}{2}(-9.8)(1.02)^2 \approx 5.1 \text{ m}
-
 $$
 
 Therefore, the maximum height reached by the ball is approximately 5.1 m.
@@ -2515,9 +2499,7 @@ In addition to kinematic equations, vector rotation is another important concept
 Given a vector $v = (X, Y, Z)$ and a rotation vector $Q = (X, Y, Z)$, the angle of rotation is given by $\theta = \|Q\|$. The vector rotation formula is then given by:
 
 $$
-
 v' = \cos \theta v + \sin \theta (Q \times v) + (1 - \cos \theta)(Q \cdot v)Q
-
 $$
 
 where $v'$ is the rotated vector.
@@ -2531,15 +2513,12 @@ where $v'$ is the rotated vector.
 Alternatively, vector rotation can also be calculated using the following formula:
 
 $$
-
 v' = Rv
-
 $$
 
 where $R$ is the rotation matrix given by:
 
 $$
-
 R = \begin{bmatrix}
 
 \cos \theta + x_x^2(1 - \cos \theta) & x_yx_z(1 - \cos \theta) - z\sin \theta & y\sin \theta + x_z(1 - \cos \theta)\\
@@ -2549,7 +2528,6 @@ z\sin \theta + x_y(1 - \cos \theta) & \cos \theta + y_y^2(1 - \cos \theta) & y_z
 y\sin \theta + x_z(1 - \cos \theta) & x\sin \theta + y_z(1 - \cos \theta) & \cos \theta + z^2(1 - \cos \theta)
 
 \end{bmatrix}
-
 $$
 
 
@@ -2561,7 +2539,6 @@ $$
 Another method for calculating vector rotation is by using the basis matrix computation. This involves rotating the vectors (1,0,0), (0,1,0), and (0,0,1) and reducing constants. Given an input $Q = [X, Y, Z]$, the resulting matrix is given by:
 
 $$
-
 \begin{bmatrix}
 
 1 - 2q_j^2 - 2q_k^2 & 2(q_iq_j - q_kq_r) & 2(q_iq_k + q_jq_r)\\
@@ -2571,7 +2548,6 @@ $$
 2(q_iq_k - q_jq_r) & 2(q_jq_k + q_iq_r) & 1 - 2q_i^2 - 2q_j^2
 
 \end{bmatrix}
-
 $$
 
 
@@ -2623,9 +2599,7 @@ In real-world scenarios, the rotational inertia of the pulley and friction in th
 
 
 $$
-
 \alpha = \frac{a}{r}
-
 $$
 
 
@@ -2635,9 +2609,7 @@ where $\alpha$ is the angular acceleration and $r$ is the radius of the pulley. 
 
 
 $$
-
 \tau_{\mathrm{net}} = (T_1 - T_2)r - \tau_{\mathrm{friction}} = I\alpha
-
 $$
 
 
@@ -2649,9 +2621,7 @@ Combining this with Newton's second law for the hanging masses, we can solve for
 Acceleration:
 
 $$
-
 a = \frac{g(m_1 - m_2) - \frac{\tau_{\mathrm{friction}}}{r}}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2659,9 +2629,7 @@ $$
 Tension in string segment nearest $m_1$:
 
 $$
-
 T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2669,9 +2637,7 @@ $$
 Tension in string segment nearest $m_2$:
 
 $$
-
 T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2683,9 +2649,7 @@ If we assume that bearing friction is negligible, but the inertia of the pulley 
 Acceleration:
 
 $$
-
 a = \frac{g(m_1 - m_2)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2693,9 +2657,7 @@ $$
 Tension in string segment nearest $m_1$:
 
 $$
-
 T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2703,9 +2665,7 @@ $$
 Tension in string segment nearest $m_2$:
 
 $$
-
 T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2749,9 +2709,7 @@ Using the equations for acceleration and tension, we can solve for the unknown v
 Acceleration:
 
 $$
-
 a = \frac{g(m_1 - m_2) - \frac{\mu\tau_{\mathrm{friction}}}{r}}{m_1 + m_2 + \frac{I}{r^2}} = \frac{9.8(5 - 3) - \frac{0.1\tau_{\mathrm{friction}}}{0.5}}{5 + 3 + \frac{0.2}{0.5^2}} \approx 3.92 \text{ m/s}^2
-
 $$
 
 
@@ -2759,9 +2717,7 @@ $$
 Tension in string segment nearest $m_1$:
 
 $$
-
 T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\mu\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}} = \frac{5(9.8)(2(3) + \frac{0.2}{0.5^2} + \frac{0.1\tau_{\mathrm{friction}}}{0.5(9.8)})}{5 + 3 + \frac{0.2}{0.5^2}} \approx 49.02 \text{ N}
-
 $$
 
 
@@ -2769,9 +2725,7 @@ $$
 Tension in string segment nearest $m_2$:
 
 $$
-
 T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\mu\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}} = \frac{3(9.8)(2(5) + \frac{0.2}{0.5^2} + \frac{0.1\tau_{\mathrm{friction}}}{0.5(9.8)})}{5 + 3 + \frac{0.2}{0.5^2}} \approx 29.41 \text{ N}
-
 $$
 
 
@@ -2855,17 +2809,13 @@ Using Newton's second law, we can write the following equations for the accelera
 
 
 $$
-
 a = \frac{g(m_1 - m_2) - \frac{\tau_{\mathrm{friction}}}{r}}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
 
 $$
-
 \alpha = \frac{a}{r}
-
 $$
 
 
@@ -2879,25 +2829,19 @@ We can combine the equations for acceleration and angular acceleration with the 
 
 
 $$
-
 a = \frac{g(m_1 - m_2) - \frac{\tau_{\mathrm{friction}}}{r}}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
 
 $$
-
 T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
 
 $$
-
 T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -2981,41 +2925,31 @@ Using Newton's second law, we can write the following equations for the accelera
 
 
 $$
-
 a_1 = \frac{T - m_1g}{m_1}
-
 $$
 
 
 
 $$
-
 a_2 = \frac{m_2g - T}{m_2}
-
 $$
 
 
 
 $$
-
 a_3 = \frac{m_3g\sin\theta - T}{m_3}
-
 $$
 
 
 
 $$
-
 \alpha_1 = \frac{T}{r_1} - \frac{I_1\dot{\theta}}{r_1^2}
-
 $$
 
 
 
 $$
-
 \alpha_2 = \frac{T}{r_2} - \frac{I_2\dot{\theta}}{r_2^2}
-
 $$
 
 
@@ -3033,9 +2967,7 @@ For example, the no-slip condition for the first pulley can be written as:
 
 
 $$
-
 a_1 = r_1\alpha_1
-
 $$
 
 
@@ -3045,17 +2977,13 @@ Substituting in the equations for $a_1$ and $\alpha_1$, we can solve for $T$:
 
 
 $$
-
 \frac{T - m_1g}{m_1} = r_1\left(\frac{T}{r_1} - \frac{I_1\dot{\theta}}{r_1^2}\right)
-
 $$
 
 
 
 $$
-
 T = \frac{m_1g + I_1\dot{\theta}}{1 + \frac{I_1}{m_1r_1^2}}
-
 $$
 
 
@@ -3105,17 +3033,13 @@ Using Newton's second law, we can write the following equations for the accelera
 
 
 $$
-
 a = \frac{T - \mu mg}{m}
-
 $$
 
 
 
 $$
-
 \alpha = \frac{T}{r} - \frac{I\dot{\theta}}{r^2}
-
 $$
 
 
@@ -3133,9 +3057,7 @@ For example, the no-slip condition can be written as:
 
 
 $$
-
 a = r\alpha
-
 $$
 
 
@@ -3145,17 +3067,13 @@ Substituting in the equations for $a$ and $\alpha$, we can solve for $T$:
 
 
 $$
-
 \frac{T - \mu mg}{m} = r\left(\frac{T}{r} - \frac{I\dot{\theta}}{r^2}\right)
-
 $$
 
 
 
 $$
-
 T = \frac{\mu mg + I\dot{\theta}}{1 + \frac{I}{mr^2}}
-
 $$
 
 
@@ -3203,7 +3121,6 @@ In the context of dynamics and control, it is often useful to express angular ve
 
 
 $$
-
 W =
 
 \begin{pmatrix}
@@ -3215,7 +3132,6 @@ W =
 -\omega_y & \omega_x & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -3233,9 +3149,7 @@ To calculate the angular velocity tensor for a rotating frame, we can use the or
 
 
 $$
-
 W = \frac{dA}{dt}A^{\mathsf{T}}
-
 $$
 
 
@@ -3253,25 +3167,19 @@ In the previous section, we discussed the use of spherical harmonics in solving 
 
 
 $$
-
 Y_{7}^{-7}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{715}{2\pi}}\cdot e^{-7i\varphi}\cdot\sin^{7}\theta
-
 $$
 
 
 
 $$
-
 Y_{7}^{-6}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{5005}{\pi}}\cdot e^{-6i\varphi}\cdot\sin^{6}\theta\cdot\cos\theta
-
 $$
 
 
 
 $$
-
 Y_{7}^{-5}(\theta,\varphi) = ...
-
 $$
 
 
@@ -3323,7 +3231,6 @@ As mentioned in the previous subsection, the angular velocity tensor "W" is a us
 
 
 $$
-
 W =
 
 \begin{pmatrix}
@@ -3335,7 +3242,6 @@ W =
 -\omega_y & \omega_x & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -3353,9 +3259,7 @@ To calculate the angular velocity tensor for a rotating frame, we can use the or
 
 
 $$
-
 W = \frac{dA}{dt}A^{\mathsf{T}}
-
 $$
 
 
@@ -3373,7 +3277,6 @@ To better understand the calculation of the angular velocity tensor, let's consi
 
 
 $$
-
 A(t) = 
 
 \begin{pmatrix}
@@ -3385,7 +3288,6 @@ A(t) =
 0 & 0 & 1 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -3395,7 +3297,6 @@ We can calculate the angular velocity tensor "W"("t") for this frame as follows:
 
 
 $$
-
 W = \frac{dA}{dt}A^{\mathsf{T}} = 
 
 \begin{pmatrix}
@@ -3417,7 +3318,6 @@ W = \frac{dA}{dt}A^{\mathsf{T}} =
 0 & 0 & 1 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -3427,7 +3327,6 @@ Simplifying this expression, we get:
 
 
 $$
-
 W = 
 
 \begin{pmatrix}
@@ -3439,7 +3338,6 @@ W =
 0 & 0 & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -3457,93 +3355,63 @@ In the previous section, we discussed the use of spherical harmonics in solving 
 
 
 $$
-
 Y_{7}^{-7}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{715}{2\pi}}\cdot e^{-7i\varphi}\cdot\sin^{7}\theta
-
 $$
 
 $$
-
 Y_{7}^{-6}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{5005}{\pi}}\cdot e^{-6i\varphi}\cdot\sin^{6}\theta\cdot\cos\theta
-
 $$
 
 $$
-
 Y_{7}^{-5}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{3003}{2\pi}}\cdot e^{-5i\varphi}\cdot\sin^{5}\theta\cdot\cos^{2}\theta
-
 $$
 
 $$
-
 Y_{7}^{-4}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{1365}{\pi}}\cdot e^{-4i\varphi}\cdot\sin^{4}\theta\cdot\cos^{3}\theta
-
 $$
 
 $$
-
 Y_{7}^{-3}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{455}{2\pi}}\cdot e^{-3i\varphi}\cdot\sin^{3}\theta\cdot\cos^{4}\theta
-
 $$
 
 $$
-
 Y_{7}^{-2}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{105}{\pi}}\cdot e^{-2i\varphi}\cdot\sin^{2}\theta\cdot\cos^{5}\theta
-
 $$
 
 $$
-
 Y_{7}^{-1}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{15}{2\pi}}\cdot e^{-i\varphi}\cdot\sin\theta\cdot\cos^{6}\theta
-
 $$
 
 $$
-
 Y_{7}^{0}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{1}{\pi}}\cdot\cos^{7}\theta
-
 $$
 
 $$
-
 Y_{7}^{1}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{15}{2\pi}}\cdot e^{i\varphi}\cdot\sin\theta\cdot\cos^{6}\theta
-
 $$
 
 $$
-
 Y_{7}^{2}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{105}{\pi}}\cdot e^{2i\varphi}\cdot\sin^{2}\theta\cdot\cos^{5}\theta
-
 $$
 
 $$
-
 Y_{7}^{3}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{455}{2\pi}}\cdot e^{3i\varphi}\cdot\sin^{3}\theta\cdot\cos^{4}\theta
-
 $$
 
 $$
-
 Y_{7}^{4}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{1365}{\pi}}\cdot e^{4i\varphi}\cdot\sin^{4}\theta\cdot\cos^{3}\theta
-
 $$
 
 $$
-
 Y_{7}^{5}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{3003}{2\pi}}\cdot e^{5i\varphi}\cdot\sin^{5}\theta\cdot\cos^{2}\theta
-
 $$
 
 $$
-
 Y_{7}^{6}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{5005}{\pi}}\cdot e^{6i\varphi}\cdot\sin^{6}\theta\cdot\cos\theta
-
 $$
 
 $$
-
 Y_{7}^{7}(\theta,\varphi) = \frac{3}{64}\sqrt{\frac{715}{2\pi}}\cdot e^{7i\varphi}\cdot\sin^{7}\theta
-
 $$
 
 
@@ -3645,7 +3513,6 @@ The formula is given by:
 
 
 $$F_y = D \sin(C \arctan(Bx-E(Bx-\arctan(Bx))))$$
-
 
 
 Where:
@@ -4877,21 +4744,15 @@ To better understand this relationship, let's consider the example of an Atwood 
 
 
 Acceleration:
-
 $$a = \frac{g(m_1 - m_2) - \frac{\tau_{friction}}{r}}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_1$:
-
 $$T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_2$:
-
 $$T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
-
 
 
 In the case where bearing friction is negligible, these equations simplify to:
@@ -4899,21 +4760,15 @@ In the case where bearing friction is negligible, these equations simplify to:
 
 
 Acceleration:
-
 $$a = \frac{g(m_1 - m_2)}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_1$:
-
 $$T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_2$:
-
 $$T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
-
 
 
 These equations demonstrate the relationship between torque, moment of inertia, and angular acceleration. By understanding this relationship, we can accurately predict the motion of rotating objects and design systems that utilize rotational motion.
@@ -4975,21 +4830,15 @@ To better understand this relationship, let's consider the example of an Atwood 
 
 
 Acceleration:
-
 $$a = \frac{g(m_1 - m_2) - \frac{\tau_{friction}}{r}}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_1$:
-
 $$T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_2$:
-
 $$T_2 = \frac{m_2g\left(m_1 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
-
 
 
 We can see that the acceleration and tensions are dependent on the moment of inertia $I$ and the torque due to friction $\tau_{friction}$. This highlights the importance of understanding torque in rotational motion.
@@ -5003,25 +4852,19 @@ We can see that the acceleration and tensions are dependent on the moment of ine
 Now, let's derive the torque equation $\tau = I\alpha$ from the definition of angular momentum. Recall that the angular momentum for a single point particle is given by $\mathbf{L} = \mathbf{r} \times \mathbf{p}$, where $\mathbf{r}$ is the position vector from the origin and $\mathbf{p}$ is the linear momentum. Taking the time derivative of this equation, we get:
 
 
-
 $$\frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \frac{\mathrm{d}\mathbf{p}}{\mathrm{d}t} + \frac{\mathrm{d}\mathbf{r}}{\mathrm{d}t} \times \mathbf{p}$$
-
 
 
 Using the definition of force $\mathbf{F} = \frac{\mathrm{d}\mathbf{p}}{\mathrm{d}t}$ and velocity $\frac{\mathrm{d}\mathbf{r}}{\mathrm{d}t} = \mathbf{v}$, we can simplify this equation to:
 
 
-
 $$\frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \mathbf{F} + \mathbf{v} \times \mathbf{p}$$
-
 
 
 Since the cross product of momentum $\mathbf{p}$ with its associated velocity $\mathbf{v}$ is zero, the second term vanishes. This leaves us with:
 
 
-
 $$\frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \mathbf{F}$$
-
 
 
 We can see that the time derivative of angular momentum is equal to the cross product of the position vector and the force. This is the definition of torque $\tau = \mathbf{r} \times \mathbf{F}$. Therefore, we can conclude that torque is equal to the first derivative of angular momentum with respect to time.
@@ -5031,9 +4874,7 @@ We can see that the time derivative of angular momentum is equal to the cross pr
 If multiple forces are applied, Newton's second law instead reads $\mathbf{F}_{net} = m\mathbf{a}$, and it follows that:
 
 
-
 $$\frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \mathbf{F}_{net} = \boldsymbol{\tau}_{net}$$
-
 
 
 This further supports the relationship between torque and angular acceleration, as the net torque is equal to the time derivative of angular momentum. This derivation also highlights the importance of understanding the concept of torque in rotational motion.
@@ -5079,21 +4920,15 @@ To better understand this relationship, let's consider the example of an Atwood 
 
 
 Acceleration:
-
 $$a = \frac{g(m_1 - m_2) - \frac{\tau_{friction}}{r}}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_1$:
-
 $$T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
 
 
-
 Tension in string segment nearest $m_2$:
-
 $$T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\tau_{friction}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}$$
-
 
 
 We can see that the net torque acting on the pulley is directly related to the angular acceleration of the system. This is because the moment of inertia, $I$, is a measure of an object's resistance to rotational motion. The larger the moment of inertia, the more torque is needed to produce a given angular acceleration.
@@ -5111,17 +4946,13 @@ In real-world systems, the calculation of torque can become more complex due to 
 For example, let's consider a rotating disk with a mass $m$ and radius $r$. The disk is attached to a motor that applies a constant torque, $\tau_{motor}$, to keep the disk rotating at a constant angular velocity, $\omega$. The disk also experiences a frictional torque, $\tau_{friction}$, due to air resistance. We can calculate the net torque acting on the disk as:
 
 
-
 $$\tau_{net} = \tau_{motor} - \tau_{friction}$$
-
 
 
 Using the rotational equivalent of Newton's second law, we can solve for the angular acceleration of the disk:
 
 
-
 $$\alpha = \frac{\tau_{net}}{I} = \frac{\tau_{motor} - \tau_{friction}}{\frac{1}{2}mr^2}$$
-
 
 
 This equation shows that the angular acceleration of the disk is directly proportional to the net torque acting on it. By adjusting the motor torque, we can control the angular acceleration and therefore the rotational motion of the disk.
@@ -5263,13 +5094,11 @@ Now, let's explore the three cases in which the work-energy principle can be app
 In conservative systems, the total mechanical energy (the sum of kinetic and potential energy) remains constant. This means that the work done by non-conservative forces, such as friction, is equal to the change in kinetic energy. Mathematically, this can be expressed as:
 
 
-
 $$
 
 W_{nc} = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the change in kinetic energy.
@@ -5283,13 +5112,11 @@ where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the
 In non-conservative systems, the total mechanical energy is not conserved. This means that the work done by non-conservative forces is not equal to the change in kinetic energy. In this case, the work-energy principle can be expressed as:
 
 
-
 $$
 
 W_{nc} + \Delta U = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the change in potential energy, and $\Delta K$ is the change in kinetic energy.
@@ -5303,13 +5130,11 @@ where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the ch
 In time-varying systems, the work done by non-conservative forces is not equal to the change in kinetic energy. However, the work done by conservative forces is still equal to the change in potential energy. In this case, the work-energy principle can be expressed as:
 
 
-
 $$
 
 W_{nc} + W_{c} = \Delta U
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $W_{c}$ is the work done by conservative forces, and $\Delta U$ is the change in potential energy.
@@ -5361,13 +5186,11 @@ Now, let's explore the three cases in which the work-energy principle can be app
 In conservative systems, the total mechanical energy (the sum of kinetic and potential energy) remains constant. This means that the work done by non-conservative forces, such as friction, is equal to the change in kinetic energy. Mathematically, this can be expressed as:
 
 
-
 $$
 
 W_{nc} = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the change in kinetic energy.
@@ -5381,13 +5204,11 @@ where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the
 In non-conservative systems, the total mechanical energy is not conserved. This means that the work done by non-conservative forces is not equal to the change in kinetic energy. In this case, the work-energy principle can be expressed as:
 
 
-
 $$
 
 W_{nc} + \Delta U = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the change in potential energy, and $\Delta K$ is the change in kinetic energy.
@@ -5401,13 +5222,11 @@ where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the ch
 In systems with variable mass, such as a rocket, the work-energy principle can still be applied. However, in this case, the change in kinetic energy is not equal to the work done by non-conservative forces. This is because the mass of the system is changing, and therefore, the work done by external forces must also account for the change in mass. The work-energy principle for systems with variable mass can be expressed as:
 
 
-
 $$
 
 W_{nc} + \Delta U = \Delta K + \Delta M
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the change in potential energy, $\Delta K$ is the change in kinetic energy, and $\Delta M$ is the change in mass.
@@ -5479,13 +5298,11 @@ Now, let's explore the three cases in which the work-energy principle can be app
 In conservative systems, the total mechanical energy (the sum of kinetic and potential energy) remains constant. This means that the work done by non-conservative forces, such as friction, is equal to the change in kinetic energy. Mathematically, this can be expressed as:
 
 
-
 $$
 
 W_{nc} = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the change in kinetic energy.
@@ -5499,13 +5316,11 @@ where $W_{nc}$ is the work done by non-conservative forces and $\Delta K$ is the
 In non-conservative systems, the total mechanical energy is not conserved. This means that the work done by non-conservative forces is not equal to the change in kinetic energy. In this case, the work-energy principle can be expressed as:
 
 
-
 $$
 
 W_{nc} + \Delta U = \Delta K
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the change in potential energy, and $\Delta K$ is the change in kinetic energy.
@@ -5519,13 +5334,11 @@ where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the ch
 In some systems, both conservative and non-conservative forces may be present. In these mixed systems, the work-energy principle can be expressed as:
 
 
-
 $$
 
 W_{nc} + \Delta U = \Delta K + W_{c}
 
 $$
-
 
 
 where $W_{nc}$ is the work done by non-conservative forces, $\Delta U$ is the change in potential energy, $\Delta K$ is the change in kinetic energy, and $W_{c}$ is the work done by conservative forces.
@@ -5621,13 +5434,11 @@ To solve this problem, we will use the work-energy principle. As mentioned in th
 Let's first consider the work done by the force of gravity. As the disc rolls down the incline, the force of gravity does work on it, causing it to gain kinetic energy. The work done by the force of gravity can be calculated using the formula:
 
 
-
 $$
 
 W_g = mgh
 
 $$
-
 
 
 where $m$ is the mass of the disc, $g$ is the acceleration due to gravity, and $h$ is the height of the disc above the ground.
@@ -5637,13 +5448,11 @@ where $m$ is the mass of the disc, $g$ is the acceleration due to gravity, and $
 Next, let's consider the work done by the frictional force. As the disc rolls down the incline, the frictional force acts in the opposite direction of motion, causing the disc to lose kinetic energy. The work done by the frictional force can be calculated using the formula:
 
 
-
 $$
 
 W_f = -\mu mgd
 
 $$
-
 
 
 where $\mu$ is the coefficient of friction, $m$ is the mass of the disc, $g$ is the acceleration due to gravity, and $d$ is the distance traveled by the disc.
@@ -5653,7 +5462,6 @@ where $\mu$ is the coefficient of friction, $m$ is the mass of the disc, $g$ is 
 Now, let's apply the work-energy principle to the rolling disc problem. According to the principle, the work done by the force of gravity and the work done by the frictional force should be equal to the change in kinetic energy of the disc. Mathematically, this can be expressed as:
 
 
-
 $$
 
 W_g + W_f = \Delta K
@@ -5661,9 +5469,7 @@ W_g + W_f = \Delta K
 $$
 
 
-
 Substituting the values for $W_g$ and $W_f$, we get:
-
 
 
 $$
@@ -5673,9 +5479,7 @@ mgh - \mu mgd = \Delta K
 $$
 
 
-
 Since the disc is rolling without slipping, the kinetic energy can be expressed as:
-
 
 
 $$
@@ -5685,13 +5489,11 @@ K = \frac{1}{2}I\omega^2
 $$
 
 
-
 where $I$ is the moment of inertia of the disc and $\omega$ is the angular velocity.
 
 
 
 Using the parallel axis theorem, the moment of inertia of the disc can be calculated as:
-
 
 
 $$
@@ -5701,9 +5503,7 @@ I = \frac{1}{2}mr^2
 $$
 
 
-
 Substituting this value in the equation for kinetic energy, we get:
-
 
 
 $$
@@ -5713,9 +5513,7 @@ K = \frac{1}{4}mr^2\omega^2
 $$
 
 
-
 Since the disc is rolling without slipping, the linear velocity $v$ can be expressed as:
-
 
 
 $$
@@ -5725,9 +5523,7 @@ v = r\omega
 $$
 
 
-
 Substituting this value in the equation for kinetic energy, we get:
-
 
 
 $$
@@ -5737,9 +5533,7 @@ K = \frac{1}{4}mv^2
 $$
 
 
-
 Now, let's substitute this value for kinetic energy in the work-energy principle equation:
-
 
 
 $$
@@ -5749,9 +5543,7 @@ mgh - \mu mgd = \frac{1}{4}mv^2
 $$
 
 
-
 Solving for the final velocity $v$, we get:
-
 
 
 $$
@@ -5761,9 +5553,7 @@ v = \sqrt{\frac{4gh}{1+4\mu d}}
 $$
 
 
-
 This equation gives us the final velocity of the disc as it reaches the bottom of the incline. We can also use this equation to calculate the distance traveled by the disc before it comes to a stop. Setting the final velocity to 0, we get:
-
 
 
 $$
@@ -5771,7 +5561,6 @@ $$
 d = \frac{1}{4\mu}h
 
 $$
-
 
 
 This equation tells us that the distance traveled by the disc is directly proportional to the height of the incline and inversely proportional to the coefficient of friction.
@@ -5811,7 +5600,6 @@ To solve the rolling disc problem, we will first set up the equations for the wo
 Let's start by setting up the equation for the work done by the force of gravity. As the disc rolls down the incline, the force of gravity does work on it, causing it to gain kinetic energy. We can calculate the work done by the force of gravity using the formula:
 
 
-
 $$
 
 W_g = mgh
@@ -5819,9 +5607,7 @@ W_g = mgh
 $$
 
 
-
 where $m$ is the mass of the disc, $g$ is the acceleration due to gravity, and $h$ is the height of the disc above the ground. In this case, $h$ is equal to the height of the incline, which we can calculate using trigonometry:
-
 
 
 $$
@@ -5831,9 +5617,7 @@ h = r\sin\theta
 $$
 
 
-
 Next, let's set up the equation for the work done by the frictional force. As the disc rolls down the incline, the frictional force acts in the opposite direction of motion, causing the disc to lose kinetic energy. We can calculate the work done by the frictional force using the formula:
-
 
 
 $$
@@ -5843,9 +5627,7 @@ W_f = \mu mgd
 $$
 
 
-
 where $\mu$ is the coefficient of friction, $m$ is the mass of the disc, $g$ is the acceleration due to gravity, and $d$ is the distance traveled by the disc down the incline. We can calculate $d$ using the formula:
-
 
 
 $$
@@ -5855,9 +5637,7 @@ d = r\theta
 $$
 
 
-
 Now, we can equate the work done by the force of gravity and the work done by the frictional force:
-
 
 
 $$
@@ -5867,9 +5647,7 @@ mgh = \mu mgd
 $$
 
 
-
 We can simplify this equation by dividing both sides by $m$ and substituting in the values for $h$ and $d$:
-
 
 
 $$
@@ -5879,9 +5657,7 @@ gr\sin\theta = \mu gr\theta
 $$
 
 
-
 We can then solve for the final velocity of the disc, $v$, by rearranging the equation:
-
 
 
 $$
@@ -5891,9 +5667,7 @@ v = \sqrt{\frac{gr\sin\theta}{\mu\theta}}
 $$
 
 
-
 This equation gives us the final velocity of the disc as it reaches the bottom of the incline. We can also use this equation to calculate the distance traveled by the disc down the incline, $d$, by substituting in the value for $v$:
-
 
 
 $$
@@ -5901,7 +5675,6 @@ $$
 d = r\theta = r\sqrt{\frac{gr\sin\theta}{\mu\theta}}
 
 $$
-
 
 
 In conclusion, the rolling disc problem is a classic example of the application of the work-energy principle. By setting up and equating the equations for the work done by the force of gravity and the work done by the frictional force, we can solve for the final velocity and distance traveled by the disc down the incline. This problem serves as a fundamental example of the principles of dynamics and control, and it is often used in physics and engineering courses to demonstrate these concepts.
@@ -5945,14 +5718,11 @@ In this problem, we have a rolling disc on an inclined plane with a pulley attac
 First, we need to set up the equations for the work done by the force of gravity and the work done by the frictional force. The force of gravity does work on the disc, causing it to gain kinetic energy. The frictional force, on the other hand, does negative work on the disc, causing it to lose kinetic energy. We can calculate these values using the same equations as before:
 
 
-
 $$
 
 W_g = mgh
 
 $$
-
-
 
 $$
 
@@ -5961,9 +5731,7 @@ W_f = \mu mgd
 $$
 
 
-
 Next, we need to consider the work done by the tension force in the rope. As the disc rolls down the incline, the rope pulls on the disc, causing it to gain kinetic energy. We can calculate the work done by the tension force using the formula:
-
 
 
 $$
@@ -5973,9 +5741,7 @@ W_t = Td
 $$
 
 
-
 where $T$ is the tension force in the rope and $d$ is the distance traveled by the disc down the incline. We can calculate $d$ using the formula we used before:
-
 
 
 $$
@@ -5985,9 +5751,7 @@ d = r\theta
 $$
 
 
-
 Now, we can equate the work done by the force of gravity, the work done by the frictional force, and the work done by the tension force:
-
 
 
 $$
@@ -5997,9 +5761,7 @@ mgh = \mu mgd + Td
 $$
 
 
-
 We can simplify this equation by dividing both sides by $m$ and substituting in the values for $h$ and $d$:
-
 
 
 $$
@@ -6009,9 +5771,7 @@ gr\sin\theta = \mu gr\theta + Tr\theta
 $$
 
 
-
 We can also use the fact that the tension force is equal to the weight of the hanging mass, $T = mg$, to rewrite the equation as:
-
 
 
 $$
@@ -6021,9 +5781,7 @@ gr\sin\theta = \mu gr\theta + mgr\theta
 $$
 
 
-
 Now, we can solve for the final velocity of the disc, $v_f$, using the work-energy principle:
-
 
 
 $$
@@ -6032,14 +5790,11 @@ $$
 
 $$
 
-
-
 $$
 
 v_f = \sqrt{\frac{2gr(\sin\theta - \mu\theta - \theta)}{m}}
 
 $$
-
 
 
 ##### Rolling Disc on a Horizontal Surface with a Moving Object on Top
@@ -6053,14 +5808,11 @@ In this problem, we have a rolling disc on a horizontal surface with a moving ob
 First, we need to set up the equations for the work done by the force of gravity and the work done by the frictional force. The force of gravity does work on the disc, causing it to gain kinetic energy. The frictional force, on the other hand, does negative work on the disc, causing it to lose kinetic energy. We can calculate these values using the same equations as before:
 
 
-
 $$
 
 W_g = mgh
 
 $$
-
-
 
 $$
 
@@ -6069,9 +5821,7 @@ W_f = \mu mgd
 $$
 
 
-
 Next, we need to consider the work done by the force of the object on top of the disc. As the disc rolls, the object exerts a force on the disc, causing it to gain kinetic energy. We can calculate the work done by this force using the formula:
-
 
 
 $$
@@ -6081,9 +5831,7 @@ W_o = Fd
 $$
 
 
-
 where $F$ is the force exerted by the object and $d$ is the distance traveled by the disc. We can calculate $d$ using the formula we used before:
-
 
 
 $$
@@ -6093,9 +5841,7 @@ d = r\theta
 $$
 
 
-
 Now, we can equate the work done by the force of gravity, the work done by the frictional force, and the work done by the force of the object:
-
 
 
 $$
@@ -6105,9 +5851,7 @@ mgh = \mu mgd + Fd
 $$
 
 
-
 We can simplify this equation by dividing both sides by $m$ and substituting in the values for $h$ and $d$:
-
 
 
 $$
@@ -6117,9 +5861,7 @@ gr = \mu gr\theta + Fr\theta
 $$
 
 
-
 We can also use the fact that the force exerted by the object is equal to its mass times its acceleration, $F = ma$, to rewrite the equation as:
-
 
 
 $$
@@ -6129,9 +5871,7 @@ gr = \mu gr\theta + mar\theta
 $$
 
 
-
 Now, we can solve for the final velocity of the disc, $v_f$, using the work-energy principle:
-
 
 
 $$
@@ -6140,14 +5880,11 @@ $$
 
 $$
 
-
-
 $$
 
 v_f = \sqrt{\frac{2gr(1 - \mu\theta - a\theta)}{m}}
 
 $$
-
 
 
 In conclusion, the work-energy principle is a powerful tool for solving rolling disc problems. By setting up the appropriate equations and equating the work done by different forces, we can solve for the final velocity of the disc and gain a deeper understanding of the dynamics involved. These advanced problems demonstrate the versatility and applicability of the work-energy principle in real-world scenarios.
@@ -6747,13 +6484,11 @@ The Lagrangian equation of motion is a fundamental tool in analyzing the dynamic
 To derive the Lagrangian equation of motion, we start by defining the Lagrangian as the difference between the kinetic and potential energies of the system. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 L = T - V
 
 $$
-
 
 
 where $T$ represents the kinetic energy and $V$ represents the potential energy of the system.
@@ -6763,13 +6498,11 @@ where $T$ represents the kinetic energy and $V$ represents the potential energy 
 Next, we use the generalized coordinates to express the kinetic and potential energies in terms of these variables. This allows us to write the Lagrangian as a function of the generalized coordinates and their derivatives. In other words, we can express the Lagrangian as:
 
 
-
 $$
 
 L = L(q_1, q_2, ..., q_n, \dot{q_1}, \dot{q_2}, ..., \dot{q_n})
 
 $$
-
 
 
 where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents their derivatives.
@@ -6779,13 +6512,11 @@ where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents th
 Using this expression for the Lagrangian, we can then apply the Euler-Lagrange equations to derive the equation of motion for the system. These equations state that the derivative of the Lagrangian with respect to each generalized coordinate is equal to the derivative of the Lagrangian with respect to its corresponding derivative. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) = 0
 
 $$
-
 
 
 This equation represents the Lagrangian equation of motion and can be used to analyze the dynamics of a system.
@@ -6841,13 +6572,11 @@ The Lagrangian equation of motion is a fundamental tool in analyzing the dynamic
 To derive the Lagrangian equation of motion, we start by defining the Lagrangian as the difference between the kinetic and potential energies of the system. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 L = T - V
 
 $$
-
 
 
 where $T$ represents the kinetic energy and $V$ represents the potential energy of the system.
@@ -6857,13 +6586,11 @@ where $T$ represents the kinetic energy and $V$ represents the potential energy 
 Next, we use the generalized coordinates to express the kinetic and potential energies in terms of these variables. This allows us to write the Lagrangian as a function of the generalized coordinates and their derivatives. In other words, we can express the Lagrangian as:
 
 
-
 $$
 
 L = L(q_1, q_2, ..., q_n, \dot{q_1}, \dot{q_2}, ..., \dot{q_n})
 
 $$
-
 
 
 where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents their derivatives.
@@ -6873,13 +6600,11 @@ where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents th
 Using this expression for the Lagrangian, we can then apply the Euler-Lagrange equations to derive the equation of motion for the system. These equations state that the derivative of the Lagrangian with respect to each generalized coordinate is equal to the derivative of the Lagrangian with respect to its corresponding derivative. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) = 0
 
 $$
-
 
 
 This equation is known as the Euler-Lagrange equation and it represents the fundamental principle of dynamics for a mechanical system. It describes the relationship between the generalized coordinates, their derivatives, and the forces acting on the system.
@@ -6927,13 +6652,11 @@ The Lagrangian equation of motion is a fundamental tool in analyzing the dynamic
 To derive the Lagrangian equation of motion, we start by defining the Lagrangian as the difference between the kinetic and potential energies of the system. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 L = T - V
 
 $$
-
 
 
 where $T$ represents the kinetic energy and $V$ represents the potential energy of the system.
@@ -6943,13 +6666,11 @@ where $T$ represents the kinetic energy and $V$ represents the potential energy 
 Next, we use the generalized coordinates to express the kinetic and potential energies in terms of these variables. This allows us to write the Lagrangian as a function of the generalized coordinates and their derivatives. In other words, we can express the Lagrangian as:
 
 
-
 $$
 
 L = L(q_1, q_2, ..., q_n, \dot{q_1}, \dot{q_2}, ..., \dot{q_n})
 
 $$
-
 
 
 where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents their derivatives.
@@ -6959,13 +6680,11 @@ where $q_i$ represents the generalized coordinates and $\dot{q_i}$ represents th
 Using this expression for the Lagrangian, we can then apply the Euler-Lagrange equations to derive the equation of motion for the system. These equations state that the derivative of the Lagrangian with respect to each generalized coordinate is equal to the derivative of the Lagrangian with respect to its corresponding derivative. In mathematical terms, this can be expressed as:
 
 
-
 $$
 
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q_i}}\right) = 0
 
 $$
-
 
 
 for $i = 1, \dots, n$.
@@ -7009,13 +6728,11 @@ Generalized forces are conjugate to generalized coordinates and are obtained fro
 The virtual work of the forces, $F_i$, acting on the particles $P_i$, is given by:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} F_i \cdot \delta \vec{r_i}
 
 $$
-
 
 
 where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
@@ -7029,13 +6746,11 @@ where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
 To understand generalized forces, we must first understand generalized coordinates. Let the position vectors of each of the particles, $\vec{r_i}$, be a function of the generalized coordinates, $q_j$. Then the virtual displacements are given by:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \cdot \delta q_j
 
 $$
-
 
 
 where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_j$.
@@ -7049,13 +6764,11 @@ where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_
 Using the expressions for virtual work and virtual displacements, we can write the virtual work for the system of particles as:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta q_j
 
 $$
-
 
 
 where $Q_j$ are the generalized forces associated with the generalized coordinates $q_j$.
@@ -7069,7 +6782,6 @@ where $Q_j$ are the generalized forces associated with the generalized coordinat
 In some cases, it may be more convenient to obtain virtual displacements from the velocities of the system. For a system of $n$ particles, the velocity of each particle $P_i$ can be written as $\dot{\vec{r_i}}$. This means that the virtual displacement can also be expressed in terms of velocities:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial \dot{q_j}} \cdot \delta \dot{q_j}
@@ -7077,9 +6789,7 @@ $$
 $$
 
 
-
 Using this formulation, the generalized force $Q_j$ can also be determined as:
-
 
 
 $$
@@ -7089,7 +6799,6 @@ Q_j = \sum_{i=1}^{n} F_i \cdot \frac{\partial \vec{r_i}}{\partial \dot{q_j}}
 $$
 
 
-
 ## D'Alembert's Principle
 
 
@@ -7097,13 +6806,11 @@ $$
 D'Alembert's principle is another important concept in the study of dynamics. It states that the dynamics of a particle can be described as the equilibrium of the applied forces with an inertia force, also known as the apparent force. The inertia force of a particle $P_i$ with mass $m_i$ is given by:
 
 
-
 $$
 
 \vec{F_i} = m_i \vec{a_i}
 
 $$
-
 
 
 where $\vec{a_i}$ is the acceleration of the particle.
@@ -7117,13 +6824,11 @@ where $\vec{a_i}$ is the acceleration of the particle.
 Appell's equation of motion is a fundamental equation in the study of dynamics. It is derived from the principle of virtual work and is given by:
 
 
-
 $$
 
 \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta q_j = 0
 
 $$
-
 
 
 where $Q_j$ are the generalized forces associated with the generalized coordinates $q_j$. This equation is equivalent to Newton's second law of motion and is a powerful tool in analyzing the dynamics of a system.
@@ -7167,13 +6872,11 @@ Generalized forces are conjugate to generalized coordinates and are obtained fro
 The virtual work of the forces, $F_i$, acting on the particles $P_i$, is given by:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} F_i \cdot \delta \vec{r_i}
 
 $$
-
 
 
 where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
@@ -7187,13 +6890,11 @@ where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
 To understand generalized forces, we must first understand generalized coordinates. Let the position vectors of each of the particles, $\vec{r_i}$, be a function of the generalized coordinates, $q_j$. Then the virtual displacements are given by:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \cdot \delta q_j
 
 $$
-
 
 
 where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_j$.
@@ -7207,13 +6908,11 @@ where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_
 Using the expressions for virtual work and virtual displacements, we can write the virtual work for the system of particles as:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta q_j
 
 $$
-
 
 
 where $Q_j$ are the generalized forces associated with the generalized coordinates $q_j$.
@@ -7227,13 +6926,11 @@ where $Q_j$ are the generalized forces associated with the generalized coordinat
 In some cases, it may be more convenient to express the equations of motion in terms of velocities rather than generalized coordinates. This is known as the velocity formulation of Lagrangian dynamics. In this formulation, the virtual work of the forces can be written as:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta \dot{q_j}
 
 $$
-
 
 
 where $\delta \dot{q_j}$ is the virtual displacement of the generalized velocity $\dot{q_j}$.
@@ -7247,7 +6944,6 @@ where $\delta \dot{q_j}$ is the virtual displacement of the generalized velocity
 To calculate the generalized forces, we can use the equations of motion derived from the Lagrangian formulation. These equations take the form:
 
 
-
 $$
 
 \frac{d}{dt} \frac{\partial L}{\partial \dot{q_j}} - \frac{\partial L}{\partial q_j} = 0 \quad j = 1,\ldots,n
@@ -7255,9 +6951,7 @@ $$
 $$
 
 
-
 where $L$ is the Lagrangian of the system. If the generalized forces $Q_j$ are derivable from a potential energy $V$, then these equations can be simplified to:
-
 
 
 $$
@@ -7267,13 +6961,11 @@ $$
 $$
 
 
-
 where $T$ is the kinetic energy of the system. This is known as Lagrange's equations of motion.
 
 
 
 To calculate the generalized forces, we can use the formula:
-
 
 
 $$
@@ -7283,9 +6975,7 @@ Q_j = \sum_{i=1}^{n} m_i \vec{a_i} \cdot \frac{\partial \vec{a_i}}{\partial \dot
 $$
 
 
-
 where $m_i$ is the mass of particle $P_i$ and $\vec{a_i}$ is its acceleration. This formula can also be written in terms of the generalized accelerations $\ddot{q_j}$ as:
-
 
 
 $$
@@ -7293,7 +6983,6 @@ $$
 Q_j = \sum_{i=1}^{n} m_i \vec{a_i} \cdot \frac{\partial \vec{a_i}}{\partial \ddot{q_j}}
 
 $$
-
 
 
 This formula is known as Appell's equation of motion.
@@ -7307,7 +6996,6 @@ This formula is known as Appell's equation of motion.
 To derive this formula, we start with the change in the particle positions $\vec{r_k}$ for an infinitesimal change in the $D$ generalized coordinates:
 
 
-
 $$
 
 \delta \vec{r_k} = \sum_{r=1}^{D} \frac{\partial \vec{r_k}}{\partial q_r} \cdot \delta q_r
@@ -7315,9 +7003,7 @@ $$
 $$
 
 
-
 Taking two derivatives with respect to time yields an equivalent equation for the accelerations:
-
 
 
 $$
@@ -7327,9 +7013,7 @@ $$
 $$
 
 
-
 The work done by an infinitesimal change $\delta q_r$ in the generalized coordinates is given by:
-
 
 
 $$
@@ -7339,9 +7023,7 @@ $$
 $$
 
 
-
 Using Newton's second law for the $k$th particle, we can substitute $\vec{a_k} = \ddot{\vec{r_k}}$ and rearrange the terms to get:
-
 
 
 $$
@@ -7351,9 +7033,7 @@ $$
 $$
 
 
-
 Finally, we can rewrite this equation in terms of the generalized accelerations $\ddot{q_j}$ and use the definition of the Lagrangian $L = T - V$ to get:
-
 
 
 $$
@@ -7363,9 +7043,7 @@ $$
 $$
 
 
-
 Therefore, the generalized forces are given by:
-
 
 
 $$
@@ -7375,9 +7053,7 @@ Q_j = \frac{\partial L}{\partial \ddot{q_j}} = \sum_{i=1}^{n} m_i \vec{a_i} \cdo
 $$
 
 
-
 This formula can also be written in terms of the generalized velocities $\dot{q_j}$ as:
-
 
 
 $$
@@ -7385,7 +7061,6 @@ $$
 Q_j = \frac{\partial L}{\partial \dot{q_j}} = \sum_{i=1}^{n} m_i \vec{a_i} \cdot \frac{\partial \vec{a_i}}{\partial \dot{q_j}}
 
 $$
-
 
 
 This is known as the velocity formulation of Appell's equation of motion.
@@ -7421,13 +7096,11 @@ Generalized forces are conjugate to generalized coordinates and are obtained fro
 The virtual work of the forces, $F_i$, acting on the particles $P_i$, is given by:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} F_i \cdot \delta \vec{r_i}
 
 $$
-
 
 
 where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
@@ -7441,13 +7114,11 @@ where $\delta \vec{r_i}$ is the virtual displacement of the particle $P_i$.
 To understand generalized forces, we must first understand generalized coordinates. Let the position vectors of each of the particles, $\vec{r_i}$, be a function of the generalized coordinates, $q_j$. Then the virtual displacements are given by:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \cdot \delta q_j
 
 $$
-
 
 
 where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_j$.
@@ -7461,13 +7132,11 @@ where $\delta q_j$ is the virtual displacement of the generalized coordinate $q_
 Using the expressions for virtual work and virtual displacements, we can write the virtual work for the system of particles as:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta q_j
 
 $$
-
 
 
 where $Q_j$ are the generalized forces associated with the generalized coordinates $q_j$.
@@ -7481,13 +7150,11 @@ where $Q_j$ are the generalized forces associated with the generalized coordinat
 In some cases, it may be more convenient to express the virtual work in terms of velocities rather than displacements. This is known as the velocity formulation of virtual work. In this formulation, the virtual work is given by:
 
 
-
 $$
 
 \delta W = \sum_{i=1}^{n} \sum_{j=1}^{n} Q_j \cdot \delta \dot{q_j}
 
 $$
-
 
 
 where $\delta \dot{q_j}$ is the virtual velocity of the generalized coordinate $q_j$.
@@ -7531,7 +7198,6 @@ Before we dive into the mathematical derivation, let's first understand the phys
 To begin, we will define the kinetic energy of the system as the sum of the kinetic energies of the two pendulums:
 
 
-
 $$
 
 E_K = \frac{1}{2}mL^2\left(\dot{\theta_1}^2 + \dot{\theta_2}^2\right)
@@ -7539,9 +7205,7 @@ E_K = \frac{1}{2}mL^2\left(\dot{\theta_1}^2 + \dot{\theta_2}^2\right)
 $$
 
 
-
 where $\dot{\theta_1}$ and $\dot{\theta_2}$ are the angular velocities of the two pendulums. Similarly, the potential energy of the system can be written as:
-
 
 
 $$
@@ -7551,13 +7215,11 @@ E_P = mgL(2 - \cos\theta_1 - \cos\theta_2) + \frac{1}{2}kL^2(\theta_2 - \theta_1
 $$
 
 
-
 where $g$ is the gravitational acceleration and $k$ is the spring constant. Note that the displacement of the spring, $L(\theta_2 - \theta_1)$, is assumed to be small and thus the small angle approximation is applied.
 
 
 
 Using the Lagrangian formulation, we can write the Lagrangian of the system as:
-
 
 
 $$
@@ -7567,9 +7229,7 @@ $$
 $$
 
 
-
 which leads to the following set of coupled differential equations:
-
 
 
 $$
@@ -7581,9 +7241,7 @@ $$
 $$
 
 
-
 By adding and subtracting these two equations and applying the small angle approximation, we can obtain two harmonic oscillator equations in the variables $\theta_1 + \theta_2$ and $\theta_1 - \theta_2$:
-
 
 
 $$
@@ -7593,7 +7251,6 @@ $$
 \ddot{\theta_1} - \ddot{\theta_2} + \left(\frac{g}{L} + 2\frac{k}{m}\right)(\theta_1 - \theta_2) = 0
 
 $$
-
 
 
 These equations demonstrate the coupled nature of the double pendulum system, where the motion of one pendulum affects the other. In the next section, we will explore the solutions to these equations and the behavior of the double pendulum system.
@@ -7621,7 +7278,6 @@ Before we dive into the mathematical derivation, let's first understand the phys
 To begin, we will define the kinetic energy of the system as the sum of the kinetic energies of the two pendulums:
 
 
-
 $$
 
 E_K = \frac{1}{2}mL^2\left(\dot{\theta_1}^2 + \dot{\theta_2}^2\right)
@@ -7629,9 +7285,7 @@ E_K = \frac{1}{2}mL^2\left(\dot{\theta_1}^2 + \dot{\theta_2}^2\right)
 $$
 
 
-
 where $\dot{\theta_1}$ and $\dot{\theta_2}$ are the angular velocities of the two pendulums. Similarly, the potential energy of the system can be written as:
-
 
 
 $$
@@ -7641,13 +7295,11 @@ E_P = mgL(2 - \cos\theta_1 - \cos\theta_2) + \frac{1}{2}kL^2(\theta_2 - \theta_1
 $$
 
 
-
 where $g$ is the gravitational acceleration and $k$ is the spring constant. Note that the displacement of the spring, $L(\theta_2 - \theta_1)$, is assumed to be small and thus the small angle approximation is applied.
 
 
 
 Using the Lagrangian formulation, we can write the Lagrangian of the system as:
-
 
 
 $$
@@ -7657,9 +7309,7 @@ $$
 $$
 
 
-
 which leads to the following set of coupled differential equations:
-
 
 
 $$
@@ -7671,9 +7321,7 @@ $$
 $$
 
 
-
 By adding and subtracting these two equations, we can obtain the following simplified equations:
-
 
 
 $$
@@ -7683,7 +7331,6 @@ $$
 \ddot{\theta_2} + \frac{g}{L}\sin\theta_2 - \frac{k}{m}\theta_2 = \frac{k}{m}\theta_1
 
 $$
-
 
 
 These equations can be solved using numerical methods or by using the small angle approximation to obtain an analytical solution. However, in this section, we will focus on solving these equations using the Lagrangian method.
@@ -7701,7 +7348,6 @@ To solve the double pendulum problem using the Lagrangian method, we first need 
 Next, we need to calculate the Lagrangian equations of motion, which are given by:
 
 
-
 $$
 
 \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial\dot{\theta_i}}\right) - \frac{\partial\mathcal{L}}{\partial\theta_i} = 0 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; i = 1,2
@@ -7709,9 +7355,7 @@ $$
 $$
 
 
-
 where $i$ represents the pendulum number. Substituting the Lagrangian we defined earlier, we can obtain the following equations:
-
 
 
 $$
@@ -7723,9 +7367,7 @@ mL^2\ddot{\theta_2} + mgL\sin\theta_2 - kL(\theta_1 - \theta_2) = 0
 $$
 
 
-
 These equations can be rearranged to obtain the following form:
-
 
 
 $$
@@ -7735,7 +7377,6 @@ $$
 \ddot{\theta_2} + \frac{g}{L}\sin\theta_2 - \frac{k}{m}(\theta_1 - \theta_2) = 0
 
 $$
-
 
 
 which are the same equations we obtained earlier using the Newtonian method. This shows that the Lagrangian method is equivalent to the Newtonian method in solving the double pendulum problem.
@@ -7771,7 +7412,6 @@ To address these advanced double pendulum problems, we will introduce the concep
 Using generalized coordinates, we can rewrite the Lagrangian of the system as:
 
 
-
 $$
 
 \mathcal{L} = \frac{1}{2}mL^2\left(\dot{\theta_1}^2 + \dot{\theta_2}^2\right) - mgL(2 - \cos\theta_1 - \cos\theta_2) - \frac{1}{2}kL^2(\theta_2 - \theta_1)^2 - \frac{1}{2}cL^2\dot{\theta_2}^2
@@ -7779,9 +7419,7 @@ $$
 $$
 
 
-
 where $c$ is the damping coefficient of the spring. This leads to the following set of coupled differential equations:
-
 
 
 $$
@@ -7791,7 +7429,6 @@ $$
 \ddot{\theta_2} + \frac{g}{L}\sin\theta_2 - \frac{k}{m}(\theta_1 - \theta_2) - \frac{c}{m}\dot{\theta_2} = 0
 
 $$
-
 
 
 These equations can be solved numerically to study the behavior of the double pendulum system under different conditions. Additionally, the concept of generalized coordinates can be extended to more complex systems, making it a powerful tool in the study of dynamics and control.
@@ -8291,13 +7928,11 @@ The local linearization method, also known as the tangent linearization method, 
 To understand the process of linearization, let us consider the example of a helicopter with a single input and single output. The output, denoted by <math>y</math>, is the vertical position of the helicopter, and the input, denoted by <math>u</math>, is the collective pitch angle of the rotor blades. The dynamics of this system can be described by the following equations:
 
 
-
 $$
 
 \dot{y} = L_{f}h(x) + L_{g}h(x)u
 
 $$
-
 
 
 where <math>h(x)</math> is the output function and <math>L_{f}h(x)</math> and <math>L_{g}h(x)</math> are the Lie derivatives of <math>h(x)</math> with respect to the system dynamics.
@@ -8307,13 +7942,11 @@ where <math>h(x)</math> is the output function and <math>L_{f}h(x)</math> and <m
 To linearize this system, we first need to find the equilibrium point, denoted by <math>x_{eq}</math>. This is the point at which the output is constant, and the input is zero. In other words, it is the point at which the helicopter is in a steady state. Once we have determined the equilibrium point, we can linearize the system by taking the first-order Taylor series expansion around this point. This results in the following linear system:
 
 
-
 $$
 
 \dot{y} = L_{f}h(x_{eq}) + L_{g}h(x_{eq})u
 
 $$
-
 
 
 This linear system can be represented by a state-space model, where the state variables are the derivatives of the output, and the input is the control variable. By analyzing this linear system, we can gain insights into the behavior of the nonlinear system near the equilibrium point.
@@ -8357,21 +7990,17 @@ Once the equilibrium point is determined, we can linearize the system by taking 
 The linearized system can be represented by the following equations:
 
 
-
 $$
 
 \dot{\Delta x} = A\Delta x + B\Delta u
 
 $$
 
-
-
 $$
 
 \Delta y = C\Delta x + D\Delta u
 
 $$
-
 
 
 where <math>\Delta x</math> and <math>\Delta u</math> are the deviations from the equilibrium point in the state and input variables, respectively. <math>A</math>, <math>B</math>, <math>C</math>, and <math>D</math> are matrices that represent the linearized system.
@@ -8673,13 +8302,11 @@ In an underdamped system, the damping force is less than the critical damping fo
 The equations of motion for a damped oscillator can be derived using Newton's second law and the concept of damping. In the absence of external forces, the equation of motion for a damped oscillator can be written as:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = 0
 
 $$
-
 
 
 Where $m$ is the mass of the oscillator, $c$ is the damping coefficient, and $k$ is the spring constant. This equation can be solved to obtain the displacement $x(t)$ of the oscillator as a function of time.
@@ -8689,13 +8316,11 @@ Where $m$ is the mass of the oscillator, $c$ is the damping coefficient, and $k$
 The behavior of a damped oscillator in free response can be analyzed by examining the roots of the characteristic equation:
 
 
-
 $$
 
 ms^2 + cs + k = 0
 
 $$
-
 
 
 The roots of this equation determine the type of damping and the behavior of the system. For an underdamped system, the roots are complex conjugates, resulting in oscillatory motion. For a critically damped system, the roots are equal, resulting in a rapid decrease in amplitude. For an overdamped system, the roots are real and distinct, resulting in a slow decrease in amplitude.
@@ -8735,13 +8360,11 @@ In an underdamped system, the damping force is less than the critical damping fo
 The equations of motion for a damped oscillator can be derived using Newton's second law and the concept of damping. In the absence of external forces, the equation of motion for a damped oscillator can be written as:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = 0
 
 $$
-
 
 
 Where $m$ is the mass of the oscillator, $c$ is the damping coefficient, and $k$ is the spring constant. This equation can be solved to obtain the displacement $x(t)$ of the oscillator as a function of time.
@@ -8751,13 +8374,11 @@ Where $m$ is the mass of the oscillator, $c$ is the damping coefficient, and $k$
 The behavior of a damped oscillator in free response can be analyzed by examining the roots of the characteristic equation:
 
 
-
 $$
 
 ms^2 + cs + k = 0
 
 $$
-
 
 
 The roots of this equation, also known as the characteristic roots, determine the type of damping and the behavior of the system. For an underdamped system, the roots are complex conjugates with a negative real part, resulting in oscillatory motion. For a critically damped system, the roots are real and equal, resulting in a rapid decrease in amplitude without any oscillations. For an overdamped system, the roots are real and distinct, resulting in a slow decrease in amplitude without any oscillations.
@@ -10097,42 +9718,33 @@ The decomposition method is a useful strategy for solving complex problems. In t
 First, let's identify the different components involved in the problem. We have an object with a mass of 5 kg, which is being pulled by two forces: F1 and F2. The object is also experiencing a frictional force of 10 N. We can represent this situation using the following equations:
 
 
-
 $$
 
 \sum F = ma
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
 
 
 Next, we can solve each subproblem separately. To find the acceleration of the object, we can use the first equation and substitute in the values for the forces and mass:
 
 
-
 $$
 
 \sum F = ma
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
-
 
 $$
 
@@ -10140,35 +9752,27 @@ F1 - F2 - 10 = 5 \times 2
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 10
 
 $$
 
-
-
 $$
 
 F1 - F2 = 20
 
 $$
-
 
 
 Now, we can use this value for acceleration to solve for the forces F1 and F2. We can substitute the value for acceleration into the second equation and solve for F1 and F2:
 
 
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
-
 
 $$
 
@@ -10176,23 +9780,17 @@ F1 - F2 - 10 = 5 \times 2
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 10
 
 $$
 
-
-
 $$
 
 F1 - F2 = 20
 
 $$
-
-
 
 $$
 
@@ -10200,22 +9798,17 @@ F1 = F2 + 20
 
 $$
 
-
-
 $$
 
 F2 + 20 - F2 = 20
 
 $$
 
-
-
 $$
 
 F2 = 10
 
 $$
-
 
 
 Therefore, the forces F1 and F2 are 30 N and 10 N, respectively.
@@ -10233,22 +9826,17 @@ Problem reduction is a useful strategy for simplifying complex equations or expr
 Let's start by simplifying the left side of the equation:
 
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10256,23 +9844,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10280,31 +9862,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10312,31 +9886,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10344,23 +9910,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10368,23 +9928,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10392,23 +9946,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10416,31 +9964,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10448,23 +9988,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10472,23 +10006,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10496,31 +10024,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10528,23 +10048,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10552,23 +10066,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10576,23 +10084,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10600,31 +10102,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10632,31 +10126,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10664,23 +10150,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10688,31 +10168,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10720,23 +10192,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10744,23 +10210,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10768,31 +10228,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10800,23 +10252,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10824,23 +10270,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10848,23 +10288,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10872,31 +10306,23 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10904,23 +10330,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10928,23 +10348,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
-
 
 $$
 
@@ -10952,14 +10366,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{1}{x} + \frac{1}{y} = \frac{x + y}{xy}
 
 $$
-
 
 
 
@@ -10987,42 +10398,33 @@ The decomposition method is a useful strategy for solving complex problems. In t
 First, let's identify the different components involved in the problem. We have an object with a mass of 5 kg, which is being pulled by two forces: F1 and F2. The object is also experiencing a frictional force of 10 N. We can represent this situation using the following equations:
 
 
-
 $$
 
 \sum F = ma
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
 
 
 Next, we can solve each subproblem separately. To find the acceleration of the object, we can use the first equation and substitute in the values for the forces and mass:
 
 
-
 $$
 
 \sum F = ma
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
-
 
 $$
 
@@ -11030,35 +10432,27 @@ F1 - F2 - 10 = 5 \times 2
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 10
 
 $$
 
-
-
 $$
 
 F1 - F2 = 20
 
 $$
-
 
 
 Now, we can use this value for acceleration to solve for the forces F1 and F2. We can substitute the value for acceleration into the second equation and solve for F1 and F2:
 
 
-
 $$
 
 F1 - F2 - 10 = 5a
 
 $$
-
-
 
 $$
 
@@ -11066,23 +10460,17 @@ F1 - F2 - 10 = 5 \times 2
 
 $$
 
-
-
 $$
 
 F1 - F2 - 10 = 10
 
 $$
 
-
-
 $$
 
 F1 - F2 = 20
 
 $$
-
-
 
 $$
 
@@ -11090,22 +10478,17 @@ F1 = F2 + 20
 
 $$
 
-
-
 $$
 
 F2 + 20 - F2 = 20
 
 $$
 
-
-
 $$
 
 F2 = 10
 
 $$
-
 
 
 Therefore, the forces F1 and F2 are 30 N and 10 N, respectively.
@@ -11123,7 +10506,6 @@ Problem reduction is a useful strategy for simplifying complex equations or expr
 The given equation is:
 
 
-
 $$
 
 \frac{L(M \setminus R)}{L \setminus (M \setminus R)} = 1
@@ -11131,9 +10513,7 @@ $$
 $$
 
 
-
 To simplify this equation, we will use the properties of sets and set operations. First, we will expand the left side of the equation using the definition of set difference:
-
 
 
 $$
@@ -11143,9 +10523,7 @@ $$
 $$
 
 
-
 Next, we will use the distributive property of set intersection over set difference:
-
 
 
 $$
@@ -11153,47 +10531,38 @@ $$
 \frac{L(M \cap R^c)}{(L \cap M) \setminus (L \cap R)} = 1
 
 $$
-
 
 
 Now, we can use the definition of set difference again to simplify the denominator:
 
 
-
 $$
 
 \frac{L(M \cap R^c)}{(L \cap M) \setminus (L \cap R)} = 1
 
 $$
 
-
-
 $$
 
 \frac{L(M \cap R^c)}{(L \cap M) \cap (L \cap R^c)^c} = 1
 
 $$
-
 
 
 Finally, we can use the definition of set complement to simplify the numerator:
 
 
-
 $$
 
 \frac{L(M \cap R^c)}{(L \cap M) \cap (L \cap R^c)^c} = 1
 
 $$
-
-
 
 $$
 
 \frac{L(M \cap R^c)}{(L \cap M) \cap (L \cap R)^c} = 1
 
 $$
-
 
 
 Since the numerator and denominator are equal, the equation is an identity. Therefore, the given equation is true for all values of L, M, and R.
@@ -11241,14 +10610,11 @@ To solve this problem, we can break it down into two subproblems: finding the di
 First, we can use the formula for distance traveled to find the distance traveled during the first 10 seconds:
 
 
-
 $$
 
 d = v_0t + \frac{1}{2}at^2
 
 $$
-
-
 
 $$
 
@@ -11256,15 +10622,11 @@ d = 60 \times 10 + \frac{1}{2} \times 5 \times 10^2
 
 $$
 
-
-
 $$
 
 d = 600 + 250
 
 $$
-
-
 
 $$
 
@@ -11273,9 +10635,7 @@ d = 850 km
 $$
 
 
-
 Next, we can use the formula for final velocity to find the final velocity after the acceleration:
-
 
 
 $$
@@ -11284,22 +10644,17 @@ v = v_0 + at
 
 $$
 
-
-
 $$
 
 v = 60 + 5 \times 10
 
 $$
 
-
-
 $$
 
 v = 110 km/h
 
 $$
-
 
 
 Therefore, the final velocity of the car is 110 km/h.
@@ -11325,7 +10680,6 @@ Let's take a look at an example problem from Problem Set 6 that can be solved us
 Simplify the following expression:
 
 
-
 $$
 
 \frac{3x^2 + 6x + 3}{x^2 + 2x}
@@ -11333,9 +10687,7 @@ $$
 $$
 
 
-
 To simplify this expression, we can use the distributive property to expand the numerator:
-
 
 
 $$
@@ -11345,9 +10697,7 @@ $$
 $$
 
 
-
 Next, we can factor out a common factor of 3 from both terms in the numerator:
-
 
 
 $$
@@ -11357,9 +10707,7 @@ $$
 $$
 
 
-
 Now, we can simplify the expressions in the numerator:
-
 
 
 $$
@@ -11369,9 +10717,7 @@ $$
 $$
 
 
-
 Finally, we can combine the fractions by finding a common denominator:
-
 
 
 $$
@@ -11379,7 +10725,6 @@ $$
 \frac{3(x + 1)^2}{x^2} + \frac{3(x + 1)^2}{2x} = \frac{6(x + 1)^2}{2x^2} + \frac{3(x + 1)^2}{2x^2} = \frac{9(x + 1)^2}{2x^2}
 
 $$
-
 
 
 Therefore, the simplified expression is $\frac{9(x + 1)^2}{2x^2}$. 
@@ -11415,13 +10760,11 @@ A car is traveling at a constant speed of 60 km/h. The car then accelerates at a
 To solve this problem, we can use the formula for final velocity:
 
 
-
 $$
 
 v = v_0 + at
 
 $$
-
 
 
 Where:
@@ -11439,21 +10782,17 @@ Where:
 We are given that the initial velocity is 60 km/h, the acceleration is 5 km/h^2, and the time is 10 seconds. Plugging these values into the formula, we get:
 
 
-
 $$
 
 v = 60 + 5 \times 10
 
 $$
 
-
-
 $$
 
 v = 110 km/h
 
 $$
-
 
 
 Therefore, the final velocity of the car is 110 km/h.
@@ -11471,13 +10810,11 @@ A ball is thrown vertically upward with an initial velocity of 20 m/s. What is t
 To solve this problem, we can use the formula for maximum height:
 
 
-
 $$
 
 h = \frac{v_0^2}{2g}
 
 $$
-
 
 
 Where:
@@ -11493,21 +10830,17 @@ Where:
 We are given that the initial velocity is 20 m/s. Plugging this value into the formula, we get:
 
 
-
 $$
 
 h = \frac{20^2}{2 \times 9.8}
 
 $$
 
-
-
 $$
 
 h = 20.41 m
 
 $$
-
 
 
 Therefore, the maximum height reached by the ball is 20.41 m.
@@ -11525,13 +10858,11 @@ A rocket is launched vertically upward with an initial velocity of 100 m/s. What
 To solve this problem, we can use the same formula as in Problem 2:
 
 
-
 $$
 
 h = \frac{v_0^2}{2g}
 
 $$
-
 
 
 Where:
@@ -11547,21 +10878,17 @@ Where:
 We are given that the initial velocity is 100 m/s. Plugging this value into the formula, we get:
 
 
-
 $$
 
 h = \frac{100^2}{2 \times 9.8}
 
 $$
 
-
-
 $$
 
 h = 510.2 m
 
 $$
-
 
 
 Therefore, the maximum height reached by the rocket is 510.2 m.
@@ -11579,13 +10906,11 @@ A ball is thrown horizontally with an initial velocity of 10 m/s. What is the ho
 To solve this problem, we can use the formula for horizontal distance:
 
 
-
 $$
 
 d = v_0t
 
 $$
-
 
 
 Where:
@@ -11601,21 +10926,17 @@ Where:
 We are given that the initial velocity is 10 m/s and the time is 2 seconds. Plugging these values into the formula, we get:
 
 
-
 $$
 
 d = 10 \times 2
 
 $$
 
-
-
 $$
 
 d = 20 m
 
 $$
-
 
 
 Therefore, the horizontal distance traveled by the ball in 2 seconds is 20 m.
@@ -11633,13 +10954,11 @@ A car is traveling at a constant speed of 50 km/h. The car then decelerates at a
 To solve this problem, we can use the formula for final velocity:
 
 
-
 $$
 
 v = v_0 + at
 
 $$
-
 
 
 Where:
@@ -11657,21 +10976,17 @@ Where:
 We are given that the initial velocity is 50 km/h, the acceleration is -10 km/h^2 (negative because it is decelerating), and the time is 5 seconds. Plugging these values into the formula, we get:
 
 
-
 $$
 
 v = 50 + (-10) \times 5
 
 $$
 
-
-
 $$
 
 v = 0 km/h
 
 $$
-
 
 
 Therefore, the final velocity of the car is 0 km/h.
@@ -11703,13 +11018,11 @@ A mass of 5 kg is attached to a spring with a spring constant of 10 N/m. The mas
 To solve this problem, we can use the formula for the amplitude of a simple harmonic motion:
 
 
-
 $$
 
 A = \frac{F}{k}
 
 $$
-
 
 
 Where:
@@ -11725,21 +11038,17 @@ Where:
 We are given that the mass is 5 kg, the spring constant is 10 N/m, and the applied force is 20 N. Plugging these values into the formula, we get:
 
 
-
 $$
 
 A = \frac{20}{10}
 
 $$
 
-
-
 $$
 
 A = 2 m
 
 $$
-
 
 
 Therefore, the amplitude of the oscillation is 2 m.
@@ -11757,13 +11066,11 @@ A pendulum with a length of 1 m is released from an angle of 30 degrees. What is
 To solve this problem, we can use the formula for the period of a simple pendulum:
 
 
-
 $$
 
 T = 2\pi\sqrt{\frac{L}{g}}
 
 $$
-
 
 
 Where:
@@ -11779,21 +11086,17 @@ Where:
 We are given that the length of the pendulum is 1 m. Plugging this value into the formula, we get:
 
 
-
 $$
 
 T = 2\pi\sqrt{\frac{1}{9.8}}
 
 $$
 
-
-
 $$
 
 T = 2.01 s
 
 $$
-
 
 
 Therefore, the period of the pendulum is 2.01 s.
@@ -11811,13 +11114,11 @@ A car is traveling at a constant speed of 20 m/s. The car then decelerates at a 
 To solve this problem, we can use the formula for distance traveled:
 
 
-
 $$
 
 d = v_0t + \frac{1}{2}at^2
 
 $$
-
 
 
 Where:
@@ -11835,14 +11136,11 @@ Where:
 We are given that the initial velocity is 20 m/s, the acceleration is -5 m/s^2, and the time is 5 seconds. Plugging these values into the formula, we get:
 
 
-
 $$
 
 d = 20 \times 5 + \frac{1}{2}(-5)(5)^2
 
 $$
-
-
 
 $$
 
@@ -11850,14 +11148,11 @@ d = 100 - 62.5
 
 $$
 
-
-
 $$
 
 d = 37.5 m
 
 $$
-
 
 
 Therefore, the distance traveled by the car during this time is 37.5 m.
@@ -11961,13 +11256,11 @@ A mass of 5 kg is attached to a spring with a spring constant of 10 N/m. The mas
 To solve this problem, we used the formula for the amplitude of a simple harmonic motion:
 
 
-
 $$
 
 A = \frac{F}{k}
 
 $$
-
 
 
 Where:
@@ -11983,21 +11276,17 @@ Where:
 We were given that the mass is 5 kg, the spring constant is 10 N/m, and the applied force is 20 N. Plugging these values into the formula, we got:
 
 
-
 $$
 
 A = \frac{20}{10}
 
 $$
 
-
-
 $$
 
 A = 2 m
 
 $$
-
 
 
 Therefore, the amplitude of the oscillation is 2 m.
@@ -12015,13 +11304,11 @@ A pendulum with a length of 1 m is released from an angle of 30 degrees. What is
 To solve this problem, we used the formula for the period of a simple pendulum:
 
 
-
 $$
 
 T = 2\pi\sqrt{\frac{L}{g}}
 
 $$
-
 
 
 Where:
@@ -12037,21 +11324,17 @@ Where:
 We were given that the length of the pendulum is 1 m. Plugging this value into the formula, we got:
 
 
-
 $$
 
 T = 2\pi\sqrt{\frac{1}{9.8}}
 
 $$
 
-
-
 $$
 
 T = 2.01 s
 
 $$
-
 
 
 Therefore, the period of the pendulum is 2.01 s.
@@ -12069,13 +11352,11 @@ A car is traveling at a constant speed of 20 m/s. The car then decelerates at a 
 To solve this problem, we used the formula for distance traveled:
 
 
-
 $$
 
 d = v_0t + \frac{1}{2}at^2
 
 $$
-
 
 
 Where:
@@ -12093,14 +11374,11 @@ Where:
 We were given that the car is traveling at a constant speed of 20 m/s and decelerates at a rate of 5 m/s^2 for 5 seconds. Plugging these values into the formula, we got:
 
 
-
 $$
 
 d = (20)(5) + \frac{1}{2}(-5)(5)^2
 
 $$
-
-
 
 $$
 
@@ -12108,14 +11386,11 @@ d = 100 - 62.5
 
 $$
 
-
-
 $$
 
 d = 37.5 m
 
 $$
-
 
 
 Therefore, the distance traveled by the car during this time is 37.5 m.
@@ -12683,33 +11958,25 @@ Unknown variables:
 Using the kinematic equation for horizontal displacement, we can write:
 
 
-
 $$d = u*t$$
-
 
 
 At the point of impact, the vertical displacement of the ball will be equal to the height of the cliff. Therefore, we can write:
 
 
-
 $$h = (1/2)*g*t^2$$
-
 
 
 Solving for t, we get:
 
 
-
 $$t = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2*20}{9.8}} = 2.02 \text{ seconds}$$
-
 
 
 Substituting this value of t in the first equation, we get:
 
 
-
 $$d = 15*2.02 = 30.3 \text{ meters}$$
-
 
 
 Therefore, the ball travels a horizontal distance of 30.3 meters before hitting the ground.
@@ -12747,33 +12014,25 @@ Unknown variables:
 Using the equation for potential energy stored in a spring, we can write:
 
 
-
 $$PE = (1/2)*k*x^2 = (1/2)*100*0.2^2 = 2 \text{ J}$$
-
 
 
 This potential energy is converted into kinetic energy when the block is released. Therefore, we can write:
 
 
-
 $$KE = (1/2)*m*v^2$$
-
 
 
 Equating PE and KE, we get:
 
 
-
 $$2 = (1/2)*2*v^2$$
-
 
 
 Solving for v, we get:
 
 
-
 $$v = \sqrt{2} \approx 1.41 \text{ m/s}$$
-
 
 
 Therefore, the maximum speed of the block is approximately 1.41 m/s.
@@ -13223,9 +12482,7 @@ Unknown variable: period of oscillation (T)
 The period of oscillation can be calculated using the equation:
 
 
-
 $$T = 2\pi\sqrt{\frac{m}{k}}$$
-
 
 
 ##### Strategy 3: Draw diagrams and visualize the problem
@@ -13263,33 +12520,25 @@ After solving the problem, we should check our answer and units to ensure they m
 Using the equation for frequency of oscillation:
 
 
-
 $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$
-
 
 
 Substituting in the known values:
 
 
-
 $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}} = \frac{1}{2\pi}\sqrt{\frac{10}{2}} = \frac{1}{2\pi}\sqrt{5} \approx 0.79 Hz$$
-
 
 
 To find the period, we can use the equation:
 
 
-
 $$T = \frac{1}{f}$$
-
 
 
 Substituting in the calculated frequency:
 
 
-
 $$T = \frac{1}{f} = \frac{1}{0.79} \approx 1.27 s$$
-
 
 
 Therefore, the period of oscillation is approximately 1.27 seconds.
@@ -13323,9 +12572,7 @@ Unknown variable: deceleration (a)
 We can use the equation for average acceleration:
 
 
-
 $$a = \frac{\Delta v}{\Delta t}$$
-
 
 
 ##### Strategy 3: Draw diagrams and visualize the problem
@@ -13363,21 +12610,15 @@ After solving the problem, we should check our answer and units to ensure they m
 To find the change in velocity, we can convert the initial and final velocities to meters per second:
 
 
-
 $$v_i = 60 km/h = \frac{60 \times 1000}{3600} = \frac{500}{3} m/s$$
 
-
-
 $$v_f = 0 km/h = 0 m/s$$
-
 
 
 Substituting into the equation for average acceleration:
 
 
-
 $$a = \frac{\Delta v}{\Delta t} = \frac{0 - \frac{500}{3}}{5} = -\frac{100}{3} \approx -33.33 m/s^2$$
-
 
 
 Therefore, the deceleration of the car is approximately 33.33 meters per second squared.
@@ -13425,9 +12666,7 @@ Unknown variable: period of oscillation (T)
 The period of oscillation can be calculated using the equation:
 
 
-
 $$T = 2\pi\sqrt{\frac{m}{k}}$$
-
 
 
 ##### Strategy 3: Draw diagrams and visualize the problem
@@ -13485,9 +12724,7 @@ Unknown variable: acceleration (a)
 We can use the equation for acceleration:
 
 
-
 $$a = \frac{\Delta v}{\Delta t}$$
-
 
 
 ##### Strategy 3: Draw diagrams and visualize the problem
@@ -13545,9 +12782,7 @@ Unknown variable: maximum height (h)
 We can use the equation for maximum height:
 
 
-
 $$h = \frac{v_0^2}{2g}$$
-
 
 
 ##### Strategy 3: Draw diagrams and visualize the problem
@@ -13687,9 +12922,7 @@ Unknown:
 Next, we can use the appropriate equation for simple harmonic motion to solve for the position at time t:
 
 
-
 $$x = x_0 \cos(\omega t)$$
-
 
 
 Where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency.
@@ -13699,17 +12932,13 @@ Where $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency.
 Plugging in the known values, we get:
 
 
-
 $$x = 0.5 \cos(\sqrt{\frac{10}{2}} \cdot 2)$$
-
 
 
 Solving for x, we get:
 
 
-
 $$x = 0.5 \cos(2\sqrt{5}) \approx -0.309 m$$
-
 
 
 Therefore, the position of the mass at time t = 2 seconds is approximately -0.309 m.
@@ -13751,9 +12980,7 @@ Unknown:
 Next, we can use the equation for power to solve for the unknown variable:
 
 
-
 $$P = Fv$$
-
 
 
 Where F is the force required to maintain the speed.
@@ -13763,9 +12990,7 @@ Where F is the force required to maintain the speed.
 To find F, we can use the equation for frictional force:
 
 
-
 $$F = \mu mg$$
-
 
 
 Where g is the acceleration due to gravity.
@@ -13775,17 +13000,13 @@ Where g is the acceleration due to gravity.
 Plugging in the known values, we get:
 
 
-
 $$F = 0.2 \cdot 1000 \cdot 9.8 = 1960 N$$
-
 
 
 Therefore, the power required to maintain the speed is:
 
 
-
 $$P = 1960 \cdot 20 = 39200 W$$
-
 
 
 #### Problem 3:
@@ -13821,9 +13042,7 @@ Unknown:
 Next, we can use the equation for the period of a simple pendulum to solve for the unknown variable:
 
 
-
 $$T = 2\pi \sqrt{\frac{l}{g}}$$
-
 
 
 Where g is the acceleration due to gravity.
@@ -13833,9 +13052,7 @@ Where g is the acceleration due to gravity.
 Plugging in the known values, we get:
 
 
-
 $$T = 2\pi \sqrt{\frac{1}{9.8}} \approx 2.01 s$$
-
 
 
 Therefore, the period of the pendulum is approximately 2.01 seconds.
@@ -16099,17 +15316,14 @@ With the knowledge gained from this chapter, readers will be equipped to tackle 
 #### Exercise 1
 
 Consider a nonlinear system described by the following state-space equations:
-
 $$
 
 \dot{x} = Ax + Bu + f(x)
 
 $$
-
 $$
 
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input vector, and $y$ is the output vector. Show that the system is globally asymptotically stable if $A$ is Hurwitz and $f(x)$ is globally Lipschitz.
@@ -16121,15 +15335,11 @@ where $x$ is the state vector, $u$ is the input vector, and $y$ is the output ve
 Design an optimal controller for a linear time-invariant system with the following state-space equations:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input vector, and $y$ is the output vector. Use the quadratic cost function $J = \int_0^\infty (x^TQx + u^TRu)dt$, where $Q$ and $R$ are positive definite matrices.
@@ -16141,15 +15351,11 @@ where $x$ is the state vector, $u$ is the input vector, and $y$ is the output ve
 Consider a system with the following state-space equations:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input vector, and $y$ is the output vector. Design an adaptive controller to track a desired trajectory $x_d(t)$ using the Lyapunov-based approach.
@@ -16161,21 +15367,15 @@ where $x$ is the state vector, $u$ is the input vector, and $y$ is the output ve
 A quadrotor drone is described by the following nonlinear equations of motion:
 
 $$
-
 \ddot{x} = g\sin\theta
-
 $$
 
 $$
-
 \ddot{y} = -g\cos\theta\sin\phi
-
 $$
 
 $$
-
 \ddot{z} = -g\cos\theta\cos\phi + \frac{u}{m}
-
 $$
 
 where $x$, $y$, and $z$ are the position coordinates, $\theta$ and $\phi$ are the pitch and roll angles, $u$ is the thrust force, and $m$ is the mass of the drone. Design a nonlinear controller to stabilize the drone at a desired position and orientation.
@@ -16187,15 +15387,11 @@ where $x$, $y$, and $z$ are the position coordinates, $\theta$ and $\phi$ are th
 Consider a system with the following state-space equations:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the input vector, and $y$ is the output vector. Design a robust controller to reject disturbances and uncertainties in the system using the H-infinity control approach.
@@ -16339,9 +15535,7 @@ To solidify our understanding of the concepts covered in this textbook, let's wo
 
 
 $$
-
 \frac{d^2y}{dt^2} + 2\frac{dy}{dt} + 2y = u
-
 $$
 
 
@@ -16355,7 +15549,6 @@ where $u$ is the input and $y$ is the output. Determine the transfer function of
 
 
 $$
-
 \dot{x} = \begin{bmatrix}
 
 0 & 1 \\
@@ -16369,19 +15562,16 @@ $$
 1
 
 \end{bmatrix}u
-
 $$
 
 
 
 $$
-
 y = \begin{bmatrix}
 
 1 & 0
 
 \end{bmatrix}x
-
 $$
 
 
@@ -16407,9 +15597,7 @@ Determine the transfer function of this system.
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 2}
-
 $$
 
 
@@ -16423,9 +15611,7 @@ Determine the stability of this system using the Routh-Hurwitz stability criteri
 
 
 $$
-
 G(s) = \frac{K}{s(s+1)(s+2)}
-
 $$
 
 
@@ -16439,9 +15625,7 @@ Determine the value of $K$ that will result in a critically damped response.
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 3s + 2}
-
 $$
 
 
@@ -16455,9 +15639,7 @@ Design a proportional controller to achieve a settling time of 2 seconds and a p
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 4s + 5}
-
 $$
 
 
@@ -16471,9 +15653,7 @@ Design a lead compensator to improve the system's steady-state error by a factor
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 2}
-
 $$
 
 
@@ -16487,9 +15667,7 @@ Design a PID controller to achieve a settling time of 1 second and a percent ove
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 3s + 2}
-
 $$
 
 
@@ -16503,9 +15681,7 @@ Design a lag compensator to improve the system's steady-state error by a factor 
 
 
 $$
-
 G(s) = \frac{1}{s^2 + 2s + 2}
-
 $$
 
 
@@ -17127,9 +16303,7 @@ Let's consider a simple example of a mass-spring-damper system, which we have st
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F
-
 $$
 
 
@@ -17681,9 +16855,7 @@ The first equation we will use is for the angular acceleration of the pulley, gi
 
 
 $$
-
 \alpha = \frac{a}{r},
-
 $$
 
 
@@ -17697,9 +16869,7 @@ Next, we can consider the net torque on the pulley, which is given by:
 
 
 $$
-
 \tau_{\mathrm{net}} = \left(T_1 - T_2\right)r - \tau_{\mathrm{friction}} = I\alpha,
-
 $$
 
 
@@ -17715,9 +16885,7 @@ Combining these equations with Newton's second law for the hanging masses, we ca
 Acceleration:
 
 $$
-
 a = \frac{g\left(m_1 - m_2\right) - \frac{\tau_{\mathrm{friction}}}{r}}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -17725,9 +16893,7 @@ $$
 Tension in string segment nearest $m_1$:
 
 $$
-
 T_1 = \frac{m_1g\left(2m_2 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -17735,9 +16901,7 @@ $$
 Tension in string segment nearest $m_2$:
 
 $$
-
 T_2 = \frac{m_2g\left(2m_1 + \frac{I}{r^2} + \frac{\tau_{\mathrm{friction}}}{rg}\right)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -17785,9 +16949,7 @@ Next, we can consider the net torque on the pulley, which is given by:
 
 
 $$
-
 \tau_{\mathrm{net}} = \left(T_1 - T_2\right)r - \tau_{\mathrm{friction}} = I\alpha,
-
 $$
 
 
@@ -17803,9 +16965,7 @@ Combining these equations with Newton's second law for the masses, we can solve 
 Acceleration:
 
 $$
-
 a = \frac{g\left(m_1 - m_2\right)}{m_1 + m_2 + \frac{I}{r^2}},
-
 $$
 
 
@@ -17813,17 +16973,13 @@ $$
 Tension:
 
 $$
-
 T_1 = \frac{m_1\left(m_1 + m_2\right)g}{m_1 + m_2 + \frac{I}{r^2}},
-
 $$
 
 
 
 $$
-
 T_2 = \frac{m_2\left(m_1 + m_2\right)g}{m_1 + m_2 + \frac{I}{r^2}}.
-
 $$
 
 
@@ -17845,9 +17001,7 @@ Next, we can consider the net torque on each pulley, which is given by:
 
 
 $$
-
 \tau_{\mathrm{net}} = \left(T_1 - T_2\right)r - \tau_{\mathrm{friction}} = I\alpha,
-
 $$
 
 
@@ -17895,7 +17049,6 @@ As mentioned in the previous section, the angular velocity vector <math>\boldsym
 
 
 $$
-
 W =
 
 \begin{pmatrix}
@@ -17907,7 +17060,6 @@ W =
 -\omega_y & \omega_x & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -17917,9 +17069,7 @@ This tensor can also be expressed as the cross product of the angular velocity v
 
 
 $$
-
 W\mathbf{v} = \boldsymbol\omega \times \mathbf{v}
-
 $$
 
 
@@ -17933,7 +17083,6 @@ To better understand the angular velocity tensor, let us consider a frame with m
 
 
 $$
-
 \frac{dA}{dt} = \begin{bmatrix}
 
 \dfrac{d\mathbf{e}_1}{dt} &
@@ -17959,7 +17108,6 @@ W \mathbf{e}_2 &
 W \mathbf{e}_3
 
 \end{bmatrix} = WA
-
 $$
 
 
@@ -17969,9 +17117,7 @@ This equation holds even if the frame does not rotate uniformly. Therefore, the 
 
 
 $$
-
 W = \frac{dA}{dt}A^{-1}
-
 $$
 
 
@@ -17993,13 +17139,11 @@ In this textbook, we will focus on the table of spherical harmonics for <math>\e
 
 
 $$
-
 Y_{7}^{-7}(\theta,\varphi) = {3\over 64}\sqrt{ 715\over 2\pi}\cdot e^{-7i\varphi}\cdot\sin^{7}\theta\\
 
 Y_{7}^{-6}(\theta,\varphi) = {3\over 64}\sqrt{5005\over \pi}\cdot e^{-6i\varphi}\cdot\sin^{6}\theta\cdot\cos\theta\\
 
 Y_{7}^{-5}(\theta,\varphi) = {3\over 64}\sqrt{3003\over 2\pi}\cdot e^{-5i\varphi}\cdot\sin^{5}\theta\cdot\cos^{2}\theta
-
 $$
 
 
@@ -18043,9 +17187,7 @@ As we have seen in the previous section, the angular velocity tensor "W" represe
 
 
 $$
-
 W\mathbf{v} = \boldsymbol\omega \times \mathbf{v}
-
 $$
 
 
@@ -18059,7 +17201,6 @@ To calculate the angular velocity tensor, we will consider a frame with moving o
 
 
 $$
-
 \frac{dA}{dt} = \begin{bmatrix}
 
 \dfrac{d\mathbf{e}_1}{dt} &
@@ -18085,7 +17226,6 @@ W \mathbf{e}_2 &
 W \mathbf{e}_3
 
 \end{bmatrix} = WA
-
 $$
 
 
@@ -18095,9 +17235,7 @@ This equation holds even if the frame does not rotate uniformly. Therefore, the 
 
 
 $$
-
 W = \frac{dA}{dt}A^{-1}
-
 $$
 
 
@@ -18107,9 +17245,7 @@ This equation can also be written in terms of the angular velocity vector <math>
 
 
 $$
-
 W = \boldsymbol\omega \times A
-
 $$
 
 
@@ -18123,7 +17259,6 @@ Let us consider a frame with moving orthonormal coordinate vectors <math>\mathbf
 
 
 $$
-
 W = \frac{dA}{dt}A^{-1} = \begin{bmatrix}
 
 0 & -\omega_z & \omega_y \\
@@ -18137,7 +17272,6 @@ W = \frac{dA}{dt}A^{-1} = \begin{bmatrix}
 \mathbf{e}_1(t) & \mathbf{e}_2(t) & \mathbf{e}_3(t)
 
 \end{bmatrix}^{-1}
-
 $$
 
 
@@ -18147,7 +17281,6 @@ This results in the following expression for the angular velocity tensor:
 
 
 $$
-
 W = \begin{bmatrix}
 
 0 & -\omega_z & \omega_y \\
@@ -18165,7 +17298,6 @@ W = \begin{bmatrix}
 \mathbf{e}_3(t) \cdot \mathbf{e}_1(t) & \mathbf{e}_3(t) \cdot \mathbf{e}_2(t) & \mathbf{e}_3(t) \cdot \mathbf{e}_3(t) \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -18175,7 +17307,6 @@ This expression can be simplified using the properties of orthonormal vectors, r
 
 
 $$
-
 W = \begin{bmatrix}
 
 0 & -\omega_z & \omega_y \\
@@ -18185,7 +17316,6 @@ W = \begin{bmatrix}
 -\omega_y & \omega_x & 0 \\
 
 \end{bmatrix}
-
 $$
 
 
@@ -18623,9 +17753,7 @@ In this section, we will explore the concept of impulse, which is the change in 
 
 
 $$
-
 \vec{J}=\vec{p_2} - \vec{p_1}.
-
 $$
 
 
@@ -18639,9 +17767,7 @@ The relationship between impulse and momentum is closely related to Newton’s s
 
 
 $$
-
 \vec{F}=\frac{\vec{p_2} - \vec{p_1}}{\Delta t}.
-
 $$
 
 
@@ -18651,9 +17777,7 @@ This means that the impulse delivered by a steady force `F` acting for a time in
 
 
 $$
-
 \vec{J}=\vec{F} \Delta t.
-
 $$
 
 
@@ -18663,9 +17787,7 @@ If the force acting on an object is varying, the impulse can be calculated by ta
 
 
 $$
-
 \vec{J} = \int \vec{F} \,\mathrm{d}t.
-
 $$
 
 
@@ -18705,9 +17827,7 @@ In this section, we will explore the concept of impulse, which is the change in 
 
 
 $$
-
 \vec{J}=\vec{p_2} - \vec{p_1}.
-
 $$
 
 
@@ -18721,9 +17841,7 @@ The relationship between impulse and momentum is closely related to Newton’s s
 
 
 $$
-
 \vec{F}=\frac{\vec{p_2} - \vec{p_1}}{\Delta t}.
-
 $$
 
 
@@ -18733,9 +17851,7 @@ This means that the impulse delivered by a steady force `F` acting for a time in
 
 
 $$
-
 \vec{J}=\vec{F} \Delta t.
-
 $$
 
 
@@ -18745,9 +17861,7 @@ If the force acting on an object is varying, the impulse can be calculated by ta
 
 
 $$
-
 \vec{J} = \int \vec{F} \,\mathrm{d}t.
-
 $$
 
 
@@ -18791,9 +17905,7 @@ In this section, we will explore the concept of impulse, which is the change in 
 
 
 $$
-
 \vec{J}=\vec{p_2} - \vec{p_1}.
-
 $$
 
 
@@ -18807,9 +17919,7 @@ The relationship between impulse and momentum is closely related to Newton’s s
 
 
 $$
-
 \vec{F}=\frac{\vec{p_2} - \vec{p_1}}{\Delta t}.
-
 $$
 
 
@@ -18819,9 +17929,7 @@ This means that the impulse delivered by a steady force `F` acting for a time in
 
 
 $$
-
 \vec{J}=\vec{F} \Delta t.
-
 $$
 
 
@@ -18831,9 +17939,7 @@ If the force acting on an object is varying, the impulse can be calculated by ta
 
 
 $$
-
 \vec{J} = \int \vec{F} \,\mathrm{d}t.
-
 $$
 
 
@@ -19117,9 +18223,7 @@ To begin, let's define our objective function as the distance between the two ma
 
 
 $$
-
 \min_{x,y} d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
-
 $$
 
 
@@ -19133,9 +18237,7 @@ Next, we need to incorporate the constraints into our objective function. The fi
 
 
 $$
-
 (x_1 - x_2)^2 + (y_1 - y_2)^2 = l^2
-
 $$
 
 
@@ -19149,9 +18251,7 @@ The second constraint is that the two masses must not collide, which can be repr
 
 
 $$
-
 (x_1 - x_2)^2 + (y_1 - y_2)^2 \neq 0
-
 $$
 
 
@@ -19161,9 +18261,7 @@ To incorporate these constraints into our objective function, we introduce two L
 
 
 $$
-
 \min_{x,y} d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} + \lambda_1((x_1 - x_2)^2 + (y_1 - y_2)^2 - l^2) + \lambda_2((x_1 - x_2)^2 + (y_1 - y_2)^2)
-
 $$
 
 
@@ -19733,9 +18831,7 @@ As we learned in the previous section, torque is the rotational equivalent of fo
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -19749,9 +18845,7 @@ Similarly, angular acceleration is the rotational equivalent of linear accelerat
 
 
 $$
-
 \alpha = \frac{d\omega}{dt}
-
 $$
 
 
@@ -19769,9 +18863,7 @@ To derive the equation for torque, we must first understand the relationship bet
 
 
 $$
-
 \tau_{net} = I \times \alpha
-
 $$
 
 
@@ -19803,9 +18895,7 @@ In some cases, the bearing friction in a rotating object may be negligible compa
 Acceleration:
 
 $$
-
 a = \frac{g(m_1 - m_2)}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -19813,9 +18903,7 @@ $$
 Tension in string segment nearest $m_1$:
 
 $$
-
 T_1 = \frac{m_1g(2m_2 + \frac{I}{r^2})}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -19823,9 +18911,7 @@ $$
 Tension in string segment nearest $m_2$:
 
 $$
-
 T_2 = \frac{m_2g(2m_1 + \frac{I}{r^2})}{m_1 + m_2 + \frac{I}{r^2}}
-
 $$
 
 
@@ -19897,9 +18983,7 @@ To derive the equation for torque, we will start with the definition of angular 
 
 
 $$
-
 \frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \frac{\mathrm{d}\mathbf{p}}{\mathrm{d}t} + \frac{\mathrm{d}\mathbf{r}}{\mathrm{d}t} \times \mathbf{p}
-
 $$
 
 
@@ -19909,9 +18993,7 @@ Using the definition of force, $\mathbf{F} = \frac{\mathrm{d}\mathbf{p}}{\mathrm
 
 
 $$
-
 \frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \mathbf{F} + \mathbf{v} \times \mathbf{p}
-
 $$
 
 
@@ -19921,9 +19003,7 @@ Since the cross product of momentum, $\mathbf{p}$, with its associated velocity,
 
 
 $$
-
 \frac{\mathrm{d}\mathbf{L}}{\mathrm{d}t} = \mathbf{r} \times \mathbf{F}
-
 $$
 
 
@@ -20153,7 +19233,6 @@ To fully understand the work-energy principle, we will first define the concept 
 $$W = \int_{x_1}^{x_2} F(x) dx$$
 
 
-
 where $W$ is the work done, $F(x)$ is the force applied, and $x_1$ and $x_2$ are the initial and final positions of the object, respectively.
 
 
@@ -20173,49 +19252,37 @@ Now, let's consider three cases to better understand the work-energy principle.
 In this case, we have a constant force $F$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F dx = F(x_2 - x_1)$$
-
 
 
 Since the force is constant, we can express this as:
 
 
-
 $$W = F \Delta x$$
-
 
 
 where $\Delta x$ is the displacement of the object. By Newton's Second Law, we know that $F = ma$, so we can rewrite the equation as:
 
 
-
 $$W = ma \Delta x$$
-
 
 
 Using the definition of acceleration $a = \frac{\Delta v}{\Delta t}$, we can further simplify this to:
 
 
-
 $$W = m \frac{\Delta v}{\Delta t} \Delta x$$
-
 
 
 Recall that the definition of average velocity is $v_{avg} = \frac{\Delta x}{\Delta t}$, so we can rewrite the equation as:
 
 
-
 $$W = m v_{avg} \Delta v$$
-
 
 
 Finally, we can use the definition of kinetic energy $K = \frac{1}{2}mv^2$ to express this as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2) = \Delta K$$
-
 
 
 where $v_2$ is the final velocity of the object. This shows that the work done by a constant force is equal to the change in kinetic energy of the object.
@@ -20229,25 +19296,19 @@ where $v_2$ is the final velocity of the object. This shows that the work done b
 In this case, we have a variable force $F(x)$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Using the definition of acceleration $a = \frac{dv}{dt}$, we can rewrite this as:
 
 
-
 $$W = \int_{v_1}^{v_2} m \frac{dv}{dt} dx = \int_{v_1}^{v_2} m v dv$$
-
 
 
 Recall that the definition of kinetic energy is $K = \frac{1}{2}mv^2$, so we can express this as:
 
 
-
 $$W = \int_{v_1}^{v_2} \frac{dK}{dv} dv = K(v_2) - K(v_1) = \Delta K$$
-
 
 
 This shows that the work done by a variable force is also equal to the change in kinetic energy of the object.
@@ -20261,25 +19322,19 @@ This shows that the work done by a variable force is also equal to the change in
 In this case, we have multiple forces acting on an object with mass $m$ and initial velocity $v_1$. The work done by these forces can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} \sum F(x) dx$$
-
 
 
 Using the definition of acceleration $a = \frac{dv}{dt}$, we can rewrite this as:
 
 
-
 $$W = \int_{v_1}^{v_2} m \frac{dv}{dt} dx = \int_{v_1}^{v_2} m v dv$$
-
 
 
 Recall that the definition of kinetic energy is $K = \frac{1}{2}mv^2$, so we can express this as:
 
 
-
 $$W = \int_{v_1}^{v_2} \frac{dK}{dv} dv = K(v_2) - K(v_1) = \Delta K$$
-
 
 
 This shows that the work done by multiple forces is also equal to the change in kinetic energy of the object.
@@ -20315,9 +19370,7 @@ The work-energy principle states that the work done on an object is equal to the
 To fully understand the work-energy principle, we will first define the concept of work. Work is defined as the product of the force applied to an object and the displacement of the object in the direction of the force. Mathematically, we can express this as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 where $W$ is the work done, $F(x)$ is the force applied, and $x_1$ and $x_2$ are the initial and final positions of the object, respectively.
@@ -20339,57 +19392,43 @@ Now, let's consider three cases to better understand the work-energy principle.
 In this case, we have a constant force $F$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F dx = F(x_2 - x_1)$$
-
 
 
 Since the force is constant, we can express this as:
 
 
-
 $$W = F \Delta x$$
-
 
 
 where $\Delta x$ is the displacement of the object. By Newton's Second Law, we know that $F = ma$, so we can rewrite the equation as:
 
 
-
 $$W = ma \Delta x$$
-
 
 
 Using the definition of acceleration, $a = \frac{\Delta v}{\Delta t}$, we can further simplify the equation to:
 
 
-
 $$W = m \frac{\Delta v}{\Delta t} \Delta x$$
-
 
 
 Since $\Delta v = v_2 - v_1$ and $\Delta x = x_2 - x_1$, we can rewrite the equation as:
 
 
-
 $$W = m \frac{v_2 - v_1}{x_2 - x_1} \Delta x$$
-
 
 
 Recall that the average velocity, $\bar{v}$, is equal to $\frac{\Delta x}{\Delta t}$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = m \bar{v} (v_2 - v_1)$$
-
 
 
 Using the definition of kinetic energy, $K = \frac{1}{2}mv^2$, we can rewrite the equation as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2) = \Delta K$$
-
 
 
 This shows that the work done by a constant force is equal to the change in kinetic energy of the object. This is the essence of the work-energy principle.
@@ -20403,49 +19442,37 @@ This shows that the work done by a constant force is equal to the change in kine
 In this case, we have a variable force $F(x)$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Since the force is variable, we cannot simply use the equation $W = F \Delta x$. Instead, we must use the definition of work and integrate the force over the displacement of the object. This results in the following equation:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Using the definition of acceleration, $a = \frac{\Delta v}{\Delta t}$, we can rewrite the equation as:
 
 
-
 $$W = m \frac{\Delta v}{\Delta t} \Delta x$$
-
 
 
 Since $\Delta v = v_2 - v_1$ and $\Delta x = x_2 - x_1$, we can rewrite the equation as:
 
 
-
 $$W = m \frac{v_2 - v_1}{x_2 - x_1} \Delta x$$
-
 
 
 Recall that the average velocity, $\bar{v}$, is equal to $\frac{\Delta x}{\Delta t}$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = m \bar{v} (v_2 - v_1)$$
-
 
 
 Using the definition of kinetic energy, $K = \frac{1}{2}mv^2$, we can rewrite the equation as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2) = \Delta K$$
-
 
 
 This shows that the work done by a variable force is also equal to the change in kinetic energy of the object. This is consistent with the work-energy principle.
@@ -20459,17 +19486,13 @@ This shows that the work done by a variable force is also equal to the change in
 In this case, we have multiple forces acting on an object with mass $m$ and initial velocity $v_1$. The work done by these forces can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Since there are multiple forces, we must sum up the work done by each individual force. This results in the following equation:
 
 
-
 $$W = \int_{x_1}^{x_2} \sum_{i} F_i(x) dx$$
-
 
 
 Using the same process as in the previous cases, we can show that the work done by multiple forces is also equal to the change in kinetic energy of the object. This further reinforces the work-energy principle.
@@ -20505,9 +19528,7 @@ The work-energy principle states that the work done on an object is equal to the
 To fully understand the work-energy principle, we will first define the concept of work. Work is defined as the product of the force applied to an object and the displacement of the object in the direction of the force. Mathematically, we can express this as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 where $W$ is the work done, $F(x)$ is the force applied, and $x_1$ and $x_2$ are the initial and final positions of the object, respectively.
@@ -20529,73 +19550,55 @@ Now, let's consider three cases to better understand the work-energy principle.
 In this case, we have a constant force $F$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F dx = F(x_2 - x_1)$$
-
 
 
 Since the force is constant, we can express this as:
 
 
-
 $$W = F \Delta x$$
-
 
 
 where $\Delta x$ is the displacement of the object. By Newton's Second Law, we know that $F = ma$, so we can rewrite the equation as:
 
 
-
 $$W = ma \Delta x$$
-
 
 
 Using the definition of acceleration, $a = \frac{\Delta v}{\Delta t}$, we can further simplify the equation to:
 
 
-
 $$W = m \frac{\Delta v}{\Delta t} \Delta x$$
-
 
 
 We can also express the change in velocity as $\Delta v = v_2 - v_1$, where $v_1$ is the initial velocity and $v_2$ is the final velocity. Substituting this into the equation, we get:
 
 
-
 $$W = m \frac{v_2 - v_1}{\Delta t} \Delta x$$
-
 
 
 Recall that the definition of average velocity is $\bar{v} = \frac{\Delta x}{\Delta t}$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = m (\bar{v_2} - \bar{v_1}) \Delta x$$
-
 
 
 Since $\bar{v_2}$ is the average velocity over the entire displacement, we can rewrite it as $\bar{v_2} = \frac{v_1 + v_2}{2}$. Substituting this into the equation, we get:
 
 
-
 $$W = m (\frac{v_1 + v_2}{2} - \bar{v_1}) \Delta x$$
-
 
 
 We can also express the change in velocity as $\Delta v = v_2 - v_1 = \bar{v_2} - \bar{v_1}$. Substituting this into the equation, we get:
 
 
-
 $$W = m \Delta v \Delta x$$
-
 
 
 Recall that the definition of kinetic energy is $K = \frac{1}{2}mv^2$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2)$$
-
 
 
 This equation shows that the work done by a constant force is equal to the change in kinetic energy of the object. This is the work-energy principle in action.
@@ -20609,49 +19612,37 @@ This equation shows that the work done by a constant force is equal to the chang
 In this case, we have a variable force $F(x)$ acting on an object with mass $m$ and initial velocity $v_1$. The work done by this force can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Since the force is variable, we cannot simply express it as $F \Delta x$ like in the previous case. Instead, we must use the definition of work and integrate the force over the displacement. This results in the following equation:
 
 
-
 $$W = \int_{x_1}^{x_2} F(x) dx$$
-
 
 
 Using the definition of acceleration, $a = \frac{\Delta v}{\Delta t}$, we can rewrite the equation as:
 
 
-
 $$W = m \int_{x_1}^{x_2} \frac{dv}{dt} dx$$
-
 
 
 Recall that the chain rule states that $\frac{dv}{dt} = \frac{dv}{dx} \frac{dx}{dt}$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = m \int_{x_1}^{x_2} \frac{dv}{dx} \frac{dx}{dt} dx$$
-
 
 
 Simplifying the equation, we get:
 
 
-
 $$W = m \int_{x_1}^{x_2} v \frac{dv}{dx} dx$$
-
 
 
 Recall that the definition of kinetic energy is $K = \frac{1}{2}mv^2$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2)$$
-
 
 
 This equation shows that the work done by a variable force is also equal to the change in kinetic energy of the object. This is consistent with the work-energy principle.
@@ -20665,41 +19656,31 @@ This equation shows that the work done by a variable force is also equal to the 
 In this case, we have multiple forces acting on an object with mass $m$ and initial velocity $v_1$. The work done by these forces can be calculated as:
 
 
-
 $$W = \int_{x_1}^{x_2} \sum F(x) dx$$
-
 
 
 Using the definition of acceleration, $a = \frac{\Delta v}{\Delta t}$, we can rewrite the equation as:
 
 
-
 $$W = m \int_{x_1}^{x_2} \frac{dv}{dt} dx$$
-
 
 
 Recall that the chain rule states that $\frac{dv}{dt} = \frac{dv}{dx} \frac{dx}{dt}$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = m \int_{x_1}^{x_2} \frac{dv}{dx} \frac{dx}{dt} dx$$
-
 
 
 Simplifying the equation, we get:
 
 
-
 $$W = m \int_{x_1}^{x_2} v \frac{dv}{dx} dx$$
-
 
 
 Recall that the definition of kinetic energy is $K = \frac{1}{2}mv^2$. Therefore, we can rewrite the equation as:
 
 
-
 $$W = \frac{1}{2}m(v_2^2 - v_1^2)$$
-
 
 
 This equation shows that the work done by multiple forces is also equal to the change in kinetic energy of the object. This is consistent with the work-energy principle.
@@ -20839,25 +19820,19 @@ Let's start with the work done by the normal force. Since the normal force is pe
 Next, let's consider the work done by the frictional force. The frictional force is given by $f = \mu N$, where $\mu$ is the coefficient of friction. The work done by this force can be calculated as:
 
 
-
 $$W_f = \int_{x_1}^{x_2} f dx = \int_{x_1}^{x_2} \mu N dx$$
-
 
 
 Since the disc is rolling without slipping, the displacement of the disc is equal to the distance traveled by its center of mass, which we can express as $x = r\theta$, where $\theta$ is the angle of rotation. Therefore, we can rewrite the equation as:
 
 
-
 $$W_f = \int_{0}^{\theta} \mu N r d\theta = \mu N r \theta$$
-
 
 
 Using Newton's Second Law, we can express the normal force as $N = mg\cos\theta$. Substituting this into the equation, we get:
 
 
-
 $$W_f = \mu m g r \theta \cos\theta$$
-
 
 
 Finally, let's consider the work done by the force of gravity. Since the disc is rolling without slipping, the center of mass of the disc is not moving vertically, so the work done by gravity is also zero.
@@ -20867,17 +19842,13 @@ Finally, let's consider the work done by the force of gravity. Since the disc is
 Combining these results, we can express the work-energy principle as:
 
 
-
 $$W_f = \mu m g r \theta \cos\theta = \frac{1}{2} m v_1^2$$
-
 
 
 Solving for the final velocity $v_2$, we get:
 
 
-
 $$v_2 = \sqrt{\frac{2\mu g r \theta \cos\theta}{m}}$$
-
 
 
 This equation tells us that the final velocity of the disc depends on the coefficient of friction, the angle of rotation, and the initial velocity. We can use this equation to analyze the motion of the disc and design control strategies to manipulate its final velocity.
@@ -20937,41 +19908,31 @@ Let's start with the work done by the normal force. Since the normal force is pe
 Next, let's consider the work done by the frictional force. The frictional force is given by $f = \mu N$, where $\mu$ is the coefficient of friction. The work done by this force can be calculated as:
 
 
-
 $$W_f = \int_{x_1}^{x_2} f dx = \int_{x_1}^{x_2} \mu N dx$$
-
 
 
 Since the disc is rolling without slipping, the displacement of the disc is equal to the distance traveled by its center of mass, which we can express as $x = r\theta$, where $\theta$ is the angular displacement of the disc. Therefore, the work done by the frictional force can be rewritten as:
 
 
-
 $$W_f = \int_{0}^{\theta} \mu N r d\theta = \mu N r \int_{0}^{\theta} d\theta = \mu N r \theta$$
-
 
 
 Now, we can use the work-energy principle to equate the work done by the forces to the initial kinetic energy of the disc, which is given by $K_i = \frac{1}{2}I\omega_i^2$, where $I$ is the moment of inertia of the disc and $\omega_i$ is the initial angular velocity. Therefore, we have:
 
 
-
 $$\mu N r \theta = \frac{1}{2}I\omega_i^2$$
-
 
 
 We can also express the moment of inertia of the disc as $I = \frac{1}{2}mr^2$, since it is a solid disc rotating about its center of mass. Substituting this into the equation above, we get:
 
 
-
 $$\mu N r \theta = \frac{1}{2}\left(\frac{1}{2}mr^2\right)\omega_i^2$$
-
 
 
 Solving for the angular displacement $\theta$, we get:
 
 
-
 $$\theta = \frac{2\mu N r}{mr}\omega_i^2 = 2\mu\omega_i^2$$
-
 
 
 This equation tells us that the angular displacement of the disc is directly proportional to the coefficient of friction and the square of the initial angular velocity. This means that a higher coefficient of friction or a higher initial angular velocity will result in a larger angular displacement of the disc.
@@ -21019,121 +19980,91 @@ Let's start with the work done by the normal force. Since the normal force is pe
 Next, let's consider the work done by the frictional force. The frictional force is given by $f = \mu N$, where $\mu$ is the coefficient of friction. The work done by this force can be calculated as:
 
 
-
 $$W_f = \int_{x_1}^{x_2} f dx = \int_{x_1}^{x_2} \mu N dx$$
-
 
 
 Since the disc is rolling without slipping, the displacement of the disc is equal to the distance traveled by its center of mass, which we can express as $x = r\theta$, where $\theta$ is the angular displacement of the disc. Therefore, the work done by the frictional force can be rewritten as:
 
 
-
 $$W_f = \int_{\theta_1}^{\theta_2} \mu N r d\theta$$
-
 
 
 To calculate the normal force, we can use the fact that the disc is in equilibrium, meaning that the sum of the forces in the vertical direction is equal to zero. This gives us:
 
 
-
 $$N - mg = 0$$
-
 
 
 Solving for $N$, we get $N = mg$. Substituting this into our equation for the work done by the frictional force, we get:
 
 
-
 $$W_f = \int_{\theta_1}^{\theta_2} \mu mg r d\theta$$
 
 
-
 Integrating, we get:
-
 
 
 $$W_f = \mu mg r (\theta_2 - \theta_1)$$
 
 
-
 Since the disc starts at rest and comes to a stop, the final angular displacement is equal to the initial angular displacement, giving us:
-
 
 
 $$W_f = \mu mg r \theta$$
 
 
-
 We can also calculate the work done by the force of gravity, which is given by:
-
 
 
 $$W_g = \int_{x_1}^{x_2} F_g dx = \int_{x_1}^{x_2} mg dx$$
 
 
-
 Since the disc is rolling without slipping, the displacement of the disc is equal to the distance traveled by its center of mass, which we can express as $x = r\theta$. Therefore, the work done by the force of gravity can be rewritten as:
-
 
 
 $$W_g = \int_{\theta_1}^{\theta_2} mgr d\theta$$
 
 
-
 Integrating, we get:
-
 
 
 $$W_g = mgr (\theta_2 - \theta_1)$$
 
 
-
 Since the disc starts at rest and comes to a stop, the final angular displacement is equal to the initial angular displacement, giving us:
-
 
 
 $$W_g = mgr \theta$$
 
 
-
 Now, we can use the work-energy principle to equate the work done by the forces to the initial kinetic energy of the disc, which is given by:
-
 
 
 $$K_i = \frac{1}{2}I\omega_i^2$$
 
 
-
 Where $I$ is the moment of inertia of the disc and $\omega_i$ is the initial angular velocity of the disc. Since the disc is initially at rest, $\omega_i = 0$, giving us:
-
 
 
 $$K_i = 0$$
 
 
-
 Therefore, we have:
-
 
 
 $$W_f + W_g = 0$$
 
 
-
 Substituting in our equations for $W_f$ and $W_g$, we get:
-
 
 
 $$\mu mg r \theta + mgr \theta = 0$$
 
 
-
 Simplifying, we get:
 
 
-
 $$\theta = -\frac{\mu + 1}{\mu}$$
-
 
 
 This means that the disc will rotate in the opposite direction of the applied force, with an angular displacement of $\frac{\mu + 1}{\mu}$ radians.
@@ -21735,7 +20666,6 @@ To better understand the concept of generalized coordinates, let's consider a si
 Using these generalized coordinates, we can write the position of the block as:
 
 
-
 $$
 
 x = s \cos \theta \\
@@ -21743,7 +20673,6 @@ x = s \cos \theta \\
 y = s \sin \theta
 
 $$
-
 
 
 These equations show that the position of the block can be uniquely determined by the values of s and θ. This is the essence of generalized coordinates - they provide a more efficient and convenient way to describe the position of a system.
@@ -21849,7 +20778,6 @@ In the previous section, we discussed the concept of generalized coordinates and
 The Lagrangian, denoted by "L", is a function of the generalized coordinates and their time derivatives. It is defined as the difference between the kinetic energy "T" and the potential energy "V" of a system:
 
 
-
 $$
 
 L = T - V
@@ -21857,9 +20785,7 @@ L = T - V
 $$
 
 
-
 The Lagrangian provides a more elegant and concise way of describing the dynamics of a system compared to the traditional Newtonian approach. It is based on the principle of least action, which states that the motion of a system is determined by minimizing the action integral, defined as the time integral of the Lagrangian:
-
 
 
 $$
@@ -21867,7 +20793,6 @@ $$
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
 
 $$
-
 
 
 where "q" represents the generalized coordinates, "t" represents time, and the dot notation represents the time derivative.
@@ -21881,13 +20806,11 @@ where "q" represents the generalized coordinates, "t" represents time, and the d
 To better understand the concept of the Lagrangian, let's consider a simple example. Imagine a mass "m" attached to a spring with spring constant "k" and resting on a frictionless surface. The position of the mass can be described using the generalized coordinate "x", the displacement from the equilibrium position. The Lagrangian for this system can be written as:
 
 
-
 $$
 
 L = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
 
 $$
-
 
 
 This Lagrangian takes into account both the kinetic energy of the mass and the potential energy stored in the spring. Using the principle of least action, we can derive the equations of motion for this system by minimizing the action integral. This approach provides a more elegant and intuitive way of understanding the dynamics of the system compared to using Newton's laws.
@@ -21919,7 +20842,6 @@ In the previous section, we discussed the concept of generalized coordinates and
 The Lagrangian, denoted by "L", is a function of the generalized coordinates and their time derivatives. It is defined as the difference between the kinetic energy "T" and the potential energy "V" of a system:
 
 
-
 $$
 
 L = T - V
@@ -21927,9 +20849,7 @@ L = T - V
 $$
 
 
-
 The Lagrangian provides a more elegant and concise way of describing the dynamics of a system compared to the traditional Newtonian approach. It is based on the principle of least action, which states that the motion of a system is determined by minimizing the action integral, defined as the time integral of the Lagrangian:
-
 
 
 $$
@@ -21937,7 +20857,6 @@ $$
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
 
 $$
-
 
 
 where "q" represents the generalized coordinates, "t" represents time, and the dot notation represents the time derivative.
@@ -21951,13 +20870,11 @@ where "q" represents the generalized coordinates, "t" represents time, and the d
 To better understand the concept of the Lagrangian, let's consider a simple example. Imagine a mass "m" attached to a spring with spring constant "k" and resting on a frictionless surface. The position of the mass can be described using the generalized coordinate "x", the displacement from the equilibrium position. The Lagrangian for this system can be written as:
 
 
-
 $$
 
 L = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
 
 $$
-
 
 
 This Lagrangian takes into account both the kinetic energy of the mass and the potential energy stored in the spring. Using the principle of least action, we can derive the equations of motion for this system by minimizing the action integral. This approach provides a more elegant and intuitive way of understanding the dynamics of the system compared to using Newton's laws of motion.
@@ -21971,13 +20888,11 @@ This Lagrangian takes into account both the kinetic energy of the mass and the p
 Now, let's take a closer look at how we can derive the Lagrangian for a system. We start with the Euler-Lagrange equation, which states that a path "q" is a stationary point of the action functional "S" if and only if:
 
 
-
 $$
 
 \frac{\partial L}{\partial q_i} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}} = 0
 
 $$
-
 
 
 where "i" represents the generalized coordinates. This equation is derived from the fundamental lemma of calculus of variations, which states that the integral of a function is stationary if and only if the integrand is equal to zero.
@@ -21987,7 +20902,6 @@ where "i" represents the generalized coordinates. This equation is derived from 
 To apply this equation, we first need to define the action functional "S" for our system. This is done by integrating the Lagrangian over time:
 
 
-
 $$
 
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
@@ -21995,9 +20909,7 @@ S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
 $$
 
 
-
 Next, we take the partial derivative of the Lagrangian with respect to each generalized coordinate "q_i" and its time derivative "q_i". This gives us the following expression:
-
 
 
 $$
@@ -22006,8 +20918,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial L}{\partial \dot{q_i}} = \frac{\partial T}{\partial \dot{q_i}}
@@ -22015,9 +20925,7 @@ $$
 $$
 
 
-
 Substituting these expressions into the Euler-Lagrange equation, we get:
-
 
 
 $$
@@ -22025,7 +20933,6 @@ $$
 \frac{\partial T}{\partial q_i} - \frac{\partial V}{\partial q_i} - \frac{d}{dt}\frac{\partial T}{\partial \dot{q_i}} = 0
 
 $$
-
 
 
 This is the general form of the Euler-Lagrange equation, which can be applied to any system. By solving this equation, we can obtain the equations of motion for the system in terms of the generalized coordinates and their time derivatives.
@@ -22057,7 +20964,6 @@ In the previous section, we discussed the concept of generalized coordinates and
 The Lagrangian, denoted by "L", is a function of the generalized coordinates and their time derivatives. It is defined as the difference between the kinetic energy "T" and the potential energy "V" of a system:
 
 
-
 $$
 
 L = T - V
@@ -22065,9 +20971,7 @@ L = T - V
 $$
 
 
-
 The Lagrangian provides a more elegant and concise way of describing the dynamics of a system compared to the traditional Newtonian approach. It is based on the principle of least action, which states that the motion of a system is determined by minimizing the action integral, defined as the time integral of the Lagrangian:
-
 
 
 $$
@@ -22075,7 +20979,6 @@ $$
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
 
 $$
-
 
 
 where "q" represents the generalized coordinates, "t" represents time, and the dot notation represents the time derivative.
@@ -22089,13 +20992,11 @@ where "q" represents the generalized coordinates, "t" represents time, and the d
 To better understand the concept of the Lagrangian, let's consider a simple example. Imagine a mass "m" attached to a spring with spring constant "k" and resting on a frictionless surface. The position of the mass can be described using the generalized coordinate "x", the displacement from the equilibrium position. The Lagrangian for this system can be written as:
 
 
-
 $$
 
 L = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
 
 $$
-
 
 
 This Lagrangian takes into account both the kinetic energy of the mass and the potential energy stored in the spring. Using the principle of least action, we can derive the equations of motion for this system by minimizing the action integral. This approach provides a more elegant and intuitive way of understanding the dynamics of the system compared to using Newton's laws.
@@ -22113,7 +21014,6 @@ Now, let's take a closer look at how the Lagrangian is derived. The Lagrangian i
 Using this substitution, we can rewrite Newton's equations of motion as:
 
 
-
 $$
 
 \varphi(t, x, w) = \frac{d}{dt}\left(\frac{\partial \Psi(t, x)}{\partial t} + \frac{\partial\Psi(t, x)}{\partial x} \cdot w\right)
@@ -22121,9 +21021,7 @@ $$
 $$
 
 
-
 Lagrangian mechanics examines how these equations of motion change under an arbitrary substitution of variables. It was found that these equations are equivalent to Newton's equations for the function "L", where:
-
 
 
 $$
@@ -22131,7 +21029,6 @@ $$
 L = T - V
 
 $$
-
 
 
 This means that the Lagrangian provides a more elegant and concise way of describing the dynamics of a system compared to the traditional Newtonian approach.
@@ -22179,13 +21076,11 @@ In the previous section, we discussed the concept of generalized coordinates and
 Before we dive into the concept of generalized forces, let's first understand the concept of virtual work. In mechanics, virtual work is defined as the work done by a force on a system when it undergoes a virtual displacement. It is denoted by `δW` and is given by the dot product of the force and the virtual displacement:
 
 
-
 $$
 
 \delta W = \vec{F} \cdot \delta \vec{r}
 
 $$
-
 
 
 ## Generalized Coordinates and Virtual Displacements
@@ -22195,13 +21090,11 @@ $$
 As we discussed in the previous section, generalized coordinates are a set of independent coordinates that describe the configuration of a system. In the context of virtual work, these coordinates play a crucial role in determining the virtual displacements of the system. Let's consider a system of particles, where the position of each particle `P_i` is a function of the generalized coordinates `q_j`. The virtual displacements of these particles can be written as:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \delta q_j
 
 $$
-
 
 
 where `n` is the number of generalized coordinates and `δq_j` is the virtual displacement of the generalized coordinate `q_j`.
@@ -22215,13 +21108,11 @@ where `n` is the number of generalized coordinates and `δq_j` is the virtual di
 Now that we understand the concept of virtual work and how it relates to generalized coordinates, we can introduce the concept of generalized forces. In Lagrangian mechanics, generalized forces are defined as the coefficients of the virtual displacements in the virtual work equation. In other words, they are the forces that are conjugate to the generalized coordinates. Mathematically, we can write the virtual work equation as:
 
 
-
 $$
 
 \delta W = \sum_{j=1}^{n} Q_j \delta q_j
 
 $$
-
 
 
 where `Q_j` represents the generalized force associated with the generalized coordinate `q_j`.
@@ -22235,7 +21126,6 @@ where `Q_j` represents the generalized force associated with the generalized coo
 In some cases, it may be more convenient to obtain virtual displacements from the velocities of the system rather than the positions. In such cases, the virtual displacement can be written as:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial \dot{q_j}} \delta \dot{q_j}
@@ -22243,9 +21133,7 @@ $$
 $$
 
 
-
 Using this formulation, we can also determine the generalized forces as:
-
 
 
 $$
@@ -22255,7 +21143,6 @@ Q_j = \sum_{i=1}^{n} \vec{F_i} \cdot \frac{\partial \vec{r_i}}{\partial \dot{q_j
 $$
 
 
-
 ## D'Alembert's Principle
 
 
@@ -22263,13 +21150,11 @@ $$
 D'Alembert's principle is a fundamental principle in Lagrangian mechanics that states that the dynamics of a system can be described by the equilibrium of the applied forces and an inertia force. This inertia force, also known as the apparent force, is given by:
 
 
-
 $$
 
 \vec{F_{in}} = m_i \vec{a_i}
 
 $$
-
 
 
 where `m_i` is the mass of the particle and `a_i` is its acceleration.
@@ -22283,13 +21168,11 @@ where `m_i` is the mass of the particle and `a_i` is its acceleration.
 Using the concept of generalized forces, we can derive the equations of motion for a system of particles using the principle of virtual work. This approach, known as Appell's equation of motion, provides a more elegant and concise way of describing the dynamics of a system compared to the traditional Newtonian approach. It is based on the principle of least action, which states that the motion of a system is determined by minimizing the action integral, defined as the time integral of the Lagrangian:
 
 
-
 $$
 
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
 
 $$
-
 
 
 where "q" represents the generalized coordinates, "t" represents time, and the dot notation represents the time derivative.
@@ -22303,13 +21186,11 @@ where "q" represents the generalized coordinates, "t" represents time, and the d
 Now that we have a better understanding of generalized forces and their role in Lagrangian mechanics, let's consider a simple example to solidify our understanding. Imagine a pendulum with a mass "m" attached to a string of length "l" and resting on a frictionless surface. The position of the mass can be described using the generalized coordinate "θ", the angle of the pendulum from the vertical. The Lagrangian for this system can be written as:
 
 
-
 $$
 
 L = \frac{1}{2}m(l\dot{\theta})^2 - mgl(1-\cos{\theta})
 
 $$
-
 
 
 where "g" is the acceleration due to gravity. Using the principle of least action, we can derive the equations of motion for this system by minimizing the action integral. This approach provides a more elegant and intuitive way of understanding the dynamics of the system compared to using Newton's laws of motion.
@@ -22341,13 +21222,11 @@ In the previous section, we discussed the concept of generalized coordinates and
 Before we dive into the concept of generalized forces, let's first understand the concept of virtual work. In mechanics, virtual work is defined as the work done by a force on a system when it undergoes a virtual displacement. It is denoted by `δW` and is given by the dot product of the force and the virtual displacement:
 
 
-
 $$
 
 \delta W = \vec{F} \cdot \delta \vec{r}
 
 $$
-
 
 
 This concept is important because it allows us to analyze the behavior of a system without actually physically moving it. Instead, we can consider virtual displacements, which are hypothetical movements that satisfy the constraints of the system. This allows us to simplify the analysis and make use of the principle of virtual work.
@@ -22361,13 +21240,11 @@ This concept is important because it allows us to analyze the behavior of a syst
 As we discussed in the previous section, generalized coordinates are a set of independent coordinates that describe the configuration of a system. In the context of virtual work, these coordinates play a crucial role in determining the virtual displacements of the system. Let's consider a system of particles, where the position of each particle `P_i` is a function of the generalized coordinates `q_j`. The virtual displacements of these particles can be written as:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \delta q_j
 
 $$
-
 
 
 where `n` is the number of generalized coordinates and `δq_j` is the virtual displacement of the generalized coordinate `q_j`.
@@ -22381,7 +21258,6 @@ where `n` is the number of generalized coordinates and `δq_j` is the virtual di
 Now that we understand the concept of virtual work and how it relates to generalized coordinates, we can introduce the concept of generalized forces. In Lagrangian mechanics, generalized forces are defined as the coefficients of the virtual displacements in the virtual work equation. In other words, they are the forces that are conjugate to the generalized coordinates. Mathematically, we can write the virtual work equation as:
 
 
-
 $$
 
 \delta W = \sum_{j=1}^{n} Q_j \delta q_j
@@ -22389,9 +21265,7 @@ $$
 $$
 
 
-
 where `Q_j` is the generalized force corresponding to the generalized coordinate `q_j`. This equation can also be written in vector form as:
-
 
 
 $$
@@ -22399,7 +21273,6 @@ $$
 \delta W = \vec{Q} \cdot \delta \vec{q}
 
 $$
-
 
 
 where `δq` is the vector of virtual displacements and `Q` is the vector of generalized forces.
@@ -22413,7 +21286,6 @@ where `δq` is the vector of virtual displacements and `Q` is the vector of gene
 To calculate the generalized forces, we can use the principle of virtual work. This principle states that the virtual work done by all forces acting on a system must be equal to zero for any virtual displacement. In other words, the system is in equilibrium when the virtual work is zero. Using this principle, we can derive an expression for the generalized forces:
 
 
-
 $$
 
 \delta W = \sum_{j=1}^{n} Q_j \delta q_j = \sum_{i=1}^{N} \vec{F_i} \cdot \delta \vec{r_i} = \sum_{i=1}^{N} \vec{F_i} \cdot \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \delta q_j
@@ -22421,9 +21293,7 @@ $$
 $$
 
 
-
 where `N` is the number of particles in the system and `F_i` is the force acting on the `i`th particle. Using the definition of virtual displacements, we can rewrite this equation as:
-
 
 
 $$
@@ -22433,9 +21303,7 @@ $$
 $$
 
 
-
 Since this equation must hold for any virtual displacement, we can equate the coefficients of `δq_j` to get the expression for the generalized forces:
-
 
 
 $$
@@ -22445,9 +21313,7 @@ Q_j = \sum_{i=1}^{N} \vec{F_i} \cdot \frac{\partial \vec{r_i}}{\partial q_j}
 $$
 
 
-
 This equation can also be written in terms of the accelerations of the particles:
-
 
 
 $$
@@ -22455,7 +21321,6 @@ $$
 Q_j = \sum_{i=1}^{N} m_i \vec{a_i} \cdot \frac{\partial \vec{a_i}}{\partial \dot{q_j}}
 
 $$
-
 
 
 where `m_i` is the mass of the `i`th particle and `a_i` is its acceleration.
@@ -22495,13 +21360,11 @@ In the previous section, we discussed the concept of generalized coordinates and
 Before we dive into the concept of generalized forces, let's first understand the concept of virtual work. In mechanics, virtual work is defined as the work done by a force on a system when it undergoes a virtual displacement. It is denoted by `δW` and is given by the dot product of the force and the virtual displacement:
 
 
-
 $$
 
 \delta W = \vec{F} \cdot \delta \vec{r}
 
 $$
-
 
 
 This concept is important because it allows us to analyze the behavior of a system without actually physically moving it. Instead, we can consider virtual displacements, which are hypothetical movements that satisfy the constraints of the system. This allows us to simplify the analysis and make use of the principle of virtual work.
@@ -22515,13 +21378,11 @@ This concept is important because it allows us to analyze the behavior of a syst
 As we discussed in the previous section, generalized coordinates are a set of independent coordinates that describe the configuration of a system. In the context of virtual work, these coordinates play a crucial role in determining the virtual displacements of the system. Let's consider a system of particles, where the position of each particle `P_i` is a function of the generalized coordinates `q_j`. The virtual displacements of these particles can be written as:
 
 
-
 $$
 
 \delta \vec{r_i} = \sum_{j=1}^{n} \frac{\partial \vec{r_i}}{\partial q_j} \delta q_j
 
 $$
-
 
 
 where `n` is the number of generalized coordinates and `δq_j` is the virtual displacement of the generalized coordinate `q_j`.
@@ -22535,13 +21396,11 @@ where `n` is the number of generalized coordinates and `δq_j` is the virtual di
 Now that we understand the concept of virtual work and how it relates to generalized coordinates, we can introduce the concept of generalized forces. Just as generalized coordinates simplify the mathematical description of a system, generalized forces simplify the analysis of a system's dynamics. These forces are defined as the partial derivatives of the potential energy with respect to the generalized coordinates:
 
 
-
 $$
 
 Q_j = \frac{\partial U}{\partial q_j}
 
 $$
-
 
 
 where `U` is the potential energy of the system. These forces are also known as "generalized forces of constraint" because they take into account the constraints of the system.
@@ -22601,13 +21460,11 @@ To analyze the motion of a double pendulum, we will use Lagrangian mechanics. Th
 To begin, let's consider the kinetic and potential energy of the double pendulum system. The kinetic energy of the system is given by:
 
 
-
 $$
 
 E_K = \frac{1}{2}mL^2(\dot{\theta_1}^2 + \dot{\theta_2}^2)
 
 $$
-
 
 
 where $m$ is the mass of the bobs, $L$ is the length of the strings, and $\theta_1$ and $\theta_2$ are the angular displacements of the two bobs from equilibrium.
@@ -22617,13 +21474,11 @@ where $m$ is the mass of the bobs, $L$ is the length of the strings, and $\theta
 The potential energy of the system is given by:
 
 
-
 $$
 
 E_P = mgL(2 - \cos\theta_1 - \cos\theta_2) + \frac{1}{2}kL^2(\theta_2 - \theta_1)^2
 
 $$
-
 
 
 where $g$ is the gravitational acceleration and $k$ is the spring constant. The displacement $L(\theta_2 - \theta_1)$ of the spring from its equilibrium position assumes the small angle approximation.
@@ -22637,7 +21492,6 @@ where $g$ is the gravitational acceleration and $k$ is the spring constant. The 
 Using the kinetic and potential energy expressions, we can derive the Lagrangian for the double pendulum system:
 
 
-
 $$
 
 \mathcal{L} = \frac{1}{2}mL^2(\dot{\theta_1}^2 + \dot{\theta_2}^2) - mgL(2 - \cos\theta_1 - \cos\theta_2) - \frac{1}{2}kL^2(\theta_2 - \theta_1)^2
@@ -22645,9 +21499,7 @@ $$
 $$
 
 
-
 This leads to the following set of coupled differential equations:
-
 
 
 $$
@@ -22659,9 +21511,7 @@ $$
 $$
 
 
-
 By adding and subtracting these equations and applying the small angle approximation, we can obtain two harmonic oscillator equations in the variables $\theta_1 + \theta_2$ and $\theta_1 - \theta_2$:
-
 
 
 $$
@@ -22671,7 +21521,6 @@ $$
 \ddot{\theta_1} - \ddot{\theta_2} + \left(\frac{g}{L} + 2\frac{k}{m}\right)(\theta_1 - \theta_2) = 0
 
 $$
-
 
 
 These equations describe the coupled motion of the double pendulum system and can be solved using numerical methods or analytical techniques. The resulting motion is highly sensitive to initial conditions, demonstrating the chaotic behavior of the system.
@@ -22719,13 +21568,11 @@ To analyze the motion of a double pendulum, we will use Lagrangian mechanics. Th
 To begin, let's consider the kinetic and potential energy of the double pendulum system. The kinetic energy of the system is given by:
 
 
-
 $$
 
 E_K = \frac{1}{2}mL^2(\dot{\theta_1}^2 + \dot{\theta_2}^2)
 
 $$
-
 
 
 where $m$ is the mass of the bobs, $L$ is the length of the strings, and $\theta_1$ and $\theta_2$ are the angular displacements of the two bobs from equilibrium.
@@ -22735,13 +21582,11 @@ where $m$ is the mass of the bobs, $L$ is the length of the strings, and $\theta
 The potential energy of the system is given by:
 
 
-
 $$
 
 E_P = mgL(2 - \cos\theta_1 - \cos\theta_2) + \frac{1}{2}kL^2(\theta_2 - \theta_1)^2
 
 $$
-
 
 
 where $g$ is the gravitational acceleration and $k$ is the spring constant. The displacement $L(\theta_2 - \theta_1)$ of the spring from its equilibrium position assumes the small angle approximation.
@@ -22755,7 +21600,6 @@ where $g$ is the gravitational acceleration and $k$ is the spring constant. The 
 Using the kinetic and potential energy expressions, we can derive the Lagrangian for the double pendulum system:
 
 
-
 $$
 
 \mathcal{L} = \frac{1}{2}mL^2(\dot{\theta_1}^2 + \dot{\theta_2}^2) - mgL(2 - \cos\theta_1 - \cos\theta_2) - \frac{1}{2}kL^2(\theta_2 - \theta_1)^2
@@ -22763,9 +21607,7 @@ $$
 $$
 
 
-
 This leads to the following set of coupled differential equations:
-
 
 
 $$
@@ -22774,14 +21616,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial\dot{\theta_2}}\right) - \frac{\partial\mathcal{L}}{\partial\theta_2} = 0
 
 $$
-
 
 
 These equations can be solved numerically to obtain the motion of the double pendulum system over time.
@@ -23173,13 +22012,11 @@ In the previous section, we discussed the concept of a single degree of freedom 
 To analyze the behavior of a single DOF system, we must first understand the equations of motion that govern its motion. These equations can be derived using Newton's laws of motion and the principle of virtual work. In the case of a helicopter, the equations of motion can be written as:
 
 
-
 $$
 
 m\ddot{x} = F_{ext} + F_{aero} + F_{control}
 
 $$
-
 
 
 Where $m$ is the mass of the helicopter, $\ddot{x}$ is the acceleration in the direction of motion, $F_{ext}$ is the external force acting on the helicopter (such as gravity), $F_{aero}$ is the aerodynamic force, and $F_{control}$ is the control input.
@@ -23193,13 +22030,11 @@ By solving this equation, we can determine the motion of the helicopter in the d
 One method for analyzing single DOF systems is through the use of transfer functions. Transfer functions are mathematical representations of the relationship between the input and output of a system. In the case of a single DOF system, the transfer function can be written as:
 
 
-
 $$
 
 H(s) = \frac{\ddot{x}(s)}{F_{ext}(s)}
 
 $$
-
 
 
 Where $s$ is the Laplace variable. By analyzing the transfer function, we can determine the frequency response of the system and how it will behave under different inputs.
@@ -23837,13 +22672,11 @@ Before we dive into the specifics of the free response of a damped oscillator, i
 The mathematical representation of a damped oscillator is given by the following equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
 
 $$
-
 
 
 where $m$ is the mass of the system, $c$ is the damping coefficient, $k$ is the spring constant, $x$ is the displacement of the system from its equilibrium position, and $F(t)$ is the external force acting on the system.
@@ -23857,13 +22690,11 @@ There are three main types of damping: viscous, Coulomb, and hysteretic damping.
 The critical damping coefficient, $c_c$, is a special value of the damping coefficient that results in the fastest decay of the oscillations without any overshoot. It is given by:
 
 
-
 $$
 
 c_c = 2\sqrt{km}
 
 $$
-
 
 
 Systems with a damping coefficient greater than $c_c$ are considered overdamped, while those with a damping coefficient less than $c_c$ are considered underdamped.
@@ -23911,13 +22742,11 @@ Before we dive into the specifics of the free response of a damped oscillator, i
 The mathematical representation of a damped oscillator is given by the following equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
 
 $$
-
 
 
 where $m$ is the mass of the system, $c$ is the damping coefficient, $k$ is the spring constant, $x$ is the displacement of the system from its equilibrium position, and $F(t)$ is the external force acting on the system.
@@ -23931,13 +22760,11 @@ There are three main types of damping: viscous, Coulomb, and hysteretic damping.
 The critical damping coefficient, $c_c$, is a special value of the damping coefficient that results in the fastest decay of the oscillations without any overshoot. It is given by:
 
 
-
 $$
 
 c_c = 2\sqrt{km}
 
 $$
-
 
 
 Systems with a damping coefficient greater than $c_c$ are considered overdamped, while those with a damping coefficient less than $c_c$ are considered underdamped.
@@ -23973,13 +22800,11 @@ Before we dive into the specifics of the free response of a damped oscillator, i
 The mathematical representation of a damped oscillator is given by the following equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
 
 $$
-
 
 
 where $m$ is the mass of the system, $c$ is the damping coefficient, $k$ is the spring constant, $x$ is the displacement of the system from its equilibrium position, and $F(t)$ is the external force acting on the system.
@@ -23993,13 +22818,11 @@ There are three main types of damping: viscous, Coulomb, and hysteretic damping.
 The critical damping coefficient, $c_c$, is a special value of the damping coefficient that results in the fastest decay of the oscillations without any overshoot. It is given by:
 
 
-
 $$
 
 c_c = 2\sqrt{km}
 
 $$
-
 
 
 Systems with a damping coefficient greater than $c_c$ are considered overdamped, while those with a damping coefficient less than $c_c$ are considered underdamped.
@@ -24359,13 +23182,11 @@ A cruise control system is designed to maintain a constant speed of 60 km/h for 
 #### Exercise 3
 
 Using the root locus method, design a controller for a system with the following transfer function:
-
 $$
 
 G(s) = \frac{10}{s(s+2)(s+5)}
 
 $$
-
 
 
 #### Exercise 4
@@ -24413,13 +23234,11 @@ A cruise control system is designed to maintain a constant speed of 60 km/h for 
 #### Exercise 3
 
 Using the root locus method, design a controller for a system with the following transfer function:
-
 $$
 
 G(s) = \frac{10}{s(s+2)(s+5)}
 
 $$
-
 
 
 #### Exercise 4
@@ -24603,13 +23422,11 @@ Given:
 
 
 Using the equation $v_f = v_0 + at$, we can solve for the acceleration, $a$:
-
 $$
 
 a = \frac{v_f - v_0}{t} = \frac{0 - 20}{5} = -4 \text{ m/s}^2
 
 $$
-
 
 
 Therefore, the acceleration of the car is -4 m/s$^2$, indicating that the car is decelerating.
@@ -24635,13 +23452,11 @@ Given:
 
 
 Using the equation $v_f^2 = v_0^2 + 2ad$, we can solve for the displacement, $d$:
-
 $$
 
 d = \frac{v_f^2 - v_0^2}{2a} = \frac{0 - 10^2}{2(-9.8)} = 5.1 \text{ m}
 
 $$
-
 
 
 Therefore, the ball reaches a height of 5.1 meters before it starts falling back down.
@@ -24669,13 +23484,11 @@ Given:
 
 
 Using the equation $d = v_0t + \frac{1}{2}at^2$, we can solve for the time, $t$:
-
 $$
 
 t = \frac{-v_0 \pm \sqrt{v_0^2 - 4(\frac{1}{2}a)(d)}}{2(\frac{1}{2}a)} = \frac{-50 \pm \sqrt{50^2 - 4(\frac{1}{2}10)(500)}}{2(\frac{1}{2}10)} = 10 \text{ s}
 
 $$
-
 
 
 Therefore, it takes 10 seconds for the rocket to reach a height of 500 meters.
@@ -24701,13 +23514,11 @@ Given:
 
 
 Using the equation $v = \sqrt{2gL(1 - \cos{\theta_0})}$, we can solve for the maximum speed, $v$:
-
 $$
 
 v = \sqrt{2(-9.8)(1)(1 - \cos{30})} = 2.4 \text{ m/s}
 
 $$
-
 
 
 Therefore, the maximum speed of the pendulum is 2.4 m/s.
@@ -24751,13 +23562,11 @@ Given:
 
 
 Using the equation $v_f = v_0 + at$, we can solve for the acceleration, $a$:
-
 $$
 
 a = \frac{v_f - v_0}{t} = \frac{0 - 30}{10} = -3 \text{ m/s}^2
 
 $$
-
 
 
 Therefore, the acceleration of the car is -3 m/s$^2$, indicating that the car is decelerating.
@@ -24783,13 +23592,11 @@ Given:
 
 
 Using the equation $v_f^2 = v_0^2 + 2ad$, we can solve for the displacement, $d$:
-
 $$
 
 d = \frac{v_f^2 - v_0^2}{2a} = \frac{0 - 15^2}{2(-9.8)} = 11.5 \text{ m}
 
 $$
-
 
 
 Therefore, the ball reaches a height of 11.5 meters before it starts falling back down.
@@ -24817,13 +23624,11 @@ Given:
 
 
 Using the equation $d = v_0t + \frac{1}{2}at^2$, we can solve for the time, $t$:
-
 $$
 
 t = \frac{-v_0 \pm \sqrt{v_0^2 - 4(\frac{1}{2}a)(d)}}{2(\frac{1}{2}a)} = \frac{-100 \pm \sqrt{100^2 - 4(\frac{1}{2}20)(1000)}}{2(20)} = 5 \text{ s}
 
 $$
-
 
 
 Therefore, it takes 5 seconds for the rocket to reach a height of 1000 meters.
@@ -25029,37 +23834,29 @@ Known variables:
 
 
 Using Hooke's Law, we can write the equation of motion as:
-
 $$
 
 F = -kx = ma
 
 $$
-
 where F is the force exerted by the spring, m is the mass, and a is the acceleration. Rearranging the equation, we get:
-
 $$
 
 a = -\frac{k}{m}x
 
 $$
-
 Substituting the known values, we get:
-
 $$
 
 a = -\frac{10 N/m}{1 kg}(0.05 m) = -1 m/s^2
 
 $$
-
 Therefore, the equation of motion for the mass is:
-
 $$
 
 a = -1 m/s^2
 
 $$
-
 
 
 #### Problem 2:
@@ -25081,37 +23878,29 @@ Known variables:
 
 
 Using the small angle approximation, we can write the equation of motion as:
-
 $$
 
 \ddot{\theta} + \frac{g}{l}\theta = 0
 
 $$
-
 where $\ddot{\theta}$ is the second derivative of the angle with respect to time. Solving this differential equation, we get:
-
 $$
 
 \theta = A\cos(\sqrt{\frac{g}{l}}t) + B\sin(\sqrt{\frac{g}{l}}t)
 
 $$
-
 where A and B are constants determined by the initial conditions. Substituting the known values, we get:
-
 $$
 
 \theta = A\cos(\sqrt{\frac{9.8 m/s^2}{1 m}}t) + B\sin(\sqrt{\frac{9.8 m/s^2}{1 m}}t)
 
 $$
-
 Therefore, the equation of motion for the pendulum is:
-
 $$
 
 \theta = A\cos(3.13t) + B\sin(3.13t)
 
 $$
-
 
 
 #### Problem 3:
@@ -25135,37 +23924,29 @@ Known variables:
 
 
 Using the kinematic equation for displacement, we can write:
-
 $$
 
 hf = h0 + v0t + \frac{1}{2}at^2
 
 $$
-
 Substituting the known values, we get:
-
 $$
 
 100 m = 0 m + (50 m/s)t + \frac{1}{2}(-9.8 m/s^2)t^2
 
 $$
-
 Solving for t using the quadratic formula, we get:
-
 $$
 
 t = \frac{-50 m/s \pm \sqrt{(50 m/s)^2 - 4(\frac{1}{2}(-9.8 m/s^2))(100 m)}}{2(\frac{1}{2}(-9.8 m/s^2))}
 
 $$
-
 Simplifying, we get:
-
 $$
 
 t = \frac{-50 m/s \pm \sqrt{2500 m^2/s^2 + 1960 m^2/s^2}}{-9.8 m/s^2}
 
 $$
-
 Therefore, the rocket will take approximately 5.1 seconds to reach a height of 100 meters.
 
 
@@ -25667,13 +24448,9 @@ We can break this problem down into two parts: finding the equation of motion fo
 Part 1:
 
 Without the applied force, the equation of motion for the mass can be written as:
-
 $$m\ddot{x} + c\dot{x} + kx = 0$$
-
 This is a second-order linear differential equation, which can be solved using standard techniques. The solution is given by:
-
 $$x(t) = Ae^{-\frac{c}{2m}t}\cos(\omega t) + Be^{-\frac{c}{2m}t}\sin(\omega t)$$
-
 where $\omega = \sqrt{\frac{k}{m}-\frac{c^2}{4m^2}}$.
 
 
@@ -25681,21 +24458,15 @@ where $\omega = \sqrt{\frac{k}{m}-\frac{c^2}{4m^2}}$.
 Part 2:
 
 Now, we can incorporate the applied force into the equation by adding it to the right-hand side:
-
 $$m\ddot{x} + c\dot{x} + kx = F(t)$$
-
 Using the method of undetermined coefficients, we can find a particular solution for this equation. Let's assume that the applied force is a sinusoidal function, $F(t) = F_0\cos(\omega t)$. Then, the particular solution is given by:
-
 $$x_p(t) = \frac{F_0}{m(\omega_0^2-\omega^2)}\cos(\omega t)$$
-
 where $\omega_0 = \sqrt{\frac{k}{m}}$.
 
 
 
 Combining the particular solution with the general solution from Part 1, we get the final solution for the equation of motion:
-
 $$x(t) = Ae^{-\frac{c}{2m}t}\cos(\omega t) + Be^{-\frac{c}{2m}t}\sin(\omega t) + \frac{F_0}{m(\omega_0^2-\omega^2)}\cos(\omega t)$$
-
 
 
 2. Try-and-Check Method:
@@ -25711,13 +24482,9 @@ A mass m is attached to a spring with spring constant k and is subject to a damp
 Solution:
 
 We can make an initial guess for the equation of motion by assuming that the solution will be of the form $x(t) = A\cos(\omega t)$. Substituting this into the equation of motion, we get:
-
 $$-m\omega^2A\cos(\omega t) + c\omega A\sin(\omega t) + kA\cos(\omega t) = F(t)$$
-
 Since the applied force is a sinusoidal function, we can assume that the solution will also be a sinusoidal function. Therefore, we can equate the coefficients of $\cos(\omega t)$ and $\sin(\omega t)$ to get:
-
 $$-m\omega^2A + kA = F_0$$
-
 $$c\omega A = 0$$
 
 From the second equation, we can see that $A=0$ or $c=0$. However, if $c=0$, then the damping force is not present and the equation of motion reduces to a simple harmonic motion, which is not the case in this problem. Therefore, we can conclude that $A=0$ and the initial guess does not satisfy the given conditions.
@@ -25725,15 +24492,11 @@ From the second equation, we can see that $A=0$ or $c=0$. However, if $c=0$, the
 
 
 We can make adjustments to our initial guess by assuming that the solution will be of the form $x(t) = A\cos(\omega t) + B\sin(\omega t)$. Substituting this into the equation of motion and equating coefficients, we get:
-
 $$-m\omega^2A + c\omega B + kA = F_0$$
-
 $$-m\omega^2B - c\omega A + kB = 0$$
 
 Solving these equations, we get:
-
 $$A = \frac{F_0}{m(\omega_0^2-\omega^2)}$$
-
 $$B = 0$$
 
 This solution satisfies the given conditions and is the same as the particular solution obtained using the decomposition method.
@@ -25905,7 +24668,6 @@ In this section, we will provide solutions to the problems in Chapter 8's proble
 1. Decomposition Method:
 
 Problem: Use the decomposition method to solve the following system of differential equations:
-
 $$
 
 \begin{align}
@@ -25917,13 +24679,11 @@ $$
 \end{align}
 
 $$
-
 
 
 Solution:
 
 We can decompose this system into two separate equations:
-
 $$
 
 \begin{align}
@@ -25935,9 +24695,7 @@ $$
 \end{align}
 
 $$
-
 By solving each equation separately, we get:
-
 $$
 
 \begin{align}
@@ -25949,9 +24707,7 @@ y(t) &= c_1e^{2t} - c_2e^{3t}
 \end{align}
 
 $$
-
 where $c_1$ and $c_2$ are constants of integration. By combining these solutions, we get the general solution to the system:
-
 $$
 
 \begin{align}
@@ -25963,13 +24719,11 @@ y(t) &= c_1e^{2t} - c_2e^{3t}
 \end{align}
 
 $$
-
 
 
 2. Differential Equations:
 
 Problem: Solve the following differential equation using the method of undetermined coefficients:
-
 $$
 
 \frac{d^2y}{dx^2} + 4\frac{dy}{dx} + 4y = 3e^{2x}
@@ -25977,29 +24731,24 @@ $$
 $$
 
 
-
 Solution:
 
 We first find the complementary solution by solving the characteristic equation:
-
 $$
 
 r^2 + 4r + 4 = 0
 
 $$
-
 which gives us $r = -2$. Therefore, the complementary solution is $y_c(x) = c_1e^{-2x} + c_2xe^{-2x}$.
 
 
 
 Next, we assume a particular solution of the form $y_p(x) = Ae^{2x}$ and substitute it into the original equation:
-
 $$
 
 \frac{d^2y_p}{dx^2} + 4\frac{dy_p}{dx} + 4y_p = 3e^{2x}
 
 $$
-
 which gives us $A = \frac{3}{4}$. Therefore, the particular solution is $y_p(x) = \frac{3}{4}e^{2x}$.
 
 
@@ -26061,7 +24810,6 @@ In this section, we will provide an overview of the problems in Chapter 8's prob
 1. Linearization:
 
 Problem: Consider the nonlinear system given by:
-
 $$
 
 \begin{align}
@@ -26073,7 +24821,6 @@ $$
 \end{align}
 
 $$
-
 Linearize this system around the equilibrium point $(0,0)$ and determine the stability of the equilibrium point.
 
 
@@ -26081,7 +24828,6 @@ Linearize this system around the equilibrium point $(0,0)$ and determine the sta
 2. State-Space Representation:
 
 Problem: Given the following state-space representation of a system:
-
 $$
 
 \begin{align}
@@ -26093,9 +24839,7 @@ y &= Cx + Du
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26117,7 +24861,6 @@ A = \begin{bmatrix}
 \end{bmatrix}, D = 0
 
 $$
-
 Determine the transfer function of the system.
 
 
@@ -26125,7 +24868,6 @@ Determine the transfer function of the system.
 3. Feedback Control:
 
 Problem: Consider the following system with feedback control:
-
 $$
 
 \begin{align}
@@ -26137,9 +24879,7 @@ y &= Cx
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26161,7 +24901,6 @@ A = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 Design a feedback control law $u = -Kx$ such that the closed-loop system has eigenvalues at $-1 \pm j$.
 
 
@@ -26169,7 +24908,6 @@ Design a feedback control law $u = -Kx$ such that the closed-loop system has eig
 4. Optimal Control:
 
 Problem: Consider the following system with cost function $J = \int_0^{\infty} (x^2 + u^2)dt$:
-
 $$
 
 \begin{align}
@@ -26181,9 +24919,7 @@ y &= Cx
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26205,7 +24941,6 @@ A = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 Determine the optimal control law $u = -Kx$ using the LQR method.
 
 
@@ -26213,7 +24948,6 @@ Determine the optimal control law $u = -Kx$ using the LQR method.
 5. Nonlinear Control:
 
 Problem: Consider the following nonlinear system:
-
 $$
 
 \begin{align}
@@ -26225,7 +24959,6 @@ y &= x
 \end{align}
 
 $$
-
 Design a feedback control law $u = -kx$ such that the closed-loop system is globally asymptotically stable.
 
 
@@ -26233,7 +24966,6 @@ Design a feedback control law $u = -kx$ such that the closed-loop system is glob
 6. State Estimation:
 
 Problem: Consider the following system with unknown input $u$:
-
 $$
 
 \begin{align}
@@ -26245,9 +24977,7 @@ y &= Cx + Du
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26269,7 +24999,6 @@ A = \begin{bmatrix}
 \end{bmatrix}, D = 0
 
 $$
-
 Design an observer to estimate the state $x$ and the input $u$.
 
 
@@ -26277,7 +25006,6 @@ Design an observer to estimate the state $x$ and the input $u$.
 7. Stability Analysis:
 
 Problem: Consider the following system:
-
 $$
 
 \begin{align}
@@ -26289,9 +25017,7 @@ y &= Cx
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26307,7 +25033,6 @@ A = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 Determine the stability of the system using the Lyapunov method.
 
 
@@ -26315,7 +25040,6 @@ Determine the stability of the system using the Lyapunov method.
 8. Control Design:
 
 Problem: Consider the following system with unknown input $u$:
-
 $$
 
 \begin{align}
@@ -26327,9 +25051,7 @@ y &= Cx + Du
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26351,7 +25073,6 @@ A = \begin{bmatrix}
 \end{bmatrix}, D = 0
 
 $$
-
 Design a controller to track a reference signal $r(t) = sin(t)$.
 
 
@@ -26359,7 +25080,6 @@ Design a controller to track a reference signal $r(t) = sin(t)$.
 9. Robust Control:
 
 Problem: Consider the following system with uncertainty:
-
 $$
 
 \begin{align}
@@ -26371,9 +25091,7 @@ y &= Cx
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26395,7 +25113,6 @@ A = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 Design a robust controller to reject the disturbance $\Delta u = sin(t)$.
 
 
@@ -26403,7 +25120,6 @@ Design a robust controller to reject the disturbance $\Delta u = sin(t)$.
 10. Optimal Estimation:
 
 Problem: Consider the following system with measurement noise:
-
 $$
 
 \begin{align}
@@ -26415,9 +25131,7 @@ y &= Cx + Du + v
 \end{align}
 
 $$
-
 where
-
 $$
 
 A = \begin{bmatrix}
@@ -26439,7 +25153,6 @@ A = \begin{bmatrix}
 \end{bmatrix}, D = 0
 
 $$
-
 Design an optimal estimator to estimate the state $x$ and the input $u$.
 
 
@@ -29953,13 +28666,11 @@ In conclusion, this chapter has provided a comprehensive overview of advanced to
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 + u
 
 $$
-
 Design a control strategy that stabilizes the system at the origin.
 
 
@@ -29967,17 +28678,14 @@ Design a control strategy that stabilizes the system at the origin.
 #### Exercise 2
 
 A rocket is flying through the atmosphere, and its dynamics can be described by the following equations:
-
 $$
 
 \dot{x} = v
 
 $$
-
 $$
 
 \dot{v} = -g + \frac{T}{m} - \frac{D}{m}
-
 $$
 
 where $x$ is the altitude, $v$ is the velocity, $g$ is the gravitational acceleration, $T$ is the thrust, $m$ is the mass, and $D$ is the drag force. Design a control strategy to minimize the rocket's fuel consumption while maintaining a desired altitude.
@@ -29989,23 +28697,17 @@ where $x$ is the altitude, $v$ is the velocity, $g$ is the gravitational acceler
 Consider the following optimal control problem:
 
 $$
-
 \min_u \int_0^T (x^2 + u^2) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x} = u
-
 $$
 
 $$
-
 x(0) = 0, x(T) = 1
-
 $$
 
 Solve for the optimal control $u^*$.
@@ -30023,9 +28725,7 @@ Design an adaptive control strategy for a robot arm that can adapt to changes in
 Consider a system with the following dynamics:
 
 $$
-
 \dot{x} = Ax + Bu + d
-
 $$
 
 where $x$ is the state, $u$ is the control input, and $d$ is a disturbance. Design an observer-based controller that can reject the disturbance $d$.
@@ -30059,9 +28759,7 @@ In conclusion, this chapter has provided a comprehensive overview of advanced to
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 + u
-
 $$
 
 Design a control strategy that stabilizes the system at the origin.
@@ -30073,15 +28771,11 @@ Design a control strategy that stabilizes the system at the origin.
 A rocket is flying through the atmosphere, and its dynamics can be described by the following equations:
 
 $$
-
 \dot{x} = v
-
 $$
 
 $$
-
 \dot{v} = -g + \frac{T}{m} - \frac{D}{m}
-
 $$
 
 where $x$ is the altitude, $v$ is the velocity, $g$ is the gravitational acceleration, $T$ is the thrust, $m$ is the mass, and $D$ is the drag force. Design a control strategy to minimize the rocket's fuel consumption while maintaining a desired altitude.
@@ -30093,23 +28787,17 @@ where $x$ is the altitude, $v$ is the velocity, $g$ is the gravitational acceler
 Consider the following optimal control problem:
 
 $$
-
 \min_u \int_0^T (x^2 + u^2) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x} = u
-
 $$
 
 $$
-
 x(0) = 0, x(T) = 1
-
 $$
 
 Solve for the optimal control $u^*$.
@@ -30127,9 +28815,7 @@ Design an adaptive control strategy for a robot arm that can adapt to changes in
 Consider a system with the following dynamics:
 
 $$
-
 \dot{x} = Ax + Bu + d
-
 $$
 
 where $x$ is the state, $u$ is the control input, and $d$ is a disturbance. Design an observer-based controller that can reject the disturbance $d$.

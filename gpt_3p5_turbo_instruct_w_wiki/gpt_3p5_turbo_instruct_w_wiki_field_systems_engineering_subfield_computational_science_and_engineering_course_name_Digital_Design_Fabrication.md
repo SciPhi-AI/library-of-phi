@@ -5424,7 +5424,6 @@ Table 1: Dirichlet Character
 
 
 $$
-
 \begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 
 \hline
@@ -5464,7 +5463,6 @@ $$
 \hline
 
 \end{array}
-
 $$
 
 

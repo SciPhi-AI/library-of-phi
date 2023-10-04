@@ -2888,9 +2888,7 @@ The key property of RKHS is the reproducing property, which states that the eval
 
 
 $$
-
 f(x) = \langle f, K(x, \cdot) \rangle_{\mathcal{H}}
-
 $$
 
 
@@ -3648,9 +3646,7 @@ Multiple linear regression is a generalization of simple linear regression to th
 
 
 $$
-
 Y_i = \beta_0 + \beta_1X_{i1} + \beta_2X_{i2} + ... + \beta_pX_{ip} + \epsilon_i
-
 $$
 
 
@@ -3668,9 +3664,7 @@ In the more general multivariate linear regression, there is one equation of the
 
 
 $$
-
 Y_{ij} = \beta_0 + \beta_1X_{i1} + \beta_2X_{i2} + ... + \beta_pX_{ip} + \epsilon_{ij}
-
 $$
 
 
@@ -3956,17 +3950,13 @@ The RLS algorithm works by initializing the weight vector <math> \textstyle w_0 
 
 
 $$
-
 w_i = \Gamma_i \Sigma_i^{-1} x_i y_i
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Sigma_i^{-1} + x_i x_i^T
-
 $$
 
 
@@ -3992,17 +3982,13 @@ The SGD algorithm works by updating the weight vector and matrix using the follo
 
 
 $$
-
 w_i = w_{i-1} - \gamma_i \nabla L(w_{i-1})
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Gamma_{i-1} - \gamma_i \nabla^2 L(w_{i-1})
-
 $$
 
 
@@ -4050,9 +4036,7 @@ One practical application of least-squares classification is in low-rank matrix 
 
 
 $$
-
 \min_{c \in \Reals^{n}}\frac{1}{n}\|\hat{Y}-\hat{K}c\|^{2}_{\Reals^{n}} + \lambda\langle c,\hat{K}c\rangle_{\Reals^{n}}
-
 $$
 
 
@@ -4066,9 +4050,7 @@ By computing the gradient and setting it to 0, we can obtain the minimum as:
 
 
 $$
-
 -\frac{1}{n}\hat{K}(\hat{Y}-\hat{K}c) + \lambda \hat{K}c = 0
-
 $$
 
 
@@ -4078,9 +4060,7 @@ which can be further simplified to:
 
 
 $$
-
 \hat{K}(\hat{K}+\lambda n I)c = \hat{K} \hat{Y}
-
 $$
 
 
@@ -4090,9 +4070,7 @@ The inverse matrix <math> (\hat{K}+\lambda n I)^{-1} </math> can be computed usi
 
 
 $$
-
 (\hat{K}+\lambda n I)^{-1} = \frac{1}{\lambda n}\left(I-\hat{K}_{n,q}(\lambda n\hat{K}_{q}+\hat{K}_{n,q}^\text{T} \hat{K}_{n,q})^{-1}\hat{K}_{n,q}^\text{T}\right)
-
 $$
 
 
@@ -4118,17 +4096,13 @@ The RLS algorithm works by initializing the weight vector <math> \textstyle w_0 
 
 
 $$
-
 w_i = \Gamma_i \Sigma_i^{-1} x_i y_i
-
 $$
 
 
 
 $$
-
 \Gamma_i = \Sigma_i^{-1} + x_i x_i^T
-
 $$
 
 
@@ -4618,9 +4592,7 @@ To understand the basic concepts of SVMs, let us consider a simple binary classi
 
 
 $$
-
 \mathbf{w} \cdot \mathbf{x} - b = 0
-
 $$
 
 
@@ -4638,9 +4610,7 @@ Minimize (in $\mathbf{w}, b$)
 
 
 $$
-
 \frac{1}{2}\|\mathbf{w}\|^2
-
 $$
 
 
@@ -4650,9 +4620,7 @@ subject to (for any $i = 1, \dots, n$)
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \ge 1
-
 $$
 
 
@@ -4662,9 +4630,7 @@ and
 
 
 $$
-
 y_i \in \{-1, 1\}
-
 $$
 
 
@@ -4716,9 +4682,7 @@ To understand the basic concepts of SVMs, let us consider a simple binary classi
 
 
 $$
-
 \mathbf{w} \cdot \mathbf{x} - b = 0
-
 $$
 
 
@@ -4732,9 +4696,7 @@ The optimization problem for SVMs can be formulated as:
 
 
 $$
-
 \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2
-
 $$
 
 
@@ -4744,9 +4706,7 @@ subject to:
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1, \quad \forall i = 1, \dots, n
-
 $$
 
 
@@ -4812,9 +4772,7 @@ The optimization problem for transductive SVMs can be formulated as:
 
 
 $$
-
 \min_{\mathbf{w}, b, \mathbf{y}^\star} \frac{1}{2} \|\mathbf{w}\|^2
-
 $$
 
 
@@ -4824,9 +4782,7 @@ subject to:
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1, \quad \forall i = 1, \dots, n
-
 $$
 
 
@@ -4836,9 +4792,7 @@ and
 
 
 $$
-
 y^\star_j \in \{-1, 1\}, \quad \forall j = 1, \dots, k
-
 $$
 
 
@@ -4878,9 +4832,7 @@ To understand the basic concepts of SVMs, let us consider a simple binary classi
 
 
 $$
-
 \mathbf{w} \cdot \mathbf{x} - b = 0
-
 $$
 
 
@@ -4894,9 +4846,7 @@ The optimization problem for SVMs can be formulated as:
 
 
 $$
-
 \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2
-
 $$
 
 
@@ -4906,9 +4856,7 @@ subject to:
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1, \quad \forall i = 1, \dots, n
-
 $$
 
 
@@ -4926,9 +4874,7 @@ To better understand the mathematical formulation of SVMs, let us consider a bin
 
 
 $$
-
 \mathbf{w} \cdot \mathbf{x} - b = 0
-
 $$
 
 
@@ -4942,9 +4888,7 @@ To find the optimal hyperplane, we need to solve the following optimization prob
 
 
 $$
-
 \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2
-
 $$
 
 
@@ -4954,9 +4898,7 @@ subject to:
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1, \quad \forall i = 1, \dots, n
-
 $$
 
 
@@ -4966,9 +4908,7 @@ This optimization problem can be solved using the Lagrange multiplier method, wh
 
 
 $$
-
 L(\mathbf{w}, b, \mathbf{\alpha}) = \frac{1}{2} \|\mathbf{w}\|^2 - \sum_{i=1}^n \alpha_i \left(y_i(\mathbf{w} \cdot \mathbf{x}_i - b) - 1\right)
-
 $$
 
 
@@ -4978,17 +4918,13 @@ To find the optimal values of $\mathbf{w}$ and $b$, we need to minimize the Lagr
 
 
 $$
-
 \frac{\partial L}{\partial \mathbf{w}} = \mathbf{w} - \sum_{i=1}^n \alpha_i y_i \mathbf{x}_i = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial L}{\partial b} = \sum_{i=1}^n \alpha_i y_i = 0
-
 $$
 
 
@@ -4998,9 +4934,7 @@ Substituting these equations back into the Lagrangian function, we get the dual 
 
 
 $$
-
 \max_{\mathbf{\alpha}} \sum_{i=1}^n \alpha_i - \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n \alpha_i \alpha_j y_i y_j \mathbf{x}_i \cdot \mathbf{x}_j
-
 $$
 
 
@@ -5010,17 +4944,13 @@ subject to:
 
 
 $$
-
 \sum_{i=1}^n \alpha_i y_i = 0
-
 $$
 
 
 
 $$
-
 \alpha_i \geq 0, \quad \forall i = 1, \dots, n
-
 $$
 
 
@@ -5030,17 +4960,13 @@ Once we have solved for the optimal values of $\mathbf{\alpha}$, we can find the
 
 
 $$
-
 \mathbf{w} = \sum_{i=1}^n \alpha_i y_i \mathbf{x}_i
-
 $$
 
 
 
 $$
-
 b = y_i - \mathbf{w} \cdot \mathbf{x}_i, \quad \forall i \text{ such that } \alpha_i > 0
-
 $$
 
 
@@ -5108,9 +5034,7 @@ The optimization problem for SVMs can be formulated as finding the optimal value
 
 
 $$
-
 \min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2 + C \sum_{i=1}^{N} \xi_i
-
 $$
 
 
@@ -5120,17 +5044,13 @@ subject to the constraints:
 
 
 $$
-
 y_i(\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1 - \xi_i, \forall i = 1, ..., N
-
 $$
 
 
 
 $$
-
 \xi_i \geq 0, \forall i = 1, ..., N
-
 $$
 
 
@@ -5384,9 +5304,7 @@ One of the most commonly used kernel functions is the Gaussian kernel, also know
 
 
 $$
-
 K(x, x') = e^{-\gamma ||x-x'||^2}
-
 $$
 
 
@@ -5470,9 +5388,7 @@ The most commonly used kernel function is the Gaussian kernel, also known as the
 
 
 $$
-
 K(x, x') = e^{-\gamma ||x-x'||^2}
-
 $$
 
 
@@ -6118,9 +6034,7 @@ To understand this relationship better, let's consider the concept of expected-l
 
 
 $$
-
 E_{LOO} \leq \beta_{EL}^m + \delta_{EL}^m
-
 $$
 
 
@@ -6168,9 +6082,7 @@ To understand this relationship better, let's consider the concept of expected-l
 
 
 $$
-
 E_{LOO} \leq \beta_{EL}^m + \delta_{EL}^m
-
 $$
 
 
@@ -6258,9 +6170,7 @@ To understand this relationship better, let's consider the concept of expected-l
 
 
 $$
-
 E_{LOO} \leq \beta_{EL}^m + \delta_{EL}^m
-
 $$
 
 
@@ -6336,9 +6246,7 @@ To better understand this tradeoff, let's consider the mean-squared error (MSE) 
 
 
 $$
-
 \text{MSE} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
-
 $$
 
 
@@ -6390,9 +6298,7 @@ To better understand this tradeoff, let's consider the mean-squared error (MSE) 
 
 
 $$
-
 \text{MSE} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
-
 $$
 
 
@@ -6472,11 +6378,9 @@ To measure the performance of our model, we use the mean squared error (MSE) bet
 
 
 $$
-
 \operatorname{E}_{D, \varepsilon} \Big[\big(y - \hat{f}(x;D)\big)^2\Big]
 
 = \Big(\operatorname{Bias}_D\big[\hat{f}(x;D)\big] \Big) ^2 + \operatorname{Var}_D\big[\hat{f}(x;D)\big] + \sigma^2
-
 $$
 
 
@@ -6486,17 +6390,13 @@ where
 
 
 $$
-
 \operatorname{Bias}_D\big[\hat{f}(x;D)\big] = \operatorname{E}_D\big[\hat{f}(x;D)- f(x)\big]= \operatorname{E}_D\big[\hat{f}(x;D)\big] - \operatorname{E}_{y|x}\big[y(x)\big],
-
 $$
 
 
 
 $$
-
 \operatorname{Var}_D\big[\hat{f}(x;D)\big] = \operatorname{E}_D[\big(\operatorname{E}_D[\hat{f}(x;D)] - \hat{f}(x;D)\big)^2],
-
 $$
 
 
@@ -7074,9 +6974,7 @@ For example, in the case of a linear inverse problem, the sensitivity of the sol
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \mathbf{y}} = \mathbf{G}^{\dagger} \mathbf{H}
-
 $$
 
 
@@ -7090,9 +6988,7 @@ Similarly, the sensitivity of the solution <math>\mathbf{x}</math> with respect 
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \lambda} = -\mathbf{G}^{\dagger} \mathbf{H} \mathbf{G}^{\dagger} \mathbf{H} \mathbf{x}
-
 $$
 
 
@@ -7114,9 +7010,7 @@ For example, in the case of a linear inverse problem, the eigenvalues of the Tik
 
 
 $$
-
 \lambda_i = \frac{\lambda_{0i}}{1 + \lambda_{0i} \delta}
-
 $$
 
 
@@ -7176,9 +7070,7 @@ For example, in the case of a linear inverse problem, the sensitivity of the sol
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \mathbf{H}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{H}_{(k\ell)}}\left(\mathbf{G}^{\dagger} \mathbf{H} \mathbf{y}\right) = \mathbf{G}^{\dagger} \frac{\partial \mathbf{H}}{\partial \mathbf{H}_{(k\ell)}} \mathbf{y} = \mathbf{G}^{\dagger} \mathbf{E}_{(k\ell)} \mathbf{y}
-
 $$
 
 
@@ -7192,9 +7084,7 @@ Similarly, the sensitivity of the solution <math>\mathbf{x}</math> with respect 
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \mathbf{G}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{G}_{(k\ell)}}\left(\mathbf{G}^{\dagger} \mathbf{H} \mathbf{y}\right) = \frac{\partial \mathbf{G}^{\dagger}}{\partial \mathbf{G}_{(k\ell)}} \mathbf{H} \mathbf{y} = \mathbf{E}_{(k\ell)} \mathbf{H} \mathbf{y}
-
 $$
 
 
@@ -7212,9 +7102,7 @@ To illustrate the concept of eigenvalue sensitivity in Tikhonov regularization, 
 
 
 $$
-
 \mathbf{G} = \begin{bmatrix} 2 & b \\ b & 3 \end{bmatrix}, \quad \mathbf{H} = \begin{bmatrix} 2 + \lambda & b \\ b & 3 + \lambda \end{bmatrix}
-
 $$
 
 
@@ -7228,9 +7116,7 @@ By calculating the derivatives of the eigenvalues with respect to the entries of
 
 
 $$
-
 \frac{\partial \lambda_1}{\partial \lambda} = \frac{1}{(1 + \lambda)^2}
-
 $$
 
 
@@ -7290,9 +7176,7 @@ For example, in the case of a linear inverse problem, the sensitivity of the sol
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \mathbf{y}} = \mathbf{G}^{\dagger} \mathbf{H}
-
 $$
 
 
@@ -7302,9 +7186,7 @@ where <math>\mathbf{G}^{\dagger}</math> is the pseudo-inverse of the matrix <mat
 
 
 $$
-
 \mathbf{H} = \frac{\partial \mathbf{g}}{\partial \mathbf{y}} = \frac{\partial \mathbf{g}}{\partial \mathbf{x}} \frac{\partial \mathbf{x}}{\partial \mathbf{y}}
-
 $$
 
 
@@ -7330,9 +7212,7 @@ The eigenvalues of the Tikhonov regularized matrix can be calculated as:
 
 
 $$
-
 \lambda_i = \frac{\sigma_i^2}{\sigma_i^2 + \lambda^2}
-
 $$
 
 
@@ -7400,9 +7280,7 @@ For example, in the case of a linear inverse problem, the sensitivity of the sol
 
 
 $$
-
 \frac{\partial \mathbf{x}}{\partial \mathbf{y}} = \mathbf{G}^{\dagger} \mathbf{H}
-
 $$
 
 
@@ -7978,9 +7856,7 @@ Consistency is a fundamental property of a learning algorithm that guarantees co
 
 
 $$
-
 \lim_{n\to\infty} P(|\hat{f}_n(x) - f(x)| > \epsilon) = 0
-
 $$
 
 
@@ -7994,9 +7870,7 @@ Uniform convergence, on the other hand, is a stronger notion of convergence that
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8048,9 +7922,7 @@ Consistency is a fundamental property of a learning algorithm that guarantees co
 
 
 $$
-
 \lim_{n\to\infty} P(|\hat{f}_n(x) - f(x)| > \epsilon) = 0
-
 $$
 
 
@@ -8064,9 +7936,7 @@ Uniform convergence, on the other hand, is a stronger notion of convergence that
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8130,9 +8000,7 @@ Consistency is a fundamental property of a learning algorithm that guarantees co
 
 
 $$
-
 \lim_{n\to\infty} P(|\hat{f}_n(x) - f(x)| > \epsilon) = 0
-
 $$
 
 
@@ -8146,9 +8014,7 @@ Uniform convergence, on the other hand, is a stronger notion of convergence that
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8280,9 +8146,7 @@ Mathematically, uniform convergence can be defined as follows:
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8334,9 +8198,7 @@ Mathematically, uniform convergence can be defined as follows:
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8452,9 +8314,7 @@ Mathematically, uniform convergence can be defined as follows:
 
 
 $$
-
 \lim_{n\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8484,9 +8344,7 @@ Mathematically, coercivity can be defined as follows:
 
 
 $$
-
 \lim_{m\to\infty} C_{D_m} = \lim_{m\to\infty} \sup_{x\in\mathcal{X}} |\nabla f(x)| < \infty
-
 $$
 
 
@@ -8500,9 +8358,7 @@ GD-consistency, on the other hand, can be defined as follows:
 
 
 $$
-
 \lim_{m\to\infty} S_{D_m} (\varphi) = \lim_{m\to\infty} \sup_{x\in\mathcal{X}} |\hat{f}_n(x) - f(x)| = 0
-
 $$
 
 
@@ -8606,7 +8462,6 @@ Linear functions are a simple and commonly used function class in statistical le
 $$f(x) = w_0 + w_1x_1 + w_2x_2 + ... + w_nx_n$$
 
 
-
 where $w_0, w_1, ..., w_n$ are the coefficients and $x_1, x_2, ..., x_n$ are the input variables. Linear functions are often used in regression problems, where the goal is to predict a continuous output variable. They are easy to interpret and can provide a good baseline model for more complex function classes.
 
 
@@ -8614,9 +8469,7 @@ where $w_0, w_1, ..., w_n$ are the coefficients and $x_1, x_2, ..., x_n$ are the
 Polynomial functions are another commonly used function class in statistical learning. They are defined as functions that can be expressed as a sum of powers of the input variables. Mathematically, a polynomial function can be written as:
 
 
-
 $$f(x) = w_0 + w_1x + w_2x^2 + ... + w_nx^n$$
-
 
 
 where $w_0, w_1, ..., w_n$ are the coefficients and $x$ is the input variable. Polynomial functions are often used in regression and classification problems, where the goal is to predict a continuous or categorical output variable. They are more flexible than linear functions and can capture non-linear relationships between the input and output variables.
@@ -8660,9 +8513,7 @@ There are various types of function classes that are commonly used in statistica
 Linear functions are a simple and commonly used function class in statistical learning. They are defined as functions that can be expressed as a linear combination of the input variables. Mathematically, a linear function can be written as:
 
 
-
 $$f(x) = w_0 + w_1x_1 + w_2x_2 + ... + w_nx_n$$
-
 
 
 where $w_0, w_1, ..., w_n$ are the coefficients and $x_1, x_2, ..., x_n$ are the input variables. Linear functions are often used in regression problems, where the goal is to predict a continuous output variable. They are easy to interpret and can provide a good baseline model for more complex function classes.
@@ -8672,9 +8523,7 @@ where $w_0, w_1, ..., w_n$ are the coefficients and $x_1, x_2, ..., x_n$ are the
 Polynomial functions are another commonly used function class in statistical learning. They are defined as functions that can be expressed as a sum of powers of the input variables. Mathematically, a polynomial function can be written as:
 
 
-
 $$f(x) = w_0 + w_1x + w_2x^2 + ... + w_nx^n$$
-
 
 
 where $w_0, w_1, ..., w_n$ are the coefficients and $x$ is the input variable. Polynomial functions are more flexible than linear functions as they can capture non-linear relationships between the input and output variables. However, they can also be prone to overfitting if the degree of the polynomial is too high.
@@ -10058,7 +9907,6 @@ Boosting is a popular ensemble learning technique that combines multiple weak le
 Like other boosting methods, gradient boosting combines weak "learners" into a single strong learner in an iterative fashion. It is easiest to explain in the least-squares regression setting, where the goal is to "teach" a model <math>F</math> to predict values of the form <math>\hat{y} = F(x)</math> by minimizing the mean squared error <math>\tfrac{1}{n}\sum_i(\hat{y}_i - y_i)^2</math>, where <math> i </math> indexes over some training set of size <math> n </math> of actual values of the output variable <math>y</math>:
 
 
-
 $$
 
 \hat{y} = F(x) = \arg\min_{F} \frac{1}{n}\sum_i(\hat{y}_i - y_i)^2
@@ -10066,9 +9914,7 @@ $$
 $$
 
 
-
 Now, let us consider a boosting algorithm with <math>M</math> stages. At each stage <math>m</math> (<math>1 \le m \le M</math>) of boosting, suppose some imperfect model <math>F_m</math> (for low <math>m</math>, this model may simply return <math>\hat y_i = \bar y</math>, where the RHS is the mean of <math>y</math>). In order to improve <math>F_m</math>, our algorithm should add some new estimator, <math>h_m(x)</math>. Thus,
-
 
 
 $$
@@ -10078,9 +9924,7 @@ F_{m+1}(x_i) = F_m(x_i) + h_m(x_i) = y_i
 $$
 
 
-
 or, equivalently,
-
 
 
 $$
@@ -10090,9 +9934,7 @@ h_m(x_i) = y_i - F_m(x_i)
 $$
 
 
-
 Therefore, boosting will fit <math>h_m</math> to the "residual" <math>y_i - F_m(x_i)</math>. As in other boosting variants, each <math>F_{m+1}</math> attempts to correct the errors of its predecessor <math>F_m</math>. A generalization of this idea to loss functions other than squared error, and to classification and ranking problems, follows from the observation that residuals <math>h_m(x_i)</math> for a given model are proportional to the negative gradients of the mean squared error (MSE) loss function (with respect to <math>F(x_i)</math>):
-
 
 
 $$
@@ -10101,14 +9943,11 @@ L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
 
 $$
 
-
-
 $$
 
 - \frac{\partial L_{\rm MSE}}{\partial F(x_i)} = \frac{2}{n}(y_i - F(x_i)) = \frac{2}{n}h_m(x_i)
 
 $$
-
 
 
 So, boosting could be specialized to a gradient descent algorithm, and generalizing it entails "plugging in" a different loss function. This allows for the use of boosting in a variety of applications, including classification and ranking problems.
@@ -10208,21 +10047,17 @@ At each stage <math>m</math> of the boosting algorithm, a new weak learner <math
 One way to understand the boosting algorithm is to view it as a gradient descent algorithm. The residuals <math>h_m(x_i)</math> for a given model are proportional to the negative gradients of the mean squared error (MSE) loss function (with respect to <math>F(x_i)</math>):
 
 
-
 $$
 
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
 
 $$
 
-
-
 $$
 
 - \frac{\partial L_{\rm MSE}}{\partial F(x_i)} = \frac{2}{n}(y_i - F(x_i)) = \frac{2}{n}h_m(x_i)
 
 $$
-
 
 
 Therefore, the boosting algorithm can be seen as a specialized gradient descent algorithm, where each new learner is trained to minimize the MSE loss function by fitting the negative gradient of the current model. This generalizes to other loss functions and can be applied to various types of problems, including classification and ranking.
@@ -10282,21 +10117,17 @@ At each stage <math>m</math> of the boosting algorithm, a new weak learner <math
 One way to understand the boosting algorithm is to view it as a gradient descent algorithm. The residuals <math>h_m(x_i)</math> for a given model are proportional to the negative gradients of the mean squared error (MSE) loss function (with respect to <math>F(x_i)</math>):
 
 
-
 $$
 
 L_{\rm MSE} = \frac{1}{n} \sum_{i=1}^n \left(y_i - F(x_i)\right)^2
 
 $$
 
-
-
 $$
 
 - \frac{\partial L_{\rm MSE}}{\partial F(x_i)} = \frac{2}{n}(y_i - F(x_i)) = \frac{2}{n}h_m(x_i)
 
 $$
-
 
 
 This observation allows us to generalize the boosting algorithm to other loss functions and problems, such as classification and ranking. By fitting <math>h_m</math> to the negative gradient of the loss function, we are essentially performing a gradient descent step to minimize the error of the current model.
@@ -11158,13 +10989,11 @@ One of the key steps in object detection is extracting features from images. Thi
 Given a particular object class model with parameters $\Theta$, we must decide whether or not a new image contains an instance of that class. This is accomplished by making a Bayesian decision,
 
 
-
 $$
 
 \frac{P(\Theta_{obj}|X)}{P(\Theta_{bg}|X)} > T
 
 $$
-
 
 
 where $\Theta_{bg}$ is the background model. This ratio is compared to a threshold $T$ to determine object presence/absence.
@@ -11174,13 +11003,11 @@ where $\Theta_{bg}$ is the background model. This ratio is compared to a thresho
 The likelihoods are factored as follows:
 
 
-
 $$
 
 P(X|\Theta_{obj}) = P(X|A,S)P(A|S)P(S)
 
 $$
-
 
 
 where $A$ represents the appearance information and $S$ represents the scale information. This factorization allows for the simultaneous learning of shape, appearance, and relative scale, which is a key innovation in deep learning-based object detection techniques.
@@ -11244,13 +11071,11 @@ One of the key steps in object detection is extracting features from images. Thi
 Given a particular object class model with parameters $\Theta$, we must decide whether or not a new image contains an instance of that class. This is accomplished by making a Bayesian decision,
 
 
-
 $$
 
 \frac{P(\Theta_{obj}|X)}{P(\Theta_{bg}|X)} > T
 
 $$
-
 
 
 where $\Theta_{bg}$ is the background model. This ratio is compared to a threshold $T$ to determine object presence/absence.
@@ -11260,13 +11085,11 @@ where $\Theta_{bg}$ is the background model. This ratio is compared to a thresho
 The likelihoods are factored as follows:
 
 
-
 $$
 
 P(X|\Theta_{obj}) = P(X|A,S)P(A|S)P(S)
 
 $$
-
 
 
 where $X$ is the image, $A$ is the appearance of the object, $S$ is the scale of the object, and $P(S)$ is the prior probability of the object's scale. The appearance of the object is modeled using a CNN, which extracts features from the image. The scale of the object is estimated using techniques such as sliding window or image pyramid.
@@ -11362,7 +11185,6 @@ One of the key steps in object detection is extracting features from images. Thi
 Given a particular object class model with parameters $\Theta$, we must decide whether or not a new image contains an instance of that class. This is accomplished by making a Bayesian decision,
 
 
-
 $$
 
 \frac{P(\Theta_{obj}|X)}{P(\Theta_{bg}|X)} > T
@@ -11370,13 +11192,11 @@ $$
 $$
 
 
-
 where $\Theta_{bg}$ is the background model. This ratio is compared to a threshold $T$ to determine object presence/absence.
 
 
 
 The likelihoods are factored as follows:
-
 
 
 $$

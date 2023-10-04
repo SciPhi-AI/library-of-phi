@@ -1473,9 +1473,7 @@ The free space model is the simplest path loss model and is based on the inverse
 
 
 $$
-
 P_r = \frac{P_t}{d^2}
-
 $$
 
 
@@ -1497,9 +1495,7 @@ The two-ray ground reflection model takes into account the presence of a reflect
 
 
 $$
-
 P_r = \frac{P_t G_t G_r}{d^4}
-
 $$
 
 
@@ -1521,9 +1517,7 @@ The log-normal shadowing model takes into account the effects of obstacles and i
 
 
 $$
-
 P_r = P_t G_t G_r \frac{1}{d^{\alpha}} 10^{\frac{-X}{10}}
-
 $$
 
 
@@ -1583,9 +1577,7 @@ The free space model is the simplest path loss model and is based on the inverse
 
 
 $$
-
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
-
 $$
 
 
@@ -1603,9 +1595,7 @@ The two-ray ground reflection model takes into account the reflection of the sig
 
 
 $$
-
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L} \left(\frac{h_t h_r}{d^2}\right)^2
-
 $$
 
 
@@ -1623,9 +1613,7 @@ The log-normal shadowing model takes into account the effects of obstacles and i
 
 
 $$
-
 P_r = P_t G_t G_r \lambda^2 \left(\frac{d_0}{d}\right)^n 10^{-X_{\sigma}/10}
-
 $$
 
 
@@ -1683,7 +1671,6 @@ The free space model is the simplest path loss model and is based on the inverse
 $$P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2}$$
 
 
-
 Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, and $d$ is the distance between the transmitter and receiver.
 
 
@@ -1695,9 +1682,7 @@ Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power,
 The two-ray ground reflection model takes into account the reflection of the signal off the ground in addition to the direct path between the transmitter and receiver. This model is commonly used in outdoor environments where the ground acts as a reflecting surface. The received signal power is given by the equation below:
 
 
-
 $$P_r = \frac{P_t G_t G_r \lambda^2 h_t^2 h_r^2}{(4\pi d)^2 d^2}$$
-
 
 
 Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -1711,9 +1696,7 @@ Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, 
 The log-normal shadowing model takes into account the effects of obstacles and interference on the wireless signal. It assumes that the received signal power follows a log-normal distribution due to the random nature of these effects. The received signal power is given by the equation below:
 
 
-
 $$P_r = P_t G_t G_r \lambda^2 \frac{e^{-\frac{d^2}{2\sigma^2}}}{(4\pi d)^2}$$
-
 
 
 Where $\sigma$ is the standard deviation of the log-normal distribution.
@@ -1731,9 +1714,7 @@ While most wireless communications take place through the air, there are also ap
 One of the main path loss models used for underwater communications is the Thorp model, which takes into account the absorption and scattering of sound waves in water. The received signal power is given by the equation below:
 
 
-
 $$P_r = P_t e^{-\alpha d}$$
-
 
 
 Where $\alpha$ is the absorption coefficient and $d$ is the distance between the transmitter and receiver.
@@ -1789,13 +1770,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal travels through a vacuum with no obstacles or interference. In this model, the received signal power is inversely proportional to the square of the distance between the transmitter and receiver. Mathematically, it can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss.
@@ -1817,13 +1796,11 @@ The two-ray ground reflection model takes into account the effects of reflection
 Mathematically, the two-ray ground reflection model can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L} \left(\frac{h_t h_r}{d^2}\right)^2
 
 $$
-
 
 
 where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -1841,13 +1818,11 @@ The log-normal shadowing model takes into account the effects of obstacles and r
 Mathematically, the log-normal shadowing model can be represented as:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 L \left(\frac{1}{d}\right)^n 10^{\frac{-X}{10}}
 
 $$
-
 
 
 where $n$ is the path loss exponent, and $X$ is a random variable with a normal distribution.
@@ -1899,13 +1874,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal propagates through a vacuum with no obstacles or interference. The received signal power is inversely proportional to the square of the distance between the transmitter and receiver, as shown in the equation below:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss factor.
@@ -1919,13 +1892,11 @@ Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power,
 The two-ray ground reflection model takes into account the reflection of the signal off the ground in addition to the direct path between the transmitter and receiver. This model is commonly used for outdoor environments where the ground acts as a reflecting surface. The received signal power is given by the equation below:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2 h_t^2 h_r^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -1939,13 +1910,11 @@ Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, 
 The log-normal shadowing model takes into account the effects of obstacles and interference on the wireless signal. It assumes that the received signal power follows a log-normal distribution, with a mean of 0 and a standard deviation of $\sigma$. The received signal power is given by the equation below:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 \frac{e^{-\frac{d^2}{2\sigma^2}}}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $P_t$, $G_t$, $G_r$, $\lambda$, and $L$ are the same as in the free space model, and $\sigma$ is the standard deviation of the log-normal distribution.
@@ -2013,13 +1982,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal travels through a vacuum with no obstacles or interference. In this model, the received signal power is inversely proportional to the square of the distance between the transmitter and receiver. Mathematically, it can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss factor.
@@ -2037,13 +2004,11 @@ The free space model is useful for estimating the path loss in open spaces, such
 The two-ray ground reflection model takes into account the reflection of the signal off the ground in addition to the direct path between the transmitter and receiver. This model assumes that the ground is a perfect reflector and that the reflected signal arrives at the receiver with a phase shift of 180 degrees. Mathematically, it can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2 h_t^2 h_r^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -2061,13 +2026,11 @@ The two-ray ground reflection model is more accurate than the free space model i
 The log-normal shadowing model takes into account the effects of obstacles and multipath propagation on the wireless channel. It assumes that the received signal power follows a log-normal distribution, with a mean value that decreases with distance. This model is more accurate than the previous two models in real-world scenarios, but it requires more complex calculations. Mathematically, it can be represented as:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 \frac{e^{-\frac{d}{d_0}}}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $d_0$ is the reference distance and is typically set to 1 meter.
@@ -2119,13 +2082,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal propagates through a vacuum with no obstacles or interference. In this model, the received signal power decreases with the square of the distance between the transmitter and receiver. Mathematically, this can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss factor.
@@ -2139,13 +2100,11 @@ Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power,
 The two-ray ground reflection model takes into account the reflection of the signal off the ground in addition to the direct path between the transmitter and receiver. This model assumes that the ground is a perfect reflector and that the reflected signal is in phase with the direct signal. The received signal power in this model can be calculated as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L} \left(\frac{h_t h_r}{d^2}\right)^2
 
 $$
-
 
 
 Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -2159,13 +2118,11 @@ Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, 
 The log-normal shadowing model takes into account the effects of obstacles and interference on the wireless signal. It assumes that the received signal power follows a log-normal distribution due to the random nature of these effects. The received signal power in this model can be calculated as:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 \left(\frac{d_0}{d}\right)^n 10^{-X_{\sigma}/10}
 
 $$
-
 
 
 Where $d_0$ is a reference distance, $n$ is the path loss exponent, and $X_{\sigma}$ is a random variable with a standard deviation of $\sigma$.
@@ -2237,13 +2194,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal travels through a vacuum with no obstacles or interference. In this model, the received signal power is inversely proportional to the square of the distance between the transmitter and receiver. Mathematically, it can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the antenna gains of the transmitter and receiver respectively, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss factor.
@@ -2257,13 +2212,11 @@ where $P_r$ is the received signal power, $P_t$ is the transmitted signal power,
 The two-ray ground reflection model takes into account the reflection of the signal off the ground in addition to the direct path between the transmitter and receiver. This model is commonly used in outdoor environments where the ground acts as a reflecting surface. The received signal power in this model can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2 h_t^2 h_r^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas respectively.
@@ -2277,13 +2230,11 @@ where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas r
 The log-normal shadowing model takes into account the effects of obstacles and interference on the wireless signal. It assumes that the received signal power follows a log-normal distribution due to the random nature of obstacles and interference. The received signal power in this model can be represented as:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 e^{-\frac{d^2}{2\sigma^2}}
 
 $$
-
 
 
 where $\sigma$ is the standard deviation of the log-normal distribution.
@@ -2355,13 +2306,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal travels through a vacuum with no obstacles or interference. In this model, the received signal power is inversely proportional to the square of the distance between the transmitter and receiver. Mathematically, this can be expressed as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss factor.
@@ -2379,13 +2328,11 @@ The free space model is useful for estimating the path loss in open outdoor envi
 The two-ray ground reflection model is a more realistic path loss model that takes into account the effects of reflections from the ground. It assumes that the signal is transmitted from a height above the ground and that there is a perfect reflection from the ground. In this model, the received signal power is given by:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2 h_t^2 h_r^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -2403,13 +2350,11 @@ The two-ray ground reflection model is useful for estimating the path loss in ou
 The log-normal shadowing model is a statistical path loss model that takes into account the effects of multipath propagation and shadowing. It assumes that the received signal power follows a log-normal distribution, with a mean value that decreases with distance. This model is given by:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 \frac{e^{-\frac{d}{d_0}}}{(4\pi d)^2 L}
 
 $$
-
 
 
 Where $d_0$ is the reference distance and is typically set to 1 meter.
@@ -2465,13 +2410,11 @@ There are several path loss models that are commonly used in wireless communicat
 The free space model is the simplest path loss model and is based on the inverse square law. It assumes that the wireless signal propagates through a vacuum with no obstacles or interference. In this model, the received signal power decreases with the square of the distance between the transmitter and receiver. Mathematically, this can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L}
 
 $$
-
 
 
 where $P_r$ is the received signal power, $P_t$ is the transmitted signal power, $G_t$ and $G_r$ are the transmitter and receiver antenna gains, $\lambda$ is the wavelength of the signal, $d$ is the distance between the transmitter and receiver, and $L$ is the system loss.
@@ -2489,13 +2432,11 @@ The free space model is useful for estimating the path loss in open outdoor envi
 The two-ray ground reflection model is a more realistic path loss model that takes into account the effects of reflections from the ground. It assumes that the transmitted signal is reflected off the ground and reaches the receiver along with the direct signal. This results in a stronger received signal compared to the free space model. Mathematically, the received signal power can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r \lambda^2}{(4\pi d)^2 L} \left(\frac{h_t h_r}{d^2}\right)^2
 
 $$
-
 
 
 where $h_t$ and $h_r$ are the heights of the transmitter and receiver antennas, respectively.
@@ -2513,13 +2454,11 @@ The two-ray ground reflection model is useful for estimating the path loss in op
 The log-normal shadowing model is a statistical path loss model that takes into account the effects of obstacles and reflections in the wireless channel. It assumes that the received signal power follows a log-normal distribution, with a mean value that decreases with distance and a standard deviation that accounts for the variability in the received signal due to obstacles and reflections. Mathematically, the received signal power can be represented as:
 
 
-
 $$
 
 P_r = P_t G_t G_r \lambda^2 \left(\frac{d_0}{d}\right)^n 10^{-X_{\sigma}/10}
 
 $$
-
 
 
 where $d_0$ is a reference distance, $n$ is the path loss exponent, and $X_{\sigma}$ is a random variable with a standard deviation of $\sigma$.
@@ -2579,13 +2518,11 @@ The free space model is the simplest path loss model and is based on the inverse
 The free space model is given by the following equation:
 
 
-
 $$
 
 PL_{fs} = \left(\frac{4\pi d}{\lambda}\right)^2
 
 $$
-
 
 
 Where $PL_{fs}$ is the path loss in decibels (dB), $d$ is the distance between the transmitter and receiver in meters, and $\lambda$ is the wavelength of the signal in meters.
@@ -2599,13 +2536,11 @@ Where $PL_{fs}$ is the path loss in decibels (dB), $d$ is the distance between t
 The two-ray ground reflection model takes into account the reflection of the signal from the ground, which can occur in outdoor environments. This model assumes that the signal is reflected off the ground and reaches the receiver in addition to the direct path from the transmitter. The two-ray ground reflection model is given by the following equation:
 
 
-
 $$
 
 PL_{2ray} = \left(\frac{4\pi d}{\lambda}\right)^2 + \left(\frac{4\pi h_t h_r}{\lambda d}\right)^2
 
 $$
-
 
 
 Where $PL_{2ray}$ is the path loss in decibels (dB), $d$ is the distance between the transmitter and receiver in meters, $h_t$ is the height of the transmitter in meters, and $h_r$ is the height of the receiver in meters.
@@ -2619,13 +2554,11 @@ Where $PL_{2ray}$ is the path loss in decibels (dB), $d$ is the distance between
 The log-normal shadowing model takes into account the effects of obstacles and reflections in the wireless channel. It assumes that the received signal power follows a log-normal distribution, with a mean of 0 dB and a standard deviation of $\sigma_{dB}$. This model is given by the following equation:
 
 
-
 $$
 
 PL_{shadow} = PL_{fs} + X_{\sigma_{dB}}
 
 $$
-
 
 
 Where $PL_{fs}$ is the path loss from the free space model, and $X_{\sigma_{dB}}$ is a random variable with a log-normal distribution with a standard deviation of $\sigma_{dB}$.
@@ -3035,13 +2968,11 @@ Amplitude modulation is a form of modulation where the amplitude of a high-frequ
 The process of amplitude modulation can be represented mathematically as:
 
 
-
 $$
 
 s(t) = A_c[1 + m(t)]\cos(2\pi f_ct)
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A_c$ is the amplitude of the carrier signal, $m(t)$ is the modulating signal, and $f_c$ is the carrier frequency. The term $[1 + m(t)]$ represents the modulation index, which determines the extent to which the carrier signal is modulated by the modulating signal.
@@ -3105,13 +3036,11 @@ Frequency modulation is a form of modulation where the frequency of a high-frequ
 The process of frequency modulation can be represented mathematically as:
 
 
-
 $$
 
 s(t) = A_c\cos(2\pi f_ct + \Delta\phi(t))
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $\Delta\phi(t)$ is the phase deviation caused by the modulating signal.
@@ -3159,13 +3088,11 @@ Phase modulation is a form of modulation where the phase of a high-frequency car
 The process of phase modulation can be represented mathematically as:
 
 
-
 $$
 
 s(t) = A_c\cos(2\pi f_ct + \Delta\phi(t))
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $\Delta\phi(t)$ is the phase deviation caused by the modulating signal.
@@ -3221,13 +3148,11 @@ Quadrature modulation, also known as QAM, is a form of modulation where two carr
 The process of quadrature modulation can be represented mathematically as:
 
 
-
 $$
 
 s(t) = A_c\cos(2\pi f_ct + \Delta\phi(t)) + A_c\sin(2\pi f_ct + \Delta\phi(t))
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $\Delta\phi(t)$ is the phase deviation caused by the modulating signal.
@@ -3287,13 +3212,11 @@ Turbo codes were first introduced in 1993 by Claude Berrou, Alain Glavieux, and 
 The process of turbo coding can be represented mathematically as:
 
 
-
 $$
 
 \hat{u} = \arg\max_{u} P(u|y)
 
 $$
-
 
 
 where $\hat{u}$ is the estimated transmitted data, $u$ is the transmitted data, and $y$ is the received data.
@@ -3337,13 +3260,11 @@ Low-Density Parity-Check (LDPC) codes are another type of error control coding t
 LDPC codes are a type of linear block code that uses sparse parity-check matrices. This sparsity property allows for efficient decoding algorithms, making LDPC codes an attractive option for error correction in wireless communications. The decoding process for LDPC codes can be represented mathematically as:
 
 
-
 $$
 
 \hat{u} = \arg\min_{u} \sum_{i=1}^{n} \left| y_i - \sum_{j=1}^{k} H_{ij}u_j \right|
 
 $$
-
 
 
 where $\hat{u}$ is the estimated transmitted data, $u$ is the transmitted data, $y$ is the received data, $n$ is the length of the code, and $k$ is the number of information bits.
@@ -3491,13 +3412,11 @@ Channel capacity is a fundamental concept in wireless communications that determ
 The Shannon capacity, named after Claude Shannon, is the theoretical maximum channel capacity for a given channel. It is defined as the maximum rate at which information can be transmitted over a channel with arbitrarily low error probability. This capacity is dependent on the channel's bandwidth and signal-to-noise ratio (SNR) and is given by the following equation:
 
 
-
 $$
 
 C = B \log_2(1 + SNR)
 
 $$
-
 
 
 where $C$ is the channel capacity in bits per second, $B$ is the channel bandwidth in hertz, and $SNR$ is the signal-to-noise ratio.
@@ -3553,13 +3472,11 @@ Channel capacity is a fundamental concept in wireless communications that determ
 The Shannon capacity, named after Claude Shannon, is the theoretical maximum channel capacity for a given channel. It is defined as the maximum rate at which information can be transmitted over a channel with arbitrarily low error probability. This capacity is dependent on the channel's bandwidth and signal-to-noise ratio (SNR) and is given by the following equation:
 
 
-
 $$
 
 C = B \log_2(1 + SNR)
 
 $$
-
 
 
 where $C$ is the channel capacity in bits per second, $B$ is the channel bandwidth in hertz, and $SNR$ is the signal-to-noise ratio.
@@ -3615,13 +3532,11 @@ Channel capacity is a fundamental concept in wireless communications that determ
 The Shannon capacity, named after Claude Shannon, is the theoretical maximum channel capacity for a given channel. It is defined as the maximum rate at which information can be transmitted over a channel with arbitrarily low error probability. This capacity is dependent on the channel's bandwidth and signal-to-noise ratio (SNR) and is given by the following equation:
 
 
-
 $$
 
 C = B \log_2(1 + SNR)
 
 $$
-
 
 
 where $C$ is the channel capacity in bits per second, $B$ is the channel bandwidth in hertz, and $SNR$ is the signal-to-noise ratio.
@@ -3655,13 +3570,11 @@ Multiple-input multiple-output (MIMO) technology is a key component in modern wi
 The capacity of a MIMO channel can be calculated using the following equation:
 
 
-
 $$
 
 C = \log_2\det\left(\mathbf{I}_M + \frac{P}{N_0}\mathbf{H}\mathbf{H}^H\right)
 
 $$
-
 
 
 where $C$ is the channel capacity in bits per second, $M$ is the number of receive antennas, $P$ is the transmit power, $N_0$ is the noise power, and $\mathbf{H}$ is the channel matrix.
@@ -3693,13 +3606,11 @@ Channel capacity is a fundamental concept in wireless communications that determ
 The Shannon capacity, named after Claude Shannon, is the theoretical maximum channel capacity for a given channel. It is defined as the maximum rate at which information can be transmitted over a channel with arbitrarily low error probability. This capacity is dependent on the channel's bandwidth and signal-to-noise ratio (SNR) and is given by the following equation:
 
 
-
 $$
 
 C = B \log_2(1 + SNR)
 
 $$
-
 
 
 where $C$ is the channel capacity in bits per second, $B$ is the channel bandwidth in hertz, and $SNR$ is the signal-to-noise ratio.
@@ -7209,13 +7120,11 @@ Multiple-Input Multiple-Output (MIMO) antennas are a key technology in modern wi
 The MIMO system model consists of multiple antennas at both the transmitter and receiver, as shown in Figure 1. Each antenna at the transmitter is connected to a separate data stream, and the signals from all antennas are transmitted simultaneously. At the receiver, the signals from all antennas are combined to reconstruct the transmitted data streams.
 
 
-
 $$
 
 \mathbf{y} = \mathbf{Hx} + \mathbf{n}
 
 $$
-
 
 
 where $\mathbf{y}$ is the received signal vector, $\mathbf{H}$ is the channel matrix, $\mathbf{x}$ is the transmitted signal vector, and $\mathbf{n}$ is the noise vector. The channel matrix $\mathbf{H}$ represents the propagation characteristics between the transmitter and receiver, including path loss, fading, and interference.
@@ -7287,13 +7196,11 @@ Multiple-Input Multiple-Output (MIMO) antennas are a key technology in modern wi
 The MIMO system model consists of multiple antennas at both the transmitter and receiver, as shown in Figure 1. Each antenna at the transmitter is connected to a separate data stream, and the signals from all antennas are transmitted simultaneously. At the receiver, the signals from all antennas are combined to reconstruct the transmitted data streams.
 
 
-
 $$
 
 \mathbf{y} = \mathbf{Hx} + \mathbf{n}
 
 $$
-
 
 
 where $\mathbf{y}$ is the received signal vector, $\mathbf{H}$ is the channel matrix, $\mathbf{x}$ is the transmitted signal vector, and $\mathbf{n}$ is the noise vector. The channel matrix $\mathbf{H}$ represents the propagation characteristics between the transmitter and receiver, including path loss, fading, and interference.
@@ -7319,13 +7226,11 @@ Precoding techniques are used in open-loop MIMO systems to improve the signal qu
 MRT is a precoding technique that maximizes the received signal power by adjusting the amplitude and phase of each transmitted signal based on the channel characteristics. This is achieved by multiplying the transmitted signal vector $\mathbf{x}$ by the conjugate transpose of the channel matrix $\mathbf{H}$, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{x}_{MRT} = \mathbf{H}^H\mathbf{x}
 
 $$
-
 
 
 where $\mathbf{x}_{MRT}$ is the precoded signal vector. This technique is effective in minimizing the effects of fading and interference, resulting in improved signal quality at the receiver.
@@ -7339,13 +7244,11 @@ where $\mathbf{x}_{MRT}$ is the precoded signal vector. This technique is effect
 ZF is a precoding technique that eliminates the effects of interference by forcing the received signal vector $\mathbf{y}$ to be orthogonal to the interference vector $\mathbf{H}\mathbf{x}$. This is achieved by multiplying the transmitted signal vector $\mathbf{x}$ by the inverse of the channel matrix $\mathbf{H}$, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{x}_{ZF} = \mathbf{H}^{-1}\mathbf{x}
 
 $$
-
 
 
 where $\mathbf{x}_{ZF}$ is the precoded signal vector. This technique is effective in reducing interference, but it may also amplify noise and result in a lower signal-to-noise ratio at the receiver.
@@ -7359,13 +7262,11 @@ where $\mathbf{x}_{ZF}$ is the precoded signal vector. This technique is effecti
 SVD is a precoding technique that decomposes the channel matrix $\mathbf{H}$ into three matrices: $\mathbf{U}$, $\mathbf{\Sigma}$, and $\mathbf{V}^H$. The matrix $\mathbf{U}$ contains the left singular vectors, $\mathbf{\Sigma}$ is a diagonal matrix containing the singular values, and $\mathbf{V}^H$ contains the right singular vectors. The precoded signal vector $\mathbf{x}_{SVD}$ is then obtained by multiplying the transmitted signal vector $\mathbf{x}$ by the matrix $\mathbf{V}^H$, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{x}_{SVD} = \mathbf{V}^H\mathbf{x}
 
 $$
-
 
 
 This technique is effective in maximizing the data rate and minimizing the effects of interference, but it requires knowledge of the channel matrix at both the transmitter and receiver.
@@ -7379,13 +7280,11 @@ This technique is effective in maximizing the data rate and minimizing the effec
 The capacity of a MIMO system is the maximum achievable data rate for a given channel and signal-to-noise ratio (SNR). It is affected by various factors, such as the number of antennas, the channel characteristics, and the precoding technique used. The capacity can be calculated using the following equation:
 
 
-
 $$
 
 C = \log_2\left|\mathbf{I} + \frac{\mathbf{H}\mathbf{H}^H}{\sigma^2}\right|
 
 $$
-
 
 
 where $\mathbf{I}$ is the identity matrix, $\mathbf{H}$ is the channel matrix, and $\sigma^2$ is the noise variance. This equation shows that the capacity increases with the number of antennas and decreases with the noise variance. It also highlights the importance of precoding techniques in maximizing the capacity of a MIMO system.
@@ -7413,13 +7312,11 @@ Multiple-Input Multiple-Output (MIMO) antennas are a key technology in modern wi
 The MIMO system model consists of multiple antennas at both the transmitter and receiver, as shown in Figure 1. Each antenna at the transmitter is connected to a separate data stream, and the signals from all antennas are transmitted simultaneously. At the receiver, the signals from all antennas are combined to reconstruct the transmitted data streams.
 
 
-
 $$
 
 \mathbf{y} = \mathbf{Hx} + \mathbf{n}
 
 $$
-
 
 
 where $\mathbf{y}$ is the received signal vector, $\mathbf{H}$ is the channel matrix, $\mathbf{x}$ is the transmitted signal vector, and $\mathbf{n}$ is the noise vector. The channel matrix $\mathbf{H}$ represents the propagation characteristics between the transmitter and receiver, including path loss, fading, and interference.
@@ -7445,13 +7342,11 @@ Precoding techniques are used in open-loop MIMO systems to improve the signal qu
 MRT is a precoding technique that maximizes the received signal power by adjusting the amplitude and phase of each transmitted signal based on the channel characteristics. This is achieved by multiplying the transmitted signal vector $\mathbf{x}$ by the conjugate transpose of the channel matrix $\mathbf{H}$, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{x}_{MRT} = \mathbf{H}^H\mathbf{x}
 
 $$
-
 
 
 where $\mathbf{x}_{MRT}$ is the precoded signal vector. This technique is effective in reducing the effects of fading and interference, resulting in improved signal quality at the receiver.
@@ -7465,13 +7360,11 @@ where $\mathbf{x}_{MRT}$ is the precoded signal vector. This technique is effect
 ZF is a precoding technique that eliminates the effects of interference by forcing the received signal to be orthogonal to the interference. This is achieved by multiplying the transmitted signal vector $\mathbf{x}$ by the inverse of the channel matrix $\mathbf{H}$, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{x}_{ZF} = \mathbf{H}^{-1}\mathbf{x}
 
 $$
-
 
 
 where $\mathbf{x}_{ZF}$ is the precoded signal vector. This technique is effective in reducing the effects of interference, but it may amplify the noise, resulting in a lower signal-to-noise ratio at the receiver.
@@ -7485,13 +7378,11 @@ where $\mathbf{x}_{ZF}$ is the precoded signal vector. This technique is effecti
 SVD is a precoding technique that decomposes the channel matrix $\mathbf{H}$ into two unitary matrices and a diagonal matrix, as shown in the equation below.
 
 
-
 $$
 
 \mathbf{H} = \mathbf{U\Sigma V}^H
 
 $$
-
 
 
 where $\mathbf{U}$ and $\mathbf{V}$ are unitary matrices and $\mathbf{\Sigma}$ is a diagonal matrix with the singular values of $\mathbf{H}$ on the diagonal. This decomposition allows for the selection of the most favorable transmission directions, resulting in improved signal quality at the receiver.
@@ -7555,13 +7446,11 @@ Multiple-Input Multiple-Output (MIMO) antennas are a key technology in modern wi
 The MIMO system model consists of multiple antennas at both the transmitter and receiver, as shown in Figure 1. Each antenna at the transmitter is connected to a separate data stream, and the signals from all antennas are transmitted simultaneously. At the receiver, the signals from all antennas are combined to reconstruct the transmitted data streams.
 
 
-
 $$
 
 \mathbf{y} = \mathbf{Hx} + \mathbf{n}
 
 $$
-
 
 
 where $\mathbf{y}$ is the received signal vector, $\mathbf{H}$ is the channel matrix, $\mathbf{x}$ is the transmitted signal vector, and $\mathbf{n}$ is the noise vector. The channel matrix $\mathbf{H}$ represents the propagation characteristics between the transmitter and receiver, including path loss, fading, and interference.
@@ -7587,13 +7476,11 @@ Precoding techniques are used in open-loop MIMO systems to improve the signal qu
 MRT is a precoding technique that aims to maximize the received signal power by adjusting the amplitude and phase of the transmitted signals. It takes into account the channel matrix $\mathbf{H}$ and the noise vector $\mathbf{n}$ to determine the optimal precoding matrix $\mathbf{W}$.
 
 
-
 $$
 
 \mathbf{W}_{MRT} = \mathbf{H}^H (\mathbf{H}\mathbf{H}^H)^{-1}
 
 $$
-
 
 
 where $\mathbf{H}^H$ is the conjugate transpose of $\mathbf{H}$.
@@ -7611,13 +7498,11 @@ MRT is a simple and effective precoding technique, but it does not take into acc
 ZF is a precoding technique that aims to eliminate the interference from other users in the system. It does this by setting the precoding matrix $\mathbf{W}$ to the inverse of the channel matrix $\mathbf{H}$.
 
 
-
 $$
 
 \mathbf{W}_{ZF} = \mathbf{H}^{-1}
 
 $$
-
 
 
 However, ZF can amplify the noise in the system, leading to a decrease in signal quality. It is also sensitive to channel estimation errors, which can result in a significant performance degradation.
@@ -7631,13 +7516,11 @@ However, ZF can amplify the noise in the system, leading to a decrease in signal
 RZF is a modified version of ZF that aims to balance the trade-off between interference cancellation and noise amplification. It introduces a regularization parameter $\lambda$ to control the amount of noise amplification.
 
 
-
 $$
 
 \mathbf{W}_{RZF} = (\mathbf{H}^H\mathbf{H} + \lambda\mathbf{I})^{-1}\mathbf{H}^H
 
 $$
-
 
 
 RZF can provide better performance than ZF in scenarios with high interference, but it still suffers from sensitivity to channel estimation errors.
@@ -7667,13 +7550,11 @@ Beamforming can be implemented using either open-loop or closed-loop techniques.
 MRC is a beamforming technique that combines the signals from all antennas at the receiver to maximize the received signal power. It takes into account the channel matrix $\mathbf{H}$ and the noise vector $\mathbf{n}$ to determine the optimal combining weights.
 
 
-
 $$
 
 \mathbf{w}_{MRC} = \frac{\mathbf{H}^H}{\|\mathbf{H}^H\|}
 
 $$
-
 
 
 where $\|\mathbf{H}^H\|$ is the Frobenius norm of $\mathbf{H}^H$.
@@ -7691,13 +7572,11 @@ MRC is a simple and effective beamforming technique, but it does not take into a
 ML is a beamforming technique that aims to maximize the likelihood of the received signal given the transmitted signal and the channel matrix $\mathbf{H}$. It takes into account the noise vector $\mathbf{n}$ and the channel matrix $\mathbf{H}$ to determine the optimal beamforming weights.
 
 
-
 $$
 
 \mathbf{w}_{ML} = \arg\max_{\mathbf{w}} p(\mathbf{y}|\mathbf{x},\mathbf{H},\mathbf{w})
 
 $$
-
 
 
 ML can provide better performance than MRC in scenarios with high interference, but it requires more computational resources.
@@ -7711,13 +7590,11 @@ ML can provide better performance than MRC in scenarios with high interference, 
 MMSE is a beamforming technique that aims to minimize the mean square error between the transmitted and received signals. It takes into account the noise vector $\mathbf{n}$ and the channel matrix $\mathbf{H}$ to determine the optimal beamforming weights.
 
 
-
 $$
 
 \mathbf{w}_{MMSE} = (\mathbf{H}^H\mathbf{H} + \sigma_n^2\mathbf{I})^{-1}\mathbf{H}^H
 
 $$
-
 
 
 where $\sigma_n^2$ is the noise variance.
@@ -10477,13 +10354,11 @@ Maximum likelihood (ML) detection is a commonly used detection technique in wire
 Mathematically, ML detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} p(y|x)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x$ is the set of all possible transmitted symbols, and $p(y|x)$ is the conditional probability of the received signal $y$ given the transmitted symbol $x$.
@@ -10527,13 +10402,11 @@ Maximum likelihood (ML) detection is a commonly used detection technique in wire
 Mathematically, ML detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} p(y|x)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x$ is the set of all possible transmitted symbols, and $p(y|x)$ is the conditional probability of the received signal $y$ given the transmitted symbol $x$.
@@ -10563,13 +10436,11 @@ Matched filter detection is a suboptimal detection technique that is commonly us
 Mathematically, the matched filter output can be expressed as:
 
 
-
 $$
 
 y_{MF}(t) = \int_{-\infty}^{\infty} r(t)\cdot s(t-\tau) dt
 
 $$
-
 
 
 where $r(t)$ is the received signal, $s(t)$ is the matched filter, and $\tau$ is the time delay between the received signal and the matched filter.
@@ -10613,13 +10484,11 @@ Maximum likelihood (ML) detection is a commonly used detection technique in wire
 Mathematically, ML detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} p(y|x)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x$ is the set of all possible transmitted symbols, and $p(y|x)$ is the conditional probability of the received signal $y$ given the transmitted symbol $x$.
@@ -10649,13 +10518,11 @@ Matched filter detection is a suboptimal detection technique that is commonly us
 Mathematically, the matched filter detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} \int_{-\infty}^{\infty} r(t)x(t)dt
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x(t)$ is the matched filter, and $r(t)$ is the received signal.
@@ -10677,13 +10544,11 @@ Correlation detection is a variation of matched filter detection that is commonl
 Mathematically, the correlation detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} \sum_{n=0}^{N-1} r(n)x(n)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x(n)$ is the correlation sequence, and $r(n)$ is the received signal.
@@ -10719,13 +10584,11 @@ Maximum likelihood (ML) detection is a commonly used detection technique in wire
 Mathematically, ML detection can be expressed as:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} p(y|x)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted symbol, $x$ is the set of all possible transmitted symbols, and $p(y|x)$ is the conditional probability of the received signal $y$ given the transmitted symbol $x$.
@@ -10755,13 +10618,11 @@ Matched filter detection is a suboptimal detection technique that is commonly us
 Mathematically, the matched filter output can be expressed as:
 
 
-
 $$
 
 y_{MF}(t) = \int_{-\infty}^{\infty} x(t)\cdot h(t-\tau) dt
 
 $$
-
 
 
 where $x(t)$ is the transmitted signal, $h(t)$ is the impulse response of the channel, and $\tau$ is the time delay between the transmitted and received signals.
@@ -10787,13 +10648,11 @@ Decision feedback detection is a detection technique that is commonly used in wi
 Mathematically, decision feedback detection can be expressed as:
 
 
-
 $$
 
 \hat{x}_n = \arg\max_{x_n} p(y_n|x_n, \hat{x}_{n-1}, \hat{x}_{n-2}, ..., \hat{x}_{1})
 
 $$
-
 
 
 where $\hat{x}_n$ is the estimated transmitted symbol at time $n$, $p(y_n|x_n, \hat{x}_{n-1}, \hat{x}_{n-2}, ..., \hat{x}_{1})$ is the conditional probability of the received signal $y_n$ given the transmitted symbol $x_n$ and previously detected symbols $\hat{x}_{n-1}, \hat{x}_{n-2}, ..., \hat{x}_{1}$.
@@ -10849,13 +10708,11 @@ To achieve timing synchronization, the receiver must estimate the timing offset 
 Mathematically, the timing offset can be expressed as:
 
 
-
 $$
 
 \Delta t = \frac{\phi}{2\pi f_c}
 
 $$
-
 
 
 where $\Delta t$ is the timing offset, $\phi$ is the phase difference between the transmitter and receiver clocks, and $f_c$ is the carrier frequency.
@@ -10903,13 +10760,11 @@ To achieve timing synchronization, the receiver must estimate the timing offset 
 Mathematically, the timing offset can be expressed as:
 
 
-
 $$
 
 \Delta t = \frac{\phi}{2\pi f_c}
 
 $$
-
 
 
 where $\Delta t$ is the timing offset, $\phi$ is the phase difference between the transmitter and receiver clocks, and $f_c$ is the carrier frequency.
@@ -10939,13 +10794,11 @@ To achieve frequency synchronization, the receiver must estimate the frequency o
 Mathematically, the frequency offset can be expressed as:
 
 
-
 $$
 
 \Delta f = \frac{\Delta \omega}{2\pi}
 
 $$
-
 
 
 where $\Delta f$ is the frequency offset, and $\Delta \omega$ is the phase difference between the transmitter and receiver clocks.
@@ -10989,13 +10842,11 @@ To achieve timing synchronization, the receiver must estimate the timing offset 
 Mathematically, the timing offset can be expressed as:
 
 
-
 $$
 
 \Delta t = \frac{\phi}{2\pi f_c}
 
 $$
-
 
 
 where $\Delta t$ is the timing offset, $\phi$ is the phase difference between the transmitter and receiver clocks, and $f_c$ is the carrier frequency.
@@ -11025,13 +10876,11 @@ To achieve frequency synchronization, the receiver must estimate the frequency o
 Mathematically, the frequency offset can be expressed as:
 
 
-
 $$
 
 \Delta f = \frac{f_r - f_t}{f_t}
 
 $$
-
 
 
 where $\Delta f$ is the frequency offset, $f_r$ is the receiver's frequency, and $f_t$ is the transmitter's frequency.
@@ -11061,13 +10910,11 @@ To achieve phase synchronization, the receiver must estimate the phase offset be
 Mathematically, the phase offset can be expressed as:
 
 
-
 $$
 
 \Delta \phi = \phi_r - \phi_t
 
 $$
-
 
 
 where $\Delta \phi$ is the phase offset, $\phi_r$ is the receiver's phase, and $\phi_t$ is the transmitter's phase.
@@ -11107,13 +10954,11 @@ To achieve timing synchronization, the receiver must estimate the timing offset 
 Mathematically, the timing offset can be expressed as:
 
 
-
 $$
 
 \Delta t = \frac{\phi}{2\pi f_c}
 
 $$
-
 
 
 where $\Delta t$ is the timing offset, $\phi$ is the phase difference between the transmitter and receiver clocks, and $f_c$ is the carrier frequency.
@@ -11143,13 +10988,11 @@ To achieve frequency synchronization, the receiver must estimate the frequency o
 Mathematically, the frequency offset can be expressed as:
 
 
-
 $$
 
 \Delta f = \frac{f_r - f_t}{f_t}
 
 $$
-
 
 
 where $\Delta f$ is the frequency offset, $f_r$ is the receiver's frequency, and $f_t$ is the transmitter's frequency.
@@ -11179,21 +11022,17 @@ In OFDM systems, timing and frequency synchronization are typically achieved usi
 Mathematically, the timing and frequency offsets for each subcarrier can be expressed as:
 
 
-
 $$
 
 \Delta t_i = \frac{\phi_i}{2\pi f_{c,i}}
 
 $$
 
-
-
 $$
 
 \Delta f_i = \frac{f_{r,i} - f_{t,i}}{f_{t,i}}
 
 $$
-
 
 
 where $\Delta t_i$ and $\Delta f_i$ are the timing and frequency offsets for the $i$th subcarrier, $\phi_i$ is the phase difference between the transmitter and receiver clocks for the $i$th subcarrier, $f_{c,i}$ is the carrier frequency for the $i$th subcarrier, $f_{r,i}$ is the receiver's frequency for the $i$th subcarrier, and $f_{t,i}$ is the transmitter's frequency for the $i$th subcarrier.
@@ -11219,21 +11058,17 @@ In MIMO systems, synchronization is achieved by estimating the timing and freque
 Mathematically, the timing and frequency offsets for each antenna can be expressed as:
 
 
-
 $$
 
 \Delta t_j = \frac{\phi_j}{2\pi f_{c,j}}
 
 $$
 
-
-
 $$
 
 \Delta f_j = \frac{f_{r,j} - f_{t,j}}{f_{t,j}}
 
 $$
-
 
 
 where $\Delta t_j$ and $\Delta f_j$ are the timing and frequency offsets for the $j$th antenna, $\phi_j$ is the phase difference between the transmitter and receiver clocks for the $j$th antenna, $f_{c,j}$ is the carrier frequency for the $j$th antenna, $f_{r,j}$ is the receiver's frequency for the $j$th antenna, and $f_{t,j}$ is the transmitter's frequency for the $j$th antenna.
@@ -14125,13 +13960,11 @@ The free space propagation model assumes that there are no obstacles or obstruct
 The free space propagation model is based on the inverse square law, which states that the power of a signal decreases proportionally to the square of the distance from the source. Mathematically, this can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t}{d^2}
 
 $$
-
 
 
 Where $P_r$ is the received power, $P_t$ is the transmitted power, and $d$ is the distance between the transmitter and receiver. This equation shows that as the distance increases, the received power decreases exponentially.
@@ -14175,13 +14008,11 @@ The model assumes that the signal is reflected from the ground and reaches the r
 Mathematically, the received power in the two-ray ground reflection model can be represented as:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r}{(4\pi d)^2} + \frac{P_t G_t G_r}{(4\pi d_r)^2}
 
 $$
-
 
 
 Where $P_r$ is the received power, $P_t$ is the transmitted power, $G_t$ and $G_r$ are the gains of the transmitter and receiver antennas, $d$ is the distance between the transmitter and receiver, and $d_r$ is the distance between the transmitter and the ground reflection point.
@@ -14221,13 +14052,11 @@ The log-distance path loss model is a simple yet effective model for predicting 
 The log-distance path loss model takes into account these factors by introducing a path loss exponent, denoted by $n$. This exponent represents the rate at which the signal strength decreases with distance. It is typically between 2 and 4, with a value of 2 being equivalent to the inverse-square law. The model can be mathematically represented as:
 
 
-
 $$
 
 P_r = P_t - 10n\log_{10}\left(\frac{d}{d_0}\right) + X_\sigma
 
 $$
-
 
 
 Where $P_r$ is the received power, $P_t$ is the transmitted power, $d$ is the distance between the transmitter and receiver, $d_0$ is a reference distance, and $X_\sigma$ is a random variable representing the effects of fading and shadowing.
@@ -14293,13 +14122,11 @@ Channel estimation is a crucial aspect of wireless communication systems, as it 
 The least squares channel estimation method is a statistical approach that uses the principle of least squares to estimate the channel response between the transmitter and receiver. This method is based on the assumption that the received signal is a linear combination of the transmitted signal and the channel response, with the addition of noise. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(n) = h(n) * x(n) + w(n)
 
 $$
-
 
 
 Where $y(n)$ is the received signal, $h(n)$ is the channel response, $x(n)$ is the transmitted signal, and $w(n)$ is the noise.
@@ -14309,13 +14136,11 @@ Where $y(n)$ is the received signal, $h(n)$ is the channel response, $x(n)$ is t
 The goal of least squares channel estimation is to find the channel response $h(n)$ that minimizes the mean squared error between the received signal and the estimated signal. This can be achieved by solving the following optimization problem:
 
 
-
 $$
 
 \hat{h}(n) = argmin_{h(n)} \sum_{n=0}^{N-1} |y(n) - h(n) * x(n)|^2
 
 $$
-
 
 
 Where $\hat{h}(n)$ is the estimated channel response and $N$ is the length of the channel response.
@@ -14351,13 +14176,11 @@ Channel estimation is a crucial aspect of wireless communication systems, as it 
 The maximum likelihood channel estimation method is a statistical approach that uses the principle of maximum likelihood to estimate the channel response between the transmitter and receiver. This method is based on the assumption that the received signal is a linear combination of the transmitted signal and the channel response, with the addition of noise. Mathematically, this can be represented as:
 
 
-
 $$
 
 y(n) = h(n) * x(n) + w(n)
 
 $$
-
 
 
 Where $y(n)$ is the received signal, $h(n)$ is the channel response, $x(n)$ is the transmitted signal, and $w(n)$ is the noise.
@@ -14367,13 +14190,11 @@ Where $y(n)$ is the received signal, $h(n)$ is the channel response, $x(n)$ is t
 The goal of maximum likelihood channel estimation is to find the channel response $h(n)$ that maximizes the likelihood function of the received signal. This can be achieved by solving the following optimization problem:
 
 
-
 $$
 
 \hat{h}(n) = argmax_{h(n)} p(y(n)|h(n))
 
 $$
-
 
 
 Where $\hat{h}(n)$ is the estimated channel response and $p(y(n)|h(n))$ is the conditional probability density function of the received signal given the channel response.
@@ -14417,13 +14238,11 @@ The Bayesian channel estimation method starts with a prior probability distribut
 Mathematically, the Bayesian channel estimation problem can be formulated as:
 
 
-
 $$
 
 \hat{h}(n) = argmax_{h(n)} p(h(n)|y(n))
 
 $$
-
 
 
 Where $\hat{h}(n)$ is the estimated channel response, $p(h(n)|y(n))$ is the posterior probability distribution of the channel response given the received signal $y(n)$, and $p(y(n)|h(n))$ is the likelihood function, which represents the probability of observing the received signal given the channel response.
@@ -16555,13 +16374,11 @@ The goal of linear equalization is to minimize the mean square error (MSE) betwe
 Mathematically, linear equalization can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \sum_{k=0}^{N-1} w_k y(n-k)
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $w_k$ are the filter coefficients, and $y(n-k)$ is the received signal at time $n-k$. The filter coefficients are updated iteratively using an algorithm such as the least mean squares (LMS) algorithm, which minimizes the MSE between the estimated and received signals.
@@ -16601,13 +16418,11 @@ The goal of linear equalization is to minimize the mean square error (MSE) betwe
 Mathematically, linear equalization can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \sum_{k=0}^{N-1} w_k y(n-k)
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $w_k$ are the filter coefficients, and $y(n-k)$ is the received signal at time $n-k$. The filter coefficients are updated iteratively using an algorithm such as the least mean squares (LMS) algorithm.
@@ -16629,13 +16444,11 @@ The main idea behind DFE is to use the previously detected symbols to improve th
 Mathematically, DFE can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \sum_{k=0}^{N-1} w_k y(n-k) + \sum_{k=0}^{M-1} v_k \hat{x}(n-k)
 
 $$
-
 
 
 where $v_k$ are the feedback coefficients and $M$ is the number of feedback taps. The feedback coefficients are updated using the previously detected symbols, and the filter coefficients are updated using the LMS algorithm.
@@ -16671,13 +16484,11 @@ The goal of linear equalization is to minimize the mean square error (MSE) betwe
 Mathematically, linear equalization can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \sum_{k=0}^{N-1} w_k y(n-k)
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $w_k$ are the filter coefficients, and $y(n-k)$ is the received signal at time $n-k$. The filter coefficients are updated iteratively using an algorithm such as the least mean squares (LMS) algorithm.
@@ -16733,13 +16544,11 @@ The goal of linear equalization is to minimize the mean square error (MSE) betwe
 Mathematically, linear equalization can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \sum_{k=0}^{N-1} w_k y(n-k)
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $w_k$ are the filter coefficients, and $y(n-k)$ is the received signal at time $n-k$. The filter coefficients are updated iteratively using an algorithm such as the least mean squares (LMS) algorithm. This algorithm adjusts the filter coefficients in the direction of the negative gradient of the MSE, allowing for convergence to the optimal solution.
@@ -16765,13 +16574,11 @@ In MIMO systems, the equalization process becomes more complex due to the presen
 Mathematically, the equalization process in MIMO systems can be represented as follows:
 
 
-
 $$
 
 \hat{\mathbf{x}}(n) = \mathbf{W}^H \mathbf{y}(n)
 
 $$
-
 
 
 where $\hat{\mathbf{x}}(n)$ is the estimated transmitted signal vector, $\mathbf{W}$ is the equalization matrix, and $\mathbf{y}(n)$ is the received signal vector. The equalization matrix is designed based on the estimated channel matrix, $\mathbf{H}$, and the desired transmitted signal vector, $\mathbf{x}(n)$. The equalization matrix can be calculated using various methods, such as the minimum mean square error (MMSE) or zero-forcing (ZF) criteria.
@@ -16807,13 +16614,11 @@ Maximum likelihood detection is a statistical approach to detecting the transmit
 Mathematically, maximum likelihood detection can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \arg\max_{x} p(y(n)|x)
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $y(n)$ is the received signal, and $p(y(n)|x)$ is the conditional probability of the received signal given the transmitted signal $x$. This probability can be calculated using the channel model and the noise characteristics.
@@ -16823,13 +16628,11 @@ where $\hat{x}(n)$ is the estimated transmitted signal, $y(n)$ is the received s
 To simplify the calculation, the logarithm of the likelihood function is often used, which results in the following expression:
 
 
-
 $$
 
 \hat{x}(n) = \arg\max_{x} \log p(y(n)|x)
 
 $$
-
 
 
 The maximum likelihood detection algorithm involves evaluating the likelihood function for all possible transmitted signals and choosing the one with the highest probability. This approach is computationally intensive, especially for systems with a large number of possible transmitted signals. Therefore, various techniques, such as the Viterbi algorithm, have been developed to reduce the complexity of the maximum likelihood detection.
@@ -16865,13 +16668,11 @@ Matched filter detection is a signal processing technique used to detect the pre
 Mathematically, the matched filter detection can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \arg\max_{x} \int_{-\infty}^{\infty} y(t)x(t-\tau)dt
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $y(t)$ is the received signal, and $x(t)$ is the reference signal. The integral represents the correlation between the received signal and the reference signal at a time delay of $\tau$.
@@ -16919,13 +16720,11 @@ Correlation detection is a signal processing technique that is used to detect th
 Mathematically, correlation detection can be represented as follows:
 
 
-
 $$
 
 \hat{x}(n) = \arg\max_{x} \int_{-\infty}^{\infty} y(t)x(t)dt
 
 $$
-
 
 
 where $\hat{x}(n)$ is the estimated transmitted signal, $y(t)$ is the received signal, and $x(t)$ is the reference signal. The integral represents the correlation between the received signal and the reference signal.
@@ -16977,13 +16776,11 @@ The detection process in MIMO systems involves estimating the transmitted signal
 One of the commonly used detection techniques in MIMO systems is maximum likelihood detection. This technique involves finding the transmitted signal that maximizes the likelihood of the received signal, given the CSI. Mathematically, this can be represented as follows:
 
 
-
 $$
 
 \hat{x} = \arg\max_{x} p(y|x) = \arg\max_{x} p(y|x) p(x)
 
 $$
-
 
 
 where $\hat{x}$ is the estimated transmitted signal, $p(y|x)$ is the conditional probability of the received signal given the transmitted signal, and $p(x)$ is the probability of the transmitted signal.
@@ -17027,13 +16824,11 @@ One of the commonly used techniques for timing synchronization is correlation. T
 Another technique for timing synchronization is maximum likelihood estimation. This technique involves finding the timing offset that maximizes the likelihood of the received signal, given the transmitted signal. Mathematically, this can be represented as follows:
 
 
-
 $$
 
 \hat{\tau} = \arg\max_{\tau} p(y|\tau) = \arg\max_{\tau} p(y|\tau) p(\tau)
 
 $$
-
 
 
 where $\hat{\tau}$ is the estimated timing offset, $p(y|\tau)$ is the conditional probability of the received signal given the timing offset, and $p(\tau)$ is the probability of the timing offset.
@@ -17077,13 +16872,11 @@ One of the commonly used techniques for timing synchronization is correlation. T
 Another technique for timing synchronization is maximum likelihood estimation. This technique involves finding the timing offset that maximizes the likelihood of the received signal, given the transmitted signal. Mathematically, this can be represented as follows:
 
 
-
 $$
 
 \hat{\tau} = \arg\max_{\tau} p(y|\tau) = \arg\max_{\tau} p(y|\tau) p(\tau)
 
 $$
-
 
 
 where $\hat{\tau}$ is the estimated timing offset, $p(y|\tau)$ is the conditional probability of the received signal given the timing offset, and $p(\tau)$ is the prior probability of the timing offset.
@@ -17109,13 +16902,11 @@ One of the commonly used techniques for frequency synchronization is the phase-l
 Another technique for frequency synchronization is the maximum likelihood estimation. Similar to timing synchronization, this technique involves finding the frequency offset that maximizes the likelihood of the received signal, given the transmitted signal. Mathematically, this can be represented as follows:
 
 
-
 $$
 
 \hat{f} = \arg\max_{f} p(y|f) = \arg\max_{f} p(y|f) p(f)
 
 $$
-
 
 
 where $\hat{f}$ is the estimated frequency offset, $p(y|f)$ is the conditional probability of the received signal given the frequency offset, and $p(f)$ is the prior probability of the frequency offset.
@@ -17155,13 +16946,11 @@ One of the commonly used techniques for timing synchronization is correlation. T
 Another technique for timing synchronization is maximum likelihood estimation. This technique involves finding the timing offset that maximizes the likelihood of the received signal, given the transmitted signal. Mathematically, this can be represented as follows:
 
 
-
 $$
 
 \hat{\tau} = \arg\max_{\tau} p(y|\tau) = \arg\max_{\tau} p(y|\tau) p(\tau)
 
 $$
-
 
 
 where $\hat{\tau}$ is the estimated timing offset, $p(y|\tau)$ is the conditional probability of the received signal given the timing offset, and $p(\tau)$ is the prior probability of the timing offset. This technique takes into account the statistical properties of the transmitted and received signals to estimate the timing offset.
@@ -17231,7 +17020,6 @@ One of the commonly used techniques for timing synchronization is correlation. T
 
 
 Another technique for timing synchronization is maximum likelihood estimation. This technique involves finding the timing offset that maximizes the likelihood of the received signal, given the transmitted signal. Mathematically, this can be represented as follows:
-
 
 
 $$

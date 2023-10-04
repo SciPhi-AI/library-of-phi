@@ -1171,9 +1171,7 @@ Once we have defined a coordinate system, we can calculate the gradient of a sca
 
 
 $$
-
 \nabla f = \frac{\partial f}{\partial x}\hat{x} + \frac{\partial f}{\partial y}\hat{y} + \frac{\partial f}{\partial z}\hat{z}
-
 $$
 
 
@@ -1187,9 +1185,7 @@ Similarly, the gradient of a vector field can be calculated by taking the partia
 
 
 $$
-
 \nabla \vec{v} = \frac{\partial v_x}{\partial x}\hat{x} + \frac{\partial v_y}{\partial y}\hat{y} + \frac{\partial v_z}{\partial z}\hat{z}
-
 $$
 
 
@@ -1241,9 +1237,7 @@ Flux is a measure of the flow of a substance or property through a surface. It i
 
 
 $$
-
 \Phi = \int_S \vec{J} \cdot \vec{n} dS
-
 $$
 
 
@@ -1257,9 +1251,7 @@ The concept of flux is closely related to the concept of fields and gradients. I
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1311,9 +1303,7 @@ Flux is a measure of the flow of a substance or property through a surface. It i
 
 
 $$
-
 \Phi = \int_S \vec{J} \cdot \vec{n} dS
-
 $$
 
 
@@ -1327,9 +1317,7 @@ The concept of flux is closely related to the concept of fields and gradients. I
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1397,9 +1385,7 @@ Flux is a measure of the flow of a substance or property through a surface. It i
 
 
 $$
-
 \Phi = \int_S \vec{J} \cdot \vec{n} dS
-
 $$
 
 
@@ -1413,9 +1399,7 @@ The concept of flux is closely related to the concept of fields and gradients. I
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1507,9 +1491,7 @@ Mathematically, the continuity equation can be expressed as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1519,9 +1501,7 @@ where $\rho$ is the density of the substance and $\vec{J}$ is the flux density v
 
 
 $$
-
 \frac{d}{dt} \int_V \rho dV + \int_S \vec{J} \cdot \vec{n} dS = 0
-
 $$
 
 
@@ -1577,9 +1557,7 @@ Mathematically, the continuity equation can be expressed as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1589,9 +1567,7 @@ where $\rho$ is the density of the substance and $\vec{J}$ is the flux density v
 
 
 $$
-
 \frac{d}{dt} \int_V \rho dV + \int_S \vec{J} \cdot \vec{n} dS = 0
-
 $$
 
 
@@ -1651,9 +1627,7 @@ Mathematically, the continuity equation can be expressed as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{J} = 0
-
 $$
 
 
@@ -1663,9 +1637,7 @@ where $\rho$ is the density of the substance and $\vec{J}$ is the flux density v
 
 
 $$
-
 \frac{d}{dt} \int_V \rho dV + \int_S \vec{J} \cdot \vec{n} dS = 0
-
 $$
 
 
@@ -1819,9 +1791,7 @@ As mentioned earlier, diffusion is driven by a gradient in chemical potential. T
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -2007,9 +1977,7 @@ In the presence of an electrical potential, charged particles will experience a 
 The effect of electrical potential on diffusion can be described by the Nernst-Einstein equation:
 
 $$
-
 D = \frac{D_0}{1+\frac{zF\phi}{RT}}
-
 $$
 
 where $D$ is the diffusion coefficient, $D_0$ is the diffusion coefficient in the absence of an electrical potential, $z$ is the charge number of the diffusing species, $F$ is the Faraday constant, $\phi$ is the electrical potential, $R$ is the gas constant, and $T$ is the temperature.
@@ -2031,9 +1999,7 @@ Capillarity, also known as surface tension, is a phenomenon that arises from the
 Capillarity can be described by the Young-Laplace equation:
 
 $$
-
 \Delta p = \frac{2\gamma}{r}
-
 $$
 
 where $\Delta p$ is the pressure difference across a curved interface, $\gamma$ is the surface tension, and $r$ is the radius of curvature.
@@ -2055,9 +2021,7 @@ Stress is a measure of the internal forces within a material. In materials, the 
 Stress can be described by the Cauchy stress tensor:
 
 $$
-
 \sigma_{ij} = \frac{1}{V}\sum_{k=1}^{N}m_kv_{ik}v_{jk}
-
 $$
 
 where $\sigma_{ij}$ is the stress tensor, $V$ is the volume of the material, $m_k$ is the mass of the $k$-th particle, and $v_{ik}$ and $v_{jk}$ are the $i$-th and $j$-th components of the velocity of the $k$-th particle.
@@ -2105,9 +2069,7 @@ In the presence of an electrical potential, charged particles will experience a 
 The effect of electrical potential on diffusion can be described by the Nernst-Einstein equation:
 
 $$
-
 D = \frac{D_0}{1+\frac{zF\phi}{RT}}
-
 $$
 
 where $D$ is the diffusion coefficient, $D_0$ is the diffusion coefficient in the absence of an electrical potential, $z$ is the charge number of the diffusing species, $F$ is the Faraday constant, $\phi$ is the electrical potential, $R$ is the gas constant, and $T$ is the temperature.
@@ -2179,9 +2141,7 @@ In the presence of an electrical potential, charged particles will experience a 
 The effect of electrical potential on diffusion can be described by the Nernst-Einstein equation:
 
 $$
-
 D = \frac{D_0}{1+\frac{zF\phi}{RT}}
-
 $$
 
 where $D$ is the diffusion coefficient, $D_0$ is the diffusion coefficient in the absence of an electrical potential, $z$ is the charge number of the diffusing species, $F$ is the Faraday constant, $\phi$ is the electrical potential, $R$ is the gas constant, and $T$ is the temperature.
@@ -2211,9 +2171,7 @@ In the context of diffusion, capillarity can affect the concentration gradient o
 The effect of capillarity on diffusion can be described by the Washburn equation:
 
 $$
-
 D = \frac{2\gamma cos\theta}{r\rho g}
-
 $$
 
 where $D$ is the diffusion coefficient, $\gamma$ is the surface tension of the liquid, $\theta$ is the contact angle between the liquid and the solid material, $r$ is the radius of the pore, $\rho$ is the density of the liquid, and $g$ is the acceleration due to gravity.
@@ -2301,9 +2259,7 @@ In some cases, stress can also cause defects or dislocations in the material, wh
 The effect of stress on diffusion can be described by the following equation:
 
 $$
-
 D = D_0e^{\frac{-E_a}{RT}}e^{\frac{-\sigma V_m}{RT}}
-
 $$
 
 where $D$ is the diffusion coefficient, $D_0$ is the diffusion coefficient in the absence of stress, $E_a$ is the activation energy for diffusion, $\sigma$ is the applied stress, $V_m$ is the molar volume of the diffusing species, $R$ is the gas constant, and $T$ is the temperature.
@@ -2567,9 +2523,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -2583,9 +2537,7 @@ Next, we consider the equation for heat transfer, which takes into account the e
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -2599,9 +2551,7 @@ By combining these two equations and making some simplifying assumptions, such a
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -2619,9 +2569,7 @@ The diffusion equation can be written in different forms depending on the dimens
 
 
 $$
-
 {\partial c\over{\partial t}} = D{\partial^2 c\over{\partial x^2}}
-
 $$
 
 
@@ -2631,9 +2579,7 @@ Where $c$ is the concentration and $D$ is the diffusion coefficient. In two dime
 
 
 $$
-
 {\partial c\over{\partial t}} = D\left({\partial^2 c\over{\partial x^2}} + {\partial^2 c\over{\partial y^2}}\right)
-
 $$
 
 
@@ -2643,9 +2589,7 @@ And in three dimensions, the equation is:
 
 
 $$
-
 {\partial c\over{\partial t}} = D\left({\partial^2 c\over{\partial x^2}} + {\partial^2 c\over{\partial y^2}} + {\partial^2 c\over{\partial z^2}}\right)
-
 $$
 
 
@@ -2667,9 +2611,7 @@ For example, in a one-dimensional system with a constant diffusion coefficient, 
 
 
 $$
-
 c(0,t) = c_0 \quad \text{and} \quad c(L,t) = 0
-
 $$
 
 
@@ -2691,9 +2633,7 @@ One such solution is the steady-state solution, which describes the concentratio
 
 
 $$
-
 c(x) = c_0 + \frac{c_L - c_0}{L}x
-
 $$
 
 
@@ -2707,9 +2647,7 @@ Another important solution is the transient solution, which describes the concen
 
 
 $$
-
 c(x,t) = \frac{c_L - c_0}{L}x + \sum_{n=1}^{\infty} \frac{2(c_L - c_0)}{n\pi}\sin\left(\frac{n\pi x}{L}\right)e^{-D\left(\frac{n\pi}{L}\right)^2t}
-
 $$
 
 
@@ -2769,9 +2707,7 @@ The diffusion equation is given by:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3215,9 +3151,7 @@ Vacancy diffusion occurs when atoms or molecules move through a crystal lattice 
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -3231,9 +3165,7 @@ Interstitial diffusion, on the other hand, involves the movement of atoms or mol
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -3247,9 +3179,7 @@ Grain boundary diffusion occurs when atoms or molecules move along the boundarie
 
 
 $$
-
 D_{GB} = D_0 \exp \left( -\frac{Q_m}{RT} \right)
-
 $$
 
 
@@ -3293,9 +3223,7 @@ To better understand this process, we define the diffusion matrix <math>L</math>
 
 
 $$
-
 L_{i,j}=k(x_i,x_j)
-
 $$
 
 
@@ -3305,9 +3233,7 @@ We can then define a new kernel, denoted as <math>L^{(\alpha)}</math>, which tak
 
 
 $$
-
 L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alpha}}
-
 $$
 
 
@@ -3317,9 +3243,7 @@ where <math>d(x_i)</math> represents the degree of lattice site <math>x_i</math>
 
 
 $$
-
 L^{(\alpha)} = D^{-\alpha} L D^{-\alpha}
-
 $$
 
 
@@ -3329,9 +3253,7 @@ where <math>D</math> is a diagonal matrix with <math>D_{i,i} = \sum_j L_{i,j}</m
 
 
 $$
-
 M=({D}^{(\alpha)})^{-1}L^{(\alpha)}
-
 $$
 
 
@@ -3345,9 +3267,7 @@ The eigendecomposition of <math>M^t</math> yields:
 
 
 $$
-
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j)
-
 $$
 
 
@@ -3387,9 +3307,7 @@ To better understand this process, we define the diffusion matrix <math>L</math>
 
 
 $$
-
 L_{i,j}=k(x_i,x_j)
-
 $$
 
 
@@ -3399,9 +3317,7 @@ We can then define a new kernel, denoted as <math>L^{(\alpha)}</math>, which tak
 
 
 $$
-
 L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alpha}}
-
 $$
 
 
@@ -3411,9 +3327,7 @@ where <math>d(x_i)</math> represents the degree of lattice site <math>x_i</math>
 
 
 $$
-
 L^{(\alpha)} = D^{-\alpha} L D^{-\alpha}
-
 $$
 
 
@@ -3423,9 +3337,7 @@ where <math>D</math> is a diagonal matrix with <math>D_{i,i} = \sum_j L_{i,j}</m
 
 
 $$
-
 M=({D}^{(\alpha)})^{-1}L^{(\alpha)}
-
 $$
 
 
@@ -3443,9 +3355,7 @@ The eigendecomposition of the matrix <math>M^t</math> yields:
 
 
 $$
-
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j)
-
 $$
 
 
@@ -4409,9 +4319,7 @@ The term "capillary" comes from the Latin word "capillaris," meaning "of or rese
 
 
 $$
-
 \Delta P = \frac{\gamma}{R}
-
 $$
 
 
@@ -4459,9 +4367,7 @@ The term "capillary" comes from the Latin word "capillaris," meaning "of or rese
 
 
 $$
-
 \Delta P = \frac{\gamma}{R}
-
 $$
 
 
@@ -4513,9 +4419,7 @@ The term "capillary" comes from the Latin word "capillaris," meaning "of or rese
 
 
 $$
-
 \Delta P = \frac{\gamma}{R}
-
 $$
 
 
@@ -4669,9 +4573,7 @@ The kinetics of grain growth can be described by the following equation:
 
 
 $$
-
 \frac{d\bar{d}}{dt} = K\bar{d}^n
-
 $$
 
 
@@ -4727,9 +4629,7 @@ The kinetics of grain growth can be described by the following equation:
 
 
 $$
-
 \frac{d\bar{d}}{dt} = K\bar{d}^n
-
 $$
 
 
@@ -4797,9 +4697,7 @@ The kinetics of grain growth can be described by the following equation:
 
 
 $$
-
 \frac{d\bar{d}}{dt} = K\bar{d}^n
-
 $$
 
 
@@ -4973,9 +4871,7 @@ Diffusional creep is a deformation mechanism that occurs at high temperatures du
 
 
 $$
-
 \dot{\epsilon} = Ae^\frac{-Q}{RT} \frac{\sigma^n}{d^m}
-
 $$
 
 
@@ -5149,7 +5045,6 @@ Spinodal decomposition can be modeled using a generalized diffusion equation:
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu$$
 
 
-
 where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is the chemical potential. This equation can be considered as a phenomenological definition of the mobility $M$, which must by definition be positive. It represents the ratio of the flux to the local gradient in chemical potential.
 
 
@@ -5157,17 +5052,13 @@ where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is t
 The chemical potential is a variation of the free energy, and for the Cahn-Hilliard free energy, it can be expressed as:
 
 
-
 $$\mu=\frac{\delta F}{\delta c} = \left( \frac{\partial f}{\partial c} \right)_{c=c_0} - 2\kappa\nabla^2 c$$
-
 
 
 where $f$ is the free energy density, $c_0$ is the equilibrium concentration, and $\kappa$ is a constant related to the interfacial energy. Substituting this into the diffusion equation, we get:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu=M\left[\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}\nabla^2 c - 2\kappa\nabla^4 c\right]$$
-
 
 
 To understand the dynamics of spinodal decomposition, we can consider a small concentration fluctuation $\delta c=a\exp(\omega t)\sin({\vec q}.{\vec r})$, where $a$ is the amplitude, $\omega$ is the growth rate, and $\vec q$ is the wavevector. If $\omega < 0$, the perturbation shrinks to nothing, and the system is stable with respect to small perturbations or fluctuations. However, if $\omega > 0$, the perturbation grows, and the system is unstable, leading to spinodal decomposition.
@@ -5177,21 +5068,17 @@ To understand the dynamics of spinodal decomposition, we can consider a small co
 Substituting the concentration fluctuation into the diffusion equation, we get:
 
 
-
 $$\omega \delta c= M\left[-\left(\frac{\partial^2 f}{\partial c^2}\right)_{c=c_0}q^2-2\kappa q^4
 
 \right]\delta c$$
 
 
-
 This gives the same expressions for stability as before, but it also provides an expression for the growth rate of concentration perturbations:
-
 
 
 $$\omega = Mq^2\left[-\left(\frac{\partial^2 f}{\partial c^2}\right)_{c=c_0}-2\kappa q^2
 
 \right]$$
-
 
 
 This equation has a maximum at a critical wavevector $q_c$, which corresponds to the fastest growing perturbation. This critical wavevector is related to the characteristic length scale of the spinodal decomposition process.
@@ -5227,9 +5114,7 @@ Spinodal decomposition is a type of phase transformation that occurs in material
 Spinodal decomposition can be modeled using a generalized diffusion equation:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu$$
-
 
 
 where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is the chemical potential. This equation can be considered as a phenomenological definition of the mobility $M$, which must by definition be positive. It represents the ratio of the flux to the local gradient in chemical potential.
@@ -5239,17 +5124,13 @@ where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is t
 The chemical potential is a variation of the free energy, and for the Cahn-Hilliard free energy, it can be expressed as:
 
 
-
 $$\mu=\frac{\delta F}{\delta c} = \left( \frac{\partial f}{\partial c} \right)_{c=c_0} - 2\kappa\nabla^2 c$$
-
 
 
 where $f$ is the free energy density, $c_0$ is the equilibrium concentration, and $\kappa$ is a constant related to the interfacial energy. Substituting this into the diffusion equation, we get:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu=M\left[\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}\nabla^2 c - 2\kappa\nabla^4 c\right]$$
-
 
 
 To understand the dynamics of spinodal decomposition, we can consider a small concentration fluctuation $\delta c=a\exp(\omega t)\sin({\vec q}.{\vec r})$, where $a$ is the amplitude, $\omega$ is the growth rate, and $\vec q$ is the wavevector. If $\omega < 0$, the perturbation shrinks to nothing, and the system is stable with respect to small perturbations or fluctuations. However, if $\omega > 0$, the perturbation grows exponentially, leading to a phase separation. This is known as the spinodal decomposition process.
@@ -5305,9 +5186,7 @@ Spinodal decomposition is a type of phase transformation that occurs in material
 Spinodal decomposition can be modeled using a generalized diffusion equation:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu$$
-
 
 
 where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is the chemical potential. This equation can be considered as a phenomenological definition of the mobility $M$, which must by definition be positive. It represents the ratio of the flux to the local gradient in chemical potential.
@@ -5317,17 +5196,13 @@ where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is t
 The chemical potential is a variation of the free energy, and for the Cahn-Hilliard free energy, it can be expressed as:
 
 
-
 $$\mu=\frac{\delta F}{\delta c} = \left( \frac{\partial f}{\partial c} \right)_{c=c_0} - 2\kappa\nabla^2 c$$
-
 
 
 where $f$ is the free energy density, $c_0$ is the equilibrium concentration, and $\kappa$ is a constant related to the interfacial energy. Substituting this into the diffusion equation, we get:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu=M\left[\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}\nabla^2 c - 2\kappa\nabla^4 c\right]$$
-
 
 
 To understand the dynamics of spinodal decomposition, we can consider a small concentration fluctuation $\delta c=a\exp(\omega t)\sin({\vec q}.{\vec r})$, where $a$ is the amplitude, $\omega$ is the growth rate, and $\vec q$ is the wavevector. If $\omega < 0$, the perturbation shrinks to nothing, and the system is stable with respect to small perturbations or fluctuations. However, if $\omega > 0$, the perturbation grows exponentially, leading to a phase separation. This is known as the spinodal decomposition process.
@@ -5399,9 +5274,7 @@ Spinodal decomposition is a type of phase transformation that occurs in material
 Spinodal decomposition can be modeled using a generalized diffusion equation:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu$$
-
 
 
 where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is the chemical potential. This equation can be considered as a phenomenological definition of the mobility $M$, which must by definition be positive. It represents the ratio of the flux to the local gradient in chemical potential.
@@ -5411,17 +5284,13 @@ where $c$ is the concentration, $t$ is time, $M$ is the mobility, and $\mu$ is t
 The chemical potential is a variation of the free energy, and for the Cahn-Hilliard free energy, it can be expressed as:
 
 
-
 $$\mu=\frac{\delta F}{\delta c} = \left( \frac{\partial f}{\partial c} \right)_{c=c_0} - 2\kappa\nabla^2 c$$
-
 
 
 where $f$ is the free energy density, $c_0$ is the equilibrium concentration, and $\kappa$ is a constant related to the interfacial energy. Substituting this into the diffusion equation, we get:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu=M\left[\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}\nabla^2 c - 2\kappa\nabla^4 c\right]$$
-
 
 
 To understand the kinetics of spinodal decomposition, we can consider a small concentration fluctuation $\delta c=a\exp(\omega t)\sin({\vec q}.{\vec r})$, where $a$ is the amplitude, $\omega$ is the growth rate, and $\vec q$ is the wavevector. If $\omega < 0$, the perturbation shrinks to nothing, and the system is stable with respect to small perturbations or fluctuations. However, if $\omega > 0$, the perturbation grows exponentially, leading to the formation of new phases.
@@ -5435,9 +5304,7 @@ The growth rate $\omega$ can be calculated using linear stability analysis, whic
 The wavelength of the composition modulation, $\lambda$, can also be determined using linear stability analysis. It is given by:
 
 
-
 $$\lambda = \frac{2\pi}{q} = \frac{2\pi}{\sqrt{\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}}}$$
-
 
 
 This means that the wavelength of the composition modulation is inversely proportional to the square root of the second derivative of the free energy with respect to concentration. This is consistent with the observations made by Daniel and Lipson in their study of the Cu-Ni-Fe alloy, where the wavelength of the modulation was of the order of 100 angstroms.
@@ -5749,7 +5616,6 @@ The diffusion process can be described mathematically using a transition matrix 
 To better understand the diffusion process, we define the diffusion matrix <math>L</math>, which is a version of the graph Laplacian matrix. This matrix takes into account the spatial variation and gradient in the mole fraction, and it is defined as:
 
 
-
 $$
 
 L_{i,j}=k(x_i,x_j)
@@ -5757,9 +5623,7 @@ L_{i,j}=k(x_i,x_j)
 $$
 
 
-
 where <math>k(x_i,x_j)</math> is the diffusion coefficient between two locations <math>x_i</math> and <math>x_j</math>. We can then define a new kernel, denoted as <math>L^{(\alpha)}</math>, which takes into account the spatial variation and gradient in the mole fraction as well as the distance between locations. This kernel is defined as:
-
 
 
 $$
@@ -5769,9 +5633,7 @@ L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alph
 $$
 
 
-
 or equivalently,
-
 
 
 $$
@@ -5781,9 +5643,7 @@ L^{(\alpha)} = D^{-\alpha} L D^{-\alpha}
 $$
 
 
-
 where <math>D</math> is a diagonal matrix and <math>D_{i, i} = \sum_j L_{i, j}.</math> We then apply the graph Laplacian normalization to this new kernel, resulting in the matrix <math>M</math>:
-
 
 
 $$
@@ -5793,9 +5653,7 @@ M=({D}^{(\alpha)})^{-1}L^{(\alpha)}
 $$
 
 
-
 where <math>D^{(\alpha)}</math> is a diagonal matrix and <math>{D}^{(\alpha)}_{i, i} = \sum_j L^{(\alpha)}_{i, j}.</math> This matrix <math>M</math> represents the diffusion process and can be used to calculate the probability of a particle moving from one location to another at a given time <math>t</math>:
-
 
 
 $$
@@ -5803,7 +5661,6 @@ $$
 p(x_j,t|x_i)=M^t_{i,j}
 
 $$
-
 
 
 One of the main applications of the diffusion process is in understanding and controlling nucleation in materials. Nucleation is the process by which a new phase or structure forms in a material, and it is a crucial step in many natural and industrial processes. By studying the diffusion process, we can gain insight into the formation and growth of nuclei in materials.
@@ -7591,13 +7448,11 @@ Diffusion in porous ceramics is a complex process that is influenced by various 
 The diffusion process in porous ceramics can be described by Fick's laws of diffusion, which state that the flux of a diffusing species is proportional to the concentration gradient. However, in porous ceramics, the concentration gradient is not constant due to the presence of pores. This leads to a non-linear diffusion behavior, which can be described by the effective diffusion coefficient, D_eff. D_eff takes into account the tortuosity of the diffusion path and is given by the following equation:
 
 
-
 $$
 
 D_{eff} = D \cdot \frac{\epsilon}{\tau}
 
 $$
-
 
 
 where D is the diffusion coefficient in the absence of pores, ε is the porosity of the ceramic, and τ is the tortuosity factor.
@@ -7641,13 +7496,11 @@ Diffusion in porous ceramics is a complex process that is influenced by various 
 The diffusion process in porous ceramics can be described by Fick's laws of diffusion, which state that the flux of a diffusing species is proportional to the concentration gradient. However, in porous ceramics, the concentration gradient is not constant due to the presence of pores. This leads to a non-linear diffusion behavior, which can be described by the effective diffusion coefficient, D_eff. D_eff takes into account the tortuosity of the diffusion path and is given by the following equation:
 
 
-
 $$
 
 D_{eff} = D \cdot \frac{\epsilon}{\tau}
 
 $$
-
 
 
 where D is the diffusion coefficient in the absence of pores, ε is the porosity of the ceramic, and τ is the tortuosity factor.
@@ -11521,13 +11374,11 @@ In conclusion, diffusion is a fundamental kinetic process in energy materials th
 #### Exercise 1
 
 Calculate the diffusion coefficient of a material at a given temperature using the Arrhenius equation:
-
 $$
 
 D = D_0 e^{-\frac{Q}{RT}}
 
 $$
-
 where $D_0$ is the pre-exponential factor, $Q$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature.
 
 
@@ -11697,13 +11548,11 @@ The diffusion mechanisms in environmental materials can be broadly classified in
 In vacancy diffusion, atoms or molecules move through the material by exchanging places with vacancies, which are empty lattice sites. This mechanism is more prevalent in materials with a high melting point, such as metals and ceramics. The diffusion coefficient for vacancy diffusion can be expressed as:
 
 
-
 $$
 
 D_v = D_0 \exp\left(-\frac{Q_v}{kT}\right)
 
 $$
-
 
 
 where $D_0$ is a constant, $Q_v$ is the activation energy for vacancy diffusion, $k$ is the Boltzmann constant, and $T$ is the temperature.
@@ -11717,13 +11566,11 @@ where $D_0$ is a constant, $Q_v$ is the activation energy for vacancy diffusion,
 In interstitial diffusion, atoms or molecules move through the material by occupying interstitial sites, which are small spaces between the atoms in the lattice. This mechanism is more common in materials with a low melting point, such as polymers. The diffusion coefficient for interstitial diffusion can be expressed as:
 
 
-
 $$
 
 D_i = D_0 \exp\left(-\frac{Q_i}{kT}\right)
 
 $$
-
 
 
 where $D_0$ is a constant, $Q_i$ is the activation energy for interstitial diffusion, $k$ is the Boltzmann constant, and $T$ is the temperature.
@@ -11735,7 +11582,6 @@ where $D_0$ is a constant, $Q_i$ is the activation energy for interstitial diffu
 
 
 Grain boundary diffusion occurs when atoms or molecules move along the boundaries between grains. This mechanism is influenced by the grain size and the presence of impurities at the grain boundaries. The diffusion coefficient for grain boundary diffusion can be expressed as:
-
 
 
 $$

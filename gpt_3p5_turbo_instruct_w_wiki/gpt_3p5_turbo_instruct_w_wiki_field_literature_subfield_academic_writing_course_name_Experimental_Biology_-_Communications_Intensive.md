@@ -13004,9 +13004,7 @@ Glycolysis is the process by which glucose is broken down into smaller molecules
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -13024,9 +13022,7 @@ Gluconeogenesis, on the other hand, is the process by which glucose is synthesiz
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ + 6H_2O \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+ + 2H^+
-
 $$
 
 
@@ -13074,9 +13070,7 @@ Glycolysis is the process by which glucose is broken down into smaller molecules
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -13094,9 +13088,7 @@ Gluconeogenesis, on the other hand, is the process by which glucose is synthesiz
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ + 6H_2O \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+ + 2H^+
-
 $$
 
 
@@ -13126,9 +13118,7 @@ One of the primary sources of acetyl-CoA is from the breakdown of sugars by glyc
 
 
 $$
-
 Pyruvate + HSCoA + NAD^+ \rightarrow Acetyl-CoA + NADH + CO_2
-
 $$
 
 
@@ -13210,9 +13200,7 @@ Glycolysis is the process by which glucose is broken down into smaller molecules
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2ATP + 2H^+
-
 $$
 
 
@@ -13230,9 +13218,7 @@ Gluconeogenesis, on the other hand, is the process by which glucose is synthesiz
 
 
 $$
-
 2Pyruvate + 4ATP + 2GTP + 2NADH + 2H^+ + 6H_2O \rightarrow Glucose + 4ADP + 2GDP + 6P_i + 2NAD^+ + 2H^+
-
 $$
 
 
@@ -13258,9 +13244,7 @@ The transport of electrons from NADH to oxygen can be summarized as:
 
 
 $$
-
 NADH + H^+ + 1/2O_2 \rightarrow NAD^+ + H_2O
-
 $$
 
 
@@ -13444,9 +13428,7 @@ The Michaelis-Menten equation is a commonly used model to describe the relations
 
 
 $$
-
 V_0 = k_{cat}[E][S]
-
 $$
 
 
@@ -13456,9 +13438,7 @@ This equation assumes that the enzyme-substrate complex is in rapid equilibrium 
 
 
 $$
-
 V_0 = \frac{k_{cat}[E][S]}{K_m + [S]}
-
 $$
 
 
@@ -18320,9 +18300,7 @@ Glycolysis is the first stage of cellular respiration and occurs in the cytoplas
 
 
 $$
-
 Glucose + 2NAD^+ + 2ADP + 2P_i \rightarrow 2Pyruvate + 2NADH + 2H^+ + 2ATP
-
 $$
 
 
@@ -18394,9 +18372,7 @@ The Krebs cycle, also known as the citric acid cycle, is the second stage of cel
 
 
 $$
-
 2Acetyl-CoA + 6NAD^+ + 2FAD + 2ADP + 2P_i \rightarrow 4CO_2 + 6NADH + 6H^+ + 2FADH_2 + 2ATP
-
 $$
 
 
@@ -18464,9 +18440,7 @@ The electron transport chain (ETC) is the final stage of cellular respiration an
 
 
 $$
-
 NADH + H^+ + \frac{1}{2}O_2 \rightarrow NAD^+ + H_2O
-
 $$
 
 
@@ -27458,9 +27432,7 @@ The rate of an enzymatic reaction can be described by the Michaelis-Menten equat
 
 
 $$
-
 V_0 = \frac{V_{max}[S]}{K_m + [S]}
-
 $$
 
 

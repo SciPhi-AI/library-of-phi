@@ -684,9 +684,7 @@ Mathematically, streamlines can be represented by the equation:
 
 
 $$
-
 \frac{dx}{u} = \frac{dy}{v} = \frac{dz}{w}
-
 $$
 
 
@@ -734,9 +732,7 @@ Mathematically, streamlines can be represented by the equation:
 
 
 $$
-
 \frac{dx}{u} = \frac{dy}{v} = \frac{dz}{w}
-
 $$
 
 
@@ -804,9 +800,7 @@ Mathematically, streamlines can be represented by the equation:
 
 
 $$
-
 \frac{dx}{u} = \frac{dy}{v} = \frac{dz}{w}
-
 $$
 
 
@@ -878,9 +872,7 @@ The velocity field can be mathematically represented as:
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -944,9 +936,7 @@ The velocity field can be mathematically represented as:
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -1034,9 +1024,7 @@ The velocity field can be mathematically represented as:
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -1134,9 +1122,7 @@ The velocity field can be mathematically represented as:
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -1226,9 +1212,7 @@ The acceleration field can be mathematically represented as:
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt}
-
 $$
 
 
@@ -1274,9 +1258,7 @@ The acceleration field and velocity field are closely related, as the accelerati
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt} = \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v}
-
 $$
 
 
@@ -1326,9 +1308,7 @@ The acceleration field can be mathematically represented as:
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt}
-
 $$
 
 
@@ -1548,9 +1528,7 @@ In the context of fluid mechanics, this principle can be applied to a control vo
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1612,9 +1590,7 @@ The equation is given by:
 
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -1650,9 +1626,7 @@ The equation is given by:
 
 
 $$
-
 \rho_1 A_1 v_1 = \rho_2 A_2 v_2
-
 $$
 
 
@@ -1752,9 +1726,7 @@ Open channel flows refer to the flow of fluids in open channels, such as rivers,
 
 
 $$
-
 Q_1 = Q_2
-
 $$
 
 
@@ -1826,9 +1798,7 @@ In incompressible flows, the continuity equation can be written as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1842,9 +1812,7 @@ In compressible flows, the continuity equation takes a slightly different form, 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) + \rho \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -1914,9 +1882,7 @@ In this section, we will explore the linear momentum equation, which is a fundam
 
 
 $$
-
 \frac{\partial}{\partial t}(\rho \vec{v}) + \nabla \cdot (\rho \vec{v} \vec{v}) = \rho \vec{g} + \nabla \cdot \vec{\tau}
-
 $$
 
 
@@ -2030,9 +1996,7 @@ In incompressible flows, the continuity equation can be written as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2042,9 +2006,7 @@ Where $\rho$ is the density of the fluid and $\mathbf{v}$ is the velocity vector
 
 
 $$
-
 \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2058,9 +2020,7 @@ In compressible flows, the continuity equation takes a slightly different form, 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) + \rho \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -2070,9 +2030,7 @@ This equation takes into account the change in density with time and the change 
 
 
 $$
-
 \nabla \cdot (\rho \mathbf{v}) + \rho \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -2170,9 +2128,7 @@ The Navier-Stokes equations are a set of partial differential equations that des
 
 
 $$
-
 \frac{d}{dt}\int_{V} \rho \vec{v} dV = \int_{V} \rho \vec{g} dV + \int_{A} \vec{t} dA + \int_{V} \rho \vec{f} dV
-
 $$
 
 
@@ -2182,9 +2138,7 @@ Where $\rho$ is the density of the fluid, $\vec{v}$ is the velocity vector, $\ve
 
 
 $$
-
 \rho \frac{\partial \vec{v}}{\partial t} + \rho \vec{v} \cdot \nabla \vec{v} = \rho \vec{g} + \nabla \cdot \vec{\tau} + \vec{f}
-
 $$
 
 
@@ -2194,9 +2148,7 @@ Where $\vec{\tau}$ is the stress tensor, which accounts for the viscous forces a
 
 
 $$
-
 \rho \frac{\partial \vec{v}}{\partial t} + \rho \vec{v} \cdot \nabla \vec{v} = \rho \vec{g} - \nabla p + \mu \nabla^2 \vec{v} + \vec{f}
-
 $$
 
 
@@ -2230,9 +2182,7 @@ Similar to the conservation of linear momentum, the conservation of angular mome
 
 
 $$
-
 \frac{d}{dt}\int_{V} \rho \vec{r} \times \vec{v} dV = \int_{V} \rho \vec{r} \times \vec{g} dV + \int_{A} \vec{r} \times \vec{t} dA + \int_{V} \rho \vec{r} \times \vec{f} dV
-
 $$
 
 
@@ -2242,9 +2192,7 @@ Where $\vec{r}$ is the position vector, $\vec{v}$ is the velocity vector, $\vec{
 
 
 $$
-
 \rho \frac{\partial \vec{r} \times \vec{v}}{\partial t} + \rho \vec{v} \cdot \nabla (\vec{r} \times \vec{v}) = \rho \vec{r} \times \vec{g} + \nabla \cdot (\vec{r} \times \vec{\tau}) + \vec{r} \times \vec{f}
-
 $$
 
 
@@ -2254,9 +2202,7 @@ Where $\vec{\tau}$ is the stress tensor, which accounts for the viscous forces a
 
 
 $$
-
 \rho \frac{\partial \vec{r} \times \vec{v}}{\partial t} + \rho \vec{v} \cdot \nabla (\vec{r} \times \vec{v}) = \rho \vec{r} \times \vec{g} - \nabla \cdot (\vec{r} \times \vec{p}) + \mu \nabla^2 (\vec{r} \times \vec{v}) + \vec{r} \times \vec{f}
-
 $$
 
 
@@ -3004,9 +2950,7 @@ This linear relationship can be expressed mathematically as:
 
 
 $$
-
 \sigma_{ij} = \mu \frac{\partial u_i}{\partial x_j}
-
 $$
 
 
@@ -3330,9 +3274,7 @@ Stokes' flow can be mathematically defined as a type of flow where the Reynolds 
 
 
 $$
-
 Re = \frac{\rho u L}{\mu} \ll 1
-
 $$
 
 
@@ -3402,17 +3344,13 @@ The equations governing Stokes' flow are derived from the Navier-Stokes equation
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} = \nabla p
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3482,17 +3420,13 @@ The governing equations for Stokes' flow are the Navier-Stokes equations, which 
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} = \nabla p
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3574,17 +3508,13 @@ The Stokes equations are given by:
 
 
 $$
-
 \nabla p = \mu \nabla^2 \mathbf{u}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3646,17 +3576,13 @@ The Stokes equations are given by:
 
 
 $$
-
 \nabla \cdot \boldsymbol{\tau} = \mu \nabla^2 \mathbf{u}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3722,17 +3648,13 @@ The Stokes equations are given by:
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} = \nabla p
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3798,17 +3720,13 @@ The Stokes equations are given by:
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} = \nabla p
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3874,17 +3792,13 @@ The governing equations for Stokes' flow are the Navier-Stokes equations, which 
 
 
 $$
-
 \mu \nabla^2 \mathbf{u} = \nabla p
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -4114,9 +4028,7 @@ The continuity equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
@@ -4130,9 +4042,7 @@ The momentum equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\frac{\partial^2 u}{\partial y^2}
-
 $$
 
 
@@ -4146,9 +4056,7 @@ The energy equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial T}{\partial t} + u\frac{\partial T}{\partial x} + v\frac{\partial T}{\partial y} = \alpha\frac{\partial^2 T}{\partial y^2}
-
 $$
 
 
@@ -4192,9 +4100,7 @@ The continuity equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
@@ -4208,9 +4114,7 @@ The momentum equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
-
 $$
 
 
@@ -4270,9 +4174,7 @@ The continuity equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
@@ -4286,9 +4188,7 @@ The momentum equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
-
 $$
 
 
@@ -4302,9 +4202,7 @@ The energy equation for the boundary layer is given by:
 
 
 $$
-
 \frac{\partial T}{\partial t} + u\frac{\partial T}{\partial x} + v\frac{\partial T}{\partial y} = \alpha \left(\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2}\right)
-
 $$
 
 
@@ -4356,9 +4254,7 @@ The mixing length, denoted by $\lambda$, is defined as the distance from the sur
 
 
 $$
-
 \frac{\partial u}{\partial y} = \frac{\partial u}{\partial y}\bigg|_{\lambda}
-
 $$
 
 
@@ -4372,9 +4268,7 @@ Using this definition, the eddy viscosity can be calculated as:
 
 
 $$
-
 \nu_t = \frac{1}{3}\lambda^2\frac{\partial u}{\partial y}
-
 $$
 
 
@@ -4384,25 +4278,19 @@ where $\nu_t$ is the eddy viscosity and $\partial u/\partial y$ is the mean velo
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \frac{\partial}{\partial y}\bigg(\nu_t\frac{\partial u}{\partial y}\bigg)
-
 $$
 
 
 
 $$
-
 \frac{\partial T}{\partial t} + u\frac{\partial T}{\partial x} + v\frac{\partial T}{\partial y} = \frac{\partial}{\partial y}\bigg(\alpha\frac{\partial T}{\partial y}\bigg)
-
 $$
 
 
@@ -4438,9 +4326,7 @@ The mixing length, denoted by $\lambda$, is defined as the distance from the sur
 
 
 $$
-
 \frac{\partial u}{\partial y} = \frac{\partial u}{\partial y}\bigg|_{\lambda}
-
 $$
 
 
@@ -4454,9 +4340,7 @@ Using this definition, the eddy viscosity can be calculated as:
 
 
 $$
-
 \nu_t = \frac{1}{3}\lambda^2\frac{\partial u}{\partial y}
-
 $$
 
 
@@ -4466,17 +4350,13 @@ where $\nu_t$ is the eddy viscosity and $\partial u/\partial y$ is the mean velo
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \frac{\partial}{\partial y}\bigg(\nu_t\frac{\partial u}{\partial y}\bigg)
-
 $$
 
 
@@ -4524,9 +4404,7 @@ The mixing length, denoted by $\lambda$, is defined as the distance from the sur
 
 
 $$
-
 \frac{\partial u}{\partial y} = \frac{\partial u}{\partial y}\bigg|_{\lambda}
-
 $$
 
 
@@ -4540,9 +4418,7 @@ Using this definition, the eddy viscosity can be calculated as:
 
 
 $$
-
 \nu_t = \frac{1}{3}\lambda^2\frac{\partial u}{\partial y}
-
 $$
 
 
@@ -4552,17 +4428,13 @@ where $\nu_t$ is the eddy viscosity and $\partial u/\partial y$ is the mean velo
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \frac{\partial}{\partial y}\bigg(\nu_t\frac{\partial u}{\partial y}\bigg)
-
 $$
 
 
@@ -4626,9 +4498,7 @@ The laminar boundary layer is a region of fluid flow that forms on the surface o
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -4646,9 +4516,7 @@ The laminar boundary layer is characterized by a velocity profile that varies sm
 
 
 $$
-
 u(y) = \frac{u_\infty}{2}\left(1 - \sqrt{\frac{y}{\delta}}\right)
-
 $$
 
 
@@ -4688,9 +4556,7 @@ The velocity profile in the laminar boundary layer varies smoothly from zero at 
 
 
 $$
-
 u(y) = \frac{u_\infty}{2}\left(1 - \sqrt{\frac{y}{\delta}}\right)
-
 $$
 
 
@@ -4734,9 +4600,7 @@ The velocity profile in the laminar boundary layer varies smoothly from zero at 
 
 
 $$
-
 u(y) = \frac{u_\infty}{2}\left(1 - \sqrt{\frac{y}{\delta}}\right)
-
 $$
 
 
@@ -5140,9 +5004,7 @@ To understand Rayleigh's Criterion, we must first define the concept of kinetic 
 
 
 $$
-
 K = \frac{1}{2} \rho \int_V u^2 dV
-
 $$
 
 
@@ -5194,9 +5056,7 @@ To understand Rayleigh's Criterion, we must first define the concept of kinetic 
 
 
 $$
-
 K = \frac{1}{2} \rho \int_V u^2 dV
-
 $$
 
 
@@ -5264,9 +5124,7 @@ To understand Rayleigh's Criterion, we must first define the concept of kinetic 
 
 
 $$
-
 K = \frac{1}{2} \rho \int_V u^2 dV
-
 $$
 
 
@@ -5296,9 +5154,7 @@ To derive Rayleigh's Criterion, we start with the Navier-Stokes equations for an
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
-
 $$
 
 
@@ -5308,17 +5164,13 @@ where $\rho$ is the density, $\mathbf{u}$ is the velocity, $p$ is the pressure, 
 
 
 $$
-
 \mathbf{u} = \mathbf{U} + \mathbf{u}'
-
 $$
 
 
 
 $$
-
 p = P + p'
-
 $$
 
 
@@ -5328,17 +5180,13 @@ where $\mathbf{U}$ and $P$ are the base flow velocity and pressure, and $\mathbf
 
 
 $$
-
 \rho \frac{\partial \mathbf{u}'}{\partial t} = -\nabla p' + \mu \nabla^2 \mathbf{u}'
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u}' = 0
-
 $$
 
 
@@ -5348,9 +5196,7 @@ Next, we take the dot product of the first equation with $\mathbf{u}'$ and integ
 
 
 $$
-
 \rho \int_V \frac{\partial \mathbf{u}'}{\partial t} \cdot \mathbf{u}' dV = -\int_V \nabla p' \cdot \mathbf{u}' dV + \mu \int_V \nabla^2 \mathbf{u}' \cdot \mathbf{u}' dV
-
 $$
 
 
@@ -5360,9 +5206,7 @@ Using the product rule for differentiation and the divergence theorem, we can re
 
 
 $$
-
 \rho \frac{d}{dt} \int_V \frac{1}{2} \mathbf{u}' \cdot \mathbf{u}' dV = -\int_V \nabla \cdot (p' \mathbf{u}') dV + \mu \int_V \nabla \cdot (\nabla \mathbf{u}' \cdot \mathbf{u}') dV
-
 $$
 
 
@@ -5372,9 +5216,7 @@ Since the perturbations are small, we can assume that the pressure and velocity 
 
 
 $$
-
 \mu \int_V \nabla \cdot (\nabla \mathbf{u}' \cdot \mathbf{u}') dV = \mu \int_V \mathbf{u}' \cdot \nabla^2 \mathbf{u}' dV + \mu \int_V \nabla \mathbf{u}' : \nabla \mathbf{u}' dV
-
 $$
 
 
@@ -5384,9 +5226,7 @@ Substituting this back into the previous equation and rearranging, we obtain:
 
 
 $$
-
 \rho \frac{d}{dt} \int_V \frac{1}{2} \mathbf{u}' \cdot \mathbf{u}' dV = \mu \int_V \mathbf{u}' \cdot \nabla^2 \mathbf{u}' dV + \mu \int_V \nabla \mathbf{u}' : \nabla \mathbf{u}' dV
-
 $$
 
 
@@ -5396,9 +5236,7 @@ Using the definition of kinetic energy, we can rewrite this as:
 
 
 $$
-
 \rho \frac{dK}{dt} = \mu \int_V \mathbf{u}' \cdot \nabla^2 \mathbf{u}' dV + \mu \int_V \nabla \mathbf{u}' : \nabla \mathbf{u}' dV
-
 $$
 
 
@@ -5408,9 +5246,7 @@ Since the perturbations are small, we can assume that the velocity field is irro
 
 
 $$
-
 \rho \frac{dK}{dt} = \mu \int_V \mathbf{u}' \cdot \nabla^2 \mathbf{u}' dV
-
 $$
 
 
@@ -5420,9 +5256,7 @@ Using the definition of the Laplacian operator, we can rewrite this as:
 
 
 $$
-
 \rho \frac{dK}{dt} = \mu \int_V \nabla \cdot (\nabla \mathbf{u}') \cdot \mathbf{u}' dV
-
 $$
 
 
@@ -5432,9 +5266,7 @@ Applying the divergence theorem, we obtain:
 
 
 $$
-
 \rho \frac{dK}{dt} = \mu \int_S (\nabla \mathbf{u}') \cdot \mathbf{u}' \cdot \mathbf{n} dS
-
 $$
 
 
@@ -5444,9 +5276,7 @@ where $S$ is the surface enclosing the volume $V$ and $\mathbf{n}$ is the outwar
 
 
 $$
-
 \rho \frac{dK}{dt} = 0
-
 $$
 
 
@@ -5494,9 +5324,7 @@ The Orr-Sommerfeld equation is a second-order differential equation that describ
 
 
 $$
-
 \frac{d^2 \hat{u}}{d \hat{y}^2} - \alpha^2 \hat{u} + \frac{1}{Re} \left( \frac{d^4 \hat{u}}{d \hat{y}^4} - 2 \alpha^2 \frac{d^2 \hat{u}}{d \hat{y}^2} + \alpha^4 \hat{u} \right) = 0
-
 $$
 
 
@@ -5536,9 +5364,7 @@ The Orr-Sommerfeld equation is a second-order differential equation that describ
 
 
 $$
-
 \frac{d^2 \hat{u}}{d \hat{y}^2} - \alpha^2 \hat{u} + \frac{1}{Re} \left( \frac{d^4 \hat{u}}{d \hat{y}^4} - 2 \alpha^2 \frac{d^2 \hat{u}}{d \hat{y}^2} + \alpha^4 \hat{u} \right) = 0
-
 $$
 
 
@@ -5594,9 +5420,7 @@ The Orr-Sommerfeld equation is a second-order differential equation that describ
 
 
 $$
-
 \frac{d^2 \hat{u}}{d \hat{y}^2} - \alpha^2 \hat{u} + \frac{1}{Re} \left( \frac{d^4 \hat{u}}{d \hat{y}^4} - 2 \alpha^2 \frac{d^2 \hat{u}}{d \hat{y}^2} + \alpha^4 \hat{u} \right) = 0
-
 $$
 
 

@@ -1373,25 +1373,19 @@ Greenwood and Williamson (GW) proposed a theory of elastic contact mechanics of 
 
 
 $$
-
 n = N\int_0^\infty \phi^*(s)F_n(h)ds
-
 $$
 
 
 
 $$
-
 A_r = \int_0^\infty \phi^*(s)F_a(h)ds
-
 $$
 
 
 
 $$
-
 P = \int_0^\infty \phi^*(s)F_p(h)ds
-
 $$
 
 
@@ -1455,9 +1449,7 @@ Greenwood and Williamson (GW) proposed a theory of elastic contact mechanics of 
 
 
 $$
-
 n = N \int_{0}^{\infty} \phi(z)dz
-
 $$
 
 
@@ -1467,9 +1459,7 @@ The expected total area of contact can be calculated from the formula:
 
 
 $$
-
 A_r = N \int_{0}^{\infty} \phi(z)A(z)dz
-
 $$
 
 
@@ -1479,9 +1469,7 @@ and the expected total force is given by:
 
 
 $$
-
 P = N \int_{0}^{\infty} \phi(z)P(z)dz
-
 $$
 
 
@@ -2501,9 +2489,7 @@ Heat transfer plays a crucial role in the wear of materials, especially in solut
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
-
 $$
 
 
@@ -2517,9 +2503,7 @@ The equation for entropy production is also important in understanding the heat 
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3997,9 +3981,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
-
 $$
 
 
@@ -4013,9 +3995,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -4029,9 +4009,7 @@ In the case of solution wear, where thermal conduction and viscous forces are ab
 
 
 $$
-
 {Ds\over{Dt}}=0
-
 $$
 
 
@@ -4819,9 +4797,7 @@ The general equation for heat transfer is a fundamental tool in understanding th
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
-
 $$
 
 
@@ -4835,9 +4811,7 @@ In the case of solution wear, the equation for entropy production is particularl
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5189,9 +5163,7 @@ The equation for entropy production can be written as:
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5205,9 +5177,7 @@ The specific entropy production term can be written as:
 
 
 $$
-
 {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5271,9 +5241,7 @@ The equation for wear can be written as:
 
 
 $$
-
 \Delta w = \sum_{i=1}^{n} \left( k_{i}F_{i} + k_{i}'F_{i}' \right)
-
 $$
 
 

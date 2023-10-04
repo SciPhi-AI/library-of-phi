@@ -1463,7 +1463,6 @@ To compute the basis matrix, we first need to define the input vector <math>{Q}=
 
 
 $$
-
 \begin{bmatrix}
 
 1 - 2 q_j^2 - 2 q_k^2 & 2(q_i q_j - q_k q_r) & 2(q_i q_k + q_j q_r)\\
@@ -1473,7 +1472,6 @@ $$
 2(q_i q_k - q_j q_r) & 2(q_j q_k + q_i q_r) & 1 - 2 q_i^2 - 2 q_j^2
 
 \end{bmatrix}
-
 $$
 
 
@@ -1483,7 +1481,6 @@ Alternatively, we can use an alternate basis calculation method. This method inv
 
 
 $$
-
 \begin{bmatrix}
 
 \cos \theta+x_x & x_y + w_z & w_y + x_z \\
@@ -1493,7 +1490,6 @@ $$
 xz(1-\cos \theta) - y\sin \theta & x\sin \theta + yz(1-\cos \theta) & \cos \theta+z^{2}(1-\cos \theta)
 
 \end{bmatrix}
-
 $$
 
 
@@ -1507,9 +1503,7 @@ To rotate the vector, we use the following equation:
 
 
 $$
-
 v' = \cos \theta v + \sin \theta (Q \times v) + (1 - \cos \theta)(Q \cdot v)Q
-
 $$
 
 
@@ -1641,9 +1635,7 @@ The general form of a first order differential equation is given by:
 
 
 $$
-
 \dot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -1657,9 +1649,7 @@ The solution to this differential equation is given by:
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -1673,9 +1663,7 @@ One of the key characteristics of first order systems is their response to a ste
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u_0
-
 $$
 
 
@@ -1727,9 +1715,7 @@ The general form of a first order differential equation is given by:
 
 
 $$
-
 \dot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -1743,9 +1729,7 @@ The solution to this differential equation is given by:
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -1759,9 +1743,7 @@ One of the key characteristics of first order systems is their response to a ste
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u_0
-
 $$
 
 
@@ -1791,9 +1773,7 @@ The general form of a second order differential equation is given by:
 
 
 $$
-
 \ddot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -1807,9 +1787,7 @@ The solution to this differential equation is given by:
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -1861,9 +1839,7 @@ The general form of a first order differential equation is given by:
 
 
 $$
-
 \dot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -1877,9 +1853,7 @@ The solution to this differential equation is given by:
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -1893,9 +1867,7 @@ One of the key characteristics of first order systems is their response to a ste
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u_0
-
 $$
 
 
@@ -1929,9 +1901,7 @@ The general form of a second order differential equation is given by:
 
 
 $$
-
 \ddot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -1945,9 +1915,7 @@ The solution to this differential equation is given by:
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -2023,9 +1991,7 @@ The natural response of a first order system can be described by the following d
 
 
 $$
-
 \dot{x}(t) = ax(t)
-
 $$
 
 
@@ -2035,9 +2001,7 @@ where $x(t)$ is the state of the system and $a$ is the time constant. The soluti
 
 
 $$
-
 x(t) = x(0)e^{at}
-
 $$
 
 
@@ -2059,9 +2023,7 @@ In the case of a first order system, the forced response can be described by the
 
 
 $$
-
 \dot{x}(t) = ax(t) + bu(t)
-
 $$
 
 
@@ -2071,9 +2033,7 @@ where $x(t)$ is the state of the system, $u(t)$ is the input, and $a$ and $b$ ar
 
 
 $$
-
 x(t) = x(0)e^{at} + \frac{b}{a}(e^{at} - 1)u(t)
-
 $$
 
 
@@ -2121,9 +2081,7 @@ To better understand the forced response, let's consider the example of a mass-s
 
 
 $$
-
 m\ddot{x}(t) + c\dot{x}(t) + kx(t) = F(t)
-
 $$
 
 
@@ -2133,9 +2091,7 @@ where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constan
 
 
 $$
-
 x(t) = x_n(t) + x_f(t)
-
 $$
 
 
@@ -2157,9 +2113,7 @@ The natural and forced responses of a system are closely related. In fact, the f
 
 
 $$
-
 x_f(t) = x_n(t) + x_i(t)
-
 $$
 
 
@@ -2203,9 +2157,7 @@ To better understand the forced response, let's consider the example of a mass-s
 
 
 $$
-
 m\ddot{x}(t) + c\dot{x}(t) + kx(t) = F(t)
-
 $$
 
 
@@ -2215,9 +2167,7 @@ where $m$ is the mass, $c$ is the damping coefficient, $k$ is the spring constan
 
 
 $$
-
 x(t) = x_n(t) + x_f(t)
-
 $$
 
 
@@ -2419,13 +2369,11 @@ In a two-dimensional collision with two moving objects, the final velocities of 
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2})
-
 $$
 
 
@@ -2439,13 +2387,11 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2} \ (\mathbf{x}_1-\mathbf{x}_2)
 
 \\
 
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1)
-
 $$
 
 
@@ -2497,13 +2443,11 @@ In a two-dimensional collision with two moving objects, the final velocities of 
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2})
-
 $$
 
 
@@ -2517,13 +2461,11 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2} \ (\mathbf{x}_1-\mathbf{x}_2),
 
 \\[0.8em]
 
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1)
-
 $$
 
 
@@ -2587,13 +2529,11 @@ In a two-dimensional collision with two moving objects, the final velocities of 
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2})
-
 $$
 
 
@@ -2607,9 +2547,7 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2}(\mathbf{x}_1-\mathbf{x}_2)
-
 $$
 
 
@@ -2669,9 +2607,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -2719,9 +2655,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -2793,9 +2727,7 @@ Conservation of momentum is a fundamental principle in physics that states that 
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -2879,9 +2811,7 @@ Mathematically, the conservation of energy can be expressed as:
 
 
 $$
-
 \frac{dE}{dt} = \sum \dot{Q} - \sum \dot{W}
-
 $$
 
 
@@ -2945,9 +2875,7 @@ Mathematically, the conservation of energy can be expressed as:
 
 
 $$
-
 \frac{dE}{dt} = \sum \dot{Q} - \sum \dot{W}
-
 $$
 
 
@@ -3015,9 +2943,7 @@ Mathematically, the conservation of energy can be expressed as:
 
 
 $$
-
 \frac{dE}{dt} = \sum \dot{Q} - \sum \dot{W}
-
 $$
 
 
@@ -3667,9 +3593,7 @@ For translational motion, the equation of motion is given by:
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -3683,9 +3607,7 @@ For rotational motion, the equation of motion is given by:
 
 
 $$
-
 \sum \tau = I\alpha
-
 $$
 
 
@@ -4299,17 +4221,13 @@ The equations of motion for a rigid body in fixed-axis rotation are given by:
 
 
 $$
-
 I\dot{\omega} = \tau
-
 $$
 
 
 
 $$
-
 \dot{\theta} = \omega
-
 $$
 
 
@@ -5009,17 +4927,13 @@ While most physical systems are represented as continuous-time models, discrete-
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -5133,9 +5047,7 @@ The motion of a rigid body is governed by Newton's laws of motion, which state t
 
 
 $$
-
 \sum \mathbf{F} = m\mathbf{a}
-
 $$
 
 
@@ -5149,9 +5061,7 @@ To fully understand the dynamics of a rigid body, we must also consider its rota
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -5199,9 +5109,7 @@ The motion of a rigid body is governed by Newton's laws of motion, which state t
 
 
 $$
-
 \sum \mathbf{F} = m\mathbf{a}
-
 $$
 
 
@@ -5215,9 +5123,7 @@ To fully understand the dynamics of a rigid body, we must also consider its rota
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -5239,17 +5145,13 @@ The dynamics of a rigid body can be described using the equations of motion, whi
 
 
 $$
-
 \sum \mathbf{F} = m\mathbf{a}
-
 $$
 
 
 
 $$
-
 \sum \mathbf{M} = I\boldsymbol{\alpha}
-
 $$
 
 
@@ -5293,9 +5195,7 @@ The motion of a rigid body is governed by Newton's laws of motion, which state t
 
 
 $$
-
 \sum \mathbf{F} = m\mathbf{a}
-
 $$
 
 
@@ -5309,9 +5209,7 @@ To fully understand the dynamics of a rigid body, we must also consider its rota
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -5329,9 +5227,7 @@ To fully understand the dynamics of a rigid body, we must also consider the conc
 
 
 $$
-
 W = \int \mathbf{F} \cdot d\mathbf{s}
-
 $$
 
 
@@ -5341,9 +5237,7 @@ where $\mathbf{F}$ is the force and $d\mathbf{s}$ is the displacement. The work-
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -6571,17 +6465,13 @@ The EKF is used to estimate the state of a system based on noisy measurements. I
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -6599,9 +6489,7 @@ The EKF begins by initializing the state estimate and covariance matrix at time 
 
 
 $$
-
 \hat{\mathbf{x}}(t_0) = E\bigl[\mathbf{x}(t_0)\bigr] \quad \mathbf{P}(t_0) = Var\bigl[\mathbf{x}(t_0)\bigr]
-
 $$
 
 
@@ -6615,17 +6503,13 @@ The EKF then performs a predict-update cycle to estimate the state at each time 
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -6635,25 +6519,19 @@ where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the state transitio
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -6663,17 +6541,13 @@ The update step then uses the measurement to correct the state estimate and cova
 
 
 $$
-
 \hat{\mathbf{x}}(t) = \hat{\mathbf{x}}(t) + \mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{P}(t) = \mathbf{P}(t) - \mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)
-
 $$
 
 
@@ -6687,9 +6561,7 @@ In most cases, measurements are taken at discrete time intervals, while the syst
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -6765,17 +6637,13 @@ To model the dynamics of a rigid body in plane motion, we will use the state-spa
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -7455,9 +7323,7 @@ The natural response of this system can be described by the equation of motion:
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = 0
-
 $$
 
 
@@ -7475,9 +7341,7 @@ One important aspect of the natural response is the system's natural frequency, 
 
 
 $$
-
 \omega_n = \sqrt{\frac{k}{m}}
-
 $$
 
 
@@ -7517,9 +7381,7 @@ To better understand the forced response of uniaxial motion systems, let's conti
 
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = F(t)
-
 $$
 
 
@@ -7739,13 +7601,11 @@ A collision is an event in which two or more objects come into contact with each
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2}),
-
 $$
 
 
@@ -7763,13 +7623,11 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2} \ (\mathbf{x}_1-\mathbf{x}_2),
 
 \\[0.8em]
 
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1),
-
 $$
 
 
@@ -7821,13 +7679,11 @@ A collision is an event in which two or more objects come into contact with each
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2}),
-
 $$
 
 
@@ -7845,13 +7701,11 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2} \ (\mathbf{x}_1-\mathbf{x}_2),
 
 \\[0.8em]
 
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1)
-
 $$
 
 
@@ -7947,13 +7801,11 @@ In a two-dimensional collision with two moving objects, the final velocities of 
 
 
 $$
-
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
 
 \\[0.8em]
 
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2}),
-
 $$
 
 
@@ -7971,13 +7823,11 @@ In an angle-free representation, the changed velocities are computed using the c
 
 
 $$
-
 \mathbf{v}'_1 = \mathbf{v}_1-\frac{2 m_2}{m_1+m_2} \ \frac{\langle \mathbf{v}_1-\mathbf{v}_2,\,\mathbf{x}_1-\mathbf{x}_2\rangle}{\|\mathbf{x}_1-\mathbf{x}_2\|^2} \ (\mathbf{x}_1-\mathbf{x}_2),
 
 \\[0.8em]
 
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1).
-
 $$
 
 
@@ -8041,9 +7891,7 @@ To understand this concept better, let us revisit the Cauchy momentum equation i
 
 
 $$
-
 \vec p(t+\Delta t) - \vec p(t) = \Delta t \vec{\bar F}
-
 $$
 
 
@@ -8053,9 +7901,7 @@ where $\vec p(t)$ is the momentum in time $t$, $\vec{\bar F}$ is the average for
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -8119,9 +7965,7 @@ To understand this concept better, let us revisit the Cauchy momentum equation i
 
 
 $$
-
 \vec p(t+\Delta t) - \vec p(t) = \Delta t \vec{\bar F}
-
 $$
 
 
@@ -8131,9 +7975,7 @@ where $\vec p(t)$ is the momentum in time $t$, $\vec{\bar F}$ is the average for
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -8221,9 +8063,7 @@ To understand this concept better, let us revisit the Cauchy momentum equation i
 
 
 $$
-
 \vec p(t+\Delta t) - \vec p(t) = \Delta t \vec{\bar F}
-
 $$
 
 
@@ -8233,9 +8073,7 @@ where $\vec p(t)$ is the momentum in time $t$, $\vec{\bar F}$ is the average for
 
 
 $$
-
 \frac{d\vec p}{dt} = \vec F
-
 $$
 
 
@@ -8323,9 +8161,7 @@ To understand this concept better, let us revisit the general equation of heat t
 
 
 $$
-
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} - \frac{p}{\rho} \nabla \cdot (\rho \mathbf{v})
-
 $$
 
 
@@ -8339,9 +8175,7 @@ This equation can also be written in terms of the change in specific entropy, wh
 
 
 $$
-
 \rho T \frac{ds}{dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -8413,9 +8247,7 @@ This concept can be mathematically expressed using the general equation of heat 
 
 
 $$
-
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} - \frac{p}{\rho} \nabla \cdot (\rho \mathbf{v})
-
 $$
 
 
@@ -8429,9 +8261,7 @@ This equation can also be written in terms of the change in specific entropy, wh
 
 
 $$
-
 \rho T \frac{ds}{dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -8821,65 +8651,49 @@ The continuous-time extended Kalman filter model is given by the following equat
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \hat{\mathbf{x}}(t_0)=E\bigl[\mathbf{x}(t_0)\bigr] \text{, } \mathbf{P}(t_0)=Var\bigl[\mathbf{x}(t_0)\bigr]
-
 $$
 
 
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
-
 $$
 
 
 
 $$
-
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
-
 $$
 
 
 
 $$
-
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}
-
 $$
 
 
 
 $$
-
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)} 
-
 $$
 
 
@@ -8897,17 +8711,13 @@ In many real-world applications, measurements are taken at discrete time interva
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -9111,17 +8921,13 @@ The equations of motion for a rigid body in plane motion can be derived using Ne
 
 
 $$
-
 \sum \mathbf{F} = m\mathbf{a}_G
-
 $$
 
 
 
 $$
-
 \sum \mathbf{M}_G = I_G\dot{\mathbf{\omega}} + \mathbf{\omega} \times I_G\mathbf{\omega}
-
 $$
 
 
@@ -9739,9 +9545,7 @@ To better understand first order systems, let's consider the example of an RC ci
 
 
 $$
-
 \frac{dV_c}{dt} = \frac{1}{RC}(V_{in} - V_c)
-
 $$
 
 
@@ -9755,9 +9559,7 @@ Another important concept in first order systems is the step response. This is t
 
 
 $$
-
 V_c(t) = V_{in}(1-e^{-\frac{t}{RC}})
-
 $$
 
 
@@ -9775,9 +9577,7 @@ To better understand second order systems, let's consider the example of a mass-
 
 
 $$
-
 m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = F_{in}
-
 $$
 
 
@@ -9825,9 +9625,7 @@ To better understand first order systems, let's consider the example of an RC ci
 
 
 $$
-
 \frac{dV_c}{dt} = \frac{1}{RC}(V_{in} - V_c)
-
 $$
 
 
@@ -9841,9 +9639,7 @@ Another important concept in first order systems is the step response. This is t
 
 
 $$
-
 V_c(t) = V_{in}(1-e^{-\frac{t}{RC}})
-
 $$
 
 
@@ -9857,9 +9653,7 @@ Moving on to second order systems, these are characterized by two differential e
 
 
 $$
-
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2x = u
-
 $$
 
 
@@ -9873,9 +9667,7 @@ Similar to first order systems, the step response of a second order system can a
 
 
 $$
-
 x(t) = \frac{u}{\omega_n^2}(1-e^{-\zeta\omega_nt}) + \frac{\dot{u} + \zeta\omega_nu}{\omega_n^2}e^{-\zeta\omega_nt}
-
 $$
 
 
@@ -9919,9 +9711,7 @@ To better understand first order systems, let's consider the example of an RC ci
 
 
 $$
-
 \frac{dV_c}{dt} = \frac{1}{RC}(V_{in} - V_c)
-
 $$
 
 
@@ -9935,9 +9725,7 @@ Another important concept in first order systems is the step response. This is t
 
 
 $$
-
 V_c(t) = V_{in}(1-e^{-\frac{t}{RC}})
-
 $$
 
 
@@ -9959,9 +9747,7 @@ To better understand second order systems, let's consider the example of a mass-
 
 
 $$
-
 m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = F_{in}
-
 $$
 
 
@@ -9975,9 +9761,7 @@ Similar to first order systems, second order systems also have a step response. 
 
 
 $$
-
 x(t) = \frac{F_{in}}{k}(1-e^{-\frac{bt}{2m}}\cos(\omega t + \phi))
-
 $$
 
 
@@ -10279,9 +10063,7 @@ In 2.003, we learned that the equations of motion for a rigid body can be derive
 
 
 $$
-
 \Sigma F = m\ddot{x}
-
 $$
 
 
@@ -10295,9 +10077,7 @@ We also learned that the equations of motion can be expressed in terms of angula
 
 
 $$
-
 \Sigma M = I\ddot{\theta}
-
 $$
 
 
@@ -11053,17 +10833,13 @@ Now, let's discuss the equations that govern the motion of a rigid body in plane
 
 
 $$
-
 v_x(t) = \frac{dx(t)}{dt}
-
 $$
 
 
 
 $$
-
 v_y(t) = \frac{dy(t)}{dt}
-
 $$
 
 
@@ -11073,17 +10849,13 @@ Similarly, the acceleration of the point can be calculated by taking the time de
 
 
 $$
-
 a_x(t) = \frac{dv_x(t)}{dt}
-
 $$
 
 
 
 $$
-
 a_y(t) = \frac{dv_y(t)}{dt}
-
 $$
 
 
@@ -11245,7 +11017,6 @@ To model the dynamics of a rigid body, we use Newton's second law, which states 
 $$\sum \mathbf{F}_{ext} = m\mathbf{a}$$
 
 
-
 where $\mathbf{F}_{ext}$ is the vector sum of all external forces, $m$ is the mass of the body, and $\mathbf{a}$ is its acceleration.
 
 
@@ -11253,9 +11024,7 @@ where $\mathbf{F}_{ext}$ is the vector sum of all external forces, $m$ is the ma
 In addition to external forces, we must also consider the effects of torques on the body. Torques are rotational forces that cause the body to rotate about an axis. Similar to forces, we can express the sum of all external torques as:
 
 
-
 $$\sum \mathbf{\tau}_{ext} = I\boldsymbol{\alpha}$$
-
 
 
 where $\mathbf{\tau}_{ext}$ is the vector sum of all external torques, $I$ is the moment of inertia of the body, and $\boldsymbol{\alpha}$ is its angular acceleration.
@@ -11921,7 +11690,6 @@ The dynamics of a rigid body in plane motion is governed by Newton's laws of mot
 To fully understand the dynamics of a rigid body in plane motion, we need to derive the equations of motion. This can be done by applying Newton's laws of motion to the body and considering the external forces and torques acting on it. The resulting equations are known as the Euler-Lagrange equations and are given by:
 
 
-
 $$
 
 \sum F_x = m\ddot{x} \\
@@ -11931,7 +11699,6 @@ $$
 \sum M = I\ddot{\theta}
 
 $$
-
 
 
 where $m$ is the mass of the body, $I$ is the moment of inertia, and $\ddot{x}$, $\ddot{y}$, and $\ddot{\theta}$ are the linear and angular accelerations, respectively.
@@ -12273,7 +12040,6 @@ One of the applications of Poinsot's construction is in visualizing the rotation
 Now, let us move on to the mathematical representation of fixed-axis rotation. To compute the rotation matrix for a given input <math>{Q}=[{X}, {Y}, {Z}]</math>, we can use the following equation:
 
 
-
 $$
 
 R = \begin{bmatrix}
@@ -12289,9 +12055,7 @@ R = \begin{bmatrix}
 $$
 
 
-
 Alternatively, we can use the following equation to compute the rotation matrix:
-
 
 
 $$
@@ -12307,7 +12071,6 @@ xz(1-\cos \theta) - y\sin \theta & x\sin \theta + yz(1-\cos \theta) & \cos \thet
 $$
 
 
-
 where <math>x</math>, <math>y</math>, and <math>z</math> are the components of the input vector <math>{A} = [X, Y ,Z]</math>, and <math>\theta = \|A\|</math>.
 
 
@@ -12315,13 +12078,11 @@ where <math>x</math>, <math>y</math>, and <math>z</math> are the components of t
 Now, let us consider the rotation of a vector <math>v = (X, Y, Z)</math> around the rotation vector <math>Q = (X,Y,Z)</math>. The angle of rotation will be <math> {\theta} = {\|Q\|} </math>. We can use the following equation to rotate the vector:
 
 
-
 $$
 
 v' = Rv = (\cos \theta)v + (\sin \theta)(Q \times v) + (1 - \cos \theta)(Q \cdot v)Q
 
 $$
-
 
 
 where <math>R</math> is the rotation matrix computed using the equations mentioned above.
@@ -12847,7 +12608,6 @@ To model an elastic collision, we can use the equations derived from the conserv
 In a two-dimensional collision with two moving objects, the final velocities of the objects can be calculated using the following equations:
 
 
-
 $$
 
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
@@ -12857,7 +12617,6 @@ v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\var
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2})
 
 $$
-
 
 
 where $v_1$ and $v_2$ are the scalar sizes of the two original speeds of the objects, $m_1$ and $m_2$ are their masses, and $\theta_1$ and $\theta_2$ are their movement angles. The lowercase phi ($\varphi$) represents the contact angle between the objects.
@@ -12925,7 +12684,6 @@ To model an elastic collision, we can use the equations derived from the conserv
 In a two-dimensional collision with two moving objects, the final velocities of the objects can be calculated using the following equations:
 
 
-
 $$
 
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
@@ -12937,13 +12695,11 @@ v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\var
 $$
 
 
-
 where $v_1$ and $v_2$ are the scalar sizes of the two original speeds of the objects, $m_1$ and $m_2$ are their masses, and $\theta_1$ and $\theta_2$ are their movement angles. The contact angle between the objects is denoted by $\varphi$. These equations can be derived from the fact that the interaction between the two bodies is easily calculated along the contact angle. By rotating the x and y axis to be parallel with the contact angle, the velocities of the objects can be calculated in one dimension. They can then be rotated back to the original orientation to get the true x and y components of the velocities.
 
 
 
 In an angle-free representation, the changed velocities are computed using the centers and at the time of contact as:
-
 
 
 $$
@@ -12955,7 +12711,6 @@ $$
 \mathbf{v}'_2 = \mathbf{v}_2-\frac{2 m_1}{m_1+m_2} \ \frac{\langle \mathbf{v}_2-\mathbf{v}_1,\,\mathbf{x}_2-\mathbf{x}_1\rangle}{\|\mathbf{x}_2-\mathbf{x}_1\|^2} \ (\mathbf{x}_2-\mathbf{x}_1)
 
 $$
-
 
 
 where the angle brackets indicate the inner product (or dot product) of two vectors. These equations take into account the masses and velocities of the objects, as well as their positions at the time of contact.
@@ -13039,7 +12794,6 @@ To model an elastic collision, we can use the equations derived from the conserv
 In a two-dimensional collision with two moving objects, the final velocities of the objects can be calculated using the following equations:
 
 
-
 $$
 
 v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\cos(\varphi)+v_{1}\sin(\theta_1-\varphi)\cos(\varphi + \tfrac{\pi}{2})
@@ -13049,7 +12803,6 @@ v'_{1x} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\var
 v'_{1y} = \frac{v_{1}\cos(\theta_1-\varphi)(m_1-m_2)+2m_2v_{2}\cos(\theta_2-\varphi)}{m_1+m_2}\sin(\varphi)+v_{1}\sin(\theta_1-\varphi)\sin(\varphi + \tfrac{\pi}{2})
 
 $$
-
 
 
 where $v_1$ and $v_2$ are the scalar sizes of the two original speeds, $m_1$ and $m_2$ are the masses of the objects, $\theta_1$ and $\theta_2$ are the angles of the initial velocities, and $\varphi$ is the contact angle between the objects.
@@ -13075,7 +12828,6 @@ To model an inelastic collision, we can use the equations derived from the conse
 In a two-dimensional inelastic collision with two moving objects, the final velocities of the objects can be calculated using the following equations:
 
 
-
 $$
 
 v'_{1x} = \frac{m_1v_{1x}+m_2v_{2x}+m_2(v_{2x}-v_{1x})\cos(\varphi)}{m_1+m_2}
@@ -13085,7 +12837,6 @@ v'_{1x} = \frac{m_1v_{1x}+m_2v_{2x}+m_2(v_{2x}-v_{1x})\cos(\varphi)}{m_1+m_2}
 v'_{1y} = \frac{m_1v_{1y}+m_2v_{2y}+m_2(v_{2y}-v_{1y})\sin(\varphi)}{m_1+m_2}
 
 $$
-
 
 
 where $v_{1x}$ and $v_{1y}$ are the initial velocities of the first object in the x and y directions, respectively, and $v_{2x}$ and $v_{2y}$ are the initial velocities of the second object in the x and y directions, respectively. The other variables have the same meaning as in the elastic collision equations.
@@ -13111,7 +12862,6 @@ To model the impulse response of a collision, we can use the equations derived f
 In a two-dimensional collision with two moving objects, the change in velocity of the objects can be calculated using the following equations:
 
 
-
 $$
 
 \Delta v_{1x} = \frac{J\cos(\varphi)(m_1+m_2)}{m_1}
@@ -13121,7 +12871,6 @@ $$
 \Delta v_{1y} = \frac{J\sin(\varphi)(m_1+m_2)}{m_1}
 
 $$
-
 
 
 where $J$ is the impulse applied to the objects during the collision. These equations can be used to determine the final velocities of the objects after the collision, as well as the change in momentum and energy.
@@ -13177,13 +12926,11 @@ The principle of conservation of momentum states that the total momentum of a cl
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum \vec{p}_i = \sum \vec{p}_f
 
 $$
-
 
 
 where $\vec{p}_i$ is the initial momentum of the system and $\vec{p}_f$ is the final momentum of the system.
@@ -13201,13 +12948,11 @@ To better understand the principle of conservation of momentum, let's consider a
 We can express this mathematically as:
 
 
-
 $$
 
 m_A\vec{v}_A + m_B\vec{v}_B = m_A\vec{v}'_A + m_B\vec{v}'_B
 
 $$
-
 
 
 where $\vec{v}'_A$ and $\vec{v}'_B$ are the final velocities of objects A and B, respectively.
@@ -13259,13 +13004,11 @@ The principle of conservation of momentum states that the total momentum of a cl
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum \vec{p}_i = \sum \vec{p}_f
 
 $$
-
 
 
 where $\vec{p}_i$ is the initial momentum of the system and $\vec{p}_f$ is the final momentum of the system.
@@ -13283,13 +13026,11 @@ To better understand the principle of conservation of momentum, let's consider a
 We can express this mathematically as:
 
 
-
 $$
 
 m_A\vec{v}_A + m_B\vec{v}_B = m_A\vec{v}'_A + m_B\vec{v}'_B
 
 $$
-
 
 
 where $\vec{v}'_A$ and $\vec{v}'_B$ are the final velocities of objects A and B, respectively.
@@ -13345,13 +13086,11 @@ The principle of conservation of momentum states that the total momentum of a cl
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum \vec{p}_i = \sum \vec{p}_f
 
 $$
-
 
 
 where $\vec{p}_i$ is the initial momentum of the system and $\vec{p}_f$ is the final momentum of the system.
@@ -13369,13 +13108,11 @@ To better understand the principle of conservation of momentum, let's consider a
 We can express this mathematically as:
 
 
-
 $$
 
 m_A\vec{v}_A + m_B\vec{v}_B = m_A\vec{v}'_A + m_B\vec{v}'_B
 
 $$
-
 
 
 where $\vec{v}'_A$ and $\vec{v}'_B$ are the final velocities of objects A and B, respectively.
@@ -13443,13 +13180,11 @@ The principle of conservation of energy states that energy cannot be created or 
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum E_i = \sum E_f
 
 $$
-
 
 
 where $\sum E_i$ is the initial energy of the system and $\sum E_f$ is the final energy of the system.
@@ -13467,13 +13202,11 @@ To better understand the principle of conservation of energy, let's consider a s
 We can express this mathematically as:
 
 
-
 $$
 
 mgh_i + \frac{1}{2}mv_i^2 = mgh_f + \frac{1}{2}mv_f^2
 
 $$
-
 
 
 where $m$ is the mass of the ball, $g$ is the acceleration due to gravity, $h_i$ and $h_f$ are the initial and final heights of the ball, and $v_i$ and $v_f$ are the initial and final velocities of the ball, respectively.
@@ -13561,13 +13294,11 @@ The principle of conservation of energy states that energy cannot be created or 
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum E_i = \sum E_f
 
 $$
-
 
 
 where $\sum E_i$ is the initial energy of the system and $\sum E_f$ is the final energy of the system.
@@ -13585,13 +13316,11 @@ To better understand the principle of conservation of energy, let's consider a s
 We can express this mathematically as:
 
 
-
 $$
 
 mgh_i + \frac{1}{2}mv_i^2 = mgh_f + \frac{1}{2}mv_f^2
 
 $$
-
 
 
 where $m$ is the mass of the ball, $g$ is the acceleration due to gravity, $h_i$ and $h_f$ are the initial and final heights of the ball, and $v_i$ and $v_f$ are the initial and final velocities of the ball, respectively.
@@ -13609,13 +13338,11 @@ The principle of conservation of energy has many applications in physics and eng
 For example, in a simple pendulum system, the potential energy of the pendulum is converted into kinetic energy as it swings back and forth. This can be expressed as:
 
 
-
 $$
 
 mgh = \frac{1}{2}mv^2
 
 $$
-
 
 
 where $m$ is the mass of the pendulum, $g$ is the acceleration due to gravity, $h$ is the height of the pendulum, and $v$ is the velocity of the pendulum.
@@ -13663,13 +13390,11 @@ The principle of conservation of energy states that energy cannot be created or 
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sum E_i = \sum E_f
 
 $$
-
 
 
 where $\sum E_i$ is the initial energy of the system and $\sum E_f$ is the final energy of the system.
@@ -13687,13 +13412,11 @@ To better understand the principle of conservation of energy, let's consider a s
 We can express this mathematically as:
 
 
-
 $$
 
 mgh_i + \frac{1}{2}mv_i^2 = mgh_f + \frac{1}{2}mv_f^2
 
 $$
-
 
 
 where $m$ is the mass of the ball, $g$ is the acceleration due to gravity, $h_i$ and $h_f$ are the initial and final heights of the ball, and $v_i$ and $v_f$ are the initial and final velocities of the ball, respectively.
@@ -14607,13 +14330,11 @@ One important aspect of uniaxial motion is rational motion, which involves the u
 To better understand uniaxial motion, we must also understand the concept of homogeneous coordinates. These are used to represent points in three-dimensional space and are crucial for describing the transformation of objects in motion. The transformation equation for uniaxial motion in terms of quaternions is given by:
 
 
-
 $$
 
 \tilde {\textbf{P}} = \textbf{Q}\textbf{P}\textbf{Q}^\ast + P_4 [(\textbf{Q}^0)\textbf{Q}^\ast - \textbf{Q}(\textbf{Q}^0)^\ast],
 
 $$
-
 
 
 where $\textbf{Q}$ and $\textbf{Q}^0$ are quaternions, and $\textbf{P}$ is the point being transformed. This equation shows how the point $\textbf{P}$ is transformed by the quaternion $\textbf{Q}$ and its conjugate $\textbf{Q}^\ast$.
@@ -14799,7 +14520,6 @@ Fixed-axis rotation is a commonly used method for representing the rotation of a
 To convert from axis-angle representation to a rotation matrix, we can use the following formula:
 
 
-
 $$
 
 R = \begin{bmatrix}
@@ -14815,13 +14535,11 @@ a_x a_z (1-\cos \theta) - a_y \sin \theta & a_y a_z (1-\cos \theta) + a_x \sin \
 $$
 
 
-
 This formula is derived from rotating the vectors (1,0,0), (0,1,0), and (0,0,1) and reducing constants. It is important to note that the angle of rotation, <math>{\theta}</math>, is equal to the magnitude of the input axis, <math>{a}</math>.
 
 
 
 Alternatively, we can use the following formula to compute the rotation matrix:
-
 
 
 $$
@@ -14839,13 +14557,11 @@ R = \begin{bmatrix}
 $$
 
 
-
 This formula is derived from converting the input axis, <math>{Q}=[{X}, {Y}, {Z}]</math>, to an angle-axis representation, <math>{\theta} = \|Q\|</math>, and <math>[x,y,z] = \frac {Q} {\|Q\|}</math>. It is important to note that the input axis must be normalized before using this formula.
 
 
 
 Fixed-axis rotation also has applications in vector rotation. We can rotate a vector, <math>{v} = (X, Y, Z)</math>, around the rotation axis, <math>{Q} = (X,Y,Z)</math>, using the following formula:
-
 
 
 $$
@@ -14861,7 +14577,6 @@ v' = \begin{bmatrix}
 \end{bmatrix} v
 
 $$
-
 
 
 This formula involves calculating the cosine of the angle times the vector to rotate, plus the sine of the angle times the axis of rotation, plus one minus the cosine of the angle times the dot product of the vector and rotation axis times the axis of rotation. The dot product includes the cosine of the angle between the vector being rotated and the axis of rotation times the length of <math>{v}</math>, while the cross product includes the sine of the angle between the vector being rotated and the axis of rotation.
@@ -14901,7 +14616,6 @@ Fixed-axis rotation is a commonly used method for representing the rotation of a
 To convert from axis-angle representation to a rotation matrix, we can use the following formula:
 
 
-
 $$
 
 R = \begin{bmatrix}
@@ -14917,13 +14631,11 @@ a_x a_z (1-\cos \theta) - a_y \sin \theta & a_y a_z (1-\cos \theta) + a_x \sin \
 $$
 
 
-
 This formula is derived from rotating the vectors (1,0,0), (0,1,0), and (0,0,1) and reducing constants. It is important to note that the angle of rotation, <math>{\theta}</math>, is equal to the magnitude of the input axis, <math>{a}</math>.
 
 
 
 Alternatively, we can use the following formula to compute the rotation matrix:
-
 
 
 $$
@@ -14939,7 +14651,6 @@ R = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 
 
 This formula is derived from converting the input axis, <math>{Q}=[{X}, {Y}, {Z}]</math>, to an angle-axis representation. The rotation matrix is then calculated using the cosine of the angle times the vector to rotate, plus the sine of the angle times the axis of rotation, plus one minus the cosine of the angle times the dot product of the vector and rotation axis times the axis of rotation.
@@ -14995,7 +14706,6 @@ Fixed-axis rotation is a commonly used method for representing the rotation of a
 To convert from axis-angle representation to a rotation matrix, we can use the following formula:
 
 
-
 $$
 
 R = \begin{bmatrix}
@@ -15011,13 +14721,11 @@ a_x a_z (1-\cos \theta) - a_y \sin \theta & a_y a_z (1-\cos \theta) + a_x \sin \
 $$
 
 
-
 This formula is derived from rotating the vectors (1,0,0), (0,1,0), and (0,0,1) and reducing constants. It is important to note that the angle of rotation, <math>{\theta}</math>, is equal to the magnitude of the input axis, <math>{a}</math>.
 
 
 
 Alternatively, we can use the following formula to compute the rotation matrix:
-
 
 
 $$
@@ -15033,7 +14741,6 @@ R = \begin{bmatrix}
 \end{bmatrix}
 
 $$
-
 
 
 This formula is derived from converting the input axis, <math>{Q}=[{X}, {Y}, {Z}]</math>, to an angle-axis representation. The rotation matrix can then be computed using the quaternion elements <math>{q_x, q_y, q_z, q_r}</math>. This method is commonly used in computer graphics and robotics.
@@ -15097,13 +14804,11 @@ A first order system is a mathematical model that describes the behavior of a sy
 To better understand first order systems, let's consider the RC circuit. The input to this system is the voltage across the resistor, and the output is the voltage across the capacitor. The behavior of the system is described by the following first order differential equation:
 
 
-
 $$
 
 \frac{dV_c}{dt} = \frac{1}{RC}(V_i - V_c)
 
 $$
-
 
 
 where <math>{V_c}</math> is the voltage across the capacitor, <math>{V_i}</math> is the input voltage, and <math>{R}</math> and <math>{C}</math> are the resistance and capacitance of the circuit, respectively.
@@ -15151,13 +14856,11 @@ A first order system is a mathematical model that describes the behavior of a sy
 To better understand first order systems, let's consider the RC circuit. The input to this system is the voltage across the resistor, and the output is the voltage across the capacitor. The behavior of the system is described by the following first order differential equation:
 
 
-
 $$
 
 \frac{dV_c}{dt} = \frac{1}{RC}(V_i - V_c)
 
 $$
-
 
 
 where <math>{V_c}</math> is the voltage across the capacitor, <math>{V_i}</math> is the input voltage, and <math>{R}</math> and <math>{C}</math> are the resistance and capacitance of the circuit, respectively.
@@ -15187,13 +14890,11 @@ The behavior of a second order system is described by a second order differentia
 To better understand second order systems, let's consider the mass-spring-damper system. The input to this system is the force applied to the mass, and the output is the position of the mass. The behavior of the system is described by the following second order differential equation:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F
 
 $$
-
 
 
 where <math>{m}</math> is the mass, <math>{c}</math> is the damping coefficient, <math>{k}</math> is the spring constant, and <math>{F}</math> is the applied force.
@@ -15241,13 +14942,11 @@ A first order system is a mathematical model that describes the behavior of a sy
 To better understand first order systems, let's consider the RC circuit. The input to this system is the voltage across the resistor, and the output is the voltage across the capacitor. The behavior of the system is described by the following first order differential equation:
 
 
-
 $$
 
 \frac{dV_c}{dt} = \frac{1}{RC}(V_i - V_c)
 
 $$
-
 
 
 where <math>{V_c}</math> is the voltage across the capacitor, <math>{V_i}</math> is the input voltage, and <math>{R}</math> and <math>{C}</math> are the resistance and capacitance of the circuit, respectively.
@@ -15273,13 +14972,11 @@ Unlike first order systems, second order systems have two energy storage element
 To illustrate the behavior of a second order system, let's consider the mass-spring-damper system. The input to this system is the force applied to the mass, and the output is the displacement of the mass. The behavior of the system is described by the following second order differential equation:
 
 
-
 $$
 
 m\frac{d^2x}{dt^2} + c\frac{dx}{dt} + kx = F
 
 $$
-
 
 
 where <math>{m}</math> is the mass, <math>{c}</math> is the damping coefficient, <math>{k}</math> is the spring constant, and <math>{F}</math> is the applied force.
@@ -15703,14 +15400,11 @@ The continuous-time extended Kalman filter is a powerful tool for estimating the
 The model for the continuous-time extended Kalman filter is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
-
-
 
 $$
 
@@ -15719,13 +15413,11 @@ $$
 $$
 
 
-
 The continuous-time extended Kalman filter follows a predict-update cycle, similar to the discrete-time extended Kalman filter. The steps for this cycle are:
 
 
 
 1. Initialize the state estimate and covariance matrix at time $t_0$:
-
 $$
 
 \hat{\mathbf{x}}(t_0) = E\bigl[\mathbf{x}(t_0)\bigr] \quad \mathbf{P}(t_0) = Var\bigl[\mathbf{x}(t_0)\bigr]
@@ -15733,16 +15425,12 @@ $$
 $$
 
 
-
 2. Predict the state and covariance at time $t$:
-
 $$
 
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
 
 $$
-
-
 
 $$
 
@@ -15751,16 +15439,12 @@ $$
 $$
 
 
-
 3. Update the state and covariance at time $t$:
-
 $$
 
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}
 
 $$
-
-
 
 $$
 
@@ -15768,14 +15452,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
 
 $$
-
 
 
 Unlike the discrete-time extended Kalman filter, the prediction and update steps are coupled in the continuous-time extended Kalman filter.
@@ -15789,21 +15470,17 @@ Unlike the discrete-time extended Kalman filter, the prediction and update steps
 In many practical applications, measurements are taken at discrete time intervals, even though the system is modeled using continuous-time dynamics. In these cases, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
 
-
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 However, the prediction and update steps for the continuous-time extended Kalman filter remain the same. This is because the discrete-time measurements can be interpolated to obtain continuous-time measurements, which can then be used in the prediction and update steps.
@@ -16301,13 +15978,11 @@ To derive the equations of motion for a two-degree-of-freedom system, we use the
 The equations of motion for a two-degree-of-freedom system can be written in matrix form as:
 
 
-
 $$
 
 M\ddot{q} + C\dot{q} + Kq = F
 
 $$
-
 
 
 where $M$ is the mass matrix, $C$ is the damping matrix, $K$ is the stiffness matrix, $q$ is the vector of generalized coordinates, and $F$ is the vector of external forces.
@@ -16571,7 +16246,6 @@ To understand the dynamics of two-degree-of-freedom systems, we must first estab
 
 
 The equations of motion for a two-degree-of-freedom system can be written as:
-
 
 
 $$

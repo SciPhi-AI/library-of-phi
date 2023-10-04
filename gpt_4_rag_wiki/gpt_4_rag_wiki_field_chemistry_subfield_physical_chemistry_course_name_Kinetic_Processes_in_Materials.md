@@ -701,9 +701,7 @@ The gradient of a field is a vector quantity that points in the direction of the
 
 
 $$
-
 \nabla f(\vec{r}) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)
-
 $$
 
 
@@ -733,9 +731,7 @@ The gradient of a scalar field $f(\vec{r})$ is a vector field $\nabla f(\vec{r})
 
 
 $$
-
 \nabla f(\vec{r}) = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)
-
 $$
 
 
@@ -829,9 +825,7 @@ In transport phenomena, flux is used to describe the flow of a substance or prop
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -845,9 +839,7 @@ Similarly, in mass transfer, the mass flux is defined as the mass of a substance
 
 
 $$
-
 J = -D \nabla C
-
 $$
 
 
@@ -873,9 +865,7 @@ The calculation of flux depends on the specific transport phenomena under consid
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -889,9 +879,7 @@ Similarly, in the case of mass transfer, the mass flux, denoted by $j$, is calcu
 
 
 $$
-
 j = -D \nabla c
-
 $$
 
 
@@ -905,9 +893,7 @@ In fluid dynamics, the flux of momentum, often referred to as the stress tensor,
 
 
 $$
-
 \sigma_{ij} = -p\delta_{ij} + \mu\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} \right) + \zeta \delta_{ij}\nabla\cdot {\bf v}
-
 $$
 
 
@@ -941,9 +927,7 @@ FLUXNET uses the eddy covariance method to measure these exchanges. This method 
 
 
 $$
-
 F = \overline{w's'}
-
 $$
 
 
@@ -985,9 +969,7 @@ Mathematically, the continuity equation can be expressed as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1021,9 +1003,7 @@ For simple problems, it may be possible to solve the continuity equation analyti
 
 
 $$
-
 \frac{\partial \rho}{\partial t} = - \rho \mathbf{v}
-
 $$
 
 
@@ -1033,9 +1013,7 @@ This is a simple first-order differential equation that can be solved by separat
 
 
 $$
-
 \rho(t) = \rho_0 e^{-\mathbf{v}t}
-
 $$
 
 
@@ -1065,9 +1043,7 @@ In some cases, the continuity equation may involve exponential or logarithmic te
 
 
 $$
-
 W(x)e^{W(x)} = x
-
 $$
 
 
@@ -1103,9 +1079,7 @@ For example, consider a pipe with a varying cross-sectional area. If the fluid i
 
 
 $$
-
 A_1v_1 = A_2v_2
-
 $$
 
 
@@ -1127,9 +1101,7 @@ For example, consider a wire carrying a steady electric current. The continuity 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
-
 $$
 
 
@@ -1151,9 +1123,7 @@ For example, consider a particle described by a wave function $\psi(\mathbf{r}, 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
-
 $$
 
 
@@ -1257,9 +1227,7 @@ The driving force for diffusion can be expressed as a gradient of a certain prop
 
 
 $$
-
 F = -D \nabla C
-
 $$
 
 
@@ -1305,9 +1273,7 @@ The rate of self-diffusion can be described by the Arrhenius equation:
 
 
 $$
-
 D = D_0 e^{-\frac{Q}{RT}}
-
 $$
 
 
@@ -1329,9 +1295,7 @@ The rate of interdiffusion can be described by Fick's first law:
 
 
 $$
-
 J = -D \frac{\partial C}{\partial x}
-
 $$
 
 
@@ -1405,9 +1369,7 @@ The Nernst-Planck equation describes the flux of ions in a material under the in
 
 
 $$
-
 J_i = -D_i \left( \nabla c_i + \frac{z_i e}{k_B T} c_i \nabla \phi \right)
-
 $$
 
 
@@ -1441,9 +1403,7 @@ The capillary action can be described by the Young-Laplace equation, which relat
 
 
 $$
-
 \Delta P = \frac{2\gamma}{r}
-
 $$
 
 
@@ -1481,9 +1441,7 @@ The effect of stress on diffusion can be understood by considering Fick's first 
 
 
 $$
-
 J = -D \nabla C
-
 $$
 
 
@@ -1513,9 +1471,7 @@ In the context of irreversible thermodynamics, the effect of stress on diffusion
 
 
 $$
-
 J = -D \nabla C + \sigma \nabla \phi
-
 $$
 
 
@@ -1545,9 +1501,7 @@ The capillary action can be mathematically represented by the Young-Laplace equa
 
 
 $$
-
 \Delta P = \gamma \left( \frac{1}{r_1} + \frac{1}{r_2} \right)
-
 $$
 
 
@@ -1565,9 +1519,7 @@ The effect of capillarity on diffusion can be incorporated into the diffusion eq
 
 
 $$
-
 J = -D \nabla C + \kappa \nabla \psi
-
 $$
 
 
@@ -1597,9 +1549,7 @@ The effect of stress on diffusion can be mathematically represented by adding a 
 
 
 $$
-
 J = -D \nabla C + \sigma \nabla \phi
-
 $$
 
 
@@ -1613,9 +1563,7 @@ In the context of irreversible thermodynamics, the effect of stress on diffusion
 
 
 $$
-
 J = -D \nabla C + \sigma \nabla \phi + \kappa \nabla \psi
-
 $$
 
 
@@ -1649,9 +1597,7 @@ The capillary forces in wood drying can be mathematically represented by adding 
 
 
 $$
-
 J = -D \nabla C + \sigma \nabla \phi + \kappa \nabla \psi
-
 $$
 
 
@@ -1673,9 +1619,7 @@ In the context of irreversible thermodynamics, the effect of moisture content di
 
 
 $$
-
 J = -D \nabla C + \sigma \nabla \phi + \kappa \nabla \psi + \mu \nabla \chi
-
 $$
 
 
@@ -1819,9 +1763,7 @@ The general form of the one-dimensional diffusion equation is:
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -1835,9 +1777,7 @@ To solve this equation, we first assume that the solution can be written as the 
 
 
 $$
-
 c(x,t) = T(t)X(x)
-
 $$
 
 
@@ -1847,9 +1787,7 @@ Substituting this into the diffusion equation and dividing by $c(x,t)$, we get:
 
 
 $$
-
 \frac{1}{T}\frac{dT}{dt} = D \frac{1}{X}\frac{d^2X}{dx^2}
-
 $$
 
 
@@ -1859,9 +1797,7 @@ Since the left side of this equation depends only on time and the right side onl
 
 
 $$
-
 \frac{1}{T}\frac{dT}{dt} = -k^2 = D \frac{1}{X}\frac{d^2X}{dx^2}
-
 $$
 
 
@@ -1871,9 +1807,7 @@ This gives us two ordinary differential equations to solve:
 
 
 $$
-
 \frac{dT}{dt} = -k^2T
-
 $$
 
 
@@ -1883,9 +1817,7 @@ and
 
 
 $$
-
 D \frac{d^2X}{dx^2} = -k^2X
-
 $$
 
 
@@ -1895,9 +1827,7 @@ The solutions to these equations depend on the initial and boundary conditions o
 
 
 $$
-
 c(x,t) = c_0 \text{erf}\left(\frac{x}{2\sqrt{Dt}}\right)
-
 $$
 
 
@@ -1923,9 +1853,7 @@ One of the most common applications of the diffusion equation is in the study of
 
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-
 $$
 
 
@@ -1943,9 +1871,7 @@ The diffusion equation also describes the process of mass diffusion, which is th
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -1987,9 +1913,7 @@ The general form of the Gauss-Seidel method for a system of $n$ linear equations
 
 
 $$
-
 x^{(k+1)}_i = \frac{1}{a_{ii}} \left( b_i - \sum_{j=1}^{i-1} a_{ij}x^{(k+1)}_j - \sum_{j=i+1}^{n} a_{ij}x^{(k)}_j \right)
-
 $$
 
 
@@ -2011,9 +1935,7 @@ The general form of the entropy production equation is given by:
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -2047,9 +1969,7 @@ The heat equation for this scenario is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -2075,9 +1995,7 @@ The diffusion equation for this scenario is given by:
 
 
 $$
-
 \frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -2155,9 +2073,7 @@ The diffusion equation, also known as the heat equation, is a parabolic partial 
 
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u
-
 $$
 
 
@@ -2175,9 +2091,7 @@ Analytical solutions to the diffusion equation can be obtained for simple geomet
 
 
 $$
-
 u(x,t) = \frac{1}{\sqrt{4\pi Dt}} \int_{-\infty}^{\infty} e^{-\frac{(x-y)^2}{4Dt}} u(y,0) dy
-
 $$
 
 
@@ -2199,9 +2113,7 @@ One common method is the finite difference method, which approximates the deriva
 
 
 $$
-
 \frac{\partial^2 u}{\partial x^2} \approx \frac{u(x+h,t) - 2u(x,t) + u(x-h,t)}{h^2}
-
 $$
 
 
@@ -2373,9 +2285,7 @@ Activated jump processes are fundamental to the understanding of diffusion in ma
 
 
 The concept of activation energy, denoted by $E_a$, is central to these processes. It is the minimum energy required for a particle to overcome the energy barrier and move to a new equilibrium position. The Arrhenius equation, given by $$
-
 k = A \exp\left(-\frac{E_a}{RT}\right)
-
 $$ where $k$ is the rate constant, $A$ is the pre-exponential factor, $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the absolute temperature, provides a mathematical framework to understand the temperature dependence of these processes.
 
 
@@ -2409,9 +2319,7 @@ The rate at which these jumps occur is determined by the jump frequency, $\nu$. 
 
 
 $$
-
 \nu = \nu_0 \exp\left(-\frac{E_a}{RT}\right)
-
 $$
 
 
@@ -2543,9 +2451,7 @@ Vacancy diffusion, also known as substitutional diffusion, is a process where an
 
 
 $$
-
 D = D_0 \exp\left(-\frac{Q}{kT}\right)
-
 $$
 
 
@@ -2781,9 +2687,7 @@ The equation for heat transfer can be expressed as:
 
 
 $$
-
 \rho {\partial k\over{\partial t}} = -\rho {\bf v}\cdot\nabla k - \rho {\bf v}\cdot\nabla h + \rho T{\bf v}\cdot \nabla s + \nabla\cdot(\sigma\cdot {\bf v}) - \sigma_{ij}{\partial v_{i}\over{\partial x_{j}}}
-
 $$
 
 
@@ -2813,9 +2717,7 @@ One of the key applications of atomic models for diffusivities in molecular dyna
 
 
 $$
-
 \rho {\partial k
-
 $$
 
 
@@ -2853,9 +2755,7 @@ For instance, consider the equation for heat transfer:
 
 
 $$
-
 \rho {\partial k
-
 $$
 
 
@@ -2893,9 +2793,7 @@ PLUMED is a powerful tool for incorporating atomic models for diffusivities into
 
 
 $$
-
 D = D_0 \exp\left(-\frac{E_a}{k_BT}\right)
-
 $$
 
 
@@ -2913,9 +2811,7 @@ The fullrmc package is a powerful tool for implementing the RMC method. Let's co
 
 
 $$
-
 D = \frac{k_BT}{6\pi\eta r}
-
 $$
 
 
@@ -3095,9 +2991,7 @@ usion in a material, and it is typically expressed in terms of the mean square d
 
 
 $$
-
 D = kT/(6\pi\eta a)
-
 $$
 
 
@@ -3389,9 +3283,7 @@ The thermodynamics and kinetics of grain growth are complex and involve several 
 
 
 $$
-
 \Delta G = \gamma \Delta A
-
 $$
 
 
@@ -3405,9 +3297,7 @@ The rate of grain growth is determined by the grain boundary mobility and the dr
 
 
 $$
-
 \frac{dD}{dt} = k(T) \frac{\Delta G}{\gamma}
-
 $$
 
 
@@ -3461,9 +3351,7 @@ Normal grain growth, also known as uniform or steady-state grain growth, is char
 
 
 $$
-
 \frac{dD}{dt} = k(T) \frac{\Delta G}{\gamma}
-
 $$
 
 
@@ -3597,9 +3485,7 @@ The strain rate in diffusion creep can be described by the following equation:
 
 
 $$
-
 \dot{\epsilon} = Ae^\frac{-Q}{RT} \frac{\sigma^n}{d^m}
-
 $$
 
 
@@ -3669,9 +3555,7 @@ The rate of sintering is governed by the following equation:
 
 
 $$
-
 \dot{d} = k \cdot e^\frac{-Q}{RT}
-
 $$
 
 
@@ -3801,7 +3685,6 @@ The dynamics of spinodal decomposition can be modeled using a generalized diffus
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu$$
 
 
-
 In this equation, $\mu$ represents the chemical potential and $M$ is the mobility. The mobility, as defined by Cahn, is a positive value that represents the ratio of the flux to the local gradient in chemical potential. 
 
 
@@ -3809,17 +3692,13 @@ In this equation, $\mu$ represents the chemical potential and $M$ is the mobilit
 The chemical potential is a variation of the free energy. When the free energy is the Cahn–Hilliard free energy, it is given by:
 
 
-
 $$\mu=\frac{\delta F}{\delta c} = \left( \frac{\partial f}{\partial c} \right)_{c=c_0} - 2\kappa\nabla^2 c$$
-
 
 
 Substituting this into the diffusion equation, we get:
 
 
-
 $$\frac{\partial c}{\partial t}=M\nabla^2\mu=M\left[\left( \frac{\partial^2 f}{\partial c^2} \right)_{c=c_0}\nabla^2 c - 2\kappa\nabla^4 c\right]$$
-
 
 
 To understand the behavior of the system during spinodal decomposition, we consider a small concentration fluctuation $\delta c=a\exp(\omega t)\sin({\vec q}.{\vec r})$. Here, $\omega$ is a growth rate. If $\omega < 0$, the system is stable with respect to small perturbations or fluctuations, and there is no spinodal decomposition. However, if $\omega > 0$, the system is unstable with respect to small perturbations or fluctuations, leading to spinodal decomposition.
@@ -3829,21 +3708,17 @@ To understand the behavior of the system during spinodal decomposition, we consi
 Substituting this concentration fluctuation into the equation, we get:
 
 
-
 $$\omega \delta c= M\left[-\left(\frac{\partial^2 f}{\partial c^2}\right)_{c=c_0}q^2-2\kappa q^4
 
 \right]\delta c$$
 
 
-
 This gives us an expression for the growth rate of concentration perturbations:
-
 
 
 $$\omega = Mq^2\left[-\left(\frac{\partial^2 f}{\partial c^2}\right)_{c=c_0}-2\kappa q^2
 
 \right]$$
-
 
 
 In the following sections, we will delve deeper into the mechanisms of spinodal decomposition and continuous ordering, and explore their implications for the properties of materials.
@@ -3861,9 +3736,7 @@ Continuous ordering is a kinetic process that involves the gradual and progressi
 One of the most common mechanisms of continuous ordering is the diffusion of atoms or molecules. This process is driven by the gradient in chemical potential and can be described by Fick's first law:
 
 
-
 $$J=-M\nabla\mu$$
-
 
 
 Here, $J$ is the flux, $M$ is the mobility, and $\mu$ is the chemical potential. The negative sign indicates that the flux is directed from regions of high chemical potential to regions of low chemical potential.
@@ -3873,9 +3746,7 @@ Here, $J$ is the flux, $M$ is the mobility, and $\mu$ is the chemical potential.
 The chemical potential is a measure of the change in free energy with respect to the change in the number of particles. It can be expressed as:
 
 
-
 $$\mu=\left(\frac{\partial F}{\partial N}\right)_{V,T}$$
-
 
 
 Here, $F$ is the free energy, $N$ is the number of particles, and $V$ and $T$ are the volume and temperature, respectively, which are held constant during the differentiation.
@@ -3889,9 +3760,7 @@ The diffusion process can lead to the formation of ordered structures in the mat
 Another mechanism of continuous ordering is the movement of dislocations, which are line defects in the crystal structure. The movement of dislocations can lead to the rearrangement of atoms and the formation of ordered structures. This process is often driven by the applied stress and can be described by the Orowan equation:
 
 
-
 $$\sigma = M_b \rho v$$
-
 
 
 Here, $\sigma$ is the applied stress, $M_b$ is the Burgers vector, $\rho$ is the dislocation density, and $v$ is the velocity of dislocation movement.
@@ -3977,13 +3846,11 @@ Diffusion is a key mechanism in spinodal decomposition. As mentioned earlier, th
 The diffusion process in spinodal decomposition is described by the flux equation derived by Mats Hillert. This equation is given by:
 
 
-
 $$
 
 J = -D \frac{\partial C}{\partial x} + \frac{D}{kT} \frac{\partial \gamma}{\partial x}
 
 $$
-
 
 
 where $J$ is the flux, $D$ is the diffusion coefficient, $C$ is the concentration, $x$ is the distance, $\gamma$ is the interfacial energy, $k$ is the Boltzmann constant, and $T$ is the temperature. The first term on the right-hand side of the equation represents the usual diffusion process, while the second term represents the effect of the interfacial energy on the driving force of adjacent interatomic planes that differ in composition.
@@ -4187,7 +4054,6 @@ The wetting angle, $\theta$, is another important parameter in heterogeneous nuc
 The wetting angle plays a crucial role in determining the shape of the nucleus and hence the nucleation barrier. According to classical nucleation theory, the free energy change for the formation of a critical nucleus, $\Delta G^*$, can be expressed as:
 
 
-
 $$
 
 \Delta G^* = \frac{16 \pi \gamma^3 v^2}{3 \Delta \mu^2} f(\theta)
@@ -4195,9 +4061,7 @@ $$
 $$
 
 
-
 where $\gamma$ is the surface energy, $v$ is the molecular volume, $\Delta \mu$ is the chemical potential difference between the two phases, and $f(\theta)$ is a function of the wetting angle $\theta$. The function $f(\theta)$ is given by:
-
 
 
 $$
@@ -4205,7 +4069,6 @@ $$
 f(\theta) = \frac{(1 - \cos \theta)^2 (2 + \cos \theta)}{4}
 
 $$
-
 
 
 This equation shows that the nucleation barrier decreases with decreasing wetting angle, which means that nucleation is more likely to occur on surfaces where the nucleating phase can spread out.
@@ -4283,7 +4146,6 @@ Diffusional growth is a kinetic process that plays a crucial role in the evoluti
 The mathematical representation of the diffusion process can be constructed using a transition matrix of a Markov chain, denoted as $M$. The one-step transition probability from $x$ to $y$ is represented as $p(x,y)$, and $M^t$ gives the t-step transition matrix. The diffusion matrix $L$ is defined as follows:
 
 
-
 $$
 
 L_{i,j}=k(x_i,x_j)
@@ -4291,9 +4153,7 @@ L_{i,j}=k(x_i,x_j)
 $$
 
 
-
 A new kernel $L^{(\alpha)}_{i,j}$ is then defined as:
-
 
 
 $$
@@ -4303,9 +4163,7 @@ L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alph
 $$
 
 
-
 or equivalently,
-
 
 
 $$
@@ -4315,13 +4173,11 @@ L^{(\alpha)} = D^{-\alpha} L D^{-\alpha}
 $$
 
 
-
 where $D$ is a diagonal matrix and $D_{i, i} = \sum_j L_{i, j}$.
 
 
 
 The graph Laplacian normalization is applied to this new kernel:
-
 
 
 $$
@@ -4331,13 +4187,11 @@ M=({D}^{(\alpha)})^{-1}L^{(\alpha)}
 $$
 
 
-
 where ${D}^{(\alpha)}_{i, i} = \sum_j L^{(\alpha)}_{i, j}$.
 
 
 
 The probability of transitioning from $x_i$ to $x_j$ in time $t$ is given by:
-
 
 
 $$
@@ -4347,7 +4201,6 @@ p(x_j,t|x_i)=M^t_{i,j}
 $$
 
 
-
 The diffusion process reveals the geometric structure of the material at larger and larger scales as the chain is run forward in time. The notion of a "cluster" in the material is quantified as a region in which the probability of escaping this region is low within a certain time $t$. Therefore, $t$ not only serves as a time parameter, but it also has the dual role of scale parameter.
 
 
@@ -4355,13 +4208,11 @@ The diffusion process reveals the geometric structure of the material at larger 
 The eigendecomposition of the matrix $M^t$ yields:
 
 
-
 $$
 
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j)
 
 $$
-
 
 
 where $\{\lambda_l \}$ is the sequence of eigenvalues of $M$ and $\{\psi_l \}$ and $\{\phi_l \}$ are the biorthogonal right and left eigenvectors respectively.
@@ -4581,7 +4432,6 @@ In the context of thin films, the kinetics of nucleation and growth transformati
 The rate of change of adatom surface density, denoted as $n$, can be expressed as:
 
 
-
 $$
 
 \frac{dn}{dt}=J \sigma-\frac{n}{\tau_{a}}
@@ -4589,9 +4439,7 @@ $$
 $$
 
 
-
 where $J$ is the net flux, $\tau_{a}$ is the mean surface lifetime prior to desorption, and $\sigma$ is the sticking coefficient. The surface density $n$ can then be expressed as:
-
 
 
 $$
@@ -4601,9 +4449,7 @@ n = J\sigma\tau_{a}\left[1-\exp\left(-\frac{t}{\tau_{a}}\right)\right]
 $$
 
 
-
 or alternatively as:
-
 
 
 $$
@@ -4613,13 +4459,11 @@ n = J\sigma\tau_{a}\exp\left(-\frac{t}{\tau_{a}}\right)
 $$
 
 
-
 Adsorption can also be modeled using different isotherms such as the Langmuir model and the BET model. The Langmuir model derives an equilibrium constant $b$ based on the adsorption reaction of vapor adatom with a vacancy on the substrate surface. The BET model expands further and allows adatoms deposition on previously adsorbed adatoms without interaction between adjacent piles of atoms. 
 
 
 
 The Langmuir model, where $P_{A}$ is the vapor pressure of adsorbed adatoms, can be expressed as:
-
 
 
 $$
@@ -4629,9 +4473,7 @@ $$
 $$
 
 
-
 The BET model, where $p_{e}$ is the equilibrium vapor pressure of adsorbed adatoms and $p$ is the applied vapor pressure of adsorbed adatoms, can be expressed as:
-
 
 
 $$
@@ -4639,7 +4481,6 @@ $$
 \theta =\frac{X p}{(p_{e}-p)\left[1+(X-1)\frac{p}{p_{e}}\right]}
 
 $$
-
 
 
 It is important to note that surface crystallography can differ from the bulk to minimize the overall free electronic and bond energies due to the broken bonds at the surface. This can result in a new equilibrium position known as “selvedge”, where the parallel bulk lattice symmetry is preserved. This phenomenon can cause deviations from theoretical calculations of nucleation.
@@ -4787,13 +4628,11 @@ Phase-field models on graphs are a discrete analogue to phase-field models, defi
 The graph Ginzburg–Landau functional of a map $u:V\to \mathbb{R}$ is given by
 
 
-
 $$
 
 F_\varepsilon(u) = \frac{1}{2}\sum_{i,j\in V}\omega_{i,j}(u_i-u_j)^2 + \frac{1}{\varepsilon}\sum_{i\in V}W(u_i),
 
 $$
-
 
 
 where "W" is a double well potential, for example the quartic potential $W(x) = x^2(1 − x^2)$. The graph Ginzburg–Landau functional was introduced by Bertozzi and Flenner. In analogy to continuum phase-field models, where regions with "u" close to 0 or 1 are models for two phases of the material, vertices can be classified into those with $u_j$ close to 0 or close to 1, and for small $\varepsilon$, minimisers of $F_\varepsilon$ will satisfy that $u_j$ is close to 0 or 1 for most nodes, splitting the nodes into two classes.
@@ -4803,13 +4642,11 @@ where "W" is a double well potential, for example the quartic potential $W(x) = 
 To effectively minimise $F_\varepsilon$, a natural approach is by gradient flow (steepest descent). This means to introduce an artificial time parameter and to solve the graph version of the Allen–Cahn equation,
 
 
-
 $$
 
 \frac{du}{dt} = -\Delta u + \frac{1}{\varepsilon}W'(u),
 
 $$
-
 
 
 where $\Delta$ is the graph Laplacian. The ordinary continuum Allen–Cahn equation and the graph Allen–Cahn equation are natural counterparts, just replacing ordinary calculus by calculus on graphs. A convergence result for a numerical graph Allen–Cahn scheme has been established by Luo and Bertozzi.
@@ -5343,13 +5180,11 @@ In addition to these mechanisms, diffusion in polymers can also occur through a 
 The Flory-Huggins theory provides a mathematical model for understanding the diffusion process in polymers. According to this theory, the free energy of mixing of a polymer and a solvent can be expressed as:
 
 
-
 $$
 
 f(\phi)=\frac{kT}{v_c}[(1-\phi)\ln(1-\phi)+\chi \phi(1-\phi)]
 
 $$
-
 
 
 where $\phi$ is the volume fraction of the polymer, $k$ is the Boltzmann constant, $T$ is the absolute temperature, $v_c$ is the volume of a polymer chain, and $\chi$ is the Flory-Huggins interaction parameter.
@@ -5369,7 +5204,6 @@ The diffusion process in polymers can also be influenced by the presence of a co
 
 
 The Flory-Huggins theory provides a mathematical framework for understanding the diffusion process in polymers. According to this theory, the free energy of a polymer-solvent solution can be expressed as 
-
 
 
 $$
@@ -5465,17 +5299,13 @@ The diffusion process in polymer blends can be described by Fick's laws of diffu
 
 
 $$
-
 J = -D \frac{\partial C}{\partial x}
-
 $$
 
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -5537,9 +5367,7 @@ The diffusion coefficient can be described by the Stokes-Einstein equation:
 
 
 $$
-
 D = \frac{kT}{6\pi\eta r}
-
 $$
 
 
@@ -5557,9 +5385,7 @@ One common modification is to introduce a correction factor, $f$, which accounts
 
 
 $$
-
 D = \frac{kT}{6\pi\eta r} f
-
 $$
 
 
@@ -6345,9 +6171,7 @@ Temperature also plays a crucial role in diffusion. As per the Arrhenius equatio
 
 
 $$
-
 D = D_0 e^{-\frac{Q}{RT}}
-
 $$
 
 
@@ -7193,9 +7017,7 @@ The rate of interstitial diffusion is influenced by several factors, including t
 
 
 $$
-
 D = D_0 \exp\left(-\frac{Q}{RT}\right)
-
 $$
 
 
@@ -7221,9 +7043,7 @@ Grain boundary diffusion can be accommodated by diffusional flow, as described b
 
 
 $$
-
 \dot{\epsilon} = \frac{D_{gb} \gamma \Omega}{kT} \left(\frac{d}{b}\right)^2 \sigma
-
 $$
 
 

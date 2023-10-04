@@ -939,9 +939,7 @@ The forward difference approximation is given by:
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -951,9 +949,7 @@ The backward difference approximation is given by:
 
 
 $$
-
 f'(x) \approx \frac{f(x) - f(x-h)}{h}
-
 $$
 
 
@@ -963,9 +959,7 @@ The central difference approximation is given by:
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -1047,9 +1041,7 @@ The finite difference method is based on the Taylor series expansion, which stat
 
 
 $$
-
 f(x+h) = f(x) + hf'(x) + \frac{h^2}{2!}f''(x) + \frac{h^3}{3!}f'''(x) + ...
-
 $$
 
 
@@ -1573,25 +1565,19 @@ In shallow water dynamics, the governing equations are the shallow water equatio
 
 
 $$
-
 \frac{\partial h}{\partial t} + \frac{\partial (hu)}{\partial x} + \frac{\partial (hv)}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial (hu)}{\partial t} + \frac{\partial (hu^2)}{\partial x} + \frac{\partial (huv)}{\partial y} + gh\frac{\partial h}{\partial x} = -f hv
-
 $$
 
 
 
 $$
-
 \frac{\partial (hv)}{\partial t} + \frac{\partial (huv)}{\partial x} + \frac{\partial (hv^2)}{\partial y} + gh\frac{\partial h}{\partial y} = fu hv
-
 $$
 
 
@@ -2623,9 +2609,7 @@ The basic idea behind Reynolds averaging is to decompose a variable into its mea
 
 
 $$
-
 u(x,y,z,t) = \overline{u}(x,y,z,t) + u'(x,y,z,t)
-
 $$
 
 
@@ -2693,9 +2677,7 @@ Reynolds averaging is based on the concept of ensemble averaging, where multiple
 
 
 $$
-
 \overline{u} = \frac{1}{T}\int_{0}^{T}u(t)dt
-
 $$
 
 
@@ -3485,9 +3467,7 @@ The continuity equation, also known as the mass conservation equation, describes
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
-
 $$
 
 
@@ -3501,9 +3481,7 @@ The momentum equations describe the conservation of momentum in the atmosphere a
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p - 2\Omega \times \mathbf{u} + \mathbf{F}
-
 $$
 
 
@@ -3517,9 +3495,7 @@ The thermodynamic energy equation describes the conservation of energy in the at
 
 
 $$
-
 \frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T = \frac{1}{\rho c_p} \nabla \cdot (\kappa \nabla T) + \frac{Q}{\rho c_p}
-
 $$
 
 
@@ -3729,17 +3705,13 @@ To derive the primitive equations, we start with the Navier-Stokes equations in 
 
 
 $$
-
 \rho \frac{D\mathbf{u}}{Dt} = -\nabla p + \rho \mathbf{g} + \mu \nabla^2 \mathbf{u}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
@@ -3765,25 +3737,19 @@ With these assumptions, the Navier-Stokes equations can be simplified to the pri
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{u} = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial p}{\partial z} = -\rho g
-
 $$
 
 

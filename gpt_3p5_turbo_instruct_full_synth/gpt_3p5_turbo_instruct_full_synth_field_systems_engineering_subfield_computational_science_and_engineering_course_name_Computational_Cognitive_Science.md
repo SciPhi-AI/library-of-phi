@@ -1169,9 +1169,7 @@ Bayes' rule can be mathematically represented as:
 
 
 $$
-
 P(A|B) = \frac{P(B|A)P(A)}{P(B)}
-
 $$
 
 
@@ -1241,17 +1239,13 @@ Now, let's say that the evidence we have is that the weather is sunny and the pe
 
 
 $$
-
 P(go\ for\ a\ walk|sunny,\ happy) = \frac{P(sunny|go\ for\ a\ walk)P(happy|go\ for\ a\ walk)P(go\ for\ a\ walk)}{P(sunny)P(happy)}
-
 $$
 
 
 
 $$
-
 = \frac{0.7 \times 0.6 \times 0.4}{0.7 \times 0.6 + 0.3 \times 0.6 + 0.7 \times 0.4} = 0.5
-
 $$
 
 

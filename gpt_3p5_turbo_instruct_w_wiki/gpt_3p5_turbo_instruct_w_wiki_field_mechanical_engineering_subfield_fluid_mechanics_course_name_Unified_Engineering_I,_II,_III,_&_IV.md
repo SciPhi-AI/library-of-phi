@@ -2410,25 +2410,19 @@ In one-dimensional motion, an object or system moves along a straight line. The 
 
 
 $$
-
 \Delta x = x_f - x_i
-
 $$
 
 
 
 $$
-
 v = \frac{\Delta x}{\Delta t}
-
 $$
 
 
 
 $$
-
 a = \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -2454,25 +2448,19 @@ Uniform motion is when an object or system moves with a constant velocity, meani
 
 
 $$
-
 x = x_0 + vt
-
 $$
 
 
 
 $$
-
 v = v_0 + at
-
 $$
 
 
 
 $$
-
 x = x_0 + v_0t + \frac{1}{2}at^2
-
 $$
 
 
@@ -2490,17 +2478,13 @@ Projectile motion is a type of motion where an object or system is launched into
 
 
 $$
-
 x = x_0 + v_{0x}t
-
 $$
 
 
 
 $$
-
 y = y_0 + v_{0y}t - \frac{1}{2}gt^2
-
 $$
 
 
@@ -2518,17 +2502,13 @@ Circular motion is a type of motion where an object or system moves along a circ
 
 
 $$
-
 v = \frac{2\pi r}{T}
-
 $$
 
 
 
 $$
-
 a_c = \frac{v^2}{r}
-
 $$
 
 
@@ -2588,9 +2568,7 @@ The work-energy theorem states that the work done on an object is equal to the c
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -2624,9 +2602,7 @@ The impulse-momentum theorem relates the change in momentum of an object to the 
 
 
 $$
-
 J = F \Delta t
-
 $$
 
 
@@ -2636,9 +2612,7 @@ where $J$ is the impulse, $F$ is the force applied, and $\Delta t$ is the time i
 
 
 $$
-
 J = \Delta p
-
 $$
 
 
@@ -2672,9 +2646,7 @@ The coefficient of friction is a measure of the roughness of the surfaces in con
 
 
 $$
-
 \mu = \frac{F_f}{F_N}
-
 $$
 
 
@@ -2734,9 +2706,7 @@ The work-energy theorem is a fundamental concept in engineering that relates the
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -2770,9 +2740,7 @@ The impulse-momentum theorem is a fundamental concept in engineering that relate
 
 
 $$
-
 \Delta p = F \Delta t
-
 $$
 
 
@@ -2798,9 +2766,7 @@ In the case of relativistic circular motion, the three-acceleration vector is pe
 
 
 $$
-
 \alpha^2 = \gamma^4 a^2
-
 $$
 
 
@@ -2818,9 +2784,7 @@ In circular motion, the velocity vectors at two adjacent times sweep out a circl
 
 
 $$
-
 a_c = v \frac{d\theta}{dt} = v\omega = \frac{v^2}{r}
-
 $$
 
 
@@ -2880,9 +2844,7 @@ The work-energy theorem is a fundamental concept in engineering that relates the
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -2924,9 +2886,7 @@ Torque is the rotational equivalent of force and is defined as the product of a 
 
 
 $$
-
 \tau = F \times r
-
 $$
 
 
@@ -2952,9 +2912,7 @@ Similar to linear kinetic energy, rotational kinetic energy is the energy an obj
 
 
 $$
-
 KE_{rot} = \frac{1}{2}I\omega^2
-
 $$
 
 
@@ -3014,9 +2972,7 @@ The work-energy theorem is a fundamental concept in engineering that relates the
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -3042,9 +2998,7 @@ The conservation of momentum is a fundamental principle in mechanics that states
 
 
 $$
-
 \sum \vec{p_i} = \sum \vec{p_f}
-
 $$
 
 
@@ -3124,9 +3078,7 @@ The work-energy theorem is a fundamental concept in engineering that relates the
 
 
 $$
-
 W = \Delta KE
-
 $$
 
 
@@ -3160,9 +3112,7 @@ In the context of mechanics, work is defined as the force applied to an object m
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -3382,9 +3332,7 @@ Elasticity is the ability of a material to return to its original shape after be
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -4342,9 +4290,7 @@ The general equation for heat transfer is given by:
 
 
 $$
-
 Q = mc\Delta T
-
 $$
 
 
@@ -4366,9 +4312,7 @@ The general equation for work is given by:
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -4584,9 +4528,7 @@ The general equation of heat transfer, also known as the first law of thermodyna
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -4608,9 +4550,7 @@ The equation for entropy production can be written as:
 
 
 $$
-
 \rho Ds = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -4666,9 +4606,7 @@ The Carnot cycle is a theoretical cycle that operates between two heat reservoir
 
 
 $$
-
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
-
 $$
 
 
@@ -4682,9 +4620,7 @@ The Otto cycle is a type of internal combustion engine cycle used in gasoline en
 
 
 $$
-
 \eta_{Otto} = 1 - \frac{1}{r^{\gamma - 1}}
-
 $$
 
 
@@ -4698,9 +4634,7 @@ The Rankine cycle is a type of steam power cycle used in power plants. It consis
 
 
 $$
-
 \eta_{Rankine} = \frac{W_{net}}{Q_{in}} = \frac{W_{turbine} - W_{pump}}{Q_{in}}
-
 $$
 
 
@@ -4722,9 +4656,7 @@ Boyle's law states that at a constant temperature, the volume of a gas is invers
 
 
 $$
-
 P_1V_1 = P_2V_2
-
 $$
 
 
@@ -4738,9 +4670,7 @@ Charles's law states that at a constant pressure, the volume of a gas is directl
 
 
 $$
-
 \frac{V_1}{T_1} = \frac{V_2}{T_2}
-
 $$
 
 
@@ -4754,9 +4684,7 @@ Gay-Lussac's law states that at a constant volume, the pressure of a gas is dire
 
 
 $$
-
 \frac{P_1}{T_1} = \frac{P_2}{T_2}
-
 $$
 
 
@@ -4848,9 +4776,7 @@ The Carnot cycle is a theoretical cycle that operates between two heat reservoir
 
 
 $$
-
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
-
 $$
 
 
@@ -4868,9 +4794,7 @@ The Otto cycle is a type of internal combustion engine cycle used in gasoline en
 
 
 $$
-
 \eta_{Otto} = 1 - \frac{1}{r^{\gamma - 1}}
-
 $$
 
 
@@ -4888,9 +4812,7 @@ The Rankine cycle is a type of steam power cycle used in power plants. It consis
 
 
 $$
-
 \eta_{Rankine} = \frac{W_{net}}{Q_{in}} = \frac{W_{turbine} - W_{pump}}{Q_{in}}
-
 $$
 
 
@@ -4916,9 +4838,7 @@ Boyle's law states that at a constant temperature, the volume of a gas is invers
 
 
 $$
-
 P_1V_1 = P_2V_2
-
 $$
 
 
@@ -4936,9 +4856,7 @@ Charles's law states that at a constant pressure, the volume of a gas is directl
 
 
 $$
-
 \frac{V_1}{T_1} = \frac{V_2}{T_2}
-
 $$
 
 
@@ -4956,9 +4874,7 @@ Gay-Lussac's law states that at a constant volume, the pressure of a gas is dire
 
 
 $$
-
 \frac{P_1}{T_1} = \frac{P_2}{T_2}
-
 $$
 
 
@@ -4984,9 +4900,7 @@ At equilibrium, at a specified temperature and pressure, and with no external fo
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -5000,9 +4914,7 @@ This can be expressed in terms of thermodynamic activity as:
 
 
 $$
-
 \Delta G = \Delta G^{\ominus} + RT\ln A
-
 $$
 
 
@@ -5020,9 +4932,7 @@ For a closed system, no particles may enter or leave, although they may combine 
 
 
 $$
-
 \sum_{j=1}^{n}a_{ij}N_j = b_i
-
 $$
 
 
@@ -5044,9 +4954,7 @@ Define:
 
 
 $$
-
 F = \Delta G - \sum_{i=1}^{k}\lambda_i\left(\sum_{j=1}^{n}a_{ij}N_j - b_i\right)
-
 $$
 
 
@@ -5056,9 +4964,7 @@ where the $\lambda_i$ are the Lagrange multipliers, one for each element. This a
 
 
 $$
-
 \frac{\partial F}{\partial N_j} = 0 \quad \text{and} \quad \frac{\partial F}{\partial \lambda_i} = 0
-
 $$
 
 
@@ -5102,9 +5008,7 @@ The Carnot cycle is a theoretical cycle that operates between two heat reservoir
 
 
 $$
-
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
-
 $$
 
 
@@ -5122,9 +5026,7 @@ The Otto cycle is a type of internal combustion engine cycle used in gasoline en
 
 
 $$
-
 \eta_{Otto} = 1 - \frac{1}{r^{\gamma - 1}}
-
 $$
 
 
@@ -5142,9 +5044,7 @@ The Rankine cycle is a type of steam power cycle used in power plants. It consis
 
 
 $$
-
 \eta_{Rankine} = \frac{W_{net}}{Q_{in}} = \frac{W_{turbine} - W_{pump}}{Q_{in}}
-
 $$
 
 
@@ -5174,9 +5074,7 @@ In any thermodynamic process, there is always some amount of entropy being produ
 
 
 $$
-
 \frac{dS}{dt} = \frac{\delta Q}{T}
-
 $$
 
 
@@ -5194,9 +5092,7 @@ Entropy generation is the process by which entropy is produced in a system. It i
 
 
 $$
-
 \frac{dS_{gen}}{dt} = \frac{\delta Q_{irr}}{T}
-
 $$
 
 
@@ -5252,9 +5148,7 @@ The Carnot cycle is a theoretical cycle that operates between two heat reservoir
 
 
 $$
-
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
-
 $$
 
 
@@ -5272,9 +5166,7 @@ The Otto cycle is a type of internal combustion engine cycle used in gasoline en
 
 
 $$
-
 \eta_{Otto} = 1 - \frac{1}{r^{\gamma - 1}}
-
 $$
 
 
@@ -5292,9 +5184,7 @@ The Rankine cycle is a type of steam power cycle used in power plants. It consis
 
 
 $$
-
 \eta_{Rankine} = \frac{W_{net}}{Q_{in}} = \frac{W_{turbine} - W_{pump}}{Q_{in}}
-
 $$
 
 
@@ -5320,9 +5210,7 @@ The general equation of heat transfer is given by:
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -5340,9 +5228,7 @@ Entropy production is a measure of the irreversibility of a process. It is given
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -5402,9 +5288,7 @@ The Carnot cycle is a theoretical cycle that operates between two heat reservoir
 
 
 $$
-
 \eta_{Carnot} = 1 - \frac{T_L}{T_H}
-
 $$
 
 
@@ -5426,9 +5310,7 @@ The Otto cycle is a type of internal combustion engine cycle used in gasoline en
 
 
 $$
-
 \eta_{Otto} = 1 - \frac{1}{r^{\gamma - 1}}
-
 $$
 
 
@@ -5450,9 +5332,7 @@ The Rankine cycle is a type of steam power cycle used in power plants. It consis
 
 
 $$
-
 \eta_{Rankine} = \frac{W_{net}}{Q_{in}} = \frac{W_{turbine} - W_{pump}}{Q_{in}}
-
 $$
 
 
@@ -5680,9 +5560,7 @@ Hydrostatic pressure is the pressure exerted by a fluid at rest due to the weigh
 
 
 $$
-
 P = \rho g h
-
 $$
 
 
@@ -5774,9 +5652,7 @@ This principle is often expressed mathematically as the continuity equation:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -5814,9 +5690,7 @@ One of the most famous equations in fluid mechanics is Bernoulli's equation, whi
 
 
 $$
-
 P + \frac{1}{2}\rho v^2 + \rho g h = \text{constant}
-
 $$
 
 
@@ -5838,9 +5712,7 @@ In addition to velocity and acceleration, another important quantity in fluid fl
 
 
 $$
-
 \boldsymbol{\omega} = \nabla \times \mathbf{v}
-
 $$
 
 
@@ -5858,9 +5730,7 @@ The Navier-Stokes equations are a set of partial differential equations that des
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla P + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
-
 $$
 
 
@@ -5908,9 +5778,7 @@ The principle of conservation of mass, also known as the continuity equation, st
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -5928,9 +5796,7 @@ The continuity equation can also be expressed using the general continuity equat
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0
-
 $$
 
 
@@ -5976,9 +5842,7 @@ There are also generalized momenta, denoted by $p$, which are conjugate to these
 
 
 $$
-
 \mathcal{S} = \int_{t_1}^{t_2} (T - V) dt
-
 $$
 
 
@@ -6026,9 +5890,7 @@ Bernoulli's equation is derived from the conservation of energy principle, which
 
 
 $$
-
 \frac{\partial}{\partial t} \left(\frac{1}{2}\rho v^2 + \rho gh + \rho \varepsilon \right) + \nabla \cdot \left(\frac{1}{2}\rho v^2 \mathbf{v} + \rho gh \mathbf{v} + \rho \varepsilon \mathbf{v} \right) = 0
-
 $$
 
 
@@ -6042,9 +5904,7 @@ By assuming steady flow (i.e. no change in time), incompressible fluid (i.e. con
 
 
 $$
-
 \frac{1}{2}\rho v^2 + \rho h + \rho \varepsilon = \text{constant}
-
 $$
 
 
@@ -6054,9 +5914,7 @@ This equation can be further simplified by defining the total energy per unit ma
 
 
 $$
-
 \rho e = \text{constant}
-
 $$
 
 
@@ -6124,9 +5982,7 @@ The general equation of heat transfer is a fundamental equation in thermodynamic
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -6140,9 +5996,7 @@ The equation for entropy production is another important equation in thermodynam
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -6214,9 +6068,7 @@ The drag force is dependent on the velocity of the fluid, the density of the flu
 
 
 $$
-
 F_D = \frac{1}{2} \rho v^2 C_D A
-
 $$
 
 
@@ -6230,9 +6082,7 @@ The lift force, on the other hand, is dependent on the shape of the pipe and the
 
 
 $$
-
 F_L = \frac{1}{2} \rho v^2 C_L A
-
 $$
 
 
@@ -6254,9 +6104,7 @@ Bernoulli's equation is a fundamental equation in fluid mechanics that describes
 
 
 $$
-
 P_1 + \frac{1}{2} \rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2} \rho v_2^2 + \rho g h_2
-
 $$
 
 
@@ -6332,9 +6180,7 @@ The drag force is dependent on the velocity of the fluid, the density of the flu
 
 
 $$
-
 F_D = \frac{1}{2} \rho v^2 C_D A
-
 $$
 
 
@@ -6410,9 +6256,7 @@ The drag force is dependent on the velocity of the fluid, the density of the flu
 
 
 $$
-
 F_D = \frac{1}{2} \rho v^2 C_D A
-
 $$
 
 
@@ -6496,9 +6340,7 @@ The drag force is dependent on the velocity of the fluid, the density of the flu
 
 
 $$
-
 F_D = \frac{1}{2} \rho v^2 C_D A
-
 $$
 
 
@@ -6732,9 +6574,7 @@ Ohm's Law states that the current through a conductor between two points is dire
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -6824,9 +6664,7 @@ KCL states that the algebraic sum of currents entering and exiting a node (or ju
 
 
 $$
-
 \sum_{i=1}^{n} I_i = 0
-
 $$
 
 
@@ -6852,9 +6690,7 @@ KVL states that the algebraic sum of voltages around a closed loop in a circuit 
 
 
 $$
-
 \sum_{i=1}^{n} V_i = 0
-
 $$
 
 
@@ -6926,9 +6762,7 @@ One of the fundamental principles in DC circuits is Ohm's Law, which states that
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -6960,9 +6794,7 @@ In an AC circuit, the voltage and current can be represented as sinusoidal funct
 
 
 $$
-
 V(t) = V_{max} \sin(\omega t + \phi)
-
 $$
 
 
@@ -6984,9 +6816,7 @@ Similarly, the current can be expressed as:
 
 
 $$
-
 I(t) = I_{max} \sin(\omega t + \phi)
-
 $$
 
 
@@ -7020,9 +6850,7 @@ The impedance of a circuit can be calculated using the following formula:
 
 
 $$
-
 Z = \sqrt{R^2 + (X_C - X_L)^2}
-
 $$
 
 
@@ -7844,9 +7672,7 @@ Hooke's Law is a fundamental principle in the field of structural analysis that 
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -8496,9 +8322,7 @@ The most common type of Fourier analysis is the Fourier transform, which convert
 
 
 $$
-
 X(\omega) = \int_{-\infty}^{\infty} x(t)e^{-j\omega t} dt
-
 $$
 
 
@@ -8508,9 +8332,7 @@ where $\omega$ represents frequency. Similarly, the Fourier transform of a discr
 
 
 $$
-
 X(\omega) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
-
 $$
 
 
@@ -8528,9 +8350,7 @@ A system is linear if it satisfies the principle of superposition, which states 
 
 
 $$
-
 y(t) = \alpha x_1(t) + \beta x_2(t)
-
 $$
 
 
@@ -8544,9 +8364,7 @@ A system is time-invariant if its behavior does not change over time. This means
 
 
 $$
-
 y(t) = x(t-t_0)
-
 $$
 
 
@@ -8560,9 +8378,7 @@ A system is causal if the output of the system at any given time depends only on
 
 
 $$
-
 y(t) = 0, \text{for } t < 0
-
 $$
 
 
@@ -8610,9 +8426,7 @@ The Fourier series formula is given by:
 
 
 $$
-
 f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t)\right)
-
 $$
 
 
@@ -8630,17 +8444,13 @@ The Fourier coefficients can be calculated using the following equations:
 
 
 $$
-
 a_n = \frac{2}{T} \int_{t_0}^{t_0+T} f(t) \cos(n\omega_0 t) dt
-
 $$
 
 
 
 $$
-
 b_n = \frac{2}{T} \int_{t_0}^{t_0+T} f(t) \sin(n\omega_0 t) dt
-
 $$
 
 
@@ -8708,9 +8518,7 @@ The Laplace transform of a function $f(t)$ is defined as:
 
 
 $$
-
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
-
 $$
 
 
@@ -8786,9 +8594,7 @@ The frequency response of a system is typically denoted by <math>H(\omega)</math
 
 
 $$
-
 H(\omega) = \frac{Y(\omega)}{X(\omega)}
-
 $$
 
 
@@ -9064,9 +8870,7 @@ The Z-Transform of a discrete-time signal x[n] is defined as:
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -9108,9 +8912,7 @@ Consider the following example where x[n] = cos(ωn):
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} \cos(\omega n)z^{-n}
-
 $$
 
 
@@ -9120,9 +8922,7 @@ If we let z = e^jω, then we get:
 
 
 $$
-
 X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} \cos(\omega n)e^{-j\omega n}
-
 $$
 
 
@@ -9316,17 +9116,13 @@ The state-space representation of a system is given by the following set of equa
 
 
 $$
-
 \dot{\mathbf{x}}(t) = \mathbf{Ax}(t) + \mathbf{Bu}(t)
-
 $$
 
 
 
 $$
-
 \mathbf{y}(t) = \mathbf{Cx}(t) + \mathbf{Du}(t)
-
 $$
 
 
@@ -9460,15 +9256,11 @@ Prove that a system is time-invariant if and only if its impulse response is tim
 Find the transfer function of a system with the following state-space representation:
 
 $$
-
 \dot{x}(t) = Ax(t) + Bu(t)
-
 $$
 
 $$
-
 y(t) = Cx(t) + Du(t)
-
 $$
 
 
@@ -10176,9 +9968,7 @@ The rocket equation, also known as the Tsiolkovsky rocket equation, is a fundame
 
 
 $$
-
 \Delta v = v_e \ln{\frac{m_0}{m_f}}
-
 $$
 
 
@@ -10754,9 +10544,7 @@ One example of a DDE is the Mackey-Glass equation, which is used to model the dy
 
 
 $$
-
 \frac{du(t)}{dt} = \frac{au(t-\tau)}{1+u(t-\tau)^n} - bu(t)
-
 $$
 
 
@@ -10782,9 +10570,7 @@ The general form of a second-order linear ODE is:
 
 
 $$
-
 \frac{d^2u(x)}{dx^2} + p(x)\frac{du(x)}{dx} + q(x)u(x) = f(x)
-
 $$
 
 
@@ -10794,9 +10580,7 @@ To solve this equation using variation of parameters, we first find the solution
 
 
 $$
-
 \frac{d^2u(x)}{dx^2} + p(x)\frac{du(x)}{dx} + q(x)u(x) = 0
-
 $$
 
 
@@ -10806,9 +10590,7 @@ Let these solutions be "u"<sub>1</sub> and "u"<sub>2</sub>. Then, the general so
 
 
 $$
-
 u_G(x) = A(x)u_1(x) + B(x)u_2(x)
-
 $$
 
 
@@ -11560,7 +11342,6 @@ In conclusion, mastering the mathematical concepts and techniques covered in thi
 Solve the following system of equations using substitution:
 
 $$
-
 \begin{cases}
 
 2x + 3y = 10 \\
@@ -11568,7 +11349,6 @@ $$
 x - 2y = 5
 
 \end{cases}
-
 $$
 
 
@@ -11578,9 +11358,7 @@ $$
 Find the area of a triangle with sides of length 5, 7, and 9 using Heron's formula:
 
 $$
-
 A = \sqrt{s(s-a)(s-b)(s-c)}
-
 $$
 
 where $s$ is the semiperimeter and $a$, $b$, and $c$ are the lengths of the sides.
@@ -11598,9 +11376,7 @@ Find the derivative of the function $f(x) = 3x^2 + 5x - 2$.
 Solve the following differential equation:
 
 $$
-
 \frac{dy}{dx} = 2x + 3
-
 $$
 
 

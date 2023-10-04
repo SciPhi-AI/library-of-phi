@@ -791,9 +791,7 @@ The general form of an equation of state can be written as:
 
 
 $$
-
 f(p, V, T) = 0
-
 $$
 
 
@@ -827,9 +825,7 @@ The simplest equation of state is the ideal gas law, which is given by:
 
 
 $$
-
 pV = nRT
-
 $$
 
 
@@ -847,9 +843,7 @@ The Van der Waals equation of state is a modification of the ideal gas law that 
 
 
 $$
-
 \left(p + \frac{an^2}{V^2}\right)(V - nb) = nRT
-
 $$
 
 
@@ -867,9 +861,7 @@ Cubic equations of state, such as the Peng-Robinson and Patel-Teja equations of 
 
 
 $$
-
 p = \frac{RT}{V - b} - \frac{a}{V(V + b) + b(V - b)}
-
 $$
 
 
@@ -899,9 +891,7 @@ In thermodynamics, a process is defined as a path of change in the state of a sy
 
 
 $$
-
 pV = nRT
-
 $$
 
 
@@ -919,9 +909,7 @@ Thermodynamic potentials are functions of the state variables that provide usefu
 
 
 $$
-
 U = \frac{3}{2}nRT
-
 $$
 
 
@@ -1013,9 +1001,7 @@ The first law of thermodynamics, also known as the law of energy conservation, s
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1049,9 +1035,7 @@ Mathematically, the change in internal energy ($\Delta U$) of a system can be ex
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1085,9 +1069,7 @@ The measurement of internal energy is not straightforward due to its intrinsic n
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1133,9 +1115,7 @@ The first law of thermodynamics, also known as the law of energy conservation, s
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1177,9 +1157,7 @@ The mathematical expression for expansion work ($W_{exp}$) in a quasi-static or 
 
 
 $$
-
 W_{exp} = -\int_{V_i}^{V_f} P_{ext} dV
-
 $$
 
 
@@ -1193,9 +1171,7 @@ In an irreversible process, the work done is not maximum and depends on the spec
 
 
 $$
-
 W_{exp} = -nRT \ln\left(\frac{V_f}{V_i}\right)
-
 $$
 
 
@@ -1225,9 +1201,7 @@ As mentioned in the previous section, isothermal expansion work occurs at a cons
 
 
 $$
-
 W_{exp} = -nRT \ln\left(\frac{V_f}{V_i}\right)
-
 $$
 
 
@@ -1249,9 +1223,7 @@ Adiabatic expansion work, on the other hand, occurs without any heat transfer in
 
 
 $$
-
 W_{exp} = \frac{P_iV_i - P_fV_f}{\gamma - 1}
-
 $$
 
 
@@ -1289,9 +1261,7 @@ For example, in a steam engine, water is heated in a boiler to produce steam. Th
 
 
 $$
-
 W_{exp} = -nRT \ln\left(\frac{V_f}{V_i}\right)
-
 $$
 
 
@@ -1309,9 +1279,7 @@ The work done during the expansion of the refrigerant can be calculated using th
 
 
 $$
-
 W_{exp} = \frac{P_iV_i - P_fV_f}{\gamma - 1}
-
 $$
 
 
@@ -1435,9 +1403,7 @@ The first law of thermodynamics, which states that the change in internal energy
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -1447,9 +1413,7 @@ However, in an adiabatic process, $Q=0$, so the equation simplifies to:
 
 
 $$
-
 \Delta U = -W
-
 $$
 
 
@@ -1479,9 +1443,7 @@ The adiabatic equation of state can be written as:
 
 
 $$
-
 PV^{\gamma} = \text{constant}
-
 $$
 
 
@@ -1499,9 +1461,7 @@ The adiabatic equation of state can also be written in terms of temperature and 
 
 
 $$
-
 TV^{\gamma-1} = \text{constant}
-
 $$
 
 
@@ -1511,9 +1471,7 @@ or in terms of pressure and temperature as:
 
 
 $$
-
 P^{1-\gamma}T^{\gamma} = \text{constant}
-
 $$
 
 
@@ -1583,9 +1541,7 @@ The general equation of heat transfer and the equation for entropy production ar
 
 
 $$
-
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
-
 $$
 
 
@@ -1595,9 +1551,7 @@ and
 
 
 $$
-
 \rho dh = \rho Tds + dp
-
 $$
 
 
@@ -1627,9 +1581,7 @@ One of the key aspects of thermochemistry is the concept of enthalpy ($H$), whic
 
 
 $$
-
 \Delta H = q_p
-
 $$
 
 
@@ -1643,9 +1595,7 @@ Another important concept in thermochemistry is entropy ($S$), which is a measur
 
 
 $$
-
 \Delta S = \int \frac{dq_{rev}}{T}
-
 $$
 
 
@@ -1767,9 +1717,7 @@ The coffee cup calorimeter operates under constant pressure and is typically use
 
 
 $$
-
 q_{rxn} = -q_{solution} = -m_{solution} \cdot c_{solution} \cdot \Delta T_{solution}
-
 $$
 
 
@@ -1791,9 +1739,7 @@ The bomb calorimeter operates under constant volume and is typically used to mea
 
 
 $$
-
 q_{rxn} = -q_{water} = -m_{water} \cdot c_{water} \cdot \Delta T_{water}
-
 $$
 
 
@@ -1839,9 +1785,7 @@ The heat of the reaction ($q_{rxn}$) is calculated using the formula:
 
 
 $$
-
 q_{rxn} = -q_{solution} = -m_{solution} \cdot c_{solution} \cdot \Delta T_{solution}
-
 $$
 
 
@@ -1863,9 +1807,7 @@ The heat of the reaction ($q_{rxn}$) is calculated using the formula:
 
 
 $$
-
 q_{rxn} = -q_{water} = -m_{water} \cdot c_{water} \cdot \Delta T_{water}
-
 $$
 
 
@@ -1981,9 +1923,7 @@ The mathematical representation of entropy is derived from the Clausius inequali
 
 
 $$
-
 \oint \frac{dQ}{T} \leq 0
-
 $$
 
 
@@ -1997,9 +1937,7 @@ The equality in the Clausius inequality holds for reversible processes, while th
 
 
 $$
-
 dS = \frac{dQ_{rev}}{T}
-
 $$
 
 
@@ -2025,9 +1963,7 @@ The Clausius inequality can be expressed in integral form as:
 
 
 $$
-
 \int_{\Omega} \rho \dot{\eta} dV + \int_{\partial \Omega} \frac{\mathbf{q} \cdot \mathbf{n}}{T} dA \geq \int_{\Omega} \frac{s}{T} dV
-
 $$
 
 
@@ -2041,9 +1977,7 @@ The Clausius inequality can also be expressed in differential form as:
 
 
 $$
-
 \rho \dot{\eta} + \boldsymbol{\nabla} \cdot \left( \frac{\mathbf{q}}{T} \right) \geq \frac{s}{T}
-
 $$
 
 
@@ -2081,9 +2015,7 @@ The equation for specific entropy production, derived from the Clausius inequali
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -2145,9 +2077,7 @@ The concept of irreversibility is closely linked to the concept of entropy throu
 
 
 $$
-
 \oint \frac{dQ}{T} \leq 0
-
 $$
 
 
@@ -2161,9 +2091,7 @@ The Clausius inequality can be used to define a new state function, entropy. For
 
 
 $$
-
 \Delta S = \int \frac{dQ_{rev}}{T}
-
 $$
 
 
@@ -2343,9 +2271,7 @@ The thermodynamic criterion for spontaneity is based on the concept of Gibbs fre
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -2359,9 +2285,7 @@ A process will be spontaneous if the change in Gibbs free energy ($\Delta G$) is
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S < 0
-
 $$
 
 
@@ -2387,9 +2311,7 @@ A process will be spontaneous if the activation energy is low enough that the re
 
 
 $$
-
 k = Ae^{-E_a/RT}
-
 $$
 
 
@@ -2589,9 +2511,7 @@ The chemical potential of a species in a system is given by the derivative of th
 
 
 $$
-
 \mu = \left(\frac{\partial G}{\partial N}\right)_{T,P}
-
 $$
 
 
@@ -2605,9 +2525,7 @@ The chemical potential is also related to the activity of a species in a system.
 
 
 $$
-
 A = \frac{\mu}{\mu^{\ominus}}
-
 $$
 
 
@@ -2633,9 +2551,7 @@ In thermodynamics, a process will occur spontaneously if it leads to a decrease 
 
 
 $$
-
 \Delta G = \Delta H - T\Delta S
-
 $$
 
 
@@ -2657,9 +2573,7 @@ For a reaction to occur spontaneously, the total chemical potential of the produ
 
 
 $$
-
 \sum \mu_{\text{products}} < \sum \mu_{\text{reactants}}
-
 $$
 
 
@@ -2693,9 +2607,7 @@ In the context of Gibbs free energy and chemical potential, we can understand ch
 
 
 $$
-
 \sum \mu_{\text{products}} = \sum \mu_{\text{reactants}}
-
 $$
 
 
@@ -2713,9 +2625,7 @@ The relationship between Gibbs free energy and the equilibrium constant, `$K$`, 
 
 
 $$
-
 \Delta G^o = -RT \ln K
-
 $$
 
 
@@ -2745,9 +2655,7 @@ Changes in the concentration of reactants or products can shift the position of 
 
 
 $$
-
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
-
 $$
 
 
@@ -2769,9 +2677,7 @@ The effect of temperature on equilibrium can be quantified using the Van't Hoff 
 
 
 $$
-
 \ln \left( \frac{K_2}{K_1} \right) = \frac{-\Delta H}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
-
 $$
 
 
@@ -2805,9 +2711,7 @@ The concept of chemical equilibrium plays a significant role in thermodynamics, 
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -2821,9 +2725,7 @@ At equilibrium, the Gibbs free energy of the system is at its minimum. This is b
 
 
 $$
-
 \Delta G = 0
-
 $$
 
 
@@ -2837,9 +2739,7 @@ The relationship between Gibbs free energy and the equilibrium constant `$K$` ca
 
 
 $$
-
 \Delta G = -RT \ln K
-
 $$
 
 
@@ -2865,9 +2765,7 @@ The Gibbs free energy equation, as previously discussed, is given by:
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -2881,9 +2779,7 @@ The relationship between Gibbs free energy and the equilibrium constant `$K$` is
 
 
 $$
-
 \Delta G = -RT \ln K
-
 $$
 
 
@@ -2897,9 +2793,7 @@ In the context of entropy, the second law of thermodynamics states that the tota
 
 
 $$
-
 \Delta S = \frac{\Delta Q}{T}
-
 $$
 
 
@@ -2925,9 +2819,7 @@ The Gibbs free energy equation, as previously discussed, is given by:
 
 
 $$
-
 G = H - TS
-
 $$
 
 
@@ -2937,9 +2829,7 @@ where `$H$` is the enthalpy, `$T$` is the absolute temperature, and `$S$` is the
 
 
 $$
-
 H = U + PV
-
 $$
 
 
@@ -2953,9 +2843,7 @@ The relationship between Gibbs free energy and the equilibrium constant `$K_p$` 
 
 
 $$
-
 \Delta G = -RT \ln K_p
-
 $$
 
 
@@ -2969,9 +2857,7 @@ In the context of entropy, the second law of thermodynamics states that the tota
 
 
 $$
-
 \Delta S = \frac{\Delta Q}{T}
-
 $$
 
 
@@ -2997,9 +2883,7 @@ The equilibrium constant `$K_p$` is defined as:
 
 
 $$
-
 K_p = \frac{(P_{products})^{stoichiometric\ coefficient}}{(P_{reactants})^{stoichiometric\ coefficient}}
-
 $$
 
 
@@ -3013,9 +2897,7 @@ The relationship between `$K_p$` and the Gibbs free energy change `$\Delta G$` i
 
 
 $$
-
 \Delta G = -RT \ln K_p
-
 $$
 
 
@@ -3069,9 +2951,7 @@ The relationship between `$K_p$` and `$\Delta G$` is given by the equation:
 
 
 $$
-
 \Delta G = -RT \ln K_p
-
 $$
 
 
@@ -3241,9 +3121,7 @@ We will also delve into the mathematical aspects of phase equilibria, using the 
 
 
 $$
-
 F = C - P + 2
-
 $$
 
 
@@ -3281,9 +3159,7 @@ The Clausius-Clapeyron equation is given by:
 
 
 $$
-
 \frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}
-
 $$
 
 
@@ -3313,9 +3189,7 @@ The Clausius-Clapeyron equation is given by:
 
 
 $$
-
 \frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}
-
 $$
 
 
@@ -3353,9 +3227,7 @@ First, we need to know the enthalpy change of vaporization, $\Delta H_{vap}$, fo
 
 
 $$
-
 \frac{dP}{dT} = \frac{\Delta H_{vap}}{T\Delta V_{vap}}
-
 $$
 
 
@@ -3373,9 +3245,7 @@ The Clausius-Clapeyron equation can also be used to find the pressure at which a
 
 
 $$
-
 P = P_0 \exp\left(\frac{-\Delta H_{vap}}{R}\left(\frac{1}{T} - \frac{1}{T_0}\right)\right)
-
 $$
 
 
@@ -3487,9 +3357,7 @@ This definition is based on vapor pressure, a directly measurable property, at l
 
 
 $$
-
 \mu_i = \mu_i^u + RT \ln \left(\frac{p_i}{p^u}\right)
-
 $$
 
 
@@ -3503,9 +3371,7 @@ Substituting the value of $p_i$ from Raoult's law into the above equation, we ge
 
 
 $$
-
 \mu_i = \mu_i^u + RT \ln \left(\frac{x_i p_i^*}{p^u}\right)
-
 $$
 
 
@@ -3571,9 +3437,7 @@ The entropy change upon mixing can be calculated using the following equation:
 
 
 $$
-
 \Delta s_{mix} = -R \sum_{i=1}^{n} x_i \ln x_i
-
 $$
 
 
@@ -3587,9 +3451,7 @@ The Gibbs free energy change upon mixing, $\Delta g_{mix}$, is another important
 
 
 $$
-
 \Delta g_{mix} = RT \sum_{i=1}^{n} x_i \ln x_i
-
 $$
 
 
@@ -3623,9 +3485,7 @@ The deviation from ideal behavior can be quantified using the concept of activit
 
 
 $$
-
 a_i = \gamma_i x_i
-
 $$
 
 
@@ -3639,9 +3499,7 @@ The Gibbs free energy change upon mixing for a non-ideal solution can be calcula
 
 
 $$
-
 \Delta g_{mix} = RT \sum_{i=1}^{n} x_i \ln a_i
-
 $$
 
 
@@ -3695,9 +3553,7 @@ The thermodynamic behavior of non-ideal solutions can be described using the con
 
 
 $$
-
 G^E = G - G^{ideal}
-
 $$
 
 
@@ -3711,9 +3567,7 @@ The excess Gibbs free energy is particularly important because it is directly re
 
 
 $$
-
 \ln \gamma_i = \frac{\partial G^E}{\partial n_i} \Bigg|_{T,P,n_j}
-
 $$
 
 
@@ -3727,9 +3581,7 @@ The activity coefficients provide a measure of the deviation from ideal behavior
 
 
 $$
-
 P_i = \gamma_i x_i P_i^{sat}
-
 $$
 
 
@@ -3869,9 +3721,7 @@ The role of statistical mechanics in thermodynamics can be understood by conside
 
 
 $$
-
 S = k \ln W
-
 $$
 
 
@@ -3909,9 +3759,7 @@ An ideal gas is a hypothetical gas composed of a large number of randomly moving
 
 
 $$
-
 PV = nRT
-
 $$
 
 
@@ -3933,9 +3781,7 @@ The heat capacity of a solid is a measure of the amount of heat energy required 
 
 
 $$
-
 C_v = 3nR
-
 $$
 
 
@@ -3957,9 +3803,7 @@ The entropy of mixing is a measure of the increase in disorder when two differen
 
 
 $$
-
 \Delta S = -nR(x_1 \ln x_1 + x_2 \ln x_2)
-
 $$
 
 
@@ -3993,9 +3837,7 @@ The partition function is defined as the sum over all states of the system, of t
 
 
 $$
-
 Z = \sum_i e^{-\beta E_i}
-
 $$
 
 
@@ -4029,9 +3871,7 @@ The partition function is particularly useful in the context of the Boltzmann di
 
 
 $$
-
 P_i = \frac{e^{-\beta E_i}}{Z}
-
 $$
 
 
@@ -4049,9 +3889,7 @@ The partition function also plays a key role in the calculation of average quant
 
 
 $$
-
 \langle E \rangle = - \frac{\partial \ln Z}{\partial \beta}
-
 $$
 
 
@@ -4081,9 +3919,7 @@ The partition function, denoted as $Z$, is a sum over all possible states of a s
 
 
 $$
-
 Z = \sum_i e^{-\beta E_i}
-
 $$
 
 
@@ -4093,9 +3929,7 @@ The partition function is a central quantity in statistical mechanics because it
 
 
 $$
-
 U = - \frac{\partial \ln Z}{\partial \beta}
-
 $$
 
 
@@ -4105,9 +3939,7 @@ Similarly, the entropy $S$ of a system can be derived from the partition functio
 
 
 $$
-
 S = k \left( \ln Z + \beta U \right)
-
 $$
 
 
@@ -4117,9 +3949,7 @@ The partition function also plays a crucial role in the calculation of the Gibbs
 
 
 $$
-
 G = -kT \ln Z
-
 $$
 
 
@@ -4185,9 +4015,7 @@ The Boltzmann equation can be written as:
 
 
 $$
-
 \frac{\partial P}{\partial t} = -\sum_{i} \frac{\partial}{\partial E_i} \left( \frac{dE_i}{dt} P \right)
-
 $$
 
 
@@ -4201,9 +4029,7 @@ The "H"-theorem is a consequence of the Boltzmann equation. It states that the q
 
 
 $$
-
 H = -\int P \ln P dE
-
 $$
 
 
@@ -4213,9 +4039,7 @@ can only decrease. This is because the Boltzmann equation ensures that the syste
 
 
 $$
-
 S = k_B H
-
 $$
 
 
@@ -4245,9 +4069,7 @@ The quantum harmonic oscillator is a system that is often used to illustrate the
 
 
 $$
-
 V(x) = \frac{1}{2} k x^2
-
 $$
 
 
@@ -4257,9 +4079,7 @@ where $k$ is the force constant and $x$ is the displacement. The energy levels o
 
 
 $$
-
 E_n = \hbar \omega \left( n + \frac{1}{2} \right)
-
 $$
 
 
@@ -4277,9 +4097,7 @@ An ideal gas is another system where statistical mechanics and discrete energy l
 
 
 $$
-
 E = \frac{1}{2} m v^2
-
 $$
 
 
@@ -4371,7 +4189,6 @@ The equations for entropy production provided in the related context can be used
 $$\rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2} $$
 
 
-
 describes the rate of entropy production in a fluid due to heat conduction and viscous forces. In the absence of these forces, the equation simplifies to $Ds/Dt=0$, indicating that the flow of an ideal fluid is isentropic, or constant in entropy.
 
 
@@ -4403,17 +4220,13 @@ The entropy $S$ of a macrostate is defined as $S = k \ln W$, where $k$ is Boltzm
 In the context of chemical equilibria, we can use statistical mechanics to derive the equilibrium constant for a chemical reaction. Consider a simple reaction $A \leftrightarrow B$ in a closed system. The equilibrium constant $K$ is given by the ratio of the multiplicities of the product and reactant states:
 
 
-
 $$ K = \frac{W_B}{W_A} $$
-
 
 
 Using Boltzmann's entropy formula, we can express this in terms of the entropies of the product and reactant states:
 
 
-
 $$ K = e^{(S_B - S_A)/k} $$
-
 
 
 This equation shows that the equilibrium constant is determined by the difference in entropy between the product and reactant states. If the product state has a higher entropy (more microstates), the reaction will tend to proceed in the forward direction to increase the entropy of the system, in accordance with the second law of thermodynamics.
@@ -4443,17 +4256,13 @@ The fundamental postulate of statistical mechanics, which states that all access
 Consider a system containing a substance that can exist in two phases, $\alpha$ and $\beta$, which are in equilibrium with each other. The total number of microstates $W_{\text{total}}$ of the system is given by the product of the number of microstates of the $\alpha$ phase, $W_{\alpha}$, and the number of microstates of the $\beta$ phase, $W_{\beta}$:
 
 
-
 $$ W_{\text{total}} = W_{\alpha} W_{\beta} $$
-
 
 
 The entropy $S$ of the system is then given by $S = k \ln W_{\text{total}}$, where $k$ is Boltzmann's constant. Using the properties of logarithms, this can be rewritten as:
 
 
-
 $$ S = k \ln W_{\alpha} + k \ln W_{\beta} = S_{\alpha} + S_{\beta} $$
-
 
 
 This equation shows that the total entropy of the system is the sum of the entropies of the two phases. At equilibrium, the total entropy of the system is maximized, which means that the entropies of the two phases must be such that their sum is maximized.
@@ -4581,13 +4390,11 @@ We will begin by defining the rate of a reaction and understanding how it is mea
 Next, we will introduce the Arrhenius equation, a fundamental equation in chemical kinetics that describes the temperature dependence of reaction rates. The equation is expressed as:
 
 
-
 $$
 
 k = A e^{-\frac{E_a}{RT}}
 
 $$
-
 
 
 where $k$ is the rate constant, $A$ is the pre-exponential factor, $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature.
@@ -4681,7 +4488,6 @@ In the context of thermodynamics, reaction kinetics plays a crucial role in unde
 The first law of thermodynamics, which states that energy cannot be created or destroyed, only transferred or converted, is particularly relevant to reaction kinetics. In the context of a chemical reaction, this law implies that the total energy of the reactants must equal the total energy of the products. This energy balance is often expressed in terms of the enthalpy change ($\Delta H$) of the reaction, which is the difference in enthalpy between the products and the reactants.
 
 
-
 $$
 
 \Delta H = H_{\text{products}} - H_{\text{reactants}}
@@ -4689,9 +4495,7 @@ $$
 $$
 
 
-
 The second law of thermodynamics, which states that the entropy of an isolated system always increases, also has implications for reaction kinetics. In a chemical reaction, the entropy change ($\Delta S$) is the difference in entropy between the products and the reactants. For a reaction to be spontaneous, the change in the Gibbs free energy ($\Delta G$), which is defined as the enthalpy change minus the product of the temperature and the entropy change, must be negative.
-
 
 
 $$
@@ -4699,7 +4503,6 @@ $$
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 The rate of a reaction, which is a key aspect of kinetics, can be influenced by the thermodynamic properties of the system. For example, a reaction with a large negative $\Delta G$ (indicating that the reaction is highly spontaneous) will generally proceed at a faster rate than a reaction with a small negative or positive $\Delta G$.
@@ -4725,13 +4528,11 @@ The steady-state approximation is a method used in chemical kinetics to simplify
 In the context of reaction kinetics, the steady-state approximation can be mathematically expressed as:
 
 
-
 $$
 
 \frac{d[I]}{dt} = 0
 
 $$
-
 
 
 where $[I]$ represents the concentration of the intermediate species. This equation implies that the rate of change of the intermediate concentration with respect to time is zero, indicating a steady state.
@@ -4761,13 +4562,11 @@ The equilibrium approximation is another method used in chemical kinetics to sim
 In the context of reaction kinetics, the equilibrium approximation can be mathematically expressed as:
 
 
-
 $$
 
 k_{f}[A][B] = k_{r}[C]
 
 $$
-
 
 
 where $k_{f}$ and $k_{r}$ are the forward and reverse rate constants, respectively, and $[A]$, $[B]$, and $[C]$ are the concentrations of the reactants and products. This equation implies that the rate of the forward reaction (the product of the forward rate constant and the concentrations of the reactants) is equal to the rate of the reverse reaction (the product of the reverse rate constant and the concentration of the product).
@@ -4797,13 +4596,11 @@ The steady-state and equilibrium approximations play a significant role in therm
 The steady-state approximation, for instance, is often used in the study of heat transfer. In a steady-state system, the properties of the system do not change over time. This means that the rate of heat transfer into a system is equal to the rate of heat transfer out of the system. This can be expressed mathematically as:
 
 
-
 $$
 
 \frac{dQ}{dt}_{in} = \frac{dQ}{dt}_{out}
 
 $$
-
 
 
 where $\frac{dQ}{dt}_{in}$ and $\frac{dQ}{dt}_{out}$ are the rates of heat transfer into and out of the system, respectively.
@@ -4813,13 +4610,11 @@ where $\frac{dQ}{dt}_{in}$ and $\frac{dQ}{dt}_{out}$ are the rates of heat trans
 The equilibrium approximation, on the other hand, is often used in the study of entropy production. At equilibrium, the entropy of a system is at a maximum and the system's energy is distributed as evenly as possible. This can be expressed mathematically using the equation for entropy production:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 In this equation, $\rho$ is the density, $T$ is the temperature, $s$ is the entropy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, $v_{i}$ and $v_{j}$ are the components of the velocity vector, and $\zeta$ is the bulk viscosity.
@@ -4869,13 +4664,11 @@ Chain reactions can be divided into three main stages: initiation, propagation, 
 Let's consider an example of a chain reaction, the reaction of pentamethylantimony with methyl lithium to yield a colourless lithium hexamethylantimonate in tetrahydrofuran. The reaction can be represented as follows:
 
 
-
 $$
 
 (CH_{3})_{5}Sb + CH_{3}Li \rightarrow LiSb(CH_{3})_{6}
 
 $$
-
 
 
 In this reaction, pentamethylantimony (a reactive species) reacts with methyl lithium to form lithium hexamethylantimonate and a new reactive species, methyl lithium. This new reactive species can then react with more pentamethylantimony to propagate the chain reaction.
@@ -4913,13 +4706,11 @@ The third law of thermodynamics, which states that the entropy of a perfect crys
 Let's consider the reaction of pentamethylantimony with methyl lithium again:
 
 
-
 $$
 
 (CH_{3})_{5}Sb + CH_{3}Li \rightarrow LiSb(CH_{3})_{6}
 
 $$
-
 
 
 In this reaction, the entropy change can be calculated by subtracting the entropy of the reactants from the entropy of the products. If the entropy change is positive, it means the reaction leads to an increase in disorder, which is favored by the second law of thermodynamics.
@@ -4989,13 +4780,11 @@ The key factor is the proportion of reactant molecules that possess energy great
 The relationship between temperature and the reaction rate constant is usually described by the Arrhenius equation:
 
 
-
 $$
 
 k = A e^{-E_{\rm a}/(RT)}
 
 $$
-
 
 
 where:
@@ -5147,13 +4936,11 @@ Enzymes, by lowering the activation energy ($E_{\rm a}$) of a reaction, effectiv
 The concept of Gibbs free energy ($\Delta G$) is particularly relevant in this context. The Gibbs free energy change for a reaction is given by the equation:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy (heat content), $T$ is the absolute temperature, and $\Delta S$ is the change in entropy (degree of disorder). A negative $\Delta G$ indicates a spontaneous reaction, while a positive $\Delta G$ indicates a non-spontaneous reaction.
@@ -5167,13 +4954,11 @@ Enzymes can influence both $\Delta H$ and $\Delta S$ through their interaction w
 It is important to note that while enzymes can make a reaction more thermodynamically favorable, they do not alter the equilibrium of the reaction. The equilibrium constant ($K_{\rm eq}$) for a reaction, which is related to $\Delta G$ by the equation:
 
 
-
 $$
 
 \Delta G = -RT \ln K_{\rm eq}
 
 $$
-
 
 
 where $R$ is the gas constant and $T$ is the absolute temperature, remains unchanged in the presence of an enzyme. This is because enzymes accelerate both the forward and reverse reactions equally, thereby maintaining the same equilibrium state.
@@ -5239,13 +5024,11 @@ Autocatalysis is a unique type of chemical reaction where one of the products al
 A simple autocatalytic reaction can be represented as:
 
 
-
 $$
 
 A + B \rightarrow 2B
 
 $$
-
 
 
 In this reaction, a molecule of species A interacts with a molecule of species B, converting the A molecule into a B molecule. The final product consists of the original B molecule plus the B molecule created in the reaction.
@@ -5255,17 +5038,14 @@ In this reaction, a molecule of species A interacts with a molecule of species B
 The rate equations for this elementary reaction are nonlinear, with the second term on the right varying as the square of the concentration of B. This can be represented as:
 
 
-
 $$
 
 \frac{d[A]}{dt} = -k[A][B]
 
 $$
-
 $$
 
 \frac{d[B]}{dt} = k[A][B]
-
 $$
 
 
@@ -5307,25 +5087,19 @@ The behavior of the PLL can be described by a system of linear differential equa
 
 
 $$
-
 \frac{d\theta_2(t)}{dt} = \omega_{\text{free}} + g_v g(t),
-
 $$
 
 
 
 $$
-
 \frac{dx(t)}{dt} = Ax(t) + b\varphi(t),
-
 $$
 
 
 
 $$
-
 g(t) = c^*x(t),
-
 $$
 
 
@@ -5355,9 +5129,7 @@ The entropy production in an autocatalytic reaction can be described by the equa
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5499,9 +5271,7 @@ In mathematical terms, the behavior of an open system is described by the first 
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -5515,9 +5285,7 @@ In an open system, however, we must also account for the energy and matter enter
 
 
 $$
-
 \Delta U = Q - W + \Delta E_{flow}
-
 $$
 
 
@@ -5607,9 +5375,7 @@ For a simple system, with only one type of particle (atom or molecule), a closed
 
 
 $$
-
 \sum_{j} a_{ij} N_j = constant
-
 $$
 
 
@@ -5651,7 +5417,6 @@ Closed systems have several defining characteristics that set them apart from ot
 
 
     $$
-
     \sum_{j} a_{ij} N_j = constant
 
     $$
@@ -5721,13 +5486,11 @@ The concept of an isolated system is theoretical, as it is impossible to have a 
 Mathematically, the change in internal energy of an isolated system is zero, as there is no heat or work transfer. This can be expressed as:
 
 
-
 $$
 
 \Delta U = 0
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy.
@@ -5975,13 +5738,11 @@ The equation for an isothermal process for an ideal gas can be derived from the 
 The work done by an ideal gas in an isothermal process can be calculated by integrating the pressure-volume work from the initial to the final state. The work done is given by the equation:
 
 
-
 $$
 
 W = nRT \ln\left(\frac{V_f}{V_i}\right)
 
 $$
-
 
 
 where $V_f$ and $V_i$ are the final and initial volumes, respectively.
@@ -6011,13 +5772,11 @@ The isothermal process plays a significant role in thermodynamics, particularly 
 In the context of entropy, the isothermal process is also significant. Entropy, denoted by $s$, is a state function that measures the degree of randomness or disorder in a system. For an ideal gas undergoing an isothermal process, the change in entropy can be calculated using the formula:
 
 
-
 $$
 
 \Delta S = nR \ln\left(\frac{V_f}{V_i}\right)
 
 $$
-
 
 
 where $n$ is the number of moles of gas, $R$ is the ideal gas constant, and $V_f$ and $V_i$ are the final and initial volumes, respectively. This equation shows that the entropy of an ideal gas increases during an isothermal expansion and decreases during an isothermal compression.
@@ -6063,7 +5822,6 @@ In the fields of meteorology and oceanography, adiabatic cooling can lead to the
 The defining characteristic of an adiabatic process is that no heat is transferred to the system, i.e., $\delta Q = 0$. According to the first law of thermodynamics, the change in the internal energy of the system and the work done by the system is given by:
 
 
-
 $$
 
 d U + \delta W = \delta Q = 0,
@@ -6071,9 +5829,7 @@ d U + \delta W = \delta Q = 0,
 $$
 
 
-
 where $d U$ is the change in the internal energy of the system and $\delta W$ is the work done by the system. In an adiabatic process, any work done must be at the expense of internal energy, since no heat is being supplied from the surroundings. The pressure-volume work done by the system is defined as:
-
 
 
 $$
@@ -6081,7 +5837,6 @@ $$
 \delta W = P \, dV.
 
 $$
-
 
 
 However, it is important to note that in an adiabatic process, the pressure does not remain constant but changes along with the volume. The relationship between pressure and volume in an adiabatic process will be further explored in the next section.
@@ -6167,13 +5922,11 @@ The adiabatic process plays a significant role in thermodynamics, particularly i
 **Entropy Production:** In an ideal adiabatic process, where there are no dissipative effects such as friction or viscosity, the entropy of the system remains constant. This is known as an isentropic process. The equation for entropy production in an adiabatic process is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = 0,
 
 $$
-
 
 
 where $\rho$ is the density of the system, $T$ is the temperature, and $Ds/Dt$ is the rate of change of entropy. This equation shows that in an adiabatic process, the rate of entropy production is zero. This is a key result in thermodynamics, as it implies that the process is reversible.
@@ -6199,13 +5952,11 @@ In conclusion, the adiabatic process is a key concept in thermodynamics, providi
 An isobaric process is a thermodynamic process in which the pressure of the system remains constant, denoted as $\Delta P = 0$. In such a process, the heat transferred to the system not only does work but also alters the internal energy ($U$) of the system. This is in accordance with the first law of thermodynamics, which can be expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $Q$ is the heat transferred to the system and $W$ is the work done by the system. 
@@ -6215,13 +5966,11 @@ where $Q$ is the heat transferred to the system and $W$ is the work done by the 
 In an isobaric process, the pressure-volume work done by the system is defined as:
 
 
-
 $$
 
 W = P \Delta V
 
 $$
-
 
 
 where $P$ is the constant pressure and $\Delta V$ is the change in volume. 
@@ -6235,13 +5984,11 @@ where $P$ is the constant pressure and $\Delta V$ is the change in volume.
 Applying the ideal gas law to an isobaric process, we get:
 
 
-
 $$
 
 \Delta V = nR\Delta T
 
 $$
-
 
 
 where $n$ is the amount of substance (assumed to be constant), $R$ is the gas constant, and $\Delta T$ is the change in temperature. 
@@ -6251,13 +5998,11 @@ where $n$ is the amount of substance (assumed to be constant), $R$ is the gas co
 According to the equipartition theorem, the change in internal energy is related to the temperature of the system by:
 
 
-
 $$
 
 \Delta U = n c_{V,m} \Delta T
 
 $$
-
 
 
 where $c_{V,m}$ is the molar heat capacity at constant volume. 
@@ -6267,7 +6012,6 @@ where $c_{V,m}$ is the molar heat capacity at constant volume.
 Substituting the last two equations into the first law of thermodynamics, we get:
 
 
-
 $$
 
 Q = n c_{V,m} \Delta T + P \Delta V
@@ -6275,9 +6019,7 @@ Q = n c_{V,m} \Delta T + P \Delta V
 $$
 
 
-
 which simplifies to:
-
 
 
 $$
@@ -6285,7 +6027,6 @@ $$
 Q = n \Delta T (c_{V,m} + R)
 
 $$
-
 
 
 where $c_{P}$ is the molar heat capacity at constant pressure. 
@@ -6303,7 +6044,6 @@ The molar specific heat capacity of the gas involved in an isobaric process can 
 Molar isochoric specific heat:
 
 
-
 $$
 
 c_{V,m} = \frac{R}{\gamma - 1}
@@ -6311,9 +6051,7 @@ c_{V,m} = \frac{R}{\gamma - 1}
 $$
 
 
-
 Molar isobaric specific heat:
-
 
 
 $$
@@ -6321,7 +6059,6 @@ $$
 c_{P,m} = \gamma \frac{R}{\gamma - 1}
 
 $$
-
 
 
 The values for $\gamma$ are $\gamma = \frac{7}{5}$ for diatomic gases like air and its major components, and $\gamma = \frac{5}{3}$ for monatomic gases like the noble gases. 
@@ -6339,13 +6076,11 @@ In conclusion, understanding the isobaric process is crucial for anyone studying
 The heat capacity ratio, often denoted as $\gamma$ or $k$ in some sources, plays a significant role in the thermodynamics of an isobaric process. This ratio is defined as the ratio of the molar isobaric specific heat to the molar isochoric specific heat:
 
 
-
 $$
 
 \gamma = \frac{c_{P,m}}{c_{V,m}}
 
 $$
-
 
 
 For a calorically perfect gas, the values for $\gamma$ are typically $\gamma = \frac{7}{5}$.
@@ -6359,13 +6094,11 @@ For a calorically perfect gas, the values for $\gamma$ are typically $\gamma = \
 In an isobaric process, the work done by the system can be calculated using the equation:
 
 
-
 $$
 
 W = P \Delta V
 
 $$
-
 
 
 where $P$ is the constant pressure and $\Delta V$ is the change in volume. Since the pressure is constant, the work done is directly proportional to the change in volume. This means that the work done by the system can be visualized as the area under the pressure-volume curve in a P-V diagram.
@@ -6379,13 +6112,11 @@ where $P$ is the constant pressure and $\Delta V$ is the change in volume. Since
 The heat transferred to the system in an isobaric process can be calculated using the equation:
 
 
-
 $$
 
 Q = n \Delta T (c_{V,m} + R)
 
 $$
-
 
 
 where $n$ is the amount of substance, $\Delta T$ is the change in temperature, $c_{V,m}$ is the molar heat capacity at constant volume, and $R$ is the gas constant. This equation shows that the heat transfer is directly proportional to the change in temperature and the sum of the molar heat capacity at constant volume and the gas constant.
@@ -6439,9 +6170,7 @@ An isochoric process, also known as a constant-volume process, isovolumetric pro
 An isochoric thermodynamic quasi-static process is characterized by constant volume, i.e., $\Delta V = 0$. The process does no pressure-volume work, since such work is defined by
 
 
-
 $$ W = P \Delta V ,$$
-
 
 
 where `P` is pressure. The sign convention is such that positive work is performed by the system on the environment.
@@ -6455,41 +6184,31 @@ If the process is not quasi-static, the work can perhaps be done in a volume con
 For a reversible process, the first law of thermodynamics gives the change in the system's internal energy:
 
 
-
 $$dU = dQ - dW$$
-
 
 
 Replacing work with a change in volume gives
 
 
-
 $$dU = dQ - P \, dV$$
-
 
 
 Since the process is isochoric, $\Delta V = 0$, the previous equation now gives
 
 
-
 $$dU = dQ$$
-
 
 
 Using the definition of specific heat capacity at constant volume, $c_v$, where `m` is the mass of the gas, we get
 
 
-
 $$dQ = m c_\mathrm{v} \, dT$$
-
 
 
 Integrating both sides yields
 
 
-
 $$\Delta Q\ = m \int_{T_1}^{T_2} \! c_\mathrm{v} \, dT,$$
-
 
 
 where $c_v$ is the specific heat capacity at constant volume.
@@ -6515,9 +6234,7 @@ The isochoric process, characterized by a constant volume, has several unique fe
 Firstly, in an isochoric process, no work is done by the system on its surroundings or vice versa. This is because work in thermodynamics is generally associated with a change in volume, which is absent in an isochoric process. Mathematically, this is represented as:
 
 
-
 $$ W = P \Delta V ,$$
-
 
 
 where `W` is the work done, `P` is the pressure, and $\Delta V$ is the change in volume. Since $\Delta V = 0$ in an isochoric process, `W` also equals zero.
@@ -6531,17 +6248,13 @@ where `W` is the work done, `P` is the pressure, and $\Delta V$ is the change in
 Secondly, the change in internal energy of the system in an isochoric process is equal to the heat added to or removed from the system. This can be derived from the first law of thermodynamics, which states:
 
 
-
 $$dU = dQ - dW$$
-
 
 
 In an isochoric process, since `dW = 0`, the equation simplifies to:
 
 
-
 $$dU = dQ$$
-
 
 
 This implies that any heat added to the system increases its internal energy and any heat removed decreases it.
@@ -6555,17 +6268,13 @@ This implies that any heat added to the system increases its internal energy and
 Lastly, the specific heat capacity at constant volume, denoted by $c_v$, plays a crucial role in an isochoric process. It is defined as the amount of heat required to raise the temperature of a unit mass of the substance by one degree at constant volume. The relationship between heat, specific heat capacity at constant volume, and temperature change is given by:
 
 
-
 $$dQ = m c_\mathrm{v} \, dT$$
-
 
 
 where `m` is the mass of the substance and `dT` is the change in temperature. Integrating both sides gives:
 
 
-
 $$\Delta Q\ = m \int_{T_1}^{T_2} \! c_\mathrm{v} \, dT,$$
-
 
 
 where $T_1$ and $T_2$ are the initial and final temperatures, respectively. This equation shows that the heat transferred in an isochoric process depends on the mass of the substance, its specific heat capacity at constant volume, and the change in temperature.
@@ -6591,9 +6300,7 @@ The isochoric process plays a significant role in thermodynamics, particularly i
 In an isochoric process, the heat transfer is directly related to the change in internal energy of the system. This is because, as we have seen, the work done is zero in an isochoric process. Therefore, the heat transfer equation simplifies to:
 
 
-
 $$\Delta Q = \Delta U$$
-
 
 
 This equation is particularly useful in practical applications such as measuring the heat transfer in a domestic refrigerator or doing a harmonic analysis of regenerators. 
@@ -6607,9 +6314,7 @@ This equation is particularly useful in practical applications such as measuring
 The isochoric process also plays a crucial role in understanding entropy production. The general equation for entropy production is given by:
 
 
-
 $$\rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2} $$
-
 
 
 In the case where thermal conduction and viscous forces are absent, the equation for entropy production collapses to $\frac{Ds}{Dt}=0$, showing that ideal fluid flow is isentropic. This is particularly relevant in the study of isochoric processes, as they often involve ideal gases or other substances where these forces can be neglected.
@@ -6737,13 +6442,11 @@ The Carnot cycle consists of four reversible processes: two isothermal (constant
 Let's delve into the mathematics of the Carnot cycle. The amount of energy transferred as work during the cycle is given by:
 
 
-
 $$
 
 W = \oint PdV = \oint TdS = (T_H-T_C)(S_B-S_A)
 
 $$
-
 
 
 Here, $T_H$ and $T_C$ are the temperatures of the hot and cold reservoirs, respectively, and $S_B$ and $S_A$ are the entropies at points B and A in the cycle.
@@ -6753,7 +6456,6 @@ Here, $T_H$ and $T_C$ are the temperatures of the hot and cold reservoirs, respe
 The total amount of heat transferred from the hot reservoir to the system during the isothermal expansion is:
 
 
-
 $$
 
 Q_H = T_H (S_B-S_A) = T_H \Delta S_H
@@ -6761,9 +6463,7 @@ Q_H = T_H (S_B-S_A) = T_H \Delta S_H
 $$
 
 
-
 And the total amount of heat transferred from the system to the cold reservoir during the isothermal compression is:
-
 
 
 $$
@@ -6773,9 +6473,7 @@ Q_C = T_C (S_A - S_B) = T_C \Delta S_C < 0
 $$
 
 
-
 Due to energy conservation, the net heat transferred, $Q$, is equal to the work performed:
-
 
 
 $$
@@ -6785,9 +6483,7 @@ W = Q = Q_H + Q_C
 $$
 
 
-
 The efficiency $\eta$ of the Carnot cycle is defined as the ratio of the work done by the system to the thermal energy received by the system from the hot reservoir per cycle:
-
 
 
 $$
@@ -6795,7 +6491,6 @@ $$
 \eta= 1-\frac{T_C}{T_H}
 
 $$
-
 
 
 This equation can be derived from the expressions above with the entropy changes $\Delta S_H$ and $\Delta S_C$. Since $\Delta S_C = S_A - S_B = - \Delta S_H$, a minus sign appears in the final expression for $\eta$.
@@ -6853,7 +6548,6 @@ The Carnot cycle consists of four distinct stages or steps, each representing a 
 The total work done by the system during the cycle is the difference between the heat absorbed from the hot reservoir and the heat rejected to the cold reservoir:
 
 
-
 $$
 
 W = Q_H + Q_C
@@ -6861,9 +6555,7 @@ W = Q_H + Q_C
 $$
 
 
-
 The efficiency of the Carnot cycle, as mentioned earlier, is given by:
-
 
 
 $$
@@ -6871,7 +6563,6 @@ $$
 \eta= 1-\frac{T_C}{T_H}
 
 $$
-
 
 
 This efficiency is the maximum possible for a heat engine operating between two reservoirs at temperatures $T_H$ and $T_C$. It is important to note that the Carnot cycle is an idealized process - real engines have losses and inefficiencies that prevent them from achieving this maximum efficiency. However, the Carnot cycle provides a useful benchmark for comparing the performance of real engines.
@@ -6957,13 +6648,11 @@ The Otto cycle consists of four main steps: intake, compression, combustion, and
 The Otto cycle can be represented on a pressure-volume (p-V) diagram, where the area enclosed by the cycle represents the net work done during one cycle. The thermal efficiency of the Otto cycle, which is the ratio of the net work output to the heat input, can be expressed as:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{(\gamma - 1)}}
 
 $$
-
 
 
 where $\eta$ is the thermal efficiency, $r$ is the compression ratio (the ratio of the initial to the final volume of the air-fuel mixture), and $\gamma$ is the specific heat ratio of the working fluid.
@@ -6989,13 +6678,11 @@ The Otto cycle is a closed cycle, meaning it returns to its initial state at the
 The efficiency of the Otto cycle can be calculated using the following formula:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{(\gamma - 1)}}
 
 $$
-
 
 
 where $\eta$ is the efficiency, $r$ is the compression ratio (the ratio of the initial volume to the final volume after compression), and $\gamma$ is the heat capacity ratio (the ratio of the heat capacity at constant pressure to the heat capacity at constant volume).
@@ -7037,13 +6724,11 @@ The Diesel cycle is also a closed cycle, meaning it returns to its initial state
 The efficiency of the Diesel cycle can be calculated using the following formula:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{(\gamma - 1)}}\left[\frac{\rho^{\gamma - 1} - 1}{\gamma(\rho - 1)}\right]
 
 $$
-
 
 
 where $\eta$ is the efficiency, $r$ is the compression ratio (the ratio of the initial volume to the final volume after compression), $\gamma$ is the heat capacity ratio (the ratio of the heat capacity at constant pressure to the heat capacity at constant volume), and $\rho$ is the cut-off ratio, which is the ratio of the volume at the end of combustion to the volume at the start of combustion.
@@ -7215,13 +6900,11 @@ The Rankine cycle is a closed loop, meaning the working fluid is reused in each 
 1. **Pump Stage**: The working fluid, typically water, is pumped from a low to a high pressure. This is done by a pump, which requires work input. The increase in pressure raises the boiling point of the fluid, allowing it to absorb more heat in the boiler stage. The equation for the work done on the fluid during this stage is given by:
 
 
-
 $$
 
 W_{pump} = v(P_{2}-P_{1})
 
 $$
-
 
 
 where $v$ is the specific volume of the fluid, $P_{2}$ is the pressure after the pump, and $P_{1}$ is the pressure before the pump.
@@ -7231,13 +6914,11 @@ where $v$ is the specific volume of the fluid, $P_{2}$ is the pressure after the
 2. **Boiler Stage**: The high-pressure fluid enters a boiler where it absorbs heat from a high-temperature source, typically a furnace. The heat input causes the fluid to vaporize and become a high-pressure gas. The heat transfer to the fluid in the boiler is given by:
 
 
-
 $$
 
 Q_{in} = h_{3} - h_{2}
 
 $$
-
 
 
 where $h_{3}$ is the specific enthalpy of the fluid after the boiler, and $h_{2}$ is the specific enthalpy of the fluid before the boiler.
@@ -7247,13 +6928,11 @@ where $h_{3}$ is the specific enthalpy of the fluid after the boiler, and $h_{2}
 3. **Turbine Stage**: The high-pressure gas then enters a turbine, where it expands and cools as it does work on the turbine blades. The work output from the turbine is given by:
 
 
-
 $$
 
 W_{turbine} = h_{3} - h_{4}
 
 $$
-
 
 
 where $h_{4}$ is the specific enthalpy of the fluid after the turbine.
@@ -7263,13 +6942,11 @@ where $h_{4}$ is the specific enthalpy of the fluid after the turbine.
 4. **Condenser Stage**: The low-pressure gas then enters a condenser, where it rejects heat to a low-temperature sink, typically the ambient air or a body of water. The heat rejected from the fluid in the condenser is given by:
 
 
-
 $$
 
 Q_{out} = h_{4} - h_{1}
 
 $$
-
 
 
 where $h_{1}$ is the specific enthalpy of the fluid before the pump.
@@ -7279,13 +6956,11 @@ where $h_{1}$ is the specific enthalpy of the fluid before the pump.
 The efficiency of the Rankine cycle, which is the ratio of the work output to the heat input, is given by:
 
 
-
 $$
 
 \eta = \frac{W_{turbine} - W_{pump}}{Q_{in}}
 
 $$
-
 
 
 The Rankine cycle is an idealized cycle, and actual power plants operate on modified Rankine cycles that include reheat and regeneration to improve efficiency. The equations for entropy production and heat transfer can be applied to the Rankine cycle to analyze the efficiency and performance of a steam engine. For example, the equation for entropy production can be used to calculate the increase in entropy during the steam generation and condensation processes.
@@ -7307,13 +6982,11 @@ The first law of thermodynamics, also known as the law of energy conservation, i
 The second law of thermodynamics, which deals with entropy production, is also evident in the Rankine cycle. Entropy is produced in the boiler and condenser stages due to heat transfer across a finite temperature difference. In the boiler stage, heat is transferred from the high-temperature source to the fluid, and in the condenser stage, heat is transferred from the fluid to the low-temperature sink. According to the equation for entropy production:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $T$ is the temperature, $s$ is the entropy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, $v_{i}$ and $v_{j}$ are the velocity components, $x_{i}$ and $x_{j}$ are the spatial coordinates, and $\zeta$ is the second coefficient of viscosity.
@@ -7433,13 +7106,11 @@ Enthalpy is a fundamental concept in thermodynamics that describes the total hea
 Enthalpy ($H$) of a system is defined as the sum of the internal energy ($U$) and the product of pressure ($P$) and volume ($V$) of the system. Mathematically, this can be represented as:
 
 
-
 $$
 
 H = U + PV
 
 $$
-
 
 
 This equation tells us that the enthalpy of a system is the energy required to create the system, plus the work needed to make room for it by displacing its environment and establishing its volume and pressure.
@@ -7449,13 +7120,11 @@ This equation tells us that the enthalpy of a system is the energy required to c
 Enthalpy is a state function, which means its value depends only on the state of the system and not on the path taken to reach that state. This is a crucial feature of enthalpy, as it allows us to calculate the change in enthalpy ($\Delta H$) for a process by simply subtracting the initial enthalpy ($H_{initial}$) from the final enthalpy ($H_{final}$):
 
 
-
 $$
 
 \Delta H = H_{final} - H_{initial}
 
 $$
-
 
 
 The change in enthalpy is a critical quantity in thermodynamics as it gives us valuable information about the heat flow in a system at constant pressure. If $\Delta H$ is negative, the process is exothermic, meaning heat is released by the system. Conversely, if $\Delta H$ is positive, the process is endothermic, indicating that heat is absorbed by the system.
@@ -7493,13 +7162,11 @@ For reactions that proceed rapidly to completion, it is often feasible to measur
 For reactions that do not go to completion, the equilibrium constant can be determined as a function of temperature. The enthalpy of reaction can then be found from the van 't Hoff equation:
 
 
-
 $$
 
 \Delta_{\text {rxn}} H^\ominus = {RT^2}\frac{d}{dT} \ln K_\mathrm{eq}
 
 $$
-
 
 
 A closely related technique involves the use of an electroanalytical voltaic cell, which can measure the Gibbs energy for certain reactions as a function of temperature, yielding $K_\mathrm{eq}(T)$ and thereby $\Delta_{\text {rxn}} H^\ominus$.
@@ -7533,13 +7200,11 @@ Enthalpy plays a significant role in thermodynamics, a branch of physics that de
 The first law of thermodynamics, also known as the law of energy conservation, states that energy can neither be created nor destroyed, only transferred or changed from one form to another. In the context of thermodynamics, the change in enthalpy ($\Delta H$) of a system is given by the heat supplied to the system ($\delta Q$) minus the work done by the system ($\delta W$), assuming the process is carried out at constant pressure. Mathematically, this is expressed as:
 
 
-
 $$
 
 \Delta H = \delta Q - \delta W
 
 $$
-
 
 
 This equation shows that the enthalpy change of a system is a measure of the energy transferred in a process that occurs at constant pressure.
@@ -7553,13 +7218,11 @@ This equation shows that the enthalpy change of a system is a measure of the ene
 In chemical reactions, the change in enthalpy provides insights into the energy changes that occur. If the enthalpy of the products is less than the enthalpy of the reactants, the reaction is exothermic, and heat is released. Conversely, if the enthalpy of the products is greater than the enthalpy of the reactants, the reaction is endothermic, and heat is absorbed. This can be expressed as:
 
 
-
 $$
 
 \Delta H = H_{\text{products}} - H_{\text{reactants}}
 
 $$
-
 
 
 ##### Enthalpy and Phase Transitions
@@ -7589,13 +7252,11 @@ Entropy, denoted by the symbol $S$, is a fundamental concept in thermodynamics a
 In the context of thermodynamics, the entropy of an isolated system always increases or remains constant. This is known as the second law of thermodynamics. Mathematically, for a reversible process, the change in entropy ($\Delta S$) of a system is defined as the heat transferred ($\delta Q$) divided by the temperature ($T$) at which the transfer occurred. This can be expressed as:
 
 
-
 $$
 
 \Delta S = \frac{\delta Q}{T}
 
 $$
-
 
 
 This equation shows that entropy change of a system is a measure of the energy dispersal in a process that occurs at a specific temperature.
@@ -7605,13 +7266,11 @@ This equation shows that entropy change of a system is a measure of the energy d
 In statistical mechanics, entropy is a measure of the number of microstates that correspond to a particular macrostate. The entropy $S$ of a system can be calculated using the Boltzmann's entropy formula:
 
 
-
 $$
 
 S = k \ln W
 
 $$
-
 
 
 where $k$ is the Boltzmann constant and $W$ is the number of microstates.
@@ -7621,13 +7280,11 @@ where $k$ is the Boltzmann constant and $W$ is the number of microstates.
 Entropy also plays a significant role in information theory, where it is used to quantify the amount of uncertainty or randomness in a set of data. The entropy $H(X)$ of a discrete random variable $X$ is defined as:
 
 
-
 $$
 
 H(X) = -\sum_{x \in X} p(x)\log_b p(x)
 
 $$
-
 
 
 where $p(x)$ is the probability of $X$ taking the value $x$ and $b$ is the base of the logarithm used.
@@ -7653,7 +7310,6 @@ The measurement of entropy is not as straightforward as measuring physical quant
 The Clausius inequality states that for any cyclic process (a process that returns a system to its initial state), the integral of the heat transferred divided by the temperature is less than or equal to zero:
 
 
-
 $$
 
 \oint \frac{\delta Q}{T} \leq 0
@@ -7661,9 +7317,7 @@ $$
 $$
 
 
-
 For a reversible process, the inequality becomes an equality, and the integral of the heat transferred divided by the temperature is equal to the change in entropy:
-
 
 
 $$
@@ -7673,7 +7327,6 @@ $$
 $$
 
 
-
 This equation allows us to calculate the change in entropy for a system undergoing a reversible process. However, most real-world processes are not reversible. In such cases, we can use the concept of a "reversible path" - a hypothetical sequence of reversible processes that takes the system from its initial state to its final state. The change in entropy along this reversible path is the same as the change in entropy for the actual (irreversible) process.
 
 
@@ -7681,13 +7334,11 @@ This equation allows us to calculate the change in entropy for a system undergoi
 Another method of measuring entropy involves the use of statistical mechanics. In this approach, the entropy $S$ of a system is given by the Boltzmann's entropy formula:
 
 
-
 $$
 
 S = k \ln W
 
 $$
-
 
 
 where $k$ is the Boltzmann constant and $W$ is the number of microstates. This equation allows us to calculate the entropy of a system if we know the number of microstates.
@@ -7709,13 +7360,11 @@ Entropy plays a crucial role in thermodynamics, particularly in the second law o
 In the context of chemical reactions, entropy is a key factor in determining the feasibility of a reaction. A reaction is spontaneous if the total entropy change of the universe (the system and its surroundings) is positive. This is expressed mathematically as:
 
 
-
 $$
 
 \Delta S_{universe} = \Delta S_{system} + \Delta S_{surroundings} > 0
 
 $$
-
 
 
 where $\Delta S_{universe}$ is the change in entropy of the universe, $\Delta S_{system}$ is the change in entropy of the system, and $\Delta S_{surroundings}$ is the change in entropy of the surroundings.
@@ -7725,13 +7374,11 @@ where $\Delta S_{universe}$ is the change in entropy of the universe, $\Delta S_
 Entropy also plays a significant role in the Gibbs free energy equation, which is used to predict whether a reaction will occur spontaneously at constant temperature and pressure. The equation is given by:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta G$ is the change in Gibbs free energy, $\Delta H$ is the change in enthalpy, $T$ is the absolute temperature, and $\Delta S$ is the change in entropy. A negative $\Delta G$ indicates a spontaneous reaction.
@@ -7761,7 +7408,6 @@ The Gibbs free energy (G) is a thermodynamic potential that measures the maximum
 The Gibbs free energy is defined mathematically as:
 
 
-
 $$
 
 G = H - TS
@@ -7769,9 +7415,7 @@ G = H - TS
 $$
 
 
-
 where $H$ is the enthalpy of the system, $T$ is the absolute temperature, and $S$ is the entropy of the system. The change in Gibbs free energy ($\Delta G$) for a process is given by:
-
 
 
 $$
@@ -7779,7 +7423,6 @@ $$
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 This equation is known as the Gibbs-Helmholtz equation. It shows that the change in Gibbs free energy is equal to the change in enthalpy minus the product of the absolute temperature and the change in entropy. 
@@ -7805,13 +7448,11 @@ All elements in their standard states (diatomic oxygen gas, graphite, etc.) have
 At equilibrium, $\Delta_fG = 0$, and the reaction quotient $Q_f$ equals the equilibrium constant $K$. Therefore, the equation becomes:
 
 
-
 $$
 
 \Delta_fG^\circ = -RT \ln K
 
 $$
-
 
 
 where $R$ is the universal gas constant, $T$ is the absolute temperature, and $K$ is the equilibrium constant of the formation reaction of the substance from the elements in their standard states.
@@ -7837,13 +7478,11 @@ The measurement of Gibbs free energy is a crucial aspect of thermodynamics and k
 Direct measurement of Gibbs free energy is often challenging due to the need for constant temperature and pressure conditions. However, it can be achieved using calorimetry, where heat changes are measured during a reaction. The heat change at constant pressure ($q_p$) is equal to the change in enthalpy ($\Delta H$), and the change in entropy ($\Delta S$) can be calculated from the heat change at constant temperature. The Gibbs free energy change ($\Delta G$) can then be calculated using the Gibbs-Helmholtz equation:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 ##### Indirect Measurement
@@ -7853,13 +7492,11 @@ $$
 Indirect measurement of Gibbs free energy involves calculating it from other thermodynamic quantities. For instance, the Gibbs free energy change for a reaction can be calculated from the standard Gibbs free energies of formation ($\Delta_fG^\circ$) of the reactants and products:
 
 
-
 $$
 
 \Delta_rG^\circ = \Sigma \Delta_fG^\circ (\text{products}) - \Sigma \Delta_fG^\circ (\text{reactants})
 
 $$
-
 
 
 The standard Gibbs free energy of formation is the change in Gibbs free energy that accompanies the formation of 1 mole of a substance from its component elements in their standard states.
@@ -7969,13 +7606,11 @@ One common method of measuring changes in internal energy is through calorimetry
 Another method of measuring changes in internal energy is through the use of the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system. This can be expressed mathematically as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done by the system. 
@@ -7985,13 +7620,11 @@ where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the 
 In the case of an ideal gas, the internal energy is only a function of temperature and can be calculated using the equation:
 
 
-
 $$
 
 \Delta U = nC_v\Delta T
 
 $$
-
 
 
 where $n$ is the number of moles of gas, $C_v$ is the molar heat capacity at constant volume, and $\Delta T$ is the change in temperature. 
@@ -8017,13 +7650,11 @@ The internal energy is an extensive property, meaning it depends on the amount o
 The internal energy is related to the First Law of Thermodynamics, which states that the energy of the universe is constant; energy can be transferred, but it cannot be created or destroyed. In mathematical terms, this is expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done by the system. 
@@ -8033,13 +7664,11 @@ where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the 
 The internal energy is also related to the Second Law of Thermodynamics, which states that the entropy of an isolated system always increases over time. The change in internal energy is related to the change in entropy by the equation:
 
 
-
 $$
 
 \Delta U = T\Delta S - P\Delta V
 
 $$
-
 
 
 where $T$ is the absolute temperature, $\Delta S$ is the change in entropy, $P$ is the pressure, and $\Delta V$ is the change in volume.
@@ -8119,13 +7748,11 @@ Thermodynamics is a fundamental branch of physics that deals with the relationsh
 The first law of thermodynamics, also known as the law of energy conservation, states that energy cannot be created or destroyed, only transferred or changed from one form to another. This can be mathematically represented as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of a system, $Q$ is the heat added to the system, and $W$ is the work done by the system.
@@ -8135,13 +7762,11 @@ where $\Delta U$ is the change in internal energy of a system, $Q$ is the heat a
 The second law of thermodynamics introduces the concept of entropy, a measure of the disorder or randomness of a system. It asserts that in any energy transfer or transformation, the total entropy of a system and its surroundings always increases over time. This can be expressed as:
 
 
-
 $$
 
 \Delta S \geq \frac{Q_{rev}}{T}
 
 $$
-
 
 
 where $\Delta S$ is the change in entropy, $Q_{rev}$ is the heat transferred in a reversible process, and $T$ is the absolute temperature.
@@ -8171,13 +7796,11 @@ The Zeroth Law of Thermodynamics, while not as commonly discussed as the other t
 The Zeroth Law of Thermodynamics states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This can be represented as:
 
 
-
 $$
 
 \text{If } A \sim C \text{ and } B \sim C, \text{ then } A \sim B
 
 $$
-
 
 
 where $A$, $B$, and $C$ are thermodynamic systems and $\sim$ denotes thermal equilibrium.
@@ -8259,13 +7882,11 @@ The Zeroth Law is crucial in understanding heat transfer, which is a key concept
 For instance, consider the general equation of heat transfer:
 
 
-
 $$
 
 \rho {\partial\varepsilon\over{\partial t}} = \rho T {\partial s\over{\partial t}} - {p\over{\rho}}\nabla\cdot(\rho {\bf v})
 
 $$
-
 
 
 This equation describes the rate of change of energy in a system. The Zeroth Law, by establishing thermal equilibrium, allows us to understand and predict how energy will flow from one system to another.
@@ -8291,13 +7912,11 @@ The Zeroth Law, by establishing a temperature scale, allows us to measure the am
 The Zeroth Law is also instrumental in establishing various thermodynamic properties. For instance, it allows us to define the concept of entropy, which is a measure of the disorder or randomness in a system. The equation for entropy production:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 is derived based on the principles of the Zeroth Law. This equation is fundamental in understanding and predicting the behavior of thermodynamic systems.
@@ -8323,13 +7942,11 @@ The First Law of Thermodynamics, also known as the Law of Energy Conservation, i
 The First Law of Thermodynamics can be mathematically expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the heat added to the system, and $W$ is the work done by the system.
@@ -8403,13 +8020,11 @@ The First Law of Thermodynamics plays a crucial role in the field of thermodynam
 The First Law of Thermodynamics is essentially an expression of the principle of conservation of energy. It states that energy cannot be created or destroyed, only transformed from one form to another. In the context of thermodynamics, this means that the total energy of an isolated system remains constant. It can be expressed mathematically as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the heat added to the system, and $W$ is the work done by the system.
@@ -8447,13 +8062,11 @@ The Second Law of Thermodynamics is another fundamental principle that governs t
 The Second Law of Thermodynamics can be stated in several equivalent ways, but one of the most common formulations is that the total entropy of an isolated system can never decrease over time. In other words, the natural direction of energy transfer is from an area of high energy to an area of low energy, leading to an increase in entropy. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \Delta S \geq 0
 
 $$
-
 
 
 where $\Delta S$ is the change in entropy of the system.
@@ -8523,13 +8136,11 @@ The Second Law of Thermodynamics can be stated in terms of entropy. In an isolat
 The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 In the case where thermal conduction and viscous forces are absent, the equation for entropy production collapses to $Ds/Dt=0$, showing that ideal fluid flow is isentropic.
@@ -8571,13 +8182,11 @@ This law provides a definitive reference point for the determination of entropy 
 The Third Law of Thermodynamics can be mathematically expressed as:
 
 
-
 $$
 
 \lim_{{T \to 0}} S(T) = 0
 
 $$
-
 
 
 where $S(T)$ is the entropy of the system at temperature $T$. This equation signifies that as the temperature approaches absolute zero, the entropy of the system approaches a minimum value.
@@ -8607,13 +8216,11 @@ The Third Law of Thermodynamics has several important implications that are fund
 One of the most significant implications of the Third Law is that it allows for the calculation of absolute entropies. Prior to the Third Law, entropy could only be measured in terms of changes. The Third Law provides a reference point, stating that the entropy of a perfect crystal at absolute zero is zero. This allows us to calculate the absolute entropy of a substance at any temperature by integrating the heat capacity from absolute zero to the desired temperature. The mathematical expression for this is:
 
 
-
 $$
 
 S(T) = \int_0^T \frac{C_p}{T} dT
 
 $$
-
 
 
 where $S(T)$ is the absolute entropy at temperature $T$ and $C_p$ is the heat capacity at constant pressure.
@@ -8663,13 +8270,11 @@ The Third Law of Thermodynamics plays a crucial role in the field of thermodynam
 As mentioned in the previous section, the Third Law of Thermodynamics allows for the calculation of absolute entropies. This is a significant advancement in the field of thermodynamics as it provides a reference point for entropy calculations. The Third Law states that the entropy of a perfect crystal at absolute zero is zero. This allows us to calculate the absolute entropy of a substance at any temperature by integrating the heat capacity from absolute zero to the desired temperature. The mathematical expression for this is:
 
 
-
 $$
 
 S(T) = \int_0^T \frac{C_p}{T} dT
 
 $$
-
 
 
 where $S(T)$ is the absolute entropy at temperature $T$ and $C_p$ is the heat capacity at constant pressure.
@@ -8817,7 +8422,6 @@ The mathematical representation of thermodynamic equilibrium involves the minimi
 The Gibbs free energy at equilibrium can be expressed as:
 
 
-
 $$
 
 G = \sum_{j} \mu_{j} N_{j}
@@ -8825,9 +8429,7 @@ G = \sum_{j} \mu_{j} N_{j}
 $$
 
 
-
 where $\mu_{j}$ is the chemical potential of molecular species "j", and $N_{j}$ is the amount of molecular species "j". The chemical potential can be expressed in terms of thermodynamic activity as:
-
 
 
 $$
@@ -8837,13 +8439,11 @@ $$
 $$
 
 
-
 where $\mu_{j}^{\ominus}$ is the chemical potential in the standard state, "R" is the gas constant, "T" is the absolute temperature, and $A_{j}$ is the activity.
 
 
 
 For a closed system, the total number of atoms of each element remains constant, which leads to the constraints:
-
 
 
 $$
@@ -8853,7 +8453,6 @@ $$
 $$
 
 
-
 where $a_{ij}$ is the number of atoms of element "i" in molecule "j" and $b_{i}$ is the total number of atoms of element "i". 
 
 
@@ -8861,13 +8460,11 @@ where $a_{ij}$ is the number of atoms of element "i" in molecule "j" and $b_{i}$
 The equilibrium condition is given by:
 
 
-
 $$
 
 \mu_{j} + \sum_{i} \lambda_{i} a_{ij} = 0
 
 $$
-
 
 
 where the $\lambda_{i}$ are the Lagrange multipliers, one for each element. This is a set of equations that can be solved for the equilibrium concentrations $N_{j}$, as long as the chemical activities are known.
@@ -8973,13 +8570,11 @@ Phase equilibrium is a state of a system where the properties of different phase
 The phase rule, formulated by Josiah Willard Gibbs, provides a mathematical framework to understand phase equilibrium. The phase rule equation is given by:
 
 
-
 $$
 
 F = C - P + 2
 
 $$
-
 
 
 where:
@@ -9083,13 +8678,11 @@ Chemical equilibrium is a state in a chemical reaction where the concentrations 
 The concept of chemical equilibrium is closely tied to the Gibbs free energy change, $\Delta G$, and the equilibrium constant, $K$. The Gibbs free energy change is a measure of the maximum reversible work that a thermodynamic system can perform at constant temperature and pressure. It is given by the equation:
 
 
-
 $$
 
 \Delta G = \Delta H - T\Delta S
 
 $$
-
 
 
 where $\Delta H$ is the change in enthalpy, $T$ is the absolute temperature, and $\Delta S$ is the change in entropy. 
@@ -9099,13 +8692,11 @@ where $\Delta H$ is the change in enthalpy, $T$ is the absolute temperature, and
 The equilibrium constant, $K$, is a measure of the ratio of the concentrations of the products to the reactants at equilibrium, each raised to the power of their stoichiometric coefficients. It is given by the equation:
 
 
-
 $$
 
 K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
 
 $$
-
 
 
 where $[A]$, $[B]$, $[C]$, and $[D]$ are the molar concentrations of the reactants and products, and $a$, $b$, $c$, and $d$ are their respective stoichiometric coefficients.
@@ -9115,13 +8706,11 @@ where $[A]$, $[B]$, $[C]$, and $[D]$ are the molar concentrations of the reactan
 The relationship between the Gibbs free energy change and the equilibrium constant is given by the equation:
 
 
-
 $$
 
 \Delta G^o = -RT \ln K
 
 $$
-
 
 
 where $R$ is the gas constant, $T$ is the absolute temperature, and $K$ is the equilibrium constant. This equation shows that the Gibbs free energy change is negative for spontaneous reactions (those that proceed to the right), and positive for non-spontaneous reactions (those that proceed to the left). 
@@ -9131,13 +8720,11 @@ where $R$ is the gas constant, $T$ is the absolute temperature, and $K$ is the e
 In the context of chemical equilibrium, the chemical potential, $\mu_i$, of the $i$th species in a chemical reaction is the partial derivative of the free energy with respect to the number of moles of that species, $N_i$. The chemical potential can be calculated in terms of its activity, $a_i$, using the equation:
 
 
-
 $$
 
 \mu_i = \mu_i^o + RT \ln a_i
 
 $$
-
 
 
 where $\mu_i^o$ is the standard chemical potential of the species, $R$ is the gas constant, $T$ is the temperature, and $a_i$ is the activity of the species. 
@@ -9223,13 +8810,11 @@ In the context of chemical reactions, this law implies that a system will natura
 The entropy change for a chemical reaction can be calculated using the equation:
 
 
-
 $$
 
 \Delta S = \int_{i}^{f} \frac{dQ_{rev}}{T}
 
 $$
-
 
 
 where $dQ_{rev}$ is the infinitesimal amount of heat absorbed from the surroundings in a reversible process, and $T$ is the absolute temperature. 
@@ -9243,13 +8828,11 @@ The entropy change for a reaction provides insight into the spontaneity of the r
 The concept of chemical equilibrium is also closely tied to the Gibbs free energy, $G$, of a system. At equilibrium, the Gibbs free energy of the system is at a minimum. This is due to the fact that the chemical potential $\mu_j$ of each species $j$ in the reaction is constant, and the total Gibbs free energy of the system, which is the sum of the chemical potentials multiplied by the amounts of the species, is minimized. This can be expressed mathematically as:
 
 
-
 $$
 
 G = \sum_j \mu_j N_j
 
 $$
-
 
 
 where $N_j$ is the amount of species $j$. 
@@ -9275,13 +8858,11 @@ In the context of thermodynamics, thermal equilibrium is a specific type of equi
 Mathematically, if we have three systems A, B, and C, and if A is in thermal equilibrium with B, and B is in thermal equilibrium with C, then A is in thermal equilibrium with C. This can be represented as:
 
 
-
 $$
 
 \text{If } T_A = T_B \text{ and } T_B = T_C \text{, then } T_A = T_C
 
 $$
-
 
 
 where $T_A$, $T_B$, and $T_C$ are the temperatures of systems A, B, and C, respectively.
@@ -9355,13 +8936,11 @@ The concept of thermal equilibrium plays a crucial role in thermodynamics, parti
 **Heat Transfer**: In the context of heat transfer, thermal equilibrium is the state at which the rate of heat transfer between two systems is zero. This is because the temperatures of the two systems are equal, and hence, there is no temperature gradient to drive the heat transfer. This can be represented by the general equation of heat transfer:
 
 
-
 $$
 
 q = -k \nabla T
 
 $$
-
 
 
 where $q$ is the heat transfer rate, $k$ is the thermal conductivity, and $\nabla T$ is the temperature gradient. At thermal equilibrium, $\nabla T = 0$, and hence, $q = 0$.
@@ -9371,13 +8950,11 @@ where $q$ is the heat transfer rate, $k$ is the thermal conductivity, and $\nabl
 **Entropy Production**: The concept of thermal equilibrium is also central to the understanding of entropy production. As mentioned in the previous section, the entropy of a system is maximized at thermal equilibrium. This can be represented by the equation for entropy production:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 In the absence of thermal conduction and viscous forces, the equation for entropy production simplifies to $Ds/Dt=0$, indicating that the flow of an ideal fluid is isentropic.
@@ -9469,13 +9046,11 @@ A thermodynamic system, in simple terms, is a portion of the universe that is un
 The interaction between a system and its surroundings is at the heart of thermodynamics. Energy can be transferred between the system and the surroundings in the form of heat or work. The first law of thermodynamics, also known as the law of energy conservation, states that energy cannot be created or destroyed, but can only be transferred or converted from one form to another. This law can be mathematically expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the heat transferred to the system, and $W$ is the work done by the system.
@@ -9521,13 +9096,11 @@ Thermodynamic systems can be classified into three types: isolated, closed, and 
 The behavior of these systems is governed by the laws of thermodynamics, which describe how energy is transferred and transformed. The first law of thermodynamics, also known as the law of energy conservation, states that energy cannot be created or destroyed, but can only be transferred or converted from one form to another. This law can be mathematically expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the heat transferred to the system, and $W$ is the work done by the system.
@@ -9553,13 +9126,11 @@ As mentioned in the previous section, thermodynamic systems can be classified in
 An **isolated system** is one in which neither energy nor matter can be exchanged with the surroundings. This means that the total energy and mass within the system remain constant. The behavior of an isolated system is governed by the first law of thermodynamics, which states that the total energy of an isolated system is conserved. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \Delta U = 0
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system. Since no heat ($Q$) or work ($W$) is transferred in or out of an isolated system, the internal energy change is zero.
@@ -9573,13 +9144,11 @@ where $\Delta U$ is the change in internal energy of the system. Since no heat (
 A **closed system** allows the transfer of energy (heat and work) but not matter. This means that while the total mass within the system remains constant, the total energy can change as heat and work are transferred across the system boundary. The behavior of a closed system is also governed by the first law of thermodynamics, but unlike an isolated system, the internal energy of a closed system can change. This can be expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $Q$ is the heat transferred to the system, and $W$ is the work done by the system.
@@ -9593,7 +9162,6 @@ where $Q$ is the heat transferred to the system, and $W$ is the work done by the
 An **open system** allows both energy and matter to be transferred between the system and the surroundings. This means that both the total energy and mass within the system can change. The behavior of an open system is governed by both the first and second laws of thermodynamics. The first law, as applied to an open system, can be expressed as:
 
 
-
 $$
 
 \Delta U = Q - W + \Delta m
@@ -9601,9 +9169,7 @@ $$
 $$
 
 
-
 where $\Delta m$ is the change in mass of the system due to matter transfer. The second law of thermodynamics, which states that the entropy of an isolated system can only increase, is also applicable to open systems. This law can be mathematically expressed as:
-
 
 
 $$
@@ -9611,7 +9177,6 @@ $$
 \Delta S \geq 0
 
 $$
-
 
 
 where $\Delta S$ is the change in entropy of the system.
@@ -9681,13 +9246,11 @@ The surroundings can be as simple as the immediate environment around the system
 Energy can be transferred between the system and the surroundings in the form of heat or work. Heat transfer occurs due to a temperature difference between the system and the surroundings, and it always flows from a region of higher temperature to a region of lower temperature. The general equation of heat transfer is given by:
 
 
-
 $$
 
 q = m c \Delta T
 
 $$
-
 
 
 where $q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the specific heat capacity of the substance, and $\Delta T$ is the change in temperature.
@@ -9729,13 +9292,11 @@ As discussed in the previous section, energy can be transferred between the syst
 The total energy of the system and its surroundings is conserved, as stated by the first law of thermodynamics. This means that any energy that leaves the system must enter the surroundings, and vice versa. The equation for this energy conservation is:
 
 
-
 $$
 
 \Delta E_{system} + \Delta E_{surroundings} = 0
 
 $$
-
 
 
 where $\Delta E_{system}$ is the change in energy of the system and $\Delta E_{surroundings}$ is the change in energy of the surroundings.
@@ -9753,13 +9314,11 @@ In open systems, matter can be transferred between the system and the surroundin
 The rate of matter transfer can be described by the equation:
 
 
-
 $$
 
 J = -D \frac{\partial C}{\partial x}
 
 $$
-
 
 
 where $J$ is the flux (amount of substance per unit area per unit time), $D$ is the diffusion coefficient, $C$ is the concentration, and $x$ is the position.
@@ -9797,13 +9356,11 @@ A system is said to be in thermodynamic equilibrium with its surroundings when t
 In the context of the equations provided, the equilibrium state can be represented as:
 
 
-
 $$
 
 \rho Tds + {p\over{\rho}}d\rho = 0
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $ds$ is the differential of entropy, $p$ is the pressure, and $d\rho$ is the differential of density. This equation signifies that in equilibrium, the change in entropy and density of the system is zero.
@@ -9833,13 +9390,11 @@ The surroundings also play a significant role in entropy production. According t
 The equation for specific entropy production can be written as:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $Ds/Dt$ is the material derivative of entropy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, $v_i$ and $v_j$ are the velocity components, $x_i$ and $x_j$ are the spatial coordinates, and $\zeta$ is the bulk viscosity. This equation shows that entropy production is influenced by heat conduction, viscous dissipation, and volumetric dilatation, all of which are properties of the surroundings.
@@ -9901,13 +9456,11 @@ For instance, consider a gas enclosed in a piston-cylinder assembly. If the cyli
 In the context of the equations provided, the thermodynamic boundary can be represented in the entropy production equation as:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation signifies that the rate of entropy production in a system depends on the nature of the thermodynamic boundary and the interactions across it.
@@ -9997,13 +9550,11 @@ The thermodynamic boundary is crucial in determining the heat transfer between t
 The thermodynamic boundary also plays a role in entropy production. The equation for entropy production, 
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 shows that the entropy production depends on the heat transfer and the viscous forces, both of which are influenced by the nature of the boundary. In the case where thermal conduction and viscous forces are absent, the equation for entropy production collapses to $Ds/Dt=0$, showing that ideal fluid flow is isentropic.
@@ -10099,13 +9650,11 @@ Thermodynamic cycles, on the other hand, are sequences of thermodynamic processe
 Throughout this chapter, we will be using mathematical equations to describe these processes and cycles. For instance, the first law of thermodynamics, which states that energy cannot be created or destroyed, can be expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the heat added to the system, and $W$ is the work done by the system.
@@ -10303,13 +9852,11 @@ The total change in a state variable over a complete cycle is zero, as the syste
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy of the system, $Q$ is the net heat transferred to the system, and $W$ is the work done by the system.
@@ -10343,13 +9890,11 @@ The Carnot cycle can be represented on a $pV$ diagram as a rectangle and on a $T
 The efficiency of a Carnot engine, denoted by $\eta$, is given by:
 
 
-
 $$
 
 \eta = 1 - \frac{T_{c}}{T_{h}}
 
 $$
-
 
 
 where $T_{c}$ is the temperature of the cold reservoir and $T_{h}$ is the temperature of the hot reservoir.
@@ -10367,13 +9912,11 @@ The Otto cycle, named after Nikolaus Otto, is the ideal cycle for spark-ignition
 The efficiency of an Otto cycle, denoted by $\eta$, is given by:
 
 
-
 $$
 
 \eta = 1 - \frac{1}{r^{(\gamma - 1)}}
 
 $$
-
 
 
 where $r$ is the compression ratio and $\gamma$ is the ratio of specific heats.
@@ -10391,13 +9934,11 @@ The Rankine cycle is the ideal cycle for steam power plants. It consists of two 
 The efficiency of a Rankine cycle, denoted by $\eta$, is given by:
 
 
-
 $$
 
 \eta = 1 - \frac{Q_{out}}{Q_{in}}
 
 $$
-
 
 
 where $Q_{out}$ is the heat rejected in the condenser and $Q_{in}$ is the heat added in the boiler.
@@ -10415,13 +9956,11 @@ The Brayton cycle, named after George Brayton, is the ideal cycle for gas-turbin
 The efficiency of a Brayton cycle, denoted by $\eta$, is given by:
 
 
-
 $$
 
 \eta = 1 - \frac{T_{2}}{T_{1}}
 
 $$
-
 
 
 where $T_{2}$ is the temperature at the end of the isentropic expansion and $T_{1}$ is the temperature at the beginning of the isentropic compression.
@@ -10551,13 +10090,11 @@ Another important classification of thermodynamic process paths is based on the 
 - **Irreversible process path:** An irreversible process is one that cannot be reversed, meaning that the system cannot return to exactly the same initial state. Irreversible processes can occur because of friction, rapid changes, or non-quasi-static changes. In these processes, entropy is produced, as described by the equation for entropy production:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 In the case where thermal conduction and viscous forces are absent, the equation for entropy production collapses to $Ds/Dt=0$, showing that ideal fluid flow is isentropic.
@@ -10623,13 +10160,11 @@ For example, consider a gas expanding in a cylinder. If the expansion is carried
 As we have seen in the previous section, thermodynamic process paths are also related to entropy production. For irreversible processes, entropy is produced, as described by the equation for entropy production:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 The path of the process – whether it is reversible or irreversible – determines whether or not entropy is produced. Understanding the process path is therefore crucial for understanding the second law of thermodynamics, which states that the total entropy of an isolated system can never decrease over time.
@@ -10709,13 +10244,11 @@ In this chapter, we will delve into the fascinating world of Thermodynamic Work 
 Thermodynamic work is a concept that describes the energy transfer that occurs when an object is moved by a force. It is a form of energy that can be transferred from one system to another, and it plays a vital role in many physical and chemical processes. The mathematical representation of work done by a system can be expressed as: 
 
 
-
 $$
 
 W = -\int PdV
 
 $$
-
 
 
 where $W$ is the work done, $P$ is the pressure, and $dV$ is the change in volume.
@@ -10725,13 +10258,11 @@ where $W$ is the work done, $P$ is the pressure, and $dV$ is the change in volum
 On the other hand, heat is a form of energy transfer that occurs due to a temperature difference between two systems. It is an essential concept in thermodynamics, as it helps us understand how energy is transferred between systems and how it affects their properties. The mathematical representation of heat transferred can be expressed as:
 
 
-
 $$
 
 Q = mc\Delta T
 
 $$
-
 
 
 where $Q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the specific heat capacity, and $\Delta T$ is the change in temperature.
@@ -10757,13 +10288,11 @@ Thermodynamic work, often simply referred to as work, is a fundamental concept i
 The mathematical representation of work done by a system can be expressed as: 
 
 
-
 $$
 
 W = -\int PdV
 
 $$
-
 
 
 where $W$ is the work done, $P$ is the pressure, and $dV$ is the infinitesimal change in volume. The negative sign in the equation indicates that work is done by the system on its surroundings when the volume of the system increases (i.e., $dV > 0$). Conversely, when the volume of the system decreases (i.e., $dV < 0$), work is done on the system by its surroundings.
@@ -10869,13 +10398,11 @@ In thermodynamics, work is a pathway for energy transfer, alongside heat. While 
 The first law of thermodynamics, also known as the law of energy conservation, states that the change in the internal energy of a system is equal to the heat added to the system minus the work done by the system:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done by the system. This equation shows the interplay between heat, work, and internal energy in a thermodynamic process.
@@ -10905,13 +10432,11 @@ In thermodynamics, heat is defined as the energy transferred between systems due
 The general equation of heat transfer is given by:
 
 
-
 $$
 
 Q = mc\Delta T
 
 $$
-
 
 
 where $Q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the specific heat capacity of the substance, and $\Delta T$ is the change in temperature. This equation shows that the heat transferred is directly proportional to the mass of the substance and the change in temperature, and inversely proportional to the specific heat capacity.
@@ -10921,13 +10446,11 @@ where $Q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the 
 In the context of the first law of thermodynamics, heat is the energy added to a system, and it contributes to the change in the system's internal energy. The first law can be written as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done by the system. This equation shows the interplay between heat, work, and internal energy in a thermodynamic process.
@@ -10953,13 +10476,11 @@ The measurement of thermodynamic heat is a critical aspect of understanding and 
 One of the most common methods of measuring heat is through calorimetry. A calorimeter is a device used to measure the heat of a chemical reaction or physical change. The heat transferred to or from a substance can be calculated using the equation:
 
 
-
 $$
 
 Q = mc\Delta T
 
 $$
-
 
 
 where $Q$ is the heat transferred, $m$ is the mass of the substance, $c$ is the specific heat capacity of the substance, and $\Delta T$ is the change in temperature. This equation is based on the principle of conservation of energy, which states that energy cannot be created or destroyed, only transferred or converted from one form to another.
@@ -10973,13 +10494,11 @@ In addition to calorimetry, heat transfer can also be measured using thermocoupl
 In the context of the second law of thermodynamics, the entropy production equation can be used to measure heat transfer. The equation for specific entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 This equation can be used to measure the heat transfer and air flow in various applications, such as in a domestic refrigerator or in the analysis of regenerators.
@@ -11009,13 +10528,11 @@ The second law of thermodynamics, on the other hand, deals with the concept of e
 The equation for specific entropy production, given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 is a mathematical representation of the second law of thermodynamics. It describes how the entropy of a system changes with time as heat is transferred. This equation can be used to analyze various thermodynamic processes, such as the heat transfer and air flow in a domestic refrigerator or the harmonic analysis of regenerators.
@@ -11045,13 +10562,11 @@ Heat, on the other hand, is a form of energy transfer that occurs due to a tempe
 The relationship between work and heat can be expressed mathematically using the first law of thermodynamics, which states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system on its surroundings. This can be written as:
 
 
-
 $$
 
 \Delta U = Q - W
 
 $$
-
 
 
 where $\Delta U$ is the change in internal energy, $Q$ is the heat added to the system, and $W$ is the work done by the system.
@@ -11081,13 +10596,11 @@ Heat transfer is a fundamental concept in thermodynamics and is the process of t
 Conduction is the process of heat transfer between objects that are in direct contact with each other. The heat flows from the hotter to the cooler object until they are both at the same temperature. Conduction in gases and liquids involves the transfer of energy between fast-moving molecules and slower-moving molecules. In solids, conduction often involves the vibration of atoms and molecules in a lattice. The general equation for heat conduction is given by Fourier's Law:
 
 
-
 $$
 
 q = -k \nabla T
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, and $\nabla T$ is the temperature gradient.
@@ -11101,13 +10614,11 @@ where $q$ is the heat flux, $k$ is the thermal conductivity, and $\nabla T$ is t
 Convection is the heat transfer due to the bulk movement of molecules within fluids such as gases and liquids, including molten rock (rheid). Convection takes place through advection, diffusion or both. The equation for convective heat transfer is given by Newton's Law of Cooling:
 
 
-
 $$
 
 q = hA(T_s - T_\infty)
 
 $$
-
 
 
 where $q$ is the heat transfer rate, $h$ is the convective heat transfer coefficient, $A$ is the area, $T_s$ is the surface temperature, and $T_\infty$ is the fluid temperature.
@@ -11121,13 +10632,11 @@ where $q$ is the heat transfer rate, $h$ is the convective heat transfer coeffic
 Radiation is the emission of energy as electromagnetic waves or as moving subatomic particles, especially high-energy particles that cause ionization. Unlike conduction and convection, radiation can occur in a vacuum. The equation for radiative heat transfer is given by the Stefan-Boltzmann Law:
 
 
-
 $$
 
 q = \sigma \epsilon A (T_s^4 - T_\infty^4)
 
 $$
-
 
 
 where $q$ is the heat transfer rate, $\sigma$ is the Stefan-Boltzmann constant, $\epsilon$ is the emissivity of the surface, $A$ is the area, $T_s$ is the surface temperature, and $T_\infty$ is the surrounding temperature.
@@ -11153,13 +10662,11 @@ Thermodynamic work and heat transfer play a crucial role in the field of thermod
 Thermodynamic work ($W$) is the energy transferred from one system to another that is not due to temperature difference. It is a path-dependent quantity, meaning its value depends on the specific 'path' taken to go from the initial to the final state. In the context of thermodynamics, work performed on a system by its surroundings has a positive sign, while work done by the system on its surroundings has a negative sign. The general equation for work done in a quasi-static process is given by:
 
 
-
 $$
 
 dW = -PdV
 
 $$
-
 
 
 where $P$ is the pressure and $V$ is the volume. This equation is applicable for systems undergoing a change in volume at a constant pressure.
@@ -11173,13 +10680,11 @@ where $P$ is the pressure and $V$ is the volume. This equation is applicable for
 Heat transfer, on the other hand, is the process of energy exchange between systems due to a temperature difference. Unlike work, heat is a path-independent quantity. It is governed by the laws of thermodynamics, particularly the first law which states that the increase in internal energy of a system is equal to the heat added to the system minus the work done by the system on its surroundings. The general equation for heat transfer is given by:
 
 
-
 $$
 
 dQ = TdS
 
 $$
-
 
 
 where $T$ is the absolute temperature and $S$ is the entropy. This equation is applicable for systems undergoing a change in entropy at a constant temperature.
@@ -11267,13 +10772,11 @@ In this chapter, we will delve into the fascinating world of thermodynamic effic
 In the context of thermodynamics, efficiency is often defined as the ratio of useful output energy (or work) to the total input energy. Mathematically, it can be represented as:
 
 
-
 $$
 
 \eta = \frac{W_{out}}{Q_{in}}
 
 $$
-
 
 
 where $\eta$ is the efficiency, $W_{out}$ is the useful output work, and $Q_{in}$ is the total input heat energy.
@@ -11283,13 +10786,11 @@ where $\eta$ is the efficiency, $W_{out}$ is the useful output work, and $Q_{in}
 Power, on the other hand, is the rate at which work is done or energy is transferred. In thermodynamics, power is often associated with engines and other systems that convert heat into work. It is typically measured in watts (W), which are equivalent to joules per second (J/s). The mathematical representation of power is:
 
 
-
 $$
 
 P = \frac{W}{t}
 
 $$
-
 
 
 where $P$ is the power, $W$ is the work done, and $t$ is the time taken.
@@ -11315,13 +10816,11 @@ Thermodynamic efficiency, often denoted by the Greek letter eta ($\eta$), is a d
 In the context of heat engines, thermodynamic efficiency is defined as the ratio of the useful work output to the total heat energy input. This can be mathematically represented as:
 
 
-
 $$
 
 \eta = \frac{W_{out}}{Q_{in}}
 
 $$
-
 
 
 where $\eta$ is the thermodynamic efficiency, $W_{out}$ is the useful work output, and $Q_{in}$ is the total heat energy input.
@@ -11367,13 +10866,11 @@ Theoretical calculations of thermodynamic efficiency often involve the use of th
 For example, the theoretical maximum efficiency of a heat engine operating between two thermal reservoirs at temperatures $T_{hot}$ and $T_{cold}$ can be calculated using the Carnot efficiency formula:
 
 
-
 $$
 
 \eta_{Carnot} = 1 - \frac{T_{cold}}{T_{hot}}
 
 $$
-
 
 
 where $\eta_{Carnot}$ is the Carnot efficiency, $T_{hot}$ is the temperature of the hot reservoir, and $T_{cold}$ is the temperature of the cold reservoir.
@@ -11431,13 +10928,11 @@ In the context of thermodynamics, power is often associated with heat engines, w
 The mathematical expression for power ($P$) is given by:
 
 
-
 $$
 
 P = \frac{dW}{dt}
 
 $$
-
 
 
 where $dW$ is the infinitesimal amount of work done and $dt$ is the infinitesimal amount of time. This equation simply states that power is the derivative of work with respect to time.
@@ -11447,13 +10942,11 @@ where $dW$ is the infinitesimal amount of work done and $dt$ is the infinitesima
 In the context of a heat engine, the work done ($W$) is the difference between the heat energy input into the system ($Q_{in}$) and the waste heat expelled by the system ($Q_{out}$). Therefore, the power output of a heat engine can also be expressed as:
 
 
-
 $$
 
 P = \frac{d(Q_{in} - Q_{out})}{dt}
 
 $$
-
 
 
 This equation highlights the importance of thermodynamic efficiency in determining the power output of a heat engine. As discussed in the previous section, a system with high thermodynamic efficiency is able to minimize the amount of energy lost as waste heat ($Q_{out}$), thereby maximizing the amount of useful work done ($W$) and, consequently, the power output ($P$).
@@ -11479,13 +10972,11 @@ The measurement of thermodynamic power is crucial in various fields, from engine
 In heat engines, the power output is often measured in terms of the rate of work done or the rate of energy conversion. As we have discussed in the previous section, the power output of a heat engine can be expressed as:
 
 
-
 $$
 
 P = \frac{d(Q_{in} - Q_{out})}{dt}
 
 $$
-
 
 
 where $Q_{in}$ is the heat energy input into the system, $Q_{out}$ is the waste heat expelled by the system, and $dt$ is the infinitesimal amount of time. This equation allows us to calculate the power output of a heat engine by measuring the rate of heat energy input and the rate of waste heat expulsion.
@@ -11535,13 +11026,11 @@ The concept of thermodynamic power plays a significant role in the field of ther
 The efficiency of a thermodynamic system is often defined as the ratio of useful output to the total input. In the context of power, this can be expressed as:
 
 
-
 $$
 
 \eta = \frac{P_{out}}{P_{in}}
 
 $$
-
 
 
 where $\eta$ is the efficiency, $P_{out}$ is the useful power output, and $P_{in}$ is the total power input. This equation highlights the importance of thermodynamic power in evaluating the performance of a system. A high efficiency indicates that a large proportion of the input power is converted into useful output, while a low efficiency suggests that a significant amount of power is wasted, often as heat.
@@ -11595,13 +11084,11 @@ Thermodynamic cycles are fundamental to the operation of heat engines and refrig
 In heat engines, the efficiency is defined as the ratio of the work done by the engine to the heat supplied at the high temperature. Mathematically, this is expressed as:
 
 
-
 $$
 
 \eta = \frac{P}{\dot Q_\text{H}}
 
 $$
-
 
 
 where $\eta$ is the efficiency, $P$ is the power delivered by the engine, and $\dot Q_\text{H}$ is the heat supplied at the high temperature. 
@@ -11611,13 +11098,11 @@ where $\eta$ is the efficiency, $P$ is the power delivered by the engine, and $\
 The maximum efficiency of a heat engine is achieved when the entropy production rate $\dot S_\text{i}$ is zero. This is known as the Carnot efficiency, and it is given by:
 
 
-
 $$
 
 \eta_\text{Carnot} = 1 - \frac{T_\text{a}}{T_\text{H}}
 
 $$
-
 
 
 where $T_\text{a}$ is the ambient temperature and $T_\text{H}$ is the high temperature.
@@ -11631,13 +11116,11 @@ where $T_\text{a}$ is the ambient temperature and $T_\text{H}$ is the high tempe
 In refrigerators, the efficiency is measured by the coefficient of performance (COP), which is defined as the ratio of the cooling power to the power supplied. Mathematically, this is expressed as:
 
 
-
 $$
 
 \text{COP} = \frac{\dot Q_\text{L}}{P}
 
 $$
-
 
 
 where $\dot Q_\text{L}$ is the cooling power at the low temperature and $P$ is the power supplied.
@@ -11647,13 +11130,11 @@ where $\dot Q_\text{L}$ is the cooling power at the low temperature and $P$ is t
 The maximum COP of a refrigerator is achieved when the entropy production rate $\dot S_\text{i}$ is zero. This is known as the Carnot COP, and it is given by:
 
 
-
 $$
 
 \text{COP}_\text{Carnot} = \frac{T_\text{L}}{T_\text{a} - T_\text{L}}
 
 $$
-
 
 
 where $T_\text{L}$ is the low temperature and $T_\text{a}$ is the ambient temperature.
@@ -11687,13 +11168,11 @@ Power in thermodynamic cycles is a crucial aspect of understanding the performan
 In heat engines, power is the rate at which work is done by the engine. It is given by the product of the force applied and the velocity of the object. Mathematically, this is expressed as:
 
 
-
 $$
 
 P = \dot W = \dot Q_\text{H} - \dot Q_\text{a}
 
 $$
-
 
 
 where $P$ is the power, $\dot W$ is the rate of work done, $\dot Q_\text{H}$ is the heat supplied at the high temperature, and $\dot Q_\text{a}$ is the heat removed at the ambient temperature.
@@ -11703,13 +11182,11 @@ where $P$ is the power, $\dot W$ is the rate of work done, $\dot Q_\text{H}$ is 
 The power delivered by a heat engine is maximized when the entropy production rate $\dot S_\text{i}$ is zero. This is known as the Carnot power, and it is given by:
 
 
-
 $$
 
 P_\text{Carnot} = \dot Q_\text{H} - T_\text{a} \dot S_\text{i}
 
 $$
-
 
 
 where $T_\text{a}$ is the ambient temperature and $\dot S_\text{i}$ is the entropy production rate.
@@ -11723,13 +11200,11 @@ where $T_\text{a}$ is the ambient temperature and $\dot S_\text{i}$ is the entro
 In refrigerators, power is the rate at which work is done to produce the cooling effect. It is given by the difference between the heat removed at the low temperature and the heat supplied at the ambient temperature. Mathematically, this is expressed as:
 
 
-
 $$
 
 P = \dot Q_\text{a} - \dot Q_\text{L}
 
 $$
-
 
 
 where $P$ is the power, $\dot Q_\text{a}$ is the heat supplied at the ambient temperature, and $\dot Q_\text{L}$ is the heat removed at the low temperature.
@@ -11739,13 +11214,11 @@ where $P$ is the power, $\dot Q_\text{a}$ is the heat supplied at the ambient te
 The power supplied to a refrigerator is minimized when the entropy production rate $\dot S_\text{i}$ is zero. This is known as the Carnot power, and it is given by:
 
 
-
 $$
 
 P_\text{Carnot} = T_\text{a} \dot S_\text{i} - \dot Q_\text{L}
 
 $$
-
 
 
 where $T_\text{a}$ is the ambient temperature and $\dot S_\text{i}$ is the entropy production rate.
@@ -11759,13 +11232,11 @@ where $T_\text{a}$ is the ambient temperature and $\dot S_\text{i}$ is the entro
 In both heat engines and refrigerators, power dissipation is a crucial factor that affects the performance of the system. It is the rate at which energy is lost to the surroundings due to inefficiencies in the system. Mathematically, power dissipation is given by:
 
 
-
 $$
 
 P_\text{diss} = T_\text{a} \dot S_\text{i}
 
 $$
-
 
 
 where $P_\text{diss}$ is the power dissipation, $T_\text{a}$ is the ambient temperature, and $\dot S_\text{i}$ is the entropy production rate. This power dissipation reduces the overall efficiency of the system and is a key factor in the design and operation of thermodynamic cycles.
@@ -11787,7 +11258,6 @@ Thermodynamic efficiency and power play a significant role in the field of therm
 Thermodynamic efficiency ($\eta$) is a measure of how effectively a system can convert heat into work. It is defined as the ratio of the useful work output to the total heat input. For a heat engine, the efficiency is given by:
 
 
-
 $$
 
 \eta = \frac{W}{Q_\text{H}}
@@ -11795,9 +11265,7 @@ $$
 $$
 
 
-
 where $W$ is the work done by the engine and $Q_\text{H}$ is the heat supplied at the high temperature. The efficiency of a heat engine is always less than 1, due to the second law of thermodynamics. The Carnot efficiency, which is the maximum possible efficiency for a heat engine operating between two given temperatures, is given by:
-
 
 
 $$
@@ -11807,13 +11275,11 @@ $$
 $$
 
 
-
 where $T_\text{a}$ is the ambient temperature and $T_\text{H}$ is the high temperature.
 
 
 
 For a refrigerator, the efficiency is defined as the ratio of the heat removed from the low-temperature reservoir to the work input, and is given by:
-
 
 
 $$
@@ -11823,9 +11289,7 @@ $$
 $$
 
 
-
 where $Q_\text{L}$ is the heat removed at the low temperature. The Carnot efficiency for a refrigerator is given by:
-
 
 
 $$

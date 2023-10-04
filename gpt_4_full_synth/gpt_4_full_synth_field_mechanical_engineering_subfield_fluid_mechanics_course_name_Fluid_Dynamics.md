@@ -857,9 +857,7 @@ This property of fluids can be mathematically represented as:
 
 
 $$
-
 \tau = \mu \frac{du}{dy}
-
 $$
 
 
@@ -889,9 +887,7 @@ Newtonian fluids are those that follow Newton's law of viscosity. This law state
 
 
 $$
-
 \tau = \mu \frac{du}{dy}
-
 $$
 
 
@@ -953,9 +949,7 @@ Density ($\rho$) is a fundamental property of matter, including fluids. It is de
 
 
 $$
-
 \rho = \frac{m}{V}
-
 $$
 
 
@@ -973,9 +967,7 @@ Pressure ($P$) in a fluid is the force ($F$) exerted by the fluid per unit area 
 
 
 $$
-
 P = \frac{F}{A}
-
 $$
 
 
@@ -1025,9 +1017,7 @@ Mathematically, laminar flow can be described by the Reynolds number ($Re$), a d
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -1117,9 +1107,7 @@ In the context of fluid dynamics, the conservation of mass can be mathematically
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1153,9 +1141,7 @@ In the context of fluid dynamics, the conservation of momentum can be mathematic
 
 
 $$
-
 \rho \frac{D \mathbf{v}}{Dt} = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -1189,9 +1175,7 @@ The energy equation for fluid dynamics can be derived from the basic principles 
 
 
 $$
-
 \rho \frac{D}{Dt} \left( \frac{v^2}{2} + gz + e \right) = -\nabla \cdot \mathbf{q} - p \nabla \cdot \mathbf{v} + \mathbf{f} \cdot \mathbf{v} + \Phi
-
 $$
 
 
@@ -1369,9 +1353,7 @@ The mathematical representation of hydrostatic pressure is given by the equation
 
 
 $$
-
 P = P_0 + \rho gh
-
 $$
 
 
@@ -1427,9 +1409,7 @@ The equation for a manometer is given by:
 
 
 $$
-
 \Delta P = \rho g \Delta h
-
 $$
 
 
@@ -1481,9 +1461,7 @@ The pressure distribution in a compressible fluid is governed by the equation of
 
 
 $$
-
 P = \rho R T
-
 $$
 
 
@@ -1509,9 +1487,7 @@ In a static fluid, the pressure changes with height due to the weight of the flu
 
 
 $$
-
 P = P_0 e^{-\frac{g h}{R T}}
-
 $$
 
 
@@ -1563,9 +1539,7 @@ Mathematically, the buoyant force `$F_B$` can be expressed as:
 
 
 $$
-
 F_B = \rho_f g V
-
 $$
 
 
@@ -1663,9 +1637,7 @@ In the case of linear motion, the fluid moves in a straight line. The pressure d
 
 
 $$
-
 P = P_0 + \rho g h - \rho a x
-
 $$
 
 
@@ -1683,9 +1655,7 @@ In the case of rotational motion, the fluid rotates about an axis. The pressure 
 
 
 $$
-
 P = P_0 + \frac{1}{2} \rho \omega^2 (r^2 - R^2)
-
 $$
 
 
@@ -1719,9 +1689,7 @@ The pressure distribution in a fluid undergoing constant linear acceleration can
 
 
 $$
-
 P = P_0 + \rho g h - \rho a x
-
 $$
 
 
@@ -1747,9 +1715,7 @@ The pressure gradient can be described by the following equation:
 
 
 $$
-
 \frac{dP}{dx} = -\rho a
-
 $$
 
 
@@ -1787,9 +1753,7 @@ The pressure distribution in a fluid undergoing rotational motion can be describ
 
 
 $$
-
 P = P_0 + \frac{1}{2} \rho \omega^2 r^2
-
 $$
 
 
@@ -1815,9 +1779,7 @@ The pressure gradient can be described by the following equation:
 
 
 $$
-
 \frac{dP}{dr} = \rho \omega^2 r
-
 $$
 
 
@@ -2035,9 +1997,7 @@ Mathematically, surface tension is defined as the work done (dW) to increase the
 
 
 $$
-
 \gamma = \frac{dW}{dA}
-
 $$
 
 
@@ -2071,9 +2031,7 @@ Mathematically, this relationship can be expressed by the Eötvös rule, which s
 
 
 $$
-
 \gamma = k(T_c - T)
-
 $$
 
 
@@ -2131,9 +2089,7 @@ Mathematically, this relationship can be expressed by the Jurin's Law:
 
 
 $$
-
 h = \frac{2\gamma \cos \theta}{\rho g r}
-
 $$
 
 
@@ -2187,9 +2143,7 @@ As we have seen in the capillary rise method for measuring surface tension, the 
 
 
 $$
-
 h = \frac{2\gamma \cos \theta}{\rho g r}
-
 $$
 
 
@@ -2223,9 +2177,7 @@ The capillary pressure $P_c$ is given by the Young-Laplace equation:
 
 
 $$
-
 P_c = \gamma (\frac{1}{r_1} + \frac{1}{r_2})
-
 $$
 
 
@@ -2419,9 +2371,7 @@ In this chapter, we will start by defining open systems and distinguishing them 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2483,9 +2433,7 @@ The conservation of mass, also known as the continuity equation, states that the
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{CV} \rho \, dV + \int_{CS} \rho \mathbf{v} \cdot \mathbf{n} \, dA = 0
-
 $$
 
 
@@ -2503,9 +2451,7 @@ The conservation of momentum states that the rate of change of momentum within t
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{CV} \rho \mathbf{v} \, dV + \int_{CS} \rho \mathbf{v} (\mathbf{v} \cdot \mathbf{n}) \, dA = \int_{CV} \mathbf{f} \, dV
-
 $$
 
 
@@ -2523,9 +2469,7 @@ The conservation of energy, also known as the first law of thermodynamics, state
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{CV} \rho e \, dV + \int_{CS} \rho e (\mathbf{v} \cdot \mathbf{n}) \, dA = \int_{CV} \mathbf{f} \cdot \mathbf{v} \, dV
-
 $$
 
 
@@ -2555,9 +2499,7 @@ One of the most straightforward applications of the control volume approach is t
 
 
 $$
-
 Q = \int_{CS} \rho \mathbf{v} \cdot \mathbf{n} \, dA
-
 $$
 
 
@@ -2575,9 +2517,7 @@ The conservation of momentum is particularly useful in analyzing forces and pres
 
 
 $$
-
 \mathbf{F} = \frac{\partial}{\partial t} \int_{CV} \rho \mathbf{v} \, dV + \int_{CS} \rho \mathbf{v} (\mathbf{v} \cdot \mathbf{n}) \, dA
-
 $$
 
 
@@ -2591,9 +2531,7 @@ The conservation of energy, or the first law of thermodynamics, allows us to ana
 
 
 $$
-
 \mathbf{W} = \frac{\partial}{\partial t} \int_{CV} \rho e \, dV + \int_{CS} \rho e (\mathbf{v} \cdot \mathbf{n}) \, dA
-
 $$
 
 
@@ -2623,9 +2561,7 @@ The continuity equation is a mathematical expression of the principle of conserv
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2643,9 +2579,7 @@ In the special case of incompressible flow (where the fluid density is constant)
 
 
 $$
-
 \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -2667,9 +2601,7 @@ The momentum equation, also known as the Navier-Stokes equation, is a mathematic
 
 
 $$
-
 \rho \frac{D \mathbf{v}}{D t} = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
-
 $$
 
 
@@ -2687,9 +2619,7 @@ In the special case of incompressible, inviscid flow (where the fluid density is
 
 
 $$
-
 \rho \frac{D \mathbf{v}}{D t} = -\nabla p + \rho \mathbf{g}
-
 $$
 
 
@@ -2919,9 +2849,7 @@ Applying Newton's second law, we have:
 
 
 $$
-
 p_1A - p_2A + mg = m(v_2 - v_1)
-
 $$
 
 
@@ -2931,9 +2859,7 @@ Dividing through by the volume of the fluid element $V = m/\rho$, where $\rho$ i
 
 
 $$
-
 p_1 - p_2 + \rho g h = \rho (v_2 - v_1)
-
 $$
 
 
@@ -2943,9 +2869,7 @@ Rearranging terms, we obtain the Bernoulli equation:
 
 
 $$
-
 p_1 + \frac{1}{2}\rho v_1^2 + \rho gh_1 = p_2 + \frac{1}{2}\rho v_2^2 + \rho gh_2
-
 $$
 
 
@@ -2983,9 +2907,7 @@ The pressure difference $\Delta p$ between the two sections is given by the Bern
 
 
 $$
-
 \Delta p = p_1 - p_2 = \frac{1}{2}\rho (v_2^2 - v_1^2)
-
 $$
 
 
@@ -2995,9 +2917,7 @@ Rearranging terms and using the continuity equation $A_1v_1 = A_2v_2$, we can so
 
 
 $$
-
 Q = A_1v_1 = A_1 \sqrt{\frac{2\Delta p}{\rho(1 - (A_2/A_1)^2)}}
-
 $$
 
 
@@ -3015,9 +2935,7 @@ Let $v_{top}$ and $v_{bottom}$ be the velocities of the air over the top and bot
 
 
 $$
-
 F_L = (p_{bottom} - p_{top})c
-
 $$
 
 
@@ -3027,9 +2945,7 @@ Using the Bernoulli equation, we can express the pressure difference in terms of
 
 
 $$
-
 F_L = \frac{1}{2}\rho c (v_{bottom}^2 - v_{top}^2)
-
 $$
 
 
@@ -3107,9 +3023,7 @@ To derive the momentum equation, we start with Newton's second law of motion, wh
 
 
 $$
-
 \frac{d(mv)}{dt} = F
-
 $$
 
 
@@ -3123,9 +3037,7 @@ For a control volume, the mass of the fluid is given by the product of the densi
 
 
 $$
-
 m = \rho V
-
 $$
 
 
@@ -3135,9 +3047,7 @@ Substituting this into the differential form of Newton's second law gives:
 
 
 $$
-
 \frac{d(\rho V v)}{dt} = F
-
 $$
 
 
@@ -3147,9 +3057,7 @@ This equation represents the rate of change of momentum within the control volum
 
 
 $$
-
 \int_{S} \rho v (v \cdot n) dS
-
 $$
 
 
@@ -3163,9 +3071,7 @@ The net force $F$ acting on the fluid within the control volume is the sum of th
 
 
 $$
-
 F = \int_{V} \rho b dV + \int_{S} \sigma \cdot n dS
-
 $$
 
 
@@ -3179,9 +3085,7 @@ Equating the rate of change of momentum within the control volume and the net ra
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho v dV + \int_{S} \rho v (v \cdot n) dS = \int_{V} \rho b dV + \int_{S} \sigma \cdot n dS
-
 $$
 
 
@@ -3207,9 +3111,7 @@ Consider a steady, incompressible flow over a flat plate. The control volume is 
 
 
 $$
-
 0 = - \int_{S} p n dS + \int_{S} \tau \cdot n dS + \int_{V} \rho g dV
-
 $$
 
 
@@ -3227,9 +3129,7 @@ Consider a steady, incompressible jet of fluid impinging normally on a flat plat
 
 
 $$
-
 0 = - \int_{S} p n dS + \int_{V} \rho g dV
-
 $$
 
 
@@ -3247,9 +3147,7 @@ Consider a steady, incompressible flow through a pipe bend. The control volume i
 
 
 $$
-
 0 = - \int_{S} p n dS + \int_{S} \tau \cdot n dS + \int_{V} \rho g dV
-
 $$
 
 
@@ -3323,9 +3221,7 @@ The differential form of mass conservation, also known as the continuity equatio
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -3387,9 +3283,7 @@ Mathematically, the substantial derivative of a scalar field $\phi$ is defined a
 
 
 $$
-
 \frac{D\phi}{Dt} = \frac{\partial \phi}{\partial t} + \mathbf{v} \cdot \nabla \phi
-
 $$
 
 
@@ -3407,9 +3301,7 @@ The substantial derivative can be derived from the chain rule of calculus. If we
 
 
 $$
-
 \frac{d\phi}{dt} = \frac{\partial \phi}{\partial t} + \frac{d\mathbf{x}}{dt} \cdot \nabla \phi
-
 $$
 
 
@@ -3455,9 +3347,7 @@ The Euler equations can be written in the following form:
 
 
 $$
-
 \frac{D \mathbf{v}}{Dt} = -\frac{1}{\rho} \nabla p
-
 $$
 
 
@@ -3475,9 +3365,7 @@ The Euler equations can be derived from the principle of conservation of momentu
 
 
 $$
-
 \frac{D (\rho \mathbf{v})}{Dt} = - \nabla p
-
 $$
 
 
@@ -3643,9 +3531,7 @@ The Navier-Stokes equation is written as:
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -3691,9 +3577,7 @@ According to Newton's second law, the sum of these forces is equal to the rate o
 
 
 $$
-
 -\frac{\partial p}{\partial x} \Delta x \Delta y \Delta z + \mu \nabla^2 v_x \Delta x \Delta y \Delta z + f_x \Delta V = \rho \Delta V \frac{\partial v_x}{\partial t}
-
 $$
 
 
@@ -3703,9 +3587,7 @@ Dividing through by $\Delta V$ and rearranging terms, we obtain the Navier-Stoke
 
 
 $$
-
 \rho \frac{\partial v_x}{\partial t} = -\frac{\partial p}{\partial x} + \mu \nabla^2 v_x + f_x
-
 $$
 
 
@@ -3715,9 +3597,7 @@ Similar equations can be derived for the y and z directions. In vector form, the
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
-
 $$
 
 
@@ -3803,9 +3683,7 @@ Under these assumptions, the Navier-Stokes equation simplifies to the Reynolds e
 
 
 $$
-
 \frac{\partial}{\partial x} \left( h^3 \frac{\partial p}{\partial x} \right) + \frac{\partial}{\partial y} \left( h^3 \frac{\partial p}{\partial y} \right) = 6 \mu U \frac{\partial h}{\partial x}
-
 $$
 
 
@@ -3841,9 +3719,7 @@ Under these assumptions, the Navier-Stokes equation simplifies to the Hagen-Pois
 
 
 $$
-
 \Delta p = \frac{8 \mu L Q}{\pi R^4}
-
 $$
 
 
@@ -3891,9 +3767,7 @@ The drag force $F_D$ exerted by the fluid on the surface is given by:
 
 
 $$
-
 F_D = \frac{1}{2} \rho U^2 C_D A
-
 $$
 
 
@@ -4067,9 +3941,7 @@ In the context of laminar flow in pipes, the Navier-Stokes equations simplify to
 
 
 $$
-
 \Delta P = \frac{8 \mu L Q}{\pi r^4}
-
 $$
 
 
@@ -4083,9 +3955,7 @@ The velocity profile of laminar flow in a pipe is parabolic, with the maximum ve
 
 
 $$
-
 v(r) = \frac{1}{4\mu} \left( \frac{\Delta P}{L} \right) (R^2 - r^2)
-
 $$
 
 
@@ -4111,17 +3981,13 @@ The Navier-Stokes equations can be simplified in the boundary layer by making so
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial x} + \nu \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right)
-
 $$
 
 
@@ -4135,9 +4001,7 @@ The solution to these equations gives the velocity profile in the boundary layer
 
 
 $$
-
 Re_x = \frac{u_{\infty} x}{\nu}
-
 $$
 
 
@@ -4163,9 +4027,7 @@ The Navier-Stokes equations for steady, incompressible, fully developed laminar 
 
 
 $$
-
 0 = -\frac{\partial p}{\partial x} + \mu \frac{\partial^2 u}{\partial y^2}
-
 $$
 
 
@@ -4179,9 +4041,7 @@ The solution to this equation gives the velocity profile in the channel:
 
 
 $$
-
 u(y) = \frac{1}{2\mu} \frac{\partial p}{\partial x} (h^2 - y^2)
-
 $$
 
 
@@ -4195,9 +4055,7 @@ The flow rate, $Q$, in the channel can be obtained by integrating the velocity p
 
 
 $$
-
 Q = \int_0^h u(y) dy = -\frac{1}{12\mu} \frac{\partial p}{\partial x} h^3
-
 $$
 
 
@@ -4223,9 +4081,7 @@ The Navier-Stokes equations for steady, incompressible, fully developed turbulen
 
 
 $$
-
 \rho \left( \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z} \right) = -\frac{\partial p}{\partial x} + \mu \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} \right)
-
 $$
 
 
@@ -4243,9 +4099,7 @@ One common approach to estimating the pressure drop in turbulent pipe flow is to
 
 
 $$
-
 \Delta p = f \frac{L}{D} \frac{1}{2} \rho u^2
-
 $$
 
 
@@ -4275,9 +4129,7 @@ Minor losses are typically quantified in terms of a loss coefficient, $K$, which
 
 
 $$
-
 h_{L} = K \frac{1}{2} \frac{u^2}{g}
-
 $$
 
 
@@ -4339,9 +4191,7 @@ For a steady, incompressible flow in a pipe with a circular cross-section, the N
 
 
 $$
-
 \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) = \frac{1}{\mu}\frac{\partial p}{\partial x}
-
 $$
 
 
@@ -4359,9 +4209,7 @@ The solution for laminar flow, also known as Hagen-Poiseuille flow, is given by:
 
 
 $$
-
 u(r) = \frac{1}{4\mu}\frac{\partial p}{\partial x}(R^2 - r^2)
-
 $$
 
 
@@ -4375,9 +4223,7 @@ For turbulent flow, the velocity profile is more complex and depends on the turb
 
 
 $$
-
 u(r) = \frac{u_*}{\kappa}\ln\left(\frac{r}{R}\right)
-
 $$
 
 
@@ -4411,9 +4257,7 @@ The Navier-Stokes equations can be used to analyze the flow of fluid in a viscou
 
 
 $$
-
 \frac{\partial u}{\partial t} + u \cdot \nabla u = -\frac{1}{\rho}\nabla p + \nu \nabla^2 u
-
 $$
 
 
@@ -4443,9 +4287,7 @@ Consider a pipe of constant diameter $D$ carrying a viscous fluid with density $
 
 
 $$
-
 Q = \frac{\pi D^4 \Delta p}{128 \mu L}
-
 $$
 
 
@@ -4463,9 +4305,7 @@ Now consider a pipe of the same diameter carrying the same fluid, but with a muc
 
 
 $$
-
 \Delta p = f \frac{L}{D} \frac{1}{2} \rho v^2
-
 $$
 
 
@@ -4727,17 +4567,13 @@ With these assumptions, the Navier-Stokes equations can be simplified to the fol
 
 
 $$
-
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-
 $$
 
 
 
 $$
-
 u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial x} + \nu \frac{\partial^2 u}{\partial y^2}
-
 $$
 
 
@@ -4771,9 +4607,7 @@ For example, in the case of Blasius boundary layer over a flat plate, the simila
 
 
 $$
-
 \eta = \frac{y}{\sqrt{\frac{x}{Re_x}}}
-
 $$
 
 
@@ -4783,9 +4617,7 @@ where $Re_x$ is the Reynolds number based on the distance from the leading edge 
 
 
 $$
-
 u(x, y) = U f'(\eta)
-
 $$
 
 
@@ -5181,9 +5013,7 @@ In the context of fluid dynamics, two of the most significant forces that act on
 
 
 $$
-
 F_D = \frac{1}{2} C_D \rho v^2 A
-
 $$
 
 
@@ -5201,9 +5031,7 @@ The drag coefficient, $C_D$, is a dimensionless quantity that depends on the sha
 
 
 $$
-
 F_L = \frac{1}{2} C_L \rho v^2 A
-
 $$
 
 
@@ -5353,9 +5181,7 @@ When a fluid flows over a sphere, the flow pattern depends on the Reynolds numbe
 
 
 $$
-
 Re = \frac{{\rho u D}}{{\mu}}
-
 $$
 
 
@@ -5369,9 +5195,7 @@ For low Reynolds numbers (typically $Re < 0.1$), the flow is characterized as St
 
 
 $$
-
 F_d = 6 \pi \mu r u
-
 $$
 
 
@@ -5385,9 +5209,7 @@ As the Reynolds number increases, the flow becomes unsteady and eventually trans
 
 
 $$
-
 F_d = \frac{1}{2} \rho u^2 C_d A
-
 $$
 
 
@@ -5417,9 +5239,7 @@ The flow pattern around a cylinder is also largely determined by the Reynolds nu
 
 
 $$
-
 Re = \frac{{\rho U D}}{{\mu}}
-
 $$
 
 
@@ -5433,9 +5253,7 @@ For low Reynolds numbers (typically $Re < 40$), the flow around the cylinder is 
 
 
 $$
-
 F_d = 4 \pi \mu U r
-
 $$
 
 
@@ -5449,9 +5267,7 @@ As the Reynolds number increases, the flow becomes unsteady and the separation p
 
 
 $$
-
 F_d = \frac{1}{2} \rho U^2 C_d A
-
 $$
 
 
@@ -5549,9 +5365,7 @@ The relationship between the AoA and the lift coefficient $C_L$ can be expressed
 
 
 $$
-
 C_L = C_{L0} + C_{L\alpha} \cdot \alpha
-
 $$
 
 
@@ -5573,9 +5387,7 @@ The lift coefficient is given by:
 
 
 $$
-
 C_L = \frac{2L}{\rho V^2 A}
-
 $$
 
 
@@ -5589,9 +5401,7 @@ The drag coefficient is given by:
 
 
 $$
-
 C_D = \frac{2D}{\rho V^2 A}
-
 $$
 
 
@@ -5793,9 +5603,7 @@ We will also explore the fundamental equations of compressible flow, including t
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{V}) = 0
-
 $$
 
 
@@ -5833,9 +5641,7 @@ The continuity equation for compressible flow, as mentioned in the previous chap
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{V}) = 0
-
 $$
 
 
@@ -5873,9 +5679,7 @@ The speed of sound in a fluid is a critical parameter in compressible flow. When
 
 
 $$
-
 a = \sqrt{\gamma \frac{P}{\rho}}
-
 $$
 
 
@@ -5893,9 +5697,7 @@ The Mach number is a dimensionless quantity used in fluid dynamics to compare th
 
 
 $$
-
 M = \frac{V}{a}
-
 $$
 
 
@@ -5997,7 +5799,6 @@ The Rankine-Hugoniot conditions can be written as:
 
 
 $$
-
 \begin{align*}
 
 \rho_2 u_2 &= \rho_1 u_1 \quad \text{(Conservation of mass)} \\
@@ -6007,7 +5808,6 @@ $$
 \frac{1}{2} \rho_2 u_2^3 + \frac{\gamma}{\gamma - 1} p_2 u_2 &= \frac{1}{2} \rho_1 u_1^3 + \frac{\gamma}{\gamma - 1} p_1 u_1 \quad \text{(Conservation of energy)}
 
 \end{align*}
-
 $$
 
 
@@ -6041,9 +5841,7 @@ The change in pressure, temperature, and density across a shock wave can be calc
 
 
 $$
-
 \frac{p_2}{p_1} = 1 + \frac{2\gamma}{\gamma+1} (M^2 - 1)
-
 $$
 
 
@@ -6053,9 +5851,7 @@ Similarly, the ratio of the density after the shock ($\rho_2$) to the density be
 
 
 $$
-
 \frac{\rho_2}{\rho_1} = \frac{(\gamma+1)M^2}{2+(\gamma-1)M^2}
-
 $$
 
 
@@ -6065,9 +5861,7 @@ And the ratio of the temperature after the shock ($T_2$) to the temperature befo
 
 
 $$
-
 \frac{T_2}{T_1} = \frac{[2\gamma M^2 - (\gamma-1)][(\gamma-1)M^2 + 2]}{(\gamma+1)^2 M^2}
-
 $$
 
 
@@ -6137,9 +5931,7 @@ The fundamental principle governing nozzle flow is the conservation of mass, whi
 
 
 $$
-
 \rho AV = \text{constant}
-
 $$
 
 
@@ -6153,9 +5945,7 @@ In addition to the conservation of mass, the behavior of the fluid in a nozzle i
 
 
 $$
-
 \frac{1}{2}\rho V^2 + \rho gh + p = \text{constant}
-
 $$
 
 
@@ -6205,9 +5995,7 @@ The condition for choking can be expressed mathematically as:
 
 
 $$
-
 M = \frac{V}{a} = 1
-
 $$
 
 
@@ -6665,9 +6453,7 @@ For example, if a flow rate $Q$ is calculated from a velocity $v$ and an area $A
 
 
 $$
-
 \Delta Q = \sqrt{(\frac{\partial Q}{\partial v} \Delta v)^2 + (\frac{\partial Q}{\partial A} \Delta A)^2}
-
 $$
 
 
@@ -6989,9 +6775,7 @@ Let's consider a simple one-dimensional function $f(x)$ and its derivative $f'(x
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
-
 $$
 
 
@@ -7005,9 +6789,7 @@ Similarly, we can use a backward difference formula:
 
 
 $$
-
 f'(x) \approx \frac{f(x) - f(x-h)}{h}
-
 $$
 
 
@@ -7017,9 +6799,7 @@ or a central difference formula:
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -7033,9 +6813,7 @@ In CFD, we often deal with partial differential equations (PDEs). The finite dif
 
 
 $$
-
 \frac{\partial f}{\partial x} \approx \frac{f(x+h, y) - f(x-h, y)}{2h}
-
 $$
 
 
@@ -7061,9 +6839,7 @@ Let's consider a simple one-dimensional scalar conservation law:
 
 
 $$
-
 \frac{\partial u}{\partial t} + \frac{\partial f(u)}{\partial x} = 0
-
 $$
 
 
@@ -7073,9 +6849,7 @@ where $u$ is the conserved variable and $f(u)$ is the flux function. We can inte
 
 
 $$
-
 \int_{t^n}^{t^{n+1}} \int_{x_{i-1/2}}^{x_{i+1/2}} \frac{\partial u}{\partial t} dx dt + \int_{t^n}^{t^{n+1}} \int_{x_{i-1/2}}^{x_{i+1/2}} \frac{\partial f(u)}{\partial x} dx dt = 0
-
 $$
 
 
@@ -7085,9 +6859,7 @@ By applying the Leibniz rule for differentiation under the integral sign, this e
 
 
 $$
-
 u_i^{n+1} - u_i^n + \frac{\Delta t}{\Delta x} (f_{i+1/2}^n - f_{i-1/2}^n) = 0
-
 $$
 
 
@@ -7125,9 +6897,7 @@ Let's consider a simple one-dimensional scalar conservation law:
 
 
 $$
-
 \frac{\partial u}{\partial t} + \frac{\partial f(u)}{\partial x} = 0
-
 $$
 
 
@@ -7137,9 +6907,7 @@ where $u$ is the conserved variable and $f(u)$ is the flux function. We can appr
 
 
 $$
-
 u(x) = \sum_{j=1}^{n} N_j(x) u_j
-
 $$
 
 
@@ -7149,9 +6917,7 @@ where $N_j(x)$ are the basis functions and $u_j$ are the nodal values. Substitut
 
 
 $$
-
 \int_{\Omega} \frac{\partial}{\partial t} \left( \sum_{j=1}^{n} N_j u_j \right) d\Omega + \int_{\Omega} \frac{\partial f(u)}{\partial x} d\Omega = 0
-
 $$
 
 
@@ -7161,9 +6927,7 @@ By applying the Galerkin method, which involves multiplying the equation by a te
 
 
 $$
-
 \sum_{j=1}^{n} \left( \int_{\Omega} N_i N_j d\Omega \right) \frac{du_j}{dt} + \sum_{j=1}^{n} \left( \int_{\Omega} N_i \frac{\partial f(u)}{\partial x} d\Omega \right) = 0
-
 $$
 
 
@@ -7477,9 +7241,7 @@ The operation of direct lift pumps can be described mathematically using the pri
 
 
 $$
-
 \Delta P = P_{out} - P_{in} = \rho g h
-
 $$
 
 
@@ -7501,9 +7263,7 @@ The operation of displacement pumps can also be described using the principles o
 
 
 $$
-
 \Delta P = P_{out} - P_{in} = \rho g h
-
 $$
 
 
@@ -7657,9 +7417,7 @@ The efficiency of a turbine, denoted by $\eta$, is defined as the ratio of the u
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -7701,9 +7459,7 @@ The efficiency of a turbine in these applications is of utmost importance, as it
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -7777,9 +7533,7 @@ The mathematical representation of the working principle of fans and blowers can
 
 
 $$
-
 P + \frac{1}{2} \rho v^2 + \rho gh = \text{constant}
-
 $$
 
 
@@ -8001,9 +7755,7 @@ Fourier's law can be expressed as:
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -8047,9 +7799,7 @@ The heat transfer rate `$q$` through the wall can be expressed as:
 
 
 $$
-
 q = \frac{\Delta Q}{\Delta t}
-
 $$
 
 
@@ -8063,9 +7813,7 @@ According to the first law of thermodynamics, the heat transfer rate is also equ
 
 
 $$
-
 q = k \frac{\Delta T}{\Delta x}
-
 $$
 
 
@@ -8079,9 +7827,7 @@ Rearranging the terms, we get Fourier's law of heat conduction:
 
 
 $$
-
 q = -k \nabla T
-
 $$
 
 
@@ -8215,9 +7961,7 @@ The rate of convective heat transfer is governed by Newton's law of cooling, whi
 
 
 $$
-
 q = hA(T_s - T_f)
-
 $$
 
 
@@ -8243,9 +7987,7 @@ The law states that the rate of heat loss of a body is directly proportional to 
 
 
 $$
-
 \frac{dQ}{dt} = -hA(T - T_{\text{env}})
-
 $$
 
 
@@ -8349,9 +8091,7 @@ The rate of heat transfer by radiation is given by the Stefan-Boltzmann law:
 
 
 $$
-
 q = \sigma \cdot e \cdot A \cdot (T_s^4 - T_sur^4)
-
 $$
 
 
@@ -8393,9 +8133,7 @@ The law states that the total energy radiated per unit surface area of a black b
 
 
 $$
-
 E_b = \sigma \cdot T^4
-
 $$
 
 
@@ -8419,9 +8157,7 @@ In practical applications, most objects are not perfect black bodies, and their 
 
 
 $$
-
 E = e \cdot \sigma \cdot T^4
-
 $$
 
 
@@ -9263,9 +8999,7 @@ Rheological models are mathematical representations that describe the flow behav
 
 
 $$
-
 \tau = K \dot{\gamma}^n
-
 $$
 
 
@@ -9279,9 +9013,7 @@ where $K$ is the consistency index, a measure of the fluid's resistance to flow,
 
 
 $$
-
 \tau = \tau_0 + \mu_p \dot{\gamma}
-
 $$
 
 
@@ -9295,9 +9027,7 @@ where $\tau_0$ is the yield stress, the minimum stress required to initiate flow
 
 
 $$
-
 \tau = \tau_0 + K \dot{\gamma}^n
-
 $$
 
 
@@ -9647,9 +9377,7 @@ At the microscale, fluid flow is typically laminar, meaning that it flows in par
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -9867,9 +9595,7 @@ In the context of microfluidics, the Reynolds number ($Re$) is a critical parame
 
 
 $$
-
 Re = \frac{\rho u L}{\mu}
-
 $$
 
 
@@ -9911,9 +9637,7 @@ Mathematically, the efficiency of mixing in a microchannel can be quantified usi
 
 
 $$
-
 M = 1 - \frac{1}{L}\int_0^L (C(x) - C_{avg})^2 dx
-
 $$
 
 
@@ -10145,7 +9869,6 @@ One of the key challenges in biofluid mechanics is modeling the behavior of biof
 $$\frac{\partial \mathbf{u}}{\partial t}+(\mathbf{u} \cdot \nabla) \mathbf{u}=-\frac{1}{\rho} \nabla p+\nu \nabla^{2} \mathbf{u}$$
 
 
-
 In the following sections, we will delve deeper into the principles and applications of biofluid mechanics, exploring topics such as the rheology of biofluids, the mechanics of blood flow, and the role of biofluid mechanics in the design and optimization of medical devices and procedures.
 
 
@@ -10169,9 +9892,7 @@ Conservation laws are fundamental principles that describe the behavior of fluid
 1. Conservation of Mass: Also known as the continuity equation, it states that the mass of a fluid element remains constant as it flows through a system. In mathematical terms, it can be expressed as:
 
 
-
 $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0$$
-
 
 
 where $\rho$ is the fluid density and $\mathbf{u}$ is the fluid velocity.
@@ -10293,13 +10014,11 @@ Another simplification is the assumption of a rigid arterial wall. In reality, t
 The pressure difference between the two ends of an artery drives the blood flow. This pressure difference is generated by the pumping action of the heart. The flow rate of blood in an artery can be calculated using the Hagen-Poiseuille equation:
 
 
-
 $$
 
 Q = \frac{\pi r^4 \Delta P}{8 \mu L}
 
 $$
-
 
 
 where $Q$ is the flow rate, $r$ is the radius of the artery, $\Delta P$ is the pressure difference, $\mu$ is the dynamic viscosity of the blood, and $L$ is the length of the artery.
@@ -10333,13 +10052,11 @@ The opening and closing of the heart valves are passive processes driven by the 
 The dynamics of the heart valves can be modeled using the principles of fluid dynamics. The flow across a valve can be described by the Bernoulli equation, which relates the pressure difference across the valve to the flow rate:
 
 
-
 $$
 
 \Delta P = \frac{1}{2} \rho v^2
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference, $\rho$ is the fluid density, and $v$ is the flow velocity. This equation assumes that the flow is steady and incompressible, and that the effects of viscosity and gravity are negligible.
@@ -10381,13 +10098,11 @@ In cardiovascular medicine, fluid dynamics can be used to diagnose various heart
 The Bernoulli equation, as discussed in the previous section, is often used in conjunction with Doppler echocardiography to estimate the pressure gradient across a stenotic valve:
 
 
-
 $$
 
 \Delta P = 4v^2
 
 $$
-
 
 
 where $v$ is the peak velocity of the blood flow through the valve. This equation is a simplification of the Bernoulli equation, assuming that the upstream velocity is negligible compared to the peak velocity.
@@ -10441,13 +10156,11 @@ The bronchi are the main passageway into the lungs, and understanding the fluid 
 Airflow in the bronchi can be either laminar or turbulent, depending on the Reynolds number. The Reynolds number ($Re$) is a dimensionless quantity that predicts the flow regime, and it is defined as:
 
 
-
 $$
 
 Re = \frac{\rho v d}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid (air in this case), $v$ is the velocity of the fluid, $d$ is the hydraulic diameter of the pipe (bronchus), and $\mu$ is the dynamic viscosity of the fluid. 
@@ -10469,13 +10182,11 @@ In the bronchi, the flow is typically laminar in the smaller bronchioles and bec
 The pressure-volume relationship in the bronchi and lungs is described by the law of Laplace, which states that the pressure difference across the wall of a spherical bubble (or alveolus in this case) is proportional to the surface tension and inversely proportional to the radius of the bubble:
 
 
-
 $$
 
 \Delta P = \frac{2T}{r}
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference, $T$ is the surface tension, and $r$ is the radius of the alveolus. This relationship is important in understanding the mechanics of breathing and the factors that can lead to lung collapse.
@@ -10489,13 +10200,11 @@ where $\Delta P$ is the pressure difference, $T$ is the surface tension, and $r$
 Airway resistance is another important aspect of respiratory fluid mechanics. It is determined by the diameter and length of the airways, as well as the viscosity of the air. The resistance to airflow in the bronchi can be calculated using Poiseuille's law:
 
 
-
 $$
 
 R = \frac{8 \mu l}{\pi r^4}
 
 $$
-
 
 
 where $R$ is the resistance, $\mu$ is the viscosity of the air, $l$ is the length of the airway, and $r$ is the radius of the airway. This equation shows that small changes in the radius of the airways can have a significant impact on the resistance to airflow, which is a key factor in diseases such as asthma and chronic obstructive pulmonary disease (COPD).
@@ -10521,13 +10230,11 @@ The alveoli are tiny sacs at the end of the bronchial tree where the actual gas 
 The primary mechanism of gas exchange in the alveoli is diffusion. According to Fick's law of diffusion, the rate of diffusion ($J$) of a gas across a membrane is proportional to the surface area ($A$) of the membrane, the difference in partial pressure of the gas on either side of the membrane ($\Delta P$), and inversely proportional to the thickness of the membrane ($d$):
 
 
-
 $$
 
 J = \frac{A \Delta P}{d}
 
 $$
-
 
 
 In the alveoli, the surface area is large, the membrane is thin, and there is a significant difference in partial pressure for oxygen and carbon dioxide between the air in the alveoli and the blood in the capillaries. This allows for efficient gas exchange.
@@ -10729,13 +10436,11 @@ We will also explore the practical applications of Environmental Fluid Mechanics
 As we navigate through this chapter, we will use mathematical equations to describe the behavior of fluids in the environment. For instance, we might use the Navier-Stokes equations, represented as:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
 
 $$
-
 
 
 where $\mathbf{u}$ is the fluid velocity, $t$ is time, $\rho$ is the fluid density, $p$ is the pressure, $\nu$ is the kinematic viscosity, and $\mathbf{g}$ is the gravitational acceleration.
@@ -10769,13 +10474,11 @@ The field of EFM is concerned with the movement and distribution of physical, ch
 The mathematical models used in EFM are based on the fundamental laws of fluid dynamics, such as the Navier-Stokes equations, which describe the motion of fluid substances. These equations, represented as:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{g}
 
 $$
-
 
 
 where $\mathbf{u}$ is the fluid velocity, $t$ is time, $\rho$ is the fluid density, $p$ is the pressure, $\nu$ is the kinematic viscosity, and $\mathbf{g}$ is the gravitational acceleration vector, are used to predict the behavior of fluids in the environment.
@@ -10805,13 +10508,11 @@ The conservation laws of mass, momentum, and energy are the fundamental principl
 - **Conservation of Mass**: The principle of conservation of mass, also known as the continuity equation, states that the mass of a fluid system remains constant, regardless of the processes occurring within it. Mathematically, this is represented as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
 
 
 where $\rho$ is the fluid density, $t$ is time, and $\mathbf{u}$ is the fluid velocity.
@@ -10821,13 +10522,11 @@ where $\rho$ is the fluid density, $t$ is time, and $\mathbf{u}$ is the fluid ve
 - **Conservation of Momentum**: The principle of conservation of momentum, embodied in the Navier-Stokes equations, states that the rate of change of momentum of a fluid particle is equal to the sum of the forces acting on it. This is represented as:
 
 
-
 $$
 
 \frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \mathbf{u}) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}
 
 $$
-
 
 
 where $p$ is the pressure, $\mu$ is the dynamic viscosity, and $\mathbf{g}$ is the gravitational acceleration vector.
@@ -10837,13 +10536,11 @@ where $p$ is the pressure, $\mu$ is the dynamic viscosity, and $\mathbf{g}$ is t
 - **Conservation of Energy**: The principle of conservation of energy, also known as the first law of thermodynamics, states that energy cannot be created or destroyed, only transferred or converted from one form to another. In fluid dynamics, this is represented as:
 
 
-
 $$
 
 \frac{\partial (\rho e)}{\partial t} + \nabla \cdot [(\rho e + p)\mathbf{u}] = \nabla \cdot (k \nabla T) + \mu \phi
 
 $$
-
 
 
 where $e$ is the internal energy per unit mass, $k$ is the thermal conductivity, $T$ is the temperature, and $\phi$ is the dissipation function.
@@ -11121,13 +10818,11 @@ The physics of ocean waves involves the interplay of several factors, including 
 The wave's speed, or celerity ($C$), is determined by its wavelength ($L$) and wave period ($T$), and can be calculated using the formula:
 
 
-
 $$
 
 C = \frac{L}{T}
 
 $$
-
 
 
 The wave's height is influenced by the wind speed, the duration of the wind, and the fetch. The greater these factors, the larger the wave height.
@@ -11393,13 +11088,11 @@ The study of FSI is not only limited to the interaction between a single fluid a
 In mathematical terms, FSI can be described by a set of coupled partial differential equations (PDEs). The fluid dynamics is typically governed by the Navier-Stokes equations:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}
 
 $$
-
 
 
 where $\mathbf{u}$ is the fluid velocity, $t$ is time, $\rho$ is the fluid density, $p$ is the pressure, $\nu$ is the kinematic viscosity, and $\mathbf{f}$ is the body force per unit volume.
@@ -11409,13 +11102,11 @@ where $\mathbf{u}$ is the fluid velocity, $t$ is time, $\rho$ is the fluid densi
 The structural dynamics, on the other hand, is typically governed by the equations of motion:
 
 
-
 $$
 
 \rho \frac{\partial^2 \mathbf{u}}{\partial t^2} = \nabla \cdot \mathbf{\sigma} + \mathbf{f}
 
 $$
-
 
 
 where $\mathbf{\sigma}$ is the stress tensor.
@@ -11443,7 +11134,6 @@ The principles of Fluid-Structure Interaction (FSI) are based on the fundamental
 
 
 The conservation of mass, also known as the continuity equation, states that the mass of a system remains constant unless there is a flow of mass into or out of the system. In the context of FSI, this means that the mass of the fluid and the structure remains constant unless there is a mass transfer between them. This principle is represented mathematically by the continuity equation:
-
 
 
 $$

@@ -1177,7 +1177,6 @@ We hope that this book will serve as a valuable resource for anyone interested i
 Simplify the following Boolean expression using Boolean algebra: $$(A + B)(A + \overline{B})$$
 
 
-
 #### Exercise 2
 
 Draw the truth table for the following logic gate: $$(A \oplus B)$$
@@ -1199,7 +1198,6 @@ Design a circuit using logic gates to implement the following Boolean expression
 #### Exercise 5
 
 Solve the following system of equations using Gaussian elimination:
-
 $$
 
 \begin{cases}
@@ -1211,7 +1209,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 
@@ -2309,7 +2306,6 @@ In conclusion, CMOS technology and gate design are essential topics for anyone i
 Given the following CMOS circuit, determine the output for all possible input combinations:
 
 
-
 $$
 
 \begin{array}{|c|c|c|}
@@ -2335,11 +2331,9 @@ A & B & Y \\
 $$
 
 
-
 #### Exercise 2
 
 Design a CMOS circuit that implements the following Boolean expression:
-
 
 
 $$
@@ -2347,7 +2341,6 @@ $$
 F = (A + B) \cdot (C + D)
 
 $$
-
 
 
 #### Exercise 3
@@ -7523,7 +7516,6 @@ Many operating systems provide efficient semaphore primitives that unblock a wai
 The counting semaphore concept can be extended with the ability to claim or return more than one unit from the semaphore. This technique is commonly implemented in Unix systems. The modified P and V operations for this type of semaphore are as follows:
 
 
-
 $$
 
 [P] S = S - 1 \\
@@ -7531,7 +7523,6 @@ $$
 [V] S = S + 1
 
 $$
-
 
 
 However, for the remainder of this section, we will focus on semaphores with unary P and V operations, unless otherwise specified.
@@ -12765,7 +12756,6 @@ From a macroscopic point of view, a generalized compact RLC model for CNT interc
 
 
 The shell resistance of an individual nanotube can be obtained by computing the resistance of each shell as
-
 
 
 $$

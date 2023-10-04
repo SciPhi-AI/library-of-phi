@@ -811,9 +811,7 @@ In mathematical terms, the Poynting vector is given by the equation:
 
 
 $$
-
 \mathbf{S} = \frac{1}{\mu_0} \mathbf{E} \times \mathbf{B}
-
 $$
 
 
@@ -839,9 +837,7 @@ In mathematical terms, the momentum density is given by the equation:
 
 
 $$
-
 \mathbf{p} = \frac{1}{c^2} \mathbf{E} \times \mathbf{B}
-
 $$
 
 
@@ -993,7 +989,6 @@ $$\frac{\Delta f^{*}}{f_f}=\frac i{\pi Z_q}\,\frac \sigma {\dot{u}}=\frac
 i{\pi Z_q}Z_{\mathrm{ac}}=\frac i{\pi Z_q}\sqrt{\rho i\omega \eta }$$
 
 
-
 Here, $\eta'$ and $\eta''$ are the real and imaginary parts of the viscosity, respectively. $Z_{ac} = \rho c = (\rho G)^{1/2}$ is the acoustic impedance of the medium, where $\rho$ is the density, $c$ is the speed of sound, and $G = i\omega\eta$ is the shear modulus.
 
 
@@ -1001,13 +996,9 @@ Here, $\eta'$ and $\eta''$ are the real and imaginary parts of the viscosity, re
 For Newtonian liquids, where $\eta'$ is constant and $\eta'' = 0$, the shifts in frequency and bandwidth are equal and opposite and scale as the square root of the overtone order, $n^{1/2}$. However, for viscoelastic liquids, where $\eta'$ is a function of frequency and $\eta'' \neq 0$, we can obtain the complex viscosity using the following equations:
 
 
-
 $$\eta'=-\frac{\pi Z_q^2}{\rho_{Liq}\,f}\,\frac{\Delta f\Delta (w/2)}{f_f^2}$$
 
-
-
 $$\eta''=\frac 12\frac{\pi Z_q^2}{\rho_{Liq}\,f}\,\frac{((\Delta (w/2))^2-\Delta f^2)}{f_f^2}$$
-
 
 
 It is important to note that the quartz crystal microbalance (QCM) only probes the region close to the crystal surface. The shear wave evanescently decays into the liquid, with a penetration depth of about 250 nm at 5 MHz in water. This means that surface roughness, nano-bubbles at the surface, slip, and compressional waves can interfere with the measurement of viscosity.
@@ -1051,11 +1042,9 @@ In many experimental configurations, there are explicit expressions relating the
 One of the key assumptions is that of a semi-infinite viscoelastic medium. This means that the medium is infinite in one direction, but has a finite thickness in the other direction. In this case, we can use the following equations to describe the frequency-dependent response:
 
 
-
 $$\frac{\Delta f^{*}}{f_f}=\frac i{\pi Z_q}\,\frac \sigma {\dot{u}}=\frac
 
 i{\pi Z_q}Z_{\mathrm{ac}}=\frac i{\pi Z_q}\sqrt{\rho i\omega \eta }$$
-
 
 
 Here, $\eta'$ and $\eta''$ are the real and imaginary parts of the viscosity, respectively. $Z_{ac} = \rho c = (\rho G)^{1/2}$ is the acoustic impedance of the medium, where $\rho$ is the density, $c$ is the speed of sound, and $G = i\omega\eta$ is the shear modulus.
@@ -1065,10 +1054,7 @@ Here, $\eta'$ and $\eta''$ are the real and imaginary parts of the viscosity, re
 For Newtonian liquids, where $\eta'$ is constant and $\eta'' = 0$, the shifts in frequency and bandwidth are equal and opposite and scale as the square root of the overtone order, $n^{1/2}$. However, for viscoelastic liquids, where $\eta'$ is a function of frequency and $\eta'' \neq 0$, we can obtain the complex viscosity using the following equations:
 
 
-
 $$\eta'=-\frac{\pi Z_q^2}{\rho_{Liq}\,f}\,\frac{\Delta f\Delta (w/2)}{f_f^2}$$
-
-
 
 $$\eta''=\frac 12\frac{\pi Z_q^2}{\rho_{Liq}\,f}\,\frac{((\Delta (w/2))^2-\Delta f^2)}{f_f^2}$$
 

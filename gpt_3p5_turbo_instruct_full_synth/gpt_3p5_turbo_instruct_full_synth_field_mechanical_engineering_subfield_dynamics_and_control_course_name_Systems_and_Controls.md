@@ -1807,9 +1807,7 @@ An ordinary differential equation is a mathematical equation that relates a func
 
 
 $$
-
 \frac{d}{dt}y(t) = f(t, y(t))
-
 $$
 
 
@@ -1947,9 +1945,7 @@ The general form of an ODE is given by:
 
 
 $$
-
 \frac{dy}{dt} = f(t,y)
-
 $$
 
 
@@ -2351,9 +2347,7 @@ To better understand the concept of a transfer function, let's consider an examp
 
 
 $$
-
 H(s) = \frac{1}{ms^2 + bs + k}
-
 $$
 
 
@@ -2625,9 +2619,7 @@ First order systems are characterized by a single ODE, which can be written in t
 
 
 $$
-
 \frac{dy}{dt} = f(y,u)
-
 $$
 
 
@@ -2649,9 +2641,7 @@ Second order systems are characterized by two ODEs, which can be written in the 
 
 
 $$
-
 \frac{d^2y}{dt^2} + 2\zeta\omega_n\frac{dy}{dt} + \omega_n^2y = K_pu
-
 $$
 
 
@@ -2719,9 +2709,7 @@ A first order ODE is an equation that relates the derivative of a function to th
 
 
 $$
-
 \frac{dy}{dt} = f(y,t)
-
 $$
 
 
@@ -2743,9 +2731,7 @@ A second order ODE is an equation that relates the second derivative of a functi
 
 
 $$
-
 \frac{d^2y}{dt^2} = f(y,\frac{dy}{dt},t)
-
 $$
 
 
@@ -2763,9 +2749,7 @@ In some cases, systems may exhibit behavior that cannot be described by a first 
 
 
 $$
-
 \frac{d^ny}{dt^n} = f(y,\frac{dy}{dt},...,\frac{d^{n-1}y}{dt^{n-1}},t)
-
 $$
 
 
@@ -2817,9 +2801,7 @@ To describe the behavior of a translation system, we can use a transfer function
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -2833,9 +2815,7 @@ In addition to transfer functions, we can also use differential equations to des
 
 
 $$
-
 m\ddot{y}(t) + c\dot{y}(t) + ky(t) = F(t)
-
 $$
 
 
@@ -2895,9 +2875,7 @@ To describe the behavior of a translation system, we can use a transfer function
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -2923,9 +2901,7 @@ Another important component of a rotational system is the torque, which is the f
 
 
 $$
-
 T = I\alpha
-
 $$
 
 
@@ -2943,9 +2919,7 @@ To describe the behavior of a rotational system, we can use a transfer function,
 
 
 $$
-
 G(s) = \frac{1}{Is^2 + cs + mgd}
-
 $$
 
 
@@ -2997,9 +2971,7 @@ To describe the behavior of a translation system, we can use a transfer function
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -3025,9 +2997,7 @@ Another important component of a rotational system is the torque, which is a for
 
 
 $$
-
 T = I\alpha
-
 $$
 
 
@@ -3045,9 +3015,7 @@ To describe the behavior of a rotational system, we can use a transfer function,
 
 
 $$
-
 G(s) = \frac{1}{Is^2 + bs + k}
-
 $$
 
 
@@ -3095,9 +3063,7 @@ For a translation system, the step response can be described using a transfer fu
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -3141,9 +3107,7 @@ The impulse response of a system can also be described using a transfer function
 
 
 $$
-
 G(s) = \frac{1}{ms^2 + cs + k}
-
 $$
 
 
@@ -3179,9 +3143,7 @@ The frequency response can be described using a transfer function, similar to th
 
 
 $$
-
 G(j\omega) = \frac{1}{m(j\omega)^2 + c(j\omega) + k}
-
 $$
 
 
@@ -3229,9 +3191,7 @@ Similar to the step and impulse responses, the Bode plot can be described using 
 
 
 $$
-
 G(j\omega) = \frac{1}{m(j\omega)^2 + c(j\omega) + k}
-
 $$
 
 
@@ -3453,9 +3413,7 @@ The Laplace Transform is defined as follows:
 
 
 $$
-
 F(s) = \mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t) dt
-
 $$
 
 
@@ -3511,9 +3469,7 @@ The Laplace Transform is defined as follows:
 
 
 $$
-
 F(s) = \mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t) dt
-
 $$
 
 
@@ -3551,9 +3507,7 @@ In this subsection, we will focus on using the Laplace Transform to solve first 
 
 
 $$
-
 \frac{dy}{dt} = f(t,y)
-
 $$
 
 
@@ -3563,9 +3517,7 @@ where $y$ is the function and $f(t,y)$ is some function of $t$ and $y$. To solve
 
 
 $$
-
 \mathcal{L}\left\{\frac{dy}{dt}\right\} = \mathcal{L}\{f(t,y)\}
-
 $$
 
 
@@ -3575,9 +3527,7 @@ Using the differentiation property of the Laplace Transform, we can rewrite the 
 
 
 $$
-
 sY(s) - y(0) = \mathcal{L}\{f(t,y)\}
-
 $$
 
 
@@ -3587,9 +3537,7 @@ where $Y(s)$ is the Laplace Transform of $y(t)$. We can then rearrange the equat
 
 
 $$
-
 Y(s) = \frac{\mathcal{L}\{f(t,y)\} + y(0)}{s}
-
 $$
 
 
@@ -3599,9 +3547,7 @@ Finally, we can use the inverse Laplace Transform to find the solution $y(t)$:
 
 
 $$
-
 y(t) = \mathcal{L}^{-1}\left\{\frac{\mathcal{L}\{f(t,y)\} + y(0)}{s}\right\}
-
 $$
 
 
@@ -3633,9 +3579,7 @@ The Laplace Transform is defined as follows:
 
 
 $$
-
 F(s) = \mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st} f(t) dt
-
 $$
 
 
@@ -3673,9 +3617,7 @@ In this subsection, we will explore how to use the Laplace Transform to solve fi
 
 
 $$
-
 \frac{dy}{dt} + P(t)y = Q(t)
-
 $$
 
 
@@ -3685,9 +3627,7 @@ To solve this ODE using the Laplace Transform, we first take the Laplace Transfo
 
 
 $$
-
 sY(s) - y(0) + P(s)Y(s) = Q(s)
-
 $$
 
 
@@ -3705,9 +3645,7 @@ In this subsection, we will extend our knowledge of using the Laplace Transform 
 
 
 $$
-
 \frac{d^2y}{dt^2} + P(t)\frac{dy}{dt} + Q(t)y = R(t)
-
 $$
 
 
@@ -3717,9 +3655,7 @@ To solve this ODE using the Laplace Transform, we first take the Laplace Transfo
 
 
 $$
-
 s^2Y(s) - sy(0) - y'(0) + P(s)sY(s) - P(s)y(0) + Q(s)Y(s) = R(s)
-
 $$
 
 
@@ -3755,9 +3691,7 @@ The Inverse Laplace Transform is defined as follows:
 
 
 $$
-
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i} \int_{\gamma-i\infty}^{\gamma+i\infty} e^{st} F(s) ds
-
 $$
 
 
@@ -3799,9 +3733,7 @@ Let's consider the following second order ODE:
 
 
 $$
-
 y''(t) + ay'(t) + by(t) = f(t)
-
 $$
 
 
@@ -3811,9 +3743,7 @@ Taking the Laplace Transform of both sides, we get:
 
 
 $$
-
 s^2Y(s) + asY(s) + bY(s) = F(s)
-
 $$
 
 
@@ -3823,9 +3753,7 @@ Solving for $Y(s)$, we get:
 
 
 $$
-
 Y(s) = \frac{F(s)}{s^2 + as + b}
-
 $$
 
 
@@ -3835,9 +3763,7 @@ Using the partial fraction decomposition method, we can rewrite this as:
 
 
 $$
-
 Y(s) = \frac{A}{s-r_1} + \frac{B}{s-r_2}
-
 $$
 
 
@@ -3847,9 +3773,7 @@ where $r_1$ and $r_2$ are the roots of the characteristic equation $s^2 + as + b
 
 
 $$
-
 y(t) = A e^{r_1t} + B e^{r_2t}
-
 $$
 
 
@@ -3885,9 +3809,7 @@ The Inverse Laplace Transform is defined as follows:
 
 
 $$
-
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i} \int_{\gamma-i\infty}^{\gamma+i\infty} e^{st} F(s) ds
-
 $$
 
 
@@ -3959,9 +3881,7 @@ The Inverse Laplace Transform is defined as follows:
 
 
 $$
-
 f(t) = \mathcal{L}^{-1}\{F(s)\} = \frac{1}{2\pi i} \int_{\gamma-i\infty}^{\gamma+i\infty} e^{st} F(s) ds
-
 $$
 
 
@@ -4033,9 +3953,7 @@ A transfer function is a mathematical representation of the relationship between
 
 
 $$
-
 H(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4095,9 +4013,7 @@ A transfer function is a mathematical representation of the relationship between
 
 
 $$
-
 H(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4177,9 +4093,7 @@ The transfer function of a feedback control system is known as the closed-loop t
 
 
 $$
-
 H_{CL}(s) = \frac{Y(s)}{R(s)}
-
 $$
 
 
@@ -4201,9 +4115,7 @@ The transfer function of a lead compensator is given by:
 
 
 $$
-
 H_{lead}(s) = K\frac{s+z}{s+p}
-
 $$
 
 
@@ -4217,9 +4129,7 @@ Similarly, the transfer function of a lag compensator is given by:
 
 
 $$
-
 H_{lag}(s) = K\frac{s+z}{s+p}
-
 $$
 
 
@@ -4267,9 +4177,7 @@ The step response of a system can be represented using a transfer function known
 
 
 $$
-
 H_{step}(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4317,9 +4225,7 @@ The step response of a system can be represented using a transfer function known
 
 
 $$
-
 H_{step}(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4349,9 +4255,7 @@ The impulse response of a system can be represented using a transfer function kn
 
 
 $$
-
 H_{impulse}(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4399,9 +4303,7 @@ The step response of a system can be represented using a transfer function known
 
 
 $$
-
 H_{step}(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -4431,9 +4333,7 @@ The impulse response of a system can be represented using a transfer function kn
 
 
 $$
-
 H_{impulse}(s) = \frac{Y(s)}{U(s)}
-
 $$
 
 
@@ -5195,9 +5095,7 @@ To understand the concept of gain and phase margins, let us consider a simple ex
 
 
 $$
-
 H(s) = \frac{1}{s^2 + 2s + 1}
-
 $$
 
 
@@ -5397,17 +5295,13 @@ The dynamics of a DC motor can be described by the following equations:
 
 
 $$
-
 V = I R + L \frac{dI}{dt} + E
-
 $$
 
 
 
 $$
-
 T = K_t I
-
 $$
 
 
@@ -5459,17 +5353,13 @@ The dynamics of a DC motor can be described by the following equations:
 
 
 $$
-
 V = I R + L \frac{dI}{dt} + E
-
 $$
 
 
 
 $$
-
 T = K_t I
-
 $$
 
 
@@ -5499,9 +5389,7 @@ The back EMF, denoted by $E$, is the voltage induced in the rotor due to its rot
 
 
 $$
-
 E = K_e \omega
-
 $$
 
 
@@ -5515,9 +5403,7 @@ The torque of the motor, denoted by $T$, is directly proportional to the current
 
 
 $$
-
 T = K_t I
-
 $$
 
 
@@ -5565,17 +5451,13 @@ The dynamics of a DC motor can be described by the following equations:
 
 
 $$
-
 V = I R + L \frac{dI}{dt} + E
-
 $$
 
 
 
 $$
-
 T = K_t I
-
 $$
 
 
@@ -5651,9 +5533,7 @@ The behavior of a resistor can be described by Ohm's law, which states that the 
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -5701,9 +5581,7 @@ The behavior of a resistor can be described by Ohm's law, which states that the 
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -5737,9 +5615,7 @@ The behavior of an inductor can be described by Faraday's law of induction, whic
 
 
 $$
-
 V = L\frac{di}{dt}
-
 $$
 
 
@@ -5787,9 +5663,7 @@ The behavior of a resistor can be described by Ohm's law, which states that the 
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -5823,9 +5697,7 @@ The behavior of an inductor can be described by Faraday's law of induction, whic
 
 
 $$
-
 V = L\frac{di}{dt}
-
 $$
 
 
@@ -5859,9 +5731,7 @@ The behavior of a capacitor can be described by the capacitance, which is the ab
 
 
 $$
-
 C = \frac{\epsilon A}{d}
-
 $$
 
 
@@ -5987,9 +5857,7 @@ The input signal is applied to the inverting input (-) of the op-amp, while the 
 
 
 $$
-
 V_{out} = -\frac{R_f}{R_i}V_{in}
-
 $$
 
 
@@ -6015,9 +5883,7 @@ In this circuit, the input signal is applied to the non-inverting input (+) of t
 
 
 $$
-
 V_{out} = \left(1 + \frac{R_f}{R_i}\right)V_{in}
-
 $$
 
 
@@ -6043,9 +5909,7 @@ The output voltage is given by the equation:
 
 
 $$
-
 V_{out} = -\left(\frac{R_f}{R_1}V_1 + \frac{R_f}{R_2}V_2 + \frac{R_f}{R_3}V_3 + ... + \frac{R_f}{R_n}V_n\right)
-
 $$
 
 
@@ -6071,9 +5935,7 @@ The output voltage is given by the equation:
 
 
 $$
-
 V_{out} = -\frac{1}{RC}\int V_{in}dt
-
 $$
 
 
@@ -6295,9 +6157,7 @@ Using Kirchhoff's laws, we can derive the transfer function of this circuit as:
 
 
 $$
-
 H(s) = -\frac{R_f}{R_i}
-
 $$
 
 
@@ -6557,9 +6417,7 @@ The proportional gain, $K_p$, determines the strength of the control action. A h
 
 
 $$
-
 u(t) = K_p e(t)
-
 $$
 
 
@@ -6617,9 +6475,7 @@ The effect of gain on stability can be understood by looking at the closed-loop 
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -6681,9 +6537,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -6741,9 +6595,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -6773,9 +6625,7 @@ To model a flywheel, we can use the concept of rotational inertia, which is the 
 
 
 $$
-
 I = \int r^2 dm
-
 $$
 
 
@@ -6785,9 +6635,7 @@ where $r$ is the distance from the axis of rotation and $dm$ is a small mass ele
 
 
 $$
-
 I = \frac{1}{2}mr^2
-
 $$
 
 
@@ -6841,9 +6689,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -6921,9 +6767,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -6985,9 +6829,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7017,9 +6859,7 @@ Recall that the poles of a transfer function are the values of s that make the d
 
 
 $$
-
 1 + K_pG(s) = 0
-
 $$
 
 
@@ -7029,9 +6869,7 @@ Solving for s, we get:
 
 
 $$
-
 s = -\frac{1}{K_pG(s)}
-
 $$
 
 
@@ -7085,9 +6923,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7165,9 +7001,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7193,9 +7027,7 @@ One approach to system optimization is through the use of a performance index, w
 
 
 $$
-
 ITAE = \int_0^\infty t|e(t)|dt
-
 $$
 
 
@@ -7253,9 +7085,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7333,9 +7163,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7413,9 +7241,7 @@ The effect of gain on performance can be understood by looking at the closed-loo
 
 
 $$
-
 T(s) = \frac{K_pG(s)}{1 + K_pG(s)}
-
 $$
 
 
@@ -7613,9 +7439,7 @@ In integral control, the control signal is not only dependent on the current err
 
 
 $$
-
 u(t) = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -7667,9 +7491,7 @@ In integral control, the control signal is not only dependent on the current err
 
 
 $$
-
 u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -7733,9 +7555,7 @@ In integral control, the control signal is not only dependent on the current err
 
 
 $$
-
 u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -7927,9 +7747,7 @@ Once these values are determined, the integral gain, Ki, can be calculated using
 
 
 $$
-
 K_i = 0.45 \times \frac{K_u}{T_u}
-
 $$
 
 
@@ -7939,9 +7757,7 @@ The proportional gain, Kp, can then be calculated using the following equations:
 
 
 $$
-
 K_p = 0.6 \times K_u
-
 $$
 
 
@@ -8447,9 +8263,7 @@ Derivative control is based on the rate of change of the error between the setpo
 
 
 $$
-
 D = K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -8493,9 +8307,7 @@ Derivative control is based on the rate of change of the error between the setpo
 
 
 $$
-
 D = K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -8547,9 +8359,7 @@ Derivative control is based on the rate of change of the error between the setpo
 
 
 $$
-
 D = K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -8621,9 +8431,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -8637,9 +8445,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -8709,9 +8515,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -8725,9 +8529,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -8825,9 +8627,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -8841,9 +8641,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -8869,9 +8667,7 @@ One approach to designing a PID controller is the Ziegler-Nichols method. This m
 
 
 $$
-
 K_p = 0.6K_u, \quad K_i = \frac{2K_p}{P_u}, \quad K_d = \frac{K_p P_u}{8}
-
 $$
 
 
@@ -8881,9 +8677,7 @@ Another approach is the Cohen-Coon method, which involves first determining the 
 
 
 $$
-
 K_p = \frac{T_p}{K_p}, \quad K_i = \frac{1.2}{T_p}, \quad K_d = \frac{3T_p}{40}
-
 $$
 
 
@@ -8937,9 +8731,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -8953,9 +8745,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -8981,9 +8771,7 @@ One approach to designing a PID controller is to use the Ziegler-Nichols method.
 
 
 $$
-
 K_i = 0.45K_{cr} \quad \text{and} \quad K_d = 0.12K_{cr}
-
 $$
 
 
@@ -9105,9 +8893,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -9121,9 +8907,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -9289,9 +9073,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -9305,9 +9087,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -9449,9 +9229,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -9465,9 +9243,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -9493,9 +9269,7 @@ One method for designing a PID controller is the Ziegler-Nichols method. This me
 
 
 $$
-
 K_p = 0.6K_u, \quad K_i = \frac{2K_p}{P_u}, \quad K_d = \frac{K_p P_u}{8}
-
 $$
 
 
@@ -9505,9 +9279,7 @@ Another method for designing a PID controller is the Cohen-Coon method. This met
 
 
 $$
-
 K_p = \frac{T_p}{K_p}, \quad K_i = \frac{1.2}{T_p}, \quad K_d = \frac{3T_p}{40}
-
 $$
 
 
@@ -9601,9 +9373,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -9617,9 +9387,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -9757,9 +9525,7 @@ The proportional term, denoted by $P$, is directly proportional to the error sig
 
 
 $$
-
 P = K_p e(t)
-
 $$
 
 
@@ -9773,9 +9539,7 @@ The integral term, denoted by $I$, takes into account the accumulated error over
 
 
 $$
-
 I = K_i \int_{0}^{t} e(\tau) d\tau
-
 $$
 
 
@@ -10001,17 +9765,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10025,17 +9785,13 @@ Using these forces, we can derive the mathematical model of the inverted pendulu
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -10089,17 +9845,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10113,17 +9865,13 @@ Using these forces, we can derive the mathematical model of the inverted pendulu
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -10185,17 +9933,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10281,17 +10025,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10313,17 +10053,13 @@ To begin the state-space modeling process, we first need to define the state equ
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -10373,17 +10109,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10413,17 +10145,13 @@ Using these variables, we can construct the state-space equations for the invert
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -10481,17 +10209,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10521,17 +10245,13 @@ Using these variables, we can write the state-space equations for the inverted p
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -10601,17 +10321,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10685,17 +10401,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10773,17 +10485,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10809,17 +10517,13 @@ Before designing a control system, it is essential to have a mathematical model 
 
 
 $$
-
 \ddot{x} = \frac{F_c + m\dot{\theta}^2\sin{\theta} - mg\cos{\theta}\sin{\theta}}{M + m\sin^2{\theta}}
-
 $$
 
 
 
 $$
-
 \ddot{\theta} = \frac{-F_c\cos{\theta} - (M + m)\ddot{x}\sin{\theta} - mg\sin{\theta}}{l(M + m\sin^2{\theta})}
-
 $$
 
 
@@ -10889,17 +10593,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -10977,17 +10677,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -11065,17 +10761,13 @@ To understand the dynamics of the inverted pendulum, we must first consider the 
 
 
 $$
-
 F_g = mg \sin{\theta}
-
 $$
 
 
 
 $$
-
 F_c = ma
-
 $$
 
 
@@ -11143,15 +10835,11 @@ In conclusion, the inverted pendulum is a challenging yet fascinating system tha
 Consider the inverted pendulum system with the following state-space representation:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the control input, and $y$ is the output. Find the transfer function of the system and determine its poles and zeros.
@@ -11205,15 +10893,11 @@ In conclusion, the inverted pendulum is a challenging yet fascinating system tha
 Consider the inverted pendulum system with the following state-space representation:
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 $$
-
 y = Cx
-
 $$
 
 where $x$ is the state vector, $u$ is the control input, and $y$ is the output. Find the transfer function of the system and determine its poles and zeros.
@@ -12239,7 +11923,6 @@ The error is given by $e(t) = r(t) - y(t)$. Since we want the steady-state error
 
 
 $$
-
 \begin{align*}
 
 G(s) &= \frac{1}{s^2 + s} \\
@@ -12249,7 +11932,6 @@ G(s) &= \frac{1}{s^2 + s} \\
 \frac{1}{s^2 + s} &= K_p - K_py(t) \\
 
 \end{align*}
-
 $$
 
 
@@ -12333,9 +12015,7 @@ Consider the following open-loop transfer function:
 
 
 $$
-
 G(s) = \frac{K}{s(s+2)(s+4)}
-
 $$
 
 
@@ -12353,9 +12033,7 @@ The open-loop transfer function is given by:
 
 
 $$
-
 G(s) = \frac{K}{s(s+2)(s+4)}
-
 $$
 
 
@@ -12369,9 +12047,7 @@ The characteristic equation for a closed-loop system is given by:
 
 
 $$
-
 1 + G(s)H(s) = 0
-
 $$
 
 
@@ -12381,9 +12057,7 @@ Substituting the open-loop transfer function into this equation, we get:
 
 
 $$
-
 1 + \frac{K}{s(s+2)(s+4)} = 0
-
 $$
 
 
@@ -12393,9 +12067,7 @@ Solving for s, we get the following roots:
 
 
 $$
-
 s = 0, -2, -4
-
 $$
 
 
@@ -12421,9 +12093,7 @@ Now, let's move on to P-control. As mentioned earlier, P-control is a type of pr
 
 
 $$
-
 u(t) = K_p e(t)
-
 $$
 
 
@@ -12453,9 +12123,7 @@ Consider a system with the following transfer function:
 
 
 $$
-
 G(s) = \frac{1}{s(s+1)}
-
 $$
 
 
@@ -12473,9 +12141,7 @@ The open-loop transfer function is given by:
 
 
 $$
-
 G(s) = \frac{1}{s(s+1)}
-
 $$
 
 
@@ -12497,9 +12163,7 @@ The control signal is given by:
 
 
 $$
-
 u(t) = K_p e(t)
-
 $$
 
 
@@ -12633,9 +12297,7 @@ As mentioned earlier, root locus is a plot of the closed-loop poles as a functio
 
 
 $$
-
 G(s) = Gp(s)Gc(s)
-
 $$
 
 
@@ -12645,9 +12307,7 @@ Next, we use the characteristic equation of the closed-loop system to find the r
 
 
 $$
-
 1 + G(s) = 0
-
 $$
 
 
@@ -12857,9 +12517,7 @@ Let's consider an example to better understand this concept. Suppose we have a c
 
 
 $$
-
 G(s) = \frac{K}{s(s+2)(s+4)}
-
 $$
 
 
@@ -12869,9 +12527,7 @@ We want to determine the range of values for the gain, K, that will result in a 
 
 
 $$
-
 1 + KG(s) = 0
-
 $$
 
 
@@ -13121,9 +12777,7 @@ A PID controller is a type of feedback controller that uses three terms - propor
 
 
 $$
-
 G_{c}(s) = K_{p} + \frac{K_{i}}{s} + K_{d}s
-
 $$
 
 

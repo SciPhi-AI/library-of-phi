@@ -900,9 +900,7 @@ The formal definition of a limit is given by:
 
 
 $$
-
 \lim_{x \to c} f(x) = L
-
 $$
 
 
@@ -912,9 +910,7 @@ This can be interpreted as the limit of the function f(x) as x approaches the va
 
 
 $$
-
 \forall \varepsilon > 0\ \exists \delta > 0 : 0 < |x-c| < \delta \implies |f(x)-L| < \varepsilon
-
 $$
 
 
@@ -928,17 +924,13 @@ In addition to the epsilon-delta definition, there are other important concepts 
 
 
 $$
-
 \limsup_{n \to \infty} x_n = \lim_{n \to \infty} \left(\sup_{m \geq n} x_m\right)
-
 $$
 
 
 
 $$
-
 \liminf_{n \to \infty} x_n = \lim_{n \to \infty}\left(\inf_{m \geq n} x_m\right)
-
 $$
 
 
@@ -952,9 +944,7 @@ Furthermore, the concept of continuity is closely related to limits. A function 
 
 
 $$
-
 \lim_{x \to c} f(x) = f(c)
-
 $$
 
 
@@ -994,9 +984,7 @@ The formal definition of a limit is given by:
 
 
 $$
-
 \lim_{x \to c} f(x) = L
-
 $$
 
 
@@ -1006,9 +994,7 @@ This can be interpreted as the limit of the function f(x) as x approaches the va
 
 
 $$
-
 \forall \varepsilon > 0\ \exists \delta > 0 : 0 < |x-c| < \delta \implies |f(x)-L| < \varepsilon
-
 $$
 
 
@@ -1022,17 +1008,13 @@ In addition to the epsilon-delta definition, there are other important concepts 
 
 
 $$
-
 \limsup_{n \to \infty} x_n = \lim_{n \to \infty} \left(\sup_{m \geq n} x_m\right)
-
 $$
 
 
 
 $$
-
 \liminf_{n \to \infty} x_n = \lim_{n \to \infty} \left(\inf_{m \geq n} x_m\right)
-
 $$
 
 
@@ -1080,9 +1062,7 @@ The formal definition of a limit is given by:
 
 
 $$
-
 \lim_{x \to c} f(x) = L
-
 $$
 
 
@@ -1092,9 +1072,7 @@ This can be interpreted as the limit of the function f(x) as x approaches the va
 
 
 $$
-
 \forall \varepsilon > 0\ \exists \delta > 0 : 0 < |x-c| < \delta \implies |f(x)-L| < \varepsilon
-
 $$
 
 
@@ -1108,17 +1086,13 @@ In addition to the epsilon-delta definition, there are other important concepts 
 
 
 $$
-
 \limsup_{n \to \infty} x_n = \lim_{n \to \infty} \left(\sup_{m \geq n} x_m\right)
-
 $$
 
 
 
 $$
-
 \liminf_{n \to \infty} x_n = \lim_{n \to \infty} \left(\inf_{m \geq n} x_m\right)
-
 $$
 
 
@@ -1202,9 +1176,7 @@ The formal definition of a limit is given by:
 
 
 $$
-
 \lim_{x \to c} f(x) = L
-
 $$
 
 
@@ -1214,9 +1186,7 @@ This can be interpreted as the limit of the function f(x) as x approaches the va
 
 
 $$
-
 \forall \varepsilon > 0\ \exists \delta > 0 : 0 < |x-c| < \delta \implies |f(x)-L| < \varepsilon
-
 $$
 
 
@@ -1230,17 +1200,13 @@ In addition to the epsilon-delta definition, there are other important concepts 
 
 
 $$
-
 \limsup_{n \to \infty} x_n = \lim_{n \to \infty} \left(\sup_{m \geq n} x_m\right)
-
 $$
 
 
 
 $$
-
 \liminf_{n \to \infty} x_n = \lim_{n \to \infty} \left(\inf_{m \geq n} x_m\right)
-
 $$
 
 
@@ -1340,9 +1306,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -1398,9 +1362,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -1430,9 +1392,7 @@ The trapezoidal rule is defined as:
 
 
 $$
-
 T_n = \frac{h}{2} \left[ f(x_0) + 2\sum_{i=1}^{n-1} f(x_i) + f(x_n) \right]
-
 $$
 
 
@@ -1454,9 +1414,7 @@ To understand the accuracy of the trapezoidal rule, we can look at its proof. Fi
 
 
 $$
-
 g_k(t) = \frac{1}{2}t[f(a_k) + f(a_k+t)] - \int_{a_k}^{a_k+t} f(x) dx
-
 $$
 
 
@@ -1466,9 +1424,7 @@ We can then take the derivative of $g_k(t)$ with respect to t:
 
 
 $$
-
 \frac{dg_k}{dt} = \frac{1}{2}[f(a_k) + f(a_k+t)] + \frac{1}{2}t \cdot f'(a_k+t) - f(a_k+t)
-
 $$
 
 
@@ -1478,9 +1434,7 @@ And the second derivative:
 
 
 $$
-
 \frac{d^2g_k}{dt^2} = \frac{1}{2}t \cdot f''(a_k+t)
-
 $$
 
 
@@ -1490,9 +1444,7 @@ Now, if we assume that $|f''(x)| \leq |f''(\xi)|$, where $\xi$ is some point in 
 
 
 $$
-
 -\frac{f''(\xi)t}{2} \leq g_k''(t) \leq \frac{f''(\xi)t}{2}
-
 $$
 
 
@@ -1502,9 +1454,7 @@ Integrating both sides from 0 to h, we get:
 
 
 $$
-
 -\frac{f''(\xi)h^2}{4} \leq g_k'(h) \leq \frac{f''(\xi)h^2}{4}
-
 $$
 
 
@@ -1514,9 +1464,7 @@ And integrating again from 0 to h, we get:
 
 
 $$
-
 -\frac{f''(\xi)h^3}{12} \leq g_k(h) \leq \frac{f''(\xi)h^3}{12}
-
 $$
 
 
@@ -1526,9 +1474,7 @@ Summing all the local error terms, we get:
 
 
 $$
-
 \sum_{k=1}^{N} g_k(h) = \frac{b-a}{N} \left[ \frac{f(a) + f(b)}{2} + \sum_{k=1}^{N-1} f \left( a + k \frac{b-a}{N} \right) \right] - \int_a^b f(x) dx
-
 $$
 
 
@@ -1538,9 +1484,7 @@ We can also write:
 
 
 $$
-
 -\frac{f''(\xi)h^3N}{12} \leq \sum_{k=1}^{N} g_k(h) \leq \frac{f''(\xi)h^3N}{12}
-
 $$
 
 
@@ -1600,9 +1544,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -1628,9 +1570,7 @@ The trapezoidal rule is another method of numerical integration that is more acc
 
 
 $$
-
 T_n = \frac{1}{2}\sum_{i=1}^n (f(x_{i-1}) + f(x_i))\Delta x
-
 $$
 
 
@@ -1652,9 +1592,7 @@ Simpson's rule is a more advanced method of numerical integration that provides 
 
 
 $$
-
 S_n = \frac{1}{3}\sum_{i=1}^n (f(x_{i-1}) + 4f(x_{i-1/2}) + f(x_i))\Delta x
-
 $$
 
 
@@ -1740,9 +1678,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -1768,9 +1704,7 @@ The trapezoidal rule is another method of numerical integration that is more acc
 
 
 $$
-
 T_n = \frac{1}{2}\sum_{i=1}^n (f(x_{i-1}) + f(x_i))\Delta x
-
 $$
 
 
@@ -1792,9 +1726,7 @@ Simpson's rule is a more advanced method of numerical integration that provides 
 
 
 $$
-
 S_n = \frac{1}{3}\sum_{i=1}^n (f(x_{i-1}) + 4f(x_{i-1/2}) + f(x_i))\Delta x
-
 $$
 
 
@@ -1820,9 +1752,7 @@ The Romberg integration formula is:
 
 
 $$
-
 R_{i,j} = \frac{4^jR_{i,j-1} - R_{i-1,j-1}}{4^j - 1}
-
 $$
 
 
@@ -1890,9 +1820,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -1918,9 +1846,7 @@ The trapezoidal rule is another method of numerical integration that is based on
 
 
 $$
-
 T_n = \frac{1}{2}\sum_{i=1}^n (f(x_i) + f(x_{i+1}))\Delta x
-
 $$
 
 
@@ -1942,9 +1868,7 @@ Simpson's rule is a more advanced method of numerical integration that uses quad
 
 
 $$
-
 S_n = \frac{1}{3}\sum_{i=1}^n (f(x_{2i-2}) + 4f(x_{2i-1}) + f(x_{2i}))\Delta x
-
 $$
 
 
@@ -1966,9 +1890,7 @@ Gaussian quadrature is a numerical integration method that uses a weighted sum o
 
 
 $$
-
 \int_a^b \omega(x)\,f(x)\,dx \approx \sum_{i=1}^n w_i\,f(x_i)
-
 $$
 
 
@@ -1990,9 +1912,7 @@ The error of a Gaussian quadrature rule can be estimated using the following for
 
 
 $$
-
 \int_a^b \omega(x)\,f(x)\,dx - \sum_{i=1}^n w_i\,f(x_i) = \frac{f^{(2n)}(\xi)}{(2n)!} \, (p_n, p_n)
-
 $$
 
 
@@ -2006,9 +1926,7 @@ In the special case of $\omega(x) = 1$, the error estimate can be simplified to:
 
 
 $$
-
 \frac{\left(b - a\right)^{2n+1} \left(n!\right)^4}{(2n + 1)\left[\left(2n\right)!\right]^3} f^{(2n)} (\xi), \qquad a < \xi < b.
-
 $$
 
 
@@ -2084,9 +2002,7 @@ The Riemann sum is defined as:
 
 
 $$
-
 S_n = \sum_{i=1}^n f(x_i)\Delta x
-
 $$
 
 
@@ -2112,9 +2028,7 @@ The trapezoidal rule is another method of numerical integration that is more acc
 
 
 $$
-
 T_n = \frac{1}{2}\sum_{i=1}^n (f(x_{i-1}) + f(x_i))\Delta x
-
 $$
 
 
@@ -2136,9 +2050,7 @@ Simpson's rule is a more advanced method of numerical integration that provides 
 
 
 $$
-
 S_n = \frac{1}{3}\sum_{i=1}^n (f(x_{i-1}) + 4f(x_{i-1/2}) + f(x_i))\Delta x
-
 $$
 
 
@@ -2194,9 +2106,7 @@ Taylor series is a mathematical representation of a function as an infinite sum 
 
 
 $$
-
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -2210,9 +2120,7 @@ The Taylor series can be used to approximate a function at a specific point by u
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k
-
 $$
 
 
@@ -2238,33 +2146,25 @@ For example, let's find the Taylor polynomial of $f(x) = \sin(x)$ at the point a
 
 
 $$
-
 f'(x) = \cos(x)
-
 $$
 
 
 
 $$
-
 f''(x) = -\sin(x)
-
 $$
 
 
 
 $$
-
 f'''(x) = -\cos(x)
-
 $$
 
 
 
 $$
-
 f^{(4)}(x) = \sin(x)
-
 $$
 
 
@@ -2274,9 +2174,7 @@ We can see that the derivatives of $\sin(x)$ follow a pattern of $\sin(x)$, $-\c
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{(-1)^k}{(2k+1)!}x^{2k+1}
-
 $$
 
 
@@ -2312,9 +2210,7 @@ Taylor series is a mathematical representation of a function as an infinite sum 
 
 
 $$
-
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -2328,9 +2224,7 @@ The Taylor series can be used to approximate a function at a specific point by u
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k
-
 $$
 
 
@@ -2356,9 +2250,7 @@ For example, let's find the Taylor polynomial of $f(x) = \sin(x)$ around the poi
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(0)}{k!}x^k = \sum_{k=0}^{\frac{n-1}{2}} \frac{(-1)^k}{(2k+1)!}x^{2k+1}
-
 $$
 
 
@@ -2380,9 +2272,7 @@ The Taylor series expansion can be written in several variables as:
 
 
 $$
-
 T(x_1,\ldots,x_d) = \sum_{n_1=0}^\infty \cdots \sum_{n_d = 0}^\infty \frac{(x_1-a_1)^{n_1}\cdots (x_d-a_d)^{n_d}}{n_1!\cdots n_d!}\,\left(\frac{\partial^{n_1 + \cdots + n_d}f}{\partial x_1^{n_1}\cdots \partial x_d^{n_d}}\right)(a_1,\ldots,a_d)
-
 $$
 
 
@@ -2396,9 +2286,7 @@ For example, for a function $f(x,y)$ that depends on two variables, $x$ and $y$,
 
 
 $$
-
 f(x,y) = f(a_1, a_2) + \frac{\partial f(a_1, a_2)}{\partial x}(x-a_1) + \frac{\partial f(a_1, a_2)}{\partial y}(y-a_2) + \frac{1}{2!}\left(\frac{\partial^2 f(a_1, a_2)}{\partial x^2}(x-a_1)^2 + 2\frac{\partial^2 f(a_1, a_2)}{\partial x \partial y}(x-a_1)(y-a_2) + \frac{\partial^2 f(a_1, a_2)}{\partial y^2}(y-a_2)^2\right)
-
 $$
 
 
@@ -2408,9 +2296,7 @@ This can also be written in a more compact form using the multi-index notation a
 
 
 $$
-
 f(x,y) = \sum_{|\alpha| \leq 2} \frac{1}{\alpha!}\frac{\partial^{|\alpha|}f}{\partial x^\alpha}(a_1, a_2)(x-a_1)^{\alpha_1}(y-a_2)^{\alpha_2}
-
 $$
 
 
@@ -2446,9 +2332,7 @@ Taylor series is a mathematical representation of a function as an infinite sum 
 
 
 $$
-
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -2462,9 +2346,7 @@ The Taylor series can be used to approximate a function at a specific point by u
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k
-
 $$
 
 
@@ -2490,25 +2372,19 @@ For example, let's find the Taylor polynomial of $f(x) = \sin(x)$ around the poi
 
 
 $$
-
 f'(x) = \cos(x)
-
 $$
 
 
 
 $$
-
 f''(x) = -\sin(x)
-
 $$
 
 
 
 $$
-
 f'''(x) = -\cos(x)
-
 $$
 
 
@@ -2518,9 +2394,7 @@ Plugging these into the Taylor polynomial formula, we get:
 
 
 $$
-
 P_n(x) = \sin(0) + \cos(0)(x-0) - \frac{\sin(0)}{2!}(x-0)^2 - \frac{\cos(0)}{3!}(x-0)^3 + ...
-
 $$
 
 
@@ -2530,9 +2404,7 @@ Simplifying, we get:
 
 
 $$
-
 P_n(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...
-
 $$
 
 
@@ -2558,9 +2430,7 @@ Error analysis, on the other hand, is the process of determining the difference 
 
 
 $$
-
 R_n(x) = f(x) - P_n(x)
-
 $$
 
 
@@ -2574,9 +2444,7 @@ For example, let's say we want to approximate $\sin(x)$ around the point $a = 0$
 
 
 $$
-
 R_3(x) = \sin(x) - \left(x - \frac{x^3}{3!}\right)
-
 $$
 
 
@@ -2612,9 +2480,7 @@ Taylor series is a mathematical representation of a function as an infinite sum 
 
 
 $$
-
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
-
 $$
 
 
@@ -2628,9 +2494,7 @@ The Taylor series can be used to approximate a function at a specific point by u
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k
-
 $$
 
 
@@ -2656,9 +2520,7 @@ For example, let's find the Taylor polynomial of $f(x) = \sin(x)$ around the poi
 
 
 $$
-
 P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(0)}{k!}x^k = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
-
 $$
 
 
@@ -3300,9 +3162,7 @@ Write a program in your preferred programming language to calculate the area of 
 Solve the following integral using the substitution method:
 
 $$
-
 \int \frac{2x}{x^2 + 1} dx
-
 $$
 
 
@@ -3318,15 +3178,11 @@ Implement a function in your programming language that calculates the factorial 
 Consider the following system of equations:
 
 $$
-
 2x + 3y = 10
-
 $$
 
 $$
-
 4x - 2y = 8
-
 $$
 
 Write a program to solve for the values of $x$ and $y$ using the Gauss-Jordan elimination method.
@@ -3364,9 +3220,7 @@ Write a program in your preferred programming language to calculate the area of 
 Solve the following integral using the substitution method:
 
 $$
-
 \int \frac{2x}{x^2 + 1} dx
-
 $$
 
 
@@ -3382,15 +3236,11 @@ Implement a function in your programming language that calculates the factorial 
 Consider the following system of equations:
 
 $$
-
 2x + 3y = 10
-
 $$
 
 $$
-
 4x - 2y = 8
-
 $$
 
 Write a program to solve for the values of $x$ and $y$ using the Gauss-Jordan elimination method.
@@ -4598,13 +4448,11 @@ The basic Boolean operations on variables "x" and "y" are defined as follows:
 
 
 $$
-
 x \wedge y = xy \\
 
 x \vee y = x + y - xy \\
 
 \neg x = 1 - x
-
 $$
 
 
@@ -4632,13 +4480,11 @@ If the truth values 0 and 1 are interpreted as integers, these operations may be
 
 
 $$
-
 x \wedge y = xy = \min(x,y) \\
 
 x \vee y = x + y - xy = x + y(1 - x) = \max(x,y) \\
 
 \neg x = 1 - x
-
 $$
 
 
@@ -4648,11 +4494,9 @@ One might consider that only negation and one of the two other operations are ba
 
 
 $$
-
 x \wedge y = \neg(\neg x \vee \neg y) \\
 
 x \vee y = \neg(\neg x \wedge \neg y)
-
 $$
 
 
@@ -6532,7 +6376,6 @@ Matrices can be represented in various ways, including using brackets or parenth
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -6558,7 +6401,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{array}
-
 $$
 
 
@@ -6580,7 +6422,6 @@ Matrices can be added or subtracted if they have the same dimensions. The additi
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 \\
@@ -6594,13 +6435,11 @@ A = \begin{bmatrix}
 7 & 8
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 A + B = \begin{bmatrix}
 
 1+5 & 2+6 \\
@@ -6614,13 +6453,11 @@ A + B = \begin{bmatrix}
 10 & 12
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{bmatrix}
 
 1-5 & 2-6 \\
@@ -6634,7 +6471,6 @@ A - B = \begin{bmatrix}
 -4 & -4
 
 \end{bmatrix}
-
 $$
 
 
@@ -6652,7 +6488,6 @@ The multiplication is performed by multiplying each element in a row of the firs
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 \\
@@ -6666,13 +6501,11 @@ A = \begin{bmatrix}
 7 & 8
 
 \end{bmatrix}
-
 $$
 
 
 
 $$
-
 A \times B = \begin{bmatrix}
 
 1\times5 + 2\times7 & 1\times6 + 2\times8 \\
@@ -6686,7 +6519,6 @@ A \times B = \begin{bmatrix}
 43 & 50
 
 \end{bmatrix}
-
 $$
 
 
@@ -6724,9 +6556,7 @@ In the finite element method, the solution to a problem is often written in the 
 
 
 $$
-
 Au = f
-
 $$
 
 
@@ -6736,9 +6566,7 @@ where $A$ is a matrix, $u$ is a vector of unknowns, and $f$ is a vector of known
 
 
 $$
-
 -Lu = Mf
-
 $$
 
 
@@ -6756,9 +6584,7 @@ In some cases, the function $f(x)$ in the system of equations may not be a simpl
 
 
 $$
-
 -Lu = b
-
 $$
 
 
@@ -6852,7 +6678,6 @@ In this chapter, we have explored the fundamentals of arrays and matrices and th
 Given the following arrays:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -6862,11 +6687,9 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -6876,7 +6699,6 @@ B = \begin{bmatrix}
 14 & 16 & 18
 
 \end{bmatrix}
-
 $$
 
 Perform the following operations:
@@ -6896,15 +6718,11 @@ Perform the following operations:
 Consider the following system of linear equations:
 
 $$
-
 2x + 3y = 10
-
 $$
 
 $$
-
 4x + 5y = 20
-
 $$
 
 Using matrix inversion, solve for the values of $x$ and $y$.
@@ -6916,7 +6734,6 @@ Using matrix inversion, solve for the values of $x$ and $y$.
 Write a function in Python that takes in two arrays and returns their dot product. Test your function with the following arrays:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -6926,11 +6743,9 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -6940,7 +6755,6 @@ B = \begin{bmatrix}
 14 & 16 & 18
 
 \end{bmatrix}
-
 $$
 
 
@@ -6950,7 +6764,6 @@ $$
 Consider the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -6960,7 +6773,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the transpose of $A$.
@@ -6972,7 +6784,6 @@ Find the transpose of $A$.
 Write a program in MATLAB that takes in a matrix and checks if it is symmetric. If it is symmetric, print "The matrix is symmetric", otherwise print "The matrix is not symmetric". Test your program with the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -6982,7 +6793,6 @@ A = \begin{bmatrix}
 3 & 5 & 6
 
 \end{bmatrix}
-
 $$
 
 
@@ -7002,7 +6812,6 @@ In this chapter, we have explored the fundamentals of arrays and matrices and th
 Given the following arrays:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -7012,11 +6821,9 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -7026,7 +6833,6 @@ B = \begin{bmatrix}
 14 & 16 & 18
 
 \end{bmatrix}
-
 $$
 
 Perform the following operations:
@@ -7046,15 +6852,11 @@ Perform the following operations:
 Consider the following system of linear equations:
 
 $$
-
 2x + 3y = 10
-
 $$
 
 $$
-
 4x + 5y = 20
-
 $$
 
 Using matrix inversion, solve for the values of $x$ and $y$.
@@ -7066,7 +6868,6 @@ Using matrix inversion, solve for the values of $x$ and $y$.
 Write a function in Python that takes in two arrays and returns their dot product. Test your function with the following arrays:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -7076,11 +6877,9 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 $$
-
 B = \begin{bmatrix}
 
 2 & 4 & 6 \\
@@ -7090,7 +6889,6 @@ B = \begin{bmatrix}
 14 & 16 & 18
 
 \end{bmatrix}
-
 $$
 
 
@@ -7100,7 +6898,6 @@ $$
 Consider the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -7110,7 +6907,6 @@ A = \begin{bmatrix}
 7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the transpose of $A$.
@@ -7122,7 +6918,6 @@ Find the transpose of $A$.
 Write a program in MATLAB that takes in a matrix and checks if it is symmetric. If it is symmetric, print "The matrix is symmetric", otherwise print "The matrix is not symmetric". Test your program with the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -7132,7 +6927,6 @@ A = \begin{bmatrix}
 3 & 5 & 6
 
 \end{bmatrix}
-
 $$
 
 
@@ -7968,9 +7762,7 @@ One of the most commonly used PRNGs is the linear congruential generator (LCG). 
 
 
 $$
-
 X_{n+1} = (aX_n + c) \mod m
-
 $$
 
 
@@ -8026,9 +7818,7 @@ One of the most commonly used PRNGs is the linear congruential generator (LCG). 
 
 
 $$
-
 X_{n+1} = (aX_n + c) \mod m
-
 $$
 
 
@@ -8100,9 +7890,7 @@ One of the most commonly used PRNGs is the linear congruential generator (LCG). 
 
 
 $$
-
 X_{n+1} = (aX_n + c) \mod m
-
 $$
 
 
@@ -8786,9 +8574,7 @@ Finally, the algorithm accepts the new state <math>\mathbf{y}</math> with a prob
 
 
 $$
-
 \alpha(\mathbf{x},\mathbf{y}) = \min\left(1, \frac{w(\mathbf{y},\mathbf{x})}{w(\mathbf{x},\mathbf{y})}\right)
-
 $$
 
 
@@ -9238,9 +9024,7 @@ To calculate the confidence interval, the standard error of the estimated quanti
 
 
 $$
-
 SE = \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -9250,9 +9034,7 @@ where $\sigma$ is the standard deviation of the sample and $n$ is the sample siz
 
 
 $$
-
 CI = \bar{x} \pm z_{\alpha/2} \frac{SE}{\sqrt{n}}
-
 $$
 
 
@@ -9308,9 +9090,7 @@ To calculate the confidence interval, the standard error of the estimated quanti
 
 
 $$
-
 SE = \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -9320,9 +9100,7 @@ where $\sigma$ is the standard deviation of the sample and $n$ is the sample siz
 
 
 $$
-
 CI = \bar{x} \pm z_{\alpha/2} \frac{SE}{\sqrt{n}}
-
 $$
 
 
@@ -9382,9 +9160,7 @@ To calculate the confidence interval, the standard error of the estimated quanti
 
 
 $$
-
 SE = \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -9394,9 +9170,7 @@ where $\sigma$ is the standard deviation of the sample and $n$ is the sample siz
 
 
 $$
-
 CI = \bar{x} \pm z_{\alpha/2} \frac{SE}{\sqrt{n}}
-
 $$
 
 
@@ -9468,9 +9242,7 @@ To calculate the confidence interval, the standard error of the estimated quanti
 
 
 $$
-
 SE = \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -9480,9 +9252,7 @@ where $\sigma$ is the standard deviation of the sample and $n$ is the sample siz
 
 
 $$
-
 CI = \bar{x} \pm z_{\alpha/2} \frac{SE}{\sqrt{n}}
-
 $$
 
 
@@ -9504,33 +9274,25 @@ For example, in the case of a symmetric matrix, changing one entry will also aff
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
-
 $$
 
 
@@ -9582,9 +9344,7 @@ To calculate the confidence interval, the standard error of the estimated quanti
 
 
 $$
-
 SE = \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -9594,9 +9354,7 @@ where $\sigma$ is the standard deviation of the sample and $n$ is the sample siz
 
 
 $$
-
 CI = \bar{x} \pm z_{\alpha/2} \frac{SE}{\sqrt{n}}
-
 $$
 
 
@@ -9936,9 +9694,7 @@ In conclusion, Monte Carlo methods are a valuable tool for mechanical engineers,
 Consider the following integral:
 
 $$
-
 I = \int_{0}^{1} e^{-x^2} dx
-
 $$
 
 Use Monte Carlo simulation to estimate the value of $I$ with an accuracy of 3 decimal places.
@@ -9950,9 +9706,7 @@ Use Monte Carlo simulation to estimate the value of $I$ with an accuracy of 3 de
 A mechanical system is described by the following differential equation:
 
 $$
-
 \frac{d^2y}{dt^2} + \frac{dy}{dt} + y = 0
-
 $$
 
 Use Monte Carlo simulation to solve this equation and plot the solution for different initial conditions.
@@ -10004,9 +9758,7 @@ In conclusion, Monte Carlo methods are a valuable tool for mechanical engineers,
 Consider the following integral:
 
 $$
-
 I = \int_{0}^{1} e^{-x^2} dx
-
 $$
 
 Use Monte Carlo simulation to estimate the value of $I$ with an accuracy of 3 decimal places.
@@ -10018,9 +9770,7 @@ Use Monte Carlo simulation to estimate the value of $I$ with an accuracy of 3 de
 A mechanical system is described by the following differential equation:
 
 $$
-
 \frac{d^2y}{dt^2} + \frac{dy}{dt} + y = 0
-
 $$
 
 Use Monte Carlo simulation to solve this equation and plot the solution for different initial conditions.
@@ -10110,17 +9860,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10164,17 +9910,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10192,9 +9934,7 @@ Let us consider two matrices A and B of size m x n and n x p, respectively. The 
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} \sum_{k=1}^{n} a_{1k}b_{k1} & \sum_{k=1}^{n} a_{1k}b_{k2} & \cdots & \sum_{k=1}^{n} a_{1k}b_{kp} \\ \sum_{k=1}^{n} a_{2k}b_{k1} & \sum_{k=1}^{n} a_{2k}b_{k2} & \cdots & \sum_{k=1}^{n} a_{2k}b_{kp} \\ \vdots & \vdots & \ddots & \vdots \\ \sum_{k=1}^{n} a_{mk}b_{k1} & \sum_{k=1}^{n} a_{mk}b_{k2} & \cdots & \sum_{k=1}^{n} a_{mk}b_{kp} \end{pmatrix}
-
 $$
 
 
@@ -10204,9 +9944,7 @@ Matrix multiplication can also be represented using the dot product notation, wh
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} \vec{a_1} \cdot \vec{b_1} & \vec{a_1} \cdot \vec{b_2} & \cdots & \vec{a_1} \cdot \vec{b_p} \\ \vec{a_2} \cdot \vec{b_1} & \vec{a_2} \cdot \vec{b_2} & \cdots & \vec{a_2} \cdot \vec{b_p} \\ \vdots & \vdots & \ddots & \vdots \\ \vec{a_m} \cdot \vec{b_1} & \vec{a_m} \cdot \vec{b_2} & \cdots & \vec{a_m} \cdot \vec{b_p} \end{pmatrix}
-
 $$
 
 
@@ -10246,17 +9984,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10274,9 +10008,7 @@ Let us consider two matrices A and B of size m x n and n x p, respectively. The 
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} a_{11}b_{11} + a_{12}b_{21} + \cdots + a_{1n}b_{n1} & a_{11}b_{12} + a_{12}b_{22} + \cdots + a_{1n}b_{n2} & \cdots & a_{11}b_{1p} + a_{12}b_{2p} + \cdots + a_{1n}b_{np} \\ a_{21}b_{11} + a_{22}b_{21} + \cdots + a_{2n}b_{n1} & a_{21}b_{12} + a_{22}b_{22} + \cdots + a_{2n}b_{n2} & \cdots & a_{21}b_{1p} + a_{22}b_{2p} + \cdots + a_{2n}b_{np} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1}b_{11} + a_{m2}b_{21} + \cdots + a_{mn}b_{n1} & a_{m1}b_{12} + a_{m2}b_{22} + \cdots + a_{mn}b_{n2} & \cdots & a_{m1}b_{1p} + a_{m2}b_{2p} + \cdots + a_{mn}b_{np} \end{pmatrix}
-
 $$
 
 
@@ -10340,17 +10072,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10368,9 +10096,7 @@ Let us consider two matrices A and B of size m x n and n x p, respectively. The 
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} c_{11} & c_{12} & \cdots & c_{1p} \\ c_{21} & c_{22} & \cdots & c_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ c_{m1} & c_{m2} & \cdots & c_{mp} \end{pmatrix}
-
 $$
 
 
@@ -10380,9 +10106,7 @@ where
 
 
 $$
-
 c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -10400,9 +10124,7 @@ To find the inverse of a matrix, we can use the Gauss-Jordan elimination method 
 
 
 $$
-
 A^{-1} = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{n1} & a_{n2} & \cdots & a_{nn} \end{pmatrix}^{-1} = \frac{1}{\det(A)} \begin{pmatrix} A_{11} & A_{12} & \cdots & A_{1n} \\ A_{21} & A_{22} & \cdots & A_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ A_{n1} & A_{n2} & \cdots & A_{nn} \end{pmatrix}
-
 $$
 
 
@@ -10424,25 +10146,19 @@ Let us consider a matrix A of size n x n. The LU decomposition of A can be writt
 
 
 $$
-
 LUx = I
-
 $$
 
 
 
 $$
-
 Ux = L^{-1}I
-
 $$
 
 
 
 $$
-
 x = U^{-1}L^{-1}I
-
 $$
 
 
@@ -10452,9 +10168,7 @@ Therefore, the inverse of A can be written as:
 
 
 $$
-
 A^{-1} = U^{-1}L^{-1}
-
 $$
 
 
@@ -10464,17 +10178,13 @@ where U<sup>-1</sup> and L<sup>-1</sup> can be obtained by solving the following
 
 
 $$
-
 Ux = I
-
 $$
 
 
 
 $$
-
 Lx = I
-
 $$
 
 
@@ -10518,17 +10228,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10546,9 +10252,7 @@ Let us consider two matrices A and B of size m x n and n x p, respectively. The 
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} c_{11} & c_{12} & \cdots & c_{1p} \\ c_{21} & c_{22} & \cdots & c_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ c_{m1} & c_{m2} & \cdots & c_{mp} \end{pmatrix}
-
 $$
 
 
@@ -10558,9 +10262,7 @@ where
 
 
 $$
-
 c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -10594,17 +10296,13 @@ To compute the sensitivity of the eigenvalues, we can use the partial derivative
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
@@ -10660,17 +10358,13 @@ Let us consider two matrices A and B of size m x n, where m represents the numbe
 
 
 $$
-
 A + B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} + \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 A - B = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} - \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1n} \\ b_{21} & b_{22} & \cdots & b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{m1} & b_{m2} & \cdots & b_{mn} \end{pmatrix} = \begin{pmatrix} a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\ a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10688,17 +10382,13 @@ Let us consider two matrices A and B of size m x n and n x p, respectively. The 
 
 
 $$
-
 AB = \begin{pmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \cdots & a_{mn} \end{pmatrix} \begin{pmatrix} b_{11} & b_{12} & \cdots & b_{1p} \\ b_{21} & b_{22} & \cdots & b_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n1} & b_{n2} & \cdots & b_{np} \end{pmatrix} = \begin{pmatrix} c_{11} & c_{12} & \cdots & c_{1p} \\ c_{21} & c_{22} & \cdots & c_{2p} \\ \vdots & \vdots & \ddots & \vdots \\ c_{m1} & c_{m2} & \cdots & c_{mp} \end{pmatrix}
-
 $$
 
 
 
 $$
-
 c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -10716,9 +10406,7 @@ Let us consider a matrix A of size m x n and a scalar value c. The product of th
 
 
 $$
-
 cA = \begin{pmatrix} c \cdot a_{11} & c \cdot a_{12} & \cdots & c \cdot a_{1n} \\ c \cdot a_{21} & c \cdot a_{22} & \cdots & c \cdot a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ c \cdot a_{m1} & c \cdot a_{m2} & \cdots & c \cdot a_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10732,9 +10420,7 @@ The transpose of a matrix is obtained by interchanging its rows and columns. It 
 
 
 $$
-
 A^T = \begin{pmatrix} a_{11} & a_{21} & \cdots & a_{m1} \\ a_{12} & a_{22} & \cdots & a_{m2} \\ \vdots & \vdots & \ddots & \vdots \\ a_{1n} & a_{2n} & \cdots & a_{mn} \end{pmatrix}
-
 $$
 
 
@@ -10748,9 +10434,7 @@ The inverse of a square matrix A is denoted by A^-1 and is defined as the matrix
 
 
 $$
-
 AA^{-1} = A^{-1}A = I
-
 $$
 
 
@@ -10914,7 +10598,6 @@ The Cholesky decomposition algorithm is a modified version of Gaussian eliminati
 
 
 $$
-
 A^{(i)} = \begin{pmatrix}
 
 I_{i-1} & 0 & 0 \\
@@ -10922,7 +10605,6 @@ I_{i-1} & 0 & 0 \\
 0 & a_{i,i} & \mathbf{b}_i^* \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -10932,7 +10614,6 @@ where $I_{i-1}$ denotes the identity matrix of dimension $i-1$. If we define the
 
 
 $$
-
 L_i = \begin{pmatrix}
 
 I_{i-1} & 0 & 0 \\
@@ -10940,7 +10621,6 @@ I_{i-1} & 0 & 0 \\
 0 & \sqrt{a_{i,i}} & 0 \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -10950,9 +10630,7 @@ $$
 
 
 $$
-
 A^{(i)} = L_i L_i^T
-
 $$
 
 
@@ -10962,9 +10640,7 @@ We repeat this for $i$ from 1 to $n$. After $n$ steps, we get $A^{(n+1)} = I$. H
 
 
 $$
-
 L = L_1^{-1} L_2^{-1} \cdots L_n^{-1}
-
 $$
 
 
@@ -10986,7 +10662,6 @@ The Cholesky–Banachiewicz algorithm starts with $i = 1$ and at each step $i$, 
 
 
 $$
-
 A^{(i)} = \begin{pmatrix}
 
 L_{i-1} & 0 \\
@@ -10994,7 +10669,6 @@ L_{i-1} & 0 \\
 \mathbf{b}_i^* & a_{i,i} \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -11004,7 +10678,6 @@ where $L_{i-1}$ is a lower triangular matrix. The Cholesky–Crout algorithm sta
 
 
 $$
-
 A^{(i)} = \begin{pmatrix}
 
 U_{i-1} & \mathbf{b}_i^* \\
@@ -11012,7 +10685,6 @@ U_{i-1} & \mathbf{b}_i^* \\
 0 & a_{i,i} \\
 
 \end{pmatrix}
-
 $$
 
 
@@ -11060,9 +10732,7 @@ The Jacobi method is an iterative method that involves splitting the matrix $A$ 
 
 
 $$
-
 x^{(k+1)} = D^{-1}(b - Rx^{(k)})
-
 $$
 
 
@@ -11122,7 +10792,6 @@ The algorithm involves a forward elimination step, followed by a backward substi
 
 
 $$
-
 \begin{align}
 
 c_i &= \begin{cases}
@@ -11142,7 +10811,6 @@ d_i &= \begin{cases}
 \end{cases}
 
 \end{align}
-
 $$
 
 
@@ -11156,7 +10824,6 @@ In the backward substitution step, the solution vector $x$ is computed by using 
 
 
 $$
-
 \begin{align}
 
 x_n &= d_n \\
@@ -11164,7 +10831,6 @@ x_n &= d_n \\
 x_i &= d_i - c_ix_{i+1} \quad i = n-1,n-2,...,1
 
 \end{align}
-
 $$
 
 
@@ -11212,7 +10878,6 @@ The algorithm involves a forward elimination step, followed by a backward substi
 
 
 $$
-
 \begin{align}
 
 c_i &= \begin{cases}
@@ -11232,7 +10897,6 @@ d_i &= \begin{cases}
 \end{cases}
 
 \end{align}
-
 $$
 
 
@@ -11246,9 +10910,7 @@ After the forward elimination step, the system is transformed into an upper tria
 
 
 $$
-
 x_i = d_i - c_ix_{i+1}
-
 $$
 
 
@@ -11304,7 +10966,6 @@ The conjugate gradient method can be seen as a variant of the Arnoldi/Lanczos it
 
 
 $$
-
 \boldsymbol{w}_i = \begin{cases}
 
 \boldsymbol{r}_0 & \text{if }i=1\text{,}\\
@@ -11312,7 +10973,6 @@ $$
 \boldsymbol{Av}_{i-1} & \text{if }i>1\text{.}
 
 \end{cases}
-
 $$
 
 
@@ -11326,9 +10986,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{H}_i\boldsymbol{V}_i
-
 $$
 
 
@@ -11338,7 +10996,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -11372,7 +11029,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -11428,7 +11084,6 @@ To perform sensitivity analysis, we can use the results of the previous section 
 
 
 $$
-
 \begin{align}
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} &= \frac{\partial}{\partial \mathbf{K}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i} \right) = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right ) \\
@@ -11436,7 +11091,6 @@ $$
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} &= \frac{\partial}{\partial \mathbf{M}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i}\right) = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right ).
 
 \end{align}
-
 $$
 
 
@@ -11446,7 +11100,6 @@ Similarly,
 
 
 $$
-
 \begin{align}
 
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} &= \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \\
@@ -11454,7 +11107,6 @@ $$
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} &= -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right ).
 
 \end{align}
-
 $$
 
 
@@ -11770,13 +11422,11 @@ To understand the least squares method, let's consider an example in two dimensi
 
 
 $$
-
 y = -2x - 1 \\
 
 y = 3x - 2 \\
 
 y = x + 1
-
 $$
 
 
@@ -11798,9 +11448,7 @@ To solve least squares problems, we can use the normal equations. These equation
 
 
 $$
-
 A^TAx = A^Tb
-
 $$
 
 
@@ -11814,7 +11462,6 @@ In the case of our example with three equations and two unknowns, the normal equ
 
 
 $$
-
 \begin{bmatrix}
 
 1 & 1 & 1 \\
@@ -11862,7 +11509,6 @@ x_3
 1
 
 \end{bmatrix}
-
 $$
 
 
@@ -11906,13 +11552,11 @@ To understand the least squares method, let's consider an example in two dimensi
 
 
 $$
-
 y = -2x - 1 \\
 
 y = 3x - 2 \\
 
 y = x + 1
-
 $$
 
 
@@ -11934,9 +11578,7 @@ To solve least squares problems, we can use the normal equations. These equation
 
 
 $$
-
 A^TAx = A^Tb
-
 $$
 
 
@@ -11992,13 +11634,11 @@ To understand the least squares method, let's consider an example in two dimensi
 
 
 $$
-
 y = -2x - 1 \\
 
 y = 3x - 2 \\
 
 y = x + 1
-
 $$
 
 
@@ -12020,9 +11660,7 @@ To solve least squares problems, we can use the normal equations. These equation
 
 
 $$
-
 A^TAx = A^Tb
-
 $$
 
 
@@ -12040,9 +11678,7 @@ Another method for solving least squares problems is the QR decomposition method
 
 
 $$
-
 A = QR
-
 $$
 
 
@@ -12052,9 +11688,7 @@ where $Q$ is an $m \times m$ orthogonal matrix and $R$ is an $m \times n$ upper 
 
 
 $$
-
 R^TQ^TQRx = R^TQ^Tb
-
 $$
 
 
@@ -12064,9 +11698,7 @@ Since $Q$ is orthogonal, $Q^TQ = I$, the identity matrix. Therefore, the above e
 
 
 $$
-
 R^TRx = R^TQ^Tb
-
 $$
 
 
@@ -12084,9 +11716,7 @@ The singular value decomposition (SVD) method is another approach to solving lea
 
 
 $$
-
 A = U\Sigma V^T
-
 $$
 
 
@@ -12096,9 +11726,7 @@ where $U$ is an $m \times m$ orthogonal matrix, $\Sigma$ is an $m \times n$ diag
 
 
 $$
-
 V\Sigma^TU^TU\Sigma V^Tx = V\Sigma^TU^Tb
-
 $$
 
 
@@ -12108,9 +11736,7 @@ Since $U$ and $V$ are orthogonal matrices, $U^TU = I$ and $V^TV = I$. Therefore,
 
 
 $$
-
 \Sigma^T\Sigma x = \Sigma^TU^Tb
-
 $$
 
 
@@ -12162,13 +11788,11 @@ To understand the least squares method, let's consider an example in two dimensi
 
 
 $$
-
 y = -2x - 1 \\
 
 y = 3x - 2 \\
 
 y = x + 1
-
 $$
 
 
@@ -12190,9 +11814,7 @@ To solve least squares problems, we can use the normal equations. These equation
 
 
 $$
-
 A^TAx = A^Tb
-
 $$
 
 
@@ -12230,9 +11852,7 @@ In regularized least squares, the objective function is given by:
 
 
 $$
-
 \min_{c \in \Reals^{n}}\frac{1}{n}\|\hat{Y}-\hat{K}c\|^{2}_{\Reals^{n}} + \lambda\langle c,\hat{K}c\rangle_{\Reals^{n}}
-
 $$
 
 
@@ -12572,7 +12192,6 @@ As we conclude this chapter, it is important to note that numerical linear algeb
 Consider the following linear system of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 3 \\
@@ -12604,7 +12223,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -12616,7 +12234,6 @@ Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 \begin{bmatrix}
 
 3 & 1 \\
@@ -12624,7 +12241,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -12640,7 +12256,6 @@ Write a code in MATLAB to implement the Jacobi method for solving a linear syste
 Consider the following linear system of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & -1 & 0 \\
@@ -12672,7 +12287,6 @@ x_3
 3
 
 \end{bmatrix}
-
 $$
 
 Use the Gauss-Seidel method to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -12684,7 +12298,6 @@ Use the Gauss-Seidel method to solve for the unknowns $x_1$, $x_2$, and $x_3$.
 A mechanical system is described by the following set of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -12716,7 +12329,6 @@ F_2 \\
 F_3
 
 \end{bmatrix}
-
 $$
 
 where $F_1$, $F_2$, and $F_3$ are the external forces acting on the system. Write a code in Python to solve for the displacements $x_1$, $x_2$, and $x_3$ using the LU decomposition method.
@@ -12746,7 +12358,6 @@ As we conclude this chapter, it is important to note that numerical linear algeb
 Consider the following linear system of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 3 \\
@@ -12778,7 +12389,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -12790,7 +12400,6 @@ Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
 Find the eigenvalues and eigenvectors of the following matrix:
 
 $$
-
 \begin{bmatrix}
 
 3 & 1 \\
@@ -12798,7 +12407,6 @@ $$
 1 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -12814,7 +12422,6 @@ Write a code in MATLAB to implement the Jacobi method for solving a linear syste
 Consider the following linear system of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & -1 & 0 \\
@@ -12846,7 +12453,6 @@ x_3
 3
 
 \end{bmatrix}
-
 $$
 
 Use the Gauss-Seidel method to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -12858,7 +12464,6 @@ Use the Gauss-Seidel method to solve for the unknowns $x_1$, $x_2$, and $x_3$.
 A mechanical system is described by the following set of equations:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -12890,7 +12495,6 @@ F_2 \\
 F_3
 
 \end{bmatrix}
-
 $$
 
 where $F_1$, $F_2$, and $F_3$ are the external forces acting on the system. Write a code in Python to solve for the displacements $x_1$, $x_2$, and $x_3$ using the LU decomposition method.

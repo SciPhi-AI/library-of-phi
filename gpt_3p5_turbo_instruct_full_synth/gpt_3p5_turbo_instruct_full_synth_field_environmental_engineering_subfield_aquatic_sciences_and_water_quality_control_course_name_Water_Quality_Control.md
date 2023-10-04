@@ -1954,9 +1954,7 @@ Molecular diffusion is defined by Fick's first law, which states that the rate o
 
 
 $$
-
 J = -D \frac{\partial c}{\partial x}
-
 $$
 
 
@@ -2526,9 +2524,7 @@ In all of these models, the concentration distribution is described by the advec
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C)
-
 $$
 
 
@@ -2576,9 +2572,7 @@ In all of these models, the concentration distribution is described by the advec
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C)
-
 $$
 
 
@@ -2642,9 +2636,7 @@ In all of these models, the concentration distribution is described by the advec
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C)
-
 $$
 
 
@@ -2666,9 +2658,7 @@ One of the most commonly used two-dimensional models is the advection-diffusion 
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + S
-
 $$
 
 
@@ -2682,9 +2672,7 @@ Another commonly used two-dimensional model is the two-dimensional advection-dif
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) - w\frac{\partial C}{\partial z}
-
 $$
 
 
@@ -2732,9 +2720,7 @@ In all of these models, the concentration distribution is described by the advec
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C)
-
 $$
 
 
@@ -2790,9 +2776,7 @@ The concentration distribution of pollutants from point sources can be described
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q\delta(x-x_s)
-
 $$
 
 
@@ -2836,9 +2820,7 @@ The concentration distribution of pollutants from point sources can be described
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q\delta(x-x_s)
-
 $$
 
 
@@ -2864,9 +2846,7 @@ The concentration distribution of pollutants from line sources can also be descr
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + \int_{L} Q(s)\delta(x-x_s(s))ds
-
 $$
 
 
@@ -2910,9 +2890,7 @@ The concentration distribution of pollutants from point sources can be described
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q\delta(x-x_s)
-
 $$
 
 
@@ -2938,9 +2916,7 @@ The concentration distribution of pollutants from line sources can also be descr
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + \int_{L} Q(x')\delta(x-x') ds'
-
 $$
 
 
@@ -2966,9 +2942,7 @@ The concentration distribution of pollutants from plane sources can also be desc
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + \iint_{S} Q(x',y')\delta(x-x',y-y') dxdy
-
 $$
 
 
@@ -3004,9 +2978,7 @@ Instantaneous discharges refer to single, short-term releases of pollutants into
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q\delta(t-t_s)
-
 $$
 
 
@@ -3032,9 +3004,7 @@ The concentration distribution of pollutants from continuous discharges can also
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q
-
 $$
 
 
@@ -3070,9 +3040,7 @@ Instantaneous discharges refer to single, short-term releases of pollutants into
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q\delta(t-t_s)
-
 $$
 
 
@@ -3098,9 +3066,7 @@ The concentration distribution of pollutants from continuous discharges can also
 
 
 $$
-
 \frac{\partial C}{\partial t} = -\nabla \cdot (uC) + \nabla \cdot (D\nabla C) + Q
-
 $$
 
 
@@ -3388,9 +3354,7 @@ In steady flows, the longitudinal dispersion coefficient can be calculated using
 
 
 $$
-
 D_L = \frac{uL}{\alpha}
-
 $$
 
 
@@ -3456,9 +3420,7 @@ One of the most commonly used steady flow dispersion models is the Taylor-Aris m
 
 
 $$
-
 D_L = \frac{uL}{\alpha}
-
 $$
 
 
@@ -3480,9 +3442,7 @@ Another widely used steady flow dispersion model is the Van Deemter equation, wh
 
 
 $$
-
 D_L = \frac{uL}{\alpha + \beta u}
-
 $$
 
 
@@ -3544,9 +3504,7 @@ One of the most commonly used unsteady flow dispersion models is the Advection-D
 
 
 $$
-
 \frac{\partial C}{\partial t} + u\frac{\partial C}{\partial x} = D\frac{\partial^2 C}{\partial x^2}
-
 $$
 
 
@@ -4532,9 +4490,7 @@ The rate of a chemical reaction is typically described by a mathematical express
 
 
 $$
-
 \frac{dC}{dt} = kC^n
-
 $$
 
 
@@ -4606,9 +4562,7 @@ The rate of a chemical reaction is typically described by a mathematical express
 
 
 $$
-
 \frac{dC}{dt} = kC^n
-
 $$
 
 
@@ -4668,9 +4622,7 @@ The rate of a chemical reaction is typically described by a mathematical express
 
 
 $$
-
 \frac{dC}{dt} = kC^n
-
 $$
 
 
@@ -4742,9 +4694,7 @@ The rate of a chemical reaction is typically described by a mathematical express
 
 
 $$
-
 \frac{dC}{dt} = kC^n
-
 $$
 
 
@@ -4818,9 +4768,7 @@ The rate of a chemical reaction is typically described by a mathematical express
 
 
 $$
-
 \frac{dC}{dt} = kC^n
-
 $$
 
 

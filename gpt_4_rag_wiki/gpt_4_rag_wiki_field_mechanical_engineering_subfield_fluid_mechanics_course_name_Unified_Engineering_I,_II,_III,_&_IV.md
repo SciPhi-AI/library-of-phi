@@ -1490,9 +1490,7 @@ The sum of forces acting on a body is given by the equation:
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
@@ -1514,9 +1512,7 @@ The sum of moments about a point is given by the equation:
 
 
 $$
-
 \sum M = 0
-
 $$
 
 
@@ -1538,9 +1534,7 @@ Summing the forces:
 
 
 $$
-
 R_a + R_b + R_c = 0
-
 $$
 
 
@@ -1550,9 +1544,7 @@ And summing the moments about the free end (A):
 
 
 $$
-
 R_a(10) + R_b(25) + R_c(50) - (1)(15)(17.5) -50 + M_c= 0
-
 $$
 
 
@@ -1582,9 +1574,7 @@ For a body to be in equilibrium, two conditions must be satisfied:
 
 
 $$
-
 \sum F = 0
-
 $$
 
 
@@ -1594,9 +1584,7 @@ $$
 
 
 $$
-
 \sum M = 0
-
 $$
 
 
@@ -1618,7 +1606,6 @@ The weak form of the Kirchhoff plate, which is a part of the Föppl–von Kárm�
 
 
 $$
-
 \begin{align*}
 
 &+ \int_{\Omega} N_{11}\frac{\partial\delta v_1}{\partial x_1} + N_{12}\frac{\partial\delta v_1}{\partial x_2}\,d\Omega = -\int_{\Omega} p_1 \delta v_1 \,d\Omega \\
@@ -1632,7 +1619,6 @@ $$
 &+ \int_{\Omega} N_{12}\left(\frac{\partial \delta w}{\partial x_1}\frac{\partial\delta w}{\partial x_2} + \frac{\partial w}{\partial x_1}\frac{\partial\delta w}{\partial x_2}\right) - 2M_{12}\frac{\partial^2 \delta w}{\partial x_1\partial x_2} \,d\Omega = -\int_{\Omega} p_3 \delta w \,d\Omega\\
 
 \end{align*}
-
 $$
 
 
@@ -1690,25 +1676,19 @@ Once the FBD is constructed, it can be used to apply the conditions of equilibri
 
 
 $$
-
 \sum F_x = 0
-
 $$
 
 
 
 $$
-
 \sum F_y = 0
-
 $$
 
 
 
 $$
-
 \sum M = 0
-
 $$
 
 
@@ -1738,9 +1718,7 @@ The first law, also known as the law of inertia, states that an object at rest t
 
 
 $$
-
 \sum F = 0 \Rightarrow \frac{d\vec{v}}{dt} = 0
-
 $$
 
 
@@ -1758,9 +1736,7 @@ The second law states that the rate of change of momentum of an object is direct
 
 
 $$
-
 \sum F = m \frac{d\vec{v}}{dt}
-
 $$
 
 
@@ -1778,9 +1754,7 @@ The third law, also known as the law of action and reaction, states that for eve
 
 
 $$
-
 \vec{F}_{12} = -\vec{F}_{21}
-
 $$
 
 
@@ -1814,9 +1788,7 @@ The position of an object is its location in space. It is usually described in t
 
 
 $$
-
 \vec{d} = \vec{r}_f - \vec{r}_i
-
 $$
 
 
@@ -1834,9 +1806,7 @@ Velocity is the rate of change of displacement with respect to time. It is also 
 
 
 $$
-
 \vec{v} = \frac{d\vec{r}}{dt}
-
 $$
 
 
@@ -1854,9 +1824,7 @@ Acceleration is the rate of change of velocity with respect to time. It is a vec
 
 
 $$
-
 \vec{a} = \frac{d\vec{v}}{dt}
-
 $$
 
 
@@ -1874,17 +1842,13 @@ In one-dimensional motion, the direction of motion can be represented by a posit
 
 
 $$
-
 \vec{v} = \vec{v}_i + \vec{a}t
-
 $$
 
 
 
 $$
-
 \vec{d} = \vec{v}_i t + \frac{1}{2}\vec{a}t^2
-
 $$
 
 
@@ -1922,9 +1886,7 @@ Energy is the capacity to do work. It can exist in various forms such as kinetic
 
 
 $$
-
 \Delta E = \Delta K + \Delta U + \Delta Q
-
 $$
 
 
@@ -1942,9 +1904,7 @@ Momentum is a vector quantity that depends on both the mass and velocity of an o
 
 
 $$
-
 \vec{p} = m\vec{v}
-
 $$
 
 
@@ -1974,9 +1934,7 @@ There are two types of COF: static and kinetic. The static COF is the friction t
 
 
 $$
-
 F_f = \mu F_n
-
 $$
 
 
@@ -2002,9 +1960,7 @@ In circular motion, the velocity of the object is constantly changing because it
 
 
 $$
-
 a_c = \frac{v^2}{r}
-
 $$
 
 
@@ -2022,9 +1978,7 @@ Angular velocity, often denoted by $\omega$, is the rate of change of the angle 
 
 
 $$
-
 \omega = \frac{d\theta}{dt}
-
 $$
 
 
@@ -2042,9 +1996,7 @@ In the context of relativistic physics, the three-acceleration vector is perpend
 
 
 $$
-
 \alpha^2 = \gamma^4 a^2
-
 $$
 
 
@@ -2054,9 +2006,7 @@ Taking the positive square root and using the three-acceleration, we arrive at t
 
 
 $$
-
 \alpha = \gamma^2 \frac{v^2}{r}
-
 $$
 
 
@@ -2090,9 +2040,7 @@ Torque, often denoted by $\tau$, is the rotational equivalent of force. It is a 
 
 
 $$
-
 \tau = r \times F
-
 $$
 
 
@@ -2110,9 +2058,7 @@ The moment of inertia, often denoted by $I$, is the rotational equivalent of mas
 
 
 $$
-
 I = m \times r^2
-
 $$
 
 
@@ -2130,9 +2076,7 @@ Angular momentum, often denoted by $L$, is the rotational equivalent of linear m
 
 
 $$
-
 L = I \times \omega
-
 $$
 
 
@@ -2150,9 +2094,7 @@ The kinetic energy of an object in rotational motion is given by the equation:
 
 
 $$
-
 K = \frac{1}{2} I \omega^2
-
 $$
 
 
@@ -2190,9 +2132,7 @@ The kinetic energy of an object of mass $m$ moving with a velocity $v$ is given 
 
 
 $$
-
 K = \frac{1}{2} m v^2
-
 $$
 
 
@@ -2206,9 +2146,7 @@ Potential energy, on the other hand, is the energy stored in an object due to it
 
 
 $$
-
 U = mgh
-
 $$
 
 
@@ -2226,9 +2164,7 @@ Momentum, often denoted by $p$, is a vector quantity that is the product of the 
 
 
 $$
-
 p = m \times v
-
 $$
 
 
@@ -2254,9 +2190,7 @@ The kinetic energy of a system of $N$ particles, each of mass $m_i$ and velocity
 
 
 $$
-
 K = \frac{1}{2} \sum_{i=1}^{N} m_i v_i^2
-
 $$
 
 
@@ -2266,9 +2200,7 @@ The momentum of a system of $N$ particles, each of mass $m_i$ and velocity $v_i$
 
 
 $$
-
 p = \sum_{i=1}^{N} m_i v_i
-
 $$
 
 
@@ -2286,9 +2218,7 @@ Work, often denoted by $W$, is a measure of energy transfer that occurs when an 
 
 
 $$
-
 W = F \times d
-
 $$
 
 
@@ -2302,9 +2232,7 @@ The work done on an object is equal to the change in its kinetic energy, a princ
 
 
 $$
-
 W = \Delta K
-
 $$
 
 
@@ -2544,9 +2472,7 @@ Elasticity is the ability of a material to return to its original shape after be
 
 
 $$
-
 E = \frac{\sigma}{\varepsilon}
-
 $$
 
 
@@ -2756,9 +2682,7 @@ The mathematical representation of elasticity is given by the elasticity tensor,
 
 
 $$
-
 C^{ijkl} = \lambda \!\left( X \right) g^{ij} g^{kl} + \mu\!\left( X \right) \left(g^{ik} g^{jl} + g^{il} g^{kj} \right)
-
 $$
 
 
@@ -2768,9 +2692,7 @@ where $\lambda$ and $\mu$ are scalar functions of the material coordinates $X$, 
 
 
 $$
-
 C_{ijkl} = \lambda \!\left( X \right) \delta_{ij} \delta_{kl} + \mu\!\left( X \right) \left(\delta_{ik} \delta_{jl} + \delta_{il} \delta_{kj} \right) \quad \text{[Cartesian coordinates]}
-
 $$
 
 
@@ -2784,9 +2706,7 @@ For cubic crystals, the elasticity tensor has components:
 
 
 $$
-
 C^{ijkl} = \lambda g^{ij} g^{kl} + \mu \left(g^{ik} g^{jl} + g^{il} g^{kj} \right) + \alpha \left(a^i a^j a^k a^l + b^i b^j b^k b^l + c^i c^j c^k c^l\right)
-
 $$
 
 
@@ -2816,9 +2736,7 @@ The plastic flow rule, which describes the evolution of plastic strain, can be w
 
 
 $$
-
 \dot{\varepsilon}^p = \dot{\lambda} \frac{\partial f}{\partial \sigma}
-
 $$
 
 
@@ -2836,9 +2754,7 @@ The Hebbian plasticity rule can be mathematically represented as:
 
 
 $$
-
 \Delta w_{ij} = \eta x_i x_j
-
 $$
 
 
@@ -2868,9 +2784,7 @@ The creep strain, $\varepsilon_{cr}$, can be represented mathematically as:
 
 
 $$
-
 \varepsilon_{cr} = \varepsilon_0 + \frac{\sigma}{E}t + K\sigma^n t
-
 $$
 
 
@@ -2888,9 +2802,7 @@ The number of cycles to failure, $N_f$, under a given stress amplitude, $\sigma_
 
 
 $$
-
 \sigma_a = \sigma'_{f} (2N_f)^b
-
 $$
 
 
@@ -2932,9 +2844,7 @@ The failure of composite materials can be represented by the Tsai-Hill failure c
 
 
 $$
-
 \frac{\sigma_x^2}{X^2} + \frac{\sigma_y^2}{Y^2} - \frac{\sigma_x \sigma_y}{X^2} + \frac{\tau_{xy}^2}{S^2} = 1
-
 $$
 
 
@@ -2988,9 +2898,7 @@ The failure of heat-treated materials can be represented by the time-temperature
 
 
 $$
-
 \frac{dT}{dt} = -k(T - T_{\infty})
-
 $$
 
 
@@ -3138,9 +3046,7 @@ The First Law of Thermodynamics, also known as the Law of Energy Conservation, s
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -3158,9 +3064,7 @@ The Second Law of Thermodynamics introduces the concept of entropy, a measure of
 
 
 $$
-
 \Delta S \geq \frac{Q_{rev}}{T}
-
 $$
 
 
@@ -3198,9 +3102,7 @@ Heat is a form of energy transfer that occurs due to a temperature difference be
 
 
 $$
-
 Q = mc\Delta T
-
 $$
 
 
@@ -3222,9 +3124,7 @@ Work, on the other hand, is a form of energy transfer that occurs when a force i
 
 
 $$
-
 W = Fd
-
 $$
 
 
@@ -3246,9 +3146,7 @@ The First Law of Thermodynamics establishes a relationship between heat, work, a
 
 
 $$
-
 \Delta U = Q - W
-
 $$
 
 
@@ -3302,9 +3200,7 @@ Not all energy conversions are 100% efficient. In fact, most are not. The effici
 
 
 $$
-
 \eta = \frac{E_{out}}{E_{in}} \times 100\%
-
 $$
 
 
@@ -3450,9 +3346,7 @@ The equation for entropy production is given by:
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_{i}}{\partial x_{j}} + \frac{\partial v_{j}}{\partial x_{i}} - \frac{2}{3}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -3486,9 +3380,7 @@ The efficiency of a heat engine is defined as the ratio of the work done by the 
 
 
 $$
-
 \eta = \frac{W}{Q_H}
-
 $$
 
 
@@ -3506,9 +3398,7 @@ Refrigerators and heat pumps operate on a cycle and receive work from the surrou
 
 
 $$
-
 COP = \frac{Q_H}{W}
-
 $$
 
 
@@ -3534,9 +3424,7 @@ Gas laws are physical laws that describe the behavior of gases. They are based o
 
 
 $$
-
 PV = nRT
-
 $$
 
 
@@ -3586,9 +3474,7 @@ The state of chemical equilibrium can be described using the Gibbs free energy "
 
 
 $$
-
 G = \sum_j \mu_j N_j
-
 $$
 
 
@@ -3602,9 +3488,7 @@ For a closed system, the total number of atoms of each element will remain const
 
 
 $$
-
 \sum_j a_{ij} N_j = b_i
-
 $$
 
 
@@ -3618,9 +3502,7 @@ This is a standard problem in optimisation, known as constrained minimisation. T
 
 
 $$
-
 \mu_j = \mu_j^{\ominus} + RT \ln A_j + \sum_i \lambda_i a_{ij}
-
 $$
 
 
@@ -3654,9 +3536,7 @@ In a power cycle, the working fluid undergoes a series of processes. The entropy
 
 
 $$
-
 \Delta S = \int_{1}^{2} \frac{dQ}{T}
-
 $$
 
 
@@ -3674,9 +3554,7 @@ Entropy generation or production refers to the increase in entropy in a system d
 
 
 $$
-
 S_{gen} = \int_{1}^{2} \frac{dQ_{irr}}{T}
-
 $$
 
 
@@ -3706,9 +3584,7 @@ The efficiency of the Carnot cycle is given by:
 
 
 $$
-
 \eta = 1 - \frac{T_C}{T_H}
-
 $$
 
 
@@ -3738,9 +3614,7 @@ In power cycles, heat transfer occurs during the processes where the working flu
 
 
 $$
-
 Q_{12} = \int_{1}^{2} TdS
-
 $$
 
 
@@ -3762,9 +3636,7 @@ The entropy generation due to heat transfer is given by:
 
 
 $$
-
 S_{gen} = \int_{1}^{2} \frac{dQ_{irr}}{T}
-
 $$
 
 
@@ -3830,9 +3702,7 @@ Energy efficiency is a critical aspect of refrigeration and air conditioning sys
 
 
 $$
-
 COP = \frac{Q_{cooling}}{W_{input}}
-
 $$
 
 
@@ -3886,7 +3756,6 @@ Explain the four laws of thermodynamics in your own words.
 #### Exercise 2
 
 A heat engine operates between two reservoirs at temperatures of 800 K and 400 K. What is the maximum possible efficiency of this engine? Use the formula for Carnot efficiency: $$\eta = 1 - \frac{T_c}{T_h}$$
-
 
 
 #### Exercise 3
@@ -3954,13 +3823,11 @@ In the study of fluid mechanics, understanding the properties of fluids is cruci
 Density is a fundamental property of matter, including fluids. It is defined as the mass of a substance per unit volume. For a fluid with mass $m$ and volume $V$, the density $\rho$ is given by:
 
 
-
 $$
 
 \rho = \frac{m}{V}
 
 $$
-
 
 
 The SI unit for density is kilograms per cubic meter (kg/m<sup>3</sup>). The density of a fluid can change with temperature and pressure, but for liquids, this change is usually small.
@@ -4010,13 +3877,11 @@ Fluid statics, also known as hydrostatics, is the study of fluids at rest. The f
 Pressure is a scalar quantity defined as the force exerted per unit area. In the context of fluid statics, it is the force exerted by a fluid on the walls of its container or any object immersed in it. For a force $F$ acting on an area $A$, the pressure $P$ is given by:
 
 
-
 $$
 
 P = \frac{F}{A}
 
 $$
-
 
 
 The SI unit for pressure is the Pascal (Pa), which is equivalent to one Newton per square meter (N/m<sup>2</sup>). Pressure in a fluid at rest is the same in all directions, a consequence of the fluid's inability to sustain shear stress.
@@ -4038,13 +3903,11 @@ Pascal's law, named after the French scientist Blaise Pascal, states that any ch
 The hydrostatic equation describes the variation of pressure with depth in a fluid at rest. It is derived from the balance of forces acting on a fluid element. The equation is given by:
 
 
-
 $$
 
 \frac{dP}{dz} = -\rho g
 
 $$
-
 
 
 where $P$ is the pressure, $z$ is the depth (measured positive upwards), $\rho$ is the fluid density, and $g$ is the acceleration due to gravity. The negative sign indicates that pressure increases with depth.
@@ -4086,13 +3949,11 @@ Streamlines, pathlines, and streaklines are three important concepts used to vis
 A streamline is a curve that is tangent to the velocity vector of the fluid at every point along the curve. Mathematically, a streamline satisfies the differential equation:
 
 
-
 $$
 
 \frac{d\mathbf{x}}{dt} = \mathbf{v}(\mathbf{x}, t)
 
 $$
-
 
 
 A pathline is the trajectory that a fluid particle follows. It is obtained by integrating the velocity field over time.
@@ -4110,13 +3971,11 @@ A streakline is the locus of particles that have passed through a particular spa
 The substantial derivative, also known as the material derivative, is a derivative taken along a path moving with the fluid. It is used to describe the rate of change of a fluid property, such as velocity or temperature, as seen by an observer moving with the fluid. The substantial derivative of a scalar field $f(\mathbf{x}, t)$ is given by:
 
 
-
 $$
 
 \frac{Df}{Dt} = \frac{\partial f}{\partial t} + \mathbf{v} \cdot \nabla f
 
 $$
-
 
 
 where $\nabla f$ is the gradient of $f$.
@@ -4146,13 +4005,11 @@ The conservation of mass, also known as the continuity equation, states that the
 Mathematically, the conservation of mass can be expressed as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
 
 $$
-
 
 
 where $\rho$ is the fluid density, $t$ is the time, $\mathbf{v}$ is the velocity field, and $\nabla \cdot (\rho \mathbf{v})$ is the divergence of the mass flux.
@@ -4170,13 +4027,11 @@ The conservation of momentum is derived from Newton's second law of motion and s
 The conservation of momentum can be expressed as:
 
 
-
 $$
 
 \frac{D(\rho \mathbf{v})}{Dt} = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
 
 $$
-
 
 
 where $D/Dt$ is the substantial derivative, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\nabla^2$ is the Laplacian operator, and $\mathbf{g}$ is the gravitational acceleration.
@@ -4194,13 +4049,11 @@ The conservation of energy, also known as the first law of thermodynamics, state
 The conservation of energy can be expressed as:
 
 
-
 $$
 
 \frac{D}{Dt} \left( \frac{1}{2} \rho v^2 + \rho e \right) = -\nabla \cdot (\rho \mathbf{v} h) + \rho \mathbf{v} \cdot \mathbf{g} + \Phi
 
 $$
-
 
 
 where $v$ is the speed of the fluid, $e$ is the internal energy per unit mass, $h$ is the enthalpy per unit mass, and $\Phi$ represents the work done by viscous forces.
@@ -4226,13 +4079,11 @@ Bernoulli's equation is a fundamental principle in fluid dynamics that describes
 Consider a small fluid element of mass $dm$ moving along a streamline. The work done on the fluid element by the pressure forces and the gravitational force is equal to the change in its kinetic and potential energy. This can be expressed mathematically as:
 
 
-
 $$
 
 dW = dK + dU
 
 $$
-
 
 
 where $dW$ is the work done on the fluid element, $dK$ is the change in kinetic energy, and $dU$ is the change in potential energy.
@@ -4246,7 +4097,6 @@ The work done by the pressure forces is given by $dW_p = -p dV$, where $p$ is th
 Substituting these expressions into the work-energy equation gives:
 
 
-
 $$
 
 -p dV + dm g dz = \frac{1}{2} dm v dv + dm g dz
@@ -4254,9 +4104,7 @@ $$
 $$
 
 
-
 Simplifying and dividing through by $dm$ gives Bernoulli's equation:
-
 
 
 $$
@@ -4266,9 +4114,7 @@ $$
 $$
 
 
-
 Finally, recognizing that $\frac{dV}{dm} = \frac{1}{\rho}$, where $\rho$ is the fluid density, we obtain the final form of Bernoulli's equation:
-
 
 
 $$
@@ -4276,7 +4122,6 @@ $$
 \frac{v^2}{2} + g z + \frac{p}{\rho} = constant
 
 $$
-
 
 
 along a streamline.
@@ -4310,13 +4155,11 @@ Viscosity is a measure of a fluid's resistance to shear or flow. It is a propert
 The Reynolds number, $Re$, is defined as:
 
 
-
 $$
 
 Re = \frac{\rho vD}{\mu}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $v$ is the average fluid velocity, $D$ is the pipe diameter, and $\mu$ is the dynamic viscosity of the fluid.
@@ -4330,7 +4173,6 @@ For $Re < 2000$, the flow is considered laminar, and for $Re > 4000$, the flow i
 The pressure drop due to viscous effects, $\Delta p$, in a pipe of length $L$ and diameter $D$ can be calculated using the Hagen-Poiseuille equation for laminar flow:
 
 
-
 $$
 
 \Delta p = \frac{32 \mu v L}{D^2}
@@ -4338,9 +4180,7 @@ $$
 $$
 
 
-
 and using the Darcy-Weisbach equation for turbulent flow:
-
 
 
 $$
@@ -4348,7 +4188,6 @@ $$
 \Delta p = f \frac{L}{D} \frac{1}{2} \rho v^2
 
 $$
-
 
 
 where $f$ is the Darcy friction factor, which depends on the Reynolds number and the relative roughness of the pipe.
@@ -4378,13 +4217,11 @@ Drag is the force that opposes the motion of the fluid. In the context of fluid 
 The drag force, $F_d$, can be calculated using the following equation:
 
 
-
 $$
 
 F_d = \frac{1}{2} C_d \rho v^2 A
 
 $$
-
 
 
 where $C_d$ is the drag coefficient, $\rho$ is the fluid density, $v$ is the fluid velocity, and $A$ is the cross-sectional area of the pipe.
@@ -4406,13 +4243,11 @@ Lift is the force that acts perpendicular to the direction of fluid flow. In the
 The lift force, $F_L$, can be calculated using the following equation:
 
 
-
 $$
 
 F_L = \frac{1}{2} C_L \rho v^2 A
 
 $$
-
 
 
 where $C_L$ is the lift coefficient, $\rho$ is the fluid density, $v$ is the fluid velocity, and $A$ is the cross-sectional area of the pipe.
@@ -4442,13 +4277,11 @@ Compressible flow refers to the flow of fluids that are susceptible to changes i
 The compressibility factor, often denoted as $Z$, is a dimensionless quantity that describes the deviation of a real gas from ideal gas behavior. It is defined as the ratio of the actual volume of a gas to the volume predicted by the ideal gas law at the same temperature and pressure. Mathematically, it can be expressed as:
 
 
-
 $$
 
 Z = \frac{PV}{nRT}
 
 $$
-
 
 
 where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is the universal gas constant, and $T$ is the temperature. For an ideal gas, $Z$ equals 1. Deviations from this value indicate the degree of non-ideality or compressibility of the gas.
@@ -4466,13 +4299,11 @@ In the context of fluid flow in pipes, compressible flow can lead to significant
 The continuity equation for compressible flow is given by:
 
 
-
 $$
 
 \rho AV = \text{constant}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $A$ is the cross-sectional area of the pipe, and $V$ is the fluid velocity. This equation states that the mass flow rate is constant along the pipe.
@@ -4482,13 +4313,11 @@ where $\rho$ is the fluid density, $A$ is the cross-sectional area of the pipe, 
 The energy equation for compressible flow, also known as the Bernoulli's equation for compressible flow, can be derived from the first law of thermodynamics and is given by:
 
 
-
 $$
 
 h + \frac{V^2}{2} + gz = \text{constant}
 
 $$
-
 
 
 where $h$ is the specific enthalpy of the fluid, $V$ is the fluid velocity, $g$ is the acceleration due to gravity, and $z$ is the height above a reference plane. This equation states that the total energy per unit mass is constant along a streamline.
@@ -4514,13 +4343,11 @@ Turbulent flow is a type of fluid (gas or liquid) flow in which the fluid underg
 The transition from laminar to turbulent flow depends on the Reynolds number, a dimensionless quantity used to predict the onset of turbulence. It is defined as the ratio of inertial forces to viscous forces and can be expressed as:
 
 
-
 $$
 
 Re = \frac{\rho VD}{\mu}
 
 $$
-
 
 
 where $\rho$ is the fluid density, $V$ is the fluid velocity, $D$ is the characteristic linear dimension (typically the hydraulic diameter for a pipe), and $\mu$ is the dynamic viscosity of the fluid. For pipe flow, a Reynolds number less than 2000 typically indicates laminar flow, while a Reynolds number greater than 4000 indicates turbulent flow.
@@ -4534,7 +4361,6 @@ where $\rho$ is the fluid density, $V$ is the fluid velocity, $D$ is the charact
 In the context of fluid flow in pipes, turbulent flow can lead to significant energy losses due to friction. The friction factor, often denoted as $f$, is a dimensionless quantity that describes the resistance to flow. For turbulent flow in smooth pipes, the friction factor can be estimated using the Blasius equation:
 
 
-
 $$
 
 f = 0.316 Re^{-0.25}
@@ -4542,9 +4368,7 @@ f = 0.316 Re^{-0.25}
 $$
 
 
-
 The energy equation for turbulent flow can be derived from the first law of thermodynamics and is given by:
-
 
 
 $$
@@ -4552,7 +4376,6 @@ $$
 h + \frac{V^2}{2} + gz + f \frac{L}{D} \frac{V^2}{2} = \text{constant}
 
 $$
-
 
 
 where $h$ is the specific enthalpy of the fluid, $V$ is the fluid velocity, $g$ is the acceleration due to gravity, $z$ is the height above a reference plane, $f$ is the friction factor, $L$ is the length of the pipe, and $D$ is the diameter of the pipe. This equation states that the sum of the fluid's enthalpy, kinetic energy, potential energy, and energy loss due to friction is constant along the pipe.
@@ -4586,7 +4409,6 @@ The boundary layer forms when a fluid flows over a solid surface. At the surface
 The Blasius boundary layer is a solution to the boundary layer equations for steady, two-dimensional, incompressible flow over a flat plate. The Blasius solution is given by:
 
 
-
 $$
 
 \frac{du}{dy} = \frac{U}{\sqrt{Re_x}} f'(\eta)
@@ -4594,9 +4416,7 @@ $$
 $$
 
 
-
 where $u$ is the fluid velocity, $y$ is the distance from the wall, $U$ is the free stream velocity, $Re_x$ is the Reynolds number based on the distance from the leading edge of the plate, $f'(\eta)$ is the derivative of the Blasius function, and $\eta$ is a similarity variable defined as:
-
 
 
 $$
@@ -4604,7 +4424,6 @@ $$
 \eta = y \sqrt{\frac{U}{\nu x}}
 
 $$
-
 
 
 where $\nu$ is the kinematic viscosity of the fluid and $x$ is the distance from the leading edge of the plate.
@@ -4618,23 +4437,18 @@ where $\nu$ is the kinematic viscosity of the fluid and $x$ is the distance from
 In the case of compressible flow, the Blasius boundary layer equations become more complex due to the variation of fluid properties such as density, viscosity, and thermal conductivity. The equations for conservation of mass, momentum, and energy in the compressible Blasius boundary layer are given by:
 
 
-
 $$
 
 \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0,
 
 $$
-
 $$
 
 \rho \left(u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} \right) = \frac{\partial }{\partial y} \left(\mu\frac{\partial u}{\partial y}\right),
-
 $$
 
 $$
-
 \rho \left(u \frac{\partial h}{\partial x} + v \frac{\partial h}{\partial y} \right) = \frac{\partial }{\partial y} \left(\frac{\mu}{Pr} \frac{\partial h}{\partial y} \right) + \mu \left( \frac{\partial u}{\partial y}\right)^2
-
 $$
 
 
@@ -4652,9 +4466,7 @@ The Howarth-Dorodnitsyn transformation is a self-similar transformation that sim
 
 
 $$
-
 \eta = \sqrt{\frac{U}{2\nu_\infty x}} \int_0^y \frac{\rho}{\rho_\infty} dy, \quad f(\eta) = \frac{\psi}{\sqrt{2\nu_\infty U x}}, \quad \tilde h(\eta) = \frac{h}{h_\infty}, \quad \tilde h_w = \frac{h_w}{h_\infty}, \quad \tilde \rho = \frac{\rho}{\rho_\infty},
-
 $$
 
 
@@ -4762,9 +4574,7 @@ Resistors are one of the most basic and commonly used circuit elements. They are
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -4782,9 +4592,7 @@ Capacitors are circuit elements that store electrical energy in an electric fiel
 
 
 $$
-
 Q = CV
-
 $$
 
 
@@ -4802,9 +4610,7 @@ Inductors are circuit elements that store energy in a magnetic field when electr
 
 
 $$
-
 V = L \frac{dI}{dt}
-
 $$
 
 
@@ -4834,9 +4640,7 @@ Ohm's Law states that the current flowing through a conductor between two points
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -4890,9 +4694,7 @@ Kirchhoff's Current Law, also known as Kirchhoff's First Law or the Junction Rul
 
 
 $$
-
 \sum_{k=1}^{n} I_k = 0
-
 $$
 
 
@@ -4910,9 +4712,7 @@ Kirchhoff's Voltage Law, also known as Kirchhoff's Second Law or the Loop Rule, 
 
 
 $$
-
 \sum_{k=1}^{n} V_k = 0
-
 $$
 
 
@@ -5254,9 +5054,7 @@ An operational amplifier produces an output voltage that is typically hundreds o
 
 
 $$
-
 V_{out} = A(V_{+} - V_{-})
-
 $$
 
 
@@ -5544,9 +5342,7 @@ Mathematically, stress ($\sigma$) is defined as the ratio of the applied force (
 
 
 $$
-
 \sigma = \frac{F}{A}
-
 $$
 
 
@@ -5564,9 +5360,7 @@ Strain, on the other hand, is a measure of deformation representing the displace
 
 
 $$
-
 \epsilon = \frac{L - L_0}{L_0}
-
 $$
 
 
@@ -5584,9 +5378,7 @@ The relationship between stress and strain is a critical aspect of materials sci
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -5620,9 +5412,7 @@ The fundamental equation of the Euler-Bernoulli beam theory is the differential 
 
 
 $$
-
 EI \frac{d^4 w}{dx^4} = q(x)
-
 $$
 
 
@@ -5644,17 +5434,13 @@ The fundamental equations of the Timoshenko beam theory are:
 
 
 $$
-
 EI \frac{d^2 w}{dx^2} + Gk \frac{dw}{dx} = M(x)
-
 $$
 
 
 
 $$
-
 Gk \frac{d^2 w}{dx^2} + \rho A \frac{dw}{dt} = V(x)
-
 $$
 
 
@@ -5680,9 +5466,7 @@ The bending stress in a beam can be calculated using the flexure formula:
 
 
 $$
-
 \sigma = \frac{My}{I}
-
 $$
 
 
@@ -5708,9 +5492,7 @@ The most fundamental theory of buckling is Euler's buckling theory, named after 
 
 
 $$
-
 P_{cr} = \frac{\pi^2 EI}{(KL)^2}
-
 $$
 
 
@@ -5736,9 +5518,7 @@ The effect of imperfections on buckling can be analyzed using the concept of the
 
 
 $$
-
 P_{cr} = \frac{\pi^2 EI}{(KL)^2} - \alpha \frac{EI}{L^2} \delta_0
-
 $$
 
 
@@ -5760,9 +5540,7 @@ Inelastic buckling can be analyzed using the concept of the reduced modulus of e
 
 
 $$
-
 P_{cr} = \frac{\pi^2 E_r I}{(KL)^2}
-
 $$
 
 
@@ -5960,9 +5738,7 @@ When a composite material is subjected to bending, the stress distribution acros
 
 
 $$
-
 \sigma = \frac{M}{S}
-
 $$
 
 
@@ -5984,9 +5760,7 @@ Shear stress in composite materials is also influenced by the properties and arr
 
 
 $$
-
 \tau = \frac{V}{A}
-
 $$
 
 
@@ -6020,9 +5794,7 @@ Deflection in composite materials is influenced by the properties and arrangemen
 
 
 $$
-
 \delta = \frac{PL^3}{48EI}
-
 $$
 
 
@@ -6044,9 +5816,7 @@ Stiffness in composite materials is also influenced by the properties and arrang
 
 
 $$
-
 k = \frac{EA}{L}
-
 $$
 
 
@@ -6084,9 +5854,7 @@ The fatigue life, $N_f$, of a composite material can be estimated using the S-N 
 
 
 $$
-
 N_f = \frac{1}{\sigma_a} \left( \frac{\sigma_{ult}}{\sigma_a} \right)^k
-
 $$
 
 
@@ -6108,9 +5876,7 @@ Failure in composite materials is also influenced by the properties and arrangem
 
 
 $$
-
 F = \frac{P_{ult}A}{L}
-
 $$
 
 
@@ -6254,7 +6020,6 @@ Finally, we will explore the concept of feedback and its importance in system de
 Throughout this chapter, we will use the powerful mathematical language of calculus and linear algebra, and we will represent mathematical expressions in TeX and LaTeX style syntax, rendered using the MathJax library. For example, we might represent a signal $y_j(n)$ or an equation like $$\Delta w = ...$$
 
 
-
 By the end of this chapter, you will have a solid understanding of the fundamental concepts of signals and systems, and you will be equipped with the mathematical tools necessary to analyze and design complex engineering systems.
 
 
@@ -6322,7 +6087,6 @@ The Fourier series is a mathematical tool used in signal processing and system a
 A periodic signal $x(t)$ with period $T$ can be represented as a Fourier series:
 
 
-
 $$
 
 x(t) = a_0 + \sum_{n=1}^{\infty} [a_n \cos(n \omega_0 t) + b_n \sin(n \omega_0 t)]
@@ -6330,9 +6094,7 @@ x(t) = a_0 + \sum_{n=1}^{\infty} [a_n \cos(n \omega_0 t) + b_n \sin(n \omega_0 t
 $$
 
 
-
 where $\omega_0 = \frac{2\pi}{T}$ is the fundamental frequency of the signal, $a_0$ is the DC component (average value) of the signal, and $a_n$ and $b_n$ are the coefficients of the cosine and sine terms, respectively. These coefficients can be calculated using the following formulas:
-
 
 
 $$
@@ -6341,22 +6103,17 @@ a_0 = \frac{1}{T} \int_{0}^{T} x(t) dt
 
 $$
 
-
-
 $$
 
 a_n = \frac{2}{T} \int_{0}^{T} x(t) \cos(n \omega_0 t) dt
 
 $$
 
-
-
 $$
 
 b_n = \frac{2}{T} \int_{0}^{T} x(t) \sin(n \omega_0 t) dt
 
 $$
-
 
 
 #### 8.2.2 Properties of Fourier Series
@@ -6402,13 +6159,11 @@ The Laplace Transform, named after Pierre-Simon Laplace, is a powerful mathemati
 The Laplace Transform of a function $f(t)$, defined for all real numbers $t \geq 0$, is given by the following integral:
 
 
-
 $$
 
 F(s) = \int_{0}^{\infty} f(t) e^{-st} dt
 
 $$
-
 
 
 where $s$ is a complex number and $F(s)$ is the Laplace Transform of $f(t)$. The variable $s$ is often expressed as $s = \sigma + j\omega$, where $\sigma$ and $\omega$ are real numbers representing the damping factor and the frequency, respectively.
@@ -6422,13 +6177,11 @@ where $s$ is a complex number and $F(s)$ is the Laplace Transform of $f(t)$. The
 The Inverse Laplace Transform is used to recover the original function $f(t)$ from its Laplace Transform $F(s)$. It is defined by the following complex contour integral:
 
 
-
 $$
 
 f(t) = \frac{1}{2\pi j} \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) e^{st} ds
 
 $$
-
 
 
 where $\gamma$ is a real number such that all the singularities of $F(s)$ are to the left of the line $\Re(s) = \gamma$ in the complex plane.
@@ -6478,13 +6231,11 @@ The frequency response of a system or a signal is a measure of the magnitude and
 The frequency response of a system is defined as the Fourier Transform of its impulse response. For a system with impulse response $h(t)$, the frequency response $H(\omega)$ is given by:
 
 
-
 $$
 
 H(\omega) = \int_{-\infty}^{\infty} h(t) e^{-j\omega t} dt
 
 $$
-
 
 
 where $\omega$ is the frequency in radians per second and $j$ is the imaginary unit. The frequency response is generally a complex function, and it can be expressed in terms of its magnitude and phase as $H(\omega) = |H(\omega)| e^{j\phi(\omega)}$.
@@ -6634,13 +6385,11 @@ In the next section, we will delve deeper into the mathematical details of feedb
 The Z-transform is a powerful tool in the analysis and design of discrete-time control systems. It provides a mathematical framework for understanding the behavior of discrete-time systems in the frequency domain. The Z-transform of a discrete-time signal $x[n]$ is defined as:
 
 
-
 $$
 
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 
 $$
-
 
 
 where $z$ is a complex number. The Z-transform is a generalization of the discrete-time Fourier transform (DTFT), with the DTFT being a special case of the Z-transform when $|z|=1$.
@@ -6658,13 +6407,11 @@ The Z-transform has several important properties that make it particularly usefu
 The advanced Z-transform is an extension of the Z-transform, designed to incorporate ideal delays that are not multiples of the sampling time. It takes the form:
 
 
-
 $$
 
 F(z, m) = \sum_{k=-\infty}^{\infty} f(kT + m)z^{-k}
 
 $$
-
 
 
 where $T$ is the sampling time and $m$ is the delay parameter. This form of the Z-transform is also known as the modified Z-transform. It is widely applied in digital control to accurately model processing delays.
@@ -6682,7 +6429,6 @@ If the delay parameter, $m$, is considered fixed then all the properties of the 
 Consider the following example where $f(t) = \cos(\omega t)$:
 
 
-
 $$
 
 F(z, m) = \mathcal{Z} \left\{ \cos \left(\omega \left(k T + m \right) \right) \right\}
@@ -6690,9 +6436,7 @@ F(z, m) = \mathcal{Z} \left\{ \cos \left(\omega \left(k T + m \right) \right) \r
 $$
 
 
-
 If $m=0$ then $F(z, m)$ reduces to the transform
-
 
 
 $$
@@ -6700,7 +6444,6 @@ $$
 F(z) = \mathcal{Z} \left\{ \cos \left(\omega k T \right) \right\}
 
 $$
-
 
 
 which is clearly just the Z-transform of $f(t)$.
@@ -6782,7 +6525,6 @@ The state-space representation of a system is a mathematical model that describe
 The state-space representation of a system is given by:
 
 
-
 $$
 
 \begin{align*}
@@ -6794,7 +6536,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $\mathbf{x}(t)$ is the state vector, $\mathbf{u}(t)$ is the input vector, $\mathbf{y}(t)$ is the output vector, and $\mathbf{A}$, $\mathbf{B}$, $\mathbf{C}$, and $\mathbf{D}$ are matrices that define the system dynamics.
@@ -6852,13 +6593,11 @@ The foundation of adaptive control is parameter estimation, a branch of system i
 The recursive least squares method is given by:
 
 
-
 $$
 
 \hat{\theta}(n) = \hat{\theta}(n-1) + P(n)e(n)x(n)
 
 $$
-
 
 
 where $\hat{\theta}(n)$ is the parameter estimate, $P(n)$ is the covariance matrix, $e(n)$ is the estimation error, and $x(n)$ is the input vector.
@@ -6868,13 +6607,11 @@ where $\hat{\theta}(n)$ is the parameter estimate, $P(n)$ is the covariance matr
 The gradient descent method is given by:
 
 
-
 $$
 
 \hat{\theta}(n) = \hat{\theta}(n-1) - \mu \nabla J(n)
 
 $$
-
 
 
 where $\mu$ is the step size and $\nabla J(n)$ is the gradient of the cost function.
@@ -6908,13 +6645,11 @@ In the context of feedback and stability, adaptive control plays a crucial role.
 The stability of an adaptive control system can be analyzed using Lyapunov stability theory. If the Lyapunov function $V(\mathbf{x})$ is positive definite and its derivative $\dot{V}(\mathbf{x})$ is negative semi-definite, the system is stable.
 
 
-
 $$
 
 V(\mathbf{x}) > 0, \quad \dot{V}(\mathbf{x}) \leq 0
 
 $$
-
 
 
 Adaptive control provides a powerful tool for managing systems with uncertain or time-varying parameters, ensuring stability and performance under changing conditions.
@@ -7042,7 +6777,6 @@ The motion of a rigid body can be described mathematically using a set of equati
 The Euler's equations of motion are given by:
 
 
-
 $$
 
 \begin{align*}
@@ -7058,7 +6792,6 @@ I_z \dot{\omega}_z - (I_x - I_y) \omega_x \omega_y &= M_z
 $$
 
 
-
 where $I_x$, $I_y$, and $I_z$ are the moments of inertia of the body about the x, y, and z axes, $\omega_x$, $\omega_y$, and $\omega_z$ are the angular velocities about the x, y, and z axes, $\dot{\omega}_x$, $\dot{\omega}_y$, and $\dot{\omega}_z$ are the angular accelerations about the x, y, and z axes, and $M_x$, $M_y$, and $M_z$ are the moments acting about the x, y, and z axes.
 
 
@@ -7066,13 +6799,11 @@ where $I_x$, $I_y$, and $I_z$ are the moments of inertia of the body about the x
 The translation motion of a rigid body can be described using Newton's second law of motion, which states that the acceleration of a body is directly proportional to the net force acting on it and inversely proportional to its mass. This can be written as:
 
 
-
 $$
 
 F = ma
 
 $$
-
 
 
 where $F$ is the net force, $m$ is the mass of the body, and $a$ is its acceleration.
@@ -7302,13 +7033,11 @@ Spacecraft dynamics is the application of the principles of dynamics to the desi
 The motion of a spacecraft is determined by the forces acting on it. These forces include gravity, thrust from the spacecraft's engines, and, in some cases, atmospheric drag. The motion of a spacecraft can be described using Newton's second law of motion, which states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. Mathematically, this can be expressed as:
 
 
-
 $$
 
 F = ma
 
 $$
-
 
 
 where $F$ is the net force, $m$ is the mass of the spacecraft, and $a$ is its acceleration.
@@ -7374,13 +7103,11 @@ Rocket propulsion is a critical aspect of aerospace dynamics, particularly in th
 Rocket engines are the primary source of thrust for a rocket. They work by expelling exhaust gases at high speed. The force exerted on the rocket, or the thrust, can be calculated using the equation:
 
 
-
 $$
 
 F = \dot{m}v_e
 
 $$
-
 
 
 where $F$ is the thrust, $\dot{m}$ is the mass flow rate of the exhaust gases, and $v_e$ is the exhaust velocity.
@@ -7418,13 +7145,11 @@ Flight mechanics deals with the application of the principles of physics to the 
 The motion of a rocket is determined by the forces acting on it, which include gravity, thrust from the rocket's engines, and, in some cases, atmospheric drag. The motion of a rocket can be described using Newton's second law of motion, which states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. This can be expressed mathematically as:
 
 
-
 $$
 
 F = ma
 
 $$
-
 
 
 where $F$ is the net force, $m$ is the mass of the rocket, and $a$ is its acceleration.
@@ -7450,13 +7175,11 @@ Propeller propulsion is one of the oldest forms of aircraft propulsion. It works
 The thrust produced by a propeller can be calculated using the equation:
 
 
-
 $$
 
 T = \eta_p \cdot P
 
 $$
-
 
 
 where $T$ is the thrust, $\eta_p$ is the propeller efficiency, and $P$ is the power supplied to the propeller.
@@ -7474,13 +7197,11 @@ Jet propulsion is a method of propulsion that generates thrust by jetting out a 
 The thrust produced by a jet engine can be calculated using the equation:
 
 
-
 $$
 
 T = \dot{m} \cdot (v_e - v_0)
 
 $$
-
 
 
 where $T$ is the thrust, $\dot{m}$ is the mass flow rate of the exhaust gases, $v_e$ is the exhaust velocity, and $v_0$ is the free stream velocity.
@@ -7522,13 +7243,11 @@ Rocket propulsion is a method of propulsion that generates thrust by expelling p
 The basic principle of rocket propulsion is the expulsion of a high-speed stream of gas or plasma from the rear of the rocket. This expulsion creates a force in the opposite direction, propelling the rocket forward. The thrust produced by a rocket engine can be calculated using the equation:
 
 
-
 $$
 
 T = \dot{m} \cdot v_e
 
 $$
-
 
 
 where $T$ is the thrust, $\dot{m}$ is the mass flow rate of the exhaust gases, and $v_e$ is the exhaust velocity.
@@ -7698,13 +7417,11 @@ The shape of a Hohmann Transfer Orbit is an elliptical path that touches the orb
 The time taken to travel along a Hohmann Transfer Orbit, known as the transfer time, can be calculated using Kepler's third law:
 
 
-
 $$
 
 T = \sqrt{\frac{4\pi^2a^3}{\mu}}
 
 $$
-
 
 
 where $T$ is the transfer time, $a$ is the semi-major axis of the transfer orbit, and $\mu$ is the gravitational parameter of the sun.
@@ -7860,7 +7577,6 @@ In addition, the chapter will discuss the role of computational methods in engin
 Throughout the chapter, mathematical expressions and equations will be formatted using the TeX and LaTeX style syntax, rendered using the MathJax library. For example, inline math will be written like `$y_j(n)$` and equations like `$$
 
 \Delta w = ...
-
 $$`. This will ensure that the mathematical content is presented in a clear and accessible manner, making it easier for readers to understand and apply the concepts discussed.
 
 
@@ -7890,9 +7606,7 @@ Another important classification of differential equations is based on their lin
 
 
 $$
-
 a_n(x) \frac{d^n y}{dx^n} + a_{n-1}(x) \frac{d^{n-1} y}{dx^{n-1}} + \ldots + a_1(x) \frac{dy}{dx} + a_0(x) y = g(x)
-
 $$
 
 
@@ -7910,9 +7624,7 @@ The process of solving a differential equation involves finding the unknown func
 
 
 $$
-
 L u(x) = f(x)
-
 $$
 
 
@@ -7922,9 +7634,7 @@ where $L$ is a linear operator defined by:
 
 
 $$
-
 L = D^2 + a_1(x)D + a_0(x)
-
 $$
 
 
@@ -7934,9 +7644,7 @@ and $D$ represents the differential operator. The first step in solving this equ
 
 
 $$
-
 L u(x) = 0
-
 $$
 
 
@@ -8000,7 +7708,6 @@ A system of linear equations is a collection of one or more linear equations inv
 
 
 $$
-
 \begin{align*}
 
 2x + y - z &= 8, \\
@@ -8010,7 +7717,6 @@ $$
 -2x + y + 2z &= -3
 
 \end{align*}
-
 $$
 
 
@@ -8144,7 +7850,6 @@ For events $A_1,\ldots,A_n$ whose intersection has not probability zero, the cha
 
 
 $$
-
 \begin{align*}
 
 \mathbb P\left(A_1 \cap A_2 \cap \ldots \cap A_n\right) 
@@ -8162,7 +7867,6 @@ $$
 &= \prod_{k=1}^n \mathbb P\left(A_k \,\Bigg|\, \bigcap_{j=1}^{k-1} A_j\right).
 
 \end{align*}
-
 $$
 
 
@@ -8180,7 +7884,6 @@ For $n=4$, i.e. four events, the chain rule reads
 
 
 $$
-
 \begin{align*}
 
 \mathbb P(A_1 \cap A_2 \cap A_3 \cap A_4) &= \mathbb P(A_4 \mid A_3 \cap A_2 \cap A_1)\mathbb P(A_3 \cap A_2 \cap A_1) \\
@@ -8190,7 +7893,6 @@ $$
 &= \mathbb P(A_4 \mid A_3 \cap A_2 \cap A_1)\mathbb P(A_3 \mid A_2 \cap A_1)\mathbb P(A_2 \mid A_1)\mathbb P(A_1)
 
 \end{align*}
-
 $$.
 
 
@@ -8208,7 +7910,6 @@ First, we set $A_n := \left\{ \text{draw an ace in the } n^{\text{th}} \text{ tr
 
 
 $$
-
 \mathbb P(A_2 \mid A_1) = \frac 3{51}, 
 
 \qquad
@@ -8218,7 +7919,6 @@ $$
 \qquad
 
 \mathbb P(A_4 \mid A_1 \cap A_2 \cap A_3) = \frac 1{49}
-
 $$.
 
 
@@ -8268,9 +7968,7 @@ The general form of the Gauss-Seidel method can be written as:
 
 
 $$
-
 x^{(k+1)}_i = \frac{1}{a_{ii}} \left( b_i - \sum_{j=1}^{i-1} a_{ij}x^{(k+1)}_j - \sum_{j=i+1}^{n} a_{ij}x^{(k)}_j \right), \quad i = 1, 2, \ldots, n
-
 $$
 
 
@@ -8304,7 +8002,6 @@ The general form of a linear programming problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{Minimize} & \quad c^T x \\
@@ -8314,7 +8011,6 @@ $$
 & \quad x \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -8356,7 +8052,6 @@ The assignment problem can be formulated as a linear programming problem as foll
 
 
 $$
-
 \begin{align*}
 
 \text{Maximize} & \quad \sum_{(i,j)\in A\times T} w_{ij}x_{ij} \\
@@ -8370,7 +8065,6 @@ $$
 & \quad x_{ij}\in \mathbb{Z}\text{ for }i,j\in A,T.
 
 \end{align*}
-
 $$
 
 
@@ -8392,7 +8086,6 @@ The general form of a nonlinear programming problem is as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{Minimize} & \quad f(x) \\
@@ -8402,7 +8095,6 @@ $$
 & \quad h_j(x) = 0, \quad j = 1, ..., p
 
 \end{align*}
-
 $$
 
 
@@ -8452,9 +8144,7 @@ The DDP algorithm begins with the backward pass. If $Q$ is the variation of the 
 
 
 $$
-
 Q = -\ell(\mathbf{x},\mathbf{u}) - V(\mathbf{f}(\mathbf{x},\mathbf{u}),i+1)
-
 $$
 
 
@@ -8468,7 +8158,6 @@ Dropping the index $i$ for readability, primes denoting the next time-step $V'\e
 
 
 $$
-
 Q_\mathbf{x} = \ell_\mathbf{x}+ \mathbf{f}_\mathbf{x}^\mathsf{T} V'_\mathbf{x} \\
 
 Q_\mathbf{u} = \ell_\mathbf{u}+ \mathbf{f}_\mathbf{u}^\mathsf{T} V'_\mathbf{x} \\
@@ -8478,7 +8167,6 @@ Q_{\mathbf{x}\mathbf{x}} = \ell_{\mathbf{x}\mathbf{x}} + \mathbf{f}_\mathbf{x}^\
 Q_{\mathbf{u}\mathbf{u}} = \ell_{\mathbf{u}\mathbf{u}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{u}+{V'_\mathbf{x}} \cdot\mathbf{f}_{\mathbf{u} \mathbf{u}}\\
 
 Q_{\mathbf{u}\mathbf{x}} = \ell_{\mathbf{u}\mathbf{x}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{x} + {V'_\mathbf{x}} \cdot \mathbf{f}_{\mathbf{u} \mathbf{x}}.
-
 $$
 
 
@@ -8708,7 +8396,6 @@ Given the function $f(x) = x^3 - 2x^2 + x - 1$, find the derivative $f'(x)$ and 
 Solve the following system of linear equations using matrix methods:
 
 $$
-
 \begin{align*}
 
 2x + 3y - z &= 1 \\
@@ -8718,7 +8405,6 @@ x - 2y + 3z &= 4 \\
 3x + y - 2z &= -3
 
 \end{align*}
-
 $$
 
 
@@ -9788,9 +9474,7 @@ The formula for the present value (PV) of a future amount (F) can be expressed a
 
 
 $$
-
 PV = \frac{F}{(1 + r)^n}
-
 $$
 
 

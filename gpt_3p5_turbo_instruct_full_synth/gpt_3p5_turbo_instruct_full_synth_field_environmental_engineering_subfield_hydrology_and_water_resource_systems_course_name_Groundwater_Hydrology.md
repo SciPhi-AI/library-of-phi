@@ -1904,9 +1904,7 @@ Darcy's Law states that the rate of flow of water through a porous medium is dir
 
 
 $$
-
 Q = -KA\frac{\Delta h}{L}
-
 $$
 
 
@@ -1942,9 +1940,7 @@ The relationship between hydraulic conductivity and permeability can be expresse
 
 
 $$
-
 K = \frac{k}{\rho g}
-
 $$
 
 
@@ -2002,9 +1998,7 @@ Darcy's Law states that the rate of flow of water through a porous medium is dir
 
 
 $$
-
 Q = -KA\frac{\Delta h}{L}
-
 $$
 
 
@@ -2230,9 +2224,7 @@ Hydraulic head, denoted by $h$, is a measure of the potential energy of groundwa
 
 
 $$
-
 h = z + p
-
 $$
 
 
@@ -2250,9 +2242,7 @@ To calculate the hydraulic head at a specific point in an aquifer, we need to kn
 
 
 $$
-
 p = \frac{\gamma w}{\gamma_w}
-
 $$
 
 
@@ -2334,9 +2324,7 @@ The hydraulic gradient can be calculated using the following equation:
 
 
 $$
-
 i = \frac{\Delta h}{\Delta l}
-
 $$
 
 
@@ -2390,9 +2378,7 @@ Hydraulic head is a measure of the potential energy of groundwater at a specific
 
 
 $$
-
 h = \frac{P}{\gamma}
-
 $$
 
 
@@ -2410,9 +2396,7 @@ There are three main types of hydraulic head: total, piezometric, and pressure h
 
 
 $$
-
 H = z + \frac{P}{\gamma} + \frac{V^2}{2g}
-
 $$
 
 
@@ -2422,9 +2406,7 @@ Where $z$ is the elevation head, $P$ is the pressure head, $V$ is the velocity o
 
 
 $$
-
 h_p = \frac{P}{\gamma}
-
 $$
 
 
@@ -2434,9 +2416,7 @@ Pressure head ($h_p$) is the height to which water would rise in a well if it we
 
 
 $$
-
 h_p = \frac{P}{\gamma}
-
 $$
 
 
@@ -2598,9 +2578,7 @@ The total hydraulic head, denoted by the symbol $h$, is the sum of pressure-head
 
 
 $$
-
 h = h_p + h_z
-
 $$
 
 
@@ -2658,9 +2636,7 @@ Gravitational potential is a type of fluid potential that is caused by the force
 
 
 $$
-
 \psi_g = gz
-
 $$
 
 
@@ -2678,9 +2654,7 @@ Pressure potential is a type of fluid potential that is caused by the pressure o
 
 
 $$
-
 \psi_p = \frac{P}{\rho g}
-
 $$
 
 
@@ -2698,9 +2672,7 @@ Elevation potential is a type of fluid potential that is caused by the elevation
 
 
 $$
-
 \psi_e = gz_r
-
 $$
 
 
@@ -2718,9 +2690,7 @@ Hydraulic head and fluid potential are closely related and are often used interc
 
 
 $$
-
 h = \psi + z
-
 $$
 
 
@@ -2900,9 +2870,7 @@ The continuity equation is a fundamental principle in groundwater hydrology that
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{V} \rho dV + \int_{S} \rho \mathbf{v} \cdot \mathbf{n} dS = 0
-
 $$
 
 
@@ -2988,9 +2956,7 @@ The continuity equation can be used to mathematically express the conservation o
 
 
 $$
-
 \frac{\partial V}{\partial t} = R - D
-
 $$
 
 
@@ -3058,9 +3024,7 @@ The continuity equation is a fundamental principle in groundwater hydrology that
 
 
 $$
-
 \frac{\partial \theta}{\partial t} + \nabla \cdot (q\theta) = S
-
 $$
 
 
@@ -4812,9 +4776,7 @@ To calculate well efficiency, we use the following equation:
 
 
 $$
-
 \eta = \frac{Q}{Q_{max}} \times 100\%
-
 $$
 
 
@@ -4966,9 +4928,7 @@ To determine the specific capacity of a well, we can use the following equation:
 
 
 $$
-
 S = \frac{Q}{\Delta h}
-
 $$
 
 
@@ -5402,9 +5362,7 @@ Darcy's law is a fundamental equation that describes the flow of groundwater thr
 
 
 $$
-
 Q = -KA\frac{dh}{dl}
-
 $$
 
 
@@ -5414,9 +5372,7 @@ The continuity equation, also known as the conservation of mass equation, states
 
 
 $$
-
 \frac{\partial S}{\partial t} = I - O
-
 $$
 
 
@@ -5616,9 +5572,7 @@ The principle of superposition can be mathematically expressed as follows:
 
 
 $$
-
 \Delta h = \sum_{i=1}^{n} \Delta h_i
-
 $$
 
 
@@ -5688,9 +5642,7 @@ In groundwater hydrology, the principle of superposition is applied using the fo
 
 
 $$
-
 Q = \sum_{i=1}^{n} Q_i
-
 $$
 
 
@@ -5756,9 +5708,7 @@ In groundwater hydrology, the principle of superposition is applied using the fo
 
 
 $$
-
 Q = \sum_{i=1}^{n} Q_i
-
 $$
 
 
@@ -5844,9 +5794,7 @@ In groundwater hydrology, the principle of superposition is applied using the Da
 
 
 $$
-
 Q = -K\frac{\partial h}{\partial x}
-
 $$
 
 
@@ -7642,9 +7590,7 @@ The relationship between permeability and hydraulic conductivity can be describe
 
 
 $$
-
 Q = -K\frac{\Delta h}{L}
-
 $$
 
 
@@ -7696,9 +7642,7 @@ The relationship between permeability and hydraulic conductivity can be describe
 
 
 $$
-
 Q = -K\frac{\Delta h}{L}
-
 $$
 
 
@@ -7754,9 +7698,7 @@ The relationship between permeability and hydraulic conductivity can be describe
 
 
 $$
-
 Q = -K\frac{\Delta h}{L}
-
 $$
 
 

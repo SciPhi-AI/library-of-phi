@@ -1692,9 +1692,7 @@ Mathematically, a system can be represented as follows:
 
 
 $$
-
 y = f(x)
-
 $$
 
 
@@ -2492,9 +2490,7 @@ Mathematically, a periodic solution can be represented as a function $x(t)$ that
 
 
 $$
-
 x(t+T) = x(t)
-
 $$
 
 
@@ -2538,9 +2534,7 @@ Mathematically, a periodic solution can be represented as a function $x(t)$ that
 
 
 $$
-
 x(t+T) = x(t)
-
 $$
 
 
@@ -2588,9 +2582,7 @@ Mathematically, a periodic solution can be represented as a function $x(t)$ that
 
 
 $$
-
 x(t+T) = x(t)
-
 $$
 
 
@@ -2820,9 +2812,7 @@ Mathematically, the Poincaré map can be written as:
 
 
 $$
-
 \vec{x}_{n+1} = P(\vec{x}_n)
-
 $$
 
 
@@ -2882,9 +2872,7 @@ Mathematically, the Poincaré map can be written as:
 
 
 $$
-
 \vec{x}_{n+1} = P(\vec{x}_n)
-
 $$
 
 
@@ -2948,9 +2936,7 @@ Mathematically, the Poincaré map can be written as:
 
 
 $$
-
 \vec{x}_{n+1} = P(\vec{x}_n)
-
 $$
 
 
@@ -3216,9 +3202,7 @@ Overall, this chapter has provided a comprehensive introduction to nonlinear osc
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x - x^3
-
 $$
 
 a) Find the equilibrium points of this system.\
@@ -3234,9 +3218,7 @@ c) Sketch the phase portrait of the system.
 Consider the Duffing oscillator, given by the equation:
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 a) Show that this system exhibits a limit cycle for certain values of the parameters.\
@@ -3252,9 +3234,7 @@ c) How does the amplitude of the limit cycle change with respect to the forcing 
 Consider the logistic map, given by the equation:
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 a) Investigate the behavior of this map for different values of the parameter $r$.\
@@ -3270,9 +3250,7 @@ c) How does the period of the resulting orbits change with respect to $r$?
 Consider the Van der Pol oscillator, given by the equation:
 
 $$
-
 \ddot{x} - \mu(1-x^2)\dot{x} + x = 0
-
 $$
 
 a) Show that this system exhibits a limit cycle for certain values of the parameter $\mu$.\
@@ -3288,9 +3266,7 @@ c) How does the amplitude of the limit cycle change with respect to $\mu$?
 Consider the forced Duffing oscillator, given by the equation:
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 a) Show that this system can exhibit chaotic behavior for certain values of the parameters.\
@@ -3328,9 +3304,7 @@ Overall, this chapter has provided a comprehensive introduction to nonlinear osc
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x - x^3
-
 $$
 
 a) Find the equilibrium points of this system.\
@@ -3346,9 +3320,7 @@ c) Sketch the phase portrait of the system.
 Consider the Duffing oscillator, given by the equation:
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 a) Show that this system exhibits a limit cycle for certain values of the parameters.\
@@ -3364,9 +3336,7 @@ c) How does the amplitude of the limit cycle change with respect to the forcing 
 Consider the logistic map, given by the equation:
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 a) Investigate the behavior of this map for different values of the parameter $r$.\
@@ -3382,9 +3352,7 @@ c) How does the period of the resulting orbits change with respect to $r$?
 Consider the Van der Pol oscillator, given by the equation:
 
 $$
-
 \ddot{x} - \mu(1-x^2)\dot{x} + x = 0
-
 $$
 
 a) Show that this system exhibits a limit cycle for certain values of the parameter $\mu$.\
@@ -3400,9 +3368,7 @@ c) How does the amplitude of the limit cycle change with respect to $\mu$?
 Consider the forced Duffing oscillator, given by the equation:
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 a) Show that this system can exhibit chaotic behavior for certain values of the parameters.\
@@ -3692,25 +3658,19 @@ Mathematically, a strange attractor can be described by a set of differential eq
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -3772,25 +3732,19 @@ To better understand the concept of strange attractors, let's consider the famou
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -4902,9 +4856,7 @@ Mathematically, dispersive waves can be described by the nonlinear Schrödinger 
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + |\psi|^2\psi = 0
-
 $$
 
 
@@ -5126,9 +5078,7 @@ For example, in the case of water waves, the dispersion relation is given by:
 
 
 $$
-
 \omega^2 = gk\tanh(kh)
-
 $$
 
 
@@ -5142,9 +5092,7 @@ In the case of electromagnetic waves, the dispersion relation is given by:
 
 
 $$
-
 \omega^2 = c^2k^2
-
 $$
 
 
@@ -5290,7 +5238,6 @@ As we conclude this chapter, it is important to note that the study of nonlinear
 #### Exercise 1
 
 Consider the nonlinear wave equation given by $$u_{tt} - c^2u_{xx} + \alpha u^3 = 0$$ where $c$ and $\alpha$ are constants. Show that this equation admits soliton solutions of the form $$u(x,t) = 4c^2\frac{\alpha}{\alpha^2 + 4c^2} \text{sech}^2\left(\frac{\sqrt{\alpha}x}{2c}\right)$$
-
 
 
 #### Exercise 2
@@ -5524,21 +5471,17 @@ The key to the formation of Turing patterns is the presence of two interacting s
 Mathematically, Turing patterns can be described by a set of partial differential equations known as the Turing equations. These equations describe the dynamics of the two interacting substances and how they evolve over time. The exact form of the equations depends on the specific system being studied, but they generally take the form of reaction-diffusion equations, such as:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + f(u,v)
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + g(u,v)
 
 $$
-
 
 
 where $u$ and $v$ represent the concentrations of the two substances, $D_u$ and $D_v$ are their respective diffusion rates, and $f(u,v)$ and $g(u,v)$ are the reaction terms that describe how the substances interact with each other.
@@ -5586,21 +5529,17 @@ The most well-known and widely used reaction-diffusion equations are the Turing 
 The Turing equations take the form of a system of partial differential equations, with one equation for each substance. They are given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} = D_u \Delta u + f(u,v)
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} = D_v \Delta v + g(u,v)
 
 $$
-
 
 
 where $u$ and $v$ represent the concentrations of the activator and inhibitor, respectively, $D_u$ and $D_v$ are the diffusion coefficients, and $f(u,v)$ and $g(u,v)$ are the reaction terms.
@@ -5656,21 +5595,17 @@ The most well-known and widely used reaction-diffusion equations are the Turing 
 The Turing equations take the form of a system of partial differential equations, with one equation for each substance. They are given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} = D_u \Delta u + f(u,v)
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} = D_v \Delta v + g(u,v)
 
 $$
-
 
 
 where $u$ and $v$ represent the concentrations of the activator and inhibitor, respectively. The terms $D_u$ and $D_v$ represent the diffusion coefficients for each substance, while $f(u,v)$ and $g(u,v)$ represent the reaction terms. These equations can be used to model a wide range of pattern formation phenomena, such as the formation of stripes, spots, and other complex patterns.
@@ -5738,21 +5673,17 @@ The most well-known and widely used reaction-diffusion equations are the Turing 
 The Turing equations take the form of a system of partial differential equations, with one equation for each substance. They are given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} = D_u \Delta u + f(u,v)
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} = D_v \Delta v + g(u,v)
 
 $$
-
 
 
 where $u$ and $v$ represent the concentrations of the activator and inhibitor, respectively. The terms $D_u$ and $D_v$ represent the diffusion coefficients for each substance, while $f(u,v)$ and $g(u,v)$ represent the reaction terms. These equations can be used to model a wide range of pattern formation phenomena, such as the formation of stripes, spots, and other complex patterns.
@@ -6144,17 +6075,14 @@ As we conclude this chapter, it is important to note that pattern formation is a
 #### Exercise 1
 
 Consider the reaction-diffusion system given by the following equations:
-
 $$
 
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + f(u,v)
 
 $$
-
 $$
 
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + g(u,v)
-
 $$
 
 where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ and $D_v$ are the diffusion coefficients, and $f(u,v)$ and $g(u,v)$ are the reaction terms. Choose appropriate functions for $f(u,v)$ and $g(u,v)$ and simulate the system using a numerical solver. Observe the patterns that form and how they change with different parameters.
@@ -6172,15 +6100,11 @@ Explore the effects of noise on pattern formation by adding a small amount of ra
 Investigate the phenomenon of Turing patterns by simulating the Gray-Scott model:
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + \alpha u - \beta uv^2
-
 $$
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + \beta uv^2 - (\alpha + \gamma)v
-
 $$
 
 where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ and $D_v$ are the diffusion coefficients, and $\alpha$, $\beta$, and $\gamma$ are parameters. Vary the parameters and observe the different patterns that form.
@@ -6192,9 +6116,7 @@ where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ an
 Explore the concept of self-organization by simulating the Kuramoto-Sivashinsky equation:
 
 $$
-
 \frac{\partial u}{\partial t} = -u\frac{\partial u}{\partial x} - \frac{\partial^2 u}{\partial x^2} - \frac{\partial^4 u}{\partial x^4}
-
 $$
 
 where $u$ represents the height of a surface. Observe how the system evolves from a random initial condition to a self-organized state with complex patterns.
@@ -6230,15 +6152,11 @@ As we conclude this chapter, it is important to note that pattern formation is a
 Consider the reaction-diffusion system given by the following equations:
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + f(u,v)
-
 $$
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + g(u,v)
-
 $$
 
 where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ and $D_v$ are the diffusion coefficients, and $f(u,v)$ and $g(u,v)$ are the reaction terms. Choose appropriate functions for $f(u,v)$ and $g(u,v)$ and simulate the system using a numerical solver. Observe the patterns that form and how they change with different parameters.
@@ -6256,15 +6174,11 @@ Explore the effects of noise on pattern formation by adding a small amount of ra
 Investigate the phenomenon of Turing patterns by simulating the Gray-Scott model:
 
 $$
-
 \frac{\partial u}{\partial t} = D_u \nabla^2 u + \alpha u - \beta uv^2
-
 $$
 
 $$
-
 \frac{\partial v}{\partial t} = D_v \nabla^2 v + \beta uv^2 - (\alpha + \gamma)v
-
 $$
 
 where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ and $D_v$ are the diffusion coefficients, and $\alpha$, $\beta$, and $\gamma$ are parameters. Vary the parameters and observe the different patterns that form.
@@ -6276,9 +6190,7 @@ where $u$ and $v$ represent the concentrations of two chemical species, $D_u$ an
 Explore the concept of self-organization by simulating the Kuramoto-Sivashinsky equation:
 
 $$
-
 \frac{\partial u}{\partial t} = -u\frac{\partial u}{\partial x} - \frac{\partial^2 u}{\partial x^2} - \frac{\partial^4 u}{\partial x^4}
-
 $$
 
 where $u$ represents the height of a surface. Observe how the system evolves from a random initial condition to a self-organized state with complex patterns.
@@ -6348,9 +6260,7 @@ The basic principle of feedback control is shown in Figure 1. The system's outpu
 
 
 $$
-
 \Delta u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -6394,9 +6304,7 @@ The basic principle of feedback control is shown in Figure 1. The system's outpu
 
 
 $$
-
 \Delta u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -6472,9 +6380,7 @@ The basic principle of feedback control is shown in Figure 1. The system's outpu
 
 
 $$
-
 \Delta u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt}
-
 $$
 
 
@@ -7014,9 +6920,7 @@ Overall, nonlinear control is a powerful tool for understanding and manipulating
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 + u
-
 $$
 
 Design a feedback controller to stabilize the system at the origin.
@@ -7074,9 +6978,7 @@ Overall, nonlinear control is a powerful tool for understanding and manipulating
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 + u
-
 $$
 
 Design a feedback controller to stabilize the system at the origin.
@@ -8348,9 +8250,7 @@ One of the key principles in fluid dynamics is the conservation of mass, which s
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -8364,9 +8264,7 @@ Another important principle in fluid dynamics is the conservation of momentum, w
 
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{F}
-
 $$
 
 
@@ -8704,11 +8602,9 @@ In conclusion, nonlinear dynamics and waves play a crucial role in engineering a
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + y(1-x^2)
-
 $$
 
 a) Plot the phase portrait of this system. What type of behavior does it exhibit? \
@@ -8724,11 +8620,9 @@ c) Investigate the bifurcations of this system by varying the parameter $a$ in t
 A pendulum with a length of 1 meter is attached to a cart that can move horizontally. The pendulum is driven by a sinusoidal force with a frequency of 2 Hz and an amplitude of 0.5 N. The cart is also subjected to a constant force of 1 N. The equations of motion for this system are given by:
 
 $$
-
 \ddot{x} = \frac{1}{2}\sin(2t) - \sin(x) \\
 
 \ddot{\theta} = \frac{1}{2}\cos(2t) - \cos(x)
-
 $$
 
 a) Plot the phase portrait of this system. \
@@ -8744,11 +8638,9 @@ c) Investigate the behavior of the system for different values of the constant f
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + y^2
-
 $$
 
 a) Show that this system has a center at the origin. \
@@ -8764,9 +8656,7 @@ c) Investigate the behavior of the system for different initial conditions.
 A mass-spring-damper system is described by the following equations:
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = \sin(x)
-
 $$
 
 a) Show that this system is nonlinear. \
@@ -8782,11 +8672,9 @@ c) Investigate the behavior of the system for different values of the damping co
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + \sin(x)
-
 $$
 
 a) Show that this system has a limit cycle. \
@@ -8824,11 +8712,9 @@ In conclusion, nonlinear dynamics and waves play a crucial role in engineering a
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + y(1-x^2)
-
 $$
 
 a) Plot the phase portrait of this system. What type of behavior does it exhibit? \
@@ -8844,11 +8730,9 @@ c) Investigate the bifurcations of this system by varying the parameter $a$ in t
 A pendulum with a length of 1 meter is attached to a cart that can move horizontally. The pendulum is driven by a sinusoidal force with a frequency of 2 Hz and an amplitude of 0.5 N. The cart is also subjected to a constant force of 1 N. The equations of motion for this system are given by:
 
 $$
-
 \ddot{x} = \frac{1}{2}\sin(2t) - \sin(x) \\
 
 \ddot{\theta} = \frac{1}{2}\cos(2t) - \cos(x)
-
 $$
 
 a) Plot the phase portrait of this system. \
@@ -8864,11 +8748,9 @@ c) Investigate the behavior of the system for different values of the constant f
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + y^2
-
 $$
 
 a) Show that this system has a center at the origin. \
@@ -8884,9 +8766,7 @@ c) Investigate the behavior of the system for different initial conditions.
 A mass-spring-damper system is described by the following equations:
 
 $$
-
 m\ddot{x} + c\dot{x} + kx = \sin(x)
-
 $$
 
 a) Show that this system is nonlinear. \
@@ -8902,11 +8782,9 @@ c) Investigate the behavior of the system for different values of the damping co
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = y \\
 
 \dot{y} = -x + \sin(x)
-
 $$
 
 a) Show that this system has a limit cycle. \
@@ -13464,15 +13342,11 @@ Overall, this chapter has provided a comprehensive introduction to the applicati
 Consider the Lotka-Volterra model for predator-prey interactions:
 
 $$
-
 \frac{dx}{dt} = ax - bxy
-
 $$
 
 $$
-
 \frac{dy}{dt} = cxy - dy
-
 $$
 
 where x represents the prey population and y represents the predator population. Analyze the behavior of this system for different values of the parameters a, b, c, and d.
@@ -13534,15 +13408,11 @@ Overall, this chapter has provided a comprehensive introduction to the applicati
 Consider the Lotka-Volterra model for predator-prey interactions:
 
 $$
-
 \frac{dx}{dt} = ax - bxy
-
 $$
 
 $$
-
 \frac{dy}{dt} = cxy - dy
-
 $$
 
 where x represents the prey population and y represents the predator population. Analyze the behavior of this system for different values of the parameters a, b, c, and d.
@@ -13668,9 +13538,7 @@ The rate of a chemical reaction is defined as the change in concentration of a r
 
 
 $$
-
 \frac{d[A]}{dt} = k[A]
-
 $$
 
 
@@ -13704,9 +13572,7 @@ The temperature dependence of a reaction can be described by the Arrhenius equat
 
 
 $$
-
 k = Ae^{-\frac{E_a}{RT}}
-
 $$
 
 
@@ -13826,9 +13692,7 @@ The rate of a chemical reaction is defined as the change in concentration of a r
 
 
 $$
-
 \frac{d[A]}{dt} = k[A]
-
 $$
 
 
@@ -14552,9 +14416,7 @@ A differential equation can be written in the form:
 
 
 $$
-
 F(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -14602,9 +14464,7 @@ A differential equation can be written in the form:
 
 
 $$
-
 F(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -14642,9 +14502,7 @@ A differential equation is said to be linear if it can be written in the form:
 
 
 $$
-
 a_n(x)y^{(n)} + a_{n-1}(x)y^{(n-1)} + ... + a_1(x)y' + a_0(x)y = f(x)
-
 $$
 
 
@@ -14708,9 +14566,7 @@ A differential equation can be written in the form:
 
 
 $$
-
 F(x, y, y', y'', ..., y^{(n)}) = 0
-
 $$
 
 
@@ -14744,9 +14600,7 @@ Differential equations can be classified as linear or nonlinear, depending on th
 
 
 $$
-
 a_n(x)y^{(n)} + a_{n-1}(x)y^{(n-1)} + ... + a_1(x)y' + a_0(x)y = g(x)
-
 $$
 
 
@@ -15506,7 +15360,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the famous Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -15516,7 +15369,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use a numerical solver to plot the phase portrait for different values of these parameters. How does the behavior of the system change as these parameters vary?
@@ -15574,7 +15426,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the famous Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -15584,7 +15435,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Use a numerical solver to plot the phase portrait for different values of these parameters. How does the behavior of the system change as these parameters vary?
@@ -16282,15 +16132,11 @@ Finally, we looked at specific applications of nonlinear dynamics and waves in m
 Consider a simple model of a neuron, described by the FitzHugh-Nagumo equations:
 
 $$
-
 \frac{dv}{dt} = v - \frac{v^3}{3} - w + I
-
 $$
 
 $$
-
 \frac{dw}{dt} = \epsilon(v + a - bw)
-
 $$
 
 where $v$ represents the membrane potential and $w$ represents the recovery variable. Explore the behavior of this system for different values of the parameters $a$, $b$, and $\epsilon$. How do these parameters affect the dynamics of the system?
@@ -16348,15 +16194,11 @@ Finally, we looked at specific applications of nonlinear dynamics and waves in m
 Consider a simple model of a neuron, described by the FitzHugh-Nagumo equations:
 
 $$
-
 \frac{dv}{dt} = v - \frac{v^3}{3} - w + I
-
 $$
 
 $$
-
 \frac{dw}{dt} = \epsilon(v + a - bw)
-
 $$
 
 where $v$ represents the membrane potential and $w$ represents the recovery variable. Explore the behavior of this system for different values of the parameters $a$, $b$, and $\epsilon$. How do these parameters affect the dynamics of the system?
@@ -18692,7 +18534,6 @@ One key takeaway from this chapter is the importance of understanding and accoun
 Consider the Lorenz system given by the equations:
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -18702,7 +18543,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Investigate the behavior of this system for different values of these parameters and discuss the implications for weather forecasting.
@@ -18756,7 +18596,6 @@ One key takeaway from this chapter is the importance of understanding and accoun
 Consider the Lorenz system given by the equations:
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -18766,7 +18605,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Investigate the behavior of this system for different values of these parameters and discuss the implications for weather forecasting.

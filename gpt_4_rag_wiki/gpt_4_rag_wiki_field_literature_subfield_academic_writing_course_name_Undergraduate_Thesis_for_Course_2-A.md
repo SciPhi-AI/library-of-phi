@@ -2871,9 +2871,7 @@ Interpreting statistical results is a critical step in the data analysis process
 
 
 $$
-
 \overline{z}=\frac{1}{N}\sum_{n=1}^N z_n
-
 $$
 
 
@@ -2891,13 +2889,11 @@ $$
 
 
 $$
-
 P(\overline{C},\overline{S}) \, d\overline{C} \, d\overline{S} =
 
 P(\overline{R},\overline{\theta}) \, d\overline{R} \, d\overline{\theta} = 
 
 \int_\Gamma \cdots \int_\Gamma \prod_{n=1}^N \left[ P(\theta_n) \, d\theta_n \right]
-
 $$
 
 

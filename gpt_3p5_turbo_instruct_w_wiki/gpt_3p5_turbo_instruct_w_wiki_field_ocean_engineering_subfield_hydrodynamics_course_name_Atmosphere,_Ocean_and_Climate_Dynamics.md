@@ -1500,7 +1500,6 @@ The ideal gas law is a fundamental equation of state for a hypothetical ideal ga
 $$pV = nRT$$
 
 
-
 where $p$, $V$, and $T$ are the pressure, volume, and temperature respectively; $n$ is the amount of substance; and $R$ is the ideal gas constant. It can also be derived from the microscopic kinetic theory, as was achieved (apparently independently) by August Krönig in 1856 and Rudolf Clausius in 1857.
 
 
@@ -1516,9 +1515,7 @@ The state of an amount of gas is determined by its pressure, volume, and tempera
 The most frequently introduced forms are:
 
 
-
 $$pV = nRT = nk_\text{B}N_\text{A}T = Nk_\text{B}T$$
-
 
 
 where:
@@ -1544,9 +1541,7 @@ where:
 The ideal gas law can also be expressed in terms of the mass of the gas instead of the amount of substance. This alternative form may be useful in certain situations. The chemical amount, $n$ (in moles), is equal to the total mass of the gas, $m$ (in kilograms), divided by the molar mass, $M$ (in kilograms per mole). This form of the ideal gas law is given by:
 
 
-
 $$pV = \frac{m}{M}RT$$
-
 
 
 This form is particularly useful when dealing with mixtures of gases, as it allows for the calculation of the partial pressure of each gas in the mixture.
@@ -1586,9 +1581,7 @@ The equation of state for air is a fundamental concept in atmospheric science an
 The ideal gas law is a fundamental equation of state for a hypothetical ideal gas. It is a good approximation of the behavior of many gases under many conditions, although it has several limitations. The equation was first stated by Benoît Paul Émile Clapeyron in 1834 and is a combination of the empirical Boyle's law, Charles's law, Avogadro's law, and Gay-Lussac's law. The ideal gas law is often written in an empirical form:
 
 
-
 $$pV = nRT$$
-
 
 
 where $p$, $V$, and $T$ are the pressure, volume, and temperature respectively; $n$ is the amount of substance; and $R$ is the ideal gas constant. It can also be derived from the microscopic kinetic theory, as was achieved (apparently independently) by August Krönig in 1856 and Rudolf Clausius in 1857.
@@ -1606,9 +1599,7 @@ The state of an amount of gas is determined by its pressure, volume, and tempera
 The most frequently introduced forms are:
 
 
-
 $$pV = nRT = nk_\text{B}N_\text{A}T = Nk_\text{B}T$$
-
 
 
 where:
@@ -1634,9 +1625,7 @@ where:
 The ideal gas law can also be expressed in terms of the mass of the gas instead of the amount of substance. This alternative form is useful when dealing with mixtures of gases, as it allows for the calculation of the properties of each individual gas in the mixture. The molar form of the ideal gas law is:
 
 
-
 $$pV = mRT$$
-
 
 
 where $m$ is the mass of the gas in kilograms. This form is derived from the ideal gas law by substituting the mass of the gas for the number of moles.
@@ -1666,9 +1655,7 @@ Devices called hygrometers are used to measure the dew point over a wide range o
 A well-known approximation used to calculate the dew point, $T_{dp}$, given just the actual ("dry bulb") air temperature, $T$ (in degrees Celsius) and relative humidity (in percent), $RH$, is the Magnus formula:
 
 
-
 $$\gamma(T,RH) = \ln\left(\frac{RH}{100}\right) + \frac{bT}{c+T}$$
-
 
 
 where $b$ and $c$ are constants. This formula is derived from the relationship between the saturated water vapor pressure and the actual vapor pressure of the air. The dew point can also be calculated using the wet-bulb temperature and barometric pressure.
@@ -1692,9 +1679,7 @@ The equation of state for air is a fundamental concept in atmospheric science an
 The ideal gas law is a fundamental equation of state for a hypothetical ideal gas. It is a good approximation of the behavior of many gases under many conditions, although it has several limitations. The equation was first stated by Benoît Paul Émile Clapeyron in 1834 and is a combination of the empirical Boyle's law, Charles's law, Avogadro's law, and Gay-Lussac's law. The ideal gas law is often written in an empirical form:
 
 
-
 $$pV = nRT$$
-
 
 
 where $p$, $V$, and $T$ are the pressure, volume, and temperature respectively; $n$ is the amount of substance; and $R$ is the ideal gas constant. It can also be derived from the microscopic kinetic theory, as was achieved (apparently independently) by August Krönig in 1856 and Rudolf Clausius in 1857.
@@ -1712,9 +1697,7 @@ The state of an amount of gas is determined by its pressure, volume, and tempera
 The most frequently introduced forms are:
 
 
-
 $$pV = nRT = nk_\text{B}N_\text{A}T = Nk_\text{B}T$$
-
 
 
 where:
@@ -1740,9 +1723,7 @@ where:
 The ideal gas law can also be expressed in terms of the mass of the gas instead of the amount of substance. This alternative form is useful when dealing with mixtures of gases, such as air, which is composed of various gases in different proportions. In this case, the ideal gas law can be written as:
 
 
-
 $$pV = mRT$$
-
 
 
 where $m$ is the mass of the gas and $R$ is the specific gas constant, which is different for each gas. For air, the specific gas constant is approximately 287 J/(kg·K).
@@ -2494,13 +2475,11 @@ Convection in water is driven by the transfer of heat energy from warmer regions
 The principles of convection in water can be described by the general equation of heat transfer, which states that the rate of heat transfer is proportional to the temperature difference between two regions and the area of contact between them. This equation can be written as:
 
 
-
 $$
 
 \dot{Q} = kA\frac{\Delta T}{\Delta x}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the fluid, $A$ is the area of contact, $\Delta T$ is the temperature difference, and $\Delta x$ is the distance between the two regions.
@@ -2552,13 +2531,11 @@ Convection in water is driven by the transfer of heat energy from warmer regions
 The principles of convection in water can be described by the general equation of heat transfer, which states that the rate of heat transfer is proportional to the temperature difference between two regions and the area of contact between them. This equation can be written as:
 
 
-
 $$
 
 \dot{Q} = kA\frac{\Delta T}{\Delta x}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the fluid, $A$ is the area of contact, $\Delta T$ is the temperature difference, and $\Delta x$ is the distance between the two regions.
@@ -2622,13 +2599,11 @@ Convection in water is driven by the transfer of heat energy from warmer regions
 The principles of convection in water can be described by the general equation of heat transfer, which states that the rate of heat transfer is proportional to the temperature difference between two regions and the area of contact between them. This equation can be written as:
 
 
-
 $$
 
 \dot{Q} = kA\frac{\Delta T}{\Delta x}
 
 $$
-
 
 
 where $\dot{Q}$ is the rate of heat transfer, $k$ is the thermal conductivity of the fluid, $A$ is the area of contact, $\Delta T$ is the temperature difference, and $\Delta x$ is the distance between the two regions.
@@ -2902,13 +2877,11 @@ The potential temperature of a parcel of air can be calculated using the general
 The equation for potential temperature is given by:
 
 
-
 $$
 
 \theta = T\left(\frac{P_0}{P}\right)^{\frac{R}{C_p}}
 
 $$
-
 
 
 Where:
@@ -2956,13 +2929,11 @@ Now that we have defined potential temperature and its importance in understandi
 To calculate potential temperature, we use the general equation of heat transfer, which states that the rate of heat transfer is proportional to the temperature difference between two regions and the area of contact between them. In the case of potential temperature, the temperature difference is between the parcel of air and the standard pressure level. This equation can be written as:
 
 
-
 $$
 
 \theta = T\left(\frac{P_0}{P}\right)^{\frac{R}{C_p}}
 
 $$
-
 
 
 Where:
@@ -3482,13 +3453,11 @@ PDEs play a crucial role in understanding the dynamics of the atmosphere. They a
 One of the most fundamental PDEs used in atmospheric dynamics is the general equation of heat transfer. This equation describes the transfer of heat energy within the atmosphere and is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation is derived from the first law of thermodynamics and is essential in understanding the distribution of heat within the atmosphere.
@@ -3498,13 +3467,11 @@ where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the speci
 Another important PDE in atmospheric dynamics is the equation for entropy production. Entropy is a measure of the disorder or randomness in a system, and its production is closely related to the dissipation of energy. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla\cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation describes the production of entropy due to thermal conduction and viscous forces in the atmosphere.
@@ -3560,13 +3527,11 @@ PDEs play a crucial role in understanding the dynamics of the atmosphere. They a
 One of the most fundamental PDEs used in atmospheric dynamics is the general equation of heat transfer. This equation describes the transfer of heat energy within the atmosphere and is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation is derived from the first law of thermodynamics and is essential in understanding the distribution of heat within the atmosphere.
@@ -3576,13 +3541,11 @@ where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the speci
 Another important PDE in atmospheric dynamics is the equation for entropy production. Entropy is a measure of the disorder or randomness in a system, and its production is closely related to the dissipation of energy. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla\cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\kappa$ is the thermal diffusivity, $\mu$ is the dynamic viscosity, $\mathbf{v}$ is the velocity vector, and $\zeta$ is the coefficient of thermal expansion. This equation describes the production of entropy due to the diffusion of heat and the dissipation of kinetic energy in the atmosphere.
@@ -3638,13 +3601,11 @@ PDEs play a crucial role in understanding the dynamics of the atmosphere. They a
 One of the most fundamental PDEs used in atmospheric dynamics is the general equation of heat transfer. This equation describes the transfer of heat energy within the atmosphere and is given by:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + \frac{p}{\rho}d\rho
 
 $$
-
 
 
 where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation is derived from the first law of thermodynamics and is essential in understanding the distribution of heat within the atmosphere.
@@ -3654,13 +3615,11 @@ where $\rho$ is the density of the air, $T$ is the temperature, $s$ is the speci
 Another important PDE in atmospheric dynamics is the equation for entropy production. Entropy is a measure of the disorder or randomness in a system, and its production is closely related to the dissipation of energy. The equation for entropy production is given by:
 
 
-
 $$
 
 \rho T \frac{Ds}{Dt} = \nabla\cdot(\kappa\nabla T) + \frac{\mu}{2}\left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3}\delta_{ij}\nabla\cdot \mathbf{v} \right)^2 + \zeta(\nabla\cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\kappa$ is the thermal diffusivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation describes the production of entropy due to thermal and viscous processes in the atmosphere.
@@ -4034,14 +3993,11 @@ Today, we use the Navier-Stokes equations to describe the motion of fluids. Thes
 The Navier-Stokes equations are a set of partial differential equations that describe the motion of a fluid. They are derived from Newton's second law for fluids and take into account the conservation of mass, momentum, and energy. The equations are as follows:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -4049,14 +4005,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left( \frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e \right) = -p \nabla \cdot \mathbf{u} + \mu \mathbf{u} \cdot \nabla^2 \mathbf{u} + \mathbf{u} \cdot \nabla \cdot \mathbf{q} + \rho \mathbf{u} \cdot \mathbf{g}
 
 $$
-
 
 
 Where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mathbf{g}$ is the gravitational acceleration, $\mu$ is the dynamic viscosity, $e$ is the internal energy per unit mass, and $\mathbf{q}$ is the heat flux vector.
@@ -4258,21 +4211,17 @@ The Coriolis effect also has a vertical component, known as the Eötvös effect.
 The Navier-Stokes equations are a set of partial differential equations that describe the motion of fluids. When considering rotating fluids, the equations are modified to include the effects of the Coriolis and Eötvös forces. The Navier-Stokes equations for rotating fluids are given by:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \mathbf{g} + \mathbf{F}_c + \mathbf{F}_e + \nu \nabla^2 \mathbf{u}
 
 $$
 
-
-
 $$
 
 \nabla \cdot \mathbf{u} = 0
 
 $$
-
 
 
 Where $\mathbf{u}$ is the velocity vector, $t$ is time, $\rho$ is the density, $p$ is the pressure, $\mathbf{g}$ is the gravitational acceleration, $\mathbf{F}_c$ is the Coriolis force, $\mathbf{F}_e$ is the Eötvös force, and $\nu$ is the kinematic viscosity.
@@ -4530,14 +4479,11 @@ The equations of motion on a sphere are derived from the Navier-Stokes equations
 The equations of motion on a sphere can be written as:
 
 
-
 $$
 
 \frac{Du}{Dt} = -\frac{1}{\rho}\frac{\partial p}{\partial r} + fv - \frac{u}{r}\tan\theta + \frac{\partial}{\partial r}\left(\nu\frac{\partial u}{\partial r}\right) + \frac{1}{r^2}\frac{\partial}{\partial\theta}\left(\nu\frac{\partial u}{\partial\theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial}{\partial\phi}\left(\nu\frac{\partial u}{\partial\phi}\right)
 
 $$
-
-
 
 $$
 
@@ -4545,14 +4491,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{Dw}{Dt} = -\frac{1}{\rho r\sin\theta}\frac{\partial p}{\partial\phi} + \frac{1}{r}\frac{\partial}{\partial r}\left(\nu\frac{\partial w}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\nu\frac{\partial w}{\partial\theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial}{\partial\phi}\left(\nu\frac{\partial w}{\partial\phi}\right)
 
 $$
-
 
 
 Where $\frac{D}{Dt}$ represents the material derivative, $\rho$ is the density of the fluid, p is the pressure, f is the Coriolis parameter, and $\nu$ is the kinematic viscosity.
@@ -4616,22 +4559,17 @@ The equations of motion on a sphere are derived from the Navier-Stokes equations
 To derive the equations of motion on a sphere, we start with the Navier-Stokes equations in Cartesian coordinates:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} + w\frac{\partial u}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} + u\frac{\partial v}{\partial x} + v\frac{\partial v}{\partial y} + w\frac{\partial v}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial y} + \nu\left(\frac{\partial^2 v}{\partial x^2} + \frac{\partial^2 v}{\partial y^2} + \frac{\partial^2 v}{\partial z^2}\right)
 
 $$
-
-
 
 $$
 
@@ -4640,9 +4578,7 @@ $$
 $$
 
 
-
 Next, we transform these equations into spherical coordinates. Using the chain rule, we can express the derivatives in terms of the spherical coordinates:
-
 
 
 $$
@@ -4651,15 +4587,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial}{\partial y} = \frac{\partial r}{\partial y}\frac{\partial}{\partial r} + \frac{\partial \theta}{\partial y}\frac{\partial}{\partial \theta} + \frac{\partial \phi}{\partial y}\frac{\partial}{\partial \phi}
 
 $$
-
-
 
 $$
 
@@ -4668,9 +4600,7 @@ $$
 $$
 
 
-
 Substituting these expressions into the Navier-Stokes equations and simplifying, we get:
-
 
 
 $$
@@ -4679,15 +4609,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + \frac{w}{r\sin\theta}\frac{\partial v}{\partial \phi} = -\frac{1}{\rho r}\frac{\partial p}{\partial \theta} + \nu\left(\frac{\partial^2 v}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 v}{\partial \phi^2}\right)
 
 $$
-
-
 
 $$
 
@@ -4696,9 +4622,7 @@ $$
 $$
 
 
-
 Next, we consider the Coriolis force, which is given by:
-
 
 
 $$
@@ -4708,9 +4632,7 @@ $$
 $$
 
 
-
 where m is the mass of the fluid particle, Ω is the angular velocity of the Earth, and v is the velocity of the particle. In spherical coordinates, this force can be expressed as:
-
 
 
 $$
@@ -4720,9 +4642,7 @@ $$
 $$
 
 
-
 Substituting this into the equations of motion and simplifying, we get:
-
 
 
 $$
@@ -4731,22 +4651,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + \frac{w}{r\sin\theta}\frac{\partial v}{\partial \phi} = -\frac{1}{\rho r}\frac{\partial p}{\partial \theta} + \nu\left(\frac{\partial^2 v}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 v}{\partial \phi^2}\right) - 2\Omega u\sin\theta
 
 $$
 
-
-
 $$
 
 \frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + \frac{w}{r\sin\theta}\frac{\partial w}{\partial \phi} = -\frac{1}{\rho r\sin\theta}\frac{\partial p}{\partial \phi} + \nu\left(\frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 w}{\partial \phi^2}\right)
 
 $$
-
 
 
 These are the equations of motion on a rotating sphere, also known as the primitive equations. They take into account the effects of rotation and can be used to study the dynamics of the atmosphere and oceans on a global scale. 
@@ -4790,14 +4705,11 @@ The equations of motion on a sphere are derived from the Navier-Stokes equations
 To derive the equations of motion on a sphere, we start with the Navier-Stokes equations in Cartesian coordinates:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} + w\frac{\partial u}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)
 
 $$
-
-
 
 $$
 
@@ -4805,14 +4717,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial w}{\partial t} + u\frac{\partial w}{\partial x} + v\frac{\partial w}{\partial y} + w\frac{\partial w}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial z} + \nu\left(\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} + \frac{\partial^2 w}{\partial z^2}\right)
 
 $$
-
 
 
 where u, v, and w represent the velocity components in the x, y, and z directions, respectively, p is the pressure, ρ is the density, and ν is the kinematic viscosity.
@@ -4822,13 +4731,11 @@ where u, v, and w represent the velocity components in the x, y, and z direction
 To account for the rotation of the Earth, we introduce the Coriolis force, which is given by:
 
 
-
 $$
 
 F_{cor} = -2m\Omega \times v
 
 $$
-
 
 
 where m is the mass of the fluid particle, Ω is the angular velocity of the Earth, and v is the velocity vector.
@@ -4838,13 +4745,11 @@ where m is the mass of the fluid particle, Ω is the angular velocity of the Ear
 Using the spherical coordinate system, we can express the Coriolis force as:
 
 
-
 $$
 
 F_{cor} = -2m\Omega \times (u\hat{r} + v\hat{\theta} + w\hat{\phi})
 
 $$
-
 
 
 where ȧr, ȧθ, and ȧφ are the unit vectors in the radial, meridional, and zonal directions, respectively.
@@ -4854,14 +4759,11 @@ where ȧr, ȧθ, and ȧφ are the unit vectors in the radial, meridional, and zo
 Substituting this into the Navier-Stokes equations and simplifying, we get the equations of motion on a sphere:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial r} + \frac{v}{r}\frac{\partial u}{\partial \theta} + \frac{w}{r\sin\theta}\frac{\partial u}{\partial \phi} = -\frac{1}{\rho}\frac{\partial p}{\partial r} + \nu\left(\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{\partial u}{\partial r}) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial \theta}(\sin\theta\frac{\partial u}{\partial \theta}) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 u}{\partial \phi^2}\right) + 2\Omega w\sin\theta - \frac{2\Omega v}{r}
 
 $$
-
-
 
 $$
 
@@ -4869,14 +4771,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + \frac{w}{r\sin\theta}\frac{\partial w}{\partial \phi} = -\frac{1}{\rho}\frac{\partial p}{\partial \phi} + \nu\left(\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{\partial w}{\partial r}) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial \theta}(\sin\theta\frac{\partial w}{\partial \theta}) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 w}{\partial \phi^2}\right) + \frac{2\Omega v}{r} - \frac{2\Omega u\cos\theta}{r}
 
 $$
-
 
 
 These equations describe the motion of a fluid on a rotating sphere, taking into account the effects of the Coriolis force. They are essential for understanding the dynamics of the atmosphere and oceans, and are used in various numerical models to simulate and predict weather and climate patterns.
@@ -5224,13 +5123,11 @@ The thermal wind is a crucial component of the geostrophic balance, which is a f
 To calculate the thermal wind, we can use the thermal wind equation, which relates the change in wind speed with height to the change in temperature with height. This equation is derived from the geostrophic and hydrostatic balance equations and is given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial z} = -\frac{g}{f}\frac{\partial \theta}{\partial y}
 
 $$
-
 
 
 where $u$ is the zonal wind speed, $z$ is the vertical coordinate, $g$ is the acceleration due to gravity, $f$ is the Coriolis parameter, and $\theta$ is the potential temperature.
@@ -5278,13 +5175,11 @@ The thermal wind is a crucial component of the geostrophic balance, which is a f
 To calculate the thermal wind, we can use the thermal wind equation, which relates the change in wind speed with height to the change in temperature with height. This equation is given by:
 
 
-
 $$
 
 \frac{\partial u}{\partial z} = -\frac{g}{f}\frac{\partial \theta}{\partial y}
 
 $$
-
 
 
 where $u$ is the zonal wind speed, $z$ is the height, $g$ is the gravitational acceleration, $f$ is the Coriolis parameter, and $\theta$ is the potential temperature. This equation shows that the thermal wind is directly proportional to the change in temperature with height and inversely proportional to the Coriolis parameter. This means that a larger change in temperature with height or a smaller Coriolis parameter will result in a stronger thermal wind.
@@ -5348,13 +5243,11 @@ The thermal wind is a crucial component of the geostrophic balance, which is a f
 To calculate the thermal wind, we can use the thermal wind equation, which relates the change in wind speed with height to the change in temperature with height. This equation is given by:
 
 
-
 $$
 
 \frac{\partial v}{\partial z} = -\frac{1}{f\rho}\frac{\partial \rho}{\partial x}
 
 $$
-
 
 
 where $v$ is the wind speed, $z$ is the height, $f$ is the Coriolis parameter, $\rho$ is the density, and $x$ is the horizontal distance. This equation shows that the change in wind speed with height is directly proportional to the change in density with horizontal distance. This means that if the density decreases with horizontal distance, the wind speed will increase with height, and vice versa.
@@ -5476,21 +5369,17 @@ The Ekman spiral also has an important consequence known as the Ekman transport.
 To understand the vertical velocity structure of the water column, equations <EquationNote|1> and <EquationNote|2> can be rewritten in terms of the vertical eddy viscosity term.
 
 
-
 $$
 
 \frac{\partial u}{\partial z} = -\frac{1}{\rho}\frac{\partial \tau}{\partial y} + \frac{A_z}{\rho}\frac{\partial^2 u}{\partial z^2}
 
 $$
 
-
-
 $$
 
 \frac{\partial v}{\partial z} = \frac{1}{\rho}\frac{\partial \tau}{\partial x} + \frac{A_z}{\rho}\frac{\partial^2 v}{\partial z^2}
 
 $$
-
 
 
 where <math>A_z\,\!</math> is the vertical eddy viscosity coefficient.
@@ -8682,13 +8571,11 @@ Ocean waves can be classified into two main categories: deep-water waves and sha
 In addition to their classification, ocean waves also have specific characteristics that can be described using mathematical equations. The most common equation used to describe ocean waves is the linear wave theory, which relates the wave height, wavelength, and period to the wind speed and duration. This equation is given by:
 
 
-
 $$
 
 H = \frac{C}{g} \cdot \frac{U^2}{T^2}
 
 $$
-
 
 
 Where:
@@ -8710,7 +8597,6 @@ This equation shows that the wave height is directly proportional to the wind sp
 
 
 Another important characteristic of ocean waves is their wavelength, which is the distance between two consecutive wave crests. The wavelength is related to the wave period and the water depth by the dispersion relation:
-
 
 
 $$

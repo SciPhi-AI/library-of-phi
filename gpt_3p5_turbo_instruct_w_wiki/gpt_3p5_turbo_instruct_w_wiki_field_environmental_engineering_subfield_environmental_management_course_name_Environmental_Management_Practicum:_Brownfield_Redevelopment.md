@@ -1270,9 +1270,7 @@ An EMS follows a Plan-Do-Check-Act (PDCA) cycle, also known as the Deming cycle.
 
 
 $$
-
 \Delta w = \eta \sum_{n=1}^{N} (d(n) - y(n))x(n)
-
 $$
 
 

@@ -1482,9 +1482,7 @@ The logistic map is a classic example of a dynamical system that exhibits chaoti
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -1582,9 +1580,7 @@ The logistic map is a classic example of a dynamical system that exhibits chaoti
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -1602,7 +1598,6 @@ The Lorenz system is a set of three differential equations that describe the beh
 
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -1612,7 +1607,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 
@@ -1630,7 +1624,6 @@ The double pendulum is a physical system that exhibits chaotic behavior. It cons
 
 
 $$
-
 \begin{align}
 
 \ddot{\theta_1} &= -\frac{g(2m_1+m_2)\sin\theta_1-m_2g\sin(\theta_1-2\theta_2)-2\sin(\theta_1-\theta_2)m_2(\dot{\theta_2}^2+\dot{\theta_1}^2\cos(\theta_1-\theta_2))}{2l_1(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))} \\
@@ -1638,7 +1631,6 @@ $$
 \ddot{\theta_2} &= \frac{2\sin(\theta_1-\theta_2)(\dot{\theta_1}^2l_1(m_1+m_2)+g(m_1+m_2)\cos\theta_1+\dot{\theta_2}^2l_2m_2\cos(\theta_1-\theta_2))}{l_2(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
 
 \end{align}
-
 $$
 
 
@@ -2120,9 +2112,7 @@ To understand bifurcation points better, let us consider a simple example of a l
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -2166,9 +2156,7 @@ To understand bifurcation points better, let us consider a simple example of a l
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -2228,9 +2216,7 @@ To understand bifurcation points better, let us consider a simple example of a l
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -2452,9 +2438,7 @@ To better understand chaotic behavior, we can look at the logistic map, a simple
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -2626,7 +2610,6 @@ Explore the behavior of the logistic map for different initial conditions and va
 Investigate the bifurcations that occur in the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -2636,7 +2619,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are parameters. Plot the bifurcation diagram for this system and discuss the different types of bifurcations that occur.
@@ -2648,7 +2630,6 @@ where $a$, $b$, and $c$ are parameters. Plot the bifurcation diagram for this sy
 Consider the Henon map given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= 1-ax_n^2+y_n \\
@@ -2656,7 +2637,6 @@ x_{n+1} &= 1-ax_n^2+y_n \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are parameters. Investigate the behavior of this map for different values of $a$ and $b$. Can you identify any bifurcations in this system?
@@ -2708,7 +2688,6 @@ Explore the behavior of the logistic map for different initial conditions and va
 Investigate the bifurcations that occur in the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -2718,7 +2697,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are parameters. Plot the bifurcation diagram for this system and discuss the different types of bifurcations that occur.
@@ -2730,7 +2708,6 @@ where $a$, $b$, and $c$ are parameters. Plot the bifurcation diagram for this sy
 Consider the Henon map given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= 1-ax_n^2+y_n \\
@@ -2738,7 +2715,6 @@ x_{n+1} &= 1-ax_n^2+y_n \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are parameters. Investigate the behavior of this map for different values of $a$ and $b$. Can you identify any bifurcations in this system?
@@ -3006,17 +2982,13 @@ In mathematical notation, the Feigenbaum constants can be defined as follows:
 
 
 $$
-
 \delta = \lim_{n \to \infty} \frac{\lambda_{n+1} - \lambda_n}{\lambda_{n+2} - \lambda_{n+1}}
-
 $$
 
 
 
 $$
-
 \alpha = \lim_{n \to \infty} \frac{\lambda_{n+1} - \lambda_n}{\lambda_{n+2} - \lambda_{n+1}} \cdot \frac{\lambda_{n+2} - \lambda_{n+1}}{\lambda_{n+3} - \lambda_{n+2}}
-
 $$
 
 
@@ -3158,17 +3130,13 @@ In the case of the quadratic family, the Feigenbaum constants can be calculated 
 
 
 $$
-
 \delta = \lim_{n \to \infty} \frac{a_{n+1} - a_n}{a_{n+2} - a_{n+1}}
-
 $$
 
 
 
 $$
-
 \alpha = \lim_{n \to \infty} \frac{a_{n+2} - a_{n+1}}{a_{n+3} - a_{n+2}}
-
 $$
 
 
@@ -3726,9 +3694,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3738,9 +3704,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -3784,9 +3748,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3796,9 +3758,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -3868,9 +3828,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3880,9 +3838,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -3968,9 +3924,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3980,9 +3934,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4012,7 +3964,6 @@ One of the most well-known examples of a strange attractor is the Lorenz attract
 
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -4022,7 +3973,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 
@@ -4072,9 +4022,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -4084,9 +4032,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4176,9 +4122,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -4188,9 +4132,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4280,9 +4222,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -4292,9 +4232,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4348,9 +4286,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -4360,9 +4296,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4492,9 +4426,7 @@ Let us consider a dynamical system described by the following equation:
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -4504,9 +4436,7 @@ where $x_n$ represents the state of the system at time $n$ and $f$ is a function
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \ln \frac{\left\| \delta x_n \right\|}{\left\| \delta x_0 \right\|}
-
 $$
 
 
@@ -4750,25 +4680,19 @@ To understand this better, let's consider the Lorenz system, a set of three nonl
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -4812,25 +4736,19 @@ To understand this better, let's consider the Lorenz system, a set of three nonl
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -4886,25 +4804,19 @@ To understand this better, let's consider the Lorenz system, a set of three nonl
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)
-
 $$
 
 
 
 $$
-
 \frac{dy}{dt} = x(\rho-z)-y
-
 $$
 
 
 
 $$
-
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -5408,9 +5320,7 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the concept of strange attractors by studying the Lorenz system, given by the equations:
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x), \quad \frac{dy}{dt} = x(\rho-z)-y, \quad \frac{dz}{dt} = xy-\beta z
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase space of this system for different values of these constants and observe the behavior of the system.
@@ -5464,9 +5374,7 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the concept of strange attractors by studying the Lorenz system, given by the equations:
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x), \quad \frac{dy}{dt} = x(\rho-z)-y, \quad \frac{dz}{dt} = xy-\beta z
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase space of this system for different values of these constants and observe the behavior of the system.
@@ -5532,9 +5440,7 @@ The general form of a nonlinear differential equation is given by:
 
 
 $$
-
 \frac{d^n y}{dx^n} = f(x,y,y',y'',...,y^{(n-1)})
-
 $$
 
 
@@ -5820,9 +5726,7 @@ To better understand limit cycles, let's consider the example of a simple harmon
 
 
 $$
-
 \frac{d^2x}{dt^2} + \omega^2x = 0
-
 $$
 
 
@@ -5886,9 +5790,7 @@ To better understand limit cycles, let's consider the example of a simple harmon
 
 
 $$
-
 \frac{d^2x}{dt^2} + \omega^2x = 0
-
 $$
 
 
@@ -5948,9 +5850,7 @@ To better understand limit cycles, let's consider the example of a simple harmon
 
 
 $$
-
 \frac{d^2x}{dt^2} + \omega^2x = 0
-
 $$
 
 
@@ -6018,9 +5918,7 @@ Mathematically, a Poincaré map can be defined as a discrete-time dynamical syst
 
 
 $$
-
 x_{t+1} = f(x_t)
-
 $$
 
 
@@ -6034,9 +5932,7 @@ To better understand Poincaré maps, let's consider the example of a simple pend
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6096,9 +5992,7 @@ Mathematically, a Poincaré map can be defined as a discrete-time dynamical syst
 
 
 $$
-
 x_{t+1} = f(x_t)
-
 $$
 
 
@@ -6112,9 +6006,7 @@ To better understand Poincaré maps, let's consider the example of a simple pend
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6166,9 +6058,7 @@ Mathematically, a Poincaré map can be defined as a discrete-time dynamical syst
 
 
 $$
-
 x_{t+1} = f(x_t)
-
 $$
 
 
@@ -6182,9 +6072,7 @@ To better understand Poincaré maps, let's consider the example of a simple pend
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -6528,9 +6416,7 @@ Complete synchronization, also known as identical synchronization, occurs when t
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = 0
-
 $$
 
 
@@ -6544,9 +6430,7 @@ On the other hand, phase synchronization occurs when the systems exhibit similar
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = C
-
 $$
 
 
@@ -6590,9 +6474,7 @@ Complete synchronization, also known as identical synchronization, occurs when t
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = 0
-
 $$
 
 
@@ -6606,9 +6488,7 @@ On the other hand, phase synchronization occurs when the systems exhibit similar
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = C
-
 $$
 
 
@@ -6668,9 +6548,7 @@ Complete synchronization, also known as identical synchronization, occurs when t
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = 0
-
 $$
 
 
@@ -6684,9 +6562,7 @@ On the other hand, phase synchronization occurs when the systems exhibit similar
 
 
 $$
-
 \lim_{t \to \infty} |x_1(t) - x_2(t)| = C
-
 $$
 
 
@@ -6924,9 +6800,7 @@ Overall, this chapter has provided a glimpse into the fascinating world of chaos
 Consider the following system:
 
 $$
-
 x_{n+1} = 4x_n(1-x_n)
-
 $$
 
 Plot the bifurcation diagram for this system and discuss the behavior observed.
@@ -6984,9 +6858,7 @@ Overall, this chapter has provided a glimpse into the fascinating world of chaos
 Consider the following system:
 
 $$
-
 x_{n+1} = 4x_n(1-x_n)
-
 $$
 
 Plot the bifurcation diagram for this system and discuss the behavior observed.
@@ -8402,9 +8274,7 @@ Mathematically, we can represent nonlinear oscillations using the following equa
 
 
 $$
-
 \ddot{x} + f(x) = 0
-
 $$
 
 
@@ -8542,9 +8412,7 @@ Nonlinear oscillations can be found in various physical systems, such as pendulu
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -9454,7 +9322,6 @@ Formally, a strange attractor can be described using a mathematical equation kno
 
 
 $$
-
 \begin{aligned}
 
 \dot{x} &= \sigma(y-x) \\
@@ -9464,7 +9331,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{aligned}
-
 $$
 
 
@@ -9516,7 +9382,6 @@ Formally, a strange attractor can be described using a mathematical equation kno
 
 
 $$
-
 \begin{aligned}
 
 \dot{x} &= \sigma(y-x) \\
@@ -9526,7 +9391,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{aligned}
-
 $$
 
 
@@ -9582,7 +9446,6 @@ Formally, a strange attractor can be described using a mathematical equation kno
 
 
 $$
-
 \begin{aligned}
 
 \dot{x} &= \sigma(y-x) \\
@@ -9592,7 +9455,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{aligned}
-
 $$
 
 
@@ -9674,9 +9536,7 @@ Research and discuss the applications of chaos theory in real-world systems, suc
 Investigate the concept of strange attractors by studying the Lorenz system, given by the equations:
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x), \quad \frac{dy}{dt} = x(\rho-z)-y, \quad \frac{dz}{dt} = xy-\beta z
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase portrait of this system for different values of the parameters and observe the behavior of the system.
@@ -9734,9 +9594,7 @@ Research and discuss the applications of chaos theory in real-world systems, suc
 Investigate the concept of strange attractors by studying the Lorenz system, given by the equations:
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x), \quad \frac{dy}{dt} = x(\rho-z)-y, \quad \frac{dz}{dt} = xy-\beta z
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase portrait of this system for different values of the parameters and observe the behavior of the system.
@@ -9806,9 +9664,7 @@ To better understand nonlinear control, let us consider the example of a pendulu
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
-
 $$
 
 
@@ -9822,9 +9678,7 @@ To control the pendulum, we can use a technique called feedback linearization. T
 
 
 $$
-
 u = \ddot{\theta}_d - k_1(\theta - \theta_d) - k_2\dot{\theta}
-
 $$
 
 
@@ -9868,9 +9722,7 @@ To better understand nonlinear control, let us consider the example of a pendulu
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
-
 $$
 
 
@@ -9930,9 +9782,7 @@ To better understand nonlinear control, let us consider the example of a pendulu
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
-
 $$
 
 
@@ -9946,9 +9796,7 @@ To control the pendulum's motion, we can use a technique called feedback lineari
 
 
 $$
-
 \ddot{u} + \frac{g}{l}u = 0
-
 $$
 
 
@@ -10120,9 +9968,7 @@ To better understand the role of nonlinear observers, let us consider a simple e
 
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -10196,9 +10042,7 @@ To better understand the role of nonlinear feedback, let us consider an example 
 
 
 $$
-
 \ddot{\theta} + b\dot{\theta} + c\sin{\theta} = u
-
 $$
 
 
@@ -10208,9 +10052,7 @@ where $\theta$ is the angle of the pendulum, $b$ is the damping coefficient, $c$
 
 
 $$
-
 u = -k_1\theta - k_2\dot{\theta} - k_3\sin{\theta}
-
 $$
 
 
@@ -10272,9 +10114,7 @@ To better understand the role of nonlinear feedback, let us consider an example 
 
 
 $$
-
 \ddot{x} - \mu(1-x^2)\dot{x} + x = 0
-
 $$
 
 
@@ -10306,7 +10146,6 @@ Nonlinear feedback can be defined as a control strategy that uses the output of 
 
 
 $$u(t) = f(y(t))$$
-
 
 
 where $u(t)$ is the control input, $y(t)$ is the output of the system, and $f$ is a nonlinear function.
@@ -10362,13 +10201,11 @@ Nonlinear stability is a crucial concept in the study of nonlinear systems and c
 Nonlinear stability can be defined as the ability of a nonlinear system to maintain its equilibrium or desired state in the presence of disturbances or uncertainties. It is a fundamental property that is essential for the proper functioning of nonlinear systems. Mathematically, nonlinear stability can be represented as:
 
 
-
 $$
 
 \lim_{t \to \infty} |y(t) - y_{eq}| = 0
 
 $$
-
 
 
 where $y(t)$ is the output of the system and $y_{eq}$ is the equilibrium or desired state.
@@ -10416,13 +10253,11 @@ Nonlinear stability is a crucial concept in the study of nonlinear systems and c
 Nonlinear stability can be defined as the ability of a nonlinear system to maintain its equilibrium or desired state in the presence of disturbances or uncertainties. It is a fundamental property that is essential for the proper functioning of nonlinear systems. Mathematically, nonlinear stability can be represented as:
 
 
-
 $$
 
 \lim_{t \to \infty} |y(t) - y_{eq}| = 0
 
 $$
-
 
 
 where $y(t)$ is the output of the system and $y_{eq}$ is the equilibrium or desired state.
@@ -10470,13 +10305,11 @@ Nonlinear stability is a crucial concept in the study of nonlinear systems and c
 Nonlinear stability can be defined as the ability of a nonlinear system to maintain its equilibrium or desired state in the presence of disturbances or uncertainties. It is a fundamental property that is essential for the proper functioning of nonlinear systems. Mathematically, nonlinear stability can be represented as:
 
 
-
 $$
 
 \lim_{t \to \infty} |y(t) - y_{eq}| = 0
 
 $$
-
 
 
 where $y(t)$ is the output of the system and $y_{eq}$ is the equilibrium or desired state.
@@ -10536,13 +10369,11 @@ Overall, this chapter has provided a glimpse into the fascinating world of nonli
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - 1
 
 $$
-
 a) Plot the phase portrait for this system.
 
 b) Identify the equilibrium points and their stability.
@@ -10554,13 +10385,11 @@ c) Discuss the potential for chaos in this system.
 #### Exercise 2
 
 Consider the logistic map:
-
 $$
 
 x_{n+1} = rx_n(1-x_n)
 
 $$
-
 a) Plot the bifurcation diagram for this map.
 
 b) Discuss the behavior of the system for different values of the parameter $r$.
@@ -10572,13 +10401,11 @@ c) How does this map relate to population growth models?
 #### Exercise 3
 
 Consider the Lorenz system:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 a) Plot the phase portrait for this system.
 
 b) Discuss the behavior of the system for different values of the parameters $\sigma$, $\rho$, and $\beta$.
@@ -10590,17 +10417,14 @@ c) How does this system relate to weather forecasting?
 #### Exercise 4
 
 Consider the double pendulum system:
-
 $$
 
 \ddot{\theta_1} = -\frac{g(2m_1+m_2)\sin\theta_1-m_2g\sin(\theta_1-2\theta_2)-2\sin(\theta_1-\theta_2)m_2(\dot{\theta_2}^2+\dot{\theta_1}^2\cos(\theta_1-\theta_2))}{2l_1(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
 
 $$
-
 $$
 
 \ddot{\theta_2} = \frac{2\sin(\theta_1-\theta_2)(\dot{\theta_1}^2l_1(m_1+m_2)+g(m_1+m_2)\cos\theta_1+\dot{\theta_2}^2l_2m_2\cos(\theta_1-\theta_2))}{2l_2(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
-
 $$
 
 a) Plot the phase portrait for this system.
@@ -10616,9 +10440,7 @@ c) How does this system relate to the concept of chaos in classical mechanics?
 Consider a feedback control system with the following transfer function:
 
 $$
-
 G(s) = \frac{K}{s(s+1)(s+2)}
-
 $$
 
 a) Determine the stability of this system for different values of the gain $K$.
@@ -10656,9 +10478,7 @@ Overall, this chapter has provided a glimpse into the fascinating world of nonli
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 - 1
-
 $$
 
 a) Plot the phase portrait for this system.
@@ -10674,9 +10494,7 @@ c) Discuss the potential for chaos in this system.
 Consider the logistic map:
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 a) Plot the bifurcation diagram for this map.
@@ -10692,9 +10510,7 @@ c) How does this map relate to population growth models?
 Consider the Lorenz system:
 
 $$
-
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
-
 $$
 
 a) Plot the phase portrait for this system.
@@ -10710,15 +10526,11 @@ c) How does this system relate to weather forecasting?
 Consider the double pendulum system:
 
 $$
-
 \ddot{\theta_1} = -\frac{g(2m_1+m_2)\sin\theta_1-m_2g\sin(\theta_1-2\theta_2)-2\sin(\theta_1-\theta_2)m_2(\dot{\theta_2}^2+\dot{\theta_1}^2\cos(\theta_1-\theta_2))}{2l_1(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
-
 $$
 
 $$
-
 \ddot{\theta_2} = \frac{2\sin(\theta_1-\theta_2)(\dot{\theta_1}^2l_1(m_1+m_2)+g(m_1+m_2)\cos\theta_1+\dot{\theta_2}^2l_2m_2\cos(\theta_1-\theta_2))}{2l_2(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
-
 $$
 
 a) Plot the phase portrait for this system.
@@ -10734,9 +10546,7 @@ c) How does this system relate to the concept of chaos in classical mechanics?
 Consider a feedback control system with the following transfer function:
 
 $$
-
 G(s) = \frac{K}{s(s+1)(s+2)}
-
 $$
 
 a) Determine the stability of this system for different values of the gain $K$.
@@ -10952,7 +10762,6 @@ Nonlinear programming can be defined as the process of finding the optimal value
 
 
 $$
-
 \begin{align}
 
 \min_{x} f(x) \\
@@ -10962,7 +10771,6 @@ $$
 h_j(x) = 0, \quad j = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -11026,7 +10834,6 @@ Nonlinear programming can be seen as an extension of nonlinear optimization, whe
 
 
 $$
-
 \begin{align}
 
 \min_{x} f(x) \\
@@ -11036,7 +10843,6 @@ $$
 h_j(x) = 0, \quad j = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -11128,7 +10934,6 @@ Nonlinear programming can be seen as an extension of nonlinear optimization, whe
 
 
 $$
-
 \begin{align}
 
 \min_{x} f(x) \\
@@ -11138,7 +10943,6 @@ $$
 h_j(x) = 0, \quad j = 1,2,...,p
 
 \end{align}
-
 $$
 
 
@@ -11224,7 +11028,6 @@ Nonlinear constraints are mathematical expressions that involve nonlinear functi
 
 
 $$
-
 \begin{align}
 
 h_j(x) = 0, \quad j = 1,2,...,p \\
@@ -11232,7 +11035,6 @@ h_j(x) = 0, \quad j = 1,2,...,p \\
 g_i(x) \leq 0, \quad i = 1,2,...,m
 
 \end{align}
-
 $$
 
 
@@ -11288,7 +11090,6 @@ Nonlinear constraints are mathematical expressions that involve nonlinear functi
 
 
 $$
-
 \begin{align}
 
 h_j(x) = 0, \quad j = 1,2,...,p \\
@@ -11296,7 +11097,6 @@ h_j(x) = 0, \quad j = 1,2,...,p \\
 g_i(x) \leq 0, \quad i = 1,2,...,m
 
 \end{align}
-
 $$
 
 
@@ -11388,7 +11188,6 @@ Nonlinear constraints are mathematical expressions that involve nonlinear functi
 
 
 $$
-
 \begin{align}
 
 h_j(x) = 0, \quad j = 1,2,...,p \\
@@ -11396,7 +11195,6 @@ h_j(x) = 0, \quad j = 1,2,...,p \\
 g_i(x) \leq 0, \quad i = 1,2,...,m
 
 \end{align}
-
 $$
 
 
@@ -11472,13 +11270,11 @@ Nonlinear objective functions are mathematical expressions that involve nonlinea
 
 
 $$
-
 \begin{align}
 
 f(x) = \sum_{i=1}^{n} f_i(x), \quad x \in \mathbb{R}^n
 
 \end{align}
-
 $$
 
 
@@ -11538,13 +11334,11 @@ Nonlinear objective functions are mathematical expressions that involve nonlinea
 
 
 $$
-
 \begin{align}
 
 f(x) = \sum_{i=1}^{n} f_i(x), \quad x \in \mathbb{R}^n
 
 \end{align}
-
 $$
 
 
@@ -11644,13 +11438,11 @@ Nonlinear objective functions are mathematical expressions that involve nonlinea
 
 
 $$
-
 \begin{align}
 
 f(x) = \sum_{i=1}^{n} f_i(x), \quad x \in \mathbb{R}^n
 
 \end{align}
-
 $$
 
 
@@ -11726,9 +11518,7 @@ As we conclude this chapter, it is important to note that the study of nonlinear
 Consider the following nonlinear system:
 
 $$
-
 x_{n+1} = x_n^2 + c
-
 $$
 
 where $c$ is a constant. Investigate the behavior of this system for different values of $c$. What patterns do you observe? Can you explain why these patterns occur?
@@ -11782,9 +11572,7 @@ As we conclude this chapter, it is important to note that the study of nonlinear
 Consider the following nonlinear system:
 
 $$
-
 x_{n+1} = x_n^2 + c
-
 $$
 
 where $c$ is a constant. Investigate the behavior of this system for different values of $c$. What patterns do you observe? Can you explain why these patterns occur?
@@ -12480,7 +12268,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -12490,7 +12277,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the system's attractor for different values of these constants and observe how the behavior changes.
@@ -12502,7 +12288,6 @@ where $\sigma$, $\rho$, and $\beta$ are constants. Plot the system's attractor f
 Investigate the behavior of the Henon map, given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= y_n + 1 - ax_n^2 \\
@@ -12510,7 +12295,6 @@ x_{n+1} &= y_n + 1 - ax_n^2 \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are constants. How does the behavior of this system change as $a$ and $b$ vary?
@@ -12562,7 +12346,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Explore the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -12572,7 +12355,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the system's attractor for different values of these constants and observe how the behavior changes.
@@ -12584,7 +12366,6 @@ where $\sigma$, $\rho$, and $\beta$ are constants. Plot the system's attractor f
 Investigate the behavior of the Henon map, given by the equations
 
 $$
-
 \begin{align}
 
 x_{n+1} &= y_n + 1 - ax_n^2 \\
@@ -12592,7 +12373,6 @@ x_{n+1} &= y_n + 1 - ax_n^2 \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 where $a$ and $b$ are constants. How does the behavior of this system change as $a$ and $b$ vary?
@@ -13434,7 +13214,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Create a phase portrait for the Lorenz system, given by the equations
 
 $$
-
 \begin{aligned}
 
 \dot{x} &= \sigma(y-x) \\
@@ -13444,7 +13223,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{aligned}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Vary the values of these parameters and observe how the phase portrait changes. What happens when $\rho$ is close to 1?
@@ -13498,7 +13276,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Create a phase portrait for the Lorenz system, given by the equations
 
 $$
-
 \begin{aligned}
 
 \dot{x} &= \sigma(y-x) \\
@@ -13508,7 +13285,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{aligned}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. Vary the values of these parameters and observe how the phase portrait changes. What happens when $\rho$ is close to 1?
@@ -13880,9 +13656,7 @@ To understand the concept of stability, let us consider a simple example of a pe
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -13938,9 +13712,7 @@ To understand the concept of stability, let us consider a simple example of a pe
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -14004,9 +13776,7 @@ To understand the concept of stability, let us consider a simple example of a pe
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 
@@ -14238,7 +14008,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the behavior of the Lorenz system given by the equations:
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -14248,7 +14017,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 for different values of the parameters $\sigma$, $\rho$, and $\beta$. What types of behavior do you observe? How does changing the parameters affect the system?
@@ -14266,7 +14034,6 @@ Explore the concept of fractals by generating the famous Mandelbrot set using th
 Investigate the behavior of the Henon map given by the equations:
 
 $$
-
 \begin{align}
 
 x_{n+1} &= 1-ax_n^2+y_n \\
@@ -14274,7 +14041,6 @@ x_{n+1} &= 1-ax_n^2+y_n \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 for different values of the parameters $a$ and $b$. How does the behavior of the system change as these parameters are varied?
@@ -14320,7 +14086,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the behavior of the Lorenz system given by the equations:
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -14330,7 +14095,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 for different values of the parameters $\sigma$, $\rho$, and $\beta$. What types of behavior do you observe? How does changing the parameters affect the system?
@@ -14348,7 +14112,6 @@ Explore the concept of fractals by generating the famous Mandelbrot set using th
 Investigate the behavior of the Henon map given by the equations:
 
 $$
-
 \begin{align}
 
 x_{n+1} &= 1-ax_n^2+y_n \\
@@ -14356,7 +14119,6 @@ x_{n+1} &= 1-ax_n^2+y_n \\
 y_{n+1} &= bx_n
 
 \end{align}
-
 $$
 
 for different values of the parameters $a$ and $b$. How does the behavior of the system change as these parameters are varied?
@@ -15230,9 +14992,7 @@ As we conclude this chapter, it is important to note that the study of nonlinear
 Consider the following nonlinear system:
 
 $$
-
 x_{n+1} = 4x_n(1-x_n)
-
 $$
 
 a) Plot the first 50 iterations of this system for different initial conditions.
@@ -15248,9 +15008,7 @@ c) Can you explain why this system exhibits chaotic behavior?
 In this chapter, we learned about the concept of sensitivity to initial conditions. Consider the following system:
 
 $$
-
 x_{n+1} = 2x_n
-
 $$
 
 a) Plot the first 50 iterations of this system for different initial conditions.
@@ -15302,9 +15060,7 @@ As we conclude this chapter, it is important to note that the study of nonlinear
 Consider the following nonlinear system:
 
 $$
-
 x_{n+1} = 4x_n(1-x_n)
-
 $$
 
 a) Plot the first 50 iterations of this system for different initial conditions.
@@ -15320,9 +15076,7 @@ c) Can you explain why this system exhibits chaotic behavior?
 In this chapter, we learned about the concept of sensitivity to initial conditions. Consider the following system:
 
 $$
-
 x_{n+1} = 2x_n
-
 $$
 
 a) Plot the first 50 iterations of this system for different initial conditions.
@@ -16060,7 +15814,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -16070,7 +15823,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase portrait for different values of these constants and discuss the behavior observed.
@@ -16088,7 +15840,6 @@ Explore the Mandelbrot set, a famous fractal generated by the iteration $z_{n+1}
 Investigate the behavior of the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -16098,7 +15849,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are constants. Plot the phase portrait for different values of these constants and discuss the behavior observed.
@@ -16140,7 +15890,6 @@ Consider the logistic map given by the equation $x_{n+1} = rx_n(1-x_n)$, where $
 Investigate the behavior of the Lorenz system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= \sigma(y-x) \\
@@ -16150,7 +15899,6 @@ $$
 \dot{z} &= xy-\beta z
 
 \end{align}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are constants. Plot the phase portrait for different values of these constants and discuss the behavior observed.
@@ -16168,7 +15916,6 @@ Explore the Mandelbrot set, a famous fractal generated by the iteration $z_{n+1}
 Investigate the behavior of the Rössler system, given by the equations
 
 $$
-
 \begin{align}
 
 \dot{x} &= -y-z \\
@@ -16178,7 +15925,6 @@ $$
 \dot{z} &= b+z(x-c)
 
 \end{align}
-
 $$
 
 where $a$, $b$, and $c$ are constants. Plot the phase portrait for different values of these constants and discuss the behavior observed.

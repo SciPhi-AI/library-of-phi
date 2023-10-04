@@ -2528,9 +2528,7 @@ The resolution of photolithography is a key factor in determining the minimum fe
 
 
 $$
-
 \Delta x = k_1 \frac{\lambda}{NA}
-
 $$
 
 
@@ -3780,9 +3778,7 @@ Based on these assumptions, the Deal/Grove model can be mathematically expressed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2}
-
 $$
 
 
@@ -3808,9 +3804,7 @@ The Deal/Grove model also takes into account the effect of temperature on the ox
 
 
 $$
-
 R = A e^{-E_a/RT}
-
 $$
 
 
@@ -3870,9 +3864,7 @@ Based on these assumptions, the Deal/Grove model can be mathematically expressed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2}
-
 $$
 
 
@@ -3898,9 +3890,7 @@ The Deal/Grove model also takes into account the effect of temperature on the ox
 
 
 $$
-
 R = A e^{-E_a/RT}
-
 $$
 
 
@@ -3940,9 +3930,7 @@ The first step in the oxidation process is the diffusion of oxygen through the o
 
 
 $$
-
 Si + O_2 \rightarrow SiO_2
-
 $$
 
 
@@ -3992,9 +3980,7 @@ Based on these assumptions, the Deal/Grove model can be mathematically expressed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2}
-
 $$
 
 
@@ -4020,9 +4006,7 @@ The Deal/Grove model also takes into account the effect of temperature on the ox
 
 
 $$
-
 R = A e^{-E_a/RT}
-
 $$
 
 
@@ -4134,9 +4118,7 @@ Based on these assumptions, the Deal/Grove model can be mathematically expressed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2}
-
 $$
 
 
@@ -4162,9 +4144,7 @@ The Deal/Grove model also takes into account the effect of temperature on the ox
 
 
 $$
-
 R = A e^{-E_a/RT}
-
 $$
 
 
@@ -4252,9 +4232,7 @@ Based on these assumptions, the Deal/Grove model can be mathematically expressed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2}
-
 $$
 
 
@@ -4280,9 +4258,7 @@ The Deal/Grove model also takes into account the effect of temperature on the ox
 
 
 $$
-
 R = A e^{-E_a/RT}
-
 $$
 
 
@@ -4326,9 +4302,7 @@ The Deal-Grove model can be expressed as:
 
 
 $$
-
 \frac{dx}{dt} = \frac{J_\text{oxide}}{N} = \frac {k_iC_g/N}{1+k_i/h_g+k_ix/D_\text{ox}}
-
 $$
 
 
@@ -4384,9 +4358,7 @@ One of the earliest thin oxide models was proposed by Wagner in 1962. This model
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d}{dx} \left(x^2 \frac{dC}{dx}\right)
-
 $$
 
 
@@ -4408,9 +4380,7 @@ Another widely used thin oxide model is the Deal-Grove model, which was first pr
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2} + \frac{D}{x} \frac{dC}{dx}
-
 $$
 
 
@@ -4436,9 +4406,7 @@ Another important thin oxide model is the Cabrera-Mott model, which was proposed
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2} + \frac{D}{x} \frac{dC}{dx} + kC
-
 $$
 
 
@@ -4488,9 +4456,7 @@ One of the earliest thin oxide models was proposed by Wagner in 1962. This model
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d}{dx} \left(x^2 \frac{dC}{dx}\right)
-
 $$
 
 
@@ -4512,9 +4478,7 @@ Another widely used thin oxide model is the Deal-Grove model, which was first pr
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2} + \frac{D}{x} \frac{dC}{dx}
-
 $$
 
 
@@ -4578,9 +4542,7 @@ One of the most commonly used models to describe the presence of oxide interface
 
 
 $$
-
 \frac{dC}{dt} = \frac{D}{x^2} \frac{d^2C}{dx^2} + \frac{D}{x} \frac{dC}{dx} + \frac{C_t - C}{\tau}
-
 $$
 
 
@@ -4644,9 +4606,7 @@ One of the most commonly used models to describe the effects of oxide stress and
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -4704,9 +4664,7 @@ One of the most commonly used models to describe the effects of oxide stress and
 
 
 $$
-
 \sigma = E \epsilon
-
 $$
 
 
@@ -5786,9 +5744,7 @@ To understand dopant diffusion, we must first introduce Fick's laws. These laws,
 
 
 $$
-
 J = -D\frac{\partial c}{\partial x}
-
 $$
 
 
@@ -5802,9 +5758,7 @@ The second law of Fick states that the change in concentration over time is equa
 
 
 $$
-
 \frac{\partial c}{\partial t} = D\frac{\partial^2 c}{\partial x^2}
-
 $$
 
 
@@ -5882,9 +5836,7 @@ Fick's second law is a fundamental equation in the study of diffusion and is use
 
 
 $$
-
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
-
 $$
 
 
@@ -5898,9 +5850,7 @@ In the context of dopant diffusion, Fick's second law can be written as:
 
 
 $$
-
 {\partial C\over{\partial t}} = D{\partial^{2}C\over{\partial x^{2}}}
-
 $$
 
 
@@ -5918,9 +5868,7 @@ One of the key implications of Fick's second law is the concept of diffusion len
 
 
 $$
-
 L = \sqrt{Dt}
-
 $$
 
 
@@ -5968,9 +5916,7 @@ In the context of dopant diffusion, steady-state diffusion can be described by t
 
 
 $$
-
 {\partial C\over{\partial t}} = D{\partial^{2}C\over{\partial x^{2}}} = 0
-
 $$
 
 
@@ -5984,9 +5930,7 @@ The flux of dopant atoms, denoted by $J$, is another important aspect of steady-
 
 
 $$
-
 J = -D{\partial C\over{\partial x}}
-
 $$
 
 
@@ -6030,9 +5974,7 @@ Non-steady-state diffusion can be described by the following equation:
 
 
 $$
-
 {\partial C\over{\partial t}} = D{\partial^{2}C\over{\partial x^{2}}}
-
 $$
 
 
@@ -6050,9 +5992,7 @@ The flux of dopant atoms, denoted by $J$, also plays a crucial role in non-stead
 
 
 $$
-
 J = -D{\partial C\over{\partial x}}
-
 $$
 
 
@@ -6096,9 +6036,7 @@ One example of a simple analytic model is the linearized approximation, which is
 
 
 $$
-
 {\partial C\over{\partial t}} = D{\partial^{2}C\over{\partial x^{2}}}
-
 $$
 
 
@@ -6108,9 +6046,7 @@ In the linearized approximation, we assume that the concentration gradient is sm
 
 
 $$
-
 {\partial C\over{\partial t}} \approx D{\partial^{2}C\over{\partial x^{2}}}
-
 $$
 
 
@@ -6124,9 +6060,7 @@ Another example of a simple analytic model is the pendulum example, which is bas
 
 
 $$
-
 {\partial C\over{\partial t}} = D{\partial^{2}C\over{\partial x^{2}}}
-
 $$
 
 
@@ -6174,9 +6108,7 @@ To begin, let us consider the one-dimensional heat equation, which is given by:
 
 
 $$
-
 u_{t}=ku_{xx} \quad (x, t) \in \mathbb{R} \times (0, \infty)
-
 $$
 
 
@@ -6190,9 +6122,7 @@ In the context of semi-infinite media, we are interested in finding the concentr
 
 
 $$
-
 C(x,t) = X(x)T(t)
-
 $$
 
 
@@ -6202,9 +6132,7 @@ Substituting this into the heat equation, we obtain:
 
 
 $$
-
 XT' = kX''T
-
 $$
 
 
@@ -6214,9 +6142,7 @@ Dividing both sides by "kXT" and rearranging, we get:
 
 
 $$
-
 \frac{T'}{kT} = \frac{X''}{X}
-
 $$
 
 
@@ -6226,9 +6152,7 @@ Since the left side of this equation is a function of "t" only, and the right si
 
 
 $$
-
 T' + \lambda^2kT = 0 \quad \text{and} \quad X'' + \lambda^2X = 0
-
 $$
 
 
@@ -6238,9 +6162,7 @@ The solution to the first equation is given by:
 
 
 $$
-
 T(t) = Ae^{-\lambda^2kt}
-
 $$
 
 
@@ -6254,9 +6176,7 @@ For Neumann boundary conditions, where the concentration gradient at the boundar
 
 
 $$
-
 X(x) = B\cos(\lambda x)
-
 $$
 
 
@@ -6266,9 +6186,7 @@ where "B" is a constant of integration. For Dirichlet boundary conditions, where
 
 
 $$
-
 X(x) = B\sin(\lambda x)
-
 $$
 
 
@@ -6282,9 +6200,7 @@ Now, we can combine the solutions for "T(t)" and "X(x)" to obtain the general so
 
 
 $$
-
 C(x,t) = \sum_{n=1}^{\infty} A_n e^{-\lambda_n^2kt}\cos(\lambda_n x) \quad \text{or} \quad \sum_{n=1}^{\infty} B_n e^{-\lambda_n^2kt}\sin(\lambda_n x)
-
 $$
 
 
@@ -6332,9 +6248,7 @@ To begin, let us consider the one-dimensional heat equation, which is given by:
 
 
 $$
-
 u_{t}=ku_{xx} \quad (x, t) \in \mathbb{R} \times (0, \infty)
-
 $$
 
 
@@ -6348,9 +6262,7 @@ In the context of finite media, we are interested in finding the concentration p
 
 
 $$
-
 C(x,t) = X(x)T(t)
-
 $$
 
 
@@ -6360,9 +6272,7 @@ Substituting this into the heat equation, we obtain:
 
 
 $$
-
 XT' = kX''T
-
 $$
 
 
@@ -6372,9 +6282,7 @@ Dividing both sides by "kXT" and rearranging, we get:
 
 
 $$
-
 \frac{T'}{kT} = \frac{X''}{X}
-
 $$
 
 
@@ -6384,9 +6292,7 @@ Since the left side of the equation is a function of time only and the right sid
 
 
 $$
-
 T' = -\lambda kT \quad \text{and} \quad X'' = -\lambda X
-
 $$
 
 
@@ -6396,9 +6302,7 @@ The solution to the first equation is given by:
 
 
 $$
-
 T(t) = Ae^{-\lambda kt}
-
 $$
 
 
@@ -6408,9 +6312,7 @@ where $A$ is a constant. The solution to the second equation depends on the boun
 
 
 $$
-
 X(x) = B\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -6424,9 +6326,7 @@ Combining these solutions, we get the general solution for concentration in a fi
 
 
 $$
-
 C(x,t) = \sum_{n=1}^{\infty} A_n e^{-\lambda_n kt}\sin\left(\frac{n\pi x}{L}\right)
-
 $$
 
 
@@ -6466,9 +6366,7 @@ The term "source/sink" refers to a localized region within the material where do
 
 
 $$
-
 u_{t}=ku_{xx}+G(x,t) \quad (x, t) \in \mathbb{R} \times (0, \infty)
-
 $$
 
 
@@ -6482,9 +6380,7 @@ To solve this equation, we can again use the method of separation of variables, 
 
 
 $$
-
 C(x,t) = X(x)T(t)
-
 $$
 
 
@@ -6494,9 +6390,7 @@ Substituting this into the heat equation, we obtain:
 
 
 $$
-
 XT' = kX''T + GX
-
 $$
 
 
@@ -6506,9 +6400,7 @@ Dividing both sides by "kXT" and rearranging, we get:
 
 
 $$
-
 \frac{T'}{kT} = \frac{X''}{X} + \frac{G}{k}
-
 $$
 
 
@@ -6518,17 +6410,13 @@ Since the left side of the equation is only a function of time and the right sid
 
 
 $$
-
 T' = k\lambda T
-
 $$
 
 
 
 $$
-
 X'' = (λ - \frac{G}{k})X
-
 $$
 
 
@@ -6538,9 +6426,7 @@ The first equation has the solution:
 
 
 $$
-
 T(t) = Ae^{k\lambda t}
-
 $$
 
 
@@ -6550,9 +6436,7 @@ where "A" is a constant determined by initial conditions. The second equation ha
 
 
 $$
-
 X(x) = Be^{\sqrt{λ - \frac{G}{k}}x} + Ce^{-\sqrt{λ - \frac{G}{k}}x}
-
 $$
 
 
@@ -6562,9 +6446,7 @@ where "B" and "C" are constants determined by boundary conditions. Combining the
 
 
 $$
-
 C(x,t) = (Be^{\sqrt{λ - \frac{G}{k}}x} + Ce^{-\sqrt{λ - \frac{G}{k}}x})e^{k\lambda t}
-
 $$
 
 
@@ -6604,9 +6486,7 @@ The term "moving boundary" refers to a situation where the boundary of the mater
 
 
 $$
-
 u_{t}=ku_{xx}+v(t)u_{x} \quad (x, t) \in \mathbb{R} \times (0, \infty)
-
 $$
 
 
@@ -6620,9 +6500,7 @@ To solve this equation, we can again use the method of separation of variables, 
 
 
 $$
-
 C(x,t) = X(x)T(t)
-
 $$
 
 
@@ -6632,9 +6510,7 @@ Substituting this into the heat equation, we obtain:
 
 
 $$
-
 XT' = kX''T + vX'
-
 $$
 
 
@@ -6644,9 +6520,7 @@ Dividing both sides by "kXT" and rearranging, we get:
 
 
 $$
-
 \frac{T'}{kT} = \frac{X''}{X} + \frac{v}{k}
-
 $$
 
 
@@ -6656,17 +6530,13 @@ Since the left side of the equation is only a function of time and the right sid
 
 
 $$
-
 T' = k\lambda T
-
 $$
 
 
 
 $$
-
 X'' = (λ - \frac{v}{k})X
-
 $$
 
 
@@ -6676,9 +6546,7 @@ The first equation has the solution:
 
 
 $$
-
 T(t) = Ae^{k\lambda t}
-
 $$
 
 
@@ -6688,9 +6556,7 @@ where "A" is a constant. The second equation has the solution:
 
 
 $$
-
 X(x) = Be^{\sqrt{λ - \frac{v}{k}}x} + Ce^{-\sqrt{λ - \frac{v}{k}}x}
-
 $$
 
 
@@ -6700,9 +6566,7 @@ where "B" and "C" are constants. Combining these solutions, we get the general s
 
 
 $$
-
 C(x,t) = (Be^{\sqrt{λ - \frac{v}{k}}x} + Ce^{-\sqrt{λ - \frac{v}{k}}x})e^{k\lambda t}
-
 $$
 
 
@@ -6792,9 +6656,7 @@ One of the most commonly used schemes in FDM is the explicit scheme, which is ba
 
 
 $$
-
 \frac{T_i ^f - T_i ^{f-1}}{\Delta t} = a \frac{T_{i-1} ^{f-1} - 2T_i ^{f-1} + T_{i+1} ^{f-1}}{h^2} - \epsilon u \frac{T_{i+1} ^{f-1} - T_{i-1} ^{f-1}}{2h} + \frac{Q_i ^{f-1}}{c \rho}
-
 $$
 
 
@@ -6808,9 +6670,7 @@ The explicit scheme is computationally efficient and easy to implement, but it h
 
 
 $$
-
 \Delta t < \frac{h^2}{2a + \epsilon u h}
-
 $$
 
 
@@ -7092,9 +6952,7 @@ The E field effect can be described by the following equation:
 
 
 $$
-
 \vec{J}_d = qD\vec{E}
-
 $$
 
 
@@ -7116,9 +6974,7 @@ The change in the diffusion coefficient can be described by the following equati
 
 
 $$
-
 D_{eff} = D_0e^{-\frac{q\phi}{kT}}
-
 $$
 
 
@@ -7186,9 +7042,7 @@ The E field effect can be described by the following equation:
 
 
 $$
-
 \vec{J}_d = qD\vec{E}
-
 $$
 
 
@@ -7210,9 +7064,7 @@ The change in the diffusion coefficient can be described by the following equati
 
 
 $$
-
 D_{eff} = D_0e^{-\frac{q\phi}{kT}}
-
 $$
 
 
@@ -9396,9 +9248,7 @@ The Bethe-Bloch formula is commonly used to calculate the electronic stopping po
 
 
 $$
-
 -\frac{dE}{dx} = Kz^2\frac{Z}{A}\frac{1}{\beta^2}\left[\frac{1}{2}\ln\frac{2m_ec^2\beta^2\gamma^2T_{max}}{I^2}-\beta^2-\frac{\delta(\beta\gamma)}{2}\right]
-
 $$
 
 
@@ -9488,9 +9338,7 @@ The nuclear stopping power can be calculated using the Mott-Bethe formula, which
 
 
 $$
-
 -\frac{dE}{dx} = Kz^2\frac{Z}{A}\frac{1}{\beta^2}\left[\ln\frac{2m_ec^2\beta^2\gamma^2T_{max}}{I^2}-\beta^2-\frac{\delta(\beta\gamma)}{2}\right]
-
 $$
 
 
@@ -9600,9 +9448,7 @@ The energy straggle is dependent on the ion's energy, the material's properties,
 
 
 $$
-
 \sigma^2 = \frac{4\pi N_0z^2e^4}{m_e\beta^2c^2\rho Z}\left[\ln\frac{2m_ec^2\beta^2\gamma^2T_{max}}{I^2}-\beta^2-\frac{\delta(\beta\gamma)}{2}\right]
-
 $$
 
 
@@ -9642,9 +9488,7 @@ The scattering effects are dependent on the ion's energy, the material's propert
 
 
 $$
-
 \Delta\theta = \frac{zZe^2}{4\pi\epsilon_0mv^2b}
-
 $$
 
 
@@ -11548,9 +11392,7 @@ Si epitaxial growth is typically performed using vapor-phase methods, where the 
 
 
 $$
-
 SiCl_4(g) + 2H_2(g) \rightarrow Si(s) + 4HCl(g)
-
 $$
 
 
@@ -11564,9 +11406,7 @@ Another competing reaction in Si epitaxy is the etching of the Si substrate by H
 
 
 $$
-
 Si(s) + 2HCl(g) \rightarrow SiCl_2(g) + 2H_2(g)
-
 $$
 
 
@@ -11580,9 +11420,7 @@ In addition to SiCl4 and H2, other source gases can also be used for Si epitaxy,
 
 
 $$
-
 SiH_4(g) \rightarrow Si(s) + 2H_2(g)
-
 $$
 
 
@@ -11626,9 +11464,7 @@ Si epitaxial growth is typically performed using vapor-phase methods, where the 
 
 
 $$
-
 SiCl_4(g) + 2H_2(g) \rightarrow Si(s) + 4HCl(g)
-
 $$
 
 
@@ -11642,9 +11478,7 @@ Another competing reaction in Si epitaxy is the etching of the Si substrate by H
 
 
 $$
-
 Si(s) + 2HCl(g) \rightarrow SiCl_2(g) + 2H_2(g)
-
 $$
 
 
@@ -11658,9 +11492,7 @@ In addition to SiCl4 and H2, other source gases can also be used for Si epitaxy,
 
 
 $$
-
 SiH_4(g) \rightarrow Si(s) + 2H_2(g)
-
 $$
 
 
@@ -11712,9 +11544,7 @@ Si epitaxial growth is typically performed using vapor-phase methods, where the 
 
 
 $$
-
 SiCl_4(g) + 2H_2(g) \rightarrow Si(s) + 4HCl(g)
-
 $$
 
 
@@ -11728,9 +11558,7 @@ Another competing reaction in Si epitaxy is the etching of the Si substrate by H
 
 
 $$
-
 Si(s) + 2HCl(g) \rightarrow SiCl_2(g) + 2H_2(g)
-
 $$
 
 
@@ -11744,9 +11572,7 @@ In addition to SiCl4 and H2, other source gases can also be used for Si epitaxy,
 
 
 $$
-
 SiH_4(g) \rightarrow Si(s) + 2H_2(g)
-
 $$
 
 
@@ -11806,9 +11632,7 @@ Si epitaxial growth is typically performed using vapor-phase methods, where the 
 
 
 $$
-
 SiCl_4(g) + 2H_2(g) \rightarrow Si(s) + 4HCl(g)
-
 $$
 
 
@@ -11822,9 +11646,7 @@ Another competing reaction in Si epitaxy is the etching of the Si substrate by H
 
 
 $$
-
 Si(s) + 2HCl(g) \rightarrow SiCl_2(g) + 2H_2(g)
-
 $$
 
 
@@ -11838,9 +11660,7 @@ In addition to SiCl4 and H2, other source gases can also be used for Si epitaxy,
 
 
 $$
-
 SiH_4(g) \rightarrow Si(s) + 2H_2(g)
-
 $$
 
 
@@ -11924,9 +11744,7 @@ Si epitaxial growth is typically performed using vapor-phase methods, where the 
 
 
 $$
-
 SiCl_4(g) + 2H_2(g) \rightarrow Si(s) + 4HCl(g)
-
 $$
 
 
@@ -11940,9 +11758,7 @@ Another competing reaction in Si epitaxy is the etching of the Si substrate by H
 
 
 $$
-
 Si(s) + 2HCl(g) \rightarrow SiCl_2(g) + 2H_2(g)
-
 $$
 
 
@@ -11956,9 +11772,7 @@ In addition to SiCl4 and H2, other source gases can also be used for Si epitaxy,
 
 
 $$
-
 SiH_4(g) \rightarrow Si(s) + 2H_2(g)
-
 $$
 
 
@@ -12046,9 +11860,7 @@ One example of CVD in microfabrication is the deposition of silicon dioxide (SiO
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12062,9 +11874,7 @@ Another example of CVD is the deposition of tungsten (W) for the fabrication of 
 
 
 $$
-
 WF_6(g) + 3H_2(g) \rightarrow W(s) + 6HF(g)
-
 $$
 
 
@@ -12104,9 +11914,7 @@ One example of CVD in microfabrication is the deposition of silicon dioxide (SiO
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12120,9 +11928,7 @@ Another example of CVD is the deposition of tungsten (W) for the fabrication of 
 
 
 $$
-
 WF_6(g) + 3H_2(g) \rightarrow W(s) + 6HF(g)
-
 $$
 
 
@@ -12156,9 +11962,7 @@ The reaction for thermal CVD of SiO2 is as follows:
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12180,9 +11984,7 @@ The reaction for TEOS deposition of SiO2 is as follows:
 
 
 $$
-
 Si(OC_2H_5)_4(l) + O_2(g) \rightarrow SiO_2(s) + 2CO_2(g) + 5H_2O(g)
-
 $$
 
 
@@ -12218,9 +12020,7 @@ One example of CVD in microfabrication is the deposition of silicon dioxide (SiO
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12234,9 +12034,7 @@ Another example of CVD is the deposition of tungsten (W) for the fabrication of 
 
 
 $$
-
 WF_6(g) + 3H_2(g) \rightarrow W(s) + 6HF(g)
-
 $$
 
 
@@ -12274,9 +12072,7 @@ In the CVD process, silane (SiH4) and ammonia (NH3) are used as the precursor ga
 
 
 $$
-
 SiH_4(g) + 2NH_3(g) \rightarrow Si_3N_4(s) + 6H_2(g)
-
 $$
 
 
@@ -12316,9 +12112,7 @@ One example of CVD in microfabrication is the deposition of silicon dioxide (SiO
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12332,9 +12126,7 @@ Another example of CVD is the deposition of tungsten (W) for the fabrication of 
 
 
 $$
-
 WF_6(g) + 3H_2(g) \rightarrow W(s) + 6HF(g)
-
 $$
 
 
@@ -12390,9 +12182,7 @@ One example of CVD in microfabrication is the deposition of silicon dioxide (SiO
 
 
 $$
-
 SiH_4(g) + 2O_2(g) \rightarrow SiO_2(s) + 2H_2O(g)
-
 $$
 
 
@@ -12406,9 +12196,7 @@ Another example of CVD is the deposition of tungsten (W) for the fabrication of 
 
 
 $$
-
 WF_6(g) + 3H_2(g) \rightarrow W(s) + 6HF(g)
-
 $$
 
 
@@ -13628,9 +13416,7 @@ Etching rate models are used to predict the rate at which a material will be etc
 
 
 $$
-
 R_{etch} = k[C_{etch}][M]
-
 $$
 
 
@@ -13644,9 +13430,7 @@ Another commonly used model is the diffusion-limited model, which takes into acc
 
 
 $$
-
 R_{etch} = D[C_{etch}]\frac{A}{L}
-
 $$
 
 
@@ -13664,9 +13448,7 @@ Selectivity models are used to predict the selectivity of etching between two di
 
 
 $$
-
 S = \frac{R_{etch,1}}{R_{etch,2}} = \frac{k_1[C_{etch}][M_1]}{k_2[C_{etch}][M_2]} = \frac{k_1[M_1]}{k_2[M_2]}
-
 $$
 
 
@@ -13710,9 +13492,7 @@ One commonly used model is the rate equation model, which assumes that the rate 
 
 
 $$
-
 {dn\over dt}=J \sigma-{n\over \tau_{a}}
-
 $$
 
 
@@ -13726,9 +13506,7 @@ Another commonly used model is the Langmuir model, which takes into account the 
 
 
 $$
-
 \theta = {bP_{A}\over (1+bP_{A})}
-
 $$
 
 
@@ -13742,9 +13520,7 @@ The BET model expands further and allows for adatoms deposition on previously ad
 
 
 $$
-
 \theta ={X p \over (p_{e}-p)\left[1+(X-1){p\over p_{e}}\right]}
-
 $$
 
 
@@ -13792,9 +13568,7 @@ The modeling of RIE involves understanding the complex interactions between the 
 
 
 $$
-
 {dN\over dt}=J \sigma-{N\over \tau_{a}}-k_{d}N
-
 $$
 
 
@@ -13812,9 +13586,7 @@ One commonly used model for plasma is the fluid model, which treats the plasma a
 
 
 $$
-
 {\partial n_{i}\over \partial t}+\nabla \cdot (n_{i}\vec{v}_{i})=S_{i}-\alpha_{i}n_{i}n_{e}
-
 $$
 
 
@@ -13854,9 +13626,7 @@ The modeling of RIE involves understanding the complex interactions between the 
 
 
 $$
-
 {dN\over dt}=J \sigma-{N\over \tau_{a}}-k_{d}N
-
 $$
 
 
@@ -13874,9 +13644,7 @@ One commonly used model for plasma is the fluid model, which treats the plasma a
 
 
 $$
-
 {\partial n_{i}\over \partial t}+\nabla \cdot (n_{i}\vec{v}_{i})=S_{i}-\alpha_{i}n_{i}n_{e}-\sum_{j\neq i}\alpha_{ij}n_{i}n_{j}
-
 $$
 
 
@@ -13894,9 +13662,7 @@ The behavior of the plasma is also affected by the electric field, which can be 
 
 
 $$
-
 \nabla \cdot \epsilon \nabla \phi = -\rho
-
 $$
 
 
@@ -14750,9 +14516,7 @@ One method of work function engineering is through the use of metal alloys. By c
 
 
 $$
-
 \Phi_{alloy} = x\Phi_{metal1} + (1-x)\Phi_{metal2}
-
 $$
 
 

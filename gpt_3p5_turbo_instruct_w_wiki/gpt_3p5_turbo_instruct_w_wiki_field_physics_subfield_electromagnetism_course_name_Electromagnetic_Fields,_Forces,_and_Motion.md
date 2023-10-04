@@ -936,9 +936,7 @@ Gauss's law, also known as the first Maxwell equation, relates the electric fiel
 
 
 $$
-
 \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{enc}}{\epsilon_0}
-
 $$
 
 
@@ -952,9 +950,7 @@ One of the most common applications of Gauss's law is in calculating the electri
 
 
 $$
-
 \mathbf{E} = \frac{Q}{4\pi\epsilon_0 r^2}\hat{\mathbf{r}}
-
 $$
 
 
@@ -1002,9 +998,7 @@ Ampere's law, also known as the second Maxwell equation, relates the magnetic fi
 
 
 $$
-
 \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{enc}
-
 $$
 
 
@@ -1018,9 +1012,7 @@ One of the most common applications of Ampere's law is in calculating the magnet
 
 
 $$
-
 \mathbf{B} = \frac{\mu_0 I}{2\pi r}\hat{\mathbf{\phi}}
-
 $$
 
 
@@ -1038,9 +1030,7 @@ In addition to these applications, Ampere's law is also used in the derivation o
 
 
 $$
-
 \mathbf{F}_{12} = \frac{\mu_0 I_1 I_2}{4\pi}\frac{2}{D}(0,-1,0)\int_{L_1}dx_1
-
 $$
 
 
@@ -1080,9 +1070,7 @@ Faraday's law, also known as the third Maxwell equation, relates the electric fi
 
 
 $$
-
 \oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d\Phi_B}{dt}
-
 $$
 
 
@@ -1142,9 +1130,7 @@ The first equation, known as Gauss's law, relates the electric field to its sour
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
-
 $$
 
 
@@ -1158,9 +1144,7 @@ The second equation, known as Gauss's law for magnetism, relates the magnetic fi
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 
@@ -1174,9 +1158,7 @@ The third equation, known as Faraday's law, relates the electric field to its so
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
@@ -1190,9 +1172,7 @@ The fourth equation, known as Ampere's law, relates the magnetic field to its so
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-
 $$
 
 
@@ -1240,9 +1220,7 @@ Mathematically, the gradient of a scalar field $\phi$ can be expressed as:
 
 
 $$
-
 \nabla \phi = \frac{\partial \phi}{\partial x} \hat{x} + \frac{\partial \phi}{\partial y} \hat{y} + \frac{\partial \phi}{\partial z} \hat{z}
-
 $$
 
 
@@ -1260,9 +1238,7 @@ For example, in Gauss's law, the gradient of the electric potential is used to e
 
 
 $$
-
 \mathbf{E} = -\nabla \phi = -\frac{\partial \phi}{\partial x} \hat{x} - \frac{\partial \phi}{\partial y} \hat{y} - \frac{\partial \phi}{\partial z} \hat{z}
-
 $$
 
 
@@ -1272,9 +1248,7 @@ Similarly, in Faraday's law, the gradient of the magnetic potential is used to e
 
 
 $$
-
 \mathbf{B} = \nabla \times \mathbf{A} = \left(\frac{\partial A_z}{\partial y} - \frac{\partial A_y}{\partial z}\right) \hat{x} + \left(\frac{\partial A_x}{\partial z} - \frac{\partial A_z}{\partial x}\right) \hat{y} + \left(\frac{\partial A_y}{\partial x} - \frac{\partial A_x}{\partial y}\right) \hat{z}
-
 $$
 
 
@@ -1318,9 +1292,7 @@ Mathematically, the divergence of a vector field $\mathbf{F}$ can be expressed a
 
 
 $$
-
 \nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}
-
 $$
 
 
@@ -1338,9 +1310,7 @@ For example, in Gauss's law, the divergence of the electric field is used to exp
 
 
 $$
-
 \rho = \frac{\nabla \cdot \mathbf{E}}{\epsilon_0}
-
 $$
 
 
@@ -1354,9 +1324,7 @@ Similarly, in Ampere's law, the divergence of the magnetic field is used to expr
 
 
 $$
-
 \mathbf{J} = \nabla \times \mathbf{B} - \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}
-
 $$
 
 
@@ -1404,7 +1372,6 @@ Mathematically, the curl of a vector field $\mathbf{F}$ can be expressed as:
 
 
 $$
-
 \nabla \times \mathbf{F} = \begin{vmatrix}
 
 \hat{i} & \hat{j} & \hat{k} \\
@@ -1414,7 +1381,6 @@ $$
 F_x & F_y & F_z
 
 \end{vmatrix}
-
 $$
 
 
@@ -1432,9 +1398,7 @@ For example, in Faraday's law, the curl of the electric field is used to express
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
@@ -1448,9 +1412,7 @@ Similarly, in Ampere's law, the curl of the magnetic field is used to express th
 
 
 $$
-
 \mathbf{J} = \frac{1}{\mu_0} \nabla \times \mathbf{B}
-
 $$
 
 
@@ -1490,9 +1452,7 @@ Ampere's law is one of the four Maxwell's equations that describe the behavior o
 
 
 $$
-
 \oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{enc}
-
 $$
 
 
@@ -1506,9 +1466,7 @@ In differential form, Ampere's law can be expressed as:
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J}
-
 $$
 
 
@@ -1522,9 +1480,7 @@ To understand the derivation of this form of Ampere's law, we can start from the
 
 
 $$
-
 \mathbf{F}_{12} = \frac{\mu_0}{4\pi} \int_{L_1} \int_{L_2} \frac{I_1 d\boldsymbol{\ell}_1 \times (I_2 d\boldsymbol{\ell}_2 \times \hat{\mathbf{r}}_{21})}{|r|^2}
-
 $$
 
 
@@ -1538,9 +1494,7 @@ Assuming that wire 2 is along the x-axis and wire 1 is at y=D, z=0, parallel to 
 
 
 $$
-
 \mathbf{F}_{12} = \frac{\mu_0 I_1 I_2}{4\pi} \int_{L_1} \int_{L_2} \frac{(dx_1,0,0) \times [(dx_2,0,0) \times (x_1-x_2,D,0)]}{|(x_1-x_2)^2+D^2|^{3/2}}
-
 $$
 
 
@@ -1550,9 +1504,7 @@ Evaluating the cross-product and integrating over $x_2$ from $-\infty$ to $+\inf
 
 
 $$
-
 \mathbf{F}_{12} = \frac{\mu_0 I_1 I_2}{4\pi} \frac{2}{D} (0,-1,0) \int_{L_1} dx_1
-
 $$
 
 
@@ -1562,9 +1514,7 @@ However, if both wires are infinite, this integral diverges. To find the force p
 
 
 $$
-
 \nabla \times \mathbf{B} = \frac{\mu_0 I_1}{2\pi D} \hat{\mathbf{y}}
-
 $$
 
 
@@ -1604,9 +1554,7 @@ Faraday's law describes the relationship between a changing magnetic field and t
 
 
 $$
-
 \oint_C \mathbf{E} \cdot d\mathbf{l} = -\frac{d}{dt} \iint_S \mathbf{B} \cdot d\mathbf{S}
-
 $$
 
 
@@ -1620,9 +1568,7 @@ In differential form, Faraday's law can be written as:
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
@@ -1632,9 +1578,7 @@ To understand the derivation of this form of Faraday's law, we can start from th
 
 
 $$
-
 \mathbf{J} = \sigma (\mathbf{E} + \mathbf{v} \times \mathbf{B})
-
 $$
 
 
@@ -1648,17 +1592,13 @@ We can also use the curl equations for small displacement currents, which are va
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \epsilon_0 \mu_0 \frac{\partial \mathbf{E}}{\partial t} \approx \mu_0 \mathbf{J}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
@@ -1668,9 +1608,7 @@ Substituting the expression for $\mathbf{J}$ into the Ampere-Maxwell law, we get
 
 
 $$
-
 \frac{1}{\mu_0 \sigma} \nabla \times \mathbf{B} = \mathbf{E} + \mathbf{v} \times \mathbf{B}
-
 $$
 
 
@@ -1680,9 +1618,7 @@ Taking the curl of this equation and substituting it into Faraday's law, we get:
 
 
 $$
-
 \nabla \times \mathbf{E} = \nabla \times \left(\frac{1}{\mu_0 \sigma} \nabla \times \mathbf{B} - \mathbf{v} \times \mathbf{B}\right) = -\frac{\partial \mathbf{B}}{\partial t}
-
 $$
 
 
@@ -1692,9 +1628,7 @@ Simplifying this expression using the identity $\varepsilon_{kij} \varepsilon_{k
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma} \left(\partial_i \partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
-
 $$
 
 
@@ -1704,9 +1638,7 @@ Using the Levi-Cevita tensor $\varepsilon_{ijk}$, this can be written as:
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \varepsilon_{ijk} \varepsilon_{klm} \left(\frac{1}{\mu_0 \sigma} \partial_j \partial_l B_m - \left(v_l \partial_j B_m + B_m \partial_j v_l\right)\right)
-
 $$
 
 
@@ -1716,9 +1648,7 @@ This expression can be further simplified by eliminating the cross products and 
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma} \left(\partial_i \partial_j B_j - \partial_j \partial_j B_i\right)
-
 $$
 
 
@@ -1762,17 +1692,13 @@ For EQS fields, the boundary conditions are given by:
 
 
 $$
-
 \mathbf{E}_{\parallel 1} = \mathbf{E}_{\parallel 2}
-
 $$
 
 
 
 $$
-
 \mathbf{D}_{\perp 1} = \mathbf{D}_{\perp 2}
-
 $$
 
 
@@ -1786,17 +1712,13 @@ For MQS fields, the boundary conditions are given by:
 
 
 $$
-
 \mathbf{B}_{\parallel 1} = \mathbf{B}_{\parallel 2}
-
 $$
 
 
 
 $$
-
 \mathbf{H}_{\perp 1} = \mathbf{H}_{\perp 2}
-
 $$
 
 
@@ -1840,17 +1762,13 @@ For EQS fields, the boundary conditions are based on the continuity of electric 
 
 
 $$
-
 \mathbf{E}_{\parallel 1} = \mathbf{E}_{\parallel 2}
-
 $$
 
 
 
 $$
-
 \mathbf{D}_{\perp 1} = \mathbf{D}_{\perp 2}
-
 $$
 
 
@@ -1864,17 +1782,13 @@ Similarly, for MQS fields, the boundary conditions are based on the continuity o
 
 
 $$
-
 \mathbf{B}_{\parallel 1} = \mathbf{B}_{\parallel 2}
-
 $$
 
 
 
 $$
-
 \mathbf{H}_{\perp 1} = \mathbf{H}_{\perp 2}
-
 $$
 
 
@@ -2054,9 +1968,7 @@ The degree of polarization in a material is quantified by the polarization vecto
 
 
 $$
-
 \vec{P} = \epsilon_0 \chi \vec{E}
-
 $$
 
 
@@ -2070,9 +1982,7 @@ Conduction, on the other hand, refers to the movement of charged particles in re
 
 
 $$
-
 \sigma = \frac{1}{\rho}
-
 $$
 
 
@@ -2224,9 +2134,7 @@ The strength of magnetization, denoted by M, is defined as the magnetic moment p
 
 
 $$
-
 M = \chi H
-
 $$
 
 
@@ -2278,9 +2186,7 @@ The strength of magnetization, denoted by M, is defined as the magnetic moment p
 
 
 $$
-
 M = \chi H
-
 $$
 
 
@@ -2328,9 +2234,7 @@ The strength of magnetization, denoted by M, is defined as the magnetic moment p
 
 
 $$
-
 M = \frac{\mu_0}{V}\sum_{i=1}^{N}m_i
-
 $$
 
 
@@ -2344,9 +2248,7 @@ Magnetization can also be described in terms of the magnetic susceptibility, $\c
 
 
 $$
-
 \chi = \frac{M}{H}
-
 $$
 
 
@@ -2386,9 +2288,7 @@ Magnetic diffusion can be derived from the generalized Ohm's law, which relates 
 
 
 $$
-
 \nabla\times\vec{B} = \mu_0 \vec{J}
-
 $$
 
 
@@ -2398,9 +2298,7 @@ This equation shows that the magnetic field is directly proportional to the curr
 
 
 $$
-
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
-
 $$
 
 
@@ -2410,9 +2308,7 @@ This equation shows that the electric field is dependent on both the magnetic fi
 
 
 $$
-
 \nabla\times\vec{E} = \nabla\times\left(\frac{1}{\mu_0 \sigma}\nabla\times\vec{B} - \vec{v}\times\vec{B}\right) = -\frac{\partial \vec{B}}{\partial t}
-
 $$
 
 
@@ -2422,9 +2318,7 @@ This equation shows that the change in the magnetic field over time is directly 
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \varepsilon_{ijk} \varepsilon_{klm} \left(\frac{1}{\mu_0 \sigma}\partial_j\partial_l B_m - \left(v_l \partial_j B_m + B_m \partial_j v_l \right)\right)
-
 $$
 
 
@@ -2434,9 +2328,7 @@ Using the identity $\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
-
 $$
 
 
@@ -2464,9 +2356,7 @@ Magnetic diffusion can be derived from the generalized Ohm's law, which relates 
 
 
 $$
-
 \nabla\times\vec{B} = \mu_0 \vec{J}
-
 $$
 
 
@@ -2476,9 +2366,7 @@ This equation shows that the magnetic field is directly proportional to the curr
 
 
 $$
-
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
-
 $$
 
 
@@ -2488,9 +2376,7 @@ This equation shows that the electric field is dependent on both the magnetic fi
 
 
 $$
-
 \nabla\times\vec{E} = \nabla\times\left(\frac{1}{\mu_0 \sigma}\nabla\times\vec{B} - \vec{v}\times\vec{B}\right) = -\frac{\partial \vec{B}}{\partial t}
-
 $$
 
 
@@ -2500,9 +2386,7 @@ This equation shows that the change in the magnetic field over time is directly 
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \varepsilon_{ijk} \varepsilon_{klm} \left(\frac{1}{\mu_0 \sigma}\partial_j\partial_l B_m - \left(v_l \partial_j B_m + B_m \partial_j v_l \right)\right)
-
 $$
 
 
@@ -2512,9 +2396,7 @@ Using the identity $\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
-
 $$
 
 
@@ -2562,9 +2444,7 @@ Magnetic diffusion can be derived from the generalized Ohm's law, which relates 
 
 
 $$
-
 \nabla\times\vec{B} = \mu_0 \vec{J}
-
 $$
 
 
@@ -2574,9 +2454,7 @@ This equation shows that the magnetic field is directly proportional to the curr
 
 
 $$
-
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
-
 $$
 
 
@@ -2586,9 +2464,7 @@ This equation shows that the electric field is dependent on both the magnetic fi
 
 
 $$
-
 \nabla\times\vec{E} = \nabla\times\left(\frac{1}{\mu_0 \sigma}\nabla\times\vec{B} - \vec{v}\times\vec{B}\right) = -\frac{\partial \vec{B}}{\partial t}
-
 $$
 
 
@@ -2598,9 +2474,7 @@ This equation shows that the change in the magnetic field over time is directly 
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \varepsilon_{ijk} \varepsilon_{klm} \left(\frac{1}{\mu_0 \sigma}\partial_j\partial_l B_m - \left(v_l \partial_j B_m + B_m \partial_j v_l \right)\right)
-
 $$
 
 
@@ -2610,9 +2484,7 @@ Using the identity $\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-
 
 
 $$
-
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
-
 $$
 
 
@@ -2758,9 +2630,7 @@ In this section, we will explore the solutions to Laplace's equation in cartesia
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2} = 0
-
 $$
 
 
@@ -2770,9 +2640,7 @@ To find solutions to this equation, we will use the method of separation of vari
 
 
 $$
-
 f(x,y,z) = X(x)Y(y)Z(z)
-
 $$
 
 
@@ -2782,9 +2650,7 @@ Substituting this into Laplace's equation, we get:
 
 
 $$
-
 \frac{1}{X}\frac{d^2 X}{dx^2} + \frac{1}{Y}\frac{d^2 Y}{dy^2} + \frac{1}{Z}\frac{d^2 Z}{dz^2} = 0
-
 $$
 
 
@@ -2794,25 +2660,19 @@ Since each term in this equation is dependent on a different variable, they must
 
 
 $$
-
 \frac{d^2 X}{dx^2} = -\lambda X
-
 $$
 
 
 
 $$
-
 \frac{d^2 Y}{dy^2} = -\lambda Y
-
 $$
 
 
 
 $$
-
 \frac{d^2 Z}{dz^2} = -\lambda Z
-
 $$
 
 
@@ -2822,9 +2682,7 @@ Solving these equations, we get the general solution:
 
 
 $$
-
 f(x,y,z) = \sum_{n=1}^{\infty} \sum_{m=1}^{\infty} \sum_{l=1}^{\infty} (A_{nlm} \cos(nx) + B_{nlm} \sin(nx))(C_{nlm} \cos(my) + D_{nlm} \sin(my))(E_{nlm} \cos(lz) + F_{nlm} \sin(lz))
-
 $$
 
 
@@ -2872,9 +2730,7 @@ In this section, we will explore the solutions to Laplace's equation in cartesia
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2} = 0
-
 $$
 
 
@@ -2884,9 +2740,7 @@ To find solutions to this equation, we will use the method of separation of vari
 
 
 $$
-
 f(x,y,z) = X(x)Y(y)Z(z)
-
 $$
 
 
@@ -2896,9 +2750,7 @@ Substituting this into Laplace's equation, we get:
 
 
 $$
-
 \frac{1}{X}\frac{d^2 X}{dx^2} + \frac{1}{Y}\frac{d^2 Y}{dy^2} + \frac{1}{Z}\frac{d^2 Z}{dz^2} = 0
-
 $$
 
 
@@ -2908,25 +2760,19 @@ Since each term in this equation is dependent on a different variable, they must
 
 
 $$
-
 \frac{d^2 X}{dx^2} = -\lambda X
-
 $$
 
 
 
 $$
-
 \frac{d^2 Y}{dy^2} = -\lambda Y
-
 $$
 
 
 
 $$
-
 \frac{d^2 Z}{dz^2} = -\lambda Z
-
 $$
 
 
@@ -2936,9 +2782,7 @@ Solving these equations, we get the general solution:
 
 
 $$
-
 f(x,y,z) = \sum_{n=1}^{\infty} \sum_{m=1}^{\infty} \sum_{l=1}^{\infty} (A_{nlm} \cos(nx) + B_{nlm} \sin(nx))(C_{nlm} \cos(my) + D_{nlm} \sin(my))(E_{nlm} \cos(lz) + F_{nlm} \sin(lz))
-
 $$
 
 
@@ -2998,9 +2842,7 @@ In this section, we will explore the solutions to Laplace's equation in cartesia
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2} = 0
-
 $$
 
 
@@ -3010,9 +2852,7 @@ To find solutions to this equation, we will use the method of separation of vari
 
 
 $$
-
 f(x,y,z) = X(x)Y(y)Z(z)
-
 $$
 
 
@@ -3022,9 +2862,7 @@ Substituting this into Laplace's equation, we get:
 
 
 $$
-
 \frac{1}{X}\frac{d^2 X}{dx^2} + \frac{1}{Y}\frac{d^2 Y}{dy^2} + \frac{1}{Z}\frac{d^2 Z}{dz^2} = 0
-
 $$
 
 
@@ -3034,25 +2872,19 @@ Since each term in this equation is dependent on a different variable, they must
 
 
 $$
-
 \frac{d^2 X}{dx^2} = -\lambda X
-
 $$
 
 
 
 $$
-
 \frac{d^2 Y}{dy^2} = -\lambda Y
-
 $$
 
 
 
 $$
-
 \frac{d^2 Z}{dz^2} = -\lambda Z
-
 $$
 
 
@@ -3062,9 +2894,7 @@ Solving these equations, we get the general solution:
 
 
 $$
-
 f(x,y,z) = \sum_{n=1}^{\infty} \sum_{m=1}^{\infty} \sum_{l=1}^{\infty} (A_{nlm} \cos(nx) + B_{nlm} \sin(nx))(C_{nlm} \cos(my) + D_{nlm} \sin(my))(E_{nlm} \cos(lz) + F_{nlm} \sin(lz))
-
 $$
 
 
@@ -3136,17 +2966,13 @@ Log-polar coordinates are a type of polar coordinates where the radial distance 
 
 
 $$
-
 r = e^\rho \cos \theta
-
 $$
 
 
 
 $$
-
 \theta = e^\rho \sin \theta
-
 $$
 
 
@@ -3168,9 +2994,7 @@ Laplace's equation in two dimensions is given by:
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} = 0
-
 $$
 
 
@@ -3180,9 +3004,7 @@ In log-polar coordinates, this equation takes the form:
 
 
 $$
-
 \frac{\partial^2 f}{\partial \rho^2} + \frac{1}{e^{2\rho}}\frac{\partial^2 f}{\partial \theta^2} = 0
-
 $$
 
 
@@ -3192,9 +3014,7 @@ However, using the relation $r = e^\rho$, we can simplify this equation to:
 
 
 $$
-
 \frac{\partial^2 f}{\partial r^2} + \frac{1}{r}\frac{\partial^2 f}{\partial \theta^2} = 0
-
 $$
 
 
@@ -3212,17 +3032,13 @@ A similar situation arises when considering analytical functions. An analytical 
 
 
 $$
-
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
-
 $$
 
 
@@ -3232,17 +3048,13 @@ If the function is instead expressed in polar form $f(re^{i\theta})=Re^{i\Phi}$,
 
 
 $$
-
 \frac{\partial u}{\partial r} = \frac{1}{r}\frac{\partial v}{\partial \theta}
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial \theta} = -\frac{1}{r}\frac{\partial v}{\partial r}
-
 $$
 
 
@@ -3252,17 +3064,13 @@ However, by changing polar into log-polar coordinates (let $P = \log R$), we can
 
 
 $$
-
 \frac{\partial u}{\partial \rho} = \frac{\partial v}{\partial \theta}
-
 $$
 
 
 
 $$
-
 \frac{\partial u}{\partial \theta} = -\frac{\partial v}{\partial \rho}
-
 $$
 
 
@@ -3280,9 +3088,7 @@ When solving the Dirichlet problem in a domain with rotational symmetry, the usu
 
 
 $$
-
 \frac{1}{r}\frac{d}{dr}\left(r\frac{dR}{dr}\right) + \frac{1}{r^2}\frac{d^2\Theta}{d\theta^2} = 0
-
 $$
 
 
@@ -3292,17 +3098,13 @@ This gives us two separate ordinary differential equations:
 
 
 $$
-
 \frac{d}{dr}\left(r\frac{dR}{dr}\right) + \lambda R = 0
-
 $$
 
 
 
 $$
-
 \frac{d^2\Theta}{d\theta^2} + \lambda\Theta = 0
-
 $$
 
 
@@ -3312,9 +3114,7 @@ Solving these equations, we get the general solution:
 
 
 $$
-
 u(r,\theta) = \sum_{n=1}^{\infty} (A_n r^n + B_n r^{-n})(C_n \cos(n\theta) + D_n \sin(n\theta))
-
 $$
 
 
@@ -3350,17 +3150,13 @@ Polar coordinates are a two-dimensional coordinate system where a point is deter
 
 
 $$
-
 x = r \cos \theta
-
 $$
 
 
 
 $$
-
 y = r \sin \theta
-
 $$
 
 
@@ -3378,25 +3174,19 @@ Spherical coordinates are a three-dimensional coordinate system where a point is
 
 
 $$
-
 x = r \sin \phi \cos \theta
-
 $$
 
 
 
 $$
-
 y = r \sin \phi \sin \theta
-
 $$
 
 
 
 $$
-
 z = r \cos \phi
-
 $$
 
 
@@ -3418,9 +3208,7 @@ Laplace's equation in two dimensions is given by:
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} = 0
-
 $$
 
 
@@ -3430,9 +3218,7 @@ In polar coordinates, this equation takes the form:
 
 
 $$
-
 \frac{\partial^2 f}{\partial r^2} + \frac{1}{r}\frac{\partial f}{\partial r} + \frac{1}{r^2}\frac{\partial^2 f}{\partial \theta^2} = 0
-
 $$
 
 
@@ -3442,9 +3228,7 @@ In spherical coordinates, it becomes:
 
 
 $$
-
 \frac{\partial^2 f}{\partial r^2} + \frac{2}{r}\frac{\partial f}{\partial r} + \frac{1}{r^2}\frac{\partial^2 f}{\partial \phi^2} + \frac{\cot \phi}{r^2}\frac{\partial f}{\partial \phi} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 f}{\partial \theta^2} = 0
-
 $$
 
 
@@ -3466,9 +3250,7 @@ Spherical harmonics are a set of functions that are used to represent solutions 
 
 
 $$
-
 Y_{\ell}^{m}(\theta,\varphi) = \sqrt{\frac{(2\ell+1)(\ell-m)!}{4\pi(\ell+m)!}}\cdot e^{im\varphi}\cdot P_{\ell}^{m}(\cos \theta)
-
 $$
 
 
@@ -3540,17 +3322,13 @@ Polar coordinates are a two-dimensional coordinate system where a point is deter
 
 
 $$
-
 x = r \cos \theta
-
 $$
 
 
 
 $$
-
 y = r \sin \theta
-
 $$
 
 
@@ -3568,25 +3346,19 @@ Spherical coordinates are a three-dimensional coordinate system where a point is
 
 
 $$
-
 x = r \sin \phi \cos \theta
-
 $$
 
 
 
 $$
-
 y = r \sin \phi \sin \theta
-
 $$
 
 
 
 $$
-
 z = r \cos \phi
-
 $$
 
 
@@ -3608,9 +3380,7 @@ Laplace's equation in two dimensions is given by:
 
 
 $$
-
 \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} = 0
-
 $$
 
 
@@ -3620,9 +3390,7 @@ In polar coordinates, this equation takes the form:
 
 
 $$
-
 \frac{\partial^2 f}{\partial r^2} + \frac{1}{r}\frac{\partial f}{\partial r} + \frac{1}{r^2}\frac{\partial^2 f}{\partial \theta^2} = 0
-
 $$
 
 
@@ -3632,9 +3400,7 @@ In spherical coordinates, it becomes:
 
 
 $$
-
 \frac{\partial^2 f}{\partial r^2} + \frac{2}{r}\frac{\partial f}{\partial r} + \frac{1}{r^2}\frac{\partial^2 f}{\partial \theta^2} + \frac{1}{r^2 \sin^2 \theta}\frac{\partial^2 f}{\partial \phi^2} = 0
-
 $$
 
 
@@ -3792,9 +3558,7 @@ One of the most well-known electroquasistatic forces is the Lorentz force, which
 
 
 $$
-
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
-
 $$
 
 
@@ -3808,9 +3572,7 @@ Another important electroquasistatic force is the Coulomb force, which describes
 
 
 $$
-
 \vec{F} = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r^2}\hat{r}
-
 $$
 
 
@@ -3824,9 +3586,7 @@ The Ampere force is another important electroquasistatic force that arises due t
 
 
 $$
-
 \vec{F} = \frac{1}{c^2}\frac{d\vec{p}}{dt} \times \vec{B}
-
 $$
 
 
@@ -3866,17 +3626,13 @@ To calculate the forces in EQS fields, we need to first understand the equations
 
 
 $$
-
 \nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0} \quad \text{and} \quad \nabla \cdot \vec{B} = 0
-
 $$
 
 
 
 $$
-
 \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t} \quad \text{and} \quad \nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}
-
 $$
 
 
@@ -3894,9 +3650,7 @@ One such method is the use of the electric and magnetic field energy densities. 
 
 
 $$
-
 u_E = \frac{1}{2} \epsilon_0 E^2
-
 $$
 
 
@@ -3906,9 +3660,7 @@ Similarly, the magnetic field energy density, denoted by $u_B$, is given by:
 
 
 $$
-
 u_B = \frac{1}{2} \frac{1}{\mu_0} B^2
-
 $$
 
 
@@ -3918,9 +3670,7 @@ Using these energy densities, we can calculate the force on a charged particle a
 
 
 $$
-
 \vec{F} = q \left(\vec{E} + \vec{v} \times \vec{B}\right) = q \left(\nabla u_E + \nabla \times u_B\right)
-
 $$
 
 
@@ -3934,9 +3684,7 @@ Another method for calculating forces in EQS fields is the use of the electric a
 
 
 $$
-
 \phi = -\int \vec{E} \cdot d\vec{l}
-
 $$
 
 
@@ -3946,9 +3694,7 @@ Similarly, the magnetic potential, denoted by $\vec{A}$, is given by:
 
 
 $$
-
 \vec{A} = \frac{1}{\mu_0} \int \vec{B} \cdot d\vec{l}
-
 $$
 
 
@@ -3958,9 +3704,7 @@ Using these potentials, we can calculate the force on a charged particle as:
 
 
 $$
-
 \vec{F} = q \left(\vec{E} + \vec{v} \times \vec{B}\right) = q \left(-\nabla \phi - \frac{\partial \vec{A}}{\partial t}\right)
-
 $$
 
 
@@ -4042,17 +3786,13 @@ To begin, let us consider a two-dimensional approximation on a cartesian grid. W
 
 
 $$
-
 \frac{\partial U}{\partial x} \approx \frac{U_{i+1,j} - U_{i-1,j}}{2h_x}
-
 $$
 
 
 
 $$
-
 \frac{\partial U}{\partial y} \approx \frac{U_{i,j+1} - U_{i,j-1}}{2h_y}
-
 $$
 
 
@@ -4066,9 +3806,7 @@ Due to the consistent, monotone, and causal properties of this discretization, w
 
 
 $$
-
 U = \frac{1}{2}(U_X + U_Y) + \frac{1}{2}\sqrt{(U_X - U_Y)^2 + \frac{2h^2}{f_{ij}^2}}
-
 $$
 
 
@@ -4082,9 +3820,7 @@ This solution will always exist as long as $|U_X-U_Y| \leq \sqrt{2}h/f_{ij}$ is 
 
 
 $$
-
 U = U_X + \frac{h}{f_{ij}}\text{sgn}(U_X - U_Y)
-
 $$
 
 
@@ -4098,9 +3834,7 @@ Now, let us consider the $n$-dimensional case on a cartesian grid. Similar to th
 
 
 $$
-
 \frac{\partial U}{\partial x_i} \approx \frac{U_{i+1} - U_{i-1}}{2h}
-
 $$
 
 
@@ -4114,9 +3848,7 @@ Solving this quadratic equation for $U$ yields:
 
 
 $$
-
 U = \frac{1}{2}(U_i + U_j) + \frac{1}{2}\sqrt{(U_i - U_j)^2 + \frac{2h^2}{f_{ij}^2}}
-
 $$
 
 
@@ -4126,9 +3858,7 @@ If the discriminant in the square root is negative, then a lower-dimensional upd
 
 
 $$
-
 U = U_i + \frac{h}{f_{ij}}\text{sgn}(U_i - U_j)
-
 $$
 
 
@@ -4594,9 +4324,7 @@ The spherical harmonics, denoted by $Y_{\ell}^{m}(\theta,\varphi)$, are the solu
 
 
 $$
-
 Y_{\ell}^{m}(\theta,\varphi) = \sqrt{\frac{2\ell+1}{4\pi}\frac{(\ell-m)!}{(\ell+m)!}}\,e^{im\varphi}\,P_{\ell}^{m}(\cos\theta)
-
 $$
 
 
@@ -4628,9 +4356,7 @@ One important set of functions in spherical coordinates are the spherical harmon
 
 
 $$
-
 Y_{\ell}^{m}(\theta,\varphi) = \sqrt{\frac{2\ell+1}{4\pi}\frac{(\ell-m)!}{(\ell+m)!}}\,e^{im\varphi}\,P_{\ell}^{m}(\cos\theta)
-
 $$
 
 
@@ -4706,9 +4432,7 @@ One important set of functions in spherical coordinates are the spherical harmon
 
 
 $$
-
 Y_{\ell}^{m}(\theta,\varphi) = \sqrt{\frac{2\ell+1}{4\pi}\frac{(\ell-m)!}{(\ell+m)!}}\,e^{im\varphi}\,P_{\ell}^{m}(\cos\theta)
-
 $$
 
 
@@ -4888,9 +4612,7 @@ Mathematically, Faraday's law of induction can be expressed as:
 
 
 $$
-
 \mathcal{E} = -\frac{d\Phi_B}{dt}
-
 $$
 
 
@@ -4904,9 +4626,7 @@ Another important concept in the study of fields in moving media is the Lorentz 
 
 
 $$
-
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
-
 $$
 
 
@@ -5410,9 +5130,7 @@ Before we dive into the mathematical equations that govern the motion of elastic
 
 
 $$
-
 v = \sqrt{\frac{E}{\rho}}
-
 $$
 
 
@@ -5422,9 +5140,7 @@ where $E$ is the Young's modulus of the material and $\rho$ is the density of th
 
 
 $$
-
 \lambda = \frac{v}{f}
-
 $$
 
 
@@ -5442,9 +5158,7 @@ Now, let's delve into the mathematical equations that govern the motion of elast
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5458,9 +5172,7 @@ To solve this equation, we will use the method of separation of variables, assum
 
 
 $$
-
 \frac{1}{c^2}\frac{T''}{T} = \frac{X''}{X}
-
 $$
 
 
@@ -5470,17 +5182,13 @@ Since the left-hand side of this equation only depends on time and the right-han
 
 
 $$
-
 T'' + Kc^2T = 0
-
 $$
 
 
 
 $$
-
 X'' - KX = 0
-
 $$
 
 
@@ -5524,9 +5232,7 @@ Before we dive into the mathematical equations that govern the motion of elastic
 
 
 $$
-
 v = \sqrt{\frac{E}{\rho}}
-
 $$
 
 
@@ -5536,9 +5242,7 @@ where $E$ is the Young's modulus of the material and $\rho$ is the density of th
 
 
 $$
-
 \lambda = \frac{v}{f}
-
 $$
 
 
@@ -5568,11 +5272,9 @@ The Liénard–Wiechert potential is given by the equations:
 
 
 $$
-
 \varphi(\mathbf{r}, t) = \frac{\delta(t' - t_r)}{1 - \boldsymbol{\beta}_s \cdot (\mathbf{r}-\mathbf{r}_s)/|\mathbf{r}-\mathbf{r}_s|} \\
 
 \mathbf{A}(\mathbf{r}, t) = \frac{\delta(t' - t_r)}{1 + \frac{1}{c} (\mathbf{r} - \mathbf{r}_s(t'))/|\mathbf{r} - \mathbf{r}_s(t')|\cdot (-\mathbf{v}_s(t')) |_{t' = t_r}}
-
 $$
 
 
@@ -5616,9 +5318,7 @@ Before we dive into the mathematical equations that govern the motion of elastic
 
 
 $$
-
 v = \sqrt{\frac{E}{\rho}}
-
 $$
 
 
@@ -5628,9 +5328,7 @@ where $E$ is the Young's modulus of the material and $\rho$ is the density of th
 
 
 $$
-
 \lambda = \frac{v}{f}
-
 $$
 
 
@@ -5656,9 +5354,7 @@ To derive the wave equation for elastic waves on a thin rod, we will start with 
 
 
 $$
-
 m\frac{\partial^2 u}{\partial t^2} = T\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5672,9 +5368,7 @@ Next, we will use the small angle approximation to simplify the equation. This a
 
 
 $$
-
 m\frac{\partial^2 u}{\partial t^2} = T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5684,9 +5378,7 @@ Next, we will use the wave equation to describe the motion of the particles on t
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = v^2\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5696,7 +5388,6 @@ where $v$ is the speed of the wave. Substituting this into our previous equation
 
 
 $$
-
 m\frac{\partial^2 u}{\partial t^2} = T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2} \approx T\frac{\partial^2 u}{\partial x^2}
 
 
@@ -5738,22 +5429,17 @@ To understand the transmission-line matrix method, we must first introduce the c
 If we consider an electromagnetic field distribution in which the only non-zero components are $E_x$, $E_y$, and $H_z$ (i.e. a TE-mode distribution), then Maxwell's equations in Cartesian coordinates reduce to:
 
 
-
 $$
 
 \frac{\partial E_x}{\partial y} = -\mu_0 \frac{\partial H_z}{\partial t}
 
 $$
 
-
-
 $$
 
 \frac{\partial E_y}{\partial x} = \mu_0 \frac{\partial H_z}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5762,9 +5448,7 @@ $$
 $$
 
 
-
 We can combine these equations to obtain:
-
 
 
 $$
@@ -5774,9 +5458,7 @@ $$
 $$
 
 
-
 The figure on the right presents a structure referred to as a "series node". It describes a block of space with dimensions $\Delta x$, $\Delta y$, and $\Delta z$ that consists of four ports. $L'$ and $C'$ are the distributed inductance and capacitance of the transmission lines. It is possible to show that a series node is equivalent to a TE-wave, more precisely the mesh current $I$, the "x"-direction voltages (ports 1 and 3), and the "y"-direction voltages (ports 2 and 4) may be related to the field components $H_z$, $E_x$, and $E_y$. If the voltages on the ports are considered, $L_x = L_y$, and the polarity from the above figure holds, then the following is valid:
-
 
 
 $$
@@ -5785,15 +5467,11 @@ V_1 = -\frac{1}{2}L_x \frac{\partial I}{\partial t} - \frac{1}{2}C_x \frac{\part
 
 $$
 
-
-
 $$
 
 V_2 = \frac{1}{2}L_y \frac{\partial I}{\partial t} - \frac{1}{2}C_y \frac{\partial V_2}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5801,14 +5479,11 @@ V_3 = -\frac{1}{2}L_x \frac{\partial I}{\partial t} + \frac{1}{2}C_x \frac{\part
 
 $$
 
-
-
 $$
 
 V_4 = \frac{1}{2}L_y \frac{\partial I}{\partial t} + \frac{1}{2}C_y \frac{\partial V_4}{\partial t}
 
 $$
-
 
 
 where $\Delta x = \Delta y = \Delta l$.
@@ -5818,14 +5493,11 @@ where $\Delta x = \Delta y = \Delta l$.
 Dividing both sides by $\Delta x \Delta y$ and substituting $I = H_z \Delta z$ gives:
 
 
-
 $$
 
 \frac{V_1}{\Delta x \Delta y} = -\frac{1}{2} \mu_0 \frac{\partial H_z}{\partial t} - \frac{1}{2} \epsilon_0 \frac{\partial V_1}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5833,22 +5505,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{V_3}{\Delta x \Delta y} = -\frac{1}{2} \mu_0 \frac{\partial H_z}{\partial t} + \frac{1}{2} \epsilon_0 \frac{\partial V_3}{\partial t}
 
 $$
 
-
-
 $$
 
 \frac{V_4}{\Delta x \Delta y} = \frac{1}{2} \mu_0 \frac{\partial H_z}{\partial t} + \frac{1}{2} \epsilon_0 \frac{\partial V_4}{\partial t}
 
 $$
-
 
 
 This reduces to Maxwell's equations when $\Delta l \rightarrow 0$.
@@ -5858,14 +5525,11 @@ This reduces to Maxwell's equations when $\Delta l \rightarrow 0$.
 Similarly, using the conditions across the capacitors on ports 1 and 4, it can be shown that the corresponding two other Maxwell equations are the following:
 
 
-
 $$
 
 \frac{V_1}{\Delta x \Delta y} = -\frac{1}{2} \epsilon_0 \frac{\partial E_z}{\partial t} - \frac{1}{2} \mu_0 \frac{\partial V_1}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5874,9 +5538,7 @@ $$
 $$
 
 
-
 Having these results, it is possible to compute the scattering matrix of a shunt node. The incident voltage pulse on port 1 at time-step "k" is denoted as $V_k^i$. Replacing the four line segments from the above figure with the corresponding equations, we get:
-
 
 
 $$
@@ -5885,15 +5547,11 @@ V_k^1 = -\frac{1}{2} \mu_0 \frac{\partial H_k}{\partial t} - \frac{1}{2} \epsilo
 
 $$
 
-
-
 $$
 
 V_k^2 = \frac{1}{2} \mu_0 \frac{\partial H_k}{\partial t} - \frac{1}{2} \epsilon_0 \frac{\partial V_k^2}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5901,14 +5559,11 @@ V_k^3 = -\frac{1}{2} \mu_0 \frac{\partial H_k}{\partial t} + \frac{1}{2} \epsilo
 
 $$
 
-
-
 $$
 
 V_k^4 = \frac{1}{2} \mu_0 \frac{\partial H_k}{\partial t} + \frac{1}{2} \epsilon_0 \frac{\partial V_k^4}{\partial t}
 
 $$
-
 
 
 where $H_k$ is the magnetic field at time-step "k".
@@ -5956,14 +5611,11 @@ To understand the transmission-line matrix method, we must first introduce the c
 If we consider an electromagnetic field distribution in which the only non-zero components are $E_x$, $E_y$, and $H_z$ (i.e. a TE-mode distribution), then Maxwell's equations in Cartesian coordinates reduce to:
 
 
-
 $$
 
 \frac{\partial E_x}{\partial y} = -\mu_0 \frac{\partial H_z}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -5971,22 +5623,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial H_z}{\partial x} = \frac{\partial E_y}{\partial t}
 
 $$
 
-
-
 $$
 
 \frac{\partial H_z}{\partial y} = -\frac{\partial E_x}{\partial t}
 
 $$
-
 
 
 These equations describe the relationship between the electric and magnetic fields in a TE-mode distribution. However, in order to fully understand the behavior of transient waves on transmission lines, we must also consider the conditions at the boundaries of the transmission line.
@@ -5996,14 +5643,11 @@ These equations describe the relationship between the electric and magnetic fiel
 The figure on the right presents a structure referred to as a "series node". It describes a block of space dimensions $\Delta x$, $\Delta y$, and $\Delta z$ that consists of four ports. $L'$ and $C'$ are the distributed inductance and capacitance of the transmission lines. It is possible to show that a series node is equivalent to a TE-wave, more precisely the mesh current "I", the "x"-direction voltages (ports 1 and 3) and the "y"-direction voltages (ports 2 and 4) may be related to the field components $H_z$, $E_x$, and $E_y$. If the voltages on the ports are considered, $L_x = L_y$, and the polarity from the above figure holds, then the following is valid:
 
 
-
 $$
 
 \frac{\partial I}{\partial t} = -\frac{1}{L'} \left( V_1 - V_3 \right)
 
 $$
-
-
 
 $$
 
@@ -6011,15 +5655,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial V_2}{\partial t} = -\frac{1}{C'} \left( I + \frac{V_2}{R} \right)
 
 $$
-
-
 
 $$
 
@@ -6027,14 +5667,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial V_4}{\partial t} = -\frac{1}{C'} \left( I + \frac{V_4}{R} \right)
 
 $$
-
 
 
 where $\Delta x = \Delta y = \Delta l$.
@@ -6044,14 +5681,11 @@ where $\Delta x = \Delta y = \Delta l$.
 By dividing both sides by $\Delta x \Delta y$, we can obtain the following equations:
 
 
-
 $$
 
 \frac{\partial I}{\partial t} = -\frac{1}{L' \Delta x \Delta y} \left( V_1 - V_3 \right)
 
 $$
-
-
 
 $$
 
@@ -6059,23 +5693,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial V_2}{\partial t} = -\frac{1}{C' \Delta x \Delta y} \left( I + \frac{V_2}{R} \right)
 
 $$
 
-
-
 $$
 
 \frac{\partial V_3}{\partial t} = -\frac{1}{C' \Delta x \Delta y} \left( I - \frac{V_3}{R} \right)
 
 $$
-
-
 
 $$
 
@@ -6084,9 +5712,7 @@ $$
 $$
 
 
-
 Since $\Delta x = \Delta y = \Delta z = \Delta l$ and substituting $I = H_z \Delta z$ gives:
-
 
 
 $$
@@ -6095,15 +5721,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial V_1}{\partial t} = -\frac{1}{C' \Delta l^2} \left( H_z - \frac{V_1}{R} \right)
 
 $$
-
-
 
 $$
 
@@ -6111,15 +5733,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial V_3}{\partial t} = -\frac{1}{C' \Delta l^2} \left( H_z - \frac{V_3}{R} \right)
 
 $$
-
-
 
 $$
 
@@ -6128,9 +5746,7 @@ $$
 $$
 
 
-
 This reduces to Maxwell's equations when $\Delta l \rightarrow 0$. Similarly, using the conditions across the capacitors on ports 1 and 4, it can be shown that the corresponding two other Maxwell equations are the following:
-
 
 
 $$
@@ -6139,8 +5755,6 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial E_y}{\partial t} = -\frac{1}{C' \Delta l^2} \left( H_z + \frac{E_y}{R} \right)
@@ -6148,9 +5762,7 @@ $$
 $$
 
 
-
 Having these results, it is possible to compute the scattering matrix of a shunt node. The incident voltage pulse on port 1 at time-step "k" is denoted as $V_k^i$. Replacing the four line segments from the above figure with their Thevenin equivalent, it is possible to show that the following equation for the reflected voltage pulse holds:
-
 
 
 $$
@@ -6158,7 +5770,6 @@ $$
 V_k^r = S_{11} V_k^i + S_{12} I_k^i
 
 $$
-
 
 
 where $S_{11}$ and $S_{12}$ are the elements of the scattering matrix. This matrix can be used to analyze the behavior of transient waves on transmission lines and is a powerful tool in understanding the propagation of electromagnetic fields, forces, and motion.
@@ -6202,14 +5813,11 @@ To understand the transmission-line matrix method, we must first introduce the c
 If we consider an electromagnetic field distribution in which the only non-zero components are $E_x$, $E_y$, and $H_z$ (i.e. a TE-mode distribution), then Maxwell's equations in Cartesian coordinates reduce to:
 
 
-
 $$
 
 \frac{\partial E_x}{\partial y} = -\mu_0 \frac{\partial H_z}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -6217,22 +5825,17 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial H_z}{\partial x} = \frac{1}{\mu_0} \frac{\partial E_y}{\partial t}
 
 $$
 
-
-
 $$
 
 \frac{\partial H_z}{\partial y} = -\frac{1}{\mu_0} \frac{\partial E_x}{\partial t}
 
 $$
-
 
 
 These equations can be solved using the transmission-line matrix method, which involves breaking down the transmission line into smaller segments and using the TLM node concept to calculate the electric and magnetic fields at each segment. This method allows us to analyze the behavior of transient waves on transmission lines in a more accurate and efficient manner.
@@ -6534,13 +6137,11 @@ In the previous section, we discussed the basics of longitudinal waves in thin r
 As mentioned before, longitudinal waves in thin rods are characterized by the compression and rarefaction of the material as the wave travels through it. This behavior can be described by the wave equation, which is given by:
 
 
-
 $$
 
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 
 
 where $u$ is the displacement of the material, $t$ is time, $x$ is the position along the rod, and $c$ is the speed of the wave. This equation is similar to the one-dimensional wave equation, but with the addition of the speed of the wave, which is dependent on the material properties of the rod.
@@ -6550,13 +6151,11 @@ where $u$ is the displacement of the material, $t$ is time, $x$ is the position 
 To analyze the behavior of longitudinal waves in thin rods, we can use the method of characteristics. This method involves finding the characteristics of the wave, which are the curves along which the solution remains constant. In the case of longitudinal waves in thin rods, the characteristics are given by:
 
 
-
 $$
 
 \frac{dx}{dt} = \pm c
 
 $$
-
 
 
 This means that the wave travels at a constant speed along the rod, with the direction of propagation determined by the sign of the speed. This also implies that the wave will not change shape as it travels, unlike other types of waves.
@@ -6566,13 +6165,11 @@ This means that the wave travels at a constant speed along the rod, with the dir
 Another important aspect of longitudinal waves in thin rods is their dispersion behavior. Dispersion refers to the phenomenon where different frequencies of waves travel at different speeds in a medium. In the case of thin rods, the dispersion relation is given by:
 
 
-
 $$
 
 \omega = ck
 
 $$
-
 
 
 where $\omega$ is the angular frequency and $k$ is the wavenumber. This relation shows that the speed of the wave is directly proportional to its frequency, which means that higher frequency waves will travel faster than lower frequency waves.
@@ -6700,7 +6297,6 @@ One of the key components in the TLM method is the symmetrical condensed node (S
 The electric and magnetic fields on the sides of the SCN node at a given time instant can be represented by 12-dimensional vectors. These vectors can be linked to the incident and scattered amplitude vectors through a matrix equation, where the scattering matrix S can be calculated. For the symmetrical condensed node with ports defined as in the figure provided in the context, the following result is obtained:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -6714,7 +6310,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 This matrix equation allows us to analyze the behavior of transverse waves in wires and membranes and predict their propagation and scattering patterns. By varying the tension and mass density of the wire or membrane, we can also study the effects on the wave speed and mode of propagation.
@@ -6756,7 +6351,6 @@ One of the key components in the TLM method is the symmetrical condensed node (S
 
 
 The electric and magnetic fields on the sides of the SCN node at a given time instant can be represented by 12-dimensional vectors. These vectors can be linked to the incident and scattered amplitude vectors through a matrix equation, where the scattering matrix S can be calculated. For the symmetrical condensed node with ports defined as in the figure provided in the context, the following result is obtained:
-
 
 
 $$
@@ -6814,7 +6408,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 This matrix equation can be solved to obtain the scattering matrix S, which can then be used to calculate the reflection and transmission coefficients for the membrane. These coefficients provide valuable information about the behavior of transverse waves in the membrane, such as the amplitude and phase of the waves at different points.
@@ -6966,13 +6559,11 @@ The I-k dispersion analysis is a mathematical tool used to study the propagation
 The dispersion relation, also known as the I-k relation, is a fundamental equation in the study of electromagnetic waves. It describes the relationship between the wave's frequency and its wavenumber, which is a measure of the wave's spatial frequency. The dispersion relation is given by the following equation:
 
 
-
 $$
 
 \omega = ck
 
 $$
-
 
 
 where $\omega$ is the wave's frequency, c is the speed of light, and k is the wave's wavenumber. This equation shows that the frequency of an electromagnetic wave is directly proportional to its wavenumber. This relationship is crucial in understanding how electromagnetic waves behave in different mediums.
@@ -7020,13 +6611,11 @@ The dispersion analysis of transverse waves involves studying the relationship b
 To analyze the dispersion of transverse waves, we can use the wave equation, which describes the behavior of waves in a medium. In the case of electromagnetic waves, the wave equation is given by:
 
 
-
 $$
 
 \nabla^2 \mathbf{E} - \mu \epsilon \frac{\partial^2 \mathbf{E}}{\partial t^2} = 0
 
 $$
-
 
 
 where $\mathbf{E}$ is the electric field, $\mu$ is the permeability of the medium, and $\epsilon$ is the permittivity of the medium. This equation can be solved to obtain the dispersion relation for transverse waves in a dispersive medium.
@@ -7272,13 +6861,11 @@ Electromechanical waves refer to the coupling between electromagnetic fields and
 The Yakushev approach is based on the equation:
 
 
-
 $$
 
 \frac{\mbox{d}}{\mbox{d}t}\left[\delta(x-vt)m\frac{\mbox{d}w(vt,t)}{\mbox{d}t}\right]=-\delta^\prime(x-vt)mv\frac{\mbox{d}w(vt,t)}{\mbox{d}t}+\delta(x-vt)m\frac{\mbox{d}^2w(vt,t)}{\mbox{d}t^2}
 
 $$
-
 
 
 This equation describes the motion of a load in a medium, where $\delta(x-vt)$ represents the displacement of the load at a given time and position, $m$ is the mass of the load, $v$ is its velocity, and $w(vt,t)$ is the displacement of the medium at a given time and position. This equation shows how the motion of the load can affect the displacement of the medium, and vice versa.
@@ -7346,13 +6933,11 @@ One important concept in the analysis of electromechanical waves is the multiple
 To understand the multiple-prism dispersion theory, we must first understand the concept of magnetic diffusion. This refers to the diffusion of magnetic fields in a medium, which is governed by the generalized Ohm's law:
 
 
-
 $$
 
 \vec{J} = \sigma \left(\vec{E}+\vec{v}\times\vec{B} \right)
 
 $$
-
 
 
 where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medium, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the medium, and $\vec{B}$ is the magnetic field. This equation shows how the magnetic field can be affected by the motion of the medium.
@@ -7362,14 +6947,11 @@ where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medi
 To derive the equations for the multiple-prism dispersion theory, we start with the curl equations for small displacement currents:
 
 
-
 $$
 
 \nabla\times\vec{B} = \mu_0 \vec{J} + \epsilon_0 \mu_0 \frac{\partial \vec{E}}{\partial t} \approx \mu_0 \vec{J}
 
 $$
-
-
 
 $$
 
@@ -7378,9 +6960,7 @@ $$
 $$
 
 
-
 Substituting $\vec{J}$ into the Ampere-Maxwell law, we get:
-
 
 
 $$
@@ -7390,9 +6970,7 @@ $$
 $$
 
 
-
 Taking the curl of this equation and substituting it into Faraday's law, we get:
-
 
 
 $$
@@ -7402,9 +6980,7 @@ $$
 $$
 
 
-
 This expression can be simplified further by writing it in terms of the "i"-th component of $\vec{B}$ and the Levi-Cevita tensor $\varepsilon_{ijk}$:
-
 
 
 $$
@@ -7413,8 +6989,6 @@ $$
 
 $$
 
-
-
 $$
 
 = \varepsilon_{kij} \varepsilon_{klm} \left(\frac{1}{\mu_0 \sigma}\partial_j\partial_l B_m - \left(v_l \partial_j B_m + B_m \partial_j v_l \right)\right)
@@ -7422,9 +6996,7 @@ $$
 $$
 
 
-
 Using the identity $\varepsilon_{ijk}\varepsilon_{klm} = \delta_{il}\delta_{jm} - \delta_{im}\delta_{jl}$, we can simplify the above equation to:
-
 
 
 $$
@@ -7432,7 +7004,6 @@ $$
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\nabla^2 B_i - \frac{\partial}{\partial x_j}\left(v_j B_i\right) - \frac{\partial v_i}{\partial x_j}B_j.
 
 $$
-
 
 
 This is the final equation for the multiple-prism dispersion theory, which describes the diffusion of magnetic fields in a moving medium. This theory has been extended to provide explicit second-order equations that are directly applicable to the design of prismatic pulse compressors, making it a valuable tool in various applications.
@@ -7472,13 +7043,11 @@ In the previous subsection, we discussed the multiple-prism dispersion theory an
 One important concept in the analysis of instabilities is the Yakushev approach, which describes the motion of a load in a medium and the resulting instabilities that can arise. This approach takes into account the effects of magnetic diffusion, which refers to the diffusion of magnetic fields in a medium. The generalized Ohm's law, which governs magnetic diffusion, is given by:
 
 
-
 $$
 
 \vec{J} = \sigma \left(\vec{E}+\vec{v}\times\vec{B} \right)
 
 $$
-
 
 
 where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medium, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the medium, and $\vec{B}$ is the magnetic field. This equation shows how the magnetic field can be affected by the motion of the medium.
@@ -7488,13 +7057,11 @@ where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medi
 To understand the Yakushev approach, we must first understand the concept of magnetic diffusion. This approach takes into account the effects of magnetic diffusion, which refers to the diffusion of magnetic fields in a medium. The generalized Ohm's law, which governs magnetic diffusion, is given by:
 
 
-
 $$
 
 \vec{J} = \sigma \left(\vec{E}+\vec{v}\times\vec{B} \right)
 
 $$
-
 
 
 where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medium, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the medium, and $\vec{B}$ is the magnetic field. This equation shows how the magnetic field can be affected by the motion of the medium.
@@ -7504,14 +7071,11 @@ where $\vec{J}$ is the current density, $\sigma$ is the conductivity of the medi
 To derive the equations for the Yakushev approach, we start with the curl equations for the electric and magnetic fields:
 
 
-
 $$
 
 \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}
 
 $$
-
-
 
 $$
 
@@ -7520,9 +7084,7 @@ $$
 $$
 
 
-
 where $\mu_0$ is the permeability of free space and $\epsilon_0$ is the permittivity of free space. By substituting the generalized Ohm's law into the second equation and taking the curl, we get:
-
 
 
 $$
@@ -7532,9 +7094,7 @@ $$
 $$
 
 
-
 Using vector calculus identities, we can simplify this equation to:
-
 
 
 $$
@@ -7544,9 +7104,7 @@ $$
 $$
 
 
-
 Similarly, we can derive an equation for the electric field:
-
 
 
 $$
@@ -7554,7 +7112,6 @@ $$
 \nabla \left(\nabla \cdot \vec{E}\right) - \nabla^2 \vec{E} = -\mu_0 \epsilon_0 \frac{\partial}{\partial t} \left(\nabla \times \vec{B}\right)
 
 $$
-
 
 
 These equations can be solved numerically to study the behavior of electromagnetic waves in moving media. The Yakushev approach takes into account the effects of magnetic diffusion and can accurately predict the instabilities that can arise in such systems.
@@ -7784,14 +7341,11 @@ Electromagnetic fields are a fundamental concept in physics, describing the inte
 The electromagnetic field equations consist of four partial differential equations, known as Maxwell's equations. These equations describe the behavior of electric and magnetic fields, and their relationship to each other. They are given by:
 
 
-
 $$
 
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
 
 $$
-
-
 
 $$
 
@@ -7799,22 +7353,17 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
 
 $$
 
-
-
 $$
 
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
 
 $$
-
 
 
 where $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic field, $\rho$ is the charge density, $\mathbf{J}$ is the current density, $\epsilon_0$ is the permittivity of free space, and $\mu_0$ is the permeability of free space.
@@ -7854,14 +7403,11 @@ Electromagnetic fields are a fundamental concept in physics, describing the inte
 The electromagnetic field equations consist of four partial differential equations, known as Maxwell's equations. These equations describe the behavior of electric and magnetic fields, and their relationship to each other. They are given by:
 
 
-
 $$
 
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
 
 $$
-
-
 
 $$
 
@@ -7869,22 +7415,17 @@ $$
 
 $$
 
-
-
 $$
 
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
 
 $$
 
-
-
 $$
 
 \nabla \times \mathbf{B} = \mu_0 \left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
 
 $$
-
 
 
 where $\mathbf{E}$ is the electric field, $\mathbf{B}$ is the magnetic field, $\rho$ is the charge density, $\mathbf{J}$ is the current density, $\epsilon_0$ is the permittivity of free space, and $\mu_0$ is the permeability of free space.
@@ -7940,13 +7481,11 @@ The electromagnetic force is one of the four fundamental forces in nature, along
 The strength of the electromagnetic force is described by Coulomb's law, which states that the force between two charged particles is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. Mathematically, this can be expressed as:
 
 
-
 $$
 
 F = k \frac{q_1 q_2}{r^2}
 
 $$
-
 
 
 where $F$ is the force, $k$ is the Coulomb constant, $q_1$ and $q_2$ are the charges of the particles, and $r$ is the distance between them.
@@ -7956,13 +7495,11 @@ where $F$ is the force, $k$ is the Coulomb constant, $q_1$ and $q_2$ are the cha
 In addition to the force between two charged particles, there is also a force between a charged particle and a magnetic field. This is known as the Lorentz force and is given by:
 
 
-
 $$
 
 \mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})
 
 $$
-
 
 
 where $\mathbf{F}$ is the force, $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{v}$ is the velocity of the particle, and $\mathbf{B}$ is the magnetic field.
@@ -7998,13 +7535,11 @@ The electromagnetic force is one of the four fundamental forces in nature, along
 The strength of the electromagnetic force is described by Coulomb's law, which states that the force between two charged particles is directly proportional to the product of their charges and inversely proportional to the square of the distance between them. Mathematically, this can be expressed as:
 
 
-
 $$
 
 F = k \frac{q_1 q_2}{r^2}
 
 $$
-
 
 
 where $F$ is the force, $k$ is the Coulomb constant, $q_1$ and $q_2$ are the charges of the particles, and $r$ is the distance between them.
@@ -8014,13 +7549,11 @@ where $F$ is the force, $k$ is the Coulomb constant, $q_1$ and $q_2$ are the cha
 In addition to the force between two charged particles, there is also a force between a charged particle and a magnetic field. This is known as the Lorentz force and is given by:
 
 
-
 $$
 
 \mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})
 
 $$
-
 
 
 where $\mathbf{F}$ is the force, $q$ is the charge of the particle, $\mathbf{E}$ is the electric field, $\mathbf{v}$ is the velocity of the particle, and $\mathbf{B}$ is the magnetic field.
@@ -8050,13 +7583,11 @@ Once the fields have been determined, we can use the Lorentz force equation to c
 The electric force is given by Coulomb's law, as mentioned earlier. It is a conservative force, meaning that it can be expressed as the gradient of a potential function. This potential function is known as the electric potential and is denoted by $\phi$. Mathematically, it can be expressed as:
 
 
-
 $$
 
 \mathbf{E} = -\boldsymbol{\nabla}\phi
 
 $$
-
 
 
 where $\mathbf{E}$ is the electric field and $\boldsymbol{\nabla}$ is the gradient operator.
@@ -8130,13 +7661,11 @@ Electromagnetic motion refers to the movement of charged particles in the presen
 Electromagnetic motion is a fundamental concept in physics, as it plays a crucial role in our understanding of the physical world. It is responsible for the behavior of charged particles, which are the building blocks of matter. The motion of these particles is governed by the Lorentz force, which is given by the equation:
 
 
-
 $$
 
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
 
 $$
-
 
 
 where $\vec{F}$ is the force experienced by the charged particle, $q$ is its charge, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the particle, and $\vec{B}$ is the magnetic field.
@@ -8180,13 +7709,11 @@ Electromagnetic motion refers to the movement of charged particles in the presen
 Electromagnetic motion is a fundamental concept in physics, as it plays a crucial role in our understanding of the physical world. It is responsible for the behavior of charged particles, which are the building blocks of matter. The motion of these particles is governed by the Lorentz force, which is given by the equation:
 
 
-
 $$
 
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
 
 $$
-
 
 
 where $\vec{F}$ is the force experienced by the charged particle, $q$ is its charge, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the particle, and $\vec{B}$ is the magnetic field.
@@ -8234,13 +7761,11 @@ In conclusion, the analysis of electromagnetic motion is crucial in understandin
 Electromagnetic motion is a fundamental concept in physics, as it plays a crucial role in our understanding of the physical world. It is responsible for the behavior of charged particles, which are the building blocks of matter. The motion of these particles is governed by the Lorentz force, which is given by the equation:
 
 
-
 $$
 
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
 
 $$
-
 
 
 where $\vec{F}$ is the force experienced by the charged particle, $q$ is its charge, $\vec{E}$ is the electric field, $\vec{v}$ is the velocity of the particle, and $\vec{B}$ is the magnetic field.
@@ -8266,13 +7791,11 @@ Electromagnetic motion has numerous applications in various fields, including el
 One of the most important applications of electromagnetic motion is electromagnetic induction. This phenomenon occurs when a changing magnetic field induces an electric current in a conductor. This was first discovered by Michael Faraday in 1831, and is described by Faraday's law of induction:
 
 
-
 $$
 
 \mathcal{E} = -\frac{d\Phi_B}{dt}
 
 $$
-
 
 
 where $\mathcal{E}$ is the induced electromotive force (emf), and $\Phi_B$ is the magnetic flux through a surface bounded by a closed loop.
@@ -8810,14 +8333,11 @@ To analyze the polarization of an electromagnetic wave, we can use the Stokes pa
 The Stokes parameters are defined as the average values of the square of the electric field components in different directions. They can be calculated using the following equations:
 
 
-
 $$
 
 S_0 = \langle E_x^2 \rangle + \langle E_y^2 \rangle
 
 $$
-
-
 
 $$
 
@@ -8825,22 +8345,17 @@ S_1 = \langle E_x^2 \rangle - \langle E_y^2 \rangle
 
 $$
 
-
-
 $$
 
 S_2 = 2\langle E_xE_y \rangle
 
 $$
 
-
-
 $$
 
 S_3 = 2\langle E_xE_z \rangle
 
 $$
-
 
 
 Where $\langle E_x^2 \rangle$ and $\langle E_y^2 \rangle$ represent the average values of the square of the electric field components in the x and y directions, respectively. $\langle E_xE_y \rangle$ and $\langle E_xE_z \rangle$ represent the average values of the product of the electric field components in the x and y directions, and x and z directions, respectively.
@@ -9334,13 +8849,11 @@ One of the advantages of electromagnetic actuators is their fast response time. 
 In order to understand the behavior of electromagnetic actuators, we can use the principles of electromagnetism to analyze their performance. The force produced by an electromagnetic actuator can be calculated using the equation:
 
 
-
 $$
 
 F = I \times L \times B
 
 $$
-
 
 
 Where:
@@ -9366,13 +8879,11 @@ Another important factor to consider is the inductance of the coil. Inductance i
 In addition to the force produced, we can also analyze the displacement of the actuator. This can be calculated using the equation:
 
 
-
 $$
 
 x = \frac{F}{k}
 
 $$
-
 
 
 Where:
@@ -10768,13 +10279,11 @@ As mentioned before, energy is a conserved quantity in all physical processes. I
 To analyze energy transfer using electromagnetic fields, we must first understand the concept of Poynting vector. The Poynting vector, denoted by $\mathbf{S}$, is a mathematical quantity that describes the direction and magnitude of energy flow in an electromagnetic field. It is defined as the cross product of the electric field $\mathbf{E}$ and the magnetic field $\mathbf{H}$:
 
 
-
 $$
 
 \mathbf{S} = \mathbf{E} \times \mathbf{H}
 
 $$
-
 
 
 The direction of the Poynting vector represents the direction of energy flow, while its magnitude represents the rate of energy transfer per unit area. This vector is an essential tool in analyzing energy transfer in electromagnetic fields.
@@ -10784,13 +10293,11 @@ The direction of the Poynting vector represents the direction of energy flow, wh
 Using the Poynting vector, we can derive the Poynting theorem, which states that the rate of change of electromagnetic energy density in a given volume is equal to the negative of the divergence of the Poynting vector integrated over the surface enclosing that volume:
 
 
-
 $$
 
 \frac{\partial u}{\partial t} = -\nabla \cdot \mathbf{S}
 
 $$
-
 
 
 where $u$ is the electromagnetic energy density. This theorem is a powerful tool in analyzing energy transfer in electromagnetic fields and is widely used in various applications.
@@ -10888,13 +10395,11 @@ When a conductor, such as a wire, is placed in a magnetic field, the magnetic fi
 The magnitude of the induced EMF is directly proportional to the rate of change of the magnetic field and the length of the conductor. This can be expressed mathematically as:
 
 
-
 $$
 
 \mathcal{E} = -\frac{d\Phi_B}{dt}
 
 $$
-
 
 
 where $\mathcal{E}$ is the induced EMF, $\Phi_B$ is the magnetic flux through the conductor, and $t$ is time. This equation is known as Faraday's law of induction and is the basis for understanding electromagnetic induction.
@@ -10930,7 +10435,6 @@ In conclusion, electromagnetic induction is a fundamental principle in electroma
 In order to gain a deeper understanding of electromagnetic induction, we can analyze the phenomenon using the equations derived from the generalized Ohm's law and the curl equations for small displacement currents. By substituting the current density <math>\vec{J}</math> into the Ampere-Maxwell law, we can obtain an expression for the electric field <math>\vec{E}</math> in terms of the magnetic field <math>\vec{B}</math> and the velocity <math>\vec{v}</math> of the conductor:
 
 
-
 $$
 
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
@@ -10938,9 +10442,7 @@ $$
 $$
 
 
-
 Taking the curl of this equation and substituting it into Faraday's law, we can simplify the expression to:
-
 
 
 $$
@@ -10950,9 +10452,7 @@ $$
 $$
 
 
-
 Using the identity <math>\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-\delta_{im}\delta_{jl}</math> and the fact that <math>\partial_j B_j = 0</math>, we can eliminate the cross products and simplify the equation further to:
-
 
 
 $$
@@ -10960,7 +10460,6 @@ $$
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
 
 $$
-
 
 
 This equation allows us to analyze the effects of magnetic diffusion, which is the process by which a magnetic field dissipates over time. The first term on the right-hand side represents the diffusion of the magnetic field due to the conductivity of the material, while the second term represents the advection of the magnetic field by the velocity of the conductor. The third term represents the stretching or compression of the magnetic field lines due to the velocity of the conductor.
@@ -11012,7 +10511,6 @@ Induction motors are also a common application of electromagnetic induction. The
 In order to gain a deeper understanding of electromagnetic induction, we can analyze the phenomenon using the equations derived from the generalized Ohm's law and the curl equations for small displacement currents. By substituting the current density <math>\vec{J}</math> into the Ampere-Maxwell law, we can obtain an expression for the electric field <math>\vec{E}</math> in terms of the magnetic field <math>\vec{B}</math> and the velocity <math>\vec{v}</math> of the conductor:
 
 
-
 $$
 
 \vec{E} = \frac{1}{\mu_0 \sigma}\nabla\times\vec{B}-\vec{v}\times\vec{B}
@@ -11020,9 +10518,7 @@ $$
 $$
 
 
-
 Taking the curl of this equation and substituting it into Faraday's law, we can simplify the expression to:
-
 
 
 $$
@@ -11032,9 +10528,7 @@ $$
 $$
 
 
-
 Using the identity <math>\varepsilon_{kij} \varepsilon_{klm}= \delta_{il}\delta_{jm}-\delta_{im}\delta_{jl}</math> and the fact that <math>\partial_j B_j = 0</math>, we can eliminate the cross products and simplify the equation further to:
-
 
 
 $$
@@ -11042,7 +10536,6 @@ $$
 -\frac{\partial B_i}{\partial t} = \frac{1}{\mu_0 \sigma}\left(\partial_i\partial_j B_j - \partial_j \partial_j B_i\right) - \left(v_i \partial_j B_j - v_j \partial_j B_i\right) - \left(B_j \partial_j v_i - B_i \partial_j v_j\right)
 
 $$
-
 
 
 This equation allows us to analyze the effects of magnetic diffusion, which is the process by which a magnetic field dissipates over time. The first term on the right-hand side represents the diffusion of the magnetic field due to the conductivity of the material, while the second term represents the advection of the magnetic field by the velocity of the conductor. The third term represents the stretching or compression of the magnetic field lines due to the velocity of the conductor.
@@ -11636,7 +11129,6 @@ In the previous subsection, we discussed the basics of electromagnetic shielding
 To begin with, let us consider a spherical shell of a diamagnetic material with relative permeability $\mu_r$, inner radius $a$, and outer radius $b$, placed in a constant magnetic field $\mathbf{H}_0$. In this scenario, the only currents present are the bound currents on the boundaries of the diamagnetic material. Therefore, we can define a magnetic scalar potential $\Phi_M$ that satisfies Laplace's equation:
 
 
-
 $$
 
 \mathbf{H} = -\nabla \Phi_{M} \\
@@ -11646,9 +11138,7 @@ $$
 $$
 
 
-
 where $\mathbf{B} = \mu_\text{r}\mathbf{H}$. Since there is azimuthal symmetry in this problem, the solution to Laplace's equation in spherical coordinates can be written as:
-
 
 
 $$
@@ -11658,9 +11148,7 @@ $$
 $$
 
 
-
 where $P_{\ell}(\cos\theta)$ are the Legendre polynomials. By matching the boundary conditions at the boundaries of the spherical shell, we can find the magnetic field inside the cavity to be:
-
 
 
 $$
@@ -11670,9 +11158,7 @@ $$
 $$
 
 
-
 where $\eta$ is an attenuation coefficient that depends on the thickness of the diamagnetic material and its magnetic permeability. It can be calculated as:
-
 
 
 $$

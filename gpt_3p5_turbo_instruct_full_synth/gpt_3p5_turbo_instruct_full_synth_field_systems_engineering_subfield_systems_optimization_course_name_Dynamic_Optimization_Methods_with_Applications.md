@@ -727,9 +727,7 @@ In dynamic optimization, the system is described by a set of state variables tha
 
 
 $$
-
 \max_{u(t)} J = \int_{t_0}^{t_f} f(x(t), u(t), t) dt
-
 $$
 
 
@@ -871,9 +869,7 @@ Discrete time problems involve making decisions at specific time intervals, wher
 
 
 $$
-
 x_{n+1} = f(x_n, u_n)
-
 $$
 
 
@@ -883,9 +879,7 @@ where $x_n$ is the state of the system at time step $n$ and $u_n$ is the decisio
 
 
 $$
-
 \max_{u_0, u_1, ..., u_N} J(x_0, u_0, u_1, ..., u_N)
-
 $$
 
 
@@ -1555,17 +1549,13 @@ Consider a production planning problem where a company must decide how much of a
 Solve the following dynamic optimization problem using the calculus of variations:
 
 $$
-
 \min_{x(t)} \int_{0}^{1} (x(t)^2 + u(t)^2) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x}(t) = u(t), \quad x(0) = 0, \quad x(1) = 1
-
 $$
 
 
@@ -1581,17 +1571,13 @@ Consider a healthcare system that must allocate resources to different departmen
 Solve the following dynamic optimization problem using dynamic programming:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-rt} u(t) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x}(t) = u(t), \quad x(0) = x_0, \quad x(T) = x_T
-
 $$
 
 
@@ -1639,17 +1625,13 @@ Consider a production planning problem where a company must decide how much of a
 Solve the following dynamic optimization problem using the calculus of variations:
 
 $$
-
 \min_{x(t)} \int_{0}^{1} (x(t)^2 + u(t)^2) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x}(t) = u(t), \quad x(0) = 0, \quad x(1) = 1
-
 $$
 
 
@@ -1665,17 +1647,13 @@ Consider a healthcare system that must allocate resources to different departmen
 Solve the following dynamic optimization problem using dynamic programming:
 
 $$
-
 \max_{u(t)} \int_{0}^{T} e^{-rt} u(t) dt
-
 $$
 
 subject to
 
 $$
-
 \dot{x}(t) = u(t), \quad x(0) = x_0, \quad x(T) = x_T
-
 $$
 
 
@@ -2089,9 +2067,7 @@ Given a discrete time deterministic model with a finite horizon, the optimal pol
 
 
 $$
-
 V^*(x_0) = \max_{u_0} \left\{ f(x_0, u_0) + V^*(x_1) \right\}
-
 $$
 
 
@@ -2787,9 +2763,7 @@ In this subsection, we will provide a brief introduction to deterministic dynami
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -2851,9 +2825,7 @@ In this subsection, we will provide a brief introduction to deterministic dynami
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -2875,9 +2847,7 @@ Equilibrium refers to a state where the system is stable and does not change ove
 
 
 $$
-
 x_{n+1} = x_n
-
 $$
 
 
@@ -2931,9 +2901,7 @@ In this subsection, we will provide a brief introduction to deterministic dynami
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3019,9 +2987,7 @@ In this subsection, we will provide a brief introduction to deterministic dynami
 
 
 $$
-
 x_{n+1} = f(x_n)
-
 $$
 
 
@@ -3047,9 +3013,7 @@ In this subsection, we will discuss the constant returns to scale production fun
 
 
 $$
-
 Y = f(K,L)
-
 $$
 
 
@@ -3103,9 +3067,7 @@ To mathematically represent this, we can use the following equation:
 
 
 $$
-
 \frac{\partial C}{\partial x} = \frac{\partial R}{\partial y}
-
 $$
 
 
@@ -3163,9 +3125,7 @@ One of the main applications of these models is in production theory, where they
 
 
 $$
-
 \frac{\partial C}{\partial x_i} = \frac{\partial F}{\partial x_i}
-
 $$
 
 
@@ -3629,9 +3589,7 @@ The Bellman equations can be written in the following form:
 
 
 $$
-
 V^*(x) = \max_{u \in U} \left\{ f(x,u) + \sum_{w \in W} p(w|x,u) V^*(g(x,u,w)) \right\}
-
 $$
 
 
@@ -3773,9 +3731,7 @@ The Stochastic Euler Equations can be written in the following form:
 
 
 $$
-
 y_{t+1} = f(y_t, \epsilon_t)
-
 $$
 
 
@@ -3849,9 +3805,7 @@ The Stochastic Euler Equations can be written as:
 
 
 $$
-
 \Delta w = \frac{\partial f}{\partial w} \Delta t + \frac{\partial f}{\partial w} \Delta w
-
 $$
 
 
@@ -3929,9 +3883,7 @@ The Stochastic Euler Equations can be written as:
 
 
 $$
-
 y_{t+1} = f(y_t) + \epsilon_{t+1}
-
 $$
 
 
@@ -4001,9 +3953,7 @@ The general form of the Stochastic Euler Equations is given by:
 
 
 $$
-
 y_{t+1} = f(y_t) + \sigma_t \epsilon_{t+1}
-
 $$
 
 
@@ -4029,9 +3979,7 @@ The Bellman equation for the Stochastic Euler Equations is given by:
 
 
 $$
-
 V(y_t) = \max_{y_{t+1}} \left\{ u(y_t, y_{t+1}) + \beta \mathbb{E}_t[V(y_{t+1})] \right\}
-
 $$
 
 
@@ -4057,9 +4005,7 @@ The general form of Ito's Lemma is given by:
 
 
 $$
-
 df(x_t) = \frac{\partial f}{\partial t} dt + \frac{\partial f}{\partial x} dx_t + \frac{1}{2} \frac{\partial^2 f}{\partial x^2} (dx_t)^2
-
 $$
 
 
@@ -4459,9 +4405,7 @@ The HJB equation is given by:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \min_{u \in U} \left\{ \mathcal{L}(x,u) + \frac{\partial V}{\partial x} f(x,u) \right\} = 0
-
 $$
 
 
@@ -4517,9 +4461,7 @@ The HJB equation is given by:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \min_{u \in U} \left\{ \mathcal{L}(x,u) + \frac{\partial V}{\partial x} f(x,u) \right\} = 0
-
 $$
 
 
@@ -4553,9 +4495,7 @@ The variational inequality is given by:
 
 
 $$
-
 \min_{u \in U} \left\{ \mathcal{L}(x,u) + \frac{\partial V}{\partial x} f(x,u) \right\} \geq 0
-
 $$
 
 
@@ -4603,9 +4543,7 @@ The HJB equation is given by:
 
 
 $$
-
 \frac{\partial V}{\partial t} + \min_{u \in U} \left\{ \mathcal{L}(x,u) + \frac{\partial V}{\partial x} f(x,u) \right\} = 0
-
 $$
 
 
@@ -4677,9 +4615,7 @@ The principle states that for a given optimal control problem, the optimal contr
 
 
 $$
-
 \max_{u \in U} \mathcal{H}(x,u,\lambda) = \max_{u \in U} \left\{ \mathcal{L}(x,u) + \lambda^T f(x,u) \right\}
-
 $$
 
 
@@ -4727,9 +4663,7 @@ The principle states that for a given optimal control problem, the optimal contr
 
 
 $$
-
 \max_{u \in U} \mathcal{H}(x,u,\lambda) = \max_{u \in U} \left\{ \mathcal{L}(x,u) + \lambda^T f(x,u) \right\}
-
 $$
 
 
@@ -5021,9 +4955,7 @@ In conclusion, this chapter has provided a comprehensive overview of continuous 
 Consider a continuous time model with the following dynamics:
 
 $$
-
 \dot{x} = f(x,u)
-
 $$
 
 where $x$ is the state vector and $u$ is the control input. Derive the Euler-Lagrange equation for this model.
@@ -5081,9 +5013,7 @@ In conclusion, this chapter has provided a comprehensive overview of continuous 
 Consider a continuous time model with the following dynamics:
 
 $$
-
 \dot{x} = f(x,u)
-
 $$
 
 where $x$ is the state vector and $u$ is the control input. Derive the Euler-Lagrange equation for this model.
@@ -5183,9 +5113,7 @@ The steepest descent method, also known as the gradient descent method, is a fir
 
 
 $$
-
 \Delta w = -\eta \nabla J(w)
-
 $$
 
 
@@ -5249,9 +5177,7 @@ The most basic gradient-based method is the gradient descent method. It is a fir
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k \nabla f(x_k)
-
 $$
 
 
@@ -5277,9 +5203,7 @@ The update rule for the conjugate gradient method can be written as:
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -5289,9 +5213,7 @@ where $d_k$ is the search direction and $\beta_k$ is the step size. The search d
 
 
 $$
-
 d_k = -\nabla f(x_k) + \beta_k d_{k-1}
-
 $$
 
 
@@ -5509,9 +5431,7 @@ Gradient descent is the most basic and widely used gradient-based optimization a
 
 
 $$
-
 x_{k+1} = x_k - \alpha \nabla f(x_k)
-
 $$
 
 
@@ -5533,9 +5453,7 @@ The update rule for the conjugate gradient method can be written as:
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -5561,9 +5479,7 @@ Newton's method for unconstrained optimization can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \frac{f'(x_k)}{f''(x_k)}
-
 $$
 
 
@@ -5623,9 +5539,7 @@ The update rule for gradient descent can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha \nabla f(x_k)
-
 $$
 
 
@@ -5647,9 +5561,7 @@ The update rule for the conjugate gradient method can be written as:
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -5671,9 +5583,7 @@ The update rule for Newton's method can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha \frac{\nabla f(x_k)}{\nabla^2 f(x_k)}
-
 $$
 
 
@@ -5695,9 +5605,7 @@ The update rule for Newton's method in constrained optimization can be written a
 
 
 $$
-
 x_{k+1} = x_k - \alpha \left(\nabla^2 f(x_k) + \sum_{i=1}^m \lambda_i \nabla^2 g_i(x_k)\right)^{-1} \nabla f(x_k)
-
 $$
 
 
@@ -5755,9 +5663,7 @@ The update rule for gradient descent can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha \nabla f(x_k)
-
 $$
 
 
@@ -5779,9 +5685,7 @@ The update rule for the conjugate gradient method can be written as:
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -5803,9 +5707,7 @@ The update rule for Newton's method can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha \frac{\nabla f(x_k)}{\nabla^2 f(x_k)}
-
 $$
 
 
@@ -5827,9 +5729,7 @@ The update rule for Newton's method in constrained optimization can be written a
 
 
 $$
-
 x_{k+1} = x_k - \alpha \left(\nabla^2 f(x_k) + \sum_{i=1}^m \lambda_i \nabla^2 g_i(x_k)\right)^{-1} \nabla f(x_k)
-
 $$
 
 
@@ -5905,9 +5805,7 @@ The basic idea behind gradient descent is to start with an initial guess for the
 
 
 $$
-
 \theta_{t+1} = \theta_t - \alpha \nabla J(\theta_t)
-
 $$
 
 
@@ -5933,9 +5831,7 @@ The basic idea behind Newton's method is to approximate the objective function w
 
 
 $$
-
 \theta_{t+1} = \theta_t - H^{-1} \nabla J(\theta_t)
-
 $$
 
 
@@ -6015,9 +5911,7 @@ The update rule for the gradient descent method can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k \nabla f(x_k)
-
 $$
 
 
@@ -6043,9 +5937,7 @@ The update rule for Newton's method can be written as:
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k (\nabla^2 f(x_k))^{-1} \nabla f(x_k)
-
 $$
 
 
@@ -6071,9 +5963,7 @@ The update rule for the conjugate gradient method can be written as:
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -6155,9 +6045,7 @@ The update rule for the BFGS method can be written as:
 
 
 $$
-
 H_{k+1} = H_k + \frac{y_k y_k^T}{y_k^T s_k} - \frac{H_k s_k s_k^T H_k}{s_k^T H_k s_k}
-
 $$
 
 
@@ -6213,9 +6101,7 @@ The gradient descent method is the simplest form of gradient-based optimization.
 
 
 $$
-
 x_{k+1} = x_k - \alpha \nabla f(x_k)
-
 $$
 
 
@@ -6233,9 +6119,7 @@ Newton's method is another popular gradient-based optimization algorithm that us
 
 
 $$
-
 x_{k+1} = x_k - \alpha \frac{\nabla f(x_k)}{\nabla^2 f(x_k)}
-
 $$
 
 
@@ -6253,9 +6137,7 @@ The conjugate gradient method is a variant of the gradient descent method that u
 
 
 $$
-
 x_{k+1} = x_k + \beta_k d_k
-
 $$
 
 
@@ -6313,9 +6195,7 @@ The L-BFGS method is a variant of the Broyden-Fletcher-Goldfarb-Shanno (BFGS) me
 
 
 $$
-
 x_{k+1} = x_k - \alpha_k H_k \nabla f(x_k)
-
 $$
 
 
@@ -6641,7 +6521,6 @@ The algorithm for barrier methods can be summarized as follows:
     - Solve the following system of equations for the search direction, $d_k$:
 
     $$H_k d_k = -g_k + \mu \nabla B(x_k)$$
-
     - Update the solution as $x_{k+1} = x_k + \alpha_k d_k$, where $\alpha_k$ is the step size.
 
     - Update the barrier parameter, $\mu$, to a smaller value.
@@ -7467,13 +7346,11 @@ The movement of a particle is determined by its current position, velocity, and 
 The velocity of a particle is updated using the following equation:
 
 
-
 $$
 
 v_{ij}(n+1) = wv_{ij}(n) + c_1r_1(p_{ij}(n) - x_{ij}(n)) + c_2r_2(g_{ij}(n) - x_{ij}(n))
 
 $$
-
 
 
 where $v_{ij}(n+1)$ is the updated velocity of particle $i$ in dimension $j$ at iteration $n+1$, $w$ is the inertia weight, $c_1$ and $c_2$ are acceleration coefficients, $r_1$ and $r_2$ are random numbers between 0 and 1, $p_{ij}(n)$ is the personal best position of particle $i$ in dimension $j$ at iteration $n$, $x_{ij}(n)$ is the current position of particle $i$ in dimension $j$ at iteration $n$, and $g_{ij}(n)$ is the global best position in dimension $j$ at iteration $n$.
@@ -7487,13 +7364,11 @@ The inertia weight $w$ controls the impact of the previous velocity on the updat
 After the velocity is updated, the particle's position is then updated using the following equation:
 
 
-
 $$
 
 x_{ij}(n+1) = x_{ij}(n) + v_{ij}(n+1)
 
 $$
-
 
 
 This process is repeated for each particle in the population until a stopping criterion is met, such as reaching a maximum number of iterations or finding a satisfactory solution.
@@ -7549,21 +7424,17 @@ The basic algorithm of PSO involves initializing a population of particles with 
 The position and velocity updates of a particle are determined by the following equations:
 
 
-
 $$
 
 v_{ij}(n+1) = wv_{ij}(n) + c_1r_1(p_{ij}(n) - x_{ij}(n)) + c_2r_2(g_{ij}(n) - x_{ij}(n))
 
 $$
 
-
-
 $$
 
 x_{ij}(n+1) = x_{ij}(n) + v_{ij}(n+1)
 
 $$
-
 
 
 where $v_{ij}(n)$ is the velocity of particle $i$ in dimension $j$ at iteration $n$, $x_{ij}(n)$ is the position of particle $i$ in dimension $j$ at iteration $n$, $w$ is the inertia weight, $c_1$ and $c_2$ are the acceleration coefficients, $r_1$ and $r_2$ are random numbers between 0 and 1, $p_{ij}(n)$ is the best position of particle $i$ in dimension $j$ up to iteration $n$, and $g_{ij}(n)$ is the best position of the entire population in dimension $j$ up to iteration $n$.
@@ -7619,13 +7490,11 @@ In conclusion, optimization algorithms are powerful tools for solving dynamic op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = x^2 + 2x + 1
 
 $$
-
 Use gradient descent to find the optimal solution. Compare the results with the analytical solution.
 
 
@@ -7633,13 +7502,11 @@ Use gradient descent to find the optimal solution. Compare the results with the 
 #### Exercise 2
 
 Implement the conjugate gradient method in Python and use it to solve the following problem:
-
 $$
 
 \min_{x} f(x) = x^3 - 2x^2 + 3x - 1
 
 $$
-
 Compare the results with those obtained using gradient descent.
 
 
@@ -7647,13 +7514,11 @@ Compare the results with those obtained using gradient descent.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = \frac{1}{2}x^TQx + c^Tx
 
 $$
-
 where $Q$ is a positive definite matrix and $c$ is a vector. Derive the update rule for Newton's method for this problem.
 
 
@@ -7695,13 +7560,11 @@ In conclusion, optimization algorithms are powerful tools for solving dynamic op
 #### Exercise 1
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = x^2 + 2x + 1
 
 $$
-
 Use gradient descent to find the optimal solution. Compare the results with the analytical solution.
 
 
@@ -7709,13 +7572,11 @@ Use gradient descent to find the optimal solution. Compare the results with the 
 #### Exercise 2
 
 Implement the conjugate gradient method in Python and use it to solve the following problem:
-
 $$
 
 \min_{x} f(x) = x^3 - 2x^2 + 3x - 1
 
 $$
-
 Compare the results with those obtained using gradient descent.
 
 
@@ -7723,13 +7584,11 @@ Compare the results with those obtained using gradient descent.
 #### Exercise 3
 
 Consider the following optimization problem:
-
 $$
 
 \min_{x} f(x) = \frac{1}{2}x^TQx + c^Tx
 
 $$
-
 where $Q$ is a positive definite matrix and $c$ is a vector. Derive the update rule for Newton's method for this problem.
 
 
@@ -7829,7 +7688,6 @@ Mathematically, the mean-variance portfolio selection problem can be formulated 
 Given a set of assets with expected returns $r_i$ and variances $\sigma_i^2$, and a target return $r_t$, the goal is to find the weights $w_i$ for each asset such that the portfolio has the highest expected return while keeping the risk below a certain level.
 
 
-
 $$
 
 \begin{align*}
@@ -7843,7 +7701,6 @@ $$
 \end{align*}
 
 $$
-
 
 
 where $n$ is the number of assets and $\sigma_t^2$ is the target variance.
@@ -8319,14 +8176,11 @@ The Solow-Swan model is based on the following assumptions:
 Using these assumptions, the Solow-Swan model can be represented by the following equations:
 
 
-
 $$
 
 Y_t = F(K_t, L_t)
 
 $$
-
-
 
 $$
 
@@ -8334,14 +8188,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{L_t} = nL_t
 
 $$
-
 
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $s$ is the savings rate, $\delta$ is the depreciation rate, and $n$ is the population growth rate.
@@ -8351,22 +8202,17 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $s$ is the savings rate
 The Solow-Swan model allows us to study the long-term growth of an economy by analyzing the steady state equilibrium, where the growth rate of output, capital, and labor are all constant. In this equilibrium, the economy is growing at a constant rate, and the capital stock per worker is also constant. This steady state equilibrium is represented by the following equations:
 
 
-
 $$
 
 \dot{K_t} = 0
 
 $$
 
-
-
 $$
 
 \dot{L_t} = 0
 
 $$
-
-
 
 $$
 
@@ -8375,9 +8221,7 @@ $$
 $$
 
 
-
 Solving for the steady state values of $K_t$, $L_t$, and $Y_t$, we get:
-
 
 
 $$
@@ -8386,22 +8230,17 @@ K^* = \left(\frac{s}{n+\delta}\right)^{\frac{1}{1-\alpha}}Y^*
 
 $$
 
-
-
 $$
 
 L^* = \left(\frac{n}{n+\delta}\right)^{\frac{1}{1-\alpha}}Y^*
 
 $$
 
-
-
 $$
 
 Y^* = \left(\frac{s}{n+\delta}\right)^{\frac{\alpha}{1-\alpha}}(n+\delta)^{\frac{1}{1-\alpha}}
 
 $$
-
 
 
 where $\alpha$ is the output elasticity of capital.
@@ -8463,14 +8302,11 @@ The Ramsey-Cass-Koopmans model is based on the following assumptions:
 Using these assumptions, the Ramsey-Cass-Koopmans model can be represented by the following equations:
 
 
-
 $$
 
 Y_t = F(K_t, L_t)
 
 $$
-
-
 
 $$
 
@@ -8478,15 +8314,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{L_t} = nL_t
 
 $$
-
-
 
 $$
 
@@ -8494,14 +8326,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{K_{t+1}} = sC_t + (1-\delta)K_t
 
 $$
-
 
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $s$ is the savings rate, $\delta$ is the depreciation rate, $n$ is the population growth rate, and $C_t$ is consumption.
@@ -8511,14 +8340,11 @@ where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $s$ is the savings rate
 The Ramsey-Cass-Koopmans model allows us to study the long-term growth of an economy by analyzing the steady state equilibrium, where the growth rate of output, capital, and labor are all constant. In this equilibrium, the economy is growing at a constant rate, and the capital stock per worker is also constant. This steady state equilibrium is represented by the following equations:
 
 
-
 $$
 
 \dot{K_t} = 0
 
 $$
-
-
 
 $$
 
@@ -8526,22 +8352,17 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{C_t} = 0
 
 $$
 
-
-
 $$
 
 \dot{K_{t+1}} = 0
 
 $$
-
 
 
 Solving these equations, we can find the steady state values for output, capital, labor, and consumption. The Ramsey-Cass-Koopmans model also allows us to study the effects of changes in the savings rate, population growth rate, and discount rate on the long-term growth of the economy.
@@ -8591,14 +8412,11 @@ The Ramsey-Cass-Koopmans model is based on the following assumptions:
 Using these assumptions, the Ramsey-Cass-Koopmans model can be represented by the following equations:
 
 
-
 $$
 
 Y_t = F(K_t, L_t)
 
 $$
-
-
 
 $$
 
@@ -8606,15 +8424,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{L_t} = nL_t
 
 $$
-
-
 
 $$
 
@@ -8622,14 +8436,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{K_{t+1}} = sC_t + (1-\delta)K_t
 
 $$
-
 
 
 where $Y_t$ is output, $K_t$ is capital, $L_t$ is labor, $s$ is the savings rate, $\delta$ is the depreciation rate, $n$ is the population growth rate, and $C_t$ is consumption.
@@ -8693,14 +8504,11 @@ The Arrow-Debreu model is based on the following assumptions:
 Using these assumptions, the Arrow-Debreu model can be represented by the following equations:
 
 
-
 $$
 
 \sum_{i=1}^{n} p_i x_i = \sum_{i=1}^{n} p_i y_i
 
 $$
-
-
 
 $$
 
@@ -8708,14 +8516,11 @@ $$
 
 $$
 
-
-
 $$
 
 \sum_{i=1}^{n} p_i x_i \geq \sum_{i=1}^{n} p_i y_i
 
 $$
-
 
 
 where $p_i$ is the price of good $i$, $x_i$ is the quantity of good $i$ consumed, and $y_i$ is the quantity of good $i$ produced.
@@ -8775,14 +8580,11 @@ The Arrow-Debreu model is based on the following assumptions:
 Using these assumptions, the Arrow-Debreu model can be represented by the following equations:
 
 
-
 $$
 
 \sum_{i=1}^{n} p_i x_i = \sum_{i=1}^{n} p_i y_i
 
 $$
-
-
 
 $$
 
@@ -8790,14 +8592,11 @@ $$
 
 $$
 
-
-
 $$
 
 \sum_{i=1}^{n} p_i x_i \geq \sum_{i=1}^{n} p_i y_i
 
 $$
-
 
 
 where $p_i$ is the price of good $i$, $x_i$ is the quantity of good $i$ consumed, and $y_i$ is the quantity of good $i$ produced.
@@ -8891,22 +8690,17 @@ The Arrow-Debreu model is based on the following assumptions:
 Using these assumptions, the Arrow-Debreu model can be represented by the following equations:
 
 
-
 $$
 
 \sum_{i=1}^{n} p_i x_i = \sum_{i=1}^{n} p_i y_i
 
 $$
 
-
-
 $$
 
 \sum_{i=1}^{n} p_i x_i \leq \sum_{i=1}^{n} p_i y_i
 
 $$
-
-
 
 $$
 

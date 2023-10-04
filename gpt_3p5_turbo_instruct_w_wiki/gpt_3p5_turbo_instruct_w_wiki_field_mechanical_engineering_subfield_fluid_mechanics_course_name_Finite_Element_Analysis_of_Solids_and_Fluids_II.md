@@ -1443,7 +1443,6 @@ For example, for a problem involving large deformations and rotations of a struc
 $$\int_\Omega f(x)v(x) \, dx = \int_\Omega u"(x)v(x) \, dx$$
 
 
-
 where $u$ is the displacement of the structure and $v$ is a smooth function that satisfies the displacement boundary conditions. This weak form can be turned into an inner product on a suitable space of once differentiable functions that are zero on the boundary of the structure.
 
 
@@ -2183,21 +2182,17 @@ The shape functions used in the u/p formulation are a combination of the shape f
 Let us consider a two-dimensional problem with a solid domain Ω<sub>s</sub> and a fluid domain Ω<sub>f</sub>. The displacement field u and the pressure field p can be interpolated using the following shape functions:
 
 
-
 $$
 
 u(x,y) = \sum_{i=1}^{n} N_i(x,y)u_i
 
 $$
 
-
-
 $$
 
 p(x,y) = \sum_{j=1}^{m} N_j(x,y)p_j
 
 $$
-
 
 
 where n and m are the number of nodes in the solid and fluid domains, respectively, and u<sub>i</sub> and p<sub>j</sub> are the nodal values of the displacement and pressure fields.
@@ -2207,21 +2202,17 @@ where n and m are the number of nodes in the solid and fluid domains, respective
 The shape functions N<sub>i</sub> and N<sub>j</sub> are defined as:
 
 
-
 $$
 
 N_i(x,y) = \sum_{k=1}^{n_i} \phi_k(x,y)u_{ik}
 
 $$
 
-
-
 $$
 
 N_j(x,y) = \sum_{l=1}^{n_j} \psi_l(x,y)p_{jl}
 
 $$
-
 
 
 where n<sub>i</sub> and n<sub>j</sub> are the number of nodes in the element and u<sub>ik</sub> and p<sub>jl</sub> are the nodal values of the shape functions.
@@ -2393,13 +2384,11 @@ Large deformation analysis is necessary when the deformation of a solid or fluid
 To account for large deformations, we introduce the concept of incremental deformations. This method involves superposing a small displacement <math> \delta{\bf x} </math> on the finite deformation basic solution <math> {\bf x}^0</math>. This can be expressed as:
 
 
-
 $$
 
 \bar{\bf x} = {\bf x}^0 + \delta{\bf x} = \chi^1({\bf x}^0)
 
 $$
-
 
 
 where <math> \bar{\bf x} </math> is the perturbed position and <math> \chi^1({\bf x}^0) </math> maps the basic position vector <math> {\bf x}^0</math> in the perturbed configuration <math> \delta\mathcal{B}_a </math>.
@@ -2417,13 +2406,11 @@ In this method, the incremental variables are indicated by <math> \delta(\bullet
 The perturbed deformation gradient is given by:
 
 
-
 $$
 
 \mathbf{\Gamma} = {\rm grad} \,\chi^1({\bf x}^0)
 
 $$
-
 
 
 where <math> {\rm grad}</math> is the gradient operator with respect to the current configuration.
@@ -2437,13 +2424,11 @@ where <math> {\rm grad}</math> is the gradient operator with respect to the curr
 The perturbed Piola stress is given by:
 
 
-
 $$
 
 \bar{\mathcal{A}}^1 = \mathcal{A}^1 + \delta p \mathcal{A}^1_{p}
 
 $$
-
 
 
 where <math> \delta p</math> is the increment in <math> p</math> and <math> \mathcal{A}^1</math> is called the elastic moduli associated to the pairs <math> ({\bf S},{\bf F})</math>.
@@ -2453,7 +2438,6 @@ where <math> \delta p</math> is the increment in <math> p</math> and <math> \mat
 To simplify the notation, we can define the incremental stress as:
 
 
-
 $$
 
 \delta{\bf S} = \mathcal{A}^1_{p} \delta p
@@ -2461,9 +2445,7 @@ $$
 $$
 
 
-
 and the perturbed stress as:
-
 
 
 $$
@@ -2471,7 +2453,6 @@ $$
 \bar{\bf S} = {\bf S} + \delta{\bf S}
 
 $$
-
 
 
 ### Subsection 2.3b: Techniques in Nonlinear Analysis
@@ -2489,13 +2470,11 @@ In this subsection, we will discuss some important techniques used in nonlinear 
 The first property we will discuss is coercivity. This property ensures that the solution to a nonlinear problem exists and is unique. It is defined as:
 
 
-
 $$
 
 \Vert \bar{\bf S} \Vert \geq C_{D_m} \Vert \bar{\bf x} \Vert
 
 $$
-
 
 
 where <math> C_{D_m} </math> is a constant that depends on the discretization method <math> D_m </math> used.
@@ -2509,13 +2488,11 @@ where <math> C_{D_m} </math> is a constant that depends on the discretization me
 Another important property is GD-consistency, which ensures that the solution obtained using the discretization method is consistent with the exact solution. It is defined as:
 
 
-
 $$
 
 \lim_{m\to\infty} S_{D_m} (\varphi) = 0
 
 $$
-
 
 
 where <math> S_{D_m} (\varphi) </math> is the error in the solution obtained using the discretization method <math> D_m </math>.
@@ -2529,13 +2506,11 @@ where <math> S_{D_m} (\varphi) </math> is the error in the solution obtained usi
 Limit-conformity is a property that ensures that the solution obtained using the discretization method converges to the exact solution as the mesh size tends to zero. It is defined as:
 
 
-
 $$
 
 \lim_{m\to\infty} W_{D_m}(\varphi) = 0
 
 $$
-
 
 
 where <math> W_{D_m}(\varphi) </math> is the error in the solution obtained using the discretization method <math> D_m </math>.
@@ -2549,13 +2524,11 @@ where <math> W_{D_m}(\varphi) </math> is the error in the solution obtained usin
 Compactness is a property that is needed for solving some nonlinear problems. It ensures that a sequence of solutions obtained using the discretization method remains bounded. It is defined as:
 
 
-
 $$
 
 \Vert u_m \Vert_{D_m} \leq M
 
 $$
-
 
 
 where <math> M </math> is a constant and <math> u_m </math> is the solution obtained using the discretization method <math> D_m </math>.
@@ -2569,13 +2542,11 @@ where <math> M </math> is a constant and <math> u_m </math> is the solution obta
 The final property we will discuss is piecewise constant reconstruction. This property is needed for solving some nonlinear problems and is defined as:
 
 
-
 $$
 
 \Pi_D u = \sum_{i\in B}u_i\chi_{\Omega_i}
 
 $$
-
 
 
 where <math> \Pi_D </math> is the piecewise constant reconstruction operator, <math> u_i </math> are the basis functions, and <math> \Omega_i </math> are disjoint subsets of the domain <math> \Omega </math>.
@@ -2615,13 +2586,11 @@ Large deformation analysis is necessary when the deformation of a solid or fluid
 To account for large deformations, we introduce the concept of incremental deformations. This method involves superposing a small displacement <math> \delta{\bf x} </math> on the finite deformation basic solution <math> {\bf x}^0</math>. This can be expressed as:
 
 
-
 $$
 
 \bar{\bf x} = {\bf x}^0 + \delta{\bf x} = \chi^1({\bf x}^0)
 
 $$
-
 
 
 where <math> \bar{\bf x} </math> is the perturbed position and <math> \chi^1({\bf x}^0) </math> maps the basic position vector <math> {\bf x}^0</math> in the perturbed configuration <math> \delta\mathcal{B}_a </math>.
@@ -2639,13 +2608,11 @@ In this method, the incremental variables are indicated by <math> \delta(\bullet
 The perturbed deformation gradient is given by:
 
 
-
 $$
 
 \mathbf{\Gamma} = {\rm grad} \,\chi^1({\bf x}^0)
 
 $$
-
 
 
 where <math> {\rm grad}</math> is the gradient operator with respect to the current configuration.
@@ -2659,13 +2626,11 @@ where <math> {\rm grad}</math> is the gradient operator with respect to the curr
 The perturbed Piola stress is given by:
 
 
-
 $$
 
 \bar{\mathcal{A}}^1 = \mathcal{A}^1 + \delta p \mathcal{A}^1_{p}
 
 $$
-
 
 
 where <math> \delta p</math> is the increment in <math> p</math> and <math> \mathcal{A}^1_{p} </math> is the derivative of the Piola stress with respect to the pressure. This allows us to account for changes in pressure during large deformations.
@@ -2683,13 +2648,11 @@ In large deformation analysis, the material properties of the solid or fluid may
 One commonly used nonlinear constitutive equation is the Neo-Hookean model, which relates the Cauchy stress <math> \sigma </math> to the deformation gradient <math> \mathbf{\Gamma} </math> and the material parameters <math> \mu </math> and <math> \lambda </math>:
 
 
-
 $$
 
 \sigma = \mu(\mathbf{\Gamma} - \mathbf{I}) + \frac{\lambda}{2}(\text{tr}(\mathbf{\Gamma}) - 3)(\mathbf{\Gamma}^{-1})^T
 
 $$
-
 
 
 where <math> \mathbf{I} </math> is the identity matrix and <math> \text{tr}(\mathbf{\Gamma}) </math> is the trace of the deformation gradient.
@@ -2699,13 +2662,11 @@ where <math> \mathbf{I} </math> is the identity matrix and <math> \text{tr}(\mat
 Another commonly used model is the Mooney-Rivlin model, which takes into account the nonlinear behavior of materials such as rubber. It is given by:
 
 
-
 $$
 
 \sigma = \mu_1(\mathbf{\Gamma} - \mathbf{I}) + \mu_2(\mathbf{\Gamma}^{-1} - \mathbf{I}) + \frac{\lambda}{2}(\text{tr}(\mathbf{\Gamma}) - 3)(\mathbf{\Gamma}^{-1})^T
 
 $$
-
 
 
 where <math> \mu_1 </math> and <math> \mu_2 </math> are material parameters.
@@ -3101,14 +3062,11 @@ The Navier-Stokes equations are a set of partial differential equations that des
 The Navier-Stokes equations are derived from the conservation of mass and momentum principles. They are given by:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} - \frac{1}{\rho} \nabla \cdot \boldsymbol{\sigma}(\mathbf{u}, p) = \mathbf{0} \quad \text{in } \Omega \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3116,15 +3074,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u} = \mathbf{g} \quad \text{on } \Gamma_D \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3132,14 +3086,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u}(\mathbf{x}, 0) = \mathbf{u}_0(\mathbf{x}) \quad \text{in } \Omega \times \{0\},
 
 $$
-
 
 
 where $\mathbf{u}$ is the velocity field, $p$ is the pressure field, $\rho$ is the fluid density, and $\boldsymbol{\sigma}$ is the Cauchy stress tensor. The boundary conditions are specified on the boundary $\Gamma = \Gamma_N \cup \Gamma_D$, where $\Gamma_D$ is the subset of $\Gamma$ where essential (Dirichlet) boundary conditions are set, and $\Gamma_N$ is the portion of the boundary where natural (Neumann) boundary conditions are considered.
@@ -3183,14 +3134,11 @@ The Navier-Stokes equations are a set of partial differential equations that des
 The Navier-Stokes equations are derived from the conservation of mass and momentum principles. They are given by:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} - \frac{1}{\rho} \nabla \cdot \boldsymbol{\sigma}(\mathbf{u}, p) = \mathbf{0} \quad \text{in } \Omega \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3198,15 +3146,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u} = \mathbf{g} \quad \text{on } \Gamma_D \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3214,14 +3158,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u}(\mathbf{x}, 0) = \mathbf{u}_0(\mathbf{x}) \quad \text{in } \Omega \times \{0\},
 
 $$
-
 
 
 where $\mathbf{u}$ is the velocity field, $p$ is the pressure field, $\rho$ is the fluid density, and $\boldsymbol{\sigma}$ is the Cauchy stress tensor. The boundary conditions are specified on the boundary $\Gamma = \Gamma_N \cup \Gamma_D$, where $\Gamma_D$ is the subset of $\Gamma$ where essential (Dirichlet) boundary conditions are set, and $\Gamma_N$ is the portion of the boundary where natural (Neumann) boundary conditions are considered.
@@ -3273,14 +3214,11 @@ The Navier-Stokes equations are a set of partial differential equations that des
 The Navier-Stokes equations are derived from the conservation of mass and momentum principles. They are given by:
 
 
-
 $$
 
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} - \frac{1}{\rho} \nabla \cdot \boldsymbol{\sigma}(\mathbf{u}, p) = \mathbf{0} \quad \text{in } \Omega \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3288,15 +3226,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u} = \mathbf{g} \quad \text{on } \Gamma_D \times (0,T],
 
 $$
-
-
 
 $$
 
@@ -3304,14 +3238,11 @@ $$
 
 $$
 
-
-
 $$
 
 \mathbf{u}(\mathbf{x}, 0) = \mathbf{u}_0(\mathbf{x}) \quad \text{in } \Omega \times \{0\},
 
 $$
-
 
 
 where $\mathbf{u}$ is the velocity field, $p$ is the pressure field, $\rho$ is the fluid density, and $\boldsymbol{\sigma}$ is the Cauchy stress tensor. The boundary conditions are specified on the boundary $\Gamma = \Gamma_N \cup \Gamma_D$, where $\Gamma_D$ is the subset of $\Gamma$ where essential (Dirichlet) boundary conditions are set, and $\Gamma_N$ is the portion of the boundary where natural (Neumann) boundary conditions are considered.
@@ -3513,14 +3444,11 @@ In this section, we will focus on the solution of the finite element equations f
 The governing equations for incompressible fluid flow include the continuity equation, the Navier-Stokes equations, and the energy equation. These equations can be written in their general form as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
 
 $$
-
-
 
 $$
 
@@ -3528,14 +3456,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left( \frac{\partial h}{\partial t} + \mathbf{v} \cdot \nabla h \right) = \nabla \cdot (\kappa \nabla T) + \mu \left( \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{v}$ is the velocity vector, $p$ is the pressure, $\sigma$ is the stress tensor, $\mathbf{g}$ is the gravitational acceleration, $h$ is the specific enthalpy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity.
@@ -3545,13 +3470,11 @@ where $\rho$ is the density, $\mathbf{v}$ is the velocity vector, $p$ is the pre
 These equations can be simplified depending on the assumptions made for the specific problem. For incompressible fluid flow, the density is assumed to be constant, and the continuity equation reduces to:
 
 
-
 $$
 
 \nabla \cdot \mathbf{v} = 0
 
 $$
-
 
 
 This equation is known as the incompressibility constraint and is a crucial aspect of solving incompressible fluid flow problems.
@@ -3561,7 +3484,6 @@ This equation is known as the incompressibility constraint and is a crucial aspe
 The Navier-Stokes equations can also be simplified for incompressible fluids by assuming that the flow is steady and the gravitational acceleration is negligible. This results in the simplified form:
 
 
-
 $$
 
 \mu \nabla^2 \mathbf{v} - \nabla p = 0
@@ -3569,9 +3491,7 @@ $$
 $$
 
 
-
 Finally, the energy equation can be simplified by neglecting thermal conduction and viscous forces, resulting in the equation:
-
 
 
 $$
@@ -3579,7 +3499,6 @@ $$
 \frac{Ds}{Dt} = 0
 
 $$
-
 
 
 This equation shows that ideal incompressible fluid flow is isentropic, meaning that there is no change in specific entropy over time.
@@ -3755,13 +3674,11 @@ Heat transfer is the process of thermal energy transfer from one body or system 
 The general equation for heat transfer can be written as:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation shows that heat transfer is related to changes in density and temperature.
@@ -3771,13 +3688,11 @@ where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy
 The equation for entropy production can be written as:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation shows that entropy production is related to thermal conduction and viscous forces.
@@ -3787,13 +3702,11 @@ where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and 
 In the case of incompressible fluids, the equation for specific entropy production simplifies to:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T)
 
 $$
-
 
 
 This equation shows that in ideal fluid flow, where thermal conduction and viscous forces are absent, the specific entropy production is zero, indicating that the flow is isentropic.
@@ -3843,13 +3756,11 @@ Heat transfer is the process of thermal energy transfer from one body or system 
 The general equation for heat transfer can be written as:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation shows that heat transfer is related to changes in density and temperature.
@@ -3859,13 +3770,11 @@ where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy
 The equation for entropy production can be written as:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation shows that entropy production is related to thermal conduction and viscous forces.
@@ -3875,13 +3784,11 @@ where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and 
 In the case of incompressible fluids, the equation for specific entropy production simplifies to:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T)
 
 $$
-
 
 
 This equation shows that in ideal fluid flow, where thermal conduction and viscous forces are absent, the specific entropy production is zero. However, in real-world scenarios, these forces cannot be neglected and must be taken into account in the finite element analysis.
@@ -3933,13 +3840,11 @@ Heat transfer is the process of thermal energy transfer from one body or system 
 The general equation for heat transfer can be written as:
 
 
-
 $$
 
 \rho d\varepsilon = \rho Tds + {p\over{\rho}}d\rho
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, and $p$ is the pressure. This equation shows that heat transfer is related to changes in density and temperature.
@@ -3949,13 +3854,11 @@ where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy
 The equation for entropy production can be written as:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity. This equation shows that entropy production is related to thermal conduction and viscous forces.
@@ -3965,13 +3868,11 @@ where $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and 
 In the case of incompressible fluids, the equation for specific entropy production simplifies to:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T)
 
 $$
-
 
 
 This equation shows that in ideal fluid flow, where thermal conduction and viscous forces are absent, the specific entropy production is zero. However, in real-world scenarios, these forces cannot be neglected and must be taken into account in the finite element analysis.
@@ -4689,13 +4590,11 @@ In this section, we will explore the application of finite element analysis (FEA
 Before delving into the specifics of FEA for plates and shells, it is important to understand the basics of this method. FEA is based on the principle of virtual work, which states that the work done by external forces on a structure is equal to the internal virtual work done by the structure's internal forces. This principle is expressed mathematically as:
 
 
-
 $$
 
 \mbox{System internal virtual work} = \sum_{e} \delta\ \mathbf{r}^T \left( \mathbf{k}^e \mathbf{r} + \mathbf{Q}^{oe} \right) = \delta\ \mathbf{r}^T \left( \sum_{e} \mathbf{k}^e \right)\mathbf{r} + \delta\ \mathbf{r}^T \sum_{e} \mathbf{Q}^{oe}
 
 $$
-
 
 
 where $\delta$ represents a virtual displacement, $\mathbf{r}$ is the displacement vector, $\mathbf{k}^e$ is the element stiffness matrix, and $\mathbf{Q}^{oe}$ is the element nodal force vector. This equation can be used to solve for the nodal displacements and internal forces of each element, which can then be combined to determine the overall behavior of the structure.
@@ -4783,7 +4682,6 @@ In this section, we will explore the application of finite element analysis (FEA
 
 
 Before delving into the specifics of FEA for plates and shells, it is important to understand the basics of this method. FEA is based on the principle of virtual work, which states that the work done by external forces on a structure is equal to the internal virtual work done by the structure's internal forces. This principle is expressed mathematically as:
-
 
 
 $$

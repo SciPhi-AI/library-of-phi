@@ -1237,9 +1237,7 @@ Expected Loss (EL) is a concept used for credit risk management to measure the a
 
 
 $$
-
 Expected Loss = Expected Exposure \times Expected Default \times Expected Severity
-
 $$
 
 
@@ -1283,9 +1281,7 @@ One of the most commonly used metrics for credit risk measurement is Expected Lo
 
 
 $$
-
 Expected Loss = Expected Exposure \times Expected Default \times Expected Severity
-
 $$
 
 
@@ -1341,9 +1337,7 @@ Expected Loss (EL) is a commonly used metric in credit risk management. It is a 
 
 
 $$
-
 Expected Loss = Expected Exposure \times Expected Default \times Expected Severity
-
 $$
 
 
@@ -2279,9 +2273,7 @@ The optimal risky portfolio can be calculated using the Capital Asset Pricing Mo
 
 
 $$
-
 E(R_i) = R_f + \beta_i(E(R_m) - R_f)
-
 $$
 
 
@@ -2353,9 +2345,7 @@ The optimal risky portfolio can be calculated using the Capital Asset Pricing Mo
 
 
 $$
-
 E(R_i) = R_f + \beta_i(E(R_m) - R_f)
-
 $$
 
 
@@ -2893,9 +2883,7 @@ To calculate historical returns, we can use the following formula:
 
 
 $$
-
 R_{hist} = \frac{1}{n}\sum_{i=1}^{n}R_i
-
 $$
 
 
@@ -2965,9 +2953,7 @@ To calculate historical returns, we can use the following formula:
 
 
 $$
-
 R_{hist} = \frac{1}{n}\sum_{i=1}^{n}R_i
-
 $$
 
 
@@ -3053,9 +3039,7 @@ To calculate historical returns, we can use the following formula:
 
 
 $$
-
 R_{hist} = \frac{1}{n}\sum_{i=1}^{n}R_i
-
 $$
 
 
@@ -3241,9 +3225,7 @@ The formula for the CAPM is as follows:
 
 
 $$
-
 E(R_i) = R_f + \beta_i(E(R_m) - R_f)
-
 $$
 
 
@@ -3485,9 +3467,7 @@ Single-factor models are one of the simplest asset pricing models, and they are 
 
 
 $$
-
 E(R_i) = R_f + \beta_i(E(R_m) - R_f)
-
 $$
 
 
@@ -3551,9 +3531,7 @@ One of the most well-known multi-factor models is the Fama-French Three-Factor M
 
 
 $$
-
 E(R_i) = R_f + \beta_i(E(R_m) - R_f) + s_i(SMB) + h_i(HML)
-
 $$
 
 
@@ -3621,9 +3599,7 @@ Mathematically, the APT model can be expressed as:
 
 
 $$
-
 E(R_i) = R_f + \sum_{j=1}^{k} \beta_{ij}F_j
-
 $$
 
 
@@ -4933,17 +4909,13 @@ Before delving into the pricing models, it is important to understand the concep
 
 
 $$
-
 \text{Call Option Payoff} = \max(S_t - K, 0)
-
 $$
 
 
 
 $$
-
 \text{Put Option Payoff} = \max(K - S_t, 0)
-
 $$
 
 
@@ -4987,17 +4959,13 @@ Before delving into the pricing models, it is important to understand the concep
 
 
 $$
-
 \text{Call Option Payoff} = \max(S_t - K, 0)
-
 $$
 
 
 
 $$
-
 \text{Put Option Payoff} = \max(K - S_t, 0)
-
 $$
 
 
@@ -5057,17 +5025,13 @@ Before delving into the pricing models, it is important to understand the concep
 
 
 $$
-
 \text{Call Option Payoff} = \max(S_t - K, 0)
-
 $$
 
 
 
 $$
-
 \text{Put Option Payoff} = \max(K - S_t, 0)
-
 $$
 
 
@@ -5097,9 +5061,7 @@ The formula for the Black-Scholes model is as follows:
 
 
 $$
-
 C = S_tN(d_1) - Ke^{-rt}N(d_2)
-
 $$
 
 
@@ -5931,7 +5893,6 @@ Assuming we have the zero-coupon yield curve, we can find the forward rate for a
 $$r_{1,2} = \frac{1}{t_2-t_1}\left(\frac{1+r_2t_2}{1+r_1t_1}-1\right)$$
 
 
-
 Where r1 and r2 are the rates for time periods (0, t1) and (0, t2) respectively, and t1 and t2 are expressed in years.
 
 
@@ -6391,13 +6352,11 @@ The value of a futures contract is determined by the market in accordance with t
 Mathematically, this can be represented as:
 
 
-
 $$
 
 F = S e^{r(T-t)} - PV(Div)
 
 $$
-
 
 
 Where r is the risk-free rate expressed as a continuous return, and e is the base of the natural log. Note that the value of r will be slightly different in this equation compared to the one used for annualized returns, as the relationship between continuous returns and annualized returns is r<sub>c</sub> = ln(1 + r).
@@ -14509,7 +14468,6 @@ To perform sensitivity analysis, we first need to understand the concept of eige
 The results of sensitivity analysis can be expressed in terms of partial derivatives of the eigenvalues and eigenvectors with respect to the entries of the matrices. For example, the partial derivative of an eigenvalue with respect to an entry in the matrix can be calculated using the following formula:
 
 
-
 $$
 
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{K}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i} \right) = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
@@ -14517,9 +14475,7 @@ $$
 $$
 
 
-
 This formula shows that the partial derivative of an eigenvalue with respect to an entry in the matrix is equal to the product of the corresponding entries in the eigenvector and a constant term. Similarly, the partial derivative of an eigenvector with respect to an entry in the matrix can be calculated using the following formula:
-
 
 
 $$

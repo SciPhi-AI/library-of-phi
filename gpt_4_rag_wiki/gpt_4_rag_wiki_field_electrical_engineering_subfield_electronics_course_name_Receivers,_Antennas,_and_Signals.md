@@ -1312,9 +1312,7 @@ The Z-Transform of a discrete-time signal $x[n]$ is defined as:
 
 
 $$
-
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
-
 $$
 
 
@@ -1986,7 +1984,6 @@ The most common sources of internal noise in receivers include:
 
 
     $$
-
     N_0 = kT
 
     $$
@@ -2112,13 +2109,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is a fundamental aspect of e
 The power of thermal noise, $P_n$, is given by the formula:
 
 
-
 $$
 
 P_n = kTB
 
 $$
-
 
 
 where:
@@ -2154,13 +2149,11 @@ As mentioned in the previous section, thermal noise is a type of white noise, wh
 The power spectrum of a signal is a representation of how the power of the signal is distributed over different frequencies. For thermal noise, the power spectrum, $S_n(f)$, is given by:
 
 
-
 $$
 
 S_n(f) = kT
 
 $$
-
 
 
 where:
@@ -2204,13 +2197,11 @@ The receiver's primary function is to extract the desired signal from the receiv
 Given that the power of thermal noise, $P_n$, is proportional to the bandwidth, $B$, and the temperature, $T$, as given by the equation:
 
 
-
 $$
 
 P_n = kTB
 
 $$
-
 
 
 where:
@@ -2232,13 +2223,11 @@ To manage this trade-off, receiver designers often use techniques such as filter
 However, it is important to note that these techniques can only mitigate, but not eliminate, the impact of thermal noise. The presence of thermal noise sets a fundamental limit on the performance of receivers, known as the Shannon limit. According to Shannon's theorem, the maximum data rate that can be achieved in a communication channel with a given bandwidth and SNR is given by:
 
 
-
 $$
 
 C = B \log_2(1 + \text{SNR})
 
 $$
-
 
 
 where:
@@ -2268,13 +2257,11 @@ The Noise Figure (NF) is a key parameter that quantifies the degradation of the 
 Mathematically, the noise figure is defined as the ratio of the input SNR to the output SNR of a device, expressed in decibels (dB):
 
 
-
 $$
 
 NF = 10 \log_{10} \left( \frac{SNR_{in}}{SNR_{out}} \right)
 
 $$
-
 
 
 where:
@@ -2308,13 +2295,11 @@ The noise temperature, $T_n$, of a device is a measure of the amount of thermal 
 Mathematically, the noise temperature is related to the noise figure by the following equation:
 
 
-
 $$
 
 T_n = (F - 1)T_0
 
 $$
-
 
 
 where:
@@ -2348,13 +2333,11 @@ The signal power can often be measured directly, or it can be calculated from th
 However, the noise power can be estimated from the noise figure and the noise temperature, using the following equation:
 
 
-
 $$
 
 P_n = kT_nB
 
 $$
-
 
 
 where:
@@ -2392,13 +2375,11 @@ The concept of noise temperature is a fundamental aspect of understanding noise 
 The noise temperature is not a physical temperature, but rather a parameter that quantifies the noise power in terms of an equivalent temperature. It is defined as the temperature at which a resistor would need to be heated in order to generate the same amount of thermal noise power. This is given by the equation:
 
 
-
 $$
 
 T_n = \frac{P_n}{kB}
 
 $$
-
 
 
 where:
@@ -2514,13 +2495,11 @@ The noise figure (NF) of an amplifier is a measure of the degradation of the sig
 The noise figure is typically expressed in decibels (dB) and is given by the equation:
 
 
-
 $$
 
 NF = 10 \log_{10} \left( \frac{SNR_{in}}{SNR_{out}} \right)
 
 $$
-
 
 
 where:
@@ -2556,13 +2535,11 @@ The primary effect of amplifier noise on receiver performance is a reduction in 
 The SNR at the receiver output can be expressed as:
 
 
-
 $$
 
 SNR_{out} = \frac{SNR_{in}}{NF}
 
 $$
-
 
 
 where:
@@ -2714,13 +2691,11 @@ Understanding receiver sensitivity is crucial for anyone involved in the design,
 As we delve into the topic, we will use mathematical expressions and equations to describe and analyze receiver sensitivity. For instance, the receiver sensitivity, often denoted as $S_{min}$, can be calculated using the formula:
 
 
-
 $$
 
 S_{min} = kTB + NF + SNR_{min}
 
 $$
-
 
 
 where $k$ is Boltzmann's constant, $T$ is the absolute temperature, $B$ is the bandwidth, $NF$ is the noise figure, and $SNR_{min}$ is the minimum acceptable signal-to-noise ratio.
@@ -2746,13 +2721,11 @@ The minimum detectable signal power, often denoted as $P_{min}$, is a crucial co
 The minimum detectable signal power is a function of the receiver's noise figure, its bandwidth, and the minimum acceptable signal-to-noise ratio. It can be calculated using the following formula:
 
 
-
 $$
 
 P_{min} = kTB + NF + SNR_{min}
 
 $$
-
 
 
 where $k$ is Boltzmann's constant, $T$ is the absolute temperature, $B$ is the bandwidth, $NF$ is the noise figure, and $SNR_{min}$ is the minimum acceptable signal-to-noise ratio. 
@@ -2878,13 +2851,11 @@ In conclusion, improving the minimum detectable signal power involves a combinat
 The Signal-to-Noise Ratio (SNR) is a key parameter in the field of communication systems, including receivers, antennas, and signals. It is a measure that quantifies the level of a desired signal to the level of background noise. It is typically expressed in decibels (dB) and is defined as:
 
 
-
 $$
 
 SNR_{dB} = 10 \log_{10} \left( \frac{P_{signal}}{P_{noise}} \right)
 
 $$
-
 
 
 where $P_{signal}$ is the power of the signal and $P_{noise}$ is the power of the noise. 
@@ -2994,13 +2965,11 @@ Receiver sensitivity is a critical parameter in the design and performance of a 
 The sensitivity of a receiver can be calculated using the following formula:
 
 
-
 $$
 
 Sensitivity = kTB + NF + SNR
 
 $$
-
 
 
 where:
@@ -3070,14 +3039,11 @@ Let's consider an example where we have a receiver with a bandwidth of $2 \times
 First, we need to convert the noise figure and signal-to-noise ratio from dB to linear scale. This can be done using the following formula:
 
 
-
 $$
 
 NF_{linear} = 10^{(NF_{dB}/10)}
 
 $$
-
-
 
 $$
 
@@ -3086,9 +3052,7 @@ SNR_{linear} = 10^{(SNR_{dB}/10)}
 $$
 
 
-
 Substituting the given values, we get:
-
 
 
 $$
@@ -3097,8 +3061,6 @@ NF_{linear} = 10^{(10/10)} = 10
 
 $$
 
-
-
 $$
 
 SNR_{linear} = 10^{(20/10)} = 100
@@ -3106,9 +3068,7 @@ SNR_{linear} = 10^{(20/10)} = 100
 $$
 
 
-
 Next, we substitute these values, along with the values of $k$, $T$, and $B$, into the sensitivity formula:
-
 
 
 $$
@@ -3118,9 +3078,7 @@ Sensitivity = kTB + NF + SNR
 $$
 
 
-
 Substituting the values, we get:
-
 
 
 $$
@@ -3128,7 +3086,6 @@ $$
 Sensitivity = (1.38 \times 10^{-23} \times 290 \times 2 \times 10^6) + 10 + 100
 
 $$
-
 
 
 After performing the calculation, we find that the sensitivity of the receiver is approximately -174 dBm.
@@ -3250,13 +3207,11 @@ The data rate of a receiver is the rate at which it can process data. It is typi
 The bandwidth of a receiver affects the data rate because the maximum data rate that a receiver can handle is proportional to its bandwidth. This is due to the Shannon-Hartley theorem, which states that the maximum data rate $C$ of a channel with bandwidth $B$ and SNR $S$ is given by:
 
 
-
 $$
 
 C = B \log_2(1 + S)
 
 $$
-
 
 
 Therefore, increasing the bandwidth of a receiver will increase its maximum data rate. However, as mentioned above, a larger bandwidth also increases the noise power, which can decrease the SNR and therefore decrease the actual data rate.
@@ -3478,13 +3433,11 @@ Spectral analysis is based on the fundamental concept of representing a signal i
 The most common method for spectral analysis is the Fourier Transform, named after the French mathematician Jean-Baptiste Joseph Fourier. The Fourier Transform is a mathematical technique that transforms a function of time, a time signal, into a function of frequency, called a frequency spectrum. The Fourier Transform of a signal $x(t)$ is given by:
 
 
-
 $$
 
 X(f) = \int_{-\infty}^{\infty} x(t) e^{-j2\pi ft} dt
 
 $$
-
 
 
 where $X(f)$ is the Fourier Transform of $x(t)$, $f$ is the frequency, and $j$ is the imaginary unit. The exponential term $e^{-j2\pi ft}$ is a complex exponential that represents a sinusoidal signal of frequency $f$.
@@ -3530,13 +3483,11 @@ The Power Spectral Density (PSD) is another important tool in spectral analysis.
 The PSD of a signal $x(t)$ is defined as the Fourier Transform of the autocorrelation function $R_x(\tau)$ of the signal:
 
 
-
 $$
 
 P(f) = \int_{-\infty}^{\infty} R_x(\tau) e^{-j2\pi f\tau} d\tau
 
 $$
-
 
 
 where $P(f)$ is the PSD, $R_x(\tau)$ is the autocorrelation function, and $\tau$ is the time lag.
@@ -3626,13 +3577,11 @@ In the context of receivers, antennas, and signals, gain is a key parameter that
 The gain of a receiver or an antenna can be calculated using the following formula:
 
 
-
 $$
 
 G = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)
 
 $$
-
 
 
 where $G$ is the gain in dB, $P_{out}$ is the power of the output signal, and $P_{in}$ is the power of the input signal. 
@@ -3658,13 +3607,11 @@ In the following sections, we will delve deeper into the factors affecting gain,
 The calculation of receiver gain is a crucial aspect of understanding the performance of a receiver. As previously mentioned, the gain of a receiver is calculated using the formula:
 
 
-
 $$
 
 G = 10 \cdot \log_{10}\left(\frac{P_{out}}{P_{in}}\right)
 
 $$
-
 
 
 However, in practical scenarios, the power of the input and output signals, $P_{in}$ and $P_{out}$, respectively, are not always readily available. Therefore, it is necessary to use other methods to measure these values.
@@ -3758,13 +3705,11 @@ There are several techniques for measuring the noise figure of a receiver. These
 Direct methods involve measuring the noise output of the receiver when it is terminated with a known noise source. The most common direct method is the Y-factor method. In this method, the receiver is first terminated with a cold load (a load at a known low temperature) and then with a hot load (a load at a known high temperature). The noise output of the receiver is measured in both cases, and the noise figure is calculated using the following formula:
 
 
-
 $$
 
 NF = T_{ref}/(Y-1)
 
 $$
-
 
 
 where $T_{ref}$ is the reference temperature (usually 290K), and $Y$ is the ratio of the receiver's output noise power when terminated with the hot load to its output noise power when terminated with the cold load.
@@ -3778,13 +3723,11 @@ where $T_{ref}$ is the reference temperature (usually 290K), and $Y$ is the rati
 Indirect methods involve measuring the receiver's output noise power for a known input signal power and then calculating the noise figure from these measurements. One common indirect method is the gain method. In this method, the gain of the receiver is measured for a known input signal power, and the output noise power is measured for the same input signal power. The noise figure is then calculated using the following formula:
 
 
-
 $$
 
 NF = (P_{out}/G) - P_{in}
 
 $$
-
 
 
 where $P_{out}$ is the output noise power, $G$ is the gain of the receiver, and $P_{in}$ is the input signal power.
@@ -3870,13 +3813,11 @@ The first step in the analysis of noise figure measurements is data validation. 
 Once the measurements have been validated, the next step is data processing. This involves converting the raw measurements into a form that can be used to calculate the noise figure. For example, the output noise power measurements might need to be converted from dBm to watts. This can be done using the formula:
 
 
-
 $$
 
 P = 10^{(P_{dBm}/10)} \times 0.001
 
 $$
-
 
 
 where $P$ is the power in watts and $P_{dBm}$ is the power in dBm.
@@ -3894,13 +3835,11 @@ The final step in the analysis of noise figure measurements is the noise figure 
 For example, in the Y-factor method, the noise figure can be calculated using the formula:
 
 
-
 $$
 
 NF = 10 \times \log_{10}\left(\frac{Y - 1}{G}\right)
 
 $$
-
 
 
 where $NF$ is the noise figure in dB, $Y$ is the Y-factor (the ratio of the output noise power with the noise source on to the output noise power with the noise source off), and $G$ is the gain of the receiver in linear scale.
@@ -4298,7 +4237,6 @@ The scattering parameters, often denoted as $S$-parameters, are a set of complex
 The $S$-parameters are typically represented in a matrix form, known as the $S$-matrix. For a two-port network, the $S$-matrix is given by:
 
 
-
 $$
 
 S = \begin{bmatrix}
@@ -4310,7 +4248,6 @@ S_{21} & S_{22}
 \end{bmatrix}
 
 $$
-
 
 
 where $S_{11}$ and $S_{22}$ represent the reflection coefficients at the input and output ports, respectively, and $S_{12}$ and $S_{21}$ represent the transmission coefficients from the input to the output port and vice versa.
@@ -4336,7 +4273,6 @@ In the analysis of multiport networks, the primary goal is to determine the beha
 The $S$-parameters can be used to predict the response of the network to any given set of input signals. For example, if we know the $S$-parameters of a two-port network and the signal at the input port, we can calculate the signal at the output port using the following equation:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -4358,7 +4294,6 @@ I_{in}
 \end{bmatrix}
 
 $$
-
 
 
 where $V_{in}$ and $I_{in}$ are the voltage and current at the input port, and $V_{out}$ and $I_{out}$ are the voltage and current at the output port.
@@ -4392,13 +4327,11 @@ Multiport networks find extensive applications in the design and operation of mu
 High sensitivity in a receiver is crucial for detecting weak signals. This can be achieved by designing the multiport network such that the $S$-parameters are optimized for maximum power transfer. This involves matching the impedance of the network to the source and load impedances, which can be done using the impedance parameters of the network. For a two-port network, the condition for maximum power transfer is given by:
 
 
-
 $$
 
 Z_{in} = Z_{source}^* \quad and \quad Z_{out} = Z_{load}^*
 
 $$
-
 
 
 where $Z_{in}$ and $Z_{out}$ are the input and output impedances of the network, and $Z_{source}^*$ and $Z_{load}^*$ are the complex conjugates of the source and load impedances.
@@ -4440,13 +4373,11 @@ The noise figure (NF) of a receiver is a key parameter that quantifies its noise
 The noise figure of a multiport receiver can be calculated using the following formula:
 
 
-
 $$
 
 NF = 10 \log_{10} \left( \frac{SNR_{in}}{SNR_{out}} \right)
 
 $$
-
 
 
 where $SNR_{in}$ and $SNR_{out}$ are the input and output signal-to-noise ratios, respectively.
@@ -4460,13 +4391,11 @@ The input SNR is determined by the power of the received signal and the noise po
 The noise added by the receiver is primarily due to the thermal noise of the receiver components and the noise figure of the receiver. The thermal noise power can be calculated using the following formula:
 
 
-
 $$
 
 P_{n,thermal} = kTB
 
 $$
-
 
 
 where $k$ is Boltzmann's constant, $T$ is the absolute temperature, and $B$ is the bandwidth of the receiver.
@@ -4492,13 +4421,11 @@ The noise figure (NF) of a multiport receiver has a significant impact on the pe
 The impact of the noise figure on the performance of a multiport receiver can be understood by considering its effect on the SNR. The SNR at the output of the receiver is given by:
 
 
-
 $$
 
 SNR_{out} = \frac{SNR_{in}}{NF}
 
 $$
-
 
 
 where $SNR_{in}$ is the input SNR and $NF$ is the noise figure of the receiver. As the noise figure increases, the output SNR decreases, leading to a degradation in the quality of the received signal.
@@ -4572,13 +4499,11 @@ Phase noise, often denoted as $L(f)$, is typically defined as the spectral densi
 The phase noise of a signal can be represented as:
 
 
-
 $$
 
 L(f) = 10 \log_{10} \left( \frac{P_{noise}(f)}{P_{signal}} \right)
 
 $$
-
 
 
 where $P_{noise}(f)$ is the noise power at an offset frequency $f$ from the carrier, and $P_{signal}$ is the total power of the carrier signal.
@@ -4836,7 +4761,6 @@ The basic principle of optical detection is the interaction of light with matter
 The process of optical detection can be described mathematically using the photoelectric effect, which was first explained by Albert Einstein in 1905. According to the photoelectric effect, when light of a certain frequency (or, equivalently, a certain wavelength) hits a material, it can excite electrons in the material to higher energy levels. If the energy of the light is high enough, the electrons can be ejected from the material, creating an electric current. This can be represented by the equation:
 
 
-
 $$
 
 E = h \nu
@@ -4844,9 +4768,7 @@ E = h \nu
 $$
 
 
-
 where $E$ is the energy of the light, $h$ is Planck's constant, and $\nu$ is the frequency of the light. The energy $E$ is also related to the wavelength $\lambda$ of the light by the equation:
-
 
 
 $$
@@ -4854,7 +4776,6 @@ $$
 E = \frac{hc}{\lambda}
 
 $$
-
 
 
 where $c$ is the speed of light.
@@ -5020,13 +4941,11 @@ When light, composed of photons, strikes the surface of a photodetector, it can 
 The emitted electrons create an electric current, which can be measured to determine the intensity of the light. The relationship between the light intensity and the generated current is given by the equation:
 
 
-
 $$
 
 I = q \cdot \eta \cdot P_{in} / h \cdot \nu
 
 $$
-
 
 
 where $I$ is the photocurrent, $q$ is the elementary charge, $\eta$ is the quantum efficiency of the detector, $P_{in}$ is the incident optical power, $h$ is Planck's constant, and $\nu$ is the frequency of the light.
@@ -5048,13 +4967,11 @@ When the diode is in reverse bias, an electric field is established across the j
 The operation of a photodiode can be described by the equation:
 
 
-
 $$
 
 I = I_{dark} + q \cdot \eta \cdot P_{in} / h \cdot \nu
 
 $$
-
 
 
 where $I_{dark}$ is the dark current (the current that flows when no light is incident on the diode), and the other symbols have the same meanings as before.
@@ -5220,13 +5137,11 @@ The sensitivity of an optical receiver is defined as the minimum optical power r
 The sensitivity ($S$) can be calculated using the following formula:
 
 
-
 $$
 
 S = \frac{h \cdot c}{\lambda \cdot \eta \cdot R}
 
 $$
-
 
 
 where $h$ is Planck's constant, $c$ is the speed of light, $\lambda$ is the wavelength of the incoming light, $\eta$ is the quantum efficiency of the photodetector, and $R$ is the bit rate.
@@ -5772,13 +5687,11 @@ The radiation pattern of an antenna array is determined by the relative position
 The gain of an antenna array is typically greater than that of a single antenna. This is because the signals from the individual elements combine constructively in the desired direction, resulting in a higher signal strength. The gain of an antenna array can be calculated using the formula:
 
 
-
 $$
 
 G = N \cdot G_{0}
 
 $$
-
 
 
 where $G$ is the gain of the array, $N$ is the number of elements in the array, and $G_{0}$ is the gain of a single element.
@@ -5824,13 +5737,11 @@ The phase and amplitude of the signals fed to each element are critical paramete
 The phase difference, denoted as $\Delta \phi$, can be calculated using the formula:
 
 
-
 $$
 
 \Delta \phi = \frac{2\pi d}{\lambda} \sin(\theta)
 
 $$
-
 
 
 where $d$ is the distance between the elements, $\lambda$ is the wavelength of the signal, and $\theta$ is the angle of the desired direction relative to the array.
@@ -5920,13 +5831,11 @@ The gain of an antenna is a measure of its ability to direct input power into ra
 Mathematically, the gain $G$ of an antenna is defined as the ratio of the intensity (power per unit surface) radiated by the antenna in a given direction to the intensity radiated by an isotropic antenna (an idealized antenna that radiates power uniformly in all directions) with the same total power input. It can be expressed as:
 
 
-
 $$
 
 G = \frac{U}{U_0}
 
 $$
-
 
 
 where $U$ is the radiation intensity of the antenna in a given direction and $U_0$ is the radiation intensity of an isotropic antenna.
@@ -5968,13 +5877,11 @@ The measurement of antenna gain and radiation pattern is a critical process in a
 The gain of an antenna is typically measured using a reference antenna with a known gain. The reference antenna and the test antenna are placed at a known distance apart, and the power received by the reference antenna is measured. The gain of the test antenna can then be calculated using the Friis transmission formula:
 
 
-
 $$
 
 P_r = \frac{P_t G_t G_r (\lambda / (4 \pi d))^2}{L}
 
 $$
-
 
 
 where $P_r$ is the received power, $P_t$ is the transmitted power, $G_t$ is the gain of the transmitting antenna, $G_r$ is the gain of the receiving antenna, $\lambda$ is the wavelength, $d$ is the distance between the antennas, and $L$ is the system loss.
@@ -6200,13 +6107,11 @@ Wire antennas, despite their apparent simplicity, operate based on complex princ
 The performance of a wire antenna is influenced by several factors, including its length, shape, and the material from which it is made. The length of the antenna, in particular, is crucial as it determines the antenna's resonant frequency. The resonant frequency is the frequency at which the antenna is most efficient at transmitting or receiving signals. For a simple dipole antenna, the resonant frequency $f_r$ can be calculated using the formula:
 
 
-
 $$
 
 f_r = \frac{c}{2L}
 
 $$
-
 
 
 where $c$ is the speed of light and $L$ is the length of the antenna.
@@ -6244,13 +6149,11 @@ The radiation pattern of a wire antenna is determined by its shape and size. As 
 The radiation resistance of a wire antenna is a measure of its efficiency in converting electrical power into radiated power. It can be calculated using the formula:
 
 
-
 $$
 
 R_r = \frac{P_r}{I^2}
 
 $$
-
 
 
 where $P_r$ is the radiated power and $I$ is the current at the feed point of the antenna.
@@ -6264,13 +6167,11 @@ where $P_r$ is the radiated power and $I$ is the current at the feed point of th
 The impedance of a wire antenna is a complex quantity that represents the ratio of the voltage to the current at the feed point of the antenna. It is composed of the radiation resistance and the reactance, which is a measure of the antenna's reactance to changes in current or voltage. The impedance $Z$ can be expressed as:
 
 
-
 $$
 
 Z = R_r + jX
 
 $$
-
 
 
 where $R_r$ is the radiation resistance and $X$ is the reactance.
@@ -6284,13 +6185,11 @@ where $R_r$ is the radiation resistance and $X$ is the reactance.
 A wire antenna is resonant when the reactance is zero, which means that the impedance is purely resistive. At resonance, the antenna is most efficient at transmitting or receiving signals. The resonant frequency $f_r$ can be calculated using the formula:
 
 
-
 $$
 
 f_r = \frac{c}{2L}
 
 $$
-
 
 
 where $c$ is the speed of light and $L$ is the length of the antenna.
@@ -6396,13 +6295,11 @@ In the following subsections, we will delve deeper into the characteristics, typ
 Designing a dipole antenna involves several considerations, including the frequency of operation, the antenna's physical size, and the environment in which it will be used. The primary design parameter is the antenna's length, which should be approximately half the wavelength of the operating frequency. This length can be calculated using the formula:
 
 
-
 $$
 
 L = \frac{c}{2f}
 
 $$
-
 
 
 where `L` is the length of the antenna, `c` is the speed of light (approximately $3 \times 10^8$ m/s), and `f` is the frequency of operation.
@@ -6508,13 +6405,11 @@ Designing a loop antenna involves several considerations, including the size of 
 The size of the loop is inversely proportional to the frequency of operation. For a single-turn loop antenna, the circumference of the loop is typically less than one-tenth of the wavelength of the signal. This can be expressed as:
 
 
-
 $$
 
 C < \frac{\lambda}{10}
 
 $$
-
 
 
 where $C$ is the circumference of the loop and $\lambda$ is the wavelength of the signal.
@@ -6608,13 +6503,11 @@ Antenna impedance is a critical parameter in the design and operation of antenna
 Mathematically, the impedance $Z$ of an antenna can be expressed as:
 
 
-
 $$
 
 Z = R + jX
 
 $$
-
 
 
 where $R$ is the resistance, $X$ is the reactance, and $j$ is the imaginary unit.
@@ -6688,13 +6581,11 @@ Impedance matching plays a significant role in the overall performance of an ant
 As discussed in the previous sections, impedance matching is crucial for maximizing power transfer between the source and the antenna. When the impedance of the antenna matches the impedance of the source, the power transfer is maximized. This is due to the maximum power transfer theorem, which states that maximum power is transferred when the load impedance is equal to the complex conjugate of the source impedance. Mathematically, this can be represented as:
 
 
-
 $$
 
 Z_{load} = Z_{source}^*
 
 $$
-
 
 
 where $Z_{load}$ is the load impedance, $Z_{source}$ is the source impedance, and the asterisk denotes the complex conjugate.
@@ -7020,7 +6911,6 @@ The flare angle of the horn is another critical parameter. It affects the impeda
 The design of horn antennas involves several equations that relate the antenna's parameters to its performance characteristics. For instance, the gain $G$ of a horn antenna can be approximated by the equation:
 
 
-
 $$
 
 G \approx \frac{4\pi A}{\lambda^2}
@@ -7028,9 +6918,7 @@ G \approx \frac{4\pi A}{\lambda^2}
 $$
 
 
-
 where $A$ is the aperture area of the horn and $\lambda$ is the wavelength of the signal. The beamwidth $\theta$ of the antenna, on the other hand, can be approximated by the equation:
-
 
 
 $$
@@ -7038,7 +6926,6 @@ $$
 \theta \approx \frac{70\lambda}{D}
 
 $$
-
 
 
 where $D$ is the diameter of the horn's aperture.
@@ -7152,13 +7039,11 @@ The diameter of the reflector, denoted as $D$, is a critical parameter that dete
 The gain of a parabolic antenna can be approximated by the formula:
 
 
-
 $$
 
 G = \frac{4\pi A}{\lambda^2}
 
 $$
-
 
 
 where $A$ is the area of the reflector and $\lambda$ is the wavelength of the operating frequency. For a circular parabolic reflector, $A = \pi (D/2)^2$.
@@ -7288,13 +7173,11 @@ Designing a slot antenna involves several considerations, including the size and
 The length of the slot, $L$, is approximately half the wavelength, $\lambda$, of the desired frequency of operation, $f$, in the medium. This can be calculated using the formula:
 
 
-
 $$
 
 L = \frac{\lambda}{2} = \frac{c}{2f}
 
 $$
-
 
 
 where $c$ is the speed of light in the medium. For air or vacuum, $c$ is approximately $3 \times 10^8$ m/s.
@@ -7532,7 +7415,6 @@ Mathematically, the polarization of an electromagnetic wave can be described usi
 For example, a horizontally polarized wave can be represented by the Jones vector:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -7546,9 +7428,7 @@ $$
 $$
 
 
-
 And a vertically polarized wave can be represented by the Jones vector:
-
 
 
 $$
@@ -7562,7 +7442,6 @@ $$
 \end{bmatrix}
 
 $$
-
 
 
 In the next subsection, we will delve into the importance of polarization in the context of antennas and signal propagation.
@@ -7588,7 +7467,6 @@ In linear polarization, the electric field vector oscillates along a single plan
 For instance, a horizontally polarized wave can be represented by the Jones vector:
 
 
-
 $$
 
 \begin{bmatrix}
@@ -7602,9 +7480,7 @@ $$
 $$
 
 
-
 And a vertically polarized wave can be represented by the Jones vector:
-
 
 
 $$
@@ -7620,7 +7496,6 @@ $$
 $$
 
 
-
 ##### Circular Polarization
 
 
@@ -7630,7 +7505,6 @@ In circular polarization, the electric field vector rotates in a circular motion
 
 
 The Jones vectors for right-hand and left-hand circularly polarized waves are, respectively:
-
 
 
 $$
@@ -7646,9 +7520,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -7662,7 +7534,6 @@ i
 \end{bmatrix}
 
 $$
-
 
 
 ##### Elliptical Polarization
@@ -7700,13 +7571,11 @@ For instance, if a linearly polarized signal is transmitted and the receiver ant
 Mathematically, the power loss due to polarization mismatch can be represented as:
 
 
-
 $$
 
 P_{loss} = |E_{transmitted} \cdot E_{received}|^2
 
 $$
-
 
 
 where $E_{transmitted}$ and $E_{received}$ are the electric field vectors of the transmitted and received signals, respectively.
@@ -7724,13 +7593,11 @@ Polarization-dependent loss (PDL) is another factor that can affect system perfo
 The PDL can be calculated using the following formula:
 
 
-
 $$
 
 PDL = 10 \log_{10} \left( \frac{P_{max}}{P_{min}} \right)
 
 $$
-
 
 
 where $P_{max}$ and $P_{min}$ are the maximum and minimum power levels of the signal, respectively.
@@ -7764,13 +7631,11 @@ The sensitivity of a receiver to the polarization of the incoming signal is a cr
 The polarization sensitivity of a receiver can be quantified using the axial ratio, which is defined as the ratio of the major axis to the minor axis of the polarization ellipse. The axial ratio is given by:
 
 
-
 $$
 
 AR = \frac{E_{max}}{E_{min}}
 
 $$
-
 
 
 where $E_{max}$ and $E_{min}$ are the maximum and minimum electric field strengths of the received signal, respectively. A lower axial ratio indicates a higher polarization sensitivity.
@@ -7788,13 +7653,11 @@ Polarization distortion occurs when the polarization state of the received signa
 The degree of polarization distortion can be measured using the polarization error ratio (PER), which is defined as the ratio of the power received in the desired polarization state to the power received in the undesired polarization state. The PER is given by:
 
 
-
 $$
 
 PER = \frac{P_{desired}}{P_{undesired}}
 
 $$
-
 
 
 where $P_{desired}$ and $P_{undesired}$ are the power levels of the received signal in the desired and undesired polarization states, respectively. A higher PER indicates a lower degree of polarization distortion.
@@ -7820,13 +7683,11 @@ Polarization mismatch occurs when the polarization of the incoming signal does n
 The polarization mismatch loss (PML) can be quantified using the following equation:
 
 
-
 $$
 
 PML = 20 \log_{10} \left| \cos(\theta_{tx} - \theta_{rx}) \right|
 
 $$
-
 
 
 where $\theta_{tx}$ and $\theta_{rx}$ are the polarization angles of the transmitted and received signals, respectively. The PML is expressed in decibels (dB) and indicates the power loss due to polarization mismatch.
@@ -8056,7 +7917,6 @@ The basic components of a PLL include a phase detector, a low-pass filter, and a
 The operation of a PLL can be described mathematically as follows. Let's denote the input signal as $x(t)$ and the output signal as $y(t)$. The phase detector generates an error signal $e(t)$ given by:
 
 
-
 $$
 
 e(t) = K_d \cdot \sin(\phi_x(t) - \phi_y(t))
@@ -8064,9 +7924,7 @@ e(t) = K_d \cdot \sin(\phi_x(t) - \phi_y(t))
 $$
 
 
-
 where $K_d$ is the gain of the phase detector, $\phi_x(t)$ is the phase of the input signal, and $\phi_y(t)$ is the phase of the output signal. The error signal $e(t)$ is then filtered by the low-pass filter to produce a control voltage $v(t)$, which is given by:
-
 
 
 $$
@@ -8076,9 +7934,7 @@ v(t) = \int e(t) dt
 $$
 
 
-
 The control voltage $v(t)$ is used to adjust the frequency of the VCO, which is given by:
-
 
 
 $$
@@ -8086,7 +7942,6 @@ $$
 f_y(t) = f_0 + K_v \cdot v(t)
 
 $$
-
 
 
 where $f_0$ is the free-running frequency of the VCO and $K_v$ is the gain of the VCO. The phase of the output signal $\phi_y(t)$ is then the integral of the frequency $f_y(t)$.
@@ -8448,13 +8303,11 @@ Shannon's theorem, also known as the Shannon-Hartley theorem, provides a formula
 The theorem states that the channel capacity $C$ (in bits per second) of a communication channel is given by:
 
 
-
 $$
 
 C = B \log_2 (1 + SNR)
 
 $$
-
 
 
 where $B$ is the bandwidth of the channel (in hertz), and $SNR$ is the signal-to-noise ratio.
@@ -9184,13 +9037,11 @@ There are three primary types of analog modulation: Amplitude Modulation (AM), F
 Amplitude Modulation (AM) is a modulation technique where the amplitude of the carrier signal is varied in proportion to the instantaneous amplitude of the message signal. The frequency and phase remain constant. This is mathematically represented as:
 
 
-
 $$
 
 s(t) = (A + m(t)) \cos(2\pi f_c t + \phi)
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal, $m(t)$ is the message signal, $f_c$ is the carrier frequency, and $\phi$ is the phase of the carrier signal.
@@ -9204,13 +9055,11 @@ where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal
 Frequency Modulation (FM) is a modulation technique where the frequency of the carrier signal is varied in accordance with the instantaneous amplitude of the message signal. The amplitude and phase remain constant. This is mathematically represented as:
 
 
-
 $$
 
 s(t) = A \cos(2\pi f_c t + \int m(\tau) d\tau)
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal, $m(t)$ is the message signal, $f_c$ is the carrier frequency, and $\int m(\tau) d\tau$ is the integral of the message signal.
@@ -9224,13 +9073,11 @@ where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal
 Phase Modulation (PM) is a modulation technique where the phase of the carrier signal is varied in accordance with the instantaneous amplitude of the message signal. The amplitude and frequency remain constant. This is mathematically represented as:
 
 
-
 $$
 
 s(t) = A \cos(2\pi f_c t + m(t))
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal, $m(t)$ is the message signal, and $f_c$ is the carrier frequency.
@@ -9248,13 +9095,11 @@ In the following sections, we will delve deeper into each of these modulation sc
 Phase Modulation (PM) is a modulation technique where the phase of the carrier signal is varied in accordance with the instantaneous amplitude of the message signal. The amplitude and frequency remain constant. This is mathematically represented as:
 
 
-
 $$
 
 s(t) = A \cos(2\pi f_c t + m(t))
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal, $m(t)$ is the message signal, $f_c$ is the carrier frequency, and $m(t)$ is the phase deviation due to the message signal.
@@ -9268,13 +9113,11 @@ where $s(t)$ is the modulated signal, $A$ is the amplitude of the carrier signal
 Quadrature Amplitude Modulation (QAM) is a modulation scheme which involves the mixing of Amplitude Modulation (AM) and Phase Modulation (PM) to form a single channel. It is a combination of two AM signals, but they are out of phase with each other by 90 degrees. This is mathematically represented as:
 
 
-
 $$
 
 s(t) = I(t) \cos(2\pi f_c t) - Q(t) \sin(2\pi f_c t)
 
 $$
-
 
 
 where $s(t)$ is the modulated signal, $I(t)$ and $Q(t)$ are the in-phase and quadrature-phase components of the message signal, and $f_c$ is the carrier frequency.
@@ -9360,13 +9203,11 @@ The basic principle of AM is to superimpose the message signal onto the carrier 
 The mathematical representation of an AM signal can be written as:
 
 
-
 $$
 
 s(t) = (A + m(t)) \cos(2\pi f_c t)
 
 $$
-
 
 
 where:
@@ -9404,17 +9245,14 @@ In this section, we will analyze the process of amplitude modulation in more det
 The spectrum of an AM signal consists of the carrier frequency and two sidebands. The sidebands are located at frequencies equal to the carrier frequency plus and minus the frequency of the modulating signal. This can be represented mathematically as:
 
 
-
 $$
 
 F_{USB} = f_c + f_m
 
 $$
-
 $$
 
 F_{LSB} = f_c - f_m
-
 $$
 
 
@@ -9440,9 +9278,7 @@ The total power, $P_t$, in an AM signal is the sum of the power in the carrier, 
 
 
 $$
-
 P_t = P_c + P_s
-
 $$
 
 
@@ -9452,9 +9288,7 @@ The power in the carrier is given by:
 
 
 $$
-
 P_c = \frac{A^2}{2}
-
 $$
 
 
@@ -9468,9 +9302,7 @@ The power in the sidebands is given by:
 
 
 $$
-
 P_s = \frac{A^2 m^2}{4}
-
 $$
 
 
@@ -9488,9 +9320,7 @@ The modulation index, $m$, is a measure of the extent of variation in a carrier 
 
 
 $$
-
 m = \frac{A_m}{A_c}
-
 $$
 
 
@@ -9568,9 +9398,7 @@ The basic principle of FM can be expressed mathematically as follows:
 
 
 $$
-
 f(t) = A_c \cos(2\pi f_c t + \beta \sin(2\pi f_m t))
-
 $$
 
 
@@ -9604,9 +9432,7 @@ The frequency deviation, denoted by $\Delta f$, is the maximum change in frequen
 
 
 $$
-
 \beta = \frac{\Delta f}{f_m}
-
 $$
 
 
@@ -9624,9 +9450,7 @@ The bandwidth of an FM signal is determined by the Carson's rule, which states t
 
 
 $$
-
 B = 2(\Delta f + f_m)
-
 $$
 
 
@@ -9860,9 +9684,7 @@ The mathematical basis for SAR involves the principles of wave propagation, sign
 
 
 $$
-
 F(u,v) = \int \int f(x,y) e^{-j2\pi(ux+vy)} dx dy
-
 $$
 
 
@@ -9892,9 +9714,7 @@ The SAR system begins by transmitting a radio wave signal towards a target area.
 
 
 $$
-
 s(t) = A \cos(2\pi f_c t + \phi(t))
-
 $$
 
 
@@ -9912,9 +9732,7 @@ As the radar antenna moves along its path, it receives the signal reflected from
 
 
 $$
-
 r(t) = A \cos(2\pi f_c (t - \tau) + \phi(t - \tau))
-
 $$
 
 
@@ -9936,9 +9754,7 @@ The distance $d$ to the target can be calculated using the formula:
 
 
 $$
-
 d = c \tau / 2
-
 $$
 
 
@@ -9952,9 +9768,7 @@ The velocity $v$ of the target can be calculated using the Doppler shift formula
 
 
 $$
-
 v = c \Delta f / 2f_c
-
 $$
 
 
@@ -10528,27 +10342,19 @@ The propagation of electromagnetic waves can be described by Maxwell's equations
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac {\rho} {\varepsilon_0}
-
 $$
 
 $$
-
 \nabla \cdot \mathbf{B} = 0
-
 $$
 
 $$
-
 \nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}} {\partial t}
-
 $$
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}} {\partial t}
-
 $$
 
 
@@ -10638,9 +10444,7 @@ For instance, in dielectric materials, which are insulators, the wave's speed is
 
 
 $$
-
 v = \frac{c}{\sqrt{\epsilon_r}}
-
 $$
 
 
@@ -10674,9 +10478,7 @@ In free space propagation, the electromagnetic waves travel in straight lines an
 
 
 $$
-
 P_d = \frac{P_t}{4\pi d^2}
-
 $$
 
 
@@ -10714,9 +10516,7 @@ The distance from the source also affects the power density of the wave. As we d
 
 
 $$
-
 P_d = \frac{P_t}{4\pi d^2}
-
 $$
 
 
@@ -10802,9 +10602,7 @@ Reflection occurs when a wave strikes a surface that does not absorb the energy 
 
 
 $$
-
 \theta_i = \theta_r
-
 $$
 
 
@@ -10826,9 +10624,7 @@ Refraction, on the other hand, occurs when a wave passes from one medium to anot
 
 
 $$
-
 \frac{\sin\theta_i}{\sin\theta_r} = \frac{v_1}{v_2} = \frac{n_2}{n_1}
-
 $$
 
 
@@ -10882,9 +10678,7 @@ The amount of refraction depends on the refractive indices of the two media. The
 
 
 $$
-
 \frac{\sin\theta_i}{\sin\theta_r} = \frac{n_2}{n_1}
-
 $$
 
 
@@ -11346,9 +11140,7 @@ Mathematically, a linear estimator can be represented as follows:
 
 
 $$
-
 \hat{y} = \sum_{i=1}^{n} w_i x_i
-
 $$
 
 
@@ -11378,9 +11170,7 @@ Mathematically, the least squares estimator is given by the solution to the foll
 
 
 $$
-
 \hat{w} = \arg\min_{w} \sum_{i=1}^{n} (y_i - w^T x_i)^2
-
 $$
 
 
@@ -11426,9 +11216,7 @@ Mathematically, this can be formulated as the following optimization problem:
 
 
 $$
-
 \hat{w} = \arg\min_{w} \sum_{i=1}^{n} (y_i - w^T x_i)^2
-
 $$
 
 
@@ -11494,9 +11282,7 @@ Mathematically, this can be formulated as the following optimization problem:
 
 
 $$
-
 \hat{w} = \arg\min_{w} \sum_{i=1}^{n} (y_i - f(w, x_i))^2
-
 $$
 
 
@@ -11544,9 +11330,7 @@ The DOA estimation problem can be formulated as follows:
 
 
 $$
-
 \hat{\theta} = \arg\min_{\theta} \sum_{i=1}^{n} (y_i - g(\theta, x_i))^2
-
 $$
 
 
@@ -11576,9 +11360,7 @@ Deterministic methods are those that provide a unique solution for a given set o
 
 
 $$
-
 w_{k+1} = w_k - \alpha \nabla f(w_k)
-
 $$
 
 
@@ -11592,9 +11374,7 @@ where $w_k$ is the parameter vector at iteration $k$, $\alpha$ is the learning r
 
 
 $$
-
 w_{k+1} = w_k - H^{-1}(w_k) \nabla f(w_k)
-
 $$
 
 
@@ -11638,9 +11418,7 @@ Stochastic methods are those that incorporate randomness in the search for the o
 
 
 $$
-
 w_{k+1} = w_k + \alpha_k \delta_k
-
 $$
 
 
@@ -11706,15 +11484,11 @@ The mathematical representation of the Kalman filter is as follows:
 
 
 $$
-
 \hat{x}_{k|k-1} = A\hat{x}_{k-1|k-1} + Bu_{k}
-
 $$
 
 $$
-
 P_{k|k-1} = AP_{k-1|k-1}A^T + Q
-
 $$
 
 
@@ -11728,21 +11502,15 @@ where $\hat{x}_{k|k-1}$ is the predicted state, $A$ is the state transition mode
 
 
 $$
-
 K_k = P_{k|k-1}H^T(HP_{k|k-1}H^T + R)^{-1}
-
 $$
 
 $$
-
 \hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(z_k - H\hat{x}_{k|k-1})
-
 $$
 
 $$
-
 P_{k|k} = (I - K_kH)P_{k|k-1}
-
 $$
 
 
@@ -11772,15 +11540,11 @@ The prediction step involves the projection of the current state and uncertainty
 
 
 $$
-
 \hat{x}_{k|k-1} = A\hat{x}_{k-1|k-1} + Bu_{k}
-
 $$
 
 $$
-
 P_{k|k-1} = AP_{k-1|k-1}A^T + Q
-
 $$
 
 
@@ -11798,21 +11562,15 @@ The update step involves the incorporation of the new measurement into the predi
 
 
 $$
-
 K_k = P_{k|k-1}H^T(HP_{k|k-1}H^T + R)^{-1}
-
 $$
 
 $$
-
 \hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(z_k - H\hat{x}_{k|k-1})
-
 $$
 
 $$
-
 P_{k|k} = (I - K_kH)P_{k|k-1}
-
 $$
 
 
@@ -12510,9 +12268,7 @@ One of the primary applications of remote sensing in agriculture is crop monitor
 
 
 $$
-
 NDVI = \frac{(NIR - RED)}{(NIR + RED)}
-
 $$
 
 
@@ -12566,9 +12322,7 @@ Remote sensing can provide valuable data for monitoring the health of ecosystems
 
 
 $$
-
 EVI = G \times \frac{(NIR - RED)}{(NIR + C1 \times RED - C2 \times BLUE + L)}
-
 $$
 
 
@@ -12618,9 +12372,7 @@ One common method for urban growth monitoring is the Normalized Difference Built
 
 
 $$
-
 NDBI = \frac{(SWIR - NIR)}{(SWIR + NIR)}
-
 $$
 
 
@@ -12830,9 +12582,7 @@ The mathematical model of the superhet can be represented as:
 
 
 $$
-
 y_{IF}(n) = y_{RF}(n) * h_{LO}(n)
-
 $$
 
 
@@ -12862,9 +12612,7 @@ The mathematical model of the direct conversion receiver can be represented as:
 
 
 $$
-
 y_{BB}(n) = y_{RF}(n) * h_{LO}(n)
-
 $$
 
 
@@ -12890,9 +12638,7 @@ The mathematical model of the SDR can vary depending on the specific implementat
 
 
 $$
-
 y_{SDR}(n) = f_{SDR}(y_{RF}(n))
-
 $$
 
 
@@ -12922,9 +12668,7 @@ The mathematical model of the CR can be represented as:
 
 
 $$
-
 y_{CR}(n) = f_{CR}(y_{RF}(n), S(n))
-
 $$
 
 
@@ -12954,9 +12698,7 @@ The mathematical model of the MIMO system can be represented as:
 
 
 $$
-
 \mathbf{y}_{MIMO}(n) = \mathbf{H}(n) \mathbf{x}_{MIMO}(n) + \mathbf{n}(n)
-
 $$
 
 
@@ -12982,9 +12724,7 @@ The mathematical model of the superheterodyne receiver can be represented as:
 
 
 $$
-
 y_{SH}(n) = f_{SH}(y_{RF}(n), f_{LO})
-
 $$
 
 
@@ -13010,9 +12750,7 @@ The mathematical model of the SDR can be represented as:
 
 
 $$
-
 y_{SDR}(n) = f_{SDR}(y_{RF}(n), P)
-
 $$
 
 
@@ -13038,9 +12776,7 @@ The mathematical model of the DCR can be represented as:
 
 
 $$
-
 y_{DCR}(n) = f_{DCR}(y_{RF}(n), f_{LO})
-
 $$
 
 
@@ -13066,9 +12802,7 @@ The mathematical model of the CR can be represented as:
 
 
 $$
-
 y_{CR}(n) = f_{CR}(y_{RF}(n), P, I)
-
 $$
 
 
@@ -13094,9 +12828,7 @@ The mathematical model of the SDR can be represented as:
 
 
 $$
-
 y_{SDR}(n) = f_{SDR}(y_{RF}(n), S)
-
 $$
 
 
@@ -13122,9 +12854,7 @@ The mathematical model of the MIMO receiver can be represented as:
 
 
 $$
-
 \mathbf{y}_{MIMO}(n) = \mathbf{H} \mathbf{x}(n) + \mathbf{n}(n)
-
 $$
 
 
@@ -13214,9 +12944,7 @@ The noise figure is usually expressed in decibels (dB) and is defined as:
 
 
 $$
-
 NF = 10 \log_{10} \left( \frac{SNR_{in}}{SNR_{out}} \right)
-
 $$
 
 
@@ -13242,9 +12970,7 @@ The bit error rate is defined as:
 
 
 $$
-
 BER = \frac{Number\ of\ bit\ errors}{Total\ number\ of\ bits\ transmitted}
-
 $$
 
 
@@ -13578,9 +13304,7 @@ Optimization algorithms, as previously mentioned, play a crucial role in advance
 
 
 $$
-
 f(x) = w_1 \cdot G(x) + w_2 \cdot B(x) + w_3 \cdot E(x)
-
 $$
 
 
@@ -13930,9 +13654,7 @@ Antenna gain is a measure of the antenna's ability to direct the input power int
 
 
 $$
-
 G = 10 \log_{10}\left(\frac{P_{\text{out}}}{P_{\text{in}}}\right)
-
 $$
 
 
@@ -13970,9 +13692,7 @@ The measurement of antenna gain is typically performed in an anechoic chamber, a
 
 
 $$
-
 G_{\text{AUT}} = G_{\text{ref}} + 10 \log_{10}\left(\frac{P_{\text{AUT}}}{P_{\text{ref}}}\right)
-
 $$
 
 
@@ -14218,9 +13938,7 @@ The mathematical representation of an adaptive filter can be given as:
 
 
 $$
-
 y(n) = \sum_{i=0}^{N-1} w_i(n) x(n-i)
-
 $$
 
 
@@ -14242,9 +13960,7 @@ The continuous wavelet transform of a function `$x(t)$` is defined as:
 
 
 $$
-
 X(a,b) = \frac{1}{\sqrt{|a|}} \int_{-\infty}^{\infty} x(t) \psi \left(\frac{t-b}{a}\right) dt
-
 $$
 
 
@@ -14266,9 +13982,7 @@ The power spectral density `$P(f)$` of a signal `$x(t)$` can be estimated as:
 
 
 $$
-
 P(f) = \lim_{T \to \infty} E\left[ \left| \frac{1}{\sqrt{T}} \int_{-T/2}^{T/2} x(t) e^{-j2\pi ft} dt \right|^2 \right]
-
 $$
 
 
@@ -14294,9 +14008,7 @@ The power spectrum of a signal can be estimated using the periodogram, which is 
 
 
 $$
-
 I(f) = \frac{1}{N} \left| \sum_{n=0}^{N-1} x(n) e^{-j2\pi fn} \right|^2
-
 $$
 
 
@@ -14322,9 +14034,7 @@ For example, the least mean squares (LMS) algorithm is a popular adaptive filter
 
 
 $$
-
 w(n+1) = w(n) + \mu e(n) x(n)
-
 $$
 
 

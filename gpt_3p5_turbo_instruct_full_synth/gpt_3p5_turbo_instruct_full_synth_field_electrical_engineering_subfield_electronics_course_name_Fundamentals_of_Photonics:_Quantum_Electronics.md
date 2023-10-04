@@ -1299,9 +1299,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -1319,9 +1317,7 @@ One of the key concepts in quantum mechanics is the idea of stationary states. T
 
 
 $$
-
 \frac{\partial}{\partial t}\Psi(x,t) = 0
-
 $$
 
 
@@ -1361,9 +1357,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -1381,9 +1375,7 @@ One of the key concepts in quantum mechanics is the idea of stationary states. T
 
 
 $$
-
 \frac{\partial}{\partial t}\Psi(x,t) = 0
-
 $$
 
 
@@ -1435,9 +1427,7 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -1455,9 +1445,7 @@ One of the key concepts in quantum mechanics is the idea of stationary states. T
 
 
 $$
-
 \frac{\partial}{\partial t}\Psi(x,t) = 0
-
 $$
 
 
@@ -1491,9 +1479,7 @@ Now, let's discuss the concept of stationary states. These are states in which t
 
 
 $$
-
 \frac{\partial}{\partial t}\Psi(x,t) = 0
-
 $$
 
 
@@ -1641,7 +1627,6 @@ For example, the position operator $\hat{x}$ can be represented by the matrix:
 
 
 $$
-
 \hat{x} = \begin{bmatrix}
 
 x_1 & 0 & 0 & \dots & 0 \\
@@ -1655,7 +1640,6 @@ x_1 & 0 & 0 & \dots & 0 \\
 0 & 0 & 0 & \dots & x_n
 
 \end{bmatrix}
-
 $$
 
 
@@ -1919,9 +1903,7 @@ The Rabi oscillations can be understood as the result of the coherent interactio
 
 
 $$
-
 \Omega_R = \frac{\mu E}{\hbar}
-
 $$
 
 
@@ -1939,9 +1921,7 @@ In addition to the Rabi frequency, another important parameter in Rabi oscillati
 
 
 $$
-
 T_R = \frac{2\pi}{\Omega_R}
-
 $$
 
 
@@ -2345,9 +2325,7 @@ The first equation, Gauss's law, relates the electric flux through a closed surf
 
 
 $$
-
 \oint \vec{E} \cdot d\vec{A} = \frac{Q_{enc}}{\epsilon_0}
-
 $$
 
 
@@ -2361,9 +2339,7 @@ The second equation, Gauss's law for magnetism, relates the magnetic flux throug
 
 
 $$
-
 \oint \vec{B} \cdot d\vec{A} = 0
-
 $$
 
 
@@ -2377,9 +2353,7 @@ The third equation, Faraday's law, describes how a changing magnetic field induc
 
 
 $$
-
 \oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}
-
 $$
 
 
@@ -2393,9 +2367,7 @@ The fourth equation, Ampere's law, relates the magnetic field to the current and
 
 
 $$
-
 \oint \vec{B} \cdot d\vec{l} = \mu_0 \left(I_{enc} + \epsilon_0 \frac{d\Phi_E}{dt}\right)
-
 $$
 
 
@@ -2529,33 +2501,25 @@ The time-dependent form of Maxwell's equations can be derived from the static fo
 
 
 $$
-
 \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0} \tag{1}
-
 $$
 
 
 
 $$
-
 \nabla \cdot \mathbf{B} = 0 \tag{2}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \tag{3}
-
 $$
 
 
 
 $$
-
 \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t} \tag{4}
-
 $$
 
 
@@ -2681,9 +2645,7 @@ A plane wave is a type of electromagnetic wave that has a constant phase front a
 
 
 $$
-
 \vec{E} = \vec{E_0}e^{i(\vec{k}\cdot\vec{r} - \omega t)}
-
 $$
 
 
@@ -2701,7 +2663,6 @@ The boundary conditions for a plane wave at an interface between two isotropic m
 
 
 $$
-
 \begin{align}
 
 \vec{E_{1t}} &= \vec{E_{2t}} \\
@@ -2713,7 +2674,6 @@ $$
 \vec{H_{1n}} &= \vec{H_{2n}}
 
 \end{align}
-
 $$
 
 
@@ -2727,7 +2687,6 @@ Using these boundary conditions, we can determine the reflection and transmissio
 
 
 $$
-
 \begin{align}
 
 R &= \left(\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}\right)^2 \\
@@ -2735,7 +2694,6 @@ R &= \left(\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\th
 T &= \frac{4n_1n_2\cos\theta_i\cos\theta_t}{(n_1\cos\theta_i + n_2\cos\theta_t)^2}
 
 \end{align}
-
 $$
 
 
@@ -2801,33 +2759,25 @@ For a plane wave incident on an interface between two isotropic media, the refle
 
 
 $$
-
 R_{\parallel} = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}
-
 $$
 
 
 
 $$
-
 T_{\parallel} = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}
-
 $$
 
 
 
 $$
-
 R_{\perp} = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}
-
 $$
 
 
 
 $$
-
 T_{\perp} = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}
-
 $$
 
 
@@ -2997,17 +2947,13 @@ The equations are different for different polarizations of the wave, namely s-po
 
 
 $$
-
 r_s = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}
-
 $$
 
 
 
 $$
-
 t_s = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}
-
 $$
 
 
@@ -3021,17 +2967,13 @@ Similarly, for p-polarization, the Fresnel equations are given by:
 
 
 $$
-
 r_p = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}
-
 $$
 
 
 
 $$
-
 t_p = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}
-
 $$
 
 
@@ -3049,9 +2991,7 @@ In addition to the Fresnel equations, another important concept to understand is
 
 
 $$
-
 n_1\sin\theta_i = n_2\sin\theta_t
-
 $$
 
 
@@ -3349,9 +3289,7 @@ The propagation of Gaussian beams can be described by the paraxial wave equation
 
 
 $$
-
 \frac{\partial^2 A}{\partial x^2} + \frac{\partial^2 A}{\partial y^2} + 2ik\frac{\partial A}{\partial z} = 0
-
 $$
 
 
@@ -3425,9 +3363,7 @@ The propagation of Gaussian beams can be described by the paraxial wave equation
 
 
 $$
-
 \frac{\partial^2 A}{\partial x^2} + \frac{\partial^2 A}{\partial y^2} + 2ik\frac{\partial A}{\partial z} = 0
-
 $$
 
 
@@ -3635,7 +3571,6 @@ One of the fundamental principles of ray optics is the law of reflection, which 
 $$\theta_i = \theta_r$$
 
 
-
 where $\theta_i$ is the angle of incidence and $\theta_r$ is the angle of reflection.
 
 
@@ -3643,9 +3578,7 @@ where $\theta_i$ is the angle of incidence and $\theta_r$ is the angle of reflec
 Another important law in ray optics is the law of refraction, also known as Snell's law. This law states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is equal to the ratio of the indices of refraction of the two media. Mathematically, this can be expressed as:
 
 
-
 $$\frac{\sin\theta_i}{\sin\theta_r} = \frac{n_2}{n_1}$$
-
 
 
 where $n_1$ and $n_2$ are the indices of refraction of the two media.
@@ -3885,13 +3818,11 @@ As mentioned earlier, optical resonators confine light within a specific region 
 In a Fabry-Perot cavity, the resonant frequencies are given by the equation:
 
 
-
 $$
 
 f_n = \frac{nc}{2L}
 
 $$
-
 
 
 where $n$ is the mode number, $c$ is the speed of light, and $L$ is the distance between the mirrors. This equation shows that the resonant frequencies are discrete and depend on the mode number. The higher the mode number, the higher the resonant frequency.
@@ -5289,13 +5220,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
 
 $$
-
 
 
 where $\Psi(x,t)$ is the wave function of the particle, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -5309,13 +5238,11 @@ The wave function, $\Psi(x,t)$, describes the probability amplitude of finding a
 The Schrödinger equation is a time-dependent equation, meaning that the wave function changes with time. However, in certain cases, the wave function can be described by a stationary state, where the wave function does not change with time. This is known as the time-independent Schrödinger equation and is given by:
 
 
-
 $$
 
 \hat{H}\Psi(x) = E\Psi(x)
 
 $$
-
 
 
 where $E$ is the energy of the particle.
@@ -5341,13 +5268,11 @@ The wave function, $\Psi(x,t)$, describes the probability amplitude of finding a
 In certain cases, the wave function can be described by a stationary state, where the wave function does not change with time. This is known as the time-independent Schrödinger equation and is given by:
 
 
-
 $$
 
 \hat{H}\Psi(x) = E\Psi(x)
 
 $$
-
 
 
 where $E$ is the energy of the particle. This equation is used to determine the allowed energy levels of a particle in a given potential.
@@ -5399,13 +5324,11 @@ We will also discuss the phenomenon of wave-particle duality, which is a fundame
 The Schrödinger equation is a partial differential equation that describes the evolution of a quantum system over time. In its time-independent form, it is written as:
 
 
-
 $$
 
 \hat{H}\psi = E\psi
 
 $$
-
 
 
 where $\hat{H}$ is the Hamiltonian operator, $\psi$ is the wave function, and $E$ is the energy of the system. This equation is used to find the allowed energy levels and corresponding wave functions of a quantum system.
@@ -5469,13 +5392,11 @@ In the previous section, we discussed the dual nature of light and how it relate
 The Schrödinger equation is a fundamental equation in quantum mechanics that describes the time evolution of a quantum system. It is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
 
 $$
-
 
 
 where $\Psi(x,t)$ is the wave function of the system, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -5485,13 +5406,11 @@ where $\Psi(x,t)$ is the wave function of the system, $\hat{H}$ is the Hamiltoni
 In the case of a stationary state, the wave function does not depend on time, and the Schrödinger equation reduces to:
 
 
-
 $$
 
 \hat{H}\Psi(x) = E\Psi(x)
 
 $$
-
 
 
 where $E$ is the energy of the system. This equation is known as the time-independent Schrödinger equation.
@@ -5509,13 +5428,11 @@ The quantum harmonic oscillator and the hydrogen atom are two important examples
 The quantum harmonic oscillator is a model that describes the behavior of a particle in a potential well that is quadratic in nature. It is given by the Hamiltonian:
 
 
-
 $$
 
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
 
 $$
-
 
 
 where $\hat{p}$ is the momentum operator, $m$ is the mass of the particle, and $\omega$ is the angular frequency of the oscillator.
@@ -5525,13 +5442,11 @@ where $\hat{p}$ is the momentum operator, $m$ is the mass of the particle, and $
 Solving the time-independent Schrödinger equation for this Hamiltonian yields a set of discrete energy levels given by:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 
 $$
-
 
 
 where $n$ is a non-negative integer. This result shows that the energy levels of the quantum harmonic oscillator are quantized, in accordance with the principle of quantization.
@@ -5545,13 +5460,11 @@ The hydrogen atom is another important example of a stationary state that can be
 The Hamiltonian for the hydrogen atom is given by:
 
 
-
 $$
 
 \hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\epsilon_0r}
 
 $$
-
 
 
 where $m_e$ is the mass of the electron, $e$ is the elementary charge, $\epsilon_0$ is the permittivity of free space, and $r$ is the distance between the electron and the proton.
@@ -5561,13 +5474,11 @@ where $m_e$ is the mass of the electron, $e$ is the elementary charge, $\epsilon
 Solving the time-independent Schrödinger equation for this Hamiltonian yields a set of discrete energy levels given by:
 
 
-
 $$
 
 E_n = -\frac{me^4}{32\pi^2\epsilon_0^2\hbar^2n^2}
 
 $$
-
 
 
 where $n$ is a positive integer. This result shows that the energy levels of the hydrogen atom are also quantized, and it explains the observed discrete spectral lines in the emission and absorption spectra of hydrogen.
@@ -7051,13 +6962,11 @@ The density matrix, also known as the density operator, is a mathematical tool u
 The density matrix is defined as:
 
 
-
 $$
 
 \rho = \sum_{i} p_i |\psi_i\rangle \langle \psi_i|
 
 $$
-
 
 
 where $p_i$ is the probability of the system being in the state $|\psi_i\rangle$. This means that the density matrix contains the probabilities of all possible states of the system.
@@ -7071,13 +6980,11 @@ One of the advantages of using the density matrix formalism is that it allows us
 The density matrix also allows us to calculate the expectation value of any observable, such as energy or momentum, using the formula:
 
 
-
 $$
 
 \langle A \rangle = Tr(\rho A)
 
 $$
-
 
 
 where $A$ is the observable and $Tr$ is the trace operator. This means that the density matrix formalism provides a way to calculate the average value of any observable without having to solve the Schrödinger equation.
@@ -7087,13 +6994,11 @@ where $A$ is the observable and $Tr$ is the trace operator. This means that the 
 Another useful aspect of the density matrix is that it can be used to describe the evolution of a quantum system. The time evolution of the density matrix is given by the von Neumann equation:
 
 
-
 $$
 
 i\hbar \frac{\partial \rho}{\partial t} = [H, \rho]
 
 $$
-
 
 
 where $H$ is the Hamiltonian of the system. This equation shows that the density matrix evolves in time in the same way as the wave function, but it is a more general and powerful tool.
@@ -10475,7 +10380,6 @@ Another important application of quantum information in photonics is quantum com
 In this subsection, we will delve deeper into the concept of qubits and how they are manipulated using quantum gates. As mentioned earlier, qubits can exist in multiple states simultaneously, which is known as superposition. This is represented mathematically as:
 
 
-
 $$
 
 \ket{\psi} = \alpha\ket{0} + \beta\ket{1}
@@ -10483,13 +10387,11 @@ $$
 $$
 
 
-
 where $\ket{0}$ and $\ket{1}$ are the two basis states, and $\alpha$ and $\beta$ are complex numbers representing the probability amplitudes of the qubit being in state $\ket{0}$ or $\ket{1}$ respectively.
 
 
 
 One of the most commonly used quantum gates is the Hadamard gate, which is represented by the matrix:
-
 
 
 $$
@@ -10505,9 +10407,7 @@ H = \frac{1}{\sqrt{2}}\begin{bmatrix}
 $$
 
 
-
 When applied to a qubit in state $\ket{0}$, the Hadamard gate transforms it into a superposition state:
-
 
 
 $$
@@ -10517,9 +10417,7 @@ H\ket{0} = \frac{1}{\sqrt{2}}(\ket{0} + \ket{1})
 $$
 
 
-
 Similarly, when applied to a qubit in state $\ket{1}$, the Hadamard gate transforms it into a different superposition state:
-
 
 
 $$

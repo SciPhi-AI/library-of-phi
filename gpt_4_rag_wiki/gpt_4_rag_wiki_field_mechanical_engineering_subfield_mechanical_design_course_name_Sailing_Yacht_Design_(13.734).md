@@ -423,9 +423,7 @@ Displacement hulls are designed to displace their own weight in water, creating 
 
 
 $$
-
 V_{hull} = 1.34 \times \sqrt{L_{WL}}
-
 $$
 
 
@@ -615,9 +613,7 @@ The pressure coefficient is a dimensionless number that describes the distributi
 
 
 $$
-
 C_p = \frac{P - P_0}{0.5 \rho V^2}
-
 $$
 
 
@@ -1075,9 +1071,7 @@ Consider a system given by:
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u)
-
 $$
 
 
@@ -1095,9 +1089,7 @@ A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS
 
 
 $$
-
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -1111,7 +1103,6 @@ Cascade interconnections are a special type of interconnection, where the dynami
 
 
 $$
-
 \left\{ 
 
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
@@ -1119,7 +1110,6 @@ $$
 i=1,\ldots,n.
 
 \right.
-
 $$
 
 
@@ -1149,9 +1139,7 @@ Mathematically, the metacentric height can be expressed as:
 
 
 $$
-
 GM = BM - BG
-
 $$
 
 
@@ -1185,9 +1173,7 @@ Mathematically, the righting moment can be expressed as:
 
 
 $$
-
 RM = W \times GZ
-
 $$
 
 
@@ -1237,9 +1223,7 @@ The sensitivity of the eigenvalues $\lambda_i$ with respect to changes in the en
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
@@ -1249,9 +1233,7 @@ and
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
@@ -1261,9 +1243,7 @@ Similarly, the sensitivity of the eigenvectors $\mathbf{x}_i$ can be expressed a
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
@@ -1273,9 +1253,7 @@ and
 
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
@@ -1417,9 +1395,7 @@ For example, the yacht's speed can be estimated using the following equation:
 
 
 $$
-
 V = \sqrt{LWL \times (F_n / g)}
-
 $$
 
 
@@ -1477,9 +1453,7 @@ For example, the length of the waterline (`LWL`), which affects the yacht's spee
 
 
 $$
-
 V = \sqrt{LWL \times (F_n / g)}
-
 $$
 
 
@@ -1557,9 +1531,7 @@ The total weight of the yacht is the sum of these categories:
 
 
 $$
-
 W_{total} = W_{structural} + W_{rigging} + W_{equipment} + W_{furnishing} + W_{crew+payload}
-
 $$
 
 
@@ -1577,9 +1549,7 @@ The structural weight of a yacht can be estimated based on the dimensions of the
 
 
 $$
-
 W_{hull} = V_{hull} \times \rho_{material}
-
 $$
 
 
@@ -1601,9 +1571,7 @@ The rigging weight of a yacht can be estimated based on the dimensions and mater
 
 
 $$
-
 W_{mast} = V_{mast} \times \rho_{material}
-
 $$
 
 
@@ -1685,7 +1653,6 @@ Weight estimation in yacht design is a complex process that involves a combinati
 
 
     $$
-
     W_{hull} = C_{hull} \times L_{overall}^3 \times \rho_{material}
 
     $$
@@ -2049,13 +2016,11 @@ As previously mentioned, dinghy hulls can be broadly categorized into two types:
 Displacement hulls are designed to move through the water, displacing a volume of water equal to the boat's weight. They are typically used in slower, heavier boats and are characterized by a deep, rounded shape. The hull shape is often symmetrical, with the widest point located at the midpoint of the boat's length. This design allows for a smooth and stable ride, but it also limits the boat's maximum speed to its hull speed, which is determined by the length of the waterline. The formula for calculating hull speed is:
 
 
-
 $$
 
 HullSpeed = 1.34 \times \sqrt{WaterlineLength}
 
 $$
-
 
 
 ##### Planing Hulls
@@ -2153,13 +2118,11 @@ The hull's cross-sectional shape, often referred to as its "section shape," also
 The length and width of the hull, also known as the "beam," are crucial factors in determining the boat's speed and stability. A longer hull can achieve higher speeds due to a greater hull speed limit, a concept derived from the Froude number, which is defined as the ratio of the boat's speed to the square root of the product of the gravitational acceleration and the hull's length at the waterline. 
 
 
-
 $$
 
 F = \frac{v}{\sqrt{gL}}
 
 $$
-
 
 
 where $F$ is the Froude number, $v$ is the boat's speed, $g$ is the gravitational acceleration, and $L$ is the length of the hull at the waterline.
@@ -3305,13 +3268,11 @@ Estimating the cost of a sailing dinghy is a complex process that involves consi
 The total cost of the dinghy can then be estimated by adding the material cost, the labor cost, and the overhead cost:
 
 
-
 $$
 
 C_t = C_m + C_l + C_o
 
 $$
-
 
 
 In the next subsection, we will discuss how to estimate the cost of design and testing.
@@ -3515,13 +3476,11 @@ Archimedes' Principle states that any body wholly or partially immersed in a flu
 To put it mathematically, if a body of volume $V$ is submerged in a fluid of density $\rho$, the buoyant force $F_b$ experienced by the body is given by:
 
 
-
 $$
 
 F_b = \rho g V
 
 $$
-
 
 
 where $g$ is the acceleration due to gravity. 
@@ -3559,13 +3518,11 @@ The volume of the yacht's hull can be calculated using various methods, dependin
 Once the volume of the submerged part of the yacht's hull is known, the displacement can be calculated using the formula:
 
 
-
 $$
 
 D = \rho V
 
 $$
-
 
 
 where $D$ is the displacement, $\rho$ is the density of the water, and $V$ is the volume of the submerged part of the yacht's hull. The density of seawater is approximately 1025 kg/m³, but it can vary slightly depending on the temperature and salinity.
@@ -3575,13 +3532,11 @@ where $D$ is the displacement, $\rho$ is the density of the water, and $V$ is th
 The buoyant force can then be calculated using the formula:
 
 
-
 $$
 
 F_b = D g
 
 $$
-
 
 
 where $F_b$ is the buoyant force, $D$ is the displacement, and $g$ is the acceleration due to gravity.
@@ -3615,13 +3570,11 @@ For a sailing yacht, the buoyant force must be equal to or greater than the weig
 The buoyant force can be calculated using the formula:
 
 
-
 $$
 
 F_b = \rho V g
 
 $$
-
 
 
 where $F_b$ is the buoyant force, $\rho$ is the density of the water, $V$ is the volume of the submerged part of the yacht's hull, and $g$ is the acceleration due to gravity.
@@ -3631,13 +3584,11 @@ where $F_b$ is the buoyant force, $\rho$ is the density of the water, $V$ is the
 The weight of the yacht can be calculated using the formula:
 
 
-
 $$
 
 W = m g
 
 $$
-
 
 
 where $W$ is the weight of the yacht, $m$ is the mass of the yacht, and $g$ is the acceleration due to gravity.
@@ -3647,7 +3598,6 @@ where $W$ is the weight of the yacht, $m$ is the mass of the yacht, and $g$ is t
 For the yacht to float, the buoyant force must be equal to the weight of the yacht, so we have:
 
 
-
 $$
 
 \rho V g = m g
@@ -3655,9 +3605,7 @@ $$
 $$
 
 
-
 Solving for $V$, we get:
-
 
 
 $$
@@ -3665,7 +3613,6 @@ $$
 V = \frac{m}{\rho}
 
 $$
-
 
 
 This equation tells us that the volume of the yacht's hull that needs to be submerged for the yacht to float is equal to the mass of the yacht divided by the density of the water. This is a critical consideration in yacht design, as it determines how much of the yacht's hull needs to be below the waterline for the yacht to float.
@@ -3691,13 +3638,11 @@ After understanding the principles of buoyancy and how they apply to the design 
 Hydrostatic forces are the forces exerted by a fluid at rest. For a yacht, these forces include the buoyant force, which we have already discussed, and the hydrostatic pressure force, which acts on the hull of the yacht. The hydrostatic pressure force is the force exerted by the water on the hull of the yacht due to the pressure of the water. It can be calculated using the formula:
 
 
-
 $$
 
 F_p = P A
 
 $$
-
 
 
 where $F_p$ is the hydrostatic pressure force, $P$ is the pressure of the water, and $A$ is the area of the hull in contact with the water.
@@ -3707,13 +3652,11 @@ where $F_p$ is the hydrostatic pressure force, $P$ is the pressure of the water,
 Hydrostatic moments are the moments caused by the hydrostatic forces. For a yacht, the most important hydrostatic moment is the righting moment, which is the moment that tends to restore the yacht to an upright position after it has been heeled over by the wind or waves. The righting moment can be calculated using the formula:
 
 
-
 $$
 
 M_r = W d
 
 $$
-
 
 
 where $M_r$ is the righting moment, $W$ is the weight of the yacht, and $d$ is the distance from the center of gravity of the yacht to the center of buoyancy.
@@ -3735,13 +3678,11 @@ In the context of yacht design, understanding the distribution of pressure in fl
 The pressure in a fluid at rest, such as the water surrounding a yacht, varies linearly with depth. This is due to the weight of the fluid above the point of interest. The pressure at a depth $h$ below the surface of the water can be calculated using the formula:
 
 
-
 $$
 
 P = P_0 + \rho g h
 
 $$
-
 
 
 where $P$ is the pressure at depth $h$, $P_0$ is the atmospheric pressure at the surface of the water, $\rho$ is the density of the water, and $g$ is the acceleration due to gravity.
@@ -3775,13 +3716,11 @@ In the previous section, we discussed the distribution of pressure in the water 
 The total hydrostatic force acting on the hull of the yacht, as mentioned earlier, can be calculated by integrating the pressure distribution over the surface of the hull. Mathematically, this can be represented as:
 
 
-
 $$
 
 F = \int_{S} P dS
 
 $$
-
 
 
 where $F$ is the total hydrostatic force, $P$ is the pressure at a point on the hull, $dS$ is the differential area element on the hull, and the integral is taken over the entire surface $S$ of the hull submerged in the water.
@@ -3791,14 +3730,11 @@ where $F$ is the total hydrostatic force, $P$ is the pressure at a point on the 
 The point at which this total hydrostatic force acts is known as the center of pressure. The coordinates of the center of pressure $(x_{cp}, y_{cp}, z_{cp})$ can be calculated by taking the moments of the pressure forces about the three axes:
 
 
-
 $$
 
 x_{cp} = \frac{1}{F} \int_{S} x P dS
 
 $$
-
-
 
 $$
 
@@ -3806,14 +3742,11 @@ y_{cp} = \frac{1}{F} \int_{S} y P dS
 
 $$
 
-
-
 $$
 
 z_{cp} = \frac{1}{F} \int_{S} z P dS
 
 $$
-
 
 
 where $(x, y, z)$ are the coordinates of a point on the hull.
@@ -3823,13 +3756,11 @@ where $(x, y, z)$ are the coordinates of a point on the hull.
 The pressure distribution in the water also results in a pressure moment acting on the yacht. This pressure moment, denoted by $M$, is the result of the pressure forces acting on different parts of the hull at different depths. It can be calculated by taking the moment of the pressure forces about the center of gravity of the yacht:
 
 
-
 $$
 
 M = \int_{S} r \times P dS
 
 $$
-
 
 
 where $r$ is the position vector of a point on the hull relative to the center of gravity of the yacht.
@@ -3851,13 +3782,11 @@ In the context of sailing yacht design, understanding the principles of buoyancy
 Buoyancy is the force that keeps the yacht afloat. It is the upward force exerted by the water on the hull of the yacht, and it is equal to the weight of the water displaced by the hull. According to Archimedes' principle, the buoyant force $F_b$ acting on the yacht can be calculated as:
 
 
-
 $$
 
 F_b = \rho_w g V
 
 $$
-
 
 
 where $\rho_w$ is the density of the water, $g$ is the acceleration due to gravity, and $V$ is the volume of the hull submerged in the water.
@@ -3867,14 +3796,11 @@ where $\rho_w$ is the density of the water, $g$ is the acceleration due to gravi
 The point at which this buoyant force acts is known as the center of buoyancy. The coordinates of the center of buoyancy $(x_{cb}, y_{cb}, z_{cb})$ can be calculated by integrating the position vectors of the differential volume elements over the submerged volume of the hull:
 
 
-
 $$
 
 x_{cb} = \frac{1}{V} \int_{V} x dV
 
 $$
-
-
 
 $$
 
@@ -3882,14 +3808,11 @@ y_{cb} = \frac{1}{V} \int_{V} y dV
 
 $$
 
-
-
 $$
 
 z_{cb} = \frac{1}{V} \int_{V} z dV
 
 $$
-
 
 
 where $(x, y, z)$ are the coordinates of a point within the submerged volume of the hull.
@@ -3903,13 +3826,11 @@ Stability, on the other hand, refers to the ability of the yacht to return to it
 The righting moment $M_r$ can be calculated as:
 
 
-
 $$
 
 M_r = F_b \times d
 
 $$
-
 
 
 where $d$ is the horizontal distance between the center of gravity and the center of buoyancy.
@@ -3931,7 +3852,6 @@ Small angle stability analysis is a fundamental aspect of yacht design, particul
 The key concept in small angle stability analysis is the righting moment, which we introduced in the previous section. Recall that the righting moment $M_r$ is the torque that tends to return the yacht to its upright position after it has been heeled over. It is calculated as the product of the buoyant force $F_b$ and the horizontal distance $d$ between the center of gravity and the center of buoyancy:
 
 
-
 $$
 
 M_r = F_b \times d
@@ -3939,9 +3859,7 @@ M_r = F_b \times d
 $$
 
 
-
 In small angle stability analysis, we make the assumption that the righting moment is proportional to the angle of heel $\theta$. This assumption is valid for small angles of heel, typically less than about 10 degrees. Under this assumption, the righting moment can be expressed as:
-
 
 
 $$
@@ -3949,7 +3867,6 @@ $$
 M_r = GZ \times \theta
 
 $$
-
 
 
 where $GZ$ is the righting arm, which is the horizontal distance between the center of gravity and the center of buoyancy when the yacht is heeled over by an angle $\theta$.
@@ -3979,13 +3896,11 @@ The metacenter is the point at which the line of action of the buoyant force int
 The metacentric height $GM$ can be calculated as follows:
 
 
-
 $$
 
 GM = GZ + ZM
 
 $$
-
 
 
 where $GZ$ is the righting arm and $ZM$ is the vertical distance between the center of buoyancy and the metacenter.
@@ -4015,13 +3930,11 @@ The small angle stability of a yacht is typically assessed using the righting mo
 The righting arm $GZ$ can be calculated as follows:
 
 
-
 $$
 
 GZ = GM \sin(\theta)
 
 $$
-
 
 
 where $GM$ is the metacentric height and $\theta$ is the heel angle. Note that this equation is only valid for small angles of heel, typically less than about 15 degrees. For larger angles of heel, the calculation of the righting arm becomes more complex and requires a more detailed analysis of the yacht's geometry and weight distribution.
@@ -4063,13 +3976,11 @@ The stability indexes are numerical values that provide a measure of the yacht's
 The stability index (SI) is calculated as follows:
 
 
-
 $$
 
 SI = \frac{1}{2} \int_0^{AVS} GZ \, d\theta
 
 $$
-
 
 
 where $GZ$ is the righting arm, $\theta$ is the heel angle, and the integral is taken from 0 to the AVS. The SI is a measure of the yacht's righting energy, and a larger SI indicates a more stable yacht.
@@ -4079,13 +3990,11 @@ where $GZ$ is the righting arm, $\theta$ is the heel angle, and the integral is 
 The capsize screening formula (CSF) is calculated as follows:
 
 
-
 $$
 
 CSF = \frac{Beam}{(Displacement/64)^{1/3}}
 
 $$
-
 
 
 where Beam is the maximum width of the yacht and Displacement is the weight of the yacht. The CSF is a measure of the yacht's susceptibility to capsize, and a lower CSF indicates a more stable yacht.
@@ -4095,13 +4004,11 @@ where Beam is the maximum width of the yacht and Displacement is the weight of t
 The motion comfort ratio (MCR) is calculated as follows:
 
 
-
 $$
 
 MCR = \frac{Displacement/2240}{(0.65 \times Beam + 0.35 \times Length)^{1.5}}
 
 $$
-
 
 
 where Length is the length of the yacht. The MCR is a measure of the yacht's comfort in motion, and a higher MCR indicates a more comfortable yacht.
@@ -4187,13 +4094,11 @@ In order to calculate the large angle stability of a sailing yacht, we need to c
 The righting moment ($RM$) is calculated using the formula:
 
 
-
 $$
 
 RM = W \times GZ
 
 $$
-
 
 
 where $W$ is the weight of the yacht and $GZ$ is the righting arm, which is the horizontal distance between the center of gravity (CG) and the center of buoyancy (CB) when the yacht is heeled over.
@@ -4203,13 +4108,11 @@ where $W$ is the weight of the yacht and $GZ$ is the righting arm, which is the 
 The righting arm ($GZ$) can be calculated using the formula:
 
 
-
 $$
 
 GZ = GM \times sin(\theta)
 
 $$
-
 
 
 where $GM$ is the metacentric height, which is the vertical distance between the CG and the metacenter (M), and $\theta$ is the heel angle.
@@ -4219,13 +4122,11 @@ where $GM$ is the metacentric height, which is the vertical distance between the
 The metacentric height ($GM$) can be calculated using the formula:
 
 
-
 $$
 
 GM = KB + BM - KG
 
 $$
-
 
 
 where $KB$ is the distance from the keel to the center of buoyancy, $BM$ is the metacentric radius, which is the radius of curvature of the buoyancy curve, and $KG$ is the distance from the keel to the center of gravity.
@@ -4255,13 +4156,11 @@ In the context of large angle stability analysis, it is crucial to establish sta
 One of the most commonly used stability criteria is the Righting Arm Length at 30 Degrees (GZ30), which is the length of the righting arm when the yacht is heeled over at an angle of 30 degrees. This criterion is used to evaluate the initial stability of the yacht, as it provides a measure of the yacht's resistance to heeling in the early stages of a roll. The GZ30 can be calculated using the formula:
 
 
-
 $$
 
 GZ30 = GM \times sin(30)
 
 $$
-
 
 
 where $GM$ is the metacentric height and $sin(30)$ is the sine of the heel angle.
@@ -4279,13 +4178,11 @@ In addition to these criteria, there are also several stability indexes that can
 One of the most commonly used stability indexes is the Stability Index (SI), which is calculated using the formula:
 
 
-
 $$
 
 SI = GZ30 \times AVS
 
 $$
-
 
 
 where $GZ30$ is the Righting Arm Length at 30 Degrees and $AVS$ is the Angle of Vanishing Stability. The SI provides a measure of the overall stability of the yacht, taking into account both its resistance to initial heeling and its ability to return to an upright position after being heeled over to a large angle.
@@ -4295,13 +4192,11 @@ where $GZ30$ is the Righting Arm Length at 30 Degrees and $AVS$ is the Angle of 
 Another important stability index is the Capsize Screening Formula (CSF), which is used to evaluate the risk of capsize. The CSF is calculated using the formula:
 
 
-
 $$
 
 CSF = Beam / (Displacement^{1/3})
 
 $$
-
 
 
 where Beam is the maximum width of the yacht and Displacement is the weight of the water displaced by the yacht. A lower CSF indicates a lower risk of capsize.
@@ -4335,13 +4230,11 @@ The relationship between capsizing and righting moments is a key aspect of yacht
 The righting moment ($RM$) can be calculated using the formula:
 
 
-
 $$
 
 RM = W \times GZ
 
 $$
-
 
 
 where $W$ is the weight of the yacht and $GZ$ is the righting arm length. The righting arm length is the horizontal distance between the center of gravity and the center of buoyancy when the yacht is heeled over.
@@ -4351,13 +4244,11 @@ where $W$ is the weight of the yacht and $GZ$ is the righting arm length. The ri
 The capsizing moment ($CM$), on the other hand, is the force that works to overturn the yacht. It can be calculated using the formula:
 
 
-
 $$
 
 CM = W \times h
 
 $$
-
 
 
 where $W$ is the weight of the yacht and $h$ is the height of the center of gravity above the waterline.
@@ -4431,13 +4322,11 @@ In this section, we will discuss how to calculate the capsizing and righting mom
 The capsizing moment ($M_c$) of a yacht can be calculated using the formula:
 
 
-
 $$
 
 M_c = W \cdot H \cdot sin(\theta)
 
 $$
-
 
 
 where $W$ is the weight of the yacht, $H$ is the height of the center of gravity above the waterline, and $\theta$ is the angle of heel. 
@@ -4455,13 +4344,11 @@ This formula assumes that the yacht is a rigid body and that the center of gravi
 The righting moment ($M_r$) of a yacht can be calculated using the formula:
 
 
-
 $$
 
 M_r = W \cdot GZ
 
 $$
-
 
 
 where $W$ is the weight of the yacht and $GZ$ is the righting arm, which is the horizontal distance between the center of gravity and the center of buoyancy when the yacht is heeled over. 
@@ -4471,13 +4358,11 @@ where $W$ is the weight of the yacht and $GZ$ is the righting arm, which is the 
 The righting arm can be calculated using the formula:
 
 
-
 $$
 
 GZ = GM \cdot sin(\theta)
 
 $$
-
 
 
 where $GM$ is the metacentric height, which was discussed in the previous section. 
@@ -4597,7 +4482,6 @@ The EKF can be represented mathematically as follows:
 
 
 Prediction:
-
 $$
 
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
@@ -4605,15 +4489,12 @@ $$
 $$
 
 
-
 Update:
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{R}(t)\mathbf{K}(t)^{T}+\mathbf{Q}(t)
 
 $$
-
 
 
 where $\hat{\mathbf{x}}(t)$ is the state estimate, $\mathbf{u}(t)$ is the control input, $\mathbf{z}(t)$ is the measurement, $f(\cdot)$ and $h(\cdot)$ are the system's model functions, $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{P}(t)$ is the state estimation error covariance, $\mathbf{F}(t)$ is the Jacobian matrix of $f(\cdot)$, and $\mathbf{Q}(t)$ and $\mathbf{R}(t)$ are the process and measurement noise covariance matrices, respectively.
@@ -4647,13 +4528,11 @@ The wave-induced motions of the yacht can be further analyzed using the frequenc
 The frequency domain analysis of the yacht's wave-induced motions can be performed using the Bloch wave expansion, similar to the one used in the frequency selective surface analysis. The Bloch wave expansion assumes that the wave-induced motions can be represented as a sum of sinusoidal components, each with a specific wave number and phase:
 
 
-
 $$
 
 \mathbf M(x,y,z) = \sum_{mnp} \mathbf M(\alpha_m,\beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
-
 
 
 where $\mathbf M(x,y,z)$ represents the wave-induced motions, and $\alpha_m$, $\beta_n$, and $\gamma_p$ are the wave numbers in the x, y, and z directions, respectively.
@@ -4687,13 +4566,11 @@ The dynamic stability of the yacht can be further analyzed using the frequency d
 The frequency domain analysis of the yacht's motion can be performed using the Bloch wave expansion, similar to the one used in the frequency selective surface analysis. The Bloch wave expansion assumes that the yacht's motion can be represented as a sum of sinusoidal components, each with a specific wave number and phase:
 
 
-
 $$
 
 \mathbf M(x,y,z) = \sum_{mnp} \mathbf M(\alpha_m,\beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
-
 
 
 where $\mathbf M(x,y,z)$ represents the yacht's motion, and $\alpha_m$, $\beta_n$, and $\gamma_p$ are the wave numbers in the x, y, and z directions, respectively.
@@ -4715,13 +4592,11 @@ The dynamic stability of a yacht is not only about its ability to withstand exte
 The motion comfort of a yacht can be quantified using the Motion Comfort Ratio (MCR), which is defined as:
 
 
-
 $$
 
 MCR = \frac{Displacement \, in \, pounds}{0.65 \times Beam^4}
 
 $$
-
 
 
 where Displacement is the weight of the yacht in pounds and Beam is the maximum width of the yacht in feet. The MCR gives an indication of how comfortable the yacht's motion will be in a seaway. A higher MCR indicates a more comfortable motion.
@@ -4735,7 +4610,6 @@ Seaworthiness, on the other hand, is a measure of a yacht's ability to safely na
 The righting moment of a yacht can be calculated using the formula:
 
 
-
 $$
 
 RM = Displacement \times GZ
@@ -4743,9 +4617,7 @@ RM = Displacement \times GZ
 $$
 
 
-
 where GZ is the righting arm, which is the horizontal distance between the center of gravity (G) and the center of buoyancy (Z) when the yacht is heeled. The righting arm can be calculated using the formula:
-
 
 
 $$
@@ -4753,7 +4625,6 @@ $$
 GZ = GM \times sin(heel \, angle)
 
 $$
-
 
 
 where GM is the metacentric height, which is the distance between the center of gravity and the metacenter (M), and the heel angle is the angle at which the yacht is heeled due to wind or waves.
@@ -5033,13 +4904,11 @@ Frictional resistance is a result of the viscous nature of water. As the yacht m
 The frictional resistance can be calculated using the formula:
 
 
-
 $$
 
 R_f = 0.5 \times \rho \times S \times V^2 \times C_f
 
 $$
-
 
 
 where:
@@ -5071,7 +4940,6 @@ Calculating the hull resistance is a crucial step in the design process of a sai
 The frictional resistance, as discussed in the previous section, can be calculated using the ITTC 1957 friction line formula:
 
 
-
 $$
 
 R_f = 0.075 \left( \frac{{\log_{10} Re - 2}}{2} \right)^2
@@ -5079,9 +4947,7 @@ R_f = 0.075 \left( \frac{{\log_{10} Re - 2}}{2} \right)^2
 $$
 
 
-
 where $R_f$ is the frictional resistance, and $Re$ is the Reynolds number, which is a dimensionless quantity representing the ratio of inertial forces to viscous forces. It can be calculated as:
-
 
 
 $$
@@ -5089,7 +4955,6 @@ $$
 Re = \frac{{\rho V L}}{\mu}
 
 $$
-
 
 
 where $\rho$ is the water density, $V$ is the yacht's velocity, $L$ is the yacht's length, and $\mu$ is the water's dynamic viscosity.
@@ -5153,7 +5018,6 @@ Hybrid systems combine a diesel engine with an electric motor, allowing the yach
 
 
 The efficiency of the propulsion system is defined as the ratio of the useful power output (the power used to overcome the total resistance) to the total power input (the power supplied by the propulsion system). It can be calculated as:
-
 
 
 $$

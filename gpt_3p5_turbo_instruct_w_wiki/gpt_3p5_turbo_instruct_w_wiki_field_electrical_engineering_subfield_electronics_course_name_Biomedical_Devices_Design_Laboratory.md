@@ -1284,7 +1284,6 @@ To prove this theorem, we first use the superposition theorem to construct a sol
 $$V = V_{Eq} - Z_{Eq}I$$
 
 
-
 Here, $V_{Eq}$ represents the linear summation of contributions from each voltage source, while $Z_{Eq}$ measures the contributions from all the resistors. This expression is obtained by considering the voltage of the black box for a given current $I$ as the linear superposition of two problems: (1) leaving the black box open-circuited and activating individual voltage sources one at a time, and (2) short-circuiting all the voltage sources and feeding the circuit with a certain ideal voltage source to obtain a current of $I$. Alternatively, we can use an ideal current source of current $I$.
 
 
@@ -1330,9 +1329,7 @@ The Thevenin-Norton theorem states that any linear "black box" circuit can be re
 To prove this theorem, we first use the superposition theorem to construct a solution. This involves considering the contributions of each individual voltage source and resistor in the circuit. By doing so, we can express the voltage of the black box as a linear function of the corresponding current, as shown below:
 
 
-
 $$V = V_{Eq} - Z_{Eq}I$$
-
 
 
 Here, $V_{Eq}$ represents the linear summation of contributions from each voltage source, while $Z_{Eq}$ measures the contributions from all the resistors. This expression is obtained by considering the voltage of the black box for a given current $I$ as the linear superposition of two problems: (1) leaving the black box open-circuited and activating individual voltage sources one at a time, and (2) short-circuiting all the voltage sources and feeding the circuit with a certain ideal voltage source to obtain a current of $I$. Alternatively, we can use an ideal current source of current $I$.
@@ -1346,9 +1343,7 @@ It is important to note that the above relation between $V$ and $I$ is establish
 Now, let's consider the case where the black box is replaced by a single voltage source $V_{Th}$ and a single series resistor $R_{Th}$. This is known as the Thevenin equivalent circuit. By applying Kirchhoff's voltage law, we can write the following equation:
 
 
-
 $$V = V_{Th} - R_{Th}I$$
-
 
 
 Comparing this equation with the previous one, we can see that $V_{Eq} = V_{Th}$ and $Z_{Eq} = R_{Th}$. This means that the Thevenin equivalent circuit has the same voltage-current relationship as the original circuit, proving the Thevenin-Norton theorem.
@@ -1366,9 +1361,7 @@ Similar to Thevenin's theorem, Norton's theorem states that any linear "black bo
 To prove this theorem, we can use the same approach as we did for Thevenin's theorem. By considering the contributions of each individual voltage source and resistor, we can express the current of the black box as a linear function of the corresponding voltage, as shown below:
 
 
-
 $$I = I_{Eq} - G_{Eq}V$$
-
 
 
 Here, $I_{Eq}$ represents the linear summation of contributions from each current source, while $G_{Eq}$ measures the contributions from all the conductances. This expression is obtained by considering the current of the black box for a given voltage $V$ as the linear superposition of two problems: (1) leaving the black box short-circuited and activating individual current sources one at a time, and (2) open-circuiting all the current sources and feeding the circuit with a certain ideal current source to obtain a voltage of $V$. Alternatively, we can use an ideal voltage source of voltage $V$.
@@ -1382,9 +1375,7 @@ Similar to Thevenin's theorem, the uniqueness theorem guarantees that there is o
 By applying Kirchhoff's current law, we can write the following equation:
 
 
-
 $$I = I_{No} - G_{No}V$$
-
 
 
 Comparing this equation with the previous one, we can see that $I_{Eq} = I_{No}$ and $G_{Eq} = G_{No}$. This proves Norton's theorem and shows that the Norton equivalent circuit has the same current-voltage relationship as the original circuit.
@@ -1424,9 +1415,7 @@ The Thevenin-Norton theorem is a powerful tool in circuit analysis, as it allows
 To prove this theorem, we first use the superposition theorem to construct a solution. This involves considering the contributions of each individual voltage source and resistor in the circuit. By doing so, we can express the voltage of the black box as a linear function of the corresponding current, as shown below:
 
 
-
 $$V = V_{Eq} - Z_{Eq}I$$
-
 
 
 Here, $V_{Eq}$ represents the linear summation of contributions from each voltage source, while $Z_{Eq}$ measures the contributions from all the resistors. This expression is obtained by considering the voltage of the black box for a given current $I$ as the linear superposition of two problems: (1) leaving the black box open-circuited and activating individual voltage sources one at a time, and (2) short-circuiting all the voltage sources and feeding the circuit with a certain ideal voltage source to obtain a current of $I$. Alternatively, we can use an ideal current source of current $I$.
@@ -1904,13 +1893,11 @@ One common circuit that uses Zener diodes is the Zener shunt regulator. This cir
 To analyze the Zener shunt regulator circuit, we can use the concept of admittance, which is the inverse of impedance. The admittance of the Zener diode can be calculated using the equation:
 
 
-
 $$
 
 Y = \frac{1}{Z} = \frac{1}{R + \frac{1}{j\omega C}}
 
 $$
-
 
 
 Where R is the load resistor, j is the imaginary unit, ω is the angular frequency, and C is the capacitance of the Zener diode.
@@ -2564,7 +2551,6 @@ One of the main features of the ISS framework is the ability to study the stabil
 Consider the system given by
 
 
-
 $$
 
 \left\{ 
@@ -2578,7 +2564,6 @@ i=1,\ldots,n.
 $$
 
 
-
 Here, $u \in L_{\infty}(\R_+,\R^m)$, $x_{i}(t)\in \R^{p_i}$, and $f_i$ are Lipschitz continuous in $x_i$ uniformly with respect to the inputs from the $i$-th subsystem.
 
 
@@ -2588,7 +2573,6 @@ For the $i$-th subsystem of the above system, the definition of an ISS-Lyapunov 
 
 
 A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS-LF) for the $i$-th subsystem of the above system if there exist functions $\psi_{i1},\psi_{i2}\in\mathcal{K}_{\infty}$, $\chi_{ij},\chi_{i}\in \mathcal{K}$, $j=1,\ldots,n$, $j \neq i$, $\chi_{ii}:=0$, and a positive-definite function $\alpha_{i}$, such that:
-
 
 
 $$
@@ -2604,7 +2588,6 @@ V_i(x_{i}) &\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \\
 $$
 
 
-
 This definition allows us to analyze the stability of interconnected ISS systems and ensure that the overall system remains stable.
 
 
@@ -2614,7 +2597,6 @@ This definition allows us to analyze the stability of interconnected ISS systems
 
 
 Cascade interconnections are a special type of interconnection where the dynamics of the $i$-th subsystem do not depend on the states of the subsystems $1,\ldots,i-1$. This can be written as
-
 
 
 $$
@@ -2628,7 +2610,6 @@ i=1,\ldots,n.
 \right.
 
 $$
-
 
 
 If all subsystems of the above system are ISS, then the whole cascade interconnection is also ISS. This is a useful property in biomedical device design as it allows for the modular design of devices, where each subsystem can be designed and tested separately before being interconnected.
@@ -4624,13 +4605,11 @@ To understand Millman's theorem, let us consider a circuit with multiple paralle
 Mathematically, this can be expressed as:
 
 
-
 $$
 
 V_{node} = \frac{\sum_{i=1}^{n} V_iG_i}{\sum_{i=1}^{n} G_i}
 
 $$
-
 
 
 Where:
@@ -4672,7 +4651,6 @@ In the previous section, we discussed the concept of impedance and its importanc
 Complex impedance is a generalization of impedance that takes into account both the resistive and reactive components of a circuit element. It is represented by the symbol <math>Z</math> and is defined as the ratio of the complex voltage <math>V</math> to the complex current <math>I</math>:
 
 
-
 $$
 
 Z = \frac{V}{I}
@@ -4680,9 +4658,7 @@ Z = \frac{V}{I}
 $$
 
 
-
 where <math>V</math> and <math>I</math> are complex quantities, represented by their real and imaginary parts:
-
 
 
 $$
@@ -4691,14 +4667,11 @@ V = V_r + jV_i
 
 $$
 
-
-
 $$
 
 I = I_r + jI_i
 
 $$
-
 
 
 Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, while <math>V_i</math> and <math>I_i</math> represent the reactive components.
@@ -4708,13 +4681,11 @@ Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, 
 The magnitude of the complex impedance is given by:
 
 
-
 $$
 
 |Z| = \sqrt{Z_r^2 + Z_i^2}
 
 $$
-
 
 
 where <math>Z_r</math> and <math>Z_i</math> are the real and imaginary parts of <math>Z</math>, respectively.
@@ -4724,13 +4695,11 @@ where <math>Z_r</math> and <math>Z_i</math> are the real and imaginary parts of 
 The phase angle of the complex impedance is given by:
 
 
-
 $$
 
 \phi = \tan^{-1}\left(\frac{Z_i}{Z_r}\right)
 
 $$
-
 
 
 The concept of complex impedance is particularly useful in analyzing circuits with capacitors and inductors, as these elements have reactive components that cannot be represented by simple resistances. By considering the complex impedance, we can accurately determine the behavior of these elements in a circuit.
@@ -4774,7 +4743,6 @@ In the previous section, we discussed the concept of impedance and its importanc
 Complex impedance is a generalization of impedance that takes into account both the resistive and reactive components of a circuit element. It is represented by the symbol <math>Z</math> and is defined as the ratio of the complex voltage <math>V</math> to the complex current <math>I</math>:
 
 
-
 $$
 
 Z = \frac{V}{I}
@@ -4782,9 +4750,7 @@ Z = \frac{V}{I}
 $$
 
 
-
 where <math>V</math> and <math>I</math> are complex quantities, represented by their real and imaginary parts:
-
 
 
 $$
@@ -4793,14 +4759,11 @@ V = V_r + jV_i
 
 $$
 
-
-
 $$
 
 I = I_r + jI_i
 
 $$
-
 
 
 Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, while <math>V_i</math> and <math>I_i</math> represent the reactive components.
@@ -4810,13 +4773,11 @@ Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, 
 The magnitude of the complex impedance is given by:
 
 
-
 $$
 
 |Z| = \sqrt{Z_r^2 + Z_i^2}
 
 $$
-
 
 
 where <math>Z_r</math> and <math>Z_i</math> are the real and imaginary parts of <math>Z</math>, respectively.
@@ -4826,13 +4787,11 @@ where <math>Z_r</math> and <math>Z_i</math> are the real and imaginary parts of 
 The phase angle of the complex impedance is given by:
 
 
-
 $$
 
 \phi = \tan^{-1}\left(\frac{Z_i}{Z_r}\right)
 
 $$
-
 
 
 The concept of complex impedance is particularly useful in analyzing circuits with capacitors and inductors, as these elements have reactive components that cannot be represented by simple resistances. By considering the complex impedance, we can accurately determine the behavior of these elements in a circuit.
@@ -4850,7 +4809,6 @@ In this subsection, we will discuss how to calculate the complex impedance of a 
 To do this, we can use the concept of admittance, which is the inverse of impedance. Admittance is represented by the symbol <math>Y</math> and is defined as the ratio of the complex current <math>I</math> to the complex voltage <math>V</math>:
 
 
-
 $$
 
 Y = \frac{I}{V}
@@ -4858,9 +4816,7 @@ Y = \frac{I}{V}
 $$
 
 
-
 Using this definition, we can rewrite the equation for complex impedance as:
-
 
 
 $$
@@ -4868,7 +4824,6 @@ $$
 Z = \frac{1}{Y}
 
 $$
-
 
 
 Now, to calculate the complex impedance, we need to determine the admittance of the circuit element. This can be done by using the open-circuit test, where the element is disconnected from the circuit and a voltage is applied across its terminals. The resulting current can then be measured and used to calculate the admittance.
@@ -4904,7 +4859,6 @@ In the previous section, we discussed the concept of impedance and its importanc
 Complex impedance is a generalization of impedance that takes into account both the resistive and reactive components of a circuit element. It is represented by the symbol <math>Z</math> and is defined as the ratio of the complex voltage <math>V</math> to the complex current <math>I</math>:
 
 
-
 $$
 
 Z = \frac{V}{I}
@@ -4912,9 +4866,7 @@ Z = \frac{V}{I}
 $$
 
 
-
 where <math>V</math> and <math>I</math> are complex quantities, represented by their real and imaginary parts:
-
 
 
 $$
@@ -4923,14 +4875,11 @@ V = V_r + jV_i
 
 $$
 
-
-
 $$
 
 I = I_r + jI_i
 
 $$
-
 
 
 Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, while <math>V_i</math> and <math>I_i</math> represent the reactive components.
@@ -4940,7 +4889,6 @@ Here, <math>V_r</math> and <math>I_r</math> represent the resistive components, 
 The magnitude of the complex impedance is given by:
 
 
-
 $$
 
 |Z| = \sqrt{Z_r^2 + Z_i^2}
@@ -4948,13 +4896,11 @@ $$
 $$
 
 
-
 where <math>Z_r</math> and <math>Z_i</math> are the real and imaginary parts of <math>Z</math>, respectively.
 
 
 
 The phase angle of the complex impedance is given by:
-
 
 
 $$

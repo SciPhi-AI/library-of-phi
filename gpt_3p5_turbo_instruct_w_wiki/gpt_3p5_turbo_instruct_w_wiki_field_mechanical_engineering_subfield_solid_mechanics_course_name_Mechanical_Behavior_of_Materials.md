@@ -808,9 +808,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F}
-
 $$
 
 
@@ -824,9 +822,7 @@ Similarly, the perturbed Piola stress can be calculated using the equation:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S}
-
 $$
 
 
@@ -840,9 +836,7 @@ To further analyze the incremental changes in the material, we can define the pu
 
 
 $$
-
 \bar{\mathbf{S}}^1 = \mathcal{A}^1_0 \cdot \delta\mathbf{F}
-
 $$
 
 
@@ -856,9 +850,7 @@ The governing equations for incremental deformations can be derived by expanding
 
 
 $$
-
 {\rm div}(\bar{\mathbf{S}}^1) = \mathbf{0}
-
 $$
 
 
@@ -868,9 +860,7 @@ where <math> {\rm div} </math> is the divergence operator with respect to the ac
 
 
 $$
-
 {\rm div}(\mathbf{S}^0 + \delta\mathbf{S}) = \mathbf{0}
-
 $$
 
 
@@ -880,9 +870,7 @@ The incremental incompressibility constraint can also be derived by expanding th
 
 
 $$
-
 {\rm div}(\bar{\mathbf{u}}^1) = \mathbf{0}
-
 $$
 
 
@@ -930,9 +918,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F}
-
 $$
 
 
@@ -946,9 +932,7 @@ Similarly, the perturbed Piola stress can be calculated using the equation:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S}
-
 $$
 
 
@@ -962,9 +946,7 @@ To further analyze the incremental changes in the material, we can define the pu
 
 
 $$
-
 \bar{\mathbf{S}}_0 = \mathcal{A}^1_0 \cdot \delta\mathbf{F}
-
 $$
 
 
@@ -974,9 +956,7 @@ where <math> \mathcal{A}^1_0 </math> is also known as "the tensor of instantaneo
 
 
 $$
-
 \mathcal{A}^1_{0ij} = \frac{\partial \mathbf{S}^0_{ij}}{\partial \mathbf{F}_{kl}}
-
 $$
 
 
@@ -986,9 +966,7 @@ Expanding the equilibrium equation around the basic solution, we can rewrite the
 
 
 $$
-
 {\rm div} \, \bar{\mathbf{S}}_0 = \mathbf{0}
-
 $$
 
 
@@ -1002,9 +980,7 @@ In addition to the equilibrium equation, we also have the incremental incompress
 
 
 $$
-
 {\rm div} \, \delta\mathbf{F} = \mathbf{0}
-
 $$
 
 
@@ -1056,9 +1032,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F}
-
 $$
 
 
@@ -1072,9 +1046,7 @@ Similarly, the perturbed Piola stress can be calculated using the equation:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S}
-
 $$
 
 
@@ -1088,9 +1060,7 @@ To further analyze the perturbed Piola stress, we can define the push-forward as
 
 
 $$
-
 \mathbf{S}^1 = \mathcal{A}^1_0 \cdot \delta\mathbf{F}
-
 $$
 
 
@@ -1100,9 +1070,7 @@ where <math> \mathcal{A}^1_0 </math> is also known as the tensor of instantaneou
 
 
 $$
-
 \mathcal{A}^1_{0ij} = \frac{\partial S^1_{ij}}{\partial F_{kl}}
-
 $$
 
 
@@ -1112,9 +1080,7 @@ The incremental governing equations can be derived by expanding the equilibrium 
 
 
 $$
-
 {\rm div} \, \bar{\mathbf{S}} = \mathbf{0}
-
 $$
 
 
@@ -1124,9 +1090,7 @@ where <math> {\rm div} </math> is the divergence operator with respect to the ac
 
 
 $$
-
 {\rm div} \, \delta\mathbf{F} = \mathbf{0}
-
 $$
 
 
@@ -1364,9 +1328,7 @@ Strain is defined as the change in length per unit length of a material when sub
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1432,9 +1394,7 @@ Strain is defined as the change in length per unit length of a material when sub
 
 
 $$
-
 \sigma = E\epsilon
-
 $$
 
 
@@ -1782,7 +1742,6 @@ To understand Mohr's circle, we first need to define the stress state of a mater
 
 
 $$
-
 \sigma=\begin{bmatrix}
 
 \sigma_{xx} & \tau_{xy} \\
@@ -1790,7 +1749,6 @@ $$
 \tau_{yx} & \sigma_{yy}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1816,7 +1774,6 @@ In this subsection, we will focus on stress transformations in two-dimensional (
 
 
 $$
-
 \sigma=\begin{bmatrix}
 
 \sigma_{xx} & \tau_{xy} \\
@@ -1824,7 +1781,6 @@ $$
 \tau_{yx} & \sigma_{yy}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1834,7 +1790,6 @@ To transform this stress matrix into a different coordinate system, we can use t
 
 
 $$
-
 \sigma'=\begin{bmatrix}
 
 \sigma_{xx}' & \tau_{xy}' \\
@@ -1866,7 +1821,6 @@ $$
 \sin\theta\cos\theta & \sin^2\theta
 
 \end{bmatrix}^T
-
 $$
 
 
@@ -1910,7 +1864,6 @@ To understand Mohr's circle, we first need to define the stress state of a mater
 
 
 $$
-
 \sigma=\begin{bmatrix}
 
 \sigma_{xx} & \tau_{xy} \\
@@ -1918,7 +1871,6 @@ $$
 \tau_{yx} & \sigma_{yy}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1940,17 +1892,13 @@ In addition to Mohr's circle, we can also use the principal stress and strain eq
 
 
 $$
-
 \sigma_n = \frac{\sigma_1 + \sigma_2}{2} + \frac{\sigma_1 - \sigma_2}{2}\cos{2\theta} + \tau_{xy}\sin{2\theta}
-
 $$
 
 
 
 $$
-
 \tau_n = \frac{\sigma_1 - \sigma_2}{2}\sin{2\theta} - \tau_{xy}\cos{2\theta}
-
 $$
 
 
@@ -2092,9 +2040,7 @@ Hooke's Law is an empirical law that states the force needed to extend or compre
 
 
 $$
-
 F = kx
-
 $$
 
 
@@ -2150,9 +2096,7 @@ Hooke's Law is an empirical law that states the force needed to extend or compre
 
 
 $$
-
 F = kx
-
 $$
 
 
@@ -2182,9 +2126,7 @@ The elastic modulus, also known as Young's modulus, is a measure of a material's
 
 
 $$
-
 E = \frac{\sigma}{\epsilon}
-
 $$
 
 
@@ -2232,9 +2174,7 @@ Hooke's Law is an empirical law that states the force needed to extend or compre
 
 
 $$
-
 F = kx
-
 $$
 
 
@@ -2284,9 +2224,7 @@ Poisson's ratio is a measure of a material's lateral strain (strain perpendicula
 
 
 $$
-
 \nu = -\frac{\epsilon_{lateral}}{\epsilon_{axial}}
-
 $$
 
 
@@ -2362,17 +2300,13 @@ In direct tensor form, which is independent of the choice of coordinate system, 
 
 
 $$
-
 \rho \ddot{\mathbf{u}} = \boldsymbol{\nabla} \cdot \boldsymbol{\sigma} + \mathbf{F}
-
 $$
 
 
 
 $$
-
 \boldsymbol{\sigma} = \mathsf{C} : \boldsymbol{\varepsilon}
-
 $$
 
 
@@ -2440,25 +2374,19 @@ In direct tensor form, which is independent of the choice of coordinate system, 
 
 
 $$
-
 \rho \ddot{\mathbf{u}} = \boldsymbol{\nabla} \cdot \boldsymbol{\sigma} + \mathbf{f}
-
 $$
 
 
 
 $$
-
 \boldsymbol{\sigma} = \mathbf{C} : \boldsymbol{\epsilon}
-
 $$
 
 
 
 $$
-
 \boldsymbol{\epsilon} = \frac{1}{2}(\boldsymbol{\nabla} \mathbf{u} + \boldsymbol{\nabla} \mathbf{u}^T)
-
 $$
 
 
@@ -2484,25 +2412,19 @@ These equations can also be written in index notation as:
 
 
 $$
-
 \rho \ddot{u}_i = \frac{\partial \sigma_{ij}}{\partial x_j} + f_i
-
 $$
 
 
 
 $$
-
 \sigma_{ij} = C_{ijkl} \epsilon_{kl}
-
 $$
 
 
 
 $$
-
 \epsilon_{kl} = \frac{1}{2}(\frac{\partial u_k}{\partial x_l} + \frac{\partial u_l}{\partial x_k})
-
 $$
 
 
@@ -2520,9 +2442,7 @@ The constitutive relations for linear elasticity are based on Hooke's law, which
 
 
 $$
-
 \boldsymbol{\sigma} = \mathbf{C} : \boldsymbol{\epsilon}
-
 $$
 
 
@@ -2532,9 +2452,7 @@ Where $\mathbf{C}$ is the fourth-order elasticity tensor, which relates the stre
 
 
 $$
-
 \sigma_{ij} = C_{ijkl} \epsilon_{kl}
-
 $$
 
 
@@ -2676,9 +2594,7 @@ To understand this mechanism better, we can look at the spectral representation 
 
 
 $$
-
 \mathbf{C} = \sum_{i=1}^3 \lambda_i^2 \mathbf{N}_i \otimes \mathbf{N}_i \qquad \text{and} \qquad \mathbf{B} = \sum_{i=1}^3 \lambda_i^2 \mathbf{n}_i \otimes \mathbf{n}_i
-
 $$
 
 
@@ -2688,9 +2604,7 @@ where $\mathbf{N}_i$ and $\mathbf{n}_i$ are the eigenvectors of $\mathbf{C}$ and
 
 
 $$
-
 \mathbf{U} = \sum_{i=1}^3 \lambda_i \mathbf{N}_i \otimes \mathbf{N}_i \qquad \text{and} \qquad \mathbf{V} = \sum_{i=1}^3 \lambda_i \mathbf{n}_i \otimes \mathbf{n}_i
-
 $$
 
 
@@ -2704,9 +2618,7 @@ The effect of the deformation gradient tensor $\mathbf{F}$ acting on $\mathbf{N}
 
 
 $$
-
 \mathbf{F}~\mathbf{N}_i = \lambda_i~(\mathbf{V}~\mathbf{N}_i) = \lambda_i~\mathbf{n}_i
-
 $$
 
 
@@ -2716,9 +2628,7 @@ In a similar vein, the effect of $\mathbf{F}$ acting on $\mathbf{n}_i$ is to str
 
 
 $$
-
 \mathbf{F}^{-1}~\mathbf{n}_i = \lambda_i^{-1}~(\mathbf{U}~\mathbf{n}_i) = \lambda_i^{-1}~\mathbf{N}_i
-
 $$
 
 
@@ -2778,9 +2688,7 @@ To understand this mechanism better, we can look at the spectral representation 
 
 
 $$
-
 \mathbf{C} = \sum_{i=1}^3 \lambda_i^2 \mathbf{N}_i \otimes \mathbf{N}_i \qquad \text{and} \qquad \mathbf{B} = \sum_{i=1}^3 \lambda_i^2 \mathbf{n}_i \otimes \mathbf{n}_i
-
 $$
 
 
@@ -2790,9 +2698,7 @@ where $\mathbf{N}_i$ and $\mathbf{n}_i$ are the eigenvectors of $\mathbf{C}$ and
 
 
 $$
-
 \mathbf{U} = \sum_{i=1}^3 \lambda_i \mathbf{N}_i \otimes \mathbf{N}_i \qquad \text{and} \qquad \mathbf{V} = \sum_{i=1}^3 \lambda_i \mathbf{n}_i \otimes \mathbf{n}_i
-
 $$
 
 
@@ -2802,9 +2708,7 @@ Observe that the uniqueness of the spectral decomposition also implies that the 
 
 
 $$
-
 \mathbf{F} = \mathbf{RU} = \mathbf{V}^{-1}\mathbf{R}^{-1}
-
 $$
 
 
@@ -2876,9 +2780,7 @@ Research and provide examples of superelastic materials used in different indust
 #### Exercise 4
 
 Calculate the strain energy density of a superelastic material using the equation: $$
-
 U = \frac{1}{2}E\epsilon^2
-
 $$
 
 
@@ -3258,9 +3160,7 @@ The perturbed deformation gradient is given by:
 
 
 $$
-
 \bar{\mathbf{F}} = \mathbf{F}^0 + \delta\mathbf{F} = \mathbf{F}^0 + \mathbf{\Gamma}\delta\mathbf{x}
-
 $$
 
 
@@ -3274,9 +3174,7 @@ The perturbed Piola stress is given by:
 
 
 $$
-
 \bar{\mathbf{S}} = \mathbf{S}^0 + \delta\mathbf{S} = \mathbf{S}^0 + \mathcal{A}^1\delta\mathbf{E}
-
 $$
 
 
@@ -3290,9 +3188,7 @@ To further analyze the time-dependent behavior, we can derive the push-forward o
 
 
 $$
-
 \mathbf{S}^1 = \mathcal{A}^1_0\mathbf{E}^1
-
 $$
 
 
@@ -3302,9 +3198,7 @@ where <math> \mathcal{A}^1_0 </math> is also known as "the tensor of instantaneo
 
 
 $$
-
 \mathcal{A}^1_{0ij} = \frac{\partial S^1_{ij}}{\partial E^1_{kl}}
-
 $$
 
 
@@ -3314,9 +3208,7 @@ Expanding the equilibrium equation around the basic solution, we can rewrite the
 
 
 $$
-
 {\rm div}\,\mathbf{S}^0 + {\rm div}\,\delta\mathbf{S} = \mathbf{0}
-
 $$
 
 
@@ -3326,9 +3218,7 @@ where <math> {\rm div}</math> is the divergence operator with respect to the act
 
 
 $$
-
 {\rm div}\,\mathbf{E}^0 + {\rm div}\,\delta\mathbf{E} = \mathbf{0}
-
 $$
 
 
@@ -3478,9 +3368,7 @@ Because the kinks are in thermal equilibrium, the probability that a kink reside
 
 
 $$
-
 P(x) = \frac{1}{Z}e^{-\frac{U(x)}{k_BT}}
-
 $$
 
 
@@ -3528,9 +3416,7 @@ The Kuhn length, denoted as $b$, is an important parameter in the Molecular Kink
 
 
 $$
-
 b = \frac{l_p}{2}
-
 $$
 
 
@@ -3540,9 +3426,7 @@ The persistence length, in turn, is related to the elastic modulus, $E$, of the 
 
 
 $$
-
 l_p = \frac{k_BT}{E}
-
 $$
 
 
@@ -4600,9 +4484,7 @@ Once the creep test is completed, the data can be analyzed to determine the cree
 
 
 $$
-
 \epsilon_t = \epsilon_g + \epsilon_{gbs} + \epsilon_{dc}
-
 $$
 
 
@@ -4616,9 +4498,7 @@ One way to estimate the contribution of GBS to the total strain is through the u
 
 
 $$
-
 X = \frac{\epsilon_{gbs}}{\epsilon_t}
-
 $$
 
 
@@ -4952,7 +4832,6 @@ There are several test methods used to measure fracture toughness in polycrystal
 Due to the relation ($\tau_{13} = \tau_{12} + \tau_{23}$), the principal stress state ($\sigma_1, \sigma_2, \sigma_3$) may be converted to the twin-shear stress state ($\tau_{13}, \tau_{12}; \sigma_{13}, \sigma_{12}$) or ($\tau_{13}, \tau_{23}; \sigma_{13}, \sigma_{23}$). Twin-shear element models proposed by Mao-Hong Yu are used for representing the twin-shear stress state. Considering all the stress components of the twin-shear models and their different effects yields the unified strength theory as
 
 $$F = \tau_{13} + b\tau_{12} + \beta(\sigma_{13} + b\sigma_{12}) = C, \text{ when } \tau_{12} + \beta\sigma_{12} \geq \tau_{23} + \beta\sigma_{23} \tag{3a}$$
-
 $$F' = \tau_{13} + b\tau_{23} + \beta(\sigma_{13} + b\sigma_{23}) = C, \text{ when } \tau_{12} + \beta\sigma_{12} \leq \tau_{23} + \beta\sigma_{23} \tag{3b}$$
 
 The relations among the stresses components and principal stresses read
@@ -4960,9 +4839,7 @@ The relations among the stresses components and principal stresses read
 The $\beta$ and "C" should be obtained by uniaxial failure state
 
 By substituting Eqs.(4a), (4b) and (5a) into the Eq.(3a), and substituting Eqs.(4a), (4c) and (5b) into Eq.(3b), the $\beta$ and "C" are introduced as
-
 $$\beta = \frac{1 - \alpha}{1 + \alpha} \tag{6a}$$
-
 $$C = \frac{1 + b}{1 + \alpha}\sigma_t \tag{6b}$$
 
 
@@ -4974,17 +4851,11 @@ $$C = \frac{1 + b}{1 + \alpha}\sigma_t \tag{6b}$$
 The development of the unified strength theory can be divided into three stages as follows.
 
 1. Twin-shear yield criterion (UST with $\alpha = 1$ and $b = 1$)
-
 $$f = \sigma_1 - \frac{1}{2}(\sigma_2 + \sigma_3) = \sigma_t, \text{ when } \sigma_2 = \sigma_3 \tag{1}$$
-
 2. Twin-shear yield criterion (UST with $\alpha = 1$ and $b = 0$)
-
 $$f = \sigma_1 - \frac{1}{2}(\sigma_2 + \sigma_3) = \sigma_t, \text{ when } \sigma_2 = \sigma_3 \tag{2}$$
-
 3. Unified strength theory (UST with $\alpha \neq 1$ and $b \neq 0$)
-
 $$F = \tau_{13} + b\tau_{12} + \beta(\sigma_{13} + b\sigma_{12}) = C, \text{ when } \tau_{12} + \beta\sigma_{12} \geq \tau_{23} + \beta\sigma_{23} \tag{3a}$$
-
 $$F' = \tau_{13} + b\tau_{23} + \beta(\sigma_{13} + b\sigma_{23}) = C, \text{ when } \tau_{12} + \beta\sigma_{12} \leq \tau_{23} + \beta\sigma_{23} \tag{3b}$$
 
 
@@ -5232,13 +5103,11 @@ To better understand the fatigue failure mechanisms, various models have been de
 The damage accumulation model is a constitutive model of fatigue that takes into account the three main failure mechanisms: fatigue, creep, and oxidation. It is based on the concept that the total fatigue life of a material is the sum of the individual fatigue lives from each mechanism.
 
 
-
 $$
 
 \frac{1}{N_f} = \frac{1}{N_f^{fatigue}} + \frac{1}{N_f^{oxidation}} + \frac{1}{N_f^{creep}}
 
 $$
-
 
 
 where $N_f$ is the fatigue life of the material, and $N_f^{fatigue}$, $N_f^{oxidation}$, and $N_f^{creep}$ are the fatigue lives from each mechanism, respectively.
@@ -5252,13 +5121,11 @@ where $N_f$ is the fatigue life of the material, and $N_f^{fatigue}$, $N_f^{oxid
 The fatigue life from fatigue is calculated for isothermal loading conditions and is dominated by the strain applied to the specimen. It can be expressed as:
 
 
-
 $$
 
 \frac{\Delta \epsilon_m}{2} = C(2N_f^{fatigue})^d
 
 $$
-
 
 
 where $C$ and $d$ are material constants determined through isothermal testing. It is important to note that this term does not account for temperature effects, which are considered in the oxidation and creep terms.
@@ -5272,13 +5139,11 @@ where $C$ and $d$ are material constants determined through isothermal testing. 
 The fatigue life from oxidation is affected by temperature and can be expressed as:
 
 
-
 $$
 
 \frac{\Delta \epsilon_m}{2} = C(2N_f^{oxidation})^d
 
 $$
-
 
 
 where $C$ and $d$ are material constants determined through isothermal testing. The effects of temperature are taken into account in this term, as oxidation is highly dependent on temperature.
@@ -5292,13 +5157,11 @@ where $C$ and $d$ are material constants determined through isothermal testing. 
 The fatigue life from creep is also affected by temperature and can be expressed as:
 
 
-
 $$
 
 \frac{\Delta \epsilon_m}{2} = C(2N_f^{creep})^d
 
 $$
-
 
 
 where $C$ and $d$ are material constants determined through isothermal testing. Similar to the oxidation term, the effects of temperature are considered in this term, as creep is highly dependent on temperature.
@@ -5660,13 +5523,11 @@ Mechanical properties refer to the physical characteristics of a material that d
 One of the most important mechanical properties is elasticity, which is the ability of a material to deform under stress and return to its original shape when the stress is removed. This property is described by Hooke's Law, which states that the stress applied to a material is directly proportional to the strain (deformation) it experiences. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sigma = E\epsilon
 
 $$
-
 
 
 where $\sigma$ is the stress, $E$ is the elastic modulus (also known as Young's modulus), and $\epsilon$ is the strain. The elastic modulus is a measure of a material's stiffness and is unique to each material. It is typically measured in units of GPa (gigapascals).
@@ -5730,13 +5591,11 @@ Mechanical properties refer to the physical characteristics of a material that d
 One of the most important mechanical properties is elasticity, which is the ability of a material to deform under stress and return to its original shape when the stress is removed. This property is described by Hooke's Law, which states that the stress applied to a material is directly proportional to the strain (deformation) it experiences. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sigma = E\epsilon
 
 $$
-
 
 
 where $\sigma$ is the stress, $E$ is the elastic modulus (also known as Young's modulus), and $\epsilon$ is the strain. The elastic modulus is a measure of a material's stiffness and is unique to each material. It is typically measured in units of GPa (gigapascals).
@@ -5776,13 +5635,11 @@ Mechanical properties refer to the physical characteristics of a material that d
 One of the most important mechanical properties is elasticity, which is the ability of a material to deform under stress and return to its original shape when the stress is removed. This property is described by Hooke's Law, which states that the stress applied to a material is directly proportional to the strain (deformation) it experiences. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \sigma = E\epsilon
 
 $$
-
 
 
 where $\sigma$ is the stress, $E$ is the elastic modulus (also known as Young's modulus), and $\epsilon$ is the strain. The elastic modulus is a measure of a material's stiffness and is unique to each material. It is typically measured in units of GPa (gigapascals).
@@ -5818,13 +5675,11 @@ Thermal properties refer to the characteristics of a material that determine how
 One of the most important thermal properties is thermal expansion, which is the tendency of a material to expand or contract when its temperature changes. This property is described by the coefficient of thermal expansion (CTE), which is defined as the fractional change in length or volume per unit change in temperature. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \alpha = \frac{1}{L}\frac{\Delta L}{\Delta T}
 
 $$
-
 
 
 where $\alpha$ is the CTE, $L$ is the original length of the material, and $\Delta L$ and $\Delta T$ are the changes in length and temperature, respectively. The CTE is typically measured in units of 1/K (inverse kelvins).
@@ -5834,13 +5689,11 @@ where $\alpha$ is the CTE, $L$ is the original length of the material, and $\Del
 Another important thermal property is thermal conductivity, which is the ability of a material to conduct heat. It is defined as the rate at which heat flows through a unit area of a material when there is a temperature gradient. Mathematically, this can be expressed as:
 
 
-
 $$
 
 k = \frac{Q}{A\Delta T}
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $Q$ is the heat flow, $A$ is the cross-sectional area, and $\Delta T$ is the temperature difference. The thermal conductivity is typically measured in units of W/mK (watts per meter kelvin).
@@ -5850,13 +5703,11 @@ where $k$ is the thermal conductivity, $Q$ is the heat flow, $A$ is the cross-se
 Specific heat capacity is another crucial thermal property that measures the amount of heat required to raise the temperature of a unit mass of a material by one degree. It is an important consideration in thermal management systems, as materials with high specific heat capacity can store more heat and have a more stable temperature. Mathematically, this can be expressed as:
 
 
-
 $$
 
 C = \frac{Q}{m\Delta T}
 
 $$
-
 
 
 where $C$ is the specific heat capacity, $Q$ is the heat added, $m$ is the mass of the material, and $\Delta T$ is the change in temperature. The specific heat capacity is typically measured in units of J/kgK (joules per kilogram kelvin).
@@ -5866,13 +5717,11 @@ where $C$ is the specific heat capacity, $Q$ is the heat added, $m$ is the mass 
 In addition to these properties, thermal diffusivity is also an important consideration in understanding the behavior of materials under thermal conditions. It is defined as the rate at which heat diffuses through a material relative to its thermal conductivity and specific heat capacity. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \alpha = \frac{k}{\rho C}
 
 $$
-
 
 
 where $\alpha$ is the thermal diffusivity, $k$ is the thermal conductivity, $\rho$ is the density, and $C$ is the specific heat capacity. The thermal diffusivity is typically measured in units of m^2/s (square meters per second).
@@ -5900,13 +5749,11 @@ Thermal properties are essential in understanding the behavior of materials in v
 Thermal expansion is the tendency of a material to expand or contract when its temperature changes. This property is described by the coefficient of thermal expansion (CTE), which is defined as the fractional change in length or volume per unit change in temperature. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \alpha = \frac{1}{L}\frac{\Delta L}{\Delta T}
 
 $$
-
 
 
 where $\alpha$ is the CTE, $L$ is the original length of the material, and $\Delta L$ and $\Delta T$ are the changes in length and temperature, respectively. The CTE is typically measured in units of 1/K (inverse kelvins).
@@ -5924,13 +5771,11 @@ The CTE is an important consideration in the design of structures, as it can cau
 Thermal conductivity is the ability of a material to conduct heat. It is defined as the rate at which heat flows through a unit area of a material when there is a temperature gradient. Mathematically, this can be expressed as:
 
 
-
 $$
 
 k = \frac{Q}{A\Delta T}
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $Q$ is the heat flow, $A$ is the cross-sectional area, and $\Delta T$ is the temperature difference. The thermal conductivity is typically measured in units of W/mK (watts per meter kelvin).
@@ -5948,13 +5793,11 @@ Materials with high thermal conductivity are often used in applications where ef
 Specific heat capacity is another crucial thermal property that measures the amount of heat required to raise the temperature of a unit mass of a material by one degree. It is an important consideration in thermal management systems, as materials with high specific heat capacity can store more heat and have a more stable temperature. Mathematically, this can be expressed as:
 
 
-
 $$
 
 C = \frac{Q}{m\Delta T}
 
 $$
-
 
 
 where $C$ is the specific heat capacity, $Q$ is the heat added or removed, $m$ is the mass of the material, and $\Delta T$ is the change in temperature.
@@ -5986,13 +5829,11 @@ Thermal properties play a crucial role in understanding the behavior of material
 Thermal expansion is the tendency of a material to expand or contract when its temperature changes. This property is described by the coefficient of thermal expansion (CTE), which is defined as the fractional change in length or volume per unit change in temperature. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \alpha = \frac{1}{L}\frac{\Delta L}{\Delta T}
 
 $$
-
 
 
 where $\alpha$ is the CTE, $L$ is the original length of the material, and $\Delta L$ and $\Delta T$ are the changes in length and temperature, respectively. The CTE is typically measured in units of 1/K (inverse kelvins).
@@ -6010,13 +5851,11 @@ The CTE is an important consideration in the design of structures, as it can cau
 Thermal conductivity is the ability of a material to conduct heat. It is defined as the rate at which heat flows through a unit area of a material when there is a temperature gradient. Mathematically, this can be expressed as:
 
 
-
 $$
 
 k = \frac{Q}{A\Delta T}
 
 $$
-
 
 
 where $k$ is the thermal conductivity, $Q$ is the heat flow, $A$ is the cross-sectional area, and $\Delta T$ is the temperature difference. The thermal conductivity is typically measured in units of W/mK (watts per meter kelvin).
@@ -6032,7 +5871,6 @@ Materials with high thermal conductivity are often used in applications where ef
 
 
 Specific heat capacity is the amount of heat required to raise the temperature of a unit mass of a material by one degree. It is a measure of the material's ability to store thermal energy. Mathematically, this can be expressed as:
-
 
 
 $$

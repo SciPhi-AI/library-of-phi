@@ -1337,9 +1337,7 @@ Bloch's theorem states that the wave function of an electron in a periodic poten
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -1357,9 +1355,7 @@ The proof of Bloch's theorem involves using the periodicity of the crystal latti
 
 
 $$
-
 \psi(r+a) = e^{ika}\psi(r)
-
 $$
 
 
@@ -1369,9 +1365,7 @@ where $a$ is the lattice constant. This phase factor is a result of the periodic
 
 
 $$
-
 \left[-\frac{\hbar^2}{2m}\nabla^2 + V(r)\right]\psi(r) = E\psi(r)
-
 $$
 
 
@@ -1381,9 +1375,7 @@ where $V(r)$ is the periodic potential. We can then substitute the plane wave fu
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
@@ -1393,9 +1385,7 @@ This equation can be further simplified by dividing both sides by $e^{ikr}$, res
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right] = E
-
 $$
 
 
@@ -1447,9 +1437,7 @@ Bloch's theorem states that the wave function of an electron in a periodic poten
 
 
 $$
-
 \psi_{k}(r) = e^{ikr}u_{k}(r)
-
 $$
 
 
@@ -1467,9 +1455,7 @@ The proof of Bloch's theorem involves using the periodicity of the crystal latti
 
 
 $$
-
 \psi(r+a) = e^{ika}\psi(r)
-
 $$
 
 
@@ -1479,9 +1465,7 @@ where $a$ is the lattice constant. This phase factor is a result of the periodic
 
 
 $$
-
 \left[-\frac{\hbar^2}{2m}\nabla^2 + V(r)\right]\psi(r) = E\psi(r)
-
 $$
 
 
@@ -1491,9 +1475,7 @@ where $V(r)$ is the periodic potential. We can then substitute the plane wave fu
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
@@ -1503,391 +1485,294 @@ This equation can be further simplified by using the fact that the potential $V(
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right]e^{ikr} = Ee^{ikr}
-
 $$
 
 
 
 $$
-
 \left[\frac{\hbar^2k^2}{2
 
 
@@ -1909,13 +1794,11 @@ Bloch's theorem is a fundamental concept in condensed matter physics that plays 
 Bloch's theorem states that the wave function of an electron in a periodic potential can be written as a product of a plane wave and a periodic function. In other words, the wave function of an electron in a crystal lattice can be expressed as:
 
 
-
 $$
 
 \psi_{k}(r) = e^{ikr}u_{k}(r)
 
 $$
-
 
 
 where $k$ is the wave vector, $r$ is the position vector, and $u_{k}(r)$ is a periodic function with the same periodicity as the crystal lattice. This theorem is a powerful tool for understanding the behavior of electrons in a crystal lattice, as it allows us to simplify the complex problem of solving the Schrödinger equation for a large number of interacting particles.
@@ -1929,7 +1812,6 @@ where $k$ is the wave vector, $r$ is the position vector, and $u_{k}(r)$ is a pe
 The proof of Bloch's theorem involves using the periodicity of the crystal lattice to simplify the Schrödinger equation. By applying the translation operator, we can show that the wave function at any point in the lattice is related to the wave function at a reference point by a phase factor:
 
 
-
 $$
 
 \psi(r+a) = e^{ika}\psi(r)
@@ -1937,9 +1819,7 @@ $$
 $$
 
 
-
 where $a$ is the lattice constant. This phase factor is a result of the periodicity of the crystal lattice. By using this relation, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -1949,9 +1829,7 @@ $$
 $$
 
 
-
 where $V(r)$ is the periodic potential. We can then substitute the plane wave function $\psi(r) = e^{ikr}$ into this equation and simplify to obtain:
-
 
 
 $$
@@ -1961,9 +1839,7 @@ $$
 $$
 
 
-
 This equation can be further simplified by dividing both sides by $e^{ikr}$, giving us:
-
 
 
 $$
@@ -1971,7 +1847,6 @@ $$
 \frac{\hbar^2k^2}{2m} + V(r) = E
 
 $$
-
 
 
 This is known as the Bloch equation. We can see that the left-hand side of the equation is independent of position, meaning that the energy $E$ is constant throughout the crystal lattice. This is a result of the periodicity of the potential. 
@@ -2015,13 +1890,11 @@ Bloch's theorem is a fundamental concept in condensed matter physics that plays 
 Bloch's theorem states that the wave function of an electron in a periodic potential can be written as a product of a plane wave and a periodic function. In other words, the wave function of an electron in a crystal lattice can be expressed as:
 
 
-
 $$
 
 \psi_{k}(r) = e^{ikr}u_{k}(r)
 
 $$
-
 
 
 where $k$ is the wave vector, $r$ is the position vector, and $u_{k}(r)$ is a periodic function with the same periodicity as the crystal lattice. This theorem is a powerful tool for understanding the behavior of electrons in a crystal lattice, as it allows us to simplify the complex problem of solving the Schrödinger equation for a large number of interacting particles.
@@ -2035,7 +1908,6 @@ where $k$ is the wave vector, $r$ is the position vector, and $u_{k}(r)$ is a pe
 The proof of Bloch's theorem involves using the periodicity of the crystal lattice to simplify the Schrödinger equation. By applying the translation operator, we can show that the wave function at any point in the lattice is related to the wave function at a reference point by a phase factor:
 
 
-
 $$
 
 \psi(r+a) = e^{ika}\psi(r)
@@ -2043,9 +1915,7 @@ $$
 $$
 
 
-
 where $a$ is the lattice constant. This phase factor is a result of the periodicity of the crystal lattice. By using this relation, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -2055,9 +1925,7 @@ $$
 $$
 
 
-
 where $V(r)$ is the periodic potential. We can then substitute the plane wave function $\psi(r) = e^{ikr}$ into this equation and simplify to obtain:
-
 
 
 $$
@@ -2067,9 +1935,7 @@ $$
 $$
 
 
-
 This equation can be further simplified by using the fact that the potential $V(r)$ is periodic, meaning that it has the same value at every point in the lattice. This allows us to factor out the periodic function $u_k(r)$, giving us:
-
 
 
 $$
@@ -2079,9 +1945,7 @@ $$
 $$
 
 
-
 We can then divide both sides by $u_k(r)e^{ikr}$ to obtain:
-
 
 
 $$
@@ -2089,7 +1953,6 @@ $$
 \left[\frac{\hbar^2k^2}{2m} + V(r)\right] = E
 
 $$
-
 
 
 This equation is known as the Bloch equation and it shows that the energy of the electron is independent of its position in the lattice. This is a key result of Bloch's theorem and it allows us to simplify the Schrödinger equation to a one-dimensional problem, making it much easier to solve.
@@ -2103,13 +1966,11 @@ This equation is known as the Bloch equation and it shows that the energy of the
 Bloch's theorem has many applications in condensed matter physics, particularly in the study of periodic solids with one atom per unit cell. In these systems, the potential is the same at every point in the lattice and the nuclear positions form a periodic array. This allows us to apply Bloch's theorem, which states that the solutions of the Schrödinger equation can be written as a Bloch wave:
 
 
-
 $$
 
 \psi_{\bf{k}}(\bf{r}+\bf{R}_i) = e^{i\bf{k}\cdot\bf{R}_i}\psi_{\bf{k}}(\bf{r})
 
 $$
-
 
 
 This simplifies the calculation of stationary states and allows us to express the wave function in terms of a single periodic function. This is particularly useful in the study of band structure, as it allows us to analyze the behavior of electrons in a crystal lattice.
@@ -2215,22 +2076,17 @@ The first Brillouin zone is the most commonly used Brillouin zone, but there are
 To better understand the concept of Brillouin zones, let's consider the Bloch wave expansion of fields in an infinite periodic volume. This expansion is given by the following equations:
 
 
-
 $$
 
 \mathbf{J}(x,y,z) = \sum_{mnp} \mathbf{J}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
 
-
-
 $$
 
 \mathbf{E}(x,y,z) = \sum_{mnp} \mathbf{E}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
-
-
 
 $$
 
@@ -2239,9 +2095,7 @@ $$
 $$
 
 
-
 where $\alpha_m$, $\beta_n$, and $\gamma_p$ are the propagation constants in the $x$, $y$, and $z$ directions respectively. These constants are related to the unit cell dimensions and the effective wavelength in the crystal. By assuming an orthogonal lattice, we can simplify these equations to:
-
 
 
 $$
@@ -2250,22 +2104,17 @@ $$
 
 $$
 
-
-
 $$
 
 \beta_n = k_0 \sin \theta_0 \sin \phi_0 + \frac{2n\pi}{l_y}
 
 $$
 
-
-
 $$
 
 \gamma_p = k_0 \cos \theta_0 + \frac{2p\pi}{l_z}
 
 $$
-
 
 
 where $k_0 = 2\pi/\lambda$ and $\theta_0$ and $\phi_0$ are the directions of propagation in spherical coordinates. These equations show that the propagation constants are dependent on the unit cell dimensions and the effective wavelength in the crystal.
@@ -2309,21 +2158,17 @@ The first Brillouin zone is the most commonly used Brillouin zone, but there are
 To better understand the concept of Brillouin zones, let's consider the Bloch wave expansion of fields in an infinite periodic volume. This expansion is given by the following equations:
 
 
-
 $$
 
 \mathbf{J}(x,y,z) = \sum_{mnp} \mathbf{J}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
 
-
-
 $$
 
 \mathbf{E}(x,y,z) = \sum_{mnp} \mathbf{E}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
-
 
 
 where $\mathbf{J}$ and $\mathbf{E}$ are the current and electric field, respectively, and $\alpha_m$, $\beta_n$, and $\gamma_p$ are the wavevectors in the $x$, $y$, and $z$ directions. These equations show that the fields can be expressed as a sum of plane waves with different wavevectors. The Brillouin zone is defined as the region in reciprocal space where the wavevectors $\alpha_m$, $\beta_n$, and $\gamma_p$ can take on any value. This means that the Brillouin zone contains all possible wavevectors that can describe the behavior of the fields in the periodic medium.
@@ -2411,21 +2256,17 @@ The first Brillouin zone is the most commonly used Brillouin zone, but there are
 To better understand the concept of Brillouin zones, let's consider the Bloch wave expansion of fields in an infinite periodic volume. This expansion is given by the following equations:
 
 
-
 $$
 
 \mathbf{J}(x,y,z) = \sum_{mnp} \mathbf{J}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
 
-
-
 $$
 
 \mathbf{E}(x,y,z) = \sum_{mnp} \mathbf{E}(\alpha_m, \beta_n, \gamma_p) e^{j(\alpha_m x + \beta_n y + \gamma_p z)}
 
 $$
-
 
 
 where $\mathbf{J}$ and $\mathbf{E}$ are the current and electric field, respectively, and $\alpha_m$, $\beta_n$, and $\gamma_p$ are the wavevectors in the $x$, $y$, and $z$ directions, respectively. These wavevectors take on any value inside the Brillouin zone, which is a polyhedron in wavevector (reciprocal lattice) space that is related to the crystal's lattice. This means that the Brillouin zone is a representation of the allowed values of the wavevector for a given crystal structure.
@@ -2465,7 +2306,6 @@ In condensed matter physics, the Fermi surface is the surface in reciprocal spac
 To better understand the concept of the Fermi surface, let's consider a spin-less ideal Fermi gas of <math>N</math> particles. According to Fermi–Dirac statistics, the mean occupation number of a state with energy <math>\epsilon_i</math> is given by
 
 
-
 $$
 
 \langle n_i \rangle = \frac{1}{e^{(\epsilon_i - \mu)/k_B T} + 1}
@@ -2473,9 +2313,7 @@ $$
 $$
 
 
-
 where <math>\mu</math> is the chemical potential and <math>k_B</math> is the Boltzmann constant. Suppose we consider the limit <math>T\to 0</math>. Then we have,
-
 
 
 $$
@@ -2491,7 +2329,6 @@ $$
 $$
 
 
-
 By the Pauli exclusion principle, no two fermions can be in the same state. Therefore, in the state of lowest energy, the particles fill up all energy levels below the Fermi energy <math>E_{\rm F}</math>, which is equivalent to saying that <math>E_{\rm F}</math> is the energy level below which there are exactly <math>N</math> states.
 
 
@@ -2503,13 +2340,11 @@ In momentum space, these particles fill up a ball of radius <math>k_{\rm F}</mat
 The linear response of a metal to an electric, magnetic, or thermal gradient is determined by the shape of the Fermi surface, because currents are due to changes in the occupancy of states near the Fermi energy. In reciprocal space, the Fermi surface of an ideal Fermi gas is a sphere of radius
 
 
-
 $$
 
 k_{\rm F} = \left(\frac{3N}{4\pi V}\right)^{1/3}
 
 $$
-
 
 
 determined by the valence electron concentration <math>N/V</math> where <math>V</math> is the volume of the system and <math>\hbar</math> is the reduced Planck's constant. A material whose Fermi level falls in a gap between bands is an insulator or semiconductor depending on the size of the bandgap. When a material's Fermi level falls in a bandgap, there is no Fermi surface.
@@ -2551,7 +2386,6 @@ In condensed matter physics, the Fermi surface is the surface in reciprocal spac
 To better understand the concept of the Fermi surface, let's consider a spin-less ideal Fermi gas of <math>N</math> particles. According to Fermi–Dirac statistics, the mean occupation number of a state with energy <math>\epsilon_i</math> is given by
 
 
-
 $$
 
 \langle n_i \rangle = \frac{1}{e^{(\epsilon_i - \mu)/k_B T} + 1}
@@ -2559,9 +2393,7 @@ $$
 $$
 
 
-
 where <math>\mu</math> is the chemical potential and <math>k_B</math> is the Boltzmann constant. Suppose we consider the limit <math>T\to 0</math>. Then we have,
-
 
 
 $$
@@ -2575,7 +2407,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 By the Pauli exclusion principle, no two fermions can be in the same state. Therefore, in the state of lowest energy, the particles fill up all energy levels below the Fermi energy <math>E_{\rm F}</math>, which is equivalent to saying that <math>E_{\rm F}</math> is the energy level below which there are exactly <math>N</math> states.
@@ -2631,7 +2462,6 @@ In condensed matter physics, the Fermi surface is the surface in reciprocal spac
 To better understand the concept of the Fermi surface, let's consider a spin-less ideal Fermi gas of <math>N</math> particles. According to Fermi–Dirac statistics, the mean occupation number of a state with energy <math>\epsilon_i</math> is given by
 
 
-
 $$
 
 \langle n_i \rangle = \frac{1}{e^{(\epsilon_i - \mu)/k_B T} + 1}
@@ -2639,9 +2469,7 @@ $$
 $$
 
 
-
 where <math>\mu</math> is the chemical potential and <math>k_B</math> is the Boltzmann constant. Suppose we consider the limit <math>T\to 0</math>. Then we have,
-
 
 
 $$
@@ -2655,7 +2483,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 By the Pauli exclusion principle, no two fermions can be in the same state. Therefore, in the state of lowest energy, the particles fill up all energy levels below the Fermi energy <math>E_{\rm F}</math>, which is equivalent to saying that <math>E_{\rm F}</math> is the energy level below which there are exactly <math>N</math> states.
@@ -2711,7 +2538,6 @@ In condensed matter physics, the Fermi surface is the surface in reciprocal spac
 To better understand the concept of the Fermi surface, let's consider a spin-less ideal Fermi gas of <math>N</math> particles. According to Fermi–Dirac statistics, the mean occupation number of a state with energy <math>\epsilon_i</math> is given by
 
 
-
 $$
 
 \langle n_i \rangle = \frac{1}{e^{(\epsilon_i - \mu)/k_B T} + 1}
@@ -2719,9 +2545,7 @@ $$
 $$
 
 
-
 where <math>\mu</math> is the chemical potential and <math>k_B</math> is the Boltzmann constant. Suppose we consider the limit <math>T\to 0</math>. Then we have,
-
 
 
 $$
@@ -2735,7 +2559,6 @@ $$
 \end{cases}
 
 $$
-
 
 
 By the Pauli exclusion principle, no two fermions can be in the same state. Therefore, in the state of lowest energy, the particles fill up all energy levels below the Fermi energy <math>E_{\rm F}</math>, which is equivalent to saying that <math>E_{\rm F}</math> is the energy level below which there are exactly <math>N</math> states.
@@ -2873,21 +2696,17 @@ In this section, we will introduce the creation and annihilation operators, whic
 The creation and annihilation operators, denoted by $a^\dagger$ and $a$, respectively, are mathematical operators that act on a quantum state to create or destroy a particle in that state. They are defined as follows:
 
 
-
 $$
 
 a^\dagger \left| n \right> = \sqrt{n+1} \left| n+1 \right>
 
 $$
 
-
-
 $$
 
 a \left| n \right> = \sqrt{n} \left| n-1 \right>
 
 $$
-
 
 
 where $\left| n \right>$ represents a state with $n$ particles. These operators have several important properties that make them useful in describing many-particle systems:
@@ -2949,21 +2768,17 @@ In this section, we will introduce the creation and annihilation operators, whic
 The creation and annihilation operators, denoted by $a^\dagger$ and $a$, respectively, are mathematical operators that act on a quantum state to create or destroy a particle in that state. They are defined as follows:
 
 
-
 $$
 
 a^\dagger \left| n \right> = \sqrt{n+1} \left| n+1 \right>
 
 $$
 
-
-
 $$
 
 a \left| n \right> = \sqrt{n} \left| n-1 \right>
 
 $$
-
 
 
 where $\left| n \right>$ represents a state with $n$ particles. These operators have several important properties that make them useful in describing many-particle systems:
@@ -2991,21 +2806,17 @@ These properties allow us to manipulate the creation and annihilation operators 
 The commutation relations between creation and annihilation operators play a crucial role in second quantization. These relations are defined as follows:
 
 
-
 $$
 
 [a_i,a_j^\dagger] = \delta_{ij}
 
 $$
 
-
-
 $$
 
 [a_i,a_j] = [a_i^\dagger,a_j^\dagger] = 0
 
 $$
-
 
 
 where $i$ and $j$ represent different quantum states. These relations can be derived from the canonical commutation relations between position and momentum operators in quantum mechanics. They also have a direct analogy in classical physics, where the Poisson bracket is used instead of the commutator.
@@ -3045,21 +2856,17 @@ In this section, we will introduce the creation and annihilation operators, whic
 The creation and annihilation operators, denoted by $a^\dagger$ and $a$, respectively, are mathematical operators that act on a quantum state to create or destroy a particle in that state. They are defined as follows:
 
 
-
 $$
 
 a^\dagger \left| n \right> = \sqrt{n+1} \left| n+1 \right>
 
 $$
 
-
-
 $$
 
 a \left| n \right> = \sqrt{n} \left| n-1 \right>
 
 $$
-
 
 
 where $\left| n \right>$ represents a state with $n$ particles. These operators have several important properties that make them useful in describing many-particle systems:
@@ -3091,13 +2898,11 @@ In the previous section, we introduced the creation and annihilation operators a
 To understand the creation and annihilation operators in the context of the quantum harmonic oscillator, we first need to define the orthonormal basis for this system. The orthonormal basis consists of the eigenstates of the harmonic oscillator, which are given by:
 
 
-
 $$
 
 \psi_n(x) = \frac{1}{\sqrt{2^n n!}} \left(\frac{m\omega}{\pi\hbar}\right)^{1/4} e^{-\frac{m\omega x^2}{2\hbar}} H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)
 
 $$
-
 
 
 where $H_n(x)$ is the Hermite polynomial of degree $n$. These eigenstates form a complete set, meaning that any wavefunction can be expressed as a linear combination of these states.
@@ -3107,7 +2912,6 @@ where $H_n(x)$ is the Hermite polynomial of degree $n$. These eigenstates form a
 Now, we can define the matrix representation of the creation and annihilation operators with respect to this basis. The matrix expression for the creation operator is given by:
 
 
-
 $$
 
 a^\dagger_{ij} = \langle\psi_i \mid a^\dagger \mid \psi_j\rangle = \sqrt{j+1}\delta_{i,j+1}
@@ -3115,9 +2919,7 @@ a^\dagger_{ij} = \langle\psi_i \mid a^\dagger \mid \psi_j\rangle = \sqrt{j+1}\de
 $$
 
 
-
 Similarly, the matrix expression for the annihilation operator is given by:
-
 
 
 $$
@@ -3125,7 +2927,6 @@ $$
 a_{ij} = \langle\psi_i \mid a \mid \psi_j\rangle = \sqrt{j}\delta_{i,j-1}
 
 $$
-
 
 
 where $\delta_{i,j}$ is the Kronecker delta. These expressions can be obtained using the relationships $a^\dagger = \sqrt{n+1}$ and $a = \sqrt{n}$, as well as the orthonormality of the basis states.
@@ -3161,21 +2962,17 @@ In this section, we will introduce the creation and annihilation operators, whic
 The creation and annihilation operators, denoted by $a^\dagger$ and $a$, respectively, are mathematical operators that act on a quantum state to create or destroy a particle in that state. They are defined as follows:
 
 
-
 $$
 
 a^\dagger \left| n \right> = \sqrt{n+1} \left| n+1 \right>
 
 $$
 
-
-
 $$
 
 a \left| n \right> = \sqrt{n} \left| n-1 \right>
 
 $$
-
 
 
 where $\left| n \right>$ represents a state with $n$ particles. These operators have several important properties that make them useful in describing many-particle systems:
@@ -3195,13 +2992,11 @@ where $\left| n \right>$ represents a state with $n$ particles. These operators 
 These properties allow us to manipulate the creation and annihilation operators in various ways to describe different physical situations. For example, we can use them to construct the Fock states, which are the basis states for the second-quantized Hilbert space. The Fock states are given by:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_k \right> = \frac{1}{\sqrt{n_1!n_2!...n_k!}}(a_1^\dagger)^{n_1}(a_2^\dagger)^{n_2}...(a_k^\dagger)^{n_k}\left| 0 \right>
 
 $$
-
 
 
 where $n_i$ represents the number of particles in the $i$th single-particle state and $\left| 0 \right>$ is the vacuum state with no particles. These states are orthonormal and form a complete basis for the second-quantized Hilbert space.
@@ -3215,21 +3010,17 @@ where $n_i$ represents the number of particles in the $i$th single-particle stat
 The concept of creation and annihilation operators was originally introduced in the context of the quantum harmonic oscillator. However, they are also fundamental to quantum field theory, where they are used to describe the creation and annihilation of particles in a quantum field. In this framework, the creation and annihilation operators are defined as field operators, which are functions of space and time. They are given by:
 
 
-
 $$
 
 \hat{\psi}(\mathbf{x},t) = \sum_{\alpha} \hat{a}_\alpha u_\alpha(\mathbf{x},t)
 
 $$
 
-
-
 $$
 
 \hat{\psi}^\dagger(\mathbf{x},t) = \sum_{\alpha} \hat{a}^\dagger_\alpha u^*_\alpha(\mathbf{x},t)
 
 $$
-
 
 
 where $\hat{a}_\alpha$ and $\hat{a}^\dagger_\alpha$ are the annihilation and creation operators for the $\alpha$th single-particle state, and $u_\alpha(\mathbf{x},t)$ is the corresponding wave function. These operators satisfy the same commutation relations as the creation and annihilation operators in the quantum harmonic oscillator.
@@ -3247,14 +3038,11 @@ In quantum field theory, the creation and annihilation operators are used to con
 The creation and annihilation of a particle can be thought of as the insertion and deletion of a single-particle state from the first-quantized wave function. This operation is implemented by the insertion and deletion operators, denoted by $\otimes_\pm$ and $\oslash_\pm$, respectively. These operators are defined recursively as follows:
 
 
-
 $$
 
 \left| \Psi \right> = \psi_{\alpha_1}\otimes\psi_{\alpha_2}\otimes\cdots\otimes\psi_{\alpha_n}\left| 0 \right> = \left| \alpha_1, \alpha_2, ..., \alpha_n \right>
 
 $$
-
-
 
 $$
 
@@ -3262,14 +3050,11 @@ $$
 
 $$
 
-
-
 $$
 
 \psi_{\alpha_i} \oslash_\pm \left| \alpha_1, \alpha_2, ..., \alpha_n \right> = \frac{1}{\sqrt{n}}\left| \alpha_1, \alpha_2, ..., \alpha_{i-1}, \alpha_{i+1}, ..., \alpha_n \right> \pm \frac{1}{\sqrt{n}}\left| \alpha_1, \alpha_2, ..., \alpha_n \right>
 
 $$
-
 
 
 where $\left| \alpha_1, \alpha_2, ..., \alpha_n \right>$ represents a state with particles in the single-particle states $\alpha_1, \alpha_2, ..., \alpha_n$. These operators are useful for understanding the symmetries and statistics of many-particle systems, and they play a crucial role in the construction of the second-quantized Hamiltonian and other physical observables.
@@ -3301,13 +3086,11 @@ In the previous section, we introduced the creation and annihilation operators, 
 The occupation number representation is a mathematical framework that describes the number of particles in a given quantum state. It is based on the concept of occupation numbers, which represent the number of particles in a specific energy level or quantum state. The occupation number representation is defined as follows:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where $n_i$ represents the occupation number of the $i$th quantum state. This representation allows us to describe the state of a many-particle system by specifying the occupation numbers of each quantum state.
@@ -3351,13 +3134,11 @@ In the previous section, we introduced the creation and annihilation operators, 
 The occupation number representation is a mathematical framework that describes the number of particles in a given quantum state. It is based on the concept of occupation numbers, which represent the number of particles in a specific energy level or quantum state. The occupation number representation is defined as follows:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where $n_i$ represents the occupation number of the $i$th quantum state. This representation allows us to describe the state of a many-particle system by specifying the occupation numbers of each quantum state.
@@ -3391,13 +3172,11 @@ In fermionic systems, the occupation number representation takes on a special si
 To better understand this concept, let us consider the example of a system of spin-1/2 fermions. In this case, the occupation number representation can be written as:
 
 
-
 $$
 
 \left| n_{\uparrow}, n_{\downarrow} \right> = \left| n_{\uparrow} \right> \otimes \left| n_{\downarrow} \right>
 
 $$
-
 
 
 where $n_{\uparrow}$ and $n_{\downarrow}$ represent the occupation numbers for spin-up and spin-down states, respectively. Since each fermion can only occupy one of these two spin states, the occupation numbers can only take on the values of 0 or 1.
@@ -3411,13 +3190,11 @@ This restriction on the occupation numbers has important consequences for fermio
 In addition, the occupation number representation allows us to easily calculate the total number of particles in a given system. This is given by the sum of the occupation numbers for all quantum states:
 
 
-
 $$
 
 N = \sum_i n_i
 
 $$
-
 
 
 where $N$ is the total number of particles and $n_i$ is the occupation number for the $i$th quantum state.
@@ -3449,13 +3226,11 @@ In the previous section, we introduced the creation and annihilation operators, 
 The occupation number representation is a mathematical framework that describes the number of particles in a given quantum state. It is based on the concept of occupation numbers, which represent the number of particles in a specific energy level or quantum state. The occupation number representation is defined as follows:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where $n_i$ represents the occupation number of the $i$th quantum state. This representation allows us to describe the state of a many-particle system by specifying the occupation numbers of each quantum state.
@@ -3489,13 +3264,11 @@ In the previous section, we discussed the occupation number representation and i
 In bosonic systems, the occupation number of a given quantum state can take on any non-negative integer value. This is because bosons can occupy the same state multiple times, unlike fermions which can only occupy a state once. Therefore, the occupation number representation for bosons can be written as:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where $n_i$ represents the number of bosons in the $i$th quantum state. This representation allows us to easily calculate the total number of particles in a given state by summing up the occupation numbers for all states.
@@ -3531,13 +3304,11 @@ In the previous section, we introduced the creation and annihilation operators, 
 The occupation number representation is a mathematical framework that describes the number of particles in a given quantum state. It is based on the concept of occupation numbers, which represent the number of particles in a specific energy level or quantum state. The occupation number representation is defined as follows:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where $n_i$ represents the occupation number of the $i$th quantum state. This representation allows us to describe the state of a many-particle system by specifying the occupation numbers of each quantum state.
@@ -3641,13 +3412,11 @@ In other words, the norm is the restriction of the norm on the tensor product <m
 The Fock space is a fundamental concept in quantum many-body physics, as it provides a mathematical framework for describing the states of many-particle systems. It is closely related to the occupation number representation, which is another important tool in second quantization. The occupation number representation allows us to describe the number of particles in a given quantum state, and is defined as follows:
 
 
-
 $$
 
 \left| n_1, n_2, ..., n_i, ... \right> = \left| n_1 \right> \otimes \left| n_2 \right> \otimes ... \otimes \left| n_i \right> \otimes ...
 
 $$
-
 
 
 where <math>n_i</math> represents the occupation number of the <math>i</math>th quantum state. This representation is closely related to the Fock space, as each occupation number state corresponds to a specific state in the Fock space. In fact, the Fock space can be seen as the Hilbert space completion of the occupation number representation.
@@ -4483,13 +4252,11 @@ Green's functions, also known as propagators, are mathematical objects that desc
 The single-particle Green's function, denoted by $G$, is defined as the inverse of the single-particle Hamiltonian $H$:
 
 
-
 $$
 
 G = (E - H)^{-1}
 
 $$
-
 
 
 where $E$ is the energy of the system. This definition may seem similar to that of the wavefunction, but Green's functions have several advantages over wavefunctions when dealing with many-body systems. One of the main advantages is that Green's functions can be used to calculate physical quantities, such as correlation functions and spectral functions, without having to explicitly solve the Schrödinger equation.
@@ -4553,13 +4320,11 @@ Green's functions, also known as propagators, are mathematical objects that desc
 The single-particle Green's function, denoted by $G$, is defined as the inverse of the single-particle Hamiltonian $H$:
 
 
-
 $$
 
 G = (E - H)^{-1}
 
 $$
-
 
 
 This definition may seem familiar to those who have studied linear algebra, as it is similar to the inverse of a matrix. In fact, Green's functions can be thought of as the "matrix elements" of the inverse of the Hamiltonian. Just as the inverse of a matrix allows us to solve linear equations, the Green's function allows us to solve the Schrödinger equation for a given energy $E$.
@@ -4569,13 +4334,11 @@ This definition may seem familiar to those who have studied linear algebra, as i
 One of the key properties of Green's functions is that they satisfy the Dyson equation:
 
 
-
 $$
 
 G = G_0 + G_0 \Sigma G
 
 $$
-
 
 
 where $G_0$ is the non-interacting Green's function and $\Sigma$ is the self-energy, which takes into account the interactions between particles. This equation allows us to calculate the Green's function for an interacting system by knowing the Green's function for the non-interacting system and the self-energy.
@@ -4585,13 +4348,11 @@ where $G_0$ is the non-interacting Green's function and $\Sigma$ is the self-ene
 Another important property of Green's functions is that they can be used to calculate correlation functions. For example, the single-particle correlation function can be written as:
 
 
-
 $$
 
 \langle c_i^\dagger c_j \rangle = -iG_{ij}(t-t')
 
 $$
-
 
 
 where $c_i^\dagger$ and $c_j$ are creation and annihilation operators for particles at sites $i$ and $j$, respectively. This shows that the Green's function contains information about the correlations between particles in a system.
@@ -4605,7 +4366,6 @@ where $c_i^\dagger$ and $c_j$ are creation and annihilation operators for partic
 In quantum mechanics, the Green's function can be used to calculate the probability amplitude for a particle to move from one point to another in a given time. This is known as the propagator and is given by:
 
 
-
 $$
 
 K(x_f, t_f; x_i, t_i) = \langle x_f | e^{-iH(t_f-t_i)} | x_i \rangle
@@ -4613,9 +4373,7 @@ K(x_f, t_f; x_i, t_i) = \langle x_f | e^{-iH(t_f-t_i)} | x_i \rangle
 $$
 
 
-
 where $x_i$ and $x_f$ are the initial and final positions of the particle, and $t_i$ and $t_f$ are the initial and final times. This propagator can be written in terms of the Green's function as:
-
 
 
 $$
@@ -4623,7 +4381,6 @@ $$
 K(x_f, t_f; x_i, t_i) = \int G(x_f, t_f; x, t) V(x, t) G(x, t; x_i, t_i) dx dt
 
 $$
-
 
 
 where $V(x, t)$ is the potential energy of the system. This shows that the Green's function contains information about the dynamics of a system and can be used to calculate the probability of a particle moving from one point to another.
@@ -4671,7 +4428,6 @@ Green's functions, also known as propagators, are mathematical objects that desc
 The single-particle Green's function, denoted by $G$, is defined as the time-ordered correlation function of two field operators, $\psi$ and $\bar{\psi}$, which create and annihilate particles respectively. In other words, it is the average of the product of these operators over all possible states of the system. Mathematically, it can be written as:
 
 
-
 $$
 
 G(\tau_1, \tau_2) = \langle T[\psi(\tau_1)\bar{\psi}(\tau_2)] \rangle
@@ -4679,9 +4435,7 @@ G(\tau_1, \tau_2) = \langle T[\psi(\tau_1)\bar{\psi}(\tau_2)] \rangle
 $$
 
 
-
 where $T$ is the time-ordering operator and $\tau_1$ and $\tau_2$ are the time arguments. The Green's function can also be written in terms of the creation and annihilation operators for single-particle states, $\psi_\alpha$ and $\bar{\psi}_\beta$, as:
-
 
 
 $$
@@ -4691,7 +4445,6 @@ G(\tau_1, \tau_2) = \langle T[\psi_\alpha(\tau_1)\bar{\psi}_\beta(\tau_2)] \rang
 $$
 
 
-
 where $\alpha$ and $\beta$ represent the single-particle states.
 
 
@@ -4699,13 +4452,11 @@ where $\alpha$ and $\beta$ represent the single-particle states.
 One of the key properties of Green's functions is that they depend only on the difference of their time arguments. This means that they are translationally invariant in time, making them useful for studying systems with time-dependent perturbations. Additionally, Green's functions also exhibit periodicity properties, such as:
 
 
-
 $$
 
 G(\tau) = G(\tau + \beta)
 
 $$
-
 
 
 for $\tau < 0$, where $\beta$ is the inverse temperature. This periodicity is a result of the underlying periodicity of the system's Hamiltonian.
@@ -4719,13 +4470,11 @@ for $\tau < 0$, where $\beta$ is the inverse temperature. This periodicity is a 
 One of the most useful applications of Green's functions is in calculating spectral functions, which provide information about the energy levels of a system. In the case of single-particle Green's functions, the spectral function is given by:
 
 
-
 $$
 
 \rho_{\alpha\beta}(\omega) = \frac{1}{Z} \sum_{m,n} 2\pi \delta(E_n - E_m - \omega) \langle m | \psi_\alpha | n \rangle \langle n | \bar{\psi}_\beta | m \rangle
 
 $$
-
 
 
 where $Z$ is the partition function and $E_n$ and $E_m$ are the energies of the states $|n\rangle$ and $|m\rangle$ respectively. This spectral function provides information about the energy levels of the system and can be used to calculate physical quantities such as the density of states.
@@ -4739,13 +4488,11 @@ where $Z$ is the partition function and $E_n$ and $E_m$ are the energies of the 
 In quantum field theory, Green's functions play a crucial role in understanding the behavior of many-body systems. They are used to calculate correlation functions, which provide information about the interactions between particles in a system. In particular, the two-point correlation function, also known as the propagator, is of great interest in quantum field theory. It is defined as:
 
 
-
 $$
 
 \mathcal{G}_{\alpha\beta}(\tau_1, \tau_2) = \langle T[\psi_\alpha(\tau_1)\bar{\psi}_\beta(\tau_2)] \rangle
 
 $$
-
 
 
 where $\alpha$ and $\beta$ represent the single-particle states. This two-point function can be used to calculate physical quantities such as the scattering amplitude and the vacuum expectation value of the field operators.
@@ -4793,13 +4540,11 @@ Green's functions, also known as propagators, are mathematical objects that desc
 The single-particle Green's function, denoted by $G$, is defined as the inverse of the single-particle Hamiltonian $H$:
 
 
-
 $$
 
 G = (E - H)^{-1}
 
 $$
-
 
 
 where $E$ is the energy of the system. This definition allows us to calculate the response of the system to an external perturbation by simply multiplying the Green's function with the perturbation. Green's functions have several important properties that make them useful in many-body physics. These include:
@@ -4815,13 +4560,11 @@ where $E$ is the energy of the system. This definition allows us to calculate th
 - **Spectral representation:** The Green's function can be written as a sum over the energy eigenstates of the system:
 
 
-
 $$
 
 G = \sum_n \frac{\psi_n \psi_n^\dagger}{E - E_n}
 
 $$
-
 
 
 where $\psi_n$ are the wavefunctions of the energy eigenstates and $E_n$ are the corresponding eigenvalues.
@@ -4861,21 +4604,17 @@ The retarded and advanced Green's functions, denoted by $G^R$ and $G^A$ respecti
 The retarded Green's function describes the response of a system to an external perturbation at a later time, while the advanced Green's function describes the response at an earlier time. Mathematically, they can be defined as:
 
 
-
 $$
 
 G^R(t) = -i\theta(t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
 
-
-
 $$
 
 G^A(t) = i\theta(-t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
-
 
 
 where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at time $t$, and $\theta(t)$ is the Heaviside step function.
@@ -4885,13 +4624,11 @@ where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at t
 One of the key properties of the retarded and advanced Green's functions is that they are related to each other by a complex conjugate:
 
 
-
 $$
 
 G^A(t) = (G^R(t))^*
 
 $$
-
 
 
 This property is known as the Kramers-Kronig relation and is a consequence of causality. It states that the response of a system at a later time is related to the response at an earlier time by a complex conjugate.
@@ -4901,21 +4638,17 @@ This property is known as the Kramers-Kronig relation and is a consequence of ca
 Another important property of the retarded and advanced Green's functions is that they satisfy the Dyson equation:
 
 
-
 $$
 
 G^R(t) = G^0(t) + G^0(t)\Sigma^R(t)G^R(t)
 
 $$
 
-
-
 $$
 
 G^A(t) = G^0(t) + G^0(t)\Sigma^A(t)G^A(t)
 
 $$
-
 
 
 where $G^0(t)$ is the non-interacting Green's function and $\Sigma^R(t)$ and $\Sigma^A(t)$ are the retarded and advanced self-energies, respectively. This equation is crucial in calculating the Green's function for interacting systems.
@@ -4955,21 +4688,17 @@ The retarded and advanced Green's functions, denoted by $G^R$ and $G^A$ respecti
 The retarded Green's function describes the response of a system to an external perturbation at a later time, while the advanced Green's function describes the response at an earlier time. Mathematically, they can be defined as:
 
 
-
 $$
 
 G^R(t) = -i\theta(t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
 
-
-
 $$
 
 G^A(t) = i\theta(-t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
-
 
 
 where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at time $t$, and $\theta(t)$ is the Heaviside step function.
@@ -4979,13 +4708,11 @@ where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at t
 One of the key properties of the retarded and advanced Green's functions is that they are related to each other by a complex conjugate:
 
 
-
 $$
 
 G^A(t) = (G^R(t))^*
 
 $$
-
 
 
 This property is known as the Kramers-Kronig relation and is a consequence of causality. It states that the response of a system at a later time is related to the response at an earlier time by a complex conjugate.
@@ -4995,21 +4722,17 @@ This property is known as the Kramers-Kronig relation and is a consequence of ca
 Another important property of the retarded and advanced Green's functions is that they satisfy the Dyson equation:
 
 
-
 $$
 
 G^R(t) = G^0(t) + G^0(t)\Sigma^R(t)G^R(t)
 
 $$
 
-
-
 $$
 
 G^A(t) = G^0(t) + G^0(t)\Sigma^A(t)G^A(t)
 
 $$
-
 
 
 where $G^0(t)$ is the non-interacting Green's function and $\Sigma^R(t)$ and $\Sigma^A(t)$ are the retarded and advanced self-energies, respectively. This equation is a fundamental tool in many-body physics and allows us to calculate the Green's function for an interacting system in terms of the non-interacting Green's function and the self-energy.
@@ -5023,21 +4746,17 @@ where $G^0(t)$ is the non-interacting Green's function and $\Sigma^R(t)$ and $\S
 In quantum mechanics, the retarded and advanced Green's functions can be expressed in terms of the time evolution operator, $U(t)$, as:
 
 
-
 $$
 
 G^R(t) = -i\theta(t)\langle c(t)U^\dagger(t)c^\dagger(0)\rangle
 
 $$
 
-
-
 $$
 
 G^A(t) = i\theta(-t)\langle c(t)U^\dagger(t)c^\dagger(0)\rangle
 
 $$
-
 
 
 where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at time $t$, and $\theta(t)$ is the Heaviside step function. These expressions can be derived using the Heisenberg picture and the definition of the Green's function.
@@ -5081,21 +4800,17 @@ The retarded and advanced Green's functions, denoted by $G^R$ and $G^A$ respecti
 The retarded Green's function describes the response of a system to an external perturbation at a later time, while the advanced Green's function describes the response at an earlier time. Mathematically, they can be defined as:
 
 
-
 $$
 
 G^R(t) = -i\theta(t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
 
-
-
 $$
 
 G^A(t) = i\theta(-t)\langle\{c(t), c^\dagger(0)\}\rangle
 
 $$
-
 
 
 where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at time $t$, and $\theta(t)$ is the Heaviside step function.
@@ -5105,13 +4820,11 @@ where $c(t)$ and $c^\dagger(t)$ are the annihilation and creation operators at t
 One of the key properties of the retarded and advanced Green's functions is that they are related to each other by a complex conjugate:
 
 
-
 $$
 
 G^A(t) = (G^R(t))^*
 
 $$
-
 
 
 This property is known as the Kramers-Kronig relation and is a consequence of causality. It states that the response of a system at a later time is related to the response at an earlier time by a complex conjugate.
@@ -5121,21 +4834,17 @@ This property is known as the Kramers-Kronig relation and is a consequence of ca
 Another important property of the retarded and advanced Green's functions is that they satisfy the Dyson equation:
 
 
-
 $$
 
 G^R(t) = G^0(t) + G^0(t)\Sigma^R(t)G^R(t)
 
 $$
 
-
-
 $$
 
 G^A(t) = G^0(t) + G^0(t)\Sigma^A(t)G^A(t)
 
 $$
-
 
 
 where $G^0(t)$ is the non-interacting Green's function and $\Sigma^R(t)$ and $\Sigma^A(t)$ are the retarded and advanced self-energies, respectively. These self-energies take into account the effects of interactions between particles in the system.
@@ -5229,7 +4938,6 @@ Dyson's equation relates the Green's function of a system to its self-energy, wh
 Dyson's equation can be written in the following form:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G
@@ -5237,9 +4945,7 @@ G = G_0 + G_0\Sigma G
 $$
 
 
-
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This equation can also be expressed in terms of the retarded and advanced Green's functions, as:
-
 
 
 $$
@@ -5248,14 +4954,11 @@ G^R = G_0^R + G_0^R\Sigma^R G^R
 
 $$
 
-
-
 $$
 
 G^A = G_0^A + G_0^A\Sigma^A G^A
 
 $$
-
 
 
 where the superscripts $R$ and $A$ denote the retarded and advanced Green's functions, respectively.
@@ -5299,7 +5002,6 @@ Dyson's equation relates the Green's function of a system to its self-energy, wh
 Dyson's equation can be written in the following form:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G
@@ -5307,9 +5009,7 @@ G = G_0 + G_0\Sigma G
 $$
 
 
-
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This equation can also be expressed in terms of the retarded and advanced Green's functions, as:
-
 
 
 $$
@@ -5318,14 +5018,11 @@ G^R = G_0^R + G_0^R\Sigma^R G^R
 
 $$
 
-
-
 $$
 
 G^A = G_0^A + G_0^A\Sigma^A G^A
 
 $$
-
 
 
 where the superscripts $R$ and $A$ denote the retarded and advanced Green's functions, respectively.
@@ -5381,7 +5078,6 @@ Dyson's equation relates the Green's function of a system to its self-energy, wh
 Dyson's equation can be written in the following form:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G
@@ -5389,9 +5085,7 @@ G = G_0 + G_0\Sigma G
 $$
 
 
-
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This equation can also be expressed in terms of the retarded and advanced Green's functions, as:
-
 
 
 $$
@@ -5400,14 +5094,11 @@ G^R = G_0^R + G_0^R\Sigma^R G^R
 
 $$
 
-
-
 $$
 
 G^A = G_0^A + G_0^A\Sigma^A G^A
 
 $$
-
 
 
 where the superscripts $R$ and $A$ denote the retarded and advanced Green's functions, respectively.
@@ -5487,7 +5178,6 @@ Dyson's equation relates the Green's function of a system to its self-energy, wh
 Dyson's equation can be written in the following form:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G
@@ -5495,9 +5185,7 @@ G = G_0 + G_0\Sigma G
 $$
 
 
-
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This equation can also be expressed in terms of the retarded and advanced Green's functions, as:
-
 
 
 $$
@@ -5506,14 +5194,11 @@ G^R = G_0^R + G_0^R\Sigma^R G^R
 
 $$
 
-
-
 $$
 
 G^A = G_0^A + G_0^A\Sigma^A G^A
 
 $$
-
 
 
 where the superscripts $R$ and $A$ denote the retarded and advanced Green's functions, respectively.
@@ -5577,7 +5262,6 @@ The main idea behind many-body perturbation theory is to treat the interactions 
 The perturbative expansion of the Green's function can be written as:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G + G_0\Sigma G_0\Sigma G + \cdots
@@ -5585,9 +5269,7 @@ G = G_0 + G_0\Sigma G + G_0\Sigma G_0\Sigma G + \cdots
 $$
 
 
-
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This expansion can also be expressed in terms of the retarded and advanced Green's functions, as:
-
 
 
 $$
@@ -5596,14 +5278,11 @@ G^R = G_0^R + G_0^R\Sigma^R G^R + G_0^R\Sigma^R G_0^R\Sigma^R G^R + \cdots
 
 $$
 
-
-
 $$
 
 G^A = G_0^A + G_0^A\Sigma^A G^A + G_0^A\Sigma^A G_0^A\Sigma^A G^A + \cdots
 
 $$
-
 
 
 where the superscripts $R$ and $A$ denote the retarded and advanced Green's functions, respectively.
@@ -5647,13 +5326,11 @@ In the previous section, we discussed the definition and properties of many-body
 In quantum mechanics, many-body perturbation theory is used to study the behavior of a system of particles with interactions. The Hamiltonian for such a system can be written as:
 
 
-
 $$
 
 H = H_0 + H'
 
 $$
-
 
 
 where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbation term that accounts for the interactions between particles. In the case of the helium atom, $H_0$ is the sum of two hydrogenic Hamiltonians, while $H'$ is the electron-electron interaction term.
@@ -5663,7 +5340,6 @@ where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbati
 To begin our analysis, we first neglect the electron-electron interaction term and focus on the zero-order equation:
 
 
-
 $$
 
 H_0\psi^{(0)}(\mathbf{r}_1, \mathbf{r}_2) = E^{(0)} \psi^{(0)}(\mathbf{r}_1, \mathbf{r}_2)
@@ -5671,9 +5347,7 @@ H_0\psi^{(0)}(\mathbf{r}_1, \mathbf{r}_2) = E^{(0)} \psi^{(0)}(\mathbf{r}_1, \ma
 $$
 
 
-
 This equation is separable and the eigenfunctions can be written as single products of hydrogenic wave functions, as shown in the context. The corresponding energies are given by:
-
 
 
 $$
@@ -5683,7 +5357,6 @@ E^{(0)}_{n_1,n_2} = E_{n_1} + E_{n_2} = - \frac{Z^2}{2} \left[\frac{1}{n_1^2} + 
 $$
 
 
-
 However, this approach neglects the effects of the electron-electron interaction, which can significantly alter the energy levels and wave functions of the system. To account for these interactions, we turn to many-body perturbation theory.
 
 
@@ -5691,13 +5364,11 @@ However, this approach neglects the effects of the electron-electron interaction
 The perturbative expansion of the Green's function can be written as:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G + G_0\Sigma G_0\Sigma G + \cdots
 
 $$
-
 
 
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This expansion takes into account the effects of the electron-electron interaction and allows us to calculate the Green's function of the interacting system.
@@ -5741,13 +5412,11 @@ In the previous section, we discussed the application of many-body perturbation 
 In quantum field theory, many-body perturbation theory is used to study the behavior of a system of particles with interactions in the context of relativistic quantum mechanics. The Hamiltonian for such a system can be written as:
 
 
-
 $$
 
 H = H_0 + H'
 
 $$
-
 
 
 where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbation term that accounts for the interactions between particles. In the case of quantum field theory, $H_0$ is the free field Hamiltonian and $H'$ is the interaction term.
@@ -5757,7 +5426,6 @@ where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbati
 To begin our analysis, we first neglect the interaction term and focus on the zero-order equation:
 
 
-
 $$
 
 H_0\psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n) = E^{(0)} \psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n)
@@ -5765,9 +5433,7 @@ H_0\psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n) = E^{(0)} \psi^{
 $$
 
 
-
 This equation is separable and the eigenfunctions can be written as products of single-particle wave functions, as shown in the context. The corresponding energies are given by:
-
 
 
 $$
@@ -5777,7 +5443,6 @@ E^{(0)}_{n_1,n_2,\cdots,n_n} = \sum_{i=1}^n E_{n_i}
 $$
 
 
-
 However, this approach neglects the effects of the interactions between particles, which can significantly alter the energy levels and wave functions of the system. To account for these interactions, we turn to many-body perturbation theory.
 
 
@@ -5785,13 +5450,11 @@ However, this approach neglects the effects of the interactions between particle
 The perturbative expansion of the Green's function can be written as:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G + G_0\Sigma G_0\Sigma G + \cdots
 
 $$
-
 
 
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This expansion takes into account the effects of the interactions between particles and allows us to calculate the energy levels and wave functions of the system to higher orders of perturbation.
@@ -5839,13 +5502,11 @@ Condensed matter systems are characterized by a large number of interacting part
 In condensed matter physics, the Hamiltonian for a system of particles can be written as:
 
 
-
 $$
 
 H = H_0 + H'
 
 $$
-
 
 
 where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbation term that accounts for the interactions between particles. The zero-order Hamiltonian typically describes the non-interacting particles, such as free electrons in a metal or non-interacting atoms in a gas.
@@ -5855,7 +5516,6 @@ where $H_0$ is the zero-order unperturbed Hamiltonian and $H'$ is the perturbati
 To begin our analysis, we first neglect the interaction term and focus on the zero-order equation:
 
 
-
 $$
 
 H_0\psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n) = E^{(0)} \psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n)
@@ -5863,9 +5523,7 @@ H_0\psi^{(0)}(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_n) = E^{(0)} \psi^{
 $$
 
 
-
 This equation is separable and the eigenfunctions can be written as products of single-particle wave functions, as shown in the context. The corresponding energies are given by:
-
 
 
 $$
@@ -5875,7 +5533,6 @@ E^{(0)}_{n_1,n_2,\cdots,n_n} = \sum_{i=1}^n E_{n_i}
 $$
 
 
-
 However, this approach neglects the effects of the interactions between particles, which can significantly alter the energy levels and wave functions of the system. To account for these interactions, we turn to many-body perturbation theory.
 
 
@@ -5883,13 +5540,11 @@ However, this approach neglects the effects of the interactions between particle
 The perturbative expansion of the Green's function can be written as:
 
 
-
 $$
 
 G = G_0 + G_0\Sigma G + G_0\Sigma G_0\Sigma G + \cdots
 
 $$
-
 
 
 where $G$ is the full Green's function, $G_0$ is the non-interacting Green's function, and $\Sigma$ is the self-energy. This expansion takes into account the effects of the interactions between particles and allows us to calculate the properties of the system, such as the energy levels and wave functions, to higher orders of accuracy.
@@ -5933,13 +5588,11 @@ In the previous section, we discussed the concept of Green's functions and their
 The self-energy, denoted by $\Sigma$, is a mathematical quantity that describes the effects of interactions between particles in a system. It is defined as the difference between the exact Green's function and the non-interacting Green's function:
 
 
-
 $$
 
 \Sigma = G - G_0
 
 $$
-
 
 
 where $G$ is the exact Green's function and $G_0$ is the non-interacting Green's function. In other words, the self-energy takes into account the effects of interactions that are not accounted for in the zero-order Hamiltonian.
@@ -5953,13 +5606,11 @@ The self-energy has several important properties that make it a useful tool in m
 One of the most important properties of the self-energy is its relation to the single-particle Green's function. The Dyson equation, which relates the exact Green's function to the self-energy, can be written as:
 
 
-
 $$
 
 G = G_0 + G_0 \Sigma G
 
 $$
-
 
 
 This equation shows that the self-energy acts as a correction to the non-interacting Green's function, taking into account the effects of interactions between particles. It also highlights the importance of the self-energy in understanding the behavior of interacting particles in condensed matter systems.
@@ -5999,13 +5650,11 @@ The self-energy, denoted by $\Sigma$, is a fundamental concept in quantum mechan
 One of the key equations in quantum mechanics that involves the self-energy is the Dyson equation, which relates the exact Green's function to the self-energy:
 
 
-
 $$
 
 G = G_0 + G_0 \Sigma G
 
 $$
-
 
 
 This equation highlights the importance of the self-energy in understanding the behavior of interacting particles. It shows that the self-energy acts as a correction to the non-interacting Green's function, taking into account the effects of interactions between particles.
@@ -6053,13 +5702,11 @@ In quantum field theory, the self-energy is a fundamental concept that describes
 One of the key equations in quantum field theory that involves the self-energy is the Dyson-Schwinger equation, which relates the exact propagator to the self-energy:
 
 
-
 $$
 
 G = G_0 + G_0 \Sigma G
 
 $$
-
 
 
 This equation highlights the importance of the self-energy in understanding the behavior of interacting particles in a field. It shows that the self-energy acts as a correction to the non-interacting propagator, taking into account the effects of interactions between particles.
@@ -6107,13 +5754,11 @@ In condensed matter physics, the self-energy is a crucial concept that describes
 One of the key equations in condensed matter physics that involves the self-energy is the Dyson equation, which relates the exact Green's function to the self-energy:
 
 
-
 $$
 
 G = G_0 + G_0 \Sigma G
 
 $$
-
 
 
 This equation highlights the importance of the self-energy in understanding the behavior of particles in a material. It shows that the self-energy acts as a correction to the non-interacting Green's function, taking into account the effects of interactions between particles.
@@ -6135,7 +5780,6 @@ The self-energy also plays a key role in the multiscale Green's function (MSGF) 
 In a perfect lattice without defects, the MSGF links the atomistic scales in the local self-energy Green's function (LSGF) to the macroscopic scales through the continuum model. This is possible because a perfect lattice has full translation symmetry, meaning that all atoms are equivalent. In this case, any atom can be chosen as the origin and the LSGF can be expressed by a single index (L'-L) defined as:
 
 
-
 $$
 
 G(L,L') = G(L'-L)
@@ -6143,9 +5787,7 @@ G(L,L') = G(L'-L)
 $$
 
 
-
 The asymptotic limit of $G(L)$, that satisfies Eq. (10), for large values of $R(L)$ is given by:
-
 
 
 $$
@@ -6153,7 +5795,6 @@ $$
 G(L) \sim \frac{1}{R(L)^2}
 
 $$
-
 
 
 where $x = R(L)$ is the position vector of the atom $L$, and $G_c(x)$ is the continuum Green's function (CGF), which is defined in terms of the elastic constants and used in modeling of conventional bulk materials at macroscales. In this equation, $O(1/x^n)$ is the standard mathematical notation for a term of order $1/x^n$ and higher. The magnitude of $G_c(x)$ is $O(1/x^2)$. This shows that the LSGF $G(0,L)$ reduces smoothly and automatically to the CGF for large enough $x$, ensuring the seamless linkage of the atomistic length scale to the macroscopic continuum scale.
@@ -6445,7 +6086,6 @@ The Hartree-Fock approximation has several important properties that make it a u
 To derive the Hartree-Fock equations, we start with the variational principle, which states that the energy of a system is minimized with respect to the wavefunction. In the case of the Hartree-Fock approximation, the wavefunction is a single Slater determinant, which can be written as:
 
 
-
 $$
 
 \Psi(x_1, x_2, ..., x_N) = \frac{1}{\sqrt{N!}} \begin{vmatrix}
@@ -6463,9 +6103,7 @@ $$
 $$
 
 
-
 where $\phi_i(x_j)$ is the one-particle wavefunction for particle $i$ at position $x_j$. The energy functional for the Hartree-Fock approximation is then given by:
-
 
 
 $$
@@ -6475,9 +6113,7 @@ E[\Psi] = \int \Psi^*(x_1, x_2, ..., x_N) \hat{H} \Psi(x_1, x_2, ..., x_N) dx_1 
 $$
 
 
-
 where $\hat{H}$ is the Hamiltonian operator for the system. In the Born-Oppenheimer approximation, the molecular Hamiltonian can be written as:
-
 
 
 $$
@@ -6487,9 +6123,7 @@ $$
 $$
 
 
-
 where $\hat{H}^e$ is the electronic Hamiltonian and $\hat{V}_{ee}$ is the electron-electron interaction term. Using the Slater determinant form of the wavefunction, we can rewrite the energy functional as:
-
 
 
 $$
@@ -6499,9 +6133,7 @@ E[\Psi] = \int \Psi^*(x_1, x_2, ..., x_N) \hat{H}^e \Psi(x_1, x_2, ..., x_N) dx_
 $$
 
 
-
 To simplify this expression, we introduce the one-particle density matrix, defined as:
-
 
 
 $$
@@ -6511,9 +6143,7 @@ $$
 $$
 
 
-
 which represents the probability of finding a particle at position $x_j$ when another particle is fixed at position $x_i$. Using this, we can rewrite the energy functional as:
-
 
 
 $$
@@ -6523,9 +6153,7 @@ E[\Psi] = \int \Psi^*(x_1, x_2, ..., x_N) \hat{H}^e \Psi(x_1, x_2, ..., x_N) dx_
 $$
 
 
-
 To minimize this energy functional, we use the method of Lagrange multipliers and introduce the constraint that the one-particle density matrix is orthonormal, i.e.:
-
 
 
 $$
@@ -6535,9 +6163,7 @@ $$
 $$
 
 
-
 where $\phi_i(x_i)$ are the one-particle wavefunctions. This leads to the following variation of the energy functional:
-
 
 
 $$
@@ -6547,9 +6173,7 @@ $$
 $$
 
 
-
 where $\hat{h}^1(x_i)$ is the one-particle Hamiltonian and $\epsilon_i$ is the Lagrange multiplier. Simplifying this expression, we obtain the Hartree-Fock equations:
-
 
 
 $$
@@ -6559,9 +6183,7 @@ $$
 $$
 
 
-
 where the one-particle density matrix is given by:
-
 
 
 $$
@@ -6571,9 +6193,7 @@ $$
 $$
 
 
-
 and the Coulomb and exchange operators are defined as:
-
 
 
 $$
@@ -6582,14 +6202,11 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{K}(x_k) = \int \rho(x_j, x_k) \hat{V}_{ee} \phi_j(x_k) dx_j
 
 $$
-
 
 
 These equations can be solved self-consistently to obtain the one-particle wavefunctions and the total energy of the system. 
@@ -6773,7 +6390,6 @@ Using these assumptions, we can derive the BdG equations, which take the form of
 The BdG equations in quantum mechanics are a special case of the general BdG equations, which are used to describe a wide range of many-body systems. In quantum mechanics, the BdG equations take the form:
 
 
-
 $$
 
 \begin{pmatrix}
@@ -6803,7 +6419,6 @@ v_n(\mathbf{r})
 \end{pmatrix}
 
 $$
-
 
 
 where $\hat{H}_0$ is the single-particle Hamiltonian, $\mu$ is the chemical potential, $\hat{\Delta}$ is the pairing potential, and $E_n$ is the energy of the $n$th eigenstate. These equations can be solved for the eigenstates and eigenenergies, providing a complete description of the system.
@@ -7027,13 +6642,11 @@ The mean field theory is a powerful tool in the study of quantum many-body syste
 The mean field Hamiltonian is a central concept in mean field theory. It is a mathematical representation of the average field that particles experience in a many-body system. The mean field Hamiltonian is defined as the sum of the one-body Hamiltonian and the mean field potential. Mathematically, it can be written as:
 
 
-
 $$
 
 \hat{H}_{MF} = \hat{H}_{1} + \hat{V}_{MF}
 
 $$
-
 
 
 where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean field potential.
@@ -7043,13 +6656,11 @@ where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean f
 The mean field potential is a self-consistent potential that takes into account the average effect of all the other particles in the system. It is given by:
 
 
-
 $$
 
 \hat{V}_{MF} = \sum_{j=1}^{N} \hat{v}_{j}
 
 $$
-
 
 
 where $\hat{v}_{j}$ is the potential experienced by the $j$th particle due to the presence of all the other particles in the system.
@@ -7111,13 +6722,11 @@ In quantum mechanics, the mean field Hamiltonian plays a crucial role in underst
 The mean field Hamiltonian in quantum mechanics is defined as the sum of the one-body Hamiltonian and the mean field potential. Mathematically, it can be written as:
 
 
-
 $$
 
 \hat{H}_{MF} = \hat{H}_{1} + \hat{V}_{MF}
 
 $$
-
 
 
 where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean field potential. The one-body Hamiltonian describes the motion of a single particle in an external potential, while the mean field potential takes into account the average effect of all the other particles in the system.
@@ -7127,13 +6736,11 @@ where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean f
 The mean field potential is a self-consistent potential, meaning that it is determined by the wavefunction of the system. This is because the potential experienced by a particle is influenced by the positions of all the other particles, which are described by the wavefunction. Therefore, the mean field potential can be written as:
 
 
-
 $$
 
 \hat{V}_{MF} = \sum_{j=1}^{N} \hat{v}_{j} = \sum_{j=1}^{N} \hat{v}_{j}(\psi)
 
 $$
-
 
 
 where $\psi$ is the wavefunction of the system.
@@ -7181,13 +6788,11 @@ In quantum field theory, the mean field Hamiltonian plays a crucial role in unde
 The mean field Hamiltonian in quantum field theory is defined as the sum of the one-body Hamiltonian and the mean field potential. Mathematically, it can be written as:
 
 
-
 $$
 
 \hat{H}_{MF} = \hat{H}_{1} + \hat{V}_{MF}
 
 $$
-
 
 
 where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean field potential. The one-body Hamiltonian describes the motion of a single particle in an external potential, while the mean field potential takes into account the average effect of all the other particles in the system.
@@ -7197,13 +6802,11 @@ where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean f
 The mean field potential is a self-consistent potential, meaning that it is determined by the field operators of the system. This is because the potential experienced by a particle is influenced by the field operators of all the other particles, which are described by the field equations. Therefore, the mean field potential can be written as:
 
 
-
 $$
 
 \hat{V}_{MF} = \int d^3x \hat{\phi}(\vec{x}) \hat{\rho}(\vec{x})
 
 $$
-
 
 
 where $\hat{\phi}(\vec{x})$ is the field operator and $\hat{\rho}(\vec{x})$ is the density operator.
@@ -7255,13 +6858,11 @@ In condensed matter physics, the mean field Hamiltonian is a fundamental concept
 The mean field Hamiltonian in condensed matter physics is defined as the sum of the one-body Hamiltonian and the mean field potential. Mathematically, it can be written as:
 
 
-
 $$
 
 \hat{H}_{MF} = \hat{H}_{1} + \hat{V}_{MF}
 
 $$
-
 
 
 where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean field potential. The one-body Hamiltonian describes the motion of a single particle in an external potential, while the mean field potential takes into account the average effect of all the other particles in the system.
@@ -7271,13 +6872,11 @@ where $\hat{H}_{1}$ is the one-body Hamiltonian and $\hat{V}_{MF}$ is the mean f
 The mean field potential is a self-consistent potential, meaning that it is determined by the field operators of the system. This is because the potential experienced by a particle is influenced by the field operators of all the other particles, which are described by the field equations. Therefore, the mean field potential can be written as:
 
 
-
 $$
 
 \hat{V}_{MF} = \int d^3x \hat{\phi}(\vec{x}) \hat{\rho}(\vec{x})
 
 $$
-
 
 
 where $\hat{\phi}(\vec{x})$ is the field operator and $\hat{\rho}(\vec{x})$ is the density operator.
@@ -7329,13 +6928,11 @@ In the previous section, we explored the concept of the mean field Hamiltonian a
 The mean field ground state is defined as the state of the system where all particles are in their lowest energy state, taking into account the average effect of all other particles in the system. Mathematically, it can be written as:
 
 
-
 $$
 
 \hat{H}_{MF}|\Psi_{0}\rangle = E_{0}|\Psi_{0}\rangle
 
 $$
-
 
 
 where $\hat{H}_{MF}$ is the mean field Hamiltonian, $|\Psi_{0}\rangle$ is the ground state wavefunction, and $E_{0}$ is the corresponding ground state energy.
@@ -7387,13 +6984,11 @@ In the previous section, we discussed the properties of the mean field ground st
 In quantum mechanics, the mean field ground state can be described as the state of the system where all particles are in their lowest energy state, taking into account the average effect of all other particles in the system. This can be mathematically written as:
 
 
-
 $$
 
 \hat{H}_{MF}|\Psi_{0}\rangle = E_{0}|\Psi_{0}\rangle
 
 $$
-
 
 
 where $\hat{H}_{MF}$ is the mean field Hamiltonian, $|\Psi_{0}\rangle$ is the ground state wavefunction, and $E_{0}$ is the corresponding ground state energy.
@@ -7445,13 +7040,11 @@ In the previous section, we discussed the mean field ground state in the context
 In quantum field theory, the mean field ground state can be described as the state of the system where all fields are in their lowest energy state, taking into account the average effect of all other fields in the system. This can be mathematically written as:
 
 
-
 $$
 
 \hat{H}_{MF}|\Psi_{0}\rangle = E_{0}|\Psi_{0}\rangle
 
 $$
-
 
 
 where $\hat{H}_{MF}$ is the mean field Hamiltonian, $|\Psi_{0}\rangle$ is the ground state wavefunction, and $E_{0}$ is the corresponding ground state energy.
@@ -8017,13 +7610,11 @@ Cooper pairs are a fundamental concept in the study of superconductivity. They w
 In quantum mechanics, Cooper pairs can be described as a two-particle state in which the two electrons are in a singlet state with opposite spin. This state is represented by the wavefunction:
 
 
-
 $$
 
 \Psi = \frac{1}{\sqrt{2}}(\psi_1(\mathbf{r}_1)\psi_2(\mathbf{r}_2) - \psi_1(\mathbf{r}_2)\psi_2(\mathbf{r}_1))
 
 $$
-
 
 
 where $\psi_1$ and $\psi_2$ are the single-particle wavefunctions of the two electrons. This wavefunction satisfies the Pauli exclusion principle, as it is antisymmetric under exchange of the two electrons.
@@ -8041,22 +7632,17 @@ In quantum mechanics, the formation of Cooper pairs can be described by the prod
 The required cyclic commutators for dealing with the $J$-coupling evolution are the following three sets (and their $L \leftrightarrow L'$ versions if needed):
 
 
-
 $$
 
 \left.[L_x S_y, 2L_z' S_z]\right. = 2L_x \otimes L_z' \otimes [S_y, S_z] = \mathrm{i}\, 2 L_x L_z' S_x
 
 $$
 
-
-
 $$
 
 \left.[2 L_z' S_z, 2 L_x L_z' S_x]\right. = 4 L_x \otimes {L_z'}^2 \otimes [S_z, S_x] = 4 L_x \otimes \frac{1}{4}\mathbf{1} \otimes [S_z, S_x] = 4 L_x \otimes \frac{1}{4} \mathrm{i}\, S_y = \mathrm{i}\, L_x S_y
 
 $$
-
-
 
 $$
 
@@ -8065,9 +7651,7 @@ $$
 $$
 
 
-
 where $\mathbf{1}$ is the identity operator. These commutators allow us to calculate the evolution of the system under the $J$-coupling Hamiltonian, which is given by:
-
 
 
 $$
@@ -8077,9 +7661,7 @@ H = \pi J (2 L_z S_z + 2 L_z' S_z)
 $$
 
 
-
 This Hamiltonian leads to the following evolution:
-
 
 
 $$
@@ -8097,7 +7679,6 @@ $$
 (4)\to(5):\ 4 L_x L_z' S_x + 4 L_z L_x' S_x \xrightarrow{\left(\pi\right)_{xS}} 4 L_x L_z' S_x + 4 L_z L_x' S_x \xrightarrow{(\theta)_{yL}} 4 L_z L_x' S_x \cos\theta - 4 L_z L_z' S_x \sin\theta + \text{others} \xrightarrow{(\theta)_{yL'}} -8 L_zL_z' S_x \cos\theta\sin\theta + \text{others}
 
 $$
-
 
 
 where 'others' denotes various terms that can safely be ignored because they will not evolve into observable transverse polarisation on the target spin $S$. This evolution shows how the Cooper pairs are formed and how they interact with each other through the exchange of phonons.
@@ -8125,13 +7706,11 @@ Cooper pairs are a fundamental concept in the study of superconductivity. They w
 In quantum field theory, Cooper pairs can be described as a two-particle state in which the two electrons are in a singlet state with opposite spin. This state is represented by the wavefunction:
 
 
-
 $$
 
 \Psi = \frac{1}{\sqrt{2}}(\psi_1(\mathbf{r}_1)\psi_2(\mathbf{r}_2) - \psi_1(\mathbf{r}_2)\psi_2(\mathbf{r}_1))
 
 $$
-
 
 
 where $\psi_1$ and $\psi_2$ are the single-particle wavefunctions of the two electrons. This wavefunction satisfies the Pauli exclusion principle, as it is antisymmetric under exchange of the two electrons.
@@ -8149,14 +7728,11 @@ In quantum field theory, the formation of Cooper pairs can be described by the p
 The required cyclic commutators for dealing with the $J$-coupling evolution are the following three sets (and their $L \leftrightarrow L'$ versions if needed):
 
 
-
 $$
 
 \left.[L_x S_y, 2L_z' S_z]\right. = 2L_x \otimes L_z' \otimes [S_y, S_z] = \mathrm{i}\, 2 L_x L_z' S_x
 
 $$
-
-
 
 $$
 
@@ -8164,14 +7740,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left.[2 L_x L_z' S_x, 2 L_y L_z' S_y]\right. = 2L_x \otimes L_y \otimes [L_z', S_x] = \mathrm{i}\, 2 L_x L_y L_z' S_z
 
 $$
-
 
 
 Each term in the above equations represents a different type of interaction between the electrons in the Cooper pair. The first term corresponds to the spin interaction, the second term corresponds to the orbital interaction, and the third term corresponds to the coupling between spin and orbital degrees of freedom.
@@ -8215,14 +7788,11 @@ In condensed matter physics, the formation of Cooper pairs can be described by t
 The required cyclic commutators for dealing with the $J$-coupling evolution are the following three sets (and their $L \leftrightarrow L'$ versions if needed):
 
 
-
 $$
 
 \left.[L_x S_y, 2L_z' S_z]\right. = 2L_x \otimes L_z' \otimes [S_y, S_z] = \mathrm{i}\, 2 L_x L_z' S_x
 
 $$
-
-
 
 $$
 
@@ -8230,14 +7800,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left.[2 L_x S_x, 2 L_y S_y]\right. = 2L_x \otimes L_y \otimes [S_x, S_y] = \mathrm{i}\, 2 L_x L_y S_z
 
 $$
-
 
 
 These commutators are crucial in understanding the behavior of Cooper pairs in condensed matter systems. They allow us to analyze the spin and orbital interactions between the electrons, providing insight into the properties of superconducting materials.
@@ -8269,13 +7836,11 @@ The energy gap equation is a fundamental equation in the study of superconductiv
 The energy gap equation is defined as:
 
 
-
 $$
 
 \Delta(T) = \Delta(0) \tanh \left(\frac{1.74 k_B T_c}{\Delta(0)}\right)
 
 $$
-
 
 
 where $\Delta(T)$ is the energy gap at temperature $T$, $\Delta(0)$ is the energy gap at absolute zero temperature, $k_B$ is the Boltzmann constant, and $T_c$ is the critical temperature.
@@ -8319,13 +7884,11 @@ The energy gap equation is a fundamental equation in the study of superconductiv
 In quantum mechanics, the energy gap equation takes on a slightly different form. It is derived from the Schrödinger equation and is given by:
 
 
-
 $$
 
 \Delta(E) = \Delta(0) \tanh \left(\frac{1.74 \hbar \omega_c}{\Delta(0)}\right)
 
 $$
-
 
 
 where $\Delta(E)$ is the energy gap at energy $E$, $\Delta(0)$ is the energy gap at absolute zero temperature, $\hbar$ is the reduced Planck's constant, and $\omega_c$ is the characteristic frequency of the system.
@@ -8369,13 +7932,11 @@ The energy gap equation is a fundamental equation in the study of superconductiv
 In quantum field theory, the energy gap equation takes on a different form compared to quantum mechanics. It is derived from the field-theoretic version of the Schrödinger equation and is given by:
 
 
-
 $$
 
 \Delta(E) = \Delta(0) \tanh \left(\frac{1.74 \hbar \omega_c}{\Delta(0)}\right)
 
 $$
-
 
 
 where $\Delta(E)$ is the energy gap at energy $E$, $\Delta(0)$ is the energy gap at absolute zero temperature, $\hbar$ is the reduced Planck's constant, and $\omega_c$ is the characteristic frequency of the system.
@@ -8419,13 +7980,11 @@ The energy gap equation is a fundamental equation in the study of superconductiv
 In condensed matter physics, the energy gap equation takes on a different form compared to quantum mechanics and quantum field theory. It is derived from the BCS theory and is given by:
 
 
-
 $$
 
 \Delta(T) = \Delta(0) \tanh \left(\frac{1.74 \hbar \omega_c}{\Delta(0)}\right) \tanh \left(\frac{1.74 \hbar \omega_c}{2k_BT}\right)
 
 $$
-
 
 
 where $\Delta(T)$ is the energy gap at temperature $T$, $\Delta(0)$ is the energy gap at absolute zero temperature, $\hbar$ is the reduced Planck's constant, $\omega_c$ is the characteristic frequency of the system, and $k_B$ is the Boltzmann constant.
@@ -8511,7 +8070,6 @@ In quantum mechanics, the Meissner effect can be understood as a consequence of 
 To understand this in more detail, let us consider a superconducting material in the presence of an external magnetic field. In the superconducting state, the wave function of the Cooper pairs is described by a macroscopic wave function $\Psi$. This wave function is a solution to the Schrödinger equation and is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
@@ -8519,9 +8077,7 @@ i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
 $$
 
 
-
 where $\hat{H}$ is the Hamiltonian operator. In the presence of an external magnetic field, the Hamiltonian can be written as:
-
 
 
 $$
@@ -8531,9 +8087,7 @@ $$
 $$
 
 
-
 where $\hat{p}$ is the momentum operator, $\hat{A}$ is the vector potential, and $V(\hat{x})$ is the potential energy. The vector potential $\hat{A}$ is related to the magnetic field $\vec{B}$ through the equation:
-
 
 
 $$
@@ -8543,9 +8097,7 @@ $$
 $$
 
 
-
 Substituting this into the Hamiltonian, we can rewrite it as:
-
 
 
 $$
@@ -8555,9 +8107,7 @@ $$
 $$
 
 
-
 In the superconducting state, the wave function $\Psi$ is a coherent state of Cooper pairs, which can be written as:
-
 
 
 $$
@@ -8565,7 +8115,6 @@ $$
 \Psi = \sqrt{N}\exp\left(i\frac{2\pi}{\Phi_0}\int\vec{A}\cdot d\vec{l}\right)
 
 $$
-
 
 
 where $N$ is the number of Cooper pairs, $\Phi_0 = hc/2e$ is the flux quantum, and the integral is taken along a closed path within the superconductor. This wave function satisfies the Schrödinger equation and is an eigenstate of the Hamiltonian with zero energy.
@@ -8605,7 +8154,6 @@ In quantum field theory, the Meissner effect can be understood as a consequence 
 To understand this in more detail, let us consider a superconducting material in the presence of an external magnetic field. In the superconducting state, the wave function of the Cooper pairs is described by a macroscopic wave function $\Psi$. This wave function is a solution to the Schrödinger equation and is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
@@ -8613,9 +8161,7 @@ i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
 $$
 
 
-
 where $\hat{H}$ is the Hamiltonian operator. In the presence of an external magnetic field, the Hamiltonian can be written as:
-
 
 
 $$
@@ -8625,9 +8171,7 @@ $$
 $$
 
 
-
 where $\hat{p}$ is the momentum operator, $\hat{A}$ is the vector potential, and $V(\hat{x})$ is the potential energy. The vector potential $\hat{A}$ is related to the magnetic field $\vec{B}$ through the equation:
-
 
 
 $$
@@ -8637,9 +8181,7 @@ $$
 $$
 
 
-
 Substituting this into the Hamiltonian, we can rewrite it as:
-
 
 
 $$
@@ -8649,9 +8191,7 @@ $$
 $$
 
 
-
 In the superconducting state, the wave function $\Psi$ is a coherent state of Cooper pairs, which can be written as:
-
 
 
 $$
@@ -8661,7 +8201,6 @@ $$
 $$
 
 
-
 where $N$ is the number of Cooper pairs and $\Phi_0$ is the flux quantum. This wave function describes the collective behavior of the Cooper pairs, and it is characterized by a phase that varies smoothly throughout the material.
 
 
@@ -8669,13 +8208,11 @@ where $N$ is the number of Cooper pairs and $\Phi_0$ is the flux quantum. This w
 When an external magnetic field is applied, it interacts with the Cooper pairs through the vector potential $\hat{A}$. This interaction causes a change in the phase of the wave function, which in turn affects the behavior of the Cooper pairs. In the presence of a magnetic field, the wave function becomes:
 
 
-
 $$
 
 \Psi = \sqrt{N}\exp\left(i\frac{2\pi}{\Phi_0}\int\vec{A}\cdot d\vec{l} + i\phi\right)
 
 $$
-
 
 
 where $\phi$ is the phase shift caused by the magnetic field. This phase shift leads to a change in the energy of the system, which can be calculated using the Hamiltonian. By minimizing the energy with respect to the phase shift, we can determine the equilibrium state of the system.
@@ -8715,7 +8252,6 @@ In condensed matter physics, the Meissner effect can be understood as a conseque
 To understand this in more detail, let us consider a superconducting material in the presence of an external magnetic field. In the superconducting state, the wave function of the Cooper pairs is described by a macroscopic wave function $\Psi$. This wave function is a solution to the Schrödinger equation and is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
@@ -8723,9 +8259,7 @@ i\hbar\frac{\partial\Psi}{\partial t} = \hat{H}\Psi
 $$
 
 
-
 where $\hat{H}$ is the Hamiltonian operator. In the presence of an external magnetic field, the Hamiltonian can be written as:
-
 
 
 $$
@@ -8735,9 +8269,7 @@ $$
 $$
 
 
-
 where $\hat{p}$ is the momentum operator, $\hat{A}$ is the vector potential, and $V(\hat{x})$ is the potential energy. The vector potential $\hat{A}$ is related to the magnetic field $\vec{B}$ through the equation:
-
 
 
 $$
@@ -8747,9 +8279,7 @@ $$
 $$
 
 
-
 Substituting this into the Hamiltonian, we can rewrite it as:
-
 
 
 $$
@@ -8759,9 +8289,7 @@ $$
 $$
 
 
-
 In the superconducting state, the wave function $\Psi$ is a coherent state of Cooper pairs, which can be written as:
-
 
 
 $$
@@ -8769,7 +8297,6 @@ $$
 \Psi = \sqrt{N}\exp\left(i\frac{2\pi}{\Phi_0}\int\vec{A}\cdot d\vec{l}\right)
 
 $$
-
 
 
 where $N$ is the number of Cooper pairs and $\Phi_0 = \frac{h}{2e}$ is the flux quantum. This wave function describes the macroscopic quantum coherence of the superconducting state, where all the Cooper pairs are in the same quantum state and behave as a single entity.
@@ -9619,13 +9146,11 @@ As mentioned earlier, critical exponents are closely related to scaling laws, wh
 One of the most well-known scaling laws is the power law, which relates the correlation length of a system to its distance from the critical point. This is expressed as:
 
 
-
 $$
 
 \xi \propto |T-T_c|^{-\nu}
 
 $$
-
 
 
 where $\xi$ is the correlation length, $T$ is the temperature, $T_c$ is the critical temperature, and $\nu$ is the critical exponent for the correlation length. This power law is valid for a wide range of systems and is a hallmark of critical behavior.
@@ -9635,13 +9160,11 @@ where $\xi$ is the correlation length, $T$ is the temperature, $T_c$ is the crit
 Another important scaling relation is the finite-size scaling, which describes how the behavior of a system changes as its size is varied. This is particularly relevant in the study of quantum phase transitions, where the size of the system can have a significant impact on its critical behavior. The finite-size scaling relation is given by:
 
 
-
 $$
 
 \xi \propto L^{\nu}
 
 $$
-
 
 
 where $L$ is the size of the system. This relation is also dependent on the critical exponent for the correlation length, $\nu$.
@@ -9713,7 +9236,6 @@ In quantum field theory, critical exponents are related to the behavior of the f
 The classical Landau theory, also known as mean field theory, provides a set of values for the critical exponents of a scalar field, with the Ising model being the prototypical example. These values are given by:
 
 
-
 $$
 
 \alpha = 0, \beta = \frac{1}{2}, \gamma = 1, \delta = 3
@@ -9721,9 +9243,7 @@ $$
 $$
 
 
-
 However, when derivative terms are added to the theory, turning it into a mean field Ginzburg-Landau theory, the values of the critical exponents change. In this case, we get:
-
 
 
 $$
@@ -9731,7 +9251,6 @@ $$
 \alpha = 0, \beta = \frac{1}{2}, \gamma = \frac{1}{2}, \delta = 3
 
 $$
-
 
 
 One of the major discoveries in the study of critical phenomena is that mean field theory is only correct when the space dimension of the system is higher than a certain dimension called the upper critical dimension. This excludes the physical dimensions 1, 2, or 3 in most cases. The problem with mean field theory is that the critical exponents do not depend on the space dimension. This leads to a quantitative discrepancy below the critical dimensions, where the true critical exponents differ from the mean field values. It can even lead to a qualitative discrepancy at low space dimensions, where a critical point may no longer exist, even though mean field theory predicts there is one. This is the case for the Ising model in dimension 1, where there is no phase transition. The space dimension where mean field theory becomes qualitatively incorrect is called the lower critical dimension.
@@ -10961,13 +10480,11 @@ The Chern number is a topological invariant that characterizes the topology of a
 The Chern number is defined as the integral of the Berry curvature over the Brillouin zone. Mathematically, it can be expressed as:
 
 
-
 $$
 
 C = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k}) d\mathbf{k}
 
 $$
-
 
 
 where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and $BZ$ is the Brillouin zone. The Chern number is a topological invariant, meaning it is independent of the choice of basis or gauge. This makes it a powerful tool for characterizing the topology of a band structure.
@@ -10977,13 +10494,11 @@ where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and
 One of the key properties of the Chern number is its connection to the Hall conductivity. In two-dimensional systems, the Hall conductivity can be expressed as:
 
 
-
 $$
 
 \sigma_{xy} = \frac{e^2}{h} C
 
 $$
-
 
 
 where $e$ is the elementary charge and $h$ is the Planck constant. This relationship highlights the topological nature of the Hall conductivity and its connection to the Chern number.
@@ -11027,13 +10542,11 @@ The concept of Chern numbers is a powerful tool in the study of topological insu
 The Chern number is a topological invariant that characterizes the topology of a band structure. It is defined as the integral of the Berry curvature over the Brillouin zone, and can be expressed as:
 
 
-
 $$
 
 C = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k}) d\mathbf{k}
 
 $$
-
 
 
 where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and $BZ$ is the Brillouin zone. This integral is independent of the choice of basis or gauge, making the Chern number a powerful tool for characterizing the topology of a band structure.
@@ -11043,13 +10556,11 @@ where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and
 One of the key properties of the Chern number is its connection to the Hall conductivity. In two-dimensional systems, the Hall conductivity can be expressed as:
 
 
-
 $$
 
 \sigma_{xy} = \frac{e^2}{h} C
 
 $$
-
 
 
 where $e$ is the elementary charge and $h$ is the Planck constant. This relationship highlights the topological nature of the Hall conductivity and its connection to the Chern number.
@@ -11093,13 +10604,11 @@ The concept of Chern numbers is a powerful tool in the study of topological insu
 The Chern number is a topological invariant that characterizes the topology of a band structure. It is defined as the integral of the Berry curvature over the Brillouin zone, and can be expressed as:
 
 
-
 $$
 
 C = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k}) d\mathbf{k}
 
 $$
-
 
 
 where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and $BZ$ is the Brillouin zone. This integral is independent of the choice of basis or gauge, making the Chern number a powerful tool for characterizing the topology of a band structure.
@@ -11109,13 +10618,11 @@ where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and
 One of the key properties of the Chern number is its connection to the Hall conductivity. In two-dimensional systems, the Hall conductivity can be expressed as:
 
 
-
 $$
 
 \sigma_{xy} = \frac{e^2}{h} C
 
 $$
-
 
 
 where $e$ is the elementary charge and $h$ is the Planck constant. This relationship highlights the topological nature of the Hall conductivity and its connection to the Chern number.
@@ -11197,13 +10704,11 @@ The concept of Chern numbers is a powerful tool in the study of topological insu
 The Chern number is a topological invariant that characterizes the topology of a band structure. It is defined as the integral of the Berry curvature over the Brillouin zone, and can be expressed as:
 
 
-
 $$
 
 C = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k}) d\mathbf{k}
 
 $$
-
 
 
 where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and $BZ$ is the Brillouin zone. This integral is independent of the choice of basis or gauge, making the Chern number a powerful tool for characterizing the topology of a band structure.
@@ -11213,13 +10718,11 @@ where $\Omega(\mathbf{k})$ is the Berry curvature at wavevector $\mathbf{k}$ and
 One of the key properties of the Chern number is its connection to the Hall conductivity. In two-dimensional systems, the Hall conductivity can be expressed as:
 
 
-
 $$
 
 \sigma_{xy} = \frac{e^2}{h} C
 
 $$
-
 
 
 where $e$ is the elementary charge and $h$ is the Planck constant. This relationship highlights the topological nature of the Hall conductivity and its connection to the Chern number.
@@ -11605,13 +11108,11 @@ Overall, this chapter aims to provide a comprehensive overview of strongly corre
 The Hubbard model is a simplified yet powerful model used to study strongly correlated systems in condensed matter physics. It was first proposed by John Hubbard in 1963 as a way to describe the behavior of electrons in a lattice. The model considers a lattice of sites, each of which can be occupied by one or two electrons with opposite spin. The Hamiltonian for the Hubbard model is given by:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma}) + U \sum_i n_{i\uparrow} n_{i\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i\sigma}^\dagger$ and $c_{i\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the on-site Coulomb repulsion, and $n_{i\sigma} = c_{i\sigma}^\dagger c_{i\sigma}$ is the number operator for electrons with spin $\sigma$ at site $i$.
@@ -11663,13 +11164,11 @@ In conclusion, the Hubbard model is a powerful tool for studying strongly correl
 The Hubbard model is a powerful tool in the study of strongly correlated systems in condensed matter physics. It was first proposed by John Hubbard in 1963 as a simplified model to describe the behavior of electrons in a lattice. The model considers a lattice of sites, each of which can be occupied by one or two electrons with opposite spin. The Hamiltonian for the Hubbard model is given by:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma}) + U \sum_i n_{i\uparrow} n_{i\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i\sigma}^\dagger$ and $c_{i\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the on-site Coulomb repulsion, and $n_{i\sigma} = c_{i\sigma}^\dagger c_{i\sigma}$ is the number operator for electrons with spin $\sigma$ at site $i$.
@@ -11703,13 +11202,11 @@ Another important property of the Hubbard model is its ability to exhibit magnet
 In quantum mechanics, the Hubbard model can be described using the dynamical mean-field theory (DMFT). This theory maps the lattice model onto the Anderson impurity model, which describes the interaction of one site (the impurity) with a "bath" of electronic levels. The Anderson model corresponding to the single-site Hubbard model is a single-orbital Anderson impurity model, whose Hamiltonian formulation is given by:
 
 
-
 $$
 
 H_{\text{imp}} = \sum_{\sigma} \epsilon_{\sigma} n_{\sigma} + U n_{\uparrow} n_{\downarrow} + \sum_{\sigma} V_{\sigma} (c_{\sigma}^\dagger a_{\sigma} + a_{\sigma}^\dagger c_{\sigma})
 
 $$
-
 
 
 where $\epsilon_{\sigma}$ is the energy of the impurity level with spin $\sigma$, $n_{\sigma}$ is the number operator for electrons with spin $\sigma$ on the impurity site, $U$ is the on-site Coulomb repulsion, and $V_{\sigma}$ is the hybridization between the impurity and the bath.
@@ -11723,13 +11220,11 @@ The Matsubara Green's function of this model, defined by $G_{\text{imp}}(\tau) =
 This hybridization function describes the dynamics of electrons hopping in and out of the bath. It should reproduce the lattice dynamics such that the impurity Green's function is the same as the local lattice Green's function. It is related to the non-interacting Green's function by the relation:
 
 
-
 $$
 
 G_{\text{imp}}(i\omega_n) = \frac{1}{i\omega_n + \mu - \epsilon_{\sigma} - \Delta_{\sigma}(i\omega_n)}
 
 $$
-
 
 
 The DMFT mapping allows for the study of the Hubbard model using powerful analytical and numerical techniques, providing insights into the behavior of strongly correlated systems. 
@@ -11753,13 +11248,11 @@ The DMFT mapping allows for the study of the Hubbard model using powerful analyt
 The Hubbard model is a powerful tool in the study of strongly correlated systems in condensed matter physics. It was first proposed by John Hubbard in 1963 as a simplified model to describe the behavior of electrons in a lattice. The model considers a lattice of sites, each of which can be occupied by one or two electrons with opposite spin. The Hamiltonian for the Hubbard model is given by:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma}) + U \sum_i n_{i\uparrow} n_{i\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i\sigma}^\dagger$ and $c_{i\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the on-site Coulomb repulsion, and $n_{i\sigma} = c_{i\sigma}^\dagger c_{i\sigma}$ is the number operator for electrons with spin $\sigma$ at site $i$.
@@ -11793,13 +11286,11 @@ Another important property of the Hubbard model is its ability to exhibit magnet
 The Hubbard model is in general intractable under usual perturbation expansion techniques. To overcome this challenge, the dynamical mean-field theory (DMFT) maps the lattice model onto the so-called Anderson impurity model (AIM). This model describes the interaction of one site (the impurity) with a "bath" of electronic levels (described by the annihilation and creation operators $a_{p\sigma}$ and $a_{p\sigma}^\dagger$) through a hybridization function. The Anderson model corresponding to our single-site model is a single-orbital Anderson impurity model, whose Hamiltonian formulation, on suppressing some spin 1/2 indices $\sigma$, is:
 
 
-
 $$
 
 H_{\text{AIM}} = \sum_{\sigma} \epsilon_{d\sigma} d_{\sigma}^\dagger d_{\sigma} + \sum_{p\sigma} \epsilon_{p\sigma} a_{p\sigma}^\dagger a_{p\sigma} + \sum_{p\sigma} V_{p\sigma} (d_{\sigma}^\dagger a_{p\sigma} + a_{p\sigma}^\dagger d_{\sigma})
 
 $$
-
 
 
 where $d_{\sigma}^\dagger$ and $d_{\sigma}$ are the creation and annihilation operators for the impurity site, $\epsilon_{d\sigma}$ is the energy of the impurity level, $\epsilon_{p\sigma}$ is the energy of the bath level, and $V_{p\sigma}$ is the hybridization strength between the impurity and the bath.
@@ -11813,13 +11304,11 @@ where $d_{\sigma}^\dagger$ and $d_{\sigma}$ are the creation and annihilation op
 To study the Hubbard model in the framework of quantum field theory, we can use the path integral formalism. This allows us to write the partition function for the Hubbard model as a functional integral over the fermionic fields $c_{i\sigma}$ and $c_{i\sigma}^\dagger$. The resulting action is given by:
 
 
-
 $$
 
 S = \int_0^\beta d\tau \sum_{i\sigma} c_{i\sigma}^\dagger (\partial_\tau + \mu - \mu_i) c_{i\sigma} + U \int_0^\beta d\tau \sum_i n_{i\uparrow} n_{i\downarrow} + t \int_0^\beta d\tau \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma})
 
 $$
-
 
 
 where $\beta$ is the inverse temperature, $\mu$ is the chemical potential, and $\mu_i$ is the on-site potential at site $i$. This action can then be used to calculate various physical quantities, such as the Green's function and correlation functions, using perturbation theory or numerical methods.
@@ -11847,13 +11336,11 @@ In conclusion, the Hubbard model is a versatile tool for studying strongly corre
 The Hubbard model is a powerful tool in the study of strongly correlated systems in condensed matter physics. It was first proposed by John Hubbard in 1963 as a simplified model to describe the behavior of electrons in a lattice. The model considers a lattice of sites, each of which can be occupied by one or two electrons with opposite spin. The Hamiltonian for the Hubbard model is given by:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma}) + U \sum_i n_{i\uparrow} n_{i\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i\sigma}^\dagger$ and $c_{i\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the on-site Coulomb repulsion, and $n_{i\sigma} = c_{i\sigma}^\dagger c_{i\sigma}$ is the number operator for electrons with spin $\sigma$ at site $i$.
@@ -12019,13 +11506,11 @@ Another important property of Mott insulators is their connection to other pheno
 In this section, we will explore the Mott insulator in the context of quantum mechanics. We will begin by discussing the dynamical mean-field theory (DMFT) for the Hubbard model, which is a commonly used model for studying Mott insulators. The Hubbard model describes the onsite interaction between electrons of opposite spin by a single parameter, <math>U</math>. The Hubbard Hamiltonian may take the following form:
 
 
-
 $$
 
 H = -t\sum_{\langle i,j \rangle,\sigma} c_{i\sigma}^{\dagger}c_{j\sigma} + U\sum_{i}n_{i\uparrow}n_{i\downarrow} - \mu\sum_{i,\sigma}n_{i\sigma}
 
 $$
-
 
 
 where, on suppressing the spin 1/2 indices <math>\sigma</math>, <math>c_i^{\dagger},c_i</math> denote the creation and annihilation operators of an electron on a localized orbital on site <math>i</math>, and <math>n_i=c_i^{\dagger}c_i</math>.
@@ -12047,7 +11532,6 @@ To study the Hubbard model, we make the following assumptions:
 Under these assumptions, DMFT maps the lattice model onto the so-called Anderson impurity model (AIM). This model describes the interaction of one site (the impurity) with a "bath" of electronic levels (described by the annihilation and creation operators <math>a_{p\sigma}</math> and <math>a_{p\sigma}^{\dagger}</math>) through a hybridization function. The Anderson model corresponding to our single-site model is a single-orbital Anderson impurity model, whose hamiltonian formulation, on suppressing some spin 1/2 indices <math>\sigma</math>, is:
 
 
-
 $$
 
 H_{\text{AIM}} = \sum_{\sigma}\epsilon_{d\sigma}d_{\sigma}^{\dagger}d_{\sigma} + \sum_{k,\sigma}\epsilon_{k\sigma}c_{k\sigma}^{\dagger}c_{k\sigma} + \sum_{k,\sigma}(V_{k\sigma}d_{\sigma}^{\dagger}c_{k\sigma} + V_{k\sigma}^{*}c_{k\sigma}^{\dagger}d_{\sigma})
@@ -12055,9 +11539,7 @@ H_{\text{AIM}} = \sum_{\sigma}\epsilon_{d\sigma}d_{\sigma}^{\dagger}d_{\sigma} +
 $$
 
 
-
 where <math>d_{\sigma}^{\dagger},d_{\sigma}</math> are the creation and annihilation operators for the impurity site, and <math>c_{k\sigma}^{\dagger},c_{k\sigma}</math> are the creation and annihilation operators for the bath sites. The hybridization function <math>\Delta_{\sigma}(i\omega_n)</math> is defined as:
-
 
 
 $$
@@ -12067,9 +11549,7 @@ $$
 $$
 
 
-
 This hybridization function describes the dynamics of electrons hopping in and out of the bath. It should reproduce the lattice dynamics such that the impurity Green's function is the same as the local lattice Green's function. It is related to the non-interacting Green's function by the relation:
-
 
 
 $$
@@ -12077,7 +11557,6 @@ $$
 G_{0\sigma}(i\omega_n) = \frac{1}{i\omega_n + \mu - \epsilon_{d\sigma} - \Delta_{\sigma}(i\omega_n)}
 
 $$
-
 
 
 In the next subsection, we will explore the implications of this mapping and how it helps us understand Mott insulators in the context of quantum mechanics.
@@ -12121,13 +11600,11 @@ Another important property of Mott insulators is their connection to other pheno
 In this section, we will explore the Mott insulator in the context of quantum mechanics. We will begin by discussing the dynamical mean-field theory (DMFT) for the Hubbard model, which is a commonly used model for studying Mott insulators. The Hubbard model describes the onsite interaction between electrons in a lattice, and is given by the Hamiltonian:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i,\sigma}^\dagger c_{j,\sigma} + c_{j,\sigma}^\dagger c_{i,\sigma}) + U \sum_i n_{i,\uparrow} n_{i,\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i,\sigma}^\dagger$ and $c_{i,\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the onsite Coulomb repulsion, and $n_{i,\sigma} = c_{i,\sigma}^\dagger c_{i,\sigma}$ is the number operator for electrons at site $i$ with spin $\sigma$.
@@ -12187,13 +11664,11 @@ Another important property of Mott insulators is their connection to other pheno
 In this section, we will explore the Mott insulator in the context of quantum mechanics. We will begin by discussing the dynamical mean-field theory (DMFT) for the Hubbard model, which is a commonly used model for studying Mott insulators. The Hubbard model describes the onsite interaction between electrons in a lattice, and is given by the Hamiltonian:
 
 
-
 $$
 
 H = -t \sum_{\langle i,j \rangle, \sigma} (c_{i\sigma}^\dagger c_{j\sigma} + c_{j\sigma}^\dagger c_{i\sigma}) + U \sum_i n_{i\uparrow} n_{i\downarrow}
 
 $$
-
 
 
 where $t$ is the hopping parameter, $c_{i\sigma}^\dagger$ and $c_{i\sigma}$ are the creation and annihilation operators for an electron with spin $\sigma$ at site $i$, $U$ is the onsite Coulomb repulsion, and $n_{i\sigma} = c_{i\sigma}^\dagger c_{i\sigma}$ is the number operator for electrons with spin $\sigma$ at site $i$. This model captures the essential physics of Mott insulators, where the competition between the kinetic energy and the Coulomb repulsion leads to the localization of electrons.
@@ -12377,13 +11852,11 @@ In this section, we will explore the phenomenon of Anderson localization in more
 The Anderson model is a simplified model that describes the localization of non-interacting electrons in a disordered potential. It consists of a one-dimensional lattice with randomly distributed impurities or defects. The Hamiltonian for this model is given by:
 
 
-
 $$
 
 H = \sum_{i} \epsilon_i c_i^\dagger c_i + \sum_{i,j} t_{ij} c_i^\dagger c_j
 
 $$
-
 
 
 where $c_i^\dagger$ and $c_i$ are the creation and annihilation operators for an electron at site $i$, $\epsilon_i$ is the energy of the impurity at site $i$, and $t_{ij}$ is the hopping amplitude between sites $i$ and $j$.
@@ -12459,13 +11932,11 @@ In this section, we will explore the phenomenon of Anderson localization in more
 The Anderson model is a simple theoretical model that describes the localization of non-interacting electrons in a disordered potential. It consists of a one-dimensional lattice with a random potential at each site. The Hamiltonian for this model is given by:
 
 
-
 $$
 
 H = \sum_{i} \epsilon_i c_i^\dagger c_i + \sum_{i,j} t_{ij} c_i^\dagger c_j
 
 $$
-
 
 
 where $c_i^\dagger$ and $c_i$ are the creation and annihilation operators for an electron at site $i$, $\epsilon_i$ is the random potential at site $i$, and $t_{ij}$ is the hopping amplitude between sites $i$ and $j$.
@@ -12595,13 +12066,11 @@ In quantum mechanics, the product operator formalism is a useful tool for studyi
 To use the product operator formalism, we label the spins in the system as <math>L, L'</math> and <math>S</math>, representing the two hydrogen spins and the carbon spin, respectively. The <math>J</math>-coupling Hamiltonian is then given by:
 
 
-
 $$
 
 H = \pi J (2 L_z S_z + 2 L_z' S_z)
 
 $$
-
 
 
 This Hamiltonian describes the evolution of the system, which can be broken down into several steps. First, the spins are rotated by <math>\left(\frac{\pi}{2}\right)_{xL}</math> and <math>\left(\frac{\pi}{2}\right)_{xL'}</math>, resulting in the state <math>-L_y - L_y'</math>. Next, the spins interact with each other through the <math>J</math>-coupling, leading to the state <math>2 L_x S_z + 2 L_x' S_z</math>. The spins are then rotated again by <math>\left(\frac{\pi}{2}\right)_{xS}</math>, <math>\left(\pi\right)_{xL}</math>, and <math>\left(\pi\right)_{xL'}</math>, resulting in the state <math>-2 L_x S_y - 2 L_x' S_y</math>. Finally, the spins interact again through the <math>J</math>-coupling, leading to the final state <math>4 L_x L_z' S_x + 4 L_z L_x' S_x</math>.
@@ -12611,14 +12080,11 @@ This Hamiltonian describes the evolution of the system, which can be broken down
 To understand the evolution of the system, we use cyclic commutators to simplify the equations. These commutators are:
 
 
-
 $$
 
 \left.[L_x S_y, 2L_z' S_z]\right. = 2L_x \otimes L_z' \otimes [S_y, S_z] = \mathrm{i}\, 2 L_x L_z' S_x
 
 $$
-
-
 
 $$
 
@@ -12626,14 +12092,11 @@ $$
 
 $$
 
-
-
 $$
 
 \left.[2 L_z L_z' S_x, 2 L_z S_z]\right. = 4L_z^2 \otimes L_z' \otimes [S_x, S_z] = \mathrm{i} \cdot -L_z' S_y
 
 $$
-
 
 
 Using these commutators, we can simplify the equations for the evolution of the system and ignore any terms that do not contribute to observable transverse polarization on the target spin <math>S</math>. This allows us to focus on the important interactions between spins and understand the behavior of the system.
@@ -12689,13 +12152,11 @@ In this section, we will explore the phenomenon of quantum magnetism in more det
 The Heisenberg model is a widely used model for describing the interactions between spins in a magnetic material. It is based on the Heisenberg Hamiltonian, which takes into account the exchange interactions between neighboring spins. The Hamiltonian is given by:
 
 
-
 $$
 
 H = -J \sum_{\langle i,j \rangle} \vec{S_i} \cdot \vec{S_j}
 
 $$
-
 
 
 where $J$ is the exchange coupling constant and the sum is taken over all pairs of neighboring spins. This model has been successfully used to describe a wide range of magnetic materials, from simple ferromagnets to more complex systems such as antiferromagnets and spin liquids.
@@ -12763,13 +12224,11 @@ In this section, we will explore the phenomenon of quantum magnetism in more det
 The Heisenberg model is a fundamental model in quantum magnetism that describes the interactions between spins in a magnetic material. It is based on the idea that the energy of a magnetic material is minimized when the spins are aligned in a specific direction. This model is described by the Hamiltonian:
 
 
-
 $$
 
 H = -J \sum_{i,j} \vec{S_i} \cdot \vec{S_j}
 
 $$
-
 
 
 where J is the exchange interaction strength between two spins, and the sum is taken over all pairs of spins in the material. This model can be solved analytically in certain cases, such as for a one-dimensional chain of spins, where it predicts the presence of a quantum phase transition from a paramagnetic phase to a magnetically ordered phase.
@@ -13407,13 +12866,11 @@ The Landauer-Büttiker formalism is based on the concept of scattering theory, w
 The formalism is based on the Landauer formula, which relates the conductance of a material to the transmission probability of particles through it. This formula is given by:
 
 
-
 $$
 
 G = \frac{2e^2}{h}T
 
 $$
-
 
 
 where $G$ is the conductance, $e$ is the elementary charge, $h$ is Planck's constant, and $T$ is the transmission probability.
@@ -13457,13 +12914,11 @@ The Landauer-Büttiker formalism is based on the concept of scattering theory, w
 The formalism is based on the Landauer formula, which relates the conductance of a material to the transmission probability of particles through it. This formula is given by:
 
 
-
 $$
 
 G = \frac{2e^2}{h}T
 
 $$
-
 
 
 where $G$ is the conductance, $e$ is the elementary charge, $h$ is Planck's constant, and $T$ is the transmission probability.
@@ -13519,13 +12974,11 @@ The Landauer-Büttiker formalism is based on the concept of scattering theory, w
 The formalism is based on the Landauer formula, which relates the conductance of a material to the transmission probability of particles through it. This formula is given by:
 
 
-
 $$
 
 G = \frac{2e^2}{h}T
 
 $$
-
 
 
 where $G$ is the conductance, $e$ is the elementary charge, $h$ is Planck's constant, and $T$ is the transmission probability. In quantum field theory, this formula is derived from the scattering amplitudes of particles, which take into account the interactions between them.
@@ -13567,7 +13020,6 @@ The Landauer-Büttiker formalism is based on the concept of scattering theory, w
 
 
 The formalism is based on the Landauer formula, which relates the conductance of a material to the transmission probability of particles through it. This formula is given by:
-
 
 
 $$

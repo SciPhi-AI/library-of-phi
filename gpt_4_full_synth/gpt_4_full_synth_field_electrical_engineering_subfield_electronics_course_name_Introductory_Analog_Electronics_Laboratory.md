@@ -170,9 +170,7 @@ The relationship between voltage ($V$), current ($I$), and resistance ($R$) in a
 
 
 $$
-
 V = I \cdot R
-
 $$
 
 
@@ -206,9 +204,7 @@ The basic principle of a capacitor is that it charges when a voltage is applied 
 
 
 $$
-
 Q = C \cdot V
-
 $$
 
 
@@ -242,9 +238,7 @@ The basic principle of an inductor is that it opposes changes in current flowing
 
 
 $$
-
 V = L \cdot \frac{dI}{dt}
-
 $$
 
 
@@ -282,9 +276,7 @@ The characteristic I-V (current-voltage) relationship of a diode is given by the
 
 
 $$
-
 I = I_s \cdot (e^{V/nV_T} - 1)
-
 $$
 
 
@@ -326,9 +318,7 @@ In the context of Ohm's Law, voltage is the product of the current through a con
 
 
 $$
-
 V = I \cdot R
-
 $$
 
 
@@ -364,9 +354,7 @@ In the context of Ohm's Law, current is the quotient of the voltage across a con
 
 
 $$
-
 I = \frac{V}{R}
-
 $$
 
 
@@ -406,9 +394,7 @@ In the context of Ohm's Law, resistance is the ratio of the voltage applied acro
 
 
 $$
-
 R = \frac{V}{I}
-
 $$
 
 
@@ -432,9 +418,7 @@ Resistance is a property that depends on the material of the conductor, its leng
 
 
 $$
-
 R = \rho \frac{L}{A}
-
 $$
 
 
@@ -468,9 +452,7 @@ In the context of Ohm's Law, power can be calculated using the formula:
 
 
 $$
-
 P = V \times I
-
 $$
 
 
@@ -494,9 +476,7 @@ However, using Ohm's Law, we can also express power in terms of resistance and c
 
 
 $$
-
 P = I^2 \times R
-
 $$
 
 
@@ -506,9 +486,7 @@ and
 
 
 $$
-
 P = \frac{V^2}{R}
-
 $$
 
 
@@ -550,9 +528,7 @@ In a series circuit, components are connected end-to-end, such that there is onl
 
 
 $$
-
 R_{total} = R_1 + R_2 + R_3 + ... + R_n
-
 $$
 
 
@@ -574,9 +550,7 @@ The voltage across each resistor in a series circuit is proportional to its resi
 
 
 $$
-
 V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -608,9 +582,7 @@ In contrast to series circuits, parallel circuits have components that are conne
 
 
 $$
-
 \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + ... + \frac{1}{R_n}
-
 $$
 
 
@@ -636,17 +608,13 @@ However, the current through each resistor, $I_{R1}$ and $I_{R2}$, can be differ
 
 
 $$
-
 I_{R1} = \frac{V_{in}}{R_1}
-
 $$
 
 
 
 $$
-
 I_{R2} = \frac{V_{in}}{R_2}
-
 $$
 
 
@@ -766,17 +734,13 @@ Let's consider a simple series-parallel circuit with two resistors, $R_1$ and $R
 
 
 $$
-
 I_{R1} = I \cdot \frac{R_2}{R_1 + R_2}
-
 $$
 
 
 
 $$
-
 I_{R2} = I \cdot \frac{R_1}{R_1 + R_2}
-
 $$
 
 
@@ -818,17 +782,13 @@ Let's consider a current divider circuit with two resistors, $R_1$ and $R_2$, an
 
 
 $$
-
 I_{R1} = I_{1} \cdot \frac{R_2}{R_1 + R_2} + I_{2} \cdot \frac{R_2}{R_1 + R_2}
-
 $$
 
 
 
 $$
-
 I_{R2} = I_{1} \cdot \frac{R_1}{R_1 + R_2} + I_{2} \cdot \frac{R_1}{R_1 + R_2}
-
 $$
 
 
@@ -854,9 +814,7 @@ According to Millman's Theorem, the total voltage ($V_{total}$) across a set of 
 
 
 $$
-
 V_{total} = \frac{\sum_{i=1}^{n} \frac{V_i}{R_i}}{\sum_{i=1}^{n} \frac{1}{R_i}}
-
 $$
 
 
@@ -892,9 +850,7 @@ Let's consider a current divider circuit with three parallel branches, each with
 
 
 $$
-
 V_{total} = \frac{\frac{V_1}{R_1} + \frac{V_2}{R_2} + \frac{V_3}{R_3}}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}
-
 $$
 
 
@@ -920,9 +876,7 @@ Let's consider a simple circuit with a voltage source ($V_S$), a source resistan
 
 
 $$
-
 P_L = \frac{{V_S^2 R_L}}{{(R_S + R_L)^2}}
-
 $$
 
 
@@ -932,9 +886,7 @@ To find the maximum power transfer, we take the derivative of $P_L$ with respect
 
 
 $$
-
 \frac{{dP_L}}{{dR_L}} = 0
-
 $$
 
 
@@ -972,9 +924,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \sum V = 0
-
 $$
 
 
@@ -1004,9 +954,7 @@ According to KVL, the sum of the voltages around the loop is zero:
 
 
 $$
-
 V_S - V_1 - V_2 = 0
-
 $$
 
 
@@ -1032,9 +980,7 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \sum I_{in} = \sum I_{out}
-
 $$
 
 
@@ -1064,9 +1010,7 @@ According to KCL, at the junction of the resistors, the sum of the currents ente
 
 
 $$
-
 I_S = I_1 + I_2 + I_3
-
 $$
 
 
@@ -1120,9 +1064,7 @@ At node 1:
 
 
 $$
-
 \frac{V_1 - V_S}{R_1} + \frac{V_1 - V_2}{R_2} = 0
-
 $$
 
 
@@ -1132,9 +1074,7 @@ At node 2:
 
 
 $$
-
 \frac{V_2 - V_1}{R_2} + \frac{V_2 - V_3}{R_3} = 0
-
 $$
 
 
@@ -1144,9 +1084,7 @@ At node 3:
 
 
 $$
-
 \frac{V_3 - V_2}{R_3} = 0
-
 $$
 
 
@@ -1200,9 +1138,7 @@ For mesh 1:
 
 
 $$
-
 V_S = I_1R_1 + I_1R_2 - I_2R_2
-
 $$
 
 
@@ -1212,9 +1148,7 @@ For mesh 2:
 
 
 $$
-
 0 = I_2R_3 + I_2R_2 - I_1R_2
-
 $$
 
 
@@ -1244,9 +1178,7 @@ Let's consider a simple series circuit with a voltage source ($V_S$) and three r
 
 
 $$
-
 I = \frac{V_S}{R_1 + R_2 + R_3}
-
 $$
 
 
@@ -1260,9 +1192,7 @@ For $R_1$:
 
 
 $$
-
 V_1 = I \cdot R_1
-
 $$
 
 
@@ -1272,9 +1202,7 @@ For $R_2$:
 
 
 $$
-
 V_2 = I \cdot R_2
-
 $$
 
 
@@ -1284,9 +1212,7 @@ For $R_3$:
 
 
 $$
-
 V_3 = I \cdot R_3
-
 $$
 
 
@@ -1296,9 +1222,7 @@ It's important to note that the sum of the voltage drops across each resistor is
 
 
 $$
-
 V_S = V_1 + V_2 + V_3
-
 $$
 
 
@@ -1320,9 +1244,7 @@ Let's consider a simple parallel circuit with a voltage source ($V_S$) and three
 
 
 $$
-
 V_1 = V_2 = V_3 = V_S
-
 $$
 
 
@@ -1336,9 +1258,7 @@ For $R_1$:
 
 
 $$
-
 I_1 = \frac{V_S}{R_1}
-
 $$
 
 
@@ -1348,9 +1268,7 @@ For $R_2$:
 
 
 $$
-
 I_2 = \frac{V_S}{R_2}
-
 $$
 
 
@@ -1360,9 +1278,7 @@ For $R_3$:
 
 
 $$
-
 I_3 = \frac{V_S}{R_3}
-
 $$
 
 
@@ -1372,9 +1288,7 @@ The total current supplied by the source ($I_S$) is the sum of the currents flow
 
 
 $$
-
 I_S = I_1 + I_2 + I_3
-
 $$
 
 
@@ -1384,9 +1298,7 @@ The total resistance ($R_T$) of a parallel circuit is found using the formula:
 
 
 $$
-
 \frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}
-
 $$
 
 
@@ -1416,17 +1328,13 @@ The total resistance ($R_T$) of this circuit can be calculated by first finding 
 
 
 $$
-
 R_{12} = R_1 + R_2
-
 $$
 
 
 
 $$
-
 \frac{1}{R_T} = \frac{1}{R_{12}} + \frac{1}{R_3}
-
 $$
 
 
@@ -1436,9 +1344,7 @@ The total current supplied by the source ($I_S$) can be calculated using Ohm's l
 
 
 $$
-
 I_S = \frac{V_S}{R_T}
-
 $$
 
 
@@ -1448,9 +1354,7 @@ The current flowing through $R_3$ ($I_3$) is also calculated using Ohm's law:
 
 
 $$
-
 I_3 = \frac{V_S}{R_3}
-
 $$
 
 
@@ -1460,9 +1364,7 @@ The current flowing through the series combination of $R_1$ and $R_2$ ($I_{12}$)
 
 
 $$
-
 I_{12} = I_S - I_3
-
 $$
 
 
@@ -1476,9 +1378,7 @@ For $R_1$:
 
 
 $$
-
 V_1 = I_{12} \times R_1
-
 $$
 
 
@@ -1488,9 +1388,7 @@ For $R_2$:
 
 
 $$
-
 V_2 = I_{12} \times R_2
-
 $$
 
 
@@ -1540,9 +1438,7 @@ The Wheatstone Bridge works on the principle of null deflection, i.e., the bridg
 
 
 $$
-
 \frac{R_1}{R_3} = \frac{R_2}{R_x}
-
 $$
 
 
@@ -1552,9 +1448,7 @@ From this equation, if $R_1$, $R_2$, and $R_3$ are known, and the bridge is bala
 
 
 $$
-
 R_x = R_2 \times \frac{R_3}{R_1}
-
 $$
 
 
@@ -1624,9 +1518,7 @@ For example, applying KCL to node $V_2$, we get:
 
 
 $$
-
 \frac{V_2 - V_1}{R_1} + \frac{V_2}{R_2} + \frac{V_2 - V_3}{R_3} = 0
-
 $$
 
 
@@ -1636,9 +1528,7 @@ This equation can be rearranged to isolate $V_2$:
 
 
 $$
-
 V_2 \left( \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} \right) = \frac{V_1}{R_1} + \frac{V_3}{R_3}
-
 $$
 
 
@@ -1712,9 +1602,7 @@ For example, applying KVL to mesh $I_1$, we get:
 
 
 $$
-
 V_1 = I_1 \cdot R_1 + (I_1 - I_2) \cdot R_3
-
 $$
 
 
@@ -1724,9 +1612,7 @@ This equation can be rearranged to isolate $I_1$:
 
 
 $$
-
 I_1 \left( R_1 + R_3 \right) = V_1 + I_2 \cdot R_3
-
 $$
 
 
@@ -2040,9 +1926,7 @@ This behavior can be mathematically represented by the Shockley diode equation:
 
 
 $$
-
 I = I_s (e^{V/nV_T} - 1)
-
 $$
 
 

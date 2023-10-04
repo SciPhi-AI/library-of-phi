@@ -1410,9 +1410,7 @@ Ohm's law is a fundamental law in electronics that relates the voltage, current,
 
 
 $$
-
 V = IR
-
 $$
 
 
@@ -1438,9 +1436,7 @@ Kirchhoff's current law states that the sum of the currents entering a node (or 
 
 
 $$
-
 \sum_{i=1}^{n} I_i = 0
-
 $$
 
 
@@ -1458,9 +1454,7 @@ Kirchhoff's voltage law states that the sum of the voltage drops (or rises) arou
 
 
 $$
-
 \sum_{i=1}^{n} V_i = 0
-
 $$
 
 
@@ -1486,9 +1480,7 @@ In a series circuit, the total resistance is equal to the sum of the individual 
 
 
 $$
-
 R_{total} = R_1 + R_2 + ... + R_n
-
 $$
 
 
@@ -1506,9 +1498,7 @@ In a parallel circuit, the total resistance is less than the smallest individual
 
 
 $$
-
 \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
-
 $$
 
 
@@ -1522,9 +1512,7 @@ For only two resistors in parallel, the total resistance can be calculated using
 
 
 $$
-
 R_{total} = \frac{R_1 \times R_2}{R_1 + R_2}
-
 $$
 
 
@@ -1592,9 +1580,7 @@ The capacitance of a capacitor is directly proportional to the amount of charge 
 
 
 $$
-
 C = \frac{Q}{V}
-
 $$
 
 
@@ -1612,9 +1598,7 @@ The time constant of a capacitor is a measure of how quickly it can charge or di
 
 
 $$
-
 \tau = RC
-
 $$
 
 
@@ -1682,9 +1666,7 @@ The inductance of an inductor is directly proportional to the amount of current 
 
 
 $$
-
 L = \frac{\phi}{I}
-
 $$
 
 
@@ -1702,9 +1684,7 @@ The time constant of an inductor is a measure of how quickly the current in the 
 
 
 $$
-
 \tau = \frac{L}{R}
-
 $$
 
 
@@ -1850,9 +1830,7 @@ As current flows through a circuit, it encounters resistance, which causes a dec
 
 
 $$
-
 \Delta V = IR
-
 $$
 
 
@@ -1878,9 +1856,7 @@ Voltage dividers are circuits that divide a voltage into smaller parts. They are
 
 
 $$
-
 V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -1932,9 +1908,7 @@ In a closed circuit, current flows from the positive terminal of a power source,
 
 
 $$
-
 I = \frac{\Delta V}{R}
-
 $$
 
 
@@ -1968,9 +1942,7 @@ Kirchhoff's Current Law (KCL) states that the sum of currents entering a node in
 
 
 $$
-
 \sum I_{in} = \sum I_{out}
-
 $$
 
 
@@ -2014,9 +1986,7 @@ In a closed circuit, resistance is the measure of how much a component resists t
 
 
 $$
-
 R = \frac{\Delta V}{I}
-
 $$
 
 
@@ -2080,9 +2050,7 @@ In a closed circuit, power is the product of voltage and current. This can be ex
 
 
 $$
-
 P = VI
-
 $$
 
 
@@ -2144,9 +2112,7 @@ In a closed circuit, resistance is the measure of how much a component resists t
 
 
 $$
-
 R = \frac{\Delta V}{I}
-
 $$
 
 
@@ -2188,9 +2154,7 @@ In a closed circuit, power is the product of voltage and current. This can be ex
 
 
 $$
-
 P = VI
-
 $$
 
 
@@ -2250,9 +2214,7 @@ A voltage divider circuit consists of two resistors connected in series, with an
 
 
 $$
-
 V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -2312,9 +2274,7 @@ A voltage divider circuit consists of two resistors connected in parallel, with 
 
 
 $$
-
 V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -2336,9 +2296,7 @@ To find the total resistance of all components in a parallel circuit, we can use
 
 
 $$
-
 \frac{1}{R_\text{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}.
-
 $$
 
 
@@ -2348,9 +2306,7 @@ For only two resistances, the unreciprocated expression is reasonably simple:
 
 
 $$
-
 R_\text{total} = \frac{R_1 R_2}{R_1 + R_2}.
-
 $$
 
 
@@ -2360,9 +2316,7 @@ This sometimes goes by the mnemonic "product over sum". For "N" equal resistance
 
 
 $$
-
 \frac{1}{R_\text{total}} = N \frac{1}{R}.
-
 $$
 
 
@@ -2372,9 +2326,7 @@ and therefore to:
 
 
 $$
-
 R_\text{total} = \frac{R}{N}.
-
 $$
 
 
@@ -2388,9 +2340,7 @@ The current in each individual resistor is found by Ohm's law. Factoring out the
 
 
 $$
-
 I_\text{total} = I_1 + I_2 + \cdots + I_n = V\left(\frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}\right).
-
 $$
 
 
@@ -2404,9 +2354,7 @@ In a parallel circuit, the voltage is the same for all elements.
 
 
 $$
-
 V = V_1 = V_2 = \dots = V_n
-
 $$
 
 
@@ -2420,9 +2368,7 @@ To find the total resistance of all components, add the reciprocals of the resis
 
 
 $$
-
 \frac{1}{R_\text{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}.
-
 $$
 
 
@@ -2432,9 +2378,7 @@ For only two resistances, the unreciprocated expression is reasonably simple:
 
 
 $$
-
 R_\text{total} = \frac{R_1 R_2}{R_1 + R_2}.
-
 $$
 
 
@@ -2448,9 +2392,7 @@ For "N" equal resistances in parallel, the reciprocal sum expression simplifies 
 
 
 $$
-
 \frac{1}{R_\text{total}} = N \frac{1}{R}.
-
 $$
 
 
@@ -2460,9 +2402,7 @@ and therefore to:
 
 
 $$
-
 R_\text{total} = \frac{R}{N}.
-
 $$
 
 
@@ -2472,9 +2412,7 @@ To find the current in a component with resistance $R_i$, use Ohm's law again:
 
 
 $$
-
 I_i = \frac{V}{R_i}.
-
 $$
 
 
@@ -2518,9 +2456,7 @@ A voltage divider circuit consists of two resistors connected in parallel, with 
 
 
 $$
-
 V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -2554,9 +2490,7 @@ By using superposition of specific configurations, it can be shown that for any 
 
 
 $$
-
 V = V_{Eq} - Z_{Eq}I
-
 $$
 
 
@@ -2820,9 +2754,7 @@ To simplify a series-parallel circuit, we can find the equivalent resistance, wh
 
 
 $$
-
 R_{eq} = \frac{R_1R_2}{R_1+R_2}
-
 $$
 
 
@@ -3010,9 +2942,7 @@ To understand this law better, let us consider an electric network consisting of
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -3026,9 +2956,7 @@ Applying Ohm's law, we can express the voltage drop across a resistor as <math>V
 
 
 $$
-
 \sum_{n=1}^{N} IR_n = 0
-
 $$
 
 
@@ -3038,9 +2966,7 @@ This equation can also be written in terms of currents using Kirchhoff's Current
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3050,7 +2976,6 @@ Combining KVL and KCL, we can write the following system of linear equations:
 
 
 $$
-
 \begin{cases}
 
 R_1 I_1 + R_2 I_2 + 0 I_3 = \mathcal{E}_1 \\
@@ -3058,7 +2983,6 @@ R_1 I_1 + R_2 I_2 + 0 I_3 = \mathcal{E}_1 \\
 0 I_1 + R_2 I_2 - R_3 I_3 = \mathcal{E}_1 + \mathcal{E}_2
 
 \end{cases}
-
 $$
 
 
@@ -3110,9 +3034,7 @@ To understand this law better, let us consider an electric network consisting of
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -3126,9 +3048,7 @@ Applying Ohm's law, we can express the voltage drop across a resistor as <math>V
 
 
 $$
-
 \sum_{n=1}^{N} IR_n = 0
-
 $$
 
 
@@ -3138,9 +3058,7 @@ This equation can also be written in terms of currents using Kirchhoff's Current
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3166,9 +3084,7 @@ To better understand this law, let us consider the example given in the previous
 
 
 $$
-
 I_1 + I_2 = I_3
-
 $$
 
 
@@ -3182,9 +3098,7 @@ Using Ohm's law, we can express the currents in terms of voltage and resistance.
 
 
 $$
-
 \frac{V_1}{R_1} + \frac{V_2}{R_2} = \frac{V_3}{R_3}
-
 $$
 
 
@@ -3198,9 +3112,7 @@ Solving for the unknown voltage <math>V_3</math>, we get:
 
 
 $$
-
 V_3 = \frac{R_3}{R_1 + R_2 + R_3} (V_1 + V_2)
-
 $$
 
 
@@ -3240,9 +3152,7 @@ To understand this method better, let us consider an electric network consisting
 
 
 $$
-
 \sum_{n=1}^{N} I_n = 0
-
 $$
 
 
@@ -3256,9 +3166,7 @@ Using Ohm's law, we can express the current through a resistor as <math>I = \fra
 
 
 $$
-
 \sum_{n=1}^{N} \frac{V_n}{R_n} = 0
-
 $$
 
 
@@ -3276,7 +3184,6 @@ In general, for a circuit with <math>N</math> nodes, the node-voltage equations 
 
 
 $$
-
 \begin{pmatrix}
 
 G_{11} &G_{12} &\cdots &G_{1N} \\ 
@@ -3312,7 +3219,6 @@ i_2\\
 i_N
 
 \end{pmatrix}
-
 $$
 
 
@@ -3360,9 +3266,7 @@ To understand this method better, let us consider an electric network consisting
 
 
 $$
-
 \sum_{n=1}^{N} V_n = 0
-
 $$
 
 
@@ -3376,9 +3280,7 @@ Using Ohm's law, we can express the voltage across a resistor as <math>V = IR</m
 
 
 $$
-
 \sum_{n=1}^{N} I_nR_n = 0
-
 $$
 
 
@@ -3422,9 +3324,7 @@ A series circuit is a circuit in which all components are connected in a single 
 
 
 $$
-
 R_{total} = R_1 + R_2 + ... + R_n
-
 $$
 
 
@@ -3442,9 +3342,7 @@ Using Kirchhoff's Voltage Law (KVL), we can express this as:
 
 
 $$
-
 V_{source} = V_1 + V_2 + V_3
-
 $$
 
 
@@ -3488,9 +3386,7 @@ A parallel circuit is a circuit in which the components are connected in multipl
 
 
 $$
-
 I_{total} = I_1 + I_2 + ... + I_n
-
 $$
 
 
@@ -3508,9 +3404,7 @@ Using Kirchhoff's Current Law (KCL), we can express this as:
 
 
 $$
-
 I_{source} = I_1 + I_2 + I_3
-
 $$
 
 
@@ -3524,9 +3418,7 @@ This relationship between current and resistance in a parallel circuit is crucia
 
 
 $$
-
 \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
-
 $$
 
 
@@ -3536,9 +3428,7 @@ For only two resistances, the total resistance can be calculated using the expre
 
 
 $$
-
 R_{total} = \frac{R_1 R_2}{R_1 + R_2}
-
 $$
 
 
@@ -3548,9 +3438,7 @@ This can be remembered using the mnemonic "product over sum". For "N" equal resi
 
 
 $$
-
 R_{total} = \frac{R}{N}
-
 $$
 
 
@@ -3564,9 +3452,7 @@ To find the current in a specific branch of a parallel circuit, we can use Ohm's
 
 
 $$
-
 I_n = \frac{V}{R_n}
-
 $$
 
 
@@ -3618,9 +3504,7 @@ Using Kirchhoff's Voltage Law (KVL), we can express the voltage across the circu
 
 
 $$
-
 V_{source} = V_1 + V_2 + V_3
-
 $$
 
 
@@ -3634,9 +3518,7 @@ Similarly, using Kirchhoff's Current Law (KCL), we can express the current throu
 
 
 $$
-
 I_{source} = I_1 + I_2 + I_3
-
 $$
 
 
@@ -3650,9 +3532,7 @@ In a series-parallel circuit, the total resistance is a combination of the serie
 
 
 $$
-
 R_{total} = R_{series} + \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}
-
 $$
 
 
@@ -3666,9 +3546,7 @@ This formula can be simplified for only two resistors in parallel:
 
 
 $$
-
 R_{total} = \frac{R_1 R_2}{R_1 + R_2}
-
 $$
 
 
@@ -3678,9 +3556,7 @@ and for "N" equal resistances in parallel:
 
 
 $$
-
 R_{total} = \frac{R}{N}
-
 $$
 
 
@@ -3732,9 +3608,7 @@ Using Kirchhoff's Voltage Law (KVL), we can express the voltage across the circu
 
 
 $$
-
 V_{source} = V_{R1} + V_{R2} + V_{R3} + V_{Rx}
-
 $$
 
 
@@ -3748,9 +3622,7 @@ Similarly, using Kirchhoff's Current Law (KCL), we can express the current at th
 
 
 $$
-
 I_{R1} = I_{R2}
-
 $$
 
 
@@ -3760,9 +3632,7 @@ and the current at the junction of R3 and Rx as:
 
 
 $$
-
 I_{R3} = I_{Rx}
-
 $$
 
 
@@ -3772,9 +3642,7 @@ Since the galvanometer reads zero, we can also say that the current at the junct
 
 
 $$
-
 I_{R1} = I_{R3}
-
 $$
 
 
@@ -3784,9 +3652,7 @@ Combining these equations, we can solve for the unknown resistance Rx:
 
 
 $$
-
 \frac{V_{source}}{R1} = \frac{V_{source}}{R2} = \frac{V_{source}}{R3} = \frac{V_{source}}{Rx}
-
 $$
 
 
@@ -3834,9 +3700,7 @@ Using KCL at node A, we can write the following equation:
 
 
 $$
-
 i_1 + i_2 = i_3
-
 $$
 
 
@@ -3850,25 +3714,19 @@ We can also use Ohm's Law to relate the currents to the voltages:
 
 
 $$
-
 i_1 = \frac{v_A - v_B}{R_1}
-
 $$
 
 
 
 $$
-
 i_2 = \frac{v_A - v_C}{R_2}
-
 $$
 
 
 
 $$
-
 i_3 = \frac{v_A - v_D}{R_3}
-
 $$
 
 
@@ -3878,9 +3736,7 @@ Substituting these equations into our original KCL equation, we get:
 
 
 $$
-
 \frac{v_A - v_B}{R_1} + \frac{v_A - v_C}{R_2} = \frac{v_A - v_D}{R_3}
-
 $$
 
 
@@ -3890,9 +3746,7 @@ We can rearrange this equation to solve for <math>v_A</math>:
 
 
 $$
-
 v_A = \frac{R_2R_3v_B + R_1R_3v_C + R_1R_2v_D}{R_1R_2 + R_1R_3 + R_2R_3}
-
 $$
 
 
@@ -3944,9 +3798,7 @@ Using KVL in the clockwise direction for the loop on the left, we can write the 
 
 
 $$
-
 v_1 - v_2 - v_3 = 0
-
 $$
 
 
@@ -3960,13 +3812,11 @@ We can also use Ohm's Law to relate the voltages to the currents:
 
 
 $$
-
 v_1 = i_1R_1 \\
 
 v_2 = i_2R_2 \\
 
 v_3 = i_3R_3
-
 $$
 
 
@@ -3976,9 +3826,7 @@ Substituting these equations into the first one, we get:
 
 
 $$
-
 i_1R_1 - i_2R_2 - i_3R_3 = 0
-
 $$
 
 
@@ -3988,11 +3836,9 @@ Similarly, for the loop on the right, we can write:
 
 
 $$
-
 v_4 - v_5 - v_6 = 0 \\
 
 i_4R_4 - i_5R_5 - i_6R_6 = 0
-
 $$
 
 
@@ -4002,11 +3848,9 @@ We can also use KCL at node A to relate the currents in the two loops:
 
 
 $$
-
 i_1 + i_4 = i_2 \\
 
 i_3 + i_6 = i_5
-
 $$
 
 
@@ -4066,9 +3910,7 @@ For example, if we turn off the voltage source and analyze the circuit, we can u
 
 
 $$
-
 -v_1 + 2i_1 + 4i_2 = 0
-
 $$
 
 
@@ -4078,9 +3920,7 @@ Similarly, if we turn off the current source and analyze the circuit, we can use
 
 
 $$
-
 \frac{v_2}{2} + \frac{v_2 - v_3}{4} = 0
-
 $$
 
 
@@ -4280,9 +4120,7 @@ The current-voltage (I-V) characteristics of a diode describe the relationship b
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
-
 $$
 
 
@@ -4368,9 +4206,7 @@ The current-voltage (I-V) characteristics of a diode describe the relationship b
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
-
 $$
 
 
@@ -4444,9 +4280,7 @@ The diode equation model is an extension of the Shockley diode model that takes 
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1) - \frac{V_D}{R_p}
-
 $$
 
 
@@ -4486,9 +4320,7 @@ The current-voltage (I-V) characteristics of a diode describe the relationship b
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
-
 $$
 
 
@@ -4560,9 +4392,7 @@ The current-voltage (I-V) characteristics of a diode describe the relationship b
 
 
 $$
-
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
-
 $$
 
 
@@ -4678,9 +4508,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -4708,9 +4536,7 @@ The output DC voltage of an ideal full-wave rectifier can be calculated using th
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -4772,9 +4598,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -4802,9 +4626,7 @@ The output DC voltage of an ideal full-wave rectifier can be calculated using th
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -4900,9 +4722,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -4930,9 +4750,7 @@ The output DC voltage of an ideal full-wave rectifier can be calculated using th
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -4960,9 +4778,7 @@ The output DC voltage of an ideal bridge rectifier can be calculated using the s
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -5016,9 +4832,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -5046,9 +4860,7 @@ The output DC voltage of an ideal full-wave rectifier can be calculated using th
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -5076,9 +4888,7 @@ The output DC voltage of an ideal bridge rectifier can be calculated using the f
 
 
 $$
-
 V_{DC} = \frac{2V_{peak}}{\pi}
-
 $$
 
 
@@ -5106,9 +4916,7 @@ The output voltage of a voltage multiplier can be calculated using the following
 
 
 $$
-
 V_{out} = nV_{in}
-
 $$
 
 
@@ -5126,9 +4934,7 @@ Upon initialization, the voltage multiplier circuit requires a minimum input vol
 
 
 $$
-
 V_{breakdown} = \frac{nV_{in}}{2}
-
 $$
 
 
@@ -5174,9 +4980,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -5222,9 +5026,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -5282,9 +5084,7 @@ The no-load output DC voltage of an ideal half-wave rectifier for a sinusoidal i
 
 
 $$
-
 V_{DC} = \frac{V_{peak}}{\pi}
-
 $$
 
 
@@ -5302,9 +5102,7 @@ As mentioned earlier, the output of a half-wave rectifier is not a smooth DC sig
 
 
 $$
-
 \gamma = \frac{V_{AC}}{V_{DC}}
-
 $$
 
 
@@ -5318,9 +5116,7 @@ For a half-wave rectifier, the RMS value of the AC component can be calculated a
 
 
 $$
-
 V_{AC} = \frac{V_{peak}}{2\sqrt{2}}
-
 $$
 
 
@@ -5330,9 +5126,7 @@ Substituting this into the equation for the ripple factor, we get:
 
 
 $$
-
 \gamma = \frac{\frac{V_{peak}}{2\sqrt{2}}}{\frac{V_{peak}}{\pi}} = \frac{\pi}{2\sqrt{2}} \approx 1.11
-
 $$
 
 
@@ -5350,9 +5144,7 @@ The efficiency of a rectifier is a measure of how well it converts AC power into
 
 
 $$
-
 \eta = \frac{P_{DC}}{P_{AC}} = \frac{V_{DC}I_{DC}}{V_{AC}I_{AC}}
-
 $$
 
 
@@ -5366,9 +5158,7 @@ Substituting the equations for $V_{DC}$ and $V_{AC}$ from earlier, we get:
 
 
 $$
-
 \eta = \frac{\frac{V_{peak}}{\pi}I_{DC}}{\frac{V_{peak}}{2\sqrt{2}}I_{AC}} = \frac{2\sqrt{2}}{\pi} \approx 0.45
-
 $$
 
 
@@ -5404,9 +5194,7 @@ The ripple factor can be calculated using the following equation:
 
 
 $$
-
 \gamma = \frac{\sqrt{V_{AC}^2}}{V_{DC}}
-
 $$
 
 
@@ -5420,9 +5208,7 @@ For a half-wave rectifier, the RMS value of the AC component can be calculated a
 
 
 $$
-
 V_{AC} = \frac{V_{peak}}{2\sqrt{2}}
-
 $$
 
 
@@ -5432,9 +5218,7 @@ Substituting this into the equation for the ripple factor, we get:
 
 
 $$
-
 \gamma = \frac{\frac{V_{peak}}{2\sqrt{2}}}{\frac{V_{peak}}{\pi}} = \frac{\pi}{2\sqrt{2}} \approx 1.11
-
 $$
 
 
@@ -5448,9 +5232,7 @@ The ripple factor can also be expressed as a percentage, which is a more intuiti
 
 
 $$
-
 \gamma \% = \frac{\gamma}{1+\gamma} \times 100\% \approx 52.5\%
-
 $$
 
 
@@ -5520,9 +5302,7 @@ One advantage of the center-tapped full-wave rectifier is that it utilizes both 
 
 
 $$
-
 V_{DC} = \frac{2V_{max}}{\pi}
-
 $$
 
 
@@ -5584,17 +5364,13 @@ One major advantage of the full-wave rectifier is its higher efficiency compared
 
 
 $$
-
 V_{out,avg} = \frac{V_{in,peak}}{\pi} \quad \text{(Half-wave rectifier)}
-
 $$
 
 
 
 $$
-
 V_{out,avg} = \frac{2V_{in,peak}}{\pi} \quad \text{(Full-wave rectifier)}
-
 $$
 
 
@@ -7544,17 +7320,13 @@ In the previous section, we discussed the use of FETs as switches and their adva
 
 
 $$
-
 i_{C1} = i_{C2} \equiv i_C
-
 $$
 
 
 
 $$
-
 i_{B1} = i_{B2} \equiv i_B
-
 $$
 
 
@@ -7594,9 +7366,7 @@ The voltage gain of a common-emitter amplifier is defined as the ratio of the ou
 
 
 $$
-
 A_v = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -7606,9 +7376,7 @@ In order to calculate the voltage gain, we need to first determine the output vo
 
 
 $$
-
 V_{out} = I_C \times R_C
-
 $$
 
 
@@ -7618,9 +7386,7 @@ The input voltage, on the other hand, is the voltage across the input capacitor 
 
 
 $$
-
 V_{in} = V_{signal} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -7630,9 +7396,7 @@ Substituting these equations into the voltage gain equation, we get:
 
 
 $$
-
 A_v = \frac{I_C \times R_C}{V_{signal} \times \frac{R_2}{R_1 + R_2}}
-
 $$
 
 
@@ -7642,9 +7406,7 @@ We can further simplify this equation by using the relationship between collecto
 
 
 $$
-
 I_C = \beta \times I_B
-
 $$
 
 
@@ -7654,9 +7416,7 @@ where "β" is the current gain of the transistor. Substituting this into the vol
 
 
 $$
-
 A_v = \frac{\beta \times I_B \times R_C}{V_{signal} \times \frac{R_2}{R_1 + R_2}}
-
 $$
 
 
@@ -7712,9 +7472,7 @@ The input impedance of a common-emitter amplifier is defined as the ratio of the
 
 
 $$
-
 Z_{in} = \frac{V_{in}}{I_{in}}
-
 $$
 
 
@@ -7724,9 +7482,7 @@ In order to calculate the input impedance, we need to first determine the input 
 
 
 $$
-
 V_{in} = I_{in} \times Z_{in}
-
 $$
 
 
@@ -7736,9 +7492,7 @@ The input current, on the other hand, is the sum of the base current "I<sub>B</s
 
 
 $$
-
 I_{in} = I_B + \frac{V_{in}}{R_1 + R_2}
-
 $$
 
 
@@ -7748,9 +7502,7 @@ Substituting these equations into the input impedance equation, we get:
 
 
 $$
-
 Z_{in} = \frac{I_B + \frac{V_{in}}{R_1 + R_2}}{V_{in}}
-
 $$
 
 
@@ -7760,9 +7512,7 @@ We can further simplify this equation by using the relationship between collecto
 
 
 $$
-
 I_C = \beta \times I_B
-
 $$
 
 
@@ -7772,9 +7522,7 @@ where "β" is the current gain of the transistor. Substituting this into the inp
 
 
 $$
-
 Z_{in} = \frac{\beta \times I_B + \frac{V_{in}}{R_1 + R_2}}{V_{in}}
-
 $$
 
 
@@ -7788,9 +7536,7 @@ The output impedance of a common-emitter amplifier is defined as the ratio of th
 
 
 $$
-
 Z_{out} = \frac{V_{out}}{I_{out}}
-
 $$
 
 
@@ -7800,9 +7546,7 @@ In order to calculate the output impedance, we need to first determine the outpu
 
 
 $$
-
 V_{out} = I_{out} \times R_C
-
 $$
 
 
@@ -7812,9 +7556,7 @@ The output current, on the other hand, is the collector current "I<sub>C</sub>".
 
 
 $$
-
 I_{out} = I_C
-
 $$
 
 
@@ -7824,9 +7566,7 @@ Substituting these equations into the output impedance equation, we get:
 
 
 $$
-
 Z_{out} = \frac{I_C}{I_C \times R_C}
-
 $$
 
 
@@ -7836,9 +7576,7 @@ We can further simplify this equation by using the relationship between collecto
 
 
 $$
-
 I_C = \beta \times I_B
-
 $$
 
 
@@ -7848,9 +7586,7 @@ where "β" is the current gain of the transistor. Substituting this into the out
 
 
 $$
-
 Z_{out} = \frac{\beta \times I_B}{\beta \times I_B \times R_C}
-
 $$
 
 
@@ -7894,9 +7630,7 @@ The voltage gain of a common-emitter amplifier is defined as the ratio of the ou
 
 
 $$
-
 A_v = \frac{V_{out}}{V_{in}}
-
 $$
 
 
@@ -7906,9 +7640,7 @@ In order to calculate the voltage gain, we need to first determine the output vo
 
 
 $$
-
 V_{out} = I_C \times R_C
-
 $$
 
 
@@ -7918,9 +7650,7 @@ The input voltage, on the other hand, is the voltage across the input capacitor 
 
 
 $$
-
 V_{in} = V_{signal} \times \frac{R_2}{R_1 + R_2}
-
 $$
 
 
@@ -7930,9 +7660,7 @@ Substituting these equations into the voltage gain equation, we get:
 
 
 $$
-
 A_v = \frac{I_C \times R_C}{V_{signal} \times \frac{R_2}{R_1 + R_2}}
-
 $$
 
 
@@ -7942,9 +7670,7 @@ We can further simplify this equation by using the relationship between collecto
 
 
 $$
-
 I_C = \beta \times I_B
-
 $$
 
 
@@ -7954,9 +7680,7 @@ where "β" is the current gain of the transistor. Substituting this into the vol
 
 
 $$
-
 A_v = \frac{\beta \times I_B \times R_C}{V_{signal} \times \frac{R_2}{R_1 + R_2}}
-
 $$
 
 
@@ -8116,9 +7840,7 @@ The voltage gain of an amplifier is defined as the ratio of the output voltage t
 
 
 $$
-
 A_v = \frac{R_C}{R_i}
-
 $$
 
 
@@ -8136,9 +7858,7 @@ In common-emitter amplifiers, the voltage gain is given by the ratio of the coll
 
 
 $$
-
 A_v = \frac{R_C}{R_E}
-
 $$
 
 
@@ -8186,9 +7906,7 @@ The input impedance of an amplifier is defined as the ratio of the input voltage
 
 
 $$
-
 Z_{in} = \frac{R_i}{C_i}
-
 $$
 
 
@@ -8210,9 +7928,7 @@ The output impedance of an amplifier is defined as the ratio of the output volta
 
 
 $$
-
 Z_{out} = \frac{R_C}{C_o}
-
 $$
 
 
@@ -8398,9 +8114,7 @@ The voltage gain of the common-collector amplifier is approximately equal to the
 
 
 $$
-
 A_v = \frac{R_{out}}{R_{in}}
-
 $$
 
 
@@ -8617,10 +8331,7 @@ To analyze this circuit, we can use the DC analysis method. We assume that the t
 
 $$I_b = \frac{V_{cc} - V_b}{R_b}$$
 
-
-
 $$I_c = \beta I_b$$
-
 
 
 Where $\beta$ is the current gain of the transistor.
@@ -8696,13 +8407,9 @@ In this circuit, the base of the transistor is connected to the emitter through 
 To analyze this circuit, we can use the DC analysis method. We assume that the transistor is in the active region and use the following equations to calculate the values of the base and collector currents:
 
 
-
 $$I_b = \frac{V_{cc} - V_{be}}{R_e + (\beta + 1)R_e}$$
 
-
-
 $$I_c = \beta I_b$$
-
 
 
 Where $\beta$ is the current gain of the transistor and $V_{be}$ is the base-emitter voltage.
@@ -8782,13 +8489,9 @@ In this circuit, the base of the transistor is connected to a voltage divider ne
 To analyze this circuit, we can use the DC analysis method. We assume that the transistor is in the active region and use the following equations to calculate the values of the base and collector currents:
 
 
-
 $$I_b = \frac{V_{cc} - V_{be}}{R_1 + R_2}$$
 
-
-
 $$I_c = \beta I_b$$
-
 
 
 Where $\beta$ is the current gain of the transistor and $V_{be}$ is the base-emitter voltage.
@@ -8860,13 +8563,9 @@ In this circuit, the base of the transistor is connected to a voltage source, Vb
 To analyze this circuit, we can use the DC analysis method. We assume that the transistor is in the active region and use the following equations to calculate the values of the base and collector currents:
 
 
-
 $$I_b = \frac{V_b - V_{be}}{R_b}$$
 
-
-
 $$I_c = \beta I_b$$
-
 
 
 Where $\beta$ is the current gain of the transistor and $V_{be}$ is the base-emitter voltage.
@@ -8946,13 +8645,9 @@ In this model, the BJT is represented by two linear elements - a voltage-control
 To analyze this model, we can use the following equations:
 
 
-
 $$i_b = g_m v_{be} + g_{mb} i_c$$
 
-
-
 $$i_c = g_m v_{be} + g_{mb} i_c$$
-
 
 
 Where $g_m$ and $g_{mb}$ are the transconductance and base-emitter conductance, respectively.
@@ -9016,13 +8711,9 @@ In this model, the FET is represented by two linear elements - a voltage-control
 To analyze this model, we can use the following equations:
 
 
-
 $$i_d = g_m v_{gs} + g_{mb} i_d$$
 
-
-
 $$i_g = g_m v_{gs} + g_{mb} i_d$$
-
 
 
 Where $g_m$ and $g_{mb}$ are the transconductance and gate-source conductance, respectively.
@@ -9082,13 +8773,9 @@ The small-signal analysis of amplifiers involves replacing the transistors in th
 Using the small-signal model for BJTs, we can write the following equations for this circuit:
 
 
-
 $$v_{out} = -g_m v_{be} R_C$$
 
-
-
 $$v_{be} = v_{in} - i_b R_B$$
-
 
 
 Where $g_m$ is the transconductance of the BJT, $R_C$ is the collector resistor, and $R_B$ is the base resistor.
@@ -9098,9 +8785,7 @@ Where $g_m$ is the transconductance of the BJT, $R_C$ is the collector resistor,
 Solving these equations, we can obtain the small-signal gain of the amplifier, which is given by:
 
 
-
 $$A_v = \frac{v_{out}}{v_{in}} = -g_m R_C \frac{R_B}{R_B + r_{be}}$$
-
 
 
 Where $r_{be}$ is the base-emitter resistance of the BJT.
@@ -9168,13 +8853,9 @@ The hybrid-π model for a BJT is shown below:
 Using this model, we can write the following equations for the common-emitter amplifier circuit discussed in the previous subsection:
 
 
-
 $$i_c = h_{fe} i_b + h_{oe} v_{ce}$$
 
-
-
 $$i_b = \frac{v_{be}}{h_{ie}} - \frac{v_{ce}}{h_{re}}$$
-
 
 
 Where $h_{fe}$ is the forward current gain, $h_{oe}$ is the output conductance, $h_{ie}$ is the input impedance, and $h_{re}$ is the reverse voltage gain.
@@ -9184,9 +8865,7 @@ Where $h_{fe}$ is the forward current gain, $h_{oe}$ is the output conductance, 
 Solving these equations, we can obtain the small-signal gain of the amplifier, which is given by:
 
 
-
 $$A_v = \frac{v_{out}}{v_{in}} = -h_{fe} R_C \frac{R_B}{R_B + h_{ie}}$$
-
 
 
 #### Advantages and Disadvantages
@@ -9564,13 +9243,11 @@ In this section, we will discuss the characteristics of an ideal operational amp
 One of the key characteristics of an ideal op-amp is its infinite open-loop gain. This means that the output voltage of an ideal op-amp is directly proportional to the difference between its two input voltages, with no limitations on the magnitude of the output voltage. Mathematically, this can be represented as:
 
 
-
 $$
 
 A_{OL} = \infty
 
 $$
-
 
 
 where "A"<sub>OL</sub> is the open-loop gain.
@@ -9588,13 +9265,11 @@ To better understand the behavior of an ideal op-amp with infinite open-loop gai
 The step response of an ideal op-amp with infinite open-loop gain can be represented as:
 
 
-
 $$
 
 V_{out}(t) = A_{OL}(V_+ - V_-)
 
 $$
-
 
 
 where "V"<sub>+</sub> and "V"<sub>-</sub> are the input voltages at the non-inverting and inverting terminals, respectively.
@@ -9634,13 +9309,11 @@ In this section, we will discuss the characteristics of an ideal operational amp
 Another important characteristic of an ideal op-amp is its infinite input impedance. This means that the input impedance of an ideal op-amp is so high that it can be considered infinite for all practical purposes. Mathematically, this can be represented as:
 
 
-
 $$
 
 Z_{in} = \infty
 
 $$
-
 
 
 where "Z"<sub>in</sub> is the input impedance.
@@ -9654,13 +9327,11 @@ This infinite input impedance allows an ideal op-amp to draw negligible current 
 To better understand the behavior of an ideal op-amp with infinite input impedance, let's consider its input impedance in a simple inverting amplifier circuit. In this circuit, the input impedance is given by:
 
 
-
 $$
 
 Z_{in} = R_1 || R_2
 
 $$
-
 
 
 where "R"<sub>1</sub> and "R"<sub>2</sub> are the input resistors.
@@ -9700,13 +9371,11 @@ In this section, we will discuss the characteristics of an ideal operational amp
 The third important characteristic of an ideal op-amp is its zero output impedance. This means that the output impedance of an ideal op-amp is so low that it can be considered zero for all practical purposes. Mathematically, this can be represented as:
 
 
-
 $$
 
 Z_{out} = 0
 
 $$
-
 
 
 where "Z"<sub>out</sub> is the output impedance.
@@ -9720,13 +9389,11 @@ This zero output impedance allows an ideal op-amp to drive any load without any 
 To better understand the behavior of an ideal op-amp with zero output impedance, let's consider its output impedance in a simple inverting amplifier circuit. In this circuit, the output impedance is given by:
 
 
-
 $$
 
 Z_{out} = R_2
 
 $$
-
 
 
 where "R"<sub>2</sub> is the feedback resistor.
@@ -9754,13 +9421,11 @@ The final characteristic of an ideal op-amp is its infinite bandwidth. This mean
 Mathematically, this can be represented as:
 
 
-
 $$
 
 A_{v} = \frac{V_{out}}{V_{in}} = \infty
 
 $$
-
 
 
 where "A"<sub>v</sub> is the voltage gain.
@@ -9796,13 +9461,11 @@ The inverting amplifier is one of the most commonly used circuits in analog elec
 To understand the operation of the inverting amplifier, we must first understand the basic components of an op-amp. An op-amp is a high-gain, differential amplifier that has two inputs, a non-inverting input (+) and an inverting input (-), and a single output. The output voltage of an op-amp is given by the equation:
 
 
-
 $$
 
 V_{out} = A_{v}(V_{+} - V_{-})
 
 $$
-
 
 
 where "A"<sub>v</sub> is the voltage gain of the op-amp.
@@ -9816,13 +9479,11 @@ In the inverting amplifier circuit, the input voltage is applied to the invertin
 The key characteristic of the inverting amplifier is that the input voltage is amplified by a factor of "-R<sub>2</sub>/R<sub>1</sub>". This can be seen by applying Kirchhoff's voltage law to the circuit. Since the non-inverting input is connected to ground, the voltage at the inverting input is equal to the input voltage. Therefore, the output voltage can be written as:
 
 
-
 $$
 
 V_{out} = -\frac{R_{2}}{R_{1}}V_{in}
 
 $$
-
 
 
 This means that the output voltage is the inverse of the input voltage, hence the name "inverting amplifier". The negative sign indicates that the output voltage is 180 degrees out of phase with the input voltage.
@@ -9862,13 +9523,11 @@ It is important to note that the voltage gain of an inverting amplifier is alway
 To better understand the voltage gain of an inverting amplifier, let's take a closer look at the equation for the output voltage:
 
 
-
 $$
 
 V_{out} = -\frac{R_{2}}{R_{1}}V_{in}
 
 $$
-
 
 
 From this equation, we can see that the gain is directly proportional to the ratio of the two resistors. This means that as the value of "R"<sub>2</sub> increases, the gain also increases. Conversely, as the value of "R"<sub>1</sub> increases, the gain decreases.
@@ -9988,13 +9647,11 @@ As you can see, the input signal is connected to the non-inverting input termina
 The gain equation for a non-inverting amplifier is given by:
 
 
-
 $$
 
 A_{v} = 1 + \frac{R_{f}}{R_{1}}
 
 $$
-
 
 
 Where $R_{f}$ is the feedback resistor and $R_{1}$ is the input resistor. This equation shows that the gain of a non-inverting amplifier is always greater than 1, making it useful for amplifying weak signals.
@@ -10004,13 +9661,11 @@ Where $R_{f}$ is the feedback resistor and $R_{1}$ is the input resistor. This e
 The input impedance of a non-inverting amplifier is given by:
 
 
-
 $$
 
 Z_{in} = R_{1}
 
 $$
-
 
 
 This is much higher than the input impedance of an inverting amplifier, making non-inverting amplifiers more suitable for use with high impedance sources.
@@ -10020,13 +9675,11 @@ This is much higher than the input impedance of an inverting amplifier, making n
 The output impedance of a non-inverting amplifier is given by:
 
 
-
 $$
 
 Z_{out} = \frac{R_{f}}{A_{v}}
 
 $$
-
 
 
 This is lower than the output impedance of an inverting amplifier, making non-inverting amplifiers more suitable for driving low impedance loads.
@@ -10058,13 +9711,11 @@ In the previous subsection, we discussed the operation of non-inverting amplifie
 As mentioned before, the voltage gain of a non-inverting amplifier is given by the equation:
 
 
-
 $$
 
 A_{v} = 1 + \frac{R_{f}}{R_{1}}
 
 $$
-
 
 
 This equation shows that the gain of a non-inverting amplifier is always greater than 1, making it useful for amplifying weak signals. The gain can also be adjusted by changing the values of the feedback resistor ($R_{f}$) and the input resistor ($R_{1}$).
@@ -10244,13 +9895,11 @@ The summing amplifier is a type of operational amplifier (op-amp) circuit that c
 The basic circuit configuration of a summing amplifier is shown in Figure 1. It consists of an op-amp with multiple input resistors connected to its non-inverting input and a feedback resistor connected to its inverting input. The output voltage, "V"<sub>out</sub>, is given by the sum of the input voltages, "V"<sub>in1</sub>, "V"<sub>in2</sub>, ..., "V"<sub>inn</sub>, multiplied by the respective input resistors, "R"<sub>1</sub>, "R"<sub>2</sub>, ..., "R"<sub>n</sub>, and divided by the feedback resistor, "R"<sub>f</sub>.
 
 
-
 $$
 
 V_{out} = -\frac{R_f}{R_1}V_{in1} - \frac{R_f}{R_2}V_{in2} - ... - \frac{R_f}{R_n}V_{inn}
 
 $$
-
 
 
 This configuration results in a weighted sum of the input voltages, with the output voltage being inverted due to the negative feedback.
@@ -10264,7 +9913,6 @@ This configuration results in a weighted sum of the input voltages, with the out
 To analyze the operation of the summing amplifier, we can use the virtual ground concept. This concept states that the voltage at the inverting input of the op-amp is equal to the voltage at the non-inverting input, which is typically assumed to be ground. Using this concept, we can write the following equation for the inverting input:
 
 
-
 $$
 
 V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
@@ -10272,9 +9920,7 @@ V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
 $$
 
 
-
 Substituting this into the output voltage equation, we get:
-
 
 
 $$
@@ -10284,9 +9930,7 @@ V_{out} = -\frac{R_f}{R_1}V_{in1} - \frac{R_f}{R_2}V_{in2} - ... - \frac{R_f}{R_
 $$
 
 
-
 Simplifying this equation, we get:
-
 
 
 $$
@@ -10296,9 +9940,7 @@ V_{out} = -\frac{R_f}{R_1 + R_2 + ... + R_n} \left( \frac{R_1}{R_1}V_{in1} + \fr
 $$
 
 
-
 Since "V"<sub>in1</sub>, "V"<sub>in2</sub>, ..., "V"<sub>inn</sub> are all equal to "V"<sub>in</sub>, we can simplify the equation further to get:
-
 
 
 $$
@@ -10306,7 +9948,6 @@ $$
 V_{out} = -\frac{R_f}{R_1 + R_2 + ... + R_n} \left( V_{in} + V_{in} + ... + V_{in} \right) = -\frac{R_f}{R_1 + R_2 + ... + R_n} \left( nV_{in} \right)
 
 $$
-
 
 
 Therefore, the output voltage is equal to the negative of the input voltage multiplied by the ratio of the feedback resistor to the sum of the input resistors. This means that the output voltage is a weighted sum of the input voltages, with the weights determined by the ratio of the feedback resistor to each input resistor.
@@ -10346,7 +9987,6 @@ The voltage gain of a summing amplifier is an important parameter to consider wh
 The voltage gain of a summing amplifier can be derived from the basic circuit configuration and the virtual ground concept. Using the same approach as in the previous section, we can write the following equation for the inverting input:
 
 
-
 $$
 
 V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
@@ -10354,9 +9994,7 @@ V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
 $$
 
 
-
 Substituting this into the output voltage equation, we get:
-
 
 
 $$
@@ -10366,9 +10004,7 @@ V_{out} = -\frac{R_f}{R_1}V_{in1} - \frac{R_f}{R_2}V_{in2} - ... - \frac{R_f}{R_
 $$
 
 
-
 Simplifying this equation, we get:
-
 
 
 $$
@@ -10378,9 +10014,7 @@ V_{out} = -\frac{R_f}{R_1 + R_2 + ... + R_n} \left( \frac{R_1}{R_1}V_{in1} + \fr
 $$
 
 
-
 Using the definition of voltage gain, we can rewrite this equation as:
-
 
 
 $$
@@ -10388,7 +10022,6 @@ $$
 A_v = \frac{V_{out}}{V_{in}} = -\frac{R_f}{R_1 + R_2 + ... + R_n}
 
 $$
-
 
 
 This expression shows that the voltage gain of a summing amplifier is dependent on the feedback resistor, "R"<sub>f</sub>, and the sum of the input resistors, "R"<sub>1</sub> + "R"<sub>2</sub> + ... + "R"<sub>n</sub>. It is important to note that the voltage gain is negative, which means that the output voltage is inverted with respect to the input voltage.
@@ -10426,7 +10059,6 @@ When designing a summing amplifier, it is important to carefully select the valu
 Let's consider an example where we want to design a summing amplifier with a voltage gain of -10 dB. We can use the voltage gain expression to calculate the required feedback resistor, "R"<sub>f</sub>, for a given sum of input resistors, "R"<sub>1</sub> + "R"<sub>2</sub> + ... + "R"<sub>n</sub>. Using the equation for voltage gain, we can write:
 
 
-
 $$
 
 -10 \text{ dB} = -\frac{R_f}{R_1 + R_2 + ... + R_n}
@@ -10434,9 +10066,7 @@ $$
 $$
 
 
-
 Solving for "R"<sub>f</sub>, we get:
-
 
 
 $$
@@ -10444,7 +10074,6 @@ $$
 R_f = 0.1 \cdot (R_1 + R_2 + ... + R_n)
 
 $$
-
 
 
 This calculation shows that the feedback resistor should be 10% of the sum of the input resistors to achieve a voltage gain of -10 dB.
@@ -10484,13 +10113,11 @@ To determine the input impedance of a summing amplifier, we can use the virtual 
 Using this approach, we can write the following equation for the input impedance of a summing amplifier:
 
 
-
 $$
 
 Z_{in} = \frac{R_1 || R_2 || ... || R_n}{1 + \frac{R_f}{R_1} + \frac{R_f}{R_2} + ... + \frac{R_f}{R_n}}
 
 $$
-
 
 
 where "||" represents the parallel combination of resistors.
@@ -10516,13 +10143,11 @@ To determine the output impedance of a summing amplifier, we can use the virtual
 Using this approach, we can write the following equation for the output impedance of a summing amplifier:
 
 
-
 $$
 
 Z_{out} = R_f
 
 $$
-
 
 
 From this equation, we can see that the output impedance of a summing amplifier is solely dependent on the feedback resistor, "R"<sub>f</sub>. This means that the output impedance remains constant regardless of the number of input signals.
@@ -10560,7 +10185,6 @@ The voltage gain of a summing amplifier is an important parameter to consider wh
 The voltage gain of a summing amplifier can be derived from the basic circuit configuration and the virtual ground concept. Using the same approach as in the previous section, we can write the following equation for the inverting input:
 
 
-
 $$
 
 V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
@@ -10568,9 +10192,7 @@ V_{in} = \frac{R_1}{R_1 + R_2 + ... + R_n}V_{out}
 $$
 
 
-
 Substituting this into the output voltage equation, we get:
-
 
 
 $$
@@ -10580,9 +10202,7 @@ V_{out} = -\frac{R_f}{R_1}V_{in1} - \frac{R_f}{R_2}V_{in2} - ... - \frac{R_f}{R_
 $$
 
 
-
 Simplifying this equation, we get:
-
 
 
 $$
@@ -10592,9 +10212,7 @@ V_{out} = -\frac{R_f}{R_1 + R_2 + ... + R_n} \left( \frac{R_1}{R_1}V_{in1} + \fr
 $$
 
 
-
 Using the definition of voltage gain, we can rewrite this equation as:
-
 
 
 $$
@@ -10602,7 +10220,6 @@ $$
 A_v = \frac{V_{out}}{V_{in}} = -\frac{R_f}{R_1 + R_2 + ... + R_n}
 
 $$
-
 
 
 This expression shows that the voltage gain of a summing amplifier is dependent on the feedback resistor, "R"<sub>f</sub>, and the sum of the input resistors, "R"<sub>1</sub> + "R"<sub>2</sub> + ... + "R"<sub>n</sub>. It is important to note that the voltage gain is negative, which means that the output voltage is inverted with respect to the input voltage.
@@ -10778,13 +10395,11 @@ In the previous section, we discussed the basic operation and applications of di
 The voltage gain of a difference amplifier is determined by the ratio of the feedback resistors connected between the output and the inverting input. This can be expressed mathematically as:
 
 
-
 $$
 
 A_v = -\frac{R_f}{R_i}
 
 $$
-
 
 
 Where $A_v$ is the voltage gain, $R_f$ is the feedback resistor, and $R_i$ is the input resistor. This equation assumes that the input resistors are equal in value.
@@ -10848,13 +10463,11 @@ The input impedance of a difference amplifier is the impedance seen by the input
 The input impedance of a difference amplifier can be calculated using the following equation:
 
 
-
 $$
 
 Z_{in} = R_i \parallel R_f
 
 $$
-
 
 
 Where $Z_{in}$ is the input impedance, $R_i$ is the input resistor, and $R_f$ is the feedback resistor. This equation assumes that the input resistors are equal in value.
@@ -10872,13 +10485,11 @@ The output impedance of a difference amplifier is the impedance seen by the load
 The output impedance of a difference amplifier can be calculated using the following equation:
 
 
-
 $$
 
 Z_{out} = \frac{R_i}{A_v}
 
 $$
-
 
 
 Where $Z_{out}$ is the output impedance, $R_i$ is the input resistor, and $A_v$ is the voltage gain. This equation assumes that the feedback resistor is much larger than the input resistor.
@@ -11012,13 +10623,11 @@ When an input signal is applied to the integrator, the op-amp amplifies the sign
 Mathematically, the output voltage of an integrator can be expressed as:
 
 
-
 $$
 
 V_{out} = -\frac{1}{RC} \int_{t_0}^{t} V_{in}(t) dt + V_{out}(t_0)
 
 $$
-
 
 
 where $R$ is the resistance of the feedback resistor and $C$ is the capacitance of the feedback capacitor. $t_0$ represents the initial time at which the input signal is applied.
@@ -11062,13 +10671,11 @@ When an input signal is applied to the differentiator, the op-amp amplifies the 
 Mathematically, the output voltage of a differentiator can be expressed as:
 
 
-
 $$
 
 V_{out} = -RC \frac{dV_{in}(t)}{dt} + V_{out}(t_0)
 
 $$
-
 
 
 where $R$ is the resistance of the feedback resistor and $C$ is the capacitance of the feedback capacitor. $t_0$ represents the initial time at which the input signal is applied.
@@ -11224,25 +10831,19 @@ In conclusion, while integrators and differentiators are fundamental circuits in
 To assess the performances and the effectiveness of the filter, the Insertion loss (IL) can be evaluated in each case. The IL, expressed in dB, represents the achievable noise attenuation and it is defined as:
 
 
-
 $$IL=20log_{10}\frac{V_{without}}{V_{with}}$$
-
 
 
 where $V_{without}$ is the load voltage measured "without" the filter and $V_{with}$ is the load voltage "with" the filter included in the system. By applying KVL, KCL and Ohm's law to the circuit, these two voltages can be calculated. If $A$ is the filter's gain, i.e. the transfer function between the sensed and the injected signal, IL results to be:
 
 
-
 $$IL=20log_{10}A$$
-
 
 
 Larger IL implies a greater attenuation, while a smaller than unity IL implies an undesired noise signal amplification caused by the active filter. For example, type (a) (current sensing and compensation) and (d) (voltage sensing and compensation) filters, if the mismatch between $Z_L$ and $Z_s$ is large enough so that one of the two becomes negligible compared to the other, provide ILs irrespective of the system impedances, which means the higher the gain, the better the performances. The large mismatch between $Z_L$ and $Z_s$ occurs in most of real applications, where the noise source impedance $Z_s$ is much smaller (for the differential mode test setup) or much larger (for the common mode test setup) than the load impedance $Z_L$, that, in standard test setup, is equal to the $50\Omega$ LISN impedance. In these two cases ILs can be approximated to:
 
 
-
 $$IL=20log_{10}\frac{Z_L}{Z_s}$$
-
 
 
 On the other hand, in the type (c) (current sensing and voltage compensation) active filter, the gain of the active filter should be larger than the total impedance of the given system to obtain the maximum IL. This means that the filter should provide a high series impedance between the noise source and the receiver to block the noise current. Similar conclusion can be made for a type (b) (voltage sensing and current compensation) filter, where the gain of the active filter should be larger than the total impedance of the given system to obtain the maximum IL. This means that the filter should provide a high shunt impedance between the noise source and the receiver to block the noise voltage. 
@@ -11276,9 +10877,7 @@ Low-pass active filters are designed to allow low-frequency signals to pass thro
 The op-amp acts as a buffer, providing high input impedance and low output impedance. The resistors and capacitors are used to create a low-pass filter with a cutoff frequency, which is the frequency at which the filter begins to attenuate the signal. The cutoff frequency can be calculated using the following formula:
 
 
-
 $$f_c=\frac{1}{2\pi RC}$$
-
 
 
 where $R$ is the resistance and $C$ is the capacitance in the filter circuit. By adjusting the values of $R$ and $C$, the cutoff frequency can be set to the desired value.
@@ -11334,17 +10933,13 @@ In conclusion, low-pass active filters are essential components in analog electr
 To assess the performances and the effectiveness of the filter, the Insertion loss (IL) can be evaluated in each case. The IL, expressed in dB, represents the achievable noise attenuation and it is defined as:
 
 
-
 $$IL=20log_{10}\frac{V_{without}}{V_{with}}$$
-
 
 
 where $V_{without}$ is the load voltage measured "without" the filter and $V_{with}$ is the load voltage "with" the filter included in the system. By applying KVL, KCL and Ohm's law to the circuit, these two voltages can be calculated. If $A$ is the filter's gain, i.e. the transfer function between the sensed and the injected signal, IL results to be:
 
 
-
 $$IL=20log_{10}A$$
-
 
 
 Larger IL implies a greater attenuation, while a smaller than unity IL implies an undesired noise signal amplification caused by the active filter. This is why it is important to carefully design and select the appropriate active filter for a given system. In this section, we will focus on high-pass active filters, which are commonly used to attenuate low-frequency noise signals.
@@ -11362,9 +10957,7 @@ High-pass active filters are designed to attenuate low-frequency noise signals w
 To understand the behavior of a high-pass active filter, we can analyze its transfer function. The transfer function is the ratio of the output voltage to the input voltage and is given by:
 
 
-
 $$H(s)=\frac{V_{out}(s)}{V_{in}(s)}=\frac{A}{1+sRC}$$
-
 
 
 where $A$ is the gain of the op-amp and $RC$ is the time constant of the filter. From this transfer function, we can see that at low frequencies (when $s$ is small), the denominator becomes large and the transfer function approaches 0. This means that low-frequency signals are attenuated by the filter. On the other hand, at high frequencies (when $s$ is large), the denominator becomes small and the transfer function approaches the gain of the op-amp. This means that high-frequency signals are allowed to pass through the filter.
@@ -11408,9 +11001,7 @@ Band-pass active filters are commonly used in communication systems, where it is
 To understand the behavior of a band-pass active filter, we can analyze its transfer function. The transfer function is the ratio of the output voltage to the input voltage and is given by:
 
 
-
 $$H(s)=\frac{V_{out}(s)}{V_{in}(s)}=\frac{A_1A_2}{1+s(R_1C_1+R_2C_2)+s^2R_1R_2C_1C_2}$$
-
 
 
 where $A_1$ and $A_2$ are the gains of the two op-amps, and $R_1C_1$ and $R_2C_2$ are the time constants of the high-pass and low-pass filters, respectively. From this transfer function, we can see that the center frequency of the filter is determined by the values of $R_1$ and $R_2$, while the bandwidth is determined by the values of $C_1$ and $C_2$.
@@ -11454,9 +11045,7 @@ Band-pass active filters are commonly used in communication systems, where it is
 To understand the behavior of a band-pass active filter, we can analyze its transfer function. The transfer function is the ratio of the output voltage to the input voltage and is given by:
 
 
-
 $$H(s)=\frac{V_{out}(s)}{V_{in}(s)}=\frac{A_1A_2}{1+s(R_1C_1+R_2C_2)+s^2R_1R_2C_1C_2}$$
-
 
 
 where $A_1$ and $A_2$ are the gains of the two op-amps, and $R_1C_1$ and $R_2C_2$ are the time constants of the high-pass and low-pass filters, respectively. From this transfer function, we can see that the center frequency of the filter is determined by the values of $R_1$ and $R_2$, while the bandwidth is determined by the values of $C_1$ and $C_2$.
@@ -11482,9 +11071,7 @@ The basic structure of a notch filter is similar to that of a band-pass filter, 
 To analyze the behavior of a notch filter, we can again look at its transfer function, which is given by:
 
 
-
 $$H(s)=\frac{V_{out}(s)}{V_{in}(s)}=\frac{A_1A_2}{1+s(R_1C_1+R_2C_2)+s^2R_1R_2C_1C_2+s(R_1+R_2)C_1}$$
-
 
 
 where $A_1$ and $A_2$ are the gains of the two op-amps, and $R_1C_1$ and $R_2C_2$ are the time constants of the high-pass and low-pass filters, respectively. The additional term in the denominator, $s(R_1+R_2)C_1$, creates the notch in the frequency response.
@@ -12388,7 +11975,6 @@ The phase shift oscillator can also be implemented using an operational amplifie
 The equations for the oscillation frequency and oscillation criterion in this circuit are more complicated due to the loading effects of each RC stage. However, assuming an ideal amplifier with very low output impedance and very high input impedance, the oscillation frequency can be approximated as:
 
 
-
 $$
 
 f = \frac{1}{2\pi\sqrt{6R_1R_2C_1C_2C_3}}
@@ -12396,9 +11982,7 @@ f = \frac{1}{2\pi\sqrt{6R_1R_2C_1C_2C_3}}
 $$
 
 
-
 The feedback resistor required to sustain oscillation is:
-
 
 
 $$
@@ -12408,9 +11992,7 @@ R_\mathrm{fb} = 2(R_1+R_2+R_3) + \frac{2R_1R_3}{R_2} + \frac{C_2R_2+C_2R_3+C_3R_
 $$
 
 
-
 Simpler equations can be derived when all the resistors (except the negative feedback resistor) have the same value and all the capacitors have the same value. In this case, if $R_1 = R_2 = R_3 = R$ and $C_1 = C_2 = C_3 = C$, then:
-
 
 
 $$
@@ -12420,9 +12002,7 @@ f = \frac{1}{2\pi\sqrt{6RC^3}}
 $$
 
 
-
 and the oscillation criterion becomes:
-
 
 
 $$
@@ -12430,7 +12010,6 @@ $$
 R_\mathrm{fb} = 6R + \frac{3R}{2} + \frac{3R}{2} = 9R
 
 $$
-
 
 
 As with other feedback oscillators, the initial signal to start oscillation can come from thermal electrical noise in the circuit or the turn-on transient. In practice, the feedback resistor must be slightly larger than the calculated value to ensure that the oscillation grows in amplitude rather than remaining constant.
@@ -12510,13 +12089,11 @@ The feedback network consists of two resistors, R1 and R2, and two capacitors, C
 The frequency of oscillation can be calculated using the equation:
 
 
-
 $$
 
 f = \frac{1}{2\pi RC}
 
 $$
-
 
 
 where R is the resistance of the feedback network and C is the capacitance of the capacitors.
@@ -12592,13 +12169,11 @@ The circuit consists of a tank circuit, which is a combination of an inductor (L
 To understand how the Colpitts oscillator works, let's apply the Barkhausen stability criterion. The loop gain, $\beta A$, is given by:
 
 
-
 $$
 
 \beta A = \frac{Z_{C1}}{Z_{C1}+Z_{C2}} \times \frac{Z_{L}}{Z_{L}+Z_{in}}
 
 $$
-
 
 
 where $Z_{C1}$ and $Z_{C2}$ are the impedances of the capacitors, $Z_{L}$ is the impedance of the inductor, and $Z_{in}$ is the input impedance of the active device.
@@ -12608,13 +12183,11 @@ where $Z_{C1}$ and $Z_{C2}$ are the impedances of the capacitors, $Z_{L}$ is the
 For oscillations to occur, the loop gain must equal 1. This can be achieved by selecting the values of the components such that the impedances of the capacitors and inductor are equal at the desired frequency. This frequency is known as the resonant frequency and is given by:
 
 
-
 $$
 
 f_0 = \frac{1}{2\pi\sqrt{LC}}
 
 $$
-
 
 
 At this frequency, the loop gain is 1 and the feedback signal is in phase with the input signal, satisfying the Barkhausen stability criterion.
@@ -13748,13 +13321,11 @@ A low-pass filter is a type of filter that allows low-frequency signals to pass 
 The simplest form of a low-pass filter is a first-order RC filter, which consists of a resistor and a capacitor in series. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 where R is the resistance and C is the capacitance. This equation shows that the cutoff frequency can be adjusted by changing the values of R and C. A higher resistance or capacitance will result in a lower cutoff frequency, while a lower resistance or capacitance will result in a higher cutoff frequency.
@@ -13764,13 +13335,11 @@ where R is the resistance and C is the capacitance. This equation shows that the
 Higher-order low-pass filters can be constructed by cascading multiple first-order filters. For example, a second-order low-pass filter can be constructed by cascading two first-order filters in series. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 
 $$
-
 
 
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two first-order filters. Similarly, higher-order filters can be constructed by cascading more first-order filters in series.
@@ -13780,13 +13349,11 @@ where R1 and R2 are the resistances and C1 and C2 are the capacitances of the tw
 Another type of low-pass filter is the passive LC filter, which consists of an inductor and a capacitor in parallel. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{LC}}
 
 $$
-
 
 
 where L is the inductance and C is the capacitance. This type of filter is commonly used in radio frequency (RF) applications.
@@ -13826,13 +13393,11 @@ A high-pass filter is a type of filter that allows high-frequency signals to pas
 The simplest form of a high-pass filter is a first-order RC filter, which consists of a resistor and a capacitor in parallel. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 where R is the resistance and C is the capacitance. This equation shows that the cutoff frequency can be adjusted by changing the values of R and C. A higher resistance or capacitance will result in a higher cutoff frequency, while a lower resistance or capacitance will result in a lower cutoff frequency.
@@ -13842,13 +13407,11 @@ where R is the resistance and C is the capacitance. This equation shows that the
 Higher-order high-pass filters can be constructed by cascading multiple first-order filters. For example, a second-order high-pass filter can be constructed by cascading two first-order filters in parallel. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 
 $$
-
 
 
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two first-order filters. Similarly, higher-order filters can be constructed by cascading more first-order filters in parallel.
@@ -13858,13 +13421,11 @@ where R1 and R2 are the resistances and C1 and C2 are the capacitances of the tw
 Another type of high-pass filter is the passive LC filter, which consists of a combination of inductors and capacitors. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{LC}}
 
 $$
-
 
 
 where L is the inductance and C is the capacitance. This type of filter is commonly used in radio frequency (RF) applications.
@@ -13904,21 +13465,17 @@ A band-pass filter is a type of filter that allows a specific range of frequenci
 The simplest form of a band-pass filter is a second-order LC filter, which consists of a capacitor and an inductor in series. The cutoff frequencies of this filter are given by:
 
 
-
 $$
 
 f_{c1} = \frac{1}{2\pi \sqrt{LC}}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{1}{2\pi \sqrt{LC}}
 
 $$
-
 
 
 where L is the inductance and C is the capacitance. This equation shows that the cutoff frequencies can be adjusted by changing the values of L and C. A higher inductance or capacitance will result in a lower cutoff frequency, while a lower inductance or capacitance will result in a higher cutoff frequency.
@@ -13928,21 +13485,17 @@ where L is the inductance and C is the capacitance. This equation shows that the
 Higher-order band-pass filters can be constructed by cascading multiple second-order filters. For example, a fourth-order band-pass filter can be constructed by cascading two second-order filters in series. The cutoff frequencies of this filter are given by:
 
 
-
 $$
 
 f_{c1} = \frac{1}{2\pi \sqrt{L_1C_1}}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{1}{2\pi \sqrt{L_2C_2}}
 
 $$
-
 
 
 where L1 and L2 are the inductances and C1 and C2 are the capacitances of the two second-order filters. Similarly, higher-order filters can be constructed by cascading more second-order filters in series.
@@ -13952,14 +13505,11 @@ where L1 and L2 are the inductances and C1 and C2 are the capacitances of the tw
 Another type of band-pass filter is the passive RLC filter, which consists of a resistor, an inductor, and a capacitor in series. This type of filter has a sharper cutoff and a narrower bandwidth compared to the LC filter. The cutoff frequencies of this filter are given by:
 
 
-
 $$
 
 f_{c1} = \frac{1}{2\pi \sqrt{LC}}
 
 $$
-
-
 
 $$
 
@@ -13968,9 +13518,7 @@ f_{c2} = \frac{1}{2\pi \sqrt{LC} + R}
 $$
 
 
-
 where R is the resistance, L is the inductance, and C is the capacitance. The bandwidth of this filter is given by:
-
 
 
 $$
@@ -13978,7 +13526,6 @@ $$
 BW = f_{c2} - f_{c1} = \frac{R}{2\pi L}
 
 $$
-
 
 
 The passive RLC filter is commonly used in radio frequency (RF) applications to select a specific frequency band for transmission or reception.
@@ -14014,21 +13561,17 @@ A notch filter, also known as a band-stop filter, is a type of filter that atten
 The simplest form of a notch filter is a second-order LC filter, which consists of a capacitor and an inductor in parallel. The cutoff frequencies of this filter are given by:
 
 
-
 $$
 
 f_{c1} = \frac{1}{2\pi \sqrt{LC}}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{1}{2\pi \sqrt{LC}}
 
 $$
-
 
 
 where L is the inductance and C is the capacitance. This equation shows that the cutoff frequencies can be adjusted by changing the values of L and C. A higher inductance or capacitance will result in a lower cutoff frequency, while a lower inductance or capacitance will result in a higher cutoff frequency.
@@ -14038,21 +13581,17 @@ where L is the inductance and C is the capacitance. This equation shows that the
 Higher-order notch filters can be constructed by cascading multiple second-order filters. For example, a fourth-order notch filter can be constructed by cascading two second-order filters in parallel. The cutoff frequencies of this filter are given by:
 
 
-
 $$
 
 f_{c1} = \frac{1}{2\pi \sqrt{L_1C_1}}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{1}{2\pi \sqrt{L_2C_2}}
 
 $$
-
 
 
 where L1 and L2 are the inductances and C1 and C2 are the capacitances of the two second-order filters. Similarly, higher-order filters can be constructed by cascading more second-order filters in parallel.
@@ -14092,13 +13631,11 @@ A low-pass active filter is a type of filter that allows low-frequency signals t
 The simplest form of a low-pass active filter is a first-order RC filter, which consists of a resistor and a capacitor in series. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 where R is the resistance and C is the capacitance. This equation shows that the cutoff frequency can be adjusted by changing the values of R and C. A higher resistance or capacitance will result in a lower cutoff frequency, while a lower resistance or capacitance will result in a higher cutoff frequency.
@@ -14108,13 +13645,11 @@ where R is the resistance and C is the capacitance. This equation shows that the
 Higher-order low-pass active filters can be constructed by cascading multiple first-order filters. For example, a second-order low-pass active filter can be constructed by cascading two first-order filters in series. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 
 $$
-
 
 
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two first-order filters. Similarly, higher-order filters can be constructed by cascading more first-order filters in series.
@@ -14154,13 +13689,11 @@ A high-pass active filter is a type of filter that allows high-frequency signals
 The simplest form of a high-pass active filter is a first-order RC filter, which consists of a resistor and a capacitor in parallel. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 where R is the resistance and C is the capacitance. This equation shows that the cutoff frequency can be adjusted by changing the values of R and C. A higher resistance or capacitance will result in a higher cutoff frequency, while a lower resistance or capacitance will result in a lower cutoff frequency.
@@ -14170,13 +13703,11 @@ where R is the resistance and C is the capacitance. This equation shows that the
 Higher-order high-pass active filters can be constructed by cascading multiple first-order filters. For example, a second-order high-pass active filter can be constructed by cascading two first-order filters in parallel. The cutoff frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 
 $$
-
 
 
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two first-order filters. Similarly, higher-order filters can be constructed by cascading more first-order filters in parallel.
@@ -14212,7 +13743,6 @@ A band-pass active filter is a type of filter that allows a specific range of fr
 The simplest form of a band-pass active filter is a second-order RC filter, which consists of a resistor and a capacitor in series, and a resistor and a capacitor in parallel. The center frequency of this filter is given by:
 
 
-
 $$
 
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
@@ -14220,9 +13750,7 @@ f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 $$
 
 
-
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two components in series and parallel, respectively. The bandwidth of this filter is given by:
-
 
 
 $$
@@ -14230,7 +13758,6 @@ $$
 BW = \frac{f_c}{Q}
 
 $$
-
 
 
 where Q is the quality factor of the filter, which determines the sharpness of the filter's response. A higher Q value results in a narrower bandwidth and a sharper response, while a lower Q value results in a wider bandwidth and a more gradual response.
@@ -14274,7 +13801,6 @@ A notch active filter is a type of filter that attenuates a specific frequency o
 The simplest form of a notch active filter is a second-order RC filter, which consists of a resistor and a capacitor in series, and a resistor and a capacitor in parallel. The notch frequency of this filter is given by:
 
 
-
 $$
 
 f_n = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
@@ -14282,9 +13808,7 @@ f_n = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 $$
 
 
-
 where R1 and R2 are the resistances and C1 and C2 are the capacitances of the two components in series and parallel, respectively. The notch depth of this filter is given by:
-
 
 
 $$
@@ -14292,7 +13816,6 @@ $$
 ND = \frac{1}{1 + \frac{R_2}{R_1}}
 
 $$
-
 
 
 where R1 and R2 are the resistances of the two components in series and parallel, respectively. A higher notch depth results in a greater attenuation at the notch frequency.
@@ -14332,7 +13855,6 @@ A first-order low-pass filter is the simplest type of low-pass filter and consis
 The transfer function of a first-order low-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + sRC}
@@ -14340,9 +13862,7 @@ H(s) = \frac{1}{1 + sRC}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, and C is the capacitance or inductance, depending on the type of reactive component used. The cutoff frequency, denoted as fc, is given by:
-
 
 
 $$
@@ -14350,7 +13870,6 @@ $$
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 The frequency response of a first-order low-pass filter can be visualized using a Bode plot, which shows the magnitude and phase response of the filter as a function of frequency. At low frequencies, the magnitude response is close to 1, indicating that the signal is not attenuated. As the frequency increases, the magnitude response decreases until it reaches the cutoff frequency, where it drops by 3 dB. Beyond the cutoff frequency, the magnitude response continues to decrease with increasing frequency.
@@ -14390,7 +13909,6 @@ Low-pass filters are a fundamental component in analog electronics, used to sele
 Second-order low-pass filters are more complex than first-order filters, consisting of two reactive components (capacitors or inductors) and one resistor. They offer a steeper roll-off rate of 40 dB/decade, making them more effective at attenuating high-frequency signals. The transfer function of a second-order low-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + sRC + s^2LC}
@@ -14398,9 +13916,7 @@ H(s) = \frac{1}{1 + sRC + s^2LC}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, L is the inductance, and C is the capacitance. The cutoff frequency, denoted as fc, is given by:
-
 
 
 $$
@@ -14410,7 +13926,6 @@ f_c = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 Similar to first-order filters, the frequency response of a second-order low-pass filter can be visualized using a Bode plot. At low frequencies, the magnitude response is close to 1, indicating that the signal is not attenuated. As the frequency increases, the magnitude response decreases until it reaches the cutoff frequency, where it drops by 3 dB. However, unlike first-order filters, the magnitude response of a second-order filter continues to decrease with increasing frequency, resulting in a steeper roll-off rate.
 
 
@@ -14418,13 +13933,11 @@ Similar to first-order filters, the frequency response of a second-order low-pas
 One important characteristic of second-order low-pass filters is their Q factor, which is a measure of the sharpness of the filter's response. A higher Q factor indicates a narrower bandwidth and a sharper roll-off rate. The Q factor is given by:
 
 
-
 $$
 
 Q = \frac{1}{RC\sqrt{LC}}
 
 $$
-
 
 
 Second-order low-pass filters are commonly used in audio and communication systems to remove high-frequency noise and interference. They are also used in active filters, where an operational amplifier is used to amplify the output signal. In addition, second-order filters can be cascaded to create higher-order filters with even steeper roll-off rates. 
@@ -14456,7 +13969,6 @@ Butterworth low-pass filters are a type of second-order low-pass filter that is 
 The transfer function of a Butterworth low-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + s^2LC + sRC}
@@ -14464,9 +13976,7 @@ H(s) = \frac{1}{1 + s^2LC + sRC}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, L is the inductance, and C is the capacitance. The cutoff frequency, denoted as fc, is given by:
-
 
 
 $$
@@ -14476,7 +13986,6 @@ f_c = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 Similar to other second-order filters, the frequency response of a Butterworth filter can be visualized using a Bode plot. At low frequencies, the magnitude response is close to 1, indicating that the signal is not attenuated. As the frequency increases, the magnitude response decreases until it reaches the cutoff frequency, where it drops by 3 dB. However, unlike other second-order filters, the magnitude response of a Butterworth filter remains flat after the cutoff frequency, resulting in a steeper roll-off rate.
 
 
@@ -14484,13 +13993,11 @@ Similar to other second-order filters, the frequency response of a Butterworth f
 One important characteristic of Butterworth low-pass filters is their Q factor, which is a measure of the sharpness of the filter's response. A higher Q factor indicates a narrower bandwidth and a sharper roll-off rate. The Q factor is given by:
 
 
-
 $$
 
 Q = \frac{1}{RC\sqrt{LC}}
 
 $$
-
 
 
 Butterworth filters are commonly used in audio and communication systems to remove high-frequency noise and interference. They are also used in active filters, where an operational amplifier is used to amplify and shape the filter's response. By replacing each inductor with a capacitor and each capacitor with an inductor, a high-pass Butterworth filter can be obtained.
@@ -14526,13 +14033,11 @@ Chebyshev low-pass filters are a type of second-order low-pass filter that is co
 The transfer function of a Chebyshev low-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + \epsilon^2T_n^2(\frac{s}{\omega_c})}
 
 $$
-
 
 
 where s is the complex frequency variable, $\epsilon$ is the ripple factor, $T_n$ is the Chebyshev polynomial of order n, and $\omega_c$ is the cutoff frequency. The ripple factor, denoted as $\epsilon$, determines the amount of ripple in the passband. A higher value of $\epsilon$ results in a sharper roll-off rate, but also introduces more ripples in the passband.
@@ -14546,13 +14051,11 @@ Similar to other second-order filters, the frequency response of a Chebyshev fil
 One important characteristic of Chebyshev low-pass filters is their Q factor, which is a measure of the sharpness of the filter's response. A higher Q factor indicates a narrower bandwidth and a sharper roll-off rate. The Q factor is given by:
 
 
-
 $$
 
 Q = \frac{1}{\epsilon}
 
 $$
-
 
 
 Chebyshev filters are commonly used in audio and communication systems to remove high-frequency noise and interference while maintaining a sharp roll-off rate. They are also used in applications where a flat frequency response is not necessary, such as in audio equalizers. However, the introduction of ripples in the passband may cause distortion in the signal, making Chebyshev filters less suitable for some applications. 
@@ -14580,7 +14083,6 @@ High-pass filters are the opposite of low-pass filters, allowing high-frequency 
 First-order high-pass filters are the simplest type of high-pass filter and are commonly used in audio and communication systems. They are implemented by placing an input voltage across the series combination of a capacitor and a resistor, and using the voltage across the resistor as an output. The transfer function of this linear time-invariant system is:
 
 
-
 $$
 
 H(s) = \frac{s}{s + \frac{1}{RC}}
@@ -14588,9 +14090,7 @@ H(s) = \frac{s}{s + \frac{1}{RC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance in ohms, and C is the capacitance in farads. The product of R and C, denoted as RC, is the time constant (τ) of the filter. The cutoff frequency, denoted as $f_c$, is where the pole of the filter levels off the filter's frequency response and is given by:
-
 
 
 $$
@@ -14600,13 +14100,11 @@ f_c = \frac{1}{2\pi RC}
 $$
 
 
-
 At frequencies below the cutoff frequency, the magnitude response of a first-order high-pass filter is close to 0, indicating that the signal is highly attenuated. As the frequency increases, the magnitude response approaches 1, indicating that the signal is not attenuated. This behavior can be visualized using a Bode plot.
 
 
 
 Figure 1 shows an active electronic implementation of a first-order high-pass filter using an operational amplifier. The transfer function of this linear time-invariant system is:
-
 
 
 $$
@@ -14616,9 +14114,7 @@ H(s) = \frac{-R_2}{R_1}\frac{s}{s + \frac{1}{R_1C}}
 $$
 
 
-
 In this case, the filter has a passband gain of -$R_2$/$R_1$ and a cutoff frequency of:
-
 
 
 $$
@@ -14626,7 +14122,6 @@ $$
 f_c = \frac{1}{2\pi R_1C}
 
 $$
-
 
 
 Because this filter is active, it may have non-unity passband gain. That is, high-frequency signals are inverted and amplified by -$R_2$/$R_1$.
@@ -14640,13 +14135,11 @@ Because this filter is active, it may have non-unity passband gain. That is, hig
 Second-order high-pass filters are more complex than first-order filters and are commonly used in audio and communication systems. They are implemented using a combination of capacitors, resistors, and inductors, and have a steeper roll-off rate than first-order filters. The transfer function of a second-order high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
 
 $$
-
 
 
 where s is the complex frequency variable, Q is the quality factor, and $\omega_0$ is the resonant frequency. The quality factor, denoted as Q, is a measure of the sharpness of the filter's response. A higher Q factor indicates a narrower bandwidth and a sharper roll-off rate.
@@ -14668,7 +14161,6 @@ Butterworth high-pass filters are a type of second-order high-pass filter that i
 The transfer function of a Butterworth high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
@@ -14676,9 +14168,7 @@ H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The cutoff frequency, denoted as $f_c$, is where the magnitude response drops by 3 dB and is given by:
-
 
 
 $$
@@ -14686,7 +14176,6 @@ $$
 f_c = \frac{1}{\sqrt{2}}\omega_0
 
 $$
-
 
 
 where $\omega_0$ is the resonant frequency. Similar to other second-order filters, the frequency response of a Butterworth filter can be visualized using a Bode plot.
@@ -14704,7 +14193,6 @@ Bessel high-pass filters are another type of second-order high-pass filter that 
 The transfer function of a Bessel high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + 0.577s + 1}
@@ -14712,9 +14200,7 @@ H(s) = \frac{s^2}{s^2 + 0.577s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The cutoff frequency, denoted as $f_c$, is where the magnitude response drops by 3 dB and is given by:
-
 
 
 $$
@@ -14722,7 +14208,6 @@ $$
 f_c = \frac{1}{0.577}\omega_0
 
 $$
-
 
 
 where $\omega_0$ is the resonant frequency. Similar to other second-order filters, the frequency response of a Bessel filter can be visualized using a Bode plot.
@@ -14740,13 +14225,11 @@ Elliptic high-pass filters, also known as Cauer filters, are a type of second-or
 The transfer function of an elliptic high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \epsilon^2\omega_0^2}
 
 $$
-
 
 
 where s is the complex frequency variable, $\epsilon$ is the ripple factor, and $\omega_0$ is the resonant frequency. The ripple factor, denoted as $\epsilon$, determines the amount of ripple in the passband and stopband. A higher value of $\epsilon$ results in a sharper roll-off rate, but also introduces more ripples in the passband and stopband.
@@ -14776,7 +14259,6 @@ Band-pass filters are a combination of low-pass and high-pass filters, allowing 
 First-order band-pass filters are the simplest type of band-pass filter and are commonly used in audio and communication systems. They are implemented using a combination of capacitors, resistors, and inductors, and have a transfer function of:
 
 
-
 $$
 
 H(s) = \frac{\frac{1}{LC}s}{s^2 + \frac{1}{RC}s + \frac{1}{LC}}
@@ -14784,9 +14266,7 @@ H(s) = \frac{\frac{1}{LC}s}{s^2 + \frac{1}{RC}s + \frac{1}{LC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance in ohms, L is the inductance in henries, and C is the capacitance in farads. The resonant frequency, denoted as $\omega_0$, is given by:
-
 
 
 $$
@@ -14794,7 +14274,6 @@ $$
 \omega_0 = \frac{1}{\sqrt{LC}}
 
 $$
-
 
 
 At the resonant frequency, the magnitude response of a first-order band-pass filter is at its maximum, indicating that the signal is not attenuated. As the frequency moves away from the resonant frequency, the magnitude response decreases, indicating that the signal is attenuated.
@@ -14808,13 +14287,11 @@ At the resonant frequency, the magnitude response of a first-order band-pass fil
 Second-order band-pass filters are more complex than first-order filters and are commonly used in audio and communication systems. They are implemented using a combination of capacitors, resistors, and inductors, and have a steeper roll-off rate than first-order filters. The transfer function of a second-order band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{\frac{1}{LC}s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
 
 $$
-
 
 
 where s is the complex frequency variable, Q is the quality factor, and $\omega_0$ is the resonant frequency. The quality factor, denoted as Q, is a measure of the sharpness of the filter's response. A higher Q factor indicates a narrower bandwidth and a sharper roll-off rate.
@@ -14836,7 +14313,6 @@ Butterworth band-pass filters are a type of second-order band-pass filter that i
 The transfer function of a Butterworth band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{\frac{1}{LC}s^2}{s^2 + \sqrt{2}s + 1}
@@ -14844,9 +14320,7 @@ H(s) = \frac{\frac{1}{LC}s^2}{s^2 + \sqrt{2}s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The resonant frequency, denoted as $\omega_0$, is given by:
-
 
 
 $$
@@ -14854,7 +14328,6 @@ $$
 \omega_0 = \frac{1}{\sqrt{2}}\omega_c
 
 $$
-
 
 
 where $\omega_c$ is the cutoff frequency. Similar to other second-order filters, the frequency response of a Butterworth filter can be visualized using a Bode plot.
@@ -14872,7 +14345,6 @@ Bessel band-pass filters are another type of second-order band-pass filter that 
 The transfer function of a Bessel band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{\frac{1}{LC}s^2}{s^2 + 0.577s + 1}
@@ -14880,9 +14352,7 @@ H(s) = \frac{\frac{1}{LC}s^2}{s^2 + 0.577s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The resonant frequency, denoted as $\omega_0$, is given by:
-
 
 
 $$
@@ -14890,7 +14360,6 @@ $$
 \omega_0 = \frac{1}{0.577}\omega_c
 
 $$
-
 
 
 where $\omega_c$ is the cutoff frequency. Similar to other second-order filters, the frequency response of a Bessel filter can be visualized using a Bode plot.
@@ -14908,13 +14377,11 @@ Elliptic band-pass filters, also known as Cauer filters, are a type of second-or
 The transfer function of an elliptic band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{\frac{1}{LC}s^2}{s^2 + \epsilon^2\omega_c^2}
 
 $$
-
 
 
 where s is the complex frequency variable, $\epsilon$ is the ripple factor, and $\omega_c$ is the cutoff frequency. The ripple factor, denoted as $\epsilon$, determines the amount of ripple in the passband and stopband. A higher value of $\epsilon$ results in a sharper roll-off rate, but also introduces more ripples in the passband and stopband.
@@ -14946,7 +14413,6 @@ High-pass filters are essential components in analog electronic circuits, allowi
 Second-order high-pass filters are more complex than first-order filters, but they offer improved performance and versatility. They are commonly used in audio and communication systems, as well as in signal processing applications. Similar to first-order filters, they are implemented by placing an input voltage across the series combination of a capacitor and a resistor, and using the voltage across the resistor as an output. The transfer function of this linear time-invariant system is:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
@@ -14954,9 +14420,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance in ohms, C is the capacitance in farads, and L is the inductance in henries. The product of R and C, denoted as RC, is the time constant (τ) of the filter, while the product of L and C, denoted as LC, is the damping factor (ζ). The cutoff frequency, denoted as $f_c$, is where the pole of the filter levels off the filter's frequency response and is given by:
-
 
 
 $$
@@ -14966,13 +14430,11 @@ f_c = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 At frequencies below the cutoff frequency, the magnitude response of a second-order high-pass filter decreases with a slope of -40 dB/decade, indicating that the signal is highly attenuated. As the frequency increases, the magnitude response approaches 0 dB, indicating that the signal is not attenuated. This behavior can also be visualized using a Bode plot.
 
 
 
 Figure 2 shows an active electronic implementation of a second-order high-pass filter using an operational amplifier. The transfer function of this linear time-invariant system is:
-
 
 
 $$
@@ -14982,9 +14444,7 @@ H(s) = \frac{-R_2}{R_1}\frac{s^2}{s^2 + \frac{s}{R_1C} + \frac{1}{R_1R_2C_1C_2}}
 $$
 
 
-
 In this case, the filter has a passband gain of -$R_2$/$R_1$ and a cutoff frequency of:
-
 
 
 $$
@@ -14992,7 +14452,6 @@ $$
 f_c = \frac{1}{2\pi \sqrt{R_1R_2C_1C_2}}
 
 $$
-
 
 
 Because this filter is active, it may have non-unity passband gain. That is, high-frequency signals are inverted and amplified. The additional components, C1 and C2, provide additional control over the filter's frequency response and can be adjusted to achieve the desired cutoff frequency and damping factor. 
@@ -15028,7 +14487,6 @@ Butterworth high-pass filters are a type of second-order high-pass filter that i
 The transfer function of a Butterworth high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
@@ -15036,9 +14494,7 @@ H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The cutoff frequency, denoted as $f_c$, is where the pole of the filter levels off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15046,7 +14502,6 @@ $$
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 At frequencies below the cutoff frequency, the magnitude response of a Butterworth high-pass filter decreases with a slope of -40 dB/decade, indicating that the signal is highly attenuated. As the frequency increases, the magnitude response approaches 0 dB, indicating that the signal is not attenuated. This behavior can also be visualized using a Bode plot.
@@ -15090,7 +14545,6 @@ Chebyshev high-pass filters are another type of second-order high-pass filter th
 The transfer function of a Chebyshev high-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
@@ -15098,9 +14552,7 @@ H(s) = \frac{s^2}{s^2 + \sqrt{2}s + 1}
 $$
 
 
-
 where s is the complex frequency variable. The cutoff frequency, denoted as $f_c$, is where the pole of the filter levels off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15108,7 +14560,6 @@ $$
 f_c = \frac{1}{2\pi RC}
 
 $$
-
 
 
 At frequencies below the cutoff frequency, the magnitude response of a Chebyshev high-pass filter decreases with a slope of -40 dB/decade, indicating that the signal is highly attenuated. As the frequency increases, the magnitude response approaches 0 dB, indicating that the signal is not attenuated. This behavior can also be visualized using a Bode plot.
@@ -15144,7 +14595,6 @@ Band-pass filters are essential components in analog electronic circuits, allowi
 First-order band-pass filters are the simplest type of band-pass filters and are commonly used in electronic circuits. They consist of a combination of a high-pass filter and a low-pass filter, allowing only a specific range of frequencies to pass through. The transfer function of a first-order band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s}{s + \frac{1}{RC}}
@@ -15152,9 +14602,7 @@ H(s) = \frac{s}{s + \frac{1}{RC}}
 $$
 
 
-
 where s is the complex frequency variable. The cutoff frequencies, denoted as $f_{c1}$ and $f_{c2}$, are where the poles of the filter level off the filter's frequency response and are given by:
-
 
 
 $$
@@ -15163,14 +14611,11 @@ f_{c1} = \frac{1}{2\pi R_1C_1}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{1}{2\pi R_2C_2}
 
 $$
-
 
 
 At frequencies below $f_{c1}$ and above $f_{c2}$, the magnitude response of a first-order band-pass filter decreases with a slope of -20 dB/decade, indicating that the signal is highly attenuated. As the frequency increases, the magnitude response approaches 0 dB, indicating that the signal is not attenuated. This behavior can also be visualized using a Bode plot.
@@ -15210,7 +14655,6 @@ Second-order band-pass filters are more complex than first-order band-pass filte
 The transfer function of a second-order band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
@@ -15218,9 +14662,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
 $$
 
 
-
 where s is the complex frequency variable, Q is the quality factor, and $\omega_0$ is the center frequency. The cutoff frequencies, denoted as $f_{c1}$ and $f_{c2}$, are where the poles of the filter level off the filter's frequency response and are given by:
-
 
 
 $$
@@ -15229,8 +14671,6 @@ f_{c1} = \frac{\omega_0}{2\pi Q}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{\omega_0}{2\pi Q}
@@ -15238,9 +14678,7 @@ f_{c2} = \frac{\omega_0}{2\pi Q}
 $$
 
 
-
 The quality factor, Q, determines the sharpness of the filter's roll-off and is given by:
-
 
 
 $$
@@ -15248,7 +14686,6 @@ $$
 Q = \frac{\omega_0}{\Delta\omega}
 
 $$
-
 
 
 where $\Delta\omega$ is the bandwidth of the filter. A higher Q value results in a narrower bandwidth and a sharper roll-off.
@@ -15292,7 +14729,6 @@ Butterworth band-pass filters are a type of second-order band-pass filter that i
 The transfer function of a Butterworth band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
@@ -15300,9 +14736,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
 $$
 
 
-
 where s is the complex frequency variable, Q is the quality factor, and $\omega_0$ is the center frequency. The cutoff frequencies, denoted as $f_{c1}$ and $f_{c2}$, are where the poles of the filter level off the filter's frequency response and are given by:
-
 
 
 $$
@@ -15311,8 +14745,6 @@ f_{c1} = \frac{\omega_0}{2\pi Q}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{\omega_0}{2\pi Q}
@@ -15320,9 +14752,7 @@ f_{c2} = \frac{\omega_0}{2\pi Q}
 $$
 
 
-
 The quality factor, Q, determines the sharpness of the filter's roll-off and is given by:
-
 
 
 $$
@@ -15330,7 +14760,6 @@ $$
 Q = \frac{\omega_0}{\Delta\omega}
 
 $$
-
 
 
 where $\Delta\omega$ is the bandwidth of the filter. A higher Q value results in a narrower bandwidth and a sharper roll-off.
@@ -15378,7 +14807,6 @@ Chebyshev band-pass filters are another type of second-order band-pass filter th
 The transfer function of a Chebyshev band-pass filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
@@ -15386,9 +14814,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{Q\omega_0} + \omega_0^2}
 $$
 
 
-
 where s is the complex frequency variable, Q is the quality factor, and $\omega_0$ is the center frequency. The cutoff frequencies, denoted as $f_{c1}$ and $f_{c2}$, are where the poles of the filter level off the filter's frequency response and are given by:
-
 
 
 $$
@@ -15397,8 +14823,6 @@ f_{c1} = \frac{\omega_0}{2\pi Q}
 
 $$
 
-
-
 $$
 
 f_{c2} = \frac{\omega_0}{2\pi Q}
@@ -15406,9 +14830,7 @@ f_{c2} = \frac{\omega_0}{2\pi Q}
 $$
 
 
-
 The quality factor, Q, determines the sharpness of the filter's roll-off and is given by:
-
 
 
 $$
@@ -15416,7 +14838,6 @@ $$
 Q = \frac{\omega_0}{\Delta\omega}
 
 $$
-
 
 
 where $\Delta\omega$ is the bandwidth of the filter. A higher Q value results in a narrower bandwidth and a sharper roll-off.
@@ -15456,7 +14877,6 @@ Notch filters, also known as band-stop filters, are the opposite of band-pass fi
 First-order notch filters are the simplest type of notch filter and are commonly used in electronic circuits. They consist of a single reactive component, such as a capacitor or an inductor, in parallel with a resistor. The transfer function of a first-order notch filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s}{s + \frac{1}{RC}}
@@ -15464,9 +14884,7 @@ H(s) = \frac{s}{s + \frac{1}{RC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, and C is the capacitance or inductance. The cutoff frequency, denoted as $f_{c}$, is where the poles of the filter level off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15476,9 +14894,7 @@ f_{c} = \frac{1}{2\pi RC}
 $$
 
 
-
 The quality factor, Q, of a first-order notch filter is given by:
-
 
 
 $$
@@ -15486,7 +14902,6 @@ $$
 Q = \frac{1}{RC}
 
 $$
-
 
 
 A higher Q value results in a narrower notch and a sharper roll-off.
@@ -15522,7 +14937,6 @@ Notch filters, also known as band-stop filters, are the opposite of band-pass fi
 Second-order notch filters are an improvement upon first-order notch filters, offering greater attenuation and control over the notch frequency. They consist of two reactive components, such as capacitors or inductors, in parallel with a resistor. The transfer function of a second-order notch filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
@@ -15530,9 +14944,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, C is the capacitance, and L is the inductance. The cutoff frequency, denoted as $f_{c}$, is where the poles of the filter level off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15542,9 +14954,7 @@ f_{c} = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 The quality factor, Q, of a second-order notch filter is given by:
-
 
 
 $$
@@ -15552,7 +14962,6 @@ $$
 Q = \frac{\sqrt{LC}}{RC}
 
 $$
-
 
 
 A higher Q value results in a narrower notch and a sharper roll-off. Additionally, second-order notch filters have a steeper roll-off than first-order filters, making them more effective at attenuating frequencies outside of the notch.
@@ -15596,7 +15005,6 @@ Butterworth notch filters are a type of second-order notch filter that offers a 
 The transfer function of a Butterworth notch filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
@@ -15604,9 +15012,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, C is the capacitance, and L is the inductance. The cutoff frequency, denoted as $f_{c}$, is where the poles of the filter level off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15616,9 +15022,7 @@ f_{c} = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 The quality factor, Q, of a Butterworth notch filter is given by:
-
 
 
 $$
@@ -15626,7 +15030,6 @@ $$
 Q = \frac{\sqrt{LC}}{RC}
 
 $$
-
 
 
 A higher Q value results in a narrower notch and a sharper roll-off. Butterworth notch filters have a steeper roll-off than first-order filters, making them more effective at attenuating frequencies outside of the notch.
@@ -15670,7 +15073,6 @@ Chebyshev notch filters are a type of second-order notch filter that offers a sh
 The transfer function of a Chebyshev notch filter is given by:
 
 
-
 $$
 
 H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
@@ -15678,9 +15080,7 @@ H(s) = \frac{s^2}{s^2 + \frac{s}{RC} + \frac{1}{LC}}
 $$
 
 
-
 where s is the complex frequency variable, R is the resistance, C is the capacitance, and L is the inductance. The cutoff frequency, denoted as $f_{c}$, is where the poles of the filter level off the filter's frequency response and is given by:
-
 
 
 $$
@@ -15690,9 +15090,7 @@ f_{c} = \frac{1}{2\pi \sqrt{LC}}
 $$
 
 
-
 The quality factor, Q, of a Chebyshev notch filter is given by:
-
 
 
 $$
@@ -15700,7 +15098,6 @@ $$
 Q = \frac{\sqrt{LC}}{RC}
 
 $$
-
 
 
 A higher Q value results in a narrower notch and a sharper roll-off. Chebyshev notch filters have a steeper roll-off than Butterworth notch filters, making them more effective at attenuating frequencies outside of the notch.
@@ -15764,7 +15161,6 @@ Butterworth filters are a type of low-pass filter that has a maximally flat freq
 The transfer function of a Butterworth filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{1 + (\frac{s}{\omega_{c}})^{2n}}
@@ -15772,9 +15168,7 @@ H(s) = \frac{1}{1 + (\frac{s}{\omega_{c}})^{2n}}
 $$
 
 
-
 where s is the complex frequency variable, $\omega_{c}$ is the cutoff frequency, and n is the order of the filter. The cutoff frequency is where the gain of the filter drops to -3 dB, and is given by:
-
 
 
 $$
@@ -15782,7 +15176,6 @@ $$
 \omega_{c} = \frac{1}{RC}
 
 $$
-
 
 
 The order of a Butterworth filter determines the steepness of the roll-off, with higher-order filters having a steeper roll-off. This means that higher-order Butterworth filters are more effective at attenuating frequencies outside of the passband.
@@ -15826,13 +15219,11 @@ Chebyshev filters are a type of filter that have a steeper roll-off than Butterw
 The transfer function of a Chebyshev filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{\sqrt{1 + \epsilon^2 T_n^2(\frac{s}{\omega_c})}}
 
 $$
-
 
 
 where s is the complex frequency variable, $\omega_c$ is the cutoff frequency, $\epsilon$ is the ripple factor, and $T_n$ is the Chebyshev polynomial of order n. The cutoff frequency is still determined by the equation $\omega_c = \frac{1}{RC}$, but the ripple factor $\epsilon$ allows for control over the amount of ripple in the passband or stopband.
@@ -15880,13 +15271,11 @@ In this section, we will focus on Bessel filter design, which is a type of filte
 The transfer function of a third-order (three-pole) Bessel low-pass filter with $\omega_0 = 1$ is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{\sqrt{1 + s^2 + 1.414s^3 + s^4}}
 
 $$
-
 
 
 The roots of the denominator polynomial, the filter's poles, include a real pole at $s=-2.3222$, and a complex-conjugate pair of poles at $s = -1.8389 \pm j1.7544$, plotted above.
@@ -15896,13 +15285,11 @@ The roots of the denominator polynomial, the filter's poles, include a real pole
 The gain of a Bessel filter is given by:
 
 
-
 $$
 
 |H(j\omega)| = \frac{1}{\sqrt{1 + \omega^2 + 1.414\omega^3 + \omega^4}}
 
 $$
-
 
 
 The -3dB point, where $|H(j\omega)| = \frac{1}{\sqrt{2}}$, occurs at $\omega = 1.756$. This is conventionally called the cut-off frequency.
@@ -15912,7 +15299,6 @@ The -3dB point, where $|H(j\omega)| = \frac{1}{\sqrt{2}}$, occurs at $\omega = 1
 The phase of a Bessel filter is given by:
 
 
-
 $$
 
 \phi(\omega) = \arctan\left(\frac{15\omega-\omega^3}{15-6\omega^2}\right)
@@ -15920,9 +15306,7 @@ $$
 $$
 
 
-
 The group delay of a Bessel filter is given by:
-
 
 
 $$
@@ -15932,9 +15316,7 @@ $$
 $$
 
 
-
 The Taylor series expansion of the group delay is:
-
 
 
 $$
@@ -15942,7 +15324,6 @@ $$
 \tau_g(\omega) = \frac{1}{15} - \frac{\omega^2}{225} + \frac{\omega^4}{1575} + O(\omega^6)
 
 $$
-
 
 
 Note that the two terms in $\omega^2$ and $\omega^4$ are zero, resulting in a very flat group delay at $\omega=0$. This is the greatest number of terms that can be set to zero, since there are a total of four coefficients in the third-order Bessel polynomial, requiring four equations to solve for them.
@@ -15982,13 +15363,11 @@ In this section, we will focus on elliptic filter design, which is a type of fil
 Elliptic filters, also known as Cauer filters, are designed using a combination of Chebyshev and inverse Chebyshev polynomials. This allows for a steeper roll-off compared to other filter types, but at the cost of a slightly irregular passband. The transfer function of an elliptic filter is given by:
 
 
-
 $$
 
 H(s) = \frac{1}{\sqrt{1 + \epsilon^2 R_n^2(s/\omega_0)}}
 
 $$
-
 
 
 where $\epsilon$ is the passband ripple and $R_n(s/\omega_0)$ is the Chebyshev rational function of order $n$. The roots of the denominator polynomial, the filter's poles, are located on an ellipse in the complex plane, hence the name "elliptic filter".
@@ -15998,13 +15377,11 @@ where $\epsilon$ is the passband ripple and $R_n(s/\omega_0)$ is the Chebyshev r
 The gain of an elliptic filter is given by:
 
 
-
 $$
 
 |H(j\omega)| = \frac{1}{\sqrt{1 + \epsilon^2 R_n^2(\omega/\omega_0)}}
 
 $$
-
 
 
 The -3dB point, where $|H(j\omega)| = \frac{1}{\sqrt{2}}$, occurs at $\omega = \omega_c$, the cutoff frequency. The passband ripple, $\epsilon$, determines the sharpness of the roll-off, with a smaller value resulting in a steeper roll-off.
@@ -16014,7 +15391,6 @@ The -3dB point, where $|H(j\omega)| = \frac{1}{\sqrt{2}}$, occurs at $\omega = \
 The phase of an elliptic filter is given by:
 
 
-
 $$
 
 \phi(\omega) = \arctan\left(\frac{\epsilon R_n(\omega/\omega_0)}{\sqrt{1 + \epsilon^2 R_n^2(\omega/\omega_0)}}\right)
@@ -16022,9 +15398,7 @@ $$
 $$
 
 
-
 The group delay of an elliptic filter is given by:
-
 
 
 $$
@@ -16032,7 +15406,6 @@ $$
 \tau_g(\omega) = \frac{1}{\omega_0}\frac{R_n'(\omega/\omega_0)}{R_n(\omega/\omega_0)}
 
 $$
-
 
 
 where $R_n'(\omega/\omega_0)$ is the derivative of the Chebyshev rational function. The group delay is constant in the passband, but increases rapidly in the stopband.
@@ -16244,13 +15617,11 @@ As mentioned earlier, class A amplifiers are highly inefficient due to their con
 To understand the efficiency of a class A amplifier, we can use the concept of power dissipation. The power dissipated by the output transistor can be calculated using the formula:
 
 
-
 $$
 
 P_{diss} = I_{c}^2 \times R_{load}
 
 $$
-
 
 
 Where $I_{c}$ is the collector current and $R_{load}$ is the load resistance. As we can see from this formula, the power dissipation is directly proportional to the square of the collector current. In class A amplifiers, the collector current is always flowing, even when there is no input signal. This results in a constant power dissipation, regardless of the input signal.
@@ -16260,13 +15631,11 @@ Where $I_{c}$ is the collector current and $R_{load}$ is the load resistance. As
 On the other hand, the output power of a class A amplifier can be calculated using the formula:
 
 
-
 $$
 
 P_{out} = \frac{V_{cc}^2}{8 \times R_{load}}
 
 $$
-
 
 
 Where $V_{cc}$ is the supply voltage. As we can see from this formula, the output power is directly proportional to the square of the supply voltage. This means that increasing the supply voltage can increase the output power, but it also increases the power dissipation and therefore decreases the efficiency.
@@ -16444,13 +15813,11 @@ In recent years, a new type of amplifier known as class XD has been developed to
 As mentioned earlier, class B amplifiers are known for their high efficiency. This is due to the fact that each transistor in the push-pull configuration only amplifies half of the input signal, reducing the power dissipation compared to class A amplifiers where both transistors are always conducting. The efficiency of a class B amplifier can be calculated using the following equation:
 
 
-
 $$
 
 Efficiency = \frac{P_{out}}{P_{in}} = \frac{P_{out}}{P_{out} + P_{quiescent}}
 
 $$
-
 
 
 Where $P_{out}$ is the output power and $P_{quiescent}$ is the quiescent power, which is the power consumed by the amplifier when there is no input signal. As the output power increases, the efficiency of the class B amplifier also increases, making it a popular choice for high power applications.
@@ -16644,13 +16011,11 @@ To understand the efficiency of class AB amplifiers, it is important to first un
 The efficiency of class AB amplifiers can be calculated using the following equation:
 
 
-
 $$
 
 Efficiency = \frac{P_{out}}{P_{in}} \times 100\%
 
 $$
-
 
 
 Where $P_{out}$ is the output power and $P_{in}$ is the input power. In class AB amplifiers, the efficiency can range from 50-78%, depending on the specific design and circuitry. This is significantly higher than class A amplifiers, which typically have an efficiency of around 25%, but lower than class B amplifiers, which can have efficiencies of up to 90%.
@@ -16840,13 +16205,11 @@ As mentioned earlier, class C amplifiers have a high efficiency of up to 80%. Th
 The efficiency of a class C amplifier can be calculated using the following equation:
 
 
-
 $$
 
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
 
 $$
-
 
 
 Where:
@@ -17066,13 +16429,11 @@ As mentioned earlier, class D amplifiers are known for their high efficiency, re
 The efficiency of a class D amplifier can be calculated using the following equation:
 
 
-
 $$
 
 \eta = \frac{P_{out}}{P_{in}} \times 100\%
 
 $$
-
 
 
 Where $\eta$ is the efficiency, $P_{out}$ is the output power, and $P_{in}$ is the input power. As mentioned earlier, the output power of a class D amplifier closely resembles the input signal, so $P_{out}$ can be approximated as the average power of the input signal. On the other hand, $P_{in}$ is the power supplied to the amplifier, which is equal to the product of the supply voltage and the input current. Therefore, the efficiency of a class D amplifier can be improved by increasing the supply voltage or reducing the input current.
@@ -17250,13 +16611,11 @@ Push-pull amplifiers are known for their high efficiency compared to single-ende
 The efficiency of a push-pull amplifier can be calculated using the following equation:
 
 
-
 $$
 
 Efficiency = \frac{P_{out}}{P_{in}} \times 100\%
 
 $$
-
 
 
 Where $P_{out}$ is the output power and $P_{in}$ is the input power. In a push-pull amplifier, the output power is the sum of the power delivered by each output device, while the input power is the sum of the power supplied to each device. This results in a higher efficiency compared to single-ended amplifiers, where only one output device is utilized.
@@ -17702,13 +17061,11 @@ To understand how a binary weighted DAC works, let's consider a simple example w
 For example, if the digital input is 0101, the switches for the second and fourth bits will be closed, connecting the 2kΩ and 8kΩ resistors to the reference voltage. The output voltage will then be:
 
 
-
 $$
 
 V_{out} = \frac{1}{2}V_{ref} + \frac{1}{8}V_{ref} = \frac{5}{8}V_{ref}
 
 $$
-
 
 
 As we can see, the output voltage is a weighted sum of the reference voltage, with the weights determined by the digital input. This allows us to achieve a high resolution and accuracy in the output voltage, as long as the resistors in the network are well-matched and the reference voltage is stable.
@@ -19254,13 +18611,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 The general equation for thermal noise is given by:
 
 
-
 $$
 
 V_{n}^{2} = 4k_{B}TR\Delta f
 
 $$
-
 
 
 Where $V_{n}^{2}$ is the noise voltage, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, $R$ is the resistance, and $\Delta f$ is the bandwidth.
@@ -19300,13 +18655,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 The general equation for thermal noise is given by:
 
 
-
 $$
 
 V_{n}^{2} = 4k_{B}TR\Delta f
 
 $$
-
 
 
 Where $V_{n}^{2}$ is the noise voltage, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, $R$ is the resistance, and $\Delta f$ is the bandwidth.
@@ -19328,13 +18681,11 @@ Shot noise is another type of noise that can affect analog circuits. It is cause
 The general equation for shot noise is given by:
 
 
-
 $$
 
 I_{n}^{2} = 2qI\Delta f
 
 $$
-
 
 
 Where $I_{n}^{2}$ is the noise current, $q$ is the charge of an electron, $I$ is the current flowing through the component, and $\Delta f$ is the bandwidth.
@@ -19374,13 +18725,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is the most common type of n
 The general equation for thermal noise is given by:
 
 
-
 $$
 
 V_{n}^{2} = 4k_{B}TR\Delta f
 
 $$
-
 
 
 Where $V_{n}^{2}$ is the noise voltage, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, $R$ is the resistance, and $\Delta f$ is the bandwidth.
@@ -19402,13 +18751,11 @@ Shot noise is another type of noise that can affect analog circuits. It is cause
 The general equation for shot noise is given by:
 
 
-
 $$
 
 I_{n}^{2} = 2qI\Delta f
 
 $$
-
 
 
 Where $I_{n}^{2}$ is the noise current, $q$ is the charge of an electron, $I$ is the current flowing through the component, and $\Delta f$ is the bandwidth.
@@ -19430,13 +18777,11 @@ Flicker noise, also known as 1/f noise, is a type of noise that is present in al
 The general equation for flicker noise is given by:
 
 
-
 $$
 
 V_{n}^{2} = K\frac{1}{f}
 
 $$
-
 
 
 Where $V_{n}^{2}$ is the noise voltage, $K$ is a constant, and $f$ is the frequency.
@@ -19472,13 +18817,11 @@ Burst noise, also known as popcorn noise, is a type of noise that occurs in elec
 The general equation for burst noise is given by:
 
 
-
 $$
 
 V_{n}^{2} = \frac{2qI}{f_{b}}
 
 $$
-
 
 
 Where $V_{n}^{2}$ is the noise voltage, $q$ is the charge of an electron, $I$ is the current flowing through the component, and $f_{b}$ is the burst frequency.
@@ -19514,13 +18857,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is a type of noise that is p
 The Johnson-Nyquist noise is characterized by a continuous spectrum of frequencies, with a power spectral density given by:
 
 
-
 $$
 
 S_{V} = 4k_{B}TR
 
 $$
-
 
 
 Where $S_{V}$ is the power spectral density of the voltage noise, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $R$ is the resistance of the component or circuit.
@@ -19560,13 +18901,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is a type of noise that is p
 The Johnson-Nyquist noise is characterized by a continuous spectrum of frequencies, with a power spectral density given by:
 
 
-
 $$
 
 S_{V} = 4k_{B}TR
 
 $$
-
 
 
 Where $S_{V}$ is the power spectral density of the voltage noise, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $R$ is the resistance of the component or circuit.
@@ -19596,13 +18935,11 @@ In addition to the power spectral density, there are other metrics used to chara
 The noise factor is defined as the ratio of the output noise power of an actual receiver to the output noise power of an ideal receiver with the same gain and bandwidth, both connected to matched sources at a standard noise temperature $T_0$. It is expressed in decibels (dB) and can be calculated using the following equation:
 
 
-
 $$
 
 F = \frac{S_{out}}{S_{in}}
 
 $$
-
 
 
 Where $S_{out}$ is the output noise power and $S_{in}$ is the input noise power.
@@ -19638,13 +18975,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is a type of noise that is p
 The Johnson-Nyquist noise is characterized by a continuous spectrum of frequencies, with a power spectral density given by:
 
 
-
 $$
 
 S_{V} = 4k_{B}TR
 
 $$
-
 
 
 Where $S_{V}$ is the power spectral density of the voltage noise, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $R$ is the resistance of the component or circuit.
@@ -19674,13 +19009,11 @@ In addition to the power spectral density, there are other metrics used to chara
 The noise factor is defined as the ratio of the output noise power of an actual receiver to the output noise power of an ideal receiver with the same gain and bandwidth. It is given by:
 
 
-
 $$
 
 F = \frac{S_{out}}{S_{in}}
 
 $$
-
 
 
 Where $S_{out}$ is the output noise power and $S_{in}$ is the input noise power.
@@ -19690,13 +19023,11 @@ Where $S_{out}$ is the output noise power and $S_{in}$ is the input noise power.
 The noise figure is a logarithmic representation of the noise factor and is given by:
 
 
-
 $$
 
 NF = 10log_{10}(F)
 
 $$
-
 
 
 Both the noise factor and noise figure are measured in decibels (dB) and a lower value indicates a better performance of the receiver in terms of noise.
@@ -19710,13 +19041,11 @@ Both the noise factor and noise figure are measured in decibels (dB) and a lower
 Another way to characterize thermal noise is by using the concept of noise temperature. Noise temperature is defined as the temperature of a hypothetical resistor that would produce the same amount of thermal noise as the actual component or circuit. It is given by:
 
 
-
 $$
 
 T_{n} = \frac{S_{V}}{4k_{B}R}
 
 $$
-
 
 
 Where $T_{n}$ is the noise temperature, $S_{V}$ is the power spectral density of the voltage noise, $k_{B}$ is the Boltzmann constant, and $R$ is the resistance of the component or circuit.
@@ -19748,13 +19077,11 @@ Thermal noise, also known as Johnson-Nyquist noise, is a type of noise that is p
 The Johnson-Nyquist noise is characterized by a continuous spectrum of frequencies, with a power spectral density given by:
 
 
-
 $$
 
 S_{V} = 4k_{B}TR
 
 $$
-
 
 
 Where $S_{V}$ is the power spectral density of the voltage noise, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $R$ is the resistance of the component or circuit.
@@ -19784,13 +19111,11 @@ In addition to the power spectral density, there are other metrics used to chara
 The noise factor is defined as the ratio of the output noise power of an actual receiver to the output noise power of an ideal receiver with the same gain and bandwidth. It is given by:
 
 
-
 $$
 
 F = \frac{N_{out}}{k_{B}TB}
 
 $$
-
 
 
 Where $N_{out}$ is the output noise power, $k_{B}$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $B$ is the bandwidth.
@@ -19800,13 +19125,11 @@ Where $N_{out}$ is the output noise power, $k_{B}$ is the Boltzmann constant, $T
 The noise figure is a logarithmic representation of the noise factor, given by:
 
 
-
 $$
 
 NF = 10\log_{10}(F)
 
 $$
-
 
 
 The lower the noise figure, the better the receiver's performance in terms of minimizing the effects of thermal noise.
@@ -19824,13 +19147,11 @@ Amplifiers are essential components in analog circuits, but they also contribute
 The total noise power at the output of an amplifier chain can be calculated using the Friis formula, which takes into account the noise figure of each amplifier in the chain. The total noise power is given by:
 
 
-
 $$
 
 N_{out} = N_{in} + \sum_{i=1}^{n}G_{i-1}N_{i}
 
 $$
-
 
 
 Where $N_{in}$ is the input noise power, $G_{i-1}$ is the gain of the previous amplifier, and $N_{i}$ is the noise power of the current amplifier.
@@ -19876,7 +19197,6 @@ Shot noise, also known as Schottky noise, is a type of noise that is present in 
 
 
 Shot noise is a fundamental noise source in diodes, which are commonly used in electronic circuits. It is caused by the random arrival of electrons at the diode's junction, resulting in fluctuations in the current. The shot noise power spectral density is given by:
-
 
 
 $$

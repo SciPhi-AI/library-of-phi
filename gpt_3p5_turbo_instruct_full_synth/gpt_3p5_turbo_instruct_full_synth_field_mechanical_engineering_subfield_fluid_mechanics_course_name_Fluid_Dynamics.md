@@ -1912,9 +1912,7 @@ In fluid dynamics, the conservation of mass is expressed mathematically through 
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -1984,9 +1982,7 @@ To mathematically express the conservation of mass, we use the continuity equati
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2052,9 +2048,7 @@ In fluid dynamics, this principle is applied to the study of fluid flows. It sta
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2886,9 +2880,7 @@ Surface tension can also be defined in terms of surface energy. Surface energy i
 
 
 $$
-
 \gamma = \frac{\sigma}{L}
-
 $$
 
 
@@ -3090,9 +3082,7 @@ The rise of a liquid in a capillary can be mathematically described by the Young
 
 
 $$
-
 \Delta P = \frac{2\gamma \cos\theta}{r}
-
 $$
 
 
@@ -3476,9 +3466,7 @@ Mathematically, the conservation of mass can be expressed as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -3492,9 +3480,7 @@ Similarly, the conservation of energy can be expressed as:
 
 
 $$
-
 \frac{\partial \rho E}{\partial t} + \nabla \cdot (\rho \mathbf{v} E + \mathbf{q}) = \rho \mathbf{v} \cdot \mathbf{F} + \dot{Q}
-
 $$
 
 
@@ -3546,17 +3532,13 @@ Mathematically, this can be expressed as:
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{CV} \rho dV + \int_{CS} \rho \vec{V} \cdot \hat{n} dA = 0
-
 $$
 
 
 
 $$
-
 \frac{\partial}{\partial t} \int_{CV} \rho E dV + \int_{CS} \rho \vec{V} \cdot \hat{n} (E + \frac{1}{2} \vec{V}^2) dA = 0
-
 $$
 
 
@@ -3604,9 +3586,7 @@ The continuity equation is a fundamental equation in fluid dynamics that describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -3620,9 +3600,7 @@ This equation can also be written in integral form as:
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho dV + \oint_{S} \rho \mathbf{v} \cdot d\mathbf{S} = 0
-
 $$
 
 
@@ -3644,9 +3622,7 @@ In addition to the conservation of mass, the momentum equation is another fundam
 
 
 $$
-
 \frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot (\rho \mathbf{v} \mathbf{v}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
@@ -3660,9 +3636,7 @@ Similar to the continuity equation, the momentum equation can also be written in
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho \mathbf{v} dV + \oint_{S} \rho \mathbf{v} \mathbf{v} \cdot d\mathbf{S} = \int_{V} \rho \mathbf{g} dV + \oint_{S} \mathbf{\tau} \cdot d\mathbf{S}
-
 $$
 
 
@@ -3706,9 +3680,7 @@ The continuity equation is a fundamental equation in fluid dynamics that describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -3722,9 +3694,7 @@ This equation can also be written in integral form as:
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho dV + \oint_{S} \rho \mathbf{v} \cdot d\mathbf{S} = 0
-
 $$
 
 
@@ -3746,9 +3716,7 @@ In addition to the conservation of mass, the momentum equation is another fundam
 
 
 $$
-
 \frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot (\rho \mathbf{v} \mathbf{v}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
@@ -3762,9 +3730,7 @@ Similar to the continuity equation, the momentum equation can also be written in
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho \mathbf{v} dV + \oint_{S} \rho \mathbf{v} \mathbf{v} \cdot d\mathbf{S} = \int_{V} \rho \mathbf{g} dV + \oint_{S} \mathbf{\tau} \cdot d\mathbf{S}
-
 $$
 
 
@@ -3800,9 +3766,7 @@ The continuity equation is a fundamental equation in fluid dynamics that describ
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -3816,9 +3780,7 @@ This equation can also be written in integral form as:
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho dV + \oint_{S} \rho \mathbf{v} \cdot d\mathbf{S} = 0
-
 $$
 
 
@@ -3840,9 +3802,7 @@ In addition to the conservation of mass, the momentum equation is another fundam
 
 
 $$
-
 \frac{\partial (\rho \mathbf{v})}{\partial t} + \nabla \cdot (\rho \mathbf{v} \mathbf{v}) = \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
@@ -3856,9 +3816,7 @@ Similar to the continuity equation, the momentum equation can also be written in
 
 
 $$
-
 \frac{d}{dt} \int_{V} \rho \mathbf{v} dV + \oint_{S} \rho \mathbf{v} \mathbf{v} \cdot d\mathbf{S} = \int_{V} \rho \mathbf{g} dV + \oint_{S} \mathbf{\tau} \cdot d\mathbf{S}
-
 $$
 
 
@@ -4044,9 +4002,7 @@ Using the principle of conservation of energy, we can write the following equati
 
 
 $$
-
 \Delta E = \Delta K + \Delta P + \Delta U
-
 $$
 
 
@@ -4060,9 +4016,7 @@ Since we are assuming that the fluid is incompressible and inviscid, the change 
 
 
 $$
-
 \Delta E = \Delta K + \Delta P
-
 $$
 
 
@@ -4072,9 +4026,7 @@ We can express the changes in kinetic and potential energy in terms of the fluid
 
 
 $$
-
 \frac{1}{2}mv^2 + mgz + pV = \frac{1}{2}m(v + \Delta v)^2 + mg(z + \Delta z) + p(V + \Delta V)
-
 $$
 
 
@@ -4088,9 +4040,7 @@ Simplifying this equation and dividing by the mass of the fluid element, we get:
 
 
 $$
-
 \frac{1}{2}v^2 + gz + \frac{p}{\rho} = \frac{1}{2}(v + \Delta v)^2 + g(z + \Delta z) + \frac{p}{\rho}(\frac{V}{m} + \frac{\Delta V}{m})
-
 $$
 
 
@@ -4104,9 +4054,7 @@ Since the fluid is incompressible, the volume of the element remains constant, s
 
 
 $$
-
 \frac{1}{2}v^2 + gz + \frac{p}{\rho} = \frac{1}{2}(v + \Delta v)^2 + g(z + \Delta z) + \frac{p}{\rho}
-
 $$
 
 
@@ -4116,9 +4064,7 @@ Expanding the terms and cancelling out common factors, we get:
 
 
 $$
-
 \frac{1}{2}v^2 + gz + p = \frac{1}{2}v^2 + \frac{1}{2}\Delta v^2 + gz + g\Delta z + p
-
 $$
 
 
@@ -4128,9 +4074,7 @@ Simplifying further, we get:
 
 
 $$
-
 \frac{1}{2}\Delta v^2 + g\Delta z = 0
-
 $$
 
 
@@ -4140,9 +4084,7 @@ Dividing by $\Delta z$ and taking the limit as $\Delta z$ approaches zero, we ge
 
 
 $$
-
 \frac{1}{2}\frac{dv^2}{dz} + g = 0
-
 $$
 
 
@@ -4152,9 +4094,7 @@ Rearranging this equation, we get the Bernoulli equation:
 
 
 $$
-
 \frac{1}{2}\frac{dv^2}{dz} + g = 0
-
 $$
 
 
@@ -4212,9 +4152,7 @@ Using the principle of conservation of energy, we can write the following equati
 
 
 $$
-
 \Delta E = \Delta K + \Delta P + \Delta U
-
 $$
 
 
@@ -4228,9 +4166,7 @@ Since we are assuming that the fluid is incompressible and inviscid, the change 
 
 
 $$
-
 \Delta E = \Delta K + \Delta P
-
 $$
 
 
@@ -4240,9 +4176,7 @@ We can express the changes in kinetic and potential energy in terms of the fluid
 
 
 $$
-
 \frac{1}{2}\rho v^2 + \rho gz + p = constant
-
 $$
 
 
@@ -4316,9 +4250,7 @@ Using the principle of conservation of energy, we can write the following equati
 
 
 $$
-
 \Delta E = \Delta K + \Delta P + \Delta U
-
 $$
 
 
@@ -4328,9 +4260,7 @@ Where $\Delta E$ is the change in total energy, $\Delta K$ is the change in kine
 
 
 $$
-
 \Delta E = \frac{1}{2}mv^2 + mgh + \Delta U
-
 $$
 
 
@@ -4344,9 +4274,7 @@ Next, we will consider the fluid element at two different points within the cont
 
 
 $$
-
 \rho_1Av_1 = \rho_2Av_2
-
 $$
 
 
@@ -4356,9 +4284,7 @@ Where $\rho$ is the density of the fluid. Rearranging this equation, we get:
 
 
 $$
-
 v_2 = \frac{\rho_1}{\rho_2}v_1
-
 $$
 
 
@@ -4368,9 +4294,7 @@ Substituting this into our energy equation, we get:
 
 
 $$
-
 \Delta E = \frac{1}{2}m\left(\frac{\rho_1}{\rho_2}v_1\right)^2 + mgh + \Delta U
-
 $$
 
 
@@ -4380,9 +4304,7 @@ Since the mass of the fluid element is constant, we can cancel it out and simpli
 
 
 $$
-
 \Delta E = \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_1^2 + gh + \Delta U
-
 $$
 
 
@@ -4392,9 +4314,7 @@ Next, we will consider the work done on the fluid element by external forces, su
 
 
 $$
-
 W = \int_{1}^{2}F\cdot ds
-
 $$
 
 
@@ -4404,9 +4324,7 @@ Where $F$ is the force acting on the fluid element and $ds$ is the displacement 
 
 
 $$
-
 W = \Delta K + \Delta P
-
 $$
 
 
@@ -4416,9 +4334,7 @@ Substituting this into our energy equation, we get:
 
 
 $$
-
 \Delta E = \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_1^2 + gh + \Delta U = \Delta K + \Delta P
-
 $$
 
 
@@ -4428,9 +4344,7 @@ Rearranging this equation, we get the Bernoulli equation:
 
 
 $$
-
 \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_1^2 + gh + \Delta U + p_1 = \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_2^2 + gh + \Delta U + p_2
-
 $$
 
 
@@ -4440,9 +4354,7 @@ Simplifying this equation, we get:
 
 
 $$
-
 \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_1^2 + p_1 + \frac{1}{2}\rho_1gh = \frac{1}{2}\left(\frac{\rho_1}{\rho_2}\right)^2v_2^2 + p_2 + \frac{1}{2}\rho_2gh
-
 $$
 
 
@@ -4500,9 +4412,7 @@ Using Newton's second law, we can write the following equation for the element:
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -4516,9 +4426,7 @@ We can expand this equation to include the individual forces:
 
 
 $$
-
 F_p + F_g + F_{ext} = ma
-
 $$
 
 
@@ -4532,9 +4440,7 @@ We can also express the mass of the element in terms of its density $\rho$ and v
 
 
 $$
-
 m = \rho V
-
 $$
 
 
@@ -4544,9 +4450,7 @@ Substituting this into the equation and rearranging, we get:
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V a
-
 $$
 
 
@@ -4556,9 +4460,7 @@ Now, we can use the definition of acceleration to rewrite this equation as:
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -4572,9 +4474,7 @@ Next, we will use the definition of pressure as force per unit area to express t
 
 
 $$
-
 F_p = pA
-
 $$
 
 
@@ -4588,9 +4488,7 @@ We can also express the gravitational force as:
 
 
 $$
-
 F_g = mg = \rho Vg
-
 $$
 
 
@@ -4600,9 +4498,7 @@ Substituting these into the equation and rearranging, we get:
 
 
 $$
-
 pA + \rho Vg + F_{ext} = \rho V \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -4612,9 +4508,7 @@ Next, we will divide both sides by the volume $V$ and rearrange to get:
 
 
 $$
-
 \frac{pA}{V} + \rho g + \frac{F_{ext}}{V} = \rho \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -4628,9 +4522,7 @@ Substituting these into the equation, we get:
 
 
 $$
-
 p_0 + \rho g + F_{ext} = \rho \overline{v}
-
 $$
 
 
@@ -4644,9 +4536,7 @@ Finally, we can multiply both sides by the volume $V$ to get the final form of t
 
 
 $$
-
 p_0V + \rho gV + F_{ext}V = \rho V \overline{v}
-
 $$
 
 
@@ -4656,9 +4546,7 @@ This equation can also be written in terms of the control volume as a whole, rat
 
 
 $$
-
 p_0V + \rho gV + \sum F_{ext} = \rho V \overline{v}
-
 $$
 
 
@@ -4716,9 +4604,7 @@ Using Newton's second law, we can write the following equation for the element:
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -4732,9 +4618,7 @@ We can expand this equation to include the individual forces:
 
 
 $$
-
 F_p + F_g + F_{ext} = ma
-
 $$
 
 
@@ -4748,9 +4632,7 @@ We can also express the mass of the element in terms of its density $\rho$ and v
 
 
 $$
-
 m = \rho V
-
 $$
 
 
@@ -4760,9 +4642,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V a
-
 $$
 
 
@@ -4772,9 +4652,7 @@ We can now use the definition of acceleration, $a = \frac{dv}{dt}$, to rewrite t
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V \frac{dv}{dt}
-
 $$
 
 
@@ -4784,9 +4662,7 @@ Next, we will use the definition of pressure, $p = \frac{F}{A}$, to express the 
 
 
 $$
-
 F_p = pA
-
 $$
 
 
@@ -4796,9 +4672,7 @@ Where $A$ is the area of the surface on which the pressure is acting. Similarly,
 
 
 $$
-
 F_g = \rho gV
-
 $$
 
 
@@ -4808,9 +4682,7 @@ Where $g$ is the acceleration due to gravity. Substituting these into our equati
 
 
 $$
-
 pA + \rho gV + F_{ext} = \rho V \frac{dv}{dt}
-
 $$
 
 
@@ -4820,9 +4692,7 @@ We can now rearrange this equation to isolate the acceleration term:
 
 
 $$
-
 \frac{dv}{dt} = \frac{pA + \rho gV + F_{ext}}{\rho V}
-
 $$
 
 
@@ -4832,9 +4702,7 @@ This is the momentum equation for a small element of fluid within a control volu
 
 
 $$
-
 \int_V \frac{dv}{dt} dV = \int_V \frac{pA + \rho gV + F_{ext}}{\rho V} dV
-
 $$
 
 
@@ -4844,9 +4712,7 @@ This equation can be simplified further by using the divergence theorem to conve
 
 
 $$
-
 \int_S \rho \frac{dv}{dt} dS = \int_S p dS + \int_S \rho gV dS + \int_S F_{ext} dS
-
 $$
 
 
@@ -4904,9 +4770,7 @@ Using Newton's second law, we can write the following equation for the element:
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -4920,9 +4784,7 @@ We can expand this equation to include the individual forces:
 
 
 $$
-
 F_p + F_g + F_{ext} = ma
-
 $$
 
 
@@ -4936,9 +4798,7 @@ We can also express the mass of the element in terms of its density $\rho$ and v
 
 
 $$
-
 m = \rho V
-
 $$
 
 
@@ -4948,9 +4808,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V a
-
 $$
 
 
@@ -4960,9 +4818,7 @@ Now, let us consider the pressure force in more detail. The pressure force actin
 
 
 $$
-
 F_p = pA
-
 $$
 
 
@@ -4976,9 +4832,7 @@ We can also express the acceleration of the element in terms of its velocity and
 
 
 $$
-
 a = \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -4988,9 +4842,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 pA + F_g + F_{ext} = \rho V \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -5000,9 +4852,7 @@ Now, let us consider the gravitational force. This force is equal to the mass of
 
 
 $$
-
 F_g = mg = \rho Vg
-
 $$
 
 
@@ -5012,9 +4862,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 pA + \rho Vg + F_{ext} = \rho V \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -5024,9 +4872,7 @@ Finally, let us consider the external forces. These can include forces such as f
 
 
 $$
-
 pA + \rho Vg + F_{ext} = \rho V \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -5104,9 +4950,7 @@ Using Newton's second law, we can write the following equation for the element:
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -5120,9 +4964,7 @@ We can expand this equation to include the individual forces:
 
 
 $$
-
 F_p + F_g + F_{ext} = ma
-
 $$
 
 
@@ -5136,9 +4978,7 @@ We can also express the mass of the element in terms of its density $\rho$ and v
 
 
 $$
-
 m = \rho V
-
 $$
 
 
@@ -5148,9 +4988,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 F_p + F_g + F_{ext} = \rho V a
-
 $$
 
 
@@ -5160,9 +4998,7 @@ Next, we will use the definition of pressure as force per unit area, $p = F/A$, 
 
 
 $$
-
 F_p = pA
-
 $$
 
 
@@ -5172,9 +5008,7 @@ We can also express the gravitational force as the product of the mass of the el
 
 
 $$
-
 pA + mg + F_{ext} = \rho V a
-
 $$
 
 
@@ -5184,9 +5018,7 @@ We can now divide both sides by the volume $V$ to get the force per unit volume:
 
 
 $$
-
 \frac{pA}{V} + \frac{mg}{V} + \frac{F_{ext}}{V} = \rho a
-
 $$
 
 
@@ -5196,9 +5028,7 @@ We can also express the volume as the product of the cross-sectional area $A$ an
 
 
 $$
-
 \frac{pA}{AL} + \frac{mg}{AL} + \frac{F_{ext}}{AL} = \rho a
-
 $$
 
 
@@ -5208,9 +5038,7 @@ We can now take the limit as the length $L$ approaches zero, which is equivalent
 
 
 $$
-
 \lim_{L \to 0} \frac{pA}{AL} + \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{F_{ext}}{AL} = \lim_{L \to 0} \rho a
-
 $$
 
 
@@ -5220,9 +5048,7 @@ Using the definition of velocity as the change in position over time, $v = \Delt
 
 
 $$
-
 a = \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -5232,9 +5058,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \frac{pA}{AL} + \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{F_{ext}}{AL} = \lim_{L \to 0} \rho \frac{\Delta v}{\Delta t}
-
 $$
 
 
@@ -5244,9 +5068,7 @@ We can now rearrange the terms to get:
 
 
 $$
-
 \lim_{L \to 0} \frac{pA}{AL} = \lim_{L \to 0} \rho \frac{\Delta v}{\Delta t} - \lim_{L \to 0} \frac{mg}{AL} - \lim_{L \to 0} \frac{F_{ext}}{AL}
-
 $$
 
 
@@ -5256,9 +5078,7 @@ Using the definition of density as mass per unit volume, $\rho = m/V$, we can re
 
 
 $$
-
 \lim_{L \to 0} \frac{pA}{AL} = \lim_{L \to 0} \frac{p}{\rho} \frac{m}{V} \frac{A}{L}
-
 $$
 
 
@@ -5268,9 +5088,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \frac{p}{\rho} \frac{m}{V} \frac{A}{L} = \lim_{L \to 0} \rho \frac{\Delta v}{\Delta t} - \lim_{L \to 0} \frac{mg}{AL} - \lim_{L \to 0} \frac{F_{ext}}{AL}
-
 $$
 
 
@@ -5280,9 +5098,7 @@ We can now use the definition of the substantial derivative, $D/Dt = \partial/\p
 
 
 $$
-
 \lim_{L \to 0} \frac{p}{\rho} \frac{m}{V} \frac{A}{L} = \lim_{L \to 0} \frac{p}{\rho} \frac{Dm}{Dt}
-
 $$
 
 
@@ -5292,9 +5108,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \frac{p}{\rho} \frac{Dm}{Dt} = \lim_{L \to 0} \rho \frac{\Delta v}{\Delta t} - \lim_{L \to 0} \frac{mg}{AL} - \lim_{L \to 0} \frac{F_{ext}}{AL}
-
 $$
 
 
@@ -5304,9 +5118,7 @@ We can now use the definition of the Euler equations, $Dv/Dt = -1/\rho \cdot \na
 
 
 $$
-
 \lim_{L \to 0} \frac{p}{\rho} \frac{Dm}{Dt} = \lim_{L \to 0} \rho \frac{Dv}{Dt}
-
 $$
 
 
@@ -5316,9 +5128,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \rho \frac{Dv}{Dt} = \lim_{L \to 0} \rho \frac{\Delta v}{\Delta t} - \lim_{L \to 0} \frac{mg}{AL} - \lim_{L \to 0} \frac{F_{ext}}{AL}
-
 $$
 
 
@@ -5328,9 +5138,7 @@ We can now cancel out the $\rho$ terms on both sides of the equation, and rearra
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{m} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{m} \lim_{L \to 0} \frac{p}{A}
-
 $$
 
 
@@ -5340,9 +5148,7 @@ We can now use the definition of density as mass per unit volume, $\rho = m/V$, 
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{p}{A}
-
 $$
 
 
@@ -5352,9 +5158,7 @@ We can now use the definition of pressure as force per unit area, $p = F/A$, to 
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5364,9 +5168,7 @@ We can now use the definition of density as mass per unit volume, $\rho = m/V$, 
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5376,9 +5178,7 @@ We can now use the definition of the substantial derivative, $D/Dt = \partial/\p
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5388,9 +5188,7 @@ We can now use the definition of the Euler equations, $Dv/Dt = -1/\rho \cdot \na
 
 
 $$
-
 \lim_{L \to 0} \frac{\Delta v}{\Delta t} = \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{Dv}{Dt}
-
 $$
 
 
@@ -5400,9 +5198,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{Dv}{Dt} = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5412,9 +5208,7 @@ We can now use the definition of the substantial derivative, $D/Dt = \partial/\p
 
 
 $$
-
 \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{Dv}{Dt} = \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{\partial v}{\partial t} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} v \cdot \nabla v
-
 $$
 
 
@@ -5424,9 +5218,7 @@ Substituting this into our equation, we get:
 
 
 $$
-
 \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{\partial v}{\partial t} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} v \cdot \nabla v = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5436,9 +5228,7 @@ We can now use the definition of the substantial derivative, $D/Dt = \partial/\p
 
 
 $$
-
 \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{\partial v}{\partial t} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} v \cdot \nabla v = \lim_{L \to 0} \frac{g}{A} + \lim_{L \to 0} \frac{F_{ext}}{A} - \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{mg}{AL} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{F}{A}
-
 $$
 
 
@@ -5448,7 +5238,6 @@ We can now use the definition of the Euler equations, $Dv/Dt = -1/\rho \cdot \na
 
 
 $$
-
 \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} \frac{\partial v}{\partial t} + \lim_{L \to 0} \frac{1}{\rho} \lim_{L \to 0} v \cdot \nabla v =
 
 
@@ -5492,13 +5281,11 @@ To understand the substantial derivative, let us consider a fluid element with a
 As the fluid element moves through the control volume, the physical quantity $Q$ will change due to various processes such as advection, diffusion, and sources/sinks. The substantial derivative of $Q$ is defined as the sum of the local rate of change of $Q$ and the advective rate of change of $Q$ due to the fluid element's motion:
 
 
-
 $$
 
 \frac{DQ}{Dt} = \frac{\partial Q}{\partial t} + (\vec{v} \cdot \nabla)Q
 
 $$
-
 
 
 Where $\frac{\partial Q}{\partial t}$ is the local rate of change of $Q$, and $(\vec{v} \cdot \nabla)Q$ is the advective rate of change of $Q$ due to the fluid element's velocity $\vec{v}$.
@@ -5508,7 +5295,6 @@ Where $\frac{\partial Q}{\partial t}$ is the local rate of change of $Q$, and $(
 The substantial derivative can also be expressed in terms of the substantial derivative operator $\frac{D}{Dt}$:
 
 
-
 $$
 
 \frac{DQ}{Dt} = \frac{D}{Dt}(Q)
@@ -5516,9 +5302,7 @@ $$
 $$
 
 
-
 Using the substantial derivative, we can write the conservation of mass equation in differential form as:
-
 
 
 $$
@@ -5528,7 +5312,6 @@ $$
 $$
 
 
-
 Where $\rho$ is the density of the fluid and $\vec{v}$ is the velocity vector.
 
 
@@ -5536,13 +5319,11 @@ Where $\rho$ is the density of the fluid and $\vec{v}$ is the velocity vector.
 The substantial derivative is also used in the Euler equations, which describe the motion of an inviscid fluid. The Euler equations can be written in differential form as:
 
 
-
 $$
 
 \frac{D\vec{v}}{Dt} = -\frac{1}{\rho}\nabla p + \vec{g}
 
 $$
-
 
 
 Where $\vec{g}$ is the gravitational acceleration and $p$ is the pressure.
@@ -5592,13 +5373,11 @@ To understand the Euler equations, let us consider a control volume with a fluid
 The first equation, known as the continuity equation, describes the conservation of mass in the control volume:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
 
 $$
-
 
 
 Where $\rho$ is the density and $\vec{v}$ is the velocity of the fluid element.
@@ -5608,13 +5387,11 @@ Where $\rho$ is the density and $\vec{v}$ is the velocity of the fluid element.
 The second equation, known as the momentum equation, describes the conservation of momentum in the control volume:
 
 
-
 $$
 
 \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1}{\rho}\nabla p
 
 $$
-
 
 
 Where $\vec{v}$ is the velocity, $p$ is the pressure, and $\rho$ is the density of the fluid element.
@@ -5624,13 +5401,11 @@ Where $\vec{v}$ is the velocity, $p$ is the pressure, and $\rho$ is the density 
 The third equation, known as the energy equation, describes the conservation of energy in the control volume:
 
 
-
 $$
 
 \frac{\partial e}{\partial t} + \nabla \cdot (e\vec{v}) = -\frac{p}{\rho}\nabla \cdot \vec{v}
 
 $$
-
 
 
 Where $e$ is the specific internal energy of the fluid element.
@@ -5800,13 +5575,11 @@ Another important property of viscous fluids is shear stress, denoted by the sym
 Now, let us introduce the Navier-Stokes equation, which is the fundamental equation used to describe the motion of viscous fluids. It is a set of partial differential equations that relate the velocity, pressure, and density of a fluid to its acceleration and the external forces acting on it. The Navier-Stokes equation can be written in its most general form as:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{F}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{v}$ is the velocity vector, $p$ is the pressure, $\mu$ is the viscosity, and $\mathbf{F}$ represents any external forces acting on the fluid.
@@ -5876,13 +5649,11 @@ Another important property of viscous fluids is shear stress, denoted by the sym
 Now, let us introduce the Navier-Stokes equation, which is the fundamental equation used to describe the motion of viscous fluids. It is a set of partial differential equations that relate the velocity, pressure, and density of the fluid. The equation is given by:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{v}$ is the velocity vector, $p$ is the pressure, $\mu$ is the viscosity, and $\mathbf{g}$ is the acceleration due to gravity. This equation describes the conservation of momentum for a viscous fluid and can be used to predict the behavior of fluids in various scenarios.
@@ -5948,13 +5719,11 @@ Another important property of viscous fluids is shear stress, denoted by the sym
 Now, let us introduce the Navier-Stokes equation, which is a set of partial differential equations that describe the motion of viscous fluids. It is named after Claude-Louis Navier and George Gabriel Stokes, who independently derived the equation in the 19th century. The Navier-Stokes equation takes into account the effects of viscosity and inertia on the fluid motion and is given by:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{v}$ is the velocity vector, $t$ is time, $p$ is the pressure, $\mu$ is the viscosity, $\nabla$ is the gradient operator, and $\mathbf{f}$ is the external force per unit volume acting on the fluid.
@@ -6012,13 +5781,11 @@ Viscous fluids are characterized by their ability to resist deformation and flow
 Another important property of viscous fluids is shear stress, denoted by the symbol $\tau$. Shear stress is the force per unit area that is exerted on a fluid when it is subjected to a shear force. In other words, it is the force that causes the layers of a fluid to slide past each other. The relationship between shear stress and viscosity is described by the equation:
 
 
-
 $$
 
 \tau = \mu \frac{du}{dy}
 
 $$
-
 
 
 where $\tau$ is the shear stress, $\mu$ is the viscosity, and $\frac{du}{dy}$ is the velocity gradient in the direction of the shear force.
@@ -6032,13 +5799,11 @@ Now, let's turn our attention to the Navier-Stokes equation. This equation is a 
 The Navier-Stokes equation is given by:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity vector, $t$ is time, $p$ is the pressure, $\mu$ is the viscosity, $\nabla$ is the gradient operator, and $\mathbf{f}$ is the external force per unit volume acting on the fluid.
@@ -6092,13 +5857,11 @@ Viscous fluids are characterized by their ability to resist deformation and flow
 Another important property of viscous fluids is shear stress, denoted by the symbol $\tau$. Shear stress is the force per unit area that is exerted on a fluid when it is subjected to a shear force. In other words, it is the force that causes the layers of the fluid to slide past each other. The relationship between shear stress and viscosity is described by the equation:
 
 
-
 $$
 
 \tau = \mu \frac{\partial u}{\partial y}
 
 $$
-
 
 
 where $u$ is the velocity of the fluid in the $x$ direction and $y$ is the direction perpendicular to the flow. This equation is known as the Newtonian fluid model, and it is valid for most common fluids such as water, air, and oil.
@@ -6108,13 +5871,11 @@ where $u$ is the velocity of the fluid in the $x$ direction and $y$ is the direc
 Now, let's turn our attention to the Navier-Stokes equation. This equation is a set of partial differential equations that describe the motion of a viscous fluid. It takes into account the effects of viscosity, pressure, and external forces on the fluid. The Navier-Stokes equation can be written in its most general form as:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{F}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the viscosity, and $\mathbf{F}$ is the external force per unit volume acting on the fluid.
@@ -6172,13 +5933,11 @@ Viscous fluids are characterized by their ability to resist deformation and flow
 Another important property of viscous fluids is shear stress, denoted by the symbol $\tau$. Shear stress is the force per unit area that is exerted on a fluid when it is subjected to a shear force. In other words, it is the force that causes the layers of the fluid to slide past each other. The relationship between shear stress and viscosity is described by the equation:
 
 
-
 $$
 
 \tau = \mu \frac{\partial u}{\partial y}
 
 $$
-
 
 
 where $u$ is the velocity of the fluid in the $x$ direction and $y$ is the direction perpendicular to the flow. This equation is known as the Newtonian fluid model, and it is valid for most common fluids such as water, air, and oil.
@@ -6188,13 +5947,11 @@ where $u$ is the velocity of the fluid in the $x$ direction and $y$ is the direc
 Now, let's turn our attention to the Navier-Stokes equation, which is the fundamental equation that governs the motion of viscous fluids. It is a set of partial differential equations that describe the conservation of mass and momentum in a fluid. The equation is given by:
 
 
-
 $$
 
 \rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the viscosity, and $\mathbf{f}$ is the external force per unit volume acting on the fluid.
@@ -6382,14 +6139,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -6397,22 +6151,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right)
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right)
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, and $\mu$ is the dynamic viscosity.
@@ -6422,7 +6171,6 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 For laminar flow in a pipe, we can assume that the velocity components are only dependent on the radial direction, and there is no variation in the $\theta$ and $z$ directions. This is known as fully developed flow. Therefore, the continuity equation simplifies to:
 
 
-
 $$
 
 \frac{\partial}{\partial r}(r\rho u) = 0
@@ -6430,9 +6178,7 @@ $$
 $$
 
 
-
 which can be integrated to give:
-
 
 
 $$
@@ -6442,13 +6188,11 @@ r\rho u = C
 $$
 
 
-
 where $C$ is a constant. This means that the product of the radius, density, and velocity remains constant throughout the pipe.
 
 
 
 Using this result, we can simplify the Navier-Stokes equations to:
-
 
 
 $$
@@ -6457,22 +6201,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho v\frac{\partial v}{\partial r} = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\frac{\partial^2 v}{\partial r^2}
 
 $$
 
-
-
 $$
 
 \rho w\frac{\partial w}{\partial r} = -\frac{\partial p}{\partial z} + \mu\frac{\partial^2 w}{\partial r^2}
 
 $$
-
 
 
 Since the velocity components are only dependent on the radial direction, the convective terms ($u\frac{\partial u}{\partial r}$, $v\frac{\partial v}{\partial r}$, and $w\frac{\partial w}{\partial r}$) are equal to zero. This means that the pressure gradient is the only driving force for the flow.
@@ -6482,13 +6221,11 @@ Since the velocity components are only dependent on the radial direction, the co
 To solve these equations, we need to apply appropriate boundary conditions. At the pipe wall, the velocity is zero due to the no-slip condition. At the center of the pipe, the velocity is maximum, and it decreases towards the wall. This velocity profile is known as the parabolic velocity profile and is given by:
 
 
-
 $$
 
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2)
 
 $$
-
 
 
 where $\Delta p$ is the pressure drop along the pipe, $L$ is the length of the pipe, and $R$ is the radius of the pipe.
@@ -6546,21 +6283,17 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial u}{\partial t} + u\frac{\partial u}{\partial r} + \frac{v}{r}\frac{\partial u}{\partial \theta} + w\frac{\partial u}{\partial z}\right) = -\frac{\partial p}{\partial r} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 u}{\partial \theta^2} + \frac{\partial^2 u}{\partial z^2}\right)
 
 $$
-
 
 
 These equations describe the conservation of mass and momentum in a fluid flow. The first equation is the continuity equation, which states that the rate of change of mass in a control volume is equal to the net flow of mass into or out of the control volume. The second equation is the momentum equation, which states that the rate of change of momentum in a control volume is equal to the net force acting on the control volume.
@@ -6570,14 +6303,11 @@ These equations describe the conservation of mass and momentum in a fluid flow. 
 Now, let's apply these equations to a laminar flow in a pipe. We will assume that the flow is steady, meaning that the velocity and pressure do not change with time. Additionally, we will assume that the flow is axisymmetric, meaning that the velocity and pressure do not vary with the angle $\theta$. This simplifies the Navier-Stokes equations to:
 
 
-
 $$
 
 \frac{\partial}{\partial r}(r\rho u) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -6586,9 +6316,7 @@ $$
 $$
 
 
-
 We can further simplify these equations by assuming that the flow is fully developed, meaning that the velocity profile does not change along the length of the pipe. This allows us to set the partial derivatives with respect to $r$ and $z$ equal to zero, resulting in:
-
 
 
 $$
@@ -6597,8 +6325,6 @@ $$
 
 $$
 
-
-
 $$
 
 \rho u\frac{\partial u}{\partial r} = -\frac{\partial p}{\partial r} + \mu\frac{\partial^2 u}{\partial z^2}
@@ -6606,9 +6332,7 @@ $$
 $$
 
 
-
 These equations can be solved to obtain the velocity profile for laminar flow in a pipe:
-
 
 
 $$
@@ -6616,7 +6340,6 @@ $$
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2)
 
 $$
-
 
 
 where $\Delta p$ is the pressure drop along the length of the pipe, $\mu$ is the dynamic viscosity of the fluid, $L$ is the length of the pipe, and $R$ is the radius of the pipe.
@@ -6630,14 +6353,11 @@ where $\Delta p$ is the pressure drop along the length of the pipe, $\mu$ is the
 In addition to pipes, laminar flow can also occur over surfaces, such as a flat plate. In this case, the Navier-Stokes equations can be simplified to:
 
 
-
 $$
 
 \frac{\partial}{\partial x}(\rho u) + \frac{\partial}{\partial y}(\rho v) = 0
 
 $$
-
-
 
 $$
 
@@ -6646,9 +6366,7 @@ $$
 $$
 
 
-
 Similar to the fully developed laminar flow in pipes, we can assume that the flow is fully developed over the surface, resulting in:
-
 
 
 $$
@@ -6657,8 +6375,6 @@ $$
 
 $$
 
-
-
 $$
 
 \rho u\frac{\partial u}{\partial x} = -\frac{\partial p}{\partial x} + \mu\frac{\partial^2 u}{\partial y^2}
@@ -6666,9 +6382,7 @@ $$
 $$
 
 
-
 Solving these equations yields the velocity profile for laminar flow over a flat plate:
-
 
 
 $$
@@ -6676,7 +6390,6 @@ $$
 u(y) = \frac{\Delta p}{2\mu L}y(y+h)
 
 $$
-
 
 
 where $\Delta p$ is the pressure drop along the length of the plate, $\mu$ is the dynamic viscosity of the fluid, $L$ is the length of the plate, and $h$ is the distance from the surface. This velocity profile is known as the Blasius solution and is a fundamental result in laminar boundary layer theory.
@@ -6730,14 +6443,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -6745,22 +6455,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -6786,14 +6491,11 @@ To simplify the equations, we will make the following assumptions:
 Under these assumptions, the Navier-Stokes equations reduce to:
 
 
-
 $$
 
 \frac{\partial u}{\partial r} + \frac{\partial v}{\partial z} = 0
 
 $$
-
-
 
 $$
 
@@ -6801,14 +6503,11 @@ u\frac{\partial u}{\partial r} + v\frac{\partial u}{\partial z} = -\frac{1}{\rho
 
 $$
 
-
-
 $$
 
 u\frac{\partial v}{\partial r} + v\frac{\partial v}{\partial z} = -\frac{1}{\rho}\frac{\partial p}{\partial z} + \nu\left(\frac{\partial^2 v}{\partial r^2} + \frac{\partial^2 v}{\partial z^2}\right)
 
 $$
-
 
 
 where $\nu = \frac{\mu}{\rho}$ is the kinematic viscosity.
@@ -6822,13 +6521,11 @@ To solve these equations, we need to apply appropriate boundary conditions. At t
 Using these boundary conditions, we can solve the Navier-Stokes equations to obtain the velocity profile for laminar flow in a channel:
 
 
-
 $$
 
 u(r) = \frac{2}{\rho\nu}\left(\frac{\partial p}{\partial z}\right)\left(\frac{R^2}{4} - r^2\right)
 
 $$
-
 
 
 where $R$ is the radius of the channel.
@@ -6886,14 +6583,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -6901,22 +6595,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -6930,13 +6619,11 @@ Now, let's consider a steady, fully developed laminar flow in a circular pipe wi
 Using these assumptions, we can simplify the Navier-Stokes equations to:
 
 
-
 $$
 
 \frac{1}{r}\frac{d}{dr}\left(r\frac{dP}{dr}\right) = \frac{1}{\mu}\frac{d}{dr}\left(\frac{r^2}{A}\frac{dQ}{dr}\right) - \frac{\rho g}{A}\frac{d}{dr}\left(r^2\right)
 
 $$
-
 
 
 where $P$ is the pressure, $A$ is the cross-sectional area, $Q$ is the volumetric flow rate, and $g$ is the gravitational acceleration.
@@ -6994,14 +6681,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7009,22 +6693,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7034,7 +6713,6 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 Now, let's consider a steady, fully developed laminar flow in a circular pipe with a constant cross-sectional area. This means that the velocity and pressure do not change with time and are only dependent on the radial distance from the center of the pipe. In this case, the continuity equation reduces to:
 
 
-
 $$
 
 \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) = 0
@@ -7042,9 +6720,7 @@ $$
 $$
 
 
-
 which can be simplified to:
-
 
 
 $$
@@ -7054,9 +6730,7 @@ $$
 $$
 
 
-
 Integrating this equation with respect to $r$ yields:
-
 
 
 $$
@@ -7066,13 +6740,11 @@ u = \frac{C}{r}
 $$
 
 
-
 where $C$ is a constant of integration. This equation shows that the velocity decreases as the radial distance from the center of the pipe increases, which is expected for laminar flow.
 
 
 
 Next, we can apply the Navier-Stokes equations to this scenario. Since the flow is fully developed, the time derivatives are equal to zero. Additionally, since the flow is laminar, the viscosity term can be simplified to:
-
 
 
 $$
@@ -7082,9 +6754,7 @@ $$
 $$
 
 
-
 Therefore, the Navier-Stokes equations reduce to:
-
 
 
 $$
@@ -7093,15 +6763,11 @@ $$
 
 $$
 
-
-
 $$
 
 -\frac{1}{r}\frac{\partial p}{\partial \theta} = \rho g_\theta
 
 $$
-
-
 
 $$
 
@@ -7110,9 +6776,7 @@ $$
 $$
 
 
-
 Integrating these equations with respect to $r$, $\theta$, and $z$ respectively, we get:
-
 
 
 $$
@@ -7121,22 +6785,17 @@ p = -\rho g_r r + C_1
 
 $$
 
-
-
 $$
 
 p = -\rho g_\theta \theta + C_2
 
 $$
 
-
-
 $$
 
 p = -\rho g_z z + C_3
 
 $$
-
 
 
 where $C_1$, $C_2$, and $C_3$ are constants of integration. These equations show that the pressure decreases linearly with the radial distance from the center of the pipe, and is constant in the $\theta$ and $z$ directions.
@@ -7146,7 +6805,6 @@ where $C_1$, $C_2$, and $C_3$ are constants of integration. These equations show
 Finally, we can use the continuity equation to determine the value of the constant $C$. Since the flow is fully developed, the mass flow rate is constant throughout the pipe. This means that the product of the velocity and the cross-sectional area must be constant. Therefore, we can write:
 
 
-
 $$
 
 uA = \text{constant}
@@ -7154,9 +6812,7 @@ uA = \text{constant}
 $$
 
 
-
 where $A$ is the cross-sectional area of the pipe. Substituting the expression for $u$ that we found earlier, we get:
-
 
 
 $$
@@ -7166,9 +6822,7 @@ $$
 $$
 
 
-
 Solving for $C$, we get:
-
 
 
 $$
@@ -7178,9 +6832,7 @@ C = \frac{\text{constant}}{A}
 $$
 
 
-
 Substituting this value of $C$ into our equations for pressure, we get:
-
 
 
 $$
@@ -7189,22 +6841,17 @@ p = -\rho g_r r + \frac{\text{constant}}{A}
 
 $$
 
-
-
 $$
 
 p = -\rho g_\theta \theta + \frac{\text{constant}}{A}
 
 $$
 
-
-
 $$
 
 p = -\rho g_z z + \frac{\text{constant}}{A}
 
 $$
-
 
 
 These equations show that the pressure gradient is constant in all directions, and the pressure decreases linearly with the distance from the center of the pipe.
@@ -7258,14 +6905,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7273,22 +6917,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7298,14 +6937,11 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 To solve these equations, we will need to apply appropriate boundary conditions. In the case of laminar flow in a pipe, we can assume that the flow is axisymmetric, meaning that the velocity components are independent of the $\theta$ direction. Additionally, we can assume that the flow is fully developed, meaning that the velocity profile does not change along the length of the pipe. This allows us to simplify the Navier-Stokes equations to:
 
 
-
 $$
 
 \frac{\partial p}{\partial r} = \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) + \frac{\partial^2 u}{\partial z^2}\right) + \rho g_r
 
 $$
-
-
 
 $$
 
@@ -7313,14 +6949,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial p}{\partial z} = 0
 
 $$
-
 
 
 These equations can be solved using various numerical methods, such as finite difference or finite element methods. The resulting velocity profile for laminar flow in a pipe is a parabolic shape, with the maximum velocity occurring at the center of the pipe and decreasing towards the walls.
@@ -7414,14 +7047,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7429,22 +7059,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7454,14 +7079,11 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 To simplify the equations, we will assume that the flow is steady, incompressible, and axisymmetric, meaning that the flow variables do not change with time, the density is constant, and the flow is symmetric about the $z$-axis. This allows us to reduce the equations to:
 
 
-
 $$
 
 \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7469,15 +7091,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
-
-
 
 $$
 
@@ -7486,9 +7104,7 @@ $$
 $$
 
 
-
 Next, we will consider the boundary conditions for laminar flow in pipes. At the pipe walls, the fluid particles are stationary due to the no-slip condition, meaning that the velocity at the wall is equal to zero. This results in the following boundary conditions:
-
 
 
 $$
@@ -7497,15 +7113,11 @@ u(r=R) = 0
 
 $$
 
-
-
 $$
 
 v(r=R) = 0
 
 $$
-
-
 
 $$
 
@@ -7514,9 +7126,7 @@ w(r=R) = 0
 $$
 
 
-
 At the center of the pipe, the velocity is at its maximum, resulting in the following boundary conditions:
-
 
 
 $$
@@ -7525,15 +7135,11 @@ u(r=0) = u_{max}
 
 $$
 
-
-
 $$
 
 v(r=0) = 0
 
 $$
-
-
 
 $$
 
@@ -7542,9 +7148,7 @@ w(r=0) = 0
 $$
 
 
-
 Using these boundary conditions, we can solve the simplified Navier-Stokes equations to obtain the velocity profile for laminar flow in pipes. The result is known as the Hagen-Poiseuille equation:
-
 
 
 $$
@@ -7552,7 +7156,6 @@ $$
 u(r) = \frac{1}{4\mu}\left(\frac{\partial p}{\partial z}\right)\left(R^2 - r^2\right)
 
 $$
-
 
 
 This equation shows that the velocity is highest at the center of the pipe and decreases linearly towards the walls. This is known as a parabolic velocity profile, and it is a characteristic of laminar flow in pipes.
@@ -7566,13 +7169,11 @@ This equation shows that the velocity is highest at the center of the pipe and d
 The Hagen-Poiseuille equation can also be applied to analyze laminar flow in tubes, where the radius of the tube is much smaller than the length. In this case, the velocity profile is still parabolic, but the pressure gradient is given by:
 
 
-
 $$
 
 \frac{\partial p}{\partial z} = \frac{8\mu u_{max}}{\pi R^2}
 
 $$
-
 
 
 This equation shows that the pressure gradient is inversely proportional to the radius of the tube, meaning that smaller tubes will require a higher pressure gradient to maintain the same flow rate.
@@ -7594,14 +7195,11 @@ In this section, we will apply the Navier-Stokes equations to analyze turbulent 
 To understand turbulent pipe flows, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7609,22 +7207,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7634,14 +7227,11 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 To simplify the equations, we will assume that the flow is steady, incompressible, and axisymmetric, meaning that the flow variables do not change with time, the density is constant, and the flow is symmetric about the $z$-axis. This allows us to reduce the equations to:
 
 
-
 $$
 
 \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7649,22 +7239,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 Next, we will consider the boundary conditions for turbulent pipe flows. At the pipe walls, the fluid particles are still stationary due to the no-slip condition. However, in turbulent flow, there is
@@ -7714,14 +7299,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7729,22 +7311,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7758,13 +7335,11 @@ Now, let's consider a simple example of laminar flow in a pipe system. Imagine a
 Using the Navier-Stokes equations, we can derive the following equation for the velocity profile in the pipe:
 
 
-
 $$
 
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2)
 
 $$
-
 
 
 where $u$ is the velocity, $\Delta p$ is the pressure difference between the two ends of the pipe, $\mu$ is the dynamic viscosity, $L$ is the length of the pipe, and $R$ is the radius of the pipe.
@@ -7790,13 +7365,11 @@ To analyze the flow in a viscous pump, we can use the Navier-Stokes equations in
 Using the Navier-Stokes equations, we can derive the following equation for the velocity profile in the pump:
 
 
-
 $$
 
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2) + \frac{\omega}{2}(R^2 - r^2)
 
 $$
-
 
 
 where $u$ is the velocity, $\Delta p$ is the pressure difference created by the impeller, $\mu$ is the dynamic viscosity, $L$ is the length of the pump, $R$ is the radius of the pump, and $\omega$ is the angular velocity of the impeller.
@@ -7826,13 +7399,11 @@ To understand turbulent pipe flows, we will first consider the Navier-Stokes equ
 Using the Navier-Stokes equations, we can derive the following equation for the velocity profile in a turbulent pipe flow:
 
 
-
 $$
 
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2) + \frac{\tau_w}{\rho}(R^2 - r^2)
 
 $$
-
 
 
 where $u$ is the velocity, $\Delta p$ is the pressure difference between the two ends of the pipe, $\mu$ is the dynamic viscosity, $L$ is the length of the pipe, $R$ is the radius of the pipe, $\tau_w$ is the wall shear stress, and $\rho$ is the density of the fluid.
@@ -7854,13 +7425,11 @@ Similar to laminar flow, turbulent flow can also occur in viscous pumps. However
 Using the Navier-Stokes equations, we can derive the following equation for the velocity profile in a turbulent viscous pump:
 
 
-
 $$
 
 u(r) = \frac{\Delta p}{4\mu L}(R^2 - r^2) + \frac{\tau_w}{\rho}(R^2 - r^2) + \frac{\omega}{2}(R^2 - r^2)
 
 $$
-
 
 
 where $u$ is the velocity, $\Delta p$ is the pressure difference created by the impeller, $\mu$ is the dynamic viscosity, $L$ is the length of the pump, $R$ is the radius of the pump, $\tau_w$ is the wall shear stress, $\rho$ is the density of the fluid, and $\omega$ is the angular velocity of the impeller.
@@ -7926,14 +7495,11 @@ In this section, we will apply the Navier-Stokes equations to analyze laminar fl
 To understand laminar flow in pipes, we will first consider the Navier-Stokes equations in cylindrical coordinates:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{1}{r}\frac{\partial}{\partial \theta}(\rho v) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
-
-
 
 $$
 
@@ -7941,22 +7507,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial r} + \frac{v}{r}\frac{\partial v}{\partial \theta} + w\frac{\partial v}{\partial z}\right) = -\frac{1}{r}\frac{\partial p}{\partial \theta} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial v}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 v}{\partial \theta^2} + \frac{\partial^2 v}{\partial z^2}\right) + \rho g_\theta
 
 $$
 
-
-
 $$
 
 \rho\left(\frac{\partial w}{\partial t} + u\frac{\partial w}{\partial r} + \frac{v}{r}\frac{\partial w}{\partial \theta} + w\frac{\partial w}{\partial z}\right) = -\frac{\partial p}{\partial z} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial w}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{\partial^2 w}{\partial z^2}\right) + \rho g_z
 
 $$
-
 
 
 where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in the $r$, $\theta$, and $z$ directions respectively, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $g_r$, $g_\theta$, and $g_z$ are the components of the gravitational acceleration in the $r$, $\theta$, and $z$ directions respectively.
@@ -7966,22 +7527,17 @@ where $\rho$ is the density, $u$, $v$, and $w$ are the velocity components in th
 To simplify the equations, we will assume that the flow is steady, meaning that the velocity components do not change with time. We will also assume that the flow is axisymmetric, meaning that the velocity components do not change with the $\theta$ direction. With these assumptions, the Navier-Stokes equations reduce to:
 
 
-
 $$
 
 \frac{1}{r}\frac{\partial}{\partial r}(r\rho u) + \frac{\partial}{\partial z}(\rho w) = 0
 
 $$
 
-
-
 $$
 
 \rho\left(u\frac{\partial u}{\partial r} + w\frac{\partial u}{\partial z}\right) = -\frac{\partial p}{\partial r} + \mu\left(\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) + \frac{\partial^2 u}{\partial z^2}\right) + \rho g_r
 
 $$
-
-
 
 $$
 
@@ -7990,9 +7546,7 @@ $$
 $$
 
 
-
 These equations can be further simplified by assuming that the flow is fully developed, meaning that the velocity components do not change with the $z$ direction. This assumption is valid for long pipes, where the flow has had enough time to reach a steady state. With this assumption, the equations reduce to:
-
 
 
 $$
@@ -8001,22 +7555,17 @@ $$
 
 $$
 
-
-
 $$
 
 \rho u\frac{\partial u}{\partial r} = -\frac{\partial p}{\partial r} + \mu\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) + \rho g_r
 
 $$
 
-
-
 $$
 
 \rho w\frac{\partial w}{\partial z} = -\frac{\partial p}{\partial z} + \mu\frac{\partial^2 w}{\partial z^2} + \rho g_z
 
 $$
-
 
 
 These equations can be solved using appropriate boundary conditions to determine the velocity and pressure profiles in the pipe. We will explore some simple examples in the following sections to gain a better understanding of laminar flow in pipes.
@@ -8220,13 +7769,11 @@ The boundary layer plays a crucial role in determining the overall behavior of t
 The Reynolds number, denoted as $Re$, is a dimensionless parameter that describes the ratio of inertial forces to viscous forces in a fluid flow. It is defined as:
 
 
-
 $$
 
 Re = \frac{\rho u L}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the characteristic velocity, $L$ is the characteristic length, and $\mu$ is the dynamic viscosity of the fluid.
@@ -8760,14 +8307,11 @@ The Navier-Stokes equations are a set of partial differential equations that des
 The equations can be written in vector form as:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -8775,14 +8319,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mathbf{u} \cdot \mathbf{T}) + \mathbf{q}
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{f}$ is the body force per unit volume, $e$ is the specific internal energy, $\mathbf{T}$ is the stress tensor, and $\mathbf{q}$ is the heat flux vector.
@@ -8892,7 +8433,6 @@ The boundary layer thickness is a crucial parameter in boundary layer theory. It
 The boundary layer thickness can be calculated using the following equation:
 
 
-
 $$
 
 \delta = \frac{5x}{\sqrt{Re_x}}
@@ -8900,9 +8440,7 @@ $$
 $$
 
 
-
 Where $x$ is the distance from the leading edge of the object and $Re_x$ is the Reynolds number at that point. The Reynolds number is a dimensionless parameter that describes the ratio of inertial forces to viscous forces in a fluid flow. It is given by the equation:
-
 
 
 $$
@@ -8910,7 +8448,6 @@ $$
 Re_x = \frac{\rho Ux}{\mu}
 
 $$
-
 
 
 Where $\rho$ is the density of the fluid, $U$ is the free stream velocity, and $\mu$ is the dynamic viscosity of the fluid. As the Reynolds number increases, the boundary layer thickness decreases, indicating a transition from laminar to turbulent flow.
@@ -9234,13 +8771,11 @@ A sphere is a three-dimensional object with a curved surface and a constant radi
 One of the key parameters that affect the forces on a sphere is the Reynolds number, which is defined as the ratio of inertial forces to viscous forces. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u D}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ is the diameter of the sphere, and $\mu$ is the dynamic viscosity of the fluid. The Reynolds number is an important dimensionless quantity that helps classify the flow around a sphere into different regimes, such as laminar, transitional, and turbulent.
@@ -9250,13 +8785,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ 
 In the case of a sphere, the drag force is primarily caused by the pressure difference between the front and back of the sphere. As the fluid flows around the sphere, it creates a region of low pressure behind the sphere, resulting in a net force in the direction of the flow. This force is known as the drag force and is given by the equation:
 
 
-
 $$
 
 F_D = \frac{1}{2}C_D\rho u^2 A
 
 $$
-
 
 
 where $C_D$ is the drag coefficient, which depends on the shape and size of the sphere, and $A$ is the cross-sectional area of the sphere.
@@ -9266,13 +8799,11 @@ where $C_D$ is the drag coefficient, which depends on the shape and size of the 
 On the other hand, the lift force on a sphere is caused by the difference in pressure between the top and bottom of the sphere. This pressure difference creates a net force perpendicular to the direction of the flow. The lift force is given by the equation:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $C_L$ is the lift coefficient, which also depends on the shape and size of the sphere.
@@ -9308,13 +8839,11 @@ A sphere is a three-dimensional object with a curved surface and a constant radi
 One of the key parameters that affect the forces on a sphere is the Reynolds number, which is defined as the ratio of inertial forces to viscous forces. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u D}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ is the diameter of the sphere, and $\mu$ is the dynamic viscosity of the fluid. The Reynolds number is an important dimensionless quantity that helps classify the flow around a sphere into different regimes, such as laminar, transitional, and turbulent.
@@ -9324,13 +8853,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ 
 In the case of a sphere, the drag force is primarily caused by the pressure difference between the front and back of the sphere. As the fluid flows around the sphere, it creates a region of low pressure behind the sphere, resulting in a net force in the direction of the flow. This force is known as the drag force and is given by the equation:
 
 
-
 $$
 
 F_D = \frac{1}{2}C_D\rho u^2 A
 
 $$
-
 
 
 where $C_D$ is the drag coefficient, which depends on the shape and size of the sphere, and $A$ is the cross-sectional area of the sphere.
@@ -9340,13 +8867,11 @@ where $C_D$ is the drag coefficient, which depends on the shape and size of the 
 On the other hand, the lift force on a sphere is caused by the difference in pressure between the top and bottom of the sphere. This pressure difference creates a lift force perpendicular to the direction of flow, which can be calculated using the equation:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $C_L$ is the lift coefficient, which also depends on the shape and size of the sphere.
@@ -9398,13 +8923,11 @@ A sphere is a three-dimensional object with a curved surface and a constant radi
 One of the key parameters that affect the forces on a sphere is the Reynolds number, which is defined as the ratio of inertial forces to viscous forces. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u D}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ is the diameter of the sphere, and $\mu$ is the dynamic viscosity of the fluid. The Reynolds number is an important dimensionless quantity that helps classify the flow around a sphere into different regimes, such as laminar, transitional, and turbulent.
@@ -9414,13 +8937,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $D$ 
 In the case of a sphere, the drag force is primarily caused by the pressure difference between the front and back of the sphere. As the fluid flows around the sphere, it creates a region of low pressure behind the sphere, resulting in a net force in the direction of the flow. This force is known as the drag force and is given by the equation:
 
 
-
 $$
 
 F_D = \frac{1}{2}C_D\rho u^2 A
 
 $$
-
 
 
 where $C_D$ is the drag coefficient, which depends on the shape and size of the sphere, and $A$ is the cross-sectional area of the sphere.
@@ -9430,13 +8951,11 @@ where $C_D$ is the drag coefficient, which depends on the shape and size of the 
 On the other hand, the lift force on a sphere is caused by the difference in pressure between the top and bottom of the sphere. This pressure difference creates a lift force that is perpendicular to the direction of the flow. The lift force is given by the equation:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $C_L$ is the lift coefficient, which also depends on the shape and size of the sphere, and $A$ is the cross-sectional area of the sphere.
@@ -9492,13 +9011,11 @@ The lift generated by an airfoil is a result of the difference in pressure betwe
 Similar to the flow over a sphere, the flow over an airfoil is also affected by the Reynolds number. However, in the case of an airfoil, the Reynolds number is defined using the chord length, which is the distance from the leading edge to the trailing edge of the airfoil. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u c}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ is the chord length, and $\mu$ is the dynamic viscosity of the fluid.
@@ -9508,13 +9025,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ 
 The lift and drag forces on an airfoil can be calculated using the same equations as for a sphere, with the addition of a lift coefficient, $C_L$, which is a measure of the airfoil's ability to generate lift. The lift force is given by:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $A$ is the cross-sectional area of the airfoil.
@@ -9550,13 +9065,11 @@ The lift generated by an airfoil is a result of the difference in pressure betwe
 Similar to the flow over a sphere, the flow over an airfoil is also affected by the Reynolds number. However, in the case of an airfoil, the Reynolds number is defined using the chord length, which is the distance from the leading edge to the trailing edge of the airfoil. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u c}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ is the chord length, and $\mu$ is the dynamic viscosity of the fluid.
@@ -9566,13 +9079,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ 
 The lift and drag forces on an airfoil can be calculated using the same equations as for a sphere, with the addition of a lift coefficient, $C_L$, which is a measure of the airfoil's ability to generate lift. The lift force is given by:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $A$ is the cross-sectional area of the airfoil.
@@ -9628,13 +9139,11 @@ The lift generated by an airfoil is a result of the difference in pressure betwe
 Similar to the flow over a sphere, the flow over an airfoil is also affected by the Reynolds number. However, in the case of an airfoil, the Reynolds number is defined using the chord length, which is the distance from the leading edge to the trailing edge of the airfoil. It is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u c}{\mu}
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ is the chord length, and $\mu$ is the dynamic viscosity of the fluid.
@@ -9644,13 +9153,11 @@ where $\rho$ is the density of the fluid, $u$ is the velocity of the fluid, $c$ 
 The lift and drag forces on an airfoil can be calculated using the same equations as for a sphere, with the addition of a lift coefficient, $C_L$, which is a measure of the airfoil's ability to generate lift. The lift force is given by:
 
 
-
 $$
 
 F_L = \frac{1}{2}C_L\rho u^2 A
 
 $$
-
 
 
 where $A$ is the cross-sectional area of the airfoil.
@@ -10582,13 +10089,11 @@ The working principle of a flow meter depends on the type of flow meter being us
 Differential pressure flow meters, as mentioned earlier, work on the principle of Bernoulli's equation. By measuring the pressure difference between two points in the flow path, the flow rate can be calculated using the equation:
 
 
-
 $$
 
 \Delta P = \frac{1}{2}\rho v^2
 
 $$
-
 
 
 where $\Delta P$ is the pressure difference, $\rho$ is the density of the fluid, and $v$ is the velocity of the fluid.
@@ -11338,7 +10843,6 @@ The Finite Difference Method (FDM) is one of the most commonly used numerical me
 The FDM is based on the Taylor series expansion, which approximates a function using its derivatives at a given point. For a function f(x) and a small step size h, the first derivative can be approximated as:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
@@ -11346,9 +10850,7 @@ f'(x) \approx \frac{f(x+h) - f(x)}{h}
 $$
 
 
-
 Similarly, the second derivative can be approximated as:
-
 
 
 $$
@@ -11356,7 +10858,6 @@ $$
 f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}
 
 $$
-
 
 
 By applying these approximations to the governing equations of fluid flow, we can obtain a set of algebraic equations that can be solved using numerical techniques. The accuracy of the FDM depends on the grid resolution, with smaller grid sizes resulting in more accurate solutions.
@@ -11396,7 +10897,6 @@ The Finite Difference Method (FDM) is one of the most commonly used numerical me
 The FDM is based on the Taylor series expansion, which approximates a function using its derivatives at a given point. For a function f(x) and a small step size h, the first derivative can be approximated as:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
@@ -11404,9 +10904,7 @@ f'(x) \approx \frac{f(x+h) - f(x)}{h}
 $$
 
 
-
 Similarly, the second derivative can be approximated as:
-
 
 
 $$
@@ -11414,7 +10912,6 @@ $$
 f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}
 
 $$
-
 
 
 By applying these approximations to the governing equations of fluid flow, we can obtain a set of algebraic equations that can be solved using numerical techniques. The accuracy of the FDM depends on the grid resolution, with smaller grid sizes resulting in more accurate solutions.
@@ -11470,7 +10967,6 @@ The Finite Difference Method (FDM) is one of the most commonly used numerical me
 The FDM is based on the Taylor series expansion, which approximates a function using its derivatives at a given point. For a function $f(x)$ and a small step size $h$, the first derivative can be approximated as:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
@@ -11478,9 +10974,7 @@ f'(x) \approx \frac{f(x+h) - f(x)}{h}
 $$
 
 
-
 Similarly, the second derivative can be approximated as:
-
 
 
 $$
@@ -11488,7 +10982,6 @@ $$
 f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}
 
 $$
-
 
 
 By applying these approximations to the governing equations of fluid flow, we can obtain a set of algebraic equations that can be solved using numerical techniques. The accuracy of the FDM depends on the grid resolution, with smaller grid sizes resulting in more accurate solutions.
@@ -12588,13 +12081,11 @@ Conduction is one of the three main mechanisms of heat transfer, along with conv
 The rate of heat conduction is governed by Fourier's law, which states that the heat flux (amount of heat transferred per unit time and area) is proportional to the temperature gradient (change in temperature over a distance) and the thermal conductivity of the material. This can be expressed mathematically as:
 
 
-
 $$
 
 q = -k \frac{\partial T}{\partial x}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -12630,13 +12121,11 @@ Conduction is one of the three main mechanisms of heat transfer, along with conv
 The rate of heat conduction is governed by Fourier's law, which states that the heat flux (amount of heat transferred per unit time and area) is proportional to the temperature gradient (change in temperature over a distance) and the thermal conductivity of the material. This can be expressed mathematically as:
 
 
-
 $$
 
 q = -k \frac{\partial T}{\partial x}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -12670,13 +12159,11 @@ Fourier's law of conduction is a fundamental equation in the study of heat trans
 The equation for Fourier's law can be written as:
 
 
-
 $$
 
 q = -k \frac{\partial T}{\partial x}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, and $\frac{\partial T}{\partial x}$ is the temperature gradient. This equation states that the heat flux is directly proportional to the temperature gradient and the thermal conductivity of the material. In other words, the greater the temperature difference between two points in a material, the higher the heat flux will be.
@@ -12708,13 +12195,11 @@ Conduction is one of the three main mechanisms of heat transfer, along with conv
 The rate of heat conduction is governed by Fourier's law, which states that the heat flux (amount of heat transferred per unit time and area) is proportional to the temperature gradient (change in temperature over a distance) and the thermal conductivity of the material. This can be expressed mathematically as:
 
 
-
 $$
 
 q = -k \frac{\partial T}{\partial x}
 
 $$
-
 
 
 where $q$ is the heat flux, $k$ is the thermal conductivity, and $\frac{\partial T}{\partial x}$ is the temperature gradient.
@@ -12744,13 +12229,11 @@ Conduction can be defined as the transfer of heat through a material without any
 Fourier's law of conduction is a fundamental equation in the study of heat transfer. It states that the heat flux, $q$, is proportional to the temperature gradient, $\frac{\partial T}{\partial x}$, and the thermal conductivity, $k$, of the material. This can be expressed mathematically as:
 
 
-
 $$
 
 q = -k \frac{\partial T}{\partial x}
 
 $$
-
 
 
 This equation is named after French mathematician and physicist Jean-Baptiste Joseph Fourier, who first proposed it in the early 19th century. It is a fundamental law in the field of heat transfer and is used to analyze and predict the rate of heat transfer through a material.
@@ -12790,13 +12273,11 @@ Convection is the second mechanism of heat transfer, and it involves the transfe
 The rate of heat transfer through convection is governed by Newton's law of cooling, which states that the heat flux is proportional to the temperature difference between the fluid and its surroundings. This can be expressed mathematically as:
 
 
-
 $$
 
 q = h (T_{fluid} - T_{surroundings})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{fluid}$ is the temperature of the fluid, and $T_{surroundings}$ is the temperature of the surroundings.
@@ -12840,13 +12321,11 @@ Convection is the second mechanism of heat transfer, and it involves the transfe
 The rate of heat transfer through convection is governed by Newton's law of cooling, which states that the heat flux is proportional to the temperature difference between the fluid and its surroundings. This can be expressed mathematically as:
 
 
-
 $$
 
 q = h (T_{fluid} - T_{surroundings})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{fluid}$ is the temperature of the fluid, and $T_{surroundings}$ is the temperature of the surroundings.
@@ -12876,13 +12355,11 @@ Convection can be defined as the transfer of heat through the movement of a flui
 Newton's law of cooling is an important equation in the study of heat transfer in fluids. It states that the rate of heat transfer through convection is directly proportional to the temperature difference between the fluid and its surroundings. This can be expressed mathematically as:
 
 
-
 $$
 
 q = h (T_{fluid} - T_{surroundings})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{fluid}$ is the temperature of the fluid, and $T_{surroundings}$ is the temperature of the surroundings.
@@ -12914,13 +12391,11 @@ Convection is the second mechanism of heat transfer, and it involves the transfe
 The rate of heat transfer through convection is governed by Newton's law of cooling, which states that the heat flux is proportional to the temperature difference between the fluid and its surroundings. This can be expressed mathematically as:
 
 
-
 $$
 
 q = h (T_{fluid} - T_{surroundings})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{fluid}$ is the temperature of the fluid, and $T_{surroundings}$ is the temperature of the surroundings.
@@ -12950,13 +12425,11 @@ Convection can be defined as the transfer of heat through the movement of a flui
 Newton's law of cooling is a fundamental principle in the study of heat transfer through convection. It states that the rate of heat transfer between a fluid and its surroundings is directly proportional to the temperature difference between them. This can be expressed mathematically as:
 
 
-
 $$
 
 q = h (T_{fluid} - T_{surroundings})
 
 $$
-
 
 
 where $q$ is the heat flux, $h$ is the convective heat transfer coefficient, $T_{fluid}$ is the temperature of the fluid, and $T_{surroundings}$ is the temperature of the surroundings.
@@ -12992,13 +12465,11 @@ Radiation is the third and final mechanism of heat transfer, and it involves the
 The rate of heat transfer through radiation is governed by the Stefan-Boltzmann law, which states that the heat flux is proportional to the fourth power of the temperature difference between the two objects. This can be expressed mathematically as:
 
 
-
 $$
 
 q = \sigma (T_{object 1}^4 - T_{object 2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, and $T_{object 1}$ and $T_{object 2}$ are the temperatures of the two objects.
@@ -13028,13 +12499,11 @@ Radiation can be defined as the transfer of heat through electromagnetic waves. 
 The Stefan-Boltzmann law states that the heat flux through radiation is proportional to the fourth power of the temperature difference between two objects. It is expressed mathematically as:
 
 
-
 $$
 
 q = \sigma (T_{object 1}^4 - T_{object 2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, and $T_{object 1}$ and $T_{object 2}$ are the temperatures of the two objects. This law is fundamental in understanding the transfer of heat through radiation.
@@ -13054,13 +12523,11 @@ Radiation is the third and final mechanism of heat transfer, and it involves the
 The rate of heat transfer through radiation is governed by the Stefan-Boltzmann law, which states that the heat flux is proportional to the fourth power of the temperature difference between the two objects. This can be expressed mathematically as:
 
 
-
 $$
 
 q = \sigma (T_{object 1}^4 - T_{object 2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, and $T_{object 1}$ and $T_{object 2}$ are the temperatures of the two objects.
@@ -13090,13 +12557,11 @@ Radiation can be defined as the transfer of heat through electromagnetic waves. 
 The Stefan-Boltzmann law states that the heat flux through radiation is proportional to the fourth power of the temperature difference between two objects. It is expressed mathematically as:
 
 
-
 $$
 
 q = \sigma (T_{object 1}^4 - T_{object 2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, and $T_{object 1}$ and $T_{object 2}$ are the temperatures of the two objects. This law is fundamental in understanding the transfer of heat through radiation and is often used in engineering and physics calculations.
@@ -13124,13 +12589,11 @@ Radiation is the third and final mechanism of heat transfer, and it involves the
 The rate of heat transfer through radiation is governed by the Stefan-Boltzmann law, which states that the heat flux is proportional to the fourth power of the temperature difference between the two objects. This can be expressed mathematically as:
 
 
-
 $$
 
 q = \sigma (T_{object 1}^4 - T_{object 2}^4)
 
 $$
-
 
 
 where $q$ is the heat flux, $\sigma$ is the Stefan-Boltzmann constant, and $T_{object 1}$ and $T_{object 2}$ are the temperatures of the two objects.
@@ -13352,14 +12815,11 @@ Multiphase flow can be defined as the simultaneous flow of two or more phases of
 Mathematically, multiphase flow can be described using the following equations:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -13367,14 +12827,11 @@ $$
 
 $$
 
-
-
 $$
 
 \frac{\partial \rho E}{\partial t} + \nabla \cdot (\rho E \mathbf{u}) = -\nabla \cdot \mathbf{q} + \rho \mathbf{u} \cdot \mathbf{g} + \dot{q}
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity, $p$ is the pressure, $\mathbf{\tau}$ is the stress tensor, $\mathbf{g}$ is the gravitational acceleration, $E$ is the total energy, $\mathbf{q}$ is the heat flux, and $\dot{q}$ is the heat source/sink term.
@@ -14022,13 +13479,11 @@ In this section, we will delve deeper into the governing equations and principle
 The continuity equation is a fundamental equation in fluid dynamics that describes the conservation of mass for a single phase. In multiphase flow, this equation is modified to account for the presence of multiple phases. The general form of the continuity equation for a two-phase flow is given by:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \textbf{u}) = S
 
 $$
-
 
 
 where $\rho$ is the density of the mixture, $\textbf{u}$ is the velocity vector, and $S$ is the source term. This equation states that the change in density over time is equal to the divergence of the mass flux, which is the product of density and velocity.
@@ -14042,13 +13497,11 @@ where $\rho$ is the density of the mixture, $\textbf{u}$ is the velocity vector,
 Similar to the continuity equation, the momentum equation is also modified for multiphase flow. The general form of the momentum equation for a two-phase flow is given by:
 
 
-
 $$
 
 \frac{\partial (\rho \textbf{u})}{\partial t} + \nabla \cdot (\rho \textbf{u} \textbf{u}) = -\nabla p + \nabla \cdot \tau + \rho \textbf{g} + \textbf{F}
 
 $$
-
 
 
 where $p$ is the pressure, $\tau$ is the stress tensor, $\textbf{g}$ is the gravitational acceleration, and $\textbf{F}$ is the external force vector. This equation states that the change in momentum over time is equal to the sum of the pressure gradient, viscous forces, gravitational forces, and external forces.
@@ -14062,13 +13515,11 @@ where $p$ is the pressure, $\tau$ is the stress tensor, $\textbf{g}$ is the grav
 The energy equation for multiphase flow takes into account the energy transfer between the different phases. The general form of the energy equation for a two-phase flow is given by:
 
 
-
 $$
 
 \frac{\partial (\rho E)}{\partial t} + \nabla \cdot (\rho \textbf{u} E) = -\nabla \cdot \textbf{q} + \rho \textbf{u} \cdot \textbf{g} + \dot{q} + \textbf{F} \cdot \textbf{u}
 
 $$
-
 
 
 where $E$ is the total energy, $\textbf{q}$ is the heat flux vector, $\dot{q}$ is the heat source term, and $\textbf{F}$ is the external force vector. This equation states that the change in total energy over time is equal to the sum of the energy flux, gravitational energy, heat source, and work done by external forces.
@@ -14680,13 +14131,11 @@ To better understand the complex flow behavior of non-Newtonian fluids, various 
 One of the most commonly used models is the power-law model, which assumes a power-law relationship between shear stress and shear rate. This model is often used to describe shear-thinning fluids, where the viscosity decreases with increasing shear rate. The power-law model is given by the following equation:
 
 
-
 $$
 
 \tau = K \dot{\gamma}^n
 
 $$
-
 
 
 where $\tau$ is the shear stress, $\dot{\gamma}$ is the shear rate, $K$ is the consistency index, and $n$ is the flow behavior index.
@@ -14696,13 +14145,11 @@ where $\tau$ is the shear stress, $\dot{\gamma}$ is the shear rate, $K$ is the c
 Another commonly used model is the Bingham plastic model, which describes fluids that exhibit a yield stress. This model assumes that the fluid behaves as a solid until a certain yield stress is reached, after which it behaves as a Newtonian fluid. The Bingham plastic model is given by the following equation:
 
 
-
 $$
 
 \tau = \tau_y + \mu \dot{\gamma}
 
 $$
-
 
 
 where $\tau$ is the shear stress, $\tau_y$ is the yield stress, $\mu$ is the plastic viscosity, and $\dot{\gamma}$ is the shear rate.
@@ -15474,7 +14921,6 @@ One of the key principles of microfluidics is laminar flow. In microfluidic devi
 Laminar flow in microchannels is characterized by the presence of well-defined streamlines, with minimal mixing between fluid layers. This is in contrast to turbulent flow, where the fluid particles mix and swirl chaotically. The transition from laminar to turbulent flow is determined by the Reynolds number, which is given by the equation:
 
 
-
 $$
 
 Re = \frac{\rho u L}{\mu}
@@ -15482,13 +14928,11 @@ Re = \frac{\rho u L}{\mu}
 $$
 
 
-
 where $\rho$ is the fluid density, $u$ is the fluid velocity, $L$ is the characteristic length scale, and $\mu$ is the fluid viscosity. In microchannels, the low Reynolds number results in a laminar flow regime, which is desirable for many microfluidic applications.
 
 
 
 Laminar flow in microchannels also follows the Hagen-Poiseuille equation, which describes the pressure drop along a straight, cylindrical channel:
-
 
 
 $$

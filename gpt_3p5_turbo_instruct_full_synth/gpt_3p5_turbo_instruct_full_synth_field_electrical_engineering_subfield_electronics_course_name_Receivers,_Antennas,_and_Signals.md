@@ -2721,9 +2721,7 @@ One of the main factors that contribute to thermal noise is the temperature of t
 
 
 $$
-
 N_0 = k_B T \Delta f
-
 $$
 
 
@@ -2839,9 +2837,7 @@ The power spectrum of thermal noise is given by the equation:
 
 
 $$
-
 N_0 = 4kT\Delta f
-
 $$
 
 
@@ -2893,9 +2889,7 @@ As mentioned before, thermal noise is a type of noise that is present in all ele
 
 
 $$
-
 N_0 = 4kT\Delta f
-
 $$
 
 
@@ -2993,9 +2987,7 @@ Noise figure (NF) is a measure of the degradation of the signal-to-noise ratio (
 
 
 $$
-
 NF = \frac{SNR_{in}}{SNR_{out}}
-
 $$
 
 
@@ -3021,9 +3013,7 @@ Noise temperature (Tn) is another parameter used to quantify the effects of ther
 
 
 $$
-
 T_n = \frac{P_n}{k_B \Delta f}
-
 $$
 
 
@@ -3041,9 +3031,7 @@ Noise temperature is often used in conjunction with noise figure to characterize
 
 
 $$
-
 NF = 1 + \frac{T_n}{T_0}
-
 $$
 
 
@@ -3083,9 +3071,7 @@ As mentioned in the previous section, noise figure is defined as the ratio of th
 
 
 $$
-
 NF = \frac{SNR_{in}}{SNR_{out}}
-
 $$
 
 
@@ -3107,9 +3093,7 @@ Noise figure and noise temperature are closely related, as they both quantify th
 
 
 $$
-
 NF = 1 + \frac{T_n}{T_0}
-
 $$
 
 
@@ -3173,9 +3157,7 @@ As mentioned in the previous section, noise figure and noise temperature are clo
 
 
 $$
-
 T_n = (NF - 1)T_0
-
 $$
 
 
@@ -3271,9 +3253,7 @@ The relationship between noise figure and noise temperature can be expressed as:
 
 
 $$
-
 T_n = (NF - 1)T_0
-
 $$
 
 
@@ -3313,9 +3293,7 @@ The noise figure of an amplifier is a measure of how much the amplifier degrades
 
 
 $$
-
 \text{Noise Figure (NF)} = \frac{\text{Output Noise Power}}{\text{Input Noise Power}}
-
 $$
 
 
@@ -3333,9 +3311,7 @@ To calculate the noise figure of an amplifier, we need to measure the output noi
 
 
 $$
-
 \text{Input Noise Power} = kTB
-
 $$
 
 
@@ -3803,9 +3779,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{signal} + N_{floor}
-
 $$
 
 
@@ -4007,9 +3981,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{-\frac{SNR_{min}}{10}}
-
 $$
 
 
@@ -4043,9 +4015,7 @@ The signal-to-noise ratio is defined as the ratio of the signal power to the noi
 
 
 $$
-
 SNR = 10 \cdot \log_{10} \left(\frac{P_{signal}}{P_{noise}}\right)
-
 $$
 
 
@@ -4127,9 +4097,7 @@ Receiver sensitivity can be calculated using the following equation:
 
 
 $$
-
 S = P_{signal} \cdot G_{ant} \cdot G_{receiver} \cdot \frac{1}{kTB}
-
 $$
 
 
@@ -4235,9 +4203,7 @@ The sensitivity of a receiver can be calculated using the following formula:
 
 
 $$
-
 P_{min} = \frac{kTB}{SNR}
-
 $$
 
 
@@ -4295,9 +4261,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{\frac{-N}{10}}
-
 $$
 
 
@@ -4403,9 +4367,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{\frac{-N}{10}}
-
 $$
 
 
@@ -4511,9 +4473,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{\frac{-N}{10}}
-
 $$
 
 
@@ -4627,9 +4587,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{\frac{-N}{10}}
-
 $$
 
 
@@ -4711,9 +4669,7 @@ The minimum detectable signal power, denoted as $P_{min}$, is the smallest amoun
 
 
 $$
-
 P_{min} = P_{ref} \cdot 10^{\frac{-SNR_{min}}{10}}
-
 $$
 
 
@@ -4743,9 +4699,7 @@ The signal-to-noise ratio is a measure of the strength of the desired signal com
 
 
 $$
-
 SNR = 10 \cdot \log_{10} \left(\frac{P_{signal}}{P_{noise}}\right)
-
 $$
 
 
@@ -4799,9 +4753,7 @@ Receiver bandwidth refers to the range of frequencies that a receiver can detect
 
 
 $$
-
 B = f_{max} - f_{min}
-
 $$
 
 
@@ -5441,9 +5393,7 @@ Gain is defined as the ratio of output power to input power. In receivers, the i
 
 
 $$
-
 Gain = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -5457,9 +5407,7 @@ In receivers, gain is typically measured in decibels (dB) using the following fo
 
 
 $$
-
 Gain_{dB} = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right)
-
 $$
 
 
@@ -5533,9 +5481,7 @@ Gain is defined as the ratio of output power to input power. In receivers, the i
 
 
 $$
-
 Gain = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -5549,9 +5495,7 @@ In receivers, gain is typically measured in decibels (dB) using the following fo
 
 
 $$
-
 Gain_{dB} = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right)
-
 $$
 
 
@@ -5621,9 +5565,7 @@ Gain is defined as the ratio of output power to input power. In receivers, the i
 
 
 $$
-
 Gain = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -5637,9 +5579,7 @@ In receivers, gain is typically measured in decibels (dB) using the following fo
 
 
 $$
-
 Gain_{dB} = 10 \log_{10} \left(\frac{P_{out}}{P_{in}}\right)
-
 $$
 
 
@@ -5717,9 +5657,7 @@ Noise figure is defined as the ratio of the SNR at the input of the receiver to 
 
 
 $$
-
 Noise\ Figure = 10 \log_{10} \left(\frac{SNR_{in}}{SNR_{out}}\right)
-
 $$
 
 
@@ -5803,9 +5741,7 @@ Noise figure is defined as the ratio of the SNR at the input of the receiver to 
 
 
 $$
-
 Noise\ Figure = 10 \log_{10} \left(\frac{SNR_{in}}{SNR_{out}}\right)
-
 $$
 
 
@@ -5893,9 +5829,7 @@ Noise figure is defined as the ratio of the SNR at the input of the receiver to 
 
 
 $$
-
 Noise\ Figure = 10 \log_{10} \left(\frac{SNR_{in}}{SNR_{out}}\right)
-
 $$
 
 
@@ -5959,9 +5893,7 @@ The frequency response of a receiver is defined as the ratio of the output signa
 
 
 $$
-
 Frequency\ Response = 20 \log_{10} \left(\frac{V_{out}}{V_{in}}\right)
-
 $$
 
 
@@ -6021,9 +5953,7 @@ The frequency response of a receiver is defined as the ratio of the output signa
 
 
 $$
-
 Frequency\ Response = 20 \log_{10} \left(\frac{V_{out}}{V_{in}}\right)
-
 $$
 
 
@@ -6103,9 +6033,7 @@ The frequency response of a receiver is defined as the ratio of the output signa
 
 
 $$
-
 Frequency\ Response = 20 \log_{10} \left(\frac{V_{out}}{V_{in}}\right)
-
 $$
 
 
@@ -6623,9 +6551,7 @@ To calculate the noise figure of a multiport receiver, we first need to understa
 
 
 $$
-
 F = 10\log_{10}\left(\frac{P_{out,noise}}{P_{in,noise}}\right)
-
 $$
 
 
@@ -6639,9 +6565,7 @@ In a multiport receiver, the noise figure can be calculated by considering the n
 
 
 $$
-
 F_{12} = F_1 + \frac{F_2 - 1}{G_1}
-
 $$
 
 
@@ -6689,9 +6613,7 @@ To calculate the noise figure of a multiport receiver, we first need to understa
 
 
 $$
-
 F = 10\log_{10}\left(\frac{P_{out,noise}}{P_{in,noise}}\right)
-
 $$
 
 
@@ -6705,9 +6627,7 @@ In a multiport receiver, the noise figure can be calculated by considering the n
 
 
 $$
-
 F_{12} = F_1 + \frac{F_2 - 1}{G_1}
-
 $$
 
 
@@ -6771,9 +6691,7 @@ To calculate the noise figure of a multiport receiver, we first need to understa
 
 
 $$
-
 F = 10\log_{10}\left(\frac{P_{out,noise}}{P_{in,noise}}\right)
-
 $$
 
 
@@ -6787,9 +6705,7 @@ In a multiport receiver, the noise figure can be calculated by considering the n
 
 
 $$
-
 F_{12} = F_1 + \frac{F_2 - 1}{G_1}
-
 $$
 
 
@@ -6873,9 +6789,7 @@ Phase noise is typically expressed in units of dBc/Hz, which stands for decibels
 
 
 $$
-
 L(f) = 10\log_{10}\left(\frac{P(f)}{P_{carrier}}\right)
-
 $$
 
 
@@ -6923,9 +6837,7 @@ Phase noise is typically expressed in units of dBc/Hz, which stands for decibels
 
 
 $$
-
 L(f) = 10\log_{10}\left(\frac{P(f)}{P_{carrier}}\right)
-
 $$
 
 
@@ -6997,9 +6909,7 @@ Phase noise is typically expressed in units of dBc/Hz, which stands for decibels
 
 
 $$
-
 L(f) = 10\log_{10}\left(\frac{P(f)}{P_{carrier}}\right)
-
 $$
 
 
@@ -8685,9 +8595,7 @@ Antenna gain is a measure of the ability of an antenna to direct or concentrate 
 
 
 $$
-
 G = \frac{P_{rad, max}}{P_{rad, total}}
-
 $$
 
 
@@ -9209,9 +9117,7 @@ As mentioned earlier, the resonant length of a dipole antenna is equal to half t
 
 
 $$
-
 L = \frac{\lambda}{2}
-
 $$
 
 
@@ -9513,9 +9419,7 @@ In order to design and analyze loop antennas, it is important to understand thei
 
 
 $$
-
 f_0 = \frac{c}{2\pi\sqrt{LC}}
-
 $$
 
 
@@ -9711,9 +9615,7 @@ In order to understand the impact of impedance matching on antenna performance, 
 
 
 $$
-
 \Gamma = \frac{P_{reflected}}{P_{incident}}
-
 $$
 
 
@@ -11227,7 +11129,6 @@ The type of polarization of an electromagnetic wave is determined by the orienta
 
 
 $$
-
 \vec{E} = \begin{bmatrix}
 
 E_x \\
@@ -11235,7 +11136,6 @@ E_x \\
 E_y
 
 \end{bmatrix}
-
 $$
 
 
@@ -12313,9 +12213,7 @@ Mathematically, the channel capacity can be expressed as:
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -12387,9 +12285,7 @@ Mathematically, the channel capacity can be expressed as:
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -12453,9 +12349,7 @@ Mathematically, the channel capacity can be expressed as:
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -13591,9 +13485,7 @@ To better understand the behavior of frequency modulation, we can analyze the mo
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t + \Delta \phi(t))
-
 $$
 
 
@@ -13603,9 +13495,7 @@ where $A_c$ is the amplitude of the carrier signal and $\Delta \phi(t)$ is the p
 
 
 $$
-
 \Delta \phi(t) = 2\pi k_f \int_{0}^{t} m(\tau) d\tau
-
 $$
 
 
@@ -14783,9 +14673,7 @@ To analyze free space propagation, we will start with the wave equation, which d
 
 
 $$
-
 \nabla^2 \vec{E} - \mu_0 \epsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2} = 0
-
 $$
 
 
@@ -14807,9 +14695,7 @@ Using the plane wave model, we can derive the wave equation in terms of the wave
 
 
 $$
-
 \vec{E}(x,y,z,t) = \vec{E}_0 e^{j(\omega t - kx)}
-
 $$
 
 
@@ -14989,17 +14875,13 @@ To better understand the behavior of waves at boundaries, we can analyze the equ
 
 
 $$
-
 r_{s} = \frac{n_1 \cos{\theta_i} - n_2 \cos{\theta_t}}{n_1 \cos{\theta_i} + n_2 \cos{\theta_t}}
-
 $$
 
 
 
 $$
-
 r_{p} = \frac{n_2 \cos{\theta_i} - n_1 \cos{\theta_t}}{n_2 \cos{\theta_i} + n_1 \cos{\theta_t}}
-
 $$
 
 
@@ -15013,9 +14895,7 @@ For refraction, we can use Snell's law, which relates the angles of incidence an
 
 
 $$
-
 n_1 \sin{\theta_i} = n_2 \sin{\theta_t}
-
 $$
 
 
@@ -15069,13 +14949,10 @@ As shown in the diagram, the incident wave (labeled as "i") hits the boundary at
 $$\theta_i = \theta_r$$
 
 
-
 Similarly, when a wave passes through a boundary and enters a new medium, it is refracted (labeled as "t") at an angle of refraction (θt). The angle of refraction is related to the angle of incidence and the refractive indices of the two media by the law of refraction, also known as Snell's law:
 
 
-
 $$n_1\sin\theta_i = n_2\sin\theta_t$$
-
 
 
 where n1 and n2 are the refractive indices of the first and second media, respectively.
@@ -15189,13 +15066,11 @@ In this subsection, we will delve deeper into the principles of diffraction and 
 The mathematical equation that describes diffraction is known as the diffraction integral, which takes into account the size and shape of the object, as well as the wavelength of the wave. It can be written as:
 
 
-
 $$
 
 U(P) = \frac{e^{ikr}}{r} \int_{S} U(Q) \frac{e^{ikr'}}{r'} \cos \theta dS
 
 $$
-
 
 
 where $U(P)$ is the amplitude of the wave at point P, $U(Q)$ is the amplitude of the wave at point Q on the object, $r$ is the distance from point Q to point P, $r'$ is the distance from point Q to the point on the object being considered, and $\theta$ is the angle between the normal to the object and the line connecting points P and Q.
@@ -15205,13 +15080,11 @@ where $U(P)$ is the amplitude of the wave at point P, $U(Q)$ is the amplitude of
 Similarly, scattering can also be described using mathematical equations. The amount of scattering that occurs depends on the size and shape of the object, as well as the wavelength of the wave. The most commonly used equation to describe scattering is the Rayleigh scattering equation, which is given by:
 
 
-
 $$
 
 I = I_0 \left(\frac{2\pi}{\lambda}\right)^4 \left(\frac{n^2-1}{n^2+2}\right)^2 \frac{V^2}{r^2}
 
 $$
-
 
 
 where $I$ is the intensity of the scattered wave, $I_0$ is the intensity of the incident wave, $\lambda$ is the wavelength of the wave, $n$ is the refractive index of the medium, $V$ is the volume of the scattering object, and $r$ is the distance from the object to the observer.
@@ -15263,13 +15136,11 @@ In this subsection, we will delve deeper into the principles of diffraction and 
 For diffraction, the amount of bending that occurs can be calculated using the Huygens-Fresnel principle, which states that every point on a wavefront can be considered as a source of secondary spherical waves. These secondary waves interfere with each other to create the overall diffraction pattern. The mathematical expression for this principle is given by:
 
 
-
 $$
 
 A(x,y) = \frac{1}{i\lambda}\int_{S}A(x',y')\frac{e^{ikr}}{r}dS
 
 $$
-
 
 
 where $A(x,y)$ is the amplitude of the wave at point $(x,y)$, $\lambda$ is the wavelength of the wave, $S$ is the source of the wave, $r$ is the distance between the source and the point of observation, and $k$ is the wave number.
@@ -15279,13 +15150,11 @@ where $A(x,y)$ is the amplitude of the wave at point $(x,y)$, $\lambda$ is the w
 For scattering, the amount of scattering that occurs can be calculated using the Rayleigh scattering formula, which states that the intensity of scattered light is inversely proportional to the fourth power of the wavelength. The mathematical expression for this formula is given by:
 
 
-
 $$
 
 I = I_0\left(\frac{\lambda_0}{\lambda}\right)^4
 
 $$
-
 
 
 where $I$ is the intensity of the scattered light, $I_0$ is the intensity of the incident light, $\lambda_0$ is the wavelength of the incident light, and $\lambda$ is the wavelength of the scattered light.
@@ -16177,13 +16046,11 @@ Next, we will delve into the two main types of estimation: linear and non-linear
 We will discuss the advantages and limitations of each approach and provide examples of their applications in receivers, antennas, and signals. Linear estimation is based on the assumption that the signal can be represented by a linear combination of its parameters. This means that the signal can be expressed as:
 
 
-
 $$
 
 y(n) = \sum_{j=1}^{N} a_j x_j(n) + w(n)
 
 $$
-
 
 
 where $y(n)$ is the received signal, $a_j$ are the unknown parameters, $x_j(n)$ are the known signals, and $w(n)$ is the noise. The goal of linear estimation is to estimate the unknown parameters $a_j$ based on the received signal $y(n)$.
@@ -18271,13 +18138,11 @@ Analyzing the performance of an advanced antenna array involves several key para
 The array factor is a measure of the overall radiation pattern of an antenna array. It takes into account the individual element patterns, spacing, and excitation coefficients. The array factor is typically represented as a function of the angle of radiation, θ, and the wavelength, λ. It is given by the following equation:
 
 
-
 $$
 
 AF(\theta, \lambda) = \sum_{n=1}^{N} a_n e^{-j2\pi d\sin\theta/\lambda}
 
 $$
-
 
 
 where N is the number of elements in the array, a_n is the excitation coefficient of the nth element, d is the spacing between elements, and θ is the angle of radiation.
@@ -18443,7 +18308,6 @@ In the previous section, we discussed the concept of advanced antenna gain and r
 #### Measurement of Advanced Antenna Gain
 
 The gain of an antenna is typically measured in decibels (dB) and is defined as the ratio of the power radiated in a specific direction to the power that would be radiated by a hypothetical isotropic antenna (an antenna that radiates equally in all directions) with the same input power. Mathematically, it can be expressed as:
-
 
 
 $$

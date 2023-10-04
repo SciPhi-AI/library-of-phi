@@ -1033,7 +1033,6 @@ To assist in the computation of linear transformations, we can use basis matrice
 
 
 $$
-
 \begin{bmatrix}
 
 1 - 2q_j^2 - 2q_k^2 & 2(q_iq_j - q_kq_r) & 2(q_iq_k + q_jq_r) \\
@@ -1043,7 +1042,6 @@ $$
 2(q_iq_k - q_jq_r) & 2(q_jq_k + q_iq_r) & 1 - 2q_i^2 - 2q_j^2
 
 \end{bmatrix}
-
 $$
 
 
@@ -1053,7 +1051,6 @@ Alternatively, we can use the angle-axis representation to compute the basis mat
 
 
 $$
-
 \begin{bmatrix}
 
 \cos\theta + x_x & x_y + w_z & w_y + x_z \\
@@ -1063,7 +1060,6 @@ $$
 xz(1 - \cos\theta) - y\sin\theta & x\sin\theta + yz(1 - \cos\theta) & \cos\theta + z^2(1 - \cos\theta)
 
 \end{bmatrix}
-
 $$
 
 
@@ -1073,9 +1069,7 @@ In chemical engineering, we often need to rotate vectors around a rotation vecto
 
 
 $$
-
 v = (X, Y, Z) \rightarrow v' = (X', Y', Z') = \cos\theta v + \sin\theta(Q \times v) + (1 - \cos\theta)(Q \cdot v)Q
-
 $$
 
 
@@ -1093,9 +1087,7 @@ In chemical engineering, systems of linear equations are commonly used to model 
 
 
 $$
-
 Ax = b
-
 $$
 
 
@@ -1167,7 +1159,6 @@ Matrix addition and subtraction are performed by adding or subtracting correspon
 
 
 $$
-
 A + B = \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1199,7 +1190,6 @@ a_{21} + b_{21} & a_{22} + b_{22} & \dots & a_{2n} + b_{2n} \\
 a_{m1} + b_{m1} & a_{m2} + b_{m2} & \dots & a_{mn} + b_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1217,7 +1207,6 @@ Scalar multiplication is performed by multiplying each element of a matrix by a 
 
 
 $$
-
 cA = c \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1239,7 +1228,6 @@ ca_{21} & ca_{22} & \dots & ca_{2n} \\
 ca_{m1} & ca_{m2} & \dots & ca_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1253,7 +1241,6 @@ Matrix multiplication is a bit more complex than addition and scalar multiplicat
 
 
 $$
-
 AB = \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1285,7 +1272,6 @@ a_{21}b_{11} + a_{22}b_{21} + \dots + a_{2n}b_{n1} & a_{21}b_{12} + a_{22}b_{22}
 a_{m1}b_{11} + a_{m2}b_{21} + \dots + a_{mn}b_{n1} & a_{m1}b_{12} + a_{m2}b_{22} + \dots + a_{mn}b_{n2} & \dots & a_{m1}b_{1p} + a_{m2}b_{2p} + \dots + a_{mn}b_{np}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1299,7 +1285,6 @@ The transpose of a matrix is obtained by interchanging its rows and columns. It 
 
 
 $$
-
 A^T = \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1321,7 +1306,6 @@ a_{12} & a_{22} & \dots & a_{m2} \\
 a_{1n} & a_{2n} & \dots & a_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1335,7 +1319,6 @@ The inverse of a square matrix A is denoted by A<sup>-1</sup> and is defined as 
 
 
 $$
-
 A^{-1} = \frac{1}{|A|} \begin{bmatrix}
 
 C_{11} & C_{12} & \dots & C_{1n} \\
@@ -1347,7 +1330,6 @@ C_{21} & C_{22} & \dots & C_{2n} \\
 C_{n1} & C_{n2} & \dots & C_{nn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1407,7 +1389,6 @@ Matrix addition and subtraction are performed by adding or subtracting correspon
 
 
 $$
-
 A + B = \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1439,7 +1420,6 @@ a_{21} + b_{21} & a_{22} + b_{22} & \dots & a_{2n} + b_{2n} \\
 a_{m1} + b_{m1} & a_{m2} + b_{m2} & \dots & a_{mn} + b_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1457,7 +1437,6 @@ Scalar multiplication is the multiplication of a matrix by a scalar, which is a 
 
 
 $$
-
 cA = c \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1479,7 +1458,6 @@ ca_{21} & ca_{22} & \dots & ca_{2n} \\
 ca_{m1} & ca_{m2} & \dots & ca_{mn}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1497,7 +1475,6 @@ Given two matrices A and B, their product AB is calculated as:
 
 
 $$
-
 AB = \begin{bmatrix}
 
 a_{11} & a_{12} & \dots & a_{1n} \\
@@ -1529,7 +1506,6 @@ c_{21} & c_{22} & \dots & c_{2p} \\
 c_{m1} & c_{m2} & \dots & c_{mp}
 
 \end{bmatrix}
-
 $$
 
 
@@ -1539,9 +1515,7 @@ where each element c<sub>ij</sub> of the resulting matrix C is calculated as:
 
 
 $$
-
 c_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \dots + a_{in}b_{nj} = \sum_{k=1}^{n} a_{ik}b_{kj}
-
 $$
 
 
@@ -1637,7 +1611,6 @@ Consider the following matrix <math>A</math>:
 
 
 $$
-
 A = \begin{bmatrix}
 
 2 & 1 & 1 \\
@@ -1647,7 +1620,6 @@ A = \begin{bmatrix}
 8 & 7 & 9
 
 \end{bmatrix}
-
 $$
 
 
@@ -1657,7 +1629,6 @@ Using the procedure outlined above, we can obtain the LU factorization of <math>
 
 
 $$
-
 A = \begin{bmatrix}
 
 1 & 0 & 0 \\
@@ -1675,7 +1646,6 @@ A = \begin{bmatrix}
 0 & 0 & 2
 
 \end{bmatrix}
-
 $$
 
 
@@ -2309,9 +2279,7 @@ To apply the Newton-Raphson method, we start with an initial guess for the root,
 
 
 $$
-
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-
 $$
 
 
@@ -2375,9 +2343,7 @@ To apply the Newton-Raphson method, we start with an initial guess for the root,
 
 
 $$
-
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-
 $$
 
 
@@ -2399,9 +2365,7 @@ To apply the secant method, we start with two initial guesses for the root, deno
 
 
 $$
-
 x_{n+1} = x_n - \frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}
-
 $$
 
 
@@ -2423,9 +2387,7 @@ The Newton-Raphson method for systems of nonlinear equations is given by:
 
 
 $$
-
 \mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}(\mathbf{x}_n)^{-1} \mathbf{f}(\mathbf{x}_n)
-
 $$
 
 
@@ -2439,9 +2401,7 @@ Similarly, the secant method for systems of nonlinear equations is given by:
 
 
 $$
-
 \mathbf{x}_{n+1} = \mathbf{x}_n - \mathbf{J}(\mathbf{x}_n)^{-1} \mathbf{f}(\mathbf{x}_n) \left(\mathbf{x}_n - \mathbf{x}_{n-1}\right)
-
 $$
 
 
@@ -2481,9 +2441,7 @@ Fixed-point iteration is a method of computing fixed points of a function. Given
 
 
 $$
-
 x_{n+1} = f(x_n), \, n=0, 1, 2, \dots
-
 $$
 
 
@@ -2509,9 +2467,7 @@ To apply Newton's method, we start with an initial guess for the solution vector
 
 
 $$
-
 x_{n+1} = x_n - J(x_n)^{-1}F(x_n)
-
 $$
 
 
@@ -2571,9 +2527,7 @@ Fixed-point iteration is a method of computing fixed points of a function. Given
 
 
 $$
-
 x_{n+1} = f(x_n), \, n=0, 1, 2, \dots
-
 $$
 
 
@@ -2599,9 +2553,7 @@ The general form of Newton's method for systems is given by:
 
 
 $$
-
 \boldsymbol{\beta}^{(s+1)} = \boldsymbol{\beta}^{(s)} - \left(\mathbf{J_r}^\mathsf{T} \mathbf{J_r} \right)^{-1} \mathbf{J_r}^\mathsf{T} \mathbf{r}\left(\boldsymbol{\beta}^{(s)}\right)
-
 $$
 
 
@@ -2657,9 +2609,7 @@ Fixed-point iteration is a method of computing fixed points of a function. Given
 
 
 $$
-
 x_{n+1} = f(x_n), \, n=0, 1, 2, \dots
-
 $$
 
 
@@ -2721,9 +2671,7 @@ We take as given "xk", the position at the "k"-th iteration, and "gk = ∇f(xk)"
 
 
 $$
-
 s_i = x_{k-i+1} - x_{k-i}, \, y_i = g_{k-i+1} - g_{k-i}, \, i=1, 2, \dots, m
-
 $$
 
 
@@ -2737,9 +2685,7 @@ The algorithm is based on the BFGS recursion for the inverse Hessian as:
 
 
 $$
-
 H_{k+1} = (I - ρ_k y_k s_kT)H_k(I - ρ_k s_k y_kT) + ρ_k s_k s_kT
-
 $$
 
 
@@ -2779,15 +2725,11 @@ Overall, this chapter has provided a comprehensive overview of the theory, algor
 Consider the system of nonlinear equations:
 
 $$
-
 x^2 + y^2 = 10
-
 $$
 
 $$
-
 xy = 1
-
 $$
 
 Use the Newton-Raphson method to find the solutions to this system.
@@ -2799,15 +2741,11 @@ Use the Newton-Raphson method to find the solutions to this system.
 Solve the following system of nonlinear equations using the secant method:
 
 $$
-
 x^3 + y^3 = 10
-
 $$
 
 $$
-
 x^2 + y^2 = 5
-
 $$
 
 
@@ -2817,15 +2755,11 @@ $$
 A chemical reaction is described by the following system of nonlinear equations:
 
 $$
-
 x^2 + y^2 = 10
-
 $$
 
 $$
-
 xy = 1
-
 $$
 
 If the equilibrium composition is given by $x = 2$ and $y = 1$, use the fixed-point iteration method to determine the equilibrium constant $K$.
@@ -2837,15 +2771,11 @@ If the equilibrium composition is given by $x = 2$ and $y = 1$, use the fixed-po
 A chemical reactor operates under the following conditions:
 
 $$
-
 x^2 + y^2 = 10
-
 $$
 
 $$
-
 xy = 1
-
 $$
 
 If the inlet conditions are $x = 3$ and $y = 2$, determine the operating conditions at steady state using the Newton-Raphson method.
@@ -2857,15 +2787,11 @@ If the inlet conditions are $x = 3$ and $y = 2$, determine the operating conditi
 Consider the following system of nonlinear equations:
 
 $$
-
 x^2 + y^2 = 10
-
 $$
 
 $$
-
 xy = 1
-
 $$
 
 If the initial guesses are $x_0 = 1$ and $y_0 = 2$, determine the number of iterations required for the fixed-point iteration method to converge to a solution with an error less than $10^{-6}$.
@@ -3065,7 +2991,6 @@ To begin, let us consider a linear program with the following form:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -3101,7 +3026,6 @@ b_2 \\
 b_m
 
 \end{bmatrix}.
-
 $$
 
 
@@ -3135,7 +3059,6 @@ To illustrate the simplex method, let us consider the following linear program:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -3163,7 +3086,6 @@ $$
 15
 
 \end{bmatrix}.
-
 $$
 
 
@@ -3173,7 +3095,6 @@ We can represent the constraints in matrix form as:
 
 
 $$
-
 \boldsymbol{B} =
 
 \begin{bmatrix}
@@ -3193,7 +3114,6 @@ $$
 5 & 3 & 0 & 1
 
 \end{bmatrix}.
-
 $$
 
 
@@ -3203,7 +3123,6 @@ Initially, we have the feasible vertex:
 
 
 $$
-
 \boldsymbol{x} =
 
 \begin{bmatrix}
@@ -3227,7 +3146,6 @@ $$
 -2 & -3 & -4
 
 \end{bmatrix}^{\mathrm{T}}.
-
 $$
 
 
@@ -3241,7 +3159,6 @@ After the pivot operation, we have the following:
 
 
 $$
-
 \boldsymbol{B} =
 
 \begin{bmatrix}
@@ -3285,7 +3202,6 @@ $$
 2/3 & 4/3 & 11/3
 
 \end{bmatrix}^{\mathrm{T}}.
-
 $$
 
 
@@ -3295,7 +3211,6 @@ We can see that the reduced cost for $x_1$ is now positive, indicating that the 
 
 
 $$
-
 \boldsymbol{x} =
 
 \begin{bmatrix}
@@ -3305,7 +3220,6 @@ $$
 \end{bmatrix}^{\mathrm{T}}, \\
 
 z = -15.
-
 $$
 
 
@@ -3341,7 +3255,6 @@ To begin, let us consider a linear program with the following form:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -3377,7 +3290,6 @@ b_2 \\
 b_m
 
 \end{bmatrix}.
-
 $$
 
 
@@ -3409,7 +3321,6 @@ To illustrate the simplex method, let us consider the following linear program:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize } & z = 2x_1 + 3x_2 \\
@@ -3421,7 +3332,6 @@ $$
 & x_1, x_2 \geq 0
 
 \end{align*}
-
 $$
 
 
@@ -3431,7 +3341,6 @@ We can represent this problem in matrix form as:
 
 
 $$
-
 \boldsymbol{c} =
 
 \begin{bmatrix}
@@ -3459,7 +3368,6 @@ $$
 5
 
 \end{bmatrix}.
-
 $$
 
 
@@ -3527,7 +3435,6 @@ To understand how gradient-based methods work, let us consider a nonlinear progr
 
 
 $$
-
 \boldsymbol{f}(\boldsymbol{x}) =
 
 \begin{bmatrix}
@@ -3541,7 +3448,6 @@ f_2(\boldsymbol{x}) \\
 f_m(\boldsymbol{x})
 
 \end{bmatrix},
-
 $$
 
 
@@ -3603,7 +3509,6 @@ To understand how gradient-based methods work, let us consider a nonlinear progr
 
 
 $$
-
 \boldsymbol{f}(\boldsymbol{x}) =
 
 \begin{bmatrix}
@@ -3617,7 +3522,6 @@ f_2(\boldsymbol{x}) \\
 f_m(\boldsymbol{x})
 
 \end{bmatrix},
-
 $$
 
 
@@ -3677,9 +3581,7 @@ As we conclude this chapter, it is important to note that optimization is a cons
 Consider the following unconstrained optimization problem:
 
 $$
-
 \min_{x} f(x) = x^2 + 2x + 1
-
 $$
 
 Find the optimal solution using the gradient descent method.
@@ -3691,23 +3593,17 @@ Find the optimal solution using the gradient descent method.
 A chemical process has the following objective function:
 
 $$
-
 \min_{x,y} f(x,y) = 2x^2 + 3y^2 + 4xy
-
 $$
 
 Subject to the following constraints:
 
 $$
-
 x + y \leq 10
-
 $$
 
 $$
-
 x, y \geq 0
-
 $$
 
 Use the method of Lagrange multipliers to find the optimal solution.
@@ -3719,29 +3615,21 @@ Use the method of Lagrange multipliers to find the optimal solution.
 Solve the following linear programming problem using the simplex method:
 
 $$
-
 \max_{x,y} f(x,y) = 3x + 4y
-
 $$
 
 Subject to the following constraints:
 
 $$
-
 x + y \leq 10
-
 $$
 
 $$
-
 2x + y \leq 15
-
 $$
 
 $$
-
 x, y \geq 0
-
 $$
 
 
@@ -3751,23 +3639,17 @@ $$
 Consider the following nonlinear programming problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 Subject to the following constraints:
 
 $$
-
 x^2 + y^2 \leq 1
-
 $$
 
 $$
-
 x, y \geq 0
-
 $$
 
 Use the penalty function method to find the optimal solution.
@@ -3779,9 +3661,7 @@ Use the penalty function method to find the optimal solution.
 A chemical reactor has the following reaction rate equation:
 
 $$
-
 r = k_1C_A - k_2C_B^2
-
 $$
 
 where $C_A$ and $C_B$ are the concentrations of species A and B, respectively, and $k_1$ and $k_2$ are the rate constants. Find the optimal values of $k_1$ and $k_2$ that maximize the reactor's conversion using the method of steepest ascent.
@@ -3837,9 +3717,7 @@ The general form of an IVP for an ODE is given by:
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -3861,9 +3739,7 @@ The formula for Euler's method is given by:
 
 
 $$
-
 y_{n+1} = y_n + hf(x_n, y_n)
-
 $$
 
 
@@ -3903,9 +3779,7 @@ The general form of an IVP for an ODE is given by:
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -3927,9 +3801,7 @@ The most commonly used Runge-Kutta method is the fourth-order method, also known
 
 
 $$
-
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
-
 $$
 
 
@@ -3943,9 +3815,7 @@ Another popular Runge-Kutta method is the third-order Strong Stability Preservin
 
 
 $$
-
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 4k_2 + k_3)
-
 $$
 
 
@@ -3959,9 +3829,7 @@ Another notable Runge-Kutta method is Ralston's fourth-order method, which has m
 
 
 $$
-
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 3k_2 + 3k_3 + k_4)
-
 $$
 
 
@@ -3993,9 +3861,7 @@ The general form of an IVP for an ODE is given by:
 
 
 $$
-
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
-
 $$
 
 
@@ -4021,9 +3887,7 @@ The coefficients for the Adams–Moulton methods are given by:
 
 
 $$
-
 b_{s-j} = \frac{(-1)^j}{j!(s-j)!} \int_0^1 \prod_{i=0 \atop i\ne j}^{s} (u+i-1) \,\mathrm du, \qquad \text{for } j=0,\ldots,s.
-
 $$
 
 
@@ -4071,9 +3935,7 @@ To illustrate the trapezoidal rule, let's consider the following integral:
 
 
 $$
-
 \int_{0.1}^{1.3}{5xe^{-2x}dx}
-
 $$
 
 
@@ -4083,9 +3945,7 @@ We can approximate this integral using the composite trapezoidal rule formula:
 
 
 $$
-
 \int_a^b {f(x)dx} \approx \frac{b-a}{2n} \left[f(a) + 2\left\{\sum_{i=1}^{n-1}{f(a+ih)}\right\} + f(b)\right]
-
 $$
 
 
@@ -4099,7 +3959,6 @@ For our example, we have $n = 3$, $a = 0.1$, and $b = 1.3$, so $h = 0.4$. Pluggi
 
 
 $$
-
 \begin{align}
 
 \int_{0.1}^{1.3}{5xe^{-2x}dx} &\approx 0.2\left[f(0.1) + 2f(0.5) + 2f(0.9) + f(1.3)\right] \\
@@ -4111,7 +3970,6 @@ $$
 &= 1.8
 
 \end{align}
-
 $$
 
 
@@ -4129,9 +3987,7 @@ To understand why the trapezoidal rule works, let's consider the error of the me
 
 
 $$
-
 g_k(t) = \frac{1}{2}t[f(a_k) + f(a_k+t)] - \int_{a_k}^{a_k+t}f(x)dx
-
 $$
 
 
@@ -4141,9 +3997,7 @@ where $t$ is the width of the subinterval. We can rewrite this as:
 
 
 $$
-
 g_k(t) = \frac{1}{2}t[f(a_k) + f(a_k+t)] - \frac{t^2}{2}f'(\xi)
-
 $$
 
 
@@ -4153,9 +4007,7 @@ where $\xi$ is some point in the interval $[a_k, a_k+t]$. Using the Mean Value T
 
 
 $$
-
 g_k(t) = \frac{1}{2}t[f(a_k) + f(a_k+t)] - \frac{t}{2}[f(a_k+t) - f(a_k)]
-
 $$
 
 
@@ -4165,9 +4017,7 @@ Simplifying this, we get:
 
 
 $$
-
 g_k(t) = \frac{t^3}{12}f''(\xi)
-
 $$
 
 
@@ -4177,9 +4027,7 @@ where $f''(\xi)$ is the second derivative of $f$ evaluated at some point in the 
 
 
 $$
-
 -\frac{t^3}{12}f''(\xi) \leq g_k(t) \leq \frac{t^3}{12}f''(\xi)
-
 $$
 
 
@@ -4189,9 +4037,7 @@ Integrating both sides of this inequality from 0 to $t$, we get:
 
 
 $$
-
 -\frac{t^4}{48}f''(\xi) \leq \int_0^t g_k'(x)dx \leq \frac{t^4}{48}f''(\xi)
-
 $$
 
 
@@ -4201,9 +4047,7 @@ Using the Fundamental Theorem of Calculus, we can rewrite this as:
 
 
 $$
-
 -\frac{t^3}{12}f''(\xi) \leq g_k(t) \leq \frac{t^3}{12}f''(\xi)
-
 $$
 
 
@@ -4243,9 +4087,7 @@ To illustrate Simpson's rule, let's consider the same integral as in the previou
 
 
 $$
-
 \int_{0.1}^{1.3}{5xe^{-2x}dx}
-
 $$
 
 
@@ -4255,9 +4097,7 @@ We can approximate this integral using the composite Simpson's rule formula:
 
 
 $$
-
 \int_a^b {f(x)dx} \approx \frac{h}{3} \left[f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + ... + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n)\right]
-
 $$
 
 
@@ -4271,7 +4111,6 @@ For our example, we have $n = 3$, $a = 0.1$, and $b = 1.3$, so $h = 0.4$. Pluggi
 
 
 $$
-
 \begin{align}
 
 \int_{0.1}^{1.3}{5xe^{-2x}dx} &\approx \frac{0.4}{3}\left[f(0.1) + 4f(0.5) + 2f(0.9) + 4f(1.3)\right] \\
@@ -4283,7 +4122,6 @@ $$
 &= 1.8
 
 \end{align}
-
 $$
 
 
@@ -4301,9 +4139,7 @@ To understand why Simpson's rule works, let's consider the integral $\int_a^b {f
 
 
 $$
-
 P_i(x) = f(x_i) + f'(x_i)(x-x_i) + \frac{f''(x_i)}{2}(x-x_i)^2
-
 $$
 
 
@@ -4317,7 +4153,6 @@ We can then approximate the integral using the composite Simpson's rule formula:
 
 
 $$
-
 \begin{align}
 
 \int_a^b {f(x)dx} &\approx \sum_{i=0}^{n-1}{\int_{x_i}^{x_{i+1}}{P_i(x)dx}} \\
@@ -4327,7 +4162,6 @@ $$
 &= \frac{h}{3}\left[f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + ... + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n)\right]
 
 \end{align}
-
 $$
 
 
@@ -4349,9 +4183,7 @@ The idea behind this method is to subdivide the interval into smaller subinterva
 
 
 $$
-
 |S(a,m) + S(m,b) - S(a,b)| < 15\varepsilon
-
 $$
 
 
@@ -4411,9 +4243,7 @@ To illustrate Gaussian quadrature, let's consider the same integral as in the pr
 
 
 $$
-
 \int_{0.1}^{1.3}{5xe^{-2x}dx}
-
 $$
 
 
@@ -4423,9 +4253,7 @@ We can approximate this integral using the Gaussian quadrature formula:
 
 
 $$
-
 \int_a^b {f(x)dx} \approx \sum_{i=1}^{n} w_i f(x_i)
-
 $$
 
 
@@ -4439,7 +4267,6 @@ For our example, we will use $n = 2$, which means we need to find two points and
 
 
 $$
-
 \begin{align}
 
 \int_{0.1}^{1.3}{5xe^{-2x}dx} &\approx 0.6521452(5(0.3500212)e^{-2(0.3500212)}) + 0.3478548(5(1.0499788)e^{-2(1.0499788)}) \\
@@ -4447,7 +4274,6 @@ $$
 &= 1.7999999
 
 \end{align}
-
 $$
 
 
@@ -4659,7 +4485,6 @@ For example, consider the pendulum DAE from the related context. The variables a
 
 
 $$
-
 \Sigma = \begin{bmatrix}
 
 1 & 1 & 0 & 0 & 0 \\
@@ -4673,7 +4498,6 @@ $$
 0 & 0 & 0 & 0 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -4725,9 +4549,7 @@ Let us consider a DAE system of the form:
 
 
 $$
-
 F(t, y, \dot{y}) = 0
-
 $$
 
 
@@ -4737,9 +4559,7 @@ where $y$ is a vector of state variables and $\dot{y}$ is the vector of their ti
 
 
 $$
-
 F(t, y, \dot{y}) = G(t, z, \dot{z})
-
 $$
 
 
@@ -4823,9 +4643,7 @@ Let us consider a DAE system of the form:
 
 
 $$
-
 F(t, y, \dot{y}) = 0
-
 $$
 
 
@@ -4835,9 +4653,7 @@ where $y$ is a vector of state variables and $\dot{y}$ is the vector of their ti
 
 
 $$
-
 F(t, y, \dot{y}) = G(t, z, \dot{z})
-
 $$
 
 
@@ -4925,15 +4741,11 @@ As we conclude this chapter, it is important to note that DAEs are just one aspe
 Consider the following DAE:
 
 $$
-
 \frac{dy}{dt} = y^2 + z
-
 $$
 
 $$
-
 y + z = 1
-
 $$
 
 Use the implicit Euler method to solve this DAE with initial conditions $y(0) = 0$ and $z(0) = 1$. Plot the solutions for $y$ and $z$ over the interval $t \in [0, 5]$.
@@ -4951,15 +4763,11 @@ Discuss the advantages and disadvantages of using implicit and explicit methods 
 Consider the DAE:
 
 $$
-
 \frac{dy}{dt} = -y + z
-
 $$
 
 $$
-
 \frac{dz}{dt} = y - z
-
 $$
 
 Use the trapezoidal method to solve this DAE with initial conditions $y(0) = 1$ and $z(0) = 0$. Plot the solutions for $y$ and $z$ over the interval $t \in [0, 5]$.
@@ -5043,9 +4851,7 @@ To illustrate the shooting method, let's consider the following BVP:
 
 
 $$
-
 y''(x) + p(x)y'(x) + q(x)y(x) = r(x), \quad y(a) = \alpha, \quad y(b) = \beta
-
 $$
 
 
@@ -5055,9 +4861,7 @@ where $p(x)$, $q(x)$, and $r(x)$ are known functions, and $\alpha$ and $\beta$ a
 
 
 $$
-
 y''(x) + p(x)y'(x) + q(x)y(x) = r(x), \quad y(a) = \alpha, \quad y'(a) = y_0
-
 $$
 
 
@@ -5109,9 +4913,7 @@ To illustrate the shooting method, let's consider the following BVP:
 
 
 $$
-
 y''(x) + p(x)y'(x) + q(x)y(x) = r(x), \quad y(a) = \alpha, \quad y(b) = \beta
-
 $$
 
 
@@ -5121,9 +4923,7 @@ where $p(x)$, $q(x)$, and $r(x)$ are known functions, and $\alpha$ and $\beta$ a
 
 
 $$
-
 y''(x) + p(x)y'(x) + q(x)y(x) = r(x), \quad y(a) = \alpha, \quad y'(a) = y_0
-
 $$
 
 
@@ -5183,9 +4983,7 @@ To illustrate the shooting method, let's consider the following BVP:
 
 
 $$
-
 y''(x) + p(x)y'(x) + q(x)y(x) = r(x), \quad y(a) = \alpha, \quad y(b) = \beta
-
 $$
 
 
@@ -5241,9 +5039,7 @@ The results of sensitivity analysis can be expressed in terms of partial derivat
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{K}_{(k\ell)}}\left(\lambda_{0i} + \mathbf{x}^\top_{0i} \left (\delta \mathbf{K} - \lambda_{0i} \delta \mathbf{M} \right ) \mathbf{x}_{0i} \right) = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
@@ -5257,9 +5053,7 @@ Similarly, the partial derivative of an eigenvector with respect to an entry in 
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
@@ -5311,9 +5105,7 @@ The results of sensitivity analysis can be expressed in terms of partial derivat
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = \frac{\partial}{\partial \mathbf{K}_{(k\ell)}} \left(\frac{\partial \mathbf{A}}{\partial \mathbf{K}_{(k\ell)}} \right) \cdot \frac{\partial \mathbf{A}}{\partial \lambda_i}
-
 $$
 
 
@@ -5371,7 +5163,6 @@ In the Arnoldi iteration, one starts with a vector $\mathbf{r}_0$ and gradually 
 
 
 $$
-
 \mathbf{w}_i = \begin{cases}
 
 \mathbf{r}_0 & \text{if }i=1\text{,}\\
@@ -5379,7 +5170,6 @@ $$
 \mathbf{Av}_{i-1} & \text{if }i>1\text{.}\\
 
 \end{cases}
-
 $$
 
 
@@ -5393,9 +5183,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \mathbf{AV}_i = \mathbf{V}_{i+1}\mathbf{H}_i
-
 $$
 
 
@@ -5405,7 +5193,6 @@ where
 
 
 $$
-
 \mathbf{V}_i = \begin{bmatrix}
 
 \mathbf{v}_1 & \mathbf{v}_2 & \cdots & \mathbf{v}_i
@@ -5433,7 +5220,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 \lVert\mathbf{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -5469,9 +5255,7 @@ Overall, this chapter has provided a comprehensive overview of numerical methods
 Consider the boundary value problem:
 
 $$
-
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 1, \quad y(1) = 2
-
 $$
 
 Use the finite difference method to approximate the solution of this problem with a step size of $h = 0.1$. Compare the results with the exact solution $y(x) = e^{-x}$.
@@ -5483,9 +5267,7 @@ Use the finite difference method to approximate the solution of this problem wit
 Solve the following boundary value problem using the shooting method:
 
 $$
-
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 1, \quad y(1) = 2
-
 $$
 
 Use an initial guess of $y'(0) = 1$ and iterate until the boundary condition $y(1) = 2$ is satisfied.
@@ -5497,9 +5279,7 @@ Use an initial guess of $y'(0) = 1$ and iterate until the boundary condition $y(
 Consider the boundary value problem:
 
 $$
-
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 1, \quad y(1) = 2
-
 $$
 
 Use the finite element method to approximate the solution of this problem with a step size of $h = 0.1$. Compare the results with the exact solution $y(x) = e^{-x}$.
@@ -5511,9 +5291,7 @@ Use the finite element method to approximate the solution of this problem with a
 Solve the following boundary value problem using the finite element method:
 
 $$
-
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 1, \quad y(1) = 2
-
 $$
 
 Use a linear basis function and a step size of $h = 0.1$.
@@ -5525,9 +5303,7 @@ Use a linear basis function and a step size of $h = 0.1$.
 Consider the boundary value problem:
 
 $$
-
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 1, \quad y(1) = 2
-
 $$
 
 Use the finite difference method to approximate the solution of this problem with a step size of $h = 0.1$. Vary the step size and observe the effect on the accuracy of the results.
@@ -5671,9 +5447,7 @@ To illustrate the use of finite difference methods, let us consider the one-dime
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5683,9 +5457,7 @@ where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is 
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{\Delta x^2}
-
 $$
 
 
@@ -5737,9 +5509,7 @@ To illustrate the use of finite difference methods, let us consider the one-dime
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5749,9 +5519,7 @@ where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is 
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{\Delta x^2}
-
 $$
 
 
@@ -5819,9 +5587,7 @@ To illustrate the use of finite difference methods, let us consider the one-dime
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -5831,9 +5597,7 @@ where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is 
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{\Delta x^2}
-
 $$
 
 
@@ -5881,9 +5645,7 @@ In conclusion, this chapter has provided a comprehensive overview of numerical m
 Consider the following PDE:
 
 $$
-
 \frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}
-
 $$
 
 a) Classify this PDE and determine its boundary conditions.
@@ -5897,9 +5659,7 @@ b) Discuss the advantages and limitations of using the finite difference method 
 A chemical reactor is modeled by the following PDE:
 
 $$
-
 \frac{\partial C}{\partial t} = D\frac{\partial^2 C}{\partial x^2} - kC
-
 $$
 
 where $C$ is the concentration of a reactant, $D$ is the diffusion coefficient, and $k$ is the reaction rate constant. Use the finite element method to solve this PDE and determine the concentration profile over time.
@@ -5917,9 +5677,7 @@ Discuss the concept of stability in numerical methods for solving PDEs. How does
 Consider the heat equation:
 
 $$
-
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-
 $$
 
 where $T$ is the temperature and $\alpha$ is the thermal diffusivity. Use the finite volume method to solve this PDE and determine the temperature distribution over time.
@@ -6159,9 +5917,7 @@ Write a code in Python to implement the Newton-Raphson method for finding the ro
 Solve the following initial value problem using the fourth-order Runge-Kutta method:
 
 $$
-
 y' = 2x + y, \quad y(0) = 1, \quad x \in [0, 1]
-
 $$
 
 
@@ -6171,9 +5927,7 @@ $$
 Consider the optimization problem:
 
 $$
-
 \min_{x} f(x) = x^2 + 2x + 1, \quad x \in [0, 5]
-
 $$
 
 Use the golden section search method to find the minimum value of $f(x)$.
@@ -6353,7 +6107,6 @@ Consider a chemical reaction where the sample space Ω = {A, B, C, D, E}, and th
 
 
 $$
-
 F(x) = 
 
 \begin{cases}
@@ -6369,7 +6122,6 @@ F(x) =
 1, & x \geq 3
 
 \end{cases}
-
 $$
 
 
@@ -6387,9 +6139,7 @@ The chain rule is a fundamental concept in probability theory that allows us to 
 
 
 $$
-
 \mathbb{P}_{(X,Y)}(x,y) = \mathbb{P}_{X \mid Y}(x \mid y) \mathbb{P}_Y(y)
-
 $$
 
 
@@ -6399,9 +6149,7 @@ This can be extended to finitely many random variables as:
 
 
 $$
-
 \mathbb{P}_{(X_1, \ldots, X_n)}(x_1, \ldots, x_n) = \mathbb{P}_{X_1}(x_1) \prod_{i=2}^n \mathbb{P}_{X_i \mid X_1, \ldots, X_{i-1}}(x_i \mid x_1, \ldots, x_{i-1})
-
 $$
 
 
@@ -6415,9 +6163,7 @@ For n = 3, the chain rule can be written as:
 
 
 $$
-
 \mathbb{P}_{(X_1, X_2, X_3)}(x_1, x_2, x_3) = \mathbb{P}_{X_1}(x_1) \mathbb{P}_{X_2 \mid X_1}(x_2 \mid x_1) \mathbb{P}_{X_3 \mid X_1, X_2}(x_3 \mid x_1, x_2)
-
 $$
 
 
@@ -6485,9 +6231,7 @@ Consider the same chemical reaction from the previous example, where X represent
 
 
 $$
-
 E(X) = 0(0.2) + 1(0.3) + 2(0.3) + 3(0.2) = 1.6
-
 $$
 
 
@@ -6497,9 +6241,7 @@ This means that, on average, 1.6 products are formed in a single reaction. The s
 
 
 $$
-
 E(X^2) = 0^2(0.2) + 1^2(0.3) + 2^2(0.3) + 3^2(0.2) = 2.2
-
 $$
 
 
@@ -6509,9 +6251,7 @@ The variance is then calculated as:
 
 
 $$
-
 Var(X) = E(X^2) - [E(X)]^2 = 2.2 - (1.6)^2 = 0.28
-
 $$
 
 
@@ -6581,27 +6321,19 @@ Using the method of maximum likelihood, we can estimate the probability of each 
 
 
 $$
-
 P(X=0) = \frac{20}{100} = 0.2
-
 $$
 
 $$
-
 P(X=1) = \frac{30}{100} = 0.3
-
 $$
 
 $$
-
 P(X=2) = \frac{30}{100} = 0.3
-
 $$
 
 $$
-
 P(X=3) = \frac{20}{100} = 0.2
-
 $$
 
 
@@ -6611,9 +6343,7 @@ The maximum likelihood estimate for the expected value of X is then calculated a
 
 
 $$
-
 E(X) = 0(0.2) + 1(0.3) + 2(0.3) + 3(0.2) = 1.6
-
 $$
 
 
@@ -6839,33 +6569,25 @@ The results of sensitivity analysis with respect to the entries of the matrices 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{K}_{(k\ell)}} = x_{0i(k)} x_{0i(\ell)} \left (2 - \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial \lambda_i}{\partial \mathbf{M}_{(k\ell)}} = - \lambda_i x_{0i(k)} x_{0i(\ell)} \left (2- \delta_{k\ell} \right )
-
 $$
 
 
 
 $$
-
 \frac{\partial\mathbf{x}_i}{\partial \mathbf{K}_{(k\ell)}} = \sum_{j=1\atop j\neq i}^N \frac{x_{0j(k)} x_{0i(\ell)} \left (2-\delta_{k\ell} \right )}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j}
-
 $$
 
 
 
 $$
-
 \frac{\partial \mathbf{x}_i}{\partial \mathbf{M}_{(k\ell)}} = -\mathbf{x}_{0i}\frac{x_{0i(k)}x_{0i(\ell)}}{2}(2-\delta_{k\ell}) - \sum_{j=1\atop j\neq i}^N \frac{\lambda_{0i}x_{0j(k)} x_{0i(\ell)}}{\lambda_{0i}-\lambda_{0j}}\mathbf{x}_{0j} \left (2-\delta_{k\ell} \right )
-
 $$
 
 
@@ -7371,15 +7093,11 @@ In conclusion, operator splitting methods are an essential tool in the arsenal o
 Consider the reaction-diffusion system given by the following equations:
 
 $$
-
 \frac{\partial u}{\partial t} = D_1 \nabla^2 u + f(u,v)
-
 $$
 
 $$
-
 \frac{\partial v}{\partial t} = D_2 \nabla^2 v + g(u,v)
-
 $$
 
 where $u$ and $v$ represent the concentrations of two chemical species, $D_1$ and $D_2$ are diffusion coefficients, and $f(u,v)$ and $g(u,v)$ are reaction terms. Use the Strang splitting method to solve this system numerically.
@@ -7391,9 +7109,7 @@ where $u$ and $v$ represent the concentrations of two chemical species, $D_1$ an
 Consider the following fluid flow problem:
 
 $$
-
 \frac{\partial u}{\partial t} + \nabla \cdot (u \mathbf{v}) = 0
-
 $$
 
 where $u$ is the fluid density and $\mathbf{v}$ is the velocity vector. Use the Lie-Trotter splitting method to solve this problem numerically.
@@ -7411,15 +7127,11 @@ Discuss the advantages and disadvantages of using operator splitting methods com
 Consider the following system of differential equations:
 
 $$
-
 \frac{dy_1}{dt} = a_1 y_1 + b_1 y_2
-
 $$
 
 $$
-
 \frac{dy_2}{dt} = a_2 y_1 + b_2 y_2
-
 $$
 
 where $a_1, a_2, b_1,$ and $b_2$ are constants. Use the Strang splitting method to solve this system numerically and compare the results to the exact solution.
@@ -7497,9 +7209,7 @@ To illustrate this, let's consider the following integral:
 
 
 $$
-
 I = \int_{0}^{1} \frac{W(x)}{x} \, dx
-
 $$
 
 
@@ -7555,9 +7265,7 @@ To illustrate this, let's consider the following integral:
 
 
 $$
-
 I = \int_{0}^{1} \frac{W(x)}{x} \, dx
-
 $$
 
 
@@ -7777,9 +7485,7 @@ In conclusion, Monte Carlo methods are an essential tool in the toolkit of any c
 Consider the following integral:
 
 $$
-
 I = \int_{0}^{1} e^{-x^2} dx
-
 $$
 
 Use Monte Carlo simulation to estimate the value of $I$ and compare it to the exact solution.
@@ -7791,9 +7497,7 @@ Use Monte Carlo simulation to estimate the value of $I$ and compare it to the ex
 A chemical reaction follows the following rate law:
 
 $$
-
 \frac{dC}{dt} = kC
-
 $$
 
 where $C$ is the concentration of the reactant and $k$ is the rate constant. Use Monte Carlo simulation to solve this differential equation and plot the concentration over time for different values of $k$.
@@ -7805,9 +7509,7 @@ where $C$ is the concentration of the reactant and $k$ is the rate constant. Use
 Monte Carlo methods can also be used for optimization problems. Consider the following optimization problem:
 
 $$
-
 \min_{x,y} f(x,y) = x^2 + y^2
-
 $$
 
 subject to the constraint $x + y = 1$. Use Monte Carlo simulation to find the optimal values of $x$ and $y$.
@@ -7871,9 +7573,7 @@ One of the key concepts in stochastic chemical kinetics is the chemical master e
 
 
 $$
-
 \frac{dP_k}{dt} = \sum_{\ell} P_{\ell}A_{\ell k} - P_k \sum_{\ell} A_{k \ell}
-
 $$
 
 
@@ -7887,9 +7587,7 @@ The chemical master equation can be simplified by removing the terms where $\ell
 
 
 $$
-
 \frac{dP_k}{dt} = \sum_{\ell \neq k} P_{\ell}A_{\ell k} - P_k \sum_{\ell \neq k} A_{k \ell}
-
 $$
 
 
@@ -7899,9 +7597,7 @@ One important property of the chemical master equation is detailed balance, whic
 
 
 $$
-
 \pi_k A_{k \ell} = \pi_{\ell} A_{\ell k}
-
 $$
 
 
@@ -7933,9 +7629,7 @@ One of the key concepts in stochastic chemical kinetics is the chemical master e
 
 
 $$
-
 \frac{dP_k}{dt} = \sum_{\ell} P_{\ell}A_{\ell k} - P_k \sum_{\ell} A_{k \ell}
-
 $$
 
 
@@ -7983,9 +7677,7 @@ One of the key concepts in stochastic chemical kinetics is the chemical master e
 
 
 $$
-
 \frac{dP_k}{dt} = \sum_{\ell} P_{\ell}A_{\ell k} - P_k \sum_{\ell} A_{k \ell}
-
 $$
 
 
@@ -8053,9 +7745,7 @@ One of the key concepts in stochastic chemical kinetics is the chemical master e
 
 
 $$
-
 \frac{dP_k}{dt} = \sum_{\ell} P_{\ell}A_{\ell k} - P_k \sum_{\ell} A_{k \ell}
-
 $$
 
 
@@ -8721,9 +8411,7 @@ Given the function $f(x) = x^2 + 2x + 1$, find the value of $x$ that minimizes t
 Solve the following initial value problem using the fourth-order Runge-Kutta method:
 
 $$
-
 \frac{dy}{dx} = x^2 + y, \quad y(0) = 1, \quad x \in [0, 1]
-
 $$
 
 
@@ -9103,9 +8791,7 @@ One type of stochastic programming problem is the two-stage problem, where decis
 
 
 $$
-
 \min_{x} \{g(x) = c^Tx + E_{\xi}[Q(x,\xi)] \,|\, Ax = b\}
-
 $$
 
 
@@ -9115,9 +8801,7 @@ where $Q(x,\xi)$ is the optimal value of the second-stage problem:
 
 
 $$
-
 \min_{y} \{q(y,\xi) \,|\, T(\xi)x + W(\xi)y = h(\xi)\}
-
 $$
 
 
@@ -9173,9 +8857,7 @@ One type of stochastic programming problem is the two-stage problem, where decis
 
 
 $$
-
 \min_{x} \{g(x) = c^Tx + E_{\xi}[Q(x,\xi)] \,|\, Ax = b\}
-
 $$
 
 
@@ -9185,9 +8867,7 @@ where $Q(x,\xi)$ is the optimal value of the second-stage problem:
 
 
 $$
-
 \min_{y} \{q(y,\xi) \,|\, T(\xi)x + W(\xi)y = h(\xi)\}
-
 $$
 
 
@@ -9255,9 +8935,7 @@ One type of stochastic programming problem is the two-stage problem, where decis
 
 
 $$
-
 \min_{x} \{g(x) = c^Tx + E_{\xi}[Q(x,\xi)] \,|\, Ax = b\}
-
 $$
 
 
@@ -9267,9 +8945,7 @@ where $Q(x,\xi)$ is the optimal value of the second-stage problem:
 
 
 $$
-
 \min_{y} \{q(y,\xi) \,|\, T(\xi)x + W(\xi)y = h(\xi)\}
-
 $$
 
 
@@ -9299,9 +8975,7 @@ The general formulation of a chance-constrained programming problem is given by:
 
 
 $$
-
 \min_{x} \{f(x) \,|\, P(g_i(x,\xi) \leq 0) \geq p_i, \forall i\}
-
 $$
 
 
@@ -9327,9 +9001,7 @@ The general formulation of chance-constrained programming with joint chance cons
 
 
 $$
-
 \min_{x} \{f(x) \,|\, P(g_i(x,\xi) \leq 0, \forall i) \geq p\}
-
 $$
 
 
@@ -9397,9 +9069,7 @@ In conclusion, the advanced numerical methods discussed in this chapter are powe
 Consider the following differential equation:
 
 $$
-
 \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + 3y = 0
-
 $$
 
 Use the central difference scheme to approximate the second derivative of $y$ at $x = 1$.
@@ -9429,9 +9099,7 @@ Discuss the advantages and disadvantages of the boundary element method compared
 Consider the following electrochemical system:
 
 $$
-
 \frac{d^2\phi}{dx^2} + \frac{2}{x}\frac{d\phi}{dx} = 0
-
 $$
 
 Use the boundary element method to solve for the potential distribution in the system.
@@ -10227,17 +9895,13 @@ Formally, let $f: \mathbb{R}^n \rightarrow \mathbb{R}$ be the cost function that
 
 
 $$
-
 v_i(n+1) = wv_i(n) + \phi_p r_p (p_i(n) - x_i(n)) + \phi_g r_g (g(n) - x_i(n))
-
 $$
 
 
 
 $$
-
 x_i(n+1) = x_i(n) + v_i(n+1)
-
 $$
 
 
@@ -10609,9 +10273,7 @@ As we conclude this chapter, it is essential to note that optimization is a cont
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x^2 + 2x + 1
-
 $$
 
 Use the gradient descent method to find the minimum value of $f(x)$.
@@ -10635,9 +10297,7 @@ Research and discuss a real-world application of stochastic optimization in chem
 Consider the following optimization problem:
 
 $$
-
 \min_{x} f(x) = x^3 - 2x^2 + 3x - 1
-
 $$
 
 Use the Newton's method to find the minimum value of $f(x)$.
@@ -10961,7 +10621,6 @@ The first idea behind the Proper Orthogonal Decomposition (POD) is to decompose 
 $$u(x,t) \approx \sum_{k=1}^{N} a_k(t)\Phi_k(x)$$
 
 
-
 The first step in this process is to sample the vector field over a period of time, creating what is known as "snapshots." These snapshots are then averaged over the space dimension n and correlated with each other along the time samples p. This snapshot method is displayed in the image of the POD snapshots.
 
 
@@ -11115,13 +10774,11 @@ In conclusion, this chapter has provided a comprehensive overview of advanced to
 #### Exercise 1
 
 Consider the following boundary value problem:
-
 $$
 
 y''(x) + 2y'(x) + y(x) = 0, \quad y(0) = 0, \quad y(1) = 1
 
 $$
-
 a) Use the shooting method to solve this problem with a step size of $h = 0.1$. Compare your solution to the exact solution $y(x) = e^{-x}$. b) Repeat the calculation with a smaller step size of $h = 0.01$. How does the accuracy of the solution change?
 
 
@@ -11129,13 +10786,11 @@ a) Use the shooting method to solve this problem with a step size of $h = 0.1$. 
 #### Exercise 2
 
 The heat equation is given by:
-
 $$
 
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 where $u(x,t)$ is the temperature distribution, $\alpha$ is the thermal diffusivity, and $x$ and $t$ are the spatial and temporal variables, respectively. Consider a rod of length $L$ with initial temperature distribution $u(x,0) = \sin(\pi x/L)$ and boundary conditions $u(0,t) = u(L,t) = 0$. Use the finite difference method to solve this problem for $t = 0.1$ with $L = 1$ and $\alpha = 0.1$. Plot the temperature distribution at this time and compare it to the exact solution $u(x,0.1) = e^{-\pi^2 \alpha t/L^2} \sin(\pi x/L)$.
 
 
@@ -11143,13 +10798,11 @@ where $u(x,t)$ is the temperature distribution, $\alpha$ is the thermal diffusiv
 #### Exercise 3
 
 The Lotka-Volterra equations are a set of nonlinear differential equations that model the dynamics of predator-prey interactions in an ecosystem. They are given by:
-
 $$
 
 \frac{dx}{dt} = ax - bxy, \quad \frac{dy}{dt} = -cy + dxy
 
 $$
-
 where $x$ and $y$ represent the populations of prey and predators, respectively, and $a$, $b$, $c$, and $d$ are positive constants. Use the fourth-order Runge-Kutta method to solve this system of equations with initial conditions $x(0) = 2$ and $y(0) = 1$ for $t = 10$ with $a = 1$, $b = 0.5$, $c = 1.5$, and $d = 0.75$. Plot the solutions $x(t)$ and $y(t)$ and discuss the behavior of the populations over time.
 
 
@@ -11157,13 +10810,11 @@ where $x$ and $y$ represent the populations of prey and predators, respectively,
 #### Exercise 4
 
 Consider the following nonlinear boundary value problem:
-
 $$
 
 y''(x) + y(x)^2 = 0, \quad y(0) = 0, \quad y(1) = 1
 
 $$
-
 a) Use the finite difference method to solve this problem with a step size of $h = 0.1$. b) Repeat the calculation with a smaller step size of $h = 0.01$. How does the accuracy of the solution change? c) Compare the solutions to the exact solution $y(x) = \tan^{-1}(x)$.
 
 
@@ -11171,13 +10822,11 @@ a) Use the finite difference method to solve this problem with a step size of $h
 #### Exercise 5
 
 The Black-Scholes equation is a partial differential equation used to model the price of financial derivatives. It is given by:
-
 $$
 
 \frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} - rV = 0
 
 $$
-
 where $V(S,t)$ is the price of the derivative, $S$ is the underlying asset price, $\sigma$ is the volatility, and $r$ is the risk-free interest rate. Use the Crank-Nicolson method to solve this equation for a European call option with strike price $K = 100$, maturity $T = 1$, volatility $\sigma = 0.2$, and interest rate $r = 0.05$. Plot the option price as a function of the underlying asset price $S$ and discuss the behavior of the option price as $S$ increases.
 
 
@@ -11237,7 +10886,6 @@ The Euler-Maruyama method is a numerical technique used to solve SDEs. It is an 
 To understand the Euler-Maruyama method, let us consider the following SDE:
 
 
-
 $$
 
 \frac{dy}{dt} = f(y,t) + g(y,t)\xi(t)
@@ -11245,9 +10893,7 @@ $$
 $$
 
 
-
 where $y$ is the solution, $f(y,t)$ is the deterministic part, $g(y,t)$ is the stochastic part, and $\xi(t)$ is a random variable with mean 0 and variance 1. The Euler-Maruyama method approximates the solution $y(t)$ at time $t+\Delta t$ as:
-
 
 
 $$
@@ -11255,7 +10901,6 @@ $$
 y(t+\Delta t) \approx y(t) + f(y,t)\Delta t + g(y,t)\xi(t)\sqrt{\Delta t}
 
 $$
-
 
 
 where $\Delta t$ is the time step. This method is a first-order approximation and can be improved by using higher-order methods such as the Milstein method or the Runge-Kutta method.
@@ -11303,7 +10948,6 @@ The Euler-Maruyama method is a numerical technique used to solve SDEs. It is an 
 To understand the Euler-Maruyama method, let us consider the following SDE:
 
 
-
 $$
 
 \frac{dy}{dt} = f(y,t) + g(y,t)\xi(t)
@@ -11311,9 +10955,7 @@ $$
 $$
 
 
-
 where $y$ is the solution, $f(y,t)$ is the deterministic part, $g(y,t)$ is the stochastic part, and $\xi(t)$ is a random variable with mean 0 and variance 1. The Euler-Maruyama method approximates the solution $y(t)$ at time $t+\Delta t$ as:
-
 
 
 $$
@@ -11321,7 +10963,6 @@ $$
 y(t+\Delta t) \approx y(t) + f(y,t)\Delta t + g(y,t)\xi(t)\sqrt{\Delta t}
 
 $$
-
 
 
 where $\Delta t$ is the time step. This method is a first-order approximation and can be improved by using higher-order methods such as the Milstein method or the Runge-Kutta method.
@@ -11369,7 +11010,6 @@ The Euler-Maruyama method is a numerical technique used to solve SDEs. It is an 
 To understand the Euler-Maruyama method, let us consider the following SDE:
 
 
-
 $$
 
 \frac{dy}{dt} = f(y,t) + g(y,t)\xi(t)
@@ -11377,9 +11017,7 @@ $$
 $$
 
 
-
 where $y$ is the solution, $f(y,t)$ is the deterministic part, $g(y,t)$ is the stochastic part, and $\xi(t)$ is a random variable with mean 0 and variance 1. The Euler-Maruyama method approximates the solution $y(t)$ at time $t+\Delta t$ as:
-
 
 
 $$
@@ -11387,7 +11025,6 @@ $$
 y(t+\Delta t) \approx y(t) + f(y,t)\Delta t + g(y,t)\xi(t)\sqrt{\Delta t}
 
 $$
-
 
 
 where $\Delta t$ is the time step. This method is a first-order approximation and can be improved by using higher-order methods such as the Milstein method or the Runge-Kutta method.
@@ -11463,13 +11100,11 @@ Stochastic partial differential equations (SPDEs) are a powerful tool for modeli
 The Wiener process, also known as the Brownian motion, is a continuous-time stochastic process that is widely used in chemical engineering to model random fluctuations in a system. It is a key component in the formulation of SPDEs and is defined as:
 
 
-
 $$
 
 W_t = \lim_{n \to \infty} \sum_{i=1}^{n} Z_i \sqrt{\Delta t}
 
 $$
-
 
 
 where $Z_i$ are independent and identically distributed random variables with mean 0 and variance 1, and $\Delta t$ is the time step. The Wiener process has several important properties that make it a useful tool for modeling stochastic systems:
@@ -11769,14 +11404,11 @@ While many data-driven methods have been developed for discrete-time systems, th
 In this method, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
-
-
 
 $$
 

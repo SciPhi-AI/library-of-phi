@@ -1151,17 +1151,13 @@ The equations of motion for a surface or underwater vehicle can be written in th
 
 
 $$
-
 \sum F = m\ddot{x}
-
 $$
 
 
 
 $$
-
 \sum M = I\ddot{\theta}
-
 $$
 
 
@@ -1231,9 +1227,7 @@ The first equation of motion is the translational motion equation, which relates
 
 
 $$
-
 \sum F = ma
-
 $$
 
 
@@ -1247,9 +1241,7 @@ The second equation of motion is the rotational motion equation, which relates t
 
 
 $$
-
 \sum M = I\alpha
-
 $$
 
 
@@ -1459,9 +1451,7 @@ The linearized equations of motion for a surface or underwater vehicle can be wr
 
 
 $$
-
 M\dot{\eta} + D\eta = \tau
-
 $$
 
 
@@ -1471,9 +1461,7 @@ Where $M$ is the mass matrix, $\eta$ is the vector of vehicle states, $D$ is the
 
 
 $$
-
 M\dot{\eta} + D\eta = 0
-
 $$
 
 
@@ -1563,17 +1551,13 @@ The linearized equations of motion for a surface or underwater vehicle can be wr
 
 
 $$
-
 M\dot{v} + Dv + F = T
-
 $$
 
 
 
 $$
-
 I\dot{\omega} + \omega \times I\omega + H\omega = \tau
-
 $$
 
 
@@ -2197,9 +2181,7 @@ Using these assumptions, the flow around a slender body can be described by the 
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -2213,9 +2195,7 @@ One of the key results of slender body theory is the Kutta-Joukowski theorem, wh
 
 
 $$
-
 L = \rho \Gamma
-
 $$
 
 
@@ -2259,9 +2239,7 @@ Using these assumptions, the flow around a slender body can be described by the 
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -2275,9 +2253,7 @@ One of the key results of slender body theory is the Kutta-Joukowski theorem, wh
 
 
 $$
-
 L = \rho \Gamma
-
 $$
 
 
@@ -2337,9 +2313,7 @@ Using these assumptions, the flow around a slender body can be described by the 
 
 
 $$
-
 \nabla^2 \phi = 0
-
 $$
 
 
@@ -2353,9 +2327,7 @@ One of the key results of slender body theory is the Kutta-Joukowski theorem, wh
 
 
 $$
-
 L = \rho \Gamma
-
 $$
 
 
@@ -2423,9 +2395,7 @@ To understand the forces at large angles of attack, we must consider the unstead
 
 
 $$
-
 L = \rho \Gamma + \rho \frac{d\Gamma}{dt}
-
 $$
 
 
@@ -2469,9 +2439,7 @@ To understand the forces at large angles of attack, we must consider the unstead
 
 
 $$
-
 L = \rho \Gamma + \rho \frac{d\Gamma}{dt}
-
 $$
 
 
@@ -2535,9 +2503,7 @@ To understand the forces at large angles of attack, we must consider the unstead
 
 
 $$
-
 L = \rho \Gamma + \rho \frac{d\Gamma}{dt}
-
 $$
 
 
@@ -3351,17 +3317,13 @@ Multivariable control systems are often represented using state-space models, wh
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -3413,17 +3375,13 @@ Multivariable control systems are often represented using state-space models, wh
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -3479,17 +3437,13 @@ Multivariable control systems are often represented using state-space models, wh
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -3573,17 +3527,13 @@ Designing a Kalman filter involves selecting appropriate values for the system m
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -3647,17 +3597,13 @@ Designing a Kalman filter involves selecting appropriate values for the system m
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -3721,17 +3667,13 @@ Designing a Kalman filter involves selecting appropriate values for the system m
 
 
 $$
-
 \dot{x} = Ax + Bu
-
 $$
 
 
 
 $$
-
 y = Cx + Du
-
 $$
 
 
@@ -4373,9 +4315,7 @@ The power produced by an engine can be calculated using the following equation:
 
 
 $$
-
 P = \frac{W}{t}
-
 $$
 
 
@@ -4389,9 +4329,7 @@ However, to accurately model the power output of an engine, more complex equatio
 
 
 $$
-
 BMEP = \frac{P}{V_d}
-
 $$
 
 
@@ -4409,9 +4347,7 @@ The efficiency of an engine is a measure of how well it converts energy into mot
 
 
 $$
-
 \eta = \frac{P_{out}}{P_{in}}
-
 $$
 
 
@@ -4425,9 +4361,7 @@ However, similar to power models, more complex equations are needed to accuratel
 
 
 $$
-
 BSFC = \frac{m_f}{P}
-
 $$
 
 
@@ -4767,9 +4701,7 @@ Vorticity is defined as the local rotation of a fluid element and is represented
 
 
 $$
-
 \boldsymbol{\omega} = \nabla \times \mathbf{v}
-
 $$
 
 
@@ -4787,9 +4719,7 @@ The concept of circulation is closely related to vorticity and is defined as the
 
 
 $$
-
 \Gamma = \oint_C \mathbf{v} \cdot d\mathbf{l}
-
 $$
 
 
@@ -4833,9 +4763,7 @@ Vorticity is defined as the local rotation of a fluid element and is represented
 
 
 $$
-
 \boldsymbol{\omega} = \nabla \times \mathbf{v}
-
 $$
 
 
@@ -4853,9 +4781,7 @@ The concept of circulation is closely related to vorticity and is defined as the
 
 
 $$
-
 \Gamma = \oint_C \mathbf{v} \cdot d\mathbf{l}
-
 $$
 
 
@@ -4911,9 +4837,7 @@ Vorticity is defined as the local rotation of a fluid element and is represented
 
 
 $$
-
 \boldsymbol{\omega} = \nabla \times \mathbf{v}
-
 $$
 
 
@@ -4931,9 +4855,7 @@ The concept of circulation is closely related to vorticity and is defined as the
 
 
 $$
-
 \Gamma = \oint_C \mathbf{v} \cdot d\mathbf{l}
-
 $$
 
 

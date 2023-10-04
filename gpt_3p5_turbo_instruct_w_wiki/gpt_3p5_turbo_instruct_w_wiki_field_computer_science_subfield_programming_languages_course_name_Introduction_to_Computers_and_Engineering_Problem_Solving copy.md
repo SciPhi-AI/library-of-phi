@@ -5641,7 +5641,6 @@ To demonstrate the power of recursion, let's consider the Ackermann function, wh
 
 
 $$
-
 A(m,n) = \begin{cases}
 
 n+1 & \text{if } m = 0 \\
@@ -5651,7 +5650,6 @@ A(m-1, 1) & \text{if } m > 0 \text{ and } n = 0 \\
 A(m-1, A(m, n-1)) & \text{if } m > 0 \text{ and } n > 0
 
 \end{cases}
-
 $$
 
 
@@ -5661,7 +5659,6 @@ To demonstrate how the computation of $A(4, 3)$ results in many steps and in a l
 
 
 $$
-
 A(4, 3) \rightarrow A(3, A(4, 2)) \\
 
 \rightarrow A(3, A(3, A(4, 1))) \\
@@ -5717,7 +5714,6 @@ A(4, 3) \rightarrow A(3, A(4, 2)) \\
 \qquad\vdots \\
 
 \rightarrow 2^{2^{65536}} - 3.
-
 $$
 
 
@@ -5873,7 +5869,6 @@ To demonstrate the power of recursion, let's consider the Ackermann function, wh
 
 
 $$
-
 A(m,n) = \begin{cases}
 
 n+1 & \text{if } m = 0 \\
@@ -5883,7 +5878,6 @@ A(m-1, 1) & \text{if } m > 0 \text{ and } n = 0 \\
 A(m-1, A(m, n-1)) & \text{if } m > 0 \text{ and } n > 0
 
 \end{cases}
-
 $$
 
 
@@ -5893,9 +5887,7 @@ To demonstrate how the computation of $A(4, 3)$ results in many steps and in a l
 
 
 $$
-
 A(4, 3) = A(3, A(4, 2)) = A(3, A(3, A(4, 1))) = A(3, A(3, A(3, A(4, 0)))) = A(3, A(3, A(3, 5))) = A(3, A(3, 13)) = A(3, 29) = 61
-
 $$
 
 
@@ -9195,9 +9187,7 @@ Translation is a type of 2D transformation that involves moving an object from o
 
 
 $$
-
 T(x,y) = (x + \Delta x, y + \Delta y)
-
 $$
 
 
@@ -9245,9 +9235,7 @@ Rotation is another type of 2D transformation that involves rotating an object a
 
 
 $$
-
 R(x,y) = (x\cos\theta - y\sin\theta, x\sin\theta + y\cos\theta)
-
 $$
 
 
@@ -10975,7 +10963,6 @@ The wait function for the i<sup>th</sup> thread in barrier synchronization can b
 $$W_{barrier} = T_{barrier} \times R_{thread}$$
 
 
-
 Where $W_{barrier}$ is the wait time for a thread, $T_{barrier}$ is the number of threads that have arrived at the barrier, and $R_{thread}$ is the arrival rate of threads. Experiments have shown that 34% of the total execution time is spent waiting for other slower threads.
 
 
@@ -11457,17 +11444,14 @@ Linear systems can be represented using matrices in a compact and organized mann
 For example, consider the following system of equations:
 
 
-
 $$
 
 3x + 2y = 8
 
 $$
-
 $$
 
 2x - 5y = -7
-
 $$
 
 
@@ -11477,7 +11461,6 @@ This can be represented using the following matrix equation:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11503,7 +11486,6 @@ y
 -7
 
 \end{bmatrix}
-
 $$
 
 
@@ -11529,7 +11511,6 @@ For the example system given above, the inverse of the coefficient matrix is:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11549,7 +11530,6 @@ $$
 -2 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -11559,7 +11539,6 @@ Multiplying this inverse matrix by the constant vector gives us the solution vec
 
 
 $$
-
 \begin{bmatrix}
 
 x \\
@@ -11597,7 +11576,6 @@ y
 -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -11653,15 +11631,11 @@ For example, consider the following system of equations:
 
 
 $$
-
 3x + 2y = 8
-
 $$
 
 $$
-
 2x - 5y = -7
-
 $$
 
 
@@ -11671,7 +11645,6 @@ This can be represented using the following matrix equation:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11697,7 +11670,6 @@ y
 -7
 
 \end{bmatrix}
-
 $$
 
 
@@ -11723,7 +11695,6 @@ For the example system given above, the inverse of the coefficient matrix is:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11743,7 +11714,6 @@ $$
 -2 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -11753,7 +11723,6 @@ Multiplying this inverse matrix by the constant vector gives us the solution vec
 
 
 $$
-
 \begin{bmatrix}
 
 x \\
@@ -11791,7 +11760,6 @@ y
 -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -11835,15 +11803,11 @@ For example, consider the following system of equations:
 
 
 $$
-
 3x + 2y = 8
-
 $$
 
 $$
-
 2x - 5y = -7
-
 $$
 
 
@@ -11853,7 +11817,6 @@ This can be represented using the following matrix equation:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11879,7 +11842,6 @@ y
 -7
 
 \end{bmatrix}
-
 $$
 
 
@@ -11905,7 +11867,6 @@ For the example system given above, the inverse of the coefficient matrix is:
 
 
 $$
-
 \begin{bmatrix}
 
 3 & 2 \\
@@ -11925,7 +11886,6 @@ $$
 -2 & 3
 
 \end{bmatrix}
-
 $$
 
 
@@ -11935,7 +11895,6 @@ Multiplying this inverse matrix by the constant vector gives us the solution vec
 
 
 $$
-
 \begin{bmatrix}
 
 x \\
@@ -11973,7 +11932,6 @@ y
 -1
 
 \end{bmatrix}
-
 $$
 
 
@@ -12029,9 +11987,7 @@ One common method of numerical integration is the trapezoidal rule. This method 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{2} \left[ f(a) + 2f(x_1) + 2f(x_2) + ... + 2f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12045,9 +12001,7 @@ Another method of numerical integration is Simpson's rule. This method involves 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{3} \left[ f(a) + 4f(x_1) + 2f(x_2) + 4f(x_3) + ... + 2f(x_{n-2}) + 4f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12099,9 +12053,7 @@ One common method of numerical integration is the trapezoidal rule. This method 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{2} \left[ f(a) + 2f(x_1) + 2f(x_2) + ... + 2f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12115,9 +12067,7 @@ Another method of numerical integration is Simpson's rule. This method involves 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{3} \left[ f(a) + 4f(x_1) + 2f(x_2) + 4f(x_3) + ... + 2f(x_{n-2}) + 4f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12173,9 +12123,7 @@ One common method of numerical integration is the trapezoidal rule. This method 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{2} \left[ f(a) + 2f(x_1) + 2f(x_2) + ... + 2f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12189,9 +12137,7 @@ Another method of numerical integration is Simpson's rule. This method involves 
 
 
 $$
-
 \int_a^b f(x) \, dx \approx \frac{h}{3} \left[ f(a) + 4f(x_1) + 2f(x_2) + 4f(x_3) + ... + 2f(x_{n-2}) + 4f(x_{n-1}) + f(b) \right]
-
 $$
 
 
@@ -12251,7 +12197,6 @@ As we continue our journey in this book, we will see how these concepts are appl
 Given the following matrix:
 
 $$
-
 A = \begin{bmatrix}
 
     1 & 2 & 3 \\
@@ -12261,7 +12206,6 @@ A = \begin{bmatrix}
     7 & 8 & 9
 
 \end{bmatrix}
-
 $$
 
 Find the determinant of A.
@@ -12273,7 +12217,6 @@ Find the determinant of A.
 Solve the following system of linear equations:
 
 $$
-
 \begin{cases}
 
     2x + 3y = 8 \\
@@ -12281,7 +12224,6 @@ $$
     4x - 5y = 1
 
 \end{cases}
-
 $$
 
 
@@ -12297,9 +12239,7 @@ Find the area under the curve $y = x^2$ from $x = 0$ to $x = 5$ using integratio
 A circuit has the following resistors in parallel:
 
 $$
-
 R_1 = 10\Omega, R_2 = 20\Omega, R_3 = 30\Omega
-
 $$
 
 Find the equivalent resistance of the circuit.
@@ -12469,9 +12409,7 @@ To use Newton's method, we need to have an initial guess for the root, x0. We th
 
 
 $$
-
 y = f(x_0) + f'(x_0)(x-x_0)
-
 $$
 
 
@@ -12555,9 +12493,7 @@ To use the Gauss-Newton algorithm, we need to have an initial guess for the vari
 
 
 $$
-
 \boldsymbol \beta^{(s+1)} = \boldsymbol \beta^{(s)} - \left(\mathbf{J_r}^\mathsf{T} \mathbf{J_r} \right)^{-1} \mathbf{J_r}^\mathsf{T} \mathbf{r}\left(\boldsymbol \beta^{(s)}\right)
-
 $$
 
 
@@ -12979,17 +12915,13 @@ The two main operations performed on a stack are push and pop. The push operatio
 
 
 $$
-
 push(x): S \rightarrow S \cup \{x\}
-
 $$
 
 
 
 $$
-
 pop(S): S \rightarrow S \setminus \{x\}
-
 $$
 
 
@@ -13015,17 +12947,13 @@ The two main operations performed on a queue are enqueue and dequeue. The enqueu
 
 
 $$
-
 enqueue(x): Q \rightarrow Q \cup \{x\}
-
 $$
 
 
 
 $$
-
 dequeue(Q): Q \rightarrow Q \setminus \{x\}
-
 $$
 
 
@@ -13051,17 +12979,13 @@ The main operations performed on a list include insert, which adds an item at a 
 
 
 $$
-
 insert(x, i): L \times \mathbb{N} \rightarrow L
-
 $$
 
 
 
 $$
-
 delete(L, i): L \times \mathbb{N} \rightarrow L
-
 $$
 
 
@@ -13311,17 +13235,13 @@ The two main operations performed on a stack are push and pop. The push operatio
 
 
 $$
-
 push(x): S \rightarrow S \cup \{x\}
-
 $$
 
 
 
 $$
-
 pop(S): S \rightarrow S \setminus \{x\}
-
 $$
 
 
@@ -13347,17 +13267,13 @@ The two main operations performed on a queue are enqueue and dequeue. The enqueu
 
 
 $$
-
 enqueue(x): Q \rightarrow Q \cup \{x\}
-
 $$
 
 
 
 $$
-
 dequeue(Q): Q \rightarrow Q \setminus \{x\}
-
 $$
 
 
@@ -13387,9 +13303,7 @@ The enqueue operation adds an item to the end of the queue. This operation can b
 
 
 $$
-
 enqueue(x): Q \rightarrow Q \cup \{x\}
-
 $$
 
 
@@ -13407,9 +13321,7 @@ The dequeue operation removes the first item from the queue. This operation can 
 
 
 $$
-
 dequeue(Q): Q \rightarrow Q \setminus \{x\}
-
 $$
 
 
@@ -13427,9 +13339,7 @@ The peek operation returns the first item in the queue without removing it. This
 
 
 $$
-
 peek(Q): Q \rightarrow x
-
 $$
 
 
@@ -13447,9 +13357,7 @@ The isEmpty operation checks if the queue is empty. This operation can be repres
 
 
 $$
-
 isEmpty(Q): Q \rightarrow \{true, false\}
-
 $$
 
 
@@ -13489,17 +13397,13 @@ The two main operations performed on a stack are push and pop. The push operatio
 
 
 $$
-
 push(x): S \rightarrow S \cup \{x\}
-
 $$
 
 
 
 $$
-
 pop(S): S \rightarrow S \setminus \{x\}
-
 $$
 
 
@@ -13525,17 +13429,13 @@ The two main operations performed on a queue are enqueue and dequeue. The enqueu
 
 
 $$
-
 enqueue(x): Q \rightarrow Q \cup \{x\}
-
 $$
 
 
 
 $$
-
 dequeue(Q): Q \rightarrow Q \setminus \{x\}
-
 $$
 
 
@@ -13599,25 +13499,19 @@ The main operations performed on a list include adding, removing, and accessing 
 
 
 $$
-
 add(x): L \rightarrow L \cup \{x\}
-
 $$
 
 
 
 $$
-
 remove(x): L \rightarrow L \setminus \{x\}
-
 $$
 
 
 
 $$
-
 access(i): L \rightarrow L[i]
-
 $$
 
 
@@ -13697,25 +13591,19 @@ The main operations performed on a list include adding, removing, and accessing 
 
 
 $$
-
 add(x): L \rightarrow L \cup \{x\}
-
 $$
 
 
 
 $$
-
 remove(x): L \rightarrow L \setminus \{x\}
-
 $$
 
 
 
 $$
-
 access(i): L \rightarrow L[i]
-
 $$
 
 
@@ -13807,25 +13695,19 @@ The main operations performed on a list include adding, removing, and accessing 
 
 
 $$
-
 add(x): L \rightarrow L \cup \{x\}
-
 $$
 
 
 
 $$
-
 remove(x): L \rightarrow L \setminus \{x\}
-
 $$
 
 
 
 $$
-
 access(i): L \rightarrow L[i]
-
 $$
 
 

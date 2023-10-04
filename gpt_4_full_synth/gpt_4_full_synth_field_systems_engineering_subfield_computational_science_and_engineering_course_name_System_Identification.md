@@ -768,9 +768,7 @@ The general form of a transfer function is given by:
 
 
 $$
-
 G(s) = \frac{Y(s)}{U(s)} = \frac{b_m s^m + b_{m-1} s^{m-1} + \ldots + b_1 s + b_0}{a_n s^n + a_{n-1} s^{n-1} + \ldots + a_1 s + a_0}
-
 $$
 
 
@@ -792,7 +790,6 @@ The general form of a state-space representation is given by:
 
 
 $$
-
 \begin{align*}
 
 \dot{x}(t) &= Ax(t) + Bu(t) \\
@@ -800,7 +797,6 @@ $$
 y(t) &= Cx(t) + Du(t)
 
 \end{align*}
-
 $$
 
 
@@ -834,9 +830,7 @@ A system is said to be linear if it satisfies the principles of superposition an
 
 
 $$
-
 y(t) = a y_1(t) + b y_2(t)
-
 $$
 
 
@@ -854,9 +848,7 @@ A system is time-invariant if its behavior and characteristics do not change ove
 
 
 $$
-
 y(t - \tau) = y(t)
-
 $$
 
 
@@ -908,9 +900,7 @@ Mathematically, the transient response $y_t(t)$ of a system to an input $x(t)$ c
 
 
 $$
-
 y_t(t) = h(t) * x(t)
-
 $$
 
 
@@ -932,9 +922,7 @@ Mathematically, the steady-state response $y_s(t)$ of a system to a sinusoidal i
 
 
 $$
-
 y_s(t) = |H(\omega)| A \sin(\omega t + \phi + \angle H(\omega))
-
 $$
 
 
@@ -1014,9 +1002,7 @@ A strict-sense stationary (SSS) process $\{X(t), t \in T\}$ is one in which the 
 
 
 $$
-
 F_X(t_1, t_2, ..., t_n) = F_X(t_1 + \tau, t_2 + \tau, ..., t_n + \tau)
-
 $$
 
 
@@ -1034,9 +1020,7 @@ A less strict form of stationarity is wide-sense stationarity (WSS). A process i
 
 
 $$
-
 E[X(t)] = \mu
-
 $$
 
 
@@ -1046,9 +1030,7 @@ and
 
 
 $$
-
 R_X(t_1, t_2) = R_X(t_1 - t_2)
-
 $$
 
 
@@ -1078,9 +1060,7 @@ The autocorrelation function of a stochastic process is a measure of the correla
 
 
 $$
-
 R_X(t_1, t_2) = E[X(t_1)X(t_2)]
-
 $$
 
 
@@ -1090,9 +1070,7 @@ for all $t_1, t_2 \in T$. As we have seen in the previous section, for a WSS pro
 
 
 $$
-
 R_X(t_1, t_2) = R_X(t_1 - t_2)
-
 $$
 
 
@@ -1110,9 +1088,7 @@ The power spectral density (PSD) of a stochastic process is a function that prov
 
 
 $$
-
 S_X(f) = \int_{-\infty}^{\infty} R_X(\tau) e^{-j2\pi f\tau} d\tau
-
 $$
 
 
@@ -1142,17 +1118,13 @@ A Gaussian process is a collection of random variables, any finite number of whi
 
 
 $$
-
 m(t) = E[X(t)]
-
 $$
 
 
 
 $$
-
 k(t, t') = E[(X(t) - m(t))(X(t') - m(t'))]
-
 $$
 
 
@@ -1702,9 +1674,7 @@ The governing equation of motion for this system, derived from Newton's second l
 
 
 $$
-
 m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = F(t)
-
 $$
 
 
@@ -1714,9 +1684,7 @@ This is a second-order linear differential equation, which can be rewritten in t
 
 
 $$
-
 \frac{d^2x}{dt^2} + \frac{b}{m}\frac{dx}{dt} + \frac{k}{m}x = \frac{F(t)}{m}
-
 $$
 
 
@@ -1754,9 +1722,7 @@ The governing equation for this system, derived from Kirchhoff's voltage law, is
 
 
 $$
-
 V(t) = R\frac{dQ}{dt} + \frac{Q}{C}
-
 $$
 
 
@@ -1766,9 +1732,7 @@ where $Q$ is the charge on the capacitor. This is a first-order linear different
 
 
 $$
-
 \frac{dQ}{dt} + \frac{1}{RC}Q = \frac{V(t)}{R}
-
 $$
 
 
@@ -1806,9 +1770,7 @@ The governing equation for this system, derived from Newton's second law, is giv
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\sin(\theta) = 0
-
 $$
 
 
@@ -1822,9 +1784,7 @@ In the small-angle approximation, where $\sin(\theta) \approx \theta$, the equat
 
 
 $$
-
 \frac{d^2\theta}{dt^2} + \frac{g}{l}\theta = 0
-
 $$
 
 
@@ -1994,9 +1954,7 @@ One of the most common frequency domain methods is the spectral analysis. Spectr
 
 
 $$
-
 S_{yy}(f) = \lim_{T \to \infty} E\left[|Y(f)|^2\right]
-
 $$
 
 
@@ -2014,9 +1972,7 @@ Another frequency domain method is the frequency response function (FRF) estimat
 
 
 $$
-
 H(f) = \frac{Y(f)}{X(f)}
-
 $$
 
 
@@ -2054,9 +2010,7 @@ One of the most common time domain methods is the impulse response estimation. T
 
 
 $$
-
 h(t) = \frac{dY(t)}{dt}
-
 $$
 
 
@@ -2070,9 +2024,7 @@ Another time domain method is the step response estimation. The step response of
 
 
 $$
-
 s(t) = \int_0^t h(\tau) d\tau
-
 $$
 
 
@@ -2086,9 +2038,7 @@ A third time domain method is the correlation analysis. Correlation analysis inv
 
 
 $$
-
 R_{xy}(t) = E[x(t) y(t)]
-
 $$
 
 
@@ -2114,9 +2064,7 @@ One of the most common nonparametric models is the histogram model. The histogra
 
 
 $$
-
 p(y) = \frac{1}{N} \sum_{i=1}^{N} \delta(y - y_i)
-
 $$
 
 
@@ -2130,9 +2078,7 @@ Another common nonparametric model is the kernel density estimator. The kernel d
 
 
 $$
-
 p(y) = \frac{1}{N} \sum_{i=1}^{N} K(y - y_i)
-
 $$
 
 
@@ -2146,9 +2092,7 @@ A third common nonparametric model is the nearest neighbor model. The nearest ne
 
 
 $$
-
 y(t) = \frac{1}{k} \sum_{i=1}^{k} y(t_i)
-
 $$
 
 
@@ -2178,9 +2122,7 @@ One of the most common techniques is the use of a validation dataset. This invol
 
 
 $$
-
 MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-
 $$
 
 
@@ -2330,9 +2272,7 @@ Persistence of excitation, on the other hand, is a property of the input signal 
 
 
 Throughout this chapter, we will use mathematical expressions and equations to illustrate key concepts. For instance, the input signal might be represented as `$u(t)$`, and the system output as `$y(t)$`. Equations will be formatted using the `$` and `$$` delimiters, such as `$$
-
 \Delta w = ...
-
 $$`, to ensure clarity and ease of understanding.
 
 
@@ -2434,9 +2374,7 @@ Optimal input design methods aim to design an input signal that maximizes the in
 
 
 $$
-
 \max_{u} \det(F(u))
-
 $$
 
 
@@ -2450,9 +2388,7 @@ where $F(u)$ is the Fisher information matrix and $u$ is the input signal. The s
 
 
 $$
-
 \max_{u} E[\det(F(u))]
-
 $$
 
 
@@ -2486,9 +2422,7 @@ Mathematically, a signal $u(t)$ is said to be persistently exciting of order $q$
 
 
 $$
-
 \int_{t}^{t+T} u(\tau)u^T(\tau) d\tau > 0
-
 $$
 
 
@@ -2526,9 +2460,7 @@ The first condition is related to the order of persistence of excitation. As men
 
 
 $$
-
 \int_{t}^{t+T} u(\tau)u^T(\tau) d\tau > 0
-
 $$
 
 
@@ -2762,9 +2694,7 @@ LCGs are one of the oldest and most well-known methods for generating pseudo-ran
 
 
 $$
-
 X_{n+1} = (aX_n + c) \mod m
-
 $$
 
 
@@ -2810,9 +2740,7 @@ The power spectral density of a sequence is a measure of the sequence's power in
 
 
 $$
-
 S_x(f) = \sum_{k=-\infty}^{\infty} R_x[k] e^{-j2\pi fk}
-
 $$
 
 
@@ -2878,9 +2806,7 @@ Consider a system with an unknown impulse response $h[n]$. If we input a pseudo-
 
 
 $$
-
 \hat{h}[n] = \frac{1}{N} \sum_{k=0}^{N-1} y[k] x[k-n]
-
 $$
 
 
@@ -3050,9 +2976,7 @@ Mathematically, if we have a system of linear equations represented as $Y = X\be
 
 
 $$
-
 \hat{\beta} = (X'X)^{-1}X'Y
-
 $$
 
 
@@ -3090,9 +3014,7 @@ Mathematically, if we denote the weights by the diagonal matrix $W$, the WLS est
 
 
 $$
-
 \hat{\beta}_{WLS} = (X'WX)^{-1}X'WY
-
 $$
 
 
@@ -3126,9 +3048,7 @@ Mathematically, the RLS algorithm can be described as follows. Let $\hat{\beta}(
 
 
 $$
-
 \hat{\beta}(n+1) = \hat{\beta}(n) + K(n)e(n)
-
 $$
 
 
@@ -3138,9 +3058,7 @@ where $K(n)$ is the gain vector, which determines how much the estimate is adjus
 
 
 $$
-
 K(n) = P(n)x(n)\left[\lambda + x(n)'P(n)x(n)\right]^{-1}
-
 $$
 
 
@@ -3150,9 +3068,7 @@ where $P(n)$ is the covariance matrix of the parameter estimates, and $\lambda$ 
 
 
 $$
-
 P(n+1) = \frac{1}{\lambda}\left[P(n) - K(n)x(n)'P(n)\right]
-
 $$
 
 
@@ -3178,9 +3094,7 @@ Formally, an estimator $\hat{\theta}_n$ is said to be consistent if for any $\ep
 
 
 $$
-
 \lim_{n \to \infty} P(|\hat{\theta}_n - \theta| > \epsilon) = 0
-
 $$
 
 
@@ -3218,9 +3132,7 @@ Mathematically, the Cramér-Rao lower bound is defined as:
 
 
 $$
-
 Var(\hat{\theta}_n) \geq [I(\theta)]^{-1}
-
 $$
 
 
@@ -3254,9 +3166,7 @@ Mathematically, an estimator $\hat{\theta}_n$ is said to be unbiased if:
 
 
 $$
-
 E(\hat{\theta}_n) = \theta
-
 $$
 
 
@@ -3294,9 +3204,7 @@ Mathematically, an estimator $\hat{\theta}_n$ is said to be robust if it continu
 
 
 $$
-
 \hat{\theta}_n = \theta + \delta
-
 $$
 
 
@@ -3462,9 +3370,7 @@ One of the most common parametrized model structures used in system identificati
 
 
 $$
-
 y(t) = -a_1y(t-1) - a_2y(t-2) - ... - a_ny(t-n) + b_0u(t-d) + b_1u(t-d-1) + ... + b_mu(t-d-m) + e(t)
-
 $$
 
 
@@ -3494,9 +3400,7 @@ The ARMAX model is defined by the equation:
 
 
 $$
-
 y(t) = -a_1y(t-1) - a_2y(t-2) - ... - a_ny(t-n) + b_0u(t-d) + b_1u(t-d-1) + ... + b_mu(t-d-m) + c_1e(t-1) + c_2e(t-2) + ... + c_qe(t-q) + e(t)
-
 $$
 
 
@@ -3530,9 +3434,7 @@ The OE model is defined by the equation:
 
 
 $$
-
 y(t) = -b_0u(t-d) - b_1u(t-d-1) - ... - b_mu(t-d-m) + e(t)
-
 $$
 
 
@@ -3570,9 +3472,7 @@ The state equation is given by:
 
 
 $$
-
 x(t+1) = Ax(t) + Bu(t) + w(t)
-
 $$
 
 
@@ -3582,9 +3482,7 @@ and the output equation is given by:
 
 
 $$
-
 y(t) = Cx(t) + Du(t) + v(t)
-
 $$
 
 
@@ -3622,9 +3520,7 @@ The one-step predictor for a linear time-invariant system can be formulated as f
 
 
 $$
-
 \hat{y}(t+1|t) = \Phi(t) \theta
-
 $$
 
 
@@ -3638,9 +3534,7 @@ The regression vector $\Phi(t)$ is typically composed of past inputs and outputs
 
 
 $$
-
 \Phi(t) = [-y(t), -y(t-1), ..., -y(t-n_a), u(t-1), ..., u(t-n_b)]
-
 $$
 
 
@@ -3674,9 +3568,7 @@ The least squares method is a popular choice for parameter estimation due to its
 
 
 $$
-
 \hat{\theta}_{LS} = \arg\min_{\theta} \sum_{t=1}^N (y(t) - \Phi(t) \theta)^2
-
 $$
 
 
@@ -3694,9 +3586,7 @@ The maximum likelihood method is a more general method that can handle a wider r
 
 
 $$
-
 \hat{\theta}_{ML} = \arg\max_{\theta} \prod_{t=1}^N p(y(t) | \Phi(t), \theta)
-
 $$
 
 
@@ -3722,9 +3612,7 @@ The prediction error for a given set of data $\{y(t), u(t)\}_{t=1}^N$ and a para
 
 
 $$
-
 e(t) = y(t) - \Phi(t) \hat{\theta}
-
 $$
 
 
@@ -3758,9 +3646,7 @@ The autocorrelation of the prediction error can be computed using the following 
 
 
 $$
-
 R_e(\tau) = \frac{1}{N} \sum_{t=1}^{N-\tau} e(t) e(t+\tau)
-
 $$
 
 
@@ -4018,9 +3904,7 @@ For a parameter $\theta$, the 95% confidence interval is given by:
 
 
 $$
-
 \hat{\theta} \pm 1.96 \cdot SE(\hat{\theta})
-
 $$
 
 
@@ -4042,9 +3926,7 @@ A common test statistic is the t-statistic, given by:
 
 
 $$
-
 t = \frac{\hat{\theta} - \theta_0}{SE(\hat{\theta})}
-
 $$
 
 
@@ -4066,9 +3948,7 @@ For a system with $p$ parameters, the FIM is a $p \times p$ matrix given by:
 
 
 $$
-
 I(\theta) = -E\left[ \frac{\partial^2 \log L(\theta|y)}{\partial \theta \partial \theta'} \right]
-
 $$
 
 
@@ -4242,9 +4122,7 @@ Formally, let's consider a system model with parameters $\theta$ and observed da
 
 
 $$
-
 L(\theta; D) = P(D | \theta)
-
 $$
 
 
@@ -4254,9 +4132,7 @@ The MLE method aims to find the parameter values $\hat{\theta}$ that maximize th
 
 
 $$
-
 \hat{\theta} = \arg\max_{\theta} L(\theta; D)
-
 $$
 
 
@@ -4266,9 +4142,7 @@ In practice, it is often more convenient to work with the log-likelihood functio
 
 
 $$
-
 l(\theta; D) = \log L(\theta; D)
-
 $$
 
 
@@ -4278,9 +4152,7 @@ And the optimization problem becomes:
 
 
 $$
-
 \hat{\theta} = \arg\max_{\theta} l(\theta; D)
-
 $$
 
 
@@ -4310,9 +4182,7 @@ The principle behind Bayesian Estimation is based on Bayes' theorem, which state
 
 
 $$
-
 P(\theta | D) = \frac{P(D | \theta)P(\theta)}{P(D)}
-
 $$
 
 
@@ -4354,9 +4224,7 @@ Mathematically, suppose we have a system model given by:
 
 
 $$
-
 y = X\theta + e
-
 $$
 
 
@@ -4370,9 +4238,7 @@ In IV estimation, we find an instrumental variable $Z$ that is correlated with $
 
 
 $$
-
 \hat{\theta}_{IV} = (Z'X)^{-1}Z'y
-
 $$
 
 
@@ -4410,9 +4276,7 @@ Mathematically, suppose we have a system model given by:
 
 
 $$
-
 y = H\theta + e
-
 $$
 
 
@@ -4422,9 +4286,7 @@ where $y$ is the output, $H$ is the system matrix, $\theta$ is the parameter vec
 
 
 $$
-
 \hat{H} = P_SH
-
 $$
 
 
@@ -4434,9 +4296,7 @@ where $P_S$ is the projection operator onto the subspace $S$. The parameter vect
 
 
 $$
-
 \hat{\theta}_{SM} = (\hat{H}'\hat{H})^{-1}\hat{H}'y
-
 $$
 
 
@@ -4602,9 +4462,7 @@ The MPE estimation framework is built around the concept of minimizing the predi
 
 
 $$
-
 e(n) = y(n) - \hat{y}(n)
-
 $$
 
 
@@ -4614,9 +4472,7 @@ The goal of the MPE paradigm is to find the model parameters that minimize the s
 
 
 $$
-
 \min_{\theta} \sum_{n=1}^{N} e^2(n)
-
 $$
 
 
@@ -4650,9 +4506,7 @@ The PEC is defined as the sum of the squared prediction errors, which is the sam
 
 
 $$
-
 PEC(\theta) = \sum_{n=1}^{N} e^2(n)
-
 $$
 
 
@@ -4670,9 +4524,7 @@ It's important to note that the PEC is a function of the model parameters $\thet
 
 
 $$
-
 \min_{\theta} PEC(\theta)
-
 $$
 
 
@@ -4754,9 +4606,7 @@ Given a set of observations $y_1, y_2, ..., y_N$, the likelihood function $L(\th
 
 
 $$
-
 L(\theta; y_1, y_2, ..., y_N) = \prod_{i=1}^{N} p(y_i; \theta)
-
 $$
 
 
@@ -4770,9 +4620,7 @@ The ML estimates of the model parameters $\theta$ are the values that maximize t
 
 
 $$
-
 \hat{\theta}_{ML} = \arg\max_{\theta} L(\theta; y_1, y_2, ..., y_N)
-
 $$
 
 
@@ -4832,9 +4680,7 @@ The likelihood function $L(\theta; y_1, y_2, ..., y_N)$ is defined as the joint 
 
 
 $$
-
 L(\theta; y_1, y_2, ..., y_N) = \prod_{i=1}^{N} p(y_i; \theta)
-
 $$
 
 
@@ -4852,9 +4698,7 @@ In practice, it is often more convenient to work with the log-likelihood functio
 
 
 $$
-
 \log L(\theta; y_1, y_2, ..., y_N) = \sum_{i=1}^{N} \log p(y_i; \theta)
-
 $$
 
 
@@ -5078,9 +4922,7 @@ Asymptotic convergence is a specific type of convergence that is particularly re
 
 
 $$
-
 \lim_{{n \to \infty}} P(|\hat{\theta}_n - \theta| > \epsilon) = 0
-
 $$
 
 
@@ -5114,9 +4956,7 @@ Mathematically, an estimator $\hat{\theta}_n$ is consistent for a parameter $\th
 
 
 $$
-
 \lim_{{n \to \infty}} P(|\hat{\theta}_n - \theta| > \epsilon) = 0
-
 $$
 
 
@@ -5170,9 +5010,7 @@ Convergence in probability is another crucial concept in system identification. 
 
 
 $$
-
 \lim_{n \to \infty} P(|X_n - X| < \epsilon) = 1
-
 $$
 
 
@@ -5578,9 +5416,7 @@ We will further delve into the mathematical underpinnings of convergence, using 
 
 
 $$
-
 \Delta w = -\eta \nabla L(w)
-
 $$
 
 
@@ -5618,9 +5454,7 @@ An estimator is said to be consistent if it converges in probability to the true
 
 
 $$
-
 \lim_{n \to \infty} P(|\hat{\theta}_n - \theta| > \epsilon) = 0
-
 $$
 
 
@@ -5638,9 +5472,7 @@ Asymptotic normality, on the other hand, refers to the property that the distrib
 
 
 $$
-
 \sqrt{n}(\hat{\theta}_n - \theta) \xrightarrow{d} N(0, \sigma^2)
-
 $$
 
 
@@ -5670,9 +5502,7 @@ An important concept related to consistency is bias. The bias of an estimator $\
 
 
 $$
-
 \text{Bias}(\hat{\theta}_n) = E[\hat{\theta}_n - \theta]
-
 $$
 
 
@@ -5922,9 +5752,7 @@ The prediction error, denoted as $e(n)$, is the difference between the actual ou
 
 
 $$
-
 e(n) = y(n) - \hat{y}(n)
-
 $$
 
 
@@ -5942,9 +5770,7 @@ The asymptotic distribution of prediction errors is typically assumed to be Gaus
 
 
 $$
-
 p(e) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{e^2}{2\sigma^2}}
-
 $$
 
 
@@ -5978,9 +5804,7 @@ For a Gaussian distribution, the 95% confidence interval for the mean $\mu$ is g
 
 
 $$
-
 \mu \pm 1.96 \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -5994,9 +5818,7 @@ In the context of PEM, the mean corresponds to the estimated system parameters, 
 
 
 $$
-
 \hat{\theta} \pm 1.96 \frac{\sigma}{\sqrt{n}}
-
 $$
 
 
@@ -6034,9 +5856,7 @@ For a Gaussian distribution, the test statistic for testing the hypothesis that 
 
 
 $$
-
 Z = \frac{\hat{\mu} - \mu_0}{\sigma / \sqrt{n}}
-
 $$
 
 
@@ -6050,9 +5870,7 @@ In the context of PEM, the test statistic for testing the hypothesis that a part
 
 
 $$
-
 Z = \frac{\hat{\theta} - \theta_0}{\sigma / \sqrt{n}}
-
 $$
 
 
@@ -6082,9 +5900,7 @@ One common goodness-of-fit measure is the chi-square statistic, which is used to
 
 
 $$
-
 \chi^2 = \sum_{i=1}^{n} \frac{(O_i - E_i)^2}{E_i}
-
 $$
 
 
@@ -6098,9 +5914,7 @@ Another commonly used goodness-of-fit measure is the coefficient of determinatio
 
 
 $$
-
 R^2 = 1 - \frac{SS_{res}}{SS_{tot}}
-
 $$
 
 
@@ -6296,7 +6110,6 @@ The identification conditions for Instrumental Variable (IV) methods are crucial
 
 
     $$
-
     Cov(X, Z) \neq 0
 
     $$
@@ -6826,13 +6639,11 @@ The Cramér-Rao lower bound is a fundamental concept in statistics that provides
 Mathematically, the Cramér-Rao lower bound is given by:
 
 
-
 $$
 
 Var(\hat{\theta}) \geq \frac{1}{I(\theta)}
 
 $$
-
 
 
 where $Var(\hat{\theta})$ is the variance of the estimator, $I(\theta)$ is the Fisher information, and $\theta$ is the true value of the parameter being estimated.
@@ -6862,13 +6673,11 @@ The Asymptotic Cramér-Rao Bound is a concept that extends the Cramér-Rao lower
 Mathematically, the Asymptotic Cramér-Rao Bound is given by:
 
 
-
 $$
 
 \lim_{n \to \infty} Var(\hat{\theta}) \geq \frac{1}{I(\theta)}
 
 $$
-
 
 
 where $Var(\hat{\theta})$ is the variance of the estimator, $I(\theta)$ is the Fisher information, and $\theta$ is the true value of the parameter being estimated.
@@ -6902,13 +6711,11 @@ Asymptotic bias, as the name suggests, refers to the bias of an estimator as the
 Mathematically, the asymptotic bias of an estimator $\hat{\theta}$ for a parameter $\theta$ is given by:
 
 
-
 $$
 
 \lim_{n \to \infty} E(\hat{\theta}) - \theta
 
 $$
-
 
 
 where $E(\hat{\theta})$ is the expected value of the estimator.
@@ -6942,13 +6749,11 @@ Asymptotic variance, as the term implies, refers to the variance of an estimator
 Mathematically, the asymptotic variance of an estimator $\hat{\theta}$ for a parameter $\theta$ is given by:
 
 
-
 $$
 
 \lim_{n \to \infty} Var(\hat{\theta})
 
 $$
-
 
 
 where $Var(\hat{\theta})$ is the variance of the estimator.
@@ -7118,13 +6923,11 @@ Numerical methods play a crucial role in the computation aspect of system identi
 One of the most common numerical methods used in system identification is the method of least squares. This method is used to estimate the parameters of a model by minimizing the sum of the squares of the differences between the observed and predicted values. The least squares method can be expressed mathematically as:
 
 
-
 $$
 
 \min_{\theta} \sum_{i=1}^{n} (y_i - f(x_i, \theta))^2
 
 $$
-
 
 
 where $y_i$ are the observed values, $f(x_i, \theta)$ are the predicted values, and $\theta$ are the parameters to be estimated.
@@ -7134,13 +6937,11 @@ where $y_i$ are the observed values, $f(x_i, \theta)$ are the predicted values, 
 Another important numerical method used in system identification is the Newton-Raphson method. This method is used to find the roots of a function, which is often necessary when solving optimization problems. The Newton-Raphson method iteratively refines an initial guess for the root until a satisfactory solution is found. The method can be expressed mathematically as:
 
 
-
 $$
 
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
 
 $$
-
 
 
 where $x_n$ is the current guess for the root, $f(x_n)$ is the value of the function at $x_n$, and $f'(x_n)$ is the derivative of the function at $x_n$.
@@ -7166,13 +6967,11 @@ Optimization techniques are essential tools in the field of system identificatio
 One of the most common optimization techniques used in system identification is gradient descent. This method iteratively adjusts the parameters of a model in the direction of steepest descent of the cost function until a minimum is reached. The update rule for gradient descent can be expressed mathematically as:
 
 
-
 $$
 
 \theta_{n+1} = \theta_n - \alpha \nabla J(\theta_n)
 
 $$
-
 
 
 where $\theta_n$ are the current parameters, $\alpha$ is the learning rate, and $\nabla J(\theta_n)$ is the gradient of the cost function at $\theta_n$.
@@ -7182,13 +6981,11 @@ where $\theta_n$ are the current parameters, $\alpha$ is the learning rate, and 
 Another important optimization technique used in system identification is the method of Lagrange multipliers. This method is used to find the local maxima and minima of a function subject to equality constraints. The Lagrangian function, which is the function to be optimized plus a term for each constraint, can be expressed mathematically as:
 
 
-
 $$
 
 L(\theta, \lambda) = f(\theta) - \sum_{i=1}^{m} \lambda_i g_i(\theta)
 
 $$
-
 
 
 where $\theta$ are the parameters, $f(\theta)$ is the function to be optimized, $\lambda_i$ are the Lagrange multipliers, and $g_i(\theta)$ are the constraints.
@@ -8010,13 +7807,11 @@ The researchers collected data from the building's HVAC system, including temper
 Consider a DC motor, a common component in many industrial systems. The motor's dynamics can be described by the following differential equation:
 
 
-
 $$
 
 J\frac{d^2\theta}{dt^2} = -b\frac{d\theta}{dt} + Kti - T_L
 
 $$
-
 
 
 where $J$ is the moment of inertia, $b$ is the damping coefficient, $Kt$ is the torque constant, $i$ is the current, and $T_L$ is the load torque. 
@@ -8218,7 +8013,6 @@ In this chapter, we will delve into the mathematical foundations of error filter
 Throughout this chapter, we will use mathematical notation to express key concepts and principles. For instance, the error signal at a given time instant `n` might be denoted as `$e(n)$`, and the system output as `$y(n)$`. The relationship between these variables might be expressed using equations such as `$$
 
 e(n) = y(n) - \hat{y}(n)
-
 $$`, where `$\hat{y}(n)$` represents the estimated system output.
 
 
@@ -8248,9 +8042,7 @@ Error detection involves identifying the presence of errors in the system output
 
 
 $$
-
 e(n) = y(n) - \hat{y}(n)
-
 $$
 
 
@@ -8316,9 +8108,7 @@ The predicted state estimate is given by:
 
 
 $$
-
 \hat{x}_{k|k-1} = A\hat{x}_{k-1|k-1} + Bu_{k}
-
 $$
 
 
@@ -8328,9 +8118,7 @@ The predicted estimate covariance is given by:
 
 
 $$
-
 P_{k|k-1} = AP_{k-1|k-1}A^T + Q
-
 $$
 
 
@@ -8348,9 +8136,7 @@ The Kalman gain is given by:
 
 
 $$
-
 K_k = P_{k|k-1}H^T(HP_{k|k-1}H^T + R)^{-1}
-
 $$
 
 
@@ -8360,9 +8146,7 @@ The updated (corrected) state estimate is given by:
 
 
 $$
-
 \hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(z_k - H\hat{x}_{k|k-1})
-
 $$
 
 
@@ -8372,9 +8156,7 @@ The updated (corrected) estimate covariance is given by:
 
 
 $$
-
 P_{k|k} = (I - K_kH)P_{k|k-1}
-
 $$
 
 
@@ -8412,9 +8194,7 @@ The predicted state for each particle is given by:
 
 
 $$
-
 x_{k}^{(i)} = f(x_{k-1}^{(i)}, u_{k}, w_{k}^{(i)})
-
 $$
 
 
@@ -8432,9 +8212,7 @@ The weight of each particle is updated based on the likelihood of the observed m
 
 
 $$
-
 w_{k}^{(i)} = w_{k-1}^{(i)}g(z_{k}, x_{k}^{(i)}, v_{k})
-
 $$
 
 
@@ -8448,9 +8226,7 @@ After the weights are updated, they are normalized so that they sum to one:
 
 
 $$
-
 w_{k}^{(i)} = \frac{w_{k}^{(i)}}{\sum_{j=1}^{N} w_{k}^{(j)}}
-
 $$
 
 
@@ -8484,9 +8260,7 @@ The Moving Average method is a simple and effective technique for smoothing data
 
 
 $$
-
 y_{t} = \frac{1}{n} \sum_{i=0}^{n-1} x_{t-i}
-
 $$
 
 
@@ -8504,9 +8278,7 @@ Exponential Smoothing is a more sophisticated smoothing technique that gives mor
 
 
 $$
-
 y_{t} = \alpha x_{t} + (1 - \alpha) y_{t-1}
-
 $$
 
 
@@ -8680,9 +8452,7 @@ The AIC is defined as:
 
 
 $$
-
 AIC = 2k - 2\ln(L)
-
 $$
 
 
@@ -8696,9 +8466,7 @@ Similarly, the BIC is defined as:
 
 
 $$
-
 BIC = \ln(n)k - 2\ln(L)
-
 $$
 
 
@@ -8732,9 +8500,7 @@ The AIC, proposed by Hirotugu Akaike in 1974, is defined as:
 
 
 $$
-
 AIC = 2k - 2\ln(L)
-
 $$
 
 
@@ -8752,9 +8518,7 @@ The BIC, also known as the Schwarz Information Criterion, is defined as:
 
 
 $$
-
 BIC = \ln(n)k - 2\ln(L)
-
 $$
 
 
@@ -9048,9 +8812,7 @@ One of the most commonly used model selection criteria is the Akaike Information
 
 
 $$
-
 AIC = 2k - 2\ln(L)
-
 $$
 
 
@@ -9064,9 +8826,7 @@ Another commonly used model selection criterion is the Bayesian Information Crit
 
 
 $$
-
 BIC = \ln(n)k - 2\ln(L)
-
 $$
 
 
@@ -9104,9 +8864,7 @@ Another technique is the use of residual analysis. Residuals are the difference 
 
 
 $$
-
 e(n) = y(n) - \hat{y}(n)
-
 $$
 
 
@@ -9152,9 +8910,7 @@ Mathematically, overfitting can be represented as a high variance problem. If we
 
 
 $$
-
 \text{Total Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
-
 $$
 
 

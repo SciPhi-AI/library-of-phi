@@ -772,9 +772,7 @@ Euler equations are a set of first-order differential equations that are derived
 
 
 $$
-
 \frac{\partial H}{\partial x} - \frac{d}{dt} \left( \frac{\partial H}{\partial \dot{x}} \right) = 0
-
 $$
 
 
@@ -788,9 +786,7 @@ Transversality conditions, on the other hand, are boundary conditions that are u
 
 
 $$
-
 \lim_{t \to \infty} \lambda(t) x(t) = 0
-
 $$
 
 
@@ -832,9 +828,7 @@ The DDP algorithm begins with the backward pass. If $Q$ is the variation of the 
 
 
 $$
-
 Q = -\ell(\mathbf{x},\mathbf{u}) - V(\mathbf{f}(\mathbf{x},\mathbf{u}),i+1)
-
 $$
 
 
@@ -844,7 +838,6 @@ and expand to second order, we can derive the expansion coefficients as follows:
 
 
 $$
-
 Q_\mathbf{x} = \ell_\mathbf{x}+ \mathbf{f}_\mathbf{x}^\mathsf{T} V'_\mathbf{x} \\
 
 Q_\mathbf{u} = \ell_\mathbf{u}+ \mathbf{f}_\mathbf{u}^\mathsf{T} V'_\mathbf{x} \\
@@ -854,7 +847,6 @@ Q_{\mathbf{x}\mathbf{x}} = \ell_{\mathbf{x}\mathbf{x}} + \mathbf{f}_\mathbf{x}^\
 Q_{\mathbf{u}\mathbf{u}} = \ell_{\mathbf{u}\mathbf{u}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{u}+{V'_\mathbf{x}} \cdot\mathbf{f}_{\mathbf{u} \mathbf{u}}\\
 
 Q_{\mathbf{u}\mathbf{x}} = \ell_{\mathbf{u}\mathbf{x}} + \mathbf{f}_\mathbf{u}^\mathsf{T} V'_{\mathbf{x}\mathbf{x}}\mathbf{f}_\mathbf{x} + {V'_\mathbf{x}} \cdot \mathbf{f}_{\mathbf{u} \mathbf{x}}.
-
 $$
 
 
@@ -896,9 +888,7 @@ The Principle of Optimality is also closely related to Pontryagin's maximum prin
 
 
 $$
-
 H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)
-
 $$
 
 
@@ -1130,9 +1120,7 @@ A function is said to be concave if, for any two points $x, y \in \mathcal{D}$, 
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \geq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -1146,9 +1134,7 @@ Conversely, a function is said to be convex if the inequality is reversed:
 
 
 $$
-
 f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)
-
 $$
 
 
@@ -1162,9 +1148,7 @@ The differentiability of the value function is crucial for the application of th
 
 
 $$
-
 f(x^*) \geq f(x) + (x^* - x)^T \nabla f(x)
-
 $$
 
 
@@ -1194,9 +1178,7 @@ In the context of infinite horizon models, the Bellman equation takes the follow
 
 
 $$
-
 V(x) = \max_{u} \left\{ f(x,u) + \beta V(x') \right\}
-
 $$
 
 
@@ -1230,9 +1212,7 @@ The basic problem in optimal control theory can be stated as follows:
 
 
 $$
-
 \min_{u(.)} \int_{t_0}^{t_f} L(x(t), u(t), t) dt
-
 $$
 
 
@@ -1242,9 +1222,7 @@ subject to the differential equation:
 
 
 $$
-
 \dot{x}(t) = f(x(t), u(t), t)
-
 $$
 
 
@@ -1258,9 +1236,7 @@ The differentiability of the value function plays a crucial role in optimal cont
 
 
 $$
-
 \frac{\partial V}{\partial t} + \min_{u} \left\{ f(x,u) + \frac{\partial V}{\partial x} f(x,u) \right\} = 0
-
 $$
 
 
@@ -1600,9 +1576,7 @@ Throughout this chapter, we will use mathematical models to describe these dynam
 
 
 To facilitate understanding, we will use the popular MathJax library to render mathematical expressions and equations. For example, we might write an inline math expression like `$y_j(n)$` or an equation like `$$
-
 \Delta w = ...
-
 $$`.
 
 
@@ -1636,11 +1610,9 @@ Consider a system given by
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -1658,9 +1630,7 @@ A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS
 
 
 $$
-
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -1690,9 +1660,7 @@ Consider a dynamic system described by the following differential equation:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr)
-
 $$
 
 
@@ -1702,9 +1670,7 @@ An equilibrium point $\mathbf{x}^*$ of the system is a state such that for a con
 
 
 $$
-
 f\bigl(\mathbf{x}^*, \mathbf{u}^*\bigr) = \mathbf{0}
-
 $$
 
 
@@ -1742,9 +1708,7 @@ Consider a market model described by the following continuous-time stochastic di
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -1754,9 +1718,7 @@ where $\mathbf{x}(t)$ is the state of the market, $\mathbf{u}(t)$ is the control
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -1782,9 +1744,7 @@ The Solow-Swan model is described by the following differential equation:
 
 
 $$
-
 \dot{k}(t) = s f(k(t), l(t)) - (n + g + \delta) k(t)
-
 $$
 
 
@@ -1842,9 +1802,7 @@ Consider a dynamic system described by the following differential equation:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t)\bigr)
-
 $$
 
 
@@ -1854,9 +1812,7 @@ where $\mathbf{x}(t)$ is the state of the system and $f(\cdot)$ is the system dy
 
 
 $$
-
 \dot{\mathbf{x}}(t) \approx f\bigl(\mathbf{x}_0\bigr) + \mathbf{J}(\mathbf{x}_0) \bigl(\mathbf{x}(t) - \mathbf{x}_0\bigr)
-
 $$
 
 
@@ -1914,9 +1870,7 @@ Consider an economy described by the following system of differential equations:
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr)
-
 $$
 
 
@@ -1926,9 +1880,7 @@ where $\mathbf{x}(t)$ is the state of the economy (e.g., the levels of output, e
 
 
 $$
-
 \dot{\mathbf{x}}(t) \approx f\bigl(\mathbf{x}_0, \mathbf{u}(t)\bigr) + \mathbf{J}(\mathbf{x}_0, \mathbf{u}(t)) \bigl(\mathbf{x}(t) - \mathbf{x}_0\bigr)
-
 $$
 
 
@@ -2144,9 +2096,7 @@ The farmer's problem can be written as:
 
 
 $$
-
 V(x) = \max_{a \in A} \left\{ u(x,a) + \beta \sum_{x' \in X} p(x'|x,a) V(x') \right\}
-
 $$
 
 
@@ -2188,9 +2138,7 @@ The Bellman equation for this problem is:
 
 
 $$
-
 V(x) = \min_{a \in A} \left\{ c(a) + \beta \sum_{x' \in X} p(x'|x,a) V(x') \right\}
-
 $$
 
 
@@ -2216,9 +2164,7 @@ The Bellman equation for this problem is:
 
 
 $$
-
 V(x) = \max_{a \in A} \left\{ u(x,a) + \beta \sum_{x' \in X} p(x'|x,a) V(x') \right\}
-
 $$
 
 
@@ -2252,9 +2198,7 @@ Formally, a Markov chain is defined as a sequence of random variables $X_1, X_2,
 
 
 $$
-
 P(X_{n+1} = x | X_1 = x_1, X_2 = x_2, ..., X_n = x_n) = P(X_{n+1} = x | X_n = x_n)
-
 $$
 
 
@@ -2558,9 +2502,7 @@ Suppose we have a stochastic volatility model given by the following stochastic 
 
 
 $$
-
 dX_t = \mu(X_t, t) dt + \sigma(X_t, t) dW_t
-
 $$
 
 
@@ -2574,9 +2516,7 @@ The log-likelihood function for this model is given by:
 
 
 $$
-
 \log L(\theta) = \int_{0}^{T} \log f(X_t | \theta) dt
-
 $$
 
 
@@ -2606,9 +2546,7 @@ For instance, consider a control problem with dynamics given by:
 
 
 $$
-
 dX_t = b(X_t, u_t) dt + \sigma dW_t
-
 $$
 
 
@@ -2622,9 +2560,7 @@ The cost function to be minimized is given by:
 
 
 $$
-
 J(u) = E\left[\int_{0}^{T} c(X_t, u_t) dt\right]
-
 $$
 
 
@@ -3054,9 +2990,7 @@ In the context of continuous-time dynamic programming, the HJB equation is given
 
 
 $$
-
 0 = \min_{u} \left\{ f(x,u) + \nabla V(x) \cdot g(x,u) \right\}
-
 $$
 
 
@@ -3106,9 +3040,7 @@ The optimal control problem can be formulated as follows:
 
 
 $$
-
 \min_{u(\cdot)} \int_{t_0}^{t_f} f(x(t), u(t), t) dt
-
 $$
 
 
@@ -3118,9 +3050,7 @@ subject to the state dynamics:
 
 
 $$
-
 \dot{x}(t) = g(x(t), u(t), t), \quad x(t_0) = x_0
-
 $$
 
 
@@ -3134,9 +3064,7 @@ The HJB equation provides a necessary condition for the optimal control policy. 
 
 
 $$
-
 0 = \min_{u} \left\{ f(x,u) + \nabla V(x) \cdot g(x,u) \right\}
-
 $$
 
 
@@ -3174,9 +3102,7 @@ The individual's problem can be formulated as a dynamic optimization problem:
 
 
 $$
-
 \max_{c(\cdot)} \int_{0}^{T} e^{-rt} u(c(t)) dt
-
 $$
 
 
@@ -3186,9 +3112,7 @@ subject to the wealth dynamics:
 
 
 $$
-
 \dot{x}(t) = y - c(t), \quad x(0) = x_0
-
 $$
 
 
@@ -3198,9 +3122,7 @@ The HJB equation for this problem is:
 
 
 $$
-
 0 = \max_{c} \left\{ u(c) - rc + \nabla V(x) \cdot (y - c) \right\}
-
 $$
 
 
@@ -3226,9 +3148,7 @@ The investor's problem can be formulated as a dynamic optimization problem:
 
 
 $$
-
 \max_{\pi(\cdot)} E[u(x(T))]
-
 $$
 
 
@@ -3238,9 +3158,7 @@ subject to the wealth dynamics:
 
 
 $$
-
 \dot{x}(t) = r x(t) + \pi(t) (\mu - r) x(t) - \frac{1}{2} \pi(t)^2 \sigma^2 x(t)^2, \quad x(0) = x_0
-
 $$
 
 
@@ -3250,9 +3168,7 @@ The HJB equation for this problem is:
 
 
 $$
-
 0 = \max_{\pi} \left\{ r x + \pi (\mu - r) x - \frac{1}{2} \pi^2 \sigma^2 x^2 + \nabla V(x) \cdot (r x + \pi (\mu - r) x - \frac{1}{2} \pi^2 \sigma^2 x^2) \right\}
-
 $$
 
 
@@ -3286,9 +3202,7 @@ Consider an economic system that can be described by a set of differential equat
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr)
-
 $$
 
 
@@ -3298,9 +3212,7 @@ The objective is to find a control policy $\mathbf{u}(\cdot)$ that minimizes a c
 
 
 $$
-
 \min_{\mathbf{u}(\cdot)} \int_{0}^{T} J(\mathbf{x}(t), \mathbf{u}(t)) dt
-
 $$
 
 
@@ -3318,9 +3230,7 @@ Consider a system where the state $\mathbf{x}(t)$ evolves according to a stochas
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t)
-
 $$
 
 
@@ -3330,9 +3240,7 @@ where $\mathbf{w}(t)$ is a white noise process with covariance $\mathbf{Q}(t)$. 
 
 
 $$
-
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t)
-
 $$
 
 
@@ -3362,9 +3270,7 @@ Consider an investor who wants to maximize the expected utility of their wealth 
 
 
 $$
-
 \dot{x}(t) = u(t)r(t)x(t) + (1-u(t))r_f(t)x(t) - c(t)
-
 $$
 
 
@@ -3374,9 +3280,7 @@ where $r(t)$ is the return on the risky asset, $r_f(t)$ is the risk-free rate, a
 
 
 $$
-
 \max_{u(\cdot), c(\cdot)} E\left[ U(x(T)) \right]
-
 $$
 
 
@@ -3394,9 +3298,7 @@ Consider a firm that wants to minimize the total cost of inventory management ov
 
 
 $$
-
 \dot{x}(t) = d(t) - u(t)
-
 $$
 
 
@@ -3406,9 +3308,7 @@ where $d(t)$ is the demand at time $t$. The firm's cost function is composed of 
 
 
 $$
-
 \min_{u(\cdot)} \int_{0}^{T} \left[ h(x(t)) + o(u(t)) + s(d(t) - x(t)) \right] dt
-
 $$
 
 
@@ -3816,9 +3716,7 @@ A typical specification of the discrete-time stochastic linear quadratic control
 
 
 $$
-
 E_1 \left[ \sum_{t=0}^{S-1} y_t^T Q y_t + u_t^T R u_t \right]
-
 $$
 
 
@@ -3828,9 +3726,7 @@ where $E_1$ is the expected value operator conditional on $y_0$, superscript $T$
 
 
 $$
-
 y_{t+1} = A_t y_t + B_t u_t
-
 $$
 
 
@@ -4026,9 +3922,7 @@ Consider a functional $J[y]$ with the function $y = y(x)$ as its argument. If th
 
 
 $$
-
 \Delta J[h] = J[y+h] - J[y].
-
 $$
 
 
@@ -4038,9 +3932,7 @@ The functional $J[y]$ is said to be differentiable if
 
 
 $$
-
 \Delta J[h] = \varphi [h] + \varepsilon \|h\|,
-
 $$
 
 
@@ -4050,9 +3942,7 @@ where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h$, and $\var
 
 
 $$
-
 \delta J[h] = \varphi[h].
-
 $$
 
 
@@ -4062,9 +3952,7 @@ The functional $J[y]$ is said to be twice differentiable if
 
 
 $$
-
 \Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,
-
 $$
 
 
@@ -4074,9 +3962,7 @@ where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]
 
 
 $$
-
 \delta^2 J[h] = \varphi_2[h].
-
 $$
 
 
@@ -4194,7 +4080,6 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{u(.)}{\text{minimize}}
@@ -4206,7 +4091,6 @@ $$
 & & \dot{x}(t) = g(t, x(t), u(t)), \quad x(t_0) = x_0
 
 \end{aligned}
-
 $$
 
 
@@ -4224,9 +4108,7 @@ The Hamiltonian function plays a central role in optimal control theory. It is d
 
 
 $$
-
 H(t, x(t), u(t), \lambda(t)) = f(t, x(t), u(t)) + \lambda(t) g(t, x(t), u(t))
-
 $$
 
 
@@ -4264,7 +4146,6 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{u(.)}{\text{maximize}}
@@ -4276,7 +4157,6 @@ $$
 & & \dot{x}(t) = r(t, x(t), u(t)), \quad x(t_0) = x_0
 
 \end{aligned}
-
 $$
 
 
@@ -4298,7 +4178,6 @@ Mathematically, this can be represented as:
 
 
 $$
-
 \begin{aligned}
 
 & \underset{u(.)}{\text{minimize}}
@@ -4310,7 +4189,6 @@ $$
 & & \dot{x}(t) = d(t) - u(t), \quad x(t_0) = x_0
 
 \end{aligned}
-
 $$
 
 
@@ -4776,9 +4654,7 @@ The firm's dynamic optimization problem can be written as:
 
 
 $$
-
 \max_{\{I_t\}} \sum_{t=0}^{\infty} \beta^t \pi(K_t, I_t)
-
 $$
 
 
@@ -4788,9 +4664,7 @@ subject to the capital accumulation equation:
 
 
 $$
-
 K_{t+1} = (1-\delta)K_t + I_t
-
 $$
 
 
@@ -4816,9 +4690,7 @@ The household's dynamic optimization problem can be written as:
 
 
 $$
-
 \max_{\{C_t, L_t\}} \sum_{t=0}^{\infty} \beta^t U(C_t, L_t)
-
 $$
 
 
@@ -4828,9 +4700,7 @@ subject to the budget constraint:
 
 
 $$
-
 C_t + S_{t+1} = w_t L_t + (1+r_t)S_t
-
 $$
 
 
@@ -5130,7 +5000,6 @@ Consider the continuous-time extended Kalman filter model:
 
 
 $$
-
 \begin{align*}
 
 \dot{\mathbf{x}}(t) &= f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) &\mathbf{w}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
@@ -5138,7 +5007,6 @@ $$
 \mathbf{z}(t) &= h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) &\mathbf{v}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 \end{align*}
-
 $$
 
 
@@ -5168,7 +5036,6 @@ The continuous-time extended Kalman filter model is given by:
 
 
 $$
-
 \begin{align*}
 
 \dot{\mathbf{x}}(t) &= f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) &\mathbf{w}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
@@ -5176,7 +5043,6 @@ $$
 \mathbf{z}(t) &= h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) &\mathbf{v}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 \end{align*}
-
 $$
 
 
@@ -5262,9 +5128,7 @@ The diffusion process can be mathematically described using the eigendecompositi
 
 
 $$
-
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j)
-
 $$
 
 
@@ -5614,11 +5478,9 @@ The EKF can handle both continuous-time and discrete-time measurements. In the c
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -5652,11 +5514,9 @@ For example, consider an economic system described by the following nonlinear dy
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
 
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -5746,7 +5606,6 @@ The mathematical formulation of a MOD problem can be written as follows:
 
 
 $$
-
 \begin{align*}
 
 \min_{\mathbf{x}(t),\mathbf{u}(t)} & \ \mathbf{f}(\mathbf{x}(t),\mathbf{u}(t)) \\
@@ -5756,7 +5615,6 @@ $$
 & \ \mathbf{x}(t_0) = \mathbf{x}_0, \ \mathbf{x}(t_f) = \mathbf{x}_f
 
 \end{align*}
-
 $$
 
 
@@ -5906,9 +5764,7 @@ A typical specification of the discrete-time stochastic linear quadratic control
 
 
 $$
-
 E_1 \left[ \sum_{t=0}^{S-1} (y_t^T Q y_t + u_t^T R u_t) + y_S^T Q y_S \right]
-
 $$
 
 
@@ -5918,9 +5774,7 @@ where $E_1$ is the expected value operator conditional on $y_0$, superscript T i
 
 
 $$
-
 y_{t+1} = A_t y_t + B_t u_t
-
 $$
 
 
@@ -6140,25 +5994,16 @@ For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argum
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 The second variation $\delta^2 J[h]$ is said to be strongly positive if $\delta^2 J[h] > 0$ for all nonzero $h,$ and this is a sufficient condition for $J[y]$ to be a local minimum. This is analogous to the second derivative test in ordinary calculus.
@@ -6296,7 +6141,6 @@ Pontryagin's maximum principle is a cornerstone of optimal control theory. It pr
 The principle states that for an optimal control problem with dynamics given by $\dot{x}=f(x,u)$, where $x$ is the state of the system, $u$ is the control, and $f$ is a function describing the system dynamics, the optimal control $u^*$ and corresponding state trajectory $x^*$ must minimize the Hamiltonian $H$ defined as:
 
 
-
 $$
 
 H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))
@@ -6304,9 +6148,7 @@ H(x(t),u(t),\lambda(t),t)=\lambda^{\rm T}(t)f(x(t),u(t))+L(x(t),u(t))
 $$
 
 
-
 where $\lambda$ is the costate variable, $L$ is the Lagrangian, and $\lambda^{\rm T}$ is the transpose of $\lambda$. This means that:
-
 
 
 $$
@@ -6316,13 +6158,11 @@ H(x^*(t),u^*(t),\lambda^*(t),t)\leq H(x(t),u,\lambda(t),t)
 $$
 
 
-
 for all time $t \in [0,T]$ and for all permissible control inputs $u \in \mathcal{U}$.
 
 
 
 Additionally, the costate equation and its terminal conditions must be satisfied:
-
 
 
 $$
@@ -6331,14 +6171,11 @@ $$
 
 $$
 
-
-
 $$
 
 \lambda^{\rm T}(T)=\Psi_x(x(T))
 
 $$
-
 
 
 where $H_x$, $f_x$, and $L_x$ are the partial derivatives of $H$, $f$, and $L$ with respect to $x$, and $\Psi_x$ is the partial derivative of the terminal cost function $\Psi$ with respect to $x$.
@@ -6460,13 +6297,11 @@ In the context of dynamic optimization, dynamic programming can be used to solve
 Consider a dynamic optimization problem where the state of the system at time $t$ is denoted by $x_t$, the decision variable by $u_t$, and the cost function by $c(x_t, u_t)$. The decision maker's problem at time $t$ can then be written as:
 
 
-
 $$
 
 V(x_t) = \min_{u_t} \left\{ c(x_t, u_t) + V(x_{t+1}) \right\}
 
 $$
-
 
 
 where $V(x_{t+1})$ is the value of the decision problem at the next period. This equation is known as the Bellman equation, and it is the fundamental equation of dynamic programming.
@@ -6496,7 +6331,6 @@ Dynamic programming has a wide range of applications in various fields, includin
 In economic planning, dynamic programming can be used to determine the optimal allocation of resources over time. Consider an economy with a finite number of periods $T$ and a single good. The planner's problem is to choose the amount of the good to consume and invest in each period to maximize the sum of utilities over all periods. This problem can be formulated as a dynamic programming problem as follows:
 
 
-
 $$
 
 V(x_t) = \max_{c_t} \left\{ u(c_t) + \beta V(x_{t+1}) \right\}
@@ -6504,9 +6338,7 @@ V(x_t) = \max_{c_t} \left\{ u(c_t) + \beta V(x_{t+1}) \right\}
 $$
 
 
-
 where $x_t$ is the amount of the good at time $t$, $c_t$ is the amount of the good consumed at time $t$, $u(c_t)$ is the utility from consuming $c_t$, and $\beta$ is the discount factor. The Bellman equation for this problem is:
-
 
 
 $$
@@ -6514,7 +6346,6 @@ $$
 V(x_t) = \max_{c_t} \left\{ u(c_t) + \beta V(f(x_t - c_t)) \right\}
 
 $$
-
 
 
 where $f(x_t - c_t)$ is the amount of the good at time $t+1$ after consuming $c_t$ and investing $x_t - c_t$ at time $t$.
@@ -6532,7 +6363,6 @@ Dynamic programming is also widely used in optimal control problems. In these pr
 For example, consider a firm that wants to minimize its production cost over time. The firm's problem can be formulated as a dynamic programming problem as follows:
 
 
-
 $$
 
 V(x_t, u_t) = \min_{u_t} \left\{ c(x_t, u_t) + \beta V(x_{t+1}, u_{t+1}) \right\}
@@ -6540,9 +6370,7 @@ V(x_t, u_t) = \min_{u_t} \left\{ c(x_t, u_t) + \beta V(x_{t+1}, u_{t+1}) \right\
 $$
 
 
-
 where $x_t$ is the state of the firm at time $t$, $u_t$ is the control variable at time $t$, and $c(x_t, u_t)$ is the cost of production at time $t$. The Bellman equation for this problem is:
-
 
 
 $$
@@ -6550,7 +6378,6 @@ $$
 V(x_t, u_t) = \min_{u_t} \left\{ c(x_t, u_t) + \beta V(f(x_t, u_t), u_{t+1}) \right\}
 
 $$
-
 
 
 where $f(x_t, u_t)$ is the state of the firm at time $t+1$ after applying the control $u_t$ at time $t$.
@@ -6846,13 +6673,11 @@ The Bellman equation, named after Richard Bellman, is a fundamental tool in dyna
 For example, in the context of the firm's investment problem mentioned earlier, the Bellman equation might look something like this:
 
 
-
 $$
 
 V(K) = \max_{I} \{ F(K,I) + \beta V(K') \}
 
 $$
-
 
 
 where $V(K)$ is the value function representing the maximum total profit that the firm can achieve with a given amount of capital $K$, $F(K,I)$ is the profit function representing the profit that the firm can make in the current period with capital $K$ and investment $I$, $\beta$ is the discount factor representing the firm's time preference, and $K'$ is the amount of capital that will be available in the next period after the investment $I$ is made.
@@ -7176,13 +7001,11 @@ Dynamic systems, on the other hand, are systems that evolve over time according 
 Consider the continuous-time model of a dynamic system represented by the following differential equation:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
 
 $$
-
 
 
 Here, $\mathbf{x}(t)$ represents the state of the system at time $t$, $\mathbf{u}(t)$ represents the control input, $f$ is the system function that describes how the state evolves over time, and $\mathbf{w}(t)$ is a Gaussian noise term with zero mean and covariance matrix $\mathbf{Q}(t)$.
@@ -7192,13 +7015,11 @@ Here, $\mathbf{x}(t)$ represents the state of the system at time $t$, $\mathbf{u
 The state of the system is observed through the measurement model:
 
 
-
 $$
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 $$
-
 
 
 where $\mathbf{z}(t)$ is the measurement, $h$ is the measurement function, and $\mathbf{v}(t)$ is a Gaussian noise term with zero mean and covariance matrix $\mathbf{R}(t)$.
@@ -7224,7 +7045,6 @@ The EKF is a recursive filter that estimates the state of a dynamic system from 
 Let's consider a continuous-time model of a dynamic system represented by the following differential equation:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
@@ -7232,9 +7052,7 @@ $$
 $$
 
 
-
 The state of the system is observed through the measurement model:
-
 
 
 $$
@@ -7244,9 +7062,7 @@ $$
 $$
 
 
-
 In the EKF, the prediction and update steps are coupled. The predicted state $\hat{\mathbf{x}}(t)$ and the covariance matrix $\mathbf{P}(t)$ evolve according to the following differential equations:
-
 
 
 $$
@@ -7255,14 +7071,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
 
 $$
-
 
 
 where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the Jacobian of $f$ with respect to $\mathbf{x}$, and $\mathbf{H}(t)$ is the Jacobian of $h$ with respect to $\mathbf{x}$.
@@ -7686,7 +7499,6 @@ The mathematical formulation of the EKF is as follows:
 The system model is given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
@@ -7694,9 +7506,7 @@ $$
 $$
 
 
-
 The measurement model is given by:
-
 
 
 $$
@@ -7706,9 +7516,7 @@ $$
 $$
 
 
-
 The EKF prediction-update equations are:
-
 
 
 $$
@@ -7717,14 +7525,11 @@ $$
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
 
 $$
-
 
 
 where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the Jacobian of the system model with respect to the state, and $\mathbf{H}(t)$ is the Jacobian of the measurement model with respect to the state.
@@ -7774,21 +7579,17 @@ The EKF operates in two steps: prediction and update. In the prediction step, th
 The mathematical formulation of the EKF prediction-update equations is:
 
 
-
 $$
 
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)
 
 $$
 
-
-
 $$
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{R}(t)\mathbf{K}(t)^{T}
 
 $$
-
 
 
 where $\mathbf{K}(t)$ is the Kalman gain, $\mathbf{F}(t)$ is the Jacobian of the system model, and $\mathbf{P}(t)$ is the state covariance matrix.
@@ -8022,7 +7823,6 @@ In the discrete-time case with uncertainty about the parameter values in the tra
 A typical specification of the discrete-time stochastic linear quadratic control problem is to minimize
 
 
-
 $$
 
 E_1 \left[ \sum_{t=1}^{S} (y_t^T Q y_t + u_t^T R u_t) \right]
@@ -8030,9 +7830,7 @@ E_1 \left[ \sum_{t=1}^{S} (y_t^T Q y_t + u_t^T R u_t) \right]
 $$
 
 
-
 where $E_1$ is the expected value operator conditional on $y_0$, superscript $T$ indicates a matrix transpose, and $S$ is the time horizon, subject to the state equation
-
 
 
 $$
@@ -8040,7 +7838,6 @@ $$
 y_{t+1} = A_t y_t + B_t u_t
 
 $$
-
 
 
 where $y$ is an $n \times 1$ vector of observable state variables, $u$ is a $k \times 1$ vector of control variables, $A_t$ is the time $t$ realization of the stochastic $n \times n$ state transition matrix, $B_t$ is the time $t$ realization of the stochastic $n \times k$ matrix of control multipliers, and $Q$ ($n \times n$) and $R$ ($k \times k$) are known symmetric positive definite matrices[^1^].
@@ -8250,29 +8047,19 @@ The calculus of variations is concerned with variations of functionals, which ar
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi_1 [h] + \varphi_2 [h] + \varepsilon \|h\|^2,$$
-
 where $\varphi_1[h]$ is a linear functional (the first variation), $\varphi_2[h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\varphi_2[h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \varphi_2[h].$$
-
 
 
 In the following sections, we will delve deeper into the calculus of variations, exploring its mathematical properties and its applications in dynamic optimization and economics. We will discuss the Euler-Lagrange equation, which is a fundamental result in the calculus of variations, and we will explore how it can be used to find optimal solutions in a variety of economic contexts.
@@ -8312,13 +8099,11 @@ In the context of dynamic optimization, the Euler–Lagrange equation is used to
 
 
 The Euler–Lagrange equation is given by
-
 $$
 
 \frac{\partial L}{\partial y} - \frac{d}{dx}\left(\frac{\partial L}{\partial y'}\right) = 0,
 
 $$
-
 where $L$ is the Lagrangian of the problem, $y$ is the function to be optimized, and $y'$ is its derivative.
 
 
@@ -8336,29 +8121,19 @@ In the context of dynamic optimization, the first and second variations are used
 
 
 For example, if $J[y]$ is a functional with the function $y = y(x)$ as its argument, and there is a small change in its argument from $y$ to $y + h,$ where $h = h(x)$ is a function in the same function space as $y,$ then the corresponding change in the functional is
-
 $$\Delta J[h] = J[y+h] - J[y].$$
 
 
-
 The functional $J[y]$ is said to be differentiable if
-
 $$\Delta J[h] = \varphi [h] + \varepsilon \|h\|,$$
-
 where $\varphi[h]$ is a linear functional, $\|h\|$ is the norm of $h,$ and $\varepsilon \to 0$ as $\|h\| \to 0.$ The linear functional $\varphi[h]$ is the first variation of $J[y]$ and is denoted by,
-
 $$\delta J[h] = \varphi[h].$$
 
 
-
 The functional $J[y]$ is said to be twice differentiable if
-
 $$\Delta J[h] = \varphi[h] + \frac{1}{2}\psi[h,h] + \varepsilon \|h\|^2,$$
-
 where $\psi[h,h]$ is a quadratic functional, and $\varepsilon \to 0$ as $\|h\| \to 0.$ The quadratic functional $\psi[h,h]$ is the second variation of $J[y]$ and is denoted by,
-
 $$\delta^2 J[h] = \psi[h,h].$$
-
 
 
 If the second variation $\delta^2 J[h]$ is positive for all $h,$ then $J[y]$ has a minimum at $y.$ This is known as the second variation test for a minimum.
@@ -8432,7 +8207,6 @@ The foundation of optimal control theory is the calculus of variations, which we
 The general form of an optimal control problem can be written as:
 
 
-
 $$
 
 \begin{aligned}
@@ -8450,7 +8224,6 @@ $$
 $$
 
 
-
 where $L(x(t), u(t), t)$ is the Lagrangian or cost function, $f(x(t), u(t), t)$ is the system dynamics, $u(t)$ is the control function, and $x(t)$ is the state of the system. The goal is to find the control function $u(t)$ that minimizes the cost function while satisfying the system dynamics and initial conditions.
 
 
@@ -8462,13 +8235,11 @@ where $L(x(t), u(t), t)$ is the Lagrangian or cost function, $f(x(t), u(t), t)$ 
 A key concept in optimal control theory is the Hamiltonian, which is a function that encapsulates the dynamics of the system and the cost function. The Hamiltonian $H(x, u, \lambda, t)$ is defined as:
 
 
-
 $$
 
 H(x, u, \lambda, t) = L(x, u, t) + \lambda^T f(x, u, t)
 
 $$
-
 
 
 where $\lambda(t)$ is the costate or adjoint variable, which is a Lagrange multiplier associated with the constraint $\dot{x}(t) = f(x(t), u(t), t)$. The Hamiltonian is used to derive the necessary conditions for optimality, known as the Pontryagin's minimum principle.
@@ -8498,13 +8269,11 @@ One of the most significant applications of optimal control theory in economics 
 The Hamiltonian for this problem is given by:
 
 
-
 $$
 
 H(c, k, \lambda, t) = u(c) + \lambda (f(k) - c)
 
 $$
-
 
 
 where $c$ is consumption, $k$ is the capital stock, $f(k)$ is the production function, and $u(c)$ is the utility function. The first order conditions derived from the Hamiltonian provide the optimal savings rule and the evolution of the shadow price of capital.
@@ -8522,13 +8291,11 @@ Another application of optimal control theory in economics is in the area of fin
 The Hamiltonian for this problem is given by:
 
 
-
 $$
 
 H(w, \pi, \lambda, t) = \pi' \mu - \frac{1}{2} \lambda \pi' \Sigma \pi
 
 $$
-
 
 
 where $w$ is wealth, $\pi$ is the portfolio weights, $\mu$ is the vector of expected returns, and $\Sigma$ is the covariance matrix of returns. The first order conditions derived from the Hamiltonian provide the optimal portfolio weights and the evolution of the shadow price of wealth.
@@ -8646,13 +8413,11 @@ The principle of optimality leads to a recursive relationship known as the Bellm
 In the context of dynamic optimization, the Bellman equation can be written as:
 
 
-
 $$
 
 V(x) = \max_{u} \{ f(x, u) + \beta V(g(x, u)) \}
 
 $$
-
 
 
 where $V(x)$ is the value function, $f(x, u)$ is the immediate payoff function, $g(x, u)$ is the transition function that determines the next state given the current state $x$ and decision $u$, and $\beta$ is the discount factor.
@@ -9004,7 +8769,6 @@ Consider a consumer who must decide how much to consume and save in each period 
 Mathematically, the consumer's problem can be written as:
 
 
-
 $$
 
 \max_{\{c_t, s_t\}_{t=0}^T} \sum_{t=0}^T \beta^t u(c_t)
@@ -9012,9 +8776,7 @@ $$
 $$
 
 
-
 subject to the budget constraint:
-
 
 
 $$
@@ -9022,7 +8784,6 @@ $$
 c_t + s_t = y_t + (1+r)s_{t-1}
 
 $$
-
 
 
 where $c_t$ is consumption in period $t$, $s_t$ is savings in period $t$, $y_t$ is income in period $t$, $r$ is the interest rate, and $\beta$ is the discount factor.
@@ -9040,7 +8801,6 @@ Similarly, firms' production decisions can also be modeled as a dynamic optimiza
 The firm's problem can be written as:
 
 
-
 $$
 
 \max_{\{k_t, l_t\}_{t=0}^T} \sum_{t=0}^T \beta^t \pi(k_t, l_t)
@@ -9048,9 +8808,7 @@ $$
 $$
 
 
-
 subject to the production function:
-
 
 
 $$
@@ -9060,9 +8818,7 @@ y_t = f(k_t, l_t)
 $$
 
 
-
 and the capital accumulation equation:
-
 
 
 $$
@@ -9070,7 +8826,6 @@ $$
 k_{t+1} = i_t + (1-\delta)k_t
 
 $$
-
 
 
 where $k_t$ is capital in period $t$, $l_t$ is labor in period $t$, $y_t$ is output in period $t$, $i_t$ is investment in period $t$, $\delta$ is the depreciation rate, and $\pi(k_t, l_t)$ is the profit function.
@@ -9406,13 +9161,11 @@ Dynamic systems, on the other hand, are systems that evolve over time according 
 Consider a simple dynamic system represented by the following differential equation:
 
 
-
 $$
 
 \dot{x}(t) = f(x(t), u(t)) + w(t)
 
 $$
-
 
 
 where $\dot{x}(t)$ is the derivative of the state variable $x(t)$ with respect to time, $f(x(t), u(t))$ is a function representing the dynamics of the system, $u(t)$ is a control variable, and $w(t)$ is a noise term.
@@ -9442,13 +9195,11 @@ In this section, we will explore some applications of differential equations and
 One of the most common applications of differential equations in economics is in the modeling of economic growth. The Solow-Swan growth model, for instance, uses a differential equation to describe how the capital stock in an economy evolves over time. The model is represented by the following differential equation:
 
 
-
 $$
 
 \dot{K}(t) = sY(t) - \delta K(t)
 
 $$
-
 
 
 where $\dot{K}(t)$ is the change in capital stock over time, $s$ is the savings rate, $Y(t)$ is output, and $\delta$ is the depreciation rate. The solution to this differential equation gives the trajectory of the capital stock over time, which can be used to analyze the growth dynamics of the economy.
@@ -9462,7 +9213,6 @@ Another application of differential equations in economics is in the study of op
 Consider an optimal control problem where the objective is to maximize an integral:
 
 
-
 $$
 
 \max_{u(t)} \int_{0}^{T} f(x(t), u(t)) dt
@@ -9470,9 +9220,7 @@ $$
 $$
 
 
-
 subject to the differential equation:
-
 
 
 $$
@@ -9482,9 +9230,7 @@ $$
 $$
 
 
-
 The Hamiltonian for this problem is given by:
-
 
 
 $$
@@ -9494,9 +9240,7 @@ H(x(t), u(t), \lambda(t)) = f(x(t), u(t)) + \lambda(t) g(x(t), u(t))
 $$
 
 
-
 where $\lambda(t)$ is the co-state variable. The optimal control and state paths are then determined by the following system of differential equations, known as the Hamiltonian system:
-
 
 
 $$
@@ -9504,7 +9248,6 @@ $$
 \dot{x}(t) = \frac{\partial H}{\partial \lambda}, \quad \dot{\lambda}(t) = -\frac{\partial H}{\partial x}
 
 $$
-
 
 
 These are just a few examples of how differential equations and dynamic systems are used in economic applications. In the following sections, we will delve deeper into these topics and explore more advanced mathematical tools for dynamic optimization.
@@ -9566,14 +9309,11 @@ One of the key concepts in the study of Markov chains is the transition matrix. 
 In the context of continuous-time Markov chains, we can define a diffusion matrix $L$ and a new kernel $L^{(\alpha)}$ as follows:
 
 
-
 $$
 
 L_{i,j}=k(x_i,x_j) \,
 
 $$
-
-
 
 $$
 
@@ -9582,9 +9322,7 @@ L^{(\alpha)}_{i,j}= k^{(\alpha)}(x_i,x_j) =\frac{L_{i,j}}{(d(x_i) d(x_j))^{\alph
 $$
 
 
-
 or equivalently,
-
 
 
 $$
@@ -9594,13 +9332,11 @@ L^{(\alpha)} = D^{-\alpha} L D^{-\alpha} \,
 $$
 
 
-
 where $D$ is a diagonal matrix and $D_{i, i} = \sum_j L_{i, j}$.
 
 
 
 We then apply the graph Laplacian normalization to this new kernel:
-
 
 
 $$
@@ -9610,13 +9346,11 @@ M=({D}^{(\alpha)})^{-1}L^{(\alpha)}, \,
 $$
 
 
-
 where ${D}^{(\alpha)}$ is a diagonal matrix and ${D}^{(\alpha)}_{i, i} = \sum_j L^{(\alpha)}_{i, j}$.
 
 
 
 The transition probability from state $x_i$ to state $x_j$ after $t$ time steps is given by:
-
 
 
 $$
@@ -9626,9 +9360,7 @@ p(x_j,t|x_i)=M^t_{i,j} \,
 $$
 
 
-
 The eigendecomposition of the matrix $M^t$ yields
-
 
 
 $$
@@ -9636,7 +9368,6 @@ $$
 M^t_{i,j} = \sum_l \lambda_l^t \psi_l(x_i)\phi_l(x_j) \,
 
 $$
-
 
 
 where $\{\lambda_l \}$ is the sequence of eigenvalues of $M$ and $\{\psi_l \}$ and $\{\phi_l \}$ are the biorthogonal right and left eigenvectors respectively.
@@ -9988,7 +9719,6 @@ The EKF operates in two steps: prediction and update. In the prediction step, th
 The EKF can handle both continuous-time and discrete-time measurements. Most physical systems are represented as continuous-time models, while discrete-time measurements are frequently taken for state estimation via a digital processor. Therefore, the system model and measurement model are given by:
 
 
-
 $$
 
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
@@ -9996,7 +9726,6 @@ $$
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
 
 $$
-
 
 
 where $\mathbf{x}_k=\mathbf{x}(t_k)$.
@@ -10022,13 +9751,11 @@ Nonlinear dynamic systems have a wide range of applications in economics. They a
 One of the most common applications of nonlinear dynamic systems in economics is in the modeling of economic growth. The Solow-Swan model, for instance, is a nonlinear dynamic system that describes how an economy's output evolves over time based on savings, population growth, and technological progress. The model can be represented by the following differential equation:
 
 
-
 $$
 
 \dot{k} = s f(k) - (n + g + \delta)k
 
 $$
-
 
 
 where $k$ is the capital per effective worker, $s$ is the savings rate, $f(k)$ is the production function, $n$ is the population growth rate, $g$ is the technological progress rate, and $\delta$ is the depreciation rate.
@@ -10058,13 +9785,11 @@ The Extended Kalman Filter can be used to estimate the state of the economy (i.e
 In financial markets, nonlinear dynamic systems are used to model the behavior of asset prices. The Black-Scholes-Merton model, for instance, is a nonlinear dynamic system that describes the evolution of an option's price based on the underlying asset's price and volatility. The model can be represented by the following stochastic differential equation:
 
 
-
 $$
 
 dS = \mu S dt + \sigma S dW
 
 $$
-
 
 
 where $S$ is the asset price, $\mu$ is the expected return, $\sigma$ is the volatility, and $dW$ is a Wiener process.
@@ -10278,7 +10003,6 @@ In the discrete-time case with uncertainty about the parameter values in the tra
 A typical specification of the discrete-time stochastic linear quadratic control problem is to minimize
 
 
-
 $$
 
 E_1 \left[ \sum_{t=1}^{S} (y_t^T Q y_t + u_t^T R u_t) \right]
@@ -10286,9 +10010,7 @@ E_1 \left[ \sum_{t=1}^{S} (y_t^T Q y_t + u_t^T R u_t) \right]
 $$
 
 
-
 where $E_1$ is the expected value operator conditional on $y_0$, superscript T indicates a matrix transpose, and $S$ is the time horizon, subject to the state equation
-
 
 
 $$

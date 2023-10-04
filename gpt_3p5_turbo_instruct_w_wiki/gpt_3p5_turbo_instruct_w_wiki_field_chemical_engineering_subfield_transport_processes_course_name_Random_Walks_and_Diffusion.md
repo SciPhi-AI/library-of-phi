@@ -1241,9 +1241,7 @@ A state "i" is said to be transient if, given that we start in state "i", there 
 
 
 $$
-
 T_i = \min\{n > 0 : X_n = i\}
-
 $$
 
 
@@ -1261,9 +1259,7 @@ A state "i" is recurrent if and only if the expected number of visits to "i" is 
 
 
 $$
-
 \sum_{n=1}^{\infty} p_{ii}(n) = \infty
-
 $$
 
 
@@ -1285,9 +1281,7 @@ Even if the hitting time is finite with probability "1", it need not have a fini
 
 
 $$
-
 M_i = \sum_{n=1}^{\infty} np_{ii}(n)
-
 $$
 
 
@@ -3239,9 +3233,7 @@ The expected return time can be calculated using the transition probabilities of
 
 
 $$
-
 E[T_i] = \sum_{n=1}^{\infty} n \cdot P(T_i = n)
-
 $$
 
 
@@ -3945,7 +3937,6 @@ Consider a simple random walk on a one-dimensional lattice, where the walker can
 Suppose we have a Markov chain with three states: A, B, and C. The transition matrix for this chain is given by:
 
 $$
-
 P = \begin{bmatrix}
 
 0.2 & 0.5 & 0.3 \\
@@ -3955,7 +3946,6 @@ P = \begin{bmatrix}
 0.6 & 0.3 & 0.1
 
 \end{bmatrix}
-
 $$
 
 What is the probability of transitioning from state A to state C in two steps?
@@ -3973,7 +3963,6 @@ In a diffusion process, the probability of a particle moving from one location t
 Consider a Markov chain with four states: A, B, C, and D. The transition matrix for this chain is given by:
 
 $$
-
 P = \begin{bmatrix}
 
 0.2 & 0.3 & 0.4 & 0.1 \\
@@ -3985,7 +3974,6 @@ P = \begin{bmatrix}
 0.1 & 0.2 & 0.3 & 0.4
 
 \end{bmatrix}
-
 $$
 
 Is this chain irreducible? Is it aperiodic?
@@ -4059,9 +4047,7 @@ To define a Bernoulli random walk, we consider a particle that starts at the ori
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4083,9 +4069,7 @@ In order to analyze the long-term behavior of a Bernoulli random walk, we can co
 
 
 $$
-
 P(y_n = k) = \binom{n}{(n+k)/2} \left(\frac{1}{2}\right)^n
-
 $$
 
 
@@ -4129,9 +4113,7 @@ To define a Bernoulli random walk, we consider a particle that starts at the ori
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4191,9 +4173,7 @@ To define a Bernoulli random walk, we consider a particle that starts at the ori
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4227,9 +4207,7 @@ To define a Binomial random walk, we consider a particle that starts at the orig
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4313,9 +4291,7 @@ To define a simple random walk on the integer line, we consider a particle that 
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4337,7 +4313,6 @@ In order to analyze the long-term behavior of a simple random walk on the intege
 
 
 $$
-
 P = \begin{bmatrix}
 
 0.5 & 0.5 & 0 & 0 & \dots & 0 \\
@@ -4351,7 +4326,6 @@ P = \begin{bmatrix}
 0 & 0 & 0 & 0 & \dots & 0.5
 
 \end{bmatrix}
-
 $$
 
 
@@ -4361,7 +4335,6 @@ We can then use this transition matrix to calculate the probability of being at 
 
 
 $$
-
 P_{nk} = \begin{pmatrix}
 
 n \\
@@ -4369,7 +4342,6 @@ n \\
 \frac{n+k}{2}
 
 \end{pmatrix} \cdot 0.5^n
-
 $$
 
 
@@ -4419,9 +4391,7 @@ To define a simple random walk on the integer line, we consider a particle that 
 
 
 $$
-
 y_{n+1} = y_n + \epsilon_n
-
 $$
 
 
@@ -4509,9 +4479,7 @@ In fact, for a simple random walk on the integer line, the probability of return
 
 
 $$
-
 P(y_n = 0) = \frac{1}{\sqrt{2\pi n}}
-
 $$
 
 
@@ -4537,9 +4505,7 @@ In fact, for a biased random walk on the integer line, the probability of return
 
 
 $$
-
 P(y_n = 0) = \frac{1}{\sqrt{2\pi n}} \left(\frac{p}{q}\right)^n
-
 $$
 
 
@@ -5629,9 +5595,7 @@ The probability of <math display=inline> n</math> events occurring in the time i
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -5703,9 +5667,7 @@ The probability of <math display=inline> n</math> events occurring in the time i
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -5777,9 +5739,7 @@ The probability of <math display=inline> n</math> events occurring in the time i
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -5813,9 +5773,7 @@ Let <math display=inline> N(t)</math> be a Poisson process with rate <math displ
 
 
 $$
-
 S(t) = \sum_{i=1}^{N(t)} M_i
-
 $$
 
 
@@ -5887,9 +5845,7 @@ The probability of <math display=inline> n</math> events occurring in the time i
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -5919,9 +5875,7 @@ A spatial Poisson point process is a Poisson process defined in the plane <math>
 
 
 $$
-
 P(N(B)=n) = \frac{(\lambda |B|)^n}{n!}e^{-\lambda |B|}
-
 $$
 
 
@@ -5977,9 +5931,7 @@ To define the exponential distribution, we first consider a time interval <math 
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -6035,9 +5987,7 @@ To define the exponential distribution, we first consider a time interval <math 
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -6085,9 +6035,7 @@ To define the exponential distribution, we first consider a time interval <math 
 
 
 $$
-
 P(N(t)=n) = \frac{(\lambda t)^n}{n!}e^{-\lambda t}
-
 $$
 
 
@@ -6693,9 +6641,7 @@ The mean first-passage time, denoted as $\langle t \rangle$, is the average time
 
 
 $$
-
 \langle t \rangle = \int_0^\infty t F(t) dt
-
 $$
 
 
@@ -6709,9 +6655,7 @@ In addition to the mean, the variance of first-passage times, denoted as $\sigma
 
 
 $$
-
 \sigma^2 = \int_0^\infty (t - \langle t \rangle)^2 F(t) dt
-
 $$
 
 
@@ -7141,9 +7085,7 @@ To understand this connection further, we can look at the Fokker-Planck equation
 
 
 $$
-
 \frac{\partial p(x,t)}{\partial t} = -\frac{\partial}{\partial x} \left[\mu(x,t)p(x,t)\right] + \frac{\partial^2}{\partial x^2} \left[D(x,t)p(x,t)\right]
-
 $$
 
 
@@ -7153,9 +7095,7 @@ where $\mu(x,t)$ is the drift term and $D(x,t)$ is the diffusion coefficient. In
 
 
 $$
-
 \frac{\partial p(x,t)}{\partial t} = \frac{\partial^2}{\partial x^2} \left[Dp(x,t)\right]
-
 $$
 
 
@@ -7199,9 +7139,7 @@ The Fokker-Planck equation, as we saw in the previous section, describes the evo
 
 
 $$
-
 \frac{\partial p(x,t)}{\partial t} = \frac{\partial^2}{\partial x^2} \left[Dp(x,t)\right]
-
 $$
 
 
@@ -7349,9 +7287,7 @@ To formally define the Markov property, let "X" = ("X"<sub>"t"</sub>)<sub>"t"≥
 
 
 $$
-
 \mathbf{E}^{x} \left [ f(X_{t+h}) \big| F_{t} \right ] = \mathbf{E}^{X_{t}} \left [ f(X_{h}) \right ].
-
 $$
 
 
@@ -7391,9 +7327,7 @@ To formally define the scaling property, let "B" = ("B"<sub>"t"</sub>)<sub>"t"�
 
 
 $$
-
 P(B_{t+h} \leq x) = P(\sqrt{h}B_{t} \leq x).
-
 $$
 
 
@@ -7475,23 +7409,16 @@ The unconditional probability density function of the Wiener process follows a n
 $$f_{W_t}(x) = \frac{1}{\sqrt{2 \pi t}} e^{-x^2/(2t)}.$$
 
 
-
 The expectation of the Wiener process is zero:
-
 $$\operatorname E[W_t] = 0.$$
 
 
-
 The variance, using the computational formula, is `t`:
-
 $$\operatorname{Var}(W_t) = t.$$
 
 
-
 These results follow immediately from the definition that increments have a normal distribution, centered at zero. Thus,
-
 $$W_t = W_t-W_0 \sim N(0,t).$$
-
 
 
 ##### Covariance and Correlation
@@ -7499,39 +7426,27 @@ $$W_t = W_t-W_0 \sim N(0,t).$$
 
 
 The covariance and correlation of the Wiener process (where <math>s \leq t</math>) are given by:
-
 $$\operatorname{cov}(W_s, W_t) = s,$$
-
 $$\operatorname{corr}(W_s,W_t) = \frac{\operatorname{cov}(W_s,W_t)}{\sigma_{W_s} \sigma_{W_t}} = \frac{s}{\sqrt{st}} = \sqrt{\frac{s}{t}}.$$
 
 
 
 These results follow from the definition that non-overlapping increments are independent, of which only the property that they are uncorrelated is used. Suppose that <math>t_1\leq t_2</math>. Then,
-
 $$\operatorname{cov}(W_{t_1}, W_{t_2}) = \operatorname{E}\left[(W_{t_1}-\operatorname{E}[W_{t_1}]) \cdot (W_{t_2}-\operatorname{E}[W_{t_2}])\right] = \operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right].$$
 
 
-
 Substituting,
-
 $$W_{t_2} = ( W_{t_2} - W_{t_1} ) + W_{t_1},$$
-
 we arrive at:
-
 $$\operatorname{E}[W_{t_1} \cdot W_{t_2}] = \operatorname{E}\left[W_{t_1} \cdot ((W_{t_2} - W_{t_1})+ W_{t_1}) \right] = \operatorname{E}\left[W_{t_1} \cdot (W_{t_2} - W_{t_1} )\right] + \operatorname{E}\left[ W_{t_1}^2 \right].$$
 
 
-
 Since <math> W_{t_1}=W_{t_1} - W_{t_0} </math> and <math> W_{t_2} - W_{t_1} </math> are independent,
-
 $$\operatorname{E}\left [W_{t_1} \cdot (W_{t_2} - W_{t_1} ) \right ] = \operatorname{E}[W_{t_1}] \cdot \operatorname{E}[W_{t_2} - W_{t_1} ] = 0.$$
 
 
-
 Therefore,
-
 $$\operatorname{cov}(W_{t_1}, W_{t_2}) = \operatorname{E}\left[W_{t_1} \cdot (W_{t_2} - W_{t_1} )\right] + \operatorname{E}\left[ W_{t_1}^2 \right] = \operatorname{E}\left[ W_{t_1}^2 \right] = t_1.$$
-
 
 
 ##### Applications of Wiener Process
@@ -7595,41 +7510,31 @@ Another important property of the Wiener process is its increment independence. 
 To prove the increment independence of the Wiener process, we can use the definition of covariance and correlation. Suppose we have two time intervals, <math>t_1</math> and <math>t_2</math>, where <math>t_1 \leq t_2</math>. Then, the covariance of the process at these two time intervals is given by:
 
 
-
 $$\operatorname{cov}(W_{t_1}, W_{t_2}) = \operatorname{E}\left[(W_{t_1}-\operatorname{E}[W_{t_1}]) \cdot (W_{t_2}-\operatorname{E}[W_{t_2}])\right] = \operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right].$$
-
 
 
 Using the definition of the Wiener process, we can rewrite this as:
 
 
-
 $$\operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right] = \operatorname{E}\left[(W_{t_1}-W_0) \cdot (W_{t_2}-W_0) \right].$$
-
 
 
 Expanding this expression, we get:
 
 
-
 $$\operatorname{E}\left[(W_{t_1}-W_0) \cdot (W_{t_2}-W_0) \right] = \operatorname{E}\left[W_{t_1} \cdot W_{t_2} - W_{t_1} \cdot W_0 - W_0 \cdot W_{t_2} + W_0 \cdot W_0 \right].$$
-
 
 
 Since the increments of the Wiener process are independent, we can rewrite this as:
 
 
-
 $$\operatorname{E}\left[W_{t_1} \cdot W_{t_2} - W_{t_1} \cdot W_0 - W_0 \cdot W_{t_2} + W_0 \cdot W_0 \right] = \operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right] - \operatorname{E}\left[W_{t_1} \cdot W_0 \right] - \operatorname{E}\left[W_0 \cdot W_{t_2} \right] + \operatorname{E}\left[W_0 \cdot W_0 \right].$$
-
 
 
 Since the expectation of the Wiener process is zero, we can simplify this to:
 
 
-
 $$\operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right] - \operatorname{E}\left[W_{t_1} \cdot W_0 \right] - \operatorname{E}\left[W_0 \cdot W_{t_2} \right] + \operatorname{E}\left[W_0 \cdot W_0 \right] = \operatorname{E}\left[W_{t_1} \cdot W_{t_2} \right].$$
-
 
 
 Therefore, we can conclude that the increments of the Wiener process at different time intervals are independent, as the expectation of their product is equal to the expectation of their individual values. This property is crucial for understanding the behavior of the Wiener process and is used in many applications.
@@ -7681,9 +7586,7 @@ In simpler terms, a martingale is a process that has no predictable patterns and
 The Wiener process satisfies the martingale property, which can be seen by considering the increments of the process at different time intervals. Let <math>t_1</math> and <math>t_2</math> be two time intervals, where <math>t_1 \leq t_2</math>. Then, the expected value of the increment of the process at these two time intervals is given by:
 
 
-
 $$\operatorname{E}\left[W_{t_2}-W_{t_1}\right] = \operatorname{E}\left[W_{t_2}\right] - \operatorname{E}\left[W_{t_1}\right] = 0$$
-
 
 
 This shows that the expected value of the increment is always zero, regardless of the time interval. This property is important because it means that the Wiener process has no predictable patterns and its expected value does not change over time.
@@ -7697,17 +7600,13 @@ This shows that the expected value of the increment is always zero, regardless o
 To prove the martingale property of the Wiener process, we can use the definition of covariance and correlation. Suppose we have two time intervals, <math>t_1</math> and <math>t_2</math>, where <math>t_1 \leq t_2</math>. Then, the covariance of the process at these two time intervals is given by:
 
 
-
 $$\operatorname{cov}(W_{t_1}, W_{t_2}) = \operatorname{E}\left[(W_{t_1}-\operatorname{E}[W_{t_1}]) \cdot (W_{t_2}-\operatorname{E}[W_{t_2}])\right] = \operatorname{E}\left[W_{t_1}W_{t_2}\right] - \operatorname{E}\left[W_{t_1}\right]\operatorname{E}\left[W_{t_2}\right]$$
-
 
 
 Since the Wiener process has independent increments, the expected value of the product of the process at two different time intervals is equal to the product of their expected values. Therefore, we can rewrite the above equation as:
 
 
-
 $$\operatorname{cov}(W_{t_1}, W_{t_2}) = \operatorname{E}\left[W_{t_1}\right]\operatorname{E}\left[W_{t_2}\right] - \operatorname{E}\left[W_{t_1}\right]\operatorname{E}\left[W_{t_2}\right] = 0$$
-
 
 
 This shows that the covariance of the process at different time intervals is always zero, which implies that the process satisfies the martingale property.
@@ -7801,13 +7700,11 @@ The diffusion equation is a fundamental equation in the study of diffusion and B
 The diffusion equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, and $D$ is the diffusion coefficient. This equation is also known as the Fokker-Planck equation, named after Adriaan Fokker and Max Planck who independently derived it in the early 1900s.
@@ -7859,13 +7756,11 @@ The diffusion equation, also known as the Fokker-Planck equation, is a fundament
 The diffusion equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, and $D$ is the diffusion coefficient. This equation is also known as the Fokker-Planck equation, named after Adriaan Fokker and Max Planck who independently derived it in the early 1900s.
@@ -7895,13 +7790,11 @@ The heat equation and the Fokker-Planck equation are closely related, as they bo
 The heat equation is given by:
 
 
-
 $$
 
 {\partial u(x,t)\over{\partial t}} = \alpha{\partial^2 u(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is the thermal diffusivity. This equation describes the flow of heat in a medium, and it is often used to model physical systems such as the temperature distribution in a solid object.
@@ -7945,13 +7838,11 @@ The diffusion equation, also known as the Fokker-Planck equation, is a fundament
 The diffusion equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, and $D$ is the diffusion coefficient. This equation is also known as the Fokker-Planck equation, named after Adriaan Fokker and Max Planck who independently derived it in the early 1900s.
@@ -7977,13 +7868,11 @@ Third, the diffusion equation is a second-order partial differential equation, w
 The diffusion equation can be derived from the general equation of heat transfer, also known as the entropy production equation. This equation describes the change in entropy of a system due to heat transfer and viscous forces. It is given by:
 
 
-
 $$
 
 \rho T {Ds\over{Dt}} = \nabla\cdot(\kappa\nabla T) + {\mu\over{2}}\left( {\partial v_{i}\over{\partial x_{j}}} + {\partial v_{j}\over{\partial x_{i}}} - {2\over{3}}\delta_{ij}\nabla\cdot {\bf v} \right)^{2} + \zeta(\nabla \cdot {\bf v})^{2}
 
 $$
-
 
 
 where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy, $\kappa$ is the thermal conductivity, $\mu$ is the dynamic viscosity, and $\zeta$ is the bulk viscosity.
@@ -7993,7 +7882,6 @@ where $\rho$ is the density, $T$ is the temperature, $s$ is the specific entropy
 By assuming that there is no thermal conduction and viscous forces, the equation for entropy production simplifies to:
 
 
-
 $$
 
 {Ds\over{Dt}} = 0
@@ -8001,9 +7889,7 @@ $$
 $$
 
 
-
 This shows that ideal fluid flow is isentropic. By substituting the definition of specific entropy, $s = \frac{1}{\rho}\left(\frac{\partial p}{\partial \rho}\right)_T$, into the equation and using the chain rule, we can derive the diffusion equation:
-
 
 
 $$
@@ -8011,7 +7897,6 @@ $$
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $D = \frac{\kappa}{\rho T}$ is the diffusion coefficient.
@@ -8053,13 +7938,11 @@ The diffusion equation has many applications in various fields, including physic
 The diffusion equation is a powerful tool for studying systems in equilibrium. In equilibrium, the probability density function does not change with time, so the diffusion equation reduces to:
 
 
-
 $$
 
 0 = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 This equation is known as the steady-state diffusion equation and it describes the distribution of particles in a system that is not changing with time. It is often used to study systems in thermal equilibrium, where the temperature is constant throughout the system.
@@ -8091,13 +7974,11 @@ The diffusion equation, also known as the Fokker-Planck equation, is a fundament
 The diffusion equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}}
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, and $D$ is the diffusion coefficient. This equation is also known as the Fokker-Planck equation, named after Adriaan Fokker and Max Planck who independently derived it in the early 1900s.
@@ -8185,13 +8066,11 @@ The Fokker-Planck equation, also known as the Kolmogorov forward equation, is a 
 The Fokker-Planck equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu(x,t)p(x,t)\right] + {\partial^2 \over{\partial x^2}}\left[D(x,t)p(x,t)\right]
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, $\mu(x,t)$ is the drift coefficient, and $D(x,t)$ is the diffusion coefficient. This equation is also known as the Kolmogorov forward equation, named after Andrey Kolmogorov who first derived it in the 1930s.
@@ -8239,13 +8118,11 @@ The Fokker-Planck equation, also known as the Kolmogorov forward equation, is a 
 The Fokker-Planck equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu(x,t)p(x,t)\right] + {\partial^2 \over{\partial x^2}}\left[D(x,t)p(x,t)\right]
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, $\mu(x,t)$ is the drift coefficient, and $D(x,t)$ is the diffusion coefficient. This equation is also known as the Kolmogorov forward equation, named after Andrey Kolmogorov who first derived it in the 1930s.
@@ -8275,7 +8152,6 @@ The Fokker-Planck equation is closely related to the diffusion equation, which d
 The relationship between the two equations can be seen by considering the one-dimensional case, where the Fokker-Planck equation becomes:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu p(x,t)\right] + D{\partial^2 p(x,t)\over{\partial x^2}}
@@ -8283,9 +8159,7 @@ $$
 $$
 
 
-
 If we assume that $\mu$ and $D$ are constants, we can rewrite this equation as:
-
 
 
 $$
@@ -8293,7 +8167,6 @@ $$
 {\partial p(x,t)\over{\partial t}} = D{\partial^2 p(x,t)\over{\partial x^2}} - \mu{\partial p(x,t)\over{\partial x}}
 
 $$
-
 
 
 This is the one-dimensional diffusion equation, which describes the time evolution of the probability density function for a diffusing particle. Therefore, we can see that the Fokker-Planck equation is a more general form of the diffusion equation, allowing for non-constant drift and diffusion coefficients.
@@ -8333,13 +8206,11 @@ The Fokker-Planck equation, also known as the Kolmogorov forward equation, is a 
 The Fokker-Planck equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu(x,t)p(x,t)\right] + {\partial^2 \over{\partial x^2}}\left[D(x,t)p(x,t)\right]
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, $\mu(x,t)$ is the drift coefficient, and $D(x,t)$ is the diffusion coefficient. This equation is also known as the Kolmogorov forward equation, named after Andrey Kolmogorov who first derived it in the 1930s.
@@ -8415,13 +8286,11 @@ The Fokker-Planck equation, also known as the Kolmogorov forward equation, is a 
 The Fokker-Planck equation is a partial differential equation that describes the time evolution of a probability density function. It is given by:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu(x,t)p(x,t)\right] + {\partial^2 \over{\partial x^2}}\left[D(x,t)p(x,t)\right]
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, $\mu(x,t)$ is the drift coefficient, and $D(x,t)$ is the diffusion coefficient. This equation is also known as the Kolmogorov forward equation, named after Andrey Kolmogorov who first derived it in the 1930s.
@@ -8447,13 +8316,11 @@ Third, the Fokker-Planck equation is a second-order partial differential equatio
 In one spatial dimension, the Fokker-Planck equation can be written as:
 
 
-
 $$
 
 {\partial p(x,t)\over{\partial t}} = -{\partial \over{\partial x}}\left[\mu(x,t)p(x,t)\right] + {\partial^2 \over{\partial x^2}}\left[D(x,t)p(x,t)\right]
 
 $$
-
 
 
 where $p(x,t)$ is the probability density function at position $x$ and time $t$, $\mu(x,t)$ is the drift coefficient, and $D(x,t)$ is the diffusion coefficient. This equation is also known as the Kolmogorov forward equation, named after Andrey Kolmogorov who first derived it in the 1930s.
@@ -8467,13 +8334,11 @@ where $p(x,t)$ is the probability density function at position $x$ and time $t$,
 In multiple spatial dimensions, the Fokker-Planck equation takes the form:
 
 
-
 $$
 
 {\partial p(\mathbf{x},t)\over{\partial t}} = -\sum_{i=1}^{n}{\partial \over{\partial x_i}}\left[\mu_i(\mathbf{x},t)p(\mathbf{x},t)\right] + \sum_{i=1}^{n}{\partial^2 \over{\partial x_i^2}}\left[D_i(\mathbf{x},t)p(\mathbf{x},t)\right]
 
 $$
-
 
 
 where $p(\mathbf{x},t)$ is the probability density function at position $\mathbf{x}$ and time $t$, $\mu_i(\mathbf{x},t)$ is the drift coefficient in the $i$th dimension, and $D_i(\mathbf{x},t)$ is the diffusion coefficient in the $i$th dimension.
@@ -8607,13 +8472,11 @@ Now, let's move on to Itô's lemma. Itô's lemma is a fundamental result in stoc
 The lemma states that if we have a function $f(x,t)$ of a stochastic process $x(t)$, then the derivative of $f$ with respect to $t$ can be calculated as:
 
 
-
 $$
 
 df = \frac{\partial f}{\partial t}dt + \frac{\partial f}{\partial x}dx + \frac{1}{2}\frac{\partial^2 f}{\partial x^2}(dx)^2
 
 $$
-
 
 
 where $dx$ is the increment of the stochastic process $x$ and $(dx)^2$ is the square of the increment. This result is crucial for analyzing stochastic processes, as it allows us to calculate the change in a function over time, taking into account the random fluctuations of the underlying process.
@@ -8629,7 +8492,6 @@ Another important concept in stochastic calculus is stochastic differential equa
 
 
 One of the most commonly used SDEs is the Langevin equation, which describes the motion of a particle in a fluid under the influence of random forces. It is given by:
-
 
 
 $$

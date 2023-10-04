@@ -1303,9 +1303,7 @@ The elasticity of demand is a measure of how much the quantity demanded of a goo
 
 
 $$
-
 E_d = \frac{\%\Delta Q_d}{\%\Delta P}
-
 $$
 
 
@@ -1331,9 +1329,7 @@ The elasticity of supply measures the responsiveness of quantity supplied to a c
 
 
 $$
-
 E_s = \frac{\%\Delta Q_s}{\%\Delta P}
-
 $$
 
 
@@ -1359,9 +1355,7 @@ The cross elasticity of demand measures the responsiveness of the quantity deman
 
 
 $$
-
 E_{xy} = \frac{\%\Delta Q_x}{\%\Delta P_y}
-
 $$
 
 
@@ -5673,9 +5667,7 @@ Using the Black-Scholes model, the fair value of a call option can be calculated
 
 
 $$
-
 C = S_tN(d_1) - Ke^{-r(T-t)}N(d_2)
-
 $$
 
 
@@ -5707,9 +5699,7 @@ Similarly, the fair value of a put option can be calculated as:
 
 
 $$
-
 P = Ke^{-r(T-t)}N(-d_2) - S_tN(-d_1)
-
 $$
 
 

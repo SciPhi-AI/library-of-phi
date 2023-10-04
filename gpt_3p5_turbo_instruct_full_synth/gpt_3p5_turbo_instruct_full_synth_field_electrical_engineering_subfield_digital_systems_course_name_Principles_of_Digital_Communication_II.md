@@ -1690,9 +1690,7 @@ The PDF of white Gaussian noise can be expressed as:
 
 
 $$
-
 p(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{x^2}{2\sigma^2}}
-
 $$
 
 
@@ -1760,9 +1758,7 @@ The capacity of an AWGN channel can be calculated using the Shannon-Hartley theo
 
 
 $$
-
 C = B \log_2(1 + SNR)
-
 $$
 
 
@@ -1834,9 +1830,7 @@ The capacity of an AWGN channel is given by the Shannon-Hartley theorem, which s
 
 
 $$
-
 C = B \log_2(1 + E_b/N_0)
-
 $$
 
 
@@ -8940,9 +8934,7 @@ The encoding process in linear block codes involves multiplying the message bits
 
 
 $$
-
 \mathbf{c} = \mathbf{mG}
-
 $$
 
 
@@ -8956,9 +8948,7 @@ The decoding process, on the other hand, involves multiplying the received signa
 
 
 $$
-
 \mathbf{r} = \mathbf{cH}
-
 $$
 
 
@@ -9664,9 +9654,7 @@ Mathematically, we can represent AM as:
 
 
 $$
-
 s_{AM}(t) = A_c[1 + m(t)]\cos(2\pi f_c t)
-
 $$
 
 
@@ -9710,9 +9698,7 @@ Mathematically, we can represent AM as:
 
 
 $$
-
 s_{AM}(t) = A_c[1 + m(t)]\cos(2\pi f_c t)
-
 $$
 
 
@@ -9776,9 +9762,7 @@ Mathematically, we can represent AM as:
 
 
 $$
-
 s_{AM}(t) = A_c[1 + m(t)]\cos(2\pi f_c t)
-
 $$
 
 
@@ -9854,9 +9838,7 @@ Mathematically, we can represent FM as:
 
 
 $$
-
 s_{FM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -9912,9 +9894,7 @@ Mathematically, we can represent FM as:
 
 
 $$
-
 s_{FM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -9978,9 +9958,7 @@ Mathematically, we can represent FM as:
 
 
 $$
-
 s_{FM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -10052,9 +10030,7 @@ Mathematically, we can represent PM as:
 
 
 $$
-
 s_{PM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -10120,9 +10096,7 @@ Mathematically, we can represent PM as:
 
 
 $$
-
 s_{PM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -10192,9 +10166,7 @@ Mathematically, we can represent PM as:
 
 
 $$
-
 s_{PM}(t) = A_c\cos(2\pi f_c t + \Delta\phi(t))
-
 $$
 
 
@@ -10410,17 +10382,13 @@ The process of ASK can be mathematically represented as:
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t), \text{for binary 0}
-
 $$
 
 
 
 $$
-
 s(t) = 2A_c \cos(2\pi f_c t), \text{for binary 1}
-
 $$
 
 
@@ -10492,9 +10460,7 @@ The figure below shows an example of an ASK waveform with a carrier frequency of
 
 
 $$
-
 ASK Waveform: A_c = 1, 2A_c
-
 $$
 
 
@@ -11000,9 +10966,7 @@ The PSK waveform can also be represented as a time-domain signal, where the phas
 
 
 $$
-
 s(t) = A_c \cos(2\pi f_c t + \phi(t))
-
 $$
 
 
@@ -11316,9 +11280,7 @@ The theorem states that the channel capacity $C$ of a communication channel with
 
 
 $$
-
 C = B \log_2(1 + SNR)
-
 $$
 
 
@@ -11496,9 +11458,7 @@ To calculate the channel capacity for a given channel, we can use Shannon's chan
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -11604,9 +11564,7 @@ Channel capacity is a measure of the channel's ability to transmit information r
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 
@@ -11758,9 +11716,7 @@ To calculate the channel capacity for a given channel, we can use Shannon's chan
 
 
 $$
-
 C = B \log_2(1 + \frac{S}{N})
-
 $$
 
 

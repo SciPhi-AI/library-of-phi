@@ -707,9 +707,7 @@ The flow of groundwater is influenced by several factors, including the permeabi
 
 
 $$
-
 Q = -KA \frac{\Delta h}{\Delta l}
-
 $$
 
 
@@ -823,9 +821,7 @@ The water balance equation is a fundamental concept in groundwater hydrology. It
 
 
 $$
-
 \Delta S = I - O
-
 $$
 
 
@@ -925,9 +921,7 @@ The water balance equation, also known as the water budget equation, is a fundam
 
 
 $$
-
 \Delta S = I - O
-
 $$
 
 
@@ -1133,9 +1127,7 @@ The flow of water in confined aquifers is governed by the principle of hydraulic
 
 
 $$
-
 Q_{in} = Q_{out} + \frac{dS}{dt}
-
 $$
 
 
@@ -1161,9 +1153,7 @@ The rate of groundwater flow in unconfined aquifers can be described using Darcy
 
 
 $$
-
 Q = KA(h/L)
-
 $$
 
 
@@ -1193,9 +1183,7 @@ Porosity (`$n$`) is the ratio of the volume of voids (or spaces) in a material t
 
 
 $$
-
 n = \frac{V_{void}}{V_{total}} \times 100
-
 $$
 
 
@@ -1233,17 +1221,13 @@ Mathematically, these can be expressed as:
 
 
 $$
-
 S_y = \frac{V_{water}}{V_{total}}
-
 $$
 
 
 
 $$
-
 S_r = \frac{V_{retained}}{V_{total}}
-
 $$
 
 
@@ -1361,9 +1345,7 @@ Core sampling involves extracting a cylindrical sample of the material and measu
 
 
 $$
-
 n = \frac{V_{\text{water}}}{V_{\text{total}}}
-
 $$
 
 
@@ -1465,9 +1447,7 @@ The law can be expressed as:
 
 
 $$
-
 Q = -KA \frac{\Delta h}{\Delta l}
-
 $$
 
 
@@ -1519,9 +1499,7 @@ The relationship between hydraulic conductivity and permeability can be expresse
 
 
 $$
-
 K = \frac{k \rho g}{\mu}
-
 $$
 
 
@@ -1565,9 +1543,7 @@ Darcy's Law states that the rate of flow of a fluid through a porous medium is p
 
 
 $$
-
 Q = -KA \frac{\Delta h}{\Delta l}
-
 $$
 
 
@@ -1763,9 +1739,7 @@ The hydraulic head is calculated using the following equation:
 
 
 $$
-
 h = z + \frac{p}{\rho g}
-
 $$
 
 
@@ -1791,9 +1765,7 @@ The hydraulic gradient is a key concept in understanding groundwater flow. It is
 
 
 $$
-
 i = \frac{\Delta h}{L}
-
 $$
 
 
@@ -1811,9 +1783,7 @@ The velocity of groundwater flow, `$v$`, is proportional to the hydraulic gradie
 
 
 $$
-
 v = -K i
-
 $$
 
 
@@ -1879,9 +1849,7 @@ The fluid potential ($\Phi$) at a point in a fluid can be defined mathematically
 
 
 $$
-
 \Phi = \Psi + z
-
 $$
 
 
@@ -1895,9 +1863,7 @@ The pressure potential $\Psi$ is given by:
 
 
 $$
-
 \Psi = \frac{P}{\rho g}
-
 $$
 
 
@@ -1935,9 +1901,7 @@ The pressure-head and elevation-head are two key components of the fluid potenti
 
 
 $$
-
 h_p = \frac{P}{\rho g}
-
 $$
 
 
@@ -1951,9 +1915,7 @@ where $P$ is the fluid pressure, $\rho$ is the fluid density, and $g$ is the acc
 
 
 $$
-
 h_z = z
-
 $$
 
 
@@ -1967,9 +1929,7 @@ The total hydraulic head ($h$), which is equivalent to the fluid potential in a 
 
 
 $$
-
 h = h_p + h_z
-
 $$
 
 
@@ -1991,9 +1951,7 @@ The hydraulic head and fluid potential are two fundamental concepts in groundwat
 
 
 $$
-
 h = h_p + h_z
-
 $$
 
 
@@ -2003,9 +1961,7 @@ The fluid potential ($\Phi$), on the other hand, is a measure of the potential e
 
 
 $$
-
 \Phi = \rho g h
-
 $$
 
 
@@ -2151,9 +2107,7 @@ Continuity, in the context of groundwater hydrology, refers to the principle tha
 
 
 $$
-
 \Delta Q = Q_{in} - Q_{out} \pm \Delta S
-
 $$
 
 
@@ -2191,9 +2145,7 @@ The continuity equation can be derived from the basic principles of fluid dynami
 
 
 $$
-
 \frac{dS}{dt} = Q_{in} - Q_{out}
-
 $$
 
 
@@ -2207,9 +2159,7 @@ In steady-state conditions, where there are no changes in storage ($\frac{dS}{dt
 
 
 $$
-
 Q_{in} = Q_{out}
-
 $$
 
 
@@ -2239,9 +2189,7 @@ The conservation of mass in groundwater flow can be expressed mathematically as:
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
@@ -2259,9 +2207,7 @@ In the case of groundwater flow, the density of water is typically assumed to be
 
 
 $$
-
 \nabla \cdot \mathbf{v} = 0
-
 $$
 
 
@@ -2599,9 +2545,7 @@ The regional flow systems are often multi-layered, with each layer having differ
 
 
 $$
-
 Q = KA(h_1 - h_2)/d
-
 $$
 
 
@@ -2651,9 +2595,7 @@ The flow in confined aquifers is primarily horizontal, driven by the difference 
 
 
 $$
-
 Q = KA(h_1 - h_2)/L
-
 $$
 
 
@@ -3147,9 +3089,7 @@ Transient systems are typically characterized by changes in the hydraulic head, 
 
 
 $$
-
 \frac{\partial h}{\partial t} = T \nabla^2 h + S \frac{\partial h}{\partial t}
-
 $$
 
 
@@ -3175,9 +3115,7 @@ The time-varying nature of groundwater flow can be described using the groundwat
 
 
 $$
-
 \frac{\partial h}{\partial t} = T \nabla^2 h + S \frac{\partial h}{\partial t}
-
 $$
 
 
@@ -3247,9 +3185,7 @@ Specific storage ($S_s$) is a property of the aquifer material and is defined as
 
 
 $$
-
 S_s = \frac{n \cdot \rho_w \cdot g}{K}
-
 $$
 
 
@@ -3263,9 +3199,7 @@ Storativity ($S$), on the other hand, is a property of the aquifer system as a w
 
 
 $$
-
 S = b \cdot S_s
-
 $$
 
 
@@ -3307,9 +3241,7 @@ Storativity ($S$) can be estimated from field measurements of the water table le
 
 
 $$
-
 S = \frac{\Delta V}{A \cdot \Delta h}
-
 $$
 
 
@@ -3331,9 +3263,7 @@ For example, the Theis method is a commonly used indirect method for estimating 
 
 
 $$
-
 s = \frac{Q}{4\pi T} W(u)
-
 $$
 
 
@@ -3343,9 +3273,7 @@ where $s$ is the drawdown, $Q$ is the pumping rate, $T$ is the transmissivity, $
 
 
 $$
-
 u = \frac{r^2 S}{4Tt}
-
 $$
 
 
@@ -3671,9 +3599,7 @@ The mathematical interpretation of pump test data involves fitting a mathematica
 
 
 $$
-
 s = \frac{Q}{4\pi T} W(u)
-
 $$
 
 
@@ -3683,9 +3609,7 @@ where $s$ is the drawdown, $Q$ is the pumping rate, $T$ is the transmissivity, $
 
 
 $$
-
 u = \frac{r^2 S}{4Tt}
-
 $$
 
 
@@ -3727,9 +3651,7 @@ The efficiency of a well ($E$) can be calculated using the following equation:
 
 
 $$
-
 E = \frac{s_{theoretical}}{s_{actual}} \times 100\%
-
 $$
 
 
@@ -3759,9 +3681,7 @@ Specific capacity is another important parameter in well analysis. It is defined
 
 
 $$
-
 C = \frac{Q}{s}
-
 $$
 
 
@@ -3843,9 +3763,7 @@ Specific capacity is a key parameter in evaluating the performance of a well. It
 
 
 $$
-
 SC = \frac{Q}{s}
-
 $$
 
 
@@ -4059,9 +3977,7 @@ For example, the partial derivative of hydraulic head $h$ with respect to time $
 
 
 $$
-
 \frac{\partial h}{\partial t} \approx \frac{h(t+\Delta t) - h(t)}{\Delta t}
-
 $$
 
 
@@ -4091,9 +4007,7 @@ For example, Darcy's Law can be approximated in the FEM as:
 
 
 $$
-
 q = -K \nabla h
-
 $$
 
 
@@ -4311,9 +4225,7 @@ The principle of superposition is a fundamental concept in groundwater hydrology
 
 
 $$
-
 \nabla^2 h = 0
-
 $$
 
 
@@ -4331,9 +4243,7 @@ Mathematically, if $h_1$ and $h_2$ are the hydraulic heads at a point due to two
 
 
 $$
-
 h = h_1 + h_2
-
 $$
 
 
@@ -4367,9 +4277,7 @@ For example, consider a confined aquifer with a single well. The hydraulic head 
 
 
 $$
-
 h(r) = Q/4\pi T W(u)
-
 $$
 
 
@@ -4703,9 +4611,7 @@ The fate and transport of contaminants in groundwater are described by the advec
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2} - v \frac{\partial C}{\partial x} - k_s C - k_d C + k_v C
-
 $$
 
 
@@ -4731,9 +4637,7 @@ Modeling solute transport in groundwater is a complex task that requires a deep 
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2} - v \frac{\partial C}{\partial x} + R
-
 $$
 
 
@@ -4775,9 +4679,7 @@ Biological reactions in groundwater systems are primarily driven by microorganis
 
 
 $$
-
 C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O
-
 $$
 
 
@@ -4795,9 +4697,7 @@ Geochemical reactions in groundwater systems involve the interaction of solutes 
 
 
 $$
-
 CaCO_3 + H_2CO_3 \rightarrow Ca^{2+} + 2HCO_3^-
-
 $$
 
 
@@ -4835,9 +4735,7 @@ Transformation mechanisms involve the conversion of contaminants into less harmf
 
 
 $$
-
 2NO_3^- + 10e^- + 12H^+ \rightarrow N_2 + 6H_2O
-
 $$
 
 
@@ -4851,9 +4749,7 @@ Geochemical reactions can also lead to the transformation of contaminants. For e
 
 
 $$
-
 4Fe^{2+} + O_2 + 10H_2O \rightarrow 4Fe(OH)_3 + 8H^+
-
 $$
 
 
@@ -4875,9 +4771,7 @@ Adsorption involves the attachment of contaminants to the surfaces of soil and r
 
 
 $$
-
 A_{(aq)} + B_{(s)} \rightleftharpoons AB_{(s)}
-
 $$
 
 
@@ -4919,9 +4813,7 @@ Advection-Dispersion-Reaction (ADR) models are the most common type of reactive 
 
 
 $$
-
 \frac{\partial C}{\partial t} = D \nabla^2 C - v \nabla C + R(C)
-
 $$
 
 
@@ -5569,9 +5461,7 @@ Soil moisture dynamics can be described by the Richards' equation, a non-linear 
 
 
 $$
-
 \frac{\partial \theta}{\partial t} = \nabla \cdot [K(\theta) \nabla h] + S
-
 $$
 
 
@@ -5605,9 +5495,7 @@ The concept of soil water balance is fundamental to understanding the flow of gr
 
 
 $$
-
 \Delta S = P - ET - R - D
-
 $$
 
 
@@ -5629,9 +5517,7 @@ The water budget equation can be written as:
 
 
 $$
-
 \Delta S = I - O
-
 $$
 
 
@@ -5669,9 +5555,7 @@ The soil moisture content ($\theta$) can be expressed as:
 
 
 $$
-
 \theta = \frac{V_w}{V_t}
-
 $$
 
 
@@ -6109,9 +5993,7 @@ Hydraulic conductivity, denoted as $K$, is a measure of a porous medium's capaci
 
 
 $$
-
 K = \frac{Q}{iA}
-
 $$
 
 
@@ -6261,9 +6143,7 @@ The relationship between permeability ($k$) and hydraulic conductivity ($K$) can
 
 
 $$
-
 K = \frac{k \cdot \rho \cdot g}{\mu}
-
 $$
 
 
@@ -6311,9 +6191,7 @@ Laboratory tests are conducted on small samples of the porous medium, typically 
 
 
 $$
-
 Q = k \cdot A \cdot \frac{\Delta h}{L}
-
 $$
 
 
@@ -6371,9 +6249,7 @@ The general form of Darcy's law is:
 
 
 $$
-
 Q = k \cdot A \cdot \frac{\Delta h}{L}
-
 $$
 
 
@@ -6409,9 +6285,7 @@ By rearranging Darcy's law, we can solve for the flow rate:
 
 
 $$
-
 Q = k \cdot A \cdot \frac{\Delta h}{L}
-
 $$
 
 

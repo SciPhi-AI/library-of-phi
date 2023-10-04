@@ -1568,9 +1568,7 @@ The behavior of gases in the atmosphere is governed by the equation of state, wh
 
 
 $$
-
 P = \rho R_d T
-
 $$
 
 
@@ -1584,9 +1582,7 @@ For moist air, the ideal gas law is modified to account for the presence of wate
 
 
 $$
-
 P = \rho R_d T + \rho R_v T_v
-
 $$
 
 
@@ -1670,9 +1666,7 @@ Dry air is defined as air that does not contain any water vapor. It is composed 
 
 
 $$
-
 P = \rho R_d T
-
 $$
 
 
@@ -1756,9 +1750,7 @@ Dry air is defined as air that does not contain any water vapor. In this case, t
 
 
 $$
-
 P = \rho R_d T
-
 $$
 
 
@@ -1776,9 +1768,7 @@ Moist air, on the other hand, contains water vapor, which affects its density an
 
 
 $$
-
 P = \rho R_v T_v
-
 $$
 
 
@@ -2404,9 +2394,7 @@ Through our exploration, we have gained a deeper understanding of the complex in
 Calculate the Earth's albedo using the following equation:
 
 $$
-
 \alpha = \frac{\text{reflected solar radiation}}{\text{incoming solar radiation}}
-
 $$
 
 
@@ -2454,9 +2442,7 @@ Through our exploration, we have gained a deeper understanding of the complex in
 Calculate the Earth's albedo using the following equation:
 
 $$
-
 \alpha = \frac{\text{reflected solar radiation}}{\text{incoming solar radiation}}
-
 $$
 
 
@@ -2798,9 +2784,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -2814,9 +2798,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -2866,9 +2848,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -2882,9 +2862,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -2942,9 +2920,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -2958,9 +2934,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3022,9 +2996,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3038,9 +3010,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3106,9 +3076,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3122,9 +3090,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3206,9 +3172,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3222,9 +3186,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3306,9 +3268,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3322,9 +3282,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3394,9 +3352,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3410,9 +3366,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -3486,9 +3440,7 @@ The potential temperature, denoted by $\theta$, is defined as:
 
 
 $$
-
 \theta = T \left(\frac{P_0}{P}\right)^{\frac{R}{c_p}}
-
 $$
 
 
@@ -3502,9 +3454,7 @@ This definition can also be written in terms of the virtual temperature, $T_v$, 
 
 
 $$
-
 \theta = T_v \left(\frac{P_0}{P}\right)^{\frac{R_d}{c_{pd}}}
-
 $$
 
 
@@ -4046,9 +3996,7 @@ Newton's Second Law states that the force acting on an object is equal to its ma
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -4108,9 +4056,7 @@ Newton's Second Law states that the force acting on an object is equal to its ma
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -4170,9 +4116,7 @@ Newton's Second Law states that the force acting on an object is equal to its ma
 
 
 $$
-
 F = ma
-
 $$
 
 
@@ -4264,9 +4208,7 @@ The Navier-Stokes equations for rotating fluids are given by:
 
 
 $$
-
 \rho \frac{D\vec{v}}{Dt} = -\nabla p + \rho \vec{g} + \rho \vec{f_c} + \mu \nabla^2 \vec{v}
-
 $$
 
 
@@ -4280,9 +4222,7 @@ The Coriolis force, $\vec{f_c}$, is given by:
 
 
 $$
-
 \vec{f_c} = -2m\vec{\Omega} \times \vec{v}
-
 $$
 
 
@@ -4334,9 +4274,7 @@ The Navier-Stokes equations for rotating fluids are given by:
 
 
 $$
-
 \rho \frac{D\vec{v}}{Dt} = -\nabla p + \rho \vec{g} + \rho \vec{f_c} + \mu \nabla^2 \vec{v}
-
 $$
 
 
@@ -4350,9 +4288,7 @@ The Coriolis force, $\vec{f_c}$, is given by:
 
 
 $$
-
 \vec{f_c} = -2m\vec{\Omega} \times \vec{v}
-
 $$
 
 
@@ -4382,9 +4318,7 @@ To understand the geostrophic balance mathematically, we can rewrite the Navier-
 
 
 $$
-
 \vec{v_g} = \frac{1}{f}\nabla \times \vec{\tau}
-
 $$
 
 
@@ -4428,9 +4362,7 @@ The Navier-Stokes equations for rotating fluids are given by:
 
 
 $$
-
 \rho \frac{D\vec{v}}{Dt} = -\nabla p + \rho \vec{g} + \rho \vec{f_c} + \mu \nabla^2 \vec{v}
-
 $$
 
 
@@ -4444,9 +4376,7 @@ The Coriolis force, $\vec{f_c}$, is given by:
 
 
 $$
-
 \vec{f_c} = -2m\vec{\Omega} \times \vec{v}
-
 $$
 
 
@@ -4690,9 +4620,7 @@ To derive the primitive equations, we start with the Navier-Stokes equations in 
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -4702,9 +4630,7 @@ Where $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\rho$ is the de
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g} + 2\mathbf{\Omega} \times \mathbf{u} + \mathbf{F}
-
 $$
 
 
@@ -4714,9 +4640,7 @@ Where $\mathbf{\Omega}$ is the angular velocity of the Earth. Next, we use the s
 
 
 $$
-
 \mathbf{u} = u_r \mathbf{e_r} + u_\phi \mathbf{e_\phi} + u_\lambda \mathbf{e_\lambda}
-
 $$
 
 
@@ -4726,25 +4650,19 @@ Where $\mathbf{e_r}$, $\mathbf{e_\phi}$, and $\mathbf{e_\lambda}$ are unit vecto
 
 
 $$
-
 \frac{\partial u_r}{\partial t} + u_r \frac{\partial u_r}{\partial r} + \frac{u_\phi}{r} \frac{\partial u_r}{\partial \phi} + \frac{u_\lambda}{r \sin \phi} \frac{\partial u_r}{\partial \lambda} = -\frac{1}{\rho} \frac{\partial p}{\partial r} + g_r + 2\Omega u_\phi \sin \phi + F_r
-
 $$
 
 
 
 $$
-
 \frac{\partial u_\phi}{\partial t} + u_r \frac{\partial u_\phi}{\partial r} + \frac{u_\phi}{r} \frac{\partial u_\phi}{\partial \phi} + \frac{u_\lambda}{r \sin \phi} \frac{\partial u_\phi}{\partial \lambda} = -\frac{1}{\rho r} \frac{\partial p}{\partial \phi} + g_\phi - 2\Omega u_r \sin \phi + F_\phi
-
 $$
 
 
 
 $$
-
 \frac{\partial u_\lambda}{\partial t} + u_r \frac{\partial u_\lambda}{\partial r} + \frac{u_\phi}{r} \frac{\partial u_\lambda}{\partial \phi} + \frac{u_\lambda}{r \sin \phi} \frac{\partial u_\lambda}{\partial \lambda} = -\frac{1}{\rho r \sin \phi} \frac{\partial p}{\partial \lambda} + g_\lambda + F_\lambda
-
 $$
 
 
@@ -4766,9 +4684,7 @@ The potential vorticity is defined as:
 
 
 $$
-
 q = \frac{\zeta + f}{\rho}
-
 $$
 
 
@@ -4832,9 +4748,7 @@ To derive the primitive equations, we start with the Navier-Stokes equations in 
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g} + \mathbf{F}
-
 $$
 
 
@@ -4844,9 +4758,7 @@ Where $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\rho$ is the de
 
 
 $$
-
 \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} = -\frac{1}{\rho} \nabla p + \mathbf{g} + 2\mathbf{\Omega} \times \mathbf{u} 
-
 $$
 
 
@@ -5058,9 +4970,7 @@ The Taylor-Proudman theorem can be mathematically expressed as:
 
 
 $$
-
 \frac{\partial}{\partial z} \left( \frac{f}{N^2} \frac{\partial \omega}{\partial z} \right) = 0
-
 $$
 
 

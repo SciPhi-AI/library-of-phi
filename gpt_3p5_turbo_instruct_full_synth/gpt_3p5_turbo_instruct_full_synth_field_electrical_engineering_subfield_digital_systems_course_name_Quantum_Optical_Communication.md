@@ -1393,9 +1393,7 @@ One of the key advantages of Dirac notation is its ability to represent complex 
 
 
 $$
-
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-
 $$
 
 
@@ -1447,9 +1445,7 @@ One of the key advantages of Dirac notation is its ability to represent complex 
 
 
 $$
-
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-
 $$
 
 
@@ -1517,9 +1513,7 @@ One of the key advantages of Dirac notation is its ability to represent complex 
 
 
 $$
-
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-
 $$
 
 
@@ -1599,9 +1593,7 @@ Next, we introduce the Hamiltonian operator, denoted as $\hat{H}$, which represe
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
-
 $$
 
 
@@ -1615,9 +1607,7 @@ Using the Hamiltonian operator, we can derive the Schrödinger equation for the 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi\rangle = \hat{H}|\psi\rangle
-
 $$
 
 
@@ -1631,9 +1621,7 @@ To solve this equation, we use the method of separation of variables and assume 
 
 
 $$
-
 |\psi\rangle = \psi(x)\phi(t)
-
 $$
 
 
@@ -1643,17 +1631,13 @@ Substituting this into the Schrödinger equation and solving for $\phi(t)$ and $
 
 
 $$
-
 \phi(t) = e^{-i\omega t}
-
 $$
 
 
 
 $$
-
 \psi(x) = \langle x|\psi\rangle = \frac{1}{\sqrt{2\pi\hbar}}e^{ipx/\hbar}
-
 $$
 
 
@@ -1667,9 +1651,7 @@ Combining these solutions, we get the time-dependent wavefunction for the harmon
 
 
 $$
-
 \psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}}e^{i(px-\omega t)/\hbar}
-
 $$
 
 
@@ -1713,9 +1695,7 @@ Next, we introduce the Hamiltonian operator, denoted as $\hat{H}$, which represe
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
-
 $$
 
 
@@ -1729,9 +1709,7 @@ Using the Hamiltonian operator, we can derive the Schrödinger equation for the 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi\rangle = \hat{H}|\psi\rangle
-
 $$
 
 
@@ -1745,9 +1723,7 @@ To solve this equation, we use the method of separation of variables and assume 
 
 
 $$
-
 |\psi\rangle = \psi(x)\phi(t)
-
 $$
 
 
@@ -1757,9 +1733,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}(\psi(x)\phi(t)) = \hat{H}(\psi(x)\phi(t))
-
 $$
 
 
@@ -1769,9 +1743,7 @@ We can then rearrange this equation to separate the time and spatial components:
 
 
 $$
-
 i\hbar\frac{\partial\phi(t)}{\partial t}\psi(x) = \hat{H}\psi(x)\phi(t)
-
 $$
 
 
@@ -1781,9 +1753,7 @@ Next, we divide both sides by $\psi(x)\phi(t)$ and rearrange to get:
 
 
 $$
-
 \frac{i\hbar}{\phi(t)}\frac{\partial\phi(t)}{\partial t} = \frac{\hat{H}\psi(x)}{\psi(x)}
-
 $$
 
 
@@ -1793,9 +1763,7 @@ Since the left side of the equation only depends on time and the right side only
 
 
 $$
-
 \frac{i\hbar}{\phi(t)}\frac{\partial\phi(t)}{\partial t} = E = \frac{\hat{H}\psi(x)}{\psi(x)}
-
 $$
 
 
@@ -1817,9 +1785,7 @@ The wavefunction for the harmonic oscillator can be written as:
 
 
 $$
-
 \psi_n(x) = A_nH_n(\alpha x)e^{-\frac{\alpha^2x^2}{2}}
-
 $$
 
 
@@ -1833,9 +1799,7 @@ The Hermite polynomials have the following form:
 
 
 $$
-
 H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}(e^{-x^2})
-
 $$
 
 
@@ -1845,21 +1809,15 @@ The first few Hermite polynomials are:
 
 
 $$
-
 H_0(x) = 1
-
 $$
 
 $$
-
 H_1(x) = 2x
-
 $$
 
 $$
-
 H_2(x) = 4x^2 - 2
-
 $$
 
 
@@ -1869,21 +1827,15 @@ Substituting these into the wavefunction, we get:
 
 
 $$
-
 \psi_0(x) = A_0e^{-\frac{\alpha^2x^2}{2}}
-
 $$
 
 $$
-
 \psi_1(x) = A_1(2\alpha x)e^{-\frac{\alpha^2x^2}{2}}
-
 $$
 
 $$
-
 \psi_2(x) = A_2(4\alpha^2x^2 - 2)e^{-\frac{\alpha^2x^2}{2}}
-
 $$
 
 
@@ -1893,9 +1845,7 @@ These wavefunctions represent the different energy levels of the harmonic oscill
 
 
 $$
-
 E_n = \hbar\omega\left(n + \frac{1}{2}\right)
-
 $$
 
 
@@ -1943,9 +1893,7 @@ Next, we introduce the Hamiltonian operator, denoted as $\hat{H}$, which represe
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
-
 $$
 
 
@@ -1959,9 +1907,7 @@ Using the Hamiltonian operator, we can derive the Schrödinger equation for the 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi\rangle = \hat{H}|\psi\rangle
-
 $$
 
 
@@ -1975,9 +1921,7 @@ To solve this equation, we use the method of separation of variables and assume 
 
 
 $$
-
 |\psi\rangle = \psi(x)\phi(t)
-
 $$
 
 
@@ -1987,9 +1931,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x)\phi(t) = \hat{H}\psi(x)\phi(t)
-
 $$
 
 
@@ -1999,9 +1941,7 @@ We can rearrange this equation to get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\phi(t) = \hat{H}\phi(t)
-
 $$
 
 
@@ -2011,9 +1951,7 @@ and
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -2027,9 +1965,7 @@ Solving these equations, we get the time-dependent part of the quantum state as:
 
 
 $$
-
 \phi(t) = e^{-iEt/\hbar}
-
 $$
 
 
@@ -2039,9 +1975,7 @@ and the spatial part as:
 
 
 $$
-
 \psi(x) = A e^{-\frac{1}{2}\alpha x^2}
-
 $$
 
 
@@ -2055,9 +1989,7 @@ Combining these two parts, we get the complete quantum state of the harmonic osc
 
 
 $$
-
 |\psi\rangle = A e^{-\frac{1}{2}\alpha x^2} e^{-iEt/\hbar}
-
 $$
 
 
@@ -2075,9 +2007,7 @@ Using the wavefunction, we can calculate the probability of finding the oscillat
 
 
 $$
-
 P(x) = |\psi(x)|^2 = A^2 e^{-\alpha x^2}
-
 $$
 
 
@@ -2091,17 +2021,13 @@ We can also calculate the average position and momentum of the oscillator using 
 
 
 $$
-
 \langle x \rangle = \int_{-\infty}^{\infty} x|\psi(x)|^2 dx = 0
-
 $$
 
 
 
 $$
-
 \langle p \rangle = \int_{-\infty}^{\infty} \psi^*(x)\hat{p}\psi(x) dx = 0
-
 $$
 
 
@@ -2115,9 +2041,7 @@ Next, we can calculate the energy of the oscillator using the Hamiltonian operat
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -2127,9 +2051,7 @@ Substituting the wavefunction, we get:
 
 
 $$
-
 \left(\frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2\right)A e^{-\frac{1}{2}\alpha x^2} = EA e^{-\frac{1}{2}\alpha x^2}
-
 $$
 
 
@@ -2139,9 +2061,7 @@ Simplifying this equation, we get:
 
 
 $$
-
 \left(\frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2\right)A = EA
-
 $$
 
 
@@ -2151,9 +2071,7 @@ We can see that the energy operator acts on the wavefunction as a constant, whic
 
 
 $$
-
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
-
 $$
 
 
@@ -2227,9 +2145,7 @@ Next, we introduce the Hamiltonian operator, denoted as $\hat{H}$, which represe
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2
-
 $$
 
 
@@ -2243,9 +2159,7 @@ Using the Hamiltonian operator, we can derive the Schrödinger equation for the 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}|\psi\rangle = \hat{H}|\psi\rangle
-
 $$
 
 
@@ -2259,9 +2173,7 @@ To solve this equation, we use the method of separation of variables and assume 
 
 
 $$
-
 |\psi\rangle = \psi(x)\phi(t)
-
 $$
 
 
@@ -2271,9 +2183,7 @@ Substituting this into the Schrödinger equation, we get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi(x)\phi(t) = \hat{H}\psi(x)\phi(t)
-
 $$
 
 
@@ -2283,9 +2193,7 @@ We can rearrange this equation to get:
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\phi(t) = \hat{H}\phi(t)
-
 $$
 
 
@@ -2295,9 +2203,7 @@ and
 
 
 $$
-
 \hat{H}\psi(x) = E\psi(x)
-
 $$
 
 
@@ -2311,9 +2217,7 @@ Solving these equations, we get the time-dependent part of the quantum state as:
 
 
 $$
-
 \phi(t) = e^{-iEt/\hbar}
-
 $$
 
 
@@ -2323,9 +2227,7 @@ and the spatial part as:
 
 
 $$
-
 \psi(x) = A e^{-\frac{m\omega}{2\hbar}x^2}
-
 $$
 
 
@@ -2359,9 +2261,7 @@ Number states have some interesting properties. For example, the average energy 
 
 
 $$
-
 \langle n|\hat{H}|n\rangle = \hbar\omega(n+\frac{1}{2})
-
 $$
 
 
@@ -2375,9 +2275,7 @@ Another important property of number states is that they are orthogonal to each 
 
 
 $$
-
 \langle m|n\rangle = 0, \text{ for } m \neq n
-
 $$
 
 
@@ -3633,9 +3531,7 @@ To understand quantum photodetection, we must first understand the concept of a 
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -3691,9 +3587,7 @@ To understand quantum photodetection, we must first understand the concept of a 
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -3749,9 +3643,7 @@ To understand quantum photodetection, we must first understand the concept of a 
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -4157,17 +4049,13 @@ The parametric amplification process in OPAs can be described by the following e
 
 
 $$
-
 E_{out} = \chi^{(2)}E_{in}E_{pump}^*E_{gen}
-
 $$
 
 
 
 $$
-
 \Delta k = k_{in} + k_{pump} - k_{gen}
-
 $$
 
 
@@ -4243,17 +4131,13 @@ The working of OPAs can be understood by considering the process of parametric a
 
 
 $$
-
 \Delta k = k_p - k_s - k_i = 0
-
 $$
 
 
 
 $$
-
 \Delta \omega = \omega_p - \omega_s - \omega_i = 0
-
 $$
 
 
@@ -6345,9 +6229,7 @@ A two-mode linear system consists of two quantum harmonic oscillators that are c
 
 
 $$
-
 \hat{H} = \hbar \omega_1 \hat{a}_1^\dagger \hat{a}_1 + \hbar \omega_2 \hat{a}_2^\dagger \hat{a}_2 + \hbar \lambda (\hat{a}_1^\dagger \hat{a}_2 + \hat{a}_1 \hat{a}_2^\dagger)
-
 $$
 
 
@@ -8123,9 +8005,7 @@ The quantization of the electromagnetic field is based on the concept of quantiz
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -8169,9 +8049,7 @@ The quantization of the electromagnetic field is based on the concept of quantiz
 
 
 $$
-
 E = hf
-
 $$
 
 
@@ -8951,17 +8829,13 @@ The nonlinear susceptibility tensor can be expanded into a series of terms, with
 
 
 $$
-
 P^{(2)} = \epsilon_0 \chi^{(2)} E^2
-
 $$
 
 
 
 $$
-
 P^{(3)} = \epsilon_0 \chi^{(3)} E^3
-
 $$
 
 
@@ -9033,17 +8907,13 @@ The nonlinear susceptibility tensor can be expanded into a series of terms, with
 
 
 $$
-
 P^{(2)} = \epsilon_0 \chi^{(2)} E^2
-
 $$
 
 
 
 $$
-
 P^{(3)} = \epsilon_0 \chi^{(3)} E^3
-
 $$
 
 
@@ -9127,17 +8997,13 @@ The nonlinear susceptibility tensor can be expanded into a series of terms, with
 
 
 $$
-
 P^{(2)} = \epsilon_0 \chi^{(2)} E^2
-
 $$
 
 
 
 $$
-
 P^{(3)} = \epsilon_0 \chi^{(3)} E^3
-
 $$
 
 
@@ -9197,17 +9063,13 @@ The nonlinear susceptibility tensor can be expanded into a series of terms, with
 
 
 $$
-
 P^{(2)} = \epsilon_0 \chi^{(2)} E^2
-
 $$
 
 
 
 $$
-
 P^{(3)} = \epsilon_0 \chi^{(3)} E^3
-
 $$
 
 

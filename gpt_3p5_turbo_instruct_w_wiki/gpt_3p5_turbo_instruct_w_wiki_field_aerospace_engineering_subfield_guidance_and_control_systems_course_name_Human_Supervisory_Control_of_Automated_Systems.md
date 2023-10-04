@@ -1803,7 +1803,6 @@ The formula for Bayes’ theorem is as follows:
 $$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
 
 
-
 where $P(B) \neq 0$. This formula may seem complex at first glance, but it can be broken down into simpler components.
 
 
@@ -1821,7 +1820,6 @@ $P(B \mid A)$ is the likelihood function, which can be interpreted as the probab
 
 
 $P(B)$ is the probability of event $B$, which can be calculated using the law of total probability. If $\{A_1, A_2, \dots, A_n\}$ is a partition of the sample space, then $P(B)$ can be calculated as follows:
-
 
 
 $$P(B) = \sum_i P(B \mid A_i)P(A_i)$$

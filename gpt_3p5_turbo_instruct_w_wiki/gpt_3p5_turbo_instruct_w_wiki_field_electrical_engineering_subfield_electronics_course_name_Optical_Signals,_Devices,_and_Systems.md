@@ -1843,13 +1843,10 @@ E&M waves can propagate through different mediums, such as air, water, or even o
 $$T_{o-}^{TE}=H \cos(\frac{m\pi }{a}y)e^{jk_{xo}(x-w)} \ \ \ \ \ \ \ \ (25)$$
 
 
-
 In the air regions, the equation becomes:
 
 
-
 $$k_{xo}=k_{o}\sqrt{1-(\frac{m\pi }{k_{o}a})^{2}-(\frac{k_{z}}{k_{o}})^{2}} \ \ \ \ \ \ \ (26)$$
-
 
 
 where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in the z-direction, and $a$ is the radius of the optical fiber.
@@ -1859,17 +1856,11 @@ where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in th
 The constants A, B, C, D, E, F, G, H can be determined by imposing continuity conditions for the tangential components of the electromagnetic field at the interfaces of the optical fiber. These components are given by:
 
 
-
 $$E_{y}=\frac{1}{j\omega \varepsilon }\frac{\mathrm{dL} }{\mathrm{d} z}\frac{\partial T}{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE}=\frac{-k_{z}}{\omega \varepsilon }L\frac{\partial T }{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE} \ \ \ \ \ \ (28)$$
-
-
 
 $$L \ T^{TM}=\frac{k^{2}-k_{z}^{2}}{j\omega \varepsilon } L \ T^{TM} \ \ \ \ \ \ \ (29)$$
 
-
-
 $$H_{z}=\frac{k_{t}^{2}}{j\omega \mu } L \ T^{TE}=\frac{k^{2}-k_{z}^{2}}{j\omega \mu } L \ T^{TE} \ \ \ \ (32)$$
-
 
 
 where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the transverse magnetic and electric fields, respectively.
@@ -1879,21 +1870,13 @@ where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the t
 By imposing the continuity conditions at each interface, we can derive the following equations:
 
 
-
 $$-\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}+\frac{\partial T_{o}}{\partial x}^{TE}= -\frac{k_{z}}{\omega \varepsilon _{o}\varepsilon _{r}}\frac{\partial T_{\varepsilon } }{\partial y}^{TM}+\frac{\partial T_{\varepsilon }}{\partial x}^{TE}$$
-
-
 
 $$\frac{k_{o}^{2}-k_{z}^{2}}{j\omega \varepsilon _{o}} \ T_{o}^{TM} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \varepsilon _{r}\varepsilon _{o}} T_{\varepsilon }^{TM}$$
 
-
-
 $$-\frac{\partial T_{o}}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{o}}{\partial y}^{TE}= -\frac{\partial T_{\varepsilon }}{\partial x}^{TM}-\frac{k_{z}}{\omega \mu }\frac{\partial T_{\varepsilon } }{\partial y}^{TE}$$
 
-
-
 $$\frac{k_{o}^{2}-k_{z}^{2}}{j\omega \mu} \ T_{o}^{TE} =\frac{k_{o}^{2}\varepsilon _{r}-k_{z}^{2}}{j\omega \mu }^{TE}$$
-
 
 
 These equations show the relationship between the electric and magnetic fields at the interfaces of the optical fiber.
@@ -1925,17 +1908,13 @@ Electromagnetic (E&M) waves are a type of energy that can travel through space. 
 E&M waves can propagate through different mediums, such as air, water, or even optical fibers. In the case of optical signals, the medium is typically an optical fiber. The propagation of E&M waves through an optical fiber can be described by the following equations:
 
 
-
 $$T_{o-}^{TE}=H \cos(\frac{m\pi }{a}y)e^{jk_{xo}(x-w)} \ \ \ \ \ \ \ \ (25)$$
-
 
 
 In the air regions, the equation becomes:
 
 
-
 $$k_{xo}=k_{o}\sqrt{1-(\frac{m\pi }{k_{o}a})^{2}-(\frac{k_{z}}{k_{o}})^{2}} \ \ \ \ \ \ \ (26)$$
-
 
 
 where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in the z-direction, and $a$ is the radius of the optical fiber.
@@ -1945,17 +1924,11 @@ where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in th
 The constants A, B, C, D, E, F, G, H can be determined by imposing continuity conditions for the tangential components of the electromagnetic field at the interfaces of the optical fiber. These components are given by:
 
 
-
 $$E_{y}=\frac{1}{j\omega \varepsilon }\frac{\mathrm{dL} }{\mathrm{d} z}\frac{\partial T}{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE}=\frac{-k_{z}}{\omega \varepsilon }L\frac{\partial T }{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE} \ \ \ \ \ \ (28)$$
-
-
 
 $$L \ T^{TM}=\frac{k^{2}-k_{z}^{2}}{j\omega \varepsilon } L \ T^{TM} \ \ \ \ \ \ \ (29)$$
 
-
-
 $$H_{z}=\frac{k_{t}^{2}}{j\omega \mu } L \ T^{TE}=\frac{k^{2}-k_{z}^{2}}{j\omega \mu } L \ T^{TE} \ \ \ \ (32)$$
-
 
 
 where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the transverse magnetic and electric fields, respectively.
@@ -1965,17 +1938,11 @@ where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the t
 By imposing the continuity conditions at each interface, we can derive the following equations:
 
 
-
 $$-\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TE} \ \ \ \ \ \ \ (33)$$
-
-
 
 $$-\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TE} \ \ \ \ \ \ \ (34)$$
 
-
-
 $$-\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial z}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial z}^{TE} \ \ \ \ \ \ \ (35)$$
-
 
 
 These equations show that the tangential components of the electric and magnetic fields are continuous at the interfaces of the optical fiber. This is important for the propagation of E&M waves through the fiber, as it ensures that the wave will not be disrupted or distorted as it travels through the medium.
@@ -2035,17 +2002,13 @@ Electromagnetic (E&M) waves are a type of energy that can travel through space. 
 E&M waves can propagate through different mediums, such as air, water, or even optical fibers. In the case of optical signals, the medium is typically an optical fiber. The propagation of E&M waves through an optical fiber can be described by the following equations:
 
 
-
 $$T_{o-}^{TE}=H \cos(\frac{m\pi }{a}y)e^{jk_{xo}(x-w)} \ \ \ \ \ \ \ \ (25)$$
-
 
 
 In the air regions, the equation becomes:
 
 
-
 $$k_{xo}=k_{o}\sqrt{1-(\frac{m\pi }{k_{o}a})^{2}-(\frac{k_{z}}{k_{o}})^{2}} \ \ \ \ \ \ \ (26)$$
-
 
 
 where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in the z-direction, and $a$ is the radius of the optical fiber.
@@ -2055,17 +2018,11 @@ where $k_{o}$ is the wave number in free space, $k_{z}$ is the wave number in th
 The constants A, B, C, D, E, F, G, H can be determined by imposing continuity conditions for the tangential components of the electromagnetic field at the interfaces of the optical fiber. These components are given by:
 
 
-
 $$E_{y}=\frac{1}{j\omega \varepsilon }\frac{\mathrm{dL} }{\mathrm{d} z}\frac{\partial T}{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE}=\frac{-k_{z}}{\omega \varepsilon }L\frac{\partial T }{\partial y}^{TM}-L\frac{\partial T}{\partial x}^{TE} \ \ \ \ \ \ (28)$$
-
-
 
 $$L \ T^{TM}=\frac{k^{2}-k_{z}^{2}}{j\omega \varepsilon } L \ T^{TM} \ \ \ \ \ \ \ (29)$$
 
-
-
 $$H_{z}=\frac{k_{t}^{2}}{j\omega \mu } L \ T^{TE}=\frac{k^{2}-k_{z}^{2}}{j\omega \mu } L \ T^{TE} \ \ \ \ (32)$$
-
 
 
 where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the transverse magnetic and electric fields, respectively.
@@ -2075,21 +2032,13 @@ where $L$ is the length of the optical fiber and $T^{TM}$ and $T^{TE}$ are the t
 By imposing the continuity conditions at each interface, we can derive the following equations:
 
 
-
 $$-\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TE} \ \ \ \ \ \ \ (33)$$
-
-
 
 $$\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TE} \ \ \ \ \ \ \ (34)$$
 
-
-
 $$\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial y}^{TE} \ \ \ \ \ \ \ (35)$$
 
-
-
 $$\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TM}=\frac{k_{z}}{\omega \varepsilon _{o}}\frac{\partial T_{o}}{\partial x}^{TE} \ \ \ \ \ \ \ (36)$$
-
 
 
 where $T_{o}$ is the total field in the optical fiber.
@@ -2153,9 +2102,7 @@ Amplitude modulation (AM) is a technique used to vary the amplitude of a carrier
 The modulating signal, denoted as m(t), can be any type of signal, such as an audio signal or a digital signal. The carrier wave, denoted as c(t), is typically a high frequency sinusoidal wave. The resulting waveform, denoted as s(t), can be expressed as:
 
 
-
 $$s(t) = A_c[1 + m(t)]\cos(\omega_ct)$$
-
 
 
 where A_c is the amplitude of the carrier wave and ω_c is the angular frequency of the carrier wave.
@@ -2165,9 +2112,7 @@ where A_c is the amplitude of the carrier wave and ω_c is the angular frequency
 The modulation index, denoted as β, is a measure of the extent to which the amplitude of the carrier wave is varied. It is defined as the ratio of the amplitude of the modulating signal to the amplitude of the carrier wave:
 
 
-
 $$\beta = \frac{A_m}{A_c}$$
-
 
 
 where A_m is the amplitude of the modulating signal.
@@ -2215,9 +2160,7 @@ Amplitude modulation (AM) is a technique used to vary the amplitude of a carrier
 The modulating signal, denoted as m(t), can be any type of signal, such as an audio signal or a digital signal. The carrier wave, denoted as c(t), is typically a high frequency sinusoidal wave. The resulting waveform, denoted as s(t), can be expressed as:
 
 
-
 $$s(t) = A_c[1 + m(t)]\cos(\omega_ct)$$
-
 
 
 where A_c is the amplitude of the carrier wave and ω_c is the angular frequency of the carrier wave.
@@ -2227,9 +2170,7 @@ where A_c is the amplitude of the carrier wave and ω_c is the angular frequency
 The modulation index, denoted as β, is a measure of the extent to which the amplitude of the carrier wave is varied. It is defined as the ratio of the amplitude of the modulating signal to the amplitude of the carrier wave:
 
 
-
 $$\beta = \frac{A_m}{A_c}$$
-
 
 
 where A_m is the amplitude of the modulating signal.
@@ -2289,9 +2230,7 @@ Amplitude modulation (AM) is a technique used to vary the amplitude of a carrier
 The modulating signal, denoted as m(t), can be any type of signal, such as an audio signal or a digital signal. The carrier wave, denoted as c(t), is typically a high frequency sinusoidal wave. The resulting waveform, denoted as s(t), can be expressed as:
 
 
-
 $$s(t) = A_c[1 + m(t)]\cos(\omega_ct)$$
-
 
 
 where A_c is the amplitude of the carrier wave and ω_c is the angular frequency of the carrier wave.
@@ -2301,9 +2240,7 @@ where A_c is the amplitude of the carrier wave and ω_c is the angular frequency
 The modulation index, denoted as β, is a measure of the extent to which the amplitude of the carrier wave is varied. It is defined as the ratio of the amplitude of the modulating signal to the amplitude of the carrier wave:
 
 
-
 $$\beta = \frac{A_m}{A_c}$$
-
 
 
 where A_m is the amplitude of the modulating signal.
@@ -2833,13 +2770,11 @@ Finally, we will conclude this chapter by discussing the limitations and challen
 Snell's Law, also known as the law of refraction, is a fundamental principle in optics that describes the behavior of light as it passes through the interface of two different materials. It was first discovered by Dutch scientist Willebrord Snell in 1621 and is mathematically expressed as:
 
 
-
 $$
 
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction, respectively.
@@ -3007,13 +2942,11 @@ The law of reflection is essential in the design and functioning of various opti
 The law of reflection can be mathematically expressed as:
 
 
-
 $$
 
 \theta_i = \theta_r
 
 $$
-
 
 
 where $\theta_i$ is the angle of incidence and $\theta_r$ is the angle of reflection.
@@ -3041,13 +2974,11 @@ In conclusion, the law of reflection and Snell's Law are fundamental principles 
 Snell's Law, also known as the law of refraction, is a fundamental principle in optics that describes the behavior of light as it passes through the interface of two different materials. It was first discovered by Dutch scientist Willebrord Snell in 1621 and is mathematically expressed as:
 
 
-
 $$
 
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction, respectively.
@@ -3129,13 +3060,11 @@ In conclusion, Snell's Law has a wide range of applications in both the fields o
 Snell's Law, also known as the law of refraction, is a fundamental principle in optics that describes the behavior of light as it passes through the interface of two different materials. It was first discovered by Dutch scientist Willebrord Snell in 1621 and is mathematically expressed as:
 
 
-
 $$
 
 n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction, respectively.
@@ -3183,13 +3112,11 @@ The critical angle is a fundamental concept in optics that describes the behavio
 The critical angle, denoted by $\theta_c$, is given by the equation:
 
 
-
 $$
 
 \theta_c = \arcsin\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3253,13 +3180,11 @@ The critical angle is a fundamental concept in optics that describes the behavio
 The critical angle, denoted by $\theta_c$, is given by the equation:
 
 
-
 $$
 
 \theta_c = \arcsin\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3327,13 +3252,11 @@ The critical angle is a fundamental concept in optics that describes the behavio
 The critical angle, denoted by $\theta_c$, is given by the equation:
 
 
-
 $$
 
 \theta_c = \arcsin\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3401,13 +3324,11 @@ Brewster's angle is a fundamental concept in optics that describes the behavior 
 Brewster's angle, denoted by $\theta_B$, is given by the equation:
 
 
-
 $$
 
 \theta_B = \arctan\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3467,13 +3388,11 @@ Brewster's angle is a fundamental concept in optics that describes the behavior 
 Brewster's angle, denoted by $\theta_B$, is given by the equation:
 
 
-
 $$
 
 \theta_B = \arctan\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3533,13 +3452,11 @@ Brewster's angle is a fundamental concept in optics that describes the behavior 
 Brewster's angle, denoted by $\theta_B$, is given by the equation:
 
 
-
 $$
 
 \theta_B = \arctan\left(\frac{n_2}{n_1}\right)
 
 $$
-
 
 
 where $n_1$ and $n_2$ are the refractive indices of the two materials. This equation assumes that the incident medium has a higher refractive index than the refracting medium, which is typically the case in most optical systems.
@@ -3611,13 +3528,11 @@ In the previous section, we discussed Brewster's angle and its applications in o
 Reflection and transmission coefficients are used to describe the behavior of light as it passes through the interface of two materials. These coefficients are defined as the ratio of the reflected or transmitted light intensity to the incident light intensity. They are denoted by $R$ and $T$, respectively, and are given by the equations:
 
 
-
 $$
 
 R = \frac{I_r}{I_i} \quad \text{and} \quad T = \frac{I_t}{I_i}
 
 $$
-
 
 
 where $I_r$, $I_t$, and $I_i$ are the intensities of the reflected, transmitted, and incident light, respectively.
@@ -3631,7 +3546,6 @@ where $I_r$, $I_t$, and $I_i$ are the intensities of the reflected, transmitted,
 The reflection and transmission coefficients can be calculated using the Fresnel equations, which describe the behavior of light at the interface of two materials. These equations take into account the refractive indices and the angle of incidence of the light. For a light ray incident on a material with refractive index $n_1$ at an angle $\theta_i$, the reflection and transmission coefficients are given by:
 
 
-
 $$
 
 R = \left(\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}\right)^2 \quad \text{and} \quad T = \frac{4n_1n_2\cos\theta_i\cos\theta_t}{(n_1\cos\theta_i + n_2\cos\theta_t)^2}
@@ -3639,9 +3553,7 @@ R = \left(\frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\the
 $$
 
 
-
 where $\theta_t$ is the angle of transmission, which can be calculated using Snell's law:
-
 
 
 $$
@@ -3649,7 +3561,6 @@ $$
 n_1\sin\theta_i = n_2\sin\theta_t
 
 $$
-
 
 
 These equations can be used to calculate the reflection and transmission coefficients for any incident angle and refractive indices of the materials.
@@ -5609,13 +5520,11 @@ Two-beam interference occurs when two coherent waves of the same frequency and a
 The spacing between the fringes is determined by the wavelength of the waves and the angle at which they intersect. This can be described by the equation:
 
 
-
 $$
 
 \Delta x = \frac{\lambda}{2\sin\theta}
 
 $$
-
 
 
 where $\Delta x$ is the distance between fringes, $\lambda$ is the wavelength of the waves, and $\theta$ is the angle of intersection.
@@ -5625,13 +5534,11 @@ where $\Delta x$ is the distance between fringes, $\lambda$ is the wavelength of
 The intensity of the fringes is determined by the phase difference between the two waves. When the waves are in phase, the fringes will be bright, and when they are out of phase, the fringes will be dark. This can be described by the equation:
 
 
-
 $$
 
 I = I_0\cos^2\left(\frac{\pi\Delta x}{\lambda}\right)
 
 $$
-
 
 
 where $I_0$ is the maximum intensity and $\Delta x$ is the distance between fringes.
@@ -6051,7 +5958,6 @@ A diffraction grating is a device that consists of a screen with multiple parall
 One of the simplest forms of a diffraction grating is a narrow slit grating, where the slits are evenly spaced with a separation of S. The complex amplitude of the diffracted wave at an angle θ can be calculated using the following equation:
 
 
-
 $$
 
 U(\theta) = a\sum_{n=1}^N e^{ \frac {-i 2 \pi nS \sin \theta} {\lambda}}
@@ -6059,9 +5965,7 @@ U(\theta) = a\sum_{n=1}^N e^{ \frac {-i 2 \pi nS \sin \theta} {\lambda}}
 $$
 
 
-
 This equation is derived from the sum of a geometric series and is based on the assumption that the slits are evenly spaced and have the same width. However, this equation can also be derived using Fourier transform, where the aperture is given by:
-
 
 
 $$
@@ -6071,9 +5975,7 @@ $$
 $$
 
 
-
 The Fourier transform of this function is:
-
 
 
 $$
@@ -6083,9 +5985,7 @@ $$
 $$
 
 
-
 The intensity of the diffracted wave can be calculated using the following equation:
-
 
 
 $$
@@ -6095,9 +5995,7 @@ I(\theta) \propto \frac {1 - \cos (2 \pi N S\sin \theta/\lambda)}{1-\cos (2 \pi 
 $$
 
 
-
 This equation shows that the intensity of the diffracted wave has a series of maxima and minima, with regularly spaced "principal maxima" and smaller intermediate maxima in between. The principal maxima occur at angles where the following condition is satisfied:
-
 
 
 $$
@@ -6105,7 +6003,6 @@ $$
 \pi S \sin_n \theta/\lambda =n \pi, n = 0, \pm 1, \pm 2,\ldots
 
 $$
-
 
 
 This is known as the grating equation for normally incident light. The number of small intermediate maxima is equal to the number of slits, and their size and shape are determined by the number of slits and their separation.
@@ -6161,13 +6058,11 @@ To understand the diffraction limit, we must first understand the concept of num
 The diffraction limit can be mathematically expressed as:
 
 
-
 $$
 
 \Delta x = \frac{\lambda}{2NA}
 
 $$
-
 
 
 where $\Delta x$ is the smallest resolvable feature, $\lambda$ is the wavelength of the incident light, and NA is the numerical aperture of the system.
@@ -6411,13 +6306,11 @@ In mathematics, physics, and engineering, spatial frequency is defined as a meas
 In wave propagation, spatial frequency is also known as "wavenumber" and is defined as the reciprocal of wavelength $\lambda$. It is commonly denoted by the symbol $k$ and is expressed in units of radians per meter (rad/m). The relationship between ordinary wavenumber and angular wavenumber is given by:
 
 
-
 $$
 
 k = \frac{2\pi}{\lambda} = 2\pi\nu
 
 $$
-
 
 
 This relationship is crucial in understanding the behavior of waves in different media and is a fundamental concept in the study of diffraction and propagation.
@@ -7389,13 +7282,11 @@ Material dispersion is caused by the variation in the refractive index of the fi
 The dispersion of a material can be described by the material dispersion parameter, $D$, which is defined as the rate of change of the refractive index with respect to wavelength. It is given by the following equation:
 
 
-
 $$
 
 D = \frac{d n}{d \lambda}
 
 $$
-
 
 
 where $n$ is the refractive index and $\lambda$ is the wavelength of light. The material dispersion parameter is typically measured in units of ps/(nm·km) and is dependent on the material properties of the fiber.
@@ -7413,13 +7304,11 @@ Waveguide dispersion is caused by the variation in the effective refractive inde
 The waveguide dispersion parameter, $D_w$, is defined as the rate of change of the effective refractive index with respect to wavelength and is given by the following equation:
 
 
-
 $$
 
 D_w = \frac{d n_{eff}}{d \lambda}
 
 $$
-
 
 
 where $n_{eff}$ is the effective refractive index. The waveguide dispersion parameter is also measured in units of ps/(nm·km) and is dependent on the fiber's geometry and refractive index profile.
@@ -7437,13 +7326,11 @@ Polarization mode dispersion (PMD) is caused by the birefringence of the fiber, 
 The PMD parameter, $D_{PMD}$, is defined as the difference in propagation speeds between the two orthogonal polarizations and is given by the following equation:
 
 
-
 $$
 
 D_{PMD} = \Delta v_{PMD}
 
 $$
-
 
 
 where $\Delta v_{PMD}$ is the difference in propagation speeds. The PMD parameter is typically measured in units of ps/(nm·km) and is dependent on the fiber's birefringence and length.
@@ -10259,13 +10146,11 @@ Amplitude modulation is a type of modulation where the amplitude of the carrier 
 One of the main advantages of AM is its simplicity and low cost. However, it is limited in its ability to achieve high data rates and can be affected by noise and distortion. The equation for AM can be expressed as:
 
 
-
 $$
 
 s_{AM}(t) = A_c[1 + m(t)]\cos(2\pi f_ct)
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $m(t)$ is the message signal, and $f_c$ is the carrier frequency.
@@ -10283,13 +10168,11 @@ Frequency modulation is a type of modulation where the frequency of the carrier 
 One of the main advantages of FM is its ability to achieve high data rates and resistance to noise and distortion. However, it is more complex and expensive compared to AM. The equation for FM can be expressed as:
 
 
-
 $$
 
 s_{FM}(t) = A_c\cos[2\pi f_ct + \Delta\phi(t)]
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $\Delta\phi(t)$ is the phase deviation caused by the message signal.
@@ -10307,13 +10190,11 @@ Phase modulation is a type of modulation where the phase of the carrier signal i
 One of the main advantages of PM is its ability to achieve high data rates and resistance to noise and distortion. However, it is more complex and expensive compared to AM. The equation for PM can be expressed as:
 
 
-
 $$
 
 s_{PM}(t) = A_c\cos(2\pi f_ct + k_pm(t))
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $k_p$ is the phase sensitivity constant.
@@ -10331,13 +10212,11 @@ Quadrature amplitude modulation is a type of modulation that combines both ampli
 The equation for QAM can be expressed as:
 
 
-
 $$
 
 s_{QAM}(t) = A_c\cos(2\pi f_ct + k_pm(t))\cos(2\pi f_ct + k_am(t))
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, $k_p$ is the phase sensitivity constant, and $k_a$ is the amplitude sensitivity constant.
@@ -10355,13 +10234,11 @@ In addition to the different types of modulation formats, it is also important t
 The efficiency of a modulation format can be calculated using the following equation:
 
 
-
 $$
 
 \eta = \frac{R_b}{B}
 
 $$
-
 
 
 where $\eta$ is the efficiency, $R_b$ is the bit rate, and $B$ is the bandwidth.
@@ -10405,13 +10282,11 @@ Amplitude modulation is a type of modulation where the amplitude of the carrier 
 One of the main advantages of AM is its simplicity and low cost. However, it is limited in its ability to achieve high data rates and can be affected by noise and distortion. The equation for AM can be expressed as:
 
 
-
 $$
 
 s_{AM}(t) = A_c[1 + m(t)]\cos(2\pi f_ct)
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $m(t)$ is the message signal, and $f_c$ is the carrier frequency.
@@ -10429,13 +10304,11 @@ Frequency modulation is a type of modulation where the frequency of the carrier 
 One of the main advantages of FM is its ability to achieve high data rates and resistance to noise and distortion. However, it is more complex and expensive compared to AM. The equation for FM can be expressed as:
 
 
-
 $$
 
 s_{FM}(t) = A_c\cos[2\pi f_ct + \Delta\phi(t)]
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $\Delta\phi(t)$ is the phase deviation caused by the message signal.
@@ -10453,13 +10326,11 @@ Phase modulation is a type of modulation where the phase of the carrier signal i
 PM is similar to FM, but instead of varying the frequency, it varies the phase of the carrier signal. This makes it more suitable for high data rate applications, but it is also more complex and expensive. The equation for PM can be expressed as:
 
 
-
 $$
 
 s_{PM}(t) = A_c\cos(2\pi f_ct + k_pm(t))
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $k_p$ is the phase sensitivity constant.
@@ -10477,13 +10348,11 @@ Quadrature amplitude modulation is a type of modulation where both the amplitude
 QAM is a more advanced modulation format that allows for even higher data rates compared to AM, FM, and PM. It is commonly used in digital communication systems and can achieve high spectral efficiency. The equation for QAM can be expressed as:
 
 
-
 $$
 
 s_{QAM}(t) = A_c\cos(2\pi f_ct + k_pm(t)) + A_c\sin(2\pi f_ct + k_pm(t))
 
 $$
-
 
 
 where $A_c$ is the amplitude of the carrier signal, $f_c$ is the carrier frequency, and $k_p$ is the phase sensitivity constant.
@@ -10519,13 +10388,11 @@ Modulation error ratio (MER) is a measure of the quality of a modulated signal. 
 To measure the MER, the modulated signal is first demodulated and the error signal is extracted. The power of the error signal is then measured and compared to the power of the desired signal. The MER is then calculated using the following equation:
 
 
-
 $$
 
 MER = 10\log_{10}\left(\frac{P_{desired}}{P_{error}}\right)
 
 $$
-
 
 
 where $P_{desired}$ is the power of the desired signal and $P_{error}$ is the power of the error signal.
@@ -10557,13 +10424,11 @@ Modulation error ratio (MER) is a measure of the quality of a modulated signal. 
 To measure the MER, the modulated signal is first demodulated and the error signal is extracted. The power of the error signal is then measured and compared to the power of the desired signal. The MER is then calculated using the following equation:
 
 
-
 $$
 
 MER = 10\log_{10}\left(\frac{P_{desired}}{P_{error}}\right)
 
 $$
-
 
 
 where $P_{desired}$ is the power of the desired signal and $P_{error}$ is the power of the error signal.
@@ -10613,7 +10478,6 @@ Modulation error ratio (MER) is a measure of the quality of a modulated signal. 
 
 
 To measure the MER, the modulated signal is first demodulated and the error signal is extracted. The power of the error signal is then measured and compared to the power of the desired signal. The MER is then calculated using the following equation:
-
 
 
 $$

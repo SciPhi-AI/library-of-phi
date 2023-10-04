@@ -1373,9 +1373,7 @@ The general equation of heat transfer, also known as the heat equation, is a fun
 
 
 $$
-
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} - \frac{p}{\rho} \nabla \cdot (\rho \mathbf{v})
-
 $$
 
 
@@ -1389,9 +1387,7 @@ Another important equation in parameterized convection is the equation for entro
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -1443,9 +1439,7 @@ The general equation of heat transfer, also known as the heat equation, is a fun
 
 
 $$
-
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} - \frac{p}{\rho} \nabla \cdot (\rho \mathbf{v})
-
 $$
 
 
@@ -1459,9 +1453,7 @@ Another important equation in parameterized convection is the equation for entro
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -1521,9 +1513,7 @@ The general equation of heat transfer, also known as the heat equation, is a fun
 
 
 $$
-
 \rho \frac{d\varepsilon}{dt} = \rho T \frac{ds}{dt} - \frac{p}{\rho} \nabla \cdot (\rho \mathbf{v})
-
 $$
 
 
@@ -1537,9 +1527,7 @@ Another important equation in parameterized convection is the equation for entro
 
 
 $$
-
 \rho T \frac{Ds}{Dt} = \nabla \cdot (\kappa \nabla T) + \frac{\mu}{2} \left( \frac{\partial v_i}{\partial x_j} + \frac{\partial v_j}{\partial x_i} - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right)^2 + \zeta (\nabla \cdot \mathbf{v})^2
-
 $$
 
 
@@ -1603,25 +1591,19 @@ Numerical modeling of mantle convection involves solving the governing equations
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
 
 $$
-
 \rho \frac{D\mathbf{v}}{Dt} = -\nabla p + \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
 
 $$
-
 \rho \frac{D\varepsilon}{Dt} = \rho T \frac{Ds}{Dt} - \nabla \cdot \mathbf{q}
-
 $$
 
 
@@ -1669,25 +1651,19 @@ Numerical modeling of mantle convection involves solving the governing equations
 
 
 $$
-
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0
-
 $$
 
 
 
 $$
-
 \rho \frac{D\mathbf{v}}{Dt} = -\nabla p + \rho \mathbf{g} + \nabla \cdot \mathbf{\tau}
-
 $$
 
 
 
 $$
-
 \rho \frac{D\varepsilon}{Dt} = \rho T \frac{Ds}{Dt} - \nabla \cdot \mathbf{q}
-
 $$
 
 
@@ -4675,9 +4651,7 @@ For noble gases, diffusion occurs through the process of jump diffusion, where t
 
 
 $$
-
 \Delta x = \sqrt{n}\alpha
-
 $$
 
 
@@ -4725,9 +4699,7 @@ In the Earth's mantle, noble gas diffusion occurs through the process of jump di
 
 
 $$
-
 \Delta x = \sqrt{n} \alpha
-
 $$
 
 

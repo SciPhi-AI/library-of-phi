@@ -1118,9 +1118,7 @@ The critical stress for crack propagation can be calculated using the following 
 
 
 $$
-
 \sigma_c = \frac{2E\gamma}{\pi a}
-
 $$
 
 
@@ -1172,9 +1170,7 @@ The critical stress for crack propagation can be calculated using the following 
 
 
 $$
-
 \sigma_c = \frac{2E\gamma}{\pi a}
-
 $$
 
 
@@ -1200,9 +1196,7 @@ The equation for stress intensity factor is given by:
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1486,9 +1480,7 @@ Stress intensity factor is a measure of the stress at the tip of a crack in a ma
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1544,9 +1536,7 @@ Stress intensity factor is a measure of the stress at the tip of a crack in a ma
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1588,9 +1578,7 @@ SCFs are influenced by the geometry of the crack or notch, the material properti
 
 
 $$
-
 Kt = \frac{\sigma_{max}}{\sigma_{nom}}
-
 $$
 
 
@@ -1622,9 +1610,7 @@ Stress intensity factor is a measure of the stress at the tip of a crack in a ma
 
 
 $$
-
 K = \sigma \sqrt{\pi a}
-
 $$
 
 
@@ -1676,9 +1662,7 @@ Fracture toughness is a measure of a material's resistance to fracture when a cr
 
 
 $$
-
 K_{IC} = \sigma \sqrt{\pi c}
-
 $$
 
 
@@ -1730,9 +1714,7 @@ Fracture toughness is a measure of a material's resistance to fracture when a cr
 
 
 $$
-
 K_{IC} = \sigma \sqrt{\pi c}
-
 $$
 
 
@@ -1798,9 +1780,7 @@ Fracture toughness is a measure of a material's resistance to fracture when a cr
 
 
 $$
-
 K_{IC} = \sigma \sqrt{\pi c}
-
 $$
 
 
@@ -2730,7 +2710,6 @@ Discuss the factors that influence the initiation and propagation of cracks in a
 Calculate the stress concentration factor for a circular hole in a plate under tension using the equation: $$K_t = 3 - 2\frac{d}{D} + \frac{3}{2}\bigg(\frac{d}{D}\bigg)^2$$
 
 
-
 #### Exercise 4
 
 Compare and contrast the effects of microstructure on the fracture behavior of metals and ceramics.
@@ -2850,13 +2829,11 @@ The Hall-Petch relationship, named after its discoverers E.O. Hall and N.J. Petc
 Mathematically, the Hall-Petch relationship can be expressed as:
 
 
-
 $$
 
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
 
 $$
-
 
 
 Where $\sigma_y$ is the yield strength, $\sigma_0$ is a constant, $k_d$ is the Hall-Petch coefficient, and $d$ is the average grain size. This equation shows that the yield strength of a material is inversely proportional to the square root of its grain size.
@@ -2924,13 +2901,11 @@ The Hall-Petch relationship, named after its discoverers E.O. Hall and N.J. Petc
 Mathematically, the Hall-Petch relationship can be expressed as:
 
 
-
 $$
 
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
 
 $$
-
 
 
 Where $\sigma_y$ is the yield strength, $\sigma_0$ is a constant, $k_d$ is the Hall-Petch coefficient, and $d$ is the average grain size. This equation shows that the yield strength of a material is inversely proportional to the square root of its grain size.
@@ -2986,13 +2961,11 @@ The Hall-Petch relationship, named after its discoverers E.O. Hall and N.J. Petc
 Mathematically, the Hall-Petch relationship can be expressed as:
 
 
-
 $$
 
 \sigma_y = \sigma_0 + k_d \cdot d^{-1/2}
 
 $$
-
 
 
 Where $\sigma_y$ is the yield strength, $\sigma_0$ is a constant, $k_d$ is the Hall-Petch coefficient, and $d$ is the average grain size. This equation shows that the yield strength of a material is inversely proportional to the square root of its grain size.
@@ -3072,13 +3045,11 @@ The martensitic transformation can also lead to the formation of microcracks, wh
 Mathematically, the martensitic transformation can be described by the Koistinen-Marburger equation:
 
 
-
 $$
 
 f = 1 - e^{-k \cdot \Delta T}
 
 $$
-
 
 
 Where $f$ is the fraction of transformed austenite, $k$ is a material-specific constant, and $\Delta T$ is the temperature change during quenching. This equation shows that the fraction of transformed austenite increases with increasing temperature change, leading to a higher degree of martensitic transformation.
@@ -3122,13 +3093,11 @@ Similar to the martensitic transformation, the bainitic transformation can also 
 Mathematically, the bainitic transformation can be described by the Johnson-Mehl-Avrami-Kolmogorov (JMAK) equation:
 
 
-
 $$
 
 f = 1 - e^{-k \cdot t^n}
 
 $$
-
 
 
 Where $f$ is the fraction of transformed austenite, $k$ is a material-specific constant, $t$ is the time of isothermal heat treatment, and $n$ is the Avrami exponent. This equation shows that the fraction of transformed austenite increases with increasing time, leading to a higher degree of transformation.
@@ -3172,13 +3141,11 @@ However, the formation of pearlite can also lead to the formation of microcracks
 Mathematically, the formation of pearlite can be described by the Tait-Koistinen equation:
 
 
-
 $$
 
 f = 1 - e^{-k \cdot t^n}
 
 $$
-
 
 
 Where $f$ is the fraction of transformed austenite, $k$ is a material-specific constant, $t$ is the cooling time, and $n$ is the Avrami exponent. This equation shows that the fraction of transformed austenite increases with increasing cooling time, leading to a higher degree of transformation.
@@ -3222,13 +3189,11 @@ However, the presence of Widmanstätten structure can also lead to the formation
 Mathematically, the formation of Widmanstätten structure can be described by the Johnson-Mehl-Avrami-Kolmogorov (JMAK) equation:
 
 
-
 $$
 
 f = 1 - e^{-k \cdot t^n}
 
 $$
-
 
 
 Where $f$ is the fraction of transformed material, $k$ is a material-specific constant, $t$ is the cooling time, and $n$ is the Avrami exponent. This equation is similar to the Tait-Koistinen equation for pearlite transformation, but with different values for the constants $k$ and $n$.
@@ -3344,13 +3309,11 @@ However, it is important to note that overaging can occur when precipitates coar
 Mathematically, the strengthening effect of precipitates can be described by the Orowan equation, which relates the strength of a material to the density and size of precipitates. This equation is given by:
 
 
-
 $$
 
 \Delta \sigma = \frac{\mu b}{d} \rho
 
 $$
-
 
 
 where $\Delta \sigma$ is the increase in strength, $\mu$ is the shear modulus, $b$ is the Burgers vector, $d$ is the average distance between precipitates, and $\rho$ is the density of precipitates.
@@ -3394,13 +3357,11 @@ Impurities can also affect the kinetics of eutectoid decomposition. The presence
 Mathematically, the kinetics of eutectoid decomposition can be described by the Avrami equation:
 
 
-
 $$
 
 \Delta w = 1 - e^{-kt^n}
 
 $$
-
 
 
 where $\Delta w$ is the fraction of transformation, $k$ is the rate constant, and $n$ is the Avrami exponent. The value of $n$ is dependent on the mechanism of transformation, with values ranging from 1 to 4. A lower value of $n$ indicates a diffusion-controlled transformation, while a higher value indicates a nucleation-controlled transformation.
@@ -3444,13 +3405,11 @@ Impurities can also affect the kinetics of eutectoid decomposition. The presence
 Mathematically, the kinetics of eutectoid decomposition can be described by the Avrami equation:
 
 
-
 $$
 
 \Delta w = 1 - e^{-kt^n}
 
 $$
-
 
 
 where $\Delta w$ is the fraction of transformation, $k$ is the rate constant, and $n$ is the Avrami exponent. The value of $n$ is dependent on the mechanism of the transformation and can range from 1 to 4. The Avrami equation is based on the assumption that the transformation occurs uniformly throughout the material, which may not always be the case. Other models, such as the Johnson-Mehl-Avrami-Kolmogorov (JMAK) equation, take into account the non-uniformity of the transformation and can provide a better fit for experimental data.
@@ -3502,13 +3461,11 @@ Impurities can also affect the kinetics of eutectoid decomposition. The presence
 Mathematically, the kinetics of eutectoid decomposition can be described by the Avrami equation:
 
 
-
 $$
 
 \Delta w = 1 - e^{-kt^n}
 
 $$
-
 
 
 where $\Delta w$ is the fraction of transformation, $k$ is the rate constant, and $n$ is the Avrami exponent. The value of $n$ is dependent on the mechanism of the transformation and can range from 1 to 4. A value of 1 indicates a one-dimensional growth mechanism, while a value of 4 indicates a three-dimensional growth mechanism.
@@ -10262,13 +10219,11 @@ The Griffith theory, also known as the linear elastic fracture mechanics (LEFM),
 According to the Griffith theory, brittle fracture occurs when the energy required to create a new crack surface is less than the energy released by the formation of the crack. This energy balance is expressed in the Griffith equation:
 
 
-
 $$
 
 \frac{E\gamma}{\pi a} = \sigma_c^2
 
 $$
-
 
 
 where $E$ is the elastic modulus of the material, $\gamma$ is the surface energy, $a$ is the length of the crack, and $\sigma_c$ is the critical stress required for crack propagation.
@@ -10286,13 +10241,11 @@ One of the key assumptions of the Griffith theory is that the material is perfec
 To account for this, the Griffith theory has been modified to include the concept of the stress intensity factor, $K$. This factor takes into account the plastic deformation at the crack tip and is expressed as:
 
 
-
 $$
 
 K = \sigma\sqrt{\pi a}
 
 $$
-
 
 
 where $\sigma$ is the applied stress and $a$ is the crack length.
@@ -10328,13 +10281,11 @@ The Griffith theory, also known as the linear elastic fracture mechanics (LEFM),
 According to the Griffith theory, brittle fracture occurs when the energy required to create a new crack surface is less than the energy released by the formation of the crack. This energy balance is expressed in the Griffith equation:
 
 
-
 $$
 
 \frac{E\gamma}{\pi a} = \sigma_c^2
 
 $$
-
 
 
 where $E$ is the elastic modulus of the material, $\gamma$ is the surface energy, $a$ is the length of the crack, and $\sigma_c$ is the critical stress required for crack propagation.
@@ -10352,13 +10303,11 @@ One of the key assumptions of the Griffith theory is that the material is perfec
 To account for this, the Griffith theory has been modified to include the concept of the stress intensity factor, $K$. This factor takes into account the plastic deformation at the crack tip and is expressed as:
 
 
-
 $$
 
 K = \sigma\sqrt{\pi a}
 
 $$
-
 
 
 where $\sigma$ is the applied stress and $a$ is the crack length.
@@ -10380,13 +10329,11 @@ Irwin's linear elastic fracture mechanics (LEFM) is an extension of the Griffith
 In Irwin's LEFM, the stress intensity factor is expressed as:
 
 
-
 $$
 
 K = \sigma\sqrt{\pi a} \left(1.12 - 0.23\frac{a}{c}\right)
 
 $$
-
 
 
 where $c$ is the crack length and the term in parentheses accounts for the plastic deformation at the crack tip.
@@ -10422,13 +10369,11 @@ The Griffith theory, also known as the linear elastic fracture mechanics (LEFM),
 According to the Griffith theory, brittle fracture occurs when the energy required to create a new crack surface is less than the energy released by the formation of the crack. This energy balance is expressed in the Griffith equation:
 
 
-
 $$
 
 \frac{E\gamma}{\pi a} = \sigma_c^2
 
 $$
-
 
 
 where $E$ is the elastic modulus of the material, $\gamma$ is the surface energy, $a$ is the length of the crack, and $\sigma_c$ is the critical stress required for crack propagation.
@@ -10446,13 +10391,11 @@ One of the key assumptions of the Griffith theory is that the material is perfec
 To account for this, the Griffith theory has been modified to include the concept of the stress intensity factor, $K$. This factor takes into account the plastic deformation at the crack tip and is expressed as:
 
 
-
 $$
 
 K = \sigma\sqrt{\pi a}
 
 $$
-
 
 
 where $\sigma$ is the applied stress and $a$ is the crack length.
@@ -10918,13 +10861,11 @@ One of the earliest theories to explain brittle fracture in materials was propos
 The energy release rate can be calculated using the following equation:
 
 
-
 $$
 
 G = \frac{E' \gamma^2}{\pi a}
 
 $$
-
 
 
 Where $E'$ is the effective elastic modulus, $\gamma$ is the surface energy, and $a$ is the crack length. This equation shows that the energy release rate is inversely proportional to the crack length, meaning that smaller cracks are more likely to propagate and cause brittle fracture.
@@ -10980,13 +10921,11 @@ One of the earliest theories to explain brittle fracture in materials was propos
 The energy release rate can be calculated using the following equation:
 
 
-
 $$
 
 G = \frac{E' \gamma^2}{\pi a}
 
 $$
-
 
 
 Where $E'$ is the effective elastic modulus, $\gamma$ is the surface energy, and $a$ is the crack length. This equation shows that the energy release rate is inversely proportional to the crack length, meaning that smaller cracks are more likely to propagate and cause brittle fracture.
@@ -11048,7 +10987,6 @@ One of the earliest theories to explain brittle fracture in materials was propos
 
 
 The energy release rate can be calculated using the following equation:
-
 
 
 $$

@@ -620,9 +620,7 @@ Mathematically, for a dynamical system defined by a time-dependent function $f(t
 
 
 $$
-
 \text{Orbit}(x_0) = \{x(t) : t \in \mathbb{R}, x(t) \text{ is a solution to } \dot{x} = f(t, x) \text{ with } x(0) = x_0\}
-
 $$
 
 
@@ -656,9 +654,7 @@ For an elliptic orbit, the distance $r$ from the central body at any point in th
 
 
 $$
-
 r = a \cdot (1 - e \cos E)
-
 $$
 
 
@@ -672,9 +668,7 @@ The angle $\theta$ between the position of the orbiting body and the perihelion 
 
 
 $$
-
 \theta = 2 \cdot \arg\left(\sqrt{1-e} \cdot \cos \frac{E}{2}, \sqrt{1+e} \cdot \sin\frac{E}{2}\right)+ n\cdot 2\pi
-
 $$
 
 
@@ -720,9 +714,7 @@ The first step in Gauss's method is to calculate the time intervals between the 
 
 
 $$
-
 \tau_1 = t_2 - t_1, \quad \tau_3 = t_3 - t_2, \quad \tau = \tau_3 - \tau_1
-
 $$
 
 
@@ -732,13 +724,11 @@ Next, the position vectors of the object at the three observation times are calc
 
 
 $$
-
 \mathbf{r_1} = \mathbf{R_1}+\rho_1\mathbf{\hat\boldsymbol{\rho}_1} \\[1.7ex]
 
 \mathbf{r_2} = \mathbf{R_2}+\rho_2\mathbf{\hat\boldsymbol{\rho}_2} \\[1.7ex]
 
 \mathbf{r_3} = \mathbf{R_3}+\rho_3\mathbf{\hat\boldsymbol{\rho}_3}
-
 $$
 
 
@@ -760,9 +750,7 @@ The initial value problem for the differential equation can be written as:
 
 
 $$
-
 \mathbf{r}' = \mathbf{v}, \quad \mathbf{v}' = -\frac{GM}{r^3}\mathbf{r}
-
 $$
 
 
@@ -1210,9 +1198,7 @@ Consider a dynamical system described by the equation:
 
 
 $$
-
 \dot{x} = f(x, r),
-
 $$
 
 
@@ -1226,9 +1212,7 @@ We can linearize the system around `$x^*$` by taking the first-order Taylor expa
 
 
 $$
-
 f(x, r) \approx f(x^*, r) + \frac{\partial f}{\partial x}(x^*, r) (x - x^*) = \frac{\partial f}{\partial x}(x^*, r) (x - x^*).
-
 $$
 
 
@@ -1238,9 +1222,7 @@ The linearized system is then given by:
 
 
 $$
-
 \dot{x} = \frac{\partial f}{\partial x}(x^*, r) (x - x^*).
-
 $$
 
 
@@ -1282,9 +1264,7 @@ The spectral radius criterion is a key concept in the stability analysis of line
 
 
 $$
-
 \rho(A(\Delta t)) \leq 1,
-
 $$
 
 
@@ -1302,9 +1282,7 @@ Consider the linear structural equation:
 
 
 $$
-
 M\ddot{u} + C\dot{u} + K u = f^{\textrm{ext}},
-
 $$
 
 
@@ -1314,7 +1292,6 @@ where $M$ is the mass matrix, $C$ is the damping matrix, $K$ is the stiffness ma
 
 
 $$
-
 H_0 = \begin{bmatrix}
 
 M + \gamma\Delta tC & \gamma \Delta t K\\
@@ -1330,7 +1307,6 @@ M - (1-\gamma)\Delta tC & -(1 -\gamma) \Delta t K\\
 -(\frac{1}{2} - \beta) \Delta t^2 C +\Delta t M & M - (\frac{1}{2} - \beta)\Delta t^2 K
 
 \end{bmatrix}.
-
 $$
 
 
@@ -1372,9 +1348,7 @@ Consider a dynamical system described by the following set of differential equat
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{f}(\mathbf{x}),
-
 $$
 
 
@@ -1384,9 +1358,7 @@ where $\mathbf{x}$ is the state vector and $\mathbf{f}$ is a vector function. Th
 
 
 $$
-
 \mathbf{J}(\mathbf{x}^*) = \frac{\partial \mathbf{f}}{\partial \mathbf{x}}\Bigg|_{\mathbf{x}^*}.
-
 $$
 
 
@@ -1408,9 +1380,7 @@ Consider a dynamical system described by the following set of differential equat
 
 
 $$
-
 \dot{\mathbf{x}} = \mathbf{f}(\mathbf{x}),
-
 $$
 
 
@@ -1496,13 +1466,11 @@ The Hénon map is a type of discrete-time dynamical system. It is a simple model
 
 
 $$
-
 s_1(n+1) = -\alpha s_1^2(n)+s_3(n)+1\\
 
 s_2(n+1) = -\beta s_1(n)\\
 
 s_3(n+1) = \beta s_1(n) + s_2(n)
-
 $$
 
 
@@ -1528,13 +1496,11 @@ The Lu Chen attractor is a type of multiscroll attractor. It is defined by the f
 
 
 $$
-
 \frac{dx(t)}{dt}=a(y(t)-x(t))\\
 
 \frac{dy(t)}{dt}=x(t)-x(t)z(t)+cy(t)+u\\
 
 \frac{dz(t)}{dt}=x(t)y(t)-bz(t)
-
 $$
 
 
@@ -1564,13 +1530,11 @@ The Lorenz system is a set of three differential equations originally intended t
 
 
 $$
-
 \frac{dx}{dt} = \sigma(y-x)\\
 
 \frac{dy}{dt} = x(\rho-z)-y\\
 
 \frac{dz}{dt} = xy-\beta z
-
 $$
 
 
@@ -1790,9 +1754,7 @@ Mathematically, if $a_n$ is the parameter value at which the system bifurcates f
 
 
 $$
-
 \delta = \lim_{n\to\infty} \frac{a_{n-1} - a_{n-2}}{a_n - a_{n-1}}
-
 $$
 
 
@@ -1806,9 +1768,7 @@ Mathematically, if $w_n$ is the width of a tine at the $n$-th bifurcation, then 
 
 
 $$
-
 \alpha = \lim_{n\to\infty} \frac{w_{n-1}}{w_n}
-
 $$
 
 
@@ -1862,9 +1822,7 @@ In the context of the quadratic family, the Feigenbaum constants play a crucial 
 
 
 $$
-
 x_{n+1} = r x_n (1 - x_n)
-
 $$
 
 
@@ -1878,9 +1836,7 @@ The first Feigenbaum constant $\delta$ describes the rate at which the bifurcati
 
 
 $$
-
 \delta = \lim_{n\to\infty} \frac{r_{n-1} - r_{n-2}}{r_n - r_{n-1}}
-
 $$
 
 
@@ -1894,9 +1850,7 @@ The second Feigenbaum constant $\alpha$ describes the scaling of the bifurcation
 
 
 $$
-
 \alpha = \lim_{n\to\infty} \frac{d_{n-1}}{d_n}
-
 $$
 
 
@@ -1934,9 +1888,7 @@ Mathematically, the period-doubling cascade can be described by the following se
 
 
 $$
-
 r_n = r_{n-1} + \frac{1}{2^{n-1}}(r_{n-1} - r_{n-2})
-
 $$
 
 
@@ -1970,9 +1922,7 @@ This universality is not just qualitative, but also quantitative. The sequence o
 
 
 $$
-
 \Delta r_n = \frac{r_{n+1} - r_n}{r_{n} - r_{n-1}}
-
 $$
 
 
@@ -1994,9 +1944,7 @@ The Feigenbaum constant is defined as the limit of the ratio of successive bifur
 
 
 $$
-
 \delta = \lim_{n\to\infty} \frac{r_{n+1} - r_n}{r_{n} - r_{n-1}}
-
 $$
 
 
@@ -2022,9 +1970,7 @@ The period-doubling cascade is a phenomenon that is not only universal but also 
 
 
 $$
-
 f(x) = rx(1 - x)
-
 $$
 
 
@@ -2054,9 +2000,7 @@ The period-doubling cascade in the quadratic family also exhibits the universali
 
 
 $$
-
 \delta = \lim_{n\to\infty} \frac{r_{n+1} - r_n}{r_{n} - r_{n-1}}
-
 $$
 
 
@@ -2086,9 +2030,7 @@ In the realm of chaos and complexity, universal behavior is often associated wit
 
 
 $$
-
 \delta = \lim_{n\to\infty} \frac{r_{n+1} - r_n}{r_{n} - r_{n-1}}
-
 $$
 
 
@@ -2276,9 +2218,7 @@ Mathematically, the Lyapunov exponent $\lambda$ of a dynamical system is defined
 
 
 $$
-
 \lambda = \lim_{t \to \infty} \frac{1}{t} \ln \left|\frac{df(x(t))}{dx(t)}\right|
-
 $$
 
 
@@ -2348,9 +2288,7 @@ The Lyapunov exponent, denoted as $\lambda$, for the dyadic transformation can b
 
 
 $$
-
 \lambda = \lim_{n \to \infty} \frac{1}{n} \sum_{i=0}^{n-1} \log_2 |f'(x_i)|
-
 $$
 
 
@@ -2544,9 +2482,7 @@ Mathematically, the fractal dimension $D$ of a self-similar object with $N$ self
 
 
 $$
-
 D = \frac{\log N}{\log r}
-
 $$
 
 
@@ -2596,9 +2532,7 @@ The fractal dimension of these patterns can be calculated using the formula we d
 
 
 $$
-
 D = \frac{\log N}{\log r}
-
 $$
 
 
@@ -2824,9 +2758,7 @@ The concept of relative nonlinearity arises from the observation that the growth
 
 
 $$
-
 r_j = \phi_j(\overline{F}) + \frac{1}{2} \phi_j''(\overline{F}) \sigma^2_F
-
 $$
 
 
@@ -3020,9 +2952,7 @@ For instance, consider the application of the logistic map, a well-studied chaot
 
 
 $$
-
 x_{n+1} = r x_n (1 - x_n)
-
 $$
 
 
@@ -3202,9 +3132,7 @@ To illustrate, consider the general form of a first-order linear differential eq
 
 
 $$
-
 \frac{dy}{dx} + p(x)y = g(x)
-
 $$
 
 
@@ -3218,9 +3146,7 @@ In contrast, a first-order nonlinear differential equation could take a form suc
 
 
 $$
-
 \frac{dy}{dx} = f(x, y)
-
 $$
 
 
@@ -3234,9 +3160,7 @@ An example of a nonlinear differential equation is the logistic differential equ
 
 
 $$
-
 \frac{dy}{dt} = r y \left(1 - \frac{y}{K}\right)
-
 $$
 
 
@@ -3338,11 +3262,9 @@ The system dynamics and measurement models are represented by the following nonl
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
 
 \mathbf{z}(t) = h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) \quad \mathbf{v}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
-
 $$
 
 
@@ -3504,9 +3426,7 @@ To define a limit cycle, we consider a two-dimensional dynamical system of the f
 
 
 $$
-
 x'(t)=V(x(t))
-
 $$
 
 
@@ -3604,9 +3524,7 @@ Mathematically, let $\Phi_t$ denote the flow of the dynamical system, and let $\
 
 
 $$
-
 P(x) = \Phi_{\tau(x)}(x)
-
 $$
 
 
@@ -3624,9 +3542,7 @@ In the example provided in the related context, the Poincaré map is given by
 
 
 $$
-
 \Psi(r) = \sqrt{\frac{1}{1+e^{-4\pi}\left(\frac{1}{r^2}-1\right)}}
-
 $$
 
 
@@ -3682,43 +3598,33 @@ In the previous section, we discussed the properties of Poincaré maps and how t
 Consider the system of differential equations in polar coordinates, $(\theta, r)\in \mathbb{S}^1\times \mathbb{R}^+$:
 
 $$
-
 \dot{\theta} = 1\\
 
 \dot{r} = (1-r^2)r
-
 $$
 
 The flow of the system can be obtained by integrating the equation: for the $\theta$ component we simply have
 
 $$
-
 \theta(t) = \theta_0 + t
-
 $$
 
 while for the $r$ component we need to separate the variables and integrate:
 
 $$
-
 \int \frac{1}{(1-r^2)r} dr = \int dt \Longrightarrow \log\left(\frac{r}{\sqrt{1-r^2}}\right) = t+c
-
 $$
 
 Inverting last expression gives
 
 $$
-
 r(t) = \sqrt{\frac{1}{1+e^{-2t}\left(\frac{1}{r_0^2}-1\right)}}
-
 $$
 
 The flow of the system is therefore
 
 $$
-
 \Phi_t(\theta, r) = \left(\theta+ t, \sqrt{\frac{1}{1+e^{-2t}\left(\frac{1}{r_0^2}-1\right)}}\right)
-
 $$
 
 The behavior of the flow is such that the solution with initial data $(\theta_0, r_0\neq 1)$ draws a spiral that tends towards the radius 1 circle.
@@ -3946,9 +3852,7 @@ In mathematical terms, let's consider two dynamical systems represented by the e
 
 
 $$
-
 \dot{x} = f(x, u)
-
 $$
 
 
@@ -3958,9 +3862,7 @@ and
 
 
 $$
-
 \dot{y} = g(y, v)
-
 $$
 
 
@@ -3994,9 +3896,7 @@ Feedback control is a common technique used in many fields, including engineerin
 
 
 $$
-
 u = h(x - y)
-
 $$
 
 
@@ -4006,9 +3906,7 @@ and
 
 
 $$
-
 v = h(y - x)
-
 $$
 
 
@@ -4026,9 +3924,7 @@ Parameter adjustment is another technique for achieving synchronization. This te
 
 
 $$
-
 u = p(f, x)
-
 $$
 
 
@@ -4038,9 +3934,7 @@ and
 
 
 $$
-
 v = p(g, y)
-
 $$
 
 
@@ -5196,9 +5090,7 @@ For example, consider the simple linear differential equation:
 
 
 $$
-
 \frac{du}{dx} = c
-
 $$
 
 
@@ -5212,9 +5104,7 @@ On the other hand, a simple example of a nonlinear differential equation is:
 
 
 $$
-
 \frac{du}{dx} = cu^2
-
 $$
 
 
@@ -5296,7 +5186,6 @@ A system of nonlinear equations is a set of two or more equations, with two or m
 
 
 $$
-
 \begin{align*}
 
 x^2 + y^2 &= 1, \\
@@ -5304,7 +5193,6 @@ x^2 + y^2 &= 1, \\
 y &= x^2.
 
 \end{align*}
-
 $$
 
 
@@ -5446,9 +5334,7 @@ For instance, consider a nonlinear oscillator described by a differential equati
 
 
 $$
-
 \frac{d^2x}{dt^2} + \omega^2x + \epsilon x^3 = 0
-
 $$
 
 
@@ -5482,9 +5368,7 @@ The reference signal frequency is assumed to be constant:
 
 
 $$
-
 \theta_{ref}(t) = \omega_{ref}t = \frac{t}{T_{ref}},
-
 $$
 
 
@@ -5542,9 +5426,7 @@ The complex field "ψ", as appearing in the nonlinear Schrödinger equation, is 
 
 
 $$
-
 \eta = a(x_0, t_0) \cos(\omega_0 t_0 - k_0 x_0 + \theta(x_0, t_0))
-
 $$
 
 
@@ -5554,9 +5436,7 @@ where "a"($x_0$, $t_0$) and "θ"($x_0$, $t_0$) are the slowly modulated amplitud
 
 
 $$
-
 \psi = a e^{i\theta}
-
 $$
 
 
@@ -5590,9 +5470,7 @@ The complex field "ψ", as appearing in the nonlinear Schrödinger equation, is 
 
 
 $$
-
 \eta(x_0, t_0) = a(x_0, t_0) \cos(\omega_0 t_0 - k_0 x_0 + \theta(x_0, t_0))
-
 $$
 
 
@@ -5602,9 +5480,7 @@ where "a"($x_0$, $t_0$) and "θ"($x_0$, $t_0$) are the slowly modulated amplitud
 
 
 $$
-
 \psi(x_0, t_0) = a(x_0, t_0) e^{i\theta(x_0, t_0)}
-
 $$
 
 
@@ -5694,9 +5570,7 @@ A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS
 
 
 $$
-
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -5730,11 +5604,9 @@ Consider a system given by
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -5752,9 +5624,7 @@ A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS
 
 
 $$
-
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -5772,11 +5642,9 @@ Cascade interconnections are a special type of interconnection, where the dynami
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -5814,11 +5682,9 @@ Consider a system given by
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -5840,11 +5706,9 @@ Cascade interconnections are a special type of interconnected system where the d
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -5904,7 +5768,6 @@ Consider a nonlinear system described by the equation $dx/dt = -x^3 + x$. Analyz
 The Lorenz system is a set of three nonlinear differential equations that model atmospheric convection. The equations are: 
 
 $$
-
 \begin{align*}
 
 \frac{dx}{dt} &= \sigma(y - x) \\
@@ -5914,7 +5777,6 @@ $$
 \frac{dz}{dt} &= xy - \beta z
 
 \end{align*}
-
 $$
 
 where $\sigma$, $\rho$, and $\beta$ are parameters. For a given set of parameter values, plot the phase space diagram of the Lorenz system and discuss its behavior.
@@ -5976,9 +5838,7 @@ The mathematical description of a nonlinear system typically involves a set of n
 
 
 $$
-
 \frac{dx}{dt} = ax^2 + bx + c
-
 $$
 
 
@@ -6200,25 +6060,19 @@ The Lu Chen attractor is an extended Chen system with multiscroll proposed by Ji
 
 
 $$
-
 \frac{dx(t)}{dt}=a(y(t)-x(t))
-
 $$
 
 
 
 $$
-
 \frac{dy(t)}{dt}=x(t)-x(t)z(t)+cy(t)+u
-
 $$
 
 
 
 $$
-
 \frac{dz(t)}{dt}=x(t)y(t)-bz(t)
-
 $$
 
 
@@ -6236,25 +6090,19 @@ The modified Lu Chen attractor is described by the following system of equations
 
 
 $$
-
 \frac{dx(t)}{dt}=a(y(t)-x(t))
-
 $$
 
 
 
 $$
-
 \frac{dy(t)}{dt}=(c-a)x(t)-x(t)f+cy(t)
-
 $$
 
 
 
 $$
-
 \frac{dz(t)}{dt}=x(t)y(t)-bz(t)
-
 $$
 
 
@@ -6272,25 +6120,19 @@ In 2001, Tang et al. proposed a modified Chua chaotic system, described by the f
 
 
 $$
-
 \frac{dx(t)}{dt}= \alpha (y(t)-h)
-
 $$
 
 
 
 $$
-
 \frac{dy(t)}{dt}=x(t)-y(t)+z(t)
-
 $$
 
 
 
 $$
-
 \frac{dz(t)}{dt}=-\beta y(t)
-
 $$
 
 
@@ -6368,9 +6210,7 @@ For example, the Cantor set, a well-known fractal, has a fractal dimension of $\
 
 
 $$
-
 D = \frac{\log(N)}{\log(1/S)}
-
 $$
 
 
@@ -6480,9 +6320,7 @@ One of the defining characteristics of strange attractors is their sensitivity t
 
 
 $$
-
 \lim_{t\to\infty} |x(t, x_0) - x(t, x_0 + \delta x_0)| = \infty
-
 $$
 
 
@@ -6666,7 +6504,6 @@ Another important concept in nonlinear control is the strict-feedback form. In c
 
 
 $$
-
 \begin{align*}
 
 \dot{z}_1 &= f_1(\mathbf{x},z_1) + g_1(\mathbf{x},z_1) z_2\\
@@ -6684,7 +6521,6 @@ $$
 \dot{z}_k &= f_k(\mathbf{x},z_1, z_2, \ldots, z_{k-1}, z_k) + g_k(\mathbf{x},z_1, z_2, \dots, z_{k-1}, z_k) u
 
 \end{align*}
-
 $$
 
 
@@ -6762,7 +6598,6 @@ Let's illustrate this with a three-integrator system. The system dynamics can be
 
 
 $$
-
 \begin{cases}
 
 \dot{\mathbf{x}} = f_x(\mathbf{x}) + g_x(\mathbf{x}) z_1\\
@@ -6774,7 +6609,6 @@ $$
 \dot{z}_3 = u_3
 
 \end{cases}
-
 $$
 
 
@@ -6784,7 +6618,6 @@ The first step is to stabilize the first integrator, which results in a new syst
 
 
 $$
-
 \begin{cases}
 
 \dot{\mathbf{x}}_1 = f_1(\mathbf{x}_1) + g_1(\mathbf{x}_1) z_2 &\qquad \text{ ( by Lyapunov function } V_1, \text{ subsystem stabilized by } u_1(\mathbf{x}_1) \text{ )}\\
@@ -6792,7 +6625,6 @@ $$
 \dot{z}_2 = u_2
 
 \end{cases}
-
 $$
 
 
@@ -6802,7 +6634,6 @@ The second step is to stabilize the second integrator, which results in a new sy
 
 
 $$
-
 \begin{cases}
 
 \dot{\mathbf{x}}_2 = f_2(\mathbf{x}_2) + g_2(\mathbf{x}_2) z_3 &\qquad \text{ ( by Lyapunov function } V_2, \text{ subsystem stabilized by } u_2(\mathbf{x}_2) \text{ )}\\
@@ -6810,7 +6641,6 @@ $$
 \dot{z}_3 = u_3
 
 \end{cases}
-
 $$
 
 
@@ -6844,9 +6674,7 @@ The concept of a nonlinear observer can be illustrated using the no-input non-li
 
 
 $$
-
 \dot{x} = f(x)
-
 $$
 
 
@@ -6856,9 +6684,7 @@ where $x \in \mathbb{R}^n$. Also, assume that there is a measurable output $y \i
 
 
 $$
-
 y = h(x)
-
 $$
 
 
@@ -6876,9 +6702,7 @@ One approach to designing a nonlinear observer is to find a linearizing transfor
 
 
 $$
-
 \dot{z} = Az + Bu
-
 $$
 
 
@@ -6888,9 +6712,7 @@ The Luenberger observer is then designed as
 
 
 $$
-
 \dot{\hat{z}} = A\hat{z} + Bu + L(y - C\hat{z})
-
 $$
 
 
@@ -6912,7 +6734,6 @@ The continuous-time EKF model is given by
 
 
 $$
-
 \begin{align*}
 
 \dot{\mathbf{x}}(t) &= f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) &\mathbf{w}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr) \\
@@ -6920,7 +6741,6 @@ $$
 \mathbf{z}(t) &= h\bigl(\mathbf{x}(t)\bigr) + \mathbf{v}(t) &\mathbf{v}(t) &\sim \mathcal{N}\bigl(\mathbf{0},\mathbf{R}(t)\bigr)
 
 \end{align*}
-
 $$
 
 
@@ -7000,11 +6820,9 @@ The equations governing the operation of the EKF are as follows:
 Prediction:
 
 $$
-
 \dot{\hat{\mathbf{x}}}(t) = f\bigl(\hat{\mathbf{x}}(t),\mathbf{u}(t)\bigr)+\mathbf{K}(t)\Bigl(\mathbf{z}(t)-h\bigl(\hat{\mathbf{x}}(t)\bigr)\Bigr)\\
 
 \dot{\mathbf{P}}(t) = \mathbf{F}(t)\mathbf{P}(t)+\mathbf{P}(t)\mathbf{F}(t)^{T}-\mathbf{K}(t)\mathbf{H}(t)\mathbf{P}(t)+\mathbf{Q}(t)
-
 $$
 
 
@@ -7012,13 +6830,11 @@ $$
 Update:
 
 $$
-
 \mathbf{K}(t) = \mathbf{P}(t)\mathbf{H}(t)^{T}\mathbf{R}(t)^{-1}\\
 
 \mathbf{F}(t) = \left . \frac{\partial f}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t),\mathbf{u}(t)}\\
 
 \mathbf{H}(t) = \left . \frac{\partial h}{\partial \mathbf{x} } \right \vert _{\hat{\mathbf{x}}(t)}
-
 $$
 
 
@@ -7048,7 +6864,6 @@ In the strict-feedback form, the nonlinear functions $f_i$ and $g_i$ in the $\do
 
 
 $$
-
 \begin{align*}
 
 \dot{z}_1 &= f_1(\mathbf{x},z_1) + g_1(\mathbf{x},z_1) z_2\\
@@ -7066,7 +6881,6 @@ $$
 \dot{z}_k &= f_k(\mathbf{x},z_1, z_2, \ldots, z_{k-1}, z_k) + g_k(\mathbf{x},z_1, z_2, \dots, z_{k-1}, z_k) u
 
 \end{align*}
-
 $$
 
 
@@ -7196,11 +7010,9 @@ Consider a system given by:
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -7218,9 +7030,7 @@ A smooth function $V_{i}:\R^{p_{i}} \to \R_{+}$ is an ISS-Lyapunov function (ISS
 
 
 $$
-
 V_i(x_{i})\geq\max\{ \max_{j=1}^{n}\chi_{ij}(V_{j}(x_{j})),\chi_{i}(|u|)\} \ \Rightarrow\ \nabla V_i (x_i) \cdot f_{i}(x_{1},\ldots,x_{n},u) \leq-\alpha_{i}(V_{i}(x_{i})).
-
 $$
 
 
@@ -7282,11 +7092,9 @@ However, it is important to note that the cascade interconnection of 0-GAS syste
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -7332,11 +7140,9 @@ However, it is important to note that the cascade interconnection of 0-GAS syste
 
 
 $$
-
 \dot{x}_{i}=f_{i}(x_{i},\ldots,x_{n},u),\\
 
 i=1,\ldots,n.
-
 $$
 
 
@@ -7452,7 +7258,6 @@ A nonlinear optimization problem can then be defined as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x) \\
@@ -7464,7 +7269,6 @@ $$
 & x \in X
 
 \end{align*}
-
 $$
 
 
@@ -7594,7 +7398,6 @@ The general form of a nonlinear programming problem can be defined as follows:
 
 
 $$
-
 \begin{align*}
 
 \text{minimize} \quad & f(x) \\
@@ -7604,7 +7407,6 @@ $$
 & h_j(x) = 0, \quad j = 1, ..., p \\
 
 \end{align*}
-
 $$
 
 
@@ -7656,9 +7458,7 @@ A function $f: R^n \rightarrow R$ is convex if for any two points $x, y \in R^n$
 
 
 $$
-
 f(\lambda x + (1 - \lambda)y) \leq \lambda f(x) + (1 - \lambda)f(y)
-
 $$
 
 
@@ -7668,9 +7468,7 @@ A set $S \subseteq R^n$ is convex if for any two points $x, y \in S$ and any $\l
 
 
 $$
-
 \lambda x + (1 - \lambda)y \in S
-
 $$
 
 
@@ -7796,9 +7594,7 @@ A nonlinear constraint is then an inequality of the form:
 
 
 $$
-
 g_i(x) \leq 0, \quad i = 1, ..., m
-
 $$
 
 
@@ -7808,9 +7604,7 @@ or an equality of the form:
 
 
 $$
-
 h_j(x) = 0, \quad j = 1, ..., p
-
 $$
 
 
@@ -8036,9 +7830,7 @@ The dynamics of a system can be represented by a set of differential equations, 
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) 
-
 $$
 
 
@@ -8414,9 +8206,7 @@ The general form of a nonlinear model can be expressed as:
 
 
 $$
-
 y = f(\mathbf{x}, \mathbf{p}) + \epsilon
-
 $$
 
 
@@ -8430,9 +8220,7 @@ The goal of nonlinear parameter estimation is to find the parameter vector $\mat
 
 
 $$
-
 S(\mathbf{p}) = \sum_{i=1}^{n} [y_i - f(\mathbf{x}_i, \mathbf{p})]^2
-
 $$
 
 

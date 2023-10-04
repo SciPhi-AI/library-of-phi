@@ -1487,9 +1487,7 @@ Fluid statics is the study of fluids at rest. In this state, the fluid is not in
 - The hydrostatic equation: This equation relates the pressure at a point in a fluid to the density of the fluid, the acceleration due to gravity, and the height of the fluid column above the point. It is given by:
 
 $$
-
 P = \rho g h
-
 $$
 
 where $P$ is the pressure, $\rho$ is the density, $g$ is the acceleration due to gravity, and $h$ is the height of the fluid column.
@@ -1555,9 +1553,7 @@ Fluid statics is the study of fluids at rest. In this state, the fluid is not in
 - The hydrostatic equation: This equation relates the pressure at a point in a fluid to the density of the fluid, the acceleration due to gravity, and the height of the fluid column above the point. It is given by:
 
 $$
-
 P = \rho g h
-
 $$
 
 where $P$ is the pressure, $\rho$ is the density, $g$ is the acceleration due to gravity, and $h$ is the height of the fluid column.
@@ -1635,9 +1631,7 @@ Fluid statics is the study of fluids at rest. In this state, the fluid is not in
 - The hydrostatic equation: This equation relates the pressure at a certain depth in a fluid to the density of the fluid and the acceleration due to gravity. It is given by:
 
 $$
-
 P = \rho g h
-
 $$
 
 where $P$ is the pressure, $\rho$ is the density, $g$ is the acceleration due to gravity, and $h$ is the depth.
@@ -1645,9 +1639,7 @@ where $P$ is the pressure, $\rho$ is the density, $g$ is the acceleration due to
 - Archimedes' principle: This principle states that the buoyant force acting on an object submerged in a fluid is equal to the weight of the fluid displaced by the object. It is given by:
 
 $$
-
 F_b = \rho g V_{displaced}
-
 $$
 
 where $F_b$ is the buoyant force, $\rho$ is the density of the fluid, $g$ is the acceleration due to gravity, and $V_{displaced}$ is the volume of fluid displaced by the object.
@@ -1671,9 +1663,7 @@ Fluid dynamics is the study of fluids in motion. In marine hydrodynamics, we are
 - The continuity equation: This equation states that the mass flow rate of a fluid is constant at any point in a closed system. It is given by:
 
 $$
-
 \rho_1 A_1 v_1 = \rho_2 A_2 v_2
-
 $$
 
 where $\rho$ is the density, $A$ is the cross-sectional area, and $v$ is the velocity.
@@ -1681,9 +1671,7 @@ where $\rho$ is the density, $A$ is the cross-sectional area, and $v$ is the vel
 - The Bernoulli's equation: This equation relates the pressure, velocity, and elevation of a fluid in steady, incompressible flow. It is given by:
 
 $$
-
 P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
-
 $$
 
 where $P$ is the pressure, $\rho$ is the density, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the elevation.
@@ -1691,9 +1679,7 @@ where $P$ is the pressure, $\rho$ is the density, $v$ is the velocity, $g$ is th
 - The Navier-Stokes equations: These equations describe the motion of a fluid in terms of its velocity, pressure, and viscosity. They are given by:
 
 $$
-
 \rho \left(\frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v}\right) = -\nabla P + \mu \nabla^2 \mathbf{v} + \rho \mathbf{g}
-
 $$
 
 where $\rho$ is the density, $\mathbf{v}$ is the velocity vector, $P$ is the pressure, $\mu$ is the dynamic viscosity, and $\mathbf{g}$ is the acceleration due to gravity.
@@ -1719,9 +1705,7 @@ Fluid kinematics is the study of the motion of fluids without considering the fo
 - The vorticity equation: This equation describes the rate of change of vorticity, which is a measure of the local rotation of a fluid element. It is given by:
 
 $$
-
 \frac{D \boldsymbol{\omega}}{Dt} = (\boldsymbol{\omega} \cdot \nabla) \mathbf{v} + \nu \nabla^2 \boldsymbol{\omega}
-
 $$
 
 where $\boldsymbol{\omega}$ is the vorticity vector, $\mathbf{v}$ is the velocity vector, and $\nu$ is the kinematic viscosity.
@@ -1777,7 +1761,6 @@ Fluid statics is the study of fluids at rest. In this state, the fluid is not in
 
 
 - The hydrostatic equation: $$\frac{\partial p}{\partial z} = -\rho g$$
-
 - Archimedes' principle: $$F_B = \rho g V$$
 
 - Pascal's law: $$\frac{F_1}{A_1} = \frac{F_2}{A_2}$$
@@ -1823,9 +1806,7 @@ Conservation laws are fundamental principles in physics that describe the behavi
 The conservation of mass states that the total mass of a closed system remains constant over time. In fluid mechanics, this means that the mass of a fluid cannot be created or destroyed, only redistributed. Mathematically, this can be expressed as:
 
 
-
 $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0$$
-
 
 
 This equation is known as the continuity equation and is a fundamental equation in fluid dynamics. It describes the conservation of mass in a fluid and is used to analyze the behavior of fluids in marine environments.
@@ -2225,13 +2206,9 @@ These equations are used to calculate the pressure distribution in a fluid at re
 Fluid dynamics is the study of fluids in motion. In marine hydrodynamics, we are primarily concerned with incompressible fluids, which means their density remains constant regardless of changes in pressure or temperature. The equations of motion for incompressible fluids are known as the Navier-Stokes equations and are given by:
 
 
-
 $$\rho \left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}$$
 
-
-
 $$\nabla \cdot \mathbf{u} = 0$$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, and $\mathbf{g}$ is the gravitational acceleration vector. These equations describe the conservation of mass and momentum in a fluid and are essential for understanding the behavior of fluids in marine environments.
@@ -2245,17 +2222,13 @@ where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pre
 Viscosity is a measure of a fluid's resistance to flow. In marine hydrodynamics, viscosity plays a crucial role in determining the behavior of fluids. It is responsible for the formation of boundary layers, which are thin layers of fluid near a solid surface where the velocity of the fluid is affected by the friction between the fluid and the surface. Viscosity also affects the overall flow of a fluid, as it determines the rate at which momentum is transferred between fluid particles. The dynamic viscosity, $\mu$, is defined as the ratio of shear stress to shear rate and is given by:
 
 
-
 $$\mu = \frac{\tau}{\dot{\gamma}}$$
-
 
 
 where $\tau$ is the shear stress and $\dot{\gamma}$ is the shear rate. The kinematic viscosity, $\nu$, is defined as the ratio of dynamic viscosity to density and is given by:
 
 
-
 $$\nu = \frac{\mu}{\rho}$$
-
 
 
 Understanding the concept of viscosity is crucial for analyzing the behavior of fluids in marine environments and is essential for the development of numerical methods used in marine hydrodynamics.
@@ -2601,13 +2574,11 @@ These rules can be applied to solve problems in marine hydrodynamics, such as de
 Integrals, on the other hand, are the inverse operation of derivatives. They allow us to find the area under a curve or the accumulation of a quantity over a given interval. The definite integral of a function $f(x)$ over an interval $[a,b]$ is denoted by $\int_a^b f(x) dx$. The fundamental theorem of calculus states that the definite integral of a function $f(x)$ can be evaluated by finding the antiderivative of $f(x)$ and evaluating it at the upper and lower limits of the interval. This can be written as:
 
 
-
 $$
 
 \int_a^b f(x) dx = F(b) - F(a)
 
 $$
-
 
 
 where $F(x)$ is the antiderivative of $f(x)$. 
@@ -2655,13 +2626,11 @@ Taylor series are a powerful tool in calculus that allow us to approximate a fun
 A Taylor series is a representation of a function as an infinite sum of terms, each of which is a polynomial. It is defined as:
 
 
-
 $$
 
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 where $f^{(n)}(a)$ represents the $n$th derivative of $f(x)$ evaluated at $x=a$. This means that the Taylor series is centered around the point $x=a$, and each term in the series represents the contribution of a specific derivative of $f(x)$ at that point.
@@ -2697,13 +2666,11 @@ Taylor series are a powerful tool in calculus that allow us to approximate a fun
 A Taylor series is a representation of a function as an infinite sum of terms, each of which is a polynomial. It is defined as:
 
 
-
 $$
 
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 where $f^{(n)}(a)$ represents the $n$th derivative of $f(x)$ evaluated at $x=a$. This means that the Taylor series is centered around the point $x=a$, and each term in the series represents the contribution of a specific derivative of $f(x)$ at that point.
@@ -2755,13 +2722,11 @@ Taylor series are a powerful tool in calculus that allow us to approximate a fun
 A Taylor series is a representation of a function as an infinite sum of terms, each of which is a polynomial. It is defined as:
 
 
-
 $$
 
 f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
 
 $$
-
 
 
 where $f^{(n)}(a)$ represents the $n$th derivative of $f(x)$ evaluated at $x=a$. This means that the Taylor series is centered around the point $x=a$, and each term in the series represents the contribution of a specific derivative of $f(x)$ at that point.
@@ -2795,13 +2760,11 @@ One such method is the Taylor series method, which uses Taylor series to approxi
 When using Taylor series to approximate a function, it is important to consider the error introduced by truncating the series at a certain order. This error can be quantified using the remainder term of the Taylor series, which is given by:
 
 
-
 $$
 
 R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
 
 $$
-
 
 
 where $c$ is a value between $a$ and $x$. This remainder term represents the difference between the actual value of the function and the value obtained from the truncated Taylor series.
@@ -2833,7 +2796,6 @@ Fourier series are another powerful tool in calculus that allow us to represent 
 A Fourier series is a representation of a periodic function $f(x)$ with period $L$ as an infinite sum of sines and cosines. It is defined as:
 
 
-
 $$
 
 f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}\right) + b_n \sin\left(\frac{2\pi nx}{L}\right)\right)
@@ -2841,9 +2803,7 @@ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}
 $$
 
 
-
 where the coefficients $a_n$ and $b_n$ are given by:
-
 
 
 $$
@@ -2852,14 +2812,11 @@ a_n = \frac{2}{L} \int_{0}^{L} f(x) \cos\left(\frac{2\pi nx}{L}\right) dx
 
 $$
 
-
-
 $$
 
 b_n = \frac{2}{L} \int_{0}^{L} f(x) \sin\left(\frac{2\pi nx}{L}\right) dx
 
 $$
-
 
 
 The Fourier series allows us to approximate a periodic function with a finite number of terms, with the accuracy increasing as we include more terms. This is similar to the Taylor series, but instead of using polynomials, we use sines and cosines to approximate the function.
@@ -2913,7 +2870,6 @@ Fourier series are another powerful tool in calculus that allow us to represent 
 A Fourier series is a representation of a periodic function $f(x)$ with period $L$ as an infinite sum of sines and cosines. It is defined as:
 
 
-
 $$
 
 f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}\right) + b_n \sin\left(\frac{2\pi nx}{L}\right)\right)
@@ -2921,9 +2877,7 @@ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}
 $$
 
 
-
 where the coefficients $a_n$ and $b_n$ are given by:
-
 
 
 $$
@@ -2932,14 +2886,11 @@ a_n = \frac{2}{L} \int_{0}^{L} f(x) \cos\left(\frac{2\pi nx}{L}\right) dx
 
 $$
 
-
-
 $$
 
 b_n = \frac{2}{L} \int_{0}^{L} f(x) \sin\left(\frac{2\pi nx}{L}\right) dx
 
 $$
-
 
 
 The Fourier series allows us to approximate a periodic function with a finite number of terms, with the accuracy increasing as we include more terms. This is similar to the Taylor series, but instead of using polynomials, we use sines and cosines to approximate the function.
@@ -2973,13 +2924,11 @@ The Fourier transform is a mathematical operation that takes a function in the t
 The Fourier transform is defined as:
 
 
-
 $$
 
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
 
 $$
-
 
 
 where $f(t)$ is the function in the time domain and $F(\omega)$ is the function in the frequency domain.
@@ -3025,7 +2974,6 @@ Fourier series are another powerful tool in calculus that allow us to represent 
 A Fourier series is a representation of a periodic function $f(x)$ with period $L$ as an infinite sum of sines and cosines. It is defined as:
 
 
-
 $$
 
 f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}\right) + b_n \sin\left(\frac{2\pi nx}{L}\right)\right)
@@ -3033,9 +2981,7 @@ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\left(\frac{2\pi nx}{L}
 $$
 
 
-
 where the coefficients $a_n$ and $b_n$ are given by:
-
 
 
 $$
@@ -3044,14 +2990,11 @@ a_n = \frac{2}{L} \int_{0}^{L} f(x) \cos\left(\frac{2\pi nx}{L}\right) dx
 
 $$
 
-
-
 $$
 
 b_n = \frac{2}{L} \int_{0}^{L} f(x) \sin\left(\frac{2\pi nx}{L}\right) dx
 
 $$
-
 
 
 The Fourier series allows us to approximate a periodic function with a finite number of terms, with the accuracy increasing as we include more terms. This is similar to the Taylor series, but instead of using polynomials, we use sines and cosines to approximate the function.
@@ -3117,7 +3060,6 @@ Complex numbers are an extension of the real numbers that include a new element,
 The basic operations of addition, subtraction, multiplication, and division can be performed on complex numbers in a similar way to real numbers. The only difference is that when multiplying two imaginary numbers, $i^2$ is replaced by -1. For example:
 
 
-
 $$
 
 (3 + 2i)(4 + 5i) = 12 + 15i + 8i + 10i^2 = 2 + 23i
@@ -3125,9 +3067,7 @@ $$
 $$
 
 
-
 Complex numbers also have a conjugate, denoted by $\overline{z}$, which is the complex number with the same real part but the opposite sign for the imaginary part. For example, the conjugate of $3 + 2i$ is $3 - 2i$. The conjugate is useful in finding the modulus or absolute value of a complex number, which is defined as:
-
 
 
 $$
@@ -3137,7 +3077,6 @@ $$
 $$
 
 
-
 where $a$ and $b$ are the real and imaginary parts of the complex number, respectively.
 
 
@@ -3145,13 +3084,11 @@ where $a$ and $b$ are the real and imaginary parts of the complex number, respec
 Another important property of complex numbers is Euler's formula, which relates complex numbers to trigonometric functions:
 
 
-
 $$
 
 e^{ix} = \cos(x) + i\sin(x)
 
 $$
-
 
 
 This formula is useful in simplifying complex expressions and solving differential equations.
@@ -3201,7 +3138,6 @@ Complex numbers are an extension of the real numbers that include a new element,
 The basic operations of addition, subtraction, multiplication, and division can be performed on complex numbers in a similar way to real numbers. The only difference is that when multiplying two imaginary numbers, $i^2$ is replaced by -1. For example:
 
 
-
 $$
 
 (3 + 2i)(4 + 5i) = 12 + 15i + 8i + 10i^2 = 2 + 23i
@@ -3209,9 +3145,7 @@ $$
 $$
 
 
-
 Complex numbers also have a conjugate, denoted by $\overline{z}$, which is the complex number with the same real part but the opposite sign for the imaginary part. For example, the conjugate of $3 + 2i$ is $3 - 2i$. The conjugate is useful in finding the modulus or absolute value of a complex number, which is defined as:
-
 
 
 $$
@@ -3221,7 +3155,6 @@ $$
 $$
 
 
-
 where $a$ and $b$ are the real and imaginary parts of the complex number, respectively.
 
 
@@ -3229,13 +3162,11 @@ where $a$ and $b$ are the real and imaginary parts of the complex number, respec
 Another important property of complex numbers is Euler's formula, which relates complex numbers to trigonometric functions:
 
 
-
 $$
 
 e^{ix} = \cos(x) + i\sin(x)
 
 $$
-
 
 
 This formula is useful in simplifying complex expressions and solving differential equations.
@@ -3289,7 +3220,6 @@ Complex numbers are an extension of the real numbers that include a new element,
 The basic operations of addition, subtraction, multiplication, and division can be performed on complex numbers in a similar way to real numbers. The only difference is that when multiplying two imaginary numbers, $i^2$ is replaced by -1. For example:
 
 
-
 $$
 
 (3 + 2i)(4 + 5i) = 12 + 15i + 8i + 10i^2 = 2 + 23i
@@ -3297,9 +3227,7 @@ $$
 $$
 
 
-
 Complex numbers also have a conjugate, denoted by $\overline{z}$, which is the complex number with the same real part but the opposite sign for the imaginary part. For example, the conjugate of $3 + 2i$ is $3 - 2i$. The conjugate is useful in finding the modulus or absolute value of a complex number, which is defined as:
-
 
 
 $$
@@ -3309,7 +3237,6 @@ $$
 $$
 
 
-
 where $a$ and $b$ are the real and imaginary parts of the complex number, respectively.
 
 
@@ -3317,13 +3244,11 @@ where $a$ and $b$ are the real and imaginary parts of the complex number, respec
 Another important property of complex numbers is Euler's formula, which relates complex numbers to trigonometric functions:
 
 
-
 $$
 
 e^{ix} = \cos(x) + i\sin(x)
 
 $$
-
 
 
 This formula is useful in simplifying complex expressions and solving differential equations.
@@ -3547,13 +3472,11 @@ Complex functions have several properties that make them useful in marine hydrod
 - **Cauchy-Riemann Equations:** The Cauchy-Riemann equations are a set of necessary conditions for a complex function to be differentiable. They state that if $f(z) = u(x,y) + iv(x,y)$ is differentiable at a point $z_0 = x_0 + iy_0$, then the partial derivatives of $u$ and $v$ must satisfy the following equations:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \quad \text{and} \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
 
 $$
-
 
 
 - **Analyticity:** As mentioned earlier, a complex function is said to be analytic in a region if it is differentiable at all points in that region. Analytic functions have several useful properties, such as the ability to be represented by a power series and the satisfaction of the Cauchy-Riemann equations.
@@ -3747,7 +3670,6 @@ One of the fundamental properties of complex numbers is that they can be represe
 Another important property of complex numbers is that they can be added, subtracted, multiplied, and divided, just like real numbers. These operations follow the same rules as real numbers, with the added consideration of the imaginary unit $i$. For example, the product of two complex numbers $z_1 = a + bi$ and $z_2 = c + di$ is given by:
 
 
-
 $$
 
 z_1z_2 = (a + bi)(c + di) = ac + adi + bci + bdi^2
@@ -3755,9 +3677,7 @@ z_1z_2 = (a + bi)(c + di) = ac + adi + bci + bdi^2
 $$
 
 
-
 Since $i^2 = -1$, we can simplify this to:
-
 
 
 $$
@@ -3765,7 +3685,6 @@ $$
 z_1z_2 = (ac - bd) + (ad + bc)i
 
 $$
-
 
 
 This property is particularly useful when dealing with complex functions, which are functions that take complex numbers as inputs and produce complex numbers as outputs. Complex functions can be represented as $f(z) = u(x,y) + iv(x,y)$, where $u(x,y)$ and $v(x,y)$ are real-valued functions of the real variables $x$ and $y$. This representation allows us to apply the rules of real-valued functions to complex functions.
@@ -3827,13 +3746,11 @@ Complex functions are functions that take a complex number as an input and produ
 Complex functions have several properties that are important to understand in the context of marine hydrodynamics. One of the most significant properties is the Cauchy-Riemann equations, which state that for a complex function $f(z) = u(x,y) + iv(x,y)$ to be differentiable at a point $z_0 = x_0 + iy_0$, the partial derivatives of $u$ and $v$ must satisfy the following conditions:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \quad \text{and} \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
 
 $$
-
 
 
 These equations are essential in understanding the behavior of complex functions and their derivatives, which are crucial in solving problems in marine hydrodynamics.
@@ -3863,13 +3780,11 @@ In this section, we will explore the concept of complex integration, which is an
 Cauchy's Integral Theorem is a fundamental result in complex analysis that states that the integral of an analytic function $f(z)$ along a closed path $C$ is equal to $0$. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \oint_C f(z) dz = 0
 
 $$
-
 
 
 This theorem has significant implications in marine hydrodynamics, as it allows us to solve complex problems involving the behavior of waves and currents in the ocean. It also provides a powerful tool for calculating complex integrals and simplifying complex calculations.
@@ -3883,13 +3798,11 @@ This theorem has significant implications in marine hydrodynamics, as it allows 
 Cauchy's Integral Formula is another important result in complex analysis that is closely related to Cauchy's Integral Theorem. It states that if $f(z)$ is an analytic function inside a closed path $C$, then the value of the function at any point $z_0$ inside $C$ can be calculated using the following formula:
 
 
-
 $$
 
 f(z_0) = \frac{1}{2\pi i} \oint_C \frac{f(z)}{z-z_0} dz
 
 $$
-
 
 
 This formula is particularly useful in solving problems in marine hydrodynamics, as it allows us to calculate the value of a complex function at a specific point using complex integration.
@@ -4667,13 +4580,11 @@ In this subsection, we will focus on the algorithm and implementation of the New
 2. Calculate the derivative of the function at x0, f'(x0).
 
 3. Use the derivative to calculate the next approximation of the root, x1, using the formula:
-
 $$
 
 x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}
 
 $$
-
 4. Repeat step 3 until the desired level of accuracy is achieved.
 
 
@@ -4871,13 +4782,11 @@ The algorithm for the secant method is as follows:
 2. Calculate the next approximation, x<sub>2</sub>, using the formula:
 
 
-
 $$
 
 x_2 = x_1 - \frac{f(x_1)(x_1 - x_0)}{f(x_1) - f(x_0)}
 
 $$
-
 
 
 3. Repeat step 2 until the desired level of accuracy is achieved.
@@ -5085,14 +4994,11 @@ To better understand this algorithm, let's consider an example. Suppose we want 
 Now, let's choose an initial guess of $x_0 = 2$ and apply the algorithm. We get the following iterations:
 
 
-
 $$
 
 x_1 = g(x_0) = \frac{2^3 - 5}{2} = \frac{3}{2} = 1.5
 
 $$
-
-
 
 $$
 
@@ -5100,14 +5006,11 @@ x_2 = g(x_1) = \frac{1.5^3 - 5}{2} = \frac{1.875}{2} = 0.9375
 
 $$
 
-
-
 $$
 
 x_3 = g(x_2) = \frac{0.9375^3 - 5}{2} = \frac{-3.515625}{2} = -1.7578125
 
 $$
-
 
 
 We can see that the values are converging towards the root, which is approximately $x = -1.7693$. However, we can also see that the iterations are not converging very quickly. This is a common issue with fixed-point iteration, and we will discuss methods for improving convergence in later sections.
@@ -5233,13 +5136,11 @@ Fixed-point iteration is a numerical method for finding the roots of a given equ
 The fixed-point iteration method can be written as follows:
 
 
-
 $$
 
 x_{n+1} = g(x_n)
 
 $$
-
 
 
 where $x_n$ is the initial guess and $g(x)$ is a function that is chosen such that the fixed point of $g(x)$ is the root of the original equation. The process is repeated until the value of $x_n$ converges to the root.
@@ -5405,13 +5306,11 @@ Least squares approximation is a mathematical technique used to find the best fi
 To understand this concept better, let's consider a set of data points (x_i, y_i), where i = 1,2,...,n. Our goal is to find a function f(x) that best fits these data points. The least squares approximation method involves finding the coefficients of the function f(x) that minimize the sum of the squared errors, given by:
 
 
-
 $$
 
 \sum_{i=1}^{n}(y_i - f(x_i))^2
 
 $$
-
 
 
 This can be solved by setting the derivative of the above expression with respect to the coefficients equal to zero and solving for the coefficients. The resulting function will be the best fit curve for the given data points.
@@ -5455,13 +5354,11 @@ Least squares approximation is a mathematical technique used to find the best fi
 To understand this concept better, let's consider a set of data points (x_i, y_i), where i = 1,2,...,n. Our goal is to find a function f(x) that best fits these data points. The least squares approximation method involves finding the coefficients of the function f(x) that minimize the sum of the squared errors, given by:
 
 
-
 $$
 
 \sum_{i=1}^{n}(y_i - f(x_i))^2
 
 $$
-
 
 
 This can be solved by setting the derivative of the above expression with respect to the coefficients equal to zero and solving for the coefficients. The resulting function will be the best fit curve for the given data points.
@@ -5491,13 +5388,11 @@ In the previous section, we discussed the general concept of least squares appro
 Linear least squares approximation involves finding the best fit curve that can be expressed as a linear combination of basis functions. This means that the function f(x) can be written as:
 
 
-
 $$
 
 f(x) = a_0 + a_1x + a_2x^2 + ... + a_nx^n
 
 $$
-
 
 
 where a_0, a_1, ..., a_n are the coefficients to be determined. This type of approximation is commonly used when the data can be approximated by a straight line or a polynomial curve.
@@ -5545,13 +5440,11 @@ Least squares approximation is a mathematical technique used to find the best fi
 To understand this concept better, let's consider a set of data points (x_i, y_i), where i = 1,2,...,n. Our goal is to find a function f(x) that best fits these data points. The least squares approximation method involves finding the coefficients of the function f(x) that minimize the sum of the squared errors, given by:
 
 
-
 $$
 
 \sum_{i=1}^{n}(y_i - f(x_i))^2
 
 $$
-
 
 
 This can be solved by setting the derivative of the above expression with respect to the coefficients equal to zero and solving for the coefficients. The resulting function will be the best fit curve for the given data points.
@@ -5619,13 +5512,11 @@ In the previous section, we discussed the method of least squares approximation 
 Lagrange interpolation is a method of polynomial interpolation that uses a single polynomial to fit a set of data points. This method is based on the Lagrange polynomial, which is a polynomial of degree n-1 that passes through n data points. The Lagrange polynomial is given by:
 
 
-
 $$
 
 L(x) = \sum_{i=1}^{n} y_i \prod_{j=1, j \neq i}^{n} \frac{x-x_j}{x_i-x_j}
 
 $$
-
 
 
 where x_i and y_i are the coordinates of the data points.
@@ -5639,13 +5530,11 @@ The key advantage of Lagrange interpolation is that it provides an exact fit for
 To understand this concept better, let's consider an example. Suppose we have three data points (x_1, y_1), (x_2, y_2), and (x_3, y_3). The Lagrange polynomial for these points is given by:
 
 
-
 $$
 
 L(x) = y_1 \frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)} + y_2 \frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)} + y_3 \frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}
 
 $$
-
 
 
 This polynomial will pass through all three data points, providing an exact fit. However, it is important to note that Lagrange interpolation can be computationally expensive for a large number of data points, as the number of terms in the polynomial increases with the number of data points.
@@ -5673,13 +5562,11 @@ In the previous section, we discussed the method of least squares approximation 
 Lagrange interpolation is a method of polynomial interpolation that uses a single polynomial to fit a set of data points. This method is based on the Lagrange polynomial, which is a polynomial of degree n-1 that passes through n data points. The Lagrange polynomial is given by:
 
 
-
 $$
 
 L(x) = \sum_{i=1}^{n} y_i \prod_{j=1, j \neq i}^{n} \frac{x-x_j}{x_i-x_j}
 
 $$
-
 
 
 where x_i and y_i are the coordinates of the data points.
@@ -5693,13 +5580,11 @@ The key advantage of Lagrange interpolation is that it provides an exact fit for
 To understand this concept better, let's consider an example. Suppose we have three data points (x_1, y_1), (x_2, y_2), and (x_3, y_3). The Lagrange polynomial for these points is given by:
 
 
-
 $$
 
 L(x) = y_1 \frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)} + y_2 \frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)} + y_3 \frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}
 
 $$
-
 
 
 This polynomial will pass through all three data points, providing an exact fit. However, it is important to note that Lagrange interpolation can be computationally expensive for a large number of data points, as the number of terms in the polynomial increases with the number of data points.
@@ -5743,13 +5628,11 @@ In the previous section, we discussed the method of least squares approximation 
 Lagrange interpolation is a method of polynomial interpolation that uses a single polynomial to fit a set of data points. This method is based on the Lagrange polynomial, which is a polynomial of degree n-1 that passes through n data points. The Lagrange polynomial is given by:
 
 
-
 $$
 
 L(x) = \sum_{i=1}^{n} y_i \prod_{j=1, j \neq i}^{n} \frac{x-x_j}{x_i-x_j}
 
 $$
-
 
 
 where x_i and y_i are the coordinates of the data points.
@@ -5763,13 +5646,11 @@ The key advantage of Lagrange interpolation is that it provides an exact fit for
 To understand this concept better, let's consider an example. Suppose we have three data points (x_1, y_1), (x_2, y_2), and (x_3, y_3). The Lagrange polynomial for these points is given by:
 
 
-
 $$
 
 L(x) = y_1 \frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)} + y_2 \frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)} + y_3 \frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}
 
 $$
-
 
 
 This polynomial will pass through all three data points, providing an exact fit. However, it is important to note that Lagrange interpolation can be computationally expensive for a large number of data points, as the number of terms in the polynomial increases with the number of data points.
@@ -6311,13 +6192,11 @@ In numerical differentiation, the forward difference method is a first-order fin
 The forward difference method can be expressed mathematically as:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
 
 $$
-
 
 
 where $h$ is the step size or the distance between the two points used in the approximation. This method is called "forward" difference because it uses the function values at the current point and the point ahead of it. 
@@ -6327,13 +6206,11 @@ where $h$ is the step size or the distance between the two points used in the ap
 One of the main properties of the forward difference method is that it is a first-order method, meaning that the error in the approximation is proportional to the step size $h$. This error is known as the truncation error and can be expressed as:
 
 
-
 $$
 
 \mathcal{O}(h)
 
 $$
-
 
 
 where $\mathcal{O}$ represents the order of the error. This means that as the step size decreases, the error in the approximation also decreases. 
@@ -6403,13 +6280,11 @@ In this section, we will discuss the forward difference method, which is a first
 The forward difference formula is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
 
 $$
-
 
 
 where h is the step size and f(x) is the function we want to differentiate.
@@ -6423,7 +6298,6 @@ where h is the step size and f(x) is the function we want to differentiate.
 As mentioned earlier, understanding truncation error is crucial in determining the accuracy and stability of numerical differentiation methods. In the forward difference method, the truncation error is of order h, meaning that it decreases linearly as the step size decreases. This can be seen by expanding the Taylor series of f(x+h) around x:
 
 
-
 $$
 
 f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + \mathcal{O}(h^3)
@@ -6431,9 +6305,7 @@ f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + \mathcal{O}(h^3)
 $$
 
 
-
 Substituting this into the forward difference formula, we get:
-
 
 
 $$
@@ -6443,9 +6315,7 @@ f'(x) \approx \frac{f(x) + hf'(x) + \frac{h^2}{2}f''(x) - f(x)}{h} = f'(x) + \fr
 $$
 
 
-
 Therefore, the truncation error is given by:
-
 
 
 $$
@@ -6453,7 +6323,6 @@ $$
 \mathcal{O}(h) = \frac{h}{2}f''(x)
 
 $$
-
 
 
 This means that as h decreases, the truncation error decreases linearly. However, using a smaller step size also leads to a larger rounding error, which can affect the overall accuracy of the approximation. Therefore, there is a trade-off between truncation error and rounding error, and the optimal step size must be chosen to balance these two errors.
@@ -6515,13 +6384,11 @@ Overall, this chapter aims to provide a comprehensive understanding of numerical
 In this section, we will focus on the forward difference method, which is a first-order finite difference scheme. This method involves approximating the derivative at a point using the function values at that point and a nearby point. The forward difference formula is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x)}{h}
 
 $$
-
 
 
 where $h$ is the step size or grid spacing. This method is simple and easy to implement, but it has a larger truncation error compared to higher-order schemes. 
@@ -6535,7 +6402,6 @@ where $h$ is the step size or grid spacing. This method is simple and easy to im
 To understand how the forward difference formula is derived, let us consider the Taylor series expansion of $f(x+h)$ around the point $x$:
 
 
-
 $$
 
 f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + \frac{h^3}{6}f'''(x) + \mathcal{O}(h^4)
@@ -6543,9 +6409,7 @@ f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + \frac{h^3}{6}f'''(x) + \mathcal{O
 $$
 
 
-
 Subtracting $f(x)$ from both sides and rearranging, we get:
-
 
 
 $$
@@ -6553,7 +6417,6 @@ $$
 f'(x) = \frac{f(x+h) - f(x)}{h} - \frac{h}{2}f''(x) - \frac{h^2}{6}f'''(x) + \mathcal{O}(h^3)
 
 $$
-
 
 
 As $h$ approaches 0, the higher-order terms become negligible, and we are left with the forward difference formula. 
@@ -6643,13 +6506,11 @@ In this section, we will focus on the backward difference method, which is a typ
 The backward difference method can be expressed mathematically as:
 
 
-
 $$
 
 \Delta w = \frac{w(n) - w(n-1)}{\Delta t}
 
 $$
-
 
 
 where $\Delta w$ is the backward difference, $w(n)$ is the function value at the current time step $n$, $w(n-1)$ is the function value at the previous time step $n-1$, and $\Delta t$ is the time step size.
@@ -6659,7 +6520,6 @@ where $\Delta w$ is the backward difference, $w(n)$ is the function value at the
 One of the main properties of the backward difference method is that it is a first-order accurate method, meaning that the truncation error is proportional to the time step size $\Delta t$. This can be seen by expanding the function $w(n)$ in a Taylor series:
 
 
-
 $$
 
 w(n) = w(n-1) + \Delta t \frac{dw}{dt} + O(\Delta t^2)
@@ -6667,9 +6527,7 @@ w(n) = w(n-1) + \Delta t \frac{dw}{dt} + O(\Delta t^2)
 $$
 
 
-
 Substituting this into the backward difference formula, we get:
-
 
 
 $$
@@ -6677,7 +6535,6 @@ $$
 \Delta w = \frac{w(n) - w(n-1)}{\Delta t} = \frac{w(n-1) + \Delta t \frac{dw}{dt} + O(\Delta t^2) - w(n-1)}{\Delta t} = \frac{dw}{dt} + O(\Delta t)
 
 $$
-
 
 
 Thus, the truncation error is proportional to $\Delta t$, making the backward difference method a first-order accurate method.
@@ -6743,13 +6600,11 @@ In the previous section, we discussed the use of forward difference methods for 
 The backward difference formula is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x) - f(x-h)}{h}
 
 $$
-
 
 
 where $h$ is the step size. This formula can be derived using Taylor series expansion, similar to the forward difference formula. However, in this case, we are using data points behind the point of interest, hence the name "backward difference". 
@@ -6771,13 +6626,11 @@ As mentioned earlier, understanding truncation error is crucial in determining t
 The truncation error for backward difference can be derived using Taylor series expansion as:
 
 
-
 $$
 
 T(x) = \frac{h}{2}f''(x) + \mathcal{O}(h^2)
 
 $$
-
 
 
 where $\mathcal{O}(h^2)$ represents the higher-order terms. This shows that the truncation error for backward difference is of order $h$, which is one order higher than the truncation error for forward difference. This means that backward difference methods are more accurate than forward difference methods for smooth and continuous functions. 
@@ -6915,13 +6768,11 @@ Central difference is a type of finite difference method that approximates the d
 The central difference formula for a first derivative is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
 
 $$
-
 
 
 where $h$ is the step size between the data points. This formula can also be extended to higher-order derivatives by using more data points.
@@ -6991,13 +6842,11 @@ Central difference is a type of finite difference method that approximates the d
 The central difference formula for a first derivative is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
 
 $$
-
 
 
 where $h$ is the step size or the distance between the data points. This formula uses two data points on either side of the point of interest to calculate the derivative. 
@@ -7071,13 +6920,11 @@ Central difference is a type of finite difference method that approximates the d
 The central difference formula for a first derivative is given by:
 
 
-
 $$
 
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
 
 $$
-
 
 
 where $h$ is the step size between the data points. This formula uses two data points on either side of the point of interest to calculate the derivative. 
@@ -7087,13 +6934,11 @@ where $h$ is the step size between the data points. This formula uses two data p
 Similarly, the central difference formula for a second derivative is given by:
 
 
-
 $$
 
 f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}
 
 $$
-
 
 
 This formula uses three data points to calculate the second derivative. 
@@ -7179,13 +7024,11 @@ Higher order methods for numerical differentiation involve using more data point
 One commonly used higher order method is the central difference method, which uses data points on both sides of the point of interest to calculate the derivative. The central difference formula is given by:
 
 
-
 $$
 
 \frac{df}{dx} \approx \frac{f(x+h) - f(x-h)}{2h}
 
 $$
-
 
 
 where h is the step size between the data points. This method has a truncation error of $O(h^2)$, meaning that the error decreases quadratically as the step size decreases.
@@ -7195,13 +7038,11 @@ where h is the step size between the data points. This method has a truncation e
 Another higher order method is the upwind difference method, which uses data points only on one side of the point of interest. This method is commonly used in solving advection problems, where the flow is predominantly in one direction. The upwind difference formula is given by:
 
 
-
 $$
 
 \frac{df}{dx} \approx \frac{f(x) - f(x-h)}{h}
 
 $$
-
 
 
 This method has a truncation error of $O(h)$, making it less accurate than the central difference method but more stable in certain situations.
@@ -7267,13 +7108,11 @@ In this section, we will discuss higher order methods for numerical differentiat
 The central difference method is a second-order finite difference scheme that uses the values of a function at two points to approximate the derivative at a third point. This method is more accurate than the first-order forward and backward difference methods, as it takes into account the values on both sides of the point of interest. The central difference method can be expressed mathematically as:
 
 
-
 $$
 
 \frac{df(x)}{dx} \approx \frac{f(x+h) - f(x-h)}{2h}
 
 $$
-
 
 
 where h is the step size. This method has a truncation error of $O(h^2)$, meaning that the error decreases quadratically as the step size decreases. However, the central difference method is not suitable for use near boundaries or discontinuities, as it requires values on both sides of the point of interest.
@@ -7287,13 +7126,11 @@ where h is the step size. This method has a truncation error of $O(h^2)$, meanin
 The upwind difference method is another second-order finite difference scheme that is commonly used in marine hydrodynamics. Unlike the central difference method, the upwind difference method only uses values on one side of the point of interest, making it more suitable for use near boundaries and discontinuities. This method can be expressed mathematically as:
 
 
-
 $$
 
 \frac{df(x)}{dx} \approx \frac{f(x) - f(x-h)}{h}
 
 $$
-
 
 
 where h is the step size. The upwind difference method has a truncation error of $O(h)$, meaning that the error decreases linearly as the step size decreases. However, this method is only accurate for flows that are predominantly in one direction, as it only considers values on one side of the point of interest.
@@ -7555,13 +7392,11 @@ The trapezoidal rule is a numerical integration technique that approximates the 
 The trapezoidal rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{2} \left[ f(a) + 2\sum_{j=1}^{n-1} f(x_j) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n-1$.
@@ -7619,13 +7454,11 @@ The trapezoidal rule is a numerical integration technique that approximates the 
 The trapezoidal rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{2} \left[ f(a) + 2\sum_{j=1}^{n-1} f(x_j) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n-1$.
@@ -7671,13 +7504,11 @@ However, the trapezoidal rule also has some limitations that should be considere
 As mentioned earlier, the trapezoidal rule is a first-order method, meaning that the error decreases linearly with the step size $h$. This can be seen in the error formula for the trapezoidal rule:
 
 
-
 $$
 
 E = -\frac{h^3}{12}f''(\xi)
 
 $$
-
 
 
 where $f''(\xi)$ is the second derivative of the function being integrated evaluated at some point $\xi$ in the interval $[a,b]$. This formula shows that the error is directly proportional to $h^3$, meaning that halving the step size will reduce the error by a factor of 8.
@@ -7713,13 +7544,11 @@ The trapezoidal rule is a numerical integration technique that approximates the 
 The trapezoidal rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{2} \left[ f(a) + 2\sum_{j=1}^{n-1} f(x_j) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n-1$.
@@ -7797,13 +7626,11 @@ Simpson's rule is another numerical integration technique that is commonly used 
 Simpson's rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{3} \left[ f(a) + 4\sum_{j=1}^{n/2} f(x_{2j-1}) + 2\sum_{j=1}^{n/2-1} f(x_{2j}) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n$.
@@ -7857,13 +7684,11 @@ Simpson's rule is another numerical integration technique that is commonly used 
 Simpson's rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{3} \left[ f(a) + 4\sum_{j=1}^{n/2} f(x_{2j-1}) + 2\sum_{j=1}^{n/2-1} f(x_{2j}) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n$.
@@ -7909,13 +7734,11 @@ However, Simpson's rule also has some limitations that should be considered when
 As mentioned earlier, Simpson's rule is a third-order method, meaning that the error decreases cubically with the step size $h$. This can be seen in the error formula for Simpson's rule:
 
 
-
 $$
 
 E = -\frac{h^4}{180}(b-a)f^{(4)}(\xi)
 
 $$
-
 
 
 where $f^{(4)}(\xi)$ is the fourth derivative of the function $f(x)$ evaluated at some point $\xi$ in the interval $[a,b]$.
@@ -7955,13 +7778,11 @@ Simpson's rule is a numerical integration technique that is commonly used in mar
 Simpson's rule can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \frac{h}{3} \left[ f(a) + 4\sum_{j=1}^{n/2} f(x_{2j-1}) + 2\sum_{j=1}^{n/2-1} f(x_{2j}) + f(b) \right]
 
 $$
-
 
 
 where $h = \frac{b-a}{n}$ is the step size and $x_j = a + jh$ for $j = 1, 2, ..., n$.
@@ -8039,13 +7860,11 @@ Composite methods are numerical integration techniques that use a combination of
 Composite methods can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} \int_{x_{i-1}}^{x_i} f(x) dx
 
 $$
-
 
 
 where $n$ is the number of subintervals and $x_i$ are the endpoints of each subinterval. The integral over each subinterval can be approximated using a simpler method, such as the trapezoidal rule or Simpson's rule, and the sum of these approximations gives an overall approximation of the integral over the entire interval.
@@ -8099,13 +7918,11 @@ Composite methods are numerical integration techniques that use a combination of
 Composite methods can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} \int_{x_{i-1}}^{x_i} f(x) dx
 
 $$
-
 
 
 where $n$ is the number of subintervals and $x_i$ are the endpoints of each subinterval. The integral over each subinterval can be approximated using a simpler method, such as the trapezoidal rule or Simpson's rule, and the sum of these approximations gives an overall approximation of the integral over the entire interval.
@@ -8179,13 +7996,11 @@ Composite methods are numerical integration techniques that use a combination of
 Composite methods can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} \int_{x_{i-1}}^{x_i} f(x) dx
 
 $$
-
 
 
 where $n$ is the number of subintervals and $x_i$ are the endpoints of each subinterval. The integral over each subinterval can be approximated using a simpler method, such as the trapezoidal rule or Simpson's rule, and the sum of these approximations gives an overall approximation of the integral over the entire interval.
@@ -8279,13 +8094,11 @@ Gaussian quadrature is a numerical integration technique that uses a weighted su
 Gaussian quadrature can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
 
 $$
-
 
 
 where $n$ is the number of points used in the approximation, $w_i$ are the weights associated with each point, and $x_i$ are the points within the interval. The weights and points are chosen in such a way that the approximation is exact for polynomials of degree $2n-1$ or less.
@@ -8339,13 +8152,11 @@ Gaussian quadrature is a numerical integration technique that uses a weighted su
 Gaussian quadrature can be defined as follows:
 
 
-
 $$
 
 \int_{a}^{b} f(x) dx \approx \sum_{i=1}^{n} w_i f(x_i)
 
 $$
-
 
 
 where $n$ is the number of points used in the approximation, $w_i$ are the weights associated with each point, and $x_i$ are the points within the interval. The weights and points are chosen in such a way that the approximation is exact for polynomials of degree $2n-1$ or less.
@@ -8611,13 +8422,11 @@ Euler's method is a simple and widely used numerical method for solving ordinary
 Euler's method is a first-order numerical method for solving initial value problems (IVPs) of the form:
 
 
-
 $$
 
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
 
 $$
-
 
 
 where $f(x,y)$ is a given function and $y_0$ is the initial value of $y$ at $x_0$. The goal of Euler's method is to approximate the solution $y(x)$ at a set of discrete points $x_0, x_1, x_2, \dots, x_n$.
@@ -8635,13 +8444,11 @@ The method works by approximating the derivative $\frac{dy}{dx}$ at each point u
 The approximation of $y(x_{n+1})$ is given by:
 
 
-
 $$
 
 y_{n+1} = y_n + hf(x_n, y_n)
 
 $$
-
 
 
 where $h$ is the step size, or the distance between two consecutive points. This process is repeated until the desired number of points is reached, resulting in an approximation of the solution curve.
@@ -8677,13 +8484,11 @@ Euler's method is a simple and widely used numerical method for solving ordinary
 Euler's method is a first-order numerical method for solving initial value problems (IVPs) of the form:
 
 
-
 $$
 
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
 
 $$
-
 
 
 where $f(x,y)$ is a given function and $y_0$ is the initial value of $y$ at $x_0$. The goal of Euler's method is to approximate the solution $y(x)$ at a set of discrete points $x_0, x_1, x_2, \dots, x_n$.
@@ -8701,13 +8506,11 @@ The method works by approximating the derivative $\frac{dy}{dx}$ at each point u
 The approximation of $y(x_{n+1})$ is given by:
 
 
-
 $$
 
 y_{n+1} = y_n + hf(x_n, y_n)
 
 $$
-
 
 
 where $h$ is the step size, or the distance between two consecutive points. This process is repeated until the desired number of points is reached, resulting in an approximation of the solution curve.
@@ -8759,13 +8562,11 @@ Euler's method is a simple and widely used numerical method for solving ordinary
 Euler's method is a first-order numerical method for solving initial value problems (IVPs) of the form:
 
 
-
 $$
 
 \frac{dy}{dx} = f(x,y), \quad y(x_0) = y_0
 
 $$
-
 
 
 where $f(x,y)$ is a given function and $y_0$ is the initial value of $y$ at $x_0$. The goal of Euler's method is to approximate the solution $y(x)$ at a set of discrete points $x_0, x_1, x_2, \dots, x_n$.
@@ -8783,13 +8584,11 @@ The method works by approximating the derivative $\frac{dy}{dx}$ at each point u
 The approximation of $y(x_{n+1})$ is given by:
 
 
-
 $$
 
 y_{n+1} = y_n + hf(x_n, y_n)
 
 $$
-
 
 
 where $h$ is the step size, or the distance between two consecutive points. This process is repeated until the desired number of points is reached, resulting in an approximation of the solution curve.
@@ -8853,7 +8652,6 @@ Runge-Kutta methods are a class of numerical methods that use a weighted average
 The fourth-order Runge-Kutta method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
@@ -8861,9 +8659,7 @@ y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
 $$
 
 
-
 where $k_1, k_2, k_3,$ and $k_4$ are defined as:
-
 
 
 $$
@@ -8872,15 +8668,11 @@ k_1 = hf(x_n, y_n)
 
 $$
 
-
-
 $$
 
 k_2 = hf(x_n + \frac{h}{2}, y_n + \frac{k_1}{2})
 
 $$
-
-
 
 $$
 
@@ -8888,14 +8680,11 @@ k_3 = hf(x_n + \frac{h}{2}, y_n + \frac{k_2}{2})
 
 $$
 
-
-
 $$
 
 k_4 = hf(x_n + h, y_n + k_3)
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -8935,7 +8724,6 @@ Runge-Kutta methods are a class of numerical methods that use a weighted average
 The fourth-order Runge-Kutta method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
@@ -8943,9 +8731,7 @@ y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
 $$
 
 
-
 where $k_1, k_2, k_3,$ and $k_4$ are defined as:
-
 
 
 $$
@@ -8954,15 +8740,11 @@ k_1 = hf(x_n, y_n)
 
 $$
 
-
-
 $$
 
 k_2 = hf(x_n + \frac{h}{2}, y_n + \frac{k_1}{2})
 
 $$
-
-
 
 $$
 
@@ -8970,14 +8752,11 @@ k_3 = hf(x_n + \frac{h}{2}, y_n + \frac{k_2}{2})
 
 $$
 
-
-
 $$
 
 k_4 = hf(x_n + h, y_n + k_3)
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -9041,7 +8820,6 @@ Runge-Kutta methods are a class of numerical methods that use a weighted average
 The fourth-order Runge-Kutta method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
@@ -9049,9 +8827,7 @@ y_{n+1} = y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
 $$
 
 
-
 where $k_1, k_2, k_3,$ and $k_4$ are defined as:
-
 
 
 $$
@@ -9060,15 +8836,11 @@ k_1 = hf(x_n, y_n)
 
 $$
 
-
-
 $$
 
 k_2 = hf(x_n + \frac{h}{2}, y_n + \frac{k_1}{2})
 
 $$
-
-
 
 $$
 
@@ -9076,14 +8848,11 @@ k_3 = hf(x_n + \frac{h}{2}, y_n + \frac{k_2}{2})
 
 $$
 
-
-
 $$
 
 k_4 = hf(x_n + h, y_n + k_3)
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -9143,13 +8912,11 @@ Multistep methods are a class of numerical methods that use a combination of pre
 The Adams-Bashforth method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{24}(55f(x_n, y_n) - 59f(x_{n-1}, y_{n-1}) + 37f(x_{n-2}, y_{n-2}) - 9f(x_{n-3}, y_{n-3}))
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -9193,13 +8960,11 @@ Multistep methods are a class of numerical methods that use a combination of pre
 The Adams-Bashforth method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{24}(55f(x_n, y_n) - 59f(x_{n-1}, y_{n-1}) + 37f(x_{n-2}, y_{n-2}) - 9f(x_{n-3}, y_{n-3}))
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -9275,13 +9040,11 @@ Multistep methods are a class of numerical methods that use a combination of pre
 The Adams-Bashforth method is an explicit method, meaning that the solution at the next time step is calculated solely based on the solution at the current time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{24}(55f(x_n, y_n) - 59f(x_{n-1}, y_{n-1}) + 37f(x_{n-2}, y_{n-2}) - 9f(x_{n-3}, y_{n-3}))
 
 $$
-
 
 
 where $h$ is the step size. This method is known for its high accuracy and stability, making it a popular choice for solving a wide range of ODEs.
@@ -9349,13 +9112,11 @@ To accurately solve stiff systems, numerical methods must be able to handle the 
 One commonly used implicit method for stiff systems is the backward differentiation formula (BDF) method. This method is a multistep method that uses a combination of previous function evaluations to approximate the solution at the next time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{p}(a_0f(x_{n+1}, y_{n+1}) + a_1f(x_n, y_n) + ... + a_{p-1}f(x_{n+1-p}, y_{n+1-p}))
 
 $$
-
 
 
 where $h$ is the step size and $p$ is the order of the method. The coefficients $a_i$ are determined based on the order of the method and are chosen to ensure stability and accuracy.
@@ -9399,13 +9160,11 @@ To accurately solve stiff systems, numerical methods must be able to handle the 
 One commonly used implicit method for stiff systems is the backward differentiation formula (BDF) method. This method is a multistep method that uses a combination of previous function evaluations to approximate the solution at the next time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{p}(a_0f(x_{n+1}, y_{n+1}) + a_1f(x_n, y_n) + ... + a_{p-1}f(x_{n+1-p}, y_{n+1-p}))
 
 $$
-
 
 
 where $h$ is the step size and $p$ is the order of the method. The coefficients $a_i$ are determined based on the properties of the stiff system, such as the stiffness ratio and the eigenvalues of the system matrix. These properties can be used to determine the optimal values for the coefficients, ensuring the most accurate and efficient solution.
@@ -9453,13 +9212,11 @@ To accurately solve stiff systems, numerical methods must be able to handle the 
 One commonly used implicit method for stiff systems is the backward differentiation formula (BDF) method. This method is a multistep method that uses a combination of previous function evaluations to approximate the solution at the next time step. It is given by the following formula:
 
 
-
 $$
 
 y_{n+1} = y_n + \frac{h}{p}(a_0f(x_{n+1}, y_{n+1}) + a_1f(x_n, y_n) + ... + a_{p-1}f(x_{n+1-p}, y_{n+1-p}))
 
 $$
-
 
 
 where $h$ is the step size and $p$ is the order of the method. The coefficients $a_i$ are determined based on the properties of the stiff system being solved. One important property to consider is the stiffness ratio, which is the ratio of the largest to smallest eigenvalue of the system's Jacobian matrix. A higher stiffness ratio indicates a more challenging stiff system to solve.
@@ -10423,7 +10180,6 @@ Potential flow theory is a fundamental concept in fluid mechanics that forms the
 In potential flow theory, the velocity potential, $\phi$, is used to describe the flow field. The velocity vector, $\vec{V}$, can then be expressed as the gradient of the velocity potential:
 
 
-
 $$
 
 \vec{V} = \nabla \phi
@@ -10431,9 +10187,7 @@ $$
 $$
 
 
-
 This relationship is known as the potential flow equation and is valid for both two-dimensional and three-dimensional flows. By taking the curl of this equation, we can see that the vorticity, $\vec{\omega}$, is indeed zero:
-
 
 
 $$
@@ -10443,7 +10197,6 @@ $$
 $$
 
 
-
 This is a key property of potential flow and allows us to simplify the governing equations for the flow field.
 
 
@@ -10451,13 +10204,11 @@ This is a key property of potential flow and allows us to simplify the governing
 Another important property of potential flow is that it satisfies Laplace's equation, which is given by:
 
 
-
 $$
 
 \nabla^2 \phi = 0
 
 $$
-
 
 
 This equation is a partial differential equation that describes the behavior of the velocity potential in the flow field. It is a linear equation and can be solved using various numerical methods, such as finite difference or finite element methods.
@@ -10489,7 +10240,6 @@ Potential flow theory is a fundamental concept in fluid mechanics that forms the
 In potential flow theory, the velocity potential, $\phi$, is used to describe the flow field. The velocity vector, $\vec{V}$, can then be expressed as the gradient of the velocity potential:
 
 
-
 $$
 
 \vec{V} = \nabla \phi
@@ -10497,9 +10247,7 @@ $$
 $$
 
 
-
 This relationship is known as the potential flow equation and is valid for both two-dimensional and three-dimensional flows. By taking the curl of this equation, we can see that the vorticity, $\vec{\omega}$, is indeed zero:
-
 
 
 $$
@@ -10509,7 +10257,6 @@ $$
 $$
 
 
-
 This is a key property of potential flow and allows us to simplify the governing equations for the flow field.
 
 
@@ -10517,13 +10264,11 @@ This is a key property of potential flow and allows us to simplify the governing
 Another important property of potential flow is that it satisfies Laplace's equation, which is given by:
 
 
-
 $$
 
 \nabla^2 \phi = 0
 
 $$
-
 
 
 This equation is a partial differential equation that describes the behavior of the velocity potential in the flow field. It is a linear equation and can be solved using various numerical methods, such as finite difference or finite element methods.
@@ -10541,7 +10286,6 @@ In addition to these properties, potential flow also satisfies the principle of 
 One of the most important applications of potential flow theory is the derivation of Bernoulli's equation. This equation relates the velocity and pressure of a fluid in a steady flow and is based on the conservation of energy. In potential flow, the velocity potential is constant along a streamline, meaning that the velocity is also constant. This allows us to write the potential flow equation as:
 
 
-
 $$
 
 \frac{d\phi}{ds} = \frac{d}{ds}(\vec{V} \cdot \vec{n}) = 0
@@ -10549,9 +10293,7 @@ $$
 $$
 
 
-
 where $s$ is the distance along the streamline and $\vec{n}$ is the unit normal vector. By integrating this equation along a streamline, we can obtain Bernoulli's equation:
-
 
 
 $$
@@ -10559,7 +10301,6 @@ $$
 \frac{1}{2} \rho V^2 + \rho g z + P = constant
 
 $$
-
 
 
 where $\rho$ is the density of the fluid, $V$ is the velocity, $g$ is the acceleration due to gravity, $z$ is the elevation, and $P$ is the pressure. This equation is a powerful tool for analyzing fluid flow and is widely used in marine hydrodynamics.
@@ -10587,7 +10328,6 @@ Potential flow theory is a fundamental concept in fluid mechanics that forms the
 In potential flow theory, the velocity potential, $\phi$, is used to describe the flow field. The velocity vector, $\vec{V}$, can then be expressed as the gradient of the velocity potential:
 
 
-
 $$
 
 \vec{V} = \nabla \phi
@@ -10595,9 +10335,7 @@ $$
 $$
 
 
-
 This relationship is known as the potential flow equation and is valid for both two-dimensional and three-dimensional flows. By taking the curl of this equation, we can see that the vorticity, $\vec{\omega}$, is indeed zero:
-
 
 
 $$
@@ -10607,7 +10345,6 @@ $$
 $$
 
 
-
 This is a key property of potential flow and allows us to simplify the governing equations for the flow field.
 
 
@@ -10615,13 +10352,11 @@ This is a key property of potential flow and allows us to simplify the governing
 Another important property of potential flow is that it satisfies Laplace's equation, which is given by:
 
 
-
 $$
 
 \nabla^2 \phi = 0
 
 $$
-
 
 
 This equation is a partial differential equation that describes the behavior of the velocity potential in the flow field. It is a linear equation and can be solved using various numerical methods, such as finite difference or finite element methods.
@@ -10639,13 +10374,11 @@ In addition to these properties, potential flow also satisfies the principle of 
 One of the most important applications of potential flow theory is the derivation of Bernoulli's equation. This equation relates the velocity, pressure, and elevation of a fluid particle in a potential flow. It is given by:
 
 
-
 $$
 
 P + \frac{1}{2}\rho V^2 + \rho gz = constant
 
 $$
-
 
 
 where $P$ is the pressure, $\rho$ is the density, $V$ is the velocity, $g$ is the acceleration due to gravity, and $z$ is the elevation. This equation is derived from the conservation of energy in a potential flow and is a useful tool for analyzing the behavior of fluids in motion.
@@ -10693,13 +10426,11 @@ Boundary integral equations (BIEs) are a powerful tool in numerical marine hydro
 In BIEs, the velocity potential is represented as a boundary integral over the surface of the body, rather than being solved for in the entire domain. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -10759,13 +10490,11 @@ Boundary integral equations (BIEs) are a powerful tool in numerical marine hydro
 In BIEs, the velocity potential is represented as a boundary integral over the surface of the body, rather than being solved for in the entire domain. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -10817,13 +10546,11 @@ Boundary integral equations (BIEs) are a powerful tool in numerical marine hydro
 In BIEs, the velocity potential is represented as a boundary integral over the surface of the body, rather than being solved for in the entire domain. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -10883,13 +10610,11 @@ Green's theorem is a powerful tool in numerical marine hydrodynamics that allows
 Green's theorem, also known as the Gauss-Green theorem, states that for a vector field $\vec{F}$ and a region $D$ in the plane with a piecewise smooth boundary $C$, the following equality holds:
 
 
-
 $$
 
 \oint_C \vec{F} \cdot d\vec{r} = \iint_D \left(\frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right) dA
 
 $$
-
 
 
 where $d\vec{r}$ is the differential of the position vector and $dA$ is the differential of the area. This theorem allows us to convert a line integral around a closed curve into a double integral over the region enclosed by the curve.
@@ -10899,13 +10624,11 @@ where $d\vec{r}$ is the differential of the position vector and $dA$ is the diff
 In the context of numerical marine hydrodynamics, Green's theorem is used to convert the boundary integral equations (BIEs) into a form that can be solved numerically. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -10941,13 +10664,11 @@ Green's theorem is a fundamental tool in numerical marine hydrodynamics that all
 Green's theorem, also known as the Gauss-Green theorem, states that for a vector field $\vec{F}$ and a region $D$ in the plane with a piecewise smooth boundary $C$, the following equality holds:
 
 
-
 $$
 
 \oint_C \vec{F} \cdot d\vec{r} = \iint_D \left(\frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right) dA
 
 $$
-
 
 
 where $d\vec{r}$ is the differential of the position vector and $dA$ is the differential of the area. This theorem allows us to convert a line integral around a closed curve into a double integral over the region enclosed by the curve.
@@ -10957,13 +10678,11 @@ where $d\vec{r}$ is the differential of the position vector and $dA$ is the diff
 In the context of numerical marine hydrodynamics, Green's theorem is used to convert the boundary integral equations (BIEs) into a form that can be solved numerically. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -11011,13 +10730,11 @@ Green's theorem is a fundamental tool in numerical marine hydrodynamics that all
 Green's theorem, also known as the Gauss-Green theorem, states that for a vector field $\vec{F}$ and a region $D$ in the plane with a piecewise smooth boundary $C$, the following equality holds:
 
 
-
 $$
 
 \oint_C \vec{F} \cdot d\vec{r} = \iint_D \left(\frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right) dA
 
 $$
-
 
 
 where $d\vec{r}$ is the differential of the position vector and $dA$ is the differential of the area. This theorem allows us to convert a line integral around a closed curve into a double integral over the region enclosed by the curve.
@@ -11027,13 +10744,11 @@ where $d\vec{r}$ is the differential of the position vector and $dA$ is the diff
 In the context of numerical marine hydrodynamics, Green's theorem is used to convert the boundary integral equations (BIEs) into a form that can be solved numerically. This is achieved by using the Green's function to represent the velocity potential at any point in the domain as a superposition of the contributions from each point on the body's surface. This is known as the boundary integral representation of the velocity potential and is given by:
 
 
-
 $$
 
 \phi(\vec{x}) = \oint_S G(\vec{x},\vec{x'}) \frac{\partial \phi}{\partial n}(\vec{x'}) dS(\vec{x'})
 
 $$
-
 
 
 where $\vec{x}$ is a point in the domain, $\vec{x'}$ is a point on the body's surface, $G(\vec{x},\vec{x'})$ is the Green's function, and $\frac{\partial \phi}{\partial n}(\vec{x'})$ is the normal derivative of the velocity potential at the body's surface.
@@ -11051,7 +10766,6 @@ One of the key properties of BIEs is that they are boundary-only methods, meanin
 The derivation of Green's theorem can be understood by considering the two-dimensional case, where the vector field $\vec{F}$ is defined as $\vec{F} = (F_1, F_2)$. In this case, the line integral around a closed curve $C$ can be written as:
 
 
-
 $$
 
 \oint_C \vec{F} \cdot d\vec{r} = \int_a^b \vec{F}(\vec{r}(t)) \cdot \frac{d\vec{r}}{dt} dt
@@ -11059,9 +10773,7 @@ $$
 $$
 
 
-
 where $\vec{r}(t)$ is the parametric equation of the curve $C$. Using the chain rule, we can rewrite this as:
-
 
 
 $$
@@ -11071,9 +10783,7 @@ $$
 $$
 
 
-
 Next, we can use the fundamental theorem of calculus to rewrite this as:
-
 
 
 $$
@@ -11083,9 +10793,7 @@ $$
 $$
 
 
-
 Applying the chain rule again, we get:
-
 
 
 $$
@@ -11095,9 +10803,7 @@ $$
 $$
 
 
-
 Using the definition of the differential of the position vector, $d\vec{r} = (dx, dy)$, we can rewrite this as:
-
 
 
 $$
@@ -11107,9 +10813,7 @@ $$
 $$
 
 
-
 Finally, using the definition of the double integral, we can write this as:
-
 
 
 $$
@@ -11117,7 +10821,6 @@ $$
 \oint_C \vec{F} \cdot d\vec{r} = \iint_D \left(\frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y}\right) dA
 
 $$
-
 
 
 which is the desired form of Green's theorem.
@@ -11461,14 +11164,11 @@ Boundary layers are a fundamental aspect of fluid dynamics, and their study is c
 The derivation of boundary layer equations begins with the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations are given by:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -11476,14 +11176,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mu \nabla \mathbf{u}) + \rho \mathbf{u} \cdot \mathbf{g} + \nabla \cdot (\mathbf{u} \cdot \mathbf{q})
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{g}$ is the gravitational acceleration, $e$ is the specific internal energy, and $\mathbf{q}$ is the heat flux vector.
@@ -11497,14 +11194,11 @@ To derive the boundary layer equations, we make several assumptions. First, we a
 Under these assumptions, the Navier-Stokes equations reduce to the simplified form:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
-
-
 
 $$
 
@@ -11512,14 +11206,11 @@ u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\r
 
 $$
 
-
-
 $$
 
 u \frac{\partial e}{\partial x} + v \frac{\partial e}{\partial y} = -\frac{p}{\rho} \left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y}\right) + \nu \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right) + \frac{\partial}{\partial x} \left(uq_x + vq_y\right)
 
 $$
-
 
 
 where $u$ and $v$ are the velocity components in the $x$ and $y$ directions, respectively, and $\nu$ is the kinematic viscosity.
@@ -11533,14 +11224,11 @@ Next, we introduce the concept of a boundary layer, which is a thin layer of flu
 Using this assumption, we can simplify the Navier-Stokes equations by neglecting the viscous terms outside of the boundary layer. This results in the boundary layer equations:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
-
-
 
 $$
 
@@ -11548,14 +11236,11 @@ u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\r
 
 $$
 
-
-
 $$
 
 u \frac{\partial e}{\partial x} + v \frac{\partial e}{\partial y} = -\frac{p}{\rho} \frac{\partial u}{\partial x} + \nu \frac{\partial^2 u}{\partial y^2} + \frac{\partial}{\partial x} \left(uq_x + vq_y\right)
 
 $$
-
 
 
 These equations describe the behavior of the fluid within the boundary layer, where the viscous effects are significant. Outside of the boundary layer, the flow is assumed to be inviscid and can be described by potential flow theory.
@@ -11583,14 +11268,11 @@ Boundary layers are a fundamental aspect of fluid dynamics, and their study is c
 The derivation of boundary layer equations begins with the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations are given by:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -11598,14 +11280,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mu \nabla \mathbf{u}) + \rho \mathbf{u} \cdot \mathbf{g} + \nabla \cdot (\mathbf{u} \cdot \mathbf{q})
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{g}$ is the gravitational acceleration, $e$ is the specific internal energy, and $\mathbf{q}$ is the heat flux vector.
@@ -11619,21 +11298,17 @@ To derive the boundary layer equations, we make several assumptions. First, we a
 Under these assumptions, the Navier-Stokes equations reduce to the simplified form:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
 
-
-
 $$
 
 u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial x} + \nu \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
 
 $$
-
 
 
 where $u$ and $v$ are the velocity components in the $x$ and $y$ directions, respectively, and $\nu$ is the kinematic viscosity.
@@ -11659,21 +11334,17 @@ Using the concept of a boundary layer, we can make the following approximations:
 With these approximations, the simplified Navier-Stokes equations become:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
 
-
-
 $$
 
 u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = \nu \frac{\partial^2 u}{\partial x^2}
 
 $$
-
 
 
 These are known as the boundary layer equations. They describe the flow in the boundary layer and can be used to determine the velocity profile and shear stress at the surface. In the next section, we will discuss the different types of boundary layer approximations that can be made to solve these equations.
@@ -11697,14 +11368,11 @@ Boundary layers are a fundamental aspect of fluid dynamics, and their study is c
 The derivation of boundary layer equations begins with the Navier-Stokes equations, which describe the conservation of mass, momentum, and energy in a fluid. These equations are given by:
 
 
-
 $$
 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 
 $$
-
-
 
 $$
 
@@ -11712,14 +11380,11 @@ $$
 
 $$
 
-
-
 $$
 
 \rho \left(\frac{\partial e}{\partial t} + \mathbf{u} \cdot \nabla e\right) = -p \nabla \cdot \mathbf{u} + \nabla \cdot (\mu \nabla \mathbf{u}) + \rho \mathbf{u} \cdot \mathbf{g} + \nabla \cdot (\mathbf{u} \cdot \mathbf{q})
 
 $$
-
 
 
 where $\rho$ is the density, $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{g}$ is the gravitational acceleration, $e$ is the specific internal energy, and $\mathbf{q}$ is the heat flux vector.
@@ -11733,21 +11398,17 @@ To derive the boundary layer equations, we make several assumptions. First, we a
 Under these assumptions, the Navier-Stokes equations reduce to the simplified form:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
 
-
-
 $$
 
 u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\rho} \frac{\partial p}{\partial x} + \nu \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)
 
 $$
-
 
 
 where $u$ and $v$ are the velocity components in the $x$ and $y$ directions, respectively, and $\nu$ is the kinematic viscosity.
@@ -11765,14 +11426,11 @@ To mathematically describe the boundary layer, we introduce a new coordinate sys
 Using these new variables, we can rewrite the simplified Navier-Stokes equations as:
 
 
-
 $$
 
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
 
 $$
-
-
 
 $$
 
@@ -11780,14 +11438,11 @@ u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} = -\frac{1}{\r
 
 $$
 
-
-
 $$
 
 u_\tau \frac{\partial u}{\partial y} = \nu \frac{\partial^2 u}{\partial y^2}
 
 $$
-
 
 
 These equations are known as the boundary layer equations. They describe the behavior of the fluid within the boundary layer and can be solved to determine the velocity profile and other important parameters.
@@ -12433,13 +12088,11 @@ In this chapter, we will cover various topics related to oscillating rigid objec
 Added mass and damping are two important concepts in the study of oscillating rigid objects. Added mass refers to the additional mass that a fluid appears to add to an object when it is in motion. This added mass is a result of the fluid's inertia and is dependent on the shape and size of the object, as well as the fluid's density and viscosity. Mathematically, added mass can be represented as:
 
 
-
 $$
 
 m_{added} = \rho V_{added}
 
 $$
-
 
 
 where $m_{added}$ is the added mass, $\rho$ is the fluid density, and $V_{added}$ is the volume of fluid displaced by the object's motion.
@@ -12449,13 +12102,11 @@ where $m_{added}$ is the added mass, $\rho$ is the fluid density, and $V_{added}
 Damping, on the other hand, refers to the dissipation of energy due to the fluid's resistance to the object's motion. This resistance is caused by the fluid's viscosity and is dependent on the object's velocity and surface area. Damping can be represented as:
 
 
-
 $$
 
 F_{damping} = -c_d \dot{x}
 
 $$
-
 
 
 where $F_{damping}$ is the damping force, $c_d$ is the damping coefficient, and $\dot{x}$ is the object's velocity.
@@ -12697,13 +12348,11 @@ In the previous section, we discussed the concept of free oscillations, where an
 Forced oscillations can be described by the equation of motion:
 
 
-
 $$
 
 m\ddot{x} + c\dot{x} + kx = F(t)
 
 $$
-
 
 
 where $m$ is the mass of the object, $c$ is the damping coefficient, $k$ is the stiffness coefficient, and $F(t)$ is the external force acting on the object. This equation can be solved using numerical methods, such as the finite difference method or the finite element method, to determine the response of the object to the external forces.
@@ -12837,13 +12486,11 @@ The frequency at which vortices are shed in the wake of an object is known as th
 The vortex shedding frequency can be calculated using the Strouhal number, which is a dimensionless parameter that relates the vortex shedding frequency to the flow velocity and the characteristic length of the object. It is given by the formula:
 
 
-
 $$
 
 St = \frac{fL}{U}
 
 $$
-
 
 
 Where:
@@ -13323,7 +12970,6 @@ The finite difference method is a numerical technique used to solve partial diff
 The finite difference method is based on the Taylor series expansion, which approximates a function as a polynomial of its derivatives. For a function $f(x)$, the Taylor series expansion can be written as:
 
 
-
 $$
 
 f(x + \Delta x) = f(x) + \Delta x \frac{\partial f}{\partial x} + \frac{\Delta x^2}{2!} \frac{\partial^2 f}{\partial x^2} + \frac{\Delta x^3}{3!} \frac{\partial^3 f}{\partial x^3} + ...
@@ -13331,9 +12977,7 @@ f(x + \Delta x) = f(x) + \Delta x \frac{\partial f}{\partial x} + \frac{\Delta x
 $$
 
 
-
 By truncating the series at a certain order, we can approximate the derivatives of the function at a point $x$ as:
-
 
 
 $$
@@ -13343,9 +12987,7 @@ $$
 $$
 
 
-
 This is known as the forward difference approximation. Similarly, we can also use the backward difference approximation:
-
 
 
 $$
@@ -13355,9 +12997,7 @@ $$
 $$
 
 
-
 And the central difference approximation:
-
 
 
 $$
@@ -13365,7 +13005,6 @@ $$
 \frac{\partial f}{\partial x} \approx \frac{f(x + \Delta x) - f(x - \Delta x)}{2\Delta x}
 
 $$
-
 
 
 These approximations can be used to discretize the derivatives in the PDEs, which can then be solved using numerical methods.
@@ -15265,13 +14904,11 @@ Resistance is influenced by various factors, including the ship's size, shape, s
 Resistance and propulsion are closely related, as the amount of resistance a ship experiences directly affects the amount of propulsion force needed to maintain a desired speed. This relationship can be described by the following equation:
 
 
-
 $$
 
 F_{propulsion} = F_{resistance} + F_{other}
 
 $$
-
 
 
 where $F_{propulsion}$ is the propulsion force, $F_{resistance}$ is the resistance force, and $F_{other}$ represents any additional forces acting on the ship, such as wind or currents.
@@ -17357,13 +16994,11 @@ Morphodynamics, on the other hand, refers to the changes in the shape and struct
 The properties of morphodynamics can be described by the equilibrium profile, which is the ideal shape of a coastline or estuary under a specific set of conditions. This profile is determined by the balance between sediment transport and other hydrodynamic processes. The equilibrium profile can be mathematically represented as:
 
 
-
 $$
 
 \frac{\partial h}{\partial t} + \frac{\partial q}{\partial x} = 0
 
 $$
-
 
 
 where $h$ is the water depth and $q$ is the sediment transport rate. This equation is known as the Exner equation and it describes the evolution of the bed elevation over time. It is a fundamental equation in coastal and estuarine morphodynamics and is used in various numerical models to predict the changes in the shape and structure of these environments.
@@ -17421,7 +17056,6 @@ Morphodynamics, on the other hand, refers to the changes in the shape and struct
 
 
 The properties of morphodynamics can be described by the equilibrium profile, which is the ideal shape of a coastline or estuary under a specific set of conditions. This profile is determined by the balance between sediment transport and other hydrodynamic processes. The equilibrium profile can be mathematically represented as:
-
 
 
 $$

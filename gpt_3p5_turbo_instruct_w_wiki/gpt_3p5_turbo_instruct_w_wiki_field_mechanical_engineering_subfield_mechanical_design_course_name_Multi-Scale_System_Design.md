@@ -4183,9 +4183,7 @@ To calculate the kinetic width, we can use the following equation:
 
 
 $$
-
 \Delta x = \sqrt{\frac{k_B T}{k}}
-
 $$
 
 
@@ -4237,9 +4235,7 @@ To calculate the kinetic width, we can use the following equation:
 
 
 $$
-
 \Delta x = \sqrt{\frac{k_B T}{k}}
-
 $$
 
 

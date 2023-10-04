@@ -2229,9 +2229,7 @@ As we continue our journey into nonlinear dynamics and waves, we will delve deep
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 - 2x
-
 $$
 
 a) Find the equilibrium points of the system.
@@ -2247,9 +2245,7 @@ c) Discuss the stability of the equilibrium points.
 A pendulum is a classic example of a nonlinear system. Consider a pendulum with a mass $m$ attached to a string of length $l$ and swinging under the influence of gravity. The motion of the pendulum can be described by the following differential equation:
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 where $\theta$ is the angle of the pendulum with respect to the vertical and $g$ is the acceleration due to gravity. Use the small angle approximation to linearize the system and analyze its behavior.
@@ -2261,9 +2257,7 @@ where $\theta$ is the angle of the pendulum with respect to the vertical and $g$
 In this exercise, we will explore the concept of bifurcations. Consider the following system:
 
 $$
-
 \dot{x} = rx - x^3
-
 $$
 
 where $r$ is a parameter. Plot the bifurcation diagram for this system and discuss the different types of bifurcations that occur.
@@ -2275,9 +2269,7 @@ where $r$ is a parameter. Plot the bifurcation diagram for this system and discu
 Waves can be described by the wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 where $u(x,t)$ is the displacement of the wave, $c$ is the wave speed, and $x$ and $t$ are the spatial and temporal variables, respectively. Use the method of separation of variables to solve this equation and discuss the properties of the resulting solutions.
@@ -2289,9 +2281,7 @@ where $u(x,t)$ is the displacement of the wave, $c$ is the wave speed, and $x$ a
 In this exercise, we will explore the concept of dispersion in waves. Consider a wave described by the following equation:
 
 $$
-
 u(x,t) = A\cos(kx - \omega t)
-
 $$
 
 where $A$ is the amplitude, $k$ is the wavenumber, and $\omega$ is the angular frequency. Plot the dispersion relation for this wave and discuss the relationship between the wavenumber and the angular frequency.
@@ -2321,9 +2311,7 @@ As we continue our journey into nonlinear dynamics and waves, we will delve deep
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 - 2x
-
 $$
 
 a) Find the equilibrium points of the system.
@@ -2339,9 +2327,7 @@ c) Discuss the stability of the equilibrium points.
 A pendulum is a classic example of a nonlinear system. Consider a pendulum with a mass $m$ attached to a string of length $l$ and swinging under the influence of gravity. The motion of the pendulum can be described by the following differential equation:
 
 $$
-
 \ddot{\theta} + \frac{g}{l}\sin\theta = 0
-
 $$
 
 where $\theta$ is the angle of the pendulum with respect to the vertical and $g$ is the acceleration due to gravity. Use the small angle approximation to linearize the system and analyze its behavior.
@@ -2353,9 +2339,7 @@ where $\theta$ is the angle of the pendulum with respect to the vertical and $g$
 In this exercise, we will explore the concept of bifurcations. Consider the following system:
 
 $$
-
 \dot{x} = rx - x^3
-
 $$
 
 where $r$ is a parameter. Plot the bifurcation diagram for this system and discuss the different types of bifurcations that occur.
@@ -2367,9 +2351,7 @@ where $r$ is a parameter. Plot the bifurcation diagram for this system and discu
 Waves can be described by the wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}
-
 $$
 
 where $u(x,t)$ is the displacement of the wave, $c$ is the wave speed, and $x$ and $t$ are the spatial and temporal variables, respectively. Use the method of separation of variables to solve this equation and discuss the properties of the resulting solutions.
@@ -2381,9 +2363,7 @@ where $u(x,t)$ is the displacement of the wave, $c$ is the wave speed, and $x$ a
 In this exercise, we will explore the concept of dispersion in waves. Consider a wave described by the following equation:
 
 $$
-
 u(x,t) = A\cos(kx - \omega t)
-
 $$
 
 where $A$ is the amplitude, $k$ is the wavenumber, and $\omega$ is the angular frequency. Plot the dispersion relation for this wave and discuss the relationship between the wavenumber and the angular frequency.
@@ -2441,7 +2421,6 @@ A periodic solution is a solution of a dynamical system that repeats itself afte
 $$x(t+T) = x(t)$$
 
 
-
 where T is the period of the solution. This means that the state of the system at time t+T is the same as the state at time t. In other words, the system undergoes the same motion over and over again.
 
 
@@ -2491,9 +2470,7 @@ Periodic solutions are a fundamental concept in nonlinear dynamics, representing
 A periodic solution is a solution of a dynamical system that repeats itself after a certain period of time. Mathematically, this can be represented as follows:
 
 
-
 $$x(t+T) = x(t)$$
-
 
 
 where T is the period of the solution. This means that the state of the system at time t+T is the same as the state at time t. In other words, the system undergoes the same motion over and over again.
@@ -2569,9 +2546,7 @@ Periodic solutions are a fundamental concept in nonlinear dynamics, representing
 A periodic solution is a solution of a dynamical system that repeats itself after a certain period of time. Mathematically, this can be represented as follows:
 
 
-
 $$x(t+T) = x(t)$$
-
 
 
 where T is the period of the solution. This means that the state of the system at time t+T is the same as the state at time t. In other words, the system undergoes the same motion over and over again.
@@ -2663,9 +2638,7 @@ Limit cycles are a type of periodic solution that is commonly observed in nonlin
 A limit cycle is a periodic solution that is surrounded by a closed trajectory in the phase space. This means that the state of the system will repeat itself after a certain period of time, but the trajectory of the system will never cross itself. This can be represented mathematically as follows:
 
 
-
 $$x(t+T) = x(t)$$
-
 $$\dot{x}(t+T) = \dot{x}(t)$$
 
 
@@ -2743,9 +2716,7 @@ Limit cycles are a type of periodic solution that is commonly observed in nonlin
 A limit cycle is a periodic solution that is surrounded by a closed trajectory in the phase space. This means that the state of the system will repeat itself after a certain period of time, but the trajectory of the system will never cross itself. This can be represented mathematically as follows:
 
 
-
 $$x(t+T) = x(t)$$
-
 $$\dot{x}(t+T) = \dot{x}(t)$$
 
 
@@ -2803,9 +2774,7 @@ Limit cycles are a type of periodic solution that is commonly observed in nonlin
 A limit cycle is a periodic solution that is surrounded by a closed trajectory in the phase space. This means that the state of the system will repeat itself after a certain period of time, but the trajectory of the system will never cross itself. This can be represented mathematically as follows:
 
 
-
 $$x(t+T) = x(t)$$
-
 $$\dot{x}(t+T) = \dot{x}(t)$$
 
 
@@ -3263,13 +3232,11 @@ Nonlinear oscillations play a crucial role in many areas of science and engineer
 #### Exercise 1
 
 Consider the Duffing oscillator given by the equation:
-
 $$
 
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
 
 $$
-
 where $\delta, \alpha, \beta, \gamma$ are constants and $\omega$ is the driving frequency. Investigate the behavior of this system for different values of the parameters and plot the corresponding phase portraits.
 
 
@@ -3277,13 +3244,11 @@ where $\delta, \alpha, \beta, \gamma$ are constants and $\omega$ is the driving 
 #### Exercise 2
 
 Explore the concept of bifurcations in the logistic map, given by the equation:
-
 $$
 
 x_{n+1} = rx_n(1-x_n)
 
 $$
-
 where $r$ is the control parameter. Plot the bifurcation diagram for $r \in [0,4]$ and observe the emergence of chaos as $r$ increases.
 
 
@@ -3291,13 +3256,11 @@ where $r$ is the control parameter. Plot the bifurcation diagram for $r \in [0,4
 #### Exercise 3
 
 Investigate the behavior of the Van der Pol oscillator, given by the equation:
-
 $$
 
 \ddot{x} - \mu(1-x^2)\dot{x} + x = 0
 
 $$
-
 where $\mu$ is a constant. Show that this system exhibits limit cycle behavior for certain values of $\mu$ and plot the corresponding phase portraits.
 
 
@@ -3305,13 +3268,11 @@ where $\mu$ is a constant. Show that this system exhibits limit cycle behavior f
 #### Exercise 4
 
 Consider the Lorenz system, given by the equations:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
 
 $$
-
 where $\sigma, \rho, \beta$ are constants. Investigate the behavior of this system for different values of the parameters and plot the corresponding phase portraits.
 
 
@@ -3319,17 +3280,14 @@ where $\sigma, \rho, \beta$ are constants. Investigate the behavior of this syst
 #### Exercise 5
 
 Explore the concept of synchronization in coupled oscillators. Consider two identical Duffing oscillators coupled through a linear term:
-
 $$
 
 \ddot{x_1} + \delta \dot{x_1} + \alpha x_1 + \beta x_1^3 + \gamma(x_2-x_1) = 0
 
 $$
-
 $$
 
 \ddot{x_2} + \delta \dot{x_2} + \alpha x_2 + \beta x_2^3 + \gamma(x_1-x_2) = 0
-
 $$
 
 Investigate the conditions for synchronization to occur and plot the corresponding phase portraits.
@@ -3359,9 +3317,7 @@ Nonlinear oscillations play a crucial role in many areas of science and engineer
 Consider the Duffing oscillator given by the equation:
 
 $$
-
 \ddot{x} + \delta \dot{x} + \alpha x + \beta x^3 = \gamma \cos(\omega t)
-
 $$
 
 where $\delta, \alpha, \beta, \gamma$ are constants and $\omega$ is the driving frequency. Investigate the behavior of this system for different values of the parameters and plot the corresponding phase portraits.
@@ -3373,9 +3329,7 @@ where $\delta, \alpha, \beta, \gamma$ are constants and $\omega$ is the driving 
 Explore the concept of bifurcations in the logistic map, given by the equation:
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 where $r$ is the control parameter. Plot the bifurcation diagram for $r \in [0,4]$ and observe the emergence of chaos as $r$ increases.
@@ -3387,9 +3341,7 @@ where $r$ is the control parameter. Plot the bifurcation diagram for $r \in [0,4
 Investigate the behavior of the Van der Pol oscillator, given by the equation:
 
 $$
-
 \ddot{x} - \mu(1-x^2)\dot{x} + x = 0
-
 $$
 
 where $\mu$ is a constant. Show that this system exhibits limit cycle behavior for certain values of $\mu$ and plot the corresponding phase portraits.
@@ -3401,9 +3353,7 @@ where $\mu$ is a constant. Show that this system exhibits limit cycle behavior f
 Consider the Lorenz system, given by the equations:
 
 $$
-
 \dot{x} = \sigma(y-x), \quad \dot{y} = x(\rho-z)-y, \quad \dot{z} = xy-\beta z
-
 $$
 
 where $\sigma, \rho, \beta$ are constants. Investigate the behavior of this system for different values of the parameters and plot the corresponding phase portraits.
@@ -3415,15 +3365,11 @@ where $\sigma, \rho, \beta$ are constants. Investigate the behavior of this syst
 Explore the concept of synchronization in coupled oscillators. Consider two identical Duffing oscillators coupled through a linear term:
 
 $$
-
 \ddot{x_1} + \delta \dot{x_1} + \alpha x_1 + \beta x_1^3 + \gamma(x_2-x_1) = 0
-
 $$
 
 $$
-
 \ddot{x_2} + \delta \dot{x_2} + \alpha x_2 + \beta x_2^3 + \gamma(x_1-x_2) = 0
-
 $$
 
 Investigate the conditions for synchronization to occur and plot the corresponding phase portraits.
@@ -3645,9 +3591,7 @@ To understand the definition of Lyapunov exponents, let us consider a system des
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(\mathbf{x})
-
 $$
 
 
@@ -3657,9 +3601,7 @@ where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf
 
 
 $$
-
 \lambda_i = \lim_{t \to \infty} \frac{1}{t} \ln \left(\frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}(0)\|}\right)
-
 $$
 
 
@@ -3707,9 +3649,7 @@ To understand the definition of Lyapunov exponents, let us consider a system des
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(\mathbf{x})
-
 $$
 
 
@@ -3719,9 +3659,7 @@ where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf
 
 
 $$
-
 \lambda_i = \lim_{t \to \infty} \frac{1}{t} \ln \left(\frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}(0)\|}\right)
-
 $$
 
 
@@ -3789,9 +3727,7 @@ To understand the definition of Lyapunov exponents, let us consider a system des
 
 
 $$
-
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(\mathbf{x})
-
 $$
 
 
@@ -3801,9 +3737,7 @@ where $\mathbf{x}$ is a vector representing the state of the system and $\mathbf
 
 
 $$
-
 \lambda_i = \lim_{t \to \infty} \frac{1}{t} \ln \left(\frac{\|\delta \mathbf{x}(t)\|}{\|\delta \mathbf{x}(0)\|}\right)
-
 $$
 
 
@@ -4169,9 +4103,7 @@ To better understand this concept, let's consider the example of the logistic ma
 
 
 $$
-
 x_{n+1} = rx_n(1-x_n)
-
 $$
 
 
@@ -4349,9 +4281,7 @@ The mathematical description of solitons is provided by the nonlinear Schröding
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -4361,9 +4291,7 @@ where $i$ is the imaginary unit, $t$ is time, $x$ is space, and $\kappa$ is a pa
 
 
 $$
-
 \psi(x,t) = A \text{sech}(B(x-vt))
-
 $$
 
 
@@ -4415,9 +4343,7 @@ The mathematical description of solitons is provided by the nonlinear Schröding
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -4427,9 +4353,7 @@ where $i$ is the imaginary unit, $t$ is time, $x$ is space, and $\kappa$ is a pa
 
 
 $$
-
 \psi(x,t) = A \text{sech}(B(x-vt))
-
 $$
 
 
@@ -4497,9 +4421,7 @@ The mathematical description of solitons is provided by the nonlinear Schröding
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -4509,9 +4431,7 @@ where $i$ is the imaginary unit, $t$ is time, $x$ is space, and $\kappa$ is a pa
 
 
 $$
-
 \psi(x,t) = A \text{sech}(B(x-vt))
-
 $$
 
 
@@ -4591,9 +4511,7 @@ In the context of water waves, the NLSE can be used to describe the evolution of
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + c\frac{\partial \eta}{\partial x} + \frac{3}{2} \eta \frac{\partial \eta}{\partial x} + \frac{1}{6} \frac{\partial^3 \eta}{\partial x^3} = 0
-
 $$
 
 
@@ -4641,9 +4559,7 @@ In the context of water waves, the NLSE can be used to describe the evolution of
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + c\frac{\partial \eta}{\partial x} + \frac{3}{2} \eta \frac{\partial \eta}{\partial x} + \frac{1}{6} \frac{\partial^3 \eta}{\partial x^3} = 0
-
 $$
 
 
@@ -4709,9 +4625,7 @@ In the context of water waves, the NLSE can be used to describe the evolution of
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + c\frac{\partial \eta}{\partial x} + \frac{3}{2} \eta \frac{\partial \eta}{\partial x} + \frac{1}{6} \frac{\partial^3 \eta}{\partial x^3} = 0
-
 $$
 
 
@@ -4737,9 +4651,7 @@ One example of dispersive waves in nonlinear systems is the Benjamin-Ono equatio
 
 
 $$
-
 \frac{\partial u}{\partial t} + \frac{\partial}{\partial x}\left(cu + \frac{1}{2}u^2\right) + \frac{\partial^3 u}{\partial x^3} = 0
-
 $$
 
 
@@ -4783,9 +4695,7 @@ The classical version of the NLSE is given by:
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{1}{2}\frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -4795,9 +4705,7 @@ where $\psi(x,t)$ is a complex field and $\kappa$ is a constant. This equation a
 
 
 $$
-
 H = \int \left(\frac{1}{2}|\nabla \psi|^2 + \frac{\kappa}{2}|\psi|^4\right) dx
-
 $$
 
 
@@ -4807,9 +4715,7 @@ with the Poisson brackets:
 
 
 $$
-
 \{ \psi(x), \psi^*(y) \} = i\delta(x-y)
-
 $$
 
 
@@ -4827,9 +4733,7 @@ In quantum mechanics, the NLSE can be quantized by replacing the Poisson bracket
 
 
 $$
-
 [\psi(x), \psi^\dagger(y)] = \delta(x-y)
-
 $$
 
 
@@ -4843,9 +4747,7 @@ The NLSE also has applications in other fields, such as water waves. In 1968, Vl
 
 
 $$
-
 \frac{\partial \eta}{\partial t} + c\frac{\partial \eta}{\partial x} + \frac{3}{2} \eta \frac{\partial \eta}{\partial x} + \frac{1}{6} \frac{\partial^3 \eta}{\partial x^3} = 0
-
 $$
 
 
@@ -4885,9 +4787,7 @@ The classical version of the NLSE is given by:
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{1}{2}\frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -4897,9 +4797,7 @@ where $\psi(x,t)$ is a complex field and $\kappa$ is a constant. This equation a
 
 
 $$
-
 H = \int \left(\frac{1}{2}|\nabla \psi|^2 + \frac{\kappa}{2}|\psi|^4\right) dx
-
 $$
 
 
@@ -4909,9 +4807,7 @@ with the Poisson brackets:
 
 
 $$
-
 \{ \psi(x), \psi^*(y) \} = i\delta(x-y)
-
 $$
 
 
@@ -4929,9 +4825,7 @@ In quantum mechanics, the NLSE can be quantized by replacing the Poisson bracket
 
 
 $$
-
 [\psi(x), \psi^\dagger(y)] = \delta(x-y)
-
 $$
 
 
@@ -4991,9 +4885,7 @@ The classical version of the NLSE is given by:
 
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{1}{2}\frac{\partial^2 \psi}{\partial x^2} + \kappa |\psi|^2 \psi = 0
-
 $$
 
 
@@ -5003,9 +4895,7 @@ where $\psi(x,t)$ is a complex field and $\kappa$ is a constant. This equation a
 
 
 $$
-
 H = \int \left(\frac{1}{2}|\nabla \psi|^2 + \frac{\kappa}{2}|\psi|^4\right) dx
-
 $$
 
 
@@ -5015,9 +4905,7 @@ with the Poisson brackets:
 
 
 $$
-
 \{ \psi(x), \psi^*(y) \} = i\delta(x-y)
-
 $$
 
 
@@ -5035,9 +4923,7 @@ In quantum mechanics, the NLSE can be quantized by replacing the Poisson bracket
 
 
 $$
-
 [\psi(x), \psi^\dagger(y)] = \delta(x-y)
-
 $$
 
 
@@ -5275,9 +5161,7 @@ In this chapter, we have explored the fascinating world of nonlinear waves. We h
 Consider the Korteweg-de Vries equation:
 
 $$
-
 \frac{\partial u}{\partial t} + \frac{\partial}{\partial x}\left(\frac{3}{2}u^2 - \frac{\partial^2 u}{\partial x^2}\right) = 0
-
 $$
 
 a) Show that this equation is nonlinear by finding a solution that is not a linear combination of its derivatives. b) Investigate the behavior of this equation for different initial conditions.
@@ -5289,9 +5173,7 @@ a) Show that this equation is nonlinear by finding a solution that is not a line
 Explore the phenomenon of rogue waves by simulating the nonlinear Schrödinger equation:
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + 2|\psi|^2\psi = 0
-
 $$
 
 a) Use a numerical method to solve this equation and observe the formation of rogue waves. b) Investigate the effect of different parameters on the formation of rogue waves.
@@ -5303,9 +5185,7 @@ a) Use a numerical method to solve this equation and observe the formation of ro
 Investigate the properties of solitons by studying the sine-Gordon equation:
 
 $$
-
 \frac{\partial^2 \phi}{\partial t^2} - \frac{\partial^2 \phi}{\partial x^2} + \sin \phi = 0
-
 $$
 
 a) Show that this equation supports soliton solutions. b) Use a numerical method to simulate the behavior of solitons and observe their properties.
@@ -5317,9 +5197,7 @@ a) Show that this equation supports soliton solutions. b) Use a numerical method
 Explore the concept of shock waves by studying the Burgers' equation:
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} = \nu \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 a) Investigate the formation of shock waves for different initial conditions. b) Compare the behavior of this equation with the Korteweg-de Vries equation.
@@ -5347,9 +5225,7 @@ In this chapter, we have explored the fascinating world of nonlinear waves. We h
 Consider the Korteweg-de Vries equation:
 
 $$
-
 \frac{\partial u}{\partial t} + \frac{\partial}{\partial x}\left(\frac{3}{2}u^2 - \frac{\partial^2 u}{\partial x^2}\right) = 0
-
 $$
 
 a) Show that this equation is nonlinear by finding a solution that is not a linear combination of its derivatives. b) Investigate the behavior of this equation for different initial conditions.
@@ -5361,9 +5237,7 @@ a) Show that this equation is nonlinear by finding a solution that is not a line
 Explore the phenomenon of rogue waves by simulating the nonlinear Schrödinger equation:
 
 $$
-
 i\frac{\partial \psi}{\partial t} + \frac{\partial^2 \psi}{\partial x^2} + 2|\psi|^2\psi = 0
-
 $$
 
 a) Use a numerical method to solve this equation and observe the formation of rogue waves. b) Investigate the effect of different parameters on the formation of rogue waves.
@@ -5375,9 +5249,7 @@ a) Use a numerical method to solve this equation and observe the formation of ro
 Investigate the properties of solitons by studying the sine-Gordon equation:
 
 $$
-
 \frac{\partial^2 \phi}{\partial t^2} - \frac{\partial^2 \phi}{\partial x^2} + \sin \phi = 0
-
 $$
 
 a) Show that this equation supports soliton solutions. b) Use a numerical method to simulate the behavior of solitons and observe their properties.
@@ -5389,9 +5261,7 @@ a) Show that this equation supports soliton solutions. b) Use a numerical method
 Explore the concept of shock waves by studying the Burgers' equation:
 
 $$
-
 \frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} = \nu \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 a) Investigate the formation of shock waves for different initial conditions. b) Compare the behavior of this equation with the Korteweg-de Vries equation.
@@ -5461,17 +5331,13 @@ The reaction-diffusion equations that govern Turing patterns can be written as:
 
 
 $$
-
 \frac{\partial A}{\partial t} = f(A,B) + D_A \nabla^2 A
-
 $$
 
 
 
 $$
-
 \frac{\partial B}{\partial t} = g(A,B) + D_B \nabla^2 B
-
 $$
 
 
@@ -5519,17 +5385,13 @@ The reaction-diffusion equations that govern Turing patterns can be written as:
 
 
 $$
-
 \frac{\partial A}{\partial t} = f(A,B) + D_A \nabla^2 A
-
 $$
 
 
 
 $$
-
 \frac{\partial B}{\partial t} = g(A,B) + D_B \nabla^2 B
-
 $$
 
 
@@ -5593,17 +5455,13 @@ The reaction-diffusion equations that govern Turing patterns in nonlinear system
 
 
 $$
-
 \frac{\partial A}{\partial t} = f(A,B) + D_A \nabla^2 A
-
 $$
 
 
 
 $$
-
 \frac{\partial B}{\partial t} = g(A,B) + D_B \nabla^2 B
-
 $$
 
 
@@ -5625,17 +5483,13 @@ The reaction-diffusion equations for this system can be written as:
 
 
 $$
-
 \frac{\partial u}{\partial t} = d_u^2 \nabla^2 u + f(u,v) - \sigma v
-
 $$
 
 
 
 $$
-
 \frac{\partial v}{\partial t} = d_v^2 \nabla^2 v + u - v
-
 $$
 
 
@@ -5649,9 +5503,7 @@ Turing patterns in this system can only be realized in four equivalence classes 
 
 
 $$
-
 \begin{pmatrix} -&-\\+&+\end{pmatrix}
-
 $$
 
 
@@ -5691,9 +5543,7 @@ The general form of a reaction-diffusion equation is given by:
 
 
 $$
-
 \frac{\partial u}{\partial t} = F(u) + D \nabla^2 u
-
 $$
 
 
@@ -5727,17 +5577,13 @@ The equations for Turing patterns in nonlinear systems can be written as:
 
 
 $$
-
 \frac{\partial A}{\partial t} = f(A,B) + D_A \nabla^2 A
-
 $$
 
 
 
 $$
-
 \frac{\partial B}{\partial t} = g(A,B) + D_B \nabla^2 B
-
 $$
 
 
@@ -5827,11 +5673,9 @@ The most well-known example of an activator-inhibitor system is the FitzHugh-Nag
 
 
 $$
-
 \partial_t u = d_u^2 \,\nabla^2 u + f(u) - \sigma v, \\
 
 \tau \partial_t v = d_v^2 \,\nabla^2 v + u - v
-
 $$
 
 
@@ -5891,11 +5735,9 @@ An example of an activator-inhibitor system is the FitzHugh-Nagumo equation, whi
 
 
 $$
-
 \partial_t u = d_u^2 \,\nabla^2 u + f(u) - \sigma v, \\
 
 \tau \partial_t v = d_v^2 \,\nabla^2 v + u - v
-
 $$
 
 
@@ -6253,9 +6095,7 @@ As we conclude this chapter, it is important to remember that pattern formation 
 Consider the following reaction-diffusion equation:
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u + f(u)
-
 $$
 
 where $D$ is the diffusion coefficient and $f(u)$ is a nonlinear function. Investigate how changing the parameters $D$ and $f(u)$ affects the formation and evolution of patterns.
@@ -6309,9 +6149,7 @@ As we conclude this chapter, it is important to remember that pattern formation 
 Consider the following reaction-diffusion equation:
 
 $$
-
 \frac{\partial u}{\partial t} = D \nabla^2 u + f(u)
-
 $$
 
 where $D$ is the diffusion coefficient and $f(u)$ is a nonlinear function. Investigate how changing the parameters $D$ and $f(u)$ affects the formation and evolution of patterns.
@@ -6719,17 +6557,13 @@ To formally define controllability and observability, we can use the concept of 
 
 
 $$
-
 \dot{\textbf{x}} = \textbf{f}(\textbf{x}, \textbf{u})
-
 $$
 
 
 
 $$
-
 \textbf{y} = \textbf{g}(\textbf{x}, \textbf{u})
-
 $$
 
 
@@ -6955,17 +6789,13 @@ In most cases, physical systems are represented as continuous-time models, while
 
 
 $$
-
 \dot{\mathbf{x}}(t) = f\bigl(\mathbf{x}(t), \mathbf{u}(t)\bigr) + \mathbf{w}(t) \quad \mathbf{w}(t) \sim \mathcal{N}\bigl(\mathbf{0},\mathbf{Q}(t)\bigr)
-
 $$
 
 
 
 $$
-
 \mathbf{z}_k = h(\mathbf{x}_k) + \mathbf{v}_k \quad \mathbf{v}_k \sim \mathcal{N}(\mathbf{0},\mathbf{R}_k)
-
 $$
 
 
@@ -7103,9 +6933,7 @@ In order to apply the Pontryagin's Maximum Principle to nonlinear systems, we ne
 
 
 $$
-
 H(\mathbf{x}, \mathbf{u}, \mathbf{p}, t) = L(\mathbf{x}, \mathbf{u}, t) + \mathbf{p}^T f(\mathbf{x}, \mathbf{u}, t)
-
 $$
 
 
@@ -7123,9 +6951,7 @@ Once the Hamiltonian function is formulated, we can use the Pontryagin's Maximum
 
 
 $$
-
 \frac{\partial H}{\partial \mathbf{u}} = 0 \text{ and } \frac{\partial H}{\partial \mathbf{p}} = -\dot{\mathbf{x}}
-
 $$
 
 
@@ -7143,9 +6969,7 @@ Similar to the PMP, Dynamic Programming can also be extended to nonlinear system
 
 
 $$
-
 V(\mathbf{x}, t) = \min_{\mathbf{u}} \left\{ L(\mathbf{x}, \mathbf{u}, t) + V(\mathbf{x}', t+1) \right\}
-
 $$
 
 
@@ -7193,9 +7017,7 @@ Overall, nonlinear control is a powerful tool in the study of nonlinear dynamics
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 + u
-
 $$
 
 where $x$ is the state variable and $u$ is the control input. Design a control strategy to stabilize this system and analyze its stability using Lyapunov's direct method.
@@ -7219,9 +7041,7 @@ Explore the concept of adaptive control and its applications in nonlinear system
 Consider a nonlinear wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2} + f(u)
-
 $$
 
 where $c$ is the wave speed and $f(u)$ is a nonlinear function. Design a control strategy to manipulate the behavior of this wave and analyze its effectiveness using numerical simulations.
@@ -7257,9 +7077,7 @@ Overall, nonlinear control is a powerful tool in the study of nonlinear dynamics
 Consider the following nonlinear system:
 
 $$
-
 \dot{x} = x^2 + u
-
 $$
 
 where $x$ is the state variable and $u$ is the control input. Design a control strategy to stabilize this system and analyze its stability using Lyapunov's direct method.
@@ -7283,9 +7101,7 @@ Explore the concept of adaptive control and its applications in nonlinear system
 Consider a nonlinear wave equation:
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2} + f(u)
-
 $$
 
 where $c$ is the wave speed and $f(u)$ is a nonlinear function. Design a control strategy to manipulate the behavior of this wave and analyze its effectiveness using numerical simulations.
@@ -7929,11 +7745,9 @@ The SIS model can be represented by the following equations:
 
 
 $$
-
 \frac{dS}{dt} = - \frac{\beta S I}{N} + \gamma I \\
 
 \frac{dI}{dt} = \frac{\beta S I}{N} - \gamma I
-
 $$
 
 
@@ -7951,9 +7765,7 @@ In the SIS model, the basic reproduction rate is given by:
 
 
 $$
-
 R0 = \frac{\beta}{\gamma}
-
 $$
 
 
@@ -7967,9 +7779,7 @@ The solution to the SIS model can be found analytically, and is given by:
 
 
 $$
-
 I(t) = \frac{I_\infty}{1 + V e^{-\chi t}}
-
 $$
 
 
@@ -8013,9 +7823,7 @@ One important property of epidemiological models is the basic reproduction rate,
 
 
 $$
-
 R0 = \frac{\beta}{\gamma}
-
 $$
 
 
@@ -8029,9 +7837,7 @@ Another key property of epidemiological models is the concept of herd immunity. 
 
 
 $$
-
 HIT = 1 - \frac{\gamma}{\beta}
-
 $$
 
 
@@ -8075,11 +7881,9 @@ One of the main limitations of the SIS model is that it assumes a constant popul
 
 
 $$
-
 \frac{dS}{dt} = \mu N - \frac{\beta S I}{N} + \gamma I - \mu S \\[6pt]
 
 \frac{dI}{dt} = \frac{\beta S I}{N} - \gamma I - \mu I
-
 $$
 
 
@@ -8093,11 +7897,9 @@ To account for this heterogeneity, we can introduce a distribution of susceptibi
 
 
 $$
-
 \frac{dS}{dt} = \mu N - \frac{\beta \langle S \rangle \langle I \rangle}{N} + \gamma \langle I \rangle - \mu S \\[6pt]
 
 \frac{dI}{dt} = \frac{\beta \langle S \rangle \langle I \rangle}{N} - \gamma \langle I \rangle - \mu I
-
 $$
 
 
@@ -8111,11 +7913,9 @@ Another important aspect to consider in epidemiological models is the impact of 
 
 
 $$
-
 \frac{dS}{dt} = \mu N - \frac{\beta S I}{N} + \gamma I - \mu S - \nu S - \theta S \\[6pt]
 
 \frac{dI}{dt} = \frac{\beta S I}{N} - \gamma I - \mu I + \nu S + \theta S
-
 $$
 
 
@@ -8855,7 +8655,6 @@ Overall, this chapter has provided a comprehensive introduction to the role of n
 #### Exercise 1
 
 Consider a nonlinear mechanical system described by the equation of motion: $$m\ddot{x} + kx + cx^3 = F(t)$$
-
 where $m$ is the mass, $k$ is the stiffness, $c$ is the nonlinear coefficient, and $F(t)$ is the external force. Using the method of multiple scales, derive the amplitude equation for small-amplitude vibrations.
 
 
@@ -9063,13 +8862,11 @@ The sixth edition, published in 1985, saw further updates and corrections, inclu
 In this subsection, we will delve deeper into the properties of nonlinear optics. One of the key properties of nonlinear optics is the nonlinear susceptibility, denoted by <math>\chi^{(i)}</math>, which describes the response of a material to an applied electric field. For a given nonlinear optical process, the polarization <math>\overrightarrow{P}</math> which generates the output is given by
 
 
-
 $$
 
 \overrightarrow{P} = \epsilon_0 \left( \chi^{(1)} \overrightarrow{E} + \chi^{(2)} \overrightarrow{E}^2 + \chi^{(3)} \overrightarrow{E}^3 + ... \right)
 
 $$
-
 
 
 where <math>\chi^{(i)}</math> is the <math>i</math>th order nonlinear susceptibility. This equation shows that the polarization is not directly proportional to the electric field, as is the case in linear optics. Instead, it is a nonlinear function of the electric field, leading to a wide range of interesting and complex phenomena.
@@ -9685,13 +9482,11 @@ As we conclude this chapter, it is important to note that nonlinear dynamics is 
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - 2x + 1
 
 $$
-
 a) Find the equilibrium points of this system.
 
 b) Determine the stability of each equilibrium point.
@@ -9709,13 +9504,11 @@ In this chapter, we learned about bifurcation diagrams and how they can be used 
 #### Exercise 3
 
 Explore the concept of chaos in nonlinear systems by studying the famous Lorenz system:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = rx - y - xz, \quad \dot{z} = xy - bz
 
 $$
-
 a) Choose values for the parameters $\sigma$, $r$, and $b$ and plot the phase portrait of this system.
 
 b) Investigate the behavior of this system for different initial conditions.
@@ -9757,13 +9550,11 @@ As we conclude this chapter, it is important to note that nonlinear dynamics is 
 #### Exercise 1
 
 Consider the following nonlinear system:
-
 $$
 
 \dot{x} = x^2 - 2x + 1
 
 $$
-
 a) Find the equilibrium points of this system.
 
 b) Determine the stability of each equilibrium point.
@@ -9781,13 +9572,11 @@ In this chapter, we learned about bifurcation diagrams and how they can be used 
 #### Exercise 3
 
 Explore the concept of chaos in nonlinear systems by studying the famous Lorenz system:
-
 $$
 
 \dot{x} = \sigma(y-x), \quad \dot{y} = rx - y - xz, \quad \dot{z} = xy - bz
 
 $$
-
 a) Choose values for the parameters $\sigma$, $r$, and $b$ and plot the phase portrait of this system.
 
 b) Investigate the behavior of this system for different initial conditions.
@@ -12435,7 +12224,6 @@ In conclusion, nonlinear dynamics and waves have proven to be a valuable tool in
 #### Exercise 1
 
 Consider the following system of nonlinear differential equations:
-
 $$
 
 \frac{dx}{dt} = x^2 - y^2 \\
@@ -12443,7 +12231,6 @@ $$
 \frac{dy}{dt} = 2xy
 
 $$
-
 a) Find the equilibrium points of this system. \\
 
 b) Classify the stability of each equilibrium point. \\
@@ -12473,13 +12260,11 @@ Investigate the role of nonlinear dynamics in the development of swarm intellige
 #### Exercise 5
 
 Consider the following nonlinear difference equation:
-
 $$
 
 x_{n+1} = rx_n(1-x_n)
 
 $$
-
 a) For what values of r does this system exhibit chaotic behavior? \\
 
 b) Investigate the bifurcation diagram of this system for different values of r. \\
@@ -12513,7 +12298,6 @@ In conclusion, nonlinear dynamics and waves have proven to be a valuable tool in
 #### Exercise 1
 
 Consider the following system of nonlinear differential equations:
-
 $$
 
 \frac{dx}{dt} = x^2 - y^2 \\
@@ -12521,7 +12305,6 @@ $$
 \frac{dy}{dt} = 2xy
 
 $$
-
 a) Find the equilibrium points of this system. \\
 
 b) Classify the stability of each equilibrium point. \\
@@ -12551,13 +12334,11 @@ Investigate the role of nonlinear dynamics in the development of swarm intellige
 #### Exercise 5
 
 Consider the following nonlinear difference equation:
-
 $$
 
 x_{n+1} = rx_n(1-x_n)
 
 $$
-
 a) For what values of r does this system exhibit chaotic behavior? \\
 
 b) Investigate the bifurcation diagram of this system for different values of r. \\
@@ -13443,13 +13224,11 @@ Chemical reactions involve the interaction of multiple species and their concent
 One of the key equations used in chemical kinetics is the Arrhenius equation, which relates the rate of a chemical reaction to the temperature and activation energy. It is given by:
 
 
-
 $$
 
 k = Ae^{-E_a/RT}
 
 $$
-
 
 
 where k is the rate constant, A is the pre-exponential factor, E_a is the activation energy, R is the gas constant, and T is the temperature. This equation is derived from the Boltzmann distribution and is widely used in chemical kinetics to predict reaction rates.
@@ -13459,13 +13238,11 @@ where k is the rate constant, A is the pre-exponential factor, E_a is the activa
 The Van't Hoff equation, named after Dutch chemist Jacobus Henricus van't Hoff, is another important equation in chemical kinetics. It relates the equilibrium constant of a reaction to the temperature and enthalpy change. It is given by:
 
 
-
 $$
 
 \ln K = -\frac{\Delta H}{RT} + \frac{\Delta S}{R}
 
 $$
-
 
 
 where K is the equilibrium constant, ΔH is the enthalpy change, ΔS is the entropy change, R is the gas constant, and T is the temperature. This equation is derived from the Gibbs free energy and is used to predict the effect of temperature on the equilibrium of a chemical reaction.
@@ -13513,13 +13290,11 @@ Chemical reactions involve the interaction of multiple species and their concent
 One of the key equations used in chemical kinetics is the Arrhenius equation, which relates the rate of a chemical reaction to the temperature and activation energy. It is given by:
 
 
-
 $$
 
 k = Ae^{-E_a/RT}
 
 $$
-
 
 
 where k is the rate constant, A is the pre-exponential factor, E_a is the activation energy, R is the gas constant, and T is the temperature. This equation is derived from the Boltzmann distribution and is widely used in chemical kinetics to predict reaction rates.
@@ -13529,13 +13304,11 @@ where k is the rate constant, A is the pre-exponential factor, E_a is the activa
 The Van't Hoff equation, named after Dutch chemist Jacobus Henricus van't Hoff, is another important equation in chemical kinetics. It relates the equilibrium constant of a reaction to the temperature and enthalpy change. It is given by:
 
 
-
 $$
 
 \ln K = -\frac{\Delta H}{RT} + \frac{\Delta S}{R}
 
 $$
-
 
 
 where K is the equilibrium constant, ΔH is the enthalpy change, ΔS is the entropy change, R is the gas constant, and T is the temperature. This equation is derived from the Gibbs free energy and is used to predict the effect of temperature on the equilibrium of a chemical reaction.
@@ -13553,13 +13326,11 @@ In addition to the Arrhenius and Van't Hoff equations, there are other important
 One such property is the reaction rate law, which describes the relationship between the rate of a reaction and the concentrations of the reactants. This law is typically expressed as a differential equation, and its form depends on the specific reaction being studied. For example, a simple first-order reaction can be described by the following rate law:
 
 
-
 $$
 
 \frac{d[A]}{dt} = -k[A]
 
 $$
-
 
 
 where [A] is the concentration of the reactant A and k is the rate constant. This equation shows that the rate of the reaction is directly proportional to the concentration of A.
@@ -13569,13 +13340,11 @@ where [A] is the concentration of the reactant A and k is the rate constant. Thi
 Another important property is the order of a reaction, which is determined by the exponents in the rate law. For example, a reaction with a rate law of the form:
 
 
-
 $$
 
 \frac{d[A]}{dt} = -k[A]^2[B]
 
 $$
-
 
 
 is considered a second-order reaction, as the exponents of the reactants add up to 2. The order of a reaction can have a significant impact on its behavior, as it affects the rate at which the reaction proceeds.
@@ -13619,13 +13388,11 @@ Chemical reactions involve the interaction of multiple species and their concent
 One of the key equations used in chemical kinetics is the Arrhenius equation, which relates the rate of a chemical reaction to the temperature and activation energy. It is given by:
 
 
-
 $$
 
 k = Ae^{-E_a/RT}
 
 $$
-
 
 
 where k is the rate constant, A is the pre-exponential factor, E_a is the activation energy, R is the gas constant, and T is the temperature. This equation is derived from the Boltzmann distribution and is widely used in chemical kinetics to predict reaction rates.
@@ -13635,13 +13402,11 @@ where k is the rate constant, A is the pre-exponential factor, E_a is the activa
 The Van't Hoff equation, named after Dutch chemist Jacobus Henricus van't Hoff, is another important equation in chemical kinetics. It relates the equilibrium constant of a reaction to the temperature and enthalpy change. It is given by:
 
 
-
 $$
 
 \ln K = -\frac{\Delta H}{RT} + \frac{\Delta S}{R}
 
 $$
-
 
 
 where K is the equilibrium constant, ΔH is the enthalpy change, ΔS is the entropy change, R is the gas constant, and T is the temperature. This equation is derived from the Gibbs free energy and is used to predict the effect of temperature on the equilibrium of a chemical reaction.
@@ -13663,13 +13428,11 @@ In nonlinear chemical kinetics, the Arrhenius and Van't Hoff equations may no lo
 To account for this, a modified Arrhenius equation can be used:
 
 
-
 $$
 
 k = Ae^{-E_a/RT} \left(\frac{[A]}{[A]_0}\right)^{\alpha}
 
 $$
-
 
 
 where [A] is the concentration of the reacting species A, [A]_0 is the initial concentration, and α is a parameter that accounts for the nonlinear effects.
@@ -13679,13 +13442,11 @@ where [A] is the concentration of the reacting species A, [A]_0 is the initial c
 Similarly, the Van't Hoff equation can be modified to include the effect of concentration on the enthalpy change:
 
 
-
 $$
 
 \ln K = -\frac{\Delta H}{RT} \left(\frac{[A]}{[A]_0}\right)^{\beta} + \frac{\Delta S}{R}
 
 $$
-
 
 
 where β is a parameter that accounts for the nonlinear effects.
@@ -13939,13 +13700,11 @@ One of the most well-known examples of chemical waves is the Belousov-Zhabotinsk
 The three-wave equation is a mathematical model that describes the behavior of chemical waves. It is a nonlinear partial differential equation that takes into account the interaction of three waves with different wave-vectors and angular frequencies. The equation is given by:
 
 
-
 $$
 
 \frac{\partial A}{\partial t} + v_1 \frac{\partial A}{\partial x} + v_2 \frac{\partial B}{\partial y} + v_3 \frac{\partial C}{\partial z} = \eta_1 A \frac{\partial A}{\partial x} + \eta_2 B \frac{\partial B}{\partial y} + \eta_3 C \frac{\partial C}{\partial z}
 
 $$
-
 
 
 where $A$, $B$, and $C$ represent the concentrations of the three chemical components, $v_j$ are the group velocities for each wave, and $\eta_j$ are the interaction coefficients. This equation is a simplified version of the more general three-wave interaction equations, which take into account the effects of diffusion and reaction rates.
@@ -13961,7 +13720,6 @@ The three-wave equation has been extensively studied and has been shown to exhib
 
 
 One of the key features of the three-wave equation is its integrability, meaning that it can be solved exactly using the inverse scattering method. This is due to the existence of a Lax pair, which is a set of two matrices that satisfy a compatibility condition. The Lax pair for the three-wave equation is given by:
-
 
 
 $$
@@ -13981,7 +13739,6 @@ B & -ik_3
 \end{pmatrix}
 
 $$
-
 
 
 where $k_j$ are the wave-vectors and $A$ and $B$ are the interaction coefficients. The inverse scattering method allows for the exact solution of the three-wave equation, providing a deeper understanding of the underlying dynamics of chemical waves.
@@ -14249,7 +14006,6 @@ The ML<sub>3</sub> model is a higher level of modeling that involves four active
 The Arrhenius equation, derived by Van't Hoff, relates the temperature <math>T</math> of a reaction and the standard equilibrium constant <math>k^0_e</math>:
 
 
-
 $$
 
 \frac{d \ln k^0_e}{dT} = \frac{\Delta U^0}{RT^2}
@@ -14257,9 +14013,7 @@ $$
 $$
 
 
-
 where <math>\Delta U^0</math> denotes the apposite standard internal energy change value. This equation can be broken down into two separate equations:
-
 
 
 $$
@@ -14269,9 +14023,7 @@ $$
 $$
 
 
-
 and
-
 
 
 $$
@@ -14279,7 +14031,6 @@ $$
 \frac{d\ln k_b}{dT} = \text{constant} + \frac{E_b}{RT^2}
 
 $$
-
 
 
 where <math>E_f</math> and <math>E_b</math> are the activation energies associated with the forward and backward reaction rates, respectively. In nonlinear systems, the temperature dependence of these activation energies can lead to unexpected behavior in chemical reactions. This highlights the importance of considering nonlinear dynamics in the study of chemical reactions.
@@ -14649,13 +14400,11 @@ One important property of dynamical systems is monotonicity. A function is said 
 Another important property of dynamical systems is the iteration formula. This formula allows us to calculate the state variables of a system at any given time step, given the initial conditions and the system's dynamics. For example, in the case of a circle endomorphism, the iteration formula can be written as:
 
 
-
 $$
 
 \theta_n = \theta_0 + n \Omega + \frac{K}{2 \pi} \sum_{i = 0}^{n-1} \sin(2 \pi \theta_i)
 
 $$
-
 
 
 This formula can be used to calculate the state variables at any time step, which is useful in predicting the long-term behavior of the system.
@@ -15915,17 +15664,14 @@ Finally, we looked at some real-world examples of nonlinear systems in medicine,
 #### Exercise 1
 
 Consider the FitzHugh-Nagumo model for the dynamics of nerve cells:
-
 $$
 
 \frac{dv}{dt} = v - \frac{v^3}{3} - w + I
 
 $$
-
 $$
 
 \frac{dw}{dt} = \epsilon(v + a - bw)
-
 $$
 
 where $v$ represents the membrane potential and $w$ represents the recovery variable. Investigate the behavior of this system for different values of the parameters $a$, $b$, and $\epsilon$.
@@ -15983,15 +15729,11 @@ Finally, we looked at some real-world examples of nonlinear systems in medicine,
 Consider the FitzHugh-Nagumo model for the dynamics of nerve cells:
 
 $$
-
 \frac{dv}{dt} = v - \frac{v^3}{3} - w + I
-
 $$
 
 $$
-
 \frac{dw}{dt} = \epsilon(v + a - bw)
-
 $$
 
 where $v$ represents the membrane potential and $w$ represents the recovery variable. Investigate the behavior of this system for different values of the parameters $a$, $b$, and $\epsilon$.
@@ -16141,13 +15883,11 @@ One of the key properties of celestial mechanics is symmetry. Just like the scal
 
 
 $$
-
 \mathbf{Y}_{\ell,-m} = (-1)^m \mathbf{Y}^*_{\ell m}, \\
 
 \mathbf{\Psi}_{\ell,-m} = (-1)^m \mathbf{\Psi}^*_{\ell m}, \\
 
 \mathbf{\Phi}_{\ell,-m} = (-1)^m \mathbf{\Phi}^*_{\ell m},
-
 $$
 
 
@@ -16165,13 +15905,11 @@ The VSH are also orthogonal in both three-dimensional space and Hilbert space. I
 
 
 $$
-
 \mathbf{Y}_{\ell m}(\mathbf{r}) \cdot \mathbf{\Psi}_{\ell m}(\mathbf{r}) = 0, \\
 
 \mathbf{Y}_{\ell m}(\mathbf{r}) \cdot \mathbf{\Phi}_{\ell m}(\mathbf{r}) = 0, \\
 
 \mathbf{\Psi}_{\ell m}(\mathbf{r}) \cdot \mathbf{\Phi}_{\ell m}(\mathbf{r}) = 0.
-
 $$
 
 
@@ -16181,7 +15919,6 @@ In Hilbert space, they are also orthogonal, but in a slightly different way:
 
 
 $$
-
 \int\mathbf{Y}_{\ell m}\cdot \mathbf{Y}^*_{\ell'm'}\,d\Omega = \delta_{\ell\ell'}\delta_{mm'}, \\
 
 \int\mathbf{\Psi}_{\ell m}\cdot \mathbf{\Psi}^*_{\ell'm'}\,d\Omega = \ell(\ell+1)\delta_{\ell\ell'}\delta_{mm'}, \\
@@ -16193,7 +15930,6 @@ $$
 \int\mathbf{Y}_{\ell m}\cdot \mathbf{\Phi}^*_{\ell'm'}\,d\Omega = 0, \\
 
 \int\mathbf{\Psi}_{\ell m}\cdot \mathbf{\Phi}^*_{\ell'm'}\,d\Omega = 0.
-
 $$
 
 
@@ -16203,11 +15939,9 @@ Additionally, at a single point $\mathbf{r}$, the VSH satisfy the following equa
 
 
 $$
-
 \mathbf{Y}_{\ell m}(\mathbf{r}) \cdot \mathbf{\Psi}_{\ell'm'}(\mathbf{r}) = 0, \\
 
 \mathbf{Y}_{\ell m}(\mathbf{r}) \cdot \mathbf{\Phi}_{\ell'm'}(\mathbf{r}) = 0.
-
 $$
 
 

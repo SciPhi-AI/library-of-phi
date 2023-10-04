@@ -1487,9 +1487,7 @@ The DOS can be calculated using the following equation:
 
 
 $$
-
 D(E) = \frac{1}{V} \sum_{k} \delta(E - E_k)
-
 $$
 
 
@@ -1503,9 +1501,7 @@ The DOS can also be expressed in terms of the density of states per unit energy 
 
 
 $$
-
 D(E) = \frac{g(E)}{V}
-
 $$
 
 
@@ -2071,7 +2067,6 @@ The equilibrium rates of generation and recombination can be expressed mathemati
 $$G = R = n_i^2$$
 
 
-
 This equation shows that at equilibrium, the generation and recombination rates are equal to the square of the intrinsic carrier concentration. This relationship is crucial in understanding the behavior of integrated microelectronic devices, as it allows us to predict the equilibrium state of the device based on its material properties.
 
 
@@ -2159,9 +2154,7 @@ In the context of integrated microelectronic devices, the excess carrier generat
 The law of mass action can also be applied to the rates outside equilibrium, with the exponents $\alpha$ and $\beta$ representing the dependence of the rates on the excess carrier concentrations. This can be expressed as:
 
 
-
 $$G_{ex} = G_0n^{\alpha}p^{\beta}$$
-
 $$R_{ex} = R_0n^{\alpha}p^{\beta}$$
 
 
@@ -2215,9 +2208,7 @@ In the context of integrated microelectronic devices, the excess carrier generat
 The law of mass action can also be applied to the rates outside equilibrium, with the exponents $\alpha$ and $\beta$ representing the number of excess carriers created and recombined, respectively. This can be expressed as:
 
 
-
 $$G_{ex} = A_{g}n^{\alpha}p^{\beta}$$
-
 $$R_{ex} = A_{r}n^{\alpha}p^{\beta}$$
 
 
@@ -2233,9 +2224,7 @@ One important application of rates outside equilibrium is in the computation of 
 Another important application is in the study of Arrhenius equations. Van't Hoff argued that the temperature $T$ of a reaction and the standard equilibrium constant $k_{e}^{0}$ exhibit a relationship given by:
 
 
-
 $$\frac{d\ln k_{e}^{0}}{dT} = \frac{\Delta U^{0}}{RT^{2}}$$
-
 
 
 where $\Delta U^{0}$ denotes the standard internal energy change value. This equation can be derived by substituting the expression for $\ln k_{e}^{0}$ in the Arrhenius equation, resulting in two separate equations for the forward and backward reaction rates. These equations can then be integrated to obtain the expressions for $k_{f}$ and $k_{b}$, which are dependent on the activation energies $E_{f}$ and $E_{b}$, respectively.
@@ -2347,13 +2336,11 @@ Solution:
 At equilibrium, the excess carrier concentration is equal to the difference between the total carrier concentration and the intrinsic carrier concentration. In this case, the total carrier concentration is equal to the doping concentration, since the semiconductor is p-type. Therefore, the excess carrier concentration at equilibrium is given by:
 
 
-
 $$
 
 n_{ex} = N_A - n_i = 10^{16} cm^{-3} - 10^{10} cm^{-3} = 9.999 \times 10^{15} cm^{-3}
 
 $$
-
 
 
 2. A silicon sample is doped with $N_D = 10^{17} cm^{-3}$ of arsenic atoms. What is the excess carrier concentration at equilibrium if the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$?
@@ -2365,13 +2352,11 @@ Solution:
 Similar to the previous problem, the excess carrier concentration at equilibrium is given by:
 
 
-
 $$
 
 n_{ex} = N_D - n_i = 10^{17} cm^{-3} - 1.5 \times 10^{10} cm^{-3} = 9.9985 \times 10^{16} cm^{-3}
 
 $$
-
 
 
 3. In a silicon sample, the excess carrier generation rate is $G_{ex} = 10^{15} cm^{-3}s^{-1}$ and the excess carrier recombination rate is $R_{ex} = 5 \times 10^{14} cm^{-3}s^{-1}$. What is the net change in excess carrier concentration after 1 second?
@@ -2383,13 +2368,11 @@ Solution:
 The net change in excess carrier concentration after 1 second is given by the difference between the excess carrier generation rate and the excess carrier recombination rate, multiplied by the time interval:
 
 
-
 $$
 
 \Delta n_{ex} = (G_{ex} - R_{ex}) \times \Delta t = (10^{15} cm^{-3}s^{-1} - 5 \times 10^{14} cm^{-3}s^{-1}) \times 1s = 5 \times 10^{14} cm^{-3}
 
 $$
-
 
 
 4. A silicon sample is doped with $N_D = 10^{16} cm^{-3}$ of phosphorus atoms. If the excess carrier generation rate is $G_{ex} = 5 \times 10^{14} cm^{-3}s^{-1}$ and the excess carrier recombination rate is $R_{ex} = 2 \times 10^{14} cm^{-3}s^{-1}$, what is the excess carrier concentration after 1 second?
@@ -2401,13 +2384,11 @@ Solution:
 Using the same formula as in the previous problem, the excess carrier concentration after 1 second is given by:
 
 
-
 $$
 
 n_{ex} = n_{ex,0} + (G_{ex} - R_{ex}) \times \Delta t = (10^{16} cm^{-3} + (5 \times 10^{14} cm^{-3}s^{-1} - 2 \times 10^{14} cm^{-3}s^{-1}) \times 1s = 10.3 \times 10^{15} cm^{-3}
 
 $$
-
 
 
 5. In a silicon sample, the excess carrier generation rate is $G_{ex} = 10^{15} cm^{-3}s^{-1}$ and the excess carrier recombination rate is $R_{ex} = 5 \times 10^{14} cm^{-3}s^{-1}$. If the sample is initially in equilibrium, what is the excess carrier concentration after 1 second?
@@ -2419,13 +2400,11 @@ Solution:
 Since the sample is initially in equilibrium, the excess carrier concentration is equal to the intrinsic carrier concentration, which is given by $n_i = 1.5 \times 10^{10} cm^{-3}$. Therefore, after 1 second, the excess carrier concentration will be equal to:
 
 
-
 $$
 
 n_{ex} = n_i + (G_{ex} - R_{ex}) \times \Delta t = (1.5 \times 10^{10} cm^{-3} + (10^{15} cm^{-3}s^{-1} - 5 \times 10^{14} cm^{-3}s^{-1}) \times 1s = 1.5 \times 10^{10} cm^{-3}
 
 $$
-
 
 
 This shows that even though there is a net generation of excess carriers, the excess carrier concentration remains at the intrinsic level due to the equal rate of recombination.
@@ -2467,13 +2446,11 @@ Solution:
 At equilibrium, the excess carrier concentration is equal to the difference between the total carrier concentration and the intrinsic carrier concentration. In this case, the total carrier concentration is equal to the doping concentration, since the semiconductor is p-type. Therefore, the excess carrier concentration at equilibrium is given by:
 
 
-
 $$
 
 n_{ex} = N_A - n_i = 10^{16} cm^{-3} - 10^{10} cm^{-3} = 9.999 \times 10^{15} cm^{-3}
 
 $$
-
 
 
 2. A silicon sample is doped with $N_D = 10^{17} cm^{-3}$ of arsenic atoms. What is the excess carrier concentration at equilibrium if the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$?
@@ -2485,13 +2462,11 @@ Solution:
 Similar to the previous problem, the excess carrier concentration at equilibrium is given by:
 
 
-
 $$
 
 n_{ex} = N_D - n_i = 10^{17} cm^{-3} - 1.5 \times 10^{10} cm^{-3} = 9.985 \times 10^{16} cm^{-3}
 
 $$
-
 
 
 3. In a p-n junction, the doping concentration on the p-side is $N_A = 10^{16} cm^{-3}$ and the doping concentration on the n-side is $N_D = 10^{17} cm^{-3}$. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the width of the depletion region at equilibrium?
@@ -2503,7 +2478,6 @@ Solution:
 At equilibrium, the width of the depletion region is given by:
 
 
-
 $$
 
 W = \sqrt{\frac{2\epsilon_s}{q}\left(\frac{1}{N_A} + \frac{1}{N_D}\right)\left(\phi_{bi} + \frac{kT}{q}\ln\left(\frac{N_AN_D}{n_i^2}\right)\right)}
@@ -2511,9 +2485,7 @@ W = \sqrt{\frac{2\epsilon_s}{q}\left(\frac{1}{N_A} + \frac{1}{N_D}\right)\left(\
 $$
 
 
-
 where $\epsilon_s$ is the permittivity of the semiconductor, $q$ is the charge of an electron, $k$ is the Boltzmann constant, $T$ is the temperature, and $\phi_{bi}$ is the built-in potential. Plugging in the given values, we get:
-
 
 
 $$
@@ -2521,7 +2493,6 @@ $$
 W = \sqrt{\frac{2(11.7)(8.85 \times 10^{-14})}{(1.6 \times 10^{-19})}\left(\frac{1}{10^{16}} + \frac{1}{10^{17}}\right)\left(0.7 + \frac{(1.38 \times 10^{-23})(300)}{(1.6 \times 10^{-19})}\ln\left(\frac{(10^{16})(10^{17})}{(1.5 \times 10^{10})^2}\right)\right)} = 1.05 \times 10^{-4} cm
 
 $$
-
 
 
 4. A silicon sample is doped with $N_D = 10^{17} cm^{-3}$ of phosphorus atoms. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the minority carrier concentration at equilibrium?
@@ -2533,13 +2504,11 @@ Solution:
 At equilibrium, the minority carrier concentration is given by:
 
 
-
 $$
 
 n_{min} = \frac{n_i^2}{N_D} = \frac{(1.5 \times 10^{10})^2}{10^{17}} = 2.25 \times 10^3 cm^{-3}
 
 $$
-
 
 
 5. A silicon sample is doped with $N_A = 10^{16} cm^{-3}$ of boron atoms. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the majority carrier concentration at equilibrium?
@@ -2551,13 +2520,11 @@ Solution:
 At equilibrium, the majority carrier concentration is given by:
 
 
-
 $$
 
 n_{maj} = N_A = 10^{16} cm^{-3}
 
 $$
-
 
 
 6. In a p-n junction, the doping concentration on the p-side is $N_A = 10^{16} cm^{-3}$ and the doping concentration on the n-side is $N_D = 10^{17} cm^{-3}$. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the total current density at equilibrium?
@@ -2569,7 +2536,6 @@ Solution:
 At equilibrium, the total current density is given by:
 
 
-
 $$
 
 J_{tot} = J_{diff} + J_{drift} = qD_p\frac{dn}{dx} + q\mu_nnE_n + qD_n\frac{dp}{dx} - q\mu_ppE_p
@@ -2577,9 +2543,7 @@ J_{tot} = J_{diff} + J_{drift} = qD_p\frac{dn}{dx} + q\mu_nnE_n + qD_n\frac{dp}{
 $$
 
 
-
 where $D_p$ and $D_n$ are the diffusion coefficients for holes and electrons, $\mu_p$ and $\mu_n$ are the mobilities for holes and electrons, and $E_p$ and $E_n$ are the electric fields in the p and n regions, respectively. Plugging in the given values, we get:
-
 
 
 $$
@@ -2587,7 +2551,6 @@ $$
 J_{tot} = (1.6 \times 10^{-19})(12)(10^{16})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(0.13)(10^{17})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(38)(10^{17})(1.5 \times 10^{10}) - (1.6 \times 10^{-19})(0.13)(10^{16})(1.5 \times 10^{10}) = 1.92 \times 10^{-3} A/cm^2
 
 $$
-
 
 
 7. A silicon sample is doped with $N_D = 10^{17} cm^{-3}$ of arsenic atoms. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the total current density at equilibrium?
@@ -2599,13 +2562,11 @@ Solution:
 Similar to the previous problem, the total current density at equilibrium is given by:
 
 
-
 $$
 
 J_{tot} = (1.6 \times 10^{-19})(12)(10^{17})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(0.13)(10^{17})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(38)(10^{17})(1.5 \times 10^{10}) - (1.6 \times 10^{-19})(0.13)(10^{17})(1.5 \times 10^{10}) = 1.92 \times 10^{-2} A/cm^2
 
 $$
-
 
 
 8. In a p-n junction, the doping concentration on the p-side is $N_A = 10^{16} cm^{-3}$ and the doping concentration on the n-side is $N_D = 10^{17} cm^{-3}$. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the total current density at a forward bias of 0.5V?
@@ -2617,14 +2578,11 @@ Solution:
 At a forward bias of 0.5V, the electric fields in the p and n regions are given by:
 
 
-
 $$
 
 E_p = \frac{V}{W_p} = \frac{0.5}{1.05 \times 10^{-4}} = 4.76 \times 10^3 V/cm
 
 $$
-
-
 
 $$
 
@@ -2633,9 +2591,7 @@ E_n = \frac{V}{W_n} = \frac{0.5}{1.05 \times 10^{-4}} = 4.76 \times 10^3 V/cm
 $$
 
 
-
 where $W_p$ and $W_n$ are the widths of the p and n regions, respectively. Plugging in the given values, we get:
-
 
 
 $$
@@ -2643,7 +2599,6 @@ $$
 J_{tot} = (1.6 \times 10^{-19})(12)(10^{16})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(0.13)(10^{17})(1.5 \times 10^{10}) + (1.6 \times 10^{-19})(38)(10^{17})(1.5 \times 10^{10}) - (1.6 \times 10^{-19})(0.13)(10^{16})(1.5 \times 10^{10}) = 1.92 \times 10^{-3} A/cm^2
 
 $$
-
 
 
 9. A silicon sample is doped with $N_D = 10^{17} cm^{-3}$ of phosphorus atoms. If the intrinsic carrier concentration is $n_i = 1.5 \times 10^{10} cm^{-3}$, what is the total current density at a reverse bias of 0.5V?
@@ -2655,14 +2610,11 @@ Solution:
 At a reverse bias of 0.5V, the electric fields in the p and n regions are given by:
 
 
-
 $$
 
 E_p = \frac{V}{W_p} = \frac{0.5}{1.05 \times 10^{-4}} = 4.76 \times 10^3 V/cm
 
 $$
-
-
 
 $$
 
@@ -2671,9 +2623,7 @@ E_n = \frac{V}{W_n} = \frac{0.5}{1.05 \times 10^{-4}} = 4.76 \times 10^3 V/cm
 $$
 
 
-
 where $W_p$ and $W_n$ are the widths of the p and n regions, respectively. Plugging in the given values, we get:
-
 
 
 $$
@@ -3293,9 +3243,7 @@ The drift current, denoted as $I_{drift}$, is directly proportional to the appli
 
 
 $$
-
 I_{drift} = \mu n A E
-
 $$
 
 
@@ -3309,9 +3257,7 @@ The drift velocity, denoted as $v_{drift}$, is the average velocity of the charg
 
 
 $$
-
 I_{drift} = q n A v_{drift}
-
 $$
 
 
@@ -3355,9 +3301,7 @@ The drift current, denoted as $I_{drift}$, is directly proportional to the appli
 
 
 $$
-
 I_{drift} = \mu n A E
-
 $$
 
 
@@ -3371,9 +3315,7 @@ The drift velocity, denoted as $v_{drift}$, is the average velocity of the charg
 
 
 $$
-
 I_{drift} = q n A v_{drift}
-
 $$
 
 
@@ -3441,9 +3383,7 @@ The drift current, denoted as $I_{drift}$, is directly proportional to the appli
 
 
 $$
-
 I_{drift} = \mu n A E
-
 $$
 
 
@@ -3457,9 +3397,7 @@ The drift velocity, denoted as $v_{drift}$, is the average velocity of the charg
 
 
 $$
-
 I_{drift} = q n A v_{drift}
-
 $$
 
 
@@ -3535,9 +3473,7 @@ The diffusion process can be mathematically described by Fick's laws of diffusio
 
 
 $$
-
 J = -D \nabla c
-
 $$
 
 
@@ -3551,9 +3487,7 @@ The second law states that the change in concentration over time, denoted as $\f
 
 
 $$
-
 \frac{\partial c}{\partial t} = \nabla \cdot J
-
 $$
 
 
@@ -3601,9 +3535,7 @@ The diffusion process can be mathematically described by Fick's laws of diffusio
 
 
 $$
-
 J = -D \nabla c
-
 $$
 
 
@@ -3617,9 +3549,7 @@ The second law states that the change in concentration over time, denoted as $\f
 
 
 $$
-
 \frac{\partial c}{\partial t} = \nabla \cdot J
-
 $$
 
 
@@ -3683,9 +3613,7 @@ The diffusion process can be mathematically described by Fick's laws of diffusio
 
 
 $$
-
 J = -D \nabla c
-
 $$
 
 
@@ -3699,9 +3627,7 @@ The second law states that the change in concentration over time, denoted as $\f
 
 
 $$
-
 \frac{\partial c}{\partial t} = \nabla \cdot J
-
 $$
 
 
@@ -3773,9 +3699,7 @@ The transit time can be mathematically described by the following equation:
 
 
 $$
-
 t_{tr} = \frac{L}{v}
-
 $$
 
 
@@ -3819,9 +3743,7 @@ The transit time can be mathematically described by the following equation:
 
 
 $$
-
 t_{tr} = \frac{L}{v}
-
 $$
 
 
@@ -3885,9 +3807,7 @@ The transit time can be mathematically described by the following equation:
 
 
 $$
-
 t_{tr} = \frac{L}{v}
-
 $$
 
 
@@ -4021,25 +3941,19 @@ Given a silicon semiconductor with a doping concentration of $N_d = 10^{16} cm^{
 
 
 $$
-
 n_i = \sqrt{N_cN_v}e^{-\frac{E_g}{2kT}}
-
 $$
 
 
 
 $$
-
 n_0 = \frac{N_d}{2}
-
 $$
 
 
 
 $$
-
 p_0 = \frac{n_i^2}{n_0}
-
 $$
 
 
@@ -4049,25 +3963,19 @@ Substituting the given values, we get:
 
 
 $$
-
 n_i = \sqrt{(2.8 \times 10^{19} cm^{-3})(1.04 \times 10^{19} cm^{-3})}e^{-\frac{1.12 eV}{2(8.62 \times 10^{-5} eV/K)(300 K)}} = 1.5 \times 10^{10} cm^{-3}
-
 $$
 
 
 
 $$
-
 n_0 = \frac{10^{16} cm^{-3}}{2} = 5 \times 10^{15} cm^{-3}
-
 $$
 
 
 
 $$
-
 p_0 = \frac{(1.5 \times 10^{10} cm^{-3})^2}{5 \times 10^{15} cm^{-3}} = 4.5 \times 10^4 cm^{-3}
-
 $$
 
 
@@ -4109,9 +4017,7 @@ Given a silicon semiconductor with a doping concentration of $N_d = 10^{16} cm^{
 
 
 $$
-
 v_d = \mu_nE
-
 $$
 
 
@@ -4121,9 +4027,7 @@ where $\mu_n$ is the electron mobility, which can be calculated using the follow
 
 
 $$
-
 \mu_n = \frac{q\tau_n}{m_n}
-
 $$
 
 
@@ -4133,17 +4037,13 @@ Substituting the given values, we get:
 
 
 $$
-
 \mu_n = \frac{(1.6 \times 10^{-19} C)(10^{-6} s)}{9.1 \times 10^{-31} kg} = 1.76 \times 10^{-3} \frac{m^2}{V \cdot s}
-
 $$
 
 
 
 $$
-
 v_d = (1.76 \times 10^{-3} \frac{m^2}{V \cdot s})(10^3 V/cm) = 1.76 \times 10^0 \frac{m}{s} = 1.76 m/s
-
 $$
 
 
@@ -4211,25 +4111,19 @@ Given a silicon semiconductor with a doping concentration of $N_d = 10^{16} cm^{
 
 
 $$
-
 n_i = \sqrt{N_cN_v}e^{-\frac{E_g}{2kT}}
-
 $$
 
 
 
 $$
-
 n_0 = \frac{N_d}{2}
-
 $$
 
 
 
 $$
-
 p_0 = \frac{n_i^2}{n_0}
-
 $$
 
 
@@ -4239,25 +4133,19 @@ Substituting the given values, we get:
 
 
 $$
-
 n_i = \sqrt{(2.8 \times 10^{19} cm^{-3})(1.04 \times 10^{19} cm^{-3})}e^{-\frac{1.12 eV}{2(8.62 \times 10^{-5} eV/K)(300 K)}} = 1.5 \times 10^{10} cm^{-3}
-
 $$
 
 
 
 $$
-
 n_0 = \frac{10^{16} cm^{-3}}{2} = 5 \times 10^{15} cm^{-3}
-
 $$
 
 
 
 $$
-
 p_0 = \frac{(1.5 \times 10^{10} cm^{-3})^2}{5 \times 10^{15} cm^{-3}} = 4.5 \times 10^4 cm^{-3}
-
 $$
 
 
@@ -4299,9 +4187,7 @@ Given a silicon semiconductor with a doping concentration of $N_d = 10^{16} cm^{
 
 
 $$
-
 J_n = qD_n\frac{dn}{dx}
-
 $$
 
 
@@ -4311,9 +4197,7 @@ Substituting the given values, we get:
 
 
 $$
-
 J_n = (1.6 \times 10^{-19} C)(25 cm^2/s)\frac{10^{16} cm^{-3}}{0.1 \mu m} = 4 \times 10^{-3} A/cm^2
-
 $$
 
 
@@ -4927,13 +4811,10 @@ We can express the general Fermi function for electrons in the conduction band a
 $$f_{c}(k,r)\approx f_0(E,E_{Fc},T_{c})$$
 
 
-
 Similarly, for electrons in the valence band, we have:
 
 
-
 $$f_{v}(k,r)\approx f_0(E,E_{Fv},T_{v})$$
-
 
 
 Where $E_{Fc}$ and $E_{Fv}$ represent the quasi-Fermi levels for the conduction band and valence band, respectively, and $T_{c}$ and $T_{v}$ represent the quasi-temperatures for the conduction band and valence band, respectively.
@@ -4969,17 +4850,13 @@ To account for this, we can define quasi-Fermi levels for both the conduction ba
 We can express the general Fermi function for electrons in the conduction band as:
 
 
-
 $$f_{c}(k,r)\approx f_0(E,E_{Fc},T_{c})$$
-
 
 
 Similarly, for electrons in the valence band, we have:
 
 
-
 $$f_{v}(k,r)\approx f_0(E,E_{Fv},T_{v})$$
-
 
 
 Where $E_{Fc}$ and $E_{Fv}$ represent the quasi-Fermi levels for the conduction band and valence band, respectively, and $T_{c}$ and $T_{v}$ represent the quasi-temperatures for the conduction band and valence band, respectively.
@@ -5015,17 +4892,13 @@ To account for this, we can define quasi-Fermi levels for both the conduction ba
 We can express the general Fermi function for electrons in the conduction band as:
 
 
-
 $$f_{c}(k,r)\approx f_0(E,E_{Fc},T_{c})$$
-
 
 
 Similarly, for electrons in the valence band, we have:
 
 
-
 $$f_{v}(k,r)\approx f_0(E,E_{Fv},T_{v})$$
-
 
 
 Where $E_{Fc}$ and $E_{Fv}$ represent the quasi-Fermi levels for the conduction band and valence band, respectively, and $T_{c}$ and $T_{v}$ represent the quasi-temperatures for the conduction band and valence band, respectively.
@@ -5059,9 +4932,7 @@ The concept of quasi-Fermi levels has many practical applications in the field o
 Another important application is in the study of non-zero temperatures. In this case, the ECD "J" can be written in the form:
 
 
-
 $$J = J_0 \lambda_T$$
-
 
 
 Where "λ"<sub>"T"</sub> is a temperature correction factor given by the integral. This integral can be transformed into a standard result, which is valid for temperatures such that "k"<sub>B</sub>"T" > "d"<sub>F</sub>. This shows that the quasi-Fermi levels are affected by temperature, and their understanding is crucial in analyzing the behavior of carriers in a material at non-zero temperatures.
@@ -5093,9 +4964,7 @@ A continuity equation is a mathematical expression that describes the transport 
 The general form of a continuity equation is:
 
 
-
 $$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = S$$
-
 
 
 Where $\rho$ is the density of the quantity, $\mathbf{J}$ is the flux of the quantity, and $S$ is the source or sink term. This equation states that the change in density of the quantity over time is equal to the divergence of the flux plus any sources or sinks of the quantity.
@@ -5105,9 +4974,7 @@ Where $\rho$ is the density of the quantity, $\mathbf{J}$ is the flux of the qua
 In the context of microelectronic devices, the continuity equation for carriers can be written as:
 
 
-
 $$\frac{\partial n}{\partial t} + \nabla \cdot \mathbf{J_n} = G - R$$
-
 
 
 Where $n$ is the carrier density, $\mathbf{J_n}$ is the flux of carriers, $G$ is the generation rate of carriers, and $R$ is the recombination rate of carriers. This equation describes the change in carrier density over time due to the flux of carriers and the generation and recombination processes.
@@ -5117,9 +4984,7 @@ Where $n$ is the carrier density, $\mathbf{J_n}$ is the flux of carriers, $G$ is
 In the case of thermal equilibrium, where there is no net generation or recombination of carriers, the continuity equation simplifies to:
 
 
-
 $$\nabla \cdot \mathbf{J_n} = 0$$
-
 
 
 This means that the flux of carriers is constant throughout the material, and there is no change in carrier density over time. However, in non-equilibrium conditions, the generation and recombination processes can significantly affect the carrier density, and the continuity equation becomes a crucial tool for understanding the behavior of carriers in a material.
@@ -5289,21 +5154,17 @@ Solution:
 We can use the expression for quasi-Fermi levels in terms of carrier concentrations:
 
 
-
 $$
 
 E_{Fn} = E_{Fi} + \frac{kT}{q}ln\left(\frac{n}{n_i}\right)
 
 $$
 
-
-
 $$
 
 E_{Fp} = E_{Fi} - \frac{kT}{q}ln\left(\frac{p}{n_i}\right)
 
 $$
-
 
 
 where $E_{Fi}$ is the intrinsic Fermi level, $k$ is the Boltzmann constant, $T$ is the temperature, $q$ is the elementary charge, and $n$ and $p$ are the electron and hole concentrations, respectively.
@@ -5313,21 +5174,17 @@ where $E_{Fi}$ is the intrinsic Fermi level, $k$ is the Boltzmann constant, $T$ 
 Substituting the given values, we get:
 
 
-
 $$
 
 E_{Fn} = 0 + \frac{0.026 eV}{q}ln\left(\frac{10^{16} cm^{-3}}{10^{10} cm^{-3}}\right) = 0.26 eV
 
 $$
 
-
-
 $$
 
 E_{Fp} = 0 - \frac{0.026 eV}{q}ln\left(\frac{10^{10} cm^{-3}}{10^{10} cm^{-3}}\right) = 0 eV
 
 $$
-
 
 
 Therefore, the quasi-Fermi level for electrons is $0.26 eV$ above the intrinsic Fermi level, while the quasi-Fermi level for holes is equal to the intrinsic Fermi level.
@@ -5349,21 +5206,17 @@ Solution:
 We can use the continuity equations for electrons and holes:
 
 
-
 $$
 
 \frac{\partial n}{\partial t} = \frac{1}{q}\frac{\partial J_n}{\partial x} + G_n - R_n
 
 $$
 
-
-
 $$
 
 \frac{\partial p}{\partial t} = -\frac{1}{q}\frac{\partial J_p}{\partial x} + G_p - R_p
 
 $$
-
 
 
 where $J_n$ and $J_p$ are the electron and hole currents, $G_n$ and $G_p$ are the generation rates, and $R_n$ and $R_p$ are the recombination rates.
@@ -5373,14 +5226,11 @@ where $J_n$ and $J_p$ are the electron and hole currents, $G_n$ and $G_p$ are th
 At the edge of the depletion region, the electric field is at its maximum, and the current is zero. Therefore, we can simplify the continuity equations to:
 
 
-
 $$
 
 \frac{\partial n}{\partial t} = G_n - R_n
 
 $$
-
-
 
 $$
 
@@ -5389,9 +5239,7 @@ $$
 $$
 
 
-
 Since the junction is under forward bias, the generation rate is zero, and we can ignore it in our calculations. The recombination rates can be expressed as:
-
 
 
 $$
@@ -5400,14 +5248,11 @@ R_n = \frac{n}{\tau_n}
 
 $$
 
-
-
 $$
 
 R_p = \frac{p}{\tau_p}
 
 $$
-
 
 
 where $\tau_n$ and $\tau_p$ are the electron and hole lifetimes, respectively.
@@ -5417,14 +5262,11 @@ where $\tau_n$ and $\tau_p$ are the electron and hole lifetimes, respectively.
 Substituting the given values, we get:
 
 
-
 $$
 
 \frac{\partial n}{\partial t} = -\frac{n}{\tau_n}
 
 $$
-
-
 
 $$
 
@@ -5433,9 +5275,7 @@ $$
 $$
 
 
-
 Solving these differential equations, we get:
-
 
 
 $$
@@ -5444,14 +5284,11 @@ n = n_0e^{-\frac{t}{\tau_n}}
 
 $$
 
-
-
 $$
 
 p = p_0e^{-\frac{t}{\tau_p}}
 
 $$
-
 
 
 where $n_0$ and $p_0$ are the initial electron and hole concentrations, respectively.
@@ -5461,21 +5298,17 @@ where $n_0$ and $p_0$ are the initial electron and hole concentrations, respecti
 At the edge of the depletion region, $t = 0$, and we can calculate the initial concentrations using the continuity equations:
 
 
-
 $$
 
 J_n = q\mu_nn_0\frac{dE}{dx} = qD_n\frac{dn_0}{dx}
 
 $$
 
-
-
 $$
 
 J_p = q\mu_pp_0\frac{dE}{dx} = qD_p\frac{dp_0}{dx}
 
 $$
-
 
 
 where $\mu_n$ and $\mu_p$ are the electron and hole mobilities, and $D_n$ and $D_p$ are the electron and hole diffusion coefficients, respectively.
@@ -5485,14 +5318,11 @@ where $\mu_n$ and $\mu_p$ are the electron and hole mobilities, and $D_n$ and $D
 Substituting the given values, we get:
 
 
-
 $$
 
 n_0 = \frac{J_n}{qD_n}\frac{dx}{dE} = \frac{J_n}{qD_n}\frac{1}{\frac{qN_A}{\epsilon_s}}
 
 $$
-
-
 
 $$
 
@@ -5501,9 +5331,7 @@ p_0 = \frac{J_p}{qD_p}\frac{dx}{dE} = \frac{J_p}{qD_p}\frac{1}{\frac{qN_D}{\epsi
 $$
 
 
-
 Substituting these values in the equations for $n$ and $p$, we get:
-
 
 
 $$
@@ -5512,8 +5340,6 @@ n = \frac{J_n}{qD_n}\frac{1}{\frac{qN_A}{\epsilon_s}}e^{-\frac{t}{\tau_n}}
 
 $$
 
-
-
 $$
 
 p = \frac{J_p}{qD_p}\frac{1}{\frac{qN_D}{\epsilon_s}}e^{-\frac{t}{\tau_p}}
@@ -5521,9 +5347,7 @@ p = \frac{J_p}{qD_p}\frac{1}{\frac{qN_D}{\epsilon_s}}e^{-\frac{t}{\tau_p}}
 $$
 
 
-
 At the edge of the depletion region, $t = 0$, and we can calculate the electron and hole concentrations as:
-
 
 
 $$
@@ -5532,8 +5356,6 @@ n = \frac{J_n}{qD_n}\frac{\epsilon_s}{qN_A}
 
 $$
 
-
-
 $$
 
 p = \frac{J_p}{qD_p}\frac{\epsilon_s}{qN_D}
@@ -5541,9 +5363,7 @@ p = \frac{J_p}{qD_p}\frac{\epsilon_s}{qN_D}
 $$
 
 
-
 Substituting the given values, we get:
-
 
 
 $$
@@ -5552,14 +5372,11 @@ n = \frac{0.5mA}{qD_n}\frac{8.85\times10^{-14}F/cm}{1.6\times10^{-19}C}\frac{1}{
 
 $$
 
-
-
 $$
 
 p = \frac{0.5mA}{qD_p}\frac{8.85\times10^{-14}F/cm}{1.6\times10^{-19}C}\frac{1}{10^{17}cm^{-3}} = 0.277cm^{-3}
 
 $$
-
 
 
 Therefore, at the edge of the depletion region, the electron concentration is $2.77\times10^{10}cm^{-3}$, and the hole concentration is $0.277cm^{-3}$.
@@ -5603,21 +5420,17 @@ Solution:
 We can use the expression for quasi-Fermi levels in terms of carrier concentrations:
 
 
-
 $$
 
 E_{Fn} = E_{Fi} + \frac{kT}{q}ln\left(\frac{n}{n_i}\right)
 
 $$
 
-
-
 $$
 
 E_{Fp} = E_{Fi} - \frac{kT}{q}ln\left(\frac{p}{n_i}\right)
 
 $$
-
 
 
 where $E_{Fi}$ is the intrinsic Fermi level, $k$ is the Boltzmann constant, $T$ is the temperature, $q$ is the elementary charge, and $n$ and $p$ are the electron and hole concentrations, respectively.
@@ -5627,21 +5440,17 @@ where $E_{Fi}$ is the intrinsic Fermi level, $k$ is the Boltzmann constant, $T$ 
 Substituting the given values, we get:
 
 
-
 $$
 
 E_{Fn} = 0 + \frac{0.026 eV}{q}ln\left(\frac{10^{16} cm^{-3}}{10^{10} cm^{-3}}\right) = 0.26 eV
 
 $$
 
-
-
 $$
 
 E_{Fp} = 0 - \frac{0.026 eV}{q}ln\left(\frac{10^{10} cm^{-3}}{10^{10} cm^{-3}}\right) = 0 eV
 
 $$
-
 
 
 Therefore, the quasi-Fermi level for electrons is $0.26 eV$ above the intrinsic Fermi level, while the quasi-Fermi level for holes is equal to the intrinsic Fermi level.
@@ -5663,21 +5472,17 @@ Solution:
 To solve this problem, we will use the continuity equations for electrons and holes:
 
 
-
 $$
 
 \frac{dn}{dx} = \frac{1}{q}\left(G - R\right)
 
 $$
 
-
-
 $$
 
 \frac{dp}{dx} = \frac{1}{q}\left(R - G\right)
 
 $$
-
 
 
 where $G$ and $R$ are the generation and recombination rates, respectively.
@@ -5687,14 +5492,11 @@ where $G$ and $R$ are the generation and recombination rates, respectively.
 At thermal equilibrium, $G = R = 0$, so the continuity equations become:
 
 
-
 $$
 
 \frac{dn}{dx} = 0
 
 $$
-
-
 
 $$
 
@@ -5703,9 +5505,7 @@ $$
 $$
 
 
-
 Integrating both equations from the p-side to the n-side, we get:
-
 
 
 $$
@@ -5714,14 +5514,11 @@ n(x) = n_p + \frac{N_D}{q}\left(x - x_p\right)
 
 $$
 
-
-
 $$
 
 p(x) = p_n + \frac{N_A}{q}\left(x_n - x\right)
 
 $$
-
 
 
 where $n_p$ and $p_n$ are the electron and hole concentrations at the p-n junction, and $x_p$ and $x_n$ are the positions of the p-n junction on the p-side and n-side, respectively.
@@ -5731,14 +5528,11 @@ where $n_p$ and $p_n$ are the electron and hole concentrations at the p-n juncti
 Substituting the given values, we get:
 
 
-
 $$
 
 n(x) = 10^{16} cm^{-3} + \frac{10^{17} cm^{-3}}{q}\left(x - 0\right)
 
 $$
-
-
 
 $$
 
@@ -5747,9 +5541,7 @@ p(x) = 10^{17} cm^{-3} + \frac{10^{16} cm^{-3}}{q}\left(0 - x\right)
 $$
 
 
-
 At the p-n junction, $x = 0$, so:
-
 
 
 $$
@@ -5758,14 +5550,11 @@ n(0) = 10^{16} cm^{-3} + \frac{10^{17} cm^{-3}}{q}\left(0 - 0\right) = 10^{16} c
 
 $$
 
-
-
 $$
 
 p(0) = 10^{17} cm^{-3} + \frac{10^{16} cm^{-3}}{q}\left(0 - 0\right) = 10^{17} cm^{-3}
 
 $$
-
 
 
 Therefore, at the p-n junction, the electron concentration is $10^{16} cm^{-3}$ and the hole concentration is $10^{17} cm^{-3}$.
@@ -5951,13 +5740,11 @@ In the context of PN junctions, electrostatics plays a crucial role in the forma
 The electrostatic potential energy of a system of three charges should not be confused with the electrostatic potential, which is a measure of the electric potential energy per unit charge. The electrostatic potential energy of a system of three charges is given by the equation:
 
 
-
 $$
 
 U = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r_{12}} + \frac{1}{4\pi\epsilon_0}\frac{q_1q_3}{r_{13}} + \frac{1}{4\pi\epsilon_0}\frac{q_2q_3}{r_{23}}
 
 $$
-
 
 
 where $q_1$, $q_2$, and $q_3$ are the charges of the three particles, and $r_{12}$, $r_{13}$, and $r_{23}$ are the distances between them. This equation shows that the electrostatic potential energy of a system of three charges is directly proportional to the product of the charges and inversely proportional to the distances between them.
@@ -6087,13 +5874,11 @@ The built-in electric field in a PN junction is created by the difference in dop
 In equilibrium, the electric potential at the junction is known as the built-in potential, denoted by $V_{bi}$. It is given by the following equation:
 
 
-
 $$
 
 V_{bi} = \frac{kT}{q} \ln \left( \frac{N_a N_d}{n_i^2} \right)
 
 $$
-
 
 
 where $k$ is Boltzmann's constant, $T$ is the temperature, $q$ is the charge of an electron, $N_a$ and $N_d$ are the acceptor and donor doping concentrations, and $n_i$ is the intrinsic carrier concentration.
@@ -6375,17 +6160,13 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 Mathematically, the current-voltage relationship can be expressed as:
 
 
-
 $$I = I_0(e^{\frac{V}{V_T}} - 1)$$
-
 
 
 where $I_0$ is the reverse saturation current and $V_T$ is the thermal voltage, given by:
 
 
-
 $$V_T = \frac{kT}{q}$$
-
 
 
 where $k$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $q$ is the elementary charge.
@@ -6457,17 +6238,13 @@ The current-voltage relationship, also known as the I-V curve, is a graphical re
 Mathematically, the current-voltage relationship can be expressed as:
 
 
-
 $$I = I_0(e^{\frac{V}{V_T}} - 1)$$
-
 
 
 where $I_0$ is the reverse saturation current and $V_T$ is the thermal voltage, given by:
 
 
-
 $$V_T = \frac{kT}{q}$$
-
 
 
 where $k$ is the Boltzmann constant, $T$ is the temperature in Kelvin, and $q$ is the elementary charge.
@@ -6593,13 +6370,11 @@ This charge imbalance creates a potential barrier that opposes the flow of curre
 The amount of carrier storage in a PN junction is dependent on the magnitude of the reverse bias voltage. As the reverse bias voltage increases, more minority carriers are able to overcome the potential barrier and enter the depletion region, increasing the amount of carrier storage. This relationship is described by the Shockley diode equation, which relates the current through a PN junction to the reverse bias voltage and the temperature.
 
 
-
 $$
 
 I = I_0(e^{\frac{V}{nV_T}} - 1)
 
 $$
-
 
 
 where $I_0$ is the reverse saturation current, $V$ is the reverse bias voltage, $n$ is the ideality factor, and $V_T$ is the thermal voltage.
@@ -6655,13 +6430,11 @@ This charge imbalance creates a potential barrier that opposes the flow of curre
 The amount of carrier storage in a PN junction is dependent on the magnitude of the reverse bias voltage. As the reverse bias voltage increases, more minority carriers are able to overcome the potential barrier and enter the depletion region, increasing the amount of carrier storage. This relationship is described by the Shockley diode equation, which relates the current through a PN junction to the reverse bias voltage and the temperature.
 
 
-
 $$
 
 I = I_0(e^{\frac{V}{nV_T}} - 1)
 
 $$
-
 
 
 where $I_0$ is the reverse saturation current, $V$ is the reverse bias voltage, $n$ is the ideality factor, and $V_T$ is the thermal voltage.
@@ -6709,13 +6482,11 @@ This charge imbalance creates a potential barrier that opposes the flow of curre
 The amount of carrier storage in a PN junction is dependent on the magnitude of the reverse bias voltage. As the reverse bias voltage increases, more minority carriers are able to overcome the potential barrier and enter the depletion region, increasing the amount of carrier storage. This relationship is described by the Shockley diode equation, which relates the current through a PN junction to the reverse bias voltage and the temperature.
 
 
-
 $$
 
 I = I_0(e^{\frac{V}{nV_T}} - 1)
 
 $$
-
 
 
 where $I_0$ is the reverse saturation current, $V$ is the reverse bias voltage, $n$ is the ideality factor, and $V_T$ is the thermal voltage.
@@ -6779,13 +6550,11 @@ Diffusion capacitance is defined as the change in the amount of transiting charg
 To quantify diffusion capacitance, we can use the quasistatic approximation. This assumes that the voltage changes slowly enough that the current remains constant at each moment. In this case, the amount of charge in transit can be calculated using the forward transit time, denoted as ${\tau}_F$. The diffusion capacitance, denoted as $C_{diff}$, is then given by the change in charge divided by the change in voltage.
 
 
-
 $$
 
 C_{diff} = \frac{\Delta Q}{\Delta V}
 
 $$
-
 
 
 However, in cases where the quasistatic approximation does not hold, such as for very fast voltage changes, the equations governing time-dependent transport in the device must be solved to determine the charge in transit. This is a more complex problem and may require the use of the Boltzmann equation.
@@ -6825,13 +6594,11 @@ Diffusion capacitance is defined as the change in the amount of transiting charg
 To quantify diffusion capacitance, we can use the quasistatic approximation. This assumes that the voltage changes slowly enough that the current remains constant at each moment. In this case, the amount of charge in transit can be calculated using the forward transit time, denoted as ${\tau}_F$. The diffusion capacitance, denoted as $C_{diff}$, is then given by the change in charge divided by the change in voltage.
 
 
-
 $$
 
 C_{diff} = \frac{\Delta Q}{\Delta V}
 
 $$
-
 
 
 However, in cases where the quasistatic approximation does not hold, such as for very fast voltage changes, the equations governing time-dependent transport in the device must be solved to determine the charge in transit. This is a more complex problem and may require the use of the Boltzmann equation.
@@ -6879,13 +6646,11 @@ Diffusion capacitance is defined as the change in the amount of transiting charg
 To quantify diffusion capacitance, we can use the quasistatic approximation. This assumes that the voltage changes slowly enough that the current remains constant at each moment. In this case, the amount of charge in transit can be calculated using the forward transit time, denoted as ${\tau}_F$. The diffusion capacitance, denoted as $C_{diff}$, is then given by the change in charge divided by the change in voltage.
 
 
-
 $$
 
 C_{diff} = \frac{\Delta Q}{\Delta V}
 
 $$
-
 
 
 However, in cases where the quasistatic approximation does not hold, such as for very fast voltage changes, the equations governing time-dependent transport in the device must be solved to determine the charge in transit. This is a more complex problem and may require the use of the Boltzmann equation.
@@ -6899,7 +6664,6 @@ However, in cases where the quasistatic approximation does not hold, such as for
 To calculate the diffusion capacitance, we must first determine the amount of charge in transit. This can be done using the forward transit time, ${\tau}_F$, which is the average time it takes for a carrier to travel from one terminal to another. The diffusion capacitance is then given by the change in charge divided by the change in voltage.
 
 
-
 $$
 
 C_{diff} = \frac{\Delta Q}{\Delta V}
@@ -6907,9 +6671,7 @@ C_{diff} = \frac{\Delta Q}{\Delta V}
 $$
 
 
-
 In the quasistatic approximation, the forward transit time can be calculated using the following equation:
-
 
 
 $$
@@ -6917,7 +6679,6 @@ $$
 {\tau}_F = \frac{L^2}{2D}
 
 $$
-
 
 
 Where $L$ is the distance between the two terminals and $D$ is the diffusion coefficient of the carrier. This equation assumes that the carrier is traveling in a straight line and that the diffusion coefficient is constant.
@@ -7149,13 +6910,11 @@ Given a PN diode with a forward voltage of 0.7V and a reverse saturation current
 To solve this problem, we can use the Shockley diode equation:
 
 
-
 $$
 
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
 
 $$
-
 
 
 where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$ is the voltage across the diode, $n$ is the ideality factor, and $V_T$ is the thermal voltage.
@@ -7165,7 +6924,6 @@ where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$
 Plugging in the given values, we get:
 
 
-
 $$
 
 I_D = 10^{-12}(e^{\frac{1}{nV_T}} - 1)
@@ -7173,9 +6931,7 @@ I_D = 10^{-12}(e^{\frac{1}{nV_T}} - 1)
 $$
 
 
-
 To find the value of $n$, we can use the ideality factor equation:
-
 
 
 $$
@@ -7185,13 +6941,11 @@ n = \frac{V_{oc} - V_{sc}}{V_Tln(\frac{I_{sc}}{I_{oc}})}
 $$
 
 
-
 where $V_{oc}$ is the open-circuit voltage, $V_{sc}$ is the short-circuit voltage, $I_{oc}$ is the open-circuit current, and $I_{sc}$ is the short-circuit current.
 
 
 
 Since we know that the diode is forward biased, we can assume that $V_{oc} = 0$ and $I_{sc} = 0$. Therefore, the ideality factor becomes:
-
 
 
 $$
@@ -7201,9 +6955,7 @@ n = \frac{0 - 1}{V_Tln(\frac{0}{I_{oc}})} = -\frac{1}{V_Tln(0)} = \infty
 $$
 
 
-
 Substituting this value into our original equation, we get:
-
 
 
 $$
@@ -7211,7 +6963,6 @@ $$
 I_D = 10^{-12}(e^{\frac{1}{\infty V_T}} - 1) = 10^{-12}(e^0 - 1) = 0
 
 $$
-
 
 
 Therefore, the current through the diode is 0A.
@@ -7229,13 +6980,11 @@ Given a PN junction with a built-in potential of 0.7V and a doping concentration
 To solve this problem, we can use the depletion approximation equation:
 
 
-
 $$
 
 V_{bi} = \frac{kT}{q}ln(\frac{N_AN_D}{n_i^2})
 
 $$
-
 
 
 where $V_{bi}$ is the built-in potential, $k$ is the Boltzmann constant, $T$ is the temperature, $q$ is the charge of an electron, $N_A$ is the acceptor doping concentration, $N_D$ is the donor doping concentration, and $n_i$ is the intrinsic carrier concentration.
@@ -7245,7 +6994,6 @@ where $V_{bi}$ is the built-in potential, $k$ is the Boltzmann constant, $T$ is 
 Plugging in the given values, we get:
 
 
-
 $$
 
 0.7 = \frac{(1.38 \times 10^{-23})(300)}{1.6 \times 10^{-19}}ln(\frac{(10^{16})(10^{18})}{(1.5 \times 10^{10})^2})
@@ -7253,9 +7001,7 @@ $$
 $$
 
 
-
 Solving for the intrinsic carrier concentration, we get:
-
 
 
 $$
@@ -7265,9 +7011,7 @@ n_i = \sqrt{10^{16} \times 10^{18}} = 10^{17}
 $$
 
 
-
 Substituting this value into our original equation, we get:
-
 
 
 $$
@@ -7277,9 +7021,7 @@ $$
 $$
 
 
-
 Solving for the built-in potential, we get:
-
 
 
 $$
@@ -7287,7 +7029,6 @@ $$
 V_{bi} = 0.7V
 
 $$
-
 
 
 Therefore, the voltage across the junction is 0.7V.
@@ -7305,13 +7046,11 @@ Given a PN junction with a built-in potential of 0.7V and a reverse saturation c
 To solve this problem, we can use the Shockley diode equation with the addition of the parasitic elements:
 
 
-
 $$
 
 I_D = I_S(e^{\frac{V_D + IR_S}{nV_T}} - 1) + C\frac{dV_D}{dt}
 
 $$
-
 
 
 where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$ is the voltage across the diode, $n$ is the ideality factor, $V_T$ is the thermal voltage, $R_S$ is the series resistance, $C$ is the parallel capacitance, and $\frac{dV_D}{dt}$ is the rate of change of the voltage across the diode.
@@ -7321,7 +7060,6 @@ where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$
 Plugging in the given values, we get:
 
 
-
 $$
 
 I_D = 10^{-12}(e^{\frac{1 + (1)(10)}{\infty V_T}} - 1) + (10^{-12})(1 \times 10^{-12})\frac{dV_D}{dt}
@@ -7329,9 +7067,7 @@ I_D = 10^{-12}(e^{\frac{1 + (1)(10)}{\infty V_T}} - 1) + (10^{-12})(1 \times 10^
 $$
 
 
-
 Simplifying, we get:
-
 
 
 $$
@@ -7341,9 +7077,7 @@ I_D = 10^{-12}(e^{\frac{11}{\infty V_T}} - 1) + 10^{-24}\frac{dV_D}{dt}
 $$
 
 
-
 To find the voltage across the junction, we can use the voltage divider equation:
-
 
 
 $$
@@ -7353,13 +7087,11 @@ V_D = V_{in}\frac{R_P}{R_S + R_P}
 $$
 
 
-
 where $V_{in}$ is the input voltage and $R_P$ is the parallel resistance.
 
 
 
 Plugging in the given values, we get:
-
 
 
 $$
@@ -7369,9 +7101,7 @@ V_D = (1)(\frac{1}{1 + 10}) = \frac{1}{11}V
 $$
 
 
-
 To find the current through the junction, we can use Ohm's Law:
-
 
 
 $$
@@ -7379,7 +7109,6 @@ $$
 I_D = \frac{V_D}{R_S} = \frac{\frac{1}{11}}{10} = \frac{1}{110}A
 
 $$
-
 
 
 Therefore, the voltage across the junction is $\frac{1}{11}V$ and the current through the junction is $\frac{1}{110}A$.
@@ -7415,13 +7144,11 @@ Given a PN diode with a forward voltage of 0.7V and a reverse saturation current
 To solve this problem, we can use the Shockley diode equation:
 
 
-
 $$
 
 I_D = I_S(e^{\frac{V_D}{nV_T}} - 1)
 
 $$
-
 
 
 where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$ is the voltage across the diode, $n$ is the ideality factor, and $V_T$ is the thermal voltage.
@@ -7431,7 +7158,6 @@ where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$
 Plugging in the given values, we get:
 
 
-
 $$
 
 I_D = 10^{-12}(e^{\frac{1}{nV_T}} - 1)
@@ -7439,9 +7165,7 @@ I_D = 10^{-12}(e^{\frac{1}{nV_T}} - 1)
 $$
 
 
-
 To find the value of $n$, we can use the ideality factor equation:
-
 
 
 $$
@@ -7451,13 +7175,11 @@ n = \frac{V_{oc} - V_{sc}}{V_Tln(\frac{I_{sc}}{I_{oc}})}
 $$
 
 
-
 where $V_{oc}$ is the open-circuit voltage, $V_{sc}$ is the short-circuit voltage, $I_{oc}$ is the open-circuit current, and $I_{sc}$ is the short-circuit current.
 
 
 
 Since we know that the diode is forward biased, we can assume that $V_{oc} = 0$ and $I_{sc} = 0$. Therefore, the ideality factor becomes:
-
 
 
 $$
@@ -7467,9 +7189,7 @@ n = \frac{0 - 1}{V_Tln(\frac{0}{I_{oc}})} = -\frac{1}{V_Tln(0)} = \infty
 $$
 
 
-
 Substituting this value into our original equation, we get:
-
 
 
 $$
@@ -7477,7 +7197,6 @@ $$
 I_D = 10^{-12}(e^{\frac{1}{\infty V_T}} - 1) = 10^{-12}(e^0 - 1) = 0
 
 $$
-
 
 
 Therefore, the current through the diode is 0A.
@@ -7495,13 +7214,11 @@ Given a PN junction with a built-in potential of 0.7V and a doping concentration
 To solve this problem, we can use the Shockley diode equation:
 
 
-
 $$
 
 V_D = V_{bi} + V_Tln(\frac{I_D}{I_S} + 1)
 
 $$
-
 
 
 where $V_D$ is the voltage across the junction, $V_{bi}$ is the built-in potential, $V_T$ is the thermal voltage, $I_D$ is the diode current, and $I_S$ is the reverse saturation current.
@@ -7511,13 +7228,11 @@ where $V_D$ is the voltage across the junction, $V_{bi}$ is the built-in potenti
 Plugging in the given values, we get:
 
 
-
 $$
 
 V_D = 0.7V + 26mVln(\frac{0}{10^{-12}} + 1) = 0.7V + 26mVln(1) = 0.7V
 
 $$
-
 
 
 Therefore, the voltage across the junction is 0.7V.
@@ -7795,13 +7510,11 @@ The electrostatics of metal-semiconductor junctions also plays a crucial role in
 In equilibrium, the electrostatic potential energy of the metal-semiconductor junction is constant throughout the device. This means that the electrostatic potential at the metal-semiconductor interface is equal to the electrostatic potential in the bulk of the metal and semiconductor materials. This can be mathematically expressed as:
 
 
-
 $$
 
 \phi_{MS} = \phi_M = \phi_S
 
 $$
-
 
 
 where $\phi_{MS}$ is the electrostatic potential at the metal-semiconductor interface, $\phi_M$ is the electrostatic potential in the bulk of the metal, and $\phi_S$ is the electrostatic potential in the bulk of the semiconductor.
@@ -7811,13 +7524,11 @@ where $\phi_{MS}$ is the electrostatic potential at the metal-semiconductor inte
 In equilibrium, there is no net flow of charge across the junction. This means that the electrostatic potential energy is constant throughout the device, and there is no electric field present. This can be expressed mathematically as:
 
 
-
 $$
 
 \frac{\partial \phi}{\partial x} = 0
 
 $$
-
 
 
 where $\phi$ is the electrostatic potential and $x$ is the distance across the junction.
@@ -7873,13 +7584,11 @@ Capacitance-voltage is defined as the ratio of the change in electric charge to 
 The capacitance-voltage measurement is typically performed by applying a small AC voltage to the junction and measuring the resulting AC current. The capacitance is then calculated using the relationship between the current and voltage, known as the admittance equation:
 
 
-
 $$
 
 Y = \frac{I}{V} = \frac{C}{j\omega}
 
 $$
-
 
 
 where $Y$ is the admittance, $I$ is the current, $V$ is the voltage, $C$ is the capacitance, and $\omega$ is the angular frequency of the applied voltage.
@@ -9217,7 +8926,6 @@ In the previous section, we discussed the behavior of MOS devices when they are 
 The Poisson-Boltzmann equation (PB) is a partial differential equation that describes the electrostatic potential in a solvent containing ions. It can be written in cgs units as:
 
 
-
 $$
 
 \nabla^2 \Psi(\vec{r}) = -\frac{4\pi}{\epsilon_0} \rho^{f}(\vec{r}) + \sum_{i} \frac{z_i e c_i^{\infty}}{\epsilon_0} e^{-z_i e \Psi(\vec{r})/kT}
@@ -9225,9 +8933,7 @@ $$
 $$
 
 
-
 or in mks units as:
-
 
 
 $$
@@ -9235,7 +8941,6 @@ $$
 \nabla^2 \Psi(\vec{r}) = -\frac{1}{\epsilon_0} \rho^{f}(\vec{r}) + \sum_{i} \frac{z_i e c_i^{\infty}}{\epsilon_0} e^{-z_i e \Psi(\vec{r})/kT}
 
 $$
-
 
 
 where $\epsilon(\vec{r})$ represents the position-dependent dielectric, $\Psi(\vec{r})$ represents the electrostatic potential, $\rho^{f}(\vec{r})$ represents the charge density of the solute, $c_{i}^{\infty}$ represents the concentration of the ion "i" at a distance of infinity from the solute, $z_{i}$ is the valence of the ion, "e" is the charge of a proton, "k" is the Boltzmann constant, "T" is the temperature, and $\lambda(\vec{r})$ is a factor for the position-dependent accessibility of position "r" to the ions in solution (often set to uniformly 1).
@@ -9527,7 +9232,6 @@ Consider a MOS capacitor with a silicon substrate, a silicon dioxide (SiO2) insu
 To solve this problem, we will use the decomposition method. First, we will calculate the flat-band voltage using the equation:
 
 
-
 $$
 
 V_{FB} = \frac{\phi_m - \phi_{ms}}{q}
@@ -9535,9 +9239,7 @@ V_{FB} = \frac{\phi_m - \phi_{ms}}{q}
 $$
 
 
-
 where $\phi_{ms}$ is the metal-semiconductor work function difference and $q$ is the electronic charge. Using the given values, we get:
-
 
 
 $$
@@ -9547,9 +9249,7 @@ V_{FB} = \frac{4.2 eV - 0.7 eV}{1.6 \times 10^{-19} C} = 2.875 V
 $$
 
 
-
 Next, we will calculate the threshold voltage using the equation:
-
 
 
 $$
@@ -9559,9 +9259,7 @@ V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
 $$
 
 
-
 where $\phi_{F}$ is the Fermi potential and $\epsilon_{ox}$ is the permittivity of the oxide layer. Substituting the values, we get:
-
 
 
 $$
@@ -9569,7 +9267,6 @@ $$
 V_{th} = 2.875 V + 2(0.026 V) + \frac{(1.6 \times 10^{-19} C)(10^{16} cm^{-3})(10 nm)^2}{2(3.9 \times 8.85 \times 10^{-14} F/cm)} = 1.2 V
 
 $$
-
 
 
 Therefore, the flat-band voltage is 2.875 V and the threshold voltage is 1.2 V for this MOS capacitor.
@@ -9587,7 +9284,6 @@ Consider a MOSFET with a silicon substrate, a silicon dioxide (SiO2) insulator l
 To solve this problem, we will use the Gauss-Seidel method. First, we will calculate the threshold voltage using the equation:
 
 
-
 $$
 
 V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
@@ -9595,9 +9291,7 @@ V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
 $$
 
 
-
 Using the values from the previous example, we get:
-
 
 
 $$
@@ -9607,9 +9301,7 @@ V_{th} = 2.875 V + 2(0.026 V) + \frac{(1.6 \times 10^{-19} C)(10^{16} cm^{-3})(1
 $$
 
 
-
 Next, we will calculate the drain current using the equation:
-
 
 
 $$
@@ -9619,9 +9311,7 @@ I_D = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{th})V_{DS}
 $$
 
 
-
 where $\mu_n$ is the electron mobility, $C_{ox}$ is the capacitance per unit area of the oxide layer, $W$ is the width of the channel, and $L$ is the length of the channel. Substituting the given values, we get:
-
 
 
 $$
@@ -9629,7 +9319,6 @@ $$
 I_D = (1000 cm^2/Vs)(3.9 \times 8.85 \times 10^{-14} F/cm^2) \frac{10 \mu m}{1 \mu m} (2 V - 1.2 V)(5 V) = 0.0035 A
 
 $$
-
 
 
 Therefore, the drain current is 0.0035 A for a gate voltage of 2 V and a drain-source voltage of 5 V in this MOSFET.
@@ -9647,7 +9336,6 @@ Consider a MOSFET with a silicon substrate, a silicon dioxide (SiO2) insulator l
 To solve this problem, we will use the collective problem solving approach. First, we will calculate the threshold voltage using the equation:
 
 
-
 $$
 
 V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
@@ -9655,9 +9343,7 @@ V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
 $$
 
 
-
 Using the values from the previous example, we get:
-
 
 
 $$
@@ -9667,9 +9353,7 @@ V_{th} = 2.875 V + 2(0.026 V) + \frac{(1.6 \times 10^{-19} C)(10^{16} cm^{-3})(1
 $$
 
 
-
 Next, we will calculate the drain current using the equation:
-
 
 
 $$
@@ -9679,9 +9363,7 @@ I_D = \frac{V_{DS}}{R_D + R_S} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{th})^2
 $$
 
 
-
 Substituting the given values, we get:
-
 
 
 $$
@@ -9689,7 +9371,6 @@ $$
 I_D = \frac{5 V}{100 \Omega + 200 \Omega} (1000 cm^2/Vs)(3.9 \times 8.85 \times 10^{-14} F/cm^2) \frac{10 \mu m}{1 \mu m} (2 V - 1.2 V)^2 = 0.0007 A
 
 $$
-
 
 
 Therefore, the drain current is 0.0007 A for a gate voltage of 2 V and a drain-source voltage of 5 V in this MOSFET with source and drain resistances.
@@ -9725,7 +9406,6 @@ In this section, we will provide solutions to the example problems presented in 
 To solve this problem, we will use the decomposition method. First, we will calculate the flat-band voltage using the equation:
 
 
-
 $$
 
 V_{FB} = \frac{\phi_m - \phi_{ms}}{q}
@@ -9733,9 +9413,7 @@ V_{FB} = \frac{\phi_m - \phi_{ms}}{q}
 $$
 
 
-
 where $\phi_{ms}$ is the metal-semiconductor work function difference and $q$ is the electronic charge. Using the given values, we get:
-
 
 
 $$
@@ -9745,9 +9423,7 @@ V_{FB} = \frac{4.2 eV - 0.7 eV}{1.6 \times 10^{-19} C} = 2.875 V
 $$
 
 
-
 Next, we will calculate the threshold voltage using the equation:
-
 
 
 $$
@@ -9757,9 +9433,7 @@ V_{th} = V_{FB} + 2\phi_{F} + \frac{qN_A t_{ox}^2}{2\epsilon_{ox}}
 $$
 
 
-
 where $\phi_{F}$ is the Fermi potential and $\epsilon_{ox}$ is the permittivity of the oxide layer. Substituting the values, we get:
-
 
 
 $$
@@ -9767,7 +9441,6 @@ $$
 V_{th} = 2.875 V + 2(0.026 V) + \frac{(1.6 \times 10^{-19} C)(10^{16} cm^{-3})(10 nm)^2}{2(3.9 \times 8.85 \times 10^{-14} F/cm)} = 1.2 V
 
 $$
-
 
 
 Therefore, the flat-band voltage is 2.875 V and the threshold voltage is 1.2 V for this MOS capacitor.
@@ -9781,7 +9454,6 @@ Therefore, the flat-band voltage is 2.875 V and the threshold voltage is 1.2 V f
 To solve this problem, we will use the small-signal model for MOSFETs. First, we will calculate the transconductance $g_m$ using the equation:
 
 
-
 $$
 
 g_m = \frac{2I_D}{V_{GS} - V_{th}}
@@ -9789,9 +9461,7 @@ g_m = \frac{2I_D}{V_{GS} - V_{th}}
 $$
 
 
-
 where $I_D$ is the drain current and $V_{GS}$ is the gate-source voltage. Using the given values, we get:
-
 
 
 $$
@@ -9801,9 +9471,7 @@ g_m = \frac{2(0.1 mA)}{3 V - 1.2 V} = 0.1 mS
 $$
 
 
-
 Next, we will calculate the output resistance $r_o$ using the equation:
-
 
 
 $$
@@ -9813,9 +9481,7 @@ r_o = \frac{1}{\lambda I_D}
 $$
 
 
-
 where $\lambda$ is the channel-length modulation parameter. Substituting the values, we get:
-
 
 
 $$
@@ -9823,7 +9489,6 @@ $$
 r_o = \frac{1}{0.02 V^{-1}(0.1 mA)} = 500 k\Omega
 
 $$
-
 
 
 Therefore, the transconductance is 0.1 mS and the output resistance is 500 kΩ for this MOSFET.
@@ -10257,13 +9922,11 @@ The inversion layer is formed when a positive voltage is applied to the gate ele
 The transport of electrons in the inversion layer can be described by the drift-diffusion equation, which takes into account both the drift and diffusion of electrons. The drift term accounts for the movement of electrons due to the electric field, while the diffusion term accounts for the random motion of electrons. The equation can be written as:
 
 
-
 $$
 
 J_n = q\mu_n nE + qD_n \frac{\partial n}{\partial x}
 
 $$
-
 
 
 where $J_n$ is the electron current density, $q$ is the electron charge, $\mu_n$ is the electron mobility, $E$ is the electric field, and $D_n$ is the electron diffusion coefficient.
@@ -10303,13 +9966,11 @@ The inversion layer is formed when a positive voltage is applied to the gate ele
 The transport of electrons in the inversion layer can be described by the drift-diffusion equation, which takes into account both the drift and diffusion of electrons. The drift term accounts for the movement of electrons due to the electric field, while the diffusion term accounts for the random motion of electrons. The equation can be written as:
 
 
-
 $$
 
 J_n = q\mu_n nE + qD_n \frac{\partial n}{\partial x}
 
 $$
-
 
 
 where $J_n$ is the electron current density, $q$ is the electron charge, $\mu_n$ is the electron mobility, $E$ is the electric field, and $D_n$ is the electron diffusion coefficient.
@@ -10353,13 +10014,11 @@ The inversion layer is formed when a positive voltage is applied to the gate ele
 The transport of electrons in the inversion layer can be described by the drift-diffusion equation, which takes into account both the drift and diffusion of electrons. The drift term accounts for the movement of electrons due to the electric field, while the diffusion term accounts for the random motion of electrons. The equation can be written as:
 
 
-
 $$
 
 J_n = q\mu_n nE + qD_n \frac{\partial n}{\partial x}
 
 $$
-
 
 
 where $J_n$ is the electron current density, $q$ is the electron charge, $\mu_n$ is the electron mobility, $E$ is the electric field, and $D_n$ is the electron diffusion coefficient.
@@ -11145,13 +10804,11 @@ MOSFET scaling, also known as Dennard scaling, is a scaling law that states that
 The scaling law can be mathematically expressed as:
 
 
-
 $$
 
 \frac{V_{dd}}{L} = constant
 
 $$
-
 
 
 where $V_{dd}$ is the supply voltage and $L$ is the channel length. This implies that as the channel length decreases, the supply voltage must also decrease to maintain a constant power density. In other words, as the transistor density doubles, the power consumption stays the same.
@@ -11199,13 +10856,11 @@ MOSFET scaling is based on the scaling law proposed by Robert H. Dennard in 1974
 The scaling law can be mathematically expressed as:
 
 
-
 $$
 
 \frac{V_{dd}}{L} = constant
 
 $$
-
 
 
 where $V_{dd}$ is the supply voltage and $L$ is the channel length. This implies that as the channel length decreases, the supply voltage must also decrease to maintain a constant power density. In other words, as the transistor density doubles, the power consumption stays the same.
@@ -11273,13 +10928,11 @@ MOSFET scaling is based on the scaling law proposed by Robert H. Dennard in 1974
 The scaling law can be mathematically expressed as:
 
 
-
 $$
 
 \frac{V_{dd}}{L} = constant
 
 $$
-
 
 
 where $V_{dd}$ is the supply voltage and $L$ is the channel length. This implies that as the channel length decreases, the supply voltage must also decrease to maintain a constant power density. In other words, as the transistor density doubles, the power consumption stays the same.
@@ -11641,13 +11294,11 @@ To improve the channel dimensionality of a short-channel MOSFET, we can modify t
 To calculate the new channel resistance after modifying the width and thickness, we can use the following equation:
 
 
-
 $$
 
 R_{ch} = \frac{\rho L}{Wt}
 
 $$
-
 
 
 Where $R_{ch}$ is the channel resistance, $\rho$ is the resistivity of the channel material, L is the channel length, W is the channel width, and t is the channel thickness.
@@ -11657,13 +11308,11 @@ Where $R_{ch}$ is the channel resistance, $\rho$ is the resistivity of the chann
 For example, if we increase the channel width by a factor of 2 and decrease the channel thickness by a factor of 0.5, the new channel resistance would be:
 
 
-
 $$
 
 R_{ch} = \frac{\rho L}{(2W)(0.5t)} = \frac{2\rho L}{Wt} = 2R_{ch}
 
 $$
-
 
 
 This means that the channel resistance has been reduced by half, resulting in improved device performance.
@@ -11873,13 +11522,11 @@ The I-V characteristics in forward-active mode refer to the relationship between
 To assess the performance and effectiveness of a BJT, we can evaluate the insertion loss (IL) in each case. The IL, expressed in decibels (dB), represents the achievable noise attenuation and is defined as:
 
 
-
 $$
 
 IL = 20\log_{10}\frac{V_{without}}{V_{with}}
 
 $$
-
 
 
 where $V_{without}$ is the load voltage measured "without" the filter and $V_{with}$ is the load voltage "with" the filter included in the system. By applying Kirchhoff's voltage and current laws and Ohm's law to the circuit, these two voltages can be calculated.
@@ -11889,7 +11536,6 @@ where $V_{without}$ is the load voltage measured "without" the filter and $V_{wi
 If $A$ is the filter's gain, i.e. the transfer function between the sensed and the injected signal, the IL can be approximated to:
 
 
-
 $$
 
 IL = 20\log_{10}A
@@ -11897,9 +11543,7 @@ IL = 20\log_{10}A
 $$
 
 
-
 A larger IL implies a greater attenuation, while a smaller than unity IL implies an undesired noise signal amplification caused by the active filter. For example, type (a) (current sensing and compensation) and (d) (voltage sensing and compensation) filters, if the mismatch between $Z_L$ and $Z_s$ is large enough so that one of the two becomes negligible compared to the other, provide ILs irrespective of the system impedances, which means the higher the gain, the better the performance. The large mismatch between $Z_L$ and $Z_s$ occurs in most real applications, where the noise source impedance $Z_s$ is much smaller (for the differential mode test setup) or much larger (for the common mode test setup) than the load impedance $Z_L$, which is typically equal to the $50\Omega$ LISN impedance. In these two cases, ILs can be approximated to:
-
 
 
 $$
@@ -11907,7 +11551,6 @@ $$
 IL = 20\log_{10}\frac{Z_L}{Z_s}
 
 $$
-
 
 
 On the other hand, in the type (c) (current sensing and voltage compensation) active filter, the gain of the active filter should be larger than the total impedance of the given system to obtain the maximum IL. This means that the filter should provide a high series impedance between the noise source and the receiver to block the noise current. Similar conclusions can be made for a type (b) (voltage sensing and current compensation) filter.
@@ -12009,13 +11652,11 @@ The BJT has three regions: the emitter, the base, and the collector. The emitter
 In forward-active mode, the BJT is biased with a positive voltage at the base and a negative voltage at the emitter. This creates a forward bias across the base-emitter junction, allowing current to flow from the emitter to the base. The base-emitter junction behaves like a diode, with a voltage-current relationship described by the Shockley diode equation:
 
 
-
 $$
 
 I_{BE} = I_S(e^{\frac{V_{BE}}{V_T}} - 1)
 
 $$
-
 
 
 where $I_{BE}$ is the current flowing through the base-emitter junction, $I_S$ is the reverse saturation current, $V_{BE}$ is the voltage across the junction, and $V_T$ is the thermal voltage.
@@ -12025,13 +11666,11 @@ where $I_{BE}$ is the current flowing through the base-emitter junction, $I_S$ i
 As the current flows through the base, it is amplified by the transistor's gain, $\beta$. This results in a larger current at the collector terminal, given by the equation:
 
 
-
 $$
 
 I_C = \beta I_{BE}
 
 $$
-
 
 
 The I-V characteristics of the BJT in forward-active mode can be plotted on a graph, with the collector current, $I_C$, on the y-axis and the base-emitter voltage, $V_{BE}$, on the x-axis. The resulting curve is known as the forward-active region of the BJT.
@@ -12229,13 +11868,11 @@ The C-V characteristics of a bipolar junction transistor (BJT) refer to the rela
 The C-V characteristics of a BJT can be described by the following equation:
 
 
-
 $$
 
 C_{BC} = \frac{dQ_{BC}}{dV_{BC}}
 
 $$
-
 
 
 where $C_{BC}$ is the capacitance of the base-collector junction, $Q_{BC}$ is the charge stored in the junction, and $V_{BC}$ is the voltage across the junction.
@@ -12279,13 +11916,11 @@ The C-V characteristics of a bipolar junction transistor (BJT) refer to the rela
 The C-V characteristics of a BJT can be described by the following equation:
 
 
-
 $$
 
 C_{BC} = \frac{dQ_{BC}}{dV_{BC}}
 
 $$
-
 
 
 where $C_{BC}$ is the capacitance of the base-collector junction, $Q_{BC}$ is the charge stored in the junction, and $V_{BC}$ is the voltage across the junction.
@@ -12353,13 +11988,11 @@ The C-V characteristics of a bipolar junction transistor (BJT) refer to the rela
 The C-V characteristics of a BJT can be described by the following equation:
 
 
-
 $$
 
 C_{BC} = \frac{dQ_{BC}}{dV_{BC}}
 
 $$
-
 
 
 where $C_{BC}$ is the capacitance of the base-collector junction, $Q_{BC}$ is the charge stored in the junction, and $V_{BC}$ is the voltage across the junction.
@@ -12705,7 +12338,6 @@ A common emitter amplifier circuit is shown below. The transistor used is an NPN
 3. Apply Kirchhoff's laws: Applying KCL at the input node, we get:
 
 
-
 $$
 
 \frac{V_{in} - V_{BE}}{R1} + \frac{V_{in} - V_{BE}}{R2} = \frac{V_{BE} - V_{out}}{RC}
@@ -12713,9 +12345,7 @@ $$
 $$
 
 
-
 Applying KVL in the output loop, we get:
-
 
 
 $$
@@ -12725,9 +12355,7 @@ V_{out} = V_{CC} - I_C(RC + RE)
 $$
 
 
-
 4. Use the BJT equations: Using the Ebers-Moll model, we can write the following equations:
-
 
 
 $$
@@ -12736,8 +12364,6 @@ I_C = I_S(e^{\frac{V_{BE}}{V_T}} - 1)
 
 $$
 
-
-
 $$
 
 I_E = I_C + I_B
@@ -12745,9 +12371,7 @@ I_E = I_C + I_B
 $$
 
 
-
 Substituting these equations into the KCL equation and solving for the output voltage, we get:
-
 
 
 $$
@@ -12757,9 +12381,7 @@ V_{out} = V_{CC} - \frac{V_{in}}{R1 + \frac{R2}{\beta + 1}}(RC + RE)
 $$
 
 
-
 5. Calculate the voltage gain: The voltage gain can be calculated as the ratio of output voltage to input voltage:
-
 
 
 $$
@@ -12769,9 +12391,7 @@ A_v = \frac{V_{out}}{V_{in}} = -\frac{R2}{R1 + \frac{R2}{\beta + 1}}(RC + RE)
 $$
 
 
-
 Substituting the given values, we get:
-
 
 
 $$
@@ -12781,9 +12401,7 @@ A_v = -\frac{10k\Omega}{1k\Omega + \frac{10k\Omega}{100 + 1}}(5k\Omega + 1k\Omeg
 $$
 
 
-
 6. Calculate the output voltage: Substituting the given values into the output voltage equation, we get:
-
 
 
 $$
@@ -12791,7 +12409,6 @@ $$
 V_{out} = 10V - \frac{1V}{1k\Omega + \frac{10k\Omega}{100 + 1}}(5k\Omega + 1k\Omega) = 4.95V
 
 $$
-
 
 
 Therefore, the voltage gain of this common emitter amplifier is -4.95 and the output voltage is 4.95V.
@@ -12825,7 +12442,6 @@ A BJT is biased using the circuit shown below. The transistor used is an NPN BJT
 3. Apply Kirchhoff's laws: Applying KCL at the base node, we get:
 
 
-
 $$
 
 \frac{V_{CC} - V_{BE}}{R1} + \frac{V_{CC} - V_{BE}}{R2} = \frac{V_{BE}}{RC}
@@ -12833,9 +12449,7 @@ $$
 $$
 
 
-
 Applying KCL at the collector node, we get:
-
 
 
 $$
@@ -12845,9 +12459,7 @@ $$
 $$
 
 
-
 4. Use the BJT equations: Using the Ebers-Moll model, we can write the following equations:
-
 
 
 $$
@@ -12856,8 +12468,6 @@ I_C = I_S(e^{\frac{V_{BE}}{V_T}} - 1)
 
 $$
 
-
-
 $$
 
 I_E = I_C + I_B
@@ -12865,9 +12475,7 @@ I_E = I_C + I_B
 $$
 
 
-
 Substituting these equations into the KCL equations and solving for the base current, collector current, and emitter current, we get:
-
 
 
 $$
@@ -12876,15 +12484,11 @@ I_B = \frac{V_{CC} - V_{BE}}{R1 + R2 + \frac{R1R2}{\beta + 1}}
 
 $$
 
-
-
 $$
 
 I_C = \frac{V_{CC} - V_{BE}}{R1 + \frac{R2}{\beta + 1}}
 
 $$
-
-
 
 $$
 
@@ -12893,9 +12497,7 @@ I_E = \frac{V_{CC} - V_{BE}}{R1 + \frac{R2}{\beta + 1}} + \frac{V_{CC} - V_{BE}}
 $$
 
 
-
 5. Calculate the base current, collector current, and emitter current: Substituting the given values, we get:
-
 
 
 $$
@@ -12904,22 +12506,17 @@ I_B = \frac{10V - 0.7V}{1k\Omega + 10k\Omega + \frac{1k\Omega \times 10k\Omega}{
 
 $$
 
-
-
 $$
 
 I_C = \frac{10V - 0.7V}{1k\Omega + \frac{10k\Omega}{100 + 1}} = 0.0012A = 1.2mA
 
 $$
 
-
-
 $$
 
 I_E = \frac{10V - 0.7V}{1k\Omega + \frac{10k\Omega}{100 + 1}} + \frac{10V - 0.7V}{1k\Omega + 10k\Omega + \frac{1k\Omega \times 10k\Omega}{100 + 1}} = 0.0024A = 2.4mA
 
 $$
-
 
 
 Therefore, the base current is 1.2mA, the collector current is 1.2mA, and the emitter current is 2.4mA.
@@ -12963,7 +12560,6 @@ A common emitter amplifier circuit is shown below. The transistor used is an NPN
 3. Apply Kirchhoff's laws: Applying KCL at the input node, we get:
 
 
-
 $$
 
 \frac{V_{in} - V_{BE}}{R1} + \frac{V_{in} - V_{BE}}{R2} = \frac{V_{BE} - V_{out}}{RC}
@@ -12971,9 +12567,7 @@ $$
 $$
 
 
-
 Applying KVL in the output loop, we get:
-
 
 
 $$
@@ -12983,9 +12577,7 @@ V_{out} = V_{CC} - I_C(RC + RE)
 $$
 
 
-
 4. Use the BJT equations: Using the Ebers-Moll model, we can write the following equations:
-
 
 
 $$
@@ -12994,8 +12586,6 @@ I_C = I_S(e^{\frac{V_{BE}}{V_T}} - 1)
 
 $$
 
-
-
 $$
 
 I_E = I_C + I_B
@@ -13003,9 +12593,7 @@ I_E = I_C + I_B
 $$
 
 
-
 Substituting these equations into the KCL equation and solving for the output voltage, we get:
-
 
 
 $$
@@ -13015,9 +12603,7 @@ V_{out} = V_{CC} - \frac{V_{in}}{R1 + \frac{R2}{\beta + 1}}(RC + RE)
 $$
 
 
-
 5. Calculate the voltage gain: The voltage gain can be calculated as the ratio of output voltage to input voltage:
-
 
 
 $$
@@ -13027,9 +12613,7 @@ A_v = \frac{V_{out}}{V_{in}} = -\frac{R2}{R1 + \frac{R2}{\beta + 1}}(RC + RE)
 $$
 
 
-
 Substituting the given values, we get:
-
 
 
 $$
@@ -13039,9 +12623,7 @@ A_v = -\frac{10k\Omega}{1k\Omega + \frac{10k\Omega}{100 + 1}}(5k\Omega + 1k\Omeg
 $$
 
 
-
 6. Calculate the output voltage: Substituting the given values, we get:
-
 
 
 $$

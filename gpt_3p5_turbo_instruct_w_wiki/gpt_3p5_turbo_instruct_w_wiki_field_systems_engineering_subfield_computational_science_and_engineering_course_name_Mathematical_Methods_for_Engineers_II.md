@@ -1409,9 +1409,7 @@ To illustrate the accuracy of finite differences, let us consider the following 
 
 
 $$
-
 f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-
 $$
 
 
@@ -1421,9 +1419,7 @@ where h is the step size. The truncation error for this method is given by:
 
 
 $$
-
 T(x) = \frac{h^2}{6}f'''(x) + O(h^4)
-
 $$
 
 
@@ -1465,7 +1461,6 @@ Some common multivariate finite difference approximations are:
 
 
 $$
-
 f_{x}(x,y) \approx \frac{f(x+h ,y) - f(x-h,y)}{2h} \\
 
 f_{y}(x,y) \approx \frac{f(x,y+k ) - f(x,y-k)}{2k} \\
@@ -1475,7 +1470,6 @@ f_{xx}(x,y) \approx \frac{f(x+h ,y) - 2 f(x,y) + f(x-h,y)}{h^2} \\
 f_{yy}(x,y) \approx \frac{f(x,y+k) - 2 f(x,y) + f(x,y-k)}{k^2} \\
 
 f_{xy}(x,y) \approx \frac{f(x+h,y+k) - f(x+h,y-k) - f(x-h,y+k) + f(x-h,y-k)}{4hk}
-
 $$
 
 
@@ -1485,9 +1479,7 @@ Alternatively, for applications where the computation of f is the most costly st
 
 
 $$
-
 f_{xy}(x,y) \approx \frac{f(x+h, y+k) - f(x+h, y) - f(x, y+k) + 2 f(x,y) - f(x-h, y) - f(x, y-k) + f(x-h, y-k)}{2hk}
-
 $$
 
 
@@ -1521,9 +1513,7 @@ The finite element method can be written in matrix form, which is useful for sol
 
 
 $$
-
 -\sum_{k=1}^n u_k \phi (v_k,v_j) = \sum_{k=1}^n f_k \int v_k v_j dx
-
 $$
 
 
@@ -1623,9 +1613,7 @@ The wave equation is a second-order partial differential equation that describes
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u
-
 $$
 
 
@@ -1639,9 +1627,7 @@ One of the most significant applications of the wave equation is in the study of
 
 
 $$
-
 \frac{\partial^2 \mathbf{E}}{\partial t^2} = c^2 \nabla^2 \mathbf{E}
-
 $$
 
 
@@ -1663,17 +1649,13 @@ To understand von Neumann stability, we must first consider the Liénard–Wiech
 
 
 $$
-
 \varphi(\mathbf{r}, t) = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d\mathbf{r}'
-
 $$
 
 
 
 $$
-
 \mathbf{A}(\mathbf{r}, t) = \frac{\mu_0}{4\pi} \int \frac{\mathbf{J}(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d\mathbf{r}'
-
 $$
 
 
@@ -1721,9 +1703,7 @@ The von Neumann stability analysis is based on the decomposition of the errors i
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1733,9 +1713,7 @@ This equation can be discretized as:
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{(\Delta x)^2}
-
 $$
 
 
@@ -1745,9 +1723,7 @@ where $u_j^n$ is the numerical solution at grid point $j$ and time step $n$, $\D
 
 
 $$
-
 \epsilon_j^n = u_j^n - u_j^{n,exact}
-
 $$
 
 
@@ -1757,9 +1733,7 @@ where $u_j^{n,exact}$ is the exact solution of the discretized equation. Since t
 
 
 $$
-
 \epsilon_j^{n+1} = \epsilon_j^n + \alpha \frac{\Delta t}{(\Delta x)^2} (\epsilon_{j+1}^n - 2\epsilon_j^n + \epsilon_{j-1}^n)
-
 $$
 
 
@@ -1769,9 +1743,7 @@ We can see that the error term has the same growth or decay behavior with respec
 
 
 $$
-
 \epsilon_j^n = \sum_{k=1}^{N} \hat{\epsilon}_k^n e^{ikx_j}
-
 $$
 
 
@@ -1781,9 +1753,7 @@ where $N$ is the number of grid points and $x_j = j\Delta x$. Substituting this 
 
 
 $$
-
 \hat{\epsilon}_k^{n+1} = \hat{\epsilon}_k^n + \alpha \frac{\Delta t}{(\Delta x)^2} (e^{ik\Delta x} - 2 + e^{-ik\Delta x}) \hat{\epsilon}_k^n
-
 $$
 
 
@@ -1793,9 +1763,7 @@ Simplifying this expression, we get:
 
 
 $$
-
 \hat{\epsilon}_k^{n+1} = (1 - 4\alpha r \sin^2(\frac{k\Delta x}{2})) \hat{\epsilon}_k^n
-
 $$
 
 
@@ -1835,9 +1803,7 @@ The wave equation is a second-order partial differential equation that describes
 
 
 $$
-
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1847,9 +1813,7 @@ where $u(x,t)$ is the displacement of the wave at position $x$ and time $t$, and
 
 
 $$
-
 \frac{u_j^{n+1} - 2u_j^n + u_j^{n-1}}{(\Delta t)^2} = c^2 \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{(\Delta x)^2}
-
 $$
 
 
@@ -1863,9 +1827,7 @@ To apply the von Neumann stability analysis, we first decompose the error term $
 
 
 $$
-
 \epsilon_j^n = \sum_{k=1}^{\infty} \epsilon_k^n e^{ikx_j}
-
 $$
 
 
@@ -1875,9 +1837,7 @@ where $x_j = j\Delta x$ and $k$ is the wavenumber. Substituting this into the di
 
 
 $$
-
 \epsilon_j^{n+1} = \epsilon_j^n + \frac{c^2(\Delta t)^2}{(\Delta x)^2} \sum_{k=1}^{\infty} \epsilon_k^n (e^{ikx_{j+1}} - 2e^{ikx_j} + e^{ikx_{j-1}})
-
 $$
 
 
@@ -1887,9 +1847,7 @@ Using the identity $e^{ikx_{j+1}} - 2e^{ikx_j} + e^{ikx_{j-1}} = (\cos k\Delta x
 
 
 $$
-
 \epsilon_j^{n+1} = \epsilon_j^n + \frac{c^2(\Delta t)^2}{(\Delta x)^2} \sum_{k=1}^{\infty} \epsilon_k^n (\cos k\Delta x - 1)e^{ikx_j}
-
 $$
 
 
@@ -1899,9 +1857,7 @@ We can see that the error term has the same growth or decay behavior with respec
 
 
 $$
-
 \frac{c^2(\Delta t)^2}{(\Delta x)^2} \sum_{k=1}^{\infty} |\epsilon_k^n| \leq 1
-
 $$
 
 
@@ -1941,9 +1897,7 @@ The heat equation is a second-order partial differential equation that describes
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-
 $$
 
 
@@ -1953,9 +1907,7 @@ where $u(x,t)$ is the temperature at position $x$ and time $t$, and $\alpha$ is 
 
 
 $$
-
 \frac{u_j^{n+1} - u_j^n}{\Delta t} = \alpha \frac{u_{j+1}^n - 2u_j^n + u_{j-1}^n}{(\Delta x)^2}
-
 $$
 
 
@@ -1973,9 +1925,7 @@ The heat equation also has important applications in convection-diffusion proble
 
 
 $$
-
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2} - \mathbf{v} \cdot \nabla u
-
 $$
 
 
@@ -2015,9 +1965,7 @@ The convection-diffusion process is described by the following equation:
 
 
 $$
-
 \rho \frac{\partial u}{\partial t} = \nabla \cdot (\kappa \nabla u) - \rho \mathbf{v} \cdot \nabla u + \rho T \mathbf{v} \cdot \nabla s + \nabla \cdot (\sigma \cdot \mathbf{v}) - \sigma_{ij} \frac{\partial v_i}{\partial x_j}
-
 $$
 
 
@@ -2031,9 +1979,7 @@ This equation can be discretized using the forward difference method as:
 
 
 $$
-
 \frac{\rho u_j^{n+1} - \rho u_j^n}{\Delta t} = \nabla \cdot (\kappa \nabla u)_j^n - \rho \mathbf{v}_j^n \cdot \nabla u_j^n + \rho T_j^n \mathbf{v}_j^n \cdot \nabla s_j^n + \nabla \cdot (\sigma \cdot \mathbf{v})_j^n - \sigma_{ij} \frac{\partial v_i}{\partial x_j}
-
 $$
 
 
@@ -2119,9 +2065,7 @@ As we continue our journey into the world of mathematical methods and quantum ph
 Consider the following differential equation:
 
 $$
-
 \frac{dy}{dx} = 2xy
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2137,9 +2081,7 @@ c) Plot the solution for $x \in [0, 5]$.
 Solve the following initial value problem using the Euler method:
 
 $$
-
 \frac{dy}{dx} = x^2 + y^2, \quad y(0) = 1
-
 $$
 
 a) Use a step size of $h = 0.5$ to approximate the solution at $x = 1$. \
@@ -2155,9 +2097,7 @@ c) Repeat the process with a smaller step size and compare the results.
 Consider the following difference equation:
 
 $$
-
 y_{n+1} = 2y_n + 1, \quad y_0 = 1
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2173,9 +2113,7 @@ c) Plot the solution for $n \in [0, 10]$.
 Solve the following difference equation using the backward Euler method:
 
 $$
-
 y_{n+1} = 2y_n + 1, \quad y_0 = 1
-
 $$
 
 a) Use a step size of $h = 0.5$ to approximate the solution at $n = 1$. \
@@ -2191,9 +2129,7 @@ c) Repeat the process with a smaller step size and compare the results.
 Consider the following differential equation:
 
 $$
-
 \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + 2y = 0
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2227,9 +2163,7 @@ As we continue our journey into the world of mathematical methods and quantum ph
 Consider the following differential equation:
 
 $$
-
 \frac{dy}{dx} = 2xy
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2245,9 +2179,7 @@ c) Plot the solution for $x \in [0, 5]$.
 Solve the following initial value problem using the Euler method:
 
 $$
-
 \frac{dy}{dx} = x^2 + y^2, \quad y(0) = 1
-
 $$
 
 a) Use a step size of $h = 0.5$ to approximate the solution at $x = 1$. \
@@ -2263,9 +2195,7 @@ c) Repeat the process with a smaller step size and compare the results.
 Consider the following difference equation:
 
 $$
-
 y_{n+1} = 2y_n + 1, \quad y_0 = 1
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2281,9 +2211,7 @@ c) Plot the solution for $n \in [0, 10]$.
 Solve the following difference equation using the backward Euler method:
 
 $$
-
 y_{n+1} = 2y_n + 1, \quad y_0 = 1
-
 $$
 
 a) Use a step size of $h = 0.5$ to approximate the solution at $n = 1$. \
@@ -2299,9 +2227,7 @@ c) Repeat the process with a smaller step size and compare the results.
 Consider the following differential equation:
 
 $$
-
 \frac{d^2y}{dx^2} + 2\frac{dy}{dx} + 2y = 0
-
 $$
 
 a) Find the general solution to this equation. \
@@ -2785,7 +2711,6 @@ To understand the concept of elimination with reordering, let's consider the fol
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -2795,7 +2720,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -2805,7 +2729,6 @@ If we apply Gaussian elimination without any reordering, we would first eliminat
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -2815,7 +2738,6 @@ $$
 0x + \frac{5}{2}y + \frac{3}{2}z &= -2
 
 \end{align}
-
 $$
 
 
@@ -2825,7 +2747,6 @@ We can see that the coefficients of the $y$ variable in the second and third equ
 
 
 $$
-
 \begin{align}
 
 3x + 2y + 4z &= 12 \\
@@ -2835,7 +2756,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -2875,7 +2795,6 @@ To understand the concept of elimination with reordering, let's consider the fol
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -2885,7 +2804,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -2895,7 +2813,6 @@ If we apply Gaussian elimination without any reordering, we would first eliminat
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -2905,7 +2822,6 @@ $$
 0x + \frac{5}{2}y + \frac{3}{2}z &= -2
 
 \end{align}
-
 $$
 
 
@@ -2915,7 +2831,6 @@ We can see that the coefficients of the $y$ variable in the second and third equ
 
 
 $$
-
 \begin{align}
 
 3x + 2y + 4z &= 12 \\
@@ -2925,7 +2840,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -2935,7 +2849,6 @@ Now, when we eliminate the $x$ variable in the second and third equations, we ge
 
 
 $$
-
 \begin{align}
 
 3x + 2y + 4z &= 12 \\
@@ -2945,7 +2858,6 @@ $$
 0x - \frac{5}{2}y + \frac{5}{2}z &= -9
 
 \end{align}
-
 $$
 
 
@@ -2975,7 +2887,6 @@ Let's apply this process to a larger system of equations:
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -2987,7 +2898,6 @@ x + 4y + 2z &= 8 \\
 4x + 2y + 3z &= 15
 
 \end{align}
-
 $$
 
 
@@ -3001,7 +2911,6 @@ Step 2: The equations should be ordered as follows:
 
 
 $$
-
 \begin{align}
 
 4x + 2y + 3z &= 15 \\
@@ -3013,7 +2922,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3023,7 +2931,6 @@ Step 3: Applying Gaussian elimination, we get:
 
 
 $$
-
 \begin{align}
 
 4x + 2y + 3z &= 15 \\
@@ -3035,7 +2942,6 @@ $$
 0x + \frac{10}{3}y + \frac{1}{3}z &= -6
 
 \end{align}
-
 $$
 
 
@@ -3075,7 +2981,6 @@ To understand the concept of elimination with reordering, let's consider the fol
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3085,7 +2990,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3095,7 +2999,6 @@ If we apply Gaussian elimination without any reordering, we would first eliminat
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3105,7 +3008,6 @@ $$
 0x + \frac{5}{2}y + \frac{3}{2}z &= -2
 
 \end{align}
-
 $$
 
 
@@ -3115,7 +3017,6 @@ We can see that the coefficients of the $y$ variable in the second and third equ
 
 
 $$
-
 \begin{align}
 
 3x + 2y + 4z &= 12 \\
@@ -3125,7 +3026,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3135,7 +3035,6 @@ Now, when we apply Gaussian elimination, the resulting system would be:
 
 
 $$
-
 \begin{align}
 
 3x + 2y + 4z &= 12 \\
@@ -3145,7 +3044,6 @@ $$
 0x - \frac{5}{2}y + \frac{5}{2}z &= -9
 
 \end{align}
-
 $$
 
 
@@ -3209,7 +3107,6 @@ To illustrate the Gauss-Seidel method, let's consider the following system of li
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3219,7 +3116,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3229,7 +3125,6 @@ We can rewrite this system in the form of an iterative process as:
 
 
 $$
-
 \begin{align}
 
 x^{(k+1)} &= \frac{10 - 3y^{(k)} - z^{(k)}}{2} \\
@@ -3239,7 +3134,6 @@ y^{(k+1)} &= \frac{12 - 3x^{(k+1)} - 4z^{(k)}}{2} \\
 z^{(k+1)} &= \frac{8 - x^{(k+1)} - 4y^{(k+1)}}{2}
 
 \end{align}
-
 $$
 
 
@@ -3277,7 +3171,6 @@ In the Arnoldi iteration, one starts with a vector $\boldsymbol{r}_0$ and gradua
 
 
 $$
-
 \boldsymbol{w}_i = \begin{cases}
 
 \boldsymbol{r}_0 & \text{if }i=1\text{,}\\
@@ -3285,7 +3178,6 @@ $$
 \boldsymbol{Av}_{i-1} & \text{if }i>1\text{,}
 
 \end{cases}
-
 $$
 
 
@@ -3299,9 +3191,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{Av}_i = \boldsymbol{v}_1\boldsymbol{H}_i
-
 $$
 
 
@@ -3311,7 +3201,6 @@ where
 
 
 $$
-
 \boldsymbol{H}_i = \begin{bmatrix}
 
 h_{11} & h_{12} & h_{13} & \cdots & h_{1,i} \\
@@ -3325,7 +3214,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i} \\
 & & & h_{i,i-1} & h_{i,i}
 
 \end{bmatrix}\text{,}
-
 $$
 
 
@@ -3335,7 +3223,6 @@ with
 
 
 $$
-
 h_{jk} = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i & \text{if }j\leq i\text{,}\\
@@ -3343,7 +3230,6 @@ h_{jk} = \begin{cases}
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}
 
 \end{cases}
-
 $$
 
 
@@ -3391,7 +3277,6 @@ To illustrate the Gauss-Seidel method, let's consider the following system of li
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3401,7 +3286,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3411,7 +3295,6 @@ We can rewrite this system in the form of an iterative process as:
 
 
 $$
-
 \begin{align}
 
 x^{(k+1)} &= \frac{10 - 3y^{(k)} - z^{(k)}}{2} \\
@@ -3421,7 +3304,6 @@ y^{(k+1)} &= \frac{12 - 3x^{(k+1)} - 4z^{(k)}}{2} \\
 z^{(k+1)} &= \frac{8 - x^{(k+1)} - 4y^{(k+1)}}{2}
 
 \end{align}
-
 $$
 
 
@@ -3491,7 +3373,6 @@ To illustrate the Gauss-Seidel method, let's consider the following system of li
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3501,7 +3382,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3511,7 +3391,6 @@ We can rewrite this system in the form of an iterative process as:
 
 
 $$
-
 \begin{align}
 
 x^{(k+1)} &= \frac{10 - 3y^{(k)} - z^{(k)}}{2} \\
@@ -3521,7 +3400,6 @@ y^{(k+1)} &= \frac{12 - 3x^{(k+1)} - 4z^{(k)}}{2} \\
 z^{(k+1)} &= \frac{8 - x^{(k+1)} - 4y^{(k+1)}}{2}
 
 \end{align}
-
 $$
 
 
@@ -3629,7 +3507,6 @@ To illustrate the FMG method, let's consider the same system of linear equations
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3639,7 +3516,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3695,7 +3571,6 @@ To illustrate the FMG method, let's consider the same system of linear equations
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3705,7 +3580,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3781,7 +3655,6 @@ To illustrate the FMG method, let's consider the same system of linear equations
 
 
 $$
-
 \begin{align}
 
 2x + 3y + z &= 10 \\
@@ -3791,7 +3664,6 @@ $$
 x + 4y + 2z &= 8
 
 \end{align}
-
 $$
 
 
@@ -3871,7 +3743,6 @@ One of the most commonly used Krylov methods is the conjugate gradient method, w
 
 
 $$
-
 \boldsymbol{w}_i = \begin{cases}
 
 \boldsymbol{r}_0 & \text{if }i=1\text{,}\\
@@ -3879,7 +3750,6 @@ $$
 \boldsymbol{Av}_{i-1} & \text{if }i>1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -3893,9 +3763,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{AV}_i = \boldsymbol{V}_{i+1}\boldsymbol{H}_i,
-
 $$
 
 
@@ -3905,7 +3773,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -3925,7 +3792,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}\text{,}\\
-
 $$
 
 
@@ -3935,7 +3801,6 @@ with
 
 
 $$
-
 h_{ij} = \begin{cases}
 
 \boldsymbol{v}_j^\mathrm{T}\boldsymbol{Av}_i & \text{if }j\leq i\text{,}\\
@@ -3943,7 +3808,6 @@ h_{ij} = \begin{cases}
 \lVert\boldsymbol{w}_{i+1}\rVert_2 & \text{if }j=i+1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -3961,9 +3825,7 @@ For the rest of discussion, we assume that $\boldsymbol{A}$ is a symmetric posit
 
 
 $$
-
 \boldsymbol{A}\boldsymbol{V}_i = \boldsymbol{V}_i\boldsymbol{T}_i,
-
 $$
 
 
@@ -4011,7 +3873,6 @@ One of the most commonly used Krylov methods is the conjugate gradient method, w
 
 
 $$
-
 \boldsymbol{w}_i = \begin{cases}
 
 \boldsymbol{r}_0 & \text{if }i=1\text{,}\\
@@ -4019,7 +3880,6 @@ $$
 \boldsymbol{Av}_{i-1} & \text{if }i>1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -4033,9 +3893,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{AV}_i = \boldsymbol{V}_{i+1}\boldsymbol{H}_i,
-
 $$
 
 
@@ -4045,7 +3903,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -4065,7 +3922,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}
 
 \end{bmatrix}.
-
 $$
 
 
@@ -4127,7 +3983,6 @@ One of the most commonly used Krylov methods is the conjugate gradient method, w
 
 
 $$
-
 \boldsymbol{w}_i = \begin{cases}
 
 \boldsymbol{r}_0 & \text{if }i=1\text{,}\\
@@ -4135,7 +3990,6 @@ $$
 \boldsymbol{Av}_{i-1} & \text{if }i>1\text{,}\\
 
 \end{cases}
-
 $$
 
 
@@ -4149,9 +4003,7 @@ Put in matrix form, the iteration is captured by the equation
 
 
 $$
-
 \boldsymbol{AV}_i = \boldsymbol{V}_{i+1}\boldsymbol{H}_i,
-
 $$
 
 
@@ -4161,7 +4013,6 @@ where
 
 
 $$
-
 \boldsymbol{V}_i = \begin{bmatrix}
 
 \boldsymbol{v}_1 & \boldsymbol{v}_2 & \cdots & \boldsymbol{v}_i
@@ -4181,7 +4032,6 @@ h_{21} & h_{22} & h_{23} & \cdots & h_{2,i}\\
 & & & h_{i,i-1} & h_{i,i}\\
 
 \end{bmatrix}\text{,}\\
-
 $$
 
 
@@ -4217,9 +4067,7 @@ To ensure that the residual $\boldsymbol{r}_{i+1}$ is orthogonal to the previous
 
 
 $$
-
 \boldsymbol{z}_i = \boldsymbol{y}_i + \frac{\boldsymbol{r}_i^\mathrm{T}\boldsymbol{r}_i}{\boldsymbol{r}_{i-1}^\mathrm{T}\boldsymbol{r}_{i-1}}\boldsymbol{z}_{i-1}.
-
 $$
 
 
@@ -4321,11 +4169,9 @@ In order to better understand saddle points and their role in solving large line
 
 
 $$
-
 v_{\theta} \left( r,t \right) = \Psi \left\lbrace \left[ \textrm{kei}_1 \left( \sqrt{R_{\omega}} \right) \textrm{kei}_1 \left( \sqrt{R_{\omega}} r \right) + \textrm{ker}_1 \left( \sqrt{R_{\omega}} \right) \textrm{ker}_1 \left( \sqrt{R_{\omega}} r \right) \right] \cos \left( t \right) \right. \\ 
 
 + \left. \left[ \textrm{kei}_1 \left( \sqrt{R_{\omega}} \right) \textrm{ker}_1 \left( \sqrt{R_{\omega}} r \right) - \textrm{ker}_1 \left( \sqrt{R_{\omega}} \right) \textrm{kei}_1 \left( \sqrt{R_{\omega}} r \right) \right] \sin \left( t \right) \right\rbrace
-
 $$
 
 
@@ -4381,13 +4227,11 @@ In order to better understand saddle points and their role in solving large line
 
 
 $$
-
 u_r(r,\theta,t) = \frac{a^2\Omega\cos\omega t}{2\mu}\left(1-\frac{r^2}{a^2}\right) \\
 
 u_\theta(r,\theta,t) = -\frac{a^2\Omega\cos\omega t}{2\mu}\frac{r}{a^2} \\
 
 p(r,\theta,t) = -\frac{\rho a^2\Omega^2\cos\omega t}{2}r\sin\theta
-
 $$
 
 
@@ -4447,7 +4291,6 @@ In conclusion, this chapter has provided a comprehensive overview of solving lar
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -4479,7 +4322,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -4497,7 +4339,6 @@ Implement the Jacobi method in a programming language of your choice to solve th
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -4529,7 +4370,6 @@ x_3
 3
 
 \end{bmatrix}
-
 $$
 
 Is this system solvable? If so, what is the solution? If not, explain why.
@@ -4547,7 +4387,6 @@ Research and explain the concept of matrix condition number. How does it relate 
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -4579,7 +4418,6 @@ x_3
 4
 
 \end{bmatrix}
-
 $$
 
 Use LU decomposition to solve for the unknowns $x_1$, $x_2$, and $x_3$. Compare the results to those obtained from Gaussian elimination.
@@ -4613,7 +4451,6 @@ In conclusion, this chapter has provided a comprehensive overview of solving lar
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 2 & 1 & 0 \\
@@ -4645,7 +4482,6 @@ x_3
 7
 
 \end{bmatrix}
-
 $$
 
 Use Gaussian elimination to solve for the unknowns $x_1$, $x_2$, and $x_3$.
@@ -4663,7 +4499,6 @@ Implement the Jacobi method in a programming language of your choice to solve th
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -4695,7 +4530,6 @@ x_3
 3
 
 \end{bmatrix}
-
 $$
 
 Is this system solvable? If so, what is the solution? If not, explain why.
@@ -4713,7 +4547,6 @@ Research and explain the concept of matrix condition number. How does it relate 
 Consider the following linear system:
 
 $$
-
 \begin{bmatrix}
 
 1 & 2 & 3 \\
@@ -4745,7 +4578,6 @@ x_3
 4
 
 \end{bmatrix}
-
 $$
 
 Use LU decomposition to solve for the unknowns $x_1$, $x_2$, and $x_3$. Compare the results to those obtained from Gaussian elimination.
@@ -4829,9 +4661,7 @@ To understand the L-BFGS algorithm, we first define some variables. Let $x_k$ be
 
 
 $$
-
 s_i = x_{k+i} - x_{k+i-1}, \quad y_i = g_{k+i} - g_{k+i-1}
-
 $$
 
 
@@ -4841,9 +4671,7 @@ We define $\rho_k = \frac{1}{y_k^T s_k}$ and $H_k^0$ as the initial approximatio
 
 
 $$
-
 H_{k+1} = (I - \rho_k s_k y_k^T)H_k(I - \rho_k y_k s_k^T) + \rho_k s_k s_k^T
-
 $$
 
 
@@ -5699,9 +5527,7 @@ The principle of linearity in quantum mechanics states that the wave function of
 
 
 $$
-
 \psi = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -5757,9 +5583,7 @@ The principle of linearity in quantum mechanics states that the wave function of
 
 
 $$
-
 \psi = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -5827,9 +5651,7 @@ The principle of linearity in quantum mechanics states that the wave function of
 
 
 $$
-
 \psi = \sum_{i} c_i \psi_i
-
 $$
 
 
@@ -6203,7 +6025,6 @@ This non-deterministic nature of quantum mechanics has significant implications 
 
 
 $$
-
 M = \begin{bmatrix}
 
 1 & 0 \\
@@ -6211,7 +6032,6 @@ M = \begin{bmatrix}
 0 & 0
 
 \end{bmatrix}
-
 $$
 
 
@@ -6415,9 +6235,7 @@ Mathematically, superposition is represented by the linear combination of quantu
 
 
 $$
-
 \psi = c_1\psi_1 + c_2\psi_2
-
 $$
 
 
@@ -6435,9 +6253,7 @@ The principle of superposition is a result of the linearity of the Schrödinger 
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\psi = \hat{H}\psi
-
 $$
 
 
@@ -6799,9 +6615,7 @@ The wave function can be described using the Schrödinger equation, which is giv
 
 
 $$
-
 i\hbar\frac{\partial}{\partial t}\Psi(x,t) = \hat{H}\Psi(x,t)
-
 $$
 
 
@@ -6811,9 +6625,7 @@ where $\hbar$ is the reduced Planck's constant and $\hat{H}$ is the Hamiltonian 
 
 
 $$
-
 \hat{H} = \frac{\hat{p}^2}{2m} + V(x)
-
 $$
 
 
@@ -7195,9 +7007,7 @@ The photoelectric effect also follows the law of conservation of energy. The ene
 
 
 $$
-
 E_{photon} = E_{electron} + \phi
-
 $$
 
 
@@ -7495,9 +7305,7 @@ De Broglie's hypothesis states that all particles with momentum have a wavelengt
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7515,9 +7323,7 @@ The de Broglie wavelength can be visualized as a wave representing the particle'
 
 
 $$
-
 \psi(x,t) = A\sin(kx - \omega t)
-
 $$
 
 
@@ -7535,9 +7341,7 @@ For example, a Gaussian wave function $\psi(x,t)$ might take the form:
 
 
 $$
-
 \psi(x,t) = Ae^{-\frac{(x-x_0)^2}{2\sigma^2}}e^{i(k_0x - \omega_0 t)}
-
 $$
 
 
@@ -7577,9 +7381,7 @@ The de Broglie wavelength is given by the equation:
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7593,9 +7395,7 @@ For a particle with mass $m$ and velocity $v$, the momentum can be calculated as
 
 
 $$
-
 p = mv
-
 $$
 
 
@@ -7605,9 +7405,7 @@ For example, let's consider an electron with a mass of $9.11 \times 10^{-31}$ kg
 
 
 $$
-
 p = (9.11 \times 10^{-31} \text{ kg})(2.2 \times 10^6 \text{ m/s}) = 2.00 \times 10^{-24} \text{ kg m/s}
-
 $$
 
 
@@ -7617,9 +7415,7 @@ Now, we can use this value of momentum to calculate the de Broglie wavelength:
 
 
 $$
-
 \lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J s}}{2.00 \times 10^{-24} \text{ kg m/s}} = 3.31 \times 10^{-10} \text{ m}
-
 $$
 
 
@@ -7633,9 +7429,7 @@ We can also calculate the de Broglie wavelength for other particles, such as pro
 
 
 $$
-
 \lambda = \frac{h}{\sqrt{2mE}}
-
 $$
 
 
@@ -7649,9 +7443,7 @@ For example, let's consider a proton with a mass of $1.67 \times 10^{-27}$ kg an
 
 
 $$
-
 \lambda = \frac{6.63 \times 10^{-34} \text{ J s}}{\sqrt{2(1.67 \times 10^{-27} \text{ kg})(1.6 \times 10^{-13} \text{ J})}} = 1.32 \times 10^{-15} \text{ m}
-
 $$
 
 
@@ -7871,17 +7663,13 @@ The notation for the Galilean transformation is given by:
 
 
 $$
-
 x' = x - vt
-
 $$
 
 
 
 $$
-
 t' = t
-
 $$
 
 
@@ -7899,9 +7687,7 @@ The Galilean symmetries can be uniquely written as the composition of a "rotatio
 
 
 $$
-
 (x'', t'') = (x', t') + (x, t) = (x - vt, t)
-
 $$
 
 
@@ -7941,9 +7727,7 @@ The de Broglie wavelength, named after French physicist Louis de Broglie, is a c
 
 
 $$
-
 \lambda = \frac{h}{p}
-
 $$
 
 
@@ -7957,9 +7741,7 @@ Now, let's consider a scenario where a particle is moving with a constant veloci
 
 
 $$
-
 \lambda = \frac{h}{p} = \frac{h}{mv}
-
 $$
 
 
@@ -7969,9 +7751,7 @@ Where $m$ is the mass of the particle. However, in a different reference frame m
 
 
 $$
-
 \lambda' = \frac{h}{p'} = \frac{h}{m(v-u)}
-
 $$
 
 
@@ -7981,17 +7761,13 @@ Using the Galilean transformation, we can relate the coordinates in the two refe
 
 
 $$
-
 x' = x - ut
-
 $$
 
 
 
 $$
-
 t' = t
-
 $$
 
 
@@ -8001,9 +7777,7 @@ Substituting these values into the equation for $\lambda'$, we get:
 
 
 $$
-
 \lambda' = \frac{h}{m(v-u)} = \frac{h}{mv} \cdot \frac{1}{1-\frac{u}{v}} = \frac{\lambda}{1-\frac{u}{v}}
-
 $$
 
 
@@ -8097,9 +7871,7 @@ To better understand the concept of group velocity, let us consider the example 
 
 
 $$
-
 v_g = \frac{d\omega}{dk}
-
 $$
 
 
@@ -8109,9 +7881,7 @@ where $\omega$ is the angular frequency and $k$ is the wavenumber. For a Gaussia
 
 
 $$
-
 v_g = \frac{d}{dk}\left(\frac{1}{2a}\right) = \frac{1}{2a^2}\frac{da}{dk}
-
 $$
 
 
@@ -8155,9 +7925,7 @@ To better understand the concept of group velocity, let us consider the example 
 
 
 $$
-
 v_g = \frac{d\omega}{dk}
-
 $$
 
 
@@ -8167,9 +7935,7 @@ where $\omega$ is the angular frequency and $k$ is the wavenumber. For a Gaussia
 
 
 $$
-
 v_g = \frac{d}{dk}\left(\frac{1}{2a}\right) = \frac{-1}{2a^2}\frac{d}{dk}(a) = \frac{-1}{2a^2}\frac{da}{dk}
-
 $$
 
 
@@ -8265,23 +8031,14 @@ The concept of matter waves was first introduced by Louis de Broglie in 1924, wh
 The more general description of matter waves corresponding to a single particle type (e.g. a single electron or neutron only) would have a form similar to
 
 $$\psi (\mathbf{r}) = u(\mathbf{r},\mathbf{k})\exp(i\mathbf{k}\cdot \mathbf{r} - iE(\mathbf{k})t/\hbar)$$
-
 where now there is an additional spatial term $u(\mathbf{r},\mathbf{k})$ in the front, and the energy has been written more generally as a function of the wave vector. The various terms given before still apply, although the energy is no longer always proportional to the wave vector squared. A common approach is to define an effective mass which in general is a tensor $m_{ij}^*$ given by
-
 $$ {m_{ij}^*}^{-1} = \frac{1}{\hbar^2} \frac{\partial^2 E}{\partial k_i \partial k_j}$$
-
 so that in the simple case where all directions are the same the form is similar to that of a free wave above.
-
 $$E(\mathbf k) = \frac{\hbar^2 \mathbf k^2}{2 m^*}$$
-
 In general, the group velocity would be replaced by the probability current
-
 $$\mathbf{j}(\mathbf{r}) = \frac{\hbar}{2mi} \left( \psi^*(\mathbf{r}) \mathbf \nabla \psi(\mathbf{r}) - \psi(\mathbf{r}) \mathbf \nabla \psi^{*}(\mathbf{r}) \right) $$
-
 where $\nabla$ is the del or gradient operator. The momentum would then be described using the kinetic momentum operator,
-
 $$\mathbf{p} = -i\hbar\nabla$$
-
 The wavelength is still described as the inverse of the modulus of the wavevector, although measurement is more complex. There are many cases where this approach is used to describe single-particle matter waves, such as in the study of electrons in a crystal lattice.
 
 
@@ -8353,25 +8110,15 @@ The concept of matter waves was first introduced by Louis de Broglie in 1924, wh
 
 
 The more general description of matter waves corresponding to a single particle type (e.g. a single electron or neutron only) would have a form similar to
-
 $$\psi (\mathbf{r}) = u(\mathbf{r},\mathbf{k})\exp(i\mathbf{k}\cdot \mathbf{r} - iE(\mathbf{k})t/\hbar)$$
-
 where now there is an additional spatial term $u(\mathbf{r},\mathbf{k})$ in the front, and the energy has been written more generally as a function of the wave vector. The various terms given before still apply, although the energy is no longer always proportional to the wave vector squared. A common approach is to define an effective mass which in general is a tensor $m_{ij}^*$ given by
-
 $$ {m_{ij}^*}^{-1} = \frac{1}{\hbar^2} \frac{\partial^2 E}{\partial k_i \partial k_j}$$
-
 so that in the simple case where all directions are the same the form is similar to that of a free wave above.
-
 $$E(\mathbf k) = \frac{\hbar^2 \mathbf k^2}{2 m^*}$$
-
 In general, the group velocity would be replaced by the probability current
-
 $$\mathbf{j}(\mathbf{r}) = \frac{\hbar}{2mi} \left( \psi^*(\mathbf{r}) \mathbf \nabla \psi(\mathbf{r}) - \psi(\mathbf{r}) \mathbf \nabla \psi^{*}(\mathbf{r}) \right) $$
-
 where $\nabla$ is the del or gradient operator. The momentum would then be described using the kinetic momentum operator,
-
 $$\mathbf{p} = -i\hbar\nabla$$
-
 The wavelength is still described as the inverse of the modulus of the wavevector, although measurement is more complex. There are many cases where this approach is used to describe single-particle matter waves, such as in the study of electrons in a crystal lattice or in the behavior of particles in a magnetic field.
 
 
@@ -8381,9 +8128,7 @@ The wavelength is still described as the inverse of the modulus of the wavevecto
 
 
 To calculate the matter wave for a particle, we first need to determine the wave function $u(\mathbf{r},\mathbf{k})$. This can be done by solving the Schrödinger equation for the given system, which relates the wave function to the energy of the particle. Once we have the wave function, we can then use it to calculate the matter wave for the particle using the equation
-
 $$\psi (\mathbf{r}) = u(\mathbf{r},\mathbf{k})\exp(i\mathbf{k}\cdot \mathbf{r} - iE(\mathbf{k})t/\hbar)$$
-
 where $E(\mathbf{k})$ is the energy of the particle, which is a function of the wave vector $\mathbf{k}$. This approach allows us to describe the behavior of a single particle in a more general and accurate manner, taking into account factors such as the effective mass and probability current.
 
 
@@ -8427,25 +8172,15 @@ The concept of matter waves was first introduced by Louis de Broglie in 1924, wh
 
 
 The more general description of matter waves corresponding to a single particle type (e.g. a single electron or neutron only) would have a form similar to
-
 $$\psi (\mathbf{r}) = u(\mathbf{r},\mathbf{k})\exp(i\mathbf{k}\cdot \mathbf{r} - iE(\mathbf{k})t/\hbar)$$
-
 where now there is an additional spatial term $u(\mathbf{r},\mathbf{k})$ in the front, and the energy has been written more generally as a function of the wave vector. The various terms given before still apply, although the energy is no longer always proportional to the wave vector squared. A common approach is to define an effective mass which in general is a tensor $m_{ij}^*$ given by
-
 $$ {m_{ij}^*}^{-1} = \frac{1}{\hbar^2} \frac{\partial^2 E}{\partial k_i \partial k_j}$$
-
 so that in the simple case where all directions are the same the form is similar to that of a free wave above.
-
 $$E(\mathbf k) = \frac{\hbar^2 \mathbf k^2}{2 m^*}$$
-
 In general, the group velocity would be replaced by the probability current
-
 $$\mathbf{j}(\mathbf{r}) = \frac{\hbar}{2mi} \left( \psi^*(\mathbf{r}) \mathbf \nabla \psi(\mathbf{r}) - \psi(\mathbf{r}) \mathbf \nabla \psi^{*}(\mathbf{r}) \right) $$
-
 where $\nabla$ is the del or gradient operator. The momentum would then be described using the kinetic momentum operator,
-
 $$\mathbf{p} = -i\hbar\nabla$$
-
 The wavelength is still described as the inverse of the modulus of the wavevector, although measurement is more complex. There are many cases where this approach is used to describe single-particle matter waves, such as in the study of electron diffraction and the behavior of particles in a magnetic field.
 
 
@@ -8601,7 +8336,6 @@ To solve problems in quantum mechanics, we use the momentum and position operato
 Let's consider a particle in a one-dimensional infinite potential well with width $L$. The wave function of the particle is given by $\psi(x) = A\sin(\frac{n\pi x}{L})$, where $A$ is a normalization constant and $n$ is the quantum number. Using the momentum operator, we can calculate the expectation value of the momentum as follows:
 
 
-
 $$
 
 \langle \hat{p} \rangle = \int_{0}^{L} \psi^*(x) \hat{p} \psi(x) dx
@@ -8609,9 +8343,7 @@ $$
 $$
 
 
-
 Substituting the wave function, we get:
-
 
 
 $$
@@ -8621,9 +8353,7 @@ $$
 $$
 
 
-
 Using the trigonometric identity $\sin^2(x) = \frac{1}{2}(1-\cos(2x))$, we can simplify the integral to:
-
 
 
 $$
@@ -8633,9 +8363,7 @@ $$
 $$
 
 
-
 Evaluating the integral, we get:
-
 
 
 $$
@@ -8645,9 +8373,7 @@ $$
 $$
 
 
-
 Therefore, the expectation value of the momentum is given by:
-
 
 
 $$
@@ -8655,7 +8381,6 @@ $$
 \langle \hat{p} \rangle = \frac{A^2 \hbar n \pi}{2i}
 
 $$
-
 
 
 This example demonstrates how we can use the momentum operator to calculate the expectation value of a physical quantity in quantum mechanics. Similar methods can be used to solve for other variables and make predictions about the behavior of particles in different systems.
@@ -8773,13 +8498,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is written as:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
 
 $$
-
 
 
 where $\psi(x,t)$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant. This equation is a cornerstone of quantum mechanics and is used to describe the behavior of particles at the microscopic level.
@@ -8859,13 +8582,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The Schrödinger equation is written as:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}\psi(x,t) = \hat{H}\psi(x,t)
 
 $$
-
 
 
 where $\psi(x,t)$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant. This equation is a cornerstone of quantum mechanics and is used to describe the behavior of particles at the microscopic level.
@@ -8899,7 +8620,6 @@ In position space, the solutions are represented by the wave function $\psi(x)$,
 One of the most well-known examples of solving the Schrödinger equation is for the harmonic oscillator. The harmonic oscillator is a system that exhibits simple harmonic motion, such as a mass attached to a spring. The Schrödinger equation for this system is:
 
 
-
 $$
 
 E\psi = -\frac{\hbar^2}{2m}\frac{d^2}{d x^2}\psi + \frac{1}{2} m\omega^2 x^2\psi
@@ -8907,9 +8627,7 @@ E\psi = -\frac{\hbar^2}{2m}\frac{d^2}{d x^2}\psi + \frac{1}{2} m\omega^2 x^2\psi
 $$
 
 
-
 where $x$ is the displacement and $\omega$ is the angular frequency. The solutions to this equation in position space are given by:
-
 
 
 $$
@@ -8921,9 +8639,7 @@ $$
 $$
 
 
-
 where $n \in \{0, 1, 2, \ldots \}$ and $\mathcal{H}_n$ are the Hermite polynomials of order $n$. These solutions can also be generated using the following formula:
-
 
 
 $$
@@ -8933,9 +8649,7 @@ $$
 $$
 
 
-
 The corresponding eigenvalues for these solutions are given by:
-
 
 
 $$
@@ -8943,7 +8657,6 @@ $$
 E_n = \left(n + \frac{1}{2} \right) \hbar \omega
 
 $$
-
 
 
 where $n$ is the energy level. The ground state, with $n = 0$, has the lowest energy and is known as the zero-point energy. The wave function for the ground state is a Gaussian function.
@@ -9003,13 +8716,11 @@ The Schrödinger equation has a wide range of applications in quantum mechanics,
 One of the most well-known applications of the Schrödinger equation is in the study of the harmonic oscillator. This system consists of a particle moving back and forth in a potential well, and it is described by the following equation:
 
 
-
 $$
 
 E\psi = -\frac{\hbar^2}{2m}\frac{d^2}{d x^2}\psi + \frac{1}{2} m\omega^2 x^2\psi
 
 $$
-
 
 
 where $x$ is the displacement and $\omega$ is the angular frequency. The solutions to this equation are given by the Hermite polynomials, and they can be used to approximate the behavior of a wide variety of systems, including vibrating atoms and molecules.
@@ -9023,13 +8734,11 @@ where $x$ is the displacement and $\omega$ is the angular frequency. The solutio
 Another important application of the Schrödinger equation is in the study of the particle in a box. This system consists of a particle confined to a one-dimensional box, and it is described by the following equation:
 
 
-
 $$
 
 E\psi = -\frac{\hbar^2}{2m}\frac{d^2}{d x^2}\psi
 
 $$
-
 
 
 The solutions to this equation are given by the sine and cosine functions, and they illustrate the generic feature of the Schrödinger equation that the energies of bound eigenstates are discretized.
@@ -9043,13 +8752,11 @@ The solutions to this equation are given by the sine and cosine functions, and t
 The Schrödinger equation also plays a crucial role in the study of the hydrogen atom. This system consists of a single electron orbiting a proton, and it is described by the following equation:
 
 
-
 $$
 
 E\psi = -\frac{\hbar^2}{2m}\nabla^2\psi - \frac{e^2}{4\pi\epsilon_0r}\psi
 
 $$
-
 
 
 where $r$ is the distance between the electron and the proton. The solutions to this equation are given by the hydrogen wave functions, which are used to calculate the energy levels and other properties of the hydrogen atom.
@@ -9459,13 +9166,11 @@ In the previous section, we discussed the concept of probability density and its
 Probability current is a measure of the flow of probability density in a particular direction. It is defined as the product of the probability density and the velocity of the particle at a given position and time. Mathematically, it can be expressed as:
 
 
-
 $$
 
 J(x,t) = \frac{\hbar}{2mi}(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x})
 
 $$
-
 
 
 where $\psi$ is the wavefunction, $\hbar$ is the reduced Planck's constant, and $m$ is the mass of the particle.
@@ -9487,13 +9192,11 @@ To calculate the probability current, we first need to determine the wavefunctio
 Let us consider an example of a free particle moving in one dimension. The wavefunction for this system is given by:
 
 
-
 $$
 
 \psi(x,t) = Ae^{i(kx-\omega t)}
 
 $$
-
 
 
 where $A$ is a constant, $k$ is the wave number, and $\omega$ is the angular frequency.
@@ -9533,13 +9236,11 @@ In the previous section, we discussed the concept of probability density and its
 Probability current is a measure of the flow of probability density in a particular direction. It is defined as the product of the probability density and the velocity of the particle at a given position and time. Mathematically, it can be expressed as:
 
 
-
 $$
 
 J(x,t) = \frac{\hbar}{2mi}(\psi^*\frac{\partial\psi}{\partial x} - \psi\frac{\partial\psi^*}{\partial x})
 
 $$
-
 
 
 where $\psi$ is the wavefunction, $\hbar$ is the reduced Planck's constant, and $m$ is the mass of the particle.
@@ -9561,7 +9262,6 @@ To calculate the probability current, we first need to determine the wavefunctio
 Let us consider an example of a free particle moving in one dimension. The wavefunction for this system is given by:
 
 
-
 $$
 
 \psi(x,t) = Ae^{i(kx - \omega t)}
@@ -9569,9 +9269,7 @@ $$
 $$
 
 
-
 where $A$ is a constant, $k$ is the wave number, and $\omega$ is the angular frequency. Using this wavefunction, we can calculate the probability current at any point $x$ and time $t$ using the formula:
-
 
 
 $$
@@ -9579,7 +9277,6 @@ $$
 J(x,t) = \frac{\hbar}{m}|A|^2k
 
 $$
-
 
 
 This shows that the probability current is directly proportional to the wave number $k$, which is related to the momentum of the particle. This makes intuitive sense, as a particle with a higher momentum would have a higher probability current.
@@ -9635,13 +9332,11 @@ This principle is closely related to the concept of probability current. As we l
 Mathematically, current conservation can be expressed as:
 
 
-
 $$
 
 \frac{\partial\rho}{\partial t} + \nabla\cdot\textbf{J} = 0
 
 $$
-
 
 
 where $\rho$ is the probability density and $\textbf{J}$ is the probability current.
@@ -9709,13 +9404,11 @@ This principle is closely related to the concept of probability current. As we l
 Mathematically, current conservation can be expressed as:
 
 
-
 $$
 
 \frac{\partial\rho}{\partial t} + \nabla\cdot\textbf{J} = 0
 
 $$
-
 
 
 where $\rho$ is the probability density and $\textbf{J}$ is the probability current.
@@ -9737,13 +9430,11 @@ Now that we understand the concept of current conservation, let us explore how i
 The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial\psi}{\partial t} = \hat{H}\psi
 
 $$
-
 
 
 where $\psi$ is the wavefunction and $\hat{H}$ is the Hamiltonian operator.
@@ -9753,13 +9444,11 @@ where $\psi$ is the wavefunction and $\hat{H}$ is the Hamiltonian operator.
 We can rewrite this equation in terms of the probability density and probability current as:
 
 
-
 $$
 
 i\hbar\frac{\partial}{\partial t}(\psi^*\psi) = -\frac{\hbar^2}{2m}\nabla^2(\psi^*\psi) + V(\textbf{r})\psi^*\psi
 
 $$
-
 
 
 where $m$ is the mass of the particle and $V(\textbf{r})$ is the potential energy.
@@ -9769,7 +9458,6 @@ where $m$ is the mass of the particle and $V(\textbf{r})$ is the potential energ
 Using the product rule and the definition of probability current, we can expand the left side of the equation as:
 
 
-
 $$
 
 i\hbar(\psi^*\frac{\partial\psi}{\partial t} + \frac{\partial\psi^*}{\partial t}\psi) = i\hbar(\psi^*\frac{\partial\psi}{\partial t} - \psi\frac{\partial\psi^*}{\partial t}) + 2i\hbar\textbf{J}\cdot\nabla\psi^*\psi
@@ -9777,9 +9465,7 @@ i\hbar(\psi^*\frac{\partial\psi}{\partial t} + \frac{\partial\psi^*}{\partial t}
 $$
 
 
-
 Substituting this into the Schrödinger equation, we get:
-
 
 
 $$
@@ -9789,9 +9475,7 @@ i\hbar(\psi^*\frac{\partial\psi}{\partial t} - \psi\frac{\partial\psi^*}{\partia
 $$
 
 
-
 Rearranging and simplifying, we get:
-
 
 
 $$
@@ -9801,9 +9485,7 @@ i\hbar(\psi^*\frac{\partial\psi}{\partial t} - \psi\frac{\partial\psi^*}{\partia
 $$
 
 
-
 Taking the complex conjugate of both sides, we get:
-
 
 
 $$
@@ -9813,9 +9495,7 @@ $$
 $$
 
 
-
 Adding these two equations together, we get:
-
 
 
 $$
@@ -9825,9 +9505,7 @@ i\hbar\frac{\partial}{\partial t}(\psi^*\psi + \psi\psi^*) = -\frac{\hbar^2}{2m}
 $$
 
 
-
 Using the continuity equation, we can rewrite the last term as:
-
 
 
 $$
@@ -9837,9 +9515,7 @@ i\hbar\frac{\partial}{\partial t}(\psi^*\psi + \psi\psi^*) = -\frac{\hbar^2}{2m}
 $$
 
 
-
 Finally, we can simplify this equation to:
-
 
 
 $$
@@ -9847,7 +9523,6 @@ $$
 \frac{\partial}{\partial t}(\psi^*\psi + \psi\psi^*) = -\frac{i\hbar}{2m}(\psi^*\nabla^2\psi - \psi\nabla^2\psi^*) + V(\textbf{r})(\psi^*\psi + \psi\psi^*) - i\nabla\cdot\textbf{J}
 
 $$
-
 
 
 This equation is known as the continuity equation in terms of the wavefunction. By equating the real and imaginary parts of this equation to the continuity equation in terms of probability density and probability current, we can prove that current conservation holds true in quantum mechanics.
@@ -9907,13 +9582,11 @@ This principle is closely related to the concept of probability current. As we l
 Mathematically, current conservation can be expressed as:
 
 
-
 $$
 
 \frac{\partial\rho}{\partial t} + \nabla\cdot\textbf{J} = 0
 
 $$
-
 
 
 where $\rho$ is the probability density and $\textbf{J}$ is the probability current.
@@ -9931,13 +9604,11 @@ This equation is known as the continuity equation and it is a fundamental equati
 Now that we understand the concept of current conservation, let us explore how it can be proven mathematically. To do so, we will use the Schrödinger equation, which describes the time evolution of the wavefunction. The Schrödinger equation is given by:
 
 
-
 $$
 
 i\hbar\frac{\partial\psi}{\partial t} = \hat{H}\psi
 
 $$
-
 
 
 where $\psi$ is the wavefunction, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -9947,7 +9618,6 @@ where $\psi$ is the wavefunction, $\hat{H}$ is the Hamiltonian operator, and $\h
 We can rewrite this equation in terms of the probability density $\rho$ and the probability current $\textbf{J}$ as:
 
 
-
 $$
 
 i\hbar\frac{\partial\rho}{\partial t} = -\nabla\cdot\textbf{J}
@@ -9955,9 +9625,7 @@ i\hbar\frac{\partial\rho}{\partial t} = -\nabla\cdot\textbf{J}
 $$
 
 
-
 Using the continuity equation, we can substitute $\nabla\cdot\textbf{J}$ with $-\frac{\partial\rho}{\partial t}$, giving us:
-
 
 
 $$
@@ -9967,9 +9635,7 @@ i\hbar\frac{\partial\rho}{\partial t} = \frac{\partial\rho}{\partial t}
 $$
 
 
-
 This equation simplifies to:
-
 
 
 $$
@@ -9977,7 +9643,6 @@ $$
 i\hbar = 1
 
 $$
-
 
 
 Since this equation must hold true for all values of $\rho$ and $\textbf{J}$, we can conclude that $i\hbar = 1$, which is only possible if $\hbar = 0$. This means that the probability density and probability current must be constant over time, proving the principle of current conservation.
@@ -10025,13 +9690,11 @@ In quantum mechanics, operators play a crucial role in describing the behavior o
 Hermitian operators are named after the French mathematician Charles Hermite and are defined as operators that are equal to their own adjoint. In other words, the adjoint of a Hermitian operator is the same as the operator itself. Mathematically, this can be expressed as:
 
 
-
 $$
 
 A^\dagger = A
 
 $$
-
 
 
 where $A^\dagger$ is the adjoint of $A$.
@@ -10041,13 +9704,11 @@ where $A^\dagger$ is the adjoint of $A$.
 To better understand Hermitian operators, let us first define the adjoint of an operator. The adjoint of an operator $A$ is denoted by $A^\dagger$ and is defined as the operator that satisfies the following equation:
 
 
-
 $$
 
 \langle \psi | A^\dagger \phi \rangle = \langle A \psi | \phi \rangle
 
 $$
-
 
 
 where $\psi$ and $\phi$ are arbitrary wavefunctions.
@@ -10057,13 +9718,11 @@ where $\psi$ and $\phi$ are arbitrary wavefunctions.
 The adjoint of an operator can also be interpreted geometrically. If we have two Hilbert spaces $H_1$ and $H_2$, then the direct sum $H_1 \oplus H_2$ is also a Hilbert space with an inner product defined as:
 
 
-
 $$
 
 \langle (a,c) | (b,d) \rangle = \langle a | b \rangle + \langle c | d \rangle
 
 $$
-
 
 
 where $a,c \in H_1$ and $b,d \in H_2$.
@@ -10073,13 +9732,11 @@ where $a,c \in H_1$ and $b,d \in H_2$.
 Now, let us consider the symplectic mapping $J: H \oplus H \to H \oplus H$, defined as $J(\xi, \eta) = (-\eta, \xi)$. The graph of the adjoint operator $A^\dagger$ is then the orthogonal complement of $JG(A)$, where $G(A)$ is the graph of $A$. This can be expressed as:
 
 
-
 $$
 
 G(A^\dagger) = (JG(A))^\perp
 
 $$
-
 
 
 This geometric interpretation of the adjoint of an operator is crucial in understanding Hermitian operators. It allows us to prove the following corollaries:
@@ -10101,13 +9758,11 @@ An operator $A$ is considered "closed" if the graph $G(A)$ is topologically clos
 An operator $A$ is considered "closable" if the topological closure $G^\text{cl}(A)$ of its graph is the graph of a function. The adjoint operator $A^\dagger$ is densely defined if and only if $A$ is closable. This can be proven by considering an arbitrary vector $v \in H$ and showing that:
 
 
-
 $$
 
 v \in D(A^\dagger)^\perp \iff (v,0) \in G(A^\dagger)^\perp \iff (v,0) \in (JG(A))^\text{cl} = JG^\text{cl}(A) \iff (0,-v) = J^{-1}(v,0) \in G^\text{cl}(A) \iff (0,v) \in G^\text{cl}(A)
 
 $$
-
 
 
 ##### A<sup|**> = A<sup|cl>
@@ -10147,13 +9802,11 @@ In quantum mechanics, operators play a crucial role in describing the behavior o
 Hermitian operators are named after the French mathematician Charles Hermite and are defined as operators that are equal to their own adjoint. In other words, the adjoint of a Hermitian operator is the same as the operator itself. Mathematically, this can be expressed as:
 
 
-
 $$
 
 A^\dagger = A
 
 $$
-
 
 
 where $A^\dagger$ is the adjoint of $A$.
@@ -10163,13 +9816,11 @@ where $A^\dagger$ is the adjoint of $A$.
 To better understand Hermitian operators, let us first define the adjoint of an operator. The adjoint of an operator $A$ is denoted by $A^\dagger$ and is defined as the operator that satisfies the following equation:
 
 
-
 $$
 
 \langle \psi | A^\dagger \phi \rangle = \langle A \psi | \phi \rangle
 
 $$
-
 
 
 where $\psi$ and $\phi$ are arbitrary wavefunctions.
@@ -10179,13 +9830,11 @@ where $\psi$ and $\phi$ are arbitrary wavefunctions.
 The adjoint of an operator can also be interpreted geometrically. If we have two Hilbert spaces $H_1$ and $H_2$, then the direct sum $H_1 \oplus H_2$ is also a Hilbert space with an inner product defined as:
 
 
-
 $$
 
 \langle (a,c) | (b,d) \rangle = \langle a | b \rangle + \langle c | d \rangle
 
 $$
-
 
 
 where $a,c \in H_1$ and $b,d \in H_2$.
@@ -10257,13 +9906,11 @@ In quantum mechanics, operators play a crucial role in describing the behavior o
 Hermitian operators are named after the French mathematician Charles Hermite and are defined as operators that are equal to their own adjoint. In other words, the adjoint of a Hermitian operator is the same as the operator itself. Mathematically, this can be expressed as:
 
 
-
 $$
 
 A^\dagger = A
 
 $$
-
 
 
 where $A^\dagger$ is the adjoint of $A$.
@@ -10273,13 +9920,11 @@ where $A^\dagger$ is the adjoint of $A$.
 To better understand Hermitian operators, let us first define the adjoint of an operator. The adjoint of an operator $A$ is denoted by $A^\dagger$ and is defined as the operator that satisfies the following equation:
 
 
-
 $$
 
 \langle \psi | A^\dagger \phi \rangle = \langle A \psi | \phi \rangle
 
 $$
-
 
 
 where $\psi$ and $\phi$ are arbitrary wavefunctions.
@@ -10289,13 +9934,11 @@ where $\psi$ and $\phi$ are arbitrary wavefunctions.
 The adjoint of an operator can also be interpreted geometrically. If we have two Hilbert spaces $H_1$ and $H_2$, then the direct sum $H_1 \oplus H_2$ is also a Hilbert space with an inner product defined as:
 
 
-
 $$
 
 \langle (a,c) | (b,d) \rangle = \langle a | b \rangle + \langle c | d \rangle
 
 $$
-
 
 
 where $a,c \in H_1$ and $b,d \in H_2$.
@@ -10485,13 +10128,11 @@ In quantum mechanics, operators are mathematical representations of physical qua
 To understand expectation values of operators, we must first understand the concept of a wave function. In quantum mechanics, the wave function represents the state of a quantum system and contains all the information about the system. The square of the wave function gives us the probability of finding a particle in a particular state. The expectation value of an operator is calculated by taking the integral of the product of the wave function and the operator over all possible states. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A \rangle = \int \psi^*(x) A \psi(x) dx
 
 $$
-
 
 
 where $\psi(x)$ is the wave function and $A$ is the operator.
@@ -10505,13 +10146,11 @@ The expectation value of an operator is a complex number and can have both real 
 One important property of expectation values is that they are linear. This means that the expectation value of a sum of operators is equal to the sum of the expectation values of each individual operator. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A + B \rangle = \langle A \rangle + \langle B \rangle
 
 $$
-
 
 
 This property allows us to simplify calculations and make predictions about the behavior of quantum systems.
@@ -10521,13 +10160,11 @@ This property allows us to simplify calculations and make predictions about the 
 In quantum mechanics, the expectation value of an operator is closely related to the eigenvalues of the operator. Eigenvalues are the values that an operator returns when acting on its corresponding eigenfunctions. The expectation value of an operator is equal to the sum of the products of the eigenvalues and the probabilities of measuring each eigenvalue. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A \rangle = \sum_i \lambda_i P_i
 
 $$
-
 
 
 where $\lambda_i$ is the eigenvalue and $P_i$ is the probability of measuring that eigenvalue.
@@ -10551,13 +10188,11 @@ In quantum mechanics, operators are mathematical representations of physical qua
 To understand expectation values of operators, we must first understand the concept of a wave function. In quantum mechanics, the wave function represents the state of a quantum system and contains all the information about the system. The square of the wave function gives us the probability of finding a particle in a particular state. The expectation value of an operator is calculated by taking the integral of the product of the wave function and the operator over all possible states. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A \rangle = \int \psi^*(x) A \psi(x) dx
 
 $$
-
 
 
 where $\psi(x)$ is the wave function and $A$ is the operator.
@@ -10571,13 +10206,11 @@ The expectation value of an operator is a complex number and can have both real 
 One important property of expectation values is that they are linear. This means that the expectation value of a sum of operators is equal to the sum of the expectation values of each individual operator. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A + B \rangle = \langle A \rangle + \langle B \rangle
 
 $$
-
 
 
 This property allows us to simplify calculations and make predictions about the behavior of quantum systems. However, it is important to note that this linearity only holds for operators that commute with each other. If two operators do not commute, then their expectation values cannot be added together.
@@ -10613,13 +10246,11 @@ In quantum mechanics, operators are mathematical representations of physical qua
 To understand expectation values of operators, we must first understand the concept of a wave function. In quantum mechanics, the wave function represents the state of a quantum system and contains all the information about the system. The square of the wave function gives us the probability of finding a particle in a particular state. The expectation value of an operator is calculated by taking the integral of the product of the wave function and the operator over all possible states. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A \rangle = \int \psi^*(x) A \psi(x) dx
 
 $$
-
 
 
 where $\psi(x)$ is the wave function and $A$ is the operator.
@@ -10633,13 +10264,11 @@ The expectation value of an operator is a complex number and can have both real 
 One important property of expectation values is that they are linear. This means that the expectation value of a sum of operators is equal to the sum of the expectation values of each individual operator. Mathematically, it can be represented as:
 
 
-
 $$
 
 \langle A + B \rangle = \langle A \rangle + \langle B \rangle
 
 $$
-
 
 
 This property allows us to simplify calculations and make predictions about the behavior of quantum systems. However, it is important to note that this linearity only holds for operators that commute with each other. If two operators do not commute, then their expectation values cannot be added together in this way.
@@ -10649,13 +10278,11 @@ This property allows us to simplify calculations and make predictions about the 
 Now, let's explore some applications of expectation values of operators. One important application is in the calculation of uncertainty. In quantum mechanics, the uncertainty principle states that it is impossible to know the exact values of certain pairs of physical quantities, such as position and momentum, at the same time. The uncertainty in a measurement can be quantified by the standard deviation, which is related to the expectation value of the squared operator. Mathematically, it can be represented as:
 
 
-
 $$
 
 \Delta A = \sqrt{\langle A^2 \rangle - \langle A \rangle^2}
 
 $$
-
 
 
 This equation shows that the uncertainty in a measurement is related to the difference between the expectation value of the squared operator and the square of the expectation value. By calculating these values, we can gain a better understanding of the behavior of quantum systems and make more accurate predictions about their measurements.
@@ -10687,13 +10314,11 @@ In the previous section, we discussed the concept of expectation values and how 
 A wave-packet is a localized wave function that represents the state of a quantum system. It is a superposition of different energy eigenstates and contains all the information about the system. In quantum mechanics, the time evolution of a wave-packet is described by the Schrödinger equation:
 
 
-
 $$
 
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
 
 $$
-
 
 
 where $\psi(x,t)$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -10707,13 +10332,11 @@ The time evolution of a wave-packet can be understood by looking at the Fourier 
 To better understand the time evolution of a wave-packet, let's consider the example of a free particle. In this case, the Hamiltonian operator is simply the kinetic energy operator, $\hat{H} = \frac{\hat{p}^2}{2m}$. The time evolution of the wave-packet can then be described by the following equation:
 
 
-
 $$
 
 \psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(k,0) e^{i(kx-\frac{\hbar k^2}{2m}t)} dk
 
 $$
-
 
 
 where $\psi(k,0)$ is the Fourier transform of the initial wave-packet.
@@ -10749,13 +10372,11 @@ In the previous section, we discussed the concept of expectation values and how 
 A wave-packet is a localized wave function that represents the state of a quantum system. It is a superposition of different energy eigenstates and contains all the information about the system. In quantum mechanics, the time evolution of a wave-packet is described by the Schrödinger equation:
 
 
-
 $$
 
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
 
 $$
-
 
 
 where $\psi(x,t)$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -10769,13 +10390,11 @@ The time evolution of a wave-packet can be understood by looking at the Fourier 
 To better understand the time evolution of a wave-packet, let's consider the example of a free particle. In this case, the Hamiltonian operator is simply the kinetic energy operator, $\hat{H} = \frac{\hat{p}^2}{2m}$. The time evolution of the wave-packet can then be described by the following equation:
 
 
-
 $$
 
 \psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(k,0) e^{i(kx-\frac{\hbar k^2}{2m}t)} dk
 
 $$
-
 
 
 where $\psi(k,0)$ is the Fourier transform of the initial wave-packet.
@@ -10793,13 +10412,11 @@ One interesting aspect of wave-packet dispersion is that it is related to the co
 Another important concept related to the time evolution of wave-packets is the concept of group velocity. The group velocity is the velocity at which the peak of the wave-packet moves. In the case of a free particle, the group velocity is given by:
 
 
-
 $$
 
 v_g = \frac{\partial \omega}{\partial k}
 
 $$
-
 
 
 where $\omega$ is the angular frequency and $k$ is the wave number. This means that the group velocity is related to the dispersion relation of the wave-packet.
@@ -10827,13 +10444,11 @@ In the previous section, we discussed the concept of expectation values and how 
 A wave-packet is a localized wave function that represents the state of a quantum system. It is a superposition of different energy eigenstates and contains all the information about the system. In quantum mechanics, the time evolution of a wave-packet is described by the Schrödinger equation:
 
 
-
 $$
 
 i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t)
 
 $$
-
 
 
 where $\psi(x,t)$ is the wave function, $\hat{H}$ is the Hamiltonian operator, and $\hbar$ is the reduced Planck's constant.
@@ -10847,13 +10462,11 @@ The time evolution of a wave-packet can be understood by looking at the Fourier 
 To better understand the time evolution of a wave-packet, let's consider the example of a free particle. In this case, the Hamiltonian operator is simply the kinetic energy operator, $\hat{H} = \frac{\hat{p}^2}{2m}$. The time evolution of the wave-packet can then be described by the following equation:
 
 
-
 $$
 
 \psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} \psi(k,0) e^{i(kx-\frac{\hbar k^2}{2m}t)} dk
 
 $$
-
 
 
 where $\psi(k,0)$ is the Fourier transform of the initial wave-packet.
@@ -10905,13 +10518,11 @@ Fourier transforms are mathematical operations that decompose a function into it
 The Fourier transform of a function $f(x)$ is defined as:
 
 
-
 $$
 
 \mathcal{F}[f(x)] = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 
 $$
-
 
 
 where $\xi$ is the frequency variable. This operation essentially breaks down the function $f(x)$ into its constituent frequencies, with each frequency having a corresponding amplitude and phase.
@@ -10921,13 +10532,11 @@ where $\xi$ is the frequency variable. This operation essentially breaks down th
 In quantum mechanics, the Fourier transform is used to transform a wave function $\psi(x)$ from the position basis to the momentum basis. This is done by replacing the position variable $x$ with the momentum variable $p$ in the Fourier transform equation:
 
 
-
 $$
 
 \mathcal{F}[\psi(x)] = \int_{-\infty}^{\infty} \psi(x) e^{-i2\pi\xi p} dx
 
 $$
-
 
 
 The resulting function, $\psi(p)$, is now in the momentum basis and represents the wave function in terms of its momentum components. This allows us to analyze the wave function in terms of its momentum distribution, which is crucial in understanding the behavior of particles in quantum systems.
@@ -10965,13 +10574,11 @@ The Fourier transform is commutative, meaning that the order in which the transf
 The Fourier transform is also related to time reversal, as shown by the equation:
 
 
-
 $$
 
 \mathcal{F}[\psi(-x)] = \psi(-\xi)
 
 $$
-
 
 
 This means that the Fourier transform of a function that is reflected about the origin is equal to the function evaluated at the negative frequency.
@@ -10985,13 +10592,11 @@ This means that the Fourier transform of a function that is reflected about the 
 Just like any other mathematical operation, the Fourier transform also has an inverse operation. The inverse Fourier transform is defined as:
 
 
-
 $$
 
 \mathcal{F}^{-1}[\psi(p)] = \int_{-\infty}^{\infty} \psi(p) e^{i2\pi\xi x} dp
 
 $$
-
 
 
 This operation allows us to transform a function back to its original basis, whether it is the position or momentum basis.
@@ -11035,13 +10640,11 @@ Fourier transforms are mathematical operations that decompose a function into it
 The Fourier transform of a function $f(x)$ is defined as:
 
 
-
 $$
 
 \mathcal{F}[f(x)] = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 
 $$
-
 
 
 where $\xi$ is the frequency variable. This operation essentially breaks down the function $f(x)$ into its constituent frequencies, with each frequency having a corresponding amplitude and phase.
@@ -11051,13 +10654,11 @@ where $\xi$ is the frequency variable. This operation essentially breaks down th
 In quantum mechanics, the Fourier transform is used to transform a wave function $\psi(x)$ from the position basis to the momentum basis. This is done by replacing the position variable $x$ with the momentum variable $p$ in the Fourier transform equation:
 
 
-
 $$
 
 \mathcal{F}[\psi(x)] = \int_{-\infty}^{\infty} \psi(x) e^{-i2\pi\xi p} dx
 
 $$
-
 
 
 The resulting function, $\psi(p)$, is now in the momentum basis and represents the wave function in terms of its momentum components. This allows us to analyze the wave function in terms of its momentum distribution, which is crucial in understanding the behavior of particles in quantum systems.
@@ -11123,7 +10724,6 @@ Now that we understand the properties of Fourier transforms, let us explore how 
 The expectation value of an operator $\hat{A}$ is given by:
 
 
-
 $$
 
 \langle \hat{A} \rangle = \int \psi^*(x) \hat{A} \psi(x) dx
@@ -11131,9 +10731,7 @@ $$
 $$
 
 
-
 We can use the Fourier transform to transform the wave function $\psi(x)$ into the momentum basis, allowing us to calculate the expectation value in terms of momentum components. Similarly, the uncertainty in a measurement of an operator $\hat{A}$ is given by:
-
 
 
 $$
@@ -11141,7 +10739,6 @@ $$
 \Delta A = \sqrt{\langle \hat{A}^2 \rangle - \langle \hat{A} \rangle^2}
 
 $$
-
 
 
 Again, we can use the Fourier transform to transform the wave function into the momentum basis and calculate the uncertainty in terms of momentum components.
@@ -11181,13 +10778,11 @@ Fourier transforms are mathematical operations that decompose a function into it
 The Fourier transform of a function $f(x)$ is defined as:
 
 
-
 $$
 
 \mathcal{F}[f(x)] = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 
 $$
-
 
 
 where $\xi$ is the frequency variable. This operation essentially breaks down the function $f(x)$ into its constituent frequencies, with each frequency having a corresponding amplitude and phase.
@@ -11197,13 +10792,11 @@ where $\xi$ is the frequency variable. This operation essentially breaks down th
 In quantum mechanics, the Fourier transform is used to transform a wave function $\psi(x)$ from the position basis to the momentum basis. This is done by replacing the position variable $x$ with the momentum variable $p$ in the Fourier transform equation:
 
 
-
 $$
 
 \mathcal{F}[\psi(x)] = \int_{-\infty}^{\infty} \psi(x) e^{-i2\pi\xi p} dx
 
 $$
-
 
 
 The resulting function, $\psi(p)$, is now in the momentum basis and represents the wave function in terms of its momentum components. This allows us to analyze the wave function in terms of its momentum distribution, which is crucial in understanding the behavior of particles in quantum systems.
@@ -11225,13 +10818,11 @@ Similar to other mathematical operations, Fourier transforms have certain proper
 The Fourier transform is a linear operation, meaning that it follows the rules of linearity. This means that if we have two functions $f(x)$ and $g(x)$, and we take the Fourier transform of their sum, it is equal to the sum of their individual Fourier transforms:
 
 
-
 $$
 
 \mathcal{F}[f(x) + g(x)] = \mathcal{F}[f(x)] + \mathcal{F}[g(x)]
 
 $$
-
 
 
 This property is useful in simplifying complex wave functions and allows us to break them down into simpler components.
@@ -11245,13 +10836,11 @@ This property is useful in simplifying complex wave functions and allows us to b
 The convolution theorem states that the Fourier transform of the convolution of two functions is equal to the product of their individual Fourier transforms:
 
 
-
 $$
 
 \mathcal{F}[f(x) * g(x)] = \mathcal{F}[f(x)] \cdot \mathcal{F}[g(x)]
 
 $$
-
 
 
 This property is useful in solving differential equations and in signal processing.
@@ -11265,13 +10854,11 @@ This property is useful in solving differential equations and in signal processi
 The shift theorem states that if we shift a function $f(x)$ by a constant $a$, the Fourier transform of the shifted function is equal to the Fourier transform of the original function multiplied by a phase factor:
 
 
-
 $$
 
 \mathcal{F}[f(x-a)] = e^{-i2\pi\xi a} \cdot \mathcal{F}[f(x)]
 
 $$
-
 
 
 This property is useful in analyzing the effects of translations on wave functions.
@@ -11363,13 +10950,11 @@ The Parseval theorem states that the energy of a signal can be calculated in eit
 Mathematically, the Parseval theorem can be expressed as:
 
 
-
 $$
 
 \int_{-\infty}^{\infty} |f(x)|^2 dx = \int_{-\infty}^{\infty} |F(\xi)|^2 d\xi
 
 $$
-
 
 
 where $f(x)$ is the signal in the time domain and $F(\xi)$ is its Fourier transform in the frequency domain.
@@ -11387,7 +10972,6 @@ In quantum mechanics, the Parseval theorem is used to calculate the expectation 
 To prove the Parseval theorem, we first define the Fourier transform of a function $f(x)$ as:
 
 
-
 $$
 
 F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
@@ -11395,9 +10979,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 We can then express the inverse Fourier transform as:
-
 
 
 $$
@@ -11407,9 +10989,7 @@ f(x) = \int_{-\infty}^{\infty} F(\xi) e^{i2\pi\xi x} d\xi
 $$
 
 
-
 Using these definitions, we can rewrite the Parseval theorem as:
-
 
 
 $$
@@ -11419,7 +10999,6 @@ $$
 $$
 
 
-
 where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 
 
@@ -11427,13 +11006,11 @@ where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 To prove this, we use the fact that the Fourier transform is a unitary operator, meaning that it preserves inner products. This allows us to rewrite the integral as:
 
 
-
 $$
 
 \int_{-\infty}^{\infty} f(x) \overline{f(x)} dx = \int_{-\infty}^{\infty} F(\xi) \overline{F(\xi)} d\xi
 
 $$
-
 
 
 which is equal to the integral in the frequency domain. Therefore, the Parseval theorem holds true.
@@ -11467,7 +11044,6 @@ Now that we have explored the concept of Parseval theorem and its applications i
 To prove the Parseval theorem, we first define the Fourier transform of a function $f(x)$ as:
 
 
-
 $$
 
 F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
@@ -11475,9 +11051,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 We can then express the inverse Fourier transform as:
-
 
 
 $$
@@ -11487,9 +11061,7 @@ f(x) = \int_{-\infty}^{\infty} F(\xi) e^{i2\pi\xi x} d\xi
 $$
 
 
-
 Using these definitions, we can rewrite the Parseval theorem as:
-
 
 
 $$
@@ -11499,7 +11071,6 @@ $$
 $$
 
 
-
 where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 
 
@@ -11507,13 +11078,11 @@ where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 To prove this, we use the fact that the Fourier transform is a unitary operator, meaning that it preserves inner products. This allows us to rewrite the integral as:
 
 
-
 $$
 
 \int_{-\infty}^{\infty} f(x) \overline{f(x)} dx = \int_{-\infty}^{\infty} F(\xi) \overline{F(\xi)} d\xi
 
 $$
-
 
 
 which is equal to the integral in the frequency domain. Therefore, the Parseval theorem holds true.
@@ -11561,7 +11130,6 @@ The Parseval theorem states that the energy of a signal can be calculated in eit
 To prove the Parseval theorem, we first define the Fourier transform of a function $f(x)$ as:
 
 
-
 $$
 
 F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
@@ -11569,9 +11137,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 We can then express the inverse Fourier transform as:
-
 
 
 $$
@@ -11581,9 +11147,7 @@ f(x) = \int_{-\infty}^{\infty} F(\xi) e^{i2\pi\xi x} d\xi
 $$
 
 
-
 Using these definitions, we can rewrite the Parseval theorem as:
-
 
 
 $$
@@ -11593,13 +11157,11 @@ $$
 $$
 
 
-
 where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 
 
 
 To prove this, we use the fact that the Fourier transform is a unitary operator, meaning that it preserves inner products. This allows us to rewrite the integral as:
-
 
 
 $$
@@ -11609,9 +11171,7 @@ $$
 $$
 
 
-
 Next, we use the definition of the inverse Fourier transform to rewrite $F(\xi)$ as:
-
 
 
 $$
@@ -11621,9 +11181,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 Substituting this into the integral, we get:
-
 
 
 $$
@@ -11633,9 +11191,7 @@ $$
 $$
 
 
-
 Using the properties of complex conjugates, we can rewrite this as:
-
 
 
 $$
@@ -11645,9 +11201,7 @@ $$
 $$
 
 
-
 Next, we use the properties of integrals to rewrite this as:
-
 
 
 $$
@@ -11657,9 +11211,7 @@ $$
 $$
 
 
-
 Using the change of variables $u = x-y$, we can rewrite this as:
-
 
 
 $$
@@ -11669,9 +11221,7 @@ $$
 $$
 
 
-
 Next, we use the fact that the Fourier transform is a linear operator to rewrite this as:
-
 
 
 $$
@@ -11681,9 +11231,7 @@ $$
 $$
 
 
-
 Finally, we use the definition of the inverse Fourier transform to rewrite this as:
-
 
 
 $$
@@ -11693,9 +11241,7 @@ $$
 $$
 
 
-
 Using the fact that $\int_{-\infty}^{\infty} e^{-i2\pi\xi u} d\xi = \delta(u)$, where $\delta(u)$ is the Dirac delta function, we get:
-
 
 
 $$
@@ -11705,9 +11251,7 @@ $$
 $$
 
 
-
 Finally, using the properties of the Dirac delta function, we get:
-
 
 
 $$
@@ -11715,7 +11259,6 @@ $$
 \int_{-\infty}^{\infty} F(\xi) \overline{F(\xi)} d\xi = \int_{-\infty}^{\infty} f(x) \overline{f(x)} dx
 
 $$
-
 
 
 which proves the Parseval theorem. This result is important in quantum mechanics, where it is used to calculate the expectation value of an operator.
@@ -11743,7 +11286,6 @@ The Parseval theorem states that the energy of a signal can be calculated in eit
 To prove the Parseval theorem, we first define the Fourier transform of a function $f(x)$ as:
 
 
-
 $$
 
 F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
@@ -11751,9 +11293,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 We can then express the inverse Fourier transform as:
-
 
 
 $$
@@ -11763,9 +11303,7 @@ f(x) = \int_{-\infty}^{\infty} F(\xi) e^{i2\pi\xi x} d\xi
 $$
 
 
-
 Using these definitions, we can rewrite the Parseval theorem as:
-
 
 
 $$
@@ -11775,13 +11313,11 @@ $$
 $$
 
 
-
 where $\overline{f(x)}$ is the complex conjugate of $f(x)$.
 
 
 
 To prove this, we use the fact that the Fourier transform is a unitary operator, meaning that it preserves inner products. This allows us to rewrite the integral as:
-
 
 
 $$
@@ -11791,9 +11327,7 @@ $$
 $$
 
 
-
 Next, we use the definition of the inverse Fourier transform to rewrite $F(\xi)$ as:
-
 
 
 $$
@@ -11803,9 +11337,7 @@ F(\xi) = \int_{-\infty}^{\infty} f(x) e^{-i2\pi\xi x} dx
 $$
 
 
-
 Substituting this into the integral, we get:
-
 
 
 $$
@@ -11815,9 +11347,7 @@ $$
 $$
 
 
-
 Using the properties of complex conjugates, we can rewrite this as:
-
 
 
 $$
@@ -11827,9 +11357,7 @@ $$
 $$
 
 
-
 We can then use the properties of integrals to rewrite this as:
-
 
 
 $$
@@ -11839,9 +11367,7 @@ $$
 $$
 
 
-
 Next, we use the fact that the Fourier transform is a linear operator, meaning that it distributes over addition and scalar multiplication. This allows us to rewrite the integral as:
-
 
 
 $$
@@ -11851,9 +11377,7 @@ $$
 $$
 
 
-
 We can then use the definition of the inverse Fourier transform to rewrite the inner integral as:
-
 
 
 $$
@@ -11863,9 +11387,7 @@ $$
 $$
 
 
-
 Using the properties of integrals, we can rewrite this as:
-
 
 
 $$
@@ -11875,9 +11397,7 @@ $$
 $$
 
 
-
 Next, we use the fact that the Fourier transform is a unitary operator to rewrite the inner integral as:
-
 
 
 $$
@@ -11887,9 +11407,7 @@ $$
 $$
 
 
-
 where $\delta(x-z)$ is the Dirac delta function. Using the properties of the delta function, we can rewrite this as:
-
 
 
 $$
@@ -11897,7 +11415,6 @@ $$
 \int_{-\infty}^{\infty} F(\xi) \overline{F(\xi)} d\xi = \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} f(x) \overline{f(y)} f(z) \delta(x-z) dx\right) dz dy = \int_{-\infty}^{\infty} f(x) \overline{f(x)} dx
 
 $$
-
 
 
 This proves the Parseval theorem, as desired. This theorem has important applications in quantum mechanics, where it is used to calculate the expectation value of an operator. We will explore these applications in the next subsection.
@@ -11929,13 +11446,11 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 The uncertainty relation can be mathematically expressed as:
 
 
-
 $$
 
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle |
 
 $$
-
 
 
 where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of observables $A$ and $B$, respectively, and $[A,B]$ is the commutator of the two observables.
@@ -11945,13 +11460,11 @@ where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of obs
 This relation can also be written in terms of the variances of the observables as:
 
 
-
 $$
 
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle [A,B] \rangle |^2
 
 $$
-
 
 
 where $\Delta A^2$ and $\Delta B^2$ are the variances of the observables $A$ and $B$, respectively.
@@ -11999,13 +11512,11 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 The uncertainty relation can be mathematically expressed as:
 
 
-
 $$
 
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle |
 
 $$
-
 
 
 where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of observables $A$ and $B$, respectively, and $[A,B]$ is the commutator of the two observables.
@@ -12015,13 +11526,11 @@ where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of obs
 This relation can also be written in terms of the variances of the observables as:
 
 
-
 $$
 
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle [A,B] \rangle |^2
 
 $$
-
 
 
 where $\Delta A^2$ and $\Delta B^2$ are the variances of the observables $A$ and $B$, respectively.
@@ -12043,13 +11552,11 @@ The uncertainty relation also has implications for the measurement of incompatib
 The uncertainty relation can be proven using mathematical methods. One approach is to use the Cauchy-Schwarz inequality, which states that for any two vectors $\vec{u}$ and $\vec{v}$, the following inequality holds:
 
 
-
 $$
 
 |\langle \vec{u}, \vec{v} \rangle |^2 \leq \langle \vec{u}, \vec{u} \rangle \langle \vec{v}, \vec{v} \rangle
 
 $$
-
 
 
 where $\langle \vec{u}, \vec{v} \rangle$ represents the inner product of the two vectors.
@@ -12059,7 +11566,6 @@ where $\langle \vec{u}, \vec{v} \rangle$ represents the inner product of the two
 To prove the uncertainty relation, we can consider the vectors $\vec{u} = (A - \langle A \rangle)|\Psi \rangle$ and $\vec{v} = (B - \langle B \rangle)|\Psi \rangle$. Using the Cauchy-Schwarz inequality, we can write:
 
 
-
 $$
 
 |\langle \vec{u}, \vec{v} \rangle |^2 \leq \langle \vec{u}, \vec{u} \rangle \langle \vec{v}, \vec{v} \rangle
@@ -12067,9 +11573,7 @@ $$
 $$
 
 
-
 Expanding the inner products, we get:
-
 
 
 $$
@@ -12079,9 +11583,7 @@ $$
 $$
 
 
-
 Simplifying, we get:
-
 
 
 $$
@@ -12091,9 +11593,7 @@ $$
 $$
 
 
-
 Using the definition of variance, we can write:
-
 
 
 $$
@@ -12103,9 +11603,7 @@ $$
 $$
 
 
-
 Finally, using the definition of commutator, we can write:
-
 
 
 $$
@@ -12115,9 +11613,7 @@ $$
 $$
 
 
-
 Taking the square root on both sides, we get the uncertainty relation:
-
 
 
 $$
@@ -12125,7 +11621,6 @@ $$
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle |
 
 $$
-
 
 
 Thus, we have proven the uncertainty relation using the Cauchy-Schwarz inequality. This relation holds for any two incompatible observables, and it is a fundamental result in quantum mechanics that has implications for the precision of measurements and the inherent uncertainty in the behavior of quantum systems.
@@ -12157,13 +11652,11 @@ The uncertainty relation, also known as the Heisenberg uncertainty principle, wa
 The uncertainty relation can be mathematically expressed as:
 
 
-
 $$
 
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle |
 
 $$
-
 
 
 where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of observables $A$ and $B$, respectively, and $[A,B]$ is the commutator of the two observables.
@@ -12173,13 +11666,11 @@ where $\Delta A$ and $\Delta B$ are the uncertainties in the measurements of obs
 This relation can also be written in terms of the variances of the observables as:
 
 
-
 $$
 
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle [A,B] \rangle |^2
 
 $$
-
 
 
 where $\Delta A^2$ and $\Delta B^2$ are the variances of the observables $A$ and $B$, respectively.
@@ -12205,13 +11696,11 @@ The Heisenberg uncertainty relation is not the only uncertainty relation in quan
 The Maccone-Pati uncertainty relation is given by:
 
 
-
 $$
 
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle [A,B] \rangle |^2 + \frac{1}{4} |\langle \Psi | [A,B] | \Psi \rangle |^2
 
 $$
-
 
 
 where $|\Psi \rangle$ is a vector that is orthogonal to the state of the system, and the sign of $\pm i \langle \Psi | [A,B] | \Psi \rangle$ is chosen to be positive.
@@ -12221,13 +11710,11 @@ where $|\Psi \rangle$ is a vector that is orthogonal to the state of the system,
 Another stronger uncertainty relation is given by:
 
 
-
 $$
 
 \Delta A^2 \Delta B^2 \geq \frac{1}{4} |\langle [A,B] \rangle |^2 + \frac{1}{4} |\langle \Psi_{A+B} | [A,B] | \Psi_{A+B} \rangle |^2
 
 $$
-
 
 
 where $|\Psi_{A+B} \rangle$ is a unit vector orthogonal to $|\Psi \rangle$.
@@ -12245,13 +11732,11 @@ These stronger uncertainty relations provide tighter bounds on the sum of the va
 The uncertainty relation has many applications in quantum mechanics and has been used to derive other important results. For example, one can prove an improved version of the Heisenberg uncertainty relation, known as the Schrödinger uncertainty relation, which reads as:
 
 
-
 $$
 
 \Delta A \Delta B \geq \frac{1}{2} |\langle [A,B] \rangle | + \frac{1}{2} |\langle \Psi | [A,B] | \Psi \rangle |
 
 $$
-
 
 
 This uncertainty relation provides a tighter bound on the product of the uncertainties of two incompatible observables.
@@ -12895,7 +12380,6 @@ To understand the behavior of a particle in an infinite square well, we can look
 The wavefunction for a particle in an infinite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
@@ -12903,9 +12387,7 @@ $$
 $$
 
 
-
 where $L$ is the width of the well and $n$ is the quantum number. The energy levels are given by:
-
 
 
 $$
@@ -12913,7 +12395,6 @@ $$
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\hbar$ is the reduced Planck's constant.
@@ -12965,7 +12446,6 @@ To understand the behavior of a particle in an infinite square well, we can look
 The wavefunction for a particle in an infinite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
@@ -12973,9 +12453,7 @@ $$
 $$
 
 
-
 where $L$ is the width of the well and $n$ is the quantum number. The energy levels are given by:
-
 
 
 $$
@@ -12983,7 +12461,6 @@ $$
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\hbar$ is the reduced Planck's constant.
@@ -13047,7 +12524,6 @@ To understand the behavior of a particle in an infinite square well, we can look
 The wavefunction for a particle in an infinite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)
@@ -13055,9 +12531,7 @@ $$
 $$
 
 
-
 where $L$ is the width of the well and $n$ is the quantum number. The energy levels are given by:
-
 
 
 $$
@@ -13065,7 +12539,6 @@ $$
 E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\hbar$ is the reduced Planck's constant.
@@ -13133,7 +12606,6 @@ To understand the behavior of a particle in a finite square well, we can look at
 The wavefunction for a particle in a finite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \begin{cases}
@@ -13147,7 +12619,6 @@ A\sin(kx) & \text{for } 0 < x < a \\
 $$
 
 
-
 where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$.
 
 
@@ -13155,13 +12626,11 @@ where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$
 The energy levels are given by:
 
 
-
 $$
 
 E_n = \frac{n^2\pi^2\hbar^2}{2ma^2} + V_0
 
 $$
-
 
 
 where $m$ is the mass of the particle, $a$ is the width of the well, and $V_0$ is the height of the potential walls.
@@ -13175,7 +12644,6 @@ One interesting feature of the finite square well potential is that the probabil
 In order to solve for the energy levels and wavefunctions for a finite square well potential, we can use the Lambert W function. This function is defined as the inverse of $xe^x$ and can be used to solve transcendental equations. In this case, we can use it to solve the transcendental equation for the energy levels:
 
 
-
 $$
 
 \frac{W\left(\frac{2ma^2}{\hbar^2}\sqrt{2m(E-V_0)}\right)}{2ma^2} = \frac{n^2\pi^2}{2ma^2}
@@ -13183,13 +12651,11 @@ $$
 $$
 
 
-
 where $W(x)$ is the Lambert W function.
 
 
 
 Using the Lambert W function, we can also solve for the wavefunction in terms of the Lambert W function:
-
 
 
 $$
@@ -13203,7 +12669,6 @@ A\sin\left(\sqrt{\frac{2m}{\hbar^2}(E-V_0)}x\right) & \text{for } 0 < x < a \\
 \end{cases}
 
 $$
-
 
 
 where $A$ is a normalization constant and $E$ is the energy level.
@@ -13247,7 +12712,6 @@ To understand the behavior of a particle in a finite square well, we can look at
 The wavefunction for a particle in a finite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \begin{cases}
@@ -13261,7 +12725,6 @@ A\sin(kx) & \text{for } 0 < x < a \\
 $$
 
 
-
 where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$.
 
 
@@ -13269,13 +12732,11 @@ where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$
 The energy levels are given by:
 
 
-
 $$
 
 E_n = \frac{n^2\pi^2\hbar^2}{2ma^2} + V_0
 
 $$
-
 
 
 where $m$ is the mass of the particle, $a$ is the width of the well, and $V_0$ is the height of the potential walls.
@@ -13339,7 +12800,6 @@ To understand the behavior of a particle in a finite square well, we can look at
 The wavefunction for a particle in a finite square well potential is given by:
 
 
-
 $$
 
 \psi(x) = \begin{cases}
@@ -13353,7 +12813,6 @@ A\sin(kx) & \text{for } 0 < x < a \\
 $$
 
 
-
 where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$.
 
 
@@ -13361,13 +12820,11 @@ where $A$ is a normalization constant and $k = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}$
 The energy levels are given by:
 
 
-
 $$
 
 E_n = \frac{n^2\pi^2\hbar^2}{2ma^2} + V_0
 
 $$
-
 
 
 where $m$ is the mass of the particle, $a$ is the width of the well, and $V_0$ is the height of the potential walls.
@@ -13427,7 +12884,6 @@ Semiclassical approximations are based on the idea that in certain situations, t
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The classical equations of motion for this particle are given by:
 
 
-
 $$
 
 m\ddot{x} = -\frac{dV(x)}{dx}
@@ -13435,9 +12891,7 @@ m\ddot{x} = -\frac{dV(x)}{dx}
 $$
 
 
-
 where $m$ is the mass of the particle and $V(x)$ is the potential. We can rewrite this equation in terms of the momentum $p$ and the energy $E$ of the particle:
-
 
 
 $$
@@ -13447,9 +12901,7 @@ $$
 $$
 
 
-
 Integrating both sides, we get:
-
 
 
 $$
@@ -13457,7 +12909,6 @@ $$
 p(x) = \sqrt{2m(E-V(x))}
 
 $$
-
 
 
 This equation tells us that the momentum of the particle is related to the potential energy at a given point. We can use this relationship to approximate the behavior of the particle in the potential well.
@@ -13505,7 +12956,6 @@ Semiclassical approximations are based on the idea that in certain situations, t
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The classical equations of motion for this particle are given by:
 
 
-
 $$
 
 m\ddot{x} = -\frac{dV(x)}{dx}
@@ -13513,9 +12963,7 @@ m\ddot{x} = -\frac{dV(x)}{dx}
 $$
 
 
-
 where $m$ is the mass of the particle and $V(x)$ is the potential. We can rewrite this equation in terms of the momentum $p$ and the energy $E$ of the particle:
-
 
 
 $$
@@ -13525,9 +12973,7 @@ $$
 $$
 
 
-
 Integrating both sides, we get:
-
 
 
 $$
@@ -13537,7 +12983,6 @@ p(x) = \sqrt{2m(E-V(x))}
 $$
 
 
-
 This equation tells us that the momentum of the particle is related to the potential energy at a given point. We can use this relationship to approximate the behavior of the particle in the potential well.
 
 
@@ -13545,13 +12990,11 @@ This equation tells us that the momentum of the particle is related to the poten
 To do this, we first divide the potential well into small regions where the potential is approximately constant. In each region, we can use the classical equation of motion to determine the momentum of the particle. We then use this momentum to calculate the wavefunction for that region using the Schrödinger equation:
 
 
-
 $$
 
 \frac{d^2\psi(x)}{dx^2} + \frac{2m}{\hbar^2}(E-V(x))\psi(x) = 0
 
 $$
-
 
 
 We can then combine the wavefunctions from each region to get an overall approximation for the wavefunction of the particle in the potential well. This approach is known as the WKB (Wentzel-Kramers-Brillouin) approximation.
@@ -13619,7 +13062,6 @@ Semiclassical approximations are based on the idea that in certain situations, t
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The classical equations of motion for this particle are given by:
 
 
-
 $$
 
 m\ddot{x} = -\frac{dV(x)}{dx}
@@ -13627,9 +13069,7 @@ m\ddot{x} = -\frac{dV(x)}{dx}
 $$
 
 
-
 where $m$ is the mass of the particle and $V(x)$ is the potential. We can rewrite this equation in terms of the momentum $p$ and the energy $E$ of the particle:
-
 
 
 $$
@@ -13639,9 +13079,7 @@ $$
 $$
 
 
-
 Integrating both sides, we get:
-
 
 
 $$
@@ -13651,7 +13089,6 @@ p(x) = \sqrt{2m(E-V(x))}
 $$
 
 
-
 This equation tells us that the momentum of the particle is related to the potential energy at a given point. We can use this relationship to approximate the behavior of the particle in the potential well.
 
 
@@ -13659,13 +13096,11 @@ This equation tells us that the momentum of the particle is related to the poten
 To do this, we first divide the potential well into small regions where the potential is approximately constant. In each region, we can use the classical equation of motion to determine the momentum of the particle. We then use this momentum to calculate the wavefunction for that region using the Schrödinger equation:
 
 
-
 $$
 
 \frac{d^2\psi(x)}{dx^2} = -\frac{2m}{\hbar^2}(E-V(x))\psi(x)
 
 $$
-
 
 
 This allows us to approximate the wavefunction in each region and then piece them together to get an overall approximation for the wavefunction in the potential well.
@@ -13725,13 +13160,11 @@ The shooting method is a numerical technique used to solve the Schrödinger equa
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The Schrödinger equation for this particle is given by:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 
 $$
-
 
 
 where $\hbar$ is the reduced Planck's constant, $m$ is the mass of the particle, $V(x)$ is the potential, $E$ is the energy of the particle, and $\psi(x)$ is the wavefunction.
@@ -13775,13 +13208,11 @@ The shooting method is a numerical technique used to solve the Schrödinger equa
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The Schrödinger equation for this particle is given by:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 
 $$
-
 
 
 where $\hbar$ is the reduced Planck's constant, $m$ is the mass of the particle, $V(x)$ is the potential, $E$ is the energy of the particle, and $\psi(x)$ is the wavefunction.
@@ -13853,13 +13284,11 @@ The shooting method is a numerical technique used to solve the Schrödinger equa
 To understand this concept, let's consider a particle in a one-dimensional potential well with boundaries at $x=0$ and $x=a$. The Schrödinger equation for this particle is given by:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 
 $$
-
 
 
 where $\hbar$ is the reduced Planck's constant, $m$ is the mass of the particle, $V(x)$ is the potential, $E$ is the energy of the particle, and $\psi(x)$ is the wavefunction.
@@ -13923,13 +13352,11 @@ In the previous section, we discussed the use of the shooting method to numerica
 The delta function potential, also known as the Dirac delta potential, is a mathematical construct used to model a point-like interaction in quantum mechanics. It is defined as:
 
 
-
 $$
 
 V(x) = -q \left[ \delta(x-a) + \delta(x+a) \right]
 
 $$
-
 
 
 where $q$ is a constant and $a$ is the location of the point-like interaction. This potential is often used to model a diatomic hydrogen molecule, where $a$ represents the distance between the two atoms.
@@ -13977,13 +13404,11 @@ In the previous section, we discussed the use of the shooting method to numerica
 The delta function potential, also known as the Dirac delta potential, is a mathematical construct used to model a point-like interaction in quantum mechanics. It is defined as:
 
 
-
 $$
 
 V(x) = -q \left[ \delta(x-a) + \delta(x+a) \right]
 
 $$
-
 
 
 where $q$ is a constant and $a$ is the location of the point-like interaction. This potential is often used to model a diatomic hydrogen molecule, where $a$ represents the distance between the two atoms.
@@ -14047,13 +13472,11 @@ In the previous section, we discussed the use of the shooting method to numerica
 The delta function potential, also known as the Dirac delta potential, is a mathematical construct used to model a point-like interaction in quantum mechanics. It is defined as:
 
 
-
 $$
 
 V(x) = -q \left[ \delta(x-a) + \delta(x+a) \right]
 
 $$
-
 
 
 where $q$ is a constant and $a$ is the location of the point-like interaction. This potential is often used to model a diatomic hydrogen molecule, where $a$ represents the distance between the two atoms.
@@ -14117,13 +13540,11 @@ In the previous section, we discussed the delta function potential and its use i
 The simple harmonic oscillator potential is a fundamental potential in quantum mechanics that is used to model a wide range of physical systems, including molecular vibrations, atomic oscillations, and even the motion of a pendulum. It is defined as:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric about the origin and has a parabolic shape, with the minimum at $x=0$.
@@ -14137,13 +13558,11 @@ To understand the behavior of a particle in a simple harmonic oscillator potenti
 One interesting feature of the simple harmonic oscillator potential is that it supports a discrete set of energy levels, known as the harmonic oscillator ladder. These energy levels are evenly spaced and can be calculated using the formula:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 
 $$
-
 
 
 where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant. This is in contrast to other potentials, where the energy levels are continuous.
@@ -14153,13 +13572,11 @@ where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant
 Another important aspect of the simple harmonic oscillator potential is its connection to the Hermite polynomials. The Hermite polynomials are a set of orthogonal polynomials that arise in the solution of the Schrödinger equation for the harmonic oscillator potential. They are defined as:
 
 
-
 $$
 
 H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}e^{-x^2}
 
 $$
-
 
 
 where $n$ is a non-negative integer. These polynomials play a crucial role in the calculation of the wavefunctions and energy levels of the harmonic oscillator.
@@ -14195,13 +13612,11 @@ In the previous section, we discussed the delta function potential and its use i
 The simple harmonic oscillator potential is a fundamental potential in quantum mechanics that is used to model a wide range of physical systems, including molecular vibrations, atomic oscillations, and even the motion of a pendulum. It is defined as:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric about the origin and has a parabolic shape, with the minimum at $x=0$.
@@ -14215,13 +13630,11 @@ To understand the behavior of a particle in a simple harmonic oscillator potenti
 One interesting feature of the simple harmonic oscillator potential is that it supports a discrete set of energy levels, known as the harmonic oscillator ladder. These energy levels are evenly spaced and can be calculated using the formula:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 
 $$
-
 
 
 where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant. This is in contrast to other potentials, where the energy levels are continuous.
@@ -14231,7 +13644,6 @@ where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant
 Another important aspect of the simple harmonic oscillator potential is its connection to the Hermite polynomials. The Hermite polynomials are a set of orthogonal polynomials that arise in the solution of the Schrödinger equation for the harmonic oscillator potential. They are defined as:
 
 
-
 $$
 
 H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}e^{-x^2}
@@ -14239,9 +13651,7 @@ H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}e^{-x^2}
 $$
 
 
-
 where $n$ is a non-negative integer. These polynomials have many useful properties, such as being orthogonal with respect to the weight function $e^{-x^2}$ and satisfying the recurrence relation:
-
 
 
 $$
@@ -14249,7 +13659,6 @@ $$
 H_{n+1}(x) = 2xH_n(x) - 2nH_{n-1}(x)
 
 $$
-
 
 
 The Hermite polynomials play a crucial role in the calculation of the energy levels and wavefunctions of the simple harmonic oscillator potential.
@@ -14301,13 +13710,11 @@ In the previous section, we discussed the delta function potential and its use i
 The simple harmonic oscillator potential is a fundamental potential in quantum mechanics that is used to model a wide range of physical systems, including molecular vibrations, atomic oscillations, and even the motion of a pendulum. It is defined as:
 
 
-
 $$
 
 V(x) = \frac{1}{2}m\omega^2x^2
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric about the origin and has a parabolic shape, with the minimum at $x=0$.
@@ -14321,13 +13728,11 @@ To understand the behavior of a particle in a simple harmonic oscillator potenti
 One interesting feature of the simple harmonic oscillator potential is that it supports a discrete set of energy levels, known as the harmonic oscillator ladder. These energy levels are evenly spaced and can be calculated using the formula:
 
 
-
 $$
 
 E_n = \left(n+\frac{1}{2}\right)\hbar\omega
 
 $$
-
 
 
 where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant. This is in contrast to other potentials, where the energy levels are continuous.
@@ -14337,7 +13742,6 @@ where $n$ is a non-negative integer and $\hbar$ is the reduced Planck's constant
 Another important aspect of the simple harmonic oscillator potential is its connection to the Hermite polynomials. The Hermite polynomials are a set of orthogonal polynomials that arise in the solution of the Schrödinger equation for the harmonic oscillator potential. They are given by the formula:
 
 
-
 $$
 
 H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}e^{-x^2}
@@ -14345,9 +13749,7 @@ H_n(x) = (-1)^ne^{x^2}\frac{d^n}{dx^n}e^{-x^2}
 $$
 
 
-
 where $n$ is a non-negative integer. These polynomials have many useful properties, such as being orthogonal with respect to the weight function $e^{-x^2}$ and satisfying the recurrence relation:
-
 
 
 $$
@@ -14355,7 +13757,6 @@ $$
 H_{n+1}(x) = 2xH_n(x) - 2nH_{n-1}(x)
 
 $$
-
 
 
 The Hermite polynomials play a crucial role in the calculation of the energy levels and wavefunctions of the simple harmonic oscillator potential.
@@ -14415,7 +13816,6 @@ When a wave encounters an interface between two media, it can either be reflecte
 For s-polarized light, the reflectance is given by:
 
 
-
 $$
 
 R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
@@ -14423,9 +13823,7 @@ R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
 $$
 
 
-
 where Z1 and Z2 are the wave impedances of media 1 and 2, respectively. Similarly, for p-polarized light, the reflectance is given by:
-
 
 
 $$
@@ -14433,7 +13831,6 @@ $$
 R_p = \left(\frac{n_1\cos\theta_i-n_2\cos\theta_t}{n_1\cos\theta_i+n_2\cos\theta_t}\right)^2
 
 $$
-
 
 
 where n1 and n2 are the refractive indices of media 1 and 2, and θi and θt are the angles of incidence and transmission, respectively.
@@ -14477,7 +13874,6 @@ When a wave encounters an interface between two media, it can either be reflecte
 For s-polarized light, the reflectance is given by:
 
 
-
 $$
 
 R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
@@ -14485,9 +13881,7 @@ R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
 $$
 
 
-
 where Z1 and Z2 are the wave impedances of media 1 and 2, respectively. Similarly, for p-polarized light, the reflectance is given by:
-
 
 
 $$
@@ -14495,7 +13889,6 @@ $$
 R_p = \left(\frac{n_1\cos\theta_i-n_2\cos\theta_t}{n_1\cos\theta_i+n_2\cos\theta_t}\right)^2
 
 $$
-
 
 
 where n1 and n2 are the refractive indices of media 1 and 2, and θi and θt are the angles of incidence and transmission, respectively.
@@ -14563,7 +13956,6 @@ When a wave encounters an interface between two media, it can either be reflecte
 For s-polarized light, the reflectance is given by:
 
 
-
 $$
 
 R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
@@ -14571,9 +13963,7 @@ R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
 $$
 
 
-
 where Z1 and Z2 are the wave impedances of media 1 and 2, respectively. Similarly, for p-polarized light, the reflectance is given by:
-
 
 
 $$
@@ -14581,7 +13971,6 @@ $$
 R_p = \left(\frac{n_1\cos\theta_i-n_2\cos\theta_t}{n_1\cos\theta_i+n_2\cos\theta_t}\right)^2
 
 $$
-
 
 
 where n1 and n2 are the refractive indices of media 1 and 2, and θi and θt are the angles of incidence and transmission, respectively.
@@ -14599,7 +13988,6 @@ It is important to note that these equations assume non-magnetic media and can b
 In order to calculate the reflection and transmission coefficients for a given interface, we must first determine the wave impedances and refractive indices of the two media. This can be done using the following equations:
 
 
-
 $$
 
 Z = \sqrt{\frac{\mu}{\epsilon}} \\
@@ -14607,7 +13995,6 @@ Z = \sqrt{\frac{\mu}{\epsilon}} \\
 n = \sqrt{\epsilon_r \mu_r}
 
 $$
-
 
 
 where Z is the wave impedance, μ is the permeability, ε is the permittivity, and n is the refractive index. Once these values are determined, we can use the Fresnel equations to calculate the reflection and transmission coefficients.
@@ -14679,7 +14066,6 @@ To further understand the Ramsauer-Townsend effect, we must first discuss the co
 In order to calculate the reflection and transmission coefficients for a given interface, we must first determine the wave impedances and refractive indices of the media involved. For s-polarized light, the reflectance is given by:
 
 
-
 $$
 
 R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
@@ -14687,9 +14073,7 @@ R_s = \left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2
 $$
 
 
-
 where Z1 and Z2 are the wave impedances of media 1 and 2, respectively. Similarly, for p-polarized light, the reflectance is given by:
-
 
 
 $$
@@ -14697,7 +14081,6 @@ $$
 R_p = \left(\frac{n_1\cos\theta_i-n_2\cos\theta_t}{n_1\cos\theta_i+n_2\cos\theta_t}\right)^2
 
 $$
-
 
 
 where n1 and n2 are the refractive indices of media 1 and 2, and θi and θt are the angles of incidence and transmission, respectively. These equations assume non-magnetic media and can be simplified using the wave impedances of free space. Additionally, the transmittance can be calculated simply as the difference between 1 and the reflectance for both s and p-polarized light.
@@ -15375,13 +14758,11 @@ In this section, we will explore the concept of resonances and the Breit-Wigner 
 The Breit-Wigner distribution, also known as the Lorentzian distribution, is a probability distribution that describes the behavior of a resonant system. It is defined as:
 
 
-
 $$
 
 P(E) = \frac{1}{\pi} \frac{\frac{1}{2}\Gamma}{(E-E_0)^2 + (\frac{1}{2}\Gamma)^2}
 
 $$
-
 
 
 where $E$ is the energy, $E_0$ is the resonance energy, and $\Gamma$ is the width of the resonance. This distribution is often used to model the behavior of particles in quantum systems, such as atoms and molecules.
@@ -15429,13 +14810,11 @@ In this section, we will explore the concept of resonances and the Breit-Wigner 
 The Breit-Wigner distribution, also known as the Lorentzian distribution, is a probability distribution that describes the behavior of a resonant system. It is defined as:
 
 
-
 $$
 
 P(E) = \frac{1}{\pi} \frac{\frac{1}{2}\Gamma}{(E-E_0)^2 + (\frac{1}{2}\Gamma)^2}
 
 $$
-
 
 
 where $E$ is the energy, $E_0$ is the resonance energy, and $\Gamma$ is the width of the resonance. This distribution is often used to model the behavior of particles in quantum systems, such as atoms and molecules.
@@ -15487,13 +14866,11 @@ In this section, we will explore the concept of resonances and the Breit-Wigner 
 The Breit-Wigner distribution, also known as the Lorentzian distribution, is a probability distribution that describes the behavior of a resonant system. It is defined as:
 
 
-
 $$
 
 P(E) = \frac{1}{\pi} \frac{\frac{1}{2}\Gamma}{(E-E_0)^2 + (\frac{1}{2}\Gamma)^2}
 
 $$
-
 
 
 where $E$ is the energy, $E_0$ is the resonance energy, and $\Gamma$ is the width of the resonance. This distribution is often used to model the behavior of particles in quantum systems, such as atoms and molecules.
@@ -15519,13 +14896,11 @@ The Breit-Wigner distribution is a mathematical representation of this resonance
 In order to fully understand the behavior of resonant systems, we must also introduce the concept of the windowed Wigner distribution function. This function is used to analyze the time-frequency characteristics of a signal, and is defined as:
 
 
-
 $$
 
 W_x(t,f)=\int^\infty_{-\infty} w(\tau) x \left (t+\frac \tau 2 \right)\cdot x^*\left (t-\frac \tau 2 \right)e^{-j 2 \pi \tau f}\cdot d\tau
 
 $$
-
 
 
 where $w(\tau)$ is a window function, $x(t)$ is the signal, and $f$ is the frequency. This function allows us to analyze the time-frequency behavior of a signal, which is crucial in understanding resonant systems.
@@ -16911,13 +16286,11 @@ The virial theorem is a powerful tool in understanding the behavior of systems w
 The virial theorem states that for a system of particles, the time-averaged kinetic energy is equal to the negative of the time-averaged potential energy. Mathematically, this can be expressed as:
 
 
-
 $$
 
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
 
 $$
-
 
 
 where $\langle T \rangle$ is the time-averaged kinetic energy and $\langle V \rangle$ is the time-averaged potential energy.
@@ -16955,7 +16328,6 @@ The virial theorem has several applications in quantum systems, particularly in 
 The virial theorem can be derived using the equations of motion for a system of particles. By considering the total force on each particle and using Newton's third law, we can express the time-averaged kinetic energy as:
 
 
-
 $$
 
 \langle T \rangle = \frac{1}{2}\sum_{k=1}^N \sum_{j=1}^{k-1} \mathbf{F}_{jk} \cdot \left( \mathbf{r}_k - \mathbf{r}_j \right)
@@ -16963,9 +16335,7 @@ $$
 $$
 
 
-
 Similarly, the time-averaged potential energy can be expressed as:
-
 
 
 $$
@@ -16973,7 +16343,6 @@ $$
 \langle V \rangle = -\frac{1}{2}\sum_{k=1}^N \sum_{j=1}^{k-1} \frac{dV_{jk}}{dr_{jk}} \frac{| \mathbf{r}_k - \mathbf{r}_j |^2}{r_{jk}}
 
 $$
-
 
 
 By equating these two expressions and using the fact that the force between particles can be derived from a potential energy function, we arrive at the virial theorem.
@@ -17013,7 +16382,6 @@ In the previous subsection, we discussed the virial theorem and its applications
 To prove the virial theorem, we start with the total force on particle `k` in a system of `N` particles, as given by the context:
 
 
-
 $$
 
 \mathbf{F}_k = \sum_{j=1}^N \mathbf{F}_{jk}
@@ -17021,9 +16389,7 @@ $$
 $$
 
 
-
 where $\mathbf{F}_{jk}$ is the force applied by particle `j` on particle `k`. We can then express the virial as:
-
 
 
 $$
@@ -17033,9 +16399,7 @@ $$
 $$
 
 
-
 Since no particle acts on itself, we can split the sum into terms below and above the diagonal and add them together in pairs:
-
 
 
 $$
@@ -17045,9 +16409,7 @@ $$
 $$
 
 
-
 Using Newton's third law of motion, we can rewrite this as:
-
 
 
 $$
@@ -17057,9 +16419,7 @@ $$
 $$
 
 
-
 We can then express the force $\mathbf{F}_{jk}$ as the negative gradient of the potential energy between particles `j` and `k`:
-
 
 
 $$
@@ -17069,9 +16429,7 @@ $$
 $$
 
 
-
 Substituting this into our previous equation, we get:
-
 
 
 $$
@@ -17081,9 +16439,7 @@ $$
 $$
 
 
-
 Simplifying this further, we get:
-
 
 
 $$
@@ -17093,9 +16449,7 @@ $$
 $$
 
 
-
 Finally, using the fact that the potential energy is a function of the distance between particles `j` and `k`, we can express this as:
-
 
 
 $$
@@ -17105,9 +16459,7 @@ $$
 $$
 
 
-
 This equation shows that the total force on the particles is related to the potential energy between them. By taking the time average of both sides, we can then prove the virial theorem:
-
 
 
 $$
@@ -17116,22 +16468,17 @@ $$
 
 $$
 
-
-
 $$
 
 \sum_{k=1}^N \langle \mathbf{F}_k \cdot \mathbf{r}_k \rangle = \sum_{k=2}^N \sum_{j=1}^{k-1} \langle \frac{dV_{jk}}{dr_{jk}} r_{jk}^2 \rangle
 
 $$
 
-
-
 $$
 
 \langle T \rangle = -\frac{1}{2}\langle V \rangle
 
 $$
-
 
 
 where $\langle T \rangle$ is the time-averaged kinetic energy and $\langle V \rangle$ is the time-averaged potential energy, as stated in the virial theorem.
@@ -17277,13 +16624,9 @@ In classical mechanics, an eccentricity of zero corresponds to a circular orbit,
 To better understand circular orbits and eccentricity, we can use the equations derived in the previous section. For a circular orbit, the eccentricity is equal to zero, which means that the equations simplify to:
 
 
-
 $$r = a$$
 
-
-
 $$\cos \theta = \frac{x}{r} = 1$$
-
 
 
 From these equations, we can see that for a circular orbit, the distance from the center of the potential is constant, and the angle between the position vector and the x-axis is always 0 degrees. This results in a perfectly circular path.
@@ -17597,7 +16940,6 @@ One of the key mathematical tools used to describe spin is the Pauli spin matric
 The Pauli spin matrices are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
@@ -17605,9 +16947,7 @@ $$
 $$
 
 
-
 These matrices have several important properties that make them useful in describing spin. First, they are Hermitian, meaning they are equal to their own conjugate transpose. This property ensures that the eigenvalues of the matrices are real, which is necessary for physical observables. Second, they are traceless, meaning the sum of the diagonal elements is equal to zero. This property is important for calculating the expectation values of spin measurements. Finally, they satisfy the commutation relations:
-
 
 
 $$
@@ -17615,7 +16955,6 @@ $$
 [\sigma_i, \sigma_j] = 2i\epsilon_{ijk}\sigma_k
 
 $$
-
 
 
 where $\epsilon_{ijk}$ is the Levi-Civita symbol. These commutation relations are crucial for understanding the behavior of spin in quantum systems.
@@ -17659,13 +16998,11 @@ One of the key mathematical tools used to describe spin is the Pauli spin matric
 The Pauli spin matrices are defined as:
 
 
-
 $$
 
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
 
 $$
-
 
 
 These matrices have several important properties that make them useful in describing spin. First, they are Hermitian, meaning they are equal to their own conjugate transpose. This property ensures that the eigenvalues of the matrices are real, which is necessary for physical observables. Second, they are traceless, meaning the sum of the diagonal elements is equal to zero. This property is important for calculating the expectation values of spin measurements. Finally, they satisfy the commutation relations necessary for describing the evolution of spin in quantum systems.
@@ -17911,13 +17248,11 @@ In the previous section, we discussed the role of spin in quantum mechanics and 
 The spin-orbit interaction is a relativistic effect that arises due to the motion of a charged particle in an electric and magnetic field. In quantum mechanics, this effect is described by the spin-orbit Hamiltonian, which is given by:
 
 
-
 $$
 
 H_{SO} = \frac{\beta}{2m^2c^2}\mathbf{L}\cdot\mathbf{S}
 
 $$
-
 
 
 where $\beta$ is a constant, $m$ is the mass of the particle, $c$ is the speed of light, $\mathbf{L}$ is the orbital angular momentum operator, and $\mathbf{S}$ is the spin operator.
@@ -17931,7 +17266,6 @@ The spin-orbit interaction has significant consequences in the energy levels of 
 To evaluate the energy shift caused by the spin-orbit interaction, we first define the total angular momentum operator:
 
 
-
 $$
 
 \mathbf{J} = \mathbf{L} + \mathbf{S}
@@ -17939,9 +17273,7 @@ $$
 $$
 
 
-
 Taking the dot product of this with itself, we get:
-
 
 
 $$
@@ -17951,9 +17283,7 @@ $$
 $$
 
 
-
 Since $\mathbf{L}$ and $\mathbf{S}$ commute, we can rewrite this as:
-
 
 
 $$
@@ -17963,13 +17293,11 @@ $$
 $$
 
 
-
 It can be shown that the five operators $\mathbf{H}$, $\mathbf{L}^2$, $\mathbf{S}^2$, $\mathbf{J}^2$, and $\mathbf{J}_z$ all commute with each other and with the non-perturbed Hamiltonian $\Delta H$. Therefore, the basis we were looking for is the simultaneous eigenbasis of these five operators, where all five are diagonal. Elements of this basis have the five quantum numbers: $n$ (the "principal quantum number"), $j$ (the "total angular momentum quantum number"), $\ell$ (the "orbital angular momentum quantum number"), $s$ (the "spin quantum number"), and $j_z$ (the "component of total angular momentum").
 
 
 
 To evaluate the energies, we note that for hydrogenic wavefunctions:
-
 
 
 $$
@@ -17979,9 +17307,7 @@ $$
 $$
 
 
-
 where $a = \frac{\hbar}{Z\alpha m_e c}$ is the Bohr radius divided by the nuclear charge $Z$. Additionally, we have:
-
 
 
 $$
@@ -17991,9 +17317,7 @@ $$
 $$
 
 
-
 Using these expressions, we can now say that the energy shift caused by the spin-orbit interaction is given by:
-
 
 
 $$
@@ -18001,7 +17325,6 @@ $$
 \Delta E = \frac{\beta}{2}\left(j(j+1) - \ell(\ell+1) - s(s+1)\right)
 
 $$
-
 
 
 This energy shift is crucial in understanding the fine structure of spectral lines and has played a significant role in the development of quantum mechanics. It also has important implications in various applications, such as in the study of materials and the development of quantum computing. 
@@ -18197,13 +17520,11 @@ The Schrödinger equation is a fundamental equation in quantum mechanics that de
 The time-independent Schrödinger equation for a particle in three dimensions is given by:
 
 
-
 $$
 
 \hat{H}\psi(\vec{r}) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\vec{r})\right]\psi(\vec{r}) = E\psi(\vec{r})
 
 $$
-
 
 
 where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck constant, $m$ is the mass of the particle, $V(\vec{r})$ is the potential energy, $E$ is the energy of the particle, and $\psi(\vec{r})$ is the wavefunction.
@@ -18213,7 +17534,6 @@ where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck const
 The potential energy $V(\vec{r})$ can take on different forms depending on the system being studied. For example, in the case of a rectangular potential barrier, the potential energy can be written as:
 
 
-
 $$
 
 V(\vec{r}) = V_0[\Theta(x)-\Theta(x-a)]
@@ -18221,9 +17541,7 @@ V(\vec{r}) = V_0[\Theta(x)-\Theta(x-a)]
 $$
 
 
-
 where $V_0$ is the height of the barrier and $a$ is its width. The Heaviside step function $\Theta(x)$ is defined as:
-
 
 
 $$
@@ -18239,9 +17557,7 @@ $$
 $$
 
 
-
 This potential barrier divides the space into three regions: $x < 0$, $0 < x < a$, and $x > a$. In each of these regions, the potential energy is constant, allowing us to write the wavefunction as a superposition of left and right moving waves:
-
 
 
 $$
@@ -18259,9 +17575,7 @@ C_re^{ik_0x} + C_le^{-ik_0x} & x > a
 $$
 
 
-
 where $k_0$ and $k_1$ are the wave numbers related to the energy $E$ via:
-
 
 
 $$
@@ -18269,7 +17583,6 @@ $$
 k_0 = \sqrt{\frac{2mE}{\hbar^2}} \quad \text{or} \quad k_1 = \sqrt{\frac{2m(E-V_0)}{\hbar^2}}
 
 $$
-
 
 
 The coefficients $A_r$, $A_l$, $B_r$, $B_l$, $C_r$, and $C_l$ represent the amplitude of the waves traveling in the right and left directions in each region.
@@ -18305,13 +17618,11 @@ In the previous chapter, we explored the one-dimensional and two-dimensional ver
 The three-dimensional Schrödinger equation is given by:
 
 
-
 $$
 
 \hat{H}\psi(\vec{r}) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\vec{r})\right]\psi(\vec{r}) = E\psi(\vec{r})
 
 $$
-
 
 
 where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck constant, $m$ is the mass of the particle, $V(\vec{r})$ is the potential energy, $E$ is the energy of the particle, and $\psi(\vec{r})$ is the wavefunction.
@@ -18321,13 +17632,11 @@ where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck const
 The potential energy $V(\vec{r})$ can take on different forms depending on the system being studied. In the case of a three-dimensional isotropic harmonic oscillator, the potential energy is given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -18337,7 +17646,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To solve the three-dimensional Schrödinger equation, we can use the factorization method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the three-dimensional isotropic harmonic oscillator, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -18345,9 +17653,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -18357,9 +17663,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -18369,9 +17673,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -18381,9 +17683,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we get:
-
 
 
 $$
@@ -18397,13 +17697,11 @@ E_{l+3}^{n'} = E_l^n - 3\omega \hbar \\
 $$
 
 
-
 This shows that the energy levels of the three-dimensional isotropic harmonic oscillator are equally spaced, with a spacing of $\omega \hbar$. This is a characteristic feature of harmonic oscillators.
 
 
 
 However, the Hamiltonian only has positive energy levels, as can be seen from:
-
 
 
 $$
@@ -18413,9 +17711,7 @@ $$
 $$
 
 
-
 This means that for some value of $l$, the series must terminate with:
-
 
 
 $$
@@ -18425,9 +17721,7 @@ C_{l_{\max}} |nl_{\max}\rangle = 0
 $$
 
 
-
 and then:
-
 
 
 $$
@@ -18437,9 +17731,7 @@ E^n_{l_{\max}} = -F_{l_{\max}}/ (2 \mu) = (l_{\max} + 3/2) \omega\hbar
 $$
 
 
-
 This is decreasing in energy by $\omega\hbar$ unless for some value of $l$, $C_l|nl\rangle = 0$. Identifying this value as $n$ gives:
-
 
 
 $$
@@ -18449,9 +17741,7 @@ E_l^n = -F_l = (n + 3/2) \omega \hbar
 $$
 
 
-
 It then follows that $n' = n - 1$, so that:
-
 
 
 $$
@@ -18461,9 +17751,7 @@ C_l|nl\rangle = \lambda^n_l |n - 1 \, l + 1\rangle
 $$
 
 
-
 giving a recursion relation on $\lambda$ with solution:
-
 
 
 $$
@@ -18473,9 +17761,7 @@ $$
 $$
 
 
-
 This solution shows that there is degeneracy caused by angular momentum, and there is additional degeneracy caused by the oscillator potential. This can be seen by considering the states $|n \, n\rangle, |n-1 \, n-1\rangle, |n-2 \, n-2\rangle, \dots$ and applying the lowering operators $C^*$:
-
 
 
 $$
@@ -18489,7 +17775,6 @@ C^*_l|n-2 \, n-2\rangle = \lambda^{n-2}_l |n - 3 \, n-1\rangle \\
 \dots
 
 $$
-
 
 
 This shows that the states $|n \, n\rangle, |n-1 \, n-1\rangle, |n-2 \, n-2\rangle, \dots$ are degenerate, with the same energy level. This degeneracy is caused by the angular momentum quantum number $l$, which can take on different values for the same energy level.
@@ -18521,13 +17806,11 @@ In the previous chapter, we explored the one-dimensional and two-dimensional ver
 The three-dimensional Schrödinger equation is given by:
 
 
-
 $$
 
 \hat{H}\psi(\vec{r}) = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\vec{r})\right]\psi(\vec{r}) = E\psi(\vec{r})
 
 $$
-
 
 
 where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck constant, $m$ is the mass of the particle, $V(\vec{r})$ is the potential energy, $E$ is the energy of the particle, and $\psi(\vec{r})$ is the wavefunction.
@@ -18537,13 +17820,11 @@ where $\hat{H}$ is the Hamiltonian operator, $\hbar$ is the reduced Planck const
 The potential energy $V(\vec{r})$ can take on different forms depending on the system being studied. In the case of a three-dimensional isotropic harmonic oscillator, the potential energy is given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -18553,7 +17834,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To solve the three-dimensional Schrödinger equation, we can use the factorization method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the three-dimensional isotropic harmonic oscillator, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -18561,9 +17841,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -18573,9 +17851,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -18585,9 +17861,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -18597,9 +17871,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this pattern, we can find the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -18607,7 +17879,6 @@ $$
 E_l^n = -F_l = (n + 3/2) \omega \hbar
 
 $$
-
 
 
 where $n$ is the principal quantum number and $l$ is the orbital angular momentum quantum number. This result is similar to the one-dimensional and two-dimensional cases, where the energy levels are equally spaced. However, in the three-dimensional case, the energy levels are also degenerate due to the additional degeneracy caused by the oscillator potential.
@@ -18651,13 +17922,11 @@ Three-dimensional quantum systems are characterized by the presence of three spa
 One of the most well-known three-dimensional quantum systems is the three-dimensional isotropic harmonic oscillator. This system has a potential energy given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -18667,7 +17936,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To solve the three-dimensional Schrödinger equation for this system, we can use the factorization method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the three-dimensional isotropic harmonic oscillator, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -18675,9 +17943,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -18687,9 +17953,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -18699,9 +17963,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -18711,9 +17973,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -18721,7 +17981,6 @@ $$
 E_l^n = -F_l = (n + 3/2) \omega \hbar
 
 $$
-
 
 
 where $n$ is the principal quantum number and $l$ is the angular momentum quantum number. This shows that the energy levels are quantized and depend on both the principal and angular momentum quantum numbers.
@@ -18765,13 +18024,11 @@ Three-dimensional quantum systems are characterized by the presence of three spa
 One of the most well-known three-dimensional quantum systems is the three-dimensional isotropic harmonic oscillator. This system has a potential energy given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -18781,7 +18038,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To solve the three-dimensional Schrödinger equation for this system, we can use the factorization method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the three-dimensional isotropic harmonic oscillator, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -18789,9 +18045,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -18801,9 +18055,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -18813,9 +18065,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -18825,9 +18075,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -18835,7 +18083,6 @@ $$
 E_n^l = \hbar \omega \left(n + \frac{3}{2}\right)
 
 $$
-
 
 
 where $n$ is the principal quantum number and $l$ is the orbital angular momentum quantum number. This result is similar to the energy levels for the one-dimensional harmonic oscillator, but now we have an additional quantum number $l$ to account for the three-dimensional nature of the system.
@@ -18853,14 +18100,11 @@ In addition to the energy levels, three-dimensional quantum systems also have ot
 The complex conjugate of the D-matrix satisfies a number of differential properties that can be formulated concisely by introducing the following operators with $(x, y, z) = (1, 2, 3)$:
 
 
-
 $$
 
 \hat{\mathcal{J}}_1 = i \left( \cos \alpha \cot \beta \frac{\partial}{\partial \alpha} + \sin \alpha {\partial \over \partial \beta} - {\cos \alpha \over \sin \beta} {\partial \over \partial \gamma} \right)
 
 $$
-
-
 
 $$
 
@@ -18868,14 +18112,11 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{\mathcal{J}}_3 = -i {\partial\over \partial \gamma}
 
 $$
-
 
 
 which have quantum mechanical meaning: they are space-fixed rigid rotor angular momentum operators.
@@ -18885,14 +18126,11 @@ which have quantum mechanical meaning: they are space-fixed rigid rotor angular 
 Further,
 
 
-
 $$
 
 \hat{\mathcal{P}}_1 = i \left( {\cos \gamma \over \sin \beta}{\partial \over \partial \alpha } - \sin \gamma {\partial \over \partial \beta }- \cot \beta \cos \gamma {\partial \over \partial \gamma} \right)
 
 $$
-
-
 
 $$
 
@@ -18900,14 +18138,11 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{\mathcal{P}}_3 = - i {\partial\over \partial \gamma}
 
 $$
-
 
 
 which have quantum mechanical meaning: they are body-fixed rigid rotor angular momentum operators.
@@ -18917,7 +18152,6 @@ which have quantum mechanical meaning: they are body-fixed rigid rotor angular m
 The operators satisfy the commutation relations:
 
 
-
 $$
 
 [\hat{\mathcal{J}}_i, \hat{\mathcal{J}}_j] = i \epsilon_{ijk} \hat{\mathcal{J}}_k
@@ -18925,9 +18159,7 @@ $$
 $$
 
 
-
 and the corresponding relations with the indices permuted cyclically. The $\hat{\mathcal{P}}_i$ satisfy "anomalous commutation relations" (have a minus sign on the right hand side). The two sets mutually commute, and the total operators squared are equal:
-
 
 
 $$
@@ -18937,9 +18169,7 @@ $$
 $$
 
 
-
 Their explicit form is:
-
 
 
 $$
@@ -18948,23 +18178,17 @@ $$
 
 $$
 
-
-
 $$
 
 \hat{\mathcal{J}}_3 = -i \frac{\partial}{\partial \gamma}
 
 $$
 
-
-
 $$
 
 \hat{\mathcal{P}}^2 = - \left( \frac{\partial^2}{\partial \alpha^2} + \frac{\partial^2}{\partial \beta^2} + \frac{\partial^2}{\partial \gamma^2} - \frac{2}{\sin \beta} \frac{\partial}{\partial \beta} \sin \beta \frac{\partial}{\partial \beta} \right)
 
 $$
-
-
 
 $$
 
@@ -18973,9 +18197,7 @@ $$
 $$
 
 
-
 The operators $\hat{\mathcal{J}}_i$ act on the first (row) index of the D-matrix:
-
 
 
 $$
@@ -18984,8 +18206,6 @@ $$
 
 $$
 
-
-
 $$
 
 (\mathcal{J}_1 \pm i \mathcal{J}_2) D^j_{m'm}(\alpha,\beta,\gamma)^* = \sqrt{j(j+1)-m'(m'\pm 1)} D^j_{m'\pm 1, m}(\alpha,\beta,\gamma)^*
@@ -18993,9 +18213,7 @@ $$
 $$
 
 
-
 The operators $\hat{\mathcal{P}}_i$ act on the second (column) index of the D-matrix:
-
 
 
 $$
@@ -19004,14 +18222,11 @@ $$
 
 $$
 
-
-
 $$
 
 (\mathcal{P}_1 \pm i \mathcal{P}_2) D^j_{m'm}(\alpha,\beta,\gamma)^* = \sqrt{j(j+1)-m(m\pm 1)} D^j_{m', m\pm 1}(\alpha,\beta,\gamma)^*
 
 $$
-
 
 
 These properties of the Wigner D-matrix are important in understanding the behavior of three-dimensional quantum systems and their angular momentum. They also have applications in other areas of physics, such as in the study of molecular rotations and vibrations. 
@@ -19047,13 +18262,11 @@ Three-dimensional quantum systems are characterized by the presence of three spa
 One of the most well-known three-dimensional quantum systems is the three-dimensional isotropic harmonic oscillator. This system has a potential energy given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -19063,7 +18276,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To solve the three-dimensional Schrödinger equation for this system, we can use the factorization method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the three-dimensional isotropic harmonic oscillator, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -19071,9 +18283,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -19083,9 +18293,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -19095,9 +18303,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -19107,9 +18313,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -19119,7 +18323,6 @@ E_n = \hbar \omega \left(n + \frac{3}{2}\right)
 $$
 
 
-
 where $n$ is the principal quantum number. This result is similar to the one-dimensional harmonic oscillator, but with an additional factor of $\frac{3}{2}$ due to the presence of three dimensions.
 
 
@@ -19127,13 +18330,11 @@ where $n$ is the principal quantum number. This result is similar to the one-dim
 Another important three-dimensional quantum system is the three-dimensional hydrogen atom. This system consists of a single electron orbiting a proton in three dimensions. The potential energy for this system is given by:
 
 
-
 $$
 
 V(r) = -\frac{e^2}{4\pi\epsilon_0 r}
 
 $$
-
 
 
 where $e$ is the charge of the electron and $\epsilon_0$ is the permittivity of free space. The three-dimensional Schrödinger equation for this system is more complex than the one-dimensional and two-dimensional versions, but it can still be solved using various techniques such as the separation of variables method.
@@ -19147,7 +18348,6 @@ where $e$ is the charge of the electron and $\epsilon_0$ is the permittivity of 
 In three-dimensional quantum systems, the concept of angular momentum becomes more complex. In addition to the orbital angular momentum, there is also the spin angular momentum, which is a fundamental property of particles. The total angular momentum of a particle in three dimensions is given by:
 
 
-
 $$
 
 \vec{J} = \vec{L} + \vec{S}
@@ -19155,9 +18355,7 @@ $$
 $$
 
 
-
 where $\vec{L}$ is the orbital angular momentum and $\vec{S}$ is the spin angular momentum. The eigenvalues of the total angular momentum operator $\hat{J}^2$ are given by:
-
 
 
 $$
@@ -19167,13 +18365,11 @@ J(J+1)\hbar^2
 $$
 
 
-
 where $J$ can take on integer or half-integer values depending on the spin of the particle.
 
 
 
 In the case of the three-dimensional isotropic harmonic oscillator, the angular momentum operator can be written as:
-
 
 
 $$
@@ -19183,9 +18379,7 @@ $$
 $$
 
 
-
 where $\hat{L}^2$ is the orbital angular momentum operator and $\hat{S}^2$ is the spin angular momentum operator. The eigenvalues of $\hat{L}^2$ are given by:
-
 
 
 $$
@@ -19195,9 +18389,7 @@ l(l+1)\hbar^2
 $$
 
 
-
 where $l$ is the orbital quantum number. The eigenvalues of $\hat{S}^2$ are given by:
-
 
 
 $$
@@ -19207,9 +18399,7 @@ s(s+1)\hbar^2
 $$
 
 
-
 where $s$ is the spin quantum number. The total energy of the three-dimensional isotropic harmonic oscillator can then be written as:
-
 
 
 $$
@@ -19217,7 +18407,6 @@ $$
 E_{n,l,s} = \hbar \omega \left(n + \frac{3}{2}\right) + \frac{\hbar^2}{2\mu}\left[l(l+1) + s(s+1)\right]
 
 $$
-
 
 
 where $n$ is the principal quantum number, $l$ is the orbital quantum number, and $s$ is the spin quantum number.
@@ -19269,13 +18458,11 @@ Three-dimensional quantum potentials are essential in understanding the behavior
 One of the most well-known three-dimensional quantum potentials is the isotropic harmonic oscillator potential, which we explored in the previous section. This potential is given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -19285,7 +18472,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To better understand three-dimensional quantum potentials, we can use the ladder operator method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the isotropic harmonic oscillator potential, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -19293,9 +18479,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -19305,9 +18489,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -19317,9 +18499,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -19329,9 +18509,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -19345,9 +18523,7 @@ E_{l+3}^{n'} = E_l^n - 3\omega \hbar \\
 $$
 
 
-
 This method also allows us to understand the degeneracy of energy levels in three-dimensional quantum systems. In the case of the isotropic harmonic oscillator potential, there is degeneracy caused by the angular momentum and additional degeneracy caused by the oscillator potential. This can be seen in the states:
-
 
 
 $$
@@ -19357,9 +18533,7 @@ $$
 $$
 
 
-
 By applying the lowering operators, we can see that these states are related and form a recursion relation on the eigenvalues. This leads to a decrease in energy levels by $\omega\hbar$ unless for some value of $l$, $C_l|nl\rangle = 0$. This value can be identified as $n$, giving us the energy levels:
-
 
 
 $$
@@ -19367,7 +18541,6 @@ $$
 E_l^n = -F_l = (n + 3/2) \omega \hbar
 
 $$
-
 
 
 In conclusion, three-dimensional quantum potentials play a crucial role in understanding the behavior of particles in three-dimensional quantum systems. By using the ladder operator method, we can gain a better understanding of the energy levels and degeneracy in these systems. 
@@ -19403,13 +18576,11 @@ Three-dimensional quantum potentials are essential in understanding the behavior
 One of the most well-known three-dimensional quantum potentials is the isotropic harmonic oscillator potential, which we explored in the previous section. This potential is given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -19419,7 +18590,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To better understand three-dimensional quantum potentials, we can use the ladder operator method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the isotropic harmonic oscillator potential, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -19427,9 +18597,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -19439,9 +18607,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -19451,9 +18617,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -19463,9 +18627,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -19477,7 +18639,6 @@ E_{l+3}^{n'} = E_l^n - 3\omega \hbar \\
 \dots
 
 $$
-
 
 
 This method allows us to see that the energy levels for the isotropic harmonic oscillator are equally spaced, with a difference of $\omega \hbar$ between each level. This is known as the energy ladder, where each rung represents a different energy level.
@@ -19525,13 +18686,11 @@ Three-dimensional quantum potentials are essential in understanding the behavior
 One of the most well-known three-dimensional quantum potentials is the isotropic harmonic oscillator potential, which we explored in the previous section. This potential is given by:
 
 
-
 $$
 
 V(r) = \mu \omega^2 r^2/2
 
 $$
-
 
 
 where $\mu$ is the reduced mass of the particle and $\omega$ is the angular frequency of the oscillator. This potential is symmetric in all three dimensions, making it an ideal system to study the three-dimensional Schrödinger equation.
@@ -19541,7 +18700,6 @@ where $\mu$ is the reduced mass of the particle and $\omega$ is the angular freq
 To better understand three-dimensional quantum potentials, we can use the ladder operator method. This method involves finding a suitable factorization of the Hamiltonian operator that simplifies the equation and allows us to solve it easily. In the case of the isotropic harmonic oscillator potential, a suitable factorization is given by:
 
 
-
 $$
 
 C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
@@ -19549,9 +18707,7 @@ C_l = p_r + \frac{i\hbar(l+1)}{r} - i\mu \omega r
 $$
 
 
-
 with
-
 
 
 $$
@@ -19561,9 +18717,7 @@ F_l = -(2l+3)\mu \omega \hbar
 $$
 
 
-
 and
-
 
 
 $$
@@ -19573,9 +18727,7 @@ G_l = -(2l+1)\mu \omega \hbar
 $$
 
 
-
 Using this factorization, we can rewrite the Schrödinger equation as:
-
 
 
 $$
@@ -19585,9 +18737,7 @@ E_{l+1}^{n'} = E_l^n + \frac{F_l - G_l}{2\mu} = E_l^n - \omega \hbar
 $$
 
 
-
 and continuing this, we can obtain the energy levels for the three-dimensional isotropic harmonic oscillator:
-
 
 
 $$
@@ -19599,7 +18749,6 @@ E_{l+3}^{n'} = E_l^n - 3\omega \hbar \\
 \dots
 
 $$
-
 
 
 This method allows us to see that the energy levels are equally spaced, with a spacing of $\omega \hbar$. This is a characteristic of the isotropic harmonic oscillator potential and is known as the energy level degeneracy.
@@ -19617,13 +18766,11 @@ Three-dimensional quantum potentials have many applications in quantum mechanics
 The potential for the hydrogen atom is given by:
 
 
-
 $$
 
 V(r) = -\frac{e^2}{4\pi\epsilon_0 r}
 
 $$
-
 
 
 where $e$ is the charge of the electron and $\epsilon_0$ is the permittivity of free space. This potential is spherically symmetric, making it an ideal system to study using three-dimensional quantum potentials.
@@ -19633,13 +18780,11 @@ where $e$ is the charge of the electron and $\epsilon_0$ is the permittivity of 
 Another application of three-dimensional quantum potentials is in the study of the quantum harmonic oscillator in three dimensions. This system is similar to the isotropic harmonic oscillator, but with different potentials in each dimension. The potential for this system is given by:
 
 
-
 $$
 
 V(x,y,z) = \frac{1}{2}m\omega_x^2x^2 + \frac{1}{2}m\omega_y^2y^2 + \frac{1}{2}m\omega_z^2z^2
 
 $$
-
 
 
 where $m$ is the mass of the particle and $\omega_x$, $\omega_y$, and $\omega_z$ are the angular frequencies in each dimension. This potential can be solved using the same ladder operator method as the isotropic harmonic oscillator, but with different factorizations for each dimension.
@@ -19653,7 +18798,6 @@ where $m$ is the mass of the particle and $\omega_x$, $\omega_y$, and $\omega_z$
 To solve three-dimensional quantum potentials, we can use the Schrödinger equation in three dimensions:
 
 
-
 $$
 
 -\frac{\hbar^2}{2m}\nabla^2\psi + V(x,y,z)\psi = E\psi
@@ -19661,9 +18805,7 @@ $$
 $$
 
 
-
 where $\nabla^2$ is the Laplace operator. This equation can be solved using separation of variables, where we assume that the wave function can be written as a product of three one-dimensional wave functions:
-
 
 
 $$
@@ -19673,9 +18815,7 @@ $$
 $$
 
 
-
 Substituting this into the Schrödinger equation and rearranging, we get three separate equations for each dimension:
-
 
 
 $$
@@ -19689,9 +18829,7 @@ $$
 $$
 
 
-
 These equations can then be solved using the ladder operator method, as shown in section 13.3a. The energy levels for the three-dimensional quantum potential can be found by adding the energy levels for each dimension:
-
 
 
 $$
@@ -19699,7 +18837,6 @@ $$
 E_{n_x,n_y,n_z} = \left(n_x + \frac{1}{2}\right)\hbar\omega_x + \left(n_y + \frac{1}{2}\right)\hbar\omega_y + \left(n_z + \frac{1}{2}\right)\hbar\omega_z
 
 $$
-
 
 
 where $n_x$, $n_y$, and $n_z$ are the quantum numbers for each dimension.
@@ -20025,7 +19162,6 @@ On the other hand, fermions have half-integer spin, such as electrons and proton
 The Fermi-Dirac distribution is a probability distribution that describes the statistical behavior of fermions in a system. It gives the probability of finding a fermion in a particular energy state at a given temperature. The distribution is given by the following equation:
 
 
-
 $$
 
 f(E) = \frac{1}{e^{\frac{E-\mu}{kT}}+1}
@@ -20033,13 +19169,11 @@ f(E) = \frac{1}{e^{\frac{E-\mu}{kT}}+1}
 $$
 
 
-
 where $E$ is the energy of the state, $\mu$ is the chemical potential, $k$ is the Boltzmann constant, and $T$ is the temperature. The chemical potential represents the energy required to add or remove a particle from the system. At low temperatures, the Fermi-Dirac distribution approaches a step function, with all states below the Fermi energy being occupied and all states above it being empty.
 
 
 
 In contrast, the Bose-Einstein distribution describes the statistical behavior of bosons in a system. It gives the probability of finding a boson in a particular energy state at a given temperature and is given by the following equation:
-
 
 
 $$
