@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Code Division Multiple Access Techniques:
-- Section: 20.3 Power Control:
-20.3c Power Control in Digital Communication

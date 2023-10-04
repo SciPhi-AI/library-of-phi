@@ -1,3 +1,0 @@
-- Chapter 16: Energy-storing Domain Coupling:
-- Section: 16.1 Multi-port Capacitor:
-16.1a Advanced Concepts

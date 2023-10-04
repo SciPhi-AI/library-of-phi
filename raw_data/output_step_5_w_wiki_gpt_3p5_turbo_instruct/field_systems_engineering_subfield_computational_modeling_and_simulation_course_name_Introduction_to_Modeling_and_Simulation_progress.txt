@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Solar Photovoltaics:
-- Section: 20.2 Advanced A Bit More Solar PV, Some Verification and Validation and a Few Concluding Thoughts:
-20.2c Concluding Thoughts on Advanced Solar PV

@@ -1,3 +1,0 @@
-- Chapter 9: Noise and Signal Integrity:
-- Section: 9.3 Shot Noise:
-9.3a

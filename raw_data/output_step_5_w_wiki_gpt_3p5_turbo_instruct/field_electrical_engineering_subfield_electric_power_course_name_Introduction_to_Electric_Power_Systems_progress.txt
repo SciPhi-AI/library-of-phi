@@ -1,3 +1,0 @@
-- Chapter 5: Introduction to Load Flow:
-- Section: 5.3 Gauss-Seidel Method:
-5.3c Advancements and Modifications of Gauss-Seidel Method

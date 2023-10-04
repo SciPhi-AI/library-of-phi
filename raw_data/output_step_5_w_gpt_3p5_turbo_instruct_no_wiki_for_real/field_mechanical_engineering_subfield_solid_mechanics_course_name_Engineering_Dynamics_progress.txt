@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Topics in Dynamics:
-- Section: 20.2 Computational Dynamics:
-20.2d High Performance Computing in Dynamics

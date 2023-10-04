@@ -1,3 +1,0 @@
-- Chapter 9: Optimization Methods:
-- Section: 9.1 Unconstrained Optimization:
-9.1a Optimization Problem Formulation

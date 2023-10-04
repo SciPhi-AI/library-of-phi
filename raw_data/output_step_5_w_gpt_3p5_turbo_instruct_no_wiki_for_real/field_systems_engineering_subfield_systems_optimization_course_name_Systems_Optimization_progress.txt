@@ -1,3 +1,0 @@
-- Chapter 9: Non-Linear Programming:
-- Section: 9.2 Application of Non-Linear Programming in Portfolio Optimization:
-9.2b Non-Linear Programming in Portfolio Optimization

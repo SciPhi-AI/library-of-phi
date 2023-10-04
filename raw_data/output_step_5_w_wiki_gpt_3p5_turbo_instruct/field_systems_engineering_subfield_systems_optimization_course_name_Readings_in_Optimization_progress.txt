@@ -1,3 +1,0 @@
-- Chapter 20: Optimization in Transportation:
-- Section: 20.1 Transportation Network Optimization:
-20.1c Case Studies

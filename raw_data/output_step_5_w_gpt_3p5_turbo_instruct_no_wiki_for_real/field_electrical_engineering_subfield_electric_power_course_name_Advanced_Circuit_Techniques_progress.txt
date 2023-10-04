@@ -1,3 +1,0 @@
-- Chapter 4: Analog-to-Digital Converters:
-- Section: 4.4 A/D Examples:
-4.4c Case Studies of A/D Examples

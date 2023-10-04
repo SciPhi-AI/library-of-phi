@@ -1,3 +1,0 @@
-- Chapter 20: MEMS in Consumer Electronics:
-- Section: 20.3 MEMS in Gaming Systems:
-20.3c Design and Fabrication of MEMS for Gaming Systems

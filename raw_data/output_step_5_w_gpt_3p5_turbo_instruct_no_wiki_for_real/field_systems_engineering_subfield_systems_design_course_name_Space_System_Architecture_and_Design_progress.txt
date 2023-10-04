@@ -1,3 +1,0 @@
-- Chapter 5: Learning Objectives:
-- Section: 5.4 Description of different types and classes of space system architectures:
-5.4c Case Studies of Different Types and Classes of Space System Architectures

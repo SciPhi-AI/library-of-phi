@@ -1,3 +1,0 @@
-- Chapter 19: Computational Design XII: Presentations:
-- Section: 19.2 Presentations in Rule Application and Parametric Design:
-19.2c Presentations in

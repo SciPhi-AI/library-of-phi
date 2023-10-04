@@ -1,3 +1,0 @@
-- Chapter 14: Design using Frequency Response:
-- Section: 14.1 Lead Compensators:
-14.1c Analyzing the effects of lead compensators

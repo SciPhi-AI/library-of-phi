@@ -1,3 +1,0 @@
-- Chapter 21: Neural Networks and Face Recognition:
-- Section: 21.2 Advanced Concepts in Neural Networks and Face Recognition:
-21.2c Case Studies in Neural Networks and Face Recognition

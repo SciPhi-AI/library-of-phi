@@ -1,3 +1,0 @@
-- Chapter 2: Simple Deductions:
-- Section: 2.10 Example of Steady Boundary Layer; The Laminar Jet:
-2.10c Practical Implications and Examples

@@ -1,3 +1,0 @@
-- Chapter 20: Advanced Topics in Dynamic Optimization:
-- Section: 20.2 Multi-Objective Dynamic Optimization:
-20.2b Applications of Multi-Objective Dynamic Optimization
