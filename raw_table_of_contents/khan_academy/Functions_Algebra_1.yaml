@@ -1,0 +1,54 @@
+"course":
+  "Functions: Algebra 1:":
+    "topics":
+    - "Evaluating Functions":
+        "subtopics":
+        - "What is a Function?"
+        - "Evaluating Functions from Equation"
+        - "Evaluating Functions from Graph"
+        - "Evaluating Discrete Functions"
+        - "Evaluating Expressions with Function Notation"
+    - "Inputs and Outputs of a Function":
+        "subtopics":
+        - "Matching an Input to a Function's Output (Equation)"
+        - "Matching an Input to a Function's Output (Graph)"
+        - "Two Inputs with the Same Output (Graph)"
+    - "Functions and Equations":
+        "subtopics":
+        - "Equations vs. Functions"
+        - "Obtaining a Function from an Equation"
+        - "Interpreting Function Notation"
+        - "Function Notation Word Problem: Bank"
+        - "Function Notation Word Problem: Beach"
+    - "Domain and Range of a Function":
+        "subtopics":
+        - "Intervals and Interval Notation"
+        - "What is the Domain of a Function?"
+        - "What is the Range of a Function?"
+        - "Determining the Domain of a Function"
+        - "Determining Whether Values are in Domain of Function"
+    - "Recognizing Functions":
+        "subtopics":
+        - "Recognizing Functions from Graph"
+        - "Does a Vertical Line Represent a Function?"
+        - "Recognizing Functions from Table"
+        - "Recognizing Functions from Verbal Description"
+    - "Maximum and Minimum Points":
+        "subtopics":
+        - "Introduction to Minimum and Maximum Points"
+        - "Worked Example: Absolute and Relative Extrema"
+    - "Interpreting Features of Graphs":
+        "subtopics":
+        - "Graph Interpretation Word Problem: Temperature"
+        - "Graph Interpretation Word Problem: Basketball"
+    - "Average Rate of Change":
+        "subtopics":
+        - "Introduction to Average Rate of Change"
+        - "Worked Example: Average Rate of Change from Graph"
+        - "Worked Example: Average Rate of Change from Table"
+    - "Intro to Inverse Functions":
+        "subtopics":
+        - "Intro to Inverse Functions"
+        - "Inputs & Outputs of Inverse Functions"
+        - "Graphing the Inverse of a Linear Function"
+        - "Finding Inverse Functions: Linear"

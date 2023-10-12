@@ -1,0 +1,34 @@
+"course":
+  "Probability and sampling 7th grade (Illustrative Mathematics):":
+    "topics":
+    - "Chance Experiments":
+        "subtopics":
+        - "Intuitive Sense of Probabilities"
+    - "Understanding Probabilities":
+        "subtopics":
+        - "Intro to Theoretical Probability"
+    - "Estimating Probabilities Through Experiments":
+        "subtopics":
+        - "Experimental Probability"
+        - "Theoretical and Experimental Probabilities"
+        - "Making Predictions with Probability"
+        - "Probability Models Example: Frozen Yogurt"
+    - "More on Estimating Probabilities":
+        "subtopics":
+        - "Simple Probability: Yellow Marble"
+        - "Simple Probability: Non-blue Marble"
+    - "Keeping Track of All Possible Outcomes":
+        "subtopics":
+        - "Sample Spaces for Compound Events"
+        - "Counting Outcomes: Flower Pots"
+    - "Multi-step Experiments":
+        "subtopics":
+        - "Die Rolling Probability"
+        - "Probability of a Compound Event"
+        - "Count Outcomes Using Tree Diagram"
+    - "Comparing Groups":
+        "subtopics":
+        - "Comparing Distributions with Dot Plots"
+    - "Sampling in a Fair Way":
+        "subtopics":
+        - "Reasonable Samples"

@@ -1,0 +1,23 @@
+"course":
+  "Complex numbers: College Algebra:":
+    "topics":
+    - "The imaginary unit i":
+        "subtopics":
+        - "Intro to the imaginary numbers"
+        - "Simplifying roots of negative numbers"
+        - "i as the principal root of -1"
+    - "Adding and subtracting complex numbers":
+        "subtopics":
+        - "Adding complex numbers"
+        - "Subtracting complex numbers"
+    - "Creativity break":
+        "subtopics":
+        - "What do you do to get into your creative zone?"
+    - "Multiplying complex numbers":
+        "subtopics":
+        - "Multiplying complex numbers"
+    - "Complex conjugates and dividing complex numbers":
+        "subtopics":
+        - "Intro to complex number conjugates"
+        - "Complex number conjugates"
+        - "Dividing complex numbers"

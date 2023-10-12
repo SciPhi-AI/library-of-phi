@@ -1,0 +1,26 @@
+"course":
+  "Rational exponents and radicals Algebra 2:":
+    "topics":
+    - "Rational exponents":
+        "subtopics":
+        - "Intro to rational exponents"
+        - "Rewriting roots as rational exponents"
+        - "Exponential equation with rational answer"
+        - "Properties of exponents (rational exponents)"
+        - "Rewriting quotient of powers (rational exponents)"
+        - "Rewriting mixed radical and exponential expressions"
+    - "Evaluating exponents & radicals":
+        "subtopics":
+        - "Evaluating fractional exponents"
+        - "Evaluating fractional exponents: negative unit-fraction"
+        - "Evaluating fractional exponents: fractional base"
+        - "Evaluating quotient of fractional exponents"
+        - "Evaluating mixed radicals and exponents"
+    - "Equivalent forms of exponential expressions":
+        "subtopics":
+        - "Rewriting exponential expressions as A⋅Bᵗ"
+        - "Equivalent forms of exponential expressions"
+    - "Solving exponential equations using properties of exponents":
+        "subtopics":
+        - "Solving exponential equations using exponent properties"
+        - "Solving exponential equations using exponent properties (advanced)"

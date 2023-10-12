@@ -1,0 +1,72 @@
+"course":
+  "Derivatives of multivariable functions: Multivariable calculus:":
+    "topics":
+    - "Partial derivatives":
+        "subtopics":
+        - "Introduction to Partial derivatives"
+        - "Graphical understanding of partial derivatives"
+        - "Formal definition of partial derivatives"
+        - "Symmetry of second partial derivatives"
+    - "Gradient and directional derivatives":
+        "subtopics":
+        - "Gradient"
+        - "Gradient and graphs"
+        - "Gradient and contour maps"
+        - "Directional derivative"
+        - "Directional derivative, formal definition"
+        - "Directional derivatives and slope"
+        - "Why the gradient is the direction of steepest ascent"
+    - "Differentiating parametric curves":
+        "subtopics":
+        - "Vector-valued functions intro"
+        - "Vector-valued functions differentiation"
+        - "Differential of a vector valued function"
+        - "Vector valued function derivative example"
+    - "Multivariable chain rule":
+        "subtopics":
+        - "Multivariable chain rule"
+        - "Multivariable chain rule intuition"
+        - "Vector form of the multivariable chain rule"
+        - "Multivariable chain rule and directional derivatives"
+        - "More formal treatment of multivariable chain rule"
+    - "Curvature":
+        "subtopics":
+        - "Curvature intuition"
+        - "Curvature formula, parts 1-5"
+        - "Curvature of a helix, parts 1-2"
+        - "Curvature of a cycloid"
+    - "Partial derivatives of vector-valued functions":
+        "subtopics":
+        - "Computing the partial derivative of a vector-valued function"
+        - "Partial derivative of a parametric surface, parts 1-2"
+        - "Partial derivatives of vector fields"
+        - "Partial derivatives of vector fields, component by component"
+    - "Divergence":
+        "subtopics":
+        - "Divergence intuition, parts 1-2"
+        - "Divergence formula, parts 1-2"
+        - "Divergence example"
+        - "Divergence notation"
+    - "Curl":
+        "subtopics":
+        - "2d curl intuition"
+        - "2d curl formula"
+        - "2d curl example"
+        - "2d curl nuance"
+        - "Describing rotation in 3d with a vector"
+        - "3d curl intuition, parts 1-2"
+        - "3d curl formula, parts 1-2"
+        - "3d curl computation example"
+    - "Laplacian":
+        "subtopics":
+        - "Laplacian intuition"
+        - "Laplacian computation example"
+        - "Explicit Laplacian formula"
+        - "Harmonic Functions"
+    - "Jacobian":
+        "subtopics":
+        - "Jacobian prerequisite knowledge"
+        - "Local linearity for a multivariable function"
+        - "The Jacobian matrix"
+        - "Computing a Jacobian matrix"
+        - "The Jacobian Determinant"

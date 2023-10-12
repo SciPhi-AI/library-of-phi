@@ -1,0 +1,27 @@
+"course":
+  "Logarithms: College Algebra:":
+    "topics":
+    - "Introduction to Logarithms":
+        "subtopics":
+        - "Intro to Logarithms"
+        - "Evaluating Logarithms (Advanced)"
+        - "Relationship between Exponentials & Logarithms"
+        - "Relationship between Exponentials & Logarithms: Graphs"
+        - "Relationship between Exponentials & Logarithms: Tables"
+    - "Properties of Logarithms":
+        "subtopics":
+        - "Intro to Logarithm Properties (1 of 2)"
+        - "Intro to Logarithm Properties (2 of 2)"
+        - "Using the Logarithmic Product Rule"
+        - "Using the Logarithmic Power Rule"
+        - "Using the Properties of Logarithms: Multiple Steps"
+        - "Proof of the Logarithm Product Rule"
+        - "Proof of the Logarithm Quotient and Power Rules"
+    - "The Change of Base Formula for Logarithms":
+        "subtopics":
+        - "Evaluating Logarithms: Change of Base Rule"
+        - "Proof of the Logarithm Change of Base Rule"
+    - "Exponential Model Word Problems":
+        "subtopics":
+        - "Exponential Model Word Problem: Medication Dissolve"
+        - "Exponential Model Word Problem: Bacteria Growth"

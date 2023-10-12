@@ -1,0 +1,51 @@
+"course":
+  "Integration techniques: Calculus 2:":
+    "topics":
+    - "Integrating with u-substitution":
+        "subtopics":
+        - "u-substitution intro"
+        - "u-substitution: multiplying by a constant"
+        - "u-substitution: defining u"
+        - "u-substitution: defining u (more examples)"
+        - "u-substitution: rational function"
+        - "u-substitution: logarithmic function"
+        - "u-substitution: definite integrals"
+        - "u-substitution: definite integral of exponential function"
+        - "u-substitution: special application"
+        - "u-substitution: double substitution"
+        - "u-substitution: challenging application"
+    - "Integrating using long division and completing the square":
+        "subtopics":
+        - "Integration using long division"
+        - "Integration using completing the square and the derivative of arctan(x)"
+    - "Integrating using trigonometric identities":
+        "subtopics":
+        - "Integral of cos^3(x)"
+        - "Integral of sin^2(x) cos^3(x)"
+        - "Integral of sin^4(x)"
+    - "Trigonometric substitution":
+        "subtopics":
+        - "Introduction to trigonometric substitution"
+        - "Substitution with  x=sin(theta)"
+        - "More trig sub practice"
+        - "Trig and u substitution together (part 1)"
+        - "Trig and u substitution together (part 2)"
+        - "Trig substitution with tangent"
+        - "More trig substitution with tangent"
+        - "Long trig sub problem"
+    - "Integration by parts":
+        "subtopics":
+        - "Integration by parts intro"
+        - "Integration by parts: ∫x⋅cos(x)dx"
+        - "Integration by parts: ∫ln(x)dx"
+        - "Integration by parts: ∫x²⋅\U0001D452ˣdx"
+        - "Integration by parts: ∫\U0001D452ˣ⋅cos(x)dx"
+        - "Integration by parts: definite integrals"
+    - "Integrating using linear partial fractions":
+        "subtopics":
+        - "Integration with partial fractions"
+    - "Improper integrals":
+        "subtopics":
+        - "Introduction to improper integrals"
+        - "Divergent improper integral"
+        - "Improper integral with two infinite bounds"

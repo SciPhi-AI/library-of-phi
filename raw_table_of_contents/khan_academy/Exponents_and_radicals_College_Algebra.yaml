@@ -1,0 +1,24 @@
+"course":
+  "Exponents and Radicals: College Algebra:":
+    "topics":
+    - "Exponent Properties":
+        "subtopics":
+        - "Integer Exponents"
+        - "Multiplying & Dividing Powers"
+        - "Powers of Products & Quotients"
+        - "Powers of Zero"
+    - "Simplifying Square Roots":
+        "subtopics":
+        - "Basic Simplification"
+        - "Simplifying Square Roots with Variables"
+        - "Simplifying Square-Root Expressions"
+    - "Exponential Expressions":
+        "subtopics":
+        - "Basic Exponential Expressions"
+        - "Interpreting Exponential Expression Word Problem"
+        - "Creativity in Algebra"
+    - "Graphing Exponential Growth and Decay":
+        "subtopics":
+        - "Basic Graphing Techniques"
+        - "Understanding Growth & Decay"
+        - "Practical Applications of Exponential Graphs"

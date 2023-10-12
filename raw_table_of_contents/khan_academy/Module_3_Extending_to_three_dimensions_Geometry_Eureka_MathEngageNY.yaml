@@ -1,0 +1,26 @@
+"course":
+  "Module 3: Extending to three dimensions: Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Introduction to Area and Unit Squares":
+        "subtopics":
+        - "Intro to area and unit squares"
+        - "Area of composite shapes"
+        - "Perimeter & area of composite shapes"
+        - "Scale factors and area"
+        - "Solving a scale drawing word problem"
+        - "Area of a circle intuition"
+    - "Volume Properties":
+        "subtopics":
+        - "Specifying planes in three dimensions"
+        - "Slicing a rectangular pyramid"
+        - "Ways to cross-section a cube"
+    - "Volume Formulas":
+        "subtopics":
+        - "Volume of triangular prism & cube"
+        - "Cylinder volume & surface area"
+        - "Volume of a cone"
+        - "Volume of a sphere"
+        - "Cavalieri's principle in 3D"
+        - "Volume of pyramids intuition"
+        - "Volumes of cones intuition"
+        - "Using related volumes"

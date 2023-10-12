@@ -1,0 +1,45 @@
+"course":
+  "Differential equations Calculus 2:":
+    "topics":
+    - "Differential equations introduction":
+        "subtopics":
+        - "Writing a differential equation"
+        - "Verifying solutions for differential equations"
+    - "Sketching slope fields":
+        "subtopics":
+        - "Slope fields introduction"
+        - "Worked example: equation from slope field"
+        - "Worked example: slope field from equation"
+        - "Worked example: forming a slope field"
+        - "Reasoning using slope fields"
+        - "Approximating solution curves in slope fields"
+        - "Worked example: range of solution curve from slope field"
+    - "Approximation with Euler’s method":
+        "subtopics":
+        - "Euler's method"
+        - "Worked example: Euler's method"
+    - "Separation of variables":
+        "subtopics":
+        - "Separable equations introduction"
+        - "Addressing treating differentials algebraically"
+        - "Worked example: separable differential equations"
+        - "Worked example: identifying separable equations"
+    - "Particular solutions to differential equations":
+        "subtopics":
+        - "Particular solutions to differential equations: rational function"
+        - "Particular solutions to differential equations: exponential function"
+        - "Worked example: finding a specific solution to a separable equation"
+        - "Worked example: separable equation with an implicit solution"
+    - "Exponential models":
+        "subtopics":
+        - "Exponential models & differential equations (Part 1)"
+        - "Exponential models & differential equations (Part 2)"
+        - "Worked example: exponential solution to differential equation"
+    - "Logistic models":
+        "subtopics":
+        - "Growth models: introduction"
+        - "The logistic  growth model"
+        - "Worked example: Logistic model word problem"
+        - "Logistic equations (Part 1)"
+        - "Logistic equations (Part 2)"
+        - "Worked example: logistic model equations"

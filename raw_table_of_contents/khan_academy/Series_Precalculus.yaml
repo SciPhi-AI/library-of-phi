@@ -1,0 +1,35 @@
+"course":
+  "Series: Precalculus:":
+    "topics":
+    - "Unit 9Series":
+        "subtopics":
+        - "Geometric series"
+        - "Geometric series introduction"
+        - "Finite geometric series formula"
+        - "Worked examples: finite geometric series"
+        - "Geometric series word problems: swing"
+        - "Geometric series word problems: hike"
+        - "Geometric series (with summation notation)"
+    - "Summation notation":
+        "subtopics":
+        - "Summation notation"
+        - "Geometric series with sigma notation"
+        - "Worked example: finite geometric series (sigma notation)"
+        - "Finite geometric series word problem: social media"
+        - "Finite geometric series word problem: mortgage"
+    - "The binomial theorem":
+        "subtopics":
+        - "Intro to the Binomial Theorem"
+        - "Pascal's triangle and binomial expansion"
+        - "Expanding binomials"
+        - "Expanding binomials w/o Pascal's triangle"
+        - "Binomial expansion & combinatorics"
+        - "Pascal's triangle & combinatorics"
+    - "Arithmetic series":
+        "subtopics":
+        - "Arithmetic series intro"
+        - "Arithmetic series formula"
+        - "Worked example: arithmetic series (sigma notation)"
+        - "Worked example: arithmetic series (sum expression)"
+        - "Worked example: arithmetic series (recursive formula)"
+        - "Proof of finite arithmetic series formula"

@@ -1,0 +1,37 @@
+"course":
+  "5th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Module 1: Place value and decimal fractions":
+        "subtopics":
+        - "Multiplicative patterns on the place value chart"
+        - "Decimal fractions and place value patterns"
+        - "Place value and rounding decimal fractions"
+        - "Adding and subtracting decimals"
+        - "Multiplying decimals"
+        - "Dividing decimals"
+    - "Module 2: Multi-digit whole number and decimal fraction operations":
+        "subtopics":
+        - "The standard algorithm for multi-digit whole number multiplication"
+        - "Measurement word problems with whole number and decimal multiplication"
+        - "Partial quotients and multi-digit whole number division"
+        - "Partial quotients and multi-digit decimal division"
+    - "Module 4: Multiplication and division of fractions and decimal fractions":
+        "subtopics":
+        - "Line plots of fraction measurements"
+        - "Fractions as division"
+        - "Multiplication of a whole number by a fraction"
+        - "Fraction expressions and word problems"
+        - "Multiplication of a fraction by a fraction"
+        - "Multiplication with fractions and decimals as scaling and word problems"
+        - "Interpretation of numerical expressions"
+    - "Module 5: Addition and multiplication with volume and area":
+        "subtopics":
+        - "Concepts of volume"
+        - "Volume and the operations of multiplication and addition"
+        - "Area of rectangular figures with fractional side lengths"
+        - "Drawing, analysis, and classification of two-dimensional shapes"
+    - "Module 6: Problem solving with the coordinate plane":
+        "subtopics":
+        - "Coordinate systems"
+        - "Patterns in the coordinate plane and graphing number patterns from rules"
+        - "Problem solving in the coordinate plane"

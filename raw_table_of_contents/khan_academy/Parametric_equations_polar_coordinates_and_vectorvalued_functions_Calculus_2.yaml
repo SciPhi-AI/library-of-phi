@@ -1,0 +1,37 @@
+"course":
+  "Parametric equations, polar coordinates, and vector-valued functions: Calculus 2:":
+    "topics":
+    - "Parametric Equations":
+        "subtopics":
+        - "Parametric Equations Introduction"
+        - "Parametric Equations Differentiation"
+        - "Second Derivatives of Parametric Equations"
+        - "Arc Length: Parametric Curves"
+        - "Worked Example: Parametric Arc Length"
+    - "Vector-Valued Functions":
+        "subtopics":
+        - "Vector-Valued Functions Introduction"
+        - "Vector-Valued Functions Differentiation"
+        - "Second Derivatives: Vector-Valued Functions"
+    - "Planar Motion":
+        "subtopics":
+        - "Planar Motion Introduction"
+        - "Planar Motion Example: Acceleration Vector"
+        - "Motion Along a Curve: Finding Rate of Change"
+        - "Motion Along a Curve: Finding Velocity Magnitude"
+        - "Planar Motion with Integrals"
+    - "Polar Functions":
+        "subtopics":
+        - "Polar Functions Introduction"
+        - "Polar Functions Derivatives"
+        - "Worked Example: Differentiating Polar Functions"
+        - "Area: Polar Regions (Single Curve)"
+        - "Area Bounded by Polar Curves"
+        - "Worked Example: Area Enclosed by Cardioid"
+        - "Area: Polar Regions (Two Curves)"
+        - "Worked Example: Area Between Two Polar Graphs"
+        - "Arc Length: Polar Curves"
+        - "Worked Example: Arc Length of Polar Curves"
+    - "Calculator-Active Practice":
+        "subtopics":
+        - "Evaluating Definite Integral with Calculator"

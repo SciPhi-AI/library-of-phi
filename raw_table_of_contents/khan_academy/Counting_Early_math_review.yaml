@@ -1,0 +1,23 @@
+"course":
+  "Counting: Early math review:":
+    "topics":
+    - "Counting Basics":
+        "subtopics":
+        - "Counting"
+        - "Counting with small numbers"
+        - "Counting in order"
+        - "Number grid"
+        - "Missing numbers between 0 and 120"
+        - "Counting by tens"
+    - "Counting Objects":
+        "subtopics":
+        - "Counting in pictures"
+        - "Counting objects 1"
+        - "Counting objects 2"
+    - "Comparing Small Numbers":
+        "subtopics":
+        - "Comparing numbers of objects"
+        - "Comparing numbers on the number line"
+    - "Counting by Category":
+        "subtopics":
+        - "Counting by category"

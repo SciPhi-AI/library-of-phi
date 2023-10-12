@@ -1,0 +1,75 @@
+"course":
+  "Quadratic functions & equations: Algebra 1:":
+    "topics":
+    - "Intro to parabolas":
+        "subtopics":
+        - "Parabolas intro"
+        - "Interpreting a parabola in context"
+        - "Interpret a quadratic graph"
+    - "Solving and graphing with factored form":
+        "subtopics":
+        - "Zero product property"
+        - "Graphing quadratics in factored form"
+        - "Quadratic word problems (factored form)"
+    - "Solving by taking the square root":
+        "subtopics":
+        - "Solving quadratics by taking square roots"
+        - "Solving quadratics by taking square roots examples"
+        - "Quadratics by taking square roots: strategy"
+        - "Solving quadratics by taking square roots: with steps"
+    - "Vertex form":
+        "subtopics":
+        - "Vertex form introduction"
+        - "Graphing quadratics: vertex form"
+        - "Quadratic word problems (vertex form)"
+    - "Solving quadratics by factoring":
+        "subtopics":
+        - "Solving quadratics by factoring"
+        - "Solving quadratics by factoring: leading coefficient ≠ 1"
+        - "Solving quadratics using structure"
+        - "Quadratic equations word problem: triangle dimensions"
+        - "Quadratic equations word problem: box dimensions"
+    - "The quadratic formula":
+        "subtopics":
+        - "The quadratic formula"
+        - "Worked example: quadratic formula (example 2)"
+        - "Worked example: quadratic formula (negative coefficients)"
+        - "Using the quadratic formula: number of solutions"
+    - "Completing the square intro":
+        "subtopics":
+        - "Completing the square"
+        - "Worked example: Completing the square (intro)"
+        - "Worked example: Rewriting expressions by completing the square"
+        - "Worked example: Rewriting & solving equations by completing the square"
+    - "More on completing the square":
+        "subtopics":
+        - "Solve by completing the square: Integer solutions"
+        - "Solve by completing the square: Non-integer solutions"
+        - "Worked example: completing the square (leading coefficient ≠ 1)"
+        - "Solving quadratics by completing the square: no solution"
+        - "Proof of the quadratic formula"
+    - "Strategizing to solve quadratic equations":
+        "subtopics":
+        - "Strategy in solving quadratic equations"
+    - "Quadratic standard form":
+        "subtopics":
+        - "Finding the vertex of a parabola in standard form"
+        - "Graphing quadratics: standard form"
+        - "Quadratic word problem: ball"
+    - "Features & forms of quadratic functions":
+        "subtopics":
+        - "Forms & features of quadratic functions"
+        - "Worked examples: Forms & features of quadratic functions"
+        - "Vertex & axis of symmetry of a parabola"
+        - "Finding features of quadratic functions"
+        - "Interpret quadratic models: Factored form"
+        - "Interpret quadratic models: Vertex form"
+    - "Comparing quadratic functions":
+        "subtopics":
+        - "Comparing features of quadratic functions"
+        - "Comparing maximum points of quadratic functions"
+    - "Transforming quadratic functions":
+        "subtopics":
+        - "Intro to parabola transformations"
+        - "Shifting parabolas"
+        - "Scaling & reflecting parabolas"

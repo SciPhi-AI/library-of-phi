@@ -1,0 +1,26 @@
+"course":
+  "Module 5: Statistics and probability 7th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Calculating and interpreting probabilities":
+        "subtopics":
+        - "Intro to theoretical probability"
+        - "Simple probability: yellow marble"
+        - "Simple probability: non-blue marble"
+        - "Experimental probability"
+        - "Sample spaces for compound events"
+        - "Die rolling probability"
+        - "Probability of a compound event"
+        - "Count outcomes using tree diagram"
+        - "Counting outcomes: flower pots"
+    - "Estimating probabilities":
+        "subtopics":
+        - "Theoretical and experimental probabilities"
+        - "Intuitive sense of probabilities"
+        - "Making predictions with probability"
+        - "Probability models example: frozen yogurt"
+    - "Random sampling and estimating population characteristics":
+        "subtopics":
+        - "Reasonable samples"
+    - "Comparing populations":
+        "subtopics":
+        - "Comparing distributions with dot plots (example problem)"

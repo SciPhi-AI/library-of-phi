@@ -1,0 +1,64 @@
+"course":
+  "Applications of integration AP®︎/College Calculus AB:":
+    "topics":
+    - "Average Value of a Function":
+        "subtopics":
+        - "Finding the Average Value of a Function on an Interval"
+        - "Average Value over a Closed Interval"
+        - "Calculating Average Value of Function over Interval"
+        - "Mean Value Theorem for Integrals"
+    - "Motion Problems with Integrals":
+        "subtopics":
+        - "Connecting Position, Velocity, and Acceleration Functions Using Integrals"
+        - "Displacement vs. Distance"
+        - "Analyzing Motion Problems: Position"
+        - "Analyzing Motion Problems: Total Distance Traveled"
+        - "Worked Example: Motion Problems"
+        - "Average Acceleration over Interval"
+    - "Accumulation Functions and Definite Integrals":
+        "subtopics":
+        - "Using Accumulation Functions and Definite Integrals in Applied Contexts"
+        - "Area Under Rate Function Gives the Net Change"
+        - "Interpreting Definite Integral as Net Change"
+        - "Worked Examples: Interpreting Definite Integrals in Context"
+        - "Analyzing Problems Involving Definite Integrals"
+        - "Worked Example: Problem Involving Definite Integral"
+    - "Area Between Curves":
+        "subtopics":
+        - "Finding the Area Between Curves Expressed as Functions of x"
+        - "Area Between a Curve and the x-axis"
+        - "Area Between a Curve and the x-axis: Negative Area"
+        - "Area Between Curves"
+        - "Worked Example: Area Between Curves"
+        - "Composite Area Between Curves"
+        - "Finding the Area Between Curves Expressed as Functions of y"
+        - "Area Between a Curve and the y-axis"
+        - "Horizontal Area Between Curves"
+    - "Volumes with Cross Sections":
+        "subtopics":
+        - "Volumes with Cross Sections: Squares and Rectangles"
+        - "Volume with Cross Sections: Intro"
+        - "Volume with Cross Sections Perpendicular to y-axis"
+        - "Volumes with Cross Sections: Triangles and Semicircles"
+        - "Volume with Cross Sections: Semicircle"
+        - "Volume with Cross Sections: Triangle"
+    - "Volume with Disc Method":
+        "subtopics":
+        - "Volume with Disc Method: Revolving Around x- or y-axis"
+        - "Disc Method Around x-axis"
+        - "Generalizing Disc Method Around x-axis"
+        - "Disc Method Around y-axis"
+        - "Volume with Disc Method: Revolving Around Other Axes"
+        - "Disc Method Rotation Around Horizontal Line"
+        - "Disc Method Rotating Around Vertical Line"
+        - "Calculating Integral Disc Around Vertical Line"
+    - "Volume with Washer Method":
+        "subtopics":
+        - "Volume with Washer Method: Revolving Around x- or y-axis"
+        - "Solid of Revolution Between Two Functions"
+        - "Generalizing the Washer Method"
+        - "Volume with Washer Method: Revolving Around Other Axes"
+        - "Washer Method Rotating Around Horizontal Line, Part 1"
+        - "Washer Method Rotating Around Horizontal Line, Part 2"
+        - "Washer Method Rotating Around Vertical Line, Part 1"
+        - "Washer Method Rotating Around Vertical Line, Part 2"

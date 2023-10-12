@@ -1,0 +1,44 @@
+"course":
+  "Summarizing quantitative data: Statistics and probability:":
+    "topics":
+    - "Measuring center in quantitative data":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Mean, median, & mode example"
+        - "Comparing means of distributions"
+        - "Means and medians of different distributions"
+        - "Impact on median & mean: removing an outlier"
+        - "Impact on median & mean: increasing an outlier"
+        - "Missing value given the mean"
+        - "Median & range puzzlers"
+    - "Interquartile range (IQR)":
+        "subtopics":
+        - "Interquartile range (IQR)"
+        - "Variance and standard deviation of a population"
+        - "Measures of spread: range, variance & standard deviation"
+        - "Variance of a population"
+        - "Population standard deviation"
+        - "Mean and standard deviation versus median and IQR"
+        - "Statistics: Alternate variance formulas"
+    - "Variance and standard deviation of a sample":
+        "subtopics":
+        - "Sample variance"
+        - "Sample standard deviation and bias"
+        - "More on standard deviation"
+        - "Why we divide by n - 1 in variance"
+        - "Simulation showing bias in sample variance"
+        - "Simulation providing evidence that (n-1) gives us unbiased estimate"
+        - "Review and intuition why we divide by n-1 for the unbiased sample variance"
+    - "Box and whisker plots":
+        "subtopics":
+        - "Worked example: Creating a box plot (odd number of data points)"
+        - "Worked example: Creating a box plot (even number of data points)"
+        - "Constructing a box plot"
+        - "Reading box plots"
+        - "Interpreting box plots"
+        - "Judging outliers in a dataset"
+    - "Other measures of spread":
+        "subtopics":
+        - "Range and mid-range"
+        - "Mean absolute deviation (MAD)"
+        - "Mean absolute deviation example"

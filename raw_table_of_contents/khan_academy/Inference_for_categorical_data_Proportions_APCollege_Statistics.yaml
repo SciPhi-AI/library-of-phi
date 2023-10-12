@@ -1,0 +1,53 @@
+"course":
+  "Inference for categorical data Proportions AP®︎/College Statistics:":
+    "topics":
+    - "Introduction to Confidence Intervals":
+        "subtopics":
+        - "Confidence Intervals and Margin of Error"
+        - "Confidence Interval Simulation"
+        - "Interpreting Confidence Level Example"
+        - "Confidence Intervals for Proportions"
+        - "Conditions for Valid Confidence Intervals for a Proportion"
+        - "Conditions for Confidence Interval for a Proportion Worked Examples"
+        - "Critical Value (z*) for a Given Confidence Level"
+        - "Example Constructing and Interpreting a Confidence Interval for p"
+        - "Determining Sample Size Based on Confidence and Margin of Error"
+    - "The Idea of Significance Tests":
+        "subtopics":
+        - "Idea Behind Hypothesis Testing"
+        - "Examples of Null and Alternative Hypotheses"
+        - "P-values and Significance Tests"
+        - "Comparing P-values to Different Significance Levels"
+        - "Estimating a P-value from a Simulation"
+    - "Setting up a Test for a Population Proportion":
+        "subtopics":
+        - "Constructing Hypotheses for a Significance Test About a Proportion"
+        - "Conditions for a z Test About a Proportion"
+    - "Carrying out a Test for a Population Proportion":
+        "subtopics":
+        - "Calculating a z Statistic in a Test About a Proportion"
+        - "Calculating a P-value Given a z Statistic"
+    - "Concluding a Test for a Population Proportion":
+        "subtopics":
+        - "Making Conclusions in a Test About a Proportion"
+        - "Significance Test for a Proportion Free Response Example"
+        - "Significance Test for a Proportion Free Response (Part 2 with Correction)"
+    - "Potential Errors When Performing Tests":
+        "subtopics":
+        - "Introduction to Type I and Type II Errors"
+        - "Examples Identifying Type I and Type II Errors"
+        - "Introduction to Power in Significance Tests"
+        - "Examples Thinking About Power in Significance Tests"
+    - "Confidence Intervals for the Difference of Two Proportions":
+        "subtopics":
+        - "Confidence Intervals for the Difference Between Two Proportions"
+        - "Examples Identifying Conditions for Inference on Two Proportions"
+        - "Calculating a Confidence Interval for the Difference of Proportions"
+    - "Testing for the Difference of Two Population Proportions":
+        "subtopics":
+        - "Hypothesis Test for Difference in Proportions"
+        - "Constructing Hypotheses for Two Proportions"
+        - "Hypothesis Test for Difference in Proportions Example"
+        - "Comparing P Value to Significance Level for Test Involving Difference of\
+          \ Proportions"
+        - "Confidence Interval for Hypothesis Test for Difference in Proportions"

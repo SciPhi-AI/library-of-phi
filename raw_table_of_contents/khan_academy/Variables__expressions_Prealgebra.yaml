@@ -1,0 +1,45 @@
+"course":
+  "Variables & expressions: Pre-algebra:":
+    "topics":
+    - "Parts of algebraic expressions":
+        "subtopics":
+        - "What is a variable?"
+        - "Terms, factors, & coefficients"
+        - "Why aren't we using the multiplication sign?"
+    - "Substitution & evaluating expressions":
+        "subtopics":
+        - "Evaluating an expression with one variable"
+        - "Evaluating exponent expressions with variables"
+        - "Evaluating expressions like 5x² & ⅓(6)ˣ"
+        - "Evaluating expressions with multiple variables"
+        - "Evaluating expressions with two variables"
+        - "Evaluating expressions with two variables: fractions & decimals"
+        - "Expression value intuition"
+    - "Evaluating expressions word problems":
+        "subtopics":
+        - "Evaluating expressions with variables: temperature"
+        - "Evaluating expressions with variables: cubes"
+        - "Evaluating expressions with variables: exponents"
+    - "Writing algebraic expressions introduction":
+        "subtopics":
+        - "Writing basic expressions with variables"
+        - "Writing algebraic subtraction expressions"
+        - "Writing expressions with variables"
+        - "Writing expressions with parentheses"
+        - "Writing expressions with variables & parentheses"
+    - "Writing basic algebraic expressions word problems":
+        "subtopics":
+        - "Writing basic expressions word problems"
+    - "Distributive property with variables":
+        "subtopics":
+        - "Distributive property over addition"
+        - "Distributive property over subtraction"
+        - "Distributive property with variables"
+    - "Combining like terms":
+        "subtopics":
+        - "Intro to combining like terms"
+        - "Combining like terms"
+        - "Combining like terms example"
+    - "Equivalent expressions":
+        "subtopics":
+        - "Equivalent expressions"

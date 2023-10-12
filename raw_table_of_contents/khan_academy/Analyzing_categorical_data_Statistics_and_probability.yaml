@@ -1,0 +1,24 @@
+"course":
+  "Analyzing categorical data: Statistics and probability:":
+    "topics":
+    - "Analyzing one categorical variable":
+        "subtopics":
+        - "Identifying individuals, variables and categorical variables in a data\
+          \ set"
+        - "Reading pictographs"
+        - "Reading bar graphs"
+        - "Reading bar graphs: Harry Potter"
+        - "Creating a bar graph"
+        - "Reading bar charts: comparing two sets of data"
+        - "Reading bar charts: putting it together with central tendency"
+        - "Reading pie graphs (circle graphs)"
+    - "Two-way tables":
+        "subtopics":
+        - "Two-way frequency tables and Venn diagrams"
+        - "Two-way relative frequency tables"
+        - "Interpreting two-way tables"
+        - "Categorical data example"
+        - "Analyzing trends in categorical data"
+    - "Distributions in two-way tables":
+        "subtopics":
+        - "Marginal and conditional distributions"

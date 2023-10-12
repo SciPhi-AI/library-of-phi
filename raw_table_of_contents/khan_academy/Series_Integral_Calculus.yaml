@@ -1,0 +1,45 @@
+"course":
+  "Series: Integral Calculus:":
+    "topics":
+    - "Convergent and Divergent Infinite Series":
+        "subtopics":
+        - "Convergent and Divergent Sequences"
+        - "Partial Sums"
+        - "Infinite Series as Limit of Partial Sums"
+        - "Infinite Geometric Series"
+        - "nth-term Test"
+    - "Integral Test":
+        "subtopics":
+        - "Integral Test Introduction"
+        - "Harmonic Series and p-series"
+        - "Comparison Tests"
+        - "Direct Comparison Test"
+        - "Limit Comparison Test"
+    - "Alternating Series Test":
+        "subtopics":
+        - "Alternating Series Test Introduction"
+        - "Ratio Test"
+        - "Absolute and Conditional Convergence"
+        - "Alternating Series Error Bound"
+    - "Taylor and Maclaurin Polynomials":
+        "subtopics":
+        - "Taylor & Maclaurin Polynomials Introduction"
+        - "Coefficient in Maclaurin Polynomial"
+        - "Coefficient in Taylor Polynomial"
+        - "Visualizing Taylor Polynomial Approximations"
+        - "Lagrange Error Bound"
+    - "Power Series":
+        "subtopics":
+        - "Power Series Introduction"
+        - "Function as a Geometric Series"
+        - "Maclaurin Series of eˣ, sin(x), and cos(x)"
+        - "Representing Functions as Power Series"
+        - "Interval of Convergence for Derivative and Integral"
+    - "Telescoping Series":
+        "subtopics":
+        - "Telescoping Series Introduction"
+        - "Divergent Telescoping Series"
+        - "Converting Explicit Series Terms to Summation Notation"
+        - "Proof Videos"
+        - "Formal Definition for Limit of a Sequence"
+        - "Proof of p-series Convergence Criteria"

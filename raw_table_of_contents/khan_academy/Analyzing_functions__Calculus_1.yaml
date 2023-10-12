@@ -1,0 +1,64 @@
+"course":
+  "Analyzing functions : Calculus 1:":
+    "topics":
+    - "Mean Value Theorem":
+        "subtopics":
+        - "Mean Value Theorem"
+        - "Mean Value Theorem Example: Polynomial"
+        - "Mean Value Theorem Example: Square Root Function"
+        - "Justification with the Mean Value Theorem: Table"
+        - "Justification with the Mean Value Theorem: Equation"
+        - "Mean Value Theorem Application"
+    - "Extreme Value Theorem and Critical Points":
+        "subtopics":
+        - "Extreme Value Theorem"
+        - "Critical Points Introduction"
+        - "Finding Critical Points"
+    - "Intervals on Which a Function is Increasing or Decreasing":
+        "subtopics":
+        - "Finding Decreasing Interval Given the Function"
+        - "Finding Increasing Interval Given the Derivative"
+    - "Extrema":
+        "subtopics":
+        - "Introduction to Minimum and Maximum Points"
+        - "Finding Relative Extrema (First Derivative Test)"
+        - "Worked Example: Finding Relative Extrema"
+        - "Analyzing Mistakes When Finding Extrema"
+        - "Finding Absolute Extrema on a Closed Interval"
+        - "Absolute Minima & Maxima (Entire Domain)"
+    - "Concavity and Inflection Points":
+        "subtopics":
+        - "Concavity Introduction"
+        - "Analyzing Concavity (Graphical)"
+        - "Inflection Points Introduction"
+        - "Inflection Points (Graphical)"
+        - "Analyzing Concavity and Inflection Points"
+        - "Mistakes When Finding Inflection Points"
+    - "Second Derivative Test":
+        "subtopics":
+        - "Second Derivative Test"
+    - "Sketching Curves":
+        "subtopics":
+        - "Curve Sketching with Calculus: Polynomial"
+        - "Curve Sketching with Calculus: Logarithm"
+        - "Analyzing a Function with Its Derivative"
+    - "Connecting f, f', and f''":
+        "subtopics":
+        - "Calculus-Based Justification for Function Increasing"
+        - "Justification Using First Derivative"
+        - "Inflection Points from Graphs of Function & Derivatives"
+        - "Justification Using Second Derivative: Inflection Point"
+        - "Justification Using Second Derivative: Maximum Point"
+        - "Connecting f, f', and f'' Graphically"
+    - "Solving Optimization Problems":
+        "subtopics":
+        - "Optimization: Sum of Squares"
+        - "Optimization: Box Volume"
+        - "Optimization: Profit"
+        - "Optimization: Cost of Materials"
+        - "Optimization: Area of Triangle & Square"
+        - "Optimization Problem: Extreme Normaline to y=x²"
+        - "Motion Problems: Finding the Maximum Acceleration"
+    - "Analyzing Implicit Relations":
+        "subtopics":
+        - "Horizontal Tangent to Implicit Curve"

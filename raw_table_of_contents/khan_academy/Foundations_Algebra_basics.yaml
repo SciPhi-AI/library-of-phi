@@ -1,0 +1,68 @@
+"course":
+  "Foundations: Algebra basics:":
+    "topics":
+    - "Number Opposites":
+        "subtopics":
+        - "Understanding Number Opposites"
+        - "Adding Numbers with Different Signs"
+        - "Adding & Subtracting Negative Numbers"
+        - "Subtracting a Negative Equals Adding a Positive"
+    - "Multiplication and Division":
+        "subtopics":
+        - "Multiplying Positive & Negative Numbers"
+        - "Why a Negative Times a Negative is a Positive"
+        - "Dividing Positive and Negative Numbers"
+    - "Absolute Value":
+        "subtopics":
+        - "Understanding Absolute Value"
+        - "Absolute Value Examples"
+        - "Absolute Value and Number Lines"
+        - "Interpreting Absolute Value"
+    - "Exponents":
+        "subtopics":
+        - "Intro to Exponents"
+        - "Exponent Examples"
+        - "The 0 & 1st Power"
+        - "Powers of Zero"
+        - "Comparing Exponent Expressions"
+        - "Exponents of Decimals"
+        - "Evaluating Exponent Expressions with Variables"
+    - "Square Roots":
+        "subtopics":
+        - "Intro to Square Roots"
+        - "Simplifying Square Roots"
+        - "Simplifying Square Roots of Fractions"
+        - "Simplifying Square-Root Expressions"
+    - "Order of Operations":
+        "subtopics":
+        - "Intro to Order of Operations"
+        - "Order of Operations Examples"
+        - "Worked Example: Order of Operations (PEMDAS)"
+    - "Fractions":
+        "subtopics":
+        - "Adding Fractions Word Problem"
+        - "Adding Fractions with Different Signs"
+        - "Multiplying Positive and Negative Fractions"
+        - "Dividing Negative Fractions"
+    - "Decimals, Fractions and Percentages":
+        "subtopics":
+        - "The Meaning of Percent"
+        - "Percents from Fraction Models"
+        - "Fraction, Decimal, and Percent from Visual Model"
+        - "Worked Example: Converting a Fraction to a Decimal"
+        - "Rewriting Decimals as Fractions"
+        - "Finding a Percent"
+        - "Percent of a Whole Number"
+        - "Percent Word Problems"
+    - "Operations with Decimals":
+        "subtopics":
+        - "Adding Decimals"
+        - "Subtracting Decimals"
+        - "Multiplying Decimals"
+        - "Dividing Decimals"
+    - "Area of Shapes":
+        "subtopics":
+        - "Area of a Triangle"
+        - "Circumference and Area of Circles"
+        - "Radius, Diameter, Circumference & π"
+        - "Labeling Parts of a Circle"

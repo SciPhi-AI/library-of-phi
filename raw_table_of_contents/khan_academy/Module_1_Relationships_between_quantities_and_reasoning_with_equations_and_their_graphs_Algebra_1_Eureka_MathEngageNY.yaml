@@ -1,0 +1,88 @@
+"course":
+  "Module 1 Relationships between quantities and reasoning with equations and their graphs Algebra 1 (Eureka Math/EngageNY):":
+    "topics":
+    - "Piecewise, quadratic, and exponential functions":
+        "subtopics":
+        - "Introduction to piecewise functions"
+        - "Evaluating piecewise functions"
+        - "Parabolas intro"
+        - "Intro to exponential functions"
+        - "Exponential vs. linear growth"
+        - "Exponential vs. linear models: verbal"
+        - "Exponential vs. linear models: table"
+    - "Analyzing graphs":
+        "subtopics":
+        - "Graph interpretation word problem: temperature"
+        - "Graph interpretation word problem: basketball"
+        - "Linear graphs word problems"
+        - "Linear graphs word problem: cats"
+        - "System of equations word problem: walk & ride"
+    - "Adding and subtracting polynomials":
+        "subtopics":
+        - "Polynomials intro"
+        - "The parts of polynomial expressions"
+        - "Evaluating polynomials"
+        - "Simplifying polynomials"
+        - "Adding polynomials"
+        - "Subtracting polynomials"
+        - "Polynomial subtraction"
+        - "Adding & subtracting multiple polynomials"
+    - "Multiplying monomials and polynomials":
+        "subtopics":
+        - "Multiplying monomials"
+        - "Multiplying monomials to find area: two variables"
+        - "Multiplying monomials by polynomials: area model"
+        - "Multiplying monomials by polynomials"
+        - "Multiplying binomials: area model"
+        - "Multiplying binomials intro"
+        - "Multiplying binomials"
+    - "Solving Equations and Inequalities":
+        "subtopics":
+        - "Testing solutions to equations"
+        - "Number of solutions to equations"
+        - "Creating an equation with no solutions"
+        - "Creating an equation with infinitely many solutions"
+        - "Testing solutions to inequalities"
+        - "Plotting inequalities"
+        - "One-step inequalities examples"
+        - "Two-step inequalities"
+        - "Inequalities with variables on both sides"
+        - "Multi-step inequalities"
+    - "Compound inequalities and Advanced equations":
+        "subtopics":
+        - "Compound inequalities: OR"
+        - "Compound inequalities: AND"
+        - "Zero product property"
+        - "Solving quadratics by factoring"
+        - "Rational equations intro"
+        - "Linear equations with unknown coefficients"
+    - "Solution sets to equations and inequalities with two variables":
+        "subtopics":
+        - "Two-variable linear equations intro"
+        - "Solutions to 2-variable equations"
+        - "Testing solutions to inequalities"
+        - "Intro to graphing two-variable inequalities"
+        - "Graphing two-variable inequalities"
+        - "Two-variable inequalities from their graphs"
+    - "Solution sets to simultaneous equations":
+        "subtopics":
+        - "Testing a solution to a system of equations"
+        - "Systems of equations with graphing: y=7/5x-5 & y=3/5x-1"
+        - "Systems of equations with elimination: King's cupcakes"
+        - "Systems of equations with elimination: x-4y=-18 & -x+3y=11"
+        - "Systems of equations with elimination (and manipulation)"
+        - "Why can we subtract one equation from the other in a system of equations?"
+    - "Applications of systems of equations and inequalities":
+        "subtopics":
+        - "Age word problem: Imran"
+        - "Age word problem: Ben & William"
+        - "Age word problem: Arman & Diya"
+        - "Modeling with systems of inequalities"
+        - "Writing systems of inequalities word problem"
+        - "Solving systems of inequalities word problem"
+        - "Graphs of systems of inequalities word problem"
+    - "Creating equations to solve problems":
+        "subtopics":
+        - "Worked example: Rate problem"
+        - "Sequences intro"
+        - "Evaluating sequences in recursive form"

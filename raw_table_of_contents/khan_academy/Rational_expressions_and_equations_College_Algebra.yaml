@@ -1,0 +1,33 @@
+"course":
+  "Rational expressions and equations: College Algebra:":
+    "topics":
+    - "Rational equations":
+        "subtopics":
+        - "Rational equations intro"
+        - "Equations with rational expressions"
+        - "Equations with rational expressions (example 2)"
+        - "Finding inverses of rational functions"
+    - "Modeling with rational expressions":
+        "subtopics":
+        - "Combining mixtures example"
+        - "Rational equation word problem"
+        - "Rational equations word problem: combined rates (example 2)"
+        - "Rational equations word problem: eliminating solutions"
+    - "Reducing rational expressions to lowest terms":
+        "subtopics":
+        - "Reducing rational expressions to lowest terms"
+        - "Creativity break: When did you first realize that you liked algebra"
+    - "Multiplying and dividing rational expressions":
+        "subtopics":
+        - "Multiplying & dividing rational expressions: monomials"
+        - "Multiplying rational expressions"
+        - "Dividing rational expressions"
+    - "Adding & subtracting rational expressions":
+        "subtopics":
+        - "Adding & subtracting rational expressions: like denominators"
+        - "Intro to adding rational expressions with unlike denominators"
+        - "Adding rational expression: unlike denominators"
+        - "Subtracting rational expressions: unlike denominators"
+        - "Least common multiple of polynomials"
+        - "Subtracting rational expressions: factored denominators"
+        - "Subtracting rational expressions"

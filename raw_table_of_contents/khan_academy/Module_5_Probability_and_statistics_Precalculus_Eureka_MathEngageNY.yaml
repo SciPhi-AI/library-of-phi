@@ -1,0 +1,51 @@
+"course":
+  "Module 5: Probability and statistics: Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "The General Multiplication Rule":
+        "subtopics":
+        - "Compound Probability of Independent Events"
+        - "Independent Events Example: Test Taking"
+        - "'At Least One' Probability with Coin Flipping"
+        - "Dependent Probability Introduction"
+    - "Counting Rules—The Fundamental Counting Principle and Permutations":
+        "subtopics":
+        - "Count Outcomes Using Tree Diagram"
+        - "Counting Outcomes: Flower Pots"
+        - "Permutation Formula"
+        - "Zero Factorial or 0!"
+        - "Possible Three Letter Words"
+        - "Ways to Arrange Colors"
+        - "Ways to Pick Officers"
+    - "Counting Rules—Combinations":
+        "subtopics":
+        - "Intro to Combinations"
+        - "Combination Formula"
+        - "Handshaking Combinations"
+        - "Combination Example: 9 Card Hands"
+    - "Using Permutations and Combinations to Compute Probabilities":
+        "subtopics":
+        - "Getting Exactly Two Heads (Combinatorics)"
+        - "Exactly Three Heads in Five Flips"
+        - "Example: Different Ways to Pick Officers"
+        - "Example: Combinatorics and Probability"
+        - "Example: Lottery Probability"
+        - "Mega Millions Jackpot Probability"
+    - "Discrete Random Variables":
+        "subtopics":
+        - "Random Variables"
+        - "Discrete and Continuous Random Variables"
+        - "Valid Discrete Probability Distribution Examples"
+        - "Probability with Discrete Random Variable Example"
+    - "Expected Value":
+        "subtopics":
+        - "Mean (Expected Value) of a Discrete Random Variable"
+    - "Creating Probability Distributions":
+        "subtopics":
+        - "Constructing a Probability Distribution for Random Variable"
+        - "Probability Models Example: Frozen Yogurt"
+    - "Applications of Expected Value and Probability":
+        "subtopics":
+        - "Term Life Insurance and Death Probability"
+        - "Expected Profit from Lottery Ticket"
+        - "Expected Value While Fishing"
+        - "Comparing Insurance with Expected Value"

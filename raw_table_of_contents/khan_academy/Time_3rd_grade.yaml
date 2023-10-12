@@ -1,0 +1,26 @@
+"course":
+  "Time: 3rd grade:":
+    "topics":
+    - "Time on Number Line":
+        "subtopics":
+        - "Understanding Number Line"
+        - "Representing Time on Number Line"
+    - "Telling Time":
+        "subtopics":
+        - "Basics of Telling Time"
+        - "Telling Time to the Nearest Minute (Labeled Clock)"
+        - "Telling Time to the Nearest Minute (Unlabeled Clock)"
+    - "Elapsed Time":
+        "subtopics":
+        - "Understanding Elapsed Time"
+        - "Calculating Elapsed Time"
+        - "Elapsed Time Examples"
+    - "Time Differences":
+        "subtopics":
+        - "Understanding Time Differences"
+        - "Time Differences Examples"
+    - "Time Word Problems":
+        "subtopics":
+        - "Time Word Problem: Travel Time"
+        - "Time Word Problem: Puzzle"
+        - "Solving Time Word Problems"

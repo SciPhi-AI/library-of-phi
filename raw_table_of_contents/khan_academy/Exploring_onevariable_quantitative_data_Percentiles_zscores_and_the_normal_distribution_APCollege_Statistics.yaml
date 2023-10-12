@@ -1,0 +1,26 @@
+"course":
+  "Exploring one-variable quantitative data Percentiles, z-scores, and the normal distribution AP®︎/College Statistics:":
+    "topics":
+    - "Percentiles":
+        "subtopics":
+        - "Calculating percentile"
+        - "Analyzing a cumulative relative frequency graph"
+    - "Z-scores":
+        "subtopics":
+        - "Z-score introduction"
+        - "Comparing with z-scores"
+    - "Density curves":
+        "subtopics":
+        - "Density Curves"
+        - "Median, mean and skew from density curves"
+    - "Normal distributions and the empirical rule":
+        "subtopics":
+        - "Qualitative sense of normal distributions"
+        - "Normal distribution problems: Empirical rule"
+    - "Normal distribution calculations":
+        "subtopics":
+        - "Standard normal table for proportion below"
+        - "Standard normal table for proportion above"
+        - "Standard normal table for proportion between values"
+        - "Finding z-score for a percentile"
+        - "Threshold for low percentile"

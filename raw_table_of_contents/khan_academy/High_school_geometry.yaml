@@ -1,0 +1,73 @@
+"course":
+  "High school geometry:":
+    "topics":
+    - "Performing transformations":
+        "subtopics":
+        - "Introduction to rigid transformations"
+        - "Translations"
+        - "Rotations"
+        - "Reflections"
+        - "Dilations"
+    - "Transformation properties and proofs":
+        "subtopics":
+        - "Dilation preserved properties"
+        - "Properties & definitions of transformations"
+        - "Symmetry"
+        - "Proofs with transformations"
+    - "Congruence":
+        "subtopics":
+        - "Triangle congruence from transformations"
+        - "Congruent triangles"
+        - "Working with triangles"
+        - "Theorems concerning quadrilateral properties"
+        - "Proofs of general theorems"
+        - "Constructing lines & angles"
+    - "Similarity":
+        "subtopics":
+        - "Introduction to triangle similarity"
+        - "Solving similar triangles"
+        - "Angle bisector theorem"
+        - "Solving problems with similar & congruent triangles"
+        - "Proving relationships using similarity"
+        - "Solving modeling problems with similar & congruent triangles"
+    - "Right triangles & trigonometry":
+        "subtopics":
+        - "Pythagorean theorem proofs"
+        - "Special right triangles"
+        - "Introduction to the trigonometric ratios"
+        - "Solving for a side in a right triangle using the trigonometric ratios"
+        - "Sine & cosine of complementary angles"
+        - "Modeling with right triangles"
+    - "Analytic geometry":
+        "subtopics":
+        - "Dividing line segments"
+        - "Problem solving with distance on the coordinate plane"
+        - "Parallel & perpendicular lines on the coordinate plane"
+        - "Equations of parallel & perpendicular lines"
+    - "Conic sections":
+        "subtopics":
+        - "Standard equation of a circle"
+        - "Expanded equation of a circle"
+        - "Focus and directrix of a parabola"
+    - "Circles":
+        "subtopics":
+        - "Arc measure"
+        - "Arc length (from degrees)"
+        - "Introduction to radians"
+        - "Arc length (from radians)"
+        - "Sectors"
+        - "Inscribed angles"
+        - "Inscribed shapes problem solving"
+        - "Proofs with inscribed shapes"
+        - "Properties of tangents"
+        - "Constructing regular polygons inscribed in circles"
+        - "Constructing circumcircles & incircles"
+        - "Constructing a line tangent to a circle"
+    - "Solid geometry":
+        "subtopics":
+        - "Volume and surface area"
+        - "Density"
+        - "Modeling with right triangles"
+        - "Volume and surface area"
+        - "Special right triangles"
+        - "Introduction to triangle similarity"

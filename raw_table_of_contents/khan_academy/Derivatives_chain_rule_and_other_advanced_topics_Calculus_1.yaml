@@ -1,0 +1,56 @@
+"course":
+  "Derivatives: chain rule and other advanced topics: Calculus 1:":
+    "topics":
+    - "Chain Rule":
+        "subtopics":
+        - "Basic Chain Rule"
+        - "Common Chain Rule Misunderstandings"
+        - "Identifying Composite Functions"
+        - "Derivative of cos³(x) using the Chain Rule"
+        - "Derivative of √(3x²-x) using the Chain Rule"
+        - "Derivative of ln(√x) using the Chain Rule"
+        - "Chain Rule with Table"
+        - "More Chain Rule Practice"
+    - "Derivative of aˣ and logₐx":
+        "subtopics":
+        - "Derivative of aˣ (for any positive base a)"
+        - "Derivative of logₐx (for any positive base a≠1)"
+        - "Derivative of 7^(x²-x) using the Chain Rule"
+        - "Derivative of log₄(x²+x) using the Chain Rule"
+    - "Implicit Differentiation":
+        "subtopics":
+        - "Basic Implicit Differentiation"
+        - "Evaluating Derivative with Implicit Differentiation"
+        - "Showing Explicit and Implicit Differentiation give Same Result"
+        - "Advanced Examples of Implicit Differentiation"
+    - "Differentiating Inverse Functions":
+        "subtopics":
+        - "Derivatives of Inverse Functions"
+        - "Derivatives of Inverse Functions: from Equation"
+        - "Derivatives of Inverse Functions: from Table"
+        - "Derivatives of Inverse Trigonometric Functions"
+    - "Strategy in Differentiating Functions":
+        "subtopics":
+        - "Differentiating Functions: Find the Error"
+        - "Manipulating Functions before Differentiation"
+        - "Differentiating using Multiple Rules: Strategy"
+        - "Applying the Chain Rule and Product Rule"
+        - "Applying the Chain Rule Twice"
+    - "Second Derivatives":
+        "subtopics":
+        - "Basic Second Derivatives"
+        - "Second Derivatives (implicit equations): Find Expression"
+        - "Second Derivatives (implicit equations): Evaluate Derivative"
+    - "Disguised Derivatives":
+        "subtopics":
+        - "Basic Disguised Derivatives"
+    - "Logarithmic Differentiation":
+        "subtopics":
+        - "Composite Exponential Function Differentiation"
+        - "Worked Example: Composite Exponential Function Differentiation"
+    - "Proof Videos":
+        "subtopics":
+        - "Proof: Differentiability Implies Continuity"
+        - "If Function u is Continuous at x, then Δu→0 as Δx→0"
+        - "Chain Rule Proof"
+        - "Quotient Rule from Product & Chain Rules"

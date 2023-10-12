@@ -1,0 +1,39 @@
+"course":
+  "Module 2: The concept of congruence 8th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Definitions and properties of the basic rigid motions":
+        "subtopics":
+        - "Introduction to geometric transformations"
+        - "Identifying transformations"
+        - "Translating points"
+        - "Translating shapes"
+        - "Determining translations"
+        - "Rotating points"
+        - "Determining rotations"
+        - "Reflecting points"
+        - "Reflecting shapes"
+        - "Determining reflections"
+    - "Sequencing the basic rigid motions":
+        "subtopics":
+        - "Finding measures using rigid transformations"
+        - "Rigid transformations: preserved properties"
+        - "Mapping shapes"
+        - "Congruent shapes & transformations"
+        - "Non-congruent shapes & transformations"
+    - "Congruence and angle relationships":
+        "subtopics":
+        - "Congruence and similarity — Basic example"
+        - "Congruence and similarity — Harder example"
+        - "Angles, parallel lines, & transversals"
+        - "Parallel & perpendicular lines"
+        - "Missing angles with a transversal"
+        - "Measures of angles formed by a transversal"
+        - "Angles in a triangle sum to 180° proof"
+        - "Triangle exterior angle example"
+        - "Worked example: Triangle angles (intersecting lines)"
+        - "Worked example: Triangle angles (diagram)"
+        - "Triangle angle challenge problem"
+        - "Triangle angle challenge problem 2"
+    - "The Pythagorean theorem":
+        "subtopics":
+        - "Bhaskara's proof of the Pythagorean theorem"

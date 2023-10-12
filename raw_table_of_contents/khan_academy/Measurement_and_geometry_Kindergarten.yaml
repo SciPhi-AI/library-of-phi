@@ -1,0 +1,40 @@
+"course":
+  "Measurement and Geometry: Kindergarten:":
+    "topics":
+    - "Basic Shapes":
+        "subtopics":
+        - "Circle"
+        - "Square"
+        - "Triangle"
+        - "Rectangle"
+        - "Oval"
+    - "Cousin Fal's Shape Collection":
+        "subtopics":
+        - "Identifying Shapes"
+        - "Sorting Shapes"
+        - "Comparing Shapes"
+        - "Grouping Shapes"
+    - "Recognizing Shapes":
+        "subtopics":
+        - "Shape Recognition"
+        - "Shape Matching"
+        - "Shape Naming"
+        - "Shape Drawing"
+    - "Comparing Shapes":
+        "subtopics":
+        - "Size Comparison"
+        - "Shape Comparison"
+        - "Color Comparison"
+        - "Pattern Comparison"
+    - "Relative Position":
+        "subtopics":
+        - "Position Understanding"
+        - "Position Description"
+        - "Position Comparison"
+        - "Position Change"
+    - "Composing Shapes":
+        "subtopics":
+        - "Shape Combination"
+        - "Shape Transformation"
+        - "Shape Creation"
+        - "Shape Decomposition"

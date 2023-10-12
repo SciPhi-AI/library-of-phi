@@ -1,0 +1,34 @@
+"course":
+  "Inference for quantitative data Means AP®︎/College Statistics:":
+    "topics":
+    - "Constructing a confidence interval for a population mean":
+        "subtopics":
+        - "Introduction to t statistics"
+        - "Simulation showing value of t statistic"
+        - "Conditions for valid t intervals"
+        - "Example finding critical t value"
+        - "Example constructing a t interval for a mean"
+        - "Confidence interval for a mean with paired data"
+    - "Setting up a test for a population mean":
+        "subtopics":
+        - "Writing hypotheses for a significance test about a mean"
+        - "Conditions for a t test about a mean"
+        - "Carrying out a test for a population mean"
+        - "When to use z or t statistics in significance tests"
+        - "Example calculating t statistic for a test about a mean"
+        - "Using TI calculator for P-value from t statistic"
+        - "Using a table to estimate P-value from t statistic"
+        - "Comparing P-value from t statistic to significance level"
+        - "Free response example: Significance test for a mean"
+    - "Confidence intervals for the difference of two means":
+        "subtopics":
+        - "Conditions for inference for difference of means"
+        - "Constructing t interval for difference of means"
+        - "Calculating confidence interval for difference of means"
+    - "Testing for the difference of two population means":
+        "subtopics":
+        - "Hypotheses for a two-sample t test"
+        - "Example of hypotheses for paired and two-sample t tests"
+        - "Two-sample t test for difference of means"
+        - "Conclusion for a two-sample t test using a P-value"
+        - "Conclusion for a two-sample t test using a confidence interval"

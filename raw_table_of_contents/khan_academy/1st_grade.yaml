@@ -1,0 +1,25 @@
+"course":
+  "1st grade:":
+    "topics":
+    - "Place value":
+        "subtopics":
+        - "Numbers 0 to 120"
+        - "Ones and tens"
+        - "Comparing 2-digit numbers"
+    - "Addition and subtraction":
+        "subtopics":
+        - "Relate addition and subtraction"
+        - "Addition within 20"
+        - "Subtraction within 20"
+        - "Equal sign"
+        - "Word problems within 20"
+        - "Word problems with 'more' and 'fewer'"
+        - "Adding 1s and 10s"
+        - "Intro to addition with 2-digit numbers"
+    - "Measurement, data, and geometry":
+        "subtopics":
+        - "Length and size"
+        - "Bar graphs"
+        - "Time"
+        - "Shapes"
+        - "Fractions of shapes"

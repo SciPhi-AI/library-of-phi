@@ -1,0 +1,60 @@
+"course":
+  "Module 1: Complex numbers and transformations: Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "Powers of the imaginary unit":
+        "subtopics":
+        - "Plotting numbers on the complex plane"
+        - "Adding complex numbers"
+        - "Subtracting complex numbers"
+        - "Multiplying complex numbers"
+    - "Complex number division":
+        "subtopics":
+        - "Intro to complex number conjugates"
+        - "Complex number conjugates"
+        - "Dividing complex numbers"
+    - "Distance and midpoint of complex numbers":
+        "subtopics":
+        - "Multiplying complex numbers graphically example: -3i"
+        - "Multiplying complex numbers graphically example: -1-i"
+        - "Distance & midpoint of complex numbers"
+    - "Trigonometry and complex numbers":
+        "subtopics":
+        - "Absolute value of complex numbers"
+        - "Absolute value & angle of complex numbers"
+        - "Polar & rectangular forms of complex numbers"
+    - "Multiplying and dividing complex numbers in polar form":
+        "subtopics":
+        - "Dividing complex numbers: polar & exponential form"
+    - "Exploiting the connection to trigonometry":
+        "subtopics":
+        - "Powers of complex numbers"
+        - "Complex number equations: x³=1"
+    - "Transforming vectors with matrices":
+        "subtopics":
+        - "Intro to matrices"
+        - "Intro to matrix multiplication"
+        - "Multiplying matrices"
+        - "Transforming vectors using matrices"
+    - "Matrix notation encompasses new transformations":
+        "subtopics":
+        - "Transforming polygons using matrices"
+        - "Visual representation of transformation from matrix"
+        - "Using matrices to transform the plane: Mapping a vector"
+        - "Using matrices to transform the plane: Composing matrices"
+    - "Properties of matrix addition":
+        "subtopics":
+        - "Adding & subtracting matrices"
+        - "Multiplying matrices by scalars"
+    - "Properties of matrix multiplication":
+        "subtopics":
+        - "Intro to identity matrix"
+        - "Dimensions of identity matrix"
+        - "Is matrix multiplication commutative?"
+        - "Associative property of matrix multiplication"
+        - "Zero matrix & matrix multiplication"
+    - "Matrix inverses":
+        "subtopics":
+        - "Determinant of a 2x2 matrix"
+        - "Intro to matrix inverses"
+        - "Determining invertible matrices"
+        - "Finding inverses of 2x2 matrices"

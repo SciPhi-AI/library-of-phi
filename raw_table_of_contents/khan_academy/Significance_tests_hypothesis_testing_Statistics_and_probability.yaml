@@ -1,0 +1,42 @@
+"course":
+  "Significance tests (hypothesis testing) Statistics and probability:":
+    "topics":
+    - "The idea of significance tests":
+        "subtopics":
+        - "Simple hypothesis testing"
+        - "Idea behind hypothesis testing"
+        - "Examples of null and alternative hypotheses"
+        - "P-values and significance tests"
+        - "Comparing P-values to different significance levels"
+        - "Estimating a P-value from a simulation"
+    - "Error probabilities and power":
+        "subtopics":
+        - "Introduction to Type I and Type II errors"
+        - "Type 1 errors"
+        - "Examples identifying Type I and Type II errors"
+        - "Introduction to power in significance tests"
+        - "Examples thinking about power in significance tests"
+    - "Tests about a population proportion":
+        "subtopics":
+        - "Constructing hypotheses for a significance test about a proportion"
+        - "Conditions for a z test about a proportion"
+        - "Calculating a z statistic in a test about a proportion"
+        - "Calculating a P-value given a z statistic"
+        - "Making conclusions in a test about a proportion"
+    - "Tests about a population mean":
+        "subtopics":
+        - "Writing hypotheses for a significance test about a mean"
+        - "Conditions for a t test about a mean"
+        - "When to use z or t statistics in significance tests"
+        - "Example calculating t statistic for a test about a mean"
+        - "Using TI calculator for P-value from t statistic"
+        - "Using a table to estimate P-value from t statistic"
+        - "Comparing P-value from t statistic to significance level"
+        - "Free response example: Significance test for a mean"
+    - "More significance testing videos":
+        "subtopics":
+        - "Hypothesis testing and p-values"
+        - "One-tailed and two-tailed tests"
+        - "Z-statistics vs. T-statistics"
+        - "Small sample hypothesis test"
+        - "Large sample proportion hypothesis testing"

@@ -1,0 +1,81 @@
+"course":
+  "Integrals review: Calculus 2:":
+    "topics":
+    - "Accumulations of change introduction":
+        "subtopics":
+        - "Introduction to integral calculus"
+        - "Definite integrals intro"
+        - "Worked example: accumulation of change"
+    - "Approximation with Riemann sums":
+        "subtopics":
+        - "Riemann approximation introduction"
+        - "Over- and under-estimation of Riemann sums"
+        - "Worked example: finding a Riemann sum using a table"
+        - "Worked example: over- and under-estimation of Riemann sums"
+        - "Midpoint sums"
+        - "Trapezoidal sums"
+        - "Motion problem with Riemann sum approximation"
+    - "Summation notation review":
+        "subtopics":
+        - "Summation notation"
+        - "Worked examples: Summation notation"
+        - "Riemann sums in summation notation"
+        - "Worked example: Riemann sums in summation notation"
+        - "Midpoint and trapezoidal sums in summation notation"
+        - "Riemann sums in summation notation: challenge problem"
+    - "Defining integrals with Riemann sums":
+        "subtopics":
+        - "Definite integral as the limit of a Riemann sum"
+        - "Worked example: Rewriting definite integral as limit of Riemann sum"
+        - "Worked example: Rewriting limit of Riemann sum as definite integral"
+    - "Fundamental theorem of calculus and accumulation functions":
+        "subtopics":
+        - "The fundamental theorem of calculus and accumulation functions"
+        - "Functions defined by definite integrals (accumulation functions)"
+        - "Finding derivative with fundamental theorem of calculus"
+        - "Finding derivative with fundamental theorem of calculus: chain rule"
+        - "Interpreting the behavior of accumulation functions"
+    - "Properties of definite integrals":
+        "subtopics":
+        - "Negative definite integrals"
+        - "Finding definite integrals using area formulas"
+        - "Definite integral over a single point"
+        - "Integrating scaled version of function"
+        - "Switching bounds of definite integral"
+        - "Integrating sums of functions"
+        - "Worked examples: Finding definite integrals using algebraic properties"
+        - "Definite integrals on adjacent intervals"
+        - "Worked example: Breaking up the integral's interval"
+        - "Worked example: Merging definite integrals over adjacent intervals"
+        - "Functions defined by integrals: switched interval"
+        - "Finding derivative with fundamental theorem of calculus: x is on lower\
+          \ bound"
+        - "Finding derivative with fundamental theorem of calculus: x is on both bounds"
+        - "Functions defined by integrals: challenge problem"
+    - "Fundamental theorem of calculus and definite integrals":
+        "subtopics":
+        - "The fundamental theorem of calculus and definite integrals"
+        - "Antiderivatives and indefinite integrals"
+    - "Reverse power rule":
+        "subtopics":
+        - "Reverse power rule"
+        - "Indefinite integrals: sums & multiples"
+        - "Rewriting before integrating"
+        - "Rewriting before integrating: challenge problem"
+    - "Indefinite integrals of common functions":
+        "subtopics":
+        - "Indefinite integral of 1/x"
+        - "Indefinite integrals of sin(x), cos(x), and eˣ"
+    - "Definite integrals of common functions":
+        "subtopics":
+        - "Definite integrals: reverse power rule"
+        - "Definite integral of rational function"
+        - "Definite integral of radical function"
+        - "Definite integral of trig function"
+        - "Definite integral involving natural log"
+        - "Definite integral of piecewise function"
+        - "Definite integral of absolute value function"
+    - "Proof videos":
+        "subtopics":
+        - "Proof of fundamental theorem of calculus"
+        - "Intuition for second part of fundamental theorem of calculus"

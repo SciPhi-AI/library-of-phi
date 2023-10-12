@@ -1,0 +1,39 @@
+"course":
+  "Polynomial factorization: Algebra 2:":
+    "topics":
+    - "Factoring monomials":
+        "subtopics":
+        - "Introduction to factoring higher degree polynomials"
+        - "Introduction to factoring higher degree monomials"
+        - "Which monomial factorization is correct?"
+        - "Worked example: finding the missing monomial factor"
+        - "Worked example: finding missing monomial side in area model"
+    - "Greatest common factor":
+        "subtopics":
+        - "Greatest common factor of monomials"
+        - "Taking common factors"
+        - "Taking common factor from binomial"
+        - "Taking common factor from trinomial"
+        - "Taking common factor: area model"
+    - "Factoring higher degree polynomials":
+        "subtopics":
+        - "Factoring higher degree polynomials"
+        - "Factoring higher-degree polynomials: Common factor"
+    - "Factoring using structure":
+        "subtopics":
+        - "Identifying quadratic patterns"
+        - "Factorization with substitution"
+        - "Factoring using the perfect square pattern"
+        - "Factoring using the difference of squares pattern"
+    - "Polynomial identities":
+        "subtopics":
+        - "Polynomial identities introduction"
+        - "Analyzing polynomial identities"
+        - "Describing numerical relationships with polynomial identities"
+    - "Geometric series":
+        "subtopics":
+        - "Geometric series introduction"
+        - "Finite geometric series formula"
+        - "Worked examples: finite geometric series"
+        - "Geometric series word problems: swing"
+        - "Geometric series word problems: hike"

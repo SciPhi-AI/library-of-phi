@@ -1,0 +1,19 @@
+"course":
+  "Polynomial graphs Algebra 2:":
+    "topics":
+    - "Zeros of polynomials":
+        "subtopics":
+        - "Zeros of polynomials introduction"
+        - "Zeros of polynomials: plotting zeros"
+        - "Zeros of polynomials: matching equation to zeros"
+        - "Zeros of polynomials: matching equation to graph"
+        - "Zeros of polynomials (with factoring): grouping"
+        - "Zeros of polynomials (with factoring): common factor"
+    - "Positive and negative intervals of polynomials":
+        "subtopics":
+        - "Positive and negative intervals of polynomials"
+        - "Multiplicity of zeros of polynomials"
+        - "Zeros of polynomials (multiplicity)"
+    - "End behavior of polynomials":
+        "subtopics":
+        - "Intro to end behavior of polynomials"

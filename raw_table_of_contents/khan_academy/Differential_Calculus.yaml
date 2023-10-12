@@ -1,0 +1,80 @@
+"course":
+  "Differential Calculus:":
+    "topics":
+    - "Limits and Continuity":
+        "subtopics":
+        - "Limits Intro"
+        - "Estimating Limits from Graphs"
+        - "Estimating Limits from Tables"
+        - "Formal Definition of Limits (Epsilon-Delta)"
+        - "Properties of Limits"
+        - "Limits by Direct Substitution"
+        - "Limits Using Algebraic Manipulation"
+        - "Strategy in Finding Limits"
+        - "Squeeze Theorem"
+        - "Types of Discontinuities"
+        - "Continuity at a Point"
+        - "Continuity Over an Interval"
+        - "Removing Discontinuities"
+        - "Infinite Limits"
+        - "Limits at Infinity"
+        - "Intermediate Value Theorem"
+    - "Derivatives: Definition and Basic Rules":
+        "subtopics":
+        - "Average vs. Instantaneous Rate of Change"
+        - "Secant Lines"
+        - "Derivative Definition"
+        - "Estimating Derivatives"
+        - "Differentiability"
+        - "Power Rule"
+        - "Derivative Rules: Constant, Sum, Difference, and Constant Multiple"
+        - "Combining the Power Rule with Other Derivative Rules"
+        - "Derivatives of Cos(x), Sin(x), \U0001D452ˣ, and Ln(x)"
+        - "Product Rule"
+        - "Quotient Rule"
+        - "Derivatives of Tan(x), Cot(x), Sec(x), and Csc(x)"
+        - "Proof Videos"
+    - "Derivatives: Chain Rule and Other Advanced Topics":
+        "subtopics":
+        - "Chain Rule"
+        - "More Chain Rule Practice"
+        - "Implicit Differentiation"
+        - "Implicit Differentiation (Advanced Examples)"
+        - "Differentiating Inverse Functions"
+        - "Derivatives of Inverse Trigonometric Functions"
+        - "Strategy in Differentiating Functions"
+        - "Differentiation Using Multiple Rules"
+        - "Second Derivatives"
+        - "Disguised Derivatives"
+        - "Logarithmic Differentiation"
+        - "Proof Videos"
+    - "Applications of Derivatives":
+        "subtopics":
+        - "Meaning of the Derivative in Context"
+        - "Straight-line Motion"
+        - "Non-motion Applications of Derivatives"
+        - "Introduction to Related Rates"
+        - "Approximation with Local Linearity"
+        - "L’Hôpital’s Rule"
+        - "L’Hôpital’s Rule: Composite Exponential Functions"
+    - "Analyzing Functions":
+        "subtopics":
+        - "Mean Value Theorem"
+        - "Extreme Value Theorem and Critical Points"
+        - "Intervals on Which a Function is Increasing or Decreasing"
+        - "Relative (Local) Extrema"
+        - "Absolute (Global) Extrema"
+        - "Concavity and Inflection Points Intro"
+        - "Analyzing Concavity and Inflection Points"
+        - "Second Derivative Test"
+        - "Sketching Curves"
+        - "Connecting f, f', and f''"
+        - "Solving Optimization Problems"
+        - "Analyzing Implicit Relations"
+    - "Parametric Equations, Polar Coordinates, and Vector-valued Functions":
+        "subtopics":
+        - "Parametric Equations Intro"
+        - "Second Derivatives of Parametric Equations"
+        - "Vector-valued Functions"
+        - "Planar Motion"
+        - "Polar Functions"

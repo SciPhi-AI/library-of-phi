@@ -1,0 +1,40 @@
+"course":
+  "Module 1: Place value, rounding, and algorithms for addition and subtraction 4th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Place value of multi-digit whole numbers":
+        "subtopics":
+        - "Place value blocks"
+        - "Place value tables"
+        - "Comparing with multiplication"
+        - "Comparing with multiplication and addition: giraffe"
+        - "Finding place value"
+        - "Creating the largest number"
+        - "Multiplying whole numbers by 10"
+        - "Dividing whole numbers by 10"
+        - "Understanding place value"
+        - "Place value when multiplying and dividing by 10"
+        - "Writing numbers in words and standard form"
+        - "Writing a number in expanded form"
+        - "Regrouping numbers into various place values"
+        - "Regrouping whole number place values"
+        - "Adding whole numbers by their place values"
+    - "Comparing multi-digit whole numbers":
+        "subtopics":
+        - "Comparing multi-digit numbers"
+        - "Comparing whole number place values"
+        - "Comparing multi-digit whole numbers word problems"
+    - "Rounding multi-digit whole numbers":
+        "subtopics":
+        - "Rounding whole numbers to nearest hundred"
+        - "Rounding whole numbers to nearest thousand"
+        - "Rounding whole numbers word problems"
+        - "Rounding whole numbers: missing digit"
+    - "Multi-digit whole number addition":
+        "subtopics":
+        - "Relate place value to standard algorithm for multi-digit addition"
+        - "Adding multi-digit numbers: 48,029+233,930"
+    - "Multi-digit whole number subtraction":
+        "subtopics":
+        - "Multi-digit subtraction with regrouping twice"
+        - "Relate place value to standard algorithm for multi-digit subtraction"
+        - "Multi-digit subtraction: 389,002-76,151"

@@ -1,0 +1,34 @@
+"course":
+  "Exploring two-variable quantitative data AP®︎/College Statistics:":
+    "topics":
+    - "Representing the relationship between two quantitative variables":
+        "subtopics":
+        - "Constructing a scatter plot"
+        - "Example of direction in scatterplots"
+        - "Bivariate relationship linearity, strength and direction"
+    - "Correlation":
+        "subtopics":
+        - "Calculating correlation coefficient r"
+        - "Example: Correlation coefficient intuition"
+    - "Residuals":
+        "subtopics":
+        - "Introduction to residuals and least-squares regression"
+        - "Calculating residual example"
+        - "Residual plots"
+    - "Least-squares regression":
+        "subtopics":
+        - "Calculating the equation of a regression line"
+        - "Interpreting slope of regression line"
+        - "Interpreting y-intercept in regression model"
+        - "Using least squares regression output"
+        - "R-squared or coefficient of determination"
+        - "Standard deviation of residuals or root mean square deviation (RMSD)"
+        - "Interpreting computer regression data"
+    - "Impact of outliers and influential points":
+        "subtopics":
+        - "Impact of removing outliers on regression lines"
+        - "Influential points in regression"
+    - "Transforming nonlinear data":
+        "subtopics":
+        - "Transforming nonlinear data"
+        - "Worked example of linear regression using transformed data"

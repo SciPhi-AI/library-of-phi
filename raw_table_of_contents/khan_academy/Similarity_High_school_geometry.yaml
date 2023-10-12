@@ -1,0 +1,37 @@
+"course":
+  "Similarity: High School Geometry:":
+    "topics":
+    - "Similar Shapes and Transformations":
+        "subtopics":
+        - "Introduction to Similar Shapes"
+        - "Understanding Transformations"
+        - "Rational Equations Introduction"
+    - "Triangle Similarity":
+        "subtopics":
+        - "Introduction to Triangle Similarity"
+        - "Triangle Similarity Postulates/Criteria"
+        - "Determining Similar Triangles"
+        - "Solving Similar Triangles"
+        - "Solving Similar Triangles: Same Side Plays Different Roles"
+    - "Angle Bisector Theorem":
+        "subtopics":
+        - "Introduction to Angle Bisector Theorem"
+        - "Using the Angle Bisector Theorem"
+    - "Similar and Congruent Triangles":
+        "subtopics":
+        - "Solving Problems with Similar and Congruent Triangles"
+        - "Using Similar and Congruent Triangles"
+        - "Challenging Similarity Problem"
+    - "Proving Relationships Using Similarity":
+        "subtopics":
+        - "Pythagorean Theorem Proof Using Similarity"
+        - "Exploring Medial Triangles"
+        - "Proof: Parallel Lines Divide Triangle Sides Proportionally"
+        - "Proving Slope is Constant Using Similarity"
+        - "Proof: Parallel Lines Have the Same Slope"
+        - "Proof: Perpendicular Lines Have Opposite Reciprocal Slopes"
+    - "Solving Modeling Problems with Similar and Congruent Triangles":
+        "subtopics":
+        - "Geometry Word Problem: The Golden Ratio"
+        - "Geometry Word Problem: Earth and Moon Radii"
+        - "Geometry Word Problem: A Perfect Pool Shot"

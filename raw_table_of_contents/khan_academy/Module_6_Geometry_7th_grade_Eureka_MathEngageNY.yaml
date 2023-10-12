@@ -1,0 +1,33 @@
+"course":
+  "Module 6: Geometry: 7th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Unknown angles":
+        "subtopics":
+        - "Angles: introduction"
+        - "Complementary & supplementary angles"
+        - "Vertical angles"
+        - "Find measure of vertical angles"
+        - "Find measure of angles word problem"
+        - "Equation practice with supplementary angles"
+        - "Equation practice with complementary angles"
+    - "Constructing triangles":
+        "subtopics":
+        - "Construct a right isosceles triangle"
+        - "Construct a triangle with constraints"
+        - "Triangle inequality theorem"
+        - "Ordering triangle sides and angles example"
+    - "Slicing solids":
+        "subtopics":
+        - "Slicing a rectangular pyramid"
+        - "Ways to cross-section a cube"
+    - "Problems involving area and surface area":
+        "subtopics":
+        - "Finding circumference of a circle when given the area"
+        - "Area of a shaded region"
+        - "Impact of increasing the radius"
+    - "Problems involving volume":
+        "subtopics":
+        - "Volume word problem: gold ring"
+        - "Volume of triangular prism & cube"
+        - "Volume of rectangles inside rectangles"
+        - "Volume of a rectangular prism: word problem"

@@ -1,0 +1,143 @@
+"course":
+  "Arithmetic:":
+    "topics":
+    - "Intro to multiplication":
+        "subtopics":
+        - "Multiplication as equal groups"
+        - "Multiplication on the number line"
+        - "Multiply using groups of objects"
+        - "Multiplication with arrays"
+        - "Commutative property of multiplication"
+    - "1-digit multiplication":
+        "subtopics":
+        - "Distributive property"
+        - "Associative property of multiplication"
+        - "Comparing with multiplication"
+    - "Intro to division":
+        "subtopics":
+        - "Division intro"
+        - "Relating multiplication and division"
+        - "Multiplication and division word problems"
+    - "Understand fractions":
+        "subtopics":
+        - "Fractions intro"
+        - "What fractions mean"
+        - "Fractions on the number line"
+        - "Fractions and whole numbers"
+        - "Equivalent fractions"
+    - "Place value through 1,000,000":
+        "subtopics":
+        - "Intro to place value through 1,000"
+        - "Numbers in expanded form"
+        - "Regroup whole numbers"
+        - "Greater place values"
+        - "How 10 relates to place value"
+    - "Add and subtract through 1,000,000":
+        "subtopics":
+        - "Visually adding within 1,000"
+        - "Strategies for adding within 1,000"
+        - "Strategies for subtracting within 1,000"
+        - "Adding within 1,000,000"
+        - "Subtracting within 1,000,000"
+    - "Multiply 1- and 2-digit numbers":
+        "subtopics":
+        - "Multiplication by 10s, 100s, and 1000s"
+        - "Multi-digit multiplication: place value and area models"
+        - "Multiply with partial products"
+        - "Multiply by 10s"
+        - "Multiply 2-digit numbers with area models"
+        - "Multiply 2-digit numbers with partial products"
+    - "Divide with remainders":
+        "subtopics":
+        - "Divide multiples of 10, 100, and 1,000 by 1-digit numbers"
+        - "Division with place value"
+        - "Division with area models"
+        - "Multi-digit division with partial quotients"
+        - "Multiplication and division word problems"
+    - "Add and subtract fraction (like denominators)":
+        "subtopics":
+        - "Equivalent fractions"
+        - "Common denominators"
+        - "Adding and subtracting fractions with like denominators"
+        - "Adding and subtracting fractions: word problems"
+        - "Mixed numbers"
+        - "Adding and subtracting mixed numbers"
+    - "Multiply fractions":
+        "subtopics":
+        - "Multiplying fractions and whole numbers visually"
+        - "Multiplying whole numbers and fractions"
+        - "Multiplying whole numbers and mixed numbers"
+        - "Multiplying fractions and whole numbers word problems"
+        - "Multiplication as scaling"
+        - "Multiplying fractions and whole numbers"
+        - "Multiplying fractions"
+        - "Multiplying mixed numbers"
+        - "Area of rectangles with fractional side lengths"
+        - "Multiplying fractions word problems"
+    - "Decimals and place value":
+        "subtopics":
+        - "Decimal fractions"
+        - "Decimal fractions greater than 1"
+        - "Writing fractions as decimals"
+        - "Decimal place value intro"
+        - "Decimals on the number line"
+        - "Decimals in expanded form"
+        - "Regrouping decimals"
+    - "Add and subtract decimals":
+        "subtopics":
+        - "Adding decimals intro"
+        - "Adding decimals (tenths and hundredths)"
+        - "Subtracting decimals intro"
+        - "Subtracting decimals (tenths and hundredths)"
+    - "Add and subtract fractions (different denominators)":
+        "subtopics":
+        - "Fractions with denominators of 10 and 100"
+        - "Visually adding and subtracting fractions"
+        - "Common denominators"
+        - "Adding and subtracting fractions with unlike denominators"
+        - "Adding and subtracting mixed numbers with unlike denominators"
+        - "Adding and subtracting fractions with unlike denominators word problems"
+    - "Multiply and divide multi-digit numbers":
+        "subtopics":
+        - "Multiply with multiples of 10, 100, and 1,000"
+        - "Multi-digit multiplication"
+        - "Divide with multiples of 10, 100, and 1,000"
+        - "Multi-digit division"
+    - "Divide fractions":
+        "subtopics":
+        - "Dividing fractions and whole numbers word problems"
+        - "Dividing fractions by fractions"
+        - "Dividing mixed numbers"
+    - "Multiply and divide decimals":
+        "subtopics":
+        - "Multiplying decimals and whole numbers"
+        - "Multiplying decimals strategies"
+        - "Multiplying decimals"
+        - "Divide whole numbers to get a decimal quotient"
+        - "Divide decimals by whole numbers"
+        - "Divide whole numbers by decimals"
+    - "Exponents and powers of ten":
+        "subtopics":
+        - "Multiplying and dividing whole numbers by 10, 100, and 1,000"
+        - "Multiplying and dividing decimals by 10, 100, and 1,000"
+        - "Powers of 10"
+        - "Multiplying and dividing with powers of 10"
+        - "Intro to exponents"
+        - "Order of operations with exponents"
+    - "Add and subtract negative numbers":
+        "subtopics":
+        - "Intro to negative numbers"
+        - "Negative symbol as opposite"
+        - "Negative decimals and and fractions on the number line"
+        - "Absolute value"
+        - "Intro to adding negative numbers"
+        - "Adding negative numbers fluently"
+        - "Intro to subtracting negative numbers"
+        - "Subtracting negative numbers fluently"
+        - "Adding & subtracting integers"
+        - "Adding & subtracting negative fractions"
+    - "Multiply and divide negative numbers":
+        "subtopics":
+        - "Multiplication & division word problems with negatives"
+        - "Understanding multiplying and dividing negative fractions"
+        - "Multiply & divide negative fractions"

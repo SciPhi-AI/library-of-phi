@@ -1,0 +1,60 @@
+"course":
+  "Series: Calculus 2:":
+    "topics":
+    - "Convergent and Divergent Infinite Series":
+        "subtopics":
+        - "Convergent and Divergent Sequences"
+        - "Partial Sums"
+        - "Infinite Geometric Series"
+        - "nth-term Test"
+        - "Integral Test"
+    - "Harmonic Series and p-series":
+        "subtopics":
+        - "Harmonic Series and \U0001D45D-series"
+        - "Comparison Tests"
+        - "Direct Comparison Test"
+        - "Limit Comparison Test"
+        - "Proof: Harmonic Series Diverges"
+    - "Alternating Series Test and Ratio Test":
+        "subtopics":
+        - "Alternating Series Test"
+        - "Ratio Test"
+        - "Absolute and Conditional Convergence"
+        - "Alternating Series Error Bound"
+    - "Taylor and Maclaurin Polynomials":
+        "subtopics":
+        - "Taylor & Maclaurin Polynomials Intro"
+        - "Worked Examples: Maclaurin and Taylor Polynomials"
+        - "Visualizing Taylor Polynomial Approximations"
+        - "Lagrange Error Bound"
+    - "Power Series and Function as a Geometric Series":
+        "subtopics":
+        - "Power Series Intro"
+        - "Function as a Geometric Series"
+        - "Geometric Series as a Function"
+        - "Power Series of Specific Functions"
+        - "Geometric Series Interval of Convergence"
+    - "Maclaurin Series of Specific Functions":
+        "subtopics":
+        - "Maclaurin Series of cos(x), sin(x), and eˣ"
+        - "Worked Examples: Power Series from Specific Functions"
+        - "Euler's Formula & Euler's Identity"
+    - "Representing Functions as Power Series":
+        "subtopics":
+        - "Integrating Power Series"
+        - "Differentiating Power Series"
+        - "Finding Function from Power Series by Integrating"
+        - "Interval of Convergence for Derivative and Integral"
+        - "Converting Explicit Series Terms to Summation Notation"
+    - "Telescoping Series":
+        "subtopics":
+        - "Telescoping Series"
+        - "Divergent Telescoping Series"
+    - "Proof Videos":
+        "subtopics":
+        - "Formal Definition for Limit of a Sequence"
+        - "Proving a Sequence Converges Using the Formal Definition"
+        - "Finite Geometric Series Formula"
+        - "Infinite Geometric Series Formula Intuition"
+        - "Proof of Infinite Geometric Series as a Limit"
+        - "Proof of p-series Convergence Criteria"

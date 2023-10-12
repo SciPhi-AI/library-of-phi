@@ -1,0 +1,13 @@
+"course":
+  "Inference for quantitative data slopes AP®︎/College Statistics:":
+    "topics":
+    - "Confidence intervals for the slope of a regression model":
+        "subtopics":
+        - "Introduction to inference about slope in linear regression"
+        - "Conditions for inference on slope"
+        - "Confidence interval for the slope of a regression line"
+    - "Testing for the slope of a regression model":
+        "subtopics":
+        - "Calculating t statistic for slope of regression line"
+        - "Using a P-value to make conclusions in a test about slope"
+        - "Using a confidence interval to test slope"

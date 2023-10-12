@@ -1,0 +1,62 @@
+"course":
+  "Module 2: Similarity, proof, and trigonometry: Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Dilations":
+        "subtopics":
+        - "Performing dilations"
+        - "Dilating shapes: expanding"
+        - "Dilating shapes: shrinking by 1/2"
+    - "Similarity intro":
+        "subtopics":
+        - "Similar shapes & transformations"
+        - "Proof: all circles are similar"
+    - "Triangle similarity":
+        "subtopics":
+        - "Intro to triangle similarity"
+        - "Triangle similarity postulates/criteria"
+        - "Determining similar triangles"
+        - "Solving similar triangles"
+        - "Solving similar triangles: same side plays different roles"
+    - "Similarity applications":
+        "subtopics":
+        - "Intro to angle bisector theorem"
+        - "Using the angle bisector theorem"
+        - "Using similar & congruent triangles"
+        - "Challenging similarity problem"
+        - "Geometry word problem: the golden ratio"
+        - "Geometry word problem: Earth & Moon radii"
+        - "Geometry word problem: a perfect pool shot"
+    - "Applying similarity to right triangles":
+        "subtopics":
+        - "Simplifying square roots"
+        - "Simplifying square roots (variables)"
+        - "Simplifying square-root expressions"
+        - "Pythagorean theorem proof using similarity"
+    - "Trigonometry intro":
+        "subtopics":
+        - "Intro to the trigonometric ratios"
+        - "Trigonometric ratios in right triangles"
+        - "Triangle similarity & the trigonometric ratios"
+        - "Solving for a side in right triangles with trigonometry"
+    - "Sine and cosine of complementary angles and special angles":
+        "subtopics":
+        - "Sine & cosine of complementary angles"
+        - "Using complementary angles"
+        - "Trig word problem: complementary angles"
+        - "Special right triangles intro (part 1)"
+        - "Special right triangles intro (part 2)"
+        - "30-60-90 triangle example problem"
+        - "Special right triangles proof (part 1)"
+        - "Special right triangles proof (part 2)"
+    - "Trigonometry applications":
+        "subtopics":
+        - "Right triangle word problem"
+    - "Laws of sines and cosines":
+        "subtopics":
+        - "Solving for a side with the law of sines"
+        - "Solving for an angle with the law of sines"
+        - "Proof of the law of sines"
+        - "Solving for a side with the law of cosines"
+        - "Solving for an angle with the law of cosines"
+        - "Proof of the law of cosines"
+        - "Trig word problem: stars"

@@ -1,0 +1,56 @@
+"course":
+  "Trigonometry Precalculus:":
+    "topics":
+    - "Special Trigonometric Values":
+        "subtopics":
+        - "Special Trigonometric Values in the First Quadrant"
+        - "Cosine, Sine and Tangent of π/6 and π/3"
+        - "Trig Values of π/4"
+    - "Trigonometric Identities on the Unit Circle":
+        "subtopics":
+        - "Sine & Cosine Identities: Symmetry"
+        - "Tangent Identities: Symmetry"
+        - "Sine & Cosine Identities: Periodicity"
+        - "Tangent Identities: Periodicity"
+        - "Inverse Trigonometric Functions"
+        - "Intro to Arcsine"
+        - "Intro to Arctangent"
+        - "Intro to Arccosine"
+        - "Restricting Domains of Functions to Make Them Invertible"
+        - "Domain & Range of Inverse Tangent Function"
+        - "Using Inverse Trig Functions with a Calculator"
+    - "Laws of Sines and Cosines":
+        "subtopics":
+        - "Solving for a Side with the Law of Sines"
+        - "Solving for an Angle with the Law of Sines"
+        - "Proof of the Law of Sines"
+        - "Solving for a Side with the Law of Cosines"
+        - "Solving for an Angle with the Law of Cosines"
+        - "Proof of the Law of Cosines"
+    - "Solving General Triangles":
+        "subtopics":
+        - "Trig Word Problem: Stars"
+        - "Solving Sinusoidal Equations of the Form sin(x)=d"
+        - "Cosine Equation Algebraic Solution Set"
+        - "Cosine Equation Solution Set in an Interval"
+        - "Sine Equation Algebraic Solution Set"
+        - "Solving cos(θ)=1 and cos(θ)=-1"
+    - "Sinusoidal Models":
+        "subtopics":
+        - "Interpreting Solutions of Trigonometric Equations"
+        - "Trig Word Problem: Solving for Temperature"
+    - "Angle Addition Identities":
+        "subtopics":
+        - "Trig Angle Addition Identities"
+        - "Using the Cosine Angle Addition Identity"
+        - "Using the Cosine Double-Angle Identity"
+        - "Proof of the Sine Angle Addition Identity"
+        - "Proof of the Cosine Angle Addition Identity"
+        - "Proof of the Tangent Angle Sum and Difference Identities"
+    - "Using Trigonometric Identities":
+        "subtopics":
+        - "Finding Trig Values Using Angle Addition Identities"
+        - "Using the Tangent Angle Addition Identity"
+        - "Using Trig Angle Addition Identities: Finding Side Lengths"
+        - "Using Trig Angle Addition Identities: Manipulating Expressions"
+        - "Using Trigonometric Identities"

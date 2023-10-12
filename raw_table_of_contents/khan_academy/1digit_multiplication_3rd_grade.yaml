@@ -1,0 +1,39 @@
+"course":
+  "1-digit multiplication 3rd grade:":
+    "topics":
+    - "Understanding Multiplication":
+        "subtopics":
+        - "Concept of Multiplication"
+        - "Multiplication as Repeated Addition"
+        - "Multiplication on Number Line"
+        - "Multiplication Facts"
+        - "Multiplication Tables"
+        - "Multiplication Patterns"
+    - "Properties of Multiplication":
+        "subtopics":
+        - "Commutative Property"
+        - "Associative Property"
+        - "Distributive Property"
+        - "Identity Property"
+        - "Zero Property"
+    - "Multiplication Strategies":
+        "subtopics":
+        - "Using Arrays"
+        - "Using Skip Counting"
+        - "Using Doubling"
+        - "Using Halving"
+        - "Using Break Apart Strategy"
+    - "Multiplication Word Problems":
+        "subtopics":
+        - "Single-step Word Problems"
+        - "Multi-step Word Problems"
+        - "Word Problems with Extra Information"
+        - "Word Problems with Missing Information"
+    - "Multiplication and Division Relationship":
+        "subtopics":
+        - "Understanding Division"
+        - "Division as Repeated Subtraction"
+        - "Division on Number Line"
+        - "Division Facts"
+        - "Division Tables"
+        - "Division Patterns"

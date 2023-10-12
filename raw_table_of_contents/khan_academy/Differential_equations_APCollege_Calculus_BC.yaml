@@ -1,0 +1,46 @@
+"course":
+  "Differential equations AP®︎/College Calculus BC:":
+    "topics":
+    - "Modeling situations with differential equations":
+        "subtopics":
+        - "Differential equations introduction"
+        - "Writing a differential equation"
+        - "Verifying solutions for differential equations"
+        - "Verifying solutions to differential equations"
+    - "Sketching slope fields":
+        "subtopics":
+        - "Slope fields introduction"
+        - "Worked example: equation from slope field"
+        - "Worked example: slope field from equation"
+        - "Worked example: forming a slope field"
+        - "Reasoning using slope fields"
+        - "Approximating solution curves in slope fields"
+        - "Worked example: range of solution curve from slope field"
+    - "Approximating solutions using Euler’s method":
+        "subtopics":
+        - "Euler's method"
+        - "Worked example: Euler's method"
+    - "Finding general solutions using separation of variables":
+        "subtopics":
+        - "Separable equations introduction"
+        - "Addressing treating differentials algebraically"
+        - "Worked example: separable differential equations"
+        - "Worked example: identifying separable equations"
+    - "Finding particular solutions using initial conditions and separation of variables":
+        "subtopics":
+        - "Particular solutions to differential equations: rational function"
+        - "Particular solutions to differential equations: exponential function"
+        - "Worked example: finding a specific solution to a separable equation"
+        - "Worked example: separable equation with an implicit solution"
+    - "Exponential models with differential equations":
+        "subtopics":
+        - "Exponential models & differential equations (Part 1)"
+        - "Exponential models & differential equations (Part 2)"
+        - "Worked example: exponential solution to differential equation"
+    - "Logistic models with differential equations":
+        "subtopics":
+        - "Growth models: introduction"
+        - "The logistic  growth model"
+        - "Worked example: Logistic model word problem"
+        - "Logistic equations (Part 1)"
+        - "Logistic equations (Part 2)"

@@ -1,0 +1,56 @@
+"course":
+  "Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "Complex numbers and transformations":
+        "subtopics":
+        - "Complex number division"
+        - "Distance and midpoint of complex numbers"
+        - "Trigonometry and complex numbers"
+        - "Multiplying and dividing complex numbers in polar form"
+        - "Exploiting the connection to trigonometry"
+        - "Transforming vectors with matrices"
+        - "Matrix notation encompasses new transformations"
+        - "Properties of matrix addition"
+        - "Properties of matrix multiplication"
+        - "Matrix inverses"
+    - "Vectors and matrices":
+        "subtopics":
+        - "Networks and matrices"
+        - "Vectors in the coordinate plane"
+        - "Directed line segments and vectors"
+        - "Vectors and stone bridges"
+        - "Why are vectors useful?"
+        - "First-person video games—projection matrices"
+    - "Rational and exponential functions":
+        "subtopics":
+        - "Solutions to polynomial equations"
+        - "Roots of complex numbers"
+        - "The binomial theorem"
+        - "Ellipses"
+        - "Hyperbolas"
+        - "Simplifying rational expressions"
+        - "Multiplying & dividing rational expressions"
+        - "Adding & subtracting rational expressions"
+        - "End behavior and asymptotes of rational functions"
+        - "Graphing rational functions"
+        - "Function composition"
+        - "Inverse functions"
+        - "Restricting the domain"
+        - "Inverse relationship of exponentials and logarithms"
+    - "Trigonometry":
+        "subtopics":
+        - "Special values and properties of trigonometric functions"
+        - "Addition and subtraction formulas"
+        - "Tangent lines and wave functions"
+        - "Trigonometry and triangles"
+        - "Inverse trigonometric functions"
+    - "Probability and statistics":
+        "subtopics":
+        - "The general multiplication rule"
+        - "Counting rules—The fundamental counting principle and permutations"
+        - "Counting rules—Combinations"
+        - "Using permutations and combinations to compute probabilities"
+        - "Discrete random variables"
+        - "Expected value"
+        - "Creating probability distributions"
+        - "Applications of expected value and probability"

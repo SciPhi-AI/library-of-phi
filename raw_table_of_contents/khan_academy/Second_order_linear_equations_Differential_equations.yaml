@@ -1,0 +1,22 @@
+"course":
+  "Second order linear equations: Differential equations:":
+    "topics":
+    - "Linear homogeneous equations":
+        "subtopics":
+        - "2nd order linear homogeneous differential equations 1"
+        - "2nd order linear homogeneous differential equations 2"
+        - "2nd order linear homogeneous differential equations 3"
+        - "2nd order linear homogeneous differential equations 4"
+    - "Complex and repeated roots of characteristic equation":
+        "subtopics":
+        - "Complex roots of the characteristic equations 1"
+        - "Complex roots of the characteristic equations 2"
+        - "Complex roots of the characteristic equations 3"
+        - "Repeated roots of the characteristic equation"
+        - "Repeated roots of the characteristic equations part 2"
+    - "Method of undetermined coefficients":
+        "subtopics":
+        - "Undetermined coefficients 1"
+        - "Undetermined coefficients 2"
+        - "Undetermined coefficients 3"
+        - "Undetermined coefficients 4"

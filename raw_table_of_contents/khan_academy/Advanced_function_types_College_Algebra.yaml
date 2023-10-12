@@ -1,0 +1,25 @@
+"course":
+  "Advanced function types: College Algebra:":
+    "topics":
+    - "Graphs of absolute value functions":
+        "subtopics":
+        - "Shifting absolute value graphs"
+        - "Scaling & reflecting absolute value functions: equation"
+        - "Scaling & reflecting absolute value functions: graph"
+        - "Graphing absolute value functions"
+    - "Piecewise functions":
+        "subtopics":
+        - "Introduction to piecewise functions"
+        - "Worked example: evaluating piecewise functions"
+        - "Worked example: graphing piecewise functions"
+    - "Composing functions":
+        "subtopics":
+        - "Intro to composing functions"
+        - "Evaluating composite functions"
+        - "Finding composite functions"
+    - "Verifying inverse functions by composition":
+        "subtopics":
+        - "Verifying inverse functions from tables"
+        - "Using specific values to test for inverses"
+        - "Verifying inverse functions by composition"
+        - "Verifying inverse functions by composition: not inverse"

@@ -1,0 +1,70 @@
+"course":
+  "Integral Calculus:":
+    "topics":
+    - "Integrals":
+        "subtopics":
+        - "Accumulations of Change Introduction"
+        - "Approximation with Riemann Sums"
+        - "Summation Notation Review"
+        - "Defining Integrals with Riemann Sums"
+        - "Fundamental Theorem of Calculus and Accumulation Functions"
+        - "Properties of Definite Integrals"
+        - "Reverse Power Rule"
+        - "Indefinite Integrals of Common Functions"
+        - "Integrating with U-Substitution"
+        - "Integrating using Long Division and Completing the Square"
+        - "Integrating using Trigonometric Identities"
+        - "Trigonometric Substitution"
+        - "Integration by Parts"
+        - "Integrating using Linear Partial Fractions"
+        - "Improper Integrals"
+    - "Differential Equations":
+        "subtopics":
+        - "Differential Equations Introduction"
+        - "Verifying Solutions for Differential Equations"
+        - "Sketching Slope Fields"
+        - "Reasoning using Slope Fields"
+        - "Approximation with Euler’s Method"
+        - "Separation of Variables"
+        - "Particular Solutions to Differential Equations"
+        - "Exponential Models"
+        - "Logistic Models"
+    - "Applications of Integrals":
+        "subtopics":
+        - "Average Value of a Function"
+        - "Straight-line Motion"
+        - "Non-motion Applications of Integrals"
+        - "Area: Vertical Area Between Curves"
+        - "Area: Horizontal Area Between Curves"
+        - "Volume: Squares and Rectangles Cross Sections"
+        - "Volume: Triangles and Semicircles Cross Sections"
+        - "Volume: Disc Method (Revolving Around X- and Y-Axes)"
+        - "Volume: Washer Method (Revolving Around X- and Y-Axes)"
+        - "Arc Length"
+    - "Parametric Equations, Polar Coordinates, and Vector-Valued Functions":
+        "subtopics":
+        - "Arc Length: Parametric Curves"
+        - "Planar Motion"
+        - "Area: Polar Regions (Single Curve)"
+        - "Area: Polar Regions (Two Curves)"
+        - "Arc Length: Polar Curves"
+        - "Calculator-active Practice"
+    - "Series":
+        "subtopics":
+        - "Convergent and Divergent Infinite Series"
+        - "Infinite Geometric Series"
+        - "nth-term Test"
+        - "Integral Test"
+        - "Harmonic Series and p-Series"
+        - "Comparison Tests"
+        - "Alternating Series Test"
+        - "Ratio Test"
+        - "Absolute and Conditional Convergence"
+        - "Alternating Series Error Bound"
+        - "Taylor and Maclaurin Polynomials Intro"
+        - "Lagrange Error Bound"
+        - "Power Series Intro"
+        - "Function as a Geometric Series"
+        - "Maclaurin Series of eˣ, sin(x), and cos(x)"
+        - "Representing Functions as Power Series"
+        - "Telescoping Series"

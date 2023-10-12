@@ -1,0 +1,31 @@
+"course":
+  "Exploring one-variable quantitative data Summary statistics AP®︎/College Statistics:":
+    "topics":
+    - "Measuring center in quantitative data":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Median in a histogram"
+        - "Missing value given the mean"
+        - "Impact on median & mean: increasing an outlier"
+        - "Impact on median & mean: removing an outlier"
+        - "Estimating mean and median in data displays"
+    - "Measuring variability in quantitative data":
+        "subtopics":
+        - "Interquartile range (IQR)"
+        - "Sample variance"
+        - "Sample standard deviation and bias"
+        - "Visually assessing standard deviation"
+        - "Mean and standard deviation versus median and IQR"
+    - "Effects of linear transformations":
+        "subtopics":
+        - "How parameters change as data is shifted and scaled"
+        - "More on standard deviation"
+        - "Review and intuition why we divide by n-1 for the unbiased sample variance"
+        - "Why we divide by n - 1 in variance"
+        - "Simulation showing bias in sample variance"
+        - "Simulation providing evidence that (n-1) gives us unbiased estimate"
+    - "Graphical representations of summary statistics":
+        "subtopics":
+        - "Reading box plots"
+        - "Interpreting box plots"
+        - "Judging outliers in a dataset"

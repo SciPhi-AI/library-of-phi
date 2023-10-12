@@ -1,0 +1,23 @@
+"course":
+  "Displaying and comparing quantitative data: Statistics and probability:":
+    "topics":
+    - "Displaying quantitative data with graphs":
+        "subtopics":
+        - "Representing data"
+        - "Frequency tables & dot plots"
+        - "Creating a histogram"
+        - "Histograms"
+        - "Interpreting a histogram"
+        - "Stem-and-leaf plots"
+        - "Reading stem and leaf plots"
+    - "Describing and comparing distributions":
+        "subtopics":
+        - "Shapes of distributions"
+        - "Clusters, gaps, peaks & outliers"
+        - "Comparing distributions with dot plots"
+        - "Comparing dot plots, histograms, and box plots"
+        - "Example: Comparing distributions"
+    - "More on data displays":
+        "subtopics":
+        - "Reading line graphs"
+        - "Misleading line graphs"

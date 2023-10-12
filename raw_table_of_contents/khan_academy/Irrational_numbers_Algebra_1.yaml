@@ -1,0 +1,24 @@
+"course":
+  "Irrational numbers: Algebra 1:":
+    "topics":
+    - "Introduction to Irrational Numbers":
+        "subtopics":
+        - "Definition of Irrational Numbers"
+        - "Intro to Rational & Irrational Numbers"
+        - "Classifying Numbers: Rational & Irrational"
+    - "Sums and Products of Rational and Irrational Numbers":
+        "subtopics":
+        - "Sums and Products of Rational and Irrational Numbers"
+        - "Proof: Sum & Product of Two Rationals is Rational"
+        - "Proof: Product of Rational & Irrational is Irrational"
+        - "Proof: Sum of Rational & Irrational is Irrational"
+        - "Sums and Products of Irrational Numbers"
+    - "Rational vs. Irrational Expressions":
+        "subtopics":
+        - "Worked Example: Rational vs. Irrational Expressions"
+        - "Worked Example: Rational vs. Irrational Expressions (Unknowns)"
+    - "Proofs Concerning Irrational Numbers":
+        "subtopics":
+        - "Proof: √2 is Irrational"
+        - "Proof: Square Roots of Prime Numbers are Irrational"
+        - "Proof: There's an Irrational Number Between Any Two Rational Numbers"

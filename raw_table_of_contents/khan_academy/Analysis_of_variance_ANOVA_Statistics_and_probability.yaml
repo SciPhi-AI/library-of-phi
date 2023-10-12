@@ -1,0 +1,38 @@
+"course":
+  "Analysis of variance (ANOVA) Statistics and probability:":
+    "topics":
+    - "Analysis of variance (ANOVA)":
+        "subtopics":
+        - "Introduction to ANOVA"
+        - "Assumptions of ANOVA"
+        - "Types of ANOVA"
+        - "ANOVA Test Procedure"
+        - "Interpretation of ANOVA Results"
+    - "Calculating SST (total sum of squares)":
+        "subtopics":
+        - "Understanding SST"
+        - "Calculation of SST"
+        - "Importance of SST in ANOVA"
+        - "SST and Variance"
+        - "SST and Degrees of Freedom"
+    - "Calculating SSW and SSB (total sum of squares within and between)":
+        "subtopics":
+        - "Understanding SSW and SSB"
+        - "Calculation of SSW and SSB"
+        - "Importance of SSW and SSB in ANOVA"
+        - "SSW, SSB and Variance"
+        - "SSW, SSB and Degrees of Freedom"
+    - "Hypothesis test with F-statistic":
+        "subtopics":
+        - "Understanding F-statistic"
+        - "Calculation of F-statistic"
+        - "Importance of F-statistic in ANOVA"
+        - "F-statistic and Variance"
+        - "F-statistic and Degrees of Freedom"
+    - "Interpretation of ANOVA Results":
+        "subtopics":
+        - "Understanding ANOVA Results"
+        - "Significance of ANOVA Results"
+        - "Post-hoc Tests in ANOVA"
+        - "Effect Size in ANOVA"
+        - "Assumption Checks in ANOVA"

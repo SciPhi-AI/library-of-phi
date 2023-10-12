@@ -1,0 +1,35 @@
+"course":
+  "Sampling distributions AP®︎/College Statistics:":
+    "topics":
+    - "The normal distribution, revisited":
+        "subtopics":
+        - "Density Curves"
+        - "Probabilities from density curves"
+    - "The central limit theorem":
+        "subtopics":
+        - "Introduction to sampling distributions"
+        - "Central limit theorem"
+        - "Sampling distribution of the sample mean"
+        - "Sampling distribution of the sample mean (part 2)"
+    - "Biased and unbiased point estimates":
+        "subtopics":
+        - "Sample statistic bias worked example"
+    - "Sampling distributions for sample proportions":
+        "subtopics":
+        - "Sampling distribution of sample proportion part 1"
+        - "Sampling distribution of sample proportion part 2"
+        - "Normal conditions for sampling distributions of sample proportions"
+        - "Probability of sample proportions example"
+    - "Sampling distributions for differences in sample proportions":
+        "subtopics":
+        - "Sampling distribution of the difference in sample proportions"
+        - "Sampling distribution of the difference in sample proportions: Probability\
+          \ example"
+    - "Sampling distributions for sample means":
+        "subtopics":
+        - "Standard error of the mean"
+        - "Example: Probability of sample mean exceeding a value"
+    - "Sampling distributions for differences in sample means":
+        "subtopics":
+        - "Sampling distribution of the difference in sample means"
+        - "Sampling distribution of the difference in sample means: Probability example"

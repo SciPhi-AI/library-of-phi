@@ -1,0 +1,41 @@
+"course":
+  "Systems of linear equations Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Writing & Graphing Systems of Linear Equations":
+        "subtopics":
+        - "Systems of equations: trolls, tolls (1 of 2)"
+        - "Systems of equations: trolls, tolls (2 of 2)"
+        - "Testing a solution to a system of equations"
+        - "Systems of equations with graphing: y=7/5x-5 & y=3/5x-1"
+        - "Systems of equations with graphing: exact & approximate solutions"
+    - "Setting Up a System of Equations from Context":
+        "subtopics":
+        - "Setting up a system of equations from context example (pet weights)"
+        - "Setting up a system of linear equations example (weight and price)"
+        - "Interpreting points in context of graphs of systems"
+    - "Solving Systems by Substitution":
+        "subtopics":
+        - "Systems of equations with substitution: potato chips"
+        - "Systems of equations with substitution: -3x-4y=-2 & y=2x-5"
+    - "Solving Systems by Elimination":
+        "subtopics":
+        - "Why can we subtract one equation from the other in a system of equations?"
+        - "Worked example: equivalent systems of equations"
+        - "Worked example: non-equivalent systems of equations"
+        - "Reasoning with systems of equations"
+        - "Systems of equations with elimination: King's cupcakes"
+        - "Systems of equations with elimination: x-4y=-18 & -x+3y=11"
+        - "Elimination strategies"
+        - "Systems of equations with elimination: potato chips"
+        - "Systems of equations with elimination (and manipulation)"
+    - "Systems of Linear Equations and Their Solutions":
+        "subtopics":
+        - "Systems of equations number of solutions: fruit prices (1 of 2)"
+        - "Systems of equations number of solutions: fruit prices (2 of 2)"
+        - "Solutions to systems of equations: consistent vs. inconsistent"
+        - "Solutions to systems of equations: dependent vs. independent"
+        - "Number of solutions to a system of equations"
+        - "Number of solutions to a system of equations graphically"
+        - "Number of solutions to a system of equations algebraically"
+        - "How many solutions does a system of linear equations have if there are\
+          \ at least two?"

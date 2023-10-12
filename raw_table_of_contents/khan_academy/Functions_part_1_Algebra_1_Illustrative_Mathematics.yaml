@@ -1,0 +1,35 @@
+"course":
+  "Functions (part 1) Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Describing & Graphing Situations":
+        "subtopics":
+        - "Testing if a Relationship is a Function"
+        - "Relations and Functions"
+        - "Recognizing Functions from Graph"
+        - "Checking if a Table Represents a Function"
+        - "Recognizing Functions from Table"
+        - "Checking if an Equation Represents a Function"
+    - "Understanding Functions":
+        "subtopics":
+        - "Does a Vertical Line Represent a Function?"
+        - "Recognizing Functions from Verbal Description"
+        - "Recognizing Functions from Verbal Description Word Problem"
+        - "Dependent & Independent Variables"
+        - "Interpreting a Graph Example"
+    - "Function Notation":
+        "subtopics":
+        - "Function Notation Word Problem: Bank"
+        - "Function Notation Word Problem: Beach"
+        - "Interpreting & Using Function Notation"
+        - "What is a Function?"
+    - "Evaluating Functions":
+        "subtopics":
+        - "Worked Example: Evaluating Functions from Graph"
+        - "Evaluating Discrete Functions"
+        - "Worked Example: Evaluating Expressions with Function Notation"
+        - "Worked Example: Matching an Input to a Function's Output (Graph)"
+        - "Worked Example: Two Inputs with the Same Output (Graph)"
+    - "Using Function Notation to Describe Rules":
+        "subtopics":
+        - "Worked Example: Evaluating Functions from Equation"
+        - "Worked Example: Matching an Input to a Function's Output (Equation)"

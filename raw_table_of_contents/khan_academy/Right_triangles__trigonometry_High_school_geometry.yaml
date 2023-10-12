@@ -1,0 +1,36 @@
+"course":
+  "Right triangles & trigonometry: High school geometry:":
+    "topics":
+    - "Pythagorean theorem":
+        "subtopics":
+        - "Pythagorean theorem in 3D"
+        - "Pythagorean theorem with isosceles triangle"
+        - "Multi-step word problem with Pythagorean theorem"
+        - "Pythagorean theorem proofs"
+        - "Garfield's proof of the Pythagorean theorem"
+        - "Bhaskara's proof of the Pythagorean theorem"
+        - "Pythagorean theorem proof using similarity"
+        - "Another Pythagorean theorem proof"
+    - "Special right triangles":
+        "subtopics":
+        - "Special right triangles proof (part 1)"
+        - "Special right triangles proof (part 2)"
+        - "30-60-90 triangle example problem"
+        - "Area of a regular hexagon"
+        - "Using similarity to estimate ratio between side lengths"
+        - "Using right triangle ratios to approximate angle measure"
+    - "Introduction to the trigonometric ratios":
+        "subtopics":
+        - "Triangle similarity & the trigonometric ratios"
+        - "Trigonometric ratios in right triangles"
+        - "Solving for a side in a right triangle using the trigonometric ratios"
+        - "Solving for a side in right triangles with trigonometry"
+    - "Sine & cosine of complementary angles":
+        "subtopics":
+        - "Sine & cosine of complementary angles"
+        - "Using complementary angles"
+        - "Trig word problem: complementary angles"
+        - "Trig challenge problem: trig values & side ratios"
+    - "Modeling with right triangles":
+        "subtopics":
+        - "Right triangle word problem"

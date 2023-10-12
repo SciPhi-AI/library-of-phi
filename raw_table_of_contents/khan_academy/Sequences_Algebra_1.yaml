@@ -1,0 +1,31 @@
+"course":
+  "Sequences Algebra 1:":
+    "topics":
+    - "Introduction to Arithmetic Sequences":
+        "subtopics":
+        - "Sequences Intro"
+        - "Intro to Arithmetic Sequences"
+        - "Extending Arithmetic Sequences"
+        - "Using Arithmetic Sequences Formulas"
+        - "Worked Example: Using Recursive Formula for Arithmetic Sequence"
+        - "Constructing Arithmetic Sequences"
+        - "Recursive Formulas for Arithmetic Sequences"
+        - "Explicit Formulas for Arithmetic Sequences"
+        - "Arithmetic Sequence Problem"
+        - "Converting Recursive & Explicit Forms of Arithmetic Sequences"
+    - "Introduction to Geometric Sequences":
+        "subtopics":
+        - "Intro to Geometric Sequences"
+        - "Extending Geometric Sequences"
+        - "Using Explicit Formulas of Geometric Sequences"
+        - "Using Recursive Formulas of Geometric Sequences"
+        - "Constructing Geometric Sequences"
+        - "Explicit & Recursive Formulas for Geometric Sequences"
+        - "Converting Recursive & Explicit Forms of Geometric Sequences"
+    - "Modeling with Sequences":
+        "subtopics":
+        - "Sequences Word Problems"
+    - "General Sequences":
+        "subtopics":
+        - "Evaluating Sequences in Recursive Form"
+        - "Sequences and Domain"

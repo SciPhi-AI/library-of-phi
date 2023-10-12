@@ -1,0 +1,47 @@
+"course":
+  "Quadratic equations (part 2) Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Perfect Squares":
+        "subtopics":
+        - "What are perfect squares?"
+        - "Squaring binomials of the form (x+a)²"
+        - "Special products of the form (ax+b)(ax-b)"
+        - "Squaring binomials of the form (ax+b)²"
+        - "Perfect square factorization intro"
+        - "Factoring perfect squares"
+        - "Identifying perfect square form"
+        - "Factoring perfect squares: negative common factor"
+        - "Factoring perfect squares: missing values"
+        - "Factoring perfect squares: shared factors"
+    - "Completing the Square":
+        "subtopics":
+        - "Completing the square (part 1)"
+        - "Worked example: Completing the square (intro)"
+        - "Worked example: Rewriting expressions by completing the square"
+        - "Worked example: Rewriting & solving equations by completing the square"
+        - "Solve by completing the square: Integer solutions"
+        - "Solve by completing the square: Non-integer solutions"
+        - "Completing the square (part 3)"
+        - "Worked example: completing the square (leading coefficient ≠ 1)"
+        - "Solving quadratics by completing the square: no solution"
+    - "The Quadratic Formula":
+        "subtopics":
+        - "The quadratic formula"
+        - "Applying the quadratic formula (part 1)"
+        - "Worked example: quadratic formula (example 2)"
+        - "Worked example: quadratic formula (negative coefficients)"
+        - "Applying the quadratic formula (part 2)"
+        - "Strategy in solving quadratic equations"
+        - "Deriving the quadratic formula"
+        - "Proof of the quadratic formula"
+    - "Rational & Irrational Solutions":
+        "subtopics":
+        - "Intro to rational & irrational numbers"
+        - "Classifying numbers: rational & irrational"
+        - "Sums & products of rational & irrational numbers"
+        - "Proof: sum & product of two rationals is rational"
+        - "Proof: product of rational & irrational is irrational"
+        - "Proof: sum of rational & irrational is irrational"
+        - "Sums and products of irrational numbers"
+        - "Worked example: rational vs. irrational expressions"
+        - "Worked example: rational vs. irrational expressions (unknowns)"

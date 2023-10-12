@@ -1,0 +1,46 @@
+"course":
+  "Differential equations Integral Calculus:":
+    "topics":
+    - "Introduction to Differential Equations":
+        "subtopics":
+        - "Differential Equations Introduction"
+        - "Writing a Differential Equation"
+        - "Verifying Solutions for Differential Equations"
+    - "Slope Fields":
+        "subtopics":
+        - "Sketching Slope Fields"
+        - "Worked Example: Equation from Slope Field"
+        - "Worked Example: Slope Field from Equation"
+        - "Worked Example: Forming a Slope Field"
+        - "Reasoning Using Slope Fields"
+        - "Approximating Solution Curves in Slope Fields"
+        - "Worked Example: Range of Solution Curve from Slope Field"
+    - "Euler’s Method":
+        "subtopics":
+        - "Approximation with Euler’s Method"
+        - "Worked Example: Euler's Method"
+    - "Separation of Variables":
+        "subtopics":
+        - "Separable Equations Introduction"
+        - "Addressing Treating Differentials Algebraically"
+        - "Worked Example: Separable Differential Equations"
+        - "Worked Example: Identifying Separable Equations"
+    - "Particular Solutions to Differential Equations":
+        "subtopics":
+        - "Particular Solutions to Differential Equations: Rational Function"
+        - "Particular Solutions to Differential Equations: Exponential Function"
+        - "Worked Example: Finding a Specific Solution to a Separable Equation"
+        - "Worked Example: Separable Equation with an Implicit Solution"
+    - "Exponential Models":
+        "subtopics":
+        - "Exponential Models & Differential Equations (Part 1)"
+        - "Exponential Models & Differential Equations (Part 2)"
+        - "Worked Example: Exponential Solution to Differential Equation"
+    - "Logistic Models":
+        "subtopics":
+        - "Growth Models: Introduction"
+        - "The Logistic Growth Model"
+        - "Worked Example: Logistic Model Word Problem"
+        - "Logistic Equations (Part 1)"
+        - "Logistic Equations (Part 2)"
+        - "Worked Example: Logistic Model Equations"

@@ -1,0 +1,37 @@
+"course":
+  "Equations & inequalities 6th grade:":
+    "topics":
+    - "Algebraic equations basics":
+        "subtopics":
+        - "Variables, expressions, & equations"
+        - "Testing solutions to equations"
+        - "One-step equations intuition"
+        - "Same thing to both sides of equations"
+        - "Representing a relationship with an equation"
+        - "Dividing both sides of an equation"
+    - "One-step addition & subtraction equations":
+        "subtopics":
+        - "One-step addition equation"
+        - "One-step addition & subtraction equations: fractions & decimals"
+        - "Finding mistakes in one-step equations"
+        - "One-step equation word problems"
+        - "Modeling with one-step equations"
+    - "One-step multiplication and division equations":
+        "subtopics":
+        - "One-step division equations"
+        - "One-step multiplication equations"
+        - "One-step multiplication & division equations: fractions & decimals"
+        - "One-step multiplication equations: fractional coefficients"
+    - "Intro to inequalities with variables":
+        "subtopics":
+        - "Testing solutions to inequalities"
+        - "Plotting inequalities"
+        - "Plotting an inequality example"
+        - "Inequalities word problems"
+    - "Dependent and independent variables":
+        "subtopics":
+        - "Dependent & independent variables"
+        - "Dependent & independent variables: graphing"
+        - "Analyzing relationships between variables"
+        - "Writing equations for relationships between quantities"
+        - "Analyzing relationships between variables"

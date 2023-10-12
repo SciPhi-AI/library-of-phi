@@ -1,0 +1,37 @@
+"course":
+  "Modeling data distributions: Statistics and probability:":
+    "topics":
+    - "Percentiles":
+        "subtopics":
+        - "Calculating percentile"
+        - "Analyzing a cumulative relative frequency graph"
+    - "Z-scores":
+        "subtopics":
+        - "Normal distribution problem: z-scores"
+        - "Comparing with z-scores"
+    - "Effects of linear transformations":
+        "subtopics":
+        - "How parameters change as data is shifted and scaled"
+    - "Density curves":
+        "subtopics":
+        - "Density Curves"
+        - "Median, mean and skew from density curves"
+        - "Density curve worked example"
+        - "Worked example finding area under density curves"
+    - "Normal distributions and the empirical rule":
+        "subtopics":
+        - "Qualitative sense of normal distributions"
+        - "Normal distribution problems: Empirical rule"
+        - "Standard normal distribution and the empirical rule"
+        - "More empirical rule and z-score practice"
+    - "Normal distribution calculations":
+        "subtopics":
+        - "Standard normal table for proportion below"
+        - "Standard normal table for proportion above"
+        - "Standard normal table for proportion between values"
+        - "Finding z-score for a percentile"
+        - "Threshold for low percentile"
+    - "More on normal distributions":
+        "subtopics":
+        - "Deep definition of the normal distribution"
+        - "Normal distribution excel exercise"

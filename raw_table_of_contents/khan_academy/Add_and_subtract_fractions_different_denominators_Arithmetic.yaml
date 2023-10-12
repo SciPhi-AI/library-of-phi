@@ -1,0 +1,33 @@
+"course":
+  "Add and subtract fractions (different denominators) Arithmetic:":
+    "topics":
+    - "Fractions with denominators of 10 and 100":
+        "subtopics":
+        - "Visually converting tenths and hundredths"
+        - "Decomposing hundredths"
+        - "Adding fractions (denominators 10 & 100)"
+        - "Adding fractions: 7/10+13/100"
+    - "Visually adding and subtracting fractions":
+        "subtopics":
+        - "Visually adding fractions: 5/6+1/4"
+        - "Visually subtracting fractions: 3/4-5/8"
+    - "Common denominators":
+        "subtopics":
+        - "Finding common denominators"
+        - "Common denominators: 1/4 and 5/6"
+    - "Adding and subtracting fractions with unlike denominators":
+        "subtopics":
+        - "Adding fractions with unlike denominators introduction"
+        - "Subtracting fractions with unlike denominators introduction"
+        - "Adding and subtracting 3 fractions"
+        - "Solving for the missing fraction"
+    - "Adding and subtracting mixed numbers with unlike denominators":
+        "subtopics":
+        - "Adding mixed numbers: 19 3/18 + 18 2/3"
+        - "Subtracting mixed numbers: 7 6/9 - 3 2/5"
+        - "Adding mixed numbers with regrouping"
+        - "Subtracting mixed numbers with regrouping (unlike denominators)"
+    - "Adding and subtracting fractions with unlike denominators word problems":
+        "subtopics":
+        - "Adding fractions word problem: paint"
+        - "Subtracting fractions word problem: tomatoes"

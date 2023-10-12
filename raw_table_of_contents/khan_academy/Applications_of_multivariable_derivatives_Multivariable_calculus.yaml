@@ -1,0 +1,37 @@
+"course":
+  "Applications of multivariable derivatives Multivariable calculus:":
+    "topics":
+    - "Tangent planes and local linearization":
+        "subtopics":
+        - "What is a tangent plane"
+        - "Controlling a plane in space"
+        - "Computing a tangent plane"
+        - "Local linearization"
+    - "Quadratic approximations":
+        "subtopics":
+        - "What do quadratic approximations look like"
+        - "Quadratic approximation formula, part 1"
+        - "Quadratic approximation formula, part 2"
+        - "Quadratic approximation example"
+        - "The Hessian matrix"
+        - "Expressing a quadratic form with a matrix"
+        - "Vector form of multivariable quadratic approximation"
+    - "Optimizing multivariable functions":
+        "subtopics":
+        - "Multivariable maxima and minima"
+        - "Saddle points"
+        - "Warm up to the second partial derivative test"
+        - "Second partial derivative test"
+        - "Second partial derivative test intuition"
+        - "Second partial derivative test example, part 1"
+        - "Second partial derivative test example, part 2"
+    - "Lagrange multipliers and constrained optimization":
+        "subtopics":
+        - "Constrained optimization introduction"
+        - "Lagrange multipliers, using tangency to solve constrained optimization"
+        - "Finishing the intro lagrange multiplier example"
+        - "Lagrange multiplier example, part 1"
+        - "Lagrange multiplier example, part 2"
+        - "The Lagrangian"
+        - "Meaning of the Lagrange multiplier"
+        - "Proof for the meaning of Lagrange multipliers"

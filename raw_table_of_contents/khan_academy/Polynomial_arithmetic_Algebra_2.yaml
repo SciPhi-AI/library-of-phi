@@ -1,0 +1,27 @@
+"course":
+  "Polynomial arithmetic: Algebra 2:":
+    "topics":
+    - "Introduction to Polynomials":
+        "subtopics":
+        - "Polynomials Introduction"
+        - "The Parts of Polynomial Expressions"
+        - "Average Rate of Change of Polynomials"
+    - "Adding and Subtracting Polynomials":
+        "subtopics":
+        - "Adding Polynomials"
+        - "Subtracting Polynomials"
+        - "Polynomial Subtraction"
+    - "Multiplying Monomials by Polynomials":
+        "subtopics":
+        - "Multiplying Monomials"
+        - "Multiplying Monomials by Polynomials: Area Model"
+        - "Area Model for Multiplying Polynomials with Negative Terms"
+        - "Multiplying Monomials by Polynomials"
+    - "Multiplying Binomials by Polynomials":
+        "subtopics":
+        - "Multiplying Binomials by Polynomials: Area Model"
+        - "Multiplying Binomials by Polynomials"
+    - "Special Products of Polynomials":
+        "subtopics":
+        - "Polynomial Special Products: Difference of Squares"
+        - "Polynomial Special Products: Perfect Square"

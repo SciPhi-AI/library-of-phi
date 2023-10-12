@@ -1,0 +1,32 @@
+"course":
+  "Two-variable statistics Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Two-way tables":
+        "subtopics":
+        - "Two-way frequency tables and Venn diagrams"
+        - "Relative frequency tables"
+        - "Two-way relative frequency tables"
+        - "Associations in categorical data"
+        - "Interpreting two-way tables"
+    - "Linear models":
+        "subtopics":
+        - "Bivariate relationship linearity, strength and direction"
+        - "Estimating the line of best fit exercise"
+        - "Fitting a line to data"
+        - "Line of best fit: smoking in 1945"
+        - "Estimating with linear regression (linear models)"
+        - "Interpreting slope of regression line"
+        - "Interpreting y-intercept in regression model"
+    - "Residuals":
+        "subtopics":
+        - "Introduction to residuals and least-squares regression"
+        - "Calculating residual example"
+        - "Residual plots"
+    - "The correlation coefficient":
+        "subtopics":
+        - "Example: Correlation coefficient intuition"
+    - "Causal relationships":
+        "subtopics":
+        - "Correlation and causality"
+        - "Example of direction in scatterplots"
+        - "Scatter plot: smokers"

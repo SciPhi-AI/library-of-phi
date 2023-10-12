@@ -1,0 +1,52 @@
+"course":
+  "Quadratics Multiplying & Factoring Algebra 1:":
+    "topics":
+    - "Multiplying Monomials by Polynomials":
+        "subtopics":
+        - "Polynomials Introduction"
+        - "Multiply Monomials by Polynomials: Area Model"
+    - "Multiplying Binomials":
+        "subtopics":
+        - "Multiplying Binomials: Area Model"
+        - "Multiplying Binomials Introduction"
+        - "Multiplying Binomials"
+    - "Special Products of Binomials":
+        "subtopics":
+        - "Special Products of the Form (x+a)(x-a)"
+        - "Squaring Binomials of the Form (x+a)²"
+        - "Special Products of the Form (ax+b)(ax-b)"
+        - "Squaring Binomials of the Form (ax+b)²"
+    - "Introduction to Factoring":
+        "subtopics":
+        - "Intro to Factors & Divisibility"
+        - "Factoring with the Distributive Property"
+    - "Factoring Quadratics Intro":
+        "subtopics":
+        - "Factoring Quadratics as (x+a)(x+b)"
+        - "More Examples of Factoring Quadratics as (x+a)(x+b)"
+        - "Factoring Quadratics with a Common Factor"
+        - "Factoring Completely with a Common Factor"
+    - "Factoring Quadratics by Grouping":
+        "subtopics":
+        - "Intro to Grouping"
+        - "Factoring Quadratics by Grouping"
+        - "Factoring Quadratics: Common Factor + Grouping"
+        - "Factoring Quadratics: Negative Common Factor + Grouping"
+    - "Factoring Quadratics with Difference of Squares":
+        "subtopics":
+        - "Difference of Squares Intro"
+        - "Factoring Difference of Squares: Leading Coefficient ≠ 1"
+        - "Factoring Difference of Squares: Analyzing Factorization"
+        - "Factoring Difference of Squares: Shared Factors"
+    - "Factoring Quadratics with Perfect Squares":
+        "subtopics":
+        - "Perfect Square Factorization Intro"
+        - "Factoring Perfect Squares"
+        - "Identifying Perfect Square Form"
+        - "Factoring Perfect Squares: Negative Common Factor"
+        - "Factoring Perfect Squares: Missing Values"
+        - "Factoring Perfect Squares: Shared Factors"
+    - "Strategy in Factoring Quadratics":
+        "subtopics":
+        - "Strategy in Factoring Quadratics (part 1 of 2)"
+        - "Strategy in Factoring Quadratics (part 2 of 2)"

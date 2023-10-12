@@ -1,0 +1,70 @@
+"course":
+  "8th grade (Illustrative Mathematics):":
+    "topics":
+    - "Rigid transformations and congruence":
+        "subtopics":
+        - "No bending or stretching"
+        - "Congruent polygons"
+        - "Alternate interior angles"
+        - "Parallel lines and the angles in a triangle"
+    - "Dilations, similarity, and introducing slope":
+        "subtopics":
+        - "Dilations on a square grid"
+        - "Similarity"
+        - "Similar polygons"
+        - "Side lengths quotients in similar triangles"
+        - "Meet slope"
+    - "Linear relationships":
+        "subtopics":
+        - "Representing proportional relationships"
+        - "Comparing proportional relationships"
+        - "Representations of linear relationships"
+        - "Slopes don't have to be positive"
+        - "Equations of all kinds of lines"
+        - "Solutions to linear equations"
+        - "More solutions to linear equations"
+        - "Intercepts"
+    - "Linear equations and linear systems":
+        "subtopics":
+        - "Balanced moves"
+        - "More balanced moves"
+        - "Linear equations"
+        - "All, some, or no solutions"
+        - "How many solutions?"
+        - "When are they the same?"
+        - "Systems of equations"
+        - "Solving systems of equations"
+        - "Solving more systems"
+        - "Solving problems with systems of equations"
+    - "Functions and volume":
+        "subtopics":
+        - "Linear functions"
+        - "The volume of a cylinder"
+        - "The volume of a cone"
+        - "Scaling two dimensions"
+        - "The volume of a sphere"
+    - "Associations in data":
+        "subtopics":
+        - "Plotting data"
+        - "The slope of a fitted line"
+        - "Looking for associations"
+    - "Exponents and scientific notation":
+        "subtopics":
+        - "Dividing powers of 10"
+        - "What about other bases?"
+        - "Combining bases"
+        - "Applications of arithmetic with powers of 10"
+        - "Definition of scientific notation"
+        - "Multiplying, dividing, and estimating with scientific notation"
+    - "Pythagorean theorem and irrational numbers":
+        "subtopics":
+        - "Rational and irrational numbers"
+        - "Square roots on the number line"
+        - "Reasoning about square roots"
+        - "Irrational numbers"
+        - "Finding side lengths of triangles"
+        - "A proof of the Pythagorean Theorem"
+        - "Finding unknown side lengths"
+        - "Applications of the Pythagorean Theorem"
+        - "Decimal representations of rational numbers"
+        - "Infinite decimal expansions"

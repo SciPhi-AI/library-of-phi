@@ -1,0 +1,77 @@
+"course":
+  "Module 1: Polynomial, rational, and radical relationships: Algebra 2 (Eureka Math/EngageNY):":
+    "topics":
+    - "Topic A: Polynomials—from base ten to base X":
+        "subtopics":
+        - "Multiplying binomials by polynomials: area model"
+        - "Multiplying binomials by polynomials"
+        - "Intro to long division of polynomials"
+        - "Dividing polynomials: long division"
+        - "Divide polynomials by x (with remainders)"
+        - "Divide polynomials by monomials (with remainders)"
+        - "Dividing polynomials with remainders"
+        - "Simplifying square roots"
+        - "Simplifying square roots (variables)"
+    - "Topic B: Lessons 12-13: Factorization":
+        "subtopics":
+        - "Factoring quadratics: common factor + grouping"
+        - "Factoring quadratics: negative common factor + grouping"
+        - "Factoring two-variable quadratics"
+        - "Factoring two-variable quadratics: rearranging"
+        - "Factoring two-variable quadratics: grouping"
+        - "Factoring using the perfect square pattern"
+        - "Factoring using the difference of squares pattern"
+        - "Factoring difference of squares: two variables (example 2)"
+        - "Factoring higher-degree polynomials"
+        - "Factoring sum of cubes"
+        - "Factoring difference of cubes"
+        - "Finding zeros of polynomials (1 of 2)"
+        - "Finding zeros of polynomials (2 of 2)"
+        - "Finding zeros of polynomials (example 2)"
+    - "Topic B: Lesson 14: Graphing factored polynomials":
+        "subtopics":
+        - "Zeros of polynomials & their graphs"
+        - "Intro to end behavior of polynomials"
+        - "End behavior of functions & their graphs"
+    - "Topic B: Lesson 15: Structure in graphs of polynomial functions":
+        "subtopics":
+        - "Function symmetry introduction"
+        - "Even and odd functions: Graphs"
+        - "Even/odd functions & numbers"
+        - "Even & odd polynomials"
+    - "Topic B: Lessons 16-21: Remainder theorem and modeling":
+        "subtopics":
+        - "Intro to the Polynomial Remainder Theorem"
+        - "Remainder theorem: finding remainder from equation"
+        - "Remainder theorem: checking factors"
+        - "Remainder theorem: finding coefficients"
+        - "Proof of the Polynomial Remainder Theorem"
+    - "Topic C: Lessons 22-23: Simplifying rational expressions":
+        "subtopics":
+        - "Reducing rational expressions to lowest terms"
+        - "Simplifying rational expressions: common monomial factors"
+        - "Simplifying rational expressions: common binomial factors"
+        - "Simplifying rational expressions: opposite common binomial factors"
+        - "Simplifying rational expressions: grouping"
+        - "Simplifying rational expressions: higher degree terms"
+        - "Simplifying rational expressions: two variables"
+    - "Topic D: Lesson 37: Complex numbers intro":
+        "subtopics":
+        - "Intro to the imaginary numbers"
+        - "Simplifying roots of negative numbers"
+        - "i as the principal root of -1"
+        - "Intro to complex numbers"
+        - "Plotting numbers on the complex plane"
+    - "Topic D: Lesson 37: Complex number operations":
+        "subtopics":
+        - "Adding complex numbers"
+        - "Subtracting complex numbers"
+        - "Multiplying complex numbers"
+    - "Topic D: Lessons 38-40: Complex roots and the fundamental theorem of algebra":
+        "subtopics":
+        - "Solving quadratic equations: complex roots"
+        - "Complex numbers & sum of squares factorization"
+        - "Factoring sum of squares"
+        - "The Fundamental theorem of Algebra"
+        - "Quadratics & the Fundamental Theorem of Algebra"
+        - "Number of possible real roots of a polynomial"

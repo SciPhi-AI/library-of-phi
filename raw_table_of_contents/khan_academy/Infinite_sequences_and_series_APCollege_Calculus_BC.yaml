@@ -1,0 +1,61 @@
+"course":
+  "Infinite sequences and series AP®︎/College Calculus BC:":
+    "topics":
+    - "Defining Convergent and Divergent Infinite Series":
+        "subtopics":
+        - "Convergent and Divergent Sequences"
+        - "Sequence Convergence/Divergence"
+        - "Partial Sums Introduction"
+        - "Formula for nth Term from Partial Sum"
+        - "Term Value from Partial Sum"
+        - "Infinite Series as Limit of Partial Sums"
+    - "Working with Geometric Series":
+        "subtopics":
+        - "Convergent Geometric Series"
+        - "Divergent Geometric Series"
+        - "Infinite Geometric Series Word Problem: Bouncing Ball"
+        - "Infinite Geometric Series Word Problem: Repeating Decimal"
+        - "The nth-Term Test for Divergence"
+    - "Integral Test for Convergence":
+        "subtopics":
+        - "Integral Test"
+        - "Integral Test Worked Example"
+        - "Harmonic Series and p-Series"
+        - "Harmonic Series and \U0001D45D-Series Worked Example"
+    - "Comparison Tests for Convergence":
+        "subtopics":
+        - "Direct Comparison Test"
+        - "Direct Comparison Test Worked Example"
+        - "Limit Comparison Test"
+        - "Limit Comparison Test Worked Example"
+        - "Proof: Harmonic Series Diverges"
+    - "Alternating Series Test for Convergence":
+        "subtopics":
+        - "Alternating Series Test"
+        - "Alternating Series Worked Example"
+        - "Ratio Test for Convergence"
+        - "Determining Absolute or Conditional Convergence"
+        - "Alternating Series Error Bound"
+    - "Finding Taylor Polynomial Approximations of Functions":
+        "subtopics":
+        - "Taylor & Maclaurin Polynomials Introduction"
+        - "Maclaurin Polynomial Worked Example"
+        - "Coefficient in Maclaurin Polynomial Worked Example"
+        - "Coefficient in Taylor Polynomial Worked Example"
+        - "Visualizing Taylor Polynomial Approximations"
+        - "Lagrange Error Bound"
+    - "Radius and Interval of Convergence of Power Series":
+        "subtopics":
+        - "Power Series Introduction"
+        - "Interval of Convergence Worked Example"
+        - "Finding Taylor or Maclaurin Series for a Function"
+        - "Function as a Geometric Series"
+        - "Geometric Series as a Function"
+    - "Representing Functions as Power Series":
+        "subtopics":
+        - "Integrating Power Series"
+        - "Differentiating Power Series"
+        - "Finding Function from Power Series by Integrating"
+        - "Interval of Convergence for Derivative and Integral"
+        - "Formal Definition for Limit of a Sequence"
+        - "Proving a Sequence Converges Using the Formal Definition"

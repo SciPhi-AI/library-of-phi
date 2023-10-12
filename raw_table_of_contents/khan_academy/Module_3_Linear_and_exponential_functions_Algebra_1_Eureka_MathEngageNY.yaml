@@ -1,0 +1,89 @@
+"course":
+  "Module 3: Linear and exponential functions: Algebra 1 (Eureka Math/EngageNY):":
+    "topics":
+    - "Arithmetic sequence intro":
+        "subtopics":
+        - "Sequences intro"
+        - "Intro to arithmetic sequences"
+        - "Extending arithmetic sequences"
+        - "Using arithmetic sequences formulas"
+        - "Worked example: using recursive formula for arithmetic sequence"
+    - "Geometric sequence intro":
+        "subtopics":
+        - "Intro to geometric sequences"
+        - "Extending geometric sequences"
+        - "Using explicit formulas of geometric sequences"
+        - "Using recursive formulas of geometric sequences"
+    - "Arithmetic sequence formulas":
+        "subtopics":
+        - "Explicit formulas for arithmetic sequences"
+        - "Arithmetic sequence problem"
+        - "Recursive formulas for arithmetic sequences"
+        - "Converting recursive & explicit forms of arithmetic sequences"
+    - "Geometric sequence formulas":
+        "subtopics":
+        - "Explicit & recursive formulas for geometric sequences"
+        - "Converting recursive & explicit forms of geometric sequences"
+        - "Sequences word problems"
+    - "Exponential growth":
+        "subtopics":
+        - "Intro to exponential functions"
+        - "Exponential vs. linear growth"
+        - "Exponential vs. linear  models: verbal"
+        - "Exponential vs. linear models: table"
+        - "Exponential expressions word problems (numerical)"
+        - "Initial value & common ratio of exponential functions"
+        - "Exponential expressions word problems (algebraic)"
+        - "Interpreting exponential expression word problem"
+    - "Exponential decay":
+        "subtopics":
+        - "Exponential function graph"
+        - "Graphs of exponential growth"
+        - "Exponential decay intro"
+        - "Graphing exponential growth & decay"
+        - "Exponential growth & decay word problems"
+    - "Functions intro":
+        "subtopics":
+        - "What is a function?"
+        - "Worked example: Evaluating functions from equation"
+        - "Worked example: Evaluating functions from graph"
+        - "Worked example: evaluating expressions with function notation"
+    - "Function domain and range":
+        "subtopics":
+        - "What is the domain of a function?"
+        - "What is the range of a function?"
+        - "Intervals and interval notation"
+        - "Worked example: domain and range from graph"
+        - "Domain of a radical function"
+        - "Worked example: domain of algebraic functions"
+    - "Recognizing functions":
+        "subtopics":
+        - "Recognizing functions from graph"
+        - "Does a vertical line represent a function?"
+        - "Recognizing functions from table"
+        - "Recognizing functions from verbal description"
+        - "Recognizing functions from verbal description word problem"
+    - "Interpreting the graph of a function":
+        "subtopics":
+        - "Increasing, decreasing, positive or negative intervals"
+        - "Worked example: positive & negative intervals"
+        - "Introduction to minimum and maximum points"
+        - "Worked example: absolute and relative extrema"
+        - "Graph interpretation word problem: temperature"
+        - "Graph interpretation word problem: basketball"
+    - "Linear and exponential Models—comparing growth rates":
+        "subtopics":
+        - "Exponential vs. linear growth over time"
+    - "Piecewise functions":
+        "subtopics":
+        - "Introduction to piecewise functions"
+        - "Worked example: evaluating piecewise functions"
+        - "Worked example: graphing piecewise functions"
+        - "Worked example: domain & range of step function"
+        - "Worked example: domain & range of piecewise linear functions"
+    - "Graphing absolute value functions":
+        "subtopics":
+        - "Shifting absolute value graphs"
+        - "Scaling & reflecting absolute value functions: equation"
+        - "Scaling & reflecting absolute value functions: graph"
+        - "Graphing absolute value functions"

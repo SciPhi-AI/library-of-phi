@@ -1,0 +1,102 @@
+"course":
+  "Integration and accumulation of change: AP®︎/College Calculus BC:":
+    "topics":
+    - "Exploring accumulations of change":
+        "subtopics":
+        - "Introduction to integral calculus"
+        - "Definite integrals intro"
+        - "Worked example: accumulation of change"
+        - "Approximating areas with Riemann sums"
+        - "Riemann approximation introduction"
+        - "Over- and under-estimation of Riemann sums"
+        - "Worked example: finding a Riemann sum using a table"
+        - "Worked example: over- and under-estimation of Riemann sums"
+        - "Midpoint sums"
+        - "Trapezoidal sums"
+    - "Riemann sums, summation notation, and definite integral notation":
+        "subtopics":
+        - "Summation notation"
+        - "Worked examples: Summation notation"
+        - "Riemann sums in summation notation"
+        - "Worked example: Riemann sums in summation notation"
+        - "Definite integral as the limit of a Riemann sum"
+        - "Worked example: Rewriting definite integral as limit of Riemann sum"
+        - "Worked example: Rewriting limit of Riemann sum as definite integral"
+    - "The fundamental theorem of calculus and accumulation functions":
+        "subtopics":
+        - "The fundamental theorem of calculus and accumulation functions"
+        - "Functions defined by definite integrals (accumulation functions)"
+        - "Finding derivative with fundamental theorem of calculus"
+        - "Finding derivative with fundamental theorem of calculus: chain rule"
+        - "Interpreting the behavior of accumulation functions"
+    - "Applying properties of definite integrals":
+        "subtopics":
+        - "Negative definite integrals"
+        - "Finding definite integrals using area formulas"
+        - "Definite integral over a single point"
+        - "Integrating scaled version of function"
+        - "Switching bounds of definite integral"
+        - "Integrating sums of functions"
+        - "Worked examples: Finding definite integrals using algebraic properties"
+        - "Definite integrals on adjacent intervals"
+        - "Worked example: Breaking up the integral's interval"
+        - "Worked example: Merging definite integrals over adjacent intervals"
+        - "Functions defined by integrals: switched interval"
+        - "Finding derivative with fundamental theorem of calculus: x is on lower\
+          \ bound"
+        - "Finding derivative with fundamental theorem of calculus: x is on both bounds"
+    - "Antiderivatives and indefinite integrals":
+        "subtopics":
+        - "The fundamental theorem of calculus and definite integrals"
+        - "Antiderivatives and indefinite integrals"
+        - "Finding antiderivatives and indefinite integrals: basic rules and notation:\
+          \ reverse power rule"
+        - "Reverse power rule"
+        - "Indefinite integrals: sums & multiples"
+        - "Rewriting before integrating"
+        - "Finding antiderivatives and indefinite integrals: basic rules and notation:\
+          \ common indefinite integrals"
+        - "Indefinite integral of 1/x"
+        - "Indefinite integrals of sin(x), cos(x), and eˣ"
+        - "Finding antiderivatives and indefinite integrals: basic rules and notation:\
+          \ definite integrals"
+        - "Definite integrals: reverse power rule"
+        - "Definite integral of rational function"
+        - "Definite integral of radical function"
+        - "Definite integral of trig function"
+        - "Definite integral involving natural log"
+        - "Definite integral of piecewise function"
+        - "Definite integral of absolute value function"
+    - "Integrating using substitution":
+        "subtopics":
+        - "\U0001D636-substitution intro"
+        - "\U0001D636-substitution: multiplying by a constant"
+        - "\U0001D636-substitution: defining \U0001D636"
+        - "\U0001D636-substitution: defining \U0001D636 (more examples)"
+        - "\U0001D636-substitution: rational function"
+        - "\U0001D636-substitution: logarithmic function"
+        - "\U0001D636-substitution: definite integrals"
+        - "\U0001D636-substitution: definite integral of exponential function"
+    - "Integrating functions using long division and completing the square":
+        "subtopics":
+        - "Integration using long division"
+        - "Integration using completing the square and the derivative of arctan(x)"
+    - "Using integration by parts":
+        "subtopics":
+        - "Integration by parts intro"
+        - "Integration by parts: ∫x⋅cos(x)dx"
+        - "Integration by parts: ∫ln(x)dx"
+        - "Integration by  parts: ∫x²⋅\U0001D452ˣdx"
+        - "Integration by parts: ∫\U0001D452ˣ⋅cos(x)dx"
+        - "Integration by parts: definite integrals"
+    - "Integrating using linear partial fractions":
+        "subtopics":
+        - "Integration with partial fractions"
+    - "Evaluating improper integrals":
+        "subtopics":
+        - "Introduction to improper integrals"
+        - "Divergent improper integral"
+    - "Optional videos":
+        "subtopics":
+        - "Proof of fundamental theorem of calculus"
+        - "Intuition for second part of fundamental theorem of calculus"

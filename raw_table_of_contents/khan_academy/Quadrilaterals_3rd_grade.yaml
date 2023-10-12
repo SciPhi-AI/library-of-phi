@@ -1,0 +1,43 @@
+"course":
+  "Quadrilaterals 3rd grade:":
+    "topics":
+    - "Introduction to Quadrilaterals":
+        "subtopics":
+        - "Definition of Quadrilaterals"
+        - "Types of Quadrilaterals"
+        - "Properties of Quadrilaterals"
+        - "Quadrilaterals in Daily Life"
+        - "Drawing Quadrilaterals"
+    - "Properties of Specific Quadrilaterals":
+        "subtopics":
+        - "Properties of Squares"
+        - "Properties of Rectangles"
+        - "Properties of Rhombuses"
+        - "Properties of Parallelograms"
+        - "Properties of Trapezoids"
+    - "Perimeter and Area of Quadrilaterals":
+        "subtopics":
+        - "Perimeter of Squares"
+        - "Perimeter of Rectangles"
+        - "Perimeter of Rhombuses"
+        - "Perimeter of Parallelograms"
+        - "Perimeter of Trapezoids"
+        - "Area of Squares"
+        - "Area of Rectangles"
+        - "Area of Rhombuses"
+        - "Area of Parallelograms"
+        - "Area of Trapezoids"
+    - "Symmetry in Quadrilaterals":
+        "subtopics":
+        - "Line Symmetry in Squares"
+        - "Line Symmetry in Rectangles"
+        - "Line Symmetry in Rhombuses"
+        - "Line Symmetry in Parallelograms"
+        - "Line Symmetry in Trapezoids"
+    - "Quadrilaterals and Coordinate Geometry":
+        "subtopics":
+        - "Plotting Quadrilaterals on a Grid"
+        - "Finding Vertices of Quadrilaterals"
+        - "Determining Types of Quadrilaterals on a Grid"
+        - "Calculating Perimeter and Area on a Grid"
+        - "Symmetry of Quadrilaterals on a Grid"

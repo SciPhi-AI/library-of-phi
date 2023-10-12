@@ -1,0 +1,52 @@
+"course":
+  "Limits and Continuity: Precalculus:":
+    "topics":
+    - "Defining Limits and Using Limit Notation":
+        "subtopics":
+        - "Limits Intro"
+        - "Estimating Limit Values from Graphs"
+        - "Unbounded Limits"
+        - "One-sided Limits from Graphs"
+        - "Connecting Limits and Graphical Behavior"
+        - "Estimating Limit Values from Tables"
+    - "Determining Limits Using Algebraic Properties of Limits":
+        "subtopics":
+        - "Limit Properties"
+        - "Limits of Combined Functions"
+        - "Theorem for Limits of Composite Functions"
+        - "Limits of Composite Functions"
+        - "Limits by Direct Substitution"
+        - "Limits of Trigonometric Functions"
+        - "Limits of Piecewise Functions"
+    - "Determining Limits Using Algebraic Manipulation":
+        "subtopics":
+        - "Limits by Factoring"
+        - "Limits by Rationalizing"
+        - "Trig Limit Using Pythagorean Identity"
+        - "Trig Limit Using Double Angle Identity"
+        - "Strategy in Finding Limits"
+    - "Determining Limits Using the Squeeze Theorem":
+        "subtopics":
+        - "Squeeze Theorem Intro"
+        - "Limit of sin(x)/x as x Approaches 0"
+        - "Limit of (1-cos(x))/x as x Approaches 0"
+    - "Exploring Types of Discontinuities":
+        "subtopics":
+        - "Types of Discontinuities"
+        - "Defining Continuity at a Point"
+        - "Confirming Continuity Over an Interval"
+        - "Removing Discontinuities"
+    - "Connecting Infinite Limits and Vertical Asymptotes":
+        "subtopics":
+        - "Introduction to Infinite Limits"
+        - "Infinite Limits and Asymptotes"
+        - "Analyzing Unbounded Limits"
+    - "Connecting Limits at Infinity and Horizontal Asymptotes":
+        "subtopics":
+        - "Introduction to Limits at Infinity"
+        - "Limits at Infinity of Quotients"
+    - "Working with the Intermediate Value Theorem":
+        "subtopics":
+        - "Intermediate Value Theorem"
+        - "Worked Example: Using the Intermediate Value Theorem"
+        - "Justification with the Intermediate Value Theorem"

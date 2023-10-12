@@ -1,0 +1,24 @@
+"course":
+  "Thinking about multivariable functions: Multivariable calculus:":
+    "topics":
+    - "Introduction to multivariable calculus":
+        "subtopics":
+        - "Multivariable functions"
+        - "Visualizing scalar-valued functions"
+        - "Representing points in 3d"
+        - "Introduction to 3d graphs"
+        - "Interpreting graphs with slices"
+        - "Contour plots"
+    - "Visualizing vector-valued functions":
+        "subtopics":
+        - "Parametric curves"
+        - "Parametric surfaces"
+        - "Vector fields, introduction"
+        - "Fluid flow and vector fields"
+        - "3d vector fields, introduction"
+        - "3d vector field example"
+    - "Transformations":
+        "subtopics":
+        - "Transformations, part 1"
+        - "Transformations, part 2"
+        - "Transformations, part 3"

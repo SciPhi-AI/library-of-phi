@@ -1,0 +1,87 @@
+"course":
+  "Module 4: Polynomial and quadratic expressions, equations, and functions: Algebra 1 (Eureka Math/EngageNY):":
+    "topics":
+    - "Factoring monomials and common factor":
+        "subtopics":
+        - "Intro to factors & divisibility"
+        - "Which monomial factorization is correct?"
+        - "Worked example: finding the missing monomial factor"
+        - "Worked example: finding missing monomial side in area model"
+        - "Greatest common factor of monomials"
+        - "Factoring with the distributive property"
+        - "Taking common factor from binomial"
+        - "Taking common factor from trinomial"
+        - "Taking common factor: area model"
+        - "Factoring polynomials: common binomial factor"
+    - "Factoring binomials and special forms":
+        "subtopics":
+        - "Difference of squares intro"
+        - "Perfect square factorization intro"
+        - "Factoring quadratics as (x+a)(x+b)"
+        - "Factoring difference of squares: leading coefficient ≠ 1"
+        - "Factoring difference of squares: analyzing factorization"
+        - "Factoring difference of squares: missing values"
+        - "Factoring difference of squares: shared factors"
+        - "Factoring perfect squares"
+        - "Identifying perfect square form"
+        - "Factoring higher-degree polynomials: Common factor"
+    - "Factoring by grouping and the zero product property":
+        "subtopics":
+        - "Intro to grouping"
+        - "Factoring quadratics by grouping"
+        - "Strategy in factoring quadratics"
+        - "Zero product property"
+        - "Solving quadratics by factoring"
+        - "Solving quadratics by factoring: leading coefficient ≠ 1"
+        - "Solving quadratics using structure"
+    - "Solving basic one-variable quadratic equations and parabolas intro":
+        "subtopics":
+        - "Solving quadratics by taking square roots"
+        - "Solving quadratics by taking square roots examples"
+        - "Solving quadratics by taking square roots: with steps"
+        - "Quadratics by taking square roots: strategy"
+        - "Quadratic equations word problem: triangle dimensions"
+        - "Quadratic equations word problem: box dimensions"
+        - "Parabolas intro"
+        - "Graphing quadratics in factored form"
+        - "Quadratic word problems (factored form)"
+    - "Completing the square and the quadratic formula":
+        "subtopics":
+        - "Completing the square"
+        - "Worked example: Completing the square (intro)"
+        - "Worked example: Rewriting expressions by completing the square"
+        - "Worked example: Rewriting & solving equations by completing the square"
+        - "Worked example: completing the square (leading coefficient ≠ 1)"
+        - "Solving quadratics by completing the square: no solution"
+        - "The quadratic formula"
+        - "Using the quadratic formula"
+        - "Worked example: quadratic formula"
+        - "Worked example: quadratic formula (example 2)"
+        - "Worked example: quadratic formula (negative coefficients)"
+        - "Using the quadratic formula: number of solutions"
+        - "Proof of the quadratic formula"
+    - "Graphing quadratic equations from the vertex and standard form":
+        "subtopics":
+        - "Vertex form introduction"
+        - "Vertex & axis of symmetry of a parabola"
+        - "Graphing quadratics: vertex form"
+        - "Quadratic word problems (vertex form)"
+        - "Finding the vertex of a parabola in standard form"
+        - "Graphing quadratics: standard form"
+        - "Quadratic word problem: ball"
+        - "Forms & features of quadratic functions"
+        - "Worked examples: Forms & features of quadratic functions"
+        - "Finding features of quadratic functions"
+    - "Translating and scaling and transforming graphs":
+        "subtopics":
+        - "Intro to parabola transformations"
+        - "Shifting parabolas"
+        - "Shifting functions examples"
+        - "Graphing shifted functions"
+        - "Scaling & reflecting parabolas"
+        - "Identifying function transformations"
+        - "Identifying horizontal squash from graph"
+        - "Reflecting & compressing functions"
+        - "Transforming the square-root function"
+        - "Graphs of square-root functions"
+        - "Square-root functions & their graphs"

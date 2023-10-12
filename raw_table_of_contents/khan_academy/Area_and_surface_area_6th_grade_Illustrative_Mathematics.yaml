@@ -1,0 +1,36 @@
+"course":
+  "Area and surface area 6th grade (Illustrative Mathematics):":
+    "topics":
+    - "Reasoning to find area":
+        "subtopics":
+        - "Finding area by rearranging parts"
+    - "Area of parallelograms":
+        "subtopics":
+        - "Area of a parallelogram"
+        - "Finding height of a parallelogram"
+    - "Formula for area of a triangle":
+        "subtopics":
+        - "Area of a triangle"
+        - "Finding area of triangles"
+        - "Triangle missing side example"
+    - "Polygons":
+        "subtopics":
+        - "Area of composite shapes"
+    - "What is surface area?":
+        "subtopics":
+        - "Surface area of a box (cuboid)"
+    - "Polyhedra":
+        "subtopics":
+        - "Counting faces and edges of 3D shapes"
+        - "Recognizing common 3D shapes"
+        - "Intro to nets of polyhedra"
+    - "Nets and surface area":
+        "subtopics":
+        - "Surface area using a net: triangular prism"
+    - "More nets, more surface area":
+        "subtopics":
+        - "Surface area of a box using nets"
+        - "Surface area word problem example"
+    - "Surface area of a cube":
+        "subtopics":
+        - "Evaluating expressions with variables: cubes"

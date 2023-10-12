@@ -1,0 +1,27 @@
+"course":
+  "3D figures: Basic geometry and measurement:":
+    "topics":
+    - "Rectangular Prism Volume":
+        "subtopics":
+        - "Rectangular Prism Volume with Fractions"
+        - "Volume of a Rectangular Prism: Fractional Dimensions"
+        - "How Volume Changes from Changing Dimensions"
+        - "Volume of a Rectangular Prism: Word Problem"
+    - "Surface Area with Nets":
+        "subtopics":
+        - "Intro to Nets of Polyhedra"
+        - "Surface Area Using a Net: Triangular Prism"
+        - "Surface Area Using a Net: Rectangular Prism"
+        - "Surface Area of a Box Using Nets"
+    - "Finding Surface Area":
+        "subtopics":
+        - "Surface Area of a Box (Cuboid)"
+        - "Surface Area Word Problem Example"
+    - "Slicing Geometric Shapes":
+        "subtopics":
+        - "Slicing a Rectangular Pyramid"
+    - "Volume and Surface Area Word Problems":
+        "subtopics":
+        - "Volume Word Problem: Gold Ring"
+        - "Volume of Triangular Prism & Cube"
+        - "Volume of Rectangles Inside Rectangles"

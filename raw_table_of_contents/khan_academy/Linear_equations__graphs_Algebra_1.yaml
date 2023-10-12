@@ -1,0 +1,38 @@
+"course":
+  "Linear equations & graphs Algebra 1:":
+    "topics":
+    - "Two-variable linear equations":
+        "subtopics":
+        - "Two-variable linear equations intro"
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Completing solutions to 2-variable equations"
+    - "Slope":
+        "subtopics":
+        - "Intro to slope"
+        - "Positive & negative slope"
+        - "Worked example: slope from graph"
+        - "Graphing a line given point and slope"
+        - "Calculating slope from tables"
+        - "Worked example: slope from two points"
+    - "Horizontal & vertical lines":
+        "subtopics":
+        - "Slope of a horizontal line"
+        - "Horizontal & vertical lines"
+    - "x-intercepts and y-intercepts":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+        - "Intercepts from a table"
+    - "Applying intercepts and slope":
+        "subtopics":
+        - "Slope, x-intercept, y-intercept meaning in context"
+        - "Slope and intercept meaning in context"
+        - "Slope and intercept meaning from a table"
+        - "Finding slope and intercepts from tables"
+        - "Linear functions word problem: fuel"
+    - "Modeling with linear equations and inequalities":
+        "subtopics":
+        - "Comparing linear rates example"
+        - "Creativity break: How do you apply creativity in algebra"

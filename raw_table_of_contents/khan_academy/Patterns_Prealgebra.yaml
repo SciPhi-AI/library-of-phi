@@ -1,0 +1,19 @@
+"course":
+  "Patterns: Pre-algebra:":
+    "topics":
+    - "Math Patterns":
+        "subtopics":
+        - "Math patterns: table"
+        - "Math patterns: toothpicks"
+        - "Factors and multiples: days of the week"
+    - "Writing Expressions":
+        "subtopics":
+        - "Constructing numerical expressions"
+        - "Evaluating expressions with & without parentheses"
+        - "Translating expressions with parentheses"
+    - "Number Patterns":
+        "subtopics":
+        - "Graphing patterns on coordinate plane"
+        - "Interpreting patterns on coordinate plane"
+        - "Interpreting relationships in ordered pairs"
+        - "Graphing sequence relationships"

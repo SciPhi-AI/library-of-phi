@@ -1,0 +1,33 @@
+"course":
+  "Module 4: Connecting algebra and geometry through coordinates: Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Rectangular and triangular regions defined by inequalities":
+        "subtopics":
+        - "Intro to graphing two-variable inequalities"
+        - "Graphing two-variable inequalities"
+        - "Two-variable inequalities from their graphs"
+        - "Intro to graphing systems of inequalities"
+        - "Graphing systems of inequalities"
+    - "Perpendicular and parallel lines in the Cartesian plane":
+        "subtopics":
+        - "Parallel & perpendicular lines intro"
+        - "Parallel & perpendicular lines from graph"
+        - "Parallel lines from equation"
+        - "Parallel lines from equation (example 2)"
+        - "Parallel lines from equation (example 3)"
+        - "Perpendicular lines from equation"
+        - "Writing equations of perpendicular lines"
+        - "Writing equations of perpendicular lines (example 2)"
+        - "Proof: parallel lines have the same slope"
+        - "Proof: perpendicular lines have opposite reciprocal slopes"
+    - "Perimeters and areas of polygonal regions in the Cartesian plane":
+        "subtopics":
+        - "Area of trapezoid on the coordinate plane"
+        - "Coordinate plane word problem"
+    - "Partitioning and extending segments and parameterization of lines":
+        "subtopics":
+        - "Midpoint formula"
+        - "Dividing line segments: graphical"
+        - "Dividing line segments"
+        - "Proving triangle medians intersect at a point"
+        - "Distance between point & line"

@@ -1,0 +1,59 @@
+"course":
+  "Probability: Statistics and Probability:":
+    "topics":
+    - "Theoretical Probability":
+        "subtopics":
+        - "Basic Theoretical Probability"
+        - "Intro to Theoretical Probability"
+        - "Simple Probability: Yellow Marble"
+        - "Simple Probability: Non-blue Marble"
+        - "Intuitive Sense of Probabilities"
+        - "The Monty Hall Problem"
+        - "Probability Using Sample Spaces"
+        - "Probability with Counting Outcomes"
+        - "Example: All the Ways You Can Flip a Coin"
+    - "Set Operations in Probability":
+        "subtopics":
+        - "Die Rolling Probability"
+        - "Subsets of Sample Spaces"
+        - "Basic Set Operations"
+        - "Intersection and Union of Sets"
+        - "Relative Complement or Difference Between Sets"
+        - "Universal Set and Absolute Complement"
+        - "Subset, Strict Subset, and Superset"
+        - "Bringing the Set Operations Together"
+    - "Experimental Probability":
+        "subtopics":
+        - "Experimental Probability"
+        - "Theoretical and Experimental Probabilities"
+        - "Making Predictions with Probability"
+        - "Randomness, Probability, and Simulation"
+        - "Experimental Versus Theoretical Probability Simulation"
+        - "Random Number List to Run Experiment"
+        - "Random Numbers for Experimental Probability"
+        - "Statistical Significance of Experiment"
+    - "Addition Rule in Probability":
+        "subtopics":
+        - "Probability with Venn Diagrams"
+        - "Addition Rule for Probability"
+        - "Multiplication Rule for Independent Events"
+        - "Sample Spaces for Compound Events"
+        - "Compound Probability of Independent Events"
+        - "Probability of a Compound Event"
+        - "'At Least One' Probability with Coin Flipping"
+        - "Free-Throw Probability"
+        - "Three-Pointer vs Free-Throw Probability"
+    - "Dependent and Independent Events":
+        "subtopics":
+        - "Probability Without Equally Likely Events"
+        - "Independent Events Example: Test Taking"
+        - "Die Rolling Probability with Independent Events"
+        - "Dependent Probability Introduction"
+        - "Dependent Probability: Coins"
+        - "Dependent Probability Example"
+        - "Independent & Dependent Probability"
+        - "Conditional Probability and Independence"
+        - "Calculating Conditional Probability"
+        - "Conditional Probability Explained Visually"
+        - "Conditional Probability Tree Diagram Example"
+        - "Analyzing Event Probability for Independence"

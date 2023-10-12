@@ -1,0 +1,39 @@
+"course":
+  "Performing transformations: High school geometry:":
+    "topics":
+    - "Introduction to Geometry":
+        "subtopics":
+        - "Euclid as the Father of Geometry"
+        - "Terms & Labels in Geometry"
+        - "Geometric Definitions Example"
+    - "Introduction to Rigid Transformations":
+        "subtopics":
+        - "Rigid Transformations Intro"
+        - "Dilations Intro"
+        - "Identifying Transformations"
+    - "Translations":
+        "subtopics":
+        - "Translating Points"
+        - "Determining Translations"
+        - "Translating Shapes"
+        - "Translation Challenge Problem"
+    - "Rotations":
+        "subtopics":
+        - "Rotating Points"
+        - "Determining Rotations"
+        - "Rotating Shapes"
+    - "Reflections":
+        "subtopics":
+        - "Reflecting Points"
+        - "Determining Reflections"
+        - "Determining Reflections (Advanced)"
+        - "Reflecting Shapes"
+        - "Reflecting Shapes: Diagonal Line of Reflection"
+    - "Dilations":
+        "subtopics":
+        - "Dilating Points"
+        - "Dilations: Scale Factor"
+        - "Dilations: Center"
+        - "Dilating Shapes: Expanding"
+        - "Dilating Shapes: Shrinking"
+        - "Dilating Triangles: Find the Error"

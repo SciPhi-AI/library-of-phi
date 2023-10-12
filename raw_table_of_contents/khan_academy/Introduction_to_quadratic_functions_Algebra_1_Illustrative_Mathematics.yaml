@@ -1,0 +1,28 @@
+"course":
+  "Introduction to quadratic functions Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Intro to quadratics & parabolas":
+        "subtopics":
+        - "Parabolas intro"
+        - "Interpreting a parabola in context"
+    - "Equivalent quadratic expressions":
+        "subtopics":
+        - "Multiply monomials by polynomials: Area model"
+        - "Multiplying binomials: area model"
+        - "Multiplying binomials intro"
+        - "Multiplying binomials"
+    - "Graphing from the factored form":
+        "subtopics":
+        - "Graphing quadratics in factored form"
+        - "Graphs that represent situations"
+        - "Interpret a quadratic graph"
+        - "Quadratic word problems (factored form)"
+    - "Graphing from the vertex form":
+        "subtopics":
+        - "Vertex form introduction"
+        - "Graphing quadratics: vertex form"
+    - "Changing the vertex":
+        "subtopics":
+        - "Intro to parabola transformations"
+        - "Shifting parabolas"
+        - "Scaling & reflecting parabolas"

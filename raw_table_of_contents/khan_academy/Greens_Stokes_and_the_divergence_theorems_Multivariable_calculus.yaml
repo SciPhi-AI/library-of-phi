@@ -1,0 +1,42 @@
+"course":
+  "Green's, Stokes', and the divergence theorems: Multivariable calculus:":
+    "topics":
+    - "Green's Theorem":
+        "subtopics":
+        - "Green's theorem proof (part 1)"
+        - "Green's theorem proof (part 2)"
+        - "Green's theorem example 1"
+        - "Green's theorem example 2"
+        - "2D divergence theorem"
+    - "Constructing a Unit Normal Vector to a Curve":
+        "subtopics":
+        - "2D divergence theorem"
+        - "Conceptual clarification for 2D divergence theorem"
+        - "Stokes' theorem"
+        - "Stokes' theorem intuition"
+        - "Green's and Stokes' theorem relationship"
+        - "Orienting boundary with surface"
+        - "Orientation and stokes"
+        - "Conditions for stokes theorem"
+        - "Stokes example part 1"
+        - "Stokes example part 2"
+    - "3D Divergence Theorem":
+        "subtopics":
+        - "3D divergence theorem intuition"
+        - "Divergence theorem example 1"
+        - "Explanation of example 1"
+        - "Proof of Stokes' theorem"
+        - "Stokes' theorem proof part 1"
+        - "Stokes' theorem proof part 2"
+    - "Types of Regions in Three Dimensions":
+        "subtopics":
+        - "Type I regions in three dimensions"
+        - "Type II regions in three dimensions"
+        - "Type III regions in three dimensions"
+    - "Divergence Theorem Proof":
+        "subtopics":
+        - "Divergence theorem proof (part 1)"
+        - "Divergence theorem proof (part 2)"
+        - "Divergence theorem proof (part 3)"
+        - "Divergence theorem proof (part 4)"
+        - "Divergence theorem proof (part 5)"

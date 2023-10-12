@@ -1,0 +1,29 @@
+"course":
+  "Exponents & Radicals Algebra 1:":
+    "topics":
+    - "Exponent Properties":
+        "subtopics":
+        - "Exponent Properties Review"
+        - "Multiplying & Dividing Powers (Integer Exponents)"
+        - "Powers of Products & Quotients (Integer Exponents)"
+    - "Understanding Radicals":
+        "subtopics":
+        - "Introduction to Radicals"
+        - "Understanding Square Roots"
+        - "Square Root of Decimal"
+    - "Square Roots":
+        "subtopics":
+        - "Introduction to Square Roots"
+        - "Understanding Square Roots"
+        - "Square Root of Decimal"
+    - "Cube Roots":
+        "subtopics":
+        - "Introduction to Cube Roots"
+    - "5th Roots":
+        "subtopics":
+        - "Introduction to 5th Roots"
+    - "Simplifying Square Roots":
+        "subtopics":
+        - "Simplifying Square Roots"
+        - "Simplifying Square Roots (Variables)"
+        - "Simplifying Square-Root Expressions"

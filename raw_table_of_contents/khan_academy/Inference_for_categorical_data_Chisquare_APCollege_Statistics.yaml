@@ -1,0 +1,33 @@
+"course":
+  "Inference for categorical data Chi-square AP®︎/College Statistics:":
+    "topics":
+    - "Chi-square test for goodness of fit":
+        "subtopics":
+        - "Understanding Chi-square test"
+        - "Application of Chi-square test"
+        - "Chi-square test example"
+    - "Chi-square statistic for hypothesis testing":
+        "subtopics":
+        - "Introduction to hypothesis testing"
+        - "Chi-square statistic in hypothesis testing"
+        - "Hypothesis testing example"
+    - "Chi-square goodness-of-fit example":
+        "subtopics":
+        - "Understanding goodness-of-fit"
+        - "Chi-square goodness-of-fit example"
+        - "Application of goodness-of-fit"
+    - "Chi square tests for relationships":
+        "subtopics":
+        - "Understanding relationships in Chi-square tests"
+        - "Chi-square tests for homogeneity"
+        - "Chi-square tests for independence"
+    - "Introduction to the chi-square test for homogeneity":
+        "subtopics":
+        - "Understanding homogeneity in Chi-square tests"
+        - "Application of Chi-square test for homogeneity"
+        - "Chi-square test for homogeneity example"
+    - "Chi-square test for association":
+        "subtopics":
+        - "Understanding association in Chi-square tests"
+        - "Application of Chi-square test for association"
+        - "Chi-square test for association example"

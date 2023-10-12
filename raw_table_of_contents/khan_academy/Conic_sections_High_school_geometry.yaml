@@ -1,0 +1,24 @@
+"course":
+  "Conic sections: High school geometry:":
+    "topics":
+    - "Introduction to Conic Sections":
+        "subtopics":
+        - "Understanding Conic Sections"
+        - "Features of Conic Sections"
+    - "Graphing Circles":
+        "subtopics":
+        - "Graphing Circles from Features"
+        - "Features of a Circle from its Graph"
+        - "Standard Equation of a Circle"
+        - "Features of a Circle from its Standard Equation"
+        - "Graphing a Circle from its Standard Equation"
+    - "Writing Standard Equation of a Circle":
+        "subtopics":
+        - "Writing Standard Equation of a Circle"
+        - "Expanded Equation of a Circle"
+        - "Features of a Circle from its Expanded Equation"
+    - "Understanding Parabolas":
+        "subtopics":
+        - "Focus and Directrix of a Parabola"
+        - "Introduction to Focus & Directrix"
+        - "Equation of a Parabola from Focus & Directrix"

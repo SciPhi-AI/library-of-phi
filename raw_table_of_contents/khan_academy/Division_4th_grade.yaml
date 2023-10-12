@@ -1,0 +1,27 @@
+"course":
+  "Division 4th grade:":
+    "topics":
+    - "Estimating Division":
+        "subtopics":
+        - "Estimating division that results in non-whole numbers"
+        - "Introduction to remainders"
+        - "Divide multiples of 10, 100, and 1,000 by 1-digit numbers"
+        - "Quotients that are multiples of 10"
+    - "Division with Place Value":
+        "subtopics":
+        - "Division with place value"
+        - "Division using place value"
+    - "Division with Area Models":
+        "subtopics":
+        - "Division with area models"
+        - "Estimating quotients"
+    - "Multi-digit Division with Partial Quotients":
+        "subtopics":
+        - "Introduction to division with partial quotients (no remainder)"
+        - "Division with partial quotients (remainder)"
+        - "Intro to long division (no remainders)"
+    - "Multiplication, Division Word Problems":
+        "subtopics":
+        - "Division word problem: field goals"
+        - "Multiplication word problem: pizza"
+        - "2-step estimation word problem"

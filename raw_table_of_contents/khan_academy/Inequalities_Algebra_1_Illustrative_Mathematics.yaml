@@ -1,0 +1,33 @@
+"course":
+  "Inequalities Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Writing & Solving Inequalities in One Variable":
+        "subtopics":
+        - "One-step Inequality Word Problem"
+        - "Two-step Inequalities"
+        - "Two-step Inequality Word Problem: Apples"
+        - "Two-step Inequality Word Problem: R&B"
+        - "Using Inequalities to Solve Problems"
+    - "Graphing Linear Inequalities in Two Variables":
+        "subtopics":
+        - "Testing Solutions to Inequalities"
+        - "Intro to Graphing Two-variable Inequalities"
+        - "Graphing Two-variable Inequalities"
+        - "Two-variable Inequalities from Their Graphs"
+    - "Solving Problems with Inequalities in Two Variables":
+        "subtopics":
+        - "Writing Two-variable Inequalities Word Problem"
+        - "Solving Two-variable Inequalities Word Problem"
+        - "Interpreting Two-variable Inequalities Word Problem"
+    - "Solutions to Systems of Linear Inequalities in Two Variables":
+        "subtopics":
+        - "Testing Solutions to Systems of Inequalities"
+        - "Intro to Graphing Systems of Inequalities"
+        - "Graphing Systems of Inequalities"
+    - "Solving Problems with Systems of Linear Inequalities in Two Variables":
+        "subtopics":
+        - "Modeling with Systems of Inequalities"
+        - "Writing Systems of Inequalities Word Problem"
+        - "Solving Systems of Inequalities Word Problem"
+        - "Graphs of Systems of Inequalities Word Problem"
+        - "Graphs of Two-variable Inequalities Word Problem"

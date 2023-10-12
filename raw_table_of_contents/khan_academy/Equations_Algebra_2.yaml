@@ -1,0 +1,33 @@
+"course":
+  "Equations: Algebra 2:":
+    "topics":
+    - "Rational Equations":
+        "subtopics":
+        - "Rational Equations Introduction"
+        - "Equations with Rational Expressions"
+        - "Equations with Rational Expressions Example 2"
+        - "Finding Inverses of Rational Functions"
+    - "Square-root Equations":
+        "subtopics":
+        - "Introduction to Square-root Equations & Extraneous Solutions"
+        - "Square-root Equations Introduction"
+        - "Solving Square-root Equations: One Solution"
+        - "Solving Square-root Equations: Two Solutions"
+        - "Solving Square-root Equations: No Solution"
+    - "Extraneous Solutions":
+        "subtopics":
+        - "Extraneous Solutions Introduction"
+        - "Equation that has a Specific Extraneous Solution"
+    - "Cube-root Equations":
+        "subtopics":
+        - "Solving Cube-root Equations"
+    - "Quadratic Systems":
+        "subtopics":
+        - "Quadratic Systems: A Line and a Parabola"
+        - "Quadratic Systems: A Line and a Circle"
+        - "Quadratic System with No Solutions"
+    - "Solving Equations by Graphing":
+        "subtopics":
+        - "Solving Equations by Graphing Introduction"
+        - "Solving Equations by Graphing: Graphing Calculator"
+        - "Solving Equations by Graphing: Word Problems"

@@ -1,0 +1,42 @@
+"course":
+  "Geometry 8th grade:":
+    "topics":
+    - "Intersecting Lines and Angles":
+        "subtopics":
+        - "Angles between intersecting lines"
+        - "Angles, parallel lines, & transversals"
+        - "Parallel & perpendicular lines"
+        - "Missing angles with a transversal"
+        - "Measures of angles formed by a transversal"
+    - "Triangle Angles":
+        "subtopics":
+        - "Angles in a triangle sum to 180° proof"
+        - "Isosceles & equilateral triangles problems"
+        - "Triangle exterior angle example"
+        - "Worked example: Triangle angles (intersecting lines)"
+        - "Worked example: Triangle angles (diagram)"
+        - "Triangle angle challenge problem"
+        - "Triangle angle challenge problem 2"
+    - "Pythagorean Theorem":
+        "subtopics":
+        - "Intro to the Pythagorean theorem"
+        - "Pythagorean theorem example"
+        - "Pythagorean theorem with isosceles triangle"
+        - "Pythagorean theorem application"
+        - "Use Pythagorean theorem to find area of an isosceles triangle"
+        - "Pythagorean theorem word problem: carpet"
+        - "Pythagorean theorem word problem: fishing boat"
+        - "Pythagorean theorem in 3D"
+        - "Pythagorean theorem and distance between points"
+        - "Distance formula"
+    - "Pythagorean Theorem Proofs":
+        "subtopics":
+        - "Garfield's proof of the Pythagorean theorem"
+        - "Bhaskara's proof of the Pythagorean theorem"
+        - "Pythagorean theorem proof using similarity"
+        - "Another Pythagorean theorem proof"
+    - "Volume":
+        "subtopics":
+        - "Cylinder volume & surface area"
+        - "Volume of a sphere"
+        - "Volume of a cone"

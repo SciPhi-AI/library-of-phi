@@ -1,0 +1,54 @@
+"course":
+  "Trigonometric functions Trigonometry:":
+    "topics":
+    - "Unit circle":
+        "subtopics":
+        - "The trig functions & right triangle trig ratios"
+        - "Radians"
+        - "Intro to radians"
+        - "Radians & degrees"
+        - "Degrees to radians"
+        - "Radians to degrees"
+        - "Radian angles & quadrants"
+    - "The Pythagorean identity":
+        "subtopics":
+        - "Proof of the Pythagorean trig identity"
+        - "Using the Pythagorean trig identity"
+    - "Special trigonometric values in the first quadrant":
+        "subtopics":
+        - "Cosine, sine and tangent of π/6 and π/3"
+        - "Trig values of π/4"
+    - "Trigonometric values on the unit circle":
+        "subtopics":
+        - "Sine & cosine identities: symmetry"
+        - "Tangent identities: symmetry"
+        - "Sine & cosine identities: periodicity"
+        - "Tangent identities: periodicity"
+    - "Graphs of sin(x), cos(x), and tan(x)":
+        "subtopics":
+        - "Graph of y=sin(x)"
+        - "Intersection points of y=sin(x) and y=cos(x)"
+        - "Graph of y=tan(x)"
+    - "Amplitude, midline, and period":
+        "subtopics":
+        - "Features of sinusoidal functions"
+    - "Transforming sinusoidal graphs":
+        "subtopics":
+        - "Amplitude & period of sinusoidal functions from equation"
+        - "Transforming sinusoidal graphs: vertical stretch & horizontal reflection"
+        - "Transforming sinusoidal graphs: vertical & horizontal stretches"
+    - "Graphing sinusoidal functions":
+        "subtopics":
+        - "Example: Graphing y=3⋅sin(½⋅x)-2"
+        - "Example: Graphing y=-cos(π⋅x)+1.5"
+        - "Sinusoidal function from graph"
+    - "Sinusoidal models":
+        "subtopics":
+        - "Interpreting trigonometric graphs in context"
+        - "Trig word problem: modeling daily temperature"
+        - "Trig word problem: modeling annual temperature"
+        - "Trig word problem: length of day (phase shift)"
+    - "Long live Tau":
+        "subtopics":
+        - "Tau versus pi"
+        - "Pi is (still) wrong"

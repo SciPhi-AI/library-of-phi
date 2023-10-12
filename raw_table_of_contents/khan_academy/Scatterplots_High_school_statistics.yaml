@@ -1,0 +1,21 @@
+"course":
+  "Scatterplots: High school statistics:":
+    "topics":
+    - "Understanding Scatterplots":
+        "subtopics":
+        - "Fitting Trend Lines to Scatterplots"
+        - "Bivariate Relationship Linearity, Strength and Direction"
+        - "Estimating the Line of Best Fit"
+        - "Line of Best Fit: Smoking in 1945"
+        - "Analyzing Trend Lines in Scatterplots"
+    - "Interpreting Regression Lines":
+        "subtopics":
+        - "Interpreting Slope of Regression Line"
+        - "Interpreting Y-intercept in Regression Model"
+        - "Example: Correlation Coefficient Intuition"
+        - "Correlation and Causality"
+    - "Understanding Residuals":
+        "subtopics":
+        - "Introduction to Residuals and Least-squares Regression"
+        - "Calculating Residual Example"
+        - "Residual Plots"

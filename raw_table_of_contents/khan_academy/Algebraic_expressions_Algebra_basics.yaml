@@ -1,0 +1,31 @@
+"course":
+  "Algebraic expressions: Algebra basics:":
+    "topics":
+    - "Introduction to variables":
+        "subtopics":
+        - "What is a variable?"
+        - "Why aren't we using the multiplication sign?"
+        - "Evaluating an expression with one variable"
+    - "Substitution & evaluating expressions":
+        "subtopics":
+        - "Evaluating expressions with two variables"
+    - "Writing algebraic expressions":
+        "subtopics":
+        - "Writing basic expressions with variables"
+        - "Writing expressions with variables"
+        - "Writing expressions with variables & parentheses"
+    - "Combining like terms":
+        "subtopics":
+        - "Intro to combining like terms"
+        - "Combining like terms with negative coefficients & distribution"
+        - "Combining like terms with negative coefficients"
+        - "Combining like terms with rational coefficients"
+    - "Distributive property":
+        "subtopics":
+        - "Distributive property with variables"
+    - "Equivalent algebraic expressions":
+        "subtopics":
+        - "Equivalent expressions"
+    - "Nested fractions":
+        "subtopics":
+        - "Nested fractions"

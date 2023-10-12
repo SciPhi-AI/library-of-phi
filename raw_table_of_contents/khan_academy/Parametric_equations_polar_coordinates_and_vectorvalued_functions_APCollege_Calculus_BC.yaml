@@ -1,0 +1,35 @@
+"course":
+  "Parametric equations, polar coordinates, and vector-valued functions AP®︎/College Calculus BC:":
+    "topics":
+    - "Defining and differentiating parametric equations":
+        "subtopics":
+        - "Parametric equations intro"
+        - "Parametric equations differentiation"
+        - "Second derivatives of parametric equations"
+        - "Parametric curve arc length"
+        - "Worked example: Parametric arc length"
+    - "Defining and differentiating vector-valued functions":
+        "subtopics":
+        - "Vector-valued functions intro"
+        - "Vector-valued functions differentiation"
+        - "Second derivatives (vector-valued functions)"
+    - "Solving motion problems using parametric and vector-valued functions":
+        "subtopics":
+        - "Planar motion example: acceleration vector"
+        - "Motion along a curve: finding rate of change"
+        - "Motion along a curve: finding velocity magnitude"
+        - "Planar motion (with integrals)"
+    - "Defining polar coordinates and differentiating in polar form":
+        "subtopics":
+        - "Polar functions derivatives"
+        - "Worked example: differentiating polar functions"
+    - "Finding the area of a polar region or the area bounded by a single polar curve":
+        "subtopics":
+        - "Area bounded by polar curves"
+        - "Worked example: Area enclosed by cardioid"
+    - "Finding the area of the region bounded by two polar curves":
+        "subtopics":
+        - "Worked example: Area between two polar graphs"
+    - "Calculator-active practice":
+        "subtopics":
+        - "Evaluating definite integral with calculator"

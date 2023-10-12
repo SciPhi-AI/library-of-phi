@@ -1,0 +1,27 @@
+"course":
+  "Angles, triangles, and prisms 7th grade (Illustrative Mathematics):":
+    "topics":
+    - "Relationships of angles":
+        "subtopics":
+        - "Angles: introduction"
+    - "Adjacent angles":
+        "subtopics":
+        - "Complementary & supplementary angles"
+        - "Vertical angles"
+    - "Using equations to solve for unknown angles":
+        "subtopics":
+        - "Equation practice with complementary angles"
+        - "Equation practice with supplementary angles"
+    - "Building polygons (part 2)":
+        "subtopics":
+        - "Construct a triangle with constraints"
+        - "Triangle inequality theorem"
+    - "Drawing triangles (part 2)":
+        "subtopics":
+        - "Construct a right isosceles triangle"
+    - "Slicing solids":
+        "subtopics":
+        - "Slicing a rectangular pyramid"
+    - "Volume of right prisms":
+        "subtopics":
+        - "Volume of triangular prism & cube"

@@ -1,0 +1,54 @@
+"course":
+  "Functions and Linear Models: Pre-algebra:":
+    "topics":
+    - "Functions":
+        "subtopics":
+        - "What is a Function?"
+        - "Evaluating Functions from Equation"
+        - "Function Notation Example"
+        - "Evaluating Functions from Graph"
+        - "Equations vs. Functions"
+        - "Manipulating Formulas: Temperature"
+        - "Obtaining a Function from an Equation"
+    - "Linear Models":
+        "subtopics":
+        - "Linear Graphs Word Problems"
+        - "Linear Graphs Word Problem: Cats"
+        - "Linear Equations Word Problems: Volcano"
+        - "Linear Equations Word Problems: Earnings"
+        - "Modeling with Linear Equations: Snow"
+        - "Linear Function Example: Spending Money"
+        - "Fitting a Line to Data"
+    - "Comparing Linear Functions":
+        "subtopics":
+        - "Comparing Linear Functions: Equation vs. Graph"
+        - "Comparing Linear Functions: Same Rate of Change"
+        - "Comparing Linear Functions: Faster Rate of Change"
+        - "Comparing Linear Functions Word Problem: Climb"
+        - "Comparing Linear Functions Word Problem: Walk"
+        - "Comparing Linear Functions Word Problem: Work"
+    - "Constructing Linear Models for Real-world Relationships":
+        "subtopics":
+        - "Linear Functions Word Problem: Fuel"
+        - "Linear Functions Word Problem: Pool"
+        - "Modeling with Linear Equations: Gym Membership & Lemonade"
+        - "Linear Functions Word Problem: Iceberg"
+        - "Linear Functions Word Problem: Paint"
+    - "Recognizing Functions":
+        "subtopics":
+        - "Testing if a Relationship is a Function"
+        - "Relations and Functions"
+        - "Recognizing Functions from Graph"
+        - "Checking if a Table Represents a Function"
+        - "Recognizing Functions from Table"
+        - "Checking if an Equation Represents a Function"
+        - "Does a Vertical Line Represent a Function?"
+        - "Recognizing Functions from Verbal Description"
+        - "Recognizing Functions from Verbal Description Word Problem"
+    - "Linear and Nonlinear Functions":
+        "subtopics":
+        - "Recognizing Linear Functions"
+        - "Linear & Nonlinear Functions: Table"
+        - "Linear & Nonlinear Functions: Word Problem"
+        - "Linear & Nonlinear Functions: Missing Value"
+        - "Interpreting a Graph Example"

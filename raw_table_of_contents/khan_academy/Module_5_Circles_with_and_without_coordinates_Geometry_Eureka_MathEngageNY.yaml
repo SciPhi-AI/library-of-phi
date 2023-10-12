@@ -1,0 +1,49 @@
+"course":
+  "Module 5 Circles with and without coordinates Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Central and inscribed angles":
+        "subtopics":
+        - "Inscribed angles"
+        - "Inscribed angle theorem proof"
+        - "Proof: Right triangles inscribed in circles"
+        - "Inscribed shapes: find diameter"
+        - "Inscribed shapes: angle subtended by diameter"
+        - "Inscribed shapes: find inscribed angle"
+        - "Inscribed quadrilaterals proof"
+        - "Solving inscribed quadrilaterals"
+        - "Geometric constructions: circle-inscribed square"
+        - "Geometric constructions: circle-inscribed equilateral triangle"
+        - "Geometric constructions: circle-inscribed regular hexagon"
+        - "Proof: radius is perpendicular to a chord it bisects"
+        - "Proof: perpendicular radius bisects chord"
+    - "Lessons  7-8: Angles and arcs":
+        "subtopics":
+        - "Intro to arc measure"
+        - "Finding arc measures"
+        - "Finding arc measures with equations"
+    - "Lessons 9-10: Arc length and sector area":
+        "subtopics":
+        - "Arc length from subtended angle"
+        - "Subtended angle from arc length"
+        - "Intro to radians"
+        - "Radians & degrees"
+        - "Degrees to radians"
+        - "Radians to degrees"
+        - "Arc length as fraction of circumference"
+        - "Arc length from subtended angle: radians"
+        - "Area of a sector"
+    - "Secants and tangents":
+        "subtopics":
+        - "Proof: Radius is perpendicular to tangent line"
+        - "Proof: Segments tangent to circle from outside point are congruent"
+        - "Tangents of circles problem (example 1)"
+        - "Tangents of circles problem (example 2)"
+        - "Tangents of circles problem (example 3)"
+        - "Geometric constructions: circle tangent"
+        - "Geometric constructions: circle tangent (example 2)"
+    - "Equations for circles and their tangents":
+        "subtopics":
+        - "Features of a circle from its standard equation"
+        - "Graphing a circle from its standard equation"
+        - "Writing standard equation of a circle"
+        - "Features of a circle from its expanded equation"

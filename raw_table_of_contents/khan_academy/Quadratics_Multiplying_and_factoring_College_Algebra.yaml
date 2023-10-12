@@ -1,0 +1,39 @@
+"course":
+  "Quadratics Multiplying and factoring College Algebra:":
+    "topics":
+    - "Multiplying Binomials":
+        "subtopics":
+        - "Multiplying binomials: area model"
+        - "Multiplying binomials intro"
+        - "Multiplying binomials"
+    - "Special Products of Binomials":
+        "subtopics":
+        - "Special products of the form (x+a)(x-a)"
+        - "Squaring binomials of the form (x+a)²"
+        - "Special products of the form (ax+b)(ax-b)"
+        - "Squaring binomials of the form (ax+b)²"
+    - "Factoring Quadratics Intro":
+        "subtopics":
+        - "Factoring quadratics as (x+a)(x+b)"
+        - "Factoring quadratics as (x+a)(x+b) (example 2)"
+        - "More examples of factoring quadratics as (x+a)(x+b)"
+        - "Factoring completely with a common factor"
+    - "Factoring Quadratics by Grouping":
+        "subtopics":
+        - "Intro to grouping"
+        - "Factoring quadratics by grouping"
+        - "Factoring quadratics: common factor + grouping"
+        - "Factoring quadratics: negative common factor + grouping"
+    - "Factoring Quadratics with Difference of Squares":
+        "subtopics":
+        - "Difference of squares intro"
+        - "Factoring difference of squares: leading coefficient ≠ 1"
+        - "Factoring difference of squares: analyzing factorization"
+        - "Factoring difference of squares: shared factors"
+    - "Factoring Quadratics with Perfect Squares":
+        "subtopics":
+        - "Perfect square factorization intro"
+        - "Factoring perfect squares"
+        - "Identifying perfect square form"
+        - "Factoring perfect squares: negative common factor"
+        - "Factoring perfect squares: missing values"

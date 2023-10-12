@@ -1,0 +1,29 @@
+"course":
+  "Polynomial arithmetic: College Algebra:":
+    "topics":
+    - "Average rate of change of polynomials":
+        "subtopics":
+        - "Finding average rate of change of polynomials"
+        - "Sign of average rate of change of polynomials"
+    - "Adding and subtracting polynomials":
+        "subtopics":
+        - "Adding polynomials"
+        - "Subtracting polynomials"
+        - "Polynomial subtraction"
+    - "Taking common factors":
+        "subtopics":
+        - "Introduction to factoring higher degree polynomials"
+        - "Taking common factor from binomial"
+        - "Taking common factor from trinomial"
+        - "Taking common factor: area model"
+    - "Factoring higher degree polynomials":
+        "subtopics":
+        - "Factoring higher degree polynomials"
+        - "Factoring higher-degree polynomials: Common factor"
+    - "Factoring using structure":
+        "subtopics":
+        - "Creativity break: How can we combine ways of thinking in problem solving?"
+        - "Identifying quadratic patterns"
+        - "Factorization with substitution"
+        - "Factoring using the perfect square pattern"
+        - "Factoring using the difference of squares pattern"

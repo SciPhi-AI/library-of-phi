@@ -1,0 +1,29 @@
+"course":
+  "Analyzing a single quantitative variable High school statistics:":
+    "topics":
+    - "Standard Deviation":
+        "subtopics":
+        - "Information"
+        - "Sample Variance"
+        - "Sample Standard Deviation and Bias"
+        - "Visually Assessing Standard Deviation"
+        - "Mean and Standard Deviation versus Median and IQR"
+    - "Comparing Distributions":
+        "subtopics":
+        - "Example: Comparing Distributions"
+    - "Percentiles and Z-scores":
+        "subtopics":
+        - "Calculating Percentile"
+        - "Z-score Introduction"
+        - "Comparing with Z-scores"
+    - "Normal Distributions and the Empirical Rule":
+        "subtopics":
+        - "Qualitative Sense of Normal Distributions"
+        - "Normal Distribution Problems: Empirical Rule"
+    - "Normal Distribution Calculations":
+        "subtopics":
+        - "Standard Normal Table for Proportion Below"
+        - "Standard Normal Table for Proportion Above"
+        - "Standard Normal Table for Proportion Between Values"
+        - "Finding Z-score for a Percentile"
+        - "Threshold for Low Percentile"

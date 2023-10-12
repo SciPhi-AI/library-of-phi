@@ -1,0 +1,49 @@
+"course":
+  "Module 1: Foundations: 3rd grade foundations (Eureka Math/EngageNY):":
+    "topics":
+    - "Topic A: Foundations":
+        "subtopics":
+        - "Understanding Numbers"
+        - "Place Value"
+        - "Addition Basics"
+        - "Subtraction Basics"
+        - "Number Patterns"
+        - "Problem Solving"
+    - "Topic B: Foundations":
+        "subtopics":
+        - "Repeated Addition: Haircuts"
+        - "Addition Word Problem: Horses"
+        - "Subtraction Word Problem: Crayons"
+        - "Understanding Multiplication"
+        - "Understanding Division"
+        - "Word Problems"
+    - "Topic C: Foundations":
+        "subtopics":
+        - "Fractions Basics"
+        - "Comparing Fractions"
+        - "Adding and Subtracting Fractions"
+        - "Multiplying Fractions"
+        - "Dividing Fractions"
+        - "Fraction Word Problems"
+    - "Topic D: Foundations":
+        "subtopics":
+        - "Geometry Basics"
+        - "Shapes and Their Attributes"
+        - "Area and Perimeter"
+        - "Volume"
+        - "Angles"
+        - "Coordinate Geometry"
+    - "Topic E: Foundations":
+        "subtopics":
+        - "Measurement Basics"
+        - "Length, Weight, and Capacity"
+        - "Time and Temperature"
+        - "Converting Units"
+        - "Word Problems"
+    - "Topic F: Foundations":
+        "subtopics":
+        - "Data Analysis Basics"
+        - "Graphs and Charts"
+        - "Probability"
+        - "Statistics"
+        - "Word Problems"

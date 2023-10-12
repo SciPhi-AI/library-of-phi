@@ -1,0 +1,41 @@
+"course":
+  "Data and Statistics 6th Grade:":
+    "topics":
+    - "Statistical Questions":
+        "subtopics":
+        - "Understanding Statistical Questions"
+        - "Representing Data"
+        - "Frequency Tables and Dot Plots"
+    - "Histograms":
+        "subtopics":
+        - "Creating a Histogram"
+        - "Interpreting a Histogram"
+    - "Mean and Median":
+        "subtopics":
+        - "Introduction to Mean, Median, and Mode"
+        - "Mean and Median Examples"
+        - "Mean and Median Challenge Problems"
+        - "Impact on Median and Mean: Removing an Outlier"
+        - "Impact on Median and Mean: Increasing an Outlier"
+    - "Interquartile Range (IQR)":
+        "subtopics":
+        - "Median and Range Puzzlers"
+        - "Understanding Interquartile Range (IQR)"
+    - "Box Plots":
+        "subtopics":
+        - "Reading Box Plots"
+        - "Constructing a Box Plot"
+        - "Worked Example: Creating a Box Plot with Odd Number of Data Points"
+        - "Worked Example: Creating a Box Plot with Even Number of Data Points"
+        - "Interpreting Box Plots"
+    - "Mean Absolute Deviation (MAD)":
+        "subtopics":
+        - "Understanding Mean Absolute Deviation (MAD)"
+        - "Mean Absolute Deviation Example"
+    - "Comparing Data Displays":
+        "subtopics":
+        - "Comparing Dot Plots, Histograms, and Box Plots"
+    - "Shape of Data Distributions":
+        "subtopics":
+        - "Understanding Shapes of Distributions"
+        - "Clusters, Gaps, Peaks and Outliers"

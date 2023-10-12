@@ -1,0 +1,40 @@
+"course":
+  "8th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Integer exponents and scientific notation":
+        "subtopics":
+        - "Exponential notation and properties of integer exponents"
+        - "Magnitude and scientific notation"
+    - "The concept of congruence":
+        "subtopics":
+        - "Definitions and properties of the basic rigid motions"
+        - "Sequencing the basic rigid motions"
+        - "Congruence and angle relationships"
+        - "The Pythagorean theorem"
+    - "Similarity":
+        "subtopics":
+        - "Dilation"
+        - "Similar figures"
+        - "The Pythagorean theorem"
+    - "Linear equations":
+        "subtopics":
+        - "Writing and solving linear equations"
+        - "Linear equations in two variables and their graphs"
+        - "Slope and equations of lines"
+        - "Systems of linear equations and their solutions"
+    - "Examples of functions from geometry":
+        "subtopics":
+        - "Functions"
+        - "Volume"
+    - "Linear functions":
+        "subtopics":
+        - "Linear functions"
+        - "Bivariate numerical data"
+        - "Linear and nonlinear models"
+        - "Bivariate categorical data"
+    - "Introduction to irrational numbers using geometry":
+        "subtopics":
+        - "Square and cube roots"
+        - "Decimal expansions of numbers"
+        - "The Pythagorean theorem"
+        - "Applications of radicals and roots"

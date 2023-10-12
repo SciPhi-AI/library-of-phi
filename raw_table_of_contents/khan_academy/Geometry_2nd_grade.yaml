@@ -1,0 +1,38 @@
+"course":
+  "Geometry 2nd grade:":
+    "topics":
+    - "Recognizing shapes":
+        "subtopics":
+        - "Basic Shapes"
+        - "Complex Shapes"
+        - "Shape Identification"
+        - "Shape Comparison"
+        - "Shape Sorting"
+    - "Cousin Fal's shape collection":
+        "subtopics":
+        - "Collection Overview"
+        - "Shape Classification"
+        - "Shape Properties"
+        - "Shape Arrangement"
+        - "Shape Analysis"
+    - "Shapes and angles":
+        "subtopics":
+        - "Angle Measurement"
+        - "Angle Types"
+        - "Angle Properties"
+        - "Shape and Angle Relationship"
+        - "Angle Calculation"
+    - "Equal parts of shapes":
+        "subtopics":
+        - "Shape Division"
+        - "Equal Part Identification"
+        - "Shape Partitioning"
+        - "Partition Analysis"
+        - "Partition Comparison"
+    - "Partition rectangles":
+        "subtopics":
+        - "Rectangle Division"
+        - "Rectangle Partitioning"
+        - "Partition Identification"
+        - "Partition Comparison"
+        - "Partition Analysis"

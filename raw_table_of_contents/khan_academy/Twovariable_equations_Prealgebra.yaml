@@ -1,0 +1,47 @@
+"course":
+  "Two-variable equations: Pre-algebra:":
+    "topics":
+    - "Graphing proportional relationships":
+        "subtopics":
+        - "Rates & proportional relationships example"
+        - "Rates & proportional relationships: gas mileage"
+        - "Graphing proportional relationships from a table"
+        - "Graphing proportional relationships from an equation"
+    - "Solutions to linear equations":
+        "subtopics":
+        - "Intro to the coordinate plane"
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Completing solutions to 2-variable equations"
+    - "Intercepts":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+        - "Intercepts from a table"
+        - "Worked example: intercepts from an equation"
+    - "Slope":
+        "subtopics":
+        - "Intro to slope"
+        - "Slope & direction of a line"
+        - "Positive & negative slope"
+        - "Worked example: slope from graph"
+        - "Slope of a line: negative slope"
+        - "Worked example: slope from two points"
+        - "Slope from equation"
+        - "Converting to slope-intercept form"
+        - "Slope of a horizontal line"
+    - "Intro to slope-intercept form":
+        "subtopics":
+        - "Intro to slope-intercept form"
+        - "Worked examples: slope-intercept intro"
+    - "Graphing slope-intercept form":
+        "subtopics":
+        - "Graph from slope-intercept equation"
+    - "Writing slope-intercept equations":
+        "subtopics":
+        - "Slope-intercept equation from graph"
+        - "Slope-intercept equation from slope & point"
+        - "Slope-intercept equation from two points"
+        - "Slope-intercept form problems"
+        - "Slope-intercept form from a table"
