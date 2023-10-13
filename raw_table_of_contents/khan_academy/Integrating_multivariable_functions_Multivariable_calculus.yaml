@@ -1,0 +1,58 @@
+"course":
+  "Integrating multivariable functions: Multivariable calculus:":
+    "topics":
+    - "Line integrals for scalar functions":
+        "subtopics":
+        - "Introduction to the line integral"
+        - "Line integral example 1"
+        - "Line integral example 2 (part 1)"
+        - "Line integral example 2 (part 2)"
+    - "Line integrals in vector fields":
+        "subtopics":
+        - "Line integrals and vector fields"
+        - "Using a line integral to find work"
+        - "Parametrization of a reverse path"
+        - "Scalar field line integral independent of path direction"
+        - "Vector field line integrals dependent on path direction"
+        - "Path independence for line integrals"
+        - "Closed curve line integrals of conservative vector fields"
+        - "Example of closed line integral of conservative field"
+        - "Second example of line integral of conservative vector field"
+    - "Double integrals":
+        "subtopics":
+        - "Double integral 1"
+        - "Double integral 2"
+        - "Double integral 3"
+        - "Double integral 4"
+        - "Double integral 5"
+        - "Double integral 6"
+        - "Polar coordinates"
+    - "Triple integrals":
+        "subtopics":
+        - "Triple integral 1"
+        - "Triple integral 2"
+        - "Triple integral 3"
+    - "Surface integral preliminaries":
+        "subtopics":
+        - "Parametrizing a surface, part 1"
+        - "Determining a position vector-valued function for a parametrization of\
+          \ two parameters"
+        - "Partial derivatives of vector-valued functions"
+    - "Surface integrals":
+        "subtopics":
+        - "Introduction to the surface integral"
+        - "Example of calculating a surface integral part 1"
+        - "Example of calculating a surface integral part 2"
+        - "Example of calculating a surface integral part 3"
+        - "Surface integral example, part 1"
+        - "Surface integral example part 2"
+        - "Surface integral example part 3: The home stretch"
+        - "Surface integral ex2 part 1"
+        - "Surface integral ex2 part 2"
+        - "Surface integral ex3 part 1"
+        - "Surface integral ex3 part 2"
+        - "Surface integral ex3 part 3"
+        - "Surface integral ex3 part 4"
+    - "Flux in 3D":
+        "subtopics":
+        - "Conceptual understanding of flux"

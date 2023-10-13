@@ -1,0 +1,32 @@
+"course":
+  "Linear equations and inequalities: College Algebra:":
+    "topics":
+    - "Solving equations with one unknown":
+        "subtopics":
+        - "Equations with parentheses"
+        - "Number of solutions to equations"
+        - "Worked example: number of solutions to equations"
+        - "Solutions to linear equations"
+    - "Intro to the coordinate plane":
+        "subtopics":
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Interpreting points in context of graphs of systems"
+    - "Multi-step linear inequalities":
+        "subtopics":
+        - "Inequalities with variables on both sides"
+        - "Inequalities with variables on both sides (with parentheses)"
+        - "Multi-step inequalities"
+    - "Compound inequalities":
+        "subtopics":
+        - "Compound inequalities: OR"
+        - "Compound inequalities: AND"
+        - "A compound inequality with no solution"
+        - "Double inequalities"
+    - "Modeling with linear equations and inequalities":
+        "subtopics":
+        - "Comparing linear rates example"
+    - "Absolute value equations":
+        "subtopics":
+        - "Intro to absolute value equations and graphs"
+        - "Solving absolute value equations"

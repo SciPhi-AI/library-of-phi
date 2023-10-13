@@ -1,0 +1,97 @@
+"course":
+  "College Algebra:":
+    "topics":
+    - "Linear equations and inequalities":
+        "subtopics":
+        - "Solving equations with one unknown"
+        - "Solutions to linear equations"
+        - "Multi-step linear inequalities"
+        - "Compound inequalities"
+        - "Modeling with linear equations and inequalities"
+        - "Absolute value equations"
+    - "Graphs and forms of linear equations":
+        "subtopics":
+        - "Intercepts"
+        - "Graphing from slope"
+        - "Horizontal and vertical lines"
+        - "Slope-intercept form"
+        - "Point-slope form"
+        - "Writing linear equations in any form"
+        - "Equations of parallel and perpendicular lines"
+    - "Functions":
+        "subtopics":
+        - "Evaluating functions"
+        - "Inputs and outputs of a function"
+        - "Domain and range of a function"
+        - "Recognizing functions"
+        - "Intervals where a function is positive, negative, increasing, or decreasing"
+        - "Intro to inverse functions"
+    - "Quadratics: Multiplying and factoring":
+        "subtopics":
+        - "Multiplying binomials"
+        - "Special products of binomials"
+        - "Factoring quadratics intro"
+        - "Factoring quadratics by grouping"
+        - "Factoring quadratics with difference of squares"
+        - "Factoring quadratics with perfect squares"
+    - "Quadratic functions and equations":
+        "subtopics":
+        - "Solving quadratics by taking the square root"
+        - "Vertex form"
+        - "Solving quadratics by factoring"
+        - "The quadratic formula"
+        - "Completing the square"
+        - "Forms and features of quadratic functions"
+    - "Complex numbers":
+        "subtopics":
+        - "The imaginary unit i"
+        - "Adding and subtracting complex numbers"
+        - "Complex conjugates and dividing complex numbers"
+    - "Exponents and radicals":
+        "subtopics":
+        - "Exponent properties (integer exponents)"
+        - "Simplifying square roots"
+        - "Exponential expressions"
+        - "Graphing exponential growth and decay"
+    - "Rational expressions and equations":
+        "subtopics":
+        - "Rational equations"
+        - "Modeling with rational expressions"
+        - "Multiplying and dividing rational expressions"
+    - "Relating algebra and geometry":
+        "subtopics":
+        - "Distance and midpoints"
+        - "Standard equation of a circle"
+        - "Expanded equation of a circle"
+    - "Polynomial arithmetic":
+        "subtopics":
+        - "Average rate of change of polynomials"
+        - "Adding and subtracting polynomials"
+        - "Taking common factors"
+        - "Factoring higher degree polynomials"
+        - "Factoring using structure"
+    - "Advanced function types":
+        "subtopics":
+        - "Graphs of absolute value functions"
+        - "Piecewise functions"
+        - "Composing functions"
+        - "Verifying inverse functions by composition"
+    - "Transformations of functions":
+        "subtopics":
+        - "Shifting functions"
+        - "Reflecting functions"
+        - "Symmetry of functions"
+        - "Scaling functions"
+    - "Rational exponents and radicals":
+        "subtopics":
+        - "Rational exponents"
+        - "Properties of exponents (rational exponents)"
+        - "Evaluating exponents and radicals"
+        - "Solving exponential equations using properties of exponents"
+        - "Interpreting the rate of change of exponential models"
+        - "Square-root equations"
+    - "Logarithms":
+        "subtopics":
+        - "Introduction to logarithms"
+        - "Properties of logarithms"
+        - "The change of base formula for logarithms"

@@ -1,0 +1,29 @@
+"course":
+  "Conic sections: Precalculus:":
+    "topics":
+    - "Introduction to conic sections":
+        "subtopics":
+        - "Intro to conic sections"
+        - "Center and radii of an ellipse"
+        - "Intro to ellipses"
+        - "Ellipse standard equation from graph"
+        - "Ellipse graph from standard equation"
+    - "Foci of an ellipse":
+        "subtopics":
+        - "Foci of an ellipse"
+        - "Foci of an ellipse from equation"
+    - "Introduction to hyperbolas":
+        "subtopics":
+        - "Intro to hyperbolas"
+        - "Vertices & direction of a hyperbola"
+        - "Vertices & direction of a hyperbola (example 2)"
+        - "Graphing hyperbolas (old example)"
+    - "Foci of a hyperbola":
+        "subtopics":
+        - "Foci of a hyperbola"
+        - "Foci of a hyperbola from equation"
+        - "Proof of the hyperbola foci formula"
+    - "Hyperbolas not centered at the origin":
+        "subtopics":
+        - "Hyperbolas not centered at the origin"
+        - "Equation of a hyperbola not centered at the origin"

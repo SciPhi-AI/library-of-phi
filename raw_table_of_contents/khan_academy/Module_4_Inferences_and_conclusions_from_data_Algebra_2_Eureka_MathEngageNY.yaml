@@ -1,0 +1,82 @@
+"course":
+  "Module 4: Inferences and conclusions from data: Algebra 2 (Eureka Math/EngageNY):":
+    "topics":
+    - "Chance experiments, sample spaces, and events":
+        "subtopics":
+        - "Intro to theoretical probability"
+        - "Simple probability: yellow marble"
+        - "Simple probability: non-blue marble"
+        - "Intuitive sense of probabilities"
+    - "Two-way tables, conditional probability, and independence":
+        "subtopics":
+        - "Calculating conditional probability"
+        - "Conditional probability explained visually"
+        - "Conditional probability and independence"
+        - "Analyzing event probability for independence"
+    - "Venn diagrams and probability rules":
+        "subtopics":
+        - "Intersection and union of sets"
+        - "Compound probability of independent events"
+        - "Independent events example: test taking"
+        - "'At least one' probability with coin flipping"
+        - "Probability with Venn diagrams"
+        - "Addition rule for probability"
+    - "Distributions—Center, shape, and spread":
+        "subtopics":
+        - "Shapes of distributions"
+        - "Comparing means of distributions"
+        - "Means and medians of different distributions"
+        - "Mean and standard deviation versus median and IQR"
+        - "Population standard deviation"
+        - "Sample standard deviation and bias"
+    - "Using a curve to model a data distribution":
+        "subtopics":
+        - "Density Curves"
+        - "Median, mean and skew from density curves"
+        - "Density curve worked example"
+        - "Worked example finding area under density curves"
+    - "Normal distributions":
+        "subtopics":
+        - "Normal distribution problem: z-scores"
+        - "Comparing with z-scores"
+        - "Qualitative sense of normal distributions"
+        - "Normal distribution problems: Empirical rule"
+        - "Standard normal table for proportion below"
+        - "Standard normal table for proportion above"
+        - "Standard normal table for proportion between values"
+    - "Types of statistical studies":
+        "subtopics":
+        - "Types of statistical studies"
+        - "Worked example identifying experiment"
+        - "Worked example identifying observational study"
+        - "Worked example identifying sample study"
+        - "Correlation and causality"
+    - "Using sample data to estimate a population characteristic":
+        "subtopics":
+        - "Identifying a sample and population"
+        - "Reasonable samples"
+        - "Techniques for generating a simple random sample"
+    - "Sample proportions, sampling variability, margin of error":
+        "subtopics":
+        - "Sampling distribution of sample proportion part 1"
+        - "Sampling distribution of sample proportion part 2"
+    - "Sampling variability in the sample mean":
+        "subtopics":
+        - "Introduction to sampling distributions"
+        - "Central limit theorem"
+        - "Sampling distribution of the sample mean"
+        - "Sampling distribution of the sample mean (part 2)"
+    - "Margin of error with sample means; evaluating reports with sample data":
+        "subtopics":
+        - "Standard error of the mean"
+        - "Inferring population mean from sample mean"
+    - "Experiments and the role of random assignment":
+        "subtopics":
+        - "Types of statistical studies"
+        - "Worked example identifying experiment"
+        - "Worked example identifying observational study"
+        - "Introduction to experiment design"
+        - "Matched pairs experiment design"
+    - "Ruling out differences due to random assignment":
+        "subtopics":
+        - "Statistical significance of experiment"

@@ -1,0 +1,30 @@
+"course":
+  "Introduction to exponential functions Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Patterns of growth":
+        "subtopics":
+        - "Intro to exponential functions"
+        - "Exponential vs. linear growth"
+        - "Exponential vs. linear models: verbal"
+        - "Exponential vs. linear models: table"
+    - "Properties of exponents review":
+        "subtopics":
+        - "Exponent properties with products"
+        - "Exponent properties with parentheses"
+        - "Exponent properties with quotients"
+    - "Representing exponential growth":
+        "subtopics":
+        - "Exponential expressions word problems (numerical)"
+        - "The zeroth power"
+        - "Initial value & common ratio of exponential functions"
+        - "Exponential expressions word problems (algebraic)"
+        - "Interpreting exponential expression word problem"
+        - "Exponential function graph"
+        - "Graphs of exponential growth"
+    - "Understanding decay":
+        "subtopics":
+        - "Exponential decay intro"
+    - "Representing exponential decay":
+        "subtopics":
+        - "Graphing exponential growth & decay"
+        - "Writing functions with exponential decay"

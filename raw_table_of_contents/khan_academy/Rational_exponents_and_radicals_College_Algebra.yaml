@@ -1,0 +1,32 @@
+"course":
+  "Rational exponents and radicals: College Algebra:":
+    "topics":
+    - "Rational exponents":
+        "subtopics":
+        - "Intro to rational exponents"
+        - "Rewriting roots as rational exponents"
+        - "Exponential equation with rational answer"
+        - "Properties of exponents (rational exponents)"
+        - "Rewriting quotient of powers (rational exponents)"
+        - "Rewriting mixed radical and exponential expressions"
+    - "Evaluating exponents and radicals":
+        "subtopics":
+        - "Evaluating fractional exponents"
+        - "Evaluating fractional exponents: negative unit-fraction"
+        - "Evaluating fractional exponents: fractional base"
+        - "Evaluating quotient of fractional exponents"
+        - "Evaluating mixed radicals and exponents"
+    - "Solving exponential equations using properties of exponents":
+        "subtopics":
+        - "Solving exponential equations using exponent properties"
+        - "Creativity break: How are math and creativity changing the world?"
+    - "Interpreting the rate of change of exponential models":
+        "subtopics":
+        - "Interpreting change in exponential models"
+    - "Square-root equations":
+        "subtopics":
+        - "Intro to square-root equations & extraneous solutions"
+        - "Square-root equations intro"
+        - "Solving square-root equations: one solution"
+        - "Solving square-root equations: two solutions"
+        - "Solving square-root equations: no solution"

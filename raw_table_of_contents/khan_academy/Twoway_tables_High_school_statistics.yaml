@@ -1,0 +1,33 @@
+"course":
+  "Two-way tables High school statistics:":
+    "topics":
+    - "Two-way tables introduction":
+        "subtopics":
+        - "Understanding Two-way tables"
+        - "Basics of Two-way tables"
+        - "Practical Applications of Two-way tables"
+    - "Two-way frequency tables and Venn diagrams":
+        "subtopics":
+        - "Introduction to Two-way frequency tables"
+        - "Understanding Venn diagrams"
+        - "Interrelation between Two-way frequency tables and Venn diagrams"
+    - "Two-way relative frequency tables":
+        "subtopics":
+        - "Understanding Two-way relative frequency tables"
+        - "Practical Applications of Two-way relative frequency tables"
+        - "Comparing Two-way frequency tables and Two-way relative frequency tables"
+    - "Distributions in two-way tables":
+        "subtopics":
+        - "Understanding Distributions in two-way tables"
+        - "Practical Applications of Distributions in two-way tables"
+        - "Comparing Distributions in different types of two-way tables"
+    - "Marginal and conditional distributions":
+        "subtopics":
+        - "Understanding Marginal distributions"
+        - "Understanding Conditional distributions"
+        - "Interrelation between Marginal and Conditional distributions"
+    - "Interpreting two-way tables":
+        "subtopics":
+        - "Basics of Interpreting two-way tables"
+        - "Practical Applications of Interpreting two-way tables"
+        - "Advanced Techniques for Interpreting two-way tables"

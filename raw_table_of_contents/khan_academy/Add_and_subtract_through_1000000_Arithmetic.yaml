@@ -1,0 +1,24 @@
+"course":
+  "Add and subtract through 1,000,000 Arithmetic:":
+    "topics":
+    - "Visually adding within 1,000":
+        "subtopics":
+        - "Adding 10 or 100"
+        - "Adding 1s, 10s, and 100s"
+        - "Strategies for adding within 1,000"
+        - "Adding 3-digit numbers (no regrouping)"
+        - "Addition using groups of 10 and 100"
+    - "Strategies for subtracting within 1,000":
+        "subtopics":
+        - "Subtracting 1, 10, or 100"
+        - "Subtracting 1s, 10s, and 100s"
+        - "Subtracting 3-digit numbers (no regrouping)"
+        - "Subtracting with place value blocks (regrouping)"
+    - "Adding within 1,000,000":
+        "subtopics":
+        - "Relate place value to standard algorithm for multi-digit addition"
+        - "Adding multi-digit numbers: 48,029+233,930"
+    - "Subtracting within 1,000,000":
+        "subtopics":
+        - "Relate place value to standard algorithm for multi-digit subtraction"
+        - "Multi-digit subtraction: 389,002-76,151"

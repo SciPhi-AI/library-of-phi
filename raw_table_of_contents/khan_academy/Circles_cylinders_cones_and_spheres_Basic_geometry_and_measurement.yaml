@@ -1,0 +1,25 @@
+"course":
+  "Circles, cylinders, cones, and spheres: Basic geometry and measurement:":
+    "topics":
+    - "Understanding Circles":
+        "subtopics":
+        - "Area and circumference of circles"
+        - "Radius, diameter, circumference & π"
+        - "Labeling parts of a circle"
+        - "Radius & diameter from circumference"
+        - "Relating circumference and area"
+        - "Area of a circle"
+        - "Area and circumference of fractions of circles"
+        - "Partial circle area and arc length"
+    - "Understanding Cylinders":
+        "subtopics":
+        - "Cylinder volume & surface area"
+    - "Understanding Spheres":
+        "subtopics":
+        - "Volume of a sphere"
+    - "Understanding Cones":
+        "subtopics":
+        - "Volume of a cone"
+    - "Volume of Geometric Shapes":
+        "subtopics":
+        - "Volume of cylinders, spheres, and cones"

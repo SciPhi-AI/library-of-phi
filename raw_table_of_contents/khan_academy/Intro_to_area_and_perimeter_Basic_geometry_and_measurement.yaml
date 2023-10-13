@@ -1,0 +1,34 @@
+"course":
+  "Intro to area and perimeter: Basic geometry and measurement:":
+    "topics":
+    - "Measuring rectangles with different unit squares":
+        "subtopics":
+        - "Creating rectangles with a given area 1"
+        - "Creating rectangles with a given area 2"
+        - "Area formula intuition"
+    - "Counting unit squares to find area formula":
+        "subtopics":
+        - "Finding missing side when given area"
+        - "Area and the distributive property"
+        - "Decompose figures to find area"
+    - "Decomposing shapes to find area":
+        "subtopics":
+        - "Decomposing shapes to find area: grids"
+        - "Decomposing shapes to find area: add"
+        - "Decomposing shapes to find area: subtract"
+    - "Perimeter intro":
+        "subtopics":
+        - "Perimeter: introduction"
+        - "Perimeter of a shape"
+        - "Finding perimeter when a side length is missing"
+        - "Finding missing side length when given perimeter"
+    - "Perimeter word problems":
+        "subtopics":
+        - "Perimeter word problem: tables"
+        - "Perimeter word problem: skating rink"
+    - "Comparing areas and perimeters of rectangles":
+        "subtopics":
+        - "Area versus perimeter"
+        - "Area & perimeter word problem: dog pen"
+        - "Area & perimeter word problem: table"
+        - "Comparing areas word problem"

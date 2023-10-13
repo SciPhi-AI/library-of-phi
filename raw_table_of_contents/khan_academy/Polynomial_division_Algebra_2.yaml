@@ -1,0 +1,33 @@
+"course":
+  "Polynomial division: Algebra 2:":
+    "topics":
+    - "Introduction to Polynomial Division":
+        "subtopics":
+        - "Dividing polynomials by x"
+        - "Polynomial division introduction"
+        - "Dividing polynomials by x (no remainders)"
+        - "Divide polynomials by x (with remainders)"
+    - "Dividing Quadratics by Linear Factors":
+        "subtopics":
+        - "Dividing quadratics by linear factors"
+        - "Intro to long division of polynomials"
+        - "Dividing quadratics by linear expressions (no remainders)"
+        - "Dividing quadratics by linear expressions with remainders"
+        - "Dividing quadratics by linear expressions with remainders: missing x-term"
+    - "Dividing Polynomials by Linear Factors":
+        "subtopics":
+        - "Dividing polynomials by linear factors"
+        - "Dividing polynomials by linear expressions"
+        - "Dividing polynomials by linear expressions: missing term"
+    - "Factoring using Polynomial Division":
+        "subtopics":
+        - "Factoring using polynomial division"
+        - "Factoring using polynomial division: missing term"
+    - "Polynomial Remainder Theorem":
+        "subtopics":
+        - "Intro to the Polynomial Remainder Theorem"
+        - "Remainder theorem: finding remainder from equation"
+        - "Remainder theorem examples"
+        - "Remainder theorem: checking factors"
+        - "Remainder theorem: finding coefficients"
+        - "Proof of the Polynomial Remainder Theorem"

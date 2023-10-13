@@ -1,0 +1,51 @@
+"course":
+  "Limits and continuity AP®︎/College Calculus BC:":
+    "topics":
+    - "Defining limits and using limit notation":
+        "subtopics":
+        - "Limits intro"
+        - "Estimating limit values from graphs"
+        - "Unbounded limits"
+        - "One-sided limits from graphs"
+        - "Connecting limits and graphical behavior"
+        - "Estimating limit values from tables"
+    - "Determining limits using algebraic properties of limits":
+        "subtopics":
+        - "Limit properties"
+        - "Limits of combined functions"
+        - "Theorem for limits of composite functions"
+        - "Limits of composite functions: internal limit doesn't exist"
+        - "Limits of composite functions: external limit doesn't exist"
+    - "Determining limits using algebraic manipulation":
+        "subtopics":
+        - "Limits by factoring"
+        - "Limits by rationalizing"
+        - "Trig limit using Pythagorean identity"
+        - "Trig limit using double angle identity"
+        - "Strategy in finding limits"
+    - "Exploring types of discontinuities and defining continuity":
+        "subtopics":
+        - "Types of discontinuities"
+        - "Continuity at a point"
+        - "Worked example: Continuity at a point"
+        - "Worked example: point where a function is continuous"
+        - "Worked example: point where a function isn't continuous"
+        - "Confirming continuity over an interval"
+    - "Connecting infinite limits and asymptotes":
+        "subtopics":
+        - "Introduction to infinite limits"
+        - "Infinite limits and asymptotes"
+        - "Analyzing unbounded limits: rational function"
+        - "Analyzing unbounded limits: mixed function"
+    - "Working with the intermediate value theorem":
+        "subtopics":
+        - "Intermediate value theorem"
+        - "Worked example: using the intermediate value theorem"
+        - "Justification with the intermediate value theorem: table"
+        - "Justification with the intermediate value theorem: equation"
+    - "Optional videos":
+        "subtopics":
+        - "Formal definition of limits Part 1: intuition review"
+        - "Formal definition of limits Part 2: building the idea"
+        - "Formal definition of limits Part 3: the definition"
+        - "Formal definition of limits Part 4: using the definition"

@@ -1,0 +1,118 @@
+"course":
+  "Module 3 Rational and exponential functions Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "Solutions to polynomial equations":
+        "subtopics":
+        - "Factoring higher-degree polynomials"
+        - "Factoring sum of cubes"
+        - "Factoring difference of cubes"
+        - "Complex numbers & sum of squares factorization"
+        - "Factoring sum of squares"
+        - "Finding zeros of polynomials (1 of 2)"
+        - "Finding zeros of polynomials (2 of 2)"
+        - "Finding zeros of polynomials (example 2)"
+    - "Roots of complex numbers":
+        "subtopics":
+        - "Powers of complex numbers"
+        - "Complex number equations: x³=1"
+    - "The binomial theorem":
+        "subtopics":
+        - "Intro to the Binomial Theorem"
+        - "Pascal's triangle and binomial expansion"
+        - "Expanding binomials"
+        - "Expanding binomials w/o Pascal's triangle"
+        - "Binomial expansion & combinatorics"
+        - "Pascal's triangle & combinatorics"
+    - "Ellipses":
+        "subtopics":
+        - "Intro to ellipses"
+        - "Ellipse standard equation from graph"
+        - "Ellipse graph from standard equation"
+        - "Foci of an ellipse from equation"
+    - "Hyperbolas":
+        "subtopics":
+        - "Intro to hyperbolas"
+        - "Vertices & direction of a hyperbola"
+        - "Vertices & direction of a hyperbola (example 2)"
+        - "Foci of a hyperbola from equation"
+        - "Proof of the hyperbola foci formula"
+        - "Equation of a hyperbola not centered at the origin"
+    - "Simplifying rational expressions":
+        "subtopics":
+        - "Reducing rational expressions to lowest terms"
+        - "Simplifying rational expressions: common monomial factors"
+        - "Simplifying rational expressions: common binomial factors"
+        - "Simplifying rational expressions: opposite common binomial factors"
+        - "Simplifying rational expressions: grouping"
+        - "Simplifying rational expressions: higher degree terms"
+        - "Simplifying rational expressions: two variables"
+    - "Multiplying & dividing rational expressions":
+        "subtopics":
+        - "Multiplying & dividing rational expressions: monomials"
+        - "Multiplying rational expressions"
+        - "Dividing rational expressions"
+        - "Multiplying rational expressions: multiple variables"
+        - "Dividing rational expressions: unknown expression"
+    - "Adding & subtracting rational expressions":
+        "subtopics":
+        - "Adding & subtracting rational expressions: like denominators"
+        - "Intro to adding rational expressions with unlike denominators"
+        - "Adding rational expression: unlike denominators"
+        - "Subtracting rational expressions: unlike denominators"
+        - "Least common multiple"
+        - "Least common multiple: repeating factors"
+        - "Subtracting rational expressions: factored denominators"
+        - "Least common multiple of polynomials"
+        - "Subtracting rational expressions"
+        - "Nested fractions"
+    - "End behavior and asymptotes of rational functions":
+        "subtopics":
+        - "End behavior of rational functions"
+        - "Discontinuities of rational functions"
+        - "Analyzing vertical asymptotes of rational functions"
+    - "Graphing rational functions":
+        "subtopics":
+        - "Graphing rational functions according to asymptotes"
+        - "Graphs of rational functions: y-intercept"
+        - "Graphs of rational functions: horizontal asymptote"
+        - "Graphs of rational functions: vertical asymptotes"
+        - "Graphs of rational functions: zeros"
+        - "Graphing rational functions 1"
+        - "Graphing rational functions 2"
+        - "Graphing rational functions 3"
+        - "Graphing rational functions 4"
+        - "Intro to long division of polynomials"
+    - "Function composition":
+        "subtopics":
+        - "Intro to composing functions"
+        - "Evaluating composite functions"
+        - "Evaluating composite functions: using tables"
+        - "Evaluating composite functions: using graphs"
+        - "Finding composite functions"
+        - "Evaluating composite functions (advanced)"
+        - "Modeling with composite functions"
+        - "Modeling with composite functions: skydiving"
+    - "Inverse functions":
+        "subtopics":
+        - "Intro to inverse functions"
+        - "Inputs & outputs of inverse functions"
+        - "Graphing the inverse of a linear function"
+        - "Finding inverse functions: linear"
+        - "Finding inverse functions: quadratic"
+        - "Finding inverse functions: quadratic (example 2)"
+        - "Finding inverse functions: radical"
+        - "Finding inverses of rational functions"
+    - "Restricting the domain":
+        "subtopics":
+        - "Verifying inverse functions by composition"
+        - "Verifying inverse functions by composition: not inverse"
+        - "Determining if a function is invertible"
+        - "Restricting domains of functions to make them invertible"
+    - "Inverse relationship of exponentials and logarithms":
+        "subtopics":
+        - "Relationship between exponentials & logarithms"
+        - "Relationship between exponentials & logarithms: graphs"
+        - "Relationship between exponentials & logarithms: tables"
+        - "Half-life and carbon dating"
+        - "Exponential model word problem: medication dissolve"
+        - "Exponential model word problem: bacteria growth"

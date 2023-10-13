@@ -1,0 +1,22 @@
+"course":
+  "Sampling distributions: Statistics and probability:":
+    "topics":
+    - "Introduction to Sampling Distributions":
+        "subtopics":
+        - "What is a Sampling Distribution?"
+        - "Introduction to Sampling Distributions"
+        - "Sample Statistic Bias Worked Example"
+    - "Sampling Distribution of a Sample Proportion":
+        "subtopics":
+        - "Sampling Distribution of Sample Proportion Part 1"
+        - "Sampling Distribution of Sample Proportion Part 2"
+        - "Normal Conditions for Sampling Distributions of Sample Proportions"
+        - "Probability of Sample Proportions Example"
+    - "Sampling Distribution of a Sample Mean":
+        "subtopics":
+        - "Inferring Population Mean from Sample Mean"
+        - "Central Limit Theorem"
+        - "Sampling Distribution of the Sample Mean Part 1"
+        - "Sampling Distribution of the Sample Mean Part 2"
+        - "Standard Error of the Mean"
+        - "Example: Probability of Sample Mean Exceeding a Value"

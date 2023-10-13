@@ -1,0 +1,45 @@
+"course":
+  "Linear equations and inequalities: Algebra basics:":
+    "topics":
+    - "One-step equations":
+        "subtopics":
+        - "One-step addition & subtraction equations"
+        - "One-step addition equation"
+        - "One-step division equations"
+        - "One-step multiplication equations"
+    - "Two-steps equations":
+        "subtopics":
+        - "Intro to two-step equations"
+        - "Two-step equations intuition"
+        - "Worked example: two-step equations"
+        - "Two-step equation word problem: computers"
+        - "Two-step equation word problem: garden"
+        - "Two-step equation word problem: oranges"
+    - "Multi-step equations":
+        "subtopics":
+        - "Why we do the same thing to both sides: Variable on both sides"
+        - "Intro to equations with variables on both sides"
+        - "Equations with variables on both sides: 20-7x=6x-6"
+        - "Equations with parentheses"
+    - "One-step inequalities":
+        "subtopics":
+        - "One-step inequalities examples"
+        - "One-step inequalities: -5c ≤ 15"
+        - "One-step inequality word problem"
+    - "Two-step inequalities":
+        "subtopics":
+        - "Two-step inequalities"
+        - "Two-step inequality word problem: apples"
+        - "Two-step inequality word problem: R&B"
+    - "Multi-step inequalities":
+        "subtopics":
+        - "Inequalities with variables on both sides"
+        - "Inequalities with variables on both sides (with parentheses)"
+        - "Multi-step inequalities"
+    - "Writing & solving proportions":
+        "subtopics":
+        - "Worked example: Solving proportions"
+        - "Solving tricky proportions"
+        - "Writing proportions example"
+        - "Proportion word problem: cookies"
+        - "Proportion word problem: hot dogs"

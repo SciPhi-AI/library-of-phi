@@ -1,0 +1,17 @@
+"course":
+  "Absolute value & piecewise functions Algebra 1:":
+    "topics":
+    - "Graphs of absolute value functions":
+        "subtopics":
+        - "Understanding Absolute Value Graphs"
+        - "Shifting Absolute Value Graphs"
+        - "Scaling & Reflecting Absolute Value Functions: Equation"
+        - "Scaling & Reflecting Absolute Value Functions: Graph"
+        - "Graphing Absolute Value Functions"
+    - "Piecewise functions":
+        "subtopics":
+        - "Introduction to Piecewise Functions"
+        - "Evaluating Piecewise Functions"
+        - "Graphing Piecewise Functions"
+        - "Domain & Range of Step Function"
+        - "Domain & Range of Piecewise Linear Functions"

@@ -1,0 +1,26 @@
+"course":
+  "Solid Geometry: High School Geometry:":
+    "topics":
+    - "Understanding 3D Shapes":
+        "subtopics":
+        - "Dilating in 3D"
+        - "Slicing a Rectangular Pyramid"
+        - "Ways to Cross-section a Cube"
+        - "Rotating 2D Shapes in 3D"
+        - "Cavalieri's Principle in 3D"
+    - "Volume Intuition":
+        "subtopics":
+        - "Volume of Pyramids Intuition"
+        - "Volumes of Cones Intuition"
+        - "Using Related Volumes"
+    - "Volume and Surface Area":
+        "subtopics":
+        - "Volume of Triangular Prism & Cube"
+        - "Volume of a Cone"
+        - "Cylinder Volume & Surface Area"
+        - "Volume of a Sphere"
+        - "Applying Volume of Solids"
+    - "Understanding Density":
+        "subtopics":
+        - "Area Density"
+        - "Volume Density"

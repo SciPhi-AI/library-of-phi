@@ -1,0 +1,46 @@
+"course":
+  "Module 4: Trigonometry: Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "Special Values and Properties of Trigonometric Functions":
+        "subtopics":
+        - "Trig Values of π/4"
+        - "Graph of y=sin(x)"
+        - "Graph of y=tan(x)"
+        - "Intersection Points of y=sin(x) and y=cos(x)"
+        - "Sine & Cosine Identities: Symmetry"
+        - "Tangent Identities: Symmetry"
+        - "Sine & Cosine Identities: Periodicity"
+        - "Tangent Identities: Periodicity"
+    - "Addition and Subtraction Formulas":
+        "subtopics":
+        - "Trig Angle Addition Identities"
+        - "Using the Cosine Angle Addition Identity"
+        - "Using the Cosine Double-Angle Identity"
+        - "Proof of the Sine Angle Addition Identity"
+        - "Proof of the Cosine Angle Addition Identity"
+        - "Finding Trig Values Using Angle Addition Identities"
+    - "Tangent Lines and Wave Functions":
+        "subtopics":
+        - "Geometric Constructions: Circle Tangent"
+        - "Geometric Constructions: Circle Tangent (example 2)"
+        - "Wave Interference"
+    - "Trigonometry and Triangles":
+        "subtopics":
+        - "Solving for a Side with the Law of Sines"
+        - "Solving for an Angle with the Law of Sines"
+        - "Proof of the Law of Sines"
+        - "Solving for a Side with the Law of Cosines"
+        - "Solving for an Angle with the Law of Cosines"
+        - "Proof of the Law of Cosines"
+        - "Trig Word Problem: Stars"
+    - "Inverse Trigonometric Functions":
+        "subtopics":
+        - "Intro to Arcsine"
+        - "Intro to Arctangent"
+        - "Intro to Arccosine"
+        - "Restricting Domains of Functions to Make Them Invertible"
+        - "Domain & Range of Inverse Tangent Function"
+        - "Using Inverse Trig Functions with a Calculator"
+        - "Solving Sinusoidal Equations of the Form sin(x)=d"
+        - "Solving cos(θ)=1 and cos(θ)=-1"
+        - "Trig Word Problem: Solving for Temperature"

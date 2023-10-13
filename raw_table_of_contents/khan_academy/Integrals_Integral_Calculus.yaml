@@ -1,0 +1,100 @@
+"course":
+  "Integrals: Integral Calculus:":
+    "topics":
+    - "Accumulations of Change Introduction":
+        "subtopics":
+        - "Introduction to Integral Calculus"
+        - "Definite Integrals Intro"
+        - "Worked Example: Accumulation of Change"
+    - "Riemann Approximation":
+        "subtopics":
+        - "Riemann Approximation Introduction"
+        - "Over- and Under-estimation of Riemann Sums"
+        - "Worked Example: Finding a Riemann Sum Using a Table"
+        - "Worked Example: Over- and Under-estimation of Riemann Sums"
+        - "Midpoint Sums"
+        - "Trapezoidal Sums"
+        - "Motion Problem with Riemann Sum Approximation"
+    - "Summation Notation Review":
+        "subtopics":
+        - "Summation Notation"
+        - "Worked Examples: Summation Notation"
+        - "Riemann Sums in Summation Notation"
+        - "Worked Example: Riemann Sums in Summation Notation"
+        - "Midpoint and Trapezoidal Sums in Summation Notation"
+        - "Riemann Sums in Summation Notation: Challenge Problem"
+    - "Defining Integrals with Riemann Sums":
+        "subtopics":
+        - "Definite Integral as the Limit of a Riemann Sum"
+        - "Worked Example: Rewriting Definite Integral as Limit of Riemann Sum"
+        - "Worked Example: Rewriting Limit of Riemann Sum as Definite Integral"
+    - "Fundamental Theorem of Calculus and Accumulation Functions":
+        "subtopics":
+        - "The Fundamental Theorem of Calculus and Accumulation Functions"
+        - "Functions Defined by Definite Integrals (Accumulation Functions)"
+        - "Finding Derivative with Fundamental Theorem of Calculus"
+        - "Finding Derivative with Fundamental Theorem of Calculus: Chain Rule"
+    - "Properties of Definite Integrals":
+        "subtopics":
+        - "Negative Definite Integrals"
+        - "Finding Definite Integrals Using Area Formulas"
+        - "Definite Integral Over a Single Point"
+        - "Integrating Scaled Version of Function"
+        - "Switching Bounds of Definite Integral"
+        - "Integrating Sums of Functions"
+        - "Worked Examples: Finding Definite Integrals Using Algebraic Properties"
+    - "Indefinite Integrals of Common Functions":
+        "subtopics":
+        - "Indefinite Integral of 1/x"
+        - "Indefinite Integrals of sin(x), cos(x), and eˣ"
+        - "Definite Integrals of Common Functions"
+        - "Definite Integrals: Reverse Power Rule"
+        - "Definite Integral of Rational Function"
+        - "Definite Integral of Radical Function"
+        - "Definite Integral of Trig Function"
+        - "Definite Integral Involving Natural Log"
+        - "Definite Integral of Piecewise Function"
+        - "Definite Integral of Absolute Value Function"
+    - "Integrating with u-substitution":
+        "subtopics":
+        - "\U0001D636-substitution Intro"
+        - "\U0001D636-substitution: Multiplying by a Constant"
+        - "\U0001D636-substitution: Defining \U0001D636"
+        - "\U0001D636-substitution: Rational Function"
+        - "\U0001D636-substitution: Logarithmic Function"
+        - "\U0001D636-substitution: Definite Integrals"
+        - "\U0001D636-substitution: Definite Integral of Exponential Function"
+        - "\U0001D636-substitution: Special Application"
+        - "\U0001D636-substitution: Double Substitution"
+        - "\U0001D636-substitution: Challenging Application"
+    - "Integrating using Trigonometric Identities":
+        "subtopics":
+        - "Integral of cos^3(x)"
+        - "Integral of sin^2(x) cos^3(x)"
+        - "Integral of sin^4(x)"
+        - "Trigonometric Substitution"
+        - "Introduction to Trigonometric Substitution"
+        - "Substitution with  x=sin(theta)"
+        - "More Trig Sub Practice"
+        - "Trig and u Substitution Together (part 1)"
+        - "Trig and u Substitution Together (part 2)"
+        - "Trig Substitution with Tangent"
+        - "More Trig Substitution with Tangent"
+        - "Long Trig Sub Problem"
+    - "Integration by Parts":
+        "subtopics":
+        - "Integration by Parts Intro"
+        - "Integration by Parts: ∫x⋅cos(x)dx"
+        - "Integration by Parts: ∫ln(x)dx"
+        - "Integration by  Parts: ∫x²⋅\U0001D452ˣdx"
+        - "Integration by Parts: ∫\U0001D452ˣ⋅cos(x)dx"
+        - "Integration by Parts: Definite Integrals"
+    - "Improper Integrals":
+        "subtopics":
+        - "Introduction to Improper Integrals"
+        - "Divergent Improper Integral"
+        - "Improper Integral with Two Infinite Bounds"
+    - "Proof Videos":
+        "subtopics":
+        - "Proof of Fundamental Theorem of Calculus"
+        - "Intuition for Second Part of Fundamental Theorem of Calculus"

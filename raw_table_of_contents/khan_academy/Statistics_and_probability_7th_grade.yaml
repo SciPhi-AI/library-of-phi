@@ -1,0 +1,27 @@
+"course":
+  "Statistics and Probability 7th Grade:":
+    "topics":
+    - "Introduction to Theoretical Probability":
+        "subtopics":
+        - "Intro to Theoretical Probability"
+        - "Simple Probability: Yellow Marble"
+        - "Simple Probability: Non-blue Marble"
+        - "Experimental Probability"
+        - "Intuitive Sense of Probabilities"
+    - "Probability Models":
+        "subtopics":
+        - "Probability Models"
+        - "Theoretical and Experimental Probabilities"
+        - "Making Predictions with Probability"
+        - "Probability Models Example: Frozen Yogurt"
+    - "Compound Events and Sample Spaces":
+        "subtopics":
+        - "Sample Spaces for Compound Events"
+        - "Die Rolling Probability"
+        - "Probability of a Compound Event"
+        - "Counting Outcomes: Flower Pots"
+        - "Count Outcomes Using Tree Diagram"
+    - "Comparing and Sampling Populations":
+        "subtopics":
+        - "Reasonable Samples"
+        - "Comparing Distributions with Dot Plots"

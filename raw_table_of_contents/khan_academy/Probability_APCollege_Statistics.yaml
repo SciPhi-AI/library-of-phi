@@ -1,0 +1,32 @@
+"course":
+  "Probability AP®︎/College Statistics:":
+    "topics":
+    - "Estimating Probabilities":
+        "subtopics":
+        - "Using Simulation"
+        - "Intro to Theoretical Probability"
+        - "Experimental versus Theoretical Probability Simulation"
+        - "Random Number List to Run Experiment"
+        - "Random Numbers for Experimental Probability"
+    - "Events and Unions":
+        "subtopics":
+        - "Mutually Exclusive Events and Unions of Events"
+        - "Probability with Venn Diagrams"
+        - "Addition Rule for Probability"
+    - "Conditional Probability":
+        "subtopics":
+        - "Basics of Conditional Probability"
+        - "Conditional Probability and Independence"
+        - "Conditional Probability with Bayes' Theorem"
+        - "Conditional Probability Tree Diagram Example"
+    - "Independent and Dependent Events":
+        "subtopics":
+        - "Independent versus Dependent Events"
+        - "Compound Probability of Independent Events"
+        - "Independent Events Example: Test Taking"
+        - "General Multiplication Rule Example: Independent Events"
+        - "Dependent Probability Introduction"
+        - "General Multiplication Rule Example: Dependent Events"
+    - "Special Probability Cases":
+        "subtopics":
+        - "'At least one' Probability with Coin Flipping"

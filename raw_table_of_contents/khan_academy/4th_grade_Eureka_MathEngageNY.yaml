@@ -1,0 +1,39 @@
+"course":
+  "4th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Place value, rounding, and algorithms for addition and subtraction":
+        "subtopics":
+        - "Place value of multi-digit whole numbers"
+        - "Comparing multi-digit whole numbers"
+        - "Rounding multi-digit whole numbers"
+        - "Multi-digit whole number addition"
+        - "Multi-digit whole number subtraction"
+    - "Multi-digit multiplication and division":
+        "subtopics":
+        - "Multiplicative comparison word problems"
+        - "Multiplication by 10, 100, and 1,000"
+        - "Multiplication of up to four digits by single-digit numbers"
+        - "Multiplication word problems"
+        - "Reasoning with divisibility"
+        - "Division of thousands, hundreds, tens, and ones"
+        - "Multiplication of two-digit by two-digit numbers"
+    - "Angle measure and plane figures":
+        "subtopics":
+        - "Line and angles"
+        - "Angle measurement"
+        - "Problem solving with the addition of angle measures"
+        - "Two-dimensional figures and symmetry"
+    - "Fraction equivalence, ordering, and operations":
+        "subtopics":
+        - "Decomposition and fraction equivalence"
+        - "Fraction equivalence using multiplication and division"
+        - "Fraction comparison"
+        - "Fraction addition and subtraction"
+        - "Extending fraction equivalence to fractions greater than 1"
+        - "Addition and subtraction of fractions by decomposition"
+        - "Repeated addition of fractions as multiplication"
+    - "Decimal fractions":
+        "subtopics":
+        - "Exploration of tenths"
+        - "Tenths and hundredths"
+        - "Addition with tenths and hundredths"

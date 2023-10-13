@@ -1,0 +1,52 @@
+"course":
+  "Module 2 Trigonometric functions Algebra 2 (Eureka Math/EngageNY):":
+    "topics":
+    - "Unit Circle":
+        "subtopics":
+        - "The Trig Functions & Right Triangle Trig Ratios"
+        - "Trig Values of π/4"
+        - "Sine & Cosine Identities: Symmetry"
+        - "Sine & Cosine Identities: Periodicity"
+        - "Tangent Identities: Symmetry"
+        - "Tangent Identities: Periodicity"
+        - "Finding Reciprocal Trig Ratios"
+        - "Using Reciprocal Trig Ratios"
+    - "Trigonometric Graphs and Radians":
+        "subtopics":
+        - "Graph of y=sin(x)"
+        - "Intersection Points of y=sin(x) and y=cos(x)"
+        - "Intro to Radians"
+        - "Radians & Degrees"
+        - "Degrees to Radians"
+        - "Radians to Degrees"
+        - "Radian Angles & Quadrants"
+    - "Graphing Sinusoidal Functions":
+        "subtopics":
+        - "Transforming Sinusoidal Graphs: Vertical Stretch & Horizontal Reflection"
+        - "Transforming Sinusoidal Graphs: Vertical & Horizontal Stretches"
+        - "Example: Graphing y=3⋅sin(½⋅x)-2"
+        - "Example: Graphing y=-cos(π⋅x)+1.5"
+    - "Features of Sinusoidal Graphs":
+        "subtopics":
+        - "Features of Sinusoidal Functions"
+        - "Amplitude & Period of Sinusoidal Functions from Equation"
+    - "Modeling with Sinusoidal Functions":
+        "subtopics":
+        - "Sinusoidal Function from Graph"
+        - "Trig Word Problem: Modeling Daily Temperature"
+        - "Trig Word Problem: Modeling Annual Temperature"
+        - "Trig Word Problem: Length of Day (Phase Shift)"
+    - "Graphing the Tangent Function":
+        "subtopics":
+        - "Graph of y=tan(x)"
+        - "Tangent Identities: Symmetry"
+        - "Tangent Identities: Periodicity"
+    - "Trigonometric Identities":
+        "subtopics":
+        - "Proof of the Pythagorean Trig Identity"
+        - "Using the Pythagorean Trig Identity"
+        - "Trig Angle Addition Identities"
+        - "Using the Cosine Angle Addition Identity"
+        - "Using the Cosine Double-Angle Identity"
+        - "Proof of the Sine Angle Addition Identity"
+        - "Proof of the Cosine Angle Addition Identity"

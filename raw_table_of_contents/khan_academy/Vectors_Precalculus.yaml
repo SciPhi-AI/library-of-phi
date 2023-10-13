@@ -1,0 +1,46 @@
+"course":
+  "Vectors: Precalculus:":
+    "topics":
+    - "Vectors Introduction":
+        "subtopics":
+        - "Intro to Vectors and Scalars"
+        - "Representing Quantities with Vectors"
+        - "Interpreting Statements about Vectors"
+    - "Vector Components":
+        "subtopics":
+        - "Introduction to Vector Components"
+        - "Finding the Components of a Vector"
+        - "Comparing the Components of Vectors"
+    - "Magnitude of Vectors":
+        "subtopics":
+        - "Vector Magnitude from Graph"
+        - "Vector Magnitude from Components"
+        - "Vector Magnitude from Initial & Terminal Points"
+    - "Scalar Multiplication":
+        "subtopics":
+        - "Scalar Multiplication: Component Form"
+        - "Scalar Multiplication: Magnitude and Direction"
+    - "Vector Addition and Subtraction":
+        "subtopics":
+        - "Adding & Subtracting Vectors"
+        - "Adding & Subtracting Vectors End-to-End"
+        - "Parallelogram Rule for Vector Addition"
+        - "Subtracting Vectors End-to-End"
+        - "Subtracting Vectors with Parallelogram Rule"
+        - "Vector Addition & Magnitude"
+    - "Direction of Vectors":
+        "subtopics":
+        - "Direction of Vectors from Components: 1st & 2nd Quadrants"
+        - "Direction of Vectors from Components: 3rd & 4th Quadrants"
+    - "Vector Components from Magnitude and Direction":
+        "subtopics":
+        - "Vector Components from Magnitude & Direction"
+        - "Vector Components from Magnitude & Direction: Word Problem"
+    - "Adding Vectors in Magnitude and Direction Form":
+        "subtopics":
+        - "Adding Vectors in Magnitude and Direction Form"
+    - "Vectors Word Problems":
+        "subtopics":
+        - "Vector Word Problem: Resultant Velocity"
+        - "Vector Word Problem: Hiking"
+        - "Vector Word Problem: Resultant Force"

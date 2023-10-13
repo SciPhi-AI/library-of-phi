@@ -1,0 +1,38 @@
+"course":
+  "Exponential growth & decay Algebra 1:":
+    "topics":
+    - "Exponential vs. linear growth":
+        "subtopics":
+        - "Intro to exponential functions"
+        - "Exponential vs. linear growth"
+        - "Exponential vs. linear models: verbal"
+        - "Exponential vs. linear models: table"
+    - "Exponential expressions":
+        "subtopics":
+        - "Exponential expressions word problems (numerical)"
+        - "Initial value & common ratio of exponential functions"
+        - "Exponential expressions word problems (algebraic)"
+        - "Interpreting exponential expression word problem"
+    - "Graphs of exponential growth":
+        "subtopics":
+        - "Exponential function graph"
+        - "Graphs of exponential growth"
+        - "Exponential vs. linear growth over time"
+    - "Exponential growth & decay":
+        "subtopics":
+        - "Exponential decay intro"
+        - "Graphing exponential growth & decay"
+        - "Writing functions with exponential decay"
+    - "Exponential functions from tables & graphs":
+        "subtopics":
+        - "Writing exponential functions"
+        - "Writing exponential functions from tables"
+        - "Writing exponential functions from graphs"
+        - "Analyzing tables of exponential functions"
+        - "Analyzing graphs of exponential functions"
+        - "Analyzing graphs of exponential functions: negative initial value"
+        - "Modeling with basic exponential functions word problem"
+    - "Exponential vs. linear models":
+        "subtopics":
+        - "Linear vs. exponential growth: from data"
+        - "Linear vs. exponential growth: from data (example 2)"

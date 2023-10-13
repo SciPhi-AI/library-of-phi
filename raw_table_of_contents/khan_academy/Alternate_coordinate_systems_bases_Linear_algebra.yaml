@@ -1,0 +1,53 @@
+"course":
+  "Alternate coordinate systems (bases) Linear algebra:":
+    "topics":
+    - "Orthogonal complements":
+        "subtopics":
+        - "Orthogonal complements"
+        - "dim(v) + dim(orthogonal complement of v) = n"
+        - "Representing vectors in rn using subspace members"
+        - "Orthogonal complement of the orthogonal complement"
+        - "Orthogonal complement of the nullspace"
+        - "Unique rowspace solution to Ax = b"
+        - "Row space solution to Ax = b example"
+    - "Orthogonal projections":
+        "subtopics":
+        - "Projections onto subspaces"
+        - "Visualizing a projection onto a plane"
+        - "A projection onto a subspace is a linear transformation"
+        - "Subspace projection matrix example"
+        - "Another example of a projection matrix"
+        - "Projection is closest vector in subspace"
+        - "Least squares approximation"
+        - "Least squares examples"
+        - "Another least squares example"
+    - "Change of basis":
+        "subtopics":
+        - "Coordinates with respect to a basis"
+        - "Change of basis matrix"
+        - "Invertible change of basis matrix"
+        - "Transformation matrix with respect to a basis"
+        - "Alternate basis transformation matrix example"
+        - "Alternate basis transformation matrix example part 2"
+        - "Changing coordinate systems to help find a transformation matrix"
+    - "Orthonormal bases and the Gram-Schmidt process":
+        "subtopics":
+        - "Introduction to orthonormal bases"
+        - "Coordinates with respect to orthonormal bases"
+        - "Projections onto subspaces with orthonormal bases"
+        - "Finding projection onto subspace with orthonormal basis example"
+        - "Example using orthogonal change-of-basis matrix to find transformation\
+          \ matrix"
+        - "Orthogonal matrices preserve angles and lengths"
+        - "The Gram-Schmidt process"
+        - "Gram-Schmidt process example"
+        - "Gram-Schmidt example with 3 basis vectors"
+    - "Eigen-everything":
+        "subtopics":
+        - "Introduction to eigenvalues and eigenvectors"
+        - "Proof of formula for determining eigenvalues"
+        - "Example solving for the eigenvalues of a 2x2 matrix"
+        - "Finding eigenvectors and eigenspaces example"
+        - "Eigenvalues of a 3x3 matrix"
+        - "Eigenvectors and eigenspaces for a 3x3 matrix"
+        - "Showing that an eigenbasis makes for good coordinate systems"

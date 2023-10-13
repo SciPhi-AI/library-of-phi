@@ -1,0 +1,38 @@
+"course":
+  "Working with units: Algebra 1:":
+    "topics":
+    - "Understanding Units":
+        "subtopics":
+        - "Definition of Units"
+        - "Importance of Units"
+        - "Types of Units"
+        - "Conversion of Units"
+        - "Units in Algebra"
+    - "Rate Conversion":
+        "subtopics":
+        - "Definition of Rate"
+        - "Conversion of Rates"
+        - "Rates in Different Units"
+        - "Rate Conversion in Algebra"
+        - "Practical Applications of Rate Conversion"
+    - "Introduction to Dimensional Analysis":
+        "subtopics":
+        - "Basics of Dimensional Analysis"
+        - "Dimensional Analysis in Units"
+        - "Dimensional Analysis in Algebra"
+        - "Practical Applications of Dimensional Analysis"
+        - "Advanced Dimensional Analysis"
+    - "Working with Units in Algebra":
+        "subtopics":
+        - "Units in Algebraic Expressions"
+        - "Units in Algebraic Equations"
+        - "Solving Algebraic Equations with Units"
+        - "Practical Applications of Units in Algebra"
+        - "Advanced Topics in Units and Algebra"
+    - "Review and Practice":
+        "subtopics":
+        - "Review of Units and Algebra"
+        - "Practice Problems on Units"
+        - "Practice Problems on Rate Conversion"
+        - "Practice Problems on Dimensional Analysis"
+        - "Practice Problems on Units in Algebra"

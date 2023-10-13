@@ -1,0 +1,21 @@
+"course":
+  "Kindergarten:":
+    "topics":
+    - "Counting and place value":
+        "subtopics":
+        - "Counting small numbers"
+        - "Counting objects"
+        - "Comparing small numbers"
+        - "Teens"
+    - "Addition and subtraction":
+        "subtopics":
+        - "What is addition? What is subtraction?"
+        - "Making small numbers"
+        - "Making 10"
+        - "Put together, take apart"
+        - "Addition and subtraction word problems"
+    - "Measurement and geometry":
+        "subtopics":
+        - "Basic shapes"
+        - "Comparing shapes"
+        - "Composing shapes"

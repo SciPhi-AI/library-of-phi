@@ -1,0 +1,40 @@
+"course":
+  "Geometric transformations 8th grade:":
+    "topics":
+    - "Transformations intro":
+        "subtopics":
+        - "Rigid transformations intro"
+        - "Dilations intro"
+        - "Identifying transformations"
+    - "Translations":
+        "subtopics":
+        - "Translating points"
+        - "Translating shapes"
+        - "Determining translations"
+    - "Rotations":
+        "subtopics":
+        - "Rotating points"
+        - "Determining rotations"
+    - "Reflections":
+        "subtopics":
+        - "Reflecting points"
+        - "Reflecting shapes"
+        - "Determining reflections"
+    - "Properties & definitions of transformations":
+        "subtopics":
+        - "Finding measures using rigid transformations"
+        - "Rigid transformations: preserved properties"
+        - "Mapping shapes"
+    - "Dilations":
+        "subtopics":
+        - "Dilating points"
+        - "Dilations: scale factor"
+        - "Dilating shapes: expanding"
+        - "Dilating shapes: shrinking by 1/2"
+        - "Dilations and properties"
+    - "Congruence and similarity":
+        "subtopics":
+        - "Congruent shapes & transformations"
+        - "Non-congruent shapes & transformations"
+        - "Similar shapes & transformations"
+        - "Side lengths after dilation"

@@ -1,0 +1,30 @@
+"course":
+  "Study design: Statistics and probability:":
+    "topics":
+    - "Statistical Questions":
+        "subtopics":
+        - "Statistical Questions"
+        - "Statistical and Non-statistical Questions"
+    - "Sampling and Observational Studies":
+        "subtopics":
+        - "Reasonable Samples"
+        - "Identifying a Sample and Population"
+        - "Examples of Bias in Surveys"
+        - "Example of Undercoverage Introducing Bias"
+        - "Correlation and Causality"
+    - "Sampling Methods":
+        "subtopics":
+        - "Picking Fairly"
+        - "Techniques for Generating a Simple Random Sample"
+        - "Techniques for Random Sampling and Avoiding Bias"
+    - "Types of Studies":
+        "subtopics":
+        - "Types of Statistical Studies"
+        - "Worked Example Identifying Experiment"
+        - "Worked Example Identifying Observational Study"
+        - "Worked Example Identifying Sample Study"
+        - "Appropriate Statistical Study Example"
+    - "Experiments":
+        "subtopics":
+        - "Introduction to Experiment Design"
+        - "Matched Pairs Experiment Design"

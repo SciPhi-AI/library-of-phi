@@ -1,0 +1,35 @@
+"course":
+  "Modeling: Algebra 2:":
+    "topics":
+    - "Modeling with Function Combination":
+        "subtopics":
+        - "Function Combination Basics"
+        - "Interpreting Features of Functions"
+        - "Periodicity of Algebraic Models"
+        - "End Behavior of Algebraic Models"
+        - "Symmetry of Algebraic Models"
+    - "Manipulating Formulas":
+        "subtopics":
+        - "Manipulating Formulas Basics"
+        - "Perimeter Formulas"
+        - "Area Formulas"
+        - "Temperature Formulas"
+    - "Modeling with Two Variables":
+        "subtopics":
+        - "Two Variables Basics"
+        - "Graph Labels and Scales"
+        - "Rational Equation Word Problem"
+        - "Quadratic Inequality Word Problem"
+        - "Exponential Equation Word Problem"
+    - "Modeling with Multiple Variables":
+        "subtopics":
+        - "Multiple Variables Basics"
+        - "Pancake Modeling"
+        - "Roller Coaster Modeling"
+        - "Taco Stand Modeling"
+        - "Ice Cream Modeling"
+    - "Interpreting Expressions with Multiple Variables":
+        "subtopics":
+        - "Multiple Variables Expressions Basics"
+        - "Resistors Expressions"
+        - "Cylinder Expressions"

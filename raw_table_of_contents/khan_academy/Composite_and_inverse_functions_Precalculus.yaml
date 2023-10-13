@@ -1,0 +1,30 @@
+"course":
+  "Composite and inverse functions: Precalculus:":
+    "topics":
+    - "Composing functions":
+        "subtopics":
+        - "Intro to composing functions"
+        - "Evaluating composite functions"
+        - "Evaluating composite functions: using tables"
+        - "Evaluating composite functions: using graphs"
+        - "Finding composite functions"
+        - "Evaluating composite functions (advanced)"
+    - "Modeling with composite functions":
+        "subtopics":
+        - "Modeling with composite functions"
+        - "Modeling with composite functions: skydiving"
+        - "Meaningfully composing functions"
+    - "Invertible functions":
+        "subtopics":
+        - "Determining if a function is invertible"
+        - "Restricting domains of functions to make them invertible"
+    - "Inverse functions in graphs and tables":
+        "subtopics":
+        - "Reading inverse values from a graph"
+        - "Reading inverse values from a table"
+    - "Verifying inverse functions by composition":
+        "subtopics":
+        - "Verifying inverse functions from tables"
+        - "Using specific values to test for inverses"
+        - "Verifying inverse functions by composition"
+        - "Verifying inverse functions by composition: not inverse"

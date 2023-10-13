@@ -1,0 +1,35 @@
+"course":
+  "Add and subtract negative numbers Arithmetic:":
+    "topics":
+    - "Intro to negative numbers":
+        "subtopics":
+        - "Introduction to negative numbers"
+        - "Negative symbol as opposite"
+        - "Negative decimals and fractions on the number line"
+        - "Absolute value"
+    - "Intro to adding negative numbers":
+        "subtopics":
+        - "Zero pairs worked example"
+        - "Adding with integer chips"
+        - "Adding negative numbers on the number line"
+        - "Adding negative numbers fluently"
+        - "Signs of sums on a number line"
+    - "Intro to subtracting negative numbers":
+        "subtopics":
+        - "Subtracting with integer chips"
+        - "Graphing negative number addition and subtraction expressions"
+        - "Interpreting numeric expressions example"
+        - "Subtracting negative numbers fluently"
+    - "Adding the opposite":
+        "subtopics":
+        - "Adding the opposite with integer chips"
+        - "Adding the opposite with number lines"
+        - "Subtracting a negative = adding a positive"
+    - "Adding & subtracting integers":
+        "subtopics":
+        - "Adding integers: find the missing value"
+        - "Subtracting integers: find the missing value"
+    - "Adding & subtracting negative fractions":
+        "subtopics":
+        - "Adding fractions with different signs"
+        - "Adding and subtracting fractions with negatives"

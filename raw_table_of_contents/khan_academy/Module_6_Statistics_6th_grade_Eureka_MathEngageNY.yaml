@@ -1,0 +1,31 @@
+"course":
+  "Module 6: Statistics: 6th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Understanding distributions":
+        "subtopics":
+        - "Representing data"
+        - "Frequency tables & dot plots"
+        - "Statistical questions"
+        - "Creating a histogram"
+        - "Interpreting a histogram"
+    - "Summarizing a distribution that is approximately symmetric using the mean and mean absolute deviation":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Mean, median, & mode example"
+        - "Missing value given the mean"
+        - "Median & range puzzlers"
+        - "Impact on median & mean: removing an outlier"
+        - "Impact on median & mean: increasing an outlier"
+        - "Mean absolute deviation (MAD)"
+        - "Mean absolute deviation example"
+        - "Interquartile range (IQR)"
+        - "Constructing a box plot"
+        - "Reading box plots"
+        - "Worked example: Creating a box plot (odd number of data points)"
+        - "Worked example: Creating a box plot (even number of data points)"
+        - "Interpreting box plots"
+    - "Summarizing and describing distributions":
+        "subtopics":
+        - "Comparing dot plots, histograms, and box plots"
+        - "Shapes of distributions"
+        - "Clusters, gaps, peaks & outliers"

@@ -1,0 +1,52 @@
+"course":
+  "Random variables and probability distributions AP®︎/College Statistics:":
+    "topics":
+    - "Introduction to random variables and probability distributions":
+        "subtopics":
+        - "Constructing a probability distribution for random variable"
+        - "Valid discrete probability distribution examples"
+        - "Probability with discrete random variable example"
+        - "Theoretical probability distribution example: tables"
+        - "Theoretical probability distribution example: multiplication"
+    - "Mean and standard deviation of random variables":
+        "subtopics":
+        - "Mean (expected value) of a discrete random variable"
+        - "Interpreting expected value"
+        - "Variance and standard deviation of a discrete random variable"
+    - "Transforming random variables":
+        "subtopics":
+        - "Impact of transforming (scaling and shifting) random variables"
+        - "Example: Transforming a discrete random variable"
+    - "Combining random variables":
+        "subtopics":
+        - "Mean of sum and difference of random variables"
+        - "Variance of sum and difference of random variables"
+        - "Intuition for why independence matters for variance of sum"
+        - "Deriving the variance of the difference of random variables"
+        - "Example: Analyzing distribution of sum of two normally distributed random\
+          \ variables"
+        - "Example: Analyzing the difference in distributions"
+    - "Introduction to the binomial distribution":
+        "subtopics":
+        - "Binomial variables"
+        - "Recognizing binomial variables"
+        - "10% Rule of assuming 'independence' between trials"
+        - "Binomial probability example"
+        - "Generalizing k scores in n attempts"
+        - "Free throw binomial probability distribution"
+        - "Graphing basketball binomial distribution"
+        - "Binompdf and binomcdf functions"
+    - "Parameters for a binomial distribution":
+        "subtopics":
+        - "Expected value of a binomial variable"
+        - "Variance of a binomial variable"
+        - "Finding the mean and standard deviation of a binomial random variable"
+    - "The geometric distribution":
+        "subtopics":
+        - "Geometric random variables introduction"
+        - "Geometric distribution mean and standard deviation"
+        - "Probability for a geometric random variable"
+        - "Cumulative geometric probability (greater than a value)"
+        - "Cumulative geometric probability (less than a value)"
+        - "TI-84 geometpdf and geometcdf functions"
+        - "Proof of expected value of geometric random variable"

@@ -1,0 +1,71 @@
+"course":
+  "Derivatives: definition and basic rules: Differential Calculus:":
+    "topics":
+    - "Average vs. instantaneous rate of change":
+        "subtopics":
+        - "Newton, Leibniz, and Usain Bolt"
+        - "Derivative as a concept"
+        - "Secant lines & average rate of change"
+        - "Derivative as slope of curve"
+        - "The derivative & tangent line equations"
+    - "Secant lines":
+        "subtopics":
+        - "Slope of a line secant to a curve"
+        - "Secant line with arbitrary difference"
+        - "Secant line with arbitrary point"
+        - "Secant line with arbitrary difference (with simplification)"
+        - "Secant line with arbitrary point (with simplification)"
+    - "Derivative definition":
+        "subtopics":
+        - "Formal definition of the derivative as a limit"
+        - "Formal and alternate form of the derivative"
+        - "Worked example: Derivative as a limit"
+        - "Worked example: Derivative from limit expression"
+        - "The derivative of x² at any point using the formal definition"
+    - "Differentiability":
+        "subtopics":
+        - "Differentiability and continuity"
+        - "Differentiability at a point: graphical"
+        - "Differentiability at a point: algebraic (function is differentiable)"
+        - "Differentiability at a point: algebraic (function isn't differentiable)"
+    - "Power rule":
+        "subtopics":
+        - "Power rule"
+        - "Power rule (with rewriting the expression)"
+        - "Basic derivative rules"
+        - "Basic derivative rules: find the error"
+        - "Basic derivative rules: table"
+    - "Derivatives of cos(x), sin(x), \U0001D452ˣ, and ln(x)":
+        "subtopics":
+        - "Derivatives of sin(x) and cos(x)"
+        - "Worked example: Derivatives of sin(x) and cos(x)"
+        - "Derivative of \U0001D452ˣ"
+        - "Derivative of ln(x)"
+    - "Product rule":
+        "subtopics":
+        - "Product rule"
+        - "Differentiating products"
+        - "Worked example: Product rule with table"
+        - "Worked example: Product rule with mixed implicit & explicit"
+    - "Quotient rule":
+        "subtopics":
+        - "Quotient rule"
+        - "Worked example: Quotient rule with table"
+        - "Differentiating rational functions"
+        - "Tangent to y=\U0001D452ˣ/(2+x³)"
+        - "Normal to y=\U0001D452ˣ/x²"
+    - "Derivatives of tan(x), cot(x), sec(x), and csc(x)":
+        "subtopics":
+        - "Derivatives of tan(x) and cot(x)"
+        - "Derivatives of sec(x) and csc(x)"
+    - "Proof videos":
+        "subtopics":
+        - "Proof: Differentiability implies continuity"
+        - "Justifying the power rule"
+        - "Proof of power rule for positive integer powers"
+        - "Proof of power rule for square root function"
+        - "Limit of sin(x)/x as x approaches 0"
+        - "Limit of (1-cos(x))/x as x approaches 0"
+        - "Proof of the derivative of sin(x)"
+        - "Proof of the derivative of cos(x)"
+        - "Product rule proof"

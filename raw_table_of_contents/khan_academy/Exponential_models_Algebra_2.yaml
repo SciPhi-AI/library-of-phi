@@ -1,0 +1,28 @@
+"course":
+  "Exponential models: Algebra 2:":
+    "topics":
+    - "Interpreting the rate of change of exponential models":
+        "subtopics":
+        - "Understanding rate of change"
+        - "Applying rate of change to exponential models"
+        - "Analyzing rate of change in different scenarios"
+    - "Interpreting change in exponential models":
+        "subtopics":
+        - "Basic interpretation of change"
+        - "Advanced interpretation of change"
+        - "Change interpretation with manipulation"
+    - "Interpreting time in exponential models":
+        "subtopics":
+        - "Understanding time in exponential models"
+        - "Applying time interpretation to exponential models"
+        - "Analyzing time in different scenarios"
+    - "Constructing exponential models according to rate of change":
+        "subtopics":
+        - "Understanding model construction"
+        - "Applying rate of change to model construction"
+        - "Constructing models in different scenarios"
+    - "Constructing exponential models":
+        "subtopics":
+        - "Basic model construction"
+        - "Model construction with half life"
+        - "Model construction with percent change"

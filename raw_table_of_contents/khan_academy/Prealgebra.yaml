@@ -1,0 +1,115 @@
+"course":
+  "Pre-algebra:":
+    "topics":
+    - "Factors and multiples":
+        "subtopics":
+        - "Factors and multiples"
+        - "Prime and composite numbers"
+        - "Prime factorization"
+    - "Patterns":
+        "subtopics":
+        - "Math patterns"
+        - "Writing expressions"
+        - "Number patterns"
+    - "Ratios and rates":
+        "subtopics":
+        - "Intro to ratios"
+        - "Visualize ratios"
+        - "Ratio application"
+        - "Intro to rates"
+    - "Percentages":
+        "subtopics":
+        - "Intro to percents"
+        - "Visualize percents"
+        - "Equivalent representations of percent problems"
+        - "Percent problems"
+        - "Percent word problems"
+    - "Exponents intro and order of operations":
+        "subtopics":
+        - "Meaning of exponents"
+        - "Powers of fractions and decimals"
+        - "Order of operations introduction"
+        - "More on order of operations"
+    - "Variables & expressions":
+        "subtopics":
+        - "Parts of algebraic expressions"
+        - "Substitution & evaluating expressions"
+        - "Evaluating expressions with multiple variables"
+        - "Expression value intuition"
+        - "Evaluating expressions word problems"
+        - "Writing algebraic expressions introduction"
+        - "Writing basic algebraic expressions word problems"
+        - "Distributive property with variables"
+        - "Combining like terms"
+        - "Equivalent expressions"
+    - "Equations & inequalities introduction":
+        "subtopics":
+        - "Algebraic equations basics"
+        - "One-step equations intuition"
+        - "One-step addition & subtraction equations"
+        - "One-step multiplication and division equations"
+        - "Finding mistakes in one-step equations"
+        - "One-step equation word problems"
+        - "Intro to inequalities with variables"
+        - "Dependent and independent variables"
+        - "Analyzing relationships between variables"
+    - "Percent & rational number word problems":
+        "subtopics":
+        - "Percent word problems"
+        - "Rational number word problems"
+    - "Proportional relationships":
+        "subtopics":
+        - "Rate problems with fractions"
+        - "Constant of proportionality"
+        - "Compare and interpret constants of proportionality"
+        - "Identifying proportional relationships"
+        - "Graphs of proportional relationships"
+        - "Writing & solving proportions"
+        - "Equations of proportional relationships"
+    - "One-step and two-step equations & inequalities":
+        "subtopics":
+        - "Combining like terms"
+        - "The distributive property & equivalent expressions"
+        - "Interpreting linear expressions"
+        - "Two-step equations intro"
+        - "Two-step equations with decimals and fractions"
+        - "Two-step equation word problems"
+        - "One-step inequalities"
+        - "Two-step inequalities"
+    - "Roots, exponents, & scientific notation":
+        "subtopics":
+        - "Square roots & cube roots"
+        - "Exponent properties intro"
+        - "Negative exponents"
+        - "Exponent properties (integer exponents)"
+        - "Working with powers of 10"
+        - "Scientific notation intro"
+        - "Arithmetic with numbers in scientific notation"
+        - "Scientific notation word problems"
+    - "Multi-step equations":
+        "subtopics":
+        - "Equations with variables on both sides"
+        - "Equations with parentheses"
+        - "Number of solutions to equations"
+        - "Equations word problems"
+    - "Two-variable equations":
+        "subtopics":
+        - "Graphing proportional relationships"
+        - "Solutions to linear equations"
+        - "Intercepts"
+        - "Slope"
+        - "Intro to slope-intercept form"
+        - "Graphing slope-intercept form"
+        - "Writing slope-intercept equations"
+    - "Functions and linear models":
+        "subtopics":
+        - "Functions"
+        - "Linear models"
+        - "Comparing linear functions"
+        - "Constructing linear models for real-world relationships"
+        - "Recognizing functions"
+        - "Linear and nonlinear functions"
+    - "Systems of equations":
+        "subtopics":
+        - "Intro to systems of equations"
+        - "Solving systems with substitution"

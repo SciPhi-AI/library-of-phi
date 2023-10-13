@@ -1,0 +1,48 @@
+"course":
+  "Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Module 1: Congruence, proof, and constructions":
+        "subtopics":
+        - "Basic constructions"
+        - "Solve for unknown angles—angles and lines at a point"
+        - "Solve for unknown angles—transversals"
+        - "Solve for unknown angles—angles in a triangle"
+        - "Unknown angle proofs"
+        - "Transformations—The next level"
+        - "Rotations"
+        - "Reflections"
+        - "Rotations, reflections, and symmetry"
+        - "Translations"
+        - "Applications of transformations"
+        - "Congruence criteria"
+        - "Triangle congruency proofs"
+        - "Proving properties of geometric figures"
+    - "Module 2: Similarity, proof, and trigonometry":
+        "subtopics":
+        - "Dilations"
+        - "Similarity intro"
+        - "Triangle similarity"
+        - "Similarity applications"
+        - "Applying similarity to right triangles"
+        - "Trigonometry intro"
+        - "Sine and cosine of complementary angles and special angles"
+        - "Trigonometry applications"
+        - "Laws of sines and cosines"
+    - "Module 3: Extending to three dimensions":
+        "subtopics":
+        - "Area"
+        - "Volume properties"
+        - "Volume formulas"
+    - "Module 4: Connecting algebra and geometry through coordinates":
+        "subtopics":
+        - "Rectangular and triangular regions defined by inequalities"
+        - "Perpendicular and parallel lines in the Cartesian plane"
+        - "Perimeters and areas of polygonal regions in the Cartesian plane"
+        - "Partitioning and extending segments and parameterization of lines"
+    - "Module 5: Circles with and without coordinates":
+        "subtopics":
+        - "Central and inscribed angles"
+        - "Angles and arcs"
+        - "Arc length and sector area"
+        - "Secants and tangents"
+        - "Equations for circles and their tangents"

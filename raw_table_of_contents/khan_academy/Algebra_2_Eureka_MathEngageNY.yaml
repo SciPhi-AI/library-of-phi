@@ -1,0 +1,61 @@
+"course":
+  "Algebra 2 (Eureka Math/EngageNY):":
+    "topics":
+    - "Polynomial, rational, and radical relationships":
+        "subtopics":
+        - "Polynomials—from base ten to base X"
+        - "Factorization"
+        - "Graphing factored polynomials"
+        - "Structure in graphs of polynomial functions"
+        - "Remainder theorem and modeling"
+        - "Simplifying rational expressions"
+        - "Multiplying and dividing rational expressions"
+        - "Adding and subtracting rational expressions"
+        - "Rational equations"
+        - "Radical equations"
+        - "Linear systems in three variables"
+        - "Systems of equations"
+        - "Graphing systems of equations"
+        - "Parabolas"
+        - "Complex numbers intro"
+        - "Complex number operations"
+        - "Complex roots and the fundamental theorem of algebra"
+    - "Trigonometric functions":
+        "subtopics":
+        - "Unit circle definition of trig functions"
+        - "Trigonometric graphs and radians"
+        - "Graphing sinusoidal functions"
+        - "Features of sinusoidal graphs"
+        - "Modeling with sinusoidal functions"
+        - "Graphing the tangent function"
+        - "Trigonometric identities"
+    - "Exponential and logarithmic functions":
+        "subtopics":
+        - "Integer exponents"
+        - "Scientific notation"
+        - "Rational exponents"
+        - "Logarithms intro"
+        - "Logarithm properties"
+        - "Changing the base"
+        - "Logarithms and equations"
+        - "Rational and Irrational Numbers"
+        - "Graphs of exponential and logarithmic functions"
+        - "Solving exponential models"
+        - "Modeling with exponential functions"
+        - "Geometric series"
+        - "Arithmetic series"
+    - "Inferences and conclusions from data":
+        "subtopics":
+        - "Chance experiments, sample spaces, and events"
+        - "Two-way tables, conditional probability, and independence"
+        - "Venn diagrams and probability rules"
+        - "Distributions—Center, shape, and spread"
+        - "Using a curve to model a data distribution"
+        - "Normal distributions"
+        - "Types of statistical studies"
+        - "Using sample data to estimate a population characteristic"
+        - "Sample proportions, sampling variability, margin of error"
+        - "Sampling variability in the sample mean"
+        - "Margin of error with sample means; evaluating reports with sample data"
+        - "Experiments and the role of random assignment"
+        - "Ruling out differences due to random assignment"

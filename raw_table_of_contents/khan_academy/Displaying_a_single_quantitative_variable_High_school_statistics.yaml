@@ -1,0 +1,25 @@
+"course":
+  "Displaying a single quantitative variable High school statistics:":
+    "topics":
+    - "Frequency tables and dot plots":
+        "subtopics":
+        - "Frequency tables & dot plots"
+    - "Histograms":
+        "subtopics":
+        - "Creating a histogram"
+        - "Interpreting a histogram"
+    - "Mean and median in data displays":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Median in a histogram"
+        - "Estimating mean and median in data displays"
+    - "Interquartile range":
+        "subtopics":
+        - "Interquartile range (IQR)"
+    - "Box and whisker plots":
+        "subtopics":
+        - "Worked example: Creating a box plot (odd number of data points)"
+        - "Worked example: Creating a box plot (even number of data points)"
+        - "Reading box plots"
+        - "Interpreting box plots"
+        - "Judging outliers in a dataset"

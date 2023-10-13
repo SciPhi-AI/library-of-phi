@@ -1,0 +1,37 @@
+"course":
+  "Solving equations & inequalities Algebra 1:":
+    "topics":
+    - "Linear equations with variables on both sides":
+        "subtopics":
+        - "Why we do the same thing to both sides: Variable on both sides"
+        - "Intro to equations with variables on both sides"
+        - "Equations with variables on both sides: 20-7x=6x-6"
+        - "Equation with variables on both sides: fractions"
+        - "Equation with the variable in the denominator"
+    - "Linear equations with parentheses":
+        "subtopics":
+        - "Equations with parentheses"
+        - "Reasoning with linear equations"
+    - "Analyzing the number of solutions to linear equations":
+        "subtopics":
+        - "Number of solutions to equations"
+        - "Worked example: number of solutions to equations"
+        - "Creating an equation with no solutions"
+        - "Creating an equation with infinitely many solutions"
+    - "Linear equations with unknown coefficients":
+        "subtopics":
+        - "Linear equations with unknown coefficients"
+        - "Why is algebra important to learn?"
+    - "Multi-step inequalities":
+        "subtopics":
+        - "Inequalities with variables on both sides"
+        - "Inequalities with variables on both sides (with parentheses)"
+        - "Multi-step inequalities"
+        - "Using inequalities to solve problems"
+    - "Compound inequalities":
+        "subtopics":
+        - "Compound inequalities: OR"
+        - "Compound inequalities: AND"
+        - "A compound inequality with no solution"
+        - "Double inequalities"
+        - "Compound inequalities examples"

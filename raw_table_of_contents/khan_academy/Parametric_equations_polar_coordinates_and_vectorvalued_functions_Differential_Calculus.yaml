@@ -1,0 +1,22 @@
+"course":
+  "Parametric equations, polar coordinates, and vector-valued functions: Differential Calculus:":
+    "topics":
+    - "Parametric equations":
+        "subtopics":
+        - "Parametric equations intro"
+        - "Parametric equations differentiation"
+        - "Second derivatives of parametric equations"
+    - "Vector-valued functions":
+        "subtopics":
+        - "Vector-valued functions intro"
+        - "Vector-valued functions differentiation"
+        - "Second derivatives (vector-valued functions)"
+    - "Planar motion":
+        "subtopics":
+        - "Planar motion example: acceleration vector"
+        - "Motion along a curve: finding rate of change"
+        - "Motion along a curve: finding velocity magnitude"
+    - "Polar functions":
+        "subtopics":
+        - "Polar functions derivatives"
+        - "Worked example: differentiating polar functions"

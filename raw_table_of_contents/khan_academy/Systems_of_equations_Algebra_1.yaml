@@ -1,0 +1,55 @@
+"course":
+  "Systems of equations Algebra 1:":
+    "topics":
+    - "Introduction to systems of equations":
+        "subtopics":
+        - "Systems of equations: trolls, tolls (1 of 2)"
+        - "Systems of equations: trolls, tolls (2 of 2)"
+        - "Testing a solution to a system of equations"
+        - "Systems of equations with graphing: y=7/5x-5 & y=3/5x-1"
+        - "Systems of equations with graphing: exact & approximate solutions"
+    - "Setting up a system of equations from context":
+        "subtopics":
+        - "Setting up a system of equations from context example (pet weights)"
+        - "Setting up a system of linear equations example (weight and price)"
+        - "Interpreting points in context of graphs of systems"
+    - "Solving systems of equations with substitution":
+        "subtopics":
+        - "Systems of equations with substitution: potato chips"
+        - "Systems of equations with substitution: -3x-4y=-2 & y=2x-5"
+    - "Solving systems of equations with elimination":
+        "subtopics":
+        - "Systems of equations with elimination: King's cupcakes"
+        - "Elimination strategies"
+        - "Systems of equations with elimination: x-4y=-18 & -x+3y=11"
+        - "Systems of equations with elimination: potato chips"
+        - "Systems of equations with elimination (and manipulation)"
+    - "Equivalent systems of equations":
+        "subtopics":
+        - "Why can we subtract one equation from the other in a system of equations?"
+        - "Worked example: equivalent systems of equations"
+        - "Worked example: non-equivalent systems of equations"
+        - "Reasoning with systems of equations"
+    - "Number of solutions to systems of equations":
+        "subtopics":
+        - "Systems of equations number of solutions: fruit prices (1 of 2)"
+        - "Systems of equations number of solutions: fruit prices (2 of 2)"
+        - "Solutions to systems of equations: consistent vs. inconsistent"
+        - "Solutions to systems of equations: dependent vs. independent"
+        - "Number of solutions to a system of equations"
+        - "Number of solutions to a system of equations graphically"
+        - "Number of solutions to a system of equations algebraically"
+        - "How many solutions does a system of linear equations have if there are\
+          \ at least two?"
+    - "Systems of equations word problems":
+        "subtopics":
+        - "Age word problem: Imran"
+        - "Age word problem: Ben & William"
+        - "Age word problem: Arman & Diya"
+        - "System of equations word problem: walk & ride"
+        - "System of equations word problem: no solution"
+        - "System of equations word problem: infinite solutions"
+        - "Systems of equations with elimination: TV & DVD"
+        - "Systems of equations with elimination: apples and oranges"
+        - "Systems of equations with substitution: coins"
+        - "Systems of equations with elimination: coffee and croissants"

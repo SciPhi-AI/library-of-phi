@@ -1,0 +1,20 @@
+"course":
+  "Data and Modeling 8th Grade:":
+    "topics":
+    - "Introduction to Scatter Plots":
+        "subtopics":
+        - "Constructing a Scatter Plot"
+        - "Interpreting Scatter Plots"
+        - "Example of Direction in Scatterplots"
+        - "Scatter Plot: Smokers"
+    - "Estimating Lines of Best Fit":
+        "subtopics":
+        - "Estimating the Line of Best Fit Exercise"
+        - "Line of Best Fit: Smoking in 1945"
+        - "Estimating with Linear Regression (Linear Models)"
+        - "Interpreting a Trend Line"
+    - "Two-Way Tables":
+        "subtopics":
+        - "Two-Way Frequency Tables and Venn Diagrams"
+        - "Two-Way Relative Frequency Tables"
+        - "Interpreting Two-Way Tables"

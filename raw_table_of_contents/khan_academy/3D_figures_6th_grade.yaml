@@ -1,0 +1,25 @@
+"course":
+  "3D figures 6th grade:":
+    "topics":
+    - "Geometric Solids":
+        "subtopics":
+        - "Understanding 3D Shapes"
+        - "Recognizing Common 3D Shapes"
+        - "Counting Faces and Edges of 3D Shapes"
+    - "Volume":
+        "subtopics":
+        - "Volume with Fractional Cubes"
+        - "Volume with Fractions"
+        - "Volume of a Rectangular Prism with Fractional Dimensions"
+        - "How Volume Changes from Changing Dimensions"
+        - "Volume of a Rectangular Prism: Word Problem"
+    - "Nets of 3D Figures":
+        "subtopics":
+        - "Introduction to Nets of Polyhedra"
+        - "Surface Area Using a Net: Triangular Prism"
+        - "Surface Area Using a Net: Rectangular Prism"
+    - "Surface Area":
+        "subtopics":
+        - "Surface Area of a Box (Cuboid)"
+        - "Surface Area of a Box Using Nets"
+        - "Surface Area Word Problem Example"

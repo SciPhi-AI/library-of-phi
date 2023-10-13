@@ -1,0 +1,62 @@
+"course":
+  "Limits and continuity: Differential Calculus:":
+    "topics":
+    - "Limits intro":
+        "subtopics":
+        - "Estimating limits from graphs"
+        - "Unbounded limits"
+        - "One-sided limits from graphs"
+        - "Connecting limits and graphical behavior"
+        - "Estimating limits from tables"
+        - "One-sided limits from tables"
+    - "Formal definition of limits (epsilon-delta)":
+        "subtopics":
+        - "Intuition review"
+        - "Building the idea"
+        - "The definition"
+        - "Using the definition"
+    - "Properties of limits":
+        "subtopics":
+        - "Limit properties"
+        - "Limits of combined functions"
+        - "Theorem for limits of composite functions"
+        - "Limits by direct substitution"
+        - "Limits of trigonometric functions"
+        - "Limits of piecewise functions"
+    - "Limits using algebraic manipulation":
+        "subtopics":
+        - "Limits by factoring"
+        - "Limits by rationalizing"
+        - "Trig limit using Pythagorean identity"
+        - "Trig limit using double angle identity"
+        - "Strategy in finding limits"
+    - "Squeeze theorem":
+        "subtopics":
+        - "Squeeze theorem intro"
+        - "Limit of sin(x)/x as x approaches 0"
+        - "Limit of (1-cos(x))/x as x approaches 0"
+    - "Types of discontinuities":
+        "subtopics":
+        - "Types of discontinuities"
+        - "Continuity at a point"
+        - "Continuity over an interval"
+        - "Removing discontinuities"
+    - "Infinite limits":
+        "subtopics":
+        - "Introduction to infinite limits"
+        - "Infinite limits and asymptotes"
+        - "Connecting limits at infinity notation and graph"
+        - "Analyzing unbounded limits: rational function"
+        - "Analyzing unbounded limits: mixed function"
+    - "Limits at infinity":
+        "subtopics":
+        - "Introduction to limits at infinity"
+        - "Functions with same limit at infinity"
+        - "Limits at infinity of quotients"
+        - "Limit at infinity of a difference of functions"
+    - "Intermediate value theorem":
+        "subtopics":
+        - "Intermediate value theorem"
+        - "Worked example: using the intermediate value theorem"
+        - "Justification with the intermediate value theorem: table"
+        - "Justification with the intermediate value theorem: equation"

@@ -1,0 +1,27 @@
+"course":
+  "One-variable statistics (part 1) Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Statistical Questions":
+        "subtopics":
+        - "Understanding Statistical Questions"
+        - "Formulating Statistical Questions"
+    - "Data Representations":
+        "subtopics":
+        - "Representing Data"
+        - "Frequency Tables"
+        - "Dot Plots"
+        - "Creating a Histogram"
+        - "Interpreting a Histogram"
+    - "Box Plots":
+        "subtopics":
+        - "Reading Box Plots"
+        - "Constructing a Box Plot"
+        - "Worked Example: Creating a Box Plot (Odd Number of Data Points)"
+        - "Worked Example: Creating a Box Plot (Even Number of Data Points)"
+    - "Comparing Data Displays":
+        "subtopics":
+        - "Comparing Dot Plots, Histograms, and Box Plots"
+    - "The Shape of Distributions":
+        "subtopics":
+        - "Understanding Shapes of Distributions"
+        - "Classifying Shapes of Distributions"

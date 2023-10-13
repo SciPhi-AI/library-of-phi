@@ -1,0 +1,85 @@
+"course":
+  "Module 3 Exponential and logarithmic functions Algebra 2 (Eureka Math/EngageNY):":
+    "topics":
+    - "Integer exponents":
+        "subtopics":
+        - "Multiplying & dividing powers"
+        - "Powers of products & quotients"
+    - "Scientific notation":
+        "subtopics":
+        - "Scientific notation example: 0.0000000003457"
+        - "Multiplying & dividing in scientific notation"
+        - "Subtracting in scientific notation"
+        - "Scientific notation word problem: red blood cells"
+        - "Scientific notation word problem: U.S. national debt"
+        - "Scientific notation word problem: speed of light"
+    - "Rational exponents":
+        "subtopics":
+        - "Intro to rational exponents"
+        - "Rewriting roots as rational exponents"
+        - "Rewriting quotient of powers"
+        - "\U0001D452 and compound interest"
+        - "\U0001D452 as a limit"
+    - "Logarithms intro":
+        "subtopics":
+        - "Solving exponential equations using exponent properties"
+        - "Intro to logarithms"
+        - "Evaluating logarithms"
+    - "Logarithm properties":
+        "subtopics":
+        - "Intro to logarithm properties (1 of 2)"
+        - "Intro to logarithm properties (2 of 2)"
+        - "Using the logarithmic product rule"
+        - "Using the logarithmic power rule"
+        - "Proof of the logarithm product rule"
+        - "Proof of the logarithm quotient and power rules"
+    - "Changing the base":
+        "subtopics":
+        - "Evaluating logarithms: change of base rule"
+        - "Using the logarithm change of base rule"
+        - "Proof of the logarithm change of base rule"
+    - "Logarithms and equations":
+        "subtopics":
+        - "Solving exponential equations using logarithms: base-10"
+        - "Solving exponential equations using logarithms: base-2"
+        - "Logarithmic equations: variable in the argument"
+        - "Logarithmic equations: variable in the base"
+    - "Rational and Irrational Numbers":
+        "subtopics":
+        - "Approximating square roots"
+        - "Comparing irrational numbers with radicals"
+        - "Proof: sum & product of two rationals is rational"
+        - "Proof: product of rational & irrational is irrational"
+        - "Proof: sum of rational & irrational is irrational"
+        - "Sums and products of irrational numbers"
+    - "Graphs of exponential and logarithmic functions":
+        "subtopics":
+        - "Relationship between exponentials & logarithms"
+        - "Transforming exponential graphs"
+        - "Graphs of logarithmic functions"
+    - "Solving exponential models":
+        "subtopics":
+        - "Solving exponential equations using exponent properties (advanced)"
+        - "Exponential model word problem: medication dissolve"
+        - "Exponential model word problem: bacteria growth"
+    - "Modeling with exponential functions":
+        "subtopics":
+        - "Interpreting change in exponential models"
+        - "Constructing exponential models"
+        - "Constructing exponential models: half life"
+        - "Constructing exponential models: percent change"
+    - "Geometric series":
+        "subtopics":
+        - "Summation notation"
+        - "Geometric series intro"
+        - "Geometric series with sigma notation"
+        - "Finite geometric series formula"
+        - "Finite geometric series word problem: social media"
+        - "Finite geometric series word problem: mortgage"
+    - "Arithmetic series":
+        "subtopics":
+        - "Arithmetic series intro"
+        - "Arithmetic series formula"
+        - "Worked example: arithmetic series (sigma notation)"
+        - "Worked example: arithmetic series (sum expression)"
+        - "Proof of finite arithmetic series formula"

@@ -1,0 +1,34 @@
+"course":
+  "Addition and Subtraction within 20: Early Math Review:":
+    "topics":
+    - "Addition within 20":
+        "subtopics":
+        - "Adding within 20 using place value blocks"
+        - "Adding within 20 using ten frames"
+        - "Adding 7 + 6"
+        - "Adding 8 + 7"
+        - "Adding 5 + 3 + 6"
+    - "Subtraction within 20":
+        "subtopics":
+        - "Subtract within 20 using a number line"
+        - "Subtract within 20 using place value blocks"
+        - "Subtract within 20 using ten frames"
+        - "Subtracting 14 - 6"
+    - "Equal Sign":
+        "subtopics":
+        - "Understanding the equal sign"
+    - "Missing Number within 20":
+        "subtopics":
+        - "Missing numbers in addition and subtraction"
+    - "Word Problems within 20":
+        "subtopics":
+        - "Addition and subtraction word problems: superheroes"
+        - "Addition and subtraction word problems: gorillas"
+        - "Word problems with 'more' and 'fewer'"
+        - "Comparison word problems: marbles"
+        - "Comparison word problems: roly-polies"
+    - "Repeated Addition":
+        "subtopics":
+        - "Adding with arrays"
+        - "Using arrays in word problems"
+        - "Repeated addition: haircuts"

@@ -1,0 +1,38 @@
+"course":
+  "Intro to division: Arithmetic:":
+    "topics":
+    - "Division intro":
+        "subtopics":
+        - "Understanding Division"
+        - "Division Basics"
+        - "Division Terms"
+        - "Division Symbols"
+        - "Division Operations"
+    - "Division as equal groups":
+        "subtopics":
+        - "Concept of Equal Groups"
+        - "Division in Equal Groups"
+        - "Practical Examples of Equal Groups"
+        - "Equal Groups in Real Life"
+        - "Division Problems with Equal Groups"
+    - "Visualizing division with arrays":
+        "subtopics":
+        - "Understanding Arrays"
+        - "Division with Arrays"
+        - "Array Visualization"
+        - "Practical Examples of Arrays"
+        - "Array Problems in Division"
+    - "Relating multiplication and division":
+        "subtopics":
+        - "Understanding Multiplication"
+        - "Relation between Multiplication and Division"
+        - "Multiplication as Inverse of Division"
+        - "Practical Examples of Multiplication and Division"
+        - "Multiplication and Division Problems"
+    - "Multiplication and division word problems":
+        "subtopics":
+        - "Understanding Word Problems"
+        - "Solving Multiplication Word Problems"
+        - "Solving Division Word Problems"
+        - "Practical Examples of Word Problems"
+        - "Word Problems in Real Life"

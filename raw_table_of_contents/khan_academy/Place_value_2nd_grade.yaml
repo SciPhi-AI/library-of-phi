@@ -1,0 +1,33 @@
+"course":
+  "Place value 2nd grade:":
+    "topics":
+    - "Introduction to Place Value":
+        "subtopics":
+        - "Intro to place value"
+        - "Use place value blocks to show numbers within 1,000"
+        - "Place value tables within 1,000"
+        - "Identifying value in digits"
+        - "Creating the largest number"
+    - "Understanding Number Forms":
+        "subtopics":
+        - "Numbers in standard, word, and expanded form"
+        - "Expanded form of numbers"
+        - "Number and word form of a number"
+        - "Word form and expanded form"
+    - "Regrouping and Comparing Numbers":
+        "subtopics":
+        - "Regroup whole numbers"
+        - "Regrouping whole numbers: 675"
+        - "Comparing 2 and 3 digit numbers"
+        - "Greater than and less than symbols"
+        - "Comparing whole numbers"
+    - "Even and Odd Numbers":
+        "subtopics":
+        - "Even and odd numbers"
+        - "Understanding even and odd numbers visually"
+    - "Counting Patterns within 1,000":
+        "subtopics":
+        - "Counting patterns within 1,000"
+        - "Skip-counting by 5s"
+        - "Counting by 10s"
+        - "Skip-counting by 100s"

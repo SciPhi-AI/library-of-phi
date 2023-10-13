@@ -1,0 +1,21 @@
+"course":
+  "Transformations of functions: College Algebra:":
+    "topics":
+    - "Shifting functions":
+        "subtopics":
+        - "Shifting functions introduction"
+        - "Shifting functions examples"
+        - "Graphing shifted functions"
+    - "Reflecting functions":
+        "subtopics":
+        - "Reflecting functions introduction"
+        - "Reflecting functions examples"
+    - "Symmetry of functions":
+        "subtopics":
+        - "Function symmetry introduction"
+        - "Even and odd functions: Graphs"
+        - "Even and odd functions: Tables"
+    - "Scaling functions":
+        "subtopics":
+        - "Scaling functions introduction"
+        - "Scaling functions vertically: examples"

@@ -1,0 +1,45 @@
+"course":
+  "Exploring bivariate numerical data: Statistics and probability:":
+    "topics":
+    - "Introduction to scatterplots":
+        "subtopics":
+        - "Constructing a scatter plot"
+        - "Example of direction in scatterplots"
+        - "Scatter plot: smokers"
+        - "Bivariate relationship linearity, strength and direction"
+    - "Correlation coefficients":
+        "subtopics":
+        - "Example: Correlation coefficient intuition"
+        - "Calculating correlation coefficient r"
+    - "Introduction to trend lines":
+        "subtopics":
+        - "Fitting a line to data"
+        - "Estimating the line of best fit exercise"
+        - "Estimating with linear regression (linear models)"
+        - "Line of best fit: smoking in 1945"
+    - "Least-squares regression equations":
+        "subtopics":
+        - "Introduction to residuals and least squares regression"
+        - "Calculating residual example"
+        - "Calculating the equation of a regression line"
+        - "Interpreting slope of regression line"
+        - "Interpreting y-intercept in regression model"
+        - "Interpreting a trend line"
+    - "Assessing the fit in least-squares regression":
+        "subtopics":
+        - "Residual plots"
+        - "R-squared or coefficient of determination"
+        - "Standard deviation of residuals or Root-mean-square error (RMSD)"
+        - "Interpreting computer regression data"
+        - "Impact of removing outliers on regression lines"
+    - "More on regression":
+        "subtopics":
+        - "Squared error of regression line"
+        - "Proof (part 1) minimizing squared error to regression line"
+        - "Proof (part 2) minimizing squared error to regression line"
+        - "Proof (part 3) minimizing squared error to regression line"
+        - "Proof (part 4) minimizing squared error to regression line"
+        - "Regression line example"
+        - "Second regression example"
+        - "Calculating R-squared"
+        - "Covariance and the regression line"

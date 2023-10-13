@@ -1,0 +1,46 @@
+"course":
+  "Trigonometric equations and identities: Trigonometry:":
+    "topics":
+    - "Inverse trigonometric functions":
+        "subtopics":
+        - "Intro to arcsine"
+        - "Intro to arctangent"
+        - "Intro to arccosine"
+        - "Restricting domains of functions to make them invertible"
+        - "Domain & range of inverse tangent function"
+        - "Using inverse trig functions with a calculator"
+    - "Sinusoidal equations":
+        "subtopics":
+        - "Solving sinusoidal equations of the form sin(x)=d"
+        - "Cosine equation algebraic solution set"
+        - "Cosine equation solution set in an interval"
+        - "Sine equation algebraic solution set"
+        - "Solving cos(θ)=1 and cos(θ)=-1"
+    - "Sinusoidal models":
+        "subtopics":
+        - "Interpreting solutions of trigonometric equations"
+        - "Trig word problem: solving for temperature"
+    - "Angle addition identities":
+        "subtopics":
+        - "Trig angle addition identities"
+        - "Using the cosine angle addition identity"
+        - "Using the cosine double-angle identity"
+        - "Proof of the sine angle addition identity"
+        - "Proof of the cosine angle addition identity"
+        - "Proof of the tangent angle sum and difference identities"
+    - "Using trigonometric identities":
+        "subtopics":
+        - "Finding trig values using angle addition identities"
+        - "Using the tangent angle addition identity"
+        - "Using trig angle addition identities: finding side lengths"
+        - "Using trig angle addition identities: manipulating expressions"
+        - "Using trigonometric identities"
+    - "Challenging trigonometry problems":
+        "subtopics":
+        - "Trig challenge problem: area of a triangle"
+        - "Trig challenge problem: area of a hexagon"
+        - "Trig challenge problem: cosine of angle-sum"
+        - "Trig challenge problem: arithmetic progression"
+        - "Trig challenge problem: maximum value"
+        - "Trig challenge problem: multiple constraints"
+        - "Trig challenge problem: system of equations"

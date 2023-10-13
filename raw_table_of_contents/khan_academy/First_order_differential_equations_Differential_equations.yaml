@@ -1,0 +1,56 @@
+"course":
+  "First order differential equations Differential equations:":
+    "topics":
+    - "Intro to differential equations":
+        "subtopics":
+        - "Differential equations introduction"
+        - "Writing a differential equation"
+        - "Linear solution to differential equation"
+    - "Slope fields":
+        "subtopics":
+        - "Slope fields introduction"
+        - "Equation from slope field"
+        - "Slope field from equation"
+        - "Forming a slope field"
+        - "Approximating solution curves in slope fields"
+        - "Range of solution curve from slope field"
+    - "Euler's Method":
+        "subtopics":
+        - "Euler's method"
+        - "Worked example: Euler's method"
+    - "Separable equations":
+        "subtopics":
+        - "Separable equations introduction"
+        - "Addressing treating differentials algebraically"
+        - "Identifying separable equations"
+        - "Finding a specific solution to a separable equation"
+        - "Separable equation with an implicit solution"
+        - "Separable equations (old)"
+        - "Separable equations example (old)"
+    - "Exponential models":
+        "subtopics":
+        - "Exponential models & differential equations (Part 1)"
+        - "Exponential models & differential equations (Part 2)"
+        - "Exponential solution to differential equation"
+        - "Newton's Law of Cooling"
+        - "Worked example: Newton's law of cooling"
+    - "Logistic models":
+        "subtopics":
+        - "Growth models: introduction"
+        - "The logistic  growth model"
+        - "Logistic equations (Part 1)"
+        - "Logistic equations (Part 2)"
+        - "Worked example: logistic model equations"
+    - "Exact equations and integrating factors":
+        "subtopics":
+        - "Exact equations intuition 1"
+        - "Exact equations intuition 2"
+        - "Exact equations example 1"
+        - "Exact equations example 2"
+        - "Exact equations example 3"
+        - "Integrating factors 1"
+        - "Integrating factors 2"
+    - "Homogeneous equations":
+        "subtopics":
+        - "First order homogenous equations"
+        - "First order homogeneous equations 2"

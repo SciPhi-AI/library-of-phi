@@ -1,0 +1,64 @@
+"course":
+  "AP®︎ Calculus BC Standards mappings AP®︎/College Calculus BC:":
+    "topics":
+    - "Limits and Continuity":
+        "subtopics":
+        - "Understanding Limits"
+        - "Computing Limits"
+        - "Continuity at a Point"
+        - "Continuity over an Interval"
+        - "Intermediate Value Theorem"
+        - "Limit Laws"
+        - "Squeeze Theorem"
+    - "Differentiation":
+        "subtopics":
+        - "Definition of Derivative"
+        - "Differentiation Rules"
+        - "Chain Rule"
+        - "Implicit Differentiation"
+        - "Derivatives of Inverse Functions"
+        - "L'Hopital's Rule"
+        - "Higher Order Derivatives"
+    - "Applications of Differentiation":
+        "subtopics":
+        - "Related Rates"
+        - "Mean Value Theorem"
+        - "Optimization Problems"
+        - "Newton's Method"
+        - "Curve Sketching"
+        - "Differentials"
+    - "Integration":
+        "subtopics":
+        - "Definite Integrals"
+        - "Fundamental Theorem of Calculus"
+        - "Techniques of Integration"
+        - "Improper Integrals"
+        - "Numerical Integration"
+        - "Integration by Parts"
+        - "Partial Fractions"
+    - "Applications of Integration":
+        "subtopics":
+        - "Areas between Curves"
+        - "Volumes of Revolution"
+        - "Arc Length and Surface Area"
+        - "Work and Fluid Forces"
+        - "Moments and Centers of Mass"
+        - "Differential Equations"
+    - "Sequences and Series":
+        "subtopics":
+        - "Convergence of Sequences"
+        - "Series and Convergence"
+        - "The Integral Test"
+        - "Comparison Tests"
+        - "Alternating Series"
+        - "Ratio and Root Tests"
+        - "Power Series"
+        - "Taylor and Maclaurin Series"
+    - "Parametric, Vector, and Polar Functions":
+        "subtopics":
+        - "Parametric Equations"
+        - "Vector-Valued Functions"
+        - "Polar Coordinates"
+        - "Derivatives of Polar Functions"
+        - "Areas and Lengths in Polar Coordinates"
+        - "Complex Numbers in Polar Form"

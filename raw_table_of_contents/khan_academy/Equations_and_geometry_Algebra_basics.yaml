@@ -1,0 +1,27 @@
+"course":
+  "Equations and Geometry: Algebra Basics:":
+    "topics":
+    - "Equations & Geometry":
+        "subtopics":
+        - "Equation Practice with Segment Addition"
+        - "Equation Practice with Midpoints"
+        - "Equation Practice with Vertical Angles"
+        - "Equation Practice with Complementary Angles"
+        - "Equation Practice with Supplementary Angles"
+    - "Triangle Angles":
+        "subtopics":
+        - "Angles in a Triangle Sum to 180° Proof"
+    - "Pythagorean Theorem":
+        "subtopics":
+        - "Intro to the Pythagorean Theorem"
+        - "Intro to the Pythagorean Theorem 2"
+        - "Pythagorean Theorem Example"
+        - "Thiago Asks: How Much Time Does a Goalkeeper Have to React to a Penalty\
+          \ Kick?"
+    - "Triangle Similarity Intro":
+        "subtopics":
+        - "Intro to Triangle Similarity"
+        - "Triangle Similarity Postulates/Criteria"
+        - "Determining Similar Triangles"
+        - "Solving Similar Triangles"
+        - "Solving Similar Triangles: Same Side Plays Different Roles"

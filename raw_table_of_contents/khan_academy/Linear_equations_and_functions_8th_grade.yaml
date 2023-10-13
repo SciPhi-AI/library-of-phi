@@ -1,0 +1,94 @@
+"course":
+  "Linear equations and functions 8th grade:":
+    "topics":
+    - "Graphing proportional relationships":
+        "subtopics":
+        - "Rates & proportional relationships example"
+        - "Rates & proportional relationships: gas mileage"
+        - "Graphing proportional relationships from a table"
+        - "Graphing proportional relationships from an equation"
+    - "Solutions to linear equations":
+        "subtopics":
+        - "Intro to the coordinate plane"
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Completing solutions to 2-variable equations"
+    - "Intercepts":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+        - "Intercepts from a table"
+        - "Worked example: intercepts from an equation"
+    - "Slope":
+        "subtopics":
+        - "Intro to slope"
+        - "Slope & direction of a line"
+        - "Positive & negative slope"
+        - "Worked example: slope from graph"
+        - "Slope of a line: negative slope"
+        - "Worked example: slope from two points"
+        - "Slope from equation"
+        - "Converting to slope-intercept form"
+        - "Slope of a horizontal line"
+    - "Intro to slope-intercept form":
+        "subtopics":
+        - "Intro to slope-intercept form"
+        - "Worked examples: slope-intercept intro"
+        - "Graph from slope-intercept equation"
+        - "Slope-intercept equation from graph"
+        - "Slope-intercept equation from slope & point"
+        - "Slope-intercept equation from two points"
+        - "Slope-intercept form problems"
+        - "Slope-intercept form from a table"
+    - "Functions":
+        "subtopics":
+        - "What is a function?"
+        - "Worked example: Evaluating functions from equation"
+        - "Function notation example"
+        - "Worked example: Evaluating functions from graph"
+        - "Equations vs. functions"
+        - "Manipulating formulas: temperature"
+        - "Obtaining a function from an equation"
+    - "Linear models":
+        "subtopics":
+        - "Linear graphs word problems"
+        - "Linear graphs word problem: cats"
+        - "Linear equations word problems: volcano"
+        - "Linear equations word problems: earnings"
+        - "Modeling with linear equations: snow"
+        - "Linear function example: spending money"
+        - "Fitting a line to data"
+    - "Comparing linear functions":
+        "subtopics":
+        - "Comparing linear functions: equation vs. graph"
+        - "Comparing linear functions: same rate of change"
+        - "Comparing linear functions: faster rate of change"
+        - "Comparing linear functions word problem: climb"
+        - "Comparing linear functions word problem: walk"
+        - "Comparing linear functions word problem: work"
+    - "Constructing linear models for real-world relationships":
+        "subtopics":
+        - "Linear functions word problem: fuel"
+        - "Linear functions word problem: pool"
+        - "Modeling with linear equations: gym membership & lemonade"
+        - "Linear functions word problem: iceberg"
+        - "Linear functions word problem: paint"
+    - "Recognizing functions":
+        "subtopics":
+        - "Testing if a relationship is a function"
+        - "Relations and functions"
+        - "Recognizing functions from graph"
+        - "Checking if a table represents a function"
+        - "Recognizing functions from table"
+        - "Checking if an equation represents a function"
+        - "Does a vertical line represent a function?"
+        - "Recognizing functions from verbal description"
+        - "Recognizing functions from verbal description word problem"
+    - "Linear and nonlinear functions":
+        "subtopics":
+        - "Recognizing linear functions"
+        - "Linear & nonlinear functions: table"
+        - "Linear & nonlinear functions: word problem"
+        - "Linear & nonlinear functions: missing value"
+        - "Interpreting a graph example"

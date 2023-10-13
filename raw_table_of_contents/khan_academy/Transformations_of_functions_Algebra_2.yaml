@@ -1,0 +1,41 @@
+"course":
+  "Transformations of functions: Algebra 2:":
+    "topics":
+    - "Shifting functions":
+        "subtopics":
+        - "Shifting functions introduction"
+        - "Shifting functions examples"
+        - "Graphing shifted functions"
+    - "Reflecting functions":
+        "subtopics":
+        - "Reflecting functions introduction"
+        - "Reflecting functions: examples"
+    - "Symmetry of functions":
+        "subtopics":
+        - "Function symmetry introduction"
+        - "Even and odd functions: Graphs"
+        - "Even and odd functions: Tables"
+        - "Even and odd functions: Equations"
+        - "Even and odd functions: Find the mistake"
+    - "Scaling functions":
+        "subtopics":
+        - "Scaling functions introduction"
+        - "Scaling functions vertically: examples"
+        - "Scaling functions horizontally: examples"
+        - "Identifying horizontal squash from graph"
+    - "Putting it all together":
+        "subtopics":
+        - "Identifying function transformations"
+    - "Graphs of square and cube root functions":
+        "subtopics":
+        - "Graphing square and cube root functions"
+    - "Graphs of exponential functions":
+        "subtopics":
+        - "Transforming exponential graphs"
+        - "Transforming exponential graphs (example 2)"
+        - "Graphing exponential functions"
+    - "Graphs of logarithmic functions":
+        "subtopics":
+        - "Graphical relationship between 2ˣ and log₂(x)"
+        - "Graphing logarithmic functions (example 1)"
+        - "Graphing logarithmic functions (example 2)"

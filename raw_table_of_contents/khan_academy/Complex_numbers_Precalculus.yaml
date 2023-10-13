@@ -1,0 +1,44 @@
+"course":
+  "Complex numbers Precalculus:":
+    "topics":
+    - "The complex plane":
+        "subtopics":
+        - "Plotting numbers on the complex plane"
+        - "Distance and midpoint of complex numbers"
+        - "Distance & midpoint of complex numbers"
+    - "Complex conjugates and dividing complex numbers":
+        "subtopics":
+        - "Intro to complex number conjugates"
+        - "Complex number conjugates"
+        - "Dividing complex numbers"
+    - "Identities with complex numbers":
+        "subtopics":
+        - "Complex numbers & sum of squares factorization"
+        - "Factoring sum of squares"
+        - "Factoring polynomials using complex numbers"
+    - "Modulus (absolute value) and argument (angle) of complex numbers":
+        "subtopics":
+        - "Absolute value of complex numbers"
+        - "Complex numbers with the same modulus (absolute value)"
+        - "Absolute value & angle of complex numbers"
+    - "Polar form of complex numbers":
+        "subtopics":
+        - "Polar & rectangular forms of complex numbers"
+        - "Converting a complex number from polar to rectangular form"
+    - "Graphically multiplying complex numbers":
+        "subtopics":
+        - "Multiplying complex numbers graphically example: -3i"
+        - "Multiplying complex numbers graphically example: -1-i"
+    - "Multiplying and dividing complex numbers in polar form":
+        "subtopics":
+        - "Multiplying complex numbers in polar form"
+        - "Dividing complex numbers in polar form"
+    - "Powers and roots of complex numbers":
+        "subtopics":
+        - "Taking and visualizing powers of a complex number"
+        - "Complex number equations: x³=1"
+    - "The fundamental theorem of algebra":
+        "subtopics":
+        - "The Fundamental theorem of Algebra"
+        - "Quadratics & the Fundamental Theorem of Algebra"
+        - "Number of possible real roots of a polynomial"

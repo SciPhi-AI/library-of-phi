@@ -1,0 +1,53 @@
+"course":
+  "Limits and Continuity: Calculus 1:":
+    "topics":
+    - "Introduction to Limits":
+        "subtopics":
+        - "Limits Intro"
+        - "Estimating Limits from Graphs"
+        - "Unbounded Limits"
+        - "One-sided Limits from Graphs"
+        - "Connecting Limits and Graphical Behavior"
+        - "Estimating Limits from Tables"
+        - "One-sided Limits from Tables"
+    - "Formal Definition of Limits":
+        "subtopics":
+        - "Formal Definition of Limits Part 1: Intuition Review"
+        - "Formal Definition of Limits Part 2: Building the Idea"
+        - "Formal Definition of Limits Part 3: The Definition"
+        - "Formal Definition of Limits Part 4: Using the Definition"
+    - "Properties and Types of Limits":
+        "subtopics":
+        - "Limit Properties"
+        - "Limits of Combined Functions"
+        - "Theorem for Limits of Composite Functions"
+        - "Limits by Direct Substitution"
+        - "Limits of Trigonometric Functions"
+        - "Limits of Piecewise Functions"
+    - "Limits Using Algebraic Manipulation":
+        "subtopics":
+        - "Limits by Factoring"
+        - "Limits by Rationalizing"
+        - "Trig Limit Using Pythagorean Identity"
+        - "Trig Limit Using Double Angle Identity"
+        - "Strategy in Finding Limits"
+    - "Squeeze Theorem and Discontinuities":
+        "subtopics":
+        - "Squeeze Theorem Intro"
+        - "Types of Discontinuities"
+        - "Continuity at a Point"
+        - "Continuity Over an Interval"
+        - "Removing Discontinuities"
+    - "Infinite Limits and Limits at Infinity":
+        "subtopics":
+        - "Introduction to Infinite Limits"
+        - "Infinite Limits and Asymptotes"
+        - "Introduction to Limits at Infinity"
+        - "Limits at Infinity of Quotients"
+        - "Limit at Infinity of a Difference of Functions"
+    - "Intermediate Value Theorem":
+        "subtopics":
+        - "Intermediate Value Theorem"
+        - "Worked Example: Using the Intermediate Value Theorem"
+        - "Justification with the Intermediate Value Theorem: Table"
+        - "Justification with the Intermediate Value Theorem: Equation"

@@ -1,0 +1,25 @@
+"course":
+  "Multi-digit multiplication and division 5th grade:":
+    "topics":
+    - "Multi-digit multiplication estimation":
+        "subtopics":
+        - "Strategies for multiplying multiples of 10, 100 and 1000"
+        - "Estimating multi-digit multiplication"
+    - "Multi-digit multiplication":
+        "subtopics":
+        - "Relate multiplication with area models to the standard algorithm"
+        - "Intro to standard way of multiplying multi-digit numbers"
+        - "Understanding the standard algorithm for multiplication"
+        - "Multiplying multi-digit numbers: 6,742x23"
+    - "Multi-digit division estimation":
+        "subtopics":
+        - "Strategies for dividing multiples of 10, 100, and 1000"
+        - "Estimating multi-digit division"
+    - "Multi-digit division":
+        "subtopics":
+        - "Long division with remainders: 2292÷4"
+        - "Long division with remainders: 3771÷8"
+        - "Introduction to dividing by 2-digits"
+        - "Dividing by 2-digits: 9815÷65"
+        - "Dividing by 2-digits: 7182÷42"
+        - "Dividing by a 2-digits: 4781÷32"

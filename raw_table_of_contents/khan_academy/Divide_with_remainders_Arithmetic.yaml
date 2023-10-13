@@ -1,0 +1,33 @@
+"course":
+  "Divide with remainders: Arithmetic:":
+    "topics":
+    - "Introduction to remainders":
+        "subtopics":
+        - "Understanding Remainders"
+        - "Remainders in Division"
+    - "Divide multiples of 10, 100, and 1,000 by 1-digit numbers":
+        "subtopics":
+        - "Division by Single Digit"
+        - "Division of Large Numbers"
+    - "Quotients that are multiples of 10":
+        "subtopics":
+        - "Understanding Quotients"
+        - "Quotients in Division"
+    - "Division with place value":
+        "subtopics":
+        - "Place Value in Division"
+        - "Division Using Place Value"
+    - "Division with area models":
+        "subtopics":
+        - "Understanding Area Models"
+        - "Division Using Area Models"
+    - "Multi-digit division with partial quotients":
+        "subtopics":
+        - "Introduction to Partial Quotients"
+        - "Division with Partial Quotients"
+        - "Division with Remainder"
+    - "Multiplication and division word problems":
+        "subtopics":
+        - "Division Word Problems"
+        - "Multiplication Word Problems"
+        - "Word Problems with Remainders"

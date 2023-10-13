@@ -1,0 +1,31 @@
+"course":
+  "Systems of equations Pre-algebra:":
+    "topics":
+    - "Introduction to Systems of Equations":
+        "subtopics":
+        - "Understanding Systems of Equations"
+        - "Basic Concepts of Systems of Equations"
+    - "Systems of Equations with Trolls and Tolls":
+        "subtopics":
+        - "Trolls, Tolls (1 of 2)"
+        - "Trolls, Tolls (2 of 2)"
+    - "Testing a Solution to a System of Equations":
+        "subtopics":
+        - "Testing Methodologies"
+        - "Practical Examples of Testing"
+    - "Systems of Equations with Graphing":
+        "subtopics":
+        - "Introduction to Graphing"
+        - "y=7/5x-5 & y=3/5x-1"
+        - "5x+3y=7 & 3x-2y=8"
+        - "Graphing Chores"
+        - "Exact & Approximate Solutions"
+    - "Solving Systems with Substitution":
+        "subtopics":
+        - "Introduction to Substitution"
+        - "2y=x+7 & x=y-4"
+        - "y=4x-17.5 & y+2x=6.5"
+        - "-3x-4y=-2 & y=2x-5"
+        - "9x+3y=15 & y-x=5"
+        - "y=-5x+8 & 10x+2y=-2"
+        - "y=-1/4x+100 & y=-1/4x+120"

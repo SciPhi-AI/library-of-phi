@@ -1,0 +1,19 @@
+"course":
+  "Piecewise, absolute value, & inverse functions Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Piecewise functions":
+        "subtopics":
+        - "Introduction to piecewise functions"
+        - "Evaluating piecewise functions"
+        - "Graphing piecewise functions"
+        - "Domain & range of step function"
+        - "Domain & range of piecewise linear functions"
+    - "Absolute value functions":
+        "subtopics":
+        - "Shifting absolute value graphs"
+    - "Inverse functions":
+        "subtopics":
+        - "Intro to inverse functions"
+        - "Inputs & outputs of inverse functions"
+        - "Graphing the inverse of a linear function"
+        - "Finding inverse functions: linear"

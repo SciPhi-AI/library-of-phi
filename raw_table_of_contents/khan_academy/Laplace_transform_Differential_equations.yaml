@@ -1,0 +1,32 @@
+"course":
+  "Laplace transform: Differential equations:":
+    "topics":
+    - "Laplace transform":
+        "subtopics":
+        - "Laplace transform 1"
+        - "Laplace transform 2"
+        - "L{sin(at)} - transform of sin(at)"
+        - "Part 2 of the transform of the sin(at)"
+    - "Properties of the Laplace transform":
+        "subtopics":
+        - "Laplace as linear operator and Laplace of derivatives"
+        - "Laplace transform of cos t and polynomials"
+        - "'Shifting' transform by multiplying function by exponential"
+        - "Laplace transform of t: L{t}"
+        - "Laplace transform of  t^n: L{t^n}"
+    - "Laplace transform of the unit step function":
+        "subtopics":
+        - "Inverse Laplace examples"
+        - "Dirac delta function"
+        - "Laplace transform of the dirac delta function"
+    - "Laplace transform to solve a differential equation":
+        "subtopics":
+        - "Laplace transform to solve an equation"
+        - "Laplace transform solves an equation 2"
+        - "Using the Laplace transform to solve a nonhomogeneous eq"
+        - "Laplace/step function differential equation"
+    - "The convolution integral":
+        "subtopics":
+        - "Introduction to the convolution"
+        - "The convolution and the Laplace transform"
+        - "Using the convolution theorem to solve an initial value prob"

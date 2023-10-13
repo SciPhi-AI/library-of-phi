@@ -1,0 +1,51 @@
+"course":
+  "Derivatives: chain rule and other advanced topics: Differential Calculus:":
+    "topics":
+    - "Chain rule":
+        "subtopics":
+        - "Chain rule"
+        - "Common chain rule misunderstandings"
+        - "Identifying composite functions"
+        - "Derivative of cos³(x) using the chain rule"
+        - "Derivative of √(3x²-x) using the chain rule"
+        - "Derivative of ln(√x) using the chain rule"
+        - "Chain rule with table"
+        - "More chain rule practice"
+        - "Derivative of aˣ (for any positive base a)"
+        - "Derivative of logₐx (for any positive base a≠1)"
+    - "Implicit differentiation":
+        "subtopics":
+        - "Implicit differentiation"
+        - "Evaluating derivative with implicit differentiation"
+        - "Showing explicit and implicit differentiation give same result"
+        - "Implicit differentiation (advanced examples)"
+        - "Derivative of ln(x) from derivative of \U0001D452ˣ and implicit differentiation"
+    - "Differentiating inverse functions":
+        "subtopics":
+        - "Derivatives of inverse functions"
+        - "Derivatives of inverse functions: from equation"
+        - "Derivatives of inverse functions: from table"
+        - "Derivatives of inverse trigonometric functions"
+    - "Strategy in differentiating functions":
+        "subtopics":
+        - "Differentiating functions: Find the error"
+        - "Manipulating functions before differentiation"
+        - "Differentiating using multiple rules: strategy"
+        - "Applying the chain rule and product rule"
+        - "Applying the chain rule twice"
+    - "Second derivatives":
+        "subtopics":
+        - "Second derivatives"
+        - "Second derivatives (implicit equations): find expression"
+        - "Second derivatives (implicit equations): evaluate derivative"
+    - "Disguised derivatives and Logarithmic differentiation":
+        "subtopics":
+        - "Disguised derivatives"
+        - "Composite exponential function differentiation"
+        - "Worked example: Composite exponential function differentiation"
+    - "Proof videos":
+        "subtopics":
+        - "Proof: Differentiability implies continuity"
+        - "If function u is continuous at x, then Δu→0 as Δx→0"
+        - "Chain rule proof"
+        - "Quotient rule from product & chain rules"

@@ -1,0 +1,21 @@
+"course":
+  "Exploring categorical data AP®︎/College Statistics:":
+    "topics":
+    - "The language of variation: Variables":
+        "subtopics":
+        - "Identifying individuals, variables and categorical variables in a data\
+          \ set"
+        - "Representing a categorical variable with graphs"
+        - "Creating a bar graph"
+        - "Reading bar graphs: movies"
+        - "Reading bar charts: comparing two sets of data"
+    - "Representing two categorical variables":
+        "subtopics":
+        - "Two-way frequency tables and Venn diagrams"
+        - "Two-way relative frequency tables"
+        - "Interpreting two-way tables"
+        - "Mosaic plots and segmented bar charts"
+        - "Analyzing mosaic plots"
+    - "Statistics for two categorical variables":
+        "subtopics":
+        - "Marginal and conditional distributions"

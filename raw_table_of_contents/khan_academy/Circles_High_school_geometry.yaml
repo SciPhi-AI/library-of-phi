@@ -1,0 +1,54 @@
+"course":
+  "Circles: High School Geometry:":
+    "topics":
+    - "Circles Glossary":
+        "subtopics":
+        - "Area of a Circle"
+        - "Proof: All Circles are Similar"
+    - "Arc Measure":
+        "subtopics":
+        - "Intro to Arc Measure"
+        - "Finding Arc Measures"
+        - "Finding Arc Measures with Equations"
+        - "Arc Length from Subtended Angle"
+    - "Introduction to Radians":
+        "subtopics":
+        - "Radians as Ratio of Arc Length to Radius"
+        - "Intro to Radians"
+        - "Radians & Degrees"
+        - "Degrees to Radians"
+        - "Radians to Degrees"
+    - "Arc Length from Radians":
+        "subtopics":
+        - "Arc Length as Fraction of Circumference"
+        - "Arc Length from Subtended Angle: Radians"
+    - "Sectors":
+        "subtopics":
+        - "Area of a Sector"
+    - "Inscribed Angles":
+        "subtopics":
+        - "Inscribed Angles"
+        - "Inscribed Angle Theorem Proof"
+        - "Inscribed Shapes Problem Solving"
+    - "Proofs with Inscribed Shapes":
+        "subtopics":
+        - "Proof: Right Triangles Inscribed in Circles"
+        - "Inscribed Quadrilaterals Proof"
+        - "Proof: Radius is Perpendicular to a Chord it Bisects"
+    - "Properties of Tangents":
+        "subtopics":
+        - "Proof: Radius is Perpendicular to Tangent Line"
+        - "Proof: Segments Tangent to Circle from Outside Point are Congruent"
+        - "Tangents of Circles Problem"
+    - "Constructing Regular Polygons Inscribed in Circles":
+        "subtopics":
+        - "Geometric Constructions: Circle-Inscribed Square"
+        - "Geometric Constructions: Circle-Inscribed Equilateral Triangle"
+        - "Geometric Constructions: Circle-Inscribed Regular Hexagon"
+    - "Constructing Circumcircles & Incircles":
+        "subtopics":
+        - "Geometric Constructions: Triangle-Inscribing Circle"
+        - "Geometric Constructions: Triangle-Circumscribing Circle"
+    - "Constructing a Line Tangent to a Circle":
+        "subtopics":
+        - "Geometric Constructions: Circle Tangent"

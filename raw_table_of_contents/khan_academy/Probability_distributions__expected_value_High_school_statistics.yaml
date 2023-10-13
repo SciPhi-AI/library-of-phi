@@ -1,0 +1,22 @@
+"course":
+  "Probability distributions & expected value: High school statistics:":
+    "topics":
+    - "Probability distributions introduction":
+        "subtopics":
+        - "Constructing a probability distribution for random variable"
+        - "Valid discrete probability distribution examples"
+        - "Probability with discrete random variable example"
+    - "Theoretical & empirical probability distributions":
+        "subtopics":
+        - "Theoretical probability distribution example: tables"
+        - "Theoretical probability distribution example: multiplication"
+        - "Probability distributions from empirical data"
+    - "Decisions with probability":
+        "subtopics":
+        - "Using probabilities to make fair decisions example"
+    - "Expected value":
+        "subtopics":
+        - "Mean (expected value) of a discrete random variable"
+        - "Interpreting expected value"
+        - "Expected payoff example: lottery ticket"
+        - "Expected payoff example: protection plan"

@@ -1,0 +1,29 @@
+"course":
+  "Add and subtract within 20: 2nd grade:":
+    "topics":
+    - "Adding within 20":
+        "subtopics":
+        - "Using place value blocks"
+        - "Using ten frames"
+        - "Adding 7 + 6"
+        - "Adding 8 + 7"
+        - "Add using arrays"
+        - "Adding with arrays"
+        - "Using arrays in word problems"
+        - "Repeated addition: haircuts"
+    - "Subtract within 20":
+        "subtopics":
+        - "Using a number line"
+        - "Using place value blocks"
+        - "Using ten frames"
+        - "Subtracting 14 - 6"
+    - "Add and subtract within 20":
+        "subtopics":
+        - "Adding within 20 using place value blocks"
+        - "Adding within 20 using ten frames"
+        - "Subtract within 20 using place value blocks"
+        - "Subtract within 20 using a number line"
+    - "Addition and subtraction word problems":
+        "subtopics":
+        - "Gorillas"
+        - "Superheroes"

@@ -1,0 +1,29 @@
+"course":
+  "Transformation properties and proofs: High school geometry:":
+    "topics":
+    - "Rigid Transformations":
+        "subtopics":
+        - "Finding Measures Using Rigid Transformations"
+        - "Preserved Properties"
+        - "Mapping Shapes"
+    - "Dilation":
+        "subtopics":
+        - "Dilation Preserved Properties"
+        - "Dilations and Properties"
+    - "Properties and Definitions of Transformations":
+        "subtopics":
+        - "Properties of Transformations"
+        - "Definitions of Transformations"
+    - "Sequences of Transformations":
+        "subtopics":
+        - "Identifying Type of Transformation"
+        - "Defining Transformations"
+    - "Symmetry":
+        "subtopics":
+        - "Intro to Reflective Symmetry"
+        - "Intro to Rotational Symmetry"
+        - "Finding a Quadrilateral from its Symmetries"
+        - "Finding a Quadrilateral from its Symmetries (example 2)"
+    - "Proofs with Transformations":
+        "subtopics":
+        - "Proofs with Transformations"

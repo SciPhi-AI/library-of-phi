@@ -1,0 +1,34 @@
+"course":
+  "Analytic geometry: High school geometry:":
+    "topics":
+    - "Distance and Midpoint Formulas":
+        "subtopics":
+        - "Distance formula"
+        - "Midpoint formula"
+        - "Dividing line segments"
+        - "Dividing line segments: graphical"
+        - "Problem solving with distance on the coordinate plane"
+    - "Geometry on the Coordinate Plane":
+        "subtopics":
+        - "Proving triangle medians intersect at a point"
+        - "Area of trapezoid on the coordinate plane"
+        - "Points inside/outside/on a circle"
+        - "Challenge problem: Points on two circles"
+        - "Coordinate plane word problem"
+    - "Parallel and Perpendicular Lines":
+        "subtopics":
+        - "Parallel & perpendicular lines on the coordinate plane"
+        - "Parallel & perpendicular lines intro"
+        - "Parallel & perpendicular lines from graph"
+        - "Equations of parallel & perpendicular lines"
+        - "Parallel lines from equation"
+        - "Perpendicular lines from equation"
+        - "Writing equations of perpendicular lines"
+    - "Classifying Figures on the Coordinate Plane":
+        "subtopics":
+        - "Classifying quadrilaterals on the coordinate plane"
+        - "Classifying figures with coordinates"
+    - "Proofs Involving Parallel and Perpendicular Lines":
+        "subtopics":
+        - "Proof: parallel lines have the same slope"
+        - "Proof: perpendicular lines have opposite reciprocal slopes"

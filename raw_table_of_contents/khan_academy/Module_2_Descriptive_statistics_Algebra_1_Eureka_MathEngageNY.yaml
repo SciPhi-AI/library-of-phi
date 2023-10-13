@@ -1,0 +1,75 @@
+"course":
+  "Module 2 Descriptive statistics Algebra 1 (Eureka Math/EngageNY):":
+    "topics":
+    - "Dot plots and histograms":
+        "subtopics":
+        - "Representing data"
+        - "Frequency tables & dot plots"
+        - "Creating a histogram"
+        - "Interpreting a histogram"
+    - "Box plots and shape":
+        "subtopics":
+        - "Creating a box plot (odd number of data points)"
+        - "Creating a box plot (even number of data points)"
+        - "Constructing a box plot"
+        - "Reading box plots"
+        - "Shapes of distributions"
+    - "Describing the center of a distribution":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Mean, median, & mode example"
+    - "Estimating centers and interpreting the mean as a balance point":
+        "subtopics":
+        - "Comparing means of distributions"
+        - "Means and medians of different distributions"
+        - "Impact on median & mean: removing an outlier"
+        - "Impact on median & mean: increasing an outlier"
+        - "Missing value given the mean"
+    - "Summarizing deviations from the mean":
+        "subtopics":
+        - "Example: Comparing distributions"
+        - "Mean absolute deviation example"
+    - "Standard deviation and variability":
+        "subtopics":
+        - "Population standard deviation"
+        - "Sample standard deviation and bias"
+    - "Measuring variability for skewed distributions (interquartile range)":
+        "subtopics":
+        - "Interquartile range (IQR)"
+        - "Interpreting box plots"
+        - "Judging outliers in a dataset"
+    - "Comparing distributions":
+        "subtopics":
+        - "Comparing distributions with dot plots (example problem)"
+        - "Comparing dot plots, histograms, and box plots"
+    - "Bivariate categorical data":
+        "subtopics":
+        - "Two-way frequency tables and Venn diagrams"
+        - "Two-way relative frequency tables"
+    - "Conditional relative frequencies and association":
+        "subtopics":
+        - "Interpreting two-way tables"
+        - "Categorical data example"
+        - "Analyzing trends in categorical data"
+    - "Relationships between two numerical variables":
+        "subtopics":
+        - "Constructing a scatter plot"
+        - "Example of direction in scatterplots"
+    - "Modeling relationships with a line":
+        "subtopics":
+        - "Fitting a line to data"
+        - "Estimating the line of best fit exercise"
+        - "Estimating with linear regression (linear models)"
+        - "Interpreting slope of regression line"
+        - "Interpreting y-intercept in regression model"
+    - "Residuals":
+        "subtopics":
+        - "Introduction to residuals and least squares regression"
+        - "Calculating residual example"
+        - "Residual plots"
+    - "Interpreting correlation":
+        "subtopics":
+        - "Bivariate relationship linearity, strength and direction"
+        - "Example: Correlation coefficient intuition"
+        - "Correlation and causality"
+        - "Calculating correlation coefficient r"

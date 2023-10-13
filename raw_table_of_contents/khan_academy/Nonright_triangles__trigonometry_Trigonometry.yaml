@@ -1,0 +1,30 @@
+"course":
+  "Non-right triangles & trigonometry: Trigonometry:":
+    "topics":
+    - "Law of sines":
+        "subtopics":
+        - "Solving for a side with the law of sines"
+        - "Solving for an angle with the law of sines"
+        - "Proof of the law of sines"
+    - "Law of cosines":
+        "subtopics":
+        - "Solving for a side with the law of cosines"
+        - "Solving for an angle with the law of cosines"
+        - "Proof of the law of cosines"
+    - "Solving general triangles":
+        "subtopics":
+        - "Understanding triangle properties"
+        - "Applying trigonometric principles"
+        - "Solving for unknown sides and angles"
+    - "Trigonometry in real-world contexts":
+        "subtopics":
+        - "Trig word problem: stars"
+        - "Trig word problem: navigation"
+        - "Trig word problem: architecture"
+        - "Trig word problem: physics"
+    - "Review and practice":
+        "subtopics":
+        - "Practice problems: law of sines"
+        - "Practice problems: law of cosines"
+        - "Practice problems: general triangles"
+        - "Practice problems: real-world contexts"

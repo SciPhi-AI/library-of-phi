@@ -1,0 +1,38 @@
+"course":
+  "Data sets and distribution 6th grade (Illustrative Mathematics):":
+    "topics":
+    - "Statistical Questions":
+        "subtopics":
+        - "Understanding Statistical Questions"
+        - "Formulating Statistical Questions"
+    - "Representing Data Graphically":
+        "subtopics":
+        - "Frequency Tables"
+        - "Dot Plots"
+    - "Histograms":
+        "subtopics":
+        - "Creating a Histogram"
+        - "Interpreting a Histogram"
+    - "Mean and Deviation":
+        "subtopics":
+        - "Understanding Mean"
+        - "Calculating Mean"
+        - "Deviation from the Mean"
+        - "Mean Absolute Deviation"
+    - "Comparing Mean and Median":
+        "subtopics":
+        - "Impact on Median & Mean: Removing an Outlier"
+        - "Impact on Median & Mean: Increasing an Outlier"
+    - "Quartiles and Interquartile Range":
+        "subtopics":
+        - "Understanding Quartiles"
+        - "Calculating Interquartile Range (IQR)"
+    - "Box Plots":
+        "subtopics":
+        - "Reading Box Plots"
+        - "Constructing a Box Plot"
+        - "Interpreting Box Plots"
+    - "Using Data to Solve Problems":
+        "subtopics":
+        - "Comparing Dot Plots, Histograms, and Box Plots"
+        - "Problem Solving with Data Sets"

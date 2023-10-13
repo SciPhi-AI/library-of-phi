@@ -1,0 +1,66 @@
+"course":
+  "6th grade (Illustrative Mathematics):":
+    "topics":
+    - "Area and surface area":
+        "subtopics":
+        - "Reasoning to find area"
+        - "Area of parallelograms"
+        - "Formula for area of a triangle"
+        - "Polygons"
+        - "What is surface area?"
+        - "Polyhedra"
+        - "Nets and surface area"
+        - "More nets, more surface area"
+        - "Surface area of a cube"
+    - "Introducing ratios":
+        "subtopics":
+        - "Introducing ratios and ratio language"
+        - "Recipes"
+        - "Color mixtures"
+        - "Defining equivalent ratios"
+        - "How much for one?"
+        - "Navigating a table of equivalent ratios"
+        - "Solving more ratio problems"
+    - "Arithmetic in base ten":
+        "subtopics":
+        - "Adding and subtracting decimals with many non-zero digits"
+        - "Methods for multiplying decimals"
+        - "Calculating products of decimals"
+        - "Using long division"
+        - "Dividing numbers that result in decimals"
+        - "Dividing decimals by whole numbers"
+        - "Dividing decimals by decimals"
+    - "Expressions and equations":
+        "subtopics":
+        - "Truth and equations"
+        - "Staying in balance"
+        - "Practice solving equations and representing situations with equations"
+        - "A new way to interpret a over b"
+        - "Equations"
+        - "Revisit percentages"
+        - "The distributive property, part 1"
+        - "Meaning of exponents"
+        - "Two related quantities, part 1"
+        - "Two related quantities, part 2"
+    - "Rational numbers":
+        "subtopics":
+        - "Ordering rational numbers"
+        - "Comparing numbers and distance from zero"
+        - "Negative numbers"
+        - "Writing and graphing inequalities"
+        - "Points on the coordinate plane"
+        - "Shapes on a coordinate plane"
+        - "Common factors"
+        - "Common multiples"
+    - "Data sets and distribution":
+        "subtopics":
+        - "Statistical questions"
+        - "Representing data graphically"
+        - "Histograms"
+        - "Using histograms to answer statistical questions"
+        - "Mean"
+        - "Deviation from the mean"
+        - "Comparing mean and median"
+        - "Quartiles and interquartile range"
+        - "Box plots"
+        - "Using data to solve problems"

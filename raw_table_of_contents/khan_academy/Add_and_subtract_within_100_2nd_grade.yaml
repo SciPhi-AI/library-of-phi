@@ -1,0 +1,36 @@
+"course":
+  "Add and subtract within 100 2nd grade:":
+    "topics":
+    - "Adding 2-digit numbers":
+        "subtopics":
+        - "Without regrouping"
+        - "Understanding place value when adding ones"
+        - "Understanding place value when adding tens"
+        - "With regrouping"
+        - "Addition and subtraction with number lines"
+        - "Strategies for adding within 100"
+        - "Breaking apart 2-digit addition problems"
+        - "Adding 53+17 by making a group of 10"
+        - "Adding by making a group of 10"
+        - "Strategies for adding 2-digit numbers"
+    - "Visually subtract within 100":
+        "subtopics":
+        - "Subtracting 1s using place value"
+        - "Subtracting 10s using place value"
+        - "Subtracting two-digit numbers without regrouping"
+        - "Subtracting a 1-digit number with regrouping"
+        - "Addition and subtraction with number lines"
+    - "Addition and subtraction: missing values":
+        "subtopics":
+        - "Missing numbers in addition and subtraction"
+    - "Addition and subtraction within 100 word problems":
+        "subtopics":
+        - "Addition word problem: horses"
+        - "Subtraction word problem: crayons"
+        - "Subtraction word problem: basketball"
+        - "Addition and subtraction within 100 word problems (multi-step)"
+    - "Adding and subtracting on number line word problems":
+        "subtopics":
+        - "Adding two digit numbers on a number line"
+        - "Multi step addition word problem"
+        - "Multi-step subtraction word problem"

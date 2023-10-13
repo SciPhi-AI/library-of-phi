@@ -1,0 +1,24 @@
+"course":
+  "Percentages Pre-algebra:":
+    "topics":
+    - "Intro to percents":
+        "subtopics":
+        - "The meaning of percent"
+        - "Meaning of 109%"
+        - "Percents from fraction models"
+    - "Visualize percents":
+        "subtopics":
+        - "Finding percentages with a double number line"
+        - "Finding the whole with a tape diagram"
+    - "Equivalent representations of percent problems":
+        "subtopics":
+        - "Fraction, decimal, and percent from visual model"
+        - "Converting percents to decimals & fractions example"
+        - "Percent of a whole number"
+        - "Ways to rewrite a percentage"
+        - "Finding common percentages"
+    - "Percent problems":
+        "subtopics":
+        - "Finding a percent"
+        - "Percent word problems"
+        - "Percent word problem: recycling cans"

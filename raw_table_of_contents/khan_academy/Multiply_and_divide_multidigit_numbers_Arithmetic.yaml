@@ -1,0 +1,21 @@
+"course":
+  "Multiply and divide multi-digit numbers: Arithmetic:":
+    "topics":
+    - "Multiply with multiples of 10, 100, and 1,000":
+        "subtopics":
+        - "Strategies for multiplying multiples of 10, 100 and 1000"
+        - "Multi-digit multiplication"
+        - "Relate multiplication with area models to the standard algorithm"
+        - "Intro to standard way of multiplying multi-digit numbers"
+        - "Understanding the standard algorithm for multiplication"
+        - "Multiplying multi-digit numbers: 6,742x23"
+    - "Divide with multiples of 10, 100, and 1,000":
+        "subtopics":
+        - "Strategies for dividing multiples of 10, 100, and 1000"
+        - "Multi-digit division"
+        - "Long division with remainders: 2292÷4"
+        - "Long division with remainders: 3771÷8"
+        - "Introduction to dividing by 2-digits"
+        - "Dividing by 2-digits: 9815÷65"
+        - "Dividing by 2-digits: 7182÷42"
+        - "Dividing by a 2-digits: 4781÷32"

@@ -1,0 +1,68 @@
+"course":
+  "Numbers and operations 8th grade:":
+    "topics":
+    - "Repeating decimals":
+        "subtopics":
+        - "Converting a fraction to a repeating decimal"
+        - "Converting repeating decimals to fractions (part 1 of 2)"
+        - "Converting repeating decimals to fractions (part 2 of 2)"
+    - "Square roots & cube roots":
+        "subtopics":
+        - "Intro to square roots"
+        - "Intro to cube roots"
+        - "Worked example: Cube root of a negative number"
+        - "Square root of decimal"
+        - "Dimensions of a cube from its volume"
+    - "Irrational numbers":
+        "subtopics":
+        - "Intro to rational & irrational numbers"
+        - "Classifying numbers: rational & irrational"
+        - "Classifying numbers"
+        - "Worked example: classifying numbers"
+    - "Approximating irrational numbers":
+        "subtopics":
+        - "Approximating square roots"
+        - "Comparing irrational numbers with radicals"
+        - "Approximating square roots to hundredths"
+        - "Comparing values with calculator"
+    - "Exponents with negative bases":
+        "subtopics":
+        - "Exponents with negative bases"
+        - "The 0 & 1st power"
+        - "Even & odd numbers of negatives"
+        - "1 and -1 to different powers"
+        - "Sign of expressions challenge problems"
+        - "Powers of zero"
+    - "Exponent properties intro":
+        "subtopics":
+        - "Exponent properties with products"
+        - "Exponent properties with parentheses"
+        - "Exponent properties with quotients"
+    - "Negative exponents":
+        "subtopics":
+        - "Negative exponents"
+        - "Negative exponent intuition"
+    - "Exponent properties (integer exponents)":
+        "subtopics":
+        - "Multiplying & dividing powers (integer exponents)"
+        - "Powers of products & quotients (integer exponents)"
+        - "Powers of zero"
+    - "Working with powers of 10":
+        "subtopics":
+        - "Multiplying multiples of powers of 10"
+        - "Approximating with powers of 10"
+    - "Scientific notation intro":
+        "subtopics":
+        - "Scientific notation example: 0.0000000003457"
+        - "Scientific notation examples"
+    - "Arithmetic with numbers in scientific notation":
+        "subtopics":
+        - "Multiplying & dividing in scientific notation"
+        - "Multiplying three numbers in scientific notation"
+        - "Subtracting in scientific notation"
+        - "Simplifying in scientific notation challenge"
+    - "Scientific notation word problems":
+        "subtopics":
+        - "Scientific notation word problem: red blood cells"
+        - "Scientific notation word problem: U.S. national debt"
+        - "Scientific notation word problem: speed of light"

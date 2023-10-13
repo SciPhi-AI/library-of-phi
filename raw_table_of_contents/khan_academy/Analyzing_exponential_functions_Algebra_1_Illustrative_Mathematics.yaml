@@ -1,0 +1,27 @@
+"course":
+  "Analyzing exponential functions Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Analyzing graphs":
+        "subtopics":
+        - "Writing exponential functions"
+        - "Writing exponential functions from tables"
+        - "Writing exponential functions from graphs"
+        - "Analyzing tables of exponential functions"
+        - "Analyzing graphs of exponential functions"
+        - "Analyzing graphs of exponential functions: negative initial value"
+        - "Modeling with basic exponential functions word problem"
+    - "Using negative exponents":
+        "subtopics":
+        - "Negative exponents"
+        - "Negative exponent intuition"
+        - "Multiplying & dividing powers (integer exponents)"
+    - "Modeling exponential behavior":
+        "subtopics":
+        - "Linear vs. exponential growth: from data"
+        - "Linear vs. exponential growth: from data (example 2)"
+    - "Expressed in different ways":
+        "subtopics":
+        - "Interpreting change in exponential models: with manipulation"
+    - "Which one changes faster?":
+        "subtopics":
+        - "Exponential vs. linear growth over time"

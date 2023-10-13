@@ -1,0 +1,60 @@
+"course":
+  "Applying derivatives to analyze functions AP®︎/College Calculus AB:":
+    "topics":
+    - "Using the mean value theorem":
+        "subtopics":
+        - "Mean value theorem"
+        - "Mean value theorem example: polynomial"
+        - "Mean value theorem example: square root function"
+        - "Justification with the mean value theorem: table"
+        - "Justification with the mean value theorem: equation"
+        - "Mean value theorem application"
+    - "Extreme value theorem, global versus local extrema, and critical points":
+        "subtopics":
+        - "Extreme value theorem"
+        - "Critical points introduction"
+        - "Finding critical points"
+    - "Determining intervals on which a function is increasing or decreasing":
+        "subtopics":
+        - "Finding decreasing interval given the function"
+        - "Finding increasing interval given the derivative"
+    - "Using the first and second derivative tests to find extrema":
+        "subtopics":
+        - "Introduction to minimum and maximum points"
+        - "Finding relative extrema (first derivative test)"
+        - "Worked example: finding relative extrema"
+        - "Analyzing mistakes when finding extrema"
+        - "Second derivative test"
+    - "Determining concavity of intervals and finding points of inflection":
+        "subtopics":
+        - "Concavity introduction"
+        - "Analyzing concavity (graphical)"
+        - "Inflection points introduction"
+        - "Inflection points (graphical)"
+        - "Analyzing concavity (algebraic)"
+        - "Inflection points (algebraic)"
+        - "Mistakes when finding inflection points"
+    - "Sketching curves of functions and their derivatives":
+        "subtopics":
+        - "Curve sketching with calculus: polynomial"
+        - "Curve sketching with calculus: logarithm"
+        - "Analyzing a function with its derivative"
+    - "Connecting a function, its first derivative, and its second derivative":
+        "subtopics":
+        - "Calculus-based justification for function increasing"
+        - "Justification using first derivative"
+        - "Inflection points from graphs of function & derivatives"
+        - "Justification using second derivative: inflection point"
+        - "Justification using second derivative: maximum point"
+        - "Connecting f, f', and f'' graphically"
+    - "Solving optimization problems":
+        "subtopics":
+        - "Optimization: sum of squares"
+        - "Optimization: box volume"
+        - "Optimization: profit"
+        - "Optimization: cost of materials"
+        - "Optimization: area of triangle & square"
+        - "Motion problems: finding the maximum acceleration"
+    - "Exploring behaviors of implicit relations":
+        "subtopics":
+        - "Horizontal tangent to implicit curve"

@@ -1,0 +1,38 @@
+"course":
+  "Counting, permutations, and combinations: Statistics and probability:":
+    "topics":
+    - "Counting Principle and Factorial":
+        "subtopics":
+        - "Counting principle"
+        - "Factorial"
+        - "Count outcomes using tree diagram"
+        - "Counting outcomes: flower pots"
+        - "Zero factorial or 0!"
+        - "Factorial and counting seat arrangements"
+    - "Permutations":
+        "subtopics":
+        - "Permutation formula"
+        - "Possible three letter words"
+        - "Ways to arrange colors"
+        - "Ways to pick officers"
+    - "Combinations":
+        "subtopics":
+        - "Intro to combinations"
+        - "Combination formula"
+        - "Handshaking combinations"
+        - "Combination example: 9 card hands"
+    - "Combinatorics and Probability":
+        "subtopics":
+        - "Probability using combinations"
+        - "Probability & combinations (2 of 2)"
+        - "Example: Different ways to pick officers"
+        - "Example: Combinatorics and probability"
+        - "Getting exactly two heads (combinatorics)"
+        - "Exactly three heads in five flips"
+        - "Generalizing with binomial coefficients (bit advanced)"
+        - "Example: Lottery probability"
+    - "Conditional Probability and Combinations":
+        "subtopics":
+        - "Conditional probability and combinations"
+        - "Mega millions jackpot probability"
+        - "Birthday probability problem"

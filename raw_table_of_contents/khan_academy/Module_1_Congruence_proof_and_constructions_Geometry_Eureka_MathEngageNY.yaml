@@ -1,0 +1,71 @@
+"course":
+  "Module 1: Congruence, proof, and constructions: Geometry (Eureka Math/EngageNY):":
+    "topics":
+    - "Basic constructions":
+        "subtopics":
+        - "Geometric constructions: circle-inscribed regular hexagon"
+        - "Geometric constructions: angle bisector"
+        - "Geometric constructions: perpendicular line through a point on the line"
+        - "Geometric constructions: perpendicular bisector"
+        - "Incenter and incircles of a triangle"
+        - "Geometric constructions: triangle-inscribing circle"
+        - "Geometric constructions: triangle-circumscribing circle"
+        - "Proof: Triangle altitudes are concurrent (orthocenter)"
+    - "Solve for unknown angles":
+        "subtopics":
+        - "Equation practice with vertical angles"
+        - "Complementary & supplementary angles"
+        - "Equation practice with complementary angles"
+        - "Equation practice with supplementary angles"
+        - "Angles, parallel lines, & transversals"
+        - "Parallel & perpendicular lines"
+        - "Missing angles with a transversal"
+        - "Measures of angles formed by a transversal"
+        - "Triangle exterior angle example"
+        - "Worked example: Triangle angles (intersecting lines)"
+        - "Worked example: Triangle angles (diagram)"
+        - "Triangle angle challenge problem 2"
+        - "Angles in a triangle sum to 180° proof"
+        - "Proving angles are congruent"
+        - "Vertical angles are congruent proof"
+    - "Transformations":
+        "subtopics":
+        - "Rigid transformations intro"
+        - "Rotating shapes"
+        - "Determining rotations"
+        - "Reflecting shapes: diagonal line of reflection"
+        - "Determining reflections (advanced)"
+        - "Intro to reflective symmetry"
+        - "Intro to rotational symmetry"
+        - "Finding a quadrilateral from its symmetries"
+        - "Translating shapes"
+        - "Determining translations"
+        - "Proofs with transformations"
+        - "Corresponding parts of congruent triangles are congruent"
+    - "Congruence criteria":
+        "subtopics":
+        - "Triangle congruence postulates/criteria"
+        - "Why SSA isn't a congruence postulate/criterion"
+        - "Determining congruent triangles"
+        - "Proofs concerning isosceles triangles"
+        - "Proofs concerning equilateral triangles"
+        - "Isosceles & equilateral triangles problems"
+        - "Corresponding angles in congruent triangles"
+        - "Angles in a triangle sum to 180° proof"
+        - "Geometry proof problem: midpoint"
+        - "Geometry proof problem: congruent segments"
+        - "Geometry proof problem: squared circle"
+    - "Proving properties of geometric figures":
+        "subtopics":
+        - "Proof: Opposite sides of a parallelogram"
+        - "Proof: Diagonals of a parallelogram"
+        - "Proof: Opposite angles of a parallelogram"
+        - "Proof: The diagonals of a kite are perpendicular"
+        - "Proof: Rhombus diagonals are perpendicular bisectors"
+        - "Proof: Rhombus area"
+        - "Triangle medians & centroids"
+        - "Triangle medians and centroids (2D proof)"
+        - "Dividing triangles with medians"
+        - "Exploring medial triangles"
+        - "Centroid & median proof"
+        - "Median, centroid example"

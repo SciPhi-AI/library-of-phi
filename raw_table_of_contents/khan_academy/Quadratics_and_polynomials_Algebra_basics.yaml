@@ -1,0 +1,35 @@
+"course":
+  "Quadratics and Polynomials: Algebra Basics:":
+    "topics":
+    - "Adding & Subtracting Polynomials":
+        "subtopics":
+        - "Adding Polynomials"
+        - "Subtracting Polynomials"
+    - "Multiplying Binomials":
+        "subtopics":
+        - "Multiplying Monomials by Polynomials"
+        - "Multiplying Binomials: Area Model"
+        - "Multiplying Binomials Intro"
+        - "Multiplying Binomials"
+    - "Special Products of Binomials":
+        "subtopics":
+        - "Special Products of the Form (x+a)(x-a)"
+        - "Squaring Binomials of the Form (x+a)²"
+    - "Factoring Polynomials by Taking Common Factors":
+        "subtopics":
+        - "Factoring with the Distributive Property"
+        - "Taking Common Factor from Binomial"
+        - "Taking Common Factor from Trinomial"
+        - "Taking Common Factor: Area Model"
+        - "Factoring Polynomials: Common Binomial Factor"
+    - "Factoring Quadratics":
+        "subtopics":
+        - "Factoring Quadratics as (x+a)(x+b)"
+        - "Intro to Grouping"
+        - "Factoring Quadratics by Grouping"
+        - "Factoring Quadratics: Difference of Squares"
+        - "Factoring Quadratics: Perfect Squares"
+    - "Solving Quadratic Equations by Factoring":
+        "subtopics":
+        - "Solving Quadratics by Factoring"
+        - "Solving Quadratics by Factoring: Leading Coefficient ≠ 1"

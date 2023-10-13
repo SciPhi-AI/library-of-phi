@@ -1,0 +1,21 @@
+"course":
+  "Decomposing to find area: Basic geometry and measurement:":
+    "topics":
+    - "Area of parallelograms":
+        "subtopics":
+        - "Area of a parallelogram"
+        - "Finding height of a parallelogram"
+    - "Area of triangles":
+        "subtopics":
+        - "Area of a triangle"
+        - "Finding area of triangles"
+        - "Triangle missing side example"
+    - "Area and perimeter on the coordinate plane":
+        "subtopics":
+        - "Drawing a quadrilateral on the coordinate plane example"
+        - "Area of a parallelogram on the coordinate plane"
+    - "Area of composite figures":
+        "subtopics":
+        - "Finding area by rearranging parts"
+        - "Area of composite shapes"
+        - "Area of quadrilateral with 2 parallel sides"

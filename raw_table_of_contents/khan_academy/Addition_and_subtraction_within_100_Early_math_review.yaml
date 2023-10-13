@@ -1,0 +1,50 @@
+"course":
+  "Addition and Subtraction within 100: Early Math Review:":
+    "topics":
+    - "Skip-counting":
+        "subtopics":
+        - "Skip-counting by 5s"
+        - "Counting by 10s"
+    - "Adding 1s and 10s":
+        "subtopics":
+        - "Adding 1 vs. adding 10"
+        - "Understanding place value when adding tens"
+        - "Understanding place value when adding ones"
+    - "Subtracting 1s and 10s":
+        "subtopics":
+        - "Subtracting 1 vs. subtracting 10"
+        - "Subtracting 1s using place value"
+        - "Subtracting 10s using place value"
+    - "Introduction to Addition with 2-digit Numbers":
+        "subtopics":
+        - "Adding 2-digit numbers without regrouping 1"
+        - "Breaking apart 2-digit addition problems"
+        - "Regrouping to add 1-digit number"
+        - "Adding by making a group of 10"
+    - "Introduction to Subtraction with 2-digit Numbers":
+        "subtopics":
+        - "Subtracting 2-digit numbers without regrouping 1"
+        - "Subtracting two-digit numbers without regrouping"
+        - "Subtracting a 1-digit number with regrouping"
+    - "Strategies for Adding and Subtracting within 100":
+        "subtopics":
+        - "Adding 53+17 by making a group of 10"
+        - "Strategies for adding 2-digit numbers"
+        - "Addition and subtraction with number lines"
+    - "Addition within 100":
+        "subtopics":
+        - "Adding 2-digit numbers without regrouping"
+        - "Adding with regrouping"
+    - "Subtraction within 100":
+        "subtopics":
+        - "Subtracting 2-digit numbers without regrouping 1"
+        - "Subtracting with regrouping (borrowing)"
+    - "Word Problems within 100":
+        "subtopics":
+        - "Adding and subtracting on number line word problems"
+        - "Addition word problem: horses"
+        - "Subtraction word problem: snow"
+        - "Word problems with 'more' and 'fewer' (within 100)"
+    - "Addition and Subtraction Missing Value Problems":
+        "subtopics":
+        - "Missing numbers in addition and subtraction"

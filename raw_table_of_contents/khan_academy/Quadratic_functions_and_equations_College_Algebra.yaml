@@ -1,0 +1,44 @@
+"course":
+  "Quadratic functions and equations: College Algebra:":
+    "topics":
+    - "Solving quadratics by taking the square root":
+        "subtopics":
+        - "Basic Concept"
+        - "Solving quadratics by taking square roots"
+        - "Solving quadratics by taking square roots examples"
+    - "Vertex form":
+        "subtopics":
+        - "Vertex form introduction"
+        - "Graphing quadratics: vertex form"
+    - "Solving quadratics by factoring":
+        "subtopics":
+        - "Basic Concept"
+        - "Solving quadratics by factoring"
+        - "Solving quadratics by factoring: leading coefficient ≠ 1"
+        - "Solving quadratics using structure"
+        - "Quadratic equations word problem: triangle dimensions"
+        - "Quadratic equations word problem: box dimensions"
+    - "The quadratic formula":
+        "subtopics":
+        - "The quadratic formula"
+        - "Worked example: quadratic formula (example 2)"
+        - "Worked example: quadratic formula (negative coefficients)"
+        - "Using the quadratic formula: number of solutions"
+    - "Completing the square":
+        "subtopics":
+        - "Completing the square"
+        - "Worked example: Completing the square (intro)"
+        - "Worked example: Rewriting expressions by completing the square"
+        - "Worked example: Rewriting & solving equations by completing the square"
+        - "Solve by completing the square: Integer solutions"
+        - "Solve by completing the square: Non-integer solutions"
+        - "Worked example: completing the square (leading coefficient ≠ 1)"
+        - "Solving quadratics by completing the square: no solution"
+        - "Proof of the quadratic formula"
+    - "Forms and features of quadratic functions":
+        "subtopics":
+        - "Forms & features of quadratic functions"
+        - "Vertex & axis of symmetry of a parabola"
+        - "Finding features of quadratic functions"
+        - "Interpret quadratic models: Factored form"
+        - "Interpret quadratic models: Vertex form"

@@ -1,0 +1,32 @@
+"course":
+  "Forms of linear equations Algebra 1:":
+    "topics":
+    - "Introduction to Slope-Intercept Form":
+        "subtopics":
+        - "Intro to slope-intercept form"
+        - "Slope and y-intercept from equation"
+        - "Worked examples: slope-intercept intro"
+        - "Linear equation word problems"
+    - "Graphing Slope-Intercept Equations":
+        "subtopics":
+        - "Graph from slope-intercept equation"
+        - "Writing slope-intercept equations"
+        - "Slope-intercept equation from graph"
+        - "Slope-intercept equation from slope & point"
+        - "Slope-intercept equation from two points"
+        - "Constructing linear equations from context"
+    - "Introduction to Point-Slope Form":
+        "subtopics":
+        - "Intro to point-slope form"
+        - "Point-slope & slope-intercept equations"
+    - "Introduction to Standard Form":
+        "subtopics":
+        - "Intro to linear equation standard form"
+        - "Graphing a linear equation: 5x+2y=20"
+        - "Clarifying standard form rules"
+        - "Converting from slope-intercept to standard form"
+    - "Summary: Forms of Two-Variable Linear Equations":
+        "subtopics":
+        - "Slope from equation"
+        - "Writing linear equations in all forms"
+        - "Creativity break: What do you do to get into your creative zone?"

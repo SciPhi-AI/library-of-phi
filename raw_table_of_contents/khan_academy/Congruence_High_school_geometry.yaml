@@ -1,0 +1,51 @@
+"course":
+  "Congruence: High school geometry:":
+    "topics":
+    - "Congruent shapes & transformations":
+        "subtopics":
+        - "Segment congruence equivalent to having same length"
+        - "Angle congruence equivalent to having same measure"
+        - "Triangle congruence from transformations"
+        - "Proving the SSS triangle congruence criterion using transformations"
+        - "Proving the SAS triangle congruence criterion using transformations"
+        - "Proving the ASA and AAS triangle congruence criteria using transformations"
+        - "Why SSA isn't a congruence postulate/criterion"
+    - "Triangle congruence":
+        "subtopics":
+        - "Congruent triangles"
+        - "Triangle congruence postulates/criteria"
+        - "Determining congruent triangles"
+        - "Calculating angle measures to verify congruence"
+        - "Corresponding parts of congruent triangles are congruent"
+        - "Proving triangle congruence"
+        - "Angles in a triangle sum to 180° proof"
+    - "Working with triangles":
+        "subtopics":
+        - "Proofs concerning isosceles triangles"
+        - "Proofs concerning equilateral triangles"
+        - "Triangle exterior angle example"
+        - "Corresponding angles in congruent triangles"
+        - "Isosceles & equilateral triangles problems"
+        - "Finding angles in isosceles triangles"
+    - "Theorems concerning quadrilateral properties":
+        "subtopics":
+        - "Proof: Opposite sides of a parallelogram"
+        - "Proof: Diagonals of a parallelogram"
+        - "Proof: Opposite angles of a parallelogram"
+        - "Proof: The diagonals of a kite are perpendicular"
+        - "Proof: Rhombus diagonals are perpendicular bisectors"
+        - "Proof: Rhombus area"
+    - "Proofs of general theorems":
+        "subtopics":
+        - "Geometry proof problem: midpoint"
+        - "Geometry proof problem: congruent segments"
+        - "Geometry proof problem: squared circle"
+    - "Constructing lines & angles":
+        "subtopics":
+        - "Geometric constructions: congruent angles"
+        - "Geometric constructions: parallel line"
+        - "Geometric constructions: perpendicular bisector"
+        - "Geometric constructions: perpendicular line through a point on the line"
+        - "Geometric constructions: perpendicular line through a point not on the\
+          \ line"
+        - "Geometric constructions: angle bisector"

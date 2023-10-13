@@ -1,0 +1,41 @@
+"course":
+  "Graphs and forms of linear equations College Algebra:":
+    "topics":
+    - "Intercepts":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+        - "Worked example: slope from two points"
+        - "Slope from equation"
+        - "Converting to slope-intercept form"
+    - "Graphing from slope":
+        "subtopics":
+        - "Graphing a line given point and slope"
+    - "Horizontal and vertical lines":
+        "subtopics":
+        - "Slope of a horizontal line"
+        - "Horizontal & vertical lines"
+    - "Slope-intercept form":
+        "subtopics":
+        - "Intro to slope-intercept form"
+        - "Worked examples: slope-intercept intro"
+        - "Graph from slope-intercept equation"
+    - "Point-slope form":
+        "subtopics":
+        - "Intro to point-slope form"
+        - "Point-slope & slope-intercept equations"
+    - "Writing linear equations in any form":
+        "subtopics":
+        - "Why is algebra important to learn?"
+        - "Writing linear equations in all forms"
+    - "Equations of parallel and perpendicular lines":
+        "subtopics":
+        - "Parallel lines from equation"
+        - "Parallel lines from equation (example 2)"
+        - "Parallel lines from equation (example 3)"
+        - "Perpendicular lines from equation"
+        - "Writing equations of perpendicular lines"
+        - "Writing equations of perpendicular lines (example 2)"
+        - "Proof: parallel lines have the same slope"
+        - "Proof: perpendicular lines have opposite reciprocal slopes"

@@ -1,0 +1,37 @@
+"course":
+  "Logarithms Algebra 2:":
+    "topics":
+    - "Introduction to logarithms":
+        "subtopics":
+        - "Intro to logarithms"
+        - "Evaluating logarithms (advanced)"
+        - "Relationship between exponentials & logarithms"
+        - "Relationship between exponentials & logarithms: graphs"
+        - "Relationship between exponentials & logarithms: tables"
+    - "The constant e and the natural logarithm":
+        "subtopics":
+        - "\U0001D452 and compound interest"
+        - "\U0001D452 as a limit"
+        - "Evaluating natural logarithm with calculator"
+    - "Properties of logarithms":
+        "subtopics":
+        - "Intro to logarithm properties (1 of 2)"
+        - "Intro to logarithm properties (2 of 2)"
+        - "Using the logarithmic product rule"
+        - "Using the logarithmic power rule"
+        - "Using the properties of logarithms: multiple steps"
+        - "Proof of the logarithm product rule"
+        - "Proof of the logarithm quotient and power rules"
+    - "The change of base formula for logarithms":
+        "subtopics":
+        - "Evaluating logarithms: change of base rule"
+        - "Using the logarithm change of base rule"
+        - "Proof of the logarithm change of base rule"
+    - "Solving exponential equations with logarithms":
+        "subtopics":
+        - "Solving exponential equations using logarithms: base-10"
+        - "Solving exponential equations using logarithms: base-2"
+    - "Solving exponential models":
+        "subtopics":
+        - "Exponential model word problem: medication dissolve"
+        - "Exponential model word problem: bacteria growth"

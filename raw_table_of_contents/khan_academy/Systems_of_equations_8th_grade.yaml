@@ -1,0 +1,42 @@
+"course":
+  "Systems of equations 8th grade:":
+    "topics":
+    - "Introduction to Systems of Equations":
+        "subtopics":
+        - "Intro to systems of equations"
+        - "Testing a solution to a system of equations"
+    - "Systems of Equations with Graphing":
+        "subtopics":
+        - "Systems of equations with graphing"
+        - "Systems of equations with graphing: y=7/5x-5 & y=3/5x-1"
+        - "Systems of equations with graphing: 5x+3y=7 & 3x-2y=8"
+        - "Systems of equations with graphing: chores"
+        - "Systems of equations with graphing: exact & approximate solutions"
+    - "Solving Systems with Substitution":
+        "subtopics":
+        - "Systems of equations with substitution"
+        - "Systems of equations with substitution: 2y=x+7 & x=y-4"
+        - "Systems of equations with substitution: y=4x-17.5 & y+2x=6.5"
+        - "Systems of equations with substitution: -3x-4y=-2 & y=2x-5"
+        - "Systems of equations with substitution: 9x+3y=15 & y-x=5"
+        - "Systems of equations with substitution: y=-5x+8 & 10x+2y=-2"
+        - "Systems of equations with substitution: y=-1/4x+100 & y=-1/4x+120"
+    - "Number of Solutions to Systems of Equations":
+        "subtopics":
+        - "Systems of equations number of solutions: fruit prices (1 of 2)"
+        - "Systems of equations number of solutions: fruit prices (2 of 2)"
+        - "Solutions to systems of equations: dependent vs. independent"
+        - "Number of solutions to a system of equations"
+        - "Number of solutions to a system of equations graphically"
+        - "Number of solutions to a system of equations algebraically"
+        - "How many solutions does a system of linear equations have if there are\
+          \ at least two?"
+    - "Systems of Equations Word Problems":
+        "subtopics":
+        - "Age word problem: Imran"
+        - "Age word problem: Ben & William"
+        - "Age word problem: Arman & Diya"
+        - "System of equations word problem: walk & ride"
+        - "System of equations word problem: no solution"
+        - "System of equations word problem: infinite solutions"
+        - "Systems of equations with substitution: coins"

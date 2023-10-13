@@ -1,0 +1,32 @@
+"course":
+  "Measuring angles: Basic geometry and measurement:":
+    "topics":
+    - "Parts of Plane Figures":
+        "subtopics":
+        - "Terms & Labels in Geometry"
+        - "Lines, Line Segments, & Rays"
+    - "Angle Introduction":
+        "subtopics":
+        - "Angles: Introduction"
+        - "Naming Angles"
+    - "Angle Types":
+        "subtopics":
+        - "Identifying an Angle"
+        - "Acute, Right, & Obtuse Angles"
+        - "Recognizing Angles"
+        - "Drawing Acute, Right and Obtuse Angles"
+    - "Understanding Angle Measurement":
+        "subtopics":
+        - "Angle Measurement & Circle Arcs"
+        - "Measuring Angles with a Circular Protractor"
+        - "Angles in Circles Word Problem"
+    - "Measuring Angles":
+        "subtopics":
+        - "Measuring Angles in Degrees"
+        - "Measuring Angles Using a Protractor"
+        - "Measuring Angles Using a Protractor 2"
+        - "Constructing Angles"
+    - "Decomposing Angles":
+        "subtopics":
+        - "Decomposing an Angle"
+        - "Decomposing Angles"

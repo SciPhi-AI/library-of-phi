@@ -1,0 +1,104 @@
+"course":
+  "Statistics and Probability:":
+    "topics":
+    - "Analyzing Categorical Data":
+        "subtopics":
+        - "Analyzing One Categorical Variable"
+        - "Two-way Tables"
+        - "Distributions in Two-way Tables"
+    - "Displaying and Comparing Quantitative Data":
+        "subtopics":
+        - "Displaying Quantitative Data with Graphs"
+        - "Describing and Comparing Distributions"
+        - "More on Data Displays"
+    - "Summarizing Quantitative Data":
+        "subtopics":
+        - "Measuring Center in Quantitative Data"
+        - "Interquartile Range (IQR)"
+        - "Variance and Standard Deviation of a Population"
+        - "Variance and Standard Deviation of a Sample"
+        - "More on Standard Deviation"
+        - "Box and Whisker Plots"
+        - "Other Measures of Spread"
+    - "Modeling Data Distributions":
+        "subtopics":
+        - "Percentiles"
+        - "Z-scores"
+        - "Effects of Linear Transformations"
+        - "Density Curves"
+        - "Normal Distributions and the Empirical Rule"
+        - "Normal Distribution Calculations"
+        - "More on Normal Distributions"
+    - "Exploring Bivariate Numerical Data":
+        "subtopics":
+        - "Introduction to Scatterplots"
+        - "Correlation Coefficients"
+        - "Introduction to Trend Lines"
+        - "Least-squares Regression Equations"
+        - "Assessing the Fit in Least-squares Regression"
+        - "More on Regression"
+    - "Study Design":
+        "subtopics":
+        - "Statistical Questions"
+        - "Sampling and Observational Studies"
+        - "Sampling Methods"
+        - "Types of Studies (Experimental vs. Observational)"
+        - "Experiments"
+    - "Probability":
+        "subtopics":
+        - "Basic Theoretical Probability"
+        - "Probability Using Sample Spaces"
+        - "Basic Set Operations"
+        - "Experimental Probability"
+        - "Randomness, Probability, and Simulation"
+        - "Addition Rule"
+        - "Multiplication Rule for Independent Events"
+        - "Multiplication Rule for Dependent Events"
+        - "Conditional Probability and Independence"
+    - "Counting, Permutations, and Combinations":
+        "subtopics":
+        - "Counting Principle and Factorial"
+        - "Permutations"
+        - "Combinations"
+        - "Combinatorics and Probability"
+    - "Random Variables":
+        "subtopics":
+        - "Discrete Random Variables"
+        - "Continuous Random Variables"
+        - "Transforming Random Variables"
+        - "Combining Random Variables"
+        - "Binomial Random Variables"
+        - "Binomial Mean and Standard Deviation Formulas"
+        - "Geometric Random Variables"
+        - "More on Expected Value"
+        - "Poisson Distribution"
+    - "Sampling Distributions":
+        "subtopics":
+        - "What is a Sampling Distribution?"
+        - "Sampling Distribution of a Sample Proportion"
+        - "Sampling Distribution of a Sample Mean"
+    - "Confidence Intervals":
+        "subtopics":
+        - "Introduction to Confidence Intervals"
+        - "Estimating a Population Proportion"
+        - "Estimating a Population Mean"
+        - "More Confidence Interval Videos"
+    - "Significance Tests (Hypothesis Testing)":
+        "subtopics":
+        - "The Idea of Significance Tests"
+        - "Error Probabilities and Power"
+        - "Tests about a Population Proportion"
+        - "Tests about a Population Mean"
+        - "More Significance Testing Videos"
+    - "Two-sample Inference for the Difference Between Groups":
+        "subtopics":
+        - "Comparing Two Proportions"
+        - "Comparing Two Means"
+    - "Inference for Categorical Data (Chi-square Tests)":
+        "subtopics":
+        - "Chi-square Goodness-of-fit Tests"
+        - "Chi-square Tests for Relationships"
+    - "Advanced Regression (Inference and Transforming)":
+        "subtopics":
+        - "Inference about Slope"
+        - "Nonlinear Regression"

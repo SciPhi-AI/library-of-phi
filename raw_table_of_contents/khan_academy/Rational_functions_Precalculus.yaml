@@ -1,0 +1,46 @@
+"course":
+  "Rational functions Precalculus:":
+    "topics":
+    - "Reducing rational expressions to lowest terms":
+        "subtopics":
+        - "Basic Reduction"
+        - "Advanced Reduction"
+    - "End behavior of rational functions":
+        "subtopics":
+        - "Understanding End Behavior"
+        - "Analyzing End Behavior"
+    - "Discontinuities of rational functions":
+        "subtopics":
+        - "Identifying Discontinuities"
+        - "Analyzing Discontinuities"
+    - "Graphs of rational functions":
+        "subtopics":
+        - "Graphing According to Asymptotes"
+        - "Identifying Y-intercept"
+        - "Identifying Horizontal Asymptote"
+        - "Identifying Vertical Asymptotes"
+        - "Identifying Zeros"
+    - "Modeling with rational functions":
+        "subtopics":
+        - "Analyzing Structure Word Problem: Pet Store"
+        - "Combining Mixtures Example"
+        - "Rational Equations Word Problem: Combined Rates"
+        - "Rational Equations Word Problem: Eliminating Solutions"
+        - "Reasoning About Unknown Variables"
+    - "Structure in rational expression":
+        "subtopics":
+        - "Understanding Structure"
+        - "Analyzing Structure"
+    - "Multiplying and dividing rational expressions":
+        "subtopics":
+        - "Multiplying & Dividing Monomials"
+        - "Multiplying Rational Expressions"
+        - "Dividing Rational Expressions"
+    - "Adding & subtracting rational expressions":
+        "subtopics":
+        - "Adding & Subtracting with Like Denominators"
+        - "Intro to Adding with Unlike Denominators"
+        - "Adding with Unlike Denominators"
+        - "Subtracting with Unlike Denominators"
+        - "Least Common Multiple of Polynomials"
+        - "Subtracting with Factored Denominators"

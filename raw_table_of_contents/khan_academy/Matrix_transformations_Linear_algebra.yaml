@@ -1,0 +1,74 @@
+"course":
+  "Matrix transformations: Linear algebra:":
+    "topics":
+    - "Functions and linear transformations":
+        "subtopics":
+        - "A more formal understanding of functions"
+        - "Vector transformations"
+        - "Linear transformations"
+        - "Matrix vector products as linear transformations"
+        - "Linear transformations as matrix vector products"
+        - "Image of a subset under a transformation"
+        - "im(T): Image of a transformation"
+        - "Preimage of a set"
+        - "Preimage and kernel example"
+        - "Sums and scalar multiples of linear transformations"
+        - "More on matrix addition and scalar multiplication"
+    - "Linear transformation examples":
+        "subtopics":
+        - "Linear transformation examples: Scaling and reflections"
+        - "Linear transformation examples: Rotations in R2"
+        - "Rotation in R3 around the x-axis"
+    - "Unit vectors":
+        "subtopics":
+        - "Introduction to projections"
+        - "Expressing a projection on to a line as a matrix vector prod"
+    - "Transformations and matrix multiplication":
+        "subtopics":
+        - "Compositions of linear transformations 1"
+        - "Compositions of linear transformations 2"
+        - "Matrix product examples"
+        - "Matrix product associativity"
+        - "Distributive property of matrix products"
+    - "Inverse functions and transformations":
+        "subtopics":
+        - "Introduction to the inverse of a function"
+        - "Proof: Invertibility implies a unique solution to f(x)=y"
+        - "Surjective (onto) and injective (one-to-one) functions"
+        - "Relating invertibility to being onto and one-to-one"
+        - "Determining whether a transformation is onto"
+        - "Exploring the solution set of Ax = b"
+        - "Matrix condition for one-to-one transformation"
+        - "Simplifying conditions for invertibility"
+        - "Showing that inverses are linear"
+    - "Finding inverses and determinants":
+        "subtopics":
+        - "Deriving a method for determining inverses"
+        - "Example of finding matrix inverse"
+        - "Formula for 2x2 inverse"
+        - "3 x 3 determinant"
+        - "n x n determinant"
+        - "Determinants along other rows/cols"
+        - "Rule of Sarrus of determinants"
+    - "More determinant depth":
+        "subtopics":
+        - "Determinant when row multiplied by scalar"
+        - "(correction) scalar multiplication of row"
+        - "Determinant when row is added"
+        - "Duplicate row determinant"
+        - "Determinant after row operations"
+        - "Upper triangular determinant"
+        - "Simpler 4x4 determinant"
+        - "Determinant and area of a parallelogram"
+        - "Determinant as scaling factor"
+    - "Transpose of a matrix":
+        "subtopics":
+        - "Transpose of a matrix"
+        - "Determinant of transpose"
+        - "Transpose of a matrix product"
+        - "Transposes of sums and inverses"
+        - "Transpose of a vector"
+        - "Row space and left null space"
+        - "Visualizations of left null space and row space"
+        - "rank(a) = rank(transpose of a)"
+        - "Showing that A-transpose x A is invertible"

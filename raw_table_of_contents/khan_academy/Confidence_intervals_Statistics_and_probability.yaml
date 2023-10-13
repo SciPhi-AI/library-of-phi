@@ -1,0 +1,36 @@
+"course":
+  "Confidence intervals: Statistics and probability:":
+    "topics":
+    - "Introduction to Confidence Intervals":
+        "subtopics":
+        - "Confidence Intervals and Margin of Error"
+        - "Confidence Interval Simulation"
+        - "Interpreting Confidence Level Example"
+        - "Estimating a Population Proportion"
+        - "Confidence Interval Example"
+    - "Margin of Error":
+        "subtopics":
+        - "Margin of Error 1"
+        - "Margin of Error 2"
+        - "Conditions for Valid Confidence Intervals for a Proportion"
+        - "Conditions for Confidence Interval for a Proportion Worked Examples"
+        - "Critical Value (z*) for a Given Confidence Level"
+    - "Constructing and Interpreting Confidence Intervals":
+        "subtopics":
+        - "Example Constructing and Interpreting a Confidence Interval for p"
+        - "Determining Sample Size Based on Confidence and Margin of Error"
+        - "Estimating a Population Mean"
+        - "Introduction to t Statistics"
+        - "Simulation Showing Value of t Statistic"
+    - "Validity and Critical Values":
+        "subtopics":
+        - "Conditions for Valid t Intervals"
+        - "Example Finding Critical t Value"
+        - "Example Constructing a t Interval for a Mean"
+        - "Confidence Interval for a Mean with Paired Data"
+        - "Sample Size for a Given Margin of Error for a Mean"
+    - "Advanced Confidence Interval Concepts":
+        "subtopics":
+        - "T-statistic Confidence Interval"
+        - "Small Sample Size Confidence Intervals"
+        - "More Confidence Interval Videos"

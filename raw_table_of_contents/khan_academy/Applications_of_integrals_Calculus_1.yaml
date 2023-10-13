@@ -1,0 +1,62 @@
+"course":
+  "Applications of integrals Calculus 1:":
+    "topics":
+    - "Average value of a function":
+        "subtopics":
+        - "Average value over a closed interval"
+        - "Calculating average value of function over interval"
+        - "Mean value theorem for integrals"
+    - "Straight-line motion":
+        "subtopics":
+        - "Motion problems with integrals: displacement vs. distance"
+        - "Analyzing motion problems: position"
+        - "Analyzing motion problems: total distance traveled"
+        - "Worked example: motion problems (with definite integrals)"
+        - "Average acceleration over interval"
+    - "Non-motion applications of integrals":
+        "subtopics":
+        - "Area under rate function gives the net change"
+        - "Interpreting definite integral as net change"
+        - "Worked examples: interpreting definite integrals in context"
+        - "Analyzing problems involving definite integrals"
+        - "Worked example: problem involving definite integral (algebraic)"
+    - "Area: vertical area between curves":
+        "subtopics":
+        - "Area between a curve and the x-axis"
+        - "Area between a curve and the x-axis: negative area"
+        - "Area between curves"
+        - "Worked example: area between curves"
+        - "Composite area between curves"
+    - "Area: horizontal area between curves":
+        "subtopics":
+        - "Area between a curve and the \U0001D63A-axis"
+        - "Horizontal area between curves"
+    - "Volume: squares and rectangles cross sections":
+        "subtopics":
+        - "Volume with cross sections: intro"
+        - "Volume with cross sections: squares and rectangles (no graph)"
+        - "Volume with cross sections perpendicular to y-axis"
+    - "Volume: triangles and semicircles cross sections":
+        "subtopics":
+        - "Volume with cross sections: semicircle"
+        - "Volume with cross sections: triangle"
+    - "Volume: disc method (revolving around x- and y-axes)":
+        "subtopics":
+        - "Disc method around x-axis"
+        - "Generalizing disc method around x-axis"
+        - "Disc method around y-axis"
+    - "Volume: disc method (revolving around other axes)":
+        "subtopics":
+        - "Disc method rotation around horizontal line"
+        - "Disc method rotating around vertical line"
+        - "Calculating integral disc around vertical line"
+    - "Volume: washer method (revolving around x- and y-axes)":
+        "subtopics":
+        - "Solid of revolution between two functions (leading up to the washer method)"
+        - "Generalizing the washer method"
+    - "Volume: washer method (revolving around other axes)":
+        "subtopics":
+        - "Washer method rotating around horizontal line (not x-axis), part 1"
+        - "Washer method rotating around horizontal line (not x-axis), part 2"
+        - "Washer method rotating around vertical line (not y-axis), part 1"
+        - "Washer method rotating around vertical line (not y-axis), part 2"

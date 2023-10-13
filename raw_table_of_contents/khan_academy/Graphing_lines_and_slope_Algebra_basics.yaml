@@ -1,0 +1,41 @@
+"course":
+  "Graphing lines and slope Algebra basics:":
+    "topics":
+    - "Coordinate plane":
+        "subtopics":
+        - "Quadrants of the coordinate plane"
+        - "Points and quadrants example"
+    - "Solutions to two-variable linear equations":
+        "subtopics":
+        - "Two-variable linear equations intro"
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Completing solutions to 2-variable equations"
+    - "x-intercepts and y-intercepts":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+    - "Slope":
+        "subtopics":
+        - "Intro to slope"
+        - "Positive & negative slope"
+        - "Worked example: slope from graph"
+        - "Worked example: slope from two points"
+        - "Slope (more examples)"
+        - "Horizontal & vertical lines"
+        - "Slope of a horizontal line"
+    - "Slope-intercept form intro":
+        "subtopics":
+        - "Intro to slope-intercept form"
+        - "Graph from slope-intercept equation"
+    - "Writing slope-intercept equations":
+        "subtopics":
+        - "Slope-intercept equation from graph"
+        - "Slope-intercept equation from slope & point"
+        - "Slope-intercept equation from two points"
+        - "Slope-intercept form problems"
+    - "Graphing two-variable inequalities":
+        "subtopics":
+        - "Intro to graphing two-variable inequalities"
+        - "Graphing two-variable inequalities"

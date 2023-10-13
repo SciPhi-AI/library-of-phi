@@ -1,0 +1,26 @@
+"course":
+  "One-variable statistics (part 2) Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Calculating measures of center & variability":
+        "subtopics":
+        - "Statistics intro: Mean, median, & mode"
+        - "Mean, median, & mode example"
+        - "Interquartile range (IQR)"
+        - "Mean absolute deviation (MAD)"
+        - "Mean absolute deviation example"
+        - "Impact on median & mean: removing an outlier"
+        - "Impact on median & mean: increasing an outlier"
+    - "Comparing & contrasting data distributions":
+        "subtopics":
+        - "Comparing distributions with dot plots (example problem)"
+        - "Example: Comparing distributions"
+    - "Standard deviation":
+        "subtopics":
+        - "Measures of spread: range, variance & standard deviation"
+        - "Variance of a population"
+        - "Population standard deviation"
+        - "Visually assessing standard deviation"
+        - "Mean and standard deviation versus median and IQR"
+    - "Outliers":
+        "subtopics":
+        - "Judging outliers in a dataset"

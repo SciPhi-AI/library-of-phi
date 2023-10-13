@@ -1,0 +1,42 @@
+"course":
+  "Trigonometry Algebra 2:":
+    "topics":
+    - "Unit Circle":
+        "subtopics":
+        - "The Trig Functions & Right Triangle Trig Ratios"
+        - "Radians"
+        - "Intro to Radians"
+        - "Radians & Degrees"
+        - "Degrees to Radians"
+        - "Radians to Degrees"
+        - "Radian Angles & Quadrants"
+    - "The Pythagorean Identity":
+        "subtopics":
+        - "Proof of the Pythagorean Trig Identity"
+        - "Using the Pythagorean Trig Identity"
+    - "Trigonometric Values of Special Angles":
+        "subtopics":
+        - "Trig Values of π/4"
+    - "Graphs of sin(x), cos(x), and tan(x)":
+        "subtopics":
+        - "Graph of y=sin(x)"
+        - "Intersection Points of y=sin(x) and y=cos(x)"
+        - "Graph of y=tan(x)"
+    - "Amplitude, Midline and Period":
+        "subtopics":
+        - "Features of Sinusoidal Functions"
+        - "Transforming Sinusoidal Graphs"
+        - "Amplitude & Period of Sinusoidal Functions from Equation"
+        - "Transforming Sinusoidal Graphs: Vertical Stretch & Horizontal Reflection"
+        - "Transforming Sinusoidal Graphs: Vertical & Horizontal Stretches"
+    - "Graphing Sinusoidal Functions":
+        "subtopics":
+        - "Example: Graphing y=3⋅sin(½⋅x)-2"
+        - "Example: Graphing y=-cos(π⋅x)+1.5"
+        - "Sinusoidal Function from Graph"
+    - "Sinusoidal Models":
+        "subtopics":
+        - "Interpreting Trigonometric Graphs in Context"
+        - "Trig Word Problem: Modeling Daily Temperature"
+        - "Trig Word Problem: Modeling Annual Temperature"
+        - "Trig Word Problem: Length of Day (Phase Shift)"

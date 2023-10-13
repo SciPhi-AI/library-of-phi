@@ -1,0 +1,58 @@
+"course":
+  "Differentiation: composite, implicit, and inverse functions: AP®︎/College Calculus BC:":
+    "topics":
+    - "The chain rule: introduction":
+        "subtopics":
+        - "Chain rule"
+        - "Common chain rule misunderstandings"
+        - "Identifying composite functions"
+        - "Derivative of cos³(x) using the chain rule"
+        - "Derivative of √(3x²-x) using the chain rule"
+        - "Derivative of ln(√x) using the chain rule"
+    - "The chain rule: further practice":
+        "subtopics":
+        - "Chain rule with table"
+        - "Derivative of aˣ (for any positive base a)"
+        - "Derivative of logₐx (for any positive base a≠1)"
+        - "Derivative of 7^(x²-x) using the chain rule"
+        - "Derivative of log₄(x²+x) using the chain rule"
+        - "Derivative of sec(3π/2-x) using the chain rule"
+        - "Derivative of ∜(x³+4x²+7) using the chain rule"
+    - "Implicit differentiation":
+        "subtopics":
+        - "Implicit differentiation"
+        - "Evaluating derivative with implicit differentiation"
+        - "Showing explicit and implicit differentiation give same result"
+    - "Differentiating inverse functions":
+        "subtopics":
+        - "Derivatives of inverse functions"
+        - "Derivatives of inverse functions: from equation"
+        - "Derivatives of inverse functions: from table"
+    - "Differentiating inverse trigonometric functions":
+        "subtopics":
+        - "Derivative of inverse sine"
+        - "Derivative of inverse cosine"
+        - "Derivative of inverse tangent"
+    - "Selecting procedures for calculating derivatives: strategy":
+        "subtopics":
+        - "Differentiating functions: Find the error"
+        - "Manipulating functions before differentiation"
+        - "Differentiating using multiple rules: strategy"
+        - "Applying the chain rule and product rule"
+        - "Applying the chain rule twice"
+        - "Derivative of eᶜᵒˢˣ⋅cos(eˣ)"
+        - "Derivative of sin(ln(x²))"
+    - "Calculating higher-order derivatives":
+        "subtopics":
+        - "Second derivatives"
+        - "Second derivatives (implicit equations): find expression"
+        - "Second derivatives (implicit equations): evaluate derivative"
+    - "Further practice connecting derivatives and limits":
+        "subtopics":
+        - "Disguised derivatives"
+    - "Optional videos":
+        "subtopics":
+        - "Proof: Differentiability implies continuity"
+        - "If function u is continuous at x, then Δu→0 as Δx→0"
+        - "Chain rule proof"
+        - "Quotient rule from product & chain rules"

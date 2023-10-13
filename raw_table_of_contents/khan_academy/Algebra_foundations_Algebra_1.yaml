@@ -1,0 +1,35 @@
+"course":
+  "Algebra foundations: Algebra 1:":
+    "topics":
+    - "Overview and history of algebra":
+        "subtopics":
+        - "Origins of algebra"
+        - "Abstract-ness"
+        - "The beauty of algebra"
+        - "Creativity in algebra"
+        - "Intro to the coordinate plane"
+        - "Why all the letters in algebra?"
+    - "Introduction to variables":
+        "subtopics":
+        - "What is a variable?"
+        - "Why aren't we using the multiplication sign?"
+        - "Creativity in STEM jobs"
+        - "Evaluating an expression with one variable"
+    - "Substitution and evaluating expressions":
+        "subtopics":
+        - "Evaluating expressions with two variables"
+        - "Evaluating expressions with two variables: fractions & decimals"
+    - "Combining like terms":
+        "subtopics":
+        - "Intro to combining like terms"
+        - "Combining like terms with negative coefficients & distribution"
+        - "Combining like terms with negative coefficients"
+        - "Combining like terms with rational coefficients"
+    - "Introduction to equivalent expressions":
+        "subtopics":
+        - "Equivalent expressions"
+    - "Division by zero":
+        "subtopics":
+        - "Why dividing by zero is undefined"
+        - "The problem with dividing zero by zero"
+        - "Undefined & indeterminate expressions"

@@ -1,0 +1,26 @@
+"course":
+  "Complex numbers Algebra 2:":
+    "topics":
+    - "The imaginary unit i":
+        "subtopics":
+        - "Intro to the imaginary numbers"
+        - "Simplifying roots of negative numbers"
+    - "Powers of the imaginary unit":
+        "subtopics":
+        - "i as the principal root of -1"
+        - "Complex numbers introduction"
+        - "Intro to complex numbers"
+        - "Classifying complex numbers"
+    - "The complex plane":
+        "subtopics":
+        - "Plotting numbers on the complex plane"
+    - "Adding and subtracting complex numbers":
+        "subtopics":
+        - "Adding complex numbers"
+        - "Subtracting complex numbers"
+    - "Multiplying complex numbers":
+        "subtopics":
+        - "Multiplying complex numbers"
+    - "Quadratic equations with complex solutions":
+        "subtopics":
+        - "Solving quadratic equations: complex roots"

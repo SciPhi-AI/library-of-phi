@@ -1,0 +1,30 @@
+"course":
+  "Exponents and powers of ten: Arithmetic:":
+    "topics":
+    - "Multiplying and dividing whole numbers by 10, 100, and 1,000":
+        "subtopics":
+        - "Multiplying by 10, 100, 1000"
+        - "Dividing by 10, 100, 1000"
+    - "Multiplying and dividing decimals by 10, 100, and 1,000":
+        "subtopics":
+        - "Multiplying decimals by 10"
+        - "Dividing decimals by 10"
+        - "Multiplying decimals by 10, 100, 1000"
+        - "Dividing decimals by 10, 100, 1000"
+    - "Powers of 10":
+        "subtopics":
+        - "Introduction to powers of 10"
+        - "Using exponents with powers of 10"
+        - "Multiplying and dividing with powers of 10"
+        - "Exponents and powers of 10 patterns"
+        - "Fractions as division by power of 10"
+    - "Intro to exponents":
+        "subtopics":
+        - "The zeroth power"
+        - "Comparing exponent expressions"
+        - "Exponents of decimals"
+        - "Powers of fractions"
+    - "Order of operations with exponents":
+        "subtopics":
+        - "Order of operations introduction"
+        - "Order of operations examples: exponents"

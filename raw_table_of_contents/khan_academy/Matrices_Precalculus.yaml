@@ -1,0 +1,51 @@
+"course":
+  "Matrices: Precalculus:":
+    "topics":
+    - "Introduction to Matrices":
+        "subtopics":
+        - "Intro to Matrices"
+        - "Using Matrices to Represent Data"
+        - "Using Matrices to Represent Data: Networks"
+        - "Using Matrices to Represent Data: Payoffs"
+        - "Multiplying Matrices by Scalars"
+        - "Adding and Subtracting Matrices"
+    - "Using Matrices to Manipulate Data":
+        "subtopics":
+        - "Using Matrices to Manipulate Data: Pet Store"
+        - "Using Matrices to Manipulate Data: Game Show"
+        - "Matrices as Transformations of the Plane"
+        - "Working with Matrices as Transformations of the Plane"
+        - "Intro to Determinant Notation and Computation"
+        - "Interpreting Determinants in Terms of Area"
+        - "Finding Area of Figure After Transformation Using Determinant"
+    - "Using Matrices to Transform the Plane":
+        "subtopics":
+        - "Using Matrices to Transform the Plane: Mapping a Vector"
+        - "Using Matrices to Transform the Plane: Composing Matrices"
+        - "Transforming 3D and 4D Vectors with Matrices"
+        - "Using Matrices to Transform a 4D Vector"
+        - "Composing 3x3 Matrices"
+    - "Multiplying Matrices by Matrices":
+        "subtopics":
+        - "Intro to Matrix Multiplication"
+        - "Multiplying Matrices"
+        - "Properties of Matrix Multiplication"
+        - "Defined Matrix Operations"
+        - "Intro to Identity Matrix"
+        - "Dimensions of Identity Matrix"
+        - "Is Matrix Multiplication Commutative?"
+        - "Associative Property of Matrix Multiplication"
+        - "Zero Matrix & Matrix Multiplication"
+        - "Using Properties of Matrix Operations"
+        - "Using Identity & Zero Matrices"
+    - "Representing Systems of Equations with Matrices":
+        "subtopics":
+        - "Representing Systems of Equations with Matrices"
+        - "Representing Systems of Any Number of Equations with Matrices"
+        - "Introduction to Matrix Inverses"
+        - "Inverse Matrix Introduction"
+        - "Invertible Matrices and Determinants"
+        - "Invertible Matrices and Transformations"
+        - "Inverse Matrices and Matrix Equations"
+        - "Finding Inverses of 2x2 Matrices"
+        - "Solving Linear Systems with Matrices"

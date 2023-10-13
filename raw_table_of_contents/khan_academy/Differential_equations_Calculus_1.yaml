@@ -1,0 +1,35 @@
+"course":
+  "Differential equations Calculus 1:":
+    "topics":
+    - "Introduction to Differential Equations":
+        "subtopics":
+        - "Differential Equations Introduction"
+        - "Writing a Differential Equation"
+        - "Verifying Solutions for Differential Equations"
+    - "Slope Fields":
+        "subtopics":
+        - "Sketching Slope Fields"
+        - "Slope Fields Introduction"
+        - "Equation from Slope Field"
+        - "Slope Field from Equation"
+        - "Forming a Slope Field"
+        - "Reasoning using Slope Fields"
+        - "Approximating Solution Curves in Slope Fields"
+        - "Range of Solution Curve from Slope Field"
+    - "Separation of Variables":
+        "subtopics":
+        - "Separable Equations Introduction"
+        - "Addressing Treating Differentials Algebraically"
+        - "Separable Differential Equations"
+        - "Identifying Separable Equations"
+    - "Particular Solutions to Differential Equations":
+        "subtopics":
+        - "Particular Solutions: Rational Function"
+        - "Particular Solutions: Exponential Function"
+        - "Finding a Specific Solution to a Separable Equation"
+        - "Separable Equation with an Implicit Solution"
+    - "Exponential Models":
+        "subtopics":
+        - "Exponential Models & Differential Equations Part 1"
+        - "Exponential Models & Differential Equations Part 2"
+        - "Exponential Solution to Differential Equation"

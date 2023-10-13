@@ -1,0 +1,33 @@
+"course":
+  "Quadratic equations (part 3) Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Rewriting quadratic expressions in vertex form":
+        "subtopics":
+        - "Understanding vertex form"
+        - "Converting standard form to vertex form"
+        - "Solving problems using vertex form"
+    - "Completing the square":
+        "subtopics":
+        - "Worked example: leading coefficient ≠ 1"
+        - "Understanding the process of completing the square"
+        - "Applying completing the square in problem solving"
+    - "Quadratic word problems":
+        "subtopics":
+        - "Vertex form word problems"
+        - "Factored form word problems"
+        - "Quadratic word problem: ball"
+    - "Graphing quadratics":
+        "subtopics":
+        - "Finding the vertex of a parabola in standard form"
+        - "Graphing quadratics in standard form"
+        - "Understanding the axis of symmetry of a parabola"
+    - "Forms and features of quadratic functions":
+        "subtopics":
+        - "Understanding forms and features"
+        - "Worked examples: Forms and features"
+        - "Finding features of quadratic functions"
+    - "Interpretation of quadratic models":
+        "subtopics":
+        - "Interpret quadratic models: Factored form"
+        - "Interpret quadratic models: Vertex form"
+        - "Using quadratic equations to model situations and solve problems"

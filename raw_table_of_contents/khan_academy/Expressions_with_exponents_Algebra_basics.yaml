@@ -1,0 +1,31 @@
+"course":
+  "Expressions with exponents: Algebra basics:":
+    "topics":
+    - "Exponent properties":
+        "subtopics":
+        - "Exponent properties intro"
+        - "Exponent properties with products"
+        - "Exponent properties with parentheses"
+        - "Exponent properties with quotients"
+    - "Negative exponents":
+        "subtopics":
+        - "Negative exponents"
+        - "Negative exponents intuition"
+    - "Exponent properties (integer exponents)":
+        "subtopics":
+        - "Multiplying & dividing powers (integer exponents)"
+        - "Powers of products & quotients (integer exponents)"
+        - "Powers of zero"
+    - "Scientific notation":
+        "subtopics":
+        - "Scientific notation intro"
+        - "Scientific notation examples"
+        - "Scientific notation example: 0.0000000003457"
+        - "Multiplying in scientific notation example"
+        - "Multiplying & dividing in scientific notation"
+        - "Multiplying three numbers in scientific notation"
+    - "Scientific notation word problems":
+        "subtopics":
+        - "Scientific notation word problem: red blood cells"
+        - "Scientific notation word problem: U.S. national debt"
+        - "Scientific notation word problem: speed of light"

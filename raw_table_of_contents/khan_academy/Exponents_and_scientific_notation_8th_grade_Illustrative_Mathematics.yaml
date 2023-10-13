@@ -1,0 +1,30 @@
+"course":
+  "Exponents and scientific notation 8th grade (Illustrative Mathematics):":
+    "topics":
+    - "Dividing powers of 10":
+        "subtopics":
+        - "The 0 & 1st power"
+        - "Dividing powers of 10"
+    - "Exponent properties":
+        "subtopics":
+        - "Exponent properties with products"
+        - "Exponent properties with quotients"
+        - "Negative exponent intuition"
+        - "Multiplying & dividing powers (integer exponents)"
+    - "Combining bases":
+        "subtopics":
+        - "Exponent properties with parentheses"
+        - "Combining bases"
+    - "Applications of arithmetic with powers of 10":
+        "subtopics":
+        - "Multiplying multiples of powers of 10"
+        - "Approximating with powers of 10"
+    - "Definition of scientific notation":
+        "subtopics":
+        - "Scientific notation example: 0.0000000003457"
+        - "Scientific notation examples"
+    - "Multiplying, dividing, and estimating with scientific notation":
+        "subtopics":
+        - "Multiplying in scientific notation example"
+        - "Multiplying & dividing in scientific notation"
+        - "Scientific notation word problem: U.S. national debt"

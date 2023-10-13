@@ -1,0 +1,87 @@
+"course":
+  "Basic Geometry and Measurement:":
+    "topics":
+    - "Intro to Area and Perimeter":
+        "subtopics":
+        - "Area Formula Intuition"
+        - "Multiply to Find Area"
+        - "Area and the Distributive Property"
+        - "Decompose Figures to Find Area"
+        - "Perimeter Intro"
+        - "Perimeter Word Problems"
+        - "Area Versus Perimeter"
+    - "Intro to Mass and Volume":
+        "subtopics":
+        - "Mass"
+        - "Volume"
+    - "Measuring Angles":
+        "subtopics":
+        - "Parts of Plane Figures"
+        - "Angle Introduction"
+        - "Angle Types"
+        - "Understanding Angle Measurement"
+        - "Measuring Angles"
+        - "Decomposing Angles"
+    - "Plane Figures":
+        "subtopics":
+        - "Quadrilaterals Introduction"
+        - "Classifying Triangles"
+        - "Parallel and Perpendicular"
+        - "Classifying Geometric Shapes"
+        - "Lines of Symmetry"
+        - "More on Quadrilaterals"
+    - "Volume":
+        "subtopics":
+        - "Volume with Unit Cubes"
+        - "Volume of Rectangular Prisms"
+        - "Decompose Figures to Find Volumes"
+        - "Volume Word Problems"
+    - "Coordinate Plane":
+        "subtopics":
+        - "Intro to the Coordinate Plane"
+        - "Coordinate Plane Word Problems"
+        - "Points in All Four Quadrants"
+        - "Problem Solving in All Quadrants"
+    - "Decomposing to Find Area":
+        "subtopics":
+        - "Area of Parallelograms"
+        - "Area of Triangles"
+        - "Area and Perimeter on the Coordinate Plane"
+        - "Area of Composite Figures"
+    - "3D Figures":
+        "subtopics":
+        - "Rectangular Prism Volume with Fractions"
+        - "Surface Area with Nets"
+        - "Finding Surface Area"
+        - "Slicing Geometric Shapes"
+        - "Volume and Surface Area Word Problems"
+    - "Circles, Cylinders, Cones, and Spheres":
+        "subtopics":
+        - "Area and Circumference of Circles"
+        - "Area and Circumference of Fractions of Circles"
+        - "Volume of Cylinders, Spheres, and Cones"
+    - "Angle Relationships":
+        "subtopics":
+        - "Vertical, Complementary, and Supplementary Angles"
+        - "Missing Angles Problems"
+        - "Parallel Lines and Transversals"
+        - "Triangle Angles"
+    - "Scale":
+        "subtopics":
+        - "Scale Copies"
+        - "Scale Drawings"
+    - "Triangle Side Lengths":
+        "subtopics":
+        - "Constructing Triangles"
+        - "Pythagorean Theorem"
+        - "Pythagorean Theorem Application"
+        - "Pythagorean Theorem and Distance Between Points"
+    - "Geometric Transformations":
+        "subtopics":
+        - "Transformations Intro"
+        - "Translations"
+        - "Rotations"
+        - "Reflections"
+        - "Properties & Definitions of Transformations"
+        - "Dilations"
+        - "Congruence and Similarity"

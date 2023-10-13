@@ -1,0 +1,46 @@
+"course":
+  "AP®︎ Calculus AB Standards mappings AP®︎/College Calculus AB:":
+    "topics":
+    - "Limits and Continuity":
+        "subtopics":
+        - "Understanding Limits"
+        - "Calculating Limits"
+        - "Continuity in a Function"
+        - "Intermediate Value Theorem"
+        - "Limit Laws"
+        - "Squeeze Theorem"
+        - "Indeterminate Forms"
+    - "Derivatives":
+        "subtopics":
+        - "Definition of Derivative"
+        - "Power Rule"
+        - "Product Rule"
+        - "Quotient Rule"
+        - "Chain Rule"
+        - "Implicit Differentiation"
+        - "Higher Order Derivatives"
+        - "L'Hopital's Rule"
+    - "Applications of Derivatives":
+        "subtopics":
+        - "Related Rates"
+        - "Optimization Problems"
+        - "Mean Value Theorem"
+        - "Curve Sketching"
+        - "Newton's Method"
+        - "Differentials"
+    - "Integrals":
+        "subtopics":
+        - "Definite Integrals"
+        - "Fundamental Theorem of Calculus"
+        - "Integration by Substitution"
+        - "Integration by Parts"
+        - "Partial Fractions"
+        - "Improper Integrals"
+    - "Applications of Integrals":
+        "subtopics":
+        - "Area Between Curves"
+        - "Volume of Revolution"
+        - "Arc Length"
+        - "Surface Area of Revolution"
+        - "Work Done by a Variable Force"
+        - "Moments and Centers of Mass"

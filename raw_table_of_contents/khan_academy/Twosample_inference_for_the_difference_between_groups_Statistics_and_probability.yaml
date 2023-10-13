@@ -1,0 +1,16 @@
+"course":
+  "Two-sample inference for the difference between groups: Statistics and probability:":
+    "topics":
+    - "Comparing two proportions":
+        "subtopics":
+        - "Comparing population proportions 1"
+        - "Comparing population proportions 2"
+        - "Hypothesis test comparing population proportions"
+    - "Comparing two means":
+        "subtopics":
+        - "Statistical significance of experiment"
+        - "Statistical significance on bus speeds"
+        - "Difference of sample means distribution"
+        - "Confidence interval of difference of means"
+        - "Clarification of confidence interval of difference of means"
+        - "Hypothesis test for difference of means"

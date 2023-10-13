@@ -1,0 +1,35 @@
+"course":
+  "Linear equations Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "Interpreting linear expressions":
+        "subtopics":
+        - "Interpreting linear expressions: diamonds"
+        - "Interpreting linear expressions: flowers"
+        - "Writing expressions word problems"
+    - "Writing equations to model relationships":
+        "subtopics":
+        - "Two-step equation word problem: garden"
+        - "Two-step equation word problem: oranges"
+    - "Equations and their solutions":
+        "subtopics":
+        - "Solutions to 2-variable equations"
+        - "Worked example: solutions to 2-variable equations"
+        - "Completing solutions to 2-variable equations"
+    - "Equations and their graphs":
+        "subtopics":
+        - "Dependent & independent variables: graphing"
+        - "Graphing a linear equation: y=2x+7"
+        - "Interpreting graphs of proportional relationships"
+    - "Equivalent equations":
+        "subtopics":
+        - "Reasoning with linear equations"
+        - "Which variable to solve for?"
+        - "Linear equations with unknown coefficients"
+    - "Connecting equations to graphs":
+        "subtopics":
+        - "Intro to intercepts"
+        - "x-intercept of a line"
+        - "Intercepts from an equation"
+        - "Intro to linear equation standard form"
+        - "Graphing a linear equation: 5x+2y=20"
+        - "Slope from equation"

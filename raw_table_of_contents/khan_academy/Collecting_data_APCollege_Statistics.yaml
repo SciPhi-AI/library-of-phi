@@ -1,0 +1,26 @@
+"course":
+  "Collecting data: AP®︎/College Statistics:":
+    "topics":
+    - "Introduction to planning a study":
+        "subtopics":
+        - "Identifying a sample and population"
+        - "Generalizability of survey results example"
+        - "Types of studies"
+        - "Worked example identifying observational study"
+        - "Invalid conclusions from studies example"
+    - "Potential problems with sampling":
+        "subtopics":
+        - "Examples of bias in surveys"
+        - "Example of undercoverage introducing bias"
+    - "Random sampling and data collection":
+        "subtopics":
+        - "Techniques for generating a simple random sample"
+        - "Techniques for random sampling and avoiding bias"
+        - "Systematic random sampling"
+    - "Introduction to experimental design":
+        "subtopics":
+        - "Introduction to experiment design"
+        - "Matched pairs experiment design"
+    - "Inference and experiments":
+        "subtopics":
+        - "Statistical significance of experiment"

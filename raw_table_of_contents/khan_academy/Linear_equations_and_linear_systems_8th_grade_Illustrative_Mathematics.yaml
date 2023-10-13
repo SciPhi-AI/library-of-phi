@@ -1,0 +1,48 @@
+"course":
+  "Linear equations and linear systems 8th grade (Illustrative Mathematics):":
+    "topics":
+    - "Balanced moves":
+        "subtopics":
+        - "Intro to equations with variables on both sides"
+        - "Equations with variables on both sides: 20-7x=6x-6"
+    - "More balanced moves":
+        "subtopics":
+        - "Equations with parentheses"
+        - "Extra practice: Linear equations"
+        - "Sums of consecutive integers"
+        - "Sum of integers challenge"
+        - "Equation practice with vertical angles"
+        - "Equation practice with complementary angles"
+        - "Equation practice with supplementary angles"
+    - "All, some, or no solutions":
+        "subtopics":
+        - "Creating an equation with no solutions"
+        - "Creating an equation with infinitely many solutions"
+    - "How many solutions?":
+        "subtopics":
+        - "Number of solutions to equations"
+        - "Worked example: number of solutions to equations"
+    - "When are they the same?":
+        "subtopics":
+        - "Age word problem: Imran"
+        - "Age word problem: Ben & William"
+        - "Age word problem: Arman & Diya"
+    - "Systems of equations":
+        "subtopics":
+        - "Systems of equations: trolls, tolls (1 of 2)"
+        - "Systems of equations: trolls, tolls (2 of 2)"
+        - "Systems of equations with graphing"
+        - "Systems of equations with graphing: y=7/5x-5 & y=3/5x-1"
+    - "Solving systems of equations":
+        "subtopics":
+        - "Systems of equations with substitution: y=-1/4x+100 & y=-1/4x+120"
+        - "Number of solutions to a system of equations graphically"
+    - "Solving more systems":
+        "subtopics":
+        - "Systems of equations with substitution: 2y=x+7 & x=y-4"
+        - "Systems of equations with substitution: y=4x-17.5 & y+2x=6.5"
+        - "Systems of equations with substitution: y=-5x+8 & 10x+2y=-2"
+    - "Solving problems with systems of equations":
+        "subtopics":
+        - "System of equations word problem: no solution"
+        - "Systems of equations with substitution: coins"

@@ -1,0 +1,22 @@
+"course":
+  "Triangle side lengths: Basic geometry and measurement:":
+    "topics":
+    - "Constructing triangles":
+        "subtopics":
+        - "Construct a right isosceles triangle"
+        - "Construct a triangle with constraints"
+        - "Triangle inequality theorem"
+    - "Pythagorean theorem":
+        "subtopics":
+        - "Intro to the Pythagorean theorem"
+        - "Pythagorean theorem example"
+        - "Pythagorean theorem with isosceles triangle"
+    - "Pythagorean theorem application":
+        "subtopics":
+        - "Use Pythagorean theorem to find area of an isosceles triangle"
+        - "Pythagorean theorem word problem: carpet"
+        - "Pythagorean theorem word problem: fishing boat"
+        - "Pythagorean theorem in 3D"
+    - "Pythagorean theorem and distance between points":
+        "subtopics":
+        - "Distance formula"

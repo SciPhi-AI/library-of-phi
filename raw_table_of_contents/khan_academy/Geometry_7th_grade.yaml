@@ -1,0 +1,41 @@
+"course":
+  "Geometry 7th grade:":
+    "topics":
+    - "Understanding Circles":
+        "subtopics":
+        - "Radius, Diameter, Circumference & π"
+        - "Labeling Parts of a Circle"
+        - "Radius & Diameter from Circumference"
+        - "Relating Circumference and Area"
+        - "Area of a Circle"
+        - "Partial Circle Area and Arc Length"
+        - "Area and Circumference Challenge Problems"
+        - "Finding Circumference of a Circle when Given the Area"
+        - "Area of a Shaded Region"
+        - "Impact of Increasing the Radius"
+    - "Introduction to Angles":
+        "subtopics":
+        - "Vertical, Complementary, and Supplementary Angles"
+        - "Angles: Introduction"
+        - "Complementary & Supplementary Angles"
+        - "Vertical Angles"
+        - "Vertical Angles are Congruent Proof"
+        - "Missing Angle Problems"
+        - "Find Measure of Vertical Angles"
+        - "Find Measure of Angles Word Problem"
+        - "Equation Practice with Complementary Angles"
+        - "Equation Practice with Supplementary Angles"
+        - "Equation Practice with Vertical Angles"
+    - "Constructing Triangles":
+        "subtopics":
+        - "Construct a Right Isosceles Triangle"
+        - "Construct a Triangle with Constraints"
+        - "Triangle Inequality Theorem"
+    - "Slicing Geometric Shapes":
+        "subtopics":
+        - "Slicing a Rectangular Pyramid"
+    - "Volume and Surface Area Word Problems":
+        "subtopics":
+        - "Volume Word Problem: Gold Ring"
+        - "Volume of Triangular Prism & Cube"
+        - "Volume of Rectangles Inside Rectangles"

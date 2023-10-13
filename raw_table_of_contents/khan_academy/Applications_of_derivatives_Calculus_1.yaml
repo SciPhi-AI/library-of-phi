@@ -1,0 +1,46 @@
+"course":
+  "Applications of derivatives Calculus 1:":
+    "topics":
+    - "Meaning of the Derivative in Context":
+        "subtopics":
+        - "Interpreting the Meaning of the Derivative in Context"
+        - "Straight-line Motion"
+        - "Introduction to One-dimensional Motion with Calculus"
+        - "Interpreting Direction of Motion from Position-time Graph"
+        - "Interpreting Direction of Motion from Velocity-time Graph"
+        - "Interpreting Change in Speed from Velocity-time Graph"
+        - "Worked Example: Motion Problems with Derivatives"
+        - "Analyzing Straight-line Motion Graphically"
+        - "Total Distance Traveled with Derivatives"
+    - "Non-motion Applications of Derivatives":
+        "subtopics":
+        - "Applied Rate of Change: Forgetfulness"
+        - "Marginal Cost & Differential Calculus"
+    - "Introduction to Related Rates":
+        "subtopics":
+        - "Related Rates Intro"
+        - "Analyzing Related Rates Problems: Expressions"
+        - "Analyzing Related Rates Problems: Equations (Pythagoras)"
+        - "Analyzing Related Rates Problems: Equations (Trig)"
+        - "Differentiating Related Functions Intro"
+        - "Worked Example: Differentiating Related Functions"
+        - "Related Rates: Approaching Cars"
+        - "Related Rates: Falling Ladder"
+        - "Related Rates: Water Pouring into a Cone"
+        - "Related Rates: Shadow"
+        - "Related Rates: Balloon"
+    - "Approximation with Local Linearity":
+        "subtopics":
+        - "Local Linearity"
+        - "Local Linearity and Differentiability"
+        - "Worked Example: Approximation with Local Linearity"
+        - "Linear Approximation of a Rational Function"
+    - "L’Hôpital’s Rule":
+        "subtopics":
+        - "L'Hôpital's Rule Introduction"
+        - "L'Hôpital's Rule: Limit at 0 Example"
+        - "L'Hôpital's Rule: Limit at Infinity Example"
+        - "L'Hôpital's Rule: Challenging Problem"
+        - "L'Hôpital's Rule: Solve for a Variable"
+        - "Proof of Special Case of L'Hôpital's Rule"
+        - "L’Hôpital’s Rule: Composite Exponential Functions"

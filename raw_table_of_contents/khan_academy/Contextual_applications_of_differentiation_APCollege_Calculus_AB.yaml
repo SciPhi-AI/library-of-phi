@@ -1,0 +1,40 @@
+"course":
+  "Contextual applications of differentiation AP®︎/College Calculus AB:":
+    "topics":
+    - "Interpreting the meaning of the derivative in context":
+        "subtopics":
+        - "Straight-line motion: connecting position, velocity, and acceleration"
+        - "Interpreting direction of motion from position-time graph"
+        - "Interpreting direction of motion from velocity-time graph"
+        - "Interpreting change in speed from velocity-time graph"
+        - "Worked example: Motion problems with derivatives"
+    - "Rates of change in other applied contexts (non-motion problems)":
+        "subtopics":
+        - "Applied rate of change: forgetfulness"
+        - "Marginal cost & differential calculus"
+    - "Introduction to related rates":
+        "subtopics":
+        - "Analyzing related rates problems: expressions"
+        - "Analyzing related rates problems: equations (Pythagoras)"
+        - "Analyzing related rates problems: equations (trig)"
+        - "Differentiating related functions intro"
+        - "Worked example: Differentiating related functions"
+    - "Related rates problems":
+        "subtopics":
+        - "Related rates: Approaching cars"
+        - "Related rates: Falling ladder"
+        - "Related rates: water pouring into a cone"
+        - "Related rates: shadow"
+        - "Related rates: balloon"
+    - "Approximating values of a function using local linearity and linearization":
+        "subtopics":
+        - "Local linearity"
+        - "Local linearity and differentiability"
+        - "Worked example: Approximation with local linearity"
+        - "Linear approximation of a rational function"
+    - "Using L’Hôpital’s rule for finding limits of indeterminate forms":
+        "subtopics":
+        - "L'Hôpital's rule introduction"
+        - "L'Hôpital's rule: limit at 0 example"
+        - "L'Hôpital's rule: limit at infinity example"
+        - "Proof of special case of l'Hôpital's rule"

@@ -1,0 +1,16 @@
+"course":
+  "Advanced regression (inference and transforming) Statistics and probability:":
+    "topics":
+    - "Inference about slope":
+        "subtopics":
+        - "Introduction to inference about slope in linear regression"
+        - "Conditions for inference on slope"
+        - "Confidence interval for the slope of a regression line"
+        - "Calculating t statistic for slope of regression line"
+        - "Using a P-value to make conclusions in a test about slope"
+        - "Using a confidence interval to test slope"
+    - "Nonlinear regression":
+        "subtopics":
+        - "Comparing models to fit data example"
+        - "Transforming nonlinear data"
+        - "Worked example of linear regression using transformed data"

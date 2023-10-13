@@ -1,0 +1,56 @@
+"course":
+  "Probability and combinatorics: Precalculus:":
+    "topics":
+    - "Venn diagrams and the addition rule":
+        "subtopics":
+        - "Probability with Venn diagrams"
+        - "Addition rule for probability"
+    - "Multiplication rule for probabilities":
+        "subtopics":
+        - "Compound probability of independent events"
+        - "Independent events example: test taking"
+        - "General multiplication rule example: independent events"
+        - "Dependent probability introduction"
+        - "General multiplication rule example: dependent events"
+        - "Interpreting general multiplication rule"
+    - "Permutations":
+        "subtopics":
+        - "Factorial and counting seat arrangements"
+        - "Permutation formula"
+        - "Possible three letter words"
+        - "Zero factorial or  0!"
+        - "Ways to arrange colors"
+        - "Ways to pick officers"
+    - "Combinations":
+        "subtopics":
+        - "Intro to combinations"
+        - "Combination formula"
+        - "Handshaking combinations"
+        - "Combination example: 9 card hands"
+    - "Probability using combinatorics":
+        "subtopics":
+        - "Probability using combinations"
+        - "Example:  Lottery probability"
+        - "Example:  Different ways to pick officers"
+        - "Probability with permutations & combinations example: taste testing"
+        - "Probability with combinations example: choosing groups"
+        - "Probability with combinations example: choosing cards"
+        - "Mega millions jackpot probability"
+    - "Probability distributions introduction":
+        "subtopics":
+        - "Constructing a probability distribution for random variable"
+        - "Valid discrete probability distribution examples"
+        - "Probability with discrete random variable example"
+        - "Theoretical & empirical probability distributions"
+        - "Theoretical probability distribution example: tables"
+        - "Theoretical probability distribution example: multiplication"
+        - "Probability distributions from empirical data"
+    - "Decisions with probability":
+        "subtopics":
+        - "Using probabilities to make fair decisions example"
+    - "Expected value":
+        "subtopics":
+        - "Mean (expected value) of a discrete random variable"
+        - "Interpreting expected value"
+        - "Expected payoff example: lottery ticket"
+        - "Expected payoff example: protection plan"

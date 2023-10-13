@@ -1,0 +1,21 @@
+"course":
+  "Perimeter 3rd grade:":
+    "topics":
+    - "Introduction to Perimeter":
+        "subtopics":
+        - "Understanding Perimeter"
+        - "Perimeter of a Shape"
+    - "Finding Perimeter":
+        "subtopics":
+        - "Finding Perimeter with Known Side Lengths"
+        - "Finding Perimeter when a Side Length is Missing"
+        - "Finding Missing Side Length when Given Perimeter"
+    - "Perimeter Word Problems":
+        "subtopics":
+        - "Basic Perimeter Word Problems"
+        - "Perimeter Word Problem: Tables"
+        - "Perimeter Word Problem: Skating Rink"
+    - "Comparing Perimeters":
+        "subtopics":
+        - "Comparing Perimeters of Different Shapes"
+        - "Comparing Areas and Perimeters of Rectangles"

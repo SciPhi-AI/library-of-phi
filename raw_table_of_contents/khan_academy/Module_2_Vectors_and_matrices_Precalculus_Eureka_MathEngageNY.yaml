@@ -1,0 +1,53 @@
+"course":
+  "Module 2 Vectors and matrices Precalculus (Eureka Math/EngageNY):":
+    "topics":
+    - "Networks and matrices":
+        "subtopics":
+        - "Using matrices to represent data: Networks"
+        - "Using matrices to represent data: Payoffs"
+        - "Using matrices to manipulate data: Pet store"
+        - "Using matrices to manipulate data: Game show"
+        - "Representing linear systems with matrix equations"
+        - "Solving linear systems with matrices"
+        - "Matrix word problem: vector combination"
+        - "Matrix word problem: prices"
+    - "Lessons 17-18: Vectors in the coordinate plane":
+        "subtopics":
+        - "Intro to vectors and scalars"
+        - "Recognizing vectors"
+        - "Equivalent vectors"
+        - "Vector magnitude from graph"
+        - "Vector magnitude from components"
+        - "Vector magnitude from initial & terminal points"
+        - "Scalar multiplication: component form"
+        - "Adding & subtracting vectors"
+    - "Lesson 19: Directed line segments and vectors":
+        "subtopics":
+        - "Finding the components of a vector"
+        - "Comparing the components of vectors"
+        - "Scalar multiplication: magnitude and direction"
+        - "Adding & subtracting vectors end-to-end"
+        - "Subtracting vectors end-to-end"
+        - "Adding vectors algebraically & graphically"
+        - "Combined vector operations"
+    - "Lessons 20: Vectors and stone bridges":
+        "subtopics":
+        - "Direction of vectors from components: 1st & 2nd quadrants"
+        - "Direction of vectors from components: 3rd & 4th quadrants"
+        - "Vector components from magnitude & direction"
+        - "Adding vectors in magnitude & direction form (1 of 2)"
+        - "Adding vectors in magnitude & direction form (2 of 2)"
+        - "Vector addition & magnitude"
+    - "Lessons 23-24: Why are vectors useful?":
+        "subtopics":
+        - "Vector components from magnitude & direction: word problem"
+        - "Vectors word problem: tug of war"
+        - "Vector word problem: hiking"
+    - "First-person video games—projection matrices":
+        "subtopics":
+        - "How one-point linear perspective works"
+        - "Ray tracing intuition"
+        - "Parametric form of a ray"
+        - "Calculate intersection point"
+        - "Using the line equation"
+        - "3D ray tracing part 1"

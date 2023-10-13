@@ -1,0 +1,39 @@
+"course":
+  "Module 6: Linear functions: 8th grade (Eureka Math/EngageNY):":
+    "topics":
+    - "Linear functions":
+        "subtopics":
+        - "Recognizing linear functions"
+        - "Linear & nonlinear functions: table"
+        - "Linear & nonlinear functions: word problem"
+        - "Linear & nonlinear functions: missing value"
+        - "Interpreting a graph example"
+        - "Comparing linear functions: equation vs. graph"
+        - "Comparing linear functions: same rate of change"
+        - "Comparing linear functions: faster rate of change"
+    - "Bivariate numerical data":
+        "subtopics":
+        - "Constructing a scatter plot"
+        - "Example of direction in scatterplots"
+        - "Scatter plot: smokers"
+        - "Estimating the line of best fit exercise"
+        - "Line of best fit: smoking in 1945"
+        - "Interpreting a trend line"
+    - "Linear and nonlinear models":
+        "subtopics":
+        - "Linear graphs word problems"
+        - "Linear graphs word problem: cats"
+        - "Linear equations word problems: volcano"
+        - "Linear equations word problems: earnings"
+        - "Modeling with linear equations: snow"
+        - "Comparing linear functions word problem: climb"
+        - "Comparing linear functions word problem: walk"
+        - "Comparing linear functions word problem: work"
+        - "Linear function example: spending money"
+        - "Modeling with linear equations: gym membership & lemonade"
+        - "Fitting a line to data"
+    - "Bivariate categorical data":
+        "subtopics":
+        - "Two-way frequency tables and Venn diagrams"
+        - "Two-way relative frequency tables"
+        - "Interpreting two-way tables"

@@ -1,0 +1,29 @@
+"course":
+  "Intro to multiplication: Arithmetic:":
+    "topics":
+    - "Introduction to multiplication":
+        "subtopics":
+        - "Multiplication as equal groups"
+        - "Multiplication as repeated addition"
+        - "Multiplication on the number line"
+        - "Multiply using groups of objects"
+    - "Multiplication with arrays":
+        "subtopics":
+        - "Understanding arrays"
+        - "Creating arrays"
+        - "Multiplication using arrays"
+    - "Commutative property of multiplication":
+        "subtopics":
+        - "Understanding commutative property"
+        - "Applying commutative property in multiplication"
+        - "Examples of commutative property"
+    - "Multiplication on the number line":
+        "subtopics":
+        - "Understanding number line"
+        - "Multiplication using number line"
+        - "Examples of multiplication on number line"
+    - "Multiplication as equal groups":
+        "subtopics":
+        - "Understanding equal groups"
+        - "Multiplication using equal groups"
+        - "Examples of multiplication with equal groups"

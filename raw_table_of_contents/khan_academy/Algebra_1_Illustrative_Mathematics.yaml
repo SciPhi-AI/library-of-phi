@@ -1,0 +1,108 @@
+"course":
+  "Algebra 1 (Illustrative Mathematics):":
+    "topics":
+    - "One-variable statistics (part 1)":
+        "subtopics":
+        - "Data representations"
+        - "Comparing data displays"
+        - "The shape of distributions"
+    - "One-variable statistics (part 2)":
+        "subtopics":
+        - "Calculating measures of center & variability"
+        - "Comparing & contrasting data distributions"
+        - "Standard deviation"
+        - "Outliers"
+    - "Linear equations":
+        "subtopics":
+        - "Interpreting linear expressions"
+        - "Writing equations to model relationships"
+        - "Equations and their solutions"
+        - "Equations and their graphs"
+        - "Equivalent equations"
+        - "Which variable to solve for?"
+        - "Connecting equations to graphs"
+    - "Systems of linear equations":
+        "subtopics":
+        - "Writing & graphing systems of linear equations"
+        - "Solving systems by substitution"
+        - "Solving systems by elimination (part 1)"
+        - "Solving systems by elimination (part 2)"
+        - "Solving systems by elimination (part 3)"
+        - "Systems of linear equations and their solutions"
+    - "Inequalities":
+        "subtopics":
+        - "Writing & solving inequalities in one variable"
+        - "Graphing linear inequalities in two variables"
+        - "Solving problems with inequalities in two variables"
+        - "Solutions to systems of linear inequalities in two variables"
+        - "Solving problems with systems of linear inequalities in two variables"
+    - "Two-variable statistics":
+        "subtopics":
+        - "Two-way tables"
+        - "Relative frequency tables"
+        - "Associations in categorical data"
+        - "Linear models"
+        - "Residuals"
+        - "The correlation coefficient"
+        - "Causal relationships"
+    - "Functions (part 1)":
+        "subtopics":
+        - "Describing & graphing situations"
+        - "Function notation"
+        - "Interpreting & using function notation"
+        - "Using function notation to describe rules"
+    - "Functions (part 2)":
+        "subtopics":
+        - "Features of graphs"
+        - "Using graphs to find average rate of change"
+        - "Domain & range"
+    - "Piecewise, absolute value, & inverse functions":
+        "subtopics":
+        - "Piecewise functions"
+        - "Absolute value functions"
+        - "Inverse functions"
+    - "Introduction to exponential functions":
+        "subtopics":
+        - "Patterns of growth"
+        - "Properties of exponents review"
+        - "Representing exponential growth"
+        - "Understanding decay"
+        - "Representing exponential decay"
+    - "Analyzing exponential functions":
+        "subtopics":
+        - "Analyzing graphs"
+        - "Using negative exponents"
+        - "Modeling exponential behavior"
+        - "Expressed in different ways"
+        - "Which one changes faster?"
+    - "Introduction to quadratic functions":
+        "subtopics":
+        - "Intro to quadratics & parabolas"
+        - "Equivalent quadratic expressions"
+        - "Graphing from the factored form"
+        - "Graphs that represent situations"
+        - "Graphing from the vertex form"
+        - "Changing the vertex"
+    - "Quadratic equations (part 1)":
+        "subtopics":
+        - "Solving quadratic functions by reasoning"
+        - "Solving quadratic equations with the zero product property"
+        - "Rewriting quadratic expressions in factored form"
+        - "Solving quadratic equations by using factored form"
+        - "Rewriting quadratic expressions in factored form (continued)"
+    - "Quadratic equations (part 2)":
+        "subtopics":
+        - "What are perfect squares?"
+        - "Completing the square (part 1)"
+        - "Completing the square (part 3)"
+        - "The quadratic formula"
+        - "Applying the quadratic formula (part 1)"
+        - "Applying the quadratic formula (part 2)"
+        - "Deriving the quadratic formula"
+        - "Rational & irrational solutions"
+        - "Sums & products of rational & irrational numbers"
+    - "Quadratic equations (part 3)":
+        "subtopics":
+        - "Rewriting quadratic expressions in vertex form"
+        - "Using quadratic expressions in vertex form to solve problems"
+        - "Using quadratic equations to model situations and solve problems"

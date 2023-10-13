@@ -1,0 +1,63 @@
+"course":
+  "Random variables: Statistics and probability:":
+    "topics":
+    - "Discrete random variables":
+        "subtopics":
+        - "Random variables"
+        - "Discrete and continuous random variables"
+        - "Constructing a probability distribution for random variable"
+        - "Probability models example: frozen yogurt"
+        - "Valid discrete probability distribution examples"
+        - "Probability with discrete random variable example"
+        - "Mean (expected value) of a discrete random variable"
+        - "Variance and standard deviation of a discrete random variable"
+    - "Continuous random variables":
+        "subtopics":
+        - "Probability density functions"
+        - "Probabilities from density curves"
+    - "Transforming random variables":
+        "subtopics":
+        - "Impact of transforming (scaling and shifting) random variables"
+        - "Example: Transforming a discrete random variable"
+    - "Combining random variables":
+        "subtopics":
+        - "Mean of sum and difference of random variables"
+        - "Variance of sum and difference of random variables"
+        - "Intuition for why independence matters for variance of sum"
+        - "Deriving the variance of the difference of random variables"
+        - "Example: Analyzing distribution of sum of two normally distributed random\
+          \ variables"
+        - "Example: Analyzing the difference in distributions"
+    - "Binomial random variables":
+        "subtopics":
+        - "Binomial variables"
+        - "Recognizing binomial variables"
+        - "10% Rule of assuming 'independence' between trials"
+        - "Binomial distribution"
+        - "Visualizing a binomial distribution"
+        - "Binomial probability example"
+        - "Generalizing k scores in n attempts"
+        - "Free throw binomial probability distribution"
+        - "Graphing basketball binomial distribution"
+        - "Binompdf and binomcdf functions"
+        - "Binomial mean and standard deviation formulas"
+    - "Geometric random variables":
+        "subtopics":
+        - "Geometric random variables introduction"
+        - "Probability for a geometric random variable"
+        - "Cumulative geometric probability (greater than a value)"
+        - "Cumulative geometric probability (less than a value)"
+        - "TI-84 geometpdf and geometcdf functions"
+        - "Proof of expected value of geometric random variable"
+    - "More on expected value":
+        "subtopics":
+        - "Term life insurance and death probability"
+        - "Getting data from expected value"
+        - "Expected profit from lottery ticket"
+        - "Expected value while fishing"
+        - "Comparing insurance with expected value"
+        - "Law of large numbers"
+    - "Poisson distribution":
+        "subtopics":
+        - "Poisson process 1"
+        - "Poisson process 2"

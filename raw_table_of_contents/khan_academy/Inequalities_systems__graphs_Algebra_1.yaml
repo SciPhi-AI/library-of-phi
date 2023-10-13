@@ -1,0 +1,27 @@
+"course":
+  "Inequalities (systems & graphs) Algebra 1:":
+    "topics":
+    - "Checking Solutions of Two-variable Inequalities":
+        "subtopics":
+        - "Testing Solutions to Inequalities"
+        - "Testing Solutions to Systems of Inequalities"
+    - "Graphing Two-variable Inequalities":
+        "subtopics":
+        - "Intro to Graphing Two-variable Inequalities"
+        - "Graphing Two-variable Inequalities"
+        - "Two-variable Inequalities from Their Graphs"
+    - "Graphing Systems of Inequalities":
+        "subtopics":
+        - "Intro to Graphing Systems of Inequalities"
+        - "Graphing Systems of Inequalities"
+    - "Modeling with Linear Inequalities":
+        "subtopics":
+        - "Writing Two-variable Inequalities Word Problem"
+        - "Solving Two-variable Inequalities Word Problem"
+        - "Interpreting Two-variable Inequalities Word Problem"
+    - "Modeling with Systems of Inequalities":
+        "subtopics":
+        - "Writing Systems of Inequalities Word Problem"
+        - "Solving Systems of Inequalities Word Problem"
+        - "Graphs of Systems of Inequalities Word Problem"
+        - "Graphs of Two-variable Inequalities Word Problem"

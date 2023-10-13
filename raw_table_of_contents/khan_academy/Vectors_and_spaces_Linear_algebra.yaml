@@ -1,0 +1,59 @@
+"course":
+  "Vectors and spaces: Linear algebra:":
+    "topics":
+    - "Vectors":
+        "subtopics":
+        - "Vector intro for linear algebra"
+        - "Real coordinate spaces"
+        - "Adding vectors algebraically & graphically"
+        - "Multiplying a vector by a scalar"
+        - "Vector examples"
+    - "Unit vectors intro":
+        "subtopics":
+        - "Parametric representations of lines"
+    - "Linear combinations and spans":
+        "subtopics":
+        - "Linear combinations and span"
+        - "Linear dependence and independence"
+        - "Introduction to linear independence"
+        - "More on linear independence"
+        - "Span and linear independence example"
+    - "Subspaces and the basis for a subspace":
+        "subtopics":
+        - "Linear subspaces"
+        - "Basis of a subspace"
+    - "Vector dot and cross products":
+        "subtopics":
+        - "Vector dot product and vector length"
+        - "Proving vector dot product properties"
+        - "Proof of the Cauchy-Schwarz inequality"
+        - "Vector triangle inequality"
+        - "Defining the angle between vectors"
+        - "Defining a plane in R3 with a point and normal vector"
+        - "Cross product introduction"
+        - "Proof: Relationship between cross product and sin of angle"
+        - "Dot and cross product comparison/intuition"
+        - "Vector triple product expansion"
+        - "Normal vector from plane equation"
+        - "Point distance to plane"
+        - "Distance between planes"
+    - "Matrices for solving systems by elimination":
+        "subtopics":
+        - "Solving a system of 3 equations and 4 variables using matrix row-echelon\
+          \ form"
+        - "Solving linear systems with matrices"
+        - "Using matrix row-echelon form in order to show a linear system has no solutions"
+    - "Null space and column space":
+        "subtopics":
+        - "Matrix vector products"
+        - "Introduction to the null space of a matrix"
+        - "Null space 2: Calculating the null space of a matrix"
+        - "Null space 3: Relation to linear independence"
+        - "Column space of a matrix"
+        - "Null space and column space basis"
+        - "Visualizing a column space as a plane in R3"
+        - "Proof: Any subspace basis has same number of elements"
+        - "Dimension of the null space or nullity"
+        - "Dimension of the column space or rank"
+        - "Showing relation between basis cols and pivot cols"
+        - "Showing that the candidate basis does span C(A)"
